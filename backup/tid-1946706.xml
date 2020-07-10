@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD 4000系列桌面APU的GPU性能有比较大的增长么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD 4000系列桌面APU的GPU性能有比较大的增长么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:09:56 +0000</lastBuildDate>
+    <item>
+      <title>AMD 4000系列桌面APU的GPU性能有比较大的增长么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946706-1-1.html</link>
+      <description>AMD 4000系列桌面APU的GPU性能有比较大的增长么&#13;
+搜了一圈，GPU性能大涨是确定了，但GPU核心似乎还是老VEGA，不过过去只有3200G和3400G两个，4000系列有更高规格的，不知道GPU性能是不是有比较大的增长
+&#13;
+最近想弄台省电型的APU机器，不知道是否有等一等的价值</description>
+      <content:encoded><![CDATA[<p><b>widder: </b><br>
+<span>AMD 4000系列桌面APU的GPU性能有比较大的增长么</span><br>
+<span>搜了一圈，GPU性能大涨是确定了，但GPU核心似乎还是老VEGA，不过过去只有3200G和3400G两个，4000系列有更高规格的，不知道GPU性能是不是有比较大的增长</span><br>
+<span>最近想弄台省电型的APU机器，不知道是否有等一等的价值</span><br>
+</p><p><b>okok123: </b><br>
+<span>同问，看到的资料貌似cpu部分提升30%左右，gpu部分提升10%左右？</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>相同sp看频率，默认2.1g你感受一下</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>okok123 发表于 2020-7-8 22:03</span><br>
+<span>同问，看到的资料貌似cpu部分提升30%左右，gpu部分提升10%左右？</span><br>
+<span>cpu提升大约130%，gpu有50%</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>有改进，而且内存频率和延迟都更强吧</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>重巡羊舰: </b><br>
+<span>这么大提升嘛，想把3400g换了，眼看这接口最后一代了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>okok123: </b><br>
+<span>shiraikuroko 发表于 2020-7-8 22:06</span><br>
+<span>cpu提升大约130%，gpu有50%</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>瞎说，哪里来的数据？</span><br>
+</p><p><b>雪影: </b><br>
+<span>Cpu直接看4600u跟4800u不就行了。gpu的话，考虑到TDP、散热条件跟内存桌面都有提升，gpu性能对比H版再up个20%</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>CPU部分更新到zen2+核心数翻倍，提升巨大</span><br>
+<span>不过每核L3 cache大小和上代APU一致，只有普通zen/zen+的一半，zen2的1/4</span><br>
+<span>内存延时得益于单die设计，已经有人干进50ns，追上牙膏普遍水平了</span><br>
+<span>GPU部分11CU砍到8CU但是大幅提频。不过本来核显瓶颈都在内存带宽上，这代内存上高频应该比上代容易很多，所以虽然砍CU，但GPU性能肯定是提高的</span><br>
+</p><p><b>okok123: </b><br>
+<span>雪影 发表于 2020-7-9 00:30</span><br>
+<span>Cpu直接看4600u跟4800u不就行了。gpu的话，考虑到TDP、散热条件跟内存桌面都有提升，gpu性能对比H版再up个2 ...</span><br>
+<span>GPU的最大制约是内存带宽啊，不要看不起4800U，这类笔记本都配到4266的双通道了……</span><br>
+</p><p><b>albertfu: </b><br>
+<span>okok123 发表于 2020-7-9 00:33</span><br>
+<span>GPU的最大制约是内存带宽啊，不要看不起4800U，这类笔记本都配到4266的双通道了…… ...</span><br>
+<span>4800u记得内存频率超过2666就FCLK分频了，实测带宽和延时拉胯，反倒是4800h配3200是不分频的。。。</span><br>
+<span>台机的话FCLK和内存频率延时自由调节，肯定比这俩笔记本APU强</span><br>
+</p><p><b>okok123: </b><br>
+<span>albertfu 发表于 2020-7-9 00:39</span><br>
+<span>4800u记得内存频率超过2666就FCLK分频了，实测带宽和延时拉胯，反倒是4800h配3200是不分频的。。。</span><br>
+<span>台机 ...</span><br>
+<span>这么看桌面版确实还有空间啊，不错不错</span><br>
+</p><p><b>u96: </b><br>
+<span>gpu那点提升也就聊胜于无，插好帧就好。</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>规格再高也没用，内存瓶颈在那里</span><br>
+</p><p><b>red4: </b><br>
+<span>在乎APU集显性能，那为何不买独显，再说目前AMD的集显GPU玩新版坦克世界也够用了，其他小型游戏也没问题</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>okok123 发表于 2020-7-8 23:34</span><br>
+<span>瞎说，哪里来的数据？</span><br>
+<span>ZEN1到ZEN2，核心数提升100%，频率提升15%，IPC提升10%，总计130%</span><br>
+<span>GPU都是VEGA8，频率提升50%，内存带宽带宽延迟也大幅度提升</span><br>
+<span>哪个数据有问题，你说说</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>okok123 发表于 2020-7-9 00:33</span><br>
+<span>GPU的最大制约是内存带宽啊，不要看不起4800U，这类笔记本都配到4266的双通道了…… ...</span><br>
+<span>最大制约是FCLK=IF频率，所有U版的CPU，IF都是默认自动降频的</span><br>
+<span>4700G可以固定IF至2000，比4800U至少提升50%，同时内存同步降低了损耗率，不会出现几乎每一个时钟都在等待传输</span><br>
+</p><p><b>navarra: </b><br>
+<span>规模从vega11砍成了vega8，频率加强，实际上该啥样还啥样.........</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>四代U只有Vega8一个型号？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>navarra 发表于 2020-7-9 10:47</span><br>
+<span>规模从vega11砍成了vega8，频率加强，实际上该啥样还啥样.........</span><br>
+<span>还有工艺提升后，不降频了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>Realplayer 发表于 2020-7-9 11:04</span><br>
+<span>四代U只有Vega8一个型号？</span><br>
+<span>和以前一样，VEGA3起步，4300U，大概叫4200G？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>Realplayer 发表于 2020-7-9 11:04</span><br>
+<span>四代U只有Vega8一个型号？</span><br>
+<span>最大vega8，还有各种阉割的</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>u96 发表于 2020-7-9 01:22</span><br>
+<span>gpu那点提升也就聊胜于无，插好帧就好。</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.2. ...</span><br>
+<span>+1，规模在那，显存带宽制约在那，上了navi又能强多少，还不如插帧实用</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946706[0-50]</guid>
+    </item>
+  </channel>
+</rss>

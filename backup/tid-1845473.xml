@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>进BIOS里把蓝牙关闭，然后再外接蓝牙接收器可行吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>进BIOS里把蓝牙关闭，然后再外接蓝牙接收器可行吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:09:26 +0000</lastBuildDate>
+    <item>
+      <title>进BIOS里把蓝牙关闭，然后再外接蓝牙接收器可行吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845473-1-1.html</link>
+      <description>进BIOS里把蓝牙关闭，然后再外接蓝牙接收器可行吗？&#13;
+ 本帖最后由 罐头卡 于 2019-7-9 20:06 编辑 
+
+老笔记本蓝牙模块很烂，脸贴机身信号都断断续续的，寻思着升级一下
+&#13;
+我如果进BIOS里把蓝牙disable掉，然后再在淘宝上买个蓝牙接收器，可以正常接收到蓝牙信号吗？
+&#13;
+（问了淘宝店家说是蓝牙接收器在本身就有蓝牙模块的笔记本上不能用，不是很懂）</description>
+      <content:encoded><![CDATA[<p><b>罐头卡: </b><br>
+<span>进BIOS里把蓝牙关闭，然后再外接蓝牙接收器可行吗？</span><br>
+<span> 本帖最后由 罐头卡 于 2019-7-9 20:06 编辑 </span><br>
+<span>老笔记本蓝牙模块很烂，脸贴机身信号都断断续续的，寻思着升级一下</span><br>
+<span>我如果进BIOS里把蓝牙disable掉，然后再在淘宝上买个蓝牙接收器，可以正常接收到蓝牙信号吗？</span><br>
+<span>（问了淘宝店家说是蓝牙接收器在本身就有蓝牙模块的笔记本上不能用，不是很懂）</span><br>
+</p><p><b>sirlion: </b><br>
+<span>蓝牙接收器天线在这个设备自己身上，和你原本的无关，因为蓝牙驱动一次只能用一个的原因吧</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>可以，外接蓝牙也是走USB的，你把内置蓝牙disable掉也没见USB不能用啊</span><br>
+<span>但是disable内置蓝牙的正常操作是写到CMOS设置或者网卡里，不排除哪家的睿智BIOS给了个相当于在Windows里关闭蓝牙的效果，那就不好说了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>直接换蓝牙模块不就完事儿了</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>试了一下笔记本自带蓝牙开着的话再插USB蓝牙会提示设备启用不成功，反过来启用顺序笔记本自带也一样会不成功。我的笔记本可以直接按FN+F12关闭原来的蓝牙然后再插USB就能用了；至于BIOS里关掉蓝牙的效果，我这台笔记本BIOS关掉蓝牙的话就是开机默认关闭蓝牙，再按FN+F12就能打开，不知道你笔记本是不是这种</span><br>
+<span>不过你要说外接蓝牙就普通的USB接收器的话我觉得可能也不见得能比原来的好吧，笔记本的蓝牙一般集成在无线网卡上的，和无线网卡共用通到笔记本屏幕后面的天线的</span><br>
+</p><p><b>罐头卡: </b><br>
+<span>谢谢各位大大，准备淘宝先换个原装蓝牙模块试试，要是拆坏了就直接换个新笔记本</span><br>
+</p><p><b>風駿: </b><br>
+<span>现在不都是无线网卡带蓝牙模块嘛，哪那么容易拆坏</span><br>
+</p><p><b>MARK2: </b><br>
+<span>网上搜一下你笔记本型号的拆机图，看网卡型号是不是集成蓝牙的。如果网卡集成蓝牙，就给网卡升级，如果是独立蓝牙模块，就根据厂家型号买个升级版的。</span><br>
+</p><p><b>zyhang: </b><br>
+<span>强尼高达 发表于 2019-7-9 20:18</span><br>
+<span>可以，外接蓝牙也是走USB的，你把内置蓝牙disable掉也没见USB不能用啊</span><br>
+<span>但是disable内置蓝牙的正常操作是写 ...</span><br>
+<span>当年ThinkPad蓝牙就是这样的。关闭蓝牙后重装系统，蓝牙驱动找不到硬件，智障至极</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845473[0-50]</guid>
+    </item>
+  </channel>
+</rss>

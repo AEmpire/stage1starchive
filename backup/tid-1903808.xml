@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>是不是所有虚拟机非直通无法达到实机流畅度?[可能解决]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>是不是所有虚拟机非直通无法达到实机流畅度?[可能解决]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:54 +0000</lastBuildDate>
+    <item>
+      <title>是不是所有虚拟机非直通无法达到实机流畅度?[可能解决][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903808-1-1.html</link>
+      <description>是不是所有虚拟机非直通无法达到实机流畅度?[可能解决]&#13;
+ 本帖最后由 塔奇克马 于 2019-12-18 20:15 编辑 
+
+测试了下
+&#13;
+virtualbox流畅度好于vm系列.
+&#13;
+---------------------
+&#13;
+vm12 14 15 都不行
+&#13;
+virtualbox 6.1 也不行
+&#13;
+就算有3d加速,乌班图 菜单速度,firefox浏览器翻阅流畅度也很惨.
+&#13;
+那么有没有例外的啊.</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>是不是所有虚拟机非直通无法达到实机流畅度?[可能解决]</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-18 20:15 编辑 </span><br>
+<span>测试了下</span><br>
+<span>virtualbox流畅度好于vm系列.</span><br>
+<span>---------------------</span><br>
+<span>vm12 14 15 都不行</span><br>
+<span>virtualbox 6.1 也不行</span><br>
+<span>就算有3d加速,乌班图 菜单速度,firefox浏览器翻阅流畅度也很惨.</span><br>
+<span>那么有没有例外的啊.</span><br>
+</p><p><b>562423321111: </b><br>
+<span>这让我想起mac下装虚拟机用office系列比直接用mac版要流畅的多的事了，哈哈哈，不过和楼主说的不是一码事</span><br>
+</p><p><b>Geminize: </b><br>
+<span>Docker</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>562423321111 发表于 2019-12-18 15:27</span><br>
+<span>这让我想起mac下装虚拟机用office系列比直接用mac版要流畅的多的事了，哈哈哈，不过和楼主说的不是一码事 ...</span><br>
+<span>主要是太惨了,一个滚轮下来半天才到</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>Geminize 发表于 2019-12-18 15:30</span><br>
+<span>Docker</span><br>
+<span>UI操作不是指ssh下性能.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-18 15:39 编辑 </span><br>
+<span>562423321111 发表于 2019-12-18 15:27</span><br>
+<span>这让我想起mac下装虚拟机用office系列比直接用mac版要流畅的多的事了，哈哈哈，不过和楼主说的不是一码事 ...</span><br>
+<span>刚才换了 chrome流畅多了而且还能html5视频非直播,几乎和实机差不多.这乌班图下的firefox啥毛病?</span><br>
+</p><p><b>wanxx: </b><br>
+<span>PCI passthrough</span><br>
+<span>图形性能损失 5% 上下(没实际试过)</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>虚拟机本来就不是给ui操作准备的</span><br>
+<span>性能esxi应该损失比较小，ui操作有话最好的虚拟机...安卓算吧</span><br>
+</p><p><b>ada_ovo: </b><br>
+<span>倾向于是设置有问题，VM15，vb16都好好的</span><br>
+</p><p><b>沧粟: </b><br>
+<span>aqasaz1928 发表于 2019-12-18 15:48</span><br>
+<span>虚拟机本来就不是给ui操作准备的</span><br>
+<span>性能esxi应该损失比较小，ui操作有话最好的虚拟机...安卓算吧 ...</span><br>
+<span>Java的运行时叫虚拟机却不是虚拟机</span><br>
+</p><p><b>macos: </b><br>
+<span>半虚拟有点损耗，以及一般来说，vm硬盘虚拟最好，内存迷一样的超过真实，但一般使用很难体现</span><br>
+<span>3d的虚拟几乎没太大进展，只做到图形接口层面</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>macos 发表于 2019-12-18 19:04</span><br>
+<span>半虚拟有点损耗，以及一般来说，vm硬盘虚拟最好，内存迷一样的超过真实，但一般使用很难体现</span><br>
+<span>3d的虚拟几乎 ...</span><br>
+<span>试了下virtualbox图形 好像比vm强. 主要UI卡顿程度感受和浏览器方面</span><br>
+<span>存储vdi也就那样.反正nvme上也无所谓了.</span><br>
+<span>半虚拟网卡还行,没有vm上那么多幺蛾子.暂时.</span><br>
+</p><p><b>eroneko: </b><br>
+<span>virtualbox 不是才 6.1 吗，这16是咋回事啊</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>eroneko 发表于 2019-12-18 20:13</span><br>
+<span>virtualbox 不是才 6.1 吗，这16是咋回事啊</span><br>
+<span>打错了</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>既然有win的机器了，linux有什么使用GUI的必要？</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>要性能为啥跑gui?</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>commanderyuri 发表于 2019-12-19 10:08</span><br>
+<span>既然有win的机器了，linux有什么使用GUI的必要？</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2. ...</span><br>
+<span>其实linux那个也很少用,虚拟机也是win用的多.就是随便测测,不想用VM了</span><br>
+</p><p><b>interestingtj: </b><br>
+<span>用虚拟机linux跑同一段Python代码比在win10上快，不知道什么原理</span><br>
+</p><p><b>夜语: </b><br>
+<span>不说虚拟机，远程桌面对性能到底有多大损耗？</span><br>
+<span>我一个1037U的下载机，在真机上操作时不能说流畅，感觉还行的样子</span><br>
+<span>用远程桌面连接差距非常明显。</span><br>
+<span>我用的自带的远程桌面且是千兆内网。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903808[0-50]</guid>
+    </item>
+  </channel>
+</rss>

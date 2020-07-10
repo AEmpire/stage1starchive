@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【bug10日常/已解决】吃鸡一启动就蓝屏，然后被ban了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【bug10日常/已解决】吃鸡一启动就蓝屏，然后被ban了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:11:16 +0000</lastBuildDate>
+    <item>
+      <title>【bug10日常/已解决】吃鸡一启动就蓝屏，然后被ban了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854755-1-1.html</link>
+      <description>【bug10日常/已解决】吃鸡一启动就蓝屏，然后被ban了&#13;
+ 本帖最后由 obiy 于 2019-11-16 13:10 编辑 
+
+主要表现是点击Steam的Play按钮后，就直接蓝屏。错误代码是PAGE_FAULT_IN_NONPAGED_AREA
+&#13;
+OS为Win10 1903（18362.295）
+&#13;
+自己用windbg看minidump文件，似乎是BEDaisy.sys（Battleeye）引起的
+&#13;
+不过还有一个症状是吃鸡有时的状态是“未安装”，明明没有手动卸载过。点击Install的话就会检查已有文件，然后启动，然后看不到logo就蓝屏了
+&#13;
+如果这是个常见的bug的话应该有一部分主播中招了，但又似乎没有，该如何继续排查这bug呢？
+&#13;
+尝试开启/关闭Windows Defender Credential Guard，没有效果，似乎不是因为开启内存保护蓝的。
+&#13;
+也在吃鸡论坛发了bug report，按照建议跑了磁盘检查、系统文件检查和内存测试，都跑完了还是蓝屏
+&#13;
+https://forums.pubg.com/topic/361769-pubg-triggers-blue-screen-after-windows-update/
+&#13;
+或者我问问打了70小时的快递能不能退款收到客服邮件不能退款了
+&#13;
+19.8.29更新：似乎吃鸡更新把问题修好了，我也被官方论坛ban了</description>
+      <content:encoded><![CDATA[<p><b>obiy: </b><br>
+<span>【bug10日常/已解决】吃鸡一启动就蓝屏，然后被ban了</span><br>
+<span> 本帖最后由 obiy 于 2019-11-16 13:10 编辑 </span><br>
+<span>主要表现是点击Steam的Play按钮后，就直接蓝屏。错误代码是PAGE_FAULT_IN_NONPAGED_AREA</span><br>
+<span>OS为Win10 1903（18362.295）</span><br>
+<span>自己用windbg看minidump文件，似乎是BEDaisy.sys（Battleeye）引起的</span><br>
+<span>不过还有一个症状是吃鸡有时的状态是“未安装”，明明没有手动卸载过。点击Install的话就会检查已有文件，然后启动，然后看不到logo就蓝屏了</span><br>
+<span>如果这是个常见的bug的话应该有一部分主播中招了，但又似乎没有，该如何继续排查这bug呢？</span><br>
+<span>尝试开启/关闭Windows Defender Credential Guard，没有效果，似乎不是因为开启内存保护蓝的。</span><br>
+<span>也在吃鸡论坛发了bug report，按照建议跑了磁盘检查、系统文件检查和内存测试，都跑完了还是蓝屏</span><br>
+<span>https://forums.pubg.com/topic/361769-pubg-triggers-blue-screen-after-windows-update/</span><br>
+<span>或者我问问打了70小时的快递能不能退款收到客服邮件不能退款了</span><br>
+<span>19.8.29更新：似乎吃鸡更新把问题修好了，我也被官方论坛ban了</span><br>
+</p><p><b>罐头卡: </b><br>
+<span>battleeye组件缺失或者未正常启动？以前玩R6的时候battleeye出过问题，重装游戏后好了</span><br>
+<span>建议弃掉PUBG转战apex或者bo4吃鸡模式</span><br>
+</p><p><b>infinte: </b><br>
+<span>battleeye 挂掉不是很正常么</span><br>
+<span>试着重新装下，这种钩子形式的驱动非常容易坏的</span><br>
+</p><p><b>foxlxr: </b><br>
+<span>罐头卡 发表于 2019-8-20 23:16</span><br>
+<span>battleeye组件缺失或者未正常启动？以前玩R6的时候battleeye出过问题，重装游戏后好了</span><br>
+<span>建议弃掉PUBG转战ape ...</span><br>
+<span>BO4吃鸡又有人了？记得当时就只有一个月还是两个月有人，之后双排都是直接被游戏强制停止搜索游戏说是找不到可以匹配的。玩了几次多人就吃灰了</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>罐头卡 发表于 2019-8-20 23:16</span><br>
+<span>battleeye组件缺失或者未正常启动？以前玩R6的时候battleeye出过问题，重装游戏后好了</span><br>
+<span>建议弃掉PUBG转战ape ...</span><br>
+<span>apex都没见什么人玩了…性感队友在线卖挂太骚了</span><br>
+</p><p><b>obiy: </b><br>
+<span> 本帖最后由 obiy 于 2019-8-21 20:48 编辑 </span><br>
+<span>infinte 发表于 2019-8-21 10:10</span><br>
+<span>battleeye 挂掉不是很正常么</span><br>
+<span>试着重新装下，这种钩子形式的驱动非常容易坏的 ...</span><br>
+<span>重装两次了，都是一启动就蓝屏（BSOD），之后再启动steam，吃鸡就变成了未安装状态，是不是文件系统有问题？</span><br>
+</p><p><b>macos: </b><br>
+<span>反作弊的吗，1903应该是还没解决</span><br>
+</p><p><b>obiy: </b><br>
+<span>macos 发表于 2019-8-21 11:54</span><br>
+<span>反作弊的吗，1903应该是还没解决</span><br>
+<span>wdnmd今晚直接升insider preview</span><br>
+</p><p><b>obiy: </b><br>
+<span>更新到1903 18963.1000后，battleye总算不会蓝屏了，虽然还是不能吃鸡</span><br>
+</p><p><b>chachi: </b><br>
+<span>杀毒软件关了</span><br>
+<span>----发送自 HUAWEI KIW-AL10,Android 6.0.1</span><br>
+</p><p><b>obiy: </b><br>
+<span>chachi 发表于 2019-8-22 10:03</span><br>
+<span>杀毒软件关了</span><br>
+<span>----发送自 HUAWEI KIW-AL10,Android 6.0.1</span><br>
+<span>电脑只有自带defender</span><br>
+</p><p><b>chachi: </b><br>
+<span>建议从文件访问的角度解决，比如 文件权限，文件完整性等</span><br>
+</p><p><b>obiy: </b><br>
+<span>好了，吃鸡更新后问题消失了，我也被官方论坛ban了</span><br>
+</p><p><b>obiy: </b><br>
+<span>内部版本18362.388，这问题再一次出现</span><br>
+<span>猛汉王打折了，去狩猎了</span><br>
+</p><p><b>obiy: </b><br>
+<span>重装旧版本，然后装上吃鸡，windows版本就停在18362.30了</span><br>
+</p><p><b>obiy: </b><br>
+<span>更新到18362.449，蓝屏又一次出现</span><br>
+</p><p><b>litel: </b><br>
+<span>卸载MSI的各种软件。</span><br>
+<span>卸载Vmware试试。</span><br>
+</p><p><b>pcwow: </b><br>
+<span>之前打堡垒之夜也有蓝屏的问题，查了下是反作弊和hyper v有冲突，把hyper v关掉就好了，不知道你这个会不会是类似的原因</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>在WIN10上吃个鸡都这么鸡儿麻烦…………</span><br>
+</p><p><b>obiy: </b><br>
+<span>不一定是bug10引起的，可能开启“基于虚拟化的安全性”会和battleye冲突。重装后只开secure boot、内存保护以及文件夹限制访问就没事。</span><br>
+</p><p><b>obiy: </b><br>
+<span>目前更新到1909也不会出问题了。快来加入saraba快递团657917760，即使像我一样菜也能吃鸡</span><br>
+<span>657917760</span><br>
+</p><p><b>obiy: </b><br>
+<span>pcwow 发表于 2019-11-10 11:35</span><br>
+<span>之前打堡垒之夜也有蓝屏的问题，查了下是反作弊和hyper v有冲突，把hyper v关掉就好了，不知道你这个会不会 ...</span><br>
+<span>我现在一边跑docker一边吃鸡，应该不是这原因</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854755[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个可能比较冷门的问题，关于Plex+HAMA</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个可能比较冷门的问题，关于Plex+HAMA</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:48:13 +0000</lastBuildDate>
+    <item>
+      <title>问个可能比较冷门的问题，关于Plex+HAMA[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858381-1-1.html</link>
+      <description>问个可能比较冷门的问题，关于Plex+HAMA&#13;
+这两天折腾了一下Plex，电影照着网上的教程基本能搞定，动画却被难住了，虽然装了HAMA，但网上基本没找到教程（？），不知道该怎么设置，英文不太好，看着那堆选项实在脑壳疼，
+&#13;
+想请教下用过的大佬，HAMA该怎么设置，最好能丢个截图来抄抄作业（
+&#13;
+另外，文件的命名有什么格式要求？
+&#13;
+谢谢。</description>
+      <content:encoded><![CDATA[<p><b>illyfhy: </b><br>
+<span>问个可能比较冷门的问题，关于Plex+HAMA</span><br>
+<span>这两天折腾了一下Plex，电影照着网上的教程基本能搞定，动画却被难住了，虽然装了HAMA，但网上基本没找到教程（？），不知道该怎么设置，英文不太好，看着那堆选项实在脑壳疼，</span><br>
+<span>想请教下用过的大佬，HAMA该怎么设置，最好能丢个截图来抄抄作业（</span><br>
+<span>另外，文件的命名有什么格式要求？</span><br>
+<span>谢谢。</span><br>
+</p><p><b>lionheart: </b><br>
+<span>以前的很多元数据抓取插件要求本地文件的命名得是SxxExx或者1x01这种，不过这hama既然专门抓动画的，说不定正则写的会比较宽一点</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>lionheart 发表于 2019-10-8 09:26</span><br>
+<span>以前的很多元数据抓取插件要求本地文件的命名得是SxxExx或者1x01这种，不过这hama既然专门抓动画的，说不定 ...</span><br>
+<span>那片名是该用英文/罗马音，还是日文命名？</span><br>
+</p><p><b>lionheart: </b><br>
+<span>以前的刮削器来说，片名一般是看所在文件夹的命名，文件本身命名无所谓，只要包含有季和集的信息就行</span><br>
+<span>文件夹用啥语言也不要紧，数据网站对这种一般都会设置各种别名，能匹配到就可以</span><br>
+</p><p><b>moekyo: </b><br>
+<span>我要的是这几个，基本上都是在github能找到</span><br>
+<span>然后命名是</span><br>
+<span>设置</span><br>
+<span>效果</span><br>
+<img src="https://i.loli.net/2019/10/08/ukmnN8rKYpJWVc2.png" title="https://i.loli.net/2019/10/08/ukmnN8rKYpJWVc2.png"><br>
+</p><p><b>illyfhy: </b><br>
+<span>moekyo 发表于 2019-10-8 12:24</span><br>
+<span>我要的是这几个，基本上都是在github能找到</span><br>
+<span>然后命名是</span><br>
+<span>感谢大佬，请问下后面那个anidb+编号是什么用的？</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>折腾过一阵这个，后来就直接用文件夹了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>moekyo: </b><br>
+<span>illyfhy 发表于 2019-10-8 12:39</span><br>
+<span>感谢大佬，请问下后面那个anidb+编号是什么用的？</span><br>
+<span>就是动画在 anidb 上动画对应的ID，像这个https://anidb.net/anime/14779，ID就是14779</span><br>
+<span>具体可以看这里https://github.com/ZeroQI/Hama.bundle</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>KnightHart 发表于 2019-10-8 13:01</span><br>
+<span>折腾过一阵这个，后来就直接用文件夹了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1 ...</span><br>
+<span>折腾一下也没坏，就当整理下文件了，我之前片子下下来就没改过名字，仓库一片凌乱</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>illyfhy 发表于 2019-10-8 14:47</span><br>
+<span>折腾一下也没坏，就当整理下文件了，我之前片子下下来就没改过名字，仓库一片凌乱 ...</span><br>
+<span>我是一律按照一定规则命名整理的</span><br>
+<span>现在这些搜刮器对中文支持都一般，而且说实话对于我这种收集bd的太简陋了，一盘bd中包括正片，ova，sp，声优访谈，特番，有时候还有一些别的乱七八糟的玩意，根本没法整理，还是文件夹方便</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>KnightHart 发表于 2019-10-8 15:29</span><br>
+<span>我是一律按照一定规则命名整理的</span><br>
+<span>现在这些搜刮器对中文支持都一般，而且说实话对于我这种收集bd的太简陋 ...</span><br>
+<span>我一般都只留正片，其他的不下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858381[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有啥办法可以修改apk的包名</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有啥办法可以修改apk的包名</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:37:15 +0000</lastBuildDate>
+    <item>
+      <title>有啥办法可以修改apk的包名[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860106-1-1.html</link>
+      <description>有啥办法可以修改apk的包名&#13;
+公司发的手机强制要求用讯飞输入法
+&#13;
+我以前用的百度 不想换 太麻烦
+&#13;
+然后公司在手机里装了个APP 一直提示你删除非指定的软件
+&#13;
+有没有办法把别的输入法伪装成讯飞
+&#13;
+昨天下了个apktool折腾了半天运行不了</description>
+      <content:encoded><![CDATA[<p><b>qhlixpfh: </b><br>
+<span>有啥办法可以修改apk的包名</span><br>
+<span>公司发的手机强制要求用讯飞输入法</span><br>
+<span>我以前用的百度 不想换 太麻烦</span><br>
+<span>然后公司在手机里装了个APP 一直提示你删除非指定的软件</span><br>
+<span>有没有办法把别的输入法伪装成讯飞</span><br>
+<span>昨天下了个apktool折腾了半天运行不了</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>不说别的 这手机你敢用</span><br>
+</p><p><b>onoma: </b><br>
+<span>不说别的 这公司你还敢呆</span><br>
+<span>之前去过一家全办公室都是摄像头的公司，溜了溜了，坐牢一样</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>为啥公司会要求输入法？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>不说别的，这手机你打的每个字都被公司监控了吧</span><br>
+</p><p><b>pzy2222: </b><br>
+<span> 本帖最后由 pzy2222 于 2019-10-18 16:33 编辑 </span><br>
+<span>酷安搜apk编辑器，在里面选中apk文件，点创建应用共存，可以手动更改包名。最后还需要签个名，就弄好了。</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>想办法root了然后刷个xposed（或者edxposed）框架进去，然后找一个叫做“对话框取消”的模块，里面可以设置某app检测不到特定的其他app</span><br>
+<span>还有个办法就是公司强制要求的app后台杀了</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>pzy2222 发表于 2019-10-18 16:30</span><br>
+<span>酷安搜apk编辑器，在里面选中apk文件，点创建应用共存，可以手动更改包名。最后还需要签个名，就弄好了。 ...</span><br>
+<span>但是百度跟讯飞的包名长度不一样 提示会引起偏移错误无法修改..</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>qhlixpfh 发表于 2019-10-18 18:16</span><br>
+<span>但是百度跟讯飞的包名长度不一样 提示会引起偏移错误无法修改..</span><br>
+<span>我又看了下主楼，可以找下别的突破口，要不试试把公司强制安装的那个app卸载或者冻结了，都可以用ADB命令操作。如果只是要冻结它的话，建议下一个冰箱，按它的指示冻结。</span><br>
+</p><p><b>虾扯蛋777: </b><br>
+<span>mt管理器。</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>pzy2222 发表于 2019-10-18 19:42</span><br>
+<span>我又看了下主楼，可以找下别的突破口，要不试试把公司强制安装的那个app卸载或者冻结了，都可以用ADB命令 ...</span><br>
+<span>我卸载它很容易，但是公司会知道</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>qhlixpfh 发表于 2019-10-18 19:56</span><br>
+<span>我卸载它很容易，但是公司会知道</span><br>
+<span>这个app会定期发送数据给公司吗，楼上说的MT管理器也可以改apk，不过就要麻烦些了，需要自己动手操作改一些文本。</span><br>
+</p><p><b>elflie: </b><br>
+<span>删了会知道就代表监控你了</span><br>
+<span>你用修改版就没法监控你了，也会知道，还是换家吧</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>还是楼上的说的对，你这个不是软件的问题了，公司想管总会有办法的。</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>再买台自用的手机 over</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>jumbleh 发表于 2019-10-18 20:46</span><br>
+<span>再买台自用的手机 over</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>我自己有手机 这个手机是工作用的 用来输入一些数据啥的 而且输入量比较大 所以换个输入法就很sb 词频和自己的词库都没了</span><br>
+<span>以前没人管手机上装什么东西的现在不让装了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>qhlixpfh 发表于 2019-10-18 21:16</span><br>
+<span>我自己有手机 这个手机是工作用的 用来输入一些数据啥的 而且输入量比较大 所以换个输入法就很sb 词频和 ...</span><br>
+<span>是为了监控你吗？</span><br>
+</p><p><b>小小陌路人: </b><br>
+<span>你这什么公司，太狠了</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>若荼泱 发表于 2019-10-18 21:31</span><br>
+<span>是为了监控你吗？</span><br>
+<span>美其名曰"避免影响员工工作"</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>这种公司如果你还想呆，电脑上百度输入法把词库导出，貌似是TXT格式，再电脑上装个讯飞导入，大概不会识别出错？没试过。然后账号同步到手机上。还不行就买个备机专门工作吧……</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>简单，几百块淘个备用机，随便你监控去，下班扔抽屉装死就行</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>公司发的手机</span><br>
+<span>呃，楼主是公司发的手机，那就老老实实的用吧，反正又不是你自己的手机</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>这不是备用的问题</span><br>
+<span>是词库的问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860106[0-50]</guid>
+    </item>
+  </channel>
+</rss>

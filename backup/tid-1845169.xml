@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>pyplot / excel 画图求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>pyplot / excel 画图求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:11:21 +0000</lastBuildDate>
+    <item>
+      <title>pyplot / excel 画图求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845169-1-1.html</link>
+      <description>pyplot / excel 画图求助&#13;
+https://i.loli.net/2019/07/08/5d22f659bd68091013.png
+&#13;
+Y 轴是一个分类，X 轴是年份，关键是数据项还自带分类（用 legend 区分），所以可能一个点会有很多项，这种不重叠的堆叠处理该用什么关键词来描述没有头绪，实在不行准备手画了（</description>
+      <content:encoded><![CDATA[<p><b>アーシェス: </b><br>
+<span>pyplot / excel 画图求助</span><br>
+<img src="https://i.loli.net/2019/07/08/5d22f659bd68091013.png" title="https://i.loli.net/2019/07/08/5d22f659bd68091013.png"><br>
+<span>Y 轴是一个分类，X 轴是年份，关键是数据项还自带分类（用 legend 区分），所以可能一个点会有很多项，这种不重叠的堆叠处理该用什么关键词来描述没有头绪，实在不行准备手画了（</span><br>
+</p><p><b>vipdaren: </b><br>
+<span>妮要画啥，每个数据一个点么？</span><br>
+</p><p><b>文化消费猪: </b><br>
+<span>你的画图思路有问题，这图想表达什么？要根据你想表达的东西选图表来画。</span><br>
+<span>一般散点图两条轴都应该是数据，着重表达的是两个数据间的相关关系，用点的形状颜色表示分类。比如x轴烟龄，y轴寿命，不同点代表不同人，所以这图就想说烟龄越长，寿命越短over</span><br>
+<span>如果你数据大小还要标在点旁边……到底为什么要画散点图？？？还不如直接写表格。</span><br>
+<span>ps excel的数据透视表/图了解一下，tableau了解一下</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>vipdaren 发表于 2019-7-8 16:49</span><br>
+<span>妮要画啥，每个数据一个点么？</span><br>
+<span>就是多类数据会落在同一个 (x, y) 上，让它们堆成一个 stack 来显示</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>。</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>文化消费猪 发表于 2019-7-8 16:58</span><br>
+<span>你的画图思路有问题，这图想表达什么？要根据你想表达的东西选图表来画。</span><br>
+<span>一般散点图两条轴都应该是数据， ...</span><br>
+<span>其实是个综述性质的图，想表达某领域（纵轴）某会议（图例）某年（横轴）有谁谁谁的工作（叠起来）</span><br>
+</p><p><b>橋白: </b><br>
+<span>对于每个取值（x or y ）加一个极小的随机扰动 truncate normal这种 </span><br>
+<span>因为你并不需要准确地落在某个年份的竖线上</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span>アーシェス 发表于 2019-7-8 17:02</span><br>
+<span>其实是个综述性质的图，想表达某领域（纵轴）某会议（图例）某年（横轴）有谁谁谁的工作（叠起来） ...</span><br>
+<span>用普通的表格就行，领域下分会议，会议下写负责人，然后不同年份做一张sheet， 或者做到一张上面</span><br>
+<span>这种只带标签不带数字的数据做成散点图有点不合适</span><br>
+</p><p><b>文化消费猪: </b><br>
+<span>アーシェス 发表于 2019-7-8 17:02</span><br>
+<span>其实是个综述性质的图，想表达某领域（纵轴）某会议（图例）某年（横轴）有谁谁谁的工作（叠起来） ...</span><br>
+<span>脑内想了想用excel的pivot table数据透视图应该可以做，纵轴会议和正方形三角形，横轴年份，或者你把正方形三角形放到筛选里，然后多画几张图</span><br>
+<span>不过还是那句话，你到底要表达(⊙o⊙)啥？或者说你要强调什么？某个会议特别牛？某年工作特别多？画图就是为了直观的传达某一条重点。什么都塞进去不仅没有重点而且没人想看，与其花这个功夫不如直接搞个表格，把所有信息塞进去，反正会去看的人不会在乎是表还是图</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>文化消费猪 发表于 2019-7-8 17:30</span><br>
+<span>脑内想了想用excel的pivot table数据透视图应该可以做，纵轴会议和正方形三角形，横轴年份，或者你把正方 ...</span><br>
+<span>我也觉得列表好，然而上面的喜欢</span><br>
+</p><p><b>violind88: </b><br>
+<span>就是几张图在一个画布里？Y轴是数据 然后里面有好几类数据？那就标准折线图就行了嘛</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span>为什么不用prism或者origin</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>アーシェス 发表于 2019-7-8 18:13</span><br>
+<span>我也觉得列表好，然而上面的喜欢</span><br>
+<span>数据类型是什么 数值还是啥</span><br>
+<span>如果是数值 可以用seaborn 用颜色或者形状区分不同分类</span><br>
+</p><p><b>matrixtheory: </b><br>
+<span>用visio说不行可以</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>fengmenglong 发表于 2019-7-8 18:56</span><br>
+<span>数据类型是什么 数值还是啥</span><br>
+<span>如果是数值 可以用seaborn 用颜色或者形状区分不同分类 ...</span><br>
+<span>不是数值，每个点是一个 paper 这样的对象</span><br>
+<span>楼上说的好，这种对象画表格就完事了……</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>用 PPT 画完了</span><br>
+</p><p><b>朝仓和美: </b><br>
+<span>做个表，然后把边框隐藏不就好了……</span><br>
+</p><p><b>wszweill: </b><br>
+<span>试一下hexbin？二维坐标变蜂窝，颜色表点的数量</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845169[0-50]</guid>
+    </item>
+  </channel>
+</rss>

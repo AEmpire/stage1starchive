@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python学爬虫需要哪些基础？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python学爬虫需要哪些基础？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:38:39 +0000</lastBuildDate>
+    <item>
+      <title>python学爬虫需要哪些基础？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910372-1-1.html</link>
+      <description>python学爬虫需要哪些基础？&#13;
+非科班业余选手，目前是自己捣鼓了工作用的小工具，经过一个月的修改，功能跟体验也差不多了
+&#13;
+所以想再做一个
+&#13;
+目前需求是这样，工作要用到5个网站，虽然是5个但其实是一样的系统，只是数据不一样
+&#13;
+网站的作用是根据模版，查询指定的数据，网站是这样子：
+&#13;
+首先是登录后，选择kpi，然后到了kpi的界面，选择对应的对象，时间，报表，最后在右边显示数据
+&#13;
+问题来了，需要学习哪些内容？</description>
+      <content:encoded><![CDATA[<p><b>腹黑眼镜: </b><br>
+<span>python学爬虫需要哪些基础？</span><br>
+<span>非科班业余选手，目前是自己捣鼓了工作用的小工具，经过一个月的修改，功能跟体验也差不多了</span><br>
+<span>所以想再做一个</span><br>
+<span>目前需求是这样，工作要用到5个网站，虽然是5个但其实是一样的系统，只是数据不一样</span><br>
+<span>网站的作用是根据模版，查询指定的数据，网站是这样子：</span><br>
+<span>首先是登录后，选择kpi，然后到了kpi的界面，选择对应的对象，时间，报表，最后在右边显示数据</span><br>
+<span>问题来了，需要学习哪些内容？</span><br>
+</p><p><b>traburiss: </b><br>
+<span>python基础</span><br>
+<span>http协议</span><br>
+<span>python的http库</span><br>
+<span>还有怎么用chrome的开发者工具（f12）</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zz_mps: </b><br>
+<span>scrapy框架 html和js吧</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>看需求，看别人怎么做的。甚至只要github都能实现</span><br>
+</p><p><b>迷路的石头: </b><br>
+<span>刑法吧，先保证不爬着爬着就进去了。</span><br>
+</p><p><b>onoma: </b><br>
+<span>网页基础，如：html、xml、css、xhr、query、xpath、querySelector(cssSelector)</span><br>
+<span>网络通信基础，如：http/https、cookie、header</span><br>
+<span>爬虫框架，如：socket、requests、urllib/urllib3、scrapy、selenium</span><br>
+<span>数据处理，如：json、lxml、dom tree、regular expression</span><br>
+<span>数据存储，如：xlsxwriter、pymysql、pymongo</span><br>
+<span>看似你这个目标网页不涉及，但深挖了要研究的，如：反爬策略、页面加密、图灵测试，等等</span><br>
+</p><p><b>薛素姐: </b><br>
+<span>搜 scrapy 爬虫</span><br>
+<span>然后看几篇教程</span><br>
+<span>然后直接ctl+c ctl+v起来</span><br>
+</p><p><b>白色要塞: </b><br>
+<span>看起来挺容易的，要是全程没有验证码那是相当简单</span><br>
+</p><p><b>dogeyy: </b><br>
+<span>看来Python对文职类工作侵入十分迅速啊，将来恐怕不少人得失业了。</span><br>
+</p><p><b>Nyaaarlathotep: </b><br>
+<span>scrapy的话从github上捞点demo抄抄最快也能加深理解</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>不需要scrapy的吧，就5个站，requests即可</span><br>
+</p><p><b>Thalassa: </b><br>
+<span>前几天爬了一个小站的资源的元数据，比起scrapy还是requests加lxml更简单...</span><br>
+<span>你的情况再加个selenium就行？</span><br>
+</p><p><b>姪乃浜kozue: </b><br>
+<span>《中华人民共和国网络安全法》</span><br>
+<span>— from OnePlus ONEPLUS A5000, Android 7.1.1 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>革萌: </b><br>
+<span>Thalassa 发表于 2020-1-22 15:19</span><br>
+<span>前几天爬了一个小站的资源的元数据，比起scrapy还是requests加lxml更简单...</span><br>
+<span>你的情况再加个selenium就行？ ...</span><br>
+<span>+ max</span><br>
+<span>其实我觉得直接chrome里复制请求到curl执行就行了 连python都不用</span><br>
+</p><p><b>糊状物: </b><br>
+<span>看你要爬的网站反爬严厉程度，基本上有一点html常识，用requests或scrapy就能解决大多数小网站小需求，再不行就加上selenium（就是速度太慢）。</span><br>
+<span>IP访问次数受限的建议是先找个免费代理网站爬免费代理做地址池。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>fat: </b><br>
+<span>楼主加油！python使人快乐！</span><br>
+</p><p><b>革萌: </b><br>
+<span>糊状物 发表于 2020-1-22 15:55</span><br>
+<span>看你要爬的网站反爬严厉程度，基本上有一点html常识，用requests或scrapy就能解决大多数小网站小需求，再不 ...</span><br>
+<span>这几个看起来都是内部网站，基本不会反爬</span><br>
+</p><p><b>项目爱好者: </b><br>
+<span>腹黑眼镜 发表于 2020-01-22 14:00:21</span><br>
+<span>非科班业余选手，目前是自己捣鼓了工作用的小工具，经过一个月的修改，功能跟体验也差不多了</span><br>
+<span>所以想再做一 ...楼上已经有人说了先熟读我国相关法律。不开玩笑</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>Redis: </b><br>
+<span>不需要基础</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>虽然我基本不会js 但感觉puppeter基本功能还挺好懂的 如果网站用了很多前端技术的话 不如直接学这个？</span><br>
+</p><p><b>py_250: </b><br>
+<span> 本帖最后由 py_250 于 2020-1-22 19:29 编辑 </span><br>
+<span>我只想爬se图，有没有零基础半小时上手的教程？</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>项目爱好者 发表于 2020-1-22 17:15</span><br>
+<span>楼上已经有人说了先熟读我国相关法律。不开玩笑</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>要这么夸张吗？我也打算爬个小网站的内容自己用</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>项目爱好者 发表于 2020-1-22 17:15</span><br>
+<span>楼上已经有人说了先熟读我国相关法律。不开玩笑</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>只是内部网站，也有风险吗</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>perfaceNext 发表于 2020-1-22 17:26</span><br>
+<span>要这么夸张吗？我也打算爬个小网站的内容自己用</span><br>
+<span>不搞成ddos就没事</span><br>
+</p><p><b>电话微波炉: </b><br>
+<span> 本帖最后由 电话微波炉 于 2020-1-22 22:14 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>mrlunzer: </b><br>
+<span>有一说一，自己做个免费的ip代理池不好用，花钱买的都不一定好用</span><br>
+<span>—— 来自 vivo V1813BT, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zhao25: </b><br>
+<span>这种内部的估计直接调接口看返回值就完事了。。。</span><br>
+<span>用个requests足矣</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.0</span><br>
+</p><p><b>堕落骨头: </b><br>
+<span>没这么简单，有些网站反爬（selumium都用不了），需要自己动手一点点猜，排查，设计到加密，js，计算机网络，一堆杂七杂八的东西</span><br>
+<span>—— 来自 Xiaomi MI 8 Lite, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>nopaina: </b><br>
+<span>在家无聊想爬下湖北卫健委的每日疫情数据看看 为啥刚第一步urllib.request.urlopen就报错了显示412 Precondition Failed</span><br>
+<span>有大佬知道怎么解决吗 是header里面有哪里需要设置吗？User-Agent已经设好了。。。</span><br>
+</p><p><b>老弗: </b><br>
+<span>这不是菊花的mAOS么，考虑到这玩意基本都跑在运营商的内网上，楼主你确定要去爬么。。。</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>nopaina 发表于 2020-2-8 17:45</span><br>
+<span>在家无聊想爬下湖北卫健委的每日疫情数据看看 为啥刚第一步urllib.request.urlopen就报错了显示412...</span><br>
+<span>就你说的这些也推断不了啥，不过连接上进不去又排除UA的话，我可能会考虑上个session交流一下cookie</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>nopaina 发表于 2020-2-8 17:45</span><br>
+<span>在家无聊想爬下湖北卫健委的每日疫情数据看看 为啥刚第一步urllib.request.urlopen就报错了显示412...</span><br>
+<span>简单来说就是拿浏览器的开发模式看看正常的连接长啥样</span><br>
+</p><p><b>火沙: </b><br>
+<span>推荐你尝试一下后羿采集器</span><br>
+</p><p><b>nopaina: </b><br>
+<span>24k纯帅 发表于 2020-2-8 19:45</span><br>
+<span>简单来说就是拿浏览器的开发模式看看正常的连接长啥样</span><br>
+<span>只会用开发模式看 header。。。又照着浏览器里面加了几个referer什么的 还是没啥用，，</span><br>
+<span>谢谢我再研究下 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910372[0-50]</guid>
+    </item>
+  </channel>
+</rss>

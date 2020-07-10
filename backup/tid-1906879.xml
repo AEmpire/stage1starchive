@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求一款能满足需求的音乐播放器</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求一款能满足需求的音乐播放器</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:59:04 +0000</lastBuildDate>
+    <item>
+      <title>求一款能满足需求的音乐播放器[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906879-1-1.html</link>
+      <description>求一款能满足需求的音乐播放器&#13;
+1. 能对音乐进行手动评分
+&#13;
+2. 能对音乐进行自动评分，类似于AIMP3，但最好是可以自己修改评分的算法
+&#13;
+3. 根据 1、2 评分对播放频率进行控制（比如高分的播放频率更高），这部分的算法最好也能自己修改</description>
+      <content:encoded><![CDATA[<p><b>马甲号2: </b><br>
+<span>求一款能满足需求的音乐播放器</span><br>
+<span>1. 能对音乐进行手动评分</span><br>
+<span>2. 能对音乐进行自动评分，类似于AIMP3，但最好是可以自己修改评分的算法</span><br>
+<span>3. 根据 1、2 评分对播放频率进行控制（比如高分的播放频率更高），这部分的算法最好也能自己修改</span><br>
+</p><p><b>NT2sS: </b><br>
+<span>orz 自动评分是什么情况，怎么个自动法。</span><br>
+<span>我觉得可以自己给foobar写个插件？</span><br>
+</p><p><b>马甲号2: </b><br>
+<span>NT2sS 发表于 2020-1-1 05:30</span><br>
+<span>orz 自动评分是什么情况，怎么个自动法。</span><br>
+<span>我觉得可以自己给foobar写个插件？ ...</span><br>
+<span>AIMP3的自动评分逻辑很简单，就是以某段时间内完整回放次数最高的音乐为基准5分，其他按比例乘5罢了。不过听个一年半载，评分总体上还是挺符合个人口味的。但这个算法太简单，而且评分受最高次数波动非常大。</span><br>
+</p><p><b>马甲号2: </b><br>
+<span>经过几个小时的研究，我发现AIMP3通过 智能播放列表+队列 能通过另一种途径解决我的实际需求（不过主楼提出的后两点实际上是没找到解决方案啦）。</span><br>
+<span>不得不说智能播放列表还有队列这两个功能的确很强大，用了好几年竟然完全忽视掉</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906879[0-50]</guid>
+    </item>
+  </channel>
+</rss>

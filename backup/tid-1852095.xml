@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有时候我真的想问国内的公司优化自己的APP这么困难吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有时候我真的想问国内的公司优化自己的APP这么困难吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:27:52 +0000</lastBuildDate>
+    <item>
+      <title>有时候我真的想问国内的公司优化自己的APP这么困难吗？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852095-1-1.html</link>
+      <description>有时候我真的想问国内的公司优化自己的APP这么困难吗？&#13;
+举凡百度、淘宝、知乎都在让你放弃用手机网页版的页面而转投使用APP版方面用尽了心思，各种细细的细节方法方方面面都想到了，使得网页版无论怎样都会陷入一个难以用下去的情况，因为用户可以想到绕道使用网页版的方法，都会被他们想到然后把行动模式底下的网页版弄得非常难用，甚至是简直不能用的等级。然而对于APP端的使用却没了这些细腻心思，各种吃资源也不优化，各种比网页版简陋且不方便的功能也不在乎，各式各样的漏洞崩溃甚至没有察觉到。就不能把用在阻止人们使用网页版的细腻心思用来优化APP版的使用体验吗？这明显是把心思用在错误的地方了啊。</description>
+      <content:encoded><![CDATA[<p><b>两个路人: </b><br>
+<span>编程核心思想：Make It Work ==> Make It Right ==> Make It Fast. 前一个鬼需求才刚刚实现，下一个需求就在队列里了。除非特别有爱，不然没发工钱的情况下根本做不到第二步，更别提第三步了。毕竟大家都是出来混口饭吃，做多了做好了也是给资本家白白剥削剩余价值</span><br>
+</p><p><b>mono: </b><br>
+<span>反正不優化也有人用</span><br>
+</p><p><b>序曲: </b><br>
+<span>kodo 发表于 2019-8-8 22:16</span><br>
+<span>说真的，产品经理应该让有独立一人开发整个项目之能力的码农兼任，也即他一个人就能开发，团队开发只不过 ...</span><br>
+<span>没有喂屎经理孜孜不倦的在网页版上喂屎怎么把人逼到手机淘宝上收割，你个码农把网页弄好了人人比价马云手下的过劳死预备军1234567能高兴吗</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>你要问我支不支持把这帮产品经理全部拉去枪毙</span><br>
+<span>我是支持的</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>楼主说的贴吧还好，起码有第三方客户端可以用。</span><br>
+<span>最无耻的是知乎，没有第三方客户端，官方客户端是屎，移动网页版不让用</span><br>
+</p><p><b>Deserts: </b><br>
+<span>精灵狮 发表于 2019-8-9 09:11</span><br>
+<span>楼主说的贴吧还好，起码有第三方客户端可以用。</span><br>
+<span>最无耻的是知乎，没有第三方客户端，官方客户端是屎，移动 ...</span><br>
+<span>知乎其实是有第三方客户端的</span><br>
+<span>叫知否</span><br>
+<span>不过bug挺多，不能发言，功能缺失，</span><br>
+<span>—— 来自 HUAWEI VRD-W09, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Endle: </b><br>
+<span>ambivalence 发表于 2019-8-9 02:47</span><br>
+<span>你要问我支不支持把这帮产品经理全部拉去枪毙</span><br>
+<span>我是支持的</span><br>
+<span>不支持，这么做太不公平了</span><br>
+<span>死有余辜的人枪毙了太便宜他们了</span><br>
+</p><p><b>mozilla: </b><br>
+<span>天才援交少女 发表于 2019-8-8 15:37</span><br>
+<span>这好像是一系列的图，还有更多吗。</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>Deserts 发表于 2019-8-9 09:19</span><br>
+<span>知乎其实是有第三方客户端的</span><br>
+<span>叫知否</span><br>
+<span>不过bug挺多，不能发言，功能缺失，</span><br>
+<span>据说已经被咔嚓了，很久没更新了。</span><br>
+<span>目前勉强用着老版本，但是官方在逐步停止对老版本的支持。</span><br>
+</p><p><b>Archlich: </b><br>
+<span>楼主很可爱。</span><br>
+</p><p><b>男子汉: </b><br>
+<span>你说的都是些bug吧。和优化关系不大。</span><br>
+<span>app开发流程里就没有优化这一步。除非是性能达不到业务要求，但是那也不是优化，基本team leader直接就写到bug列表里了。</span><br>
+<span>本来业务就堆成山，达到业务要求还要程序猿们去一点点儿扣优化那程序猿都基本就告别睡觉了。</span><br>
+</p><p><b>Deserts: </b><br>
+<span>精灵狮 发表于 2019-8-9 10:05</span><br>
+<span>据说已经被咔嚓了，很久没更新了。</span><br>
+<span>目前勉强用着老版本，但是官方在逐步停止对老版本的支持。 ...</span><br>
+<span>4.18用了好久了</span><br>
+<span>有一段时间图片都不能看</span><br>
+<span>真不知道是咋坚持下来的</span><br>
+<span>主要是新版太屎了</span><br>
+<span>—— 来自 HUAWEI VRD-W09, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>红叶: </b><br>
+<span>国产以喂屎为已任 所以哪天能上国产操作系统 恭喜你 用上粪坑了</span><br>
+</p><p><b>忘归然: </b><br>
+<span>男子汉 发表于 2019-8-9 11:25</span><br>
+<span>你说的都是些bug吧。和优化关系不大。</span><br>
+<span>app开发流程里就没有优化这一步。除非是性能达不到业务要求，但是那 ...</span><br>
+<span>附议</span><br>
+<span>而且，楼主完全忽视了运营需求。</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>PhoenixDown: </b><br>
+<span>星月肥纪 发表于 2019-8-8 12:51</span><br>
+<span>安卓里淘宝，qq之类的这些应用，很多都内置了很老的浏览器引擎（X5,tbs啥的内核）</span><br>
+<span>其实安卓系统本身就自带w ...</span><br>
+<span>很多手机里的webview万年不更新的，更没法用</span><br>
+<span>—— 来自 Sony H4233, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>obiy: </b><br>
+<span>困难，因为app（背后的服务）的竞争力和客户端流畅度关系不大，大部分人也不会因为卡就放弃使用。</span><br>
+<span>从业者的kpi也和app流畅度无关，则赔本的买卖没人干。</span><br>
+<span>资本主义能够促进竞争√</span><br>
+<span>资本主义能够让事物向好的方向发展×</span><br>
+</p><p><b>纸片有霞: </b><br>
+<span>垃圾应用就该麻溜的去死噗</span><br>
+</p><p><b>13号: </b><br>
+<span>国内主流一些的大厂，至少包括美团、支付宝之类的，都是非常重视优化的。APP大了，团队规模大了之后，和三五个客户端+后端直接怼真不是一回事啊。如果没有人去做专门的优化，要么以后业务需求基本开发不动了，一做需求就全是bug，要么启动速度、运行效率等低到没法接受。</span><br>
+<span>启动速度、一些关键页面的加载速度、包大小、动态性，要考虑得事情多，而且会互相影响，很多时候不得不权衡，牺牲一部分。</span><br>
+<span>一些比较重要的页面，真的是从帧数、到网络细节，各个地方方方面面都考虑过了。不是不能优化，而且很多时候真的是做不到啊。</span><br>
+<span>当然了， 运营硬推上了再说，迟些再慢慢优化的现象肯定是普遍、广泛的。还有KPI导致的，先硬上一波新技术，即使这技术又烂又没实际意义完全赶不上成熟的开源项目，但是有绩效啊，这种现象一样是普遍、广泛的。</span><br>
+<span>但总体上来说，大厂的APP，已经是优化的相当好了。 </span><br>
+</p><p><b>yst234: </b><br>
+<span>国内应用追求大而全，就造成了这样的问题 </span><br>
+<span>像微信淘宝什么的恨不得把所有的需求都集成进去，这种应用在规模上都快成一个小型系统了</span><br>
+<span>在 Android 上几乎相当于多了两个中间层（App，JVM），不卡就怪了</span><br>
+</p><p><b>kodo: </b><br>
+<span>PhoenixDown 发表于 2019-8-10 22:42</span><br>
+<span>很多手机里的webview万年不更新的，更没法用</span><br>
+<span>—— 来自 Sony H4233, Android 9上的 S1Next-鹅版 v2.1.0- ...</span><br>
+<span>你装Play就能随时自动更新了</span><br>
+<span>Play都不会装，那就老实用鹅厂的古董X5吧</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>红叶 发表于 2019-8-10 18:43</span><br>
+<span>国产以喂屎为已任 所以哪天能上国产操作系统 恭喜你 用上粪坑了</span><br>
+<span>deepin os 挺好的。 </span><br>
+</p><p><b>seki_m: </b><br>
+<span>就不能把用在阻止人们使用网页版的细腻心思用来优化APP版的使用体验吗？这明显是把心思用在错误的地方了啊。</span><br>
+<span>这两件事难度根本就不一样</span><br>
+<span>各种比网页版简陋且不方便的功能也不在乎，各式各样的漏洞崩溃甚至没有察觉到。</span><br>
+<span>举两个实际的例子？</span><br>
+<span>另外移动浏览器端的主要目的之一就是引流至app</span><br>
+</p><p><b>seki_m: </b><br>
+<span> 本帖最后由 seki_m 于 2019-8-11 20:55 编辑 </span><br>
+<span>比如说某个电商产品 有app、手机web、桌面web、小程序四个端</span><br>
+<span>那么这个产品的团队会尽可能把开发资源放在app和桌面web端的开发上</span><br>
+<span>而能够分给手机web和小程序的人手会很少，一般来说，小程序会处理“用户分享至微信并产生购买行为”这一需求，所以小程序端会完善购物吉支付这一块的功能</span><br>
+<span>手机web端就更惨了，它原本主要是用于处理上述“分享-购买”这一需求的，现在有了小程序，它能处理的场景只剩第三方app跳转——比如你“在微博上看到广告-产生购买行为”这种需求，因此它的主要目的是引流用户去下载app，而不会费心去开发功能</span><br>
+<span>总之是资源分配的问题</span><br>
+</p><p><b>shit002: </b><br>
+<span> 本帖最后由 shit002 于 2019-8-11 22:20 编辑 </span><br>
+<span>seki_m 发表于 2019-8-11 20:41</span><br>
+<span>这两件事难度根本就不一样</span><br>
+<span>举两个实际的例子？</span><br>
+<span>百度进百度贴吧这个过程。在web端你关注过的贴吧会直接浮现在首页，然则app版则是一堆我不想看也没有必要接触的乱七八糟的新闻跟奇奇怪怪的功能。另外，淘宝web版执行速度快多了，顺畅等级比app版顺不止一个档次。</span><br>
+</p><p><b>shit002: </b><br>
+<span>忘归然 发表于 2019-8-10 22:27</span><br>
+<span>附议</span><br>
+<span>而且，楼主完全忽视了运营需求。</span><br>
+<span>我又不是营运商，在乎这些干嘛？</span><br>
+</p><p><b>游戏列表: </b><br>
+<span>淘宝web版还能用？我不管怎能点都是跳转到play store</span><br>
+</p><p><b>忘归然: </b><br>
+<span>shit002 发表于 2019-8-11 22:18</span><br>
+<span>我又不是营运商，在乎这些干嘛？</span><br>
+<span>app交付给用户就是通过运营, 没有运营 开发直接把app给你????</span><br>
+</p><p><b>lolozp: </b><br>
+<span>现在支付宝pc端连看余额都不行了</span><br>
+</p><p><b>vuder: </b><br>
+<span>shit002 发表于 2019-8-8 10:56</span><br>
+<span>举凡百度、淘宝、知乎都在让你放弃用手机网页版的页面而转投使用APP版方面用尽了心思，各种细细的细节方法 ...</span><br>
+<span>国内大多数情况不是靠服务赚钱，是靠数据赚钱，估值上手机端也比pc端难造假。所以会尽量把你引导到能收集精准数据的手机端。</span><br>
+</p><p><b>shit002: </b><br>
+<span>游戏列表 发表于 2019-8-12 09:53</span><br>
+<span>淘宝web版还能用？我不管怎能点都是跳转到play store</span><br>
+<span>就是说这个，如果不强制跳到Playstore（也就是下载app版）来用的话，web版那顺畅度好用多了。</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>Deserts 发表于 2019-8-10 11:54</span><br>
+<span>4.18用了好久了</span><br>
+<span>有一段时间图片都不能看</span><br>
+<span>真不知道是咋坚持下来的</span><br>
+<span>这几天发现旧版有些文章都看不了了，提示需要升级APP才能看……</span><br>
+<span>太特么无耻了</span><br>
+</p><p><b>Deserts: </b><br>
+<span>精灵狮 发表于 2019-8-13 08:31</span><br>
+<span>这几天发现旧版有些文章都看不了了，提示需要升级APP才能看……</span><br>
+<span>太特么无耻了 ...</span><br>
+<span>那是严选精shi</span><br>
+<span>没啥用得</span><br>
+<span>还要知乎会员</span><br>
+<span>根本不影响正常使用</span><br>
+<span>知乎开始知识付费了，配吗？明明已经成了个娱乐吐槽平台</span><br>
+<span>—— 来自 HUAWEI VRD-W09, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>foxlxr: </b><br>
+<span>shit002 发表于 2019-8-12 13:33</span><br>
+<span>就是说这个，如果不强制跳到Playstore（也就是下载app版）来用的话，web版那顺畅度好用多了。 ...</span><br>
+<span>好多网站都这样，我专门下了个via浏览器来对付那种搞跳转的网站，但是有的你不下app就不让你看全部的是够恶心人了</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>Deserts 发表于 2019-8-13 09:30</span><br>
+<span>那是严选精shi</span><br>
+<span>没啥用得</span><br>
+<span>还要知乎会员</span><br>
+<span>也是，说不定掏钱 就看到一堆刚编的故事</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>改ua上pc版页面不就行了，为什么要app？</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>kodo 发表于 2019-08-08 22:16:06</span><br>
+<span>说真的，产品经理应该让有独立一人开发整个项目之能力的码农兼任，也即他一个人就能开发，团队开发只不过 ...领导不懂行有个好处，就是能毫无压力地下派任务对快速提进度很有帮助</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Geminize: </b><br>
+<span>hgfdsa 发表于 2019-8-13 09:43</span><br>
+<span>改ua上pc版页面不就行了，为什么要app？</span><br>
+<span>一大堆APP根本不给你PC版</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>Geminize 发表于 2019-8-13 10:50</span><br>
+<span>一大堆APP根本不给你PC版</span><br>
+<span>改ua就行，反正我手机上淘宝知乎贴吧都用pc版网页</span><br>
+</p><p><b>Geminize: </b><br>
+<span>hgfdsa 发表于 2019-8-13 10:55</span><br>
+<span>改ua就行，反正我手机上淘宝知乎贴吧都用pc版网页</span><br>
+<span>咸鱼转转美团外卖这些根本没做PC版的你怎么用？</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-8-13 15:34 编辑 </span><br>
+<span>游戏列表 发表于 2019-8-12 09:53</span><br>
+<span>淘宝web版还能用？我不管怎能点都是跳转到play store</span><br>
+<span>找个不自动跳转的浏览器。我chrome跳转，via跳转要经过我确认就没事jd也跳转，跳你🐴呢，手机上我只是粗略看看，真要买还是上PC</span><br>
+<span>—— 来自 Google Pixel, Android 10上的 S1Next-鹅版 v2.1.1-alpha</span><br>
+</p><p><b>grax: </b><br>
+<span>恶心你是为了多装app的业绩，用户体验都是顺便做的</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>为了考核加各种功能吧。优化、体验这种不能算工作量。应该属于国内和国外产品的本质差别。</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>若荼泱 发表于 2019-8-13 15:33</span><br>
+<span>找个不自动跳转的浏览器。我chrome跳转，via跳转要经过我确认就没事jd也跳转，跳你🐴呢，手机上我 ...</span><br>
+<span>京东直接微信自带的就够用了</span><br>
+</p><p><b>samfs: </b><br>
+<span>我在想如果有一天 App 像网页版一样不能方便的获取用户数据了，厂商们推广 App 的热情会不会还像现在这样高</span><br>
+</p><p><b>gnorz: </b><br>
+<span>play上能下到的质量还是可以的，但是一票银行app，简直是一坨。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852095[50-100]</guid>
+    </item>
+    <item>
+      <title>有时候我真的想问国内的公司优化自己的APP这么困难吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852095-1-1.html</link>
+      <description>有时候我真的想问国内的公司优化自己的APP这么困难吗？&#13;
+举凡百度、淘宝、知乎都在让你放弃用手机网页版的页面而转投使用APP版方面用尽了心思，各种细细的细节方法方方面面都想到了，使得网页版无论怎样都会陷入一个难以用下去的情况，因为用户可以想到绕道使用网页版的方法，都会被他们想到然后把行动模式底下的网页版弄得非常难用，甚至是简直不能用的等级。然而对于APP端的使用却没了这些细腻心思，各种吃资源也不优化，各种比网页版简陋且不方便的功能也不在乎，各式各样的漏洞崩溃甚至没有察觉到。就不能把用在阻止人们使用网页版的细腻心思用来优化APP版的使用体验吗？这明显是把心思用在错误的地方了啊。</description>
+      <content:encoded><![CDATA[<p><b>shit002: </b><br>
+<span>有时候我真的想问国内的公司优化自己的APP这么困难吗？</span><br>
+<span>举凡百度、淘宝、知乎都在让你放弃用手机网页版的页面而转投使用APP版方面用尽了心思，各种细细的细节方法方方面面都想到了，使得网页版无论怎样都会陷入一个难以用下去的情况，因为用户可以想到绕道使用网页版的方法，都会被他们想到然后把行动模式底下的网页版弄得非常难用，甚至是简直不能用的等级。然而对于APP端的使用却没了这些细腻心思，各种吃资源也不优化，各种比网页版简陋且不方便的功能也不在乎，各式各样的漏洞崩溃甚至没有察觉到。就不能把用在阻止人们使用网页版的细腻心思用来优化APP版的使用体验吗？这明显是把心思用在错误的地方了啊。</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>因为你的屁股跟他的屁股不一样啊</span><br>
+<span>你要知道我国pc的普及程度远比你想象的低 就算我们这种pc端用户全部死绝了 大概也就影响一成人 剩下9成没有pc的手机用户还是老老实实的吃屎</span><br>
+<span>那你会为了那10%的人去做优化么？</span><br>
+</p><p><b>shit002: </b><br>
+<span> 本帖最后由 shit002 于 2019-8-8 11:05 编辑 </span><br>
+<span>Johnie01 发表于 2019-8-8 11:00</span><br>
+<span>因为你的屁股跟他的屁股不一样啊</span><br>
+<span>你要知道我国pc的普及程度远比你想象的低 就算我们这种pc端用户全部死绝了 ...</span><br>
+<span>不，我这里的网页版说的是手机端的网页版，比方我用Chrome打开淘宝，肯定是最后会被他们用尽各种心思设定出来的阻碍，让你无法再继续用Chrome走下去。同样是百度，百度App的难用程度比手机端用Chrome去上百度高多了，但是偏生他就是有办法把你弄到用Chrome上贴吧的时候会有一股又一股的吃屎感，屎得让你觉得用Chrome根本没办法好好上贴吧。但是百度App是个什么鸟玩意儿？这使用体验如果不是因为Chrome那边被强制做了一堆乱七八糟的限制，肯定比App的好用啊。现在既然都想尽办法让人用App版了，为何就不要想尽办法优化App的使用体验？</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>shit002 发表于 2019-8-8 11:02</span><br>
+<span>不，我这里的网页版说的是手机端的网页版，比方我用Chrome打开淘宝，肯定是最后会被他们用尽各种心思设定 ...</span><br>
+<span>你走手机浏览器的网页版对于他们来说跟pc玩家有什么区别</span><br>
+<span>而且手机浏览器上淘宝的用户估计比pc用户还小众…</span><br>
+</p><p><b>shit002: </b><br>
+<span> 本帖最后由 shit002 于 2019-8-8 11:12 编辑 </span><br>
+<span>Johnie01 发表于 2019-8-8 11:04</span><br>
+<span>你走手机浏览器的网页版对于他们来说跟pc玩家有什么区别</span><br>
+<span>而且手机浏览器上淘宝的用户估计比pc用户 ...</span><br>
+<span>那他们用尽心思来阻扰这群小众用户不是很奇怪吗？反正手机端9成的人都不会用浏览器来上百度，就让这一成的人开心自由使用有啥不好?现在给人的感觉就是他们重视于如何阻碍这一成的人远甚于提升9成的人的使用体验。</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>shit002 发表于 2019-8-8 11:10</span><br>
+<span>那他们用尽心思来阻扰这群小众用户不是很奇怪吗？反正手机端9成的人都不会用浏览器来上百度，就让这一成的 ...</span><br>
+<span>9成的人都是客户端用户</span><br>
+<span>那么他的指标就是给剩下1成人喂屎 喂到你要么放弃不用 要么改用客户端</span><br>
+<span>最终实现去web化</span><br>
+</p><p><b>Geminize: </b><br>
+<span>shit002 发表于 2019-8-8 11:10</span><br>
+<span>那他们用尽心思来阻扰这群小众用户不是很奇怪吗？反正手机端9成的人都不会用浏览器来上百度，就让这一成的 ...</span><br>
+<span>把PC端用户拉到APP是他们的KPI内容</span><br>
+</p><p><b>kelveen: </b><br>
+<span>shit002 发表于 2019-8-8 11:10</span><br>
+<span>那他们用尽心思来阻扰这群小众用户不是很奇怪吗？反正手机端9成的人都不会用浏览器来上百度，就让这一成的 ...</span><br>
+<span>不好好做就达到目的了，你为什么会觉得是挖空心思的结果？</span><br>
+</p><p><b>shit002: </b><br>
+<span>Geminize 发表于 2019-8-8 11:13</span><br>
+<span>把PC端用户拉到APP是他们的KPI内容</span><br>
+<span>优化使用体验的是KPI内容吧？但凡淘宝吃的资源比现在少一半，都是极大的体验提升，也可以保证用户不流失或者增加使用者人数。</span><br>
+</p><p><b>野王明凯: </b><br>
+<span>新需求>优化需求 </span><br>
+</p><p><b>Geminize: </b><br>
+<span>shit002 发表于 2019-8-8 11:15</span><br>
+<span>优化使用体验的是KPI内容吧？单反淘宝吃的资源比现在少一半，都是极大的体验提升。 ...</span><br>
+<span>醒醒，天朝互联网公司特别是BAT怎么可能有这种KPI</span><br>
+</p><p><b>Endle: </b><br>
+<span>深有同感</span><br>
+<span>对app多做一些很基础的优化不行吗</span><br>
+</p><p><b>飞侠小黑: </b><br>
+<span>新版本开发——>新版本开发</span><br>
+<span>优化？为什么要花这个时间？等硬件性能提升不就行了</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>shit002: </b><br>
+<span>飞侠小黑 发表于 2019-8-8 11:18</span><br>
+<span>新版本开发——>新版本开发</span><br>
+<span>优化？为什么要花这个时间？等硬件性能提升不就行了</span><br>
+<span>不是每个人都要换手机的，现在用810的人还是多得很。</span><br>
+</p><p><b>Geminize: </b><br>
+<span>因为产品经理的傻逼程度比码农高太多了，一拍脑袋十几个新功能要求你明天上线，还想着优化？哪TMD有时间，在原有架构上没负优化就烧高香了</span><br>
+</p><p><b>Geminize: </b><br>
+<span> 本帖最后由 Geminize 于 2019-8-8 11:35 编辑 </span><br>
+<span>某BAT旗下出行APP，就不说是哪个了，新版本加了一些妨碍竞争对手的功能，反编译代码一看是加了几个后台服务，APP运行时检测黑名单里各大竞争对手的包名和内存里的特征文件，搜到后调用分支进程给竞争对手下绊子，没搜到跳转回分支开头重新运行，继续搜直到APP彻底关闭……这码农其实是客户经理转职的吧，每次APP运行时搜一回还不够？</span><br>
+</p><p><b>shit002: </b><br>
+<span>Geminize 发表于 2019-8-8 11:31</span><br>
+<span>某BAT旗下出行APP，就不说是哪个了，新版本加了一些妨碍竞争对手的功能，反编译代码一看是加了几个后台服务 ...</span><br>
+<span>这个....已经是属于侵犯消费者权益的情况了吧？感觉上去消费者协会之类的组织提出投诉多半是能成的程度了。</span><br>
+</p><p><b>Geminize: </b><br>
+<span> 本帖最后由 Geminize 于 2019-8-8 11:37 编辑 </span><br>
+<span>我猜是他们想到了以下场景：用户用自己的APP感觉不满意，直接按Home退到桌面，然后下载安装竞争对手的APP，这样让他们就能在自己的APP挂在后台时给竞争对手下绊子，后来被v2ex还是哪捅出来后去掉了</span><br>
+</p><p><b>烟萝: </b><br>
+<span> 本帖最后由 烟萝 于 2019-8-8 12:09 编辑 </span><br>
+<span>用户都不想装额外的app。。那就在这一个里面塞更多的屎吧！</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>产品经理讲良心，良心能当饭吃吗</span><br>
+</p><p><b>fengzizaixin: </b><br>
+<span>shit002 发表于 2019-8-8 11:19</span><br>
+<span>不是每个人都要换手机的，现在用810的人还是多得很。</span><br>
+<span>也许几年都不换手机的人不是他们的目标用户吧</span><br>
+</p><p><b>shit002: </b><br>
+<span>fengzizaixin 发表于 2019-8-8 12:02</span><br>
+<span>也许几年都不换手机的人不是他们的目标用户吧</span><br>
+<span>最简单的就是我相信到今天还是很多人用Iphone6~8，这群人也不怎么会换新手机。这人数不少，优化好的话可以很好地增加使用者数量吧？</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>shit002 发表于 2019-8-8 12:06</span><br>
+<span>最简单的就是我相信到今天还是很多人用Iphone6~8，这群人也不怎么会换新手机。这人数不少，优化好的话可 ...</span><br>
+<span>ios上的淘宝挺好的…ip7用起来也没卡</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>shit002 发表于 2019-8-8 12:06</span><br>
+<span>最简单的就是我相信到今天还是很多人用Iphone6~8，这群人也不怎么会换新手机。这人数不少，优化好的话可 ...</span><br>
+<span>别小看iphone的性能，当年全都是旗舰级CPU性能，6s那种远古设备还能吃鸡呢</span><br>
+</p><p><b>shit002: </b><br>
+<span>Johnie01 发表于 2019-8-8 12:10</span><br>
+<span>ios上的淘宝挺好的…ip7用起来也没卡</span><br>
+<span>那就是安卓这边乱七八糟了，我2016年末的820如今跑淘宝要死不活一样，直接让我都淡掉了买东西的心思，也算功德一件。</span><br>
+</p><p><b>solaris40: </b><br>
+<span>的确是产品的锅，安卓开发者个人开发的应用质量大多不错。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>我店无线端成交占比95%，访客占比98%，PC页面实在是懒得去修了，没人看啊。。。</span><br>
+<span>至于APP好不好用，确实不好用，尤其是比价非常之不好用</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>优化？你怎么证明用户量的增加和减少是你的优化带来的？</span><br>
+<span>当然其实可以用统计方法，无奈多数管理层太菜不懂这个</span><br>
+</p><p><b>星月肥纪: </b><br>
+<span>安卓里淘宝，qq之类的这些应用，很多都内置了很老的浏览器引擎（X5,tbs啥的内核）</span><br>
+<span>其实安卓系统本身就自带webview，还要套个旧的，强行把应用弄卡</span><br>
+<span>—— 來自 SHARP 701SH, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>eshin: </b><br>
+<span>最大多数用户认为手机淘宝是手机太老了/安卓太烂了······</span><br>
+</p><p><b>melvin95: </b><br>
+<span>泥国文化了</span><br>
+<span>— from Essential Products PH-1, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>任何一个企业在垄断后都不会关心你的使用体验，他们只想你给钱</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-8-8 13:47 编辑 </span><br>
+<span>星月肥纪 发表于 2019-8-8 12:51</span><br>
+<span>安卓里淘宝，qq之类的这些应用，很多都内置了很老的浏览器引擎（X5,tbs啥的内核）</span><br>
+<span>其实安卓系统本身就自带w ...</span><br>
+<span>现在好像没有了,最新版play微信，我用的Tim也不是了</span><br>
+<img src="https://i.loli.net/2019/08/08/SgpXfhutQA86FcD.jpg" title="https://i.loli.net/2019/08/08/SgpXfhutQA86FcD.jpg"><br>
+</p><p><b>序曲: </b><br>
+<span>水果这么逼着喂屎大厂当个人都会有输入法传明文的事发生，play缺失的情况下猴机还不是被随意拉屎</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>不用家要了，为啥要去吃屎。有s1用我就可以满足了</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>titians: </b><br>
+<span>优化如何考核？</span><br>
+</p><p><b>shit002: </b><br>
+<span>titians 发表于 2019-8-8 14:44</span><br>
+<span>优化如何考核？</span><br>
+<span>用几台不同时期的手机，通过使观察使用App的顺畅度来评分，越多的手机可以顺畅执行就越高分啊。</span><br>
+</p><p><b>RAMDA: </b><br>
+<span> 本帖最后由 RAMDA 于 2019-8-8 15:31 编辑 </span><br>
+<span>理由楼上各位已经说的很全面了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>naive</span><br>
+</p><p><b>天才援交少女: </b><br>
+<span>shit002 发表于 2019-8-8 15:07</span><br>
+<span>用几台不同时期的手机，通过使观察使用App的顺畅度来评分，越多的手机可以顺畅执行就越高分啊。 ...</span><br>
+<img src="https://i.loli.net/2019/08/08/HhWytARXgmYBOMI.jpg" title="https://i.loli.net/2019/08/08/HhWytARXgmYBOMI.jpg"><br>
+</p><p><b>shit002: </b><br>
+<span>天才援交少女 发表于 2019-8-8 15:37</span><br>
+<span>这服务态度.....难怪欧美国家是发达国家。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>shit002 发表于 2019-8-8 15:07</span><br>
+<span>用几台不同时期的手机，通过使观察使用App的顺畅度来评分，越多的手机可以顺畅执行就越高分啊。 ...</span><br>
+<span>那我写几个垃圾代码heavy method在工程里，优化的时候再把垃圾代码删了，本月的KPI是不是就达成了</span><br>
+</p><p><b>melvin95: </b><br>
+<span>天才援交少女 发表于 2019-8-8 15:37</span><br>
+<span>马的笑死了</span><br>
+<span>全核5GHz的i9和32G的内存都卡给你看</span><br>
+</p><p><b>bbpoo: </b><br>
+<span>优化了怎么作恶呢……</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>换iOS可破，至少app体验还行，也不喂屎</span><br>
+</p><p><b>a7261008: </b><br>
+<span>优化好了他们怎么继续拿工资？周报怎么写？月报怎么写？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>若荼泱 发表于 2019-8-8 13:45</span><br>
+<span>现在好像没有了,最新版play微信，我用的Tim也不是了</span><br>
+<span>play版一直是用系统webview，国内版还是腾讯的x5内核</span><br>
+</p><p><b>无责任死猫: </b><br>
+<span>土豆麻辣人 发表于 2019-8-8 18:18</span><br>
+<span>换iOS可破，至少app体验还行，也不喂屎</span><br>
+<span>ios本身就是最大的屎。</span><br>
+<span>—— 来自 Meizu PRO 7 Plus, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zetc: </b><br>
+<span>泥潭在老版UC浏览器（华为）下显示效果一等一，然后安卓9以后都不支持了。我现在是抓出老浏览器将就用，哪天完全禁止就玩球。</span><br>
+</p><p><b>kodo: </b><br>
+<span>solaris40 发表于 2019-8-8 12:31</span><br>
+<span>的确是产品的锅，安卓开发者个人开发的应用质量大多不错。</span><br>
+<span>说真的，产品经理应该让有独立一人开发整个项目之能力的码农兼任，也即他一个人就能开发，团队开发只不过能靠分工提高效率罢了。</span><br>
+<span>如果让一个编程方面的外行人当经理，那几乎不可能有效量化需求和体验的关系，只会瞎提一些辣鸡需求，把体验降到最低，也增加了开发成本，996就是这么来的，码农996但毫无成就感，因为做的都是辣鸡无用功，加班爆肝做负优化给客户喂屎</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852095[0-50]</guid>
+    </item>
+  </channel>
+</rss>

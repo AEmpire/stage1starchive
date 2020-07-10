@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>最近总是莫名无法进入系统（win10）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>最近总是莫名无法进入系统（win10）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:10:05 +0000</lastBuildDate>
+    <item>
+      <title>最近总是莫名无法进入系统（win10）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864390-1-1.html</link>
+      <description>最近总是莫名无法进入系统（win10）&#13;
+公司的电脑，用了快1年左右，没有更新过。
+&#13;
+最近半个月经常出现下班关机后，第二天来上班开机就显示正在修复，然后卡在蓝色重启重置画面，只能选个还原点恢复。
+&#13;
+最近公司断了2次电发现，断电导致的关机百分百会进入正在修复。
+&#13;
+想知道有没有什么类似windows日志那种能看看到底什么原因吗？
+&#13;
+我只知道蓝屏了去哪里找日志，不知道这种进不去windows画面的怎么处理。
+&#13;
+公司电脑装了一大堆办公软件，重装系统有点不太现实。如果能找出原因是某个软件的话，应该可以不重装就解决了。</description>
+      <content:encoded><![CDATA[<p><b>giveordead: </b><br>
+<span>最近总是莫名无法进入系统（win10）</span><br>
+<span>公司的电脑，用了快1年左右，没有更新过。</span><br>
+<span>最近半个月经常出现下班关机后，第二天来上班开机就显示正在修复，然后卡在蓝色重启重置画面，只能选个还原点恢复。</span><br>
+<span>最近公司断了2次电发现，断电导致的关机百分百会进入正在修复。</span><br>
+<span>想知道有没有什么类似windows日志那种能看看到底什么原因吗？</span><br>
+<span>我只知道蓝屏了去哪里找日志，不知道这种进不去windows画面的怎么处理。</span><br>
+<span>公司电脑装了一大堆办公软件，重装系统有点不太现实。如果能找出原因是某个软件的话，应该可以不重装就解决了。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>一般是没有正常关机才这样，可以看看event log有没有什么线索</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>giveordead: </b><br>
+<span>zatsuza 发表于 2019-11-8 16:31</span><br>
+<span>一般是没有正常关机才这样，可以看看event log有没有什么线索</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S ...</span><br>
+<span>event log在哪里查看啊？</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>长痛不如短痛</span><br>
+</p><p><b>giveordead: </b><br>
+<span>zatsuza 发表于 2019-11-8 16:31</span><br>
+<span>一般是没有正常关机才这样，可以看看event log有没有什么线索</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S ...</span><br>
+<span>我有几次都老老实实看着它完全走完关机程序黑掉才下班的。</span><br>
+<span>结果第二天早上一来还是有几次进不去系统</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>giveordead 发表于 2019-11-8 16:34</span><br>
+<span>event log在哪里查看啊？</span><br>
+<span>开始菜单输入event log就能出来</span><br>
+<span>看上去像是硬盘问题，查看下smart</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>用工具检测一下硬盘有没有异常。</span><br>
+</p><p><b>macos: </b><br>
+<span>除开硬件，还有关机过程要等主机自己断电，8以后都是先关屏幕再关主机</span><br>
+</p><p><b>giveordead: </b><br>
+<span>zatsuza 发表于 2019-11-8 16:38</span><br>
+<span>开始菜单输入event log就能出来</span><br>
+<span>看上去像是硬盘问题，查看下smart</span><br>
+<span>看起来没什么问题</span><br>
+</p><p><b>giveordead: </b><br>
+<span>还有就是event log 看哪一段啊？</span><br>
+<span>我进了windows日志里的系统，看了半天好像没啥问题。</span><br>
+<span>“系统已在未先正常关机的情况下重新启动。如果系统停止响应、发生崩溃或意外断电，则可能会导致此错误。 ”</span><br>
+<span>这句话的前后信息都是正常的，而且找不到通过还原点还原的信息</span><br>
+</p><p><b>giveordead: </b><br>
+<span>刚刚自己去bios开了CSM，把UEFI only改成了auto，应该是legacy和UEFI并存，选了UEFI优先。</span><br>
+<span>死马当活马医了，先用几天看看会不会再出问题。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864390[0-50]</guid>
+    </item>
+  </channel>
+</rss>

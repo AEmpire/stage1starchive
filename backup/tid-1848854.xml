@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么Win10的FTP体验跟屎一样？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么Win10的FTP体验跟屎一样？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:48:05 +0000</lastBuildDate>
+    <item>
+      <title>为什么Win10的FTP体验跟屎一样？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848854-1-1.html</link>
+      <description>为什么Win10的FTP体验跟屎一样？&#13;
+前提是不借助第三方软件，SMB的体验基本与磁盘操作无异，但FTP就各种限制，不能剪切，不能右键查看文件夹容量，不能播放视频（Potplayer打开是复制文件到系统盘再播放，而那个存储位置还极隐秘）……
+&#13;
+我是真地服了，反倒是手机上的es文件管理器，以上的限制统统没有，也不知道这FTP协议是不是得交什么保护费，微软舍不得掏，于是就变成这幅傻样。</description>
+      <content:encoded><![CDATA[<p><b>尼特geek: </b><br>
+<span>手机看4K圆盘没必要啊，现在主流分辨率就是1080P，旗舰最多上个2K，smb的速度够用了，我用群晖基本拉动进度条没有延迟。</span><br>
+</p><p><b>linjia: </b><br>
+<span>公司lan互传用hfs</span><br>
+<span>家里lan互传用smb</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>看了一圈大家建议的。</span><br>
+<span>主要公司电脑和手机不在同一个局域网。</span><br>
+<span>还是用我的蓝牙吧，毕竟操作起来最方便。</span><br>
+</p><p><b>人造小鸡鸡: </b><br>
+<span>雪影 发表于 2019-7-26 00:12</span><br>
+<span>win smb是可以跑千兆，问题是安卓smb就是弟弟，见过最多的就25m/s</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, And ...</span><br>
+<span>那苹果和nas传是用的什么？</span><br>
+</p><p><b>雪影: </b><br>
+<span>人造小鸡鸡 发表于 2019-7-27 10:34</span><br>
+<span>那苹果和nas传是用的什么？</span><br>
+<span>群晖有AFP，不过好像IOS也可以用FTP</span><br>
+<span>还有就是VLC之类的视频软件可以调用NFS</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848854[50-100]</guid>
+    </item>
+    <item>
+      <title>为什么Win10的FTP体验跟屎一样？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848854-1-1.html</link>
+      <description>为什么Win10的FTP体验跟屎一样？&#13;
+前提是不借助第三方软件，SMB的体验基本与磁盘操作无异，但FTP就各种限制，不能剪切，不能右键查看文件夹容量，不能播放视频（Potplayer打开是复制文件到系统盘再播放，而那个存储位置还极隐秘）……
+&#13;
+我是真地服了，反倒是手机上的es文件管理器，以上的限制统统没有，也不知道这FTP协议是不是得交什么保护费，微软舍不得掏，于是就变成这幅傻样。</description>
+      <content:encoded><![CDATA[<p><b>Saphir: </b><br>
+<span>为什么Win10的FTP体验跟屎一样？</span><br>
+<span>前提是不借助第三方软件，SMB的体验基本与磁盘操作无异，但FTP就各种限制，不能剪切，不能右键查看文件夹容量，不能播放视频（Potplayer打开是复制文件到系统盘再播放，而那个存储位置还极隐秘）……</span><br>
+<span>我是真地服了，反倒是手机上的es文件管理器，以上的限制统统没有，也不知道这FTP协议是不是得交什么保护费，微软舍不得掏，于是就变成这幅傻样。</span><br>
+</p><p><b>Saphir: </b><br>
+<span>那么问题来了，Win10系统你们都安装了哪款软件来操作FTP，最好是绿色无污染，短小精悍的。</span><br>
+</p><p><b>Saphir: </b><br>
+<span>对了，你们手机通过5G WiFi传输文件，采用FTP协议的话，最快能达到多少，手头的蜜獾手机居然有将近50MB/s，惊了！</span><br>
+</p><p><b>catxing: </b><br>
+<span>ftp协议太老，微软做的尽善尽美也加不了什么分吧</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>Saphir 发表于 2019-7-24 15:11</span><br>
+<span>那么问题来了，Win10系统你们都安装了哪款软件来操作FTP，最好是绿色无污染，短小精悍的。 ...</span><br>
+<span>flashfxp用了十几年了</span><br>
+<span>不过作者前几个月被抓了</span><br>
+</p><p><b>sodoga: </b><br>
+<span>lawsherman 发表于 2019-7-24 17:54</span><br>
+<span>flashfxp用了十几年了</span><br>
+<span>不过作者前几个月被抓了</span><br>
+<span>我去，我也一直用这个软件，不过为啥被抓？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>https://www.cnbeta.com/articles/tech/849533.htm</span><br>
+<span>不是几个月，两年了，几个月前用户才分析出来为什么两年没更新</span><br>
+</p><p><b>qwased: </b><br>
+<span>sodoga 发表于 2019-7-24 18:00</span><br>
+<span>我去，我也一直用这个软件，不过为啥被抓？</span><br>
+<span>恋童癖</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>sodoga 发表于 2019-7-24 18:00</span><br>
+<span>我去，我也一直用这个软件，不过为啥被抓？</span><br>
+<span>实际上是17年被抓的</span><br>
+<span>儿童色情</span><br>
+</p><p><b>qwased: </b><br>
+<span>RaiDrive好用的</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>win7自带的ftp也这样吧</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>六尺之下: </b><br>
+<span>flashfxp也没有你想要的功能，也就是操作方便直观一点</span><br>
+</p><p><b>zyhang: </b><br>
+<span>winscp还行，开源免费。分享文件的话hfs最好用</span><br>
+</p><p><b>win8: </b><br>
+<span>smb的优秀只能证明巨硬nb。FTP不能预览不止是win10，请你举一个可以预览的例子</span><br>
+</p><p><b>革萌: </b><br>
+<span>我还以为是ftp.exe</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>革萌: </b><br>
+<span>我还以为是ftp.exe</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>smb不安全，永恒之蓝了解下。</span><br>
+</p><p><b>longooyue: </b><br>
+<span>因为ftp是垃圾协议</span><br>
+<span>既然有Windows设备，放着smb这么好的不用去用ftp？</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>SMB</span><br>
+<span>映射网络驱动器，稳</span><br>
+<span>FTP是什么鬼，权限怎么设定？</span><br>
+</p><p><b>Hint: </b><br>
+<span>ES难道不是第三方软件吗？</span><br>
+<span>FileZilla还可以</span><br>
+</p><p><b>allofee: </b><br>
+<span>ftp都用filezilla</span><br>
+<span>— from samsung SM-G965F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>2019年了，还有人用FTP啊。。。想不通你的用途？</span><br>
+</p><p><b>qwased: </b><br>
+<span>ramiel1 发表于 2019-7-24 23:13</span><br>
+<span>2019年了，还有人用FTP啊。。。想不通你的用途？</span><br>
+<span>小米6从群晖读取 ES管理器SMB只有15MB/s FTP 50MB/swebdav 70MB/s</span><br>
+<span>考虑兼容性那当然还是FTP好使</span><br>
+<span>另外路由器固件除了潘多拉这种开了smb zerocopy的能跑满千兆，arm a9 1ghz也就跑个40MB/s而已，肯定还是FTP舒服</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>potplayer内打开远程链接可好？</span><br>
+</p><p><b>男子汉: </b><br>
+<span>因为windows的自带ftp从上个世纪开始就是一泡污。愿意用的人都是勇者。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>看片不需要几十M的速度，传文件不需要那么多功能，两种一起用不就好了</span><br>
+</p><p><b>诶哟卧草: </b><br>
+<span>winscp</span><br>
+</p><p><b>Saphir: </b><br>
+<span>typeunknown 发表于 2019-7-25 09:05</span><br>
+<span>看片不需要几十M的速度，传文件不需要那么多功能，两种一起用不就好了</span><br>
+<span>所以路由器两种协议都开了，FTP拷贝文件时和电脑复制手机内文件一样都不显示实时速度的，也不知道微软为什么这么搞，设计上很困难吗？</span><br>
+</p><p><b>Saphir: </b><br>
+<span>qwased 发表于 2019-7-24 23:31</span><br>
+<span>小米6从群晖读取 ES管理器SMB只有15MB/s FTP 50MB/swebdav 70MB/s</span><br>
+<span>考虑兼容性那当然还是FTP好使</span><br>
+<span>单拷贝文件来说，FTP完爆SMB，SMB应该为了兼顾用户体验，牺牲了速度。</span><br>
+</p><p><b>qwased: </b><br>
+<span>Saphir 发表于 2019-7-25 09:33</span><br>
+<span>单拷贝文件来说，FTP完爆SMB，SMB应该为了兼顾用户体验，牺牲了速度。</span><br>
+<span>是win系做了优化才跑得快，linux用smb效率极低</span><br>
+<span>但是win系的代价就是smb漏洞层出不穷，一出就是内核漏洞</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>好多年没用过FTP协议下载文件的路过。</span><br>
+<span>当年我很长时间一直是用的CuteFTP（安装包到现在还收藏在我的网盘内），也用过一段时间的FlashFXP不过感觉还是前者更好用。</span><br>
+<span>后来随着我经常获取资源的那几个FTP的倒闭再加上网盘兴起，我也不再有继续用FTP下载的必要了。</span><br>
+<span>PS：其实我也曾用系统自带的IIS搭建过一两次FTP，不过只是为了测试一下技术，没什么可分享的文件。而且我自己搭没人用也没什么意义。</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>永恒之蓝我记得是smb1.0的漏洞。</span><br>
+<span>至于速度，smb3.0了解一下。</span><br>
+</p><p><b>Saphir: </b><br>
+<span>lotsbiss 发表于 2019-7-25 09:48</span><br>
+<span>永恒之蓝我记得是smb1.0的漏洞。</span><br>
+<span>至于速度，smb3.0了解一下。</span><br>
+<span>RT-AC5300网线SMB跑满千兆没问题，倒是斐讯K3很奇怪，同样的设备和网线，速度始终无法突破40MB/s</span><br>
+</p><p><b>qwased: </b><br>
+<span>Saphir 发表于 2019-7-25 09:52</span><br>
+<span>RT-AC5300网线SMB跑满千兆没问题，倒是斐讯K3很奇怪，同样的设备和网线，速度始终无法突破40MB/s ...</span><br>
+<span>bcm4709 cpu就这个水平了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>john: </b><br>
+<span>win8 发表于 2019-7-24 18:30</span><br>
+<span>smb的优秀只能证明巨硬nb。FTP不能预览不止是win10，请你举一个可以预览的例子 ...</span><br>
+<span>iOS, nplayer</span><br>
+</p><p><b>Saphir: </b><br>
+<span>qwased 发表于 2019-7-25 09:56</span><br>
+<span>bcm4709 cpu就这个水平了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>K3是原厂固件，不知道刷第三方有没有改善（反正讨论这个也没意义了，无线板已坏开机无限读条，拆开清理无果，明明漏油并不厉害）</span><br>
+<span>看评测，K3的速度应该不会这么慢的，就算达不到100MB/s，六七十绝对没问题的，可我手上这台就这样，死活就三十几。</span><br>
+</p><p><b>solaris40: </b><br>
+<span> 本帖最后由 solaris40 于 2019-7-25 11:38 编辑 </span><br>
+<span>openssh sftp</span><br>
+<span>我win10连samba会让samba挂掉，马上滚去用openssh了。</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>你们猴机是怎么给无线传输数据给win10的。</span><br>
+<span>我现在用蓝牙5.0，还是不够快，感觉和4.2一样。</span><br>
+</p><p><b>King5268: </b><br>
+<span>zyhang 发表于 2019-7-24 18:22</span><br>
+<span>winscp还行，开源免费。分享文件的话hfs最好用</span><br>
+<span>hfs+1</span><br>
+</p><p><b>Saphir: </b><br>
+<span>laotoutou 发表于 2019-7-25 12:28</span><br>
+<span>你们猴机是怎么给无线传输数据给win10的。</span><br>
+<span>我现在用蓝牙5.0，还是不够快，感觉和4.2一样。 ...</span><br>
+<span>蓝牙传文件？兄弟你有多想不开。</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>Saphir 发表于 2019-7-25 12:59</span><br>
+<span>蓝牙传文件？兄弟你有多想不开。</span><br>
+<span>传传几张照片还凑合。主要是方便。</span><br>
+</p><p><b>人造小鸡鸡: </b><br>
+<span>家里nas用smb随便跑千兆啊</span><br>
+</p><p><b>Saphir: </b><br>
+<span>人造小鸡鸡 发表于 2019-7-25 15:42</span><br>
+<span>家里nas用smb随便跑千兆啊</span><br>
+<span>跑千兆没问题，这里有些人的观点是处理器占用较高，还有就是手机传文件FTP速度更快，有的甚至是加倍。</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span>laotoutou 发表于 2019-7-25 12:28</span><br>
+<span>你们猴机是怎么给无线传输数据给win10的。</span><br>
+<span>我现在用蓝牙5.0，还是不够快，感觉和4.2一样。 ...</span><br>
+<span>one drive</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>win8 发表于 2019-7-24 18:30</span><br>
+<span>smb的优秀只能证明巨硬nb。FTP不能预览不止是win10，请你举一个可以预览的例子 ...</span><br>
+<span>Kodi, 在Windows上就能预览, Linux上来个fuse的ftpfs, 也能.</span><br>
+<span>再另外首帖就说了, Android的ES也能.</span><br>
+<span>证明微软nb这也太好笑了? 只支持自家标准就是nb?</span><br>
+</p><p><b>两个路人: </b><br>
+<span>laotoutou 发表于 2019-7-25 12:28</span><br>
+<span>你们猴机是怎么给无线传输数据给win10的。</span><br>
+<span>我现在用蓝牙5.0，还是不够快，感觉和4.2一样。 ...</span><br>
+<span>ES文件管理器开FTP，瘟逗死局域网直接访问下载</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>qwased 发表于 2019-7-24 23:31</span><br>
+<span>小米6从群晖读取 ES管理器SMB只有15MB/s FTP 50MB/swebdav 70MB/s</span><br>
+<span>考虑兼容性那当然还是FTP好使</span><br>
+<span>这速度可能看4K原盘会有点不够，问题拿手机看4K原盘是什么操作？？？</span><br>
+</p><p><b>雪影: </b><br>
+<span>人造小鸡鸡 发表于 2019-7-25 15:42</span><br>
+<span>家里nas用smb随便跑千兆啊</span><br>
+<span>win smb是可以跑千兆，问题是安卓smb就是弟弟，见过最多的就25m/s</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>ramiel1 发表于 2019-7-25 21:54</span><br>
+<span>这速度可能看4K原盘会有点不够，问题拿手机看4K原盘是什么操作？？？</span><br>
+<span>其实，够</span><br>
+<span>866 wifi无论smb还是ftp，从nas复制也就50m/s，看个87g的m2ts没啥问题</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>月神侠: </b><br>
+<span>laotoutou 发表于 2019-7-25 12:28</span><br>
+<span>你们猴机是怎么给无线传输数据给win10的。</span><br>
+<span>我现在用蓝牙5.0，还是不够快，感觉和4.2一样。 ...</span><br>
+<span>软件数据线</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848854[0-50]</guid>
+    </item>
+  </channel>
+</rss>

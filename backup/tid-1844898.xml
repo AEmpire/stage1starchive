@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>R7000 发射功率的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>R7000 发射功率的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:13:03 +0000</lastBuildDate>
+    <item>
+      <title>R7000 发射功率的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844898-1-1.html</link>
+      <description>R7000 发射功率的问题&#13;
+ 本帖最后由 zmw_831110 于 2019-7-7 13:59 编辑 
+
+R7000 发射功率的问题
+&#13;
+记录一下吧,每次时间久了刷一次固件,老是要找了几次才抓住重点.
+&#13;
+其实就是
+&#13;
+无线网络-专业设置-all area 100%(有点忘记,有些固件版本,all area也是要telnet进去打开的或在R7000一般设置的Tools中的命令WebShell窗口,我自己是用windows下telnet的)
+&#13;
+nvram set wl_country_code=#a
+&#13;
+nvram set wl0_country_code=#a
+&#13;
+nvram set wl1_country_code=#a
+&#13;
+nvram set pci/1/1/ccode=#a
+&#13;
+nvram set pci/2/1/ccode=#a
+&#13;
+nvram set wl_country_rev=0
+&#13;
+nvram set wl0_country_rev=0
+&#13;
+nvram set wl1_country_rev=0
+&#13;
+nvram set pci/1/1/regrev=0
+&#13;
+nvram set pci/2/1/regrev=0
+&#13;
+nvram commit &amp;&amp; reboothttp://ww1.sinaimg.cn/large/46a42788gy1g4r8fmwdj4j20ts0ykdkh.jpg
+&#13;
+然后再是加大功率的命令
+&#13;
+nvram set pci/1/1/maxp2ga0=120 
+&#13;
+nvram set pci/1/1/maxp2ga1=120
+&#13;
+nvram set pci/1/1/maxp2ga2=120
+&#13;
+nvram set pci/2/1/maxp5ga0=120,120,120,120
+&#13;
+nvram set pci/2/1/maxp5ga1=120,120,120,120
+&#13;
+nvram set pci/2/1/maxp5ga2=120,120,120,120
+&#13;
+nvram commit
+&#13;
+reboot
+&#13;
+最后检查发射功率是不是都被调整成28.5了
+&#13;
+wl txpwr_target_max
+&#13;
+telnet工具我用的是PuTTY
+&#13;
+http://ww1.sinaimg.cn/large/46a42788gy1g4r8b0zrj9j20nd0ept94.jpg
+&#13;
+修改后,在角落里,无线网速明显提升(之前折腾到27,和28.5还是有挺大差距的)</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>R7000 发射功率的问题</span><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-7 13:59 编辑 </span><br>
+<span>R7000 发射功率的问题</span><br>
+<span>记录一下吧,每次时间久了刷一次固件,老是要找了几次才抓住重点.</span><br>
+<span>其实就是</span><br>
+<span>无线网络-专业设置-all area 100%(有点忘记,有些固件版本,all area也是要telnet进去打开的或在R7000一般设置的Tools中的命令WebShell窗口,我自己是用windows下telnet的)</span><br>
+<span>nvram set wl_country_code=#a</span><br>
+<span>nvram set wl0_country_code=#a</span><br>
+<span>nvram set wl1_country_code=#a</span><br>
+<span>nvram set pci/1/1/ccode=#a</span><br>
+<span>nvram set pci/2/1/ccode=#a</span><br>
+<span>nvram set wl_country_rev=0</span><br>
+<span>nvram set wl0_country_rev=0</span><br>
+<span>nvram set wl1_country_rev=0</span><br>
+<span>nvram set pci/1/1/regrev=0</span><br>
+<span>nvram set pci/2/1/regrev=0</span><br>
+<span>nvram commit && reboothttp://ww1.sinaimg.cn/large/46a42788gy1g4r8fmwdj4j20ts0ykdkh.jpg</span><br>
+<span>然后再是加大功率的命令</span><br>
+<span>nvram set pci/1/1/maxp2ga0=120 </span><br>
+<span>nvram set pci/1/1/maxp2ga1=120</span><br>
+<span>nvram set pci/1/1/maxp2ga2=120</span><br>
+<span>nvram set pci/2/1/maxp5ga0=120,120,120,120</span><br>
+<span>nvram set pci/2/1/maxp5ga1=120,120,120,120</span><br>
+<span>nvram set pci/2/1/maxp5ga2=120,120,120,120</span><br>
+<span>nvram commit</span><br>
+<span>reboot</span><br>
+<span>最后检查发射功率是不是都被调整成28.5了</span><br>
+<span>wl txpwr_target_max</span><br>
+<span>telnet工具我用的是PuTTY</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1g4r8b0zrj9j20nd0ept94.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1g4r8b0zrj9j20nd0ept94.jpg"><br>
+<span>修改后,在角落里,无线网速明显提升(之前折腾到27,和28.5还是有挺大差距的)</span><br>
+</p><p><b>macos: </b><br>
+<span>dbm？有0.5的计量值吗</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>macos 发表于 2019-7-7 13:59</span><br>
+<span>dbm？有0.5的计量值吗</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1g4r8rs3s0mj20j90memzd.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1g4r8rs3s0mj20j90memzd.jpg"><br>
+<span>总之有效果,之前我一直是5.9,最大发射功率,刷了7.5后,明显感觉在某些地方速度不行.</span><br>
+<span>这次调整后,就又恢复了.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844898[0-50]</guid>
+    </item>
+  </channel>
+</rss>

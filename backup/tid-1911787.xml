@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>写了个 TRPG 网团小工具</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>写了个 TRPG 网团小工具</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:27:46 +0000</lastBuildDate>
+    <item>
+      <title>写了个 TRPG 网团小工具[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911787-1-1.html</link>
+      <description>写了个 TRPG 网团小工具&#13;
+ 本帖最后由 tianyagk 于 2020-2-6 20:44 编辑 
+
+超长过年假期在家也没法出门玩，又想要学习一下Web开发的技能，于是摸了一个用于网团的Web工具出来 
+&#13;
+https://i.loli.net/2020/02/01/meAK8giHUhGD25p.png 
+&#13;
+原本是打算做成角色卡管理器之类的辅助，结果功能越写越多，现在差不多是集成了【跑团募集发布】、【可分频、传小纸条的网团房间】和【自定义属性角色卡】与一体的网团工具。
+&#13;
+https://i.loli.net/2020/02/01/vWZL3J9oTYNjOKk.png 
+&#13;
+角色卡的描述部分可以用Markdown编辑器进行撰写，而角色数据部分可以绑定投骰命令，之后可以在游戏中快捷调用。
+&#13;
+https://i.loli.net/2020/02/01/7dQ2P3Iyw4SpZgB.png 
+&#13;
+虽然可以查看所有状态为【Open】的游戏房间，但是仍然需要提供游戏ID和密码才能加入游戏。
+&#13;
+内置了骰子机器人，不用担心QQ群的骰娘突然宕机。提供了少量麻将脸表情活跃气氛 
+&#13;
+https://i.loli.net/2020/02/01/cnxo6vKmESfFgQ8.png 
+&#13;
+细节和其他的功能还在打磨中，先放出来测试一下现在的功能，有兴趣的谭友欢迎来捉虫。
+&#13;
+正式域名还在备案，只能IP直接访问http://106.54.108.192/
+&#13;
+由于是测试版所以使用激活码验证的方式限制注册，邮件验证部分我先关闭了，所以如果没收到验证邮件才是正常情况（
+&#13;
+激活码如下，也可以在【普普通通的S1跑团群】 745533946 的群公告里找到更新的激活码，欢迎各种体验感想和意见 
+&#13;
+pagW-qIYU-k4J1-DmYh
+&#13;
+iz5x-TlZ4-LWas-fTzv
+&#13;
+yjX4-P8sC-Se4V-7s8e
+&#13;
+OgVY-HPBx-5tlk-RGAS
+&#13;
+qOR2-Jc9p-GxC6-NKjx
+&#13;
+uq1c-fh3z-r7TB-wr6i
+&#13;
+bAKd-m9fd-wV2p-GGTB
+&#13;
+sKah-G1Ni-sJlx-SCa2
+&#13;
+B0zZ-8w5d-OfLz-QuET
+&#13;
+xcLT-6PFa-uVTU-CAcv
+&#13;
+G1rB-dKgz-PHHA-1Dzw</description>
+      <content:encoded><![CDATA[<p><b>tianyagk: </b><br>
+<span>写了个 TRPG 网团小工具</span><br>
+<span> 本帖最后由 tianyagk 于 2020-2-6 20:44 编辑 </span><br>
+<span>超长过年假期在家也没法出门玩，又想要学习一下Web开发的技能，于是摸了一个用于网团的Web工具出来 </span><br>
+<span>https://i.loli.net/2020/02/01/meAK8giHUhGD25p.png </span><br>
+<span>原本是打算做成角色卡管理器之类的辅助，结果功能越写越多，现在差不多是集成了【跑团募集发布】、【可分频、传小纸条的网团房间】和【自定义属性角色卡】与一体的网团工具。</span><br>
+<span>https://i.loli.net/2020/02/01/vWZL3J9oTYNjOKk.png </span><br>
+<span>角色卡的描述部分可以用Markdown编辑器进行撰写，而角色数据部分可以绑定投骰命令，之后可以在游戏中快捷调用。</span><br>
+<span>https://i.loli.net/2020/02/01/7dQ2P3Iyw4SpZgB.png </span><br>
+<span>虽然可以查看所有状态为【Open】的游戏房间，但是仍然需要提供游戏ID和密码才能加入游戏。</span><br>
+<span>内置了骰子机器人，不用担心QQ群的骰娘突然宕机。提供了少量麻将脸表情活跃气氛 </span><br>
+<span>https://i.loli.net/2020/02/01/cnxo6vKmESfFgQ8.png </span><br>
+<span>细节和其他的功能还在打磨中，先放出来测试一下现在的功能，有兴趣的谭友欢迎来捉虫。</span><br>
+<span>正式域名还在备案，只能IP直接访问http://106.54.108.192/</span><br>
+<span>由于是测试版所以使用激活码验证的方式限制注册，邮件验证部分我先关闭了，所以如果没收到验证邮件才是正常情况（</span><br>
+<span>激活码如下，也可以在【普普通通的S1跑团群】 745533946 的群公告里找到更新的激活码，欢迎各种体验感想和意见 </span><br>
+<span>pagW-qIYU-k4J1-DmYh</span><br>
+<span>iz5x-TlZ4-LWas-fTzv</span><br>
+<span>yjX4-P8sC-Se4V-7s8e</span><br>
+<span>OgVY-HPBx-5tlk-RGAS</span><br>
+<span>qOR2-Jc9p-GxC6-NKjx</span><br>
+<span>uq1c-fh3z-r7TB-wr6i</span><br>
+<span>bAKd-m9fd-wV2p-GGTB</span><br>
+<span>sKah-G1Ni-sJlx-SCa2</span><br>
+<span>B0zZ-8w5d-OfLz-QuET</span><br>
+<span>xcLT-6PFa-uVTU-CAcv</span><br>
+<span>G1rB-dKgz-PHHA-1Dzw</span><br>
+</p><p><b>Falcomfans: </b><br>
+<span> 本帖最后由 Falcomfans 于 2020-2-1 22:20 编辑 </span><br>
+<span>你不知道Fantasy Grounds吗，Steam前几天史低。</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>Falcomfans 发表于 2020-2-1 22:16</span><br>
+<span>你不知道Fantasy Ground吗，Steam前几天史低。</span><br>
+<span>跟 Fantasy Ground 差别还是挺大的吧  </span><br>
+</p><p><b>糊状物: </b><br>
+<span>注册了一个发现是我不会玩的东西，浪费了第一个注册码</span><br>
+</p><p><b>imbadza: </b><br>
+<span>插眼观望一下</span><br>
+</p><p><b>新吾: </b><br>
+<span>观望，有自动保存跑团功能吗</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>新吾 发表于 2020-2-1 22:34</span><br>
+<span>观望，有自动保存跑团功能吗</span><br>
+<span>那种自动保存哇？</span><br>
+<span>游戏房间的发言记录是只要房间没有关闭就不会清空，导出Log的话现在只有一个粗暴保存HTML页面的【导出LOG】按钮</span><br>
+</p><p><b>poppin: </b><br>
+<span>logo配色不错</span><br>
+</p><p><b>吉黑尽阵: </b><br>
+<span>吉：可以上传图片作为棋子和地图么？</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>吉黑尽阵 发表于 2020-2-1 22:44</span><br>
+<span>吉：可以上传图片作为棋子和地图么？</span><br>
+<span>......那就成roll20辣</span><br>
+</p><p><b>吉黑尽阵: </b><br>
+<span> 本帖最后由 吉黑尽阵 于 2020-2-1 22:55 编辑 </span><br>
+<span>tianyagk 发表于 2020-2-1 22:45</span><br>
+<span>......那就成roll20辣</span><br>
+<span>吉：roll20是什么宝物？我们现在一直用MAPTOOL，有点不太好使……</span><br>
+<span>      原来如此，我研究研究。不知道能不能和MAPTOOL一样做宏</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>吉黑尽阵 发表于 2020-2-1 22:53</span><br>
+<span>吉：roll20是什么宝物？我们现在一直用MAPTOOL，有点不太好使……</span><br>
+<span>网团神器Roll20，基本上包括了所有你想得到的网团需要的功能，还能买很多规则的官方模组自动导入游戏</span><br>
+<span>缺点是需要梯子，而且一些功能需要买会员（</span><br>
+</p><p><b>钢筋瑟: </b><br>
+<span> 本帖最后由 钢筋瑟 于 2020-2-2 02:57 编辑 </span><br>
+<span>注册了一个账号……但是不太会用，也不知道群的答案是啥（小声</span><br>
+<span>进了测试房间，想翻一下记录，但是不知道为啥都会突然跳到最上面的那条记录orz</span><br>
+</p><p><b>PureIllusion: </b><br>
+<span>在做类似的东西</span><br>
+<span>还在摸鱼的时候出现了好几个跑团工具了</span><br>
+<span>明天就不摸鱼了</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>钢筋瑟 发表于 2020-2-2 02:53</span><br>
+<span>注册了一个账号……但是不太会用，也不知道群的答案是啥（小声</span><br>
+<span>进了测试房间，想翻一下记录，但是不知道为 ...</span><br>
+<span>杰克的眼神。</span><br>
+<span>回到最上是因为聊天窗口定时刷新....</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>无雨中: </b><br>
+<span>oEJz-VjqB-FS2d-kTK7</span><br>
+<span>已用！感谢！</span><br>
+</p><p><b>jiang.gg: </b><br>
+<span>回头试试看</span><br>
+</p><p><b>CR2: </b><br>
+<span>插个眼，没准以后会用到</span><br>
+</p><p><b>lunch: </b><br>
+<span>插眼</span><br>
+</p><p><b>无雨中: </b><br>
+<span>和朋友测试了下</span><br>
+<span>进入房间都是失败</span><br>
+<span>open和locked状态都是失败</span><br>
+<span>然后不知道为什么，是我网络问题？每发一条信息都会重新刷新页面……orz</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ArowRocher: </b><br>
+<span>Falcomfans 发表于 2020-2-1 22:16</span><br>
+<span>你不知道Fantasy Grounds吗，Steam前几天史低。</span><br>
+<span>那玩意史不史低中文用户也很难用啊</span><br>
+</p><p><b>ArowRocher: </b><br>
+<span>没码，进群了码也用不了，无法协助测试</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>ArowRocher 发表于 2020-2-3 02:03</span><br>
+<span>没码，进群了码也用不了，无法协助测试</span><br>
+<span>俺来更新一下激活码</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>无雨中 发表于 2020-2-3 01:05</span><br>
+<span>和朋友测试了下</span><br>
+<span>进入房间都是失败</span><br>
+<span>open和locked状态都是失败</span><br>
+<span>进入房间失败是因为没有【加入游戏】</span><br>
+<span>公开游戏列表里的游戏如果设置了密码还是需要先加入才能在【我的游戏】中进入的</span><br>
+</p><p><b>CR2: </b><br>
+<span>该网站未根据工信部相关法律规则进行备案</span><br>
+<span>楼——主——！</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>http://www.dmgenie.com/</span><br>
+<span>这个 给你介绍个轮子</span><br>
+</p><p><b>冬眠的龙凰: </b><br>
+<span>可以先开ip直接访问</span><br>
+<span>http://106.54.108.192/</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>CR2 发表于 2020-2-6 19:59</span><br>
+<span>该网站未根据工信部相关法律规则进行备案</span><br>
+<span>楼——主——！</span><br>
+<span>上个月底就在备案了....但是说二十个工作日内完成....临时的新域名也挂的那么快俺是没想到</span><br>
+</p><p><b>p2h: </b><br>
+<span>关注一下</span><br>
+</p><p><b>近卫前久: </b><br>
+<span>倒数第三个激活码我用了…</span><br>
+<span>但是创建角色卡那里的导入功能是还没开放吗……点了没反应</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911787[0-50]</guid>
+    </item>
+  </channel>
+</rss>

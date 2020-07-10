@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>磊科mg1200ac组网漫游测试（折腾完结）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>磊科mg1200ac组网漫游测试（折腾完结）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:44:15 +0000</lastBuildDate>
+    <item>
+      <title>磊科mg1200ac组网漫游测试（折腾完结）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830129-1-1.html</link>
+      <description>磊科mg1200ac组网漫游测试（折腾完结）&#13;
+ 本帖最后由 暗影翔 于 2019-5-11 15:42 编辑 
+
+前情提要：https://bbs.saraba1st.com/2b/thread-1829322-1-2.html
+&#13;
+听2L的意见，放狗搜了搜，koolsare、chh、nga都有相关的帖子，号称最便宜的无缝漫游方案，遂心动并于咸鱼上180收了两个，到手后发现几乎全新，二话不说开测。
+&#13;
+我家目前的网络拓扑是（懒得画图了）
+&#13;
+光纤---&gt;光猫（改桥接）---&gt;opernwrt x86软路由---&gt;wndr4000（关了dhcp当交换机）---&gt;大奶
+&#13;
+                                                                                                                                     ---&gt;老爸电脑
+&#13;
+                                                                                                                                    ---&gt;shield TV
+&#13;
+                                                                                                                                     ---&gt;esxi主机---}虚拟openwrt软路由
+&#13;
+                                                                                                                                                      ---}虚拟bsdisk
+&#13;
+                                                                                                                                                      ---}虚拟win10下载机
+&#13;
+户型图及光猫、路由位置见前情。4000无法覆盖整个屋子，有死角，移动中微信语音会断。
+&#13;
+然后因装修原因，墙里的4根网线，1根只有10mb速度，1根正常，另2根没用过，还不知道。
+&#13;
+上来先调一个，用大奶连接好，会进入初次设置的界面。guest账户、密码登录设置完之后会退出，然后看主机的dns，进入mg1200ac，检查固件，最新，关掉dhcp等等不赘述，具体可见 http://koolshare.cn/forum.php?mod=viewthread&amp;tid=156357&amp;    https://bbs.nga.cn/read.php?tid=13015242&amp;rand=726
+&#13;
+然后开始调第二个，没有进入初次设置界面，直接进了控制界面，检查固件失败，还是1.0.3固件，没找到802.11kvr的设置等等。重置，用路由状态的mg1200ac接大奶，wan连软路由，上网检查固件，成功，重启之后就是最新的1.3.x固件了，跟第一台一样了。
+&#13;
+所以调教mg1200ac，先要用路由状态连接，找个能上网的路由or光猫路由一体，接wan检查固件，之后才能关掉dhcp接lan设置上网，否则直接关dhcp接lan可能无法找到新固件。
+&#13;
+然后是期待的漫游测试，测试机
+&#13;
+1.xz1c港版，最新官方ota固件（比大陆版慢了两个版本了）
+&#13;
+一开始没搞明白wifi魔盒用法，直接ping测试，可以看到能漫游，但是都是很长时间之后才漫游，比如-60，-70db等了有小1分钟才能转换到信号好的ap上。后来使用魔盒里的漫游测试，完全没有效果，不漫游。之后我开起了rssi，-65db踢，-70db禁连。可以明显的看到到了阈值，马上断掉已连接的ap重连信号好的ap，但是会有延时及丢包。
+&#13;
+2. ios12.0版本的A1893 ipad3
+&#13;
+ios版本的魔盒比andriod版功能少好多，不过漫游测试还是有的。可是pad完全不漫游，不知道为啥。
+&#13;
+时候不早了，明天再测试p10、ip6。
+&#13;
+-------------------瞎测更新线----------------
+&#13;
+刚才使用ip6、ipad6代、p10、xz1c这些设备，通过微信视频、wifi魔盒测试。mg1200ac里关掉rssi策略，只靠kvr漫游。
+&#13;
+ip6与xz1c之间的视频。ip6用流量，xz1c连wifi，有网络不佳的情况，但是大多5s以内恢复，魔盒测试漫游会丢1、2个包。
+&#13;
+同理测ip6、pad6代都是可以算是漫游成功。
+&#13;
+但是测试p10的时候出现了比较大的问题，视频恢复速度很慢，有时候能到20s以上。魔盒测试第一次漫游丢包17个，延时1700ms以上，第二次漫游丢包1个，第三次死活不漫游，wifi连上就断，反复多次。
+&#13;
+我感觉基本无缝漫游组网成功，出现问题的原因1是p10支持协议不足，其他设备还算可以。2是两个ap摆放位置不佳，中间只有一个承重墙，距离较近，反而会存在有双方都覆盖不到的ap同侧死角。
+&#13;
+因为埋墙网线存在问题，无法在比较好的位置摆放，需要后续修理。
+&#13;
+以上就这样了，等周末我好好梳理一下帖子。PS.明天要早起赶火车，今天就这样了。
+&#13;
+--------------------------------------------------
+&#13;
+考虑到一个ap的布置效果，今天把埋墙的面板都拆了，发现两个屋的面板都是空的，线没接，然后有些线都找不到路由，坑爹的装修。然后根据手头的资料，尝试用镊子，剪刀，螺丝刀接了一下（没有专用工具），可以达成如下效果
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg
+&#13;
+线打到面板之后没有装面板，打算测试完再弄。
+&#13;
+路程大致是这样，反复走了几个来回。
+&#13;
+http://ww1.sinaimg.cn/large/4055c128ly1g2wnfeen9zj20uq0u0abk.jpg
+&#13;
+用ipad 6代测是这个效果。
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2wn57d228j20u0140795.jpg
+&#13;
+算是挺成功的，比昨天如下图的放法效果好得多，当时也是无奈，只有这样放的布线是测过的，可以用的。
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2wni93xdcj20uq0u0n16.jpg
+&#13;
+然后把面板装回去，准备正常使用。卧槽，右下端的ap找不到了，pad到了那里找不到网络。然后就发现主路由里找不到右下的ap，网线灯也不亮。艹，拆下来换外面接的线，重启ap，依然失败。一怒之下，狗东下单压线钳，网线测试仪。
+&#13;
+下面等明天货到了再修。
+&#13;
+妈蛋，挪桌子好麻烦，拆面板好麻烦。以后面板不放桌子后面了，插拔不方便，修理也不方便。再装修都放到桌子上面一点，干活方便。
+&#13;
+PS1.今天搜索各种网络工具，比如压线钳，打线钳，配线架之类的，找到一个帖子，作者说他不把网线接面板上，从面板里甩出半米长，省了1个水晶头，1小段网线，多出来的线直接藏电视机后面，这个想法挺不错。
+&#13;
+PS2.周中出差住了一个酒店，看到里面是面板式ap，这样的
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2wnswjrwrj20u01hckjo.jpg
+&#13;
+tp的，我在狗东见过这个颜色的，没有仔细研究型号。然后我就在面前坐着，wifi信号时有时无，忽强忽弱，有时候会没信号，然后我可以手动连接到一个guestxx的无密码wifi（不是酒店服务说明里提供的wifi，那个时候有密码的）
+&#13;
+可见这个酒店的这套ac+ap可能都没ac的系统不咋地。
+&#13;
+------------------------
+&#13;
+狗东还挺快的，中午就送到了，然后开始作业。把两边的线盒全部打开，重新剪线，重新压进面板。最后终于达成了两个ap正常的状态。
+&#13;
+最终效果如下图
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg
+&#13;
+XZ1C魔盒测试效果
+&#13;
+http://ww2.sinaimg.cn/large/4055c128ly1g2xezau6lhj20k02cgwis.jpg
+&#13;
+现在的网络图是这样
+&#13;
+http://ww4.sinaimg.cn/large/4055c128ly1g2xf0asbs5j216y0dbdhd.jpg
+&#13;
+虚线是示意线，因为esxi出的线只有一个到ap2（因为4000的LAN口不够了），一个是到4000（这根线既是esxi控制，也是内部虚拟机的网络接口）</description>
+      <content:encoded><![CDATA[<p><b>暗影翔: </b><br>
+<span>磊科mg1200ac组网漫游测试（折腾完结）</span><br>
+<span> 本帖最后由 暗影翔 于 2019-5-11 15:42 编辑 </span><br>
+<span>前情提要：https://bbs.saraba1st.com/2b/thread-1829322-1-2.html</span><br>
+<span>听2L的意见，放狗搜了搜，koolsare、chh、nga都有相关的帖子，号称最便宜的无缝漫游方案，遂心动并于咸鱼上180收了两个，到手后发现几乎全新，二话不说开测。</span><br>
+<span>我家目前的网络拓扑是（懒得画图了）</span><br>
+<span>光纤--->光猫（改桥接）--->opernwrt x86软路由--->wndr4000（关了dhcp当交换机）--->大奶</span><br>
+<span>                                                                                                                                     --->老爸电脑</span><br>
+<span>                                                                                                                                    --->shield TV</span><br>
+<span>                                                                                                                                     --->esxi主机---}虚拟openwrt软路由</span><br>
+<span>                                                                                                                                                      ---}虚拟bsdisk</span><br>
+<span>                                                                                                                                                      ---}虚拟win10下载机</span><br>
+<span>户型图及光猫、路由位置见前情。4000无法覆盖整个屋子，有死角，移动中微信语音会断。</span><br>
+<span>然后因装修原因，墙里的4根网线，1根只有10mb速度，1根正常，另2根没用过，还不知道。</span><br>
+<span>上来先调一个，用大奶连接好，会进入初次设置的界面。guest账户、密码登录设置完之后会退出，然后看主机的dns，进入mg1200ac，检查固件，最新，关掉dhcp等等不赘述，具体可见 http://koolshare.cn/forum.php?mod=viewthread&tid=156357&    https://bbs.nga.cn/read.php?tid=13015242&rand=726</span><br>
+<span>然后开始调第二个，没有进入初次设置界面，直接进了控制界面，检查固件失败，还是1.0.3固件，没找到802.11kvr的设置等等。重置，用路由状态的mg1200ac接大奶，wan连软路由，上网检查固件，成功，重启之后就是最新的1.3.x固件了，跟第一台一样了。</span><br>
+<span>所以调教mg1200ac，先要用路由状态连接，找个能上网的路由or光猫路由一体，接wan检查固件，之后才能关掉dhcp接lan设置上网，否则直接关dhcp接lan可能无法找到新固件。</span><br>
+<span>然后是期待的漫游测试，测试机</span><br>
+<span>1.xz1c港版，最新官方ota固件（比大陆版慢了两个版本了）</span><br>
+<span>一开始没搞明白wifi魔盒用法，直接ping测试，可以看到能漫游，但是都是很长时间之后才漫游，比如-60，-70db等了有小1分钟才能转换到信号好的ap上。后来使用魔盒里的漫游测试，完全没有效果，不漫游。之后我开起了rssi，-65db踢，-70db禁连。可以明显的看到到了阈值，马上断掉已连接的ap重连信号好的ap，但是会有延时及丢包。</span><br>
+<span>2. ios12.0版本的A1893 ipad3</span><br>
+<span>ios版本的魔盒比andriod版功能少好多，不过漫游测试还是有的。可是pad完全不漫游，不知道为啥。</span><br>
+<span>时候不早了，明天再测试p10、ip6。</span><br>
+<span>-------------------瞎测更新线----------------</span><br>
+<span>刚才使用ip6、ipad6代、p10、xz1c这些设备，通过微信视频、wifi魔盒测试。mg1200ac里关掉rssi策略，只靠kvr漫游。</span><br>
+<span>ip6与xz1c之间的视频。ip6用流量，xz1c连wifi，有网络不佳的情况，但是大多5s以内恢复，魔盒测试漫游会丢1、2个包。</span><br>
+<span>同理测ip6、pad6代都是可以算是漫游成功。</span><br>
+<span>但是测试p10的时候出现了比较大的问题，视频恢复速度很慢，有时候能到20s以上。魔盒测试第一次漫游丢包17个，延时1700ms以上，第二次漫游丢包1个，第三次死活不漫游，wifi连上就断，反复多次。</span><br>
+<span>我感觉基本无缝漫游组网成功，出现问题的原因1是p10支持协议不足，其他设备还算可以。2是两个ap摆放位置不佳，中间只有一个承重墙，距离较近，反而会存在有双方都覆盖不到的ap同侧死角。</span><br>
+<span>因为埋墙网线存在问题，无法在比较好的位置摆放，需要后续修理。</span><br>
+<span>以上就这样了，等周末我好好梳理一下帖子。PS.明天要早起赶火车，今天就这样了。</span><br>
+<span>--------------------------------------------------</span><br>
+<span>考虑到一个ap的布置效果，今天把埋墙的面板都拆了，发现两个屋的面板都是空的，线没接，然后有些线都找不到路由，坑爹的装修。然后根据手头的资料，尝试用镊子，剪刀，螺丝刀接了一下（没有专用工具），可以达成如下效果</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg"><br>
+<span>线打到面板之后没有装面板，打算测试完再弄。</span><br>
+<span>路程大致是这样，反复走了几个来回。</span><br>
+<img src="http://ww1.sinaimg.cn/large/4055c128ly1g2wnfeen9zj20uq0u0abk.jpg" title="http://ww1.sinaimg.cn/large/4055c128ly1g2wnfeen9zj20uq0u0abk.jpg"><br>
+<span>用ipad 6代测是这个效果。</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2wn57d228j20u0140795.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2wn57d228j20u0140795.jpg"><br>
+<span>算是挺成功的，比昨天如下图的放法效果好得多，当时也是无奈，只有这样放的布线是测过的，可以用的。</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2wni93xdcj20uq0u0n16.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2wni93xdcj20uq0u0n16.jpg"><br>
+<span>然后把面板装回去，准备正常使用。卧槽，右下端的ap找不到了，pad到了那里找不到网络。然后就发现主路由里找不到右下的ap，网线灯也不亮。艹，拆下来换外面接的线，重启ap，依然失败。一怒之下，狗东下单压线钳，网线测试仪。</span><br>
+<span>下面等明天货到了再修。</span><br>
+<span>妈蛋，挪桌子好麻烦，拆面板好麻烦。以后面板不放桌子后面了，插拔不方便，修理也不方便。再装修都放到桌子上面一点，干活方便。</span><br>
+<span>PS1.今天搜索各种网络工具，比如压线钳，打线钳，配线架之类的，找到一个帖子，作者说他不把网线接面板上，从面板里甩出半米长，省了1个水晶头，1小段网线，多出来的线直接藏电视机后面，这个想法挺不错。</span><br>
+<span>PS2.周中出差住了一个酒店，看到里面是面板式ap，这样的</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2wnswjrwrj20u01hckjo.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2wnswjrwrj20u01hckjo.jpg"><br>
+<span>tp的，我在狗东见过这个颜色的，没有仔细研究型号。然后我就在面前坐着，wifi信号时有时无，忽强忽弱，有时候会没信号，然后我可以手动连接到一个guestxx的无密码wifi（不是酒店服务说明里提供的wifi，那个时候有密码的）</span><br>
+<span>可见这个酒店的这套ac+ap可能都没ac的系统不咋地。</span><br>
+<span>------------------------</span><br>
+<span>狗东还挺快的，中午就送到了，然后开始作业。把两边的线盒全部打开，重新剪线，重新压进面板。最后终于达成了两个ap正常的状态。</span><br>
+<span>最终效果如下图</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2wn7mxjtoj20uq0u042l.jpg"><br>
+<span>XZ1C魔盒测试效果</span><br>
+<img src="http://ww2.sinaimg.cn/large/4055c128ly1g2xezau6lhj20k02cgwis.jpg" title="http://ww2.sinaimg.cn/large/4055c128ly1g2xezau6lhj20k02cgwis.jpg"><br>
+<span>现在的网络图是这样</span><br>
+<img src="http://ww4.sinaimg.cn/large/4055c128ly1g2xf0asbs5j216y0dbdhd.jpg" title="http://ww4.sinaimg.cn/large/4055c128ly1g2xf0asbs5j216y0dbdhd.jpg"><br>
+<span>虚线是示意线，因为esxi出的线只有一个到ap2（因为4000的LAN口不够了），一个是到4000（这根线既是esxi控制，也是内部虚拟机的网络接口）</span><br>
+</p><p><b>qwased: </b><br>
+<span>ios要到ip5 /ipad air开始才支持漫游吧，ipad3应该是不支持的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vanmercury: </b><br>
+<span>剁了三个当ap，测了一下还行，不过暂时没什么用中，不过reset一个是孔两个是按钮，合着外观还不一致的</span><br>
+</p><p><b>jxyy2002: </b><br>
+<span>这东西只有5G wifi吗，没有2.4G的？</span><br>
+</p><p><b>vanmercury: </b><br>
+<span>jxyy2002 发表于 2019-5-9 09:11</span><br>
+<span>这东西只有5G wifi吗，没有2.4G的？</span><br>
+<span>有2.4</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>国产机要怎么知道它支不支持k和v和r呢</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我的都是wps/default在一起，然后是按钮。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>qwased: </b><br>
+<span>typeunknown 发表于 2019-5-9 11:17</span><br>
+<span>国产机要怎么知道它支不支持k和v和r呢</span><br>
+<span> 2017年之后的新机应该都有</span><br>
+</p><p><b>qwased: </b><br>
+<span>AP设置踢出阈值的效果好像没有调小每个ap的发射功率让客户端自己切换来得好</span><br>
+</p><p><b>jxyy99: </b><br>
+<span>vanmercury 发表于 2019-5-9 11:07</span><br>
+<span>有2.4</span><br>
+<span>2.4也能自动切换不？</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>qwased 发表于 2019-5-9 13:29</span><br>
+<span>AP设置踢出阈值的效果好像没有调小每个ap的发射功率让客户端自己切换来得好 ...</span><br>
+<span>我也觉得，设置阈值肯定会有一个断网重连的过程，然后会造成短时间丢包及响应时间变长。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>qwased 发表于 2019-5-9 00:28</span><br>
+<span>ios要到ip5 /ipad air开始才支持漫游吧，ipad3应该是不支持的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的...</span><br>
+<span>查了一下，a1893是ipad6代</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>更新了测试结果，和折腾记录</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>我觉得吧…酒店里那个TP的AP指不定没开…</span><br>
+</p><p><b>jxyy99: </b><br>
+<span>暗影翔 发表于 2019-5-8 23:11</span><br>
+<span>前情提要：https://bbs.saraba1st.com/2b/thread-1829322-1-2.html</span><br>
+<span>听2L的意见，放狗搜了搜，koolsare、ch ...</span><br>
+<span>请问一下，除了5g，2.4能漫游吗，功能如何，因为家里有许多老设备只能2.4</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>macos: </b><br>
+<span>这个延时，比没有漫游的老unifi好点，但也没到不断的程度吧</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>jxyy99 发表于 2019-5-11 08:22</span><br>
+<span>请问一下，除了5g，2.4能漫游吗，功能如何，因为家里有许多老设备只能2.4</span><br>
+<span>—— 来自 Meizu 16th Plus, A ...</span><br>
+<span>没试过。mg1200ac的设置里有“2.4g、5g并存是优先连接5g“的选项。目前我家已达成5g全覆盖，所以没法测试2.4g和5g间漫游。</span><br>
+<span>我想可能2.4g和5g的ssid和密码设置成一样，就可以在这俩之间漫游了。</span><br>
+<span>同理2.4g与2.4g之间只要两个ap的ssid和密码一样，应该也是可以漫游的。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>alvin051414 发表于 2019-5-11 01:33</span><br>
+<span>我觉得吧…酒店里那个TP的AP指不定没开…</span><br>
+<span>真省钱</span><br>
+<span>@macos   一个90元的东西，还要啥自行车。 另外看acwifi的测试，tp全家桶ac100做ac，无法达成无缝漫游，游戏卡顿，视频卡顿。当然据说最新固件支持无缝了。ac300的最新固件已经看到kvr的选项了，但是价钱呢</span><br>
+<span>目前我的这个配置，可以达成不断，漫游时可能丢包，所以会有卡顿，但是总共才180的设备费，还说啥呀，真香。</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-5-11 16:33 编辑 </span><br>
+<span>暗影翔 发表于 2019-5-11 15:48</span><br>
+<span>真省钱</span><br>
+<span>@macos   一个90元的东西，还要啥自行车。 另外看acwifi的测试，tp全家桶ac100做ac，无法 ...</span><br>
+<span>不一定是酒店省钱。tp的面板ap大多给加了个“很懂国情”的设计：wifi信号开关按键。搞不好是哪个房客给关上的</span><br>
+</p><p><b>macos: </b><br>
+<span>暗影翔 发表于 2019-5-11 15:48</span><br>
+<span>真省钱</span><br>
+<span>@macos   一个90元的东西，还要啥自行车。 另外看acwifi的测试，tp全家桶ac100做ac，无法 ...</span><br>
+<span>不是，俺是说这个协议，实际不比老式ac分配好很多，并没有达到宣传的无缝漫游，实际可能还不如蜂窝的基站切换？后期的话，还有11s和hotspot2在推这方面的功能，虽然普及更花时间，但应该那时会真实现无缝</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>macos 发表于 2019-5-11 16:44</span><br>
+<span>不是，俺是说这个协议，实际不比老式ac分配好很多，并没有达到宣传的无缝漫游，实际可能还不如蜂窝的基站 ...</span><br>
+<span>起码老式ac分配，家用级的效果是不咋地的，目前新的如h3c的小贝系列应该都是企业级特性下放，才能达到比较好的分配效果。</span><br>
+<span>后期在慢慢看。我的追求就是微信语音不断就行。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>alvin051414 发表于 2019-5-11 16:31</span><br>
+<span>不一定是酒店省钱。tp的面板ap大多给加了个“很懂国情”的设计：wifi信号开关按键。搞不好是哪个房客给关 ...</span><br>
+<span> 难道是中间的哪个大钮？</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>暗影翔 发表于 2019-5-11 17:08</span><br>
+<span>难道是中间的哪个大钮？</span><br>
+<span>对，那个wifi标的，wifi信号、指示灯、reset三合一的来着……</span><br>
+</p><p><b>hui.w: </b><br>
+<span>有70块的为啥要买90的……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830129[0-50]</guid>
+    </item>
+  </channel>
+</rss>

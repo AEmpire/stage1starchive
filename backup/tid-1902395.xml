@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这是翻船了还是三星的锅？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这是翻船了还是三星的锅？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:24:31 +0000</lastBuildDate>
+    <item>
+      <title>这是翻船了还是三星的锅？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902395-1-1.html</link>
+      <description>这是翻船了还是三星的锅？&#13;
+神船笔记本Z7128三星ssd（原装M.2接口）+1T西数蓝盘（自己加装sata3接口）+1060版本，2016年购入。
+&#13;
+今天早上开机突然提示硬盘自检，因为以前从来没有发生过这种事就跳过然后启动系统。
+&#13;
+结果过了几分钟系统又提示要检测硬盘然后就重启了。
+&#13;
+等检测完进入系统我就用AS SSD Benchmark测了C盘的速度，发现读写都只有400多，总评分才700多。这明显不对，因为以前测速读写都在800左右。
+&#13;
+又用aida64测了一下，发现三星ssd接口从M.2变成了sata3。
+&#13;
+因为听说过三星ssd掉速这说法，所以现在不知道是三星硬盘的原因还是神船的原因。
+&#13;
+不知各位有没有碰到过这种事的。</description>
+      <content:encoded><![CDATA[<p><b>kensai_wang: </b><br>
+<span>这是翻船了还是三星的锅？</span><br>
+<span>神船笔记本Z7128三星ssd（原装M.2接口）+1T西数蓝盘（自己加装sata3接口）+1060版本，2016年购入。</span><br>
+<span>今天早上开机突然提示硬盘自检，因为以前从来没有发生过这种事就跳过然后启动系统。</span><br>
+<span>结果过了几分钟系统又提示要检测硬盘然后就重启了。</span><br>
+<span>等检测完进入系统我就用AS SSD Benchmark测了C盘的速度，发现读写都只有400多，总评分才700多。这明显不对，因为以前测速读写都在800左右。</span><br>
+<span>又用aida64测了一下，发现三星ssd接口从M.2变成了sata3。</span><br>
+<span>因为听说过三星ssd掉速这说法，所以现在不知道是三星硬盘的原因还是神船的原因。</span><br>
+<span>不知各位有没有碰到过这种事的。</span><br>
+</p><p><b>john: </b><br>
+<span>你算了吧，机器兼容NVME和SATA盘的很多，同一张盘可以在NVME和SATA之间左右横跳的还真没见过</span><br>
+<span>而且三星不存在读写都是800MB/s的128G NVME盘</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1871329</span><br>
+</p><p><b>kensai_wang: </b><br>
+<span>那意思就是神船的接口坏了？</span><br>
+<span>因为这个笔记本有两个m.2接口共用一个通道，据说装一个硬盘是满速，装两个就平分。</span><br>
+<span>我换一下位置试试。</span><br>
+<span>至于速度问题可能是记错了，反正比现在快不少就是了。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>p650的Z7吗？记得火鸡说过，两个m2，只能有一个是nvme吧，另外一个会掉成sata还是怎么，貌似还和2.5寸机械硬盘位插没插有关？</span><br>
+</p><p><b>john: </b><br>
+<span>kensai_wang 发表于 2019-12-13 11:22</span><br>
+<span>那意思就是神船的接口坏了？</span><br>
+<span>因为这个笔记本有两个m.2接口共用一个通道，据说装一个硬盘是满速，装两个就平 ...</span><br>
+<span>你的笔记本原厂不支持NVME启动，需要刷BIOS</span><br>
+<span>https://www.zhihu.com/question/37007270</span><br>
+<span>就算你把速度记错了，比读写4XXMB/s的正常SATA速度快不少也一定是NVME，那么要达成你描述的现象只有下面一种可能</span><br>
+<span>电脑买回来开机之前（或者第一次跑测试之后）有人偷偷把BIOS刷成支持NVME启动的MOD版，然后把原厂SATA盘完美克隆到一张同品牌NVME上换好</span><br>
+<span>前几天又偷偷把之前那张NVME完美克隆回原厂SATA盘插回去，因为过程中强行关机被你发现了</span><br>
+<span>如果你没有一个爱好恶作剧的亲人或朋友一起住过三年，建议去医院检查一下双重人格</span><br>
+</p><p><b>Realplayer: </b><br>
+<span> 本帖最后由 Realplayer 于 2019-12-13 11:55 编辑 </span><br>
+<span>单独接三棒那个nvme的ssd启动看一下不就完了</span><br>
+<span>如ls说的</span><br>
+<span>1、读写800一定是nvme，sata的理论速度极限不到600</span><br>
+<span>2、M2未必就是nvme，你的检测软件说从M2变成sata是鬼扯，因为M2既有nvme也有sata通道，检测软件只会报告通道类型不会报告接口类型</span><br>
+</p><p><b>radar: </b><br>
+<span>可能是产生幻觉了…</span><br>
+</p><p><b>kensai_wang: </b><br>
+<span> 本帖最后由 kensai_wang 于 2019-12-13 12:30 编辑 </span><br>
+<span>liaojings1 发表于 2019-12-13 11:31</span><br>
+<span>p650的Z7吗？记得火鸡说过，两个m2，只能有一个是nvme吧，另外一个会掉成sata还是怎么，貌似还和2.5寸机械 ...</span><br>
+<span>就是这个情况，我买笔记本的时候还看了猪王的视频。</span><br>
+<span>等我把硬盘插拔换位看看。</span><br>
+<span>型号是战神z7sp7s2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902395[0-50]</guid>
+    </item>
+  </channel>
+</rss>

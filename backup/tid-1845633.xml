@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问一道打牌概率题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问一道打牌概率题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:08:26 +0000</lastBuildDate>
+    <item>
+      <title>问一道打牌概率题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845633-1-1.html</link>
+      <description>问一道打牌概率题&#13;
+108张牌，A-K各八张，大王小王各两张
+&#13;
+分为五份，四份25张，一份8张
+&#13;
+其中一份或多份中，存在8张一样的牌的概率是多大，大小一样就认为一样，不考虑花色，存在一个或多个8张一样的都可以</description>
+      <content:encoded><![CDATA[<p><b>御众师: </b><br>
+<span>问一道打牌概率题</span><br>
+<span>108张牌，A-K各八张，大王小王各两张</span><br>
+<span>分为五份，四份25张，一份8张</span><br>
+<span>其中一份或多份中，存在8张一样的牌的概率是多大，大小一样就认为一样，不考虑花色，存在一个或多个8张一样的都可以</span><br>
+</p><p><b>yigua: </b><br>
+<span>斗地主的超级炸弹？</span><br>
+</p><p><b>董卓: </b><br>
+<span>大小王可以算有替代的，或者特殊算法吗？</span><br>
+<span>否则大小王出在题目里面没有意义了</span><br>
+</p><p><b>yigua: </b><br>
+<span>是任意一份，还是其中某一份？</span><br>
+</p><p><b>yigua: </b><br>
+<span>董卓 发表于 2019-7-10 14:37</span><br>
+<span>大小王可以算有替代的，或者特殊算法吗？</span><br>
+<span>否则大小王出在题目里面没有意义了</span><br>
+<span> ...</span><br>
+<span>有意义，因为这是实际情况</span><br>
+</p><p><b>御众师: </b><br>
+<span>董卓 发表于 2019-7-10 14:37</span><br>
+<span>大小王可以算有替代的，或者特殊算法吗？</span><br>
+<span>否则大小王出在题目里面没有意义了</span><br>
+<span> ...</span><br>
+<span>无特殊算法，但实际情况就是有大小王存在的。这不是一道空想题，是有实际意义的。。。</span><br>
+</p><p><b>الطائر: </b><br>
+<span>估算的话，万分之一</span><br>
+</p><p><b>董卓: </b><br>
+<span>写代码算了一下，约万分之1.62</span><br>
+</p><p><b>双面人: </b><br>
+<span>1/2</span><br>
+</p><p><b>CloneCommando: </b><br>
+<span>给楼主上卡布奇诺</span><br>
+</p><p><b>白水金匀: </b><br>
+<span>这个高中的排列组合就能解，</span><br>
+<span>但我全忘了</span><br>
+<span>XD</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>董卓 发表于 2019-7-10 14:37</span><br>
+<span>大小王可以算有替代的，或者特殊算法吗？</span><br>
+<span>否则大小王出在题目里面没有意义了</span><br>
+<span> ...</span><br>
+<span>有意义，让题目变复杂。</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>非精确，而是估算的话，可以先算25张牌中有8张牌一样的概率x。</span><br>
+<span>因为x极小，所以最后你要的答案可以用4x近似代替。</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>估算答案是：</span><br>
+<span>x=C*C*C/C=0.00004=十万分之四</span><br>
+<span>也就是你玩十万把斗地主，有四把可能上来25张牌里面有8炸。</span><br>
+<span>4x=0.00016=万分之一点六，这是4家里面至少有一家有8炸的概率。</span><br>
+<span>考虑到你这是玩斗地主，估算已经可以基本满足你的要求了。</span><br>
+<span>精确计算难度很高，很麻烦，需要编程递推。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845633[0-50]</guid>
+    </item>
+  </channel>
+</rss>

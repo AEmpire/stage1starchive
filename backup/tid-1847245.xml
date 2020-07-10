@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求推荐巩固算法的书籍或者网站。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求推荐巩固算法的书籍或者网站。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:58:16 +0000</lastBuildDate>
+    <item>
+      <title>求推荐巩固算法的书籍或者网站。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847245-1-1.html</link>
+      <description>求推荐巩固算法的书籍或者网站。&#13;
+ 本帖最后由 jason_gideon 于 2019-7-17 01:22 编辑 
+
+刷LEETCODE一些比较简单的MEDIUM题 基本能秒。但是感觉自己算法还是很弱。一些比较难的MEDIUM和一些HARD题目 很容易没有思路。脑子里没有一个完整和深刻记牢的数据结构和算法工具库 
+&#13;
+比如如何看见一道题很快能知道是否能用拓扑排序，快排，桶排序，DFS，BFS？用什么数据结构来存储后提升时间复杂度。
+&#13;
+比如桶排序和快速排序过程中获取到的信息的不同应用场景。题目contains duplicate III可以用桶排序过程来判断是否存在duplicate。题目find kth largest num可以用快速排序的pivot位置来获得解(heap解更简单)。这两题当时都没想到。现在感觉真的简单。。还是基础知识不扎实
+&#13;
+比如二分搜索。能知道一两种写法。但是细节上就有些不清不楚。求上下界的不同写法。开闭区间，各个写法细节上有什么不同。各自处理什么EDGE CASE。
+&#13;
+比如UNION FIND并查集。一阵子不写就忘记了。想有一本书或者网站翻开一看就能记起来怎么实现，怎么应用。
+&#13;
+题目如word ladder I/II。先双向广度优先搜索建图。然后深度优先搜索打印。如果脑子里有很清楚的工具库。这题其实不难。但是当时做的时候就不知道怎么下手，因为自己基础知识不够牢固。
+&#13;
+想找的网站或者书籍：算法数据结构合集，废话越少越好。有 思路+不同的代码实现/标准写法+区别+图+应用场景（例题） 最好 。(适合每天或每周复习那种)</description>
+      <content:encoded><![CDATA[<p><b>jason_gideon: </b><br>
+<span>求推荐巩固算法的书籍或者网站。</span><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-17 01:22 编辑 </span><br>
+<span>刷LEETCODE一些比较简单的MEDIUM题 基本能秒。但是感觉自己算法还是很弱。一些比较难的MEDIUM和一些HARD题目 很容易没有思路。脑子里没有一个完整和深刻记牢的数据结构和算法工具库 </span><br>
+<span>比如如何看见一道题很快能知道是否能用拓扑排序，快排，桶排序，DFS，BFS？用什么数据结构来存储后提升时间复杂度。</span><br>
+<span>比如桶排序和快速排序过程中获取到的信息的不同应用场景。题目contains duplicate III可以用桶排序过程来判断是否存在duplicate。题目find kth largest num可以用快速排序的pivot位置来获得解(heap解更简单)。这两题当时都没想到。现在感觉真的简单。。还是基础知识不扎实</span><br>
+<span>比如二分搜索。能知道一两种写法。但是细节上就有些不清不楚。求上下界的不同写法。开闭区间，各个写法细节上有什么不同。各自处理什么EDGE CASE。</span><br>
+<span>比如UNION FIND并查集。一阵子不写就忘记了。想有一本书或者网站翻开一看就能记起来怎么实现，怎么应用。</span><br>
+<span>题目如word ladder I/II。先双向广度优先搜索建图。然后深度优先搜索打印。如果脑子里有很清楚的工具库。这题其实不难。但是当时做的时候就不知道怎么下手，因为自己基础知识不够牢固。</span><br>
+<span>想找的网站或者书籍：算法数据结构合集，废话越少越好。有 思路+不同的代码实现/标准写法+区别+图+应用场景（例题） 最好 。(适合每天或每周复习那种)</span><br>
+</p><p><b>poplj: </b><br>
+<span>铜球，算法导论就算了</span><br>
+</p><p><b>424143883: </b><br>
+<span>菜鸡抛砖引玉下</span><br>
+<span>基础的就是《剑指 Offer 》https://www.nowcoder.com/discuss/198840</span><br>
+<span>有一个图解LeetCode https://github.com/ZXZxin/ZXBlog/blob/master/%E5%88%B7%E9%A2%98/LeetCode/LeetCodeSolutionIndex.md</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>但是工作中真的会用到这么多的算法吗</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>424143883 发表于 2019-7-17 01:28</span><br>
+<span>菜鸡抛砖引玉下</span><br>
+<span>基础的就是《剑指 Offer 》https://www.nowcoder.com/discuss/198840</span><br>
+<span>有一个图解LeetCode h ...</span><br>
+<span>这两个都是针对具体题目的。</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>usaco和poj，请</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>codeforce什么时候打到T1 就可以了。去头条都行</span><br>
+</p><p><b>Hieda: </b><br>
+<span>为什么不要clrs</span><br>
+<span>这需求不就是看书加刷noip/acm难度的oj吗</span><br>
+</p><p><b>leystage: </b><br>
+<span>算法 第四版。 建议读原版 PDF 版，中文版翻译和排版都远不如原版…</span><br>
+</p><p><b>jctc: </b><br>
+<span>多刷题</span><br>
+<span>现在我的水平已经高到一看到答案就会做的程度饿了</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>刷poj。</span><br>
+<span>啥时候把poj所有题刷通了啥时候就大成了。</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>poj 已经 out of fashion了 只是为了学习的话不建议做那些很旧的oj 更别说poj早就停止更新了</span><br>
+<span>如果能接受英文建议codeforces</span><br>
+<span>经常有各种难度的比赛有比较成熟排名段位系统</span><br>
+<span>有兴趣的话其实很好玩 </span><br>
+<span>而且特点是题目着重于灵活思维 而不是说拿一个很裸的算法题 只要并且只有你会这个算法就能做</span><br>
+<span> 而且如果你不通过它也可以显示错误数据点 提高学习效率</span><br>
+<span>像leetcode的话我觉得有一个很大的槽点就是没有给出明确的数据范围 要知道设计算法肯定是要对数据范围来选择合适的复杂度的</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>为什么LS都推荐OJ，我想要资料。比较简单粗暴的算法和数据结构合集。。可以随时拿起来看加深印象的那种。</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>leystage 发表于 2019-7-17 08:17</span><br>
+<span>算法 第四版。 建议读原版 PDF 版，中文版翻译和排版都远不如原版…</span><br>
+<span>谢谢，我去看看。</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span> 本帖最后由 寺川愛美 于 2019-7-18 03:14 编辑 </span><br>
+<span>qaweqa 发表于 2019-7-17 08:57</span><br>
+<span>poj 已经 out of fashion了 只是为了学习的话不建议做那些很旧的oj 更别说poj早就停止更新了</span><br>
+<span>如果能接受英 ...</span><br>
+<span>現在ACM ICPC決賽頒獎的時候</span><br>
+<span>會很酷炫地顯示得獎者的codeforce和topcoder rating</span><br>
+<span>我可以說codeforce在比賽方面有廣泛認受性嗎 </span><br>
+</p><p><b>lpc2103: </b><br>
+<span>poj太老+1</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>一个好名字: </b><br>
+<span>SICP，另一种思路的开阔</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847245[0-50]</guid>
+    </item>
+  </channel>
+</rss>

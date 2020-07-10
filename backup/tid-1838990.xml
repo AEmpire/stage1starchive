@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>省钱鬼才：X570=IO DIE</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>省钱鬼才：X570=IO DIE</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:50:09 +0000</lastBuildDate>
+    <item>
+      <title>省钱鬼才：X570=IO DIE[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838990-1-1.html</link>
+      <description>省钱鬼才：X570=IO DIE&#13;
+
+&#13;
+@IanCutress
+&#13;
+So for clarity:Rome large IO die = GF 14nmMatisse small IO die = GF 12nmX570 Chipset = Matisse IO die on GF 14nmThat's right. The X570 chipset is the same floorplan as the Matisse IO die, but with diff chicken bits enabled/disabled. AMD has good reuse of chips
+&#13;
+省钱省出新境界，X570=IO DIE，连CPU正向24条PCI-E通道，CPU连出来反向连20条。。。
+&#13;
+继ZEN DIE *4=EPYC后又一鬼才省钱设计</description>
+      <content:encoded><![CDATA[<p><b>sblnrrk: </b><br>
+<span>省钱鬼才：X570=IO DIE</span><br>
+<span>@IanCutress</span><br>
+<span>So for clarity:Rome large IO die = GF 14nmMatisse small IO die = GF 12nmX570 Chipset = Matisse IO die on GF 14nmThat's right. The X570 chipset is the same floorplan as the Matisse IO die, but with diff chicken bits enabled/disabled. AMD has good reuse of chips</span><br>
+<span>省钱省出新境界，X570=IO DIE，连CPU正向24条PCI-E通道，CPU连出来反向连20条。。。</span><br>
+<span>继ZEN DIE *4=EPYC后又一鬼才省钱设计</span><br>
+</p><p><b>johnie: </b><br>
+<span>当年手工打磨每一片6950公版的amd了解一下</span><br>
+</p><p><b>apple_0012: </b><br>
+<span>我到现在都坚持认为买第一代EPYC的都是图拉丁的卧底</span><br>
+</p><p><b>albertfu: </b><br>
+<span>喷了，不知道说什么好</span><br>
+<span>IMC这种发热大户屏蔽一下就是南桥了。。。真是省钱鬼才！</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>albertfu 发表于 2019-6-12 21:27</span><br>
+<span>喷了，不知道说什么好</span><br>
+<span>IMC这种发热大户屏蔽一下就是南桥了。。。真是省钱鬼才！ ...</span><br>
+<span>内存控制器这么大一块屏蔽了能省钱？</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>上行24条PCIE通道是怎么回事？rome里面上行是IF，改成4条PCIE这变化大了。</span><br>
+</p><p><b>qwased: </b><br>
+<span>lixianfyss 发表于 2019-6-13 07:14</span><br>
+<span>内存控制器这么大一块屏蔽了能省钱？</span><br>
+<span>amd和gf签了协议，每年包一定产能，用不完就是白给钱</span><br>
+<span>所以搞不好这么屏蔽完还是赚的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>lixianfyss 发表于 2019-6-13 07:16</span><br>
+<span>上行24条PCIE通道是怎么回事？rome里面上行是IF，改成4条PCIE这变化大了。</span><br>
+<span>不是同一个io die，你再看清楚</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>lixianfyss 发表于 2019-6-13 07:16</span><br>
+<span>上行24条PCIE通道是怎么回事？rome里面上行是IF，改成4条PCIE这变化大了。</span><br>
+<span>在ROME里面，插座互联用的IF=32条 PCI-E 4.0，上一代的EPYC是用的64X PCI-E 3.0</span><br>
+<span>上一代因为只有128条，用了64条所以只能双路，这次可以直接4路直连（32*3连其它3个）。</span><br>
+<span>按AMD这么玩的话，我猜它可能做一个超大PCI-E交换机，然后直接连8路，或者显卡全部挂在交换机上</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>qwased 发表于 2019-6-13 11:32</span><br>
+<span>amd和gf签了协议，每年包一定产能，用不完就是白给钱</span><br>
+<span>所以搞不好这么屏蔽完还是赚的</span><br>
+<span>省得重新设计流片一个，把人力花在核心上，是真的省钱</span><br>
+<span>芯片制造成本不高，设计和流片费用是固定跑不了，量越大，摊的越低</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>lixianfyss 发表于 2019-6-13 07:14</span><br>
+<span>内存控制器这么大一块屏蔽了能省钱？</span><br>
+<span>农企为了维持优先权在GF有保底协议,每年至少要买多少GF的芯片~~~既然总是要买的,那就随便呗</span><br>
+</p><p><b>你儿子在我手上: </b><br>
+<span>这是节约成本的好方法啊</span><br>
+</p><p><b>albertfu: </b><br>
+<span>sblnrrk 发表于 2019-6-13 11:51</span><br>
+<span>在ROME里面，插座互联用的IF=32条 PCI-E 4.0，上一代的EPYC是用的64X PCI-E 3.0</span><br>
+<span>上一代因为只有128条， ...</span><br>
+<span>坐实了超算里面CPU只是个交换机 </span><br>
+</p><p><b>Realplayer: </b><br>
+<span>我宁可这15w功耗塞到CPU里</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Realplayer 发表于 2019-6-13 14:41</span><br>
+<span>我宁可这15w功耗塞到CPU里</span><br>
+<span>那得做一个40通道的才能抵上现在AM4 zen2+南桥的PCIE通道数了</span><br>
+<span>针脚应该不兼容，AM4插座很可能只留了24条PCIE的出路。。。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>Realplayer 发表于 2019-6-13 14:41</span><br>
+<span>我宁可这15w功耗塞到CPU里</span><br>
+<span>Z390=6W，X570=11W，就高5瓦而已，说句难听的你根本就感受不到</span><br>
+<span>那么问题来了，是所有人都需要DOUBLE的通道吗？答案是NO，甚至很多人根本就不需要FCH，A300一个M.2，两三个SATA够用了</span><br>
+<span>华擎A300上BIOS有CPU 16X拆分选项，我觉得主板拆个8444，不管你声显网卡还是SATA都够用</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>sblnrrk 发表于 2019-6-13 17:11</span><br>
+<span>Z390=6W，X570=11W，就高5瓦而已，说句难听的你根本就感受不到</span><br>
+<span>那么问题来了，是所有人都需要DOUBLE的通 ...</span><br>
+<span>等等，你说的能拆16x的华擎A300是deskmini a300吗？a300不是连pcie槽都没有吗</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>lwa190212 发表于 2019-6-13 17:27</span><br>
+<span>等等，你说的能拆16x的华擎A300是deskmini a300吗？a300不是连pcie槽都没有吗 ...</span><br>
+<span>BIOS没阉，说明A300是能拆的，只是不开放。。。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>sblnrrk 发表于 2019-6-13 17:35</span><br>
+<span>BIOS没阉，说明A300是能拆的，只是不开放。。。</span><br>
+<span>说起来我刚问过华擎客服ab350 gaming itx/ac的x16拆分x8+x8功能，回复只有在4.9版本的bios之前才可以用，之后就封了这功能</span><br>
+<span>感觉本来就是amd cpu的功能，猪板商想给你用就给你用，但是定位原因一般不给用</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>lwa190212 发表于 2019-6-13 17:42</span><br>
+<span>说起来我刚问过华擎客服ab350 gaming itx/ac的x16拆分x8+x8功能，回复只有在4.9版本的bios之前才可以用， ...</span><br>
+<span>CPU都一样，都可以拆分的，但是主板厂就不想让你便宜买好到货，所以没戏</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>qwased 发表于 2019-6-13 11:34</span><br>
+<span>不是同一个io die，你再看清楚</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>Matisse原本用在哪里？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>lixianfyss 发表于 2019-6-13 23:11</span><br>
+<span>Matisse原本用在哪里？</span><br>
+<span>matisse是am4接口zen2 cpu的代号，rome是sp3接口的zen2代号</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>albertfu 发表于 2019-6-13 23:30</span><br>
+<span>matisse是am4接口zen2 cpu的代号，rome是sp3接口的zen2代号</span><br>
+<span>这么说zen2的IO Die接出去的x570也是一样的IO Die？这没道理，IO Die的IF交换功能外面用不到，上下行PCIE数量也不同。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>lixianfyss 发表于 2019-6-14 00:37</span><br>
+<span>这么说zen2的IO Die接出去的x570也是一样的IO Die？这没道理，IO Die的IF交换功能外面用不到，上下行PCIE ...</span><br>
+<span>cpu和io die和x570是一个东西</span><br>
+<span>cpu是24条pcie，sata，usb3，内存控制器，它们都挂在if上和cpu相连</span><br>
+<span>x570也是24条pcie（hsio），可以拆成pcie，m2，sata，usb等等，也都挂在if上（不然没法互联），只是不启用内存控制器，if末端不是cpu而已</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>albertfu: </b><br>
+<span>lixianfyss 发表于 2019-6-14 00:37</span><br>
+<span>这么说zen2的IO Die接出去的x570也是一样的IO Die？这没道理，IO Die的IF交换功能外面用不到，上下行PCIE ...</span><br>
+<span> 我也觉得这做法很扯淡，但阿三科技的Ian是这么写的</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>albertfu 发表于 2019-6-14 01:48</span><br>
+<span>我也觉得这做法很扯淡，但阿三科技的Ian是这么写的</span><br>
+<span>x570是14nm，iodie是改进版12，我猜，x570就是第一版的iodie，造出来了然后amd发现 我艹好像有问题（内存频率上不去，坏区太多，功耗太大，或者有bug）</span><br>
+<span>咋办？造都造出来了，不用扔了吗？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>sblnrrk 发表于 2019-6-14 01:48</span><br>
+<span>cpu和io die和x570是一个东西</span><br>
+<span>cpu是24条pcie，sata，usb3，内存控制器，它们都挂在if上和cpu相连</span><br>
+<span>说起来简单，但是x570上行只有4xPCIE，远少于IO Die用于核间IF的通道数。另外IO Die也没必要搞什么sata和USB之类的外设接口。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>sblnrrk 发表于 2019-6-14 01:59</span><br>
+<span>x570是14nm，iodie是改进版12，我猜，x570就是第一版的iodie，造出来了然后amd发现 我艹好像有问题（内存 ...</span><br>
+<span>有问题流片的时候都能查出来，根本不会进入大规模生产。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span> 本帖最后由 sblnrrk 于 2019-6-14 09:58 编辑 </span><br>
+<span>lixianfyss 发表于 2019-6-14 02:08</span><br>
+<span>说起来简单，但是x570上行只有4xPCIE，远少于IO Die用于核间IF的通道数。另外IO Die也没必要搞什么sata和 ...</span><br>
+<span>iodie上行只有4x没错，但是相互之间还会有交换数据的，就像intel ringbus无论多少核都要挂着一样</span><br>
+<span>am4就是soc，io die上必须有sata、uab3，还是看图吧</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>albertfu: </b><br>
+<span>lixianfyss 发表于 2019-6-14 02:08</span><br>
+<span>说起来简单，但是x570上行只有4xPCIE，远少于IO Die用于核间IF的通道数。另外IO Die也没必要搞什么sata和 ...</span><br>
+<span>zen系从一代开始就是cpu内置一些低速接口，sata，usb啥的，所以有主板无需南桥的型号</span><br>
+<span>现在把IMC，PCIE啥的全部挪出来了，我估摸着IO Die里面24根PCIE是全都可以上下行自由切换的，只是现在各分配了4根用来互联，另外两组共40根，一组20根从cpu出来，一组20根从南桥出来</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>albertfu 发表于 2019-6-14 16:55</span><br>
+<span>zen系从一代开始就是cpu内置一些低速接口，sata，usb啥的，所以有主板无需南桥的型号</span><br>
+<span>现在把IMC，PCIE啥 ...</span><br>
+<span>也许我说不清楚，从一开始就不存在上行下行切换，所有的pcie都是挂在if上的，if只负责传输，不在乎你的数据到哪去，从哪来</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>creymorgan: </b><br>
+<span> 本帖最后由 creymorgan 于 2019-6-14 21:39 编辑 </span><br>
+<span>sblnrrk 发表于 2019-6-14 01:59</span><br>
+<span>x570是14nm，iodie是改进版12，我猜，x570就是第一版的iodie，造出来了然后amd发现 我艹好像有问题（内存 ...</span><br>
+<span>第一版，不可能生产那么多的</span><br>
+<span>更别说，目前Ryzen3代标配就是X570，io die和X570几乎是要1比1生产的，故意生产坏的么？</span><br>
+</p><p><b>creymorgan: </b><br>
+<span> 本帖最后由 creymorgan 于 2019-6-14 21:39 编辑 </span><br>
+<span>sblnrrk 发表于 2019-6-14 01:59</span><br>
+<span>x570是14nm，iodie是改进版12，我猜，x570就是第一版的iodie，造出来了然后amd发现 我艹好像有问题（内存 ...</span><br>
+<span>第一版，不可能生产那么多的</span><br>
+<span>更别说，目前Ryzen3代标配就是X570，io die和X570几乎是要1比1生产的，故意生产坏的么？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838990[0-50]</guid>
+    </item>
+  </channel>
+</rss>

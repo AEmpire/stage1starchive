@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OUTEL：再次修复了性能比预想设计得更强的BUG</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>OUTEL：再次修复了性能比预想设计得更强的BUG</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:32:15 +0000</lastBuildDate>
+    <item>
+      <title>OUTEL：再次修复了性能比预想设计得更强的BUG[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911201-1-1.html</link>
+      <description>OUTEL：再次修复了性能比预想设计得更强的BUG&#13;
+https://www.cnbeta.com/articles/tech/936941.htm
+&#13;
+去年 5 月，计算机科学家披露了起名为 ZombieLoad 的 CPU 漏洞，该漏洞影响2011 年之后发布的几乎所有英特尔处理器。和 Meltdown、Spectre等漏洞类似，ZombieLoad 利用预测执行，去实现跨线程、权限边界和超线程的数据泄露。
+&#13;
+芯片巨人先后在去年 5 月 和 11 月释出了两次补丁去修复 Zombieload 漏洞。
+&#13;
+本周一，英特尔在安全通知中承认之前的修复并不充分，攻击者仍然能利用 Zombieload 泄露数据，它第三次释出了补丁。</description>
+      <content:encoded><![CDATA[<p><b>外挂全家脚气: </b><br>
+<span>OUTEL：再次修复了性能比预想设计得更强的BUG</span><br>
+<span>https://www.cnbeta.com/articles/tech/936941.htm</span><br>
+<span>去年 5 月，计算机科学家披露了起名为 ZombieLoad 的 CPU 漏洞，该漏洞影响2011 年之后发布的几乎所有英特尔处理器。和 Meltdown、Spectre等漏洞类似，ZombieLoad 利用预测执行，去实现跨线程、权限边界和超线程的数据泄露。</span><br>
+<span>芯片巨人先后在去年 5 月 和 11 月释出了两次补丁去修复 Zombieload 漏洞。</span><br>
+<span>本周一，英特尔在安全通知中承认之前的修复并不充分，攻击者仍然能利用 Zombieload 泄露数据，它第三次释出了补丁。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>但是牙膏的服务器部门还是卖爆 </span><br>
+<span>漏洞越多，补丁后性能越低，缺口越大，销量越高！</span><br>
+</p><p><b>johnie: </b><br>
+<span>我多打几个补丁降低性能 那些公司就会因为性能不够而换新的cpu了</span><br>
+</p><p><b>datzz: </b><br>
+<span>amd yes 刻不容缓</span><br>
+</p><p><b>litel: </b><br>
+<span>就是不能一次修了，要一点点修，一次降一点点性能。</span><br>
+<span>温水煮青蛙。</span><br>
+<span>一次修完，绝对会有诉讼官司。。。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lhm123: </b><br>
+<span>已经见怪不怪了。堵漏洞也是挤牙膏的方式..</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>销量变高 营收创纪录</span><br>
+</p><p><b>elflie: </b><br>
+<span>albertfu 发表于 2020-1-28 22:56</span><br>
+<span>但是牙膏的服务器部门还是卖爆 </span><br>
+<span>漏洞越多，补丁后性能越低，缺口越大，销量越高！ ...</span><br>
+<span>outel：怎么换amd了？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>看看财报，还不盐菌。</span><br>
+<span>形式不是小好，是大好！</span><br>
+</p><p><b>847681220: </b><br>
+<span>albertfu 发表于 2020-1-28 22:56</span><br>
+<span>但是牙膏的服务器部门还是卖爆 </span><br>
+<span>漏洞越多，补丁后性能越低，缺口越大，销量越高！ ...</span><br>
+<span>做这种一次性生意就是想最后捞一笔跑路</span><br>
+</p><p><b>正义大朋友: </b><br>
+<span>修漏洞也得挤牙膏</span><br>
+</p><p><b>albertfu: </b><br>
+<span>新的牙膏专属漏洞CacheOut又横空出世了 </span><br>
+<span>Intel is not spared when it comes to the number of vulnerabilities that keep hitting their processors. The latest one is CacheOut, a new speculative execution attack that is capable of leaking data from Intel CPUs across many security boundaries. All processors up-to-the recent Coffee lake refresh are effected.</span><br>
+<span>Despite Intel's attempts to address previous generations of speculative execution attacks, CPUs are still vulnerable, allowing attackers to exploit these vulnerabilities to leak sensitive data. Unlike previous MDS issues, the researchers show in their work how an attacker can exploit the CPU's caching mechanisms to select what data to leak, as opposed to waiting for the data to be available.</span><br>
+<span>They then demonstrate that CacheOut can violate nearly every hardware-based security domain, leaking data from the OS kernel, co-resident virtual machines, and even SGX enclaves. CacheOutcan bypass software fixes. Making it possible to extract data from both the kernel of the OS and from virtual machines, and also from something that Intel calls 'software guard extensions' (SGX) that normally is stored securely. </span><br>
+<span>Researchers from the University of Michigan and the University of Adelaide have found this new bug, and posted a paper on it. Read the paper. It seems that once again only Intel processors are affected including Core, Xeon and Atom models. AMD is save from this vulnerability.</span><br>
+</p><p><b>騜: </b><br>
+<span>https://software.intel.com/security-software-guidance/insights/processors-affected-l1d-eviction-sampling</span><br>
+</p><p><b>河水: </b><br>
+<span>yes！</span><br>
+</p><p><b>yst234: </b><br>
+<span>Intel 贡献漏洞</span><br>
+<span>AMD 贡献 bug </span><br>
+<span> fair enough</span><br>
+</p><p><b>白头盔: </b><br>
+<span>amd难道漏洞就那么少吗？会不会消费级用的多了，以后也发现很多漏洞</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>intel逼人换平台呢这是(</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>白头盔 发表于 2020-01-30 16:05:08</span><br>
+<span>amd难道漏洞就那么少吗？会不会消费级用的多了，以后也发现很多漏洞这就是像linux比win安全的假象一样，用的人少没人搞出来，linux的大bug危害也不小，也不少</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>qratosone: </b><br>
+<span> 本帖最后由 qratosone 于 2020-1-30 17:21 编辑 </span><br>
+<span>白头盔 发表于 2020-1-30 16:05</span><br>
+<span>amd难道漏洞就那么少吗？会不会消费级用的多了，以后也发现很多漏洞</span><br>
+<span>Intel一管牙膏从2011年一直挤到现在才有漏洞，ARM公版同样用的多，哪里见很多漏洞了？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>白头盔 发表于 2020-1-30 16:05</span><br>
+<span>amd难道漏洞就那么少吗？会不会消费级用的多了，以后也发现很多漏洞</span><br>
+<span>牙膏的分支预测和超线程实现，当年都用了很多投机取巧的办法来提高性能，而且遗毒残留到今天最新的架构</span><br>
+<span>能坚持这么多年才被爆出来，已经是学界没紧盯着的关系了</span><br>
+<span>以后重视安全的研究人员会更多，18年初到现在牙膏不断爆出无法修复的安全漏洞就是一个证明</span><br>
+</p><p><b>lhm123: </b><br>
+<span>albertfu 发表于 2020-1-30 18:05</span><br>
+<span>牙膏的分支预测和超线程实现，当年都用了很多投机取巧的办法来提高性能，而且遗毒残留到今天最新的架构</span><br>
+<span> ...</span><br>
+<span> 感觉就像武侠里面 那种嗑药催谷突破的，一时间战力爆表，但往后容易走火入魔。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>elflie 发表于 2020-1-29 03:46</span><br>
+<span>outel：怎么换amd了？</span><br>
+<span>amd没戏，至少吃三年</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>melvin95: </b><br>
+<span>这生意真好做</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>白头盔 发表于 2020-1-30 16:05</span><br>
+<span>amd难道漏洞就那么少吗？会不会消费级用的多了，以后也发现很多漏洞</span><br>
+<span>现在这些漏洞很多都是侧信道攻击类型的，CORE结构开始设计的时候这类攻击的研究还没有开始，很多设计自然也没有考虑到，ZEN设计时候已经是2014+相关研究多了就考虑到了。同时ZEN在一些有冒险的行为处理上也相当保守，典型就是ZEN的设计保持了访存权限检查的优先性，免疫了INTEL和ARM公版都中**的MELTDOWN。</span><br>
+<span>除此之外再说一下intel的两个漏洞筛子，HT和TSX。</span><br>
+<span>另外INTEL HT实现很多不该共享的资源，导致通过公用的高速缓冲区可以窥探一些信息。而ZEN的SMT实现中将这类资源在2T模式下全部硬性分开，或者watermark后再竞争分配，避免了牙膏式的翻车。</span><br>
+<span>至于TSX，老漏洞筛子了，HSW首次出道后就因为死机BUG被禁用，之后也是一直修修补补，其本质作用就是以相当投机取巧的方法避免程序🔒，而自然也就成了侧信道攻击的良好受体。最新的“cacheout”漏洞就是通过HT和TSX漏洞结合在一起，实现了通过L1D数据挤出主动窥探想要的数据。</span><br>
+<span>除此之外，还有前些日子的核显漏洞这种的ALU数据不清除的搞笑漏洞(这个对gen7 igfx至今无法有效修补)，SGX降压漏洞这类的(这个牙膏直接封堵了调节部分CPU的电压调节通道？算是没有10代低压至今不支持)</span><br>
+<span>最后再说一个个人观点，现在的漏洞很多都是相互关联的，比如上面说的cacheout，而且是可以遇见的，TSX一个漏洞之后就说明，而对于漏洞的对策，通过OS， FW级别的封堵之外(这类漏洞封堵都会带来不少的性能损失，虽然大部分都是被动数据窥探，而且在实际环境中难以应用，但是在虚拟机提供商这种则不得不补，否则无法完全保证VM安全性)，最有效的还是HW级的封堵。HW封堵如果不对被漏洞攻击的源头重新设计(像icl那样的架构迭代)，只是打个硬件针对性的补丁(现在cml,cfl,kbl,csl,cpl这样的refresh结构，或者提升个步进)，也很难抵挡类似的攻击。</span><br>
+<span>说白了牙膏还是在SKL架构停的太久了，CPU也是，就连gen9核显也是，如果能够快速迭代，一年一代的更新，出现了漏洞就在新架构进行较为彻底的封堵，形势就会好很多(只要我迭代的足够快，研究人员发现漏洞的速度就追不上我，代表像现在ZEN的一年一代的迭代速度，ZEN3还会是全新设计(K17 ZEN ZEN+ ZEN2 -> K19 ZEN3))，ICL对大多数漏洞的免疫就说明了这点，至于ICL为什么迟迟不替代SKL？我暂且蒙在10nm良率里，，，</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>disrupt: </b><br>
+<span>Gnyueh 发表于 2020-1-31 12:52</span><br>
+<span>现在这些漏洞很多都是侧信道攻击类型的，CORE结构开始设计的时候这类攻击的研究还没有开始，很多设计自然 ...</span><br>
+<span>降压bug, 好像只是XTU更新了一下而已？实测10代Comet Lake和Ice Lake用ThrottleStop都可以降压。</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>disrupt 发表于 2020-2-3 23:55</span><br>
+<span>降压bug, 好像只是XTU更新了一下而已？实测10代Comet Lake和Ice Lake用ThrottleStop都可以降压。</span><br>
+<span>— fro ...</span><br>
+<span>草，这封堵水平太低级叻，，，XTU的10代支持是没得了，TS我又不会用，哭了</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Gnyueh 发表于 2020-2-4 00:22</span><br>
+<span>草，这封堵水平太低级叻，，，XTU的10代支持是没得了，TS我又不会用，哭了</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus ...</span><br>
+<span>TS巨好用的，而且小巧轻便，值得一试</span><br>
+</p><p><b>你的手机: </b><br>
+<span>johnie 发表于 2020-1-28 23:04</span><br>
+<span>我多打几个补丁降低性能 那些公司就会因为性能不够而换新的cpu了</span><br>
+<span>然后换成AMD了</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>albertfu 发表于 2020-2-4 12:14</span><br>
+<span>TS巨好用的，而且小巧轻便，值得一试</span><br>
+<span>我一般也就调节一下TDP，不过现在用的轻薄本PL2标到了44W完全不用管了，降压感觉不太敢</span><br>
+</p><p><b>sirlion: </b><br>
+<span>xtu旧版现在降压，有时候重启后打开xtu配置还是在降压状态，但实际电压没有降低，手动调节其他降压值再调回来才能正常降压，这个就是上面说的数据不清空bug吗</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>sirlion 发表于 2020-2-5 02:15</span><br>
+<span>xtu旧版现在降压，有时候重启后打开xtu配置还是在降压状态，但实际电压没有降低，手动调节其他降压值再调回 ...</span><br>
+<span>数据不清空是核显的硬件BUG，导致会数据泄露，打补丁对三四代核显不完全有效，而且性能影响很大，降压相关的是可以通过降压窥探SGX内部数据</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911201[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>诡异的声卡驱动不兼容问题, 束手无策求解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>诡异的声卡驱动不兼容问题, 束手无策求解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:00:16 +0000</lastBuildDate>
+    <item>
+      <title>诡异的声卡驱动不兼容问题, 束手无策求解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846930-1-1.html</link>
+      <description>诡异的声卡驱动不兼容问题, 束手无策求解&#13;
+平台是社会主义普的暗影精灵3Plus
+&#13;
+这月开始玩FF14 5.0, 国际服, 时不时会卡住然后花屏死机重启
+&#13;
+一开始还以为是显卡过热导致的, 后来发现玩别的游戏都不会这样
+&#13;
+后来发现导致这问题的是HP的板载声卡驱动弄出来的
+&#13;
+---------
+&#13;
+板载声卡会装一个叫Omen音频中心的玩意在windows上, 这玩意不知道跟FF14发生了什么冲突导致花屏死机这么严重的情况. 诡异的是国服就工作得很正常.
+&#13;
+试着关了Omen自启动发现不行, 默认音频输出被加了一堆回音之类的特效, 关了Omen会导致声音变形得非常厉害, 非得开着Omen才能把这些声音变形禁用掉. 而且禁用完一退出Omen就又变回去了.
+&#13;
+试着卸载, 没几分钟win10又自动把这玩意装回去了.
+&#13;
+试着组策略禁用自动安装设备, 用win10自带驱动发声, 声音是正常了, 但是会产生滋滋声.
+&#13;
+现在束手无策中, 考虑弄个外接USB声卡了.</description>
+      <content:encoded><![CDATA[<p><b>Astroneer: </b><br>
+<span>诡异的声卡驱动不兼容问题, 束手无策求解</span><br>
+<span>平台是社会主义普的暗影精灵3Plus</span><br>
+<span>这月开始玩FF14 5.0, 国际服, 时不时会卡住然后花屏死机重启</span><br>
+<span>一开始还以为是显卡过热导致的, 后来发现玩别的游戏都不会这样</span><br>
+<span>后来发现导致这问题的是HP的板载声卡驱动弄出来的</span><br>
+<span>---------</span><br>
+<span>板载声卡会装一个叫Omen音频中心的玩意在windows上, 这玩意不知道跟FF14发生了什么冲突导致花屏死机这么严重的情况. 诡异的是国服就工作得很正常.</span><br>
+<span>试着关了Omen自启动发现不行, 默认音频输出被加了一堆回音之类的特效, 关了Omen会导致声音变形得非常厉害, 非得开着Omen才能把这些声音变形禁用掉. 而且禁用完一退出Omen就又变回去了.</span><br>
+<span>试着卸载, 没几分钟win10又自动把这玩意装回去了.</span><br>
+<span>试着组策略禁用自动安装设备, 用win10自带驱动发声, 声音是正常了, 但是会产生滋滋声.</span><br>
+<span>现在束手无策中, 考虑弄个外接USB声卡了.</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>官网下载驱动，只装驱动不装其它东西。</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>typec接一个手机用的dac线</span><br>
+<span>end</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>lhm123: </b><br>
+<span>看看官网有没有驱动的压缩包，解压，然后从设备管理器手动指定安装纯驱动试试。</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>装的是官网下载的驱动, 也试过将解压出来的INF手动指定安装进去</span><br>
+<span>但是即便是指定INF也会把Omen一起装进去然后设置自启动</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>搞个aida看一眼具体是哪家的音频方案和型号 然后下个通用驱动强制安装一遍试试</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>既然windows自带驱动都能工作，螃蟹自家的应该也可以</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>现在是这么个情况</span><br>
+<span>win自带驱动识别成high definition audio, 播放声音时不时有滋滋的杂音, 不会导致游戏花屏</span><br>
+<span>官网驱动和win更新下载的驱动都识别成螃蟹realtek, 但是无论用何种安装方式, 包括setup.exe和手动强制安装都会导致被装上一个后台的omen center, 不开启则声音变形, 开启则游戏时不时花屏</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>宮脇咲良 发表于 2019-7-16 03:49</span><br>
+<span>搞个aida看一眼具体是哪家的音频方案和型号 然后下个通用驱动强制安装一遍试试 ...</span><br>
+<span>谢谢, 我试试</span><br>
+</p><p><b>烟萝: </b><br>
+<span>ff14在启动以后切换音频输出，都会花屏报错</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>大概是WINDOWS自動識別到你是HP的設備給你安裝相關的驅動</span><br>
+<span>試試在本機按右鍵,進階系統設定-硬體-裝置安裝設定設置為否</span><br>
+<span>這樣應該不會再自動給你安裝對應驅動</span><br>
+<span>因為是繁體系統不清楚簡體系統的對應選項</span><br>
+<span>附上截圖一張</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>Astroneer 发表于 2019-7-16 06:08</span><br>
+<span>谢谢, 我试试</span><br>
+<span>哦 螃蟹卡的话 现在官网都不单独发布驱动了 </span><br>
+<span>如果你是win10 可以这样 先把HP的驱动卸了 让他恢复成HD Audio的状态 </span><br>
+<span>然后如果你是1903的话就用下面那个链接</span><br>
+<span>https://www.catalog.update.microsoft.com/Search.aspx?q=realtek+1903</span><br>
+<span>然后按照发布时间排序 找到类别是sound的cab就下载下来</span><br>
+<span>目前最新的是5月28号的6.0.8716.1 然后解压这个cab 再去设备管理器里手动update</span><br>
+<span>如果是1809就填1809 如此类推 这里的驱动真的是装完啥都没有 连个控制面板都没有的干净</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-7-16 08:46 编辑 </span><br>
+<span>在设备管理器那里安装驱动不会装其它东西的吧？</span><br>
+<span>或者找个同型号的驱动试试？</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>宮脇咲良 发表于 2019-7-16 08:42</span><br>
+<span>哦 螃蟹卡的话 现在官网都不单独发布驱动了 </span><br>
+<span>如果你是win10 可以这样 先把HP的驱动卸了 让他恢复成HD Aud ...</span><br>
+<span>AIDA识别成 Realtek ALC295</span><br>
+<span>请问这个是1809还是1903呢</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>Astroneer 发表于 2019-7-16 15:18</span><br>
+<span>AIDA识别成 Realtek ALC295</span><br>
+<span>请问这个是1809还是1903呢</span><br>
+<span>1809 1903是指你win10的版本</span><br>
+</p><p><b>Astroneer: </b><br>
+<span> 本帖最后由 Astroneer 于 2019-7-17 01:50 编辑 </span><br>
+<span>又折腾了一晚</span><br>
+<span>驱动是能装上, 也没有控制台了, 声音也正常了</span><br>
+<span>但是仍然会导致FF14花屏重启, 只是频率似乎比之前有所下降..? 总之已经是很大的进步了</span><br>
+<span>有所耳闻FF14对音频设备的支持一直不太好, 但是没想到让自己遇上.</span><br>
+<span>(摊手)</span><br>
+</p><p><b>qieqie: </b><br>
+<span> 烟萝 发表于 2019-7-16 06:47 ff14在启动以后切换音频输出，都会花屏报错 </span><br>
+<span>5.0修复了这个切换音频输出设备导致游戏崩溃的问题，实现方式猜测类似于虚拟声卡。</span><br>
+<span>而根据楼主描述，很可能正是这个修复和楼主的版载声卡不太不兼容。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846930[0-50]</guid>
+    </item>
+  </channel>
+</rss>

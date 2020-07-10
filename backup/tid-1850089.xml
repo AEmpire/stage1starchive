@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>能否讨论一下，怎么设计nas比较能保障数据安全？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>能否讨论一下，怎么设计nas比较能保障数据安全？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:40:23 +0000</lastBuildDate>
+    <item>
+      <title>能否讨论一下，怎么设计nas比较能保障数据安全？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850089-1-1.html</link>
+      <description>能否讨论一下，怎么设计nas比较能保障数据安全？&#13;
+我是很久以前diy的nas。 intel的那个无风扇的u（忘了型号了）+4g内存+1个64g的ssd+4盘位机箱（硬盘目前是3t*3，都是东芝的）
+&#13;
+之前就装了个win10，几乎就当个普通pc用，现在上面一大堆照片+视频什么的又怕丢了。
+&#13;
+想整个安全点的技术，
+&#13;
+不过这个nas还hdmi接电视偶尔给娃放个片子。</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>能否讨论一下，怎么设计nas比较能保障数据安全？</span><br>
+<span>我是很久以前diy的nas。 intel的那个无风扇的u（忘了型号了）+4g内存+1个64g的ssd+4盘位机箱（硬盘目前是3t*3，都是东芝的）</span><br>
+<span>之前就装了个win10，几乎就当个普通pc用，现在上面一大堆照片+视频什么的又怕丢了。</span><br>
+<span>想整个安全点的技术，</span><br>
+<span>不过这个nas还hdmi接电视偶尔给娃放个片子。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>想要安全就要多备份 热备 冷备 异地备 云备</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>你是指数据防灾还是不想给别人看到</span><br>
+<span>前者做raid或同步到网盘，后者设定权限</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>买三台，数据实时同步，这是EMC的方案</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>重要的部分，做个冷备份就够了</span><br>
+</p><p><b>lvcha: </b><br>
+<span>精钢魔像 发表于 2019-7-30 11:59</span><br>
+<span>你是指数据防灾还是不想给别人看到</span><br>
+<span>前者做raid或同步到网盘，后者设定权限 ...</span><br>
+<span>防灾。</span><br>
+<span>肥宅没啥隐私不介意别人看。</span><br>
+<span>做raid的话是不是很麻烦？</span><br>
+</p><p><b>lvcha: </b><br>
+<span>网盘已经同步了一些了。当然很多同步不上去因为容量原因</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>防灾一定要异地多备份</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>朔方原的星: </b><br>
+<span>raid1</span><br>
+<span>防灾我觉得必要性不高，基本什么灾能灭了nas基本也就把你灭了</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>lvcha 发表于 2019-7-30 12:00</span><br>
+<span>防灾。</span><br>
+<span>肥宅没啥隐私不介意别人看。</span><br>
+<span>是很麻烦，部署和还原非常花时间</span><br>
+<span>如果合适我还是建议同步到百度网盘</span><br>
+</p><p><b>lvcha: </b><br>
+<span>朔方原的星 发表于 2019-7-30 12:03</span><br>
+<span>raid1</span><br>
+<span>防灾我觉得必要性不高，基本什么灾能灭了nas基本也就把你灭了</span><br>
+<span>我觉得其实我就怕哪块硬盘挂了。。</span><br>
+<span>主要有几块已经很久很久了。</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>朔方原的星 发表于 2019-7-30 12:03</span><br>
+<span>raid1</span><br>
+<span>防灾我觉得必要性不高，基本什么灾能灭了nas基本也就把你灭了</span><br>
+<span>很多火災人不在家</span><br>
+</p><p><b>lvcha: </b><br>
+<span>gofbayrf 发表于 2019-7-30 12:05</span><br>
+<span>很多火災人不在家</span><br>
+<span>别这样。不用那么高大上。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>移动硬盘备份</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>King5268: </b><br>
+<span>支持raid1</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>同步到网盘，让毒瘤们帮你保管</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>我比较穷，选的是非实时异地备份，反正一天也没多少增量，每天凌晨电费低的时候慢慢传呗，顺便避免了备份盘24＊7工作状态</span><br>
+<span>备份服务器在父母家</span><br>
+</p><p><b>烟萝: </b><br>
+<span> 本帖最后由 烟萝 于 2019-7-30 13:03 编辑 </span><br>
+<span>无他，狡兔多窟而已。</span><br>
+<span>raid 用技术手段做系统冗余，解决局部数据的问题。但是你不可避免的要承担整体系统的风险。（而且这个风险并不低）</span><br>
+<span>无非是几种思路，不同数据等级不同的备份方案。方案有RAID，冷备份，网盘，其他介质。</span><br>
+<span>最后，钱包决定方案。</span><br>
+<span>防灾是啥灾。天灾火灾建议尽人事听天命躺平。</span><br>
+<span>硬件和系统灾害的话，建议就是别把所有数据都整成一个大的整体系统里面。。比如8盘位RAID群晖……（可以弄，要弄就弄2个）</span><br>
+</p><p><b>汝者: </b><br>
+<span>重要数据多端备份</span><br>
+<span>不重要数据嘛 这么说 个人的nas里面 有8成数据你存下来就不会再看的 所以随意了</span><br>
+</p><p><b>乔槁: </b><br>
+<span> 本帖最后由 乔槁 于 2019-7-30 18:18 编辑 </span><br>
+<span>本地raid1，怕不安全网盘也传一份。</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>raid的作用在于，就算硬盘坏了几块，照样可以支撑你看完小电影并且成功社保。</span><br>
+<span>如果你没有必须在硬盘损坏的时候继续看片的需求，那么raid并没有什么好处，甚至有很多负面作用。</span><br>
+<span>要保证数据安全，买N个nas(N=2,3,4…… ∞)，所有数据复制N份。</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>raid1 + 异地灾备，UPS一定要有</span><br>
+<span>绝大多数的问题都能解决</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>替换不就好了。</span><br>
+<span>按照数据重要程度排序，最重要的3份，次重要的2份，丢了就丢了的1份。</span><br>
+<span>老硬盘算1份，新硬盘算1份，老的坏了，正好扔掉再买新的备份。新老交替。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>不想被勒索软件毁掉数据，就按照「3-2-1 原则」来备份文件</span><br>
+<span>https://sspai.com/post/39591</span><br>
+<span>何谓「3-2-1 原则」</span><br>
+<span>相比个人电脑层面，「3-2-1 原则」早已被用来指导商业公司的数据备份。香港生产力促进局就在 官网 就介绍过它，来指导企业免受勒索软件的困扰。</span><br>
+<span>运用「3-2-1 原则」的目的则是，一旦遭遇文件损坏，及时的将文件恢复过来。所谓「3-2-1 原则」，是指在进行文件备份时：</span><br>
+<span>3：存储 3 份完整文件，一份原件加上两份拷贝。</span><br>
+<span>2：将文件起码保持在两种不同的介质上。</span><br>
+<span>1：将一份拷贝保存在异地。</span><br>
+<span>PS：2017年少数派还有点文章可看，现在全变成苹果派了，要么就是看到一半就太监了要喊交钱</span><br>
+</p><p><b>暗铁: </b><br>
+<span>防灾只能异地，给百度交钱扩容</span><br>
+<span>raid防止数据损坏就是重要的内容raid1，不重要的视盘数raid5 raid6</span><br>
+<span>最根本的建议治好松鼠症，就会发现没什么东西值得保存</span><br>
+</p><p><b>AstroProfundis: </b><br>
+<span>Raid 1 或者 10 防止单块硬盘损坏</span><br>
+<span>离线冷备份防止系统问题造成的数据损坏</span><br>
+<span>如果还不满意可以再加一份离线冷备异地存储防止房子损坏...</span><br>
+<span>备份的重点不是备份动作本身，而是周期性地备份、验证、恢复，确保所有备份里面至少有一个是可用的</span><br>
+</p><p><b>xtwangqu: </b><br>
+<span>分布式存储加多副本技术，再加备份</span><br>
+<span>以上均可以用diy硬件加免费软件实现</span><br>
+<span>—— 來自 vivo NEX S, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>longooyue: </b><br>
+<span>刚想敲买一个好点的防火墙</span><br>
+<span>然后发现好像此安全非彼安全</span><br>
+</p><p><b>defer: </b><br>
+<span>买两个8t，回老家过年时更新一次。</span><br>
+</p><p><b>benjin: </b><br>
+<span>个人认为，什么RAID都不如单独用一个硬盘冷备份分开放安全，再配合网盘同步，加上NAS本身你就有3份数据来保证安全了</span><br>
+</p><p><b>zievod: </b><br>
+<span>可惜亚马逊 Google的云盘都被墙了</span><br>
+<span>不然一年几百块 无限量云盘还是挺爽的</span><br>
+<span>如果量不大可以考虑加密上传百度云 </span><br>
+<span>毕竟备份盘基本不考虑下载</span><br>
+<span>不能加密的话 搞个微软onedrive的车吧 1t虽然不够全盘 照片文档基本是够了</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>raid是容错，不是备份，你不要容错也就是挂了一块不影响访问，或者论数据安全还不如双单盘每日同步</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>pluser: </b><br>
+<span>RAID是给不间断需求用的，家用完全没这种需求。</span><br>
+<span>既然跑win10了，插个USB3的移动硬盘（笔记本款）吧重要数据定期拷贝一下就好了，最不济可以用计划任务敲命令行搞定，再高级点可以用GOODSYNC这类软件。</span><br>
+<span>如果需要备份的数据量较大可以上那种多盘位硬盘盒，也是多几个脚本的事情。</span><br>
+<span>异地容灾，，，说真的到了这个地步你根本不会在乎NAS里那点数据，先把自己房子重建好再说吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850089[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Super-SloMo项目插帧的伪影大概能优化到什么程度？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Super-SloMo项目插帧的伪影大概能优化到什么程度？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:41:38 +0000</lastBuildDate>
+    <item>
+      <title>Super-SloMo项目插帧的伪影大概能优化到什么程度？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868387-1-1.html</link>
+      <description>Super-SloMo项目插帧的伪影大概能优化到什么程度？&#13;
+ 本帖最后由 Sza 于 2019-12-5 04:04 编辑 
+
+纯小白
+&#13;
+看到坛里有人提到这个github上开源的项目，用了两个CNN给视频计算中间帧，似乎基于光流法 https://github.com/avinashpaliwal/Super-SloMo
+&#13;
+当时我只在谷歌的colab上跑了一下，用作者提供的adobe240fps预训练模型给日本动画试着插帧，有很明细的伪影（如下图）。
+&#13;
+查了下B站上也有几个用这个软件跑的视频，只要是动画就都存在中间帧扭曲的现象。于是我还以为是因为训练用的数据集是“三次元” 视频片段，和手绘动画的图像的运动逻辑不同。(三次元这词怪怪的
+&#13;
+后来租了gpu云尝试了一下训练，数据集用的是《冰菓》全集，除去初学者走弯路的时间，算下来目前实际只训练了一天（而且数据集比我想象中要大，V100跑完默认的200个epoch预计要25天，囊中羞涩……）
+&#13;
+用已得出的预训练模型来插帧，图像还是有扭曲的现象，不过看上去效果好了些。
+&#13;
+2019/12/1：把上面贴的两张gif速度调了下，现在播放的速度应该是36fps，慢放2倍。
+&#13;
+综上所述，我不知道这个“扭曲”的伪影是不是光流法的特性，因为不能短时间内把模型训练好，所以来论坛问问
+&#13;
+2019/12/5：最终试下来效果不好，之前的旧图先删了。用的腾讯对象存储做图床，流量是收费的。
+&#13;
+应该就是算法的缘故了，这种扭曲前后两帧生成中间帧的方式不适合低张数场景的手绘动画。一拍二、一拍三的片段只要运动幅度大一些补帧效果就很糟糕，删掉重复帧再插帧更明显。某些高张数慢速特写镜头倒还行，比如说冰菓里折棒初见千反田的那个长镜头特写，千反田的特写是一拍一，但好像那段动画制作时也用到了3D软件，面对前后两个镜头剪辑的过渡帧也是不行。</description>
+      <content:encoded><![CDATA[<p><b>Sza: </b><br>
+<span>Super-SloMo项目插帧的伪影大概能优化到什么程度？</span><br>
+<span> 本帖最后由 Sza 于 2019-12-5 04:04 编辑 </span><br>
+<span>纯小白</span><br>
+<span>看到坛里有人提到这个github上开源的项目，用了两个CNN给视频计算中间帧，似乎基于光流法 https://github.com/avinashpaliwal/Super-SloMo</span><br>
+<span>当时我只在谷歌的colab上跑了一下，用作者提供的adobe240fps预训练模型给日本动画试着插帧，有很明细的伪影（如下图）。</span><br>
+<span>查了下B站上也有几个用这个软件跑的视频，只要是动画就都存在中间帧扭曲的现象。于是我还以为是因为训练用的数据集是“三次元” 视频片段，和手绘动画的图像的运动逻辑不同。(三次元这词怪怪的</span><br>
+<span>后来租了gpu云尝试了一下训练，数据集用的是《冰菓》全集，除去初学者走弯路的时间，算下来目前实际只训练了一天（而且数据集比我想象中要大，V100跑完默认的200个epoch预计要25天，囊中羞涩……）</span><br>
+<span>用已得出的预训练模型来插帧，图像还是有扭曲的现象，不过看上去效果好了些。</span><br>
+<span>2019/12/1：把上面贴的两张gif速度调了下，现在播放的速度应该是36fps，慢放2倍。</span><br>
+<span>综上所述，我不知道这个“扭曲”的伪影是不是光流法的特性，因为不能短时间内把模型训练好，所以来论坛问问</span><br>
+<span>2019/12/5：最终试下来效果不好，之前的旧图先删了。用的腾讯对象存储做图床，流量是收费的。</span><br>
+<span>应该就是算法的缘故了，这种扭曲前后两帧生成中间帧的方式不适合低张数场景的手绘动画。一拍二、一拍三的片段只要运动幅度大一些补帧效果就很糟糕，删掉重复帧再插帧更明显。某些高张数慢速特写镜头倒还行，比如说冰菓里折棒初见千反田的那个长镜头特写，千反田的特写是一拍一，但好像那段动画制作时也用到了3D软件，面对前后两个镜头剪辑的过渡帧也是不行。</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>先用片源再跑次，别用带字幕的</span><br>
+</p><p><b>Sza: </b><br>
+<span>kerorokun 发表于 2019-11-28 05:35</span><br>
+<span>先用片源再跑次，别用带字幕的</span><br>
+<span>有说法吗，多测几次排除个例？</span><br>
+<span>测试的《佐贺偶像》用嵌字幕的版本是我想看看用深度学习的插帧对文字的处理效果。训练数据集用的《冰菓》是天香社和VCB-S组的外挂字幕版本。</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>Sza 发表于 2019-11-28 05:45</span><br>
+<span>有说法吗，多测几次排除个例？</span><br>
+<span>测试的《佐贺偶像》用嵌字幕的版本是我想看看用深度学习的插帧对文字的处 ...</span><br>
+<span>我svp和那个d开头的插件都用过，不管硬字幕还是软字幕，只要带上字幕效果就差</span><br>
+</p><p><b>qwased: </b><br>
+<span>amd插帧对字幕的效果很好</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2019-12-5 02:33 编辑 </span><br>
+<span>kerorokun 发表于 2019-11-28 06:09</span><br>
+<span>我svp和那个d开头的插件都用过，不管硬字幕还是软字幕，只要带上字幕效果就差 ...</span><br>
+<span>我试了一下，感觉没区别额。这个程序是离线处理的，不是实时插件，可能不受字幕渲染影响。</span><br>
+<span>主楼的图是72帧/秒的，本层的是48帧/秒，播放速度似乎正常了。</span><br>
+<span>图删了</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>动画这种存在大范围不规则移动、变形的，这世纪都好不了</span><br>
+</p><p><b>Sza: </b><br>
+<span>华蝶风雪 发表于 2019-11-28 14:26</span><br>
+<span>动画这种存在大范围不规则移动、变形的，这世纪都好不了</span><br>
+<span>我也在想这个问题，让计算机学会动画运动逻辑的想法短时间内不能指望了</span><br>
+</p><p><b>TSST: </b><br>
+<span>一直不理解你们看个日本电视动画都插帧的，感觉就和戴着耳机用HDR电视看黑白默片一样的。</span><br>
+</p><p><b>Sza: </b><br>
+<span>TSST 发表于 2019-11-28 16:04</span><br>
+<span>一直不理解你们看个日本电视动画都插帧的，感觉就和戴着耳机用HDR电视看黑白默片一样的。 ...</span><br>
+<span>我倒是觉得除了慢动作镜头，插帧给贫穷的手绘动画才有点价值。就说同样的24帧/秒平移镜头，也是动画的断裂感比电影或电视剧强。这不是没办法嘛</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2019-12-5 03:08 编辑 </span><br>
+<span>先下结论吧，这个程序还有些痛点似乎可以优化。解决的话，这个项目可以做到之前有人提到的 “4K分辨率+插帧+10bit”的视频离线输出，当然也可以配合madvr。</span><br>
+<span>光流法给动画插帧效果可能没那么好，但是配真人电影之类的应该没问题。</span><br>
+<span>可是视频预处理时间会很恐怖，现在batch_size设置为1时，1080p24fps格式的21秒视频把帧数提高为为48fps大概要11分30秒*。而且作者似乎忙别的项目去了，菜鸡我看别人教程折腾了几天还是没搞定</span><br>
+<span>*注：这个时间是我修改过video_to_slomo.py后运行的结果，把原程序生成的jpg格式改为了生成png格式。</span><br>
+<span>痛点1：目前推理时的batch_size设置似乎不起作用</span><br>
+<span>下面的是我记录的视频处理时间</span><br>
+<span>#推理</span><br>
+<span>“测试视频信息：saga_test.mp4 h.264 8bit 1080p 24fps视频 码率10mb/s 时长21秒”</span><br>
+<span>设备      batch_size大小      计算中间帧用时*      显存占用</span><br>
+<span>本地计算机(2060super*1 & SATA SSD硬盘)      1      11分30秒      4.2GB</span><br>
+<span>本地计算机(2060super*1 & SATA SSD硬盘)      2      11分25秒      6.8GB</span><br>
+<span>本地计算机(2060super*1 & 虚拟内存盘)      1      11分22秒      4.2GB</span><br>
+<span>云服务器(V100*1 & 云硬盘SSD)      1      10分23秒      4.2GB</span><br>
+<span>云服务器(V100*1 & 云硬盘SSD)      2      10分29秒      7.2GB</span><br>
+<span>云服务器(V100*1 & 云硬盘SSD)      3      10分35秒      10.1GB</span><br>
+<span>云服务器(V100*1 & 云硬盘SSD)      4      10分41秒      12.1GB</span><br>
+<span>云服务器(V100*1 & 云硬盘SSD)      8      11分06秒      22.9GB</span><br>
+<span>云服务器(Tesla T4*1 & 云硬盘增强型SSD)      1      13分20秒      3.7GB</span><br>
+<span>*注：只计算GPU计算中间帧用时，不计算视频提取帧图像和图像合成视频的时间batch_size怎么改，速度都没区别。可能原因是虽然同时计算AB两个中间帧，但新生成的文件A其实是重复计算前一个流程的文件B的时间点（不确定）</span><br>
+<span>而且修改了batch_size即使能输出中间帧，但到了99%左右就会报错（用未修改过的video_to_slomo.py也会出现）：</span><br>
+<span>File "video_to_slomo_10bit.py", line 213, in <module></span><br>
+<span>    main()</span><br>
+<span>File "video_to_slomo_10bit.py", line 168, in main</span><br>
+<span>    (TP(frame0.detach())).resize(videoFrames.origDim, Image.BILINEAR).save(os.path.join(outputPath, str(frameCounter + args.sf * batchIndex) + ".png"))</span><br>
+<span>IndexError: index 1 is out of bounds for dimension 0 with size 1我还不清楚为什么，慢慢找原因(会不会因为是我测试环境都用的是pytorch1.3和cuda10.1，和作者版本不同……不过下午折腾好久都没搞定旧版本环境</span><br>
+<span>痛点2：训练数据集时GPU利用率不高</span><br>
+<span>GPU云的V100的利用率就是忽上忽下，0%~100%波动，整体使用率大概在45%左右。就像是 https://zhuanlan.zhihu.com/p/53345706 中所说的现象，似乎是作者没有优化预加载和cpu多线程。我的本地计算机倒是CPU i5 8500负载78%，GPU负载65%~72%浮动，不知道哪里出的差别。我这种外行都不知道怎么去读代码，不知道什么时候能优化了。</span><br>
+<span>大体上这两个痛点就是程序优化，一个是训练部分一个是推理部分。</span><br>
+<span>其他还有些要注意的地方，比如说默认程序输出的是jpg，自己可以改png，输出视频的格式可以修改成x265 10bit，看别人反馈的帖子里train.py里的vgg16 = torchvision.models.vgg16() 那里似乎也可以补段代码，变为vgg16 = torchvision.models.vgg16(pretrained=True) 我不太确定</span><br>
+<span>不过开源项目可能都只是提供想法实现吧，优化靠自己和雷锋了 </span><br>
+<span>还有个用10bit输出有颜色偏差的问题，我再查查原因。</span><br>
+<span>生成的png图片转换成视频时，用yuv420、yuv422、yuv444采样都会有颜色偏差。是不是因为本身字幕组的视频就是压过的，再压一遍就……也不对，别的插帧软件至少8bit没问题吧</span><br>
+<span>====================</span><br>
+<span>2019/11/30：试了一下，可能是png不支持yuv，input和output全部设置为.jpg时，输出yuv420p10le的图像色彩才正确。如果想用png格式的话得搭配ffvhuff编码器，色彩空间是RGB_8bit，而不是x264或x265。。</span><br>
+<span>    Stream #0:0: Video: hevc (libx265), yuv420p10le, 1920x1080 , q=2-31, 120 fps, 1k tbn, 120 tbc上面的参数就当搞笑好了，因为我不会细调压制参数所以杂色不少，只是说可以输出这个规格了。</span><br>
+</p><p><b>elxy: </b><br>
+<span>试试今年的DAIN？</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sza: </b><br>
+<span>elxy 发表于 2019-11-30 00:55</span><br>
+<span>试试今年的DAIN？</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>好，我去折腾一下</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>预训练模型用的是240fps且都是连续的视频，用24fps而且包含不同分镜的动画作为训练集感觉不是很合适，将动画分割成只包含一个镜头的片段并去掉原来的中割作为训练集不知道效果会不会好一点。</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2019-12-1 22:56 编辑 </span><br>
+<span>拯救节操希灵宅 发表于 2019-11-30 19:07</span><br>
+<span>预训练模型用的是240fps且都是连续的视频，用24fps而且包含不同分镜的动画作为训练集感觉不是很合适，将动 ...</span><br>
+<span>对的，其实我就是在想训练集和算法对手绘动画合不合适的问题。</span><br>
+<span>训练集方面几个问题：</span><br>
+<span>第一个是你说的“这个模型能不能适应剪辑或是镜头切换”；</span><br>
+<span>//2019-12-1补充：下午我试着手动根据分镜和剪辑切了下分段，但是效率太低了，一个小时都没切完一个视频一半……查了一下程序上类似的步骤是叫做“镜头边缘检测”，我得找找有没有免费又合适的程序。</span><br>
+<span>第二个是日式动画的一拍二、一拍三使得算法学习运动律时要载入更多的前后帧。我当初想着训练集用吉卜力或者迪士尼的全动画视频片段的，后来换冰菓是为了看这个程序适应后期滤镜的效果怎么样；</span><br>
+<span>第三个是律表本身。插帧破坏了原动画的节奏，动画插帧并不是只靠插到60帧才行。程序得学会“哪些是需要插帧的，哪些是不能够插帧（插了会破坏力度感或是会产生滑稽剧效果的内容）”。</span><br>
+<span>我猜真正这类算法还是偏工业领域，比如说有一家有大量作品累积的动画公司的原画数据做训练集，然后程序做最基础的中割生成，然后扩充作监人数（作监人一多怎么就一种崩的预感），即使做到这点都不知道要多少个十年。</span><br>
+<span>总之目前的插帧还是不太实用的。</span><br>
+</p><p><b>白头盔: </b><br>
+<span>我觉得amd插帧已经够用了。</span><br>
+</p><p><b>Sza: </b><br>
+<span>白头盔 发表于 2019-11-30 19:36</span><br>
+<span>我觉得amd插帧已经够用了。</span><br>
+<span>a卡似乎复杂场景不插帧，效果应该是比别家的好，就是不支持10bit。</span><br>
+<span>本来我也想装一块的，但是实在怕和n卡驱动冲突导致蓝屏，去年被win10偶发蓝屏了小半年搞怕了</span><br>
+</p><p><b>白头盔: </b><br>
+<span>Sza 发表于 2019-11-30 19:44</span><br>
+<span>a卡似乎复杂场景不插帧，效果应该是比别家的好，就是不支持10bit。</span><br>
+<span>本来我也想装一块的，但是实在怕和n ...</span><br>
+<span>反正我屏幕也才8bit，不下10bit的东西。以前为了个10bit，色块，解码之类的好麻烦</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>Sza 发表于 2019-11-30 19:25</span><br>
+<span>对的，其实我就是在想训练集和算法对手绘动画合不合适的问题。</span><br>
+<span>训练集方面几个问题：</span><br>
+<span>针对你说的第三点</span><br>
+<span>super slomo厉害之处在于能插入任意帧，不仅仅是30fps变60，还能变成60fps加8倍慢动作</span><br>
+<span>然后，虽然这个方法基于光流假设，但是实际上并没有先验地用到光流信息</span><br>
+</p><p><b>elxy: </b><br>
+<span>Sza 发表于 2019-11-30 01:04</span><br>
+<span>好，我去折腾一下</span><br>
+<span>最近也有看类似的插帧算法，楼主可以试试基于传统算法的SVP。整体观感比光流的算法好不少。不过在硬字幕、挥手这些地方表现不太好。</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>elxy: </b><br>
+<span> 本帖最后由 elxy 于 2019-12-19 09:26 编辑 </span><br>
+<span>最近商汤有一个论文用二次方程计算中间帧的光流，和楼主所说的节奏感有些契合之处。不过似乎没有开源……</span><br>
+<span>https://mp.weixin.qq.com/s?__biz=MzIwNTcyNzYwMA==&mid=2247490921&idx=1&sn=0163a55b3bf1993827d389a1199d8171&chksm=972d2f76a05aa660c8c353a708054029b0f5b1e160b7c12a980e5f9c179e0bf11ec850cf605c</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>elxy 发表于 2019-12-19 09:24</span><br>
+<span>最近商汤有一个论文用二次方程计算中间帧的光流，和楼主所说的节奏感有些契合之处。不过似乎没有开源……</span><br>
+<span> ...</span><br>
+<span>这篇啊，前端时间看过，居然又找人写了个pr文</span><br>
+<span>前面的二次方光流预测感觉对着公式写就行了，理论上前面给多少帧就能搞个N-1次的运动方程拟合，后面的光流逆转，DAIN这个项目已经给你写好有backward部分的cuda代码跟pytorch接口了</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>elxy 发表于 2019-12-19 09:21</span><br>
+<span>最近也有看类似的插帧算法，楼主可以试试基于传统算法的SVP。整体观感比光流的算法好不少。不过在硬字幕 ...</span><br>
+<span>硬字幕跟挥手效果不好，很大程度上是用的光流，或者说运动流的边缘不够好</span><br>
+</p><p><b>Sza: </b><br>
+<span>elxy 发表于 2019-12-19 09:21</span><br>
+<span>最近也有看类似的插帧算法，楼主可以试试基于传统算法的SVP。整体观感比光流的算法好不少。不过在硬字幕 ...</span><br>
+<span>svp确实要自然些，光流对手绘动画效果不太好。</span><br>
+<span>观众这边插帧实在是遇到的问题有点多（律表、重复帧、镜头剪辑），制作者那边用插帧可能会好很多。</span><br>
+<span>本来我想的是能不能抽去重复帧再用superslomo插帧的，但效果非常差。</span><br>
+</p><p><b>Sza: </b><br>
+<span>衛藤美彩 发表于 2019-12-19 02:49</span><br>
+<span>针对你说的第三点</span><br>
+<span>super slomo厉害之处在于能插入任意帧，不仅仅是30fps变60，还能变成60fps加8倍慢动作 ...</span><br>
+<span>当初为了给要训练的视频按镜头分段，我请教了一位做剪辑的朋友，没想到他倒是对这个插帧很感兴趣。</span><br>
+<span>不清楚pr光流法的效果怎么样，但至少测试时superslomo插的孤独的美食家的片段效果还不错。这种离线处理果然还是适合要用到慢动作镜头的视频工作者。</span><br>
+<span>你最后一句我不太懂，我没基础</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>elxy 发表于 2019-12-19 09:21</span><br>
+<span>最近也有看类似的插帧算法，楼主可以试试基于传统算法的SVP。整体观感比光流的算法好不少。不过在硬字幕 ...</span><br>
+<span>老哥有关于svp的资料吗？找了一下没看到特别详细的</span><br>
+</p><p><b>衛藤美彩: </b><br>
+<span>Sza 发表于 2019-12-19 14:35</span><br>
+<span>当初为了给要训练的视频按镜头分段，我请教了一位做剪辑的朋友，没想到他倒是对这个插帧很感兴趣。</span><br>
+<span>不清 ...</span><br>
+<span>最后一句算是我自己跑这些方法时的一个感受吧基于光流的插帧方法，实际上是基于“流”的插帧方法，然后用光流来作为这个流；因此，一个通常意义上的好的光流，对于插帧来说不一定也是好的，例如对于楼主想要的动画插帧，现有光流方法就搞不出比较好的流图</span><br>
+</p><p><b>Sza: </b><br>
+<span>衛藤美彩 发表于 2019-12-19 18:06</span><br>
+<span>老哥有关于svp的资料吗？找了一下没看到特别详细的</span><br>
+<span>可以看看这个blog：黑米奇SVP，一位博主的参数分享和原理介绍。</span><br>
+<span>https://blackmickeysvp.blogspot.com/</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>我倒是觉得动画需要的不是插值，而是类似gan之类的生成模型，结合前后的序列，让网络脑补中间帧，不过这么搞更难训练吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sza: </b><br>
+<span>DeepFishing 发表于 2019-12-19 18:40</span><br>
+<span>我倒是觉得动画需要的不是插值，而是类似gan之类的生成模型，结合前后的序列，让网络脑补中间帧，不过这么 ...</span><br>
+<span>确实是，动画的中间帧要的不是前后帧叠加的插值，而是先“画”出符合人类审美的画。</span><br>
+<span>还是让专业的慢慢捣鼓吧，太难了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868387[0-50]</guid>
+    </item>
+  </channel>
+</rss>

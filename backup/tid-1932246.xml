@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>TLOU2泄露的实际原因</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>TLOU2泄露的实际原因</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:14:46 +0000</lastBuildDate>
+    <item>
+      <title>TLOU2泄露的实际原因[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1932246-1-1.html</link>
+      <description>TLOU2泄露的实际原因&#13;
+有hacker找到了顽皮狗过去游戏的安全漏洞，搞进了ND的服务器
+&#13;
+最近主机战争打得火热，前一阵儿又有Jason那篇文章，有心人士给这事儿加了很多抓马</description>
+      <content:encoded><![CDATA[<p><b>SergeGlenn: </b><br>
+<span>TLOU2泄露的实际原因</span><br>
+<span>有hacker找到了顽皮狗过去游戏的安全漏洞，搞进了ND的服务器</span><br>
+<span>最近主机战争打得火热，前一阵儿又有Jason那篇文章，有心人士给这事儿加了很多抓马</span><br>
+</p><p><b>Harlaus: </b><br>
+<span>居然不是办公室政治</span><br>
+</p><p><b>Snowsir: </b><br>
+<span>感觉泄露的好，玩家有权知道自己将要吃到的是不是屎</span><br>
+</p><p><b>Kidinthe21st: </b><br>
+<span>能下定论了吗我听好多个版本了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>percy1234: </b><br>
+<span>评论往往与质询同时出现，虚构的事实通常由于符合人们的期待而被当作真相。</span><br>
+<span>——李普曼，1922</span><br>
+</p><p><b>SergeGlenn: </b><br>
+<span>Kidinthe21st 发表于 2020-5-3 19:19</span><br>
+<span>能下定论了吗我听好多个版本了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>这个是Jason本人确认的，你可以自己考量</span><br>
+<span>这边还有一个详细版:https://mobile.twitter.com/PixelButts/status/1256792950136172550</span><br>
+<span>Every ND game has a "final" patch that is pushed to the game that contains an Amazon AWS key, that when paired with a secret bucket ID it will give full access to the server's contents.</span><br>
+<span>Theres a different key and bucket ID per game, this is important</span><br>
+<span>This vulnerability was discovered recently and some hackers took full advantage of it, saving TLOU1, UC3, and other dev stuff.</span><br>
+<span>At the time, it was disclosed to me around early February, and was very early on so ~January 2020 it was discovered</span><br>
+<span>Come March, keys and data was saved, somewhere around 1-3TB, though I can only say 1TB for sure.</span><br>
+<span>They were trying to dump TLOU1 in an effort to get that games key as UC3 had TLOU1 material, so surely TLOU1 had TLOU2? No idea in the end but come April things got spicy</span><br>
+<span>In April all the leaks of story were validated by the footage posted. I cannot speak for the text posts with story, but I can say that the dates from discovery and disclosure match with timestamps in the footage as well.</span><br>
+<span>You can check yourself, bottom left of all footage</span><br>
+<span>Come may 30th, late at night, the source that disclosed this to me stated that the key had changed so ND for sure knew how to resolve this issue, and no keys work with the bucket IDs now.</span><br>
+<span>This is good but theres more</span><br>
+<span>The individual that spoke to me is a direct source of this compromise, but is NOT (as far as I am aware, or can tell) not the one that leaked this material. I say this because even they were weirdly skeptical about the "ND employee leaked things because they were mad"</span><br>
+<span>I've been watching this for about 3 months now, and after speaking to a first hand source of this, my only conclusion is they (and their immediate circle) did not leak it, but shared information relating to what I described, and another party proceeded to leak such material</span><br>
+<span>This is not the first time this has happened in circles like this either to boot.</span><br>
+<span>I trust their word as a first hand source of this happening, and I trust that theyre not dumb enough to leak it, but whether they leaked everything to get such is another story.</span><br>
+<span>In regards to the devkit nonsense: yes you would need a devkit to do this and given that its relatively easy to get one (yes really, it is) this is not very much of a problem.</span><br>
+<span>I can say the circle for the vulnerability owns such hardware as well, I've seen the photos</span><br>
+<span>What's the point I'm making?</span><br>
+<span>The point: there's plenty of room to argue an ND employee is involved, but from the evidence (which I have submitted to ND back in February) stands to point to an ND-made security vulnerability that was exploited. Not an angry employee</span><br>
+<span>While I will not give names, I will say this: I've been around, I know leaks, I listen, I watch, I keep tabs on things. I've known about this for months and kept quiet publicly but since it's blocked out now and news coverage confirmed what I've known I decided to say so publicly</span><br>
+<span>I have no affiliation with the group, I have no materials from the leak, and I'm not going to. I had my ass bitten once and I dont need a second round of it, but putting the truth out there is important, because even then you'll still have people saying it was an ND employee</span><br>
+<span>Don't believe what sounds like the juiciest story, even if it's what you wanna hear. Sometimes it's really that boring. Hackerman exploiting a vulnerability created by the company's own games to gain internal access.</span><br>
+<span>Hopefully this has been enlightening for you</span><br>
+<span>And as one final note: the person that spoke to me asked me about my previous legal run-in. That's primarily what led to this disclosure to begin with.</span><br>
+<span>I do not advocate or suggest stealing and leaking. Preservation is important, but dont do it through stealing.</span><br>
+<span>Tacking this onto the bottom since people insist that it was an ND employee when no, it wasnt. Why you think it's an ND employee that leaked this is still baffling to me</span><br>
+</p><p><b>雪菜碧池: </b><br>
+<span>jason自己也是个二道贩子，压榨员工走不通就黑客泄密，谁知道呢</span><br>
+</p><p><b>cloudian: </b><br>
+<span>我倒是觉得和现在其他娱乐行业一样，不怕坏新闻，就怕没新闻，无论是审美还是审丑，只要有话题，有流量，就能变现。所以，也许都是炒作吧 </span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>历史之: </b><br>
+<span>顽皮狗居然是把测试录像直接放在服务器上的吗，还是说这是业界通行做法？</span><br>
+<span>以前听说这种服务器泄露还是质量效应的demo泄露，从其中的脚本引起了剧情的泄露，也是引起了很大的不满</span><br>
+</p><p><b>masterzx: </b><br>
+<span>qa录像当然是服务器留档的</span><br>
+</p><p><b>ccow: </b><br>
+<span>有内鬼比有入侵难解释多了。</span><br>
+</p><p><b>yla: </b><br>
+<span>黑服务器比QA内鬼合理多了，当年DMM的服务器漏洞让多少A片还没卖就能被下载下来</span><br>
+<span>QA内鬼可是要顶着自己违反保密协议丢饭碗干的</span><br>
+</p><p><b>luowei_nowe: </b><br>
+<span>yla 发表于 2020-5-3 21:49</span><br>
+<span>黑服务器比QA内鬼合理多了，当年DMM的服务器漏洞让多少A片还没卖就能被下载下来</span><br>
+<span>QA内鬼可是要顶着自 ...</span><br>
+<span>DMM泄露的是步兵还是骑兵？</span><br>
+</p><p><b>yla: </b><br>
+<span>luowei_nowe 发表于 2020-5-3 21:51</span><br>
+<span>DMM泄露的是步兵还是骑兵？</span><br>
+<span>当然是骑兵，又不是片商的服务器</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1932246[0-50]</guid>
+    </item>
+  </channel>
+</rss>

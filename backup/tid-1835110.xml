@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>dvi口居然可以传输音频</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>dvi口居然可以传输音频</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:13:45 +0000</lastBuildDate>
+    <item>
+      <title>dvi口居然可以传输音频[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835110-1-1.html</link>
+      <description>dvi口居然可以传输音频&#13;
+今天找来一块垃圾h81做htpc，只有dvi+vga，想上块独显通过hdmi来接电视，但是显卡问题盖不住侧板，
+&#13;
+后来上网搜了下，说dvi可能可以传输音频信号，然后我找了一个dvi转hdmi的头，接上装好intel显卡驱动，卧槽，电视居然发声了，炸裂极了</description>
+      <content:encoded><![CDATA[<p><b>龙骑士尹志平: </b><br>
+<span>dvi口居然可以传输音频</span><br>
+<span>今天找来一块垃圾h81做htpc，只有dvi+vga，想上块独显通过hdmi来接电视，但是显卡问题盖不住侧板，</span><br>
+<span>后来上网搜了下，说dvi可能可以传输音频信号，然后我找了一个dvi转hdmi的头，接上装好intel显卡驱动，卧槽，电视居然发声了，炸裂极了</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>看下hdmi通信协议就不会惊讶了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>有，但是那个dvi和一般的不一样</span><br>
+</p><p><b>龙骑士尹志平: </b><br>
+<span>lotsbiss 发表于 2019-5-28 21:21</span><br>
+<span>看下hdmi通信协议就不会惊讶了</span><br>
+<span>hdmi是可以传输，但是我是头一次知道dvi也可以传输的</span><br>
+</p><p><b>elflie: </b><br>
+<span>DVI跟HDMI好像只是物理接口不一样吧</span><br>
+</p><p><b>uzar: </b><br>
+<span>龙骑士尹志平 发表于 2019-5-28 22:16</span><br>
+<span>hdmi是可以传输，但是我是头一次知道dvi也可以传输的</span><br>
+<span>都是tmds信号</span><br>
+<span>信号编码时候把音频编进去了就能传</span><br>
+</p><p><b>nosmokingspp: </b><br>
+<span>dvi和HDMI只是形状不用而已</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>DVI神得很，还能传VGA信号。。。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>咲月露娜 发表于 2019-5-29 07:00</span><br>
+<span>DVI神得很，还能传VGA信号。。。</span><br>
+<span>你好 能传VGA的是DVI-I ，DVI-D则不可以</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>zmw_831110 发表于 2019-5-29 07:55</span><br>
+<span>你好 能传VGA的是DVI-I ，DVI-D则不可以</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next ...</span><br>
+<span>这都能杠。。。</span><br>
+<span>如果有人说 “猫好萌啊，吸猫好治愈”</span><br>
+<span>你是不是要回帖：</span><br>
+<span>你好，能吸的是 家猫 Fels catus，沙猫 Felis margarita、黑足猫 Felis nigripes、丛林猫 Felis chaus、欧洲野猫 Felis silvestris、非洲野猫 Felis lybica、荒漠猫 Felis bieti 则不可以</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>咲月露娜 发表于 2019-5-29 08:12</span><br>
+<span>这都能杠。。。</span><br>
+<span>如果有人说 “猫好萌啊，吸猫好治愈”</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>我记得15年那次装机，主板dvi转hdmi接电视竟然有声音把我惊到了</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>dvi/hdmi基本思想和vga差不多，专线专用（3组差分线各自传RGB三色），然后按行场同步有消隐期（可以理解为老式CRT电子枪扫描完一行/一场后归位到另一行开头/重回原点需要时间，这期间不传输视频信号），传送音频数据。</span><br>
+<span>但MIPI（手机平板上显示屏和摄像头大多用这个）和DP原理就完全不一样，数据是封包的传输的，差分线数目可变，3，4组皆可，只影响通讯速度。</span><br>
+</p><p><b>BTX: </b><br>
+<span>有些显卡支持，古董机gt710有，主力机gtx1050ti木有</span><br>
+</p><p><b>King5268: </b><br>
+<span>卧槽，我刚知道HDMI居然是DVI换皮.............上泥潭涨姿势了............</span><br>
+</p><p><b>asda: </b><br>
+<span>DVI要传声不是要配一条线把音效接去显卡的吗？现在不需要了？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>nosmokingspp 发表于 2019-5-29 06:44</span><br>
+<span>dvi和HDMI只是形状不用而已</span><br>
+<span>既然是这样 为啥intel核显 dvi只支持1080p?</span><br>
+<span>不太懂 问问.</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>塔奇克马 发表于 2019-5-30 19:11</span><br>
+<span>既然是这样 为啥intel核显 dvi只支持1080p?</span><br>
+<span>不太懂 问问.</span><br>
+<span>那说明是dvi-sl</span><br>
+<span>支持更高的分辨率需要dvi-dl dual link</span><br>
+<span>所以上面的说法是不正确的</span><br>
+</p><p><b>refo2613: </b><br>
+<span>asda 发表于 2019-5-30 19:05</span><br>
+<span>DVI要传声不是要配一条线把音效接去显卡的吗？现在不需要了？</span><br>
+<span>你看驱动管理器里，audio部分有nv或者amd的组件，就是干这个的，不要再接线了</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>asda 发表于 2019-5-30 19:05</span><br>
+<span>DVI要传声不是要配一条线把音效接去显卡的吗？现在不需要了？</span><br>
+<span>早期NV用你说的这个方案，ATI是自从HDMI出来后，DVI都可以传输音频，不过那时候传，说要ATI专门的DVI转HDMI转接头，我本子HD3470就可以靠这个头从DVI取声</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nice女武神: </b><br>
+<span>asda 发表于 2019-5-30 19:05</span><br>
+<span>DVI要传声不是要配一条线把音效接去显卡的吗？现在不需要了？</span><br>
+<span>难道不是现在显卡自带声卡了吗 原来我记得是声卡拉一根线去显卡</span><br>
+</p><p><b>男子汉: </b><br>
+<span> 本帖最后由 男子汉 于 2019-5-31 08:38 编辑 </span><br>
+<span>数字通信，传输音频不是问题。关键是大家都要支持传输协议。形状针脚反而没那么重要。换来换去不过是为了提高信噪比和带宽。</span><br>
+</p><p><b>香港记者巴拉森: </b><br>
+<span>有块hd4870，那代的卡好像没有hdmi只有双dvi，盒子附赠了dvi转hdmi，装驱动的时候还有声卡驱动</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835110[0-50]</guid>
+    </item>
+  </channel>
+</rss>

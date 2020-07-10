@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>显卡风扇不转怎么办</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>显卡风扇不转怎么办</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:05:55 +0000</lastBuildDate>
+    <item>
+      <title>显卡风扇不转怎么办[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836406-1-1.html</link>
+      <description>显卡风扇不转怎么办&#13;
+风扇只要停止转动后就再也启动不了，只能等温度降回60度以内后再同时提升温度和负载才开始再次转起来。
+&#13;
+风扇正常启动后，GPU-Z 的风扇转速百分比和RPM对得上，风扇停止后百分比仍然有数值，但RPM为0。
+&#13;
+具体表现如下，加粗为问题所在：
+&#13;
+50度+低负载（不转） --&gt; 60度+高负载（转） --&gt;80度+高负载（转） --&gt; 80度+低负载（不转） --&gt; 80度+高负载（不转） --&gt; 90度+高负载（不转）
+&#13;
+尝试过的解决办法：
+&#13;
+- 用手拨 [×]
+&#13;
+- 第三方软件手动启动风扇 [×]
+&#13;
+- 更换驱动 [×]
+&#13;
+- 重装系统 [×]</description>
+      <content:encoded><![CDATA[<p><b>BRRM: </b><br>
+<span>显卡风扇不转怎么办</span><br>
+<span>风扇只要停止转动后就再也启动不了，只能等温度降回60度以内后再同时提升温度和负载才开始再次转起来。</span><br>
+<span>风扇正常启动后，GPU-Z 的风扇转速百分比和RPM对得上，风扇停止后百分比仍然有数值，但RPM为0。</span><br>
+<span>具体表现如下，加粗为问题所在：</span><br>
+<span>50度+低负载（不转） --> 60度+高负载（转） -->80度+高负载（转） --> 80度+低负载（不转） --> 80度+高负载（不转） --> 90度+高负载（不转）</span><br>
+<span>尝试过的解决办法：</span><br>
+<span>- 用手拨 [×]</span><br>
+<span>- 第三方软件手动启动风扇 [×]</span><br>
+<span>- 更换驱动 [×]</span><br>
+<span>- 重装系统 [×]</span><br>
+</p><p><b>King5268: </b><br>
+<span>刷显卡BIOS？最好还是找售后吧~</span><br>
+</p><p><b>遥照_: </b><br>
+<span>不是一般都自带风扇控制软件吗，我从来都是设定好曲线随机启动的。</span><br>
+</p><p><b>BRRM: </b><br>
+<span>King5268 发表于 2019-6-2 19:59</span><br>
+<span>刷显卡BIOS？最好还是找售后吧~</span><br>
+<span>我也想过刷bios改变启停策略，但目前只是想想。</span><br>
+<span>过保好多年了，也不知道售后还帮不帮忙，哪怕帮刷个bios也好，万一价格不菲还不如买矿卡了。</span><br>
+</p><p><b>BRRM: </b><br>
+<span>遥照_ 发表于 2019-6-2 20:05</span><br>
+<span>不是一般都自带风扇控制软件吗，我从来都是设定好曲线随机启动的。</span><br>
+<span>第三方软件都尝试过了，没用，可以改变风扇转速百分比，但RPM完全不转（风扇完全不转）。三线品牌，没有自带的风扇控制软件。</span><br>
+</p><p><b>kabunsan: </b><br>
+<span>这是一个有灵魂的显卡，它有自己的想法……</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>换个风扇肯定 好，用久了没润滑</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>BRRM: </b><br>
+<span>sblnrrk 发表于 2019-6-3 09:05</span><br>
+<span>换个风扇肯定 好，用久了没润滑</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>我觉得不像，现在这个启动风扇的方式过于有规律了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>显卡风扇改由主板或电源供电（先确定电压电流是否合适）？</span><br>
+<span>这样就可能不能调速了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836406[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>docker和k8s</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>docker和k8s</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:36:54 +0000</lastBuildDate>
+    <item>
+      <title>docker和k8s[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860164-1-1.html</link>
+      <description>docker和k8s&#13;
+一直没弄明白什么意思，谁解释下？
+&#13;
+先举个例子说下我的理解，看看是不是有偏差
+&#13;
+阶段1：windows上无法运行linux上的app x
+&#13;
+阶段2：windows上安装vmware后，可以按照linux，再安装app x
+&#13;
+阶段3：windows上安装docker，然后安装app x，省去了安装linux，并且性能更好（疑问：app x如果懒得移植到docker上怎么办）</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>docker和k8s</span><br>
+<span>一直没弄明白什么意思，谁解释下？</span><br>
+<span>先举个例子说下我的理解，看看是不是有偏差</span><br>
+<span>阶段1：windows上无法运行linux上的app x</span><br>
+<span>阶段2：windows上安装vmware后，可以按照linux，再安装app x</span><br>
+<span>阶段3：windows上安装docker，然后安装app x，省去了安装linux，并且性能更好（疑问：app x如果懒得移植到docker上怎么办）</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>Windows上的docker是跑在虚拟机上的，比较吃资源，而且win上这玩意不能跑CUDA</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>roamer: </b><br>
+<span>你打开hyperv管理器能看到一台虚拟机。。。</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Magnesium: </b><br>
+<span>Win 上的 Docker 本质还是一台虚拟机…</span><br>
+<span>只有 Linux 上的 Docker 是轻量。</span><br>
+<span>App 如果没有官方发布的 Docker 镜像，你可以自制一个镜像，操作很简单。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>win的docker和vmware冲突</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>你试试装vmware或者vbox 然后装docker就知道了 不让你装的 最好的解决办法是wsl2用的hyperv然后里面装docker k8s自己用的话还是用minikube 其本质还是跑在虚拟机里 </span><br>
+</p><p><b>小野賢章: </b><br>
+<span>和k8s的关系是？</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>win下面的docker本质还是虚拟机，linux的docker才是真docker。</span><br>
+<span>虚拟机你需要装系统装应用，docker你pull一个下来已经装好系统和应用，开箱即用。</span><br>
+<span>至于k8s，容器编排工具。如果你有多台容器主机，集中管理会非常麻烦，k8s就是统一编排和管理容器的工具。</span><br>
+<span>举个例子，docker和k8s的关系就像ESXi和vCenter的关系</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lvcha: </b><br>
+<span>app x是什么？</span><br>
+<span>windows运行linux程序跟docker没啥关系（实际上）。</span><br>
+<span>windows运行linux程序可以试试wsl，wsl不行就wsl2。</span><br>
+<span>然后你标题的k8s和内容什么关系</span><br>
+</p><p><b>maximdx: </b><br>
+<span>真不愧超能力者论坛，解释的这么清楚</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860164[0-50]</guid>
+    </item>
+  </channel>
+</rss>

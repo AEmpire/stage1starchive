@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NAS上播放视频有什么好的外挂字幕解决方案么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NAS上播放视频有什么好的外挂字幕解决方案么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:23:49 +0000</lastBuildDate>
+    <item>
+      <title>NAS上播放视频有什么好的外挂字幕解决方案么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862248-1-1.html</link>
+      <description>NAS上播放视频有什么好的外挂字幕解决方案么？&#13;
+威联通的nas，通过安卓电视/pc端直连播放nas上的视频
+&#13;
+目前遇到的就是字幕加载没有好的解决办法，只能自己压字幕内嵌
+&#13;
+mxplayerpro也试过了，并不能像pc端的一些播放软件那样直接调用“视频同目录下的同名字幕”
+&#13;
+还有什么其他的播放软件支持的么...</description>
+      <content:encoded><![CDATA[<p><b>何然: </b><br>
+<span>NAS上播放视频有什么好的外挂字幕解决方案么？</span><br>
+<span>威联通的nas，通过安卓电视/pc端直连播放nas上的视频</span><br>
+<span>目前遇到的就是字幕加载没有好的解决办法，只能自己压字幕内嵌</span><br>
+<span>mxplayerpro也试过了，并不能像pc端的一些播放软件那样直接调用“视频同目录下的同名字幕”</span><br>
+<span>还有什么其他的播放软件支持的么...</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>nplayer vlc</span><br>
+<span>局域网串流不要用mxplayer，渣渣</span><br>
+</p><p><b>john: </b><br>
+<span>DLNA本来就不支持的，你用什么都不支持</span><br>
+<span>解决方法1，包字幕进去，不用压制，就打包一下，复制粘贴的时间</span><br>
+<span>解决方法2，用FTP/SMB/WebDAV协议，不用DLNA</span><br>
+</p><p><b>radar: </b><br>
+<span>SMB+mxplayer并没有问题</span><br>
+</p><p><b>何然: </b><br>
+<span>john 发表于 2019-10-30 10:14</span><br>
+<span>DLNA本来就不支持的，你用什么都不支持</span><br>
+<span>解决方法1，包字幕进去，不用压制，就打包一下，复制粘贴的时间</span><br>
+<span>我试试方案2</span><br>
+<span>方案1就是我现在干的，主要问题在于NAS下载下来的视频我还得拉出来压制了再放回去，就好蠢</span><br>
+</p><p><b>Vicarious: </b><br>
+<span>试试看jellyfin？</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>我是在电视上装了一个 X-plore，然后通过 SMB 访问 NAS，用 mxplayer 可以播。就是有的视频不能硬解，软解很卡</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>我是kodi和webdav了。smb真的更容易卡，nfs感觉画质有劣化，ftp干这个总觉得不对劲。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>smb可破</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>nplayer + webdav，都能读取外部字幕</span><br>
+</p><p><b>reichelite: </b><br>
+<span>搭车问一句，字幕下载插件有更好用的吗？subhd总是时灵时不灵，有时候能下有时候就打不开文件</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>jellyfin一直可以外挂字幕啊</span><br>
+<span>就是x265会丢颜色,导致怪异的颜色感</span><br>
+</p><p><b>何然: </b><br>
+<span>赤色彗星SEXY 发表于 2019-10-30 16:08</span><br>
+<span>jellyfin一直可以外挂字幕啊</span><br>
+<span>就是x265会丢颜色,导致怪异的颜色感</span><br>
+<span>你可能没看明白需求，不是外挂字幕，而是和pc的一些播放器那样，自动添加在播放视频同目录的同名字幕</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>smb加nplayer 反正安卓上也有nplayer 可以自动加载字幕 当然你手动加也行 nplayer对nas的支持远优于mxplayer之流</span><br>
+</p><p><b>黑之月: </b><br>
+<span>NAS上安装emby服务端，电视上安装kodi+emby插件。</span><br>
+<span>之前我也折腾了半天这套东西，发现还是这样最方便。emby还能顺带做媒体管理，海报墙怎么都比文件夹结构好。</span><br>
+<span>—— 来自 HUAWEI EVA-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>黑之月: </b><br>
+<span> 本帖最后由 黑之月 于 2019-10-31 02:38 编辑 </span><br>
+<span>PC上可以直接把NAS映射一个虚拟硬盘当本地文件夹一样用就行，或者安装kodi的PC端+emby插件也能行。</span><br>
+<span>顺便我用qnap自己的外网访问服务也能同时在外网访问NAS上emby服务器。(emby安装时要选host模式才行)</span><br>
+<span>我在公司电脑也装了kodi看家里NAS的资源美滋滋的，回家还能接着进度继续看</span><br>
+<span>手机端其实也能用kodi连接。但是emby皮肤不支持触屏，只能用kodi自带皮肤，没emby的那么方便。另外可能是我手机麒麟芯片的原因，移动版kodi解不了h265。</span><br>
+<span>—— 来自 HUAWEI EVA-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>我是这么解决的，把字幕单独扔一份到你的安卓设备的主目录的/subtitles/文件夹下面</span><br>
+<span>这样mxplayer就能自动调用了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>s-fix: </b><br>
+<span>说samba协议卡的，你们屋里的网络环境得有多差？</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>feelmydick: </b><br>
+<span>WIN10装emby服务端,顺便用作媒体管理</span><br>
+<span>电视用kodi播放器+emby插件,走的dlna,方便的一比,音视频都是直通</span><br>
+</p><p><b>dvd6: </b><br>
+<span>smb没问题，但速度确实很奇怪，不同文件管理器差别挺大的，都没有ftp快</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862248[0-50]</guid>
+    </item>
+  </channel>
+</rss>

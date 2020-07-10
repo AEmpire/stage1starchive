@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>弃用iTunes来管理音乐了，老老实实手动</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>弃用iTunes来管理音乐了，老老实实手动</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:35:19 +0000</lastBuildDate>
+    <item>
+      <title>弃用iTunes来管理音乐了，老老实实手动[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910801-1-1.html</link>
+      <description>弃用iTunes来管理音乐了，老老实实手动&#13;
+ 本帖最后由 seeks1 于 2020-1-25 23:00 编辑 
+
+OneDrive默认设置，想用iTunes来管理音乐，于是修改iTunes媒体库位置到OneDrive，想这样就能同步了。
+&#13;
+不过无论如何修改iTunes媒体库位置，重启iTunes都给你改回来，最奇葩的连带着还会把已经导入的音乐文件复制到music原媒体库位置上去...
+&#13;
+重启重装也不管用...也就是iTunes给选项不让改么？有苹果范儿。
+&#13;
+另外，突然发现，貌似iTunes不能接手媒体库？如果不能，foobar2000能结合OneDrive来同步音乐库么？</description>
+      <content:encoded><![CDATA[<p><b>seeks1: </b><br>
+<span>弃用iTunes来管理音乐了，老老实实手动</span><br>
+<span> 本帖最后由 seeks1 于 2020-1-25 23:00 编辑 </span><br>
+<span>OneDrive默认设置，想用iTunes来管理音乐，于是修改iTunes媒体库位置到OneDrive，想这样就能同步了。</span><br>
+<span>不过无论如何修改iTunes媒体库位置，重启iTunes都给你改回来，最奇葩的连带着还会把已经导入的音乐文件复制到music原媒体库位置上去...</span><br>
+<span>重启重装也不管用...也就是iTunes给选项不让改么？有苹果范儿。</span><br>
+<span>另外，突然发现，貌似iTunes不能接手媒体库？如果不能，foobar2000能结合OneDrive来同步音乐库么？</span><br>
+</p><p><b>UMN307: </b><br>
+<span>那就用musicbee，做库管理，我自己用musicbee更加顺手</span><br>
+<span>itunes只是拿来当商店用</span><br>
+</p><p><b>King5268: </b><br>
+<span>UMN307 发表于 2020-1-25 23:07</span><br>
+<span>那就用musicbee，做库管理，我自己用musicbee更加顺手</span><br>
+<span>itunes只是拿来当商店用</span><br>
+<span>感谢推荐，不过感觉从网易云音乐脱离还是很困难啊</span><br>
+</p><p><b>hguawolo: </b><br>
+<span>我觉得YouTube music 的推荐算法不比网易云音乐差，lz可以试试</span><br>
+</p><p><b>seeks1: </b><br>
+<span>UMN307 发表于 2020-1-25 23:07</span><br>
+<span>那就用musicbee，做库管理，我自己用musicbee更加顺手</span><br>
+<span>itunes只是拿来当商店用</span><br>
+<span>用win10自带的grove音乐，也有库管理，本来因为iOS设备打算弃掉专一统合，可惜没成，只能继续两分了。</span><br>
+<span>musicbee查到，不过官网我这上不去挂了？其实就是想要利用onedrive打通iOS与Windows的隔阂，不用Mac实现同步跨平台统一音乐的效果，做不到就算了，iOS只能继续用网易云了。</span><br>
+</p><p><b>四点: </b><br>
+<span>itunes修改媒体库位置是要按住alt还是shift启动然后选的吧？直接移动好像不行。</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>建议转移资料库用软链接，非常稳定</span><br>
+</p><p><b>starash: </b><br>
+<span>seeks1 发表于 2020-1-25 21:31</span><br>
+<span> OneDrive默认设置，想用iTunes来管理音乐，于是修改iTunes媒体库位置到OneDrive，想这样就能同步了。 不过 ...</span><br>
+<span>mklink解君愁。</span><br>
+</p><p><b>guohei: </b><br>
+<span>itunes媒體庫位置修改不成功應該是bug，退到12.6.5.3版本才解決，壞處是ios13同步不了。</span><br>
+</p><p><b>费老师: </b><br>
+<span>这是2020年的帖？</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>所以itunes用网盘来同步到底可行吗？</span><br>
+<span>再多问一个问题，iTunes本地+Apple Music会让音乐库看起来比较乱吗？</span><br>
+</p><p><b>seeks1: </b><br>
+<span> 本帖最后由 seeks1 于 2020-2-19 20:52 编辑 </span><br>
+<span>秋雨灰灰 发表于 2020-2-19 20:27</span><br>
+<span>所以itunes用网盘来同步到底可行吗？</span><br>
+<span>再多问一个问题，iTunes本地+Apple Music会让音乐库看起来比较乱吗？ ...</span><br>
+<span>iTunes目录位置不可改，那么网盘目的地址只能被迫设置为包含个人文件夹所在C盘，这是我核心痛点，另外就是哪怕导入同步盘目录下文件，iTunes也会拷贝一份到自己目录下，等于强占空间。</span><br>
+<span>当然win10可以设置个人文件类型盘符，但我没有尝试就是。</span><br>
+<span>只要不手动管理文件来整理媒体库，只在媒体库的话不会乱，当然非要区分apple music 和个人我觉得没必要就是。</span><br>
+<span>我只是受不了该死的iTunes在C盘给我占着的将近30G的空间罢了，考虑到C盘的重置，我一般256G不愿意再大。</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>seeks1 发表于 2020-2-19 20:49</span><br>
+<span>iTunes目录位置不可改，那么网盘目的地址只能被迫设置为包含个人文件夹所在C盘，这是我核心痛点，另外就是 ...</span><br>
+<span>明白了 这个缺点我可以接受，等我换了C盘我可以试试</span><br>
+</p><p><b>seeks1: </b><br>
+<span>秋雨灰灰 发表于 2020-2-19 20:58</span><br>
+<span>明白了 这个缺点我可以接受，等我换了C盘我可以试试</span><br>
+<span>我是等着以后上1T的SSD当次存储后再用one drive作同步备份，否则几百G无损没法搞，而且我自己喜好同步盘扔软件绿色版，忍不了机械的速度和读写。</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>今天整了一下数据，发现有800多g的音乐，想着是不是搞个软件管理一下，但是想想反正也不怎么听了，以后再说吧。</span><br>
+</p><p><b>longooyue: </b><br>
+<span>秋雨灰灰 发表于 2020-2-19 20:27</span><br>
+<span>所以itunes用网盘来同步到底可行吗？</span><br>
+<span>再多问一个问题，iTunes本地+Apple Music会让音乐库看起来比较乱吗？ ...</span><br>
+<span>乱不乱我不好评价，每个人标准不同</span><br>
+<span>直接上图，部分艺术家有在线资源可以自动获取封面，部分获取错误</span><br>
+<img src="https://s2.ax1x.com/2020/02/19/3VBf74.png" title="https://s2.ax1x.com/2020/02/19/3VBf74.png"><br>
+<img src="https://s2.ax1x.com/2020/02/19/3VBbjK.png" title="https://s2.ax1x.com/2020/02/19/3VBbjK.png"><br>
+</p><p><b>bubuyu: </b><br>
+<span>iTunes连苹果自己都放弃了</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>seeks1 发表于 2020-1-25 23:51</span><br>
+<span>用win10自带的grove音乐，也有库管理，本来因为iOS设备打算弃掉专一统合，可惜没成，只能继续两分了。</span><br>
+<span>mu ...</span><br>
+<span>https://getmusicbee.com/没啊</span><br>
+</p><p><b>onlymyotaku: </b><br>
+<span>musicbee打开一股脑把1t多音乐乱七八糟的全加进来了，已经删掉的歌也还留在目录里，搞不明白</span><br>
+</p><p><b>seeks1: </b><br>
+<span>TheDoctor 发表于 2020-2-19 21:35</span><br>
+<span>https://getmusicbee.com/没啊</span><br>
+<span>我点开有安全检查。在回帖子时候确实官网地址是404。</span><br>
+</p><p><b>sunny_am: </b><br>
+<span>itunes莫名其妙的问题越来越多，准备换musicbee。那么往ios灌东西有没有好的解决方案，难道只能itunes手动？</span><br>
+</p><p><b>曾经的小书: </b><br>
+<span>win平台，music bee和foobar都可以管理，music bee修改元信息麻烦一点。foobar能改就是一开始就要折腾一下</span><br>
+</p><p><b>miyamotoruri: </b><br>
+<span>谁说iTunes不能改了……我之前iTunes的库一直在 D:/Dropbox/iTunes ，后来不想续费 Dropbox Pro 换了 Onedrive，现在又移动到 Onedrive下用得好好的，而且跨设备同步也没问题。</span><br>
+</p><p><b>seeks1: </b><br>
+<span>miyamotoruri 发表于 2020-2-20 08:52</span><br>
+<span>谁说iTunes不能改了……我之前iTunes的库一直在 D:/Dropbox/iTunes ，后来不想续费 Dropbox Pro 换了 Onedr ...</span><br>
+<span>我自己微软商城安装的最新版，然后手动修改没用，LS告知办法，我觉得这样的小问题就是不用心，之后再有其他毛病也未可知，win平台么自己也没有mac，所以就算了...</span><br>
+</p><p><b>abc12354a: </b><br>
+<span>iTunes在Mac上好用，win上体验太差了我之前一直musicbee，可以往iPod导歌，体验也还行，但是总感觉比iTunes差了那么一点。我主要是买碟用iTunes转然后存本地用music bee索引。现在整了台Mac，发现iTunes还是挺好用的。</span><br>
+<span>iTunes有一个毛病很烦，last fm记录不上</span><br>
+<span>— from samsung SM-G9750, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>我iTunes都是用来拷CD的，就算这样，封面图还老是出错。</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mickoo: </b><br>
+<span>iTunes不知道什么反人类设计，完全搞不明白它的思维</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span> 本帖最后由 秋雨灰灰 于 2020-2-21 10:02 编辑 </span><br>
+<span>longooyue 发表于 2020-2-19 21:16</span><br>
+<span>乱不乱我不好评价，每个人标准不同</span><br>
+<span>直接上图，部分艺术家有在线资源可以自动获取封面，部分获取错误</span><br>
+<span>我担心的主要是在线曲库跟本地混起来乱，试了试确实乱了点，苹果国区的日本曲库命名还是很混乱，不过为了在线和每周推荐，还是含泪用了，考虑碰到喜欢的歌先收藏，有空再自己找资源下载洗版</span><br>
+<span>用apple music还有一个问题就是必须开iCloud音乐资料库，然后就不能本地同步了，苹果在中国的网络服务很屎，摊上我这种上百G的音乐库很烦不过用iCloud有个好处，就不用搞主楼说的这种网盘同步了，可以用官方的云同步了</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>再来回报一下，在艰难的把100多G资料库传到icloud后，发现apple music的歌原来能手动改信息不是它原来什么样就只能那个样，这样的话日语名字的问题也解决了，多台电脑的同步也不用折腾网盘直接icloud了，开心开心，感觉已经算很好用了</span><br>
+</p><p><b>Hieda: </b><br>
+<span>我用的是beets来管理，还是挺舒服的</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span>itunes和safari一样，在win系统里及其难用……</span><br>
+<span>另外私信了楼主</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>我觉得itunes在macos里如果是放自己抓轨的曲子也不好用。</span><br>
+<span>只有直接在iTunes上面买歌的情况下好用。</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span>蓝泽玲 发表于 2020-2-28 15:46</span><br>
+<span>我觉得itunes在macos里如果是放自己抓轨的曲子也不好用。</span><br>
+<span>只有直接在iTunes上面买歌的情况下好用。 ...</span><br>
+<span>flac 转成 m4a 就好了</span><br>
+</p><p><b>john: </b><br>
+<span>蓝泽玲 发表于 2020-2-28 15:46</span><br>
+<span>我觉得itunes在macos里如果是放自己抓轨的曲子也不好用。</span><br>
+<span>只有直接在iTunes上面买歌的情况下好用。 ...</span><br>
+<span>自己抓轨和iTunes买的有什么不一样？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910801[0-50]</guid>
+    </item>
+  </channel>
+</rss>

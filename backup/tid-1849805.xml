@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Amd驱动安装求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Amd驱动安装求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:42:08 +0000</lastBuildDate>
+    <item>
+      <title>Amd驱动安装求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849805-1-1.html</link>
+      <description>Amd驱动安装求助&#13;
+如题，电脑板华擎h110m，买回来就刷好的bios，u是8100，显卡hd7850。
+
+昨天突然黑屏，重装win10企业版以后，每次安装显卡驱动19.7.3或其他版本驱动18.12.5就黑屏，而且都是卡在40%，之后正常情况下无法进系统，但是安全模式就能进，卸载完驱动以后又能重新进系统了。
+
+可以确定是这个问题，因为拿了块1050试了下，就一切正常</description>
+      <content:encoded><![CDATA[<p><b>本职是魔法使: </b><br>
+<span>Amd驱动安装求助</span><br>
+<span>如题，电脑板华擎h110m，买回来就刷好的bios，u是8100，显卡hd7850。</span><br>
+<span>昨天突然黑屏，重装win10企业版以后，每次安装显卡驱动19.7.3或其他版本驱动18.12.5就黑屏，而且都是卡在40%，之后正常情况下无法进系统，但是安全模式就能进，卸载完驱动以后又能重新进系统了。</span><br>
+<span>可以确定是这个问题，因为拿了块1050试了下，就一切正常</span><br>
+</p><p><b>qwased: </b><br>
+<span>卡坏了</span><br>
+</p><p><b>本职是魔法使: </b><br>
+<span>qwased 发表于 2019-07-29 08:24:18</span><br>
+<span>卡坏了要不删了驱动继续使用吧，除了不能开模拟器其他都没问题</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>qwased: </b><br>
+<span>本职是魔法使 发表于 2019-7-29 08:27</span><br>
+<span>要不删了驱动继续使用吧，除了不能开模拟器其他都没问题</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>你试试把显示器插到核显上，然后DDU把AMD驱动删干净，再下一个去年的老版本驱动打上看看会不会好，不行的话就是GPU核心挂了打上驱动就黑</span><br>
+<span>显示器插核显的时候win桌面右键 显示设置 图形设置里面把你要用独显的程序加进去改高性能看看可不可以运行</span><br>
+</p><p><b>本职是魔法使: </b><br>
+<span>qwased 发表于 2019-07-29 08:31:22</span><br>
+<span>你试试把显示器插到核显上，然后DDU把AMD驱动删干净，再下一个去年的老版本驱动打上看看会不会好，不行的 ...核显用不了，之前用的110m刷的bios上的8100，代价就是不能用核显。我等会用ddu把驱动还有win10自带的驱动都卸载以后装一下18.1.1版本试一下吧，不行就换显卡。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>oz01: </b><br>
+<span>hd7850可是有年头了吧，换吧</span><br>
+</p><p><b>本职是魔法使: </b><br>
+<span>oz01 发表于 2019-07-29 09:39:18</span><br>
+<span>hd7850可是有年头了吧，换吧17年底咸鱼淘的旧货，我对电脑性能没啥要求，能开模拟器，腾讯全家桶就行</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>oz01: </b><br>
+<span>本职是魔法使 发表于 2019-7-29 10:00</span><br>
+<span>17年底咸鱼淘的旧货，我对电脑性能没啥要求，能开模拟器，腾讯全家桶就行</span><br>
+<span>-- 来自 有消息提醒的 Stage1 ...</span><br>
+<span>GTX750吧，除了ps3模拟器分辨率高了扛不住，其他的应该都没啥问题，便宜不贵，功耗低。</span><br>
+<span>不过750也是有点年头了</span><br>
+</p><p><b>本职是魔法使: </b><br>
+<span>oz01 发表于 2019-07-29 10:27:29</span><br>
+<span>GTX750吧，除了ps3模拟器分辨率高了扛不住，其他的应该都没啥问题，便宜不贵，功耗低。</span><br>
+<span>不过750也是有点 ...看了眼，现在750都是传家宝，特别是750ti，个个都捂的死贵，还有我说的模拟器是开安卓模拟器，主机我有</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>oz01: </b><br>
+<span>本职是魔法使 发表于 2019-7-29 10:38</span><br>
+<span>看了眼，现在750都是传家宝，特别是750ti，个个都捂的死贵，还有我说的模拟器是开安卓模拟器，主机我有</span><br>
+<span>安卓模拟器还是考虑新显卡吧，7850肯定不支持OpenGLES，也不会原生支持vulkan，现在的模拟器且不说，以后的模拟器如果有点追求就不会再用dx模拟这些玩意。</span><br>
+<span>所以——还是考虑一下1050吧</span><br>
+</p><p><b>findpkq: </b><br>
+<span>自己A卡有段时间是预览版win10上安装官方驱动时100%蓝屏/绿屏</span><br>
+<span>后来有次用系统的更新驱动程序-手动查找指向官方驱动自解压出来的目录，能够正常走完，然后再开次官方驱动的安装流程就正常了</span><br>
+</p><p><b>typhoon: </b><br>
+<span>A卡win10驱动有一个算一个都是辣鸡兼容性，我旧笔记本上R7 M265，每次装A卡驱动或者调用A卡，都直接死机。</span><br>
+<span>还好这次CPU没买3600，不然估计又是一顿折腾</span><br>
+</p><p><b>灰色骑士: </b><br>
+<span>300块不到的470矿卡免费升级570，记得给好评啊亲。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>老卡用新驱动那么太考验运气了，你原来用啥驱动就用啥驱动</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849805[0-50]</guid>
+    </item>
+  </channel>
+</rss>

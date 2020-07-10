@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电信光猫改桥接后的多台电脑上网问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电信光猫改桥接后的多台电脑上网问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:30:38 +0000</lastBuildDate>
+    <item>
+      <title>电信光猫改桥接后的多台电脑上网问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918517-1-1.html</link>
+      <description>电信光猫改桥接后的多台电脑上网问题&#13;
+现在情况是，弱电箱里的光猫已经改桥接，桥接路由在书房拨号，那么离书房较远的卧室的电脑如何上网（卧室网口连到弱电箱），如果不采用以下两种模式：1、再拨一个号，2、通过无线连卧室的路由器，除以上两种方案，还有什么方法是能通过有线方式连到书房的路由上网的？</description>
+      <content:encoded><![CDATA[<p><b>alann: </b><br>
+<span>电信光猫改桥接后的多台电脑上网问题</span><br>
+<span>现在情况是，弱电箱里的光猫已经改桥接，桥接路由在书房拨号，那么离书房较远的卧室的电脑如何上网（卧室网口连到弱电箱），如果不采用以下两种模式：1、再拨一个号，2、通过无线连卧室的路由器，除以上两种方案，还有什么方法是能通过有线方式连到书房的路由上网的？</span><br>
+</p><p><b>火之魂: </b><br>
+<span>路由器前移到弱电箱，后面想接交换机就接吧</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>书房路由进弱电箱，或者另购入主路由放弱电箱，其他路由当ap。要么拉明线，有一种可以穿门缝的扁网线</span><br>
+</p><p><b>g020941: </b><br>
+<span>可以用路由搭配VLAN交换机做单臂路由，交换机放在弱电箱里，路由还是放在原位。</span><br>
+</p><p><b>goranger: </b><br>
+<span>g020941 发表于 2020-3-13 12:10</span><br>
+<span>可以用路由搭配VLAN交换机做单臂路由，交换机放在弱电箱里，路由还是放在原位。 ...</span><br>
+<span>我因为不懂这个概念客厅路由又回了一根线接的弱电箱交换机.....</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>单臂路由的话小心你的光猫不是全千兆口。</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>等一下，你如果搞不定这个问题，为何要搞额外路由？</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>准备买交换机放弱电箱里，而且书房路由器不会自检测环路的话，可以把路由器的wan口接一个lan口，然后lan口接回弱电箱交换机。（带环路检测的路由器会直接开不了机）</span><br>
+<span>但是这样你路由器的广播包会暴露给上游网络，看运营商怎么处理了，如果上级节点受到dhcp包直接丢包的话还好，不丢的话你邻居就能通过他家入户光纤上你家局域网了。</span><br>
+<span>不是pppoe拨号是dhcp获取地址的就不用试了，环路了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918517[0-50]</guid>
+    </item>
+  </channel>
+</rss>

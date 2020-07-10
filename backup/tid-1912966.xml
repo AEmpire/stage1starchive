@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求助】老硬盘快挂了，买新硬盘如何解决资料对拷问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求助】老硬盘快挂了，买新硬盘如何解决资料对拷问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:18:51 +0000</lastBuildDate>
+    <item>
+      <title>【求助】老硬盘快挂了，买新硬盘如何解决资料对拷问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912966-1-1.html</link>
+      <description>【求助】老硬盘快挂了，买新硬盘如何解决资料对拷问题？&#13;
+ 本帖最后由 奈丝·琳·菲尔 于 2020-2-9 14:43 编辑 
+
+因为疫情春节在家加班，发现家里电脑西数1T老机械硬盘掉盘，查询后发现05、C5、C6全黄了，经常开机就掉盘（因为系统装在SSD里，开机未受影响）
+&#13;
+我打算再买一块2T或3T的东芝新机械硬盘，将原来的资料全部复制过去，有几点不明白想请教大家：
+&#13;
+1.西数老1T硬盘分了三个区（大部分软件如OFFICE、CAD安装在这个盘），若新买3T机械硬盘，是需要也分三个区，然后再用软件复制？///还是可以新硬盘不分区，以新建三个文件夹的形式对应老硬盘三个区，然后复制？
+&#13;
+2.采用什么软件复制能保证拷贝的兼容性、完整性和便捷性？3.拷贝完成后，软件是否需要全部重装？
+&#13;
+因为资料重要，也搜了论坛，但第一次遇到这种情况不敢瞎折腾和随意试验，特来请教大家。</description>
+      <content:encoded><![CDATA[<p><b>奈丝·琳·菲尔: </b><br>
+<span>【求助】老硬盘快挂了，买新硬盘如何解决资料对拷问题？</span><br>
+<span> 本帖最后由 奈丝·琳·菲尔 于 2020-2-9 14:43 编辑 </span><br>
+<span>因为疫情春节在家加班，发现家里电脑西数1T老机械硬盘掉盘，查询后发现05、C5、C6全黄了，经常开机就掉盘（因为系统装在SSD里，开机未受影响）</span><br>
+<span>我打算再买一块2T或3T的东芝新机械硬盘，将原来的资料全部复制过去，有几点不明白想请教大家：</span><br>
+<span>1.西数老1T硬盘分了三个区（大部分软件如OFFICE、CAD安装在这个盘），若新买3T机械硬盘，是需要也分三个区，然后再用软件复制？///还是可以新硬盘不分区，以新建三个文件夹的形式对应老硬盘三个区，然后复制？</span><br>
+<span>2.采用什么软件复制能保证拷贝的兼容性、完整性和便捷性？3.拷贝完成后，软件是否需要全部重装？</span><br>
+<span>因为资料重要，也搜了论坛，但第一次遇到这种情况不敢瞎折腾和随意试验，特来请教大家。</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>你要复制之前的情形</span><br>
+<span>那就ghost 盘对盘</span><br>
+<span>然后拔掉坏硬盘进系统</span><br>
+<span>这样基本就和换硬盘之前一样</span><br>
+<span>当然也可以提前分区新硬盘</span><br>
+<span>然后每个分区对分区复制</span><br>
+<span>ghost和dg都可以</span><br>
+<span>这样的好处是你之前的软件都不用重装</span><br>
+<span>但是如果软件不在意重装</span><br>
+<span>那你随便怎么复制文件都可以 </span><br>
+<span>新硬盘怎么分区都可以</span><br>
+<span>另外我所说的一切都是基于pe下的操作</span><br>
+</p><p><b>奈丝·琳·菲尔: </b><br>
+<span>真草稚京 发表于 2020-2-9 14:53</span><br>
+<span>你要复制之前的情形</span><br>
+<span>那就ghost 盘对盘</span><br>
+<span>感谢大佬，你说PE环境下我就明白了。我有一个疑问，如果老硬盘1T，新硬盘3T不事先分区的话，利用GHOST盘对盘，新硬盘是自动分区然后镜像复制老硬盘，然后留下2T富余未分配的容量吗？</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>奈丝·琳·菲尔 发表于 2020-2-9 14:58</span><br>
+<span>感谢大佬，你说PE环境下我就明白了。我有一个疑问，如果老硬盘1T，新硬盘3T不事先分区的话，利用GHOST盘对 ...</span><br>
+<span>很久没有盘对盘GHOST了</span><br>
+<span>查了一下资料看了一下图</span><br>
+<span>大概有记忆了</span><br>
+<span>Ghost自动分成和原硬盘一样的分区，同时还会根据原硬盘分区比例分配存储空间</span><br>
+<span>同时你在那个界面还可以修改一下分区大小</span><br>
+<span>不过现在比较建议用DiskGenius来进行盘对盘</span><br>
+<span>全中文一般而言方便一点</span><br>
+</p><p><b>奈丝·琳·菲尔: </b><br>
+<span>真草稚京 发表于 2020-2-9 16:16</span><br>
+<span>很久没有盘对盘GHOST了</span><br>
+<span>查了一下资料看了一下图</span><br>
+<span>谢谢你，只要知道软件跟方法就好搞了</span><br>
+<span>—— 来自 OPPO PBEM00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>99mxw: </b><br>
+<span>https://b23.tv/av13843320</span><br>
+</p><p><b>defer: </b><br>
+<span>你机械盘不是主盘那手动分好区复制粘贴不就完了吗，搞那么复杂。</span><br>
+</p><p><b>hanamizi: </b><br>
+<span>直接跟你说就是软件全部重装，，，数据全部手动复制就好了。。。而且，我现在的感觉就是，一个硬盘一个区，别搞什么分区。分区的意义仅在于防误格式化了。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912966[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一个bug修了三天，最后发现是测试用的模拟器有问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一个bug修了三天，最后发现是测试用的模拟器有问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:49:11 +0000</lastBuildDate>
+    <item>
+      <title>一个bug修了三天，最后发现是测试用的模拟器有问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848676-1-1.html</link>
+      <description>一个bug修了三天，最后发现是测试用的模拟器有问题&#13;
+气死我了！这bug真的把我逼到绝路，甚至开始怀疑自我
+&#13;
+编辑器环境不会出现，只能出新包，出一次半个小时，三天来一直在 猜测原因→修改代码→满怀期待的等待→失望 无限循环。无数次我觉得这次一定行结果不行。。。
+&#13;
+太TM折磨人了！原本很宽裕的时间全部浪费光，接下来我很可能得加班了</description>
+      <content:encoded><![CDATA[<p><b>洗刷刷: </b><br>
+<span>一个bug修了三天，最后发现是测试用的模拟器有问题</span><br>
+<span>气死我了！这bug真的把我逼到绝路，甚至开始怀疑自我</span><br>
+<span>编辑器环境不会出现，只能出新包，出一次半个小时，三天来一直在 猜测原因→修改代码→满怀期待的等待→失望 无限循环。无数次我觉得这次一定行结果不行。。。</span><br>
+<span>太TM折磨人了！原本很宽裕的时间全部浪费光，接下来我很可能得加班了</span><br>
+</p><p><b>alyce: </b><br>
+<span>所以说测试环境标准化很重要啊</span><br>
+</p><p><b>gnail: </b><br>
+<span>大家更关心你是怎么发现原因的</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>我本科的时候有一次做课设，同样的代码在我自己的电脑上就一直报错在同学的电脑上就能正常执行，调了几天才发现是tomcat的问题</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span> 本帖最后由 JimmyZ 于 2019-7-23 23:25 编辑 </span><br>
+<span>worse: 然后你发现真实环境也出, 只是不如模拟器那么稳定重现.</span><br>
+<span>worst: 反过来然后production env无法调试.</span><br>
+</p><p><b>pangzineng: </b><br>
+<span>拥抱docker吧孩子</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>最后你发现模拟器用户还很多，他们要求你fix bug</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>すぴぱら 发表于 2019-7-23 20:46</span><br>
+<span>最后你发现模拟器用户还很多，他们要求你fix bug</span><br>
+<span>我试了5个模拟器，只有测试那个有问题！实机也没问题，这种情况建议换个模拟器亲</span><br>
+</p><p><b>a4425421: </b><br>
+<span>安卓开发吗？看是哪个模拟器有问题，用的人多，最终还是你修bug</span><br>
+</p><p><b>可可木: </b><br>
+<span>我还以为公司测试搞事，正想说直接上折凳解决</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>JimmyZ 发表于 2019-7-23 20:39</span><br>
+<span>worse: 然后你发现真实环境也出, 只是不如模拟器那么稳定重现.</span><br>
+<span>worst: 反过来然后production env无法调试. ...</span><br>
+<span>+1，当年参加比赛就是这个问题，完全不知道什么在模拟器上好的，上了硬件就是时好时坏</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848676[0-50]</guid>
+    </item>
+  </channel>
+</rss>

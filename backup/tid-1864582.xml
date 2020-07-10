@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Win10升1909然后系统崩了……</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Win10升1909然后系统崩了……</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:08:52 +0000</lastBuildDate>
+    <item>
+      <title>Win10升1909然后系统崩了……[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864582-1-1.html</link>
+      <description>Win10升1909然后系统崩了……&#13;
+系统是一路升级到1903的，从MSDN下载了1909镜像，然后选择保留原来安装的软件和数据，要说过程其实很顺利……
+&#13;
+等完成后一开机一连串msvcp140.dll报错
+&#13;
+安装VC++那个东西企图修复这个dll结果安装程序报错
+&#13;
+大不了回退等推送呗
+&#13;
+回滚到1903仍然是msvcp140.dll报错，一摸一样
+&#13;
+备份了点东西，直接不保存任何东西装新的1909，目前没问题</description>
+      <content:encoded><![CDATA[<p><b>風駿: </b><br>
+<span>Win10升1909然后系统崩了……</span><br>
+<span>系统是一路升级到1903的，从MSDN下载了1909镜像，然后选择保留原来安装的软件和数据，要说过程其实很顺利……</span><br>
+<span>等完成后一开机一连串msvcp140.dll报错</span><br>
+<span>安装VC++那个东西企图修复这个dll结果安装程序报错</span><br>
+<span>大不了回退等推送呗</span><br>
+<span>回滚到1903仍然是msvcp140.dll报错，一摸一样</span><br>
+<span>备份了点东西，直接不保存任何东西装新的1909，目前没问题</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>所以win10很多问题都是升级升出来的。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>所以现在新电脑是直接上1909还是ltsc</span><br>
+<span>上1909的话不考虑激活的情况下是上专业版还是企业版？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>升级系统这么好玩？</span><br>
+</p><p><b>騜: </b><br>
+<span>伊克路西安 发表于 2019-11-9 17:40</span><br>
+<span>所以现在新电脑是直接上1909还是ltsc</span><br>
+<span>上1909的话不考虑激活的情况下是上专业版还是企业版？</span><br>
+<span>你是ZEN21903最新update就行了 </span><br>
+<span>不要LTSC（基于1809）</span><br>
+<span>1909等LZ这样小白鼠去试，起码2020年9月再更新</span><br>
+</p><p><b>两个路人: </b><br>
+<span>伊克路西安 发表于 2019-11-9 17:40</span><br>
+<span>所以现在新电脑是直接上1909还是ltsc</span><br>
+<span>上1909的话不考虑激活的情况下是上专业版还是企业版？</span><br>
+<span>看价值取向和数据恢复便利性</span><br>
+<span>如果喜欢折腾，数据随便云备份就能回来的 => 瘟屎企业跟着更新</span><br>
+<span>不想折腾，或者环境重建麻烦的，甚至不得不捏着鼻子要用的 => LTSC呆着，信阿三的优化水平可能会让你在今后吃更多的苦头</span><br>
+<span>其他 => 瘟妻上继续苟，择机而动</span><br>
+</p><p><b>linjia: </b><br>
+<span>没办法，谁叫linux，ios不好用，不够流行， 只能用windows</span><br>
+</p><p><b>風駿: </b><br>
+<span>纯情小鸭鸭 发表于 2019-11-9 17:26</span><br>
+<span>所以win10很多问题都是升级升出来的。</span><br>
+<span>是这样没错，不升级很多时候没事</span><br>
+<span>我就纳闷为什么升级后出现的问题，在回滚后不能解决</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>巨硬还不是神，仍然无法预计在保留数据下升级可能会出现的各种问题。</span><br>
+</p><p><b>TSST: </b><br>
+<span>1909是小更新啊没必要升级</span><br>
+</p><p><b>gdx23532: </b><br>
+<span>为什么我的win10还不给我推送1909啊，系统版本号不是最新的浑身难受</span><br>
+</p><p><b>leystage: </b><br>
+<span>这个是小升级啊为什么要从Msdn</span><br>
+</p><p><b>litel: </b><br>
+<span>Windows自己是不需要 msvcp140.dll的。。。</span><br>
+<span>这一般是有开机自启的软件需要这个。。。</span><br>
+<span>如果是微软官网的那个msvcp140.dll安装包vc++2015/2017/2019，应该是没问题的。</span><br>
+</p><p><b>風駿: </b><br>
+<span>litel 发表于 2019-11-9 19:15</span><br>
+<span>Windows自己是不需要 msvcp140.dll的。。。</span><br>
+<span>这一般是有开机自启的软件需要这个。。。</span><br>
+<span>如果是微软官网的那个 ...</span><br>
+<span>就是安装包没法正常安装所以才无解了啊</span><br>
+</p><p><b>淼霆: </b><br>
+<span>自从用了win10，我养了成每半年重装一次系统的习惯</span><br>
+</p><p><b>KarsusNeko: </b><br>
+<span>litel 发表于 2019-11-9 19:15</span><br>
+<span>Windows自己是不需要 msvcp140.dll的。。。</span><br>
+<span>这一般是有开机自启的软件需要这个。。。</span><br>
+<span>如果是微软官网的那个 ...</span><br>
+<span>140是vc redist 2015的。兼容15-19的是另外一个，叫什么vc redist latest。win10好像也要单独装吧。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>突然想起来，你这个我好像前阵子才遇到过，我当时是弹类似的窗口然后查到是要装C++2015</span><br>
+<span>但是C++2015装不上，然后我发现C++2015 C++2017都是14开头的版本号</span><br>
+<span>然后我把C++2017卸载了，再装C++2015就行了</span><br>
+<span>但是我也不知道问题怎么出现的，我是LTSC，突然有一天就这样了，我也没记得我有特地去装了C++2017</span><br>
+</p><p><b>观自在: </b><br>
+<span>纯情小鸭鸭 发表于 2019-11-9 18:05</span><br>
+<span>巨硬还不是神，仍然无法预计在保留数据下升级可能会出现的各种问题。</span><br>
+<span>原来不是吗？</span><br>
+<span>那当初为什么逼着别人升级呢</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>观自在 发表于 2019-11-9 21:11</span><br>
+<span>原来不是吗？</span><br>
+<span>那当初为什么逼着别人升级呢</span><br>
+<span>但巨硬没逼着别人用呀~</span><br>
+</p><p><b>秀光: </b><br>
+<span>我1803升1809就总是通不过，准备再等等，等到一个稳定点的版本直接格盘重装</span><br>
+</p><p><b>yuuu: </b><br>
+<span>我的惠普工作站自动升级1909以后触摸和dream color全挂了，坑死了，重装 因为需要搞一堆东西现在还懒得动。</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>epilogue: </b><br>
+<span>讲真，等巨硬给你推送升级时多半没啥问题，自己尝鲜的就不好说了。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>千古奇冤施密特: </b><br>
+<span>我也是手贱升级1909搞崩了，被迫重装系统</span><br>
+</p><p><b>Anaheim: </b><br>
+<span>emmmm 我已经为了图爽手动切换insider通道到fast，目前更新到20H1预览版了，很爽</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>这台机器不跑虚拟机不跑什么商用生产力软件，所以我1909是放心升的，也没啥问题</span><br>
+<span>不然谁敢去吃新版本OS的屎</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864582[0-50]</guid>
+    </item>
+  </channel>
+</rss>

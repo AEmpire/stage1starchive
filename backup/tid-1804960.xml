@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>油猴脚本 - S1帖子屏蔽器</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>油猴脚本 - S1帖子屏蔽器</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 23:22:13 +0000</lastBuildDate>
+    <item>
+      <title>油猴脚本 - S1帖子屏蔽器[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1804960-1-1.html</link>
+      <description>油猴脚本 - S1帖子屏蔽器&#13;
+ 本帖最后由 tony0815 于 2019-1-17 23:42 编辑 
+
+动机
+&#13;
+前阵子在S1游戏区，有一段时间一位论坛用户老是常出现在帖子列表中，
+&#13;
+而论坛内置的黑名单功能只屏蔽帖子内文，不会隐藏在帖子列表中该作者的发帖……
+&#13;
+于是有高人在某个回帖发了个简单的脚本这时我想起坛友ipcjs菊苣的屏蔽赵小姐脚本，然后我就拿来修改成屏蔽我不希望看见的ID了。
+&#13;
+正好最近有类似的需求，昨晚就拿这个别人写的脚本改改改，结果变成这个形状了……
+&#13;
+S1帖子屏蔽器
+&#13;
+https://greasyfork.org/scripts/376819
+&#13;
+功能
+&#13;
+[*]以四种条件屏蔽帖子列表中的帖子：主题关键字、主题分类、主题作者、投票主题
+&#13;
+[*]页面内部更新时(下一页、新回复主题)重新过滤
+&#13;
+[*]在UI上新增能暂时开关过滤功能的麻将脸
+&#13;
+说明
+&#13;
+功能开关和过滤词设定都放在脚本开首了。
+&#13;
+另外页面内部更新时，虽然脚本上面写有机会用上[鼠标移动]为触发条件，但是应该不会用上 
+&#13;
+关于麻将脸，是没有开启过滤功能，是开启了但是没有需要过滤的帖子，是已经过滤了帖子
+&#13;
+结语
+&#13;
+其实我这个连git都不懂得怎么用的废柴，有发脚本的资格吗？
+&#13;
+……不过既然轮子都做了，放着不发表等其他人重覆做轮好象又太浪费了
+&#13;
+那个谁的话？「喜欢的反义是漠不关心」。
+&#13;
+希望大家没需要用上这东西。</description>
+      <content:encoded><![CDATA[<p><b>tony0815: </b><br>
+<span>油猴脚本 - S1帖子屏蔽器</span><br>
+<span> 本帖最后由 tony0815 于 2019-1-17 23:42 编辑 </span><br>
+<span>动机</span><br>
+<span>前阵子在S1游戏区，有一段时间一位论坛用户老是常出现在帖子列表中，</span><br>
+<span>而论坛内置的黑名单功能只屏蔽帖子内文，不会隐藏在帖子列表中该作者的发帖……</span><br>
+<span>于是有高人在某个回帖发了个简单的脚本这时我想起坛友ipcjs菊苣的屏蔽赵小姐脚本，然后我就拿来修改成屏蔽我不希望看见的ID了。</span><br>
+<span>正好最近有类似的需求，昨晚就拿这个别人写的脚本改改改，结果变成这个形状了……</span><br>
+<span>S1帖子屏蔽器</span><br>
+<span>https://greasyfork.org/scripts/376819</span><br>
+<span>功能</span><br>
+<span>[*]以四种条件屏蔽帖子列表中的帖子：主题关键字、主题分类、主题作者、投票主题</span><br>
+<span>[*]页面内部更新时(下一页、新回复主题)重新过滤</span><br>
+<span>[*]在UI上新增能暂时开关过滤功能的麻将脸</span><br>
+<span>说明</span><br>
+<span>功能开关和过滤词设定都放在脚本开首了。</span><br>
+<span>另外页面内部更新时，虽然脚本上面写有机会用上[鼠标移动]为触发条件，但是应该不会用上 </span><br>
+<span>关于麻将脸，是没有开启过滤功能，是开启了但是没有需要过滤的帖子，是已经过滤了帖子</span><br>
+<span>结语</span><br>
+<span>其实我这个连git都不懂得怎么用的废柴，有发脚本的资格吗？</span><br>
+<span>……不过既然轮子都做了，放着不发表等其他人重覆做轮好象又太浪费了</span><br>
+<span>那个谁的话？「喜欢的反义是漠不关心」。</span><br>
+<span>希望大家没需要用上这东西。</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>赞美一下楼主</span><br>
+<span>其实我一直在想要是能共享黑名单就好了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>赞美楼主，在哪设置怎么没找到</span><br>
+</p><p><b>mooerfoes: </b><br>
+<span>佩服技术高手</span><br>
+</p><p><b>青菜子: </b><br>
+<span>赞</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Litccc: </b><br>
+<span>脚本归漫区</span><br>
+</p><p><b>fuochai: </b><br>
+<span>Litccc 发表于 2019-1-17 19:14</span><br>
+<span>脚本归漫区</span><br>
+<span>足控本当然归漫区</span><br>
+</p><p><b>skullgreymon: </b><br>
+<span>https://greasyfork.org/en/scripts/26644-s1black</span><br>
+<span>不知道楼主是不是用这个改的，反正这个超好用</span><br>
+</p><p><b>stardust1224: </b><br>
+<span>火鉗留名</span><br>
+<span>樓主根本當代活雷鋒</span><br>
+<span>這麼造福廣大人民會有福報的</span><br>
+</p><p><b>stardust1224: </b><br>
+<span>話說我現在打算如果以後還有哪個不長臉的總是見到我就噴我</span><br>
+<span>我就直接論壇先+黑名單然後把ID複製到腳本上了</span><br>
+<span>不然有些人真TM討人厭，特別愛出來碰瓷人，噁心</span><br>
+</p><p><b>临界点: </b><br>
+<span>要怎么屏蔽投票贴呢？</span><br>
+</p><p><b>马桶3: </b><br>
+<span>我想问问，论坛黑名单入口在哪儿，我找不到了</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>马桶3 发表于 2019-1-17 20:00</span><br>
+<span>我想问问，论坛黑名单入口在哪儿，我找不到了</span><br>
+<span>右上角，我的，好友，我的黑名单</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>泥潭黑名单，就像app红点，总是诱惑我点开</span><br>
+</p><p><b>Zepp: </b><br>
+<span>楼主预设的过滤词</span><br>
+</p><p><b>luoyianwu: </b><br>
+<span>可惜移动端还是无计可施</span><br>
+</p><p><b>dora盐包蛋: </b><br>
+<span>有没有筛选干货贴的脚本给我整一个https://i.loli.net/2019/01/17/5c4095db83f73.jpg</span><br>
+<span>—— 来自 samsung SM-G6100, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>有没有看到被删除的发言脚本?</span><br>
+</p><p><b>离魂仙: </b><br>
+<span>希望能看到鹅球内置本功能的那一天</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>KOGmk2 发表于 2019-1-17 22:53</span><br>
+<span>有没有看到被删除的发言脚本?</span><br>
+<span>鹅球自带你需要的这个功能</span><br>
+<span>"点击施放黑魔法"</span><br>
+<span>—— 来自 Google Pixel, Android 9上的 S1Next-鹅版 v2.1.1-alpha</span><br>
+</p><p><b>tony0815: </b><br>
+<span> 本帖最后由 tony0815 于 2019-1-17 23:38 编辑 </span><br>
+<span>临界点 发表于 2019-1-17 19:56</span><br>
+<span>要怎么屏蔽投票贴呢？</span><br>
+<span>@若荼泱 也有类似的问题：</span><br>
+<span>1. 进入脚本的编辑界面，用Chrome的Tampermonkey的话，在脚本位置右键就能直接进入了</span><br>
+<img src="http://ww1.sinaimg.cn/large/8d28cc96gy1fz9zxjy9mkj20rr09cjtn.jpg" title="http://ww1.sinaimg.cn/large/8d28cc96gy1fz9zxjy9mkj20rr09cjtn.jpg"><br>
+<span>2. 功能开关和过滤词设定都在脚本的开首(图中红框部分)，投票帖的话，将我在图中用绿色框住的 switch_post_vote 参数改成true就可以了</span><br>
+<img src="http://ww1.sinaimg.cn/large/8d28cc96gy1fz9zy2qf4jj20k00u0ace.jpg" title="http://ww1.sinaimg.cn/large/8d28cc96gy1fz9zy2qf4jj20k00u0ace.jpg"><br>
+<span>刚刚查了下，结果发现，出处居然是 @ipcjs 菊苣的屏蔽赵小姐脚本 </span><br>
+<span>把对付赵小姐的东西拿来对付人，我当初是怎么想的</span><br>
+</p><p><b>ipcjs: </b><br>
+<span>tony0815 发表于 2019-1-17 23:37</span><br>
+<span>@若荼泱 也有类似的问题：</span><br>
+<span>1. 进入脚本的编辑界面，用Chrome的Tampermonkey的话，在脚本位置右键就能直接 ...</span><br>
+<span>好久没看到赵小姐了，还以为那脚本已经没用了，没想到居然在另一个地方继续发光发热</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>之前想着写一个，后来发现屏蔽特定帖子用广告屏蔽插件就行了</span><br>
+</p><p><b>D．Va: </b><br>
+<span>支持一下</span><br>
+</p><p><b>oneoutsider: </b><br>
+<span>同求能看到被删除发言的脚本，因为上班摸鱼时比起鹅球刷网页版更爽</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sayano: </b><br>
+<span>tony0815 发表于 2019-1-17 23:37</span><br>
+<span>@若荼泱 也有类似的问题：</span><br>
+<span>1. 进入脚本的编辑界面，用Chrome的Tampermonkey的话，在脚本位置右键就能直接 ...</span><br>
+<span>这个和中国女孩们实时聊天是个什么鬼</span><br>
+</p><p><b>alllonginus: </b><br>
+<span>回复错误 编辑了</span><br>
+</p><p><b>tony0815: </b><br>
+<span>v1.1.0更新</span><br>
+<span>注意！套用更新时，脚本(应该)会盖过你以前的过滤词清单和参数设定，请先行保存/复制您自己的设定，不便之处，敬请见谅。</span><br>
+<span>[*]「帖子分类」的过滤词会过滤关联显示板块名称</span><br>
+<span>[*]修正了有全坛通告时，不能按照帖子发表人过滤文章的Bug</span><br>
+<span>虫子其实在去年10月就有坛友回报了，但是影响好象不大所以就没放出来</span><br>
+<span>这次漫区在文章列表中藏了几个子板块文章的调整，立意上我完全支持，不过有时候真的有点碍眼，于是就把去年的代码掏出来再修了修对应了</span><br>
+<span>看了下论坛，好象别人也有这个需要，于是就把这更新丢上去GreasyFork了</span><br>
+<span>如果不小心清掉了您的过滤词清单，在这边再次说句对不起，要麻烦您自己重新设定过一遍了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1804960[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这种接线怎么实现局域网</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这种接线怎么实现局域网</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:59 +0000</lastBuildDate>
+    <item>
+      <title>这种接线怎么实现局域网[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906906-1-1.html</link>
+      <description>这种接线怎么实现局域网&#13;
+ 本帖最后由 Ichihatsu 于 2020-1-1 11:53 编辑 
+
+https://upload.cc/i1/2020/01/01/ai08Zw.png
+&#13;
+网络痴，联通光猫入户在书房，光猫拨号，光猫两个口一个接了台式机，一个走墙里到客厅接路由器，客厅想串流搜不到台式机。
+&#13;
+还有个渣渣路由 想再桥接会不会又多出个网段</description>
+      <content:encoded><![CDATA[<p><b>Ichihatsu: </b><br>
+<span>这种接线怎么实现局域网</span><br>
+<span> 本帖最后由 Ichihatsu 于 2020-1-1 11:53 编辑 </span><br>
+<img src="https://upload.cc/i1/2020/01/01/ai08Zw.png" title="https://upload.cc/i1/2020/01/01/ai08Zw.png"><br>
+<span>网络痴，联通光猫入户在书房，光猫拨号，光猫两个口一个接了台式机，一个走墙里到客厅接路由器，客厅想串流搜不到台式机。</span><br>
+<span>还有个渣渣路由 想再桥接会不会又多出个网段</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>你这种要么就路由器当ap交换机使用</span><br>
+<span>这样都在光猫网段下</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>路由器内网ip改个和书房台式机同网段无冲突固定ip，关闭dhcp，然后网线插lan口，over</span><br>
+</p><p><b>amiya: </b><br>
+<span>基本上路由器的进线不要插wan口，插lan口就行</span><br>
+</p><p><b>Ichihatsu: </b><br>
+<span>谢谢大家 插到LAN口搞下就好了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906906[0-50]</guid>
+    </item>
+  </channel>
+</rss>

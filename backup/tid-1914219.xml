@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>到底是是什么限制了我pc的帧数</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>到底是是什么限制了我pc的帧数</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:09:11 +0000</lastBuildDate>
+    <item>
+      <title>到底是是什么限制了我pc的帧数[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914219-1-1.html</link>
+      <description>到底是是什么限制了我pc的帧数&#13;
+ 本帖最后由 三俗怪人 于 2020-2-17 08:52 编辑 
+
+在戴尔换了显卡之后，lz的pc复活了。 但是我就算是换了新显卡自己的pc的效能一直不如别人（YouTube）测试的那么好。 
+&#13;
+同样是8700k + rtx2080
+&#13;
+YouTube 刺客信条奥德赛的效能测试可以跑到 75帧 而我只有五十五帧。（维修显卡之前也是这个成绩）
+&#13;
+玩怪猎冰原的时候 别人的2080 就很流畅 而我时不时帧数波动一下（波动时显卡使用效率会接近97%）
+&#13;
+使用unieng （好像是这么拼） valley 跑测试 分数也只能和2070打平。
+&#13;
+思来想去也不知道哪里出了问题， 难道是品牌机就这么垃圾吗。 （ Alienware Aurora r7）
+&#13;
+另外在玩游戏的时候并没出现过重启现象所以电源大概够用。</description>
+      <content:encoded><![CDATA[<p><b>三俗怪人: </b><br>
+<span>到底是是什么限制了我pc的帧数</span><br>
+<span> 本帖最后由 三俗怪人 于 2020-2-17 08:52 编辑 </span><br>
+<span>在戴尔换了显卡之后，lz的pc复活了。 但是我就算是换了新显卡自己的pc的效能一直不如别人（YouTube）测试的那么好。 </span><br>
+<span>同样是8700k + rtx2080</span><br>
+<span>YouTube 刺客信条奥德赛的效能测试可以跑到 75帧 而我只有五十五帧。（维修显卡之前也是这个成绩）</span><br>
+<span>玩怪猎冰原的时候 别人的2080 就很流畅 而我时不时帧数波动一下（波动时显卡使用效率会接近97%）</span><br>
+<span>使用unieng （好像是这么拼） valley 跑测试 分数也只能和2070打平。</span><br>
+<span>思来想去也不知道哪里出了问题， 难道是品牌机就这么垃圾吗。 （ Alienware Aurora r7）</span><br>
+<span>另外在玩游戏的时候并没出现过重启现象所以电源大概够用。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>内存频率？</span><br>
+</p><p><b>a8610853: </b><br>
+<span>看2L，检查是不是XMP没有生效跑在默认频率上导致内存带宽瓶颈了。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>显卡是不是满血版的，散热如何，SSD工作状况，还有就是电源，你要先摸清楚基本数据然后挨个测试</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>a8610853 发表于 2020-2-17 08:57</span><br>
+<span>看2L，检查是不是XMP没有生效跑在默认频率上导致内存带宽瓶颈了。</span><br>
+<span>频率 是 2666， 请问有没有相关教程</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>别说pc了我手机跑分都比别人低三成</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>madbird302 发表于 2020-2-17 08:57</span><br>
+<span>显卡是不是满血版的，散热如何，SSD工作状况，还有就是电源，你要先摸清楚基本数据然后挨个测试 ...</span><br>
+<span>请问有什么软件可以看显卡的版本吗， afterburner 可以吗？</span><br>
+</p><p><b>a8610853: </b><br>
+<span>三俗怪人 发表于 2020-2-17 09:00</span><br>
+<span>频率 是 2666， 请问有没有相关教程</span><br>
+<span>不知道你买的内存是不是2666的，如果不是，进bios开启XMP。现在都基本是图形化UEFI了，很容易找到。</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>a8610853 发表于 2020-2-17 09:02</span><br>
+<span>不知道你买的内存是不是2666的，如果不是，进bios开启XMP。现在都基本是图形化UEFI了，很容易找到。 ...</span><br>
+<span>找到了 xmp选项是锁死的</span><br>
+</p><p><b>a8610853: </b><br>
+<span>三俗怪人 发表于 2020-2-17 09:10</span><br>
+<span>找到了 xmp选项是锁死的</span><br>
+<span>那估计内存是默认2666的……排除频率问题。</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>用iu会这样？</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ftfkjb: </b><br>
+<span>win10系统调成极致性能，不行换成lstb/lstc试试</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>ftfkjb 发表于 2020-2-17 09:28</span><br>
+<span>win10系统调成极致性能，不行换成lstb/lstc试试</span><br>
+<span>台式机也能调？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>三俗怪人 发表于 2020-2-17 09:02</span><br>
+<span>请问有什么软件可以看显卡的版本吗， afterburner 可以吗？</span><br>
+<span>GPU-Z就行，跑到满载时看TDP</span><br>
+</p><p><b>启航PRC: </b><br>
+<span>用afterbuner看跑游戏时显卡和U的频率</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>胸口有毛: </b><br>
+<span>先重装系统</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>胸口有毛 发表于 2020-2-17 09:39</span><br>
+<span>先重装系统</span><br>
+<span>重装ms官网上的纯净系统吗</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>外星人自己的问题，貌似有次云飞直播时候吐槽过</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>内存2666也太惨了，我笔记本都2666了，怀疑是内存问题，BIOS里能手动超吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>RPG-7 发表于 2020-2-17 09:51</span><br>
+<span>外星人自己的问题，貌似有次云飞直播时候吐槽过</span><br>
+<span>求详情 QAQ</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>Xerxes_2 发表于 2020-2-17 09:52</span><br>
+<span>内存2666也太惨了，我笔记本都2666了，怀疑是内存问题，BIOS里能手动超吗</span><br>
+<span>—— 来自 OnePlus GM1910, Andr ...</span><br>
+<span>自带的垃圾条只有2666，bios 里xmp的选项是锁的估计只能换条</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>刚刚用3dmark 跑了一下 RTX 2080 得分10533 和正常人（不超频） 差不了多少。。。。。所以去ms 官网重装系统大概可以解决？</span><br>
+</p><p><b>sssfans: </b><br>
+<span>内存3200和2666也不会有75帧和55帧这么大的差距的，先重装系统试试吧。</span><br>
+</p><p><b>sssfans: </b><br>
+<span>另外多嘴问一句，你自己测试的奥德赛，跟视频上人家测试的是一样的设置吗？分辨率抗锯齿体积云什么的。</span><br>
+</p><p><b>nailuo1993: </b><br>
+<span>怪物猎人不吃内存频率的 我2400换到3200没区别</span><br>
+</p><p><b>381030691: </b><br>
+<span>GPU-Z看玩游戏的时候PCI-E工作模式正不正常？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>对，品牌机就是比较渣，8700k在品牌机上应该是卡死tdp的，CPU是啥散热</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>風駿: </b><br>
+<span>CPU散热是单风扇的一体水冷啦</span><br>
+</p><p><b>f-15eagle: </b><br>
+<span>内存估计只有一条没组双通道，速度砍半</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>蓦然回首: </b><br>
+<span>波动时显卡使用效率会接近97%</span><br>
+<span>这个是什么意思，这配置应该是GPU bound, 跑游戏应该显卡全程99%才对</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>jestime: </b><br>
+<span>三俗怪人 发表于 2020-2-17 09:00</span><br>
+<span>频率 是 2666， 请问有没有相关教程</span><br>
+<span>玩游戏至少买3600的内存吧，你看网上评测用机是什么内存的，最佳是买2根8g的4266，效果拔群</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>蓦然回首 发表于 2020-2-19 11:00</span><br>
+<span>波动时显卡使用效率会接近97%</span><br>
+<span>这个是什么意思，这配置应该是GPU bound, 跑游戏应该显卡全程99%才对</span><br>
+<span>这个97 是 afterburner monitor 的 gpu usage。我发现只有效能测试才能跑到99%。 玩游戏锁帧60 平常就5 60 然而经常掉帧。 另外我发现不锁帧的话虽然显示90 100 但还会感觉卡卡的。 卡的时候我看gpu主频都到1860mhz了</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>重装了系统 更新了驱动 该卡还是卡。。。 </span><br>
+</p><p><b>三俗怪人: </b><br>
+<span> 本帖最后由 三俗怪人 于 2020-2-19 12:15 编辑 </span><br>
+<span>把physx给gpu 运行后发现卡顿现象缩短为一分钟出现一次（60 变为55）持续时间为0.5秒，感觉问题大概是解决了？</span><br>
+</p><p><b>johnie: </b><br>
+<span>不是 你dell换的2080是oem版 人家youtube跑的多数是顶级非公 性能上差到10%算正常的</span><br>
+<span>另外2070和2080其实也就差12% 非公顶级2070跟oem 2080跑出2-3帧差距很正常 外加你2666的内存横竖性能比人家起板3600-4000条差距不小</span><br>
+<span>总之都是品牌机的错</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>johnie 发表于 2020-2-19 13:10</span><br>
+<span>不是 你dell换的2080是oem版 人家youtube跑的多数是顶级非公 性能上差到10%算正常的</span><br>
+<span>另外2070和2080其实也 ...</span><br>
+<span>是的， 我发现核心频率最高是1890而别人的都是2000左右。</span><br>
+<span>—— 来自 Xiaomi Mi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>蓦然回首 发表于 2020-2-19 11:00</span><br>
+<span>波动时显卡使用效率会接近97%</span><br>
+<span>这个是什么意思，这配置应该是GPU bound, 跑游戏应该显卡全程99%才对</span><br>
+<span>TDP鎖65W吧,ACO又吃U,8700K此時只能跑全核3.9-4G,測試視頻動不動就是5G</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>jestime 发表于 2020-2-19 11:05</span><br>
+<span>玩游戏至少买3600的内存吧，你看网上评测用机是什么内存的，最佳是买2根8g的4266，效果拔群 ...</span><br>
+<span>只玩60帧的话会有很大影响吗？</span><br>
+</p><p><b>johnie: </b><br>
+<span>三俗怪人 发表于 2020-2-20 00:45</span><br>
+<span>只玩60帧的话会有很大影响吗？</span><br>
+<span>会 内存影响最低帧数</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>johnie 发表于 2020-2-20 01:14</span><br>
+<span>会 内存影响最低帧数</span><br>
+<span>那么2999mhz的2x8 或者 2x16的内存条推荐ma </span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>肯定是功耗墙啊 内存没那么大的差别</span><br>
+</p><p><b>三俗怪人: </b><br>
+<span>另外有新发现就是如果不限制帧数的话，开启高清贴图的冰原帧数一直都在60以上 但是很有时感觉很卡顿。 这个是内存频率造成的吗。</span><br>
+<span>—— 来自 Xiaomi Mi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>我没记错的话戴尔品牌机bios都是经典蓝白bios 选项都锁掉的</span><br>
+<span>当年帮人修电脑 XMP开不了 CPU超不了 不知道现在的外星人台式怎么样</span><br>
+<span>我给你的建议是别动了 因为sb品牌机主板bios缩的亲妈爆炸 没有什么折腾空间的 连显卡都是公版缩水频率 </span><br>
+</p><p><b>johnie: </b><br>
+<span>bigheadnotbig 发表于 2020-2-20 13:06</span><br>
+<span>我没记错的话戴尔品牌机bios都是经典蓝白bios 选项都锁掉的</span><br>
+<span>当年帮人修电脑 XMP开不了 CPU超不了 不知道现 ...</span><br>
+<span>alienware的主板是可以超频的 比普通好点</span><br>
+<span>而且我印象里外星人给的1200还是1500w电源 不太用担心负载</span><br>
+<span>不过品牌机依然烂</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914219[0-50]</guid>
+    </item>
+  </channel>
+</rss>

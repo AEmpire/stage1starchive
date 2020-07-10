@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>大佬们问一下win10拔掉耳机之后再插上为啥还是外放啊</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>大佬们问一下win10拔掉耳机之后再插上为啥还是外放啊</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:35:43 +0000</lastBuildDate>
+    <item>
+      <title>大佬们问一下win10拔掉耳机之后再插上为啥还是外放啊[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943081-1-1.html</link>
+      <description>大佬们问一下win10拔掉耳机之后再插上为啥还是外放啊&#13;
+就和标题一样，为啥我的win10更新之后插耳机必须重启才能用，要不然就一直是外放，耳机应该没啥问题
+&#13;
+百度上只能找到这样的老办法
+&#13;
+如图
+&#13;
+可是现在的win10完全找不到这些选项</description>
+      <content:encoded><![CDATA[<p><b>我主叮当在上: </b><br>
+<span>大佬们问一下win10拔掉耳机之后再插上为啥还是外放啊</span><br>
+<span>就和标题一样，为啥我的win10更新之后插耳机必须重启才能用，要不然就一直是外放，耳机应该没啥问题</span><br>
+<span>百度上只能找到这样的老办法</span><br>
+<span>如图</span><br>
+<span>可是现在的win10完全找不到这些选项</span><br>
+</p><p><b>我主叮当在上: </b><br>
+<span>大佬们你们看完全没有耳机已经插好了的迹象，必须重启才行</span><br>
+</p><p><b>lupin1984t: </b><br>
+<span>右下音量选项左键</span><br>
+</p><p><b>我主叮当在上: </b><br>
+<span>lupin1984t 发表于 2020-6-21 13:14</span><br>
+<span>右下音量选项左键</span><br>
+<span>没用啊，现在就是这么个情况，我插耳机并不好用，系统也不显示我耳机在插孔里，但是重启之后耳机是能用的，只要拔下来之后，就一直是外放，不是耳机的问题我换过好几个耳机实验过了，但还是谢谢大佬帮忙了</span><br>
+</p><p><b>nanonya: </b><br>
+<span>Realtek的声卡？看一下开始菜单里有没有Realtek音频管理器，没有的话看下有没有C:\Program Files\Realtek\Audio\HDA\RAVCpl64.exe 这个文件，在里面应该可以调。</span><br>
+</p><p><b>wlgdc: </b><br>
+<span>你这图选的是录制，播放里没耳机吗。我刚刚试了下，如果你插入耳机的时候手动选择扬声器，重新拔插并不会切换到耳机。</span><br>
+</p><p><b>MixRadio: </b><br>
+<span>上个月我的笔记本更新后也有这个问题，后来它自己好了，我中途用了USB声卡和不带麦的耳机。</span><br>
+<span>有这个问题的时候我用的是带麦的耳机，似乎不带麦的就没有问题</span><br>
+</p><p><b>黑羽零: </b><br>
+<span>可能驱动或是Realtek的问题，以前S1有人发过个外国网站里人家做的第3方驱动的帖子，我在那边下的驱动解决了耳机只有一边有声音的问题</span><br>
+</p><p><b>我主叮当在上: </b><br>
+<span>nanonya 发表于 2020-6-21 14:07</span><br>
+<span>Realtek的声卡？看一下开始菜单里有没有Realtek音频管理器，没有的话看下有没有C:\Program Files\Realtek\A ...</span><br>
+<span>没有这个文件啊，在HDA这个文件夹里只有五个</span><br>
+<span>RAVBg64.exe</span><br>
+<span>RtkAudioService64.exe</span><br>
+<span>RtkNGUI64.exe</span><br>
+<span>RtlUpd64.exe</span><br>
+<span>ToastDll64.dll</span><br>
+<span>要打驱动还是什么才有吗？我是笔记本戴尔g3</span><br>
+</p><p><b>我主叮当在上: </b><br>
+<span>MixRadio 发表于 2020-6-21 14:18</span><br>
+<span>上个月我的笔记本更新后也有这个问题，后来它自己好了，我中途用了USB声卡和不带麦的耳机。</span><br>
+<span>有这个问题的时 ...</span><br>
+<span>啊，好像是不带麦的就没有，我借了个同学的耳机试了试，确实，啥情况啊</span><br>
+</p><p><b>我主叮当在上: </b><br>
+<span>wlgdc 发表于 2020-6-21 14:12</span><br>
+<span>你这图选的是录制，播放里没耳机吗。我刚刚试了下，如果你插入耳机的时候手动选择扬声器，重新拔插并不会切 ...</span><br>
+<span>我插入耳机啥反应都没有，所有的东西都显示我耳机未插入，但是重启就能用（依旧还是显示耳机未插入，但是耳机能用）</span><br>
+</p><p><b>煉獄の羊: </b><br>
+<span>我的本子也有这个问题（Realtek卡），耳机**去还是外放的，得**再插一次，导致我总害怕看一些小视频的时候社会性死亡。</span><br>
+</p><p><b>nanonya: </b><br>
+<span>我主叮当在上 发表于 2020-6-21 17:47</span><br>
+<span>没有这个文件啊，在HDA这个文件夹里只有五个</span><br>
+<span>RAVBg64.exe</span><br>
+<span>RtkAudioService64.exe</span><br>
+<span>要不你更新下或者重装下驱动？</span><br>
+<span>—— 来自 Sony G8441, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>sirlion: </b><br>
+<span>rtl家的声卡面板都是无污染商店的dch版本了，我的声卡里面有一个检测耳机的功能，每次插入必须这个面板弹出一个选项确认是否插入了耳机才会转为耳机，否则一直是外放，在面板里面关掉即可</span><br>
+</p><p><b>bapijun: </b><br>
+<span>我主叮当在上 发表于 2020-6-21 17:48</span><br>
+<span>啊，好像是不带麦的就没有，我借了个同学的耳机试了试，确实，啥情况啊 ...</span><br>
+<span>我之前也遇到了类似的问题，好像是某个设置的问题，不过那都是win7时代了</span><br>
+</p><p><b>zukunes: </b><br>
+<span>mark 一下，我的更新后也是这个问题，还以为电脑坏了呢</span><br>
+<span>—— 来自 realme RMX1971, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>mhss: </b><br>
+<span> 本帖最后由 mhss 于 2020-6-21 23:04 编辑 </span><br>
+<span>win10螃蟹卡的驱动设置应该都是在UWP程序里了？我都是配合soundswitch做一键切换的</span><br>
+<span>https://p.sda1.dev/0/ded17f2dddd18284bcbba779df9e4486/捕获.PNG</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943081[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Ryzen 5 3600折腾记录</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Ryzen 5 3600折腾记录</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:30 +0000</lastBuildDate>
+    <item>
+      <title>Ryzen 5 3600折腾记录[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857715-1-1.html</link>
+      <description>Ryzen 5 3600折腾记录&#13;
+ 本帖最后由 韶华白首 于 2019-10-4 17:37 编辑 
+
+AMD Ryzen5 3600 OC 4.2 频率锁定 1.35V 电压锁定微星B450M 迫击炮 MAX最新版BIOS.冷又静关闭.PBO关闭金士顿 掠食者 DDR4 3200 8×2 JJR颗粒 XMP 3200西路数据 SN750 250G 酷冷至尊GX550 550W 铜牌 铭瑄 MS-RX580 2048SP 巨无霸 8G （等5700公版降价或者5700XT非公降价）先马平头哥 M1 电竞版
+&#13;
+……………………………………………………………………………………………………CPU-Z 评分过了日常使用 玩游戏温度都在50-60度之间，玩了一周游戏无蓝屏和异常。今天突然想用AIDA64 单烤FPU，结果刚开始跑就蓝屏了。电压加到1.375，4.2 玩了一晚上游戏，依旧正常。现在心情很差，不敢跑FPU。蓝屏这是电压不够，上1.4V？还是AS120压不住3600？逼急了换个恩杰海妖240一体水冷压的住吧！难不成3600真的没啥可折腾的？…………………………………………………………………………………………乖乖滚回PBO频率和电压自动 开了PBO 3档 FPU10分钟85度
+&#13;
+再次尝试4.11.4V FPU 24秒黑屏4.01.35V FPU 30分钟 82度
+&#13;
+4.1 1.375V FPU 30分钟 86度
+&#13;
+就这样了，不奢望4.2了</description>
+      <content:encoded><![CDATA[<p><b>韶华白首: </b><br>
+<span>Ryzen 5 3600折腾记录</span><br>
+<span> 本帖最后由 韶华白首 于 2019-10-4 17:37 编辑 </span><br>
+<span>AMD Ryzen5 3600 OC 4.2 频率锁定 1.35V 电压锁定微星B450M 迫击炮 MAX最新版BIOS.冷又静关闭.PBO关闭金士顿 掠食者 DDR4 3200 8×2 JJR颗粒 XMP 3200西路数据 SN750 250G 酷冷至尊GX550 550W 铜牌 铭瑄 MS-RX580 2048SP 巨无霸 8G （等5700公版降价或者5700XT非公降价）先马平头哥 M1 电竞版</span><br>
+<span>……………………………………………………………………………………………………CPU-Z 评分过了日常使用 玩游戏温度都在50-60度之间，玩了一周游戏无蓝屏和异常。今天突然想用AIDA64 单烤FPU，结果刚开始跑就蓝屏了。电压加到1.375，4.2 玩了一晚上游戏，依旧正常。现在心情很差，不敢跑FPU。蓝屏这是电压不够，上1.4V？还是AS120压不住3600？逼急了换个恩杰海妖240一体水冷压的住吧！难不成3600真的没啥可折腾的？…………………………………………………………………………………………乖乖滚回PBO频率和电压自动 开了PBO 3档 FPU10分钟85度</span><br>
+<span>再次尝试4.11.4V FPU 24秒黑屏4.01.35V FPU 30分钟 82度</span><br>
+<span>4.1 1.375V FPU 30分钟 86度</span><br>
+<span>就这样了，不奢望4.2了</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>4.2跑 FPU是超過極限了   AMD自動給的電壓是1.28 @ 3.8</span><br>
+</p><p><b>gensaya: </b><br>
+<span>不OC再跑Aida64试一下</span><br>
+</p><p><b>ft5555: </b><br>
+<span>ASUS who reverse engineered the micro code of the new CPU's and that the PB2.0 internal guidelines/specs that the 3000 series uses are 1.325V at high current loads and 1.47V at low current (boost loads).</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>gensaya 发表于 2019-10-4 00:51</span><br>
+<span>不OC再跑Aida64试一下</span><br>
+<span>这有何意义呢？CPU体质测试？</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>ft5555 发表于 2019-10-4 01:26</span><br>
+<span>ASUS who reverse engineered the micro code of the new CPU's and that the PB2.0 internal guidelines/s ...</span><br>
+<span>天呐，加到1.47再跑？</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>gofbayrf 发表于 2019-10-4 00:48</span><br>
+<span>4.2跑 FPU是超過極限了       AMD自動給的電壓是1.28 @ 3.8</span><br>
+<span>3600折腾的意义不大喽？</span><br>
+<span>直接锁4.2用？</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>1.35V跑4.2是不是太低了</span><br>
+<span>我是降压到1.18V锁4.0使用的，散热用的反人类400，日常在40℃左右，玩CSGO大概在55℃左右</span><br>
+</p><p><b>韶华白首: </b><br>
+<span> 本帖最后由 韶华白首 于 2019-10-4 03:37 编辑 </span><br>
+<span>零下五度猫 发表于 2019-10-4 01:52</span><br>
+<span>1.35V跑4.2是不是太低了</span><br>
+<span>我是降压到1.18V锁4.0使用的，散热用的反人类400，日常在40℃左右，玩CSGO ...</span><br>
+<span>直接 1.4？4.0 4.1和4.2玩游戏差距不大吧？你的1.18V 4.0 FPU跑了没？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>有病</span><br>
+</p><p><b>考哥: </b><br>
+<span>同3600 电压1.2875锁4.1能过fpu，as120p 五年前的中塔静音机箱 打人主板</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>3600还oc了干嘛，刷了abba之后开pbo凑合用吧，反正默认就是极限</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span> 本帖最后由 藤原亮政 于 2019-10-4 08:07 编辑 </span><br>
+<span>FPU是極限測試,不加壓的情況下燒FPU溫度都足夠可觀了....</span><br>
+<span>CPU超頻加壓還想過FPU測試...</span><br>
+<span>你散熱不上360冷排嗎...</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>没意义啊 众生平等</span><br>
+<span>你这颗体质一般了 建议开个pbo默认用就行了</span><br>
+</p><p><b>litel: </b><br>
+<span>我3700x，1.3v超4.2，fpu各种都是稳的，但是p95一跑要么蓝屏要么直接重启。</span><br>
+<span>后来就超频设置全默认，然后pbo开启，就这样，p95也能过了，游戏频率还比4.2高。。。</span><br>
+<span>现在是游戏能有4.3，aida64 fpu能有4.1-4.2，p95是4.0-4.1这样。</span><br>
+<span>我散热是ts140d</span><br>
+<span>我发现这代手动超不像intel某个电压定好，说稳就稳了，amd的比较难调，下次有空再试试了。</span><br>
+</p><p><b>litel: </b><br>
+<span>对了，pbo模式不要开offset降压，开了频率没掉，但是r20跑分会降低，这个比较奇妙。。。</span><br>
+</p><p><b>汝者: </b><br>
+<span>litel 发表于 2019-10-4 09:20</span><br>
+<span>对了，pbo模式不要开offset降压，开了频率没掉，但是r20跑分会降低，这个比较奇妙。。。</span><br>
+<span> ...</span><br>
+<span>电压不足就这样</span><br>
+<span>zen2有临界值 低过就会降性能保证稳定</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>litel 发表于 2019-10-4 09:17</span><br>
+<span>我3700x，1.3v超4.2，fpu各种都是稳的，但是p95一跑要么蓝屏要么直接重启。</span><br>
+<span>后来就超频设置全默认，然后pbo ...</span><br>
+<span>电压全自动？</span><br>
+</p><p><b>melvin95: </b><br>
+<span>农企4.2不就是牙膏的4.5-4.6了？</span><br>
+<span>六核还免费送多线程就别计较这么多了</span><br>
+<span>所以zen2+还要等几久来着</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>melvin95 发表于 2019-10-4 12:35</span><br>
+<span>农企4.2不就是牙膏的4.5-4.6了？</span><br>
+<span>六核还免费送多线程就别计较这么多了</span><br>
+<span>沒ZEN2+</span><br>
+<span>明年年中直接ZEN3</span><br>
+</p><p><b>melvin95: </b><br>
+<span>藤原亮政 发表于 2019-10-4 12:55</span><br>
+<span>沒ZEN2+</span><br>
+<span>明年年中直接ZEN3</span><br>
+<span>爽了，等等党一直等一直爽</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>韶华白首 发表于 2019-10-4 02:39</span><br>
+<span>直接 1.4？4.0 4.1和4.2玩游戏差距不大吧？你的1.18V 4.0 FPU跑了没？</span><br>
+<span>刚刚跑了一下，没过</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>韶华白首: </b><br>
+<span> 本帖最后由 韶华白首 于 2019-10-4 14:13 编辑 </span><br>
+<span>零下五度猫 发表于 2019-10-4 13:21</span><br>
+<span>刚刚跑了一下，没过</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>我滚回PBO 3档了</span><br>
+<span>FPU 烤了13分钟 85度，再烤一烤发图。</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>韶华白首 发表于 2019-10-4 13:23</span><br>
+<span>我滚回PBO 2了</span><br>
+<span>FPU 烤了13分钟 85度，再烤一烤发图。</span><br>
+<span>好的谢谢，我也试试看</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>零下五度猫 发表于 2019-10-4 13:36</span><br>
+<span>好的谢谢，我也试试看</span><br>
+<span>结果出了</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>Pbo眾生平等</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>4.11.42V FPU黑屏</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>4.0 1.35V FPU30分钟 82度</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>4.1 1.375V FPU 86度</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>不是说这代都是灰烬版吗，没啥超频空间</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>我开PBO二档电压最高能到1.475V，还是害怕</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>零下五度猫 发表于 2019-10-4 17:50</span><br>
+<span>我开PBO二档电压最高能到1.475V，还是害怕</span><br>
+<span>三档也是很可怕的电压，不知道微星怎么想的（B450M迫击炮MAX）</span><br>
+</p><p><b>汝者: </b><br>
+<span>韶华白首 发表于 2019-10-4 18:08</span><br>
+<span>三档也是很可怕的电压，不知道微星怎么想的（B450M迫击炮MAX）</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1857749-1-1.html</span><br>
+<span>pbo对应是散热器级别 你不是水冷选啥4档……</span><br>
+</p><p><b>松霖: </b><br>
+<span>pbo四挡是给分体水冷用的</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>汝者 发表于 2019-10-4 18:11</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1857749-1-1.html</span><br>
+<span>pbo对应是散热器级别 你不是水冷选啥4档…… ...</span><br>
+<span>已经放弃 PBO了</span><br>
+<span>4.1 1.375V 用着</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>u12s 迫击炮 3600</span><br>
+<span>老bios开pbo4档能到4.4 电压1.48~1.5</span><br>
+<span>新的abba加上ryzen电源计划 3.6~4.4来回跳 电压也跟着跳 有负载时能到4.35上下</span><br>
+<span>至于散热 zen2意义真的不是很大 主要问题是积热散不出来</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>3700X+Strix X470-F， 手动锁到1.275v@4.1G，P95十分钟没问题，如果是自动超频啥的，电压老高了，P95一开就死，目前先这样了</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>RPG-7 发表于 2019-10-5 10:41</span><br>
+<span>3700X+Strix X470-F， 手动锁到1.275v@4.1G，P95十分钟没问题，如果是自动超频啥的，电压老高了，P95一开就 ...</span><br>
+<span>P95不敢试</span><br>
+<span>AIDA64 FPU你一般烤多久？</span><br>
+</p><p><b>beflyer: </b><br>
+<span>藤原亮政 发表于 2019-10-04 12:55:45</span><br>
+<span>沒ZEN2+</span><br>
+<span>明年年中直接ZEN3zen3要不要换主板呀</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>litel: </b><br>
+<span>韶华白首 发表于 2019-10-4 12:07</span><br>
+<span>电压全自动？</span><br>
+<span>对，全Auto，就开启PBO就行。bios是最新的1003abba</span><br>
+</p><p><b>serial: </b><br>
+<span>有点高……我选择手动1.15v设一个能稳住的频率，但是也不敢跑p95太久。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>beflyer 发表于 2019-10-5 14:48</span><br>
+<span>zen3要不要换主板呀</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+<span>Zen3最后一代AM4，换啥主板</span><br>
+</p><p><b>红左手: </b><br>
+<span>Bondrewd 发表于 2019-10-4 17:48</span><br>
+<span>不是说这代都是灰烬版吗，没啥超频空间</span><br>
+<span>上干冰或者液氮还是有空间的</span><br>
+</p><p><b>serial: </b><br>
+<span>yes就完事了（原装散热这个电压下估计只能跑个cpuz）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857715[0-50]</guid>
+    </item>
+  </channel>
+</rss>

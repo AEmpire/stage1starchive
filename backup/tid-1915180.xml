@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有比较了解openwrt(lede)的吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有比较了解openwrt(lede)的吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:01:45 +0000</lastBuildDate>
+    <item>
+      <title>有比较了解openwrt(lede)的吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915180-1-1.html</link>
+      <description>有比较了解openwrt(lede)的吗？&#13;
+ 本帖最后由 共谍常凯申 于 2020-2-22 19:48 编辑 
+
+我想通过一个k2t无线连接主路由，实现k2t下的(有线连接)设备和主路由在同一个网段，应该要怎么实现？百度搜了很久也没找到可以实现的方法</description>
+      <content:encoded><![CDATA[<p><b>共谍常凯申: </b><br>
+<span>有比较了解openwrt(lede)的吗？</span><br>
+<span> 本帖最后由 共谍常凯申 于 2020-2-22 19:48 编辑 </span><br>
+<span>我想通过一个k2t无线连接主路由，实现k2t下的(有线连接)设备和主路由在同一个网段，应该要怎么实现？百度搜了很久也没找到可以实现的方法</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>关闭nat，关闭dhcp</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>lawsherman 发表于 2020-2-22 19:59</span><br>
+<span>关闭nat，关闭dhcp</span><br>
+<span>能具体一点吗？我是试了很多办法都没有实现的</span><br>
+</p><p><b>騜: </b><br>
+<span>AP先关闭DHCP假设你主路由是192.168.1.1 就把AP设备LAN口设置成192.168.1.X重启以后接到主路由上就行了 </span><br>
+</p><p><b>litel: </b><br>
+<span>关闭dhcp，网线插lan就行了。。</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>litel 发表于 2020-2-22 20:27</span><br>
+<span>关闭dhcp，网线插lan就行了。。</span><br>
+<span>注意是无线接入主路由</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>騜 发表于 2020-2-22 20:09</span><br>
+<span>AP先关闭DHCP假设你主路由是192.168.1.1 就把AP设备LAN口设置成192.168.1.X重启以后接到主路由上就行了 ...</span><br>
+<span>不行，我试了很多次了，注意两个路由不是有线连接的</span><br>
+</p><p><b>sAviOr: </b><br>
+<span>是op连不上主路由，还是能连上，但有线设备不在同一网段？</span><br>
+</p><p><b>騜: </b><br>
+<span>共谍常凯申 发表于 2020-2-22 20:34</span><br>
+<span>不行，我试了很多次了，注意两个路由不是有线连接的</span><br>
+<span>哦 那你的主路由是什么LEDE系统好像不能直接支持mesh</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>騜 发表于 2020-2-22 20:37</span><br>
+<span>哦 那你的主路由是什么LEDE系统好像不能直接支持mesh</span><br>
+<span>主路由k2p，刷的高格</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>sAviOr 发表于 2020-2-22 20:36</span><br>
+<span>是op连不上主路由，还是能连上，但有线设备不在同一网段？</span><br>
+<span>可以用client模式连上，但我不知道怎么让连接k2t的电脑和主路由处在同一网段下</span><br>
+</p><p><b>沧粟: </b><br>
+<span>关键词：</span><br>
+<span>OpenWrt 无线中继</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>沧粟 发表于 2020-2-22 20:42</span><br>
+<span>关键词：</span><br>
+<span>OpenWrt 无线中继</span><br>
+<span>百度能解决的问题我就不会特地发帖了</span><br>
+</p><p><b>sAviOr: </b><br>
+<span> 本帖最后由 sAviOr 于 2020-2-22 20:58 编辑 </span><br>
+<span>检查一下wlan有没有连在lan上？</span><br>
+</p><p><b>litel: </b><br>
+<span>共谍常凯申 发表于 2020-2-22 20:29</span><br>
+<span>注意是无线接入主路由</span><br>
+<span>无线连上后，关闭dhcp，“接口-lan-协议”改成dhcp或者静态地址指定一个上级路由同网段固定ip</span><br>
+<span>然后进路由器后台看看获取的ip或者通过固定ip进入ap</span><br>
+<span>然后如果还有问题可能要调ap的防火墙交换机之类的。</span><br>
+</p><p><b>litel: </b><br>
+<span>openwrt的一个简单的防火墙逻辑是如果区域不一样，一般是不相通的，只能从绿色访问红色区域，不能从红色区域反过来访问绿色区域。</span><br>
+</p><p><b>继承权: </b><br>
+<span>sAviOr 发表于 2020-2-22 20:49</span><br>
+<span>检查一下wlan有没有连在lan上？</span><br>
+<span>我觉得楼主应该只是不知道用client模式……</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>听起来楼主是要实现WDS？</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>雪ノ下だんご 发表于 2020-2-22 21:24</span><br>
+<span>听起来楼主是要实现WDS？</span><br>
+<span>client+AP</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-22 21:33 编辑 </span><br>
+<span>沧粟 发表于 2020-2-22 20:42</span><br>
+<span>关键词：</span><br>
+<span>OpenWrt 无线中继</span><br>
+<span>百度上的好像都是作为二级路由。</span><br>
+<span>楼主可以试试先照着那些教程连上级路由，然后按14楼的改一下接口，再关掉dhcp应该就行了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915180[0-50]</guid>
+    </item>
+  </channel>
+</rss>

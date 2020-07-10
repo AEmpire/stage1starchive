@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Google sheet的公式相关，请指教</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Google sheet的公式相关，请指教</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:46:43 +0000</lastBuildDate>
+    <item>
+      <title>Google sheet的公式相关，请指教[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917173-1-1.html</link>
+      <description>Google sheet的公式相关，请指教&#13;
+如图，红色箭头指向的是我从别的表里 Importrange导入的列内容
+&#13;
+蓝色箭头指向的是我用countif（导入列，"&gt;0"）的结果，只得出了8，这个8是怎么来的？
+&#13;
+紫色箭头指向的是我用if（导入列单元格值&gt;1,1,0）之后的sum总和，这个是正确结果
+&#13;
+求大佬指点一下为什么这里的countif不可以，错在哪</description>
+      <content:encoded><![CDATA[<p><b>我要日十个: </b><br>
+<span>Google sheet的公式相关，请指教</span><br>
+<span>如图，红色箭头指向的是我从别的表里 Importrange导入的列内容</span><br>
+<span>蓝色箭头指向的是我用countif（导入列，">0"）的结果，只得出了8，这个8是怎么来的？</span><br>
+<span>紫色箭头指向的是我用if（导入列单元格值>1,1,0）之后的sum总和，这个是正确结果</span><br>
+<span>求大佬指点一下为什么这里的countif不可以，错在哪</span><br>
+</p><p><b>michaelz: </b><br>
+<span>导入列数据类型不对?</span><br>
+</p><p><b>beer: </b><br>
+<span>问电子表格问题好歹把涉及的数据文件放上来（敏感的的话先脱敏），不然可能存在的问题那么多，谁知道有没有写错range之类的错误</span><br>
+<span>跟楼上一样，先猜最可能的数据类型问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917173[0-50]</guid>
+    </item>
+  </channel>
+</rss>

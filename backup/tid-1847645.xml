@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>知乎：为什么苹果要使用「拷贝」「抹掉」「好」等听起...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>知乎：为什么苹果要使用「拷贝」「抹掉」「好」等听起...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:55:40 +0000</lastBuildDate>
+    <item>
+      <title>知乎：为什么苹果要使用「拷贝」「抹掉」「好」等听起...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847645-1-1.html</link>
+      <description>知乎：为什么苹果要使用「拷贝」「抹掉」「好」等听起...&#13;
+为什么苹果要使用「拷贝」「抹掉」「好」等听起来不是很正式的翻译？
+&#13;
+ Hades，Engineer @ ⇧ + ⌥ + K
+&#13;
+早年间做过一些 Apple 的本地化工作（主要还是写 Localizable 里面要用），现在这个活应该已经完全交给 APO 了，但是偶尔跟本地化的同事仍然有一些交流。下面写一些个人的看法：
+&#13;
+对于简体中文的翻译 / 本地化而言，Apple 本身有自己约定俗成的一套规范，简而言之，即：除追求表义通达之外，还应给人以新鲜感和不同感。所谓新鲜感，并不是指相对于 Microsoft Windows 产品或其他任何个人或组织的翻译副本（若按 Apple 的翻译，这个「翻译副本」应当称作是「翻译拷贝」），而是指该样的翻译比其它可行的翻译更带给人字面外的感受，举个例子：英文「OK」被翻译为「好」而并非「确定」，实则是弱化了「确定」带给人的生硬感和程式感，有一种 “我知道了” 的意味蕴含其中；而所谓不同感，自然也不是单纯地追求不同，而是进一步明晰了相似概念之间的区别，请看下一点。
+&#13;
+在此点中我们来详细解说一下某些含有所谓 Apple 风翻译其中的深刻缘由：我们首先看「拷贝」，关于这个译法，其争议最大点在于与「复制」的区别，在 Mac 常用的文件操作中，操作 Duplicate 类似于 Microsoft Windows 中的「在此处创建副本」，而 Copy 则对应着「复制」。回到字面本身，所谓「复制」，其原义是「依照原样制作，或比照原本进行翻录、翻拍等」，而音译词「拷贝」，则更加偏向于计算机中拷贝内容至暂存这一操作，讲到这里，Duplicate 和 Copy 应当如何翻译，想必已经明晰了。我们再看一个例子，「抹掉」与「格式化」，这两者便是涉及两种操作环境之不同点了，macOS 中的所谓「抹掉」，其侧重点在删除数据，而 Microsoft Windows 的「格式化」，其侧重点在重新建立文件系统，至于重新建立文件系统引起的数据丢失，那只是这一操作的副作用，并不是操作本身，讲到这里，这一问题想必也不必多言了。最后看一组：「磁盘」与「宗卷」，「宗卷」一词本来源于「卷宗」（事实上，若查看 macOS 的繁体中文翻译字段，「卷宗」便是「宗卷」的繁体语境译法），其本义是分类储存的文件集合，相比「磁盘」侧重于那个安装在计算机上的实体硬件，「宗卷」则更侧重于计算机可以访问的硬件映射出的存储区段，即是所谓「软」的意味更浓些。
+&#13;
+最后，还要特殊注明的一点是，早期操作系统的翻译往往是由居于海外的华人完成，受其繁体中文语境的影响，很多词汇与中国大陆的说法并不相同。甚至香港地区和台湾地区使用的繁体中文也不尽相同：如「軟體」之于「软件」，「記憶體」之于「内存」，「行動 / 流動」之于「移动」，「貼上」之于「粘贴」，「記錄 / 紀錄」之于「日志」等等。由此潜移默化的影响应当也是不可忽略的。
+&#13;
+以上，祝万事胜意。
+&#13;
+https://daily.zhihu.com/story/9713462</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>知乎：为什么苹果要使用「拷贝」「抹掉」「好」等听起...</span><br>
+<span>为什么苹果要使用「拷贝」「抹掉」「好」等听起来不是很正式的翻译？</span><br>
+<span> Hades，Engineer @ ⇧ + ⌥ + K</span><br>
+<span>早年间做过一些 Apple 的本地化工作（主要还是写 Localizable 里面要用），现在这个活应该已经完全交给 APO 了，但是偶尔跟本地化的同事仍然有一些交流。下面写一些个人的看法：</span><br>
+<span>对于简体中文的翻译 / 本地化而言，Apple 本身有自己约定俗成的一套规范，简而言之，即：除追求表义通达之外，还应给人以新鲜感和不同感。所谓新鲜感，并不是指相对于 Microsoft Windows 产品或其他任何个人或组织的翻译副本（若按 Apple 的翻译，这个「翻译副本」应当称作是「翻译拷贝」），而是指该样的翻译比其它可行的翻译更带给人字面外的感受，举个例子：英文「OK」被翻译为「好」而并非「确定」，实则是弱化了「确定」带给人的生硬感和程式感，有一种 “我知道了” 的意味蕴含其中；而所谓不同感，自然也不是单纯地追求不同，而是进一步明晰了相似概念之间的区别，请看下一点。</span><br>
+<span>在此点中我们来详细解说一下某些含有所谓 Apple 风翻译其中的深刻缘由：我们首先看「拷贝」，关于这个译法，其争议最大点在于与「复制」的区别，在 Mac 常用的文件操作中，操作 Duplicate 类似于 Microsoft Windows 中的「在此处创建副本」，而 Copy 则对应着「复制」。回到字面本身，所谓「复制」，其原义是「依照原样制作，或比照原本进行翻录、翻拍等」，而音译词「拷贝」，则更加偏向于计算机中拷贝内容至暂存这一操作，讲到这里，Duplicate 和 Copy 应当如何翻译，想必已经明晰了。我们再看一个例子，「抹掉」与「格式化」，这两者便是涉及两种操作环境之不同点了，macOS 中的所谓「抹掉」，其侧重点在删除数据，而 Microsoft Windows 的「格式化」，其侧重点在重新建立文件系统，至于重新建立文件系统引起的数据丢失，那只是这一操作的副作用，并不是操作本身，讲到这里，这一问题想必也不必多言了。最后看一组：「磁盘」与「宗卷」，「宗卷」一词本来源于「卷宗」（事实上，若查看 macOS 的繁体中文翻译字段，「卷宗」便是「宗卷」的繁体语境译法），其本义是分类储存的文件集合，相比「磁盘」侧重于那个安装在计算机上的实体硬件，「宗卷」则更侧重于计算机可以访问的硬件映射出的存储区段，即是所谓「软」的意味更浓些。</span><br>
+<span>最后，还要特殊注明的一点是，早期操作系统的翻译往往是由居于海外的华人完成，受其繁体中文语境的影响，很多词汇与中国大陆的说法并不相同。甚至香港地区和台湾地区使用的繁体中文也不尽相同：如「軟體」之于「软件」，「記憶體」之于「内存」，「行動 / 流動」之于「移动」，「貼上」之于「粘贴」，「記錄 / 紀錄」之于「日志」等等。由此潜移默化的影响应当也是不可忽略的。</span><br>
+<span>以上，祝万事胜意。</span><br>
+<span>https://daily.zhihu.com/story/9713462</span><br>
+</p><p><b>宏: </b><br>
+<span>就是矫情罢了，和认为mac不算pc属于同一类思路</span><br>
+</p><p><b>refo2613: </b><br>
+<span>那段copy和duplicate的区别，我是没看出这段废话有什么意义</span><br>
+<span>感觉就是因为港台翻译的缘故</span><br>
+</p><p><b>零度可乐: </b><br>
+<span>好，我知道了，你滚吧（忽略</span><br>
+<span>好，我知道了，带我去（下一步</span><br>
+<span>模棱两可，拧巴的一笔</span><br>
+</p><p><b>江南映月: </b><br>
+<span>宏 发表于 2019-7-18 14:31</span><br>
+<span>就是矫情罢了，和认为mac不算pc属于同一类思路</span><br>
+<span>我个人认为也是，MAC也是PC</span><br>
+</p><p><b>弹幕: </b><br>
+<span>强行解释弱智得一批</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>宏 发表于 2019-7-18 14:31</span><br>
+<span>就是矫情罢了，和认为mac不算pc属于同一类思路</span><br>
+<span>pc不是personal computer吗，不太清楚Mac不满足Personal和Computer哪一点，以至于Mac不能称为PC。</span><br>
+</p><p><b>cloudian: </b><br>
+<span>讲了这么多，其实就是港台翻译腔的问题罢了。</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>win8: </b><br>
+<span>这篇辣鸡文章竟然不是繁体字写的，差评</span><br>
+</p><p><b>乔槁: </b><br>
+<span> 本帖最后由 乔槁 于 2019-7-18 16:50 编辑 </span><br>
+<span>Jai用机玩家 发表于 2019-7-18 16:31</span><br>
+<span>pc不是personal computer吗，不太清楚Mac不满足Personal和Computer哪一点，以至于Mac不能称为PC。 ...</span><br>
+<span>精神胜利法？</span><br>
+<span>自己独立出来算，市场占有率就是100%。</span><br>
+</p><p><b>samfs: </b><br>
+<span>从来没注意过这些翻译，苹果翻译有名的不是那些「开了又开」之类的</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>Jai用机玩家 发表于 2019-7-18 16:31</span><br>
+<span>pc不是personal computer吗，不太清楚Mac不满足Personal和Computer哪一点，以至于Mac不能称为PC。 ...</span><br>
+<span>以前80年代是为了恶心IBM，后来90年代是为了恶心INTEL，再后来就没什么了，反正现在大家都是兼容硬件</span><br>
+</p><p><b>优秀: </b><br>
+<span>mac算不算pc以前可能会不同看法，现在大多认同mac算pc了吧</span><br>
+</p><p><b>HMHM: </b><br>
+<span>当年只有IBM PC/AT及其兼容机算做PC.</span><br>
+</p><p><b>22174559: </b><br>
+<span>从来没注意过这些，你们真精致</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>再次发明操作界面</span><br>
+</p><p><b>红左手: </b><br>
+<span>HMHM 发表于 2019-7-18 17:30</span><br>
+<span>当年只有IBM PC/AT及其兼容机算做PC.</span><br>
+<span>算了吧，最早的时候管你commodore apple tandy 还是什么都叫pc，ibm pc兴起后那全称也是ibm兼容pc，水果就是有意塑造一个“我们不一样”氛围在宣传上的引导</span><br>
+</p><p><b>小修: </b><br>
+<span>问题我都懂。那么，ipad pro什么时候能成生产力工具呢？</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>虽然深刻体现了苹果的矫揉造作，装腔作势，总比Windows祖传的“出现灾难性错误”来得平和。</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>This is not TV,this is HBO    就这个意思吧？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>要和win不同首先你就别叫copy啊</span><br>
+</p><p><b>zzzqqqrrr: </b><br>
+<span>我不想把话说的太难听</span><br>
+<span>这么搞唯一的理由就是苹果搞简中的不是大陆人</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>refo2613 发表于 2019-7-18 14:34</span><br>
+<span>那段copy和duplicate的区别，我是没看出这段废话有什么意义</span><br>
+<span>感觉就是因为港台翻译的缘故 ...</span><br>
+<span>因为osx右键菜单有复制和拷贝两个操作。复制操作就是在原位置生成一个副本。拷贝操作才是win里的复制操作</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>OiCkilL: </b><br>
+<span>zzzqqqrrr 发表于 2019-7-19 05:01</span><br>
+<span>我不想把话说的太难听</span><br>
+<span>这么搞唯一的理由就是苹果搞简中的不是大陆人</span><br>
+<span>对，我记得原因是当初的翻译团队是新加坡的</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>比起翻译上的不同，不如来介绍一下热键一不一样</span><br>
+<span>Mac可以ctrl c+v吗</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>kyomu: </b><br>
+<span>这个话题适合李如一来答。</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>dkswxd 发表于 2019-7-19 08:39</span><br>
+<span>比起翻译上的不同，不如来介绍一下热键一不一样</span><br>
+<span>Mac可以ctrl c+v吗</span><br>
+<span>ctrl + c 在类 unix 系统里是用来杀死进程的, 只是习惯的延续, 没什么好黑的吧, 反而是 win 下这个快捷键显得精神分裂</span><br>
+</p><p><b>atomone: </b><br>
+<span>- -第一次在mac上直接用复制然后给我直接创建了副本就很震惊……冷静下来之后倒是感觉这才是复制的本意hhh，洗脑成功</span><br>
+</p><p><b>红左手: </b><br>
+<span>嗜睡者 发表于 2019-7-19 10:01</span><br>
+<span>ctrl + c 在类 unix 系统里是用来杀死进程的, 只是习惯的延续, 没什么好黑的吧, 反而是 win 下这个快捷键 ...</span><br>
+<span>Ctrl-C用来复制，起源于施乐的PARC，GUI始祖</span><br>
+<span>你要说历史的话那Windows下不用这个作为复制快捷键才是数典忘祖</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>红左手 发表于 2019-7-19 10:28</span><br>
+<span>Ctrl-C用来复制，起源于施乐的PARC，GUI始祖</span><br>
+<span>你要说历史的话那Windows下不用这个作为复制快捷键才是数典 ...</span><br>
+<span>但是 win 进了终端以后 ctrl c 就不是复制了啊 </span><br>
+</p><p><b>play_plug: </b><br>
+<span>啥？太矫情了吧，小学学logo的时候，都是说拷贝而不是复制的，何况拷贝只是copy的音译……</span><br>
+</p><p><b>红左手: </b><br>
+<span>嗜睡者 发表于 2019-7-19 10:34</span><br>
+<span>但是 win 进了终端以后 ctrl c 就不是复制了啊</span><br>
+<span>作为中止命令，Ctrl-C来源是DEC，后来被Unix和CP/M引入，然后有人基本是抄了CP/M做了个86-DOS，被MS收购后改名MS-DOS，从这个历史沿革来看，Windows下的CLI也应该继承这个用法没毛病</span><br>
+<span>简单点说GUI和CLI两条线</span><br>
+</p><p><b>上将郝萌: </b><br>
+<span>卡洛德 发表于 2019-7-18 22:16</span><br>
+<span>This is not TV,this is HBO    就这个意思吧？</span><br>
+<span>不是It's not porn，it’s HBO吗</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>红左手 发表于 2019-7-19 10:52</span><br>
+<span>作为中止命令，Ctrl-C来源是DEC，后来被Unix和CP/M引入，然后有人基本是抄了CP/M做了个86-DOS，被MS收购 ...</span><br>
+<span>所以显得精神分裂了啊 </span><br>
+</p><p><b>红左手: </b><br>
+<span>嗜睡者 发表于 2019-7-19 11:31</span><br>
+<span>所以显得精神分裂了啊</span><br>
+<span>你去用power shell啊</span><br>
+<span>如果选中了一段文字，Ctrl-C也是复制</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>红左手 发表于 2019-7-19 12:26</span><br>
+<span>你去用power shell啊</span><br>
+<span>如果选中了一段文字，Ctrl-C也是复制</span><br>
+<span> 说的好, 我选择 command + c</span><br>
+</p><p><b>orecheng: </b><br>
+<span>用疏离感装逼而已</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>Jai用机玩家 发表于 2019-7-18 16:31</span><br>
+<span>pc不是personal computer吗，不太清楚Mac不满足Personal和Computer哪一点，以至于Mac不能称为PC。 ...</span><br>
+<span>其实是为了跟IBM pc区分开，以前组装机都叫IBM pc 兼容机。至于现在Mac跟pc强行分开的原因，反正大家都懂</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Ichihatsu: </b><br>
+<span>要没有官网上的弱智语法我就信了</span><br>
+</p><p><b>Minolta: </b><br>
+<span>我们首先看「拷贝」，关于这个译法，其争议最大点在于与「复制」的区别，在 Mac 常用的文件操作中，操作 Duplicate 类似于 Microsoft Windows 中的「在此处创建副本」，而 Copy 则对应着「复制」。回到字面本身，所谓「复制」，其原义是「依照原样制作，或比照原本进行翻录、翻拍等」，而音译词「拷贝」，则更加偏向于计算机中拷贝内容至暂存这一操作，讲到这里，Duplicate 和 Copy 应当如何翻译，想必已经明晰了。这作者都不知道自己在说什么吧？还音译词拷贝，特么不就是copy么，然后还对应着复制……当初被苹果劝退就是因为这个沙雕菜单，果粉居然还引以为荣，简直神奇</span><br>
+</p><p><b>mozilla: </b><br>
+<span>Minolta 发表于 2019-7-19 23:51</span><br>
+<span>这作者都不知道自己在说什么吧？还音译词拷贝，特么不就是copy么，然后还对应着复制……当初被苹果劝退就是 ...</span><br>
+<span>那个，你的词典里Duplicate 和 Copy 是如何翻译的。</span><br>
+</p><p><b>西门无恨: </b><br>
+<span>cyberalogo 发表于 2019-7-18 21:45</span><br>
+<span>虽然深刻体现了苹果的矫揉造作，装腔作势，总比Windows祖传的“出现灾难性错误”来得平和。 ...</span><br>
+<span>坐和放宽……</span><br>
+<span>另外我觉得mac最神经病的是剪切，明明是常用操作，明明也支持了这个操作，偏偏要靠组合键来实现，就不能老老实实直接做在右键快捷键里……</span><br>
+</p><p><b>西门无恨: </b><br>
+<span>sunyiren 发表于 2019-7-19 13:19</span><br>
+<span>其实是为了跟IBM pc区分开，以前组装机都叫IBM pc 兼容机。至于现在Mac跟pc强行分开的原因，反正大家都懂 ...</span><br>
+<span>兼容机…… 好久没听过的名词了，感觉是个年龄鉴定词了</span><br>
+</p><p><b>zyhang: </b><br>
+<span>就是傻逼，跟苹果的傻逼快捷键窗口管理什么的一个路数</span><br>
+</p><p><b>lpc2103: </b><br>
+<span>真矫情，我mac英文的，公司发的</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>因为是台巴子翻译的</span><br>
+</p><p><b>十点半: </b><br>
+<span>如果其他语言中也是这种有疏离感的词，我不说他苹果得好不好，但至少是有设计的。</span><br>
+<span>但是其他语言中如果和谷歌微软相同，我觉得只是因为中文翻译的太菜。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847645[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZEN2桌面级APU泄漏</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZEN2桌面级APU泄漏</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:31:53 +0000</lastBuildDate>
+    <item>
+      <title>ZEN2桌面级APU泄漏[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918427-1-1.html</link>
+      <description>ZEN2桌面级APU泄漏&#13;
+今天，外媒曝光了第一颗7nm Zen桌面级锐龙APU的踪影，搭配某B550主板，具体型号不明，只知道CPU主频为3.5GHz，GPU频率为1750MHz，搭配DDR4-2133内存。</description>
+      <content:encoded><![CDATA[<p><b>内森德雷克: </b><br>
+<span>ZEN2桌面级APU泄漏</span><br>
+<span>今天，外媒曝光了第一颗7nm Zen桌面级锐龙APU的踪影，搭配某B550主板，具体型号不明，只知道CPU主频为3.5GHz，GPU频率为1750MHz，搭配DDR4-2133内存。</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>内存丢人，不过家用主板没法焊ddr4x，大概真的要被笔记本吊打。</span><br>
+</p><p><b>长末: </b><br>
+<span>跟3400差不多水平，原地踏步的样子。8cu达到11cu效果</span><br>
+<span>—— 来自 Realme RMX1901, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>okok123: </b><br>
+<span>这个成绩太丢人了吧？连笔记本U都打不过</span><br>
+</p><p><b>雪影: </b><br>
+<span>okok123 发表于 2020-3-12 15:23</span><br>
+<span>这个成绩太丢人了吧？连笔记本U都打不过</span><br>
+<span>再强apu碰上2133内存都得丢人</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>okok123 发表于 2020-3-12 15:23</span><br>
+<span>这个成绩太丢人了吧？连笔记本U都打不过</span><br>
+<span>谁叫桌面级JEDEC还是躺倒认锤的2133标准,LPDDR4吵了两年好歹把4266标准兑现了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>显然是一颗入门型号</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>可是zen2 不是上4000要降半速嗎</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>内存怎么也要上3200啊，要不然apu哪里够用。</span><br>
+<span>当然没办法，农企太吃内存了，牙膏厂的核显堆内存的需求就小一点。</span><br>
+</p><p><b>yukika: </b><br>
+<span>gofbayrf 发表于 2020-3-12 18:05</span><br>
+<span>可是zen2 不是上4000要降半速嗎</span><br>
+<span>Renoir没有IOD问题</span><br>
+</p><p><b>bilibon: </b><br>
+<span>笔记本的U不也是笔记本条子的速度么</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span> 本帖最后由 sblnrrk 于 2020-3-13 18:18 编辑 </span><br>
+<span>bilibon 发表于 2020-3-12 23:19</span><br>
+<span>笔记本的U不也是笔记本条子的速度么</span><br>
+<span>笔记本上高端的有用LPDDRX 4266，相当于内存带宽是顶楼的2-4倍</span><br>
+<span>APU极度 缺内存带宽，2666拉3200都有质变，别说这个2666降成2133了。。。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>KOGmk2 发表于 2020-3-12 15:49</span><br>
+<span>谁叫桌面级JEDEC还是躺倒认锤的2133标准,LPDDR4吵了两年好歹把4266标准兑现了</span><br>
+<span>桌面也有DDR4 3200了，这个大概是早期 ES，估计还是单通道</span><br>
+<span>按我说这玩意如果谁配单通道2133可以扔了</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>显存和内存比就是高延时高带宽。</span><br>
+<span>所以上LPDDR4X还真的吊打台式机APU平台了。</span><br>
+<span>毕竟3200 CL14的带宽还是远不如4266 CL24么</span><br>
+</p><p><b>雪影: </b><br>
+<span>kuleisite1992 发表于 2020-3-13 19:39</span><br>
+<span>显存和内存比就是高延时高带宽。</span><br>
+<span>所以上LPDDR4X还真的吊打台式机APU平台了。</span><br>
+<span>毕竟3200 CL14的带宽还是远不 ...</span><br>
+<span>看lpddr4x是几通了，双通也就64bit，不一定打得过桌面3200</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>什么时候把X1X那个APU搬上桌面</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>keytomylife 发表于 2020-3-13 20:47</span><br>
+<span>什么时候把X1X那个APU搬上桌面</span><br>
+<span>美洲豹你确定想用？再说了除非把配套的板载GDDR5内存也一起拿过来，不然就凭普通的DDR4内存条，这颗高GPU性能的APU也是被限死的，难以发挥</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>keytomylife 发表于 2020-3-13 20:47</span><br>
+<span>什么时候把X1X那个APU搬上桌面</span><br>
+<span>八核美洲豹，谁用啊</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>意思是把那个GPU+ZEN2合体啊</span><br>
+<span>当然是不要美洲豹</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>发售要到下半年了吧？不知道最终能比3400G强多少</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>雪影 发表于 2020-3-13 19:59</span><br>
+<span>看lpddr4x是几通了，双通也就64bit，不一定打得过桌面3200</span><br>
+<span>联想那个lpddr4x是128bit的</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>gofbayrf 发表于 2020-3-12 18:05</span><br>
+<span>可是zen2 不是上4000要降半速嗎</span><br>
+<span>貌似桌面APU内存很好超，1:1上4266没问题，没有跨DIE的xgmi这个限制</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918427[0-50]</guid>
+    </item>
+  </channel>
+</rss>

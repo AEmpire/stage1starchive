@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>叠瓦（SMR）硬盘容量这么吃亏的吗?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>叠瓦（SMR）硬盘容量这么吃亏的吗?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:03:22 +0000</lastBuildDate>
+    <item>
+      <title>叠瓦（SMR）硬盘容量这么吃亏的吗?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836832-1-1.html</link>
+      <description>叠瓦（SMR）硬盘容量这么吃亏的吗?&#13;
+ 本帖最后由 yuuu 于 2019-6-4 10:28 编辑 
+
+最近搞了2T的BDMV，因为向来有数据来两份的备份习惯，所以又买了一块3T硬盘
+&#13;
+买硬盘之前也了解过叠瓦硬盘，想着我纯粹当仓库盘做冗余，估计也就是一次性写入以后封存等硬盘挂了再拿出来克隆数据用，叠瓦没什么问题。结果
+&#13;
+2T的数据，叠瓦和非叠瓦格式化好都是2.7T，都是GPT/NTFS/4096簇，WIN10一次性复制，结果非叠瓦剩余空间700G左右，叠瓦剩余空间500G左右，差额大概在200G
+&#13;
+是叠瓦坑了还是我小白了?
+&#13;
+另外，准备搞块PT下载+做种专用盘，发现2.5寸的非叠瓦好难买，基本只剩翻新盘了，翻箱倒柜找出来三块1T的凑活用了。感觉以后非叠瓦都可以当珍稀物品了</description>
+      <content:encoded><![CDATA[<p><b>yuuu: </b><br>
+<span>叠瓦（SMR）硬盘容量这么吃亏的吗?</span><br>
+<span> 本帖最后由 yuuu 于 2019-6-4 10:28 编辑 </span><br>
+<span>最近搞了2T的BDMV，因为向来有数据来两份的备份习惯，所以又买了一块3T硬盘</span><br>
+<span>买硬盘之前也了解过叠瓦硬盘，想着我纯粹当仓库盘做冗余，估计也就是一次性写入以后封存等硬盘挂了再拿出来克隆数据用，叠瓦没什么问题。结果</span><br>
+<span>2T的数据，叠瓦和非叠瓦格式化好都是2.7T，都是GPT/NTFS/4096簇，WIN10一次性复制，结果非叠瓦剩余空间700G左右，叠瓦剩余空间500G左右，差额大概在200G</span><br>
+<span>是叠瓦坑了还是我小白了?</span><br>
+<span>另外，准备搞块PT下载+做种专用盘，发现2.5寸的非叠瓦好难买，基本只剩翻新盘了，翻箱倒柜找出来三块1T的凑活用了。感觉以后非叠瓦都可以当珍稀物品了</span><br>
+</p><p><b>macos: </b><br>
+<span>底层记录还能影响分区格式？</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>文件全选属性截图看看？</span><br>
+</p><p><b>karlmao: </b><br>
+<span>容量不影响吧，拷贝速度差很多，还经常100%磁盘占用</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yuuu: </b><br>
+<span>咲月露娜 发表于 2019-6-4 10:44</span><br>
+<span>文件全选属性截图看看？</span><br>
+<span>G是叠瓦，希捷ST3000DM007，H是非叠瓦，东芝DT01ACA300</span><br>
+</p><p><b>sirlion: </b><br>
+<span>是不是回收站占了一部分啊，smr一直都是速度稳定性的问题，第一次听到容量的问题的</span><br>
+</p><p><b>mj0017: </b><br>
+<span>重拷一下试试,可能是H盘复制时有文件失败了吧</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>文件数一样，字节数不一样。。。。</span><br>
+</p><p><b>disrupt: </b><br>
+<span>yuuu 发表于 2019-6-4 10:26</span><br>
+<span>最近搞了2T的BDMV，因为向来有数据来两份的备份习惯，所以又买了一块3T硬盘</span><br>
+<span>买硬盘之前也了解过叠瓦硬盘， ...</span><br>
+<span>一是可以WinDirStat扫一下排除回收站或者别的隐藏文件影响</span><br>
+<span>二是你的PMR盘可能部分文件有压缩？毕竟全选总大小是2.1T和SMR占用一致</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>我觉得是你G盘上有其他东西。。。</span><br>
+<span>要不你把G盘格式化一次，从H盘再复制回去。。。。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>sirlion 发表于 2019-6-4 12:50</span><br>
+<span>是不是回收站占了一部分啊，smr一直都是速度稳定性的问题，第一次听到容量的问题的 ...</span><br>
+<span>已经排查过回收站和system volume information文件夹的影响</span><br>
+</p><p><b>yuuu: </b><br>
+<span>mj0017 发表于 2019-6-4 12:51</span><br>
+<span>重拷一下试试,可能是H盘复制时有文件失败了吧</span><br>
+<span>复制方向是H到G，所以应该不是文件失败的问题</span><br>
+</p><p><b>yuuu: </b><br>
+<span>disrupt 发表于 2019-6-4 14:14</span><br>
+<span>一是可以WinDirStat扫一下排除回收站或者别的隐藏文件影响</span><br>
+<span>二是你的PMR盘可能部分文件有压缩？毕竟全选 ...</span><br>
+<span>已经排查过回收站和system volume information文件夹的影响，这样看来可能是压缩的问题吧。因为仔细看反而是SMR占用空间“正常”，PMR“偏小”</span><br>
+</p><p><b>yuuu: </b><br>
+<span>咲月露娜 发表于 2019-6-4 15:03</span><br>
+<span>我觉得是你G盘上有其他东西。。。</span><br>
+<span>要不你把G盘格式化一次，从H盘再复制回去。。。。 ...</span><br>
+<span>G盘是新买来直接建立分区从H盘灌过去的</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>单单这么看，问题在于G盘啊，占用空间和已用空间都不一样</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836832[0-50]</guid>
+    </item>
+  </channel>
+</rss>

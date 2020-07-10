@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>紧急求助，200兆的宽带从交换机分出来后测试只有100兆了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>紧急求助，200兆的宽带从交换机分出来后测试只有100兆了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:38:24 +0000</lastBuildDate>
+    <item>
+      <title>紧急求助，200兆的宽带从交换机分出来后测试只有100兆了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917948-1-1.html</link>
+      <description>紧急求助，200兆的宽带从交换机分出来后测试只有100兆了&#13;
+网络结构是电信猫-主路由-交换机-然后分到每个房间的网口接副路由
+&#13;
+如果设备直接接在交换机上测是200兆没有问题，但是接去每个房间的副路由上就还是只有100兆的带宽，猫是电信的没问题，路由全部是千兆路由没问题，线都是超五类线，接墙上的面板也都是8根芯全接了，请问谁能判断到底是哪个环节出了问题吗</description>
+      <content:encoded><![CDATA[<p><b>Kyo.C: </b><br>
+<span>紧急求助，200兆的宽带从交换机分出来后测试只有100兆了</span><br>
+<span>网络结构是电信猫-主路由-交换机-然后分到每个房间的网口接副路由</span><br>
+<span>如果设备直接接在交换机上测是200兆没有问题，但是接去每个房间的副路由上就还是只有100兆的带宽，猫是电信的没问题，路由全部是千兆路由没问题，线都是超五类线，接墙上的面板也都是8根芯全接了，请问谁能判断到底是哪个环节出了问题吗</span><br>
+</p><p><b>Nagasaki: </b><br>
+<span>墙上的面板？</span><br>
+</p><p><b>fallenevil: </b><br>
+<span>有些坑爹千兆路由是无线千兆，但是网口是百兆的。。。</span><br>
+</p><p><b>sycancer: </b><br>
+<span>你的交换机不是千兆</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>モトロ: </b><br>
+<span>电脑连路由器 网络和共享信息里 链接速度是100M还是1.0G</span><br>
+</p><p><b>sirlion: </b><br>
+<span>千兆路由器，可能是lan千兆，wan还是百兆，还是那种特别大的牌子，我说的就是垃圾华硕哦</span><br>
+<span>如果你的副路由器是这种又用的wan口那就gg，可以用lan口，关闭副路由的dhcp就行</span><br>
+</p><p><b>Kyo.C: </b><br>
+<span>搞了半天 有几个房间解决了 就是面板的问题有几个房间解决不了，现在推测是家里还有一个地方布了交换机但是找不到了。。。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>Kyo.C 发表于 2020-3-9 16:38</span><br>
+<span>搞了半天 有几个房间解决了 就是面板的问题有几个房间解决不了，现在推测是家里还有一个地方布了交换机但 ...</span><br>
+<span>一个思路，可能是在天花板上</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>phyc: </b><br>
+<span>可能线路损伤了，或者接口没压好</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917948[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>软路由群汇总了一下各种cpu的coremark跑分</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>软路由群汇总了一下各种cpu的coremark跑分</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:29:22 +0000</lastBuildDate>
+    <item>
+      <title>软路由群汇总了一下各种cpu的coremark跑分[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832566-1-1.html</link>
+      <description>软路由群汇总了一下各种cpu的coremark跑分&#13;
+
+&#13;
+可以用来比较酸酸乳能跑到的最大速度
+&#13;
+gemini lake的单核同频性能追上snb了，挺屌</description>
+      <content:encoded><![CDATA[<p><b>qwased: </b><br>
+<span>软路由群汇总了一下各种cpu的coremark跑分</span><br>
+<span>可以用来比较酸酸乳能跑到的最大速度</span><br>
+<span>gemini lake的单核同频性能追上snb了，挺屌</span><br>
+</p><p><b>Litccc: </b><br>
+<span>N1现在能做主路由了吗</span><br>
+</p><p><b>qwased: </b><br>
+<span>Litccc 发表于 2019-5-18 23:42</span><br>
+<span>N1现在能做主路由了吗</span><br>
+<span>可以，有直刷的openwrt固件了，需要搭配一个vlan交换机</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>酸酸乳能有机会跑到最大速度嘛？</span><br>
+<span>瓶颈在于isp给的国际带宽吧。</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>MIPS性能挺不错呀</span><br>
+</p><p><b>qwased: </b><br>
+<span>laotoutou 发表于 2019-5-18 23:46</span><br>
+<span>酸酸乳能有机会跑到最大速度嘛？</span><br>
+<span>瓶颈在于isp给的国际带宽吧。</span><br>
+<span>搞个跳板就可以跑满速了，不过还是不讨论这个免得被删帖</span><br>
+</p><p><b>qwased: </b><br>
+<span>四控大叔 发表于 2019-5-18 23:46</span><br>
+<span>MIPS性能挺不错呀</span><br>
+<span>确实，MT7621的单核同频性能和cortex a7的ipq4019一个样</span><br>
+<span>但是矿3只要70块钱就可以买到了，usb3.0+512m内存还附赠垃圾无线，当个破烂下载机和无线交换机还挺ok</span><br>
+</p><p><b>tooktang: </b><br>
+<span>八线程的是 9700k 吧</span><br>
+</p><p><b>qwased: </b><br>
+<span>tooktang 发表于 2019-5-18 23:58</span><br>
+<span>八线程的是 9700k 吧</span><br>
+<span>是他分配了8个线程给虚拟机</span><br>
+<span>虚拟机那一堆分数没啥参考意义，波动比较大</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>为啥没有AMD的</span><br>
+</p><p><b>qwased: </b><br>
+<span>kuleisite1992 发表于 2019-5-19 00:09</span><br>
+<span>为啥没有AMD的</span><br>
+<span>因为拿1920X做软路由的人懒得跑</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>是指lean?</span><br>
+<span>还要自己编译，懒得弄</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>qwased 发表于 2019-5-19 00:22</span><br>
+<span>因为拿1920X做软路由的人懒得跑</span><br>
+<span>等等，为啥会有人拿这不上不下的玩意做软路由</span><br>
+</p><p><b>qwased: </b><br>
+<span>kuleisite1992 发表于 2019-5-19 00:41</span><br>
+<span>等等，为啥会有人拿这不上不下的玩意做软路由</span><br>
+<span>跑虚拟机顺便挂上呗</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>跳板可以指条路吗</span><br>
+</p><p><b>hecas: </b><br>
+<span>加权限吧</span><br>
+<span>今天想折腾</span><br>
+<span>去了下恩山</span><br>
+<span>全删光了。。。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-5-19 01:16 编辑 </span><br>
+<span>(CpuMark : 15561.174869 </span><br>
+<span> Scores)</span><br>
+<span>虚拟机 单核 1220L v1 </span><br>
+<span>------------------------------</span><br>
+<span>(CpuMark : 40945.150559 </span><br>
+<span> Scores)</span><br>
+<span>虚拟机 全核</span><br>
+</p><p><b>bill基: </b><br>
+<span> 本帖最后由 bill基 于 2019-5-19 01:15 编辑 </span><br>
+<span>主机名      OpenWrt</span><br>
+<span>主机型号      Intel(R) Celeron(R) CPU J1900 @ 1.99GHz : 4 Core 4 Thread</span><br>
+<span>CPU信息      2177.351 MHz (CpuMark : 33885.252214 Scores) +52.0°C</span><br>
+<span>固件版本      OpenWrt R9.5.1 By Lean / LuCI Master (git-19.121.62139-9ee402e)</span><br>
+<span>反正我没什么路由器挂什么什么乳的需求</span><br>
+<span>都是电脑端用</span><br>
+</p><p><b>糊状物: </b><br>
+<span>搜了一下，好像没什么适合做软路由的j5005方案啊，基本都是盒子或者只有两个rk网口的工控板</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>桌面标压U跑软路由？咋不上9900K呢</span><br>
+</p><p><b>BRRM: </b><br>
+<span>这帖子太扯了</span><br>
+<span>什么i5-2500s都出来了，功耗暂且不说，主板你去哪里找？</span><br>
+<span>haswell的产品的主板价格你有了解过不？</span><br>
+<span>n3700和i3 7100u的差价都够一台便宜的软路由了。</span><br>
+</p><p><b>qwased: </b><br>
+<span>BRRM 发表于 2019-5-19 04:30</span><br>
+<span>这帖子太扯了</span><br>
+<span>什么i5-2500s都出来了，功耗暂且不说，主板你去哪里找？</span><br>
+<span>haswell的产品的主板价格你有了解过 ...</span><br>
+<span>你对折腾爱好者是不是有什么误解</span><br>
+<span>dq77kb现在一样能买到，上个2500s怎么了</span><br>
+<span>往x299 x399上面插万兆卡当路由器用的都好几个了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>巨魔古拉格: </b><br>
+<span>qwased 发表于 2019-5-19 06:43</span><br>
+<span>你对折腾爱好者是不是有什么误解</span><br>
+<span>dq77kb现在一样能买到，上个2500s怎么了</span><br>
+<span>往x299 x399上面插万兆卡当路由 ...</span><br>
+<span>折腾不起，一个想法爱好者很多是家里开网吧地，我感觉就是开S1都用不一定用得上万兆网卡吧。</span><br>
+</p><p><b>klabc: </b><br>
+<span>coremark.sh能否分享一下呢？可以给自己的路由跑个分</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>klabc 发表于 2019-5-19 08:17</span><br>
+<span>coremark.sh能否分享一下呢？可以给自己的路由跑个分</span><br>
+<span>lean openwrt 自带的</span><br>
+<span>自力更生 请~</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>跑啥软路由直接fedora 走起</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>moondigi: </b><br>
+<span>这些人所谓的软路由其实不是纯粹的跑路由功能吧？我这都是nas+htpc+软路由跑在同一台机上</span><br>
+</p><p><b>糊状物: </b><br>
+<span>moondigi 发表于 2019-5-19 11:01</span><br>
+<span>这些人所谓的软路由其实不是纯粹的跑路由功能吧？我这都是nas+htpc+软路由跑在同一台机上 ...</span><br>
+<span>我觉得纯跑软路由就不会去装什么lede了，装lede的都是用来折腾玩的吧。</span><br>
+</p><p><b>klabc: </b><br>
+<span>塔奇克马 发表于 2019-5-19 09:09</span><br>
+<span>lean openwrt 自带的</span><br>
+<span>自力更生 请~</span><br>
+<span>不想刷lean的固件 纯粹是好奇而已</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>巨魔古拉格 发表于 2019-5-19 07:50</span><br>
+<span>折腾不起，一个想法爱好者很多是家里开网吧地，我感觉就是开S1都用不一定用得上万兆网卡吧。 ...</span><br>
+<span>对外百兆千兆，对内万兆，对本机应用(不算内核中转)内存带宽，就是很正常的层级划分</span><br>
+<span>家用和论坛网络服务器没什么可比的，应用又不在一个层面上，觉得服务器需求会各方面超越家用是很不理智的思考方式，这只会让你对家用设备比服务器强的实例产生认知失调</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>问下既然是桌面级设备跑路由，那lede/openwrt相比起一般的非专业路由应用的linux系统有什么特殊的点呢？除了开箱即用的话 </span><br>
+</p><p><b>bill基: </b><br>
+<span>糊状物 发表于 2019-5-19 11:23</span><br>
+<span>我觉得纯跑软路由就不会去装什么lede了，装lede的都是用来折腾玩的吧。</span><br>
+<span>反了吧</span><br>
+<span>纯跑软路由LEDE是最佳选择吧，刷上填个拨号账号就能用了，比爱快还简单</span><br>
+</p><p><b>BRRM: </b><br>
+<span>qwased 发表于 2019-5-19 06:43</span><br>
+<span>你对折腾爱好者是不是有什么误解</span><br>
+<span>dq77kb现在一样能买到，上个2500s怎么了</span><br>
+<span>往x299 x399上面插万兆卡当路由 ...</span><br>
+<span>说说，dq77kb多少钱？</span><br>
+</p><p><b>magpte: </b><br>
+<span>BRRM 发表于 2019-5-19 13:33</span><br>
+<span>说说，dq77kb多少钱？</span><br>
+<span>淘宝独一家还要500+</span><br>
+</p><p><b>糊状物: </b><br>
+<span>bill基 发表于 2019-5-19 12:49</span><br>
+<span>反了吧</span><br>
+<span>纯跑软路由LEDE是最佳选择吧，刷上填个拨号账号就能用了，比爱快还简单 ...</span><br>
+<span>panabit、爱快、高恪是专业做软路由的，是面向真正要带大量终端需求的，主要就是流控、认证、计费之类，对个人、几个人使用没什么可玩性。</span><br>
+<span>而lede不就是个人或家庭装各种插件折腾着用来玩的吗.</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>最重要的是功耗</span><br>
+</p><p><b>遗尿: </b><br>
+<span>如果软路由要支撑1000人左右，要什么样的CPU？高频I3能么？</span><br>
+</p><p><b>qwased: </b><br>
+<span>遗尿 发表于 2019-5-19 21:47</span><br>
+<span>如果软路由要支撑1000人左右，要什么样的CPU？高频I3能么？</span><br>
+<span>搞不了，X86软路由没有那么强的包转发能力</span><br>
+<span>建议上mikrotik</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832566[0-50]</guid>
+    </item>
+  </channel>
+</rss>

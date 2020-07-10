@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ntoskrnl进程导致dpc延迟过高会是1903的锅么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ntoskrnl进程导致dpc延迟过高会是1903的锅么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:12:57 +0000</lastBuildDate>
+    <item>
+      <title>ntoskrnl进程导致dpc延迟过高会是1903的锅么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835244-1-1.html</link>
+      <description>ntoskrnl进程导致dpc延迟过高会是1903的锅么&#13;
+
+&#13;
+换了两台电脑一台E5 一台I5 8400   装的同样的1903系统    都出现这个情况   突然性的延迟暴涨
+&#13;
+音频系统会出现爆音</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>ntoskrnl进程导致dpc延迟过高会是1903的锅么</span><br>
+<span>换了两台电脑一台E5 一台I5 8400   装的同样的1903系统    都出现这个情况   突然性的延迟暴涨</span><br>
+<span>音频系统会出现爆音</span><br>
+</p><p><b>ft5555: </b><br>
+</p><p><b>starash: </b><br>
+<span>我LTSC1809也这样, 用win10就不要想那么多了, 不蓝屏不掉驱动更新不滚回就已经阿弥陀佛了</span><br>
+<span>什么音频爆音, 蓝牙两三天要没一次, 如果用休眠而不是关机就卡得很之类问题都已经不算事了. </span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>starash 发表于 2019-6-27 08:54</span><br>
+<span>我LTSC1809也这样, 用win10就不要想那么多了, 不蓝屏不掉驱动更新不滚回就已经阿弥陀佛了</span><br>
+<span>什么音频爆音, 蓝 ...</span><br>
+<span>同台电脑我回退1809 没有任何问题</span><br>
+</p><p><b>starash: </b><br>
+<span>观铃の使魔 发表于 2019-6-27 09:04</span><br>
+<span>同台电脑我回退1809 没有任何问题</span><br>
+<span>但是按微软自己的说法这个feature是从1803开始的... </span><br>
+<span>玄学的问题要用玄学的处理方式. </span><br>
+<span>我不太理解你们为啥非要更新到最新版本呢? 测试人员? 折腾爱好者? </span><br>
+<span>还是最新版本有啥直击好球带的强力功能? </span><br>
+</p><p><b>typeunknown: </b><br>
+<span>更完就不跳更新提示一了百了</span><br>
+<span>除了资源管理器换个图标以及小娜和搜索分家以外完全不知道有什么新东西</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>starash 发表于 2019-6-27 09:08</span><br>
+<span>但是按微软自己的说法这个feature是从1803开始的... </span><br>
+<span>玄学的问题要用玄学的处理方式. </span><br>
+<span>我不太理解你们为 ...</span><br>
+<span>推荐你混远景论坛 你就理解了啊    </span><br>
+<span>最新的测试系统最新的驱动软件用最新版本 没事就刷刷BIOS重装下系统</span><br>
+</p><p><b>starash: </b><br>
+<span>观铃の使魔 发表于 2019-6-27 09:37</span><br>
+<span>推荐你混远景论坛 你就理解了啊    </span><br>
+<span>最新的测试系统最新的驱动软件用最新版本 没事就刷刷BIOS重装 ...</span><br>
+<span>就是折腾党呗, 那不用多说了, 有过. </span><br>
+</p><p><b>bm7号: </b><br>
+<span>1903 7700k</span><br>
+<span>血污+bilibili客户端15分钟dxgkrnl.sys最高1500多</span><br>
+<span>声卡是XMOS异步方案的oppo ha-1，没有爆音</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>bm7号 发表于 2019-6-27 19:52</span><br>
+<span>1903 7700k</span><br>
+<span>血污+bilibili客户端15分钟dxgkrnl.sys最高1500多</span><br>
+<span>声卡是XMOS异步方案的oppo ha-1，没有爆音 ...</span><br>
+<span>我的也是XMOS方案ASIO最低缓存模式 其实也没爆音</span><br>
+<span>但是这个DPC测试确实是有问题的的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835244[0-50]</guid>
+    </item>
+  </channel>
+</rss>

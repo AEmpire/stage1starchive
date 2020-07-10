@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>系统假死，求分析</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>系统假死，求分析</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:47:57 +0000</lastBuildDate>
+    <item>
+      <title>系统假死，求分析[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917007-1-1.html</link>
+      <description>系统假死，求分析&#13;
+间歇性卡死，鼠标能动，按CAPS键时灯能正常响应
+&#13;
+按CTRL+ALT+DEL没反应
+&#13;
+大约3分钟左右以后会自行恢复，这时候之前按过的CTRL+ALT+DEL会生效
+&#13;
+这种一般是什么原因导致的？</description>
+      <content:encoded><![CDATA[<p><b>mirari: </b><br>
+<span>系统假死，求分析</span><br>
+<span>间歇性卡死，鼠标能动，按CAPS键时灯能正常响应</span><br>
+<span>按CTRL+ALT+DEL没反应</span><br>
+<span>大约3分钟左右以后会自行恢复，这时候之前按过的CTRL+ALT+DEL会生效</span><br>
+<span>这种一般是什么原因导致的？</span><br>
+</p><p><b>紫苑寺友子: </b><br>
+<span>重装系统解决所有问题</span><br>
+<span>第二嫌疑人是硬盘</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mirari: </b><br>
+<span> 本帖最后由 mirari 于 2020-3-3 21:25 编辑 </span><br>
+<span>卡死的时间点附近，有事件日志如下</span><br>
+<span>日志名称:          System</span><br>
+<span>来源:            iaStorA</span><br>
+<span>日期:            2020/3/3 21:19:27</span><br>
+<span>事件 ID:         129</span><br>
+<span>任务类别:          无</span><br>
+<span>级别:            警告</span><br>
+<span>关键字:         经典</span><br>
+<span>用户:            暂缺</span><br>
+<span>描述:</span><br>
+<span>发出了对设备 \Device\RaidPort0 的重置。</span><br>
+<span>日志名称:          Application</span><br>
+<span>来源:            ESENT</span><br>
+<span>日期:            2020/3/3 21:17:40</span><br>
+<span>事件 ID:         533</span><br>
+<span>任务类别:          常规</span><br>
+<span>级别:            警告</span><br>
+<span>关键字:         经典</span><br>
+<span>用户:            暂缺</span><br>
+<span>描述:</span><br>
+<span>svchost (11480,D,0) Unistore: 在文件“C:\Users\AppData\Local\Comms\UnistoreDB\store.vol”中偏移量 1990656 (0x00000000001e6000) 写入 4096 (0x00001000) 字节的请求在 36 秒内未完成。此问题可能是因硬件故障引起的。请与硬件供应商联系，寻求进一步的问题诊断帮助。</span><br>
+</p><p><b>mirari: </b><br>
+<span>系统是win10</span><br>
+<span>C盘是PLEXTOR PX-256M5P，smart目测没有明显异常啊</span><br>
+<span>ID        描述        临界值        当前值        最差值        数据        状态</span><br>
+<span>01        Raw Read Error Rate        70        100        100        0        良好：值正常</span><br>
+<span>05        Re-allocated Sector Count        0        100        100        0        良好：持续正常</span><br>
+<span>09        Power-On Hours Count        0        100        100        7286        良好：持续正常</span><br>
+<span>0C        Power Cycle Count        0        100        100        2569        良好：持续正常</span><br>
+<span>B1        Wear Leveling Count        0        100        100        183045        良好：持续正常</span><br>
+<span>B2        Used Reserved Block Count (Worst Case)        0        100        100        0        良好：持续正常</span><br>
+<span>B5        Program Fail Count (Total)        0        100        100        0        良好：持续正常</span><br>
+<span>B6        Erase Fail Count (Total)        0        100        100        0        良好：持续正常</span><br>
+<span>BB        Uncorrectable Error Count        0        100        100        0        良好：持续正常</span><br>
+<span>C0        Unsafe Shutdown Count        0        100        100        187        良好：持续正常</span><br>
+<span>C4        Re-allocated Event Count        0        100        100        0        良好：持续正常</span><br>
+<span>C6        Off-line Uncorrectable Error Count        0        100        100        0        良好：持续正常</span><br>
+<span>C7        CRC Error Count        0        100        100        0        良好：持续正常</span><br>
+<span>E8        Available Reserved Space        10        100        100        0        良好：值正常</span><br>
+<span>F1        Total LBAs Written        0        100        100        17.73 TB        良好：持续正常</span><br>
+<span>F2        Total LBAs Read        0        100        100        18.29 TB        良好：持续正常</span><br>
+</p><p><b>風駿: </b><br>
+<span>驱动问题可能性比较高，先重装一遍喽</span><br>
+</p><p><b>mirari: </b><br>
+<span>发现我在2013年已经问过一次这个问题了</span><br>
+<span>http://www.pceva.com.cn/thread-79768-1-1.html</span><br>
+<span>当时卸载了IRST解决，这次win10没装IRST啊</span><br>
+</p><p><b>last_crusader: </b><br>
+<span>我的系统假死是通常待机一段时间后开始玩大型游戏，然后卡定，过一会恢复，但是会出现无法输入文字，系统图标掉字的问题</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917007[0-50]</guid>
+    </item>
+  </channel>
+</rss>

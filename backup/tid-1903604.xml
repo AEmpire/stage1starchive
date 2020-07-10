@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>5700xt帧生成时间总是波动（通过关闭增强同步解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>5700xt帧生成时间总是波动（通过关闭增强同步解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:16:51 +0000</lastBuildDate>
+    <item>
+      <title>5700xt帧生成时间总是波动（通过关闭增强同步解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903604-1-1.html</link>
+      <description>5700xt帧生成时间总是波动（通过关闭增强同步解决）&#13;
+ 本帖最后由 伊克路西安 于 2019-12-30 00:00 编辑 
+
+双11买的，26号开始玩游戏
+&#13;
+之前通只狼的时候，4K全最高平均帧大概有55帧左右，但是时不时的帧生成就会波动一段时间，一般会伴随着GPU核心频率和使用率暴跌。
+&#13;
+起初我以为是只狼优化问题，搜了下“只狼 帧生成时间”也有媒体说只狼在主机平台的帧生成时间糟糕
+&#13;
+这两天开始玩生化2，发现生化2里也有这毛病，4K分辨率，调低了阴影、AO、 体积光。大部分时间帧数和帧生成时间都很稳，但是总是来那么一下就很难受
+&#13;
+试着调成2K，也有这毛病，最后还是调回4K继续玩了
+&#13;
+https://tva2.sinaimg.cn/large/005N28QLly1g9zu3a8lm2j32yo1o0qit.jpg
+&#13;
+https://tvax3.sinaimg.cn/large/005N28QLly1g9zu39yk4oj31z4140qdr.jpg
+&#13;
+https://tva3.sinaimg.cn/large/005N28QLly1g9zu3a4efcj32yo1o07tk.jpg
+&#13;
+左上角的帧生成时间图可以看到一直在波动，实际感受就是一卡一卡的，正常情况下60帧，应该是16.7ms的帧生成时间很稳定，但是这个波动的时候，帧数不掉，帧生成时间会涨到30-50，实际上流畅度可能就20帧的水平。而且正常情况下帧数x帧生成时间应该约为1秒，波动的时候乘起来都2-3秒了
+&#13;
+之前玩只狼的时候，驱动版本是从19.11.3更新到19.12.1，DX11。玩生化2的驱动是最新的19.12.2，DX12。
+&#13;
+https://tvax3.sinaimg.cn/large/005N28QLly1g9zu3ff8wmj32mm0zaneo.jpg
+&#13;
+平均帧有57，但是有1%以上的帧生成时间明显过高
+&#13;
+https://tva1.sinaimg.cn/large/005N28QLly1g9zu3f8u24j30qp13yq5i.jpg
+&#13;
+1. CPU，3600 1.3375v 4100mhz，CPU基本上玩游戏的时候打不到50度，使用率大概也就20%，我定压锁频设置的很保守，应该没问题
+&#13;
+2. 内存，16gX2 1.37v 3600mhz 16-18-19-19-36-56，aida64延迟大概在68.5-70之间，视内存负载波动，1.35v的时候基本上就能跑过memtest4.3 200%，图个稳拉到1.37v，应该也没问题，打游戏的时候内存使用量应该也不会超过50%
+&#13;
+3. 硬盘，c2000pro 1tb 也有考虑过是不是磁盘占用100%造成读盘卡顿，但是hd tune跑了下全盘读取，基本上600-800MB/s，用小飞机监视了下，基本上全程0%。。偶尔1%，截图里也能看出来，硬盘使用率0%非常稳。生化2这游戏难道不读盘吗
+&#13;
+4. 显存，显存基本上也就5G-6G的使用，应该也没爆显存啊
+&#13;
+5. 感觉只能是GPU问题了，之前只狼有GPU使用率暴跌的问题，但是生化2优化应该是比较好的，基本上全程99%的占用，但就是这样还是会帧生成波动
+&#13;
+说是显卡性能问题吗，明明平均帧都快60了，帧生成时间波动的时候帧数也没降，就很奇怪
+&#13;
+开了free sync和增强同步，不开freesync40-60帧有撕裂，不开增强同步40帧以下60帧以上有撕裂，就很难受</description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>5700xt帧生成时间总是波动（通过关闭增强同步解决）</span><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-30 00:00 编辑 </span><br>
+<span>双11买的，26号开始玩游戏</span><br>
+<span>之前通只狼的时候，4K全最高平均帧大概有55帧左右，但是时不时的帧生成就会波动一段时间，一般会伴随着GPU核心频率和使用率暴跌。</span><br>
+<span>起初我以为是只狼优化问题，搜了下“只狼 帧生成时间”也有媒体说只狼在主机平台的帧生成时间糟糕</span><br>
+<span>这两天开始玩生化2，发现生化2里也有这毛病，4K分辨率，调低了阴影、AO、 体积光。大部分时间帧数和帧生成时间都很稳，但是总是来那么一下就很难受</span><br>
+<span>试着调成2K，也有这毛病，最后还是调回4K继续玩了</span><br>
+<img src="https://tva2.sinaimg.cn/large/005N28QLly1g9zu3a8lm2j32yo1o0qit.jpg" title="https://tva2.sinaimg.cn/large/005N28QLly1g9zu3a8lm2j32yo1o0qit.jpg"><br>
+<img src="https://tvax3.sinaimg.cn/large/005N28QLly1g9zu39yk4oj31z4140qdr.jpg" title="https://tvax3.sinaimg.cn/large/005N28QLly1g9zu39yk4oj31z4140qdr.jpg"><br>
+<img src="https://tva3.sinaimg.cn/large/005N28QLly1g9zu3a4efcj32yo1o07tk.jpg" title="https://tva3.sinaimg.cn/large/005N28QLly1g9zu3a4efcj32yo1o07tk.jpg"><br>
+<span>左上角的帧生成时间图可以看到一直在波动，实际感受就是一卡一卡的，正常情况下60帧，应该是16.7ms的帧生成时间很稳定，但是这个波动的时候，帧数不掉，帧生成时间会涨到30-50，实际上流畅度可能就20帧的水平。而且正常情况下帧数x帧生成时间应该约为1秒，波动的时候乘起来都2-3秒了</span><br>
+<span>之前玩只狼的时候，驱动版本是从19.11.3更新到19.12.1，DX11。玩生化2的驱动是最新的19.12.2，DX12。</span><br>
+<img src="https://tvax3.sinaimg.cn/large/005N28QLly1g9zu3ff8wmj32mm0zaneo.jpg" title="https://tvax3.sinaimg.cn/large/005N28QLly1g9zu3ff8wmj32mm0zaneo.jpg"><br>
+<span>平均帧有57，但是有1%以上的帧生成时间明显过高</span><br>
+<img src="https://tva1.sinaimg.cn/large/005N28QLly1g9zu3f8u24j30qp13yq5i.jpg" title="https://tva1.sinaimg.cn/large/005N28QLly1g9zu3f8u24j30qp13yq5i.jpg"><br>
+<span>1. CPU，3600 1.3375v 4100mhz，CPU基本上玩游戏的时候打不到50度，使用率大概也就20%，我定压锁频设置的很保守，应该没问题</span><br>
+<span>2. 内存，16gX2 1.37v 3600mhz 16-18-19-19-36-56，aida64延迟大概在68.5-70之间，视内存负载波动，1.35v的时候基本上就能跑过memtest4.3 200%，图个稳拉到1.37v，应该也没问题，打游戏的时候内存使用量应该也不会超过50%</span><br>
+<span>3. 硬盘，c2000pro 1tb 也有考虑过是不是磁盘占用100%造成读盘卡顿，但是hd tune跑了下全盘读取，基本上600-800MB/s，用小飞机监视了下，基本上全程0%。。偶尔1%，截图里也能看出来，硬盘使用率0%非常稳。生化2这游戏难道不读盘吗</span><br>
+<span>4. 显存，显存基本上也就5G-6G的使用，应该也没爆显存啊</span><br>
+<span>5. 感觉只能是GPU问题了，之前只狼有GPU使用率暴跌的问题，但是生化2优化应该是比较好的，基本上全程99%的占用，但就是这样还是会帧生成波动</span><br>
+<span>说是显卡性能问题吗，明明平均帧都快60了，帧生成时间波动的时候帧数也没降，就很奇怪</span><br>
+<span>开了free sync和增强同步，不开freesync40-60帧有撕裂，不开增强同步40帧以下60帧以上有撕裂，就很难受</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>开了anti-lag？新驱动我的显卡开了会掉帧amd一如既往的bug多</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>共谍常凯申 发表于 2019-12-17 17:34</span><br>
+<span>开了anti-lag？新驱动我的显卡开了会掉帧amd一如既往的bug多</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, And ...</span><br>
+<span>没开，我不打竞技游戏不开那个</span><br>
+</p><p><b>melvin95: </b><br>
+<span>你们每天这样让按摩店不好看你们的良心不会疼吗</span><br>
+<span>都说了很便宜就是了</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>snowind1989: </b><br>
+<span>白金57xt表示之前玩无主之地3 在一些并不是很复杂的场景下站着不动 主频和帧率突然抖降然后又回升 感觉是不是碰到温度功耗墙了 相当迷 不过画质全高1080p下绝大部分时间能稳100fps+还凑合了 之前的1070ti 超2050mhz稳70fps都难 温度还直逼83度</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>melvin95 发表于 2019-12-17 19:01</span><br>
+<span>你们每天这样让按摩店不好看你们的良心不会疼吗</span><br>
+<span>都说了很便宜就是了</span><br>
+<span>买它就是图个便宜啊，要是加200就能买到24期免息的2070s我就不买57xt了</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-12-17 21:31 编辑 </span><br>
+<span>3700x，仅开启pbo，微星b450m迫击炮max最新bios，</span><br>
+<span>芝奇三叉戟3200c14超到3800c15，trfc270</span><br>
+<span>系统是win10，1909专业版，</span><br>
+<span>驱动amd官网的主板驱动和amd显卡驱动。其他win10自动更新。</span><br>
+<span>什么国产软件都没有，系统没做任何优化，</span><br>
+<span>关闭了uac和defender</span><br>
+<span>我一堆后台，也没啥卡顿的。</span><br>
+<span>特效全开4k，关闭动态模糊。开局第一个boss后面的区域</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-12-17 21:34 编辑 </span><br>
+<span>对了。。。我的5700xt公版，设了2000mhz，1.2v最高。40%风扇最高转速下，控制住了最高大约90度。</span><br>
+<span>硬盘是西数sn500，游戏在日立8T上面。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>litel 发表于 2019-12-17 21:30</span><br>
+<span>3700x，仅开启pbo，微星b450m迫击炮max最新bios，</span><br>
+<span>芝奇三叉戟3200c14超到3800c15，trfc270</span><br>
+<span>系统是win10，19 ...</span><br>
+<span>你的驱动版本是19.12.2吗</span><br>
+<span>有开free sync </span><br>
+<span>enhanced sync吗</span><br>
+</p><p><b>litel: </b><br>
+<span>伊克路西安 发表于 2019-12-17 21:36</span><br>
+<span>你的驱动版本是19.12.2吗</span><br>
+<span>有开free sync </span><br>
+<span>enhanced sync吗</span><br>
+<span>是的，19.12.2freesync，gpu缩放，整数缩放，增强同步开了</span><br>
+<span>antilag没开，antilag开了玩dota2卡顿。。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>litel 发表于 2019-12-17 21:33</span><br>
+<span>对了。。。我的5700xt公版，设了2000mhz，1.2v最高。40%风扇最高转速下，控制住了最高大约90度。</span><br>
+<span>= =我是1.05v 1950mhz 风扇1550转</span><br>
+<span>CPU差距应该不是问题所在。。内存延迟比你的高了不少，但是差距有那么大吗。。</span><br>
+<span>你这是三星B-DIE吧</span><br>
+<span>你说的第一个BOSS是哪个。。赤鬼？我记得是有火的地方卡一点</span><br>
+<span>系统1909 企业版，国产软件除了一个TIM没别的了。。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-17 21:50 编辑 </span><br>
+<span>litel 发表于 2019-12-17 21:38</span><br>
+<span>是的，19.12.2freesync，gpu缩放，整数缩放，增强同步开了</span><br>
+<span>antilag没开，antilag开了玩dota2卡顿。。</span><br>
+<span> ...</span><br>
+<span>对了，你在任务管理器-性能里，GPU那里，有共享内存吗，还有内存那边的已缓存多少= =？</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-12-17 21:57 编辑 </span><br>
+<span>伊克路西安 发表于 2019-12-17 21:42</span><br>
+<span>= =我是1.05v 1950mhz 风扇1550转</span><br>
+<span>CPU差距应该不是问题所在。。内存延迟比你的高了不少，但是差距有那么 ...</span><br>
+<span>1.05v有可能电压不足，试试1.2v1900或1.2v2000吧。</span><br>
+<span>风扇就让它转吧，又不给电它又想让它跑是不可能的。。</span><br>
+<span>是b-die。。。</span><br>
+<span>有的</span><br>
+<span>系统方面全默认，这些也都无所谓吧。</span><br>
+</p><p><b>litel: </b><br>
+<span>内存电压1.45v，</span><br>
+<span>就是gdb关闭bsg关闭，跑1t，</span><br>
+<span>然后15，15，15，30，45，270</span><br>
+<span>其他都没动。</span><br>
+<span>那个trfc对延迟影响很大。可以调下试试。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>litel 发表于 2019-12-17 21:55</span><br>
+<span>内存电压1.45v，</span><br>
+<span>就是gdb关闭bsg关闭，跑1t，</span><br>
+<span>然后15，15，15，30，45，270</span><br>
+<span>之前折腾了一会内存的，我这边双面颗粒CJR也就能压到66.*，还过不了memtest，真超3800C16，压tRFC，大概也就1-2ns的提升。。</span><br>
+<span>而且延迟跟CPU主频也有点关系。。我这边锁4100所以会低一些</span><br>
+</p><p><b>litel: </b><br>
+<span>伊克路西安 发表于 2019-12-17 21:58</span><br>
+<span>之前折腾了一会内存的，我这边双面颗粒CJR也就能压到66.*，还过不了memtest，真超3800C16，压tRFC，大概 ...</span><br>
+<span>之前用6700k那时候收的二手三叉戟，bdie还是强啊。。</span><br>
+</p><p><b>doremifasol: </b><br>
+<span>3700X 锁4.4 电压1.4 ，内存频率3200C16 ，5700XT 驱动19.12.2，STANDARD模式 ，玩只狼也是同样情况，游戏系统都是在一个2t的NVME固态了里边，另一个平台99KF 锁5.3关闭HT电压1.3，内存频率4000C16，1080驱动430，没有这种情况很顺滑，玩游戏果然还是英特尔。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>doremifasol 发表于 2019-12-17 22:50</span><br>
+<span>3700X 锁4.4 电压1.4 ，内存频率3200C16 ，5700XT 驱动19.12.2，STANDARD模式 ，玩只狼也是同样情况，游戏 ...</span><br>
+<span>难道不是英伟达吗</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>melvin95: </b><br>
+<span>伊克路西安 发表于 2019-12-17 20:29</span><br>
+<span>买它就是图个便宜啊，要是加200就能买到24期免息的2070s我就不买57xt了</span><br>
+<span> ...</span><br>
+<span>阿三味驱动，无价</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>wifi王道: </b><br>
+<span>以前老的cpu+主办也这样。换了新的之后就没遇到过</span><br>
+</p><p><b>litel: </b><br>
+<span>doremifasol 发表于 2019-12-17 22:50</span><br>
+<span>3700X 锁4.4 电压1.4 ，内存频率3200C16 ，5700XT 驱动19.12.2，STANDARD模式 ，玩只狼也是同样情况，游戏 ...</span><br>
+<span>cpu别锁压锁频。</span><br>
+<span>试试恢复默认+仅开启pbo</span><br>
+<span>显卡试试调1.2v1900mhz或者1.2v2000mhz</span><br>
+<span>玩的时候后台全退掉，有国产软件全卸载，再看看。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-30 00:01 编辑 </span><br>
+<span>挖一下 生化2之前已经打通了，关闭增强同步没有再遇到过持续性帧生成时间波动的问题</span><br>
+<span>https://www.blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/</span><br>
+<span>根据这个网站的说法，快速垂直同步/增强同步技术实际上在两倍于显示器刷新率的帧率上才会比较好的表现，和amd宣传页上的专注低帧率优化不一样。</span><br>
+<span>freesync显示器在锁60帧时仍然可能会出现撕裂，用rtss将帧率锁定在57是比较稳妥的选择，也可以58-59，但是可能会出现一些撕裂。</span><br>
+<span>而ew3270u的freesync下限实际上应该是43，更低帧时显示器刷新率会调整到60。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903604[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】请教word中的表格如何批量导入大量数据</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】请教word中的表格如何批量导入大量数据</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:11:09 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】请教word中的表格如何批量导入大量数据[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913969-1-1.html</link>
+      <description>请教word中的表格如何批量导入大量数据&#13;
+word文档是上级给的,表格格式是固定的，不能改
+&#13;
+数据在Access文件(mdb)的一个表里,几千条记录,但不是所有字段都需要
+&#13;
+只要选择其中几个字段,把数据全都导到word的表格里
+&#13;
+有什么方便的办法吗
+&#13;
+如果用VBA的话，哪里有word对象方法的文档，最好有word表格操作的实例
+&#13;
+很久没写VBA了，最好有其他方法。。。</description>
+      <content:encoded><![CDATA[<p><b>永不加赋: </b><br>
+<span>请教word中的表格如何批量导入大量数据</span><br>
+<span>word文档是上级给的,表格格式是固定的，不能改</span><br>
+<span>数据在Access文件(mdb)的一个表里,几千条记录,但不是所有字段都需要</span><br>
+<span>只要选择其中几个字段,把数据全都导到word的表格里</span><br>
+<span>有什么方便的办法吗</span><br>
+<span>如果用VBA的话，哪里有word对象方法的文档，最好有word表格操作的实例</span><br>
+<span>很久没写VBA了，最好有其他方法。。。</span><br>
+</p><p><b>bonnwang: </b><br>
+<span>先到excel</span><br>
+<span>编辑完粘到Word？</span><br>
+</p><p><b>永不加赋: </b><br>
+<span>bonnwang 发表于 2020-2-15 16:06</span><br>
+<span>先到excel</span><br>
+<span>编辑完粘到Word？</span><br>
+<span>粘帖过去，word的格式就不对了</span><br>
+</p><p><b>neverer: </b><br>
+<span>要我操作肯定是先搞到excel筛选</span><br>
+</p><p><b>马桶3: </b><br>
+<span>word的格式调整起来总比你手打数据快不是么</span><br>
+</p><p><b>永不加赋: </b><br>
+<span>neverer 发表于 2020-2-15 16:09</span><br>
+<span>要我操作肯定是先搞到excel筛选</span><br>
+<span>这我也会，筛选完了呢，怎么把数据导入到word中的表格里啊。。。</span><br>
+</p><p><b>bdangel1984: </b><br>
+<span>excel的格式调成和WORD一样啊</span><br>
+</p><p><b>neverer: </b><br>
+<span>永不加赋 发表于 2020-2-15 16:12</span><br>
+<span>这我也会，筛选完了呢，怎么把数据导入到word中的表格里啊。。。</span><br>
+<span>你调整excel表格样式和word一样不就好了，你也可以先把word的表格放到excel里，填**再粘回去，反正word里面调表格我真搞不好</span><br>
+</p><p><b>Zwei222: </b><br>
+<span>先用录制宏手打几个，看看生成的代码怎么样，再在生成的代码基础上面改？</span><br>
+<span>瞎猜的，不一定可行</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>fat: </b><br>
+<span>neverer 发表于 2020-2-15 16:19</span><br>
+<span>你调整excel表格样式和word一样不就好了，你也可以先把word的表格放到excel里，填**再粘回去，反正word里 ...</span><br>
+<span>我猜楼主的是机关单位的任务吧，</span><br>
+<span>机关单位的表格就喜欢用word，我也想知道为什么……</span><br>
+</p><p><b>macos: </b><br>
+<span>自带的功能的话，这是邮件合并</span><br>
+</p><p><b>风引翼在天: </b><br>
+<span>fat 发表于 2020-2-15 19:09</span><br>
+<span>我猜楼主的是机关单位的任务吧，</span><br>
+<span>机关单位的表格就喜欢用word，我也想知道为什么…… ...</span><br>
+<span>比excel适合打印出来</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>用word看几千行记录…</span><br>
+<span>这需求本身有问题吧，这样做真的满足实际使用要求？一知半解的领导特别喜欢这样满足上面的任务</span><br>
+<span>就不能写个简单的数据表页面绑定数据，旁边加个导出页面成word的功能？</span><br>
+<span>实在不行还是导出csv后用excel打开筛选后复制过去</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>人类: </b><br>
+<span>会提出用word看几千行数据的人，分辨不出来excel复制过来的同格式内容。</span><br>
+</p><p><b>永不加赋: </b><br>
+<span>macos 发表于 2020-2-15 19:18</span><br>
+<span>自带的功能的话，这是邮件合并</span><br>
+<span>百度了一下，到最后一步出问题，只能导出一条数据，不知道哪里不对，只能选择一条导入</span><br>
+<span>但是发现在IE下js可以操作word，得救了</span><br>
+<span>js我手熟，已经搞定</span><br>
+<span>感谢IE，感谢MS</span><br>
+</p><p><b>红区骑士: </b><br>
+<span>可以尝试一下先用Excel编辑，粘贴的时候选择只粘贴数值，这样格式就不会被带到Word里面……至少wps能这么操作</span><br>
+</p><p><b>古代人皮克: </b><br>
+<span>把excel的内容保存成图片插入到word里面去</span><br>
+</p><p><b>高数: </b><br>
+<span>excel存成html再用word打开，我不懂我乱说的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913969[0-50]</guid>
+    </item>
+  </channel>
+</rss>

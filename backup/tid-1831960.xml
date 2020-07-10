@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有什么好方法快速提高权限吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有什么好方法快速提高权限吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:33:06 +0000</lastBuildDate>
+    <item>
+      <title>有什么好方法快速提高权限吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831960-1-1.html</link>
+      <description>有什么好方法快速提高权限吗？&#13;
+说起来这论坛有什么快速提高积分的方法吗？还有节操有什么用啊？</description>
+      <content:encoded><![CDATA[<p><b>萌萌未来: </b><br>
+<span>有什么好方法快速提高权限吗？</span><br>
+<span>说起来这论坛有什么快速提高积分的方法吗？还有节操有什么用啊？</span><br>
+</p><p><b>yych0611: </b><br>
+<span>氪金，去s1淘宝，氪个1000，然后让客服给你加分加权限</span><br>
+</p><p><b>huruii7: </b><br>
+<span>无他，唯摸鱼耳</span><br>
+</p><p><b>萌萌未来: </b><br>
+<span>那节操到底有什么用？只能用来换咸鱼吗？</span><br>
+</p><p><b>小小陌路人: </b><br>
+<span>钓鱼当troll</span><br>
+</p><p><b>大哀之君: </b><br>
+<span>写精品贴一篇五千</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>maik本命: </b><br>
+<span>连摸鱼都不够尽力，还上什么泥潭？</span><br>
+</p><p><b>余风: </b><br>
+<span>摸鱼，摸着摸着就到圣者了虽然我不是</span><br>
+<span>—— 来自 smartisan SM901, Android 6.0.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>萌萌未来: </b><br>
+<span>就是说只能靠在线时间上去了吗？好吧，摸，慢慢摸</span><br>
+</p><p><b>fescn3: </b><br>
+<span>钱能解决一切</span><br>
+</p><p><b>民工业: </b><br>
+<span>氪金</span><br>
+</p><p><b>StarBlazers: </b><br>
+<span>话说官球摸鱼是不是不能提高积分啊</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Opportunity: </b><br>
+<span>脚本挂机很容易的。。</span><br>
+<span>准备好cookie，20分钟wget一发主页就行了</span><br>
+</p><p><b>Opportunity: </b><br>
+<span>#!/bin/zsh</span><br>
+<span>rm -f forum.php;</span><br>
+<span>while : ;</span><br>
+<span>do wget --load-cookies s1cookie.txt --keep-session-cookies --save-cookies s1cookie.txt "https://bbs.saraba1st.com/2b/forum.php" -w30 -T30 -t3 --random-wait;</span><br>
+<span>sleep 500;</span><br>
+<span>rm -f forum.php;</span><br>
+<span>done;</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831960[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>联排组网无线扩展 求方案</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>联排组网无线扩展 求方案</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:23:09 +0000</lastBuildDate>
+    <item>
+      <title>联排组网无线扩展 求方案[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902576-1-1.html</link>
+      <description>联排组网无线扩展 求方案&#13;
+联排中间户，总共5层，客厅和花园都在一二层之间只有r7000一台在三楼高度的天井里（垂直高度基本在整楼中央，横向位置比较靠大门一侧，离花园一侧比较远），接到弱电箱的光猫进行PPPoE验证上网
+&#13;
+现在发现四楼靠花园一侧、二楼靠大门附近信号很差，五楼、客厅靠花园一侧、花园以及一楼（车库和入户门）基本上没有信号，因此现在想把这几个信号糟糕的地方覆盖上，尤其是客厅和花园
+&#13;
+由于装修时失误，只在客厅与书房（四楼靠大门一侧）留了网口，都是接到弱电箱的，想着只能将就这两个网口扩展
+&#13;
+还有就是入户是接的电信带IPTV的，一定要在客厅能用上IPTV以及有线（接游戏主机）
+&#13;
+等于说现在是有两个问题：1、客厅只有一个网口，但是要同时接入IPTV和有线网络；2、全屋无线覆盖无缝切换
+&#13;
+现在我想的方案：
+&#13;
+第一个问题，在弱电箱将IPTV和路由器的LAN口同时接入交换机，然后将交换机接到客厅里的交换机，再用分别接IPTV和网络扩展，不知道这样可行不？（我觉得IPTV和网络分属于两个网段应该不会冲突吧）
+&#13;
+第二个问题，现在试过用一个老路由器（11年的Buffalo，刷了dd-wrt）设置到无线交换机模式（禁用WAN并设置为交换口，将路由器设置一个固定IP），但是效果很差，能连上能ping通外网但是网页打不开，是路由器太老了还是其它什么原因？
+&#13;
+现在看上了网件的ex7500，不知道有没有在一个主路由下搭配两个这种扩展器使用的先例，另外使用稳定性怎么样？</description>
+      <content:encoded><![CDATA[<p><b>kimibsb: </b><br>
+<span>联排组网无线扩展 求方案</span><br>
+<span>联排中间户，总共5层，客厅和花园都在一二层之间只有r7000一台在三楼高度的天井里（垂直高度基本在整楼中央，横向位置比较靠大门一侧，离花园一侧比较远），接到弱电箱的光猫进行PPPoE验证上网</span><br>
+<span>现在发现四楼靠花园一侧、二楼靠大门附近信号很差，五楼、客厅靠花园一侧、花园以及一楼（车库和入户门）基本上没有信号，因此现在想把这几个信号糟糕的地方覆盖上，尤其是客厅和花园</span><br>
+<span>由于装修时失误，只在客厅与书房（四楼靠大门一侧）留了网口，都是接到弱电箱的，想着只能将就这两个网口扩展</span><br>
+<span>还有就是入户是接的电信带IPTV的，一定要在客厅能用上IPTV以及有线（接游戏主机）</span><br>
+<span>等于说现在是有两个问题：1、客厅只有一个网口，但是要同时接入IPTV和有线网络；2、全屋无线覆盖无缝切换</span><br>
+<span>现在我想的方案：</span><br>
+<span>第一个问题，在弱电箱将IPTV和路由器的LAN口同时接入交换机，然后将交换机接到客厅里的交换机，再用分别接IPTV和网络扩展，不知道这样可行不？（我觉得IPTV和网络分属于两个网段应该不会冲突吧）</span><br>
+<span>第二个问题，现在试过用一个老路由器（11年的Buffalo，刷了dd-wrt）设置到无线交换机模式（禁用WAN并设置为交换口，将路由器设置一个固定IP），但是效果很差，能连上能ping通外网但是网页打不开，是路由器太老了还是其它什么原因？</span><br>
+<span>现在看上了网件的ex7500，不知道有没有在一个主路由下搭配两个这种扩展器使用的先例，另外使用稳定性怎么样？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-12-13 23:17 编辑 </span><br>
+<span>都联排了unifi全家桶走起啊，iptv的话电力猫解决</span><br>
+</p><p><b>kimibsb: </b><br>
+<span>伊可费斯 发表于 2019-12-13 23:14</span><br>
+<span>都联排了unifi全家桶走起啊，iptv的话电力猫解决</span><br>
+<span>以前试过电力猫扩展，也是非常糟糕（TP的产品），用了没多久就放着吃灰了，能吃得住IPTV吗</span><br>
+</p><p><b>phyc: </b><br>
+<span>交换机分配一下vlan应该没问题。网线接口布少了如果不想无线中继可以尝试一下电力猫</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>phyc: </b><br>
+<span>我用腾达千兆电力猫用着还凑合</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>kimibsb 发表于 2019-12-13 23:27</span><br>
+<span>以前试过电力猫扩展，也是非常糟糕（TP的产品），用了没多久就放着吃灰了，能吃得住IPTV吗 ...</span><br>
+<span>我指的是专门用电力猫传iptv，电信iptv江浙这边都是双端认证，要么单线复用要么破解光猫划vlan都太麻烦了。还有个方法装对ubnt的网桥用透传。综合下来电力猫最傻瓜了。</span><br>
+</p><p><b>password: </b><br>
+<span>这么多层没布线只能mesh了吧 保证一层至少一个节点 IPTV可以通过网管交换机设置VLAN做单线复用</span><br>
+</p><p><b>kimibsb: </b><br>
+<span>伊可费斯 发表于 2019-12-13 23:47</span><br>
+<span>我指的是专门用电力猫传iptv，电信iptv江浙这边都是双端认证，要么单线复用要么破解光猫划vlan都太麻烦了 ...</span><br>
+<span>我明白，就是单独用电力猫走iptv的意思，就是怕不稳定</span><br>
+<span>unifi成本感觉高了，现在这个r7000浪费了太不划算</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902576[0-50]</guid>
+    </item>
+  </channel>
+</rss>

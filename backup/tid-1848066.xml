@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>原来ryzen2装win7还挺简单的嘛</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>原来ryzen2装win7还挺简单的嘛</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:53:01 +0000</lastBuildDate>
+    <item>
+      <title>原来ryzen2装win7还挺简单的嘛[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848066-1-1.html</link>
+      <description>原来ryzen2装win7还挺简单的嘛&#13;
+3700x+迫击炮，就用amd am4 win7 usb patcher注入了驱动，再用uiso刻u盘上，然后启动安装就好了。
+
+只是设备管理器里有一堆PCI设备和通用串行总线（USB）控制器都是感叹号，手动装amd的usb3.1驱动则显示this package requires AMD installer，这是怎么回事？</description>
+      <content:encoded><![CDATA[<p><b>真田丸: </b><br>
+<span>原来ryzen2装win7还挺简单的嘛</span><br>
+<span>3700x+迫击炮，就用amd am4 win7 usb patcher注入了驱动，再用uiso刻u盘上，然后启动安装就好了。</span><br>
+<span>只是设备管理器里有一堆PCI设备和通用串行总线（USB）控制器都是感叹号，手动装amd的usb3.1驱动则显示this package requires AMD installer，这是怎么回事？</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>https://www.chiphell.com/thread-2015771-1-1.html</span><br>
+<span>https://www.chiphell.com/thread-2015544-1-1.html</span><br>
+</p><p><b>真田丸: </b><br>
+<span>czgzxc 发表于 2019-7-20 19:28</span><br>
+<span>https://www.chiphell.com/thread-2015771-1-1.html</span><br>
+<span>https://www.chiphell.com/thread-2015544-1-1.html</span><br>
+<span>第一个说的手动解压amd chipset driver来安装没用，还是找不到驱动</span><br>
+<span>第二个的驱动装完识别出了pcieusb控制器，另外3个pci设备还是感叹号</span><br>
+<span>不过现在用着还没遇到问题</span><br>
+</p><p><b>真田丸: </b><br>
+<span>重新到amd网站下来最新的chipset driver来装，又好了两个pci设备，现在就剩1个pci设备和1个pci加密解密控制器有感叹号。</span><br>
+</p><p><b>top2000: </b><br>
+<span>新机器装win10不就好了 有条件就装英文版</span><br>
+<span>— from HMD Global Nokia 7 plus, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p><p><b>真田丸: </b><br>
+<span>top2000 发表于 2019-7-21 19:06</span><br>
+<span>新机器装win10不就好了 有条件就装英文版</span><br>
+<span>— from HMD Global Nokia 7 plus, Android 9 of S1 Next Goose...</span><br>
+<span>公司电脑装win10让我吃瘪了好几次，我再装win10我不是人</span><br>
+</p><p><b>两个路人: </b><br>
+<span>现在主板已经节省到不带驱动光盘的地步了吗？</span><br>
+</p><p><b>真田丸: </b><br>
+<span>两个路人 发表于 2019-7-21 21:23</span><br>
+<span>现在主板已经节省到不带驱动光盘的地步了吗？</span><br>
+<span>啊，我扔了，应该和官网下的驱动没差吧</span><br>
+</p><p><b>windrarara: </b><br>
+<span>win7发挥不了zen2的性能吧，连win10都要升级过才行</span><br>
+</p><p><b>百猪夜行: </b><br>
+<span>3700x以上的zen2不用1903的win10很浪费性能啊，而且1903美观度易用性都比1803好了很多。</span><br>
+<span>—— 来自 samsung SM-G9650, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qratosone: </b><br>
+<span>Zen系列的CCX设计对调度有要求，Win7还是太老了</span><br>
+</p><p><b>czgzxc: </b><br>
+<span> 本帖最后由 czgzxc 于 2019-7-21 23:02 编辑 </span><br>
+<span>qratosone 发表于 2019-7-21 22:17</span><br>
+<span>Zen系列的CCX设计对调度有要求，Win7还是太老了</span><br>
+<span>win7是顺序调度，跟1903的按ccx调度没有太多的性能差别。只有1903之前的win10是屎而且说不定lz有什么限定win7的东西要用到</span><br>
+</p><p><b>真田丸: </b><br>
+<span>windrarara 发表于 2019-7-21 21:52</span><br>
+<span>win7发挥不了zen2的性能吧，连win10都要升级过才行</span><br>
+<span>跑了下cbr20，4682左右，还行吧，内存是威刚3200 16gx2，散热是彩融a3。</span><br>
+<span>就算差也不会差太多，我不会为了一点点差距去win10上提心吊胆。</span><br>
+</p><p><b>top2000: </b><br>
+<span>真田丸 发表于 2019-7-21 20:11</span><br>
+<span>公司电脑装win10让我吃瘪了好几次，我再装win10我不是人</span><br>
+<span>你公司的电脑是全新ryzen2硬件吗..</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>真田丸 发表于 2019-7-21 23:22</span><br>
+<span>跑了下cbr20，4682左右，还行吧，内存是威刚3200 16gx2，散热是彩融a3。</span><br>
+<span>就算差也不会差太多，我不会为了 ...</span><br>
+<span>win10可以想办法装lstc2019啊，我现在装了，感觉挺稳定的，而且挺清凉的没有商店那些乱七八糟的东西，而且更新也只有安全更新，不会乱添加会导致bug的功能更新。它这个就是会停在1809。</span><br>
+<span>win7还是太老了</span><br>
+</p><p><b>mickoo: </b><br>
+<span>win7发挥不了ryzen的性能，尤其是CPU调度，win7有时候会时快时慢，不能完全识别</span><br>
+</p><p><b>wfantasia: </b><br>
+<span>之前都说z370要注入驱动,可我直接用光驱装上了再下的驱动,鼠标全程能用</span><br>
+</p><p><b>真田丸: </b><br>
+<span>top2000 发表于 2019-7-22 06:22</span><br>
+<span>你公司的电脑是全新ryzen2硬件吗..</span><br>
+<span>公司是i5，这是家里的</span><br>
+</p><p><b>真田丸: </b><br>
+<span>mickoo 发表于 2019-7-22 09:50</span><br>
+<span>win7发挥不了ryzen的性能，尤其是CPU调度，win7有时候会时快时慢，不能完全识别 ...</span><br>
+<span>跑了跑编译器和游戏感觉还行没有拖慢，先用着吧，真有问题我再去吃屎。</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>用win7不是为了财务软件吗, 不然为啥要用它?</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>还有人2019年新装机用win7啊</span><br>
+</p><p><b>两个路人: </b><br>
+<span>没有被瘟屎喂过翔的，大约是不知道瘟妻的好（真理</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848066[0-50]</guid>
+    </item>
+  </channel>
+</rss>

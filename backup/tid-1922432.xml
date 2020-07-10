@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>文刀秋二详细介绍DLSS 2.0技术细节</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>文刀秋二详细介绍DLSS 2.0技术细节</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:54:17 +0000</lastBuildDate>
+    <item>
+      <title>文刀秋二详细介绍DLSS 2.0技术细节[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1922432-1-1.html</link>
+      <description>文刀秋二详细介绍DLSS 2.0技术细节&#13;
+https://developer.nvidia.com/gtc/2020/video/s22698
+&#13;
+https://zhuanlan.zhihu.com/p/123642175
+&#13;
+建议结合视频食用，关键点：DLSS 2.0从本质上来说是一个多帧图像重建算法，没错基本就是一个大号的TAA（两者原理极为相似），NV的黑科技在于TAA的多帧采样点固定导致重建画面会有模糊和鬼影
+&#13;
+而NV则利用数万张素材DL训练渲染引擎如何找到最佳采样点，所以DLSS 2.0某种程度来说就是一个每帧都有最佳采样点的TAA（能做到这点非常厉害，玩过虚幻4的都知道TAA自己手动调都调不出最佳采样，深度学习又一次超越人脑）
+&#13;
+而最重要的一点在于，DLSS 2.0无论输入分辨率如何，纹理贴图质量或者说纹理映射分辨率是要跟输出分辨率一致，也就是说4K的DLSS 2.0和4K源生渲染两者纹理贴图质量是一样的，所以DLSS 2.0已经跟以往所有超采样和抗锯齿技术完全不一样，是一个深度学习和光栅化混合渲染构架，这种方式继续发展下去对未来3D渲染业界都会产生巨大影响，就如同当年shader一样</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>ianny544 发表于 2020-4-7 07:13</span><br>
+<span>已经训练好的模型应该就不需要啥特殊硬件了吧</span><br>
+<span>—— 来自 samsung SM-G965W, Android 10上的 S1Next-鹅版 v ...</span><br>
+<span>速度差的很多，1080ti/5700XT的FP16性能都不到20TFlos，2080ti tensor是114TFlos，就算2060也有60TFlos</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1922432[50-100]</guid>
+    </item>
+    <item>
+      <title>文刀秋二详细介绍DLSS 2.0技术细节[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1922432-1-1.html</link>
+      <description>文刀秋二详细介绍DLSS 2.0技术细节&#13;
+https://developer.nvidia.com/gtc/2020/video/s22698
+&#13;
+https://zhuanlan.zhihu.com/p/123642175
+&#13;
+建议结合视频食用，关键点：DLSS 2.0从本质上来说是一个多帧图像重建算法，没错基本就是一个大号的TAA（两者原理极为相似），NV的黑科技在于TAA的多帧采样点固定导致重建画面会有模糊和鬼影
+&#13;
+而NV则利用数万张素材DL训练渲染引擎如何找到最佳采样点，所以DLSS 2.0某种程度来说就是一个每帧都有最佳采样点的TAA（能做到这点非常厉害，玩过虚幻4的都知道TAA自己手动调都调不出最佳采样，深度学习又一次超越人脑）
+&#13;
+而最重要的一点在于，DLSS 2.0无论输入分辨率如何，纹理贴图质量或者说纹理映射分辨率是要跟输出分辨率一致，也就是说4K的DLSS 2.0和4K源生渲染两者纹理贴图质量是一样的，所以DLSS 2.0已经跟以往所有超采样和抗锯齿技术完全不一样，是一个深度学习和光栅化混合渲染构架，这种方式继续发展下去对未来3D渲染业界都会产生巨大影响，就如同当年shader一样</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>文刀秋二详细介绍DLSS 2.0技术细节</span><br>
+<span>https://developer.nvidia.com/gtc/2020/video/s22698</span><br>
+<span>https://zhuanlan.zhihu.com/p/123642175</span><br>
+<span>建议结合视频食用，关键点：DLSS 2.0从本质上来说是一个多帧图像重建算法，没错基本就是一个大号的TAA（两者原理极为相似），NV的黑科技在于TAA的多帧采样点固定导致重建画面会有模糊和鬼影</span><br>
+<span>而NV则利用数万张素材DL训练渲染引擎如何找到最佳采样点，所以DLSS 2.0某种程度来说就是一个每帧都有最佳采样点的TAA（能做到这点非常厉害，玩过虚幻4的都知道TAA自己手动调都调不出最佳采样，深度学习又一次超越人脑）</span><br>
+<span>而最重要的一点在于，DLSS 2.0无论输入分辨率如何，纹理贴图质量或者说纹理映射分辨率是要跟输出分辨率一致，也就是说4K的DLSS 2.0和4K源生渲染两者纹理贴图质量是一样的，所以DLSS 2.0已经跟以往所有超采样和抗锯齿技术完全不一样，是一个深度学习和光栅化混合渲染构架，这种方式继续发展下去对未来3D渲染业界都会产生巨大影响，就如同当年shader一样</span><br>
+</p><p><b>山竹罐头: </b><br>
+<span>能给switch pro也整一个吗</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>AMD怕是翻不了身了</span><br>
+</p><p><b>Wqr_: </b><br>
+<span>看来堆浮点已经不够了，dlss才是未来？</span><br>
+<span>—— 来自 Realme RMX1901, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>youtube几家硬件评测都在考虑以后支持dlss2.0的游戏测帧数时开dlss了，要是这样那rtx系会一骑绝尘</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>然而还没普及…等普及了怕不是下一代显卡又要出了</span><br>
+<span>2077用这个是不是就能4K60了</span><br>
+</p><p><b>66666: </b><br>
+<span>Sorastlos 发表于 2020-4-4 10:14</span><br>
+<span>然而还没普及…等普及了怕不是下一代显卡又要出了</span><br>
+<span>2077用这个是不是就能4K60了 ...</span><br>
+<span>2080ti应该可以吧，反正30系安培从200刀到1000刀都有Tensor core，DLSS 2.0必然会普及到大多数PC游戏玩家</span><br>
+</p><p><b>navarra: </b><br>
+<span>……任天堂的好日子马上要来了？</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>螺旋时钟: </b><br>
+<span>山竹罐头 发表于 2020-04-04 08:44:53</span><br>
+<span>能给switch pro也整一个吗哇，掌机模式DLSS下1080p60帧的新塞尔达和异度之刃3，想想就流口水</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>lostneverland: </b><br>
+<span>2070支持这个吗</span><br>
+</p><p><b>zbdyg: </b><br>
+<span>这神经计算单元会白卖给老任吗</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>dlss虽然牛逼，但是我更了新驱动之后超卡</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>pap: </b><br>
+<span>除非有主机愿意跟老黄合作</span><br>
+<span>不然dlss2.0再牛逼下场也跟光追和sync一样，普及全看amd</span><br>
+<span>现在3a游戏开发重心还是向主机平台为主</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>好的东西都会被吸收进dx12的</span><br>
+<span>我就觉得dlss2.0 原理和direct ml 差不多</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>精钢魔像 发表于 2020-4-4 13:19</span><br>
+<span>好的东西都会被吸收进dx12的</span><br>
+<span>我就觉得dlss2.0 原理和direct ml 差不多</span><br>
+<span>dlss 和 direct ml 的关系比较像编程语言和具体应用的关系</span><br>
+<span>dlss 的核心是老黄私有的那一套神经网络算法</span><br>
+<span>direct ml 只是一套通用的跨平台机器学习框架而已，没有算法不还是木大</span><br>
+</p><p><b>gaiden: </b><br>
+<span>lostneverland 发表于 2020-4-4 12:23</span><br>
+<span>2070支持这个吗</span><br>
+<span>图灵架构带Tensor Core的应该都支持</span><br>
+</p><p><b>66666: </b><br>
+<span>pap 发表于 2020-4-4 13:06</span><br>
+<span>除非有主机愿意跟老黄合作</span><br>
+<span>不然dlss2.0再牛逼下场也跟光追和sync一样，普及全看amd</span><br>
+<span>这跟游戏主机有毛的关系啊，游戏主机除了鬼泣5以外没一个游戏用过细分曲面，PC版你来告诉有几个3A游戏不用细分曲面的？</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>我是不太敢相信DL出来采样点的精确度。dlss 1.0 最大问题不是性能而是画面品质，糊是普遍的，还有一种难以描述的画面失真。</span><br>
+</p><p><b>66666: </b><br>
+<span>囧囧囧 发表于 2020-4-4 21:25</span><br>
+<span>我是不太敢相信DL出来采样点的精确度。dlss 1.0 最大问题不是性能而是画面品质，糊是普遍的，还有一种难以 ...</span><br>
+<span>去试试DLSS 2.0就知道了，画质跟1.0比起来是天翻地覆的差别，而且所有传统抗锯齿算法采样点因为固定，所以在光栅化阶段都会不同程度丢失子像素信息，精确度比DL算出来的采样点要差的远，这也是为什么几乎所有传统抗锯齿都会不同程度让纹理贴图细节模糊的原因，在顶楼视频里就有谈到</span><br>
+</p><p><b>dark_saber: </b><br>
+<span>囧囧囧 发表于 2020-4-4 21:25</span><br>
+<span>我是不太敢相信DL出来采样点的精确度。dlss 1.0 最大问题不是性能而是画面品质，糊是普遍的，还有一种难以 ...</span><br>
+<span>数毛设的分析视频也出了，有些地方1080p通过dlss到4k下甚至比原生的看起来更清晰</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>66666: </b><br>
+<span>dark_saber 发表于 2020-4-4 23:30</span><br>
+<span>数毛设的分析视频也出了，有些地方1080p通过dlss到4k下甚至比原生的看起来更清晰</span><br>
+<span>—— 来自 OneP ...</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2020-control-dlss-2-dot-zero-analysis</span><br>
+<span>DLSS 2.0在目标分辨率下纹理贴图是跟源生一样的，再加上更精准的采样点比源生效果看起来更清晰一点都不奇怪，传统算法的采样精度实在垃圾的不行</span><br>
+</p><p><b>andychen: </b><br>
+<span>理论上讲这个技术和switch是绝配，但是不知道tensor core的功耗如何</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>问题是感觉普通显卡你都能实装的东西，强行搞个专用模块，就是不打算让AMD分羹。</span><br>
+</p><p><b>awy47: </b><br>
+<span>这也太牛逼了，深度学习都到这种程度了？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>66666: </b><br>
+<span>awy47 发表于 2020-4-6 10:01</span><br>
+<span>这也太牛逼了，深度学习都到这种程度了？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.1 ...</span><br>
+<span>目前深度学习最大突破主要就是集中在图形和音频上了</span><br>
+</p><p><b>horizonwalker: </b><br>
+<span>uswhzh 发表于 2020-04-06 09:39:28</span><br>
+<span>问题是感觉普通显卡你都能实装的东西，强行搞个专用模块，就是不打算让AMD分羹。 ...这东西主要是靠Tensor Core</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>盐甜葱: </b><br>
+<span>540P能比1080P还清晰这也太黑科技了</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>uswhzh 发表于 2020-4-6 09:39</span><br>
+<span>问题是感觉普通显卡你都能实装的东西，强行搞个专用模块，就是不打算让AMD分羹。 ...</span><br>
+<span>20系以上有专用核心，不占用显卡算力，并且效率更高，等于一个显卡+一个AI卡双卡合一。</span><br>
+<span>普通显卡要软方式，会占用显卡算力，效率更低，用掉50%算力，提高100%性能，可能就得不偿失了。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-4-6 14:25 编辑 </span><br>
+<span>螺旋时钟 发表于 2020-4-4 11:46</span><br>
+<span>哇，掌机模式DLSS下1080p60帧的新塞尔达和异度之刃3，想想就流口水</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Andr ...</span><br>
+<span>看老任肯不肯花钱了，NS芯片最新的版本确实支持AI，但是给汽车驾驶用的，巨贵。</span><br>
+</p><p><b>Sza: </b><br>
+<span>对手游。。算了N芯不配上手机</span><br>
+<span>对NS的画质和功耗都会有巨大提升，也是次世代主机用上4k60fps的资本。用深度学习对视频做升采样的技术也是有，就是不知道目前市面上的8k电视的插值方法有没有用到。某为倒是在玩AI芯片，三星家就不清楚了，LG索尼。。</span><br>
+</p><p><b>920619lqy: </b><br>
+<span> 本帖最后由 920619lqy 于 2020-4-6 00:51 编辑 </span><br>
+<span>Sza 发表于 2020-4-6 00:37</span><br>
+<span>对手游。。算了N芯不配上手机</span><br>
+<span>对NS的画质和功耗都会有巨大提升，也是次世代主机用上4k60fps的资本。用深度 ...</span><br>
+<span>现在的NS用不了这个，Tegra X1是麦克斯韦，至于传说中的升级版我觉得想想就好了，套用躺着能赚钱为什么要坐起来的说法，卖电子垃圾能赚钱为什么要加料</span><br>
+</p><p><b>andychen: </b><br>
+<span>Tensor Core多半没有考虑过功耗问题。如果任地狱下代主机真要搭载DLSS，感觉更可能是用来提升主机模式下的分辨率</span><br>
+<span>掌机模式原生720P关闭Tensor Core节约功耗，主机模式启用DLSS提升分辨率到2K这种</span><br>
+</p><p><b>w30of: </b><br>
+<span>我也想有块支持这个的显卡</span><br>
+</p><p><b>Sza: </b><br>
+<span>920619lqy 发表于 2020-4-6 14:44</span><br>
+<span>现在的NS用不了这个，Tegra X1是麦克斯韦，至于传说中的升级版我觉得想想就好了，套用躺着能赚钱为什么要 ...</span><br>
+<span>看老任下一代的设计方向了，光追和dlss应该能变相降低开发商的开发时间和成本，不能只从硬件成本上去考虑。</span><br>
+</p><p><b>riin: </b><br>
+<span>andychen 发表于 2020-4-6 14:50</span><br>
+<span>Tensor Core多半没有考虑过功耗问题。如果任地狱下代主机真要搭载DLSS，感觉更可能是用来提升主机模式下的 ...</span><br>
+<span>是的，而且Tegra本身就是移动GPU，感觉并不会加Tensor Core</span><br>
+</p><p><b>66666: </b><br>
+<span>andychen 发表于 2020-4-6 14:50</span><br>
+<span>Tensor Core多半没有考虑过功耗问题。如果任地狱下代主机真要搭载DLSS，感觉更可能是用来提升主机模式下的 ...</span><br>
+<span>Tensor Core并不会增加额外功耗，相反在同等画质分辨率和帧数下功耗只会更低，要不然这次老黄所谓DLSS booost增加20%电池续航是怎么办到的？</span><br>
+</p><p><b>66666: </b><br>
+<span>riin 发表于 2020-4-6 18:31</span><br>
+<span>是的，而且Tegra本身就是移动GPU，感觉并不会加Tensor Core</span><br>
+<span>车载tegra早就有Tensor Core了，而且在SM里占比比目前turing构架还要多，功耗也不高（标准15瓦）</span><br>
+<span>这次老黄新MAXQ移动显卡主打技术之一DLSS boost就是利用DLSS 2.0来降低功耗增加电池续航，充分说明Tensor Core在移动设备里只会大幅降低GPU渲染功耗</span><br>
+</p><p><b>yuwe0714: </b><br>
+<span>66666 发表于 2020-4-6 18:58</span><br>
+<span>车载tegra早就有Tensor Core了，而且在SM里占比比目前turing构架还要多，功耗也不高（标准15瓦）</span><br>
+<span>这次老 ...</span><br>
+<span>我记得好像楼主你之前讲过ppt还是哪里的台积电舅舅讲下一代任系主机就要用上这个dlss2.0？</span><br>
+</p><p><b>66666: </b><br>
+<span>yuwe0714 发表于 2020-4-6 19:09</span><br>
+<span>我记得好像楼主你之前讲过ppt还是哪里的台积电舅舅讲下一代任系主机就要用上这个dlss2.0？ ...</span><br>
+<span>是啊，湾湾那边的消息，老黄今后几乎所有产品线都会Tensor Core化，跑深度学习能耗比是传统SIMD流处理器的十几倍</span><br>
+</p><p><b>SaaB35: </b><br>
+<span>希望，30系列，能够把好科技普及到1500的价位上（这得让20系卖的光一些才是）</span><br>
+</p><p><b>66666: </b><br>
+<span>从这个DLSS 2.0延迟里就能看出Tensor Core为什么能大幅降低功耗，关键就在于DLSS跟画面复杂度无关只跟输出分辨率有关系，只要是4K分辨率不管是光栅化还是路径光追，同屏100万还是10亿多边形</span><br>
+<span>2080TI渲染延迟都是1.5ms，如果NS使用这种技术实际性能可在同等能耗比下提升1-3倍</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>66666 发表于 2020-4-6 19:25</span><br>
+<span>从这个DLSS 2.0延迟里就能看出Tensor Core为什么能大幅降低功耗，关键就在于DLSS跟画面复杂度无关只跟输 ...</span><br>
+<span>按照老任追求硬件盈利的作风，是否可能会定制不含tensor core的GPU？换个角度，老黄通过强制打包tensor core会不会逼迫老任接受/谈崩？</span><br>
+</p><p><b>andychen: </b><br>
+<span>cmyk1234 发表于 2020-4-6 19:50</span><br>
+<span>按照老任追求硬件盈利的作风，是否可能会定制不含tensor core的GPU？换个角度，老黄通过强制打包tensor c ...</span><br>
+<span>只要成本和功耗在可接受范围内，任地狱会很欢迎DLSS的。其他两家已经把GPU堆到10T的需求没那么迫切</span><br>
+</p><p><b>66666: </b><br>
+<span>cmyk1234 发表于 2020-4-6 19:50</span><br>
+<span>按照老任追求硬件盈利的作风，是否可能会定制不含tensor core的GPU？换个角度，老黄通过强制打包tensor c ...</span><br>
+<span>tensor core目前在turing构架里占到SM面积的7%，下一代安培翻倍，估计大约14%，晶体管成本比堆流处理器还是低很多，增加14%晶体管提升同功耗下100%到300%性能，天底下还有比这性价比更好的技术吗？</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-4-6 20:35 编辑 </span><br>
+<span>cmyk1234 发表于 2020-4-6 19:50</span><br>
+<span>按照老任追求硬件盈利的作风，是否可能会定制不含tensor core的GPU？换个角度，老黄通过强制打包tensor c ...</span><br>
+<span>现在研发成本占大头，只要不定制用现成的，加不了几个钱。</span><br>
+<span>话说回来NS生命周期，跟PS/XBOX是错开的，NS换代刚好在PS/XBOX中段，说不定就靠这个，NS2桌面模式可以重回高性能主机队伍几年，PS5跑4K@60的游戏，NS2跑渲染540然后DLSS到1080@60。</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>66666 发表于 2020-4-6 20:23</span><br>
+<span>tensor core目前在turing构架里占到SM面积的7%，下一代安培翻倍，估计大约14%，晶体管成本比堆流处理器还 ...</span><br>
+<span>如果按照ns的需求定制，tensor的数量是否有可能占到安培的Tensor在Shader模块占比的1.5倍，也就是30%？</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>turing发布的时候好多人认为tensor core = 啥用都没只会发热的电阻丝。如果dlss2.0成功了，没tcore的gpu就真sb了……</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>囧囧囧 发表于 2020-4-6 12:33</span><br>
+<span>turing发布的时候好多人认为tensor core = 啥用都没只会发热的电阻丝。如果dlss2.0成功了，没tcore的gpu就 ...</span><br>
+<span>因为当时确实没有什么好的应用场景，但是现在算是有了</span><br>
+</p><p><b>66666: </b><br>
+<span>cmyk1234 发表于 2020-4-6 23:28</span><br>
+<span>如果按照ns的需求定制，tensor的数量是否有可能占到安培的Tensor在Shader模块占比的1.5倍，也就是30%？ ...</span><br>
+<span>有可能，目前tensor core不像流处理器那样受到带宽限制，不过我个人认为如果仅仅只是跑DLSS的话不会要有这么高的比例，1080P下渲染延迟控制在2ms以内就比较均衡了</span><br>
+<span>如果本身流处理器数量太少赛更多的tensor core也没什么意义（当然如果未来深度学习在游戏领域里利用场景更多如物理/AI计算等那就是另外一码事了）</span><br>
+</p><p><b>ianny544: </b><br>
+<span>已经训练好的模型应该就不需要啥特殊硬件了吧</span><br>
+<span>—— 来自 samsung SM-G965W, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1922432[0-50]</guid>
+    </item>
+  </channel>
+</rss>

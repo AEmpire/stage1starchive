@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10格式化内存卡的时候簇大小要怎么选择4096字节？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10格式化内存卡的时候簇大小要怎么选择4096字节？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:59:14 +0000</lastBuildDate>
+    <item>
+      <title>win10格式化内存卡的时候簇大小要怎么选择4096字节？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856678-1-1.html</link>
+      <description>win10格式化内存卡的时候簇大小要怎么选择4096字节？&#13;
+win10格式化内存卡的时候簇大小要怎么选择4096字节？最小是8096字节</description>
+      <content:encoded><![CDATA[<p><b>淘气蓝猫三千问: </b><br>
+<span>win10格式化内存卡的时候簇大小要怎么选择4096字节？</span><br>
+<span>win10格式化内存卡的时候簇大小要怎么选择4096字节？最小是8096字节</span><br>
+</p><p><b>neosea: </b><br>
+<span>一定要特定大小的簇的话，用命令行解决吧</span><br>
+<span>FORMAT volume /A:4096</span><br>
+<span>/A:size         替代默认分配单元大小。强烈建议你在通常情况下使用</span><br>
+<span>                  默认配置。</span><br>
+<span>                  ReFS 支持 4096、64K。</span><br>
+<span>                  NTFS 支持 512、1024、2048、4096、8192、16K、32K、64K、</span><br>
+<span>                  128K、256K、512K、1M、2M。</span><br>
+<span>                  FAT 支持 512、1024、2048、4096、8192、16K、32K、64K，</span><br>
+<span>                  (128K、256K 用于大于 512 个字节的扇区)。</span><br>
+<span>                  FAT32 支持 512、1024、2048、4096、8192、16K、32K、64K，</span><br>
+<span>                  (128K、256K 用于大于 512 个字节的扇区)。</span><br>
+<span>                  exFAT 支持 512、1024、2048、4096、8192、16K、32K、64K、</span><br>
+<span>                  128K、256K、512K、1M、2M、4M、8M、16M、32M。</span><br>
+<span>                  请注意，FAT 和 FAT32 文件系统</span><br>
+<span>                  对卷上的群集数量施加以下限制:</span><br>
+<span>                  FAT: 群集数量 <= 65526</span><br>
+<span>                  FAT32: 65526 < 群集数量 < 4177918</span><br>
+<span>                  如果判定使用的指定群集大小无法</span><br>
+<span>                  满足以上需求，将立即</span><br>
+<span>                  停止格式化。</span><br>
+<span>                  大于 4096 的分配单元大小</span><br>
+<span>                  不支持 NTFS 压缩。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856678[0-50]</guid>
+    </item>
+  </channel>
+</rss>

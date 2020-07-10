@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Windows下有没有类似钛备份的软件？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Windows下有没有类似钛备份的软件？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:56:46 +0000</lastBuildDate>
+    <item>
+      <title>Windows下有没有类似钛备份的软件？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915837-1-1.html</link>
+      <description>Windows下有没有类似钛备份的软件？&#13;
+傻缺win10突然就玩不了p社的游戏了，蛋疼。重装又嫌麻烦，pc有没有类似钛备份的软件便于重装的？</description>
+      <content:encoded><![CDATA[<p><b>allies: </b><br>
+<span>Windows下有没有类似钛备份的软件？</span><br>
+<span>傻缺win10突然就玩不了p社的游戏了，蛋疼。重装又嫌麻烦，pc有没有类似钛备份的软件便于重装的？</span><br>
+</p><p><b>rss: </b><br>
+<span>你好，有的。远古时代推荐Ghost，近现代推荐 ATIH。 最好的办法是制作一个带pe系统的启动U盘，在开机时候进入PE系统备份win10</span><br>
+</p><p><b>404489039: </b><br>
+<span>直接重装原系统会打包原系统到windows.old目录</span><br>
+<span>前提是用原版镜像安装</span><br>
+</p><p><b>若闲: </b><br>
+<span>dism++，直接将全系统备份，然后重装，装完后直接恢复。</span><br>
+<span>当初加装了块nvme，不想重装一堆东西了，又想好好设置系统引导，就这么干的。</span><br>
+</p><p><b>若闲: </b><br>
+<span>啊，重看了一下，这个好像不太满足你的要求……毕竟这是把系统的一切全备份了</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>全系统恢复不是把毛病也恢复回来了</span><br>
+<span>迁移程序的软件是有的，不过都没用过</span><br>
+</p><p><b>allies: </b><br>
+<span>rss 发表于 2020-2-26 13:59</span><br>
+<span>你好，有的。远古时代推荐Ghost，近现代推荐 ATIH。 最好的办法是制作一个带pe系统的启动U盘，在开机时候进 ...</span><br>
+<span>GHOST不是整盘覆盖吗</span><br>
+<span>我的意思是和钛备份一样只备份应用程序，不动操作系统本身</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2020-2-26 15:19 编辑 </span><br>
+<span>瘟逗死软件设计混乱（说好听点叫实现方式多样），基本没办法实现安卓那种连带程序设置/数据一同备份的可能。</span><br>
+<span>惯用手段就是定期增量备份，出问题往前一个个回滚试（二哈</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>游戏的数据文件位置清楚的话手动备份就完事了。</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>继承权: </b><br>
+<span>没办法，每个软件保存数据的方式都不一样，最靠谱的方式就是把整个系统备份下来，需要哪个程序的数据就去找对应的数据转移办法。</span><br>
+<span>增量备份的方式很容易把程序数据也回滚回去，不太推荐。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-2-29 13:37 编辑 </span><br>
+<span>首先win软件发放不是按商店模式起家的，以及注册表、各种开发套件版本API混乱、系统兼容历史等等问题，</span><br>
+<span>所以钛备份模式不可借鉴，作这样一个软件即麻烦，又可能不能照顾全备份中会出现各种问题，修错都会烦死软件开发者。</span><br>
+<span>安卓是OEM搞驱动，所以反而不好用镜像模式。</span><br>
+<span>微软自己大兼容包含部署，可以一个镜像通吃大部分设备。</span><br>
+<span>所以最适合win或osx的都是全镜像模式备份，</span><br>
+<span>最早是流行基于扇区的ghost，</span><br>
+<span>之后是官方基于文件dism wim，</span><br>
+<span>目前最好的方案是Acronis true image，算法牛逼，好的性能盘真的是两分钟就能把几十G备份好</span><br>
+<span>先重装一个干净的系统，</span><br>
+<span>去你的用户文件夹找到那八大目录，</span><br>
+<span>把文图音视下桌游云默认路径全部挪到其他盘</span><br>
+<span>装好所有软件设置好缓存和下载位置</span><br>
+<span>然后用这个备份就行: </span><br>
+<span>链接：https://pan.baidu.com/s/15afVsgELVPuKRJMSx0qXVg   提取码：v1ef</span><br>
+<span>这软件可以作成PE，也可以直接在系统集成，</span><br>
+<span>运行时就能备份，甚至还能不影响不触及底层文件的软件运行</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>allies 发表于 2020-2-26 14:18</span><br>
+<span>GHOST不是整盘覆盖吗</span><br>
+<span>我的意思是和钛备份一样只备份应用程序，不动操作系统本身 ...</span><br>
+<span>不可能 因为安卓和windows工作原理都不一样</span><br>
+</p><p><b>rss: </b><br>
+<span>allies 发表于 2020-2-26 14:18</span><br>
+<span>GHOST不是整盘覆盖吗</span><br>
+<span>我的意思是和钛备份一样只备份应用程序，不动操作系统本身 ...</span><br>
+<span>囧，我的解决办法是尽量使用portable版软件，软件默认会写配置文件到自身的文件夹下，把所有这类软件打包一下可以直接迁移生产力环境。大型必须安装的软件重装一下就是了。</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>Windows的程序配置能放的地方太多了，安装目录、appdata、我的文档、用户目录、注册表，全部备份还会把根本分不清的系统的东西备份进去，再拿去还原保证会冒出各种奇奇怪怪的问题</span><br>
+<span>相比起来Linux要备份的就少不少，home目录备份一下，etc备份几个改过的配置，最后把手动装的程序列个表就完事了</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>我也问一下</span><br>
+<span>在家用的电脑和办公电脑不一样。</span><br>
+<span>软件都不在，用起来太不方便了。</span><br>
+<span>主要是剪贴板，输入法，TC，AHK 脚本 ，浏览器。</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>天神十三煞 发表于 2020-2-26 15:31</span><br>
+<span>首先win软件发放不是按商店模式起家的，以及注册表、各种开发套件版本API混乱、系统兼容历史等等问题，</span><br>
+<span>所 ...</span><br>
+<span>我看介绍有好几种备份模式，版本链，单版本，差异，增量，一般用哪种合适呢</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> Windows 卸载都能留下不少东西，简直堪比编译安装</span><br>
+<span>一般是系统更新完驱动装完 ghost，自己的用户文件夹独立备份。</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>一直都是重装+装好常用软件再ghost</span><br>
+<span>感觉有毛病了就恢复</span><br>
+<span>win7的时候都是几乎每个月恢复一次</span><br>
+<span>win10起码半年，原因不是卡，而是WIN10给C盘产生太多不能删的垃圾</span><br>
+</p><p><b>sorayang: </b><br>
+<span>没有NAS之类的外部独立存储的话麻烦点，否则就可以养成什么乱起八糟的内容都丢到非系统盘上的习惯，想起来了去整理下就行。</span><br>
+<span>然后系统盘随便用一个靠谱的软件每个月全盘+增量备份应该可以满足一般人的要求了。</span><br>
+<span>之前我在PC区求助过，发现傲梅国际版的免费版是可以成功备份+还原的，而且使用起来也很简单。</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>虚拟机，如果游戏资源消耗不高</span><br>
+</p><p><b>cat339: </b><br>
+<span>话说win10不是自带备份功能了么, 那个怎么样?</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-2-29 13:32 编辑 </span><br>
+<span>月千一夜 发表于 2020-2-26 06:20</span><br>
+<span>我看介绍有好几种备份模式，版本链，单版本，差异，增量，一般用哪种合适呢</span><br>
+<span>— from Sony G8441, Androi ...</span><br>
+<span>现在硬盘性能好，我都用单一版本模式备份</span><br>
+<span>win10大致半年一次更新，在确定系统没啥问题情况下在大更前或后备份下就行</span><br>
+<span>上面连接换成了2020版</span><br>
+<span>可能的话建议支持下正版</span><br>
+</p><p><b>aurraro: </b><br>
+<span>我觉得只要程序保证在不同操作系统下运行无碍，就是绿色版那种，相关配置在程序文件夹下就行。</span><br>
+</p><p><b>linuy: </b><br>
+<span>Acronis true image</span><br>
+<span>最流弊的，正版25块</span><br>
+</p><p><b>ryuonegz: </b><br>
+<span>若闲 发表于 2020-2-26 14:15</span><br>
+<span>dism++，直接将全系统备份，然后重装，装完后直接恢复。</span><br>
+<span>当初加装了块nvme，不想重装一堆东西了，又想好好 ...</span><br>
+<span>这种会不会出现一种神奇的问题，就是转移了以后，磁盘整理的硬盘类型识别错误，固态识别成机械，机械识别成固态，然后就无法进行碎片整理了</span><br>
+</p><p><b>若闲: </b><br>
+<span>ryuonegz 发表于 2020-3-1 12:16</span><br>
+<span>这种会不会出现一种神奇的问题，就是转移了以后，磁盘整理的硬盘类型识别错误，固态识别成机械，机械识别 ...</span><br>
+<span>至少我没有这种问题吧</span><br>
+</p><p><b>车欠: </b><br>
+<span>把软件安装到沙箱，那就相对容易备份了。</span><br>
+<span>但是有些软件兼容性不行，进沙箱会出问题。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915837[0-50]</guid>
+    </item>
+  </channel>
+</rss>

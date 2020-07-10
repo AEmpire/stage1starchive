@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GPU+12v掉电严重,是不是和24pin插不紧有关?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>GPU+12v掉电严重,是不是和24pin插不紧有关?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:12:51 +0000</lastBuildDate>
+    <item>
+      <title>GPU+12v掉电严重,是不是和24pin插不紧有关?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863962-1-1.html</link>
+      <description>GPU+12v掉电严重,是不是和24pin插不紧有关?&#13;
+ 本帖最后由 塔奇克马 于 2019-11-6 20:03 编辑 
+
+11楼 更新 换成矿龙电源,电压掉的非常少
+&#13;
+---------------------------
+&#13;
+用表测电源输出端,电压稳定无问题,
+&#13;
+就传感器那GPU +12v掉压严重,从12.03到11.544(甜甜圈稳定这个数值)
+&#13;
+有人说和24pin电阻有关,我的那个电源破插头插不进,卡扣没法扣上.
+&#13;
+是不是和这个有关?
+&#13;
+调高了GPU功耗墙掉到11.406了
+&#13;
+另外这沙雕接口是怎么延续到现在的?怎么还不简化下?</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>GPU+12v掉电严重,是不是和24pin插不紧有关?</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-11-6 20:03 编辑 </span><br>
+<span>11楼 更新 换成矿龙电源,电压掉的非常少</span><br>
+<span>---------------------------</span><br>
+<span>用表测电源输出端,电压稳定无问题,</span><br>
+<span>就传感器那GPU +12v掉压严重,从12.03到11.544(甜甜圈稳定这个数值)</span><br>
+<span>有人说和24pin电阻有关,我的那个电源破插头插不进,卡扣没法扣上.</span><br>
+<span>是不是和这个有关?</span><br>
+<span>调高了GPU功耗墙掉到11.406了</span><br>
+<span>另外这沙雕接口是怎么延续到现在的?怎么还不简化下?</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>空载跟负载的差别？</span><br>
+</p><p><b>johnie: </b><br>
+<span>电源不行 低负载电压曲线差</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>johnie 发表于 2019-11-6 19:40</span><br>
+<span>电源不行 低负载电压曲线差</span><br>
+<span>用表测了,输出端不会因为负载而变成这样的.</span><br>
+</p><p><b>johnie: </b><br>
+<span>塔奇克马 发表于 2019-11-6 19:41</span><br>
+<span>用表测了,输出端不会因为负载而变成这样的.</span><br>
+<span>电源型号说说</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>johnie 发表于 2019-11-6 19:41</span><br>
+<span>电源型号说说</span><br>
+<span>gx450</span><br>
+</p><p><b>johnie: </b><br>
+<span>塔奇克马 发表于 2019-11-6 19:41</span><br>
+<span>gx450</span><br>
+<span>那就很正常了…</span><br>
+<span>我以前用antec的低端电源时候也会这样 换了个850w金牌就很平稳12</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>johnie 发表于 2019-11-6 19:43</span><br>
+<span>那就很正常了…</span><br>
+<span>我以前用antec的低端电源时候也会这样 换了个850w金牌就很平稳12 ...</span><br>
+<span>难道让我把仓库里几个矿电换上?</span><br>
+</p><p><b>johnie: </b><br>
+<span>塔奇克马 发表于 2019-11-6 19:44</span><br>
+<span>难道让我把仓库里几个矿电换上?</span><br>
+<span>狂龙的话可以挖出来试试的</span><br>
+<span>我看tpu评测电源都有不同负载的电压稳定度统计 低端电源有些甚至稳不到11…</span><br>
+</p><p><b>红左手: </b><br>
+<span>你可以买联想品牌机</span><br>
+<span>只有10pin</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>johnie 发表于 2019-11-6 19:48</span><br>
+<span>狂龙的话可以挖出来试试的</span><br>
+<span>我看tpu评测电源都有不同负载的电压稳定度统计 低端电源有些甚至稳不到11… ...</span><br>
+<span>换了矿龙烤鸡 甜甜圈 gpu +12v 电压11.906</span><br>
+<span>确实稳定不少,这电源还有保 不知道能不能换.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863962[0-50]</guid>
+    </item>
+  </channel>
+</rss>

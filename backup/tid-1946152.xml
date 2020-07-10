@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>r7000这机器关机跑电也太快了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>r7000这机器关机跑电也太快了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:12:30 +0000</lastBuildDate>
+    <item>
+      <title>r7000这机器关机跑电也太快了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946152-1-1.html</link>
+      <description>r7000这机器关机跑电也太快了&#13;
+周五下班，r7000关机，装包里背回家，准备应付周末万一有事。当然周末没人来找，所以机器就一直扔包里，周一早上来打开，一看电量已经从66%掉到25%……关机掉电也太快了吧？
+&#13;
+怪不得bios里有个 电池的运输模式，要不然库存个十天半个月那机器是根本开不了的。
+&#13;
+按理说不应该，感觉还是哪里有问题了。另外一个同时发生的问题是开机后ax200认不到了，难道是他出bug了一直在耗电？拔电源进bios弄了下电池运输模式（断开内部电池），然后再开机就认了。
+&#13;
+准备下次再出现去保修下，希望只换个卡就能解决，要不工作电脑整机保修比较麻烦</description>
+      <content:encoded><![CDATA[<p><b>liwangli1983: </b><br>
+<span>r7000这机器关机跑电也太快了</span><br>
+<span>周五下班，r7000关机，装包里背回家，准备应付周末万一有事。当然周末没人来找，所以机器就一直扔包里，周一早上来打开，一看电量已经从66%掉到25%……关机掉电也太快了吧？</span><br>
+<span>怪不得bios里有个 电池的运输模式，要不然库存个十天半个月那机器是根本开不了的。</span><br>
+<span>按理说不应该，感觉还是哪里有问题了。另外一个同时发生的问题是开机后ax200认不到了，难道是他出bug了一直在耗电？拔电源进bios弄了下电池运输模式（断开内部电池），然后再开机就认了。</span><br>
+<span>准备下次再出现去保修下，希望只换个卡就能解决，要不工作电脑整机保修比较麻烦</span><br>
+</p><p><b>vdo: </b><br>
+<span>有没有插什么外设之类的。。</span><br>
+</p><p><b>elflie: </b><br>
+<span>运输模式明显是为了防止运输过程中意外开机。。。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>vdo 发表于 2020-7-6 15:43</span><br>
+<span>有没有插什么外设之类的。。</span><br>
+<span>没有啊，本机的usb断电输出都关了。我关机后就扔背包里了。感觉哪有问题</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>elflie 发表于 2020-7-6 15:46</span><br>
+<span>运输模式明显是为了防止运输过程中意外开机。。。</span><br>
+<span>嗯，但按bios说明同时也断开了内部电池的连接，相对来说更不容易跑电吧</span><br>
+<span>但我这种情况大概也不太正常，等下次网卡再出问题上联想售后看看</span><br>
+</p><p><b>ckl80: </b><br>
+<span>我上周末带着没插电至少两天半，中途开机应该不到半小时，插电时至少还有80%以上。不过我没用到过60%以下</span><br>
+</p><p><b>datzz: </b><br>
+<span> 本帖最后由 datzz 于 2020-7-6 16:16 编辑 </span><br>
+<span>关机跑电是电脑没关么，小新13air如果关机完成后盖屏幕不耗电 点关机直接盖屏幕耗电很多。。。</span><br>
+<span>—— 来自 realme RMX2071, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>lucky95: </b><br>
+<span>还行，有这需要买水果本</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>是否开启了关机时type-c反向充电（往外供电）</span><br>
+</p><p><b>red4: </b><br>
+<span>win10的问题，你点关机，然后盒盖，win10有一定几率系统会变成休眠，就是说关机的过程中如果遇到部分程序关闭较慢，而你电源选项里盒盖是休眠，那么休眠和关机会同时运行，如果休眠进城抢在关机之前，会把关机这个进城一起存进内存里休眠，然后内存一只在耗电，等你下次开机时会继续上一次关进进程。。。</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>你这是没关机</span><br>
+<span>是睡眠模式</span><br>
+<span>我r7000关机后每天跑电也就是2%左右最多</span><br>
+</p><p><b>datzz: </b><br>
+<span>red4 发表于 2020-7-6 17:02</span><br>
+<span>win10的问题，你点关机，然后盒盖，win10有一定几率系统会变成休眠，就是说关机的过程中如果遇到部分程序关 ...</span><br>
+<span>学到了。。。这也行，实在太太太麻烦了，每次关机都要等几秒</span><br>
+<span>—— 来自 realme RMX2071, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>red4 发表于 2020-7-6 17:02</span><br>
+<span>win10的问题，你点关机，然后盒盖，win10有一定几率系统会变成休眠，就是说关机的过程中如果遇到部分程序关 ...</span><br>
+<span>我是能确定关上了。</span><br>
+<span>因为机器是装在支架上，上面插了好多线，而且机器里加了机械硬盘。所以我是确认关上机器后才开始拔线拿机器合上屏幕的，最起码我这边看来，外屏已经黑了进入待机状态了，应该是关上了。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>真草稚京 发表于 2020-7-6 17:10</span><br>
+<span>你这是没关机</span><br>
+<span>是睡眠模式</span><br>
+<span>选的是关机不是睡眠这个我确定没错。你这个掉电的表现是正常的</span><br>
+<span>我现在还是考虑是不是关机时ax200跑死了，一直在耗电导致的</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>咲月露娜 发表于 2020-7-6 16:48</span><br>
+<span>是否开启了关机时type-c反向充电（往外供电）</span><br>
+<span>机器装包里了啥也没接。而且r7000的typec口似乎没这功能</span><br>
+</p><p><b>red4: </b><br>
+<span>liwangli1983 发表于 2020-7-6 17:58</span><br>
+<span>我是能确定关上了。</span><br>
+<span>因为机器是装在支架上，上面插了好多线，而且机器里加了机械硬盘。所以我是确认关上 ...</span><br>
+<span>win10的坑点就是如果你电脑没有关闭快速启动，每次关机实际都是睡眠，屏幕会先黑，但是机器内部还在运作，win10把内存镜像存入硬盘内，如果遇到卡线程，很耽误很长时间，如果不看指示灯，很难确实机器是否真的关闭，如果合盖又比较急，就可能会遇到关机到一边变成休眠了。其实如果用SSD，快速启动没必要开</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span> red4 发表于 2020-7-6 20:31 引用:liwangli1983 发表于 2020-7-6 17:58 我是能确定关上了。因为机器是装在支架上，上面插了好多线，而且机器里加了机械硬盘。所以我是确认关上 ... win10的坑点就是如果你电脑没有关闭快速启动，每次关机实际都是睡眠，屏幕会先黑，但是机器内部还在运作，win10把内存镜像存入硬盘内，如果遇到卡线程，很耽误很长时间，如果不看指示灯，很难确实机器是否真的关闭，如果合盖又 </span><br>
+<span>快速启动一早就关了，刚开始用的时候机器总是启动失败，查了下关了快速启动好了，所以应该不是这个原因</span><br>
+<span>我今晚又关机了，这次不合屏了看看啥情况</span><br>
+</p><p><b>albertfu: </b><br>
+<span> 我这台4800H拔了电源不关机而是待机，一天也就掉20%的电。。。</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>red4 发表于 2020-7-6 20:31</span><br>
+<span>win10的坑点就是如果你电脑没有关闭快速启动，每次关机实际都是睡眠，屏幕会先黑，但是机器内部还在运作 ...</span><br>
+<span>其他系统也是要关闭fastboot?比如说 win7</span><br>
+<span>fastboot我以为就是不显示自检画面而已</span><br>
+</p><p><b>煉獄の羊: </b><br>
+<span>我的笔记本也一样，关机放两天电池都空了</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>datzz 发表于 2020-7-6 17:13</span><br>
+<span>学到了。。。这也行，实在太太太麻烦了，每次关机都要等几秒</span><br>
+<span>—— 来自 realme RMX2071, Android ...</span><br>
+<span>你把合盖休眠关了，不然总有没等着的</span><br>
+<span>微软自家的SURFACE比这还扯，还会自动开机</span><br>
+</p><p><b>red4: </b><br>
+<span>泉玲奈 发表于 2020-7-7 00:47</span><br>
+<span>其他系统也是要关闭fastboot?比如说 win7</span><br>
+<span>fastboot我以为就是不显示自检画面而已</span><br>
+<span> ...</span><br>
+<span>win10的快速启动本质上是休眠，把内存镜像存入硬盘，然后关机，下次启动直接读取内存镜像，这与win7不同。</span><br>
+<span>win10的快速启动对于机械硬盘效果明显，但对于ssd效果不大，而且每次写入还损耗ssd的读写次数，每次读取内存不算重启，问题线程也关不掉，无用线程的内存也释放不掉</span><br>
+</p><p><b>烟萝: </b><br>
+<span>R7000这机器怎么样啊？</span><br>
+</p><p><b>沧粟: </b><br>
+<span>泉玲奈 发表于 2020-7-7 00:47</span><br>
+<span>其他系统也是要关闭fastboot?比如说 win7</span><br>
+<span>fastboot我以为就是不显示自检画面而已</span><br>
+<span> ...</span><br>
+<span>我觉得你搞混了，楼上说的快速启动是win8引入的新功能，和你电脑BIOS里的fast boot没关系</span><br>
+</p><p><b>datzz: </b><br>
+<span>shiraikuroko 发表于 2020-7-7 09:14</span><br>
+<span>你把合盖休眠关了，不然总有没等着的</span><br>
+<span>微软自家的SURFACE比这还扯，还会自动开机 ...</span><br>
+<span>学到了 0 0谢谢dalao！</span><br>
+<span>—— 来自 realme RMX2071, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>沧粟: </b><br>
+<span>以前用的Surface pro4就是关机2天电池漏光电，超级误事，凡是有这种问题笔记本的直接黑名单</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>昨晚关机一晚，早上看掉了从100%到99%，基本算没掉吧，这个看起来比较正常。</span><br>
+<span>考虑到发生这种事的时候伴随着ax200不能识别（需要彻底断电才能识别）的现象，目前还是倾向于我的ax200可能有点问题，下次再出现我就直接去联想售后换卡了。</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>沧粟 发表于 2020-7-7 09:56</span><br>
+<span>我觉得你搞混了，楼上说的快速启动是win8引入的新功能，和你电脑BIOS里的fast boot没关系 ...</span><br>
+<span>原来如此</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>red4 发表于 2020-7-7 09:22</span><br>
+<span>win10的快速启动本质上是休眠，把内存镜像存入硬盘，然后关机，下次启动直接读取内存镜像，这与win7不同 ...</span><br>
+<span>win10居然还允许运行在机械硬盘上?</span><br>
+<span>这是bug吧</span><br>
+</p><p><b>linux40: </b><br>
+<span>拿到新主板第一件事就是关闭快速启动和安全启动。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946152[0-50]</guid>
+    </item>
+  </channel>
+</rss>

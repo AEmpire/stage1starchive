@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一转眼 波士顿动力Atlas机器人又会过独木桥了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一转眼 波士顿动力Atlas机器人又会过独木桥了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:37:52 +0000</lastBuildDate>
+    <item>
+      <title>一转眼 波士顿动力Atlas机器人又会过独木桥了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831199-1-1.html</link>
+      <description>一转眼 波士顿动力Atlas机器人又会过独木桥了&#13;
+https://www.cnbeta.com/articles/tech/845831.htm
+&#13;
+过独木桥，踩乱砖块，走猫步，这是波士顿动力的Atlas机器人最新学会的能力！在美国人类与机器认知研究所（IHMC）新算法的支持下，Atlas完成了“最难行走实验”，成功走过了乱石块、独木桥式的狭窄通道等复杂地形。波士顿动力的 Atlas 机器人会过独木桥了！
+&#13;
+                                                                https://static.cnbetacdn.com/article/2019/0510/c05849cc4160f2a.jpg
+&#13;
+近日，IHMC Robotics 发布了一段相当震撼的**，视频中，波士顿动力的 Atlas 机器人 (DRC 版本) 在小心翼翼地、自主地走过各种物体，包括悬空的木板和摇晃的砖块。在摇晃的砖块上走
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/9111aeee13119db.gif走独木桥也不在话下
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/2365e281657d612.gif
+&#13;
+砖块看起来摇摇晃晃，木板桥的宽度比它自己的脚看起来宽不了多少，Atlas 要走模特儿一般的 “猫步”，难度还是不小的。在视频描述中，IHMC 称，Atlas 机器人已经能够通过自主规划在狭窄的地形上行走。Atlas 机器人由波士顿动力公司制造，但 IHMC Robotics 编写了控制、感知和规划算法，使机器人具备了视频中展示的灵活性。
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/4b2bfbaa5ad559a.gif
+&#13;
+DRC(DARPA 机器人挑战赛) 版的 Atlas 机器人使用系绳作为外部驱动，理由是：大型机器人容易大量耗电，而且系绳也有安全带的作用，可以防止机器人在测试时摔到地面。DRC 参赛机器人都在其内部安装有很重的电池包，这对于保持行走平衡来说是一大不利因素。Atlas 机器人高约 1.83 米，重约 149～181 千克，全身有多达 28 个液压关节，其原型是 PETMAN 机器人。
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/8e1ec516f5a0d5e.jpg砖块的宽度与机器人脚板宽度差不多IHMC 称，机器人利用激光雷达感知地形，并绘制平面区域的地图。路径规划算法将平面区域中机器人的足迹规划到由操作员制定的目标位置。目前，机器人在这种地形上走路的成功率约为 50%。IHMC 的研究人员计划通过使用角动量增加平衡，并更好地考虑关节的运动范围来提高成功率。
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/0d1086ebfcd5bb8.jpg
+&#13;
+“交叉步”使机器人结构不太稳定机器人在狭窄的地形上行走是很困难的，因为有时候要走 “交叉步”，由于机器人髋关节的运动范围有限，并且当一只脚跨到另一只脚的正前方时会造成一个小的多边形支撑，导致结构不稳定。重新编程软件，教Atlas像人类一样直腿走路IHMC 全称佛罗里达人类与机器认知研究所，是佛罗里达州立大学系统的非营利性研究机构。IHMC 的研究领域包括：人形机器人、双足机器人控制技术、生物启发的腿式机器人、人机系统设计、可穿戴式外骨骼设备等。2015 年，IHMC Robotics 在 DARPA 机器人挑战赛 (DRC) 获得第二名的好成绩，抱回100 万美元奖金，使用的是波士顿动力公司提供的 Atlas 硬件。之后，IHMC 继续对 Atlas 机器人进行编程升级，希望教它 “像人类一样走路”，获得灵活性和控制能力。
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/a7211d4dff6c55e.jpg机器人使用吸尘器有模有样灵活性例如 —— 做家务。他们公开的视频展示了机器人扫地、使用吸尘器清洁地板、搬动、整理仓库中的工具，将瓶瓶罐罐放进垃圾桶等。不过，视频是以 20 倍速播放的，实际的话 Atlas 的运行速度要慢得多，要在每一步停下来，思考和等待命令，然后执行每个任务的程序。
+&#13;
+让机器人直腿走路
+&#13;
+人形机器人有着非常独特的走路方式。他们的膝盖弯曲，躯干尽可能保持不动，波士顿动力的 Atlas 机器人也采用这种蹲伏式的走路方式，因为腿保持弯曲状态可以防止跌倒。让我们看一下Atlas是怎样走的：
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/cc8eccdcebf12d9.gif
+&#13;
+这种步态在人形机器人中非常常见，甚至已经成为机器人的 “正常” 步态。但人类不是这样走路的。我们走路时腿会有直着的时候，每一步都锁住膝盖，因为这样可以更好地支撑我们的重量。你可以自己试一试，学机器人那样一直弯曲着双腿走路会很累。https://static.cnbetacdn.com/article/2019/0510/85c4b72b7ab**d.jpg
+&#13;
+IHMC 的机器人专家们试图通过教 Altas 像人类一样走路来解决这个问题。除了提高类人机器人的效率外，更自然的步态还能让它们变得更加灵活，能够应对更多崎岖的地形。让机器人走路更像人
+&#13;
+为此，IHMC 开发了一种新的全身控制框架，驱动控制器使机器人的腿伸直，而不需要腿对地面施加更多的力。
+&#13;
+https://static.cnbetacdn.com/article/2019/0510/118484d1328cd22.gif
+&#13;
+从背后看，可以明显看到机器人膝盖有弯曲和直立的动作，步态更像人类从背后看，可以明显看到机器人膝盖有弯曲和直立的动作，步态更像人类在实际的测试中，Atlas 能够在各种地形上行走，甚至能够在腿挺直的情况下对轻度的攻击做出反应。</description>
+      <content:encoded><![CDATA[<p><b>kukimao: </b><br>
+<span>一转眼 波士顿动力Atlas机器人又会过独木桥了</span><br>
+<span>https://www.cnbeta.com/articles/tech/845831.htm</span><br>
+<span>过独木桥，踩乱砖块，走猫步，这是波士顿动力的Atlas机器人最新学会的能力！在美国人类与机器认知研究所（IHMC）新算法的支持下，Atlas完成了“最难行走实验”，成功走过了乱石块、独木桥式的狭窄通道等复杂地形。波士顿动力的 Atlas 机器人会过独木桥了！</span><br>
+<span>                                                                https://static.cnbetacdn.com/article/2019/0510/c05849cc4160f2a.jpg</span><br>
+<span>近日，IHMC Robotics 发布了一段相当震撼的**，视频中，波士顿动力的 Atlas 机器人 (DRC 版本) 在小心翼翼地、自主地走过各种物体，包括悬空的木板和摇晃的砖块。在摇晃的砖块上走</span><br>
+<span>https://static.cnbetacdn.com/article/2019/0510/9111aeee13119db.gif走独木桥也不在话下</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0510/2365e281657d612.gif" title="https://static.cnbetacdn.com/article/2019/0510/2365e281657d612.gif"><br>
+<span>砖块看起来摇摇晃晃，木板桥的宽度比它自己的脚看起来宽不了多少，Atlas 要走模特儿一般的 “猫步”，难度还是不小的。在视频描述中，IHMC 称，Atlas 机器人已经能够通过自主规划在狭窄的地形上行走。Atlas 机器人由波士顿动力公司制造，但 IHMC Robotics 编写了控制、感知和规划算法，使机器人具备了视频中展示的灵活性。</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0510/4b2bfbaa5ad559a.gif" title="https://static.cnbetacdn.com/article/2019/0510/4b2bfbaa5ad559a.gif"><br>
+<span>DRC(DARPA 机器人挑战赛) 版的 Atlas 机器人使用系绳作为外部驱动，理由是：大型机器人容易大量耗电，而且系绳也有安全带的作用，可以防止机器人在测试时摔到地面。DRC 参赛机器人都在其内部安装有很重的电池包，这对于保持行走平衡来说是一大不利因素。Atlas 机器人高约 1.83 米，重约 149～181 千克，全身有多达 28 个液压关节，其原型是 PETMAN 机器人。</span><br>
+<span>https://static.cnbetacdn.com/article/2019/0510/8e1ec516f5a0d5e.jpg砖块的宽度与机器人脚板宽度差不多IHMC 称，机器人利用激光雷达感知地形，并绘制平面区域的地图。路径规划算法将平面区域中机器人的足迹规划到由操作员制定的目标位置。目前，机器人在这种地形上走路的成功率约为 50%。IHMC 的研究人员计划通过使用角动量增加平衡，并更好地考虑关节的运动范围来提高成功率。</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0510/0d1086ebfcd5bb8.jpg" title="https://static.cnbetacdn.com/article/2019/0510/0d1086ebfcd5bb8.jpg"><br>
+<span>“交叉步”使机器人结构不太稳定机器人在狭窄的地形上行走是很困难的，因为有时候要走 “交叉步”，由于机器人髋关节的运动范围有限，并且当一只脚跨到另一只脚的正前方时会造成一个小的多边形支撑，导致结构不稳定。重新编程软件，教Atlas像人类一样直腿走路IHMC 全称佛罗里达人类与机器认知研究所，是佛罗里达州立大学系统的非营利性研究机构。IHMC 的研究领域包括：人形机器人、双足机器人控制技术、生物启发的腿式机器人、人机系统设计、可穿戴式外骨骼设备等。2015 年，IHMC Robotics 在 DARPA 机器人挑战赛 (DRC) 获得第二名的好成绩，抱回100 万美元奖金，使用的是波士顿动力公司提供的 Atlas 硬件。之后，IHMC 继续对 Atlas 机器人进行编程升级，希望教它 “像人类一样走路”，获得灵活性和控制能力。</span><br>
+<span>https://static.cnbetacdn.com/article/2019/0510/a7211d4dff6c55e.jpg机器人使用吸尘器有模有样灵活性例如 —— 做家务。他们公开的视频展示了机器人扫地、使用吸尘器清洁地板、搬动、整理仓库中的工具，将瓶瓶罐罐放进垃圾桶等。不过，视频是以 20 倍速播放的，实际的话 Atlas 的运行速度要慢得多，要在每一步停下来，思考和等待命令，然后执行每个任务的程序。</span><br>
+<span>让机器人直腿走路</span><br>
+<span>人形机器人有着非常独特的走路方式。他们的膝盖弯曲，躯干尽可能保持不动，波士顿动力的 Atlas 机器人也采用这种蹲伏式的走路方式，因为腿保持弯曲状态可以防止跌倒。让我们看一下Atlas是怎样走的：</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0510/cc8eccdcebf12d9.gif" title="https://static.cnbetacdn.com/article/2019/0510/cc8eccdcebf12d9.gif"><br>
+<span>这种步态在人形机器人中非常常见，甚至已经成为机器人的 “正常” 步态。但人类不是这样走路的。我们走路时腿会有直着的时候，每一步都锁住膝盖，因为这样可以更好地支撑我们的重量。你可以自己试一试，学机器人那样一直弯曲着双腿走路会很累。https://static.cnbetacdn.com/article/2019/0510/85c4b72b7ab**d.jpg</span><br>
+<span>IHMC 的机器人专家们试图通过教 Altas 像人类一样走路来解决这个问题。除了提高类人机器人的效率外，更自然的步态还能让它们变得更加灵活，能够应对更多崎岖的地形。让机器人走路更像人</span><br>
+<span>为此，IHMC 开发了一种新的全身控制框架，驱动控制器使机器人的腿伸直，而不需要腿对地面施加更多的力。</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0510/118484d1328cd22.gif" title="https://static.cnbetacdn.com/article/2019/0510/118484d1328cd22.gif"><br>
+<span>从背后看，可以明显看到机器人膝盖有弯曲和直立的动作，步态更像人类从背后看，可以明显看到机器人膝盖有弯曲和直立的动作，步态更像人类在实际的测试中，Atlas 能够在各种地形上行走，甚至能够在腿挺直的情况下对轻度的攻击做出反应。</span><br>
+</p><p><b>林拓: </b><br>
+<span>真·扫地机器人哈哈because we can</span><br>
+</p><p><b>arbox: </b><br>
+<span>真是大开眼界了，大开眼界！</span><br>
+</p><p><b>阿斯特纳冈: </b><br>
+<span>然后某个研究员的老婆......</span><br>
+</p><p><b>weibo.com: </b><br>
+<span>吸尘器那张图等半天都不动，我还以为下面下划线文字是视频链接，点进去特么是京东在卖吸尘器...</span><br>
+</p><p><b>vaana: </b><br>
+<span>暗牙入侵可以加新兵种了。</span><br>
+</p><p><b>guoe: </b><br>
+<span>建议机器人不要做成类人外形的 掉san</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>古屋敷由良: </b><br>
+<span>机器人壳子进度领先于里子</span><br>
+</p><p><b>dclara1: </b><br>
+<span>总感觉这家点的树路子很傻，仿生机器人有什么意思，为什么机器人还要学人用两条腿走路</span><br>
+</p><p><b>蕾咪莉亚: </b><br>
+<span>dclara1 发表于 2019-5-13 18:07</span><br>
+<span>总感觉这家点的树路子很傻，仿生机器人有什么意思，为什么机器人还要学人用两条腿走路 ...</span><br>
+<span> 我觉得蛮有前途的，不管是机器人女朋友，还是机器人女仆，希望四十年以后不用去养老院，买一个回来做饭卫生身体监控一条龙服务，希望研究能更快点，所以仿生皮肤什么的有在做了吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831199[0-50]</guid>
+    </item>
+  </channel>
+</rss>

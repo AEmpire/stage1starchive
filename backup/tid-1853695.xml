@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个问题，nvme m.2接口硬盘里的系统如何转移？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个问题，nvme m.2接口硬盘里的系统如何转移？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:18:01 +0000</lastBuildDate>
+    <item>
+      <title>问个问题，nvme m.2接口硬盘里的系统如何转移？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853695-1-1.html</link>
+      <description>问个问题，nvme m.2接口硬盘里的系统如何转移？&#13;
+ 本帖最后由 sagajytc 于 2019-8-15 21:19 编辑 
+
+手头有个128G nvme m.2接口的系统盘，年头挺久远了，3年了吧，接下来想换新扩容成500G级别，但想想主板只有一个m.2口，无法同时插上去转移系统，这种情况有啥窍门吗？</description>
+      <content:encoded><![CDATA[<p><b>sagajytc: </b><br>
+<span>问个问题，nvme m.2接口硬盘里的系统如何转移？</span><br>
+<span> 本帖最后由 sagajytc 于 2019-8-15 21:19 编辑 </span><br>
+<span>手头有个128G nvme m.2接口的系统盘，年头挺久远了，3年了吧，接下来想换新扩容成500G级别，但想想主板只有一个m.2口，无法同时插上去转移系统，这种情况有啥窍门吗？</span><br>
+</p><p><b>serial: </b><br>
+<span>借电脑/买硬盘盒</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>ghost整盘到镜像文件，目标另一块sata硬盘或nas上。</span><br>
+<span>换上500g的再ghost回来。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>十几块钱买一个pcie转m.2转接卡，接1x的就行</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sagajytc: </b><br>
+<span>有道理，我直接买pcie接口的ssd算了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853695[0-50]</guid>
+    </item>
+  </channel>
+</rss>

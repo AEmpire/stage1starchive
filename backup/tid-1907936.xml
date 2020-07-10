@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教一个算法问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教一个算法问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:56:25 +0000</lastBuildDate>
+    <item>
+      <title>求教一个算法问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907936-1-1.html</link>
+      <description>求教一个算法问题&#13;
+有m个点坐标,按照每组n个点分成若干组,然后将同组内的点用直线连接,不同组的点不能连接,最后要求所有直线长度总和最短.
+&#13;
+我目前只能做到直接给我n个点,然后将每个点用直线连接起来距离最短,分组这一步只能手动分
+&#13;
+不知道这种算法或者类似的算法有没有啥专门的术语,比如冒泡排序之类的?刚刚开始自学编程学习语言语法还能找入门视频啥的,这种算法类的有啥好的学习材料么?
+&#13;
+我看大家都是上Github可以搜索,但是这网站全英语的不说,最主要我感觉很多算法都有专门的术语,不知道术语的话搜索什么关键字都不知道,有没有自学的大佬来传授一下经验</description>
+      <content:encoded><![CDATA[<p><b>oliverhxf: </b><br>
+<span>求教一个算法问题</span><br>
+<span>有m个点坐标,按照每组n个点分成若干组,然后将同组内的点用直线连接,不同组的点不能连接,最后要求所有直线长度总和最短.</span><br>
+<span>我目前只能做到直接给我n个点,然后将每个点用直线连接起来距离最短,分组这一步只能手动分</span><br>
+<span>不知道这种算法或者类似的算法有没有啥专门的术语,比如冒泡排序之类的?刚刚开始自学编程学习语言语法还能找入门视频啥的,这种算法类的有啥好的学习材料么?</span><br>
+<span>我看大家都是上Github可以搜索,但是这网站全英语的不说,最主要我感觉很多算法都有专门的术语,不知道术语的话搜索什么关键字都不知道,有没有自学的大佬来传授一下经验</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span> 本帖最后由 蓝翔技校 于 2020-1-6 19:05 编辑 </span><br>
+<span>看错，编辑</span><br>
+</p><p><b>oliverhxf: </b><br>
+<span>蓝翔技校 发表于 2020-1-6 15:54</span><br>
+<span>不同组不能连，那么其他组的点就不用管，只要每个组内的距离最小加起来就是最小啊 ...</span><br>
+<span>但是分组的方法会影响总的连线长度的</span><br>
+</p><p><b>Redis: </b><br>
+<span>初看只能指数级暴力搜</span><br>
+</p><p><b>脑洞: </b><br>
+<span>搜下leetcode有没有原题，讨论区会讲这属于什么问题，分组有点动态规划的感觉，但是又觉得这题目信息不全</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>动态规划 最短路径 深度搜索 都试试咯</span><br>
+</p><p><b>魔铁潜水艇: </b><br>
+<span>你题目没说清楚啊，分成n个一组，这一组里面是要全部两两相连，还是把这一组连通就行？</span><br>
+</p><p><b>oliverhxf: </b><br>
+<span>魔铁潜水艇 发表于 2020-1-6 16:01</span><br>
+<span>你题目没说清楚啊，分成n个一组，这一组里面是要全部两两相连，还是把这一组连通就行？ ...</span><br>
+<span>把一组连通就行</span><br>
+</p><p><b>oliverhxf: </b><br>
+<span>oliverhxf 发表于 2020-1-6 16:03</span><br>
+<span>把一组连通就行</span><br>
+<span>同一个点可以多次链接</span><br>
+</p><p><b>nptomhhiu: </b><br>
+<span>粗略感觉了一下是m个点全部连上然后减掉n个最长的线段来分组 </span><br>
+<span>一个点能多次连就不是了</span><br>
+</p><p><b>lfwg001: </b><br>
+<span>感觉是最小生成树问题的变形</span><br>
+</p><p><b>光荣的小学生: </b><br>
+<span>这种题目m、n的大小很重要的</span><br>
+<span>如果m、n都很小，直接暴力就可以了；根据m、n的大小，你能直接知道最后算法复杂度大概是个什么样，然后基于这个寻找合适的算法</span><br>
+<span>这种题目的练习方式只有多刷题多思考，练到一定地步再看书，看别人的笔记，才能有提升</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>没太看懂题</span><br>
+<span>你都能求出每一组的最短长度了，呐把这个算法应用在每一组点上不就完事了？</span><br>
+</p><p><b>由比ケ浜結衣: </b><br>
+<span>感觉像聚类问题啊</span><br>
+</p><p><b>jpcl: </b><br>
+<span>lfwg001 发表于 2020-1-6 16:05</span><br>
+<span>感觉是最小生成树问题的变形</span><br>
+<span>就是最小生成树了</span><br>
+<span>同组内的点构成一个图，图内任意两点相连并有一个距离，直接最小生成树两个算法二选一</span><br>
+</p><p><b>月森葉子: </b><br>
+<span>听起来像是k means变种。</span><br>
+<span>如果是的话，那这问题就是np complete，只能找局部最优。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>OedoSoldier: </b><br>
+<span> 本帖最后由 OedoSoldier 于 2020-1-6 16:16 编辑 </span><br>
+<span>EMST的变种，NP-hard问题</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-1-6 17:26 编辑 </span><br>
+<span>一个全局最小生成树，按edge长度给所有连线排序，要求分n组，就砍掉n个edge之后自动分成n组，之后做局部最小生成树计算总和。随便一想.</span><br>
+<span>撒，看错了……应该是个组合复杂的问题。</span><br>
+</p><p><b>oliverhxf: </b><br>
+<span>jpcl 发表于 2020-1-6 16:09</span><br>
+<span>就是最小生成树了</span><br>
+<span>同组内的点构成一个图，图内任意两点相连并有一个距离，直接最小生成树两个算法二选一 ...</span><br>
+<span>我看了下最小生成树，感觉同组内的连线方法就是最小生成树，但是如何分组我就没有头绪</span><br>
+</p><p><b>秋月老师: </b><br>
+<span>似乎可以dp</span><br>
+<span>— from OnePlus GM1900, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>jpcl: </b><br>
+<span>oliverhxf 发表于 2020-1-6 16:19</span><br>
+<span>我看了下最小生成树，感觉同组内的连线方法就是最小生成树，但是如何分组我就没有头绪 ...</span><br>
+<span>他们说的应该对的</span><br>
+<span>我看错了，同组内是最小生成树</span><br>
+<span>分组的话可能要穷举，这个就不好搞了</span><br>
+<span>你可以看看原来复杂网络的分块好像研究过这种问题</span><br>
+<span>我在树人大学读计算器专业的时候搞过一点</span><br>
+<span>可能有点关系</span><br>
+</p><p><b>OedoSoldier: </b><br>
+<span>oliverhxf 发表于 2020-1-6 16:19</span><br>
+<span>我看了下最小生成树，感觉同组内的连线方法就是最小生成树，但是如何分组我就没有头绪 ...</span><br>
+<span>贪心算法最有效，可以参照Kruskal算法</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span> 本帖最后由 hunterkiller 于 2020-1-6 16:38 编辑 </span><br>
+<span>想岔了，不一样。</span><br>
+</p><p><b>extended: </b><br>
+<span>直觉上如果是最小生成树的话 按照Kruskal算法做然后只取前(m-1)-(n-1) 条生成树的边也许能行 然而懒得找证明或者反例了</span><br>
+</p><p><b>寿命不过一岁: </b><br>
+<span>蹲acm大佬</span><br>
+<span>一眼望去17l好像是对的</span><br>
+</p><p><b>瓦格雷: </b><br>
+<span>N个点分N组每组距离为0总距离为0完美</span><br>
+</p><p><b>holdson: </b><br>
+<span>先求出这m个点的所有两两距离，然后连接最小距离的两个点，次小距离的两个点，次次小的……，如果要连的距离跟上一个共点了，就跳过；</span><br>
+<span>共连m-n次。       </span><br>
+<span>如果n＞m/2即连接数需要超过m/2，就继续连接当下组与组之间距离最小的两点，消耗最小的距离把两个组合并</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>resty: </b><br>
+<span>如果只规定多少组，不规定每组n个倒是挺简单的。原题感觉NPC或NP-hard吧</span><br>
+</p><p><b>onoma: </b><br>
+<span>先做一次m个点的最小生成树，然后再参考Kruskal算法的分组方法，当一个集合内点数达到n个，就停止往这个分组继续添加坐标点？</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span>比较暴力的办法是伪全排列＋prim</span><br>
+<span>设m＝k*n</span><br>
+<span>复杂度是O(n!/(n的k次方)*nlogn)</span><br>
+<span>（这里用krus会多乘以n的复杂度，因为是完全图，mst的prim和krus的使用范围不能混淆）</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>楼上一堆不好好读题或者根本就是假算法</span><br>
+</p><p><b>pepase: </b><br>
+<span>holdson 发表于 2020-1-6 23:23</span><br>
+<span>先求出这m个点的所有两两距离，然后连接最小距离的两个点，次小距离的两个点，次次小的……，如果要连的距 ...</span><br>
+<span>这样不能保证合并两个组之后得到的新组总点数不大于n呀</span><br>
+</p><p><b>holdson: </b><br>
+<span>pepase 发表于 2020-1-7 06:57</span><br>
+<span>这样不能保证合并两个组之后得到的新组总点数不大于n呀</span><br>
+<span>看错了 以为是分成n组</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span> 本帖最后由 Linjiangzhu 于 2020-1-7 09:03 编辑 </span><br>
+<span>我觉得分成 ceil(m/n)组的算法比 EMST 难度还要大</span><br>
+<span>m个不同的球分到m/n个相同的框里是(m/n)!^(n-1) 这个复杂度</span><br>
+<span>我很菜，上面只是随便想了一下，可能算错</span><br>
+<span>感觉要先做聚类然后再算EMST</span><br>
+</p><p><b>越君: </b><br>
+<span>怎么感觉像我做物流调度的调度算法</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907936[0-50]</guid>
+    </item>
+  </channel>
+</rss>

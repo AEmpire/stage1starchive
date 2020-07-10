@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>向超能力者求助！按键精灵写了个脚本老是说我参数不对</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>向超能力者求助！按键精灵写了个脚本老是说我参数不对</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:58:27 +0000</lastBuildDate>
+    <item>
+      <title>向超能力者求助！按键精灵写了个脚本老是说我参数不对[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856799-1-1.html</link>
+      <description>向超能力者求助！按键精灵写了个脚本老是说我参数不对&#13;
+RT 如下，思路是在随机时间内按wsadqe随机一个按键，但是不知道为啥刀了 keypress 那步老实说返回参数错误 1107跑步起来
+&#13;
+求个高手帮在改下
+&#13;
+dim key(5),i
+&#13;
+//声明变量
+&#13;
+key(0)=81:key(1)=87:key(2)=69:key(3)=65:key(4)=83:key(5)=68
+&#13;
+//定义数组 包含6个键的键码
+&#13;
+Randomize
+&#13;
+//清空随机种子
+&#13;
+i=int((5+1)*rnd)
+&#13;
+//返回0~5随机数
+&#13;
+KeyPress key(i) 1
+&#13;
+//按键随机键一次</description>
+      <content:encoded><![CDATA[<p><b>lupin1984t: </b><br>
+<span>向超能力者求助！按键精灵写了个脚本老是说我参数不对</span><br>
+<span>RT 如下，思路是在随机时间内按wsadqe随机一个按键，但是不知道为啥刀了 keypress 那步老实说返回参数错误 1107跑步起来</span><br>
+<span>求个高手帮在改下</span><br>
+<span>dim key(5),i</span><br>
+<span>//声明变量</span><br>
+<span>key(0)=81:key(1)=87:key(2)=69:key(3)=65:key(4)=83:key(5)=68</span><br>
+<span>//定义数组 包含6个键的键码</span><br>
+<span>Randomize</span><br>
+<span>//清空随机种子</span><br>
+<span>i=int((5+1)*rnd)</span><br>
+<span>//返回0~5随机数</span><br>
+<span>KeyPress key(i) 1</span><br>
+<span>//按键随机键一次</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>你确定i=int((5+1)*rnd)返回的是0~5的数???</span><br>
+</p><p><b>lupin1984t: </b><br>
+<span>tsubasa9 发表于 2019-8-30 02:07</span><br>
+<span>你确定i=int((5+1)*rnd)返回的是0~5的数???</span><br>
+<span>*rnd 跟+1互换还是一样</span><br>
+<span> 要不应该怎么写？</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-8-30 04:02 编辑 </span><br>
+<span>key(i)支持吗？别搞数组这种花里胡哨的玩意了，定义abcde，写五个else if，就是这么简单粗暴。</span><br>
+</p><p><b>lupin1984t: </b><br>
+<span>HYNDコン 发表于 2019-8-30 03:59</span><br>
+<span>key(i)支持吗？别搞数组这种花里胡哨的玩意了，定义abcde，写五个else if，就是这么简单粗暴。</span><br>
+<span> ...</span><br>
+<span>else if 我反而容易混乱不会写啊 </span><br>
+<span>你能提供下么</span><br>
+</p><p><b>BRRM: </b><br>
+<span>第一次见把注释写在语句下面的</span><br>
+</p><p><b>BRRM: </b><br>
+<span> 本帖最后由 BRRM 于 2019-8-30 08:21 编辑 </span><br>
+<span>这种问题自己改改就会了，有啥好问的。</span><br>
+<span>先把key(0) key(1)......key(5)打印一遍，看看数组正不正常</span><br>
+<span>接着打印n次 i 看看有没有越界</span><br>
+<span>再接着打印 n 次 key(i) 看看能不能正确获取到数值</span><br>
+<span>最后还是不行的话，换一个函数试试，又不是只有Keypress一个。</span><br>
+<span>还有，别搞什么(5+1)*rnd 这种写法，要不然你直接脑内算好后写成6*rnd。</span><br>
+<span>要不然就造一个函数，函数接收上界和下界2个参数，具体的实现放在函数里面，以后还要用就直接复制粘贴这个造好的函数去用。</span><br>
+<span>你这种写出来很容易混乱的，你总要思考为啥要5+1，为啥要100-1+1这类的。</span><br>
+</p><p><b>wfantasia: </b><br>
+<span>wow挂机脚本吗</span><br>
+</p><p><b>lupin1984t: </b><br>
+<span> 本帖最后由 lupin1984t 于 2019-8-30 09:19 编辑 </span><br>
+<span>wfantasia 发表于 2019-8-30 08:57</span><br>
+<span>wow挂机脚本吗</span><br>
+<span>对</span><br>
+<span>其实 就是想弄个防T的脚本</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>lupin1984t 发表于 2019-8-30 04:23</span><br>
+<span>else if 我反而容易混乱不会写啊 </span><br>
+<span>你能提供下么</span><br>
+<img src="https://i.loli.net/2019/08/30/xZRk5sQghMCTNp3.png" title="https://i.loli.net/2019/08/30/xZRk5sQghMCTNp3.png"><br>
+<span>相当暴力的写法，但是很有用。</span><br>
+</p><p><b>cxn: </b><br>
+<span> 本帖最后由 cxn 于 2019-8-30 11:10 编辑 </span><br>
+<span>KeyPress key(i) 1</span><br>
+<span>少了个逗号吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856799[0-50]</guid>
+    </item>
+  </channel>
+</rss>

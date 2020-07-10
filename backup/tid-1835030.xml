@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Firefox 67 又瞎改了，无法在当前浏览器打开钉钉中的链接</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Firefox 67 又瞎改了，无法在当前浏览器打开钉钉中的链接</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:14:15 +0000</lastBuildDate>
+    <item>
+      <title>Firefox 67 又瞎改了，无法在当前浏览器打开钉钉中的链接[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835030-1-1.html</link>
+      <description>Firefox 67 又瞎改了，无法在当前浏览器打开钉钉中的链接&#13;
+明明我已经开了 firefox ，从钉钉中打开同事发过来的链接，就会打开一个新的fireofox 窗口，而且是一个调用默认配置的firefox ，而不是我已经打开的firefox中打开新标签。
+&#13;
+从QQ 中打开就没有问题。
+&#13;
+应该是升级到67 之后出现的问题。
+&#13;
+这个能不能改啊？钉钉中发来的链接都是内部网站，需要登录的，每次都得把链接复制到firefox 再打开。</description>
+      <content:encoded><![CDATA[<p><b>佳丽三千到: </b><br>
+<span>Firefox 67 又瞎改了，无法在当前浏览器打开钉钉中的链接</span><br>
+<span>明明我已经开了 firefox ，从钉钉中打开同事发过来的链接，就会打开一个新的fireofox 窗口，而且是一个调用默认配置的firefox ，而不是我已经打开的firefox中打开新标签。</span><br>
+<span>从QQ 中打开就没有问题。</span><br>
+<span>应该是升级到67 之后出现的问题。</span><br>
+<span>这个能不能改啊？钉钉中发来的链接都是内部网站，需要登录的，每次都得把链接复制到firefox 再打开。</span><br>
+</p><p><b>Hieda: </b><br>
+<span>你在命令行里执行firefox xxx.html，网页是用哪个profile打开的？</span><br>
+</p><p><b>螺纹: </b><br>
+<span>我还以为是钉钉的问题，没想到是ff的？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 17:19 编辑 </span><br>
+<span>我建议LZ使用国产浏览器，别折腾自己了 </span><br>
+<span>你说的问题关火狐什么事情？</span><br>
+</p><p><b>chachi: </b><br>
+<span>67版本内存泄漏，开个youtube首页能上到2.5g内存</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>chachi 发表于 2019-5-28 17:17</span><br>
+<span>67版本内存泄漏，开个youtube首页能上到2.5g内存</span><br>
+<span>----发送自 samsung SM-N9600,Android 9 ...</span><br>
+<span>关闭所有扩展看一下</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 17:30 编辑 </span><br>
+<span>下载测试了下，问题具体如下</span><br>
+<span>使用钉钉内部打开链接火狐是会新建一个新的配置文件，但是你用正常方式打开火狐原本的配置文件是正常的（钉钉打开不关的情况下）。你打开火狐配置文件目录，删除新的配置文件，再次用钉钉打开内部链接会弹出"无法载入firefox配置文件"所以我不认为这问题是在火狐身上，因为本身火狐没有出现所谓的配置文件被修改问题而是钉钉自己新建了一个配置文件。</span><br>
+</p><p><b>君往何处: </b><br>
+<span>说起来我倒是发现按住shift总是在新窗口中打开，有时候在地址栏搜索输入中文按快了就跳出一个新窗口，很烦人，好像还没办法关这个功能</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 17:12</span><br>
+<span>我建议LZ使用国产浏览器，别折腾自己了 </span><br>
+<span>你说的问题关火狐什么事情？</span><br>
+<span>因为我只更新了火狐啊</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>佳丽三千到 发表于 2019-5-28 17:30</span><br>
+<span>因为我只更新了火狐啊</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>尝试了下你那软件，问题明显是钉钉自身问题</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>Hieda 发表于 2019-5-28 16:42</span><br>
+<span>你在命令行里执行firefox xxx.html，网页是用哪个profile打开的？</span><br>
+<span>用的是我正常工作使用的那个配置。</span><br>
+<span>没有新建。</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 17:29</span><br>
+<span>下载测试了下，问题具体如下</span><br>
+<span>使用钉钉内部打开链接火狐是会新建一个新的配置文件，但是你用正常方式打开火 ...</span><br>
+<span>Firefox 67版本开始，用户可以同时运行不同配置文件的Firefox，且可以同时运行测试版和发行版。</span><br>
+<span>找了一个firefox 67 的更新内容。</span><br>
+<span>难道是这个原因？</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 17:53</span><br>
+<span>尝试了下你那软件，问题明显是钉钉自身问题</span><br>
+<span>难讲。</span><br>
+<span>没更新fireofox 之前没有问题。</span><br>
+<span>要就是firefox 新功能 钉钉没有适配好。</span><br>
+<span>Firefox 67版本开始，用户可以同时运行不同配置文件的Firefox，且可以同时运行测试版和发行版。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 18:06 编辑 </span><br>
+<span>佳丽三千到 发表于 2019-5-28 17:57</span><br>
+<span>找了一个firefox 67 的更新内容。</span><br>
+<span>难道是这个原因？</span><br>
+<span>所以是钉钉自身问题，之前版本只是由于没有开放对应的权限所以这问题没有显现出来，这次更新开放了权限也正好曝出这个问题出来了。</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 18:03</span><br>
+<span>所以是钉钉自身问题</span><br>
+<span>明明是火狐做新功能没有兼容旧版本。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 18:15 编辑 </span><br>
+<span>佳丽三千到 发表于 2019-5-28 18:05</span><br>
+<span>明明是火狐做新功能没有兼容旧版本。</span><br>
+<span>你到底懂不懂啊？一个外部打开链接兼容旧版本？我头一次听说有这种说法。</span><br>
+<span>况且用何种方式打开浏览器是你软件的事情或者说简单点你说是火狐问题？那么为什就只有你钉钉有这问题其余软件打开都是正常的？</span><br>
+<span>再加上你上面贴出的更新记录，你真觉得这问题是更新到67.0后出现的？我怎么觉得从以前开始就一直有了，只是被火狐限制了。</span><br>
+<span>再加上除了钉钉问题外，火狐自身有什么问题？正常情况下还是打开的原本的默认配置文件。</span><br>
+<span>还有钉钉这问题可不是只有67版本有问题，是67版本开始后都有这问题</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 18:08</span><br>
+<span>你到底懂不懂啊？一个外部打开链接兼容旧版本？我头一次听说有这种说法。</span><br>
+<span>况且用何种方式打开浏览器是你软 ...</span><br>
+<span>对啊，就是旧版火狐限制而新版火狐没有限制啊。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>佳丽三千到 发表于 2019-5-28 18:15</span><br>
+<span>对啊，就是旧版火狐限制而新版火狐没有限制啊。</span><br>
+<span>这是火狐问题吗？你钉钉自己强制新建一个新配置这还怪火狐了？火狐只是开放了对应的权限，怎么做那是你软件自身的事情。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>佳丽三千到 发表于 2019-5-28 18:15</span><br>
+<span>对啊，就是旧版火狐限制而新版火狐没有限制啊。</span><br>
+<span>你看看能限制用新配置开网页吗？这明显是钉钉不按规范开发网页。打开网页非要用新配置。</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 18:19</span><br>
+<span>这是火狐问题吗？你钉钉自己强制新建一个新配置这还怪火狐了？火狐只是开放了对应的权限，怎么做那是你软 ...</span><br>
+<span>就算不同应用中提供链接时加上不同标识，也是很正常的事情吧？不然怎么追踪来源？</span><br>
+<span>浏览器访问网站不也要提供 User Agent？</span><br>
+<span>你谷歌系网站识别到 Mozilla 就做限制，识别到 Chrome 就优化，难道不是谷歌的问题？</span><br>
+<span>同理啊，标题我就说了，firefox 瞎改。</span><br>
+<span>我不允许钉钉升级，只允许firefox 升级就表明我的态度了。</span><br>
+<span>但是firefox 越改越折腾人也是让人恼火。</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>chachi 发表于 2019-5-28 17:17</span><br>
+<span>67版本内存泄漏，开个youtube首页能上到2.5g内存</span><br>
+<span>----发送自 samsung SM-N9600,Android 9 ...</span><br>
+<span>我的也是</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>若荼泱 发表于 2019-5-28 18:20</span><br>
+<span>你看看能限制用新配置开网页吗？这明显是钉钉不按规范开发网页。打开网页非要用新配置。 ...</span><br>
+<span>怎么限制呢？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 18:35 编辑 </span><br>
+<span>佳丽三千到 发表于 2019-5-28 18:23</span><br>
+<span>就算不同应用中提供链接时加上不同标识，也是很正常的事情吧？不然怎么追踪来源？</span><br>
+<span>浏览器访问网站不也要 ...</span><br>
+<span>问题是firefox根本没瞎改。谁管你标题写的什么，我的测试结果就是钉钉自身问题</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>先别争谁对谁错了，看看怎么解决问题吧</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 18:32</span><br>
+<span>问题是firefox根本没瞎改</span><br>
+<span>你说没瞎改就没瞎改？</span><br>
+<span>67配置文件出问题的是只有用钉钉的我一个人？</span><br>
+<span>Firefox67选择用户配置文件 窗口无法 启动时不询问？？</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-5-28 18:40 编辑 </span><br>
+<span>佳丽三千到 发表于 2019-5-28 18:36</span><br>
+<span>你说没瞎改就没瞎改？</span><br>
+<span>67配置文件出问题的是只有用钉钉的我一个人？</span><br>
+<span>Firefox67选择用户配置文件 窗口无法 ...</span><br>
+<span>https://www.firefox.net.cn/3g-read-run?tid=79002我用的是Chrome，没东西测试，看看这个能不能解决问题？</span><br>
+<span>再补一个</span><br>
+<span>http://mozilla.com.cn/thread-413585-1-1.htmllz你抱怨之前先搜搜看解决办法，都不用放狗搜，百度就有</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-5-28 18:42 编辑 </span><br>
+<span>佳丽三千到 发表于 2019-5-28 18:36</span><br>
+<span>你说没瞎改就没瞎改？</span><br>
+<span>67配置文件出问题的是只有用钉钉的我一个人？</span><br>
+<span>Firefox67选择用户配置文件 窗口无法 ...</span><br>
+<span>链接里的问题跟你根本不是一回事请，说句现实例子，你钉钉这问题在我nightly版本上都有</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>暁美ほむら 发表于 2019-5-28 18:39</span><br>
+<span>链接里的问题跟你根本不是一回事请，说句现实例子，你钉钉这问题在我nightly版本上都有 ...</span><br>
+<span>那就是67版本 Firefox 出了我一个问题，他一个问题。</span><br>
+<span>你不承认我的，那也是firefox 67出了他一个问题。</span><br>
+<span>所以一样是 Firefox 瞎改。</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>若荼泱 发表于 2019-5-28 18:39</span><br>
+<span>https://www.firefox.net.cn/3g-read-run?tid=79002我用的是Chrome，没东西测试，看看这个能不能解决问题 ...</span><br>
+<span>谢谢</span><br>
+<span>用 mozilla 链接中的 about:profiles 方法暂时解决了，我把他新创建的配置文件删掉了。</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>pgain2004 发表于 2019-5-28 18:36</span><br>
+<span>先别争谁对谁错了，看看怎么解决问题吧</span><br>
+<span>http://mozilla.com.cn/thread-413585-1-1.html </span><br>
+<span>26 楼给的链接中，选择默认默认配置文件应该可以解决。建议加到你的主题贴中去。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>佳丽三千到 发表于 2019-5-28 18:47</span><br>
+<span>http://mozilla.com.cn/thread-413585-1-1.html </span><br>
+<span>26 楼给的链接中，选择默认默认配置文件应该可以解决。 ...</span><br>
+<span>我就开个扩展推荐帖结果在向综合帖发展也是醉得不行（捂脸</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>pgain2004 发表于 2019-5-28 19:05</span><br>
+<span>我就开个扩展推荐帖结果在向综合帖发展也是醉得不行（捂脸</span><br>
+<span>唉，楼高了是什么话题都有的。</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zh244102987: </b><br>
+<span>借楼问下，连接火狐官方扩展网站，总不显示图片，且扩展下载不了，错误提示："下载失败。请检查您的网络连接。"</span><br>
+<span>搞不定啊，现在唯一支持mactype的主流浏览器了，chrome都把关dw选项移除了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835030[0-50]</guid>
+    </item>
+  </channel>
+</rss>

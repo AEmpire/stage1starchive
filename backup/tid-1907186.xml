@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有人试过两台电脑之间串口互连吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有人试过两台电脑之间串口互连吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:12 +0000</lastBuildDate>
+    <item>
+      <title>有人试过两台电脑之间串口互连吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907186-1-1.html</link>
+      <description>有人试过两台电脑之间串口互连吗？&#13;
+这里有个问题是，两台电脑都没串口，所以去准备了USB转RS232的线，但这线的RS232是公口，所以要连起来还需要一个两端都是RS232母口的线，但是这个线我搜索了一下发现有两种，一种是交叉的一种是直连的，请问我该选哪种？</description>
+      <content:encoded><![CDATA[<p><b>abcxiawei: </b><br>
+<span>有人试过两台电脑之间串口互连吗？</span><br>
+<span>这里有个问题是，两台电脑都没串口，所以去准备了USB转RS232的线，但这线的RS232是公口，所以要连起来还需要一个两端都是RS232母口的线，但是这个线我搜索了一下发现有两种，一种是交叉的一种是直连的，请问我该选哪种？</span><br>
+</p><p><b>宏: </b><br>
+<span>神奇的问题，为什么你不用USB互联？</span><br>
+</p><p><b>404489039: </b><br>
+<span>现在的网卡应该都能自适应，不用交叉线也行</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>交叉，串口和不像网线有线序调整；</span><br>
+<span>话说我很早前用网线连两台电脑（00年左右），那时网卡还没线序自动调整，我就买错了直联线，后来找商家换了交叉线才好用</span><br>
+</p><p><b>robit: </b><br>
+<span> 交叉线，奔腾133年代用过这种方式联机打游戏。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>你买头子和线可以自己做，一头的读要接另一头的写</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>串口速度最快115.2Kb/s，都有两台电脑了，又不是设备，这是要干吗……</span><br>
+</p><p><b>abcxiawei: </b><br>
+<span>谢谢楼上各位给出的答案</span><br>
+<span>之所以必须用串口，是因为这是为了搭建测试环境，有个工业电脑必须用串口传数据</span><br>
+</p><p><b>514500: </b><br>
+<span>我寻思把平板电脑支持dp1.2的c口和笔记本电脑的全功能c口相连能不能互为攻受呢？</span><br>
+</p><p><b>567478: </b><br>
+<span>串口的连接方式粗暴到极致，2根线搓一下连在一起就能用</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>我想问问两台电脑互传数据，有除了网线之外的有线方法吗</span><br>
+<span>—— 来自 samsung SM-G9708, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>居尔一拳 发表于 2020-1-2 17:57</span><br>
+<span>我想问问两台电脑互传数据，有除了网线之外的有线方法吗</span><br>
+<span>—— 来自 samsung SM-G9708, Android 9上的 S1Ne ...</span><br>
+<span>两台电脑都有雷电口说不定能直接连，其他折腾的不如直接硬盘对拷</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>bodul: </b><br>
+<span>tibbo虚拟串口用网线不行么</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>买个串口母对母转接头就行了，或者买个usb转串口母头线</span><br>
+</p><p><b>uzar: </b><br>
+<span>两个串口母头，一截网线接一下就好了，23交叉，5对5</span><br>
+</p><p><b>lhm123: </b><br>
+<span>居尔一拳 发表于 2020-1-2 17:57</span><br>
+<span>我想问问两台电脑互传数据，有除了网线之外的有线方法吗</span><br>
+<span>—— 来自 samsung SM-G9708, Android 9上的 S1Ne ...</span><br>
+<span>usb对拷线</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>232串口需要交叉，TX对RX，RX对TX，如果有流控的话流控脚也需交叉互联</span><br>
+</p><p><b>win8: </b><br>
+<span>原生串口毕竟稳定没毛病就是速度可能捉急</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>我用串口拷文件，总是只能串固定数量的字符，压力稍微大一点就不稳定</span><br>
+</p><p><b>御风八极: </b><br>
+<span>abcxiawei 发表于 2020-01-02 17:09:46</span><br>
+<span>谢谢楼上各位给出的答案</span><br>
+<span>之所以必须用串口，是因为这是为了搭建测试环境，有个工业电脑必须用串口传数据 ...usb就是高速串口。</span><br>
+<span>usb互联效率高的多。淘宝上十块钱一根线搞定。</span><br>
+<span>如果设备上的破程序是锁死了串口号，不能用com4，那就是直接说搞不定，逼老板安排弄新的软件或新机器。</span><br>
+<span>国内往往没有软件生命周期的意识，拿到个老程序就以为是铁饭碗能靠着吃一辈子。最后是给自己挖坑。你今天搞定了低速串口，接下来的是无穷无尽的数据传输要求，逼你7x24小时也传不完。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>御风八极: </b><br>
+<span> 本帖最后由 御风八极 于 2020-1-4 14:22 编辑 </span><br>
+<span>居尔一拳 发表于 2020-01-02 17:57:28</span><br>
+<span>我想问问两台电脑互传数据，有除了网线之外的有线方法吗</span><br>
+<span>—— 来自 samsung SM-G9708, Android 9上的v2. ...</span><br>
+<span>usb线对考。但是不如两个usb转网卡加网线算了。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>御风八极: </b><br>
+<span>win8 发表于 2020-01-02 20:15:01</span><br>
+<span>原生串口毕竟稳定没毛病就是速度可能捉急原声串口最邪恶的地方在于很多软件锁死了串口号不能走usb转换的com3，com4。这种在代码里直接写死接口编号的工程师上辈子都是裹脚老太太，眼界就芝麻粒大。。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>chachi: </b><br>
+<span> 本帖最后由 chachi 于 2020-1-4 21:51 编辑 </span><br>
+<span>测试环境弄个虚拟串口啊</span><br>
+<span>一装就是一对，一个发，一个收。</span><br>
+<img src="https://www.eltima.com/imgnew/products/vspd/splash/vspdpro-bundle.jpg" title="https://www.eltima.com/imgnew/products/vspd/splash/vspdpro-bundle.jpg"><br>
+</p><p><b>ada_ovo: </b><br>
+<span>abcxiawei 发表于 2020-1-2 17:09</span><br>
+<span>谢谢楼上各位给出的答案</span><br>
+<span>之所以必须用串口，是因为这是为了搭建测试环境，有个工业电脑必须用串口传数据 ...</span><br>
+<span>真传数据不如485，没有这个对插交叉的问题</span><br>
+<span>除了楼上说的rx-tx，害得注意一下电平别买成ttl了</span><br>
+</p><p><b>warrior: </b><br>
+<span>那个。。。。一个串口是 COM几不是可以随便配么，被占用了改下注册表就完了啊</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>宏 发表于 2020-1-2 16:52</span><br>
+<span>神奇的问题，为什么你不用USB互联？</span><br>
+<span>USB没有互联功能吧？以前连过没反应。</span><br>
+</p><p><b>宏: </b><br>
+<span>lixianfyss 发表于 2020-1-5 02:28</span><br>
+<span>USB没有互联功能吧？以前连过没反应。</span><br>
+<span>得要上面说的对拷线，直接互联得TB3/USB4</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>宏 发表于 2020-1-5 02:42</span><br>
+<span>得要上面说的对拷线，直接互联得TB3/USB4</span><br>
+<span>搜了下这东西我用过，速度很慢，主要用来连鼠标键盘还行。</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>如果是多台设备 甚至可以考虑网络串口</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>宏: </b><br>
+<span>lixianfyss 发表于 2020-1-5 05:07</span><br>
+<span>搜了下这东西我用过，速度很慢，主要用来连鼠标键盘还行。</span><br>
+<span>你买的USB2.0吧，大部分是这种，少部分USB3.0</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907186[0-50]</guid>
+    </item>
+  </channel>
+</rss>

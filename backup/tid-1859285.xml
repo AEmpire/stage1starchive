@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python小白求教关键字匹配多行时如何选择第二行</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python小白求教关键字匹配多行时如何选择第二行</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:42:29 +0000</lastBuildDate>
+    <item>
+      <title>python小白求教关键字匹配多行时如何选择第二行[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859285-1-1.html</link>
+      <description>python小白求教关键字匹配多行时如何选择第二行&#13;
+ 本帖最后由 佳丽三千到 于 2019-10-14 18:35 编辑 
+
+1aaaa
+&#13;
+bbbb
+&#13;
+ccccc
+&#13;
+2aaa
+&#13;
+ddddd
+&#13;
+比如说文本内容如上，我想找出“aaa”匹配的第二行，代码如下，为什么打印出来的是两行呢？
+&#13;
+我只想要 2aaa 这一行
+&#13;
+with open('lines.txt', 'r',encoding="utf8") as f1:
+&#13;
+      for line in f1.readlines():
+&#13;
+            line = line.strip()
+&#13;
+            if "aaa" in line:
+&#13;
+                ln = line
+&#13;
+                print (ln)</description>
+      <content:encoded><![CDATA[<p><b>佳丽三千到: </b><br>
+<span>python小白求教关键字匹配多行时如何选择第二行</span><br>
+<span> 本帖最后由 佳丽三千到 于 2019-10-14 18:35 编辑 </span><br>
+<span>1aaaa</span><br>
+<span>bbbb</span><br>
+<span>ccccc</span><br>
+<span>2aaa</span><br>
+<span>ddddd</span><br>
+<span>比如说文本内容如上，我想找出“aaa”匹配的第二行，代码如下，为什么打印出来的是两行呢？</span><br>
+<span>我只想要 2aaa 这一行</span><br>
+<span>with open('lines.txt', 'r',encoding="utf8") as f1:</span><br>
+<span>      for line in f1.readlines():</span><br>
+<span>            line = line.strip()</span><br>
+<span>            if "aaa" in line:</span><br>
+<span>                ln = line</span><br>
+<span>                print (ln)</span><br>
+</p><p><b>橋白: </b><br>
+<span>这不是肯定的吗.....判断aaa在不在line里面 两次符合打印两次咯....</span><br>
+<span>做个计数变量不就好了另外你循环那行缩进复制黏贴错了</span><br>
+</p><p><b>相互理解: </b><br>
+<span>with open('lines.txt', 'r', encoding='utf8') as f1:</span><br>
+<span>    it = (line for line in f1 if 'aaa' in line)</span><br>
+<span>    next(it)</span><br>
+<span>    print(next(it))</span><br>
+</p><p><b>脑洞: </b><br>
+<span>re = []</span><br>
+<span>with open('lines.txt', 'r',encoding="utf8") as f1:</span><br>
+<span>      for line in f1.readlines():</span><br>
+<span>            line = line.strip()</span><br>
+<span>            if "aaa" in line:</span><br>
+<span>                re.push(line)</span><br>
+<span>print(re)</span><br>
+<span>你放在循环里，第一次的line会是啥哦</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>相互理解 发表于 2019-10-13 18:50</span><br>
+<span>1aaaa</span><br>
+<span>bbbb</span><br>
+<span>ccccc</span><br>
+<span>2aaa</span><br>
+<span>ddddd</span><br>
+<span>为什么照你这样执行出来的结果不能切片呢？</span><br>
+<span>报<generator object addSheet.<locals>.<genexpr> at 0x03A0C930></span><br>
+<span>实际上我是想把 a 前面的1 或 2 单独提取出来的。</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    pattern = "aaa"</span><br>
+<span>    with open("lines.txt", 'r', encoding="utf-8") as f1:</span><br>
+<span>      it = (line for line in f1 if pattern in line)</span><br>
+<span>      target = next(it)</span><br>
+<span>      words = target.split(pattern)</span><br>
+<span>      prefix = words if len(words) > 1 else None</span><br>
+<span>      print(prefix)</span><br>
+</p><p><b>Dreki: </b><br>
+<span>学正则吧，反正早晚都要学，早学早享受.....</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>python都打错了。。。</span><br>
+</p><p><b>Timme: </b><br>
+<span>定义个skip变量，初始为1。当匹配到aaa时，如果skip为0就打印，然后匹配到aaa skip变成0</span><br>
+</p><p><b>sekitomokazu: </b><br>
+<span>用正则才是正道</span><br>
+</p><p><b>mkx: </b><br>
+<span>佳丽三千到 发表于 2019-10-14 17:38</span><br>
+<span>为什么照你这样执行出来的结果不能切片呢？</span><br>
+<span>报</span><br>
+<span>实际上我是想把 a 前面的1 或 2 单独提取出来的。</span><br>
+<span>他那是比较标准的写法，如果不能理解，需要去看下迭代器的相关知识。</span><br>
+<span>你在改写到自己的代码里时，应该是对迭代器而不是“结果”进行了切片操作，建议检查代码逻辑。</span><br>
+<span>另外，从一楼的代码片段来看，打印出来的两行应该都是“a”，而不是你预期的“1”和“2”。因此，我猜测你应该对py的语法还不熟练。所以建议还是巩固一下。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859285[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>自主开发编程语言被指Python套壳，中科院开发者道歉</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>自主开发编程语言被指Python套壳，中科院开发者道歉</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:40:43 +0000</lastBuildDate>
+    <item>
+      <title>自主开发编程语言被指Python套壳，中科院开发者道歉[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910090-1-1.html</link>
+      <description>自主开发编程语言被指Python套壳，中科院开发者道歉&#13;
+https://rmh.pdnews.cn/Pc/ArtInfoApi/article?id=10915508
+&#13;
+中科院计算所团队“完全自主设计、开发和实现”的“木兰”编程语言是Python语言的套壳产品？针对近日这一网络质疑，1月17日，项目负责人、中科院计算所编译实验室员工刘雷在科学网上发表回应称，木兰语言在8位单片机上的编译器是本团队开发的，在32位单片机上的编译器是基于Python开源编译器进行的二次开发，但在接受采访中将木兰编程语言和编译器夸大为完全自主开发。
+&#13;
+https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_55a769ef12081d3d04faf4402c06955a.jpeg
+&#13;
+刘雷关于“木兰”编程语言的情况说明全文如下：
+&#13;
+本人系中科院计算所编译实验室员工。基于我在编译技术上的科研积累创办了中科智芯（北京）科技有限公司，该公司围绕青少年编程教育，设计开发编程语言、编译器和集成开发环境等产品。
+&#13;
+为了更好地在中小学中普及计算思维，本人带领团队开发了一种称为“木兰“的编程语言。它包含三个组成部分：一、在语言规范上借鉴了Lua语言的特性并进行了扩展，增加数据表达方法等新的特性；二、开发了支持少儿编程教育的可视化编程环境；三、针对8位AVR单片机，实现了相应的编译器和运行时系统，开发了能模拟多任务执行的虚拟机。以上产品已经在数百所中小学中，开展了10万人次的编程科普活动。
+&#13;
+针对STM32单片机，我们是基于Python开源编译器进行的二次开发，也就是先将木兰语言的源程序转换为Python的中间表示（AST），再在Python虚拟机上运行。这就是在开发和运行环境中会包含Python系统的原因。
+&#13;
+在1月15日接受媒体采访时，本人在对木兰编程语言的介绍中，犯了以下错误：
+&#13;
+1. 木兰编程语言主要是用于中小学教育，在介绍中将它扩大到智能物联领域。
+&#13;
+2. 木兰语言在8位单片机上的编译器是本团队开发的，在32位单片机上的编译器是基于Python开源编译器进行的二次开发，但在接受采访中将木兰编程语言和编译器夸大为完全自主开发。
+&#13;
+对于此次在网络上造成的不良影响，本人郑重道歉，对给中科院、中科院计算所带来的不良后果表示诚挚的歉意。本人感谢大家的监督与批评，并深刻反省，保证不再出现类似问题。
+&#13;
+此前，据中国新闻网等多家媒体报道，中国科学院计算技术研究所（以下简称中科院计算所）1月15日正式对外发布该所计算机体系结构国家重点实验室编译技术团队自主研发、面向新一代人工智能和物联网应用的“木兰”编程语言体系，并推出“木兰”开源软件包，供全球用户免费下载获取。
+&#13;
+但随后网络上争议四起，知乎网友@沉迷单车就指出，从网络下载的“木兰”语言编辑器程序图标来看，与用著名编程语言Python生成的应用程序图标完全一致。“都不换个图标吗？”他问道。
+&#13;
+https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_8713f3325e4aa9ab699a1e66e979d1f0.jpeg
+&#13;
+澎湃新闻记者并未在中科院计算所或计算机体系结构国家重点实验室官方网站上找到“木兰”的发布信息，亦无下载链接。
+&#13;
+“木兰”的下载渠道在一家名为“中科智芯”的公司网站上。据企业主页介绍，中科智芯（北京）科技有限公司是中国科学院计算技术研究所孵化企业，源中科院计算所计算机体系结构国家重点实验室而成立。</description>
+      <content:encoded><![CDATA[<p><b>kukimao: </b><br>
+<span>自主开发编程语言被指Python套壳，中科院开发者道歉</span><br>
+<span>https://rmh.pdnews.cn/Pc/ArtInfoApi/article?id=10915508</span><br>
+<span>中科院计算所团队“完全自主设计、开发和实现”的“木兰”编程语言是Python语言的套壳产品？针对近日这一网络质疑，1月17日，项目负责人、中科院计算所编译实验室员工刘雷在科学网上发表回应称，木兰语言在8位单片机上的编译器是本团队开发的，在32位单片机上的编译器是基于Python开源编译器进行的二次开发，但在接受采访中将木兰编程语言和编译器夸大为完全自主开发。</span><br>
+<img src="https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_55a769ef12081d3d04faf4402c06955a.jpeg" title="https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_55a769ef12081d3d04faf4402c06955a.jpeg"><br>
+<span>刘雷关于“木兰”编程语言的情况说明全文如下：</span><br>
+<span>本人系中科院计算所编译实验室员工。基于我在编译技术上的科研积累创办了中科智芯（北京）科技有限公司，该公司围绕青少年编程教育，设计开发编程语言、编译器和集成开发环境等产品。</span><br>
+<span>为了更好地在中小学中普及计算思维，本人带领团队开发了一种称为“木兰“的编程语言。它包含三个组成部分：一、在语言规范上借鉴了Lua语言的特性并进行了扩展，增加数据表达方法等新的特性；二、开发了支持少儿编程教育的可视化编程环境；三、针对8位AVR单片机，实现了相应的编译器和运行时系统，开发了能模拟多任务执行的虚拟机。以上产品已经在数百所中小学中，开展了10万人次的编程科普活动。</span><br>
+<span>针对STM32单片机，我们是基于Python开源编译器进行的二次开发，也就是先将木兰语言的源程序转换为Python的中间表示（AST），再在Python虚拟机上运行。这就是在开发和运行环境中会包含Python系统的原因。</span><br>
+<span>在1月15日接受媒体采访时，本人在对木兰编程语言的介绍中，犯了以下错误：</span><br>
+<span>1. 木兰编程语言主要是用于中小学教育，在介绍中将它扩大到智能物联领域。</span><br>
+<span>2. 木兰语言在8位单片机上的编译器是本团队开发的，在32位单片机上的编译器是基于Python开源编译器进行的二次开发，但在接受采访中将木兰编程语言和编译器夸大为完全自主开发。</span><br>
+<span>对于此次在网络上造成的不良影响，本人郑重道歉，对给中科院、中科院计算所带来的不良后果表示诚挚的歉意。本人感谢大家的监督与批评，并深刻反省，保证不再出现类似问题。</span><br>
+<span>此前，据中国新闻网等多家媒体报道，中国科学院计算技术研究所（以下简称中科院计算所）1月15日正式对外发布该所计算机体系结构国家重点实验室编译技术团队自主研发、面向新一代人工智能和物联网应用的“木兰”编程语言体系，并推出“木兰”开源软件包，供全球用户免费下载获取。</span><br>
+<span>但随后网络上争议四起，知乎网友@沉迷单车就指出，从网络下载的“木兰”语言编辑器程序图标来看，与用著名编程语言Python生成的应用程序图标完全一致。“都不换个图标吗？”他问道。</span><br>
+<img src="https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_8713f3325e4aa9ab699a1e66e979d1f0.jpeg" title="https://rmrbcmsonline.peopleapp.com/upload/zw/bjh_image/1579396541_8713f3325e4aa9ab699a1e66e979d1f0.jpeg"><br>
+<span>澎湃新闻记者并未在中科院计算所或计算机体系结构国家重点实验室官方网站上找到“木兰”的发布信息，亦无下载链接。</span><br>
+<span>“木兰”的下载渠道在一家名为“中科智芯”的公司网站上。据企业主页介绍，中科智芯（北京）科技有限公司是中国科学院计算技术研究所孵化企业，源中科院计算所计算机体系结构国家重点实验室而成立。</span><br>
+</p><p><b>Thermo: </b><br>
+<span>图标都没换还行</span><br>
+</p><p><b>onoma: </b><br>
+<span>学学人家文言文的Helloworld，换皮好歹也换个骚一点的撒</span><br>
+<span>Wenyan-lang:</span><br>
+<span>吾有一數。曰三。名之曰「甲」。</span><br>
+<span>為是「甲」遍。</span><br>
+<span>      吾有一言。曰「「問天地好在。」」。書之。</span><br>
+<span>云云</span><br>
+<span>var n = 3;for (var i = 0; i < n; i++) {        console.log("問天地好在。");}</span><br>
+</p><p><b>镜工坊: </b><br>
+<span>同行12年，不知python是国产</span><br>
+<span>                                                       ---sg网友</span><br>
+</p><p><b>pyjq: </b><br>
+<span>道歉有用还要警察干什么。</span><br>
+<span>有日本躬匠的内味了</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>獠牙护目镜: </b><br>
+<span>当代汉芯</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>spongec: </b><br>
+<span>易语言真是脚踏实地，各种小工具软件都有它的身影</span><br>
+</p><p><b>whzfjk: </b><br>
+<span> 本帖最后由 whzfjk 于 2020-1-21 12:22 编辑 </span><br>
+<span>ulang-0.2.2.exe 应该是 ulang 的解释器，不是编译器也不是编辑器。大概因为用 Python Installer 直接打包的所以是这个图标。是用 Python 写的，解包后有 Python 的文件和虚拟机也是正常。</span><br>
+<span>本质问题是这个走了一遍语法解析的语言设计与实现创新性低到零，集成性也没有。把 Python 的几个语法要素简单替换了一下，基本代码片段甚至似乎可以直接 eval 让 Python 虚拟机自己再解析一边执行。即便作为单片机平台的捆绑产品也是多此一举，拿出来吹实在是没有 B 数。</span><br>
+<span>即便是产品集成，做个库就行了，规定下一二三四步骤的编程框架和规范，根本不需要去改动语言前端。</span><br>
+<span>虚构推理一下，也许是 8 位单片机上跑不动 CPython，他们自己实现也没能力全兼容，就简化语法再顺手缝合一下，写了个实现。然后对 32 位单片机要保证一致就拿 CPython 做后端简单实现了一下？</span><br>
+</p><p><b>东非大裂谷: </b><br>
+<span>这不说明派桑确实好嘛</span><br>
+</p><p><b>Einbert: </b><br>
+<span>獠牙护目镜 发表于 2020-1-21 11:58</span><br>
+<span>当代汉芯</span><br>
+<span>汉芯至少把 logo 磨掉了，这个连图标都没换</span><br>
+</p><p><b>红都剧院24排4号: </b><br>
+<span>改名叫素贞吧</span><br>
+</p><p><b>kaflash: </b><br>
+<span>whzfjk 发表于 2020-1-21 12:15</span><br>
+<span>ulang-0.2.2.exe 应该是 ulang 的解释器，不是编译器也不是编辑器。大概因为用 Python Installer 直接打包 ...</span><br>
+<span>我估计是直接拿32位的开源代码抄了一遍，把4byte改成1byte</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>kaflash 发表于 2020-1-21 15:23</span><br>
+<span>我估计是直接拿32位的开源代码抄了一遍，把4byte改成1byte</span><br>
+<span>主要是官方实现比较完备，放那么弱的单片机上怕是跑不起来，不过这个 8 位的实现也没公布就是了</span><br>
+</p><p><b>Redis: </b><br>
+<span>搞个语言好歹走心点</span><br>
+</p><p><b>SUYIFA: </b><br>
+<span>道歉有用的话不就和日本人一个样了吗</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>當初聽到新聞我就猜到有點不對勁...</span><br>
+</p><p><b>jpcl: </b><br>
+<span>我觉着还行啊</span><br>
+<span>鲜花也是插在牛粪上的啊</span><br>
+</p><p><b>队長: </b><br>
+<span>硬有汉芯，软有木兰</span><br>
+</p><p><b>happydog: </b><br>
+<span>敢搞出来就要开源，不开源谁知道里面的猫腻。</span><br>
+</p><p><b>eurydice: </b><br>
+<span>骗得到就退休了，骗不到继续骗</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>中科院计算所《关于“木兰”语言问题的调查与处理意见》：http://www.ict.ac.cn/shye/tzgg/202001/P020200123675380148930.pdf</span><br>
+<span>结论：夸大宣传、虚假陈述、欺瞒行为</span><br>
+<span>处罚：禁止晋升、禁止评优、岗位降级（助理工程师一级）</span><br>
+<span>木兰未获得国家科研项目资助</span><br>
+</p><p><b>martinium: </b><br>
+<span>挺好的啊，下一个透明计算</span><br>
+<span>— from Google Pixel 2, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>qwased: </b><br>
+<span>spongec 发表于 2020-1-21 12:07</span><br>
+<span>易语言真是脚踏实地，各种小工具软件都有它的身影</span><br>
+<span>易语言是教程牛逼+现成轮子超多吧，写个爬虫什么的都不需要编程基础直接缝合一下就能用了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910090[0-50]</guid>
+    </item>
+  </channel>
+</rss>

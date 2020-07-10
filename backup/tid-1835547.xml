@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用XTU降压后时不时被重置</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用XTU降压后时不时被重置</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:11:10 +0000</lastBuildDate>
+    <item>
+      <title>用XTU降压后时不时被重置[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835547-1-1.html</link>
+      <description>用XTU降压后时不时被重置&#13;
+主要是不知道什么情况下会被重置
+&#13;
+过段时间就得检查下
+&#13;
+各位有遇到类似问题的吗？</description>
+      <content:encoded><![CDATA[<p><b>脚本水平: </b><br>
+<span>用XTU降压后时不时被重置</span><br>
+<span>主要是不知道什么情况下会被重置</span><br>
+<span>过段时间就得检查下</span><br>
+<span>各位有遇到类似问题的吗？</span><br>
+</p><p><b>lasrotel: </b><br>
+<span>谁说是时不时重制了？</span><br>
+<span>是每次启动都会重置，甚至睡眠重启也会的。就算显示的是没有重置，你看下面的监视器，cpu电压其实是变回去了。</span><br>
+<span>所以你其实得每次开机都重新调整一次。</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>lasrotel 发表于 2019-5-30 10:20</span><br>
+<span>谁说是时不时重制了？</span><br>
+<span>是每次启动都会重置，甚至睡眠重启也会的。就算显示的是没有重置，你看下面的监视器 ...</span><br>
+<span>那也太麻烦了吧....</span><br>
+</p><p><b>litel: </b><br>
+<span>用throttlestop。。。</span><br>
+<span>xtu太难用了</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lasrotel: </b><br>
+<span>脚本水平 发表于 2019-5-30 10:21</span><br>
+<span>那也太麻烦了吧....</span><br>
+<span>这也是为了安全考虑，你不小心调坏了，重启一下就能解决。真想改得从bios来改。不过英特尔不带k的cpu可能改不了。</span><br>
+</p><p><b>sheepx86: </b><br>
+<span>可以弄个Powershell/vbs脚本开机启动，以下是我自用的:</span><br>
+<span># XTU.ps1</span><br>
+<span>$status = Get-Service -name "XTU3SERVICE" | Select-Object {$_.status} | format-wide</span><br>
+<span>if ($status -ne "Running") { start-service -name "XTU3SERVICE"}</span><br>
+<span>& "C:\Program Files (x86)\Intel\Intel(R) Extreme Tuning Utility\Client\XTUCli.exe" -t -id 34 | out-null</span><br>
+<span>$fileContent = Get-Content "C:\XTU_xmlFiles\Control34.txt"</span><br>
+<span>$offsetString = ($fileContent -split '\s+' | findstr "mV")</span><br>
+<span># XTU的CLI有点傻，如果你已经设置了-100再跑一遍就会还原成0</span><br>
+<span>if ($offsetString -eq "0mV") {</span><br>
+<span>& "C:\Program Files (x86)\Intel\Intel(R) Extreme Tuning Utility\Client\XTUCli.exe" -t -id 34 -v -100</span><br>
+<span>}</span><br>
+<span>Remove-Item C:\XTU_xmlFiles -Recurse -Force</span><br>
+</p><p><b>sirlion: </b><br>
+<span>养成习惯，每次使用电脑就调一次电压，而且我的笔记本在降压后时不时会出现无线网卡断流的情况，有点烦</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835547[0-50]</guid>
+    </item>
+  </channel>
+</rss>

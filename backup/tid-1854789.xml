@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>2080ti玩游戏黑屏是什么毛病（主楼更新跳电前的监控记录）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>2080ti玩游戏黑屏是什么毛病（主楼更新跳电前的监控记录）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:11:03 +0000</lastBuildDate>
+    <item>
+      <title>2080ti玩游戏黑屏是什么毛病（主楼更新跳电前的监控记录）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854789-1-1.html</link>
+      <description>2080ti玩游戏黑屏是什么毛病（主楼更新跳电前的监控记录）&#13;
+ 本帖最后由 vilen 于 2019-8-22 21:31 编辑 
+
+最新换了新显卡但是每次玩游戏1小时左右都会黑屏一次，必须按电源重启电脑才能恢复。奇怪的是每天黑屏一次以后再怎么折腾都不会再黑屏了，但是第二天开机玩1小时又会出现黑屏问题。
+&#13;
+开始以为是650W电源带不动显卡，玩游戏的时候时不时看一眼AIDA64上的GPU TDP监控，最多也就拉到60%这样，
+&#13;
+而且我玩的也不是特别吃显卡的那种大型游戏，显卡温度不会超过60度。
+&#13;
+现在不懂问题是出在显卡还是其他硬件上，坛友们帮忙出出主意，
+&#13;
+是先换个大电源（850W够吗?）呢，还是直接申请换显卡（买了京东的3年换新险），还是有其他手段可以排查问题出处。
+&#13;
+===========================
+&#13;
+8月22日更新
+&#13;
+装了个3DMARK跑没到10分钟就跳掉了
+&#13;
+图1是主板的报错信息显示防电涌机制触发，图2是GPU-Z记录的最后一分钟显卡的参数
+&#13;
+所以这是电源的锅还是主板的锅呢？要是把anti-surge关掉会不会对电脑有伤害？</description>
+      <content:encoded><![CDATA[<p><b>vilen: </b><br>
+<span>2080ti玩游戏黑屏是什么毛病（主楼更新跳电前的监控记录）</span><br>
+<span> 本帖最后由 vilen 于 2019-8-22 21:31 编辑 </span><br>
+<span>最新换了新显卡但是每次玩游戏1小时左右都会黑屏一次，必须按电源重启电脑才能恢复。奇怪的是每天黑屏一次以后再怎么折腾都不会再黑屏了，但是第二天开机玩1小时又会出现黑屏问题。</span><br>
+<span>开始以为是650W电源带不动显卡，玩游戏的时候时不时看一眼AIDA64上的GPU TDP监控，最多也就拉到60%这样，</span><br>
+<span>而且我玩的也不是特别吃显卡的那种大型游戏，显卡温度不会超过60度。</span><br>
+<span>现在不懂问题是出在显卡还是其他硬件上，坛友们帮忙出出主意，</span><br>
+<span>是先换个大电源（850W够吗?）呢，还是直接申请换显卡（买了京东的3年换新险），还是有其他手段可以排查问题出处。</span><br>
+<span>===========================</span><br>
+<span>8月22日更新</span><br>
+<span>装了个3DMARK跑没到10分钟就跳掉了</span><br>
+<span>图1是主板的报错信息显示防电涌机制触发，图2是GPU-Z记录的最后一分钟显卡的参数</span><br>
+<span>所以这是电源的锅还是主板的锅呢？要是把anti-surge关掉会不会对电脑有伤害？</span><br>
+</p><p><b>vilen: </b><br>
+<span>再补充一下黑屏时的状况：</span><br>
+<span>桌面是全黑的，只显示最底下的任务栏</span><br>
+<span>游戏进程还在，画面全黑，但是游戏音乐和音效能正常播放</span><br>
+<span>按c+a+d三键也没反应，只能按电源重启</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>电脑没跳掉应该就不是电源的毛病，插拔一下显卡，清空显卡驱动再重装试试，如果原来是a卡可能要清空驱动</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vilen: </b><br>
+<span>DeepFishing 发表于 2019-8-21 00:23</span><br>
+<span>电脑没跳掉应该就不是电源的毛病，插拔一下显卡，清空显卡驱动再重装试试，如果原来是a卡可能要清空驱动</span><br>
+<span> ...</span><br>
+<span>刚好今天出了新驱动，选了清洁安装，明天再观察一下情况</span><br>
+</p><p><b>Johnie01: </b><br>
+<span> 本帖最后由 Johnie01 于 2019-8-21 02:23 编辑 </span><br>
+<span>多试几个游戏排除法看看</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>CHH电源问题都吵了好久了，极有可能是电源问题，650w带2080ti还是有点勉强</span><br>
+</p><p><b>你的全家: </b><br>
+<span>你hdmi还能输出声音 还能看得见任务栏 屏幕没有花</span><br>
+<span>就 没啥硬件问题 别去买新电源 跟这个没关系 买也别买海韵</span><br>
+<span>有可能游戏文件损坏（即使最近没更新游戏也可能莫名其妙自爆了，我最近系统文件遇到一次），有可能驱动不兼容 nv最新的436？好像修了一批渲染bug</span><br>
+<span>换个游戏打两小时看看 不要换同一家出品的</span><br>
+<span>驱动回滚觉得麻烦直接下个cuda10.0启动清洁安装</span><br>
+<span>附带的驱动理论上是turing测的最全的驱动 游戏优化多半一个没有就是</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>madbird302: </b><br>
+<span>大概率电源问题，尤其是只出现在你玩游戏功耗比较高的时候，换个800W左右的吧</span><br>
+</p><p><b>转战千里: </b><br>
+<span>用dp线……别用hdmi</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>清空驱动，换老驱动试试，检查一下其他内存CPU啥的有没有装好，这边内存有问题就会突然死机，然后把有问题的内存拔掉就好了</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vilen: </b><br>
+<span>重装驱动后今天又出问题了，这次整机直接跳掉了</span><br>
+<span>AIDA64似乎没有对电源工况的监控，那么有什么别的软件可以监控电源的吗？</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>vilen 发表于 2019-8-21 14:20</span><br>
+<span>重装驱动后今天又出问题了，这次整机直接跳掉了</span><br>
+<span>AIDA64似乎没有对电源工况的监控，那么有什么别的 ...</span><br>
+<span>排查不出来的，因为这代显卡有非常高的瞬时功率，因为这个原因不少人都遇到了电源问题，具体帖子隔壁CHH一堆</span><br>
+</p><p><b>Sheny: </b><br>
+<span>vilen 发表于 2019-8-21 14:20</span><br>
+<span>重装驱动后今天又出问题了，这次整机直接跳掉了</span><br>
+<span>AIDA64似乎没有对电源工况的监控，那么有什么别的 ...</span><br>
+<span>电源可以7天无理由，jd当天到货。试试呗</span><br>
+</p><p><b>韦伯: </b><br>
+<span> 本帖最后由 韦伯 于 2019-8-21 14:32 编辑 </span><br>
+<span>先说说看什么电源</span><br>
+<span>用了多久的电源</span><br>
+<span>新的650瓦其实也hold住</span><br>
+<span>旧的有些效率并没那么高</span><br>
+<span>这代卡是挺高的，要配9900k就更高了，</span><br>
+<span>但什么瞬时那些破事吹必须上千瓦就是部分电源厂营销放屁，不必当真</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>买个功率计几十块钱</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>vilen 发表于 2019-8-21 14:20</span><br>
+<span>重装驱动后今天又出问题了，这次整机直接跳掉了</span><br>
+<span>AIDA64似乎没有对电源工况的监控，那么有什么别的 ...</span><br>
+<span>电源没数据连接，软件没用的，怕功率的问题下个xtu和afterburner限制整个系统的功耗看看，重新插拔一下硬件试试，再不行想办法售后吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vilen: </b><br>
+<span> 本帖最后由 vilen 于 2019-8-21 14:48 编辑 </span><br>
+<span>韦伯 发表于 2019-8-21 14:29</span><br>
+<span>先说说看什么电源</span><br>
+<span>用了多久的电源</span><br>
+<span>用了4年的海韵白金660W https://item.jd.com/904489.html</span><br>
+<span>U是6700K 没超过</span><br>
+</p><p><b>vilen: </b><br>
+<span>qzy741147 发表于 2019-8-21 14:30</span><br>
+<span>买个功率计几十块钱</span><br>
+<span>有个这样的电表，但是没有记录功能，不知道崩的那一刻功率有多少</span><br>
+</p><p><b>ft5555: </b><br>
+<span>简单啊MSI Afterburner 把显卡功耗拉低50% 看看还黑不黑</span><br>
+</p><p><b>韦伯: </b><br>
+<span> 本帖最后由 韦伯 于 2019-8-21 15:10 编辑 </span><br>
+<span>vilen 发表于 2019-8-21 14:42</span><br>
+<span>用了4年的海韵白金660W https://item.jd.com/904489.html</span><br>
+<span>U是6700K 没超过</span><br>
+<span>这次电源大战恰饭就主要是海韵的水军[当然包括部分海贼的型号，因为是海韵代工]，看样子应该是过流保护太敏感老是翻车</span><br>
+<span>这新的批次650、750瓦就没这问题，你可以换个新一点型号的600~800瓦电源就行了</span><br>
+<span>当然你不差钱直接千瓦以上战未来也没什么错</span><br>
+<span>反正也是要祖传多用几年的货</span><br>
+</p><p><b>sagajytc: </b><br>
+<span>660W也是官方认可的吧，可能是主板供电问题？</span><br>
+</p><p><b>obiy: </b><br>
+<span>你们又要挑起战争吗</span><br>
+</p><p><b>转战千里: </b><br>
+<span>我A卡用户，VEGA56也和楼主一样，但是我不是黑屏是游戏花屏。。。昨天玩星际仓鼠2小时25分钟的时候花了，最近花屏有点多，我特效都开得很少，不知道为啥会这样。。开始以为是HDMI线的问题，换了DP线好了几天，现在又来了。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>转战千里 发表于 2019-8-22 10:34</span><br>
+<span>我A卡用户，VEGA56也和楼主一样，但是我不是黑屏是游戏花屏。。。昨天玩星际仓鼠2小时25分钟的时候 ...</span><br>
+<span>为啥去不售后</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vilen: </b><br>
+<span>主楼做了更新，请坛友们再帮我看看到底是哪里的问题</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-8-22 13:01 编辑 </span><br>
+<span>电源是PC里面最容易老化的零件之一，除了半导体衰减，主要是电容内部特性的衰减，内部电解液干枯或减少，导致容量衰减。</span><br>
+<span>反正是用几年的电源，我是不会再使用了。</span><br>
+<span>折腾电脑10余年，PC的英特尔电源标准都修改好几个大版本了，从开始的5V的CPU供电，到12V双路供电，到现在的单路12V供电标准。</span><br>
+<span>好像最新的是去年的Intel ATX12V规范 2.52版本了。这十多年来基本没有一个电源能战未来的。</span><br>
+<span>别人都说了没个十几万设备测不出来瞬时突发功耗</span><br>
+<span>海韵这次翻车是挺多的可以考虑更换电源了</span><br>
+<span>anti surge不要随便关，谨防爆破主板</span><br>
+<span>我用的SFX-L 800瓦带rtx titan，仅供参考</span><br>
+</p><p><b>aurraro: </b><br>
+<span>先换个大电源试试嘛，如果真没问题了皆大欢喜</span><br>
+</p><p><b>lvcha: </b><br>
+<span>转战千里 发表于 2019-8-22 10:34</span><br>
+<span>我A卡用户，VEGA56也和楼主一样，但是我不是黑屏是游戏花屏。。。昨天玩星际仓鼠2小时25分钟的时候 ...</span><br>
+<span>花瓶是坏了，显存可能性大</span><br>
+</p><p><b>vilen: </b><br>
+<span>天神十三煞 发表于 2019-8-23 04:50</span><br>
+<span>别人都说了没个十几万设备测不出来瞬时突发功耗</span><br>
+<span>海韵这次翻车是挺多的可以考虑更换电源了</span><br>
+<span>所以说高端电源也当不了传家宝，买个金牌的用个三五年换掉才是正解？</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>vilen 发表于 2019-8-21 00:03</span><br>
+<span>再补充一下黑屏时的状况：</span><br>
+<span>桌面是全黑的，只显示最底下的任务栏</span><br>
+<span>游戏进程还在，画面全黑，但是游戏音乐和音 ...</span><br>
+<span>打人硕板子这个传感器非常容易出问题,直接关掉这个功能就行了 </span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>建议换硬件前先重装系统测试一下。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854789[0-50]</guid>
+    </item>
+  </channel>
+</rss>

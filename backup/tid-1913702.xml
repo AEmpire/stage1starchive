@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>可以求CPP生成EXE吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>可以求CPP生成EXE吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:13:10 +0000</lastBuildDate>
+    <item>
+      <title>可以求CPP生成EXE吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913702-1-1.html</link>
+      <description>可以求CPP生成EXE吗&#13;
+机器上没有VC而且知识基本全扔了 
+&#13;
+是一个老游戏的解包小程序他这里只有源码
+&#13;
+https://github.com/priverop/LA-Tools/blob/master/Luminous%20Arc/la_unpack.cpp
+&#13;
+用到的HexTools.h和BinaryTools.h是不是需要另找</description>
+      <content:encoded><![CDATA[<p><b>莫里斯: </b><br>
+<span>可以求CPP生成EXE吗</span><br>
+<span>机器上没有VC而且知识基本全扔了 </span><br>
+<span>是一个老游戏的解包小程序他这里只有源码</span><br>
+<span>https://github.com/priverop/LA-Tools/blob/master/Luminous%20Arc/la_unpack.cpp</span><br>
+<span>用到的HexTools.h和BinaryTools.h是不是需要另找</span><br>
+</p><p><b>litel: </b><br>
+<span>//      if (mkdir(folderName.c_str(), S_IRWXU | S_IRWXG | S_IRWXO) != 0)</span><br>
+<span>      if (mkdir(folderName.c_str()) != 0)</span><br>
+<span>unpack里面48行报参数错误，我把参数删了，能不能用就不知道了。。。。</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>没报错呀</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913702[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求助】接斐讯K2p后电驴成LowIP了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求助】接斐讯K2p后电驴成LowIP了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:58:35 +0000</lastBuildDate>
+    <item>
+      <title>【求助】接斐讯K2p后电驴成LowIP了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856778-1-1.html</link>
+      <description>【求助】接斐讯K2p后电驴成LowIP了&#13;
+ 本帖最后由 冰痕 于 2019-8-29 23:40 编辑 
+
+所用联通网络目前没有IPv6电脑直接连光猫的情况下eMule是HighID，但是中间接斐讯K2p的情况下就变LowID了
+&#13;
+光猫就是纯粹的光电转换，不会自动拨号，得电脑或者路由器拨号后才能上网，K2p刷的官改固件，版本号V2.0D
+&#13;
+骡子和路由器的UPnP已开，UPnP列表里能看到骡子的TCP和UDP端口
+&#13;
+把UPnP关了，在端口转发里把两个端口添加进去也没用
+&#13;
+有没有大神来帮忙解决下？</description>
+      <content:encoded><![CDATA[<p><b>冰痕: </b><br>
+<span>【求助】接斐讯K2p后电驴成LowIP了</span><br>
+<span> 本帖最后由 冰痕 于 2019-8-29 23:40 编辑 </span><br>
+<span>所用联通网络目前没有IPv6电脑直接连光猫的情况下eMule是HighID，但是中间接斐讯K2p的情况下就变LowID了</span><br>
+<span>光猫就是纯粹的光电转换，不会自动拨号，得电脑或者路由器拨号后才能上网，K2p刷的官改固件，版本号V2.0D</span><br>
+<span>骡子和路由器的UPnP已开，UPnP列表里能看到骡子的TCP和UDP端口</span><br>
+<span>把UPnP关了，在端口转发里把两个端口添加进去也没用</span><br>
+<span>有没有大神来帮忙解决下？</span><br>
+</p><p><b>kukimao: </b><br>
+<span>ip变成内网了</span><br>
+</p><p><b>qwased: </b><br>
+<span>upnp是不能传递的，你要是不会破解光猫就去淘宝花20块钱叫人帮你改成桥接模式用K2P拨号</span><br>
+</p><p><b>冰痕: </b><br>
+<span>qwased 发表于 2019-8-29 23:22</span><br>
+<span>upnp是不能传递的，你要是不会破解光猫就去淘宝花20块钱叫人帮你改成桥接模式用K2P拨号</span><br>
+<span> ...</span><br>
+<span>呃~可能没说明白，我的光猫不会自动拨号</span><br>
+<span>现在就是用路由器拨号上网的</span><br>
+</p><p><b>qwased: </b><br>
+<span>冰痕 发表于 2019-8-29 23:39</span><br>
+<span>呃~可能没说明白，我的光猫不会自动拨号</span><br>
+<span>现在就是用路由器拨号上网的</span><br>
+<span>那你确定一下路由器拿到公网IP没有</span><br>
+</p><p><b>qwased: </b><br>
+<span>另外WIN10的防火墙很坑，你可以把防火墙关了看看是不是变成high id了</span><br>
+</p><p><b>netplaying: </b><br>
+<span>以前tplink的路由开dmz主机就可以有HighID了。现在的不知道</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>ipv6默认是不开通的，要自己改光猫设置才可以，我这里电信和移动的宽带都是这样，联通没接触过不清楚。</span><br>
+</p><p><b>モトロ: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-30 01:30</span><br>
+<span>ipv6默认是不开通的，要自己改光猫设置才可以，我这里电信和移动的宽带都是这样，联通没接触过不清楚。 ...</span><br>
+<span>该换天翼网关了</span><br>
+</p><p><b>smishe: </b><br>
+<span>可能是防火墙的原因。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>电驴还有人用啊 能下得动？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>把k2p里的ipv6打开呢</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>开端口映射</span><br>
+<span>懒得搞就直接把dmz设为电脑的IP</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>另外我的k2p以前刷过官改固件，是不支持ipv6的，最新版支不支持不清楚。</span><br>
+</p><p><b>冰痕: </b><br>
+<span> 本帖最后由 冰痕 于 2019-8-30 17:49 编辑 </span><br>
+<span>qwased 发表于 2019-8-29 23:46</span><br>
+<span>那你确定一下路由器拿到公网IP没有</span><br>
+<span>确定，路由器管理界面看到拨号获取的IP是公网IP</span><br>
+<span>另外如果是系统防火墙的问题，那么我用电脑直连的时候就不会是highID了</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span> NAT类型？你原来电脑拨号有公网IP的话 应该是NAT1 路由拨号的话 是不是不是默认NAT1？搜个NAT类型测试工具试下吧</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>冰痕: </b><br>
+<span>Saker_bobo 发表于 2019-8-30 17:46</span><br>
+<span>NAT类型？你原来电脑拨号有公网IP的话 应该是NAT1 路由拨号的话 是不是不是默认NAT1？搜个NAT类型 ...</span><br>
+<span>不知道是什么，我先搜下不行的话我过两天找找老netgear路由器试试，那个当初adsl的时候是可以highID的</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>冰痕 发表于 2019-8-30 17:54</span><br>
+<span>不知道是什么，我先搜下不行的话我过两天找找老netgear路由器试试，那个当初adsl的时候是可以highID的 ...</span><br>
+<span>下个软件看下 只要1分钟 不是端口转发的话 应该就是NAT类型的问题</span><br>
+</p><p><b>qwased: </b><br>
+<span>Saker_bobo 发表于 2019-8-30 18:04</span><br>
+<span>下个软件看下 只要1分钟 不是端口转发的话 应该就是NAT类型的问题</span><br>
+<span>nat类型只影响不支持upnp的软件</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>冰痕 发表于 2019-8-30 17:41</span><br>
+<span>确定，路由器管理界面看到拨号获取的IP是公网IP</span><br>
+<span>另外如果是系统防火墙的问题，那么我用电脑直连的时候就 ...</span><br>
+<span>别用官改，刷个老毛子试试，感觉路由器固件的锅的可能性比较大</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856778[0-50]</guid>
+    </item>
+  </channel>
+</rss>

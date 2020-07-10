@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，有没有什么软件搬家的工具？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，有没有什么软件搬家的工具？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:26 +0000</lastBuildDate>
+    <item>
+      <title>求助，有没有什么软件搬家的工具？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857725-1-1.html</link>
+      <description>求助，有没有什么软件搬家的工具？&#13;
+之前因为手贱把SSD分了两个分区，其中一个分区用来放软件的，当时使用软件啥问题都没有。但是随着C盘日益的发育，空间已经不够用了，于是把原本用来放软件的D盘上的所有东西都迁移到另外一个新硬盘，老的D盘删除分区后合并到C盘上，新的硬盘更改盘符为D盘后软件还能正常使用。
+&#13;
+但是新的这个D盘是个老的机械硬盘，打开一些体积巨大的软件的时候那打开的速度简直就是悲催，请问有没有什么工具可以把D盘上的软件迁移到其他硬盘上同时也能修改注册表数据的呢？我用疼讯的电脑管家里面的搬家工具，发现软件搬家以后还会在原本的位置保留一些数据来作为映射而不是干净的迁移过去的</description>
+      <content:encoded><![CDATA[<p><b>benjin: </b><br>
+<span>求助，有没有什么软件搬家的工具？</span><br>
+<span>之前因为手贱把SSD分了两个分区，其中一个分区用来放软件的，当时使用软件啥问题都没有。但是随着C盘日益的发育，空间已经不够用了，于是把原本用来放软件的D盘上的所有东西都迁移到另外一个新硬盘，老的D盘删除分区后合并到C盘上，新的硬盘更改盘符为D盘后软件还能正常使用。</span><br>
+<span>但是新的这个D盘是个老的机械硬盘，打开一些体积巨大的软件的时候那打开的速度简直就是悲催，请问有没有什么工具可以把D盘上的软件迁移到其他硬盘上同时也能修改注册表数据的呢？我用疼讯的电脑管家里面的搬家工具，发现软件搬家以后还会在原本的位置保留一些数据来作为映射而不是干净的迁移过去的</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>为啥要把软件和系统分开装</span><br>
+<span>备份时一点都不方便</span><br>
+<span>不要折腾了重新安装吧</span><br>
+</p><p><b>benjin: </b><br>
+<span>天神十三煞 发表于 2019-10-4 08:03</span><br>
+<span>为啥要把软件和系统分开装</span><br>
+<span>备份时一点都不方便</span><br>
+<span>不要折腾了重新安装吧</span><br>
+<span>因为用了这么多年电脑的经验，总会有那么几次系统出现了奇怪的问题无法修复最后不得不格式化系统盘来重装。。。</span><br>
+<span>上个月我表弟的电脑就是有这样的奇怪问题，WIN10的设置页面无法进去，电脑各种卡死，系统还原恢复都不行，甚至找来新版本的安装文件强制升级系统都说失败，最后唯一解决方法只能格式化。。。。</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>备份安装包/移动版/配置文件 然后该格就格。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-10-4 01:35 编辑 </span><br>
+<span>benjin 发表于 2019-10-4 00:30</span><br>
+<span>因为用了这么多年电脑的经验，总会有那么几次系统出现了奇怪的问题无法修复最后不得不格式化系统盘来重装 ...</span><br>
+<span>正确的方法是将安装好常用的软件全系统盘定期备份，实在是有问题就还原，就算拿系统盘重装现在也并不需要动不动就格式化</span><br>
+<span>记得设置所有软件的储存目的地为异盘即可，文图音视桌下收云八大文件夹在用户目录都可以右键属性转移，AcronisTrueImage装机党必备</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>准备个大容量U盘，平时就注意收集好用常用软件的安装包，绿色版软件更简单，直接打包压缩文件夹就行</span><br>
+</p><p><b>benjin: </b><br>
+<span>AincradWanderer 发表于 2019-10-4 17:36</span><br>
+<span>准备个大容量U盘，平时就注意收集好用常用软件的安装包，绿色版软件更简单，直接打包压缩文件夹就行</span><br>
+<span> ...</span><br>
+<span>安装包倒不是问题，毕竟自己都有备份，就是不想重装才想有没有办法迁移啊</span><br>
+</p><p><b>benjin: </b><br>
+<span>天神十三煞 发表于 2019-10-4 17:33</span><br>
+<span>正确的方法是将安装好常用的软件全系统盘定期备份，实在是有问题就还原，就算拿系统盘重装现在也并不需要 ...</span><br>
+<span>上次遇到那个问题还真的除了格式化以外就没办法了，用安装盘都会装到一部分就装不下去只能取消。。。。</span><br>
+</p><p><b>macos: </b><br>
+<span>如果该分区的文件能完全移动，那没问题，移完把盘符改掉，不能的话，先关掉d盘符，脱机复制到目的地，进系统把盘符改掉</span><br>
+</p><p><b>benjin: </b><br>
+<span>macos 发表于 2019-10-4 18:04</span><br>
+<span>如果该分区的文件能完全移动，那没问题，移完把盘符改掉，不能的话，先关掉d盘符，脱机复制到目的地，进系 ...</span><br>
+<span>不是，我需要的是把D盘上的软件移动到C盘去</span><br>
+</p><p><b>like0036: </b><br>
+<span>重装多省心</span><br>
+</p><p><b>macos: </b><br>
+<span>benjin 发表于 2019-10-5 16:52</span><br>
+<span>不是，我需要的是把D盘上的软件移动到C盘去</span><br>
+<span>那更简单，放到同样的相对路径，把系统分区再加多个d盘符，或者路径减1，在d盘做c盘的挂载目录</span><br>
+</p><p><b>mirari: </b><br>
+<span>软件本体毫无备份价值，备份appData才是正事</span><br>
+</p><p><b>benjin: </b><br>
+<span>macos 发表于 2019-10-5 18:43</span><br>
+<span>那更简单，放到同样的相对路径，把系统分区再加多个d盘符，或者路径减1，在d盘做c盘的挂载目录 ...</span><br>
+<span>在系统分区前加多个D盘符？还有这种操作？求详细</span><br>
+</p><p><b>benjin: </b><br>
+<span>一个两个软件那当然是重装比较快，但是好几十个软件几十G的玩意全都重装那就是大工程了</span><br>
+</p><p><b>King5268: </b><br>
+<span>再买一块ssd然后复制文件改盘符吧，这样最简单</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>论绿色软件的重要性，大型软件重装也不麻烦</span><br>
+<span>而且不是还有onedrive的存在吗</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>program files 和appdata 用mklink -j 解决一下</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>benjin: </b><br>
+<span>fishmanzero 发表于 2019-10-6 21:49</span><br>
+<span>program files 和appdata 用mklink -j 解决一下</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>这个命令我之前也有留意过，似乎移动后用这个命令来做链接，还是得在原来的地址上保留个文件什么的，旧的目录地址不能删除来着？</span><br>
+</p><p><b>benjin: </b><br>
+<span>King5268 发表于 2019-10-6 18:10</span><br>
+<span>再买一块ssd然后复制文件改盘符吧，这样最简单</span><br>
+<span>我目前想到的不用重装的唯一方法只有这个了</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>benjin 发表于 2019-10-6 22:36</span><br>
+<span>这个命令我之前也有留意过，似乎移动后用这个命令来做链接，还是得在原来的地址上保留个文件什么的，旧的 ...</span><br>
+<span>具体看help就会明白。</span><br>
+<span>应用上来说大致是想保留的软件安装文件夹放到专门的地方，重装系统后确保program files目录里不存在同名文件夹，link过去。这时program files里就有它了。</span><br>
+<span>app data里也是同样处理。</span><br>
+<span>不过一个个弄挺麻烦的，excel或者啥的弄批处理吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857725[0-50]</guid>
+    </item>
+  </channel>
+</rss>

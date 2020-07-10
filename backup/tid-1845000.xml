@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[VR]Oculus Quest教程贴（第三方应用/BS自定义歌曲/串流）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[VR]Oculus Quest教程贴（第三方应用/BS自定义歌曲/串流）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:26 +0000</lastBuildDate>
+    <item>
+      <title>[VR]Oculus Quest教程贴（第三方应用/BS自定义歌曲/串流）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845000-1-1.html</link>
+      <description>[VR]Oculus Quest教程贴（第三方应用/BS自定义歌曲/串流）&#13;
+ 本帖最后由 rinkzea 于 2019-7-7 22:47 编辑 
+
+Oculus Quest和Go一样，底层都是深度定制的安卓系统。因此可以通过打开开发者模式，解锁线刷应用（Sideload），由此可以突破OC封闭的生态系统，带来很多新玩法。虽然这次Quest国内也有不少玩家入手了，但似乎依然没有很多教程，在此分享一下我整理的内容，供大家参考。
+&#13;
+关于Quest本身的介绍与推荐，可以看我上一次的帖子：https://bbs.saraba1st.com/2b/thread-1837742-1-1.html
+&#13;
+本文工具百度盘下载链接: https://pan.baidu.com/s/1nkACyp4cpAgBiA4M2LTXFQ 提取码: sn94 
+&#13;
+一、打开开发者模式
+&#13;
+所有的前提，是打开Quest的开发者模式。
+&#13;
+（1）打开开发者模式的第一步是创建Oculus开发者账号。
+&#13;
+在电脑中打开下述网址并登陆你的Oculus账户：
+&#13;
+https://dashboard.oculus.com/organizations/create/
+&#13;
+按下图填好信息后提交：
+&#13;
+https://ae01.alicdn.com/kf/HTB13rViXxn1gK0jSZKPq6xvUXXaZ.jpg
+&#13;
+随后会弹出NDA协议，下面选择框打勾后点击“I Agree”。至此开发者账号就算创建成功了。
+&#13;
+（2）打开开发者模式
+&#13;
+打开你手机上的Oculus App，按下图依次操作完成开启开发者模式：
+&#13;
+https://ae01.alicdn.com/kf/HTB1zvFhXuL2gK0jSZFmq6A7iXXaU.jpghttps://ae01.alicdn.com/kf/HTB1W4NiXrY1gK0jSZTEq6xDQVXaP.jpghttps://ae01.alicdn.com/kf/HTB1Sn8gXCf2gK0jSZFPq6xsopXaz.jpg
+&#13;
+打开开发者模式后，建议重启头显以保证后续流程顺利进行。
+&#13;
+二、安装ADB驱动
+&#13;
+*Quest使用的ADB驱动和一般安卓手机的通用adb驱动相同，以前有给安卓刷过机的玩家可以跳过此步。
+&#13;
+想要通过电脑向Quest里线刷（Sideload）应用，电脑还需要安装adb驱动。官方下载地址：https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/
+&#13;
+（也可在文章起始处的百度网盘下载）
+&#13;
+下载解压后，先打开usb_driver文件夹，安装驱动：
+&#13;
+https://ae01.alicdn.com/kf/HTB1yHphXAY2gK0jSZFgq6A5OFXax.jpg
+&#13;
+安装完成后便可使用USB线将Quest与电脑连接了。
+&#13;
+如果前面的步骤顺利的话，此时戴上头显应该会弹出“是否允许开发者模式”的提醒。我们点击“同意”（建议勾上信任选框）。
+&#13;
+https://ae01.alicdn.com/kf/HTB1kP8iXrr1gK0jSZR0762P8XXae.png
+&#13;
+我们保持Quest和电脑的连接进入下一步。
+&#13;
+三、SideQuest的安装与使用
+&#13;
+接下来可以安装SideQuest了，官方下载地址：https://github.com/the-expanse/SideQuest/releases
+&#13;
+（也可在文章起始处的百度网盘下载）
+&#13;
+下载后解压，打开文件夹中的SideQuest，等待其完成附属文件的下载。（建议挂上科学上网的加速工具），完成后就来到SideQuest的主界面。
+&#13;
+（1）安装通过SideQuest提供的应用：选择对应的应用后，点击Install即可。下载会比较慢，所以请耐心等待：
+&#13;
+https://ae01.alicdn.com/kf/HTB1kShiXrj1gK0jSZFuq6ArHpXaG.jpg
+&#13;
+比较好的是安装界面里也展示了下载地址，所以我们也可以直接Ctrl+C复制该地址，然后贴到自己的下载工具里下载，速度会快不少。
+&#13;
+（2）安装APK：将下载后的apk直接拖动到SideQuest主界面即可。没什么可说的。
+&#13;
+https://ae01.alicdn.com/kf/HTB1J9NhXET1gK0jSZFhq6yAtVXaZ.jpg
+&#13;
+通过线刷方式安装的应用会显示在头显的“资源库-未知来源应用”页面中，直接运行即可
+&#13;
+https://ae01.alicdn.com/kf/HTB1BOxhXuH2gK0jSZFEq6AqMpXaw.jpg
+&#13;
+但是一般安卓应用在安装后不会出现在未知来源里，而是显示在“资源库-Oculus TV”中：
+&#13;
+https://ae01.alicdn.com/kf/HTB1sxxhXuL2gK0jSZPhq6yhvXXat.jpg
+&#13;
+https://ae01.alicdn.com/kf/HTB1Z90eXpT7gK0jSZFpq6yTkpXaD.jpg
+&#13;
+可以用这种方法在Quest里玩普通安卓游戏，也可以直接安装$$R让Quest自己科学上网。
+&#13;
+四、使用SideQuest为Beat Saber导入自定义歌曲：
+&#13;
+点击右上角的https://ae01.alicdn.com/kf/HTB1ZadiXET1gK0jSZFr763NCXXaC.png符号，会打开Beat Saber功能，在这里可以向Beat Saber导入自定义歌曲，流程如下图：
+&#13;
+https://ae01.alicdn.com/kf/HTB1RfNiXxn1gK0jSZKPq6xvUXXa3.jpg
+&#13;
+第一次点击Sync Songs后会提示备份原始版本，点击 Backup apk进行备份。之后可以修改光剑颜色、替换游戏内文本等，此处跳过点击Run Patcher生成新的apk。
+&#13;
+https://ae01.alicdn.com/kf/HTB1P2hhXAY2gK0jSZFgq6A5OFXac.jpg
+&#13;
+Patch完成后会最后确认待导入的歌曲，可以检查核对一下是否所有歌曲都能够正常导入，确认后点击Install APK就会开始安装修改后的apk
+&#13;
+https://ae01.alicdn.com/kf/HTB1ruNiXxv1gK0jSZFFq6z0sXXa5.jpg
+&#13;
+完成后戴上头显进入游戏，就可以在Custom Songs曲包中找到自己导入的歌曲了。
+&#13;
+五、使用ALVR串流
+&#13;
+Quest可以通过无线串流的方式玩SteamVR游戏，目前有收费的VRidge和Virtual Desktop方式和免费的ALVR方式。目前易用度和连接稳定性上是Virtual Desktop做的最好，但收费20刀。接下来介绍一下免费的ALVR。
+&#13;
+串流首先要有5G Wifi，PC最好也用千兆网卡用网线和路由连接，以此保证较低的延迟。此外，路由器本身的性能、家中的布局也影响到数据的吞吐量和信号强度，对连接的稳定性有较大的影响。LZ家里比较小，没有很大的穿墙困扰，路由器是用J1900的软路由+AC68U做wifi热点的组建方式。串流游玩的体感延迟和SteamLink类似，画面顿卡的情况不多，算是满足了基本的游玩体验
+&#13;
+1.首先通过SideQuest往Quest里安装ALVR，并且在Steam里安装SteamVR和想玩的VR游戏，此处略。
+&#13;
+2.在Github下载ALVR的服务器端程序：https://github.com/polygraphene/ALVR/releases
+&#13;
+（也可在文章起始处的百度网盘下载）
+&#13;
+3.保证电脑和头显在同一局域网内。戴上头显打开未知来源应用页中的ALVR，会进入等待连接的画面。摘下头显。
+&#13;
+https://ae01.alicdn.com/kf/HTB1lXJjXAH0gK0jSZPiq6yvapXaK.jpg
+&#13;
+4.在打开电脑下载的ALVR文件夹中的ALVR.exe，会显示找到的头显，点击Connect，就会与头显建立连接。
+&#13;
+https://ae01.alicdn.com/kf/HTB15UhiXrr1gK0jSZFDq6z9yVXaT.jpg
+&#13;
+5.然后点击窗口上方的Start Server按钮，就会启动SteamVR。此时戴上头显静待几秒，就会显示SteamVR的主控室了。
+&#13;
+6.进入主控室，你首先发现的应该就是头显的高度不对，这是由于SteamVR无法直接调用Quest的游玩区域设置所导致的。
+&#13;
+这时我们需要使用OpenVR Advanced Settings来修复。
+&#13;
+https://ae01.alicdn.com/kf/HTB1ibpfXpP7gK0jSZFj7635aXXaL.png
+&#13;
+7. 我们先摘下头显，关闭电脑上的SteamVR，打开浏览器下载OpenVR Advanced Settings，官方下载地址https://github.com/matzman666/OpenVR-AdvancedSettings/releases
+&#13;
+（也可在文章起始处的百度网盘下载）
+&#13;
+8. 运行下载的OpenVR-AdvancedSettings-Installer-v2.5.exe进行安装，安装完成后，重复4-6步回到SteamVR主控室，按住左Touch手柄的选单间数秒，会打开SteamVR界面，在下方应该就会看到写着ADV的圆形按钮了。
+&#13;
+https://ae01.alicdn.com/kf/HTB1kOpiXy_1gK0jSZFqq6ApaXXa4.jpg
+&#13;
+9. 打开后选择左侧的Space Fix，按照提示将一个手柄放在地上后，选择Fix Floor，高度就会校准正常。
+&#13;
+https://ae01.alicdn.com/kf/HTB1__phXuP2gK0jSZFoq6yuIVXad.jpg
+&#13;
+https://ae01.alicdn.com/kf/HTB1iQViXxz1gK0jSZSgq6yvwpXaY.jpg
+&#13;
+10. 开始玩支持SteamVR游戏吧！如果装了Revive的话，还可以玩PC的Oculus独占游戏。
+&#13;
+五、      PCVR黄油介绍
+&#13;
+这些游戏都可以用串流方式游玩。此处没有资源，感性趣的请自行检索购买或下载。
+&#13;
+（一）商业游戏：
+&#13;
+1. KISS社的两款定制女仆3D2（2015年的カスタムメイド3D2和2018年的カスタムオーダーメイド3D2）均有原生VR支持，支持自家电动法器Chu-B Lip S。（看了日亚的价格我就放弃了）
+&#13;
+2. I社从2015年的开始提供原生支持VR，目前的游戏有性感海滩Premium Resort（Sexyビーチプレミアムリゾート）、幸运魔球（セクロスフィア）、Honey Select（ハニーセレクト）、Play Home（プレイホーム）、VR女友（VRカノジョ）、恋活（コイカツ）。最后两款可以在Steam买+补丁解锁嘿嘿嘿模式。
+&#13;
+（二）同人游戏
+&#13;
+1. 原生支持VR的同人游戏里，介绍我玩过的素质较高的4款：
+&#13;
+猫にゃんのお部屋VR。女主酷似IM@S灰姑娘的前川〇來。
+&#13;
+VRふたなり女王様 -もみじの甘々前立腺調教-。可以体验被扶他抖S女王菊爆的感觉。
+&#13;
+ライジングプレイ，在体育仓库里OOXX，算上DLC有三个角色，出水量超大。
+&#13;
+セクサロイドな彼女【VR版】，素质非常高的同人游戏，可以用手柄前后来模拟活塞运动。叉着腰来锻炼你的腰腹肌肉吧！支持电动法器Cyclone X10 USB。
+&#13;
+2. Miconisomi（みこにそみ）的 奉課後輪姦中毒 和 インサルトオーダー 均有VR化的MOD。有赖于作品本身的极高质量，VR化之后的效果也很棒。不过毕竟不是为了VR原生开发的，操作上还有有些不便。
+&#13;
+MOD下载地址（奉課後輪姦中毒）：https://github.com/Eusth/AGHVR/releases
+&#13;
+MOD下载地址（インサルトオーダー）：https://github.com/Eusth/IOVR/releases/tag/v0.2</description>
+      <content:encoded><![CDATA[<p><b>rinkzea: </b><br>
+<span>[VR]Oculus Quest教程贴（第三方应用/BS自定义歌曲/串流）</span><br>
+<span> 本帖最后由 rinkzea 于 2019-7-7 22:47 编辑 </span><br>
+<span>Oculus Quest和Go一样，底层都是深度定制的安卓系统。因此可以通过打开开发者模式，解锁线刷应用（Sideload），由此可以突破OC封闭的生态系统，带来很多新玩法。虽然这次Quest国内也有不少玩家入手了，但似乎依然没有很多教程，在此分享一下我整理的内容，供大家参考。</span><br>
+<span>关于Quest本身的介绍与推荐，可以看我上一次的帖子：https://bbs.saraba1st.com/2b/thread-1837742-1-1.html</span><br>
+<span>本文工具百度盘下载链接: https://pan.baidu.com/s/1nkACyp4cpAgBiA4M2LTXFQ 提取码: sn94 </span><br>
+<span>一、打开开发者模式</span><br>
+<span>所有的前提，是打开Quest的开发者模式。</span><br>
+<span>（1）打开开发者模式的第一步是创建Oculus开发者账号。</span><br>
+<span>在电脑中打开下述网址并登陆你的Oculus账户：</span><br>
+<span>https://dashboard.oculus.com/organizations/create/</span><br>
+<span>按下图填好信息后提交：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB13rViXxn1gK0jSZKPq6xvUXXaZ.jpg" title="https://ae01.alicdn.com/kf/HTB13rViXxn1gK0jSZKPq6xvUXXaZ.jpg"><br>
+<span>随后会弹出NDA协议，下面选择框打勾后点击“I Agree”。至此开发者账号就算创建成功了。</span><br>
+<span>（2）打开开发者模式</span><br>
+<span>打开你手机上的Oculus App，按下图依次操作完成开启开发者模式：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1zvFhXuL2gK0jSZFmq6A7iXXaU.jpghttps://ae01.alicdn.com/kf/HTB1W4NiXrY1gK0jSZTEq6xDQVXaP.jpghttps://ae01.alicdn.com/kf/HTB1Sn8gXCf2gK0jSZFPq6xsopXaz.jpg" title="https://ae01.alicdn.com/kf/HTB1zvFhXuL2gK0jSZFmq6A7iXXaU.jpghttps://ae01.alicdn.com/kf/HTB1W4NiXrY1gK0jSZTEq6xDQVXaP.jpghttps://ae01.alicdn.com/kf/HTB1Sn8gXCf2gK0jSZFPq6xsopXaz.jpg"><br>
+<span>打开开发者模式后，建议重启头显以保证后续流程顺利进行。</span><br>
+<span>二、安装ADB驱动</span><br>
+<span>*Quest使用的ADB驱动和一般安卓手机的通用adb驱动相同，以前有给安卓刷过机的玩家可以跳过此步。</span><br>
+<span>想要通过电脑向Quest里线刷（Sideload）应用，电脑还需要安装adb驱动。官方下载地址：https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/</span><br>
+<span>（也可在文章起始处的百度网盘下载）</span><br>
+<span>下载解压后，先打开usb_driver文件夹，安装驱动：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1yHphXAY2gK0jSZFgq6A5OFXax.jpg" title="https://ae01.alicdn.com/kf/HTB1yHphXAY2gK0jSZFgq6A5OFXax.jpg"><br>
+<span>安装完成后便可使用USB线将Quest与电脑连接了。</span><br>
+<span>如果前面的步骤顺利的话，此时戴上头显应该会弹出“是否允许开发者模式”的提醒。我们点击“同意”（建议勾上信任选框）。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1kP8iXrr1gK0jSZR0762P8XXae.png" title="https://ae01.alicdn.com/kf/HTB1kP8iXrr1gK0jSZR0762P8XXae.png"><br>
+<span>我们保持Quest和电脑的连接进入下一步。</span><br>
+<span>三、SideQuest的安装与使用</span><br>
+<span>接下来可以安装SideQuest了，官方下载地址：https://github.com/the-expanse/SideQuest/releases</span><br>
+<span>（也可在文章起始处的百度网盘下载）</span><br>
+<span>下载后解压，打开文件夹中的SideQuest，等待其完成附属文件的下载。（建议挂上科学上网的加速工具），完成后就来到SideQuest的主界面。</span><br>
+<span>（1）安装通过SideQuest提供的应用：选择对应的应用后，点击Install即可。下载会比较慢，所以请耐心等待：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1kShiXrj1gK0jSZFuq6ArHpXaG.jpg" title="https://ae01.alicdn.com/kf/HTB1kShiXrj1gK0jSZFuq6ArHpXaG.jpg"><br>
+<span>比较好的是安装界面里也展示了下载地址，所以我们也可以直接Ctrl+C复制该地址，然后贴到自己的下载工具里下载，速度会快不少。</span><br>
+<span>（2）安装APK：将下载后的apk直接拖动到SideQuest主界面即可。没什么可说的。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1J9NhXET1gK0jSZFhq6yAtVXaZ.jpg" title="https://ae01.alicdn.com/kf/HTB1J9NhXET1gK0jSZFhq6yAtVXaZ.jpg"><br>
+<span>通过线刷方式安装的应用会显示在头显的“资源库-未知来源应用”页面中，直接运行即可</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1BOxhXuH2gK0jSZFEq6AqMpXaw.jpg" title="https://ae01.alicdn.com/kf/HTB1BOxhXuH2gK0jSZFEq6AqMpXaw.jpg"><br>
+<span>但是一般安卓应用在安装后不会出现在未知来源里，而是显示在“资源库-Oculus TV”中：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1sxxhXuL2gK0jSZPhq6yhvXXat.jpg" title="https://ae01.alicdn.com/kf/HTB1sxxhXuL2gK0jSZPhq6yhvXXat.jpg"><br>
+<img src="https://ae01.alicdn.com/kf/HTB1Z90eXpT7gK0jSZFpq6yTkpXaD.jpg" title="https://ae01.alicdn.com/kf/HTB1Z90eXpT7gK0jSZFpq6yTkpXaD.jpg"><br>
+<span>可以用这种方法在Quest里玩普通安卓游戏，也可以直接安装$$R让Quest自己科学上网。</span><br>
+<span>四、使用SideQuest为Beat Saber导入自定义歌曲：</span><br>
+<span>点击右上角的https://ae01.alicdn.com/kf/HTB1ZadiXET1gK0jSZFr763NCXXaC.png符号，会打开Beat Saber功能，在这里可以向Beat Saber导入自定义歌曲，流程如下图：</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1RfNiXxn1gK0jSZKPq6xvUXXa3.jpg" title="https://ae01.alicdn.com/kf/HTB1RfNiXxn1gK0jSZKPq6xvUXXa3.jpg"><br>
+<span>第一次点击Sync Songs后会提示备份原始版本，点击 Backup apk进行备份。之后可以修改光剑颜色、替换游戏内文本等，此处跳过点击Run Patcher生成新的apk。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1P2hhXAY2gK0jSZFgq6A5OFXac.jpg" title="https://ae01.alicdn.com/kf/HTB1P2hhXAY2gK0jSZFgq6A5OFXac.jpg"><br>
+<span>Patch完成后会最后确认待导入的歌曲，可以检查核对一下是否所有歌曲都能够正常导入，确认后点击Install APK就会开始安装修改后的apk</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1ruNiXxv1gK0jSZFFq6z0sXXa5.jpg" title="https://ae01.alicdn.com/kf/HTB1ruNiXxv1gK0jSZFFq6z0sXXa5.jpg"><br>
+<span>完成后戴上头显进入游戏，就可以在Custom Songs曲包中找到自己导入的歌曲了。</span><br>
+<span>五、使用ALVR串流</span><br>
+<span>Quest可以通过无线串流的方式玩SteamVR游戏，目前有收费的VRidge和Virtual Desktop方式和免费的ALVR方式。目前易用度和连接稳定性上是Virtual Desktop做的最好，但收费20刀。接下来介绍一下免费的ALVR。</span><br>
+<span>串流首先要有5G Wifi，PC最好也用千兆网卡用网线和路由连接，以此保证较低的延迟。此外，路由器本身的性能、家中的布局也影响到数据的吞吐量和信号强度，对连接的稳定性有较大的影响。LZ家里比较小，没有很大的穿墙困扰，路由器是用J1900的软路由+AC68U做wifi热点的组建方式。串流游玩的体感延迟和SteamLink类似，画面顿卡的情况不多，算是满足了基本的游玩体验</span><br>
+<span>1.首先通过SideQuest往Quest里安装ALVR，并且在Steam里安装SteamVR和想玩的VR游戏，此处略。</span><br>
+<span>2.在Github下载ALVR的服务器端程序：https://github.com/polygraphene/ALVR/releases</span><br>
+<span>（也可在文章起始处的百度网盘下载）</span><br>
+<span>3.保证电脑和头显在同一局域网内。戴上头显打开未知来源应用页中的ALVR，会进入等待连接的画面。摘下头显。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1lXJjXAH0gK0jSZPiq6yvapXaK.jpg" title="https://ae01.alicdn.com/kf/HTB1lXJjXAH0gK0jSZPiq6yvapXaK.jpg"><br>
+<span>4.在打开电脑下载的ALVR文件夹中的ALVR.exe，会显示找到的头显，点击Connect，就会与头显建立连接。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB15UhiXrr1gK0jSZFDq6z9yVXaT.jpg" title="https://ae01.alicdn.com/kf/HTB15UhiXrr1gK0jSZFDq6z9yVXaT.jpg"><br>
+<span>5.然后点击窗口上方的Start Server按钮，就会启动SteamVR。此时戴上头显静待几秒，就会显示SteamVR的主控室了。</span><br>
+<span>6.进入主控室，你首先发现的应该就是头显的高度不对，这是由于SteamVR无法直接调用Quest的游玩区域设置所导致的。</span><br>
+<span>这时我们需要使用OpenVR Advanced Settings来修复。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1ibpfXpP7gK0jSZFj7635aXXaL.png" title="https://ae01.alicdn.com/kf/HTB1ibpfXpP7gK0jSZFj7635aXXaL.png"><br>
+<span>7. 我们先摘下头显，关闭电脑上的SteamVR，打开浏览器下载OpenVR Advanced Settings，官方下载地址https://github.com/matzman666/OpenVR-AdvancedSettings/releases</span><br>
+<span>（也可在文章起始处的百度网盘下载）</span><br>
+<span>8. 运行下载的OpenVR-AdvancedSettings-Installer-v2.5.exe进行安装，安装完成后，重复4-6步回到SteamVR主控室，按住左Touch手柄的选单间数秒，会打开SteamVR界面，在下方应该就会看到写着ADV的圆形按钮了。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1kOpiXy_1gK0jSZFqq6ApaXXa4.jpg" title="https://ae01.alicdn.com/kf/HTB1kOpiXy_1gK0jSZFqq6ApaXXa4.jpg"><br>
+<span>9. 打开后选择左侧的Space Fix，按照提示将一个手柄放在地上后，选择Fix Floor，高度就会校准正常。</span><br>
+<img src="https://ae01.alicdn.com/kf/HTB1__phXuP2gK0jSZFoq6yuIVXad.jpg" title="https://ae01.alicdn.com/kf/HTB1__phXuP2gK0jSZFoq6yuIVXad.jpg"><br>
+<img src="https://ae01.alicdn.com/kf/HTB1iQViXxz1gK0jSZSgq6yvwpXaY.jpg" title="https://ae01.alicdn.com/kf/HTB1iQViXxz1gK0jSZSgq6yvwpXaY.jpg"><br>
+<span>10. 开始玩支持SteamVR游戏吧！如果装了Revive的话，还可以玩PC的Oculus独占游戏。</span><br>
+<span>五、      PCVR黄油介绍</span><br>
+<span>这些游戏都可以用串流方式游玩。此处没有资源，感性趣的请自行检索购买或下载。</span><br>
+<span>（一）商业游戏：</span><br>
+<span>1. KISS社的两款定制女仆3D2（2015年的カスタムメイド3D2和2018年的カスタムオーダーメイド3D2）均有原生VR支持，支持自家电动法器Chu-B Lip S。（看了日亚的价格我就放弃了）</span><br>
+<span>2. I社从2015年的开始提供原生支持VR，目前的游戏有性感海滩Premium Resort（Sexyビーチプレミアムリゾート）、幸运魔球（セクロスフィア）、Honey Select（ハニーセレクト）、Play Home（プレイホーム）、VR女友（VRカノジョ）、恋活（コイカツ）。最后两款可以在Steam买+补丁解锁嘿嘿嘿模式。</span><br>
+<span>（二）同人游戏</span><br>
+<span>1. 原生支持VR的同人游戏里，介绍我玩过的素质较高的4款：</span><br>
+<span>猫にゃんのお部屋VR。女主酷似IM@S灰姑娘的前川〇來。</span><br>
+<span>VRふたなり女王様 -もみじの甘々前立腺調教-。可以体验被扶他抖S女王菊爆的感觉。</span><br>
+<span>ライジングプレイ，在体育仓库里OOXX，算上DLC有三个角色，出水量超大。</span><br>
+<span>セクサロイドな彼女【VR版】，素质非常高的同人游戏，可以用手柄前后来模拟活塞运动。叉着腰来锻炼你的腰腹肌肉吧！支持电动法器Cyclone X10 USB。</span><br>
+<span>2. Miconisomi（みこにそみ）的 奉課後輪姦中毒 和 インサルトオーダー 均有VR化的MOD。有赖于作品本身的极高质量，VR化之后的效果也很棒。不过毕竟不是为了VR原生开发的，操作上还有有些不便。</span><br>
+<span>MOD下载地址（奉課後輪姦中毒）：https://github.com/Eusth/AGHVR/releases</span><br>
+<span>MOD下载地址（インサルトオーダー）：https://github.com/Eusth/IOVR/releases/tag/v0.2</span><br>
+</p><p><b>zbbzym: </b><br>
+<span>这个无线串流的方式延迟如何呢 lz有测试过吗</span><br>
+</p><p><b>rinkzea: </b><br>
+<span>zbbzym 发表于 2019-7-7 21:40</span><br>
+<span>这个无线串流的方式延迟如何呢 lz有测试过吗</span><br>
+<span>没有很精准的测试，但体感感觉和SteamLink的延迟类似</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>oculus go可以买一副oculus quest的手柄实现定位功能吗</span><br>
+</p><p><b>rinkzea: </b><br>
+<span>NeverwinterN 发表于 2019-7-7 21:50</span><br>
+<span>oculus go可以买一副oculus quest的手柄实现定位功能吗</span><br>
+<span>不能Go没有可以用来定位的摄像头</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>支持，另外有关于串流路由器的内容么？</span><br>
+<span>现在不少人家里就一个自带无线功能的普通路由器，还带穿墙什么的。</span><br>
+<span>估计还得房间专门弄个好点无线路由比较稳。</span><br>
+</p><p><b>whvictor: </b><br>
+<span>收藏，也许有一天我买的起这个了呢。。。。</span><br>
+</p><p><b>osborn: </b><br>
+<span>感谢教程看了LZ的两篇安利现在深度长草，正在研究科学上网设置……不过就算现在订的话，等到亚马逊有货也是几个月之后了吧？</span><br>
+<span>一开始还在vive focus plus和quest之间犹豫，后来看了几个老外的评测。focus的定位比较偏商用和通用，quest基本上是专门的独立console，相对的focus系统比较开放而quest封闭，但这些刷机之后都不是问题。quest整体体验比focus好一点，显示效果好，延迟更小，系统界面打磨的更好。虽然佩戴方面容易松动，重心也不太稳，但因为重量比focus要轻所以总的来讲也要好点。唯一问题是画面拖影比focus厉害。audio效果不行的问题可以靠自己连蓝牙耳机解决。focus只要交会员费就有大把的游戏和软件可以用，而quest和ns一样每个游戏100~200块。但很多1线的vr游戏目前还是quest独享，focus只能靠串流电脑来玩。说到串流我还有疑问，virtual desktop被脸书官方要求删除串流pc的功能，也就是说官方不太支持用quest连pc，这个会导致未来的串流使用出问题吗？还有我看有人提到说串流会有延迟，LZ的感受如何？focus可以通过电视卡串流到ps4，但据说延迟很大，quest可以连ps4吗？</span><br>
+</p><p><b>rinkzea: </b><br>
+<span> 本帖最后由 rinkzea 于 2019-7-14 16:04 编辑 </span><br>
+<span>osborn 发表于 2019-7-12 17:51</span><br>
+<span>感谢教程看了LZ的两篇安利现在深度长草，正在研究科学上网设置……不过就算现在订的话，等到亚马逊 ...</span><br>
+<span>佩戴松动和音频的问题可以通过买vive的畅听头带替换解决，可以说是终极解决方案了，迟些我会补上这个改造教程。另外淘宝连halo头环改造配件都有卖了，舒适度的问题只要原因花点钱，还是很容易解决的。</span><br>
+<span>串流的延迟上，Virtual Desktop的体感延迟稍微高一点，属于玩打枪游戏会有明显感觉，玩Beat Saber会有影响的程度。ALVR的体感延迟延迟稍微低一点，和steamlink串流到电视上的延迟差不多。不过，在VD的虚拟桌面里直接运行steamvr游戏，就会自动切换到VR串流模式，关闭游戏自动回到桌面串流模式，这个无缝式的体验是其他解决方案比不上的。</span><br>
+<span>OC要求VD在官方商店上架的版本必须删除串流功能，但不禁止他通过其他途径分发带串流版。例如现在就可以通过我帖子里介绍的sidequest直接装带串流功能的版本。这个背后肯定是基于商业考虑：oc希望大家在它的商店里买游戏，而不想让玩家买steam游戏串流到quest里玩。串流功能未来的发展不好说，但我还是保持乐观的：只要开发者模式这条路不被堵死，开发者们就可以玩出花来，你看最近在quest里直接给beat saber打mod的工具都被搞出来了</span><br>
+<span>串流ps4是指把ps4串流到quest上？如果是通过采集卡的话，那就和串流桌面一样，这个功能目前已经很成熟，延迟很低了，参考nvshield、steamlink的延迟即可</span><br>
+</p><p><b>osborn: </b><br>
+<span>rinkzea 发表于 2019-7-14 16:01</span><br>
+<span>佩戴松动和音频的问题可以通过买vive的畅听头带替换解决，可以说是终极解决方案了，迟些我会补上这个改造 ...</span><br>
+<span>感谢科普~已经订了，要等1个多月，希望在9月大作狂潮之前能玩上光剑好像已经有上千首歌了，光这一个游戏就值了……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845000[0-50]</guid>
+    </item>
+  </channel>
+</rss>

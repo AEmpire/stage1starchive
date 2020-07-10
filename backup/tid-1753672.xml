@@ -1,0 +1,2738 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:45:01 +0000</lastBuildDate>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[400-450]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>一色いろは: </b><br>
+<span>就我一个没法回帖么</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>朗姆酒hentai: </b><br>
+<span>界面很好看，不过我怎么不能回贴</span><br>
+</p><p><b>beckuse: </b><br>
+<span>所以，怎么去数码区</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>每次图一多，或者图片链接比较卡，加载慢了或者根本加载不出，然后客户端有时不会显示这种图片。结果就是根本不知道这里有张图，就很难受</span><br>
+</p><p><b>Dibel: </b><br>
+<span>更新到 Testflight 中的1.6.0版本后基本上只要点开帖子就崩溃闪退……</span><br>
+<span>少数帖子可以打开，但是只有标题、头像和回复时间，内容均是空的，如图</span><br>
+<span>手机型号是 iPhone XR，系统已更新至 iOS 13.4.1崩溃时的信息和日志已经通过 Testflight 共享反馈了几份</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>testflight版同进帖子闪退，13.4.1</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 怀疑是 Xcode 的问题，明天重新发个。</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>不能回帖很久了，有啥思路吗</span><br>
+</p><p><b>Dibel: </b><br>
+<span>kukushi 发表于 2020-4-23 01:01</span><br>
+<span> 怀疑是 Xcode 的问题，明天重新发个。</span><br>
+<span>感谢，可以正常使用了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Kiriz 发表于 2020-4-23 03:25</span><br>
+<span> 不能回帖很久了，有啥思路吗</span><br>
+<span>这个问题比较诡异，我继续观察观察</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>kukushi 发表于 2020-4-23 21:56</span><br>
+<span> 这个问题比较诡异，我继续观察观察</span><br>
+<span>自从上面用电脑端回了一次之后，app也可以正常回帖了，很神秘</span><br>
+</p><p><b>横戌点戍空心戊: </b><br>
+<span>最近出现了主楼显示不全的问题，显示一部分然后直接断掉，或者显示空白，实际原本是图片。还有GIF图也不会动了。</span><br>
+</p><p><b>晚饭吃河马: </b><br>
+<span>不能回帖有点难过啊</span><br>
+</p><p><b>timepro: </b><br>
+<span>boom了</span><br>
+</p><p><b>Times: </b><br>
+<span>timepro 发表于 2020-5-18 21:33</span><br>
+<span>boom了</span><br>
+<span>怎么回事了</span><br>
+</p><p><b>-lilipeipei-: </b><br>
+<span>确实炸了，今早才发现的，昨天晚上应该都是好的</span><br>
+</p><p><b>横戌点戍空心戊: </b><br>
+<span>好像iOS的客户端用户登录都炸了</span><br>
+</p><p><b>kaiwwww: </b><br>
+<span>炸了，目前还是没法用。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>我用的Stage1st还行</span><br>
+</p><p><b>kukushi: </b><br>
+<span>目前看来是 App 版的接口挂了，网页版的接口是好的。</span><br>
+<span>我问问狗叔。</span><br>
+</p><p><b>roamer: </b><br>
+<span>我问一下,mufu发帖10有9失败,这个有什么原因吗?现在都是web浏览器回帖了</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>更新后进帖子闪退</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Destiny4073 发表于 2020-6-28 17:40</span><br>
+<span>更新后进帖子闪退</span><br>
+<span>嗯，炸了...</span><br>
+<span>晚上回去提交一个修复版...</span><br>
+</p><p><b>crosz: </b><br>
+<span>更新后平板和手机都闪退</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>回帖正常了，感谢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[400-450]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[350-400]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>kukushi: </b><br>
+<span>奥柏伦亲王 发表于 2019-7-26 10:02</span><br>
+<span>反馈一下最近遇到的各种问题：</span><br>
+<span>首先是无法回帖，用一段时间之后回帖就会直接提示“回复内容失败，已保存至 ...</span><br>
+<span>回复现在会使用官球的接口兜底，应该会比以前好一点。</span><br>
+<span>too many http redirects 可以尝试在设置界面清理缓存，触发原因还不知道</span><br>
+<span>加载慢的原因见上一个回复。</span><br>
+</p><p><b>zhongjie: </b><br>
+<span> kukushi 发表于 2019-7-26 19:38 引用:奥柏伦亲王 发表于 2019-7-26 10:02 反馈一下最近遇到的各种问题：首先是无法回帖，用一段时间之后回帖就会直接提示“回复内容失败，已保存至 ... 回复现在会使用官球的接口兜底，应该会比以前好一点。too many http redirects 可以尝试在设置界面清理缓存，触发原因还不知道加载慢的原因见上一个回复。 </span><br>
+<span>能换别的api吗？我用鹅球和saralin都正常啊</span><br>
+</p><p><b>xman123601: </b><br>
+<span>这个比官方的好</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>kukushi 发表于 2019-7-26 19:38</span><br>
+<span> 回复现在会使用官球的接口兜底，应该会比以前好一点。too many http redirects 可以尝试在设置界面清理 ...</span><br>
+<span>更新版本，清除缓存之后可以正常登陆看帖回帖了，感谢楼主</span><br>
+</p><p><b>信手向右: </b><br>
+<span>最希望是左划返回，右划功能了</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>JrC: </b><br>
+<span>刷新就各种转圈，reader就没事，为啥呢</span><br>
+</p><p><b>山风短: </b><br>
+<span>编辑</span><br>
+</p><p><b>starash: </b><br>
+<span>为啥引用回帖时引贴占用过大面积的问题一直没响应呢? </span><br>
+</p><p><b>山风短: </b><br>
+<span>回帖都回不了……</span><br>
+</p><p><b>rollerrrr: </b><br>
+<span>如果能支持handoff就更完美了（</span><br>
+</p><p><b>kukushi: </b><br>
+<span>喜迎开服，Testflight 更新一版。</span><br>
+</p><p><b>thetahunter: </b><br>
+<span>我要醒着醉 恭喜开服</span><br>
+</p><p><b>thetahunter: </b><br>
+<span>我要醒着醉 恭喜开服</span><br>
+</p><p><b>雨中曲: </b><br>
+<span>mark,换机装</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>ios13上用好像有很严重的误触bug，稍微碰到图片和链接就会跳转，明明以前没这个问题啊</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>iOS 13碰到图片无法下拉，点一下就会打开图片……只能用下面的进度条</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>ios13.1 帖子内有大图的下拉会闪退</span><br>
+</p><p><b>moekyo: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-10-1 02:43</span><br>
+<span>ios13上用好像有很严重的误触bug，稍微碰到图片和链接就会跳转，明明以前没这个问题啊 ...</span><br>
+<span>+1</span><br>
+</p><p><b>sssfans: </b><br>
+<span>图片和链接的触摸bug好难受啊。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>这个误触的问题很奇怪，建议先装回商店版本…</span><br>
+</p><p><b>macos: </b><br>
+<span> 本帖最后由 macos 于 2019-10-1 16:48 编辑 </span><br>
+<span>培根芝士蛋堡XD 发表于 2019-10-1 02:43</span><br>
+<span>ios13上用好像有很严重的误触bug，稍微碰到图片和链接就会跳转，明明以前没这个问题啊 ...</span><br>
+<span>回错贴</span><br>
+</p><p><b>yy77: </b><br>
+<span>好像在ios13上字号调节无法记录。关掉重开就回到缺省的了。</span><br>
+</p><p><b>rollerrrr: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-10-1 02:43</span><br>
+<span> ios13上用好像有很严重的误触bug，稍微碰到图片和链接就会跳转，明明以前没这个问题啊 ...</span><br>
+<span>+1 快疯了</span><br>
+</p><p><b>奇洛里: </b><br>
+<span>6S上面有投票闪退bug</span><br>
+<span>不知道是不是个例</span><br>
+</p><p><b>cishta: </b><br>
+<span>iPhone 11 ios 13.1.2，闪退。没更新的时候都没闪退</span><br>
+</p><p><b>cishta: </b><br>
+<span>点击任意用户上传，或者引用的图床图片就会闪退</span><br>
+</p><p><b>kukushi: </b><br>
+<span>不好意思，修复来了。</span><br>
+<span>- 修复上个测试版 iOS 13 的崩溃，误触问题</span><br>
+<span>- 由于一些原因，iOS 13.1 之后的用户在帖子中需要双击图片查看大图。（之后可能的话会改回单击）</span><br>
+</p><p><b>moekyo: </b><br>
+<span>kukushi 发表于 2019-10-2 23:46</span><br>
+<span>不好意思，修复来了。</span><br>
+<span>- 修复上个测试版 iOS 13 的崩溃，误触问题</span><br>
+<span>误触的BUG是怎么来的很好奇，想半天没想到是什么原因</span><br>
+</p><p><b>sssfans: </b><br>
+<span>kukushi 发表于 2019-10-2 23:46</span><br>
+<span> 不好意思，修复来了。- 修复上个测试版 iOS 13 的崩溃，误触问题 </span><br>
+<span>为什么我appstore里没有更新啊，误触的bug还在，很难受</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>sssfans 发表于 2019-10-4 00:26</span><br>
+<span>为什么我appstore里没有更新啊，误触的bug还在，很难受</span><br>
+<span>lz更新的是testflight的测试版不是商店版本？</span><br>
+</p><p><b>绝赞販売中: </b><br>
+<span>关于图片能不能调整一下，现在的版本滑动画到图片立刻就进去，想滑下去好困难</span><br>
+</p><p><b>kukushi: </b><br>
+<span>sssfans 发表于 2019-10-4 00:26</span><br>
+<span> 为什么我appstore里没有更新啊，误触的bug还在，很难受</span><br>
+<span>额，我以为是新的包（Testflight 包）有问题，原来是所有包都有问题…商店已经在审核了，估计要明天或者后天。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>moekyo 发表于 2019-10-2 23:58</span><br>
+<span> 误触的BUG是怎么来的很好奇，想半天没想到是什么原因</span><br>
+<span>目前看起来是 iOS 13.1 的系统 Bug🍎💊</span><br>
+</p><p><b>V5Style: </b><br>
+<span>商店版更新了，还是会误触</span><br>
+<span>估计是系统问题，iOS13的Safari设置里的“关于Safari浏览器与隐私”链接也是一碰就开</span><br>
+</p><p><b>macos: </b><br>
+<span>kukushi 发表于 2019-10-5 11:22</span><br>
+<span>目前看起来是 iOS 13.1 的系统 Bug🍎💊</span><br>
+<span>对，有办法向苹果反馈吗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>V5Style 发表于 2019-10-6 15:02</span><br>
+<span>商店版更新了，还是会误触</span><br>
+<span>估计是系统问题，iOS13的Safari设置里的“关于Safari浏览器与隐私”链接 ...</span><br>
+<span> 还会么，我试了一下是没问题的 </span><br>
+</p><p><b>V5Style: </b><br>
+<span>kukushi 发表于 2019-10-8 15:31</span><br>
+<span>还会么，我试了一下是没问题的</span><br>
+<span>现在没问题了</span><br>
+</p><p><b>拉沃契金: </b><br>
+<span>这个误触bug之前微博国际版也有，也是更新了就好了，但是现在微博国际版又出来一个发热的bug，我（X）和老婆（8P）都有这个问题，也是很奇怪</span><br>
+<span>这次ios13真的很烂。。。</span><br>
+</p><p><b>biggerzx: </b><br>
+<span>要是再适配一下ios13的黑暗模式就完美了！</span><br>
+</p><p><b>rollerrrr: </b><br>
+<span>开夜间模式但点开app时载入界面依然是白色，夜里躺床上刷泥潭经常被亮瞎。这个载入能修改吗</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>适配一下ios13的黑暗模式就完美了！+1</span><br>
+</p><p><b>kukushi: </b><br>
+<span>13.2 系统又改了 API 😓，现在双击查看图片失效了。晚点我查一下。</span><br>
+</p><p><b>crosz: </b><br>
+<span>又不能回复了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>crosz 发表于 2019-11-10 11:07</span><br>
+<span> 又不能回复了</span><br>
+<span>我试试</span><br>
+</p><p><b>Litccc: </b><br>
+<span>ios 13.3.1更新到最新版后不能回复</span><br>
+</p><p><b>crosz: </b><br>
+<span>试试看能不能回复</span><br>
+</p><p><b>rollerrrr: </b><br>
+<span>载入界面依然是亮色</span><br>
+</p><p><b>kikka: </b><br>
+<span>很多有大量图文的帖子显示不全，换其他客户端就没问题</span><br>
+</p><p><b>跳探戈的狼: </b><br>
+<span>如果能支持ios原生手势体验会更好</span><br>
+</p><p><b>ArthurFyc: </b><br>
+<span>请问一下现在是没有加鹅扣鹅功能么</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[350-400]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[300-350]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>绝赞販売中: </b><br>
+<span>带图片发不了是不是我个例呢</span><br>
+</p><p><b>kukushi: </b><br>
+<span>绝赞販売中 发表于 2019-3-20 14:42</span><br>
+<span>带图片发不了是不是我个例呢</span><br>
+<span>有空的话可以在反馈里发一封反馈我看看日志。</span><br>
+</p><p><b>erdos: </b><br>
+<span>登录又灰了。。</span><br>
+<span>一退就说过期要重新登录</span><br>
+</p><p><b>Sopp: </b><br>
+<span>现在每次回复都显示回复失败……</span><br>
+</p><p><b>Litccc: </b><br>
+<span>一切正常不过头像有时候会刷不出来/跑到别人头上</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Sopp 发表于 2019-3-25 00:42</span><br>
+<span>现在每次回复都显示回复失败……</span><br>
+<span>设置里来封反馈吧</span><br>
+</p><p><b>绝赞販売中: </b><br>
+<span>kukushi 发表于 2019-3-25 00:59</span><br>
+<span> 设置里来封反馈吧</span><br>
+<span>我刚刚去内野试了一下可以发了，晚上再试一下更大一点的图片再发反馈吧谢谢了</span><br>
+</p><p><b>BlackFriday: </b><br>
+<span>几乎不可用啊现在，5分钟内一定会卡死</span><br>
+</p><p><b>erewrerwe: </b><br>
+<span>弱弱地问一句，是不是每层楼的帖子内容都是一个WebView</span><br>
+</p><p><b>obiy: </b><br>
+<span>投票贴看不到选项啊，支持投票指什么？</span><br>
+</p><p><b>Litccc: </b><br>
+<span>obiy 发表于 2019-3-27 23:07</span><br>
+<span> 投票贴看不到选项啊，支持投票指什么？</span><br>
+<span>投票贴右上角三点左边就是投票内容</span><br>
+</p><p><b>obiy: </b><br>
+<span>Litccc 发表于 2019-3-27 23:36</span><br>
+<span>投票贴右上角三点左边就是投票内容</span><br>
+</p><p><b>tokimon: </b><br>
+<span>部分麻将脸似乎又不能正常显示了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-3-31 22:32 编辑 </span><br>
+<span>tokimon 发表于 2019-3-31 21:32</span><br>
+<span>部分麻将脸似乎又不能正常显示了</span><br>
+<span>这个是泥潭的问题，所有客户端包括web应该都不显示？至少鹅球也显示不了。</span><br>
+<span>看我这个测试帖</span><br>
+<span> https://bbs.saraba1st.com/2b/thread-1811592-0-1.html</span><br>
+<span>我自己的一个测试帖，无关内容忽略就好，二楼开始。</span><br>
+<span>小心帖子可能有点卡。连darling都没有了</span><br>
+</p><p><b>bluna: </b><br>
+<span>新版，在回复时，非常慢</span><br>
+</p><p><b>Ik4ruga: </b><br>
+<span> 本帖最后由 Ik4ruga 于 2019-4-3 19:29 编辑 </span><br>
+<span>点回复跳转到相应楼层的功能会有吗，误触后就打开内置浏览器了。编辑和评分的话倒是能用内置浏览器实现，有时候看两人讨论就很麻烦了</span><br>
+</p><p><b>obiy: </b><br>
+<span>建议增加对代码显示的支持，初步实现只需要应用等宽字体即可。</span><br>
+<span>fn main() {</span><br>
+<span>    println!("hello, world");</span><br>
+<span>}</span><br>
+<span>作者请开捐赠，这样就能砸钱催更了</span><br>
+</p><p><b>kukushi: </b><br>
+</p><p><b>kukushi: </b><br>
+<span>obiy 发表于 2019-4-5 11:58</span><br>
+<span> 建议增加对代码显示的支持，初步实现只需要应用等宽字体即可。   </span><br>
+<span>代码出现的场景太少了，暂时不考虑</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Ik4ruga 发表于 2019-4-3 19:25</span><br>
+<span> 点回复跳转到相应楼层的功能会有吗，误触后就打开内置浏览器了。编辑和评分的话倒是能用内置浏览器实现，有 ...</span><br>
+<span>没找到对应的接口，暂时做不了</span><br>
+</p><p><b>Ik4ruga: </b><br>
+<span>kukushi 发表于 2019-4-27 23:27</span><br>
+<span> 没找到对应的接口，暂时做不了</span><br>
+<span>不用勉强啦，我已经习惯内置浏览器了，mufu非常不错了</span><br>
+</p><p><b>biggerzx: </b><br>
+<span>希望大大能增加a屏的夜间模式</span><br>
+</p><p><b>melvin117: </b><br>
+<span>nice！</span><br>
+</p><p><b>osirishan: </b><br>
+<span>好像没有签到功能呢</span><br>
+</p><p><b>Litccc: </b><br>
+<span>话说泥潭的表情好像不会动</span><br>
+</p><p><b>obiy: </b><br>
+<span>Litccc 发表于 2019-4-29 17:06</span><br>
+<span> 话说泥潭的表情好像不会动</span><br>
+<span>是不会动，我说怎么感觉不对劲</span><br>
+</p><p><b>VioletHill: </b><br>
+<span>保存的动图到手机里好像不能动，是静态的</span><br>
+</p><p><b>dulun59: </b><br>
+<span>gif的确是保存成静态的了</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 表情不会动是老问题，暂时没办法解决。</span><br>
+<span>GIF 保存的问题我看一下</span><br>
+</p><p><b>macos: </b><br>
+<span>特殊字符密码，提示登录过期后弹登录，就死循环了</span><br>
+</p><p><b>Sangria: </b><br>
+<span>macos 发表于 2019-05-10 22:15:42</span><br>
+<span>特殊字符密码，提示登录过期后弹登录，就死循环了我iphone上登陆按钮是灰的，ipad上输了密码还提示我密码不能空，死循环。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Sangria 发表于 2019-5-10 22:55</span><br>
+<span>我iphone上登陆按钮是灰的，ipad上输了密码还提示我密码不能空，死循环。</span><br>
+<span>-- 来自 能手机投票的 Stage1 ...</span><br>
+<span>你密码里有特殊字符吗？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>更新了一版。</span><br>
+<span>主楼放了捐助地址</span><br>
+</p><p><b>Sangria: </b><br>
+<span>kukushi 发表于 2019-5-11 21:08</span><br>
+<span>你密码里有特殊字符吗？</span><br>
+<span>没有，英文加数字</span><br>
+</p><p><b>cat339: </b><br>
+<span>登录过期再登的，可以把用户名 密码都重新输入一遍试试。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>cat339 发表于 2019-5-13 10:21</span><br>
+<span>登录过期再登的，可以把用户名 密码都重新输入一遍试试。</span><br>
+<span> 啊 难道是那个原因</span><br>
+</p><p><b>一色いろは: </b><br>
+<span>不能回帖了 是只有我这样么</span><br>
+</p><p><b>0330: </b><br>
+<span>不知道是我的问题还是怎样，今天MUFU所有帖子都不能回复了，显示就是【回复内容失败，已保存至草稿箱】</span><br>
+</p><p><b>黑城舞夏: </b><br>
+<span>kukushi 发表于 2019-5-13 10:23</span><br>
+<span>啊 难道是那个原因</span><br>
+<span>回帖功能救不回来了么？</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>写了长篇大论，发现发不出去 我哭了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>我测一哈</span><br>
+</p><p><b>zhongjie: </b><br>
+<span> kukushi 发表于 2019-7-17 11:34 我测一哈 </span><br>
+<span>为什么现在mufu连论坛都上不了了？</span><br>
+</p><p><b>bluna: </b><br>
+<span>现在还是打开帖子困难</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 不知道为什么昨晚开始官方API就非常之慢。。。</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>zhongjie 发表于 2019-7-19 15:12</span><br>
+<span>为什么现在mufu连论坛都上不了了？</span><br>
+<span>今天ios端我都难上，怀疑是不是论坛问题换安桌这边又正常</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>zhongjie: </b><br>
+<span> 月夜凝雪 发表于 2019-7-19 17:51 引用:zhongjie 发表于 2019-7-19 15:12 为什么现在mufu连论坛都上不了了？ 今天ios端我都难上，怀疑是不是论坛问题换安桌这边又正常—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.0.4-play </span><br>
+<span>我用saralin还行啊</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>反馈一下最近遇到的各种问题：</span><br>
+<span>首先是无法回帖，用一段时间之后回帖就会直接提示“回复内容失败，已保存至草稿箱”，我试过删掉mufu重装有机率恢复，总之就很闹心……</span><br>
+<span>大概一周前开始出现打不开帖子，无法登陆等问题，提示字样都是“too many http redirects”，几天了一直都是这样。</span><br>
+</p><p><b>zhongjie: </b><br>
+<span> 本帖最后由 zhongjie 于 2019-7-26 18:59 编辑 </span><br>
+<span>更新了，试了试还是有问题。现在直接就无法打开论坛了，一直转圈圈</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>打不开论坛的情况最近越来越频繁了</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 打不开论坛是因为 Mufu 用挂了官球的接口，然后官球流量用完了，导致加载速度非常的慢。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[300-350]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[250-300]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>Angelo_o: </b><br>
+<span>FFAAC53B-B67D-4141-94BF-E62E1C988754/L0/001</span><br>
+<span>2...2049年</span><br>
+</p><p><b>Angelo_o: </b><br>
+<span>Angelo_o 发表于 2019-2-7 11:34</span><br>
+<span> FFAAC53B-B67D-4141-94BF-E62E1C988754/L0/0012...2049年</span><br>
+<span>搜索帖子时的日期显示不对</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Angelo_o 发表于 2019-2-7 11:36</span><br>
+<span> 搜索帖子时的日期显示不对</span><br>
+<span>恩 我也发现了，下个版本就好了</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>我还以为2049是泥潭什么新梗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>测试版支持投票了，几个问题也修复了。</span><br>
+</p><p><b>erdos: </b><br>
+<span>kukushi 发表于 2019-2-9 16:28</span><br>
+<span>测试版支持投票了，几个问题也修复了。</span><br>
+<span>填了账号密码</span><br>
+<span>登录说用户名和密码不能为空</span><br>
+</p><p><b>tokimon: </b><br>
+<img src="https://i.loli.net/2019/02/09/5c5edcad03140.pnghttps://i.loli.net/2019/02/09/5c5edcad4dd14.png" title="https://i.loli.net/2019/02/09/5c5edcad03140.pnghttps://i.loli.net/2019/02/09/5c5edcad4dd14.png"><br>
+<span>有部分头像不能正常显示，比如这楼2l坛友 其实我们一直在逃离太阳系吧~尤其是中国 - Stage1st https://bbs.saraba1st.com/2b/thread-1809475-1-1.html</span><br>
+</p><p><b>tokimon: </b><br>
+<span>kukushi 发表于 2019-2-9 16:28</span><br>
+<span> 测试版支持投票了，几个问题也修复了。</span><br>
+<span>楼主辛苦了，测试版好评</span><br>
+</p><p><b>kukushi: </b><br>
+<span>erdos 发表于 2019-2-9 17:53</span><br>
+<span> 填了账号密码 登录说用户名和密码不能为空</span><br>
+<span>没办法重现，这个信息是服务端发回来的</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2019-2-9 21:59</span><br>
+<span> 有部分头像不能正常显示，比如这楼2l坛友 其实我们一直在逃离太阳系吧~尤其是中国 - Stage1st https://bbs ...</span><br>
+<span>我也遇到了，还没找到原因</span><br>
+</p><p><b>erdos: </b><br>
+<span>kukushi 发表于 2019-2-9 23:33</span><br>
+<span>没办法重现，这个信息是服务端发回来的</span><br>
+<span>删了重装能登上了。。。</span><br>
+</p><p><b>zhssf: </b><br>
+<span>只有iOS么</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>在帖子回复后退出去看，帖子有新回复但其实是自己的回复，这个有点误导</span><br>
+</p><p><b>Litccc: </b><br>
+<span>zhongjie 发表于 2019-2-12 19:57</span><br>
+<span>在帖子回复后退出去看，帖子有新回复但其实是自己的回复，这个有点误导</span><br>
+<span>+1，这个确实蛮难受的</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>用了下应该是目前ios最好的客户端，唯一的问题是还是不能编辑帖子</span><br>
+</p><p><b>tokimon: </b><br>
+<img src="https://i.loli.net/2019/02/13/5c63c7977f8fa.png" title="https://i.loli.net/2019/02/13/5c63c7977f8fa.png"><br>
+<span>在投票选项多的时候，不能下拉选下面的选项</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2019-2-13 15:30</span><br>
+<span>在投票选项多的时候，不能下拉选下面的选项</span><br>
+<span>上面的部分是可以向上拖的，好像确实是不太直观</span><br>
+</p><p><b>fune: </b><br>
+<span> 本帖最后由 fune 于 2019-2-14 16:26 编辑 </span><br>
+<span>用了一周了，感觉是目前最好用的 iOS 客户端，点赞</span><br>
+<span>但好像经常重置浏览记录，修复希望</span><br>
+<span>还有些小意见，但不是很重要</span><br>
+<span>但作为一个UX射击狮，希望每个回帖的下边缘能多一行留白</span><br>
+<span>这样回帖和回帖能更好区隔开</span><br>
+<span>我猜这个排版可能是来自于手机版网页</span><br>
+<span>还有就是帖子列表，感觉有点文字过载</span><br>
+<span>能不能删掉发表时间呢？感觉发帖时间不是一定需要知道的信息</span><br>
+<span>最不重要的意见就是能不能提供选项关闭头像显示？太多人用默认头像了，有点容易混淆不同人的回帖</span><br>
+</p><p><b>nightcracker: </b><br>
+<span>为什么老是出现回复失败呢。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>fune 发表于 2019-2-15 04:51</span><br>
+<span> 用了一周了，感觉是目前最好用的 iOS 客户端，点赞但好像经常重置浏览记录，修复希望 </span><br>
+<span>谢谢你的建议，我会仔细考虑的。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>nightcracker 发表于 2019-2-15 16:15</span><br>
+<span> 为什么老是出现回复失败呢。</span><br>
+<span>不太确定，还在观察</span><br>
+</p><p><b>starash: </b><br>
+<img src="https://i.loli.net/2019/02/18/5c6a02e592338.png" title="https://i.loli.net/2019/02/18/5c6a02e592338.png"><br>
+<span>刚开始用，SE上回非主楼贴会变成这样，楼主得给原文栏加个回缩或者滚动条。</span><br>
+</p><p><b>Litccc: </b><br>
+<span>iPhone6s,ios 12.1.4</span><br>
+<span>打开帖子滑动或者翻页的时候会直接卡死，不知道是不是个例</span><br>
+</p><p><b>Litccc: </b><br>
+<span>好吧，刚刚回复完又卡死了</span><br>
+</p><p><b>lelouchlzc: </b><br>
+<span>Litccc 发表于 2019-2-22 22:59</span><br>
+<span>iPhone6s,ios 12.1.4</span><br>
+<span>打开帖子滑动或者翻页的时候会直接卡死，不知道是不是个例 ...</span><br>
+<span>iPad2018，同卡死</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>kukushi: </b><br>
+<span>卡死好像是因为泥潭CDN挂掉触发了一个BUG 现在不好重现了</span><br>
+</p><p><b>酒丸: </b><br>
+<span>Litccc 发表于 2019-2-22 22:59</span><br>
+<span>iPhone6s,ios 12.1.4</span><br>
+<span>打开帖子滑动或者翻页的时候会直接卡死，不知道是不是个例 ...</span><br>
+<span>iPhone XR, iOS 12.1.4 一毛一样 基本没几个帖子可以看就卡死了。</span><br>
+<span>人在过国外，不知道这有没有关系。</span><br>
+</p><p><b>tokimon: </b><br>
+<span>黑名单屏蔽用户功能好像不起作用了，感觉泥潭混沌值指数上升</span><br>
+</p><p><b>山风短: </b><br>
+<span>卡死也太严重了……ios 12.1.4</span><br>
+</p><p><b>Litccc: </b><br>
+<span>感觉今晚s1页面怪怪的 - Stage1st https://bbs.saraba1st.com/2b/thread-1812765-1-1.html </span><br>
+<span>联动这贴</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>今天突然频繁卡死啊</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>因为流量不够了，服务器升价了，狗叔大喊没钱中</span><br>
+</p><p><b>kukushi: </b><br>
+<span>看了一下，似乎是头像SSL证书过期引发了一个第三方库的死锁问题，这两天提交一个新版</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>要不把屏蔽广告功能去了吧</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Gymnopedie 发表于 2019-2-26 11:59</span><br>
+<span> 要不把屏蔽广告功能去了吧</span><br>
+<span>其实压根就没实现…</span><br>
+<span>接口默认是不带广告的</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>kukushi 发表于 2019-2-26 12:55</span><br>
+<span> 其实压根就没实现… 接口默认是不带广告的</span><br>
+<span>AppStore里还有一句基于ML的广告过滤，虚假宣传了</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 本帖最后由 kukushi 于 2019-2-26 14:07 编辑 </span><br>
+<span> Gymnopedie replied on 2019-2-26 13:10 引用:kukushi 发表于 2019-2-26 12:55其实压根就没实现… 接口默认是不带广告的 AppStore里还有一句基于ML的广告过滤，虚假宣传了 </span><br>
+<span>哦哦 那个是过滤广告哥那种</span><br>
+</p><p><b>comrade: </b><br>
+<span>很流畅的app，要是有独立的刷新按钮就更好了</span><br>
+</p><p><b>zhouly6: </b><br>
+<span>现在的投票也很爽了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>卡死问题似乎没有解决…</span><br>
+</p><p><b>Litccc: </b><br>
+<span>又开始了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>kukushi 发表于 2019-3-8 20:20</span><br>
+<span>卡死问题似乎没有解决…</span><br>
+<span>web上又把所有图片包括附件全都不显示了，真的不要再这样了，实在受不了，付费吧。我是Android用户，今天刷鹅球貌似没这影响？但包括reader和mufu云观察了一下貌似都中枪了？</span><br>
+</p><p><b>crosz: </b><br>
+<span>最近看帖经常假死怎么搞</span><br>
+</p><p><b>holdson: </b><br>
+<span>无法登录了……但是密码不可能错啊</span><br>
+</p><p><b>kiritokun: </b><br>
+<span>登录变灰点不动了。。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>holdson 发表于 2019-3-14 23:02</span><br>
+<span>无法登录了……但是密码不可能错啊</span><br>
+<span>@kiritokun 可以在设置里发一封反馈给我吗，我看下日志</span><br>
+</p><p><b>holdson: </b><br>
+<span>kukushi 发表于 2019-03-16 23:47:08</span><br>
+<span>可以在设置里发一封反馈给我吗，我看下日志你好，不登录的话进不去设置呢</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>kiritokun: </b><br>
+<span>kukushi 发表于 2019-3-16 23:47</span><br>
+<span>@kiritokun 可以在设置里发一封反馈给我吗，我看下日志</span><br>
+<span>本来我用的还是testflight里那版，换appstore依然是灰色无法点击。但是下一次登录就恢复正常了。</span><br>
+<span>而且和楼下说的一样，不登录是没法发送反馈的，不知道log会不会记录，姑且发了一份。</span><br>
+</p><p><b>infinte: </b><br>
+<span>帖子内文页能不能像帖子列表那样做无限滚动啊，现在还翻页好麻烦</span><br>
+</p><p><b>hansel: </b><br>
+<span>最近客户端评论不了啦，不知道我是不是个例……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[250-300]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[200-250]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>Litccc: </b><br>
+<span>切换子版块的小球能加一个放到右边的选项吗单手操作的时候左边很不方便</span><br>
+</p><p><b>utada: </b><br>
+<span> 希望链接直接用safari打开，内置的浏览器有时跳不了app</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>怎么看影视区二手区或者其他子版块啊</span><br>
+</p><p><b>利物浦: </b><br>
+<span>嗜睡者 发表于 2018-11-30 07:24</span><br>
+<span>怎么看影视区二手区或者其他子版块啊</span><br>
+<span>设置->调整论坛列表</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>利物浦 发表于 2018-11-30 13:14</span><br>
+<span>设置->调整论坛列表</span><br>
+<span>谢谢！@</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>利物浦 发表于 2018-11-30 13:14</span><br>
+<span>设置->调整论坛列表</span><br>
+<span>谢谢！@</span><br>
+</p><p><b>奇洛里: </b><br>
+<span>提交BUG</span><br>
+<span>漫区阿宽贴（https://bbs.saraba1st.com/2b/thread-1794158-1-1.html）翻页闪退</span><br>
+</p><p><b>利物浦: </b><br>
+<span>两个建议：1、板块切换按钮太左边了，XSM右手大拇指点起来实在累，建议可设置左/右边显示；2、图片浏览似乎不是原图显示，是否可改为原图显示，或者加个选项令原图显示</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>提交bughttps://i.loli.net/2018/12/07/5c0963970678b.png</span><br>
+<span>只有一页，可以翻页然后会变成这样</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>另外mufu怎么举报别人啊？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zhongjie 发表于 2018-12-7 11:22</span><br>
+<span>另外mufu怎么举报别人啊？</span><br>
+<span>那个 BUG 我去研究下。</span><br>
+<span>举报的话：</span><br>
+<span>- 屏蔽帖子：</span><br>
+<span>      * 在帖子列表，左滑出现选单，选择 🤦‍♂️ 图标可对帖子进行屏蔽。</span><br>
+<span>- 屏蔽用户：</span><br>
+<span>      * 在帖子列表，左滑出现选单，选择 🤐 图标可将该用户加入黑名单。</span><br>
+<span>      * 在帖子详情页面，点击内容部分，在弹出的菜单选择「圆形打叉」按钮，可以将用户加入黑名单。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>利物浦 发表于 2018-12-3 09:10</span><br>
+<span>两个建议：1、板块切换按钮太左边了，XSM右手大拇指点起来实在累，建议可设置左/右边显示；2、图片浏览似乎 ...</span><br>
+<span>按钮这个会改！</span><br>
+<span>图片经过缩放去适应屏幕的大小，确实应该加个显示原图的，不过优先级没有那么高。</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>不确定是不是bug</span><br>
+<span>体制内的破事真估不到，个矿泉水瓶子逼死个人 - Stage1st https://bbs.saraba1st.com/2b/thread-1798508-1-1.html</span><br>
+<span>这个帖子第二页，有一层楼主设了密码帖，然后app内显示这一页全是密码帖，pc网页显示正常</span><br>
+<img src="https://i.loli.net/2018/12/19/5c19aaf3db821.png" title="https://i.loli.net/2018/12/19/5c19aaf3db821.png"><br>
+</p><p><b>Litccc: </b><br>
+<span>Lisylfn 发表于 2018-12-19 10:20</span><br>
+<span>不确定是不是bug</span><br>
+<span>体制内的破事真估不到，个矿泉水瓶子逼死个人 - Stage1st https://bbs.saraba1st.com/2b/t ...</span><br>
+<span>这帖我也看到了，应该是bug</span><br>
+</p><p><b>erdos: </b><br>
+<span>这帖子黑球一样</span><br>
+<span>官球倒是正常</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Lisylfn 发表于 2018-12-19 10:20</span><br>
+<span>不确定是不是bug</span><br>
+<span>体制内的破事真估不到，个矿泉水瓶子逼死个人 - Stage1st https://bbs.saraba1st.com/2b/t ...</span><br>
+<span>接口返回的数据都是“本帖为密码贴'......</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>kukushi 发表于 2018-12-19 17:04</span><br>
+<span>接口返回的数据都是“本帖为密码贴'......</span><br>
+<span>可怕, 不过密码帖也不太常见, 影响应该不大</span><br>
+</p><p><b>tokimon: </b><br>
+<span>Lisylfn 发表于 2018-12-19 17:55</span><br>
+<span> 可怕, 不过密码帖也不太常见, 影响应该不大</span><br>
+<span>不是bug，只有官球的黑科技能够看到原内容</span><br>
+</p><p><b>tokimon: </b><br>
+<span>目前浏览历史中的帖子好像不是实时更新而是隔天更新的？</span><br>
+</p><p><b>曾经的小书: </b><br>
+<span>请问大佬，这个客户端可以支持ipad分屏显示吗？一边码字一边刷s1是核心痛点</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2018-12-19 18:01</span><br>
+<span>目前浏览历史中的帖子好像不是实时更新而是隔天更新的？</span><br>
+<span>目前的有点问题，只有下次打开才会更新（</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>昨天论坛恢复后，点游戏区就提示too many redirects，如何解决其他区都可以正常上</span><br>
+</p><p><b>Sangria: </b><br>
+<span>ipad pro，回帖总是失败哦，提示是信息已送达但是发帖不成功还是怎么的。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>好像有个bug，iPhoneX，从别的应用切回mufu的时候，帖子会自动回到最上。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>奥柏伦亲王 发表于 2019-1-4 09:06</span><br>
+<span> 昨天论坛恢复后，点游戏区就提示too many redirects，如何解决其他区都可以正常上 ...</span><br>
+<span>昨天研究了一下，是缓存的问题，目前大概只能重装应用解决…</span><br>
+<span>或者等下个版本更新</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Sangria 发表于 2019-1-4 09:18</span><br>
+<span> ipad pro，回帖总是失败哦，提示是信息已送达但是发帖不成功还是怎么的。</span><br>
+<span>在设置里发一封反馈，我看看日志是啥问题</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zhuangku556 发表于 2019-1-4 11:50</span><br>
+<span> 好像有个bug，iPhoneX，从别的应用切回mufu的时候，帖子会自动回到最上。</span><br>
+<span>确实有这问题，我研究研究</span><br>
+</p><p><b>那由: </b><br>
+<span>往前滑页的话，能不能回到上一页最底部？</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>kukushi 发表于 2019-1-4 12:27</span><br>
+<span> 昨天研究了一下，是缓存的问题，目前大概只能重装应用解决… 或者等下个版本更新 ...</span><br>
+<span>作为游戏区长期用户选择重装</span><br>
+</p><p><b>moekyo: </b><br>
+<span>楼主请教一个问题，有用过微信的 wcdb 吗？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>moekyo 发表于 2019-1-4 15:45</span><br>
+<span> 楼主请教一个问题，有用过微信的 wcdb 吗？</span><br>
+<span>巧了，mufu 有用 wcdb 做缓存，不过没有很深入了解这个库</span><br>
+</p><p><b>moekyo: </b><br>
+<span>kukushi 发表于 2019-1-4 15:55</span><br>
+<span>巧了，mufu 有用 wcdb 做缓存，不过没有很深入了解这个库</span><br>
+<span>struct Resolution {</span><br>
+<span>    var width = 0</span><br>
+<span>    var height = 0</span><br>
+<span>}</span><br>
+<span>class VideoMode {</span><br>
+<span>    var resolution = Resolution()</span><br>
+<span>    var interlaced = false</span><br>
+<span>    var frameRate = 0.0</span><br>
+<span>    var name: String?</span><br>
+<span>}</span><br>
+<span>像是这样的结构，知道要怎么保存吗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>moekyo 发表于 2019-1-4 16:58</span><br>
+<span>像是这样的结构，知道要怎么保存吗</span><br>
+<span>import WCDBSwift</span><br>
+<span>struct Resolution: ColumnJSONCodable {</span><br>
+<span>    var width = 0</span><br>
+<span>    var height = 0</span><br>
+<span>}</span><br>
+<span>class VideoMode: TableCodable {</span><br>
+<span>    var resolution = Resolution()</span><br>
+<span>    var interlaced = false</span><br>
+<span>    var frameRate = 0.0</span><br>
+<span>    var name: String?</span><br>
+<span>    enum CodingKeys: String, CodingTableKey {</span><br>
+<span>      typealias Root = VideoMode</span><br>
+<span>      static let objectRelationalMapping = TableBinding(CodingKeys.self)</span><br>
+<span>      case resolution</span><br>
+<span>      case interlaced</span><br>
+<span>      case frameRate</span><br>
+<span>      case name</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+<span>基本上就是 resolution 自定义字段需要处理一下。详细看 wiki https://github.com/Tencent/wcdb/wiki/Swift-自定义字段映射类型</span><br>
+</p><p><b>lelouchlzc: </b><br>
+<span>话说这是无法发新帖的吗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>lelouchlzc 发表于 2019-1-4 22:41</span><br>
+<span> 话说这是无法发新帖的吗</span><br>
+<span>目前不行</span><br>
+</p><p><b>tokimon: </b><br>
+<span>肉身爬墙党希望能加入按照时区自动切时间的功能</span><br>
+</p><p><b>kukushi: </b><br>
+<span>更新一个测试版：</span><br>
+<span>1.0.3(38):</span><br>
+<span>新增：</span><br>
+<span>- 支持长按“切换子论坛按钮”改变位置</span><br>
+<span>- 支持删除收藏的帖子</span><br>
+<span>优化：</span><br>
+<span>- 向后翻页会自动滑动到尾部</span><br>
+<span>- 大图加载内存使用情况</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>悬浮球里的刷新不能置顶，在不同分区刷新位置不同</span><br>
+</p><p><b>kikka: </b><br>
+<span>更新啦，还是建议按钮加一个中间位置，我试了左右手单手握持，都是按中间位置最自然</span><br>
+</p><p><b>那由: </b><br>
+<span>这个点开板块按钮才能刷新有点繁琐感觉</span><br>
+<span>不如搞个3d touch刷新？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>更新到 1.1.1！</span><br>
+<span>- 切换部分接口使用官方 APP API</span><br>
+<span>- “我” 页面下增加 ”回复“ 栏</span><br>
+<span>- 修复几个 BUG</span><br>
+</p><p><b>Litccc: </b><br>
+<span>现在好像可以看到被封的人说过的话了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Litccc 发表于 2019-1-31 13:34</span><br>
+<span>现在好像可以看到被封的人说过的话了</span><br>
+<span>嗯。狗叔放开了这个限制</span><br>
+</p><p><b>kukushi: </b><br>
+<span>考虑放弃掉 iOS 10 的兼容了，后台也只看到 2% 的用户在用 10。</span><br>
+<span>希望还在用 iOS 10 的能升级上来，会有很多可见的变化。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>我现在在弄一个东西也打算从12起步了，简单舒服</span><br>
+</p><p><b>TiTA: </b><br>
+<span>那由 发表于 2018-9-14 22:23</span><br>
+<span> 分屏模式下边缘有切字的情况</span><br>
+<span>请问右边是什么浏览器</span><br>
+</p><p><b>yy77: </b><br>
+<span>不选安全问题登录按钮是灰的啊？</span><br>
+</p><p><b>tokimon: </b><br>
+<span> 本帖最后由 tokimon 于 2019-2-2 09:26 编辑 </span><br>
+<span>最近上图一直遇到不显示的情况74C15D6C-8D1C-495F-8ADB-0126817B71E3/L0/001</span><br>
+<span>比如这次又显示一串码……</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2019-2-2 09:24</span><br>
+<span> 最近上图一直遇到不显示的情况74C15D6C-8D1C-495F-8ADB-0126817B71E3/L0/001 比如这次又显示一串码……</span><br>
+<span>图片上传失败了，下个版本额外处理一下</span><br>
+</p><p><b>kukushi: </b><br>
+<span>yy77 发表于 2019-2-1 19:32</span><br>
+<span> 不选安全问题登录按钮是灰的啊？</span><br>
+<span>账号密码其中一个为空的话 按钮是灰的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[200-250]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[150-200]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>tokimon: </b><br>
+<span>好评希望可以加入类似s1 reader的手势切换主题功能</span><br>
+</p><p><b>shimotsuki14: </b><br>
+<span>之前用官球好长时间</span><br>
+<span>昨天拿到了XR，没有官球用</span><br>
+<span>某版主：你试试mufu</span><br>
+<span>……不是很想用啊……</span><br>
+<span>不也挺香的嘛！</span><br>
+</p><p><b>finalstar099: </b><br>
+<span>建议加上点击震动，特别是左下角选择论坛时，会更有精致感。</span><br>
+</p><p><b>半额便当: </b><br>
+<span>话说为啥不能发主题呢</span><br>
+</p><p><b>zdh: </b><br>
+<span>没有小尾巴啊，在设置里把小尾巴开启了还是没</span><br>
+</p><p><b>nocode: </b><br>
+<span>手机6s，回复某些帖子会出现引用贴过长导致输入行被几乎或者全部遮住，似乎是一定长度内的会出现，更长的会隐藏折叠https://i.loli.net/2018/11/14/5beb9980baf0d.pnghttps://i.loli.net/2018/11/14/5beb9980bc8be.png</span><br>
+</p><p><b>utada: </b><br>
+<span> 希望能出多个主题，如果能自定义颜色就更好了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>半额便当 发表于 2018-11-14 07:37</span><br>
+<span>话说为啥不能发主题呢</span><br>
+<span>现在用的这套接口没有发帖的 API。</span><br>
+<span>之后应该会迁移到和官球一样的接口</span><br>
+</p><p><b>kukushi: </b><br>
+<span>nocode 发表于 2018-11-14 11:41</span><br>
+<span>手机6s，回复某些帖子会出现引用贴过长导致输入行被几乎或者全部遮住，似乎是一定长度内的会出现，更长的会 ...</span><br>
+<span>收到</span><br>
+</p><p><b>kukushi: </b><br>
+<span>utada 发表于 2018-11-14 16:24</span><br>
+<span>希望能出多个主题，如果能自定义颜色就更好了</span><br>
+<span>现在三个主题我觉得蛮够用了，</span><br>
+<span>后面可能加个纯黑背景主题。</span><br>
+<span>配主题其实挺繁琐的，我相信你们不会想去整这个的。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zdh 发表于 2018-11-14 10:51</span><br>
+<span>没有小尾巴啊，在设置里把小尾巴开启了还是没</span><br>
+<span>啊，我没说清楚，隐藏的是其他客户端的小尾巴。</span><br>
+<span>MUFU 默认不带小尾巴，这样内容简洁一点</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>以后会不会有跳定到一页特定楼层的功能或者左右滑动翻页呢？我往下拉得太快就会跳到下一页</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>切换子论坛只有这几个吗？我想要马区</span><br>
+</p><p><b>kukushi: </b><br>
+<span>小白无机酸 发表于 2018-11-17 00:04</span><br>
+<span>切换子论坛只有这几个吗？我想要马区</span><br>
+<span>设置里可以改</span><br>
+</p><p><b>ziyo: </b><br>
+<span>有没有办法兼容一下低版本ios，功能少点也没关系</span><br>
+</p><p><b>tokimon: </b><br>
+<img src="https://i.loli.net/2018/11/18/5bf0f555a7c83.pnghttps://i.loli.net/2018/11/18/5bf0f555aa0d3.png" title="https://i.loli.net/2018/11/18/5bf0f555a7c83.pnghttps://i.loli.net/2018/11/18/5bf0f555aa0d3.png"><br>
+<span>几天使用下来反馈一些bug：麻将脸错位，部分楼层缩图和吃文字</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2018-11-18 13:15</span><br>
+<span>几天使用下来反馈一些bug：麻将脸错位，部分楼层缩图和吃文字</span><br>
+<span>感谢反馈！</span><br>
+<span>表情这个应该是缓存冲突了，我处理一下。</span><br>
+<span>缩图，比较经常出现在一个楼层有很多图片，其中只有前几张加载完了，这个时候程序是不会去重新计算高度，导致看起来是缩了，其实是还在下载其他图片。暂时还没想到解决办法 = =|||。</span><br>
+<span>吃字倒是没遇到，iPad 分屏模式下会有问题，一直没修。。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>ziyo 发表于 2018-11-17 02:03</span><br>
+<span>有没有办法兼容一下低版本ios，功能少点也没关系</span><br>
+<span>后台看 90%以上的人是在用 iOS 12，应该不会再往下兼容了......</span><br>
+<span>推荐你更新一下系统!（</span><br>
+</p><p><b>tokimon: </b><br>
+<span>kukushi 发表于 2018-11-18 17:57</span><br>
+<span> 感谢反馈！表情这个应该是缓存冲突了，我处理一下。 </span><br>
+<span>比如我在55楼的回帖就出现了吃字</span><br>
+<span>因照片显老被质疑年龄 80后官员同事：4年搬迁工作白了头 - Stage1st https://bbs.saraba1st.com/2b/thread-1791172-1-1.html</span><br>
+<span>还有一个小小的优化建议，引用回复的时候假如段落太长就会这样看不到字，或许可以缩略显示一两行或者干脆不显示</span><br>
+<span>debug 加油！https://i.loli.net/2018/11/18/5bf13b95b1f71.pnghttps://i.loli.net/2018/11/18/5bf13b9593599.png</span><br>
+</p><p><b>ziyo: </b><br>
+<span>kukushi 发表于 2018-11-18 18:00</span><br>
+<span>后台看 90%以上的人是在用 iOS 12，应该不会再往下兼容了......</span><br>
+<span>推荐你更新一下系统!（ ...</span><br>
+<span>4s</span><br>
+</p><p><b>kukushi: </b><br>
+<span>tokimon 发表于 2018-11-18 18:14</span><br>
+<span>比如我在55楼的回帖就出现了吃字</span><br>
+<span>因照片显老被质疑年龄 80后官员同事：4年搬迁工作白了头 - Stage1st htt ...</span><br>
+<span>我看了一下，吃字是因为服务端返回的数据比较畸形，暂时没有办法解决 = =||| </span><br>
+<span>Reader 能正常显示是因为渲染方式不同...</span><br>
+<span>回复的问题后面会改</span><br>
+</p><p><b>ninasam233: </b><br>
+<span>夜间模式   不科学   字体颜色应该降低亮度</span><br>
+</p><p><b>tokimon: </b><br>
+<span>突然出现切游戏区就闪退的问题</span><br>
+</p><p><b>yy77: </b><br>
+<span>今早安装的appstore版，切游戏区就闪退。</span><br>
+</p><p><b>violettor: </b><br>
+<span>6s 切游戏区瞬间黑屏退出…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>bluna: </b><br>
+<span>今天打开就一直闪退</span><br>
+<span>机种X</span><br>
+</p><p><b>sayno210: </b><br>
+<span>ipx一直闪退根本进不去+1</span><br>
+<span>看来不止我一个</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>同样切游戏区闪退, 然后我的游戏区还设置在默认板块, 直接用不了了</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>昨天出现游戏区闪退了，官球上来报告一下</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>毅茶: </b><br>
+<span>今天xr闪退</span><br>
+</p><p><b>Objective-C: </b><br>
+<span> 本帖最后由 Objective-C 于 2018-11-25 11:07 编辑 </span><br>
+<span>好像是必现的</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 游戏版有个帖子返回的数据奇怪，我马上修一下</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>lz快醒醒，起来修bug啦！</span><br>
+</p><p><b>kukushi: </b><br>
+<span>测试版，等下午应该可以收到更新</span><br>
+<span>正式版要审核......可能要过两三天，或者等那个有问题的帖子沉下去</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>测试版收到了，是哪个帖子这么神奇</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>我这边正式版也能进游戏区了</span><br>
+<span>不考虑把那个帖子砍头吗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1792961-1-2.html</span><br>
+<span> 我以为回帖数肯定是个数字吧，结果这个回帖数是 "-" ，结果就....</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>是那个白学帖，已经移区了。</span><br>
+<span>说砍头的注意点，那贴版主发的</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>小白无机酸 发表于 2018-11-25 13:09</span><br>
+<span> 是那个白学帖，已经移区了。 说砍头的注意点，那贴版主发的</span><br>
+</p><p><b>cat339: </b><br>
+<span>很好用，谢谢楼主。</span><br>
+<span>有个字体的问题，App帖子正文字体比imessage里短信的字体小一号吗？ </span><br>
+<span>刷论坛看着偏小，系统设置里调大一号字体短信界面又变得过大。</span><br>
+</p><p><b>soloyu: </b><br>
+<span>试了几个客户端，楼主的最好看，拖动的时候图片加载有点慢，希望可以预加载</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>是不是app端的黑名单数量是有限的，我现在好像拉黑一个就会放出来一个</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Gymnopedie 发表于 2018-11-27 14:45</span><br>
+<span>是不是app端的黑名单数量是有限的，我现在好像拉黑一个就会放出来一个 ...</span><br>
+<span>应该不会吧。你黑名单里有多少人了？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>cat339 发表于 2018-11-26 09:57</span><br>
+<span>很好用，谢谢楼主。</span><br>
+<span>有个字体的问题，App帖子正文字体比imessage里短信的字体小一号吗？ </span><br>
+<span>刷论坛看着偏小， ...</span><br>
+<span> 字体的问题很多人反馈 很快会改</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>kukushi 发表于 2018-11-28 15:42</span><br>
+<span>应该不会吧。你黑名单里有多少人了？</span><br>
+<span>24个（毕竟基因编辑的事吵得太凶了）而且我现在确认了每拉黑一个新巨魔，app里的黑名单的最后一位就会被放出来，而这些troll们在网页版的s1还是被屏蔽的</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>现在mufu可以发表主贴吗？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Gymnopedie 发表于 2018-11-28 16:12</span><br>
+<span> 24个（毕竟基因编辑的事吵得太凶了）而且我现在确认了每拉黑一个新巨魔，app里的黑名单的最后一位就会被 ...</span><br>
+<span>确实有问题…目前只有第一页的会被屏蔽会生效</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zhongjie 发表于 2018-11-28 17:13</span><br>
+<span> 现在mufu可以发表主贴吗？</span><br>
+<span>还不行</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>kukushi 发表于 2018-11-28 22:37</span><br>
+<span>确实有问题…目前只有第一页的会被屏蔽会生效</span><br>
+<span>巨魔肆虐，救救孩子</span><br>
+</p><p><b>陈九六: </b><br>
+<span>感觉切换子论坛的选项动画有点违和，另外就是侧边栏里的收藏/历史选项卡里面侧滑返回失效了，要手动够最上面的按钮，有点不方便</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[150-200]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>kukushi: </b><br>
+<span>okok123 发表于 2018-10-15 12:44</span><br>
+<span> 为啥论坛没事，客户端挂了？还连接了另外的服务器么？</span><br>
+<span>刚刚论坛比较慢，请求超时了大概。</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span> 本帖最后由 Lisylfn 于 2018-10-16 16:42 编辑 </span><br>
+<span>刚好上传图片sm.ms维护了</span><br>
+<img src="http://ww2.sinaimg.cn/large/a8b6c23dgy1fwa5m1ivwtj20ku0zuad0.jpg" title="http://ww2.sinaimg.cn/large/a8b6c23dgy1fwa5m1ivwtj20ku0zuad0.jpg"><br>
+<span>论坛卡卡出了这样的bug，切换板块的等待时长很久，切换过来就这样了，两个板块内容交错了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Lisylfn 发表于 2018-10-16 16:37</span><br>
+<span>刚好上传图片sm.ms维护了</span><br>
+<span>网络慢的话会这样子，好一点的是两个论坛交叉，差一点的就直接崩溃了。发生的比较少，一直没修。 </span><br>
+</p><p><b>kukushi: </b><br>
+<span>紧那罗 发表于 2018-10-14 11:45</span><br>
+<span>期待上架</span><br>
+<span>话说 ios的几个客户端都不开源 是有什么原因吗</span><br>
+<span>S1 Reader 是开源的</span><br>
+<span>我目前暂时没有开源的想法</span><br>
+</p><p><b>okok123: </b><br>
+<span>App还有开发者做在线客服，必须好评</span><br>
+</p><p><b>kukushi: </b><br>
+<span>更新 1.0 (24)</span><br>
+<span>新增：</span><br>
+<span>* 搜索帖子（API 限制最多只能搜索 100 个结果）</span><br>
+<span>* 屏蔽帖子与用户黑名单</span><br>
+<span>        * 黑名单与论坛的黑名单是同步的</span><br>
+<span>* 帖子详情页面下方的页数按钮支持滑动快速切换页面</span><br>
+<span>* 增加草稿箱</span><br>
+<span>        * 回复失败时，回复内容会自动存入草稿箱中</span><br>
+<span>* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告</span><br>
+<span>改进：</span><br>
+<span>* 调整”登录”界面布局</span><br>
+<span>* 降低“引用”超链接的误触机率</span><br>
+<span>* iPhone 不再支持横屏</span><br>
+<span>* 优化麻将脸加载</span><br>
+<span>修复：</span><br>
+<span>* 部分复杂密码无法登录的问题</span><br>
+<span>* 修复点击帖子内容中不完整链接崩溃的问题</span><br>
+<span>* 修复有时加载帖子列表崩溃的问题</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>希望能增加修改自己帖子和一页内跳转特定楼层的功能</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>kukushi 发表于 2018-11-2 21:09</span><br>
+<span>更新 1.0 (24)</span><br>
+<span>新增：</span><br>
+<span>感觉成为最先进的第三方客户端了</span><br>
+</p><p><b>repal: </b><br>
+<span>没有测试名额了嘛……眼馋</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>kukushi: </b><br>
+<span>repal 发表于 2018-11-3 15:15</span><br>
+<span>没有测试名额了嘛……眼馋</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+<span>加了一些名额。应该可以了</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>更新以后感觉可以做ios主力客户端了，不过一上来回复专楼就不停失败是啥情况</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+</p><p><b>kukushi: </b><br>
+<span>kirainsky 发表于 2018-11-3 16:17</span><br>
+<span>更新以后感觉可以做ios主力客户端了，不过一上来回复专楼就不停失败是啥情况</span><br>
+<span>发自我的iPhone via S ...</span><br>
+<span> 可以在设置里点反馈把日志发给我，看下是啥问题</span><br>
+</p><p><b>kukushi: </b><br>
+<span>测试下</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>安卓没人权</span><br>
+</p><p><b>moetekita: </b><br>
+<span>悬浮球切换子论坛可以考虑改为底部栏，会好很多。不过只是一个建议。</span><br>
+</p><p><b>reyes1004: </b><br>
+<span>moetekita 发表于 2018-11-3 18:15</span><br>
+<span>悬浮球切换子论坛可以考虑改为底部栏，会好很多。不过只是一个建议。</span><br>
+<span>同感</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>kukushi 发表于 2018-11-3 16:26</span><br>
+<span> 可以在设置里点反馈把日志发给我，看下是啥问题</span><br>
+<span>已发。刚刚重新登录了下似乎好了</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>速度比官球快多了，绝赞使用中</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>pyd68tc 发表于 2018-11-3 18:09</span><br>
+<span>安卓没人权</span><br>
+<span>安卓鹅球不够用？</span><br>
+</p><p><b>repal: </b><br>
+<span>kukushi 发表于 2018-11-3 16:11</span><br>
+<span> 加了一些名额。应该可以了</span><br>
+<span>用上了，舒服</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>pgain2004 发表于 2018-11-3 18:46</span><br>
+<span>安卓鹅球不够用？</span><br>
+<span>没有网页版顺滑</span><br>
+</p><p><b>kukushi: </b><br>
+<span>moetekita 发表于 2018-11-3 18:15</span><br>
+<span>悬浮球切换子论坛可以考虑改为底部栏，会好很多。不过只是一个建议。</span><br>
+<span>底部栏在“全面屏”下占用太多空间了</span><br>
+</p><p><b>bluna: </b><br>
+<span>回复带附件图片时，没有图只有一圈代码...</span><br>
+</p><p><b>kukushi: </b><br>
+<span>bluna 发表于 2018-11-5 15:16</span><br>
+<span>回复带附件图片时，没有图只有一圈代码...</span><br>
+<span>以前的版本上传图片失败就会表现成这样 = =|||</span><br>
+<span>新版本是表现为回复失败</span><br>
+</p><p><b>bluna: </b><br>
+<span>kukushi 发表于 2018-11-5 17:06</span><br>
+<span>以前的版本上传图片失败就会表现成这样 = =|||</span><br>
+<span>新版本是表现为回复失败</span><br>
+<span>是的 今天全是失败</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 本帖最后由 kukushi 于 2018-11-10 18:33 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>奇洛里: </b><br>
+<span>更新了！LZ辛苦</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 本帖最后由 kukushi 于 2018-11-7 23:08 编辑 </span><br>
+<span>奇洛里 发表于 2018-11-7 22:55</span><br>
+<span>更新了！LZ辛苦</span><br>
+<span> 微小的更新</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>不知是否考虑置顶的帖子用颜色或其他方式区分？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>bubuyu 发表于 2018-11-8 22:22</span><br>
+<span> 不知是否考虑置顶的帖子用颜色或其他方式区分？</span><br>
+<span>不太行</span><br>
+<span>论坛接口返回的数据没有标记是不是置顶贴。</span><br>
+<span>客户端现在只能根据最后回帖的时间粗浅的判断是不是被置顶了。</span><br>
+</p><p><b>霍普离斯: </b><br>
+<span>感谢楼主</span><br>
+</p><p><b>cyrano57: </b><br>
+<span>给楼主打call</span><br>
+</p><p><b>kukushi: </b><br>
+<span>终于上架了，刚上架搜索暂时搜不到了。</span><br>
+<span>点主楼的链接可以直达～</span><br>
+</p><p><b>wifi王道: </b><br>
+<span>鲜艳的黄色</span><br>
+</p><p><b>黎恩.奥斯本: </b><br>
+<span>pyd68tc 发表于 2018-11-3 19:54</span><br>
+<span>没有网页版顺滑</span><br>
+<span>但是安卓鹅球有网页没有的黑科技啊</span><br>
+</p><p><b>黎恩.奥斯本: </b><br>
+<span>话说这个客户端是没有办法直接跳转贴子尾页吗</span><br>
+</p><p><b>kikka: </b><br>
+<span>回复试试，各个小功能挺不错的，目前还不能调整字号吗？</span><br>
+</p><p><b>kikka: </b><br>
+<span>kikka 发表于 2018-11-10 14:05</span><br>
+<span> 回复试试，各个小功能挺不错的，目前还不能调整字号吗？</span><br>
+<span>另外建议切换板块球（暂定）放在中间或者右侧或者自由移动，现在这个位置届不到啊</span><br>
+</p><p><b>kukushi: </b><br>
+<span>黎恩.奥斯本 发表于 2018-11-10 13:58</span><br>
+<span>话说这个客户端是没有办法直接跳转贴子尾页吗</span><br>
+<span>页数的按钮是可以左右滑的！</span><br>
+<span>你试试</span><br>
+</p><p><b>奥柏伦亲王: </b><br>
+<span>真舒服，真香！</span><br>
+<span>之前都是用S1 Reader，Mufu感觉排版更漂亮一些，不过下拉刷新下一页的时候读取的时间体感要比reader长，不知道是什么原因。</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>黎恩.奥斯本 发表于 2018-11-10 13:47</span><br>
+<span>但是安卓鹅球有网页没有的黑科技啊</span><br>
+<span>啥黑科技啊</span><br>
+</p><p><b>黎恩.奥斯本: </b><br>
+<span>pyd68tc 发表于 2018-11-10 17:38</span><br>
+<span>啥黑科技啊</span><br>
+<span>能够看到已经进小黑屋用户发的内容</span><br>
+</p><p><b>zhouly6: </b><br>
+<span>挺舒服的   回复一发试试</span><br>
+</p><p><b>hansel: </b><br>
+<span>非常感谢！适配 iPad 很感动，想打钱，就是希望整个页面的无用面积不要那么多……左边一条都是空着的</span><br>
+<span>可以参考一下 https://www.resetera.com 的布局～</span><br>
+</p><p><b>bluna: </b><br>
+<span>测试版还会更新吗？</span><br>
+</p><p><b>royalblue1127: </b><br>
+<span>好用！</span><br>
+</p><p><b>Litccc: </b><br>
+<span>挺好用的，一开始感觉不习惯，才发现没有熟悉的屎黄色</span><br>
+</p><p><b>半额便当: </b><br>
+<span>恭喜楼主上架，icon感觉是楼主自己画的233</span><br>
+<span>另外推荐吧屎黄色作为默认色</span><br>
+</p><p><b>kukushi: </b><br>
+<span>bluna 发表于 2018-11-12 09:40</span><br>
+<span>测试版还会更新吗？</span><br>
+<span>会的，会别正式版更快收到更新</span><br>
+</p><p><b>kukushi: </b><br>
+<span>hansel 发表于 2018-11-12 01:03</span><br>
+<span>非常感谢！适配 iPad 很感动，想打钱，就是希望整个页面的无用面积不要那么多……左边一条都是空着的</span><br>
+<span>可以 ...</span><br>
+<span>说实话，iPad 用户比较少，现在也只是简单的适配了一下。</span><br>
+<span>后面会考虑特别优化，但是优先级比较低</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[100-150]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>毅茶: </b><br>
+<span>提一个小问题，引用回复会有一个原帖发布时间的链接，不小心点到会跳到网页版？感觉误触几率蛮高的</span><br>
+</p><p><b>毅茶: </b><br>
+<span>还有一个翻页功能，能不能做成在最后一页的时候，再次点击直接跳到最后一楼，现在在最后一页点击是没有反应的</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>楼主，下个功能增加搜索吧，谢谢啦，哈哈哈</span><br>
+</p><p><b>祭酒: </b><br>
+<img src="https://i.loli.net/2018/09/18/5ba0adf9a10a7.png" title="https://i.loli.net/2018/09/18/5ba0adf9a10a7.png"><br>
+<span>挺漂亮，能发图很方便</span><br>
+<span>就是回帖时字体有点小，比系统的小很多</span><br>
+<span>另外好像插入图片后是看不到文本输入的https://i.loli.net/2018/09/18/5ba0adfc9a87a.png需要手动换几行才能看到，被输入法键盘挡住了</span><br>
+</p><p><b>kukushi: </b><br>
+<span>宅逆袭 发表于 2018-9-15 15:33</span><br>
+<span>夜间模式能否换成纯黑背景呢</span><br>
+<span>纯黑背景会不会反差太大了？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>祭酒 发表于 2018-9-18 15:49</span><br>
+<span>挺漂亮，能发图很方便</span><br>
+<span>就是回帖时字体有点小，比系统的小很多</span><br>
+<span>收到，确实有这个问题。</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>用了一天，提个意见，页面跳转如果能增加跳转到特定页面的项目或者之前那个app的跳到最后一页按钮就好了，否则那些上千页的帖子就是划数字也要划很久</span><br>
+</p><p><b>宅逆袭: </b><br>
+<span>kukushi 发表于 2018-9-18 19:04</span><br>
+<span>纯黑背景会不会反差太大了？</span><br>
+<span>oled屏还是纯黑比较舒服啦··· 毕竟以后新手机都是oled了</span><br>
+</p><p><b>祭酒: </b><br>
+<span>夜晚主題的黑背景，回复框的文本也是黑的看不见了</span><br>
+</p><p><b>祭酒: </b><br>
+<span>刚发了十多张图，有三张没发出去，替换成了一串字母</span><br>
+<img src="https://i.loli.net/2018/09/20/5ba2b1fa6a9e3.png" title="https://i.loli.net/2018/09/20/5ba2b1fa6a9e3.png"><br>
+</p><p><b>kukushi: </b><br>
+<span>祭酒 发表于 2018-9-20 04:30</span><br>
+<span>刚发了十多张图，有三张没发出去，替换成了一串字母</span><br>
+<span>那个数字字母是用用来占位的，</span><br>
+<span>我考虑一下失败了咋处理比较好</span><br>
+</p><p><b>kukushi: </b><br>
+<span>月夜凝雪 发表于 2018-9-18 19:54</span><br>
+<span>用了一天，提个意见，页面跳转如果能增加跳转到特定页面的项目或者之前那个app的跳到最后一页按钮就好了， ...</span><br>
+<span>恩，考虑加个按钮</span><br>
+</p><p><b>kukushi: </b><br>
+<span>祭酒 发表于 2018-9-20 04:19</span><br>
+<span>夜晚主題的黑背景，回复框的文本也是黑的看不见了</span><br>
+<span>收到，下个版本会修。</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>kukushi 发表于 2018-9-20 11:15</span><br>
+<span>恩，考虑加个按钮</span><br>
+<span>右边加个能划到特定楼层的就好了</span><br>
+</p><p><b>macos: </b><br>
+<span>不能登符号密码</span><br>
+</p><p><b>willbefly: </b><br>
+<span>有了全屏手势后果然好用不少，期待加入搜索，另外回复帖子完了后，能不能自动刷新显示</span><br>
+</p><p><b>kukushi: </b><br>
+<span>macos 发表于 2018-9-22 21:03</span><br>
+<span>不能登符号密码</span><br>
+<span>我试过 `.+,=* 没啥问题呀， </span><br>
+<span>你是有什么特殊的符号吗</span><br>
+</p><p><b>macos: </b><br>
+<span>kukushi 发表于 2018-9-23 23:35</span><br>
+<span>我试过 `.+,=* 没啥问题呀， </span><br>
+<span>你是有什么特殊的符号吗</span><br>
+<span>各式括号</span><br>
+</p><p><b>暴走的饭团: </b><br>
+<span>这界面，想起了天国的WP</span><br>
+</p><p><b>bluna: </b><br>
+<span>打不开二手交易区贴子</span><br>
+</p><p><b>kukushi: </b><br>
+<span>bluna 发表于 2018-9-25 16:51</span><br>
+<span>打不开二手交易区贴子</span><br>
+<span>二手区比较特殊，下个版本特殊处理一下</span><br>
+</p><p><b>枫之零: </b><br>
+<span>毅茶 发表于 2018-9-18 00:22</span><br>
+<span> 提一个小问题，引用回复会有一个原帖发布时间的链接，不小心点到会跳到网页版？感觉误触几率蛮高的 ...</span><br>
+<span>+1滑动的时候误触非常高</span><br>
+</p><p><b>kyo_pj: </b><br>
+<span>我还在iOS9.....</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 本帖最后由 kukushi 于 2018-9-30 22:24 编辑 </span><br>
+</p><p><b>祭酒: </b><br>
+<span>更新了啊。夜晚主题现在回复时看得见字了，可一旦插入图片又变成以前的黑底黑字</span><br>
+<img src="https://i.loli.net/2018/10/03/5bb485d60beb9.png" title="https://i.loli.net/2018/10/03/5bb485d60beb9.png"><br>
+</p><p><b>kukushi: </b><br>
+<span>小小的更新一下：</span><br>
+<span>新增：</span><br>
+<span>- WebP 图片支持</span><br>
+<span>- 新麻将脸</span><br>
+<span>- 反馈邮件会自动附带上一些信息和 Log</span><br>
+<span>优化：</span><br>
+<span>- 优化多图长帖的内存使用情况</span><br>
+<span>修复：</span><br>
+<span>- 二手区帖子无法查看的问题</span><br>
+<span>- 发送回复偶发崩溃的问题</span><br>
+<span>- 回复字体颜色不对的问题</span><br>
+<span>黑名单和搜索在下个版本！</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>用起来太爽了，吊打一票其他论坛的客户端</span><br>
+</p><p><b>bluna: </b><br>
+<span> 出现了升级推送，点进去什么也没有</span><br>
+</p><p><b>kukushi: </b><br>
+<span>bluna 发表于 2018-10-4 10:02</span><br>
+<span>出现了升级推送，点进去什么也没有</span><br>
+<span>你现在登录的帐号是当时申请Testflight的帐号吗？</span><br>
+</p><p><b>bluna: </b><br>
+<span>kukushi 发表于 2018-10-4 11:35</span><br>
+<span> 你现在登录的帐号是当时申请Testflight的帐号吗？</span><br>
+<span>是帐号问题，更新了</span><br>
+</p><p><b>dispatcher: </b><br>
+<span>现在的版本已经很舒服了</span><br>
+<span>这些比较有用的功能希望之后能更新一下：调整字体大小，论坛搜索</span><br>
+</p><p><b>lundy: </b><br>
+<span>不能发帖只能回？</span><br>
+</p><p><b>sumby: </b><br>
+<span>希望主版面上可以有一个一键刷新的按钮，不然翻到下面的时候想刷新有点麻烦</span><br>
+</p><p><b>yibo: </b><br>
+<span>sumby 发表于 2018-10-5 23:36</span><br>
+<span>希望主版面上可以有一个一键刷新的按钮，不然翻到下面的时候想刷新有点麻烦 ...</span><br>
+<span>+1，贴吧取消底部刷新按钮后感到浑身难受</span><br>
+<span>stage1st reader的底部刷新十分舒适</span><br>
+</p><p><b>kukushi: </b><br>
+<span>yibo 发表于 2018-10-6 20:41</span><br>
+<span>+1，贴吧取消底部刷新按钮后感到浑身难受</span><br>
+<span>stage1st reader的底部刷新十分舒适 ...</span><br>
+<span>@sumby @yibo</span><br>
+<span>其实你们在切换论坛的弹窗里面，再选择一下当前的子论坛就是刷新了。</span><br>
+</p><p><b>yibo: </b><br>
+<span>kukushi 发表于 2018-10-6 22:51</span><br>
+<span> @sumby @yibo 其实你们在切换论坛的弹窗里面，再选择一下当前的子论坛就是刷新了。...</span><br>
+<span>完成搜索后，就有能上架的完成度了</span><br>
+</p><p><b>sssfans: </b><br>
+<span>我就想问ios的哪个客户端有消息提醒？最好提醒能推送</span><br>
+</p><p><b>kane123: </b><br>
+<span>安卓可以有吗？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>sumby: </b><br>
+<span>kukushi 发表于 2018-10-6 22:51</span><br>
+<span>@sumby @yibo</span><br>
+<span>其实你们在切换论坛的弹窗里面，再选择一下当前的子论坛就是刷新了。</span><br>
+<span> ...</span><br>
+<span>好的，知道啦！</span><br>
+</p><p><b>kukushi: </b><br>
+<span>sssfans 发表于 2018-10-7 13:45</span><br>
+<span>我就想问ios的哪个客户端有消息提醒？最好提醒能推送</span><br>
+<span>好像都没有。</span><br>
+<span>而且这个功能只有官方能做。</span><br>
+</p><p><b>周樟寿: </b><br>
+<span>今天不知道怎么回事，我在Mufu上的所有回复都被吞了，每次都显示回复成功，但是所有回复都没有显示</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>kukushi 发表于 2018-10-7 20:45</span><br>
+<span>好像都没有。</span><br>
+<span>而且这个功能只有官方能做。</span><br>
+<span>消息提醒saralin有吧?还有帖子跟踪.(虽然推送不是特别及时)</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>期待上架</span><br>
+<span>话说 ios的几个客户端都不开源 是有什么原因吗 </span><br>
+</p><p><b>okok123: </b><br>
+<span>楼主这个图标和s1风格不搭配啊</span><br>
+</p><p><b>kukushi: </b><br>
+<span>周樟寿 发表于 2018-10-14 10:09</span><br>
+<span> 今天不知道怎么回事，我在Mufu上的所有回复都被吞了，每次都显示回复成功，但是所有回复都没有显示 ...</span><br>
+<span>我看看</span><br>
+</p><p><b>kukushi: </b><br>
+<span>周樟寿 发表于 2018-10-14 10:09</span><br>
+<span> 今天不知道怎么回事，我在Mufu上的所有回复都被吞了，每次都显示回复成功，但是所有回复都没有显示 ...</span><br>
+<span>可能是登录状态掉了…</span><br>
+<span>如果外野看不了的话，要重新登出再登录一下。下个版本会改进…</span><br>
+</p><p><b>周樟寿: </b><br>
+<span>kukushi 发表于 2018-10-14 14:23</span><br>
+<span>可能是登录状态掉了…</span><br>
+<span>如果外野看不了的话，要重新登出再登录一下。下个版本会改进… ...</span><br>
+<span>麻烦了，谢谢，我去试试</span><br>
+</p><p><b>kukushi: </b><br>
+<img src="https://i.loli.net/2018/10/14/5bc2f6c809177.png" title="https://i.loli.net/2018/10/14/5bc2f6c809177.png"><br>
+</p><p><b>horizonblue: </b><br>
+<span>再增加个字体大小感觉就完美了</span><br>
+</p><p><b>okok123: </b><br>
+<span>为啥论坛没事，客户端挂了？还连接了另外的服务器么？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[50-100]</guid>
+    </item>
+    <item>
+      <title>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1753672-1-1.html</link>
+      <description>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦&#13;
+ 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 
+
+https://i.loli.net/2019/05/12/5cd77ededd650.jpg
+&#13;
+AppStore 传送门
+&#13;
+点击加入 Testflight 测试
+&#13;
+支持 Mufu
+&#13;
+大概长这样：
+&#13;
+https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png
+&#13;
+https://i.loli.net/2018/09/13/5b9a72473071c.png
+&#13;
+已知的问题：
+&#13;
+- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃
+&#13;
+特色：
+&#13;
+- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。
+&#13;
+- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步
+&#13;
+- 支持将将帖子里的回复以图片的形式分享
+&#13;
+    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。
+&#13;
+待实现：
+&#13;
+- 发帖
+&#13;
+- ”反白”
+&#13;
+- iCloud 同步浏览记录与设置
+&#13;
+- ……
+&#13;
+----------
+&#13;
+1.0(21)
+&#13;
+新增：
+&#13;
+- 增加屎黄色主题和黑夜主题
+&#13;
+- 增加全屏手势
+&#13;
+- 分享截图／文字
+&#13;
+----
+&#13;
+1.0(23)
+&#13;
+新增：
+&#13;
+- WebP 图片支持
+&#13;
+- 新麻将脸
+&#13;
+- 反馈邮件会自动附带上一些信息和 Log
+&#13;
+优化：
+&#13;
+- 优化多图长帖的内存使用情况
+&#13;
+修复：
+&#13;
+- 二手区帖子无法查看的问题
+&#13;
+- 发送回复偶发崩溃的问题
+&#13;
+- 回复字体颜色不对的问题
+&#13;
+1.0 (24)
+&#13;
+新增：
+&#13;
+* 搜索帖子（API 限制最多只能搜索 100 个结果）
+&#13;
+* 屏蔽帖子与用户黑名单
+&#13;
+      * 黑名单与论坛的黑名单是同步的
+&#13;
+* 帖子详情页面下方的页数按钮支持滑动快速切换页面
+&#13;
+* 增加草稿箱
+&#13;
+      * 回复失败时，回复内容会自动存入草稿箱中
+&#13;
+* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告
+&#13;
+改进：
+&#13;
+* 调整”登录”界面布局
+&#13;
+* 降低“引用”超链接的误触机率
+&#13;
+* iPhone 不再支持横屏
+&#13;
+* 优化麻将脸加载
+&#13;
+修复：
+&#13;
+* 部分复杂密码无法登录的问题
+&#13;
+* 修复点击帖子内容中不完整链接崩溃的问题
+&#13;
+* 修复有时加载帖子列表崩溃的问题
+&#13;
+1.1.1(42)
+&#13;
+- 切换部分接口使用官方 APP API
+&#13;
+- “我” 页面下增加 ”回复“ 栏
+&#13;
+- 修复几个 BUG
+&#13;
+1.2.0(49)
+&#13;
+- 支持投票
+&#13;
+- 最低系统要求升级到 iOS 11
+&#13;
+- 修复几个 BUG
+&#13;
+1.3.0(52)
+&#13;
+- 支持字号调整
+&#13;
+- 增加新的麻将脸</description>
+      <content:encoded><![CDATA[<p><b>kukushi: </b><br>
+<span>S1 Mufu:  第三方 iOS S1 客户端，支持字号调整啦</span><br>
+<span> 本帖最后由 kukushi 于 2019-5-12 10:16 编辑 </span><br>
+<img src="https://i.loli.net/2019/05/12/5cd77ededd650.jpg" title="https://i.loli.net/2019/05/12/5cd77ededd650.jpg"><br>
+<span>AppStore 传送门</span><br>
+<span>点击加入 Testflight 测试</span><br>
+<span>支持 Mufu</span><br>
+<span>大概长这样：</span><br>
+<img src="https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png" title="https://i.loli.net/2019/05/12/5cd77f19bb63f.jpghttps://i.loli.net/2018/09/13/5b9a7244babcf.png"><br>
+<img src="https://i.loli.net/2018/09/13/5b9a72473071c.png" title="https://i.loli.net/2018/09/13/5b9a72473071c.png"><br>
+<span>已知的问题：</span><br>
+<span>- iPad Air 以及之前机型在加载很多大图的时候可能会崩溃</span><br>
+<span>特色：</span><br>
+<span>- 可以通过复制其他应用里的 S1 链接，然后切换到 Mufu，Mufu 会检测并打开这个页面。</span><br>
+<span>- 支持在回复中添加图片（使用了 sm.ms 图床） - 支持黑名单，与论坛的黑名单同步</span><br>
+<span>- 支持将将帖子里的回复以图片的形式分享</span><br>
+<span>    - 分享大图时，有一些App （如 TIM） 会对图片进行严重的压缩，推荐保存到相册后分享。</span><br>
+<span>待实现：</span><br>
+<span>- 发帖</span><br>
+<span>- ”反白”</span><br>
+<span>- iCloud 同步浏览记录与设置</span><br>
+<span>- ……</span><br>
+<span>----------</span><br>
+<span>1.0(21)</span><br>
+<span>新增：</span><br>
+<span>- 增加屎黄色主题和黑夜主题</span><br>
+<span>- 增加全屏手势</span><br>
+<span>- 分享截图／文字</span><br>
+<span>----</span><br>
+<span>1.0(23)</span><br>
+<span>新增：</span><br>
+<span>- WebP 图片支持</span><br>
+<span>- 新麻将脸</span><br>
+<span>- 反馈邮件会自动附带上一些信息和 Log</span><br>
+<span>优化：</span><br>
+<span>- 优化多图长帖的内存使用情况</span><br>
+<span>修复：</span><br>
+<span>- 二手区帖子无法查看的问题</span><br>
+<span>- 发送回复偶发崩溃的问题</span><br>
+<span>- 回复字体颜色不对的问题</span><br>
+<span>1.0 (24)</span><br>
+<span>新增：</span><br>
+<span>* 搜索帖子（API 限制最多只能搜索 100 个结果）</span><br>
+<span>* 屏蔽帖子与用户黑名单</span><br>
+<span>      * 黑名单与论坛的黑名单是同步的</span><br>
+<span>* 帖子详情页面下方的页数按钮支持滑动快速切换页面</span><br>
+<span>* 增加草稿箱</span><br>
+<span>      * 回复失败时，回复内容会自动存入草稿箱中</span><br>
+<span>* 新增一个基于机器学习的广告哥识别器，可以有效过滤过往出现过的广告</span><br>
+<span>改进：</span><br>
+<span>* 调整”登录”界面布局</span><br>
+<span>* 降低“引用”超链接的误触机率</span><br>
+<span>* iPhone 不再支持横屏</span><br>
+<span>* 优化麻将脸加载</span><br>
+<span>修复：</span><br>
+<span>* 部分复杂密码无法登录的问题</span><br>
+<span>* 修复点击帖子内容中不完整链接崩溃的问题</span><br>
+<span>* 修复有时加载帖子列表崩溃的问题</span><br>
+<span>1.1.1(42)</span><br>
+<span>- 切换部分接口使用官方 APP API</span><br>
+<span>- “我” 页面下增加 ”回复“ 栏</span><br>
+<span>- 修复几个 BUG</span><br>
+<span>1.2.0(49)</span><br>
+<span>- 支持投票</span><br>
+<span>- 最低系统要求升级到 iOS 11</span><br>
+<span>- 修复几个 BUG</span><br>
+<span>1.3.0(52)</span><br>
+<span>- 支持字号调整</span><br>
+<span>- 增加新的麻将脸</span><br>
+</p><p><b>ニマピ: </b><br>
+<span>测试测试</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>正式的啥时候上架 很好看的样子</span><br>
+</p><p><b>kukushi: </b><br>
+<span>wlqdevil 发表于 2018-9-13 22:11</span><br>
+<span>正式的啥时候上架 很好看的样子</span><br>
+<span>Testflight 可以装一个 蛮容易的</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>在用，资瓷一下，什么时候正式发布？</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>kukushi 发表于 2018-9-13 22:12</span><br>
+<span>Testflight 可以装一个 蛮容易的</span><br>
+<span>已经安装了 真的很美 希望一直开发下去 哈哈</span><br>
+</p><p><b>shahito: </b><br>
+<span> 本帖最后由 shahito 于 2018-9-13 22:33 编辑 </span><br>
+<span>喷了，点进来看了下竟然是 kikushi 写的...点个赞。</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>能查看收藏，以后能查看消息更新吗？</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zhongjie 发表于 2018-9-13 22:39</span><br>
+<span>能查看收藏，以后能查看消息更新吗？</span><br>
+<span>之后会加上</span><br>
+</p><p><b>kukushi: </b><br>
+<span>zhuangku556 发表于 2018-9-13 22:12</span><br>
+<span>在用，资瓷一下，什么时候正式发布？</span><br>
+<span>快了。等写完其他基础的功能，差不多可以上架了。</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>一直在用，支持</span><br>
+</p><p><b>okerith: </b><br>
+<span>非常喜欢，建议正式版能够加上saralin的“在主题列表里向左滑动帖子，选择屏蔽作者或是隐藏帖子”的功能https://i.loli.net/2018/09/13/5b9a7af3b357f.png</span><br>
+</p><p><b>奇洛里: </b><br>
+<span>kukushi 发表于 2018-9-13 22:43</span><br>
+<span>快了。等写完其他基础的功能，差不多可以上架了。</span><br>
+<span>感谢更新！</span><br>
+</p><p><b>melvin117: </b><br>
+<span>花了一百年终于从墙外连到testflight页</span><br>
+<span>界面很简洁，好评</span><br>
+<span>有小虫我再回来报道</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>看了一下app store上s1已经有4个客户端了</span><br>
+</p><p><b>kiritokun: </b><br>
+<span>扁平是病，得治</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>yibo: </b><br>
+<span>好看，可惜已经打算离开iOS了</span><br>
+</p><p><b>NeloAngelo: </b><br>
+<span>很赞。希望加入搜索、投票这两个功能。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>pepase: </b><br>
+<span>这个能编辑帖子吗</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>可不可以在回复数那里增加上次阅读后增加的回复数，这个功能很赞，谢谢</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>pepase 发表于 2018-9-14 05:23</span><br>
+<span> 这个能编辑帖子吗</span><br>
+<span>好像不能编辑 只能电脑上操作</span><br>
+</p><p><b>kukushi: </b><br>
+<span>wlqdevil 发表于 2018-9-14 06:49</span><br>
+<span> 可不可以在回复数那里增加上次阅读后增加的回复数，这个功能很赞，谢谢</span><br>
+<span>这个应该是实现了的</span><br>
+</p><p><b>Player: </b><br>
+<span>屎黄主题上面菜单和下面快捷菜单的颜色有些怪异</span><br>
+</p><p><b>ニマピ: </b><br>
+<span>没有举报功能也没有黑名单，换回s1reader了</span><br>
+</p><p><b>defer: </b><br>
+<span>黑名单实在是本坛刚性需求。</span><br>
+</p><p><b>wlqdevil: </b><br>
+<span>kukushi 发表于 2018-9-14 10:54</span><br>
+<span> 这个应该是实现了的</span><br>
+<span>开始没注意，这个已经实现了，谢谢啦，希望下个版本增加搜索</span><br>
+</p><p><b>kukushi: </b><br>
+<span>Player 发表于 2018-9-14 11:19</span><br>
+<span> 屎黄主题上面菜单和下面快捷菜单的颜色有些怪异</span><br>
+<span>给屎黄色配色好难。</span><br>
+<span>我再试试。</span><br>
+</p><p><b>kukushi: </b><br>
+<span>okerith 发表于 2018-9-13 22:57</span><br>
+<span> 非常喜欢，建议正式版能够加上saralin的“在主题列表里向左滑动帖子，选择屏蔽作者或是隐藏帖子”的功能 ...</span><br>
+<span>嗯，应该会喜欢在下个版本加上屏蔽功能。</span><br>
+</p><p><b>枫之零: </b><br>
+<span>我记得没有屏蔽功能苹果是不让上架的</span><br>
+</p><p><b>wifi王道: </b><br>
+<span>不是屏蔽。是举报</span><br>
+</p><p><b>那由: </b><br>
+<span>https://i.loli.net/2018/09/14/5b9bc46108af4.png分屏模式下边缘有切字的情况</span><br>
+</p><p><b>kukushi: </b><br>
+<span>那由 发表于 2018-9-14 22:23</span><br>
+<span> 分屏模式下边缘有切字的情况</span><br>
+<span>收到</span><br>
+</p><p><b>亡靈: </b><br>
+<span>强力mark</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>斑驳的阴影: </b><br>
+<span>好，申请测试了！</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>宅逆袭: </b><br>
+<span>夜间模式能否换成纯黑背景呢</span><br>
+</p><p><b>tex033: </b><br>
+<span>哦哦哦适配X了，全面屏刷s1摸鱼简直是船新的感觉！</span><br>
+</p><p><b>kukushi: </b><br>
+<span> 本帖最后由 kukushi 于 2018-9-18 19:05 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>kukushi: </b><br>
+<span>kukushi 发表于 2018-9-17 12:34</span><br>
+<span> 测试一下上传照片</span><br>
+<img src="https://i.loli.net/2018/09/17/5b9f2ef99c4ef.png" title="https://i.loli.net/2018/09/17/5b9f2ef99c4ef.png"><br>
+</p><p><b>pgain2004: </b><br>
+<span>kukushi 发表于 2018-9-17 12:35</span><br>
+<span>果然也是用了iloli啊</span><br>
+</p><p><b>zfz4869: </b><br>
+<span>幕府又重现，从前老东京那条山手线像一幅怀旧的默片</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 9上的 S1Next-鹅版 v2.0.3-play</span><br>
+</p><p><b>kukushi: </b><br>
+<span>pgain2004 发表于 2018-9-17 17:28</span><br>
+<span>果然也是用了iloli啊</span><br>
+<span>https://sm.ms API 用起来比较简单，新浪的有点麻烦</span><br>
+</p><p><b>An@xxxny: </b><br>
+<span>回复经常闪退不知为何，系统iOS 12GM版机型8P。</span><br>
+</p><p><b>yyf1940: </b><br>
+<span>码一个，等出正式版就用用，现在ios正用的这个软件我感觉比猴机的鹅版差远了，后悔入苹果</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>比旧版舒服不少，不过还是没有编辑帖子的功能吗</span><br>
+</p><p><b>kukushi: </b><br>
+<span>An@xxxny 发表于 2018-9-17 17:38</span><br>
+<span>回复经常闪退不知为何，系统iOS 12GM版机型8P。</span><br>
+<span> 尴尬，后台没收到崩溃日志</span><br>
+</p><p><b>kukushi: </b><br>
+<span>月夜凝雪 发表于 2018-9-17 22:26</span><br>
+<span>比旧版舒服不少，不过还是没有编辑帖子的功能吗</span><br>
+<span>编辑帖子比较复杂，</span><br>
+<span>我研究一下鹅球怎么搞的</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>消息通知（回复，私信，加鹅之类的）会不会很难做啊</span><br>
+</p><p><b>kukushi: </b><br>
+<span>pzy2222 发表于 2018-9-17 23:27</span><br>
+<span>消息通知（回复，私信，加鹅之类的）会不会很难做啊</span><br>
+<span>加鹅会比较麻烦，因为需要用到官球的接口。</span><br>
+<span> 鹅球那么好用就是因为同时用了两套接口。</span><br>
+<span>慢慢来吧</span><br>
+</p><p><b>毅茶: </b><br>
+<span>来试试</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>kukushi 发表于 2018-9-17 23:41</span><br>
+<span>加鹅会比较麻烦，因为需要用到官球的接口。</span><br>
+<span> 鹅球那么好用就是因为同时用了两套接口。</span><br>
+<span>慢慢来吧 ...</span><br>
+<span>谢谢LZ，只要慢慢更新总能像鹅球那样完备的。</span><br>
+<span>现有的iOS端客户端都缺一点功能，有时候会想如果能互相补齐就好了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1753672[0-50]</guid>
+    </item>
+  </channel>
+</rss>

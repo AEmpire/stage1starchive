@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问一个数学题，10个人最多能生成多少不重复的微信群？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问一个数学题，10个人最多能生成多少不重复的微信群？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:46:01 +0000</lastBuildDate>
+    <item>
+      <title>问一个数学题，10个人最多能生成多少不重复的微信群？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849180-1-1.html</link>
+      <description>问一个数学题，10个人最多能生成多少不重复的微信群？&#13;
+比如说a、b、c三个人应该能生成ab、bc、ac、abc一共4个群，那么10个人呢？n个人的通项算法呢？</description>
+      <content:encoded><![CDATA[<p><b>penrynx2: </b><br>
+<span>问一个数学题，10个人最多能生成多少不重复的微信群？</span><br>
+<span>比如说a、b、c三个人应该能生成ab、bc、ac、abc一共4个群，那么10个人呢？n个人的通项算法呢？</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>最容易想到的思路：c(10,2)+C(10,3)+C(10,4)+C(10,5)+C(10,6)+C(10,7)+C(10,8)+C(10,9)+C(10,10)</span><br>
+</p><p><b>wszweill: </b><br>
+<span>2^n-n-1</span><br>
+</p><p><b>fanghuan27: </b><br>
+<span>你好 推荐去看人教版初二数学 </span><br>
+</p><p><b>求解过程: </b><br>
+<span>将10个人视为10位的二进制数，0代表在 1代表不在</span><br>
+</p><p><b>Dr.bright: </b><br>
+<span>wszweill 发表于 2019-07-26 00:45:37</span><br>
+<span>2^n-n-1不减n吧</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>平半高水: </b><br>
+<span> 本帖最后由 平半高水 于 2019-7-26 00:49 编辑 </span><br>
+<span>2的n次方-n-1</span><br>
+<span>二项式定理取a,b都是1的特殊情况，再排除0人和1人的情况</span><br>
+</p><p><b>Dr.bright: </b><br>
+<span>wszweill 发表于 2019-07-26 00:45:37</span><br>
+<span>2^n-n-1我傻逼了，一个人不能建群</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>faki998: </b><br>
+<span>sum=0;</span><br>
+<span>for i = 2:n</span><br>
+<span>sum = sum + n!/{(n-i)!(i!)};</span><br>
+<span>end</span><br>
+<span>print sum;</span><br>
+<span>也就是2楼的思路，至于能不能在数学上化简没考虑过。</span><br>
+</p><p><b>東京急行: </b><br>
+<span>这……初中没学过高中也该学过了吧</span><br>
+</p><p><b>Prolun: </b><br>
+<span>两个人也不用建群，三个人及以上才需要建群</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>无限个，因为相同成员的微信群都可以同时存在无限个</span><br>
+</p><p><b>solaris16661: </b><br>
+<span>LZ有个疑问，假设4个人，理论上3人群4个，4人群1个，请问，我要3人群干嘛?</span><br>
+</p><p><b>sagat.raid: </b><br>
+<span>你们就没想过这10个人是不是每个人都有且仅有一个微信号这问题嘛</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>当n很大的时候，三人群二人群单人群去不去除都无所谓了。</span><br>
+</p><p><b>jjyycy: </b><br>
+<span>刚刚试了一下两个人也不能建群</span><br>
+</p><p><b>mcmurdo: </b><br>
+<span>solaris16661 发表于 2019-7-26 01:45</span><br>
+<span>LZ有个疑问，假设4个人，理论上3人群4个，4人群1个，请问，我要3人群干嘛?</span><br>
+<span>你看过那个女生四人宿舍建了五个群的漫画吗</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-26 03:17 编辑 </span><br>
+<span>D:\Python\Project01\test>6.py</span><br>
+<span>请输入组合字母：abc</span><br>
+<span>heaps: [('a', 'b', 'c')]</span><br>
+<span>heaps: [('a', 'b', 'c'), ('a', 'b'), ('a', 'c'), ('b', 'c')]</span><br>
+<span>abc 组合集总数是： 4</span><br>
+<span>D:\Python\Project01\test>6.py</span><br>
+<span>请输入组合字母：abcd</span><br>
+<span>heaps: [('a', 'b', 'c', 'd')]</span><br>
+<span>heaps: [('a', 'b', 'c', 'd'), ('a', 'b', 'c'), ('a', 'b', 'd'), ('a', 'c', 'd'), ('b', 'c', 'd')]</span><br>
+<span>heaps: [('a', 'b', 'c', 'd'), ('a', 'b', 'c'), ('a', 'b', 'd'), ('a', 'c', 'd'), ('b', 'c', 'd'), ('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')]</span><br>
+<span>abcd 组合集总数是： 11</span><br>
+<span>D:\Python\Project01\test>6.py</span><br>
+<span>ABCDEFGHIJ 组合集总数是： 1013</span><br>
+<span>def combinations(iterable, r):</span><br>
+<span>    # combinations('ABCD', 2) --> AB AC AD BC BD CD</span><br>
+<span>    # combinations(range(4), 3) --> 012 013 023 123</span><br>
+<span>    pool = tuple(iterable)</span><br>
+<span>    n = len(pool)</span><br>
+<span>    if r > n:</span><br>
+<span>      return</span><br>
+<span>    indices = list(range(r))</span><br>
+<span>    yield tuple(pool for i in indices)</span><br>
+<span>    while True:</span><br>
+<span>      for i in reversed(range(r)):</span><br>
+<span>            if indices != i + n - r:</span><br>
+<span>                break</span><br>
+<span>      else:</span><br>
+<span>            return</span><br>
+<span>      indices += 1</span><br>
+<span>      for j in range(i+1, r):</span><br>
+<span>            indices = indices + 1</span><br>
+<span>      yield tuple(pool for i in indices)</span><br>
+<span>x = input('请输入组合字母：')</span><br>
+<span>heaps = []</span><br>
+<span>n = len(x)</span><br>
+<span>while n > 1:</span><br>
+<span>    heap = combinations(x, n)</span><br>
+<span>    #print('heap:', list(heap))</span><br>
+<span>    for y in heap:</span><br>
+<span>      heaps.append(y)</span><br>
+<span>    print('heaps:', heaps)</span><br>
+<span>    n = n - 1</span><br>
+<span>z = len(heaps)</span><br>
+<span>print(x,'组合集总数是：',z)</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>solaris16661 发表于 2019-7-26 01:45</span><br>
+<span>LZ有个疑问，假设4个人，理论上3人群4个，4人群1个，请问，我要3人群干嘛?</span><br>
+<span>说剩下的那个人的坏话啊，这还用问？</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>jjyycy 发表于 2019-7-26 01:53</span><br>
+<span>刚刚试了一下两个人也不能建群</span><br>
+<span>可以建三人群再踢人</span><br>
+</p><p><b>pepase: </b><br>
+<span>solaris16661 发表于 2019-7-26 01:45</span><br>
+<span>LZ有个疑问，假设4个人，理论上3人群4个，4人群1个，请问，我要3人群干嘛?</span><br>
+<span>3个人一起说另一个人的坏话</span><br>
+</p><p><b>cxn: </b><br>
+<span>无限个，比如最简单的做法ABC建个群，踢掉C，然后ABC再建个群，再踢掉C，然后无限循环</span><br>
+</p><p><b>ReginaldMorgan: </b><br>
+<span>其实也有一个人的群，我专门用来存放一些聊天记录之类的数据</span><br>
+</p><p><b>蛋黄酱Release: </b><br>
+<span>这高中数学第一章就学过了吧，含有n个元素的集合的子集有2^n个，去掉一个空集，去掉n个单元素集，一共是2^n-n-1个，如果2个人不能算群的话，那就还需要去掉Cn2个</span><br>
+</p><p><b>杨松: </b><br>
+<span>qq好像一个人就能建群，我就有一个专门用来中转文件</span><br>
+</p><p><b>对线: </b><br>
+<span>建群了把其他人都踢掉就变成一人群了</span><br>
+</p><p><b>xibeijian: </b><br>
+<span>solaris16661 发表于 2019-7-26 01:45</span><br>
+<span>LZ有个疑问，假设4个人，理论上3人群4个，4人群1个，请问，我要3人群干嘛?</span><br>
+<span>比如，大学女生宿舍分帮结派。6个人分成三波，每个派系3个人。</span><br>
+</p><p><b>波卡帕马: </b><br>
+<span>fanghuan27 发表于 2019-7-26 00:46</span><br>
+<span>你好 推荐去看人教版初二数学</span><br>
+<span>高二。</span><br>
+</p><p><b>GMJ: </b><br>
+<span>只有a和b的叫个屁群，直接私聊好吧，群必然是3人起步</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849180[0-50]</guid>
+    </item>
+  </channel>
+</rss>

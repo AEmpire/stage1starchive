@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>uwp程序和普通程序什么区别？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>uwp程序和普通程序什么区别？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:27:56 +0000</lastBuildDate>
+    <item>
+      <title>uwp程序和普通程序什么区别？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842584-1-1.html</link>
+      <description>uwp程序和普通程序什么区别？&#13;
+ 本帖最后由 linjia 于 2019-6-27 11:44 编辑 
+
+uwp不需要指定安装路径，普通程序可以自定义安装位置
+&#13;
+uwp卸载只能用卸载会干净，普通程序可以暴力删除文件但不干净
+&#13;
+uwp设置开机自动启动比较麻烦，普通程序直接加到启动目录下即可
+&#13;
+uwp好像不能添加到菜单右键， 普通程序可以添加到右键打开方式
+&#13;
+有些点不是很确定，不对的请大侠指出</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>uwp程序和普通程序什么区别？</span><br>
+<span> 本帖最后由 linjia 于 2019-6-27 11:44 编辑 </span><br>
+<span>uwp不需要指定安装路径，普通程序可以自定义安装位置</span><br>
+<span>uwp卸载只能用卸载会干净，普通程序可以暴力删除文件但不干净</span><br>
+<span>uwp设置开机自动启动比较麻烦，普通程序直接加到启动目录下即可</span><br>
+<span>uwp好像不能添加到菜单右键， 普通程序可以添加到右键打开方式</span><br>
+<span>有些点不是很确定，不对的请大侠指出</span><br>
+</p><p><b>passgan: </b><br>
+<span>不就是类似手机的APP吗</span><br>
+<span>还会在后台推送呢</span><br>
+</p><p><b>Prushka: </b><br>
+<span>uwp闪退之后短时间内无法打开，普通程序闪退之后还能立即再开</span><br>
+</p><p><b>kukimao: </b><br>
+<span>uwp对高分辨率屏幕适应的比较好</span><br>
+</p><p><b>solaris40: </b><br>
+<span>运行时不一样</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>推送稳定</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>我感觉uwp蛮好的，为什么没流行起来</span><br>
+</p><p><b>trentswd: </b><br>
+<span>看下来我还以为楼主最后还要来一个数字论证呢</span><br>
+</p><p><b>trentswd: </b><br>
+<span>laotoutou 发表于 2019-6-27 13:36</span><br>
+<span>我感觉uwp蛮好的，为什么没流行起来</span><br>
+<span>只能怪wp不行</span><br>
+<span>毕竟pc上已经没啥土壤了，开发的人嫌不够毒瘤，用的人嫌不够方便，加上本身还有一堆bug</span><br>
+</p><p><b>消亡值语义: </b><br>
+<span>laotoutou 发表于 2019-6-27 13:36</span><br>
+<span>我感觉uwp蛮好的，为什么没流行起来</span><br>
+<span>不兼容WIN7</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>UWP的程序占用一般都挺低的</span><br>
+<span>我现在B站,就只用UWP客户端了,虽然界面友好度的确堪忧</span><br>
+</p><p><b>davarishi: </b><br>
+<span>有些小众开发者做的uwp确实不错，启动快，体积小，不怎么占空间，安装卸载方便，不会出现捆绑垃圾软件和冗余。</span><br>
+<span>但是很多uwp的问题是功能不全，界面不友好，而且开发者也不上心，更新不及时，甚至都没有更新了。</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>其实uwp对于用户来说是比较友好的，运行速度快，安全，内存占用小，有推送，逻辑统一。</span><br>
+<span>但是这东西好像对开发者并不是那么友好，移植起来也蛮麻烦的，所以最后基本上处于快死亡的状态。</span><br>
+</p><p><b>greendayu: </b><br>
+<span>不是side loaded的uwp程序会有api上的限制。比如只能读写规定的文件夹和用户自己选择的文件夹。相对地，uwp程序比desktop程序更安全。</span><br>
+</p><p><b>rbf1993: </b><br>
+<span>zmw_831110 发表于 2019-6-27 14:35</span><br>
+<span>UWP的程序占用一般都挺低的</span><br>
+<span>我现在B站,就只用UWP客户端了,虽然界面友好度的确堪忧 ...</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>rbf1993 发表于 2019-6-27 16:11</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>用uwp单独窗口，而且也没有杂七杂八的广告，干净利落。</span><br>
+<span>唯一的缺点就是比较简陋</span><br>
+</p><p><b>solaris40: </b><br>
+<span>rbf1993 发表于 2019-6-27 16:11</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>b的网页端应该需要跨域名传referer才能正常看视频。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>rbf1993 发表于 2019-6-27 16:11</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>uwp对性能要求低</span><br>
+<span>我本子的2500U,看web版功耗大,风扇声音会响,弹幕偶尔还会有卡顿.</span><br>
+<span>而uwp,完全流畅,占用还不高</span><br>
+<span>然后养成习惯了,我台式机也用uwp去了.</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>zmw_831110 发表于 2019-6-27 16:43</span><br>
+<span>uwp对性能要求低</span><br>
+<span>我本子的2500U,看web版功耗大,风扇声音会响,弹幕偶尔还会有卡顿.</span><br>
+<span>而uwp,完全流畅,占用还 ...</span><br>
+<span>说明传统pc还是能做到更好的节能的，只不过这帮逼太懒了</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>七草真由美 发表于 2019-6-27 16:54</span><br>
+<span>说明传统pc还是能做到更好的节能的，只不过这帮逼太懒了</span><br>
+<span>都怪万恶的h5</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>七草真由美 发表于 2019-6-27 16:54</span><br>
+<span>说明传统pc还是能做到更好的节能的，只不过这帮逼太懒了</span><br>
+<span>uwp比html5还是好太多了</span><br>
+<span>直接硬解调用</span><br>
+<span>几年前,我还玩过我06年买的T5600 CPU HD3470的本子.外接1080P屏幕.</span><br>
+<span>core2 1.83G 2c2t </span><br>
+<span>上网看个视频,必须uwp,而且可以流畅.</span><br>
+<span>web端,全挂(edge表现力最好)</span><br>
+</p><p><b>bestwood: </b><br>
+<span>rbf1993 发表于 2019-6-27 16:11</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>我的sp3用uwp客户端流畅得很，网页的h5播放器卡到爆</span><br>
+</p><p><b>poptopzip: </b><br>
+<span>搭车问一下为啥我的商店装不了uwp软件。代码: 0x80070005旧的能更新，新的没法安装。</span><br>
+</p><p><b>lyceshao: </b><br>
+<span>rbf1993 发表于 2019-6-27 16:11</span><br>
+<span>一个疑问，电脑端为什么不直接用网页版呢…</span><br>
+<span>—— 来自 HUAWEI VOG-TL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>UWP版可以离线下载啊，方便利用公司网络回家没网络的人</span><br>
+</p><p><b>llions: </b><br>
+<span>大部分ump做的完全不用心，淘宝ump就是把网页版塞进去</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>运行时不一样，uwp是沙盒化的，而且限制反射和限制调用win32 api 理论上更干净，但是限制多了相应功能就少很多</span><br>
+<span>至于高分辨率支持其实没啥本质区别，vs2017 最新版已经支持hidpi开发了，普通应用也可以</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>你看看uwp的网易云音乐，itunes，基本上就和普通的程序没区别，只要想肯定是可以做到一样的，就是大多不用心</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>UWP软件总给我一种孱弱、下一秒就闪退、开发不到位的感觉</span><br>
+</p><p><b>空罐子: </b><br>
+<span>poptopzip 发表于 2019-6-27 17:51</span><br>
+<span>搭车问一下为啥我的商店装不了uwp软件。代码: 0x80070005旧的能更新，新的没法安装。 ...</span><br>
+<span>用dism++清理一下缓存，我之前也遇到过安装失败的情况。</span><br>
+</p><p><b>melvin95: </b><br>
+<span>出uwp的时候巨硬不强势</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>Jai用机玩家 发表于 2019-6-27 16:19</span><br>
+<span>用uwp单独窗口，而且也没有杂七杂八的广告，干净利落。</span><br>
+<span>唯一的缺点就是比较简陋 ...</span><br>
+<span>关键是没有各种解除区域限制的辅助工具。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>秋雨灰灰 发表于 2019-6-27 19:44</span><br>
+<span>你看看uwp的网易云音乐，itunes，基本上就和普通的程序没区别，只要想肯定是可以做到一样的，就是大多不用 ...</span><br>
+<span>itunes win32右键另存为而已，并不是uwp</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842584[0-50]</guid>
+    </item>
+  </channel>
+</rss>

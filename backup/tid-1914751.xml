@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>sql数据库的负载能力到底有多强？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>sql数据库的负载能力到底有多强？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:05:05 +0000</lastBuildDate>
+    <item>
+      <title>sql数据库的负载能力到底有多强？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914751-1-1.html</link>
+      <description>sql数据库的负载能力到底有多强？&#13;
+最近在看nonsql的数据库的科普知识。据说nonsql最大的优点就是天生就是分布式的，负载能力远强于sql数据库，
+&#13;
+很多社交网站或者访问量很大的网站都用各种nonsql。
+&#13;
+我在想像s1和悲伤熊猫这种网站其实访问量不小吧，用户也要进行很多高级检索。但是s1应该还不需要用到nonsql吧……s1有可能是最普通的mysql，毕竟管理员比较穷。
+&#13;
+我就在想，sql数据库的极限到底是多少？</description>
+      <content:encoded><![CDATA[<p><b>青龙圣者: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>因为hive垃圾，太慢了。本质还是调的MapReduce，现在最次的都用spark，我们这都直接上flink+hbase的。</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span> 各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>给你个参考</span><br>
+<span>我有个客户，大概30T的数据，跑数仓，用的是5年前采购的当时的高端服务器和存储，跑一次10小时出头。去年换了最新的服务器和全闪存储，现在跑一次50分钟。我们只是其中某个产品的供应商，但是整个项目的选型测试我们都跟着看过，测试时就发现整个系统的瓶颈在存储上，5年前的设备再高端也只是一堆15k转速的磁盘，以现在的眼光看性能实在太差。</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>red4 发表于 2020-2-20 12:13</span><br>
+<span> 只要带宽足够大，内存足够大，CPU足够强，SSD带宽够，分布式打不过单一节点吧？ ...</span><br>
+<span>搞分布式的初衷之一就是因为理想中高性能的单一节点设备太贵，还有的原因就是单个数据库和应用程序无法使用到太多的物理资源</span><br>
+</p><p><b>zouyun147: </b><br>
+<span>借这个帖子求教一下各位大佬</span><br>
+<span>业务层面上</span><br>
+<span>对于核心业务表 比如用户表 订单主表 </span><br>
+<span>设计上有啥原则性的东西吗？</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>sql的能力主要还是看数据库，不同数据库在这方面的差别是很大的。</span><br>
+</p><p><b>Redis: </b><br>
+<span>red4 发表于 2020-2-20 12:13</span><br>
+<span>只要带宽足够大，内存足够大，CPU足够强，SSD带宽够，分布式打不过单一节点吧？ ...</span><br>
+<span>CPU到主存的访问瓶颈不能忽视</span><br>
+<span>分布式主要是吞吐比较牛，如果设计大量数据的简单运算，单机必然是打不过分布式的</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>phorcys02 发表于 2020-2-19 22:15</span><br>
+<span>别逗了，啥时候nosql有 ACID 完整支持再说吧</span><br>
+<span>nosql之所以快，就是因为牺牲了ACID 的部分特性啊</span><br>
+<span>https://aws.amazon.com/blogs/aws/new-amazon-dynamodb-transactions/</span><br>
+<span>by Danilo Poccia | on 27 NOV 2018</span><br>
+<span>DynamoDB transactions provide developers atomicity, consistency, isolation, and durability (ACID) across one or more tables within a single AWS account and region. </span><br>
+</p><p><b>hoaloha: </b><br>
+<span>薛素姐 发表于 2020-2-20 04:43</span><br>
+<span>为什么撑起中印两国铁路系统的GemFire很少有人用？估计是大公司用得少，面试不考。</span><br>
+<span>支持ACID，甚至可以嵌入 ...</span><br>
+<span>1)这玩意儿不是数据库 2)这玩意儿其实是要license的 3)资料难找不买服务还不如用Redis</span><br>
+</p><p><b>jctc: </b><br>
+<span>red4 发表于 2020-2-20 12:13</span><br>
+<span>只要带宽足够大，内存足够大，CPU足够强，SSD带宽够，分布式打不过单一节点吧？ ...</span><br>
+<span>高可用性</span><br>
+<span>你单一节点能保证一辈子不坏？</span><br>
+</p><p><b>red4: </b><br>
+<span>jctc 发表于 2020-2-21 10:05</span><br>
+<span>高可用性</span><br>
+<span>你单一节点能保证一辈子不坏？</span><br>
+<span>单一节点数据备份和冗余也很容易，分布式的话如果不是节点冗余同步，那坏一个也一样的，做同步的话，数据一致性是个问题，同步占用带宽又是一个问题</span><br>
+</p><p><b>kraxia: </b><br>
+<span>jctc 发表于 2020-2-20 08:06</span><br>
+<span>Elasticsearch的优点是它的index是逆序的，比如一般的数据库</span><br>
+<span>高达79</span><br>
+<span>搜索引擎我比较头疼的就是 数据库可以垂直分表，需要查附加字段可以临时外联查。搜索引擎好像就只能把所有的字段糊到一个表里，各种主业务不用的比如审核字段之类也丢进去了</span><br>
+<span>借楼问问这种一般都咋弄</span><br>
+</p><p><b>coyove: </b><br>
+<span>kraxia 发表于 2020-2-21 12:02</span><br>
+<span>搜索引擎我比较头疼的就是 数据库可以垂直分表，需要查附加字段可以临时外联查。搜索引擎好像就只能把所有 ...</span><br>
+<span>搜索都是再映射一套数据结构，为啥要存所有字段</span><br>
+</p><p><b>黑丝后的腿毛: </b><br>
+<span>刚好今天被安排了个活，做一个数据库。。。然而我对数据库的理解仅限于大学数据库60分。。。</span><br>
+<span>用户量在20左右，体量大概是一个便利店的库存，用access方便吗</span><br>
+</p><p><b>活久见: </b><br>
+<span>黑丝后的腿毛 发表于 2020-2-21 12:07</span><br>
+<span>刚好今天被安排了个活，做一个数据库。。。然而我对数据库的理解仅限于大学数据库60分。。。</span><br>
+<span>用户量在20左 ...</span><br>
+<span>你用个excel都能做完的事情，你还问啥</span><br>
+</p><p><b>黑丝后的腿毛: </b><br>
+<span>活久见 发表于 2020-2-21 12:09</span><br>
+<span>你用个excel都能做完的事情，你还问啥</span><br>
+<span>领导要</span><br>
+<span>隔壁分部开发了个，领导看着爽，本来能直接拿来用，现在要重新发明轮子</span><br>
+</p><p><b>kraxia: </b><br>
+<span>coyove 发表于 2020-2-21 12:06</span><br>
+<span>搜索都是再映射一套数据结构，为啥要存所有字段</span><br>
+<span>比方说他要搜索这种东西</span><br>
+<span>xx天到xx天入库的，由xx供应商下属的xx子账号上传（外联表1），通过了编辑审核（外联表2），通过了外部安全审核（外联表3），包含xx关键字和xx表达式（主力搜索query），且被xx用户购买过（外联表4）的数据</span><br>
+<span>我现在是搜索引擎塞一堆字段缩小范围，实在不好加进去的字段再遍历前一次搜索的结果挨个跟外部数据比对</span><br>
+</p><p><b>coyove: </b><br>
+<span>kraxia 发表于 2020-2-21 12:34</span><br>
+<span>比方说他要搜索这种东西</span><br>
+<span>xx天到xx天入库的，由xx供应商下属的xx子账号上传（外联表1），通过了编辑审核（ ...</span><br>
+<span>这个情况建议psql的fts，因为你大部分query都可以在sql内完成，那么除非你需要非常完善的搜索，否则fts足以</span><br>
+</p><p><b>hugosol: </b><br>
+<span>kraxia 发表于 2020-2-21 12:02</span><br>
+<span>搜索引擎我比较头疼的就是 数据库可以垂直分表，需要查附加字段可以临时外联查。搜索引擎好像就只能把所有 ...</span><br>
+<span>搜索引擎跟你用数据库特定字段做精确查询的场景也是不一样的……</span><br>
+<span>elasticsearch和solr这种因为是有分词的，就可以围绕关键字做同义词转换，关键字提示，加权排序之类的功能，单纯的数据库可做不到这些</span><br>
+</p><p><b>kraxia: </b><br>
+<span>hugosol 发表于 2020-2-21 12:52</span><br>
+<span>搜索引擎跟你用数据库特定字段做精确查询的场景也是不一样的……</span><br>
+<span>elasticsearch和solr这种因为是有分词的 ...</span><br>
+<span>没错，一并回复您楼上，本来有很多这种查询场景其实更适合sql，但好死不死他们要同时做全文查找，这个用sql就搞不定了，必须得用搜索引擎。还有我们也是那种单表数据量过亿的业务，而且业务耦合度比较高不易做冷热数据区分，在mysql上加太多索引字段的话不仅不好用，存储和io也很浪费，多数时候就连查简单的数值型字段都要依赖搜索引擎。</span><br>
+</p><p><b>lokomotiv: </b><br>
+<span>最近复习系统设计 是不是qps超过十万的都可以考虑redis/cassandra这种nosql了 有别的什么限制会不建议高并发用nosql吗</span><br>
+</p><p><b>mazeax: </b><br>
+<span>借楼问一下，我们服务器用的mysql在调用某些数据时会导致内存占用飙到100%直接死机挂掉，有没有快狠准的解决方法</span><br>
+</p><p><b>keenkiller: </b><br>
+<span>啥时代了，没听过newsql？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>mazeax 发表于 2020-2-21 13:43</span><br>
+<span>借楼问一下，我们服务器用的mysql在调用某些数据时会导致内存占用飙到100%直接死机挂掉，有没有快狠 ...</span><br>
+<span>查一段时间内耗时最长的sql。不知mysql有没有这功能，估计应该有</span><br>
+<span>然后再查查涉及的表是不是没做索引</span><br>
+</p><p><b>汽车屁: </b><br>
+<span>zouyun147 发表于 2020-2-21 09:20</span><br>
+<span>借这个帖子求教一下各位大佬</span><br>
+<span>业务层面上</span><br>
+<span>对于核心业务表 比如用户表 订单主表 </span><br>
+<span>遵循第三范式</span><br>
+<span>这是最主要的原则</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>kraxia 发表于 2020-2-21 12:57</span><br>
+<span>没错，一并回复您楼上，本来有很多这种查询场景其实更适合sql，但好死不死他们要同时做全文查找，这个用s ...</span><br>
+<span>这个问题面试时经常遇到啊</span><br>
+<span>用sql 可以考虑用分词系统生成关键字，关键字做索引</span><br>
+</p><p><b>kraxia: </b><br>
+<span> 本帖最后由 kraxia 于 2020-2-21 14:41 编辑 </span><br>
+<span>精钢魔像 发表于 2020-2-21 14:22</span><br>
+<span>这个问题面试时经常遇到啊</span><br>
+<span>用sql 可以考虑用分词系统生成关键字，关键字做索引 ...</span><br>
+<span>是可以，但在1亿的单表里同时查10个字段以上的条件这件事，就算做了索引也没戏啊，至少mysql是没戏。哪怕sql语句优化的很好，万一最能压缩范围的前几个字段依然无法将结果集划到100万的范围里就杯具了。</span><br>
+<span>这类面试题的标准答案是啥？</span><br>
+<span>话说对数据库设计而言，分表打索引这些操作都是要有业务针对性的，大前提是业务本身要稳定，而这个前提让我想到隔壁的帖子，“大城市提高了效率降低了鲁棒性”。数据底层为了提高性能的设计，很多时候会限制业务，这点在业务方看来就是“不够灵活”。你挡不住一个草台的领导或者强势的业务部门突然提个需求，破坏了你所有的分表设计让你不得不联3个以上的表跨越N个字段查东西而且立刻就要结果，这种需求多了以后就会让人想自暴自弃把所有的字段全揉到一个大表里。实际项目中如果出现这种情况，好像就不仅仅是架构设计而上升到了流程和管理方面的问题了。那么各位平时在工作中怎么处理这类问题呢？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>kraxia 发表于 2020-2-21 14:26</span><br>
+<span>是可以，但在1亿的单表里同时查10个字段以上的条件这件事，就算做了索引也没戏啊，至少mysql是没戏。哪怕 ...</span><br>
+<span>没答案，就是考考分析问题的能力</span><br>
+</p><p><b>yuxiao: </b><br>
+<span> 本帖最后由 yuxiao 于 2020-2-21 14:34 编辑 </span><br>
+<span>jctc 发表于 2020-2-21 10:05</span><br>
+<span>高可用性</span><br>
+<span>你单一节点能保证一辈子不坏？</span><br>
+<span>两台互备就可以了，关键还是成本和系统效率上，而且目前没有什么软件可以统筹利用单一节点几百颗CPU的性能</span><br>
+<span>再说了，我好像没见过大型机坏的。。。。</span><br>
+</p><p><b>littleburn: </b><br>
+<span>借楼问一下，请问S1有没有数据库相关的微信群或者QQ群？求加入</span><br>
+</p><p><b>活久见: </b><br>
+<span>mazeax 发表于 2020-2-21 13:43</span><br>
+<span>借楼问一下，我们服务器用的mysql在调用某些数据时会导致内存占用飙到100%直接死机挂掉，有没有快狠 ...</span><br>
+<span>……看你们的查询语句有多简单粗暴</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span> 本帖最后由 御坂MKII 于 2020-2-21 16:10 编辑 </span><br>
+<span> 有群的话我来宣传 tidb</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>yuxiao 发表于 2020-2-21 14:31</span><br>
+<span>两台互备就可以了，关键还是成本和系统效率上，而且目前没有什么软件可以统筹利用单一节点几百颗CPU的性能 ...</span><br>
+<span>硬件问题不止包括服务器问题，还有网络等问题呢 </span><br>
+</p><p><b>Redis: </b><br>
+<span>mazeax 发表于 2020-2-21 13:43</span><br>
+<span>借楼问一下，我们服务器用的mysql在调用某些数据时会导致内存占用飙到100%直接死机挂掉，有没有快狠 ...</span><br>
+<span>1.分析你的query</span><br>
+<span>2.建index</span><br>
+</p><p><b>红丽: </b><br>
+<span>归蝶 发表于 2020-2-20 03:36</span><br>
+<span>蒙古DB本来就是强一致的，跟存了JSONB的SQL数据库没什么区别。</span><br>
+<span>SQL的上限是很高的，我这现在的数据库里两 ...</span><br>
+<span>电商和电商的差距也很大的</span><br>
+<span>我他妈最近半年招了四次dba，简直苦逼</span><br>
+<span>关键是我们数据库到现在也不咋地，看看阿里的，真的是羡慕的咬牙切齿</span><br>
+</p><p><b>Redis: </b><br>
+<span>kraxia 发表于 2020-2-21 12:02</span><br>
+<span>搜索引擎我比较头疼的就是 数据库可以垂直分表，需要查附加字段可以临时外联查。搜索引擎好像就只能把所有 ...</span><br>
+<span>搜索引擎没有“表”这个概念</span><br>
+<span>你的所有文档最后都是被作成posting list，或者叫做倒排表这种结构。你多加一个字段，无非是多产生一个倒排表，只要你的查询不包含这个倒排表，那么除了浪费一点儿磁盘空间，效率不会被影响，所以一般也就是不管。</span><br>
+<span>当然elasticsearch的情况更加复杂一些，比如说source这种这种东西的存在，会有一些overhead，那么你index的时候直接去掉就行了。简单了事。</span><br>
+</p><p><b>kraxia: </b><br>
+<span>Redis 发表于 2020-2-21 16:32</span><br>
+<span>搜索引擎没有“表”这个概念</span><br>
+<span>你的所有文档最后都是被作成posting list，或者叫做倒排表这种结构。你多加 ...</span><br>
+<span>嗯，就算加了很多字段实际对性能的影响也不大。但只是单纯的觉得一个索引里放上百个字段有点不踏实，想问问大家这样是不是不好，在生产环境一般会不会专门用什么机制避免这种情况。</span><br>
+</p><p><b>ro4074: </b><br>
+<span>谈数据库不谈租户？现在的技术在把数据平摊在一个分布式网络上，除了搜索这样的场景，你的正常操作都在一个很小的范围内得到结果，尽管可能有几亿用户。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>kraxia 发表于 2020-2-21 14:26</span><br>
+<span>是可以，但在1亿的单表里同时查10个字段以上的条件这件事，就算做了索引也没戏啊，至少mysql是没戏。哪怕s ...</span><br>
+<span>最好是新建个表。</span><br>
+<span>但一般都是直接加索引，干几年后离职。反正就是个打工的，没必要投那么多心力吧</span><br>
+</p><p><b>tgzeror: </b><br>
+<span>kraxia 发表于 2020-2-21 14:26</span><br>
+<span>是可以，但在1亿的单表里同时查10个字段以上的条件这件事，就算做了索引也没戏啊，至少mysql是没戏。哪怕s ...</span><br>
+<span>根本就没有一劳永逸的优化方式，索引之类的优化，即使业务没有变化，有时也需要根据数据不同而做修改。</span><br>
+</p><p><b>carlblack: </b><br>
+<span>黑丝后的腿毛 发表于 2020-2-21 12:07</span><br>
+<span>刚好今天被安排了个活，做一个数据库。。。然而我对数据库的理解仅限于大学数据库60分。。。</span><br>
+<span>用户量在20左 ...</span><br>
+<span>可以考虑用sqlite，access你还需要依赖office.</span><br>
+</p><p><b>starseeker7: </b><br>
+<span>我司，中小型互联网企业，sql100多台，bigdata 400多台。一般一个表大小超100-200g就想法塞进bigdata。</span><br>
+</p><p><b>dovahkiin: </b><br>
+<span>软件系统设计的目的就是为了充分利用硬件资源，而软件系统也自然而然的直接受到计算机硬件性能的限制。sql 数据库的负载，从传统意义上讲，慢在事务和数据校验上，牺牲这些换来的高速写入，可能是值得的，但要结合你的使用场景。而且虽然传统 sql 数据库名叫关系数据库（RDBMS），但它并不是针对网状关系而设计的，以至于在时下比较流行的SNS领域之类RDBMS反而不擅长处理好友关系网这类问题。至于你提到的分布式，虽然是负载能力提高的关键一环，但从来都不是 nosql 的独创。</span><br>
+<span>所谓分布式系统的作用本质上就是解决规模过大单机性能不承载的问题，而分布式系统的瓶颈则是从单机硬件转移到网络吞吐上面，从这点可以看出，绝对意义上的运算速度肯定是单机系统快于分布式系统，毕竟 cpu 访问内存的速度要远快于通过网络芯片协调多台电脑进行状态同步的速度。所以在一般的场景下开发人员还是会把问题切分到单机规模可以容纳的范围以下，否则即使是分布式也无法解决。一个典型的例子就是 key-value 型数据库，微博点赞的功能设计就是靠几台小型机的内存承载，因为高负载意味着快速响应，而速度慢于内存的储存设备是不可接受的，即便是 bigdata 也不例外，新兴的高速产品，只是得益于内存的廉价，传统的小内存大硬盘式慢速设计被推翻了而已。</span><br>
+<span>最后再提一下，普通廉价服务器单机的负载基本上就在百万级别，而经过各种 cdn 和前端代理设备分流，最终到达的访问量往往也不会高于这个水平，至于上层的软件系统，只要是符合你的使用场景，经过合理的优化都应该能达到类似的速度，如果硬碰硬的考虑实际性能而不谈规模上的负载总和，百万级可以认为是时下 sql 数据库的负载上限。</span><br>
+<span>附一篇高手的文章作为参考：</span><br>
+<span>http://highscalability.com/blog/2015/5/18/how-mysql-is-able-to-scale-to-200-million-qps-mysql-cluster.html</span><br>
+</p><p><b>补天士: </b><br>
+<span>精钢魔像 发表于 2020-2-21 14:16</span><br>
+<span>查一段时间内耗时最长的sql。不知mysql有没有这功能，估计应该有</span><br>
+<span>然后再查查涉及的表是不是没做索引 ...</span><br>
+<span>有的吧，开profiler，然后把结果导入一个表里，最后用cpu资源或者耗时排个序就行了。sql server我是这么做的。</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>御坂MKII 发表于 2020-2-21 16:17</span><br>
+<span>硬件问题不止包括服务器问题，还有网络等问题呢</span><br>
+<span>网路做到多设备负载均衡还是比较容易的</span><br>
+</p><p><b>HDRorz: </b><br>
+<span>discuz自带会用memcahce用作缓存</span><br>
+<span>缓存一些用户信息和搜索结果</span><br>
+<span>因为缓存失效的原因，导致每次s1关坛恢复的时候会卡</span><br>
+</p><p><b>wanxx: </b><br>
+<span>黑丝后的腿毛 发表于 2020-2-21 12:07</span><br>
+<span>刚好今天被安排了个活，做一个数据库。。。然而我对数据库的理解仅限于大学数据库60分。。。</span><br>
+<span>用户量在20左 ...</span><br>
+<span>上 sqlite 就完事儿了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914751[50-100]</guid>
+    </item>
+    <item>
+      <title>sql数据库的负载能力到底有多强？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914751-1-1.html</link>
+      <description>sql数据库的负载能力到底有多强？&#13;
+最近在看nonsql的数据库的科普知识。据说nonsql最大的优点就是天生就是分布式的，负载能力远强于sql数据库，
+&#13;
+很多社交网站或者访问量很大的网站都用各种nonsql。
+&#13;
+我在想像s1和悲伤熊猫这种网站其实访问量不小吧，用户也要进行很多高级检索。但是s1应该还不需要用到nonsql吧……s1有可能是最普通的mysql，毕竟管理员比较穷。
+&#13;
+我就在想，sql数据库的极限到底是多少？</description>
+      <content:encoded><![CDATA[<p><b>补天士: </b><br>
+<span>sql数据库的负载能力到底有多强？</span><br>
+<span>最近在看nonsql的数据库的科普知识。据说nonsql最大的优点就是天生就是分布式的，负载能力远强于sql数据库，</span><br>
+<span>很多社交网站或者访问量很大的网站都用各种nonsql。</span><br>
+<span>我在想像s1和悲伤熊猫这种网站其实访问量不小吧，用户也要进行很多高级检索。但是s1应该还不需要用到nonsql吧……s1有可能是最普通的mysql，毕竟管理员比较穷。</span><br>
+<span>我就在想，sql数据库的极限到底是多少？</span><br>
+</p><p><b>czhhws: </b><br>
+<span> 本帖最后由 czhhws 于 2020-2-20 01:19 编辑 </span><br>
+<span>发错版了？</span><br>
+<span>PC数码有软件那块的</span><br>
+<span>随便答一点吧，sql这东西不仅看数据库优化的结构 也要看硬件 就好像云服务器跑mysql和专用硬件跑oracle级别是不一样的</span><br>
+<span>综合来说要看数据库管理人员对数据库原理的了解 熟悉程度 硬件等等综合决定它的极限</span><br>
+<span>而且nosql的性能主要是插入，查询一般比索引设计良好的sql萎（别的dalao答的）</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>s1或者悲伤熊猫业务又不复杂，根本没啥复杂查询啊…</span><br>
+</p><p><b>北卡厨王: </b><br>
+<span>曾经听人吹逼说sql亿级别的表应该都不是问题。</span><br>
+<span>其次nonsql里分布式的比如redis这种解决的问题和sql完全不一样吧，听说集群模式下数据出些小问题还是有的</span><br>
+</p><p><b>eva02eva02: </b><br>
+<span>冯诺依曼体系下谈这个没意义</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>thebat: </b><br>
+<span>淘宝百度这么大量级就是用mysql,那么上限在哪里?</span><br>
+</p><p><b>由比ケ浜結衣: </b><br>
+<span>Sql和非sql得区别就是不支持事务啊。</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>由比ケ浜結衣 发表于 2020-2-19 10:41</span><br>
+<span>Sql和非sql得区别就是不支持事务啊。</span><br>
+<span>哥，已经2020了，连蒙古DB都要支持事物了</span><br>
+</p><p><b>归蝶: </b><br>
+<span> 本帖最后由 归蝶 于 2020-2-20 03:43 编辑 </span><br>
+<span>hoaloha 发表于 2020-2-20 02:49</span><br>
+<span>哥，已经2020了，连蒙古DB都要支持事物了</span><br>
+<span>蒙古DB本来就是强一致的，跟存了JSONB的SQL数据库没什么区别。</span><br>
+<span>SQL的上限是很高的，我这现在的数据库里两千多张表，百亿级的数据量，但是只要索引做好了，跨n张表的join/嵌套查询照样是毫秒级的响应。当然我们是2B的业务，没有互联网电商那种高并发需求，最高也就万把TPS（实时，批处理不算）</span><br>
+</p><p><b>Redis: </b><br>
+<span>由比ケ浜結衣 发表于 2020-2-20 02:41</span><br>
+<span>Sql和非sql得区别就是不支持事务啊。</span><br>
+<span>事物和sql或者nosql没关系</span><br>
+<span>大量nosql都有事务支持，只要底层有snapshot，事务并不是rdms的专属</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>我现在用的Oracle就是百亿数据，配置是双机RAC+光矩阵存储，最大的表400亿+的数据吧，有点类似于日志但是日常使用最多也就是这个表。性能还好，日常查询三四秒返回结果</span><br>
+<span>我们同样也有nosql的electricsearch，用于线上查询，应对用户的大量查询</span><br>
+<span>sql和nosql最大区别我觉得是关联查询，nosql进行类似传统意义的左连接右连接查询就很费劲，得在业务程序里面实现，如果经常要那数据做不定式分析的话，nosql要死了</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>jctc: </b><br>
+<span>由比ケ浜結衣 发表于 2020-2-20 02:41</span><br>
+<span>Sql和非sql得区别就是不支持事务啊。</span><br>
+<span>FoundationDB</span><br>
+<span>支持transaction的分布式KV数据库</span><br>
+</p><p><b>jctc: </b><br>
+<span>c月光咖啡 发表于 2020-2-20 07:56</span><br>
+<span>我现在用的Oracle就是百亿数据，配置是双机RAC+光矩阵存储，最大的表400亿+的数据吧，有点类似于日志但是日 ...</span><br>
+<span>Elasticsearch的优点是它的index是逆序的，比如一般的数据库</span><br>
+<span>高达79</span><br>
+<span>高达80</span><br>
+<span>高达83</span><br>
+<span>高达Z</span><br>
+<span>高达ZZ</span><br>
+<span>高达鸭子砸地球</span><br>
+<span>这几个分属不同的index，而elasticsearch会抽出词素来</span><br>
+</p><p><b>jctc: </b><br>
+<span>thebat 发表于 2020-2-20 02:37</span><br>
+<span>淘宝百度这么大量级就是用mysql,那么上限在哪里?</span><br>
+<span>partition，shard加上replica</span><br>
+<span>搞得你不要不要得</span><br>
+</p><p><b>美人希: </b><br>
+<span> 本帖最后由 美人希 于 2020-2-20 08:19 编辑 </span><br>
+<span>蒙古语写复杂查询不如自杀</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>jctc: </b><br>
+<span>美人希 发表于 2020-2-20 08:15</span><br>
+<span>蒙古语写复杂查询不如自杀</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next Goose v2.2.0.1 ...</span><br>
+<span>上他的那套aggregation pipeline啊</span><br>
+</p><p><b>regalia: </b><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是特别大，大概一个表10T左右的硬盘占用。但是经常跑一些多层嵌套的join和where要花好久好久，久到经常是晚上没人的时候跑才能在8小时左右跑完。这是不是说明分布式的效率其实不好？我只是用，对原理并不了解……</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2020-2-20 08:43 编辑 </span><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>10TB的表跑8小时，那得先看看储存和CPU之类的硬件上有没有瓶颈</span><br>
+</p><p><b>hugosol: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>hive和数据库就不是一回事了……这玩意其实是把sql语句强行转换成mapreduce来跑</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>hive就是强行转sql的，不知道优化器的效果如何，但看你这描述，应该要考虑的是你的表设计是否合理，分区是否合理，查询语句是否合理。如果都没问题的话，就是你的服务器性能不行，实在不行就多上节点，分布式就是能够大力出奇迹的，单机未必能比sql强</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>payboy: </b><br>
+<span>应用范围不一样而已，跟负载力根本没关系。如果能替代rdbms，怎么都不用nosql呢</span><br>
+</p><p><b>lvcha: </b><br>
+<span>啥极限？</span><br>
+<span>并发？</span><br>
+<span>这种东西跟软件从前端到后端到数据库的设计都有关，</span><br>
+<span>单独提数据库极限肯定高得很，绝壁够用那种。</span><br>
+</p><p><b>橋白: </b><br>
+<span>日常用的TD，但是我只负责用，底层优化没有dalao们那么清楚，但是感觉也还好，毕竟数据量我这里虽然不大，但是同事那边大型数据集的话据说读取也还好（大部分时间都花在内部服务器排queue上了</span><br>
+<span>最近开始用hive相关了。。。。</span><br>
+</p><p><b>是风: </b><br>
+<span>看了楼上各位大佬，我这种一个数据库不到1g跑Oracle的瑟瑟发抖</span><br>
+<span>—— 来自 OPPO R11s, Android 7.1.1上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>gundamff: </b><br>
+<span>mysql单表不要超500万 上千万性能有下降</span><br>
+<span>连接数看硬件配置 一般跑个5000 1w很轻松</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>S1论坛的访问量和逻辑负载程度能有几个银行在国庆春节时负载的百分之一么。。。</span><br>
+</p><p><b>regalia: </b><br>
+<span>alvin051414 发表于 2020-2-20 08:28</span><br>
+<span>10TB的表跑8小时，那得先看看储存和CPU之类的硬件上有没有瓶颈</span><br>
+<span>我一直都搞不清楚我们硬件到底是啥程度。本地有四台（？）tesla v100跑并行和gpu运算。之所以用问号是因为我只能在nvidia cuda的docker里看到4个tesla v100，具体配置也没法了解，多核调用允许我们使用10%的核数是100个，所以cpu应该超过1000核。数据库调用是另一个服务器，说配置比我们自己的并行服务器只强不弱。但是因为没权限我看不了硬件配置。这台服务器负责调用数据中心的数据库。在美国和印度一共有三个数据中心。我已经申请了去数据中心游览，过两个月应该能跑一趟圣安东尼奥了，顺便去问问。</span><br>
+<span>另外10T只是举个例子，一般的airflow都是几个甚至十几个表互相倒持。我现在主要烦的就是本地并行服务器和数据中心没有互通，几个T的parquet文件只能用scp从另一个服务器搞过来，真挺崩溃的。</span><br>
+</p><p><b>对线: </b><br>
+<span>最大的见过单表几亿数据的，某知名互联网公司</span><br>
+</p><p><b>abcxiawei: </b><br>
+<span>归蝶 发表于 2020-2-20 03:36</span><br>
+<span>蒙古DB本来就是强一致的，跟存了JSONB的SQL数据库没什么区别。</span><br>
+<span>SQL的上限是很高的，我这现在的数据库里两 ...</span><br>
+<span>请问你这是哪种数据库？oracle？硬件配置是什么？</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>regalia 发表于 2020-2-20 09:41</span><br>
+<span>我一直都搞不清楚我们硬件到底是啥程度。本地有四台（？）tesla v100跑并行和gpu运算。之所以用问号是因 ...</span><br>
+<span>应该是I/O瓶颈了，排除性能问题，网络对数据交互是一个严重的瓶颈</span><br>
+</p><p><b>jctc: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>sparksql</span><br>
+</p><p><b>hugosol: </b><br>
+<span> 本帖最后由 hugosol 于 2020-2-20 12:13 编辑 </span><br>
+<span>regalia 发表于 2020-2-20 09:41</span><br>
+<span>我一直都搞不清楚我们硬件到底是啥程度。本地有四台（？）tesla v100跑并行和gpu运算。之所以用问号是因 ...</span><br>
+<span>听你这个描述好像是要自己倒腾数据过来然后还得hive跑几个小时才能出结果，是不是有点太野路子了……采集调度系统都没有的么……</span><br>
+</p><p><b>red4: </b><br>
+<span>只要带宽足够大，内存足够大，CPU足够强，SSD带宽够，分布式打不过单一节点吧？</span><br>
+</p><p><b>カドモン: </b><br>
+<span>美人希 发表于 2020-2-20 08:15</span><br>
+<span>蒙古语写复杂查询不如自杀</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next Goose v2.2.0.1 ...</span><br>
+<span>我都很少用蒙古写复杂查询 </span><br>
+<span>反正不强调凡事了，同一个数据可以往多个表里面放，就是修改的时候有点蛋疼</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>看机器配置</span><br>
+<span>看负载模式（写入模式 读取模式 计算压力）</span><br>
+<span>看一致性需求</span><br>
+<span>单点静态查询几pb的数据都能给你跑个特别高的qps出来 可是这有什么用呢</span><br>
+<span>所以一定要结合你的具体业务模式和你口袋里的钱才能有答案</span><br>
+<span>—— 来自 Xiaomi Mi 10 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span> 本帖最后由 御坂MKII 于 2020-2-20 13:04 编辑 </span><br>
+<span>red4 发表于 2020-2-20 12:13</span><br>
+<span>只要带宽足够大，内存足够大，CPU足够强，SSD带宽够，分布式打不过单一节点吧？ ...</span><br>
+<span>更好的水平扩展性和更好的灾备</span><br>
+<span>并不需要各种足够大，分布式状态下网络通信开销必然比单机要大</span><br>
+<span>—— 来自 Xiaomi Mi 10 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>regalia 发表于 2020-2-20 08:19</span><br>
+<span>各位大佬的科普很不错啊。我现在工作主要就用了hadoop和hive，但是语法也是sql的。日常表格数据其实也不是 ...</span><br>
+<span>如果索引没问题，优化也每天都做了，那就是表太大</span><br>
+<span>估计也还是表太大，你看看能不能把一些不用的数据移走</span><br>
+</p><p><b>归蝶: </b><br>
+<span>abcxiawei 发表于 2020-2-20 10:09</span><br>
+<span>请问你这是哪种数据库？oracle？硬件配置是什么？</span><br>
+<span>是Oracle，Sparc T8，具体配置我不是DBA不知道。贵倒是真的，每年光服务和授权费都是一大笔钱，所以我们现在正在慢慢往Amazon Aurora上迁移业务</span><br>
+</p><p><b>phorcys02: </b><br>
+<span>hoaloha 发表于 2020-2-20 02:49</span><br>
+<span>哥，已经2020了，连蒙古DB都要支持事物了</span><br>
+<span>别逗了，啥时候nosql有 ACID 完整支持再说吧</span><br>
+<span>nosql之所以快，就是因为牺牲了ACID 的部分特性啊</span><br>
+<span>不需要完整ACID的人自然可以选nosql</span><br>
+<span>有强需求的还不是老老实实RMDBS，再说RMDBS现在也是分布式的了</span><br>
+<span>魔改的套路还各不相同</span><br>
+</p><p><b>御众师: </b><br>
+<span>是风 发表于 2020-2-20 09:15</span><br>
+<span>看了楼上各位大佬，我这种一个数据库不到1g跑Oracle的瑟瑟发抖</span><br>
+<span>—— 来自 OPPO R11s, Android 7.1.1上的 S ...</span><br>
+<span>几百M数据库用access的笑而不语</span><br>
+<span>峰值每天几万ip也挺稳的</span><br>
+</p><p><b>是风: </b><br>
+<span>御众师 发表于 2020-2-20 14:28</span><br>
+<span>几百M数据库用access的笑而不语</span><br>
+<span>峰值每天几万ip也挺稳的</span><br>
+<span>只在大学学简单sql的问下咋看每天每月这种访问量？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>是风 发表于 2020-2-20 19:57</span><br>
+<span>只在大学学简单sql的问下咋看每天每月这种访问量？</span><br>
+<span>数据库自己有记录的</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>即使是微博这种级别，到SQL DB这一层的QPS也不过百K以内，都是通过redis以及各种缓存来处理的。T级的ramdisk</span><br>
+</p><p><b>vuder: </b><br>
+<span>thebat 发表于 2020-2-20 02:37</span><br>
+<span>淘宝百度这么大量级就是用mysql,那么上限在哪里?</span><br>
+<span>微博微信没法用sql么…</span><br>
+</p><p><b>是风: </b><br>
+<span>精钢魔像 发表于 2020-2-20 20:01</span><br>
+<span>数据库自己有记录的</span><br>
+<span>上班百度一下看看</span><br>
+</p><p><b>活久见: </b><br>
+<span>有memcache，有分布式，有分表</span><br>
+<span>S1再扩几十倍都不是问题</span><br>
+<span>其实高级检索并不多，只是DZ本身写的太烂而已</span><br>
+</p><p><b>活久见: </b><br>
+<span>yuxiao 发表于 2020-2-20 09:35</span><br>
+<span>S1论坛的访问量和逻辑负载程度能有几个银行在国庆春节时负载的百分之一么。。。 ...</span><br>
+<span>你真看得起S1</span><br>
+<span>我问过支付宝的，一秒钟可以打S1一整年差不多</span><br>
+</p><p><b>薛素姐: </b><br>
+<span>为什么撑起中印两国铁路系统的GemFire很少有人用？估计是大公司用得少，面试不考。</span><br>
+<span>支持ACID，甚至可以嵌入XA事务管理器。</span><br>
+<span>另外，诸君，我喜欢紧耦合。</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span>mysql的上限远高于硬件，在量大查得慢的时候首先考虑硬件是不是还能升而不是换其他数据库</span><br>
+</p><p><b>regalia: </b><br>
+<span>hugosol 发表于 2020-2-20 12:08</span><br>
+<span>听你这个描述好像是要自己倒腾数据过来然后还得hive跑几个小时才能出结果，是不是有点太野路子了……采集 ...</span><br>
+<span>你好，有的！但是DE都在印度，一堆烙印电话说不清也就罢了咱还能邮件Teams，问题是效率实在太慢，而且我们DS部门完全没法控制DE部门的质量。上次我发现一个production的表数据ingest错了，打电话发邮件过了两周才回复我“在做了！”，然后又过了一个月告诉我“不好意思你要的表的原始数据找不到了，现在只能追溯到2014年，2014之后都是准的。至于2014年之前的，您自己估计一下吧”，我当时真的觉得日了狗了……这表后来彻底不用，但是他们烙印那边出的每周更新报告上这表也算他们的每周维护成果。出了这种事情，连部门老板都没辙，大家都是骂两句算了，隔了半个地球也发泄不过去不是。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914751[0-50]</guid>
+    </item>
+  </channel>
+</rss>

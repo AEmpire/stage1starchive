@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么没一个成熟的Xbox和PSV模拟器啊？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么没一个成熟的Xbox和PSV模拟器啊？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:16:39 +0000</lastBuildDate>
+    <item>
+      <title>为什么没一个成熟的Xbox和PSV模拟器啊？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1931999-1-1.html</link>
+      <description>为什么没一个成熟的Xbox和PSV模拟器啊？&#13;
+真的很想玩真Nine和忍龙黑，这两个也就Xbox有了。PSV方面，一些独占的PSV掌机也颇有意思啊，比方P4G和跳楼妹。老有人说符合经济效益的主机才会有模拟器，但是销量也就Xbox一半的WiiU，一样也有模拟器啊.....</description>
+      <content:encoded><![CDATA[<p><b>MagicMirai: </b><br>
+<span>那你买x1和ps4不就都能玩到了？</span><br>
+<span>— from Sony H8296, Android 10 of S1 Next Goose v2.0.3-play</span><br>
+</p><p><b>ffmzsj: </b><br>
+<span>MagicMirai 发表于 2020-5-4 04:52</span><br>
+<span>那你买x1和ps4不就都能玩到了？</span><br>
+<span>— from Sony H8296, Android 10 of S1 Next Goose v2.0.3-play ...</span><br>
+<span>要不是p4g谁还惦记着psv</span><br>
+</p><p><b>starrlit: </b><br>
+<span>zack2012 发表于 2020-5-3 22:06</span><br>
+<span>搞模拟器开发需要哪些知识？</span><br>
+<span>逆向工程、操作系统、编译原理、图形学。。。</span><br>
+<span>搞模拟器就是用软件从零开始做一台计算机，我觉得搞模拟器的大佬都是神仙啊</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1931999[50-100]</guid>
+    </item>
+    <item>
+      <title>为什么没一个成熟的Xbox和PSV模拟器啊？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1931999-1-1.html</link>
+      <description>为什么没一个成熟的Xbox和PSV模拟器啊？&#13;
+真的很想玩真Nine和忍龙黑，这两个也就Xbox有了。PSV方面，一些独占的PSV掌机也颇有意思啊，比方P4G和跳楼妹。老有人说符合经济效益的主机才会有模拟器，但是销量也就Xbox一半的WiiU，一样也有模拟器啊.....</description>
+      <content:encoded><![CDATA[<p><b>大主宰: </b><br>
+<span>为什么没一个成熟的Xbox和PSV模拟器啊？</span><br>
+<span>真的很想玩真Nine和忍龙黑，这两个也就Xbox有了。PSV方面，一些独占的PSV掌机也颇有意思啊，比方P4G和跳楼妹。老有人说符合经济效益的主机才会有模拟器，但是销量也就Xbox一半的WiiU，一样也有模拟器啊.....</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2020-5-2 13:54 编辑 </span><br>
+<span>XBOX加密搞不定，PSV硬件资料太少，WIIU本来就是WII加强版，WII是NGC加强版，模拟器很多代码从最早的NGC模拟器DOLPHIN一直用到现在都没改</span><br>
+</p><p><b>Kazepollar: </b><br>
+<span>老任有啥要延的吗，没有吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>Kazepollar: </b><br>
+<span>Kazepollar 发表于 2020-05-02 14:01:48</span><br>
+<span>老任有啥要延的吗，没有吧回错帖了 不好意思</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>所以你为什么不买xboxone呢？模拟器又不是开发出来玩**的</span><br>
+</p><p><b>大叶饺子: </b><br>
+<span>不买说明也不是真的很想玩</span><br>
+</p><p><b>weiyun: </b><br>
+<span>我看过一些xbox初代模拟方面的资料，主要原因是研究的人少，而且之前大多数人以为都是X86很简单，结果往往遇到问题就放弃了，实际X86只是CPU方面不用转换指令了，还有好多问题。LLE的话需要了解硬件，但硬件资料很少，特别是那个时候的GPU是固定管线，再加上音频也比较复杂也是很久之后才逆向成功。 HLE的问题是初代Xbox系统很薄，而且微软的库是和游戏一起编译的，要做HLE就要识别微软的库在代码中的位置，但有的游戏编译时开启了LTCG全局优化导致库的代码很难识别所以HLE也不简单，再加上Xbox和PC的API相似但又有差别，容易造成模拟不准确。</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span> 本帖最后由 DTCPSS 于 2020-5-2 16:09 编辑 </span><br>
+<span>看错了，编辑</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>Redis: </b><br>
+<span>模拟器一般都是靠一两个超强力的技术真爱粉肝出来的</span><br>
+<span>当然也和主机本身的架构难度有关系</span><br>
+<span>不过只要真爱粉够真爱，还能够肝出来</span><br>
+<span>这种情况只能说名真爱粉不够肝</span><br>
+</p><p><b>Zest: </b><br>
+<span>Redis 发表于 2020-5-2 16:09</span><br>
+<span>模拟器一般都是靠一两个超强力的技术真爱粉肝出来的</span><br>
+<span>当然也和主机本身的架构难度有关系</span><br>
+<span>一两个人那是资料齐全性能又低的老机器（说的就是老任你），次世代模拟器开发组都一堆人，Linux那种多人分工合作方式</span><br>
+</p><p><b>Redis: </b><br>
+<span>Zest 发表于 2020-5-2 16:11</span><br>
+<span>一两个人那是资料齐全性能又低的老机器（说的就是老任你），次世代模拟器开发组都一堆人，Linux那种多人分 ...</span><br>
+<span>NGC性能其实不低</span><br>
+<span>模拟完成度一直远超ps2</span><br>
+<span>其实大家一起肝一个项目，main contributor也就基本上一只手数得出来，其他的都是打下手的</span><br>
+</p><p><b>Zest: </b><br>
+<span>次世代当然是说PS以后的机器啊，VGS是一堆人的商业公司，里面有IBM提出模拟器概念的祖师爷级人物</span><br>
+</p><p><b>EthanAce7: </b><br>
+<span>PSV确实需要个模拟器，有些游戏效能实在太差。不过Xbox的话，买个x1就好了，忍龙2这4k60帧还是爽到的。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>有一说一，xbox向下兼容做的比其他平台好，开发动力不足。另一个 微软家大业大，有人**模拟，就律师函 招安走起</span><br>
+</p><p><b>percy1234: </b><br>
+<span>跳楼妹有ps4版啊，p4g就没办法了，不过现在买台折腾版也不贵</span><br>
+</p><p><b>hein: </b><br>
+<span>忍龙好像在兼容列表里 https://www.xbox.com/zh-HK/xbox-one/backward-compatibility</span><br>
+<span>NINE不兼容，我用xbox玩的</span><br>
+<span>XBOX见过一个模拟器能模拟飞龙，画面问题很多，帧数堪忧</span><br>
+</p><p><b>masterzx: </b><br>
+<span>微软这边他本身闷声发大财，做了很多台面下的工作把折腾历代xbox的，甚至win8win10的社区都打散了。没有足够的使用群体和反馈机制的话，这方面的工作是没法做的</span><br>
+</p><p><b>twwa17: </b><br>
+<span>一个全程被PS2按着摩擦，一个是堪比49年入国军的末代掌机，没人研究很正常吧</span><br>
+</p><p><b>thegoldblade: </b><br>
+<span>到是挺希望出PSV模拟器的，因为不喜欢小屏，好多游戏都没打通。记得以前PSP能接电视的，PSV不是TV的好像不能接，而且很多游戏TV不支持。</span><br>
+</p><p><b>cjtk: </b><br>
+<span>xqemu和CxBx-reload都还在开发中，进度也不错</span><br>
+<span>PSV的vita3k进度慢一点，但是p4g能进游戏了，2d渲染基本没问题，3d形状看起来没问题，但是渲染全是错的</span><br>
+</p><p><b>大主宰: </b><br>
+<span>twwa17 发表于 2020-5-2 22:54</span><br>
+<span>一个全程被PS2按着摩擦，一个是堪比49年入国军的末代掌机，没人研究很正常吧 ...</span><br>
+<span>WiiU都有人研究了。</span><br>
+</p><p><b>cjtk: </b><br>
+<span> 本帖最后由 cjtk 于 2020-5-3 01:50 编辑 </span><br>
+<span>大主宰 发表于 2020-5-3 01:26</span><br>
+<span>WiiU都有人研究了。</span><br>
+<span>wiiu上有荒野之息，cemu靠这个在巅峰每个月收入34000美元</span><br>
+<span>现在各个模拟器的捐款状况</span><br>
+<span>wiiu cemu - 4809</span><br>
+<span>psv vita3k - 152</span><br>
+<span>xbx cxbx-reload - 480</span><br>
+<span>xbx360 xenia - 326</span><br>
+<span>ps3 rpcs3 - 2706</span><br>
+<span>switch yuzu - 8967</span><br>
+<span>不出意外现在最火的是switch</span><br>
+</p><p><b>大主宰: </b><br>
+<span>cjtk 发表于 2020-5-2 23:43</span><br>
+<span>wiiu上有荒野之息，cemu靠这个在巅峰每个月收入34000美元</span><br>
+<span>现在各个模拟器的捐款状况</span><br>
+<span>wiiu cemu - 4809</span><br>
+<span>我很好奇怎么大伙都对任天堂的机体的模拟这么感兴趣，其他的几个加起来都没一个WiiU高。然后WiiU还没有NS的一半，这就离谱了。</span><br>
+</p><p><b>cjtk: </b><br>
+<span>大主宰 发表于 2020-5-3 02:08</span><br>
+<span>我很好奇怎么大伙都对任天堂的机体的模拟这么感兴趣，其他的几个加起来都没一个WiiU高。然后WiiU还没有NS ...</span><br>
+<span>任天堂的第一方啊，ps和xbx都是跨平台游戏为主，最近不上pc的也是越来越少了，任天堂的游戏pc上是没有的。NS可是本代的机体，还在不断出新游戏，最受关注不是很正常么。要知道yuzu基本上比较火的几个游戏都能玩了</span><br>
+</p><p><b>altermaaya: </b><br>
+<span>cjtk 发表于 2020-5-2 23:43</span><br>
+<span>wiiu上有荒野之息，cemu靠这个在巅峰每个月收入34000美元</span><br>
+<span>现在各个模拟器的捐款状况</span><br>
+<span>wiiu cemu - 4809</span><br>
+<span>CEMU杀手级应用野吹，rpcs3杀手级应用persona5诚不我欺</span><br>
+</p><p><b>urvark: </b><br>
+<span>大主宰 发表于 2020-5-3 00:08</span><br>
+<span>我很好奇怎么大伙都对任天堂的机体的模拟这么感兴趣，其他的几个加起来都没一个WiiU高。然后WiiU还没有NS ...</span><br>
+<span>因为好玩啊，日久见真情</span><br>
+<span>现在的模拟器都不会跟着主机同步出来，一般要晚个好几年。在这个条件下，有些游戏经过几年，你看过视频，云过直播，听过各种评价，甚至它的续作都出来了，这时候你早就没了胃口，玩不玩也就那么回事；而有的游戏，哪怕你看了再多视频和评论，也还想自己去亲身体验玩上一次</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>xbox 是有的，但运行在xbox one 上</span><br>
+</p><p><b>cjtk: </b><br>
+<span> 本帖最后由 cjtk 于 2020-5-3 02:22 编辑 </span><br>
+<span>altermaaya 发表于 2020-5-3 02:16</span><br>
+<span>CEMU杀手级应用野吹，rpcs3杀手级应用persona5诚不我欺</span><br>
+<span>野吹是真nb，当时也是各大网站都报道，还有cemu是闭源的，捐款的话能提前1个月拿到最新版本。34000美元的记录根本就是天文数字</span><br>
+<span>rpcs3最高时也就3000多，不是一个等级的，这个钱用来养2个全职的毛子程序员，比起来cemu可以说是进度超慢了</span><br>
+</p><p><b>嘉术2015: </b><br>
+<span>我感觉真爱粉对psv本身的兴趣远高于模拟器</span><br>
+</p><p><b>starrlit: </b><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>downforce: </b><br>
+<span>thegoldblade 发表于 2020-5-2 23:08</span><br>
+<span>到是挺希望出PSV模拟器的，因为不喜欢小屏，好多游戏都没打通。记得以前PSP能接电视的，PSV不是TV的好像不 ...</span><br>
+<span>**了能输出画面到pc，但不能直接输出电视。https://b23.tv/BV1As411G78e</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>starrlit 发表于 2020-5-3 15:51</span><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>cemu并没有提供任何rom，也没有售卖**主机，而且主体在欧洲，任天堂法务部只能告提供rom的网站，管不了cemu的</span><br>
+</p><p><b>naclken.: </b><br>
+<span>cjtk 发表于 2020-5-2 23:43</span><br>
+<span>wiiu上有荒野之息，cemu靠这个在巅峰每个月收入34000美元</span><br>
+<span>现在各个模拟器的捐款状况</span><br>
+<span>wiiu cemu - 4809</span><br>
+<span>switch ryujinx</span><br>
+<span>这个也不错，在yuzu受困于软锁的时候率先解决了。</span><br>
+</p><p><b>Zest: </b><br>
+<span>starrlit 发表于 2020-5-3 15:51</span><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>你是想让巨硬亚马逊阿里云等各大云主机虚拟化企业全倒闭吗？模拟器在全世界都合法，要告也是先告IBM，现代模拟器他发明的</span><br>
+</p><p><b>415452356: </b><br>
+<span>坊间传闻一直没有凶盒模拟器的原因是因为微软招安了，我记得是有这种说法</span><br>
+</p><p><b>历史厨: </b><br>
+<span>1. LZ你说的模拟器特指"PC用游戏机模拟器".</span><br>
+<span>2. 游戏机里面,从游戏阵容来说,任地狱系与PC的重合度最低.相较索软显著要低得多那种.</span><br>
+<span>于是,PC用户对地狱系的模拟最上心.</span><br>
+<span>这不是非常自然,不是这样才奇怪么?</span><br>
+</p><p><b>Zest: </b><br>
+<span>历史厨 发表于 2020-5-3 18:43</span><br>
+<span>1. LZ你说的模拟器特指"PC用游戏机模拟器".</span><br>
+<span>2. 游戏机里面,从游戏阵容来说,任地狱系与PC的重合度最低.相较 ...</span><br>
+<span>老任技术最差当然最容易被模拟，你看当年N64模拟器有PS模拟器火吗</span><br>
+</p><p><b>Zest: </b><br>
+<span>twwa17 发表于 2020-5-2 22:54</span><br>
+<span>一个全程被PS2按着摩擦，一个是堪比49年入国军的末代掌机，没人研究很正常吧 ...</span><br>
+<span>像什么PCFX不是更没人知道，一样有完成度不低的模拟器，还是技术和开发难度问题</span><br>
+</p><p><b>8400gs: </b><br>
+<span>starrlit 发表于 2020-5-3 15:51</span><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>Cemu不提供任天堂版权内容啊</span><br>
+<span>单纯讲模拟器本身是合法的</span><br>
+</p><p><b>历史厨: </b><br>
+<span>你觉的"当年"PS和PC重合度和现在PS4和PC重合度有可比性吗?</span><br>
+<span>模拟少="技术力"(天朝网路专属词,不存在外语语境的对等词)强的反例要列可以列到天亮.</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>Zest竟然倒了</span><br>
+</p><p><b>altermaaya: </b><br>
+<span>http://emulation.gametechwiki.com/index.php/Main_Page</span><br>
+<span>各种类型模拟器的Wiki，种类齐全，同一机型进行比较评价有效减少挑选时间</span><br>
+</p><p><b>历史厨: </b><br>
+<span> 本帖最后由 历史厨 于 2020-5-3 22:05 编辑 </span><br>
+<span>starrlit 发表于 2020-5-3 15:51</span><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>因为关于模拟器的法理争论在距今大概20年前就已经有了定论.有兴趣的可以去深入了解一下游戏界历史,上世纪90年代到千禧前后,任天堂索尼世嘉相继对模拟器发起的诉讼和最终的判决结果. 当年美国西北大学法学院的一篇文章写的比较详细,有条件的建议一读: https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=1022&context=njtip</span><br>
+<span>摘录一段,也是当年影响力最大的landmark case之一,后来成为很多后续诉讼的参考案例: Sony v. Bleem</span><br>
+<span>简单概括: 只要模拟器没用到原生机器的代码,是自己另外写的,实现同样的功能,达到模拟的目的,就是不违法. 就像飞机可以飞400公里每小时,高铁也能跑400公里每小时,但高铁没抄袭飞机,是用另创的一种方案来实现一样的功能.</span><br>
+</p><p><b>杉田悠一: </b><br>
+<span>starrlit 发表于 2020-5-3 15:51</span><br>
+<span>任天堂为啥不告 cemu？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>当年索尼告两款PS模拟器费了多大的劲，最后以告bleem败诉，VGS被收购结束，</span><br>
+<span>后来有传说PSP的PS模拟器用的VGS的代码，</span><br>
+<span>海洋法系是判例法，有这么个例子在先，还有什么可告的了，</span><br>
+</p><p><b>zack2012: </b><br>
+<span>搞模拟器开发需要哪些知识？</span><br>
+</p><p><b>真道地男人: </b><br>
+<span>所以看了此贴马上雅虎入手了一套XBOX+铁骑专用控制器</span><br>
+<span>虽然也确实很想买真女神NINE，实体还是很有感觉的</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>终于有人提到cemu收费了，你给够钱下个月psv模拟器就能做出来。</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>杉田悠一 发表于 2020-5-3 22:00</span><br>
+<span>当年索尼告两款PS模拟器费了多大的劲，最后以告bleem败诉，VGS被收购结束，</span><br>
+<span>后来有传说PSP的PS模拟器用的 ...</span><br>
+<span>虽然是判例法不错，但是判例本身是可以推翻的。但是现在这些模拟器相对比较低调一些，对主机影响也不算太大，既然如此主机厂商也懒得花那么多时间那么多钱非得搞掉他们——而且说不定哪一天搞对前代兼容还得从开源的模拟器里头拿代码，要是直接搞死了就没代码可抄了。</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>cjtk 发表于 2020-5-2 23:23</span><br>
+<span>xqemu和CxBx-reload都还在开发中，进度也不错</span><br>
+<span>PSV的vita3k进度慢一点，但是p4g能进游戏了，2d渲染基本没问 ...</span><br>
+<span>Vita3K真的还在做吗？我搜索Vita3K感觉最近基本是咕咕了</span><br>
+</p><p><b>cjtk: </b><br>
+<span>试制甲炮 发表于 2020-5-4 02:58</span><br>
+<span>Vita3K真的还在做吗？我搜索Vita3K感觉最近基本是咕咕了</span><br>
+<span>有几位还是在做的，没啥关注度所以你得去github看最近都做啥了，没人给做总结和视频，劲头有点儿不够，没办法。</span><br>
+<span>xenia之前也都没动静了，但是去年来了个人一下子解决了好多问题，劲头就起来了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1931999[0-50]</guid>
+    </item>
+  </channel>
+</rss>

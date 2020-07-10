@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>懂组装显示器的麻烦给看一下还有没有救</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>懂组装显示器的麻烦给看一下还有没有救</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:42:53 +0000</lastBuildDate>
+    <item>
+      <title>懂组装显示器的麻烦给看一下还有没有救[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859222-1-1.html</link>
+      <description>懂组装显示器的麻烦给看一下还有没有救&#13;
+12年配老爷机的时候跟风上了当时很火的组装苹果屏（27寸2k），外置电源只有双链接dvi口的那种，运气不错撑了这么多年。
+
+不过到了今年年初，终于开始出问题了，症状是关机一段时间以后再开机，屏幕上会出现抖动的横线，显示黑色和深**像时症状较轻，白色或亮色时抖得很欢。抖一段时间后，症状逐渐减轻直至消失。感觉跟温度有关，冬天时得抖上20分钟才好，夏天5分钟就够了，这几天降温再加上关了几天没开，得有大概1个小时才能好。
+
+感觉应该不是屏的问题，是驱动板要挂了。如果是的话，咸鱼买个t7000+的驱动板能用么（正好换个接口，dvi现在太不好弄了）
+
+ps 前天当年装机时配的st3000dm001终于寿终正寝了，某种意义上说这个型号能撑7年简直不可思议…</description>
+      <content:encoded><![CDATA[<p><b>dongjuanyong: </b><br>
+<span>懂组装显示器的麻烦给看一下还有没有救</span><br>
+<span>12年配老爷机的时候跟风上了当时很火的组装苹果屏（27寸2k），外置电源只有双链接dvi口的那种，运气不错撑了这么多年。</span><br>
+<span>不过到了今年年初，终于开始出问题了，症状是关机一段时间以后再开机，屏幕上会出现抖动的横线，显示黑色和深**像时症状较轻，白色或亮色时抖得很欢。抖一段时间后，症状逐渐减轻直至消失。感觉跟温度有关，冬天时得抖上20分钟才好，夏天5分钟就够了，这几天降温再加上关了几天没开，得有大概1个小时才能好。</span><br>
+<span>感觉应该不是屏的问题，是驱动板要挂了。如果是的话，咸鱼买个t7000+的驱动板能用么（正好换个接口，dvi现在太不好弄了）</span><br>
+<span>ps 前天当年装机时配的st3000dm001终于寿终正寝了，某种意义上说这个型号能撑7年简直不可思议…</span><br>
+</p><p><b>yuuu: </b><br>
+<span>很温度有关的问题大多是都是面板问题</span><br>
+<span>要确诊的话报屏型号去配一套驱动，回来面板没问题就留用，反之就七天无理由</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>等回来找个吹风机看看哪个家伙对温度敏感吧</span><br>
+<span>看拆解还得注意一下是edp还是lvds口的，先不下单了</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>报告一下，修好了</span><br>
+<span>上周拆开发现这批山寨苹果屏被魔改过，原屏是原生edp口的（LM270WQ1-LDC2），逻辑板应该是换过，换成了lvds口的，所以驱动板也得配套lvds的</span><br>
+<span>没换之前，拿着吹风机，对着驱动板上最大的芯片吹热风，屏幕显示正常；改吹冷风，立即开始出现抖动的横线。于是确定需要换驱动板</span><br>
+<span>因为逻辑板换过，怕出幺蛾子，下单了与原来相同的驱动板。今天到货换上了，完美点亮显示正常。希望这180掏的能让它再战两年</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859222[0-50]</guid>
+    </item>
+  </channel>
+</rss>

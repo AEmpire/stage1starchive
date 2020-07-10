@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>奇怪的问题，显卡负载高的时候音箱有明显的噪音</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>奇怪的问题，显卡负载高的时候音箱有明显的噪音</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:37:01 +0000</lastBuildDate>
+    <item>
+      <title>奇怪的问题，显卡负载高的时候音箱有明显的噪音[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860144-1-1.html</link>
+      <description>奇怪的问题，显卡负载高的时候音箱有明显的噪音&#13;
+ 本帖最后由 Sorastlos 于 2019-10-19 18:11 编辑 
+
+线路系统：电脑 - 音频接口（usb供电的TASCAM）- TRS平衡输出 - 一对KRK的音箱我知道这对KRK的音箱的底噪是什么样的，得离箱子不到30cm才能听到。
+&#13;
+以前是一张2060配450W的电源，打开游戏负载一高就能听到音箱有嗡嗡嗡的底噪，非常非常明显。换了个750W的EVGA电源，没了。
+&#13;
+现在换了张2080super的卡，还是那个750W的电源。又来了。而且声音的响度和帧数有关，锁60帧的声音比不锁的要轻一点。
+&#13;
+这个声音完全是无法忍受的。
+&#13;
+我在箱子进入工作状态之后，打开游戏，音频接口的音量设置以及箱子自己的gain都无法影响这个显卡负载带来的底噪的音量。
+&#13;
+但是拔掉音频接口到机箱的usb线就没了…（这个音频接口不能独立工作）
+&#13;
+搜了一大圈，确定了一个说法是ground loop noise（地回路噪音。）根据老外的论坛里的信息：
+&#13;
+音频接口的USB插在前面板或者后面板上--无影响噪音依旧。
+&#13;
+试图使用独立供电的USB HUB然后音频接口插在这个HUB上--无影响噪音依旧。用RCA的非平衡线替换TRS的平衡线--噪音更大了。
+&#13;
+机箱的电源以及音箱的电源接在同一个接线板上--有噪音
+&#13;
+从房间的另一端墙上拉了个接线板过来，机箱接这个接线板。音箱接原本的接线板--噪音变小了，但是依旧存在。在白天环境噪音情形下勉强勉强可以接受。但依旧是一注意就能听到的量。
+&#13;
+我无法理解这个问题和墙上的插座是什么联系…
+&#13;
+更新：
+&#13;
+买了滤波插排，没有作用--噪音依旧。
+&#13;
+拆开了一个插排，断掉了里面的地线，音响接这个没有地线的插排--噪音完全消失。
+&#13;
+我无法确定这是否是安全的。</description>
+      <content:encoded><![CDATA[<p><b>Sorastlos: </b><br>
+<span>奇怪的问题，显卡负载高的时候音箱有明显的噪音</span><br>
+<span> 本帖最后由 Sorastlos 于 2019-10-19 18:11 编辑 </span><br>
+<span>线路系统：电脑 - 音频接口（usb供电的TASCAM）- TRS平衡输出 - 一对KRK的音箱我知道这对KRK的音箱的底噪是什么样的，得离箱子不到30cm才能听到。</span><br>
+<span>以前是一张2060配450W的电源，打开游戏负载一高就能听到音箱有嗡嗡嗡的底噪，非常非常明显。换了个750W的EVGA电源，没了。</span><br>
+<span>现在换了张2080super的卡，还是那个750W的电源。又来了。而且声音的响度和帧数有关，锁60帧的声音比不锁的要轻一点。</span><br>
+<span>这个声音完全是无法忍受的。</span><br>
+<span>我在箱子进入工作状态之后，打开游戏，音频接口的音量设置以及箱子自己的gain都无法影响这个显卡负载带来的底噪的音量。</span><br>
+<span>但是拔掉音频接口到机箱的usb线就没了…（这个音频接口不能独立工作）</span><br>
+<span>搜了一大圈，确定了一个说法是ground loop noise（地回路噪音。）根据老外的论坛里的信息：</span><br>
+<span>音频接口的USB插在前面板或者后面板上--无影响噪音依旧。</span><br>
+<span>试图使用独立供电的USB HUB然后音频接口插在这个HUB上--无影响噪音依旧。用RCA的非平衡线替换TRS的平衡线--噪音更大了。</span><br>
+<span>机箱的电源以及音箱的电源接在同一个接线板上--有噪音</span><br>
+<span>从房间的另一端墙上拉了个接线板过来，机箱接这个接线板。音箱接原本的接线板--噪音变小了，但是依旧存在。在白天环境噪音情形下勉强勉强可以接受。但依旧是一注意就能听到的量。</span><br>
+<span>我无法理解这个问题和墙上的插座是什么联系…</span><br>
+<span>更新：</span><br>
+<span>买了滤波插排，没有作用--噪音依旧。</span><br>
+<span>拆开了一个插排，断掉了里面的地线，音响接这个没有地线的插排--噪音完全消失。</span><br>
+<span>我无法确定这是否是安全的。</span><br>
+</p><p><b>騜: </b><br>
+<span>你家房龄多少墙上插座导地线没接好吧</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>騜 发表于 2019-10-18 17:49</span><br>
+<span>你家房龄多少墙上插座导地线没接好吧</span><br>
+<span>宿舍…有点年纪了</span><br>
+<span>想动这个那几乎是不可能的…</span><br>
+</p><p><b>YUNO: </b><br>
+<span>剪开USB两端的头，一边各插入一个4线USB信号线滤波器共模电感 巴伦扼流圈，还不够就再加一个。</span><br>
+</p><p><b>geminixxf: </b><br>
+<span>电源功率不够？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>子犴: </b><br>
+<span>个人经验 买个电源滤波器 可以解决大部分音频问题的烦恼</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-10-18 23:26 编辑 </span><br>
+<span>先检查一下墙上插座有没有接地线。</span><br>
+<span>还有接线板，有的虽然是3脚插头，但里面只接了2根线。</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>Sorastlos 发表于 2019-10-18 17:51</span><br>
+<span>宿舍…有点年纪了</span><br>
+<span>想动这个那几乎是不可能的…</span><br>
+<span>有个简单解决方案是直接用显卡的音频输出</span><br>
+<span>我就是这样</span><br>
+</p><p><b>我又忘了用户名: </b><br>
+<span>我的帖子，仅供参考. 我后来买了个三口转二口的，离地就p事没有. 目前没有摸外壳触电身亡</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1773972&mobile=2</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>我又忘了用户名 发表于 2019-10-19 04:04</span><br>
+<span>我的帖子，仅供参考. 我后来买了个三口转二口的，离地就p事没有. 目前没有摸外壳触电身亡</span><br>
+<span>https://bbs.sar ...</span><br>
+<span>我拆开并断掉了一个插排的地线，然后音响接这个没有地线的插排。</span><br>
+<span>显卡负载的噪音完全消失。</span><br>
+<span>我无法确定这是否安全。</span><br>
+</p><p><b>csfantasy: </b><br>
+<span>换个声卡呗？现在几十块钱的usb声卡不一定就比主板自带的差</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>csfantasy 发表于 2019-10-19 17:57</span><br>
+<span>换个声卡呗？现在几十块钱的usb声卡不一定就比主板自带的差</span><br>
+<span>我用的是TASCAM US-366。一个已经停产的千元级USB音频接口。</span><br>
+<span>你可以说它是“声卡”，或者说是“功放”。</span><br>
+<span>主板上可没有给监听音箱用的一对TRS的平衡输出。</span><br>
+</p><p><b>董卓: </b><br>
+<span>共地干扰？淘宝搜一些有不少东西的</span><br>
+<span>不过一般是用在车载上</span><br>
+</p><p><b>我又忘了用户名: </b><br>
+<span> 本帖最后由 我又忘了用户名 于 2019-10-20 04:24 编辑 </span><br>
+<span>Sorastlos 发表于 2019-10-19 17:22</span><br>
+<span>我拆开并断掉了一个插排的地线，然后音响接这个没有地线的插排。</span><br>
+<span>显卡负载的噪音完全消失。</span><br>
+<span>我无法确定这 ...</span><br>
+<span>这个风险就是不接地线的风险。有可能摸外壳触电... 对电器本身应该没啥事.. 以前小时候我记得还有把电器三脚的地线脚掰歪插的..原则上不太好，但是...天天听电流声太草了...</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860144[0-50]</guid>
+    </item>
+  </channel>
+</rss>

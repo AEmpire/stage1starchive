@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>上海联通中兴光猫F477怎么设置桥接模式</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>上海联通中兴光猫F477怎么设置桥接模式</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:05:00 +0000</lastBuildDate>
+    <item>
+      <title>上海联通中兴光猫F477怎么设置桥接模式[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846174-1-1.html</link>
+      <description>上海联通光猫怎么设置桥接模式&#13;
+ 本帖最后由 libratest 于 2019-7-12 16:49 编辑 
+
+上海联通最近换了个中兴的光猫，型号应该是F477，换上后端口转发全部完蛋。
+&#13;
+家里的网络拓扑图现在是
+&#13;
+公网
+&#13;
+   |
+&#13;
+光猫
+&#13;
+   |
+&#13;
+无线路由器
+&#13;
+       |
+&#13;
+各个设备
+&#13;
+重新看了下光猫里面现在是用的拨号模式在上网，尝试直接在光猫里面设置端口转发然后设备连光猫失败。
+&#13;
+搜了下似乎要把光猫设置为桥接，然后用无线路由拨号才行，但是这个光猫人机交互界面简直了，完全看不懂，有大大知道这个怎么设置桥接么
+&#13;
+PS：有公网IP</description>
+      <content:encoded><![CDATA[<p><b>libratest: </b><br>
+<span>上海联通光猫怎么设置桥接模式</span><br>
+<span> 本帖最后由 libratest 于 2019-7-12 16:49 编辑 </span><br>
+<span>上海联通最近换了个中兴的光猫，型号应该是F477，换上后端口转发全部完蛋。</span><br>
+<span>家里的网络拓扑图现在是</span><br>
+<span>公网</span><br>
+<span>   |</span><br>
+<span>光猫</span><br>
+<span>   |</span><br>
+<span>无线路由器</span><br>
+<span>       |</span><br>
+<span>各个设备</span><br>
+<span>重新看了下光猫里面现在是用的拨号模式在上网，尝试直接在光猫里面设置端口转发然后设备连光猫失败。</span><br>
+<span>搜了下似乎要把光猫设置为桥接，然后用无线路由拨号才行，但是这个光猫人机交互界面简直了，完全看不懂，有大大知道这个怎么设置桥接么</span><br>
+<span>PS：有公网IP</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>你确定是f447么... 搜索引擎都查不到的</span><br>
+</p><p><b>libratest: </b><br>
+<span>唯一指定用户名 发表于 2019-7-12 16:42</span><br>
+<span>你确定是f447么... 搜索引擎都查不到的</span><br>
+<span>额是F477，打错了</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>libratest 发表于 2019-7-12 16:49</span><br>
+<span>额是F477，打错了</span><br>
+<span>百度一下不就有么 https://tieba.baidu.com/p/5576633086?red_tag=3008417391</span><br>
+<span>不急也可以给客服打电话要求改 一般都会远程\上门给你改的</span><br>
+</p><p><b>libratest: </b><br>
+<span>唯一指定用户名 发表于 2019-7-12 16:56</span><br>
+<span>百度一下不就有么 https://tieba.baidu.com/p/5576633086?red_tag=3008417391</span><br>
+<span>不急也可以给客服打电话要 ...</span><br>
+<span>这个方法试过了，压根删除不了，用了管理员帐号</span><br>
+<span>算了，我还是打联通客服远程改吧，估计是远程锁了什么的</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>libratest 发表于 2019-7-12 17:03</span><br>
+<span>这个方法试过了，压根删除不了，用了管理员帐号</span><br>
+<span>算了，我还是打联通客服远程改吧，估计是远程锁了什么的 ...</span><br>
+<span>你是说进不了cu？ 那就联系客服吧</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>libratest: </b><br>
+<span>唯一指定用户名 发表于 2019-7-12 17:05</span><br>
+<span>你是说进不了cu？ 那就联系客服吧</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>我能进CU，但是删不掉拨号连接，也就没法新建一个桥接</span><br>
+</p><p><b>wer5lcy: </b><br>
+<span>把你的无线路由器上的接线从WAN换成LAN，然后关掉无线路由器上的DHCP。相当于让无线路由变成无线交换机，就可以了。</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>libratest 发表于 2019-7-12 17:10</span><br>
+<span>我能进CU，但是删不掉拨号连接，也就没法新建一个桥接</span><br>
+<span>进了cu不能改…… 神仙机器</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>发个才: </b><br>
+<span>是F477V2吧，现在新的光猫进了管理员界面也看不到拨号连接了，解决方法其实很简单，新建一个桥接，然后把宽带密码改了，之前那个拨不上号就自动失效了，其他诸如vlan之类的你应该知道的吧</span><br>
+</p><p><b>libratest: </b><br>
+<span>wer5lcy 发表于 2019-7-12 17:12</span><br>
+<span>把你的无线路由器上的接线从WAN换成LAN，然后关掉无线路由器上的DHCP。相当于让无线路由变成无线交换机，就 ...</span><br>
+<span>应该不成，我尝试直连光猫上网，在光猫上设置了端口转发，但是转发没有生效，应该和光猫拨号模式下不能端口转发有关系，所以现在应该只有把光猫改桥接，继续用路由拨号上网</span><br>
+</p><p><b>libratest: </b><br>
+<span>发个才 发表于 2019-7-12 17:16</span><br>
+<span>是F477V2吧，现在新的光猫进了管理员界面也看不到拨号连接了，解决方法其实很简单，新建一个桥接，然后把宽 ...</span><br>
+<span>机智！！</span><br>
+</p><p><b>wer5lcy: </b><br>
+<span>我删贴了    端口转发如果拨号的机器解决不了也就没啥办法。。</span><br>
+</p><p><b>喷气式纸飞机: </b><br>
+<span>我是电信光猫，电话找客服改成拨号，拨号的帐号密码别忘记要了，路由设置流程和以前ADSL拨号一样</span><br>
+<span>----发送自 Sony G8342,Android 9</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846174[0-50]</guid>
+    </item>
+  </channel>
+</rss>

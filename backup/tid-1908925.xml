@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下连接WiFi后苹果手机无法上网问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下连接WiFi后苹果手机无法上网问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:49:11 +0000</lastBuildDate>
+    <item>
+      <title>请教一下连接WiFi后苹果手机无法上网问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908925-1-1.html</link>
+      <description>请教一下连接WiFi后苹果手机无法上网问题&#13;
+我们公司的主路由是由一个华为的路由器，通过一个三层交换机把网络分配到各个办公室，每个办公室接入的小路由都是只是用wifi功能，网线直接其LAN口，想请教一下为什么其他手机连接无线网可以正常上网，苹果手机却不行；
+&#13;
+已经尝试的方法有：1.修改主路由dns，苹果手机依然无法上网。2.把链接小路由器的网线接到WAN口，就可以正常上网，但这样不方便公司管理，所以不能这样操作，</description>
+      <content:encoded><![CDATA[<p><b>bivbiv: </b><br>
+<span>请教一下连接WiFi后苹果手机无法上网问题</span><br>
+<span>我们公司的主路由是由一个华为的路由器，通过一个三层交换机把网络分配到各个办公室，每个办公室接入的小路由都是只是用wifi功能，网线直接其LAN口，想请教一下为什么其他手机连接无线网可以正常上网，苹果手机却不行；</span><br>
+<span>已经尝试的方法有：1.修改主路由dns，苹果手机依然无法上网。2.把链接小路由器的网线接到WAN口，就可以正常上网，但这样不方便公司管理，所以不能这样操作，</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>无法连接还是连上以后无法上网，差别很大。</span><br>
+</p><p><b>bivbiv: </b><br>
+<span>wzp28538 发表于 2020-1-11 11:09</span><br>
+<span>无法连接还是连上以后无法上网，差别很大。</span><br>
+<span>是显示连接上了，但无法上网，漏了一点就是QQ，微信可以使用，但是打开网页却不行</span><br>
+</p><p><b>sssfans: </b><br>
+<span>试过修改苹果手机上的wifi的dns吗？</span><br>
+</p><p><b>lanefeng: </b><br>
+<span>手机端Wi-Fi设置的wapi选项关掉试试？</span><br>
+</p><p><b>password: </b><br>
+<span>bivbiv 发表于 2020-1-11 11:15</span><br>
+<span>是显示连接上了，但无法上网，漏了一点就是QQ，微信可以使用，但是打开网页却不行</span><br>
+<span> ...</span><br>
+<span>一般来说 能上QQ不能上网都是DNS问题</span><br>
+<span>看看iOS设备是否手动设置过DNS</span><br>
+<span>如果不行看看你们DHCP服务器分配的DNS是啥</span><br>
+<span>找个网络工具看看iOS设备ping DNS服务器能否ping通 是否丢包 nslookup解析结果是否正常</span><br>
+</p><p><b>bivbiv: </b><br>
+<span>sssfans 发表于 2020-1-11 14:45</span><br>
+<span>试过修改苹果手机上的wifi的dns吗？</span><br>
+<span>也试过，不行</span><br>
+</p><p><b>bivbiv: </b><br>
+<span> 本帖最后由 bivbiv 于 2020-1-11 21:03 编辑 </span><br>
+<span>password 发表于 2020-1-11 15:32</span><br>
+<span>一般来说 能上QQ不能上网都是DNS问题</span><br>
+<span>看看iOS设备是否手动设置过DNS</span><br>
+<span>我们设置主路由上的DNS是电信的，也换过114与8，但是结果一样我没有ping过，星期一的时候去试试看</span><br>
+</p><p><b>bivbiv: </b><br>
+<span>lanefeng 发表于 2020-1-11 14:52</span><br>
+<span>手机端Wi-Fi设置的wapi选项关掉试试？</span><br>
+<span>默认是关闭着的</span><br>
+</p><p><b>password: </b><br>
+<span>bivbiv 发表于 2020-1-11 21:00</span><br>
+<span>我们设置主路由上的DNS是电信的，也换过114与8，但是结果一样，</span><br>
+<span>不是问你主路由的上级设置是啥 而是你DHCP出去的内网DNS是啥 iOS能否正常和那个地址通信</span><br>
+<span>一般家用路由下内网DNS服务器是网关地址 但是企业内网就未必是了 你们有三层交换机的情况下 DHCP服务器都未必是路由</span><br>
+<span>要排故最好先把网络结构搞搞清楚哦</span><br>
+</p><p><b>bivbiv: </b><br>
+<span>password 发表于 2020-1-11 21:07</span><br>
+<span>不是问你主路由的上级设置是啥 而是你DHCP出去的内网DNS是啥 iOS能否正常和那个地址通信</span><br>
+<span>一般家用路由下内 ...</span><br>
+<span>好的，那么我先去测下内网dns，还有ping dns这两个，我们三层交换机并没有使用DHCP这个功能，主要还是主路由的。</span><br>
+</p><p><b>shineaslin: </b><br>
+<span>邮局港剧，我也碰到过这种路由，同事的手机连没问题，我的macbook连也没问题，就我手机连上之后不去网。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908925[0-50]</guid>
+    </item>
+  </channel>
+</rss>

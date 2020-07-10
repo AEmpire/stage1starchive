@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>excel有办法实现这个功能吗？把拆分的项目合并起来</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>excel有办法实现这个功能吗？把拆分的项目合并起来</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:43:13 +0000</lastBuildDate>
+    <item>
+      <title>excel有办法实现这个功能吗？把拆分的项目合并起来[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840112-1-1.html</link>
+      <description>excel有办法实现这个功能吗？把拆分的项目合并起来&#13;
+如图
+&#13;
+如何把上面的表变成下面的表呢？是不是必须用vba呢？</description>
+      <content:encoded><![CDATA[<p><b>lxx4869: </b><br>
+<span>excel有办法实现这个功能吗？把拆分的项目合并起来</span><br>
+<span>如图</span><br>
+<span>如何把上面的表变成下面的表呢？是不是必须用vba呢？</span><br>
+</p><p><b>neverer: </b><br>
+<span>透视表？</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>SUMIF</span><br>
+</p><p><b>violind88: </b><br>
+<span>这不就是透视表基础使用吗</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>太阳底下无新事，你想要的大多数轮子都已经被发明出来了...</span><br>
+<span>请教下同事 透视表怎么用吧，或者网上找视频学...</span><br>
+</p><p><b>Prushka: </b><br>
+<span>名称另起一列去重，然后对着它countifs</span><br>
+</p><p><b>rare720: </b><br>
+<span>这不是最简单的分类汇总么？03版的excel都有这功能</span><br>
+</p><p><b>雪影: </b><br>
+<span>分类汇总。。。。。</span><br>
+</p><p><b>wleehf: </b><br>
+<span>也不用透视表，就一个sumif就行了，就是多条件合计</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>谢谢，不过数据透视表好像没法让*列保持x和y，总是会求和，最后去重后又单独复制了一列</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>lxx4869 发表于 2019-6-17 18:30</span><br>
+<span>谢谢，不过数据透视表好像没法让*列保持x和y，总是会求和，最后去重后又单独复制了一列 ...</span><br>
+<span>那是你不会用，数据透视表做得到的</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>lotsbiss 发表于 2019-6-17 18:54</span><br>
+<span>那是你不会用，数据透视表做得到的</span><br>
+<span>可以是可以，但是好像格式上没法做到1楼那样 名称和* 只显示其一 可以，同时显示 x就跑A下面了， 要想让x和a在同一行同时显示，就要把*放到 值 里，但是值里的数据又必须计算没法保持原样</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>lxx4869 发表于 2019-6-17 21:09</span><br>
+<span>可以是可以，但是好像格式上没法做到1楼那样 名称和* 只显示其一 可以，同时显示 x就跑A下面了，...</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>lotsbiss 发表于 2019-6-17 22:28</span><br>
+<span>果然是我不会用，好像启用经典布局再取消分类汇总再取消经典布局就变成这样了为啥取消经典布局后*列还是会保持在经典布局的位置呢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840112[0-50]</guid>
+    </item>
+  </channel>
+</rss>

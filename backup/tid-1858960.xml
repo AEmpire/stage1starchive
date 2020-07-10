@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>实在是没辙了，关于WIN10硬盘占用100%的问题。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>实在是没辙了，关于WIN10硬盘占用100%的问题。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:44:33 +0000</lastBuildDate>
+    <item>
+      <title>实在是没辙了，关于WIN10硬盘占用100%的问题。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858960-1-1.html</link>
+      <description>实在是没辙了，关于WIN10硬盘占用100%的问题。&#13;
+ 本帖最后由 doas9 于 2019-10-11 14:45 编辑 
+
+真的没办法，彻底疯了。
+&#13;
+电脑是很老的联想B41-80。
+&#13;
+办公用，后台进程主要就是一个QQ管家，SAP，TIM。
+&#13;
+但是就是间歇性质的（10-5秒）左右的硬盘100%，输入法为qq输入法，输入任何三个字符必定卡死，而且此时win10没有升级（我暂停了）
+&#13;
+所有的进程加起来不到0.8m/s（任务管理器显示）
+&#13;
+几个莫名其妙往前面跳的进程有system
+&#13;
+registry
+&#13;
+出现这个现象已经重置过win10一次。
+&#13;
+是不是除了装win7换电脑没办法了。</description>
+      <content:encoded><![CDATA[<p><b>doas9: </b><br>
+<span>实在是没辙了，关于WIN10硬盘占用100%的问题。</span><br>
+<span> 本帖最后由 doas9 于 2019-10-11 14:45 编辑 </span><br>
+<span>真的没办法，彻底疯了。</span><br>
+<span>电脑是很老的联想B41-80。</span><br>
+<span>办公用，后台进程主要就是一个QQ管家，SAP，TIM。</span><br>
+<span>但是就是间歇性质的（10-5秒）左右的硬盘100%，输入法为qq输入法，输入任何三个字符必定卡死，而且此时win10没有升级（我暂停了）</span><br>
+<span>所有的进程加起来不到0.8m/s（任务管理器显示）</span><br>
+<span>几个莫名其妙往前面跳的进程有system</span><br>
+<span>registry</span><br>
+<span>出现这个现象已经重置过win10一次。</span><br>
+<span>是不是除了装win7换电脑没办法了。</span><br>
+</p><p><b>騜: </b><br>
+<span>硬件坏道不检查一下？ BIOS里面AHCI打开了？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>没用ssd？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>这个是很老的bug了 15 16年的，你更新下系统试试。</span><br>
+</p><p><b>macos: </b><br>
+<span>系统的故障比你形容的表象复杂多了，单这些表象不能判断哪里引起这个结果</span><br>
+</p><p><b>doas9: </b><br>
+<span>好吧 因为是工作电脑所以没用dg看一下 要很久 看看有没有坏道了</span><br>
+</p><p><b>doas9: </b><br>
+<span>刚才折腾了换了个思路</span><br>
+<span>楼中说到了ACHI 然后bios一找没有SATA的选项，也就是说联想默认打开。</span><br>
+<span>随便看看发现intel的那个虚拟化没打开。</span><br>
+<span>然后手机看了下1903的问题原因，果然。</span><br>
+<span>打开后一切恢复正常。</span><br>
+<span>简直了。</span><br>
+</p><p><b>夜语: </b><br>
+<span> 本帖最后由 夜语 于 2019-10-11 18:23 编辑 </span><br>
+<span>工控机那种垃圾ssd速度连hdd也比不过，在win10表现却比hdd好多了真不知道是为什么。</span><br>
+<span>只是当初安装系统差不多用了半个小时，所以这样吐槽的</span><br>
+<span>刚去测一下，读取好像勉强正常，这写入。。。</span><br>
+<img src="https://i.loli.net/2019/10/11/Ym3Jex254iKSGbq.jpg" title="https://i.loli.net/2019/10/11/Ym3Jex254iKSGbq.jpg"><br>
+<span>就我说的这种垃圾ssd，从来没出现过那种卡磁盘100%的bug.系统启动平时运行也正常</span><br>
+<span>可能是系统安装完就不大需要写入了吧？</span><br>
+</p><p><b>qwased: </b><br>
+<span>夜语 发表于 2019-10-11 17:05</span><br>
+<span>工控机那种垃圾ssd速度连hdd也比不过，在win10表现却比hdd好多了真不知道是为什么。 ...</span><br>
+<span>就算是tf卡，4k性能也比hdd好一个数量级</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>john: </b><br>
+<span>夜语 发表于 2019-10-11 17:05</span><br>
+<span>工控机那种垃圾ssd速度连hdd也比不过，在win10表现却比hdd好多了真不知道是为什么。 ...</span><br>
+<span>你们评价硬盘速度只看连续读写两个项目真不知道是为什么</span><br>
+</p><p><b>john: </b><br>
+<span>qwased 发表于 2019-10-11 17:07</span><br>
+<span>就算是tf卡，4k性能也比hdd好一个数量级</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>你好，没有的，哪有一个数量级这么多</span><br>
+<span>HDD一般1MB/s上下，TF卡5MB/s上下，这还得是连续读写80MB/s以上的高端TF卡</span><br>
+</p><p><b>7七麦: </b><br>
+<span>换ssd，一了百了得到升级一样的感觉</span><br>
+</p><p><b>zzzqqqrrr: </b><br>
+<span>我的破笔记本换了ssd 感觉得到了新生</span><br>
+<span>win10的机械盘只配当仓库用</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>風駿: </b><br>
+<span>换上固态对自己好一点</span><br>
+</p><p><b>madbird302: </b><br>
+<span>win10必须装在SSD里，不然就是跟自己过不去</span><br>
+</p><p><b>qazesz: </b><br>
+<span>win10会不间断向硬盘写入监控日志，详见https://docs.microsoft.com/zh-cn/windows/privacy/basic-level-windows-diagnostic-events-and-fields-1903</span><br>
+<span>所以对hdd极不友好</span><br>
+</p><p><b>qwased: </b><br>
+<span>john 发表于 2019-10-11 17:50</span><br>
+<span>你好，没有的，哪有一个数量级这么多</span><br>
+<span>HDD一般1MB/s上下，TF卡5MB/s上下，这还得是连续读写80MB/s以上的高 ...</span><br>
+<span>新标准的tf卡不是最低读取1500iops么，hdd就50</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>这个问题让我每次开机禁一堆服务</span><br>
+<span>早晚受不了拆了光驱装ssd。。</span><br>
+</p><p><b>罐头卡: </b><br>
+<span>借楼问下固态硬盘占用率100%，而且读写只有个位数是什么情况？外星人15r2的固态</span><br>
+</p><p><b>坛子漆黑: </b><br>
+<span>之前因为硬盘读写问题,一下载硬盘占用100%然后死机,后来发现是QQ管家的锅</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858960[0-50]</guid>
+    </item>
+  </channel>
+</rss>

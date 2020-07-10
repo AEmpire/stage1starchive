@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，请问有会CFD软件或者有限元分析软件的坛友嘛？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，请问有会CFD软件或者有限元分析软件的坛友嘛？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:39:26 +0000</lastBuildDate>
+    <item>
+      <title>求助，请问有会CFD软件或者有限元分析软件的坛友嘛？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859759-1-1.html</link>
+      <description>求助，请问有会CFD软件或者有限元分析软件的坛友嘛？&#13;
+ 本帖最后由 被雨困住的城市 于 2019-10-16 17:05 编辑 
+
+就是我的在fluent meshing里划分网格，可他提示“Error: A cap could not be created using the specified zone/label. Ensure your zone/label encloses the whole opening. Error Object: #f”，但是我选择的面确实把容器开口覆盖住啦呀，好奇怪，求坛友帮助啦~</description>
+      <content:encoded><![CDATA[<p><b>被雨困住的城市: </b><br>
+<span>求助，请问有会CFD软件或者有限元分析软件的坛友嘛？</span><br>
+<span> 本帖最后由 被雨困住的城市 于 2019-10-16 17:05 编辑 </span><br>
+<span>就是我的在fluent meshing里划分网格，可他提示“Error: A cap could not be created using the specified zone/label. Ensure your zone/label encloses the whole opening. Error Object: #f”，但是我选择的面确实把容器开口覆盖住啦呀，好奇怪，求坛友帮助啦~</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>顶帖</span><br>
+</p><p><b>vitarrow: </b><br>
+<span>不一定是你封口的位置，还有可能是特别接近的小缝小孔，回到模型部分再处理一下吧。另外试试右键报错信息，印象中可以显示哪里出了问题。</span><br>
+<span>话说头一次看到cfd相关的帖子，可算有个同行了。 </span><br>
+</p><p><b>laotoutou: </b><br>
+<span>你用dm还是sc创建的模型？</span><br>
+<span>换另一个重新弄下。</span><br>
+</p><p><b>古怪: </b><br>
+<span>封住没用，要确认是个整体。要考虑配合公差。建议新手，sw建模，icem画网格，还有有问题去小木虫问。</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>laotoutou 发表于 2019-10-16 17:54</span><br>
+<span>你用dm还是sc创建的模型？</span><br>
+<span>换另一个重新弄下。</span><br>
+<span>我用cad画的图，在这两个里面有处理，实在不知道问题出在哪里</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>古怪 发表于 2019-10-16 18:06</span><br>
+<span>封住没用，要确认是个整体。要考虑配合公差。建议新手，sw建模，icem画网格，还有有问题去小木虫问。 ...</span><br>
+<span>请问要确认是个整体是什么意思呢？不太懂，谢谢啦</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859759[0-50]</guid>
+    </item>
+  </channel>
+</rss>

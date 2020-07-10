@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>双频路由是不是最好把设备分散到两个频段？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>双频路由是不是最好把设备分散到两个频段？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:24:37 +0000</lastBuildDate>
+    <item>
+      <title>双频路由是不是最好把设备分散到两个频段？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918953-1-1.html</link>
+      <description>双频路由是不是最好把设备分散到两个频段？&#13;
+我一般只用5g 没干扰      但是现在设备数多的情况下感觉我的4x4 wave2 11ac路由也不够用啊
+&#13;
+只用5g等于就4条天线 MUMIMO复杂环境也实现不了
+&#13;
+现在10个设备8个11ac三个双天线5个单天线
+&#13;
+2个11n 5g
+&#13;
+把他们全塞到5g频段   虽然不大可能会有十个设备同时使用的情况 但是还是担心吞吐量和相应时间
+&#13;
+按理论来说 两个双天线设备同时满负荷5g频段不就反应不过来了？</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>双频路由是不是最好把设备分散到两个频段？</span><br>
+<span>我一般只用5g 没干扰      但是现在设备数多的情况下感觉我的4x4 wave2 11ac路由也不够用啊</span><br>
+<span>只用5g等于就4条天线 MUMIMO复杂环境也实现不了</span><br>
+<span>现在10个设备8个11ac三个双天线5个单天线</span><br>
+<span>2个11n 5g</span><br>
+<span>把他们全塞到5g频段   虽然不大可能会有十个设备同时使用的情况 但是还是担心吞吐量和相应时间</span><br>
+<span>按理论来说 两个双天线设备同时满负荷5g频段不就反应不过来了？</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>带宽需求不大的设备可以放2.4</span><br>
+</p><p><b>win8: </b><br>
+<span>低速率设备用2.5g也没毛病啊</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>依然荏苒 发表于 2020-3-15 16:25</span><br>
+<span>带宽需求不大的设备可以放2.4</span><br>
+<span>11ac 也放到2.4g 带宽损失大啊</span><br>
+<span>ac单天线 433</span><br>
+<span>11n只有72了我这40mhz用不了</span><br>
+<span>4x4 带10个ac设备有压力没</span><br>
+<span>我感觉连设备多了 测速峰值会下降 不知道是不是错觉</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>win8 发表于 2020-3-15 16:26</span><br>
+<span>低速率设备用2.5g也没毛病啊</span><br>
+<span>11ac 也放到2.4g 带宽损失大啊</span><br>
+<span>ac单天线 433</span><br>
+<span>11n只有72了我这40mhz用不了</span><br>
+<span>4x4 带10个ac设备有压力没</span><br>
+<span>我感觉连设备多了 测速峰值会下降 不知道是不是错觉</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 16:46</span><br>
+<span>11ac 也放到2.4g 带宽损失大啊</span><br>
+<span>ac单天线 433</span><br>
+<span>不是错觉，因为路由需要更多信道资源去联系设备（不是说你不用网络就不联系”），wifi6一大更新就是加入了睡眠模式。</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 15:52</span><br>
+<span>我一般只用5g 没干扰      但是现在设备数多的情况下感觉我的4x4 wave2 11ac路由也不够用啊</span><br>
+<span>只用5g等于 ...</span><br>
+<span>没这个说法，除非你5G频宽不够，一些IOT设备可以放在2.4G(这类一般也没5G)</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Gnyueh 发表于 2020-3-15 19:27</span><br>
+<span>没这个说法，除非你5G频宽不够，一些IOT设备可以放在2.4G(这类一般也没5G)</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus ...</span><br>
+<span>我就是想知道一个路由器 连多少个设备 不会造成单设备的网络性能下降</span><br>
+<span>比如只连一个设备时A的网络性能</span><br>
+<span>和连20个设备时的A的网络性能一样么</span><br>
+</p><p><b>madbird302: </b><br>
+<span>AC的5G不是完全体吧，再者穿墙也巨差，如果是大厅里多设备那尽量用5G吧，穿墙就以2.4G为主</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 19:58</span><br>
+<span>我就是想知道一个路由器 连多少个设备 不会造成单设备的网络性能下降</span><br>
+<span>比如只连一个设备时A的网络性能</span><br>
+<span>目前的路由器包括wifi6 最高速率都是只连一台设备才能达到 只要多了一台 各连接设备的性能就会下降 因为wifi是个半双工的系统 同样的工作时间要分给所有需要的设备 只连一台设备 wifi性能最大 多了一台连接设备 本来给单台设备服务的时间就要均分给另一台设备了 这样各设备速度减半起</span><br>
+<span>AC WAVE2 提出MU-MINO想要改变这个 但是直到wifi6 MU-MIMO的体验都很垃圾 特别是不同品牌芯片之间的MU-MIMO跟屎一样</span><br>
+</p><p><b>startraveller: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 19:58</span><br>
+<span>我就是想知道一个路由器 连多少个设备 不会造成单设备的网络性能下降</span><br>
+<span>比如只连一个设备时A的网络性能</span><br>
+<span>只是单纯连着影响不大的 如果全部都在同时满负荷通信那就共享频宽</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Saker_bobo 发表于 2020-3-15 20:27</span><br>
+<span>目前的路由器包括wifi6 最高速率都是只连一台设备才能达到 只要多了一台 各连接设备的性能就会下降 因为wi ...</span><br>
+<span>那我是不是可以这样理解</span><br>
+<span>比如4x4 ac路由 5g 80mhz是1733mbps 带宽</span><br>
+<span>意思就是不管我链接多少设备    反正总带宽上限就这么多   设备自己分配</span><br>
+<span>实际情况是设备能榨干这理论带宽么多设备同时运行的话    实际的情况是个什么样子</span><br>
+</p><p><b>爱夏: </b><br>
+<span>能用5g频段尽量5g，这个频段里一个通道就是80M起步的</span><br>
+<span>而2.4一共也就差不多这么点带宽可用</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 20:49</span><br>
+<span>那我是不是可以这样理解</span><br>
+<span>比如4x4 ac路由 5g 80mhz是1733mbps 带宽</span><br>
+<span>是 你的设备理论上限1733Mbps的物理层速率 需要一个一样4X4 AC 80MHz 1733Mbps的设备单独连接它才能榨干速率（虽然千兆LAN口最高也就跑950Mbps）</span><br>
+<span>但是现在大部分终端设备 都是2X2 AC 80MHz 867Mbps的 连上最高只能有867Mbps的物理层速率 算最大MAC层传输效率80% 能跑接近700M 无线路由器用两根天线同时发送或同时接收数据 它的工作时间里一个时隙给设备1上传 一个时隙给设备1下载 下载上传的时间不是均等 由设备按需分配（物理层速率和MAC层传输效率看这个解释吧https://zhuanlan.zhihu.com/p/21952348）</span><br>
+<span>一旦多了一台2X2 AC 80MHz 867Mbps设备同时使用这个无线网络（与设备1同时传输数据） 那么这台无线路由器会使用设备1使用的那两根天线 它的工作时间里一个时隙给设备1上传 一个时隙给设备1下载 一个时隙给设备2上传 一个时隙给设备2下载（理论情况会均分867Mbps的速率 但是实际上总速率会比单台设备能达到的速率低挺多）</span><br>
+<span>如上连接设备越多 路由器的性能降低就越多</span><br>
+<span>更多知识推荐看这篇文章 https://www.duckware.com/tech/wifi-in-the-us.html</span><br>
+<span>顺便 打了好多字好累求加鹅</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Saker_bobo 发表于 2020-3-15 21:32</span><br>
+<span>是 你的设备理论上限1733Mbps的物理层速率 需要一个一样4X4 AC 80MHz 1733Mbps的设备单独连接它才能榨干 ...</span><br>
+<span>你的死鱼不足 无法评分是啥意思囧</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>观铃の使魔 发表于 2020-3-15 21:37</span><br>
+<span>你的死鱼不足 无法评分是啥意思囧</span><br>
+<span>忘了提MU-MIMO了 上面说的情况里面 路由器本来有4天线 服务2X2的设备只能在同一时隙使用两根天线 另外两根天线全程摸鱼 MU-MIMO就是为了解决这个被提出来的（并没有解决）</span><br>
+<span>AC WAVE2 的MU-MIMO（仅下载）如果用时隙来说明的话（我比较菜 讲不清楚） 就是一个时隙给设备1上传 一个时隙给设备2上传 一个时隙给设备1&2下载 同时下载使用的是不同的天线 当然 一组MU-MIMO同时使用的天线不能超过无线AP自身的天线数量（设备1和设备2都要支持MU-MIMO技术）</span><br>
+<span>这技术看着很好 但是实际效果一直不咋地 特别还有不同厂商之间的兼容性问题:</span><br>
+<span>https://www.acwifi.net/5493.html</span><br>
+<span>https://www.acwifi.net/9288.html</span><br>
+<span>802.11里的MIMO（SU，MU） https://zhuanlan.zhihu.com/p/54278752</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Saker_bobo 发表于 2020-3-15 23:45</span><br>
+<span>忘了提MU-MIMO了 上面说的情况里面 路由器本来有4天线 服务2X2的设备只能在同一时隙使用两根天线 另外两 ...</span><br>
+<span>这个MU-MIMO 我感觉理想环境下还是不行</span><br>
+<span>AP天线总共就四根   十几个个设备几十根天线 怎么可能并发的过来</span><br>
+<span>可能商业的AP才有几十个客户端并发的能力吧要不然延迟得多严重</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>建议全连5G，这样2.4G无线和蓝牙设备的干扰能尽可能减小</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>罗克萨斯 发表于 2020-3-16 09:36</span><br>
+<span>建议全连5G，这样2.4G无线和蓝牙设备的干扰能尽可能减小</span><br>
+<span>目前我就是这种做法 关闭2.4g刚好设备全部支持5g</span><br>
+<span>但是有个问题 有些设备是11n的5g   </span><br>
+<span>按理论来说 11n 5g和11ac 5g混用会降低11ac的效能</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918953[0-50]</guid>
+    </item>
+  </channel>
+</rss>

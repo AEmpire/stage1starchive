@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[用了三年的更新]分享一下本子的管理方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[用了三年的更新]分享一下本子的管理方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:11:49 +0000</lastBuildDate>
+    <item>
+      <title>[用了三年的更新]分享一下本子的管理方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1562475-1-1.html</link>
+      <description>分享一下本子的管理方法&#13;
+最近看到大家都是怎么管理自己的大量小本子的？ 这个帖子后想到自己多年来下的本子也有好多，全都只是靠文件夹的名字管理。虽然能够通过搜索找到自己想要的，但是第一存储的太过分散，第二可能文件夹名字稍有不同就导致了重复存储，再加上现在先放有修再放**的特点，存储量明显不正常。参考了诸位的方法，还是用calibre管理cbz最靠谱。
+&#13;
+使用Calibre管理你的本子 
+&#13;
+使用Calibre管理你的本子——第二季
+&#13;
+这两个帖子，尤其是第二季那个提供的爬虫，加速了我整理本子的速度。不过缺点是因为是爬的是ex绅士，很多鳄鱼社的东西都是没有的https://ws1.sinaimg.cn/large/62565dcbgy1flg2txubczj21cg12sqe7.jpg（不过鳄鱼社的单行本倒是有，颇为神奇）。
+&#13;
+当然如果只是完成到这里的话也仅仅是只能在电脑上看罢了，既然calibre的资料库都建好了，我就通过nas建了个内网网站。虽然说是网站但也只是通过docker来运行个python罢了。
+&#13;
+在群晖配合 calibre 搭建了一个个人的电子书网站
+&#13;
+这样的话所有的本子就托管在NAS上了https://ws1.sinaimg.cn/large/62565dcbgy1flg2q6ioe5j21rx1alaix.jpg还提供了和calibre同样强大的标签阅读https://ws1.sinaimg.cn/large/62565dcbgy1flg2sg5ykvj222z1akn5n.jpg。
+&#13;
+因为是内网下载是15mB/s基本秒开，cbz也可以边解压边看。
+&#13;
+这样唯一的缺点就是通过calibre上传本子时比较慢，是6mB/s，第一次整理我是有快2k个本子整理了快一周。不过其优点也是显而易见的。</description>
+      <content:encoded><![CDATA[<p><b>2517君: </b><br>
+<span>分享一下本子的管理方法</span><br>
+<span>最近看到大家都是怎么管理自己的大量小本子的？ 这个帖子后想到自己多年来下的本子也有好多，全都只是靠文件夹的名字管理。虽然能够通过搜索找到自己想要的，但是第一存储的太过分散，第二可能文件夹名字稍有不同就导致了重复存储，再加上现在先放有修再放**的特点，存储量明显不正常。参考了诸位的方法，还是用calibre管理cbz最靠谱。</span><br>
+<span>使用Calibre管理你的本子 </span><br>
+<span>使用Calibre管理你的本子——第二季</span><br>
+<span>这两个帖子，尤其是第二季那个提供的爬虫，加速了我整理本子的速度。不过缺点是因为是爬的是ex绅士，很多鳄鱼社的东西都是没有的https://ws1.sinaimg.cn/large/62565dcbgy1flg2txubczj21cg12sqe7.jpg（不过鳄鱼社的单行本倒是有，颇为神奇）。</span><br>
+<span>当然如果只是完成到这里的话也仅仅是只能在电脑上看罢了，既然calibre的资料库都建好了，我就通过nas建了个内网网站。虽然说是网站但也只是通过docker来运行个python罢了。</span><br>
+<span>在群晖配合 calibre 搭建了一个个人的电子书网站</span><br>
+<span>这样的话所有的本子就托管在NAS上了https://ws1.sinaimg.cn/large/62565dcbgy1flg2q6ioe5j21rx1alaix.jpg还提供了和calibre同样强大的标签阅读https://ws1.sinaimg.cn/large/62565dcbgy1flg2sg5ykvj222z1akn5n.jpg。</span><br>
+<span>因为是内网下载是15mB/s基本秒开，cbz也可以边解压边看。</span><br>
+<span>这样唯一的缺点就是通过calibre上传本子时比较慢，是6mB/s，第一次整理我是有快2k个本子整理了快一周。不过其优点也是显而易见的。</span><br>
+</p><p><b>11512: </b><br>
+<span>编辑</span><br>
+</p><p><b>Armaclite: </b><br>
+<span>学习，感谢分享</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>米德: </b><br>
+<span>已收藏</span><br>
+</p><p><b>矮矮人: </b><br>
+<span>收藏了</span><br>
+</p><p><b>normalli: </b><br>
+<span>谁tm要保留这种犯罪证据啊，还分类管理</span><br>
+</p><p><b>safeguard: </b><br>
+<span>收藏 暂时没有那么多本子 以后有可能用的到技术流值得👍</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>半月霜: </b><br>
+<span>小白问一下,这个内网的意思是跟网盘那种类似么?只要不分享别人是看不到的?</span><br>
+<span>就怕跟当年115一样,你东西全放上去之后,来个下载要付费</span><br>
+</p><p><b>2517君: </b><br>
+<span>半月霜 发表于 2017-11-13 13:11</span><br>
+<span>小白问一下,这个内网的意思是跟网盘那种类似么?只要不分享别人是看不到的?</span><br>
+<span>就怕跟当年115一样,你东西全放上 ...</span><br>
+<span>内网就是买个nas，所有东西都储存在本地的，就是家庭云的意思，至于别人看得到与否取决于设置，只要禁止匿名观看书架就是了</span><br>
+</p><p><b>烈之斩: </b><br>
+<span>发现隔着码也能看出是秋子阿姨</span><br>
+</p><p><b>hhz1213: </b><br>
+<span>泥潭在这方面真是才人辈出，comicrack有ehentai的爬虫吗</span><br>
+</p><p><b>Bernoulli: </b><br>
+<span>现在的那些路由器自带NAS功能的？</span><br>
+</p><p><b>9090asd: </b><br>
+<span> 本帖最后由 9090asd 于 2017-11-13 14:42 编辑 </span><br>
+<span>搞错了</span><br>
+</p><p><b>剑士: </b><br>
+<span>图三就算没有标题也看得出是秋子阿姨系列</span><br>
+</p><p><b>cosx: </b><br>
+<span>本子都是rar……</span><br>
+</p><p><b>mengjun: </b><br>
+<span> 本帖最后由 mengjun 于 2017-11-13 16:05 编辑 </span><br>
+<span>我可以简单的理解为 通过这个软件将自己收集的文件按名字到ehen 上查找写入对应的id 和标签? 那么对原那里的文件是转存成cbz 格式了,转存是另存还是另存之后删除源文件?那这个软件的cbz 是统一放在一个目录下还是通过id 来做子文件夹区分?</span><br>
+</p><p><b>凤舞夜月: </b><br>
+<span>学习了，但是不是很懂。我个人整理是写好文件夹名字的。。。</span><br>
+</p><p><b>2517君: </b><br>
+<span>mengjun 发表于 2017-11-13 16:04</span><br>
+<span>我可以简单的理解为 通过这个软件将自己收集的文件按名字到ehen 上查找写入对应的id 和标签? 那么对原那里 ...</span><br>
+<span>是的，相当于calibre通过你给的标题（压缩zip时文件夹的名字）先简单通过正则表达处理再往exhen上搜索，反正cbz就是zip，我觉得转完了删了源文件也没什么。cbz是统一放在calibre的library里的，通过(library)/author/books这样的文件夹结构储存的，所有关键信息都在(library)/metadata.db这个文件里</span><br>
+</p><p><b>rp的游魂: </b><br>
+<span>地铁马克，感谢老司机</span><br>
+</p><p><b>囧世浮生: </b><br>
+<span>hhz1213 发表于 2017-11-13 13:33</span><br>
+<span>泥潭在这方面真是才人辈出，comicrack有ehentai的爬虫吗</span><br>
+<span>这就是有超能力和没有超能力的区别……</span><br>
+</p><p><b>mengjun: </b><br>
+<span> 本帖最后由 mengjun 于 2017-11-14 23:38 编辑 </span><br>
+<span>2517君 发表于 2017-11-13 16:42</span><br>
+<span>是的，相当于calibre通过你给的标题（压缩zip时文件夹的名字）先简单通过正则表达处理再往exhen上搜索， ...</span><br>
+<span>不好意思。还想问下，为什么我在存储文件的目录看到转换后的文件和生成的目录都是英文的？他这个不能改成日文的吗？比如 我的文件名是 お兄ちゃんの好きにしてっ 的文件转换之后的目录就是  oXiong tiyannoHao kinisitetu!里面的文件也是英文的了。是不是少选那些设置了？</span><br>
+</p><p><b>cwj101010: </b><br>
+<span>有意思的放书柜锁上，没意思的看完删，并不需要管理</span><br>
+</p><p><b>天乃冥: </b><br>
+<span>那么问题来了，calibre导入后，原来的zip文件还有用么，留着不是变成双份了嘛，文件浏览的话也只能用这个打开了？</span><br>
+</p><p><b>mengjun: </b><br>
+<span>天乃冥 发表于 2017-11-15 00:05</span><br>
+<span>那么问题来了，calibre导入后，原来的zip文件还有用么，留着不是变成双份了嘛，文件浏览的话也只能用这个打 ...</span><br>
+<span>等于有份新的文件了。</span><br>
+<span>你用过的话，文件名字也会变成英文吗？主要我想保留日文来做为目录和文件的名字啊……</span><br>
+</p><p><b>password: </b><br>
+<span>mengjun 发表于 2017-11-14 23:36</span><br>
+<span>不好意思。还想问下，为什么我在存储文件的目录看到转换后的文件和生成的目录都是英文的？他这个不能改成 ...</span><br>
+<span>calibre首选项里“保存文件到磁盘”里有关于文件名的设置选项</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>Bernoulli 发表于 2017-11-13 13:37</span><br>
+<span>现在的那些路由器自带NAS功能的？</span><br>
+<span>路由器带的是文件管理，和NAS比就是燧发枪和突击**的区别。如果要把本子放路由硬盘上用移动设备访问倒是没什么问题，体验马马虎虎也算能用</span><br>
+</p><p><b>qderaaa: </b><br>
+<span>刚上大学时，手工整理了100g，花了一暑假</span><br>
+</p><p><b>Aters: </b><br>
+<span>只留基本经典的，并不需要整理</span><br>
+</p><p><b>好评绝赞: </b><br>
+<span>突然想起好久没看望秋子阿姨了，mark下回去重新下来温习……</span><br>
+</p><p><b>mengjun: </b><br>
+<span> 本帖最后由 mengjun 于 2017-12-14 15:56 编辑 </span><br>
+<span>password 发表于 2017-11-15 00:22</span><br>
+<span>calibre首选项里“保存文件到磁盘”里有关于文件名的设置选项</span><br>
+<span>哦,那我查一查的. 还没有特意的仔细去查配置</span><br>
+<span>理解错误了,但是现在的问题好像是如果输出到磁盘的话,算上源文件的话,等于是保存了3份数据...</span><br>
+<span>还出现了一些问题，比如ex 的标签会分类</span><br>
+<span>male</span><br>
+<span>female</span><br>
+<span>misc</span><br>
+<span>我发现这时候只抓了最上的male 标签，而其他标签分类都没有抓到。于是就尴尬了。改动起来很累啊</span><br>
+<span>提取标签的插件要找第二个页面下面其他人回复的内容，有人做了一个将英文标签翻译中文的功能。</span><br>
+<span>归档文件无法生成 cbr 和cbz 的原因,应该是子目录以及压缩包里有其他非jpg文件存在,gif 文件好像也会造成此类情况,但是如果都是gif 却没关系?</span><br>
+</p><p><b>sakuyamai: </b><br>
+<img src="http://wx2.sinaimg.cn/large/6251cb41gy1fn3gsxr53wj21hd0ycx6p.jpg" title="http://wx2.sinaimg.cn/large/6251cb41gy1fn3gsxr53wj21hd0ycx6p.jpg"><br>
+<span>用了2周cablibre管理一般向漫画，到才发现收藏了这文章结果完全没有看（收藏在onenote里界面完全没注意到）</span><br>
+<span>感觉最爽的功能就是下载元数据和标签功能，像图上这样比较负责的出版社在日亚上会把每个作者都扔上去，直接下载日亚元数据后就能自动分类一大堆作者。不过也有比较随便的，比如週刊少年サンデー編集部</span><br>
+<span>但现在最纠结的也是元数据，每次先要在亚马逊搜到然后复制一摸一样的标题上去，再按下载元数据才能识别到。</span><br>
+<span>就没有在我已经知道这本书是哪个链接的前提下手动指定元数据下载网站的功能吗</span><br>
+<span>然后只能用日亚和google下元数据，感觉太少了，想要booklive、comicwalker之类的网站，搜了半天也没人做，这方面有例子可以参考吗？是python爬虫？考虑自己写算了</span><br>
+<span>还有个问题就是路径拼音名了，改为日文界面就是罗马字文件夹，虽然作者似乎死也不打算增加这里的设置，</span><br>
+<span>实际用着也完全无所谓，反正导出的时候还能按元数据命名，这里强迫症的话为了中文书和日文书分别拼音、罗马字命名难道得准备2份cablire便携版</span><br>
+</p><p><b>gochri: </b><br>
+<span> 本帖最后由 gochri 于 2018-1-11 21:53 编辑 </span><br>
+<span>收藏感谢，之前还在文件夹属性里一个个给画师加图片</span><br>
+</p><p><b>看不见太远: </b><br>
+<span>收藏了</span><br>
+</p><p><b>jellyfis: </b><br>
+<span>不管了，能用的留下，没用的删掉</span><br>
+</p><p><b>dayuii: </b><br>
+<span>楼主的两篇文章没了，有人可以补一下吗？</span><br>
+</p><p><b>door: </b><br>
+<span>mark</span><br>
+</p><p><b>爱吃冻鳗的猫: </b><br>
+<span>哈哈哈哈，真是想要睡觉就有枕头，E绅士倒了正在烦恼怎么分类这10年堆积下来的本子</span><br>
+</p><p><b>yoyokrieg: </b><br>
+<span>分享一个简易一点的管理工具，fenrirfs，鬼子做的。</span><br>
+<span>支持别名模式；</span><br>
+<span>支持tag分组；</span><br>
+<span>支持and或or搜索；</span><br>
+<span>支持zip压缩包预览；</span><br>
+<span>很重要的一点，打开软件读取数据库速度飞快。数据库备份功能也做得很好。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>Zepp: </b><br>
+<span>主楼里那两个帖子的链接是不是不好用了？</span><br>
+</p><p><b>2517君: </b><br>
+<span>更新了地址，其实是琉璃换地址了而已，实在不行就自己科学点上网</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>不支持7Z啊，那只能遗憾了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1562475[0-50]</guid>
+    </item>
+  </channel>
+</rss>

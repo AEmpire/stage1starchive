@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问有能够自定义快捷键的PDF浏览器么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问有能够自定义快捷键的PDF浏览器么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:14:38 +0000</lastBuildDate>
+    <item>
+      <title>请问有能够自定义快捷键的PDF浏览器么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854221-1-1.html</link>
+      <description>请问有能够自定义快捷键的PDF浏览器么&#13;
+请问有能够自定义快捷键的PDF浏览器么, 或者有其他方法可以在运行比如adobe reader的时候, 
+&#13;
+把PgDn和PgUp, 映射为&lt;-和-&gt; ,而且只在adobe reader窗口激活的时候, 在其他时候则不会?</description>
+      <content:encoded><![CDATA[<p><b>14100155: </b><br>
+<span>请问有能够自定义快捷键的PDF浏览器么</span><br>
+<span>请问有能够自定义快捷键的PDF浏览器么, 或者有其他方法可以在运行比如adobe reader的时候, </span><br>
+<span>把PgDn和PgUp, 映射为<-和-> ,而且只在adobe reader窗口激活的时候, 在其他时候则不会?</span><br>
+</p><p><b>14100155: </b><br>
+<span>解决了, 原来用AutoHotKey ,自己写一个就可以了...</span><br>
+<span>现在就查如何针对在运行XX.exe的时候才生效了</span><br>
+<span>;把下面的文件内容,复制到一个*.ahk中,之后双击就可以实现了</span><br>
+<span>;左箭头为PageUp, 右箭头为PageDown , 下箭头为按下 Crtl+c 的复制</span><br>
+<span>;Crtl -- ^    Shift -- !</span><br>
+<span>Left::PgUp</span><br>
+<span>Right::PgDn</span><br>
+<span>Down::^c</span><br>
+</p><p><b>okey3m: </b><br>
+<span>AHK自己有个语句可以判断窗口是否激活的，好像叫IfWinActive还是什么的，很久没用记不太清楚了…</span><br>
+</p><p><b>zx071479: </b><br>
+<span>mark一下</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>#IfWinActive ahk_exe QQ.exe</span><br>
+<span>!a::Send ^+{Tab}</span><br>
+<span>!d::Send ^{Tab}</span><br>
+<span>!q::Send ^W</span><br>
+<span>#IfWinActive</span><br>
+<span>return</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854221[0-50]</guid>
+    </item>
+  </channel>
+</rss>

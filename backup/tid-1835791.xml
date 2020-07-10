@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>（三千问求助 ）电脑上不了网了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>（三千问求助 ）电脑上不了网了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:09:38 +0000</lastBuildDate>
+    <item>
+      <title>（三千问求助 ）电脑上不了网了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835791-1-1.html</link>
+      <description>（三千问求助 ）电脑上不了网了&#13;
+ 本帖最后由 晚梦 于 2019-5-31 10:35 编辑 
+
+去年在京东买的小机箱，自带无线接收器的那种，最近突然上不了网了。把症状说一下，看有没有知道是咋回事的。
+&#13;
+①自带的无线信号满格，也能连得上，但打不开网页、也登不上qq。用360断网急救箱扫了一下显示一切正常。
+&#13;
+②买了个无线网卡（USB的那种），问题和自带的一样。
+&#13;
+③重装系统恢复正常，但等装完驱动、打完补丁，又出现①的问题。
+&#13;
+④同一网络下的电脑、手机、平板等设备都没问题。⑤ping 无线路由器，显示请求超时
+&#13;
+救救孩子吧</description>
+      <content:encoded><![CDATA[<p><b>晚梦: </b><br>
+<span>（三千问求助 ）电脑上不了网了</span><br>
+<span> 本帖最后由 晚梦 于 2019-5-31 10:35 编辑 </span><br>
+<span>去年在京东买的小机箱，自带无线接收器的那种，最近突然上不了网了。把症状说一下，看有没有知道是咋回事的。</span><br>
+<span>①自带的无线信号满格，也能连得上，但打不开网页、也登不上qq。用360断网急救箱扫了一下显示一切正常。</span><br>
+<span>②买了个无线网卡（USB的那种），问题和自带的一样。</span><br>
+<span>③重装系统恢复正常，但等装完驱动、打完补丁，又出现①的问题。</span><br>
+<span>④同一网络下的电脑、手机、平板等设备都没问题。⑤ping 无线路由器，显示请求超时</span><br>
+<span>救救孩子吧</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>有线正常不？</span><br>
+</p><p><b>King5268: </b><br>
+<span>win10 ? 自动更新驱动的时候给装了个错误的驱动？</span><br>
+</p><p><b>晚梦: </b><br>
+<span>纯情小鸭鸭 发表于 2019-5-31 11:03</span><br>
+<span>有线正常不？</span><br>
+<span>有线间歇式不正常。</span><br>
+<span>正常的时候很快，不正常的时候挺慢</span><br>
+</p><p><b>晚梦: </b><br>
+<span>King5268 发表于 2019-5-31 11:11</span><br>
+<span>win10 ? 自动更新驱动的时候给装了个错误的驱动？</span><br>
+<span>win7</span><br>
+<span>要哭了</span><br>
+</p><p><b>King5268: </b><br>
+<span>假如路由器上没有动什么设置的话，那肯定就是本地问题了啊，重装系统之后会回复正常，那就把驱动回滚到之前的那个版本，实在实在不行的话就只能一步一步的装驱动装补丁了，看看到底是哪个环节引起的冲突。</span><br>
+</p><p><b>晚梦: </b><br>
+<span>King5268 发表于 2019-5-31 11:29</span><br>
+<span>假如路由器上没有动什么设置的话，那肯定就是本地问题了啊，重装系统之后会回复正常，那就把驱动回滚到之前 ...</span><br>
+<span>虽然没找到原因，但是参考了一下这个：</span><br>
+<span>http://sh.qihoo.com/pc/967e8d8c1839a7a23?cota=4&tj_url=xz&sign=360_e39369d1&refer_scene=so_1</span><br>
+<span>按照操作到了最后一步显示命令错误。</span><br>
+<span>后来下了个360开启了arp防护，</span><br>
+<span>虽然还会有问题，</span><br>
+<span>不过至少能打开网页了</span><br>
+</p><p><b>King5268: </b><br>
+<span>晚梦 发表于 2019-5-31 12:51</span><br>
+<span>虽然没找到原因，但是参考了一下这个：</span><br>
+<span>http://sh.qihoo.com/pc/967e8d8c1839a7a23?cota=4&tj_url=xz&sig ...</span><br>
+<span>厉害了，局域网里有arp病毒？ </span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>lz你在③中装完驱动补丁还有没有装奇怪的软件？</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>步骤3包不包括装360？</span><br>
+<span>我现在发现绝大多数电脑问题都能通过卸载360解决</span><br>
+<span>顺便你这个问题怎么看都是内网IP冲突嘛，手动设个静态IP？</span><br>
+</p><p><b>stn: </b><br>
+<span>用过代理软件没</span><br>
+</p><p><b>晚梦: </b><br>
+<span>纯情小鸭鸭 发表于 2019-5-31 15:24</span><br>
+<span>lz你在③中装完驱动补丁还有没有装奇怪的软件？</span><br>
+<span>没有，发现上不了网我换了个镜像又重装了一遍系统，依旧是刚开始良好，过半个小时就打开很慢。ping路由器延迟能上千，但我用的是无线</span><br>
+</p><p><b>晚梦: </b><br>
+<span>Sliverstrike 发表于 2019-5-31 15:30</span><br>
+<span>步骤3包不包括装360？</span><br>
+<span>我现在发现绝大多数电脑问题都能通过卸载360解决</span><br>
+<span>顺便你这个问题怎么看都是内网IP冲 ...</span><br>
+<span>不包括，虽然最后靠360勉强解决了问题。</span><br>
+<span>并且从头到尾有问题的只有这一台设备，</span><br>
+<span>不过我还真没考虑过设定固定ip</span><br>
+</p><p><b>晚梦: </b><br>
+<span>stn 发表于 2019-5-31 15:59</span><br>
+<span>用过代理软件没</span><br>
+<span>重装系统了呀，而且用不同的镜像重装了两回</span><br>
+</p><p><b>duperbigd: </b><br>
+<span> 本帖最后由 duperbigd 于 2019-5-31 22:33 编辑 </span><br>
+<span>先找个带网络功能的pe确定下是不是软件问题吧</span><br>
+<span>在路由绑定mac能治一下标，根本还是要搞清楚源头</span><br>
+</p><p><b>遥照_: </b><br>
+<span>说到360这垃圾，我发现很多xp古董机被人装360后都卡死，费老劲卸载后干脆上不了网，我重装或者帮他们换win7后就正常了。</span><br>
+</p><p><b>a63312: </b><br>
+<span>解决了吗，感觉我知道是啥问题了</span><br>
+</p><p><b>晚梦: </b><br>
+<span>a63312 发表于 2019-6-10 21:33</span><br>
+<span>解决了吗，感觉我知道是啥问题了</span><br>
+<span>啥问题呀？</span><br>
+<span>目前解决掉了，怎么好的我也说不清楚。</span><br>
+<span>您能分析一下原因感激不尽</span><br>
+</p><p><b>a63312: </b><br>
+<span>我的是2.4gwifi通道堵塞造成的，我以前也试过，设备太多，还有开蓝牙听歌，导致电脑或某部手机上不了网，上网很慢，后来只连一部设备就正常了，后来用5gwifi目前没什么问题。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835791[0-50]</guid>
+    </item>
+  </channel>
+</rss>

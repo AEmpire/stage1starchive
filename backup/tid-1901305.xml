@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>hyper-v下的win7虚拟机怎么发声呢</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>hyper-v下的win7虚拟机怎么发声呢</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:37:37 +0000</lastBuildDate>
+    <item>
+      <title>hyper-v下的win7虚拟机怎么发声呢[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901305-1-1.html</link>
+      <description>hyper-v下的win7虚拟机怎么发声呢&#13;
+原装虚拟机的是没有声卡的，用了网上的几个招数也都没效果，比如增强模式（win7只能装模式1，压根就没有这个模式），还有那个hyper-v的什么安装盘，找到了装了也没有用。。。</description>
+      <content:encoded><![CDATA[<p><b>醒酒老顽童: </b><br>
+<span>hyper-v下的win7虚拟机怎么发声呢</span><br>
+<span>原装虚拟机的是没有声卡的，用了网上的几个招数也都没效果，比如增强模式（win7只能装模式1，压根就没有这个模式），还有那个hyper-v的什么安装盘，找到了装了也没有用。。。</span><br>
+</p><p><b>yst234: </b><br>
+<span>远程桌面</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>yst234 发表于 2019-12-11 14:47</span><br>
+<span>远程桌面</span><br>
+<span>还能用远程桌面来打开虚拟机？</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>好像明白了。。是不是先在主机中打开这个虚拟机，找到网址后，再在主机中用远程桌面来登录这个地址，呵呵。</span><br>
+</p><p><b>yst234: </b><br>
+<span>虚拟机里开允许远程桌面连接 然后看虚拟机网卡分配的 ip 用远程桌面连接过去就行。。</span><br>
+<span>HyperV 一开始就是给服务器设计的，默认没有声音很正常。。</span><br>
+<span>就 HyperV 自带的那个连接器，连接 Win10 也是走的 RDP</span><br>
+<span>基本上和你手动连过去没什么区别</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>yst234 发表于 2019-12-11 17:38</span><br>
+<span>虚拟机里开允许远程桌面连接 然后看虚拟机网卡分配的 ip 用远程桌面连接过去就行。。</span><br>
+<span>HyperV 一开始就是给 ...</span><br>
+<span>收到，谢谢。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901305[0-50]</guid>
+    </item>
+  </channel>
+</rss>

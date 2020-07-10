@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GBC口袋妖怪金银Debug版介绍</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>GBC口袋妖怪金银Debug版介绍</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:47:55 +0000</lastBuildDate>
+    <item>
+      <title>GBC口袋妖怪金银Debug版介绍[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1935793-1-1.html</link>
+      <description>GBC口袋妖怪金银Debug版介绍&#13;
+ 本帖最后由 yksoft1 于 2020-5-17 23:34 编辑 
+
+前段时间有4chan用户发出了大量从某个任天堂外包商那里泄露的资料，其中就包括口袋妖怪金银水晶全部版本的源码。其中，用日版源码可以搞出一个Debug版来。
+&#13;
+编译口袋金银的日版Debug版
+&#13;
+1、得到mons_org目录，在泄露的Gen2.7z的那个Korean包里
+&#13;
+2、在日文Win98系统下，自己建好目录结构（主要是解压缩mk和tools到正确位置），把路径这么设，把make\mkfile\com_mac.inc里的路径和盘符也设好
+&#13;
+3、进入make目录，运行mk debug设置Debug版，mk gold/silver设置版本
+&#13;
+4、mk full进行编译，生成MONS2.ISX。
+&#13;
+5、用官方模拟器gameboy.exe（也在Korean包里，需要**时间限制）或者其他工具将ISX转换为BIN（其实和.gb格式一样的）。
+&#13;
+6、根据mk里面的readme，把source\monsdata\bank*.bin（这些是训练师图片、怪兽图片等数据）的内容放到BIN文件的指定偏移量。将BIN文件改扩展名为gb。
+&#13;
+然后就可以玩了。
+&#13;
+bug不少，家门那个教你捕获的会死机，时钟永远提示不对。
+&#13;
+口袋金银Debug菜单功能简介
+&#13;
+Debug版在标题按SELECT就进入Debug菜单。
+&#13;
+1、自定义战斗。可以选择自己一整队（不能自选配招）打野怪或者打训练师。注意在一二代里面，源代码内部把训练师叫做“Dealer”。
+&#13;
+2、测试通信、测试地图。其实就是打开两个超强档，一个在真新镇（徽章8），一个在风雪城（徽章0）。
+&#13;
+3、音乐音效测试。上下A选音乐，左右START选音效。
+&#13;
+4、实时钟测试。有问题。
+&#13;
+5、怪兽图像显示。我刚才说的、源码泄露包里面那一堆数据文件并不完整，很多怪图像和后来发布的金银不同。
+&#13;
+6、训练师图像显示。
+&#13;
+7、某种密码生成器，根据训练师名字、ID和钱数生成一个五位密码。不知道有什么用，据说和美版的时钟复位功能有关？</description>
+      <content:encoded><![CDATA[<p><b>yksoft1: </b><br>
+<span>GBC口袋妖怪金银Debug版介绍</span><br>
+<span> 本帖最后由 yksoft1 于 2020-5-17 23:34 编辑 </span><br>
+<span>前段时间有4chan用户发出了大量从某个任天堂外包商那里泄露的资料，其中就包括口袋妖怪金银水晶全部版本的源码。其中，用日版源码可以搞出一个Debug版来。</span><br>
+<span>编译口袋金银的日版Debug版</span><br>
+<span>1、得到mons_org目录，在泄露的Gen2.7z的那个Korean包里</span><br>
+<span>2、在日文Win98系统下，自己建好目录结构（主要是解压缩mk和tools到正确位置），把路径这么设，把make\mkfile\com_mac.inc里的路径和盘符也设好</span><br>
+<span>3、进入make目录，运行mk debug设置Debug版，mk gold/silver设置版本</span><br>
+<span>4、mk full进行编译，生成MONS2.ISX。</span><br>
+<span>5、用官方模拟器gameboy.exe（也在Korean包里，需要**时间限制）或者其他工具将ISX转换为BIN（其实和.gb格式一样的）。</span><br>
+<span>6、根据mk里面的readme，把source\monsdata\bank*.bin（这些是训练师图片、怪兽图片等数据）的内容放到BIN文件的指定偏移量。将BIN文件改扩展名为gb。</span><br>
+<span>然后就可以玩了。</span><br>
+<span>bug不少，家门那个教你捕获的会死机，时钟永远提示不对。</span><br>
+<span>口袋金银Debug菜单功能简介</span><br>
+<span>Debug版在标题按SELECT就进入Debug菜单。</span><br>
+<span>1、自定义战斗。可以选择自己一整队（不能自选配招）打野怪或者打训练师。注意在一二代里面，源代码内部把训练师叫做“Dealer”。</span><br>
+<span>2、测试通信、测试地图。其实就是打开两个超强档，一个在真新镇（徽章8），一个在风雪城（徽章0）。</span><br>
+<span>3、音乐音效测试。上下A选音乐，左右START选音效。</span><br>
+<span>4、实时钟测试。有问题。</span><br>
+<span>5、怪兽图像显示。我刚才说的、源码泄露包里面那一堆数据文件并不完整，很多怪图像和后来发布的金银不同。</span><br>
+<span>6、训练师图像显示。</span><br>
+<span>7、某种密码生成器，根据训练师名字、ID和钱数生成一个五位密码。不知道有什么用，据说和美版的时钟复位功能有关？</span><br>
+</p><p><b>kayoubi: </b><br>
+<span>好奇除了这个还有其他玩具么</span><br>
+</p><p><b>最美人贩子: </b><br>
+<span>kayoubi 发表于 2020-5-18 00:03</span><br>
+<span>好奇除了这个还有其他玩具么</span><br>
+<span>喜欢C语言可以研究nethack、angband之类老roguelike的源代码，都是完全开源的，wiki上可以直接查到技能、物品、敌人涉及的行数。</span><br>
+<span>angband据说编写得非常优美，爱好者甚至有：hacking angband is the best way to learn C的说法。</span><br>
+</p><p><b>forzen: </b><br>
+<span>这玛丽露(是叫这个吗?)的背影贴图怎么回事，那是三个眼睛吗</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>forzen 发表于 2020-5-18 00:34</span><br>
+<span>这玛丽露(是叫这个吗?)的背影贴图怎么回事，那是三个眼睛吗</span><br>
+<span>那个应该是废案里面小嘟嘟利的图，没有被及时处理掉。</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>注意：泄露包里面有很多套monsdata文件。我写了一个自动写monsdata的小程序，现在不用再手工贴到bin里面了。</span><br>
+<span>#include <stdio.h></span><br>
+<span>#include <stdlib.h></span><br>
+<span>#include <string.h></span><br>
+<span>int readBank (unsigned char* outp, char *fname, unsigned int addr)</span><br>
+<span>{</span><br>
+<span>        int i=0;</span><br>
+<span>        FILE* fi;</span><br>
+<span>        unsigned char* fblk;</span><br>
+<span>        fblk=(unsigned char*)malloc(16384);</span><br>
+<span>        memset(fblk, 0, 16384);</span><br>
+<span>        printf("Reading %s...\n", fname);</span><br>
+<span>        fi=fopen(fname, "rb");</span><br>
+<span>        if (!fi) </span><br>
+<span>        {</span><br>
+<span>                printf("open file %s error!\n", fname);</span><br>
+<span>                goto error3;</span><br>
+<span>        }</span><br>
+<span>        while(fread(fblk+i, 1, 1, fi) == 1)</span><br>
+<span>        {</span><br>
+<span>                ++i;</span><br>
+<span>        }</span><br>
+<span>        fclose(fi);</span><br>
+<span>        memcpy(outp+addr, fblk, 16384); </span><br>
+<span>        free(fblk);</span><br>
+<span>        return 1;</span><br>
+<span>error3:</span><br>
+<span>        free(fblk);</span><br>
+<span>        return 0;</span><br>
+<span>}</span><br>
+<span>main(int argc, char* argv[])</span><br>
+<span>{</span><br>
+<span>        int i=0, r;</span><br>
+<span>        char ofn;</span><br>
+<span>        FILE* fi, *fo;</span><br>
+<span>        unsigned char* outp; </span><br>
+<span>        unsigned char* fblk;</span><br>
+<span>        memset(ofn, 0, 256);</span><br>
+<span>        if(argc<2)</span><br>
+<span>        {</span><br>
+<span>                printf("usage: %s filename\n", argv);</span><br>
+<span>                return;        </span><br>
+<span>        }</span><br>
+<span>        for(i=strlen(argv); i>=0; i--)</span><br>
+<span>        {</span><br>
+<span>                if(*(argv+i) == '.')</span><br>
+<span>                {</span><br>
+<span>                        memcpy(ofn,argv, i);</span><br>
+<span>                        break;</span><br>
+<span>                }</span><br>
+<span>        }</span><br>
+<span>        strcat(ofn, ".gb");</span><br>
+<span>        i=0;</span><br>
+<span>        outp=(unsigned char*)malloc(2097152);</span><br>
+<span>        fblk=(unsigned char*)malloc(16384);</span><br>
+<span>        printf("Reading from %s..\n", argv);</span><br>
+<span>        fi=fopen(argv, "rb");</span><br>
+<span>        if (!fi) </span><br>
+<span>        {</span><br>
+<span>                printf("open %s file error!\n", argv);</span><br>
+<span>                goto error3;</span><br>
+<span>        }</span><br>
+<span>        while(fread(outp+i*16384, 1, 16384, fi) == 16384)</span><br>
+<span>        {</span><br>
+<span>                ++i;</span><br>
+<span>        }</span><br>
+<span>        printf("Read %d banks\n", i);</span><br>
+<span>        fclose(fi);</span><br>
+<span>        r=readBank(outp, "bank12.bin", 0x12*0x4000);</span><br>
+<span>        r=readBank(outp, "bank13.bin", 0x1f*0x4000);</span><br>
+<span>        r=readBank(outp, "bank14.bin", 0x20*0x4000);</span><br>
+<span>        r=readBank(outp, "bank15.bin", 0x15*0x4000);</span><br>
+<span>        r=readBank(outp, "bank16.bin", 0x16*0x4000);</span><br>
+<span>        r=readBank(outp, "bank17.bin", 0x17*0x4000);</span><br>
+<span>        r=readBank(outp, "bank18.bin", 0x18*0x4000);</span><br>
+<span>        r=readBank(outp, "bank19.bin", 0x19*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1a.bin", 0x1a*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1b.bin", 0x1b*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1c.bin", 0x1c*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1d.bin", 0x1d*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1e.bin", 0x1e*0x4000);</span><br>
+<span>        r=readBank(outp, "bank1f.bin", 0x2e*0x4000);</span><br>
+<span>        if(!r)</span><br>
+<span>        {</span><br>
+<span>                printf("read graphic banks error!\n");</span><br>
+<span>                goto error3;</span><br>
+<span>        }</span><br>
+<span>        printf("Writing %s..\n", ofn);</span><br>
+<span>        fo=fopen(ofn,"wb");</span><br>
+<span>        if (!fo) </span><br>
+<span>        {</span><br>
+<span>                printf("open %s error!\n", ofn);</span><br>
+<span>                goto error3;</span><br>
+<span>        }</span><br>
+<span>        fwrite(outp, 16384, i, fo);</span><br>
+<span>        fclose(fo);</span><br>
+<span>error3:</span><br>
+<span>        free(outp);</span><br>
+<span>        free(fblk);</span><br>
+<span>}</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>泄露包的xtal*.zip是水晶的源码，和金银大同小异，但是没有日版的源码了。build出来直接就是完整可执行文件。</span><br>
+</p><p><b>gold013: </b><br>
+<span>我一直有个疑问，当初金银时期。第一张地图里面四张拼图和抓字母形状的未知图腾到底有什么用？还有关东地区水系道馆那个镇左上角墙里的门是不是贴图错误？</span><br>
+<span>我当初记得小时候关于这游戏各种流言都有，我一个一个试，就剩下这两个未解之谜</span><br>
+</p><p><b>电容茧: </b><br>
+<span>gold013 发表于 2020-5-19 12:31</span><br>
+<span>我一直有个疑问，当初金银时期。第一张地图里面四张拼图和抓字母形状的未知图腾到底有什么用？还有关东地区 ...</span><br>
+<span>拼完好像会多出现一些其他种类的未知图腾，未知图腾就是纯收藏用的了吧</span><br>
+</p><p><b>gold013: </b><br>
+<span>电容茧 发表于 2020-5-19 13:20</span><br>
+<span>拼完好像会多出现一些其他种类的未知图腾，未知图腾就是纯收藏用的了吧 ...</span><br>
+<span>这我倒是知道，我当初在金版收集齐了26只字母，不过也找不到啥后续了。不过既然纯粹收藏……哎…</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1935793[0-50]</guid>
+    </item>
+  </channel>
+</rss>

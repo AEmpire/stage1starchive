@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>机械硬盘突然很慢</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>机械硬盘突然很慢</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:14:48 +0000</lastBuildDate>
+    <item>
+      <title>机械硬盘突然很慢[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844620-1-1.html</link>
+      <description>机械硬盘突然很慢&#13;
+今天玩游戏玩着突然读图不出，然后发现很多软件无响应(安装在机械硬盘或缓存在机械硬盘的)，然后发现打开机械硬盘的任何一个盘符的一个文件夹都很慢，打开里面的一张图片都要好久才能显示。
+&#13;
+看了下是C5黄了，想着可能是坏道了。但是我觉得坏道的话应该只是坏道的部分读取缓慢或者无法读取，其他没坏的部分应该没影响吧？然而现在的情况就是整块硬盘都变得很慢很慢，想转移一下文件，老半天才复制1G多...
+&#13;
+请大佬们分析下这是什么情况，难道就这样挂了无法抢救了么。</description>
+      <content:encoded><![CDATA[<p><b>kanshale: </b><br>
+<span>机械硬盘突然很慢</span><br>
+<span>今天玩游戏玩着突然读图不出，然后发现很多软件无响应(安装在机械硬盘或缓存在机械硬盘的)，然后发现打开机械硬盘的任何一个盘符的一个文件夹都很慢，打开里面的一张图片都要好久才能显示。</span><br>
+<span>看了下是C5黄了，想着可能是坏道了。但是我觉得坏道的话应该只是坏道的部分读取缓慢或者无法读取，其他没坏的部分应该没影响吧？然而现在的情况就是整块硬盘都变得很慢很慢，想转移一下文件，老半天才复制1G多...</span><br>
+<span>请大佬们分析下这是什么情况，难道就这样挂了无法抢救了么。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>全盘爆炸前赶紧复制数据跑路才是正道</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>samfs: </b><br>
+<span>有了坏道以后强行读取的话坏道会增加</span><br>
+</p><p><b>kanshale: </b><br>
+<span>yuuu 发表于 2019-7-6 00:30</span><br>
+<span>全盘爆炸前赶紧复制数据跑路才是正道</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>现在复制数据只有1m/s的速度了...</span><br>
+</p><p><b>kanshale: </b><br>
+<span>从硬盘任何位置复制数据，都只有1M/S的速度...是不是无法抢救了...</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>samfs 发表于 2019-7-6 00:31</span><br>
+<span>有了坏道以后强行读取的话坏道会增加</span><br>
+<span>那么应该怎样做？</span><br>
+<span>别告诉我先尝试修复。</span><br>
+</p><p><b>四点: </b><br>
+<span>我也觉得只能赶紧转移跑路....至于有没有更安全的转移方法就不知道了</span><br>
+</p><p><b>kanshale: </b><br>
+<span>四点 发表于 2019-7-6 01:31</span><br>
+<span>我也觉得只能赶紧转移跑路....至于有没有更安全的转移方法就不知道了</span><br>
+<span>感觉已经跑不掉了....都复制不动了....</span><br>
+</p><p><b>samfs: </b><br>
+<span>纯情小鸭鸭 发表于 2019-7-6 01:24</span><br>
+<span>那么应该怎样做？</span><br>
+<span>别告诉我先尝试修复。</span><br>
+<span>我没什么特别好的办法，但是如果是我的盘，我会尝试在 Linux 环境下用 cp 命令复制</span><br>
+<span>用这个的话，遇到读不动的文件会立即跳过并且在终端里打一行 IO Error，而不是像 Windows 那样卡在那里</span><br>
+<span>但这只是经验之谈，可能完全不对，可以在彻底绝望的时候尝试</span><br>
+</p><p><b>SORAYA: </b><br>
+<span>先换根数据线看看。</span><br>
+</p><p><b>四点: </b><br>
+<span>samfs 发表于 2019-7-6 01:46</span><br>
+<span>我没什么特别好的办法，但是如果是我的盘，我会尝试在 Linux 环境下用 cp 命令复制</span><br>
+<span>用这个的话，遇到读不 ...</span><br>
+<span>用diskgenius之类的硬盘对拷什么的有用吗。</span><br>
+</p><p><b>kimmmmmm: </b><br>
+<span>楼主这是盘坏了，我刚坏了2块，读到坏文件直接掉盘的</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>炸了，而且不是第一天出问题了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>samfs: </b><br>
+<span>四点 发表于 2019-7-6 05:14</span><br>
+<span>用diskgenius之类的硬盘对拷什么的有用吗。</span><br>
+<span>可以试试的，就相当于 Ghost 了，虽然应该会很吃力吧</span><br>
+</p><p><b>litel: </b><br>
+<span>盘要挂。。。</span><br>
+<span>找个可以开ide模式的主板，ghost加个容错拷贝参数就可以ghost出来。</span><br>
+<span>上周就这样拯救了一个客户的硬盘~</span><br>
+<span>参数 -noosdisk -ntic -ntil -ffx -ffi -fro</span><br>
+<span>noosdisk忽略win系统的分区，ntic和ntil跳过ntfs检查，ffx和ffi，开启扩展指令，fro跳过坏道拷贝。</span><br>
+<span>必须ide模式，否则遇到坏道还是会卡住，因为ahci模式没法发送指令。</span><br>
+<span>盘挂到pe里之前，进diskpart，输入automount disable，禁掉磁盘自动挂载。</span><br>
+<span>不然磁盘挂载的时候就卡住，你啥都操作不了。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-6 11:56 编辑 </span><br>
+<span>fastcopy 拷贝到其他盘一天或者几天即可，拷贝不了的会自动跳过，最后还有哪些文件没拷贝的报告，我最早一块2T EVDS就是这样嗝屁的，发现不对后，次日就去再买了块2T的，花了十几小时拷贝完，格式化就去换新了</span><br>
+<span>当时我那块的情况是，播放视频突然卡顿，发现速度只有几M/S了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>夜语: </b><br>
+<span>我有块这样的笔记本硬盘现在塞在下载机里，当时复制文件1m/s，然后转移完数据只是格式化“差不多”又复活了，速度70-80，已经又操了半年了。</span><br>
+</p><p><b>Mostovoi: </b><br>
+<span>果然是希捷</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>kanshale: </b><br>
+<span>夜语 发表于 2019-7-6 12:13</span><br>
+<span>我有块这样的笔记本硬盘现在塞在下载机里，当时复制文件1m/s，然后转移完数据只是格式化“差不多”又复活了 ...</span><br>
+<span>我现在只希望能1m/s复制出我的所有数据了。</span><br>
+</p><p><b>kanshale: </b><br>
+<span>zmw_831110 发表于 2019-7-6 11:52</span><br>
+<span>fastcopy 拷贝到其他盘一天或者几天即可，拷贝不了的会自动跳过，最后还有哪些文件没拷贝的报告，我最早一 ...</span><br>
+<span>谢了，看上去比较实用。</span><br>
+</p><p><b>kanshale: </b><br>
+<span>litel 发表于 2019-7-6 10:55</span><br>
+<span>盘要挂。。。</span><br>
+<span>找个可以开ide模式的主板，ghost加个容错拷贝参数就可以ghost出来。</span><br>
+<span>对我来说有点复杂，别的方法没用的话再来研究这个。</span><br>
+<span>谢了~</span><br>
+</p><p><b>izthr: </b><br>
+<span>DM001....</span><br>
+</p><p><b>kanshale: </b><br>
+<span>izthr 发表于 2019-7-6 21:16</span><br>
+<span>DM001....</span><br>
+<span>看来这个盘蛮出名的。</span><br>
+</p><p><b>aurraro: </b><br>
+<span>我碰见一开explorer就硬盘100％，特定硬盘，我一开hdtune一看C5有了赶紧下单换硬盘，还好这块坏的给力，用diskgenius直接克隆到新盘了，大小和分区都和坏硬盘一致。克隆途中还是有文件错误，直接跳过，还好是存东西的盘。</span><br>
+</p><p><b>Zest: </b><br>
+<span>引用第22楼kanshale于2019-07-06 23:23发表的:</span><br>
+<span>引用:izthr 发表于 2019-7-6 21:16DM001....看来这个盘蛮出名的。</span><br>
+<span>这盘故障率30%</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>红左手: </b><br>
+<span>kanshale 发表于 2019-7-6 23:23</span><br>
+<span>看来这个盘蛮出名的。</span><br>
+<span>这盘能到现在才出问题算是长寿了</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span>死马当活马医的话可以试试。。。</span><br>
+<span>1。拔掉网线</span><br>
+<span>2。安装完别打开，任务管理器结束相关进程，然后复制crack到安装目录替换程序，启动后用注册码注册，接下来就可以选择修复了，有2种方式，1个是直接软件内修复，另外是制作修复启动盘。</span><br>
+<span>3。推荐在程序内选择制作u 盘，以后需要就只要用u 盘启动电脑就可以进行修复了。</span><br>
+<span>4。u 盘启动注意先bios里把硬盘改成ide模式下，进入程序后用数字+回车进行选择，不要选第1个光检测纯浪费时间，选择scan and repair，看坏道多少比较耗时间，1T 得3到6小时吧，厉害的12个小时。。。（你还可以esc暂停，退出后下次选择自选开始结束位置进行修复，移动光标+回车进行选择。）</span><br>
+<span>链接:https://pan.baidu.com/s/1kUgpq8R 密码:pcap</span><br>
+</p><p><b>kanshale: </b><br>
+<span>bonbonfox 发表于 2019-7-7 11:13</span><br>
+<span>死马当活马医的话可以试试。。。</span><br>
+<span>1。拔掉网线</span><br>
+<span>谢了~</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844620[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Steam版《Xanadu Next》汉化移植补丁【190714更新v1.01】</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Steam版《Xanadu Next》汉化移植补丁【190714更新v1.01】</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:10:22 +0000</lastBuildDate>
+    <item>
+      <title>Steam版《Xanadu Next》汉化移植补丁【190714更新v1.01】[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845325-1-1.html</link>
+      <description>Steam版《Xanadu Next》汉化移植补丁【190714更新v1.01】&#13;
+ 本帖最后由 findpkq 于 2019-7-15 00:03 编辑 
+
+本来移植工作量基本是手动和脚本  不需要在s1特地发一贴，不过泥潭还是经常有人提起这作，又趁暑促的尾巴还是发吧。
+&#13;
+但是几年后，他这样对我说。
+&#13;
+“除此之外我没有其他的生存意义，所以我走上了这条道路。”
+&#13;
+现在回想起来，实在是件非常惭愧的事情。
+&#13;
+我对那个人完全不了解。
+&#13;
+选自夏洛特·L·维尔斯著
+&#13;
+《最后的骑士》第二章黑色新娘
+&#13;
+https://i.loli.net/2019/07/09/5d23e73c06d0b59049.jpg
+&#13;
+写在前面
+&#13;
+*赶在暑促结束前发布，测试不足还请见谅，有问题请尽管反馈。
+&#13;
+*本项目暂时仅应用于Steam版Xanadu Next（当前官方版本 1.0.2.0）。
+&#13;
+→Steam平台本作传送门←
+&#13;
+*所有的汉化文本、汉化图像均移植自娱乐通代理版《迷城的国度》，目前在方块平台仍有销售。
+&#13;
+本次汉化移植离不开代理商与原汉化人员的付出，希望大家享受本次移植的同时尽可能支持原代理商。
+&#13;
+→方块平台的传送门←
+&#13;
+游戏介绍
+&#13;
+《Xanadu Next》原为Falcom在2005年10月27日发售的ARPG游戏，国内由娱乐通代理译为《迷城的国度》。XSEED在2016年底移植了本作至Steam平台，新增了原生的16:9画幅支持等特性。
+&#13;
+《Xanadu Next》看似属于当年脱胎于屠龙者系列的Xanadu系列，甚至是以Xanadu20周年纪念的正作名义发售，但实质上除了屠龙剑、个别bgm等要素外，和原系列的氛围核心并无太多关联。本作剧本是Falcom现社长近藤牵头，肃穆克制的基调在近年的自家作品算是异色，配上不错的手感，严格打磨的系统，独树一帜的bgm，精妙的地图迷宫设计（本身串起所有迷宫的小岛与真正的“迷城”奇岩城）还有那个印象深刻的结局，成为许多玩家给出好评（但似乎不是很卖座）的作品。
+&#13;
+Falcom的官网：https://www.falcom.co.jp/xanadu_next/
+&#13;
+XSEED的官网：http://www.xanadunext.com
+&#13;
+下载地址
+&#13;
+当前汉化移植补丁版本为1.01，更新日期2019.07.14
+&#13;
+[*]度盘链接：
+&#13;
+https://pan.baidu.com/s/1nyGLJae9QgqQZ8QQ3xl1OQ 
+&#13;
+提取码: xztx
+&#13;
+[*]MEGA盘链接：
+&#13;
+https://mega.nz/#!DWhVAY4b!Pu9yH5PLK_AVRFrZAsNSsHROgtmoFJB10sMG9jBJgTs
+&#13;
+1.01【190714】
+&#13;
+增加GOG版支持（需要应用补丁后，额外下载对应主程序覆盖）。
+&#13;
+考虑日文、攻略本与网络资料，技能【疾跑】改为【韦陀天】。
+&#13;
+主程序修正少量标点换行。
+&#13;
+修改开场结尾过场文本中，关于不器用的翻译。
+&#13;
+修正一处boss开场角色短暂转圈bug。
+&#13;
+另有github项目，上面有部分制作过程中的文件，Other文件夹下有一些步骤记录和资料可供学习参考。（还有惨不忍睹的python脚本…）
+&#13;
+安装说明
+&#13;
+覆盖至游戏根目录。
+&#13;
+若需恢复为英文原版可直接使用Steam的验证完整性功能。
+&#13;
+截图预览
+&#13;
+https://i.loli.net/2019/07/09/5d23e8029fb0a94667.jpg
+&#13;
+https://i.loli.net/2019/07/09/5d23e802e8c0643662.jpg
+&#13;
+https://i.loli.net/2019/07/09/5d23e802d933693293.jpg
+&#13;
+https://i.loli.net/2019/07/09/5d23e802c890566697.jpg
+&#13;
+https://i.loli.net/2019/07/09/5d23e803018a336614.jpg
+&#13;
+特别感谢
+&#13;
+[*]娱乐通汉化版的所有原工作人员。
+&#13;
+[*]ZenHax论坛的Ekey&amp;站长aluigi，提供了dat解包脚本与字模解密脚本，没有他们的大腿是完不成本次移植的。
+&#13;
+[*]@yzzbz 点拨了游戏可能使用的壳和对应工具。
+&#13;
+使用工具
+&#13;
+[*]quickbms（解包封包）
+&#13;
+[*]falcnvrt
+&#13;
+[*]MadEdit-Mod
+&#13;
+[*]TiledGlyph
+&#13;
+[*]CrystalTile2
+&#13;
+[*]Steamless（脱壳工具）
+&#13;
+其他说明
+&#13;
+[*]测试时间有限而且汉化流程不够完善，有任何汉化方面的问题请直接回复反馈，将会尽量修正。
+&#13;
+[*]有一处拿精灵卡片的跳跳乐，和60帧黑魂类似会有跳跃判定上的变化，游戏内刷新率设置改为粗糙后有奇效。
+&#13;
+[*]死者的异界没有经过比较完整的测试，以及懒得找指针，该处个别怪物名有删字，同样有问题可以尽快反馈。
+&#13;
+[*]GOG版的主程序已处理完毕，暂未测试，有额外问题请反馈。
+&#13;
+[*]成就解锁正常，其中某泡水成就（Out of Breath）判定微妙和文字说明不符，详情和邪道达成法请前往Steam里本作社区内查看。
+&#13;
+相关链接
+&#13;
+咕噜小天使Steam版汉化移植补丁</description>
+      <content:encoded><![CDATA[<p><b>findpkq: </b><br>
+<span>Steam版《Xanadu Next》汉化移植补丁【190714更新v1.01】</span><br>
+<span> 本帖最后由 findpkq 于 2019-7-15 00:03 编辑 </span><br>
+<span>本来移植工作量基本是手动和脚本  不需要在s1特地发一贴，不过泥潭还是经常有人提起这作，又趁暑促的尾巴还是发吧。</span><br>
+<span>但是几年后，他这样对我说。</span><br>
+<span>“除此之外我没有其他的生存意义，所以我走上了这条道路。”</span><br>
+<span>现在回想起来，实在是件非常惭愧的事情。</span><br>
+<span>我对那个人完全不了解。</span><br>
+<span>选自夏洛特·L·维尔斯著</span><br>
+<span>《最后的骑士》第二章黑色新娘</span><br>
+<img src="https://i.loli.net/2019/07/09/5d23e73c06d0b59049.jpg" title="https://i.loli.net/2019/07/09/5d23e73c06d0b59049.jpg"><br>
+<span>写在前面</span><br>
+<span>*赶在暑促结束前发布，测试不足还请见谅，有问题请尽管反馈。</span><br>
+<span>*本项目暂时仅应用于Steam版Xanadu Next（当前官方版本 1.0.2.0）。</span><br>
+<span>→Steam平台本作传送门←</span><br>
+<span>*所有的汉化文本、汉化图像均移植自娱乐通代理版《迷城的国度》，目前在方块平台仍有销售。</span><br>
+<span>本次汉化移植离不开代理商与原汉化人员的付出，希望大家享受本次移植的同时尽可能支持原代理商。</span><br>
+<span>→方块平台的传送门←</span><br>
+<span>游戏介绍</span><br>
+<span>《Xanadu Next》原为Falcom在2005年10月27日发售的ARPG游戏，国内由娱乐通代理译为《迷城的国度》。XSEED在2016年底移植了本作至Steam平台，新增了原生的16:9画幅支持等特性。</span><br>
+<span>《Xanadu Next》看似属于当年脱胎于屠龙者系列的Xanadu系列，甚至是以Xanadu20周年纪念的正作名义发售，但实质上除了屠龙剑、个别bgm等要素外，和原系列的氛围核心并无太多关联。本作剧本是Falcom现社长近藤牵头，肃穆克制的基调在近年的自家作品算是异色，配上不错的手感，严格打磨的系统，独树一帜的bgm，精妙的地图迷宫设计（本身串起所有迷宫的小岛与真正的“迷城”奇岩城）还有那个印象深刻的结局，成为许多玩家给出好评（但似乎不是很卖座）的作品。</span><br>
+<span>Falcom的官网：https://www.falcom.co.jp/xanadu_next/</span><br>
+<span>XSEED的官网：http://www.xanadunext.com</span><br>
+<span>下载地址</span><br>
+<span>当前汉化移植补丁版本为1.01，更新日期2019.07.14</span><br>
+<span>[*]度盘链接：</span><br>
+<span>https://pan.baidu.com/s/1nyGLJae9QgqQZ8QQ3xl1OQ </span><br>
+<span>提取码: xztx</span><br>
+<span>[*]MEGA盘链接：</span><br>
+<span>https://mega.nz/#!DWhVAY4b!Pu9yH5PLK_AVRFrZAsNSsHROgtmoFJB10sMG9jBJgTs</span><br>
+<span>1.01【190714】</span><br>
+<span>增加GOG版支持（需要应用补丁后，额外下载对应主程序覆盖）。</span><br>
+<span>考虑日文、攻略本与网络资料，技能【疾跑】改为【韦陀天】。</span><br>
+<span>主程序修正少量标点换行。</span><br>
+<span>修改开场结尾过场文本中，关于不器用的翻译。</span><br>
+<span>修正一处boss开场角色短暂转圈bug。</span><br>
+<span>另有github项目，上面有部分制作过程中的文件，Other文件夹下有一些步骤记录和资料可供学习参考。（还有惨不忍睹的python脚本…）</span><br>
+<span>安装说明</span><br>
+<span>覆盖至游戏根目录。</span><br>
+<span>若需恢复为英文原版可直接使用Steam的验证完整性功能。</span><br>
+<span>截图预览</span><br>
+<img src="https://i.loli.net/2019/07/09/5d23e8029fb0a94667.jpg" title="https://i.loli.net/2019/07/09/5d23e8029fb0a94667.jpg"><br>
+<img src="https://i.loli.net/2019/07/09/5d23e802e8c0643662.jpg" title="https://i.loli.net/2019/07/09/5d23e802e8c0643662.jpg"><br>
+<img src="https://i.loli.net/2019/07/09/5d23e802d933693293.jpg" title="https://i.loli.net/2019/07/09/5d23e802d933693293.jpg"><br>
+<img src="https://i.loli.net/2019/07/09/5d23e802c890566697.jpg" title="https://i.loli.net/2019/07/09/5d23e802c890566697.jpg"><br>
+<img src="https://i.loli.net/2019/07/09/5d23e803018a336614.jpg" title="https://i.loli.net/2019/07/09/5d23e803018a336614.jpg"><br>
+<span>特别感谢</span><br>
+<span>[*]娱乐通汉化版的所有原工作人员。</span><br>
+<span>[*]ZenHax论坛的Ekey&站长aluigi，提供了dat解包脚本与字模解密脚本，没有他们的大腿是完不成本次移植的。</span><br>
+<span>[*]@yzzbz 点拨了游戏可能使用的壳和对应工具。</span><br>
+<span>使用工具</span><br>
+<span>[*]quickbms（解包封包）</span><br>
+<span>[*]falcnvrt</span><br>
+<span>[*]MadEdit-Mod</span><br>
+<span>[*]TiledGlyph</span><br>
+<span>[*]CrystalTile2</span><br>
+<span>[*]Steamless（脱壳工具）</span><br>
+<span>其他说明</span><br>
+<span>[*]测试时间有限而且汉化流程不够完善，有任何汉化方面的问题请直接回复反馈，将会尽量修正。</span><br>
+<span>[*]有一处拿精灵卡片的跳跳乐，和60帧黑魂类似会有跳跃判定上的变化，游戏内刷新率设置改为粗糙后有奇效。</span><br>
+<span>[*]死者的异界没有经过比较完整的测试，以及懒得找指针，该处个别怪物名有删字，同样有问题可以尽快反馈。</span><br>
+<span>[*]GOG版的主程序已处理完毕，暂未测试，有额外问题请反馈。</span><br>
+<span>[*]成就解锁正常，其中某泡水成就（Out of Breath）判定微妙和文字说明不符，详情和邪道达成法请前往Steam里本作社区内查看。</span><br>
+<span>相关链接</span><br>
+<span>咕噜小天使Steam版汉化移植补丁</span><br>
+</p><p><b>s8698s: </b><br>
+<span>可以补票了</span><br>
+</p><p><b>不中用: </b><br>
+<span>好评</span><br>
+</p><p><b>otakun: </b><br>
+<span>这个好，支持，我去方块补一份…</span><br>
+</p><p><b>猫骑士: </b><br>
+<span>就是迷城国度吧？我记得不是早有汉化了吗？</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>这游戏综合素质在那个年代相当高，不明白为什么不温不火。</span><br>
+<span>结尾曲《White Lie in Black》演唱者的jaglish印象肥肠深刻</span><br>
+</p><p><b>Sorcerian: </b><br>
+<span>嗷嗷嗷</span><br>
+<span>啥时候出伊苏编年史的汉化</span><br>
+<span>ffc遗作</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>鱼肉丸子: </b><br>
+<span>非常感谢以前买过娱乐通的正版 但是没打通</span><br>
+<span>这次买了steam版 正好用下补丁</span><br>
+</p><p><b>otakun: </b><br>
+<span>处男鉴黄师 发表于 2019-7-9 11:40</span><br>
+<span>这游戏综合素质在那个年代相当高，不明白为什么不温不火。</span><br>
+<span>结尾曲《White Lie in Black》演唱者的jaglish印 ...</span><br>
+<span>可惜现在法老控写不出这么魄力的结局了</span><br>
+</p><p><b>crosz: </b><br>
+<span>这游戏是不是PSP上出过</span><br>
+</p><p><b>farland: </b><br>
+<span>好，可以补票了。</span><br>
+</p><p><b>鱼肉丸子: </b><br>
+<span>crosz 发表于 2019-7-9 12:03</span><br>
+<span>这游戏是不是PSP上出过</span><br>
+<span>这个真没有</span><br>
+</p><p><b>crosz: </b><br>
+<span>yesh</span><br>
+<span> 本帖最后由 crosz 于 2019-7-9 12:38 编辑 </span><br>
+<span>鱼肉丸子 发表于 2019-7-9 12:12</span><br>
+<span>这个真没有</span><br>
+<span>PSP我记得也有个什么迷城也是法老控做的也是破迷宫</span><br>
+</p><p><b>kane123: </b><br>
+<span>引用第8楼otakun于2019-07-09 11:59发表的:</span><br>
+<span>引用:处男鉴黄师 发表于 2019-7-9 11:40这游戏综合素质在那个年代相当高，不明白为什么不......</span><br>
+<span>没什么写不出 这座剧本和主脚本都是近藤</span><br>
+<span>风格和空轨伊苏8一脉相承 </span><br>
+<span>只不过写成这样销量那么低 那还不如轨迹年货</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>ac死或生: </b><br>
+<span>哈，这游戏去年出steam版的时候我就想问有没有汉化了，无奈没有，只能去玩老版，结果只有720p，最后还坑在最终迷宫推箱子那边，唉</span><br>
+</p><p><b>mcmurdo: </b><br>
+<span>等等，LZ也是做咕噜小天使汉化移植那位大大，百度id就是用ip怎么了？太感谢了，现在就等成熟版本，两三个月不更了我每周都会打开看看有没有进展</span><br>
+</p><p><b>findpkq: </b><br>
+<span> 本帖最后由 findpkq 于 2019-7-9 13:05 编辑 </span><br>
+<span>mcmurdo 发表于 2019-7-9 12:52</span><br>
+<span>等等，LZ也是做咕噜小天使汉化移植那位大大，百度id就是用ip怎么了？太感谢了，现在就等成熟版本，两三个月 ...</span><br>
+<span>咕噜贴吧里吧友反馈的大把基于娱乐通译文的润色部分其实都搞定发布了，本身没啥大问题了</span><br>
+<span>目前进度是在b站上见过有心的up主自己重新翻译过场对话后录的游玩录像，参照那个再对过场部分润色一次（然后做一半鸽了这么久）</span><br>
+<span>自己英译中一般，日语靠机翻实在没法拎清润色这活</span><br>
+<span>哦还有道具说明文字滚动的显示问题，抓不到单双字节判定的点，只能期待什么时候运气好了就找到了</span><br>
+</p><p><b>mcmurdo: </b><br>
+<span>findpkq 发表于 2019-7-9 13:01</span><br>
+<span>咕噜贴吧里吧友反馈的大把基于娱乐通译文的润色部分其实都搞定发布了，本身没啥大问题了</span><br>
+<span>目前进度是在b站 ...</span><br>
+<span>大大真的是太精益求精正好手头也买了Xanadu Next先打上补丁玩玩，咕噜小天使这边就先等为敬了。顺便不知现在有人接手steam版两部双星物语的汉化吗？steamcn有人放出来一个2的汉化但下面的人都反映用不了来着</span><br>
+</p><p><b>饼干君: </b><br>
+<span>好评！当年打到最终boss没打穿，steam 版当补个票了</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nonecat: </b><br>
+<span>非常感谢</span><br>
+<span>买的时候还没有，尝试过暴力替换还是没能解锁成就，这回可以玩了 现在不怎么去steamCN 不是大佬在S1发帖还真不知道</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span>crosz 发表于 2019-7-9 12:18</span><br>
+<span>PSP我记得也有个什么迷城也是法老控做的也是破迷宫</span><br>
+<span>撼天神塔？</span><br>
+</p><p><b>qqzj12: </b><br>
+<span>感谢大大，小时候最喜欢的游戏之一</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>干加菲: </b><br>
+<span>那个萝莉有点工画堂幻视感</span><br>
+</p><p><b>cosx: </b><br>
+<span>异界刷起来</span><br>
+</p><p><b>0zero0: </b><br>
+<span>这个好玩，falcom难得的佳作</span><br>
+</p><p><b>alann: </b><br>
+<span>分辨率高了以后比原版画面好不少啊</span><br>
+</p><p><b>crosz: </b><br>
+<span>黑夜守望者 发表于 2019-7-9 13:41</span><br>
+<span>撼天神塔？</span><br>
+<span>就是这个</span><br>
+</p><p><b>leitingkai: </b><br>
+<span>kane123 发表于 2019-7-9 12:32</span><br>
+<span>没什么写不出 这座剧本和主脚本都是近藤</span><br>
+<span>风格和空轨伊苏8一脉相承 </span><br>
+<span>只不过写成这样销量那么低 那还不如轨 ...</span><br>
+<span>可近藤现在不写剧本了（虽然现在让他写肯定也写不出什么好东西）</span><br>
+</p><p><b>kane123: </b><br>
+<span>引用第27楼leitingkai于2019-07-09 15:15发表的:</span><br>
+<span>引用:kane123 发表于 2019-7-9 12:32没什么写不出 这座剧本和主脚本都是近藤风格......</span><br>
+<span>近藤刚写了伊苏8</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>leitingkai: </b><br>
+<span>kane123 发表于 2019-7-9 15:16</span><br>
+<span>近藤刚写了伊苏8</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+<span>伊苏8离现在也有3年了，而且伊苏8剧情还不错吧（特别是和近年的其他那些对比）</span><br>
+</p><p><b>mychoxa9: </b><br>
+<span>我很喜欢迷路森林那个BGM</span><br>
+</p><p><b>究极巨魔: </b><br>
+<span>哇，感谢楼主!</span><br>
+</p><p><b>neonhex: </b><br>
+<span>真好玩</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>GrimReaper: </b><br>
+<span>,卧槽,终于出了,万分感谢,我游戏吃灰了好久!!!!!!!!!!!!!!!!!</span><br>
+</p><p><b>crosz: </b><br>
+<span>游戏挺好玩的不过为什么掉帧啊</span><br>
+</p><p><b>八云萌华: </b><br>
+<span>otakun 发表于 2019-7-9 11:59</span><br>
+<span>可惜现在法老控写不出这么魄力的结局了</span><br>
+<span>结局大逆转吧</span><br>
+<span>记得当时有人看不懂这个游戏，还说杀的好，唉</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>顺路求那由多轨迹汉化。。。</span><br>
+</p><p><b>鱼肉丸子: </b><br>
+<span>翻出了当初娱乐通版带的攻略 上面也没讲这个游戏的通关评价标准</span><br>
+<span>真的是老游戏了 粗略的搜了下通关评价标准 只搜到一篇s评价通关攻略好像是和存档次数和通关时间有关 但是没有具体标准 有哪位知道么？</span><br>
+</p><p><b>孙女: </b><br>
+<span>好评</span><br>
+</p><p><b>eulereld: </b><br>
+<span>OH YEAH LZ大感謝，我早就買好了吃著灰，這下可以補起</span><br>
+</p><p><b>zl78cn: </b><br>
+<span>也不知道我下载的什么版本，一打补丁又是说steam_api.dll丢失，又是无法定位程序输入点……于动态链接库上什么的……</span><br>
+</p><p><b>findpkq: </b><br>
+<span>zl78cn 发表于 2019-7-10 21:44</span><br>
+<span>也不知道我下载的什么版本，一打补丁又是说steam_api.dll丢失，又是无法定位程序输入点……于动态链接库上 ...</span><br>
+<span>这个目前只适用于steam版本，主程序只用工具脱壳但DRM校验steam调用什么的应该都在</span><br>
+<span>如果是网上直接找的学习版，可能是直接拿GOG的毕竟DRM-free</span><br>
+<span>steamcn有人帮忙传了GOG版相应主程序，会抽空处理来对应GOG版本</span><br>
+</p><p><b>kane1234: </b><br>
+<span>想要续作的，今次的伊苏9风格很像迷城NEXT</span><br>
+<span>https://weibo.com/tv/v/HD0bEiP4R?fid=1034:4392954656171649</span><br>
+</p><p><b>findpkq: </b><br>
+<span> 本帖最后由 findpkq 于 2019-7-14 23:26 编辑 </span><br>
+<span>补丁ver1.01更新，基本为边边角角的文本润色，1.00补丁本身无恶性bug，应用过1.00补丁的朋友请根据更新内容自行决定要不要再载次150M……</span><br>
+<span>GOG版主程序的文本导入完毕，在网盘文件夹里单独列出了，未测试，有发现问题请尽管反馈吧。</span><br>
+<span>另外开场的第一句文本感觉原翻译有点怪，和英文的方向也完全不同，不知道有没什么好的修改意见。</span><br>
+<span>日版文本</span><br>
+<span>       何と不器用な人だろうと、私は苛立ちすら覚えたものです。</span><br>
+<span>       しかし後年、彼は私にこう語りました。</span><br>
+<span>       「この道より我を活かす道は無し、故に我は往く」と───</span><br>
+<span>      今にして思えば、とても恥ずかしい話です。</span><br>
+<span>      私はあの人のことを|何も分かっていなかったのですから。</span><br>
+<span>      シャーロット・Ｌ・ウェルズ著|「最後の騎士」　第二章　黒き花嫁より</span><br>
+<span>美版文本</span><br>
+<span>      I speak of a time when I traveled with an irritating individual - an awkward man devoid of all social graces.</span><br>
+<span>      But though these feelings are the first that ever came to me,my mind always returns to the words he spoke in his later years:</span><br>
+<span>      There is no path to follow that would serve me better.|Thus, I walk that path, and I do not waver.</span><br>
+<span>      As I reminisce here, I find it all rather embarrassing.</span><br>
+<span>      For I had judged the man unfairly,never truly understanding him.</span><br>
+<span>娱乐通版文本</span><br>
+<span>      每当烦躁的时候，|我更清楚地认识到自己是多么没用。</span><br>
+<span>      但是几年后，他这样对我说。</span><br>
+<span>      「除此之外我没有其他的生存意义，所以我走上了这条道路。」───</span><br>
+<span>      现在回想起来，实在是件非常惭愧的事情。</span><br>
+<span>      我对那个人完全不了解。</span><br>
+<span>      选自夏洛特·Ｌ·维尔斯著|「最后的骑士」　第二章　黑色新娘</span><br>
+</p><p><b>唧唧歪歪八卦阵: </b><br>
+<span>感谢楼主，咕噜小天使那边也辛苦了</span><br>
+<span>个人私心希望能看到伊苏1&2</span><br>
+<span>还有双星系列这些佳作的汉化都能慢慢面世</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845325[0-50]</guid>
+    </item>
+  </channel>
+</rss>

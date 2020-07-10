@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>macOS 上有没有类似 Windows 上 RaiDrive 的软件？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>macOS 上有没有类似 Windows 上 RaiDrive 的软件？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:37:19 +0000</lastBuildDate>
+    <item>
+      <title>macOS 上有没有类似 Windows 上 RaiDrive 的软件？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910542-1-1.html</link>
+      <description>macOS 上有没有类似 Windows 上 RaiDrive 的软件？&#13;
+因为魔都家庭宽带查的严，以前用 WebDAV 协议来在外看视频，后来怂了就关了改用 SFTP，但是问题就来了。
+&#13;
+在 Windows、Android 平台上体验没什么两样，但是 macOS 的 Finder 不支持 SFTP，VLC 的 SFTP 目录层级逻辑使用起来简直是受罪。
+&#13;
+现在过年回家看视频看的头疼，有没有类似的软件推荐一下的？价格最好在 2000 JPY 以下。
+&#13;
+具体要求就是有个软件可以连接，双击视频文件可以调用本地播放器串流播放。</description>
+      <content:encoded><![CDATA[<p><b>huaxianyan: </b><br>
+<span>macOS 上有没有类似 Windows 上 RaiDrive 的软件？</span><br>
+<span>因为魔都家庭宽带查的严，以前用 WebDAV 协议来在外看视频，后来怂了就关了改用 SFTP，但是问题就来了。</span><br>
+<span>在 Windows、Android 平台上体验没什么两样，但是 macOS 的 Finder 不支持 SFTP，VLC 的 SFTP 目录层级逻辑使用起来简直是受罪。</span><br>
+<span>现在过年回家看视频看的头疼，有没有类似的软件推荐一下的？价格最好在 2000 JPY 以下。</span><br>
+<span>具体要求就是有个软件可以连接，双击视频文件可以调用本地播放器串流播放。</span><br>
+</p><p><b>btcdtc: </b><br>
+<span>有很多fuse方案的软件, cyberduck cloudmount expandrive啥的</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>btcdtc 发表于 2020-1-23 15:51</span><br>
+<span>有很多fuse方案的软件, cyberduck cloudmount expandrive啥的</span><br>
+<span>感谢推荐</span><br>
+<span>cyberduck尝试了一下，不能在线串流播放，每次都需要保存到本地</span><br>
+<span>第二个我没搜到</span><br>
+<span>第三个的确是映射到了本地磁盘，但是 VLC 无法播放，而且 License 有点贵……</span><br>
+</p><p><b>btcdtc: </b><br>
+<span>播放器你可以试试IINA</span><br>
+<span>如果不需要图形界面,可以用rclone 我个人rclone+plex server用plex client 串流没问题</span><br>
+</p><p><b>モナド: </b><br>
+<span>SMB/AFP？finder可以直接挂载</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>モナド 发表于 2020-1-24 19:41</span><br>
+<span>SMB/AFP？finder可以直接挂载</span><br>
+<span>非局域网环境</span><br>
+</p><p><b>モナド: </b><br>
+<span>huaxianyan 发表于 2020-1-25 00:24</span><br>
+<span>非局域网环境</span><br>
+<span>不讨论安全性，是可以跑公网的，command + k直接指定协议主机端口</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>モナド 发表于 2020-1-25 01:01</span><br>
+<span>不讨论安全性，是可以跑公网的，command + k直接指定协议主机端口</span><br>
+<span>这个我也知道，所以才不敢暴露给公网啊……</span><br>
+<span>之前 NAS 上还能装 ZeroTier 的时候还能这么用，结果群晖套件更新之后直接装不上，新的发行版也没管到 218j，愁死我了</span><br>
+</p><p><b>モナド: </b><br>
+<span>huaxianyan 发表于 2020-1-26 11:49</span><br>
+<span>这个我也知道，所以才不敢暴露给公网啊……</span><br>
+<span>之前 NAS 上还能装 ZeroTier 的时候还能这么用，结果群晖套 ...</span><br>
+<span>裸奔不安全，那建个安全通道，最简单的SSH本地端口转发，跟VPN作用一样的</span><br>
+<span>ssh -N -L 12345:{NAS IP}:445 {暴露在公网可SSH的机器}</span><br>
+<span>比如 ssh -N -L 12345:192.168.1.2:445 root@home</span><br>
+<span>然后finder连接 smb://localhost:12345 即可，注意root@home必须开启转发功能</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910542[0-50]</guid>
+    </item>
+  </channel>
+</rss>

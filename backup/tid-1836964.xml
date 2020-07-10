@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ltsc有办法转成普通版本的win10么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ltsc有办法转成普通版本的win10么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:02:34 +0000</lastBuildDate>
+    <item>
+      <title>ltsc有办法转成普通版本的win10么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836964-1-1.html</link>
+      <description>ltsc有办法转成普通版本的win10么&#13;
+之前跟风装了ltsc，结果痛苦地发现个人用户装ltsc会有点不方便，现在想换到普通版本的win10，有靠谱的方法么</description>
+      <content:encoded><![CDATA[<p><b>pulotocore: </b><br>
+<span>ltsc有办法转成普通版本的win10么</span><br>
+<span>之前跟风装了ltsc，结果痛苦地发现个人用户装ltsc会有点不方便，现在想换到普通版本的win10，有靠谱的方法么</span><br>
+</p><p><b>sirlion: </b><br>
+<span>那你干嘛不直接重装个1903？话说不便利是啥</span><br>
+</p><p><b>samfs: </b><br>
+<span>想用 UWP 的话有一键安装包可以快速为LTSC版本增加应用商店</span><br>
+<span>当然 Edge 和小娜还是不会有，但是 UWP 是解决了</span><br>
+</p><p><b>五月之雨: </b><br>
+<span>究竟哪里不方便</span><br>
+</p><p><b>sssfans: </b><br>
+<span>我之前装过一次ltsc，然后发现原来能访问的别的机器的共享文件夹，访问不了了，具体当时报的什么错我忘记了。百度了一下也没有解决，当时也比较急，我就装回1803解决了。</span><br>
+</p><p><b>w酱: </b><br>
+<span>有 ，换三个证书文件就可以变回pro</span><br>
+<span>直接去搜转换工具吧</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>搭车问问proN有办法转成普通的pro吗 不想重装</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>sssfans 发表于 2019-6-5 00:41</span><br>
+<span>我之前装过一次ltsc，然后发现原来能访问的别的机器的共享文件夹，访问不了了，具体当时报的什么错我忘记了 ...</span><br>
+<span>注册表改一个选项</span><br>
+</p><p><b>qwased: </b><br>
+<span>LTSC没商店最大的缺陷就是没有VP9硬解了，重新装上之后没感觉有什么毛病</span><br>
+</p><p><b>sniffer: </b><br>
+<span>给老爷机加了个ssd新装了ltsc后经常黑屏死机，也不知道是谁的锅。不过加了商店恢复包后日常用起来比1709专业版舒服多了，最起码不会在空闲的时候硬盘狂转了</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>sssfans 发表于 2019-6-5 00:41</span><br>
+<span>我之前装过一次ltsc，然后发现原来能访问的别的机器的共享文件夹，访问不了了，具体当时报的什么错我忘记了 ...</span><br>
+<span>添加smb 1.0组件</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>https://dl.fmqcloud.com/software/tools/WindowsStore_LTSC2019.exe</span><br>
+<span>自行查毒</span><br>
+</p><p><b>codydie: </b><br>
+<span>lstc没法用atmos access（个人验证过2次</span><br>
+<span>看到论坛也有说没法用vs的</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>mark一下，回去再试试楼上的商店恢复包</span><br>
+<span>----发送自 Xiaomi MI 6,Android 8.0.0</span><br>
+</p><p><b>lhw369: </b><br>
+<span>sssfans 发表于 2019-6-5 00:41</span><br>
+<span>我之前装过一次ltsc，然后发现原来能访问的别的机器的共享文件夹，访问不了了，具体当时报的什么错我忘记了 ...</span><br>
+<span>为了安全，取消了匿名登录smb功能，需要在组策略自己打开。</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>lysh_233: </b><br>
+<span>sssfans 发表于 2019-6-5 00:41</span><br>
+<span>我之前装过一次ltsc，然后发现原来能访问的别的机器的共享文件夹，访问不了了，具体当时报的什么错我忘记了 ...</span><br>
+<span>windos的局域网共享根本就是玄学，各种莫名其妙的不能访问，或者莫名其妙的又可以了，到现在我也没找到什么规律</span><br>
+</p><p><b>HGP: </b><br>
+<span>lhw369 发表于 2019-06-07 10:52:43</span><br>
+<span>为了安全，取消了匿名登录smb功能，需要在组策略自己打开。</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的...就是这个，我之前没搞清楚，各种法子弄了半天，忽然回想起组策略当年XP时代也是有禁止匿名访问的。才找到根源。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>两个路人: </b><br>
+<span>qwased 发表于 2019-6-5 05:58</span><br>
+<span>LTSC没商店最大的缺陷就是没有VP9硬解了，重新装上之后没感觉有什么毛病 ...</span><br>
+<span>瘟7不需要什么支持，帕斯卡装完驱动就能硬解了（摊手</span><br>
+</p><p><b>Litccc: </b><br>
+<span>lstc有啥好的，不是很理解</span><br>
+</p><p><b>starash: </b><br>
+<span>Litccc 发表于 2019-7-1 20:59</span><br>
+<span> lstc有啥好的，不是很理解</span><br>
+<span>不会喂功能更新的屎，没有uwp系统非常精悍反应迅速。</span><br>
+</p><p><b>qwased: </b><br>
+<span>两个路人 发表于 2019-7-1 20:28</span><br>
+<span>瘟7不需要什么支持，帕斯卡装完驱动就能硬解了（摊手</span><br>
+<span>测试过了吗？以前1070+WIN7 chrome测试根本不能硬解</span><br>
+</p><p><b>Faerire: </b><br>
+<span>Litccc 发表于 2019-7-1 20:59</span><br>
+<span>lstc有啥好的，不是很理解</span><br>
+<span>干净迅速</span><br>
+<span>—— 来自 nubia NX595J, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>找个专业版的key试下呢</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>https://blog.csdn.net/yinqingwang/article/details/80161453</span><br>
+<span>跟着这个过一遍，就能用共享了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836964[0-50]</guid>
+    </item>
+  </channel>
+</rss>

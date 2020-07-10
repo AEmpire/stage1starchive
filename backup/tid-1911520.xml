@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】ios描述文件已失效，怎么办</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】ios描述文件已失效，怎么办</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:29:47 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】ios描述文件已失效，怎么办[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911520-1-1.html</link>
+      <description>【已解决】ios描述文件已失效，怎么办&#13;
+ 本帖最后由 sirlion 于 2020-1-31 10:12 编辑 
+
+ios12系列现在全部无法安装最新ios13的描述文件，意味着全部要升级了
+&#13;
+现在有没有办法知道ota屏蔽服务器的办法？网址是多少我在路由器上屏蔽掉也好
+&#13;
+网上搜了一圈都是描述文件，还是老外厉害，ios11就找到了ota升级的几个服务器域名
+&#13;
+路由器支持编辑dnsmasp加入这个
+&#13;
+address=/mesu.apple.com/127.0.0.1
+&#13;
+address=/appldnld.apple.com/127.0.0.1
+&#13;
+address=/swscan.apple.com/127.0.0.1
+&#13;
+address=/xp.apple.com/127.0.0.1
+&#13;
+address=/gdmf.apple.com/127.0.0.1
+&#13;
+如果手机有xx软件的，把这几个网址加入reject即可
+&#13;
+这样一来就可以再也不升级了</description>
+      <content:encoded><![CDATA[<p><b>sirlion: </b><br>
+<span>【已解决】ios描述文件已失效，怎么办</span><br>
+<span> 本帖最后由 sirlion 于 2020-1-31 10:12 编辑 </span><br>
+<span>ios12系列现在全部无法安装最新ios13的描述文件，意味着全部要升级了</span><br>
+<span>现在有没有办法知道ota屏蔽服务器的办法？网址是多少我在路由器上屏蔽掉也好</span><br>
+<span>网上搜了一圈都是描述文件，还是老外厉害，ios11就找到了ota升级的几个服务器域名</span><br>
+<span>路由器支持编辑dnsmasp加入这个</span><br>
+<span>address=/mesu.apple.com/127.0.0.1</span><br>
+<span>address=/appldnld.apple.com/127.0.0.1</span><br>
+<span>address=/swscan.apple.com/127.0.0.1</span><br>
+<span>address=/xp.apple.com/127.0.0.1</span><br>
+<span>address=/gdmf.apple.com/127.0.0.1</span><br>
+<span>如果手机有xx软件的，把这几个网址加入reject即可</span><br>
+<span>这样一来就可以再也不升级了</span><br>
+</p><p><b>macos: </b><br>
+<span>13的一个坏处是缓存等其他压不下来，除外还是比12要好啊，虽然大幅使用缓存可能加速闪存老化和耗电</span><br>
+</p><p><b>404489039: </b><br>
+<span>升级解决</span><br>
+</p><p><b>sirlion: </b><br>
+<span>屏蔽这几个域名，依然可以正常使用icloud和App Store，方便</span><br>
+</p><p><b>str007: </b><br>
+<span>http://udid.35ya.com</span><br>
+<span>12.4双机器昨日亲测有效</span><br>
+</p><p><b>sirlion: </b><br>
+<span>str007 发表于 2020-1-31 10:28</span><br>
+<span>http://udid.35ya.com</span><br>
+<span>12.4双机器昨日亲测有效</span><br>
+<span>没找到描述文件？都是越狱的插件啊</span><br>
+</p><p><b>str007: </b><br>
+<span>sirlion 发表于 2020-1-31 14:52</span><br>
+<span>没找到描述文件？都是越狱的插件啊</span><br>
+<span>看来是网站取消了描述文件，再找找吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911520[0-50]</guid>
+    </item>
+  </channel>
+</rss>

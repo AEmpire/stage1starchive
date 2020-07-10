@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>巨大的pagefile.sys文件应该怎么处理?Win10系统</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>巨大的pagefile.sys文件应该怎么处理?Win10系统</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:35:50 +0000</lastBuildDate>
+    <item>
+      <title>巨大的pagefile.sys文件应该怎么处理?Win10系统[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850824-1-1.html</link>
+      <description>巨大的pagefile.sys文件应该怎么处理?Win10系统&#13;
+ 本帖最后由 冀人燕南天 于 2019-8-2 12:15 编辑 
+
+这两天突然发现D盘空间少了很多，百般排查后才发现多了一个8G有余的pagefile.sys文件。这玩意应该怎么处理？能删除吗？网上查了一下说是和虚拟内存有关</description>
+      <content:encoded><![CDATA[<p><b>冀人燕南天: </b><br>
+<span>巨大的pagefile.sys文件应该怎么处理?Win10系统</span><br>
+<span> 本帖最后由 冀人燕南天 于 2019-8-2 12:15 编辑 </span><br>
+<span>这两天突然发现D盘空间少了很多，百般排查后才发现多了一个8G有余的pagefile.sys文件。这玩意应该怎么处理？能删除吗？网上查了一下说是和虚拟内存有关</span><br>
+</p><p><b>にまビ: </b><br>
+<span>Click Start, type Advanced System Settings into the Start menu and press Enter to open it.</span><br>
+<span>image</span><br>
+<span>Click the Settings button under performance.</span><br>
+<span>image</span><br>
+<span>Click over to the Advanced tab and click the Change button in the Virtual memory section.</span><br>
+<span>image</span><br>
+<span>Windows automatically manages your page file settings by default. Most users should leave these settings alone and allow Windows to make the best decision for you.</span><br>
+</p><p><b>elflie: </b><br>
+<span>你已经会百度pagefile.sys了为何不多百度一下</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span>elflie 发表于 2019-8-2 12:25</span><br>
+<span>你已经会百度pagefile.sys了为何不多百度一下</span><br>
+<span>这些信息没什么价值，所以才来论坛问</span><br>
+</p><p><b>404489039: </b><br>
+<span>page file可以修改大小修改位置</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span>404489039 发表于 2019-8-2 12:37</span><br>
+<span>page file可以修改大小修改位置</span><br>
+<span>改小之后有什么影响吗?</span><br>
+</p><p><b>sirlion: </b><br>
+<span>休眠文件必须和你的内存大小一样，不然怎么休眠</span><br>
+</p><p><b>macos: </b><br>
+<span>page一般是动态的，单次运行久了，肯定page都不小，太多页面分配回收不干净，用重启回收</span><br>
+</p><p><b>EP2: </b><br>
+<span>不用理他，隐藏了就是</span><br>
+</p><p><b>elflie: </b><br>
+<span>冀人燕南天 发表于 2019-8-2 12:36</span><br>
+<span>这些信息没什么价值，所以才来论坛问</span><br>
+<span>那，还是买个大一点的硬盘吧</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span> 本帖最后由 zlzhcqblf 于 2019-8-2 14:40 编辑 </span><br>
+<span>虚拟内存，嫌大可以改小一点。</span><br>
+<span>改小后如果出问题改回默认就行，应该问题不大，有段时间挺流行把虚拟内存直接关掉着</span><br>
+</p><p><b>badmouse: </b><br>
+<span>你缺这8G空间吗？不缺就放在那别管，关闭虚拟内存会导致某些程序出问题了。如果你D盘空间小可以在系统设置里换个盘</span><br>
+</p><p><b>csfantasy: </b><br>
+<span>我是把ssd盘的虚拟内存关了，机械盘的留着</span><br>
+</p><p><b>yuuu: </b><br>
+<span>自从我所有电脑都是512g硬盘之后我就不管虚拟内存了</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>csfantasy 发表于 2019-8-2 15:02</span><br>
+<span>我是把ssd盘的虚拟内存关了，机械盘的留着</span><br>
+<span>CHH转载过一个日本人的测试，说SSD盘上的页面文件效率比机械上的高得多的多（如果有傲腾更好）。而且事实上win7时代微软就优化过固态硬盘上的页面文件问题，其实不必要担心页面文件对固态寿命的影响。</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>sirlion 发表于 2019-8-2 12:45</span><br>
+<span>休眠文件必须和你的内存大小一样，不然怎么休眠</span><br>
+<span>休眠文件是hiberfil.sys</span><br>
+</p><p><b>五月病少女: </b><br>
+<span>虚拟内存那速度有啥用，装完系统直接关闭</span><br>
+<span>—— 来自 OPPO PBEM00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>心二: </b><br>
+<span>为什么会这2天才少空间，这才是奇怪的地方吧？</span><br>
+<span>新系统时应该就存在了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span>心二 发表于 2019-8-2 17:30</span><br>
+<span>为什么会这2天才少空间，这才是奇怪的地方吧？</span><br>
+<span>新系统时应该就存在了</span><br>
+<span>是啊，正是因为硬盘容量突然红了我才注意到的。</span><br>
+</p><p><b>infinte: </b><br>
+<span>冀人燕南天 发表于 2019-8-2 01:33</span><br>
+<span>是啊，正是因为硬盘容量突然红了我才注意到的。</span><br>
+<span>建议先用 spacesniffer 看下 D 盘占用，可能是别的东西在占用空间</span><br>
+<span>遇到性能问题第一时刻想到的应当是测量而不是瞎试，比如卡的话，上 WPT 抓下记录立马就知道怎么回事</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>默认D盘并不会开页面文件, 这电脑是你一个人用吗?</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span> 本帖最后由 冀人燕南天 于 2019-8-2 19:24 编辑 </span><br>
+<span>infinte 发表于 2019-8-2 17:51</span><br>
+<span>建议先用 spacesniffer 看下 D 盘占用，可能是别的东西在占用空间</span><br>
+<span>遇到性能问题第一时刻想到的应当是测量 ...</span><br>
+<span>测量过没问题，几天前我很清楚地记录过余量，期间D盘没有下载或拷贝过任何东西，所以发现问题时才确定空间正正好好少了8G。电脑端打开隐藏文件显示也没有痕迹，我还是用手机smb才发现有个刚好8G的pagefile.sys</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span>JimmyZ 发表于 2019-8-2 17:51</span><br>
+<span>默认D盘并不会开页面文件, 这电脑是你一个人用吗?</span><br>
+<span>一个人用。正因为D盘通常没这些问题我才立刻注意到了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>看到8g巨大和有人专门pagefile不放ssd，我以为穿越到五年前...</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>冀人燕南天 发表于 2019-8-2 19:23</span><br>
+<span>一个人用。正因为D盘通常没这些问题我才立刻注意到了</span><br>
+<span>看下系统设置里面是怎么设置的吧, 如果没有设置D盘页面文件, 你却看到了D:\pagefile.sys, 这就可能是什么"软件"放的伪装.</span><br>
+</p><p><b>風駿: </b><br>
+<span>我32G内存，虚拟内存全关了也没事</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>風駿 发表于 2019-8-2 20:52</span><br>
+<span>我32G内存，虚拟内存全关了也没事</span><br>
+<span>你内存再大, 关页面文件会有一些智障软件会报错, 比方说吃鸡.</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>sirlion 发表于 2019-8-2 12:45</span><br>
+<span>休眠文件必须和你的内存大小一样，不然怎么休眠</span><br>
+<span>休眠文件是hiberfil.sys，而且也可以通过 POWERCFG /HIBERNATE /SIZE 压缩</span><br>
+</p><p><b>Sofiya: </b><br>
+<span>自动管理然后C盘空间不足移到D了？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850824[0-50]</guid>
+    </item>
+  </channel>
+</rss>

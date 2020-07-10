@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问一个hexo的问题，关于wordpress迁移插件的</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问一个hexo的问题，关于wordpress迁移插件的</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:47:12 +0000</lastBuildDate>
+    <item>
+      <title>问一个hexo的问题，关于wordpress迁移插件的[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839471-1-1.html</link>
+      <description>问一个hexo的问题，关于wordpress迁移插件的&#13;
+一年一度又收到了主机商的续约邮件
+&#13;
+想想上一次打开wordpress后台已经是上个月了
+&#13;
+心一横干脆搬到免费的github上
+&#13;
+于是搭建hexo，一步步按照官方文档来，都没啥问题
+&#13;
+到了文章迁移的那一步，于是问题来了
+&#13;
+安装wordpress to hexo migrator的时候始终报错
+&#13;
+按照sf上的参考换安装方式也是一样
+&#13;
+搜了一圈也没找到解答
+&#13;
+不知道外野有没有高手能解答一下
+&#13;
+用下面的代码安装迁移工具时报错
+&#13;
+npm install hexo-migrator-wordpress --save
+&#13;
+报错代码
+&#13;
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+&#13;
+npm ERR! Unexpected end of JSON input while parsing near '...0.4.28":{"name":"ws",'
+&#13;
+npm ERR! A complete log of this run can be found in:
+&#13;
+npm ERR!   C:\Users\jokrface\AppData\Roaming\npm-cache\_logs\2019-06-12T23_42_50_103Z-debug.log</description>
+      <content:encoded><![CDATA[<p><b>nokisubye01: </b><br>
+<span>问一个hexo的问题，关于wordpress迁移插件的</span><br>
+<span>一年一度又收到了主机商的续约邮件</span><br>
+<span>想想上一次打开wordpress后台已经是上个月了</span><br>
+<span>心一横干脆搬到免费的github上</span><br>
+<span>于是搭建hexo，一步步按照官方文档来，都没啥问题</span><br>
+<span>到了文章迁移的那一步，于是问题来了</span><br>
+<span>安装wordpress to hexo migrator的时候始终报错</span><br>
+<span>按照sf上的参考换安装方式也是一样</span><br>
+<span>搜了一圈也没找到解答</span><br>
+<span>不知道外野有没有高手能解答一下</span><br>
+<span>用下面的代码安装迁移工具时报错</span><br>
+<span>npm install hexo-migrator-wordpress --save</span><br>
+<span>报错代码</span><br>
+<span>npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()</span><br>
+<span>npm ERR! Unexpected end of JSON input while parsing near '...0.4.28":{"name":"ws",'</span><br>
+<span>npm ERR! A complete log of this run can be found in:</span><br>
+<span>npm ERR!   C:\Users\jokrface\AppData\Roaming\npm-cache\_logs\2019-06-12T23_42_50_103Z-debug.log</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span>你说的这俩我只用过wordpress...</span><br>
+<span>不过，A complete log of this run can be found in:</span><br>
+<span>C:\Users\jokrface\AppData\Roaming\npm-cache\_logs\2019-06-12T23_42_50_103Z-debug.log</span><br>
+<span>虽说我觉得完整log也不一定有用吧，但总比你这半截错误信息强点。</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nokisubye01: </b><br>
+<span>Sacnussem 发表于 2019-6-14 21:12</span><br>
+<span>你说的这俩我只用过wordpress...</span><br>
+<span>不过，A complete log of this run can be found in:</span><br>
+<span>看过这个log</span><br>
+<span>跟这个提示几乎没区别</span><br>
+<span>—— 来自 samsung SM-G9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ohi: </b><br>
+<span>有个json解析不了，看看是哪个文件</span><br>
+</p><p><b>takooctopus: </b><br>
+<span>所以我都是重新弄文本到Hexo上了</span><br>
+<span>—— 来自 Sony F8332, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>redbuck: </b><br>
+<span>先换淘宝源试试。</span><br>
+<span>再不行就安装yarn（npm i yarn -g）,然后用yarn安装（yarn add hexo-migrator-wordpress）</span><br>
+<span>ps: 目录最好不要带中文</span><br>
+</p><p><b>yeatse: </b><br>
+<span>猜测网络问题</span><br>
+</p><p><b>nokisubye01: </b><br>
+<span>redbuck 发表于 2019-6-14 21:59</span><br>
+<span>先换淘宝源试试。</span><br>
+<span>再不行就安装yarn（npm i yarn -g）,然后用yarn安装（yarn add hexo-migrator-wordpress ...</span><br>
+<span>感谢，切换淘宝源之后</span><br>
+<span>按照提示先装了eslint，然后再装acorn</span><br>
+<span>再跑一遍migrator，最后audit fix</span><br>
+<span>终于行了</span><br>
+<span>看来还是网络的问题？</span><br>
+</p><p><b>redbuck: </b><br>
+<span>nokisubye01 发表于 2019-6-15 17:32</span><br>
+<span>感谢，切换淘宝源之后</span><br>
+<span>按照提示先装了eslint，然后再装acorn</span><br>
+<span>再跑一遍migrator，最后audit fix</span><br>
+<span>可能吧。</span><br>
+<span>最近墙各种发威</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839471[0-50]</guid>
+    </item>
+  </channel>
+</rss>

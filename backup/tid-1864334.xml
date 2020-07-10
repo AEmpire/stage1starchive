@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[喜闻乐见概率题]连续投硬币直到出现n次正面求次数期望值</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[喜闻乐见概率题]连续投硬币直到出现n次正面求次数期望值</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:10:28 +0000</lastBuildDate>
+    <item>
+      <title>[喜闻乐见概率题]连续投硬币直到出现n次正面求次数期望值[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864334-1-1.html</link>
+      <description>[喜闻乐见概率题]连续投硬币直到出现n次正面求次数期望值&#13;
+ 本帖最后由 shamal0324 于 2019-11-8 14:37 编辑 
+
+http://ww1.sinaimg.cn/large/779f3f1agy1g8qhv24xnkj21dh06fk1p.jpg
+&#13;
+一枚不规则硬币（正面出现概率为p）连续投掷，直到出现连续的n次正面，求总投掷次数期望值。
+&#13;
+在stackexchange已经找到了答案，但一来不规范（要求用很正规的conditional expectation的形式写出来），二来半懂不懂的，为什么出现第一次tail之前出现过1个head（Y=1），X的期待值要+1，Y=2，X的期待值+2？</description>
+      <content:encoded><![CDATA[<p><b>shamal0324: </b><br>
+<span>[喜闻乐见概率题]连续投硬币直到出现n次正面求次数期望值</span><br>
+<span> 本帖最后由 shamal0324 于 2019-11-8 14:37 编辑 </span><br>
+<img src="http://ww1.sinaimg.cn/large/779f3f1agy1g8qhv24xnkj21dh06fk1p.jpg" title="http://ww1.sinaimg.cn/large/779f3f1agy1g8qhv24xnkj21dh06fk1p.jpg"><br>
+<span>一枚不规则硬币（正面出现概率为p）连续投掷，直到出现连续的n次正面，求总投掷次数期望值。</span><br>
+<span>在stackexchange已经找到了答案，但一来不规范（要求用很正规的conditional expectation的形式写出来），二来半懂不懂的，为什么出现第一次tail之前出现过1个head（Y=1），X的期待值要+1，Y=2，X的期待值+2？</span><br>
+</p><p><b>dangoron: </b><br>
+<span>Y是指第一个tail出现的时候投掷硬币的次数，到Y之后相当于回到初始状态，除了之前抛的Y次期望下还需要X次才能满足条件，所以 X=\sum_k P(Y=k)(Y+X) </span><br>
+</p><p><b>shamal0324: </b><br>
+<span>dangoron 发表于 2019-11-8 14:07</span><br>
+<span>Y是指第一个tail出现的时候投掷硬币的次数，到Y之后相当于回到初始状态，除了之前抛的Y次期望下还需要X次才 ...</span><br>
+<span>好像懂了，谢谢，可惜不知怎的加不了鹅</span><br>
+</p><p><b>asdhai: </b><br>
+<span>shamal0324 发表于 2019-11-8 14:31</span><br>
+<span>好像懂了，谢谢，可惜不知怎的加不了鹅</span><br>
+<span>你没有死鱼。</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>asdhai 发表于 2019-11-8 14:41</span><br>
+<span>你没有死鱼。</span><br>
+<span>死鱼怎么加？</span><br>
+</p><p><b>asdhai: </b><br>
+<span>shamal0324 发表于 2019-11-8 14:44</span><br>
+<span>死鱼怎么加？</span><br>
+<span>每日签到，看右上角。</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>马尔科夫链吧...我只会写P矩阵，然后稳定分布是\piP=\pi吧，然后什么时间就不知道了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864334[0-50]</guid>
+    </item>
+  </channel>
+</rss>

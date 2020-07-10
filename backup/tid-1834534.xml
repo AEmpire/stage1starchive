@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>新装系统黑屏死机，该怎么排查？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>新装系统黑屏死机，该怎么排查？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:17:25 +0000</lastBuildDate>
+    <item>
+      <title>新装系统黑屏死机，该怎么排查？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834534-1-1.html</link>
+      <description>新装系统黑屏死机，该怎么排查？&#13;
+原来的老机器太慢了，硬盘还时不时响一下听得心里发慌，于是就买了块东芝tr200准备新装系统。
+&#13;
+cpu：A10-7800. 内存：2条4G。电源额定220w，无显卡。主板：七彩虹小板
+&#13;
+5.22 安装之前了解了一下，老式bios硬盘要用mbr分区。在新硬盘上安装cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24 和应用商店恢复包，同时挂着老硬盘和移动硬盘
+&#13;
+5.23 装了东芝的ssd软件，一看没开ahci。bios里开启后无法启动，按照网上的方法改了注册表，成功了。测试了一下速度达到了低端ssd的水平。
+&#13;
+5.24 突然黑屏死机，只能重启
+&#13;
+5.25 正常
+&#13;
+5.26 今天黑屏3次，大概三四个小时一次吧
+&#13;
+不知道这些信息够不够，老硬盘装的是win10 1709，虽然感觉快挂了不过还是挺稳定的（之前出现过一次识别不出硬盘的情况，重新插了下好了）。</description>
+      <content:encoded><![CDATA[<p><b>sniffer: </b><br>
+<span>新装系统黑屏死机，该怎么排查？</span><br>
+<span>原来的老机器太慢了，硬盘还时不时响一下听得心里发慌，于是就买了块东芝tr200准备新装系统。</span><br>
+<span>cpu：A10-7800. 内存：2条4G。电源额定220w，无显卡。主板：七彩虹小板</span><br>
+<span>5.22 安装之前了解了一下，老式bios硬盘要用mbr分区。在新硬盘上安装cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24 和应用商店恢复包，同时挂着老硬盘和移动硬盘</span><br>
+<span>5.23 装了东芝的ssd软件，一看没开ahci。bios里开启后无法启动，按照网上的方法改了注册表，成功了。测试了一下速度达到了低端ssd的水平。</span><br>
+<span>5.24 突然黑屏死机，只能重启</span><br>
+<span>5.25 正常</span><br>
+<span>5.26 今天黑屏3次，大概三四个小时一次吧</span><br>
+<span>不知道这些信息够不够，老硬盘装的是win10 1709，虽然感觉快挂了不过还是挺稳定的（之前出现过一次识别不出硬盘的情况，重新插了下好了）。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>格盘重装试试？</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>為甚麼都喜歡裝LTSC...</span><br>
+<span>其實普通企業版也可以關閉或者延遲更新,也沒甚麼垃圾,沒必要裝LTSC</span><br>
+<span>你要不要下個1903/1809的普通企業版試試</span><br>
+<span>AHCI在裝系統的時候就要先開啟再安裝系統</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834534[0-50]</guid>
+    </item>
+  </channel>
+</rss>

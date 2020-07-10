@@ -1,0 +1,1908 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用HEVC批量压缩漫画图片 HEIC 并行化更新</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用HEVC批量压缩漫画图片 HEIC 并行化更新</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:16:51 +0000</lastBuildDate>
+    <item>
+      <title>用HEVC批量压缩漫画图片 HEIC 并行化更新[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1931974-1-1.html</link>
+      <description>使用HEVC无损压缩漫画收藏&#13;
+ 本帖最后由 冰箱研会长 于 2020-5-2 17:00 编辑 
+
+更新了对比图 2020年5月2日 15点15分
+&#13;
+--------------
+&#13;
+前两天看到aji47有关漫画阅读器的帖子:
+&#13;
+https://bbs.saraba1st.com/2b/thread-1924064-1-1.html
+&#13;
+一方面感叹楼主的行动力, 一方面也发现还有很多人也在本地保存着喜欢的漫画.
+&#13;
+任何种类的收藏在达到一定规模之后必然会逐步提高对储存介质容量的需求.
+&#13;
+在图片储存这方面, 一个高效的格式, 可以在画质无损的情况下以极大的比率减少文件所需要的储存空间.
+&#13;
+然而优秀的图片格式有很多种, 但并不是每种都得到了广泛支持.
+&#13;
+号称最高压缩比的Flif, 已经不知道多久没更新了.
+&#13;
+据称性能最好的BGP, 连解码器都需要自己编译.
+&#13;
+如果你的图片规格是哪儿哪儿用着都费劲, 转换格式其实也是自找麻烦.
+&#13;
+所幸, 除了png jpg gif 这类古董货之外, 我们是有一个泛用性高, 压缩比高, 渲染性能优秀的图片格式的,
+&#13;
+那就是
+&#13;
+webp(划掉)
+&#13;
+说错了...
+&#13;
+那就是
+&#13;
+HEIC!
+&#13;
+关于heic的起源和爸爸们, 还有它和webp的恩怨, 想了解的还请自行百度, 看完之后说不定你也会高呼 "万恶的资本主义"
+&#13;
+heic本身其实不是图片格式, 而是一种容器(里面甚至可以放json), 这里我们所说的是heic格式的图片, 不是heic封装jpg png webp, 而是封装了.265编码的一帧的heic
+&#13;
+至于.265, 对视频压制有了解的各位或多或少知道这个编码的性能是如何优秀, 这里我们要做的, 就是利用这个性能, 对原有的图片重新编码封装, 达到无损转换图片, 节省空间的目的.
+&#13;
+ 前期准备
+&#13;
+1. FFmpeg
+&#13;
+2.ImageMagick
+&#13;
+3.Mp4box
+&#13;
+4.Hevc图像扩展
+&#13;
+(可选): 第三方图片阅读器
+&#13;
+1-3 下载各自的软件包:
+&#13;
+https://ffmpeg.zeranoe.com/builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502094912.png
+&#13;
+https://imagemagick.org/download ... -10-Q16-x64-dll.exe
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095004.png
+&#13;
+https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095133.png
+&#13;
+4.
+&#13;
+(可选): 切换win10地区设置为美国
+&#13;
+(必选):
+&#13;
+https://www.microsoft.com/en-us/ ... 7593_1243925&amp;tduid=$ir__1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900$$7593$$1243925$$dquE8U2QoAw-vAQJT5WIzcashB34AtLacA$$$&amp;ranMID=24542&amp;ranEAID=dquE8U2QoAw&amp;ranSiteID=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;epi=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;irgwc=1&amp;irclickid=_1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900&amp;wa=wsignin1.0&amp;activetab=pivot:overviewtab 
+&#13;
+上面的链接好像不好使?
+&#13;
+https://www.microsoft.com/en-us/ ... cturer/9n4wgh0z6vhq使用微软账号购买安装此免费视频扩展
+&#13;
+(必选):
+&#13;
+在微软商店搜索heic图像扩展, 安装, 也是免费的. 之所以上面那个提供链接, 是因为只有美区有, 国区搜索不到.
+&#13;
+5.(可选) 第三方阅读器 Xnview MP
+&#13;
+在完成了前四步之后, 你的电脑应该已经可以无障碍查看heic图像了(默认照片程序).
+&#13;
+如果你想使用第三方阅读器来统一阅读体验(假设你还需要阅读webp), 那么我建议你安装xnview, 及其heic扩展:
+&#13;
+https://newsgroup.xnview.com/viewtopic.php?t=36661
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095724.png
+&#13;
+这里所说的heic和heif是一回事.
+&#13;
+批量转换你的图片
+&#13;
+#具体实现没有兴趣直接拉到最后
+&#13;
+转换的流程如下:
+&#13;
+解码图片 编码图片 封装成heic
+&#13;
+在仅仅考虑这些的条件下, 我们只要ffmpeg就可以解决:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+-i 后面是输入文件地址 -crt是质量参数 越低越好 0 为无损 后面的""内的是输出文件的地址. 
+&#13;
+输出之后使用mp4box封装, 然后移除帧文件, 里面所有$开头的都是powershell设定的变量, 因为这是直接从我的函数中截取出来的, 所以可读性差一点.
+&#13;
+熟悉powershell的朋友可能看出来这些大部分都是 管道传递的对象的属性. 
+&#13;
+然而hevc编码有一个问题, 那就是编码文件的时候, 只接受 "长宽都是偶数的图片". 然而图片大小这种东西...讲道理虽然是视频常见的分辨率就那么几种, 图片的分辨率则是千差万别.
+&#13;
+ffmpeg虽然内置了一个拉伸算法来允许你对图像进行拉伸, 
+&#13;
+然而这种加减一个像素的拉伸, 在这些本应用于成倍缩放的情景中   的算法手下会产生极为糟糕的后果.
+&#13;
+反映到漫画上来, 就是细节纹理恶化, 网点全灭.
+&#13;
+由于上述原因, 这里我采用的是对图像平铺扩展的方式进行大小改变.
+&#13;
+      magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";通过将图像至于大了半圈的底板中心 (其实不那么中心, 偶数怎么可能有中心呢?)里,
+&#13;
+来让图像满足hevc编码的条件.
+&#13;
+在成品的函数中, 我是用判断余数的方式自动设置了缩放参数.
+&#13;
+!!!!! 注意 这里会直接在原图的基础上进行修改, 图片质量不会变化, 只是多了一圈像素,
+&#13;
+但为了规避可能的失误操作, 在处理之前请复制一些文件进行测试
+&#13;
+到这里两步, 必要的工作都已经结束了.
+&#13;
+用过power shell的 get children 获取对象, 依次传递到管道执行命令就可以完成格式转换.
+&#13;
+因为其他图像格式之间的转换不需要ffmepg, imagemagic就可以支持, 所以加了一个判断目标格式的if在里面,
+&#13;
+其他情况都是使用IM, heic时使用ffmpeg.
+&#13;
+顺便说一句, win10的image magick是支持hevc解码的, 也就是说它可以从heic转出, 而不能转入.
+&#13;
+下面就是完整的函数了,.
+&#13;
+在"我的文档\WindowsPowerShell"文件夹下新建一个名为:
+&#13;
+Microsoft.PowerShell_profile.ps1
+&#13;
+的空文件, 使用记事本打开, 粘贴下面的函数保存.
+&#13;
+紧急修正! 函数现已使用8bit YUV色彩空间, win10的扩展不支持10bit的hevc!!!
+&#13;
+第二次修正, 有人评论色彩空间的问题, 我找了几个彩**片试了一下, 确实需要进一步修正.
+&#13;
+这里使用colormatrix对原图的色彩空间到新的色彩空间做了变换, 也启用了回复中的无损参数
+&#13;
+扩展阅读:https://trac.ffmpeg.org/wiki/colorspace
+&#13;
+ffmpegWIKI中对色彩空间变换的解释和例子.
+&#13;
+我找了几个pixiv的图试了一下, 色彩空间映射基本完美了.
+&#13;
+不过这个东西 源头不同 需要的参数也不同 不能一概而论
+&#13;
+所以要是有谁发现变换之后色彩不一样了 可以发出来大家一起研究一下
+&#13;
+function imgconv($tpath, $quality,$sformat ,$tformat)
+&#13;
+{
+&#13;
+    If($tformat -eq "heic")
+&#13;
+    {
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $extentmark = 0;
+&#13;
+            $imwidth=magick identify -ping -format "%w" $_.FullName
+&#13;
+            $imwidth=$imwidth;
+&#13;
+            If(($imwidth)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imwidth=$imwidth+1;
+&#13;
+                $extentmark=1;
+&#13;
+                }
+&#13;
+            $imheight=magick identify -ping -format "%h" $_.FullName;
+&#13;
+            $imheight=$imheight;
+&#13;
+            If(($imheight)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imheight=$imheight+1;
+&#13;
+                $extentmark=1;
+&#13;
+            }
+&#13;
+            If($extentmark)
+&#13;
+            {
+&#13;
+                magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";
+&#13;
+            }
+&#13;
+      }
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $crfoffset = $quality * 10;
+&#13;
+            $crfval= 11 - $crfoffset;
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"&lt;font color="Purple"&gt;-crf $crfval &lt;/font&gt;&lt;font color="Red"&gt;-x265-params lossless=1:range=full &lt;/font&gt;-dst_range 1 -pix_fmt yuv420p&lt;font color="Red"&gt; -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6&lt;/font&gt;-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+            MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+            rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+      }
+&#13;
+}
+&#13;
+    Else
+&#13;
+{
+&#13;
+    dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+      $quality=$quality;
+&#13;
+      $magickquality=$quality * 100;
+&#13;
+      #$magickquality="$magickquality"+"%";
+&#13;
+      magick $_.FullName -quality $magickquality -interlace Plane -sampling-factor 4:2:0 -strip "$($_.Directory)\$($_.Basename).$tformat";
+&#13;
+      }
+&#13;
+}
+&#13;
+}
+&#13;
+然后使用管理员身份打开powershell, 设置执行策略 (如果一切正常, 你打开powershell的时候应该会报错说什么权限啊 策略啊之类的问题)
+&#13;
+set-executionpolicy remotesigned
+&#13;
+完成之后重启powershell即可使用上方函数.
+&#13;
+用法如下
+&#13;
+在powershell中输入
+&#13;
+imgconv "图片所在的目标文件夹" .原图格式 .目标格式即可递归查找目标路径下所有 原图格式 的图片 转换为 目标格式.
+&#13;
+题外话
+&#13;
+其实webp也是相当不错的选择, 不过我是苹果用户, 而苹果对webp的支持真是一言难尽....
+&#13;
+顺便, 有人知道怎么用sharex上传图片到gitee么..
+&#13;
+题外话2
+&#13;
+这个是链接里的那个扩展, 美区有免费版的 国区只有收费版的...
+&#13;
+如果这个找不到的话可以试试第三方的浏览器
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502120101.jpg
+&#13;
+题外话3
+&#13;
+推荐一个ios上的支持webp heic的漫画阅读器 里世界
+&#13;
+功能和别的阅读器比起来属于被秒杀的类型 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp
+&#13;
+题外话4
+&#13;
+xnview支持10bit解码 所以如果你使用xnview 可以:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p -f hevc "$($_.Directory)\$($_.Basename).hvc";这一行改成:
+&#13;
+   ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval -preset veryslow -tune grain -pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";现在支持heic的阅读器 比如 imageglass 大多都是8bit only 所以为了兼容性 还是使用8bit模式就行
+&#13;
+但是苹果支持10bit 23333
+&#13;
+题外话5
+&#13;
+我其实很想发个对比图...但是我的都处理完了.....
+&#13;
+题外话6
+&#13;
+虽然现在(2020年5月2日14点40分)的函数里面启用了无损模式
+&#13;
+-x265-params lossless=1:range=full 但是因为后面一系列色彩操作优化还不是很好 所以压缩比并不是很理想
+&#13;
+如果想要在这个基础上达到比较高的压缩比
+&#13;
+去掉lossless=1
+&#13;
+题外话7
+&#13;
+如果上面的你觉得也不行 可以试试这个 这个是我现在用的 使用函数的时候 参数给低一点也无所谓 (目前设置最高1 最低0.1)
+&#13;
+我很懒, 你仔细看函数里面参数映射那里就会发现, 无论你怎么调节输入, crt的范围永远都低于无肉眼可见损失的范围 
+&#13;
+所以你可以随便改改 把$crfval的初始值设置成30啥的 (现在是11), 能压缩的更好.
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"-crf $crfval -x265-params range=full -dst_range 1 -pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -vf "colormatrix=bt470bg:bt709" -color_range 1 -colorspace 1 -color_primaries 1 -color_trc 1-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话8
+&#13;
+最最最最最最终参数
+&#13;
+                        ffmpeg -i $_.FullName-crf $crfval-pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6   -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话9
+&#13;
+这两天在写QT的UI 等我弄差不多了 撸个图形界面出来</description>
+      <content:encoded><![CDATA[<p><b>冰箱研会长: </b><br>
+<span>逆袭的黑月 发表于 2020-5-16 22:29</span><br>
+<span>win系统的壁纸是不是也是识别不了...我的藏图全部转webp了,现在要换个壁纸还要找了图再转回来搞得我 ...</span><br>
+<span>可以的 只要安装了win10的解码器就行 </span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>xzhlj0325 发表于 2020-5-16 22:55</span><br>
+<span>ios上的comicshare不支持heic，有点可惜了</span><br>
+<span>我只能说我前两天发现直接把文件扔到 "文件" 这个app里就能直接看....</span><br>
+</p><p><b>凤舞夜月: </b><br>
+<span>aji47 发表于 2020-5-16 11:41</span><br>
+<span>说错，24页640MB。</span><br>
+<span>转换到webp比hevc慢吗？</span><br>
+<span>最近弄NAS才想起来你做的漫画管理软件，想问问作者，有兴趣和帖子作者 冰箱研会长 的图片压缩搞联动吗?</span><br>
+<span>虽然这个格式好像是苹果的图片格式，但是拿来收藏本子漫画什么的好像挺不错的。</span><br>
+<span>还有，有没有兴趣弄成 docker教程，方便群晖或者威联通使用管理?</span><br>
+</p><p><b>aji47: </b><br>
+<span> 本帖最后由 aji47 于 2020-5-25 15:49 编辑 </span><br>
+<span>凤舞夜月 发表于 2020-5-25 13:28</span><br>
+<span>最近弄NAS才想起来你做的漫画管理软件，想问问作者，有兴趣和帖子作者 冰箱研会长 的图片压缩搞联动吗?</span><br>
+<span> ...</span><br>
+<span>1. https://bbs.saraba1st.com/2b/thread-1935936-1-1.html 图片压缩的功能我做了。实际转换都是image magick。那个是更成熟方便。图片转换格式只需要一行代码。加了几百行的代码都是保证转换图片不丢失内容和方便管理的。</span><br>
+<span>我试了可以转换成webp，hevc不确定。反正我最后试了一圈，对jpg效果满意。默认设成jpg了。</span><br>
+<span>2. 有docker的教程啊。github上面有个热心人士帮我写了教程。 具体好不好用，我就不知道。我没有NAS</span><br>
+<span>https://github.com/hjyssg/ShiguReader/blob/dev/dockerguide.md</span><br>
+</p><p><b>凤舞夜月: </b><br>
+<span>aji47 发表于 2020-5-25 15:48</span><br>
+<span>1. https://bbs.saraba1st.com/2b/thread-1935936-1-1.html 图片压缩的功能我做了。实际转换都是image mag ...</span><br>
+<span>一/ 压缩之后照片细节素质损失大吗?算无损压缩还是有损?</span><br>
+<span>二/悲哀的发现自己之后群晖 威联通这类NAS docker的小白式教程</span><br>
+</p><p><b>aji47: </b><br>
+<span>凤舞夜月 发表于 2020-5-25 18:05</span><br>
+<span>一/ 压缩之后照片细节素质损失大吗?算无损压缩还是有损?</span><br>
+<span>二/悲哀的发现自己之后群晖 威联通这类NAS docke ...</span><br>
+<span>1.有损。不喜欢可以自己改参数，改成无损。</span><br>
+<span>2. 有人送我nas 我就支持</span><br>
+</p><p><b>classa: </b><br>
+<span>简直是天书，对我来说...</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1931974[100-150]</guid>
+    </item>
+    <item>
+      <title>用HEVC批量压缩漫画图片 HEIC 并行化更新[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1931974-1-1.html</link>
+      <description>使用HEVC无损压缩漫画收藏&#13;
+ 本帖最后由 冰箱研会长 于 2020-5-2 17:00 编辑 
+
+更新了对比图 2020年5月2日 15点15分
+&#13;
+--------------
+&#13;
+前两天看到aji47有关漫画阅读器的帖子:
+&#13;
+https://bbs.saraba1st.com/2b/thread-1924064-1-1.html
+&#13;
+一方面感叹楼主的行动力, 一方面也发现还有很多人也在本地保存着喜欢的漫画.
+&#13;
+任何种类的收藏在达到一定规模之后必然会逐步提高对储存介质容量的需求.
+&#13;
+在图片储存这方面, 一个高效的格式, 可以在画质无损的情况下以极大的比率减少文件所需要的储存空间.
+&#13;
+然而优秀的图片格式有很多种, 但并不是每种都得到了广泛支持.
+&#13;
+号称最高压缩比的Flif, 已经不知道多久没更新了.
+&#13;
+据称性能最好的BGP, 连解码器都需要自己编译.
+&#13;
+如果你的图片规格是哪儿哪儿用着都费劲, 转换格式其实也是自找麻烦.
+&#13;
+所幸, 除了png jpg gif 这类古董货之外, 我们是有一个泛用性高, 压缩比高, 渲染性能优秀的图片格式的,
+&#13;
+那就是
+&#13;
+webp(划掉)
+&#13;
+说错了...
+&#13;
+那就是
+&#13;
+HEIC!
+&#13;
+关于heic的起源和爸爸们, 还有它和webp的恩怨, 想了解的还请自行百度, 看完之后说不定你也会高呼 "万恶的资本主义"
+&#13;
+heic本身其实不是图片格式, 而是一种容器(里面甚至可以放json), 这里我们所说的是heic格式的图片, 不是heic封装jpg png webp, 而是封装了.265编码的一帧的heic
+&#13;
+至于.265, 对视频压制有了解的各位或多或少知道这个编码的性能是如何优秀, 这里我们要做的, 就是利用这个性能, 对原有的图片重新编码封装, 达到无损转换图片, 节省空间的目的.
+&#13;
+ 前期准备
+&#13;
+1. FFmpeg
+&#13;
+2.ImageMagick
+&#13;
+3.Mp4box
+&#13;
+4.Hevc图像扩展
+&#13;
+(可选): 第三方图片阅读器
+&#13;
+1-3 下载各自的软件包:
+&#13;
+https://ffmpeg.zeranoe.com/builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502094912.png
+&#13;
+https://imagemagick.org/download ... -10-Q16-x64-dll.exe
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095004.png
+&#13;
+https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095133.png
+&#13;
+4.
+&#13;
+(可选): 切换win10地区设置为美国
+&#13;
+(必选):
+&#13;
+https://www.microsoft.com/en-us/ ... 7593_1243925&amp;tduid=$ir__1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900$$7593$$1243925$$dquE8U2QoAw-vAQJT5WIzcashB34AtLacA$$$&amp;ranMID=24542&amp;ranEAID=dquE8U2QoAw&amp;ranSiteID=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;epi=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;irgwc=1&amp;irclickid=_1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900&amp;wa=wsignin1.0&amp;activetab=pivot:overviewtab 
+&#13;
+上面的链接好像不好使?
+&#13;
+https://www.microsoft.com/en-us/ ... cturer/9n4wgh0z6vhq使用微软账号购买安装此免费视频扩展
+&#13;
+(必选):
+&#13;
+在微软商店搜索heic图像扩展, 安装, 也是免费的. 之所以上面那个提供链接, 是因为只有美区有, 国区搜索不到.
+&#13;
+5.(可选) 第三方阅读器 Xnview MP
+&#13;
+在完成了前四步之后, 你的电脑应该已经可以无障碍查看heic图像了(默认照片程序).
+&#13;
+如果你想使用第三方阅读器来统一阅读体验(假设你还需要阅读webp), 那么我建议你安装xnview, 及其heic扩展:
+&#13;
+https://newsgroup.xnview.com/viewtopic.php?t=36661
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095724.png
+&#13;
+这里所说的heic和heif是一回事.
+&#13;
+批量转换你的图片
+&#13;
+#具体实现没有兴趣直接拉到最后
+&#13;
+转换的流程如下:
+&#13;
+解码图片 编码图片 封装成heic
+&#13;
+在仅仅考虑这些的条件下, 我们只要ffmpeg就可以解决:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+-i 后面是输入文件地址 -crt是质量参数 越低越好 0 为无损 后面的""内的是输出文件的地址. 
+&#13;
+输出之后使用mp4box封装, 然后移除帧文件, 里面所有$开头的都是powershell设定的变量, 因为这是直接从我的函数中截取出来的, 所以可读性差一点.
+&#13;
+熟悉powershell的朋友可能看出来这些大部分都是 管道传递的对象的属性. 
+&#13;
+然而hevc编码有一个问题, 那就是编码文件的时候, 只接受 "长宽都是偶数的图片". 然而图片大小这种东西...讲道理虽然是视频常见的分辨率就那么几种, 图片的分辨率则是千差万别.
+&#13;
+ffmpeg虽然内置了一个拉伸算法来允许你对图像进行拉伸, 
+&#13;
+然而这种加减一个像素的拉伸, 在这些本应用于成倍缩放的情景中   的算法手下会产生极为糟糕的后果.
+&#13;
+反映到漫画上来, 就是细节纹理恶化, 网点全灭.
+&#13;
+由于上述原因, 这里我采用的是对图像平铺扩展的方式进行大小改变.
+&#13;
+      magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";通过将图像至于大了半圈的底板中心 (其实不那么中心, 偶数怎么可能有中心呢?)里,
+&#13;
+来让图像满足hevc编码的条件.
+&#13;
+在成品的函数中, 我是用判断余数的方式自动设置了缩放参数.
+&#13;
+!!!!! 注意 这里会直接在原图的基础上进行修改, 图片质量不会变化, 只是多了一圈像素,
+&#13;
+但为了规避可能的失误操作, 在处理之前请复制一些文件进行测试
+&#13;
+到这里两步, 必要的工作都已经结束了.
+&#13;
+用过power shell的 get children 获取对象, 依次传递到管道执行命令就可以完成格式转换.
+&#13;
+因为其他图像格式之间的转换不需要ffmepg, imagemagic就可以支持, 所以加了一个判断目标格式的if在里面,
+&#13;
+其他情况都是使用IM, heic时使用ffmpeg.
+&#13;
+顺便说一句, win10的image magick是支持hevc解码的, 也就是说它可以从heic转出, 而不能转入.
+&#13;
+下面就是完整的函数了,.
+&#13;
+在"我的文档\WindowsPowerShell"文件夹下新建一个名为:
+&#13;
+Microsoft.PowerShell_profile.ps1
+&#13;
+的空文件, 使用记事本打开, 粘贴下面的函数保存.
+&#13;
+紧急修正! 函数现已使用8bit YUV色彩空间, win10的扩展不支持10bit的hevc!!!
+&#13;
+第二次修正, 有人评论色彩空间的问题, 我找了几个彩**片试了一下, 确实需要进一步修正.
+&#13;
+这里使用colormatrix对原图的色彩空间到新的色彩空间做了变换, 也启用了回复中的无损参数
+&#13;
+扩展阅读:https://trac.ffmpeg.org/wiki/colorspace
+&#13;
+ffmpegWIKI中对色彩空间变换的解释和例子.
+&#13;
+我找了几个pixiv的图试了一下, 色彩空间映射基本完美了.
+&#13;
+不过这个东西 源头不同 需要的参数也不同 不能一概而论
+&#13;
+所以要是有谁发现变换之后色彩不一样了 可以发出来大家一起研究一下
+&#13;
+function imgconv($tpath, $quality,$sformat ,$tformat)
+&#13;
+{
+&#13;
+    If($tformat -eq "heic")
+&#13;
+    {
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $extentmark = 0;
+&#13;
+            $imwidth=magick identify -ping -format "%w" $_.FullName
+&#13;
+            $imwidth=$imwidth;
+&#13;
+            If(($imwidth)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imwidth=$imwidth+1;
+&#13;
+                $extentmark=1;
+&#13;
+                }
+&#13;
+            $imheight=magick identify -ping -format "%h" $_.FullName;
+&#13;
+            $imheight=$imheight;
+&#13;
+            If(($imheight)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imheight=$imheight+1;
+&#13;
+                $extentmark=1;
+&#13;
+            }
+&#13;
+            If($extentmark)
+&#13;
+            {
+&#13;
+                magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";
+&#13;
+            }
+&#13;
+      }
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $crfoffset = $quality * 10;
+&#13;
+            $crfval= 11 - $crfoffset;
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"&lt;font color="Purple"&gt;-crf $crfval &lt;/font&gt;&lt;font color="Red"&gt;-x265-params lossless=1:range=full &lt;/font&gt;-dst_range 1 -pix_fmt yuv420p&lt;font color="Red"&gt; -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6&lt;/font&gt;-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+            MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+            rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+      }
+&#13;
+}
+&#13;
+    Else
+&#13;
+{
+&#13;
+    dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+      $quality=$quality;
+&#13;
+      $magickquality=$quality * 100;
+&#13;
+      #$magickquality="$magickquality"+"%";
+&#13;
+      magick $_.FullName -quality $magickquality -interlace Plane -sampling-factor 4:2:0 -strip "$($_.Directory)\$($_.Basename).$tformat";
+&#13;
+      }
+&#13;
+}
+&#13;
+}
+&#13;
+然后使用管理员身份打开powershell, 设置执行策略 (如果一切正常, 你打开powershell的时候应该会报错说什么权限啊 策略啊之类的问题)
+&#13;
+set-executionpolicy remotesigned
+&#13;
+完成之后重启powershell即可使用上方函数.
+&#13;
+用法如下
+&#13;
+在powershell中输入
+&#13;
+imgconv "图片所在的目标文件夹" .原图格式 .目标格式即可递归查找目标路径下所有 原图格式 的图片 转换为 目标格式.
+&#13;
+题外话
+&#13;
+其实webp也是相当不错的选择, 不过我是苹果用户, 而苹果对webp的支持真是一言难尽....
+&#13;
+顺便, 有人知道怎么用sharex上传图片到gitee么..
+&#13;
+题外话2
+&#13;
+这个是链接里的那个扩展, 美区有免费版的 国区只有收费版的...
+&#13;
+如果这个找不到的话可以试试第三方的浏览器
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502120101.jpg
+&#13;
+题外话3
+&#13;
+推荐一个ios上的支持webp heic的漫画阅读器 里世界
+&#13;
+功能和别的阅读器比起来属于被秒杀的类型 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp
+&#13;
+题外话4
+&#13;
+xnview支持10bit解码 所以如果你使用xnview 可以:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p -f hevc "$($_.Directory)\$($_.Basename).hvc";这一行改成:
+&#13;
+   ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval -preset veryslow -tune grain -pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";现在支持heic的阅读器 比如 imageglass 大多都是8bit only 所以为了兼容性 还是使用8bit模式就行
+&#13;
+但是苹果支持10bit 23333
+&#13;
+题外话5
+&#13;
+我其实很想发个对比图...但是我的都处理完了.....
+&#13;
+题外话6
+&#13;
+虽然现在(2020年5月2日14点40分)的函数里面启用了无损模式
+&#13;
+-x265-params lossless=1:range=full 但是因为后面一系列色彩操作优化还不是很好 所以压缩比并不是很理想
+&#13;
+如果想要在这个基础上达到比较高的压缩比
+&#13;
+去掉lossless=1
+&#13;
+题外话7
+&#13;
+如果上面的你觉得也不行 可以试试这个 这个是我现在用的 使用函数的时候 参数给低一点也无所谓 (目前设置最高1 最低0.1)
+&#13;
+我很懒, 你仔细看函数里面参数映射那里就会发现, 无论你怎么调节输入, crt的范围永远都低于无肉眼可见损失的范围 
+&#13;
+所以你可以随便改改 把$crfval的初始值设置成30啥的 (现在是11), 能压缩的更好.
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"-crf $crfval -x265-params range=full -dst_range 1 -pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -vf "colormatrix=bt470bg:bt709" -color_range 1 -colorspace 1 -color_primaries 1 -color_trc 1-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话8
+&#13;
+最最最最最最终参数
+&#13;
+                        ffmpeg -i $_.FullName-crf $crfval-pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6   -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话9
+&#13;
+这两天在写QT的UI 等我弄差不多了 撸个图形界面出来</description>
+      <content:encoded><![CDATA[<p><b>lwa190212: </b><br>
+<span>毕竟上次折腾已经隔了很久了，刚又去搜索了下关于这个网点的算法，发现已经有机器学习的方法了</span><br>
+<span>Inverse Halftoning Through Structure-Aware Deep Convolutional Neural Networks</span><br>
+<span>而且很早以前也有非机器学习的传统算法，不知道为何以前没有找到，明明搜的关键词都是halftone inverse</span><br>
+<span>http://www.cse.cuhk.edu.hk/~leojia/projects/rollguidance/results_dehalftone.html</span><br>
+<span>不过我觉得ls用低bit保留网点的思路也很不错，学习了</span><br>
+</p><p><b>SkywalkerJi: </b><br>
+<span>但是HEIC兼容性不如WEBP吧，除了苹果自家软硬件强行不支持webp，heic基本就苹果还在主导，大多数web漫画格式本身都是webp了。</span><br>
+<span>楼主的对比两者都是基于有损压缩算法吗？如果使用无损算法HEVC对比VP8L的情况会如何。</span><br>
+<span>不过现在都是TB级存储，漫画这点空间还是无损优先吧。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>echoIII 发表于 2020-5-3 22:33</span><br>
+<span>可能不太会用PowerShell，我配完运行啥错都没报，但就是没反应。</span><br>
+<span>自己敲命令试了一下，-crf 11的时候比webp ...</span><br>
+<span>没反应 不应该啊 函数一共四个参数 一个路径 加双引号 \一个质量 0到1 \ 一个原格式 webp或者其他什么东西 不加点\一个目标格式 heic或者其他什么东西 也不加点</span><br>
+<span>对比图我待会找找</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>SkywalkerJi 发表于 2020-5-4 01:51</span><br>
+<span>但是HEIC兼容性不如WEBP吧，除了苹果自家软硬件强行不支持webp，heic基本就苹果还在主导，大多数web漫画格 ...</span><br>
+<span>兼容性问题也就那样吧 关于对比我待会统一搞个对比出来</span><br>
+</p><p><b>YoumuChan: </b><br>
+<span>lwa190212 发表于 2020-5-3 20:51</span><br>
+<span>常见的卷积相关的算法我都试过了，频率域的处理也试过一些，结果上说都不理想</span><br>
+<span>网点小的话在屏幕上看，遇 ...</span><br>
+<span>我记得我以前处理扫描时的摩尔纹是在gimp上fft以后抹平四周的高频spike再fft回来</span><br>
+<span>但是网格第一不是全图的纹理，其次不是方的，最后在频域上可能兼有高频和低频信号，而且最后要追求的是把区域换成网格区域的平均灰度，感觉选取网格区直接计算灰度总和再平均是不是比较合适</span><br>
+<span>所以问题其实是如何检测并分类一张图的网格区域，一个想法是检测每个像素是否可能是某个网格的中心，然后再floodfill，不过感觉效率有点低</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>echoIII 发表于 2020-5-3 22:33</span><br>
+<span>可能不太会用PowerShell，我配完运行啥错都没报，但就是没反应。</span><br>
+<span>自己敲命令试了一下，-crf 11的时候比webp ...</span><br>
+<span>我放了一组对比 我处理200张异世界叔叔扫图 crf0的时候就有5%左右的压缩 10的时候已经只有一半大了 这时候我在2000%放大模式下很难找到劣化. crt20的时候压缩到了1/4 低频区丢失了一些信息 然而高频纹理都得到了保留 crf30的时候已经只有十分之一大小了. 与其同时webp无损到85%都要比原图还大 45%的时候和crf20体积差不多 效果也差不多.</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>SkywalkerJi 发表于 2020-5-4 01:51</span><br>
+<span>但是HEIC兼容性不如WEBP吧，除了苹果自家软硬件强行不支持webp，heic基本就苹果还在主导，大多数web漫画格 ...</span><br>
+<span>我放了对比图 无损hevc体积减少5% vp8反而上升了10%左右...</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>plusSharp 发表于 2020-5-3 23:05</span><br>
+<span>我看了一下不过完全不懂，这里的预测是指图像相邻的像素之间有很大的可能颜色相同吗？ ...</span><br>
+<span>是的 因为图片本身不是色块很多吗 这里就先预设几组公式 用周围的像素来计算压缩区域的像素.</span><br>
+<span>然后我们就不需要记载像素的具体信息 只需要记载 "用什么样的公式能计算出效果最好的像素"就可以了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>YoumuChan 发表于 2020-5-4 09:27</span><br>
+<span>我记得我以前处理扫描时的摩尔纹是在gimp上fft以后抹平四周的高频spike再fft回来</span><br>
+<span>但是网格第一不是全图的 ...</span><br>
+<span>网格的fft特征还挺明显的，就下面图中除了中央以外的那几个亮点显然都是，毕竟一般的图片很少会在这种地方有这么高的能量</span><br>
+<img src="https://p.sda1.dev/0/c75069250b7520becd31a0fb079b49a4/chrome_2020-05-04_09-46-08.jpg" title="https://p.sda1.dev/0/c75069250b7520becd31a0fb079b49a4/chrome_2020-05-04_09-46-08.jpg"><br>
+<span>不过我对频域上如何做到平滑地抹去这些能量没有经验，粗暴地抹除虽然能去掉大部分的网点，但也会增加不少其他的劣化，以及ifft回去后数值变化了好几个数量级，那还得量化到256级和修正对比度到与原图没有视觉上的偏差就很麻烦</span><br>
+<span>不过见我51L，其实还有一些现成的算法可以用，我等有精力折腾的时候再试试了</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>冰箱研会长 发表于 2020-5-4 09:53</span><br>
+<span>是的 因为图片本身不是色块很多吗 这里就先预设几组公式 用周围的像素来计算压缩区域的像素.</span><br>
+<span>然后我们就 ...</span><br>
+<span>我今天又查了一下png相关资料，其中提到png使用lz77压缩，我不明白为什么不使用Huffman 编码，因为一般来说图片中不同颜色出现的频率相差很大，很适合用Huffman</span><br>
+</p><p><b>YoumuChan: </b><br>
+<span>lwa190212 发表于 2020-5-4 09:55</span><br>
+<span>网格的fft特征还挺明显的，就下面图中除了中央以外的那几个亮点显然都是，毕竟一般的图片很少会在这种地 ...</span><br>
+<span>主要是我觉得网纹in general是比漫画要难很多的...所以在考虑一些没那么general的传统算法</span><br>
+</p><p><b>echoIII: </b><br>
+<span> 本帖最后由 echoIII 于 2020-5-4 16:21 编辑 </span><br>
+<span>冰箱研会长 发表于 2020-5-4 09:50</span><br>
+<span>我放了一组对比 我处理200张异世界叔叔扫图 crf0的时候就有5%左右的压缩 10的时候已经只有一半大了 这时 ...</span><br>
+<span>我是拿日站DL版来测试的。</span><br>
+<span>正版的扫图本身已经处理得很小，一本1200纵的大概在40MB左右，可以说它是优化容量，也可以说它是劣化质量（相比之下，个人扫图一般要大一倍以上），但是目前最容易获得的就是DL版（买了电子书DeDRM即可，钱空网盘里现在大量的都是DL版）。</span><br>
+<span>漫画现在也是TB数量级，减小容量是有必要的，jpeg这种上古格式确实该丢到垃圾堆里。新格式里webp目前大致已普及，所以我之前的都压成webp了，webp（有损）质量值100的情况下体积大概是jpeg的60%，这时候来回切换比较，肉眼看不到区别。heic毕竟吃亏在支持软件少，如果没有显著优于webp的质量体积比还是没有洗的动力。</span><br>
+<span>另外heic在win10下可以用传家宝MangaMeeya，安装SusiePlugin</span><br>
+<span>https://github.com/gameclamp/MangaMeeyaAssociations</span><br>
+<span>能调用WindowsCodecs.dll来解码，然后安装了首帖上说的heic的两个解码器就能看了。</span><br>
+<span>MM虽然死了n年，但作为漫画阅读软件，还是远胜单纯的看图软件。</span><br>
+<span>iOS我给Comicshare写信提要求了，大家可以也去提，Comicshare更新勤快还是挺有可能支持的，毕竟很早就支持webp，这点比comicglass强。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>echoIII 发表于 2020-5-4 16:18</span><br>
+<span>我是拿日站DL版来测试的。</span><br>
+<span>正版的扫图本身已经处理得很小，一本1200纵的大概在40MB左右，可以说它是优化容 ...</span><br>
+<span>我给好多ios开发者发过邮件...除非我夸他们 不然他们都不回复我....</span><br>
+<span>dl版啊 说起来我之前买了三本"剑世界2.5" 看都没看就转成heic了 现在也许可以拿来对比一试.</span><br>
+</p><p><b>yguygyu: </b><br>
+<span> 本帖最后由 yguygyu 于 2020-5-4 18:29 编辑 </span><br>
+<span>我心想你一个 -pix_fmt yuv420p，uv 平面都半采样了，谈什么无损压缩啊。</span><br>
+<span>无损怎么说也至少 yuv444 搞上啊。</span><br>
+<span>视频压制组不用 yuv444 是因为拿到的片源就是 yuv420，本身就是半采样之后的，而很多时候在做预处理的时，都没有做必须保留 uv 平面拉伸后的分辨率的处理。</span><br>
+<span>但是你漫画的图源如果是扫图或者是 png，bmp 的话，很有可能依旧保有原有的 uv 信息。</span><br>
+<span>在这里用 yuv420 的话，就把 uv 平面的信息丢掉 3/4 了。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-4 19:26 编辑 </span><br>
+<span>yguygyu 发表于 2020-5-4 18:12</span><br>
+<span>我心想你一个 -pix_fmt yuv420p，uv 平面都半采样了，谈什么无损压缩啊。</span><br>
+<span>无损怎么说也至少 yuv444 搞上啊 ...</span><br>
+<span>啊啊啊啊啊啊啊啊啊啊</span><br>
+<span>这里是我的锅</span><br>
+<span>一路420用过来了 这里没注意到 我待会设置好参数之后换成444写到主楼里</span><br>
+<span>草 试了一下 我手头唯一能越读全YUV采样的heic的只有IOS.....</span><br>
+<span>事实上就连10bit的420我都仅仅找到xnview这一家支持的...</span><br>
+<span>在编码heic这件事上, 可以用444, 但问题就是兼容性爆炸</span><br>
+<span>不过反正是黑白图片 没关系的</span><br>
+<span>(md 想把三楼回复合并到一楼里 才想起来s1不能删自己的楼...)</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-4 19:26 编辑 </span><br>
+<span>yguygyu 发表于 2020-5-4 18:12</span><br>
+<span>我心想你一个 -pix_fmt yuv420p，uv 平面都半采样了，谈什么无损压缩啊。</span><br>
+<span>无损怎么说也至少 yuv444 搞上啊 ...%合并到了上个回复%</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-4 19:26 编辑 </span><br>
+<span>yguygyu 发表于 2020-5-4 18:12</span><br>
+<span>我心想你一个 -pix_fmt yuv420p，uv 平面都半采样了，谈什么无损压缩啊。</span><br>
+<span>无损怎么说也至少 yuv444 搞上啊 ...</span><br>
+<span>%合并到了上上个回复%</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>草 444采样现在windows现在还有这么多兼容性问题么，另一个人是mac全家桶，但是我自己主要用windows还有onedrive，难受了</span><br>
+</p><p><b>SkywalkerJi: </b><br>
+<span>冰箱研会长 发表于 2020-5-4 09:51</span><br>
+<span>我放了对比图 无损hevc体积减少5% vp8反而上升了10%左右...</span><br>
+<span>感谢测试。</span><br>
+<span>你是用JPG原图再压缩WEBP的吗？</span><br>
+<span>用扫描仪直出的TIFF、bmp压缩会有区别么。这一次压缩感觉比PNG/jpg二压更重要。</span><br>
+</p><p><b>echoIII: </b><br>
+<span>冰箱研会长 发表于 2020-5-4 07:55</span><br>
+<span>没反应 不应该啊 函数一共四个参数 一个路径 加双引号 \一个质量 0到1 \ 一个原格式 webp或者其他什么东 ...</span><br>
+<span>你改一下帖子里的“用法如下</span><br>
+<span>在powershell中输入</span><br>
+<span>imgconv "图片所在的目标文件夹" .原图格式 .目标格式”</span><br>
+<span>丢了个参数。。</span><br>
+<span>难怪我运行了没反应</span><br>
+<span>我找了本漫画测了一下</span><br>
+<span>37M   origin（jpeg 90%）</span><br>
+<span>27M   jpeg（jpeg 80%）</span><br>
+<span>22M   webp（80%）</span><br>
+<span>32M   heic_crf10</span><br>
+<span>18M   heic_crf20</span><br>
+<span>8.5M    heic_crf30</span><br>
+<span>91M   png（拿jpeg转的，仅作为体积的参考）</span><br>
+<span>用氪金狗眼比对了一下</span><br>
+<span>heic_crf20跟webp80%大致持平，</span><br>
+<span>在400%下相比原始看不到明显劣化</span><br>
+<span>应该说相比原始图片像素点都有变化，但是黑白漫画区别很小，一些像素点的变化甚至不好说是好是坏，总体感觉没有明显劣化</span><br>
+<span>在彩页封面上，heic_crf20优于webp80%</span><br>
+<span>即便是heic_crf30，在100%下都看不出明显劣化，但是200%就能明显看出</span><br>
+<span>总的来说heic优于webp大概没问题，但我觉得差距在20~30%左右。</span><br>
+<span>另外heic会有1个像素的偏移，可能会逼死强迫症</span><br>
+<span>真要用来压制漫画的话，黑白漫画可以用更激进的参数，但是考虑到一般都是黑白彩色混杂懒得去判别，所以综合考虑的话crf20左右较为适合</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>SkywalkerJi 发表于 2020-5-5 00:09</span><br>
+<span>感谢测试。</span><br>
+<span>你是用JPG原图再压缩WEBP的吗？</span><br>
+<span>用扫描仪直出的TIFF、bmp压缩会有区别么。这一次压缩感觉比PN ...</span><br>
+<span>实不相瞒 我现在手头一份tiff都没有了... 最多从jpg转出tiff 你要是有直接出的tiff 可以提供一份</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>echoIII 发表于 2020-5-5 00:28</span><br>
+<span>你改一下帖子里的“用法如下</span><br>
+<span>在powershell中输入</span><br>
+<span>嗯 感谢debug....</span><br>
+<span>顺便这个一个像素偏移主要是因为采用了420采样, yuv空间的采样除了444以外都是隔行进行的. 我甚至怀疑yuv444在逻辑上也是隔行的, 虽然在数据上是1对1采样, 但是实际操作中估计还是不允许输入奇数大小的图像.</span><br>
+<span>遇到奇数大小只能剪裁或者铺一层像素</span><br>
+<span>这里用的两个函数 imgconv fimgconv 前者用其他软件增加一个像素后者直接在原图上去掉一列像素.</span><br>
+<span>前者对大小的修改是预处理 后者则是流式的 所以fimgconv快很多. 漫画这种一边都有页边距, 直接删一列像素就可了. </span><br>
+<span>你webp用什么编码的? 我用的Imagemagick 85%体积都会增加....</span><br>
+</p><p><b>V5Style: </b><br>
+<span>国区Microsoft Store是有HEVC插件的，只是搜索不到，通常会在安装驱动程序后自动安装</span><br>
+<span>https://www.microsoft.com/zh-cn/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq</span><br>
+</p><p><b>yguygyu: </b><br>
+<span>冰箱研会长 发表于 2020-5-4 18:35</span><br>
+<span>啊啊啊啊啊啊啊啊啊啊</span><br>
+<span>这里是我的锅</span><br>
+<span>一路420用过来了 这里没注意到 我待会设置好参数之后换成444写到主楼 ...</span><br>
+<span>黑白图片的话理论上可以直接舍弃掉 uv 信息直接编码个 Y800 出来，HEVC 编码也是支持的</span><br>
+<span>只存了 luminance 信息，体积更小</span><br>
+<span>ffmpeg 的选项应该是 -pix_fmt gray</span><br>
+<span>只不过估计兼容性也是爆炸，没几个软件能解码</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>V5Style 发表于 2020-5-5 09:09</span><br>
+<span>国区Microsoft Store是有HEVC插件的，只是搜索不到，通常会在安装驱动程序后自动安装</span><br>
+<span>https://www.microsof ...</span><br>
+<span>安装前还要先把系统设置里的区域切换成美国。。</span><br>
+</p><p><b>SmterC: </b><br>
+<span>试了一下，安卓上用的本地漫画软件comic screen支持webp但不支持heic。毕竟webp是谷歌亲儿子吧，大部分安卓应用下webp都没有兼容问题。</span><br>
+<span>不知道有没有支持heic的漫画软件推荐……我这里也提供一下我之前写的一个Python小脚本，用来批量转换漫画到webp格式的，也算是安卓用户暂时的替代方案吧。毕竟是自用的，代码水平臭还请轻拍。</span><br>
+<span>import subprocess, multiprocessing, time, locale, time, os.path, os, re</span><br>
+<span>from PIL import Image</span><br>
+<span>def get_filename(path):</span><br>
+<span>    name = []</span><br>
+<span>    filetypes = ['jpg', 'png', 'JPG', 'PNG', 'jpeg', 'JPEG']</span><br>
+<span>    for root, dirs, files in os.walk(path):</span><br>
+<span>      for file in files:</span><br>
+<span>            if True in :</span><br>
+<span>                wholePath = os.path.join(root, file)</span><br>
+<span>                name.append(wholePath)</span><br>
+<span>    print('找到%d个可以转换的图片' % len(name))</span><br>
+<span>    return name</span><br>
+<span>def ruuun(kksk):</span><br>
+<span>    p = subprocess.Popen(kksk)</span><br>
+<span>    p.wait()</span><br>
+<span>    # print(kksk)</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    print('    _      __      __    ___    _____                      ')</span><br>
+<span>    print('   | | /| / /___/ /   / _ \/|//___ _ ______ _ ___ _')</span><br>
+<span>    print('   | |/ |/ // -_)/ _ \ / ___/ / /|_/ // _ `// _ \/ _ `// _ `/')</span><br>
+<span>    print('   |__/|__/ \__//_.__//_/    /_//_/ \_,_//_//_/\_, / \_,_/ ')</span><br>
+<span>    print('                                                /___/      \t ver 2.0')</span><br>
+<span>    path = input('输入想要遍历的文件夹:(默认空)')</span><br>
+<span>    # filetype = input('想要转换的图片格式(png、jpg,默认jpg):')</span><br>
+<span>    loss = input('是否无损压缩？\n\t输入任意值无损\t默认有损:')</span><br>
+<span>    q = input('转换质量(0~100，默认85):')</span><br>
+<span>    pre = input('输入图片类型\n\t漫画为0，照片为1，人像为2，默认为漫画:')</span><br>
+<span>    limit = input('有无希望图片压缩达到的大小限制？以kb为单位:')</span><br>
+<span>    resize = input('图片的尺寸限制?:')</span><br>
+<span>    # wait = input('每4个任务后的等待时间:')</span><br>
+<span>    startFlag = input('开始执行(y/n):')</span><br>
+<span>    if path.strip() == '':</span><br>
+<span>      path = './'</span><br>
+<span>    # if filetype.strip() == '':</span><br>
+<span>    #   filetype = 'jpg'</span><br>
+<span>    if q.strip() == '':</span><br>
+<span>      q = '85'</span><br>
+<span>    q = '-q ' + q</span><br>
+<span>    if loss.strip() != '':</span><br>
+<span>      loss = '-lossless'</span><br>
+<span>      q = ''</span><br>
+<span>      # wait = 5</span><br>
+<span>    if pre.strip() == '':</span><br>
+<span>      preset = 'drawing'</span><br>
+<span>    if pre.strip() == '0':</span><br>
+<span>      preset = 'drawing'</span><br>
+<span>    if pre.strip() == '1':</span><br>
+<span>      preset = 'photo'</span><br>
+<span>    if pre.strip() == '2':</span><br>
+<span>      preset = 'picture'</span><br>
+<span>    if limit.strip():</span><br>
+<span>      li = eval(limit) * 1000</span><br>
+<span>      limit = '-size %d -pass 10' % li</span><br>
+<span>    if limit.strip() == '':</span><br>
+<span>      limit = ''</span><br>
+<span>    if resize.strip() == '':</span><br>
+<span>      resize = False</span><br>
+<span>    else:</span><br>
+<span>      resize = True</span><br>
+<span>    # if wait.strip() == '':</span><br>
+<span>    #   wait = '4'</span><br>
+<span>    if not startFlag.lower() == 'y':</span><br>
+<span>      print('执行终止')</span><br>
+<span>      exit()</span><br>
+<span>    files = get_filename(path)</span><br>
+<span>    # slc = 0</span><br>
+<span>    pool = multiprocessing.Pool(8)</span><br>
+<span>    for file in files:</span><br>
+<span>      pos = file.rfind("\\")</span><br>
+<span>      os.makedirs(os.path.join('./result/', file[:pos]), exist_ok=True)</span><br>
+<span>      resultpath = file.replace(re.findall('\.+', file)[-1], '.webp')</span><br>
+<span>      existVerify = os.path.exists('./result/' + resultpath)</span><br>
+<span>      if existVerify:</span><br>
+<span>            zerobitVerif = os.path.getsize('./result/' + resultpath)</span><br>
+<span>            if zerobitVerif != 0:</span><br>
+<span>                continue</span><br>
+<span>      resize_config = ''</span><br>
+<span>      if resize:</span><br>
+<span>            img = Image.open(file)</span><br>
+<span>            img_size = img.size</span><br>
+<span>            if (img_size > 1080 and img_size > 1920) or (img_size > 1080 and img_size > 1920):</span><br>
+<span>                beishu = max(round(img_size / 1080), round(img_size / 1920))</span><br>
+<span>                resize_config = "-resize %s %s" % (img_size / beishu, img_size / beishu)</span><br>
+<span>      kksk = 'cwebp -preset %s %s %s \"%s\" -m 6 %s -sharp_yuv -metadata all %s -short -af -mt -o \"./result/%s\"' % (</span><br>
+<span>            preset, loss, q, file, limit, resize_config, resultpath)</span><br>
+<span>      # print(kksk)</span><br>
+<span>      pool.apply_async(func=ruuun, args=(kksk,))</span><br>
+<span>      # slc = slc + 1</span><br>
+<span>      # if slc == 4:</span><br>
+<span>      #   time.sleep(int(wait))</span><br>
+<span>      #   slc = 0</span><br>
+<span>    pool.close()</span><br>
+<span>    pool.join()</span><br>
+<span>    print('全部完成,一共转换了%d张图片' % len(files))</span><br>
+<span>    exit = input('ds')</span><br>
+<span>这段代码本质就是调用环境变量里的cwebp编码器来转换遍历文件到result文件夹，所以需要先从Google开发者官网下载个webptools放环境变量里。</span><br>
+<span>因为之前用Honeyview自带的格式转换转换到webp，发现结果和官方提供的最新编码器还是有点差距的，所以还是建议去下个最新的编码器来压缩比较好。</span><br>
+<span>代码写的烂，所以只能遍历这个py文件同级或以下的目录，建议放到漫画根目录。</span><br>
+</p><p><b>V5Style: </b><br>
+<span>有口皆悲 发表于 2020-5-5 20:46</span><br>
+<span>安装前还要先把系统设置里的区域切换成美国。。</span><br>
+<span>不需要吧，我这边就可以直接装</span><br>
+<img src="https://i.loli.net/2020/05/05/iJtADCvU7NGMxgy.png" title="https://i.loli.net/2020/05/05/iJtADCvU7NGMxgy.png"><br>
+</p><p><b>有口皆悲: </b><br>
+<span>V5Style 发表于 2020-5-5 21:42</span><br>
+<span>不需要吧，我这边就可以直接装</span><br>
+<span>可能你之前已经购买过了吧。我不改区域点按钮没反应。</span><br>
+</p><p><b>V5Style: </b><br>
+<span>有口皆悲 发表于 2020-5-5 21:59</span><br>
+<span>可能你之前已经购买过了吧。我不改区域点按钮没反应。</span><br>
+<span>多点几次试试，巨硬商店就是这样的，经常抽风</span><br>
+<span>另外这个是装了DCH版核显驱动后自动下载，直接加进账户里的，没有手动下载过</span><br>
+<span>—— 来自 HUAWEI NXT-TL00, Android 8.0.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2020-5-6 03:36 编辑 </span><br>
+<span>冰箱研会长 发表于 2020-5-5 07:00</span><br>
+<span>嗯 感谢debug....</span><br>
+<span>顺便这个一个像素偏移主要是因为采用了420采样, yuv空间的采样除了444以外都是隔行进行 ...</span><br>
+<span>yuv444可以奇数输入：</span><br>
+<span>ffmpeg -i "R:\_\0.bmp" -y -c libx265 -x265-params lossless=1 -pix_fmt yuv444p -f hevc "R:\_\0.hvc"</span><br>
+<span>Input #0, bmp_pipe, from 'R:\_\0.bmp':</span><br>
+<span>Duration: N/A, bitrate: N/A</span><br>
+<span>    Stream #0:0: Video: bmp, bgr24, 799x501, 25 tbr, 25 tbn, 25 tbc</span><br>
+<span>Stream mapping:</span><br>
+<span>Stream #0:0 -> #0:0 (bmp (native) -> hevc (libx265))</span><br>
+<span>Press  to stop, [?] for help</span><br>
+<span>x265 : HEVC encoder version 3.2+6-f46aa2bc1c34</span><br>
+<span>x265 : build info  8bit+10bit</span><br>
+<span>x265 : using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2</span><br>
+<span>x265 : halving the quality when psy-rd is enabled for 444 input. Setting cbQpOffset = 6 and crQpOffset = 6</span><br>
+<span>x265 : Main 4:4:4 profile, Level-8.5 (Main tier)</span><br>
+<span>x265 : Thread pool created using 12 threads</span><br>
+<span>x265 : Slices                              : 1</span><br>
+<span>x265 : frame threads / pool features       : 3 / wpp(8 rows)</span><br>
+<span>x265 : Source height < 720p; disabling lookahead-slices</span><br>
+<span>x265 : Coding QT: max CU size, min CU size : 64 / 8</span><br>
+<span>x265 : Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra</span><br>
+<span>x265 : ME / range / subpel / merge         : hex / 57 / 2 / 3</span><br>
+<span>x265 : Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00</span><br>
+<span>x265 : Cb/Cr QP Offset                     : 6 / 6</span><br>
+<span>x265 : Lookahead / bframes / badapt      : 20 / 4 / 2</span><br>
+<span>x265 : b-pyramid / weightp / weightb       : 1 / 1 / 0</span><br>
+<span>x265 : References / ref-limitcu / depth: 3 / off / on</span><br>
+<span>x265 : Rate Control                        : Lossless</span><br>
+<span>x265 : tools: rd=3 psy-rd=2.00 early-skip rskip signhide tmvp b-intra</span><br>
+<span>x265 : tools: strong-intra-smoothing deblock sao</span><br>
+<span>Output #0, hevc, to 'R:\_\0.hvc':</span><br>
+<span>Metadata:</span><br>
+<span>    encoder         : Lavf58.34.101</span><br>
+<span>    Stream #0:0: Video: hevc (libx265), yuv444p, 799x501, q=2-31, 25 fps, 25 tbn, 25 tbc</span><br>
+<span>    Metadata:</span><br>
+<span>      encoder         : Lavc58.60.100 libx265</span><br>
+<span>    Side data:</span><br>
+<span>      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A</span><br>
+<span>frame=    1 fps=0.0 q=-0.0 Lsize=      88kB time=00:00:00.04 bitrate=17930.0kbits/s speed=0.271x</span><br>
+<span>video:88kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%</span><br>
+<span>x265 : frame I:      1, Avg QP:4.00kb/s: 17516.60</span><br>
+<span>x265 : consecutive B-frames: 100.0% 0.0% 0.0% 0.0% 0.0%</span><br>
+<span>x265 : lossless compression ratio 4.57::1</span><br>
+<span>yuv444其实对grayscale图像不会比yuv420增加多少容量，毕竟是hevc帧间编码处理全0数据而已，但是win的解码不支持yuv444</span><br>
+<span>pix_fmt还可选gray，当然win的解码也不会支持的</span><br>
+</p><p><b>alien: </b><br>
+<span> 本帖最后由 alien 于 2020-5-6 12:37 编辑 </span><br>
+<span>acdsee pro 2019或2020安装能直接看~不用安主楼的任何解码(又或者我win10不知什么时候安过类似的东西？) 靠的是ID_HEIC.apl 这个插件吧（哪个版本开始有的就不知了~）</span><br>
+<span>但是acdsee看heic图片的颜色和webp有些不一样，就不知道是那边的解码问题了</span><br>
+<span>然后我win7安的精简版和试用版ACDSEE本身都使用不正常~acdsee的文件管理器内点击图片都会出错退出，双击图片倒是正常观看~办公室电脑领导坚持用win7为求稳定~~。</span><br>
+<span>win10下正常，但打进zip和rar里面的heic图片又看不了~散放的是正常观看的~</span><br>
+<img src="https://s12.directupload.net/images/200506/9lmlta58.pnghttps://s12.directupload.net/images/200506/adnm2vuo.png" title="https://s12.directupload.net/images/200506/9lmlta58.pnghttps://s12.directupload.net/images/200506/adnm2vuo.png"><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>alien 发表于 2020-5-6 12:19</span><br>
+<span>acdsee pro 2019或2020安装能直接看~不用安主楼的任何解码(又或者我win10不知什么时候安过类似的东西？) 靠 ...</span><br>
+<span>色彩空间的问题 webp一般也是yuv420的, 但是我那个函数是帧对RGB24做的色彩变幻, 如果直接从webp转的话就会出现这种颜色不一致的现象. </span><br>
+<span>一般来讲 jpg png什么的rgb24占大多数 所以我这个函数可以用</span><br>
+<span>但新图像格式有不少是yuv的 这个换算就得斟酌一下</span><br>
+<span>具体可以看主楼里面的外链, ffmpeg色彩空间变换那里, 写了常见空间转换使用的参数.</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-6 14:51 编辑 </span><br>
+<span>更新一下色彩空间科普吧... 这段其实我不是很熟 如果有错误大家积极指出.</span><br>
+<span>已经鸽了, 太多了</span><br>
+<span>就简单一写点关键词给后来者指路吧.</span><br>
+<span>RGB</span><br>
+<span>YUV</span><br>
+<span>BT2020</span><br>
+<span>BT601</span><br>
+<span>BT656</span><br>
+<span>转换矩阵</span><br>
+<span>归一化</span><br>
+<span>量化</span><br>
+<span>线性空间</span><br>
+<span>外部参考:</span><br>
+<span>http://joemaller.com/fcp/fxscript_yuv_color.shtml</span><br>
+<span>https://zhuanlan.zhihu.com/p/24214731</span><br>
+<span>https://zhuanlan.zhihu.com/p/24281841</span><br>
+<span>https://en.wikipedia.org/wiki/YUV</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>也就是说用来无损压缩彩图不太可行，windows不兼容？</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>gdsdjcb 发表于 2020-5-6 15:51</span><br>
+<span>也就是说用来无损压缩彩图不太可行，windows不兼容？</span><br>
+<span>是的 虽然可以使用yuv444进行无损彩图压缩 但是大部分软件都不兼容 楼上提到了一个专业级看图软件 似乎可以</span><br>
+</p><p><b>alien: </b><br>
+<span> 本帖最后由 alien 于 2020-5-6 17:26 编辑 </span><br>
+<span>同一张HEIC图片</span><br>
+<span>acdsee2020和win10安装插件自带浏览器对比~~颜色显示不正确是acdsee的锅（类似cmyk格式的颜色显示不正确吧？）</span><br>
+<span>win10加插件后mangameeya加了插件也能看了，但依旧不能看压缩包里面的heic~</span><br>
+<img src="https://s12.directupload.net/images/200506/8covc4kz.png" title="https://s12.directupload.net/images/200506/8covc4kz.png"><br>
+<span>想自己试着转换格式~win10的powershell不会用~~按照主楼中间贴了2次代码都是出红色字表示不能执行~平板的win10版本不行还是什么的~~~</span><br>
+<span>还是坐等exe执行文件吧~~~</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>alien 发表于 2020-5-6 16:43</span><br>
+<span>同一张HEIC图片</span><br>
+<span>acdsee2020和win10安装插件自带浏览器对比~~颜色显示不正确是acdsee的锅（类似cmyk格式的颜 ...</span><br>
+<span>https://github.com/GrandArth/Risi-Pwsh-Profile</span><br>
+<span>我把我的配置文件放在这里了 既然你不用powershell 那就直接用的我配置文件就行</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200506184627.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200506184627.png"><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>SmterC 发表于 2020-5-5 21:38</span><br>
+<span>试了一下，安卓上用的本地漫画软件comic screen支持webp但不支持heic。毕竟webp是谷歌亲儿子吧，大部分安卓 ...</span><br>
+<span>自从看了你这个回复 我就一直在思考直接用pwsh调用libheif, libx265的dll, 这样就不需要其他的依赖了... </span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span> 本帖最后由 黑夜守望者 于 2020-5-15 22:11 编辑 </span><br>
+<span>LZ我用了你GitHub的配置文件，打开power shell有很多乱码，我也没管它输入了我的路径和想转换的格式，转换的时候我看着是有.heic和.hev（？忘了后缀了）的文件生成，但是全部转换完连同我的原图一起消失了，只剩下我的文件夹空荡荡的</span><br>
+<span>又试了png转jpg，就不会出现这种情况。但是只要一转成heic，整个文件夹就会被清空</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>lz加油 坛友们的硬盘需要你的拯救 我64g的ipad也需要拯救！</span><br>
+</p><p><b>aji47: </b><br>
+<span>lz，最近好多漫画24页64g。转换成webp如何？</span><br>
+<span>转换速度快吗？我想给我上次那个漫画器加额外功能了</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>黑夜守望者 发表于 2020-5-15 22:04</span><br>
+<span>LZ我用了你GitHub的配置文件，打开power shell有很多乱码，我也没管它输入了我的路径和想转换的格式，转换 ...</span><br>
+<span>我一个个回复吧</span><br>
+<span>关于乱码: 默认自带的5.1版本的powershell的使用UTF-16编码, 而中国人的win10大部分都是GB编码或者UTF-8编码, 我的配置文件是UTF-8 (或者GB编码?) 编码的吧, 所以中文会变成乱码. 解决办法就是下载更新Powershell 7.0 因为我的环境就是pwsh 7.0的. 不过我之前也是在pwsh 5.1环境下的, 没有遇到过这个问题啊.</span><br>
+<span>可能是因为我使用了新版才有的特性, 因为我看到你截图那里, 出现了错误, 应该是powershell解释器解释不了配置文件了, 换成7.0版本应该就没问题了. </span><br>
+<span>换成7.0 应该可以同时解决你的乱码问题和删除文件不正确问题.</span><br>
+<span>然后关于这个删除文件, hvc是heic的中间文件, 函数在完成转换之后会自动删除hvc, 你的情况应该是配置文件工作不正常, 所以失灵了.</span><br>
+<span>最后关于透明, HEIC对透明支持是在2019才有的东西, 而且仅有苹果一家有, 我们用的转换工具没法处理带透明层的图片, 这点很遗憾, 目前来看没有解决方案.</span><br>
+<span>-------------</span><br>
+<span>注1: powershell 7.0 在github上就有</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>aji47 发表于 2020-5-15 22:38</span><br>
+<span>lz，最近好多漫画24页64g。转换成webp如何？</span><br>
+<span>转换速度快吗？我想给我上次那个漫画器加额外功能了 ...</span><br>
+<span>我透? 一页2个多G?</span><br>
+<span>啥格式啊 RAW?</span><br>
+<span>我这么说吧 我i7-8700 多线程模式编码总共4G的图片得花将近1一个多小时, webp只能更慢....</span><br>
+</p><p><b>aji47: </b><br>
+<span>冰箱研会长 发表于 2020-5-16 07:53</span><br>
+<span>我透? 一页2个多G?</span><br>
+<span>啥格式啊 RAW?</span><br>
+<span>说错，24页640MB。</span><br>
+<span>转换到webp比hevc慢吗？</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>aji47 发表于 2020-5-16 11:41</span><br>
+<span>说错，24页640MB。</span><br>
+<span>转换到webp比hevc慢吗？</span><br>
+<span>慢是肯定的 除非google在我家里蹲的时候升级了encoder...</span><br>
+</p><p><b>上下左右: </b><br>
+<span> 本帖最后由 上下左右 于 2020-5-16 13:17 编辑 </span><br>
+<span>LZ其实可以直接用python来写，用pathlib还能顺便跨平台，而且处理各种character escaping也更方便。另外如果用python写的话可以调用ffmpeg-python。 </span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span> 本帖最后由 黑夜守望者 于 2020-5-16 20:52 编辑 </span><br>
+<span>冰箱研会长 发表于 2020-5-16 07:48</span><br>
+<span>我一个个回复吧</span><br>
+<span>关于乱码: 默认自带的5.1版本的powershell的使用UTF-16编码, 而中国人的win10大部分都是 ...</span><br>
+<span>安装了powershell 7.0了，这次果然不会被删除了</span><br>
+<span>以及同求python版，折腾下来我觉得PowerShell太劝退了中文网站关于PowerShell的内容少之又少，出了问题都不知道上哪找答案</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>黑夜守望者 发表于 2020-5-16 20:30</span><br>
+<span>安装了powershell 7.0了，这次果然不会被删除了</span><br>
+<span>以及同求python版，折腾下来我觉得PowerShell太劝 ...</span><br>
+<span>整体好 用上了就行</span><br>
+<span>我正在做一个图像处理软件 到时候会集成这些功能 </span><br>
+<span>目前写别的语言的版本优先级就不那么高了...</span><br>
+</p><p><b>逆袭的黑月: </b><br>
+<span>win系统的壁纸是不是也是识别不了...我的藏图全部转webp了,现在要换个壁纸还要找了图再转回来搞得我经常很烦躁</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>ios上的comicshare不支持heic，有点可惜了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1931974[50-100]</guid>
+    </item>
+    <item>
+      <title>用HEVC批量压缩漫画图片 HEIC 并行化更新[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1931974-1-1.html</link>
+      <description>使用HEVC无损压缩漫画收藏&#13;
+ 本帖最后由 冰箱研会长 于 2020-5-2 17:00 编辑 
+
+更新了对比图 2020年5月2日 15点15分
+&#13;
+--------------
+&#13;
+前两天看到aji47有关漫画阅读器的帖子:
+&#13;
+https://bbs.saraba1st.com/2b/thread-1924064-1-1.html
+&#13;
+一方面感叹楼主的行动力, 一方面也发现还有很多人也在本地保存着喜欢的漫画.
+&#13;
+任何种类的收藏在达到一定规模之后必然会逐步提高对储存介质容量的需求.
+&#13;
+在图片储存这方面, 一个高效的格式, 可以在画质无损的情况下以极大的比率减少文件所需要的储存空间.
+&#13;
+然而优秀的图片格式有很多种, 但并不是每种都得到了广泛支持.
+&#13;
+号称最高压缩比的Flif, 已经不知道多久没更新了.
+&#13;
+据称性能最好的BGP, 连解码器都需要自己编译.
+&#13;
+如果你的图片规格是哪儿哪儿用着都费劲, 转换格式其实也是自找麻烦.
+&#13;
+所幸, 除了png jpg gif 这类古董货之外, 我们是有一个泛用性高, 压缩比高, 渲染性能优秀的图片格式的,
+&#13;
+那就是
+&#13;
+webp(划掉)
+&#13;
+说错了...
+&#13;
+那就是
+&#13;
+HEIC!
+&#13;
+关于heic的起源和爸爸们, 还有它和webp的恩怨, 想了解的还请自行百度, 看完之后说不定你也会高呼 "万恶的资本主义"
+&#13;
+heic本身其实不是图片格式, 而是一种容器(里面甚至可以放json), 这里我们所说的是heic格式的图片, 不是heic封装jpg png webp, 而是封装了.265编码的一帧的heic
+&#13;
+至于.265, 对视频压制有了解的各位或多或少知道这个编码的性能是如何优秀, 这里我们要做的, 就是利用这个性能, 对原有的图片重新编码封装, 达到无损转换图片, 节省空间的目的.
+&#13;
+ 前期准备
+&#13;
+1. FFmpeg
+&#13;
+2.ImageMagick
+&#13;
+3.Mp4box
+&#13;
+4.Hevc图像扩展
+&#13;
+(可选): 第三方图片阅读器
+&#13;
+1-3 下载各自的软件包:
+&#13;
+https://ffmpeg.zeranoe.com/builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502094912.png
+&#13;
+https://imagemagick.org/download ... -10-Q16-x64-dll.exe
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095004.png
+&#13;
+https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095133.png
+&#13;
+4.
+&#13;
+(可选): 切换win10地区设置为美国
+&#13;
+(必选):
+&#13;
+https://www.microsoft.com/en-us/ ... 7593_1243925&amp;tduid=$ir__1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900$$7593$$1243925$$dquE8U2QoAw-vAQJT5WIzcashB34AtLacA$$$&amp;ranMID=24542&amp;ranEAID=dquE8U2QoAw&amp;ranSiteID=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;epi=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&amp;irgwc=1&amp;irclickid=_1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900&amp;wa=wsignin1.0&amp;activetab=pivot:overviewtab 
+&#13;
+上面的链接好像不好使?
+&#13;
+https://www.microsoft.com/en-us/ ... cturer/9n4wgh0z6vhq使用微软账号购买安装此免费视频扩展
+&#13;
+(必选):
+&#13;
+在微软商店搜索heic图像扩展, 安装, 也是免费的. 之所以上面那个提供链接, 是因为只有美区有, 国区搜索不到.
+&#13;
+5.(可选) 第三方阅读器 Xnview MP
+&#13;
+在完成了前四步之后, 你的电脑应该已经可以无障碍查看heic图像了(默认照片程序).
+&#13;
+如果你想使用第三方阅读器来统一阅读体验(假设你还需要阅读webp), 那么我建议你安装xnview, 及其heic扩展:
+&#13;
+https://newsgroup.xnview.com/viewtopic.php?t=36661
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095724.png
+&#13;
+这里所说的heic和heif是一回事.
+&#13;
+批量转换你的图片
+&#13;
+#具体实现没有兴趣直接拉到最后
+&#13;
+转换的流程如下:
+&#13;
+解码图片 编码图片 封装成heic
+&#13;
+在仅仅考虑这些的条件下, 我们只要ffmpeg就可以解决:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+-i 后面是输入文件地址 -crt是质量参数 越低越好 0 为无损 后面的""内的是输出文件的地址. 
+&#13;
+输出之后使用mp4box封装, 然后移除帧文件, 里面所有$开头的都是powershell设定的变量, 因为这是直接从我的函数中截取出来的, 所以可读性差一点.
+&#13;
+熟悉powershell的朋友可能看出来这些大部分都是 管道传递的对象的属性. 
+&#13;
+然而hevc编码有一个问题, 那就是编码文件的时候, 只接受 "长宽都是偶数的图片". 然而图片大小这种东西...讲道理虽然是视频常见的分辨率就那么几种, 图片的分辨率则是千差万别.
+&#13;
+ffmpeg虽然内置了一个拉伸算法来允许你对图像进行拉伸, 
+&#13;
+然而这种加减一个像素的拉伸, 在这些本应用于成倍缩放的情景中   的算法手下会产生极为糟糕的后果.
+&#13;
+反映到漫画上来, 就是细节纹理恶化, 网点全灭.
+&#13;
+由于上述原因, 这里我采用的是对图像平铺扩展的方式进行大小改变.
+&#13;
+      magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";通过将图像至于大了半圈的底板中心 (其实不那么中心, 偶数怎么可能有中心呢?)里,
+&#13;
+来让图像满足hevc编码的条件.
+&#13;
+在成品的函数中, 我是用判断余数的方式自动设置了缩放参数.
+&#13;
+!!!!! 注意 这里会直接在原图的基础上进行修改, 图片质量不会变化, 只是多了一圈像素,
+&#13;
+但为了规避可能的失误操作, 在处理之前请复制一些文件进行测试
+&#13;
+到这里两步, 必要的工作都已经结束了.
+&#13;
+用过power shell的 get children 获取对象, 依次传递到管道执行命令就可以完成格式转换.
+&#13;
+因为其他图像格式之间的转换不需要ffmepg, imagemagic就可以支持, 所以加了一个判断目标格式的if在里面,
+&#13;
+其他情况都是使用IM, heic时使用ffmpeg.
+&#13;
+顺便说一句, win10的image magick是支持hevc解码的, 也就是说它可以从heic转出, 而不能转入.
+&#13;
+下面就是完整的函数了,.
+&#13;
+在"我的文档\WindowsPowerShell"文件夹下新建一个名为:
+&#13;
+Microsoft.PowerShell_profile.ps1
+&#13;
+的空文件, 使用记事本打开, 粘贴下面的函数保存.
+&#13;
+紧急修正! 函数现已使用8bit YUV色彩空间, win10的扩展不支持10bit的hevc!!!
+&#13;
+第二次修正, 有人评论色彩空间的问题, 我找了几个彩**片试了一下, 确实需要进一步修正.
+&#13;
+这里使用colormatrix对原图的色彩空间到新的色彩空间做了变换, 也启用了回复中的无损参数
+&#13;
+扩展阅读:https://trac.ffmpeg.org/wiki/colorspace
+&#13;
+ffmpegWIKI中对色彩空间变换的解释和例子.
+&#13;
+我找了几个pixiv的图试了一下, 色彩空间映射基本完美了.
+&#13;
+不过这个东西 源头不同 需要的参数也不同 不能一概而论
+&#13;
+所以要是有谁发现变换之后色彩不一样了 可以发出来大家一起研究一下
+&#13;
+function imgconv($tpath, $quality,$sformat ,$tformat)
+&#13;
+{
+&#13;
+    If($tformat -eq "heic")
+&#13;
+    {
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $extentmark = 0;
+&#13;
+            $imwidth=magick identify -ping -format "%w" $_.FullName
+&#13;
+            $imwidth=$imwidth;
+&#13;
+            If(($imwidth)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imwidth=$imwidth+1;
+&#13;
+                $extentmark=1;
+&#13;
+                }
+&#13;
+            $imheight=magick identify -ping -format "%h" $_.FullName;
+&#13;
+            $imheight=$imheight;
+&#13;
+            If(($imheight)%2 -ne 0)
+&#13;
+            {
+&#13;
+                $imheight=$imheight+1;
+&#13;
+                $extentmark=1;
+&#13;
+            }
+&#13;
+            If($extentmark)
+&#13;
+            {
+&#13;
+                magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";
+&#13;
+            }
+&#13;
+      }
+&#13;
+      dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+            $crfoffset = $quality * 10;
+&#13;
+            $crfval= 11 - $crfoffset;
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"&lt;font color="Purple"&gt;-crf $crfval &lt;/font&gt;&lt;font color="Red"&gt;-x265-params lossless=1:range=full &lt;/font&gt;-dst_range 1 -pix_fmt yuv420p&lt;font color="Red"&gt; -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6&lt;/font&gt;-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+            MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";
+&#13;
+            rm "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+      }
+&#13;
+}
+&#13;
+    Else
+&#13;
+{
+&#13;
+    dir -recurse -path $tpath -include *.$sformat |%{
+&#13;
+      $quality=$quality;
+&#13;
+      $magickquality=$quality * 100;
+&#13;
+      #$magickquality="$magickquality"+"%";
+&#13;
+      magick $_.FullName -quality $magickquality -interlace Plane -sampling-factor 4:2:0 -strip "$($_.Directory)\$($_.Basename).$tformat";
+&#13;
+      }
+&#13;
+}
+&#13;
+}
+&#13;
+然后使用管理员身份打开powershell, 设置执行策略 (如果一切正常, 你打开powershell的时候应该会报错说什么权限啊 策略啊之类的问题)
+&#13;
+set-executionpolicy remotesigned
+&#13;
+完成之后重启powershell即可使用上方函数.
+&#13;
+用法如下
+&#13;
+在powershell中输入
+&#13;
+imgconv "图片所在的目标文件夹" .原图格式 .目标格式即可递归查找目标路径下所有 原图格式 的图片 转换为 目标格式.
+&#13;
+题外话
+&#13;
+其实webp也是相当不错的选择, 不过我是苹果用户, 而苹果对webp的支持真是一言难尽....
+&#13;
+顺便, 有人知道怎么用sharex上传图片到gitee么..
+&#13;
+题外话2
+&#13;
+这个是链接里的那个扩展, 美区有免费版的 国区只有收费版的...
+&#13;
+如果这个找不到的话可以试试第三方的浏览器
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502120101.jpg
+&#13;
+题外话3
+&#13;
+推荐一个ios上的支持webp heic的漫画阅读器 里世界
+&#13;
+功能和别的阅读器比起来属于被秒杀的类型 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp
+&#13;
+题外话4
+&#13;
+xnview支持10bit解码 所以如果你使用xnview 可以:
+&#13;
+                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p -f hevc "$($_.Directory)\$($_.Basename).hvc";这一行改成:
+&#13;
+   ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval -preset veryslow -tune grain -pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";现在支持heic的阅读器 比如 imageglass 大多都是8bit only 所以为了兼容性 还是使用8bit模式就行
+&#13;
+但是苹果支持10bit 23333
+&#13;
+题外话5
+&#13;
+我其实很想发个对比图...但是我的都处理完了.....
+&#13;
+题外话6
+&#13;
+虽然现在(2020年5月2日14点40分)的函数里面启用了无损模式
+&#13;
+-x265-params lossless=1:range=full 但是因为后面一系列色彩操作优化还不是很好 所以压缩比并不是很理想
+&#13;
+如果想要在这个基础上达到比较高的压缩比
+&#13;
+去掉lossless=1
+&#13;
+题外话7
+&#13;
+如果上面的你觉得也不行 可以试试这个 这个是我现在用的 使用函数的时候 参数给低一点也无所谓 (目前设置最高1 最低0.1)
+&#13;
+我很懒, 你仔细看函数里面参数映射那里就会发现, 无论你怎么调节输入, crt的范围永远都低于无肉眼可见损失的范围 
+&#13;
+所以你可以随便改改 把$crfval的初始值设置成30啥的 (现在是11), 能压缩的更好.
+&#13;
+            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"-crf $crfval -x265-params range=full -dst_range 1 -pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -vf "colormatrix=bt470bg:bt709" -color_range 1 -colorspace 1 -color_primaries 1 -color_trc 1-f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话8
+&#13;
+最最最最最最终参数
+&#13;
+                        ffmpeg -i $_.FullName-crf $crfval-pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6   -f hevc "$($_.Directory)\$($_.Basename).hvc";
+&#13;
+题外话9
+&#13;
+这两天在写QT的UI 等我弄差不多了 撸个图形界面出来</description>
+      <content:encoded><![CDATA[<p><b>冰箱研会长: </b><br>
+<span>使用HEVC无损压缩漫画收藏</span><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-2 17:00 编辑 </span><br>
+<span>更新了对比图 2020年5月2日 15点15分</span><br>
+<span>--------------</span><br>
+<span>前两天看到aji47有关漫画阅读器的帖子:</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1924064-1-1.html</span><br>
+<span>一方面感叹楼主的行动力, 一方面也发现还有很多人也在本地保存着喜欢的漫画.</span><br>
+<span>任何种类的收藏在达到一定规模之后必然会逐步提高对储存介质容量的需求.</span><br>
+<span>在图片储存这方面, 一个高效的格式, 可以在画质无损的情况下以极大的比率减少文件所需要的储存空间.</span><br>
+<span>然而优秀的图片格式有很多种, 但并不是每种都得到了广泛支持.</span><br>
+<span>号称最高压缩比的Flif, 已经不知道多久没更新了.</span><br>
+<span>据称性能最好的BGP, 连解码器都需要自己编译.</span><br>
+<span>如果你的图片规格是哪儿哪儿用着都费劲, 转换格式其实也是自找麻烦.</span><br>
+<span>所幸, 除了png jpg gif 这类古董货之外, 我们是有一个泛用性高, 压缩比高, 渲染性能优秀的图片格式的,</span><br>
+<span>那就是</span><br>
+<span>webp(划掉)</span><br>
+<span>说错了...</span><br>
+<span>那就是</span><br>
+<span>HEIC!</span><br>
+<span>关于heic的起源和爸爸们, 还有它和webp的恩怨, 想了解的还请自行百度, 看完之后说不定你也会高呼 "万恶的资本主义"</span><br>
+<span>heic本身其实不是图片格式, 而是一种容器(里面甚至可以放json), 这里我们所说的是heic格式的图片, 不是heic封装jpg png webp, 而是封装了.265编码的一帧的heic</span><br>
+<span>至于.265, 对视频压制有了解的各位或多或少知道这个编码的性能是如何优秀, 这里我们要做的, 就是利用这个性能, 对原有的图片重新编码封装, 达到无损转换图片, 节省空间的目的.</span><br>
+<span> 前期准备</span><br>
+<span>1. FFmpeg</span><br>
+<span>2.ImageMagick</span><br>
+<span>3.Mp4box</span><br>
+<span>4.Hevc图像扩展</span><br>
+<span>(可选): 第三方图片阅读器</span><br>
+<span>1-3 下载各自的软件包:</span><br>
+<span>https://ffmpeg.zeranoe.com/builds/</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502094912.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502094912.png"><br>
+<span>https://imagemagick.org/download ... -10-Q16-x64-dll.exe</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095004.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095004.png"><br>
+<span>https://gpac.wp.imt.fr/downloads/gpac-nightly-builds/</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095133.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095133.png"><br>
+<span>4.</span><br>
+<span>(可选): 切换win10地区设置为美国</span><br>
+<span>(必选):</span><br>
+<span>https://www.microsoft.com/en-us/ ... 7593_1243925&tduid=$ir__1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900$$7593$$1243925$$dquE8U2QoAw-vAQJT5WIzcashB34AtLacA$$$&ranMID=24542&ranEAID=dquE8U2QoAw&ranSiteID=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&epi=dquE8U2QoAw-vAQJT5WIzcashB34AtLacA&irgwc=1&irclickid=_1lik369jrkkftjh9kk0sohzx0e2xngsgfopfoxd900&wa=wsignin1.0&activetab=pivot:overviewtab </span><br>
+<span>上面的链接好像不好使?</span><br>
+<span>https://www.microsoft.com/en-us/ ... cturer/9n4wgh0z6vhq使用微软账号购买安装此免费视频扩展</span><br>
+<span>(必选):</span><br>
+<span>在微软商店搜索heic图像扩展, 安装, 也是免费的. 之所以上面那个提供链接, 是因为只有美区有, 国区搜索不到.</span><br>
+<span>5.(可选) 第三方阅读器 Xnview MP</span><br>
+<span>在完成了前四步之后, 你的电脑应该已经可以无障碍查看heic图像了(默认照片程序).</span><br>
+<span>如果你想使用第三方阅读器来统一阅读体验(假设你还需要阅读webp), 那么我建议你安装xnview, 及其heic扩展:</span><br>
+<span>https://newsgroup.xnview.com/viewtopic.php?t=36661</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095724.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502095724.png"><br>
+<span>这里所说的heic和heif是一回事.</span><br>
+<span>批量转换你的图片</span><br>
+<span>#具体实现没有兴趣直接拉到最后</span><br>
+<span>转换的流程如下:</span><br>
+<span>解码图片 编码图片 封装成heic</span><br>
+<span>在仅仅考虑这些的条件下, 我们只要ffmpeg就可以解决:</span><br>
+<span>                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";</span><br>
+<span>rm "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>-i 后面是输入文件地址 -crt是质量参数 越低越好 0 为无损 后面的""内的是输出文件的地址. </span><br>
+<span>输出之后使用mp4box封装, 然后移除帧文件, 里面所有$开头的都是powershell设定的变量, 因为这是直接从我的函数中截取出来的, 所以可读性差一点.</span><br>
+<span>熟悉powershell的朋友可能看出来这些大部分都是 管道传递的对象的属性. </span><br>
+<span>然而hevc编码有一个问题, 那就是编码文件的时候, 只接受 "长宽都是偶数的图片". 然而图片大小这种东西...讲道理虽然是视频常见的分辨率就那么几种, 图片的分辨率则是千差万别.</span><br>
+<span>ffmpeg虽然内置了一个拉伸算法来允许你对图像进行拉伸, </span><br>
+<span>然而这种加减一个像素的拉伸, 在这些本应用于成倍缩放的情景中   的算法手下会产生极为糟糕的后果.</span><br>
+<span>反映到漫画上来, 就是细节纹理恶化, 网点全灭.</span><br>
+<span>由于上述原因, 这里我采用的是对图像平铺扩展的方式进行大小改变.</span><br>
+<span>      magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";通过将图像至于大了半圈的底板中心 (其实不那么中心, 偶数怎么可能有中心呢?)里,</span><br>
+<span>来让图像满足hevc编码的条件.</span><br>
+<span>在成品的函数中, 我是用判断余数的方式自动设置了缩放参数.</span><br>
+<span>!!!!! 注意 这里会直接在原图的基础上进行修改, 图片质量不会变化, 只是多了一圈像素,</span><br>
+<span>但为了规避可能的失误操作, 在处理之前请复制一些文件进行测试</span><br>
+<span>到这里两步, 必要的工作都已经结束了.</span><br>
+<span>用过power shell的 get children 获取对象, 依次传递到管道执行命令就可以完成格式转换.</span><br>
+<span>因为其他图像格式之间的转换不需要ffmepg, imagemagic就可以支持, 所以加了一个判断目标格式的if在里面,</span><br>
+<span>其他情况都是使用IM, heic时使用ffmpeg.</span><br>
+<span>顺便说一句, win10的image magick是支持hevc解码的, 也就是说它可以从heic转出, 而不能转入.</span><br>
+<span>下面就是完整的函数了,.</span><br>
+<span>在"我的文档\WindowsPowerShell"文件夹下新建一个名为:</span><br>
+<span>Microsoft.PowerShell_profile.ps1</span><br>
+<span>的空文件, 使用记事本打开, 粘贴下面的函数保存.</span><br>
+<span>紧急修正! 函数现已使用8bit YUV色彩空间, win10的扩展不支持10bit的hevc!!!</span><br>
+<span>第二次修正, 有人评论色彩空间的问题, 我找了几个彩**片试了一下, 确实需要进一步修正.</span><br>
+<span>这里使用colormatrix对原图的色彩空间到新的色彩空间做了变换, 也启用了回复中的无损参数</span><br>
+<span>扩展阅读:https://trac.ffmpeg.org/wiki/colorspace</span><br>
+<span>ffmpegWIKI中对色彩空间变换的解释和例子.</span><br>
+<span>我找了几个pixiv的图试了一下, 色彩空间映射基本完美了.</span><br>
+<span>不过这个东西 源头不同 需要的参数也不同 不能一概而论</span><br>
+<span>所以要是有谁发现变换之后色彩不一样了 可以发出来大家一起研究一下</span><br>
+<span>function imgconv($tpath, $quality,$sformat ,$tformat)</span><br>
+<span>{</span><br>
+<span>    If($tformat -eq "heic")</span><br>
+<span>    {</span><br>
+<span>      dir -recurse -path $tpath -include *.$sformat |%{</span><br>
+<span>            $extentmark = 0;</span><br>
+<span>            $imwidth=magick identify -ping -format "%w" $_.FullName</span><br>
+<span>            $imwidth=$imwidth;</span><br>
+<span>            If(($imwidth)%2 -ne 0)</span><br>
+<span>            {</span><br>
+<span>                $imwidth=$imwidth+1;</span><br>
+<span>                $extentmark=1;</span><br>
+<span>                }</span><br>
+<span>            $imheight=magick identify -ping -format "%h" $_.FullName;</span><br>
+<span>            $imheight=$imheight;</span><br>
+<span>            If(($imheight)%2 -ne 0)</span><br>
+<span>            {</span><br>
+<span>                $imheight=$imheight+1;</span><br>
+<span>                $extentmark=1;</span><br>
+<span>            }</span><br>
+<span>            If($extentmark)</span><br>
+<span>            {</span><br>
+<span>                magick $_.FullName -gravity center -extent "($imwidth)x($imheight)" -quality 100% "$($_.Directory)\$($_.Basename).$sformat";</span><br>
+<span>            }</span><br>
+<span>      }</span><br>
+<span>      dir -recurse -path $tpath -include *.$sformat |%{</span><br>
+<span>            $crfoffset = $quality * 10;</span><br>
+<span>            $crfval= 11 - $crfoffset;</span><br>
+<span>            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"<font color="Purple">-crf $crfval </font><font color="Red">-x265-params lossless=1:range=full </font>-dst_range 1 -pix_fmt yuv420p<font color="Red"> -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6</font>-f hevc "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>            MP4Box -add-image "$($_.Directory)\$($_.Basename).hvc:primary" -ab heic -new "$($_.Directory)\$($_.Basename).heic";</span><br>
+<span>            rm "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>      }</span><br>
+<span>}</span><br>
+<span>    Else</span><br>
+<span>{</span><br>
+<span>    dir -recurse -path $tpath -include *.$sformat |%{</span><br>
+<span>      $quality=$quality;</span><br>
+<span>      $magickquality=$quality * 100;</span><br>
+<span>      #$magickquality="$magickquality"+"%";</span><br>
+<span>      magick $_.FullName -quality $magickquality -interlace Plane -sampling-factor 4:2:0 -strip "$($_.Directory)\$($_.Basename).$tformat";</span><br>
+<span>      }</span><br>
+<span>}</span><br>
+<span>}</span><br>
+<span>然后使用管理员身份打开powershell, 设置执行策略 (如果一切正常, 你打开powershell的时候应该会报错说什么权限啊 策略啊之类的问题)</span><br>
+<span>set-executionpolicy remotesigned</span><br>
+<span>完成之后重启powershell即可使用上方函数.</span><br>
+<span>用法如下</span><br>
+<span>在powershell中输入</span><br>
+<span>imgconv "图片所在的目标文件夹" .原图格式 .目标格式即可递归查找目标路径下所有 原图格式 的图片 转换为 目标格式.</span><br>
+<span>题外话</span><br>
+<span>其实webp也是相当不错的选择, 不过我是苹果用户, 而苹果对webp的支持真是一言难尽....</span><br>
+<span>顺便, 有人知道怎么用sharex上传图片到gitee么..</span><br>
+<span>题外话2</span><br>
+<span>这个是链接里的那个扩展, 美区有免费版的 国区只有收费版的...</span><br>
+<span>如果这个找不到的话可以试试第三方的浏览器</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502120101.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502120101.jpg"><br>
+<span>题外话3</span><br>
+<span>推荐一个ios上的支持webp heic的漫画阅读器 里世界</span><br>
+<span>功能和别的阅读器比起来属于被秒杀的类型 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp 但是支持heic和webp</span><br>
+<span>题外话4</span><br>
+<span>xnview支持10bit解码 所以如果你使用xnview 可以:</span><br>
+<span>                        ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval-preset veryslow -tune grain-pix_fmt yuv420p -f hevc "$($_.Directory)\$($_.Basename).hvc";这一行改成:</span><br>
+<span>   ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat" -crf $crfval -preset veryslow -tune grain -pix_fmt yuv420p10le -f hevc "$($_.Directory)\$($_.Basename).hvc";现在支持heic的阅读器 比如 imageglass 大多都是8bit only 所以为了兼容性 还是使用8bit模式就行</span><br>
+<span>但是苹果支持10bit 23333</span><br>
+<span>题外话5</span><br>
+<span>我其实很想发个对比图...但是我的都处理完了.....</span><br>
+<span>题外话6</span><br>
+<span>虽然现在(2020年5月2日14点40分)的函数里面启用了无损模式</span><br>
+<span>-x265-params lossless=1:range=full 但是因为后面一系列色彩操作优化还不是很好 所以压缩比并不是很理想</span><br>
+<span>如果想要在这个基础上达到比较高的压缩比</span><br>
+<span>去掉lossless=1</span><br>
+<span>题外话7</span><br>
+<span>如果上面的你觉得也不行 可以试试这个 这个是我现在用的 使用函数的时候 参数给低一点也无所谓 (目前设置最高1 最低0.1)</span><br>
+<span>我很懒, 你仔细看函数里面参数映射那里就会发现, 无论你怎么调节输入, crt的范围永远都低于无肉眼可见损失的范围 </span><br>
+<span>所以你可以随便改改 把$crfval的初始值设置成30啥的 (现在是11), 能压缩的更好.</span><br>
+<span>            ffmpeg -i "$($_.Directory)\$($_.Basename).$sformat"-crf $crfval -x265-params range=full -dst_range 1 -pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -vf "colormatrix=bt470bg:bt709" -color_range 1 -colorspace 1 -color_primaries 1 -color_trc 1-f hevc "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>题外话8</span><br>
+<span>最最最最最最终参数</span><br>
+<span>                        ffmpeg -i $_.FullName-crf $crfval-pix_fmt yuv420p -sws_flags spline+accurate_rnd+full_chroma_int -color_range 1 -colorspace 5 -color_primaries 5 -color_trc 6   -f hevc "$($_.Directory)\$($_.Basename).hvc";</span><br>
+<span>题外话9</span><br>
+<span>这两天在写QT的UI 等我弄差不多了 撸个图形界面出来</span><br>
+</p><p><b>AkariHayasaka: </b><br>
+<span>还有这种操作。。感谢楼主。我珍藏的几千本本子有救了硬盘不用被塞得满满的都要溢出来了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>lbs123456: </b><br>
+<span>这……色彩空间变了吧 确定是无损吗？</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>lbs123456 发表于 2020-5-2 11:33</span><br>
+<span>这……色彩空间变了吧 确定是无损吗？</span><br>
+<span>欸? 我没拿彩**片测试过...用的都是黑白漫画...</span><br>
+<span>不过色彩空间就是个矩阵转换的事 "图像本身"(啊) 是没有损失的, 如果crt设置为0的话, 不过20左右应该是肉眼无损, 函数里面我设置的是, 1映射crt为10 0.1映射crt为19 大概是这样 具体数值忘了</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>lbs123456 发表于 2020-5-2 11:33</span><br>
+<span>这……色彩空间变了吧 确定是无损吗？</span><br>
+<span>而且函数使用ffmpeg是用的是10位的色彩空间 一般srgb啥的我记得是8位的吧, 讲道理是可以无损的.</span><br>
+</p><p><b>真田丸: </b><br>
+<span>一个苹果用户专门写面向windows用户的压缩教程，这是一种什么样的精神啊</span><br>
+</p><p><b>rrpw777: </b><br>
+<span>-x265-params lossless=1</span><br>
+</p><p><b>菜姬: </b><br>
+<span> 本帖最后由 菜姬 于 2020-5-2 14:22 编辑 </span><br>
+<span>刚想回复lossless 发现楼上已经回答过了</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>到现在我觉得算是完善的差不多了 不算之前改的 发出来之后我又改了七八回.</span><br>
+<span>补充个对比图吧.</span><br>
+<span>Webp的原图 使用题外话7的配置 参数为 0(相对最差 crt是11)</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150323.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150323.jpg"><br>
+<span>Heic文件夹大小</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150350.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150350.jpg"><br>
+<span>Webp文件夹大小</span><br>
+<span>再来几张放大的细节对比图:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150905.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150905.jpg"><br>
+<span>转换出来的heic封面</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150956.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502150956.jpg"><br>
+<span>webp原图的封面</span><br>
+<span>二者文件大小 heic:webp</span><br>
+<span>500kb 2.05mb</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151106.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151106.jpg"><br>
+<span>一张科尔维特的车灯 heic格式</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151135.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151135.jpg"><br>
+<span>还是那个车灯 webp格式</span><br>
+<span>二者体积对比</span><br>
+<span>476kb 1385kb</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151225.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151225.jpg"><br>
+<span>488的车标 heic</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151248.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200502151248.jpg"><br>
+<span>webp</span><br>
+<span>大小对比:</span><br>
+<span>433.19kb 1.67mb</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>HEVC扩展可以来这里获取直链</span><br>
+<span>比如上面那个：x64   x86</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>若荼泱 发表于 2020-5-2 15:34</span><br>
+<span>HEVC扩展可以来这里获取直链</span><br>
+<span>比如上面那个：x64   x86</span><br>
+<span>这什么宝贝网站 藏了</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span> 本帖最后由 华蝶风雪 于 2020-5-2 15:54 编辑 </span><br>
+<span>这种增减一像素在ffmpeg可以直接做</span><br>
+<span>https://ffmpeg.org/ffmpeg-all.html 39.148 pad</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>码一个</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>ComicShare能用webp，从某漫画抓出来是webp，实在是懒得折腾了……</span><br>
+<span>真无损的话，傻瓜化工具希望</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>Aeroblast 发表于 2020-5-2 16:03</span><br>
+<span>ComicShare能用webp，从某漫画抓出来是webp，实在是懒得折腾了……</span><br>
+<span>真无损的话，傻瓜化工具希望 ...</span><br>
+<span>可以看眼楼上的对比图 2000%放大 像素块看不出差别 没拿滴管工具试 我待会直接传一个对比包 大家可以自己拿回去测试</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>https://send.firefox.com/download/c73c90bf36481dbd/#DY6d6HWT6US3INBIzNioTQ</span><br>
+<span>HEIC对比包 20次下载/7天之后报废 </span><br>
+</p><p><b>肆暮江飛鳥: </b><br>
+<span> 本帖最后由 肆暮江飛鳥 于 2020-5-2 17:48 编辑 </span><br>
+<span>楼主的方法对于我这种小白来说太麻烦了，希望楼主能做出一个软件来分享，感谢。</span><br>
+<span>但小白有小白的方法，我用这个软件批量压缩，分辨率不变情况下有损压缩，压缩率挺高的，黑白漫画有损压缩清晰度对比不是特别明显。</span><br>
+<span>运行打不开的记得安装Microsoft Visual C++ 全家桶</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>华蝶风雪 发表于 2020-5-2 15:52</span><br>
+<span>这种增减一像素在ffmpeg可以直接做</span><br>
+<span>https://ffmpeg.org/ffmpeg-all.html 39.148 pad</span><br>
+<span>我仔细时间了一遍, 不需要imagemagick了 速度也提升了 但是问题在于imagemagick的增减像素是根据周围像素的 而ffmpeg只是固定颜色增加像素 而这里用的libx265有不支持透明像素的alpha通道. 唯一的选择就是不pad 而是crop 但是crop可是实实在在删掉了一层像素啊.</span><br>
+<span>在libx265支持alpha之前, 还得用imagemagick做这个pad处理.</span><br>
+</p><p><b>元肉丸子: </b><br>
+<span>好贴马克</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>azbhg1: </b><br>
+<span>好帖顶，虽然估计用不到</span><br>
+</p><p><b>loli炮: </b><br>
+<span>前段时间下了两部港漫 PDF格式的 十好几G</span><br>
+</p><p><b>loli炮: </b><br>
+<span>哦对了 大佬有没有直接重压缩zip文件的办法(某些图片大的离谱了)一个个倒腾挪到另一个盘解压在用压缩图软件过一遍 在重新打包搞几个就受不了了。 </span><br>
+</p><p><b>aji47: </b><br>
+<span>loli炮 发表于 2020-5-2 23:50</span><br>
+<span>哦对了 大佬有没有直接重压缩zip文件的办法(某些图片大的离谱了)一个个倒腾挪到另一个盘解压在用压缩图软 ...</span><br>
+<span>重新压缩的话 windows的好压有单独压缩</span><br>
+<span>或者我这边有个简陋脚本</span><br>
+<span>https://github.com/hjyssg/ShiguReader/blob/dev/src/tools/script-generator.js</span><br>
+</p><p><b>loli炮: </b><br>
+<span>aji47 发表于 2020-5-3 00:34</span><br>
+<span>重新压缩的话 windows的好压有单独压缩</span><br>
+<span>或者我这边有个简陋脚本</span><br>
+<span>怎么用！！！下下来个文件ShiguReader-dev不会用</span><br>
+<span>哦我是火狐好像装不了 而且我说的功能可能复杂了些稍有些不同 不过还是谢谢了</span><br>
+</p><p><b>SmterC: </b><br>
+<span>之前还费了挺大功夫把收藏的漫画都转成webp格式的，不过确实webp还不够理想。</span><br>
+<span>2k分辨率左右30页的本子，q75的webp也要80m左右，如果heic在安卓上支持的好的话就打算再全转成heic了。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>aji47: </b><br>
+<span>loli炮 发表于 2020-5-3 01:23</span><br>
+<span>怎么用！！！下下来个文件ShiguReader-dev不会用</span><br>
+<span>哦我是火狐好像装不了 而且我说的功能可能复杂了些稍有 ...</span><br>
+<span>那是一个单独node脚本 和其他的代码完全无关 node 文件名就行了</span><br>
+<span>诶，你还是安装好压好了</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-3 06:29 编辑 </span><br>
+<span>loli炮 发表于 2020-5-2 20:46</span><br>
+<span>前段时间下了两部港漫 PDF格式的 十好几G</span><br>
+<span>可以用 PDF补丁丁 拆开 然后处理一遍 但是PDF不支持插入heic 处理之后就只能用压缩包一类的管理 不过就凭heic这个压缩比 我现在已经不用压缩包了..</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>SmterC 发表于 2020-5-3 02:13</span><br>
+<span>之前还费了挺大功夫把收藏的漫画都转成webp格式的，不过确实webp还不够理想。</span><br>
+<span>2k分辨率左右30页的本子，q75 ...</span><br>
+<span>你可以试试 小米肯定是支持的 我记得发布会里面有讲过</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>想法不错。不过你这是有多少图才需要这样折腾？我觉得不如直接买硬盘</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>视频编码在压缩连续的多张差别极小的图片时很有效，但漫画里这种情况一般不多见吧，真出现这种情况一般都会被读者喷是在水页数</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>plusSharp 发表于 2020-5-3 08:08</span><br>
+<span>视频编码在压缩连续的多张差别极小的图片时很有效，但漫画里这种情况一般不多见吧，真出现这种情况一般都会 ...</span><br>
+<span>你看眼我刚更新的 这里用的不是视频编码的帧对比技术 是同帧内的分块压缩</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>aji47 发表于 2020-5-3 02:28</span><br>
+<span>那是一个单独node脚本 和其他的代码完全无关 node 文件名就行了</span><br>
+<span>诶，你还是安装好压好了 ...</span><br>
+<span>咕 我写完介绍部分了....</span><br>
+</p><p><b>alien: </b><br>
+<span> 本帖最后由 alien 于 2020-5-3 15:51 编辑 </span><br>
+<span>作为技术小白和懒人，偶尔也扫扫图的人，想要的是</span><br>
+<span>1、一键安装包含所有必须插件的图形界面的图片转换程序。主楼的软件链接能安的都安了 ffmpeg那个不知怎么安装~ 然后官方下载下来的好像是appx安装文件那个要win10吧~办公室电脑win7~</span><br>
+<span>2、最好是有photoshop也能用的转换存储插件，修图存储一步到位。</span><br>
+<span>3、推荐能阅读zip rar压缩包中的heic格式的看漫画软件，上面XnView我看不了压缩包里的图片~随手搜了下好像没办法看？~~~~毕竟习惯一个包一本漫画的形式，只能散放在文件夹里面看不方便</span><br>
+<span>qq浏览器能看lz的heic但解析不正确~有条纹~ 安装不了appx</span><br>
+<span>如果有插件安装后什么看图软件都能看的最好~不用更换软件~（这个是奢望吧~）</span><br>
+</p><p><b>水上由崎: </b><br>
+<span>好评加鹅</span><br>
+<span>不断jpg压缩到最后应该会变成高斯模糊……越来越绿是因为每次上传百度贴吧会加上一层绿色的滤镜……</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>alien 发表于 2020-5-3 15:48</span><br>
+<span>作为技术小白和懒人，偶尔也扫扫图的人，想要的是</span><br>
+<span>1、一键安装包含所有必须插件的图形界面的图片转换程序。 ...</span><br>
+<span>ios上面我知道一个里世界阅读器可以透zip阅读heic 我用的就是这个</span><br>
+<span>ffmpeg不应该啊...</span><br>
+<span>你确定你下载的是这个?</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200503164544.jpg" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200503164544.jpg"><br>
+<span>我这都是exe啊</span><br>
+</p><p><b>Probe_tanji: </b><br>
+<span>拯救硬盘！科普好评 马克</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2020-5-3 18:43 编辑 </span><br>
+<span>我觉得如果有自动去除印刷时加入的那种模拟灰色的点阵图案的话可以极大减少高频信息量</span><br>
+<span>可惜我一直没有找到合适的算法支持</span><br>
+<span>webp没有单灰度模式，我试过有的情况还不如灰度jpg压缩率高，喷了</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>lwa190212 发表于 2020-5-3 18:41</span><br>
+<span>我觉得如果有自动去除印刷时加入的那种模拟灰色的点阵图案的话可以极大减少高频信息量</span><br>
+<span>可惜我一直没有找到 ...</span><br>
+<span>jpg清洗高频很快的啊 不过为啥要去掉网点呢?</span><br>
+</p><p><b>山药白薯: </b><br>
+<span>啊这个贴让我想起来 刚看论坛怎么DVDISO压到AVI的那时候的教程了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>冰箱研会长 发表于 2020-5-3 19:38</span><br>
+<span>jpg清洗高频很快的啊 不过为啥要去掉网点呢?</span><br>
+<span>网点通常用来模拟特定的灰度，换成灰度也不会造成观感上的差异</span><br>
+<span>然后网点会在扫描的时候因为采样率问题出现更不规则的信息</span><br>
+<span>总之网点代表的是一种从我的观感来说去掉也不影响画面的一类高频(带一些中频)信息，而且能去掉的话在某些扫描质量不是很好的漫画中达到非常高的压缩率而不损失其他画质，用jpg压高频会把有价值的信息也破坏掉</span><br>
+<span>我尝试过能用webp的q85压到jpg的30%容量的图，用ps去掉网点后再用q85能达到10%以内，相当于再压缩到之前的webp的1/3以内</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>lwa190212 发表于 2020-5-3 20:16</span><br>
+<span>网点通常用来模拟特定的灰度，换成灰度也不会造成观感上的差异</span><br>
+<span>然后网点会在扫描的时候因为采样率问题出 ...</span><br>
+<span>哈哈哈 咱俩看法不太一样, 我是绝对不能忍受网点丢失的. 要是网点丢失了就会觉得 "啊, 我在看被压缩过的漫画了" 贼难受.</span><br>
+<span>不过你说的这个想法 我第一时间想到是做一个高斯模糊, Imagemagick 有进行高斯模糊的参数 你可以顺着这个关键词找找看</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>冰箱研会长 发表于 2020-5-3 20:44</span><br>
+<span>哈哈哈 咱俩看法不太一样, 我是绝对不能忍受网点丢失的. 要是网点丢失了就会觉得 "啊, 我在看被压缩过的 ...</span><br>
+<span>常见的卷积相关的算法我都试过了，频率域的处理也试过一些，结果上说都不理想</span><br>
+<span>网点小的话在屏幕上看，遇到没有摩尔纹处理的缩放算法就直接没法看了，用了去摩尔纹的滤镜都会糊一些</span><br>
+<span>自己处理网点可以做到画面清晰锐利，应该是不会有常见的jpg高压过的图片的那种感觉的，不过精力代价是不可接受的了</span><br>
+</p><p><b>hac0101: </b><br>
+<span>扫描出来的图</span><br>
+<span>黑白漫画的网点属于正常的网点，一般要保留。</span><br>
+<span>彩色·图片的网点属于墨点，一般要模糊处理吧。</span><br>
+</p><p><b>echoIII: </b><br>
+<span>可能不太会用PowerShell，我配完运行啥错都没报，但就是没反应。</span><br>
+<span>自己敲命令试了一下，-crf 11的时候比webp还大，30的时候确实只有30%大小，但是画质已经肉眼可见的明显劣化了。</span><br>
+<span>能否提供一些漫画对比的例子。</span><br>
+</p><p><b>凤舞夜月: </b><br>
+<span>太复杂了。。。作为渣渣只能等一个傻瓜化工具到手，再慢慢整理，然后老习惯打包成ZIP了。。。</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>冰箱研会长 发表于 2020-5-3 09:55</span><br>
+<span>你看眼我刚更新的 这里用的不是视频编码的帧对比技术 是同帧内的分块压缩 ...</span><br>
+<span>我看了一下不过完全不懂，这里的预测是指图像相邻的像素之间有很大的可能颜色相同吗？</span><br>
+</p><p><b>萼绿华: </b><br>
+<span>这倒提醒了我，是不是可以考虑将大量图片视为一个视频的不同帧进行进一步的压缩？这样还可以进一步利用多张图片之间的连续性。</span><br>
+</p><p><b>borrowface: </b><br>
+<span>楼主牛逼</span><br>
+</p><p><b>wangh: </b><br>
+<span>如果主要是日式黑白漫画的话就没必要这么复杂……</span><br>
+<span>综合效率和兼容性最好的压缩方法是16级灰度的PNG格式。黑白漫画里灰度过渡一般是由网点构成的，所以从256级灰度减少到16级对画面的影响非常小，变成4位色后对于PNG压缩也变得更加有利。这样既能够完美保留所以的网点和线条等高频细节，而且也不会像其它有损压缩那样引入量化造成的噪音</span><br>
+<span>以eh的本子为例，3000高度的扫图漫画，一页在1MB左右，1500高度的电子版漫画，一页300KB左右</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>虽然看不明白但是感觉可以学一下</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1931974[0-50]</guid>
+    </item>
+  </channel>
+</rss>

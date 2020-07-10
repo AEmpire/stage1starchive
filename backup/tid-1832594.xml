@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网络设定求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网络设定求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:29:12 +0000</lastBuildDate>
+    <item>
+      <title>网络设定求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832594-1-1.html</link>
+      <description>网络设定求助&#13;
+ 本帖最后由 UniqueDiablo 于 2019-5-19 05:49 编辑 
+
+现网络结构如图，因为种种原因路由器没法直连光猫了，那么如何设定才能实现红线这种方式呢？
+&#13;
+拓扑图画错了，是要路由连光猫
+&#13;
+直接路由WAN口接交换机无线倒是不受影响，但是有线就不行，即使重新指定了IP地址和网关DNS如图
+&#13;
+在路由器里也指定了IP，是否路由器关掉有线DHCP才行？K3刷的梅林</description>
+      <content:encoded><![CDATA[<p><b>UniqueDiablo: </b><br>
+<span>网络设定求助</span><br>
+<span> 本帖最后由 UniqueDiablo 于 2019-5-19 05:49 编辑 </span><br>
+<span>现网络结构如图，因为种种原因路由器没法直连光猫了，那么如何设定才能实现红线这种方式呢？</span><br>
+<span>拓扑图画错了，是要路由连光猫</span><br>
+<span>直接路由WAN口接交换机无线倒是不受影响，但是有线就不行，即使重新指定了IP地址和网关DNS如图</span><br>
+<span>在路由器里也指定了IP，是否路由器关掉有线DHCP才行？K3刷的梅林</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>你现在谁负责拨号，k3刷梅林用来干嘛的</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>光猫拨号啊，K3刷梅林自然是为了上网，新的官改酸酸乳客户端太烂了</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>拓扑图画错了，是要路由连光猫</span><br>
+</p><p><b>モトロ: </b><br>
+<span>光猫192.168.1.1</span><br>
+<span>路由器192.168.1.*关DHCP 路由器当AP用呗</span><br>
+</p><p><b>qwased: </b><br>
+<span>买一个支持vlan的交换机</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>只有一根网线连接 路由和交换机的时候</span><br>
+<span>A：使用vlan，交换机路由器侧都需要支持，通过2个vlan来进行上下行</span><br>
+<span>B：8芯网线拆成两个4芯的跑百兆，一个连wan一个连lan来分别上下行</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>问题网线都是埋在墙里的啊，看来不换设备无解么</span><br>
+<span>—— 来自 samsung SM-G8870, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>linuy: </b><br>
+<span>为什么要光猫拨号呢，路由器也可以拨号的</span><br>
+<span>你这种情况，只要交换机支持端口隔离就行</span><br>
+<span>光猫上网口接交换机A口，路由器wan口接交换器B口，lan口接交换机C口</span><br>
+<span>交换机设置为AB和其它CDEFG口隔离，等于把一台交换机拆成2口+6口的两台交换机</span><br>
+</p><p><b>wind1084: </b><br>
+<span>你家里怎么走线的？所有网线到弱电箱？弱电箱里跳线把光猫和路由器直连不行么？</span><br>
+<span>— from HUAWEI VOG-L09, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>...没看懂楼主的图</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>linuy 发表于 2019-5-20 14:20</span><br>
+<span>为什么要光猫拨号呢，路由器也可以拨号的</span><br>
+<span>你这种情况，只要交换机支持端口隔离就行</span><br>
+<span>光猫上网口接交换机A口 ...</span><br>
+<span>武汉只能光猫拨号，甚至没有号</span><br>
+<span>光猫上一个宽带识别码，就认这个</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832594[0-50]</guid>
+    </item>
+  </channel>
+</rss>

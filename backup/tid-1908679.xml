@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>initialize和winsock报错问题求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>initialize和winsock报错问题求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:50:58 +0000</lastBuildDate>
+    <item>
+      <title>initialize和winsock报错问题求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908679-1-1.html</link>
+      <description>initialize和winsock报错问题求助&#13;
+刚电脑忽然蓝屏了一下然后再开机后出现一些软件打不开并弹出以下提示
+&#13;
+打开Proxifier时弹出这个并无法运行
+&#13;
+http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0pm5oj20cf05f3yr.jpg
+&#13;
+打开QQ弹出这个
+&#13;
+http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0fk0hj209t058weq.jpg
+&#13;
+打开SSR弹出这个 每次换节点都会弹出但上国外网没问题 上国内网则需要关闭才行
+&#13;
+http://tvax2.sinaimg.cn/large/638aaa96gy1gaqrc098ajj2087051q30.jpg
+&#13;
+STEAM打开无报错但也无反应一票网络相关游戏启动也有问题UU加速器启动也报错而离线软件/游戏基本无影响    
+&#13;
+CHROME正常使用
+&#13;
+于是可能是什么出问题了? 驱动抑或是某些设置?</description>
+      <content:encoded><![CDATA[<p><b>妹控使徒: </b><br>
+<span>initialize和winsock报错问题求助</span><br>
+<span>刚电脑忽然蓝屏了一下然后再开机后出现一些软件打不开并弹出以下提示</span><br>
+<span>打开Proxifier时弹出这个并无法运行</span><br>
+<img src="http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0pm5oj20cf05f3yr.jpg" title="http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0pm5oj20cf05f3yr.jpg"><br>
+<span>打开QQ弹出这个</span><br>
+<img src="http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0fk0hj209t058weq.jpg" title="http://tva3.sinaimg.cn/large/638aaa96gy1gaqrc0fk0hj209t058weq.jpg"><br>
+<span>打开SSR弹出这个 每次换节点都会弹出但上国外网没问题 上国内网则需要关闭才行</span><br>
+<img src="http://tvax2.sinaimg.cn/large/638aaa96gy1gaqrc098ajj2087051q30.jpg" title="http://tvax2.sinaimg.cn/large/638aaa96gy1gaqrc098ajj2087051q30.jpg"><br>
+<span>STEAM打开无报错但也无反应一票网络相关游戏启动也有问题UU加速器启动也报错而离线软件/游戏基本无影响    </span><br>
+<span>CHROME正常使用</span><br>
+<span>于是可能是什么出问题了? 驱动抑或是某些设置?</span><br>
+</p><p><b>妹控使徒: </b><br>
+<span>好吧已搞定   CMD输入netsh Winsock reset然后重启即可</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908679[0-50]</guid>
+    </item>
+  </channel>
+</rss>

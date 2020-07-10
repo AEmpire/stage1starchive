@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[Bug10] 微软商店的NVIDIA控制面板无法安装，是否该干掉DCH驱动</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[Bug10] 微软商店的NVIDIA控制面板无法安装，是否该干掉DCH驱动</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:27:01 +0000</lastBuildDate>
+    <item>
+      <title>[Bug10] 微软商店的NVIDIA控制面板无法安装，是否该干掉DCH驱动[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911881-1-1.html</link>
+      <description>[Bug10] 微软商店的NVIDIA控制面板无法安装，是否该干掉DCH驱动&#13;
+今天刚刚删光分区后干净安装的 Bug 10 Enterprise 1909，没想到咖喱味的 bug 已经进化到开包即用的程度了
+&#13;
+现在已经安装好了 GeForce Experience 给我推送的显卡驱动，但找不到 NVIDIA 控制面板，看来是让我尝鲜 DCH 驱动了
+&#13;
+问题是 Windows 10 应用商店里的 NVIDIA 控制面板安装不上，提示错误 0x8024801E ，但我的一堆应用商店程序都能安装，就老黄控制面板搞不定
+&#13;
+现在我是不是应该想办法干净卸载掉 DCH 驱动并换成老黄官网上没兼容DCH的版本？如果是，应该如何操作？</description>
+      <content:encoded><![CDATA[<p><b>营业收入: </b><br>
+<span>[Bug10] 微软商店的NVIDIA控制面板无法安装，是否该干掉DCH驱动</span><br>
+<span>今天刚刚删光分区后干净安装的 Bug 10 Enterprise 1909，没想到咖喱味的 bug 已经进化到开包即用的程度了</span><br>
+<span>现在已经安装好了 GeForce Experience 给我推送的显卡驱动，但找不到 NVIDIA 控制面板，看来是让我尝鲜 DCH 驱动了</span><br>
+<span>问题是 Windows 10 应用商店里的 NVIDIA 控制面板安装不上，提示错误 0x8024801E ，但我的一堆应用商店程序都能安装，就老黄控制面板搞不定</span><br>
+<span>现在我是不是应该想办法干净卸载掉 DCH 驱动并换成老黄官网上没兼容DCH的版本？如果是，应该如何操作？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>安心趴下捡肥皂，用系统联网自带驱动（放弃抵抗.jpg</span><br>
+</p><p><b>各种浪: </b><br>
+<span>下载传统驱动就好了，官网dch驱动下载地址里去掉-dch-即可</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>DCH和标准版驱动不能共存，要先用DDU卸载干净DCH驱动，不过win10联网会自动装驱动，所以要先官网下载好标准版驱动，断网，DDU进安全模式卸载DCH驱动，重启安装标准版驱动，保险起见再关掉win10的自动装驱动设置</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911881[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>编程中，时间段/schedule应该怎么在编程语言中表达？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>编程中，时间段/schedule应该怎么在编程语言中表达？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:18:03 +0000</lastBuildDate>
+    <item>
+      <title>编程中，时间段/schedule应该怎么在编程语言中表达？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844132-1-1.html</link>
+      <description>编程中，时间段/schedule应该怎么在编程语言中表达？&#13;
+比如一个公司有个N个雇员，每周星期一到星期五工作，每个雇员每天早九晚五，在工作时间每个人有不同的时间安排，比如雇员A早晨九点到十点开会，12点到1点吃午饭；雇员B早晨8点到9点半会见客户，10点半到11点半写计划书BLABLA，雇员C BLABLA，怎么在编程语言里表达时间段，从而做出一个算法找出特定的几个雇员都有空闲的时间段安排会议？</description>
+      <content:encoded><![CDATA[<p><b>皇帝雅西加: </b><br>
+<span>编程中，时间段/schedule应该怎么在编程语言中表达？</span><br>
+<span>比如一个公司有个N个雇员，每周星期一到星期五工作，每个雇员每天早九晚五，在工作时间每个人有不同的时间安排，比如雇员A早晨九点到十点开会，12点到1点吃午饭；雇员B早晨8点到9点半会见客户，10点半到11点半写计划书BLABLA，雇员C BLABLA，怎么在编程语言里表达时间段，从而做出一个算法找出特定的几个雇员都有空闲的时间段安排会议？</span><br>
+</p><p><b>青学: </b><br>
+<span>用一个数组记录开始点和结束点然后对应到人上扫描线算法可以吗？</span><br>
+<span>—— 来自 vivo Xplay6, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hanyuwei70: </b><br>
+<span>可以用线段树/离散数组做。不过看需求很简单，人不多的话以分钟作为单位染色就可以了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>蓳白: </b><br>
+<span>LZ不妨发散一下，查询任意M个人的共同空闲时间怎么做高效</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>有这么复杂吗？需要算法吗？</span><br>
+</p><p><b>董松松松: </b><br>
+<span>一串二进制数，1表示空闲，搜索的时候按位且一下</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>四点: </b><br>
+<span>统一五点后加班开会。</span><br>
+</p><p><b>magi: </b><br>
+<span> 本帖最后由 magi 于 2019-7-4 05:03 编辑 </span><br>
+<span>每条记录两个字段 时间 开始/结束标志。记录按时间排序 扫描一遍记录。</span><br>
+<span>一个计数器 初值0 扫到开始标志加1 扫到结束标志减1。</span><br>
+<span>当标志从0变1 输出一个大家都有空的时段结束。</span><br>
+<span>当标志从1变0 输出一个大家都开始有空的时段的开始。算法在excel也可以适用，剔除不相干的人后。</span><br>
+<span>a列时间</span><br>
+<span>b列开始时间存1结束存-1 </span><br>
+<span>c列c1=b1公式c2=c1+b2向下填充</span><br>
+<span>d列公式 d2=if(c2=0,"自"&a2,if(c1=0,"'至"&a2,""))向下填充</span><br>
+</p><p><b>stannislas: </b><br>
+<span>这个...outlook还是什么之类的不是本身就自带的吗？</span><br>
+</p><p><b>stannislas: </b><br>
+<span>这个...outlook还是什么之类的不是本身就自带的吗？</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>粒度是一致的话就用串吧</span><br>
+</p><p><b>gundamex: </b><br>
+<span>996，晚上开会</span><br>
+</p><p><b>dinghanzi: </b><br>
+<span>CAMUS.net 发表于 2019-7-4 03:21</span><br>
+<span>有这么复杂吗？需要算法吗？</span><br>
+<span>有会议是9点到11点的怎么办</span><br>
+</p><p><b>Hieda: </b><br>
+<span> 本帖最后由 Hieda 于 2019-7-4 07:02 编辑 </span><br>
+<span>口胡了，用3L的解法吧</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>stannislas 发表于 2019-7-3 22:51</span><br>
+<span>这个...outlook还是什么之类的不是本身就自带的吗？</span><br>
+<span>我这是要开发个简易CRM系统练手，需要一个HTTP API用来给指定的雇员安排会议时间</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>排序 区间合并 区间求反</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>battleship64: </b><br>
+<span>ee的想法哈，就n个与咯？</span><br>
+<span>结果是1就有空否则就没空，以分钟为单位for一下，就是慢感觉</span><br>
+</p><p><b>witness-s1: </b><br>
+<span> 本帖最后由 witness-s1 于 2019-7-4 09:05 编辑 </span><br>
+<span>Hieda 发表于 2019-7-4 07:00</span><br>
+<span>口胡了，用3L的解法吧</span><br>
+<span>import itertools</span><br>
+<span>def find_free_time(calendar):</span><br>
+<span>    all_meetings = sorted(itertools.chain.from_iterable(calendar.values()))</span><br>
+<span>    merged_meetings = ]</span><br>
+<span>    for meeting in all_meetings:</span><br>
+<span>      if meeting <= merged_meetings[-1]:</span><br>
+<span>            merged_meetings[-1] = meeting</span><br>
+<span>      else:</span><br>
+<span>            merged_meetings.append(meeting)</span><br>
+<span>    return [</span><br>
+<span>      (prev, curr)</span><br>
+<span>      for prev, curr in zip(merged_meetings, merged_meetings)</span><br>
+<span>    ]</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    data = {</span><br>
+<span>      'A': [, ],</span><br>
+<span>      'B': [, ]</span><br>
+<span>    }</span><br>
+<span>    print(find_free_time(data))</span><br>
+<span>不知道你为什么编辑掉，不过你说的是正解</span><br>
+</p><p><b>Hieda: </b><br>
+<span>witness-s1 发表于 2019-7-4 07:35</span><br>
+<span>不知道你为什么编辑掉，不过你说的是正解</span><br>
+<span>因为可能会出现按结束时间排序，序列在很后面的时间段，起始时间非常早的情况，单靠一维数组和线性暴搜没法处理这种情况</span><br>
+</p><p><b>everfly: </b><br>
+<span>记下所有人的时间安排为一个开区间数组，然后取出所有开区间数组的结束点，排序，遍历，判断其是否在每个开区间外面，如果是，说明是所有人的空闲时间点，然后再找到这个时间点之后最近的一个开始时间，就是要的是时间段了。</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>hanyuwei70 发表于 2019-07-04 02:50:40</span><br>
+<span>可以用线段树/离散数组做。不过看需求很简单，人不多的话以分钟作为单位染色就可以了</span><br>
+<span> ...此为正解</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>如果每次选择m个人的话</span><br>
+<span>把这m个人的有事区间拿出来 合并一下再找空余区间就好了 并不需要什么线段树</span><br>
+</p><p><b>museqsou: </b><br>
+<span>dinghanzi 发表于 2019-7-4 06:47</span><br>
+<span>有会议是9点到11点的怎么办</span><br>
+<span>按2小时拆分时间段可以细化到1小时，15分钟，10分钟，1分钟。楼主要程序上的解法这就是一个最简单的思路</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>线段树经典问题</span><br>
+</p><p><b>witness-s1: </b><br>
+<span> 本帖最后由 witness-s1 于 2019-7-4 09:00 编辑 </span><br>
+<span>Hieda 发表于 2019-7-4 07:41</span><br>
+<span>因为可能会出现按结束时间排序，序列在很后面的时间段，起始时间非常早的情况，单靠一维数组和线性暴搜没 ...</span><br>
+<span>那就得用区间合并了。。</span><br>
+</p><p><b>kulazheng: </b><br>
+<span>记录stime和etime不就得了</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>hanyuwei70 发表于 2019-7-3 19:50</span><br>
+<span>可以用线段树/离散数组做。不过看需求很简单，人不多的话以分钟作为单位染色就可以了</span><br>
+<span>-- 来自 有消息提 ...</span><br>
+<span>没系统学过ACM，线段树理解，染色是什么意思怎么操作？</span><br>
+</p><p><b>hanyuwei70: </b><br>
+<span>皇帝雅西加 发表于 2019-7-4 08:58</span><br>
+<span>没系统学过ACM，线段树理解，染色是什么意思怎么操作？</span><br>
+<span>就是说把每个分钟作为一个格子，初始全为0，每个人的安排按照分钟给相应的格子标为1，最后找出0的时间段</span><br>
+</p><p><b>漫区专号: </b><br>
+<span> 本帖最后由 漫区专号 于 2019-7-4 11:39 编辑 </span><br>
+<span>难道不是依据实际收集到的数据格式来分析数据么？</span><br>
+<span>最简单的思路就是简单的数据采样：如每分钟收集一次数据（或让人填表）作为行（1代表无空0代表有空）不同人作为列，然后依次以其中一个人的空闲时间段为基准看其他多少人满足。（最后一行为时间轴）最后输出满足的情况。（特定ABC人只需相加后看为0的时段）</span><br>
+<span>另外只要简单的合并相加列再绘一个曲线图就能直接看出哪段时间是繁忙高峰，哪段时间是空闲低谷。</span><br>
+</p><p><b>71888675: </b><br>
+<span>周六开会</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844132[0-50]</guid>
+    </item>
+  </channel>
+</rss>

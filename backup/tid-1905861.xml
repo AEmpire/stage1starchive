@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>FALCOM的旧作Xanadu.Next(迷城国度NEXT)的运行问题求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>FALCOM的旧作Xanadu.Next(迷城国度NEXT)的运行问题求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:06:30 +0000</lastBuildDate>
+    <item>
+      <title>FALCOM的旧作Xanadu.Next(迷城国度NEXT)的运行问题求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905861-1-1.html</link>
+      <description>FALCOM的旧作Xanadu.Next(迷城国度NEXT)的运行问题求助&#13;
+RT，泥潭F社玩家应该还算多，不知道有没有人遇到相同问题，或者哪位大神指点，先在这谢谢了。
+&#13;
+最近想回顾一下这款旧作，发现STEAM上有XSEED的“新版”，就赶紧下来试试，可是运行后报错，一串乱码，按确定后游戏过一段时间消失，后来试着转日区运行，报错提示为“サウンドドライバの初期化に失敗”，这意思是声卡驱动问题？之后试过各种更新声卡驱动、兼容性、不用显卡的HDMI改成主板声卡发声等等手段都没用
+&#13;
+这游戏也没有PSX/NS之类其他平台，实在没办法后来想着开了个WIN7的VMWARE虚拟机，去网上找了个GOG版（本机运行依然和STEAM版一样报错）放虚拟机里运行，结果还真的行了，可是游戏帧数低的要命，虽然虚拟机显卡是差，可是这游戏都能卡我也是服了，而且虚拟机还没办法用手柄，实在玩的不爽。
+&#13;
+所以，现在来求大家帮忙，这个报错有没有什么解决方法或者其他更好的替代方法？非常感谢！</description>
+      <content:encoded><![CDATA[<p><b>solasakiye: </b><br>
+<span>FALCOM的旧作Xanadu.Next(迷城国度NEXT)的运行问题求助</span><br>
+<span>RT，泥潭F社玩家应该还算多，不知道有没有人遇到相同问题，或者哪位大神指点，先在这谢谢了。</span><br>
+<span>最近想回顾一下这款旧作，发现STEAM上有XSEED的“新版”，就赶紧下来试试，可是运行后报错，一串乱码，按确定后游戏过一段时间消失，后来试着转日区运行，报错提示为“サウンドドライバの初期化に失敗”，这意思是声卡驱动问题？之后试过各种更新声卡驱动、兼容性、不用显卡的HDMI改成主板声卡发声等等手段都没用</span><br>
+<span>这游戏也没有PSX/NS之类其他平台，实在没办法后来想着开了个WIN7的VMWARE虚拟机，去网上找了个GOG版（本机运行依然和STEAM版一样报错）放虚拟机里运行，结果还真的行了，可是游戏帧数低的要命，虽然虚拟机显卡是差，可是这游戏都能卡我也是服了，而且虚拟机还没办法用手柄，实在玩的不爽。</span><br>
+<span>所以，现在来求大家帮忙，这个报错有没有什么解决方法或者其他更好的替代方法？非常感谢！</span><br>
+</p><p><b>鱼肉丸子: </b><br>
+<span>我win7 win10都正常运行…</span><br>
+<span>你可以考虑报错内容截个图看看 说不定有人看见图能知道问题 </span><br>
+</p><p><b>真实之影: </b><br>
+<span>steam和gog版都一样应该就是支持现代操作系统的版本了，这个版本压根没日语转日区是什么操作……</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>RT，就是这样</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>真实之影 发表于 2019-12-27 11:34</span><br>
+<span>steam和gog版都一样应该就是支持现代操作系统的版本了，这个版本压根没日语转日区是什么操作……</span><br>
+<span>-- 来 ...</span><br>
+<span>我知道是英文版，但是正常运行报错乱码，所以我心想原本是日文游戏，所以试着LE转日区而已</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>鱼肉丸子 发表于 2019-12-27 11:30</span><br>
+<span>我win7 win10都正常运行…</span><br>
+<span>你可以考虑报错内容截个图看看 说不定有人看见图能知道问题 </span><br>
+<span>图如上，跟我描述的一样</span><br>
+</p><p><b>慕容断月: </b><br>
+<span> 本帖最后由 慕容断月 于 2019-12-27 11:42 编辑 </span><br>
+<span>solasakiye 发表于 2019-12-27 11:36</span><br>
+<span>RT，就是这样</span><br>
+<span>应该是你系统的问题，这游戏xseed移植的非常好，我这边最新版10跑得很顺畅</span><br>
+<span>按你的说法我基本上确定是你的系统问题了，重装系统能破，虚拟机OK而实机不行的话一般情况下都是系统问题，既然提示声音设备初始化失败你也检查了还不行，那么这种疑难杂症只能动用达摩克利斯之剑了</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>慕容断月 发表于 2019-12-27 11:40</span><br>
+<span>应该是你系统的问题，这游戏xseed移植的非常好，我这边最新版10跑得很顺畅</span><br>
+<span>按你的说法我基本上确定是你的 ...</span><br>
+<span>不是吧，可是从我三年前装机到现在玩任何游戏都没问题，更没遇过啥声音驱动问题啊，现在也能照常玩耍STEAM上其他游戏，为了玩一款旧作我重装系统实在是没办法，系统盘东西还是挺多的</span><br>
+</p><p><b>真实之影: </b><br>
+<span>PCgamingWiki上写和现代DX不兼容，但是这和你问题好像没关系……</span><br>
+<span>你去steam论坛和GOG论坛看看有没有和你类似的问题比较好</span><br>
+</p><p><b>kane123: </b><br>
+<span>要不下个中文版试试 反正没差</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>solasakiye 发表于 2019-12-27 11:45</span><br>
+<span>不是吧，可是从我三年前装机到现在玩任何游戏都没问题，更没遇过啥声音驱动问题啊，现在也能照常玩耍STEA ...</span><br>
+<span>因为类似的诡异问题我这里也出现过……比如 wiiu模拟器某个版本后怎么都点不开，重装就好了，但重装后过一段时间用久了软件装多了又打不开了，又或是重装系统后莫名其妙的以前打得开的热情传说突然打不开之类的</span><br>
+<span>一般来说肯定是注册表或者什么相关东西动了才会出现这种问题，这游戏的steam版基本算作remastered了，优化很好，更新的也很勤快，大多数人在新系统上没问题，而恰好你这边碰到了一个稀奇古怪的问题，推断一下也只能往运行环境被污染这个方向想了，如果实在没办法，放弃or在虚拟机玩or再换台电脑吧，反正这游戏配置要求就算移植了也没啥变化</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>真实之影 发表于 2019-12-27 11:46</span><br>
+<span>PCgamingWiki上写和现代DX不兼容，但是这和你问题好像没关系……</span><br>
+<span>你去steam论坛和GOG论坛看看有没有和你类 ...</span><br>
+<span>试着翻过，没找到，而且英文环境实在是费劲</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>看到上面版主的话我又想起来一个招，你可以试试，下个dgvoodoo最新版，然后把directx模式设置好，再运行，看看挂载了兼容mod后有没有问题，之前我这边有个老游戏打了民间mod后横向分辨率超过1920就闪退就是靠这个法子解决的，可能有用</span><br>
+</p><p><b>慕容断月: </b><br>
+<img src="https://i.loli.net/2019/12/27/WrncIjQsi1tlhqa.jpg" title="https://i.loli.net/2019/12/27/WrncIjQsi1tlhqa.jpg"><br>
+<span>刚进游戏截的图，10的1909</span><br>
+</p><p><b>mes: </b><br>
+<span>好像这游戏是外挂一个程序发声，以前win上的游戏随缘啦，错过就是错过，除非有有爱有技术的玩家另写个游戏引擎。</span><br>
+</p><p><b>真实之影: </b><br>
+<span>solasakiye 发表于 2019-12-27 11:53</span><br>
+<span>试着翻过，没找到，而且英文环境实在是费劲</span><br>
+<span>直接搜crash或者error嘛……</span><br>
+<span>对了，我记得设置是独立的程序，你看看设置里能不能改声卡设备什么的？</span><br>
+</p><p><b>zexal5ds: </b><br>
+<span>mes 发表于 2019-12-27 12:07</span><br>
+<span>好像这游戏是外挂一个程序发声，以前win上的游戏随缘啦，错过就是错过，除非有有爱有技术的玩家另写个游戏 ...</span><br>
+<span>OpenAL？0轨B轨用的就是这玩意</span><br>
+</p><p><b>mes: </b><br>
+<span>zexal5ds 发表于 2019-12-27 12:16</span><br>
+<span>OpenAL？0轨B轨用的就是这玩意</span><br>
+<span>不清楚，只是偶尔跳出桌面时和有时结束游戏退出得不干净时见到右下有个图标，也可能记成别的游戏。</span><br>
+</p><p><b>kzf: </b><br>
+<span> 本帖最后由 kzf 于 2019-12-27 12:32 编辑 </span><br>
+<span>就整中文版吧，游侠上下的绿色版，通关也没什么问题，steam的那个之前玩过，除了1080p以外还有什么史莱姆爆炸全屏伤害的bug，好不容易通关最高评价结果成就也解不完，就当情怀入正了</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>慕容断月 发表于 2019-12-27 11:53</span><br>
+<span>看到上面版主的话我又想起来一个招，你可以试试，下个dgvoodoo最新版，然后把directx模式设置好，再运行， ...</span><br>
+<span>没用，还是一样，毕竟不是画面问题啊</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>真实之影 发表于 2019-12-27 12:13</span><br>
+<span>直接搜crash或者error嘛……</span><br>
+<span>对了，我记得设置是独立的程序，你看看设置里能不能改声卡设备什么的？ ...</span><br>
+<span>有设置过，不过基本就是改个硬件软件解码而已，也没用</span><br>
+</p><p><b>solasakiye: </b><br>
+<span> 本帖最后由 solasakiye 于 2019-12-27 12:56 编辑 </span><br>
+<span>mes 发表于 2019-12-27 12:18</span><br>
+<span>不清楚，只是偶尔跳出桌面时和有时结束游戏退出得不干净时见到右下有个图标，也可能记成别的游戏。 ...</span><br>
+<span>OpenAL有装</span><br>
+<span>的确，我用虚拟机运行的时候右下角是出来过两个东西，一个LAV VIDEO DECODER,一个Falcom common sound，主机运行没有。</span><br>
+<span>这样一看，就是这个FALCOM的东西启动失败吧？</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>kzf 发表于 2019-12-27 12:29</span><br>
+<span>就整中文版吧，游侠上下的绿色版，通关也没什么问题，steam的那个之前玩过，除了1080p以外还有什么史莱姆爆 ...</span><br>
+<span>旧版只是分辨率差距是吗，另外也不支持手柄吧？</span><br>
+</p><p><b>kane123: </b><br>
+<span>引用第22楼solasakiye于2019-12-27 12:58发表的:</span><br>
+<span>引用:kzf 发表于 2019-12-27 12:29就整中文版吧，游侠上下的绿色版，通关也没什么问......</span><br>
+<span>分辨率 没手柄 我win10去年运行过gbt绿色版没什么问题</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>真实之影: </b><br>
+<span>solasakiye 发表于 2019-12-27 12:51</span><br>
+<span>OpenAL有装</span><br>
+<span>的确，我用虚拟机运行的时候右下角是出来过两个东西，一个LAV VIDEO DECODER,一个Falcom commo ...</span><br>
+<span>那看来就是win10下openAL出问题了吧</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>真实之影 发表于 2019-12-27 13:10</span><br>
+<span>那看来就是win10下openAL出问题了吧</span><br>
+<span>试过重装，还是一样，而且别人WIN10都没问题，说明还是我这哪里不对</span><br>
+</p><p><b>mes: </b><br>
+<span> 本帖最后由 mes 于 2019-12-27 13:42 编辑 </span><br>
+<span>solasakiye 发表于 2019-12-27 12:51</span><br>
+<span>OpenAL有装</span><br>
+<span>的确，我用虚拟机运行的时候右下角是出来过两个东西，一个LAV VIDEO DECODER,一个Falcom commo ...</span><br>
+<span>就是那个有个音符的图标，其他就不懂了。</span><br>
+<span>装双系统也并不难，如果是ghost……也许装在x盘把文件全移到c盘就行，主要还是改启动文件。</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>mes 发表于 2019-12-27 13:38</span><br>
+<span>就是那个有个音符的图标，其他就不懂了。</span><br>
+<span>装双系统也并不难，如果是ghost……也许装在x盘把文件全移到c盘 ...</span><br>
+<span>对的，其他的无关，就是那个FALCOM COMMON SOUND启动失败吧。</span><br>
+<span>在外面搜到发现TW也有个遇到相同问题的，应该就是这个东西的原因，可惜最后也没解决，而且他那还是十多年前的，说明旧版我应该也跑不了，一样的问题了。。。</span><br>
+<span>http://www.gamebase.com.tw/forum/2353/topic/76491780</span><br>
+</p><p><b>梦回星海: </b><br>
+<span>你先改一下语言区或是找个软件转区，错误代码不是乱码就好解决多了。</span><br>
+</p><p><b>真实之影: </b><br>
+<span>solasakiye 发表于 2019-12-27 13:23:17</span><br>
+<span>试过重装，还是一样，而且别人WIN10都没问题，说明还是我这哪里不对有可能是dll文件出问题，这种问题通常重装解决不了的，比如一些老dx9游戏帧数低就不是重装游戏和dx能解决的，需要替换游戏的d3d的dll文件</span><br>
+<span>你搜搜看有没有什么其他解决方法，另外最好试试看装其他同时期的几个falcom游戏比如伊苏起源什么的有没有出现相似情况</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>唧唧歪歪八卦阵: </b><br>
+<span>试试看这个吧，3DM游戏运行库离线版，把里面所有的玩游戏所要用到的系统相关的都装一遍，一般能解决大部分问题……</span><br>
+<span>https://dl.3dmgame.com/patch/89066.html</span><br>
+</p><p><b>Yeaha123: </b><br>
+<span>看完这帖买来玩了下，开头op一股大片感，那个时代的法老控那么牛逼的吗</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>solasakiye 发表于 2019-12-27 12:43</span><br>
+<span>没用，还是一样，毕竟不是画面问题啊</span><br>
+<span>这个跟画面其实无关，兼容性是可以帮忙补正系统缺失的模块的，这个才是用这个的根本原因</span><br>
+<span>所以解决了么？</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>真实之影 发表于 2019-12-27 19:37</span><br>
+<span>有可能是dll文件出问题，这种问题通常重装解决不了的，比如一些老dx9游戏帧数低就不是重装游戏和dx能解决的 ...</span><br>
+<span>其他游戏没找到类似的问题，搜遍全网包括那个falcom common sound和那个声音驱动初始化失败，都没找到相关内容，只有上面我回复那个TW论坛里有人玩07老版迷城国度也遇到跟我一样问题，可以确定大概率是FALCOM这个声音插件哪里出问题无法启动。。。但就是神奇的没找到其他遇到相同问题的，也找不到解决办法</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>唧唧歪歪八卦阵 发表于 2019-12-27 22:10</span><br>
+<span>试试看这个吧，3DM游戏运行库离线版，把里面所有的玩游戏所要用到的系统相关的都装一遍，一般能解决大部分 ...</span><br>
+<span>这些东西玩游戏肯定必备的啊...怎么说也玩了这么多年游戏了</span><br>
+</p><p><b>solasakiye: </b><br>
+<span>慕容断月 发表于 2019-12-27 22:57</span><br>
+<span>这个跟画面其实无关，兼容性是可以帮忙补正系统缺失的模块的，这个才是用这个的根本原因</span><br>
+<span>所以解决了么？</span><br>
+<span> ...</span><br>
+<span>反正用了还是一样报错就是了。。。</span><br>
+<span>这两天找遍全网，还是没解决，现在放弃了，打算之后找个时间试着去跟朋友借台笔记本来试试，借不到再试试看装个双系统吧，实在不行那就暂且搁置，等以后再搞一台电脑再来回顾吧。</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>Yeaha123 发表于 2019-12-27 22:50</span><br>
+<span>看完这帖买来玩了下，开头op一股大片感，那个时代的法老控那么牛逼的吗</span><br>
+<span>BGM牛逼，法老控少有的交响合唱（虽然听上去应该是电子合成的）。那几年的伊苏origin开场音乐也是燃到爆。</span><br>
+<span>再看看现在，是轨迹毁了法老控，一个想法，不一定对。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905861[0-50]</guid>
+    </item>
+  </channel>
+</rss>

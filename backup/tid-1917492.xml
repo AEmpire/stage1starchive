@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>光猫改桥接后遇到了一个奇怪的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>光猫改桥接后遇到了一个奇怪的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:44:15 +0000</lastBuildDate>
+    <item>
+      <title>光猫改桥接后遇到了一个奇怪的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917492-1-1.html</link>
+      <description>光猫改桥接后遇到了一个奇怪的问题&#13;
+家里网络结构如下
+&#13;
+入户光猫（已改桥接并且有公网IP，局域网ip手动修改为10.0.0.2）---r7800（主路由拨号用，IP局域网IP10.0.0.1，pppoe自动拨号后获得公网ip）----交换机-------各房间网线（其中一根为了方便电脑控制光猫，回连到了光猫闲置lan口，另一根为了改善边角卧室wifi质量，接到了主卧的r6260的lan口上，并且这个路由设置wifi账号密码跟主路由完全相同）
+&#13;
+但是本以为网件拨号会稳定一些，但是感觉会偶尔断网，一般没当回事。
+&#13;
+今天下班回家遇到了一个奇怪的问题，回到家发现r7800Internet灯红了，不晓得为啥断网了，就登陆管理界面查看，结果就遇到了神奇的现象，r7800不仅连不上网，wifi还不断的重启，断电再给电也没用，而且登录管理页面它就开始疯狂地重置自己局域网ip，从10换到172再换到192，熟悉的应该知道这是路由重启后为了避免跟现有设备冲突自动换ip的功能，但是不知道为啥他开始不停地换。
+&#13;
+一开始以为是手机欠费宽带没了，登陆了光猫改为路由模式拨号上网一切正常，然后我就把光猫重新改桥接并且把交换机连光猫lan口的线拔了，然后一切正常了。。。。。。。
+&#13;
+附上一段路由日志：
+&#13;
+ IP address: 106.115.126.xx, Friday, March 06, 2020 19:01:57
+&#13;
+ Friday, March 06, 2020 19:01:53
+&#13;
+ IP address: 106.115.122.xx, Friday, March 06, 2020 19:01:52
+&#13;
+ Friday, March 06, 2020 19:01:43
+&#13;
+ Friday, March 06, 2020 19:01:36
+&#13;
+ from source 10.0.0.6, Friday, March 06, 2020 19:01:35
+&#13;
+ IP address: 106.115.125.xx, Friday, March 06, 2020 19:00:58</description>
+      <content:encoded><![CDATA[<p><b>goranger: </b><br>
+<span>光猫改桥接后遇到了一个奇怪的问题</span><br>
+<span>家里网络结构如下</span><br>
+<span>入户光猫（已改桥接并且有公网IP，局域网ip手动修改为10.0.0.2）---r7800（主路由拨号用，IP局域网IP10.0.0.1，pppoe自动拨号后获得公网ip）----交换机-------各房间网线（其中一根为了方便电脑控制光猫，回连到了光猫闲置lan口，另一根为了改善边角卧室wifi质量，接到了主卧的r6260的lan口上，并且这个路由设置wifi账号密码跟主路由完全相同）</span><br>
+<span>但是本以为网件拨号会稳定一些，但是感觉会偶尔断网，一般没当回事。</span><br>
+<span>今天下班回家遇到了一个奇怪的问题，回到家发现r7800Internet灯红了，不晓得为啥断网了，就登陆管理界面查看，结果就遇到了神奇的现象，r7800不仅连不上网，wifi还不断的重启，断电再给电也没用，而且登录管理页面它就开始疯狂地重置自己局域网ip，从10换到172再换到192，熟悉的应该知道这是路由重启后为了避免跟现有设备冲突自动换ip的功能，但是不知道为啥他开始不停地换。</span><br>
+<span>一开始以为是手机欠费宽带没了，登陆了光猫改为路由模式拨号上网一切正常，然后我就把光猫重新改桥接并且把交换机连光猫lan口的线拔了，然后一切正常了。。。。。。。</span><br>
+<span>附上一段路由日志：</span><br>
+<span> IP address: 106.115.126.xx, Friday, March 06, 2020 19:01:57</span><br>
+<span> Friday, March 06, 2020 19:01:53</span><br>
+<span> IP address: 106.115.122.xx, Friday, March 06, 2020 19:01:52</span><br>
+<span> Friday, March 06, 2020 19:01:43</span><br>
+<span> Friday, March 06, 2020 19:01:36</span><br>
+<span> from source 10.0.0.6, Friday, March 06, 2020 19:01:35</span><br>
+<span> IP address: 106.115.125.xx, Friday, March 06, 2020 19:00:58</span><br>
+</p><p><b>两个路人: </b><br>
+<span>“我就把光猫重新改桥接并且把交换机连光猫lan口的线拔了，然后一切正常了” R7800酱陷入了困惑：这猫究竟是我爸爸还是我儿子（手动麻将脸</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>其中一根为了方便电脑控制光猫，回连到了光猫闲置lan口</span><br>
+</p><p><b>goranger: </b><br>
+<span>两个路人 发表于 2020-3-6 20:10</span><br>
+<span>“我就把光猫重新改桥接并且把交换机连光猫lan口的线拔了，然后一切正常了” R7800酱陷入了困惑：这猫究竟 ...</span><br>
+<span>但是这样用了两周了第一次出现这种问题啊</span><br>
+</p><p><b>goranger: </b><br>
+<span>kcordnas 发表于 2020-3-6 20:41</span><br>
+<span>其中一根为了方便电脑控制光猫，回连到了光猫闲置lan口</span><br>
+<span>现在我把光猫ip和路由ip改成不同网段了，希望能解决这个问题，但是现在比较麻烦的是想控制光猫还得手动改电脑ip</span><br>
+</p><p><b>duperbigd: </b><br>
+<span>很多第三方固件有能设第二IP的，还有用vlan的方法搞，没那么麻烦 </span><br>
+</p><p><b>goranger: </b><br>
+<span>duperbigd 发表于 2020-3-6 21:11</span><br>
+<span>很多第三方固件有能设第二IP的，还有用vlan的方法搞，没那么麻烦</span><br>
+<span>这个我也是看了半天帖子，发现要弄wan口ip开静态路由反正我这原版固件弄不来，重新刷路由比我现在麻烦得多，因为我交换机光猫都在入户弱电，结根线太简单了。。。</span><br>
+</p><p><b>magi: </b><br>
+<span>goranger 发表于 2020-3-6 20:59</span><br>
+<span>现在我把光猫ip和路由ip改成不同网段了，希望能解决这个问题，但是现在比较麻烦的是想控制光猫还得手动改 ...</span><br>
+<span>如果只是嫌切换麻烦，给电脑配两个ip和子网掩码就好了，设置里有</span><br>
+</p><p><b>goranger: </b><br>
+<span>magi 发表于 2020-3-6 23:32</span><br>
+<span>如果只是嫌切换麻烦，给电脑配两个ip和子网掩码就好了，设置里有</span><br>
+<span>看前边几楼回答感觉这么接会有问题TT现在不自信了。。。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>goranger 发表于 2020-3-6 20:58</span><br>
+<span>但是这样用了两周了第一次出现这种问题啊</span><br>
+<span>如果是把猫从网络里踢出去就避免了问题，那可能就是触发了某些硬件的bug</span><br>
+</p><p><b>ftdtyzst: </b><br>
+<span>我有个类似经历 前两天网络突然开始丢包 以为光猫还是小区线路出问题了 就断电光猫路由 后来试了无数遍都还是网络很卡出现丢包问题。。。但是网络也还是能连上，测速还能勉强达到500m带宽，以为买来的erx新主路由有问题了，重置重刷新固件还是没用，而且实测家里局域网的速度、丢包都是正常的。后来没办法叫了电信的来看看光猫，可人家一看发现后台小区光猫都是正常，我就郁闷了。上网查资料时偶尔查到ip冲突的症状和我的情况很像，于是试了试把主路由的ip改为192.168.1.2，于是神奇的家里的网络就正常了问题是以前一直都是路由默认ip没有问题的呀，而且光猫桥接模式下默认ip应该不会跟拨号路由ip冲突吧，难道是新路由erx的问题？但是erx买回来也正常服役了几个月了。。。令人挠不着头脑为何突然这样</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917492[0-50]</guid>
+    </item>
+  </channel>
+</rss>

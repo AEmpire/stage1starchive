@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:46:34 +0000</lastBuildDate>
+    <item>
+      <title>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858641-1-1.html</link>
+      <description>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈...&#13;
+谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈反弹
+&#13;
+2019-10-9 15:16:10来源：开源中国作者：h4cd责编：骑士评论：12
+&#13;
+Knative 是谷歌开源的一套Serverless架构方案，它扩展了Kubernetes，专注于解决容器为核心的Serverless应用的构建、部署和运行的问题，它构建在 Kubernetes和Istio平台之上，整合了 Kubernetes提供的deployment、replicaset和pods等容器管理能力，与Istio提供的ingress、LB、dynamic route等网络管理功能。
+&#13;
+谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈反弹
+&#13;
+近日在谷歌高层的战略公告中，产品经理兼Knative指导委员会成员Donna Malayeri明确表示 Knative将不会捐赠给任何基金会。
+&#13;
+自Knative项目开始以来，一直存在关于是否将Knative捐赠给基金会（例如CNCF）的疑问。Google领导层已经考虑了这一点，并决定在可预见的未来不向任何基金会捐赠Knative。
+&#13;
+Knative仍然是一个开源项目，拥有一个开放且多元化的社区，指导委员会中有多家供应商。在接下来的几周内，我们计划阐明项目成员如何在Knative中担任领导职务。与往常一样，我们的目标是确保Knative满足用户、社区以及从使用Knative受益的每个人的需求。
+&#13;
+这样的态度引起了社区的强烈反弹。VMWare首席工程师Joe Beda认为谷歌这一想法也适用于 Istio，Istio是Knative所依赖的Service Mesh。
+&#13;
+Istio too. This is a really disappointing development.
+&#13;
+Istio也一样。真令人失望。
+&#13;
+Joe与微软的工程师Brendan Burns（前谷歌Kubernetes首席工程师）等人都对这一消息表示失望。
+&#13;
+Brendan 在Twitter上表示：“看到Knative放弃开放治理，我感到非常失望。”Joe补充指出：“指导委员会有7个成员，由供应商而非社区分配。其中4个成员属于谷歌，而更改任何内容都需要多数通过。”言下之意是谷歌完全可以一家操控Knative。
+&#13;
+Kubeless 项目的创建者Sebastien Goasguen也对谷歌的做法表达了不满，他说：“（如果）我是IBM和VMware，我会切断Knative开发，直到谷歌做了正确的事情。”
+&#13;
+同样提供Service Mesh的 Linkerd 项目的 William Morgan也明确反对谷歌的做法，William表示：“考虑到谷歌最近宣布它不会向中立基金会捐赠Knative或Istio，现在似乎是描述Linkerd对开放治理主题的方法的合适时机。”
+&#13;
+Linkerd维护者100%致力于开放治理和由中立的基金会托管。我们相信，一组多元化的、活跃的维护者是开源项目长期健康发展的基础。
+&#13;
+Knative和Istio都基于 Apache License 2.0，并且谷歌在这次的公告中也确认Knative将保持开源并具有多厂商参与。但该公告确实也暗示着谷歌打算充分利用其作为Kubernetes的发明者和Knative等相关项目主场的优势，与竞争对手的云供应商AWS与Microsoft Azure等竞争。
+&#13;
+值得注意的是，虽然Knative和Istio都由谷歌创建，但其它供应商也做出了许多贡献。
+&#13;
+说到这里，联系起来谷歌之前就被讨论的“Golang是谷歌的还是社区的”的问题。为什么说Go属于谷歌，一方面是由于Go核心团队的大部分成员都是谷歌的员工，如果他们不离开谷歌，不去积极确立Go语言未来的发展方向，那很难说Go不是谷歌的；另一方面，谷歌公司真的为Go付出了一些东西，比如提供了大量的基础设施和资源，如域名golang.org。
+&#13;
+想想Go泛型，开发者一直在苦等谷歌添加这一特性，于是有人就想像Java社区一样，新建一个OpenJDK之类的项目，自己去实现泛型，然而这个想法并没有实现，最大的原因就在于Go本身是属于谷歌一家的，而不是社区的项目，谷歌在Golang上是一言堂。
+&#13;
+还有一个常被引用的明显例子说明Go是谷歌的：谷歌Go语言核心团队的一名成员拒绝由外部Go社区开发的一个模块系统，因为它使用了另一种不同的模型，所以该模块系统被放弃。
+&#13;
+谷歌的这种做法，你怎么看？</description>
+      <content:encoded><![CDATA[<p><b>Bondrewd: </b><br>
+<span>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈...</span><br>
+<span>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈反弹</span><br>
+<span>2019-10-9 15:16:10来源：开源中国作者：h4cd责编：骑士评论：12</span><br>
+<span>Knative 是谷歌开源的一套Serverless架构方案，它扩展了Kubernetes，专注于解决容器为核心的Serverless应用的构建、部署和运行的问题，它构建在 Kubernetes和Istio平台之上，整合了 Kubernetes提供的deployment、replicaset和pods等容器管理能力，与Istio提供的ingress、LB、dynamic route等网络管理功能。</span><br>
+<span>谷歌表示开源Knative不会捐赠给任何基金会，引发社区强烈反弹</span><br>
+<span>近日在谷歌高层的战略公告中，产品经理兼Knative指导委员会成员Donna Malayeri明确表示 Knative将不会捐赠给任何基金会。</span><br>
+<span>自Knative项目开始以来，一直存在关于是否将Knative捐赠给基金会（例如CNCF）的疑问。Google领导层已经考虑了这一点，并决定在可预见的未来不向任何基金会捐赠Knative。</span><br>
+<span>Knative仍然是一个开源项目，拥有一个开放且多元化的社区，指导委员会中有多家供应商。在接下来的几周内，我们计划阐明项目成员如何在Knative中担任领导职务。与往常一样，我们的目标是确保Knative满足用户、社区以及从使用Knative受益的每个人的需求。</span><br>
+<span>这样的态度引起了社区的强烈反弹。VMWare首席工程师Joe Beda认为谷歌这一想法也适用于 Istio，Istio是Knative所依赖的Service Mesh。</span><br>
+<span>Istio too. This is a really disappointing development.</span><br>
+<span>Istio也一样。真令人失望。</span><br>
+<span>Joe与微软的工程师Brendan Burns（前谷歌Kubernetes首席工程师）等人都对这一消息表示失望。</span><br>
+<span>Brendan 在Twitter上表示：“看到Knative放弃开放治理，我感到非常失望。”Joe补充指出：“指导委员会有7个成员，由供应商而非社区分配。其中4个成员属于谷歌，而更改任何内容都需要多数通过。”言下之意是谷歌完全可以一家操控Knative。</span><br>
+<span>Kubeless 项目的创建者Sebastien Goasguen也对谷歌的做法表达了不满，他说：“（如果）我是IBM和VMware，我会切断Knative开发，直到谷歌做了正确的事情。”</span><br>
+<span>同样提供Service Mesh的 Linkerd 项目的 William Morgan也明确反对谷歌的做法，William表示：“考虑到谷歌最近宣布它不会向中立基金会捐赠Knative或Istio，现在似乎是描述Linkerd对开放治理主题的方法的合适时机。”</span><br>
+<span>Linkerd维护者100%致力于开放治理和由中立的基金会托管。我们相信，一组多元化的、活跃的维护者是开源项目长期健康发展的基础。</span><br>
+<span>Knative和Istio都基于 Apache License 2.0，并且谷歌在这次的公告中也确认Knative将保持开源并具有多厂商参与。但该公告确实也暗示着谷歌打算充分利用其作为Kubernetes的发明者和Knative等相关项目主场的优势，与竞争对手的云供应商AWS与Microsoft Azure等竞争。</span><br>
+<span>值得注意的是，虽然Knative和Istio都由谷歌创建，但其它供应商也做出了许多贡献。</span><br>
+<span>说到这里，联系起来谷歌之前就被讨论的“Golang是谷歌的还是社区的”的问题。为什么说Go属于谷歌，一方面是由于Go核心团队的大部分成员都是谷歌的员工，如果他们不离开谷歌，不去积极确立Go语言未来的发展方向，那很难说Go不是谷歌的；另一方面，谷歌公司真的为Go付出了一些东西，比如提供了大量的基础设施和资源，如域名golang.org。</span><br>
+<span>想想Go泛型，开发者一直在苦等谷歌添加这一特性，于是有人就想像Java社区一样，新建一个OpenJDK之类的项目，自己去实现泛型，然而这个想法并没有实现，最大的原因就在于Go本身是属于谷歌一家的，而不是社区的项目，谷歌在Golang上是一言堂。</span><br>
+<span>还有一个常被引用的明显例子说明Go是谷歌的：谷歌Go语言核心团队的一名成员拒绝由外部Go社区开发的一个模块系统，因为它使用了另一种不同的模型，所以该模块系统被放弃。</span><br>
+<span>谷歌的这种做法，你怎么看？</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>不懂，不过如果企业做了大部分工作，那么的确有权利决定吧，只能道德上谴责下了。</span><br>
+</p><p><b>thq: </b><br>
+<span>多大事，fork一个社区版好了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858641[0-50]</guid>
+    </item>
+  </channel>
+</rss>

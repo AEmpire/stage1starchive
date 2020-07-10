@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>K20 pro/K20触控有问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>K20 pro/K20触控有问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:42:09 +0000</lastBuildDate>
+    <item>
+      <title>K20 pro/K20触控有问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840286-1-1.html</link>
+      <description>K20 pro/K20触控有问题？&#13;
+http://www.miui.com/thread-24894977-1-1.html
+&#13;
+这个指针size ，k20pro居然是米6的十倍不止，米6一般都是0.01-0.03，听说1000多的红米note7小金刚也是0.01-0.03？
+&#13;
+唯独这k20pro直接是0.1-0.3，这是不是说明k20pro的触控是硬件翻车了？这次用的汇顶的gtp9886，这软件再怎么优化也没用啊。https://attach.bbs.miui.com/forum/201906/17/112548k3vff1xp11v0bf3p.jpg.thumb.jpg
+&#13;
+https://attach.bbs.miui.com/forum/201906/17/112548mumy7y1yhf5iyz52.jpg.thumb.jpg</description>
+      <content:encoded><![CDATA[<p><b>kina: </b><br>
+<span>K20 pro/K20触控有问题？</span><br>
+<span>http://www.miui.com/thread-24894977-1-1.html</span><br>
+<span>这个指针size ，k20pro居然是米6的十倍不止，米6一般都是0.01-0.03，听说1000多的红米note7小金刚也是0.01-0.03？</span><br>
+<span>唯独这k20pro直接是0.1-0.3，这是不是说明k20pro的触控是硬件翻车了？这次用的汇顶的gtp9886，这软件再怎么优化也没用啊。https://attach.bbs.miui.com/forum/201906/17/112548k3vff1xp11v0bf3p.jpg.thumb.jpg</span><br>
+<img src="https://attach.bbs.miui.com/forum/201906/17/112548mumy7y1yhf5iyz52.jpg.thumb.jpg" title="https://attach.bbs.miui.com/forum/201906/17/112548mumy7y1yhf5iyz52.jpg.thumb.jpg"><br>
+</p><p><b>忽克連: </b><br>
+<span>这有啥用？我的手机显示是0代表啥？</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>那米九是多少呢？</span><br>
+</p><p><b>xinfengj: </b><br>
+<span>翻了翻了便宜没好货大家快买2499iqoo</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>惊了</span><br>
+<span>这个参数是什么意思？</span><br>
+<span>平时就觉得完全没有仿误触，这个很蠢.....别的还没啥感觉.....农药放不出技能肯定是网络的锅。。。。</span><br>
+</p><p><b>droople: </b><br>
+<span>看了下mix2s，0.02</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>kina: </b><br>
+<span>matthewsteel 发表于 2019-6-18 08:53</span><br>
+<span>惊了</span><br>
+<span>这个参数是什么意思？</span><br>
+<span>多点触控会抖所以吃鸡会抖（不是所有人都会遇到），容易误触。</span><br>
+</p><p><b>huruii7: </b><br>
+<span>newdasemo 发表于 2019-6-18 08:53</span><br>
+<span>那米九是多少呢？</span><br>
+<span>米9，0.01，虽然感觉并没有什么用https://i.loli.net/2019/06/18/5d083a407f01d10092.png</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>红米note7的触控也很不跟手啊...</span><br>
+</p><p><b>SilverBrady: </b><br>
+<span>我也还王者荣耀多点有些时候边缘不行，显示0.1几</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span> 本帖最后由 matthewsteel 于 2019-6-18 09:31 编辑 </span><br>
+<span>kina 发表于 2019-6-18 09:01</span><br>
+<span>多点触控会抖所以吃鸡会抖（不是所有人都会遇到），容易误触。</span><br>
+<span>Size与Press类似也是一个归一化值，是MotionEvent内部类PointerCoords中的另一个属性，描述了设备的最大可探测区域上pointer touch area的近似大小，代表了屏幕被按压区域的近似大小，该值可以用在决定是否是fat touch event上，取值范围为0~1https://developer.android.com/reference/android/view/MotionEvent.PointerCoords.html#size</span><br>
+<span>你们搞安卓的好辛苦啊...这么多迷之参数</span><br>
+</p><p><b>虚无连斩: </b><br>
+<span>屁事多，一加7pro是0说明了什么</span><br>
+<span>当年一堆人gpu看抖动</span><br>
+<span>最后魅族直接开发者选项gpu抖动作假</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>losm: </b><br>
+<span>没玩游戏，这几天用起来感觉打字精度不够偶尔会输错，滑动偶尔会回弹，要是硬件问题这就很坑了。</span><br>
+</p><p><b>neverer: </b><br>
+<span>matthewsteel 发表于 2019-6-18 08:53</span><br>
+<span>惊了</span><br>
+<span>这个参数是什么意思？</span><br>
+<span>有防误触的，你用手掌贴边缘，屏幕变灰不能操作</span><br>
+</p><p><b>litel: </b><br>
+<span>小米8，lineageos，size是0。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>这是类似3dtouch的功能吧。。检测手指放上去有多大接触到了屏幕，反推就能知道用了多少力，这样实现重按和轻按的效果。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>chexk03: </b><br>
+<span>losm 发表于 2019-6-18 09:32</span><br>
+<span>没玩游戏，这几天用起来感觉打字精度不够偶尔会输错，滑动偶尔会回弹，要是硬件问题这就很坑了。 ...</span><br>
+<span>看小说滑动经常回弹，我还以为是钢化膜问题，不对，没贴膜也这样了。</span><br>
+</p><p><b>marxel: </b><br>
+<span>米6这个值在0.01到0.05之间，越用力越大</span><br>
+<span>毕竟是用来估算接触面积的</span><br>
+<span>那K20显然是用了个精度比较低的触控</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>小米中低端机触控都很垃圾。</span><br>
+<span>买过的机子，只有米6还行。</span><br>
+<span>米4c，米max，红米note5触控都不灵敏。</span><br>
+<span>也就米max更新几次rom，触摸问题不明显了</span><br>
+</p><p><b>卡爹: </b><br>
+<span>就是触摸分辨率吧，影响触摸判断的精准度</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>明月闲窗: </b><br>
+<span>性价比 性价比</span><br>
+</p><p><b>Astroneer: </b><br>
+<img src="https://attach.bbs.miui.com/forum/201906/19/080525d3e4b080bz5145vj.jpg.thumb.jpg" title="https://attach.bbs.miui.com/forum/201906/19/080525d3e4b080bz5145vj.jpg.thumb.jpg"><br>
+<img src="https://attach.bbs.miui.com/forum/201906/19/080525sxz3ldrctr3ifdtb.jpg.thumb.jpg" title="https://attach.bbs.miui.com/forum/201906/19/080525sxz3ldrctr3ifdtb.jpg.thumb.jpg"><br>
+</p><p><b>kina: </b><br>
+<span>Astroneer 发表于 2019-6-19 15:09</span><br>
+<span>极致</span><br>
+</p><p><b>u8j9ku8j9k: </b><br>
+<span>N7P正常操作 0.03～4</span><br>
+<span>整个拇指故意都压上去就是0.10～0.13</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>.07</span><br>
+<span>不知道有什么意义，反正用着都挺好啊</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>XANADU: </b><br>
+<span>我默认0.23</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>让你们抱怨，新的开发版调成0.05了，怎么按都不变哦</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>marxel: </b><br>
+<span>dongjuanyong 发表于 2019-6-21 19:34</span><br>
+<span>让你们抱怨，新的开发版调成0.05了，怎么按都不变哦</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next ...</span><br>
+<span>游戏场景呢（指pubg</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>marxel 发表于 2019-6-21 23:41</span><br>
+<span>游戏场景呢（指pubg</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>没玩过，也不玩其他手机游戏，屏幕没按过三个或以上手指，所以爱咋样咋样</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>9-11-2001 发表于 2019-6-18 09:15</span><br>
+<span>红米note7的触控也很不跟手啊...</span><br>
+<span>我感觉也跟膜有关，红米Note7Pro刚出之前买的闪魔的钢化，非常不好用，</span><br>
+<span>玩模拟器游戏老是误触方向键或者点了没反应，无奈那时常用的牌子还没出Note7Pro的款，</span><br>
+<span>后来换回原来一直买的牌子的钢化，却发现很流畅很顺滑……瞬间提升手感</span><br>
+</p><p><b>天知道: </b><br>
+<span>CatQuta 发表于 2019-6-22 17:31</span><br>
+<span>我感觉也跟膜有关，红米Note7Pro刚出之前买的闪魔的钢化，非常不好用，</span><br>
+<span>玩模拟器游戏老是误触方向键或者 ...</span><br>
+<span>推荐一个牌子吧，我觉得现在用的不知道品牌有点问题</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>天知道 发表于 2019-6-22 17:46</span><br>
+<span>推荐一个牌子吧，我觉得现在用的不知道品牌有点问题</span><br>
+<span>Carkoci，天猫有旗舰店的，我从红米Note3就开始用它家的钢化膜，</span><br>
+<span>一直经历了note4X，note5，5plus到现在的Note7Pro，个人认为比泥潭之前大部分人推荐的闪魔好多了，</span><br>
+<span>只是我个人使用感觉，日常我就是各类主机模拟器游戏，网页浏览还有看看excel表这些的操作，</span><br>
+<span>换了之后对比之前的闪魔舒服太多</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>引用第29楼CatQuta于2019-06-22 17:31发表的:</span><br>
+<span>引用:9-11-2001 发表于 2019-6-18 09:15红米note7的触控也很不跟手啊........</span><br>
+<span>@CatQuta</span><br>
+<span>问题是我note7压根儿就没贴膜。。。你推荐的那个膜我以前mate8的时候经常用，性价比很高</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>天知道: </b><br>
+<span>CatQuta 发表于 2019-6-22 18:05</span><br>
+<span>Carkoci，天猫有旗舰店的，我从红米Note3就开始用它家的钢化膜，</span><br>
+<span>一直经历了note4X，note5，5plus到现在 ...</span><br>
+<span>3Q，我去买下看看</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>9-11-2001 发表于 2019-6-22 19:20</span><br>
+<span>@CatQuta</span><br>
+<span>问题是我note7压根儿就没贴膜。。。你推荐的那个膜我以前mate8的时候经常用，性价比很高</span><br>
+<span>对对，我基本只用那个牌子的钢化膜，中途不信邪换闪魔真心觉得不好用</span><br>
+<span>你那Note 7首批货？好像那时看官方的微博底下评论，首批货的时候品控可能没搞好，问题不少</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>天知道 发表于 2019-6-22 20:25</span><br>
+<span>3Q，我去买下看看</span><br>
+<span>不客气，这个牌子价格还比闪魔低两块钱左右，却好用多了，值得拥有</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>推送了稳定版系统, 更新了下, 没觉得有什么区别</span><br>
+</p><p><b>Litccc: </b><br>
+<span>现在屏幕还有问题吗</span><br>
+</p><p><b>myron_cloud: </b><br>
+<span> 本帖最后由 myron_cloud 于 2019-7-7 12:21 编辑 </span><br>
+<span>Litccc 发表于 2019-7-7 10:25</span><br>
+<span>现在屏幕还有问题吗</span><br>
+<span>酷安里面很多老哥说最新的开发版系统9.7.4解决了屏幕漂移，但是这个系统并没有开放公测</span><br>
+<span>今天稳定版推送了10.3.14，具体情况还在测试中…</span><br>
+</p><p><b>screeper: </b><br>
+<span>myron_cloud 发表于 2019-7-7 12:18</span><br>
+<span>酷安里面很多老哥说最新的开发版系统9.7.4解决了屏幕漂移，但是这个系统并没有开放公测</span><br>
+<span>今天稳定版推送 ...</span><br>
+<span>不，已经推送公测了，我昨天就收到推送，更新之后确实解决了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840286[0-50]</guid>
+    </item>
+  </channel>
+</rss>

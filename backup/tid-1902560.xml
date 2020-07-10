@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一个非典型公益图床项目</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一个非典型公益图床项目</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:23:16 +0000</lastBuildDate>
+    <item>
+      <title>一个非典型公益图床项目[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902560-1-1.html</link>
+      <description>一个非典型公益图床项目&#13;
+ 本帖最后由 R.I.P 于 2019-12-13 21:54 编辑 
+
+https://p.sda1.dev
+&#13;
+上周听说sm.ms推出了付费服务，不禁想到了一个问题，如果我们只有每月几刀的很低的预算，并且希望用它支持一个图床项目，我们究竟能保证多高的可用性和存续性。租单个便宜vps实在太脆弱，如果基于这两年几个云服务商巨头都在大力吆喝的"Serverless"服务来构筑这个项目，会怎么样呢？
+&#13;
+花了三四天时间把想法实现了一下，经过一天多紧张的debug，看起来已经没有太明显的问题了。它的特点有：
+&#13;
+* 最底下用大家相对来说已经摸清脾气的大容量网盘存储。具体来说用的是Google Drive，所有数据都加密后存储在gd，并且不使用外链等可能触碰gd神经的操作。所有图片数据和metadata可以容易地全站备份（放到其他gd账号或者别家网盘）。
+&#13;
+* 找一家比较靠谱的FaaS服务商，在上面实现一套图床的基本api。这里选择的是付费版（月付5usd）的Cloudflare workers，主要的原因是流量不计费，并且有比较充裕的key-value存储quota，此外可以操作cf本身的CDN cache，合起来可以实现令人满意的cache，避免掉绝大多数回源的gd api操作。即使要回源，也只需要一次gd api操作就可以取到图片。墙外访问不太感知得出回源带来的延迟。
+&#13;
+* web前端比较简单（其实是直接抄的sm.ms，可以看到about页面之类的通通都还没有做）。所有静态资源放在github pages。
+&#13;
+这个方案最大的风险可能还是在于如果完全放置，被用来外链一些敏感内容的话，有整个域名被墙掉的风险。除开这一点，永久储存所有图片，在这样的月供下至少运行个三五年看起来不是什么天方夜谭..
+&#13;
+放个测试图，大约3M
+&#13;
+https://p.sda1.dev/0/39ceb3974900eab62f091bd075b9a5e3/GIF.gif</description>
+      <content:encoded><![CDATA[<p><b>tosu: </b><br>
+<span>不错 以后泥潭发图就用大佬的了</span><br>
+</p><p><b>DiabloGundam: </b><br>
+<span>因为sm.ms速度问题，自己找了一堆图床，最后还是用大网站当图床那种</span><br>
+<span>然后就是有一堆CH模板的.....</span><br>
+</p><p><b>stmule: </b><br>
+<img src="https://p.sda1.dev/0/2788c58fb3d3070001d75d0a12644b6c/TIM图片20191230145134.jpg" title="https://p.sda1.dev/0/2788c58fb3d3070001d75d0a12644b6c/TIM图片20191230145134.jpg"><br>
+<img src="https://p.sda1.dev/0/f32e5b44227ede211444a5e0e1b02d34/TIM图片20191230145148.jpg" title="https://p.sda1.dev/0/f32e5b44227ede211444a5e0e1b02d34/TIM图片20191230145148.jpg"><br>
+<img src="https://p.sda1.dev/0/8da2454951d694a459cccb6bc21de411/TIM图片20191230145153.jpg" title="https://p.sda1.dev/0/8da2454951d694a459cccb6bc21de411/TIM图片20191230145153.jpg"><br>
+<img src="https://p.sda1.dev/0/643a3f069ff329bd20b3a290945a0ef3/TIM图片20191230145156.jpg" title="https://p.sda1.dev/0/643a3f069ff329bd20b3a290945a0ef3/TIM图片20191230145156.jpg"><br>
+<img src="https://p.sda1.dev/0/3029a8e4f2c3619cfd5a7efc46d1d027/TIM图片20191230145201.jpg" title="https://p.sda1.dev/0/3029a8e4f2c3619cfd5a7efc46d1d027/TIM图片20191230145201.jpg"><br>
+<img src="https://p.sda1.dev/0/c62e30561091e33a100595692c26f92a/TIM图片20191230145205.jpg" title="https://p.sda1.dev/0/c62e30561091e33a100595692c26f92a/TIM图片20191230145205.jpg"><br>
+<img src="https://p.sda1.dev/0/7465243c27d4cb2ac7afe789284e88c9/TIM图片20191230145209.jpg" title="https://p.sda1.dev/0/7465243c27d4cb2ac7afe789284e88c9/TIM图片20191230145209.jpg"><br>
+<img src="https://p.sda1.dev/0/fb88724930df78e19009204db6bb3b48/TIM图片20191230145214.jpg" title="https://p.sda1.dev/0/fb88724930df78e19009204db6bb3b48/TIM图片20191230145214.jpg"><br>
+<img src="https://p.sda1.dev/0/bd8aee2b9df61d53c370dd003b0bf6c7/TIM图片20191230145217.jpg" title="https://p.sda1.dev/0/bd8aee2b9df61d53c370dd003b0bf6c7/TIM图片20191230145217.jpg"><br>
+<span>测试</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>R.I.P 发表于 2019-12-30 09:57</span><br>
+<span>POST https://p.sda1.dev/api/upload_external</span><br>
+<span>文件格式名: file</span><br>
+<span>刚才试了下post https://p.sda1.dev/api/upload_external</span><br>
+<span>结果返回404？</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>lwa190212 发表于 2019-12-30 14:58</span><br>
+<span>刚才试了下post https://p.sda1.dev/api/upload_external</span><br>
+<span>结果返回404？</span><br>
+<span>抱歉手滑了，是/api/v1/upload_external</span><br>
+<span>首页的iOS捷径用的也是这个</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>lwa190212 发表于 2019-12-30 14:58</span><br>
+<span>刚才试了下post https://p.sda1.dev/api/upload_external</span><br>
+<span>结果返回404？</span><br>
+<span>昨晚原来是你在试API啊。。睡觉前看了一下，才部署一天的反CC模块就ban掉了一个ip</span><br>
+<span>欢迎进tg群，有新需求或者建议可以随时提</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>R.I.P 发表于 2019-12-30 17:16</span><br>
+<span>昨晚原来是你在试API啊。。睡觉前看了一下，才部署一天的反CC模块就ban掉了一个ip</span><br>
+<span>欢迎进 ...</span><br>
+<span>并不是很懂网络技术，直接就从浏览器里看网络请求后试了下，没想到还被发现了，见笑了</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>坛友@lwa190212 提到的ShareX很好用的样子，准备拿它替换掉之前用的snipaste了。</span><br>
+<span>首页现在增加了从ShareX直接上传到本图床的配置文件。</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>测试一下animated webp录制</span><br>
+<span>https://p.sda1.dev/0/b3aaaeae72528e8ebae17a0281f56c48/O4YflobJvY.webp</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span> 碳酸锂缓释片 发表于 2019-12-13 21:55 我本月初开始尝试用腾讯云对象存储在泥潭和 V2EX 贴图，目前共耗资 27.21 元，感觉有点贵，而且费用肯定会逐月递增。LZ 的思路不错，有兴趣写个教程吗？</span><br>
+<span>套cdn啊</span><br>
+<span>cos好贵的</span><br>
+</p><p><b>ykrank: </b><br>
+<span>现在成本什么价格？鹅球里能用api吗？鹅球可以考虑在图片上传单独嵌入一个给你的捐款宣传页</span><br>
+</p><p><b>R.I.P: </b><br>
+<span> 本帖最后由 R.I.P 于 2020-1-1 23:12 编辑 </span><br>
+<span>ykrank 发表于 2020-1-1 22:12</span><br>
+<span>现在成本什么价格？鹅球里能用api吗？鹅球可以考虑在图片上传单独嵌入一个给你的捐款宣传页 ...</span><br>
+<span>核算过每T流量成本大约是1.5RMB，捐赠感觉很长时间内应该不需要。api已经pm，多谢聚聚抬爱</span><br>
+</p><p><b>hein: </b><br>
+<span>R.I.P 发表于 2020-1-1 23:00</span><br>
+<span>核算过每T流量成本大约是1.5RMB，捐赠感觉很长时间内应该不需要。api已经pm，多谢聚聚抬爱 ...</span><br>
+<span>感觉很棒的样子啊</span><br>
+</p><p><b>R.I.P: </b><br>
+<span> 本帖最后由 R.I.P 于 2020-1-9 21:53 编辑 </span><br>
+<span>调整了一下国内运营商解析出来的ip，现在光看延时应该比默认的好不少</span><br>
+<span>https://p.sda1.dev/0/eb32e17f019dad717fe63214b7bf5ed4/browser_60XqsDLyLK.webp</span><br>
+</p><p><b>碧海银沙: </b><br>
+<span>感谢楼主公益项目！%5Bimg%5Dhttps://upload.cc/i1/2020/01/13/jiAIR2.jpg</span><br>
+</p><p><b>mozilla: </b><br>
+<span>网站目前无法打开，挂了？你们有人能打开吗。</span><br>
+</p><p><b>民工业: </b><br>
+<span>mozilla 发表于 2020-2-25 17:59</span><br>
+<span>网站目前无法打开，挂了？你们有人能打开吗。</span><br>
+<span>可以打开</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>mozilla: </b><br>
+<span>民工业 发表于 2020-2-25 18:05</span><br>
+<span>可以打开</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+<span>咦，我刚才找个测速网站。</span><br>
+<span>http://tool.chinaz.com/speedtest/https://p.sda1.dev/</span><br>
+<span> 会不会是链接搞错了？</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>荣幸成为了新版鹅球的默认图床。</span><br>
+<span>由于s1会把某两位数的数字年份8*8当作敏感词替换成**，刚刚修改了一下生成目录名的逻辑，以后新上传的图片链接保证不会含有这个数字，以防止大家插入图片失败</span><br>
+</p><p><b>BankA: </b><br>
+<span> 本帖最后由 BankA 于 2020-3-11 13:17 编辑 </span><br>
+<span>** </span><br>
+<span>b558</span><br>
+<span>b5</span><br>
+<span>敏感词测试</span><br>
+<span>8b</span><br>
+<span>58</span><br>
+<img src="http://wx1.sinaimg.cn/mw1024/8**3813gy1gbvuyf5ow8g209q0hahdv.gif" title="http://wx1.sinaimg.cn/mw1024/8**3813gy1gbvuyf5ow8g209q0hahdv.gif"><br>
+<img src="http://wx1.sinaimg.cn/mw1024/8**3813gy1gbvuyf5ow8g209q0hahdv.gif" title="http://wx1.sinaimg.cn/mw1024/8**3813gy1gbvuyf5ow8g209q0hahdv.gif"><br>
+<span>**</span><br>
+<span>屏蔽的分别是b//58和b//50</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902560[50-100]</guid>
+    </item>
+    <item>
+      <title>一个非典型公益图床项目[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902560-1-1.html</link>
+      <description>一个非典型公益图床项目&#13;
+ 本帖最后由 R.I.P 于 2019-12-13 21:54 编辑 
+
+https://p.sda1.dev
+&#13;
+上周听说sm.ms推出了付费服务，不禁想到了一个问题，如果我们只有每月几刀的很低的预算，并且希望用它支持一个图床项目，我们究竟能保证多高的可用性和存续性。租单个便宜vps实在太脆弱，如果基于这两年几个云服务商巨头都在大力吆喝的"Serverless"服务来构筑这个项目，会怎么样呢？
+&#13;
+花了三四天时间把想法实现了一下，经过一天多紧张的debug，看起来已经没有太明显的问题了。它的特点有：
+&#13;
+* 最底下用大家相对来说已经摸清脾气的大容量网盘存储。具体来说用的是Google Drive，所有数据都加密后存储在gd，并且不使用外链等可能触碰gd神经的操作。所有图片数据和metadata可以容易地全站备份（放到其他gd账号或者别家网盘）。
+&#13;
+* 找一家比较靠谱的FaaS服务商，在上面实现一套图床的基本api。这里选择的是付费版（月付5usd）的Cloudflare workers，主要的原因是流量不计费，并且有比较充裕的key-value存储quota，此外可以操作cf本身的CDN cache，合起来可以实现令人满意的cache，避免掉绝大多数回源的gd api操作。即使要回源，也只需要一次gd api操作就可以取到图片。墙外访问不太感知得出回源带来的延迟。
+&#13;
+* web前端比较简单（其实是直接抄的sm.ms，可以看到about页面之类的通通都还没有做）。所有静态资源放在github pages。
+&#13;
+这个方案最大的风险可能还是在于如果完全放置，被用来外链一些敏感内容的话，有整个域名被墙掉的风险。除开这一点，永久储存所有图片，在这样的月供下至少运行个三五年看起来不是什么天方夜谭..
+&#13;
+放个测试图，大约3M
+&#13;
+https://p.sda1.dev/0/39ceb3974900eab62f091bd075b9a5e3/GIF.gif</description>
+      <content:encoded><![CDATA[<p><b>R.I.P: </b><br>
+<span>一个非典型公益图床项目</span><br>
+<span> 本帖最后由 R.I.P 于 2019-12-13 21:54 编辑 </span><br>
+<span>https://p.sda1.dev</span><br>
+<span>上周听说sm.ms推出了付费服务，不禁想到了一个问题，如果我们只有每月几刀的很低的预算，并且希望用它支持一个图床项目，我们究竟能保证多高的可用性和存续性。租单个便宜vps实在太脆弱，如果基于这两年几个云服务商巨头都在大力吆喝的"Serverless"服务来构筑这个项目，会怎么样呢？</span><br>
+<span>花了三四天时间把想法实现了一下，经过一天多紧张的debug，看起来已经没有太明显的问题了。它的特点有：</span><br>
+<span>* 最底下用大家相对来说已经摸清脾气的大容量网盘存储。具体来说用的是Google Drive，所有数据都加密后存储在gd，并且不使用外链等可能触碰gd神经的操作。所有图片数据和metadata可以容易地全站备份（放到其他gd账号或者别家网盘）。</span><br>
+<span>* 找一家比较靠谱的FaaS服务商，在上面实现一套图床的基本api。这里选择的是付费版（月付5usd）的Cloudflare workers，主要的原因是流量不计费，并且有比较充裕的key-value存储quota，此外可以操作cf本身的CDN cache，合起来可以实现令人满意的cache，避免掉绝大多数回源的gd api操作。即使要回源，也只需要一次gd api操作就可以取到图片。墙外访问不太感知得出回源带来的延迟。</span><br>
+<span>* web前端比较简单（其实是直接抄的sm.ms，可以看到about页面之类的通通都还没有做）。所有静态资源放在github pages。</span><br>
+<span>这个方案最大的风险可能还是在于如果完全放置，被用来外链一些敏感内容的话，有整个域名被墙掉的风险。除开这一点，永久储存所有图片，在这样的月供下至少运行个三五年看起来不是什么天方夜谭..</span><br>
+<span>放个测试图，大约3M</span><br>
+<img src="https://p.sda1.dev/0/39ceb3974900eab62f091bd075b9a5e3/GIF.gif" title="https://p.sda1.dev/0/39ceb3974900eab62f091bd075b9a5e3/GIF.gif"><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>我本月初开始尝试用腾讯云对象存储在泥潭和 V2EX 贴图，目前共耗资 27.21 元，感觉有点贵，而且费用肯定会逐月递增。LZ 的思路不错，有兴趣写个教程吗？</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2019-12-13%20%E8%B4%B9%E7%94%A8%E8%B4%A6%E5%8D%95%20-%20%E6%8E%A7%E5%88%B6%E5%8F%B0.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2019-12-13%20%E8%B4%B9%E7%94%A8%E8%B4%A6%E5%8D%95%20-%20%E6%8E%A7%E5%88%B6%E5%8F%B0.png"><br>
+</p><p><b>R.I.P: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-13 21:55</span><br>
+<span>我本月初开始尝试用腾讯云对象存储在泥潭和 V2EX 贴图，目前共耗资 27.21 元，感觉有点贵，而且费用肯定会 ...</span><br>
+<span>自用还是国内商家的OSS比较好，毕竟花不了几个G，感觉犯不着部署一个我这样的。。</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>图刷不出来，网址打不开</span><br>
+</p><p><b>Litccc: </b><br>
+<span>test，上传速度似乎不太理想，1.41mb的图要传一分钟</span><br>
+<img src="https://p.sda1.dev/0/d3470a23b1b399c5af4509a7a84439ca/77601670_p0.png" title="https://p.sda1.dev/0/d3470a23b1b399c5af4509a7a84439ca/77601670_p0.png"><br>
+</p><p><b>R.I.P: </b><br>
+<span>处男鉴黄师 发表于 2019-12-13 22:04</span><br>
+<span>图刷不出来，网址打不开</span><br>
+<span>可能是cloudflare撞墙了</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>R.I.P 发表于 2019-12-13 21:59</span><br>
+<span>自用还是国内商家的OSS比较好，毕竟花不了几个G，感觉犯不着部署一个我这样的。。 ...</span><br>
+<span>因为昨天一天腾讯云就扣了我 8.03 元，按目前趋势我每月可能要额外支出三位数，对学生来说还是有点压力…</span><br>
+<span>之前我的心理预期是每月 20 元左右（我那个没人看的博客每月 OSS 开支不到 10 元），用 LZ 的方案应该能便宜一点点</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-13 22:08</span><br>
+<span>因为昨天一天腾讯云就扣了我 8.03 元，按目前趋势我每月可能要额外支出三位数，对学生来说还是有点压力… ...</span><br>
+<span>腾讯这个流量收费吗</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span> 本帖最后由 碳酸锂缓释片 于 2019-12-13 22:21 编辑 </span><br>
+<span>R.I.P 发表于 2019-12-13 22:10</span><br>
+<span>腾讯这个流量收费吗</span><br>
+<span>腾讯云只有新用户享有 6 个月限时免费额度，其它都是收费的</span><br>
+<span>https://cloud.tencent.com/document/product/436/6240</span><br>
+<span>而且 S1 流量还是挺厉害的，刚查了下，本月流量 72.26 GB，总读请求数 23.78 万次，我总共才上传了几张破图……</span><br>
+</p><p><b>rossokun: </b><br>
+<span>联通网看起来效果还不错的样子…</span><br>
+<span>sm.ms不行 白天完全刷不出图的</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>Litccc 发表于 2019-12-13 22:04</span><br>
+<span>test，上传速度似乎不太理想，1.41mb的图要传一分钟</span><br>
+<span>看了下，你应该是跑到ipv6上去了。。电信的v6连cf确实惨的一笔</span><br>
+</p><p><b>Litccc: </b><br>
+<span>R.I.P 发表于 2019-12-13 22:16</span><br>
+<span>看了下，你应该是跑到ipv6上去了。。电信的v6连cf确实惨的一笔</span><br>
+<span>有没有什么办法走v4</span><br>
+</p><p><b>R.I.P: </b><br>
+<span> 本帖最后由 R.I.P 于 2019-12-13 22:27 编辑 </span><br>
+<span>Litccc 发表于 2019-12-13 22:21</span><br>
+<span>有没有什么办法走v4</span><br>
+<span>我记得能把cf托管的整个域名的v6中转关掉，我去试试..好了。这个选项邪门得很，web端不能改，必须要api发一下。。</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-13 22:14</span><br>
+<span>腾讯云只有新用户享有 6 个月限时免费额度，其它都是收费的</span><br>
+<span>https://cloud.tencent.com/document/product/ ...</span><br>
+<span>对我这个方案有兴趣的话就用这个现成的呗</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>rossokun 发表于 2019-12-13 22:15</span><br>
+<span>联通网看起来效果还不错的样子…</span><br>
+<span>sm.ms不行 白天完全刷不出图的</span><br>
+<span>其实都是cf，差不了太多。可能就是我分到这个节点负载低一点/墙脸生一点</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>R.I.P 发表于 2019-12-13 22:25</span><br>
+<span>对我这个方案有兴趣的话就用这个现成的呗</span><br>
+<span>想学习下怎么搭建，我之前都是用 SM.MS 的，结果月初有一贴底下坛友纷纷表示看不到图，前段时间新浪也开始限制外链，觉得不能太依赖第三方服务。</span><br>
+<span>我对编程没什么了解，VPS、博客搭建这些都是参考的网上教程，最高光时刻也就是用 Automator 实现了 SM.MS 的图片自动上传，虽然大佬在主贴写了思路但我自己肯定还是折腾不出来</span><br>
+<span>LZ 有兴趣的话可以考虑把主贴的实现过程投稿到少数派之类的网站，还有稿费拿，我一定去支持</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>目前有API吗？</span><br>
+<span>有API的话是不是可以@Rank把smms从鹅球里面换掉了</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>若荼泱 发表于 2019-12-13 22:34</span><br>
+<span>目前有API吗？</span><br>
+<span>有API的话是不是可以@Rank把smms从鹅球里面换掉了</span><br>
+<span>就是formdata塞个文件，没有别的token认证什么的，开下控制台一眼就明白。（设计api的时候基本也是抄的sm.ms）鹅球什么的改起来肯定很容易。</span><br>
+<span>像bgm那边要写userscript的话得解决一下跨域的问题</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>不是很懂，但是🐮🍺</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-13 22:34</span><br>
+<span>想学习下怎么搭建，我之前都是用 SM.MS 的，结果月初有一贴底下坛友纷纷表示看不到图，前段时间新浪也开 ...</span><br>
+<span>现阶段代码有点丑，要公开的话肯定得美化一下</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>R.I.P 发表于 2019-12-13 22:47</span><br>
+<span>现阶段代码有点丑，要公开的话肯定得美化一下</span><br>
+<span>收到，期待大佬成果</span><br>
+<span>（其实我觉得就现在的代码直接发 GitHub，稍微宣传下，马上就会有上班摸鱼的程序员过来帮忙美化了，V2EX 每隔几天就会冒出来一个新图床贴，那里的用户人手一个私人博客，最喜欢这种项目</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>添加了webp支持。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-13 22:14</span><br>
+<span>腾讯云只有新用户享有 6 个月限时免费额度，其它都是收费的</span><br>
+<span>https://cloud.tencent.com/document/product/ ...</span><br>
+<span>感觉是被蜘蛛爬的</span><br>
+</p><p><b>hollowd: </b><br>
+<img src="https://p.sda1.dev/0/6607a58c68dd711df6764f1b2a69deb9/Snipaste_2019-12-14_09-10-21.png" title="https://p.sda1.dev/0/6607a58c68dd711df6764f1b2a69deb9/Snipaste_2019-12-14_09-10-21.png"><br>
+</p><p><b>青年A: </b><br>
+<span>观望，serverless听起来有吸引力</span><br>
+<span>也考虑过cf，但是cf太随机也不稳定，各地速度不同，而且上限还是低</span><br>
+<span>我自己的VPS可以稳定跑到30m/s，峰值近百，但是因为IP段连座被墙的错过3期壁纸战了</span><br>
+<span>感觉都不是很好的方案</span><br>
+<span>— from HUAWEI ELE-AL00, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>看不懂，先收藏</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>微博图床全面封锁之前先继续用着</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Pinchbeck: </b><br>
+<span>用的gd团队盘吗</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>Pinchbeck 发表于 2019-12-14 11:56</span><br>
+<span>用的gd团队盘吗</span><br>
+<span>嗯，为了保险起见还是用的团队盘。不过团队盘有40w文件+目录限制，设计的时候还得考虑分多个盘存储索引的机制。。</span><br>
+</p><p><b>欧金金: </b><br>
+<span>可惜我暂时用不到了</span><br>
+</p><p><b>notmyproblem: </b><br>
+<span>这贴权限设少了，20刚好是游客权限</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>notmyproblem 发表于 2019-12-15 07:55</span><br>
+<span>这贴权限设少了，20刚好是游客权限</span><br>
+<span>改了。我一直以为游客是10。。</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>单次图片张数限制调整到了100张</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>马克一下</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>么有实质意义</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>顺手安利一下千牛，按流量收费，如果某张图流量觉得太高了可以砍掉某张图</span><br>
+<span>可以设置域名白名单</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>宅男的爱 发表于 2019-12-17 13:46</span><br>
+<span>顺手安利一下千牛，按流量收费，如果某张图流量觉得太高了可以砍掉某张图</span><br>
+<span>可以设置域名白名单 ...</span><br>
+<span>图床做起来以后一个月几十T流量，用不起的。。</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>在首页添加了iOS捷径脚本，欢迎各位iOS用户尝试</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>愉悦的麻婆: </b><br>
+<span>感谢</span><br>
+</p><p><b>linjia: </b><br>
+<span>测试</span><br>
+<img src="https://p.sda1.dev/0/c1ffc5cd1cf85dddaaf414e1f5922e9d/er.gif" title="https://p.sda1.dev/0/c1ffc5cd1cf85dddaaf414e1f5922e9d/er.gif"><br>
+</p><p><b>星野あさみ: </b><br>
+<span>楼主有创意，比我司专门做集成的顾问厉害 </span><br>
+</p><p><b>勇者护手: </b><br>
+<span>马一下 有空搭一搭试试</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>星野あさみ 发表于 2019-12-24 18:02</span><br>
+<span>楼主有创意，比我司专门做集成的顾问厉害</span><br>
+<span>发这个麻将脸不知道是夸还是损了..</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>星野あさみ: </b><br>
+<span>R.I.P 发表于 2019-12-26 21:32</span><br>
+<span>发这个麻将脸不知道是夸还是损了..</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2 ...</span><br>
+<span>损顾问，夸楼主</span><br>
+<span>顾问几千软妹币一天，做出来的都是dog s**t。看到楼主这个解决方案真是眼前一亮，真心赞</span><br>
+</p><p><b>星月肥纪: </b><br>
+<span>图床是挂了么？</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>星月肥纪 发表于 2019-12-29 22:15</span><br>
+<span>图床是挂了么？</span><br>
+<span>应该是好的</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>R.I.P 发表于 2019-12-29 22:17</span><br>
+<span>应该是好的</span><br>
+<span>请问能考虑下开放上传的api吗？想给shareX这种能截图管理和上传的用(个人用)https://p.sda1.dev/0/17a07bb77a54f676463bf3defb874659/firefox_2019-12-30_01-08-42.png</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>lwa190212 发表于 2019-12-30 01:11</span><br>
+<span>请问能考虑下开放上传的api吗？想给shareX这种能截图管理和上传的用(个人用)</span><br>
+<span> ...</span><br>
+<span>POST https://p.sda1.dev/api/upload_external</span><br>
+<span>文件格式名: file</span><br>
+<span>formdata里的其他东西删掉</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>几个问题</span><br>
+<span>1. 国内访问速度得不到保证</span><br>
+<span>2. 随时会被墙 断连</span><br>
+<span>3. 其实S1国外的流量并不是很大</span><br>
+<span>本身的问题是 国外流量不值钱 但是国内要访问速度是很慢的 cf的cdn国内是访问不到百度节点的</span><br>
+<span>等于你国内还是走cf的国外节点访问 你要想访问国内cf节点 那就要走百度cdn 而cf本身国内是和百度合作的 你要serve中国你要提供域名备案证明</span><br>
+<span>btw：S1现在的图片cdn就是百度cdn 外国走的是cloudflare的节点 国内走百度节点</span><br>
+<span>国外的用户访问图片吃的流量和国内也是不一样的</span><br>
+<span>最大的问题还是墙和访问速度 让在国外做这件事意义不大 懂了哇</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>今天用了一下 感觉挺方便的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902560[0-50]</guid>
+    </item>
+  </channel>
+</rss>

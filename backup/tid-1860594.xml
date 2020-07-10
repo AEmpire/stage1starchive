@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>咨询一下广色域显示器在校色前后使用问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>咨询一下广色域显示器在校色前后使用问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:34:10 +0000</lastBuildDate>
+    <item>
+      <title>咨询一下广色域显示器在校色前后使用问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860594-1-1.html</link>
+      <description>咨询一下广色域显示器在校色前后使用问题&#13;
+ 本帖最后由 伊克路西安 于 2019-10-21 15:31 编辑 
+
+有意购入benq ew3270u，咨询一下：
+&#13;
+1. 未校色使用广色域显示器时，win10是否仍会使用默认的sRGB icc？这时就会过饱和？
+&#13;
+2. 如果显示器驱动包含默认icc，安装后，在支持色彩管理的应用中就可以调用正确的色域了么？
+&#13;
+3. 像win10桌面是否支持色彩管理，在广色域显示器上将一张srgb图片做成桌面是否会过饱和？
+&#13;
+4. 如果用displaycal校色后，加载icc，对于不支持色彩管理的exe是否仍能正确显示？
+&#13;
+5. 显示器自带的几种颜色模式，比如srgb p3色域之类的，跟色彩管理有什么关系吗？还是单纯调整显示器自身的颜色显示范围？
+&#13;
+6. 像一些不支持hdr的游戏，同人游戏，独立游戏之类的，他们在创作时用的是srgb色域么？那支持调用icc么？</description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>咨询一下广色域显示器在校色前后使用问题</span><br>
+<span> 本帖最后由 伊克路西安 于 2019-10-21 15:31 编辑 </span><br>
+<span>有意购入benq ew3270u，咨询一下：</span><br>
+<span>1. 未校色使用广色域显示器时，win10是否仍会使用默认的sRGB icc？这时就会过饱和？</span><br>
+<span>2. 如果显示器驱动包含默认icc，安装后，在支持色彩管理的应用中就可以调用正确的色域了么？</span><br>
+<span>3. 像win10桌面是否支持色彩管理，在广色域显示器上将一张srgb图片做成桌面是否会过饱和？</span><br>
+<span>4. 如果用displaycal校色后，加载icc，对于不支持色彩管理的exe是否仍能正确显示？</span><br>
+<span>5. 显示器自带的几种颜色模式，比如srgb p3色域之类的，跟色彩管理有什么关系吗？还是单纯调整显示器自身的颜色显示范围？</span><br>
+<span>6. 像一些不支持hdr的游戏，同人游戏，独立游戏之类的，他们在创作时用的是srgb色域么？那支持调用icc么？</span><br>
+</p><p><b>Bhagavan: </b><br>
+<span>1.是,不一定</span><br>
+<span>2.可以</span><br>
+<span>3.支持,不会</span><br>
+<span>4.什么意思?</span><br>
+<span>5.单纯调整显示器自身的颜色显示范围</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-10-21 15:27 编辑 </span><br>
+<span>楼主这事倒是让我想起来了，我的显示器一直是argb模式，系统是win10自带的srgb。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>Bhagavan 发表于 2019-10-21 15:04</span><br>
+<span>1.是,不一定</span><br>
+<span>2.可以</span><br>
+<span>3.支持,不会</span><br>
+<span>4. 比如一些独立游戏，可能不支持win10的色彩管理吧，那这个时候它显示的颜色会不会过饱和呢</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-10-21 15:28 编辑 </span><br>
+<span>伊克路西安 发表于 2019-10-21 15:24</span><br>
+<span>4. 比如一些独立游戏，可能不支持win10的色彩管理吧，那这个时候它显示的颜色会不会过饱和呢</span><br>
+<span> ...</span><br>
+<span>不用游戏 以前chrome就是典型了，会过饱和。现在好了</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>伊可费斯 发表于 2019-10-21 15:20</span><br>
+<span>楼主这事倒是让我想起来了，我的显示器一直是argb模式，系统是win10自带的srgb。 ...</span><br>
+<span>那这种时候显示的是ARGB还是SRGB呢= =</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>伊克路西安 发表于 2019-10-21 15:28</span><br>
+<span>那这种时候显示的是ARGB还是SRGB呢= =</span><br>
+<span>会过饱和（偏红）</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>过饱和有啥不好   艳丽啊 我就喜欢这种的</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>观铃の使魔 发表于 2019-10-21 15:44</span><br>
+<span>过饱和有啥不好   艳丽啊 我就喜欢这种的</span><br>
+<span>嗯= =拿来看视频打游戏应该也没什么问题吼</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>HDR 需要广色域高饱和……</span><br>
+<span>这显示器主打的就是主机游戏 4K+HDR+那个HDRB?啥来着？</span><br>
+<span>估计打游戏还得停用ICC吧</span><br>
+</p><p><b>308: </b><br>
+<span>看一下该款的使用评价明白便宜的广色域有其存在的道理，不敢买了，还是攒钱买sw系列好了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>waldo: </b><br>
+<span>1.是。广色域显示器默认模式+windows默认一定过饱和。</span><br>
+<span>2.一般来说是这样，但某些显示器的驱动未必是标准srgb，同时设定亮度和目标gamma什么的也不尽相同，有条件最好自己校。</span><br>
+<span>3.最新版本可以，不会</span><br>
+<span>4.不支持icc profile就只有显卡gamma table校正的效果</span><br>
+<span>5.你可以认为那些模式就是显示器厂家出厂前在测试环境中硬件校正成了对应色域。</span><br>
+<span>6.srgb，不支持。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860594[0-50]</guid>
+    </item>
+  </channel>
+</rss>

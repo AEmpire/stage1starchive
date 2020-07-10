@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在比较贴近实际使用的cpu稳定性测试一般是用哪个</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在比较贴近实际使用的cpu稳定性测试一般是用哪个</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:52:29 +0000</lastBuildDate>
+    <item>
+      <title>现在比较贴近实际使用的cpu稳定性测试一般是用哪个[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908473-1-1.html</link>
+      <description>现在比较贴近实际使用的cpu稳定性测试一般是用哪个&#13;
+现在用的是比较小的散热规模,压3600就像是个上上下下的直升机
+&#13;
+改风扇曲线和延迟效果一般,干脆直接1.2v全核4.0世界清净
+&#13;
+这个电压跑FPU倒是能过,但是p95秒黑虽然我知道p95意义不是很大就是了,不过还是想找另一个测试方式确保日后使用不出问题
+&#13;
+那么现在跑那种压力不那么极限但是很有代表性的测试使用的是哪种呢</description>
+      <content:encoded><![CDATA[<p><b>炸了个毛: </b><br>
+<span>现在比较贴近实际使用的cpu稳定性测试一般是用哪个</span><br>
+<span>现在用的是比较小的散热规模,压3600就像是个上上下下的直升机</span><br>
+<span>改风扇曲线和延迟效果一般,干脆直接1.2v全核4.0世界清净</span><br>
+<span>这个电压跑FPU倒是能过,但是p95秒黑虽然我知道p95意义不是很大就是了,不过还是想找另一个测试方式确保日后使用不出问题</span><br>
+<span>那么现在跑那种压力不那么极限但是很有代表性的测试使用的是哪种呢</span><br>
+</p><p><b>tyx776: </b><br>
+<span>p95还是要跑，要不真要用到avx的时候就会蓝屏。p95有一项blend这个是全部测，我就跑这个10分钟收工。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>johnie: </b><br>
+<span>aida 64烤fpu</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>tyx776 发表于 2020-1-9 01:02</span><br>
+<span>p95还是要跑，要不真要用到avx的时候就会蓝屏。p95有一项blend这个是全部测，我就跑这个10分钟收工。</span><br>
+<span>—— ...</span><br>
+<span>blend是循环 开始压力小 后面也会跑small ffts的</span><br>
+<span>所以10分钟也就aida64水平</span><br>
+</p><p><b>sirlion: </b><br>
+<span>烤鸡不如跑游戏，比如暴雪的，ow啥的，我之前降压，fpu单烤半小时无问题，ow蓝屏，然后才意识到，待机电压更低，fpu只考虑满载，实际游戏中一会满载一会轻载，轻载的电压不稳所以蓝了，跑实际游戏更靠谱，而且我跑owgpu满载，cpu不满载下的温度比网上评测双考的温度还高呢</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>zen2真没必要那么在意温度 你把风扇曲线拉直点</span><br>
+<span>自动pbo就够了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>AIDA64 FP64 Ray-Trace？</span><br>
+</p><p><b>各种浪: </b><br>
+<span>孤狼arcueid 发表于 2020-1-9 08:16</span><br>
+<span>zen2真没必要那么在意温度 你把风扇曲线拉直点</span><br>
+<span>自动pbo就够了</span><br>
+<span>不够的，我的3600PBO全核从来没过4.15，烤FPU甚至能掉到3.9，而且电压能高到1.46；我直接1.35锁4.2用了，各种测试随便烤，没问题</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>p95没必要，非常规的办法:如果你不嫌弃文件大小只要过了ps3模拟器编译缓存5循环+模拟游戏满载不蓝屏临界+0.01v</span><br>
+<span>日常使用就没问题了。</span><br>
+<span>或者粗暴点r20循环20次?</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>sirlion 发表于 2020-1-9 08:12</span><br>
+<span>烤鸡不如跑游戏，比如暴雪的，ow啥的，我之前降压，fpu单烤半小时无问题，ow蓝屏，然后才意识到，待机电压 ...</span><br>
+<span>为什么在我的认知里电压是固定的，反而高负载可能会有掉压的情况</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>孤狼arcueid 发表于 2020-1-9 08:16</span><br>
+<span>zen2真没必要那么在意温度 你把风扇曲线拉直点</span><br>
+<span>自动pbo就够了</span><br>
+<span>rog这个沙雕bios 过了75度风扇无脑最高 我全自动pbo待机可以跳到60 不怎么好使</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>综合了一下楼上的意见，晚上回家挂一小时吃鸡，再跑个r20，没问题安心用算了</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>mac下的r20</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>现在懒了，就R20一刻钟+RealBench一刻钟，再跑跑游戏就收工了</span><br>
+<span>室温要弄得高一些，当然不是说散热要刻意削减</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>好像现在流行r20我用这个测试超频稳定性</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908473[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：DOS游戏声音、声卡</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：DOS游戏声音、声卡</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:23:52 +0000</lastBuildDate>
+    <item>
+      <title>求助：DOS游戏声音、声卡[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852752-1-1.html</link>
+      <description>求助：DOS游戏声音、声卡&#13;
+声卡:        Realtek ALC655 @ Intel 82801DB ICH4 - AC'97 Audio
+&#13;
+主板:        联想 PLATINIX-8(英特尔 82845G/GL/GV/GE/PE )        
+&#13;
+处理器:        英特尔 Celeron(赛扬) 2.80GHz        
+&#13;
+是 集成声卡Realtek ALC655，在主板上。
+&#13;
+纯DOS环境，想让绝大多数DOS游戏发声。
+&#13;
+1、通过软方式：驱动、驻留插件、正常设置(config、Autoexec)，有办法吗？
+&#13;
+2、只能购入独立声卡。按我的要求：“兼容性最好、绝大多数DOS游戏、原汗原味声音”。请推荐一款ISA声卡，和一款PCI声卡型号。新出的兼容版型号，或古董型号都行。
+&#13;
+3、ISA声卡，是不是插上就直接用？不用设置。DOS游戏就直接出声？
+&#13;
+　 PCI声卡，是不是设置比较麻烦(laster=A220 I5 D1 T4)？还需驱动驻留模拟ISA通道？
+&#13;
+4、注重FM声音(DOS原味)，不在意MIDI效果。 Windows/DOSBOX/VMware 免谈。</description>
+      <content:encoded><![CDATA[<p><b>proof1: </b><br>
+<span>求助：DOS游戏声音、声卡</span><br>
+<span>声卡:        Realtek ALC655 @ Intel 82801DB ICH4 - AC'97 Audio</span><br>
+<span>主板:        联想 PLATINIX-8(英特尔 82845G/GL/GV/GE/PE )        </span><br>
+<span>处理器:        英特尔 Celeron(赛扬) 2.80GHz        </span><br>
+<span>是 集成声卡Realtek ALC655，在主板上。</span><br>
+<span>纯DOS环境，想让绝大多数DOS游戏发声。</span><br>
+<span>1、通过软方式：驱动、驻留插件、正常设置(config、Autoexec)，有办法吗？</span><br>
+<span>2、只能购入独立声卡。按我的要求：“兼容性最好、绝大多数DOS游戏、原汗原味声音”。请推荐一款ISA声卡，和一款PCI声卡型号。新出的兼容版型号，或古董型号都行。</span><br>
+<span>3、ISA声卡，是不是插上就直接用？不用设置。DOS游戏就直接出声？</span><br>
+<span>　 PCI声卡，是不是设置比较麻烦(laster=A220 I5 D1 T4)？还需驱动驻留模拟ISA通道？</span><br>
+<span>4、注重FM声音(DOS原味)，不在意MIDI效果。 Windows/DOSBOX/VMware 免谈。</span><br>
+</p><p><b>macos: </b><br>
+<span>ac97乃至hdaudio虚拟总线，不支持，实体还好，分配到irq，dma</span><br>
+<span>但新声卡谁也不知道fm效果，砍了都不一定，何苦实体声卡</span><br>
+</p><p><b>Geminize: </b><br>
+<span>3 得装驱动，autoexec和config要改</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>mhfdt: </b><br>
+<span>只能老古董了吧</span><br>
+<span>看样子是要直接装DOS？</span><br>
+<span>那建议收台486</span><br>
+<span>你这折腾法不太对</span><br>
+</p><p><b>Geminize: </b><br>
+<span>这机器太新了装不了DOS，再说这主板哪有ISA槽</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>波卡帕马: </b><br>
+<span>Geminize 发表于 2019-8-11 14:33</span><br>
+<span>这机器太新了装不了DOS，再说这主板哪有ISA槽</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+<span>lgr的视频好像用的是00年配置来举例</span><br>
+</p><p><b>Geminize: </b><br>
+<span>P3以上就算真装上DOS，玩游戏速度得飞，更关键是不少游戏不支持32M以上内存，比如老仙剑，64M以上内存会认成负数不能运行</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>proof1: </b><br>
+<span> 本帖最后由 proof1 于 2019-8-11 16:32 编辑 </span><br>
+<span>Geminize 发表于 2019-8-11 14:33</span><br>
+<span>这机器太新了装不了DOS，再说这主板哪有ISA槽</span><br>
+<span>----发送自 STAGE1 Mobile这机器现在装的就是DOS 7.1，主板有一个ISA槽。</span><br>
+<span>玩DOS游戏，音箱没声，只有喇叭响。　　</span><br>
+<span>楼上，内存>32M，可以设置 虚拟磁盘，消耗掉一大部分。</span><br>
+</p><p><b>Geminize: </b><br>
+<span>7.1？第三方DOS？</span><br>
+</p><p><b>波卡帕马: </b><br>
+<span>Geminize 发表于 2019-8-11 16:29</span><br>
+<span>7.1？第三方DOS？</span><br>
+<span>win98附带的就是7.1</span><br>
+</p><p><b>Geminize: </b><br>
+<span>proof1 发表于 2019-8-11 16:28</span><br>
+<span>这机器现在装的就是DOS 7.1，主板有一个ISA槽。</span><br>
+<span>玩DOS游戏，音箱没声，只有喇叭响。　　</span><br>
+<span>　　            ...</span><br>
+<span>虚拟磁盘没用的，有的程序是检测物理内存，除非拔掉一条</span><br>
+</p><p><b>darkdragon: </b><br>
+<span>PLATINIX-8不是1個agp 6個pci吗，这个时代isa应该早淘汰了。</span><br>
+<span>直接买个创新sb16，pci需要加个驱动而已。</span><br>
+<span>isa声卡也要加set blaster。</span><br>
+</p><p><b>macos: </b><br>
+<span>Geminize 发表于 2019-8-11 20:24</span><br>
+<span>虚拟磁盘没用的，有的程序是检测物理内存，除非拔掉一条</span><br>
+<span>以前旧板有各种方法，例如直接memory hole</span><br>
+</p><p><b>shoes: </b><br>
+<span>装个win98+dosbox不好吗？</span><br>
+<span>为啥还要在dos环境下去折腾autoexec.bat和config.sys呢？</span><br>
+<span>哦，还有emm386和himem。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852752[0-50]</guid>
+    </item>
+  </channel>
+</rss>

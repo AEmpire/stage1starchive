@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>在python中 如何过滤emoji字符(同时忽略指定的几个)?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>在python中 如何过滤emoji字符(同时忽略指定的几个)?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:40:42 +0000</lastBuildDate>
+    <item>
+      <title>在python中 如何过滤emoji字符(同时忽略指定的几个)?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859565-1-1.html</link>
+      <description>在python中 如何过滤emoji字符(同时忽略指定的几个)?&#13;
+emoji的范围太乱了, 自己写range太复杂, 估计肯定会遗漏.
+&#13;
+然后在网上找到了最新版的regex包, 说这个支持unicode property匹配, 试了下确实好使, 比如说r'[\p{Emoji_Presentation}\p{Emoji_Component}]' 可以匹配绝大多数的emoji.
+&#13;
+但我的需求是, 删除基本所有的emoji, 但又需要保留特定的几个. 这种需求怎么写比较简洁 而且又不太影响性能?
+&#13;
+在stackoverflow上 搜到类型问题的答案是 用所谓的negtive lookahead 
+&#13;
+ 比如写成这样
+&#13;
+ r'(?![这里写需要忽略的表情字符])[\p{Emoji_Presentation}\p{Emoji_Component}]' 
+&#13;
+试了下似乎可用 但据说lookahead啥的挺影响性能? 有没有更快的方法呢?</description>
+      <content:encoded><![CDATA[<p><b>fengmenglong: </b><br>
+<span>在python中 如何过滤emoji字符(同时忽略指定的几个)?</span><br>
+<span>emoji的范围太乱了, 自己写range太复杂, 估计肯定会遗漏.</span><br>
+<span>然后在网上找到了最新版的regex包, 说这个支持unicode property匹配, 试了下确实好使, 比如说r'[\p{Emoji_Presentation}\p{Emoji_Component}]' 可以匹配绝大多数的emoji.</span><br>
+<span>但我的需求是, 删除基本所有的emoji, 但又需要保留特定的几个. 这种需求怎么写比较简洁 而且又不太影响性能?</span><br>
+<span>在stackoverflow上 搜到类型问题的答案是 用所谓的negtive lookahead </span><br>
+<span> 比如写成这样</span><br>
+<span> r'(?![这里写需要忽略的表情字符])[\p{Emoji_Presentation}\p{Emoji_Component}]' </span><br>
+<span>试了下似乎可用 但据说lookahead啥的挺影响性能? 有没有更快的方法呢?</span><br>
+</p><p><b>直刺苍穹的光: </b><br>
+<span>你都用Python了，还在乎性能吗？</span><br>
+<span>—— 来自 HUAWEI NXT-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>直刺苍穹的光 发表于 2019-10-15 12:54</span><br>
+<span>你都用Python了，还在乎性能吗？</span><br>
+<span>—— 来自 HUAWEI NXT-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1 ...</span><br>
+<span>regex好像是c写的模块 性能不算差吧 当然我也不是处理海量数据 要是没有更好的办法 就凑活这么用了</span><br>
+</p><p><b>yueyue2002: </b><br>
+<span>re.sub 可以用函数为参数，你想怎么规定替换逻辑都可以。</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>emoji才多少个, 打表就是了, 不比正则快?</span><br>
+</p><p><b>jctc: </b><br>
+<span>fengmenglong 发表于 2019-10-15 12:59</span><br>
+<span>regex好像是c写的模块 性能不算差吧 当然我也不是处理海量数据 要是没有更好的办法 就凑活这么用了 ...</span><br>
+<span>Python的正则性能是所有主流语言里面最烂的。JS的正则是我benchmark的最好的正则。</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>嗜睡者 发表于 2019-10-15 13:06</span><br>
+<span>emoji才多少个, 打表就是了, 不比正则快?</span><br>
+<span>3700+ </span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>yueyue2002 发表于 2019-10-15 13:01</span><br>
+<span>re.sub 可以用函数为参数，你想怎么规定替换逻辑都可以。</span><br>
+<span>这也是个思路 替换的时候忽略指定的那几个</span><br>
+<span>只是这样得多维护一份替换规则了 </span><br>
+</p><p><b>闷吸: </b><br>
+<span>我的建议是能不用正则的情况尽量不用正则。</span><br>
+<span>以后逻辑有改难，维护难，后人看不懂，写到最后自己也看不懂</span><br>
+</p><p><b>zhangciwu: </b><br>
+<span> 本帖最后由 zhangciwu 于 2019-10-15 14:48 编辑 </span><br>
+<span>来给你一份code：</span><br>
+<span>去掉所有字母数字，但是保留A、B、C</span><br>
+<span>原理：只替换括号里匹配的内容，前面的会被忽略掉</span><br>
+<span>参考：http://www.rexegg.com/regex-best-trick.htmlimport re</span><br>
+<span>subject = 'ABCDEF'</span><br>
+<span>regex = re.compile(r'A|B|C|(\w)')</span><br>
+<span># Task 5: Replace the matches</span><br>
+<span>def myreplacement(m):</span><br>
+<span>    if m.group(1):</span><br>
+<span>      return ""</span><br>
+<span>    else:</span><br>
+<span>      return m.group(0)</span><br>
+<span>replaced = regex.sub(myreplacement, subject)</span><br>
+<span>print("\n" + "*** Replacements ***")</span><br>
+<span>print(replaced)</span><br>
+<span>运行结果：*** Replacements ***</span><br>
+<span>ABC</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>fengmenglong 发表于 2019-10-15 14:05</span><br>
+<span>3700+</span><br>
+<span>把所有需要删除的 emoji 加入到一个 set 中, 然后按字符遍历字符串判断是不是在 set 中就是了, 这样性能应该是最好的, 3700+ emoji 也没多少内存</span><br>
+</p><p><b>相互理解: </b><br>
+<span>据说个屁，你测了吗？有多影响性能？改进后省下的总时间真的比浪费掉的时间多吗？</span><br>
+</p><p><b>Fireblossom: </b><br>
+<span>pip里有一个emoji包你可以瞅一眼</span><br>
+<span>— from Xiaomi Mi MIX 2, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859565[0-50]</guid>
+    </item>
+  </channel>
+</rss>

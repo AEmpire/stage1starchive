@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[linux]如何监控sas硬盘状态?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[linux]如何监控sas硬盘状态?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:57:16 +0000</lastBuildDate>
+    <item>
+      <title>[linux]如何监控sas硬盘状态?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837837-1-1.html</link>
+      <description>[linux]如何监控sas硬盘状态?&#13;
+ 本帖最后由 塔奇克马 于 2019-6-8 13:56 编辑 
+
+debian 
+&#13;
+sas2008 IT模式
+&#13;
+https://i.loli.net/2019/06/08/5cfb3d3b67d1340654.png
+&#13;
+sas 3T 硬盘
+&#13;
+以前用的sata硬盘接在上面,smart都可以读到,作死弄了快sas盘玩玩,结果发现读不到了.
+&#13;
+所以我想需要写一个监控脚本,但是没有什么能用的
+&#13;
+megacli不能用,大概是因为不是IR固件
+&#13;
+SAS2IRCU可以用但是输出不了smart/error 日志
+&#13;
+windows上有工具 硬盘哨兵 smart 可以随便读,但是我不能用windows去做宿主机,也不会把这个卡直通给guest.
+&#13;
+那么有啥工具吗?
+&#13;
+现在能用的命令
+&#13;
+smartctl -H/dev/sdc
+&#13;
+smartctl -l selftest/dev/sdc
+&#13;
+smartctl -t short/dev/sdc
+&#13;
+....等等</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>[linux]如何监控sas硬盘状态?</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-6-8 13:56 编辑 </span><br>
+<span>debian </span><br>
+<span>sas2008 IT模式</span><br>
+<img src="https://i.loli.net/2019/06/08/5cfb3d3b67d1340654.png" title="https://i.loli.net/2019/06/08/5cfb3d3b67d1340654.png"><br>
+<span>sas 3T 硬盘</span><br>
+<span>以前用的sata硬盘接在上面,smart都可以读到,作死弄了快sas盘玩玩,结果发现读不到了.</span><br>
+<span>所以我想需要写一个监控脚本,但是没有什么能用的</span><br>
+<span>megacli不能用,大概是因为不是IR固件</span><br>
+<span>SAS2IRCU可以用但是输出不了smart/error 日志</span><br>
+<span>windows上有工具 硬盘哨兵 smart 可以随便读,但是我不能用windows去做宿主机,也不会把这个卡直通给guest.</span><br>
+<span>那么有啥工具吗?</span><br>
+<span>现在能用的命令</span><br>
+<span>smartctl -H/dev/sdc</span><br>
+<span>smartctl -l selftest/dev/sdc</span><br>
+<span>smartctl -t short/dev/sdc</span><br>
+<span>....等等</span><br>
+</p><p><b>扶她大鸡鸡: </b><br>
+<span>Megacli 过时了，请用storcli</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>扶她大鸡鸡 发表于 2019-6-9 12:12</span><br>
+<span>Megacli 过时了，请用storcli</span><br>
+<span>/opt/MegaRAID/storcli/storcli64 show ctrlcount</span><br>
+<span>Status Code = 0</span><br>
+<span>Status = Success</span><br>
+<span>Description = None</span><br>
+<span>Controller Count = 0</span><br>
+<span>下了5.6不认</span><br>
+</p><p><b>扶她大鸡鸡: </b><br>
+<span>塔奇克马 发表于 2019-6-9 12:29</span><br>
+<span>下了5.6不认</span><br>
+<span>如果是root都不显示的话的确不行了，我也遇到过某些raid卡不认</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-6-9 17:03 编辑 </span><br>
+<span>扶她大鸡鸡 发表于 2019-6-9 16:57</span><br>
+<span>如果是root都不显示的话的确不行了，我也遇到过某些raid卡不认</span><br>
+<span>那完了,没办法看smart的话,</span><br>
+<span>不知道smartctl检测出来的</span><br>
+<span>=== START OF READ SMART DATA SECTION ===</span><br>
+<span>SMART Health Status: OK</span><br>
+<span>还靠不靠谱了.</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>服务器？</span><br>
+<span>hp dell都有自己的专门工具的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>赤色彗星SEXY 发表于 2019-6-10 23:23</span><br>
+<span>服务器？</span><br>
+<span>hp dell都有自己的专门工具的</span><br>
+<span>主板自带的sas2008 IR bios 资料丢失 不能用了,我刷的9211 IT</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837837[0-50]</guid>
+    </item>
+  </channel>
+</rss>

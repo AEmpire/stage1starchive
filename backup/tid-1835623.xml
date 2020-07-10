@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下关于lightroom数据迁移和共享的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下关于lightroom数据迁移和共享的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:10:41 +0000</lastBuildDate>
+    <item>
+      <title>请教一下关于lightroom数据迁移和共享的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835623-1-1.html</link>
+      <description>请教一下关于lightroom数据迁移和共享的问题&#13;
+我相片的处理一直是在我的mbp上完成的（原因是因为2015款自带sd读卡器），目前空间已经不够了，我在想把图片数据都给拷出来同时能满足一下两点，一个是数据迁移，第二个是多台电脑可以同步数据库和照片，都能进行操作
+&#13;
+目前的方案有两个，一个是我有台白群晖，把数据存在NAS上，虚拟一个ISCSI盘用来存照片以及数据库文件，这个问题是一旦把笔电带出门是否就抓瞎了
+&#13;
+第二个方案是买一个移动固态硬盘存照片，然后把数据库文件保存在我的坚果云盘里，这样也能保证每台电脑都可以进行编辑
+&#13;
+目前还没落实操作，破处区大神指点一下哪种方案可行性更好？</description>
+      <content:encoded><![CDATA[<p><b>hurtwind: </b><br>
+<span>请教一下关于lightroom数据迁移和共享的问题</span><br>
+<span>我相片的处理一直是在我的mbp上完成的（原因是因为2015款自带sd读卡器），目前空间已经不够了，我在想把图片数据都给拷出来同时能满足一下两点，一个是数据迁移，第二个是多台电脑可以同步数据库和照片，都能进行操作</span><br>
+<span>目前的方案有两个，一个是我有台白群晖，把数据存在NAS上，虚拟一个ISCSI盘用来存照片以及数据库文件，这个问题是一旦把笔电带出门是否就抓瞎了</span><br>
+<span>第二个方案是买一个移动固态硬盘存照片，然后把数据库文件保存在我的坚果云盘里，这样也能保证每台电脑都可以进行编辑</span><br>
+<span>目前还没落实操作，破处区大神指点一下哪种方案可行性更好？</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>我一般不备份数据库，设置里面开启XMP文件，同时备份图片和XMP，恢复的时候重新导入一遍。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835623[0-50]</guid>
+    </item>
+  </channel>
+</rss>

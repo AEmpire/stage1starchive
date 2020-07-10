@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WIN7自动更新以后引导不进去了，F8无效，如何破</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>WIN7自动更新以后引导不进去了，F8无效，如何破</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:49:39 +0000</lastBuildDate>
+    <item>
+      <title>WIN7自动更新以后引导不进去了，F8无效，如何破[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839071-1-1.html</link>
+      <description>WIN7自动更新以后引导不进去了，F8无效，如何破&#13;
+ 本帖最后由 蓝泽玲 于 2019-6-13 22:12 编辑 
+
+没有关闭自动更新我傻逼。
+&#13;
+电脑是ubuntu+win7，grub引导。2年来相安无事。
+&#13;
+晚上win7自动更新，重启以后登陆账户蓝屏，自动重启后无限黑屏闪小光标
+&#13;
+F8无效，无法进入高级启动选项菜单
+&#13;
+除了重装以外还有救吗？
+&#13;
+追加信息：
+&#13;
+grub里两个系统都有。ubuntu能进很流畅。
+&#13;
+-----------------------------------------------------------------------------------------------------
+&#13;
+用Boot-Repair修复了全部引导区以后成功进了windows
+&#13;
+https://help.ubuntu.com/community/Boot-Repair赞美Yann
+&#13;
+进完windows赫然弹出"你是盗版软件受害者"
+&#13;
+翻出序列号激活完现在正常用了
+&#13;
+不知道阿三在13号的安全更新里放了什么</description>
+      <content:encoded><![CDATA[<p><b>蓝泽玲: </b><br>
+<span>WIN7自动更新以后引导不进去了，F8无效，如何破</span><br>
+<span> 本帖最后由 蓝泽玲 于 2019-6-13 22:12 编辑 </span><br>
+<span>没有关闭自动更新我傻逼。</span><br>
+<span>电脑是ubuntu+win7，grub引导。2年来相安无事。</span><br>
+<span>晚上win7自动更新，重启以后登陆账户蓝屏，自动重启后无限黑屏闪小光标</span><br>
+<span>F8无效，无法进入高级启动选项菜单</span><br>
+<span>除了重装以外还有救吗？</span><br>
+<span>追加信息：</span><br>
+<span>grub里两个系统都有。ubuntu能进很流畅。</span><br>
+<span>-----------------------------------------------------------------------------------------------------</span><br>
+<span>用Boot-Repair修复了全部引导区以后成功进了windows</span><br>
+<span>https://help.ubuntu.com/community/Boot-Repair赞美Yann</span><br>
+<span>进完windows赫然弹出"你是盗版软件受害者"</span><br>
+<span>翻出序列号激活完现在正常用了</span><br>
+<span>不知道阿三在13号的安全更新里放了什么</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-13 06:03 编辑 </span><br>
+<span>怎么搞的dual boot? (dual boot 是邪道)</span><br>
+<span>在第一个硬盘装 win 然后再有 win 的情况下下装 ubuntu 用 grub 选择系统? </span><br>
+<span>可以尝试再 PE 下用 DiskGenius 只(!)重建第引导硬盘(HD0)的 mbr</span><br>
+</p><p><b>kabunsan: </b><br>
+<span>不用重装win，重装linux就行吧？这个方法最“简单”</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>foraiur: </b><br>
+<span>ubuntu能进吗，不能的话grub能手动选择引导吗，不能的话用u盘引导下吧</span><br>
+<span>我之前arch和win10，win10升级后grub错误，手动进arch重建引导的</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>foraiur 发表于 2019-6-13 09:48</span><br>
+<span>ubuntu能进吗，不能的话grub能手动选择引导吗，不能的话用u盘引导下吧</span><br>
+<span>我之前arch和win10，win10升级后grub ...</span><br>
+<span>ubuntu能进啊</span><br>
+</p><p><b>橋白: </b><br>
+<span>我是装系统的时候直接拆了一块硬盘 用主板boot切换启动....粗暴直接...</span><br>
+</p><p><b>两个路人: </b><br>
+<span>瘟7光盘引导进去修复系统。系统修完再重建grub引导。</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>谢谢楼上各位提供思路. 我用ubuntu下的引导区修复工具修好了.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839071[0-50]</guid>
+    </item>
+  </channel>
+</rss>

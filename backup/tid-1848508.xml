@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3700X全核锁4.3，似乎不太成功。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>3700X全核锁4.3，似乎不太成功。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:50:15 +0000</lastBuildDate>
+    <item>
+      <title>3700X全核锁4.3，似乎不太成功。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848508-1-1.html</link>
+      <description>3700X全核锁4.3，似乎不太成功。&#13;
+ 本帖最后由 失身招领处 于 2019-7-23 08:33 编辑 
+
+1.4V，Fpu，6秒，92℃，蓝屏
+
+1.45V，Fpu，30秒，96℃，黑屏（疑似撞温度墙）
+
+1.4725v，Fpu，46秒，102℃，黑屏（疑似撞温度墙）
+
+散热Ibe-e，主板450迫击炮。
+
+cpuz跑分4.3G，全核大概比pbo高不到5%。单核提升略微可忽略。</description>
+      <content:encoded><![CDATA[<p><b>失身招领处: </b><br>
+<span>3700X全核锁4.3，似乎不太成功。</span><br>
+<span> 本帖最后由 失身招领处 于 2019-7-23 08:33 编辑 </span><br>
+<span>1.4V，Fpu，6秒，92℃，蓝屏</span><br>
+<span>1.45V，Fpu，30秒，96℃，黑屏（疑似撞温度墙）</span><br>
+<span>1.4725v，Fpu，46秒，102℃，黑屏（疑似撞温度墙）</span><br>
+<span>散热Ibe-e，主板450迫击炮。</span><br>
+<span>cpuz跑分4.3G，全核大概比pbo高不到5%。单核提升略微可忽略。</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span> 本帖最后由 宮脇咲良 于 2019-7-23 09:05 编辑 </span><br>
+<span>siliconlottery都只有4.15的卖 你还想随便一摸就上4.3吗</span><br>
+</p><p><b>PPB3008: </b><br>
+<span>你这是遇到雷了？我1.404v拉4.3除了温度92烤fpu一直很稳啊</span><br>
+</p><p><b>雪影: </b><br>
+<span>你们都什么散热啊，92度好高</span><br>
+<span>降压能降温么？我只需要全核4.0就行</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>雪影 发表于 2019-7-23 09:13</span><br>
+<span>你们都什么散热啊，92度好高</span><br>
+<span>降压能降温么？我只需要全核4.0就行</span><br>
+<span>楼上什么散热不知道。</span><br>
+<span>我那个差不多接近风冷的极限。我少装了一个风扇。装上可能还能低个两三度吧。</span><br>
+<span>全核4.0G，挺容易的。一两百的块的散热器足够了。</span><br>
+<span>我这套4.1,FPU5分钟也就80度出头。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>确实是这样恶性循环的</span><br>
+<span>温度高同频需要的电压就高，电压一高温度就更高，依次循环</span><br>
+<span>我这里烤FPU没两分钟就Tdie超85降频，电压加一点直接显示90+然后卡死（Tctl=Tdie+27，已飞天</span><br>
+<span>银箭IB-E我也有，和水冷差距还是较大。。。</span><br>
+</p><p><b>xsummer: </b><br>
+<span>雪影 发表于 2019-7-23 09:13</span><br>
+<span>你们都什么散热啊，92度好高</span><br>
+<span>降压能降温么？我只需要全核4.0就行</span><br>
+<span>全核4.0太简单了……怕是烤机都不超过70</span><br>
+</p><p><b>jszzone: </b><br>
+<span>问个事，超的话主板供电8pin貌似不太够是吧</span><br>
+<span>昨天超3600</span><br>
+<span>1.4v 4.3g 起不来</span><br>
+<span>1.4v 4.2g fpu蓝屏</span><br>
+<span>1.35v 4.15g fpu ok 玩废渣蓝屏</span><br>
+<span>内存也只能3066，3200都上不去</span><br>
+<span>花驰3600 主板是华擎x470 sli</span><br>
+<span>（我怎么就买了个这么块丐板）</span><br>
+<span>然后电源还是多年前旧机器的海韵，只有8pin的12v，要玩还得换电源……</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>jszzone 发表于 2019-7-23 11:52</span><br>
+<span>问个事，超的话主板供电8pin貌似不太够是吧</span><br>
+<span>昨天超3600</span><br>
+<span>1.4v 4.3g 起不来</span><br>
+<span>8pin肯定够了。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>jszzone 发表于 2019-7-23 11:52</span><br>
+<span>问个事，超的话主板供电8pin貌似不太够是吧</span><br>
+<span>昨天超3600</span><br>
+<span>1.4v 4.3g 起不来</span><br>
+<span>应该不是电源或主板8pin供电或VRM的问题，3600毕竟只有六核</span><br>
+<span>zen2功耗不大，主要是密度大了面积小，温度难压</span><br>
+<span>尝试在1.35V压得住FPU的这个电压节点降频一点吧，反正最小步幅25MHz，一点点试</span><br>
+</p><p><b>ft5555: </b><br>
+<span>建议超频的还是小心 我3700x就跑了下pbo+200的fpu测试 温度90。然后这U就挂了。进系统就重启，安装系统也黑屏重启</span><br>
+<span>感觉zen2 不耐操</span><br>
+</p><p><b>七里由馬: </b><br>
+<span>4.375能过压力测试一直用也没问题但是吃鸡各种出错，老实PBO不折腾了</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>ft5555 发表于 2019-7-23 12:27</span><br>
+<span>建议超频的还是小心 我3700x就跑了下pbo+200的fpu测试 温度90。然后这U就挂了。进系统就重启，安装系统也黑 ...</span><br>
+<span>90℃就挂不科学。</span><br>
+<span>是温度显示值的锅吗？</span><br>
+</p><p><b>ft5555: </b><br>
+<span>失身招领处 发表于 2019-7-23 13:05</span><br>
+<span>90℃就挂不科学。</span><br>
+<span>是温度显示值的锅吗？</span><br>
+<span>开始以为是主板问题更换了一次，现在换新的cpu现在还在路上</span><br>
+<span>7月8号买的首发 到今天一共用了不到3个小时。。。</span><br>
+</p><p><b>PPB3008: </b><br>
+<span>这也能挂的？ 确定不是bios哪里弄错了吗 </span><br>
+</p><p><b>jszzone: </b><br>
+<span>失身招领处 发表于 2019-7-23 12:14</span><br>
+<span>8pin肯定够了。</span><br>
+<span>被垃圾bios折磨的蛋疼，反正换显卡的话要换大电源，今天下了个振华1000w的准备先换上去</span><br>
+<span>再tm超不上去换微星ace了……我就不明白现在的华擎怎么这么坑了</span><br>
+<span>另外开机自检确实非常慢，超不上去的时候2700x会自己断电再检默频进系统。</span><br>
+<span>换了3600之后超不上去也只会一直黑屏不会断电自启</span><br>
+</p><p><b>ft5555: </b><br>
+<span>新u到手发现这个单烤fpu不是最热aida64 默认勾选的一起跑才热。。。跟intel的不一样。。。</span><br>
+</p><p><b>orecheng: </b><br>
+<span> 本帖最后由 orecheng 于 2019-7-23 23:56 编辑 </span><br>
+<span>我败家之眼 1.4v 4.4ghz烤鸡稳定 60多度还想再超就蓝屏</span><br>
+<span>楼主你九十多度怕不是用了原装信仰散热器，我t400全核烤鸡就60几</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848508[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 关于移动和前端开发请教些问题]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1944497.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1944497.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 关于移动和前端开发请教些问题 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 10:37:42 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[关于移动和前端开发请教些问题 #6]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=47983568&ptid=1944497" target="_blank"><font color="#999999">kll85757 发表于 2020-6-28 13:12</font></a></font><br>
+我是实践派，虚构一个需求出来然后设计界面来实现，比如我现在觉得市面上的骑行app不好用，我要开发一个给 ...</blockquote></div><br>
+我也是这么想的：必须自己做demo做严肃的Project才能真正掌握一门语言/框架，刷题只是提高算法和数据结构基本功，而看书或者跟着书上、视频上的例子敲代码看完不用要不了多久就会忘，只有自己做东西碰到问题然后想着解决才能真正掌握，之前用安卓的多线程问题就因为asynctask和handler不同写法的比较和适应场景扣了两星期才勉强搞懂，以及你说的后台service容易被杀，怎么用前台service解决的问题（碰巧做个类似的APP，你是用一个专门的与地图API的前台服务开runnable子线程解决的吗？比如这个负责监听地图API返回结果的线程通过message或者post()通知UI线程更新UI；AsyncTask一般是一次性任务）<br>
+<br>
+<br>
+]]></description>
+            <pubDate>Thu, 02 Jul 2020 13:54:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=48041597</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=48041597</link>
+            
+            
+            
+            <author><![CDATA[KaneL]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[关于移动和前端开发请教些问题 #5]]></title>
+            <description><![CDATA[我是实践派，虚构一个需求出来然后设计界面来实现，比如我现在觉得市面上的骑行app不好用，我要开发一个给自己用，中途肯定会遇到障碍，怎么样锁屏下让进程不被杀掉，还要让gps持续记录，还要跟地图api交互，然后去找解法，这样你就会无形间逼着自己接触了若干技术。<br>
+<br>
+这样日后遇到同样的问题，场景记忆可以让你迅速的想起来，我那个时候是这么干的，比看书看视频听别人讲都来的牢固，理论学习的阶段到记住常用语法就结束了，接下来就是上手写东西，遇到问题再去查漏补缺]]></description>
+            <pubDate>Sun, 28 Jun 2020 05:12:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47983568</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47983568</link>
+            
+            
+            
+            <author><![CDATA[kll85757]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[关于移动和前端开发请教些问题 #4]]></title>
+            <description><![CDATA[第二行代码？不是出了第三行代码了吗，用kotlin重写<img src="https://static.saraba1st.com/image/smiley/face2017/037.png" smilieid="691" border="0" alt referrerpolicy="no-referrer"><br>
+个人对移动端没啥兴趣，买了书还没看。<br>
+我就是个垃圾前端，来看看大佬的学习方法。<br>
+想做一个不写网页的前端，想做可视化、音视频直播 、nodejs bff层，不知道怎么迈开步。。。]]></description>
+            <pubDate>Sun, 28 Jun 2020 04:19:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982905</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982905</link>
+            
+            
+            
+            <author><![CDATA[奥古斯都]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[关于移动和前端开发请教些问题 #3]]></title>
+            <description><![CDATA[你们程序员都这个作息的吗太可怕了<br>
+前端的未来属于flutter 右转dart把<br>
+好好的后端不做转前端干啥 前端都在往后端跑<br>
+<br>
+—— 来自 HUAWEI MHA-AL00, Android 9上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.2.1]]></description>
+            <pubDate>Sun, 28 Jun 2020 04:15:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982857</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982857</link>
+            
+            
+            
+            <author><![CDATA[zievod]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[关于移动和前端开发请教些问题 #2]]></title>
+            <description><![CDATA[框架性的看各种 admin 项目呗<br>
+<br>
+—— 来自 Xiaomi Redmi K30 5G, Android 10上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.2.1]]></description>
+            <pubDate>Sun, 28 Jun 2020 03:55:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982592</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944497&#38;pid=47982592</link>
+            
+            
+            
+            <author><![CDATA[aithinkso]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

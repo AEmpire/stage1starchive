@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农归外野？cookie问题交流，python入门到放弃</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农归外野？cookie问题交流，python入门到放弃</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:18:11 +0000</lastBuildDate>
+    <item>
+      <title>码农归外野？cookie问题交流，python入门到放弃[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853670-1-1.html</link>
+      <description>码农归外野？cookie问题交流，python入门到放弃&#13;
+ 本帖最后由 脑洞 于 2019-8-15 18:42 编辑 
+
+这周突然有个想法，开个兴趣使然的小网站，需要实时爬去网络上的价格信息，于是学习python，爬了几个目标都搞定了，然后被一个卡住了（https://shop.coles.com.au/a/a-national/everything/search/nappies）
+&#13;
+虽然拿F12找来的访问curl command转一下是可以爬，但是过段时间就过期了，显然是不符合目标的，
+&#13;
+研究了很久感觉是cookie问题，想换个session法从进网站开始，首页过了，但是到了搜索页，连request都不给，回我429(过多请求)？
+&#13;
+奇怪的是用浏览器清空了cookie是可以成功上去的，而且第一条request里面就包含两条信息了，JK_pli,MK_iplz，还贼长，
+&#13;
+以我过去对cookie的理解，应该第一个request时，cookie还是空的，response回来，setcookie的信息加进来，cookie就越来越多，多来回几次一直增加
+&#13;
+不过通过抓包，发现就算其他我想爬的网站，也是清空了cookie之后，第一次访问，第一个request里面就自动有几条信息了，也不知道是哪儿来的呀
+&#13;
+于是我禁用了浏览器的cookie功能，不给读写，再刷搜索页就变成打不开了，
+&#13;
+页面打不开，就这几条，无限刷新，这个j.js和f.js长得就不像什么好人，想看看这两位干了啥，闪个不停，点都点不上去，
+&#13;
+话说这两位正常浏览的时候应该也有吧，为啥从抓包里看不到呢？
+&#13;
+查了一会资料，感觉只能搞个selenium试试了，但是很不甘心呀
+&#13;
+以上背景，问题：
+&#13;
+1、浏览器在清空cookie的情况下，第一次request就带了cookie信息出去，这是谁给的呢，能通过看js源码找到破解方法吗？
+&#13;
+2、怎样才能看到那两条js呢？
+&#13;
+3、如果还有好多js在写入cookie，我不去全破掉的话，就只有selenium这个出路了吗？</description>
+      <content:encoded><![CDATA[<p><b>脑洞: </b><br>
+<span>码农归外野？cookie问题交流，python入门到放弃</span><br>
+<span> 本帖最后由 脑洞 于 2019-8-15 18:42 编辑 </span><br>
+<span>这周突然有个想法，开个兴趣使然的小网站，需要实时爬去网络上的价格信息，于是学习python，爬了几个目标都搞定了，然后被一个卡住了（https://shop.coles.com.au/a/a-national/everything/search/nappies）</span><br>
+<span>虽然拿F12找来的访问curl command转一下是可以爬，但是过段时间就过期了，显然是不符合目标的，</span><br>
+<span>研究了很久感觉是cookie问题，想换个session法从进网站开始，首页过了，但是到了搜索页，连request都不给，回我429(过多请求)？</span><br>
+<span>奇怪的是用浏览器清空了cookie是可以成功上去的，而且第一条request里面就包含两条信息了，JK_pli,MK_iplz，还贼长，</span><br>
+<span>以我过去对cookie的理解，应该第一个request时，cookie还是空的，response回来，setcookie的信息加进来，cookie就越来越多，多来回几次一直增加</span><br>
+<span>不过通过抓包，发现就算其他我想爬的网站，也是清空了cookie之后，第一次访问，第一个request里面就自动有几条信息了，也不知道是哪儿来的呀</span><br>
+<span>于是我禁用了浏览器的cookie功能，不给读写，再刷搜索页就变成打不开了，</span><br>
+<span>页面打不开，就这几条，无限刷新，这个j.js和f.js长得就不像什么好人，想看看这两位干了啥，闪个不停，点都点不上去，</span><br>
+<span>话说这两位正常浏览的时候应该也有吧，为啥从抓包里看不到呢？</span><br>
+<span>查了一会资料，感觉只能搞个selenium试试了，但是很不甘心呀</span><br>
+<span>以上背景，问题：</span><br>
+<span>1、浏览器在清空cookie的情况下，第一次request就带了cookie信息出去，这是谁给的呢，能通过看js源码找到破解方法吗？</span><br>
+<span>2、怎样才能看到那两条js呢？</span><br>
+<span>3、如果还有好多js在写入cookie，我不去全破掉的话，就只有selenium这个出路了吗？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>https://aiohttp.readthedocs.io/en/stable/client_advanced.html#cookie-jar</span><br>
+<span>看看这个能用不</span><br>
+</p><p><b>董卓: </b><br>
+<span>1、浏览器在清空cookie的情况下，第一次request就带了cookie信息出去，这是谁给的呢，能通过看js源码找到破解方法吗？</span><br>
+<span>不要想太多破解什么的，找规律先，第一次和第二次和第二次刷新和第三次之间到底差了哪里，如果只是刷新怎么加cookie，找规律先。看混淆js烦。</span><br>
+<span>2、怎样才能看到那两条js呢？</span><br>
+<span>没看到你说的两条</span><br>
+<span>3、如果还有好多js在写入cookie，我不去全破掉的话，就只有selenium这个出路了吗？</span><br>
+<span>能够分析出cookie前后规律（不一定很难，看看多次到底怎么变再说咯）单独管理下cookie继续http发也是可以的。</span><br>
+<span>当然没这心思烦不过，又不需要考虑效率，selenium、casperjs之类的上吧</span><br>
+</p><p><b>Awekos: </b><br>
+<span>Coles的价格一周一变 不需要实时吧</span><br>
+</p><p><b>董松松松: </b><br>
+<span>2. network tab 有一个 preserve log，勾上就能看到了</span><br>
+</p><p><b>脑洞: </b><br>
+<span>Awekos 发表于 2019-8-15 18:53</span><br>
+<span>Coles的价格一周一变 不需要实时吧</span><br>
+<span>每周爬一次全部自己存下来给用户查吗，这个想法也不错</span><br>
+</p><p><b>千羽宸: </b><br>
+<span>不仅是cookie，还有localstroage等等</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853670[0-50]</guid>
+    </item>
+  </channel>
+</rss>

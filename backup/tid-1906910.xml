@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZT:拆解一个不完整的客机发动机转速表</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZT:拆解一个不完整的客机发动机转速表</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:59 +0000</lastBuildDate>
+    <item>
+      <title>ZT:拆解一个不完整的客机发动机转速表[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906910-1-1.html</link>
+      <description>ZT:拆解一个不完整的客机发动机转速表&#13;
+https://weibo.com/ttarticle/p/show?id=2309404455825384013951#_0
+&#13;
+​​本文罗老师2020年1月1日发布于数码之家，2020年1月1日授权我转载到微博                     本文共计76P，已全部替换为无水印原图不得不感慨时间过得真快，转眼间到2020年，掐指一算快两年没在站上发帖了。为了证明自己还活着，趁新年炒炒冷饭，发一个两年前拆解的客机引擎转速表~
+&#13;
+首先解释下此次涉及到的涡扇发动机原理。[以下图片来自网络]
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1gagpfms63ej20zk0k01kx.jpg
+&#13;
+涡扇发动机由涡喷发动机演变而来。传统涡喷发动机只包含一组涡轮，通过燃料在燃烧室中燃烧做功带动涡轮旋转。由于涡喷发动机的排气气流速度很高，因此在飞行器低速飞行时，效率较低，对于如亚音速客机这样的应用场景显然不是很划算。因此工程师研发了涡扇发动机，在涡喷发动机的基础上增加了一组低压涡轮(图中黑色部分)。低压涡轮由高压涡轮(图中红色部分)产生的高速气流驱动，同时带动发动机最前方的风扇旋转。这样，一方面减小了发动机排气速度，另一方面，风扇的一部分气流不经过发动机燃烧室，而直接通过燃烧室外侧的通道(称为外涵道)向后送出，进一步增大了推力，提高了发动机整体效率。
+&#13;
+通常情况下，涡扇发动机的低压涡轮和高压涡轮同轴，但转速不同。因此客机发动机的转速也被分为N1(低压转速)和N2(高压转速)。部分发动机甚至包含第三级涡轮，因此也会有N3转速。
+&#13;
+本次拆解的是一个积家制造的N1转速表(对，就是做手表那个积家)，多年前便宜淘来，估计作为拆机备件，内部缺失不少部件，但看上去还算完整。
+&#13;
+说起积家，多数人大概只会想到他们的奢侈品手表。但早在一次世界大战期间，积家就开始了飞机仪表的设计与生产。由于质量优秀，据称一些德国飞机甚至会装备从法国/美国等飞机上拆解的仪表。战后，积家继续仪表这条产品线，为飞行器和汽车生产诸如转速表等设备。这样看来，他们为客机制造转速表也不足为奇了。不过后续这条产品线发展如何网上的资料似乎很少，我也就不再展开了。下面开始拆解。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5osap3j212w0q04qp.jpg外观
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5rlonrj212w0q07wh.jpg
+&#13;
+仪表面板，看似很袖珍，宽度不超过60mm
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5ujj8hj212w0q01kx.jpg
+&#13;
+然而长度。。。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5x4ynmj212w0q01kx.jpg
+&#13;
+仪表后部航空插座，铭牌已经丢掉了
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5zg2xrj212w0q0b29.jpg小心翼翼抽出机芯
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp6218tgj212w0q0b29.jpg
+&#13;
+明显看出，表头部分少了两个电机，可惜
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp64unyij212w0q0hdt.jpg
+&#13;
+完全抽出的机芯，可以看到电子部分由多层电路板构成，前面是航空铝合金材质的表头
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp67347pj212w0q0u0x.jpg
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6ad6bsj212w0q0u0x.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1gagp6drt5xj212w0q0qv5.jpg
+&#13;
+多个角度
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6gkfdej212w0q0e81.jpg
+&#13;
+仪表底部支撑结构，为增加强度同时减重，加工了若干凹槽，同时做了阳极氧化
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp6ktzcmj212w0q0x6p.jpg
+&#13;
+电子部分
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6na5bvj212w0q0x6p.jpg
+&#13;
+取下一个模块。
+&#13;
+可以看到模块上基本都是陶瓷封装的小规模集成电路，生产于1980年左右。此时的航电设备正处在机械式到电子的过渡时期。由于显示技术和通讯总线技术还不成熟，此时的仪表往往采用模拟信号，由电路处理后再通过一些特殊的机电显示器件，以比较接近传统机械式仪表的指针/转轮等方式呈现。
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6puh1fj212w0q04qq.jpg
+&#13;
+取出所有电路板，没想到这么多，难怪仪表这么长
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6slr2yj212w0q0hdt.jpg
+&#13;
+模块上的镀金连接器，用来连接底板上的排针
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6upu5rj212w0q0kjl.jpg
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6xrmd3j212w0q0e81.jpg
+&#13;
+某一小模块，上面有一个金属壳继电器
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp70b9z2j212w0q0kjl.jpg
+&#13;
+为节省体积，两个电路板叠起来，中间还有集成电路
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp735xqnj212w0q0kjl.jpg
+&#13;
+模块反面有序列号和版本信息。积家的Logo与现今几乎一致
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp75rshcj212w0q0u0x.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp78k8koj212w0q0npd.jpg
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp7cae03j212w0q07wi.jpg
+&#13;
+另一模块，上面固定有散热片。取下后可见到两个功率三极管。仪表里有两个这样的模块，估计是电机驱动电路
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp7emkmaj212w0q0npd.jpg
+&#13;
+三极管型号
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7v4oboj212w0q0u0x.jpg
+&#13;
+反面
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7zmbvwj212w0q0u0x.jpg
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp81t2ubj212w0q0qv5.jpg
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8582r2j212w0q01ky.jpg
+&#13;
+第三块电路板，白色很显眼的芯片其实是一个模拟开关。金属罐子是运放
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp89p1mzj212w0q0qv5.jpg
+&#13;
+反面
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8d6e1yj212w0q0x6p.jpg
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp8g5umuj212w0q0qv5.jpg
+&#13;
+电源板，上面有一个巨大的变压器
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagp8ijkvjj212w0q0hdt.jpg
+&#13;
+三颗巨大的钽电容，或许发烧玄学家会喜欢
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1gagp8ksz9bj212w0q0x6p.jpghttps://wx4.sinaimg.cn/large/7406e5bcgy1gagpa6fenhj212w0q0b2a.jpg第五块板，HAI-4741是一个四运放，其他是一些数字电路
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagp96bxhzj212w0q01ky.jpg
+&#13;
+第六块板，也包含模拟和数字电路
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagpamqzlbj212w0q01ky.jpg
+&#13;
+一堆模拟电路，挺好看的
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpape0ccj212w0q0u0x.jpg
+&#13;
+板子上最大的IC是一个任意数分频器，估计是用来计转动圈数并控制其他电路进行某些转换
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpatjacuj212w0q0000.jpg
+&#13;
+反面
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpavyl7zj212w0q0qv5.jpg
+&#13;
+最后一块板，全部是数字电路，用来驱动表头上的数字滚轮
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpay68y0j212w0q0u0x.jpg
+&#13;
+晶振
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpb0q80sj212w0q0qv5.jpg
+&#13;
+又有一个分频器
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpb2w8tuj212w0q0hdt.jpg
+&#13;
+三个铁罐似乎是驱动
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagpb5i67xj212w0q01ky.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1gagpb82oywj212w0q0u0x.jpg
+&#13;
+反面
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbb4hrwj212w0q0b2a.jpg
+&#13;
+所有电路板全家福
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbg4j63j212w0q0qv5.jpg
+&#13;
+空底板，后面有个电源滤波器
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpbjdmw9j212w0q0u0x.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1gagpblm54oj212w0q0u0x.jpg
+&#13;
+下面拆下表头和支撑结构。支撑结构做工很好，表面相交处全加工成了圆角，令人舒适
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbo4ex6j212w0q0hdt.jpg
+&#13;
+底板连接表头的连接器
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbqtzrfj212w0q0hdt.jpg
+&#13;
+表头
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbszxpyj212w0q0kjl.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbvbrcbj212w0q0kjl.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbxpb2aj212w0q0hdt.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpc0e8mgj212w0q0hdt.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpc2mxrlj212w0q0kjl.jpg
+&#13;
+几个方向看，没有电机太可惜了，无法演示
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagpc51hh7j212w0q0npd.jpg
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpc7gabtj212w0q0x6p.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcat5w1j212w0q0b29.jpg
+&#13;
+表盘玻璃，看似很普通，其实是两片一边薄一边厚的玻璃叠成。没猜错的话应该是用于折射照明灯的光线，使得表盘亮度均匀
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpcddnh0j212w0q0x6p.jpg
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagpchjhb9j212w0q0qv5.jpg
+&#13;
+开关组件
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcjzxgxj212w0q0e81.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpdxpgvbj212w0q0kjl.jpg
+&#13;
+表头屁股里的一堆东西
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpe09ec4j212w0q0npd.jpg
+&#13;
+FPC和金属齿轮
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpe30yi3j212w0q0u0x.jpg
+&#13;
+一颗线性度很高的电位器，用于检测指针位置，通过反馈电路控制驱动指针旋转的电机
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpeie5hsj212w0q0e81.jpg
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gagpel8ys0j212w0q0npd.jpg
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gagpewtxhlj212w0q0qv5.jpg
+&#13;
+这个小部件在上点后会抬起数字指示前方的黄色标记，断电后自动落下，用于指示仪表运行状态，防止飞行员在仪表故障或断电情况下读出错误数值
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gagpezn5dej212w0q0hdt.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf21dmjj212w0q0kjl.jpg
+&#13;
+下面到了最有意思的环节。这个表的数字表头用的竟然不是老式电表上的机械式滚轮，而是一种叫magnetic wheel display的电磁式指示器
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf539lmj212w0q0kjl.jpg
+&#13;
+模块化设计
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf7dtg8j212w0q0npd.jpg
+&#13;
+表头也产自积家
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf9onn4j212w0q0hdt.jpg
+&#13;
+连接器
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gagpfc1spdj212w0q0qv5.jpg
+&#13;
+显示器件的连接器，共6根针。其实这玩意大致就是一个步进电机，一共有5个绕组，对应五个角度。给某一个绕组通电，滚轮就会转到相应的数字。如果反向通电，则会转到与之相差180度方向上的数字。从而实现0-9共10个数字的显示。由于这种显示方式与传统的机械滚轮外观类似，且在日光直射时相比于当时其他显示技术，可读性好很多，因此在那个时代的航电设备中常有应用。如今，这种显示器件，乃至整个驾驶舱的显示设备，都已经逐渐被液晶屏替代。虽说看上去更具科技感，功能也更为强大，但与传统的机械显示比起来，似乎也少了不少味道。少的这点味道，或许就是机械时代遗留下来的情怀吧?
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1gagpffrd5xj212w0q0npd.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1gagpfifhugj212w0q0e81.jpg最后一张壁纸图，希望大家喜欢。但愿文章能给大家带来一些知识，如果有错误也请多多指教。顺祝各位新年快乐~
+&#13;
+--Finish--​​​​</description>
+      <content:encoded><![CDATA[<p><b>哈里.谢顿: </b><br>
+<span>ZT:拆解一个不完整的客机发动机转速表</span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404455825384013951#_0</span><br>
+<span>​​本文罗老师2020年1月1日发布于数码之家，2020年1月1日授权我转载到微博                     本文共计76P，已全部替换为无水印原图不得不感慨时间过得真快，转眼间到2020年，掐指一算快两年没在站上发帖了。为了证明自己还活着，趁新年炒炒冷饭，发一个两年前拆解的客机引擎转速表~</span><br>
+<span>首先解释下此次涉及到的涡扇发动机原理。[以下图片来自网络]</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1gagpfms63ej20zk0k01kx.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1gagpfms63ej20zk0k01kx.jpg"><br>
+<span>涡扇发动机由涡喷发动机演变而来。传统涡喷发动机只包含一组涡轮，通过燃料在燃烧室中燃烧做功带动涡轮旋转。由于涡喷发动机的排气气流速度很高，因此在飞行器低速飞行时，效率较低，对于如亚音速客机这样的应用场景显然不是很划算。因此工程师研发了涡扇发动机，在涡喷发动机的基础上增加了一组低压涡轮(图中黑色部分)。低压涡轮由高压涡轮(图中红色部分)产生的高速气流驱动，同时带动发动机最前方的风扇旋转。这样，一方面减小了发动机排气速度，另一方面，风扇的一部分气流不经过发动机燃烧室，而直接通过燃烧室外侧的通道(称为外涵道)向后送出，进一步增大了推力，提高了发动机整体效率。</span><br>
+<span>通常情况下，涡扇发动机的低压涡轮和高压涡轮同轴，但转速不同。因此客机发动机的转速也被分为N1(低压转速)和N2(高压转速)。部分发动机甚至包含第三级涡轮，因此也会有N3转速。</span><br>
+<span>本次拆解的是一个积家制造的N1转速表(对，就是做手表那个积家)，多年前便宜淘来，估计作为拆机备件，内部缺失不少部件，但看上去还算完整。</span><br>
+<span>说起积家，多数人大概只会想到他们的奢侈品手表。但早在一次世界大战期间，积家就开始了飞机仪表的设计与生产。由于质量优秀，据称一些德国飞机甚至会装备从法国/美国等飞机上拆解的仪表。战后，积家继续仪表这条产品线，为飞行器和汽车生产诸如转速表等设备。这样看来，他们为客机制造转速表也不足为奇了。不过后续这条产品线发展如何网上的资料似乎很少，我也就不再展开了。下面开始拆解。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5osap3j212w0q04qp.jpg外观</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5rlonrj212w0q07wh.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5rlonrj212w0q07wh.jpg"><br>
+<span>仪表面板，看似很袖珍，宽度不超过60mm</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5ujj8hj212w0q01kx.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp5ujj8hj212w0q01kx.jpg"><br>
+<span>然而长度。。。</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5x4ynmj212w0q01kx.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5x4ynmj212w0q01kx.jpg"><br>
+<span>仪表后部航空插座，铭牌已经丢掉了</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gagp5zg2xrj212w0q0b29.jpg小心翼翼抽出机芯</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp6218tgj212w0q0b29.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp6218tgj212w0q0b29.jpg"><br>
+<span>明显看出，表头部分少了两个电机，可惜</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp64unyij212w0q0hdt.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp64unyij212w0q0hdt.jpg"><br>
+<span>完全抽出的机芯，可以看到电子部分由多层电路板构成，前面是航空铝合金材质的表头</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp67347pj212w0q0u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp67347pj212w0q0u0x.jpg"><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6ad6bsj212w0q0u0x.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6ad6bsj212w0q0u0x.jpg"><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1gagp6drt5xj212w0q0qv5.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1gagp6drt5xj212w0q0qv5.jpg"><br>
+<span>多个角度</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6gkfdej212w0q0e81.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6gkfdej212w0q0e81.jpg"><br>
+<span>仪表底部支撑结构，为增加强度同时减重，加工了若干凹槽，同时做了阳极氧化</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp6ktzcmj212w0q0x6p.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp6ktzcmj212w0q0x6p.jpg"><br>
+<span>电子部分</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6na5bvj212w0q0x6p.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6na5bvj212w0q0x6p.jpg"><br>
+<span>取下一个模块。</span><br>
+<span>可以看到模块上基本都是陶瓷封装的小规模集成电路，生产于1980年左右。此时的航电设备正处在机械式到电子的过渡时期。由于显示技术和通讯总线技术还不成熟，此时的仪表往往采用模拟信号，由电路处理后再通过一些特殊的机电显示器件，以比较接近传统机械式仪表的指针/转轮等方式呈现。</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6puh1fj212w0q04qq.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp6puh1fj212w0q04qq.jpg"><br>
+<span>取出所有电路板，没想到这么多，难怪仪表这么长</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6slr2yj212w0q0hdt.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6slr2yj212w0q0hdt.jpg"><br>
+<span>模块上的镀金连接器，用来连接底板上的排针</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6upu5rj212w0q0kjl.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp6upu5rj212w0q0kjl.jpg"><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6xrmd3j212w0q0e81.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1gagp6xrmd3j212w0q0e81.jpg"><br>
+<span>某一小模块，上面有一个金属壳继电器</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp70b9z2j212w0q0kjl.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp70b9z2j212w0q0kjl.jpg"><br>
+<span>为节省体积，两个电路板叠起来，中间还有集成电路</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp735xqnj212w0q0kjl.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp735xqnj212w0q0kjl.jpg"><br>
+<span>模块反面有序列号和版本信息。积家的Logo与现今几乎一致</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp75rshcj212w0q0u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp75rshcj212w0q0u0x.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp78k8koj212w0q0npd.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp78k8koj212w0q0npd.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp7cae03j212w0q07wi.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp7cae03j212w0q07wi.jpg"><br>
+<span>另一模块，上面固定有散热片。取下后可见到两个功率三极管。仪表里有两个这样的模块，估计是电机驱动电路</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp7emkmaj212w0q0npd.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp7emkmaj212w0q0npd.jpg"><br>
+<span>三极管型号</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7v4oboj212w0q0u0x.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7v4oboj212w0q0u0x.jpg"><br>
+<span>反面</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7zmbvwj212w0q0u0x.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagp7zmbvwj212w0q0u0x.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp81t2ubj212w0q0qv5.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp81t2ubj212w0q0qv5.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8582r2j212w0q01ky.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8582r2j212w0q01ky.jpg"><br>
+<span>第三块电路板，白色很显眼的芯片其实是一个模拟开关。金属罐子是运放</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp89p1mzj212w0q0qv5.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp89p1mzj212w0q0qv5.jpg"><br>
+<span>反面</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8d6e1yj212w0q0x6p.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagp8d6e1yj212w0q0x6p.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp8g5umuj212w0q0qv5.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp8g5umuj212w0q0qv5.jpg"><br>
+<span>电源板，上面有一个巨大的变压器</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp8ijkvjj212w0q0hdt.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagp8ijkvjj212w0q0hdt.jpg"><br>
+<span>三颗巨大的钽电容，或许发烧玄学家会喜欢</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1gagp8ksz9bj212w0q0x6p.jpghttps://wx4.sinaimg.cn/large/7406e5bcgy1gagpa6fenhj212w0q0b2a.jpg第五块板，HAI-4741是一个四运放，其他是一些数字电路</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp96bxhzj212w0q01ky.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagp96bxhzj212w0q01ky.jpg"><br>
+<span>第六块板，也包含模拟和数字电路</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpamqzlbj212w0q01ky.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpamqzlbj212w0q01ky.jpg"><br>
+<span>一堆模拟电路，挺好看的</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpape0ccj212w0q0u0x.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpape0ccj212w0q0u0x.jpg"><br>
+<span>板子上最大的IC是一个任意数分频器，估计是用来计转动圈数并控制其他电路进行某些转换</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpatjacuj212w0q0000.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpatjacuj212w0q0000.jpg"><br>
+<span>反面</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpavyl7zj212w0q0qv5.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpavyl7zj212w0q0qv5.jpg"><br>
+<span>最后一块板，全部是数字电路，用来驱动表头上的数字滚轮</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpay68y0j212w0q0u0x.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpay68y0j212w0q0u0x.jpg"><br>
+<span>晶振</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpb0q80sj212w0q0qv5.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpb0q80sj212w0q0qv5.jpg"><br>
+<span>又有一个分频器</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpb2w8tuj212w0q0hdt.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpb2w8tuj212w0q0hdt.jpg"><br>
+<span>三个铁罐似乎是驱动</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpb5i67xj212w0q01ky.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpb5i67xj212w0q01ky.jpg"><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1gagpb82oywj212w0q0u0x.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1gagpb82oywj212w0q0u0x.jpg"><br>
+<span>反面</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbb4hrwj212w0q0b2a.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbb4hrwj212w0q0b2a.jpg"><br>
+<span>所有电路板全家福</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbg4j63j212w0q0qv5.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbg4j63j212w0q0qv5.jpg"><br>
+<span>空底板，后面有个电源滤波器</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpbjdmw9j212w0q0u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpbjdmw9j212w0q0u0x.jpg"><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1gagpblm54oj212w0q0u0x.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1gagpblm54oj212w0q0u0x.jpg"><br>
+<span>下面拆下表头和支撑结构。支撑结构做工很好，表面相交处全加工成了圆角，令人舒适</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbo4ex6j212w0q0hdt.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbo4ex6j212w0q0hdt.jpg"><br>
+<span>底板连接表头的连接器</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbqtzrfj212w0q0hdt.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbqtzrfj212w0q0hdt.jpg"><br>
+<span>表头</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbszxpyj212w0q0kjl.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpbszxpyj212w0q0kjl.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbvbrcbj212w0q0kjl.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbvbrcbj212w0q0kjl.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbxpb2aj212w0q0hdt.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpbxpb2aj212w0q0hdt.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpc0e8mgj212w0q0hdt.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpc0e8mgj212w0q0hdt.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpc2mxrlj212w0q0kjl.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpc2mxrlj212w0q0kjl.jpg"><br>
+<span>几个方向看，没有电机太可惜了，无法演示</span><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpc51hh7j212w0q0npd.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpc51hh7j212w0q0npd.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpc7gabtj212w0q0x6p.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpc7gabtj212w0q0x6p.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcat5w1j212w0q0b29.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcat5w1j212w0q0b29.jpg"><br>
+<span>表盘玻璃，看似很普通，其实是两片一边薄一边厚的玻璃叠成。没猜错的话应该是用于折射照明灯的光线，使得表盘亮度均匀</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpcddnh0j212w0q0x6p.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpcddnh0j212w0q0x6p.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpchjhb9j212w0q0qv5.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpchjhb9j212w0q0qv5.jpg"><br>
+<span>开关组件</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcjzxgxj212w0q0e81.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpcjzxgxj212w0q0e81.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpdxpgvbj212w0q0kjl.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpdxpgvbj212w0q0kjl.jpg"><br>
+<span>表头屁股里的一堆东西</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpe09ec4j212w0q0npd.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpe09ec4j212w0q0npd.jpg"><br>
+<span>FPC和金属齿轮</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpe30yi3j212w0q0u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpe30yi3j212w0q0u0x.jpg"><br>
+<span>一颗线性度很高的电位器，用于检测指针位置，通过反馈电路控制驱动指针旋转的电机</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpeie5hsj212w0q0e81.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpeie5hsj212w0q0e81.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpel8ys0j212w0q0npd.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gagpel8ys0j212w0q0npd.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpewtxhlj212w0q0qv5.jpg" title="http://wx2.sinaimg.cn/large/7406e5bcgy1gagpewtxhlj212w0q0qv5.jpg"><br>
+<span>这个小部件在上点后会抬起数字指示前方的黄色标记，断电后自动落下，用于指示仪表运行状态，防止飞行员在仪表故障或断电情况下读出错误数值</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpezn5dej212w0q0hdt.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gagpezn5dej212w0q0hdt.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf21dmjj212w0q0kjl.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf21dmjj212w0q0kjl.jpg"><br>
+<span>下面到了最有意思的环节。这个表的数字表头用的竟然不是老式电表上的机械式滚轮，而是一种叫magnetic wheel display的电磁式指示器</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf539lmj212w0q0kjl.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf539lmj212w0q0kjl.jpg"><br>
+<span>模块化设计</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf7dtg8j212w0q0npd.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf7dtg8j212w0q0npd.jpg"><br>
+<span>表头也产自积家</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf9onn4j212w0q0hdt.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpf9onn4j212w0q0hdt.jpg"><br>
+<span>连接器</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpfc1spdj212w0q0qv5.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gagpfc1spdj212w0q0qv5.jpg"><br>
+<span>显示器件的连接器，共6根针。其实这玩意大致就是一个步进电机，一共有5个绕组，对应五个角度。给某一个绕组通电，滚轮就会转到相应的数字。如果反向通电，则会转到与之相差180度方向上的数字。从而实现0-9共10个数字的显示。由于这种显示方式与传统的机械滚轮外观类似，且在日光直射时相比于当时其他显示技术，可读性好很多，因此在那个时代的航电设备中常有应用。如今，这种显示器件，乃至整个驾驶舱的显示设备，都已经逐渐被液晶屏替代。虽说看上去更具科技感，功能也更为强大，但与传统的机械显示比起来，似乎也少了不少味道。少的这点味道，或许就是机械时代遗留下来的情怀吧?</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1gagpffrd5xj212w0q0npd.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1gagpffrd5xj212w0q0npd.jpg"><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1gagpfifhugj212w0q0e81.jpg最后一张壁纸图，希望大家喜欢。但愿文章能给大家带来一些知识，如果有错误也请多多指教。顺祝各位新年快乐~</span><br>
+<span>--Finish--​​​​</span><br>
+</p><p><b>光荣的小学生: </b><br>
+<span>老电子产品真有意思</span><br>
+<span>以前的全模拟的控制器，做得五花八门，现在都不剩了，连基层仪表自带的单回路控制也是用单片机了</span><br>
+</p><p><b>tenco: </b><br>
+<span>对比90年代的游戏机主板</span><br>
+<span>感受到了成本的差距</span><br>
+<span>游戏机的工艺精度差不多要到PS3世代才能赶上它</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>tenco 发表于 2020-1-1 12:49</span><br>
+<span>对比90年代的游戏机主板</span><br>
+<span>感受到了成本的差距</span><br>
+<span>游戏机的工艺精度差不多要到PS3世代才能赶上它</span><br>
+<span>话说书记，之前这个PO主拆70年代计算机的体文字我艾特你，你尽然没注意……</span><br>
+</p><p><b>1943: </b><br>
+<span>谢谢楼主分享！</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sdhf028397: </b><br>
+<span>机械和纯电过渡时期的产品，很有味道</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>装引擎的石头：N1、N2、N3的描述有点问题，一般发动机有高压转子和低压转子，分别对应转速N1、N2，部分发动机比如RB211、TRENT就是三转子：高压转子、中压转子、低压转子，分别对应转速N1、N2、N3。这里是转子，不是单说涡轮，转子包含压气机、涡轮，以前连接它们的轴。</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>鹅球怎么看不见一楼</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>有口皆悲 发表于 2020-1-1 13:01</span><br>
+<span>鹅球怎么看不见一楼</span><br>
+<span>网页也是，谁知道发生了什么？</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>哈里.谢顿 发表于 2020-1-1 13:03</span><br>
+<span>网页也是，谁知道发生了什么？</span><br>
+<span>S1娘被砍头了。</span><br>
+</p><p><b>蠕动: </b><br>
+<span>这么有趣的拆解帖子，一定要留言一下，拆坛也有两年多没去了…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>jzsgtx: </b><br>
+<span>老电路好看，还有机械结构也是</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906910[0-50]</guid>
+    </item>
+  </channel>
+</rss>

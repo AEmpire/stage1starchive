@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于转码软件MediaCdoer和其他软件的一些疑问</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于转码软件MediaCdoer和其他软件的一些疑问</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:11:39 +0000</lastBuildDate>
+    <item>
+      <title>关于转码软件MediaCdoer和其他软件的一些疑问[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864146-1-1.html</link>
+      <description>关于转码软件MediaCdoer和其他软件的一些疑问&#13;
+ 本帖最后由 九耳 于 2019-11-7 17:59 编辑 
+
+自己太菜用不来FFMPEG，又有大批量的视频要转特定的码率以压缩体积。（主要就是把H264压成H265。视频大概19000个左右，每天持续增加10-30个）。
+&#13;
+总而言之遇到几个问题。
+&#13;
+1、我自己用的MEDIACODER专业版的破解版，但是似乎保留了原来队列只能放50个文件的问题。这个有谁用过，能解决嘛。。。
+&#13;
+2、用Adobe media Encoder 虽然能解决队列问题，但是nvenc的支持好像基本是0。转码速度不理想。
+&#13;
+3、我现在的需求是想换要么能解决队列数量问题，要么找个替代品，转码速度理想（支持图灵的nvenc），能大批量指定到某个码率或者某个文件体积。。。如果能解决我愿意共享我的硬盘资源
+&#13;
+/试了一下shanacoder，虽然队列是无限了，但是转了大概20+个以后会停在转码速度0上、、、、
+&#13;
+/求别劝我买硬盘————已经没有硬盘位了。。</description>
+      <content:encoded><![CDATA[<p><b>九耳: </b><br>
+<span>关于转码软件MediaCdoer和其他软件的一些疑问</span><br>
+<span> 本帖最后由 九耳 于 2019-11-7 17:59 编辑 </span><br>
+<span>自己太菜用不来FFMPEG，又有大批量的视频要转特定的码率以压缩体积。（主要就是把H264压成H265。视频大概19000个左右，每天持续增加10-30个）。</span><br>
+<span>总而言之遇到几个问题。</span><br>
+<span>1、我自己用的MEDIACODER专业版的破解版，但是似乎保留了原来队列只能放50个文件的问题。这个有谁用过，能解决嘛。。。</span><br>
+<span>2、用Adobe media Encoder 虽然能解决队列问题，但是nvenc的支持好像基本是0。转码速度不理想。</span><br>
+<span>3、我现在的需求是想换要么能解决队列数量问题，要么找个替代品，转码速度理想（支持图灵的nvenc），能大批量指定到某个码率或者某个文件体积。。。如果能解决我愿意共享我的硬盘资源</span><br>
+<span>/试了一下shanacoder，虽然队列是无限了，但是转了大概20+个以后会停在转码速度0上、、、、</span><br>
+<span>/求别劝我买硬盘————已经没有硬盘位了。。</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>没硬盘位这个好解决</span><br>
+</p><p><b>九耳: </b><br>
+<span>czgzxc 发表于 2019-11-7 16:40</span><br>
+<span>没硬盘位这个好解决</span><br>
+<span>30个硬盘已经塞满了。。。</span><br>
+</p><p><b>傲游: </b><br>
+<span>megui 加 x265？</span><br>
+<span>不过真的会很慢</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2019-11-7 17:00 编辑 </span><br>
+<span>ffmpeg的gui挺多的，不过你这个一次走50个太夸张了，而且稳定性也不能保证啊。Adobe有个编码插件voukoder我记不得能不能被mc调动了，你试试看。</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>九耳 发表于 2019-11-7 16:50</span><br>
+<span>30个硬盘已经塞满了。。。</span><br>
+<span>再买一台存储机iscsi映射过去讲道理，要不要试试小丸工具箱，我记得好像看见过批量压制的选项就是不知道好不好用</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>你这命令行才是最终归宿，ffmpeg直接去下官网编译好的的windows(看样子应该是win吧)二进制文件就行了</span><br>
+<span>然后不就是敲命令完事了吗？</span><br>
+<span>ffmpeg -i <INPUT> -c:v hevc_nvenc -rc vbr -b:v <BITRATE> -c:a copy <OUTPUT></span><br>
+<span>然后用一门脚本语言检测是否有ffmpeg进程在，没有的话就启动下一行命令你看，是不是超级无敌简单的？</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>lz这是干什么的</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>若荼泱 发表于 2019-11-7 17:45</span><br>
+<span>lz这是干什么的</span><br>
+<span>澳门首家上线啦？</span><br>
+</p><p><b>九耳: </b><br>
+<span>lwa190212 发表于 2019-11-7 17:14</span><br>
+<span>你这命令行才是最终归宿，ffmpeg直接去下官网编译好的的windows(看样子应该是win吧)二进制文件就行了</span><br>
+<span>然后 ...</span><br>
+<span>我研究研究</span><br>
+</p><p><b>九耳: </b><br>
+<span>若荼泱 发表于 2019-11-7 17:45</span><br>
+<span>lz这是干什么的</span><br>
+<span> 那什么，澳XX场收集怪</span><br>
+</p><p><b>九耳: </b><br>
+<span>依然荏苒 发表于 2019-11-7 16:59</span><br>
+<span>ffmpeg的gui挺多的，不过你这个一次走50个太夸张了，而且稳定性也不能保证啊。Adobe有个编码插件voukoder我 ...</span><br>
+<span>一次50个我是觉得不够，才来求办法的。。。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>九耳 发表于 2019-11-7 17:53</span><br>
+<span>那什么，澳XX场收集怪</span><br>
+<span>想起了那个传2000T A片到亚马逊无限云结果逼亚马逊关了无限云服务的兄弟</span><br>
+</p><p><b>九耳: </b><br>
+<span>若荼泱 发表于 2019-11-7 17:55</span><br>
+<span>想起了那个传2000T A片到亚马逊无限云结果逼亚马逊关了无限云服务的兄弟</span><br>
+<span>我只有300T，没那么夸张。。</span><br>
+</p><p><b>九耳: </b><br>
+<span>czgzxc 发表于 2019-11-7 17:00</span><br>
+<span>再买一台存储机iscsi映射过去讲道理，要不要试试小丸工具箱，我记得好像看见过批量压制的选项 ...</span><br>
+<span>[f:068那个批量不是很好用</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>九耳 发表于 2019-11-7 17:51</span><br>
+<span>我研究研究</span><br>
+<span>用ffmpeg -hide_banner -h encoder=hevc_nvenc查看可以使用的参数</span><br>
+<span>不用ffmpeg还有nvencc可用，而且过去几年看到的帖子都认为预设下nvencc比ffmpeg同码率质量高一些，原理我就不知道了</span><br>
+<span>推荐vbr+开启aq参数，不担心播放设备的问题就用main10的profile</span><br>
+<span>如果你还在使用cmd.exe的话可以试试conemu，或者cmder，不管是补全还是历史记录或是环境管理都是质的飞跃</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>lwa190212 发表于 2019-11-7 18:16</span><br>
+<span>用ffmpeg -hide_banner -h encoder=hevc_nvenc查看可以使用的参数</span><br>
+<span>不用ffmpeg还有nvencc可用，而且过去几 ...</span><br>
+<span>conemu只是个前端吧，命令补全和它应该没关系</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>commanderyuri 发表于 2019-11-7 19:02</span><br>
+<span>conemu只是个前端吧，命令补全和它应该没关系</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>啊我是指cmder，还附带一套git，自带了clink补全</span><br>
+<span>conemu的话要自己配置</span><br>
+</p><p><b>Sza: </b><br>
+<span>歪个楼，就想问一下楼主有没有在补锌</span><br>
+</p><p><b>nb33: </b><br>
+<span>大方向就有问题，Turing NVENC的H265效果和H264是一样的，压缩比非常低，以至于NVENC的H265根本就不能用来缩小体积。</span><br>
+<span>AME的压制是CPU压制，效果比NVENC好得多，不过最好还是直接用x264和x265。</span><br>
+</p><p><b>chachi: </b><br>
+<span>很想求下楼主的目录</span><br>
+</p><p><b>两个路人: </b><br>
+<span>计算机 - 右键 - 属性 - 高级系统设置 - 高级 - 环境变量 - 系统变量</span><br>
+<span>找到变量名PATH，编辑，没有就新建</span><br>
+<span>变量值：在最前部添加FFMPEG所在目录的本机绝对路径，结尾加“;”。例如：“D:\Program Files (x86)\ffmpeg;”</span><br>
+<span>下面代码复制到任意文本编辑器里，添删修改参数，存个bat批处理，运行就是了。会自动把目标目录下指定扩展名文件，转成mkv。</span><br>
+<span>@Echo off</span><br>
+<span>for /R "处理目录绝对路径" %%a in (*.文件扩展名) do (</span><br>
+<span>rem echo %%a</span><br>
+<span>rem echo %%~da</span><br>
+<span>rem echo %%~pa</span><br>
+<span>rem echo %%~na</span><br>
+<span>rem echo %%~xa</span><br>
+<span>rem echo %%~za</span><br>
+<span>rem echo %%~ta</span><br>
+<span>rem echo %%~dpa</span><br>
+<span>rem echo %%~nxa</span><br>
+<span>rem echo %%~pnxa</span><br>
+<span>rem echo %%~dpna</span><br>
+<span>rem echo %%~dpnxa</span><br>
+<span>ffmpeg -i "%%a" -acodec copy -s hd1080 -sws_flags lanczos -c:v hevc_nvenc -preset medium -profile:v main10 -rc constqp -global_quality 25 -pix_fmt p010le -y "%%~na."mkv</span><br>
+<span>)</span><br>
+<span>pause</span><br>
+<span>大概解释一下的话</span><br>
+<span>画面调整参数，不调整的可删</span><br>
+<span>-s控制画幅，可接受hd480、hd720、hd1080、2k、4k等等</span><br>
+<span>-sws_flags控制缩放算法，常用有Lanczos、bicubic和spline</span><br>
+<span>-c:v指定视频编码</span><br>
+<span>-preset指定预设(?)，可接受slow、medium（默认值）等</span><br>
+<span>-profile:v 指定方案，可接受main和main10</span><br>
+<span>-rc 指定码率控制方式，可接受vbr、cbr、vbr_hq、cbr_hq和constqp等。老黄的NVENC的设计方向是实时编码传送，本质上就只有恒码率（有限变码率）和恒QP两种方式，没有x264的crf恒质量这种方便的玩意儿</span><br>
+<span>如果你选constqp，那么后面接-global_quality选择qp值，不过这个控制方式好像已经被ffmpeg列成不推荐开关了，新版本有没有移除就不知道了</span><br>
+<span>如果你选其他的，那么后面接-b:v指定码率，ffmpeg的这个值的单位是bit/s，和x264默认的kbit/s不同。支持缩略写法，比如3000k这样</span><br>
+<span>-pix_fmt 指像素格式，可接受yuv420p（420采样的8bit）、p010le（420采样的10bit）、p016le（420采样的16bit，老黄卡应该没有支持这个）、yuv444p16le（444采样的10bit）等</span><br>
+<span>这个涉及色彩空间转换等一系列转换，不排除程序员把转换公式写错的可能（比如，x264刚刚引入10bit的时候就出过8bit转10bit，位数填充错误的问题）。然而就像之前所说，老黄的卡设计目的就是实时编码传送（比如，流媒体），速度快是其最大特点，质量往往需要提高码率/减qp去覆盖细节丢失的问题，压缩率其实不是很理想。我之前用GTX1050跑下来看，HEVC main10 10bit 420要比H264好看不少，但是远没有x264的crf好看。但是如果画面往4K或者8K发展，就不太好说了。毕竟老黄卡处理速度快到吓死人，画幅大幅度增加的情况下丢点细节很难看出来（banding之类的问题要看片源）。理论上，444采样应该效果会更好，但是当时并没有设备能硬解（帕斯卡能压，但是不能硬解），搞出来基本只能给程序内部处理用。</span><br>
+<span>瘟逗死的ffmpeg编译完的版本可以去https://ffmpeg.zeranoe.com/builds/找。但是，你得看他的README，查编译进去的nv-codec-headers调用的是哪一个版本的SDK。当时我测的时候，老黄家的SDK是要完全匹配的。这个SDK和显卡驱动程序又是绑在一起的。比如你的显卡驱动支持的SDK是8.1，那FFMPEG就要往里面编译8.1的SDK，高了或者低了都直接报错。不太清楚现在有没有实现驱动高SDK，FFMPEG低SDK也能运行的情况。</span><br>
+</p><p><b>ohi: </b><br>
+<span>Megui</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-11-8 08:10 编辑 </span><br>
+<span>nb33 发表于 2019-11-7 20:14</span><br>
+<span>大方向就有问题，Turing NVENC的H265效果和H264是一样的，压缩比非常低，以至于NVENC的H265根本就不能用来 ...</span><br>
+<span>图灵的nvenc进步巨大，x265只有极低码率（2k60p小于6Mbps）才有可见优势，x264基本上没有任何质量上的优势。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>两个路人 发表于 2019-11-7 23:14</span><br>
+<span>计算机 - 右键 - 属性 - 高级系统设置 - 高级 - 环境变量 - 系统变量</span><br>
+<span>找到变量名PATH，编辑，没有就新建</span><br>
+<span>变 ...</span><br>
+<span>大佬，你这个连B帧参数都没有，体积肯定大。</span><br>
+</p><p><b>九耳: </b><br>
+<span>两个路人 发表于 2019-11-7 23:14</span><br>
+<span>计算机 - 右键 - 属性 - 高级系统设置 - 高级 - 环境变量 - 系统变量</span><br>
+<span>找到变量名PATH，编辑，没有就新建</span><br>
+<span>变 ...</span><br>
+<span>一百万分的感谢。</span><br>
+</p><p><b>九耳: </b><br>
+<span>chachi 发表于 2019-11-7 20:15</span><br>
+<span>很想求下楼主的目录</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>这个思路才是正确的。按序列重命名文件（这步不知道可不可以省），然后用for循环搞定。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>九耳 发表于 2019-11-8 09:20</span><br>
+<span>一百万分的感谢。</span><br>
+<span>如果显卡是10或者20系，并且在乎体积的话，最好加个B帧参数。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>lixianfyss 发表于 2019-11-8 13:48</span><br>
+<span>如果显卡是10或者20系，并且在乎体积的话，最好加个B帧参数。</span><br>
+<span>帕斯卡nvenc的hevc上没有B帧，Volta GV10x/Turing TU117也没有。只有Turing TU10x/TU116或以上才有（手动狗头</span><br>
+<span>简单讲：GTX1650已被开除出图灵队伍</span><br>
+<span>https://devtalk.nvidia.com/default/topic/1038942/video-codec-and-optical-flow-sdk/does-nvenc-support-b-frames-in-hevc-with-pascal-board-/</span><br>
+<span>https://developer.nvidia.com/video-encode-decode-gpu-support-matrix</span><br>
+</p><p><b>九耳: </b><br>
+<span>两个路人 发表于 2019-11-8 14:08</span><br>
+<span>帕斯卡nvenc的hevc上没有B帧，Volta GV10x/Turing TU117也没有。只有Turing TU10x/TU116或以上才有（手动 ...</span><br>
+<span>我有两块2060，没问题。</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-11-8 15:22 编辑 </span><br>
+<span>两个路人 发表于 2019-11-8 14:08</span><br>
+<span>帕斯卡nvenc的hevc上没有B帧，Volta GV10x/Turing TU117也没有。只有Turing TU10x/TU116或以上才有（手动 ...</span><br>
+<span>所以只有图灵版NVENC才是完全体，今天看的评测表示图灵NVENC的性能基本到顶，不是强迫症基本可以抛弃x264/x265，追求极限质量请用AV1。</span><br>
+<span>盗个图，原版请看https://unrealaussies.com/tech/nvenc-x264-quicksync-qsv-vp9-av1/7/#H265-HEVC-and-offline-encoding</span><br>
+<img src="https://unrealaussies.com/wp-content/uploads/2019/02/Showdown-NVENC-2.jpg" title="https://unrealaussies.com/wp-content/uploads/2019/02/Showdown-NVENC-2.jpg"><br>
+</p><p><b>qwased: </b><br>
+<span>lixianfyss 发表于 2019-11-8 15:18</span><br>
+<span>所以只有图灵版NVENC才是完全体，今天看的评测表示图灵NVENC的性能基本到顶，不是强迫症基本可以抛弃x264/ ...</span><br>
+<span>意思是直接套用x264的压制参数也能获得差不多的效果，不需要再加大码率了吗</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>CHH有个安利帖带部分细节：https://www.chiphell.com/thread-1967622-1-1.html。主要需要更新一下NVENC。</span><br>
+</p><p><b>九耳: </b><br>
+<span>不瞒你说，我已经懵圈了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>qwased 发表于 2019-11-8 15:34</span><br>
+<span>意思是直接套用x264的压制参数也能获得差不多的效果，不需要再加大码率了吗</span><br>
+<span>—— 来自 Xiaomi MI 6, And ...</span><br>
+<span>这是采用了自带preset压到同一个码率的结果</span><br>
+<span>nvenc当然不可能套用x264的压制参数，因为有很多参数nvenc并不支持调整啊</span><br>
+<span>不善于微调的话其实可以按你的说法理解</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>qwased 发表于 2019-11-8 15:34</span><br>
+<span>意思是直接套用x264的压制参数也能获得差不多的效果，不需要再加大码率了吗</span><br>
+<span>—— 来自 Xiaomi MI 6, And ...</span><br>
+<span>NVENC可能没有x264那么细的参数，但就一般的CBR和CQ（约等于CRF）来说绝大多数情况都比x264稍好。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>看了下排比较左边的几个4mbps:</span><br>
+<span>av1_4_cpu3_t4x4_th4 </span><br>
+<span>av1_4_cpu4_4x4_th4 </span><br>
+<span>vp9_4_b3-1</span><br>
+<span>艹，不是都说vp9连x264都打不过吗！</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>也不能这么说 staxrip的nvenc甚至ame都可以设置参数，虽然我没搞懂它的原理。老黄二系图灵真是质的飞跃。</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-11-8 17:55 编辑 </span><br>
+<span>qwased 发表于 2019-11-8 15:34</span><br>
+<span>意思是直接套用x264的压制参数也能获得差不多的效果，不需要再加大码率了吗</span><br>
+<span>—— 来自 Xiaomi MI 6, And ...</span><br>
+<span>不。</span><br>
+<span>首先老黄的NVenc它是面向流媒体设计的，只有恒码率（有限变码）和恒QP。X264打磨那么多年出来的CRF，那是没有的。同时也没有多少给你玩的参数</span><br>
+<span>其次，他这个测试是以2K分辨率的守望屁股为源搞得，面向各种直播平台的环境，恒码最高8M来着</span><br>
+<span>拿来当作普通压片（FHD级的）参考意义不大。你想象一下动辄能飙上40M峰值的RIP，完全不可能拿来数据传输。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>lwa190212 发表于 2019-11-8 16:23</span><br>
+<span>看了下排比较左边的几个4mbps:</span><br>
+<span>av1_4_cpu3_t4x4_th4 </span><br>
+<span>av1_4_cpu4_4x4_th4 </span><br>
+<span>X264把crf拿出来，不论速度和质量，你VP9现在拿头打（破音</span><br>
+<span>然而那个测试只是2pass恒码率（挖鼻</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>两个路人 发表于 2019-11-8 17:47</span><br>
+<span>不。</span><br>
+<span>首先老黄的NVenc它是面向流媒体设计的，只有恒码率（有限变码）和恒QP。X264打磨那么多年出来的CRF ...</span><br>
+<span>现在NVENC的CQ参数约等于x264的CRF。</span><br>
+</p><p><b>moondigi: </b><br>
+<span>谁来给个图灵nvenc高压的参数测试一下？我低码率下试来试去都不如x264</span><br>
+</p><p><b>zihexing: </b><br>
+<span>松鼠病也是病，要治，建议贤者时间一键全盘清空</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>265要压到猴年马月去了，我用24核E5压一路1080p也只能勉强跑30fps的样子，还不稳定</span><br>
+</p><p><b>九耳: </b><br>
+<span>小野賢章 发表于 2019-11-10 01:59</span><br>
+<span>265要压到猴年马月去了，我用24核E5压一路1080p也只能勉强跑30fps的样子，还不稳定 ...</span><br>
+<span>额。nvenc速度很快啊。我现在差不多300fps的样子。</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>九耳 发表于 2019-11-10 11:52</span><br>
+<span>额。nvenc速度很快啊。我现在差不多300fps的样子。</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next- ...</span><br>
+<span>两张2060可以一起跑一个视频吗？</span><br>
+<span>lz现在用什么参数？</span><br>
+</p><p><b>九耳: </b><br>
+<span>lwa190212 发表于 2019-11-10 11:57</span><br>
+<span>两张2060可以一起跑一个视频吗？</span><br>
+<span>lz现在用什么参数？</span><br>
+<span>不，我装了2台电脑分开用的</span><br>
+</p><p><b>两个路人: </b><br>
+<span>lwa190212 发表于 2019-11-10 11:57</span><br>
+<span>两张2060可以一起跑一个视频吗？</span><br>
+<span>lz现在用什么参数？</span><br>
+<span>不能，但是里面有个-gpu的开关，能让用户指定显卡。因此，可以开两个ffmpeg进程，让不同的显卡分别干活。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864146[0-50]</guid>
+    </item>
+  </channel>
+</rss>

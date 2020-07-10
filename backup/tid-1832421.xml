@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>神器get，win10到ipad无限拓展屏幕</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>神器get，win10到ipad无限拓展屏幕</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:30:17 +0000</lastBuildDate>
+    <item>
+      <title>神器get，win10到ipad无限拓展屏幕[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832421-1-1.html</link>
+      <description>神器get，win10到ipad无限拓展屏幕&#13;
+之前试过很多软件，app store一堆几十 好几百的
+&#13;
+duet就不说了，集显独显切换的逻辑看不懂，而且日常各种bug
+&#13;
+还有一些无线的屏幕拓展软件大多只能通过客户端软件连接，延迟也不稳定
+&#13;
+刚刚发现了spacedesk，目前还是beta测试版，不要钱，而且兼容性非常好。Windows平板，安卓平板，iPhone和iPad都可以正常使用
+&#13;
+linux也不要紧，任何一台能运行html5浏览器的设备都可以远程第二屏幕
+&#13;
+更舒服的是，可以复制N台设备的屏幕，有几个客户端就有几个屏幕
+&#13;
+我本人对拓展屏的要求不高，wifi下这个延时看看视频作娱乐屏还是够用了
+&#13;
+https://www.ithome.com/html/it/304461.htm
+&#13;
+转一篇对技术的分析
+&#13;
+远程桌面控制软件大多通过DirectX抓取桌面图像然后压缩处理传输给远程电脑显示。如果有在远程时注意观察任务管理器的之家网友，不难发现除了远程控制软件本身占据着CPU外，DWM的CPU占用率也比平常高不少。
+&#13;
+而今天的主角spacedesk的实现方法则是在系统正式启动完成之前，向Windows系统中注入驱动代码，让系统以为真的插了额外的显示器、键盘、鼠标。这种驱动级的图像抓取方式效率理应比DirectX通过DWM抓取的方式效率更高。</description>
+      <content:encoded><![CDATA[<p><b>feolhn: </b><br>
+<span>神器get，win10到ipad无限拓展屏幕</span><br>
+<span>之前试过很多软件，app store一堆几十 好几百的</span><br>
+<span>duet就不说了，集显独显切换的逻辑看不懂，而且日常各种bug</span><br>
+<span>还有一些无线的屏幕拓展软件大多只能通过客户端软件连接，延迟也不稳定</span><br>
+<span>刚刚发现了spacedesk，目前还是beta测试版，不要钱，而且兼容性非常好。Windows平板，安卓平板，iPhone和iPad都可以正常使用</span><br>
+<span>linux也不要紧，任何一台能运行html5浏览器的设备都可以远程第二屏幕</span><br>
+<span>更舒服的是，可以复制N台设备的屏幕，有几个客户端就有几个屏幕</span><br>
+<span>我本人对拓展屏的要求不高，wifi下这个延时看看视频作娱乐屏还是够用了</span><br>
+<span>https://www.ithome.com/html/it/304461.htm</span><br>
+<span>转一篇对技术的分析</span><br>
+<span>远程桌面控制软件大多通过DirectX抓取桌面图像然后压缩处理传输给远程电脑显示。如果有在远程时注意观察任务管理器的之家网友，不难发现除了远程控制软件本身占据着CPU外，DWM的CPU占用率也比平常高不少。</span><br>
+<span>而今天的主角spacedesk的实现方法则是在系统正式启动完成之前，向Windows系统中注入驱动代码，让系统以为真的插了额外的显示器、键盘、鼠标。这种驱动级的图像抓取方式效率理应比DirectX通过DWM抓取的方式效率更高。</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>我也在用，效果还可以吧</span><br>
+<span>—— 來自 Xiaomi MI 8 SE, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>笔还有一样效果吗</span><br>
+<span>会不会影响桌面主显示器分辨率</span><br>
+</p><p><b>feolhn: </b><br>
+<span>天神十三煞 发表于 2019-5-18 10:38</span><br>
+<span>笔还有一样效果吗</span><br>
+<span>会不会影响桌面主显示器分辨率</span><br>
+<span>笔的话触控功能可以用，但有延时，不建议画画/桌面分辨率不会变，可以单独控制输出分辨率和画质</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>感谢推荐，duet连英伟达显卡冲突这么严重的问题都常年不解决，可见对Windows用户完全不上心。</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>马克一下</span><br>
+</p><p><b>bestword: </b><br>
+<span>更舒服的是，可以复制N台设备的屏幕，有几个客户端就有几个屏幕</span><br>
+<span>这句没看懂</span><br>
+<span>是说平板可以同时连接好几台电脑，然后这好几台电脑的远程屏幕会在平板上像电视墙那样排列？</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span> 本帖最后由 有口皆悲 于 2019-5-18 13:37 编辑 </span><br>
+<span>ios12.3能用吗？我的搜索不到服务器。头次运行app时没有弹出“是否允许联网”的对话框，设置里也找不见这个app的允许访问子菜单。安卓倒是没问题，真牛逼。</span><br>
+</p><p><b>feolhn: </b><br>
+<span> 本帖最后由 feolhn 于 2019-5-18 13:53 编辑 </span><br>
+<span>有口皆悲 发表于 2019-5-18 13:26</span><br>
+<span>ios12.3能用吗？我的搜索不到服务器。头次运行app时没有弹出“是否允许联网”的对话框，设置里也找不见这个 ...</span><br>
+<span>12.2可用 官方的新更新好像还没跟上12.3，可以在store里反应一下</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>mark一下，到时候看看是个什么东西</span><br>
+<span>----发送自 Xiaomi MI 6,Android 8.0.0</span><br>
+</p><p><b>yudongxxb: </b><br>
+<span>mark一下，看着很不错</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>我之前就推荐过了，不过很小众的感觉，都没啥人用。</span><br>
+</p><p><b>ckl80: </b><br>
+<span>有口皆悲 发表于 2019-5-18 13:26</span><br>
+<span>ios12.3能用吗？我的搜索不到服务器。头次运行app时没有弹出“是否允许联网”的对话框，设置里也找不见这个 ...</span><br>
+<span>12.3可以啊</span><br>
+</p><p><b>bluna: </b><br>
+<span>win10只支持到1607吗？ 我1809联不上</span><br>
+</p><p><b>xy2401: </b><br>
+<span>bluna 发表于 2019-5-18 16:35</span><br>
+<span>win10只支持到1607吗？ 我1809联不上</span><br>
+<span>是不是防火墙问题？</span><br>
+</p><p><b>xy2401: </b><br>
+<span>duet 和 Android studio 有冲突 启动不了模拟器spacedesk 用着还不错。</span><br>
+<span>但是我现在新买笔记本了用 微软的无界鼠标 ，一套鼠标键盘控制两台电脑</span><br>
+</p><p><b>bluna: </b><br>
+<span>xy2401 发表于 2019-5-18 16:38</span><br>
+<span>是不是防火墙问题？</span><br>
+<span>防火墙全停了也不行</span><br>
+<span>查了一下诺顿也允许了软件</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>试了一下，挺好玩，可以把我家老平板拿出来发挥下余热了</span><br>
+</p><p><b>真忘私绵: </b><br>
+<span>必须win10么</span><br>
+</p><p><b>pop137133: </b><br>
+<span>真忘私绵 发表于 2019-5-18 18:26</span><br>
+<span>必须win10么</span><br>
+<span>我win8.1也能用</span><br>
+</p><p><b>404489039: </b><br>
+<span>用过老实说用来拓展的话跟PC屏幕大小差太远了，其实没什么用。</span><br>
+</p><p><b>pop137133: </b><br>
+<span>我也在用，不过win8.1貌似不能两个屏幕设置两个不同的文本缩放，ipad这边看着有点糊</span><br>
+</p><p><b>蔡卓妍: </b><br>
+<span>先马克～太棒了</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>bluna 发表于 2019-5-18 17:54</span><br>
+<span>防火墙全停了也不行</span><br>
+<span>查了一下诺顿也允许了软件</span><br>
+<span>我的1809是能用的</span><br>
+</p><p><b>posion: </b><br>
+<span>想法不错</span><br>
+<span>但是试用了一下，延时大的一笔</span><br>
+<span>是不是我家网络过于辣鸡，请教下要流畅运行需要怎样的网络环境？</span><br>
+</p><p><b>拾与拾柒: </b><br>
+<span>iPad Pro 11，始终不能手动添加 IP 啊</span><br>
+</p><p><b>kevinjokerking: </b><br>
+<span>posion 发表于 2019-5-19 17:03</span><br>
+<span>想法不错</span><br>
+<span>但是试用了一下，延时大的一笔</span><br>
+<span>必须5G</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>用的5G</span><br>
+<span>延迟超级严重</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832421[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于PLEX这个工具的整理疑问</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于PLEX这个工具的整理疑问</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:25:33 +0000</lastBuildDate>
+    <item>
+      <title>关于PLEX这个工具的整理疑问[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833197-1-1.html</link>
+      <description>关于PLEX这个工具的整理疑问&#13;
+ 本帖最后由 benjin 于 2019-5-21 17:31 编辑 
+
+自从上了蜗牛的车以后就开始用PLEX这个工具了，不得不说自动抓取信息和海报墙这个真心棒。或许有人觉得跟KODI差不多，但是PLEX有一个最大的优势是支持VR模式啊！直接在VR机器里看片这个简直不要太爽
+&#13;
+说回正题，一般的电影分类用【THE MOVIE DATABASE】这个代理都能搜索到中文的名字和信息这个没问题，动画的话要归类到电视节目这个我也理解，名字设置对的话用【THE MOVIE DATABASE】也能搜索到正确的中文信息，动画的SP一开始我也没办法添加，后来根据这个链接安装了扫面器和HAMA代理后都能正确识别了
+&#13;
+https://www.reddit.com/r/PleX/comments/2yk49z/guide_plex_and_anime_a_guide_to_combining_movies/
+&#13;
+但是到最后问题来了，OVA咋办？用【THE MOVIE DATABASE】的话识别不出OVA的片子。如果这个OVA只有一集的话还好，直接扔到电影里面然后同样用【THE MOVIE DATABASE】就能正确识别到名字，但是如果这OVA有3集，扔到这个分类里面要么不匹配，一旦做了匹配后这个海报墙里面就变成了只有1集，点开播放也只有1集其他2集就失踪了。但是如果扔到电视剧分类里面就只能识别出该剧集的本体而不是OVA了。用这个代理倒是能识别出正确OVA，但是匹配后无论是名字还是介绍都变成英文了，这个问题还有啥解决方法么？
+&#13;
+比如这个，最左边的海门那啥是用HAMATV识别出来的，名字啥都成了英文了。而右边那些都是用THE MOVIE DATABASE识别出来的，无论是名字还是点开的介绍都是中文的</description>
+      <content:encoded><![CDATA[<p><b>benjin: </b><br>
+<span>关于PLEX这个工具的整理疑问</span><br>
+<span> 本帖最后由 benjin 于 2019-5-21 17:31 编辑 </span><br>
+<span>自从上了蜗牛的车以后就开始用PLEX这个工具了，不得不说自动抓取信息和海报墙这个真心棒。或许有人觉得跟KODI差不多，但是PLEX有一个最大的优势是支持VR模式啊！直接在VR机器里看片这个简直不要太爽</span><br>
+<span>说回正题，一般的电影分类用【THE MOVIE DATABASE】这个代理都能搜索到中文的名字和信息这个没问题，动画的话要归类到电视节目这个我也理解，名字设置对的话用【THE MOVIE DATABASE】也能搜索到正确的中文信息，动画的SP一开始我也没办法添加，后来根据这个链接安装了扫面器和HAMA代理后都能正确识别了</span><br>
+<span>https://www.reddit.com/r/PleX/comments/2yk49z/guide_plex_and_anime_a_guide_to_combining_movies/</span><br>
+<span>但是到最后问题来了，OVA咋办？用【THE MOVIE DATABASE】的话识别不出OVA的片子。如果这个OVA只有一集的话还好，直接扔到电影里面然后同样用【THE MOVIE DATABASE】就能正确识别到名字，但是如果这OVA有3集，扔到这个分类里面要么不匹配，一旦做了匹配后这个海报墙里面就变成了只有1集，点开播放也只有1集其他2集就失踪了。但是如果扔到电视剧分类里面就只能识别出该剧集的本体而不是OVA了。用这个代理倒是能识别出正确OVA，但是匹配后无论是名字还是介绍都变成英文了，这个问题还有啥解决方法么？</span><br>
+<span>比如这个，最左边的海门那啥是用HAMATV识别出来的，名字啥都成了英文了。而右边那些都是用THE MOVIE DATABASE识别出来的，无论是名字还是点开的介绍都是中文的</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>问下这个楼楼https://bbs.saraba1st.com/2b/thread-1794417-0-1.html</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>马克一下</span><br>
+</p><p><b>benjin: </b><br>
+<span>Ichthy 发表于 2019-5-21 18:36</span><br>
+<span>问下这个楼楼https://bbs.saraba1st.com/2b/thread-1794417-0-1.html</span><br>
+<span>那一贴我也有参考过，主要是看到他没有提到这一点，而且免得翻老贴子所以我就干脆开新帖问了</span><br>
+</p><p><b>lionheart: </b><br>
+<span>这些插件用的数据库对日本和国内的内容支持不完整</span><br>
+<span>调来调去经常就卡在几个片子上，我已经是放弃了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>大象吃西瓜: </b><br>
+<span>lionheart 发表于 2019-5-21 22:24</span><br>
+<span>这些插件用的数据库对日本和国内的内容支持不完整</span><br>
+<span>调来调去经常就卡在几个片子上，我已经是放弃了</span><br>
+<span>可以自己手动完善tvdb、tmdb的数据库呀，造福自己，造福大家。</span><br>
+</p><p><b>benjin: </b><br>
+<span>lionheart 发表于 2019-5-21 22:24</span><br>
+<span>这些插件用的数据库对日本和国内的内容支持不完整</span><br>
+<span>调来调去经常就卡在几个片子上，我已经是放弃了</span><br>
+<span>其实我觉得已经算是挺不错了，就是这个OVA的问题。。。毕竟按照美国佬的想法，一部OVA就等于一部剧场电影对吧，但是对于日本佬来说，一部OVA也可以有好几集。。。问题就来了。PLEX的电影分类里面不像电视剧那样可以有几集塞在同一个表里面.....其他的基本上都能正确识别出来了</span><br>
+</p><p><b>benjin: </b><br>
+<span>大象吃西瓜 发表于 2019-5-22 00:26</span><br>
+<span>可以自己手动完善tvdb、tmdb的数据库呀，造福自己，造福大家。</span><br>
+<span>那个要怎么搞？</span><br>
+</p><p><b>mistzzt: </b><br>
+<span>hamatv代理设置里需要你设置语言的次序。具体的搜索hamatv.bundle在它介绍页面里有</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>benjin: </b><br>
+<span> 本帖最后由 benjin 于 2019-5-22 04:04 编辑 </span><br>
+<span>mistzzt 发表于 2019-5-22 03:09</span><br>
+<span>hamatv代理设置里需要你设置语言的次序。具体的搜索hamatv.bundle在它介绍页面里有</span><br>
+<span>发自我的iPhone via Sa ...</span><br>
+<span>设置了一下那个语言，添加了ZH代码，搜索出来的结果还是那样。不过倒是搞明白了怎么自己手动编辑了。先搜索出英文的结果，逃入了海报和简介后再手动修改名字回日文或者中文就好了。倒是简介方面还是英文。。。得自己添加了</span><br>
+<span>最后得出的结论就是，除非是那些一部OVA有好几集这种特殊情况，其他的片子还是用TMDB这个代理最省心，直接用中文关键字就能搜索到了，不过有时候也会出现搜索两三次才出现结果的现象</span><br>
+</p><p><b>vaststars: </b><br>
+<span>eve幻视你们继续</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>纳兰性: </b><br>
+<span>借楼问下DS Video会把部分美剧分成两个咋破（一个中文一个英文），和文件名也没关系，没找到原因</span><br>
+</p><p><b>benjin: </b><br>
+<span>纳兰性 发表于 2019-5-22 07:40</span><br>
+<span>借楼问下DS Video会把部分美剧分成两个咋破（一个中文一个英文），和文件名也没关系，没找到原因 ...</span><br>
+<span>这个我倒是没用过，之前装了DS VIDEO还是啥的还是不知道啥操作导致了PLEX的端口被占用，弄了一大堆方法都解决不了搞得我只能重装黑群。。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>借楼问一下，为什么本地会打不开plex，提示这个</span><br>
+<span>无法连接 Plex。</span><br>
+<span>请确保您的服务器可与互联网连接及所有防火墙及程序已设置为允许访问。</span><br>
+</p><p><b>benjin: </b><br>
+<span>moekyo 发表于 2019-5-23 07:14</span><br>
+<span>借楼问一下，为什么本地会打不开plex，提示这个</span><br>
+<span>https://www.bilibili.com/video/av45515775?from=search&seid=1170583527853639472</span><br>
+<span>如果是找不到服务器的话这个视频有解决方法</span><br>
+</p><p><b>moekyo: </b><br>
+<span>benjin 发表于 2019-5-23 20:51</span><br>
+<span>https://www.bilibili.com/video/av45515775?from=search&seid=1170583527853639472</span><br>
+<span>如果是找不到服务器 ...</span><br>
+<span>现在莫名好了，不过还是谢谢了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833197[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>次世代游戏画质帮助最大的其实就是mesh shader</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>次世代游戏画质帮助最大的其实就是mesh shader</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:14:50 +0000</lastBuildDate>
+    <item>
+      <title>次世代游戏画质帮助最大的其实就是mesh shader[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919788-1-1.html</link>
+      <description>次世代游戏画质帮助最大的其实就是mesh shader&#13;
+虽然PS5不知道支不支持但是理论上应该也是支持的，mesh shader说白了就是用GPU来取代CPU做多边形LOD，可以让几百亿多边形表现出来的复杂细节画面实际渲染多边形降低到几十分之一，而且不用什么细分曲面就能做到，可以完美的可以前多边形建模技术兼容
+&#13;
+XSX和次世代游戏如果充分使用这个技术可以让同屏多边形数量里面从现在的几千万提升到几十亿，想象一下这画面细节提升度。。。。
+&#13;
+https://www.bilibili.com/video/av38680101?from=search&amp;seid=5810197663833560865
+&#13;
+这个demo场景多边形高达几十亿，实际上GPU只渲染了可见像素的多边形，借助动态LOD少于一个像素分辨率的多边形也被清除掉了，实际渲染负载很低</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>次世代游戏画质帮助最大的其实就是mesh shader</span><br>
+<span>虽然PS5不知道支不支持但是理论上应该也是支持的，mesh shader说白了就是用GPU来取代CPU做多边形LOD，可以让几百亿多边形表现出来的复杂细节画面实际渲染多边形降低到几十分之一，而且不用什么细分曲面就能做到，可以完美的可以前多边形建模技术兼容</span><br>
+<span>XSX和次世代游戏如果充分使用这个技术可以让同屏多边形数量里面从现在的几千万提升到几十亿，想象一下这画面细节提升度。。。。</span><br>
+<span>https://www.bilibili.com/video/av38680101?from=search&seid=5810197663833560865</span><br>
+<span>这个demo场景多边形高达几十亿，实际上GPU只渲染了可见像素的多边形，借助动态LOD少于一个像素分辨率的多边形也被清除掉了，实际渲染负载很低</span><br>
+</p><p><b>riin1: </b><br>
+<span>这个mesh shader和geometry shader是啥关系？</span><br>
+</p><p><b>真田丸: </b><br>
+<span>什么时候粒子和物理碰撞系统能沾到点gpu的光呢？否则渲染得再好看也是死气沉沉的世界。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>真田丸 发表于 2020-3-19 21:02</span><br>
+<span>什么时候粒子和物理碰撞系统能沾到点gpu的光呢？否则渲染得再好看也是死气沉沉的世界。 ...</span><br>
+<span>早就用GPU算了吧...比如NVIDIA的physx历史挺长了，后来发展成了gameworks</span><br>
+<span>现在甚至已经不想老实模拟了，开始用神经网络算了。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>其实这种剔除lod可以用光追做。像素发primary进去，把不相交的三角形剔除。算次级再加回来。我怀疑具体实现的时候可能的确是用了光追</span><br>
+</p><p><b>ft5555: </b><br>
+<span>mesh shader 一但大规模使用 图灵以外的N卡全死翘翘</span><br>
+<span>然而a卡的vega还能继续战未来</span><br>
+</p><p><b>66666: </b><br>
+<span> 本帖最后由 66666 于 2020-3-19 20:43 编辑 </span><br>
+<span>Lunamos 发表于 2020-3-19 20:17</span><br>
+<span>其实这种剔除lod可以用光追做。像素发primary进去，把不相交的三角形剔除。算次级再加回来。我怀疑具体实现 ...</span><br>
+<span>不错，mesh shader目前是DXR 1.1的功能，不支持DXR的显卡都用不了</span><br>
+</p><p><b>66666: </b><br>
+<span>ft5555 发表于 2020-3-19 20:20</span><br>
+<span>mesh shader 一但大规模使用 图灵以外的N卡全死翘翘</span><br>
+<span>然而a卡的vega还能继续战未来 ...</span><br>
+<span>然而巨硬要求支持mesh shader 的前提是要先支持DXR，Vega没有未来</span><br>
+</p><p><b>66666: </b><br>
+<span>真田丸 发表于 2020-3-19 20:02</span><br>
+<span>什么时候粒子和物理碰撞系统能沾到点gpu的光呢？否则渲染得再好看也是死气沉沉的世界。 ...</span><br>
+<span>用mesh shader就可以大幅改善粒子效果了，之前跑粒子效果很麻烦的在于粒子效果多边形消耗的实在太厉害，如果开发一个很牛逼的粒子爆炸那就是在测试CPU的drawcall性能了，现在多边形LOD和剔除通过mesh shader放在GPU上处理，开发者可以很轻松做出相当出色震撼的效果而无需顾及CPU</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>Vega怎么没有未来？在板卡上焊一颗协处理器就行了啊，xbsx不就是这样？问微软拿一下，能行。</span><br>
+</p><p><b>神道设教: </b><br>
+<span>囧囧囧 发表于 2020-3-20 01:46</span><br>
+<span>Vega怎么没有未来？在板卡上焊一颗协处理器就行了啊，xbsx不就是这样？问微软拿一下，能行。 ...</span><br>
+<span>你让世界上那么多组装机加这么个东西？</span><br>
+</p><p><b>真田丸: </b><br>
+<span>Lunamos 发表于 2020-3-19 20:11</span><br>
+<span>早就用GPU算了吧...比如NVIDIA的physx历史挺长了，后来发展成了gameworks</span><br>
+<span>现在甚至已经不想老实模拟了， ...</span><br>
+<span>但是利用粒子系统这方面的交互还是不多啊</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>英伟达公关而已，Mesh Shader本质还是当年EA做的optimize with compute shader以及之前育碧那篇GPU Driven Render Pipeline的硬件版本实现。</span><br>
+<span>多边形的quad overdraw是不可避免的（现有硬件架构下），所以几十亿多边形是不可行的。</span><br>
+<span>当然Mesh Shader这个思路是完全正确的，并且之后手机也会逐步支持。</span><br>
+</p><p><b>66666: </b><br>
+<span>lostyzd 发表于 2020-3-20 19:57</span><br>
+<span>英伟达公关而已，Mesh Shader本质还是当年EA做的optimize with compute shader以及之前育碧那篇GPU Driven...</span><br>
+<span>Vulkan API我们都很清楚，它跟目前的DirectX 12、Metal，曾经的Mentle在目的上都是一致的：追求挖掘更底层的性能，尤其是在渲染的流水线中找到被浪费或流失的性能，在以前的印象中这是AMD Radeon GPU更加擅长的事情。不过Arseny Kapoulkine最近就在推特上面表示，他自己有编写一套渲染测试脚本，渲染场景中有一百位弥勒佛的雕像，每位雕像拥有108.7万三角形，测试很简单，就是要让显卡计算完这些三角形。</span><br>
+<span>Arseny表示使用自己的RTX 2080显卡，利用最普通的光栅化技术来渲染的话是需要17.2ms跑完测试的，但是如果使用他们自己编写的Mesh Shading代码配合Vulkan API，能够将渲染的时间缩短到6.3ms，换算过来就是大概每秒170亿三角形，大家可以算算速度快多少，而且Arseny表示这是通过SetStablePowerState来计时的，而SetStablePowerState本身会限制显卡的主频，如果解除限制的会时间会进一步缩短到5.4ms，换算过来就是每秒201亿三角形，这算是很可怕的性能，当然最让人惊讶的就是Mesh Shading能够解放Vulkan API的性能，虽然原理上说就是Mesh Shader生成三角形给光栅器，不用CPU慢慢跑三角形，这可能是解放性能的关键。</span><br>
+<span>怎么不行？一个独立开发者都能轻松用mesh shader跑出200多亿/秒多边形数量，难道正规大公司开发实力还不如个人？</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>66666 发表于 2020-3-21 08:48</span><br>
+<span>Vulkan API我们都很清楚，它跟目前的DirectX 12、Metal，曾经的Mentle在目的上都是一致的：追求挖掘更底 ...</span><br>
+<span>1. Arseny Kapoulkine给出的是一个不公平的对比，完全可以用compute做triangle cluster级别的剪裁，这是已有的技术。</span><br>
+<span>2. Mesh Shader可以简化这类算法的编写难度，但所谓的几百亿面还是来自LOD、剪裁等传统技术，按这个算法，现在的3A游戏都是几百亿面起。</span><br>
+<span>3. 独立开发者不代表水平差，有许多特定领域中非常nb的独立开发者，他们的工作时间分配更加灵活，超过大公司不是什么新鲜事。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>lostyzd 发表于 2020-3-20 19:57</span><br>
+<span>英伟达公关而已，Mesh Shader本质还是当年EA做的optimize with compute shader以及之前育碧那篇GPU Driven...</span><br>
+<span>就是用compute shader取代之前的固定管线中的几何部分，其实效率不高。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919788[0-50]</guid>
+    </item>
+  </channel>
+</rss>

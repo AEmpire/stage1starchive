@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>刚在板子上看漫画，发现一个有趣的事情，不知是否是共性</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>刚在板子上看漫画，发现一个有趣的事情，不知是否是共性</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:47:18 +0000</lastBuildDate>
+    <item>
+      <title>刚在板子上看漫画，发现一个有趣的事情，不知是否是共性[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1929577-1-1.html</link>
+      <description>刚在板子上看漫画，发现一个有趣的事情，不知是否是共性&#13;
+在三星的TAB S4上用perfect viewer看漫画，发现有些漫画读取下一页的速度很慢
+&#13;
+稍微研究后发现，翻页快的都是ZIP格式，翻页慢的都是RAR格式
+&#13;
+于是同一本漫画压缩成2种格式测试
+&#13;
+发现的确是ZIP格式的读取速度快，而且体积小……
+&#13;
+百思不得其解，这是为啥呢？</description>
+      <content:encoded><![CDATA[<p><b>togochina: </b><br>
+<span>刚在板子上看漫画，发现一个有趣的事情，不知是否是共性</span><br>
+<span>在三星的TAB S4上用perfect viewer看漫画，发现有些漫画读取下一页的速度很慢</span><br>
+<span>稍微研究后发现，翻页快的都是ZIP格式，翻页慢的都是RAR格式</span><br>
+<span>于是同一本漫画压缩成2种格式测试</span><br>
+<span>发现的确是ZIP格式的读取速度快，而且体积小……</span><br>
+<span>百思不得其解，这是为啥呢？</span><br>
+</p><p><b>zhangqq_010: </b><br>
+<span>我用个骁龙625的老猴板看dmzj啥问题没有</span><br>
+<span>无奈看b漫一进图像就直接卡炸（调单页显示和最低画质都屁用没有），这优化真神了</span><br>
+</p><p><b>风速前进mo: </b><br>
+<span>因为rar压缩率比zip高，所以解压显示图片的时候也就更慢吧</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>RAR编码器有专利的，用 WinRAR 测试的话应该是应该是 RAR 略胜 ZIP 吧</span><br>
+</p><p><b>xy2401: </b><br>
+<span>zip 可以当成文件夹一样流式读取。我使用 ipad上的漫画软件 zip 不需要提前下载。rar需要。Ps.读取电脑上的共享文件夹</span><br>
+<span>不知道是不是 固实压缩的原因</span><br>
+<span>[固实压缩_百度百科](https://baike.baidu.com/item/%E5 ... 10814838?fr=aladdin)</span><br>
+<span>是一种特殊压缩方式存储的压缩文件，它把压缩文件中的全部文件都当成一个连续数据流来看待。固实压缩文件支持RAR和7z格式的压缩文件，ZIP压缩文件永远是非固实的。可由用户决定选择固实或非固实的压缩方式。</span><br>
+</p><p><b>saderious: </b><br>
+<span>我以前图省空间喜欢压7z，现在懒了，都是压zip了事</span><br>
+</p><p><b>肆暮江飛鳥: </b><br>
+<span>楼上的都回答了，不过楼主的问题可以通过设置预读解决的，很久没用忘记了，现在都用Comic screen了，完美漫画设置太繁琐，虽然功能多，但是设计还是上个世纪的。Comic screen在易用性上完爆之</span><br>
+</p><p><b>linux40: </b><br>
+<span>用tar根本不用解压</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1929577[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD 吔屎</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD 吔屎</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:22:48 +0000</lastBuildDate>
+    <item>
+      <title>AMD 吔屎[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833647-1-1.html</link>
+      <description>AMD 吔屎&#13;
+ 本帖最后由 西多夫 于 2019-5-23 10:28 编辑 
+
+从E3升级到R7 2700X 体验没见提升多少
+&#13;
+倒是B站斗鱼之类的弹幕一多就画面卡顿，还是有那个傻逼散热，温度一有波动就啸叫，还是在主板设置下风扇转速的曲线后才解决的。
+&#13;
+另外还遇到一个奇葩的就是内存问题，我买的高频内存只能运行在1000出头的频率上，超频就死机，最后发现要换内存插槽解决，这个是真有够奇葩的。
+&#13;
+配置
+&#13;
+主板 （ASUS） PRIME X470-PRO
+&#13;
+CPU R7 2700X
+&#13;
+内存 芝奇（G.SKILL）16GB(8G×2)套装 DDR4 3200频率 台式机内存条 幻光戟RGB灯条(C16)
+&#13;
+硬盘 英特尔（Intel）256GB SSD固态硬盘 M.2接口(NVMe协议) 760P系列 2280板型
+&#13;
+显卡 铭瑄 （MAXSUN） MS-GeForce GTX1660Ti 终结者 6G</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:29</span><br>
+<span>华硕B365的内存说明书</span><br>
+<img src="https://i.loli.net/2019/05/24/5ce7ac5d30ac817162.png" title="https://i.loli.net/2019/05/24/5ce7ac5d30ac817162.png"><br>
+<span>华硕 z370 说明书</span><br>
+</p><p><b>john: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:29</span><br>
+<span>华硕B365的内存说明书</span><br>
+<span>你不要找那种最简单的没有几张纸的说明书啊，华硕微星我就没见过没有以下提示的主板说明书</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>塔奇克马 发表于 2019-5-24 16:34</span><br>
+<span>华硕 z370 说明书</span><br>
+<span>华硕的Z390，华硕1151主板单根内存限定在A2插槽才能更加稳定的说法现在已经没有了</span><br>
+<span>你给的这个图里的Z370是什么型号的？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:23</span><br>
+<span>技嘉的Z370UD3的说明书</span><br>
+<span>随手找了个Z390说明书：</span><br>
+<span>https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/ROG_MAXIMUS_XI_HERO/E14808_ROG_MAXIMUS_XI_HERO_WI-FI_UM_V2_WEB.pdf</span><br>
+<span>P21写明了推荐DIMM插槽顺序（懒得上图）</span><br>
+<span>手头AM4和115x平台都没有，只有A/I的HEDT也没法测你要说明的事</span><br>
+<span>X399并不费心，谢谢，8 DIMM插满一次点亮</span><br>
+<span>首发的AM4我买过，那个是很不完善，各种兼容性问题，但那是17年初的事了</span><br>
+<span>而且我现在还是认为这贴子标题太吓人，和里面内容不匹配</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>john 发表于 2019-5-24 16:42</span><br>
+<span>你不要找那种最简单的没有几张纸的说明书啊，华硕微星我就没见过没有以下提示的主板说明书</span><br>
+<span>我只发现MSI的4DIMM主板会限定插槽，华硕只是会在Z370上有建议单根插在A2上的建议，Z390主板上和新款Z370主板上已经没有这种建议。技嘉是没有限定也没有建议。事实上，我用华硕4DIMM和技嘉4DIMM的内存的主板测过，不同插槽插单根内存性能都是一样的，没有区别。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>john 发表于 2019-5-24 16:42</span><br>
+<span>你不要找那种最简单的没有几张纸的说明书啊，华硕微星我就没见过没有以下提示的主板说明书</span><br>
+<span>附议</span><br>
+<span>没见过不说明DIMM安装顺序的主板说明书，那种几页纸的叫quick start guide</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>albertfu 发表于 2019-5-24 16:43</span><br>
+<span>随手找了个Z390说明书：</span><br>
+<span>https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/ROG_MAXIMUS_XI_HERO/E14808_RO ...</span><br>
+<span>插满X399当然不费心，插满哪个平台都不费心好吧?你这说明书里华硕给的只是图示，连文字建议都无。事实上不按这个图里要求的来插也完全没问题。</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>albertfu 发表于 2019-5-24 16:46</span><br>
+<span>附议</span><br>
+<span>没见过不说明DIMM安装顺序的主板说明书，那种几页纸的叫quick start guide ...</span><br>
+<span>华硕的B365都是这种快速说明书，技嘉的是完全说明书就是不说明DIMM安装顺序的http://download.gigabyte.cn/File ... al_z370-ud3h_sc.pdf</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>john 发表于 2019-5-24 16:42</span><br>
+<span>你不要找那种最简单的没有几张纸的说明书啊，华硕微星我就没见过没有以下提示的主板说明书</span><br>
+<span>华硕的这个不是提示，只是建议，只有微星的是强制要求要从A2开始插的，华硕根本没有这种强制要求。华硕的Z390,新版Z370,B365和B360,H310和H310C,还有技嘉的全系300芯片组主板，都没有强制要求从哪个内存槽开始插的建议。你自己也看到了华硕的新版说明书里只是给了建议图，但是之前初版Z370里是有图和文字建议的，现在文字建议也没有了，而且我自己实操过程中，单根内存插华硕or技嘉的4DIMM主板的哪个槽都是正常的，也没有性能区别</span><br>
+</p><p><b>albertfu: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:49</span><br>
+<span>插满X399当然不费心，插满哪个平台都不费心好吧?你这说明书里华硕给的只是图示，连文字建议都无。事实上 ...</span><br>
+<span>话不要说太满，outel bios也是一步步完善的，早期x58插满6条=点不亮</span><br>
+<span>现在你说可以随便插，说明成熟度高呗，确实比am4成熟</span><br>
+<span>说明书：</span><br>
+<span>recommended memory configurations还不够明确吗，不按这个来就是out of specification，可能正常也可能不正常</span><br>
+<span>gigabyte那个，确实比asus/msi厉害，没有推荐插法，只写了如何组双通道</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>标题吓死我了，多大点事啊，还以为要抢鸡蛋呢</span><br>
+</p><p><b>madbird302: </b><br>
+<span>DOOMer 发表于 2019-5-24 15:56</span><br>
+<span>早就不是AVC了，英特尔现在是富士康风扇，AMD是酷冷至尊代工的风扇</span><br>
+<span>2700X配的幽灵一点都不差好吧，起码也 ...</span><br>
+<span>只是能压住，但噪音什么的就管不了了，总之就是低保散热器</span><br>
+</p><p><b>maxcrave: </b><br>
+<span>便宜啊。不然为什么不上97k了。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>褪色的雪花: </b><br>
+<span>日常应用原装幽灵没问题啊 怎么用才压不住</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>freeforever: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:08</span><br>
+<span>我寻思4790K同时代的FX-8350用原装压也容易过热死机啊，同时代拿同时代的东西比不好吗？</span><br>
+<span>现在I家K版U不带 ...</span><br>
+<span>所以我有讲过AMD散热好？还是AMD有宣传过“幽灵肯定是原装散热器里最豪华的”这种傻逼言论？</span><br>
+<span>都是原装风扇都压不住所以凭什么AMD就是垃圾？I饭吹要喷AMD原装散热垃圾麻烦先把我这颗4790K吃了，不然死个马也行</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>IA大战进行时</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>Gnyueh 发表于 2019-5-24 23:42</span><br>
+<span>IA大战进行时</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play ...</span><br>
+<span>好怀念当年GZ的 NA大战</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:02</span><br>
+<span>1151对比AM4平台，1151平台DIMM要怎么插才会异常你倒是说出个实例啊</span><br>
+<span>AM4就是在双根内存的情况下在4dim的 ...</span><br>
+<span>那请问AMD是要插在更靠近CPU的两根内存位置呢，还是远离CPU的两个双通道内存位置上性能更好呢？</span><br>
+</p><p><b>midearth: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 12:52</span><br>
+<span>那请问AMD是要插在更靠近CPU的两根内存位置呢，还是远离CPU的两个双通道内存位置上性能更好呢？ ...</span><br>
+<span>看说明书，各家不一样的</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>midearth 发表于 2019-5-25 13:10</span><br>
+<span>看说明书，各家不一样的</span><br>
+<span>比如就是楼主那主板，好像说明书上写的2、4，但我插在1、3也可以手动调到2933无事。</span><br>
+<span>下次再试。</span><br>
+</p><p><b>ballban: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 13:18</span><br>
+<span>比如就是楼主那主板，好像说明书上写的2、4，但我插在1、3也可以手动调到2933无事。</span><br>
+<span>下次再试。 ...</span><br>
+<span>根据主板型号都不太一样吧，具体还是看说明书</span><br>
+<span>比如我用的r5 1600，主板是华擎的b350pro4，双通道想上3000频率以上只能插规定的两个槽，如果插另外2个或者4个都插就只能跑到2666还是多少来着</span><br>
+<span>—— 来自 samsung SM-N950N, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>midearth 发表于 2019-5-25 13:10</span><br>
+<span>看说明书，各家不一样的</span><br>
+<span>说明书就是没写明，我当然会看说明书了。不然我会老是发帖在这问，说明书更没写明如果不插到哪两个槽上，就会有什么后果或者到不了什么频率开不了啥功能。</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>ballban 发表于 2019-5-25 14:44</span><br>
+<span>根据主板型号都不太一样吧，具体还是看说明书</span><br>
+<span>比如我用的r5 1600，主板是华擎的b350pro4，双通道想上3000 ...</span><br>
+<span>就是没写清楚啊说明书，你还不明白吗。</span><br>
+</p><p><b>Sheny: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 14:56</span><br>
+<span>就是没写清楚啊说明书，你还不明白吗。</span><br>
+<span>你跟没遇到问题的说，他们也会总结为你自己的问题。说白了就是amd平台遇到问题，也是得不到准确的解决方法的。反过来intel平台有问题，一个电话都能得到解答。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 14:50</span><br>
+<span>说明书就是没写明，我当然会看说明书了。不然我会老是发帖在这问，说明书更没写明如果不插到哪两个槽上， ...</span><br>
+<span>因为bios更新，说明书可能会过时</span><br>
+<span>你要从官网下载最新的说明书和内存兼容清单才行</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>精钢魔像 发表于 2019-5-25 16:58</span><br>
+<span>因为bios更新，说明书可能会过时</span><br>
+<span>你要从官网下载最新的说明书和内存兼容清单才行 ...</span><br>
+<span>我就是从官网上下的，BIOS也是最新的。</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span> 本帖最后由 DABIANTAI 于 2019-5-25 18:05 编辑 </span><br>
+<span>精钢魔像 发表于 2019-5-25 16:58</span><br>
+<span>因为bios更新，说明书可能会过时</span><br>
+<span>你要从官网下载最新的说明书和内存兼容清单才行 ...</span><br>
+<span>这么说吧，包括BIOS、说明书在内的功课我早就做了。然后在帮朋友装机时，恰巧看见楼主发这个贴子。然后我想问清楚总不是个坏事，问了他也不知道是到底哪两个槽的问题。</span><br>
+<span>然后就一堆人，以为我没看自己也没查了。</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>目前看来就两种可能：1.这是BIOS的问题，只不过朋友的主板刚好是最新版的BIOS所以避免了。我也不可能老跑别人家里去折腾他电脑，只有下一次帮他升级显卡时顺便弄弄才清楚了。</span><br>
+<span>                              2.问题依旧，只不过刚好我插的1、3位是对的所以避免了。或者相反，是因为我没有再往上拉到3200或更高的频率所以没看见。</span><br>
+<span>                              但因为当时我没时间慢慢帮他花时间换槽调教，所以这只是猜测而不确定。</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 17:32</span><br>
+<span>这么说吧，包括BIOS、说明书在内的功课我早就做了。然后在帮朋友装机时，恰巧看见楼主发这个贴子。然后我 ...</span><br>
+<span>使用只看该作者功能看了看你的发言</span><br>
+<span>9102年了猫都会上网了，难道你觉得别人应该做出你比大量不看说明书的一般人更聪慧勤勉，如今开金口问问题肯定是做过完全准备的假设吗？你一上来就说清楚自己已经翻过说明书了哪还有那么多事，122L之前的人让你看说明书有什么问题？</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>混乱中立搅屎棍 发表于 2019-5-25 18:29</span><br>
+<span>使用只看该作者功能看了看你的发言</span><br>
+<span>9102年了猫都会上网了，难道你觉得别人应该做出你比大量不看说明书的 ...</span><br>
+<span>那你已经看完了是不是瞎子，没看见我一上来直接就是问的楼主哪两个插槽有问题吗。</span><br>
+<span>难道我还要把包括你在内的论坛上一干人可能的心思揣测一遍，再把“这些可能性”都挨个提一遍吗那不是把大家当什么了？那不是把你当傻逼在看待吗？</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>多简单一事，我直接问楼主是那两个槽。然后他表示忘了。</span><br>
+<span>我又问下面一个看起来更有经验的，那么知道回复不知道不回复不就完了。而且他也说了AM4就是在双根内存的情况下在4dim的主板上要限定插槽才可以正常用，那么顺着他这句话往下说就是他也没限定这是哪一个品牌哪一个型号的问题，而认为是AMD的共性问题。那么我在此基础上，问是哪两个槽有问题？你既然看完了，看不见发帖先后顺序吗？</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 18:48</span><br>
+<span>那你已经看完了是不是瞎子，没看见我一上来直接就是问的楼主哪两个插槽有问题吗。</span><br>
+<span>难道我还要把包括你在 ...</span><br>
+<span>你不需要考虑别人是不是傻逼，你更该知道为什么你会是傻逼，你需要的是主动准确描述自己的问题，而不是到处拉屎，并寄希望于有人仔细端详你的排泄物后理解你的处境，那才是真把人当傻逼在看待</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 18:54</span><br>
+<span>多简单一事，我直接问楼主是那两个槽。然后他表示忘了。</span><br>
+<span>我又问下面一个看起来更有经验的，那么知道回复不 ...</span><br>
+<span>是的我也发现了，你的交流方式非常有艺术性，突出一个人类精神文明的多样性</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>混乱中立搅屎棍 发表于 2019-5-25 18:56</span><br>
+<span>你不需要考虑别人是不是傻逼，你更该知道为什么你会是傻逼，你需要的是主动准确描述自己的问题，而不是到 ...</span><br>
+<span>你是不是个弱智：1.楼主说的这款主板型号刚好和我朋友的一样，那我直接问是那两个槽有问题？简单明了。开局上来就解释一大堆反而冗长，没必要。</span><br>
+<span>                        2.91楼说了“AM4就是在双根内存的情况下在4dim的主板上要限定插槽才可以正常用”，那么它这个意思理解成是AMD共性问题而不是特定品牌或特定型号的问题没错吧？那我在下面118楼才问道：“那请问AMD是要插在更靠近CPU的两根内存位置呢，还是远离CPU的两个双通道内存位置上性能更好呢？”有问题？</span><br>
+<span>最后，知道为什么我一开始看到你名字了还耐性回答你这个问题吗？是因为借此正好让其它网友看清楚前后逻辑，而你也很如我所愿的上套来上蹿下跳了。</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 19:04</span><br>
+<span>你是不是个弱智：1.楼主说的这款主板型号刚好和我朋友的一样，那我直接问是那两个槽有问题？简单明了。开 ...</span><br>
+<span>1.没有问题</span><br>
+<span>2.没有问题，虽然这出的问题很奇妙，不过因为普通人不理解主板厂的分工所以还算合理问题</span><br>
+<span>接下来别人对你的回复也很合理啊，看说明书啊，你说过你看说明书了说过你查了吗？还在吐槽别人一堆人，以为你没看你自己也没查了</span><br>
+<span>现在还拿ID说事了，我还以为你又有什么新发现了还敢嘴硬，原来是小丑没当过瘾</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>混乱中立搅屎棍 发表于 2019-5-25 19:15</span><br>
+<span>1.没有问题</span><br>
+<span>2.没有问题，虽然这出的问题很奇妙，不过因为普通人不理解主板厂的分工所以还算合理问题</span><br>
+<span>接下 ...</span><br>
+<span>没事，我空闲时喜欢逗猴子为乐。只是你花样太少了很快让我失去了兴趣。</span><br>
+<span>最后你唯有“以为你没看”那句前后有语言逻辑问题让我微微笑了一下。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>自意识过剩</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>DABIANTAI 发表于 2019-5-25 19:20</span><br>
+<span>没事，我空闲时喜欢逗猴子为乐。只是你花样太少了很快让我失去了兴趣。</span><br>
+<span>最后你唯有“以为你没看”那句前 ...</span><br>
+<span>连功课都做不好还空闲时喜欢逗猴子为乐呢，你可真有空哦，动物园出生的猴王吧</span><br>
+<span>我和你不一样，喷人还行，喷猴子确实不擅长，这些小东西脸皮厚，人话也不懂，在树上转圈还以为世界绕着它们转</span><br>
+<span>罢了，继续沉浸在你的小世界里自嗨呗，反正再过两天谁都不会记得</span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2019-6-17 15:47 编辑 </span><br>
+<span>zmw_831110 发表于 2019-5-23 11:03</span><br>
+<span>BlueskyFRC</span><br>
+<span>里面选择开启AFM,管理员授权,重启,才可以在AMD的驱动面板里看到AFM选项.否则默认只能插24P,开 ...</span><br>
+<span>已经用管理员打开BFRC了，驱动面板里看不到AFM的开关</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> 本帖最后由 gofbayrf 于 2019-6-17 15:41 编辑 </span><br>
+<span>雪影 发表于 2019-6-17 15:31</span><br>
+<span>已经用管理员打开BFRC了，驱动面板里看不到AFM的开关</span><br>
+<span>試試換一個版本的BFRC我手上的 270只能用 2.12之前的版本打開AFM之后的版本開啟選項失效的</span><br>
+</p><p><b>雪影: </b><br>
+<span>gofbayrf 发表于 2019-6-17 15:39</span><br>
+<span>試試換一個版本的BFRC我手上的 270只能用 2.12之前的版本打開AFM之后的版本開啟選項失效的 ...</span><br>
+<span>好像现在要下载只能挂梯子，最近梯子都倒了一大批了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sheny: </b><br>
+<span>gofbayrf 发表于 2019-6-17 15:39</span><br>
+<span>試試換一個版本的BFRC我手上的 270只能用 2.12之前的版本打開AFM之后的版本開啟選項失效的 ...</span><br>
+<span>好像现在直接在bfrc里开afm</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>雪影 发表于 2019-6-17 15:31</span><br>
+<span>已经用管理员打开BFRC了，驱动面板里看不到AFM的开关</span><br>
+<span>无需看到显卡控制面板里的开关，打开后勾选24和30就完事了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>zmw_831110 发表于 2019-6-17 23:17</span><br>
+<span>无需看到显卡控制面板里的开关，打开后勾选24和30就完事了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android ...</span><br>
+<span>多谢</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833647[100-150]</guid>
+    </item>
+    <item>
+      <title>AMD 吔屎[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833647-1-1.html</link>
+      <description>AMD 吔屎&#13;
+ 本帖最后由 西多夫 于 2019-5-23 10:28 编辑 
+
+从E3升级到R7 2700X 体验没见提升多少
+&#13;
+倒是B站斗鱼之类的弹幕一多就画面卡顿，还是有那个傻逼散热，温度一有波动就啸叫，还是在主板设置下风扇转速的曲线后才解决的。
+&#13;
+另外还遇到一个奇葩的就是内存问题，我买的高频内存只能运行在1000出头的频率上，超频就死机，最后发现要换内存插槽解决，这个是真有够奇葩的。
+&#13;
+配置
+&#13;
+主板 （ASUS） PRIME X470-PRO
+&#13;
+CPU R7 2700X
+&#13;
+内存 芝奇（G.SKILL）16GB(8G×2)套装 DDR4 3200频率 台式机内存条 幻光戟RGB灯条(C16)
+&#13;
+硬盘 英特尔（Intel）256GB SSD固态硬盘 M.2接口(NVMe协议) 760P系列 2280板型
+&#13;
+显卡 铭瑄 （MAXSUN） MS-GeForce GTX1660Ti 终结者 6G</description>
+      <content:encoded><![CDATA[<p><b>jesiu1337: </b><br>
+<span>要用原装风扇还是换2600吧，反正对比e3也已经提升巨大了。2700x用原装肯定是立刻过热的，时间长了很容易坏。</span><br>
+</p><p><b>john: </b><br>
+<span>你们是不是搞错了什么，DDR4-2133是1000多，DDR4-3200也是1000多，1600啊</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>AMD原厂不是那个有RGB的下压散热么，这么不堪？</span><br>
+</p><p><b>midearth: </b><br>
+<span>暗影翔 发表于 2019-5-23 10:18</span><br>
+<span>看片调用madvr，设置不同肯定不一样。现在调upscaling到ngr，看老片一全屏显卡风扇就起飞。想换个显卡了。 ...</span><br>
+<span>同纠结，看动画用a卡会不会更适合。</span><br>
+<span>内存应该是插错槽了吧，一般主板都会有先插哪几个槽的建议的</span><br>
+</p><p><b>midearth: </b><br>
+<span>还有原装风扇只是能用而已，温度和静音都不如百元散热，即使是压2600</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>midearth 发表于 2019-5-23 15:53</span><br>
+<span>还有原装风扇只是能用而已，温度和静音都不如百元散热，即使是压2600</span><br>
+<span>淘宝20块钱的风扇，要求不要太高，比INTEL原装好就行了</span><br>
+<span>2600这种65W CPU，原装完全没问题</span><br>
+</p><p><b>midearth: </b><br>
+<span>sblnrrk 发表于 2019-5-23 16:09</span><br>
+<span>淘宝20块钱的风扇，要求不要太高，比INTEL原装好就行了</span><br>
+<span>2600这种65W CPU，原装完全没问题 ...</span><br>
+<span>问题是没问题，但温度和静音真的不好看</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>midearth 发表于 2019-5-23 16:22</span><br>
+<span>问题是没问题，但温度和静音真的不好看</span><br>
+<span>比INTEL那个强，风扇和散热 本体都是，卖也能卖个20块嘛。。。</span><br>
+</p><p><b>top2000: </b><br>
+<span>啥我1700x看弹幕也从来没卡过啊</span><br>
+<span>— from HMD Global Nokia 7 plus, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p><p><b>madbird302: </b><br>
+<span>第一点，斗鱼那个SB网站到现在不支持HTML5，用flash风扇就要狂转，插件转HTML5的话风扇转速会好很多，但会经常卡，就是你说的出弹幕卡的现象，是不是只卡视频和弹幕不卡声音？</span><br>
+<span>散热上无论I还是A，原厂给的几乎都是保底的AVC散热器，到手还是换了吧。</span><br>
+<span>内存上芝奇的三个C16 3200都是支持的，也许是CPU体质问题？</span><br>
+</p><p><b>jxljk: </b><br>
+<span>你从牙膏厂换到农企 就是个错误 农企现在单核性能不是不如牙膏厂</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>huzhiyangqaz 发表于 2019-5-23 10:55</span><br>
+<span>等一下… 2500u 用 chrome 看 b 站会弹幕卡顿？我以前老笔记本三代 i5 都不会这样啊</span><br>
+<span>那我就不给 ...</span><br>
+<span>matebook是outel，magicbook才是AU，新款3X00系列已经基本追上8250U了，其实也不差。4k以下的价位本来也没啥太好的选择，轻薄本的话也就是选ryzen3000系列了。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span> 本帖最后由 DABIANTAI 于 2019-5-23 20:11 编辑 </span><br>
+<span>是原来哪两个插槽，后来换到哪两个插槽解决了的？</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>B站弹幕除了测试弹幕那种极端的，不都是靠显卡渲染么？你浏览器没开硬解吧</span><br>
+</p><p><b>VirMoe: </b><br>
+<span>所以AMD到底怎么样？我还想双11整个3A平台呢</span><br>
+<span>实在不想用笔记本了，估计到时买个ITX，床上配个轻薄本远程到ITX。</span><br>
+</p><p><b>西多夫: </b><br>
+<span>NyanMisaka 发表于 2019-5-23 20:11</span><br>
+<span>B站弹幕除了测试弹幕那种极端的，不都是靠显卡渲染么？你浏览器没开硬解吧 ...</span><br>
+<span>没那么极端 楼上也有人遇过我这种情况 多半是软件问题吧</span><br>
+<span>我主要是想吐槽AMD折腾</span><br>
+</p><p><b>西多夫: </b><br>
+<span>DABIANTAI 发表于 2019-5-23 20:10</span><br>
+<span>是原来哪两个插槽，后来换到哪两个插槽解决了的？</span><br>
+<span>应该是2/4换成1/3</span><br>
+</p><p><b>midearth: </b><br>
+<span>VirMoe 发表于 2019-5-23 20:15</span><br>
+<span>所以AMD到底怎么样？我还想双11整个3A平台呢</span><br>
+<span>实在不想用笔记本了，估计到时买个ITX，床上配个轻薄本 ...</span><br>
+<span>没问题，APU现在就很想，到时候应该会更香</span><br>
+</p><p><b>midearth: </b><br>
+<span>西多夫 发表于 2019-5-23 20:19</span><br>
+<span>应该是2/4换成1/3</span><br>
+<span>所以就是插错插槽了</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>西多夫 发表于 2019-5-23 20:19</span><br>
+<span>应该是2/4换成1/3</span><br>
+<span>哦哦，好好谢谢了。</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>西多夫 发表于 2019-5-23 20:19</span><br>
+<span>应该是2/4换成1/3</span><br>
+<span>就是B1、A1吧，才是对的？</span><br>
+</p><p><b>tyx776: </b><br>
+<span>亲，建议50包邮。</span><br>
+<span>其实我也有个奇怪的问题，win10在启动进桌面那会会卡，音箱会嘟嘟嘟的发声，就是卡一卡响一次。8700k的硬盘nvme 512g只用了一半空间。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>西多夫: </b><br>
+<span>DABIANTAI 发表于 2019-5-23 20:49</span><br>
+<span>就是B1、A1吧，才是对的？</span><br>
+<span>也可能是反过来的 具体我也忘记了 懒得开机箱看了</span><br>
+<span>楼上有人贴出主板说明书</span><br>
+</p><p><b>DABIANTAI: </b><br>
+<span>西多夫 发表于 2019-5-23 21:07</span><br>
+<span>也可能是反过来的 具体我也忘记了 懒得开机箱看了</span><br>
+<span>楼上有人贴出主板说明书 ...</span><br>
+<span>。。。。。。</span><br>
+</p><p><b>西多夫: </b><br>
+<span>DABIANTAI 发表于 2019-5-23 21:13</span><br>
+<span>。。。。。。</span><br>
+<span>总之就是一开始开XMP后进不了系统，或者莫名其妙死机。</span><br>
+<span>后来升级BIOS手动调整什么都试过还是不行，最后自己百度才发现内存槽有讲究，换了一下开XMP就正常了。</span><br>
+<span>英特尔平台我没遇过这种幺蛾子事</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>西多夫 发表于 2019-5-23 21:15</span><br>
+<span>总之就是一开始开XMP后进不了系统，或者莫名其妙死机。</span><br>
+<span>后来升级BIOS手动调整什么都试过还是不行，最后自 ...</span><br>
+<span>xmp 不是amd 的标准</span><br>
+<span>一般来说，稍微调高下电压就可以了</span><br>
+</p><p><b>西多夫: </b><br>
+<span>精钢魔像 发表于 2019-5-23 21:28</span><br>
+<span>xmp 不是amd 的标准</span><br>
+<span>一般来说，稍微调高下电压就可以了</span><br>
+<span>说习惯了 AMD的那个是是叫A-XMP吧</span><br>
+</p><p><b>VirMoe: </b><br>
+<span>midearth 发表于 2019-5-23 20:30</span><br>
+<span>没问题，APU现在就很想，到时候应该会更香</span><br>
+<span>恩……APU做两份事，是否会发两份热？如果是的话，会不会瓶颈太低？</span><br>
+</p><p><b>6119w: </b><br>
+<span>不会用就说不会用，大家伙可以一起帮着想怎么调好，起个这么惊悚的标题。。。都是大面积流通的通用产品，哪里会有这么大的兼容性问题</span><br>
+</p><p><b>pulotocore: </b><br>
+<span>西多夫 发表于 2019-5-23 21:15</span><br>
+<span>总之就是一开始开XMP后进不了系统，或者莫名其妙死机。</span><br>
+<span>后来升级BIOS手动调整什么都试过还是不行，最后自 ...</span><br>
+<span>哪家英特尔的内存插槽跟这个不一样给我看看啊</span><br>
+</p><p><b>albertfu: </b><br>
+<span>标题这么惊悚，点进来看屁大点事，基本三个字概括：</span><br>
+<span>“不会用”</span><br>
+<span>outel平台dimm乱插也会异常的，a/i双持用户路过</span><br>
+<span>风扇就不吐槽了，当年出于好奇用3770k原装风扇去压，默频烤机就过热断电</span><br>
+<span>还有楼里说单线程性能的，zen至少ipc比xxlake之前所有都高，多核ipc算上smt高于outel全家</span><br>
+<span>带k的还能用频率去压zen，lz这种超都超不了的e3就算了</span><br>
+</p><p><b>西多夫: </b><br>
+<span> 本帖最后由 西多夫 于 2019-5-23 23:41 编辑 </span><br>
+<span>仔细看主楼 我遇到问题基本都自己解决了</span><br>
+<span>想表示的意思还是AMD依旧不省心</span><br>
+<span>吔屎这两字有这么惊悚吗</span><br>
+</p><p><b>albertfu: </b><br>
+<span>西多夫 发表于 2019-5-23 23:40</span><br>
+<span>仔细看主楼 我遇到问题基本都自己解决了</span><br>
+<span>想表示的意思还是AMD依旧不省心</span><br>
+<span>吔屎这两字有这么惊悚吗</span><br>
+<span>真挺惊悚的，现实中没听过，像是骂人话，建议可能的话改平和些的</span><br>
+<span>还有遇到的这些问题，新组outel机器一样全会遇到</span><br>
+<span>你坛前一阵还有一个新手outel平台四通道乱插，开机都开不了，还是内存容量只认出一半的</span><br>
+</p><p><b>真那啥: </b><br>
+<span>我2700X 幻光鸡3200C16 8GX2 1080TI 都用了大半年了，完全没出现楼顶的问题</span><br>
+<span>内存不就是插好了开个DOCP的事么，3200稳如马，我散热也是200块不到的辣鸡风冷，看斗鱼跟B站弹幕也很流畅，还是说你用的FLASH？</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>VirMoe 发表于 2019-5-23 21:37</span><br>
+<span>恩……APU做两份事，是否会发两份热？如果是的话，会不会瓶颈太低？</span><br>
+<span>看散热啊，有核显的CPU都一样，只要温度能压住不会主动降频的</span><br>
+</p><p><b>melvin117: </b><br>
+<span>西多夫 发表于 2019-5-23 23:40</span><br>
+<span>仔细看主楼 我遇到问题基本都自己解决了</span><br>
+<span>想表示的意思还是AMD依旧不省心</span><br>
+<span>吔屎这两字有这么惊悚吗</span><br>
+<span>还行，泥潭都是X来X去的，不妨碍我期待ryzen2</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>我也是从E3V3换到锐龙。我换的还是残疾1700X。散热我用的也是咸鱼淘来的幽灵RGB2700X自带的那个。我超频到3.9。根据主板设置的曲线转速50%。打游戏不超过60℃。</span><br>
+<span>性能方面我觉得是焕然一新的变化。虽然CPU还是太弱配不上GTX1080，先将就着用一段时间也没问题。</span><br>
+<span>楼主你是不是没有机箱风扇。下压式散热器非常依赖机箱风扇，因为他本身不能组成风道来吧热量排出机箱。我用了5个14CM风扇来构建机箱风道。建议起码2个排风扇起步。</span><br>
+<span>我哥们跟我一起装的机，用的2600。也是盒装散热器，超到4.1。打游戏温度也不超过65℃。他也是装了4个12CM风扇的。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 9上的 S1Next-鹅版 v1.3.3.2</span><br>
+</p><p><b>zhjh93: </b><br>
+<span>西多夫 发表于 2019-5-23 21:15</span><br>
+<span>总之就是一开始开XMP后进不了系统，或者莫名其妙死机。</span><br>
+<span>后来升级BIOS手动调整什么都试过还是不行，最后自 ...</span><br>
+<span>插槽都有讲究的，不是说Intel平台没有</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>madbird302 发表于 2019-5-23 18:26</span><br>
+<span>第一点，斗鱼那个SB网站到现在不支持HTML5，用flash风扇就要狂转，插件转HTML5的话风扇转速会好很多，但会 ...</span><br>
+<span>早就不是AVC了，英特尔现在是富士康风扇，AMD是酷冷至尊代工的风扇</span><br>
+<span>2700X配的幽灵一点都不差好吧，起码也是百元下压散热的水平</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>zhjh93 发表于 2019-5-24 10:31</span><br>
+<span>插槽都有讲究的，不是说Intel平台没有</span><br>
+<span>I家1151平台插槽没讲究，随便怎么插都行，无非就是组不组得成双通道的问题。</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>albertfu 发表于 2019-5-23 23:38</span><br>
+<span>标题这么惊悚，点进来看屁大点事，基本三个字概括：</span><br>
+<span>“不会用”</span><br>
+<span>1151对比AM4平台，1151平台DIMM要怎么插才会异常你倒是说出个实例啊</span><br>
+<span>AM4就是在双根内存的情况下在4dim的主板上要限定插槽才可以正常用，1151平台是随意插，顶多就是没办法组双通道罢了</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>albertfu 发表于 2019-5-23 23:46</span><br>
+<span>真挺惊悚的，现实中没听过，像是骂人话，建议可能的话改平和些的</span><br>
+<span>还有遇到的这些问题，新组outel机器一 ...</span><br>
+<span>四通道I平台不就是HEDT吗？HEDT拿HEDT比啊，X399平台比X299省心吗？</span><br>
+<span>MSDT平台就拿MSDT平台比，1151平台的还真的就比AM4平台省心得多</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>freeforever 发表于 2019-5-23 14:58</span><br>
+<span>砍了半天原装风扇？我这里有一台用原装风扇随时过热死机的4790K你觉得怎么样？</span><br>
+<span>原装就对比原装，不要把自 ...</span><br>
+<span>我寻思4790K同时代的FX-8350用原装压也容易过热死机啊，同时代拿同时代的东西比不好吗？</span><br>
+<span>现在I家K版U不带原装散热，不好比，但是2700X的幽灵散热器肯定是盒装处理器自带散热器里最豪华的，压被A饭吹比I家凉快得多的2700X怎么就压不住了呢</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>DOOMer 发表于 2019-5-24 15:59</span><br>
+<span>I家1151平台插槽没讲究，随便怎么插都行，无非就是组不组得成双通道的问题。 ...</span><br>
+<img src="https://i.loli.net/2019/05/24/5ce7a6dc9198f88773.png" title="https://i.loli.net/2019/05/24/5ce7a6dc9198f88773.png"><br>
+<img src="https://i.loli.net/2019/05/24/5ce7a5646071c59575.png" title="https://i.loli.net/2019/05/24/5ce7a5646071c59575.png"><br>
+<span>那么这个插槽的说明是?</span><br>
+<span>我觉得1151不是随便插的,不然没必要说明.</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>塔奇克马 发表于 2019-5-24 16:10</span><br>
+<span>那么这个插槽的说明是?</span><br>
+<span>我觉得1151不是随便插的,不然没必要说明.</span><br>
+<span>这是什么芯片组？我1151主板用过Z390 Z370 B460 B365,从来没有看到过这种提示</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:20</span><br>
+<span>这是什么芯片组？我1151主板用过Z390 Z370 B460 B365,从来没有看到过这种提示</span><br>
+<span>微星 z270</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>塔奇克马 发表于 2019-5-24 16:21</span><br>
+<span>微星 z270</span><br>
+<span>技嘉的Z370UD3的说明书</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>DOOMer 发表于 2019-5-24 16:23</span><br>
+<span>技嘉的Z370UD3的说明书</span><br>
+<img src="https://i.loli.net/2019/05/24/5ce7ab461c1a327228.png" title="https://i.loli.net/2019/05/24/5ce7ab461c1a327228.png"><br>
+<span>微星 z370</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>塔奇克马 发表于 2019-5-24 16:21</span><br>
+<span>微星 z270</span><br>
+<span>华硕B365的内存说明书</span><br>
+</p><p><b>DOOMer: </b><br>
+<span> 本帖最后由 DOOMer 于 2019-5-24 16:36 编辑 </span><br>
+<span>塔奇克马 发表于 2019-5-24 16:29</span><br>
+<span>微星 z370</span><br>
+<span>这个是MSI的主板的设计，除了MSI的1151主板都是可以混插的，我没用过MSI的1151主板，但是技嘉和华硕的1151板子都是混插都可点亮。MSI应该是用了和intel规范不一样的内存走线。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833647[50-100]</guid>
+    </item>
+    <item>
+      <title>AMD 吔屎[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833647-1-1.html</link>
+      <description>AMD 吔屎&#13;
+ 本帖最后由 西多夫 于 2019-5-23 10:28 编辑 
+
+从E3升级到R7 2700X 体验没见提升多少
+&#13;
+倒是B站斗鱼之类的弹幕一多就画面卡顿，还是有那个傻逼散热，温度一有波动就啸叫，还是在主板设置下风扇转速的曲线后才解决的。
+&#13;
+另外还遇到一个奇葩的就是内存问题，我买的高频内存只能运行在1000出头的频率上，超频就死机，最后发现要换内存插槽解决，这个是真有够奇葩的。
+&#13;
+配置
+&#13;
+主板 （ASUS） PRIME X470-PRO
+&#13;
+CPU R7 2700X
+&#13;
+内存 芝奇（G.SKILL）16GB(8G×2)套装 DDR4 3200频率 台式机内存条 幻光戟RGB灯条(C16)
+&#13;
+硬盘 英特尔（Intel）256GB SSD固态硬盘 M.2接口(NVMe协议) 760P系列 2280板型
+&#13;
+显卡 铭瑄 （MAXSUN） MS-GeForce GTX1660Ti 终结者 6G</description>
+      <content:encoded><![CDATA[<p><b>西多夫: </b><br>
+<span>AMD 吔屎</span><br>
+<span> 本帖最后由 西多夫 于 2019-5-23 10:28 编辑 </span><br>
+<span>从E3升级到R7 2700X 体验没见提升多少</span><br>
+<span>倒是B站斗鱼之类的弹幕一多就画面卡顿，还是有那个傻逼散热，温度一有波动就啸叫，还是在主板设置下风扇转速的曲线后才解决的。</span><br>
+<span>另外还遇到一个奇葩的就是内存问题，我买的高频内存只能运行在1000出头的频率上，超频就死机，最后发现要换内存插槽解决，这个是真有够奇葩的。</span><br>
+<span>配置</span><br>
+<span>主板 （ASUS） PRIME X470-PRO</span><br>
+<span>CPU R7 2700X</span><br>
+<span>内存 芝奇（G.SKILL）16GB(8G×2)套装 DDR4 3200频率 台式机内存条 幻光戟RGB灯条(C16)</span><br>
+<span>硬盘 英特尔（Intel）256GB SSD固态硬盘 M.2接口(NVMe协议) 760P系列 2280板型</span><br>
+<span>显卡 铭瑄 （MAXSUN） MS-GeForce GTX1660Ti 终结者 6G</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>看了E3还能再战5年 </span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>你这啥情况，2600x都见没这样</span><br>
+</p><p><b>liman9172: </b><br>
+<span>有那么差么~</span><br>
+</p><p><b>ricotte: </b><br>
+<span>配置亮一下？？</span><br>
+</p><p><b>松霖: </b><br>
+<span>建议重装系统，反正win10马上更新大版本</span><br>
+</p><p><b>马春葛: </b><br>
+<span>松霖 发表于 2019-5-23 10:01</span><br>
+<span>建议重装系统，反正win10马上更新大版本</span><br>
+<span>已经更了，昨天media creation tool已经可以下载1903了。</span><br>
+</p><p><b>johnie: </b><br>
+<span>说没提升多少先报下使用环境嘛</span><br>
+<span>看个片什么的肯定没提升</span><br>
+</p><p><b>西多夫: </b><br>
+<span>ricotte 发表于 2019-5-23 09:58</span><br>
+<span>配置亮一下？？</span><br>
+<span>主板 （ASUS） PRIME X470-PRO</span><br>
+<span>CPU R7 2700X</span><br>
+<span>内存 芝奇（G.SKILL）16GB(8G×2)套装 DDR4 3200频率 台式机内存条 幻光戟RGB灯条(C16)</span><br>
+<span>硬盘 英特尔（Intel）256GB SSD固态硬盘 M.2接口(NVMe协议) 760P系列 2280板型</span><br>
+<span>显卡 铭瑄 （MAXSUN） MS-GeForce GTX1660Ti 终结者 6G</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>看片调用madvr，设置不同肯定不一样。现在调upscaling到ngr，看老片一全屏显卡风扇就起飞。想换个显卡了。目前是蓝宝的r9 380，心水1660or vega 56。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>西多夫: </b><br>
+<span>平时就是改改图，看看片吧。没感觉到任何提升。</span><br>
+<span>当然这个我有心理预期，目前我也没空玩游戏，主要是这个感觉还不如E3。。。。。</span><br>
+<span>首先那个风扇啸叫的原因就是因为R7温度波动曲线大，风扇的转速是动态调整的，温度一波动风扇就瞬间提速噪音特别大，转一会温度下去风扇就安静了，然后来回循环，这个是在主板调整风扇转速曲线解决的。</span><br>
+<span>另外还遇到一个奇葩的就是内存问题，我买的高频内存只能运行在1000出头的频率上，超频就死机，最后发现要换内存插槽解决，这个是真有够奇葩的。</span><br>
+<span>至于弹幕的问题感觉特别明显，弹幕一多帧率就下降得特别厉害，有时候还会画面停滞卡顿。不排除软件问题吧。</span><br>
+<span>个人感觉懒得折腾还是不要上AMD，太糟心了。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>你的什么E3？2700X居然不如E3？</span><br>
+</p><p><b>西多夫: </b><br>
+<span> 本帖最后由 西多夫 于 2019-5-23 10:29 编辑 </span><br>
+<span>Radeon 发表于 2019-5-23 10:25</span><br>
+<span>你的什么E3？2700X居然不如E3？</span><br>
+<span>E3 1230 V3</span><br>
+<span>应该也不能说不如，还没有在高负载的环境下对比过。目前的使用环境下确实没感觉有任何提升，反而有莫名其妙的问题。</span><br>
+</p><p><b>Baccano: </b><br>
+<span>你这个就是从凯美瑞升级到M3。结果发现天天上班买菜，M3又吵又费油还这么贵，根本比不上凯美瑞。</span><br>
+</p><p><b>bm7号: </b><br>
+<span>我7700k的风扇策略</span><br>
+<span>然后内存不是开个xmp就不用管了么</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>温度波动风扇转速马上提升的确很烦。</span><br>
+<span>弹幕卡顿我也有感觉过，当时觉得是b站的问题。</span><br>
+<span>会有种突然滞留感，现在没感觉了，搞不懂是我习惯了还是解决了。</span><br>
+<span>内存不太应当，截个图看看？</span><br>
+</p><p><b>幽灵胖胖: </b><br>
+<span>踏实了，看来我的3258还能战三年</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>自带风扇不好使不是挺正常么</span><br>
+</p><p><b>西多夫: </b><br>
+<span>哈迪斯兜帽 发表于 2019-5-23 10:35</span><br>
+<span>温度波动风扇转速马上提升的确很烦。</span><br>
+<span>弹幕卡顿我也有感觉过，当时觉得是b站的问题。</span><br>
+<span>会有种突然滞留感，现 ...</span><br>
+<span>内存双通道换下插槽</span><br>
+<span>我网上搜到的解决办法，确实立竿见影，没有深究过是为什么。</span><br>
+<span>供电的差别？</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>原装幽灵 看看就得了 真指望这个拿来压8c16t吗</span><br>
+</p><p><b>西多夫: </b><br>
+<span>bm7号 发表于 2019-5-23 10:35</span><br>
+<span>我7700k的风扇策略</span><br>
+<span>然后内存不是开个xmp就不用管了么</span><br>
+<span>就是开XMP就不定时死机</span><br>
+<span>最后换插槽就解决了。。。。</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>风扇不是BIOS设置的问题么？</span><br>
+</p><p><b>西多夫: </b><br>
+<span>fcbjay 发表于 2019-5-23 10:41</span><br>
+<span>风扇不是BIOS设置的问题么？</span><br>
+<span>可以说是也可以说不是，那个声音超大已经明显影响到日常使用了。</span><br>
+<span>所以说不会折腾懒得折腾不要去用AMD，普通小白用户估计没几个懂得去BIOS调风扇。</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>内存没插满的时候插槽有讲究主板说明书肯定有写。</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>西多夫 发表于 2019-5-23 10:39</span><br>
+<span>内存双通道换下插槽</span><br>
+<span>我网上搜到的解决办法，确实立竿见影，没有深究过是为什么。</span><br>
+<span>供电的差别？ ...</span><br>
+<span>我也不是很懂</span><br>
+<span>不过说明书有推荐安装插槽</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>原装风扇？原装风扇你烤鸡翅么</span><br>
+</p><p><b>Sheny: </b><br>
+<span>西多夫 发表于 2019-5-23 10:27</span><br>
+<span>E3 1230 V3</span><br>
+<span>应该也不能说不如，还没有在高负载的环境下对比过。目前的使用环境下确实没感觉有任何提升，反 ...</span><br>
+<span>日常使用有没有提升是看单线程性能的，amd yes一直讲的是整体性价比，为了证明性价比高，当然也就选择性拿测试结果。举个例子，比游戏帧数经常忽略最低帧，拿平均帧糊弄。而体现一个u真正使用体验及能力，必然是高压力状态下的最低帧效果。单讲性价比非蠢既坏，ryzen 1300性价比更好，怎么不吹…</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-5-23 10:52 编辑 </span><br>
+<span>Ryzen第一代也就同频hasewell的水平</span><br>
+<span>第二代(也许叫1.5代比较合适?)没了解</span><br>
+<span>你原本E3 1230 V3 3.6G</span><br>
+<span>现在你这个3.7G~4.3G 也许因为调度的关系,在线播放视频的时候,处理器是采用了多核低主频的调度模式,所以导致瞬时极限性能不够,这个问题,我用的2500U(2.0~3.6)上也遇见了</span><br>
+<span>所以,现在我看B站,基本就用UWP客户端了,web端放html5,除非用edge,其他的chrome内核的浏览器弹幕是会卡帧的</span><br>
+<span>在我看来,AMD也就对那些支持多核的游戏(或者压片?工业软件?),会比同价位的intel有点优势.其余还是不怎么好用.</span><br>
+<span>我买2500U,纯粹就是为了那块GPU可以AFM插帧.桌面平台,我要是以后更新,是不会考虑AMD的</span><br>
+<span>PS:我台机还在用E3 1285L,对付一下1080P的桌面分辨率,放放html5还是没啥压力的.楼主如果桌面分辨率更高,感觉是会有点吃力的.</span><br>
+</p><p><b>Sheny: </b><br>
+<span>zmw_831110 发表于 2019-5-23 10:50</span><br>
+<span>Ryzen第一代也就同频hasewell的水平</span><br>
+<span>第二代(也许叫1.5代比较合适?)没了解</span><br>
+<span>支持多核心的3a也是outel强，说辞大抵是ryzen便宜，可以加钱到显卡…</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>zmw_831110 发表于 2019-5-23 10:50</span><br>
+<span>Ryzen第一代也就同频hasewell的水平</span><br>
+<span>第二代(也许叫1.5代比较合适?)没了解</span><br>
+<span>等一下… 2500u 用 chrome 看 b 站会弹幕卡顿？我以前老笔记本三代 i5 都不会这样啊</span><br>
+<span>那我就不给朋友推荐 matebook 了…</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-5-23 11:01 编辑 </span><br>
+<span>Sheny 发表于 2019-5-23 10:52</span><br>
+<span>支持多核心的3a也是outel强，说辞大抵是ryzen便宜，可以加钱到显卡…</span><br>
+<span>我现在台机主要就是用来插帧看个1080P的动画</span><br>
+<span>我现在对买个4K的电视都没欲望了.</span><br>
+<span>新房子,我还是打算把现在的50G11搬过去继续用,直接放书房里,为了散热也不挂墙,我严重怀疑,那些短命的PDP都是被挂墙导致散热不佳,热死的,50G11是金属后盖+4个风扇,我现在这台2010年初买的,到现在为止都9年了,依然棒棒的.客厅里,我连电视都不打算买了.</span><br>
+<span>视距2米看50寸</span><br>
+<span>和</span><br>
+<span>视距4米看75寸</span><br>
+<span>我觉得体验上没太大区别了.</span><br>
+</p><p><b>VirMoe: </b><br>
+<span>你们这说的，我还想等zen2出来组3A平台的，之前给朋友推荐电脑都是推荐华为荣耀的本</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>huzhiyangqaz 发表于 2019-5-23 10:55</span><br>
+<span>等一下… 2500u 用 chrome 看 b 站会弹幕卡顿？我以前老笔记本三代 i5 都不会这样啊</span><br>
+<span>那我就不给 ...</span><br>
+<span>因为调度太保守了,瞬时极限性能不够.</span><br>
+<span>TDP也就15W,还是得插着适配器的状态.</span><br>
+<span>如果不是看中那块可以AFM插帧的GPU,真的没必要去买2500U的机子(虽然ENVY X360 锐龙版颜值真的秒杀其他同价位机型)</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>主要问题是内存问题吧，先更新主板bios吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>雪影: </b><br>
+<span>zmw_831110 发表于 2019-5-23 10:50</span><br>
+<span>Ryzen第一代也就同频hasewell的水平</span><br>
+<span>第二代(也许叫1.5代比较合适?)没了解</span><br>
+<span>说起来2500U怎么插帧，驱动面板里没这个选项啊</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sheny: </b><br>
+<span>zmw_831110 发表于 2019-5-23 10:57</span><br>
+<span>我现在台机主要就是用来插帧看个1080P的动画</span><br>
+<span>我现在对买个4K的电视都没欲望了.</span><br>
+<span>新房子,我还是打算把现在的 ...</span><br>
+<span>低分辨率差距大，高分屏瓶颈转到显卡，才是分不出u高下。楼主其实对性能很佛了，主要是一些小毛病不爽。</span><br>
+</p><p><b>Sheny: </b><br>
+<span>雪影 发表于 2019-5-23 11:01</span><br>
+<span>说起来2500U怎么插帧，驱动面板里没这个选项啊</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next- ...</span><br>
+<span>默认隐藏了，可以调出来。具体怎么弄忘了，你百度下</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>雪影 发表于 2019-5-23 11:01</span><br>
+<span>说起来2500U怎么插帧，驱动面板里没这个选项啊</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next- ...</span><br>
+<span>BlueskyFRC</span><br>
+<span>里面选择开启AFM,管理员授权,重启,才可以在AMD的驱动面板里看到AFM选项.否则默认只能插24P,开启后,可以插24P和30P</span><br>
+<span>用个可以调用BlueskyFRC渲染器的播放器,强制调用就可以了.</span><br>
+<span>具体教程自己搜一下,现在应该挺多的了.</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>VirMoe 发表于 2019-5-23 10:58</span><br>
+<span>你们这说的，我还想等zen2出来组3A平台的，之前给朋友推荐电脑都是推荐华为荣耀的本</span><br>
+<span> ...</span><br>
+<span>其实也没啥大问题，但是小问题不断就有点糟心。</span><br>
+<span>神经大条如我也可能用着用着就自动忽略了。</span><br>
+</p><p><b>beflyer: </b><br>
+<span>坐等amd新u发布会，不出意外还是选9400f了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>kvll32: </b><br>
+<span>beflyer 发表于 2019-5-23 11:10</span><br>
+<span>坐等amd新u发布会，不出意外还是选9400f了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>H310C+16G DDR3+9400F</span><br>
+<span>不到1500，真香</span><br>
+</p><p><b>solaris40: </b><br>
+<span>AMD原装风扇是老梗了</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>zmw_831110 发表于 2019-5-23 10:50</span><br>
+<span>Ryzen第一代也就同频hasewell的水平</span><br>
+<span>第二代(也许叫1.5代比较合适?)没了解</span><br>
+<span>主要还是便宜大碗</span><br>
+<span>800多的8c16t 香</span><br>
+</p><p><b>beflyer: </b><br>
+<span>kvll32 发表于 2019-5-23 11:18</span><br>
+<span>H310C+16G DDR3+9400F</span><br>
+<span>不到1500，真香</span><br>
+<span>H310C听说还支持win7？</span><br>
+</p><p><b>melvin117: </b><br>
+<span>Baccano 发表于 2019-5-23 10:33</span><br>
+<span>你这个就是从凯美瑞升级到M3。结果发现天天上班买菜，M3又吵又费油还这么贵，根本比不上凯美瑞。 ...</span><br>
+<span>雅阁换去M3的表示这形容太贴切了，TM后悔没换M5</span><br>
+<span>— from Essential Products PH-1, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>melvin117: </b><br>
+<span>内存跑1000多当然卡爆，这一定要折腾</span><br>
+<span>其次换个猫头鹰风冷还是一颗240一体式吧，自带的风冷蛮烂的</span><br>
+<span>你这种不是压片还是跑模拟器是不会感觉到升级感的，更需要的是换一个高刷新率的屏幕</span><br>
+<span>— from Essential Products PH-1, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>低端人口: </b><br>
+<span>你V3换个毛，我1230V2赔和2080用得很爽，感觉不到CPU的拖累</span><br>
+</p><p><b>Sheny: </b><br>
+<span>melvin117 发表于 2019-5-23 12:20</span><br>
+<span>内存跑1000多当然卡爆，这一定要折腾</span><br>
+<span>其次换个猫头鹰风冷还是一颗240一体式吧，自带的风冷蛮烂的</span><br>
+<span>提升要限定应用的根本不能算提升，高刷领域ryzen更惨，败内存延迟所赐，帧数不稳。还是3a大家一起4k跑个30-50帧，容易遮羞。</span><br>
+</p><p><b>qwased: </b><br>
+<span>我用2200g看斗鱼逼站没卡顿过啊，还是说你在用flash？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>freeforever: </b><br>
+<span> 本帖最后由 freeforever 于 2019-5-23 14:59 编辑 </span><br>
+<span>砍了半天原装风扇？我这里有一台用原装风扇随时过热死机的4790K你觉得怎么样？</span><br>
+<span>原装就对比原装，不要把自己的原装和别人的塔式对比好吗，吔屎啦</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833647[0-50]</guid>
+    </item>
+  </channel>
+</rss>

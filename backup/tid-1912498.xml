@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问如何查找windows弹出窗口背后的流氓(最后还是删除了事)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问如何查找windows弹出窗口背后的流氓(最后还是删除了事)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:22:20 +0000</lastBuildDate>
+    <item>
+      <title>请问如何查找windows弹出窗口背后的流氓(最后还是删除了事)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912498-1-1.html</link>
+      <description>请问如何查找windows弹出窗口背后的流氓&#13;
+
+&#13;
+本来以为是flash，结果没想到删除flash后第二天它又弹了</description>
+      <content:encoded><![CDATA[<p><b>bilibon: </b><br>
+<span>请问如何查找windows弹出窗口背后的流氓</span><br>
+<span>本来以为是flash，结果没想到删除flash后第二天它又弹了</span><br>
+</p><p><b>404489039: </b><br>
+<span>进程看下就知道</span><br>
+</p><p><b>yikaa: </b><br>
+<span>火绒有个弹窗拦截可以看到</span><br>
+</p><p><b>元肉丸子: </b><br>
+<span>看看任务管理器有没有你不认识的进程</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>騜: </b><br>
+<span>火绒 安全工具 弹窗拦截</span><br>
+</p><p><b>bilibon: </b><br>
+<span>感谢，下次弹出来的时候看下，如果找不到就下个火绒去</span><br>
+</p><p><b>董卓: </b><br>
+<span>没人说winspy++？</span><br>
+</p><p><b>ReiFukai: </b><br>
+<span>弹出来的时候看下这个窗口进程的父进程</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>procexp 可以找到弹窗对应的进程</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>是不是装了什么输入法，某些输入法就自带这个。</span><br>
+</p><p><b>gnorz: </b><br>
+<span>选中进程，右键打开到文件夹，就基本能定位到哪个软件了。</span><br>
+</p><p><b>hecas: </b><br>
+<span>简单的话 点右上角三角形 不行就火绒弹窗拦截</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gotu: </b><br>
+<span>http://blog.sina.com.cn/yoozen</span><br>
+<span>试试这个软件</span><br>
+</p><p><b>bilibon: </b><br>
+<span>hecas 发表于 2020-2-6 21:31</span><br>
+<span>简单的话 点右上角三角形 不行就火绒弹窗拦截</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>那三角形只管一天，隔天就出来了</span><br>
+</p><p><b>买表大户: </b><br>
+<span>那些出现在桌面上的狗皮膏药URL要怎么查找来源，以前还是快捷方式现在都进化了</span><br>
+</p><p><b>fireandstar: </b><br>
+<span>同用winspy++</span><br>
+<span>光标拖到窗口上能直接查看窗口隶属哪个进程</span><br>
+</p><p><b>soloviki: </b><br>
+<span>盲猜wps</span><br>
+</p><p><b>我的貓: </b><br>
+<span>也可能来自你已经删掉的国产软件，而且是删掉很久的</span><br>
+</p><p><b>Hibino: </b><br>
+<span>标题“资讯”是不是windows自带的那个“资讯”app啊。。。。。。。不过我也不知道他会不会弹窗因为卸载了。。。。。。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2020-2-7 12:17 编辑 </span><br>
+<span>楼主那个广告界面看着熟悉，但一时不敢确认...</span><br>
+<span>装了最新版的雷电模拟器后，就有弹出类似广告界面，不过弹的不频繁就是了...</span><br>
+<span>今天起来，发现雷电模拟器的广告又来了：</span><br>
+<img src="https://s2.ax1x.com/2020/02/07/1c7aSH.png" title="https://s2.ax1x.com/2020/02/07/1c7aSH.png"><br>
+<span>用任意窗口进程获取软件即可识别，记得是一个ldnew的进程。</span><br>
+<img src="https://s2.ax1x.com/2020/02/07/1cxYkR.png" title="https://s2.ax1x.com/2020/02/07/1cxYkR.png"><br>
+<span>(诶，这玩意不关闭的话还一直吃不少cpu占用...)</span><br>
+<span>nga有专门帖子写多种办法屏蔽雷电模拟器这个广告进程，</span><br>
+<span>不过这个广告也不烦人，白天完全不弹，也就第二天起来发现有了，</span><br>
+<span>估计是半夜才弹的，我也就没实践屏蔽方法，那天闲了在搞吧...</span><br>
+<span>楼主想要屏蔽还想用雷电模拟器，那可以找找nga的帖子去。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>liaojings1 发表于 2020-2-7 11:55</span><br>
+<span>楼主那个广告界面看着熟悉，但一时不敢确认...</span><br>
+<span>装了最新版的雷电模拟器后，就有弹出类似广告界面，不过弹的 ...</span><br>
+<span>卧槽，确实是这个。。。之前夜神一直有问题装了雷电，确实是装了雷电后出来的。。。已经装了火绒了，感谢。</span><br>
+<span>我电脑会关机，所以一直是白天弹，还是有点烦人的</span><br>
+</p><p><b>天桥夜风: </b><br>
+<span>话说这种该如何完全禁止？之前wps的弹窗用火绒的效果是出来以后秒关，而不是不出来，组策略禁止广告进程启动后双击该程序都打不开，然鹅过一会又出来了</span><br>
+</p><p><b>mhss: </b><br>
+<span>雷电模拟器广告屏蔽教程</span><br>
+<span>https://tmr.js.org/p/c12699d6/</span><br>
+<span>屏蔽完后最好装个nova launcher替换原版启动器</span><br>
+</p><p><b>bilibon: </b><br>
+<span>mhss 发表于 2020-2-7 17:48</span><br>
+<span>雷电模拟器广告屏蔽教程</span><br>
+<span>https://tmr.js.org/p/c12699d6/</span><br>
+<span>屏蔽完后最好装个nova launcher替换原版启动器 ...</span><br>
+<span>谢，暂时装了个火绒看看</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>天桥夜风 发表于 2020-2-7 17:03</span><br>
+<span>话说这种该如何完全禁止？之前wps的弹窗用火绒的效果是出来以后秒关，而不是不出来，组策略禁止广告进程启 ...</span><br>
+<span>WPS当然是卸载了用政府泄露版</span><br>
+</p><p><b>netplaying: </b><br>
+<span>我猜是国产pdf类软件</span><br>
+</p><p><b>天桥夜风: </b><br>
+<span>すぴぱら 发表于 2020-2-7 19:53</span><br>
+<span>WPS当然是卸载了用政府泄露版</span><br>
+<span>我就拿这玩意举个例子，别的软件一样的</span><br>
+</p><p><b>塞茜莉娅: </b><br>
+<span>wps，好压，搜狗输入法之类的都会有这种弹窗广告。以前通过进程找到文件夹位置用一个空白的TXT文本修改后缀代替exe启动文件还有用，现在过几天就无效了</span><br>
+</p><p><b>oskneo: </b><br>
+<span>すぴぱら 发表于 2020-2-7 19:53</span><br>
+<span>WPS当然是卸载了用政府泄露版</span><br>
+<span>wps就没些付一次钱以后不用再理会的版本？</span><br>
+</p><p><b>DraQin: </b><br>
+<span>oskneo 发表于 2020-2-8 12:46</span><br>
+<span>wps就没些付一次钱以后不用再理会的版本？</span><br>
+<span>WPS移动版开了会员以后确实不会再弹各种第三方广告了，只剩下自家的东西，但是桌面版好像无解</span><br>
+<span>，不过除了还是会弹窗也没别的了，捏着鼻子还是能用的</span><br>
+<span>实在不爽就装政府版吧</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912498[0-50]</guid>
+    </item>
+  </channel>
+</rss>

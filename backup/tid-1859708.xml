@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>群晖nas加内存和加SSD缓存的作用是啥?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>群晖nas加内存和加SSD缓存的作用是啥?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:39:45 +0000</lastBuildDate>
+    <item>
+      <title>群晖nas加内存和加SSD缓存的作用是啥?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859708-1-1.html</link>
+      <description>群晖nas加内存和加SSD缓存的作用是啥?&#13;
+双十一准备买个ds1019+咨询一下 这玩意加内存和加ssd 有啥意义么?</description>
+      <content:encoded><![CDATA[<p><b>peoplemr: </b><br>
+<span>群晖nas加内存和加SSD缓存的作用是啥?</span><br>
+<span>双十一准备买个ds1019+咨询一下 这玩意加内存和加ssd 有啥意义么?</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>加内存RAM，可能是为了跑更多服务和玩虚拟机</span><br>
+<span>加SSD缓存，理论上是让常访问的文件进入缓存然后速度加快。。。但是个人家庭用，我觉得没啥意义——至少我918+用了没觉得有啥。。。还有，群晖的SSD缓存只针对一个磁盘区</span><br>
+</p><p><b>baicon: </b><br>
+<span>加内存系统速度提升加ssd文件读取速度提升呗</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>docker吃内存，挂个pt能吃1G多</span><br>
+</p><p><b>violind88: </b><br>
+<span>加内存跑docker 加ssd缓存优化读写 不过个人使用都可以不加</span><br>
+</p><p><b>peoplemr: </b><br>
+<span>感觉千兆网口连机械硬盘的的速度都跑不满 加ssd提高文件读取速度是不是有点扯</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>peoplemr 发表于 2019-10-16 10:56</span><br>
+<span>感觉千兆网口连机械硬盘的的速度都跑不满 加ssd提高文件读取速度是不是有点扯 ...</span><br>
+<span>你什么牌子的机械硬盘4k能跑满千兆？</span><br>
+</p><p><b>peoplemr: </b><br>
+<span> 强尼高达 发表于 2019-10-16 11:00 引用:peoplemr 发表于 2019-10-16 10:56 感觉千兆网口连机械硬盘的的速度都跑不满 加ssd提高文件读取速度是不是有点扯 ... 你什么牌子的机械硬盘4k能跑满千兆？ </span><br>
+<span>我nas就是个放视频的仓库对4k读写性能要求不大啊</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>peoplemr 发表于 2019-10-16 11:04</span><br>
+<span>我nas就是个放视频的仓库对4k读写性能要求不大啊</span><br>
+<span>你的是，别人的不是啊</span><br>
+<span>而且连续数据流默认不调用SSD缓存</span><br>
+</p><p><b>全力少年: </b><br>
+<span>涉及大量小格式文件的拷贝等操作时速度能有明显提升</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>ram是辅助主机性能，虽然群晖配置都比较垃圾，ssd是加速读写的</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>nvme槽等于盘位，不一定要当cache用</span><br>
+</p><p><b>john: </b><br>
+<span>R.I.P 发表于 2019-10-16 14:13</span><br>
+<span>nvme槽等于盘位，不一定要当cache用</span><br>
+<span>NVME槽就是cache，不可能当盘位用</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>R.I.P 发表于 2019-10-16 14:13</span><br>
+<span>nvme槽等于盘位，不一定要当cache用</span><br>
+<span>群辉的，默认只能当做缓存。。。。。</span><br>
+<span>或者说，现在有黑科技能破解了当存储空间用？</span><br>
+<span>请指教 </span><br>
+</p><p><b>2stage: </b><br>
+<span>史莱姆KING 发表于 2019-10-16 15:22</span><br>
+<span>群辉的，默认只能当做缓存。。。。。</span><br>
+<span>或者说，现在有黑科技能破解了当存储空间用？</span><br>
+<span>可以ssh进去设置成Vol，好像有些bug。</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>john 发表于 2019-10-16 15:04</span><br>
+<span>NVME槽就是cache，不可能当盘位用</span><br>
+<span>https://www.reddit.com/r/synolog ... _volume_instead_of/</span><br>
+<span>运行了小半年，目前没观察到什么问题 用的是918+</span><br>
+</p><p><b>peoplemr: </b><br>
+<span>R.I.P 发表于 2019-10-16 20:35</span><br>
+<span>https://www.reddit.com/r/synolog ... _volume_instead_of/</span><br>
+<span>运行了小半年，目前没观察到什么问题 用的是9 ...</span><br>
+<span>SSD当存储盘意义在哪啊?</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>peoplemr 发表于 2019-10-16 20:40</span><br>
+<span>SSD当存储盘意义在哪啊?</span><br>
+<span>可以把DSM以及虚拟机放SSD上，速度快些。</span><br>
+<span>我NAS放宿舍里的，夜里挂下载用SSD的话声音也小点</span><br>
+<span>在另外就是省盘位咯</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859708[0-50]</guid>
+    </item>
+  </channel>
+</rss>

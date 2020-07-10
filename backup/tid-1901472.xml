@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问下CPU的发热量怎么调整才能降低</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问下CPU的发热量怎么调整才能降低</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:35:31 +0000</lastBuildDate>
+    <item>
+      <title>问下CPU的发热量怎么调整才能降低[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901472-1-1.html</link>
+      <description>问下CPU的发热量怎么调整才能降低&#13;
+ 本帖最后由 droople 于 2019-12-12 12:29 编辑 
+
+配了台p750tm笔记本，台式9700k的CPU
+
+算boinc
+
+设为8个核全跑，70%时占率(10秒里面有7秒100%占用率)
+
+发热到80多度。
+
+改为8个核全跑，1%时占率(100秒里面1秒100%占用率)
+
+发热70多度
+
+改成2个核跑，70%时占率，还是80多度
+
+这发热量怎么设置才能合适一点啊
+&#13;
+----发送自 OnePlus GM1910,Android 10</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>问下CPU的发热量怎么调整才能降低</span><br>
+<span> 本帖最后由 droople 于 2019-12-12 12:29 编辑 </span><br>
+<span>配了台p750tm笔记本，台式9700k的CPU</span><br>
+<span>算boinc</span><br>
+<span>设为8个核全跑，70%时占率(10秒里面有7秒100%占用率)</span><br>
+<span>发热到80多度。</span><br>
+<span>改为8个核全跑，1%时占率(100秒里面1秒100%占用率)</span><br>
+<span>发热70多度</span><br>
+<span>改成2个核跑，70%时占率，还是80多度</span><br>
+<span>这发热量怎么设置才能合适一点啊</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>降频 降压</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-11 23:55 编辑 </span><br>
+<span>不过我想应该是风扇策略影响你这个温度更大.</span><br>
+<span>频率线性增长,电压二次方增长,</span><br>
+<span>sse avx2 就算同样占用,温度也截然不同.</span><br>
+<span>你开c1e和节能啥的了吗?</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-12-11 23:39 编辑 </span><br>
+<span>我看了全文也不觉得你关心的是发热量，而是温度吧</span><br>
+<span>说明核心间的热量传递速度和核心到散热器之间的传递速度不在一个数量级</span><br>
+<span>如果用牙膏填充的话，就能感受到8个核跑到100度，2个核跑90度的区别了</span><br>
+</p><p><b>暗铁: </b><br>
+<span>什么叫怎么设置热量，100%占用80度怕个球，甚至还能超频</span><br>
+</p><p><b>elflie: </b><br>
+<span>电磁炉怎么打火锅又不热?</span><br>
+<span>答案当然是改水冷啦</span><br>
+</p><p><b>acalephs: </b><br>
+<span>电压，工作频率和电阻电容决定的，要更精确点可以再计算上电磁辐射耗散部分</span><br>
+</p><p><b>johnie: </b><br>
+<span>100%占用80度我99k 5g 开fpu一秒破百 散热器猫头鹰u14</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第1楼孤狼arcueid于2019-12-11 23:33发表的:</span><br>
+<span>降频 降压</span><br>
+<span>@孤狼arcueid</span><br>
+<span>降频是用xtu来吗？3.6ghz的时候的确不怎么发热了，降的是睿频还是原本的频率啊？</span><br>
+<span>降压的话降几个mv好啊，怕自动关机</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第2楼塔奇克马于2019-12-11 23:36发表的:</span><br>
+<span>本帖最后由 塔奇克马 于 2019-12-11 23:55 编辑 不过我想应该是风扇策略影响你这个温......</span><br>
+<span>@塔奇克马</span><br>
+<span>我风扇都设成转速随温度线性变化</span><br>
+<span>节能选项没开，BIOS里面好像没有相关选项</span><br>
+<span>不知道这么把睿频上限设置成4.0</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第4楼暗铁于2019-12-11 23:48发表的:</span><br>
+<span>什么叫怎么设置热量，100%占用80度怕个球，甚至还能超频</span><br>
+<span>@暗铁</span><br>
+<span>上到90就快撞墙了</span><br>
+<span>笔记本散热难啊</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第3楼lwa190212于2019-12-11 23:38发表的:</span><br>
+<span>本帖最后由 lwa190212 于 2019-12-11 23:39 编辑 我看了全文也不觉得你关心......</span><br>
+<span>@lwa190212</span><br>
+<span>我主要有疑问的是为什么8个100的话，2个不是25呢？</span><br>
+<span>没学过热力学。。。</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第7楼johnie于2019-12-12 07:50发表的:</span><br>
+<span>100%占用80度我99k 5g 开fpu一秒破百 散热器猫头鹰u14</span><br>
+<span>@johnie</span><br>
+<span>你这个100度能坚持多久啊</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>沙恩: </b><br>
+<span>这个软件有问题吧</span><br>
+<span>1%占用也能艹到80度去啊</span><br>
+<span>你试试1%占用搞别的卡不卡看看是不是真实占用 </span><br>
+<span>去BIOS关掉6个核心 只用2个物理核心跑 看看是不是还是80度</span><br>
+<span>不过说真的 80度不高</span><br>
+</p><p><b>nexus1: </b><br>
+<span>droople 发表于 2019-12-12 08:05</span><br>
+<span>@lwa190212</span><br>
+<span>我主要有疑问的是为什么8个100的话，2个不是25呢？</span><br>
+<span>没学过热力学。。。</span><br>
+<span>你先吧摄氏温标改成开氏温标吧</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第14楼nexus1于2019-12-12 08:46发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 08:05@lwa190212我主要有疑问的是为......</span><br>
+<span>@nexus1</span><br>
+<span>有理</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第13楼沙恩于2019-12-12 08:36发表的:</span><br>
+<span>这个软件有问题吧1%占用也能艹到80度去啊你试试1%占用搞别的卡不卡  看看是不是真实占用 去BIO......</span><br>
+<span>@沙恩</span><br>
+<span>这个软件的1%占用是用脉冲方式实现的，就是100秒里面一秒100%占用，这个样子</span><br>
+<span>不是说80度对CPU寿命也会有很大影响吗？</span><br>
+<span>看英文网站说一直80度的话CPU寿命可能只有1-3年，还是胡扯?</span><br>
+<span>我原来是准备24/7这样跑的</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>johnie: </b><br>
+<span>droople 发表于 2019-12-12 08:27</span><br>
+<span>@johnie</span><br>
+<span>你这个100度能坚持多久啊</span><br>
+<span>第二秒就黑屏了</span><br>
+</p><p><b>n2z: </b><br>
+<span>回答一下标题吧</span><br>
+<span>发热量是由电流和电阻决定的（初中物理）</span><br>
+<span>假如电路结构不变，通过提高工艺、原料等，可以在一定程度上降低发热</span><br>
+<span>但对于cpu里面的逻辑电路来说，还有一种发热无法避免。以与门为例，两个输入一个输出，这个过程不可逆，导致出现信息的丢失。A & B = 0，无法推断A和B是什么值，原来的信息丢了，计算过程不可逆。这部分丢掉的信息，会以热量的方式散发出去。这一条是前段时间看妈咪叔的视频才知道的</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第17楼johnie于2019-12-12 09:21发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 08:27@johnie你这个100度能坚持多久......</span><br>
+<span>@johnie</span><br>
+<span>那不是基本没用么</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>macos: </b><br>
+<span>n2z 发表于 2019-12-12 09:31</span><br>
+<span>回答一下标题吧</span><br>
+<span>发热量是由电流和电阻决定的（初中物理）</span><br>
+<span>嗯？这是原因吗，信息丢失只是结果吧</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第18楼n2z于2019-12-12 09:31发表的:</span><br>
+<span>回答一下标题吧发热量是由电流和电阻决定的（初中物理）假如电路结构不变，通过提高工艺、原料等，可以在一......</span><br>
+<span>@n2z</span><br>
+<span>发热量不是电流x电压吗？我初中物理有点忘记了</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>droople 发表于 2019-12-12 08:49</span><br>
+<span>@nexus1</span><br>
+<span>有理</span><br>
+<span>用刚才的平均算法，化成开尔文就更完蛋了，(273+100)/8*2=93k</span><br>
+<span>直接就-180度了啦</span><br>
+</p><p><b>nexus1: </b><br>
+<span>macos 发表于 2019-12-12 10:47</span><br>
+<span>嗯？这是原因吗，信息丢失只是结果吧</span><br>
+<span>不是结果，计算必然消耗能量，必然产生热量</span><br>
+</p><p><b>albertfu: </b><br>
+<span>droople 发表于 2019-12-12 10:59</span><br>
+<span>@n2z</span><br>
+<span>发热量不是电流x电压吗？我初中物理有点忘记了</span><br>
+<span>那是R=IU。。。</span><br>
+<span>CPU发热量是和U^2*Freq*Usage成正比的</span><br>
+</p><p><b>bm7号: </b><br>
+<span>降电压，然后你说的1秒80度就是散热的事。</span><br>
+</p><p><b>macos: </b><br>
+<span>nexus1 发表于 2019-12-12 11:05</span><br>
+<span>不是结果，计算必然消耗能量，必然产生热量</span><br>
+<span>即使电路上做到输出可逆，也有能量消耗啊，或者说叫转化，信息只是载体下的表现，并不和转换过程成正比</span><br>
+</p><p><b>松霖: </b><br>
+<span>把pl1降了咯</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第24楼albertfu于2019-12-12 11:07发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 10:59@n2z发热量不是电流x电压吗？我初中......</span><br>
+<span>@albertfu</span><br>
+<span>那看来降压是最有效的控制热量的方式？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第27楼松霖于2019-12-12 11:18发表的:</span><br>
+<span>把pl1降了咯</span><br>
+<span>@松霖</span><br>
+<span>我去看看BIOS里面有没有</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>albertfu: </b><br>
+<span>droople 发表于 2019-12-12 11:18</span><br>
+<span>@albertfu</span><br>
+<span>那看来降压是最有效的控制热量的方式？</span><br>
+<span>对，只要不会死机，电压越低越好，毕竟就它一个是平方正比</span><br>
+</p><p><b>vorastrix: </b><br>
+<span>bios降压</span><br>
+<span>你不需要就别全核超频，睿频就完事了</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第31楼vorastrix于2019-12-12 11:21发表的:</span><br>
+<span>bios降压你不需要就别全核超频，睿频就完事了</span><br>
+<span>@vorastrix</span><br>
+<span>我一点都没有超频，睿频就高温了</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>vorastrix: </b><br>
+<span>droople 发表于 2019-12-12 11:32</span><br>
+<span>@vorastrix</span><br>
+<span>我一点都没有超频，睿频就高温了</span><br>
+<span>刚注意到你是笔记本</span><br>
+<span>调整风扇曲线</span><br>
+<span>手动慢慢降压到稳定极限</span><br>
+<span>你要是不需要这么强的性能的话，手动降频，关闭睿频</span><br>
+<span>最后，虽然有点蠢，但是看看硅脂，第一是原厂硅脂可能涂抹不行质量太差，第二是导热率高的硅脂确实能有限降温</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第33楼vorastrix于2019-12-12 11:41发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 11:32@vorastrix我一点都没有超频，......</span><br>
+<span>@vorastrix风扇反正最高转速温度也下不来</span><br>
+<span>睿频8核全开是4.6，主频是3.6，有方法能把睿频调到4.0吗？</span><br>
+<span>硅脂我手残，不敢自己涂，推荐什么牌子硅脂啊？相变要是能有台式机大小的就好了</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>暗铁: </b><br>
+<span>搞计算就不要用这种脉冲方式了，温度不是跟频率线性增长，3.6G跑满100%时间比你4.0G跑80%时间不是更快吗，BIOS有选项的话锁个4.0G试试呗，看看多低的电压能跑过测试，再看温度怎样</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第35楼暗铁于2019-12-13 01:46发表的:</span><br>
+<span>搞计算就不要用这种脉冲方式了，温度不是跟频率线性增长，3.6G跑满100%时间比你4.0G跑80%时......</span><br>
+<span>@暗铁</span><br>
+<span>8核睿频是4.6,所以应该是4.6＊70%?</span><br>
+<span>不过我现在基本上是用3.6＊70%才能把温度控制在74度下面了。。。</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>xmann: </b><br>
+<span>换水冷，上液金。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>1/100秒温度还降不下来，显然是散热器能力不足或者机箱闷罐</span><br>
+</p><p><b>vorastrix: </b><br>
+<span>droople 发表于 2019-12-12 12:32</span><br>
+<span>@vorastrix风扇反正最高转速温度也下不来</span><br>
+<span>睿频8核全开是4.6，主频是3.6，有方法能把睿频调到4.0吗？</span><br>
+<span>硅脂 ...</span><br>
+<span>频率在bios里，调倍频调到x40就行，非常简单</span><br>
+<span>换硅脂也很容易，船我记得都挺好拆的吧？对应型号找视频就好</span><br>
+<span>至于硅脂品牌，在s1直接搜硅脂这两个字就行，大量的讨论贴，选一个价格性能都满足你需求的就行</span><br>
+<span>液态金属别折腾，短路就gg了</span><br>
+<span>硅脂涂抹的方法，完全擦干净之后，在中心挤上黄豆大小的一点，直接压上去就好</span><br>
+<span>或者以cpu中心点为中心画个十字</span><br>
+<span>硅脂不是越多越好，硅脂的原理是填平散热器和cpu之间的细小空隙</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第39楼vorastrix于2019-12-13 17:21发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 12:32@vorastrix风扇反正最高转速温......</span><br>
+<span>@vorastrix</span><br>
+<span>谢谢，我去BIOS里找找看，xtu可以把睿频降到4.0吗？</span><br>
+<span>涂硅脂的话可不可以就用信用卡在顶盖上挂到若有若无啊</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901472[0-50]</guid>
+    </item>
+  </channel>
+</rss>

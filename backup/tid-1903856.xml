@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谁能讲解下关于IPv6的各种概念？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谁能讲解下关于IPv6的各种概念？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:41 +0000</lastBuildDate>
+    <item>
+      <title>谁能讲解下关于IPv6的各种概念？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903856-1-1.html</link>
+      <description>谁能讲解下关于IPv6的各种概念？&#13;
+想搞一下IPv6组网，就先去了解一些基础知识，但半天还是搞不懂各种概念……
+&#13;
+DHCPv6、SLAAC、NDP、PD到底都是什么意思？为什么Android不支持DHCPv6，SLAAC又不支持大于/64的前缀？为什么运营商没有启用PD的话路由器下的内网就无法正常使用IPv6？运营商分配给家庭网关的是一个可以自由分配的网段吗？有没有什么系统性的讲解文章能帮助理解这些概念？</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>谁能讲解下关于IPv6的各种概念？</span><br>
+<span>想搞一下IPv6组网，就先去了解一些基础知识，但半天还是搞不懂各种概念……</span><br>
+<span>DHCPv6、SLAAC、NDP、PD到底都是什么意思？为什么Android不支持DHCPv6，SLAAC又不支持大于/64的前缀？为什么运营商没有启用PD的话路由器下的内网就无法正常使用IPv6？运营商分配给家庭网关的是一个可以自由分配的网段吗？有没有什么系统性的讲解文章能帮助理解这些概念？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>先说一下目前我的一些粗浅理解，IPv6是运营商分配给个人家庭一个网段，地址前缀一般是/64，然后个人可以随意分配这个网段下的地址给各种设备，每个地址都是公网地址，这样理解对吗？</span><br>
+</p><p><b>ChengChung: </b><br>
+<span>你这些问题搜索引擎都能回答你</span><br>
+<span>原则上IPv6池子够大，因此很多设计上都是无状态的，可以节省路由器的维护数据的开销，比如说SLAAC，比如说没有NAT（当然也可以有，毕竟NAT的目的之一是伪装）</span><br>
+<span>简单的理解：</span><br>
+<span>DHCPv6是个有状态的地址分配，既然是分配，不免要避免内部地址冲突，因此需要有人知道哪些IP被用了，这就是DHCP服务器维护的信息，</span><br>
+<span>SLAAC是路由器告诉整个网段前缀是什么，至于地址分配，路由器不关心，客户端自己生成一个地址，并在整个网段里问有没有冲突，没有就直接拿来用了</span><br>
+<span>NDP=IPv6的ARP</span><br>
+<span>PD一般是运营商给你一个网段，让你自己在内网下发网段用的吧</span><br>
+<span>Android为什么不支持DHCPv6？不知道，google在推广和拒绝东西的时候很激进，不支持一样东西是不需要理由的</span><br>
+<span>SLAAC不支持比/64小的网段你可以理解做是一种规定，用更小的网段的时候我觉得解决方法一般就是静态或DHCP</span><br>
+<span>为什么运营商没有启用PD的话路由器下的内网就无法正常使用IPv6，这个问题你再想想？原则上路由器只要拿到一个合法的地址，你又愿意在路由器上做NAT的话，是可以让内网访问v6的，但这不是现在推广ipv6的方法</span><br>
+<span>运营商分配给你的网段你可以在内部自由分配，只要你内部路由配置正确都是可以使用的</span><br>
+<span>系统性的文章？你拿关键字去狗东自己找本书吧，网络的概念很多的。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>ChengChung 发表于 2019-12-18 19:46</span><br>
+<span>你这些问题搜索引擎都能回答你</span><br>
+<span>原则上IPv6池子够大，因此很多设计上都是无状态的，可以节省路由器的维护数 ...</span><br>
+<span>意思是PD是在给路由器分配地址之外再额外指定一个网段？</span><br>
+<span>这个帖子里的分发前缀就是PD单独给的，所以也不需要跟路由器地址相同？https://bbs.saraba1st.com/2b/thread-1798194-1-1.html</span><br>
+</p><p><b>ChengChung: </b><br>
+<span>rentrody 发表于 2019-12-18 20:11</span><br>
+<span>意思是PD是在给路由器分配地址之外再额外指定一个网段？</span><br>
+<span>这个帖子里的分发前缀就是PD单独给的，所以也不 ...</span><br>
+<span>就我理解的话，WAN口的IP地址是PPPoE带过来的，是用来与上游路由器交换报文用的</span><br>
+<span>PD指出的地址是给LAN口分配地址用的</span><br>
+</p><p><b>downforce: </b><br>
+<span>我这IPv6的测试都通过，但是浏览网站还是通过IPv4。</span><br>
+<span>比如联通的官网。</span><br>
+<span>此测试的原理： 你的浏览器会试图连接一系列 URL，结果成功与否能说明你的系统是否已准备好迎接 IPv6。</span><br>
+<span>点击查看 技术信息</span><br>
+<span>IPv4 域名连接测试               </span><br>
+<span>成功 (1.006s) 使用 ipv4</span><br>
+<span>IPv6 域名连接测试               </span><br>
+<span>成功 (1.302s) 使用 ipv6</span><br>
+<span>双栈域名连接测试               </span><br>
+<span>成功 (1.277s) 使用 ipv4</span><br>
+<span>双栈域名大数据包传输测试               </span><br>
+<span>成功 (0.472s) 使用 ipv4</span><br>
+<span>无域名 IPv4 连接测试               </span><br>
+<span>跳过 (0.448s)</span><br>
+<span>无域名 IPv6 连接测试               </span><br>
+<span>跳过 (1.906s)</span><br>
+<span>IPv6 大数据包传输测试               </span><br>
+<span>成功 (0.394s) 使用 ipv6</span><br>
+<span>测试运营商 DNS 是否接入 IPv6               </span><br>
+<span>成功 (0.336s) 使用 ipv6</span><br>
+<span>查询 IPv4 运营商               </span><br>
+<span>成功 (2.008s) 使用 ipv4 ASN 4134</span><br>
+<span>查询 IPv6 运营商               </span><br>
+<span>成功 (2.947s) 使用 ipv6 ASN 4134</span><br>
+<span>你的浏览器正在排斥 IPv6。</span><br>
+<span>我们的发现 为何倾向 IPv4 为何这使我们担忧</span><br>
+<span>本页面解释了我们为什么担心你优先使用 IPv4 而非 IPv6。</span><br>
+<span>我们的发现</span><br>
+<span>仅当我们在测试结果中向你提供了此页链接时，本节的内容才适用。</span><br>
+<span>首先，我们检测到你的 IPv6 连接已经可用，而且用的是“真正”的 IPv6 地址，而不是 Teredo 或 6to4 地址。</span><br>
+<span>但我们还检测到，你的浏览器选择协议时倾向于使用 IPv4，而非 IPv6。这让我们有点担心。</span><br>
+<span>为何倾向 IPv4</span><br>
+<span>浏览器倾向于使用 IPv4 而非 IPv6 有几个可能的原因。</span><br>
+<span>Google Chrome 浏览器具有“快速回退”（fast fallback）机制。首次访问一个网站时，它倾向于使用 IPv6；但如果连接用时超过三分之一秒，IPv4 连接也会开始，最后通过表现较好的连接访问该网站。 （更多信息）</span><br>
+<span>Firefox（近期的版本）也采取了 Chrome 的做法。 （更多信息）</span><br>
+<span>Windows 7 以上版本的操作系统会定期测试 IPv6 是否正常运转。如果未通过测试，许多程序（包括 Internet Explorer）就会使用 IPv4，以免你使用错误的 IPv6 配置。 （更多信息）</span><br>
+<span>Apple 的 Mac OS X Lion 和 OS X Mountain Lion 版本会根据指定的目标自动选择较快的协议。 OS X 10.11 El Capitan 与 iOS 9 开始略微倾向于 IPv6，但如果网络条件只允许 IPv4，它们也会进行回退。 （更多信息）</span><br>
+<span>为何这使我们担忧</span><br>
+<span>当你使用互联网时，你的计算机与你要连接到的服务之间会建立一个连接。要想建立连接，你必须先知道对方的 IP（网际协议）地址，并且在你连接时，对方也能看到你的 IP 地址，这样他们才能把信息发回给你和你的程序。</span><br>
+<span>20 世纪末 21 世纪初以来我们一直使用的网络协议的地址已经耗尽。通过多台机器共用地址的方式，我们仍可以继续使用这种协议，但是会受到一些限制。家庭或工作网络就经常采用这种方式。</span><br>
+<span>问题在于，互联网服务提供商不得不面临一个事实：这种地址共享的规模将越来越大。你可能已经听过这些术语：NAT、CGN、运营商级 NAT、LSN、大规模 NAT。他们差不多都长这样：</span><br>
+<img src="https://test-ipv6.com/images/ipv4_nat_1.jpg" title="https://test-ipv6.com/images/ipv4_nat_1.jpg"><br>
+<span>需要注意的是：许多人共用了同一个公网地址。</span><br>
+<span>如果谁家有个无聊的黑客，或者（更有可能）有台脆弱的电脑，不更新，也不装杀毒软件，结果会怎样？要是那台电脑开始攻击你的网银或者常用的网站呢？</span><br>
+<span>那些网站最后只能靠屏蔽流量来保护自己。不幸的是，他们只知道你们共用的地址，于是他们只好这样屏蔽：</span><br>
+<img src="https://test-ipv6.com/images/ipv4_nat_2.jpg" title="https://test-ipv6.com/images/ipv4_nat_2.jpg"><br>
+<span>这可不是什么好事。而最有效的解决办法就是确保你的 IPv6 运行正常，并且是首选的协议。</span><br>
+<span>大多数操作系统和浏览器本身都强烈倾向于 IPv6，而非（可能正和别人共用地址的）IPv4。如果你的浏览器并非如此，而你想改变现状，去联系浏览器厂商吧。你也可以换一个正常的浏览器作为权宜之计。</span><br>
+<span>如果我二者都有，还有哪些理由关心倾向 IPv4 还是 IPv6 的问题？</span><br>
+<span>当你和其他城市的人共用 IPv4 地址时，自动测定你位置的网站会更容易出错。</span><br>
+<span>用来共用地址的设备资源（CPU、网络、TCP 端口）有限，可能影响网络性能。</span><br>
+<span>这个设备也是可能导致网络中断的重要隐患。</span><br>
+<span>共用 IPv4 地址给运营商带来的额外开销，最终将被转嫁给客户。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>之前也想搞清楚，为啥我的杭州电信宽带测出来不是v6，嘛，算了，想想速度够快就行了，v6也不能多上几个不存在的网。。</span><br>
+</p><p><b>diablost3: </b><br>
+<span>你还是找一本教材</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903856[0-50]</guid>
+    </item>
+  </channel>
+</rss>

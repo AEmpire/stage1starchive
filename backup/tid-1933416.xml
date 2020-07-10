@@ -1,0 +1,1256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>手把手教你如何DIY便携显示器</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>手把手教你如何DIY便携显示器</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:05:59 +0000</lastBuildDate>
+    <item>
+      <title>手把手教你如何DIY便携显示器[150-200]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933416-1-1.html</link>
+      <description>手把手教你如何DIY便携显示器&#13;
+ 本帖最后由 yuuu 于 2020-5-8 16:21 编辑 
+
+PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品回收屏，但响应者寥寥。最大的原因还是DIY显示器属于非常小众的玩法，大多数人因为不了解对其望而却步，最后在肛需的情况下图省事买一个。所以为了授S1er们以渔，我一直有一个做教程的想法，刚好最近运气好低价收到了两块笔记本屏，就把DIY的要点简单写一下。不过在本文写成的同时，某国内显示器大厂已经推出了15.6寸便携显示器，建议没特殊需求的话可以优先考虑大厂的。
+&#13;
+一、为什么要自己DIY便携显示器
+&#13;
+除去大佬们反复劝说的自己DIY可以选用原封A+屏幕，保障最基本的显示效果外，另外一个好处就是可以自由地选择自己喜欢的屏。作坊成品虽然眼花缭乱，但为了降低成本，避免反复开模，屏幕的选择基本上都是几款素质一般的8bit甚至是6bit屏，但凡要求稍微高一点都只能自己DIY，不要说想要10bit或者高刷新率屏了。当然DIY也是有不少的缺点的，除了一点点动手能力之外，DIY使用的外壳只能使用作坊成品淘汰的方案，无法使用你现在看到的那些漂亮的外壳。不过话又说回来，那些追求轻薄窄边的外壳是没有办法容纳螺丝位的，所有部件全靠胶粘，稳定性是不如DIY外壳的。
+&#13;
+二、DIY便携显示器套件的选购
+&#13;
+本文的目的是轻松DIY显示器，并不打算介绍定制铝合金外壳、亚克力板或者裸奔等高端玩法，只介绍选用能非常轻松买到的成品外壳的方法。因为外壳涉及到驱动板上各种接口的开口，所以外壳和驱动板必须一起买。所以在这里把外壳+驱动板+按键板+屏线+扬声器等其他配件——换言之就是除屏以外全套——称为套件。在这么苛刻的要求下，我们在套件上的选择非常有限。所幸在便携显示器市场的火爆下（这里必须夸奖一下作坊们），我们还是有三种套件可以用。我们姑且把它们称为ABC款。
+&#13;
+A款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg
+&#13;
+B款
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg
+&#13;
+C款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg
+&#13;
+A款是出现最早的套件，支持的屏幕种类也最多，B款是A款的改进型，但B款目前没法支持4K或者120HZ以上的屏。两款套件都有13到17寸间的各种尺寸，都可以选搭支持switch一线通的驱动。最重要的是，这两款套件内部的元件（不包括屏）都是用螺丝固定的，不仅安装方便，还能避免大量打胶造成屏幕受力不均导致背光不均匀。当然屏幕本身还是要用双面胶固定的。
+&#13;
+C款就是之前火爆一时的阶梯型外壳，随着作坊外壳的更新换代淘汰到了DIY市场上。      C款是能买到的最漂亮的DIY套件，还能选购磁吸皮套。支持的屏幕尺寸和种类也非常全，4K 10BIT屏幕和高刷新屏幕也全部支持，也可以选搭支持switch一线通的驱动。但是有一个致命的缺点，和作坊成品一样，这种轻薄窄边的东西是没办法螺丝固定的，全部元器件和屏幕都需要大量打胶，对自己打胶功力没信心的还是建议选购A或者B。
+&#13;
+三、屏幕的选购
+&#13;
+买屏幕不难，难的是买到真正的全新A+屏幕，而不是翻新的。这里提供几个思路，基本上可以让你买到心仪的屏幕
+&#13;
+上策：去阿x巴巴买屏。屏库上的一级屏幕代理商大多都会在阿x巴巴开店，根据屏库上的代理商名字按图索骥很容易找到，如果运气好你要的屏幕型号可以一片起批，那么就可以买到没有后顾之忧的屏了。
+&#13;
+中策：去x宝买，不过要让他们承诺“保证没换过偏光膜和背光”并复述一遍，虽然不能保证没有卖家承诺完了转身给你一套回收屏，但至少万一遇到了问题退货是有底气的。
+&#13;
+下策：x鱼找笔记本换屏党的屏幕。换屏党换个屏就和换个显卡一样随意，运气好了经常能低价淘到好屏。对x鱼功力比较自信的人可以试试。
+&#13;
+还有一个问题是确定屏幕型号，我想能确定要DIY的人应该都对使用屏库查屏幕型号和参数的操作比较熟练。万一你不了解屏幕型号，又想DIY，可以买套件的时候找卖家要标准屏幕型号，当然买屏还是按照上面的方法。
+&#13;
+四、安装
+&#13;
+这次淘到的两块屏一块是最强15.6寸屏B156ZAN04.1，4K10bit，100%argb，被惠普用在15寸zbook工作站上作为dreamcolor屏；另一块是n156hhe-ga1，1080p 60hz，最强TN屏，作为TN屏却有不输高端IPS的色彩表现，非常难得。
+&#13;
+因为n156hhe-ga1有耳朵没办法用窄边套件，所以把它装到A套件里。安装很简单，套件底壳卖家已经预先安装好了所有元器件
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg
+&#13;
+用双面胶把屏黏在前壳上，插好屏线合上两片壳就行
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg
+&#13;
+B156ZAN04.1装在C套件里。
+&#13;
+首先是用一点双面胶把屏幕固定在前壳上，注意显示区域要和前壳开口摆对位，因为后面要上胶，不像AB款那样可以随时把屏幕再拆下来调整
+&#13;
+然后在屏幕和驱动板、按键板接触的地方贴一层绝缘胶带，再放一点双面胶
+&#13;
+把驱动板和按键板嵌到洞里
+&#13;
+然后上胶，必要的地方可以用隔热胶带保护
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg
+&#13;
+外观实拍
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg
+&#13;
+显示效果，左边为b156zan04.1，右边为n156hhe-ga1
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg
+&#13;
+b156zan04.1
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg
+&#13;
+n156hhe-ga1
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg
+&#13;
+一线通演示
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg</description>
+      <content:encoded><![CDATA[<p><b>whzfjk: </b><br>
+<span>想直接买个13.3吋的把手头的13.3吋外壳+驱动板废物利用，不过 aida64 显示屏幕厂商 mot-s 型号 FSL2A3B，完全没有资料，担心驱动会不会不兼容别处买的 13.3 吋屏。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>whzfjk 发表于 2020-6-2 01:22</span><br>
+<span>想直接买个13.3吋的把手头的13.3吋外壳+驱动板废物利用，不过 aida64 显示屏幕厂商 mot-s 型号 FSL2A3B，完 ...</span><br>
+<span>这种型号信息基本没用，拆机看标签吧</span><br>
+</p><p><b>aele: </b><br>
+<span>大厂是说打人国度那个？</span><br>
+</p><p><b>净水计划: </b><br>
+<span>折腾了两个多小时终于粘好了，第一次玩这个确实不应该用粘胶型的套件</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>心痒了，几个问题：</span><br>
+<span>1. 我看A款卖的最多的那家（趋xxx），双TYPE-C+miniHDMI用的是mstar的芯片，比起螃蟹的来说有什么差别（就少个miniHDMI么）？</span><br>
+<span>2. 想上4k+触控的话，搜了一圈似乎没有靠谱的触控屏，是不是得用电容屏+正常屏幕自己套娃？</span><br>
+<span>3. 广色域屏调色问题怎么解决？靠驱动板、icc文件还是得租个校色仪</span><br>
+</p><p><b>yuuu: </b><br>
+<span>aele 发表于 2020-6-2 09:15</span><br>
+<span>大厂是说打人国度那个？</span><br>
+<span>还有红裤衩和索尼克</span><br>
+</p><p><b>yuuu: </b><br>
+<span>dongjuanyong 发表于 2020-6-2 14:24</span><br>
+<span>心痒了，几个问题：</span><br>
+<span>1. 我看A款卖的最多的那家（趋xxx），双TYPE-C+miniHDMI用的是mstar的芯片，比起螃蟹的 ...</span><br>
+<span>mstar和rtd没有肉眼可见的明显区别</span><br>
+<span>建议用触控屏+支持触控的驱动，自己套可能触控接线是个问题</span><br>
+<span>建议校色仪</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>yuuu 发表于 2020-6-2 14:34</span><br>
+<span>mstar和rtd没有肉眼可见的明显区别</span><br>
+<span>建议用触控屏+支持触控的驱动，自己套可能触控接线是个问题</span><br>
+<span>建议校色 ...</span><br>
+<span>关键是找不到4k的触控屏（还是姿势不对？）</span><br>
+<span>看了看接口一般触控和驱动板上都是usb1.0，无非就是端子大小和线序的问题</span><br>
+</p><p><b>yuuu: </b><br>
+<span>dongjuanyong 发表于 2020-6-2 15:00</span><br>
+<span>关键是找不到4k的触控屏（还是姿势不对？）</span><br>
+<span>看了看接口一般触控和驱动板上都是usb1.0，无非就是端子大小 ...</span><br>
+<span>看了一下确实没有。4k触控多为笔记本大厂定制，可能批量流到市场上比较难</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>like0036: </b><br>
+<span>yuuu 发表于 2020-6-1 18:48</span><br>
+<span>目前15.6最好的是b156zan04.1/4.2，常见套件都能轻松点亮，只是注意需要40pin 0.5mm转0.4mm的屏线。 ...</span><br>
+<span>看了下NE156QUM-N66这块跟b156zan04.1基本一毛一样。。还便宜 但是套件要4K只能A套了？其实挺心水C套的 家里也有热熔胶的枪</span><br>
+</p><p><b>yuuu: </b><br>
+<span>like0036 发表于 2020-6-3 16:09</span><br>
+<span>看了下NE156QUM-N66这块跟b156zan04.1基本一毛一样。。还便宜 但是套件要4K只能A套了？其实挺心水C套的...</span><br>
+<span>c套可以啊，我的04.1就是c套，只是c套没dp不能4k@60hz@rgb444@10bit</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>百合豚: </b><br>
+<span>请问一下1080p 高刷30针有哪款推荐的屏，想给老笔记本升级一下</span><br>
+</p><p><b>谎言: </b><br>
+<span>看了帖子，下单了个寨厂显示器，340块的一线通，打switch太舒服了。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>annoth: </b><br>
+<span>谎言 发表于 2020-6-7 21:02</span><br>
+<span>看了帖子，下单了个寨厂显示器，340块的一线通，打switch太舒服了。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 A ...</span><br>
+<span>能私信下是哪家的么</span><br>
+</p><p><b>谎言: </b><br>
+<span>annoth 发表于 2020-06-18 09:19:03</span><br>
+<span>能私信下是哪家的么搜便携式显示器，价格最便宜的那家。这东西各家寨厂东西都差不多，再怎么样也比switch本身的屏幕好太多。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>银翼的维罗西: </b><br>
+<span>下单了楼主同型号的屏和一组窄边框套料，被卖家告知要上胶，手残瑟瑟发抖中</span><br>
+</p><p><b>annoth: </b><br>
+<span>谎言 发表于 2020-6-18 09:50</span><br>
+<span>搜便携式显示器，价格最便宜的那家。这东西各家寨厂东西都差不多，再怎么样也比switch本身的屏幕好太多。</span><br>
+<span> ...</span><br>
+<span>找了圈，没有你那个价格的，加上一线通13寸的都要400多了</span><br>
+</p><p><b>flyinghigherair: </b><br>
+<span>有没有大佬做的多的能ns一线通的转让一块</span><br>
+</p><p><b>sekitomokazu: </b><br>
+<span>mark</span><br>
+</p><p><b>narutoz: </b><br>
+<span>天堂懵懂人 发表于 2020-5-26 22:33</span><br>
+<span>自己折腾时候的一点小细节</span><br>
+<span>目前最合适的用途</span><br>
+<span>求私信一下店铺名字</span><br>
+</p><p><b>nihse: </b><br>
+<span>annoth 发表于 2020-6-20 11:51</span><br>
+<span>找了圈，没有你那个价格的，加上一线通13寸的都要400多了</span><br>
+<span>我是pdd买的，13寸瑕疵屏，到手发现偏蓝，但是看惯了还好，没发现什么能一眼注意的瑕疵，</span><br>
+<span>加上各种券只花了217</span><br>
+</p><p><b>BAKA林: </b><br>
+<span>B156ZAN04.1找了半天，问了屏库里面那几家基本上都没有了，sad。有上车的人给推荐一家店吗。。。</span><br>
+</p><p><b>银翼的维罗西: </b><br>
+<span>我翻车了，打一晚上的的胶，根本就粘不上，这边框才三毫米真的能黏上吗，手残党的末日，有没有巨巨指导下</span><br>
+</p><p><b>yuuu: </b><br>
+<span>银翼的维罗西 发表于 2020-6-23 23:26</span><br>
+<span>我翻车了，打一晚上的的胶，根本就粘不上，这边框才三毫米真的能黏上吗，手残党的末日，有没有巨巨指导下</span><br>
+<span>主要粘底边，底边粘结实了另外三边不粘都没事。</span><br>
+<span>实在不行，把残胶清理了，寄回套件卖家给你粘把。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>BAKA林 发表于 2020-6-23 18:10</span><br>
+<span>B156ZAN04.1找了半天，问了屏库里面那几家基本上都没有了，sad。有上车的人给推荐一家店吗。。。 ...</span><br>
+<span>现在有个4.2了，我明天找找告诉你。</span><br>
+</p><p><b>BAKA林: </b><br>
+<span>yuuu 发表于 2020-6-24 00:10</span><br>
+<span>现在有个4.2了，我明天找找告诉你。</span><br>
+<span>感谢！4.2和4.1有什么区别吗</span><br>
+</p><p><b>yuuu: </b><br>
+<span>BAKA林 发表于 2020-6-24 00:37</span><br>
+<span>感谢！4.2和4.1有什么区别吗</span><br>
+<span>4.2还没有具体的规格书，猜测是小幅升级版</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>akiless: </b><br>
+<span>看了楼主的分享也特别想自己做一块，不过感觉这东西还是难在屏幕知识和购买</span><br>
+</p><p><b>kk89897: </b><br>
+<span>发现寨机koios的k2719也只是1K多一点，和zan 4.1一套下来差不多，就是27寸太大了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>kk89897 发表于 2020-6-24 17:48</span><br>
+<span>发现寨机koios的k2719也只是1K多一点，和zan 4.1一套下来差不多，就是27寸太大了 ...</span><br>
+<span>自己组的意义在于保证屏幕质量而不是省钱，要省钱当然是作坊成品省钱</span><br>
+</p><p><b>凉宫春日的野望: </b><br>
+<span>yuuu 发表于 2020-6-24 00:09</span><br>
+<span>主要粘底边，底边粘结实了另外三边不粘都没事。</span><br>
+<span>实在不行，把残胶清理了，寄回套件卖家给你粘把。 ...</span><br>
+<span>用胶的真的应该试试t8000胶水，之前自己修手机的时候买的</span><br>
+<span>我昨天用手按到了屏幕，胶水是没事，屏幕全裂</span><br>
+</p><p><b>一三五七九: </b><br>
+<span>求问 单纯想做个 ns用 能一线通的 该怎么选啊？</span><br>
+<span>淘宝问了几个卖驱动板的都说供电可能不足</span><br>
+<span>求问NS一线通选的哪个？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>一三五七九 发表于 2020-6-27 23:01</span><br>
+<span>求问 单纯想做个 ns用 能一线通的 该怎么选啊？</span><br>
+<span>淘宝问了几个卖驱动板的都说供电可能不足</span><br>
+<span>我用c套件没问题</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>一三五七九: </b><br>
+<span>yuuu 发表于 2020-6-28 01:11</span><br>
+<span>我用c套件没问题</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>求个链接，谢谢！</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span> 本帖最后由 雪ノ下だんご 于 2020-7-1 00:19 编辑 </span><br>
+<span>现在还找得到17寸的壳吗？淘宝问了很多标题挂着17寸壳的商家全说没有</span><br>
+<span>------</span><br>
+<span>一个群友推荐了一家，准备试试</span><br>
+</p><p><b>holywind: </b><br>
+<span>B156ZAN04.1 可以装在A套件么</span><br>
+</p><p><b>yuuu: </b><br>
+<span>holywind 发表于 2020-7-2 13:13</span><br>
+<span>B156ZAN04.1 可以装在A套件么</span><br>
+<span>可以</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>被玩坏的橙子: </b><br>
+<span>色彩不错啊，用校色仪了？</span><br>
+</p><p><b>holywind: </b><br>
+<span>楼主出成品吗 诚求 屏库没找到卖的 淘宝不敢冲</span><br>
+</p><p><b>yuuu: </b><br>
+<span>被玩坏的橙子 发表于 2020-7-2 19:05</span><br>
+<span>色彩不错啊，用校色仪了？</span><br>
+<span>用了。不用校色仪比这个差点。switch那张图就是没校色的</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>holywind 发表于 2020-7-2 19:16</span><br>
+<span>楼主出成品吗 诚求 屏库没找到卖的 淘宝不敢冲</span><br>
+<span>这个帖子就是让你们摆脱成品的依赖的，再出成品就没意义了</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>holywind: </b><br>
+<span>yuuu 发表于 2020-7-2 19:20</span><br>
+<span>这个帖子就是让你们摆脱成品的依赖的，再出成品就没意义了</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 ...</span><br>
+<span>屏库没有单片</span><br>
+<span>希望楼主指条明路</span><br>
+</p><p><b>BAKA林: </b><br>
+<span>holywind 发表于 2020-7-2 19:46</span><br>
+<span>屏库没有单片</span><br>
+<span>希望楼主指条明路</span><br>
+<span>4.1 4.2最近都没货，要的建议联系商家到货通知。</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>有个问题想问一下，就是N156HHE-GA1这个型号的屏幕我搜了一下屏库，刷新率是120的，但是帖子里标注的是60，请问是不是在A型模具对应的驱动板下只能到60？另外能否私信一下这俩模具的淘宝地址，谢谢LZ</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>反馈一个小情况</span><br>
+<span>如果在游戏全屏的情况下，游戏的画面内容切换的时候｛比如塞尔达开启望远镜画面会有一瞬间的变黑｝，ff14的传送，显示器黑屏｛就是完全暗掉，然后重新亮起，并且会提示链接的是哪个接口，说明是刚刚的黑屏瞬间断开信号了的这种｝</span><br>
+<span>把显示器的 rfeesync 关掉，还有显卡的 freesuyc也关闭</span><br>
+<span>这个情况刚刚折腾了一晚上</span><br>
+</p><p><b>disrupt: </b><br>
+<span>雪ノ下だんご 发表于 2020-6-30 21:24</span><br>
+<span>现在还找得到17寸的壳吗？淘宝问了很多标题挂着17寸壳的商家全说没有</span><br>
+<span>------</span><br>
+<span>我前一阵刚好买过一个，店名 聚显光电子</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>同样是便携屏，面板素质决定一切</span><br>
+<span>高下立判</span><br>
+<img src="https://p.sda1.dev/0/2161d0fd241c3a9cd3ad9dd97a7d69c6/IMG_2064CF78DBD2A9EDD999D189433C2F29.jpeg" title="https://p.sda1.dev/0/2161d0fd241c3a9cd3ad9dd97a7d69c6/IMG_2064CF78DBD2A9EDD999D189433C2F29.jpeg"><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>想要一块17寸最强屏B173ZAN03.3，看了一下这屏已经断货，价格已经上天了，犹豫要不要顶着高价入手</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933416[150-200]</guid>
+    </item>
+    <item>
+      <title>手把手教你如何DIY便携显示器[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933416-1-1.html</link>
+      <description>手把手教你如何DIY便携显示器&#13;
+ 本帖最后由 yuuu 于 2020-5-8 16:21 编辑 
+
+PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品回收屏，但响应者寥寥。最大的原因还是DIY显示器属于非常小众的玩法，大多数人因为不了解对其望而却步，最后在肛需的情况下图省事买一个。所以为了授S1er们以渔，我一直有一个做教程的想法，刚好最近运气好低价收到了两块笔记本屏，就把DIY的要点简单写一下。不过在本文写成的同时，某国内显示器大厂已经推出了15.6寸便携显示器，建议没特殊需求的话可以优先考虑大厂的。
+&#13;
+一、为什么要自己DIY便携显示器
+&#13;
+除去大佬们反复劝说的自己DIY可以选用原封A+屏幕，保障最基本的显示效果外，另外一个好处就是可以自由地选择自己喜欢的屏。作坊成品虽然眼花缭乱，但为了降低成本，避免反复开模，屏幕的选择基本上都是几款素质一般的8bit甚至是6bit屏，但凡要求稍微高一点都只能自己DIY，不要说想要10bit或者高刷新率屏了。当然DIY也是有不少的缺点的，除了一点点动手能力之外，DIY使用的外壳只能使用作坊成品淘汰的方案，无法使用你现在看到的那些漂亮的外壳。不过话又说回来，那些追求轻薄窄边的外壳是没有办法容纳螺丝位的，所有部件全靠胶粘，稳定性是不如DIY外壳的。
+&#13;
+二、DIY便携显示器套件的选购
+&#13;
+本文的目的是轻松DIY显示器，并不打算介绍定制铝合金外壳、亚克力板或者裸奔等高端玩法，只介绍选用能非常轻松买到的成品外壳的方法。因为外壳涉及到驱动板上各种接口的开口，所以外壳和驱动板必须一起买。所以在这里把外壳+驱动板+按键板+屏线+扬声器等其他配件——换言之就是除屏以外全套——称为套件。在这么苛刻的要求下，我们在套件上的选择非常有限。所幸在便携显示器市场的火爆下（这里必须夸奖一下作坊们），我们还是有三种套件可以用。我们姑且把它们称为ABC款。
+&#13;
+A款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg
+&#13;
+B款
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg
+&#13;
+C款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg
+&#13;
+A款是出现最早的套件，支持的屏幕种类也最多，B款是A款的改进型，但B款目前没法支持4K或者120HZ以上的屏。两款套件都有13到17寸间的各种尺寸，都可以选搭支持switch一线通的驱动。最重要的是，这两款套件内部的元件（不包括屏）都是用螺丝固定的，不仅安装方便，还能避免大量打胶造成屏幕受力不均导致背光不均匀。当然屏幕本身还是要用双面胶固定的。
+&#13;
+C款就是之前火爆一时的阶梯型外壳，随着作坊外壳的更新换代淘汰到了DIY市场上。      C款是能买到的最漂亮的DIY套件，还能选购磁吸皮套。支持的屏幕尺寸和种类也非常全，4K 10BIT屏幕和高刷新屏幕也全部支持，也可以选搭支持switch一线通的驱动。但是有一个致命的缺点，和作坊成品一样，这种轻薄窄边的东西是没办法螺丝固定的，全部元器件和屏幕都需要大量打胶，对自己打胶功力没信心的还是建议选购A或者B。
+&#13;
+三、屏幕的选购
+&#13;
+买屏幕不难，难的是买到真正的全新A+屏幕，而不是翻新的。这里提供几个思路，基本上可以让你买到心仪的屏幕
+&#13;
+上策：去阿x巴巴买屏。屏库上的一级屏幕代理商大多都会在阿x巴巴开店，根据屏库上的代理商名字按图索骥很容易找到，如果运气好你要的屏幕型号可以一片起批，那么就可以买到没有后顾之忧的屏了。
+&#13;
+中策：去x宝买，不过要让他们承诺“保证没换过偏光膜和背光”并复述一遍，虽然不能保证没有卖家承诺完了转身给你一套回收屏，但至少万一遇到了问题退货是有底气的。
+&#13;
+下策：x鱼找笔记本换屏党的屏幕。换屏党换个屏就和换个显卡一样随意，运气好了经常能低价淘到好屏。对x鱼功力比较自信的人可以试试。
+&#13;
+还有一个问题是确定屏幕型号，我想能确定要DIY的人应该都对使用屏库查屏幕型号和参数的操作比较熟练。万一你不了解屏幕型号，又想DIY，可以买套件的时候找卖家要标准屏幕型号，当然买屏还是按照上面的方法。
+&#13;
+四、安装
+&#13;
+这次淘到的两块屏一块是最强15.6寸屏B156ZAN04.1，4K10bit，100%argb，被惠普用在15寸zbook工作站上作为dreamcolor屏；另一块是n156hhe-ga1，1080p 60hz，最强TN屏，作为TN屏却有不输高端IPS的色彩表现，非常难得。
+&#13;
+因为n156hhe-ga1有耳朵没办法用窄边套件，所以把它装到A套件里。安装很简单，套件底壳卖家已经预先安装好了所有元器件
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg
+&#13;
+用双面胶把屏黏在前壳上，插好屏线合上两片壳就行
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg
+&#13;
+B156ZAN04.1装在C套件里。
+&#13;
+首先是用一点双面胶把屏幕固定在前壳上，注意显示区域要和前壳开口摆对位，因为后面要上胶，不像AB款那样可以随时把屏幕再拆下来调整
+&#13;
+然后在屏幕和驱动板、按键板接触的地方贴一层绝缘胶带，再放一点双面胶
+&#13;
+把驱动板和按键板嵌到洞里
+&#13;
+然后上胶，必要的地方可以用隔热胶带保护
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg
+&#13;
+外观实拍
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg
+&#13;
+显示效果，左边为b156zan04.1，右边为n156hhe-ga1
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg
+&#13;
+b156zan04.1
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg
+&#13;
+n156hhe-ga1
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg
+&#13;
+一线通演示
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg</description>
+      <content:encoded><![CDATA[<p><b>天堂懵懂人: </b><br>
+<img src="https://s1.ax1x.com/2020/05/24/Yzfgg0.md.jpg" title="https://s1.ax1x.com/2020/05/24/Yzfgg0.md.jpg"><br>
+<span>早有准备 不过还是要说一句镜面屏还是太蠢了</span><br>
+</p><p><b>evooil: </b><br>
+<span>有没有diy墨水屏当副屏便携屏的啊 没驱动板？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>narutoz 发表于 2020-5-24 14:34</span><br>
+<span>所以说便携显示器上4k高刷是别想了？</span><br>
+<span>4k 120hz和144hz还是没问题的，就是驱动板贵些。仅限pc使用的话楼上那种edp转dp板子也不错</span><br>
+</p><p><b>yuuu: </b><br>
+<span>evooil 发表于 2020-5-24 15:55</span><br>
+<span>有没有diy墨水屏当副屏便携屏的啊 没驱动板？</span><br>
+<span>大上显示器</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>yuuu 发表于 2020-5-14 11:23</span><br>
+<span>主要粘下边，下边固定牢靠以后在面板的背后上方粘上海绵垫，靠挤压固定。海绵垫高度适度的话可以很牢固又 ...</span><br>
+<span>你好 请问下A款的话 海绵垫大概需要多厚的有经验么？怕买薄了顶不住，但又怕太厚了</span><br>
+</p><p><b>narutoz: </b><br>
+<span>yuuu 发表于 2020-5-24 17:34</span><br>
+<span>4k 120hz和144hz还是没问题的，就是驱动板贵些。仅限pc使用的话楼上那种edp转dp板子也不错 ...</span><br>
+<span>那这种驱动板tb怎么搜</span><br>
+</p><p><b>evooil: </b><br>
+<span> yuuu 发表于 2020-5-24 17:35 引用:evooil 发表于 2020-5-24 15:55 有没有diy墨水屏当副屏便携屏的啊 没驱动板？ 大上显示器 </span><br>
+<span>这也太贵了 不如kindle刷安卓用软件实现当副屏了吧 </span><br>
+</p><p><b>yuuu: </b><br>
+<span>天堂懵懂人 发表于 2020-5-24 18:07</span><br>
+<span>你好 请问下A款的话 海绵垫大概需要多厚的有经验么？怕买薄了顶不住，但又怕太厚了 ...</span><br>
+<span>这个壳里面大概有1.1cm空间，屏厚2mm的话还有9mm空间，买1cm就可以。以此类推</span><br>
+</p><p><b>yuuu: </b><br>
+<span>narutoz 发表于 2020-5-24 18:43</span><br>
+<span>那这种驱动板tb怎么搜</span><br>
+<span>a款c款壳都有144hz的驱动板，具体你带着屏型号咨询吧。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>evooil 发表于 2020-5-24 18:59</span><br>
+<span>这也太贵了 不如kindle刷安卓用软件实现当副屏了吧</span><br>
+<span>这块屏本身就3000块，据boox群里用过的人说当显示器效果完爆boox max 2。估计在驱动上有独家技术吧，当然我是没用过的</span><br>
+</p><p><b>narutoz: </b><br>
+<span>yuuu 发表于 2020-5-24 19:24</span><br>
+<span>a款c款壳都有144hz的驱动板，具体你带着屏型号咨询吧。</span><br>
+<span>如果是后期换驱动板的话那就得a型了？c型后期想换驱动板的难度很大？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>narutoz 发表于 2020-5-24 23:24</span><br>
+<span>如果是后期换驱动板的话那就得a型了？c型后期想换驱动板的难度很大？</span><br>
+<span>虽然c款拆下来的板和屏基本都报废了，但a款也是外壳针对不同的驱动板有不同挖孔的，驱动和外壳得一起换</span><br>
+</p><p><b>rin2th: </b><br>
+<span>yuuu 发表于 2020-5-8 11:04</span><br>
+<span>PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品 ...</span><br>
+<span>问一下楼主，17.3寸4k的屏幕有推荐么？能用的壳是不是只有C款？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-25 15:49</span><br>
+<span>问一下楼主，17.3寸4k的屏幕有推荐么？能用的壳是不是只有C款？</span><br>
+<span>B173ZAN03.2，A款壳应该也可以用。</span><br>
+</p><p><b>rin2th: </b><br>
+<span>yuuu 发表于 2020-5-25 15:55</span><br>
+<span>B173ZAN03.2，A款壳应该也可以用。</span><br>
+<span>组装过A，当时觉得这么轻薄，很开心，但c款这么惊艳，A款的宽边已经不香了。</span><br>
+<span>大概组装下来小一千？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-25 16:22</span><br>
+<span>组装过A，当时觉得这么轻薄，很开心，但c款这么惊艳，A款的宽边已经不香了。</span><br>
+<span>大概组装下来小一千？ ...</span><br>
+<span>B173ZAN03.2 A屏要800多吧，组装下来应该会超过1000</span><br>
+<span>C款全靠胶粘，没有任何维修拆解方法，动手能力不强的不是很推荐</span><br>
+</p><p><b>rin2th: </b><br>
+<span>yuuu 发表于 2020-5-25 17:12</span><br>
+<span>B173ZAN03.2 A屏要800多吧，组装下来应该会超过1000</span><br>
+<span>C款全靠胶粘，没有任何维修拆解方法，动手能力不强 ...</span><br>
+<span>c款的在淘宝上看了几家店，最高都是15.6+4k或17.3+1080p，那么17.3+4k能实现么？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-26 11:08</span><br>
+<span>c款的在淘宝上看了几家店，最高都是15.6+4k或17.3+1080p，那么17.3+4k能实现么？ ...</span><br>
+<span>看了一下还真是只有A了</span><br>
+</p><p><b>BAKA林: </b><br>
+<span>问一个问题，色域色准这些除了跟屏幕以外，跟其他的比如驱动板之类的有关系吗？用同一块屏幕的两款产品这些参数会一样吗。</span><br>
+<span>如果色域色准这些不仅仅是跟屏幕有关，那自制便携屏和工坊屏是不是都在这方面存在很大的瑕疵</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>自己折腾时候的一点小细节</span><br>
+<img src="https://s1.ax1x.com/2020/05/26/tFWSPS.jpghttps://s1.ax1x.com/2020/05/26/tFW92Q.jpg" title="https://s1.ax1x.com/2020/05/26/tFWSPS.jpghttps://s1.ax1x.com/2020/05/26/tFW92Q.jpg"><br>
+<span>https://s1.ax1x.com/2020/05/26/tFWp8g.jpghttps://s1.ax1x.com/2020/05/26/tFRx58.jpghttps://s1.ax1x.com/2020/05/26/tFRvUf.jpghttps://s1.ax1x.com/2020/05/26/tFWCvj.jpghttps://s1.ax1x.com/2020/05/26/tFWiKs.jpg目前最合适的用途</span><br>
+<span>顺便再问下 N156HHE-GA1 我看好像是120hz的， 店里都是推荐用4K的驱动板来驱动，屏线也比较尴尬，4K的驱动板大多都是40针的线</span><br>
+<span>有几家说用1080p60hz的驱动板可能点不亮，也可能不稳定</span><br>
+<span>有1080p144hz的套件么？</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-27 00:19 编辑 </span><br>
+<span>BAKA林 发表于 2020-5-26 21:33</span><br>
+<span>问一个问题，色域色准这些除了跟屏幕以外，跟其他的比如驱动板之类的有关系吗？用同一块屏幕的两款产品这些 ...</span><br>
+<span>泥潭坛友们一直呼吁远离作坊和小厂显示器就是这个原因，因为屏幕和驱动板的来源不明，维修过或者换过偏光膜和背光的屏幕是没有色域色准可言的。DIY可以保证屏幕的来源可靠，就我的DIY经验，来源可靠的同一型号多块屏幕和通用驱动板无论如何两两组合，校色结果上色域数据差异（ARGB）不会超过2%。这个结果表明自己DIY虽然不如正规厂商，但比作坊和小厂还是优势很大的。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>天堂懵懂人 发表于 2020-5-26 22:33</span><br>
+<span>自己折腾时候的一点小细节</span><br>
+<span>目前最合适的用途</span><br>
+<span>恭喜，显示器效果非常漂亮。</span><br>
+<span>GA1这块屏玩玩可以，实际用还是会受限于TN屏的超窄视角，使用并不会特别好。</span><br>
+<span>4K驱动板有很多是30pin/40pin双口的，驱动这块屏没问题。1080p@144hz好像见过C款有套件</span><br>
+</p><p><b>净水计划: </b><br>
+<span>天堂懵懂人 发表于 2020-5-26 22:33</span><br>
+<span>自己折腾时候的一点小细节</span><br>
+<span>目前最合适的用途</span><br>
+<span>求私信一下套件的店铺</span><br>
+</p><p><b>沧兰殇: </b><br>
+<span>天堂懵懂人 发表于 2020-5-26 22:33</span><br>
+<span>自己折腾时候的一点小细节</span><br>
+<span>目前最合适的用途</span><br>
+<span>我也要一下店铺名字，心动了</span><br>
+<span>—— 来自 motorola Moto Z (2), Android 8.0.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>@净水计划 @沧兰殇 </span><br>
+<span>就是销量最高的那家，虽然不是最便宜的，不过第一次整心里感觉会放心点</span><br>
+<span>最好自家附近有一个修笔记本电脑的摊子更好，收到点不亮的话可以到店里帮忙测试是驱动板的问题还是屏幕的问题</span><br>
+<span>我因为附近没有电脑店，又重新买了个次品屏幕测试</span><br>
+<span>花费最多的基本就是时间了</span><br>
+<span>这玩意基本都是广东发货。和我江苏这边过来过去一次就是3天左右，最后懒得等都发顺丰了</span><br>
+</p><p><b>藤田有静: </b><br>
+<span>怎么看完主楼我就觉得买回来啪啪啪装上OK，重点是选型</span><br>
+</p><p><b>藤田有静: </b><br>
+<span>怎么看完主楼我就觉得买回来啪啪啪装上OK，重点是选型</span><br>
+</p><p><b>yuuu: </b><br>
+<span>藤田有静 发表于 2020-5-29 08:14</span><br>
+<span>怎么看完主楼我就觉得买回来啪啪啪装上OK，重点是选型</span><br>
+<span>你说对了</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>心动了 有没有比较方便的支架呢 我家1/4螺口的魔术手和三角架比较多</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>scz1884: </b><br>
+<span>https://p.sda1.dev/0/994ccd3367270270a2d9d7652fc1a4ca/IMG_CF8F9E5AF3474268757C56BA8BFA2BB7.jpeg啊，果不其然贴歪了</span><br>
+<span>—— 来自 HUAWEI GLK-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>scz1884 发表于 2020-5-29 11:27</span><br>
+<span>啊，果不其然贴歪了</span><br>
+<span>—— 来自 HUAWEI GLK-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>建议通电亮屏贴</span><br>
+</p><p><b>scz1884: </b><br>
+<span>https://p.sda1.dev/0/d2e3aae45973ba54e163325b9febeee3/IMG_925AF39CBF0959EC4688953ED404F894.jpeghttps://p.sda1.dev/0/c88b4a6ea2afe2ea6b2eeb17a691159c/IMG_C2E30512822D40BA863948154BCDC7CF.jpeg终于弄好了，爽耶</span><br>
+<span>—— 来自 HUAWEI GLK-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>烟萝: </b><br>
+<span>本来说改一下原来的，折腾买了个C套件，结果弄到最后外框不正，气的都想连屏幕一起丢掉了，我图个啥啊</span><br>
+</p><p><b>rin2th: </b><br>
+<span>yuuu 发表于 2020-5-26 11:18</span><br>
+<span>看了一下还真是只有A了</span><br>
+<span>15.6的4k，是不是要调屏幕显示200%？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>SimonOpera 发表于 2020-5-29 09:08</span><br>
+<span>心动了 有没有比较方便的支架呢 我家1/4螺口的魔术手和三角架比较多</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10 ...</span><br>
+<span>桌面放置型支架或者75x75的支架，看看顺眼的就买吧</span><br>
+</p><p><b>yuuu: </b><br>
+<span>scz1884 发表于 2020-5-29 12:54</span><br>
+<span>终于弄好了，爽耶</span><br>
+<span>—— 来自 HUAWEI GLK-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>恭喜</span><br>
+</p><p><b>yuuu: </b><br>
+<span>烟萝 发表于 2020-5-30 07:54</span><br>
+<span>本来说改一下原来的，折腾买了个C套件，结果弄到最后外框不正，气的都想连屏幕一起丢掉了，我图个啥啊</span><br>
+<span>c套件很难装，问题是卖家页面根本不提醒要全程打胶，坑了不少人</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-30 17:17</span><br>
+<span>15.6的4k，是不是要调屏幕显示200%？</span><br>
+<span>看你喜欢，200%到250%都行</span><br>
+</p><p><b>rin2th: </b><br>
+<span>yuuu 发表于 2020-5-30 21:04</span><br>
+<span>看你喜欢，200%到250%都行</span><br>
+<span>要用c款的话，壳加板得600？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-30 21:26</span><br>
+<span>要用c款的话，壳加板得600？</span><br>
+<span>4k和高刷都要这个价，1080p便宜点</span><br>
+</p><p><b>凤舞夜月: </b><br>
+<span>学习了，之前一直想DIY便携屏用</span><br>
+</p><p><b>like0036: </b><br>
+<span>14寸的屏又推荐的吗= =</span><br>
+</p><p><b>yuuu: </b><br>
+<span>like0036 发表于 2020-6-1 16:53</span><br>
+<span>14寸的屏又推荐的吗= =</span><br>
+<span>没什么好屏，好屏都是15.6的</span><br>
+</p><p><b>like0036: </b><br>
+<span>yuuu 发表于 2020-6-1 17:07</span><br>
+<span>没什么好屏，好屏都是15.6的</span><br>
+<span>15.6 当副屏 可视和颜色好一点的有推荐吗？分辨率高于1080就行</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>天堂懵懂人 发表于 2020-5-26 22:33</span><br>
+<span>自己折腾时候的一点小细节</span><br>
+<span>目前最合适的用途</span><br>
+<span>打了码也认出来了（</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>有没有不用胶的选项，手头一个屏天天擦拭擦出坑了，想看看能不能拆下来抢救一下，胶非常强力，液晶碎了......</span><br>
+</p><p><b>yuuu: </b><br>
+<span>like0036 发表于 2020-6-1 17:17</span><br>
+<span>15.6 当副屏 可视和颜色好一点的有推荐吗？分辨率高于1080就行</span><br>
+<span>目前15.6最好的是b156zan04.1/4.2，常见套件都能轻松点亮，只是注意需要40pin 0.5mm转0.4mm的屏线。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>whzfjk 发表于 2020-6-1 18:45</span><br>
+<span>有没有不用胶的选项，手头一个屏天天擦拭擦出坑了，想看看能不能拆下来抢救一下，胶非常强力，液晶碎了.... ...</span><br>
+<span>ab套件都不用热熔胶，用不强力的双面胶就行，小心一点很容易拆装</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>yuuu 发表于 2020-6-1 18:50</span><br>
+<span>ab套件都不用热熔胶，用不强力的双面胶就行，小心一点很容易拆装</span><br>
+<span>还是想详细询问下手法，是从边缘轻轻地撬吗</span><br>
+</p><p><b>yuuu: </b><br>
+<span>whzfjk 发表于 2020-6-1 18:57</span><br>
+<span>还是想详细询问下手法，是从边缘轻轻地撬吗</span><br>
+<span>对的，用吹风机吹一下更方便</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933416[100-150]</guid>
+    </item>
+    <item>
+      <title>手把手教你如何DIY便携显示器[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933416-1-1.html</link>
+      <description>手把手教你如何DIY便携显示器&#13;
+ 本帖最后由 yuuu 于 2020-5-8 16:21 编辑 
+
+PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品回收屏，但响应者寥寥。最大的原因还是DIY显示器属于非常小众的玩法，大多数人因为不了解对其望而却步，最后在肛需的情况下图省事买一个。所以为了授S1er们以渔，我一直有一个做教程的想法，刚好最近运气好低价收到了两块笔记本屏，就把DIY的要点简单写一下。不过在本文写成的同时，某国内显示器大厂已经推出了15.6寸便携显示器，建议没特殊需求的话可以优先考虑大厂的。
+&#13;
+一、为什么要自己DIY便携显示器
+&#13;
+除去大佬们反复劝说的自己DIY可以选用原封A+屏幕，保障最基本的显示效果外，另外一个好处就是可以自由地选择自己喜欢的屏。作坊成品虽然眼花缭乱，但为了降低成本，避免反复开模，屏幕的选择基本上都是几款素质一般的8bit甚至是6bit屏，但凡要求稍微高一点都只能自己DIY，不要说想要10bit或者高刷新率屏了。当然DIY也是有不少的缺点的，除了一点点动手能力之外，DIY使用的外壳只能使用作坊成品淘汰的方案，无法使用你现在看到的那些漂亮的外壳。不过话又说回来，那些追求轻薄窄边的外壳是没有办法容纳螺丝位的，所有部件全靠胶粘，稳定性是不如DIY外壳的。
+&#13;
+二、DIY便携显示器套件的选购
+&#13;
+本文的目的是轻松DIY显示器，并不打算介绍定制铝合金外壳、亚克力板或者裸奔等高端玩法，只介绍选用能非常轻松买到的成品外壳的方法。因为外壳涉及到驱动板上各种接口的开口，所以外壳和驱动板必须一起买。所以在这里把外壳+驱动板+按键板+屏线+扬声器等其他配件——换言之就是除屏以外全套——称为套件。在这么苛刻的要求下，我们在套件上的选择非常有限。所幸在便携显示器市场的火爆下（这里必须夸奖一下作坊们），我们还是有三种套件可以用。我们姑且把它们称为ABC款。
+&#13;
+A款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg
+&#13;
+B款
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg
+&#13;
+C款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg
+&#13;
+A款是出现最早的套件，支持的屏幕种类也最多，B款是A款的改进型，但B款目前没法支持4K或者120HZ以上的屏。两款套件都有13到17寸间的各种尺寸，都可以选搭支持switch一线通的驱动。最重要的是，这两款套件内部的元件（不包括屏）都是用螺丝固定的，不仅安装方便，还能避免大量打胶造成屏幕受力不均导致背光不均匀。当然屏幕本身还是要用双面胶固定的。
+&#13;
+C款就是之前火爆一时的阶梯型外壳，随着作坊外壳的更新换代淘汰到了DIY市场上。      C款是能买到的最漂亮的DIY套件，还能选购磁吸皮套。支持的屏幕尺寸和种类也非常全，4K 10BIT屏幕和高刷新屏幕也全部支持，也可以选搭支持switch一线通的驱动。但是有一个致命的缺点，和作坊成品一样，这种轻薄窄边的东西是没办法螺丝固定的，全部元器件和屏幕都需要大量打胶，对自己打胶功力没信心的还是建议选购A或者B。
+&#13;
+三、屏幕的选购
+&#13;
+买屏幕不难，难的是买到真正的全新A+屏幕，而不是翻新的。这里提供几个思路，基本上可以让你买到心仪的屏幕
+&#13;
+上策：去阿x巴巴买屏。屏库上的一级屏幕代理商大多都会在阿x巴巴开店，根据屏库上的代理商名字按图索骥很容易找到，如果运气好你要的屏幕型号可以一片起批，那么就可以买到没有后顾之忧的屏了。
+&#13;
+中策：去x宝买，不过要让他们承诺“保证没换过偏光膜和背光”并复述一遍，虽然不能保证没有卖家承诺完了转身给你一套回收屏，但至少万一遇到了问题退货是有底气的。
+&#13;
+下策：x鱼找笔记本换屏党的屏幕。换屏党换个屏就和换个显卡一样随意，运气好了经常能低价淘到好屏。对x鱼功力比较自信的人可以试试。
+&#13;
+还有一个问题是确定屏幕型号，我想能确定要DIY的人应该都对使用屏库查屏幕型号和参数的操作比较熟练。万一你不了解屏幕型号，又想DIY，可以买套件的时候找卖家要标准屏幕型号，当然买屏还是按照上面的方法。
+&#13;
+四、安装
+&#13;
+这次淘到的两块屏一块是最强15.6寸屏B156ZAN04.1，4K10bit，100%argb，被惠普用在15寸zbook工作站上作为dreamcolor屏；另一块是n156hhe-ga1，1080p 60hz，最强TN屏，作为TN屏却有不输高端IPS的色彩表现，非常难得。
+&#13;
+因为n156hhe-ga1有耳朵没办法用窄边套件，所以把它装到A套件里。安装很简单，套件底壳卖家已经预先安装好了所有元器件
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg
+&#13;
+用双面胶把屏黏在前壳上，插好屏线合上两片壳就行
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg
+&#13;
+B156ZAN04.1装在C套件里。
+&#13;
+首先是用一点双面胶把屏幕固定在前壳上，注意显示区域要和前壳开口摆对位，因为后面要上胶，不像AB款那样可以随时把屏幕再拆下来调整
+&#13;
+然后在屏幕和驱动板、按键板接触的地方贴一层绝缘胶带，再放一点双面胶
+&#13;
+把驱动板和按键板嵌到洞里
+&#13;
+然后上胶，必要的地方可以用隔热胶带保护
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg
+&#13;
+外观实拍
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg
+&#13;
+显示效果，左边为b156zan04.1，右边为n156hhe-ga1
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg
+&#13;
+b156zan04.1
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg
+&#13;
+n156hhe-ga1
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg
+&#13;
+一线通演示
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg</description>
+      <content:encoded><![CDATA[<p><b>rvunholy: </b><br>
+<span>yuuu 发表于 2020-5-11 17:40</span><br>
+<span>不一定，A套件能配多种驱动板，具体看你选择</span><br>
+<span>哦 如何分辨分辨是不是a套件？ 我就看他说是双typec 直通ns方案。。。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>killer0079: </b><br>
+<span>回错</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rvunholy 发表于 2020-5-11 19:06</span><br>
+<span>哦 如何分辨分辨是不是a套件？ 我就看他说是双typec 直通ns方案。。。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, ...</span><br>
+<span>去问驱动板和按键板是螺丝固定还是打胶固定</span><br>
+</p><p><b>何然: </b><br>
+<span>有个疑问，这种diy的电源是怎么解决的？</span><br>
+<span>用充电宝之类的能满足供电么？</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>何然 发表于 2020-5-12 11:10</span><br>
+<span>有个疑问，这种diy的电源是怎么解决的？</span><br>
+<span>用充电宝之类的能满足供电么？</span><br>
+<span>驱动板上用的是microb或者typec，大于等于5v2a就够了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span>10年前干过组装一体机就这样，怀念</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 7.1.1上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Times: </b><br>
+<span>冒昧问楼主，你不想折腾的话会买哪家正规厂的便携显示器</span><br>
+</p><p><b>yuuu: </b><br>
+<span>何然 发表于 2020-5-12 11:10</span><br>
+<span>有个疑问，这种diy的电源是怎么解决的？</span><br>
+<span>用充电宝之类的能满足供电么？</span><br>
+<span>都是5V供电，1080P屏幕用充电宝是没问题的，4K的可能要用PD充电头才能。</span><br>
+<span>如果你对锂电池什么的比较了解的话，也可以做内置供电。所有的驱动板都预留5V供电插槽，也包含给内置电池充电的电路设计。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>Times 发表于 2020-5-12 12:14</span><br>
+<span>冒昧问楼主，你不想折腾的话会买哪家正规厂的便携显示器</span><br>
+<span>我现在只买10bit 100%argb的屏幕，无论正规还是作坊都没有这种产品，只能自己组。</span><br>
+</p><p><b>a9okalypse: </b><br>
+<span>斯城恶魔 发表于 2020-5-11 01:51</span><br>
+<span>问一个和这个不太相关的问题</span><br>
+<span>自用华硕MB16AP，整个东西只有一个C口同时肩负供电和显示两个功能，接显卡C口 ...</span><br>
+<span>所以这带电池的款式反而有使用时间限制？</span><br>
+<span>我的MB16AC连笔记本或者2080后面都没问题啊</span><br>
+<span>— from Google Pixel 4 XL, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>a9okalypse 发表于 2020-5-12 14:34</span><br>
+<span>所以这带电池的款式反而有使用时间限制？</span><br>
+<span>我的MB16AC连笔记本或者2080后面都没问题啊</span><br>
+<span>我不清楚啊，理论上如果供电够的话应该是即插即用的，但是现在的情况就是用着用着会没电</span><br>
+<span>可能是面板和驱动不一样导致功耗不同？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>a9okalypse: </b><br>
+<span>斯城恶魔 发表于 2020-5-12 16:34</span><br>
+<span>我不清楚啊，理论上如果供电够的话应该是即插即用的，但是现在的情况就是用着用着会没电</span><br>
+<span>可能是面板和驱 ...</span><br>
+<span>https://www.bhphotovideo.com/lit_files/442644.pdf</span><br>
+<span>https://dlcdnets.asus.com/pub/ASUS/LCD%20Monitors/MB16AC/ASUS_MB16AC_English_20170519.pdf</span><br>
+<span>我翻了一下这两台屏幕参数是一样的，但是MB16AP在电池有电的时候会优先消耗电池防止缩短电脑续航，甚至主机电量低的时候还会反充</span><br>
+<span>https://www.asus.com/support/FAQ/1038684/</span><br>
+<span>不过这个应该是可以在osd里调的，保证亮度在80%以下就行</span><br>
+<span>https://www.asus.com/US/support/FAQ/1038683</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>a9okalypse 发表于 2020-5-12 17:12</span><br>
+<span>https://www.bhphotovideo.com/lit_files/442644.pdf</span><br>
+<span>https://dlcdnets.asus.com/pub/ASUS/LCD%20Monitor ...</span><br>
+<span>我平时是标准模式，亮度20</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span> 本帖最后由 斯城恶魔 于 2020-5-12 21:55 编辑 </span><br>
+<span>下一个显示器感觉自己要是不想折腾就MB16AMT</span><br>
+<span>在这里提几点面板要求，有空我自己上屏库搜一搜</span><br>
+<span>权当是个笔记帖了 要求：</span><br>
+<span>高色域必备（其实搜索的时候按dci-p3降序排列所以是超高色域）</span><br>
+<span>高刷？N156HCE-GA2（IPS） NV156FHM-N4B（IPS） B156HAN10.0（IPS）NV156FHM-N4N（IPS）</span><br>
+<span>高分？ATNA56WR06-0（AMOLED） LP140UD1-SPD3（14 IPS）B156ZAN03.1（IPS） NV156QUM-N43（IPS）</span><br>
+<span>高刷触摸？ 基于屏库的搜索结果：无</span><br>
+<span>高分触摸？ 基于屏库的搜索结果：无</span><br>
+<span>高刷+高分？N156HHE-GA1（TN）</span><br>
+<span>高刷高分触摸？基于屏库的搜索结果：无</span><br>
+<span>更新：问题：支持4K60hz的屏幕能原生支持1080p，>60hz的显示吗</span><br>
+<span>更新基本完毕</span><br>
+</p><p><b>yuuu: </b><br>
+<span>N156HCE-GA2是262K的发色，不知道你买来做什么？</span><br>
+<span>ATNA56WR06-0别考虑了，我见一个群里烧了三块了还没驱动起来</span><br>
+<span>高刷的最佳选择是N156HHE-GA1，高分的最佳选择是B156ZAN04.1，就是我主楼那两个</span><br>
+</p><p><b>gopass: </b><br>
+<span>13.3尺寸的屏有推荐吗</span><br>
+</p><p><b>zuo: </b><br>
+<span>求问b156zan04.1这种arpg 10bit对min dp的线材有什么要求吗</span><br>
+<span>—— 来自 HUAWEI SEA-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>zuo 发表于 2020-5-13 14:40</span><br>
+<span>求问b156zan04.1这种arpg 10bit对min dp的线材有什么要求吗</span><br>
+<span>—— 来自 HUAWEI SEA-AL10, Android 10上的 S ...</span><br>
+<span>4k 60hz rgb444 10bit需要dp1.2的线材</span><br>
+</p><p><b>老黑305: </b><br>
+<span>想组个13寸的，夏普的LQ133M1JW03如何？</span><br>
+</p><p><b>zuo: </b><br>
+<span>yuuu 发表于 2020-5-13 16:37</span><br>
+<span>4k 60hz rgb444 10bit需要dp1.2的线材</span><br>
+<span>接口都是mini的话，是不是无解了，还是需要啥子转换之类的？</span><br>
+<span>—— 来自 HUAWEI SEA-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>zuo 发表于 2020-5-13 17:46</span><br>
+<span>接口都是mini的话，是不是无解了，还是需要啥子转换之类的？</span><br>
+<span>—— 来自 HUAWEI SEA-AL10, Androi ...</span><br>
+<span>mini dp和转接头都有1.2的</span><br>
+</p><p><b>yuuu: </b><br>
+<span>gopass 发表于 2020-5-13 09:31</span><br>
+<span>13.3尺寸的屏有推荐吗</span><br>
+<span>NV133QHM-A51吧，不过我对触控不熟</span><br>
+</p><p><b>yuuu: </b><br>
+<span>老黑305 发表于 2020-5-13 17:33</span><br>
+<span>想组个13寸的，夏普的LQ133M1JW03如何？</span><br>
+<span>中规中矩的屏吧</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>请问下15寸就中规中矩100srgb，60 hz， 市面上流通比较大【就是比较好买到的】，性价比一些的型号有推荐么？ 屏库网里筛选完还是有很多型号</span><br>
+</p><p><b>Montana: </b><br>
+<span>查了一下，和B156ZAN04.1类似的还有一个京东方的NE156QUM-N66，想请教一下这两个差别大吗？</span><br>
+<span>主要是京东方的这块可以在1688上一片起批，友达的不行</span><br>
+</p><p><b>yuuu: </b><br>
+<span>天堂懵懂人 发表于 2020-5-13 21:19</span><br>
+<span>请问下15寸就中规中矩100srgb，60 hz， 市面上流通比较大【就是比较好买到的】，性价比一些的型号有推 ...</span><br>
+<span>友达和京东方的一般比较好买，筛选这两个厂商试试</span><br>
+</p><p><b>yuuu: </b><br>
+<span>Montana 发表于 2020-5-14 00:20</span><br>
+<span>查了一下，和B156ZAN04.1类似的还有一个京东方的NE156QUM-N66，想请教一下这两个差别大吗？</span><br>
+<span>主要是京东方的 ...</span><br>
+<span>都是8抖10，不会有明显差距。</span><br>
+<span>另外B156ZAN04.2已经出了，看看有没有</span><br>
+</p><p><b>seele9999: </b><br>
+<span>天堂懵懂人 发表于 2020-5-13 21:19</span><br>
+<span>请问下15寸就中规中矩100srgb，60 hz， 市面上流通比较大【就是比较好买到的】，性价比一些的型号有推 ...</span><br>
+<span>http://www.panelook.cn/NV156FHM-N4J_BOE_15.6_LCM_overview_cn_41414.html</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>yuuu 发表于 2020-5-14 09:17</span><br>
+<span>友达和京东方的一般比较好买，筛选这两个厂商试试</span><br>
+<img src="https://s1.ax1x.com/2020/05/14/Y0JMlT.png" title="https://s1.ax1x.com/2020/05/14/Y0JMlT.png"><br>
+<span>3q， 再请问下这么窄的边框应该不好固定吧，用双面胶的话</span><br>
+</p><p><b>yuuu: </b><br>
+<span>天堂懵懂人 发表于 2020-5-14 11:05</span><br>
+<span>3q， 再请问下这么窄的边框应该不好固定吧，用双面胶的话</span><br>
+<span>主要粘下边，下边固定牢靠以后在面板的背后上方粘上海绵垫，靠挤压固定。海绵垫高度适度的话可以很牢固又不压坏屏幕</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>大佬 又是你</span><br>
+</p><p><b>kaze_f: </b><br>
+<span>这么看好像真的很简单，心动了</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>突然看到去年下半年量产的一块神面板</span><br>
+<span>B156ZAN5.0/5.1</span><br>
+<span>4k120hz超高色域 还是mini led</span><br>
+</p><p><b>yuuu: </b><br>
+<span>斯城恶魔 发表于 2020-5-15 17:53</span><br>
+<span>突然看到去年下半年量产的一块神面板</span><br>
+<span>B156ZAN5.0/5.1</span><br>
+<span>4k120hz超高色域 还是mini led ...</span><br>
+<span>8bit，色域再高观感也和8抖10差得远</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span>yuuu 发表于 2020-5-15 18:05</span><br>
+<span>8bit，色域再高观感也和8抖10差得远</span><br>
+<span>还是自己太小白了，那如果4k的分辨率降到2k或者1080p，4.1这块面板能超到120hz吗？</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-15 18:24 编辑 </span><br>
+<span>斯城恶魔 发表于 2020-5-15 18:09</span><br>
+<span>还是自己太小白了，那如果4k的分辨率降到2k或者1080p，4.1这块面板能超到120hz吗？ ...</span><br>
+<span>等晚上我试试</span><br>
+<span>4k 120hz需要dp1.4，便携板子带dp1.4的似乎还没有，用两个type c或者两个dp1 2模拟dp1.4的板子也没有。05.1这块屏DIY一般都是驱动在1080p@120hz或者4k@60hz的。</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<img src="https://s1.ax1x.com/2020/05/20/Yo4Vr6.jpg" title="https://s1.ax1x.com/2020/05/20/Yo4Vr6.jpg"><br>
+<img src="https://s1.ax1x.com/2020/05/20/Yo4ZqK.jpg" title="https://s1.ax1x.com/2020/05/20/Yo4ZqK.jpg"><br>
+<span>第一块屏点不亮逛淘宝看到个B类屏龙腾的只卖60，买回来测试，除了pwm调光和色域低了点 </span><br>
+<span>其他方面居然还行</span><br>
+</p><p><b>沃特·马龙: </b><br>
+<span>来搞个分区背光吧！</span><br>
+</p><p><b>yuuu: </b><br>
+<span>沃特·马龙 发表于 2020-5-20 12:47</span><br>
+<span>来搞个分区背光吧！</span><br>
+<span>所有的驱动板都是在同一个方案上修修补补出来的，支持分区背光基本没可能了。</span><br>
+</p><p><b>罐子: </b><br>
+<span>搭车问问，有时出差带笔记本+NS，有啥方案可以用笔记本屏幕显示ns吗?</span><br>
+</p><p><b>yuuu: </b><br>
+<span>罐子 发表于 2020-5-20 14:44</span><br>
+<span>搭车问问，有时出差带笔记本+NS，有啥方案可以用笔记本屏幕显示ns吗?</span><br>
+<span>USB3.0采集卡</span><br>
+</p><p><b>evooil: </b><br>
+<span>问下拿来做副屏的话 有什么一键切换主副屏显示内容的方法吗 机器是一台黑苹果</span><br>
+<span>还有B156ZAN03.0-03.1-03.2-03.3-04.2 </span><br>
+<span>后面的数字是啥意思</span><br>
+</p><p><b>orecheng: </b><br>
+<span>yoga 的 OLED 屏能拿来DIY吗？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>evooil 发表于 2020-5-22 21:57</span><br>
+<span>问下拿来做副屏的话 有什么一键切换主副屏显示内容的方法吗 机器是一台黑苹果</span><br>
+<span>还有B156ZAN03.0-03.1-03.2-0 ...</span><br>
+<span>苹果不懂。</span><br>
+<span>最后的数字代表不同的型号，数字接近可能代表规格完全不同的屏，也可能代表规格完全相同只是出场批次不同的屏，完全靠厂商心情没任何规律</span><br>
+</p><p><b>yuuu: </b><br>
+<span>orecheng 发表于 2020-5-22 22:25</span><br>
+<span>yoga 的 OLED 屏能拿来DIY吗？</span><br>
+<span>没驱动。不要高看便携显示器，这玩意从一推出的宗旨就是能驱动量最大价格最低的那批屏幕哄骗小白就行，市面上所有便携显示器驱动都脱胎于一个原始版本的小修小补版，规格稍微特殊一点的屏都搞不定。</span><br>
+</p><p><b>尔乃美家累: </b><br>
+<img src="https://p.sda1.dev/0/59b48e893917e38a3c4fd323aaa96820/IMG_FE171B449F3884DAFFF4E4B536CF2895.jpeg" title="https://p.sda1.dev/0/59b48e893917e38a3c4fd323aaa96820/IMG_FE171B449F3884DAFFF4E4B536CF2895.jpeg"><br>
+<span>有大神开发的4k120hz驱动板 才150块 就是没有做好的成品套装卖 并不想自己组 还是继续用索普的388瑕疵屏好了 啥时候出成品再买</span><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>尔乃美家累 发表于 2020-5-23 08:03</span><br>
+<span>有大神开发的4k120hz驱动板 才150块 就是没有做好的成品套装卖 并不想自己组 还是继续用索普的388瑕疵屏好 ...</span><br>
+<span>这个看起来是edp转dp板子，并不是驱动板，成本最多50块，只有intel集显和部分A卡能用</span><br>
+</p><p><b>尔乃美家累: </b><br>
+<span> 本帖最后由 尔乃美家累 于 2020-5-23 09:28 编辑 </span><br>
+<span>yuuu 发表于 2020-5-23 09:14</span><br>
+<span>这个看起来是edp转dp板子，并不是驱动板，成本最多50块，只有intel集显和部分A卡能用 ...</span><br>
+<span>有几个4k120的屏可以完美适配 难道那几个屏幕还自带驱动板?</span><br>
+<span>而且并没有显卡兼容性问题</span><br>
+<img src="https://p.sda1.dev/0/d2729bfea9097dbbce24f8a7ee593c6b/IMG_6DF0CB1189BA14758D36071935DE1087.jpeg" title="https://p.sda1.dev/0/d2729bfea9097dbbce24f8a7ee593c6b/IMG_6DF0CB1189BA14758D36071935DE1087.jpeg"><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-23 10:07 编辑 </span><br>
+<span>尔乃美家累 发表于 2020-5-23 09:26</span><br>
+<span>有几个4k120的屏可以完美适配 难道那几个屏幕还自带驱动板?</span><br>
+<span>而且并没有显卡兼容性问题</span><br>
+<span>建议你了解一下edp转dp，起码只有部分pc能用是肯定的</span><br>
+</p><p><b>narutoz: </b><br>
+<span>yuuu 发表于 2020-5-23 09:52</span><br>
+<span>建议你了解一下edp转dp，起码只有部分pc能用是肯定的</span><br>
+<span>所以说便携显示器上4k高刷是别想了？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933416[50-100]</guid>
+    </item>
+    <item>
+      <title>手把手教你如何DIY便携显示器[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933416-1-1.html</link>
+      <description>手把手教你如何DIY便携显示器&#13;
+ 本帖最后由 yuuu 于 2020-5-8 16:21 编辑 
+
+PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品回收屏，但响应者寥寥。最大的原因还是DIY显示器属于非常小众的玩法，大多数人因为不了解对其望而却步，最后在肛需的情况下图省事买一个。所以为了授S1er们以渔，我一直有一个做教程的想法，刚好最近运气好低价收到了两块笔记本屏，就把DIY的要点简单写一下。不过在本文写成的同时，某国内显示器大厂已经推出了15.6寸便携显示器，建议没特殊需求的话可以优先考虑大厂的。
+&#13;
+一、为什么要自己DIY便携显示器
+&#13;
+除去大佬们反复劝说的自己DIY可以选用原封A+屏幕，保障最基本的显示效果外，另外一个好处就是可以自由地选择自己喜欢的屏。作坊成品虽然眼花缭乱，但为了降低成本，避免反复开模，屏幕的选择基本上都是几款素质一般的8bit甚至是6bit屏，但凡要求稍微高一点都只能自己DIY，不要说想要10bit或者高刷新率屏了。当然DIY也是有不少的缺点的，除了一点点动手能力之外，DIY使用的外壳只能使用作坊成品淘汰的方案，无法使用你现在看到的那些漂亮的外壳。不过话又说回来，那些追求轻薄窄边的外壳是没有办法容纳螺丝位的，所有部件全靠胶粘，稳定性是不如DIY外壳的。
+&#13;
+二、DIY便携显示器套件的选购
+&#13;
+本文的目的是轻松DIY显示器，并不打算介绍定制铝合金外壳、亚克力板或者裸奔等高端玩法，只介绍选用能非常轻松买到的成品外壳的方法。因为外壳涉及到驱动板上各种接口的开口，所以外壳和驱动板必须一起买。所以在这里把外壳+驱动板+按键板+屏线+扬声器等其他配件——换言之就是除屏以外全套——称为套件。在这么苛刻的要求下，我们在套件上的选择非常有限。所幸在便携显示器市场的火爆下（这里必须夸奖一下作坊们），我们还是有三种套件可以用。我们姑且把它们称为ABC款。
+&#13;
+A款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg
+&#13;
+B款
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg
+&#13;
+C款
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg
+&#13;
+A款是出现最早的套件，支持的屏幕种类也最多，B款是A款的改进型，但B款目前没法支持4K或者120HZ以上的屏。两款套件都有13到17寸间的各种尺寸，都可以选搭支持switch一线通的驱动。最重要的是，这两款套件内部的元件（不包括屏）都是用螺丝固定的，不仅安装方便，还能避免大量打胶造成屏幕受力不均导致背光不均匀。当然屏幕本身还是要用双面胶固定的。
+&#13;
+C款就是之前火爆一时的阶梯型外壳，随着作坊外壳的更新换代淘汰到了DIY市场上。      C款是能买到的最漂亮的DIY套件，还能选购磁吸皮套。支持的屏幕尺寸和种类也非常全，4K 10BIT屏幕和高刷新屏幕也全部支持，也可以选搭支持switch一线通的驱动。但是有一个致命的缺点，和作坊成品一样，这种轻薄窄边的东西是没办法螺丝固定的，全部元器件和屏幕都需要大量打胶，对自己打胶功力没信心的还是建议选购A或者B。
+&#13;
+三、屏幕的选购
+&#13;
+买屏幕不难，难的是买到真正的全新A+屏幕，而不是翻新的。这里提供几个思路，基本上可以让你买到心仪的屏幕
+&#13;
+上策：去阿x巴巴买屏。屏库上的一级屏幕代理商大多都会在阿x巴巴开店，根据屏库上的代理商名字按图索骥很容易找到，如果运气好你要的屏幕型号可以一片起批，那么就可以买到没有后顾之忧的屏了。
+&#13;
+中策：去x宝买，不过要让他们承诺“保证没换过偏光膜和背光”并复述一遍，虽然不能保证没有卖家承诺完了转身给你一套回收屏，但至少万一遇到了问题退货是有底气的。
+&#13;
+下策：x鱼找笔记本换屏党的屏幕。换屏党换个屏就和换个显卡一样随意，运气好了经常能低价淘到好屏。对x鱼功力比较自信的人可以试试。
+&#13;
+还有一个问题是确定屏幕型号，我想能确定要DIY的人应该都对使用屏库查屏幕型号和参数的操作比较熟练。万一你不了解屏幕型号，又想DIY，可以买套件的时候找卖家要标准屏幕型号，当然买屏还是按照上面的方法。
+&#13;
+四、安装
+&#13;
+这次淘到的两块屏一块是最强15.6寸屏B156ZAN04.1，4K10bit，100%argb，被惠普用在15寸zbook工作站上作为dreamcolor屏；另一块是n156hhe-ga1，1080p 60hz，最强TN屏，作为TN屏却有不输高端IPS的色彩表现，非常难得。
+&#13;
+因为n156hhe-ga1有耳朵没办法用窄边套件，所以把它装到A套件里。安装很简单，套件底壳卖家已经预先安装好了所有元器件
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg
+&#13;
+用双面胶把屏黏在前壳上，插好屏线合上两片壳就行
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg
+&#13;
+B156ZAN04.1装在C套件里。
+&#13;
+首先是用一点双面胶把屏幕固定在前壳上，注意显示区域要和前壳开口摆对位，因为后面要上胶，不像AB款那样可以随时把屏幕再拆下来调整
+&#13;
+然后在屏幕和驱动板、按键板接触的地方贴一层绝缘胶带，再放一点双面胶
+&#13;
+把驱动板和按键板嵌到洞里
+&#13;
+然后上胶，必要的地方可以用隔热胶带保护
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg
+&#13;
+外观实拍
+&#13;
+http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg
+&#13;
+显示效果，左边为b156zan04.1，右边为n156hhe-ga1
+&#13;
+http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg
+&#13;
+b156zan04.1
+&#13;
+http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg
+&#13;
+n156hhe-ga1
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg
+&#13;
+一线通演示
+&#13;
+http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg</description>
+      <content:encoded><![CDATA[<p><b>yuuu: </b><br>
+<span>手把手教你如何DIY便携显示器</span><br>
+<span> 本帖最后由 yuuu 于 2020-5-8 16:21 编辑 </span><br>
+<span>PC区里求推荐便携显示器的帖子也不少了，虽然每次见到这类的帖子，我一定要出来说便携显示器都是高价买废品回收屏，但响应者寥寥。最大的原因还是DIY显示器属于非常小众的玩法，大多数人因为不了解对其望而却步，最后在肛需的情况下图省事买一个。所以为了授S1er们以渔，我一直有一个做教程的想法，刚好最近运气好低价收到了两块笔记本屏，就把DIY的要点简单写一下。不过在本文写成的同时，某国内显示器大厂已经推出了15.6寸便携显示器，建议没特殊需求的话可以优先考虑大厂的。</span><br>
+<span>一、为什么要自己DIY便携显示器</span><br>
+<span>除去大佬们反复劝说的自己DIY可以选用原封A+屏幕，保障最基本的显示效果外，另外一个好处就是可以自由地选择自己喜欢的屏。作坊成品虽然眼花缭乱，但为了降低成本，避免反复开模，屏幕的选择基本上都是几款素质一般的8bit甚至是6bit屏，但凡要求稍微高一点都只能自己DIY，不要说想要10bit或者高刷新率屏了。当然DIY也是有不少的缺点的，除了一点点动手能力之外，DIY使用的外壳只能使用作坊成品淘汰的方案，无法使用你现在看到的那些漂亮的外壳。不过话又说回来，那些追求轻薄窄边的外壳是没有办法容纳螺丝位的，所有部件全靠胶粘，稳定性是不如DIY外壳的。</span><br>
+<span>二、DIY便携显示器套件的选购</span><br>
+<span>本文的目的是轻松DIY显示器，并不打算介绍定制铝合金外壳、亚克力板或者裸奔等高端玩法，只介绍选用能非常轻松买到的成品外壳的方法。因为外壳涉及到驱动板上各种接口的开口，所以外壳和驱动板必须一起买。所以在这里把外壳+驱动板+按键板+屏线+扬声器等其他配件——换言之就是除屏以外全套——称为套件。在这么苛刻的要求下，我们在套件上的选择非常有限。所幸在便携显示器市场的火爆下（这里必须夸奖一下作坊们），我们还是有三种套件可以用。我们姑且把它们称为ABC款。</span><br>
+<span>A款</span><br>
+<img src="http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg" title="http://wx3.sinaimg.cn/large/702e23f2ly1gekscl8hgzj20bw0by3za.jpg"><br>
+<span>B款</span><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1geksatdlrrj20b40b4acu.jpg"><br>
+<span>C款</span><br>
+<img src="http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg" title="http://wx3.sinaimg.cn/large/702e23f2ly1geksatgj9wj20m80go3zx.jpg"><br>
+<span>A款是出现最早的套件，支持的屏幕种类也最多，B款是A款的改进型，但B款目前没法支持4K或者120HZ以上的屏。两款套件都有13到17寸间的各种尺寸，都可以选搭支持switch一线通的驱动。最重要的是，这两款套件内部的元件（不包括屏）都是用螺丝固定的，不仅安装方便，还能避免大量打胶造成屏幕受力不均导致背光不均匀。当然屏幕本身还是要用双面胶固定的。</span><br>
+<span>C款就是之前火爆一时的阶梯型外壳，随着作坊外壳的更新换代淘汰到了DIY市场上。      C款是能买到的最漂亮的DIY套件，还能选购磁吸皮套。支持的屏幕尺寸和种类也非常全，4K 10BIT屏幕和高刷新屏幕也全部支持，也可以选搭支持switch一线通的驱动。但是有一个致命的缺点，和作坊成品一样，这种轻薄窄边的东西是没办法螺丝固定的，全部元器件和屏幕都需要大量打胶，对自己打胶功力没信心的还是建议选购A或者B。</span><br>
+<span>三、屏幕的选购</span><br>
+<span>买屏幕不难，难的是买到真正的全新A+屏幕，而不是翻新的。这里提供几个思路，基本上可以让你买到心仪的屏幕</span><br>
+<span>上策：去阿x巴巴买屏。屏库上的一级屏幕代理商大多都会在阿x巴巴开店，根据屏库上的代理商名字按图索骥很容易找到，如果运气好你要的屏幕型号可以一片起批，那么就可以买到没有后顾之忧的屏了。</span><br>
+<span>中策：去x宝买，不过要让他们承诺“保证没换过偏光膜和背光”并复述一遍，虽然不能保证没有卖家承诺完了转身给你一套回收屏，但至少万一遇到了问题退货是有底气的。</span><br>
+<span>下策：x鱼找笔记本换屏党的屏幕。换屏党换个屏就和换个显卡一样随意，运气好了经常能低价淘到好屏。对x鱼功力比较自信的人可以试试。</span><br>
+<span>还有一个问题是确定屏幕型号，我想能确定要DIY的人应该都对使用屏库查屏幕型号和参数的操作比较熟练。万一你不了解屏幕型号，又想DIY，可以买套件的时候找卖家要标准屏幕型号，当然买屏还是按照上面的方法。</span><br>
+<span>四、安装</span><br>
+<span>这次淘到的两块屏一块是最强15.6寸屏B156ZAN04.1，4K10bit，100%argb，被惠普用在15寸zbook工作站上作为dreamcolor屏；另一块是n156hhe-ga1，1080p 60hz，最强TN屏，作为TN屏却有不输高端IPS的色彩表现，非常难得。</span><br>
+<span>因为n156hhe-ga1有耳朵没办法用窄边套件，所以把它装到A套件里。安装很简单，套件底壳卖家已经预先安装好了所有元器件</span><br>
+<img src="http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg" title="http://wx4.sinaimg.cn/large/702e23f2ly1geksatx7p2j20u0140u0x.jpg"><br>
+<span>用双面胶把屏黏在前壳上，插好屏线合上两片壳就行</span><br>
+<img src="http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg" title="http://wx1.sinaimg.cn/large/702e23f2ly1geksatya67j20u0140qv5.jpg"><br>
+<span>B156ZAN04.1装在C套件里。</span><br>
+<span>首先是用一点双面胶把屏幕固定在前壳上，注意显示区域要和前壳开口摆对位，因为后面要上胶，不像AB款那样可以随时把屏幕再拆下来调整</span><br>
+<span>然后在屏幕和驱动板、按键板接触的地方贴一层绝缘胶带，再放一点双面胶</span><br>
+<span>把驱动板和按键板嵌到洞里</span><br>
+<span>然后上胶，必要的地方可以用隔热胶带保护</span><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1gel40wlz0zj21960u0b29.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1gel40wolvvj21960u0b29.jpg"><br>
+<span>外观实拍</span><br>
+<img src="http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg" title="http://wx4.sinaimg.cn/large/702e23f2ly1geksat7t6dj21400u0hdt.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1geksatbc55j21400u0qv5.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1geksat7fifj21400u0hdt.jpg"><br>
+<span>显示效果，左边为b156zan04.1，右边为n156hhe-ga1</span><br>
+<img src="http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg" title="http://wx3.sinaimg.cn/large/702e23f2ly1geksat4395j21400u0npd.jpg"><br>
+<span>b156zan04.1</span><br>
+<img src="http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg" title="http://wx2.sinaimg.cn/large/702e23f2ly1geksat4ovzj21400u0npd.jpg"><br>
+<span>n156hhe-ga1</span><br>
+<img src="http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg" title="http://wx1.sinaimg.cn/large/702e23f2ly1geksat3ctaj21400u0e81.jpg"><br>
+<span>一线通演示</span><br>
+<img src="http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg" title="http://wx1.sinaimg.cn/large/702e23f2ly1geksatz37lj21400u0u0x.jpg"><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>假如想要触屏的话，除了在屏库挑on/in cell选项还要注意什么？</span><br>
+</p><p><b>nihse: </b><br>
+<span>一套下来成本多少？</span><br>
+<span>我看拼爹爹上280就可以买一个了，虽然普遍有瑕疵，但是随便用用感觉差不多了，要求不高</span><br>
+<span>—— 来自 HUAWEI YAL-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Ichthys: </b><br>
+<span>除了屏，最重要的驱动板呢？瑞昱还是晨星，有哪些可选。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>NeverwinterN 发表于 2020-5-8 11:10</span><br>
+<span>假如想要触屏的话，除了在屏库挑on/in cell选项还要注意什么？</span><br>
+<span>触屏我没研究过，c套件支持15.6的触屏，对自己打胶能力有自信的话可以试试。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>nihse 发表于 2020-5-8 11:15</span><br>
+<span>一套下来成本多少？</span><br>
+<span>我看拼爹爹上280就可以买一个了，虽然普遍有瑕疵，但是随便用用感觉差不多了，要求不 ...</span><br>
+<span>n156hhe-ga1屏二手收来200，全新A+应该是300，套件220</span><br>
+<span>b156zan04.1屏二手收来300，全新A+应该是500，套件600</span><br>
+<span>图便宜的话当然是回收屏瑕疵屏更便宜</span><br>
+</p><p><b>yuuu: </b><br>
+<span>Ichthys 发表于 2020-5-8 11:15</span><br>
+<span>除了屏，最重要的驱动板呢？瑞昱还是晨星，有哪些可选。</span><br>
+<span>上面说了是套件，就是外壳+驱动一起。所有便携显示器的驱动都是一个realtek方案修修补补发展出来了，目前似乎还没有mstar方案</span><br>
+</p><p><b>lucky95: </b><br>
+<span>大厂的是哪一款？</span><br>
+<span>不想折腾</span><br>
+</p><p><b>BAKA林: </b><br>
+<span>大厂建议可以等咕咕硕的xg17看看</span><br>
+</p><p><b>松霖: </b><br>
+<span>突然意识到如果是给ns用，好像都没法校色吧</span><br>
+</p><p><b>yuuu: </b><br>
+<span>松霖 发表于 2020-5-8 11:48</span><br>
+<span>突然意识到如果是给ns用，好像都没法校色吧</span><br>
+<span>只能挂上校色仪调调白平衡</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>yuuu 发表于 2020-5-8 11:20</span><br>
+<span>触屏我没研究过，c套件支持15.6的触屏，对自己打胶能力有自信的话可以试试。 ...</span><br>
+<span>我自己昨天整了套A套件然后屏幕实在懒得选了直接买了同一家店的三星ltn156hl01，然后今天发看到这帖子的n156hhe-ga1和那个aRGB色域有点心动想换屏了。请问下我如果要换屏的话是不是得换块驱动板？</span><br>
+</p><p><b>nianiania: </b><br>
+<span>马克下，以后有空试试</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>自己买屏，忘记看参数，结果买了个亮度更低的（</span><br>
+</p><p><b>進藤あまね: </b><br>
+<span>主要是好的驱动板难找，又要烧录固件什么的，玩不来</span><br>
+</p><p><b>seele9999: </b><br>
+<span> NV156FHM-N4J买了块DIY了一个，10BIT,144。问题是不能调亮度，特别蛋疼。楼主知道为啥吗？</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-8 14:26 编辑 </span><br>
+<span>NeverwinterN 发表于 2020-5-8 11:55</span><br>
+<span>我自己昨天整了套A套件然后屏幕实在懒得选了直接买了同一家店的三星ltn156hl01，然后今天发看到这 ...</span><br>
+<span>ga1毕竟还是tn屏，虽然这块屏左右视角基本没问题，但上下视角还是超窄，图便宜买块玩玩没问题，主力使用的话还要想想你能不能忍受tn的窄视角</span><br>
+<span>驱动还是问卖家。有时候驱动一样烧的程序也不一样</span><br>
+</p><p><b>yuuu: </b><br>
+<span>seele9999 发表于 2020-5-8 14:08</span><br>
+<span>NV156FHM-N4J买了块DIY了一个，10BIT,144。问题是不能调亮度，特别蛋疼。楼主知道为啥吗？ ...</span><br>
+<span>程序没烧好，退货吧。有些程序不能调亮度的，电视驱动居多。</span><br>
+</p><p><b>萨勒曼: </b><br>
+<span>套件用那个关键字搜啊？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>萨勒曼 发表于 2020-5-8 14:29</span><br>
+<span>套件用那个关键字搜啊？</span><br>
+<span>便携显示器 外壳</span><br>
+</p><p><b>yuuu: </b><br>
+<span>lucky95 发表于 2020-5-8 11:32</span><br>
+<span>大厂的是哪一款？</span><br>
+<span>不想折腾</span><br>
+<span>搜15.6 显示器，应该在前几个结果看到大厂</span><br>
+</p><p><b>seele9999: </b><br>
+<span>yuuu 发表于 2020-5-8 14:27</span><br>
+<span>程序没烧好，退货吧。有些程序不能调亮度的，电视驱动居多。</span><br>
+<span>谢谢</span><br>
+</p><p><b>killer0079: </b><br>
+<span>lucky95 发表于 2020-5-8 11:32</span><br>
+<span>大厂的是哪一款？</span><br>
+<span>不想折腾</span><br>
+<span>大厂做便携的，就华硕，优派和hkc吧</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>那么有没有一线通就可以满亮度的驱动板呢？我现在手头这块一线通情况下只能一半亮度的样子，必须得再另接供电才能满亮度</span><br>
+</p><p><b>yuuu: </b><br>
+<span>DENHJD 发表于 2020-5-8 14:50</span><br>
+<span>那么有没有一线通就可以满亮度的驱动板呢？我现在手头这块一线通情况下只能一半亮度的样子，必须得再另接供 ...</span><br>
+<span>这个是驱动板接口阉割供电不足的问题，我提到的能搭配外壳的驱动版都有这个问题，哪个驱动板接口没阉割只能慢慢试出来了。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>居然已经有套件了么</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>rin2th: </b><br>
+<img src="https://p.sda1.dev/0/a60338eb4f04dd9a9506c170a23c63a3/IMG_9E780EA1124214F8993B5B6D77DCFD4A.jpeg" title="https://p.sda1.dev/0/a60338eb4f04dd9a9506c170a23c63a3/IMG_9E780EA1124214F8993B5B6D77DCFD4A.jpeg"><br>
+<span>两年前做了两个，现在一个挂墙上接了个斐讯N1看电视，另一个加了个底座连了个惠普800g2做显示器。</span><br>
+<span>都是自用的笔记本电脑换屏多出的屏幕，看主楼的分类是A款。</span><br>
+<span>其他的都好说，接排线拧螺丝的活，就是用双面胶往前壳上贴的时候，如何对准屏幕的显示区域和前壳的框还是很考验人的。</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>我做了个15.6的和13.3的</span><br>
+<span>还想弄个8寸的，买不到外壳，好气</span><br>
+</p><p><b>红茶提督: </b><br>
+<span>不懂屏幕 b156zan03能用么</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rin2th 发表于 2020-5-10 19:01</span><br>
+<span>两年前做了两个，现在一个挂墙上接了个斐讯N1看电视，另一个加了个底座连了个惠普800g2做显示器。</span><br>
+<span>都是自 ...</span><br>
+<span>双面胶的保护条只拉出一点，用一边定位一边慢慢地把保护条拉完，熟练了还是很简单的</span><br>
+</p><p><b>yuuu: </b><br>
+<span>宅男的爱 发表于 2020-5-10 19:42</span><br>
+<span>我做了个15.6的和13.3的</span><br>
+<span>还想弄个8寸的，买不到外壳，好气</span><br>
+<span>特殊的尺寸智能自己画图定制外壳了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>红茶提督 发表于 2020-5-10 22:25</span><br>
+<span>不懂屏幕 b156zan03能用么</span><br>
+<span>看了下03.0～03.6都是很好驱动的屏</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span> 本帖最后由 斯城恶魔 于 2020-5-11 02:25 编辑 </span><br>
+<span>问一个和这个不太相关的问题</span><br>
+<span>自用华硕MB16AP，整个东西只有一个C口同时肩负供电和显示两个功能，接显卡C口（RTX2070）并开启充电的情况下最多用5个小时（自带7800mAh电池）</span><br>
+<span>理想的屏幕是仅靠电脑主板/显卡供电就能一线通</span><br>
+<span>但是现在的问题是不管是显卡还是主板供电都不足的样子</span><br>
+<span>显卡typec好像支持pd（老黄也没说映众也没说），屏幕充电功率支持pd18w（但是开启显示的时候充电功率应该是10w不到，显示一关闭充电就快起来了），主板华硕b450iusb4个3.1（ss），2个3.2（ss10）</span><br>
+<span>除了外接一个5V2A的电源没有别的办法了吗？</span><br>
+<span>更新：</span><br>
+<span>查到了2070的typec（virtuallink）支持15w，最高27w（我觉得我这张应该没有）的功率……</span><br>
+</p><p><b>yuuu: </b><br>
+<span>斯城恶魔 发表于 2020-5-11 01:51</span><br>
+<span>问一个和这个不太相关的问题</span><br>
+<span>自用华硕MB16AP，整个东西只有一个C口同时肩负供电和显示两个功能，接显卡C口 ...</span><br>
+<span>就是供电不足，在显卡供电上不去的情况下只有外接了</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>其实我就问问有没有大佬做好的A+屏幕要出二手的....手残做这个东西其实挺有难度的...贴屏幕是个技术活</span><br>
+</p><p><b>yuuu: </b><br>
+<span>neotaburiss 发表于 2020-5-11 09:18</span><br>
+<span>其实我就问问有没有大佬做好的A+屏幕要出二手的....手残做这个东西其实挺有难度的...贴屏幕是个技术活 ...</span><br>
+<span>a套件+不太粘的双面胶，贴歪了就撕下来，大不了多来几次，很简单的。</span><br>
+</p><p><b>烟萝: </b><br>
+<span>后去买个壳子改造一下再买个皮套吧。</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>neotaburiss 发表于 2020-5-11 09:18</span><br>
+<span>其实我就问问有没有大佬做好的A+屏幕要出二手的....手残做这个东西其实挺有难度的...贴屏幕是个技术活 ...</span><br>
+<span>你在魔都的话我可以帮你做一个</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>这个一线通,本质NS还是运行在掌机模式吧?</span><br>
+<span>真TV模式的话,掌机屏幕会灭掉啊</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-11 14:32 编辑 </span><br>
+<span>zmw_831110 发表于 2020-5-11 14:27</span><br>
+<span>这个一线通,本质NS还是运行在掌机模式吧?</span><br>
+<span>真TV模式的话,掌机屏幕会灭掉啊</span><br>
+<span>仔细看图</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>yuuu 发表于 2020-5-11 14:29</span><br>
+<span>仔细看图</span><br>
+<span>反射率好高</span><br>
+</p><p><b>yuuu: </b><br>
+<span>zmw_831110 发表于 2020-5-11 14:33</span><br>
+<span>反射率好高</span><br>
+<span>换了全贴合屏幕</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-5-11 14:41 编辑 </span><br>
+<span>yuuu 发表于 2020-5-11 14:35</span><br>
+<span>换了全贴合屏幕</span><br>
+<span>还能这样玩?</span><br>
+<span>搜到了https://www.ifanr.com/1173169</span><br>
+<span>但你有没有发现,换了这个全贴合后,我感觉他的防眩光镀膜层做的不好,反射率也太高了</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1geoi7cluinj20kg0g91e4.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1geoi7cluinj20kg0g91e4.jpg"><br>
+<span>不过,贴一个防眩光做的好的钢化膜,应该可以改善一下</span><br>
+</p><p><b>yuuu: </b><br>
+<span> 本帖最后由 yuuu 于 2020-5-11 14:46 编辑 </span><br>
+<span>zmw_831110 发表于 2020-5-11 14:37</span><br>
+<span>还能这样玩?</span><br>
+<span>搜到了https://www.ifanr.com/1173169</span><br>
+<span>显示效果还是提升很多的。</span><br>
+<span>你看下自己的手机，反射也是这个程度。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>yuuu 发表于 2020-5-11 14:43</span><br>
+<span>显示效果还是提升很多的。</span><br>
+<span>你看下自己的手机，反射也是这个程度。</span><br>
+<span>也是...</span><br>
+<span>是玻璃和塑料的区别了</span><br>
+</p><p><b>rvunholy: </b><br>
+<span> 本帖最后由 rvunholy 于 2020-5-11 16:46 编辑 </span><br>
+<span>麻烦问下lz 接上ns后 声音从哪出来? 看到了，套件有扬声器，这套件还有啥接口啊 hdmi dp？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rvunholy 发表于 2020-5-11 16:33</span><br>
+<span>麻烦问下lz 接上ns后 声音从哪出来? 看到了，套件有扬声器，这套件还有啥接口啊 hdmi dp？</span><br>
+<span> ...</span><br>
+<span>还有mini hdmi，mini dp要a套件才有</span><br>
+</p><p><b>seele9999: </b><br>
+<span>rvunholy 发表于 2020-5-11 16:33</span><br>
+<span>麻烦问下lz 接上ns后 声音从哪出来? 看到了，套件有扬声器，这套件还有啥接口啊 hdmi dp？</span><br>
+<span> ...</span><br>
+<span>接口是驱动板上的，你用什么驱动板就带啥口，你可以想象成主板。</span><br>
+</p><p><b>rvunholy: </b><br>
+<span>yuuu 发表于 2020-5-11 16:53</span><br>
+<span>还有mini hdmi，mini dp要a套件才有</span><br>
+<span>哦哦 A套件 是不是一般就是商家标注双tpyec 一线通的那个？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>rvunholy 发表于 2020-5-11 17:17</span><br>
+<span>哦哦 A套件 是不是一般就是商家标注双tpyec 一线通的那个？</span><br>
+<span>不一定，A套件能配多种驱动板，具体看你选择</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933416[0-50]</guid>
+    </item>
+  </channel>
+</rss>

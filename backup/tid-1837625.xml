@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python真是太好用了—— 下载文件，保持原来的目录结构。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python真是太好用了—— 下载文件，保持原来的目录结构。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:58:34 +0000</lastBuildDate>
+    <item>
+      <title>python真是太好用了—— 下载文件，保持原来的目录结构。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837625-1-1.html</link>
+      <description>python真是太好用了—— 下载文件，保持原来的目录结构。&#13;
+ 本帖最后由 CAMUS.net 于 2019-6-7 13:28 编辑 
+
+ 下载文件，保持原来的目录结构。
+&#13;
+如http://www.123.com/a1/b2/xxx.xxx
+&#13;
+下载到电脑上为/a1/b2/xxx.xxx
+&#13;
+找到了半天都没有找到这样的下载软件。于是用python重新造了一个轮子。
+&#13;
+```
+&#13;
+import codecs                                                 #载入模块
+&#13;
+import re                                                   #载入模块
+&#13;
+import os                                                   #载入模块
+&#13;
+import time
+&#13;
+import pickle
+&#13;
+#import msvcrt
+&#13;
+import sys
+&#13;
+import csv
+&#13;
+if len(sys.argv) == 1:
+&#13;
+    file_name = 'img.csv'
+&#13;
+elif len(sys.argv) == 2:
+&#13;
+    file_name = sys.argv
+&#13;
+else:
+&#13;
+    print('输入参数错误。')
+&#13;
+    input()
+&#13;
+with open(file_name, newline='') as f:      # 读取CSV文件
+&#13;
+    Downloads_files = csv.reader(f)
+&#13;
+    for Downloads_file in Downloads_files:            #逐个读取CSV数据
+&#13;
+      Downloads_file = ''.join(Downloads_file)
+&#13;
+      del_http = re.compile('http.*?://.*?/', re.S)# 删除域名正则表达式
+&#13;
+      local_file = del_http.sub(r'./Downloads/', Downloads_file)# 删除域名
+&#13;
+      local_file = re.sub(r'//', '/', local_file)#/替换//
+&#13;
+      #print(local_file)
+&#13;
+      #print(Downloads_file)
+&#13;
+      os.system('aria2c.exe -o, --out="%s" "%s"' %(local_file, Downloads_file))
+&#13;
+```</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>python真是太好用了—— 下载文件，保持原来的目录结构。</span><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-7 13:28 编辑 </span><br>
+<span> 下载文件，保持原来的目录结构。</span><br>
+<span>如http://www.123.com/a1/b2/xxx.xxx</span><br>
+<span>下载到电脑上为/a1/b2/xxx.xxx</span><br>
+<span>找到了半天都没有找到这样的下载软件。于是用python重新造了一个轮子。</span><br>
+<span>```</span><br>
+<span>import codecs                                                 #载入模块</span><br>
+<span>import re                                                   #载入模块</span><br>
+<span>import os                                                   #载入模块</span><br>
+<span>import time</span><br>
+<span>import pickle</span><br>
+<span>#import msvcrt</span><br>
+<span>import sys</span><br>
+<span>import csv</span><br>
+<span>if len(sys.argv) == 1:</span><br>
+<span>    file_name = 'img.csv'</span><br>
+<span>elif len(sys.argv) == 2:</span><br>
+<span>    file_name = sys.argv</span><br>
+<span>else:</span><br>
+<span>    print('输入参数错误。')</span><br>
+<span>    input()</span><br>
+<span>with open(file_name, newline='') as f:      # 读取CSV文件</span><br>
+<span>    Downloads_files = csv.reader(f)</span><br>
+<span>    for Downloads_file in Downloads_files:            #逐个读取CSV数据</span><br>
+<span>      Downloads_file = ''.join(Downloads_file)</span><br>
+<span>      del_http = re.compile('http.*?://.*?/', re.S)# 删除域名正则表达式</span><br>
+<span>      local_file = del_http.sub(r'./Downloads/', Downloads_file)# 删除域名</span><br>
+<span>      local_file = re.sub(r'//', '/', local_file)#/替换//</span><br>
+<span>      #print(local_file)</span><br>
+<span>      #print(Downloads_file)</span><br>
+<span>      os.system('aria2c.exe -o, --out="%s" "%s"' %(local_file, Downloads_file))</span><br>
+<span>```</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>不用subprocess么。。。</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.org</span><br>
+<span>这个？</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>calmer: </b><br>
+<span>wget -R还是r递归就是的。前提是网站允许列目录</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>calmer 发表于 2019-6-7 13:24</span><br>
+<span>wget -R还是r递归就是的。前提是网站允许列目录</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v ...</span><br>
+<span>这个试了一下，没有搞定</span><br>
+</p><p><b>xyzzy: </b><br>
+<span>Do you guys not have wget?</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>不用json传入aria2 rpc么</span><br>
+</p><p><b>归蝶: </b><br>
+<span>看没有import requests吓一跳，再一看喷了，你这明明是aria2太好用了好吗</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>C:\Users\Hikki>ftp</span><br>
+<span>ftp>接下来自由发挥</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span> 请用os.path.basename os.path.join</span><br>
+<span>看着真别扭 233</span><br>
+</p><p><b>Hieda: </b><br>
+<span> 本帖最后由 Hieda 于 2019-6-7 13:59 编辑 </span><br>
+<span>就算你这么写，为什么要线性逐个下载不统一一起喂给aria2？更别说你这代码毫无可移植性了</span><br>
+<span>请楼下开始表演ruby/haskell/bash/xxx太好用了系列</span><br>
+</p><p><b>aimpoint: </b><br>
+<span>好用是好用，性能可真是不行。。。慢死了</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>没有异步</span><br>
+<span>居然手工拼接路径</span><br>
+</p><p><b>糊状物: </b><br>
+<span>赤色彗星SEXY 发表于 2019-6-7 13:58</span><br>
+<span>请用os.path.basename os.path.join</span><br>
+<span>看着真别扭 233</span><br>
+<span>from pathlib import Path</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>SolarTorch: </b><br>
+<span>泥潭cs论坛失格 连插入代码功能都没有</span><br>
+</p><p><b>obiy: </b><br>
+<span>SolarTorch 发表于 2019-6-9 02:50</span><br>
+<span>泥潭cs论坛失格 连插入代码功能都没有</span><br>
+<span>动漫游戏论坛，app开发者也懒得做</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837625[0-50]</guid>
+    </item>
+  </channel>
+</rss>

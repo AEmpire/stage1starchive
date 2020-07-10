@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这几天折腾的一个备份文件的想法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这几天折腾的一个备份文件的想法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:56:46 +0000</lastBuildDate>
+    <item>
+      <title>这几天折腾的一个备份文件的想法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907886-1-1.html</link>
+      <description>这几天折腾的一个备份文件的想法&#13;
+ 本帖最后由 longxiao7 于 2020-1-6 17:21 编辑 
+
+先说目的
+&#13;
+    看着某国内盘近80个T的空间，闲的蛋疼，打起了它的注意。想着把不重要的文件备份到上面一份。例如：电视剧，歌曲，软件。
+&#13;
+为什么说是不重要的文件呢？
+&#13;
+    众所周知网盘备份是不靠谱的，运营商可能跑路，文件可能被和谐。
+&#13;
+那为啥还要折腾呢？
+&#13;
+    多一份备份，多一份安全。
+&#13;
+难点在哪里？
+&#13;
+    网络速度，文件完整性
+&#13;
+如何解决？
+&#13;
+    秒传+MD5校验+校验文件完整性和修复不完整文件工具
+&#13;
+    校验文件完整性和修复不完整文件工具 平时常见的就是 WinRAR的恢复记录功能了，但是重新打包文件会造成无法秒传。所以这里用一个叫做Par2的软件，这个功能就类似于恢复记录，但是并不需要打包文件。    Windows下可以生成par2的工具QuickPar for Windows 或者 MultiPar ，由于大部分人都会用win系统下的软件这里就不展开讲解了。
+&#13;
+    我这里主要细说一下我在用的Ubuntu下如何处理这个问题。
+&#13;
+首先我们要统计文件的md5，我这里是以一个目录为单位，统计目录里除了hash目录以外，所有的文件md5，并且写入到hash目录下的一个文件汇总
+&#13;
+新建一个sh 文件，内容如下
+&#13;
+#!/bin/bash
+&#13;
+mkdir -m 777 hash 
+&#13;
+find . -path ./hash -prune -type f -o -print0 | xargs -0 md5sum &gt; ./hash/hash.md5 \;
+&#13;
+sed '0,/^/s/^/\xEF\xBB\xBF/' ./hash/hash.md5 &gt; ./hash/hash_u8bom.md5
+&#13;
+这里我生成了两个文件，原因是linux默认是utf-8，写入无bom文件头的，如果这个文件到win下系统记事本打开会乱码，所以我又加了一个带bom文件头的版本 便于win下查看。
+&#13;
+保存这个文件并且复制到/usr/local/bin/下。改名成makehash。并且给它添加可执行权限
+&#13;
+chmod +x makehash
+&#13;
+这个当在数据目录中执行makehash的时候就会开始统计md5
+&#13;
+cd /数据目录/
+&#13;
+makehash
+&#13;
+接下来是安装par2，
+&#13;
+sudo apt-get install par2给一个文件建立par2索引
+&#13;
+par2 c -r3 -n1 小电影.mp4.par2 小电影.mp4-r3是指3%的冗余，-n1是只用一个冗余数据文件，如果不加这个会出现很多个par2文件。
+&#13;
+但是这里有两个问题，
+&#13;
+&lt;1&gt; par2这个东西实现的比较原始，并不支持路径，所以也只能切到文件目录里面执行命令
+&#13;
+&lt;2&gt; 生成的结果也在当前目录，和原始文件混在一起，日常使用感觉很不方便
+&#13;
+为了解决这个问题 我单独写了一个脚本，由于不是很熟悉shell，我选择了用php来做这个事
+&#13;
+安装php
+&#13;
+sudo apt-get install php脚本我用附件的方式提供下载吧，原因是dz对代码支持有限，缩进全没了。
+&#13;
+这里简单说一下我遇到的困难，首先是文件名有引号的情况，会影响调用。所以我选择了bash作为调用方案 
+&#13;
+因为bash有这么一个语法
+&#13;
+echo$'字\'符串';
+&#13;
+这样可以在单引号里面转义单引号。
+&#13;
+然后是我把文件夹结构对应的建立在了hash子目录下，把生成的par2复制到对应目录中去。
+&#13;
+使用方法
+&#13;
+把文件改名ppar2 也放到/usr/local/bin/下，使用方法和makehash脚本一样，都是先cd到对应目录，然后执行命令。
+&#13;
+此时脚本会递归的处理除了hash目录以外所有的文件。注意这一步很吃CPU和硬盘读写，大文件会占用很久的时间。
+&#13;
+当脚本执行完，把hash目录单独保存，其余文件秒传到网盘，就完成了。
+&#13;
+总结：想的挺好，可惜折腾的挺累。弄完都懒得继续备份了，哈哈。权当娱乐算了，各位看看就好，切勿当真，数据无价，折腾需谨慎
+&#13;
+补充一些参考网页：http://myzsyweb.blogspot.com/2009/01/parchivepar2.html
+&#13;
+https://blog.plotcup.com/2012/02 ... ng-rong-yu-jiu-cuo/
+&#13;
+http://parchive.sourceforge.net/
+&#13;
+https://github.com/Parchive/par2cmdline
+&#13;
+https://www.zybuluo.com/zhongdao/note/1297738
+&#13;
+https://sourceforge.net/projects/parchive/files/libpar2/0.2/</description>
+      <content:encoded><![CDATA[<p><b>longxiao7: </b><br>
+<span>这几天折腾的一个备份文件的想法</span><br>
+<span> 本帖最后由 longxiao7 于 2020-1-6 17:21 编辑 </span><br>
+<span>先说目的</span><br>
+<span>    看着某国内盘近80个T的空间，闲的蛋疼，打起了它的注意。想着把不重要的文件备份到上面一份。例如：电视剧，歌曲，软件。</span><br>
+<span>为什么说是不重要的文件呢？</span><br>
+<span>    众所周知网盘备份是不靠谱的，运营商可能跑路，文件可能被和谐。</span><br>
+<span>那为啥还要折腾呢？</span><br>
+<span>    多一份备份，多一份安全。</span><br>
+<span>难点在哪里？</span><br>
+<span>    网络速度，文件完整性</span><br>
+<span>如何解决？</span><br>
+<span>    秒传+MD5校验+校验文件完整性和修复不完整文件工具</span><br>
+<span>    校验文件完整性和修复不完整文件工具 平时常见的就是 WinRAR的恢复记录功能了，但是重新打包文件会造成无法秒传。所以这里用一个叫做Par2的软件，这个功能就类似于恢复记录，但是并不需要打包文件。    Windows下可以生成par2的工具QuickPar for Windows 或者 MultiPar ，由于大部分人都会用win系统下的软件这里就不展开讲解了。</span><br>
+<span>    我这里主要细说一下我在用的Ubuntu下如何处理这个问题。</span><br>
+<span>首先我们要统计文件的md5，我这里是以一个目录为单位，统计目录里除了hash目录以外，所有的文件md5，并且写入到hash目录下的一个文件汇总</span><br>
+<span>新建一个sh 文件，内容如下</span><br>
+<span>#!/bin/bash</span><br>
+<span>mkdir -m 777 hash </span><br>
+<span>find . -path ./hash -prune -type f -o -print0 | xargs -0 md5sum > ./hash/hash.md5 \;</span><br>
+<span>sed '0,/^/s/^/\xEF\xBB\xBF/' ./hash/hash.md5 > ./hash/hash_u8bom.md5</span><br>
+<span>这里我生成了两个文件，原因是linux默认是utf-8，写入无bom文件头的，如果这个文件到win下系统记事本打开会乱码，所以我又加了一个带bom文件头的版本 便于win下查看。</span><br>
+<span>保存这个文件并且复制到/usr/local/bin/下。改名成makehash。并且给它添加可执行权限</span><br>
+<span>chmod +x makehash</span><br>
+<span>这个当在数据目录中执行makehash的时候就会开始统计md5</span><br>
+<span>cd /数据目录/</span><br>
+<span>makehash</span><br>
+<span>接下来是安装par2，</span><br>
+<span>sudo apt-get install par2给一个文件建立par2索引</span><br>
+<span>par2 c -r3 -n1 小电影.mp4.par2 小电影.mp4-r3是指3%的冗余，-n1是只用一个冗余数据文件，如果不加这个会出现很多个par2文件。</span><br>
+<span>但是这里有两个问题，</span><br>
+<span><1> par2这个东西实现的比较原始，并不支持路径，所以也只能切到文件目录里面执行命令</span><br>
+<span><2> 生成的结果也在当前目录，和原始文件混在一起，日常使用感觉很不方便</span><br>
+<span>为了解决这个问题 我单独写了一个脚本，由于不是很熟悉shell，我选择了用php来做这个事</span><br>
+<span>安装php</span><br>
+<span>sudo apt-get install php脚本我用附件的方式提供下载吧，原因是dz对代码支持有限，缩进全没了。</span><br>
+<span>这里简单说一下我遇到的困难，首先是文件名有引号的情况，会影响调用。所以我选择了bash作为调用方案 </span><br>
+<span>因为bash有这么一个语法</span><br>
+<span>echo$'字\'符串';</span><br>
+<span>这样可以在单引号里面转义单引号。</span><br>
+<span>然后是我把文件夹结构对应的建立在了hash子目录下，把生成的par2复制到对应目录中去。</span><br>
+<span>使用方法</span><br>
+<span>把文件改名ppar2 也放到/usr/local/bin/下，使用方法和makehash脚本一样，都是先cd到对应目录，然后执行命令。</span><br>
+<span>此时脚本会递归的处理除了hash目录以外所有的文件。注意这一步很吃CPU和硬盘读写，大文件会占用很久的时间。</span><br>
+<span>当脚本执行完，把hash目录单独保存，其余文件秒传到网盘，就完成了。</span><br>
+<span>总结：想的挺好，可惜折腾的挺累。弄完都懒得继续备份了，哈哈。权当娱乐算了，各位看看就好，切勿当真，数据无价，折腾需谨慎</span><br>
+<span>补充一些参考网页：http://myzsyweb.blogspot.com/2009/01/parchivepar2.html</span><br>
+<span>https://blog.plotcup.com/2012/02 ... ng-rong-yu-jiu-cuo/</span><br>
+<span>http://parchive.sourceforge.net/</span><br>
+<span>https://github.com/Parchive/par2cmdline</span><br>
+<span>https://www.zybuluo.com/zhongdao/note/1297738</span><br>
+<span>https://sourceforge.net/projects/parchive/files/libpar2/0.2/</span><br>
+</p><p><b>夜语: </b><br>
+<span>怎么还有下一页的这也太高级了吧</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>夜语 发表于 2020-1-6 12:00</span><br>
+<span>怎么还有下一页的这也太高级了吧</span><br>
+<span>我也才发现这个功能，哈哈 不过已经取消了 </span><br>
+</p><p><b>R.I.P: </b><br>
+<span>php-cli写shell脚本也太顶了。学点shell或者python平时很好用的</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>par2应该是支持路径的</span><br>
+<span>另外-B设置的basepath是指.par2冗余文件内记录源文件文件名的基础路径，而不会变更par2工作目录</span><br>
+<img src="https://p.sda1.dev/0/5f19d29838b222a72d1880608f163545/ConEmu64_2020-01-06_14-43-57.png" title="https://p.sda1.dev/0/5f19d29838b222a72d1880608f163545/ConEmu64_2020-01-06_14-43-57.png"><br>
+</p><p><b>longxiao7: </b><br>
+<span>lwa190212 发表于 2020-1-6 14:48</span><br>
+<span>par2应该是支持路径的</span><br>
+<span>另外-B设置的basepath是指.par2冗余文件内记录源文件文件名的基础路径，而不会变更pa ...</span><br>
+<span>奇怪，当时我没测试成功 还以为软件有问题 那估计是我写错了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>longxiao7 发表于 2020-1-6 14:55</span><br>
+<span>奇怪，当时我没测试成功 还以为软件有问题 那估计是我写错了</span><br>
+<span>我觉得不太了解这个par2具体步骤的只接丢给他们脚本可能会很不好使</span><br>
+<span>比如有个文件路径是/1/2/3</span><br>
+<span>如果basepath设为/1，然后不了解的人自己跑到/1/2里去校验，就会显示缺少2/3这个文件</span><br>
+<span>所以脚本还是得自己写，大家整理逻辑或多或少有些区别，自己为自己负责就行了</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>lwa190212 发表于 2020-1-6 15:12</span><br>
+<span>我觉得不太了解这个par2具体步骤的只接丢给他们脚本可能会很不好使</span><br>
+<span>比如有个文件路径是/1/2/3</span><br>
+<span>如果basepa ...</span><br>
+<span>这东西可以对多个文件同时做索引，我是为了避免那样，要对每个文件单独做</span><br>
+<span>所以就没想那么多，直接用脚本处理了</span><br>
+</p><p><b>刘佐: </b><br>
+<span>对于国产程序来说md5一致到时候直接和谐成8秒 你拿什么恢复数据？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Benighted: </b><br>
+<span>国内网盘真不靠谱的，还不如自己买硬盘</span><br>
+</p><p><b>归蝶: </b><br>
+<span>秒传和备份两个需求完全自相矛盾啊。</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>刘佐 发表于 2020-1-6 22:33</span><br>
+<span>对于国产程序来说md5一致到时候直接和谐成8秒 你拿什么恢复数据？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS ...</span><br>
+<span>多一份备份，多一份安全。 </span><br>
+<span>我主楼说了，重要数据要有多份备份，但是多一份网盘的 有什么不好？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907886[0-50]</guid>
+    </item>
+  </channel>
+</rss>

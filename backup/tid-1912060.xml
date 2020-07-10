@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>10xx的显卡风扇起飞求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>10xx的显卡风扇起飞求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:25:39 +0000</lastBuildDate>
+    <item>
+      <title>10xx的显卡风扇起飞求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912060-1-1.html</link>
+      <description>10xx的显卡风扇起飞求助&#13;
+大佬们，用了几年的1080显卡动不动起飞，一旦转起来不重启就停不下来（即使停止游戏，gpu没啥负载了转速还是很高），同时实际看上去温度并不高
+&#13;
+下载了asus的gpu tweak改转速，风扇转速拉上去会起飞，但是往下拉不管用。。。
+&#13;
+所以就寻思是不是能改bios，搜了下之前好像能通过bios改，现在还行么，找了半天没找到Pascal bios编辑的工具。。。
+&#13;
+另外除了这个还没有别的办法能解决这个。。。</description>
+      <content:encoded><![CDATA[<p><b>WosunOO: </b><br>
+<span>10xx的显卡风扇起飞求助</span><br>
+<span>大佬们，用了几年的1080显卡动不动起飞，一旦转起来不重启就停不下来（即使停止游戏，gpu没啥负载了转速还是很高），同时实际看上去温度并不高</span><br>
+<span>下载了asus的gpu tweak改转速，风扇转速拉上去会起飞，但是往下拉不管用。。。</span><br>
+<span>所以就寻思是不是能改bios，搜了下之前好像能通过bios改，现在还行么，找了半天没找到Pascal bios编辑的工具。。。</span><br>
+<span>另外除了这个还没有别的办法能解决这个。。。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>你试试EVGA那个程序，还有映众的tune it，另外开机加载驱动以前转速高不高？</span><br>
+</p><p><b>WosunOO: </b><br>
+<span>madbird302 发表于 2020-2-3 19:01</span><br>
+<span>你试试EVGA那个程序，还有映众的tune it，另外开机加载驱动以前转速高不高？ ...</span><br>
+<span>啊，那我试试，开机之后都不高，开始玩游戏或者chrome抽个风之后显卡就会全速起飞，然后除非进行重启或者休眠啥的操作 就一直起飞了。。。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>WosunOO 发表于 2020-2-3 19:25</span><br>
+<span>啊，那我试试，开机之后都不高，开始玩游戏或者chrome抽个风之后显卡就会全速起飞，然后除非进行重启或者 ...</span><br>
+<span>CHROME是吃CPU啊，你看看有什么程序在后台吧</span><br>
+</p><p><b>WosunOO: </b><br>
+<span>madbird302 发表于 2020-2-3 19:28</span><br>
+<span>CHROME是吃CPU啊，你看看有什么程序在后台吧</span><br>
+<span>chrome一般情况也不会响，只有非常偶尔的时候会触发，好像同时开几个视频的时候，不知道是不是有什么硬件加速之类的，一般是开游戏起飞。。。试了下 映泰的，好像没啥用</span><br>
+</p><p><b>WosunOO: </b><br>
+<span>madbird302 发表于 2020-2-3 19:28</span><br>
+<span>CHROME是吃CPU啊，你看看有什么程序在后台吧</span><br>
+<span>啊，对了，显卡虽然响，但是读取不到显卡转速，这块可能出了问题。。。</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>换硅脂，清灰</span><br>
+</p><p><b>madbird302: </b><br>
+<span>WosunOO 发表于 2020-2-3 19:34</span><br>
+<span>啊，对了，显卡虽然响，但是读取不到显卡转速，这块可能出了问题。。。 ...</span><br>
+<span>显卡驱动出问题了？插拔一下看看</span><br>
+</p><p><b>elflie: </b><br>
+<span>读取不到转数读取不到温度都会直接满速，先把散热风扇拔插看看吧</span><br>
+</p><p><b>miao123177: </b><br>
+<span>说下我碰到过的 我的1070TI 3风扇的 刚装上去时没弄好 电源线卡到一个风扇 转不了然后其他的2个风扇直接跟直升机起飞似的 吓我一跳 后来检查才发现卡到了 把线拨开就没事了</span><br>
+</p><p><b>心生: </b><br>
+<span>表现和楼主一样，但是转速有，核心温度读不到</span><br>
+</p><p><b>WosunOO: </b><br>
+<span>elflie 发表于 2020-2-4 00:57</span><br>
+<span>读取不到转数读取不到温度都会直接满速，先把散热风扇拔插看看吧</span><br>
+<span>感谢各位大佬，插拔了一下好像好了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912060[0-50]</guid>
+    </item>
+  </channel>
+</rss>

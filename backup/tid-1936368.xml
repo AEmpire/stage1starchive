@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Epic证实PS5不是完整RDNA2构架</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Epic证实PS5不是完整RDNA2构架</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:43:07 +0000</lastBuildDate>
+    <item>
+      <title>Epic证实PS5不是完整RDNA2构架[150-200]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1936368-1-1.html</link>
+      <description>Epic证实PS5不是完整RDNA2构架&#13;
+"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."
+&#13;
+https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis
+&#13;
+PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速</description>
+      <content:encoded><![CDATA[<p><b>clover293: </b><br>
+<span> 本帖最后由 clover293 于 2020-5-29 20:46 编辑 </span><br>
+<span>AMD懂个P的RDNA2，苏妈就一收钱办事的</span><br>
+<span>真正懂还是要看泥潭大佬，我信泥潭</span><br>
+</p><p><b>医生狼多: </b><br>
+<span>苏姿丰就是个当领导的，懂个屁的rdna2</span><br>
+<span>真大神还得看66666</span><br>
+</p><p><b>fycwhat: </b><br>
+<span>懂了懂了真架构师还得看泥潭66666，amd懂个屁的rdna2，老黄赶紧收编了吧</span><br>
+<span>https://www.amd.com/en/technologies/rdna-2</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>哈罗: </b><br>
+<span>这打脸有点疼</span><br>
+</p><p><b>JimmyJoker: </b><br>
+<span> 本帖最后由 JimmyJoker 于 2020-5-30 07:55 编辑 </span><br>
+<span>网页的内容实在太少了</span><br>
+<span>请谁能解释一下发生了什么...</span><br>
+</p><p><b>UmarIbnLaAhad: </b><br>
+<span>JimmyJoker 发表于 2020-5-30 07:53</span><br>
+<span> 谁能解释一下发生了什么...</span><br>
+<span>amd官网说了ps5是rdna2</span><br>
+<span>666666惨败</span><br>
+</p><p><b>泥潭办证先锋: </b><br>
+<span>业界精英S1婆罗门。</span><br>
+<img src="https://p.sda1.dev/0/7a167231bc8f7f1231e2ff3da609e6de/IMG_C8B90BBE9EE71F9F8547E04590C0F4C7.jpeg" title="https://p.sda1.dev/0/7a167231bc8f7f1231e2ff3da609e6de/IMG_C8B90BBE9EE71F9F8547E04590C0F4C7.jpeg"><br>
+<span>—— 来自 samsung SM-G9750, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>percy1234: </b><br>
+<span>看来不是**钓鱼而是真正nt</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>6神对绿色的信仰我以为大家早就知道了呢</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>UmarIbnLaAhad 发表于 2020-5-29 17:55</span><br>
+<span>amd官网说了ps5是rdna2</span><br>
+<span>666666惨败</span><br>
+<span>其实挺奇怪的，epic搞引擎不应该不知道相关细节，为什么报道上和amd出了偏差</span><br>
+</p><p><b>shizumaru2009: </b><br>
+<span>920619lqy 发表于 2020-5-30 09:55</span><br>
+<span>其实挺奇怪的，epic搞引擎不应该不知道相关细节，为什么报道上和amd出了偏差 ...</span><br>
+<span>因为epic根本没说ps5是不是rdna2,标题是楼主的私货</span><br>
+</p><p><b>gg142857: </b><br>
+<span>六爷这么跳又被抽脸难道不应该拿刀剖个腹给大家看看肚子里面有几碗面么</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1936368[150-200]</guid>
+    </item>
+    <item>
+      <title>Epic证实PS5不是完整RDNA2构架[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1936368-1-1.html</link>
+      <description>Epic证实PS5不是完整RDNA2构架&#13;
+"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."
+&#13;
+https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis
+&#13;
+PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速</description>
+      <content:encoded><![CDATA[<p><b>内森德雷克: </b><br>
+<span>66666 发表于 2020-5-20 18:53</span><br>
+<span>不懂就不要胡说八道好不好？连primitive shader和mesh shader就是同一个东西这种话都能说的出来，胡扯的 ...</span><br>
+<span>啊这，你回错人了吧，我可没说过这种话嗷，只不过憋了几个小时就这？还是乖乖闭嘴吧，别人看你不过是个跳梁小丑</span><br>
+</p><p><b>66666: </b><br>
+<span>内森德雷克 发表于 2020-5-20 19:02</span><br>
+<span>啊这，你回错人了吧，我可没说过这种话嗷，只不过憋了几个小时就这？还是乖乖闭嘴吧，别人看你不过是个跳 ...</span><br>
+<span>为了吹索连脸皮都不要赤膊上阵胡扯，真当别人都说弱智是吧？</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>66666 发表于 2020-5-20 19:07</span><br>
+<span>为了吹索连脸皮都不要赤膊上阵胡扯，真当别人都说弱智是吧？</span><br>
+<span>我在这帖子里的回复有吹索吗？你未免戏太多，自己的驳斥苍白无力还撒泼打滚，怎么找你主子要领赏？</span><br>
+</p><p><b>66666: </b><br>
+<span>https://www.resetera.com/threads/primitive-shader-amds-patent-deep-dive.186831/</span><br>
+<span>农企相关专利http://www.freepatentsonline.com/20180082399.pdf</span><br>
+<span>There are several noticeable differences between the two. With the primitive shader setup AMD described, you still have to "assemble" the input data of predefined format (vertices and vertex indices) sequentially, where as with mesh shader the input is completely user defined, and the launching of mesh shader is not bound by the input assembly stage - it's more like compute shader that generates data to be consumed by the rasterizer. Also with primitive shader, the tessellation stage is still optionally present, whereas for mesh shader tessellation simply doesn't fit.</span><br>
+<span>关于primitive shader和mesh shader区别这个贴里说的很清楚，请结合农企自己专利一看就知道两个根本就不是一个东西，还有白痴说什么mesh shader是MS专利所以骚尼不能用这个名词，真TM受不了你们自己去看看OpenGL里一样也是用的mesh shader来定义，一帮弱智给某些索吹耍跟二呆一样，真是喷了</span><br>
+</p><p><b>66666: </b><br>
+<span>内森德雷克 发表于 2020-5-20 19:08</span><br>
+<span>我在这帖子里的回复有吹索吗？你未免戏太多，自己的驳斥苍白无力还撒泼打滚，怎么找你主子要领赏？ ...</span><br>
+<span>看我下面回复，自己去看农企primitive shader专利里是怎么写的，以为游戏区大家都不大懂就在这胡说八道故意发明创造新构架，连吹水都这么弱智</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>66666 发表于 2020-5-20 19:13</span><br>
+<span>看我下面回复，自己去看农企primitive shader专利里是怎么写的，以为游戏区大家都不大懂就在这胡说八道故 ...</span><br>
+<span>这话谁说的你就跟谁说去，怎么不回复提出这观点的人？是谁在这里丢人现眼犯弱智啊？未免太把自己当回事了，不过我们毕竟跟领工资的不一样，没那么多闲工夫网上对线</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>S.I.R 发表于 2020-5-20 18:29</span><br>
+<span>我不知道你说的什么叫SSD虚假宣传。这个demo epic或索尼从来没说过一定要怎么样的SSD才能跑。</span><br>
+<span>那个直播 ...</span><br>
+<span>索尼说过ps5的扩充ssd是要专门经过它认证的才行，当然你认为这潜台词并没有按时对性能有要求那随意</span><br>
+</p><p><b>66666: </b><br>
+<span>内森德雷克 发表于 2020-5-20 19:15</span><br>
+<span>这话谁说的你就跟谁说去，怎么不回复提出这观点的人？是谁在这里丢人现眼犯弱智啊？未免太把自己 ...</span><br>
+<span>给人拆穿了就撒泼打滚，也就这点本事了</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-20 20:21 编辑 </span><br>
+<span>66666 发表于 2020-5-20 19:51</span><br>
+<span>谁告诉你Mesh shader 和 primitive shader 是一个东西？编程API都不一样，不懂不要瞎几把胡扯好不好？自 ...</span><br>
+<span>API层的primitive shader和mesh shader编程API当然不一样，因为PS5不用DX嘛，API一样就是大新闻了……但单凭主楼的这篇文章说PS5就一定没有硬件支持的、对应mesh shader管线部分的说法确实证据是不足的，如果你有支持或者反对的阵营的话，过于明显的漏洞也只能给对方阵营提供弹药罢了，不如收一收。仔细看一下原文中的问题：</span><br>
+<span>or whether Epic taps into the power of mesh shaders, or primitive shaders as Sony describes them for PlayStation 5. The answer is intriguing.</span><br>
+<span>这里DF有引导性提问 “the power of A, or B as Sony describes them ”，意思就是A=B。这话或许不够严谨，但采访的时候也不可能全都说清楚。这里主要看Brian Karis的回答，总结一下就是这个意思：“Nanite自然要做到不需要硬件rasterizer也很棒，但我们承认，有时候硬件rasteriser还是个更快的path，（比如）PS5上就可以（用PS）实现该path，所以比老旧的只有VS的管线更快。”我不知道如何从这一句里读出“PS5只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现Nanite”的意思的。</span><br>
+<span>不否认你的猜测可能基于一些合理的观察，我甚至都不会否认到最后你的结论可能是对的，但现在确实没有证据证明你的观点。不如等PS5更多消息披露以后再来分析吧。</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>66666 发表于 2020-5-20 19:16</span><br>
+<span>给人拆穿了就撒泼打滚，也就这点本事了</span><br>
+<span>哈哈，气急败坏了都，说到底这帖子里我从没说过这些东西，不知道是怎么意淫成拆穿的，笑死我了，别人提出这观点你不跑去跟别人对线，后面发回复开群嘲我寻思提出那些观点的人看得到？在这里卖弄自己的三脚猫硬件知识，对线也就这个b水平，还是滚远点吧弱智</span><br>
+</p><p><b>66666: </b><br>
+<span>Lunamos 发表于 2020-5-20 19:18</span><br>
+<span>API层的primitive shader和mesh shader编程API当然不一样，因为PS5不用DX嘛，API一样就是大新闻了……但 ...</span><br>
+<span>我上面已经说了，Vulkan一样也是用mesh shader，不存在所谓什么不用DX就不能用mesh shader说法</span><br>
+<span>所以PS5不支持mesh shader</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>我看国外相关内容都是把mesh shader和primitive shader放在一起说的，基本都说是NV和AMD对同一种技术的不同说法。既然你说有区别，不妨说说具体实现上这两者有什么性能或表现上的差距为好。</span><br>
+</p><p><b>maiyunfei: </b><br>
+<span>我开始相信nv真有黑公关了</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>acg_s1: </b><br>
+<span> 本帖最后由 acg_s1 于 2020-5-20 19:35 编辑 </span><br>
+<span>66666 发表于 2020-5-20 19:21</span><br>
+<span>我上面已经说了，Vulkan一样也是用mesh shader，不存在所谓什么不用DX就不能用mesh shader说法</span><br>
+<span>所以PS5 ...</span><br>
+<span>DX12U支持mesh shader特性，而RDNA2兼容DX12U的API，在PS5上A卡不需要兼容DX12U自然也就不需要支持mesh shader了。 </span><br>
+<span>按你的说法mesh shader是n卡的专利，primitive shader又和mesh shader差别巨大，那么试问同为a卡的xsx又是如何支持mesh shader的，是a卡剽窃了n卡mesh shader的设计吗？</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>66666 发表于 2020-5-20 20:21</span><br>
+<span>我上面已经说了，Vulkan一样也是用mesh shader，不存在所谓什么不用DX就不能用mesh shader说法</span><br>
+<span>所以PS5 ...</span><br>
+<span>DX、Vulkan、OpenGL都叫mesh shader，但问题是这三个索尼都不直接用……这种只是延续了AMD在硬件层面的说法，如果有开发者看过文档应该就明白了，现在先别着急从这种只言片语里下判断。</span><br>
+</p><p><b>66666: </b><br>
+<span>acg_s1 发表于 2020-5-20 19:29</span><br>
+<span>DX12U支持mesh shader特性，而RDNA2兼容DX12U的API，在PS5上A卡不需要兼容DX12U自然也就不需要支持mesh sh ...</span><br>
+<span>我可没说mesh shader是N卡专利，本来就是任何人都以可以用，现在Vulkan就源生支持mesh shader，反倒是primitive shader是农企硬件专利，专利PDF上面我有贴</span><br>
+<span>mesh shader和primitive shader功能重叠的地方也就是多边形剔除，其他方面根本就不是一码事，随便说一个，mesh shader可以根本不用提供顶点数据就能随意用参数控制生成几何体，primitive shader必须要提供顶点几何数据才能生成模型，两者干的根本就是不是一个事，我就搞不懂了DX12U白皮书和专利文档都有，怎么到底现在还有这么多人认为这两个是一回事？</span><br>
+</p><p><b>lesangellos: </b><br>
+<span>66666 发表于 2020-5-20 19:21</span><br>
+<span>我上面已经说了，Vulkan一样也是用mesh shader，不存在所谓什么不用DX就不能用mesh shader说法</span><br>
+<span>所以PS5 ...</span><br>
+<span>论厚颜无耻，还是兄台给力啊！</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>66666 发表于 2020-5-20 19:39</span><br>
+<span> 我可没说mesh shader是N卡专利，本来就是任何人都以可以用，现在Vulkan就源生支持mesh shader，反倒是pri ...</span><br>
+<span>先不说这俩是不是一回事（虽然我估计也不是一回事，实现方式不一样）</span><br>
+<span>Directx的文档什么时候和索尼的对上过？ PS系可是既不用opengl也不用vulkan</span><br>
+</p><p><b>66666: </b><br>
+<span>すぴぱら 发表于 2020-5-20 19:52</span><br>
+<span>先不说这俩是不是一回事（虽然我估计也不是一回事，实现方式不一样）</span><br>
+<span>Directx的文档什么时候和索尼的对上 ...</span><br>
+<span>两个本来就不是一个东西，mesh shader又不涉及专利问题，如果源生支持骚尼脑子坏了故意用什么primitive shader？给第三方开发商玩茴字有N种写法很好玩？</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>66666 发表于 2020-5-20 20:39</span><br>
+<span>我可没说mesh shader是N卡专利，本来就是任何人都以可以用，现在Vulkan就源生支持mesh shader，反倒是pri ...</span><br>
+<span>提醒一下，图形API是软件层面的东西，硬件没有的东西它变不出来。所以前面这个问题挺重要的，你考虑一下XSX是怎么在AMD的GPU上实现mesh shader的。</span><br>
+<span>给你提供两个方向，其一是mesh shader是primitive shader的进阶版本，只有RDNA2才有（毫无根据的猜测）。其二是索尼在API层的水平有问题，做不出mesh shader，只能做出primitive shader（需要在Navi上实现mesh shader实现性能比primitive shader实现性能好的比较，目前没有）</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>66666 发表于 2020-5-20 19:39</span><br>
+<span>我可没说mesh shader是N卡专利，本来就是任何人都以可以用，现在Vulkan就源生支持mesh shader，反倒是pri ...</span><br>
+<span>你想说的我大致明白了。但是这跟你发的这文应该没有关系。</span><br>
+<span>因为你想说的无非是索尼之前公布过PS5支持的是Primitive Shader，你想借个机会再黑一次而已，这种行为我认为是不可取的。</span><br>
+<span>因为DF的这篇文章只有一处说“Mesh Shader，或者索尼称之为Primitive Shader”，而整篇文章的立意是让开发者对于次世代开发的新技术进行分析。被拿来当强使会让人感到非常不舒服。</span><br>
+</p><p><b>66666: </b><br>
+<span>Lunamos 发表于 2020-5-20 19:58</span><br>
+<span>提醒一下，图形API是软件层面的东西，硬件没有的东西它变不出来。所以前面这个问题挺重要的，你考虑一下X ...</span><br>
+<span>都说了，mesh shader不存在专利问题，本身功能定义在那任何人都能用</span><br>
+<span>primitive shader反倒不是API（直到目前DX和Vulkan官方版本都不支持这个玩意），其是农企一个硬件专利，实现方式和功能和mesh shader差异很大，上面我贴的农企专利PDF你自己看看就清楚了</span><br>
+<span>RDNA2是明确完整支持DX12u和mesh shader，别说XSX支持未来牙膏厂GPU一样也会用，本就是一个开源技术，如果PS5支持mesh shader为什么要叫primitive shader？故意误导开发商耍的有意思？</span><br>
+</p><p><b>66666: </b><br>
+<span>S.I.R 发表于 2020-5-20 19:59</span><br>
+<span>你想说的我大致明白了。但是这跟你发的这文应该没有关系。</span><br>
+<span>因为你想说的无非是索尼之前公布过PS5支持的是 ...</span><br>
+<span>我都不知道你在说什么，Brian Karis作为Epic高级工程师，他会说mesh shader跟Primitive Shader一样？你找DF原文，把Brian Karis说的话再看看</span><br>
+<span>现在是某些人在故意搅浑水，非得胡扯什么mesh shader和Primitive Shader两者是一样的东西，农企技术专利PDF白纸黑字写在那，两个东西无论要解决的问题还是实现方式差异都非常大，这算什么黑？非要指鹿为马才叫好是吧？</span><br>
+</p><p><b>sad6504: </b><br>
+<span>还以为一发脱离呢，这是来收网了啊</span><br>
+</p><p><b>退讓: </b><br>
+<span>死要面子吹ps5配置的人是搞笑的，只看重配置或者说不认为ps5对于次时代游戏完全够用的人也是搞笑的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>退讓 发表于 2020-5-20 20:13</span><br>
+<span>死要面子吹ps5配置的人是搞笑的，只看重配置或者说不认为ps5对于次时代游戏完全够用的人也是搞笑的</span><br>
+<span>--...</span><br>
+<span>对微软来说，XBOX ONE就够用了，他们还要开发两年X1游戏。</span><br>
+</p><p><b>yoyodty: </b><br>
+<span>得</span><br>
+<span>开始转移话题了</span><br>
+<span>这两个到底是不是一个东西</span><br>
+<span>说清楚啊</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>66666 发表于 2020-5-20 20:10</span><br>
+<span>我都不知道你在说什么，Brian Karis作为Epic高级工程师，他会说mesh shader跟Primitive Shader一样？你找 ...</span><br>
+<span>就我看到媒体对于这两个技术的描述，我认为无论实现方式差异有多大，解决的问题都谈不上“差异非常大”</span><br>
+</p><p><b>66666: </b><br>
+<span>S.I.R 发表于 2020-5-20 20:22</span><br>
+<span>就我看到媒体对于这两个技术的描述，我认为无论实现方式差异有多大，解决的问题都谈不上“差异非常大” ...</span><br>
+<span>https://devblogs.microsoft.com/directx/coming-to-directx-12-mesh-shaders-and-amplification-shaders-reinventing-the-geometry-pipeline/</span><br>
+<span>http://www.freepatentsonline.com/20180082399.pdf</span><br>
+<span>媒体看过这些技术资料了吗？看过了还说两个差不多，那只能说眼睛瞎了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>来多几个就事论事的吧，这帖里借其他人的简陋结论在那阴阳怪气的楼太多了。好歹先把resetera的帖看了。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-20 22:03 编辑 </span><br>
+<span>66666 发表于 2020-5-20 21:10</span><br>
+<span>我都不知道你在说什么，Brian Karis作为Epic高级工程师，他会说mesh shader跟Primitive Shader一样？你找 ...</span><br>
+<span>大概理解你的逻辑了，回过头来看看从「目前可以公开的情报」里看到的（这里不考虑老黄）：</span><br>
+<span>1. AMD硬件中，用来实现mesh shader的部分主要是primitive shader（硬），和一些其他硬件。</span><br>
+<span>2. XSX在RDNA2的GPU上，通过primitive shader（硬），实现了mesh shader（软）</span><br>
+<span>3. 索尼在？？？的GPU上，通过primitive shader（硬），实现了（EPIC所说的比old pipeline快很多的硬件rasterizers）类似的可以做大规模几何剔除的功能，但它就偏偏不叫mesh shader，而是起名叫primitive shader（软）——</span><br>
+<span>因为索尼没把primitive shader（软）命名为mesh shader，从而推断索尼的硬件不是完整RDNA2，这种命名不同推断架构不同的逻辑是不通的。尤其是看不到标题所说Epic证实体现在何处。如果你是说索尼一直没提mesh shader，那3月SSD哥上台不就已经"证实"了……与其说是心虚，不敢同样起名叫mesh shader，感觉更像命名权的战争。其实这个问题最终一定要落脚在性能比较上，而不是老黄和农企对管线的命名大战上。我手上有几块图灵卡也写过mesh shader，但我基本只做光线追踪所以还暂时体会不到大规模可视化时mesh shader光栅化的优势，而农企那边的性能就更是只能等出来时才能看到了。</span><br>
+<span>另外补充一下，UE5里大规模三角形的实现，Epic是主功，并不是直接使用Mesh Shader的Demo中dynamic LOD的方法。Brian Karis说的是可以尽量抛弃用硬件做path，但同时也能从硬件rasterizers的一些支持过程中受益（Brian Karis提到从primitive shader中受益，但没有提及如何从中受益）。</span><br>
+</p><p><b>紫苑寺友子MKII: </b><br>
+<span>amd还有内部代号英伟达杀手呢，来个课代表分析分析这个内部代号的核心思想和内涵，不得低于500字</span><br>
+<span>—— 来自 Xiaomi Redmi K30 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>66666: </b><br>
+<span> 本帖最后由 66666 于 2020-5-20 21:07 编辑 </span><br>
+<span>Lunamos 发表于 2020-5-20 20:45</span><br>
+<span>大概理解你的逻辑了，回过头来看看从「目前可以公开的情报」里看到的（这里不考虑老黄）：</span><br>
+<span>1. AMD硬件中 ...</span><br>
+<span>XSX在RDNA2的GPU上，通过primitive shader（硬），实现了mesh shader（软），这可是你说的，农企可从来没这样说过，RDNA2目前资料没说可以支持primitive shader</span><br>
+<span>其次你写过mesh shader就知道实现顶点剔除只是其很小的一个功能，还有例如LOD、动态调整几何体等等功能都是primitive shader根本没法做的（从其专利也能看得出来功能比较单一和mesh shader没法比）</span><br>
+<span>如果PS5用的完整RDNA2为什么要说只能跑primitive shader？有一样的功能非得搞成两种东西，这不是脱裤子放屁么，而且mesh shader需要有GPU内部专用通信缓存，primitive shader缓冲是放在本地显存上，从硬件实现来说后者是根本不可能用软件实现前者的所有功能</span><br>
+<span>小于等于一个像素的多边形是软件光栅化优势，大于乃至等于几个像素的多边形是硬件光栅化快，实际上mesh shader从用法和根本上来说跟软件光栅化没什么太大区别</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-20 22:24 编辑 </span><br>
+<span>66666 发表于 2020-5-20 22:04</span><br>
+<span>XSX在RDNA2的GPU上，通过primitive shader（硬），实现了mesh shader（软），这可是你说的，农企可从来没 ...</span><br>
+<span>GPU内部专用通信缓存？你是说CU或者SMX内部的shared memory么？现在都有啊……从所谓本地显存（也就是global memory）加载总是要用shared memory以及更近的L1等等做各种parallel primitive计算的。其实用meshlets实现mesh shader的功能即便用现在的通用并行架构也并不麻烦，用最简单的consistent thread就可以可以做到负载均衡的并行处理。</span><br>
+<span>有一点可以肯定的是，XSX肯定是用AMD的GPU实现了Mesh Shader，这总是没错的。由于AMD并没有叫做mesh shader的东西，因而底层肯定用了primitive shader（硬）以及其他硬件实现了API中的mesh shader。除非你的意思是RDNA2在硬件层面抄了老黄的Mesh Shader，并且微软用Mesh Shader (硬）实现了Mesh Shader（软），但这就缺乏证据了。</span><br>
+<span>而最后一段，你的意思是primitive shader是mesh shader的一个低阶版本？这个猜测也是没有根据的……因为实际上我们并不知道primitive shader（软）这个对应了光栅化之前的管线部分是如何实现的，primitive shader（硬）在其中的作用。就像我们不知道primitive shader（硬）在DX12U的mesh shader实现中的作用一样，这也就是我提到的一切都要落脚到性能上去观察的原因。</span><br>
+</p><p><b>percy1234: </b><br>
+<span>还在这吵呐，x1吧的都来偷活了</span><br>
+<img src="https://p.sda1.dev/0/c13d4627e0533cf62c382e431f33d59f/IMG_C7B0331F9F935F9983726CD4BBD9BD9C.jpeg" title="https://p.sda1.dev/0/c13d4627e0533cf62c382e431f33d59f/IMG_C7B0331F9F935F9983726CD4BBD9BD9C.jpeg"><br>
+</p><p><b>S.I.R: </b><br>
+<span>搞了半天，其实楼主就是想说的是mesh shader比primitive shader先进，是高阶版本。但是其实现在没证据是这样。</span><br>
+</p><p><b>786223096: </b><br>
+<span>s1日常瞎翻译钓鱼……</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>786223096 发表于 2020-5-20 22:23</span><br>
+<span>s1日常瞎翻译钓鱼……</span><br>
+<span>主要这篇DF的文章都是一种展望新技术的口吻，根本不是捧mesh shader贬primitive shader……</span><br>
+</p><p><b>jajajzz: </b><br>
+<span>这个也能吵这么多页 泥潭真是人均框架设计师</span><br>
+<span>本来就一臭打游戏也肯定不可能是给你完整框架啊，rdna还有那啥视频转码功能不可能也给你安上吧</span><br>
+</p><p><b>66666: </b><br>
+<span>Lunamos 发表于 2020-5-20 21:20</span><br>
+<span>GPU内部专用通信缓存？你是说CU或者SMX内部的shared memory么？现在都有啊……从所谓本地显存（也就是glob ...</span><br>
+<span>第一，primitive shader软件实现所谓Mesh Shader请你拿出证据，RDNA2没有任何一个字说硬件用primitive shader，目前农企硬件支持primitive shader只有RDNA1和Vega64</span><br>
+<span>第二，primitive shader专利文档写的很清楚，它不支持GPU内部缓存通讯，只支持LDS缓冲，从原理上就没法支持mesh shader</span><br>
+<span>第三，primitive shader根本就不存在什么软管线说法，目前除了PS5以外没有官方API支持这个东西，mesh shader是API，primitive shader是一项单一硬件功能</span><br>
+<span>拜托你自己仔细看看专利PDF是怎么写的，看完你就知道什么用primitive shader来跑mesh shader简直就是荒唐可笑，跟用XO支持Tessellation能跑DX11的Tessellation模型吗？更何况primitive shader连LOD都做不了，也不知道这两个怎么能扯到一起</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-21 12:59 编辑 </span><br>
+<span>66666 发表于 2020-5-21 08:30</span><br>
+<span>第一，primitive shader软件实现所谓Mesh Shader请你拿出证据，RDNA2没有任何一个字说硬件用primitive sh ...</span><br>
+<span>1. “用xxx实现”是一种包含关系，不是一一对应的。Mesh shader（软）包含的传统管线部分比AMD直接提的primitive shader（硬）多，但其实现要用到一些AMD支持primitive shader的专用硬件，没啥难理解的吧……你直接看专利的话也知道这种包含关系是躲不开的。如果mesh shader在AMD硬件上实现还得躲着primitive shader不用，那不就回到old pipeline上去了么……</span><br>
+<span>2. GPU内部缓存通讯如果不是之前提到的shared memory的话是什么？如果你是说era那篇文章里说的crossbar，那个buffer的实现同样用的是带缓存的global memory。 Primitive Shader专利书说的Local Data Store倒反而不常见，因为拿来做shared/L2的scratch memory一般都是核内可见而非全局。“从原理上就没法支持mesh shader”这个说法也是不准确的，前面提到了通用架构就可以实现mesh shader，问题是不同专用硬件支持情况下的性能差别。所以前面一直强调要落脚到性能上。现在已知的信息是微软在AMD和NVIDIA两个硬件上都抽象出了一个叫做Mesh Shader的Stage，其中实现的性能差距当然也是大家感兴趣的事，但这回到了老黄和农企之争，而不是微软和索尼。</span><br>
+<span>3. primitive shader这个阶段的软管线描述存在于PS5的官方介绍里，它的实现如何利用了AMD的硬件支持是黑盒，没有证据证明它们说的是一件事，只有用过PS5 API的人才能了解更多。不能认为API上没有按照Mesh Shader实现对应功能就是错的。Mesh Shader是老黄提出的一种在光栅化之前处理顶点的组织形式，GL/Vulkan和微软的DX这种通用跨平台图形API必须支持这个标准。但PS5用的是AMD的GPU而且平台此刻仅有一份，不见得必须按照老黄约定的mesh shader描述去实现对应功能。同时，Mesh Shader也并不是从头到尾由专用硬件实现的，而是硬件给出一定的non-programmable加速支持，用通用硬件和新架构的专用硬件共同实现。就像Task Shader其实类似于一个包装了Warp Scheduler的programmable部分，API设计是硬件架构的一个抽象，所在的层级是不同的。</span><br>
+<span>回到问题上来，正如我在109楼说的，我一直都没否认你的结论可能是对的，但确实目前没有证据证明。如果漏洞太多就会被当成许多奇怪的阵营战争的弹药来回扔，而这是我不愿意看到的。你目前的论证都基于猜想，我觉得要想让论证更有说服力，需要至少证明一点：就是RDNA2抛弃了primitive shader。否则的话“PS5没有按照老黄的标准实现mesh shader”和“PS5没有使用RDNA2”，无论如何都是联系不起来的。</span><br>
+</p><p><b>六步走天下: </b><br>
+<span>Hanzong 发表于 2020-5-20 08:18</span><br>
+<span>索尼发售前一向性能吹上天，ps2碰瓷dc，ps3”模拟地球“、“性能吊打“xbox 360，ps4发售前更不用说了</span><br>
+<span>这种 ...</span><br>
+<span>a9vg仍然是索尼无敌，不过我还是觉得结局不好说，最好两家55开然后拼价格</span><br>
+<span>—— 来自 samsung SM-G9860, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Endle: </b><br>
+<span>jajajzz 发表于 2020-5-20 23:13</span><br>
+<span>这个也能吵这么多页 泥潭真是人均框架设计师</span><br>
+<span>本来就一臭打游戏也肯定不可能是给你完整框架啊，rdna ...</span><br>
+<span>索软再怎么打，不都是苏妈的阉割货吗</span><br>
+<span>还是把核弹粉拉进来，让AN粉战一波有意思</span><br>
+<span>可惜显卡对战时牙膏粉插不上话</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>Endle 发表于 2020-5-20 20:04</span><br>
+<span>索软再怎么打，不都是苏妈的阉割货吗</span><br>
+<span>还是把核弹粉拉进来，让AN粉战一波有意思</span><br>
+<span>可惜显卡对战时牙膏粉插不 ...</span><br>
+<span>毕竟主业不是做显卡，虽然想了很多年，甚至还夭折过至少一次。</span><br>
+<span>从农企挖了Raja以后应该有成果了，至少应该能摆脱亮机水平</span><br>
+</p><p><b>acg_s1: </b><br>
+<span>66666 发表于 2020-5-21 07:30</span><br>
+<span>第一，primitive shader软件实现所谓Mesh Shader请你拿出证据，RDNA2没有任何一个字说硬件用primitive sh ...</span><br>
+<span>primitive shader这玩意就没切实落地过，刚推出的时候就远未完善，你有证据证明primitive shader从专利申请之初到RDNA2发布一直没有修改完善过？</span><br>
+<span>你有任何证据和内幕表明PS5上可用的primitive shader和以前在vega上默认关闭、缺乏驱动支持和软件demo的那个基本不可用的是一回事？</span><br>
+<span>同样是次时代图像引擎，primitive shader概念比mesh shader还早，mesh shader后来居上不假，但你能证明amd不把对接mesh shader API的对应硬件结构叫作primitive shader 2.0 或者primitive shader adaptation/evolved?</span><br>
+<span>要求举证可真的轻巧，但从一个primitive shader到'epic证实ps5不支持完整rdna2特性'这里可没有证据只有你的一厢情愿。</span><br>
+</p><p><b>Endle: </b><br>
+<span>Lunamos 发表于 2020-5-20 19:58</span><br>
+<span>提醒一下，图形API是软件层面的东西，硬件没有的东西它变不出来。所以前面这个问题挺重要的，你考虑一下X ...</span><br>
+<span>这次AMD给两家的产品应该是同一代的吧。有什么已经公开的，主要的技术差异吗？</span><br>
+</p><p><b>百合豚: </b><br>
+<span>Endle 发表于 2020-5-21 10:04</span><br>
+<span>索软再怎么打，不都是苏妈的阉割货吗</span><br>
+<span>还是把核弹粉拉进来，让AN粉战一波有意思</span><br>
+<span>可惜显卡对战时牙膏粉插不 ...</span><br>
+<span>今年估计有蓝卡，你看英特尔发布会radeon是屏蔽词</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>Endle 发表于 2020-5-21 12:57</span><br>
+<span>这次AMD给两家的产品应该是同一代的吧。有什么已经公开的，主要的技术差异吗？ ...</span><br>
+<span>目前没有证据证明不是同一代产品。主楼的意思是Brian Karis回答时只用了AMD术语体系下的“primitive shader”的说法，而对跨平台API支持“mesh shader”避而不谈，因而推测不是同一代产品，但前面讨论很多楼了，无论从Brian Karis这个只言片语的语境和语气，还是从逻辑角度讲感觉都明显站不住脚。</span><br>
+<span>说实话倒希望最后真不是一代产品，这样大概有更多热闹可看</span><br>
+</p><p><b>Endle: </b><br>
+<span>Lunamos 发表于 2020-5-21 12:03</span><br>
+<span>目前没有证据证明不是同一代产品。主楼的意思是Brian Karis回答时只用了AMD术语体系下的“primitive shad ...</span><br>
+<span>提供不同代产品的话，AMD 有什么好处呢？从控制成本的角度看，用同一代产品，根据不同的需求砍一大刀一小刀，对AMD更有利吧</span><br>
+<span>如果看热闹的话，我希望提供不同代产品，一个基于旧一代产品，但阉割少性能多；另一个基于新一代的砍的狠，虽然多了一堆看上去好看的新特性但运算能力差。这样的话吵起来才好玩</span><br>
+</p><p><b>TonyKune: </b><br>
+<span>实锤了，AMD和SONY联合造假</span><br>
+<span>https://www.amd.com/en/technologies/rdna-2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1936368[100-150]</guid>
+    </item>
+    <item>
+      <title>Epic证实PS5不是完整RDNA2构架[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1936368-1-1.html</link>
+      <description>Epic证实PS5不是完整RDNA2构架&#13;
+"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."
+&#13;
+https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis
+&#13;
+PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速</description>
+      <content:encoded><![CDATA[<p><b>404489039: </b><br>
+<span>不是真有人相信游戏机给你插个完整的rdna2显卡吧</span><br>
+</p><p><b>归蝶: </b><br>
+<span> 本帖最后由 归蝶 于 2020-5-20 10:18 编辑 </span><br>
+<span>Mesh shader 和 primitive shader 就是同一个东西，只不过Mesh是NV的叫法，AMD这边从来都是说primitive shader</span><br>
+<span>原文已经写得很清楚了，顶楼是在断章取义</span><br>
+<span>We were also really curious about exactly how geometry is processed, whether Nanite uses a fully software-based raw compute approach (which would work well across all systems, including PC GPUs that aren't certified with the full DirectX 12 Ultimate) or whether Epic taps into the power of mesh shaders, or primitive shaders as Sony describes them for PlayStation 5. The answer is intriguing.</span><br>
+<span>...是否Nanite是纯软件的方案来为非DX12U的PC GPU提供支持，还是说Epic利用了硬件mesh shader（或按照索尼使用的称呼，叫做“primitive shaders”）？</span><br>
+<span>"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."</span><br>
+<span>...虚幻引擎有高度优化的软shader来实现光栅化，所以可以不借助硬件Shader来处理大量三角形，但是在硬件Shader效率更高的时候依然会用选择硬件shader来渲染。在PS5上我们选择使用primitive shaders，因为它比过去基于Vertex Shader的流水线要快的多。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-20 11:16 编辑 </span><br>
+<span>66666 发表于 2020-5-20 10:31</span><br>
+<span>很简单的逻辑，如果PS5支持mesh shader那Epic脑子有病采用primitive shader？还要多写一套编程模型</span><br>
+<span>另外 ...</span><br>
+<span>就是个命名问题。mesh shader也不新了，其实就是把几何分割成meshlet之后利用空间局部性并且给几何分级，这样就不需要在后面的一些阶段每次线性遍历整个网格了，尤其是可以把culling提前，而且动态的情况下不用每次更新一整个index buffer。PS5把对应的功能叫做primitive shader，是延续了AMD的这套命名。贴的这篇文章已经4天了，有啥问题全球同行早就提出来了。比如你提到的的这一段，其实前面DF问的时候已经说得很清楚了：</span><br>
+<span>We were also really curious about exactly how geometry is processed, whether Nanite uses a fully software-based raw compute approach (which would work well across all systems, including PC GPUs that aren't certified with the full DirectX 12 Ultimate) or whether Epic taps  into the power of mesh shaders, or primitive shaders as Sony describes them for PlayStation 5</span><br>
+<span>至于你说Vega就有，那是PPT上有，实际上拖到Navi。</span><br>
+<span>https://www.anandtech.com/show/1 ... xt-rx-5700-series/2</span><br>
+<span>The one exception to all of this is the primitive shader. Vega’s most infamous feature is back, and better still it’s enabled this time. The primitive shader is compiler controlled, and thanks to some hardware changes to make it more useful, it now makes sense for AMD to turn it on for gaming. Vega’s primitive shader, though fully hardware functional, was difficult to get a real-world performance boost from, and as a result AMD never exposed it on Vega.</span><br>
+</p><p><b>百合豚: </b><br>
+<span>qumkml423 发表于 2020-5-20 09:57</span><br>
+<span>那倒不至于，PS5怎么也不会贵过4000块，4000块哪怕是年底zen3和big navi上市的情况下也攒不出3700x+5700 ...</span><br>
+<span>你现在攒一套5700，3600的机器也不过5k，zen3和30系来了做到这个性能4k以下不要太简单</span><br>
+</p><p><b>qumkml423: </b><br>
+<span>百合豚 发表于 2020-5-20 10:14</span><br>
+<span>你现在攒一套5700，3600的机器也不过5k，zen3和30系来了做到这个性能4k以下不要太简单 ...</span><br>
+<span>3600是六核，板u套怎么也得1400了，八核的3700x板u套至少得2200吧，5700算2200，16g内存1TBnvme固态加上电源散热机箱加起来怎么也得1500了，选好配件还得高，年底再降价也就持平吧，除非收二手。</span><br>
+</p><p><b>luowei_nowe: </b><br>
+<span>Hanzong 发表于 2020-5-20 08:18</span><br>
+<span>索尼发售前一向性能吹上天，ps2碰瓷dc，ps3”模拟地球“、“性能吊打“xbox 360，ps4发售前更不用说了</span><br>
+<span>这种 ...</span><br>
+<span>DC、叉一圈、叉完最后都被PS家族捶爆了，证明这种吹法完全没问题。</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>这真是每天都有新惊喜</span><br>
+</p><p><b>misaki_d: </b><br>
+<span> 这世代真是看出 ps4 逼疯了不少人</span><br>
+</p><p><b>csgjjg: </b><br>
+<span>索索震怒</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>navarra: </b><br>
+<span>索索和软软真是为了ps5操碎了心……</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>百合豚: </b><br>
+<span>qumkml423 发表于 2020-5-20 10:27</span><br>
+<span>3600是六核，板u套怎么也得1400了，八核的3700x板u套至少得2200吧，5700算2200，16g内存1TBnvme固态加上 ...</span><br>
+<span>PS5那个八核能跑到全核4.3吗，频率优势6核打8核足够了</span><br>
+</p><p><b>gz0552: </b><br>
+<span> 本帖最后由 gz0552 于 2020-5-20 10:45 编辑 </span><br>
+<span>吵来吵去 该买PS5的还是得买PS5你软牛逼上天也不能在XSX上运行个TLOU2</span><br>
+<span>再说单机我更情愿PC玩 实在过不去还能弄个修改器 </span><br>
+</p><p><b>fycwhat: </b><br>
+<span>归蝶 发表于 2020-5-20 10:07</span><br>
+<span>Mesh shader 和 primitive shader 就是同一个东西，只不过Mesh是NV的叫法，AMD这边从来都是说primitive sha ...</span><br>
+<span>弱智66666断章取义的老惯犯了，认真回复就输了</span><br>
+</p><p><b>捧读小见川: </b><br>
+<span>Troywest 发表于 2020-5-20 09:10</span><br>
+<span>也可能是微软太舍得花钱了</span><br>
+<span>别急，等售价才能看出来谁舍得花钱</span><br>
+</p><p><b>S.I.R: </b><br>
+<span> 本帖最后由 S.I.R 于 2020-5-20 11:15 编辑 </span><br>
+<span>PS5运行了一个demo，大家都觉得画面屌炸天。然后索尼一个屁都没有放。</span><br>
+<span>但现在却变成了PS5输了，索尼虚假宣传，谁能理出其中的逻辑？</span><br>
+</p><p><b>塌方: </b><br>
+<span>我就想知道手上的5700xt到底是抬出场外还是又抬回来了？</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>S.I.R 发表于 2020-5-20 11:13</span><br>
+<span>PS5运行了一个demo，大家都觉得画面屌炸天。然后索尼一个屁都没有放。</span><br>
+<span>但现在却变成了PS5输了，索尼虚假宣 ...</span><br>
+<span>因为上次吹ssd还有人信了</span><br>
+</p><p><b>断翼: </b><br>
+<span>链接全文压根没提RDNA2，所有中文内容全靠脑补，这是以为坛友不懂英语么，转原文链接就是你最大败笔</span><br>
+</p><p><b>S.I.R: </b><br>
+<span> 本帖最后由 S.I.R 于 2020-5-20 11:45 编辑 </span><br>
+<span>飞奔的拓拓 发表于 2020-5-20 11:30</span><br>
+<span>因为上次吹ssd还有人信了</span><br>
+<span>吹SSD有啥问题，SSD速度是快啊。具体怎么用当然是看索尼自己第一方。合着你要让人说游戏机都是垃圾，你就觉得诚实</span><br>
+<span>再说上次那个是给开发者看的讲座，我是没看出有什么尴尬的地方，事实上上次一直是跟HDD在比，你让微软吹也能这么吹，标配SSD的确对下世代的游戏开发有很大影响。</span><br>
+</p><p><b>percy1234: </b><br>
+<span>断翼 发表于 2020-5-20 11:32</span><br>
+<span>链接全文压根没提RDNA2，所有中文内容全靠脑补，这是以为坛友不懂英语么，转原文链接就是你最大败笔 ...</span><br>
+<span>老李达业了</span><br>
+</p><p><b>frankCC: </b><br>
+<span>S.I.R 发表于 2020-5-20 11:13</span><br>
+<span>PS5运行了一个demo，大家都觉得画面屌炸天。然后索尼一个屁都没有放。</span><br>
+<span>但现在却变成了PS5输了，索尼虚假宣 ...</span><br>
+<span>那你要问问虚幻5那帖子里是莫名其妙从引擎扯到平台的了。</span><br>
+</p><p><b>白白白: </b><br>
+<span>断翼 发表于 2020-5-20 11:32</span><br>
+<span>链接全文压根没提RDNA2，所有中文内容全靠脑补，这是以为坛友不懂英语么，转原文链接就是你最大败笔 ...</span><br>
+<span>可能以为泥潭都是只看标题就开喷的，所以才这么自信贴链接</span><br>
+</p><p><b>白昼梦: </b><br>
+<span>因为泥潭很多人真的用屁股思考啊，拿屁股怎么可能看得懂英文</span><br>
+</p><p><b>makar0601: </b><br>
+<span>性能能用就行，本首陀罗ps3画面也能接受，好玩读盘快谁便宜买谁</span><br>
+</p><p><b>bilibiligo: </b><br>
+<span>不会真的还有人想在泥潭讨论游戏吧……</span><br>
+</p><p><b>JC_AR: </b><br>
+<span>有什么好说的，机能再强也不是每个厂都能用到极限jrpg有ff7re也有闪轨34这机能用全了吗</span><br>
+</p><p><b>不可不信邪: </b><br>
+<span>老是有人想论证下一代谁要把谁秒飞，倍杀，无聊不无聊，两家演示都出过了承认差距不会很大很难吗</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 7.1.1上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>万一被塞了呢: </b><br>
+<span>navarra 发表于 2020-5-20 10:41</span><br>
+<span>索索和软软真是为了ps5操碎了心……</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>隔空对线几百楼里有多少任任泥潭不会心理没点数吧</span><br>
+</p><p><b>弹幕: </b><br>
+<span>玩游戏哪有青黑摆屁股好玩</span><br>
+</p><p><b>xzzfft: </b><br>
+<span>6神黄企员工索粉软粉想想清楚再来对线</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>PS2时代，XBOX机能比PS2才是真秒飞了。现在，以后都不可能存在这种事了。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我想了想我常玩那几个日厂的水平，估计ps5就算弱点他们也利用不全，所以无所谓</span><br>
+</p><p><b>stevenzero: </b><br>
+<span>扯这些意义真不大</span><br>
+<span>反正亮屁股</span><br>
+<span>XSX机能会比PS5强，规格摆在那。</span><br>
+<span>我会优先考虑PS5，并认为索尼赢面仍要比巨硬大。</span><br>
+<span>我对这两家主机机能能比肩2080TI表示悲观。</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span>alvus 发表于 2020-5-20 09:25</span><br>
+<span>1.苏妈说过用rdna2的复数的主机平台是xsx和xss？不至于这么巨魔吧</span><br>
+<span>2.sie官网写的是‘zen2’和‘rdna’</span><br>
+<span>3：</span><br>
+<span>蘇媽在年初正式公佈RDNA2時就說浮點效率比RDNA1還強</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span>塌方 发表于 2020-5-20 11:28</span><br>
+<span>我就想知道手上的5700xt到底是抬出场外还是又抬回来了？</span><br>
+<span>能再撐到4000系出來才換應該行</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span>其實跟7年前差不多,XB1比PS4弱所以就集中火力在講ESRAM怎樣怎樣,現在索尼當然就集中火力在SSD了畢竟唯一優勢</span><br>
+<span>不過說到底,最重要還是價錢,也不需要比XSX便宜了,只要跟XSX同價,對PS5來說這次機能較低的問題不大</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>6 神这是一击脱离了么？</span><br>
+<span>我还想看他在这帖子里继续高强度整活呢</span><br>
+</p><p><b>csj6655: </b><br>
+<span>lz还是钓到不少鱼的，不亏了</span><br>
+</p><p><b>ccmikecc2008: </b><br>
+<span>反正等PS5 PRO了</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>S.I.R 发表于 2020-5-20 11:36</span><br>
+<span>吹SSD有啥问题，SSD速度是快啊。具体怎么用当然是看索尼自己第一方。合着你要让人说游戏机都是垃圾，你就 ...</span><br>
+<span>这次拱火的又不是xbox用户，国内才多少盒子用户，大头是pc玩家。索尼ssd比微软的好这大家都知道，结果ps5吧那群人都连傲腾都看不上了，这下才是炸锅。</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>6神还是那个6神，过段时间又跟没事发生过那样发类似的帖子，目的就是要贬低主机顺带吹一波老黄</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>飞奔的拓拓 发表于 2020-5-20 16:42</span><br>
+<span>这次拱火的又不是xbox用户，国内才多少盒子用户，大头是pc玩家。索尼ssd比微软的好这大家都知道，结果ps5 ...</span><br>
+<span>把粉丝言论当厂商言论来黑也真没比贴吧的人好到哪去。</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>S.I.R 发表于 2020-5-20 16:53</span><br>
+<span>把粉丝言论当厂商言论来黑也真没比贴吧的人好到哪去。</span><br>
+<span>厂商真不在乎ssd虚假宣传，何必要epic删了视频。</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>百合豚 发表于 2020-5-20 10:41</span><br>
+<span>PS5那个八核能跑到全核4.3吗，频率优势6核打8核足够了</span><br>
+<span>到不了4.3，xbx是开超线程3.6关掉3.8，ps5是我记得是可达3.5，开不开超线程不知道，能不能稳不知道，而且主机还要留一个核心给OS，3600应该还是可以打的。</span><br>
+</p><p><b>S.I.R: </b><br>
+<span>飞奔的拓拓 发表于 2020-5-20 17:00</span><br>
+<span>厂商真不在乎ssd虚假宣传，何必要epic删了视频。</span><br>
+<span>我不知道你说的什么叫SSD虚假宣传。这个demo epic或索尼从来没说过一定要怎么样的SSD才能跑。</span><br>
+<span>那个直播说的细节本来就太多，就算Epic自己也想删。</span><br>
+</p><p><b>黄字: </b><br>
+<span>你谭有些人春秋笔法是真的厉害，ns也不支持完整ue4，喷第三方不上ns的时候好像你用ue4移植就只要一块钱成本一样。</span><br>
+</p><p><b>黄字: </b><br>
+<span>你谭有些人春秋笔法是真的厉害，ns也不支持完整ue4，喷第三方不上ns的时候好像你用ue4移植就只要一块钱成本一样。</span><br>
+</p><p><b>66666: </b><br>
+<span>归蝶 发表于 2020-5-20 10:07</span><br>
+<span>Mesh shader 和 primitive shader 就是同一个东西，只不过Mesh是NV的叫法，AMD这边从来都是说primitive sha ...</span><br>
+<span>谁告诉你Mesh shader 和 primitive shader 是一个东西？编程API都不一样，不懂不要瞎几把胡扯好不好？自己把DX12U白皮书好好看看</span><br>
+<span>如果是一样的东西为什么DX12U和RDNA2不说是primitive shader？光是primitive shader根本就不支持多线程两者差别就大了去了，我上面就已经说两者如果一样，那么XO和7970也可以都号称支持细分曲面</span><br>
+</p><p><b>66666: </b><br>
+<span>内森德雷克 发表于 2020-5-20 16:49</span><br>
+<span>6神还是那个6神，过段时间又跟没事发生过那样发类似的帖子，目的就是要贬低主机顺带吹一波老黄 ...</span><br>
+<span>不懂就不要胡说八道好不好？连primitive shader和mesh shader就是同一个东西这种话都能说的出来，胡扯的连脑子都不要了，连农企苏妈都不敢说primitive shader和mesh shader就是一样，你坛键盘构架设计师太牛逼了</span><br>
+</p><p><b>66666: </b><br>
+<span>huzhiyangqaz 发表于 2020-5-20 15:46</span><br>
+<span>6 神这是一击脱离了么？</span><br>
+<span>我还想看他在这帖子里继续高强度整活呢</span><br>
+<span>你们厉害我自叹不如，为了吹索，自我意淫发明创造新版RDNA2构架，建议你们给农企中国投简历</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1936368[50-100]</guid>
+    </item>
+    <item>
+      <title>Epic证实PS5不是完整RDNA2构架[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1936368-1-1.html</link>
+      <description>Epic证实PS5不是完整RDNA2构架&#13;
+"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."
+&#13;
+https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis
+&#13;
+PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>Epic证实PS5不是完整RDNA2构架</span><br>
+<span>"The vast majority of triangles are software rasterised using hyper-optimised compute shaders specifically designed for the advantages we can exploit," explains Brian Karis. "As a result, we've been able to leave hardware rasterisers in the dust at this specific task. Software rasterisation is a core component of Nanite that allows it to achieve what it does. We can't beat hardware rasterisers in all cases though so we'll use hardware when we've determined it's the faster path. On PlayStation 5 we use primitive shaders for that path which is considerably faster than using the old pipeline we had before with vertex shaders."</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis</span><br>
+<span>PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速</span><br>
+</p><p><b>3D烧: </b><br>
+<span>网页链接重发下吧，丢东西了</span><br>
+</p><p><b>UmarIbnLaAhad: </b><br>
+<span>epic真是老巨魔了，之前索索和软软大战几个月结果被epic终结战斗（？）</span><br>
+</p><p><b>Litccc: </b><br>
+<span>不要慌，ps5 pro安排上</span><br>
+</p><p><b>dna20000: </b><br>
+<span>感觉有时候信仰的力量真能战胜一切 有点电脑硬件知识的人都大概推算出ps5是什么水平了 到底是索尼宣发厉害还是有些人不愿意清醒 难道承认索尼这次ps5的配置拉胯了 就这么难吗 非要一下ssd 一下是显卡是RDNA2架构 当初看gpu都推断是5700 非要信仰到索尼都自己推出RDNA2 新显卡给ps5用的地步了 </span><br>
+</p><p><b>Hanzong: </b><br>
+<span>dna20000 发表于 2020-05-20 08:14:53</span><br>
+<span>感觉有时候信仰的力量真能战胜一切 有点电脑硬件知识的人都大概推算出ps5是什么水平了 到底是索尼宣发厉害 ...索尼发售前一向性能吹上天，ps2碰瓷dc，ps3”模拟地球“、“性能吊打“xbox 360，ps4发售前更不用说了</span><br>
+<span>这种宣发真的没问题吗</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>RushMove: </b><br>
+<span> 本帖最后由 RushMove 于 2020-5-20 08:31 编辑 </span><br>
+<span>不是完整的RDNA2，到某些人嘴里就变成完全不是了</span><br>
+</p><p><b>xxyyhhjj: </b><br>
+<span>又要打起来了</span><br>
+<span>—— 来自 blackshark SKR-A0, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>斯拉克自有妙计: </b><br>
+<span>RushMove 发表于 2020-5-20 08:30</span><br>
+<span>不是完整的RDNA2，到某些人嘴里就变成完全不是了</span><br>
+<span>这和老黄的刀法又不一样甚至没法实现一些特性</span><br>
+</p><p><b>gg142857: </b><br>
+<span>泥潭新的一天从暴打索尼开始</span><br>
+</p><p><b>白昼梦: </b><br>
+<span>Hanzong 发表于 2020-5-20 08:18</span><br>
+<span>索尼发售前一向性能吹上天，ps2碰瓷dc，ps3”模拟地球“、“性能吊打“xbox 360，ps4发售前更不用说了</span><br>
+<span>这种 ...</span><br>
+<span>泥潭前阵子刚水过国内媒体瞎翻译，结果模拟地球还变成索尼背锅了</span><br>
+</p><p><b>sierrazc: </b><br>
+<span>游戏不好玩，吵架才好玩，围观更好玩</span><br>
+</p><p><b>RushMove: </b><br>
+<span>斯拉克自有妙计 发表于 2020-5-20 08:38</span><br>
+<span>这和老黄的刀法又不一样甚至没法实现一些特性</span><br>
+<span>大家关注的也不是某些新特性，而是RDNA1和2的浮点性能不一样，也就是说ps5的浮点数还得打折</span><br>
+</p><p><b>赤井稻妻: </b><br>
+<span>520暴打索尼的都是索尼真爱粉</span><br>
+</p><p><b>3D烧: </b><br>
+<span>补个链接</span><br>
+</p><p><b>Troywest: </b><br>
+<span>泥潭新的一天从暴打索尼开始</span><br>
+</p><p><b>3D烧: </b><br>
+<span> 本帖最后由 3D烧 于 2020-5-20 08:53 编辑 </span><br>
+<span>3D烧 发表于 2020-5-20 08:51</span><br>
+<span>补个链接</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis</span><br>
+</p><p><b>布拉德莱恩: </b><br>
+<span>0202了索黑还搁那模拟地球呢</span><br>
+</p><p><b>66666: </b><br>
+<span>3D烧 发表于 2020-5-20 08:51</span><br>
+<span>补个链接</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis</span><br>
+<span>原文</span><br>
+</p><p><b>布拉德莱恩: </b><br>
+<span>不过PS5这次硬件确实拉跨</span><br>
+</p><p><b>mjzs07: </b><br>
+<span>这东西厉害吗，缺少这个能不能用SSD弥补？</span><br>
+</p><p><b>navarra: </b><br>
+<span>mjzs07 发表于 2020-5-20 08:54</span><br>
+<span>这东西厉害吗，缺少这个能不能用SSD弥补？</span><br>
+<span>完全不能</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>斯拉克自有妙计: </b><br>
+<span>mjzs07 发表于 2020-5-20 08:54</span><br>
+<span>这东西厉害吗，缺少这个能不能用SSD弥补？</span><br>
+<span>性能也超过xsx的一半了，但是ssd是两倍两者相乘ps5胜出加上黑科技音效，ps5吊打xsx没人有意见吧</span><br>
+</p><p><b>Hanzong: </b><br>
+<span>白昼梦 发表于 2020-05-20 08:44:38</span><br>
+<span>泥潭前阵子刚水过国内媒体瞎翻译，结果模拟地球还变成索尼背锅了求个链接，真没看见那个贴</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>mqnwbeebwnqm: </b><br>
+<span>泥潭比苏姿丰懂rdna2</span><br>
+</p><p><b>斯拉克自有妙计: </b><br>
+<span>白昼梦 发表于 2020-5-20 08:44</span><br>
+<span>泥潭前阵子刚水过国内媒体瞎翻译，结果模拟地球还变成索尼背锅了</span><br>
+<span>那7岁小孩的智力，几十倍吊打dc是不是翻译错误</span><br>
+</p><p><b>darkjack: </b><br>
+<span>gdc就明确说是primitive shader了，和mesh shader有什么区别？不是另外一种叫法?</span><br>
+</p><p><b>s32244153: </b><br>
+<span>接下来是不是该轮到"机能不重要 重要的是游戏内涵"</span><br>
+</p><p><b>66666: </b><br>
+<span>斯拉克自有妙计 发表于 2020-5-20 08:38</span><br>
+<span>这和老黄的刀法又不一样甚至没法实现一些特性</span><br>
+<span>也不是你这么说，primitive shaders和mesh shader主要差异在几何硬件和多线程上，前者是硬件实现只能单线程，后者完全取代了TS/VS可以多线程可编程，要说实现同样的效果也是可以的，但在效率和API兼容性上就不好说，目前支持primitive shaders的PC硬件只有Vega64/56和5700/5600XT，连580/590都不支持，未来的RDNA2也只支持mesh shader，以后游戏如果想用primitive shaders等同于专门为PS5一个硬件优化，这就不知道全平台游戏厂商会不会在这上面下多大功夫了</span><br>
+</p><p><b>cnwind042: </b><br>
+<span>机能没法指望了，看看独占有啥吧。非独占我肯定上PC的</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>chh老早就有说过ps5的cu是魔改(阉割)过的</span><br>
+</p><p><b>66666: </b><br>
+<span>darkjack 发表于 2020-5-20 08:57</span><br>
+<span>gdc就明确说是primitive shader了，和mesh shader有什么区别？不是另外一种叫法?</span><br>
+<span>差别就跟XO和7970都号称支持细分曲面那样大，两者编程模型和渲染流程上差异很大</span><br>
+</p><p><b>xxyyhhjj: </b><br>
+<span>s32244153 发表于 2020-5-20 08:58</span><br>
+<span>接下来是不是该轮到"机能不重要 重要的是游戏内涵"</span><br>
+<span>NGA那帖已经开始了</span><br>
+<span>—— 来自 blackshark SKR-A0, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>UmarIbnLaAhad: </b><br>
+<span>s32244153 发表于 2020-5-20 08:58</span><br>
+<span> 接下来是不是该轮到"机能不重要 重要的是游戏内涵"</span><br>
+<span>你好，早就有拿特low2吊抽软子全家内涵和任任全家画面的了</span><br>
+</p><p><b>白昼梦: </b><br>
+<span>Hanzong 发表于 2020-5-20 08:56</span><br>
+<span>求个链接，真没看见那个贴</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1921419-1-1.html</span><br>
+</p><p><b>小命4: </b><br>
+<span> 本帖最后由 小命4 于 2020-5-20 09:11 编辑 </span><br>
+<span>为什么ps5性能差xbx那么多，是不是索尼不舍得花钱</span><br>
+</p><p><b>Troywest: </b><br>
+<span>小命4 发表于 2020-5-20 09:04</span><br>
+<span>为什么ps5技能差xbx那么多，是不是索尼不舍得花钱</span><br>
+<span>也可能是微软太舍得花钱了</span><br>
+</p><p><b>percy1234: </b><br>
+<span>别在泥潭钓了，建议和苏妈对线嗷</span><br>
+<img src="https://p.sda1.dev/0/a8fe6c7e73d44893ce025d42275b4003/IMG_806E45F282858280BECF16489AC9CD81.jpeg" title="https://p.sda1.dev/0/a8fe6c7e73d44893ce025d42275b4003/IMG_806E45F282858280BECF16489AC9CD81.jpeg"><br>
+</p><p><b>fycwhat: </b><br>
+<span>percy1234 发表于 2020-5-20 09:21</span><br>
+<span>别在泥潭钓了，建议和苏妈对线嗷</span><br>
+<span>你这人这么早把图放出来，怎么让部分坛友快乐暴打🔒🔒呢！！！</span><br>
+</p><p><b>acg_s1: </b><br>
+<span>这结论也是离谱，明明讲的是ninante的软光栅生成效率比旧的硬件pipeline流程高但是比PS5藉由primitive shader渲染的流程效率低，</span><br>
+<span>到你这里就变成“PS5不支持RDNA2以及DX12U要求必备的mesh shader，只能用软光栅配合少量primitive shaders（RDNA1构架功能）实现，PC版和XSX则是完整的mesh shader硬件加速”,</span><br>
+<span>按你的思路理解成"UE5的ninante软光栅效率只比PS5的primitive shader低但打败了PC和XSX的硬件渲染"好像也没毛病。</span><br>
+</p><p><b>alvus: </b><br>
+<span>1.苏妈说过用rdna2的复数的主机平台是xsx和xss？不至于这么巨魔吧</span><br>
+<span>2.sie官网写的是‘zen2’和‘rdna’</span><br>
+<span>3：http://wx2.sinaimg.cn/mw690/655d6ff3gy1gc8fj659vcj20hc0180sm.jpg</span><br>
+<img src="http://wx4.sinaimg.cn/mw690/655d6ff3gy1gc8fj7dxocj20aa00xweb.jpg" title="http://wx4.sinaimg.cn/mw690/655d6ff3gy1gc8fj7dxocj20aa00xweb.jpg"><br>
+</p><p><b>percy1234: </b><br>
+<span>fycwhat 发表于 2020-5-20 09:23</span><br>
+<span>你这人这么早把图放出来，怎么让部分坛友快乐暴打🔒🔒呢！！！</span><br>
+<span>我有罪泥潭这种隔空讨论几百楼也不是一天两天了</span><br>
+</p><p><b>66666: </b><br>
+<span>acg_s1 发表于 2020-5-20 09:24</span><br>
+<span>这结论也是离谱，明明讲的是ninante的软光栅生成效率比旧的硬件pipeline流程高但是比PS5藉由primitive shad ...</span><br>
+<span>很简单的逻辑，如果PS5支持mesh shader那Epic脑子有病采用primitive shader？还要多写一套编程模型</span><br>
+<span>另外mesh shader谁告诉你是“旧的硬件pipeline”？Epic中国采访时候明确说了PC版可以用mesh shader硬件加速，只可能比CS软光栅化快</span><br>
+<span>反倒是primitive shader早就在几年前的Vega64就有了，更属于“旧的硬件pipeline”</span><br>
+</p><p><b>darkjack: </b><br>
+<span>66666 发表于 2020-5-20 09:00</span><br>
+<span>差别就跟XO和7970都号称支持细分曲面那样大，两者编程模型和渲染流程上差异很大 ...</span><br>
+<span>不慌，这点差别，ssd就补回来了</span><br>
+</p><p><b>百合豚: </b><br>
+<span>降频3700x和疑似降频5700，下半年怕不是要出现同价格PC性能更高的盛况</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>日日日日日野: </b><br>
+<span>percy1234 发表于 2020-5-20 09:21</span><br>
+<span>别在泥潭钓了，建议和苏妈对线嗷</span><br>
+<span>确实，我也不是很懂游戏（硬件）.jpg，建议咨询苏姿丰</span><br>
+</p><p><b>四氢化钠: </b><br>
+<span>有没有不巨魔的哥哥出来和我说说这到底什么水平。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Troywest: </b><br>
+<span>不应该是架构么，标题怎么是构架</span><br>
+</p><p><b>qumkml423: </b><br>
+<span>百合豚 发表于 2020-5-20 09:39</span><br>
+<span>降频3700x和疑似降频5700，下半年怕不是要出现同价格PC性能更高的盛况</span><br>
+<span>-- 来自 能搜索的 Stage1官方 And ...</span><br>
+<span>那倒不至于，PS5怎么也不会贵过4000块，4000块哪怕是年底zen3和big navi上市的情况下也攒不出3700x+5700性能的pc的。</span><br>
+</p><p><b>kiralzb: </b><br>
+<span>我只关心价格，这样能不能便宜一点</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1936368[0-50]</guid>
+    </item>
+  </channel>
+</rss>

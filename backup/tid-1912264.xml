@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于AX200这张网卡的兼容性问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于AX200这张网卡的兼容性问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:24:06 +0000</lastBuildDate>
+    <item>
+      <title>关于AX200这张网卡的兼容性问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912264-1-1.html</link>
+      <description>关于AX200这张网卡的兼容性问题&#13;
+之前用H77主板搭配硬条的CPU时候这张网卡啥问题都没有。当我把这张网卡装到按摩店1200配X370的主板上后发现死活都认不出网卡来，主板的BIOS和芯片的驱动啥都装上了。难道就是传说中的小概率的兼容问题么？</description>
+      <content:encoded><![CDATA[<p><b>benjin: </b><br>
+<span>关于AX200这张网卡的兼容性问题</span><br>
+<span>之前用H77主板搭配硬条的CPU时候这张网卡啥问题都没有。当我把这张网卡装到按摩店1200配X370的主板上后发现死活都认不出网卡来，主板的BIOS和芯片的驱动啥都装上了。难道就是传说中的小概率的兼容问题么？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>卖家好像有写这款网卡兼容情况吧，当年就是看得我头痛就没打算买</span><br>
+</p><p><b>雪影: </b><br>
+<span>strix x570 itx用的就是ax200，没问题</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>benjin: </b><br>
+<span>我买的店家没有兼容列表。。。跪了。只能等明天问问客服吧，而且都用了一个多月退货是不可能的了。最坏的解决方法就是另外再买一张了 扶额</span><br>
+</p><p><b>sunny_am: </b><br>
+<span>买的X570自带这卡，一堆问题。又买了个tplink插上用。</span><br>
+</p><p><b>567478: </b><br>
+<span>win7?</span><br>
+</p><p><b>benjin: </b><br>
+<span>567478 发表于 2020-2-5 09:30</span><br>
+<span>win7?</span><br>
+<span>10 64</span><br>
+</p><p><b>nailuo1993: </b><br>
+<span>像pcie通道问题 插nvme了吗</span><br>
+</p><p><b>benjin: </b><br>
+<span>nailuo1993 发表于 2020-2-5 17:49</span><br>
+<span>像pcie通道问题 插nvme了吗</span><br>
+<span>插了条傲腾用来加速仓库</span><br>
+</p><p><b>benjin: </b><br>
+<span>折腾了几次都没反应，然后翻箱倒柜翻出一块几年前的无线网卡装上居然也没反应了！想了下还是选择退货然后换了个B450.</span><br>
+<span>装好机器后点亮，然后顺手在BIOS里开启XMP，结果尼玛居然开不了机器了。。。给BIOS放电后重新开机进系统，换了主板居然还是找不到这AX200，跪了</span><br>
+</p><p><b>benjin: </b><br>
+<span>更新完BIOS也不行。。。那我唯一可以想到的理由大概就是RYZEN一代对AX200这玩意不兼容？</span><br>
+</p><p><b>红左手: </b><br>
+<span>b450表示一切正常……</span><br>
+</p><p><b>benjin: </b><br>
+<span> 本帖最后由 benjin 于 2020-2-7 22:32 编辑 </span><br>
+<span>网卡插在最下面的PCIE槽上，然后看到有论坛说某些主板如果插了M2固态后会屏蔽最下面的PCIE槽，于是我又把网卡插到显卡上方的那条槽还是找不到硬件。。。。那估计就是RYZEN一代的兼容性问题了么</span><br>
+<span>刚才找其他转接卡转接了个M2的固态插到PCIE槽上能识别出来，那么PCIE槽本身就没有被屏蔽，剩下的理由估计就是那个PCIE转WIFI的转接卡兼容问题了</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>asus b450f+37x用ax200很正常</span><br>
+</p><p><b>benjin: </b><br>
+<span>看了下好像用这网卡的几乎都没有用RYZEN一代的啊。。。</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>用在Intel笔记本上，运行良好</span><br>
+</p><p><b>gaiden: </b><br>
+<span>大概就是对1代有问题，很迷</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>按摩店什么的，最讨厌了</span><br>
+<span>—— 来自 vivo V1924A, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>AliceMilky: </b><br>
+<span>benjin 发表于 2020-2-7 20:12</span><br>
+<span>网卡插在最下面的PCIE槽上，然后看到有论坛说某些主板如果插了M2固态后会屏蔽最下面的PCIE槽，于是我又把网 ...</span><br>
+<span>显卡上方？有的pcie是不能拆为x1的</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>AliceMilky 发表于 2020-2-8 17:56</span><br>
+<span>显卡上方？有的pcie是不能拆为x1的</span><br>
+<span>1号槽位放PCIE X1都是芯片组的，为的是防止显卡插在一号位跟大型风冷冲突</span><br>
+</p><p><b>benjin: </b><br>
+<span>DENHJD 发表于 2020-2-8 18:08</span><br>
+<span>1号槽位放PCIE X1都是芯片组的，为的是防止显卡插在一号位跟大型风冷冲突</span><br>
+<span>我觉得这个布局比一槽X16的情况下，插上显卡导致二槽用不了的设计好多了。之前的X370就是这样，一槽位置空出给M2，X16在二槽，三槽X1，四槽X16,结果二槽插上显卡后导致三槽的X1就变成装饰了。原本就只有三条槽的设计就变成两槽</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>你把第二块NVME拔掉就行</span><br>
+</p><p><b>benjin: </b><br>
+<span>奶绷子 发表于 2020-2-8 18:38</span><br>
+<span>你把第二块NVME拔掉就行</span><br>
+<span>只有一个M2 NVME槽，没第二块</span><br>
+</p><p><b>benjin: </b><br>
+<span>神奇了，网卡插在电脑上没管它还在淘宝上买了新的转接卡，结果转接卡还没来到现在电脑又自己找到网卡的硬件装上驱动了。。。。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912264[0-50]</guid>
+    </item>
+  </channel>
+</rss>

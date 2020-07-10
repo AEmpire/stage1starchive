@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于win下广色域显示器色彩管理一些问题，请教下</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于win下广色域显示器色彩管理一些问题，请教下</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:14:41 +0000</lastBuildDate>
+    <item>
+      <title>关于win下广色域显示器色彩管理一些问题，请教下[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854214-1-1.html</link>
+      <description>关于win下广色域显示器色彩管理一些问题，请教下&#13;
+之前买了u2518，结果漏光+偏色严重，后来退了。之后一直在关注，漏光这个应该无解，但阴阳屏不能接受。看了下dell的UP系列也强不了太多，但像up2516d，有个亮度均匀的功能，看评论确实能解决问题，但相对的只有在标准模式下（99% ARGB）才有效果。如果买了后发现SRGB模式下不够好，可能就得在标准模式下用这个来补偿。
+&#13;
+但问题是windows下标准还是SRGB，所以加载默认的校色文件的话，我看了下，如果是firefox，mpv这类支持色彩管理的程序是可以解决过饱合的问题，正确显示出色彩来，但不支持的程序比如windows整体界面是不是就偏了？另外还有游戏呢？</description>
+      <content:encoded><![CDATA[<p><b>liwangli1983: </b><br>
+<span>关于win下广色域显示器色彩管理一些问题，请教下</span><br>
+<span>之前买了u2518，结果漏光+偏色严重，后来退了。之后一直在关注，漏光这个应该无解，但阴阳屏不能接受。看了下dell的UP系列也强不了太多，但像up2516d，有个亮度均匀的功能，看评论确实能解决问题，但相对的只有在标准模式下（99% ARGB）才有效果。如果买了后发现SRGB模式下不够好，可能就得在标准模式下用这个来补偿。</span><br>
+<span>但问题是windows下标准还是SRGB，所以加载默认的校色文件的话，我看了下，如果是firefox，mpv这类支持色彩管理的程序是可以解决过饱合的问题，正确显示出色彩来，但不支持的程序比如windows整体界面是不是就偏了？另外还有游戏呢？</span><br>
+</p><p><b>qwased: </b><br>
+<span>不支持的就会过饱和，不过打游戏画面过饱和看着也挺爽</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>过饱和很不爽的，比如网易云音乐的图标比姨妈还红</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>qwased 发表于 2019-8-18 14:14</span><br>
+<span>不支持的就会过饱和，不过打游戏画面过饱和看着也挺爽</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 ...</span><br>
+<span>游戏基本都是不支持呗，确实没听说哪个游戏有说支持这个……不过游戏对色彩准确度也确实没啥严格要求就是了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>土豆麻辣人 发表于 2019-8-18 14:39</span><br>
+<span>过饱和很不爽的，比如网易云音乐的图标比姨妈还红</span><br>
+<span>这个看显示器手如果偏色不严重就直接用内置的SRGB模式省心了</span><br>
+</p><p><b>白花油发电机: </b><br>
+<span>不带硬件校色的广色域显示器，windows界面和游戏会显示出错误的色彩啊，只有ps和Firefox这类是正确的</span><br>
+<span>想避免这种情况，只能用带硬件校色的显示器，均衡亮度，然后用模拟色域切换回srgb进行日常使用。</span><br>
+</p><p><b>qwased: </b><br>
+<span>liwangli1983 发表于 2019-8-18 14:50</span><br>
+<span>游戏基本都是不支持呗，确实没听说哪个游戏有说支持这个……不过游戏对色彩准确度也确实没啥严格要求就是 ...</span><br>
+<span>你可以装个mac os，色彩管理是全局的比win强</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>windows 色彩管理？你就当做不存在就行。windows下色彩管理除了你的显示设备本身支持硬件LUT外能解决，剩余的就是软件本身支持色彩管理才行。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>不知道displaycal有用不</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>qwased 发表于 2019-8-18 15:36</span><br>
+<span>你可以装个mac os，色彩管理是全局的比win强</span><br>
+<span>黑苹果以前的机器上装过，感觉还是不习惯。我要么win要么linux了</span><br>
+<span>不过从ios上能看出苹果这方面确实做的好</span><br>
+</p><p><b>Archlich: </b><br>
+<span>买个不是广色域带均一性校正的显示器就好了嘛。虽然这个功能本身用起来很多时候会降低亮度和对比度，不太推荐。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>Archlich 发表于 2019-8-18 18:30</span><br>
+<span>买个不是广色域带均一性校正的显示器就好了嘛。虽然这个功能本身用起来很多时候会降低亮度和对比度，不太推 ...</span><br>
+<span>嗯，其实我想要的就是能100%SRGB，漏光控制的比较好不阴阳屏，可惜……没找到。</span><br>
+<span>非广色域有这种校正的显示器有推荐吗？噢对了，可调节支架也是刚需，因为这个也pass了好多显示器。</span><br>
+<span>家里桌子的原因不能夹，所以液压第三方支架啥的也指望不上。</span><br>
+</p><p><b>Archlich: </b><br>
+<span>liwangli1983 发表于 2019-8-18 19:06</span><br>
+<span>嗯，其实我想要的就是能100%SRGB，漏光控制的比较好不阴阳屏，可惜……没找到。</span><br>
+<span>非广色域有这种校正的显 ...</span><br>
+<span>大点能接受的话，优派VP2768就可以。2468也有均一性校正，但一来是1080p，而来和其他选择一样是6抖8的。</span><br>
+</p><p><b>dvd6: </b><br>
+<span>是这样的，windows界面过饱和无解</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>Archlich 发表于 2019-8-18 19:40</span><br>
+<span>大点能接受的话，优派VP2768就可以。2468也有均一性校正，但一来是1080p，而来和其他选择一样是6抖8的。 ...</span><br>
+<span>27的确实放不下……24的我看看</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>Archlich 发表于 2019-8-18 19:40</span><br>
+<span>大点能接受的话，优派VP2768就可以。2468也有均一性校正，但一来是1080p，而来和其他选择一样是6抖8的。 ...</span><br>
+<span>benq也有些号称100%srgb的27寸2k，不知如何？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>RPG-7 发表于 2019-8-19 11:05</span><br>
+<span>benq也有些号称100%srgb的27寸2k，不知如何？</span><br>
+<span>100% SRGB挺好买的，但漏光控制的好，亮度均匀性好的很难找</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>liwangli1983 发表于 2019-8-19 11:07</span><br>
+<span>100% SRGB挺好买的，但漏光控制的好，亮度均匀性好的很难找</span><br>
+<span>所以除了优派那个，还有什么推荐吗</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>RPG-7 发表于 2019-8-19 11:17</span><br>
+<span>所以除了优派那个，还有什么推荐吗</span><br>
+<span>你要是不在意亮度均匀性，各个牌子标100% srgb的一大堆，价也不贵；要是在意，我个人目前还是看好dell up2516d</span><br>
+</p><p><b>squallx: </b><br>
+<span>戴尔的把自家管理软件装上就行了 会智能切换的</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>最后还是买了up2516d，装上驱动后自带一个icm文件，在firefox，mpv等支持色彩管理的程序中已经能显示比较正常的色彩（毕竟是公版icm文件，具体到个体屏幕肯定不准），但这样效果已经可以了，毕竟不是真的做图，所以有点偏差可以接受。</span><br>
+<span>界面确实整体变的比较艳了，游戏其实艳点也无所谓</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>liwangli1983 发表于 2019-8-18 14:50</span><br>
+<span>游戏基本都是不支持呗，确实没听说哪个游戏有说支持这个……不过游戏对色彩准确度也确实没啥严格要求就是 ...</span><br>
+<span>不支持色彩管理的程序对色准都没啥要求，有要求的浏览器图片视频及相关生产力工具都支持色彩管理。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>liwangli1983 发表于 2019-8-18 19:06</span><br>
+<span>嗯，其实我想要的就是能100%SRGB，漏光控制的比较好不阴阳屏，可惜……没找到。</span><br>
+<span>非广色域有这种校正的显 ...</span><br>
+<span>chh有大佬推荐VP2771，能接受窄色域的话没毛病。</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>冒昧问下，既然Win下过饱和无法解决，为何我看到办公室的美工小姐姐都是用win10，不辣眼睛吗？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854214[0-50]</guid>
+    </item>
+  </channel>
+</rss>

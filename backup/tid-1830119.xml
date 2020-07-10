@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：旧Windows系统并存问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：旧Windows系统并存问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:44:18 +0000</lastBuildDate>
+    <item>
+      <title>求助：旧Windows系统并存问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830119-1-1.html</link>
+      <description>求助：旧Windows系统并存问题&#13;
+感兴趣的系统：Win3.2 、Win95 、WinME   ， 问题：
+&#13;
+　　(赛扬2.8 / 256M内存)
+&#13;
+1、Win3.2 与 DOS7.1 是否完美并存，有没有小冲突？
+&#13;
+2、Win3.2 与 Win95是否完美并存，有没有小冲突？
+&#13;
+　　(AMD 5200+ / 2G+1G 内存)
+&#13;
+3、单系统，安装WinME有难度吗(不装XP/7)？ 3G内存是否比512M内存反倒慢？ 大马能把小车拉飞吗？</description>
+      <content:encoded><![CDATA[<p><b>proof1: </b><br>
+<span>求助：旧Windows系统并存问题</span><br>
+<span>感兴趣的系统：Win3.2 、Win95 、WinME   ， 问题：</span><br>
+<span>　　(赛扬2.8 / 256M内存)</span><br>
+<span>1、Win3.2 与 DOS7.1 是否完美并存，有没有小冲突？</span><br>
+<span>2、Win3.2 与 Win95是否完美并存，有没有小冲突？</span><br>
+<span>　　(AMD 5200+ / 2G+1G 内存)</span><br>
+<span>3、单系统，安装WinME有难度吗(不装XP/7)？ 3G内存是否比512M内存反倒慢？ 大马能把小车拉飞吗？</span><br>
+</p><p><b>相互理解: </b><br>
+<span>WinME 支持的最大内存是 512M</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>垃圾电脑扔了，装个虚拟机。</span><br>
+</p><p><b>septer: </b><br>
+<span>建议虚拟机，不折腾</span><br>
+</p><p><b>wangh: </b><br>
+<span>玩古代电脑，IDE硬盘用CF卡转换过来就行了，体积小安装方便，硬盘想怎么换就怎么换，系统想怎么装就怎么装，一盘一系统，不需要考虑共存这种问题。</span><br>
+</p><p><b>litel: </b><br>
+<span>不如虚拟机。。。</span><br>
+<span>你内存分配合理的话，甚至可以同时运行，何况并存了。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>chachi: </b><br>
+<span> 本帖最后由 chachi 于 2019-5-9 09:02 编辑 </span><br>
+<span>1,2 可以并存。</span><br>
+<span>win95还有16位模式的，可以跑dos，能跑dos就能跑win3.2</span><br>
+<span>win3.2更像是dos的一个窗口管理器，类似 NC</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>不如再找块旧硬盘在电脑1上面装两套系统</span><br>
+</p><p><b>proof1: </b><br>
+<span>wangh 发表于 2019-5-8 23:54</span><br>
+<span>玩古代电脑，IDE硬盘用CF卡转换过来就行了，体积小安装方便，硬盘想怎么换就怎么换，系统想怎么装就怎么装 ...</span><br>
+<span>CF卡？没用过。不觉明历。</span><br>
+<span>“硬盘想怎么换就怎么换”。是指擦写CF卡，无机械磨损、速度快？</span><br>
+<span>老电脑、老主板，识别CF卡？</span><br>
+<span>用常见的SD卡、TF卡，行不？</span><br>
+</p><p><b>proof1: </b><br>
+<span>litel 发表于 2019-5-9 08:12</span><br>
+<span>不如虚拟机。。。</span><br>
+<span>你内存分配合理的话，甚至可以同时运行，何况并存了。。。</span><br>
+<span>已有VMware Workstation，并已装多个虚拟机。</span><br>
+<span>现在想折腾实体机。</span><br>
+</p><p><b>wangh: </b><br>
+<span>proof1 发表于 2019-5-9 12:44</span><br>
+<span>CF卡？没用过。不觉明历。</span><br>
+<span>“硬盘想怎么换就怎么换”。是指擦写CF卡，无机械磨损、速度快？</span><br>
+<span>老电脑、老主 ...</span><br>
+<span>CF卡实际上就是一个IDE硬盘，只是接口的物理规格不一样，接个转接卡就可以直接用</span><br>
+<span>“硬盘想怎么换就怎么换”-->多备几张CF卡做系统盘，想用啥系统就插那张卡</span><br>
+<span>SD卡协议都不一样，要带芯片的转换卡，贵而且兼容性也不一定好</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830119[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:32:13 +0000</lastBuildDate>
+    <item>
+      <title>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841897-1-1.html</link>
+      <description>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别&#13;
+ 本帖最后由 dkswxd 于 2019-6-24 17:01 编辑 
+
+求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别
+&#13;
+需要用实验室的电脑训练模型，学长说cuda、pytorch这些环境都已经配好了
+&#13;
+照着github上安装步骤setup.py，没有出问题，运行train.py出错，我感觉最关键的错误提示是‘Not compiled with GPU support (nms)’
+&#13;
+回头检查发现setup.py时CUDA_HOME=NONE，由于没有CUDA的环境变量所以没有编译GPU支持
+&#13;
+那我就加上环境变量呗，结果/usr/local/cuda不存在，真的有cuda吗？试了一下nvcc -V，不存在，请安装nvidia-cuda-toolkit
+&#13;
+拉来学长，学长说cuda有啊，打开anaconda3/pkgs/cudatoolkit-*，真的有cuda，但是一看才500MB，nvidia官网上下下来要2.5GB
+&#13;
+所以想问问anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit一样吗？
+&#13;
+anaconda3/pkgs/cudatoolkit-*也是cuda吗？但为什么没有nvcc和环境变量</description>
+      <content:encoded><![CDATA[<p><b>dkswxd: </b><br>
+<span>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</span><br>
+<span> 本帖最后由 dkswxd 于 2019-6-24 17:01 编辑 </span><br>
+<span>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</span><br>
+<span>需要用实验室的电脑训练模型，学长说cuda、pytorch这些环境都已经配好了</span><br>
+<span>照着github上安装步骤setup.py，没有出问题，运行train.py出错，我感觉最关键的错误提示是‘Not compiled with GPU support (nms)’</span><br>
+<span>回头检查发现setup.py时CUDA_HOME=NONE，由于没有CUDA的环境变量所以没有编译GPU支持</span><br>
+<span>那我就加上环境变量呗，结果/usr/local/cuda不存在，真的有cuda吗？试了一下nvcc -V，不存在，请安装nvidia-cuda-toolkit</span><br>
+<span>拉来学长，学长说cuda有啊，打开anaconda3/pkgs/cudatoolkit-*，真的有cuda，但是一看才500MB，nvidia官网上下下来要2.5GB</span><br>
+<span>所以想问问anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit一样吗？</span><br>
+<span>anaconda3/pkgs/cudatoolkit-*也是cuda吗？但为什么没有nvcc和环境变量</span><br>
+</p><p><b>鼎剑阁: </b><br>
+<span>环境变量没配置好，英伟达网站不是有安装教程吗，csdn也一堆。不行就重装一遍cuda。我都是安在自己用户目录下的，免得不同用户之间乱搞</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>鼎剑阁 发表于 2019-6-25 09:18</span><br>
+<span>环境变量没配置好，英伟达网站不是有安装教程吗，csdn也一堆。不行就重装一遍cuda。我都是安在自己用户目录 ...</span><br>
+<span>目前不能重新装cuda，怕重装了以后原来的那些程序跑不了</span><br>
+</p><p><b>viasnow: </b><br>
+<span>500m的是runtime？</span><br>
+<span>把cudahome设置下就行。也可以多加几个cuda……我现在这机器上从cuda8到cuda10都有，那个cuda文件夹你可以当做快捷方式，只是入口，自己映射cudax文件夹到任意位置都可以用</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>弄一台一样配置软件的电脑装一下nv cuda做一下实验？</span><br>
+<span>或者本机备份一下？</span><br>
+</p><p><b>東京急行: </b><br>
+<span>感觉你是没切换到anaconda的虚拟环境？</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>東京急行 发表于 2019-6-25 11:03</span><br>
+<span>感觉你是没切换到anaconda的虚拟环境？</span><br>
+<span>切了，torch.cuda.is_available()=ture</span><br>
+</p><p><b>寻找无双: </b><br>
+<span>東京急行 发表于 2019-6-25 11:03</span><br>
+<span>感觉你是没切换到anaconda的虚拟环境？</span><br>
+<span>猜测+1</span><br>
+<span>在anaconda环境下运行，cuda应该不是装在/usr/bin/cuda下的。</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>Tr火药味 发表于 2019-6-25 10:56</span><br>
+<span>弄一台一样配置软件的电脑装一下nv cuda做一下实验？</span><br>
+<span>或者本机备份一下？</span><br>
+<span>没别的机器了所以在折腾。。。上面还有旧的代码不能碰，只能虚拟环境。。。</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>viasnow 发表于 2019-6-25 10:44</span><br>
+<span>500m的是runtime？</span><br>
+<span>把cudahome设置下就行。也可以多加几个cuda……我现在这机器上从cuda8到cuda10都有，那 ...</span><br>
+<span>cudahome 我手动添加了anaconda下的那个文件夹</span><br>
+<span>但是nvcc怎么办，setup.py里面好像会调用nvcc，但是终端里面没有nvcc</span><br>
+</p><p><b>viasnow: </b><br>
+<span>dkswxd 发表于 2019-6-25 11:16</span><br>
+<span>cudahome 我手动添加了anaconda下的那个文件夹</span><br>
+<span>但是nvcc怎么办，setup.py里面好像会调用nvcc，但是终端 ...</span><br>
+<span>nvcc是dev的，runtime不包括，你还是去装那个2.5g的吧……不想搞乱解压完放在自己用户地址下面，然后配置环境</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841897[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>解压缩多份rar文件老是出现校验错误，修复又出问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>解压缩多份rar文件老是出现校验错误，修复又出问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:25:01 +0000</lastBuildDate>
+    <item>
+      <title>解压缩多份rar文件老是出现校验错误，修复又出问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862053-1-1.html</link>
+      <description>解压缩多份rar文件老是出现校验错误，修复又出问题&#13;
+解压缩多份rar文件老是出现校验错误，修复了其中一个再测试又出现新的文件有问题，再修复再出问题，重下文件也继续出现问题，每次出的问题的文件都不一样。
+&#13;
+怎么回事？</description>
+      <content:encoded><![CDATA[<p><b>acejoe: </b><br>
+<span>解压缩多份rar文件老是出现校验错误，修复又出问题</span><br>
+<span>解压缩多份rar文件老是出现校验错误，修复了其中一个再测试又出现新的文件有问题，再修复再出问题，重下文件也继续出现问题，每次出的问题的文件都不一样。</span><br>
+<span>怎么回事？</span><br>
+</p><p><b>ft5555: </b><br>
+<span>看看硬盘smart信息是不是大量c7错误在增加</span><br>
+</p><p><b>macos: </b><br>
+<span>不，应该是内存错误，除非你的硬盘是监控型，不然触发错误会马上报错</span><br>
+</p><p><b>nb33: </b><br>
+<span>内存错误可能性小，建议换个硬盘再试，可以考虑用BT或者rsync这种带校验的复制</span><br>
+</p><p><b>acejoe: </b><br>
+<span>ft5555 发表于 2019-10-29 12:06</span><br>
+<span>看看硬盘smart信息是不是大量c7错误在增加</span><br>
+<span>没有啊</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>先跑个内存测试？</span><br>
+</p><p><b>acejoe: </b><br>
+<span>纯情小鸭鸭 发表于 2019-10-29 12:48</span><br>
+<span>先跑个内存测试？</span><br>
+<span>有一条内存有问题，有一条没问题，我特意每次插一条测试……</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>acejoe 发表于 2019-10-29 13:10</span><br>
+<span>有一条内存有问题，有一条没问题，我特意每次插一条测试……</span><br>
+<span>只插没问题的再解压呢？</span><br>
+</p><p><b>两弹元勋: </b><br>
+<span>换个解压软件试试比如好压去广告版本</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vorastrix: </b><br>
+<span>bandizip</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>前段时间隔壁办公室才遇到过一次，建议换个压缩软件试试，哪怕是原版带广告的rar也可以</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>acejoe: </b><br>
+<span>纯情小鸭鸭 发表于 2019-10-29 13:23</span><br>
+<span>只插没问题的再解压呢？</span><br>
+<span>好了，果然是内存问题，潭友牛逼啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862053[0-50]</guid>
+    </item>
+  </channel>
+</rss>

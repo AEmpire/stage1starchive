@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用pd快充接头连接诱导充电线给笔记本有没有搞头</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用pd快充接头连接诱导充电线给笔记本有没有搞头</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:32 +0000</lastBuildDate>
+    <item>
+      <title>用pd快充接头连接诱导充电线给笔记本有没有搞头[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944913-1-1.html</link>
+      <description>用pd快充接头连接诱导充电线给笔记本有没有搞头&#13;
+ 本帖最后由 nexus1 于 2020-6-30 11:47 编辑 
+
+type c的东西越来越多，需要占U口数量蹭蹭涨
+&#13;
+比如鼠标充电×2，音箱充电，电蚊拍充电，耳机充电
+&#13;
+加上电脑占用一个3口，真的烦
+&#13;
+所以一个pd快充头提供3个充电口香不香？
+&#13;
+特别笔记本是xps9550功率很高，自带电源线130w
+&#13;
+试了下用别的1 个 Thunderbolt™ 3 端口 充电线是可以充进去的，不知道长期用起来怎么样。
+&#13;
+修电脑的说闪电口不好容易烧主板，还是用电源接口，所以诱导转接线功率不足会不会造成破坏？</description>
+      <content:encoded><![CDATA[<p><b>nexus1: </b><br>
+<span>用pd快充接头连接诱导充电线给笔记本有没有搞头</span><br>
+<span> 本帖最后由 nexus1 于 2020-6-30 11:47 编辑 </span><br>
+<span>type c的东西越来越多，需要占U口数量蹭蹭涨</span><br>
+<span>比如鼠标充电×2，音箱充电，电蚊拍充电，耳机充电</span><br>
+<span>加上电脑占用一个3口，真的烦</span><br>
+<span>所以一个pd快充头提供3个充电口香不香？</span><br>
+<span>特别笔记本是xps9550功率很高，自带电源线130w</span><br>
+<span>试了下用别的1 个 Thunderbolt™ 3 端口 充电线是可以充进去的，不知道长期用起来怎么样。</span><br>
+<span>修电脑的说闪电口不好容易烧主板，还是用电源接口，所以诱导转接线功率不足会不会造成破坏？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我的旧k29用了那种线，但问题是我是65w对65w足功率的。功率不够的话，dc头本如果不能识别功率的话，那么肯定是假设充电器功率是够的（实际不够），只是充电的话可能就是慢点，但如果大负载功率不够的话，不知道本有没有识别电压过低然后从电池补电的机制，没有的话充电头就过载了吧？有可能机器直接就黑了</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>X230,快充接头+快充线+诱骗头</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>闪电口是什么，Lightning插不进电脑</span><br>
+</p><p><b>elflie: </b><br>
+<span> 本帖最后由 elflie 于 2020-6-30 11:51 编辑 </span><br>
+<span>就说一点，每拔插一个设备，就要重新分配各口的协议，会短暂断电</span><br>
+<span>C口这种复杂的接口，比起结构简单的DC口肯定是更容易坏的</span><br>
+<span>理解错了，要坏也是先坏诱骗头/线，不过得买好一点的，我这个诱骗头会有异响</span><br>
+</p><p><b>nexus1: </b><br>
+<span>强尼高达 发表于 2020-6-30 11:40</span><br>
+<span>闪电口是什么，Lightning插不进电脑</span><br>
+<span>雷电口困得疯了</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>充电的不一定是雷电口，雷电口也不一定能充电（很多台式机）</span><br>
+<span>很多同时有标准充电口和Type-C口的电脑都有官方C口dock，更不用说多少电脑没有标准充电口了，说C口充电容易烧得有多反智</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>PD诱骗充笔记本已经遍地都是了，不过你的情况可能不好用，你的功率太高了</span><br>
+<span>市面上普遍的多口充电器最多能提供单C口65W，多口45W的功率，这两个功率够不够你的本子充都是个疑问</span><br>
+<span>你的情况推荐的话还是在固定使用地点还是用原装充电器，然后弄个多口充电器/带USB插线板充其他USB设备</span><br>
+</p><p><b>nexus1: </b><br>
+<span>65w快充头接上之后启动电脑，bios专门提示当前电源功率不足，在峰值会动用电池电量。并且建议我换一个130w往上的电源</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>xps15只允许65w及以上的PD充电，65w以下的根本不充电，所以现在大把的65w多口在xps15上只能当单口用</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944913[0-50]</guid>
+    </item>
+  </channel>
+</rss>

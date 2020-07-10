@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助下软路由系统</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助下软路由系统</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:15:16 +0000</lastBuildDate>
+    <item>
+      <title>求助下软路由系统[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844547-1-1.html</link>
+      <description>求助下软路由系统&#13;
+
+&#13;
+只需要一些去广告等常用插件，简单的nas（2K以下的视频和文件共享），路由下载。
+&#13;
+爱快的系统能做到吗？不需要路由器酸酸乳。
+&#13;
+另外软路由的wifi方案一般都有什么覆盖好的wifi路由器推荐吗？带宽200M</description>
+      <content:encoded><![CDATA[<p><b>sola_gaigaigai: </b><br>
+<span>求助下软路由系统</span><br>
+<span>只需要一些去广告等常用插件，简单的nas（2K以下的视频和文件共享），路由下载。</span><br>
+<span>爱快的系统能做到吗？不需要路由器酸酸乳。</span><br>
+<span>另外软路由的wifi方案一般都有什么覆盖好的wifi路由器推荐吗？带宽200M</span><br>
+</p><p><b>rhotov: </b><br>
+<span>ESXi+爱快+黑群晖试试看，效果挺不错的</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>你这个需求可以考虑实机跑群晖，然后用群晖的VMM装个openwrt，网卡开virtio，比不能直通的esxi效率高不少</span><br>
+<span>当然如果sata控制器和网卡都是可以直通的那就esxi</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>直接群辉里装lede</span><br>
+</p><p><b>qwased: </b><br>
+<span>效率最高的应该是实机跑openwrt然后docker装freenas什么的</span><br>
+<span>或者再凑合一下用openwrt跑aria2和samba共享</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>qwased 发表于 2019-7-5 20:30</span><br>
+<span>效率最高的应该是实机跑openwrt然后docker装freenas什么的</span><br>
+<span>或者再凑合一下用openwrt跑aria2和samba共享 ...</span><br>
+<span>凑合一下用openwrt跑aria2和samba共享</span><br>
+<span>好像是这个最省力了。。。也懒得太折腾。。</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>接上文继续求助了。。</span><br>
+<span>弄了个J1900的工控机直接刷lede，塞在弱电箱里用着很爽！</span><br>
+<span>现在问题是老路由器wifi太糟糕，求推荐一款wifi好的路由做ap。。</span><br>
+<span>查了一圈说K2P B1版本信号又好价格又低。。。是不是就它了？？？？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844547[0-50]</guid>
+    </item>
+  </channel>
+</rss>

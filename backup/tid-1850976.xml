@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教硬盘“组raid”的办法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教硬盘“组raid”的办法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:34:54 +0000</lastBuildDate>
+    <item>
+      <title>求教硬盘“组raid”的办法[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850976-1-1.html</link>
+      <description>求教硬盘“组raid”的办法&#13;
+ 本帖最后由 shamal0324 于 2019-8-3 06:36 编辑 
+
+用的一台小型游戏型PC，外置一个硬盘盒装一个4T的硬盘专门用来下载，用了两年多一直没事，直到今天终于出事了，下载时找不到路径，重启之后直接检测不出外置硬盘。我3T的珍藏啊……
+&#13;
+下决心要采取措施防止这种事了，听说要组raid？我是电脑盲完全不知怎么弄，求科普求扫盲。
+&#13;
+我人在洛杉矶，完全不知道当地硬件资源，是不是要靠amazon了，还是跨国淘宝？（买回来之后也没啥自信能装上系统），求支招最简单，最面向小白的方案……
+&#13;
+旧盘有办法抢救吗？现在是移动硬盘灯一明一暗地闪</description>
+      <content:encoded><![CDATA[<p><b>john: </b><br>
+<span>ladiesman217 发表于 2019-8-4 21:52</span><br>
+<span>突然提醒了我还是在用路由器的USB接移动硬盘。还接了分线器</span><br>
+<span>如果想一个硬盘平常同步手机和 ...</span><br>
+<span>不能，连NAS都不一定能，功能这么弱的机器怎么知道你要同步哪些东西</span><br>
+<span>可行的方案大概是常联PC，定时用命令行执行同步再用命令行执行USB Safely Remove把硬盘退出，过一段时间以后通过智能插座给外置硬盘断电</span><br>
+<span>但还是那句话，不带版本控制的同步只保硬件损坏，不保病毒和手贱</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>john 发表于 2019-8-4 22:12</span><br>
+<span>不能，连NAS都不一定能，功能这么弱的机器怎么知道你要同步哪些东西</span><br>
+<span>可行的方案大概是常联PC，定时用命令 ...</span><br>
+<span>这么说来我机箱顶有个硬盘槽，可以定期手动插上硬盘，用软件同步网络位置，再手动拔掉。</span><br>
+<span>不过经常热插拔对硬盘影响大不大？</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>WD my book 8T已入手，安装了里面自带的Install Discovery for Windows.exe之后还应该干些什么，有没有一些软件拿来检测是否全新，有无坏道的？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850976[50-100]</guid>
+    </item>
+    <item>
+      <title>求教硬盘“组raid”的办法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850976-1-1.html</link>
+      <description>求教硬盘“组raid”的办法&#13;
+ 本帖最后由 shamal0324 于 2019-8-3 06:36 编辑 
+
+用的一台小型游戏型PC，外置一个硬盘盒装一个4T的硬盘专门用来下载，用了两年多一直没事，直到今天终于出事了，下载时找不到路径，重启之后直接检测不出外置硬盘。我3T的珍藏啊……
+&#13;
+下决心要采取措施防止这种事了，听说要组raid？我是电脑盲完全不知怎么弄，求科普求扫盲。
+&#13;
+我人在洛杉矶，完全不知道当地硬件资源，是不是要靠amazon了，还是跨国淘宝？（买回来之后也没啥自信能装上系统），求支招最简单，最面向小白的方案……
+&#13;
+旧盘有办法抢救吗？现在是移动硬盘灯一明一暗地闪</description>
+      <content:encoded><![CDATA[<p><b>shamal0324: </b><br>
+<span>求教硬盘“组raid”的办法</span><br>
+<span> 本帖最后由 shamal0324 于 2019-8-3 06:36 编辑 </span><br>
+<span>用的一台小型游戏型PC，外置一个硬盘盒装一个4T的硬盘专门用来下载，用了两年多一直没事，直到今天终于出事了，下载时找不到路径，重启之后直接检测不出外置硬盘。我3T的珍藏啊……</span><br>
+<span>下决心要采取措施防止这种事了，听说要组raid？我是电脑盲完全不知怎么弄，求科普求扫盲。</span><br>
+<span>我人在洛杉矶，完全不知道当地硬件资源，是不是要靠amazon了，还是跨国淘宝？（买回来之后也没啥自信能装上系统），求支招最简单，最面向小白的方案……</span><br>
+<span>旧盘有办法抢救吗？现在是移动硬盘灯一明一暗地闪</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>就问一句</span><br>
+<span>作为电脑盲，那raid出问题你找谁呢</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>HyperIris 发表于 2019-8-3 06:38</span><br>
+<span>就问一句</span><br>
+<span>作为电脑盲，那raid出问题你找谁呢</span><br>
+<span>嗯嗯……翻了翻老帖，有人说自家用组raid不如备份</span><br>
+<span>这备份是怎么弄的？</span><br>
+</p><p><b>chachi: </b><br>
+<span>备份就是多存几份</span><br>
+<span>放在不同地方不同存储介质</span><br>
+<span>自家组raid就一个选项 raid1</span><br>
+</p><p><b>baicon: </b><br>
+<span> 本帖最后由 baicon 于 2019-8-3 07:00 编辑 </span><br>
+<span>下载盘用来存东西也是心大，鸡蛋别放一个篮子，要做raid最简单的就是买个Nas,再买两个不同批次或者型号的盘做raid1,哪个坏了换哪个，还不放心再买个盘冷备，安全都是盘堆出来的...</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>这个容量级别又没有实时在线需求，组个啥raid…多买几块盘每天freefilesync定时同步就是了…</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>alvin051414 发表于 2019-8-3 07:18</span><br>
+<span>这个容量级别又没有实时在线需求，组个啥raid…多买几块盘每天freefilesync定时同步就是了… ...</span><br>
+<span>感觉有道理，两年多也装不满4T，我可能不算真松鼠党。不过现在的PC是小型的，装不了多几块盘，这是要换大PC了吗？</span><br>
+<span>有没有那种大型外置硬盘盒，里面几块盘，互相同步的？</span><br>
+</p><p><b>oskneo: </b><br>
+<span>shamal0324 发表于 2019-8-3 07:50</span><br>
+<span>感觉有道理，两年多也装不满4T，我可能不算真松鼠党。不过现在的PC是小型的，装不了多几块盘，这是要换大 ...</span><br>
+<span>drobo?</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>healeveryone: </b><br>
+<span>shamal0324 发表于 2019-8-3 07:50</span><br>
+<span>感觉有道理，两年多也装不满4T，我可能不算真松鼠党。不过现在的PC是小型的，装不了多几块盘，这是要换大 ...</span><br>
+<span>希捷还是西数有那种10T的立式外置移动硬盘，和砖头一样沉</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>drobo?</span><br>
+<span>希捷还是西数有那种10T的立式外置移动硬盘，和砖头一样沉</span><br>
+<span>体积大吗？毕竟留学党，没法保证租到大房子……</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>healeveryone 发表于 2019-8-3 08:28</span><br>
+<span>希捷还是西数有那种10T的立式外置移动硬盘，和砖头一样沉</span><br>
+<span>https://www.amazon.com/10TB-Desktop-External-Drive-WDBBGB0100HBK-NESN/dp/B074R2HJ6G?th=1&vas=%7B%27vw%27%3A%27B00IAD0SOC%27%7D</span><br>
+<span>是这个吗？8T dual drive，买回来自己把raid 0改成raid 1？</span><br>
+</p><p><b>macos: </b><br>
+<span>raid只对在此控制器下的设备建立，外接的你要盒子本身提供raid功能，用成品nas吧，不少能支持网络映射</span><br>
+</p><p><b>mirari: </b><br>
+<span>win自带存储池，零门槛，无容量限制，镜像组一个就行</span><br>
+</p><p><b>HMHM: </b><br>
+<span> 本帖最后由 HMHM 于 2019-8-3 10:31 编辑 </span><br>
+<span> drobo 5d和drobo mini的大小。mini散热相对差一些，之前在用的这台用了5年后，今年夏天经常过热红灯死机了。但是用电扇强制降温时就没有问题。drobo的好处就是足够傻瓜化，坏处就是本体坏掉时可能会比较麻烦，你可能只能再买一台把硬盘换进去。</span><br>
+</p><p><b>秘封赛高！: </b><br>
+<span>数据最安全就是按三二一原则存储..重点还是要备份</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>乔槁: </b><br>
+<span> 本帖最后由 乔槁 于 2019-8-3 10:44 编辑 </span><br>
+<span>shamal0324 发表于 2019-8-3 10:23</span><br>
+<span>https://www.amazon.com/10TB-Desktop-External-Drive-WDBBGB0100HBK-NESN/dp/B074R2HJ6G?th=1&vas=%7B%2 ...</span><br>
+<span>这个8T盘默认RAID0模式（里面应该是4T+4T，增加点性能，一颗硬盘坏数据全报废），做RAID1镜像只有4T.</span><br>
+<span>还不如买旁边的两个单盘8T，然后拆出来当硬盘用，价格一样，RAID1后是8T。</span><br>
+</p><p><b>五月之雨: </b><br>
+<span>raid有盘坏了 重建极费时间 </span><br>
+</p><p><b>bill基: </b><br>
+<span>一般家用别组raid，用同步软件镜像备份足够了，灵活得多</span><br>
+</p><p><b>healeveryone: </b><br>
+<span>shamal0324 发表于 2019-8-3 10:23</span><br>
+<span>https://www.amazon.com/10TB-Desktop-External-Drive-WDBBGB0100HBK-NESN/dp/B074R2HJ6G?th=1&vas=%7B%2 ...</span><br>
+<span>留学党买这个，然后用西数自带的备份软件随时备份就好了</span><br>
+<span>重要文件推荐再买个google drive做云备份</span><br>
+<span>https://www.amazon.com/Elements-Desktop-Hard-Drive-WDBWLG0080HBK-NESN/dp/B07D5V2ZXD/ref=sr_1_4?crid=2G08OIWUKEMEW&keywords=western+digital+external+hard+drive&qid=1564802708&s=gateway&sprefix=wester%2Caps%2C142&sr=8-4</span><br>
+</p><p><b>人生如戏: </b><br>
+<span>家用只有备份要求还不如弄个备份软件自动备份，或者在装个服务器系统弄计划任务也能自动备份</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>raid 是热备用的一般家用根本用不上</span><br>
+<img src="https://i.loli.net/2019/08/03/iF7alVPuqeomO1c.png" title="https://i.loli.net/2019/08/03/iF7alVPuqeomO1c.png"><br>
+<span>弄个goodsync(经常免费)什么的就行了.</span><br>
+</p><p><b>矢吹奈子: </b><br>
+<span>确认过是硬盘盒坏了还是硬盘坏了？先把硬盘装到计算机里，然后用diskgenuis看能不能识别到坏了的盘，能识别的话拷出IMG镜像来，再看能不能恢复数据。</span><br>
+</p><p><b>oskneo: </b><br>
+<span>塔奇克马 发表于 2019-8-3 13:09</span><br>
+<span>raid 是热备用的一般家用根本用不上</span><br>
+<span>只是因为raid没</span><br>
+<span>问题的时候很好用，不用找个时间特地去同步，搞得那段时间啥也干不了。</span><br>
+<span>而且死掉时无法确保东西是最新</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>mirari: </b><br>
+<span>oskneo 发表于 2019-8-3 16:43</span><br>
+<span>只是因为raid没</span><br>
+<span>问题的时候很好用，不用找个时间特地去同步，搞得那段时间啥也干不了。</span><br>
+<span>而且死掉时无法确 ...</span><br>
+<span>win10自带存储池、文件历史记录，鼠标点击下就能用上的两大备份神器</span><br>
+</p><p><b>oskneo: </b><br>
+<span>mirari 发表于 2019-8-3 16:50</span><br>
+<span>win10自带存储池、文件历史记录，鼠标点击下就能用上的两大备份神器</span><br>
+<span>那实际也是raid</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>healeveryone 发表于 2019-8-3 11:25</span><br>
+<span>留学党买这个，然后用西数自带的备份软件随时备份就好了</span><br>
+<span>重要文件推荐再买个google drive做云备份</span><br>
+<span>请问“备份”具体到底指的什么呢？西数自带的备份软件会把我的东西备份到哪里去呢？这个Elements Desktop Hard Drive坏掉的话我的数据可以在哪里找回来呢？</span><br>
+<span>重要的文件在非下载盘，也的确天天在用onedrive和OneNote备份。但我担心的是下载盘里的和谐物，这种上传到云里不担心犯法吗？</span><br>
+</p><p><b>2517君: </b><br>
+<span>lz就是为什么群晖这种nas卖的还不错的原因</span><br>
+</p><p><b>BT有理: </b><br>
+<span>直接买个WD 的MY BOOK COPY多一份就叫做备份</span><br>
+</p><p><b>mistzzt: </b><br>
+<span>楼主在LA的网络不错的话可以考虑用aws glacier之类的备份服务，根据数据量大小按月付费。要比自己拿盘备份省心且安全些，不过需要一定配置</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>矢吹奈子 发表于 2019-8-3 13:19</span><br>
+<span>确认过是硬盘盒坏了还是硬盘坏了？先把硬盘装到计算机里，然后用diskgenuis看能不能识别到坏了的盘，能识别 ...</span><br>
+<span>硬盘盒没坏。室友懂点电脑，拿去分析了一晚发现大部分文件都还在（jpg之类能看），应该能救回来不少。</span><br>
+<span>现在就差我买一台新的外置硬盘了。WD my book duo 搜了搜有人反映噪音和振动大，不敢买了，WD element有这个问题吗？</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>再问一下，备份这事情是怎么做？比如说，我每隔一段时间要接多一个外置硬盘，开备份软件，将WD element里的文件拷到另一个盘里面？</span><br>
+<span>WD好像有Dropbox Cloud Srvc，我买个10T的WD，直接送我10T的dropbox空间吗？然后随时同步到dropbox上面？</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>BT有理 发表于 2019-8-3 19:48</span><br>
+<span>直接买个WD 的MY BOOK COPY多一份就叫做备份</span><br>
+<span>意思是，我现在买两份东西，一块普通HDD放硬盘盒当下载盘，一个WD MY BOOK，同时接电脑上，MY BOOK只拿来备份，不拿来下载和储存？是这样吗</span><br>
+</p><p><b>john: </b><br>
+<span>shamal0324 发表于 2019-8-4 05:06</span><br>
+<span>再问一下，备份这事情是怎么做？比如说，我每隔一段时间要接多一个外置硬盘，开备份软件，将WD element里的 ...</span><br>
+<span>类似于dropbox、OneDrive的不带版本控制的随时同步只保硬件损坏，不保病毒和手贱</span><br>
+<span>我工作电脑的备份是开了个每周五17:00的提醒，用FreeFileSync保存一个固定的备份列表执行一下备份到另一个盘</span><br>
+<span>家里也是用FreeFileSync，SSD仓库的东西每次更新了就随手备份到NAS，HDD仓库的东西想起来就执行一下</span><br>
+</p><p><b>BT有理: </b><br>
+<span> 本帖最后由 BT有理 于 2019-8-4 10:21 编辑 </span><br>
+<span>shamal0324 发表于 2019-8-4 06:52</span><br>
+<span>意思是，我现在买两份东西，一块普通HDD放硬盘盒当下载盘，一个WD MY BOOK，同时接电脑上，MY BOOK只拿来 ...</span><br>
+<span>两个硬盘，里面装同样的内容就叫备份啊，有条件还可以再加一块硬盘，3份最安全啊，免费的同步软件很多的，备份完就断电放着啊。至于你下载用什么盘无所谓，但外置那种硬盘盒用久了是容易电压不够硬盘坏另外my book为啥要买双盘？单盘就可以了，raid什么的不需要</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>mistzzt 发表于 2019-8-4 01:26</span><br>
+<span>楼主在LA的网络不错的话可以考虑用aws glacier之类的备份服务，根据数据量大小按月付费。要比自己拿盘备份 ...</span><br>
+<span>是amazon的 s3 glacier吗？好像是0.004刀/G，这划算吗，对网速和配置要求有多高？</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>买了！WD红盘4T，加上my book单碟8T，前者下载后者备份</span><br>
+</p><p><b>qwased: </b><br>
+<span>呃，你还想继续USB插3.5寸硬盘挂下载啊……</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>qwased 发表于 2019-8-4 14:47</span><br>
+<span>呃，你还想继续USB插3.5寸硬盘挂下载啊……</span><br>
+<span>这很不好吗？……之前的西数蓝盘这么用了两年半才坏</span><br>
+<span>换大PC的话又是一轮麻烦啊，何况我用不着</span><br>
+</p><p><b>qwased: </b><br>
+<span>shamal0324 发表于 2019-8-4 14:56</span><br>
+<span>这很不好吗？……之前的西数蓝盘这么用了两年半才坏</span><br>
+<span>换大PC的话又是一轮麻烦啊，何况我用不着 ...</span><br>
+<span>USB供电的话长期负载能用两年你的运气还不错</span><br>
+<span>如果是DC电源供电而且电源比较靠谱那还勉强</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>qwased 发表于 2019-8-4 15:07</span><br>
+<span>USB供电的话长期负载能用两年你的运气还不错</span><br>
+<span>如果是DC电源供电而且电源比较靠谱那还勉强 ...</span><br>
+<span>DC电源DC电源，抱歉没说清楚</span><br>
+</p><p><b>Archlich: </b><br>
+<span>这种事儿先问google啊。</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>Archlich 发表于 2019-8-4 15:23</span><br>
+<span>这种事儿先问google啊。</span><br>
+<span>查了整整两天google了，各种不清不楚，比如有人说WD my book噪音大振动大，有人说加个垫子就没事……这种事买到手了才知道的</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>任何外置HDD都不适合长期通电使用用,长期用是找死</span><br>
+<span>HDD需要稳定的供电和安装环境,不能稳稳的定住硬盘的环境,HDD硬盘都是死得早</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>赤色彗星SEXY 发表于 2019-8-4 16:21</span><br>
+<span>任何外置HDD都不适合长期通电使用用,长期用是找死</span><br>
+<span>HDD需要稳定的供电和安装环境,不能稳稳的定住硬盘的环境 ...</span><br>
+<span>那成品NAS主机也别买了是不是</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>强尼高达 发表于 2019-08-04 16:57:28</span><br>
+<span>那成品NAS主机也别买了是不是</span><br>
+<span>抬杠就没意思了</span><br>
+<span>nas固定性还是比硬盘盒子好不少的</span><br>
+<span>起码底盘稳不少</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>mirari: </b><br>
+<span> 本帖最后由 mirari 于 2019-8-4 18:04 编辑 </span><br>
+<span>shamal0324 发表于 2019-8-4 06:52</span><br>
+<span>意思是，我现在买两份东西，一块普通HDD放硬盘盒当下载盘，一个WD MY BOOK，同时接电脑上，MY BOOK只拿来 ...</span><br>
+<span>硬盘是要买的，但备份工具没必要舍近求远，如果你在用win8+的系统，系统自带的备份功能足以满足需求，配置完成以后就是零存在感，没有定期人工维护成本。</span><br>
+<span>第一重，系统自带镜像存储池，也就是软raid1，需要两个硬盘清空数据后组建，防止单盘损坏。零门槛的raid，界面友好，不挑硬盘。</span><br>
+<span>第二重，系统自带文件历史记录，需要一个硬盘或者一个网络存储服务地址。可以差异备份指定目录的整个时间轴，随时切换到某个时间点，不仅可以避免单盘损坏，还可以防止误操作和勒索病毒。不但无缝集成文件浏览器，备份文件本身也是可以直接用文件浏览器打开的，只是文件名会加上备份时间戳。局域网下其他电脑也可以将其重要资料备份到提供文件历史记录服务的设备上。</span><br>
+<span>如果你只有一个新硬盘，直接设置文件历史记录服务就是最简单可靠的本地备份。而那些用传统备份工具以镜像形式手动复制、定时任务复制的笨办法都是无法规避误操作和勒索病毒风险的。</span><br>
+<span>第三重，云存储，防止家里被丢EMP炸弹等意外。系统自带onedrive、百度云以及希捷西数现在的移动硬盘搭配卖的添头工具都是类似的东西。</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>赤色彗星SEXY 发表于 2019-8-4 17:10</span><br>
+<span>抬杠就没意思了</span><br>
+<span>nas固定性还是比硬盘盒子好不少的</span><br>
+<span>起码底盘稳不少</span><br>
+<span>不是你一杆子打翻所有设备的么</span><br>
+<span>凭什么QNAP的NAS可以稳定使用，QNAP的硬盘柜就不行？</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>强尼高达 发表于 2019-08-04 17:45:29</span><br>
+<span>不是你一杆子打翻所有设备的么</span><br>
+<span>凭什么QNAP的NAS可以稳定使用，QNAP的硬盘柜就不行？ ...啥 不是在说外置硬盘盒么 </span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>突然提醒了我还是在用路由器的USB接移动硬盘。还接了分线器</span><br>
+<span>如果想一个硬盘平常同步手机和下载，一个硬盘平常断电定期冷备份。有推荐的设备吗？NAS好像用不着。有什么硬盘座能一键同步然后断电的吗？</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>赤色彗星SEXY 发表于 2019-8-4 21:39</span><br>
+<span>啥 不是在说外置硬盘盒么 </span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>西数塞两个硬盘的外置硬盘和QNAP两盘位硬盘柜自己买两个硬盘有多大区别？</span><br>
+<span>如果你的point在于放置的稳定性，还有一大票趴着的单盘位硬盘盒比双盘位NAS稳定到姥姥家了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850976[0-50]</guid>
+    </item>
+  </channel>
+</rss>

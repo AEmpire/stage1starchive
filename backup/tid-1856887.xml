@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>在外野讨论Java？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>在外野讨论Java？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:57:52 +0000</lastBuildDate>
+    <item>
+      <title>在外野讨论Java？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856887-1-1.html</link>
+      <description>在外野讨论Java？&#13;
+ 本帖最后由 董卓 于 2019-8-30 16:06 编辑 
+
+public class SomeClass {
+&#13;
+static int i = Integer.parseInt("x");
+&#13;
+public static void main(String[] args) {
+&#13;
+    try {
+&#13;
+      SomeClass c = new SomeClass();
+&#13;
+    } catch(Exception e) {
+&#13;
+      System.out.println("Exception caught!");
+&#13;
+    }
+&#13;
+    System.out.println("hah?");
+&#13;
+}
+&#13;
+}
+&#13;
+A、Exception caught!
+&#13;
+B、hah?
+&#13;
+C、其他
+&#13;
+人均程序员的S1来选一选，有兴趣的来给出正确的处理
+&#13;
+为啥会发一下这个，因为今天有听到了有人吹嘘“Never catch Throwable class”
+&#13;
+但这事情有啥实际意义呢？其实这事还和前些年分析的一个很狗屎的问题，有运维在生产环境上把配置文件里面的线程池大小=20，写成了线程池大小=2O然后结合上题理解，异常没有被log下来，分析这个问题的程序猿要了老命
+&#13;
+20和2O……2O和20……20和2O……
+&#13;
+有半数以上位同学还是尽管答案可能是对的，但是对于解题的原理理解还是不对的。
+&#13;
+理解一下，下面这题在原理上题是完全一样的。
+&#13;
+public class SomeClass {
+&#13;
+static int i = Integer.parseInt("x");
+&#13;
+}
+&#13;
+public class SomeMain {
+&#13;
+public static void main(String[] args) {
+&#13;
+    try {
+&#13;
+      SomeClass c = new SomeClass();
+&#13;
+    } catch(Exception e) {
+&#13;
+      System.out.println("Exception caught!");
+&#13;
+    }
+&#13;
+    System.out.println("hah?");
+&#13;
+}
+&#13;
+}</description>
+      <content:encoded><![CDATA[<p><b>董卓: </b><br>
+<span>在外野讨论Java？</span><br>
+<span> 本帖最后由 董卓 于 2019-8-30 16:06 编辑 </span><br>
+<span>public class SomeClass {</span><br>
+<span>static int i = Integer.parseInt("x");</span><br>
+<span>public static void main(String[] args) {</span><br>
+<span>    try {</span><br>
+<span>      SomeClass c = new SomeClass();</span><br>
+<span>    } catch(Exception e) {</span><br>
+<span>      System.out.println("Exception caught!");</span><br>
+<span>    }</span><br>
+<span>    System.out.println("hah?");</span><br>
+<span>}</span><br>
+<span>}</span><br>
+<span>A、Exception caught!</span><br>
+<span>B、hah?</span><br>
+<span>C、其他</span><br>
+<span>人均程序员的S1来选一选，有兴趣的来给出正确的处理</span><br>
+<span>为啥会发一下这个，因为今天有听到了有人吹嘘“Never catch Throwable class”</span><br>
+<span>但这事情有啥实际意义呢？其实这事还和前些年分析的一个很狗屎的问题，有运维在生产环境上把配置文件里面的线程池大小=20，写成了线程池大小=2O然后结合上题理解，异常没有被log下来，分析这个问题的程序猿要了老命</span><br>
+<span>20和2O……2O和20……20和2O……</span><br>
+<span>有半数以上位同学还是尽管答案可能是对的，但是对于解题的原理理解还是不对的。</span><br>
+<span>理解一下，下面这题在原理上题是完全一样的。</span><br>
+<span>public class SomeClass {</span><br>
+<span>static int i = Integer.parseInt("x");</span><br>
+<span>}</span><br>
+<span>public class SomeMain {</span><br>
+<span>public static void main(String[] args) {</span><br>
+<span>    try {</span><br>
+<span>      SomeClass c = new SomeClass();</span><br>
+<span>    } catch(Exception e) {</span><br>
+<span>      System.out.println("Exception caught!");</span><br>
+<span>    }</span><br>
+<span>    System.out.println("hah?");</span><br>
+<span>}</span><br>
+<span>}</span><br>
+</p><p><b>spatie: </b><br>
+<span>B</span><br>
+</p><p><b>enfuss: </b><br>
+<span>跑了一下是C</span><br>
+</p><p><b>pale219: </b><br>
+<span> 本帖最后由 pale219 于 2019-8-30 15:43 编辑 </span><br>
+<span>我选c..</span><br>
+<span>Exception caught!</span><br>
+<span>hah?------------------------------------</span><br>
+<span>好吧自己跑了一下不是这个结果</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>网上随便往上找了个playground，结果如下</span><br>
+<span>java.lang.ExceptionInInitializerError</span><br>
+<span>Caused by: java.lang.NumberFormatException: For input string: "x"</span><br>
+<span>      at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)</span><br>
+<span>      at java.base/java.lang.Integer.parseInt(Integer.java:652)</span><br>
+<span>      at java.base/java.lang.Integer.parseInt(Integer.java:770)</span><br>
+<span>      at SomeClass.<clinit>(SomeClass.java:3)</span><br>
+<span>Exception in thread "main" </span><br>
+</p><p><b>烟花缭乱: </b><br>
+<span>直接抛异常啥也不打印？</span><br>
+</p><p><b>spatie: </b><br>
+<span>把双引号去了就行了</span><br>
+</p><p><b>spatie: </b><br>
+<span>我猜得</span><br>
+</p><p><b>normalli: </b><br>
+<span>静态成员会在类加载的时候初始化，进不了main就出错了</span><br>
+</p><p><b>穿靴子的喵: </b><br>
+<span>越简单的题目讨论的人越多</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>静态成员变量初始化时抛异常应该是catch不到的, 程序直接报错或者退出了吧. 不过感觉这写法会被编译器优化掉然后报编译错误...懒得试了</span><br>
+<span>现在稍微大点的项目都分布式了, 静态成员变量基本不用了. 动态配置也都是丢给中间件或者数据库, 初始化的时候去取. 抠这些小细节不如在结构设计上直接避免.</span><br>
+</p><p><b>mwj: </b><br>
+<span>C，类初始化的时候就炸了</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>开始想想可能是jre，但应该不至于那么蠢</span><br>
+<span>可能是你们的线程配置在log配置之前，没启动好就崩了。但也应该能在web容器的日志里找到错误的</span><br>
+</p><p><b>看不透的人生: </b><br>
+<span>c,parseInt的时候不就炸了吗</span><br>
+</p><p><b>云梦渊泽: </b><br>
+<span>static，类加载的时候还没执行main呢，现在的年轻人都不看thinking in java了吗</span><br>
+</p><p><b>yang3350380: </b><br>
+<span>static 是最优先的 其他都是dd</span><br>
+</p><p><b>董卓: </b><br>
+<span>云梦渊泽 发表于 2019-8-30 15:55</span><br>
+<span>static，类加载的时候还没执行main呢，现在的年轻人都不看thinking in java了吗</span><br>
+<span>尽管可能答案是对的，但是说法是错误的。好好再想想？</span><br>
+<span>直接做个例子的话，试着把main放到另一个SomeMain当中来调用这个SomeClass的创建，看看是什么结果？</span><br>
+</p><p><b>payboy: </b><br>
+<span>这种是error 运行不了</span><br>
+</p><p><b>云梦渊泽: </b><br>
+<span>董卓 发表于 2019-8-30 15:59</span><br>
+<span>尽管可能答案是对的，但是说法是错误的。好好再想想？</span><br>
+<span>直接做个例子的话，试着把main放到另一个SomeMain ...</span><br>
+<span>不管怎么说，static 就是高人一等</span><br>
+</p><p><b>晩韶华: </b><br>
+<span>static int i = Integer.parseInt("x");这句就error了啊，怎么还可能继续往下运行</span><br>
+</p><p><b>n2z: </b><br>
+<span>类加载时发生错误，只要直接依赖还存在，这问题解不开</span><br>
+</p><p><b>godoway: </b><br>
+<span>什么是 Never catch Throwable class，没听过这概念。</span><br>
+</p><p><b>Aric_Bear: </b><br>
+<span>class SomeClass{</span><br>
+<span>    static int i;</span><br>
+<span>    static {</span><br>
+<span>      try {</span><br>
+<span>            i = Integer.parseInt("x");</span><br>
+<span>      } catch (Exception e) {</span><br>
+<span>            System.out.println("Caught ！");</span><br>
+<span>      }</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+<span>这代码虽然又丑又慢，但是好歹能把异常抓下来。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>还没运行到try呢，boom</span><br>
+</p><p><b>土路生優里: </b><br>
+<span>没写过java ， 但我觉着 static int i = Integer.parseInt("x"); 这行就已经报错了吧</span><br>
+</p><p><b>qiandai: </b><br>
+<span>像lz说的，这个坑最恶心的估计是找不到log。这种加载就报错的日志很可能不会出现在你的日志框架指定的位置里</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>革萌: </b><br>
+<span>qiandai 发表于 2019-8-30 18:16</span><br>
+<span>像lz说的，这个坑最恶心的估计是找不到log。这种加载就报错的日志很可能不会出现在你的日志框架指定的位置 ...</span><br>
+<span>从来都是把日志打一个文件</span><br>
+</p><p><b>青菜子: </b><br>
+<span>下班了跑不了，为什么要设置成静态的，有什么意义？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856887[0-50]</guid>
+    </item>
+  </channel>
+</rss>

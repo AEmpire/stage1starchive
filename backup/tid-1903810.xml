@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么部分游戏语言版本和系统语言绑定？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么部分游戏语言版本和系统语言绑定？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:53 +0000</lastBuildDate>
+    <item>
+      <title>为什么部分游戏语言版本和系统语言绑定？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903810-1-1.html</link>
+      <description>为什么部分游戏语言版本和系统语言绑定？&#13;
+ns上很多游戏都是标题这样，但也有大乱斗和奥德赛这种允许游戏内更改语言的，后者我觉得比前者方便多了，因为很多时候是根据游戏选择自己想看哪种语言的哦甚至还有小畜生这种初次生成存档时决定语言类型的。。我记得xb2也是
+&#13;
+用的难道不都是系统的字库，不存在不能实现的问题吧。。。</description>
+      <content:encoded><![CDATA[<p><b>噂の船: </b><br>
+<span>为什么部分游戏语言版本和系统语言绑定？</span><br>
+<span>ns上很多游戏都是标题这样，但也有大乱斗和奥德赛这种允许游戏内更改语言的，后者我觉得比前者方便多了，因为很多时候是根据游戏选择自己想看哪种语言的哦甚至还有小畜生这种初次生成存档时决定语言类型的。。我记得xb2也是</span><br>
+<span>用的难道不都是系统的字库，不存在不能实现的问题吧。。。</span><br>
+</p><p><b>Geminize: </b><br>
+<span> 本帖最后由 Geminize 于 2019-12-18 15:51 编辑 </span><br>
+<span>有自定义主角名的游戏绑定语言不能改还可以理解，中文输入的主角名换成日版可能会乱码，但XB2又没有自定义主角名等功能，其实完全可以实现，就是存档文件里的一个地址，01改成02就是中文，只能说MONOLITH的码农智障</span><br>
+</p><p><b>000000: </b><br>
+<span>XB1过去好像是全部都是遵循系统地区设置的，不知道现在如何了</span><br>
+</p><p><b>纯白花火: </b><br>
+<span>那荒野之息码农是不是智障？</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>NS版炼金工房很能说明问题，因为港日同版，所以能第一时间更新没有适配中文的日文DLC，主体虽然会被检查系统语言给屏蔽掉，但是漏掉的一些UI能明显看到日文独有汉字字体的缺字漏字，游戏都要自己买商业字库用，可能并不是那么通用。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span> 本帖最后由 whzfjk 于 2019-12-18 15:57 编辑 </span><br>
+<span>Geminize 发表于 2019-12-18 15:50</span><br>
+<span>有自定义主角名的游戏绑定语言不能改还可以理解，中文输入的主角名换成日版可能会乱码，但XB2又没有自定义 ...</span><br>
+<span>宝可梦可以看到各国语言的输入字符，还是锁了存档的语言，莫名其妙。</span><br>
+<span>或者可以理解为UI问题，这样可以不用在游戏里做切换语言的选项，也许程序员会觉得少个需求很开心。不过宝可梦里各种奇怪的选项都有，还锁语言就无语了。</span><br>
+</p><p><b>噂の船: </b><br>
+<span>纯白花火 发表于 2019-12-18 15:53</span><br>
+<span>那荒野之息码农是不是智障？</span><br>
+<span>从语言切换的问题上 我确实这么觉得 因为我想不到什么理由他一定要和系统语言绑定 尤其是他是第一方游戏的情况下</span><br>
+</p><p><b>enye: </b><br>
+<span>系统文字编码问题吧，有些游戏的文本不是用的unicode</span><br>
+</p><p><b>翼宿一: </b><br>
+<span>玩一些 GAL 会有这样的问题，繁体是简体版的再加工，这种时候会想切换成简体，但不更改系统语言成简体又没办法。</span><br>
+<span>简化字里的合并字单纯用机翻翻回繁体会出现很多奇葩文本，但是通常别的游戏又习惯繁体版的翻译，切来切去很不方便。</span><br>
+<span>而且一些明显是没什么技术门槛的，更改语言都完全不影响老存档的读取，不知道为什么舍不得在游戏内给个切换选项</span><br>
+</p><p><b>Geminize: </b><br>
+<span>最智障的是多语音的游戏，语言绑定语音不让改</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>卡婊把逆转123语音和语言绑定才是真弱智</span><br>
+</p><p><b>RedPig: </b><br>
+<span>有些游戏语言和存档挂钩, 特别是日本程序员</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>逆转裁判换语言存档也跟着换</span><br>
+</p><p><b>无动于衷: </b><br>
+<span>NS更新中文升级包到底是谁决定的 为什么梦幻模拟战1+2的日版就不能升级成中文版</span><br>
+</p><p><b>小司司: </b><br>
+<span>是这样的，内存小的游戏机比如wii~~</span><br>
+<span>切换不同的系统时，会加载不同的内核~</span><br>
+<span>这些不同的内核，不会有全部的语言字库~~</span><br>
+<span>有的游戏没有自带字库，必须调用系统字库~~</span><br>
+<span>所以游戏语言绑定系统语言是个简单的适配方案~~当然，更简单的方案就是内置所有字库~</span><br>
+<span>实际上玩wii破解的人，经常会发现不同的游戏需要不同的ios~~因为有的ios甚至没有usb驱动~也就是这个原因~</span><br>
+</p><p><b>Geminize: </b><br>
+<span>引用第13楼无动于衷于2019-12-18 16:25发表的:</span><br>
+<span>NS更新中文升级包到底是谁决定的 为什么梦幻模拟战1+2的日版就不能升级成中文版</span><br>
+<span>厂商</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>モナド: </b><br>
+<span>内嵌字库不是什么麻烦事，只不过跟系统语言走比较省事，像xb2发售的时候，ns系统还没有简体中文，只能做在游戏里，后面更新的黄金国就跟着系统语言走了</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>早期开发有很多臭毛病，比如一种语言对应一种编码表，9012都快过去了，很多windows程序还是这样的</span><br>
+</p><p><b>布拉德莱恩: </b><br>
+<span>能单独设置游戏的语言和文字是一种好文明，希望广大游戏厂商能采用</span><br>
+</p><p><b>胖胖Ω: </b><br>
+<span>Switch没系统中文时就有很多人把第三方不出中文归咎于老任，而老任自己甚至还专门出了个中文/English的语言选项好在出中文系统前让游戏显示中文。实在难以理解为什么不能在游戏里加个语言选项，野炊明明有在游戏中改语音的选项都没有改语言。</span><br>
+</p><p><b>nice女武神: </b><br>
+<span>见过gta5这种换语言结果其它文字都是方块的操作吗这还是同一个网络下</span><br>
+</p><p><b>ybfelix: </b><br>
+<span>Pokemon是故意锁死，一个存档只能有一个语言，这个不管有多烦人，总之是有他自己的刻意考虑在里面，我倒也不说啥了。有些游戏（尤其某些汉化水平低下的独立游戏）在选项菜单里不给语言选择，而是无理由地强制跟系统，可能就只是出于无能没想到要做切换语言功能，这种很不能忍。我为了规避糟糕的汉化/就是想玩原版语言还得整个系统切换重启</span><br>
+</p><p><b>日本游戏销量: </b><br>
+<span>ybfelix 发表于 2019-12-18 19:44</span><br>
+<span>Pokemon是故意锁死，一个存档只能有一个语言，这个不管有多烦人，总之是有他自己的刻意考虑在里面，我倒也 ...</span><br>
+<span>应该是靠语言选项判断国籍，伽勒尔是加盖的</span><br>
+</p><p><b>pandakun: </b><br>
+<span>可知足吧，这要是索尼的话就请你再买一份别的语言版本了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>宛若青空: </b><br>
+<span>总比PSN一份游戏卖三份语言好多了</span><br>
+</p><p><b>hamartia: </b><br>
+<span>ps3版大神，如果主机是中文系统启动游戏后自动跳转至英文，我为了看“白野威”那点汉字只能左右横跳改系统</span><br>
+<span>所以把它白金后我也不想再启动了</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-12-18 16:10</span><br>
+<span>卡婊把逆转123语音和语言绑定才是真弱智</span><br>
+<span>滴滴滴滴滴滴还分各种语言吗</span><br>
+<span>—— 来自 OPPO PCCM00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>天气姐姐 发表于 2019-12-19 10:13</span><br>
+<span>滴滴滴滴滴滴还分各种语言吗</span><br>
+<span>—— 来自 OPPO PCCM00, Android 10上的 S1Next-鹅版 v2.2.1-alpha ...</span><br>
+<span>NS版是中文语音，其实也就几个词，听起来还不错。</span><br>
+</p><p><b>jd8888: </b><br>
+<span>本质就是懒，xb2这种选了语言不能再换了更蠢</span><br>
+</p><p><b>yangchunsiyue: </b><br>
+<span>hamartia 发表于 2019-12-18 23:01</span><br>
+<span>ps3版大神，如果主机是中文系统启动游戏后自动跳转至英文，我为了看“白野威”那点汉字只能左右横跳改系统</span><br>
+<span> ...</span><br>
+<span>ns版也是……简体中文系统就默认是英文。</span><br>
+<span>要把系统改成日语进去才是日文</span><br>
+</p><p><b>Geminize: </b><br>
+<span>天气姐姐 发表于 2019-12-19 10:13</span><br>
+<span>滴滴滴滴滴滴还分各种语言吗</span><br>
+<span>—— 来自 OPPO PCCM00, Android 10上的 S1Next-鹅版 v2.2.1-alpha ...</span><br>
+<span>异议阿里有语音</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>异议都汉化了那就没内味了</span><br>
+<span>—— 来自 OPPO PCCM00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903810[0-50]</guid>
+    </item>
+  </channel>
+</rss>

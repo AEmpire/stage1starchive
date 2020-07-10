@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>文件查重去重，有没有比较好的方案？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>文件查重去重，有没有比较好的方案？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:39:36 +0000</lastBuildDate>
+    <item>
+      <title>文件查重去重，有没有比较好的方案？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868659-1-1.html</link>
+      <description>文件查重去重，有没有比较好的方案？&#13;
+zfs那种做在文件系统上的就算了。
+&#13;
+能不能写个脚本来每天定时查一下？
+&#13;
+统一查一次太费时间了。几十万个文件。
+&#13;
+windows或者linux都可以</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>文件查重去重，有没有比较好的方案？</span><br>
+<span>zfs那种做在文件系统上的就算了。</span><br>
+<span>能不能写个脚本来每天定时查一下？</span><br>
+<span>统一查一次太费时间了。几十万个文件。</span><br>
+<span>windows或者linux都可以</span><br>
+</p><p><b>braverbt: </b><br>
+<span>linux下写个shell脚本跑fslint fdupes就可以了,可以选择比对模式(字节码 md5什么的).</span><br>
+<span>win下用Duplicate Cleaner 和 DoubleKiller.</span><br>
+</p><p><b>lvcha: </b><br>
+<span>braverbt 发表于 2019-11-29 15:54</span><br>
+<span>linux下写个shell脚本跑fslint fdupes就可以了,可以选择比对模式(字节码 md5什么的).</span><br>
+<span>win下用Duplicate Cle ...</span><br>
+<span>是，就是windows我试了下fdups，一小时才1%有点晕。。</span><br>
+</p><p><b>braverbt: </b><br>
+<span>lvcha 发表于 2019-11-29 16:11</span><br>
+<span>是，就是windows我试了下fdups，一小时才1%有点晕。。</span><br>
+<span>默认是md5模式,大文件单线程计算一定很慢.</span><br>
+<span>换其他模式会好一些~</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868659[0-50]</guid>
+    </item>
+  </channel>
+</rss>

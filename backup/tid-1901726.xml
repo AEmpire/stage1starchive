@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>火星土垃圾：可能是最便宜的RGBD摄像头</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>火星土垃圾：可能是最便宜的RGBD摄像头</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:32:21 +0000</lastBuildDate>
+    <item>
+      <title>火星土垃圾：可能是最便宜的RGBD摄像头[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901726-1-1.html</link>
+      <description>火星土垃圾：可能是最便宜的RGBD摄像头&#13;
+ 本帖最后由 serial 于 2019-12-12 13:04 编辑 
+
+奥比中光代工的摄像头，能用奥比的SDK，乐视TV的体感配件，很多人可能不知道可以用在其它东西上面
+&#13;
+咸鱼上100一个，前段时间买了两个玩，领导早些时候：别买乱七八糟的垃圾
+&#13;
+只要100一个：买它100个放着</description>
+      <content:encoded><![CDATA[<p><b>serial: </b><br>
+<span>火星土垃圾：可能是最便宜的RGBD摄像头</span><br>
+<span> 本帖最后由 serial 于 2019-12-12 13:04 编辑 </span><br>
+<span>奥比中光代工的摄像头，能用奥比的SDK，乐视TV的体感配件，很多人可能不知道可以用在其它东西上面</span><br>
+<span>咸鱼上100一个，前段时间买了两个玩，领导早些时候：别买乱七八糟的垃圾</span><br>
+<span>只要100一个：买它100个放着</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>能用Windows Hello不</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>楼主你lag了半年多了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>有什么玩法</span><br>
+</p><p><b>serial: </b><br>
+<span>DENHJD 发表于 2019-12-12 12:54</span><br>
+<span>楼主你lag了半年多了</span><br>
+<span>对呀，早就有了只是不知道，于是又水了一贴</span><br>
+</p><p><b>serial: </b><br>
+<span>lwa190212 发表于 2019-12-12 12:58</span><br>
+<span>有什么玩法</span><br>
+<span>家用：体感游戏</span><br>
+<span>穷学生：SLAM学习/三维重建/感知······</span><br>
+</p><p><b>serial: </b><br>
+<span>强尼高达 发表于 2019-12-12 12:53</span><br>
+<span>能用Windows Hello不</span><br>
+<span>估计不行</span><br>
+<span>https://channel9.msdn.com/coding4fun/kinect/Windows-Hello-with-the-Kinect-v2</span><br>
+<span>Biometric需要有用来识别的硬件，粗略看SDK demo也没提到</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>serial 发表于 2019-12-12 13:01</span><br>
+<span>家用：体感游戏</span><br>
+<span>穷学生：SLAM学习/三维重建/感知······</span><br>
+<span>三维建模也可以吗，比如给自己的头建模，对摄像头的精度要求高吗，能看得出是个人吗？</span><br>
+</p><p><b>serial: </b><br>
+<span>lwa190212 发表于 2019-12-12 13:05</span><br>
+<span>三维建模也可以吗，比如给自己的头建模，对摄像头的精度要求高吗，能看得出是个人吗？ ...</span><br>
+<span>需要折腾一下：</span><br>
+<span>https://blog.csdn.net/AIchipmunk/article/details/8721290</span><br>
+<span>除了kinect有收费的适配软件以外，没看到有开源的···</span><br>
+<span>给头建模要求蛮高的···而且需要ICP才能得到完整的模型</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>这玩意叫啥，我也买个玩玩</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>serial 发表于 2019-12-12 13:53</span><br>
+<span>需要折腾一下：</span><br>
+<span>https://blog.csdn.net/AIchipmunk/article/details/8721290</span><br>
+<span>除了kinect有收费的适配软件 ...</span><br>
+<span>看了下kinect的摄像头的效果，果然还是不行啊，现在的摄像头深度信息精度都是这个级别的吗？</span><br>
+<span>求教一下，如果是物距更大的时候，深度信息相对于距离的精度会有变化吗</span><br>
+<span>比如说1米处深度精度是5cm的话，100米处的深度信息精度能到5米吗</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>lwa190212 发表于 2019-12-12 14:02</span><br>
+<span>看了下kinect的摄像头的效果，果然还是不行啊，现在的摄像头深度信息精度都是这个级别的吗？</span><br>
+<span>求教 ...</span><br>
+<span>深度摄像头精度会随着距离增加而下降，但深度摄像头基本有效测距距离也就是十几米的样子，还会随着光线等环境因素进一步下降</span><br>
+</p><p><b>serial: </b><br>
+<span>lwa190212 发表于 2019-12-12 14:02</span><br>
+<span>看了下kinect的摄像头的效果，果然还是不行啊，现在的摄像头深度信息精度都是这个级别的吗？</span><br>
+<span>求教 ...</span><br>
+<span>双目、TOF原理的深度能把误差保持在某个百分比下，差不多是这个意思。但是100米的深度相机···</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>DENHJD 发表于 2019-12-12 14:05</span><br>
+<span>深度摄像头精度会随着距离增加而下降，但深度摄像头基本有效测距距离也就是十几米的样子，还会随着光线等 ...</span><br>
+<span>了解了，还有有效测距距离这种参数，谢谢</span><br>
+</p><p><b>serial: </b><br>
+<span>lwa190212 发表于 2019-12-12 14:02</span><br>
+<span>看了下kinect的摄像头的效果，果然还是不行啊，现在的摄像头深度信息精度都是这个级别的吗？</span><br>
+<span>求教 ...</span><br>
+<span>虽然不能扫描自己，但是精度用在RTAB Map上，扫描房子还是够了，也就图一乐</span><br>
+<span>可以参考： http://introlab.github.io/rtabmap/</span><br>
+<img src="https://raw.githubusercontent.com/wiki/introlab/rtabmap/doc/video_screenshots/rtabmap-tango.png" title="https://raw.githubusercontent.com/wiki/introlab/rtabmap/doc/video_screenshots/rtabmap-tango.png"><br>
+<span>另外，奥比中光SDK有骨骼识别，用途跟kinect差不多，取决于开发者的想象力</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901726[0-50]</guid>
+    </item>
+  </channel>
+</rss>

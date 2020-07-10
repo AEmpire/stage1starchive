@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如果我不在乎损失部分性能来控制CPU温度可以直接限制睿...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如果我不在乎损失部分性能来控制CPU温度可以直接限制睿...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:06:29 +0000</lastBuildDate>
+    <item>
+      <title>如果我不在乎损失部分性能来控制CPU温度可以直接限制睿...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905862-1-1.html</link>
+      <description>如果我不在乎损失部分性能来控制CPU温度可以直接限制睿...&#13;
+ 本帖最后由 droople 于 2019-12-27 21:29 编辑 
+
+我在看网上很多温度控制的思路都是通过xtu或者throttlestop 调低CPU电压但是保持CPU频率这种方式实现的，这样问题低了，性能还没啥损失
+&#13;
+有没有软件可以直接把睿频比如4.6变成4.0这种方式来把CPU的温度降下来啊
+&#13;
+是蓝天的笔记本，所以台式机加风扇的方法用不了
+&#13;
+顺便问问，给CPU降压到底会不会造成缩缸啊，看老外论坛从来没提到降压会对CPU造成危害
+&#13;
+----发送自 OnePlus GM1910,Android 10</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>如果我不在乎损失部分性能来控制CPU温度可以直接限制睿...</span><br>
+<span> 本帖最后由 droople 于 2019-12-27 21:29 编辑 </span><br>
+<span>我在看网上很多温度控制的思路都是通过xtu或者throttlestop 调低CPU电压但是保持CPU频率这种方式实现的，这样问题低了，性能还没啥损失</span><br>
+<span>有没有软件可以直接把睿频比如4.6变成4.0这种方式来把CPU的温度降下来啊</span><br>
+<span>是蓝天的笔记本，所以台式机加风扇的方法用不了</span><br>
+<span>顺便问问，给CPU降压到底会不会造成缩缸啊，看老外论坛从来没提到降压会对CPU造成危害</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>我以前用过throttlestop，不知道现在的u还能不能用</span><br>
+</p><p><b>紫吹兰: </b><br>
+<span>你直接降TDP或者温度墙不就行了，和发热的关系比频率直接多了</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第2楼紫吹兰于2019-12-27 11:37发表的:</span><br>
+<span>你直接降TDP或者温度墙不就行了，和发热的关系比频率直接多了</span><br>
+<span>@紫吹兰</span><br>
+<span>tpd可以调，温度墙的问题是一旦撞墙，不重启就回不来吧。。。</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>radar: </b><br>
+<span>throttlestop可以实现你的想法</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>xtu就可以</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第4楼radar于2019-12-27 12:07发表的:</span><br>
+<span>throttlestop可以实现你的想法</span><br>
+<span>@radar</span><br>
+<span>@commanderyuri</span><br>
+<span>谢谢，各自是在哪里调啊？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>radar: </b><br>
+<span>droople 发表于 2019-12-27 13:13</span><br>
+<span>@radar</span><br>
+<span>@commanderyuri</span><br>
+<span>推荐找个教程看看，思路是只要把倍频调低就可以限制最大频率了，电压调节可以配合使用</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>简单是的win系统电源管理，cpu最大性能改成99%，这样会直接掉到标称频率，比较低...</span><br>
+<span>如果只是简单的想降低点，就用throttlestop，直接修改倍频多少即可，</span><br>
+<span>其实你有XTU也一样可以降低倍频，两者都有保存加载的功能吧。</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第7楼radar于2019-12-27 13:28发表的:</span><br>
+<span>引用:droople 发表于 2019-12-27 13:13@radar@commanderyur......</span><br>
+<span>@radar</span><br>
+<span>@liaojings1</span><br>
+<span>我看网上老外写的教程里面说对新CPU来说倍频选项没用了?</span><br>
+<span>我是9700k</span><br>
+<span>Set Multiplier – This is another obsolete setting; on older CPUs, the clock speed is determined by multiplying the bus speed of the CPU by a multiplier. For example, an old Pentium III-M with a bus-speed of 133MHz set to a multiplier of 10 would be operating at its full speed of 1.33GHz. On modern CPUs, the multipliers are set differently. With a Core i CPU, simply increasing the default value by 1 will tell the CPU to run at full turbo clocks. Setting it higher will have no effect, and setting it lower will be the same as not setting it.</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第8楼liaojings1于2019-12-27 13:30发表的:</span><br>
+<span>简单是的win系统电源管理，cpu最大性能改成99%，这样会直接掉到标称频率，比较低...如果只是简......</span><br>
+<span>@liaojings1</span><br>
+<span>xtu是每次重启都要重新搞一遍吧？除非自己按照网上教程搞个脚本啥的</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>albertfu: </b><br>
+<span>ThrottleStop小巧轻便，限制个频率，功率，温度墙，调一下FIVR设置等等，都可以办到，XTU太沉重了</span><br>
+<span>但是我这里5代6代还能调，8代不太行只能用XTU</span><br>
+<span>但照理说6 7 8 9四代都是一模一样的东西，估计是微码层面有限制 </span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>XTU，AW控制中心实际使用的就是这东西</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第11楼albertfu于2019-12-27 14:17发表的:</span><br>
+<span>ThrottleStop小巧轻便，限制个频率，功率，温度墙，调一下FIVR设置等等，都可以办到，XT......</span><br>
+<span>@albertfu</span><br>
+<span>看老外写的指南很多参数对新CPU没用，只能靠电压和功率来调</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>松霖: </b><br>
+<span>要低温加性能为什么买14nm的牙膏</span><br>
+</p><p><b>albertfu: </b><br>
+<span>droople 发表于 2019-12-27 14:55</span><br>
+<span>@albertfu</span><br>
+<span>看老外写的指南很多参数对新CPU没用，只能靠电压和功率来调</span><br>
+<span>恩，反正超级小的软件，试试不亏</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>9700k直接bios锁个4.2 电压1.1几呗</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>你就不能买个好散热器？</span><br>
+<span>那么执着温度干什么</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>路过问一下有没有超频软件可以根据启动的程序来调节频率电压等等的？有些程序不需要那么高性能，但仍然把CPU拉到满载浪费电还提高风扇转速，如果能自动调低调高就方便了。</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第18楼testalphagogogo于2019-12-27 15:59发表的:</span><br>
+<span>路过问一下有没有超频软件可以根据启动的程序来调节频率电压等等的？有些程序不需要那么高性能，但仍然把C......</span><br>
+<span>@testalphagogogo</span><br>
+<span>xtu可以根据你指定的进程选择你设定的不同的方案</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>droople 发表于 2019-12-27 16:26</span><br>
+<span>@testalphagogogo</span><br>
+<span>xtu可以根据你指定的进程选择你设定的不同的方案</span><br>
+<span>英特尔®极限调试实用程序（英特尔® XTU）这个？官方说只支持10，有7的版本吗？另外an显卡有类似的工具么？</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第20楼testalphagogogo于2019-12-27 16:54发表的:</span><br>
+<span>引用:droople 发表于 2019-12-27 16:26@testalphagogogoxtu......</span><br>
+<span>@testalphagogogo</span><br>
+<span>这个基本上U都支持的吧，哪有只支持10代这一说</span><br>
+<span>显卡的话试试微星的afterbuner?</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>elflie: </b><br>
+<span>xtu设置电流墙</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>硅脂上7921，这玩意就是对付笔记本这种恶劣环境特别好</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>别降压超频了，瞎调不稳啊，xtu直接设置tdp</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>aaray: </b><br>
+<span>我曾经也做过类似的事，笔记本CPU稍微一用就90多度，这还是限制频率之后，没限制以前动不动就上100度，系统自动断电保护。我以为是电脑CPU有问题，这么忍了好几年。直到几个月前因为风扇噪音太大给风扇上了点润滑膏，然后发现CPU怎么用都最高60多度。</span><br>
+</p><p><b>droople: </b><br>
+<span>DeepFishing 发表于 2019-12-27 20:29</span><br>
+<span>别降压超频了，瞎调不稳啊，xtu直接设置tdp</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>用蓝天的CCC把PL2设成了50W，比TDP 95W低了45W</span><br>
+</p><p><b>disrupt: </b><br>
+<span>droople 发表于 2019-12-27 13:53</span><br>
+<span>@radar</span><br>
+<span>@liaojings1</span><br>
+<span>主界面的Set Multiplier是没用了，但还是可以用FIVR里面的Turbo Ratio Limits来限制频率</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>droople 发表于 2019-12-27 18:29</span><br>
+<span> @testalphagogogo 这个基本上U都支持的吧，哪有只支持10代这一说 显卡的话试试微星的afterbuner?</span><br>
+<span>他应该问的是win7版本吧</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第28楼kirainsky于2019-12-28 05:38发表的:</span><br>
+<span>引用:droople 发表于 2019-12-27 18:29 @testalphagogogo 这......</span><br>
+<span>@kirainsky</span><br>
+<span> 我看了一眼8.70.6，上面写的支持7,8,10，要不重新下一个？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>droople: </b><br>
+<span> 本帖最后由 droople 于 2019-12-28 10:52 编辑 </span><br>
+<span>aaray 发表于 2019-12-27 21:02</span><br>
+<span>我曾经也做过类似的事，笔记本CPU稍微一用就90多度，这还是限制频率之后，没限制以前动不动就上100度，系统 ...</span><br>
+<span>看了风扇不知道怎么加油。。。。。。</span><br>
+</p><p><b>白头盔: </b><br>
+<span>你就应该直接买低压u</span><br>
+</p><p><b>Dr.bright: </b><br>
+<span>电源管理里那个限制处理器性能是吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>aaray: </b><br>
+<span>droople 发表于 2019-12-28 10:50</span><br>
+<span>看了风扇不知道怎么加油。。。。。。</span><br>
+<span>什么型号的笔记本？试试网上搜一下，关键字型号和清灰，运气好能找到拆解视频。动手能力不强的去电子城花钱找专业的干吧，最好加润滑脂，淘宝6块钱包邮</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>droople 发表于 2019-12-28 10:50</span><br>
+<span>看了风扇不知道怎么加油。。。。。。</span><br>
+<span>直接换吧，要看风扇是啥轴承吧，轴承有问题加油也没啥用</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>droople: </b><br>
+<span>aaray 发表于 2019-12-28 18:09</span><br>
+<span>什么型号的笔记本？试试网上搜一下，关键字型号和清灰，运气好能找到拆解视频。动手能力不强的去电子城花 ...</span><br>
+<span>蓝天的P750TM</span><br>
+</p><p><b>aaray: </b><br>
+<span>droople 发表于 2019-12-28 21:16</span><br>
+<span>蓝天的P750TM</span><br>
+<span>https://www.bilibili.com/video/av17663717/</span><br>
+<span>不知道这个有没有参考价值</span><br>
+</p><p><b>droople: </b><br>
+<span>aaray 发表于 2019-12-28 23:43</span><br>
+<span>https://www.bilibili.com/video/av17663717/</span><br>
+<span>不知道这个有没有参考价值</span><br>
+<span>谢谢，这下子换硅脂就知道怎么拆了，不过风扇本身还是不敢拆，看型号是ADA的hybrid轴承风扇。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905862[0-50]</guid>
+    </item>
+  </channel>
+</rss>

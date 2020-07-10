@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求推荐日记软件</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求推荐日记软件</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:02:27 +0000</lastBuildDate>
+    <item>
+      <title>求推荐日记软件[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846584-1-1.html</link>
+      <description>求推荐日记软件&#13;
+用了9年的ediary，因为自己的误操作丢了3个月的数据。
+&#13;
+求一个日记软件，希望能有如下功能，重要性由高到低:
+&#13;
+1. 支持日记模板，能画表格，能有诸如 {{ time }} {{ weather }} 这样的变量
+&#13;
+2. 能导出txt，或者是其他的通用格式
+&#13;
+3. 支持通用的云备份
+&#13;
+具象化一些的例子就是orange diary，可惜已经很久没更新了，不知道他的google driver还好不好用。
+&#13;
+顺带吐槽下，现在的日记本都不知道是啥思路。外观做的倒是好，结果连导出功能都不支持。这些应用作者对自己的应用能活多久都没数嘛。
+&#13;
+还有的日记app，宣传页就是每天都有各种插图。我这种社畜，每天回家里，写日记就当作是填表打卡了，拿还有心情插图啊。
+&#13;
+有些app则是没有树状的时间轴，想回顾以往真的太麻烦了。
+&#13;
+所以ediary真的是做的很好了。不用我每次都生成表格，填写标题，选择天气。自己也会生成备份文件，当我想换平台的时候也能导出。闲下来了，翻开大学高中时候的日记看看傻逼的自己。</description>
+      <content:encoded><![CDATA[<p><b>weakiwi: </b><br>
+<span>求推荐日记软件</span><br>
+<span>用了9年的ediary，因为自己的误操作丢了3个月的数据。</span><br>
+<span>求一个日记软件，希望能有如下功能，重要性由高到低:</span><br>
+<span>1. 支持日记模板，能画表格，能有诸如 {{ time }} {{ weather }} 这样的变量</span><br>
+<span>2. 能导出txt，或者是其他的通用格式</span><br>
+<span>3. 支持通用的云备份</span><br>
+<span>具象化一些的例子就是orange diary，可惜已经很久没更新了，不知道他的google driver还好不好用。</span><br>
+<span>顺带吐槽下，现在的日记本都不知道是啥思路。外观做的倒是好，结果连导出功能都不支持。这些应用作者对自己的应用能活多久都没数嘛。</span><br>
+<span>还有的日记app，宣传页就是每天都有各种插图。我这种社畜，每天回家里，写日记就当作是填表打卡了，拿还有心情插图啊。</span><br>
+<span>有些app则是没有树状的时间轴，想回顾以往真的太麻烦了。</span><br>
+<span>所以ediary真的是做的很好了。不用我每次都生成表格，填写标题，选择天气。自己也会生成备份文件，当我想换平台的时候也能导出。闲下来了，翻开大学高中时候的日记看看傻逼的自己。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>看来是手机版的，那就不推荐org mode了</span><br>
+</p><p><b>weakiwi: </b><br>
+<span>Prushka 发表于 2019-7-14 11:31</span><br>
+<span>看来是手机版的，那就不推荐org mode了</span><br>
+<span>谢谢推荐！手机电脑都可以，多平台只是担心数据丢失</span><br>
+</p><p><b>Hieda: </b><br>
+<span>我觉得你需要的只是编辑器的template插件配上一个比较正常的md插件</span><br>
+</p><p><b>をすりばば: </b><br>
+<span>吾志，请</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> ediary 能满足就继续用呗。我现在一般选择发博客 (Blogger, 就直接发邮件) 了，偶尔也会翻翻。想要长年记录依靠在线服务确实不够稳定，就算能导出也一堆问题。纯文字 (支持图文更好)、易导出、跨平台、支持模板、关键要容易回看 - 我感觉划掉易导出 (依靠可靠的服务商)，可以考虑用 outlook 日历。每个全天事件都可以有注释，新建一个专门记日记的日历就可以了。当天的天气本身显示在日历上，复制一下就行了。</span><br>
+</p><p><b>TRI_KING: </b><br>
+<span>我用的 Day One</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>讲道理，注册两个不同服务商的邮箱每天发邮件真是很适合我这种不想麻烦的人。</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>真田丸: </b><br>
+<span>用python写个每天抓取天气信息生成md模板放dropbox目录里？</span><br>
+</p><p><b>Prushka: </b><br>
+<span>如果要用org-mode的话可以用org-capture来设置记录模板</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846584[0-50]</guid>
+    </item>
+  </channel>
+</rss>

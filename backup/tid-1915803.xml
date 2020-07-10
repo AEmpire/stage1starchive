@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小白求教 madvr能不能用来压制视频</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小白求教 madvr能不能用来压制视频</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:57:02 +0000</lastBuildDate>
+    <item>
+      <title>小白求教 madvr能不能用来压制视频[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915803-1-1.html</link>
+      <description>小白求教 madvr能不能用来压制视频&#13;
+不知道这么问对不对 就是能不能把加了madvr后的效果直接压成视频? 在别的设备上或者视频网站上看到近似的效果?
+&#13;
+madvr里具体加了啥我也没研究过 我猜主要有用的应该是upscale的部分? 
+&#13;
+其实也想试一下waifu2x 不知道效果怎么样 不过这个压视频感觉会慢到爆炸</description>
+      <content:encoded><![CDATA[<p><b>紧那罗: </b><br>
+<span>小白求教 madvr能不能用来压制视频</span><br>
+<span>不知道这么问对不对 就是能不能把加了madvr后的效果直接压成视频? 在别的设备上或者视频网站上看到近似的效果?</span><br>
+<span>madvr里具体加了啥我也没研究过 我猜主要有用的应该是upscale的部分? </span><br>
+<span>其实也想试一下waifu2x 不知道效果怎么样 不过这个压视频感觉会慢到爆炸</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>不能吧，比如说chrom upscale，就是把yuv420中缩水的色度还原，你如果再压，又回去了，除非压成444。播放时的down/up的scale效果这个是和播放器相关的到是不用。色带处理啥的也和播放器有关不能带到片里</span><br>
+</p><p><b>两个路人: </b><br>
+<span>用PS3+采集卡搞DVD碟录屏的有不少，Madvr也可以这么搞，有没有效果等LZ自行验证</span><br>
+</p><p><b>screeper: </b><br>
+<span>这种处理直接用avs/vs干就好了，madvr终归还是个渲染器，不适合干这些事</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>原来roozhou开发的directx264就是基于播放设置渲染作为源给编码器的，当然早就停止开发了。</span><br>
+<span>madvr中的各种算法我猜都是公开的，你可以找找有没有对应的插件，没有你可以找源码自己编译。</span><br>
+<span>其实可以pipe给编码器吧。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>需要madvr那些滤镜的话学下avs</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>高卢鸡 发表于 2020-2-26 17:12</span><br>
+<span>原来roozhou开发的directx264就是基于播放设置渲染作为源给编码器的，当然早就停止开发了。</span><br>
+<span>madvr中的各种 ...</span><br>
+<span>madshi自己开发的算法不公开。尤其是HSTM算法已经申请相关专利了。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>实时采样？来人上anime4k</span><br>
+<span>https://github.com/k4yt3x/video2x</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>暁美ほむら 发表于 2020-2-26 19:17</span><br>
+<span>madshi自己开发的算法不公开。尤其是HSTM算法已经申请相关专利了。</span><br>
+<span>soga</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>すぴぱら 发表于 2020-2-26 21:51</span><br>
+<span>实时采样？来人上anime4k</span><br>
+<span>https://github.com/k4yt3x/video2x</span><br>
+<span>这个我还真看到了 还有一个Dandere2x号称性能比这个好的</span><br>
+<span>我准备周末试试</span><br>
+</p><p><b>Sza: </b><br>
+<span>waifu2x训练的主要还是二次元图片，用的算法也是几年前的，可能选别的方案会更好。</span><br>
+</p><p><b>ulric: </b><br>
+<span> 本帖最后由 ulric 于 2020-2-27 08:33 编辑 </span><br>
+<span>Topaz Video Enhance AI </span><br>
+<span>Black Magic DaVinci Neural Engine</span><br>
+</p><p><b>Syusyuly: </b><br>
+<span>某压制组工具人表示 Anime4K 并不适合压制 BDRip，我们都爱两倍老婆，不过正常压制 BDRip 一般不会使用此类工具</span><br>
+<span>唯一一次使用 waifu2x 压制** DVD，GTX 1080 利用率 30%，压制速度 5fps</span><br>
+<span>http://bbs.vcb-s.com/forum.php?mod=viewthread&tid=4777</span><br>
+<span>这算法标榜的是real time upscaler，而制作rip就算用waifu2x速度也不是问题。</span><br>
+<span>这种对画风改变极大的滤镜没什么bdrip会用吧</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>今天试了一下anime4k和waifu2x</span><br>
+<span>前面这个直接由mpv的滤镜 就直接拿来用了 感觉对动画1080->2160提升不太明显(也可能是我狗眼看不出来)</span><br>
+<span>更早的 压制的更低分辨率的能看出来滤镜加了东西 不过效果不是很好 文字会变的很糊 画面感觉脏兮兮的</span><br>
+<span>waifu2x倒是没这个问题 感觉画面明显锐化</span><br>
+<span>不过同样高分辨率下提升比较小</span><br>
+<span>720p及以下 放大时画面风格感觉明显变化 分辨率高了画面风格变化比较小 就是单纯提升像素的感觉</span><br>
+<span>视频先拆帧放大再合会去试了一下 感觉对视频源要求比较高 码率低的话运动画面拆帧后感觉会比较糊 不太适合用waifu2x 有点难受</span><br>
+<span>高码率拆帧后渲染感觉还可以</span><br>
+<span>就是太慢了 2分钟的画面不算拆帧合并的时间 720p单跑waifu2x跑了1个小时(显卡是1060) 差不多1秒1帧?</span><br>
+<span>不知道这个适合用什么显卡跑?</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915803[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>除了Locust和Jmeter，有什么比较好的性能测试的“框架”吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>除了Locust和Jmeter，有什么比较好的性能测试的“框架”吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:55:39 +0000</lastBuildDate>
+    <item>
+      <title>除了Locust和Jmeter，有什么比较好的性能测试的“框架”吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857227-1-1.html</link>
+      <description>除了Locust和Jmeter，有什么比较好的性能测试的“框架”吗？&#13;
+       被上头派了性能测试的活，不想用Jmeter是我觉得用GUI控制逻辑和Assert不如我直接手写来的方便，于是我同事建议我用Locust，但是Locust Debug不方便，运行要直接用locust命令而不能用Pycharm提供的Debug工具，我倒是谷歌到一个但是只能Run没法Debug，出了问题只能看log。所有有什么Debug方便的性能测试框架吗？可以在IDE里像自己写代码那样一步一步看参数。</description>
+      <content:encoded><![CDATA[<p><b>义亦死吾亦死: </b><br>
+<span>除了Locust和Jmeter，有什么比较好的性能测试的“框架”吗？</span><br>
+<span>       被上头派了性能测试的活，不想用Jmeter是我觉得用GUI控制逻辑和Assert不如我直接手写来的方便，于是我同事建议我用Locust，但是Locust Debug不方便，运行要直接用locust命令而不能用Pycharm提供的Debug工具，我倒是谷歌到一个但是只能Run没法Debug，出了问题只能看log。所有有什么Debug方便的性能测试框架吗？可以在IDE里像自己写代码那样一步一步看参数。</span><br>
+</p><p><b>char1st: </b><br>
+<span>jmeter也可以手写啊</span><br>
+</p><p><b>攻心为上木之本: </b><br>
+<span>gatling啊</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>char1st 发表于 2019-10-1 13:30</span><br>
+<span>jmeter也可以手写啊</span><br>
+<span>BeanShell？那个还是要在JmeterUI里面写吧？</span><br>
+</p><p><b>frosta: </b><br>
+<span>jmeter是可以手动写，不过难度有点大…</span><br>
+<span>以前用过一个k6，还挺方便的，用js</span><br>
+<span>而且不知道为啥k6测出来的throughput比jmeter高</span><br>
+<span>— from samsung SM-G975U, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>我是囧人: </b><br>
+<span>用jmeter的命令行不就行了么。。。。</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>我是囧人 发表于 2019-10-2 09:48</span><br>
+<span>用jmeter的命令行不就行了么。。。。</span><br>
+<span>用IDE主要还是为了Debug方便....</span><br>
+</p><p><b>原装大小姐: </b><br>
+<span>jmeter用java手写，以jar形式，命令行调用。locust就是调试不太好弄，其他的不用考虑了，我个人建议locust</span><br>
+<span>— from HUAWEI LYA-AL00, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>lvcha: </b><br>
+<span>性能测试?</span><br>
+<span>当然是 loadrunner</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>lvcha 发表于 2019-10-2 19:43</span><br>
+<span>性能测试?</span><br>
+<span>当然是 loadrunner</span><br>
+<span>我司要是有钱上LR，就不集体淘汰C#了</span><br>
+</p><p><b>lvcha: </b><br>
+<span>义亦死吾亦死 发表于 2019-10-2 19:45</span><br>
+<span>我司要是有钱上LR，就不集体淘汰C#了</span><br>
+<span>那自己写一个专用的好了。不算很麻烦。</span><br>
+</p><p><b>traburiss: </b><br>
+<span>义亦死吾亦死 发表于 2019-10-2 19:45</span><br>
+<span>我司要是有钱上LR，就不集体淘汰C#了</span><br>
+<span>loadrunner破解版，这软件好像没人查~</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span> 本帖最后由 义亦死吾亦死 于 2019-10-2 21:14 编辑 </span><br>
+<span>traburiss 发表于 2019-10-2 20:53</span><br>
+<span>loadrunner破解版，这软件好像没人查~</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2. ...</span><br>
+<span>我司严禁使用破解版软件，毕竟是美国带企业，还千方百计砍headcount，出了事混不过去的，今年已经因为这种事开了好几个了。</span><br>
+</p><p><b>cixa: </b><br>
+<span>性能测试一般自己写啦 python + greenlet简单的飞起</span><br>
+</p><p><b>jctc: </b><br>
+<span>你又要性能又要debug</span><br>
+<span>难道你用的是傻逼Python?</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span> 本帖最后由 义亦死吾亦死 于 2019-10-3 09:51 编辑 </span><br>
+<span>jctc 发表于 2019-10-3 09:25</span><br>
+<span>你又要性能又要debug</span><br>
+<span>难道你用的是傻逼Python?</span><br>
+<span>不然呢？难道找2000个二五仔一起点点点吗？Python在测试届火的压啤，不学还能怎么办。</span><br>
+<span>顺便我是测试别人写的接口，如果写的人愿意自己做性能就再好不过了。</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>cixa 发表于 2019-10-3 09:09</span><br>
+<span>性能测试一般自己写啦 python + greenlet简单的飞起</span><br>
+<span>Greenlet好像是PY2的东西？</span><br>
+<span>Py3自带多线程好像。</span><br>
+</p><p><b>cixa: </b><br>
+<span>义亦死吾亦死 发表于 2019-10-3 11:16</span><br>
+<span>Greenlet好像是PY2的东西？</span><br>
+<span>Py3自带多线程好像。</span><br>
+<span>一个框架来的 多线程没用的 切换开销太大 压测这种重io的场景要用协程</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857227[0-50]</guid>
+    </item>
+  </channel>
+</rss>

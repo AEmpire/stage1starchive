@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>装机求推荐剪辑视频为主</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>装机求推荐剪辑视频为主</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:25:08 +0000</lastBuildDate>
+    <item>
+      <title>装机求推荐剪辑视频为主[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912129-1-1.html</link>
+      <description>装机求推荐剪辑视频为主&#13;
+买来准备用来修照片做视频。想要轻松预览渲染4k素材。一窍不通小白死硬文科生。目前想法
+
+cpu：3700x
+
+主板：微星x570 carbon wifi（这个真看不懂，就选了个感觉以后还能用的，还是求大家推荐，迫击炮max要是也满足也行，反正都没有type c）
+
+内存：16gx2 （3200，目前在看海盗船和金士顿）
+
+显卡：1660 ti （求推荐）
+
+电源：（求推荐）
+
+机箱：恩杰h510i
+
+ssd：海康c2000 pro 1t
+
+硬盘：西数红盘 4t
+
+散热：（求推荐，如果不需要升级我就用附赠的）
+
+显示器：（非常需要推荐，目前用的笔记本被奸商换了尿频，每次调都过饱和。屏幕尺寸尽量27-32）
+
+总体预算14k吧。。。</description>
+      <content:encoded><![CDATA[<p><b>来兹05: </b><br>
+<span>思来想去，最终配置定在：</span><br>
+<span>cpu：3900x（可以用好几年）</span><br>
+<span>主板：华硕 prime x570（b450的好像都没有type c，今晚12点有秒杀）</span><br>
+<span>显卡：七彩虹2060s special oc（感觉多一个typec口比较爽）</span><br>
+<span>ssd：西数蓝色sn550 1t</span><br>
+<span>机械：东芝 3t（存储）</span><br>
+<span>电源：海韵金牌 650w</span><br>
+<span>目前还需要大家推荐点靠谱的内存，机箱（希望能够耳机麦克风分开，带有前置typec接口 不用太张扬）。上述搭配要是可以优化，还请大家告知。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-7 21:20 编辑 </span><br>
+<span>hein 发表于 2020-2-4 09:53</span><br>
+<span>不少人会推荐你用AMD yes，如果你用adobe产品可以考虑outel</span><br>
+<span>无论什么cpu显卡用n卡中端已经足够了</span><br>
+<span>使用PR时 ...</span><br>
+<span>你上次开文提到的机器性能过时了而已</span><br>
+<span>现在的AMD多核都是实时随便挪时间线</span><br>
+<span>根本不需要什么集显加速比其反应还快</span><br>
+<span>上次我说三玖舞凛你还没看懂是3950x吗</span><br>
+<span>另外硬件编码不靠谱，不管quicksync还是NvEnc都是画面都差不少意思，</span><br>
+<span>CPU堆核王道，渲染剪视频最浪费时间的是最后编码输出。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-7 21:28 编辑 </span><br>
+<span>压片的问题我再帖一次</span><br>
+<span>简单科普楼主理解下就行</span><br>
+<span>打个比方就是，给了一堆题，intel比较擅长作了一堆题后，总结一堆式子套路见到面就给答案(指令集)</span><br>
+<span>而黄老板擅长的是教一堆小弟帮忙快速答题(cuda核心数量)，可能比喻有点差距但差不多就这个意思</span><br>
+<span>当然各家其实这些都会</span><br>
+<span>只不过更突出的点不一样</span><br>
+<span>视频压制其实是一种数据压缩，其实是像winrar 7zip那样拼压缩算法</span><br>
+<span>包括看片在内，和游戏的画面输出是不一回事的</span><br>
+<span>它们只是一堆数据，最终还是可定向大致范围的。</span><br>
+<span>最多干的是预测色块的向量移动、类似范围盖缩、渐变预测、帧间预测，等等如何省，而GPU不擅长干这些</span><br>
+<span>所以目前压视频还是CPU的主力干活  而游戏的数据出图像是不定的但矢量算起来简单所以是GPU干活容易</span><br>
+<span>压片gpu最多加速，你要它干多好没什么意思</span><br>
+<span>不求质量或体积的话，GPU肯定优势的</span><br>
+<span>你去跑一遍cinebench看如何出效果图就懂</span><br>
+<span>逼乎上来的图和类似解释</span><br>
+<img src="http://wx2.sinaimg.cn/large/6ffd6cbcly1fssk9tdg2xj20c809bq3h.jpg" title="http://wx2.sinaimg.cn/large/6ffd6cbcly1fssk9tdg2xj20c809bq3h.jpg"><br>
+<span>CPU:</span><br>
+<span>[1 1 1 1      [1 1 1 1</span><br>
+<span> 1 1 1 1    +    1 1 1 1 </span><br>
+<span> 1 1 1 1]      1 1 1 1] </span><br>
+<span>=[] < 1+1,  < 1+1,  < 1+1 ...</span><br>
+<span>O(12) 算12次时脉</span><br>
+<img src="http://wx1.sinaimg.cn/large/6ffd6cbcly1fssk9ye2zqj20ac0ak74i.jpg" title="http://wx1.sinaimg.cn/large/6ffd6cbcly1fssk9ye2zqj20ac0ak74i.jpg"><br>
+<span>GPU:</span><br>
+<span>[1 1 1 1      [1 1 1 1       </span><br>
+<span> 1 1 1 1    +    1 1 1 1   </span><br>
+<span> 1 1 1 1]      1 1 1 1]       </span><br>
+<span>    [1+1, 1+1, 1+1, 1+1</span><br>
+<span> =   1+1, 1+1, 1+1, 1+1</span><br>
+<span>   1+1, 1+1, 1+1, 1+1]</span><br>
+<span>O(1) 算一次时脉</span><br>
+<span>你可以理解为直接扣模具</span><br>
+<span>一个面盖上去和单线操作</span><br>
+<span>游戏图形不含物理碰撞部分或神经网络里主要是矩阵乘法之类基础，属于小学生级别</span><br>
+<span>你一个博士生可以算很复杂的逻辑运算，但简单的四则运算肯定干不过一群小学生的速度</span><br>
+</p><p><b>PENTAX-DA: </b><br>
+<span>总觉得现在的x570非pc玩家不值得购买，太贵了</span><br>
+<span>迟迟不出b550太坏了，不超频先用着几百块的450等降价或者550也好</span><br>
+<span>就怕550出来也是个不靠谱的价格</span><br>
+</p><p><b>韦伯: </b><br>
+<span>预算一万四？</span><br>
+<span>3950走起</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-3-8 13:42 编辑 </span><br>
+<span>天神十三煞 发表于 2020-3-8 13:12</span><br>
+<span>你上次开文提到的机器性能过时了而已</span><br>
+<span>现在的AMD多核都是实时随便挪时间线</span><br>
+<span>根本不需要什么集显加速比其反应 ...</span><br>
+<span>单位的64核机器Pr卡出屎，而且8核工作56核围观</span><br>
+<span>其实要多核高频</span><br>
+</p><p><b>ayaseyue: </b><br>
+<span> 本帖最后由 ayaseyue 于 2020-3-8 14:18 编辑 </span><br>
+<span>hein 发表于 2020-3-8 13:36</span><br>
+<span>单位的64核机器Pr卡出屎，而且8核工作56核围观</span><br>
+<span>其实要多核高频</span><br>
+<span>旧的xeon主频和IPC都差了不少所以拖拽就不行</span><br>
+<span>根据Puget Systems评测PR截止2019年六月版本好像12核可以占用到98%，</span><br>
+<span>再多核的话提升度变小，当然也有其他类似软件多核利用率更高点的，</span><br>
+<span>介于为了编码时不那么卡，我建议楼主买个3950再多个4核为了未来更新备用也不错</span><br>
+<span>更新一下新版的，2020年版本貌似平均分最高的是32核，不过如果按目前CPU市场性价比值算，购买AMD大约12核或16核最合适</span><br>
+<span>64核貌似当时评测如spec一样还没更新支持，又或是系统问题，又或者内存效率问题好多结果不如32核的</span><br>
+<span>https://www.pugetsystems.com/pic_disp.php?id=59564</span><br>
+<span>https://www.pugetsystems.com/pic_disp.php?id=59567</span><br>
+</p><p><b>来兹05: </b><br>
+<span>ayaseyue 发表于 2020-3-8 14:00</span><br>
+<span>旧的xeon主频和IPC都差了不少所以拖拽就不行</span><br>
+<span>根据Puget Systems评测PR截止2019年六月版本好像12核可以 ...</span><br>
+<span>感谢赐教。其实3900x我都不见的用得上，只是想用几年不掉队而已。我其实没有特别大的复杂渲染需求，但是做的视频巨长无比，接下来还想剪剪4k。剪辑软件准备达芬奇，听人说达芬奇对显卡要求高，才把之前的1660s提到2060s。</span><br>
+<span>您的话提振了我的信心，我就先这么amd yes了。3950有点太贵了。。。上不去。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>来兹05: </b><br>
+<span>PENTAX-DA 发表于 2020-3-8 13:25</span><br>
+<span>总觉得现在的x570非pc玩家不值得购买，太贵了</span><br>
+<span>迟迟不出b550太坏了，不超频先用着几百块的450等降价或者550 ...</span><br>
+<span>主要是x570都带个type c，b450大部分不带，带的感觉性价比不太行。而且华硕这个看上去比较好看。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>听说PR输出时，独立显卡的效率还不如INTEL核显</span><br>
+</p><p><b>jestime: </b><br>
+<span>来兹05 发表于 2020-3-8 16:20</span><br>
+<span>主要是x570都带个type c，b450大部分不带，带的感觉性价比不太行。而且华硕这个看上去比较好看。</span><br>
+<span> ...</span><br>
+<span>b450迫击炮都带啊</span><br>
+<span>x570华硕推荐tuf比较好</span><br>
+</p><p><b>来兹05: </b><br>
+<span>jestime 发表于 2020-3-8 17:20</span><br>
+<span>b450迫击炮都带啊</span><br>
+<span>x570华硕推荐tuf比较好</span><br>
+<span>确实考虑了tuf，还不用买网卡。但好像前置没有接口type c。所以给否了。我再考虑一下。</span><br>
+<span>b450也可能会重新提上日程。主板这东西，估计坏的最快。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>来兹05: </b><br>
+<span>superchenxx01 发表于 2020-3-8 17:00</span><br>
+<span>听说PR输出时，独立显卡的效率还不如INTEL核显</span><br>
+<span>前面也有人说了没有核显pr完蛋。我是有弄个intel卡的想法来着，但3900x感觉前途光明量大管饱，准备绕过pr，改用达芬奇了。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-3-8 18:23 编辑 </span><br>
+<span>来兹05 发表于 2020-3-8 17:38</span><br>
+<span>前面也有人说了没有核显pr完蛋。我是有弄个intel卡的想法来着，但3900x感觉前途光明量大管饱，准备绕过pr ...</span><br>
+<span>不不不，我不是说没intel核显就卡，而是说，有intel核显更快（都是intel CPU之间的比较）</span><br>
+<span>我没有AMD CPU，所以不知道，但是有人说了，AMD CPU硬算也比intel yes，而且Pr多核也是频率高好（对比iMac pro的十八核 Xeon和dell工作站64核Xeon），所以AMD yes没错的</span><br>
+<span>当然，我用过达芬奇15剪片子，我的体验是，同样的配置，比pr卡卡卡</span><br>
+</p><p><b>来兹05: </b><br>
+<span>hein 发表于 2020-3-8 18:17</span><br>
+<span>不不不，我不是说没intel核显就卡，而是说，有intel核显更快（都是intel CPU之间的比较）</span><br>
+<span>我没有AMD CPU ...</span><br>
+<span>兄台一直在楼里讨论，实在是谢谢了！目前配置暂定如此，也许还会活动心思。目前只下单了电源。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>jestime: </b><br>
+<span>我老婆的电脑升级了傻逼pr2020老提示3770k的驱动不支持，下了他推荐的驱动win10又装不了，怒换amdyes</span><br>
+<span>前置typec其实也没那么必要，我都是后面拉一根出来插手机什么的也方便</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>达芬奇16剪片子比pr快多了</span><br>
+<span>巨爽</span><br>
+<span>用了一周学习基本操作 从此放弃pr</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>来兹05: </b><br>
+<span>SimonOpera 发表于 2020-3-10 01:25</span><br>
+<span>达芬奇16剪片子比pr快多了</span><br>
+<span>巨爽</span><br>
+<span>用了一周学习基本操作 从此放弃pr</span><br>
+<span>朋友什么配置？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>jestime: </b><br>
+<span>外国佬给的4k基础剪辑配置，3600+16g+1650就够了</span><br>
+<span>妈的现在内存价格快要翻倍了</span><br>
+</p><p><b>拜拜: </b><br>
+<span>九耳 发表于 2020-02-04 18:40:13</span><br>
+<span>4K也分很多种。普通民用3600也够用，3700X已经很可以了。3900X完全没必要。</span><br>
+<span>根据我自己使用经验，纯剪辑的 ...现在电源什么牌子好</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>来兹05: </b><br>
+<span>拜拜 发表于 2020-3-10 12:46</span><br>
+<span>现在电源什么牌子好</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+<span>我直接买了海韵。。。鬼，听说好。。。贵。。。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>来兹05 发表于 2020-3-10 07:21</span><br>
+<span>朋友什么配置？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>原来电脑i7 3770 显卡1070 用pr剪4k卡到没法操作 不用代理根本不行</span><br>
+<span>换了达芬奇 同样配置没任何问题</span><br>
+<span>现在升级了amd 3600 更好用了</span><br>
+<span>达芬奇吃显卡 回头可以看看 不过一般游戏卡就差不多了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>来兹05: </b><br>
+<span>SimonOpera 发表于 2020-3-10 14:22</span><br>
+<span>原来电脑i7 3770 显卡1070 用pr剪4k卡到没法操作 不用代理根本不行</span><br>
+<span>换了达芬奇 同样配置没任何问题</span><br>
+<span>现在 ...</span><br>
+<span>谢谢！</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>来兹05: </b><br>
+<span>jestime 发表于 2020-3-10 09:19</span><br>
+<span>外国佬给的4k基础剪辑配置，3600+16g+1650就够了</span><br>
+<span>妈的现在内存价格快要翻倍了 ...</span><br>
+<span>最终决定了，性能超溢出的方案。。。希望这台机器能够战5年未来。。。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912129[50-100]</guid>
+    </item>
+    <item>
+      <title>装机求推荐剪辑视频为主[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912129-1-1.html</link>
+      <description>装机求推荐剪辑视频为主&#13;
+买来准备用来修照片做视频。想要轻松预览渲染4k素材。一窍不通小白死硬文科生。目前想法
+
+cpu：3700x
+
+主板：微星x570 carbon wifi（这个真看不懂，就选了个感觉以后还能用的，还是求大家推荐，迫击炮max要是也满足也行，反正都没有type c）
+
+内存：16gx2 （3200，目前在看海盗船和金士顿）
+
+显卡：1660 ti （求推荐）
+
+电源：（求推荐）
+
+机箱：恩杰h510i
+
+ssd：海康c2000 pro 1t
+
+硬盘：西数红盘 4t
+
+散热：（求推荐，如果不需要升级我就用附赠的）
+
+显示器：（非常需要推荐，目前用的笔记本被奸商换了尿频，每次调都过饱和。屏幕尺寸尽量27-32）
+
+总体预算14k吧。。。</description>
+      <content:encoded><![CDATA[<p><b>来兹05: </b><br>
+<span>装机求推荐剪辑视频为主</span><br>
+<span>买来准备用来修照片做视频。想要轻松预览渲染4k素材。一窍不通小白死硬文科生。目前想法</span><br>
+<span>cpu：3700x</span><br>
+<span>主板：微星x570 carbon wifi（这个真看不懂，就选了个感觉以后还能用的，还是求大家推荐，迫击炮max要是也满足也行，反正都没有type c）</span><br>
+<span>内存：16gx2 （3200，目前在看海盗船和金士顿）</span><br>
+<span>显卡：1660 ti （求推荐）</span><br>
+<span>电源：（求推荐）</span><br>
+<span>机箱：恩杰h510i</span><br>
+<span>ssd：海康c2000 pro 1t</span><br>
+<span>硬盘：西数红盘 4t</span><br>
+<span>散热：（求推荐，如果不需要升级我就用附赠的）</span><br>
+<span>显示器：（非常需要推荐，目前用的笔记本被奸商换了尿频，每次调都过饱和。屏幕尺寸尽量27-32）</span><br>
+<span>总体预算14k吧。。。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>主板要typec可以选华硕、七彩虹</span><br>
+<span>显卡上三风扇的就行，有名的牌子哪个都差不多</span><br>
+<span>电源可以选振华、海韵、全汉。750W左右的</span><br>
+<span>散热一定要换一个</span><br>
+<span>显示器选ips的，色彩好一些。具体的只有自己看一看了</span><br>
+<span>______</span><br>
+<span>预算弄下来之后如果有余钱，可以升级CPU或显卡</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>1万4你随便配都能剪4k。我1066 i58700都能直接剪4k50p的素材。</span><br>
+<span>显示器挑半天不如买个红蜘蛛，随时较色</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>騜: </b><br>
+<span>主板 ASUS TUF GAMING X570-PLUS（WI-FI） </span><br>
+<span>内存 32剪4K怕你后面不够 一步到位4*16算了 阿斯加德和镁光海盗船辣鸡金士顿现在贵了</span><br>
+<span>显卡 看打不打游戏和预算剩下多少最低1650super 最高不设上限，记得买带super的就行了</span><br>
+<span>电源 安钛克HCG650W/750W金牌 请记得一定在JD买 只是活动价不一定能蹲到</span><br>
+<span>散热 利民AS120P TS120P FS140 水冷就利民EYE240</span><br>
+<span>显示器 明基 PD2700U</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2020-2-4 11:26 编辑 </span><br>
+<span>硬盘要够大，干活用的SSD越大越好。如果全是4K的素材，4T硬盘估计要哭；内存16G起步，阿逗比全家桶没有节操；CPU这块，AMD是核多比较便宜的选择，3700X自带风扇你不怕噪音的话可以用，干活不要上水冷；显卡对剪辑机来说就是添头，不是重点；显示器这论坛里自己搜一下，LG一面板大雷，典型如戴尔U2718Q </span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1905913</span><br>
+<span>   https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1906968</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>两个路人 发表于 2020-2-4 11:21</span><br>
+<span>硬盘要够大，干活用的SSD越大越好。如果全是4K的素材，4T硬盘估计要哭；内存16G起步，阿逗比全家桶没有节操 ...</span><br>
+<span>显卡对预览可不是添头</span><br>
+</p><p><b>leica: </b><br>
+<span>显卡在视频剪辑方面好像真不怎么重要。除非你带特效。。。。。。。。。。。。。。。</span><br>
+</p><p><b>ArtoriaPendrago: </b><br>
+<span>显卡可以省点，屏幕和硬盘要拉满</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>屏幕上UP2516D这种</span><br>
+</p><p><b>natt: </b><br>
+<span>你需要一个支持硬件校色的显示器，如明基270c</span><br>
+<span>然後，上3900x以上的处理器</span><br>
+<span>内存64最好</span><br>
+<span>显卡可以千把块的</span><br>
+<span>— from Xiaomi MI 6, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>牙晓: </b><br>
+<span>阿斯加德的那个16g内存便宜很多，还有终身质保，不过用起来有翻车的吗？我也是剪辑视频用，不过暂时的要求是剪辑1080的，今天先下单了3600套装。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>一万四预算，怎么也买个3100的3900x或者5300的3950x，3700太垃圾了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>马台街48: </b><br>
+<span>gopro跟微单那种尿尿一样的码流的4k   5000块钱的电脑也能剪辑</span><br>
+<span>所以剪4k是一个伪命题</span><br>
+</p><p><b>九耳: </b><br>
+<span>4K也分很多种。普通民用3600也够用，3700X已经很可以了。3900X完全没必要。</span><br>
+<span>根据我自己使用经验，纯剪辑的话，4K视频32G足够，64G富余。可以先买16G*2，以后不够再加。</span><br>
+<span>及时回看的话，1660s足以。我手头有970，1060，1080，1660s，2060.体验下来，就微单拍的4K而言，体验差距没那么大，但是你要求写的是“轻松预览渲染4k素材”，那可能就2060或者2070走起。</span><br>
+<span>就实际使用而言，我1660s的那台电脑体验良好，你酌情（预算）考虑。</span><br>
+<span>散热器方面，如果是3600和3700的话，利民AS120足够压了。觉得不够用买个大霜塔也足足够了。毕竟你做内容的，总不至于超频吧？</span><br>
+<span>固态推荐用两块。系统和缓存、工程放一块。素材放一块。体验提升明显。</span><br>
+<span>电源要用好的，贵个500完全能接受，毕竟差电源是硬盘杀手。数据无价！！！我见过N个人坏了一块又一块硬盘最后怪硬盘不行的。其实是电源的锅。</span><br>
+<span>降下来的钱买个好显示器比什么都强</span><br>
+</p><p><b>来兹05: </b><br>
+<span>九耳 发表于 2020-2-4 18:40</span><br>
+<span>4K也分很多种。普通民用3600也够用，3700X已经很可以了。3900X完全没必要。</span><br>
+<span>根据我自己使用经验，纯剪辑的 ...</span><br>
+<span>我也是这个思路。您看多少瓦的电源合适？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>来兹05: </b><br>
+<span>马台街48 发表于 2020-2-4 18:12</span><br>
+<span>gopro跟微单那种尿尿一样的码流的4k   5000块钱的电脑也能剪辑</span><br>
+<span>所以剪4k是一个伪命题 ...</span><br>
+<span>我用的是xt3，目前50m码率的1080p，半个小时已经10g＋了。。。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>来兹05: </b><br>
+<span>sblnrrk 发表于 2020-2-4 17:04</span><br>
+<span>一万四预算，怎么也买个3100的3900x或者5300的3950x，3700太垃圾了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 1 ...</span><br>
+<span>感觉还不需要那么高端。没啥特效。就是希望预览流畅点，渲染快点，少崩溃点。想把钱花在显示器上。目前的尿屏，每次都过饱和。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>来兹05: </b><br>
+<span>natt 发表于 2020-2-4 16:06</span><br>
+<span>你需要一个支持硬件校色的显示器，如明基270c</span><br>
+<span>然後，上3900x以上的处理器</span><br>
+<span>内存64最好</span><br>
+<span>感觉上不到那么高的配置。屏幕我研究一下。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>九耳: </b><br>
+<span>来兹05 发表于 2020-2-4 19:13</span><br>
+<span>我也是这个思路。您看多少瓦的电源合适？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2. ...</span><br>
+<span>就3700+1660s，你500W足够，不过考虑到你以后可能万一要升级，买个600W的好电源也可以的。。。</span><br>
+</p><p><b>马台街48: </b><br>
+<span>来兹05 发表于 2020-2-4 19:14</span><br>
+<span>我用的是xt3，目前50m码率的1080p，半个小时已经10g＋了。。。</span><br>
+<span>这还不够小么</span><br>
+</p><p><b>来兹05: </b><br>
+<span>马台街48 发表于 2020-2-4 20:47</span><br>
+<span>这还不够小么</span><br>
+<span>主要是后面的不敢想了。。。我也不上录机，估计也就能用到h265的10bit机内了。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2020-2-4 23:06 编辑 </span><br>
+<span>照这个改改就行了。。。</span><br>
+<span>【官方双语】廉价4K视频工作站(赞助视频)#linus谈科技</span><br>
+<span>https://www.bilibili.com/video/av74048602</span><br>
+<span>固态推荐稳定点的主流大厂，比如sn550的1T，甚至sn750黑盘。</span><br>
+<span>硬盘建议买个大的，速度快的。。</span><br>
+<span>10T日立。。https://item.taobao.com/item.htm?id=44640910870</span><br>
+<span>温度比较高，机箱一定要有个风扇位吹这个盘。</span><br>
+<span>主板b450m迫击炮max就行了</span><br>
+<span>内存2666的英睿达或者科赋。基本都能无脑超3200。海盗船或者金士顿的3200套，体制都很差的，在amd上一般只能2933或者3000，到不了3200</span><br>
+<span>显示器推荐 ：aoc 27寸4k带出厂校色，delta E<2</span><br>
+<span>https://item.jd.com/100001071956.html</span><br>
+<span>飞利浦27寸4k，这个带不带出厂校色不知道，</span><br>
+<span>但是飞利浦送2根线，1根hdmi，1根dp。。。</span><br>
+<span>https://item.jd.com/100010373850.html</span><br>
+<span>如果还是不放心，调调显示器设置，淘宝租个校色仪弄一下。</span><br>
+<span>这个搞2台。视频编辑起步2台。。。</span><br>
+<span>显卡1660ti/1660super微星最便宜的就行。</span><br>
+<span>cpu散热利民as120p</span><br>
+<span>https://item.jd.com/100006880794.html</span><br>
+<span>或者利民ts120p</span><br>
+<span>https://item.jd.com/100010827182.html</span><br>
+<span>电源振华g550或者买个g750一步到位，传家宝。。</span><br>
+<span>https://item.jd.com/1013787.html</span><br>
+<span>机箱别搞那么贵。。。</span><br>
+<span>先马平头哥就行了。记得买几个先马风扇。</span><br>
+<span>https://item.jd.com/100002704106.html</span><br>
+</p><p><b>qianheng: </b><br>
+<span>显示器 dell u2719d 加钱的话up2716d</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>剪辑好像比较吃内存？</span><br>
+<span>真香条32G直接来两根？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>你的需求就是多核高频CPU、大内存和大容量SSD，显卡中等偏上就行</span><br>
+</p><p><b>hein: </b><br>
+<span>不少人会推荐你用AMD yes，如果你用adobe产品可以考虑outel</span><br>
+<span>无论什么cpu显卡用n卡中端已经足够了</span><br>
+<span>使用PR时，如果有outel核显，软件会先吃核显，而不吃满n卡，n卡在你输出渲染时候更有用。你选AMD的话编辑的时候就直接吃n卡了。</span><br>
+<span>Pr最早的硬件加速叫启用intel加速解码，就算2019下intel核显加速效果也是一流的，特别是h264/HEVC素材的时候。2020我么用过。</span><br>
+<span>你如果看网上测评，很多都是渲染速度对比，但是没有实时编辑对比。而且你一般也不会用AMD CPU去编码，还是跑的N卡。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>来兹05 发表于 2020-2-4 19:16</span><br>
+<span>感觉还不需要那么高端。没啥特效。就是希望预览流畅点，渲染快点，少崩溃点。想把钱花在显示器上。目前的 ...</span><br>
+<span>无论如何，2000的3700x和3100的3900x，3700在你预算下不值得购买</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>寸头: </b><br>
+<span>hein 发表于 2020-02-05 01:53:02</span><br>
+<span>不少人会推荐你用AMD yes，如果你用adobe产品可以考虑outel</span><br>
+<span>无论什么cpu显卡用n卡中端已经足够了</span><br>
+<span>使用PR时 ...这个实时速度好像和主频有关系，和核显没啥关系吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>P-link: </b><br>
+<span>白嫖王出过视频，可以参考</span><br>
+<span>廉价4K工作站</span><br>
+<span>https://b23.tv/av74048602</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-2-5 15:41 编辑 </span><br>
+<span>寸头 发表于 2020-2-5 08:19</span><br>
+<span>这个实时速度好像和主频有关系，和核显没啥关系吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端 ...</span><br>
+<span>有关，你自己开开一根时间线，多放点大码率的素材做点变速和缩放堆在一起，然后用完整模式播放时间线，查看win10资源占用看CPU，gpu0和gpu1的占用，再去bios关了核显对比看看。</span><br>
+<span>能有明显区别。</span><br>
+<span>开核显，核显占用最高，其次CPU其次独显，时间线回放是解码，CPU软解和核显硬解速度完全不一样。</span><br>
+</p><p><b>雪影: </b><br>
+<span>3900x已经3000了，不香么</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>shinjico: </b><br>
+<span>premiere 2020 依然只支持intel核显quicksync硬件编码，不支持NvEnc，很迷……</span><br>
+<span>达芬奇虽然支持Nvenc但是输出格式不够丰富</span><br>
+</p><p><b>hein: </b><br>
+<span>shinjico 发表于 2020-2-5 18:41</span><br>
+<span>premiere 2020 依然只支持intel核显quicksync硬件编码，不支持NvEnc，很迷……</span><br>
+<span>达芬奇虽然支持Nvenc但是输 ...</span><br>
+<span>看你一说，我去看了一下官网</span><br>
+<span>https://helpx.adobe.com/x-productkb/multi/gpu-acceleration-and-hardware-encoding.html</span><br>
+<span>英文不好，没看错得话，解码只能outel yes</span><br>
+<span>Hardware-accelerated Encoding/Decoding (Intel® Quick Sync)</span><br>
+<span>只有显示输出/render/encoding才用到n卡和a卡</span><br>
+<span>https://helpx.adobe.com/premiere-pro/system-requirements.html#gpu-acceleration</span><br>
+<span>----------------------------------------</span><br>
+<span>一直觉得大多数pr测评很外行，都是测渲染速度，没人测实时性能。</span><br>
+<span>渲染无脑CDUA就行了，怎么都比你AMD outel CPU傻算快。而且渲染输出再慢，也就等着玩手机罢了。</span><br>
+<span>实时性差才是最影响视频编辑进度的。</span><br>
+</p><p><b>melvin95: </b><br>
+<span>要多低的预算才剪不了4K</span><br>
+<span>AMD3500U的农药本和小新都能剪</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>shinjico: </b><br>
+<span> 本帖最后由 shinjico 于 2020-2-5 19:27 编辑 </span><br>
+<span>hein 发表于 2020-2-5 19:01</span><br>
+<span>看你一说，我去看了一下官网</span><br>
+<span>https://helpx.adobe.com/x-productkb/multi/gpu-acceleration-and-hardware ...</span><br>
+<span>预览解码加速，支持N卡CUDA加速，支持A卡和intel核显的OpenCL加速</span><br>
+<span>硬件编码输出，Pr目前仅支持Intel Quick Sync，这个对笔记本比较重要，尤其是轻薄本的U软压太慢了。</span><br>
+<span>可以观察一下硬件编码输出时候的GPU占用率，GPU0的intel核显是占满的，我GTX1070占用很低。</span><br>
+<span>如果硬件编码输出的时候进行了分辨率缩放，那么N卡负责硬件渲染缩放，会有10%左右的占用率。</span><br>
+<span>实际上intel的UHD630编码性能远不及N卡，我用1070跑1080p的HEVC HQ速度可以达到270fps</span><br>
+<span>2070帕斯卡的引擎还要更快，质量更高，Pr可以装个voukoder走NvEnc，但是不太稳定。</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-2-5 20:16 编辑 </span><br>
+<span>shinjico 发表于 2020-2-5 19:23</span><br>
+<span>预览解码加速，支持N卡CUDA加速，支持A卡和intel核显的OpenCL加速</span><br>
+<span>硬件编码输出，Pr目前仅支持Intel Quick ...</span><br>
+<span>我看这网页上写，预览的加速是独显输出画面，解码加速只能outel</span><br>
+<span>Hardware-accelerated Encoding/Decoding (Intel® Quick Sync)</span><br>
+<span>这个就是首选项里面的启用硬件加速吧</span><br>
+<span>-------------------------</span><br>
+<span>编码用media encoder，直接选CDUA/opencl，就占用n卡A卡了，用outel太慢</span><br>
+<span>同样4G显存的k4000编码把4G的580吊起来。</span><br>
+<span>一般我编码完全不用h264或者HEVC，直接Prore、HDCAM或者DNxHR之类的。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>hein 发表于 2020-2-5 20:10</span><br>
+<span>我看这网页上写，预览的加速是独显输出画面，解码加速只能outel</span><br>
+<span>Hardware-accelerated Encoding/Decoding...</span><br>
+<span>图灵的nvenc编码效率极高</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>hein: </b><br>
+<span>sblnrrk 发表于 2020-2-5 21:07</span><br>
+<span>图灵的nvenc编码效率极高</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>编码我知道，我其实更在意时间线上实时解码</span><br>
+<span>比如我的imac pro，只要是dji的4k航拍文件（非prores编码的）单轨不做特技都无法实时播放的，因为没核显。</span><br>
+<span>但是破pc的8系i7有核显，就能做到基本实时流畅播放。</span><br>
+</p><p><b>寸头: </b><br>
+<span>hein 发表于 2020-02-05 19:01:54</span><br>
+<span>看你一说，我去看了一下官网</span><br>
+<span>----------------------------------------</span><br>
+<span>一直觉得大多数pr测评很外行， ...谢谢，受教了。本想换9900kf，现在看来还是老老实实9900k吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>寸头: </b><br>
+<span>shinjico 发表于 2020-02-05 19:23:29</span><br>
+<span>预览解码加速，支持N卡CUDA加速，支持A卡和intel核显的OpenCL加速</span><br>
+<span>硬件编码输出，Pr目前仅支持Intel Qui ...您所说的这个解码预览和楼上提到的实时解码是一个东西么？我看楼上说这个更依靠核显。最近在9900kf和9900k犹豫不决</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-2-6 14:15 编辑 </span><br>
+<span>寸头 发表于 2020-2-6 00:22</span><br>
+<span>您所说的这个解码预览和楼上提到的实时解码是一个东西么？我看楼上说这个更依靠核显。最近在9900kf和9900k ...</span><br>
+<span>你看我贴的那个adobe官网链接，我英文不好，你自己可以细细阅读一下。我说我阅读下来的理解配合以往测试实践的经验，认为是：素材读取的硬件解码只能outel的加速，解码后实时合成、显示画面是靠独立显卡，当你遇到timeline无法实时预览，你就需要rander后预览，这个时候也是可以CDUA或者OPENCL加速（这个设置在项目设置或者timeline设置里面），输出文件的时候一样可以不需要outel核显，走cdua或者opencl。</span><br>
+<span>我还贴了另外一个链接是说Adobe的gpu水银加速的，里面没有提到任何关于decode的内容，完全是encode相关，所以我觉得水银加速里面的所有支持的显卡，均不会参与decode的事情。唯一提到decode，只有首选项里面的启用硬件加速，也就是outel的加速。</span><br>
+<span>现在没有人去测试amd CPU在decode上的性能以及Adobe是不是支持amd的硬件解码，我是很想知道的。我也想amd yes的。而且现在解码其实一般情况CPU性能是够的，所以我也想看看这方面的测试。</span><br>
+</p><p><b>shinjico: </b><br>
+<span> 本帖最后由 shinjico 于 2020-2-8 13:04 编辑 </span><br>
+<span>你想多了，adobe的意思是解码可以用N卡也可以用核显。你选了CUDA水银加速，解码就是N卡。</span><br>
+<span>自己使用pr时候看看gpu占用率，你用了水银加速，播放预览素材的时候，核显gpu占用是0%</span><br>
+<span>目前PR就是不支持AMD的硬件编码，连NVEnc都不支持还想支持AMD？也不知道Adobe为何铁杆i粉。</span><br>
+</p><p><b>shinjico: </b><br>
+<span>想在PR下使用图灵的NVenc，可以考虑使用这个插件</span><br>
+<span>https://www.voukoder.org/</span><br>
+<span>分两部分，第一个是编码核心voucoder3，第二个是选择合适的连接器，有pr的，有ae的，有vegas，然后居然还有virtrualDub2</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-2-8 16:55 编辑 </span><br>
+<span>shinjico 发表于 2020-2-8 13:02</span><br>
+<span>你想多了，adobe的意思是解码可以用N卡也可以用核显。你选了CUDA水银加速，解码就是N卡。</span><br>
+<span>自己使用pr时候 ...</span><br>
+<span>那么为什么官网说明不写解码能用水银加速？而是写的编码和rander用的水银加速？我这里解码4K时候gpu0比cpu和gpu1高。可以到80%以上，当实时playback卡顿时能看到gpu0占满100%（4k h264或者HEVC素材）其他编码方式4K素材基本不会遇到实时播放卡顿。</span><br>
+</p><p><b>shinjico: </b><br>
+<span>试了一些H264的MP4文件，绝大多数是我的N卡在加速，此时UHD630占用是0%，但有个别文件拖动和回放的时候UHD630占用会飙升，具体什么原理还有待研究，理论上选了cuda引擎，肯定是N卡优先的。</span><br>
+</p><p><b>来兹05: </b><br>
+<span>大家都好懂！不知从哪楼开始我已经跟不上了。。。</span><br>
+<span>amd核心配合n卡的想法，看来用pr完蛋啊。</span><br>
+<span>我现在用的vegas13。就目前我所知道的，vegas实在太拼人品了。我身边升级的好多都报错。疫情好转真的装机时，看来应该转投达芬奇？</span><br>
+<span>另外，佩服楼上的老兄们。厉害！</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>jestime: </b><br>
+<span> 本帖最后由 jestime 于 2020-2-8 21:00 编辑 </span><br>
+<span>jd第三方3700x+x570 tuf明天有特价3099</span><br>
+<span>我也是au n卡没啥问题啊内存4根镁光3000 8g白色马甲一共32g够用了，1000块以内搞定</span><br>
+<span>顺便达芬奇好顶赞，我已经放弃pr了</span><br>
+</p><p><b>hein: </b><br>
+<span>来兹05 发表于 2020-2-8 20:33</span><br>
+<span>大家都好懂！不知从哪楼开始我已经跟不上了。。。</span><br>
+<span>amd核心配合n卡的想法，看来用pr完蛋啊。</span><br>
+<span>我现在用的vega ...</span><br>
+<span>你有n卡，有CDUA基本够了，amd只不过不能加速，现在amd cpu软解应该问题不大的，大家瓶颈其实都在某些特别的4K文件，比如一些DJI的航拍</span><br>
+</p><p><b>来兹05: </b><br>
+<span>hein 发表于 2020-2-8 21:01</span><br>
+<span>你有n卡，有CDUA基本够了，amd只不过不能加速，现在amd cpu软解应该问题不大的，大家瓶颈其实都在某些特 ...</span><br>
+<span>那我就用不上了。。。没有无人机。。。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>longooyue: </b><br>
+<span> 本帖最后由 longooyue 于 2020-2-9 17:34 编辑 </span><br>
+<span>你拿哪个软件做什么4k素材 这个很重要</span><br>
+<span>其他需求都不及这个的1/10</span><br>
+<span>3D的话，把钱加在CPU上吧...</span><br>
+<span>另外，主要做还是主要渲染</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912129[0-50]</guid>
+    </item>
+  </channel>
+</rss>

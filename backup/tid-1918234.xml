@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ITX箱子装机感受贴&amp;ITX箱子求推</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ITX箱子装机感受贴&amp;ITX箱子求推</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:34:31 +0000</lastBuildDate>
+    <item>
+      <title>ITX箱子装机感受贴&amp;ITX箱子求推[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918234-1-1.html</link>
+      <description>ITX箱子装机感受贴&amp;ITX箱子求推&#13;
+大家好，之前心血来潮换了个3900X，算是完成了多年因为贫穷而对“很多框框”积累的多年怨念；然后又因为闲得无聊买了个geeek a60箱子，把这套东西塞进了itx里。。。
+&#13;
+现在感觉自己有了一点体会，并且产生了更多的疑问，正好发个帖子和大家交流下。
+&#13;
+先说下现在的配置
+&#13;
+U：3900X
+&#13;
+主板：技嘉B450 ITX
+&#13;
+内存：镁光白马甲3000，8Gx2
+&#13;
+显卡：华擎5700公版，175mm ADT显卡延长线
+&#13;
+冷排：idcooling反光污染款240，自带12风扇x2
+&#13;
+存储：m2 1T + 2.5寸SSD 1T + 2.5HDD 2T
+&#13;
+电源：全汉MS450+模组线
+&#13;
+机箱：geeek a60
+&#13;
+显示器：thinkvision x24q+dell p2217h
+&#13;
+硅脂：ARCTIC MX-4
+&#13;
+下面说一下自己的体会和吐槽
+&#13;
+U：没什么好说的，YES就对了
+&#13;
+主板：中规中矩的ITX款B450，问题是后置没有c口，也没有c口拓展。另外这玩意儿居然主板带了几个LED，主板就能RGB。。。还有好歹是aorus系列，bios简陋无比，连想调FCLK都要找很久
+&#13;
+内存：没啥好说的，贫民法拉利，我拉到1.4V，16-19-19-19-36走起，稳定了就懒得调了
+&#13;
+显卡：很公版的公版卡，散热够用，但是涡轮风扇高转速时比较吵
+&#13;
+冷排：idcooling的便宜货，搭配自带扇子用，这也是机箱现在仅有的两个风扇（电源不算），风扇用一根4pin一转二插在cpu风扇位，冷头3pin插在sysfan位。想过换猫扇甚至3000转暴力猫扇，但是看视频，这玩意儿的铝散热片设计和2000转水泵才是瓶颈，换猫扇区别不大，就没换。管子有点长，需要自己慢慢扭。给了全套金属扣具好评，然而am4背板很傻逼的采用了异形X装设计+橡胶垫，会挡住主板的几个电容，要自己根据形状切掉一点橡胶垫。风扇1800转，水泵2000转。
+&#13;
+存储：海康的nvme和2.5SSD，西数的2T笔记本HDD，以后有大船的话想换
+&#13;
+电源：没啥特别的，很经典的sfx电源，多亏了现在YES平台tdp不高，问题不是很大
+&#13;
+机箱：一言难尽，设计没啥问题的a4-size箱子，除了大部分亚克力材质外，最大的问题是微妙的公差，反正个人建议装的时候螺丝不要一开始就上紧，全部留1-2mm，最后全部装好上盖再最后上紧。吸尘器就不说了，就那样。另外现在说是新版的a60，旧版看图是6根横梁，新版是五根，少了显卡侧中间那根横梁，不会挡一些比较高的显卡了，另外中间那个板子变成金属板，别的看起来还是那样
+&#13;
+显示器：thinkvision这款是tcl代工，就是很便宜的2k24寸屏幕，槽点是没有vesa口不能上支架，另一个以前的dell屏幕也没啥好说的。
+&#13;
+硅脂：什么硅脂都比YES原装水泥好，over
+&#13;
+总结：这套东西性能没啥好说的。关于温度，aida64单烤cpu70-75度，没啥问题。cpu+fpu就不行，马上95度，风扇水泵满转。不过实际使用和打游戏都没试过这么高负荷。现在的策略是拉高一点水泵转速，降低一点风扇转速，平时算很静音，平时一般用用时50-55度上下，坐标妖都，室温在国内全年同期不算低了吧。
+&#13;
+至于为什么要上便宜水冷（之前用fs140），很简单，类似的a4-size箱子一般cpu散热高度都有限制，大部分只能65mm（有些可以80mm），绝大部分塔式都装不了，3900X毕竟是105Wde1tdp，实在是不相信各种矮散热器能搞得定。
+&#13;
+然后好歹开始涉及小箱子+冷排了，然后自然怎不住开始研究研究a4-size箱子了，反正长期在家上班闲着也是闲着
+&#13;
+ghost s1（及国内山寨版）：这个是个人最喜欢的a4-size箱子，本体和DAN a4差不多，但是模块化设计甚至可以装双240冷排，但是原版贼贵，国内山寨的也要四位数，也贵
+&#13;
+孙总t03：蛮喜欢的小箱子，算是客制化？可以自定义图案好评，而且看评测铝板做工和厚度都不错，内部设计也是a4加高留出240冷排空间的思路，价格8xx（没算显卡延长线，下同），不算便宜
+&#13;
+k99：我是装好了之后才知道这玩意儿的，全金属居然比亚克力玩具a60还便宜，淦。。。也是a4-size加高的思路，铝板比较薄，中间的金属板没有上下固定，但是便宜啊！便宜啊！299要啥自行车，当然逼格看起来是不如孙总t03啦
+&#13;
+至于屌丝伯A4和联力小犀牛之类的，个人认为这些不算a4-size机箱，不讨论。
+&#13;
+所以，想问下大家，有没有什么类似的a4-szie箱子推荐和讨论下的？</description>
+      <content:encoded><![CDATA[<p><b>dstar: </b><br>
+<span>ITX箱子装机感受贴&ITX箱子求推</span><br>
+<span>大家好，之前心血来潮换了个3900X，算是完成了多年因为贫穷而对“很多框框”积累的多年怨念；然后又因为闲得无聊买了个geeek a60箱子，把这套东西塞进了itx里。。。</span><br>
+<span>现在感觉自己有了一点体会，并且产生了更多的疑问，正好发个帖子和大家交流下。</span><br>
+<span>先说下现在的配置</span><br>
+<span>U：3900X</span><br>
+<span>主板：技嘉B450 ITX</span><br>
+<span>内存：镁光白马甲3000，8Gx2</span><br>
+<span>显卡：华擎5700公版，175mm ADT显卡延长线</span><br>
+<span>冷排：idcooling反光污染款240，自带12风扇x2</span><br>
+<span>存储：m2 1T + 2.5寸SSD 1T + 2.5HDD 2T</span><br>
+<span>电源：全汉MS450+模组线</span><br>
+<span>机箱：geeek a60</span><br>
+<span>显示器：thinkvision x24q+dell p2217h</span><br>
+<span>硅脂：ARCTIC MX-4</span><br>
+<span>下面说一下自己的体会和吐槽</span><br>
+<span>U：没什么好说的，YES就对了</span><br>
+<span>主板：中规中矩的ITX款B450，问题是后置没有c口，也没有c口拓展。另外这玩意儿居然主板带了几个LED，主板就能RGB。。。还有好歹是aorus系列，bios简陋无比，连想调FCLK都要找很久</span><br>
+<span>内存：没啥好说的，贫民法拉利，我拉到1.4V，16-19-19-19-36走起，稳定了就懒得调了</span><br>
+<span>显卡：很公版的公版卡，散热够用，但是涡轮风扇高转速时比较吵</span><br>
+<span>冷排：idcooling的便宜货，搭配自带扇子用，这也是机箱现在仅有的两个风扇（电源不算），风扇用一根4pin一转二插在cpu风扇位，冷头3pin插在sysfan位。想过换猫扇甚至3000转暴力猫扇，但是看视频，这玩意儿的铝散热片设计和2000转水泵才是瓶颈，换猫扇区别不大，就没换。管子有点长，需要自己慢慢扭。给了全套金属扣具好评，然而am4背板很傻逼的采用了异形X装设计+橡胶垫，会挡住主板的几个电容，要自己根据形状切掉一点橡胶垫。风扇1800转，水泵2000转。</span><br>
+<span>存储：海康的nvme和2.5SSD，西数的2T笔记本HDD，以后有大船的话想换</span><br>
+<span>电源：没啥特别的，很经典的sfx电源，多亏了现在YES平台tdp不高，问题不是很大</span><br>
+<span>机箱：一言难尽，设计没啥问题的a4-size箱子，除了大部分亚克力材质外，最大的问题是微妙的公差，反正个人建议装的时候螺丝不要一开始就上紧，全部留1-2mm，最后全部装好上盖再最后上紧。吸尘器就不说了，就那样。另外现在说是新版的a60，旧版看图是6根横梁，新版是五根，少了显卡侧中间那根横梁，不会挡一些比较高的显卡了，另外中间那个板子变成金属板，别的看起来还是那样</span><br>
+<span>显示器：thinkvision这款是tcl代工，就是很便宜的2k24寸屏幕，槽点是没有vesa口不能上支架，另一个以前的dell屏幕也没啥好说的。</span><br>
+<span>硅脂：什么硅脂都比YES原装水泥好，over</span><br>
+<span>总结：这套东西性能没啥好说的。关于温度，aida64单烤cpu70-75度，没啥问题。cpu+fpu就不行，马上95度，风扇水泵满转。不过实际使用和打游戏都没试过这么高负荷。现在的策略是拉高一点水泵转速，降低一点风扇转速，平时算很静音，平时一般用用时50-55度上下，坐标妖都，室温在国内全年同期不算低了吧。</span><br>
+<span>至于为什么要上便宜水冷（之前用fs140），很简单，类似的a4-size箱子一般cpu散热高度都有限制，大部分只能65mm（有些可以80mm），绝大部分塔式都装不了，3900X毕竟是105Wde1tdp，实在是不相信各种矮散热器能搞得定。</span><br>
+<span>然后好歹开始涉及小箱子+冷排了，然后自然怎不住开始研究研究a4-size箱子了，反正长期在家上班闲着也是闲着</span><br>
+<span>ghost s1（及国内山寨版）：这个是个人最喜欢的a4-size箱子，本体和DAN a4差不多，但是模块化设计甚至可以装双240冷排，但是原版贼贵，国内山寨的也要四位数，也贵</span><br>
+<span>孙总t03：蛮喜欢的小箱子，算是客制化？可以自定义图案好评，而且看评测铝板做工和厚度都不错，内部设计也是a4加高留出240冷排空间的思路，价格8xx（没算显卡延长线，下同），不算便宜</span><br>
+<span>k99：我是装好了之后才知道这玩意儿的，全金属居然比亚克力玩具a60还便宜，淦。。。也是a4-size加高的思路，铝板比较薄，中间的金属板没有上下固定，但是便宜啊！便宜啊！299要啥自行车，当然逼格看起来是不如孙总t03啦</span><br>
+<span>至于屌丝伯A4和联力小犀牛之类的，个人认为这些不算a4-size机箱，不讨论。</span><br>
+<span>所以，想问下大家，有没有什么类似的a4-szie箱子推荐和讨论下的？</span><br>
+</p><p><b>dstar: </b><br>
+<span>补个图，随便拍的，就这样吧</span><br>
+<span>另外请不要吐槽白色的HDD，我也很无奈</span><br>
+<img src="http://wx4.sinaimg.cn/large/46a15d2egy1gcpu5wibk5j21hc0u0qda.jpg" title="http://wx4.sinaimg.cn/large/46a15d2egy1gcpu5wibk5j21hc0u0qda.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/46a15d2egy1gcpu65st7gj21400u04qr.jpg" title="http://wx3.sinaimg.cn/large/46a15d2egy1gcpu65st7gj21400u04qr.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/46a15d2egy1gcpu681hzej21400u01kz.jpg" title="http://wx3.sinaimg.cn/large/46a15d2egy1gcpu681hzej21400u01kz.jpg"><br>
+</p><p><b>mjwells: </b><br>
+<span>水冷版bs2啊。不过我是8.8升的ss1。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>雪影: </b><br>
+<span>全世界都是A4.jpg</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>dstar: </b><br>
+<span>mjwells 发表于 2020-3-11 11:45</span><br>
+<span>水冷版bs2啊。不过我是8.8升的ss1。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>https://www.chiphell.com/thread-2007663-1-1.html</span><br>
+<span>看设计就是材料加厚版k99啊</span><br>
+<span>但是这板材这细节，确实好</span><br>
+<span>找到淘宝店去看看，也要11XX啊，而且现在还没了</span><br>
+<span>感觉类似孙总，走的是小批定制玩法，不过出货量比孙总更少</span><br>
+</p><p><b>mjwells: </b><br>
+<span>dstar 发表于 2020-03-11 11:57:58</span><br>
+<span>看设计就是材料加厚版k99啊</span><br>
+<span>但是这板材这细节，确实好</span><br>
+<span>找到淘宝店去看看，也要11XX啊，而且现在还没 ...要加QQ群，当时我ss1就等了好几个月。显卡不上水不能解决噪音问题，那还不如直插的ss1。我3700x，技嘉的x570i，现在室温25℃左右了，主板自带的小风扇声音还比较明显。。。小箱子玩过了还是想玩个大箱子。</span><br>
+<span>对了廖总还说要搞垂直风道的itx箱子，我一直在群里潜水等呢。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>HanSolo: </b><br>
+<span>公版卡+240水，找个好看能兼容的箱子就行了，我目前是手持屌丝伯A4等iqunix那个鸽子产品</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>买的佑泽a4，实际上应该算是加长过的了，和一般的a4结构一样，但是能把15厘米的atx电源塞进去，相当于牺牲一点体积，省了一点电源钱</span><br>
+<span>就是两块侧板只有玻璃和亚克力两种选项，要是他出个全铝的那就更香了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>NZXT H1 这种算么？准备弄个小的itx主机，这个箱子样子还行但是是竖过来的而且还挺贵的。。。虽然自带水冷和电源</span><br>
+</p><p><b>kina: </b><br>
+</p><p><b>dstar: </b><br>
+<span>兰开夏 发表于 2020-3-11 14:04</span><br>
+<span>NZXT H1 这种算么？准备弄个小的itx主机，这个箱子样子还行但是是竖过来的而且还挺贵的。。。虽然自带水冷 ...</span><br>
+<span>2799，就算包含一个金牌650W SFX电源和一个140冷排，价格也不便宜</span><br>
+<span>关键是140冷排的效能是基本固定的，有上限的</span><br>
+<span>在国内弄个做工好点的小箱子+好的240冷排+650Wsfx，在价格区间差不多的前提下选择还是比较多的</span><br>
+<span>nzxt这个估计还是针对海外DIY为主，因为我记得ghost s1+240水冷盖也要399刀，和nzxt h1国外价格一样，毕竟大厂量产能把成本压下来</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>Gen8满了，存储向的ITX我现在非常馋银欣SST-CS01</span><br>
+</p><p><b>dstar: </b><br>
+<span>kina 发表于 2020-3-11 14:14</span><br>
+<span>水冷快乐盒？酷鱼g5plus？</span><br>
+</p><p><b>kina: </b><br>
+<span>dstar 发表于 2020-3-11 14:17</span><br>
+<span> 水冷快乐盒？酷鱼g5plus？</span><br>
+<span>是</span><br>
+</p><p><b>kina: </b><br>
+<span>dstar 发表于 2020-3-11 14:17</span><br>
+<span> 水冷快乐盒？酷鱼g5plus？</span><br>
+<span>红色的不是水冷快乐盒，是优特诚的便宜箱子，一百多，因为g5plus缺货硬件到了买来先用的，本来是用1u电源的，但是内部空间富裕太多我用钳子和手锯改成了sfx电源的，g5plus到了之后那个淘汰了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>dstar 发表于 2020-3-11 14:15</span><br>
+<span>2799，就算包含一个金牌650W SFX电源和一个140冷排，价格也不便宜</span><br>
+<span>关键是140冷排的效能是基本固定的，有 ...</span><br>
+<span>请问有什么推荐嘛...最好还能横向摆放的，这方面刚刚开起来，感觉被水淹没...</span><br>
+<span>这个箱子样子还不错，有点类似xbox净化器那种感觉。</span><br>
+</p><p><b>kina: </b><br>
+<span> 本帖最后由 kina 于 2020-3-11 14:23 编辑 </span><br>
+<span>兰开夏 发表于 2020-3-11 14:20</span><br>
+<span> 请问有什么推荐嘛...最好还能横向摆放的，这方面刚刚开起来，感觉被水淹没...这个箱子样子还不错，有点 ...</span><br>
+<span>银欣小乌鸦，机械大师t12你看看</span><br>
+</p><p><b>琴酒: </b><br>
+<span>船長的機箱</span><br>
+<span>https://item.taobao.com/item.htm?&id=595796755381</span><br>
+<span>lousu的機箱</span><br>
+<span>https://item.taobao.com/item.htm?&id=581041330403</span><br>
+</p><p><b>kina: </b><br>
+<span>楼上怎么少了孙哥的机箱 </span><br>
+<span>sunmilo工作室</span><br>
+<span>https://sunmilo.taobao.com/?spm=a1z10.1-c.0.0.1e376580EIh4Lz</span><br>
+</p><p><b>dstar: </b><br>
+<span>兰开夏 发表于 2020-3-11 14:20</span><br>
+<span>请问有什么推荐嘛...最好还能横向摆放的，这方面刚刚开起来，感觉被水淹没...</span><br>
+<span>这个箱子样子还不错，有点 ...</span><br>
+<span>对于itx箱子我是认为有三种</span><br>
+<span>一种是联力小犀牛这样的“常规”ITX机箱，更接近于“缩小版”的普通机箱，这种很多，不少还能用常规atx电源，选择很多</span><br>
+<span>二是大部分a4-size机箱，不能上240一体水，一般的问题是cpu散热高度有严苛限制，然后间接限制了平台能用的cpu上限，当然有的可以上分体水。这个就少一点，但是算是目前a4-size的主流</span><br>
+<span>三是我上面说的这类，属于加高版a4-size，如果说a4一般是8L-9L体积，这类就是12L上下，留出了装240一体水的空间</span><br>
+<span>我觉得先要明确需求，想要哪种，然后定配置，再然后看合适的箱子。。。</span><br>
+</p><p><b>琴酒: </b><br>
+<span>還有個 期貨H'z Mk3s太難買了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>dstar 发表于 2020-3-11 14:29</span><br>
+<span>对于itx箱子我是认为有三种</span><br>
+<span>一种是联力小犀牛这样的“常规”ITX机箱，更接近于“缩小版”的普通机箱，这 ...</span><br>
+<span>不是发烧用户，其实需求还是针对功能外观多一些...</span><br>
+<span>外观上我希望是不要发光特别严重，然后无需特别花哨那种， 因此觉得之前提到的那款还不错，但是只能竖放。</span><br>
+<span>https://item.taobao.com/item.htm?&id=581041330403 这款也很好看，金属且棱角。</span><br>
+<span>功能性上原本计划是将手中的标准2060s拆到itx上，配合能够压3800x级别的冷却系统的，c盘是m2的ssd然后能装标准大型硬盘最好，不能装也勉强接受的、以静音为主要功能诉求的机箱。</span><br>
+<span>现在还停留在看机箱外观这个层面上...</span><br>
+</p><p><b>killer0079: </b><br>
+<span> 本帖最后由 killer0079 于 2020-3-11 14:44 编辑 </span><br>
+<span>萝莉机箱，做工严丝合缝，用完以后再也不想用其他ITX机箱</span><br>
+<span>https://www.chiphell.com/thread-2015599-0-1.html</span><br>
+</p><p><b>琴酒: </b><br>
+<span>萝莉机箱只能用1u電源吧</span><br>
+</p><p><b>kina: </b><br>
+<span>killer0079 发表于 2020-3-11 14:37</span><br>
+<span>萝莉机箱，做工严丝合缝，用完以后再也不想用其他ITX机箱</span><br>
+<span>https://www.chiphell.com/thread-2015599-0-1.ht ...</span><br>
+<span>他家的机箱鸽了我两次</span><br>
+</p><p><b>killer0079: </b><br>
+<span>琴酒 发表于 2020-3-11 14:45</span><br>
+<span>萝莉机箱只能用1u電源吧</span><br>
+<span>现在有个SFX电源的船新版本</span><br>
+</p><p><b>killer0079: </b><br>
+<span>kina 发表于 2020-3-11 14:46</span><br>
+<span>他家的机箱鸽了我两次</span><br>
+<span>我两个机箱都是半年拿到的</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-10 23:26 编辑 </span><br>
+<span>最好的ITX机箱还在苏妈手上没设计出来</span><br>
+<span>因为需要一个单排接口的好显卡我才会去订做，什么霸王龙是不行的，因为它高了一个DP口啊，DP口啊，口啊</span><br>
+<span>大屌塞小岤的快感</span><br>
+<span>组ITX重要意义在于塞</span><br>
+<span>装ITX在于组建的快乐，男人总有点喜欢搭建的东西，乐高，电脑，机车等等等等。</span><br>
+<span>另外A4结构是可以双120厚（等于双D15效果）放进十升的</span><br>
+<span>A4结构出现前，长卡ITX十升内都困难，ncase m1这种极限也就11升</span><br>
+<span>所以双水冷的A4十升真的很小，dancase a4原本也有8升多呢，</span><br>
+<span>淘宝上和velka 5最接近的是SGPC的K55也是6升左右</span><br>
+<span>像K99这种你加点钱订制下达成下面理想体积不是问题</span><br>
+<span>竖装冷排：310x310x100=9.6升</span><br>
+<img src="https://s2.ax1x.com/2020/01/08/lghaJU.png" title="https://s2.ax1x.com/2020/01/08/lghaJU.png"><br>
+<span>横装冷排：320x264x128=10.8升</span><br>
+<img src="https://s2.ax1x.com/2020/01/08/lghUiT.png" title="https://s2.ax1x.com/2020/01/08/lghUiT.png"><br>
+</p><p><b>长末: </b><br>
+<span>450带的动5700和3900x？一个225一个125主板硬盘就450w了吧</span><br>
+<span>—— 来自 Realme RMX1901, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>shiningfire: </b><br>
+<span>ghost S1祖国版现在几百块就能买到了。</span><br>
+</p><p><b>JWJking: </b><br>
+<span>https://m.tb.cn/h.VeKBbhW?sm=1e42a5</span><br>
+<span>垂直+双120水冷+旋转A4+15.6L</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>不错。</span><br>
+<span>不过我是不想再搞itx了，机箱大点啥都容易，也不是真缺真点地方。。。</span><br>
+</p><p><b>megumi01: </b><br>
+<span>保存了下。。。群里有人要装ITX。</span><br>
+</p><p><b>斯城恶魔: </b><br>
+<span> 本帖最后由 斯城恶魔 于 2020-3-11 20:35 编辑 </span><br>
+<span>极限体积的itx装完确实有种明明看起来这么紧这么小但是就是能把蛋蛋高性能全塞进去的雄性征服感（？）</span><br>
+<span>5L的酷鱼s3塞了一个2070就很爽</span><br>
+<span>就是散热器限高4cm太狗屎</span><br>
+<span>屌丝伯hp400 可以是可以但是太丑</span><br>
+<span>id-cooling is-40 妈的标的40高45是什么傻逼命名方式还不如明确的vc45</span><br>
+<span>id-cooling is-30 9010的风扇太薄有点压不住，而且换不了9015的风扇</span><br>
+<span>id-cooling is-25 垃圾</span><br>
+<span>猫头鹰 nh-l9i/a 13年的产品……2根U型热管等效四根套均热板加一个9015猫扇有点小贵</span><br>
+<span>接下来我要安利一个</span><br>
+<span>酷妈 g200p 19年4月新产品，39.5mm压线 虽然和猫头鹰的很像但是散热效果更好</span><br>
+<span>还有RGB，支持aura，比猫家便宜一点</span><br>
+</p><p><b>xiner_hyj: </b><br>
+<span>在弄肖邦，</span><br>
+<span>微星b450i 加3400g，加骇客8g*2.</span><br>
+<span>淘宝回来，一开始不通电，郁闷。</span><br>
+<span>后来重装Cpu，通电了。</span><br>
+<span>不明白的是，现在只接主板也能亮，之前是单主板也点不亮。</span><br>
+<span>但主板显示cpu故障，试了几次组合，都不行，放弃了。</span><br>
+<span>只能将主板和cpu寄回商家，等检测</span><br>
+<span>另外吐槽下，amd何时能学intel把cpu针脚弄没？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>thegodra: </b><br>
+<span>Sfx，tfx，大厂快点出廉价机箱呀</span><br>
+<span>—— 来自 smartisan OS105, Android 7.1.1上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>说来在淘宝上看到一款ACER的品牌机机箱能装itx似乎有点意思 200不到带电源</span><br>
+</p><p><b>风怒: </b><br>
+<span>k99v2刚刚到货，量了一下宽度13点八，高度25点八，长度31点八，都是不算螺帽脚垫等突出的数据，11.3升了，按他淘宝店里的算才9.6升，虚标严重</span><br>
+</p><p><b>asp1111: </b><br>
+<span>天狼星 t90最近挺火的</span><br>
+</p><p><b>chiln: </b><br>
+<span>想买c24小方糖，有点担心散热</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918234[0-50]</guid>
+    </item>
+  </channel>
+</rss>

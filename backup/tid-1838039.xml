@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>软路由威力惊人啊</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>软路由威力惊人啊</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:56:01 +0000</lastBuildDate>
+    <item>
+      <title>软路由威力惊人啊[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838039-1-1.html</link>
+      <description>软路由威力惊人啊&#13;
+ 本帖最后由 chan 于 2019-6-9 11:44 编辑 
+
+之前发贴询问买什么路由器好，很多人推荐软路由。于是买了一个3855U/8G/64G的软路由，用EXSI装了爱快和LEDE双系统，爱快用来拨号和流量管理，LEDE去广告跑酸酸乳什么的。本来之前有坛友说跑酸酸乳软路由快很多我还不以为然，并不认为会有太大的差别。结果用上就惊了，油管简直是秒开，根本看不到转圈圈。上网体验和以前简直天差地别。之后打算再买一套VELOP组个有线回程的MESH，基本上就完美了。另外发现软路由还有很多好处，用EXSI装个LINUX跑家庭服务器什么的, 因为本来就等于一台小电脑。LEDE甚至还有DOCKER插件。</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>qwased 发表于 2019-6-14 19:26</span><br>
+<span>开网吧都够了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>再请教一下，为啥要双系统啊</span><br>
+<span>“爱快用来拨号和流量管理，LEDE去广告什么”</span><br>
+<span>能一个系统实现吗？</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span> droople 发表于 2019-6-16 14:08 引用:qwased 发表于 2019-6-14 19:26 开网吧都够了—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 再请教一下，为啥要双系统啊 “爱快用来拨号和流量管理，LEDE去广告什么” 能一个系统实现吗？ </span><br>
+<span>爱快好像自带kvm了</span><br>
+<span>你去了解看看</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-16 14:08</span><br>
+<span>再请教一下，为啥要双系统啊</span><br>
+<span>“爱快用来拨号和流量管理，LEDE去广告什么”</span><br>
+<span>能一个系统实现吗？ ...</span><br>
+<span>普通家用不需要这么搞</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>qwased 发表于 2019-6-16 15:11</span><br>
+<span>普通家用不需要这么搞</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>哦，非家用的话搞两个系统有啥好处吗？</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-16 15:26</span><br>
+<span>哦，非家用的话搞两个系统有啥好处吗？</span><br>
+<span>他们要搞qos/多wan分流/开放wifi薅羊毛之类的需求才用爱快</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗铁: </b><br>
+<span>周末折腾了一下发现现在搞软路由还是挺方便的，电脑上自己开一个虚拟机也可以不用另外搞设备了，装了插件有全局的FQ规则后那些不能设置代理的软件也方便</span><br>
+</p><p><b>droople: </b><br>
+<span> 本帖最后由 droople 于 2019-6-16 15:57 编辑 </span><br>
+<span>qwased 发表于 2019-6-16 15:30</span><br>
+<span>他们要搞qos/多wan分流/开放wifi薅羊毛之类的需求才用爱快</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S ...</span><br>
+<span>哦，那我都不需要,看来只需要J1900就够了，</span><br>
+<span>内存大小有讲究吗？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>软路由是不是无线功能很弱？</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span>自家用j1900来个lede</span><br>
+<span>就好了</span><br>
+<span>说起来你们ap用啥？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-16 15:45</span><br>
+<span>哦，那我都不需要,看来只需要J1900就够了，</span><br>
+<span>内存大小有讲究吗？</span><br>
+<span>单纯做路由512m都够了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>qwased 发表于 2019-6-16 20:25</span><br>
+<span>单纯做路由512m都够了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>好的，谢谢</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>yuuu 发表于 2019-6-16 19:32</span><br>
+<span>软路由是不是无线功能很弱？</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>无线你接ap啊</span><br>
+<span>—— 来自 Xiaomi MI MAX 2, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-14 08:15</span><br>
+<span>不用的，lean版你在github搜一下有个别人备份的ssr plus，放回去packge里就有了，再勾上mwan3helper，然 ...</span><br>
+<span>今天买了acrh17</span><br>
+<span>求教个问题：</span><br>
+<span>恩山逛了逛，好像现在bootloader常见的是op-boot、pb-boot、breed这三个对吧，好像breed是最好用的一个？但是acrh17没支持，然后pb-boot和opboot这俩哪个更好用一些啊</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-18 16:12</span><br>
+<span>今天买了acrh17</span><br>
+<span>求教个问题：</span><br>
+<span>如果你不硬改ram就不用动，原厂就是刷不死的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-18 16:22</span><br>
+<span>如果你不硬改ram就不用动，原厂就是刷不死的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2 ...</span><br>
+<span>硬改是不可能的</span><br>
+<span>那除了在portal传trx的方法之外，有类似长按什么键进恢复模式然后tftp直接传img的方法吗？</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-18 16:42</span><br>
+<span>硬改是不可能的</span><br>
+<span>那除了在portal传trx的方法之外，有类似长按什么键进恢复模式然后tftp直接传img ...</span><br>
+<span>原厂bl就支持tftp直接传固件啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-18 19:23</span><br>
+<span>原厂bl就支持tftp直接传固件啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>求教怎么进恢复模式，另外tftp要加 -i 吗？</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-18 20:25</span><br>
+<span>求教怎么进恢复模式，另外tftp要加 -i 吗？</span><br>
+<span>刷的固件不对启动失败或者捅住reset开机就进恢复模式了</span><br>
+<span>加-i</span><br>
+<span>或者你用ASUS Firmware Restoration，这玩意就是华硕自己搞的tftp套壳</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-18 21:10</span><br>
+<span>刷的固件不对启动失败或者捅住reset开机就进恢复模式了</span><br>
+<span>加-i</span><br>
+<span>或者你用ASUS Firmware Restoration，这玩意 ...</span><br>
+<span>谢啦~坐等到货</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>droople 发表于 2019-6-16 15:45</span><br>
+<span>哦，那我都不需要,看来只需要J1900就够了，</span><br>
+<span>内存大小有讲究吗？</span><br>
+<span>openwrt</span><br>
+<span>自己编译 没用的全拿掉 128m就够</span><br>
+<img src="https://i.loli.net/2019/06/18/5d08e63a1091850052.png" title="https://i.loli.net/2019/06/18/5d08e63a1091850052.png"><br>
+</p><p><b>JimmyZ: </b><br>
+<span>2019年了, LEDE合并回OpenWrt之前的最后一个版本是17.01, 两年半了同学.</span><br>
+</p><p><b>中村隆太郎: </b><br>
+<span>看了下矿难的蜗牛星际J1900好便宜啊，能买个来试试吗</span><br>
+<span>一台机器可以同时跑NAS和软路由吗</span><br>
+<span>另外，单网口和双网口区别大吗？</span><br>
+</p><p><b>shanajiang: </b><br>
+<span>软路由ac功能怎么样啊想接ap的面板ap....</span><br>
+</p><p><b>droople: </b><br>
+<span>塔奇克马 发表于 2019-6-18 21:25</span><br>
+<span>openwrt</span><br>
+<span>自己编译 没用的全拿掉 128m就够</span><br>
+<span>谢谢，看来真是足够了，硬盘大小呢？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>droople 发表于 2019-6-20 19:32</span><br>
+<span>谢谢，看来真是足够了，硬盘大小呢？</span><br>
+<span>编译镜像自定义,64mb</span><br>
+</p><p><b>droople: </b><br>
+<span>塔奇克马 发表于 2019-6-20 20:04</span><br>
+<span>编译镜像自定义,64mb</span><br>
+<span>谢谢啦</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>droople 发表于 2019-6-20 20:07</span><br>
+<span>谢谢啦</span><br>
+<img src="https://i.loli.net/2019/06/20/5d0b7752e486177838.png" title="https://i.loli.net/2019/06/20/5d0b7752e486177838.png"><br>
+</p><p><b>塔奇克马: </b><br>
+<span>droople 发表于 2019-6-20 20:07</span><br>
+<span>谢谢啦</span><br>
+<img src="https://i.loli.net/2019/06/20/5d0b784baa20433608.png" title="https://i.loli.net/2019/06/20/5d0b784baa20433608.png"><br>
+<span>64其实也是给多了..</span><br>
+</p><p><b>droople: </b><br>
+<span>塔奇克马 发表于 2019-6-20 20:14</span><br>
+<span>64其实也是给多了..</span><br>
+<span>还真够迷你的，那网上那些那么大硬盘的软路由是为了啥啊</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>droople 发表于 2019-6-20 20:20</span><br>
+<span>还真够迷你的，那网上那些那么大硬盘的软路由是为了啥啊</span><br>
+<img src="https://i.loli.net/2019/06/20/5d0b7af3afa7728924.png" title="https://i.loli.net/2019/06/20/5d0b7af3afa7728924.png"><br>
+<span>别人的全编译的镜像大小,</span><br>
+<span>你得从能买到的固态考虑...主要小盘价格上没啥优势.</span><br>
+</p><p><b>droople: </b><br>
+<span>塔奇克马 发表于 2019-6-20 20:27</span><br>
+<span>别人的全编译的镜像大小,</span><br>
+<span>你得从能买到的固态考虑...主要小盘价格上没啥优势. ...</span><br>
+<span>有理，那4G/32G绰绰有余啊</span><br>
+</p><p><b>qwased: </b><br>
+<span>塔奇克马 发表于 2019-6-20 20:09</span><br>
+<span>只改这里会出错</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>qwased 发表于 2019-6-20 22:32</span><br>
+<span>只改这里会出错</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>无所谓,反正我自己没出错.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838039[100-150]</guid>
+    </item>
+    <item>
+      <title>软路由威力惊人啊[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838039-1-1.html</link>
+      <description>软路由威力惊人啊&#13;
+ 本帖最后由 chan 于 2019-6-9 11:44 编辑 
+
+之前发贴询问买什么路由器好，很多人推荐软路由。于是买了一个3855U/8G/64G的软路由，用EXSI装了爱快和LEDE双系统，爱快用来拨号和流量管理，LEDE去广告跑酸酸乳什么的。本来之前有坛友说跑酸酸乳软路由快很多我还不以为然，并不认为会有太大的差别。结果用上就惊了，油管简直是秒开，根本看不到转圈圈。上网体验和以前简直天差地别。之后打算再买一套VELOP组个有线回程的MESH，基本上就完美了。另外发现软路由还有很多好处，用EXSI装个LINUX跑家庭服务器什么的, 因为本来就等于一台小电脑。LEDE甚至还有DOCKER插件。</description>
+      <content:encoded><![CDATA[<p><b>糊状物: </b><br>
+<span> 本帖最后由 糊状物 于 2019-6-11 19:40 编辑 </span><br>
+<span>lwa190212 发表于 2019-6-11 19:31</span><br>
+<span>你说的没错啊，就因为没有极高的背板带宽需求，所以才可以用两台交换机提供更多端口</span><br>
+<span>可是我不明白的是为 ...</span><br>
+<span>？？？</span><br>
+<span>能用一个软路由解决的事情，为什么选择一个软路由加一个交换机解决？而且软路由多口以后想加出口线路也方便啊？这不是选择一个软路由更合适吗，设备更少弹性更大。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>糊状物 发表于 2019-6-11 19:38</span><br>
+<span>？？？</span><br>
+<span>能用一个软路由解决的事情，为什么选择一个软路由加一个交换机解决？而且软路由多口以后想加出口线 ...</span><br>
+<span>因为你先说了“当你有两个交换机又不想再加一个交换机时就不这么想了，”然后我发现我没有像你说的那样感受，所以有些疑惑而已</span><br>
+<span>只能说众口难调啊，反正我要是内网没有跨网段联络的需求就不会想要在路由里包揽交换机的事情，除了上到10G以上的网络设备某些情况下掏网卡垃圾比万兆交换机便宜不少是例外情况</span><br>
+</p><p><b>糊状物: </b><br>
+<span>lwa190212 发表于 2019-6-11 19:50</span><br>
+<span>因为你先说了“当你有两个交换机又不想再加一个交换机时就不这么想了，”然后我发现我没有像你说的那样感 ...</span><br>
+<span>我前面也说了啊，两台交换机之间没什么数据交换的需求，接路由器其实就是为了上网，不需要路由器兼职交换机的作用。</span><br>
+</p><p><b>sahara: </b><br>
+<span>那啥，如果酸酸乳在硬路由上油土鳖速度不够快，但是CPU占用也不高的话是不是意味着换啥都不中用，只有换家酸酸乳才行？</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>用两年电费回本，然后GFW一个彻底封SS直接软路由变废铁。。。</span><br>
+</p><p><b>lzp729: </b><br>
+<span>lwa190212 发表于 2019-6-11 15:38</span><br>
+<span>网口有一个千兆就差不多了吧</span><br>
+<span>软路由专干网络层和以上的网络事务，二层交换这种活交给交换机做就好 ...</span><br>
+<span>多wan啊。。。 如今的移动宽带都是免费的啊，联通也时不时送一下。。 网口不够都玩不起来</span><br>
+<span>花那么多钱买NUC还不能满足扩展性，实在爱不起来</span><br>
+<span>我现在关注的是联想的m920x</span><br>
+</p><p><b>lzp729: </b><br>
+<span>sahara 发表于 2019-6-11 20:51</span><br>
+<span>那啥，如果酸酸乳在硬路由上油土鳖速度不够快，但是CPU占用也不高的话是不是意味着换啥都不中用，只有换家 ...</span><br>
+<span>CPU占用并不说明性能足够。。。。</span><br>
+<span>你再看看系统中断是不是搞得一批。。。 </span><br>
+</p><p><b>lwa190212: </b><br>
+<span>lzp729 发表于 2019-6-11 22:01</span><br>
+<span>多wan啊。。。 如今的移动宽带都是免费的啊，联通也时不时送一下。。 网口不够都玩不起来</span><br>
+<span>花那么多钱买NU ...</span><br>
+<span>这个倒是，有多线路需求路由上多个网口确实省了vlan的费用</span><br>
+<span>随便插个i350t4美滋滋</span><br>
+</p><p><b>sahara: </b><br>
+<span>lzp729 发表于 2019-6-11 22:02</span><br>
+<span>CPU占用并不说明性能足够。。。。</span><br>
+<span>你再看看系统中断是不是搞得一批。。。...</span><br>
+<span>系统中断哪里看？梅林系统</span><br>
+</p><p><b>lzp729: </b><br>
+<span>sahara 发表于 2019-6-11 22:33</span><br>
+<span>系统中断哪里看？梅林系统</span><br>
+<span>梅林我没用过，asus的路由我都没碰过。。。</span><br>
+<span>不过如果也是基于linux的话，top命令就能看到很奇怪的进程，linux上能排查中断过高的方式很多，你得搜搜</span><br>
+<span>我已经不太记得当时debug家里路由时的具体信息了，只有最终得到的结论是CPU太慢了跑不完中断，4核2G的赛扬， 2.6的kernel。</span><br>
+<span>要知道软路由里面玩的各种路由规则都是在Netfilter层面，这个每个请求都是中断，CPU在频繁的处理大量中断请求，流水线是跑不起来的，看上去loading很低，那是因为你没有别的真实负载，其实是连中断都处理不完。。。</span><br>
+<span>所以我也一直在关注类似nuc这样的小型设备，终于等来了m920x。。。 已经决定入手了，只是在比较渠道价格</span><br>
+</p><p><b>lzp729: </b><br>
+<span>lwa190212 发表于 2019-6-11 22:27</span><br>
+<span>这个倒是，有多线路需求路由上多个网口确实省了vlan的费用</span><br>
+<span>随便插个i350t4美滋滋 ...</span><br>
+<span>我家里网络构建的有些年头了，都是千兆的设定。交换机都是gs108T，vlan是没问题的，但是现在的带宽也大啊。。。 我现在家里电信下行1000M，准备移动进一条移动的200M，这都已经超过我家里内网带宽了。。。</span><br>
+<span>内网成了瓶颈，vlan没意义了啊。。。 如果是现在家庭的2.5G起步万兆才能一战的设定，那vlan妥妥的，2口的nuc也能玩得转。。 等下次换房子我也搞万兆的网络规划玩</span><br>
+</p><p><b>lzp729: </b><br>
+<span>lzp729 发表于 2019-6-11 23:01</span><br>
+<span>我家里网络构建的有些年头了，都是千兆的设定。交换机都是gs108T，vlan是没问题的，但是现在的带宽也大啊 ...</span><br>
+<span>哦。。 那还是不行。。。 intel那个NUC是网口好像也只有千兆。。。 还是个瓶颈。。还是爱不起来</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>lzp729 发表于 2019-6-11 23:01</span><br>
+<span>我家里网络构建的有些年头了，都是千兆的设定。交换机都是gs108T，vlan是没问题的，但是现在的带宽也大啊 ...换啥房子啊，直接打洞走起</span><br>
+<span>洋垃圾mellanox connectX-3已入场，双口大概也就200块，除了烫手其他还好</span><br>
+<span>这种时候万兆设备一多，主板pcie通道就成了瓶颈了</span><br>
+</p><p><b>qwased: </b><br>
+<span>lzp729 发表于 2019-6-11 22:55</span><br>
+<span>梅林我没用过，asus的路由我都没碰过。。。</span><br>
+<span>不过如果也是基于linux的话，top命令就能看到很奇怪的进程，l ...</span><br>
+<span>m0n0wall之类的玩意配合intel网卡能用轮询吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>ramiel1 发表于 2019-6-11 21:15</span><br>
+<span>用两年电费回本，然后GFW一个彻底封SS直接软路由变废铁。。。</span><br>
+<span>电费，我觉得还好</span><br>
+<span>GFW封SS这个确实比较麻烦</span><br>
+<span>之前koolshare 那边软件中心集中下架了那几个ss软件，虽然之前有下载过备份，也有网友有备份吧</span><br>
+<span>如果只是这种，软件下架但是可以自己装，还好</span><br>
+<span>如果是其他ss提供商整个全体都跪了那就蛋疼。。。只能想其他法子</span><br>
+<span>不过软路由的性能提升是确实没错</span><br>
+</p><p><b>catxing: </b><br>
+<span>chan 发表于 2019-6-11 15:08</span><br>
+<span>不会。原来打开一个YOUTUBE视频，转五、六秒的圈圈才开始播放，中间各种卡顿。换了以后秒开秒放。这个差 ...</span><br>
+<span>觉得网页秒开基本上是dns查询的变化，如前面有人提到的，dns的缓存之类。如果你改一下路由器上插件的dns设置也能达到类似效果。比如我用chinadns1比默认的dns2socks快n倍，同样油管秒开</span><br>
+</p><p><b>achaohi: </b><br>
+<span>一直想买个J1900的，基本就做FQ和去广告用，不知道性能够了么</span><br>
+</p><p><b>糊状物: </b><br>
+<span>achaohi 发表于 2019-6-12 09:54</span><br>
+<span>一直想买个J1900的，基本就做FQ和去广告用，不知道性能够了么</span><br>
+<span>j1900不支持aes</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>long87755025: </b><br>
+<span>毕竟桌面处理器，普通路由器的处理器不是一个级别的。</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span>在用 还行</span><br>
+<span>koolshare的 简单无脑</span><br>
+<span>爱快这玩意不知道现在如何早前有过黑历史</span><br>
+<span>早前有过劫持apk下载的前科</span><br>
+<span>大家都要恰饭的我知道</span><br>
+<span>但是论坛上管理员态度很屌 最后删帖了事</span><br>
+<span>好像最近爱快出了kvm……里面装个lede做旁路也不错</span><br>
+</p><p><b>哈德斯: </b><br>
+<span>achaohi 发表于 2019-6-12 09:54</span><br>
+<span>一直想买个J1900的，基本就做FQ和去广告用，不知道性能够了么</span><br>
+<span>软解aes性能足够</span><br>
+</p><p><b>明月闲窗: </b><br>
+<span>hanqi7012 发表于 2019-6-12 12:52</span><br>
+<span>在用 还行</span><br>
+<span>koolshare的 简单无脑</span><br>
+<span>商业公司的东西不敢用，尤其是作用到路由器这样掐着脖子的设备上。</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span>明月闲窗 发表于 2019-6-12 13:29</span><br>
+<span>商业公司的东西不敢用，尤其是作用到路由器这样掐着脖子的设备上。</span><br>
+<span>家用倒是没所谓</span><br>
+<span>也不太在乎</span><br>
+<span>主要是当时被抓包了还不承认</span><br>
+<span>证据糊脸又说我们是免费的 爱用不用</span><br>
+<span>态度很恶心</span><br>
+<span>安全性这玩意吧 一直持怀疑态度</span><br>
+<span>毕竟是linux底子大量的开源软件说不定哪家就留了暗桩哪家就存俩0day</span><br>
+</p><p><b>zjf: </b><br>
+<span>好久没折腾了，家里WNDR4300还刷的的openwrt 15.05</span><br>
+<span>求教LEAN版的LEDE和openwrt官网的有什么区别</span><br>
+<span>要是lean版有黑科技的话我去编译，差别不大的话就直接从openwrt官网拖了</span><br>
+</p><p><b>heimu: </b><br>
+<span>软路由旁路只跑服务，主路由还是上硬路由吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>heimu: </b><br>
+<span>achaohi 发表于 2019-06-12 09:54:24</span><br>
+<span>一直想买个J1900的，基本就做FQ和去广告用，不知道性能够了么预算有的话3205u以上支持硬件直通的u吧，虚拟机折腾起来更方便，支不支持aes倒不是大问题。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-12 15:22</span><br>
+<span>好久没折腾了，家里WNDR4300还刷的的openwrt 15.05</span><br>
+<span>求教LEAN版的LEDE和openwrt官网的有什么区别</span><br>
+<span>lean版有很多优化，比官方版适合国情</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-12 17:32</span><br>
+<span>lean版有很多优化，比官方版适合国情</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2 ...</span><br>
+<span>vps上跑了大半天出错了看来还得装虚拟机来弄</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6003, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>求教几个lean的lede编译问题，wndr4300属于ar71xx，编译完镜像刷入正常启动，但是有这么几个问题：</span><br>
+<span>1 跟着镜像一起编译好的ipk包，后缀都是mips_24kc，而且不是ar71xx，是哪里没有设置的原因吗</span><br>
+<span>2 启动后，默认源1个是ar71xx，剩下的都是mips_24kc，而且安装编译好的ar7xxx的ipk提示but incompatible with the architectures configured，强制安装上去也没法运行，这个有解决办法嘛</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6003, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-14 07:02</span><br>
+<span>求教几个lean的lede编译问题，wndr4300属于ar71xx，编译完镜像刷入正常启动，但是有这么几个问题：</span><br>
+<span>1 跟着 ...</span><br>
+<span>编译的时候把要用的app勾上不是就内置在镜像里了吗，为啥要单独装</span><br>
+<span>或者发个issue也行，写的规范的issue他回答还是很快的（乱写的就直接被删了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zjf: </b><br>
+<span>qwased 发表于 2019-6-14 07:22</span><br>
+<span>编译的时候把要用的app勾上不是就内置在镜像里了吗，为啥要单独装</span><br>
+<span>或者发个issue也行，写的规范的issue他 ...</span><br>
+<span>多谢，那我去发个issue</span><br>
+<span>以前ss-libev+chinadns用习惯了，编译没找到chinadns。。。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6003, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>我就问下软路由机器是不是至少一进一出两个网口啊？</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>董卓: </b><br>
+<span>droople 发表于 2019-6-14 07:31</span><br>
+<span>我就问下软路由机器是不是至少一进一出两个网口啊？</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9 ...</span><br>
+<span>有单臂的玩法1口</span><br>
+<span>虚拟机的玩法0口</span><br>
+<span>多wan的玩法n+1口</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第82楼董卓于2019-06-14 07:41发表的:</span><br>
+<span>引用:droople 发表于 2019-6-14 07:31我就问下软路由机器是不是至少一进一出两个......</span><br>
+<span>@董卓</span><br>
+<span>前面两个完全不懂</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>lhw369: </b><br>
+<span>m920x是单网口啊。单网口还不如搞nuc。我现在就是nuc+网管交换机来做软路由的。实测满载12到14w。</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>lhw369: </b><br>
+<span>lzp729 发表于 2019-6-11 22:55</span><br>
+<span>梅林我没用过，asus的路由我都没碰过。。。</span><br>
+<span>不过如果也是基于linux的话，top命令就能看到很奇怪的进程，l ...</span><br>
+<span>哥，我们现在都跑4.19的内核了。2.6是不是太老了？</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第59楼lzp729于2019-06-11 22:55发表的:</span><br>
+<span>引用:sahara 发表于 2019-6-11 22:33系统中断哪里看？梅林系统梅林我没用过，as......</span><br>
+<span>@lzp729</span><br>
+<span>请教下 i3 7100u，i5 7200u，i7 7500u哪一个能满足日常使用需求啊</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>qwased: </b><br>
+<span>zjf 发表于 2019-6-14 07:29</span><br>
+<span>多谢，那我去发个issue</span><br>
+<span>以前ss-libev+chinadns用习惯了，编译没找到chinadns。。。</span><br>
+<span>不用的，lean版你在github搜一下有个别人备份的ssr plus，放回去packge里就有了，再勾上mwan3helper，然后用pdnsd+dnsmasq再打开dns防污染就行，把dns加速开了还能快点</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-14 07:59</span><br>
+<span>@lzp729</span><br>
+<span>请教下 i3 7100u，i5 7200u，i7 7500u哪一个能满足日常使用需求啊</span><br>
+<span>n3700 4.9内核+sfe跑300m带宽也就20%的中断，同性能的j1900实测可以跑满2000m的nat（端口聚合），你这i3属于杀鸡用牛刀了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第88楼qwased于2019-06-14 08:17发表的:</span><br>
+<span>引用:droople 发表于 2019-6-14 07:59@lzp729请教下 i3 7100u，......</span><br>
+<span>@qwased</span><br>
+<span>哦，那用楼主的CPu就够了吧</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>chan: </b><br>
+<span>droople 发表于 2019-6-14 09:33</span><br>
+<span>@qwased</span><br>
+<span>哦，那用楼主的CPu就够了吧</span><br>
+<span>我这个CPU很够用了，还支持AES指令集</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-14 09:33</span><br>
+<span>@qwased</span><br>
+<span>哦，那用楼主的CPu就够了吧</span><br>
+<span>家用就算是n450这种古董都够了。。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>史莱姆KING 发表于 2019-6-12 06:58</span><br>
+<span>电费，我觉得还好</span><br>
+<span>GFW封SS这个确实比较麻烦</span><br>
+<span>兄弟，koolshare的￥￥软件有备份吗？我最近刚折腾了一个n3700的软路由。</span><br>
+</p><p><b>lzp729: </b><br>
+<span>droople 发表于 2019-6-14 07:59</span><br>
+<span>@lzp729</span><br>
+<span>请教下 i3 7100u，i5 7200u，i7 7500u哪一个能满足日常使用需求啊</span><br>
+<span>需求不同的，我100多条带ipset自定义的规则，我要i7当路由</span><br>
+</p><p><b>qwased: </b><br>
+<span>lzp729 发表于 2019-6-14 10:42</span><br>
+<span>需求不同的，我100多条带ipset自定义的规则，我要i7当路由</span><br>
+<span>带规则的话还是买mikrotik的比较好吧，千把块能买到带规则跑10mpps转发率还有万兆口的</span><br>
+<span>自己弄x86要达到这个性能太麻烦了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>尼特geek 发表于 2019-6-14 10:21</span><br>
+<span>兄弟，koolshare的￥￥软件有备份吗？我最近刚折腾了一个n3700的软路由。</span><br>
+<span>有热心网友备份了，我稍后PM你地址</span><br>
+</p><p><b>lzp729: </b><br>
+<span>qwased 发表于 2019-6-14 11:09</span><br>
+<span>带规则的话还是买mikrotik的比较好吧，千把块能买到带规则跑10mpps转发率还有万兆口的</span><br>
+<span>自己弄x86要达到这 ...</span><br>
+<span>我也有一台mikrotik，还是7级的license</span><br>
+<span>玩下来还是感觉我比较喜欢玩linux，可以自己做点小玩具什么</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第91楼qwased于2019-06-14 10:09发表的:</span><br>
+<span>引用:droople 发表于 2019-6-14 09:33@qwased哦，那用楼主的CPu就够了......</span><br>
+<span>@qwased</span><br>
+<span>J1900够用吗？</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>qwased: </b><br>
+<span>droople 发表于 2019-6-14 17:04</span><br>
+<span>@qwased</span><br>
+<span>J1900够用吗？</span><br>
+<span>开网吧都够了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>qwased 发表于 2019-6-14 19:26</span><br>
+<span>开网吧都够了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>好的，谢谢啦</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838039[50-100]</guid>
+    </item>
+    <item>
+      <title>软路由威力惊人啊[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838039-1-1.html</link>
+      <description>软路由威力惊人啊&#13;
+ 本帖最后由 chan 于 2019-6-9 11:44 编辑 
+
+之前发贴询问买什么路由器好，很多人推荐软路由。于是买了一个3855U/8G/64G的软路由，用EXSI装了爱快和LEDE双系统，爱快用来拨号和流量管理，LEDE去广告跑酸酸乳什么的。本来之前有坛友说跑酸酸乳软路由快很多我还不以为然，并不认为会有太大的差别。结果用上就惊了，油管简直是秒开，根本看不到转圈圈。上网体验和以前简直天差地别。之后打算再买一套VELOP组个有线回程的MESH，基本上就完美了。另外发现软路由还有很多好处，用EXSI装个LINUX跑家庭服务器什么的, 因为本来就等于一台小电脑。LEDE甚至还有DOCKER插件。</description>
+      <content:encoded><![CDATA[<p><b>chan: </b><br>
+<span>软路由威力惊人啊</span><br>
+<span> 本帖最后由 chan 于 2019-6-9 11:44 编辑 </span><br>
+<span>之前发贴询问买什么路由器好，很多人推荐软路由。于是买了一个3855U/8G/64G的软路由，用EXSI装了爱快和LEDE双系统，爱快用来拨号和流量管理，LEDE去广告跑酸酸乳什么的。本来之前有坛友说跑酸酸乳软路由快很多我还不以为然，并不认为会有太大的差别。结果用上就惊了，油管简直是秒开，根本看不到转圈圈。上网体验和以前简直天差地别。之后打算再买一套VELOP组个有线回程的MESH，基本上就完美了。另外发现软路由还有很多好处，用EXSI装个LINUX跑家庭服务器什么的, 因为本来就等于一台小电脑。LEDE甚至还有DOCKER插件。</span><br>
+</p><p><b>King5268: </b><br>
+<span>chan 发表于 2019-6-9 11:43</span><br>
+<span>之前发贴询问买什么路由器好，很多人推荐软路由。于是买了一个3855U/8G/64G的软路由，用EXSI装了爱快和LEDE ...</span><br>
+<span>好久没用爱快了，现在免费版还有广告吗？</span><br>
+</p><p><b>林飘渺: </b><br>
+<span>功耗也今非昔比</span><br>
+<span>—— 来自 realme 3 Pro, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>chan: </b><br>
+<span>King5268 发表于 2019-6-9 11:46</span><br>
+<span>好久没用爱快了，现在免费版还有广告吗？</span><br>
+<span>我用的最新的3.2，没看到广告</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>如果把nas和软路由合二为一安全吗？是不是得补网络安全知识才行？</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>有教程么？有具体硬件要求么？还是随便组个PC都可以</span><br>
+</p><p><b>chan: </b><br>
+<span>fcbjay 发表于 2019-6-9 12:14</span><br>
+<span>有教程么？有具体硬件要求么？还是随便组个PC都可以</span><br>
+<span>随便一个pc都行。然而这个是24小时开机的，你得考虑功耗和散热等问题，也用不到多强大的计算能力，最好还是搞个低功耗的u，我是在淘宝买的包括外壳的一套。顶楼那一套加起来1468。要求不高的话其实几百块的也没问题。</span><br>
+</p><p><b>chan: </b><br>
+<span>有口皆悲 发表于 2019-6-9 12:11</span><br>
+<span>如果把nas和软路由合二为一安全吗？是不是得补网络安全知识才行？</span><br>
+<span>我看到很多人这样搞，应该没什么问题，可以起koolshare等地方找找教程</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>代理速度快是服务器质量好吧？我这边本地 Surge 代理还是卡得要死。。。</span><br>
+</p><p><b>chan: </b><br>
+<span> 本帖最后由 chan 于 2019-6-9 12:48 编辑 </span><br>
+<span>kiddolck 发表于 2019-6-9 12:43</span><br>
+<span>代理速度快是服务器质量好吧？我这边本地 Surge 代理还是卡得要死。。。 ...</span><br>
+<span>不是的，我同一个服务器，以前的普通路由和现在的软路由做的对比。当然不光是酸酸乳，整体上网速度都和原来不可同日而语</span><br>
+</p><p><b>糊状物: </b><br>
+<span>fcbjay 发表于 2019-6-9 12:14</span><br>
+<span>有教程么？有具体硬件要求么？还是随便组个PC都可以</span><br>
+<span>你路由器需要长期保持在线吗？</span><br>
+<span>需要的话，你主板支持WATCHDOG吗？</span><br>
+<span>不支持的话，你电脑死机了怎么办。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>有口皆悲 发表于 2019-6-9 12:11</span><br>
+<span>如果把nas和软路由合二为一安全吗？是不是得补网络安全知识才行？</span><br>
+<span>可以用,全是虚拟化影响更加可以无视</span><br>
+<span>IPMI或者ILO最好带着 远程控制 装系统很有用,不需要插显示器了</span><br>
+<span>watchDog不需要,死机概率太太低了,没必要.</span><br>
+<span>ECC看心情.</span><br>
+</p><p><b>雪影: </b><br>
+<span>软路由主要是主板难搞，都是DC ATX的itx板子</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>呼和浩特: </b><br>
+<span>那么为毛沃德a8-5500四核机下载超过10mb的话ut就卡死呢？</span><br>
+<span>win10罪大恶极？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>呼和浩特 发表于 2019-6-9 13:19</span><br>
+<span>那么为毛沃德a8-5500四核机下载超过10mb的话ut就卡死呢？</span><br>
+<span>win10罪大恶极？</span><br>
+<span>对,没错就是win10一个默认设置的锅</span><br>
+</p><p><b>呼和浩特: </b><br>
+<span>塔奇克马 发表于 2019-6-9 13:21</span><br>
+<span>对,没错就是win10一个默认设置的锅</span><br>
+<span>求解</span><br>
+</p><p><b>lzp729: </b><br>
+<span>前两个年比较热的是工控机拿来做装软路由，现在都在关注thinkcenter m系列，尤其是m920x</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>呼和浩特 发表于 2019-6-9 13:25</span><br>
+<span>求解</span><br>
+<span>我找不到也不记得了,</span><br>
+<span>关键字也许是 win10 下载 卡死 死机 什么的</span><br>
+<span>但是结果太多了 你自己筛选吧</span><br>
+<span>只记得类似于QOS的设置一种.</span><br>
+</p><p><b>两个路人: </b><br>
+<span>雪影 发表于 2019-6-9 13:18</span><br>
+<span>软路由主要是主板难搞，都是DC ATX的itx板子</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 ...</span><br>
+<span>牙膏厂NUC卖开发板的说。</span><br>
+</p><p><b>oskneo: </b><br>
+<span>其实能将软路由跟主力机合体吗，现在已跟nas合体</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>雪影: </b><br>
+<span>两个路人 发表于 2019-6-9 13:37</span><br>
+<span>牙膏厂NUC卖开发板的说。</span><br>
+<span>nuc也是dc啊，就是不想要dc</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qqzj12: </b><br>
+<span>您家带宽是多少呢？小水管的话是不是提升不大</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>oskneo 发表于 2019-6-9 13:40</span><br>
+<span>其实能将软路由跟主力机合体吗，现在已跟nas合体</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅 ...</span><br>
+<span>要合体你只能选择不关机了,或者这个软路由只有你主力机开机时候用.</span><br>
+</p><p><b>oskneo: </b><br>
+<span>塔奇克马 发表于 2019-6-9 13:46</span><br>
+<span>要合体你只能选择不关机了,或者这个软路由只有你主力机开机时候用.</span><br>
+<span>一直都不关机的。</span><br>
+<span>究竟能比偶现在的3个ac68u组成的mesh强多少</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>chan: </b><br>
+<span>qqzj12 发表于 2019-6-9 13:46</span><br>
+<span>您家带宽是多少呢？小水管的话是不是提升不大</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>200m，我个人理解提升大和带宽的关系不大，而是软路由有比较强的处理和解析能力，所以能更好的利用带宽。就像玩网络游戏，很多时候卡不是带宽不够，是丢包什么的。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>oskneo 发表于 2019-6-9 13:51</span><br>
+<span>一直都不关机的。</span><br>
+<span>究竟能比偶现在的3个ac68u组成的mesh强多少</span><br>
+<span>那你就虚拟化得了.</span><br>
+<span>主力guest机直通显卡完事,性能没啥损失</span><br>
+<span>软路由guest lan口虚拟交换机分配到一块,</span><br>
+<span>软路由wan口单独出去</span><br>
+<span>用到两个网口</span><br>
+<span>宿主用 esxi kvm 什么的都一样.</span><br>
+<span>当然windows 装vmware这种也可以实现,两个网口分别桥接就是.</span><br>
+<span>完事了..</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>oskneo 发表于 2019-6-9 13:40</span><br>
+<span>其实能将软路由跟主力机合体吗，现在已跟nas合体</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅 ...</span><br>
+<span>虚拟化的话esxi显卡直通不方便，还有usb直通等麻烦。</span><br>
+<span>我现在的做法就是nas、下载机、软路由合体，完全够用了。</span><br>
+<span>参见我的折腾</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1720247-1-1.html</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>有布线的话，磊科mg1200ac，咸鱼90一个，还要啥自行车。</span><br>
+</p><p><b>qqzj12: </b><br>
+<span>chan 发表于 2019-06-09 13:54:20</span><br>
+<span>200m，我个人理解提升大和带宽的关系不大，而是软路由有比较强的处理和解析能力，所以能更好的利用带宽。 ...所以丢包是硬件能力不够强的意思吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>qwased: </b><br>
+<span>网页秒开其实是因为民间固件的一些小优化，比如dns缓存+dns快速响应，小包优先发送，等等</span><br>
+<span>这些东西一般只有民间人士在鼓捣</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>calmer: </b><br>
+<span>有点担心这软路由OS的安全性了。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>lede装在群晖的vmm里</span><br>
+<span>当旁路路由用</span><br>
+<span>现在惊闻acrh17 lean给上梅林了</span><br>
+<span>感觉又可以折腾折腾</span><br>
+</p><p><b>zyhang: </b><br>
+<span>高射炮打蚊子感觉....</span><br>
+</p><p><b>karlmao: </b><br>
+<span>oskneo 发表于 2019-6-9 13:40</span><br>
+<span>其实能将软路由跟主力机合体吗，现在已跟nas合体</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅 ...</span><br>
+<span>那不就是刚有宽带时候的pppoe拨号吗？windows 98记得还要装软件</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>消亡值语义: </b><br>
+<span>不会是心理作用吧？有其他人用过吗？</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>跟楼主一样，爱快+LEDE，不过我是nas兼软路由，基础系统Windows Server 2016，VMware Workstation里面跑软路由，cpu是奔腾G4560，4HDD+1SSD组存储池，上周刚把3个3T换成8T，存储池换硬盘真的挺方便的～</span><br>
+<span>200mb光纤，爱快开流控之后下载只能到16MB多点，cpu利用率100%，对了，爱快是x64版本，32位版本更慢…</span><br>
+<span>还试过BHW和石像鬼，都不太好用…</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>lzp729 发表于 2019-6-9 13:26</span><br>
+<span>前两个年比较热的是工控机拿来做装软路由，现在都在关注thinkcenter m系列，尤其是m920x ...</span><br>
+<span>我就等着用我老婆淘汰下来的nuc了</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>楼主你要是不在这台机器塞nas的话EXSI可以不用装 爱快6.4号更新了个版本内置了KVM 直接能塞lede</span><br>
+</p><p><b>chan: </b><br>
+<span>Saker_bobo 发表于 2019-6-11 14:38</span><br>
+<span>楼主你要是不在这台机器塞nas的话EXSI可以不用装 爱快6.4号更新了个版本内置了KVM 直接能塞lede ...</span><br>
+<span>嗯我也看到了，有空研究一下。不过装个EXSI也没什么大碍，还可以跑个LINUX玩玩。</span><br>
+</p><p><b>chan: </b><br>
+<span>消亡值语义 发表于 2019-6-11 08:04</span><br>
+<span>不会是心理作用吧？有其他人用过吗？</span><br>
+<span>不会。原来打开一个YOUTUBE视频，转五、六秒的圈圈才开始播放，中间各种卡顿。换了以后秒开秒放。这个差距怎么也不可能是幻觉。</span><br>
+</p><p><b>qwased: </b><br>
+<span>消亡值语义 发表于 2019-6-11 08:04</span><br>
+<span>不会是心理作用吧？有其他人用过吗？</span><br>
+<span>可以80块钱买一个newifi3 d2刷lean版openwrt体验一下，实际上不是性能差距而是固件没做优化导致的性能产生差距的只有酸酸乳的带宽</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lzp729: </b><br>
+<span>尼特geek 发表于 2019-6-11 09:05</span><br>
+<span>我就等着用我老婆淘汰下来的nuc了</span><br>
+<span>NUC实在爱不起来啊。。。 网口太少了，没啥扩展能力。。。</span><br>
+</p><p><b>chachi: </b><br>
+<span>vmwareworkstation性能不行</span><br>
+<span>试试hyperv</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>Syai: </b><br>
+<span>qieyifonger 发表于 2019-6-11 08:49</span><br>
+<span>跟楼主一样，爱快+LEDE，不过我是nas兼软路由，基础系统Windows Server 2016，VMware Workstation里面跑软 ...</span><br>
+<span>VM的锅吧，我公司用的爱快的，下载跑90M/S CPU占用也不算高，渣渣1037U</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>lzp729 发表于 2019-6-11 15:24</span><br>
+<span>NUC实在爱不起来啊。。。 网口太少了，没啥扩展能力。。。</span><br>
+<span>网口有一个千兆就差不多了吧</span><br>
+<span>软路由专干网络层和以上的网络事务，二层交换这种活交给交换机做就好了</span><br>
+</p><p><b>糊状物: </b><br>
+<span>lwa190212 发表于 2019-6-11 15:38</span><br>
+<span>网口有一个千兆就差不多了吧</span><br>
+<span>软路由专干网络层和以上的网络事务，二层交换这种活交给交换机做就好 ...</span><br>
+<span>当你有两个交换机又不想再加一个交换机时就不这么想了，</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>糊状物 发表于 2019-6-11 17:43</span><br>
+<span>当你有两个交换机又不想再加一个交换机时就不这么想了，</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next- ...</span><br>
+<span>不太明白，为什么不想再加一个交换机？</span><br>
+</p><p><b>糊状物: </b><br>
+<span>lwa190212 发表于 2019-6-11 17:51</span><br>
+<span>不太明白，为什么不想再加一个交换机？</span><br>
+<span>两个交换机之间绝大多时候没数据交换的需求，例如一台监控用的，一台其他用的，或者两台是没关联的人用的，之类的。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>糊状物: </b><br>
+<span>何况有些人要接两根光纤呢，端口就更不够了</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>糊状物 发表于 2019-6-11 18:37</span><br>
+<span>两个交换机之间绝大多时候没数据交换的需求，例如一台监控用的，一台其他用的，或者两台是没关联的人用的 ...</span><br>
+<span>你说的没错啊，就因为没有极高的背板带宽需求，所以才可以用两台交换机提供更多端口</span><br>
+<span>可是我不明白的是为什么当你有两个交换机的时候不想再加一个交换机呢？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838039[0-50]</guid>
+    </item>
+  </channel>
+</rss>

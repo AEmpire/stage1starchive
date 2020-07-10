@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有开发过chrome插件的大佬？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有开发过chrome插件的大佬？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:46:25 +0000</lastBuildDate>
+    <item>
+      <title>有没有开发过chrome插件的大佬？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858667-1-1.html</link>
+      <description>有没有开发过chrome插件的大佬？&#13;
+情况是这样，有一个平台的页面有一个列表，没有导出，现在是人工一个个点进详情里面把信息复制出，所以想要做一个插件自动把这些事情做了，我搞了两天，想问问是不是我一定要模拟点击一个个打开页面再用JQ把信息找到？如果列表有30行那不是要打开30个tab?</description>
+      <content:encoded><![CDATA[<p><b>扭曲怪: </b><br>
+<span>有没有开发过chrome插件的大佬？</span><br>
+<span>情况是这样，有一个平台的页面有一个列表，没有导出，现在是人工一个个点进详情里面把信息复制出，所以想要做一个插件自动把这些事情做了，我搞了两天，想问问是不是我一定要模拟点击一个个打开页面再用JQ把信息找到？如果列表有30行那不是要打开30个tab?</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>看看网络请求这些信息是在啥时候加载的</span><br>
+</p><p><b>董卓: </b><br>
+<span>能够直接模拟会话和请求会快一点</span><br>
+<span>点击去是最后不行才做的办法</span><br>
+</p><p><b>thq: </b><br>
+<span>分析有哪些网络请求，然后直接模拟网络请求，其实就是个爬虫而已。</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>抓一下接口就行了，看看返回数据的格式</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>把脚本写在预加载的js脚本里比较好</span><br>
+</p><p><b>扭曲怪: </b><br>
+<span>怎么模拟会话？直接用ajax get?</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>我觉得用python可能更容易</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>阿卡尼斯: </b><br>
+<span>上52pojie问问呗</span><br>
+<span>—— 来自 HUAWEI RVL-AL09, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>扭曲怪 发表于 2019-10-9 19:26</span><br>
+<span>怎么模拟会话？直接用ajax get?</span><br>
+<span>开发者工具里看网络请求</span><br>
+<span>本来是GET就用GET</span><br>
+<span>本来是POST就用POST</span><br>
+</p><p><b>mixxiu: </b><br>
+<span>nodejs/nodejs+puppeteer</span><br>
+</p><p><b>Dreamophobia: </b><br>
+<span>f12，network，看看你为了获取一个列表请求了哪些接口，什么方法什么传参</span><br>
+<span>然后再看看返回列表数据，写个方法循环请求即可，最后数据汇总起来可以直接输出CSV下载</span><br>
+</p><p><b>喵呜哇哈: </b><br>
+<span>scrapy</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>美人希: </b><br>
+<span>扭曲怪 发表于 2019-10-9 19:26</span><br>
+<span>怎么模拟会话？直接用ajax get?</span><br>
+<span>以防有隐藏传参，f12里直接拷贝请求接口右键为fetch url</span><br>
+<span>— from OPPO PAAM00, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>脑洞: </b><br>
+<span>学python把，先把链接全抓了，再刷个for循环，搞定</span><br>
+</p><p><b>扭曲怪: </b><br>
+<span>不是啊，用浏览器插件的形式就是想避开登录验证啊</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>扭曲怪 发表于 2019-10-9 21:15</span><br>
+<span>不是啊，用浏览器插件的形式就是想避开登录验证啊</span><br>
+<span>用的多频繁？</span><br>
+<span>如果是1天1次或者更低，可以浏览器登录然后把http头拷贝出来</span><br>
+</p><p><b>晚韶华: </b><br>
+<span>chrome插件血坑，建议用油猴脚本</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858667[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助！idm下载youguan一直提示没速度</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助！idm下载youguan一直提示没速度</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:08:41 +0000</lastBuildDate>
+    <item>
+      <title>求助！idm下载youguan一直提示没速度[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914285-1-1.html</link>
+      <description>求助！idm下载youguan一直提示没速度&#13;
+ 本帖最后由 从心之人 于 2020-2-17 14:54 编辑 
+
+前几天下载了个idm想用来下载视频，
+&#13;
+结果下载youguan视频的时候显示没速度，超时
+&#13;
+两种代理方式都试过了，依旧不行
+&#13;
+ssr也切换过全局模式，还是无法解决
+&#13;
+就来泥潭寻找大佬的帮助了</description>
+      <content:encoded><![CDATA[<p><b>从心之人: </b><br>
+<span>求助！idm下载youguan一直提示没速度</span><br>
+<span> 本帖最后由 从心之人 于 2020-2-17 14:54 编辑 </span><br>
+<span>前几天下载了个idm想用来下载视频，</span><br>
+<span>结果下载youguan视频的时候显示没速度，超时</span><br>
+<span>两种代理方式都试过了，依旧不行</span><br>
+<span>ssr也切换过全局模式，还是无法解决</span><br>
+<span>就来泥潭寻找大佬的帮助了</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>这个问题也困扰了我很久 最后我的办法是用chrome插件解析出地址 然后按alt跳过idm用chrome自带的下载管理器下，就可以通过switchy omega下载了</span><br>
+</p><p><b>从心之人: </b><br>
+<span>neotaburiss 发表于 2020-2-17 15:08</span><br>
+<span>这个问题也困扰了我很久 最后我的办法是用chrome插件解析出地址 然后按alt跳过idm用chrome自带的下载管理器 ...</span><br>
+<span>感觉这样好麻烦，不如直接从其他网站下载方便，不过还是谢谢了</span><br>
+</p><p><b>Saikou: </b><br>
+<span>换个下载器试一下呢，我用Jdownloader没出现问题</span><br>
+<img src="https://i.loli.net/2020/02/17/BkHA9wENFdMpbvi.png" title="https://i.loli.net/2020/02/17/BkHA9wENFdMpbvi.png"><br>
+</p><p><b>两个路人: </b><br>
+<span>最后你会向YouTube-dl妥协的（迫真</span><br>
+</p><p><b>kingrowing: </b><br>
+<span>我刚才试了下，我这边都没问题，不管事chrome还是fox都是正常下载的</span><br>
+</p><p><b>tokimon: </b><br>
+<span>youtube dl＋ proxy</span><br>
+</p><p><b>从心之人: </b><br>
+<span>两个路人 发表于 2020-2-17 20:49</span><br>
+<span>最后你会向YouTube-dl妥协的（迫真</span><br>
+<span>主要是没搞懂</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>IDM是只支持socks代理吗？还是汉化有问题？</span><br>
+</p><p><b>yikaa: </b><br>
+<span>socks代理我就没成功过，于是用系统代理了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>youtube-dl秒杀</span><br>
+</p><p><b>fireandstar: </b><br>
+<span>雪ノ下だんご 发表于 2020-2-21 20:16</span><br>
+<span>IDM是只支持socks代理吗？还是汉化有问题？</span><br>
+<span>socks和http都支持，外面的那个是http，点进高级里设置的才是socks代理</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>从心之人 发表于 2020-2-21 20:06</span><br>
+<span>主要是没搞懂</span><br>
+<span>没搞懂的话有个gui，缺点是这玩意不能走系统代理，代理要自己配置</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>youtube-dl真的好用 **PH一肩挑</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>youguan-dl真香</span><br>
+</p><p><b>bbpoo: </b><br>
+<span>youguan-dl —proxy 您的梯子协议://地址 链接 -f best……</span><br>
+</p><p><b>JWJking: </b><br>
+<span>TheDoctor 发表于 2020-2-21 22:06</span><br>
+<span>没搞懂的话有个gui，缺点是这玩意不能走系统代理，代理要自己配置</span><br>
+<span>可以的，反而这是我唯一觉得代理稳定的下载工具，其他包括付费的软件都经常无法解析或者出错</span><br>
+<span>--proxy URL                      Use the specified HTTP/HTTPS/SOCKS proxy.</span><br>
+<span>                                 To enable SOCKS proxy, specify a proper</span><br>
+<span>                                 scheme. For example</span><br>
+<span>                                 socks5://127.0.0.1:1080/. Pass in an empty</span><br>
+<span>                                 string (--proxy "") for direct connection</span><br>
+<span>--socket-timeout SECONDS         Time to wait before giving up, in seconds</span><br>
+<span>--source-address IP            Client-side IP address to bind to</span><br>
+<span>-4, --force-ipv4               Make all connections via IPv4</span><br>
+<span>-6, --force-ipv6               Make all connections via IPv6</span><br>
+</p><p><b>jestime: </b><br>
+<span>你试试那个从ie获取？</span><br>
+</p><p><b>sccs: </b><br>
+<span>我这里使用没有问题啊</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>从心之人 发表于 2020-2-21 20:06</span><br>
+<span>主要是没搞懂</span><br>
+<span>YDL_UI_v2.6.4_Portable</span><br>
+<span>youtube-dl-gui-0.4-win-portable</span><br>
+<span>这俩都可用</span><br>
+<span>当然，电脑要开全局爬</span><br>
+</p><p><b>hein: </b><br>
+<span>JWJking 发表于 2020-2-22 02:40</span><br>
+<span>可以的，反而这是我唯一觉得代理稳定的下载工具，其他包括付费的软件都经常无法解析或者出错</span><br>
+<span> ...</span><br>
+<span>为什么我就没成功过，ClipConvert不能下的，这个也下不了呢</span><br>
+</p><p><b>kingrowing: </b><br>
+<span>借楼问下win有下载youguan列表的工具吗，之前mac有，现在win都是一个一个下</span><br>
+</p><p><b>kingrowing: </b><br>
+<span> 本帖最后由 kingrowing 于 2020-2-22 14:03 编辑 </span><br>
+<span>网卡了，编辑了</span><br>
+</p><p><b>kingrowing: </b><br>
+<span> 本帖最后由 kingrowing 于 2020-2-22 14:04 编辑 </span><br>
+<span>网卡了，重复了，编辑了</span><br>
+</p><p><b>litel: </b><br>
+<span>youtube-dl设置代理参数，天下第一。。。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>JWJking: </b><br>
+<span>hein 发表于 2020-2-22 13:21</span><br>
+<span>为什么我就没成功过，ClipConvert不能下的，这个也下不了呢</span><br>
+<span>我自己试用比较的是4K Video Downloader，youtube dl能爬完400+的视频列表不出错，一口气把一个播主的爬完，4K基本上25个视频就要解析失败一次重新下，还剩不能下的基本上是播主自己设置的私密视频。</span><br>
+<span>proxy就和SwitchyOmega之类的一样对应本地socks5/https端口就行，代理稳定就不会出错，我有条163的线路经常丢包就不行，cn2 gia的线路就非常稳。</span><br>
+</p><p><b>从心之人: </b><br>
+<span>jestime 发表于 2020-2-22 09:52</span><br>
+<span>你试试那个从ie获取？</span><br>
+<span>图里面那个就是选的从ie获取，还是不能用</span><br>
+</p><p><b>UMN307: </b><br>
+<span>JWJking 发表于 2020-2-22 16:09</span><br>
+<span>我自己试用比较的是4K Video Downloader，youtube dl能爬完400+的视频列表不出错，一口气把一个播主的爬完 ...</span><br>
+<span>4k video downloader 卡解析是什么问题呢？代理已经设置好了，同样的设置用idm也是正常的</span><br>
+</p><p><b>JWJking: </b><br>
+<span>UMN307 发表于 2020-3-2 23:00</span><br>
+<span>4k video downloader 卡解析是什么问题呢？代理已经设置好了，同样的设置用idm也是正常的 ...</span><br>
+<span>不清楚，可能是软件对播放列表支持的问题，要一边获取名称封面字幕信息一边获取地址的，可能更容易出错吧，</span><br>
+<span>我后来换youtube dl就没再研究了</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>youtube-dl</span><br>
+<span>命令行不会用的话 用这个</span><br>
+<span>youtube-dlg</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>UMN307: </b><br>
+<span>JWJking 发表于 2020-3-2 23:11</span><br>
+<span>不清楚，可能是软件对播放列表支持的问题，要一边获取名称封面字幕信息一边获取地址的，可能更容易出错吧 ...</span><br>
+<span>换了楼上推荐的基于youtube-dl的YDLUI，挺稳定的，不折腾4kvideodownloader了</span><br>
+</p><p><b>Suzutsuki.Mk.II: </b><br>
+<span>有个一步到位的法子，下载一个netch，把idm添加进去，用扫描选项添加idm全部exe，然后启动netch，最后开始下载**视频，就可以了，8k视频照样下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914285[0-50]</guid>
+    </item>
+  </channel>
+</rss>

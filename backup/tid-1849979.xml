@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>处理器多线程跑分低点解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>处理器多线程跑分低点解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:41:02 +0000</lastBuildDate>
+    <item>
+      <title>处理器多线程跑分低点解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849979-1-1.html</link>
+      <description>处理器多线程跑分低点解&#13;
+i3-8100，用cpuz跑分，单核能到430还算正常，多核才1600出头，有两次还没到1600，倍率一直没过3.8，我看网上倍率一般都在3.8以上，还有能到3.9的
+&#13;
+内存是双通道2400MHz，难道是我的主板不行？</description>
+      <content:encoded><![CDATA[<p><b>Dox: </b><br>
+<span>处理器多线程跑分低点解</span><br>
+<span>i3-8100，用cpuz跑分，单核能到430还算正常，多核才1600出头，有两次还没到1600，倍率一直没过3.8，我看网上倍率一般都在3.8以上，还有能到3.9的</span><br>
+<span>内存是双通道2400MHz，难道是我的主板不行？</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>8100一个四核四线程的也就这样了</span><br>
+</p><p><b>你的全家: </b><br>
+<span>是你cpu不行</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Dox: </b><br>
+<span>你的全家 发表于 2019-7-29 20:48</span><br>
+<span>是你cpu不行</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+<span>我这颗体质较差？</span><br>
+</p><p><b>qwased: </b><br>
+<span>散热不行降频了？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liuguokobe: </b><br>
+<span>430*4不是才1720么 但是你单核boost一般性比全核心要高0.2-0.3mhz 算算1600出头不是正常的么 </span><br>
+</p><p><b>Dox: </b><br>
+<span>qwased 发表于 2019-7-29 20:57</span><br>
+<span>散热不行降频了？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>如果降频的话也会影响单核分数吧</span><br>
+</p><p><b>qwased: </b><br>
+<span>Dox 发表于 2019-7-29 21:00</span><br>
+<span>如果降频的话也会影响单核分数吧</span><br>
+<span>单核的发热小啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Dox: </b><br>
+<span>qwased 发表于 2019-7-29 21:06</span><br>
+<span>单核的发热小啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>用aida64看了下，测试的时候cpu才50多度，核心温度64，这个温度没道理降频啊</span><br>
+</p><p><b>serial: </b><br>
+<span>Dox 发表于 2019-7-29 21:48</span><br>
+<span>用aida64看了下，测试的时候cpu才50多度，核心温度64，这个温度没道理降频啊 ...</span><br>
+<span>无论温度，单核睿频就是比全核睿频高。intel决定的。</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>一个4c4t看啥多线程啊，想看多线程上amd啊</span><br>
+</p><p><b>albertfu: </b><br>
+<span>搜了一下这cpu没有boost，也没有SMT，接近不了4x是因为后台没关干净吧</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>8100全核只有3.6</span><br>
+</p><p><b>Dox: </b><br>
+<span>albertfu 发表于 2019-7-30 00:31</span><br>
+<span>搜了一下这cpu没有boost，也没有SMT，接近不了4x是因为后台没关干净吧</span><br>
+<span>今天开机后直接开cpuz测试，和昨天基本一样，应该是排除了后台的关系</span><br>
+<span>我看看是不是和电压有关系</span><br>
+</p><p><b>qazesz: </b><br>
+<span>单核这么强还要多核性能干嘛</span><br>
+</p><p><b>xsummer: </b><br>
+<span> 本帖最后由 xsummer 于 2019-7-30 17:49 编辑 </span><br>
+<span>补丁？不过补丁只影响超线程吧</span><br>
+</p><p><b>七里由馬: </b><br>
+<span>8100又不能超，这个分数不是很正常吗……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849979[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Hadoop，Kafka，flink怎么入门</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Hadoop，Kafka，flink怎么入门</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:14:22 +0000</lastBuildDate>
+    <item>
+      <title>Hadoop，Kafka，flink怎么入门[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919847-1-1.html</link>
+      <description>Hadoop，Kafka，flink怎么入门&#13;
+完全零基础，想入门Hadoop，Kafka，flink这三个组件，求推理论与实践相结合的教程。
+&#13;
+中文最好，英文也可以，总之先谢谢大家了</description>
+      <content:encoded><![CDATA[<p><b>乙酸乙酯: </b><br>
+<span>Hadoop，Kafka，flink怎么入门</span><br>
+<span>完全零基础，想入门Hadoop，Kafka，flink这三个组件，求推理论与实践相结合的教程。</span><br>
+<span>中文最好，英文也可以，总之先谢谢大家了</span><br>
+</p><p><b>野王明凯: </b><br>
+<span>公司有项目带着做最好吧，自己研究没有需求驱动很难学进去</span><br>
+</p><p><b>布拉维坎的屠夫: </b><br>
+<span>入门看get start不够吗，要到什么深度？</span><br>
+</p><p><b>lonely1eaf: </b><br>
+<span>没实际业务不好搞的，没数据跑起来流起来，这三个东西部署了都没啥用</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>野王明凯 发表于 2020-3-20 09:24</span><br>
+<span>公司有项目带着做最好吧，自己研究没有需求驱动很难学进去</span><br>
+<span>公司那边让我先自学一下...但我就找到几个安装教程</span><br>
+</p><p><b>swrrt_11: </b><br>
+<span>安装教程能跑起来可能就要一个星期</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>布拉维坎的屠夫 发表于 2020-3-20 09:24</span><br>
+<span>入门看get start不够吗，要到什么深度？</span><br>
+<span>因为没概念所以没法回答要到什么深度，get start是什么？</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>swrrt_11 发表于 2020-3-20 09:35</span><br>
+<span>安装教程能跑起来可能就要一个星期</span><br>
+<span>是程序员的日常</span><br>
+</p><p><b>墨无零: </b><br>
+<span>hadoop.apache.org</span><br>
+</p><p><b>布拉维坎的屠夫: </b><br>
+<span>乙酸乙酯 发表于 2020-3-20 09:35</span><br>
+<span>因为没概念所以没法回答要到什么深度，get start是什么？</span><br>
+<span>https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html</span><br>
+<span>http://kafka.apache.org/quickstart</span><br>
+<span>https://ci.apache.org/projects/flink/flink-docs-release-1.10/getting-started/tutorials/local_setup.html</span><br>
+</p><p><b>roamer: </b><br>
+<span>哈哈，新手光hadoop 包括绑定的yarn hdfs 有点概念就要点时间. standalone跑起来都没啥价值，然后还要搞虚拟机</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>布拉维坎的屠夫 发表于 2020-3-20 10:25</span><br>
+<span>https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html</span><br>
+<span>http:// ...</span><br>
+<span>哦哦是官方文档啊，感谢</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>你先跑起来再说…………跑起来就够费事的，学这个反而没那么困难…………</span><br>
+<span>跑起来都不用书，主要是谷歌……</span><br>
+</p><p><b>DeepResidual: </b><br>
+<span>我觉得完全没概念的话从文档上手并不好。建议去找个讲cloud computing的课，给你把云计算历史讲一遍，讲明白这些框架为什么会被发明出来，是解决什么问题的。</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>DeepResidual 发表于 2020-3-20 10:35</span><br>
+<span>我觉得完全没概念的话从文档上手并不好。建议去找个讲cloud computing的课，给你把云计算历史讲一遍，讲明 ...</span><br>
+<span>有道理，学习前先有个整体印象</span><br>
+</p><p><b>青龙圣者: </b><br>
+<span>大数据码农路过。</span><br>
+<span>建议先学会搭个管理平台。常见是CDH，然后根据CDH上的组件你一个一个搭就完事了，和乐高拼图差不多。</span><br>
+<span>原理的了解看教程，flink现在是阿里主力，教程很多的。</span><br>
+</p><p><b>Redis: </b><br>
+<span>这些也没啥好入门的</span><br>
+<span>实际操作几次就会了，不是很难的东西</span><br>
+</p><p><b>keamedes: </b><br>
+<span>从用户角度来说是很简单的东西，但是出了问题也是很麻烦的东西</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919847[0-50]</guid>
+    </item>
+  </channel>
+</rss>

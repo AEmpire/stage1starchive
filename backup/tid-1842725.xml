@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[后知后觉]原来exfat格式可以大幅优化SSD的跑分性能阿</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[后知后觉]原来exfat格式可以大幅优化SSD的跑分性能阿</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:27:05 +0000</lastBuildDate>
+    <item>
+      <title>[后知后觉]原来exfat格式可以大幅优化SSD的跑分性能阿[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842725-1-1.html</link>
+      <description>[后知后觉]原来exfat格式可以大幅优化SSD的跑分性能阿&#13;
+NTFSAS SSD跑分1300
+&#13;
+NTFSAS SSD跑分1600
+&#13;
+跑分提升主要都是4K性能。
+&#13;
+当然，实际应用我估计没区别。
+&#13;
+那么exfat这个格式相比NTFS，有什么缺点吗？</description>
+      <content:encoded><![CDATA[<p><b>失身招领处: </b><br>
+<span>[后知后觉]原来exfat格式可以大幅优化SSD的跑分性能阿</span><br>
+<span>NTFSAS SSD跑分1300</span><br>
+<span>NTFSAS SSD跑分1600</span><br>
+<span>跑分提升主要都是4K性能。</span><br>
+<span>当然，实际应用我估计没区别。</span><br>
+<span>那么exfat这个格式相比NTFS，有什么缺点吗？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>没有日志</span><br>
+<span>发自我的iPad via Saralin 2.1.7</span><br>
+</p><p><b>Hieda: </b><br>
+<span>最大的优点是win/mac/linux都不需要什么额外设置就可以读写exfat，所以我u盘和放些临时备份的移动硬盘都是这格式</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>Hieda 发表于 2019-6-27 21:40</span><br>
+<span>最大的优点是win/mac/linux都不需要什么额外设置就可以读写exfat，所以我u盘和放些临时备份的移动硬盘都是 ...</span><br>
+<span>会对SSD寿命有重大影响吗？</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>exfat我碰到过盘读不出来只能格式化</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>我测试过的闪存盘来说exfat的速度是不如ntfs的</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>exfat我碰到过丢文件</span><br>
+</p><p><b>bm7号: </b><br>
+<span>簇大小不一样吧</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>失身招领处 发表于 2019-6-27 21:43</span><br>
+<span>会对SSD寿命有重大影响吗？</span><br>
+<span>ntfs写入大</span><br>
+</p><p><b>samfs: </b><br>
+<span>exfat 容易丢文件，特别是突然断电或者断开连接时的情况</span><br>
+<span>另外 exfat 没有权限，不能用来装系统</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>落后的格式，我记得碎片多，伤硬盘，但是适合存零碎文件。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>没有日志系统</span><br>
+<span>带来的影响就是</span><br>
+<span>用安全性的降低换来通用性的增加</span><br>
+<span>用可靠性的降低换来效率的增加</span><br>
+<span>还有就是 exfat实际上不适合 存小文件，虽然因为不写日志，4k实际写入量小于ntfs，进而看起来4k读写高，但是簇的大小导致脏块回收有一定问题，存储大量小文件后碎片化严重，需要格式化才能恢复性能。</span><br>
+<span>ssd如果不支持断电保护 我建议还是用 jfs比较好，4k性能的下降基本只有跑分可以分别，除非你用ssd存储大量巨型文件比如视频文件，那样我觉得可以用exfat。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>exfat容易崩溃，有这样的说法，不过我移动设备都是格这个，目前还没崩过。</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>exfat单文件夹里面文件数量有限制 大量文件存储的时候会有问题</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>u盘用这个格式，丢过文件，但没办法，难道u盘去用ntfs？</span><br>
+</p><p><b>qazesz: </b><br>
+<span>跑分一时爽，死机火葬场</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>U盘用的这个，经常在win和osx下读写文件，就是图个方便</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>loli炮: </b><br>
+<span>ntfs的U盘可以当BT缓存盘exfat不能</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842725[0-50]</guid>
+    </item>
+  </channel>
+</rss>

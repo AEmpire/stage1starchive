@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教蓝光原盘里的bin文件如何转成可播放格式？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教蓝光原盘里的bin文件如何转成可播放格式？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:30:12 +0000</lastBuildDate>
+    <item>
+      <title>请教蓝光原盘里的bin文件如何转成可播放格式？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1717934-1-1.html</link>
+      <description>请教蓝光原盘里的bin文件如何转成可播放格式？&#13;
+第一步一定要先加载虚拟光驱么？有没有直接转换的软件。。？</description>
+      <content:encoded><![CDATA[<p><b>glicine: </b><br>
+<span>请教蓝光原盘里的bin文件如何转成可播放格式？</span><br>
+<span>第一步一定要先加载虚拟光驱么？有没有直接转换的软件。。？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>这年头还有把镜像作成bin的?</span><br>
+<span>还是说你下的游戏镜像要看里面视频</span><br>
+</p><p><b>glicine: </b><br>
+<span>天神十三煞 发表于 2018-6-26 14:48</span><br>
+<span>这年头还有把镜像作成bin的?</span><br>
+<span>还是说你下的游戏镜像要看里面视频</span><br>
+<span>没说清楚，是电影的蓝光原盘，体积最大的那个文件（30多g）应该就是电影本身了，就是bin。</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span> 本帖最后由 混乱中立搅屎棍 于 2018-6-26 15:48 编辑 </span><br>
+<span>还是当我没说好了</span><br>
+</p><p><b>bestword: </b><br>
+<span>我也很好奇是什么人把蓝光原盘做成bin，建议楼主删了这个盘去找个靠谱点的下载源</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 7.0上的 S1Next-鹅版 v2.0</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>你试试kodi直接放</span><br>
+</p><p><b>sunny_am: </b><br>
+<span>anydvd</span><br>
+<span>可以试用</span><br>
+<span>贵的要死倒是</span><br>
+<span>发自我的iPhone via Saralin 2.0.1</span><br>
+</p><p><b>ひふみ: </b><br>
+<span>估计你没有破解，就用楼上说的那个软件</span><br>
+</p><p><b>阿斯特纳冈: </b><br>
+<span>最大的文件后缀名不是m2ts？</span><br>
+<span>只见过D版的路过。</span><br>
+</p><p><b>330798494: </b><br>
+<span>先把bin挂载到虚拟光驱，然后用抓bdmv的软件抓出来存着吧。。。这年头bd抓ISO的人基本都没有了，还有做bin的？</span><br>
+<span>— from HUAWEI DUK-AL20, Android 8.0.0 of S1 Next Goose v2.0-play</span><br>
+</p><p><b>黑桐切嗣: </b><br>
+<span>蓝光要破解的吧。。。老版本应该都破的差不多了，最近的新蓝光没法破解。</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>啊 好久没弄这些东西了 所以之前看到这个帖子还迷糊了一阵 </span><br>
+<span>刚才又看到标题了突然想起来 这个是那种MGVC的碟</span><br>
+<span>bin里的内容只是高位色彩信息</span><br>
+<span>没有支持MGVC专用的(物理)播放器是没法使用的</span><br>
+<span>你只要把普通的m2ts弄出来就行了不用管这些bin</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>看楼上提的mgvc我还以为mvc</span><br>
+<span>一想不对啊，3d的mvc也不是bin而是ssif</span><br>
+<span>结果搜下才发现是松下的噱头玩意儿</span><br>
+<span>只听人提过没实际遇到过，我就说奇怪怎么还有bin的</span><br>
+</p><p><b>mfkof: </b><br>
+<span>我也遇到这个了</span><br>
+<span>bdmv里只有00001.m2ts有内容，体积只有1.78GB，视频时长只有5分51秒。</span><br>
+<span>看了下，另一个 KDM 目录里有个文件 3.bin 体积有45,6GB 视频和音频大概就在这个文件里了，这个BIN的文件要如何提取？</span><br>
+</p><p><b>tz-izumi: </b><br>
+<span>dvdfab</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2020-1-14 08:44 编辑 </span><br>
+<span>目录树弄出来看看？</span><br>
+<span>打开cmd</span><br>
+<span>输入 dir /s 输一个空格，把目录拖进来。</span><br>
+<span>就会这样：</span><br>
+<span>然后回车</span><br>
+<span>然后鼠标左键拖动选择，右键复制，粘贴上来。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1717934[0-50]</guid>
+    </item>
+  </channel>
+</rss>

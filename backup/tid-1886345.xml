@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>4K分辨率在DP和HDMI下所需带宽弯弯绕绕真多啊。。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>4K分辨率在DP和HDMI下所需带宽弯弯绕绕真多啊。。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:00:03 +0000</lastBuildDate>
+    <item>
+      <title>4K分辨率在DP和HDMI下所需带宽弯弯绕绕真多啊。。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886345-1-1.html</link>
+      <description>4K分辨率在DP和HDMI下所需带宽弯弯绕绕真多啊。。&#13;
+ 本帖最后由 伊克路西安 于 2019-12-7 22:16 编辑 
+
+https://tva2.sinaimg.cn/large/005N28QLly1g9ohdrlipnj32pj1hiqeq.jpg 
+&#13;
+https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdryjt5j32fr0zudm9.jpg看WIKI上，HDMI和DP在2160p 60hz 10bit rgb/ycbcr444 下的所需带宽都是15.68gbps
+&#13;
+注脚有说这个结果取自“每像素位数*每帧像素数*每秒帧数（每帧像素数包括CVT-R2规定的消隐间隔）” 点击这个cvt-r2的超链接wiki，发现这是vesa推行的标准，这个hdmi wiki应该是写错了
+&#13;
+光看这个我也不知道他这个15.68gbps怎么来的，因为没有给出CVT-R2消隐间隔的具体数值。
+&#13;
+我又看了下之前收藏的一张HDMI带宽图，发现有冲突：
+&#13;
+http://www.acousticfrontiers.com/wp-content/uploads/2016/03/HDMI_data_rates.png
+&#13;
+http://www.acousticfrontiers.com/uhd-101-v2/
+&#13;
+注明了数据来源于Extron Electronics Data Rate Calculator
+&#13;
+访问了这个计算器
+&#13;
+https://tva1.sinaimg.cn/large/005N28QLly1g9ohds6tyhj315r191tdl.jpg
+&#13;
+https://tva1.sinaimg.cn/large/005N28QLly1g9ohdsi58aj315114ddke.jpg
+&#13;
+这个计算器给出了两种标准选项，SMPTE/CTA/DCI和VESA，经过我的比对，前者应该适用于HDMI，后者应该适用于DP，二者差异的原因在于规定的消隐间隔不一样
+&#13;
+vesa标准含消隐间隔为4000*2222，而SMPTE/CTA/DCI下为4400*2250
+&#13;
+通过在显示器上使用HDMI和DP接口，可以发现数据一致。
+&#13;
+https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsebr0j316i0hjn3t.jpg
+&#13;
+https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsxz3xj316l0md7i0.jpg
+&#13;
+而HDMI和DP都采用的8b/10b传输，20%带宽用于编码， 所以传输数据速率只有最大带宽的80%，而计算器给出的答案是已经除以80%的，所以根据计算器的结果，2160p 60hz 10bit rgb/ycbcr444在HDMI和DP下的实际传输带宽应为17.824Gbps和16Gbps。但无论哪个都不符合wiki上给出的15.68Gbps，虽然知道这个15.68应该是错误的数据，但是却不知道怎么来的。
+&#13;
+然后我点开了cvt-r2的wiki页，提到了“In revision 1.2, released in 2013, a new "Reduced Blanking Timing Version 2" mode was added which further reduces the horizontal blanking interval from 160 to 80 pixels, increases pixel clock precision from ±0.25 MHz to ±0.001 MHz, and adds the option for a 1000/1001 modifier for ATSC/NTSC video-optimized timing modes (e.g. 59.94 Hz instead of 60.00 Hz).”
+&#13;
+那把4000个水平像素减去80，则
+&#13;
+3920*2222*10*3*60=15,678,432,000bps
+&#13;
+如果把这个值除以三次1024得Gbps，则为14.60Gbps，又差很远。
+&#13;
+之后又在https://www.jianshu.com/p/50307f95bb10上看见，显示器行业居然和硬盘制造商一样，使用的居然也是千进制而不是1024进制，所以15,678,432,000bps实际应该算为15.68Gbps，总算是知道wiki上这个15.68怎么来的，虽然是错的。。
+&#13;
+但是有几点疑问：
+&#13;
+1. wiki里有提到，2013的修订版标准1.2中 水平消隐间隔从160减到了80，那为什么现在的产品用的反而是旧标准呢？现在用的是什么标准呢？
+&#13;
+2. 查到消隐间隔/空白间隙这个东西是古早期的显像管电视伴生产物，那液晶和OLED大行其道的今天实际上还有什么用处呢？
+&#13;
+3. 为啥显示器行业用的也是千进制？我还以为硬盘制造业已经够奇葩了，没想到1024进制好像没有想象中那么普遍？</description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>4K分辨率在DP和HDMI下所需带宽弯弯绕绕真多啊。。</span><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-7 22:16 编辑 </span><br>
+<span>https://tva2.sinaimg.cn/large/005N28QLly1g9ohdrlipnj32pj1hiqeq.jpg </span><br>
+<span>https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdryjt5j32fr0zudm9.jpg看WIKI上，HDMI和DP在2160p 60hz 10bit rgb/ycbcr444 下的所需带宽都是15.68gbps</span><br>
+<span>注脚有说这个结果取自“每像素位数*每帧像素数*每秒帧数（每帧像素数包括CVT-R2规定的消隐间隔）” 点击这个cvt-r2的超链接wiki，发现这是vesa推行的标准，这个hdmi wiki应该是写错了</span><br>
+<span>光看这个我也不知道他这个15.68gbps怎么来的，因为没有给出CVT-R2消隐间隔的具体数值。</span><br>
+<span>我又看了下之前收藏的一张HDMI带宽图，发现有冲突：</span><br>
+<img src="http://www.acousticfrontiers.com/wp-content/uploads/2016/03/HDMI_data_rates.png" title="http://www.acousticfrontiers.com/wp-content/uploads/2016/03/HDMI_data_rates.png"><br>
+<span>http://www.acousticfrontiers.com/uhd-101-v2/</span><br>
+<span>注明了数据来源于Extron Electronics Data Rate Calculator</span><br>
+<span>访问了这个计算器</span><br>
+<img src="https://tva1.sinaimg.cn/large/005N28QLly1g9ohds6tyhj315r191tdl.jpg" title="https://tva1.sinaimg.cn/large/005N28QLly1g9ohds6tyhj315r191tdl.jpg"><br>
+<img src="https://tva1.sinaimg.cn/large/005N28QLly1g9ohdsi58aj315114ddke.jpg" title="https://tva1.sinaimg.cn/large/005N28QLly1g9ohdsi58aj315114ddke.jpg"><br>
+<span>这个计算器给出了两种标准选项，SMPTE/CTA/DCI和VESA，经过我的比对，前者应该适用于HDMI，后者应该适用于DP，二者差异的原因在于规定的消隐间隔不一样</span><br>
+<span>vesa标准含消隐间隔为4000*2222，而SMPTE/CTA/DCI下为4400*2250</span><br>
+<span>通过在显示器上使用HDMI和DP接口，可以发现数据一致。</span><br>
+<img src="https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsebr0j316i0hjn3t.jpg" title="https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsebr0j316i0hjn3t.jpg"><br>
+<img src="https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsxz3xj316l0md7i0.jpg" title="https://tvax2.sinaimg.cn/large/005N28QLly1g9ohdsxz3xj316l0md7i0.jpg"><br>
+<span>而HDMI和DP都采用的8b/10b传输，20%带宽用于编码， 所以传输数据速率只有最大带宽的80%，而计算器给出的答案是已经除以80%的，所以根据计算器的结果，2160p 60hz 10bit rgb/ycbcr444在HDMI和DP下的实际传输带宽应为17.824Gbps和16Gbps。但无论哪个都不符合wiki上给出的15.68Gbps，虽然知道这个15.68应该是错误的数据，但是却不知道怎么来的。</span><br>
+<span>然后我点开了cvt-r2的wiki页，提到了“In revision 1.2, released in 2013, a new "Reduced Blanking Timing Version 2" mode was added which further reduces the horizontal blanking interval from 160 to 80 pixels, increases pixel clock precision from ±0.25 MHz to ±0.001 MHz, and adds the option for a 1000/1001 modifier for ATSC/NTSC video-optimized timing modes (e.g. 59.94 Hz instead of 60.00 Hz).”</span><br>
+<span>那把4000个水平像素减去80，则</span><br>
+<span>3920*2222*10*3*60=15,678,432,000bps</span><br>
+<span>如果把这个值除以三次1024得Gbps，则为14.60Gbps，又差很远。</span><br>
+<span>之后又在https://www.jianshu.com/p/50307f95bb10上看见，显示器行业居然和硬盘制造商一样，使用的居然也是千进制而不是1024进制，所以15,678,432,000bps实际应该算为15.68Gbps，总算是知道wiki上这个15.68怎么来的，虽然是错的。。</span><br>
+<span>但是有几点疑问：</span><br>
+<span>1. wiki里有提到，2013的修订版标准1.2中 水平消隐间隔从160减到了80，那为什么现在的产品用的反而是旧标准呢？现在用的是什么标准呢？</span><br>
+<span>2. 查到消隐间隔/空白间隙这个东西是古早期的显像管电视伴生产物，那液晶和OLED大行其道的今天实际上还有什么用处呢？</span><br>
+<span>3. 为啥显示器行业用的也是千进制？我还以为硬盘制造业已经够奇葩了，没想到1024进制好像没有想象中那么普遍？</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>我之前用的 740 960 1060随便一条垃圾HDMI线都能上4K@60稳定得很</span><br>
+<span>换580后全家的HDMI线全部闪屏</span><br>
+<span>后来买了说支援4K@60的线在FULL RGB下偶尔会闪屏，ycbcr 444下才稍微好点</span><br>
+<span>总结就是下次绝对不会买A卡了</span><br>
+<span>本来为了插帧，现在取消了</span><br>
+<span>后来发现A卡这插60效果不如电视本身的效果好（后来才知道电视插帧到120）</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-7 22:45 编辑 </span><br>
+<span>还有一点额外的发现，原来60hz实际上是59.9966hz，59.94hz实际上是59.9394hz，N卡好像没显示的这么细。。不知道实际上是不是也是一样</span><br>
+<span>然后如果设置成59.9394hz，就开不了10bit了。。</span><br>
+</p><p><b>各种浪: </b><br>
+<span>同样580，随便一根hdmi线就可以4k60，非常稳定。至于插帧，a卡自带的就是垃圾。用dmitrirender效果超过电视机。当然，我的电视是三星，索尼说不定更强点。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>我是没看出来10bit的必要性</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>借楼问一下为什么我的580，4k分辨率用hdmi只能8bit，dp线才能10bit</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>七草真由美 发表于 2019-12-8 04:52</span><br>
+<span>借楼问一下为什么我的580，4k分辨率用hdmi只能8bit，dp线才能10bit</span><br>
+<span>hdmi带宽支持10bit@ycbcr420/422</span><br>
+<span>或者8bit@444/Rgb</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我的380就这样，接hdmi只显示到8b，换了dp就有10b的选项了。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>albertfu: </b><br>
+<span>4k买的早，只有DP口支持60Hz，就没这么多纠结 </span><br>
+<span>GCN初代开始DP口就稳稳地支持4K@60Hz，HDMI没有兴趣</span><br>
+</p><p><b>四点: </b><br>
+<span>硬核了，知道这个数据但从没关心过他怎么算的，弯弯绕绕确实多。</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>伊克路西安 发表于 2019-12-8 09:34</span><br>
+<span>hdmi带宽支持10bit@ycbcr420/422</span><br>
+<span>或者8bit@444/Rgb</span><br>
+<span>选了422怎么还多了12bit</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>七草真由美 发表于 2019-12-8 18:03</span><br>
+<span>选了422怎么还多了12bit</span><br>
+<span>看顶楼第三张图啊 422@12bit和444@8bit所需带宽是一样的 </span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>伊克路西安 发表于 2019-12-8 18:06</span><br>
+<span>看顶楼第三张图啊 422@12bit和444@8bit所需带宽是一样的 </span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next- ...</span><br>
+<span>我还以为显示器支持的才显示，试了下颜色变的更黑了</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>七草真由美 发表于 2019-12-8 21:23</span><br>
+<span>我还以为显示器支持的才显示，试了下颜色变的更黑了</span><br>
+<span>只是数据传输的格式不一样，显示器显示的时候还是把12bit的色深映射到8bit/10bit上，根据你的面板来的</span><br>
+</p><p><b>リュウセイ: </b><br>
+<span>伊克路西安 发表于 2019-12-8 09:34</span><br>
+<span>hdmi带宽支持10bit@ycbcr420/422</span><br>
+<span>或者8bit@444/Rgb</span><br>
+<span>是HDMI2.0带宽不行，2.1就没问题了</span><br>
+<span>可是我已经有了2.1的电视机，然后发现没有2.1的显卡</span><br>
+</p><p><b>FMIC: </b><br>
+<span>リュウセイ 发表于 2019-12-9 10:51</span><br>
+<span>是HDMI2.0带宽不行，2.1就没问题了</span><br>
+<span>可是我已经有了2.1的电视机，然后发现没有2.1的显卡 ...</span><br>
+<span>原来以为20系会上2.1，结果快2020年了一张2.1的显卡都看不到</span><br>
+</p><p><b>prattwhitney: </b><br>
+<span>得了，我买了索尼9000f插电脑上用，1080的hdmi直连4k60HDR各种不稳定，一般的DP转hdmi线支持不了HDR</span><br>
+<span>逼得我专门花了200去买了一个主动的DP转hdmi转接头，插上发现还是不稳定</span><br>
+<span>现在彻底弃疗了，没hdr就没hdr吧</span><br>
+</p><p><b>买表大户: </b><br>
+<span>想问如果用安卓电视自己的系统本地播放视频，如何看出电视的刷新率呢，有没有视频可以靠肉眼分辨出来是否到达60hz的？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>买表大户 发表于 2019-12-9 11:32</span><br>
+<span>想问如果用安卓电视自己的系统本地播放视频，如何看出电视的刷新率呢，有没有视频可以靠肉眼分辨出来是否到 ...</span><br>
+<span>60fps视频用24hz和60hz播放区别一眼就能看出来吧</span><br>
+<span>电视刷新率一般不是会有角标吗</span><br>
+<span>如果你说的24fps的视频，电视插帧到60能不能看出来刷新率，这个难到我了</span><br>
+</p><p><b>qianheng: </b><br>
+<span>问个问题 lz5700xt有没有掉驱动？ 我买同样的显卡 掉驱动直接退了</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>qianheng 发表于 2019-12-9 19:24</span><br>
+<span>问个问题 lz5700xt有没有掉驱动？ 我买同样的显卡 掉驱动直接退了</span><br>
+<span>现在2000mhz/1100mV，显存默频，打完只狼一周目四结局全佛珠，没有掉驱动/蓝屏/黑屏/闪退</span><br>
+<span>之前超频2100mhz/1150mV，有掉驱动，显存超950mhz也掉了驱动</span><br>
+<span>驱动版本是最新的19.11.2和19.11.3</span><br>
+<span>我的是盈通的5700xt女装大佬，不是公版</span><br>
+</p><p><b>qianheng: </b><br>
+<span>伊克路西安 发表于 2019-12-9 19:48</span><br>
+<span>现在2000mhz/1100mV，显存默频，打完只狼一周目四结局全佛珠，没有掉驱动/蓝屏/黑屏/闪退</span><br>
+<span>之前超频2100mh ...</span><br>
+<span>我买的就是女装大佬</span><br>
+<span>看网页掉驱动 没有超频 就改了风扇60度30%转速</span><br>
+<span>用了三天 掉了三次 玩游戏时候反而不掉</span><br>
+<span>可能真的是品控问题</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>qianheng 发表于 2019-12-9 20:20</span><br>
+<span>我买的就是女装大佬</span><br>
+<span>看网页掉驱动 没有超频 就改了风扇60度30%转速</span><br>
+<span>用了三天 掉了三次 玩游戏时候反而不 ...</span><br>
+<span>应该是品控问题吧，我这张卡也有啸叫的问题，不过勉强接受，返修太麻烦忍着用了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886345[0-50]</guid>
+    </item>
+  </channel>
+</rss>

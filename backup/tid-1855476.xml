@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>可能是条件概率问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>可能是条件概率问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:06:43 +0000</lastBuildDate>
+    <item>
+      <title>可能是条件概率问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855476-1-1.html</link>
+      <description>可能是条件概率问题&#13;
+某设备工作n小时不损坏的概率为a，现在有一个任务需要两台该设备一起工作n小时才能完成，在两台设备工作，一台备用的情况下，请问任务完成的概率？</description>
+      <content:encoded><![CDATA[<p><b>出言不迅: </b><br>
+<span>可能是条件概率问题</span><br>
+<span>某设备工作n小时不损坏的概率为a，现在有一个任务需要两台该设备一起工作n小时才能完成，在两台设备工作，一台备用的情况下，请问任务完成的概率？</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span> 本帖最后由 索尔之怒 于 2019-8-23 18:36 编辑 </span><br>
+<span>不光是条件概率问题</span><br>
+<span>题目条件不全，需要可靠度同时间的函数关系</span><br>
+<span>换言之工作时间的分布是什么，指数？</span><br>
+<span>哦对补充一点，“一台备用”是怎么个备用法，冷备用还是热备用？</span><br>
+</p><p><b>mimighost: </b><br>
+<span>只能最简单的理解咯</span><br>
+<span>假设一台坏了另一台接上算可以接受的话</span><br>
+<span>1 - (1-a)^3 - 3*a*(1-a)^2</span><br>
+</p><p><b>出言不迅: </b><br>
+<span>索尔之怒 发表于 2019-8-23 18:33</span><br>
+<span>不光是条件概率问题</span><br>
+<span>题目条件不全，需要可靠度同时间的函数关系</span><br>
+<span>换言之工作时间的分布是什么，指数？ ...</span><br>
+<span>理解你的意思，但不想把问题搞复杂，想简单套一下的串并联模型，做成一个概率问题不可行吗</span><br>
+</p><p><b>出言不迅: </b><br>
+<span>mimighost 发表于 2019-8-23 18:35</span><br>
+<span>只能最简单的理解咯</span><br>
+<span>假设一台坏了另一台接上算可以接受的话</span><br>
+<span>接受，我也是这样想的</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>这个设备停机重启后恢不恢复状态？</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>出言不迅 发表于 2019-8-23 18:38</span><br>
+<span>理解你的意思，但不想把问题搞复杂，想简单套一下的串并联模型，做成一个概率问题不可行吗 ...</span><br>
+<span>最简单的就是3L那样，实质上是热备用</span><br>
+<span>这样一类就别说什么串并联了，这是个n中取k的储备系统</span><br>
+<span>就是说，三台同时开机，只有两台在干活，其中一台报废后第三台接手</span><br>
+<span>要注意此时第三台已经运行了一段时间，其可靠度理论不如刚刚开机的机器高</span><br>
+<span>如果是冷备用，即第三台机器一开始不运行，一台报废后第三台启动并接手</span><br>
+<span>那就是不同的问题了，有必要知道机器可靠度随时间的变化关系</span><br>
+</p><p><b>psine: </b><br>
+<span> 本帖最后由 psine 于 2019-8-23 20:03 编辑 </span><br>
+<span> 出言不迅 发表于 2019-8-23 18:30 某设备工作n小时不损坏的概率为a，现在有一个任务需要两台该设备一起工作n小时才能完成，在两台设备工作，一台备用的情况下，请问任务完成的概率？ </span><br>
+<span>的确题目描述不够清楚，按我的理解：同一时间必须有两台机器运作，一台机器运作t时间坏掉，备用机接下来运作n-t以上就ok，这样需要运作时间的密度函数，如果在上均匀的话最后结果是a2+2a∫n01−an(1−(1−a)(n−t)n)dt=a+a2−a3a2+2a∫n01−an(1−(1−a)(n−t)n)dt=a+a2−a3</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855476[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有什么简便的方式可以从discuz论坛保存下来几栋楼</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有什么简便的方式可以从discuz论坛保存下来几栋楼</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:33:36 +0000</lastBuildDate>
+    <item>
+      <title>有没有什么简便的方式可以从discuz论坛保存下来几栋楼[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911021-1-1.html</link>
+      <description>有没有什么简便的方式可以从discuz论坛保存下来几栋楼&#13;
+某个常去的论坛快不行了，考虑把一些常看的东西备份出来，有没有什么方便的手段。还是只能一页一页保存？</description>
+      <content:encoded><![CDATA[<p><b>noneoneone: </b><br>
+<span>有没有什么简便的方式可以从discuz论坛保存下来几栋楼</span><br>
+<span>某个常去的论坛快不行了，考虑把一些常看的东西备份出来，有没有什么方便的手段。还是只能一页一页保存？</span><br>
+</p><p><b>diohanmilton: </b><br>
+<span>右上角有个打印图标 可以输出一个简版的合集</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>diohanmilton 发表于 2020-1-27 16:17</span><br>
+<span>右上角有个打印图标 可以输出一个简版的合集</span><br>
+<span>那个一次只能打印一页，而且并不好用。不知道是不是我姿势不对，打印第二页的时候，有时候会出现第一页的内容</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>成型的轮子好像没有，之前泥潭挂的时候我还去搜过。感觉比较合理的可以试试chrome的capture full screen但是清晰度好像并不高，丢进web archieve可以作为备选，但是像泥潭这种有权限/要求登录的，web archieve就不好用。出来一个登录界面</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>以前有WEBZIP，不晓得对现在的论坛还兼容不</span><br>
+</p><p><b>diohanmilton: </b><br>
+<span>若荼泱 发表于 2020-1-27 16:45</span><br>
+<span>那个一次只能打印一页，而且并不好用。不知道是不是我姿势不对，打印第二页的时候，有时候会出现第一页的 ...</span><br>
+<span>不是一页 是不知道有几页，而且不标注楼层，我换了别的论坛格式又不同，似乎不是统一的</span><br>
+<span>去魂加看了一下，打印页进入手机版网页</span><br>
+</p><p><b>碳.: </b><br>
+<span>OfflineExplorer这个程序，可以快捷保存整楼，还可以定义文件类型，打包等等</span><br>
+</p><p><b>win8: </b><br>
+<span>关键字 整站下载 有现成的爬虫缺点是需要登陆才能看的内容可能看不到</span><br>
+</p><p><b>bbn: </b><br>
+<span> 本帖最后由 bbn 于 2020-1-27 19:28 编辑 </span><br>
+<span>什么网站，不登录能看帖简单点。离线浏览软件，楼上说的Offline Explorer。需要登录就要cookies，也有这个选项，但是好像只能用IE。</span><br>
+<span>爬虫没用过。</span><br>
+<span>以前Firefox 有ScrapBook等扩展。</span><br>
+</p><p><b>Baccano: </b><br>
+<span>我是用自动翻插件加网页截图插件。</span><br>
+<span>当然大批量搞这样效率就太低了。</span><br>
+</p><p><b>奥氮平片: </b><br>
+<span>油猴装自动翻页脚本，加载全部楼层后用浏览器自带的另存页面功能</span><br>
+</p><p><b>碳.: </b><br>
+<span>win8 发表于 2020-1-27 18:34</span><br>
+<span>关键字 整站下载 有现成的爬虫缺点是需要登陆才能看的内容可能看不到</span><br>
+<span>用上面说的OfflineExplorer就可以，自带浏览器登录一下获得cookie</span><br>
+</p><p><b>ntr8: </b><br>
+<span>量不大直接翻页脚本+打印为pdf完事</span><br>
+<span>量大的话就楼里几位说的工具</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>专门写过一个，但是针对性很强，不通用。建议直接截图保存</span><br>
+</p><p><b>Alcatrazer: </b><br>
+<span>git上搜搜？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>自动翻页扩展加Firefox保存页面就够用了，我这样保存过几个贴子。Offline explorer我是用来扒一些动画官网用，感觉用来扒贴子不太合适。</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span> 本帖最后由 三葉Mitsuha 于 2020-1-28 22:44 编辑 </span><br>
+<span>写过一个JS脚本，每次运行只能爬一个帖子，最多支持999页。</span><br>
+<span>这个脚本是通过调用discuz的api，并把api返回的数据独立保存成一个.json文件（只能保存文本内容，非文本的无能为力了）</span><br>
+<span>(function(THREAD_ID, MAX_PAGE) {</span><br>
+<span>let pageIndex = 0</span><br>
+<span>const downloadContent = function(contentText) {}</span><br>
+<span>const rename = num => num > 99 ? num : num > 9 ? '0' + num : '00' + num</span><br>
+<span>const getJSON = async function() {</span><br>
+<span>    ++pageIndex;</span><br>
+<span>    if (pageIndex > MAX_PAGE) {</span><br>
+<span>      console.log('END')</span><br>
+<span>      return</span><br>
+<span>    }</span><br>
+<span>    try {</span><br>
+<span>      const xhr = new XMLHttpRequest()</span><br>
+<span>      xhr.open('GET', `/2b/api/mobile/index.php?version=4&module=viewthread&tid=${THREAD_ID}&page=${pageIndex}`)</span><br>
+<span>      xhr.overrideMimeType('text/plain; utf-8');</span><br>
+<span>      xhr.setRequestHeader('Content-type', "text/plain; charset=utf-8")</span><br>
+<span>      xhr.onreadystatechange = () => {</span><br>
+<span>      if (xhr.readyState !== 4) {</span><br>
+<span>          return</span><br>
+<span>      }</span><br>
+<span>      const blob = new Blob(, {type : 'application/json'})</span><br>
+<span>      const anchor = document.createElement('a')</span><br>
+<span>      const fileName = `thread_${THREAD_ID}_${rename(pageIndex)}.json`</span><br>
+<span>      anchor.download = fileName</span><br>
+<span>      anchor.href = window.URL.createObjectURL(blob)</span><br>
+<span>      anchor.click()</span><br>
+<span>      window.URL.revokeObjectURL(anchor.link)</span><br>
+<span>      setTimeout(getJSON, 200)</span><br>
+<span>      }</span><br>
+<span>      xhr.send()</span><br>
+<span>    } catch (err) {</span><br>
+<span>      console.error(err)</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+<span>getJSON()</span><br>
+<span>})()</span><br>
+<span>使用方法，以chrome为例</span><br>
+<span>0、进入你要爬的discuz的网页</span><br>
+<span>1、打开浏览器开发者工具（f11？）</span><br>
+<span>2、切至console</span><br>
+<span>3、把以上代码粘贴至console，并在最末尾的括号内填写两个数字参数，用英文逗号隔开，之后敲击回车执行代码。</span><br>
+<span>4、第一个参数是帖子id（通过网址可以得到），第二个参数是最大页码数。</span><br>
+<span>5、第一次运行的话，chrome应该会询问你是否要下载多个文件，点击允许即可。</span><br>
+<span>如果实在来不及找别的工具，可以先用这段代码把文本内容全弄下来。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911021[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>硬盘疑似损坏，请教下后续处理的一些问题。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>硬盘疑似损坏，请教下后续处理的一些问题。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:09:31 +0000</lastBuildDate>
+    <item>
+      <title>硬盘疑似损坏，请教下后续处理的一些问题。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835809-1-1.html</link>
+      <description>硬盘疑似损坏，请教下后续处理的一些问题。&#13;
+ 本帖最后由 匿名用户 于 2019-5-31 12:10 编辑 
+
+朋友最近开机进了 Win 10 桌面后蓝屏了一次（之前一个多月也发生了一次），他说他就记得有个 Watchdog 的词，问我怎么回事。
+&#13;
+我搜了下可能的原因是这个：https://techloris.com/dpc-watchdog-violation-windows-10
+&#13;
+于是让他 chkdsk c: /f /r 了下。
+&#13;
+他说能过，只是中间卡在 21% 等了很久，然后就正常进系统了。
+&#13;
+之后让他下载了 DiskInfo 和 HD Tune，加上系统自带的硬盘检测工具运行看看，截图如下：
+&#13;
+（HD Tune 用 Quick Scan 的话没有红色损坏显示。）
+&#13;
+这么看是否可以确定是硬盘损坏了？（硬盘看名字是凄惨红的杂牌盘了吧）
+&#13;
+资讯几个问题，为之后换盘做准备。
+&#13;
+1. 现在 600 以内能买到靠谱的 512G M2 接口的 SSD 吗？如果不能的话 400 以内 256 G 的呢？有的话麻烦请推荐下。
+&#13;
+2. 目前有问题的盘是系统盘，如何可以把系统无缝迁移到新 SSD 上使用？是否需要 U 盘辅助？
+&#13;
+多谢。</description>
+      <content:encoded><![CDATA[<p><b>匿名用户: </b><br>
+<span>硬盘疑似损坏，请教下后续处理的一些问题。</span><br>
+<span> 本帖最后由 匿名用户 于 2019-5-31 12:10 编辑 </span><br>
+<span>朋友最近开机进了 Win 10 桌面后蓝屏了一次（之前一个多月也发生了一次），他说他就记得有个 Watchdog 的词，问我怎么回事。</span><br>
+<span>我搜了下可能的原因是这个：https://techloris.com/dpc-watchdog-violation-windows-10</span><br>
+<span>于是让他 chkdsk c: /f /r 了下。</span><br>
+<span>他说能过，只是中间卡在 21% 等了很久，然后就正常进系统了。</span><br>
+<span>之后让他下载了 DiskInfo 和 HD Tune，加上系统自带的硬盘检测工具运行看看，截图如下：</span><br>
+<span>（HD Tune 用 Quick Scan 的话没有红色损坏显示。）</span><br>
+<span>这么看是否可以确定是硬盘损坏了？（硬盘看名字是凄惨红的杂牌盘了吧）</span><br>
+<span>资讯几个问题，为之后换盘做准备。</span><br>
+<span>1. 现在 600 以内能买到靠谱的 512G M2 接口的 SSD 吗？如果不能的话 400 以内 256 G 的呢？有的话麻烦请推荐下。</span><br>
+<span>2. 目前有问题的盘是系统盘，如何可以把系统无缝迁移到新 SSD 上使用？是否需要 U 盘辅助？</span><br>
+<span>多谢。</span><br>
+</p><p><b>bestword: </b><br>
+<span>你又要靠谱又不想多花钱</span><br>
+<span>马云上搜一下三星，西数，惠普，英特尔有没有符合你价格要求的盘吧</span><br>
+<span>迁移系统可以安装分区软件然后全盘/分区复制，或者安装diskgunis然后全盘/分区复制</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>okok123: </b><br>
+<span>我有个小问题，一旦发现硬盘可能存在故障，不是应该第一时间买新硬盘迁移数据，而不是做扫描和修复吗？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>SN500 </span><br>
+<span>需要，也可以不要，不过会更折腾</span><br>
+</p><p><b>datzz: </b><br>
+<span>有免费的从损坏硬盘中提取文件的软件么现在好像都是付费的。。。可几张壁纸照片什么的实在不值得</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Zest: </b><br>
+<span>datzz 发表于 2019-5-31 17:05</span><br>
+<span>有免费的从损坏硬盘中提取文件的软件么现在好像都是付费的。。。可几张壁纸照片什么的实在不值得</span><br>
+<span>DiskGenius破解版到处都是</span><br>
+</p><p><b>datzz: </b><br>
+<span>Zest 发表于 2019-5-31 17:49</span><br>
+<span>DiskGenius破解版到处都是</span><br>
+<span>那。。。我再找找。。。很多都下架了</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Zest: </b><br>
+<span>datzz 发表于 2019-5-31 17:58</span><br>
+<span>那。。。我再找找。。。很多都下架了</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v ...</span><br>
+<span>https://u20044976.ctfile.com/fs/20044976-373501414</span><br>
+</p><p><b>datzz: </b><br>
+<span>Zest 发表于 2019-5-31 18:02</span><br>
+<span>https://u20044976.ctfile.com/fs/20044976-373501414</span><br>
+<span>恨不能加鹅thx</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>freeforever: </b><br>
+<span>凄惨红名不虚传</span><br>
+</p><p><b>litel: </b><br>
+<span>bx500。。。这个算是最便宜的，而且是大厂颗粒和主控的盘了。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>bestword: </b><br>
+<span>何必非要找破解版，又有需求又不贵不支持一下国产软件吗</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835809[0-50]</guid>
+    </item>
+  </channel>
+</rss>

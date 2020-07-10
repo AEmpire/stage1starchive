@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>我想用闲置的nuc8来做软路由不知道可不可行？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>我想用闲置的nuc8来做软路由不知道可不可行？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:52:44 +0000</lastBuildDate>
+    <item>
+      <title>我想用闲置的nuc8来做软路由不知道可不可行？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916371-1-1.html</link>
+      <description>我想用闲置的nuc8来做软路由不知道可不可行？&#13;
+全年搞了一台nuc8装了黑果当工位上的办公机使用，后来觉得速度不够快就又装了台itx钢炮，nuc8一直闲置。
+&#13;
+最近领略了v2ray的神奇速度，萌生了搞一台软路由的想法。
+&#13;
+淘宝上的成品大概需要1k+的价格了，我这台闲置的nuc8能不能当做单臂软路由来使用呢？
+&#13;
+目前ap是ac68u刷的上古梅林不支持v2，同时装在墙上不适合有线连软路由
+&#13;
+那我把软路由挂在wumc710这样的无线网关上可以么？</description>
+      <content:encoded><![CDATA[<p><b>hurtwind: </b><br>
+<span>我想用闲置的nuc8来做软路由不知道可不可行？</span><br>
+<span>全年搞了一台nuc8装了黑果当工位上的办公机使用，后来觉得速度不够快就又装了台itx钢炮，nuc8一直闲置。</span><br>
+<span>最近领略了v2ray的神奇速度，萌生了搞一台软路由的想法。</span><br>
+<span>淘宝上的成品大概需要1k+的价格了，我这台闲置的nuc8能不能当做单臂软路由来使用呢？</span><br>
+<span>目前ap是ac68u刷的上古梅林不支持v2，同时装在墙上不适合有线连软路由</span><br>
+<span>那我把软路由挂在wumc710这样的无线网关上可以么？</span><br>
+</p><p><b>radar: </b><br>
+<span> 本帖最后由 radar 于 2020-2-29 12:10 编辑 </span><br>
+<span>当然可以了，不过有点性能过剩</span><br>
+<span>顺便nuc+ac68u做交换机的组合不是也挺好的吗</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>radar 发表于 2020-2-29 12:05</span><br>
+<span>当然可以了，不过有点性能过剩</span><br>
+<span>顺便nuc+ac68u做交换机的组合不是也挺好的吗 ...</span><br>
+<span>可以，装linux后，装个openwrt的docker镜像就可以了</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>霸道总裁: </b><br>
+<span>V2我还得买个U盘才用得起来。</span><br>
+</p><p><b>hurtwind: </b><br>
+<span>radar 发表于 2020-2-29 12:05</span><br>
+<span>当然可以了，不过有点性能过剩</span><br>
+<span>顺便nuc+ac68u做交换机的组合不是也挺好的吗 ...</span><br>
+<span>我有两个nuc，一个wd的mycloud</span><br>
+<span>还有一个群辉的ds918play</span><br>
+<span>貌似都不支持docker吧</span><br>
+</p><p><b>radar: </b><br>
+<span>hurtwind 发表于 2020-2-29 12:32</span><br>
+<span>我有两个nuc，一个wd的mycloud</span><br>
+<span>还有一个群辉的ds918play</span><br>
+<span>貌似都不支持docker吧</span><br>
+<span>你确定是ds918play？有这个型号吗？</span><br>
+<span>如果是ds218play，那么它和mycloud一样都是arm处理器，官方给的支持比较弱。</span><br>
+<span>至于nuc这样的x86电脑，硬件diy空间也不大，弄来弄去基本上就是软件问题，ESXI还是PVE还是直接跑LEDE都是看你需求来弄了。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>v2ray谁能给科普一下，最近听说这个很热，lede里面装了一个但摸不着头脑</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>yuuu 发表于 2020-2-29 13:27</span><br>
+<span>v2ray谁能给科普一下，最近听说这个很热，lede里面装了一个但摸不着头脑</span><br>
+<span>—— 来自 Hisense HLTE700T, And ...</span><br>
+<span>你理解成和酸酸乳一样的软件就行了</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>蓝色的风之精灵 发表于 2020-2-29 13:36</span><br>
+<span>你理解成和酸酸乳一样的软件就行了</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>比酸酸乳强在哪里？我还有一年的酸酸乳没喝完，常去的那家奶商也只有酸酸乳</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>hurtwind: </b><br>
+<span> radar 发表于 2020-2-29 13:03 引用:hurtwind 发表于 2020-2-29 12:32 我有两个nuc，一个wd的mycloud 还有一个群辉的ds918play 貌似都不支持docker吧 你确定是ds918play？有这个型号吗？ 如果是ds218play，那么它和mycloud一样都是arm处理器，官方给的支持比较弱。 至于nuc这样的x86电脑，硬件diy空间也不大，弄来弄去基本上就是软件问题，ESXI还是PVE </span><br>
+<span>说错了，是418play，查了下是intel处理器啊，能不能当软路由呢？但我看商店里没有docker是怎么回事？</span><br>
+</p><p><b>hurtwind: </b><br>
+<span>还有，我又查了下，是不是搞一个斐讯n1刷个openwrt当旁路由也能解决问题？</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>yuuu 发表于 2020-2-29 13:37</span><br>
+<span>比酸酸乳强在哪里？我还有一年的酸酸乳没喝完，常去的那家奶商也只有酸酸乳</span><br>
+<span>—— 来自 Hisense HLTE700T ...</span><br>
+<span>强在哪里我也不知道，有人说去年某个日子酸酸乳大面积变质，但我自己常喝的没感觉到，可能只是单纯的当储备粮以备不时之需吧，现在市场上还出来了个trojan，据更好喝</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>hurtwind 发表于 2020-2-29 13:48</span><br>
+<span>还有，我又查了下，是不是搞一个斐讯n1刷个openwrt当旁路由也能解决问题？</span><br>
+<span>有x86就用x86呗，为啥还要再买个arm的？</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>yuuu 发表于 2020-2-29 13:27</span><br>
+<span>v2ray谁能给科普一下，最近听说这个很热，lede里面装了一个但摸不着头脑</span><br>
+<span>—— 来自 Hisense HLTE700T, And ...</span><br>
+<span>比蒙牛效率和加密性更高，但是对计算性能要求也高。其实也不算新了</span><br>
+</p><p><b>sorayang: </b><br>
+<span>据说是混淆协议 加密算法什么的特征还没有被伟大墙摸清楚所以现阶段稳定性更好。我想这只是迟早的事。</span><br>
+</p><p><b>Ruby的披风: </b><br>
+<span>yuuu 发表于 2020-2-29 13:37</span><br>
+<span>比酸酸乳强在哪里？我还有一年的酸酸乳没喝完，常去的那家奶商也只有酸酸乳</span><br>
+<span>—— 来自 Hisense HLTE700T ...</span><br>
+<span>v2的ws+tls口味比蒙牛稳定，甚至可以加点cdn当佐料保证不变质。特洛伊在外喝起来不方便，等一个合适的安卓客户端。</span><br>
+</p><p><b>yikaa: </b><br>
+<span>v2主要是做了一个平台吧，各种协议都可以在上面用。而且配置什么都方便，官方一行命**安装部署适合个人自用。</span><br>
+<span>同时还自己实现了一个性能优秀的协议。因为一直有社区人员维护，所以也相对安全些。</span><br>
+</p><p><b>SICP: </b><br>
+<span>你们不怕砍头的</span><br>
+</p><p><b>radar: </b><br>
+<span>hurtwind 发表于 2020-2-29 13:47</span><br>
+<span>说错了，是418play，查了下是intel处理器啊，能不能当软路由呢？但我看商店里没有docker是怎么回事？ ...</span><br>
+<span>https://koolshare.cn/thread-132937-1-1.html</span><br>
+<span>如果是418play的话，那就是J3455了，docker被官方阉割了，可以参考这个帖子来自己弄出来，可以试着折腾一下，不确定拿群晖来当路由器会不会有奇怪的问题，反正不就是个玩嘛</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>Ruby的披风 发表于 2020-2-29 14:20</span><br>
+<span>v2的ws+tls口味比蒙牛稳定，甚至可以加点cdn当佐料保证不变质。特洛伊在外喝起来不方便，等一个合适的安 ...</span><br>
+<span>我这种移动用户，GCP走tcp也严重丢包+带宽小，走ws+tls+cloudflare也严重丢包+带宽小，是不是除了换ISP就没治了？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916371[0-50]</guid>
+    </item>
+  </channel>
+</rss>

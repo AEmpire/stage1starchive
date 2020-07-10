@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>移动游戏或软件安装目录的时候，如何得知是否需要重装？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>移动游戏或软件安装目录的时候，如何得知是否需要重装？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:38:34 +0000</lastBuildDate>
+    <item>
+      <title>移动游戏或软件安装目录的时候，如何得知是否需要重装？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831082-1-1.html</link>
+      <description>移动游戏或软件安装目录的时候，如何得知是否需要重装？&#13;
+想给SSD腾空间，但有的游戏或软件直接移动就没法用了，还遇到过游戏存档已过去了，但汉化却没了的情况
+&#13;
+我知道都跟注册列表有关，那有没有什么办法在移动了安装文件夹之后能通过修改注册列表里的路径让软件能恢复正常使用的呢？
+&#13;
+还有就是我怎么知道我安装的软件或游戏是否是绿色版？有没有什么办法获知游戏存档文件的目录？</description>
+      <content:encoded><![CDATA[<p><b>名津流: </b><br>
+<span>移动游戏或软件安装目录的时候，如何得知是否需要重装？</span><br>
+<span>想给SSD腾空间，但有的游戏或软件直接移动就没法用了，还遇到过游戏存档已过去了，但汉化却没了的情况</span><br>
+<span>我知道都跟注册列表有关，那有没有什么办法在移动了安装文件夹之后能通过修改注册列表里的路径让软件能恢复正常使用的呢？</span><br>
+<span>还有就是我怎么知道我安装的软件或游戏是否是绿色版？有没有什么办法获知游戏存档文件的目录？</span><br>
+</p><p><b>MARCO.BLANCA: </b><br>
+<span>记得管家类软件有个搬家功能，方便腾空间，不影响使用。</span><br>
+<span>游戏存档，STEAM的不用找，D版就不好说了，根据情况不同，可能在游戏安装目录里，可能在APPDATA里，可能在我的文档里，还可能会在program files里……</span><br>
+</p><p><b>sorayang: </b><br>
+<span>需要安装那就不是绿色版软件了</span><br>
+<span>至于存档、配置、个人文件的位置，那真是看程序员心情，这玩意儿又没有一个强制标准。</span><br>
+</p><p><b>名津流: </b><br>
+<span>sorayang 发表于 2019-5-13 09:41</span><br>
+<span>需要安装那就不是绿色版软件了</span><br>
+<span>至于存档、配置、个人文件的位置，那真是看程序员心情，这玩意儿又没有一个 ...</span><br>
+<span>好几年前弄上的软件，都不记得是安装的还是绿色版解压到电脑里的了，这个怎么查？</span><br>
+<span>程序和功能里有的，或者官家类软件里有的就是安装版的，没有的就是绿色版的吗？</span><br>
+</p><p><b>yin8086: </b><br>
+<span>试试用 mklink，把文件链接到其他盘</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>名津流 发表于 2019-5-13 10:40</span><br>
+<span>好几年前弄上的软件，都不记得是安装的还是绿色版解压到电脑里的了，这个怎么查？</span><br>
+<span>程序和功能里有的，或 ...</span><br>
+<span>无法判断的</span><br>
+<span>所以最佳方法是换个大的ssd</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>这玩意没有基准的，就算你下的是个压缩包，解压点开就能运行，也不能保证不会在第一次运行的时候写入注册表，users/appdata/programdata/users/documents/ 这些目录</span><br>
+<span>知道游戏存档位置最好的办法就是网上搜一下</span><br>
+</p><p><b>DazzleP: </b><br>
+<span>mklink+1, 直接无脑转移整个目录，然后原来的位置加个同名的junction point指向新的位置就行</span><br>
+</p><p><b>君往何处: </b><br>
+<span>时间充足的话用 https://docs.microsoft.com/en-us/sysinternals/downloads/procmon 监测看看吧</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>名津流 发表于 2019-5-13 10:40</span><br>
+<span>好几年前弄上的软件，都不记得是安装的还是绿色版解压到电脑里的了，这个怎么查？</span><br>
+<span>程序和功能里有的，或 ...</span><br>
+<span>如果你的安装包正规来源的话，卸载里面有就是安装版，没有就是解压出来的绿色版，但是移动后是否能用就只能自己尝试了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831082[0-50]</guid>
+    </item>
+  </channel>
+</rss>

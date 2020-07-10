@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>LEDE硬盘挂载问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>LEDE硬盘挂载问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:25:05 +0000</lastBuildDate>
+    <item>
+      <title>LEDE硬盘挂载问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843041-1-1.html</link>
+      <description>LEDE硬盘挂载问题&#13;
+最近买了个蜗牛星际皇帝版代替K3当主路由，香是很香的啦！
+&#13;
+但是问题也来了，插了一块硬盘进去，系统可以正常识别读取SMART信息，但是却无法挂载共享，挂载点直接没有选项，重启也无效，如何解决？</description>
+      <content:encoded><![CDATA[<p><b>UniqueDiablo: </b><br>
+<span>LEDE硬盘挂载问题</span><br>
+<span>最近买了个蜗牛星际皇帝版代替K3当主路由，香是很香的啦！</span><br>
+<span>但是问题也来了，插了一块硬盘进去，系统可以正常识别读取SMART信息，但是却无法挂载共享，挂载点直接没有选项，重启也无效，如何解决？</span><br>
+</p><p><b>雪影: </b><br>
+<span>又不是单纯插上去就是共享了</span><br>
+<span>你NFS，SMB，FTP之类的协议开了没</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>ssh手动挂载试下，顺便硬盘什么格式的？</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>雪影 发表于 2019-6-29 11:53</span><br>
+<span>又不是单纯插上去就是共享了</span><br>
+<span>你NFS，SMB，FTP之类的协议开了没</span><br>
+<span>我都没法挂载怎么共享？</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>伊可费斯 发表于 2019-6-29 12:05</span><br>
+<span>ssh手动挂载试下，顺便硬盘什么格式的？</span><br>
+<span>NTFS</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>皇帝版是说C款双千吗 求指路</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>RPG-7 发表于 2019-6-29 12:44</span><br>
+<span>皇帝版是说C款双千吗 求指路</span><br>
+<span>YEA</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843041[0-50]</guid>
+    </item>
+  </channel>
+</rss>

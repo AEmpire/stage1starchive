@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>自学access，遇到宏问题，望达人能指点一下</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>自学access，遇到宏问题，望达人能指点一下</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:32:24 +0000</lastBuildDate>
+    <item>
+      <title>自学access，遇到宏问题，望达人能指点一下[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832077-1-1.html</link>
+      <description>自学access，遇到宏问题，望达人能指点一下&#13;
+题目很简单，建立一个命令按钮，功能为打开某个已经做好的查询对象。
+&#13;
+我就按部就班写了：docmd.openquery "商品查询"
+&#13;
+但是我遇到的问题是，知道内容对话框出现之后，不输入数值，点取消的时候会出现      
+&#13;
+运行时错误‘2001’
+&#13;
+您取消了前次的操作。
+&#13;
+但是我直接双击"商品查询"这个查询对象的时候，选取消不会跳运行错误啊
+&#13;
+我没有编程基础，请大大能给点指导。
+&#13;
+谢谢。</description>
+      <content:encoded><![CDATA[<p><b>874all: </b><br>
+<span>自学access，遇到宏问题，望达人能指点一下</span><br>
+<span>题目很简单，建立一个命令按钮，功能为打开某个已经做好的查询对象。</span><br>
+<span>我就按部就班写了：docmd.openquery "商品查询"</span><br>
+<span>但是我遇到的问题是，知道内容对话框出现之后，不输入数值，点取消的时候会出现      </span><br>
+<span>运行时错误‘2001’</span><br>
+<span>您取消了前次的操作。</span><br>
+<span>但是我直接双击"商品查询"这个查询对象的时候，选取消不会跳运行错误啊</span><br>
+<span>我没有编程基础，请大大能给点指导。</span><br>
+<span>谢谢。</span><br>
+</p><p><b>874all: </b><br>
+<span>Private Sub Command3_Click()</span><br>
+<span>DoCmd.OpenQuery "商品查询"</span><br>
+<span>End Sub</span><br>
+<span>这是我刚刚估摸出来的简单代码……</span><br>
+<span>丢脸</span><br>
+</p><p><b>874all: </b><br>
+<span>这是我根据“命令按钮向导”，做出的，</span><br>
+<span>然后到事件过程中的代码，</span><br>
+<span>根本看不懂……</span><br>
+<span>Private Sub Command3_Click()</span><br>
+<span>On Error GoTo Err_Command3_Click</span><br>
+<span>    Dim stDocName As String</span><br>
+<span>    stDocName = ChrW(21830) & ChrW(21697) & ChrW(26597) & ChrW(-29726)</span><br>
+<span>    DoCmd.OpenQuery stDocName, acNormal, acEdit</span><br>
+<span>Exit_Command3_Click:</span><br>
+<span>    Exit Sub</span><br>
+<span>Err_Command3_Click:</span><br>
+<span>    MsgBox Err.Description</span><br>
+<span>    Resume Exit_Command3_Click</span><br>
+<span>End Sub</span><br>
+</p><p><b>biye: </b><br>
+<span>按VB的尿性 是因为取消时返回的值不合法 可以定义返回值或返回空值时反馈</span><br>
+</p><p><b>874all: </b><br>
+<span> 本帖最后由 874all 于 2019-5-17 02:33 编辑 </span><br>
+<span>biye 发表于 2019-5-17 02:19</span><br>
+<span>按VB的尿性 是因为取消时返回的值不合法 可以定义返回值或返回空值时反馈</span><br>
+<span>谢谢回帖，能否指导一下再添加什么语句啊。</span><br>
+<span>我把问题再详细一下。</span><br>
+<span>运行宏的时候，是这样的：</span><br>
+<span>点取消之后，是这样的：</span><br>
+<span>我就懵了。到底怎么办？</span><br>
+<span>谢谢指导。</span><br>
+</p><p><b>biye: </b><br>
+<span>把3楼这两行删了就行</span><br>
+<span>    MsgBox Err.Description </span><br>
+<span>    Resume Exit_Command3_Click//应该也可以不删</span><br>
+<span>看楼主没任何基础..真想学可以找本书看看 实现起来大致差不多就行 知道报错需要又臭又长的前置基础知识教材会慢慢教</span><br>
+</p><p><b>PhoenixDown: </b><br>
+<span>为啥要学这玩意啊</span><br>
+<span>—— 来自 Sony H4233, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>w酱: </b><br>
+<span>为什么要学vb</span><br>
+</p><p><b>绕指流光: </b><br>
+<span>楼主这些都是VB的窗体问题，需要了解相关基础知识再来上手，像顶楼这个问题是你只给了“确认”部分的代码，没有定义“取消”这个按钮对应的事件触发宏，</span><br>
+<span>顺带一提，我干活中用到ACCESS的VBA都跟便秘一样，现成函数库少，挂上其他库调用几个EXCEL实例的VBA一天到晚出幺蛾子。推荐所有非界面问题都用SQL解决</span><br>
+</p><p><b>九八式衍射弹: </b><br>
+<span>这又什么用啊 我还以为早没人学了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832077[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助大佬，PCIE固态带宽变成PCIE 3.0 X1了，速度慢了好多</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助大佬，PCIE固态带宽变成PCIE 3.0 X1了，速度慢了好多</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:57:42 +0000</lastBuildDate>
+    <item>
+      <title>求助大佬，PCIE固态带宽变成PCIE 3.0 X1了，速度慢了好多[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837764-1-1.html</link>
+      <description>求助大佬，PCIE固态带宽变成PCIE 3.0 X1了，速度慢了好多&#13;
+新装的机器
+&#13;
+I79700k+技嘉Z390 GAMING X+RTX2080
+&#13;
+我的SSD是以前买的一块U2插口的三星，接了个转接卡转成PCIE的接在了显卡下面的PCIE接口上
+&#13;
+可是速度奇低，读取只有600多M/S，以前都是2000+M/S的。
+&#13;
+打开CDI看了一下，传输模式变成PCIE 3.0x1了，请问怎么才能把传输模式改成PCIE 3.0x4.
+&#13;
+如附件图</description>
+      <content:encoded><![CDATA[<p><b>丧失大狗头: </b><br>
+<span>求助大佬，PCIE固态带宽变成PCIE 3.0 X1了，速度慢了好多</span><br>
+<span>新装的机器</span><br>
+<span>I79700k+技嘉Z390 GAMING X+RTX2080</span><br>
+<span>我的SSD是以前买的一块U2插口的三星，接了个转接卡转成PCIE的接在了显卡下面的PCIE接口上</span><br>
+<span>可是速度奇低，读取只有600多M/S，以前都是2000+M/S的。</span><br>
+<span>打开CDI看了一下，传输模式变成PCIE 3.0x1了，请问怎么才能把传输模式改成PCIE 3.0x4.</span><br>
+<span>如附件图</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>是那个接口？短的那个本来就是X1的速度，长的那个是X4的速度</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 01:39</span><br>
+<span>是那个接口？短的那个本来就是X1的速度，长的那个是X4的速度</span><br>
+<span>第一个金属的长的插的是显卡，我的SSD插的是第三行也是长的那个PCIE插口，但是CDI上显示的还是X1的速度</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 01:39</span><br>
+<span>是那个接口？短的那个本来就是X1的速度，长的那个是X4的速度</span><br>
+<span>查了下官网，官网确实也说支持一个X16 一个X4的</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 01:41</span><br>
+<span>第一个金属的长的插的是显卡，我的SSD插的是第三行也是长的那个PCIE插口，但是CDI上显示的还是X1的速度 ...</span><br>
+<span>那就是你转接卡的原因了，转接卡的照片发过来看看</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 01:41</span><br>
+<span>查了下官网，官网确实也说支持一个X16 一个X4的</span><br>
+<span>GIGA非AORUUS的Z390主板，基本都是X16+X4,其实比X8+X8的主板更适合插HHHL的SSD,走X4是走PCH,不和显卡抢速度</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 01:41</span><br>
+<span>那就是你转接卡的原因了，转接卡的照片发过来看看</span><br>
+<span>大佬我的转接卡是这个，而且之前在旧电脑上就一切正常，ASS那个跑分软件第一行都是2000+的读写速度。</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 01:44</span><br>
+<span>大佬我的转接卡是这个，而且之前在旧电脑上就一切正常，ASS那个跑分软件第一行都是2000+的读写速度。</span><br>
+<span> ...</span><br>
+<span>你先把主板BIOS升级到最新版试试</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 01:44</span><br>
+<span>GIGA非AORUUS的Z390主板，基本都是X16+X4,其实比X8+X8的主板更适合插HHHL的SSD,走X4是走PCH,不和显卡抢速 ...</span><br>
+<span>对啊，一个X16插的是显卡，另外一个X4插SSD，问题是我插的就是这个X4的接口，但是传输速率却是X1的，真的是搞不明白为啥</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 01:44</span><br>
+<span>大佬我的转接卡是这个，而且之前在旧电脑上就一切正常，ASS那个跑分软件第一行都是2000+的读写速度。</span><br>
+<span> ...</span><br>
+<span>你这个情况可能是转接卡和主板不兼容</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 01:48</span><br>
+<span>你这个情况可能是转接卡和主板不兼容</span><br>
+<span>哎，只能先这样了，不过说白了这点速度估计也就影响跑分吧，实际使用和玩游戏起来应该没啥不同了。</span><br>
+<span>过两天给技嘉客服打电话问问看</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 01:54</span><br>
+<span>哎，只能先这样了，不过说白了这点速度估计也就影响跑分吧，实际使用和玩游戏起来应该没啥不同了。</span><br>
+<span>过两 ...</span><br>
+<span>升级BIOS应该可以解决问题</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>DOOMer 发表于 2019-6-8 02:00</span><br>
+<span>升级BIOS应该可以解决问题</span><br>
+<span>升级了最新的f7版本的bios，问题依旧</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>主板供电看着比较高端，但是为了30刀成本没有做成8＋8＋4？</span><br>
+</p><p><b>你的全家: </b><br>
+<span>我之前给室友了一块1080</span><br>
+<span>他发现是pciex1 1.1</span><br>
+<span>拔下来重新插了就好了</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>大概率转接卡的问题 u2转接卡请买淘宝红皮的那款</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>cybernetics31 发表于 2019-6-8 12:10</span><br>
+<span>大概率转接卡的问题 u2转接卡请买淘宝红皮的那款</span><br>
+<span>红皮那个我这用内存会变单通道，佳翼那款没问题，但是这俩卡都有概率让显卡变4x，硬盘那槽设成pch的话一重启这俩转接卡都会丢硬盘</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>实在不行就m2转u2吧，看你描述我现在觉得板子也有问题了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>lxx4869: </b><br>
+<span> 本帖最后由 lxx4869 于 2019-6-8 13:02 编辑 </span><br>
+<span>DOOMer 发表于 2019-6-8 01:44</span><br>
+<span>GIGA非AORUUS的Z390主板，基本都是X16+X4,其实比X8+X8的主板更适合插HHHL的SSD,走X4是走PCH,不和显卡抢速 ...</span><br>
+<span>我也是技嘉的z390，设成16+4当时正常，只要关机重启电脑就搜不到硬盘了；必须再设回8+4+4或者重置bios才能找到硬盘，硬盘是p3500 1.2t ，红色和佳翼转接卡都这样。但是用8+4+4显卡有时候会显示插在第二个槽就变成x4了，需要反复重启，不定哪次重启就正常了。想用16+4就要关电脑前重启进bios设成8+4+4，下次开机还要进bios改回16+4，要不就搜不到p3500</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>cybernetics31 发表于 2019-6-8 12:54</span><br>
+<span>实在不行就m2转u2吧，看你描述我现在觉得板子也有问题了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>u2转接就是容易出乱七八糟的问题...用过3块板子，p67、z77和z390全有问题，两块华硕的一块技嘉的</span><br>
+</p><p><b>xiaoyaowuming: </b><br>
+<span>你这有可能是转接卡兼容问题 如果想解决得发设备去技嘉然后找台北改bios才行 时间很长 并且有没有客服愿意帮你测是个问题…</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>塔奇克马 发表于 2019-6-8 11:23</span><br>
+<span>主板供电看着比较高端，但是为了30刀成本没有做成8＋8＋4？</span><br>
+<span>GIGA的390供电都很堆料，楼主这款算最丐的了，和Z390UD是同一淘供电</span><br>
+</p><p><b>丧失大狗头: </b><br>
+<span>lxx4869 发表于 2019-6-8 13:08</span><br>
+<span>u2转接就是容易出乱七八糟的问题...用过3块板子，p67、z77和z390全有问题，两块华硕的一块技嘉的 ...</span><br>
+<span>那我买个U2转M2的线可行吗？</span><br>
+<span>把这块硬盘插在M2接口上</span><br>
+</p><p><b>DOOMer: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 16:12</span><br>
+<span>那我买个U2转M2的线可行吗？</span><br>
+<span>把这块硬盘插在M2接口上</span><br>
+<span>行啊，你买intel原厂的那种转接线，或者技嘉的转接口，质量都很好的</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>丧失大狗头 发表于 2019-6-8 16:12</span><br>
+<span>那我买个U2转M2的线可行吗？</span><br>
+<span>把这块硬盘插在M2接口上</span><br>
+<span>我觉着值得一试，不过我硬盘占满了，再用m2会有sata口没法用...就没试</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>elite表示用intel原装的u2转m2的线没问题 </span><br>
+<span>p3600的aic插2槽的话直接会黑屏不自检</span><br>
+<span>但是插块a卡跑插帧或者作为主显卡输出却完全没问题 也不影响1槽x16的速度 做了黑果随意切换很舒服</span><br>
+<span>所以应该是特定小众设备的兼容性有点小问题</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837764[0-50]</guid>
+    </item>
+  </channel>
+</rss>

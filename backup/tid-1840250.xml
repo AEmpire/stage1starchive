@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>买群晖，仅存储用，ds218play和218+有什么区别？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>买群晖，仅存储用，ds218play和218+有什么区别？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:42:23 +0000</lastBuildDate>
+    <item>
+      <title>买群晖，仅存储用，ds218play和218+有什么区别？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840250-1-1.html</link>
+      <description>买群晖，仅存储用，ds218play和218+有什么区别？&#13;
+看商品介绍好像只有小螃蟹和赛扬的区别，尽存储是不是买小螃蟹218play就够了？
+&#13;
+设置方便吗？目前是想着路由器边上牵根线过去，是不是插电源插网线插硬盘之后就可以在电脑上设置了？
+&#13;
+没用过群晖，求解惑
+&#13;
+哦对了，另外8T硬盘买什么好？目前看上的有希捷银河和hgst的氦气盘，如何选择？</description>
+      <content:encoded><![CDATA[<p><b>猫溺泉君: </b><br>
+<span>买群晖，仅存储用，ds218play和218+有什么区别？</span><br>
+<span>看商品介绍好像只有小螃蟹和赛扬的区别，尽存储是不是买小螃蟹218play就够了？</span><br>
+<span>设置方便吗？目前是想着路由器边上牵根线过去，是不是插电源插网线插硬盘之后就可以在电脑上设置了？</span><br>
+<span>没用过群晖，求解惑</span><br>
+<span>哦对了，另外8T硬盘买什么好？目前看上的有希捷银河和hgst的氦气盘，如何选择？</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>我买的218play＋4t酷狼×2，硬盘的话8t是7200转速，4t是5400转速。大概是噪音的区别。218play只用来存bdrip＋漫画。目前是够用的，plus的话就是docker应用，虽然我觉得就算218plus的性能也是不够看的，不过同步照片就别买218play了，可能急死。</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>同步照片216play觉得还蛮快的啊</span><br>
+</p><p><b>猫溺泉君: </b><br>
+<span>内裤假面 发表于 2019-6-18 00:51</span><br>
+<span>我买的218play＋4t酷狼×2，硬盘的话8t是7200转速，4t是5400转速。大概是噪音的区别。218play只用来存bdrip ...</span><br>
+<span>那么看视频啥的拉进度条怎么样呢？照片我是有80多G，估摸着再慢一晚上也能传完了吧…</span><br>
+</p><p><b>mistzzt: </b><br>
+<span>play和plus型号的区别应该是某一个型号有专用的视频转码芯片；另一个是高性能版本。非intel处理器的版本都不可以使用docker/虚拟化，后续如果想nas运行其他软件（如plex）会不方便。</span><br>
+<span>考虑看看QNAP？我从最早218 用两个月切到ts-453be，很喜欢。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>猫溺泉君 发表于 2019-6-18 01:06</span><br>
+<span>那么看视频啥的拉进度条怎么样呢？照片我是有80多G，估摸着再慢一晚上也能传完了吧…</span><br>
+<span> ...</span><br>
+<span>随便拉进度条没问题，没试过蓝光，传照片和同步照片不太一样，总是能传完的。</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>mistzzt 发表于 2019-6-18 07:13</span><br>
+<span>play和plus型号的区别应该是某一个型号有专用的视频转码芯片；另一个是高性能版本。非intel处理器的版本都 ...</span><br>
+<span>qnap那个最便宜的ts428怎么样，听说性能捉鸡？</span><br>
+</p><p><b>GMJ: </b><br>
+<span> 本帖最后由 GMJ 于 2019-6-18 10:48 编辑 </span><br>
+<span>内裤假面 发表于 2019-6-18 08:39</span><br>
+<span>随便拉进度条没问题，没试过蓝光，传照片和同步照片不太一样，总是能传完的。</span><br>
+<span>—— 来自 meizu 16s, And ...</span><br>
+<span>那种40G+一本的4K片子不能随便拉，超过缓存的部分就跳回点播界面。。大概就20秒不到的进度</span><br>
+<span>当然可能是我内存太小的原因，原生418play。。</span><br>
+<span>话说想换918+，万兆的RJ45网口+万兆内网应该可以很爽了吧，现在从硬盘拷贝到NAS就70-100M，感觉还是慢。用映射硬盘的方式把作图的工程文件保存在NAS上直接打开保存修改都会明显比存本地的慢。。</span><br>
+<span>但万兆内网怕是要把装修都敲掉重新拉过。。工程极大。。看看以后有没有类似5G的超高速的无线方案</span><br>
+</p><p><b>john: </b><br>
+<span>GMJ 发表于 2019-6-18 10:47</span><br>
+<span>那种40G+一本的4K片子不能随便拉，超过缓存的部分就跳回点播界面。。大概就20秒不到的进度</span><br>
+<span>当然可能是我 ...</span><br>
+<span>谁告诉你918+有万兆…………</span><br>
+</p><p><b>GMJ: </b><br>
+<span>john 发表于 2019-6-18 10:50</span><br>
+<span>谁告诉你918+有万兆…………</span><br>
+<span>我记错了</span><br>
+</p><p><b>w酱: </b><br>
+<span>218+ 有docker，就这点吊打螃蟹了，不能装plex emby gitea的群晖不是好群晖</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>GMJ 发表于 2019-6-18 10:47</span><br>
+<span>那种40G+一本的4K片子不能随便拉，超过缓存的部分就跳回点播界面。。大概就20秒不到的进度</span><br>
+<span>当然可能是我 ...</span><br>
+<span>4k播放用映射+本地播放器，感觉对于硬盘和局域网是不小的考验。我个人觉得4k的片源还是买盘比较划算。</span><br>
+<span>万兆网络的话不得不追求更高硬件了，218play才千兆网口。那也不能追求性价比了。</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>trentswd: </b><br>
+<span>我觉得应该买x86架构的，可以开docker</span><br>
+</p><p><b>2517君: </b><br>
+<span>用docker我最常用的是aria2 和calibre library在线预览，我觉得这点差价就值了</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>放内网串流，4k hdr、下片买哪个型号最便宜？对硬盘位没什么要求。</span><br>
+</p><p><b>全力少年: </b><br>
+<span>星际蜗牛搞个洗白群晖，所有成本加一起600多块钱，相比家里一边的918+，觉得是今年采购的最实惠的东西了，甚至比美亚10t硬盘还美丽。</span><br>
+</p><p><b>人造小鸡鸡: </b><br>
+<span>有docker很多扩展功能，别到时候想用就烦了。对了hk买218+，只要2200hkd，比国内便宜很多</span><br>
+</p><p><b>GMJ: </b><br>
+<span> 本帖最后由 GMJ 于 2019-6-18 16:57 编辑 </span><br>
+<span>内裤假面 发表于 2019-6-18 12:40</span><br>
+<span>4k播放用映射+本地播放器，感觉对于硬盘和局域网是不小的考验。我个人觉得4k的片源还是买盘比较划算。</span><br>
+<span> ...</span><br>
+<span>如果是买盘的话需要买个XB1X来做机顶盒了。。。。</span><br>
+<span>网络应该没问题，因为用电视自带的播放器随便啦没问题，只是没有那么多好用的功能，比如没有海报，不会自动加载字幕，不支持特效字幕，也没有断点记忆续播等等。</span><br>
+<span>所以最终问题要么出在nas上，要么是群晖的app做的太菜（播放4K的hdr片还要调用MXPLAY才能放，不然不支持解码）NAS性能菜可以通过加内存或买更高级设备搞定，APP菜就没办法了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840250[0-50]</guid>
+    </item>
+  </channel>
+</rss>

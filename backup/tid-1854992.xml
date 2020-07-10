@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:09:47 +0000</lastBuildDate>
+    <item>
+      <title>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854992-1-1.html</link>
+      <description>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式&#13;
+https://www.anandtech.com/show/14765/nvidia-releases-geforce-436-02-driver-integer-scaling-and-more
+&#13;
+在“刚刚发布”的新驱动436.02中，英伟达新增了分辨率缩放算法，这一算法被称为“integer scaling”，对像素风游戏是个利好。宣传图中含有Turing字样，不知是否为新架构独占。
+&#13;
+外媒推测若在4K显示器中使用1080P分辨率，利用新的缩放算法将会把原始分辨率的每个像素转为四个像素进行渲染，避免以往降低分辨率造成的模糊问题。
+&#13;
+然而如今在Nvidia官网，436.02驱动下载遭到了404，据说是因为bug被撤回了</description>
+      <content:encoded><![CDATA[<p><b>有口皆悲: </b><br>
+<span>所以电脑显示器像素排列都是四四方方类似拜耳排列那种吗？若是像有的手机屏幕一样乱排就不能用了？</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>共谍常凯申 发表于 2019-8-22 11:05</span><br>
+<span>我说的就是在4k显示器上</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>同样的显卡，2k分辨率下帧数肯定不如1080p啊</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>四控大叔 发表于 2019-8-21 21:08</span><br>
+<span>我觉得可能没那么简单，比如一个屏幕分辨率是3*3的话，内容缩放到4*4的屏幕上没法做到不失真吧</span><br>
+<span>—— 来 ...</span><br>
+<span>所以叫integer scaling, 你说的这情况的结果就是黑边, 这功能RetroArch就有, 软件实现.</span><br>
+</p><p><b>dogfight: </b><br>
+<span>3D加了以后变成锐化了？看44楼效果，锯齿都变小了</span><br>
+</p><p><b>马甲5号: </b><br>
+<span>catenarygong 发表于 2019-8-22 11:08</span><br>
+<span> 试了一下非像素的游戏 确实不会模糊了 </span><br>
+<span>锯齿边缘是因为输出分辨率低了啊，举个例子：原先4k 32寸开1080p糊的一塌糊涂，现在开了整数缩放，就成32寸1080p了，32寸1080p本来就比4k 32寸锯齿多</span><br>
+</p><p><b>马甲5号: </b><br>
+<span>dogfight 发表于 2019-8-22 12:05</span><br>
+<span> 3D加了以后变成锐化了？看44楼效果，锯齿都变小了</span><br>
+<span>不是锐化，是消除了线性插值带来的模糊和边缘狗牙</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>处男鉴黄师 发表于 2019-8-22 11:17</span><br>
+<span>同样的显卡，2k分辨率下帧数肯定不如1080p啊</span><br>
+<span>那720P帧数不是更高？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>共谍常凯申 发表于 2019-8-22 12:35</span><br>
+<span>那720P帧数不是更高？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>肛精你好，肛精再见</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>bigheadnotbig 发表于 2019-8-22 02:33</span><br>
+<span>暗黑2有救了？！</span><br>
+<span>暗黑2的话 nGlide 就可以实现</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>这个要怎么设置 我现在4k屏幕想玩2kmhw要怎么搞</span><br>
+</p><p><b>obiy: </b><br>
+<span>kkk9233 发表于 2019-8-22 16:53</span><br>
+<span>这个要怎么设置 我现在4k屏幕想玩2kmhw要怎么搞</span><br>
+<span>Nvidia控制面板，调整桌面尺寸和位置，在缩放模式里选择integer scaling，应用，然后进游戏开2K分辨率即可。</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>啥 1060不支持 要16XX和rtx系列才行？</span><br>
+<span>去屎吧!</span><br>
+</p><p><b>樱绰落: </b><br>
+<span>好像I家核显也有这功能？</span><br>
+<span>那就剩小AA没有了</span><br>
+</p><p><b>马甲5号: </b><br>
+<span>kkk9233 发表于 2019-8-22 16:53</span><br>
+<span>这个要怎么设置 我现在4k屏幕想玩2kmhw要怎么搞</span><br>
+<span>不行的，说明里有整数缩放真的只能整数，4K下可以开1080p，2k不行</span><br>
+</p><p><b>mozilla: </b><br>
+<span>记得LTT有期谈CRT显示器优势的视频提过这个像素。</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>kkk9233 发表于 2019-8-22 16:53</span><br>
+<span>这个要怎么设置 我现在4k屏幕想玩2kmhw要怎么搞</span><br>
+<span>不是本来就可以吗</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>帝蓝: </b><br>
+<span>你的全家 发表于 2019-8-22 03:48</span><br>
+<span>上次说这话的是rtx</span><br>
+<span>结果人折腾一番给1080打开了 性能还不差 爆笑</span><br>
+<span>那个早证明过是假的了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lain2008: </b><br>
+<span>今天试了一天，没啥卵用。</span><br>
+<span>该糊还是糊</span><br>
+</p><p><b>seveland: </b><br>
+<span>帝蓝 发表于 2019-08-22 19:34:21</span><br>
+<span>那个早证明过是假的了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的v2.1.2后来老黄给1060以上的卡自己开了光追</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>welcom: </b><br>
+<span>seveland 发表于 2019-8-23 09:00</span><br>
+<span>后来老黄给1060以上的卡自己开了光追</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>我记得b站有人放过爹5 1060光追鹿特丹的视频，作者说加速过，实际大概十几fps</span><br>
+</p><p><b>帝蓝: </b><br>
+<span>seveland 发表于 2019-8-23 09:00</span><br>
+<span>后来老黄给1060以上的卡自己开了光追</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>强行硬解的产物 10系在1080P下帧数都惨不忍睹 有讨论价值么</span><br>
+</p><p><b>seveland: </b><br>
+<span>帝蓝 发表于 2019-08-23 09:13:22</span><br>
+<span>强行硬解的产物 10系在1080P下帧数都惨不忍睹 有讨论价值么不懂你的逻辑</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>xsummer: </b><br>
+<span>智商检测卡2060舒服了</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>相互理解: </b><br>
+<span>思路应该是把线性插值改成 waifu2x 那种</span><br>
+</p><p><b>navarra: </b><br>
+<span>albertfu 发表于 2019-8-21 21:50</span><br>
+<span>是turing only吗</span><br>
+<span>是的</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>等等这功能以前一直没有？没用过4K我还以为是比较基本的软件功能或者显示器硬件缩放....</span><br>
+</p><p><b>另一个小智: </b><br>
+<span>好诶，4K带不动的游戏有救了</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>另一个小智 发表于 2019-8-23 10:38</span><br>
+<span>好诶，4K带不动的游戏有救了</span><br>
+<span>说得没这个功能就不能设置低分辨率一样</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>10系是可以开光追啊，只是1080ti都打不过2060罢了</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>4k的英雄无敌三有希望啦？</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>求问10系显卡有什么曲线救国的方案吗</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>有谁用上了吗？效果怎么样</span><br>
+<span>—— 来自 HUAWEI SCM-W09, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>obiy: </b><br>
+<span>试了一下吃鸡，（重装系统了，装好第一件事就是推迟35天更新），字体边缘确实不糊了，不过可能是1080P本身分辨率低，画质和以前的降到1080P差别不大</span><br>
+</p><p><b>caicc: </b><br>
+<span>请问1070支持吗？</span><br>
+</p><p><b>風駿: </b><br>
+<span>我1070，驱动升完，没有</span><br>
+</p><p><b>sign34789: </b><br>
+<span>可以换4k显示器了</span><br>
+</p><p><b>lain2008: </b><br>
+<span>七草真由美 发表于 2019-8-23 17:00</span><br>
+<span>有谁用上了吗？效果怎么样</span><br>
+<span>—— 来自 HUAWEI SCM-W09, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>我传了图了，不用指望了，该糊还是糊</span><br>
+</p><p><b>unbalanced: </b><br>
+<span> 本帖最后由 unbalanced 于 2019-8-24 01:51 编辑 </span><br>
+<span>没啥乱用，看桌面还行，进游戏还是糊一脸，可能比较适合2d游戏，但图灵卡跑2d游戏为啥要降分辨率？</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>bill基 发表于 2019-8-21 07:32</span><br>
+<span>本身追求帧数比追求分辨率的人就多得多，大把27寸1080P照样用得欢的人，所谓的“大果粒”很多人不在乎，毕 ...</span><br>
+<span>27寸1080还好吧</span><br>
+<span>能看出大果粒得隔多近啊。。。</span><br>
+</p><p><b>bm7号: </b><br>
+<span>没用的功能，只能提供整数倍缩放，对老2d游戏来说边上那个尺寸选项卡里边的启用桌面大小调整一样能实现。</span><br>
+</p><p><b>另一个小智: </b><br>
+<span>共谍常凯申 发表于 2019-8-23 16:15</span><br>
+<span> 说得没这个功能就不能设置低分辨率一样—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2 ...</span><br>
+<span>糊的没法看啊</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>另一个小智 发表于 2019-8-24 10:31</span><br>
+<span>糊的没法看啊</span><br>
+<span>我玩游戏时都是设置2k的没觉得糊，大部分游戏材质太屎了，2k到4k画质提升太小了，远不及1080p到2k</span><br>
+</p><p><b>obiy: </b><br>
+<span>kkk9233 发表于 2019-8-22 16:53</span><br>
+<span>这个要怎么设置 我现在4k屏幕想玩2kmhw要怎么搞</span><br>
+<span>说一下mhw的效果，4k分辨率只能在游戏里开1080p，2k分辨率应该对应5k的显示器，也就是只能设置成显示器分辨率的四分之一。</span><br>
+<span>总体效果嘛，比4k dlss好多了</span><br>
+</p><p><b>King5268: </b><br>
+<span>四控大叔 发表于 2019-8-21 21:08</span><br>
+<span>我觉得可能没那么简单，比如一个屏幕分辨率是3*3的话，内容缩放到4*4的屏幕上没法做到不失真吧</span><br>
+<span>—— 来 ...</span><br>
+<span>这样的话四周留一圈黑边就可以解决，虽然不完美，但是感觉比糊成一坨要好得多呀</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>obiy 发表于 2019-10-2 22:15</span><br>
+<span>说一下mhw的效果，4k分辨率只能在游戏里开1080p，2k分辨率应该对应5k的显示器，也就是只能设置成显示器分 ...</span><br>
+<span>我觉得完全不如dlss啊……我自己是dlss+锐化滤镜这么玩mhw的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854992[50-100]</guid>
+    </item>
+    <item>
+      <title>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854992-1-1.html</link>
+      <description>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式&#13;
+https://www.anandtech.com/show/14765/nvidia-releases-geforce-436-02-driver-integer-scaling-and-more
+&#13;
+在“刚刚发布”的新驱动436.02中，英伟达新增了分辨率缩放算法，这一算法被称为“integer scaling”，对像素风游戏是个利好。宣传图中含有Turing字样，不知是否为新架构独占。
+&#13;
+外媒推测若在4K显示器中使用1080P分辨率，利用新的缩放算法将会把原始分辨率的每个像素转为四个像素进行渲染，避免以往降低分辨率造成的模糊问题。
+&#13;
+然而如今在Nvidia官网，436.02驱动下载遭到了404，据说是因为bug被撤回了</description>
+      <content:encoded><![CDATA[<p><b>obiy: </b><br>
+<span>英伟达新的游戏驱动将带来“点对点”分辨率缩放方式</span><br>
+<span>https://www.anandtech.com/show/14765/nvidia-releases-geforce-436-02-driver-integer-scaling-and-more</span><br>
+<span>在“刚刚发布”的新驱动436.02中，英伟达新增了分辨率缩放算法，这一算法被称为“integer scaling”，对像素风游戏是个利好。宣传图中含有Turing字样，不知是否为新架构独占。</span><br>
+<span>外媒推测若在4K显示器中使用1080P分辨率，利用新的缩放算法将会把原始分辨率的每个像素转为四个像素进行渲染，避免以往降低分辨率造成的模糊问题。</span><br>
+<span>然而如今在Nvidia官网，436.02驱动下载遭到了404，据说是因为bug被撤回了</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>所以就是渲染1080P的画面然后让GPU一个点对应4个点搞成4K，对像素风的效果应该是最好的。更加锐利更多锯齿，大概。</span><br>
+<span>目前还是turing only，不是，那老黄你的DLSS呢</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>基于GAN的DLSS需要游戏厂自己支持，这个算法是个游戏就能用</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>这不就是最简易的临近取样么</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>以前才知道的时候非常惊叹，4个点对1个点这么简单的功能这么多年居然无法实现</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>看上去就像最近邻插值啊，1080p的实际画面插成4k，不用线性插值不就行了，这玩意有啥难度</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>如果老的不可能支持这特性，用了不到一年的1080要被逼出二手了</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span> 本帖最后由 FirstSnow 于 2019-8-21 20:57 编辑 </span><br>
+<span>我瞎了，找到了，在调整桌面尺寸和位置那栏里</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>处男鉴黄师 发表于 2019-8-21 20:44</span><br>
+<span>以前才知道的时候非常惊叹，4个点对1个点这么简单的功能这么多年居然无法实现 ...</span><br>
+<span>我觉得可能没那么简单，比如一个屏幕分辨率是3*3的话，内容缩放到4*4的屏幕上没法做到不失真吧</span><br>
+<span>—— 来自 Oneplus oneplus a5010, Android 6.0.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>436.02驱动在几个小时前就已经重新上架了，修好了强制安装GeForce Experience的问题。</span><br>
+</p><p><b>obiy: </b><br>
+<span>性欲モンスター 发表于 2019-8-21 21:13</span><br>
+<span>436.02驱动在几个小时前就已经重新上架了，修好了强制安装GeForce Experience的问题。 ...</span><br>
+<span>刚刚看了，我2060super的dch驱动还在404</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>晚上刚升的驱动 然而1070并没有出现这个选项</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>obiy 发表于 2019-8-21 21:22</span><br>
+<span>刚刚看了，我2060super的dch驱动还在404</span><br>
+<span>？可以下啊</span><br>
+<span>http://us.download.nvidia.com/Windows/436.02/436.02-desktop-win10-64bit-international-dch-whql-rp.exe</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>四控大叔 发表于 2019-8-21 21:08</span><br>
+<span>我觉得可能没那么简单，比如一个屏幕分辨率是3*3的话，内容缩放到4*4的屏幕上没法做到不失真吧</span><br>
+<span>—— 来 ...</span><br>
+<span>非整数倍确实，但纵横都是整数倍分辨率（3840*2160对比1920*1080）却做不到确实令人惊讶</span><br>
+</p><p><b>obiy: </b><br>
+<span> 本帖最后由 obiy 于 2019-8-21 21:34 编辑 </span><br>
+<span>性欲モンスター 发表于 2019-8-21 21:26</span><br>
+<span>？可以下啊</span><br>
+<span>http://us.download.nvidia.com/Windows/436.02/436.02-desktop-win10-64bit-international-d ...</span><br>
+<span>去美国官网看了，简体中文版没有，中国官网也在404中。应该是英语版先上了，不知道不同语言版本混用会不会出bug</span><br>
+</p><p><b>淼霆: </b><br>
+<span>obiy 发表于 2019-8-21 21:32</span><br>
+<span>去美国官网看了，简体中文版没有，中国官网也在404中。应该是英语版先上了，不知道不同语言版本混用会不会 ...</span><br>
+<span>没区别的</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>这叫啥？反抗锯齿？</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>刚刚试了试 英语版正常下载</span><br>
+</p><p><b>albertfu: </b><br>
+<span>是turing only吗</span><br>
+</p><p><b>huruii7: </b><br>
+<span>实际用处是啥？只有1080p屏幕的是不是没用？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>huruii7 发表于 2019-8-21 21:52</span><br>
+<span>实际用处是啥？只有1080p屏幕的是不是没用？</span><br>
+<span>很多没实操过的都以为4k屏设置1080p分辨率，就会自动1:4输出</span><br>
+<span>但直到这个驱动才刚刚实现</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>好是好，哪儿来这么多像素风游戏玩？</span><br>
+</p><p><b>difeltion: </b><br>
+<span>albertfu 发表于 2019-8-21 21:56</span><br>
+<span>很多没实操过的都以为4k屏设置1080p分辨率，就会自动1:4输出</span><br>
+<span>但直到这个驱动才刚刚实现 ...</span><br>
+<span>什么？那原先4k屏设置1080p分辨率是什么原理？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>difeltion 发表于 2019-8-21 22:00</span><br>
+<span>什么？那原先4k屏设置1080p分辨率是什么原理？</span><br>
+<span>会如主楼图左linear interpolation的效果，不锐利，糊糊的</span><br>
+</p><p><b>huanghao: </b><br>
+<span>大好事啊，4k屏玩1080p不会瞎眼了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>difeltion: </b><br>
+<span>albertfu 发表于 2019-8-21 22:02</span><br>
+<span>会如主楼图左linear interpolation的效果，不锐利，糊糊的</span><br>
+<span>这太反直觉了，复制粘贴需要算法支持，模糊化反而不需要</span><br>
+</p><p><b>albertfu: </b><br>
+<span>difeltion 发表于 2019-8-21 22:08</span><br>
+<span>这太反直觉了，复制粘贴需要算法支持，模糊化反而不需要</span><br>
+<span> 确实很反直觉</span><br>
+<span>5年前买4k屏的时候还觉得大不了开1080p，大不了锯齿大些，结果糊我一脸</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>turing only，打扰了告辞</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>albertfu 发表于 2019-8-21 21:50</span><br>
+<span>是turing only吗</span><br>
+<span>对比图里的Integer Scaling都特地加个Turing了</span><br>
+<span>https://www.nvidia.com/en-us/geforce/news/gamescom-2019-game-ready-driver/</span><br>
+<span>So if you have a GeForce RTX or GeForce GTX 16-Series GPU, and have installed our new Game Ready Driver, you can enable an Integer Scaling beta in the NVIDIA Control Panel, in the “Adjust Desktop Size and Position” Display menu:</span><br>
+</p><p><b>albertfu: </b><br>
+<span>性欲モンスター 发表于 2019-8-21 22:16</span><br>
+<span>对比图里的Integer Scaling都特地加个Turing了</span><br>
+<span>https://www.nvidia.com/en-us/geforce/news/gamescom-201 ...</span><br>
+<span>打扰了告辞 +1</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>AA是刻在灵魂里的，不AA莫得灵魂</span><br>
+<span>说整数缩放那应该就是整数缩放，全体整数倍缩放，不满的用黑边填充</span><br>
+<span>要是能任意填满又不AA，那不就是最邻近缩放了吗</span><br>
+</p><p><b>bill基: </b><br>
+<span> 本帖最后由 bill基 于 2019-8-21 22:37 编辑 </span><br>
+<span>本身追求帧数比追求分辨率的人就多得多，大把27寸1080P照样用得欢的人，所谓的“大果粒”很多人不在乎，毕竟屁股往后挪一下大果粒就不明显了</span><br>
+<span>有了这个功能后一大堆买了4K屏幕但苦于显卡性能不够的直接缩到1080P，好吖10701080再战N年，反正你2080ti跑4k也大把游戏吃不透</span><br>
+<span>黄老板又不是SB，这玩意如果下放图灵以下的话图灵销量会受影响</span><br>
+<span>以后会不会，以后再说</span><br>
+</p><p><b>zyhang: </b><br>
+<span>我觉着线性插值是显示器做的。记得当年还是CRT的时候，就没线性插值这回事</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>1070用户表示不能接受，这功能应该MX440都能上才对</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>处男鉴黄师 发表于 2019-8-21 21:29</span><br>
+<span>非整数倍确实，但纵横都是整数倍分辨率（3840*2160对比1920*1080）却做不到确实令人惊讶 ...</span><br>
+<span>为啥呀，不实现是因为4k没普及吗？</span><br>
+<span>感觉计算量应该远小于插值算法啊</span><br>
+</p><p><b>启航PRC: </b><br>
+<span>整数缩放不是最古老的scaling方式么，不过既然全称是Turing integer scaling，老黄有自己的优化吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>john: </b><br>
+<span>huruii7 发表于 2019-8-21 21:52</span><br>
+<span>实际用处是啥？只有1080p屏幕的是不是没用？</span><br>
+<span>1080P的显示器玩640×480的游戏有用啊</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>启航PRC 发表于 2019-8-21 23:19</span><br>
+<span>整数缩放不是最古老的scaling方式么，不过既然全称是Turing integer scaling，老黄有自己的优化吧</span><br>
+<span>-- 来 ...</span><br>
+<span>老黄说，这玩意依赖于turing内置的硬件可编程滤镜，所以之前的才不能用</span><br>
+</p><p><b>露露缇耶: </b><br>
+<span>lemon鱿鱼 发表于 2019-8-21 23:11</span><br>
+<span>为啥呀，不实现是因为4k没普及吗？</span><br>
+<span>感觉计算量应该远小于插值算法啊</span><br>
+<span>事实就是如此，现在的显示器所有分辨率都用一套拉伸算法，想要1080p点对点的话只能拿电视当显示器了</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>john 发表于 2019-8-21 23:20</span><br>
+<span>1080P的显示器玩640×480的游戏有用啊</span><br>
+<span>暗黑2有救了？！</span><br>
+</p><p><b>qwased: </b><br>
+<span>试制甲炮 发表于 2019-8-22 00:01</span><br>
+<span>老黄说，这玩意依赖于turing内置的硬件可编程滤镜，所以之前的才不能用</span><br>
+<span>等一个破解补丁</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>你的全家: </b><br>
+<span>试制甲炮 发表于 2019-8-22 00:01</span><br>
+<span>老黄说，这玩意依赖于turing内置的硬件可编程滤镜，所以之前的才不能用</span><br>
+<span>上次说这话的是rtx</span><br>
+<span>结果人折腾一番给1080打开了 性能还不差 爆笑</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-8-21 12:42 编辑 </span><br>
+<span>感觉没啥卵用的玩意儿</span><br>
+<span>试过低分玩一般3D游戏该啥样还是啥样</span><br>
+</p><p><b>马甲5号: </b><br>
+<span>ls说没区别的，我来上张图</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>没啥卵用，1080p再怎么整数缩放，也是被2k吊打</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>共谍常凯申 发表于 2019-8-22 08:22</span><br>
+<span>没啥卵用，1080p再怎么整数缩放，也是被2k吊打</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅 ...</span><br>
+<span>对4k显示器来说太有用了</span><br>
+</p><p><b>obiy: </b><br>
+<span>试了一下Muv Luv，没啥变化，大概原始分辨率不足，游戏全屏有自带双线性插值。</span><br>
+<span>原本就震撼的场景并没有变得更加震撼</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>蓝天1070继续用417.71</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>处男鉴黄师 发表于 2019-8-22 09:12</span><br>
+<span>对4k显示器来说太有用了</span><br>
+<span>我说的就是在4k显示器上</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>catenarygong: </b><br>
+<span>试了一下非像素的游戏</span><br>
+<span>确实不会模糊了</span><br>
+<span>但是变成锯齿边缘了啊</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854992[0-50]</guid>
+    </item>
+  </channel>
+</rss>

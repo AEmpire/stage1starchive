@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>不太懂音频编码相关知识，请问一个游戏宣布支持 Linear PCM 代表了什么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>不太懂音频编码相关知识，请问一个游戏宣布支持 Linear PCM 代表了什么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:30:09 +0000</lastBuildDate>
+    <item>
+      <title>不太懂音频编码相关知识，请问一个游戏宣布支持 Linear PCM 代表了什么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1930856-1-1.html</link>
+      <description>不太懂音频编码相关知识，请问一个游戏宣布支持 Linear PCM 代表了什么&#13;
+没错，说的就是《异度神剑 终极版》，看到商店单独列出支持特性包含了「环绕声 (Linear PCM)」，联想起上个月在 reddit 看到过类似的帖子，有点好奇这意味着什么。</description>
+      <content:encoded><![CDATA[<p><b>LT_Harry: </b><br>
+<span>不太懂音频编码相关知识，请问一个游戏宣布支持 Linear PCM 代表了什么</span><br>
+<span>没错，说的就是《异度神剑 终极版》，看到商店单独列出支持特性包含了「环绕声 (Linear PCM)」，联想起上个月在 reddit 看到过类似的帖子，有点好奇这意味着什么。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>https://forums.overclockers.co.uk/threads/dolby-digital-or-lpcm.18843794/</span><br>
+<span>无压录音数据？</span><br>
+</p><p><b>3123: </b><br>
+<span>说明游戏本体容量过小，需要用未压缩音频才能塞满卡带</span><br>
+<span>还有就是游戏发售后的直接游戏转录的伪ost质量会好很多（也许）</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>另外对游戏来说，它只是在传达支持环绕声这样一个信息，环绕声（LPCM）没什么特别的，甚至剑盾都支持。</span><br>
+<span>但对 Nintendo Switch 来说，它需要特别提一嘴 (Linear PCM)，因为它好像不支持别的输出格式</span><br>
+</p><p><b>LT_Harry: </b><br>
+<span>whzfjk 发表于 2020-4-29 00:12</span><br>
+<span>另外对游戏来说，它只是在传达支持环绕声这样一个信息，环绕声（LPCM）没什么特别的，甚至剑盾都支持。</span><br>
+<span>但 ...</span><br>
+<span>看来没白问，原来还真有门道</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span> 本帖最后由 偶滴小乔 于 2020-4-29 00:45 编辑 </span><br>
+<span>支持5.1/7.1声道输出，仅此而已。</span><br>
+<span>另外ns不支持压缩格式（dd/dts之类），本身只支持pcm，你家里电视如果接回音壁之类设备，想用ns输出环绕声，ns不能接电视开arc</span><br>
+</p><p><b>roamer: </b><br>
+<span>偶滴小乔 发表于 2020-4-29 00:39</span><br>
+<span>支持5.1/7.1声道输出，仅此而已。</span><br>
+<span>另外ns不支持压缩格式（dd/dts之类），本身只支持pcm，你家里电视如果接 ...</span><br>
+<span>我ns接回音壁,回音壁接电视是ok的吧？</span><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>pencilnoo: </b><br>
+<span>这玩意我记得从ps3就开始支持了</span><br>
+</p><p><b>Tossy: </b><br>
+<span>说明老任太抠，NS没做dolby和dts认证支持</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>意味重点在除了LCPM以外，DTS、杜比这些压缩格式全不支持。</span><br>
+<span>纯纯的源码输出，没有任何渲染。原汁原味的数码之声。</span><br>
+</p><p><b>RookieTnT: </b><br>
+<span>ladiesman217 发表于 2020-4-29 09:21</span><br>
+<span>意味重点在除了LCPM以外，DTS、杜比这些压缩格式全不支持。</span><br>
+<span>纯纯的源码输出，没有任何渲染。原汁原 ...</span><br>
+<span>数码之声 (X)</span><br>
+<span>二进制之音(√)</span><br>
+</p><p><b>alann: </b><br>
+<span>支持pcm就是告诉你容量会很大</span><br>
+</p><p><b>果然: </b><br>
+<span>LPCM意思是支持杜比环绕声透传，也就是说由于NS本身不具备杜比解码，需要通过LPCM协议输出给播放设备（电视机），如果播放设备能支持杜比，即可播放杜比音乐。</span><br>
+<span>像PS4本身就支持杜比解码的，相关游戏就不需要单独提一嘴支持LPCM</span><br>
+</p><p><b>Zest: </b><br>
+<span>pencilnoo 发表于 2020-4-29 03:07</span><br>
+<span>这玩意我记得从ps3就开始支持了</span><br>
+<span>PS2就支持，等于无压缩WAV</span><br>
+</p><p><b>hui.w: </b><br>
+<span>PS3，PS4时代，DD，DTS都是有损的劣化输出方式，本身LPCM可以输出5.1，7.1，但是只能HDMI透传，这代XBOX更新后支持基于MAT2.0的无损杜比全景声，不过索索不咋待见杜比全景声和DTSX就是了，下一代还是搞自己的</span><br>
+</p><p><b>代号41: </b><br>
+<span>因为异度2不支持环绕声1重置终于支持环绕声了单独注明一下把</span><br>
+</p><p><b>yuuu: </b><br>
+<span>偶滴小乔 发表于 2020-4-29 00:39</span><br>
+<span>支持5.1/7.1声道输出，仅此而已。</span><br>
+<span>另外ns不支持压缩格式（dd/dts之类），本身只支持pcm，你家里电视如果接 ...</span><br>
+<span>eARC行吗？</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>yuuu 发表于 2020-4-30 10:13</span><br>
+<span>eARC行吗？</span><br>
+<span>看各种网站介绍都说可以吧，我没用过，下次更新手头电视音响不知啥时候了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>偶滴小乔 发表于 2020-4-30 10:33</span><br>
+<span>看各种网站介绍都说可以吧，我没用过，下次更新手头电视音响不知啥时候了 ...</span><br>
+<span>那就好，不用重新布线了</span><br>
+</p><p><b>847681220: </b><br>
+<span>除非是太差的压缩格式（mp3、ac3等）不然音频音源录制水准和后期混音水准比格式重要</span><br>
+</p><p><b>hui.w: </b><br>
+<span>yuuu 发表于 2020-4-30 10:13</span><br>
+<span>eARC行吗？</span><br>
+<span>理论是可以，但是我法2.0的earc搭配回音壁比较迷</span><br>
+</p><p><b>yuuu: </b><br>
+<span>hui.w 发表于 2020-4-30 12:38</span><br>
+<span>理论是可以，但是我法2.0的earc搭配回音壁比较迷</span><br>
+<span>我用lg电视和三棒回音壁混搭，似乎eArc 支持得还行</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1930856[0-50]</guid>
+    </item>
+  </channel>
+</rss>

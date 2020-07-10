@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一加论坛没人理，来这边求助了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一加论坛没人理，来这边求助了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:39:13 +0000</lastBuildDate>
+    <item>
+      <title>一加论坛没人理，来这边求助了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850280-1-1.html</link>
+      <description>一加论坛没人理，来这边求助了&#13;
+ 本帖最后由 healeveryone 于 2019-7-31 03:46 编辑 
+
+买了个美版1+7P，带氧OS，反正自己也可以科学上网，所以不想折腾成氢OS了，但是有几个问题不确定，求助泥潭一下
+&#13;
+1. 氧OS可以不靠ROOT+EXPOSED来进行通话录音么？
+&#13;
+2. 氧OS要用“OK, GOOGLE”必须要设置成英文系统么？还是说必须肉身在国外？
+&#13;
+3. 如果用氢OS装PLAY STORE，再装作恶全家桶，和直接用氧OS的差异大么？因为我之前用荣耀系列装作恶全家桶后有些功能是不能用的，比如google assistant</description>
+      <content:encoded><![CDATA[<p><b>healeveryone: </b><br>
+<span>一加论坛没人理，来这边求助了</span><br>
+<span> 本帖最后由 healeveryone 于 2019-7-31 03:46 编辑 </span><br>
+<span>买了个美版1+7P，带氧OS，反正自己也可以科学上网，所以不想折腾成氢OS了，但是有几个问题不确定，求助泥潭一下</span><br>
+<span>1. 氧OS可以不靠ROOT+EXPOSED来进行通话录音么？</span><br>
+<span>2. 氧OS要用“OK, GOOGLE”必须要设置成英文系统么？还是说必须肉身在国外？</span><br>
+<span>3. 如果用氢OS装PLAY STORE，再装作恶全家桶，和直接用氧OS的差异大么？因为我之前用荣耀系列装作恶全家桶后有些功能是不能用的，比如google assistant</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span> 本帖最后由 咲月露娜 于 2019-7-31 04:18 编辑 </span><br>
+<span>1.可以，用OOS_Native_Call_Recording_Enabler-v8.0.zip启动自带的通话录音，如果要管理录音文件（重命名 自动上传 录音完了是否保存），play上有个10刀的软件。。。你如果有兴趣我再去翻链接。。。。</span><br>
+<span>2.系统语言可以为中文，但是google助手的语音必须添加一个英文，而且要装 Riru_-_Location_Report_Enabler-v9.1.zip 或者 LocationReportEnabler_v1.4.0 xposed(19).apk 假装自己在国外</span><br>
+<span>3.区别不大，荣耀不能用也是因为没有装第二条中的模块</span><br>
+</p><p><b>healeveryone: </b><br>
+<span>咲月露娜 发表于 2019-7-31 04:17</span><br>
+<span>1.可以，用OOS_Native_Call_Recording_Enabler-v8.0.zip启动自带的通话录音，如果要管理录音文件（重命名...</span><br>
+<span>感谢，这些软件怎么装呢？可以在xda上找到么</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>healeveryone 发表于 2019-7-31 06:57</span><br>
+<span>感谢，这些软件怎么装呢？可以在xda上找到么</span><br>
+<span>1.magisk仓库里</span><br>
+<span>2. google搜文件名能找到gitbug的页面</span><br>
+</p><p><b>healeveryone: </b><br>
+<span>咲月露娜 发表于 2019-7-31 07:16</span><br>
+<span>1.magisk仓库里</span><br>
+<span>2. google搜文件名能找到gitbug的页面</span><br>
+<span>额，所以还是要root咯。。。那我还是折腾成氢OS吧</span><br>
+</p><p><b>杨松: </b><br>
+<span>我还在用3t，看看只能</span><br>
+</p><p><b>allies: </b><br>
+<span>录音装个acr，自动录音加云备份</span><br>
+</p><p><b>九十九忍: </b><br>
+<span>通话录音这不自带的吗，设置里就有</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>allies 发表于 2019-7-31 08:24</span><br>
+<span>录音装个acr，自动录音加云备份</span><br>
+<span>acr在安卓9扑街了。。。只能用麦克风外录</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>healeveryone 发表于 2019-7-31 07:27</span><br>
+<span>额，所以还是要root咯。。。那我还是折腾成氢OS吧</span><br>
+<span>。。。不好意思，少看了一个不字</span><br>
+</p><p><b>-o-o-304-o-o-: </b><br>
+<span>1. 氧系统自带通话录音的，打开通话app，右上角settings，打开选call recording就行了</span><br>
+<span>2. 只要能连上google的服务的网络，启用google assistant，然后就可以ok/hey google了</span><br>
+<span>3. 能用氧用氧，氢总有些莫名其妙的兼容问题。</span><br>
+</p><p><b>-o-o-304-o-o-: </b><br>
+<span>healeveryone 发表于 2019-7-30 17:27</span><br>
+<span>额，所以还是要root咯。。。那我还是折腾成氢OS吧</span><br>
+<span>除非你对NFC的公交卡或者未来的可能有的Oneplus(OPPO) pay有需求，不然能用氧尽量用氧（别的不说，氢你还得用debloat干掉默认的浏览器，买个类原生手机还有需要root才能干掉的第三方app这个……</span><br>
+</p><p><b>TSST: </b><br>
+<span>位置没关系，但是用大陆卡要取消Google的电话权限。</span><br>
+</p><p><b>trentswd: </b><br>
+<span> 本帖最后由 trentswd 于 2019-7-31 12:57 编辑 </span><br>
+<span>现在氧自带通话录音啊</span><br>
+<span>要解锁是很早以前的事情了</span><br>
+<span>ok google我没成功开启过</span><br>
+<span>氢os默认会连Google.cn，会出问题，好像要删某个manifest文件，具体我忘了，反正我就是搞不定这个才刷的氧</span><br>
+</p><p><b>mmmzq: </b><br>
+<span>-o-o-304-o-o- 发表于 2019-7-31 12:16</span><br>
+<span>除非你对NFC的公交卡或者未来的可能有的Oneplus(OPPO) pay有需求，不然能用氧尽量用氧（别的不说，氢你还 ...</span><br>
+<span>OOS也可以用公交卡的</span><br>
+<span>HOS提取过来就能用</span><br>
+</p><p><b>gnorz: </b><br>
+<span>通话录音，插国外相关地区sim卡会被屏蔽。</span><br>
+</p><p><b>healeveryone: </b><br>
+<span>gnorz 发表于 2019-8-1 00:07</span><br>
+<span>通话录音，插国外相关地区sim卡会被屏蔽。</span><br>
+<span>双卡呢？一张国内一张国外会咋样</span><br>
+</p><p><b>gnorz: </b><br>
+<span>healeveryone 发表于 2019-8-1 00:11</span><br>
+<span>双卡呢？一张国内一张国外会咋样</span><br>
+<span>也会被屏蔽。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850280[0-50]</guid>
+    </item>
+  </channel>
+</rss>

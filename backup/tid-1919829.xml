@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:14:31 +0000</lastBuildDate>
+    <item>
+      <title>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919829-1-1.html</link>
+      <description>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准&#13;
+微软在 GDC DirectX 的直播活动中公开了 DirectX 12 Ultimate（DX12U）标准，统一了AMD 和 NVIDIA 两个巨头的高端显卡图形 API 标准……
+&#13;
+微软官宣：https://devblogs.microsoft.com/directx/announcing-directx-12-ultimate/
+&#13;
+AMD官宣：https://community.amd.com/community/gaming/blog/2020/03/19/powering-next-generation-gaming-visuals-with-amd-rdna-2-and-directx-12-ultimate
+&#13;
+NVIDIA官宣：https://www.nvidia.com/en-us/geforce/news/geforce-rtx-ready-for-directx-12-ultimate/
+&#13;
+两家显卡死对头/老相好也各自公布了 DX12U 标准下的演示视频。Nvidia的 GeForce RTX 系列显卡、AMD 的 RDNA 2 系列显卡同时宣布支持 DX12U～也只有微软有这么大面子了[允悲]
+&#13;
+DX12 Ultimate 是对 DX12 的一次重大升级，带来以下四大主要新特性：
+&#13;
+— DirectX Raytracing 光线追踪
+&#13;
+— Variable Rate Shading 可变频率着色
+&#13;
+— Mesh Shaders 网格着色
+&#13;
+— Sampler Feedback 采样器反馈
+&#13;
+关键是，这套图形API不只是对PC，也对主机平台。目前满足这个标准的主机平台只有一个，就是微软自家的 Xbox Series X。
+&#13;
+什么概念啊朋友们！其实是联合硬件厂商以令开发者啊！
+&#13;
+之前不是A卡 N卡都各搞各的「针对某卡优化」游戏吗？以后不用再站队了，游戏开发商只要遵守 DX12U 的规格开发，就可以一口气上PC版的 A卡、N卡 和 XSX 三辆车……
+&#13;
+微软官方说法：
+&#13;
+「通过统一 PC 和 Xbox Series X 的图形平台标准，DX12U 将成为整个游戏生态的能量放大器。不需要再针对不同的平台单独做优化了！现在一切都彼此协同：当年末 Xbox Series X 发售后，全世界就已经有数百万块符合 DX12U 标准的 PC 显卡，使用统一的标准设定，可以快速开启新的图形特性。而当 Xbox Series X 带来一波新的主机玩家时，PC平台也会从中受益。」
+&#13;
+https://wx3.sinaimg.cn/mw690/6308a3d3gy1gcztstczmij20rs0rstdj.jpg
+&#13;
+在Win 10更新20H1以后也会支持DX12U 当然前提是你的显卡必须至少为N卡RTX系或者A卡RDNA2系
+&#13;
+https://wx2.sinaimg.cn/mw1024/6308a3d3gy1gczukinemqj21c00u0qiw.jpg</description>
+      <content:encoded><![CDATA[<p><b>CyanCloverFern: </b><br>
+<span>HazukiShion 发表于 2020-3-20 11:17</span><br>
+<span>那是不是理论上RTX和RDNA2以前的显卡也能实现这些特性？就像GTX也能跑光追一样？ ...</span><br>
+<span>1帧1s能算实现的话也可以认为。</span><br>
+<span>看测试玩了会不超过5帧的游戏特别难受</span><br>
+</p><p><b>HazukiShion: </b><br>
+<span>天神十三煞 发表于 2020-3-20 11:20</span><br>
+<span>按楼顶文情况看DX12U是比较新的语言法律体系，老年人[卡]没学不懂，如果不懂那个语言和法律，就无法理解按 ...</span><br>
+<span>自己是技术小白，不过光追老卡效率低不是因为没有专门的硬件来支持吗？</span><br>
+<span>而这些种软件上的新特性应该更新显卡驱动就可以了吧？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-19 20:14 编辑 </span><br>
+<span>HazukiShion 发表于 2020-3-19 19:27</span><br>
+<span>自己是技术小白，不过光追老卡效率低不是因为没有专门的硬件来支持吗？</span><br>
+<span>而这些种软件上的新特性应该更新 ...</span><br>
+<span>这个问题解释起来稍微复杂一点，我也不好下结论</span><br>
+<span>我前面为了通俗易懂用了人类讲语言类比，但不能完全把概念想成这么雷同</span><br>
+<span>图灵测试你应该听说过，你可以谷歌一下“中文房间”是什么内容</span><br>
+<span>虽然GPU输出图像不算做人工智能测试，但是图形API接口于GPU关系就很像中文房间里提到的手册和翻译人的关系</span><br>
+<span>它拿到的手册可能不是最新的，也许讲几个俚语或手册完全没有的单词语句他就没法理解了</span><br>
+<span>手册不能或不打算更新的话，自然就没办法，驱动更新能不能支持得看微软和AN，取决于是具体怎么处理实现这些特性的</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>HazukiShion 发表于 2020-3-20 11:27</span><br>
+<span>自己是技术小白，不过光追老卡效率低不是因为没有专门的硬件来支持吗？</span><br>
+<span>而这些种软件上的新特性应该更新 ...</span><br>
+<span>硬要让老显卡算是能算的虽然效果感人，但是主楼的说法是想让用户强制换代，不打算支持老型号。</span><br>
+<span>代码里判断一下显卡型号，旧型号屏蔽掉功能支持（不需要特殊硬件的）、或者不做功能支持（需要特殊硬件的）。</span><br>
+</p><p><b>zdejiju: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 07:05</span><br>
+<span>我对技术一窍不通，只是常识告诉我一个大公司不会在公开演讲上对全体开发者扯谎，这种事搞不好就是集体商 ...</span><br>
+<span>以下是针对消费者的宣传，但是没有接触过对应的PS开发机前，你觉得开发者会相信吗。</span><br>
+<span>PS1：恐龙CG展示，然后告诉大家这是实机能够做到的（实际上PS2发售都没做到）；</span><br>
+<span>PS2：7000万多边形，是竞争对手的数倍（与此对比，世嘉DC300万，任天堂NGC600万）；</span><br>
+<span>甚至能够完整模拟整个城市，具体到每个房间都能进去；</span><br>
+<span>（最高可达）1080P；</span><br>
+<span>PS3：（针对CELL）理论上性能开到极限，甚至能媲美7岁小孩的智商；</span><br>
+<span>E3-2005发布会（PS3场），全部都是实机画面。（这里面的典型案例是杀戮地带2，前年官方访谈亲口表示当年没有拿到开发机，演示的是用听到的配置组了高配PC跑出来的CG）</span><br>
+<span>（联动：同样是官方访谈的爆料，当年PS1出货量才过50W时，开发商和渠道信心很差，索尼官方当机立断开始高调宣传，买版面上广告开香槟，庆贺PS1销量突破100W台，其后开发商信心大增。）</span><br>
+<span>PSP：媲美PS2的机能，开发者花不了多少精力、3个月内即可移植游戏过来。</span><br>
+<span>PSV：机能非常出色，几乎能无缝移植PS3的游戏，要是机能全开甚至能在5分钟内烧掉你的裤子。</span><br>
+</p><p><b>darkfall: </b><br>
+<span> 本帖最后由 darkfall 于 2020-3-20 18:59 编辑 </span><br>
+<span>就提一句，ps4的API叫gnm，psv的叫gxm，ps5大概也是g*m, 主题平台的API从来都是另外一套，包括DX都有分支。因为要给开发者底层得多的硬件控制，类似于这几年开始的dx12 / vulkan。</span><br>
+<span>sce是给ps系用g*m封了一层opengl用来做玩具的，没人会真用。</span><br>
+<span>这几年软家和NV的PR做得真是好，成天带新名词节奏。看水果metal也支持VRR，RT啥的就没人吹</span><br>
+</p><p><b>Arsene丶: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-03-20 06:55:25</span><br>
+<span>交不交钱我不知道，不过公开演讲上说得明明白白的东西怎么想都比网民捕风捉影口胡出一个假rdna2有说服力</span><br>
+<span> ...太正常了。ps1的销量造假，杀戮地带的拨片，ps3还说支持linux</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>byisme001: </b><br>
+<span>66666 发表于 2020-3-20 10:48</span><br>
+<span>DF已经怀疑PS5是否是完整规格的RDNA2，因为大量RDNA2核心功能都没有在PS5上面体现</span><br>
+<span> ...</span><br>
+<span>定制的啊，amd说是了，别人也不好说破</span><br>
+</p><p><b>banjia0815: </b><br>
+<span>rdna2跟你用哪个api有啥关系。顶多api写点新东西需要新的硬件架构支持，feature level就是用来设定这种东西。</span><br>
+<span>说的再简单一点，你就算用的rtx上了，但你运行的游戏跑的api是dx11，改出花来也用不出硬件光追</span><br>
+</p><p><b>神之游侠: </b><br>
+<span>乐了，看见36CU 2304sp就叫5700？ 5600xt也是36CU啊 位宽一样吗？最怕不懂还装懂</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span>神之游侠 发表于 2020-3-20 19:39</span><br>
+<span>乐了，看见36CU 2304sp就叫5700？ 5600xt也是36CU啊 位宽一样吗？最怕不懂还装懂 ...</span><br>
+<span>流处理器也是硬规格啊</span><br>
+</p><p><b>三千珈蓝: </b><br>
+<span>这措施大概就是pc和xsx做一套优化就能供两个平台了，减少了上xsx的技术成本</span><br>
+</p><p><b>雪影: </b><br>
+<span>haruhiismer 发表于 2020-3-20 19:53</span><br>
+<span>流处理器也是硬规格啊</span><br>
+<span>SP是硬规格但并不是唯一标准</span><br>
+<span>7970跟RX470是一个东西？</span><br>
+<span>RX480跟RX5700是一个东西？</span><br>
+</p><p><b>ohi: </b><br>
+<span>终于有统一的API了，就怕变成js一样乱七八糟。</span><br>
+</p><p><b>Ashone325: </b><br>
+<span>Arsene丶 发表于 2020-3-20 18:55</span><br>
+<span>太正常了。ps1的销量造假，杀戮地带的拨片，ps3还说支持linux</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android ...</span><br>
+<span>y1s1</span><br>
+<span>ps3还真支持linux</span><br>
+</p><p><b>sjtdd: </b><br>
+<span>TwoMouse 发表于 2020-3-20 09:34</span><br>
+<span>都是256bit，都是448g/s ，都是36cu ，且5700公版在1725ghz频率，得到7.95tf</span><br>
+<span>而那所谓的rdna2是2230ghz频 ...</span><br>
+<span>(1.825GHz*52CU)*7.95T/(1.725GHz*36CU)=12.149T</span><br>
+<span>你猜微软用了什么黑科技</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>darkfall 发表于 2020-03-20 18:54:03</span><br>
+<span>M$支援农企出的mantle，水果挖农企墙角出了metal，值得吹什么呢</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>Arsene丶: </b><br>
+<span>Ashone325 发表于 2020-03-20 21:52:55</span><br>
+<span>y1s1</span><br>
+<span>ps3还真支持linuxhttp://cn.engadget.com/2016/06/23/sony-will-pay-out-millions-to-spurned-ps3-linux-users/</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>zdejiju 发表于 2020-3-20 18:21</span><br>
+<span>以下是针对消费者的宣传，但是没有接触过对应的PS开发机前，你觉得开发者会相信吗。</span><br>
+<span>PS1：恐龙CG展示，然 ...</span><br>
+<span>不过PSP的画面确实没比PS2差多少，大概是那个时候开发技术提高？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919829[50-100]</guid>
+    </item>
+    <item>
+      <title>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919829-1-1.html</link>
+      <description>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准&#13;
+微软在 GDC DirectX 的直播活动中公开了 DirectX 12 Ultimate（DX12U）标准，统一了AMD 和 NVIDIA 两个巨头的高端显卡图形 API 标准……
+&#13;
+微软官宣：https://devblogs.microsoft.com/directx/announcing-directx-12-ultimate/
+&#13;
+AMD官宣：https://community.amd.com/community/gaming/blog/2020/03/19/powering-next-generation-gaming-visuals-with-amd-rdna-2-and-directx-12-ultimate
+&#13;
+NVIDIA官宣：https://www.nvidia.com/en-us/geforce/news/geforce-rtx-ready-for-directx-12-ultimate/
+&#13;
+两家显卡死对头/老相好也各自公布了 DX12U 标准下的演示视频。Nvidia的 GeForce RTX 系列显卡、AMD 的 RDNA 2 系列显卡同时宣布支持 DX12U～也只有微软有这么大面子了[允悲]
+&#13;
+DX12 Ultimate 是对 DX12 的一次重大升级，带来以下四大主要新特性：
+&#13;
+— DirectX Raytracing 光线追踪
+&#13;
+— Variable Rate Shading 可变频率着色
+&#13;
+— Mesh Shaders 网格着色
+&#13;
+— Sampler Feedback 采样器反馈
+&#13;
+关键是，这套图形API不只是对PC，也对主机平台。目前满足这个标准的主机平台只有一个，就是微软自家的 Xbox Series X。
+&#13;
+什么概念啊朋友们！其实是联合硬件厂商以令开发者啊！
+&#13;
+之前不是A卡 N卡都各搞各的「针对某卡优化」游戏吗？以后不用再站队了，游戏开发商只要遵守 DX12U 的规格开发，就可以一口气上PC版的 A卡、N卡 和 XSX 三辆车……
+&#13;
+微软官方说法：
+&#13;
+「通过统一 PC 和 Xbox Series X 的图形平台标准，DX12U 将成为整个游戏生态的能量放大器。不需要再针对不同的平台单独做优化了！现在一切都彼此协同：当年末 Xbox Series X 发售后，全世界就已经有数百万块符合 DX12U 标准的 PC 显卡，使用统一的标准设定，可以快速开启新的图形特性。而当 Xbox Series X 带来一波新的主机玩家时，PC平台也会从中受益。」
+&#13;
+https://wx3.sinaimg.cn/mw690/6308a3d3gy1gcztstczmij20rs0rstdj.jpg
+&#13;
+在Win 10更新20H1以后也会支持DX12U 当然前提是你的显卡必须至少为N卡RTX系或者A卡RDNA2系
+&#13;
+https://wx2.sinaimg.cn/mw1024/6308a3d3gy1gczukinemqj21c00u0qiw.jpg</description>
+      <content:encoded><![CDATA[<p><b>ffmzsj: </b><br>
+<span>微软用DX12U图形API携手AMD和Nvidia统一高端显卡游戏开发标准</span><br>
+<span>微软在 GDC DirectX 的直播活动中公开了 DirectX 12 Ultimate（DX12U）标准，统一了AMD 和 NVIDIA 两个巨头的高端显卡图形 API 标准……</span><br>
+<span>微软官宣：https://devblogs.microsoft.com/directx/announcing-directx-12-ultimate/</span><br>
+<span>AMD官宣：https://community.amd.com/community/gaming/blog/2020/03/19/powering-next-generation-gaming-visuals-with-amd-rdna-2-and-directx-12-ultimate</span><br>
+<span>NVIDIA官宣：https://www.nvidia.com/en-us/geforce/news/geforce-rtx-ready-for-directx-12-ultimate/</span><br>
+<span>两家显卡死对头/老相好也各自公布了 DX12U 标准下的演示视频。Nvidia的 GeForce RTX 系列显卡、AMD 的 RDNA 2 系列显卡同时宣布支持 DX12U～也只有微软有这么大面子了[允悲]</span><br>
+<span>DX12 Ultimate 是对 DX12 的一次重大升级，带来以下四大主要新特性：</span><br>
+<span>— DirectX Raytracing 光线追踪</span><br>
+<span>— Variable Rate Shading 可变频率着色</span><br>
+<span>— Mesh Shaders 网格着色</span><br>
+<span>— Sampler Feedback 采样器反馈</span><br>
+<span>关键是，这套图形API不只是对PC，也对主机平台。目前满足这个标准的主机平台只有一个，就是微软自家的 Xbox Series X。</span><br>
+<span>什么概念啊朋友们！其实是联合硬件厂商以令开发者啊！</span><br>
+<span>之前不是A卡 N卡都各搞各的「针对某卡优化」游戏吗？以后不用再站队了，游戏开发商只要遵守 DX12U 的规格开发，就可以一口气上PC版的 A卡、N卡 和 XSX 三辆车……</span><br>
+<span>微软官方说法：</span><br>
+<span>「通过统一 PC 和 Xbox Series X 的图形平台标准，DX12U 将成为整个游戏生态的能量放大器。不需要再针对不同的平台单独做优化了！现在一切都彼此协同：当年末 Xbox Series X 发售后，全世界就已经有数百万块符合 DX12U 标准的 PC 显卡，使用统一的标准设定，可以快速开启新的图形特性。而当 Xbox Series X 带来一波新的主机玩家时，PC平台也会从中受益。」</span><br>
+<img src="https://wx3.sinaimg.cn/mw690/6308a3d3gy1gcztstczmij20rs0rstdj.jpg" title="https://wx3.sinaimg.cn/mw690/6308a3d3gy1gcztstczmij20rs0rstdj.jpg"><br>
+<span>在Win 10更新20H1以后也会支持DX12U 当然前提是你的显卡必须至少为N卡RTX系或者A卡RDNA2系</span><br>
+<img src="https://wx2.sinaimg.cn/mw1024/6308a3d3gy1gczukinemqj21c00u0qiw.jpg" title="https://wx2.sinaimg.cn/mw1024/6308a3d3gy1gczukinemqj21c00u0qiw.jpg"><br>
+</p><p><b>920619lqy: </b><br>
+<span>精简一下就是，DirectX 12.1 发布，支持了一些新特性。这样一看是不是就变成了普通的业界新闻？</span><br>
+</p><p><b>ffmzsj: </b><br>
+<span>920619lqy 发表于 2020-3-20 04:14</span><br>
+<span>精简一下就是，DirectX 12.1 发布，支持了一些新特性。这样一看是不是就变成了普通的业界新闻？ ...</span><br>
+<span>本来也就是普通的业界新闻啊</span><br>
+</p><p><b>66666: </b><br>
+<span>有意思，微软这说法难道就是ps5不是rdna2构架吗？</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>66666 发表于 2020-3-19 15:06</span><br>
+<span>有意思，微软这说法难道就是ps5不是rdna2构架吗？</span><br>
+<span>两回事，PS系主机从来没用过directx，这个发布会跟做主机的友商本来就没关系</span><br>
+</p><p><b>ffmzsj: </b><br>
+<span>66666 发表于 2020-3-20 05:06</span><br>
+<span>有意思，微软这说法难道就是ps5不是rdna2构架吗？</span><br>
+<span>是这么回事 早有人发现了问题 两家这个rdna2内涵太不一样了 而且ps5的算力完全就是5700xt oc 怕是真就是rdna1</span><br>
+<img src="http://tiebapic.baidu.com/forum/pic/item/80797c1ed21b0ef4b1b1423ccac451da80cb3eb6.jpg" title="http://tiebapic.baidu.com/forum/pic/item/80797c1ed21b0ef4b1b1423ccac451da80cb3eb6.jpg"><br>
+</p><p><b>ccow: </b><br>
+<span>哈哈，昨天开发者向发布会的嘴炮终究只是嘴炮。</span><br>
+</p><p><b>mqnwbeebwnqm: </b><br>
+<span>写明白的rdna2也能口胡成1.5啊1啊，黑索的水平能不能高一点儿</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>センコウ: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 06:22</span><br>
+<span>写明白的rdna2也能口胡成1.5啊1啊，黑索的水平能不能高一点儿</span><br>
+<span>—— 来自 samsung SM-G950F, Androi ...</span><br>
+<span>RDNA2的VRS啥的是微软的专利吧，索尼要用是不是还要交钱</span><br>
+</p><p><b>mqnwbeebwnqm: </b><br>
+<span>センコウ 发表于 2020-3-20 06:36</span><br>
+<span>RDNA2的VRS啥的是微软的专利吧，索尼要用是不是还要交钱</span><br>
+<span>交不交钱我不知道，不过公开演讲上说得明明白白的东西怎么想都比网民捕风捉影口胡出一个假rdna2有说服力</span><br>
+<span>黑索找个靠谱点的角度，不要硬钓</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>navarra: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 06:55</span><br>
+<span>交不交钱我不知道，不过公开演讲上说得明明白白的东西怎么想都比网民捕风捉影口胡出一个假rdna2有说服力</span><br>
+<span> ...</span><br>
+<span>那你倒是说清楚发布会展示了哪个rdna2的特性？还是说ssd是rdna2不可分割的一部分？</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>mqnwbeebwnqm: </b><br>
+<span>navarra 发表于 2020-3-20 06:56</span><br>
+<span>那你倒是说清楚发布会展示了哪个rdna2的特性？还是说ssd是rdna2不可分割的一部分？</span><br>
+<span>—— 来自 samsung S ...</span><br>
+<span>我对技术一窍不通，只是常识告诉我一个大公司不会在公开演讲上对全体开发者扯谎，这种事搞不好就是集体商业诉讼</span><br>
+<span>微软和amd都还没发表联合声明将索尼开除出次世代架构，你们这是急个啥？</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>66666: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 07:05</span><br>
+<span>我对技术一窍不通，只是常识告诉我一个大公司不会在公开演讲上对全体开发者扯谎，这种事搞不好就是集体商 ...</span><br>
+<span>SONY只说CUs是RDNA2又没说是完整的RDNA2，你看牙膏厂同一个die还能分成Xeon、I7、I5，你能说不是同一个构架？但是在关键核心功能支持上这三者差别都很大很大，哦对了I3和奔腾也是一个die可后者根本不支持AVX和AVX2，你能说奔腾和I3不是一个构架？</span><br>
+</p><p><b>66666: </b><br>
+<span>920619lqy 发表于 2020-3-20 05:39</span><br>
+<span>两回事，PS系主机从来没用过directx，这个发布会跟做主机的友商本来就没关系 ...</span><br>
+<span>我在鬼佬那绕了一圈，貌似真的PS5不支持mesh shader，这下PS5的麻烦要大了</span><br>
+</p><p><b>navarra: </b><br>
+<span>66666 发表于 2020-3-20 07:15</span><br>
+<span>我在鬼佬那绕了一圈，貌似真的PS5不支持mesh shader，这下PS5的麻烦要大了</span><br>
+<span>历史上第一次，索尼主机出厂即落后竞争对手……</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>我说，ps5又不是跑DX接口的，不支持DX特性不是很正常，跟是不是RDNA2有什么关系</span><br>
+<span>发布会都明明白白说了RDNA2了，有些人是sony ptsd了？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span>RDNA2也跑不了2.23ghz，索尼独家的赛博坦黑科技能让amd重焕新生</span><br>
+</p><p><b>darkjack: </b><br>
+<span>定制rdna2，这些特性可以都没有</span><br>
+</p><p><b>navarra: </b><br>
+<span>雪影 发表于 2020-3-20 08:17</span><br>
+<span>我说，ps5又不是跑DX接口的，不支持DX特性不是很正常，跟是不是RDNA2有什么关系</span><br>
+<span>发布会都明明白白说了RDNA2 ...</span><br>
+<span>问题是amd做的时候是按照dx做的，现在amd和nv哪有gpu不支持dx的........</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>您这是第一天听说dx？这么大惊小怪</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>明天vulkan更新标准你们是不是又要骂</span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2020-3-20 08:33 编辑 </span><br>
+<span>navarra 发表于 2020-3-20 08:26</span><br>
+<span>问题是amd做的时候是按照dx做的，现在amd和nv哪有gpu不支持dx的........</span><br>
+<span>谁跟你说图形接口只有DX了？Open GL用这么多年都白用了？还有最近很火的Vulkan</span><br>
+<span>PS系统一直是Free BSD，跟DX没半毛钱关系</span><br>
+</p><p><b>navarra: </b><br>
+<span>雪影 发表于 2020-3-20 08:30</span><br>
+<span>谁跟你说图形接口只有DX了？Open GL用这么多年都白用了？还有最近很火的Vulkan ...</span><br>
+<span>懂ogl和v两个词就很了不起是吧</span><br>
+<span>光线追踪是nv先搞的硬件，微软完善的相关软件api，nv和amd都支持，ogl和v现在连相关api都没有，有也是兼容dxr的玩意，再说回来了，微软有dx一整套完整api，您索有啥？拿freebsd做底子开发都能搞出上下两代架构没变化软件还不能完全兼容的傻逼玩意特别值得夸是吧？</span><br>
+</p><p><b>小修: </b><br>
+<span>当年吹dx12也是海吹到现在dx12也是有的游戏靠谱有的游戏不靠谱。</span><br>
+<span>dx12u到底怎么样，谁知道呢。</span><br>
+</p><p><b>雪影: </b><br>
+<span>navarra 发表于 2020-3-20 08:37</span><br>
+<span>懂ogl和v两个词就很了不起是吧</span><br>
+<span>光线追踪是nv先搞的硬件，微软完善的相关软件api，nv和amd都支持，ogl和v ...</span><br>
+<span>果然是为了黑索尼黑魔怔了</span><br>
+<span>1、vulkan明确支持光追</span><br>
+<span>2、巨硬系统起家和制霸的商业公司，有完整图形API不是很正常？</span><br>
+<span>3、freebsd支持vulkan，如果vulkan不支持其他特性，关freebsd啥事，难道作为一个开源基金还去学巨硬自建一套图形标准？</span><br>
+<span>4、sony不能做图形API和系统如果丢人，巨硬不能做cmos是不是也丢脸，什么逻辑</span><br>
+</p><p><b>艾登皮尔斯: </b><br>
+<span>索尼有自家专供主机开发的图形api吧，叫gnm和另外一套什么来着记得有人在b乎上问过</span><br>
+</p><p><b>jajajzz: </b><br>
+<span> 本帖最后由 jajajzz 于 2020-3-20 09:07 编辑 </span><br>
+<span>Xbox：喂喂喂？我们工作室里有谁在法国的吗？麻烦买17箱正宗香槟一箱你们自己留着其余的寄给其他工作室和本部。对对对，麻烦快点，明天就要用了。</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>新dx12游戏确实牛逼帧数稳定好多期待下dx12u</span><br>
+</p><p><b>w麦当劳叔叔: </b><br>
+<span>可能大家都忘了，微软的别称就是巨硬，有钞能力的，微软一认真，谁也顶不住</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 07:05</span><br>
+<span>我对技术一窍不通，只是常识告诉我一个大公司不会在公开演讲上对全体开发者扯谎，这种事搞不好就是集体商 ...</span><br>
+<span>别的厂商不敢说，索大法是真的敢，最著名的就是世嘉DC早发售，索大法吹N倍碾压，结果最后根本没有，</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>艾登皮尔斯 发表于 2020-3-20 09:00</span><br>
+<span>索尼有自家专供主机开发的图形api吧，叫gnm和另外一套什么来着记得有人在b乎上问过 ...</span><br>
+<span>vulkan ，opengl的直系后代，PC上的开放标准，跟DX对标</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>rtx已经有了，那么问题来了RDNA2现在在哪有</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span> 本帖最后由 haruhiismer 于 2020-3-20 09:24 编辑 </span><br>
+<span>dumplingpro 发表于 2020-3-20 09:13</span><br>
+<span>别的厂商不敢说，索大法是真的敢，最著名的就是世嘉DC早发售，索大法吹N倍碾压，结果最后根本没有，</span><br>
+<span>是75倍碾压，还有cg当及时演算实机画面，老传统异能了</span><br>
+</p><p><b>66666: </b><br>
+<span>uswhzh 发表于 2020-3-20 09:16</span><br>
+<span>rtx已经有了，那么问题来了RDNA2现在在哪有</span><br>
+<span>据说旗舰10月份上市，中低端的就不知道猴年马月了</span><br>
+</p><p><b>TwoMouse: </b><br>
+<span>雪影 发表于 2020-3-20 08:17</span><br>
+<span>我说，ps5又不是跑DX接口的，不支持DX特性不是很正常，跟是不是RDNA2有什么关系</span><br>
+<span>发布会都明明白白说了RDNA2 ...</span><br>
+<span>都是256bit，都是448g/s ，都是36cu ，且5700公版在1725ghz频率，得到7.95tf</span><br>
+<span>而那所谓的rdna2是2230ghz频率，得到10.28的tf。10.28/7.92x1.725=2.23056604 。</span><br>
+<span>你猜索尼用了什么黑科技用rdna2的架构复刻了个5700然后性能丝毫不变。</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>TwoMouse 发表于 2020-3-20 09:34</span><br>
+<span>都是256bit，都是448g/s ，都是36cu ，且5700公版在1725ghz频率，得到7.95tf</span><br>
+<span>而那所谓的rdna2是2230ghz频 ...</span><br>
+<span>那会构架不同工艺不同包括机制差异都很大，可以尬吹也没人管。从ps的恐龙，到ps3的模拟地球，索尼的宣传吹逼套路突然不管用了。因为现在现在构架一样的，技术规格玩不了玄学了，人家微软就可以拿技术指标硬怼骚尼了。没想到索尼你也有今天啊。哈哈哈。</span><br>
+</p><p><b>雪影: </b><br>
+<span>TwoMouse 发表于 2020-3-20 09:34</span><br>
+<span>都是256bit，都是448g/s ，都是36cu ，且5700公版在1725ghz频率，得到7.95tf</span><br>
+<span>而那所谓的rdna2是2230ghz频 ...</span><br>
+<span>要不，你把RX580按2.2G算试试，看是不是也是10T？</span><br>
+<span>你猜AMD是用了什么黑科技，把NAVI复刻了个RX580然后性能丝毫不变？</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>haruhiismer 发表于 2020-3-20 09:23</span><br>
+<span>是75倍碾压，还有cg当及时演算实机画面，老传统异能了</span><br>
+<span>我觉得当年所谓的技术演示都是cg，只是当时技术手段不先进发现不了。你看前两年e3还有拿cg当即时演算出来播片的，结果被分析之后抓了个现行。</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span>那麼PS5有那個Mesh Shader或不同名同功能的東西嗎</span><br>
+</p><p><b>TwoMouse: </b><br>
+<span>雪影 发表于 2020-3-20 09:42</span><br>
+<span>要不，你把RX580按2.2G算试试，看是不是也是10T？</span><br>
+<span>你猜AMD是用了什么黑科技，把NAVI复刻了个RX580然后性 ...</span><br>
+<span>好，支持索尼在2020卖rx580</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>stevenzero: </b><br>
+<span>算力按ALU个数和频率算的，这个和架构有什么关系。</span><br>
+<span>AMD的CU一直是64个ALU，同CU数的GCN、RDNA1、2同频算力当然是一个样啊。</span><br>
+</p><p><b>delll: </b><br>
+<span>mqnwbeebwnqm 发表于 2020-3-20 07:05</span><br>
+<span>我对技术一窍不通，只是常识告诉我一个大公司不会在公开演讲上对全体开发者扯谎，这种事搞不好就是集体商 ...</span><br>
+<span>等会儿，那个杀戮地带2还是3，不是公演的造假演示么？</span><br>
+</p><p><b>医生狼多: </b><br>
+<span>w麦当劳叔叔 发表于 2020-3-20 09:07</span><br>
+<span>可能大家都忘了，微软的别称就是巨硬，有钞能力的，微软一认真，谁也顶不住 ...</span><br>
+<span>wp死不瞑目</span><br>
+</p><p><b>mqnwbeebwnqm: </b><br>
+<span>delll 发表于 2020-3-20 10:20</span><br>
+<span>等会儿，那个杀戮地带2还是3，不是公演的造假演示么？</span><br>
+<span>那个吵了很久直到访谈出来才实锤的，查了一下杀戮地带4因为分辨率宣传问题的确吃过诉讼</span><br>
+<span>至于gpu架构这种黑白分明的东西……实在难以相信会对开发者扯谎</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>66666: </b><br>
+<span>DF已经怀疑PS5是否是完整规格的RDNA2，因为大量RDNA2核心功能都没有在PS5上面体现</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-19 19:28 编辑 </span><br>
+<span>66666</span><br>
+<span>navarra</span><br>
+<span>你们两个能不能少说几句</span><br>
+<span>感觉把数码区素质都拉低了</span><br>
+<span>2020年了</span><br>
+<span>还分不清硬件架构和api接口集合</span><br>
+<span>微软建了一套directX标准来给PC和自家主机做做图形接口(美国有自己一套法律和语言体系)</span><br>
+<span>索尼用了openGL或vulkan改来给自家主机做做图形接口(日本有自己一套法律和语言体系)</span><br>
+<span>不管A卡还是N卡什么图灵还是RNDA2架构都支持dx、openGL、vulkan接口，版本可能有差异（一个人或一群人都懂几种语言法律，可能有些语言俚语或网络新词不太懂或新方案规则不了解）</span><br>
+<span>不论A卡还是N卡都可以在可以支持其运行的平台硬件架构下使用不同图形接口标准进行类似相同的图像输出，(同样的人种不同国家被不同语言指挥遵照不同法律规则也能工作产出相同的产品）</span><br>
+<span>也就是说微软发布DX统一新标准</span><br>
+<span>和PS5是不是用RDNA2一毛钱关系都没有</span><br>
+<span>无法用顶楼的事来证明PS5没用RDNA2架构</span><br>
+<span>既然spec写了是RDNA2则农企也没必要搞个半代或前代来增加量产麻烦</span><br>
+<span>什么mesh shader特性在dx这边是这么说，可能openGL、vulkan叫别的什么东西</span><br>
+<span>就像语言法律大体结构类似一样，这些都是可以抄一套的，不过要避免专利问题，实现的细节可能不尽相同</span><br>
+<span>诚然同样一个架构下细节可能阉割，甚至就算索尼vulkan没用光追也好，但它还是RDNA2，和支持DX哪些东西根本没关系</span><br>
+<span>就像尼格在欧洲只会讲法语德语人种分类依然是尼格，华裔生于美国不会中文还是叫华裔，RDNA2或图灵这些是人种血脉一样的概念，是硬件肉体的和语言接口没关系</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-19 19:16 编辑 </span><br>
+<span>66666 发表于 2020-3-19 18:48</span><br>
+<span>DF已经怀疑PS5是否是完整规格的RDNA2，因为大量RDNA2核心功能都没有在PS5上面体现</span><br>
+<span> ...</span><br>
+<span>这种情况就算没有也应该属于软阉割和硬件规格关系不大</span><br>
+<span>这些提到的特性是软件指导硬件实现的优化</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span> 本帖最后由 CyanCloverFern 于 2020-3-20 11:18 编辑 </span><br>
+<span>雪影 发表于 2020-3-20 08:30</span><br>
+<span>谁跟你说图形接口只有DX了？Open GL用这么多年都白用了？还有最近很火的Vulkan</span><br>
+<span>PS系统一直是Free BSD，跟D ...</span><br>
+<span>能用DX就直接放弃掉OpenGL，DX9.0就甩掉了OpenGL。</span><br>
+<span>这一时代图形库又是M$支援AMD的mantle开始、apple紧跟metal、M$出DX12。至于OpenGL都要被用Vulkan替代掉了。</span><br>
+</p><p><b>HazukiShion: </b><br>
+<span>天神十三煞 发表于 2020-3-20 11:06</span><br>
+<span>这种情况就算没有也应该属于软阉割和硬件规格关系不大</span><br>
+<span>这两个特性是软件指导硬件实现的优化</span><br>
+<span> ...</span><br>
+<span>那是不是理论上RTX和RDNA2以前的显卡也能实现这些特性？就像GTX也能跑光追一样？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-19 19:21 编辑 </span><br>
+<span>HazukiShion 发表于 2020-3-19 19:17</span><br>
+<span>那是不是理论上RTX和RDNA2以前的显卡也能实现这些特性？就像GTX也能跑光追一样？ ...</span><br>
+<span>按楼顶文情况看DX12U是比较新的语言法律体系，老年人[卡]没学不懂，如果不懂那个语言和法律，就无法理解按照指示行动</span><br>
+<span>至于1000系的DX12旧有部分支持有部分特性，光追可以跑，效率嘛，没硬件支持就很渣了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919829[0-50]</guid>
+    </item>
+  </channel>
+</rss>

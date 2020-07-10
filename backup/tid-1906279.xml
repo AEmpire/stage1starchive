@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么现在超算大部分用的仍是intel处理器？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么现在超算大部分用的仍是intel处理器？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:04:38 +0000</lastBuildDate>
+    <item>
+      <title>为什么现在超算大部分用的仍是intel处理器？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906279-1-1.html</link>
+      <description>为什么超算大部分用的是intel处理器？&#13;
+ 本帖最后由 安永透 于 2019-12-29 18:01 编辑 
+
+AMD貌似占比越来越少了？
+&#13;
+找到了今年11月的，补上，似乎没什么大变化
+&#13;
+这个说的是事实嘛？AMD浮点运算不行？还是说有误导？
+&#13;
+ref:
+&#13;
+1.https://www.top500.org/lists/2019/11/download/TOP500_201911_Poster.pdf
+&#13;
+2.http://sobereva.com/444
+&#13;
+3.http://bbs.keinsci.com/thread-786-1-1.html</description>
+      <content:encoded><![CDATA[<p><b>YaoMei: </b><br>
+<span>很简单，求稳定+生产力+性价比。</span><br>
+<span>另外计算化学很大程度上是个绿皮玩意，真的。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>DENHJD 发表于 2019-12-29 21:26</span><br>
+<span>ROCM看着还可以啊，TF下训练蕾7几乎对飚2080ti，白菜588也能跟上1070，当然推理图灵有tc加速，还有tensor ...</span><br>
+<span>r7不出了 甜点玩意</span><br>
+<span>5700xt等rdna的支持</span><br>
+<span>官方：没有时间表</span><br>
+<span>说不出话来</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>至于avx和mkl</span><br>
+<span>zen2裸开被爆</span><br>
+<span>amd提了一嘴mkl禁了amd的avx要靠环境变量手动开的事情，反过来了</span><br>
+<span>然后朋友费来了：这种偷偷改文档没写的环境变量是不好的，我们不采用这个结果</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>你的全家 发表于 2020-1-3 19:15</span><br>
+<span>r7不出了 甜点玩意</span><br>
+<span>5700xt等rdna的支持</span><br>
+<span>R7毕竟成本太高，RDNA新构架也就算了，APU也不支持算几个意思，移动端来个APU还不是暴打老黄的jetson，老黄那拉夸的cpu改来改去部分性能还不如arm公版，苏妈真的不考虑考虑这块市场么，</span><br>
+</p><p><b>你的全家: </b><br>
+<span>DENHJD 发表于 2020-1-3 19:24</span><br>
+<span>R7毕竟成本太高，RDNA新构架也就算了，APU也不支持算几个意思，移动端来个APU还不是暴打老黄的jetson，老 ...</span><br>
+<span>新架构对应开发包问题就在这里了</span><br>
+<span>cuda都是同期甚至干脆预发布的</span><br>
+<span>rocm对公布，上市，到现在快半年的东西……哎</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>yibabilun: </b><br>
+<span>至少鄙圈的应用，AMD的CPU的浮点性能和intel比，同等核心数差不多。大规模超算看的是能耗比，不在乎单核性能好坏。主楼这种还讨论攒机的规模就别指点超算发展方向了……要看纸面KNL当时也是一堆人吹老黄末日的，然后问题一堆intel自己怂了。</span><br>
+<span>rocm发展挺快的，开源社区一个月一个大版本吧，2.8已经可以用了，虽然还是一堆bug和没实现的cuda特性。</span><br>
+<span>改代码的问题还是看有多大需求，要到所有经费丢进去都不够机时费的时候，只能硬着头皮改呀……雇你不就为了实现高能耗比的996么。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906279[50-100]</guid>
+    </item>
+    <item>
+      <title>为什么现在超算大部分用的仍是intel处理器？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906279-1-1.html</link>
+      <description>为什么超算大部分用的是intel处理器？&#13;
+ 本帖最后由 安永透 于 2019-12-29 18:01 编辑 
+
+AMD貌似占比越来越少了？
+&#13;
+找到了今年11月的，补上，似乎没什么大变化
+&#13;
+这个说的是事实嘛？AMD浮点运算不行？还是说有误导？
+&#13;
+ref:
+&#13;
+1.https://www.top500.org/lists/2019/11/download/TOP500_201911_Poster.pdf
+&#13;
+2.http://sobereva.com/444
+&#13;
+3.http://bbs.keinsci.com/thread-786-1-1.html</description>
+      <content:encoded><![CDATA[<p><b>安永透: </b><br>
+<span>为什么超算大部分用的是intel处理器？</span><br>
+<span> 本帖最后由 安永透 于 2019-12-29 18:01 编辑 </span><br>
+<span>AMD貌似占比越来越少了？</span><br>
+<span>找到了今年11月的，补上，似乎没什么大变化</span><br>
+<span>这个说的是事实嘛？AMD浮点运算不行？还是说有误导？</span><br>
+<span>ref:</span><br>
+<span>1.https://www.top500.org/lists/2019/11/download/TOP500_201911_Poster.pdf</span><br>
+<span>2.http://sobereva.com/444</span><br>
+<span>3.http://bbs.keinsci.com/thread-786-1-1.html</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>大锅，你这图表才到17年</span><br>
+<span>桌面zen是17年2月才发布，epyc下半年</span><br>
+<span>市场得有个缓冲好吗</span><br>
+<span>美国新的超算貌似就打算用epyc</span><br>
+</p><p><b>ft5555: </b><br>
+<span>一看图里只统计到2017年 那就没啥可说的了</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-12-29 13:53 编辑 </span><br>
+<span>超算从立项到建好都多久了。</span><br>
+<span>立项的时候可不是只有intel的CPU能用么。</span><br>
+<span>你看0607年的超算，AMD还有那么一点点增加趋势，那就是0304年Athlon 64的功劳</span><br>
+<span>还有，推土机架构就是那么鸡，i3的浮点都和FX8300一样很正常，毕竟fma数量一样。</span><br>
+<span>因为当初amd主打fusion架构，指着把浮点全扔给核显部分呢，但是很明显现在的代码不支持你这么干，cpu总是要承担浮点计算任务的。</span><br>
+<span>可惜早了10年。</span><br>
+<span>你看看现在还有谁拿CPU算浮点的。</span><br>
+<span>还不都是显卡半精度走起。</span><br>
+</p><p><b>白武男: </b><br>
+<span>可能和回扣有关</span><br>
+</p><p><b>zexal5ds: </b><br>
+<span>IBM：10年前的超算领域，牙膏厂算哪根葱</span><br>
+</p><p><b>albertfu: </b><br>
+<span>等2022年再看咯，就现在这个2倍perf/watt，不拿回扣的话epyc就是唯一选择，xeon什么就是费电的不可回收垃圾</span><br>
+<span>还有第二张图。。。。zen出了快3年了哎，转的火星来电？？</span><br>
+</p><p><b>安永透: </b><br>
+<span>albertfu 发表于 2019-12-29 16:27</span><br>
+<span>等2022年再看咯，就现在这个2倍perf/watt，不拿回扣的话epyc就是唯一选择，xeon什么就是费电的不可回收垃圾 ...</span><br>
+<span>此人是该领域大佬级人物，我怀疑他存在许多偏见和误导，以及学界对于新情况反应滞后。</span><br>
+</p><p><b>暗铁: </b><br>
+<span>大门都宣称离破产有18个月，AMD才yes了半年就想干翻别人的存量可能吗</span><br>
+<span>—— 来自 samsung SM-G9650, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>安永透 发表于 2019-12-29 17:35</span><br>
+<span>此人是该领域大佬级人物，我怀疑他存在许多偏见和误导，以及学界对于新情况反应滞后。 ...</span><br>
+<span>搜了一下文章是2015年初写的的，那时候确实很垃圾，不算偏见和误导，就是这么垃圾</span><br>
+<span>不过中文圈对牙膏不是一般的迷信，这个趋势估计无法逆转</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>这不是计算化学公社的帖子吗？15年的帖子你拿出来说现在的情况不好吧。</span><br>
+<span>现在计算化学依然不推荐用AMD的U的原因见下方的帖子。</span><br>
+<span>这倒也不尽然。</span><br>
+<span>实际上Intel编译器在编译的时候，不去指定对Intel内核进行特殊的优化而只用标准指令集的话，Intel和AMD的U本身跑起来效果相同。因此如果软件发布者没有说发布的预编译程序只支持Intel CPU的话，那么对Intel的U就不会有专门的加成。至于已拿到了源代码，在自己的Intel服务器上编译，那么则可以充分利用Intel编译器对Intel的U的优化，比如ifort可以加上-xhost对当前CPU进行最大程度优化。</span><br>
+<span>AMD早年Opteron在K8架构的年代还是占了可观的市场，只不过由于后来的架构的浮点运算实在太烂，在高性能计算领域非常颓。虽然如今的架构浮点运算性能也已经挺不错，但由于Intel的U有很多大陆地区能买到的价格超级甜的型号，导致AMD的U依然没有明显的考虑必要。Intel另外一方面优势来自于软件兼容性的优势。想省心，哪怕牺牲点性价比，对于科学计算用户还是应当选Intel。</span><br>
+<span>http://bbs.keinsci.com/thread-15119-1-1.html</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>zen3支持avx512后或许能好看些</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>zen2 : 什么，我浮点能力不行？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>拯救节操希灵宅 发表于 2019-12-29 17:49</span><br>
+<span>这不是计算化学公社的帖子吗？15年的帖子你拿出来说现在的情况不好吧。</span><br>
+<span>现在计算化学依然不推荐用AMD的U的 ...</span><br>
+<span>看了下这个“大佬”无视了别人转的同核心数评测数据，继续强调ES洋垃圾香和“兼容性” </span><br>
+</p><p><b>First_Snow: </b><br>
+<span>为什么这个科研论坛人均二次元头像？</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>这是台数不是算力比吧</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-12-29 19:06 编辑 </span><br>
+<span>albertfu 发表于 2019-12-29 18:13</span><br>
+<span>看了下这个“大佬”无视了别人转的同核心数评测数据，继续强调ES洋垃圾香和“兼容性”...</span><br>
+<span>因为的确可以无视同核心数据....</span><br>
+<span>洋垃圾不会跟你同核心的.....</span><br>
+<span>自配服务器目前来看AMD还真比不过流出的几个定制型号。</span><br>
+<span>另外你是不是对于科学领域的兼容性有什么奇怪的想法。</span><br>
+<span>这一行代码都有很多是fortran祖传的玩意，ICC优化的更是数不胜数。</span><br>
+<span>AMD在保持连续10年市场占有率++之前是没资格考虑兼容性这玩意的。</span><br>
+<span>另外一个方面，科学计算领域老黄也是处于垄断，管你480580算力再高，没有CUDA也是白瞎。</span><br>
+<span>原因也是一模一样的：</span><br>
+<span>没有人想自己改代码！</span><br>
+</p><p><b>Radeon: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 19:04</span><br>
+<span>因为的确可以无视同核心数据....</span><br>
+<span>洋垃圾不会跟你同核心的.....</span><br>
+<span>自配服务器目前来看AMD还真比不过流出的几 ...</span><br>
+<span>然鹅intel用上ICC也没有怎么样啊？SPEC上还是被EPYC吊打</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 19:04</span><br>
+<span>因为的确可以无视同核心数据....</span><br>
+<span>洋垃圾不会跟你同核心的.....</span><br>
+<span>自配服务器目前来看AMD还真比不过流出的几 ...</span><br>
+<span>fortran时代也太恐怖了，我还以为最起码到pascal</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>Radeon 发表于 2019-12-29 19:08</span><br>
+<span>然鹅intel用上ICC也没有怎么样啊？SPEC上还是被EPYC吊打</span><br>
+<span>是，某些古代代码，你不用intel的cpu，它，就会报错，原理，不知道。</span><br>
+<span>Fortran 90+C+C#+python做外包装</span><br>
+<span>你问程序为什么会跑起来？谁知道啊，不是学凝聚态物理就是学材料化学的，最接近的一个是计算化学的，但是这人也就会用个高斯跟vasp，你让他来调代码，疯了吧。</span><br>
+</p><p><b>橋白: </b><br>
+<span>接触过fortran 我只能说 让我调函数参数已经够恶心了 让写程序的改代码？除了那个年代写过来的程序员 谁会愿意去改那玩意....</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>拯救节操希灵宅 发表于 2019-12-29 17:49</span><br>
+<span>这不是计算化学公社的帖子吗？15年的帖子你拿出来说现在的情况不好吧。</span><br>
+<span>现在计算化学依然不推荐用AMD的U的 ...</span><br>
+<span>其实就是全靠大船撑场面的隐晦说法</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>KOGmk2 发表于 2019-12-29 19:30</span><br>
+<span>其实就是全靠大船撑场面的隐晦说法</span><br>
+<span>其实还是搞化学的人穷。</span><br>
+<span>不少屎山代码请人优化一下，运行时间能缩短到只有原来的1/100-1/300。</span><br>
+<span>问题是请不起啊，版里之前不是有个量子化学的么。估摸着处境也差不多。代码都是博士生霸王硬上弓自己写。</span><br>
+<span>大教授作为老板的年薪还不如亚马逊入职工资。</span><br>
+<span>我们这博后的待遇折算一下也就二三十万人民币，再考虑汇率问题，估摸只配请高中生。</span><br>
+<span>商业计算软件？当然好用咯，一个授权三四万块，能不好用么，我们都是蹭隔壁计算中心的授权的，结尾致谢里提一句好了。</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>别急啊，再等两年看看</span><br>
+</p><p><b>albertfu: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 19:04</span><br>
+<span>因为的确可以无视同核心数据....</span><br>
+<span>洋垃圾不会跟你同核心的.....</span><br>
+<span>自配服务器目前来看AMD还真比不过流出的几 ...</span><br>
+<span>洋垃圾的核心数量优势被它的低频和ipc劣势抵消了，broadwell/haswell的xeon，哪怕顶级的22核都难敌3900x，更别提es/qs频率还要低</span><br>
+<span>说到兼容性，那这一天永远不会来了，牙膏光是朋友费就是对手总营收的10倍，什么概念</span><br>
+<span>cuda的话历史负担没有这么沉重，不过rocm hmmmm，也看不到翻身的希望</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-12-29 20:05 编辑 </span><br>
+<span>albertfu 发表于 2019-12-29 19:50</span><br>
+<span>洋垃圾的核心数量优势被它的低频和ipc劣势抵消了，broadwell/haswell的xeon，哪怕顶级的22核都难敌3900x ...</span><br>
+<span>但是3900X贵啊</span><br>
+<span>一个3900X都够买俩2683 V3了......</span><br>
+<span>我们玩洋垃圾，玩的就是以多欺少，同价格二打一，才是很正常的情况。因为便宜</span><br>
+<span>谁不知道zen好啊，epyc好啊，穷买不起啊。而且很多时候我们的程序是不吃主频的，反倒是吃内存带宽，这种情况下，3700X/3800X这种双通道还内存带宽减半的玩意还真是被同核心洋垃圾吊打......</span><br>
+</p><p><b>albertfu: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 20:01</span><br>
+<span>但是3900X贵啊</span><br>
+<span>一个3900X都够买俩2683 V3了......</span><br>
+<span>我们玩洋垃圾，玩的就是以多欺少，同价格二打一 ...</span><br>
+<span>大家都不容易  </span><br>
+<span>内存带宽平时都说没用没用，只看延时，但是四通道六通道它就是带宽牛啊！</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>albertfu 发表于 2019-12-29 19:50</span><br>
+<span>洋垃圾的核心数量优势被它的低频和ipc劣势抵消了，broadwell/haswell的xeon，哪怕顶级的22核都难敌3900x ...</span><br>
+<span>ROCM看着还可以啊，TF下训练蕾7几乎对飚2080ti，白菜588也能跟上1070，当然推理图灵有tc加速，还有tensorrt这种压缩手段，还是老黄强得多</span><br>
+</p><p><b>albertfu: </b><br>
+<span>DENHJD 发表于 2019-12-29 21:26</span><br>
+<span>ROCM看着还可以啊，TF下训练蕾7几乎对飚2080ti，白菜588也能跟上1070，当然推理图灵有tc加速，还有tensor ...</span><br>
+<span>rocm记得之前说炼丹堪用了，但还是会有小坑。现在跟进cuda都是社区还是amd自己在出力？</span><br>
+<span>和专门的tensor core那是没法比 </span><br>
+</p><p><b>refo2613: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 19:13</span><br>
+<span>是，某些古代代码，你不用intel的cpu，它，就会报错，原理，不知道。</span><br>
+<span>Fortran 90+C+C#+python做外包装</span><br>
+<span>你 ...</span><br>
+<span>看到fortan终于不厚道的笑了</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>widder: </b><br>
+<span>量大便宜，你用专用CPU就贵死了</span><br>
+<span>现在市场上能大批量采购到的CPU也就intel，amd的cpu，还有就是手机cpu，手机cpu性能还不行，amd那时候的性能也还差一截，自然就都选intel，当然用显卡gpu做超算的也能多</span><br>
+</p><p><b>u96: </b><br>
+<img src="https://i.loli.net/2019/12/29/8iDF9gMfPaCsuHJ.png" title="https://i.loli.net/2019/12/29/8iDF9gMfPaCsuHJ.png"><br>
+<span>mkl加成还是强，反正我已经被教做人了。</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>超算一般来说要两年预研，epyc1是没有优势的，硬上没意思，epyc2目前刚出货，只有少数7h12上了</span><br>
+<span>中国预计有3台e级超算，天河，神威，曙光，但是中国的e是指peak不是max。美国e级超算欧若拉，a21一直跳票，目前估计下一代性能最高的e级超算订单给了amd，采用epyc3和amd下一代加速卡，性能1.7e，号称 21年前交货，没意外 的话应该是top one（至少比中国的e级peak强）</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 20:01</span><br>
+<span>但是3900X贵啊</span><br>
+<span>一个3900X都够买俩2683 V3了......</span><br>
+<span>我们玩洋垃圾，玩的就是以多欺少，同价格二打一 ...</span><br>
+<span>俩2683也不见得能干得过3900x，频率太低，smt也比ht强，再加成高频内存</span><br>
+<span>真的能干过amd的是新大船，比如2000块的18c，6139之类的，两块怼上去频率核心都有</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>defer: </b><br>
+<span>kuleisite1992 发表于 2019-12-29 19:41</span><br>
+<span>其实还是搞化学的人穷。</span><br>
+<span>不少屎山代码请人优化一下，运行时间能缩短到只有原来的1/100-1/300。</span><br>
+<span>问题是请 ...</span><br>
+<span>草，看了你说的，你们这化学界真的惨</span><br>
+<span>不过你们的场景也不是超算吧，更接近强力工作站该买哪个。</span><br>
+<span>和租用超算的成本比，改代码反而不是太大问题了。</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>defer 发表于 2019-12-30 00:03</span><br>
+<span>草，看了你说的，你们这化学界真的惨</span><br>
+<span>不过你们的场景也不是超算吧，更接近强力工作站该买哪个。</span><br>
+<span>改这种代码最大的问题是程序员不懂化学，化学生很难写好程序。只能不停的加钱</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>之前实验室搬砖给一个fortran科学计算程序写wrapper，感叹理科生为啥还在用这种玩意</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>雪ノ下だんご 发表于 2019-12-30 14:06</span><br>
+<span>之前实验室搬砖给一个fortran科学计算程序写wrapper，感叹理科生为啥还在用这种玩意 ...</span><br>
+<span>科研领域以其实验仪器和工具可怕的滞后性臭名昭著。</span><br>
+<span>随便一台用了5年以上的设备，后面板上都是些火线，ieee，rs-232这种鬼知道的玩意。</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>雪ノ下だんご 发表于 2019-12-30 14:06</span><br>
+<span>之前实验室搬砖给一个fortran科学计算程序写wrapper，感叹理科生为啥还在用这种玩意 ...</span><br>
+<span>fortan主要优点还是简单好写，短程序还是和matlab那样，好写，fortan这么多年的新版本至少还有些抽象，能算个正常语言的……比起来，matlab才是，虽然有一堆库，但是除了库之外一无是处，只会写matlab的人连链表和树都不会知道了</span><br>
+<span>所以我觉得，如果人道毁灭的话，顺序应该是首先毁灭掉只会写matlab的睿智，然后才是只会写Fortran77的睿智</span><br>
+</p><p><b>noirfermion: </b><br>
+<span>说来现在SageMath/SymPy/Julia这些是哪家快，打算年初搞一台机器算数推公式</span><br>
+</p><p><b>albertfu: </b><br>
+<span>noirfermion 发表于 2019-12-30 18:58</span><br>
+<span>说来现在SageMath/SymPy/Julia这些是哪家快，打算年初搞一台机器算数推公式</span><br>
+<span>Julia的话搜到了这个贴：</span><br>
+<span>https://discourse.julialang.org/t/workstation-advice-for-mostly-julia-use/25395</span><br>
+<span>粗略的印象是AVX512+MKL无敌，没AVX512或者用不上MKL的话就无脑买zen</span><br>
+</p><p><b>catenarygong: </b><br>
+<span>albertfu 发表于 2019-12-30 19:58:20</span><br>
+<span>Julia的话搜到了这个贴：</span><br>
+<span>粗略的印象是AVX512+MKL无敌，没AVX512或者用不上MKL的话就无脑买zen ...sob虽然看起来比较高冷，但是人还是可以的，15年那篇文章说的也是当时的事实，拿过去的言论评价现在不太合适</span><br>
+<span>现在如果是标准的qm运算，用预编译代码之类的，a家没有问题，我现在自己的hpc就是2950x</span><br>
+<span>但如果用自编译代码，涉及mkl比较多的情况下，intel还是更省心，尤其mm和md软件基本都支持avx甚至avx512</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>albertfu: </b><br>
+<span>catenarygong 发表于 2020-1-2 19:40</span><br>
+<span>sob虽然看起来比较高冷，但是人还是可以的，15年那篇文章说的也是当时的事实，拿过去的言论评价现在不太合 ...</span><br>
+<span>恩，我之前的回复就有指出15年这么说完全没毛病，lz引用时没给年份：</span><br>
+<span>“搜了一下文章是2015年初写的的，那时候确实很垃圾，不算偏见和误导，就是这么垃圾”</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>暗铁 发表于 2019-12-29 17:39</span><br>
+<span>大门都宣称离破产有18个月，AMD才yes了半年就想干翻别人的存量可能吗</span><br>
+<span>—— 来自 samsung SM-G9650, ...</span><br>
+<span>大门为什么不说一年半,而要用月这个单位?</span><br>
+<span>(为什么不用天这个单位)</span><br>
+<span>这是不是和职业有关系?</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>pcie4.0的设备，pcie4.0的plx都没铺的开，软件优化也没跟得上。</span><br>
+<span>我跑了下tf的mkl版，看上去优化还是成问题，3950x看占用还是有问题吧，不然这玩意有2T左右浮点，可以玩玩不少东西。</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>DeepFishing 发表于 2020-1-2 22:02</span><br>
+<span>pcie4.0的设备，pcie4.0的plx都没铺的开，软件优化也没跟得上。</span><br>
+<span>我跑了下tf的mkl版，看上去优化还是成问题 ...</span><br>
+<span>说到PLX，IODIE或者说570芯片组就是一个很好的PLX，并且 很便宜——产量越大越便宜</span><br>
+<span>它完全可以做成8进16出，再高级的有EPYC的次品IODIE，64进64出，爽翻天</span><br>
+</p><p><b>catenarygong: </b><br>
+<span>albertfu 发表于 2020-01-02 20:02:16</span><br>
+<span>恩，我之前的回复就有指出15年这么说完全没毛病，lz引用时没给年份：</span><br>
+<span>“搜了一下文章是2015年初写的的， ...嗯啊，本来想回复楼主，不小心点到回复你了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>yikaa: </b><br>
+<span>泉玲奈 发表于 2020-1-2 21:50</span><br>
+<span>大门为什么不说一年半,而要用月这个单位?</span><br>
+<span>(为什么不用天这个单位)</span><br>
+<span>摩尔定律的时间吧</span><br>
+</p><p><b>启航PRC: </b><br>
+<span>超算又不是DIY，看评测哪个强就买哪个美国下一代E级超算就有EPYC+Instinct</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>nonononono: </b><br>
+<span>第一超算有研发周期</span><br>
+<span>第二超算的重点是并行计算</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906279[0-50]</guid>
+    </item>
+  </channel>
+</rss>

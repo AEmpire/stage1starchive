@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[泥潭啥都懂]nas上跑docker 问下存储怎么做合适</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[泥潭啥都懂]nas上跑docker 问下存储怎么做合适</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:45:30 +0000</lastBuildDate>
+    <item>
+      <title>[泥潭啥都懂]nas上跑docker 问下存储怎么做合适[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849263-1-1.html</link>
+      <description>[泥潭啥都懂]nas上跑docker 问下存储怎么做合适&#13;
+几年前组的nas 图方便装的windows server2012 用自带的存储池管理磁盘(不过用了几年下来基本就是重要数据做镜像 其他的simple parity用下来感觉并不方便 嫌麻烦最后也没用)
+&#13;
+然后为了跑docker(主要也是图方便 现在挂apache/webdav啥的都是拉个镜像扔进docker里) 用hyper v装了个ubuntu
+&#13;
+外面windows开smb共享 挂到虚拟机里面 然后虚拟机再映射到docker
+&#13;
+主要是担心虚拟机运气不好嗝屁了这样好歹文件是存在外面的文件系统上的 重新起个虚拟机就能接着用
+&#13;
+不过毕竟隔了一层smb 性能下降估计还是比较多
+&#13;
+因为接下来想把备份用的timemachine也用docker做了想看看有什么更合适的做法
+&#13;
+要重做系统也行 因为现在的nas存储也快用完了 而且gen8再跑更多的服务估计也吃不消 趁着换一套也行</description>
+      <content:encoded><![CDATA[<p><b>紧那罗: </b><br>
+<span>[泥潭啥都懂]nas上跑docker 问下存储怎么做合适</span><br>
+<span>几年前组的nas 图方便装的windows server2012 用自带的存储池管理磁盘(不过用了几年下来基本就是重要数据做镜像 其他的simple parity用下来感觉并不方便 嫌麻烦最后也没用)</span><br>
+<span>然后为了跑docker(主要也是图方便 现在挂apache/webdav啥的都是拉个镜像扔进docker里) 用hyper v装了个ubuntu</span><br>
+<span>外面windows开smb共享 挂到虚拟机里面 然后虚拟机再映射到docker</span><br>
+<span>主要是担心虚拟机运气不好嗝屁了这样好歹文件是存在外面的文件系统上的 重新起个虚拟机就能接着用</span><br>
+<span>不过毕竟隔了一层smb 性能下降估计还是比较多</span><br>
+<span>因为接下来想把备份用的timemachine也用docker做了想看看有什么更合适的做法</span><br>
+<span>要重做系统也行 因为现在的nas存储也快用完了 而且gen8再跑更多的服务估计也吃不消 趁着换一套也行</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>windows 虚拟机开个Debian挂载SMB 装个docker 然后挂载目录   我一直这么搞的没问题啊</span><br>
+<span>还能休眠修改什么也方便，win的虚拟机修改也方便</span><br>
+<span>担心数据还是上raid</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>yeah20002 发表于 2019-7-26 14:06</span><br>
+<span>windows 虚拟机开个Debian挂载SMB 装个docker 然后挂载目录   我一直这么搞的没问题啊</span><br>
+<span>还能休眠修改什 ...</span><br>
+<span>debian挂载smb性能没问题吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849263[0-50]</guid>
+    </item>
+  </channel>
+</rss>

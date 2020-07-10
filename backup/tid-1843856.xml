@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S1码农多，docker问题求助（已解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>S1码农多，docker问题求助（已解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:19:49 +0000</lastBuildDate>
+    <item>
+      <title>S1码农多，docker问题求助（已解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843856-1-1.html</link>
+      <description>S1码农多，docker问题求助（已解决）&#13;
+ 本帖最后由 spikedingo 于 2019-7-3 11:24 编辑 
+
+这两天在折腾docker-compose，似乎还差临门一脚
+&#13;
+情况是这样的，web项目里写的mongodb和redis连接host都是127.0.0.1，但是使用docker-compose时用network连起来时，却无法访问127.0.0.1：6379的redis服务器
+&#13;
+yml文件如下
+&#13;
+version: '2'
+&#13;
+services:
+&#13;
+    web:
+&#13;
+      build:
+&#13;
+          context: .
+&#13;
+          dockerfile: docker-web-Dockerfile
+&#13;
+      restart: always
+&#13;
+      depends_on:
+&#13;
+          - redis
+&#13;
+          - mongo_db
+&#13;
+      ports:
+&#13;
+          - "127.0.0.1:8001:8080"
+&#13;
+      networks:
+&#13;
+          - wood-network
+&#13;
+    mongo_db:
+&#13;
+      build:
+&#13;
+          context: .
+&#13;
+          dockerfile: docker-mongo-Dockerfile
+&#13;
+      restart: always
+&#13;
+      ports:
+&#13;
+          - "127.0.0.1:27017:27017"
+&#13;
+      volumes:
+&#13;
+          - "/home/volumes/mongo:/data/db"
+&#13;
+          - "/etc/localtime:/etc/localtime"
+&#13;
+      networks:
+&#13;
+          - wood-network
+&#13;
+    redis:
+&#13;
+      image: "redis:alpine"
+&#13;
+      ports:
+&#13;
+         - "127.0.0.1:6379:6379"
+&#13;
+      restart: always
+&#13;
+      networks:
+&#13;
+         - wood-network
+&#13;
+networks:
+&#13;
+wood-network:
+&#13;
+    driver: bridge</description>
+      <content:encoded><![CDATA[<p><b>spikedingo: </b><br>
+<span>S1码农多，docker问题求助（已解决）</span><br>
+<span> 本帖最后由 spikedingo 于 2019-7-3 11:24 编辑 </span><br>
+<span>这两天在折腾docker-compose，似乎还差临门一脚</span><br>
+<span>情况是这样的，web项目里写的mongodb和redis连接host都是127.0.0.1，但是使用docker-compose时用network连起来时，却无法访问127.0.0.1：6379的redis服务器</span><br>
+<span>yml文件如下</span><br>
+<span>version: '2'</span><br>
+<span>services:</span><br>
+<span>    web:</span><br>
+<span>      build:</span><br>
+<span>          context: .</span><br>
+<span>          dockerfile: docker-web-Dockerfile</span><br>
+<span>      restart: always</span><br>
+<span>      depends_on:</span><br>
+<span>          - redis</span><br>
+<span>          - mongo_db</span><br>
+<span>      ports:</span><br>
+<span>          - "127.0.0.1:8001:8080"</span><br>
+<span>      networks:</span><br>
+<span>          - wood-network</span><br>
+<span>    mongo_db:</span><br>
+<span>      build:</span><br>
+<span>          context: .</span><br>
+<span>          dockerfile: docker-mongo-Dockerfile</span><br>
+<span>      restart: always</span><br>
+<span>      ports:</span><br>
+<span>          - "127.0.0.1:27017:27017"</span><br>
+<span>      volumes:</span><br>
+<span>          - "/home/volumes/mongo:/data/db"</span><br>
+<span>          - "/etc/localtime:/etc/localtime"</span><br>
+<span>      networks:</span><br>
+<span>          - wood-network</span><br>
+<span>    redis:</span><br>
+<span>      image: "redis:alpine"</span><br>
+<span>      ports:</span><br>
+<span>         - "127.0.0.1:6379:6379"</span><br>
+<span>      restart: always</span><br>
+<span>      networks:</span><br>
+<span>         - wood-network</span><br>
+<span>networks:</span><br>
+<span>wood-network:</span><br>
+<span>    driver: bridge</span><br>
+</p><p><b>spikedingo: </b><br>
+<span>PS: yml里去掉web那个容器，把mongodb和redis端口暴露给外面而不使用networks时，是可以正常访问127.0.0.1:6379和127.0.0.1:27017的</span><br>
+</p><p><b>weakiwi: </b><br>
+<span>127.0.0.1改成0.0.0.0呢</span><br>
+<span>—— 来自 Xiaomi Redmi 4, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>电动犀牛: </b><br>
+<span>或者试试填本机ip？ 127回环不产生正常流量</span><br>
+</p><p><b>magi: </b><br>
+<span> 本帖最后由 magi 于 2019-7-3 02:21 编辑 </span><br>
+<span>web项目里连别的写域名 比如mongo_db:27017，compose文件维持原样就好。</span><br>
+<span>你需要意识到每个容器自己是一个虚拟机，port里第一个的127.0.0.1相对的是物理机本机，web容器内写的127.0.0.1相对的是web这台虚拟机本机。每次启动容器动态分配各个虚拟机的ip，直接用域名可以获得这个ip走你定义的network内部从一台虚拟机到另一台虚拟机。(也就是如果数据库只给web用不需要自己随便从外部连上去看的话，可以不用port映射给物理机，只要expose端口就两个容器之间就能从network里互相了)</span><br>
+<span>当然还有一种方式web容器里数据库地址、compose文件port全都写物理机的ip，这样都通过绕到本机在绕回去，但是都和本机地址有关了，失去通用性还多经过一层转发，所以不建议。</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>如果你的container都在自定义的network上的话container之间访问可以直接用service name加端口号访问，有类似dns的解析机制可以不用写ip。</span><br>
+<span>如果不需要外部访问的话（比如物理机）mongodb和redis的port部分都可以删掉不要。</span><br>
+<span>其实我把楼上的话又复述了一遍</span><br>
+</p><p><b>spikedingo: </b><br>
+<span>流石S1😤上班就去试</span><br>
+</p><p><b>spikedingo: </b><br>
+<span>太给力了，成功UP</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843856[0-50]</guid>
+    </item>
+  </channel>
+</rss>

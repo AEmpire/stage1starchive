@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助 40路1080P回放的视频监控平台CPU该怎么升级？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助 40路1080P回放的视频监控平台CPU该怎么升级？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:33:48 +0000</lastBuildDate>
+    <item>
+      <title>求助 40路1080P回放的视频监控平台CPU该怎么升级？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910995-1-1.html</link>
+      <description>求助 40路1080P回放的视频监控平台CPU该怎么升级？&#13;
+去年单位领导被一个上级摊派下来的关系厂商忽悠，花了几百万建了个4K*2的LED巨屏用于指挥大厅防火视频回放，结果那个厂家用的是杂牌LED面板和控制器，效果巨差，刷新率贼低，损坏率也高，领导一看就不给钱了，那厂商就放着烂摊子甩手不干了。然后屏凑合用，因为单位没钱，我就选了台CPU是9700K的dell工作站，用集显DP*2+独显2DP+1HDMI接到大屏上实现5屏扩展桌面来回放视频。开始放的视频比较少，也就十几路，效果还凑合，后来增加的视频越来越多，整体轮询的画面大概40路1080P，然后CPU当然100%，画面都有些卡，领导不满意
+&#13;
+后来我从仓库找到一台dell的双路工作站，CPU只安装单颗6c12t的E5v2，按照TB E5v2的洋垃圾价格，花不到3000元就能能升级为双路E5-2696v2 24c48t的CPU，从网上搜到的测评结果CB R15大概2600分，比9700K的1600分提高60%。
+&#13;
+我就不知道视频回放是对CPU线程数比较敏感呢，还是对整体CPU性能比较敏感呢？升级到双路E5-2696v2会不会缓解cpu占用率100%的问题？
+&#13;
+还是建议领导花个七八万上双路金牌工作站？还是攒一个TR 3970x的机器？便宜点的3950x是不是也够用呢？</description>
+      <content:encoded><![CDATA[<p><b>坏掉了: </b><br>
+<span>求助 40路1080P回放的视频监控平台CPU该怎么升级？</span><br>
+<span>去年单位领导被一个上级摊派下来的关系厂商忽悠，花了几百万建了个4K*2的LED巨屏用于指挥大厅防火视频回放，结果那个厂家用的是杂牌LED面板和控制器，效果巨差，刷新率贼低，损坏率也高，领导一看就不给钱了，那厂商就放着烂摊子甩手不干了。然后屏凑合用，因为单位没钱，我就选了台CPU是9700K的dell工作站，用集显DP*2+独显2DP+1HDMI接到大屏上实现5屏扩展桌面来回放视频。开始放的视频比较少，也就十几路，效果还凑合，后来增加的视频越来越多，整体轮询的画面大概40路1080P，然后CPU当然100%，画面都有些卡，领导不满意</span><br>
+<span>后来我从仓库找到一台dell的双路工作站，CPU只安装单颗6c12t的E5v2，按照TB E5v2的洋垃圾价格，花不到3000元就能能升级为双路E5-2696v2 24c48t的CPU，从网上搜到的测评结果CB R15大概2600分，比9700K的1600分提高60%。</span><br>
+<span>我就不知道视频回放是对CPU线程数比较敏感呢，还是对整体CPU性能比较敏感呢？升级到双路E5-2696v2会不会缓解cpu占用率100%的问题？</span><br>
+<span>还是建议领导花个七八万上双路金牌工作站？还是攒一个TR 3970x的机器？便宜点的3950x是不是也够用呢？</span><br>
+</p><p><b>费老师: </b><br>
+<span>网吧收40台旧电脑如何</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>不建议把责任揽到自己身上，不建议集显输出，你用的啥显卡，不知道瓶颈是IO上，还是编解码上。你这这么多路视频怎么连到电脑上，建议找其他做多路视频的厂家咨询一下。</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>坏掉了: </b><br>
+<span> 本帖最后由 坏掉了 于 2020-1-27 13:43 编辑 </span><br>
+<span>DeepFishing 发表于 2020-1-27 13:12</span><br>
+<span>不建议把责任揽到自己身上，不建议集显输出，你用的啥显卡，不知道瓶颈是IO上，还是编解码上。你这这么多路 ...</span><br>
+<span>不是揽，而是领导让我弄。不是显卡上的事，只是2D输出，应该成不了瓶颈。电脑登录到服务器视频平台，用千兆网卡相连，一路1080P大概4Mb码流，40路也才160Mb而已，监控厂家（海康和宇视）建议我们上视频解码器，解码器直连视频矩阵，那样的话花费太高，灵活性也差，上电脑可以灵活5屏，4屏，双屏，单屏切换，不但能上视频，还能上网页平台界面，放电影和ppt都行，解码器就固化死了只能放视频了</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>我还发现，到现在还找不到一台 HP，DELL，联想使用Ryzen、TR或EPYC的工作站，所有的工作站都是intel，这就是市场能力的差距吧</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>解码器也很灵活啊</span><br>
+<span>有没有矩阵之类的？</span><br>
+</p><p><b>HGP: </b><br>
+<span>以前的说法就是没线程优化的，而且你40路轮巡，码率调低是否好使试过吗？</span><br>
+<span>公家的事，建议听海康的建议，自己弄服务器吃力不讨好。双路E5轮巡40路1080P，我觉得不行，卡不卡看硬解能力。查CPU硬解能力。自己判断吧。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>碳.: </b><br>
+<span>坏掉了 发表于 2020-1-27 13:48</span><br>
+<span>我还发现，到现在还找不到一台 HP，DELL，联想使用Ryzen、TR或EPYC的工作站，所有的工作站都是intel ...</span><br>
+<span>找销售代表问，比如thinksystem sr655就是epyc，官网不一定挂出来，dell的也有</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>如果集显输出的话，intel的核显会挤占很大一部分TDP，你可以先看一下9700k有没有降频，如果有的话全部用独显输出可能会好些。</span><br>
+</p><p><b>macos: </b><br>
+<span>你总分辨也就8k，没必要全投最高分辨，可以设的，然后同屏要多少</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>160m的码率的视频如果靠CPU软解，建议3900或以上的CPU</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>坏掉了 发表于 2020-1-27 13:42</span><br>
+<span>不是揽，而是领导让我弄。不是显卡上的事，只是2D输出，应该成不了瓶颈。电脑登录到服务器视频平台，用千 ...</span><br>
+<span>显卡可以硬件解码，集显输出分辨率太高可能会影响CPU部分性能，毕竟要抢占tdp和内存带宽，就是不知道老黄民用卡解码部分有没有被限制，先试下显卡解码，按道理性能要比CPU强很多</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>有这种要求上矩阵</span><br>
+</p><p><b>qwased: </b><br>
+<span>DeepFishing 发表于 2020-1-27 15:34</span><br>
+<span>显卡可以硬件解码，集显输出分辨率太高可能会影响CPU部分性能，毕竟要抢占tdp和内存带宽，就是不知道老黄 ...</span><br>
+<span>限制了，我记得有个破解驱动可以解开视频编解码的限制</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>香港记者巴拉森: </b><br>
+<span>2696v2好像700多一颗，按照一路1080p两个线程来算好像还是有点勉强</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>为什么要用CPU解码</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>卡洛德 发表于 2020-1-27 13:52</span><br>
+<span>解码器也很灵活啊</span><br>
+<span>有没有矩阵之类的？</span><br>
+<span>解码器海康和宇视的加码器只有一路PC DVI输入，无法显示PC多屏，还要与配套的视屏平台做配置，不好用啊，而且比双路工作站贵</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>碳. 发表于 2020-1-27 14:07</span><br>
+<span>找销售代表问，比如thinksystem sr655就是epyc，官网不一定挂出来，dell的也有</span><br>
+<span>不想用服务器，启动太慢，还得额外配独显，而且电源不见得有显卡6Pin供电支持</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>macos 发表于 2020-1-27 14:58</span><br>
+<span>你总分辨也就8k，没必要全投最高分辨，可以设的，然后同屏要多少</span><br>
+<span>这个是由软件平台决定，3年前找的软件商定制的CS综合平台，每一路视频都是调取主码流，不管几分屏都是resize到小画面，但码流不会降，就算小画面是480x270，后台解码也是1080P。而且整个软件平台已经过了维护期，让软件商来改也很贵</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>DeepFishing 发表于 2020-1-27 15:34</span><br>
+<span>显卡可以硬件解码，集显输出分辨率太高可能会影响CPU部分性能，毕竟要抢占tdp和内存带宽，就是不知道老黄 ...</span><br>
+<span>我觉得软件平台就没启用GPU硬解码。而且GPU也不能硬解40路1080P吧</span><br>
+</p><p><b>macos: </b><br>
+<span>坏掉了 发表于 2020-1-27 19:22</span><br>
+<span>这个是由软件平台决定，3年前找的软件商定制的CS综合平台，每一路视频都是调取主码流，不管几分屏都是res ...</span><br>
+<span>那是比较麻烦，一般有配置文件设码率吧，找一下试试</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>macos 发表于 2020-1-27 19:26</span><br>
+<span>那是比较麻烦，一般有配置文件设码率吧，找一下试试</span><br>
+<span>这是由前端摄像头决定，前端IPC摄像头主码流4M H264，这个不能改，所以调取过来就是4M的1080P码流</span><br>
+</p><p><b>macos: </b><br>
+<span>坏掉了 发表于 2020-1-27 19:31</span><br>
+<span>这是由前端摄像头决定，前端IPC摄像头主码流4M H264，这个不能改，所以调取过来就是4M的1080P码流 ...</span><br>
+<span>这么做的吗，俺上年接触到的ipcam厂家做的平台是在服务器上能发送控制指令的啊，只是他只能调取一条</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>macos 发表于 2020-1-27 19:36</span><br>
+<span>这么做的吗，俺上年接触到的ipcam厂家做的平台是在服务器上能发送控制指令的啊，只是他只能调取一条 ...</span><br>
+<span>一般来说是前端IPC设置好主码流辅码流的分辨率刷新率和编码方式，后端服务器去调取，不论onvif协议还是GB28181都不能改调取视频的码流，只能从主流或辅流里选一路</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>坏掉了 发表于 2020-1-27 19:25</span><br>
+<span>我觉得软件平台就没启用GPU硬解码。而且GPU也不能硬解40路1080P吧</span><br>
+<span>老黄不做限制的话，新卡解码性能就够了，纯CPU软解这对CPU要求太高了吧，不推荐你倒腾老e5，老e5性能太弱了，你要有测试程序，我这有3950x可以测测</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>DeepFishing 发表于 2020-1-27 19:52</span><br>
+<span>老黄不做限制的话，新卡解码性能就够了，纯CPU软解这对CPU要求太高了吧，不推荐你倒腾老e5，老e5性能太弱 ...</span><br>
+<span>N卡哪个硬件ASIC能硬解40路1080P？我觉得都就算硬件有能去去处理160M码流，软件上也不存在这样的能处理超多流的SDK接口</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>奶绷子 发表于 2020-1-27 20:30</span><br>
+<span>N卡哪个硬件ASIC能硬解40路1080P？我觉得都就算硬件有能去去处理160M码流，软件上也不存在这样的能处理超 ...</span><br>
+<span>老黄官网tesla t4跑解码1080p h264能跑大概1000 fps，hevc能跑2000多，rtx4/5000和t4有两个解码核，还有更强的rtx3000有三个，</span><br>
+<span>https://developer.nvidia.com/nvidia-video-codec-sdk</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>DeepFishing 发表于 2020-1-27 21:24</span><br>
+<span>老黄官网tesla t4跑解码1080p h264能跑大概1000 fps，hevc能跑2000多，rtx4/5000和t4有两个解码核 ...</span><br>
+<span>里面没提到最多码流的支持情况，不过H264最大支持分辨率4096 x 4096，也就相当于8路1080P，40路估计够呛</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>遇到 过一个一毛一样的情况，20核e5v4可以跑32路1080p监控（不知道码率），洋垃圾核心怼上去，你淘宝买个试试，不行还可以退货的</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>试一试，可以退的CPU</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>软件平台不能直接添加多路解码器？有那种可以输出12 16路hdmi的</span><br>
+</p><p><b>freeandwind: </b><br>
+<span>1.led应该有个网线输出信号的控制器吧，拿来接解码器（印象中也是要多个解码器组合）</span><br>
+<span>2.换一个矩阵，用监控厂家的一体机，可以直接解码上墙</span><br>
+<span>我这里的经验是只有过9-12路上墙，120路轮询</span><br>
+<span>你可以考虑用核心数多的cpu看看……</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910995[0-50]</guid>
+    </item>
+  </channel>
+</rss>

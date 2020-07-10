@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PS要多少内存才够吃？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PS要多少内存才够吃？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:46:05 +0000</lastBuildDate>
+    <item>
+      <title>PS要多少内存才够吃？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839650-1-1.html</link>
+      <description>PS要多少内存才够吃？&#13;
+Photoshop.CC.20.0.4.X64
+&#13;
+原来的老电脑8G内存，每次开都CPU80%以上，内存几乎全满。
+&#13;
+配了一台新电脑，SSD+16G内存，开PS时CPU还好10%-20%，内存还是一下子就几乎全满。
+&#13;
+这PS这么吃内存的嘛，要多少内存才够吃？</description>
+      <content:encoded><![CDATA[<p><b>月神侠: </b><br>
+<span>PS要多少内存才够吃？</span><br>
+<span>Photoshop.CC.20.0.4.X64</span><br>
+<span>原来的老电脑8G内存，每次开都CPU80%以上，内存几乎全满。</span><br>
+<span>配了一台新电脑，SSD+16G内存，开PS时CPU还好10%-20%，内存还是一下子就几乎全满。</span><br>
+<span>这PS这么吃内存的嘛，要多少内存才够吃？</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>Photoshop使用多大内存取决于用户处理多大size的image file、以及设置的dpi、在处理过程中累加的filter行为、叠加多少layer====，这跟设置指定当前软体使用多少硬件上限内存没有关系，它榨干了内存自然去找第二cache盘，第三cache盘···最终在硬盘声嘶力竭中半/卡/真·死机。</span><br>
+<span>CHH看到的回复，感觉好像是这么一回事</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>图层数*图层像素数*通道数*位深*历史</span><br>
+<span>你自己算好了，想玩个大的，多少都可以吃满</span><br>
+</p><p><b>Prushka: </b><br>
+<span>lwa190212 发表于 2019-6-15 14:47</span><br>
+<span>图层数*图层像素数*通道数*位深*历史</span><br>
+<span>你自己算好了，想玩个大的，多少都可以吃满 ...</span><br>
+<span>意思是时不时保存退出可以降低占用</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>和你应用场景有关系,</span><br>
+<span>缓存步骤,图片大小,图层数量等</span><br>
+<span>没有固定需求.</span><br>
+<span>其他设计类软件以此类推.</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-6-15 15:00 编辑 </span><br>
+<span>看你开多大多复杂的图，20年前的Photoshop 6.0只要16M内存，现在的Photoshop自动载入一大堆你根本用不上的插件，把没用的都删了能快不少</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>300dpi</span><br>
+<span>反正16G不嫌大。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-6-15 15:17 编辑 </span><br>
+<span>Prushka 发表于 2019-6-15 14:56</span><br>
+<span>意思是时不时保存退出可以降低占用</span><br>
+<span>历史不一定是整个项目一份，可能只是一个通道的历史，所以不一定占得很多</span><br>
+<span>(以及我不清楚adobe是否会把一些可逆操作优化成只储存了操作命令以降低内存消耗)</span><br>
+<span>不过不需要历史的话确实可以少一点消耗，代价就是不能回到上一步</span><br>
+<span>另外如果你一直不需要很长的历史记录，修改设置里的历史记录状态就行了</span><br>
+<span>我觉得你还是不要很在意历史的内存占用，像历史缓存在SSD里也不会降低操作速度</span><br>
+<span>只要内存够当前状态用就不会有速度区别，减少了历史撤销不回去反而更蛋疼</span><br>
+</p><p><b>doki: </b><br>
+<span>要看你的问题</span><br>
+<span>比如我自家个公司的平时做做宣传图之类的没屁事</span><br>
+<span>之前4000万像素的raw一丢，直接先吃个8g内存</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>现在内存这么便宜 64g插满</span><br>
+</p><p><b>artamisia: </b><br>
+<span>新电脑配了64g   堆栈还是吃满</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>你多少G内存 PS都能吃满的，需要一块高性能SSD，最好保证缓外写入速度2G/S以上的，能明显改善</span><br>
+<span>像楼上说的堆栈，我试过40000*40000像素的4*4堆栈，缓存盘吃去100多G。。。买内存你能买得起多少？</span><br>
+</p><p><b>土豆茄子: </b><br>
+<span>我是32G 因为我经常做超大图 所以还是不够</span><br>
+</p><p><b>西门无恨: </b><br>
+<span>无上限，看你开多少个图层了，存在内存里总比存在磁盘缓冲区速度快的</span><br>
+</p><p><b>magi: </b><br>
+<span>设置里可以设置给其他app预留多少内存，反正内存闲着也是闲着</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>你可以用32位的PS呀</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elflie: </b><br>
+<span>取决于你有多少钱</span><br>
+</p><p><b>lolozp: </b><br>
+<span>取决你最终的源文件多大，多开几个图片</span><br>
+</p><p><b>白香宁: </b><br>
+<span>32G的工作电脑，基本够用</span><br>
+<span>再往上去看过大佬画超级大的气氛图，用64G高配的iMac pro</span><br>
+</p><p><b>ronh: </b><br>
+<span>最好32g，16g够用但是跑某些新滤镜比如修复模糊照片会报错闪退。</span><br>
+<span>— from Google Pixel 3 XL, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>bill基: </b><br>
+<span> 本帖最后由 bill基 于 2019-6-16 03:06 编辑 </span><br>
+<span>给你们一个复现率50%的bug</span><br>
+<span>GH5拍的h264格式最高码率（200M/400M）视频，拉进PS，挂camera raw调一下色，输出图像序列</span><br>
+<span>然后就可以看PS表演了，输出到一定张数后速度会骤降，CPU占用率骤减，内存+缓存无限吃，一直吃到你的电脑没空间了，报错崩溃</span><br>
+<span>我好玩试过看到底能吃多少，反正是吃了32G内存+4T的SSD（P3500 2Tx2 raid0）然后崩了</span><br>
+<span>你问为什么要用PS对视频调色？因为camera raw对视频调色超JB好用啊，youtube上好几个调色教程大师都当成“秘密武器”来教呢，虽然效率是低的一匹，限制也很多，但架不住效果好啊</span><br>
+</p><p><b>巫山云雨: </b><br>
+<span>bill基 发表于 2019-06-16 03:05:07</span><br>
+<span>为什么要在ps里面调视频？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>阿晖: </b><br>
+<span>这么想吧，你4000*4000像素的图，每个图层都差不多可以算4000*4000的图，所以图层越多占的就越多</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839650[0-50]</guid>
+    </item>
+  </channel>
+</rss>

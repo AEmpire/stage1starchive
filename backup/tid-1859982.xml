@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[终于轮到我] DiskGenius 无损调整分区失败，磁盘不可用</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[终于轮到我] DiskGenius 无损调整分区失败，磁盘不可用</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:38:02 +0000</lastBuildDate>
+    <item>
+      <title>[终于轮到我] DiskGenius 无损调整分区失败，磁盘不可用[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859982-1-1.html</link>
+      <description>[终于轮到我] DiskGenius 无损调整分区失败，磁盘不可用&#13;
+【背景】
+&#13;
+事出紧急要在个人自用笔记本上创建个Linux环境，因为是Win10家庭版无法启用虚拟化所以虚拟机和Docker都不是很受用，干脆装一个原生Ubuntu。
+&#13;
+然后便很熟练地用 DiskGenius 对着 C 盘做分区调整（数据太散了，直接压缩只能抽出1GB）。
+&#13;
+之后便是很熟悉地重启到PE进行调整。
+&#13;
+但是我这个联想破本子近来毛病不断，因为电池只能充不能供，经历过数次直接断电，现在经常关机卡住必须强制断电。想来文件系统已经垂垂危矣。
+&#13;
+根据墨菲定律，果然无数次熟练地调整分区大小之后，偏偏这一次 DiskGenius 卡住了！我就点了中断，等了好一会体面地退出了PE。
+&#13;
+之后就进入不了Win10了，反复提示【我们有一个更新】，通过Win10安装盘进行了一定程度的恢复后，可以登录账号，但是一进去就整个黑屏，鼠标活着，但是任务管理器弹不出来，Win+R也没有，总之就是无法运行程序了。
+&#13;
+【数据自救】
+&#13;
+总之这个系统废了只能重做一个。但是这之前得把数据救一下，毕竟系统和个人数据还是放到一个盘里了（幸好海量资源放在了独立的1TB硬盘里）。
+&#13;
+然后便很熟练地找Ubuntu做了一个Live CD。
+&#13;
+没想到进体验系统的时候因为NTFS元信息非法而无法进入。
+&#13;
+现在在网吧做PE盘desu。</description>
+      <content:encoded><![CDATA[<p><b>whzfjk: </b><br>
+<span>[终于轮到我] DiskGenius 无损调整分区失败，磁盘不可用</span><br>
+<span>【背景】</span><br>
+<span>事出紧急要在个人自用笔记本上创建个Linux环境，因为是Win10家庭版无法启用虚拟化所以虚拟机和Docker都不是很受用，干脆装一个原生Ubuntu。</span><br>
+<span>然后便很熟练地用 DiskGenius 对着 C 盘做分区调整（数据太散了，直接压缩只能抽出1GB）。</span><br>
+<span>之后便是很熟悉地重启到PE进行调整。</span><br>
+<span>但是我这个联想破本子近来毛病不断，因为电池只能充不能供，经历过数次直接断电，现在经常关机卡住必须强制断电。想来文件系统已经垂垂危矣。</span><br>
+<span>根据墨菲定律，果然无数次熟练地调整分区大小之后，偏偏这一次 DiskGenius 卡住了！我就点了中断，等了好一会体面地退出了PE。</span><br>
+<span>之后就进入不了Win10了，反复提示【我们有一个更新】，通过Win10安装盘进行了一定程度的恢复后，可以登录账号，但是一进去就整个黑屏，鼠标活着，但是任务管理器弹不出来，Win+R也没有，总之就是无法运行程序了。</span><br>
+<span>【数据自救】</span><br>
+<span>总之这个系统废了只能重做一个。但是这之前得把数据救一下，毕竟系统和个人数据还是放到一个盘里了（幸好海量资源放在了独立的1TB硬盘里）。</span><br>
+<span>然后便很熟练地找Ubuntu做了一个Live CD。</span><br>
+<span>没想到进体验系统的时候因为NTFS元信息非法而无法进入。</span><br>
+<span>现在在网吧做PE盘desu。</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>的确不好用</span><br>
+<span>前几天试了一次扩系统盘</span><br>
+<span>结果没办法开机</span><br>
+</p><p><b>铅笔: </b><br>
+<span>常在河边走，哪有不湿鞋。用多了总有一天翻车的。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>diskgenius可以看到fs但是系统下无法识别要格式化</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>对有数据的分区调整大小，这事从来不敢干</span><br>
+</p><p><b>404489039: </b><br>
+<span>Ubuntu是支持好像安装应用程序一样安装双系统的，哪用另外分区</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>404489039 发表于 2019-10-17 21:14</span><br>
+<span>Ubuntu是支持好像安装应用程序一样安装双系统的，哪用另外分区</span><br>
+<span>当年入门的时候wubi风评不好啊</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>有那功夫调整分区，花几分钟把C盘数据考出去，直接格盘调整都搞定了</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>ramiel1 发表于 2019-10-17 21:27</span><br>
+<span>有那功夫调整分区，花几分钟把C盘数据考出去，直接格盘调整都搞定了</span><br>
+<span>win环境不还是要重建</span><br>
+</p><p><b>macos: </b><br>
+<span>中断调整操作，所涉分区的数据都不正确，几乎全乱</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>whzfjk 发表于 2019-10-17 21:29</span><br>
+<span>win环境不还是要重建</span><br>
+<span>可以用那个傲梅什么什么把整个c分区复制出去，格式化调整好大小之后，再复制回来</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>迁移系统说白了就是复制C盘，备份还原ESP，MBR的过程，没有啥技术含量，不会操作可以用Acronis备份还原时候自定义分区大小一样可以搞定</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>ramiel1 发表于 2019-10-17 22:18</span><br>
+<span>迁移系统说白了就是复制C盘，备份还原ESP，MBR的过程，没有啥技术含量，不会操作可以用Acronis备份还原时候 ...</span><br>
+<span>可以把MBR硬盘分区的系统迁移到GPT硬盘分区吗？</span><br>
+<span>几年前老i5平台的系统迁移到zen平台</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>凛凛233 发表于 2019-10-17 22:36</span><br>
+<span>可以把MBR硬盘分区的系统迁移到GPT硬盘分区吗？</span><br>
+<span>几年前老i5平台的系统迁移到zen平台 ...</span><br>
+<span>应该不行吧，GPT用的是ESP，不是老的MBR，结构完全不同无法引导旧系统的</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>ramiel1 发表于 2019-10-17 22:59</span><br>
+<span>应该不行吧，GPT用的是ESP，不是老的MBR，结构完全不同无法引导旧系统的</span><br>
+<span>所以应该怎么办呢，应该有办法的吧…</span><br>
+<span>比如，先在新平台全新安装win7，然后把旧平台c盘根目录的几个文件夹复制过来全部替换掉？</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>凛凛233 发表于 2019-10-17 22:36</span><br>
+<span>可以把MBR硬盘分区的系统迁移到GPT硬盘分区吗？</span><br>
+<span>几年前老i5平台的系统迁移到zen平台 ...</span><br>
+<span>我今天换硬盘，MBR转到新的大船（4T）的操作</span><br>
+<span>步骤：</span><br>
+<span>1、先用傲梅磁盘对拷，确认新的硬盘可以启动，复制磁盘时，手动调整新盘的前面留 几个G装ESP分区</span><br>
+<span>2、复制好新盘以后拆旧盘，正常启动WINDOWS，此时用DISKGEN转换为GPT磁盘，然后创建ESP分区，此时千万不要重启，重启直接GG</span><br>
+<span>3、DISKGEN挂载ESP分区，管理员运行CMD，执行修复引导（WINDOWS下操作即可），其中Z:为挂载的分区</span><br>
+<span>bcdboot C:\Windows/s Z: /f uefi /l zh-cn</span><br>
+<span>完了BIOS不要传统 ONLY，或者直接关CSM也可以</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>sblnrrk 发表于 2019-10-17 23:07</span><br>
+<span>我今天换硬盘，MBR转到新的大船（4T）的操作</span><br>
+<span>步骤：</span><br>
+<span>也简单啊？</span><br>
+</p><p><b>j0n2: </b><br>
+</p><p><b>onoma: </b><br>
+<span>这个……我也不太敢对有重要数据（系统数据、重要个人数据）的盘做分区处理，虽然同一块硬盘上的分区扩容是安全的</span><br>
+<span>事已至此，不如就把重要数据救出来，干脆来个彻底的重装算了</span><br>
+</p><p><b>两个路人: </b><br>
+<span>凛凛233 发表于 2019-10-17 23:05</span><br>
+<span>所以应该怎么办呢，应该有办法的吧…</span><br>
+<span>比如，先在新平台全新安装win7，然后把旧平台c盘根目录的几个文件 ...</span><br>
+<span>然后你就会被系统权限各种阻止操作，或者权限所属不正确而搞得欲仙欲死</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>两个路人 发表于 2019-10-18 02:19</span><br>
+<span>然后你就会被系统权限各种阻止操作，或者权限所属不正确而搞得欲仙欲死 ...</span><br>
+<span>在pe里操作也会有这些提示吗？没试过啊</span><br>
+</p><p><b>disrupt: </b><br>
+<span>whzfjk 发表于 2019-10-17 19:16</span><br>
+<span>【背景】</span><br>
+<span>事出紧急要在个人自用笔记本上创建个Linux环境，因为是Win10家庭版无法启用虚拟化所以虚拟机和Doc ...</span><br>
+<span>家庭版无法启用虚拟化 ×</span><br>
+<span>家庭版不支持Hyper-V √</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>想了下，对楼主这样 情况，最好的方法是换个key，换成专业版的，然后自动安装，等更新完就支持hyperv了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Jumbohard: </b><br>
+<span>原来遇到过类似的情况，不过是用的傲梅分区助手</span><br>
+<span>C盘F盘俩系统(都是win，好像f盘是win8预览版？)，调整分区之后f盘整个不可读了要求格式化，抱着死马当活马医的心态跑了chkdsk居然进去了</span><br>
+<span>当然引导肯定没了要重做，文件倒全是好的</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>瘟10家庭版可以运行vmware之类虚拟机，也可以运行docker。实在不喜欢虚拟机还可以在软件商城免费装个子系统ubuntu啊。哪个都比折腾双系统安全。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>disrupt 发表于 2019-10-18 04:53</span><br>
+<span>家庭版无法启用虚拟化 ×</span><br>
+<span>家庭版不支持Hyper-V √</span><br>
+<span>我任务管理器界面显示虚拟化禁用，HyperV启动，BIOS开虚拟化的，但是win10里找不到关HyperV的地方</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>凛凛233 发表于 2019-10-17 23:05</span><br>
+<span>所以应该怎么办呢，应该有办法的吧…</span><br>
+<span>比如，先在新平台全新安装win7，然后把旧平台c盘根目录的几个文件 ...</span><br>
+<span>win7推荐你用dg分esp区和系统区，msr区的勾选一定要去掉，然后克隆原来的c盘过去，最后修复一下esp引导指向新的系统分区</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>这么看来我还算运气比较好，之前医务科有台电脑XP的电脑系统分区空间满了，我看了一下系统分区基本没什么可以移到其他分区的用户数据，就直接用DiskGenius 调整了分区大小，没出问题真是万幸</span><br>
+<span>—— 来自 samsung SM-A6060, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>macos: </b><br>
+<span>whzfjk 发表于 2019-10-18 08:48</span><br>
+<span>我任务管理器界面显示虚拟化禁用，HyperV启动，BIOS开虚拟化的，但是win10里找不到关HyperV的地方 ...</span><br>
+<span>虚拟化禁用就是主板没设定或设定了系统不支持的模式，家庭版确实是不带hyperv了</span><br>
+</p><p><b>linux40: </b><br>
+<span>建议去看fdisk文档，配合archwiki学习分区的基本知识。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>现在最大的问题还是bios开了虚拟化系统显示已禁用，系统不支持hyperv却显示hyperv已启用</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>凛凛233 发表于 2019-10-17 23:05</span><br>
+<span>所以应该怎么办呢，应该有办法的吧…</span><br>
+<span>比如，先在新平台全新安装win7，然后把旧平台c盘根目录的几个文件 ...</span><br>
+<span>楼上有高手回复了，用修复引导的功能可以重建ESP的。但是还是建议重装系统，毕竟你硬件都大换过了，系统肯定要升级最新WIN10，不然容易出各种BUG；如果只是简单换个硬盘倒是可以迁移一下。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859982[0-50]</guid>
+    </item>
+  </channel>
+</rss>

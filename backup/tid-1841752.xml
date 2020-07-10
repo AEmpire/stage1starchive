@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，xp系统不识别移动硬盘</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，xp系统不识别移动硬盘</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:33:07 +0000</lastBuildDate>
+    <item>
+      <title>求助，xp系统不识别移动硬盘[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841752-1-1.html</link>
+      <description>求助，xp系统不识别移动硬盘&#13;
+家里有台老电脑，还是xp系统，里边有些文件打算拷出来，结果发现移动硬盘插上没反应，本人电脑小白，拜求一容易点的方法。</description>
+      <content:encoded><![CDATA[<p><b>jfk2046: </b><br>
+<span>求助，xp系统不识别移动硬盘</span><br>
+<span>家里有台老电脑，还是xp系统，里边有些文件打算拷出来，结果发现移动硬盘插上没反应，本人电脑小白，拜求一容易点的方法。</span><br>
+</p><p><b>买表大户: </b><br>
+<span>看下分区是不是gpt，印象中xp只支持mbr分区</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>把移动硬盘分区转成mbr</span><br>
+<span>不过如果是2t以上的移动硬盘mbr最多只能识别2t吧</span><br>
+</p><p><b>macos: </b><br>
+<span>2t识别限制应该是控制器带来的，gpt才是系统，有不少移动控制器没容量限制，只要用能识别gpt的分区软件裸读</span><br>
+</p><p><b>GrimReaper: </b><br>
+<span>搞个PEU盘，进PE，然后你想干啥干啥。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841752[0-50]</guid>
+    </item>
+  </channel>
+</rss>

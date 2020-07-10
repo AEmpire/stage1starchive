@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>TWRP没法挂载内部存储</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>TWRP没法挂载内部存储</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:39:26 +0000</lastBuildDate>
+    <item>
+      <title>TWRP没法挂载内部存储[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850242-1-1.html</link>
+      <description>TWRP没法挂载内部存储&#13;
+是GPD XD PLUS这个安卓游戏机
+&#13;
+刷的TWRP和第三方ROM
+&#13;
+之前用的好好的
+&#13;
+突然TWRP不能挂载内部存储了，只显示0MB，选择高级wipe的时候，任何操作都是显示Failed to mount '/data' (Invalid Argument)，也没法格式化。但是平时用的时候内部存储还是能用的，接电脑也能看到。就在TWRP里面不见了。
+&#13;
+有什么办法修吗？
+&#13;
+谢谢</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>TWRP没法挂载内部存储</span><br>
+<span>是GPD XD PLUS这个安卓游戏机</span><br>
+<span>刷的TWRP和第三方ROM</span><br>
+<span>之前用的好好的</span><br>
+<span>突然TWRP不能挂载内部存储了，只显示0MB，选择高级wipe的时候，任何操作都是显示Failed to mount '/data' (Invalid Argument)，也没法格式化。但是平时用的时候内部存储还是能用的，接电脑也能看到。就在TWRP里面不见了。</span><br>
+<span>有什么办法修吗？</span><br>
+<span>谢谢</span><br>
+</p><p><b>混饭: </b><br>
+<span>猜是不是刷入twrp前，没双清过？</span><br>
+</p><p><b>marxel: </b><br>
+<span>关机扔在那10分钟再试试？</span><br>
+</p><p><b>droople: </b><br>
+<span>混饭 发表于 2019-7-30 21:10</span><br>
+<span>猜是不是刷入twrp前，没双清过？</span><br>
+<span>之前是用spltool直接线刷的</span><br>
+<span>另外internal storage之前是能mount的，后来突然就不能了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>挂载里是灰色的吧，data加密了。线刷回去重刷twrp吧</span><br>
+</p><p><b>droople: </b><br>
+<span>marxel 发表于 2019-7-30 21:12</span><br>
+<span>关机扔在那10分钟再试试？</span><br>
+<span>关机一天了。。。。</span><br>
+</p><p><b>marxel: </b><br>
+<span>droople 发表于 2019-7-30 21:49</span><br>
+<span>关机一天了。。。。</span><br>
+<span>那大概需要重新线刷了</span><br>
+</p><p><b>droople: </b><br>
+<span>marxel 发表于 2019-7-30 21:53</span><br>
+<span>那大概需要重新线刷了</span><br>
+<span>看来只能这样了，线刷需要双清吗？</span><br>
+</p><p><b>marxel: </b><br>
+<span>droople 发表于 2019-7-30 22:14</span><br>
+<span>看来只能这样了，线刷需要双清吗？</span><br>
+<span>线刷自带双清效果，有时候甚至是四清</span><br>
+<span>另外你data锁了，不做到四清的话大概刷完了也还是不能用吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>droople: </b><br>
+<span>marxel 发表于 2019-7-30 22:19</span><br>
+<span>线刷自带双清效果，有时候甚至是四清</span><br>
+<span>另外你data锁了，不做到四清的话大概刷完了也还是不能用吧</span><br>
+<span>线刷之后我又卡刷了一遍，目前算是正常了。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850242[0-50]</guid>
+    </item>
+  </channel>
+</rss>

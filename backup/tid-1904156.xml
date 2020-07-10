@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>初学者请教 万能S1</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>初学者请教 万能S1</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:17 +0000</lastBuildDate>
+    <item>
+      <title>初学者请教 万能S1[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904156-1-1.html</link>
+      <description>初学者请教 万能S1&#13;
+ 本帖最后由 csq21701 于 2019-12-19 20:35 编辑 
+
+ 设置订单参数时首先通过配料表设置组分1（金属）、组分2 （黑色）、组分3（白色）的比例。
+&#13;
+设置为0时表示产品不而要该组分。
+&#13;
+单击”确定”键，设置分组比例应能自动化为最简。
+&#13;
+比如设置2：2：0时应自动变为1：1：0。设置2：2：2时，自动变为1：1：1。
+&#13;
+若灌装时三种组分无需按特定顺序供料，单击”无序”键，选择无序供料。
+&#13;
+n=2
+&#13;
+while(n&lt;=2)
+&#13;
+if (((a mod n)=0) and ((b mod n)=0) and ((c mod n)=0) then)
+&#13;
+a=a/n
+&#13;
+b=b/n
+&#13;
+c=c/n
+&#13;
+endif
+&#13;
+n=n+1
+&#13;
+endwhile
+&#13;
+请大老这个程序有问题吗</description>
+      <content:encoded><![CDATA[<p><b>csq21701: </b><br>
+<span>初学者请教 万能S1</span><br>
+<span> 本帖最后由 csq21701 于 2019-12-19 20:35 编辑 </span><br>
+<span> 设置订单参数时首先通过配料表设置组分1（金属）、组分2 （黑色）、组分3（白色）的比例。</span><br>
+<span>设置为0时表示产品不而要该组分。</span><br>
+<span>单击”确定”键，设置分组比例应能自动化为最简。</span><br>
+<span>比如设置2：2：0时应自动变为1：1：0。设置2：2：2时，自动变为1：1：1。</span><br>
+<span>若灌装时三种组分无需按特定顺序供料，单击”无序”键，选择无序供料。</span><br>
+<span>n=2</span><br>
+<span>while(n<=2)</span><br>
+<span>if (((a mod n)=0) and ((b mod n)=0) and ((c mod n)=0) then)</span><br>
+<span>a=a/n</span><br>
+<span>b=b/n</span><br>
+<span>c=c/n</span><br>
+<span>endif</span><br>
+<span>n=n+1</span><br>
+<span>endwhile</span><br>
+<span>请大老这个程序有问题吗</span><br>
+</p><p><b>庄子游: </b><br>
+<span>没有，但是太麻烦了，用辗转相除法解决更好</span><br>
+</p><p><b>脑洞: </b><br>
+<span>有问题，如果你的最大公约数是4，你除一次2就加到3去了，</span><br>
+<span>只能整个无限while，没有公约数跳出，用最小的数，/1，/2，/3那么试过去，不管0</span><br>
+</p><p><b>csq21701: </b><br>
+<span>庄子游 发表于 2019-12-19 20:39</span><br>
+<span>没有，但是太麻烦了，用辗转相除法解决更好</span><br>
+<span>请大佬写一下吧</span><br>
+</p><p><b>csq21701: </b><br>
+<span>脑洞 发表于 2019-12-19 21:25</span><br>
+<span>有问题，如果你的最大公约数是4，你除一次2就加到3去了，</span><br>
+<span>只能整个无限while，没有公约数跳出，用 ...</span><br>
+<span>请大佬写一下吧</span><br>
+</p><p><b>swrrt_11: </b><br>
+<span>空手套代码</span><br>
+</p><p><b>Thtear: </b><br>
+<span>我上小学老师就告诉我了，自己的作业自己做。</span><br>
+</p><p><b>mkx: </b><br>
+<span>都告诉你辗转相除法了，自己搜一下示例代码也大把。。。</span><br>
+</p><p><b>-SLSL-: </b><br>
+<span>12：12：12</span><br>
+</p><p><b>野生菌: </b><br>
+<span>楼主套的一手好代码，google，请</span><br>
+</p><p><b>脑洞: </b><br>
+<span>找个最小非0的数，为a，</span><br>
+<span>for i = i; i<a/2 ; i++</span><br>
+<span>if a mod i == 0, x = a/i，</span><br>
+<span>else continue加上你的if不用改，能通过的话，x就是最大公约数</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904156[0-50]</guid>
+    </item>
+  </channel>
+</rss>

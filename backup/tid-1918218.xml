@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>实在不懂,出租房路由器相关</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>实在不懂,出租房路由器相关</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:34:44 +0000</lastBuildDate>
+    <item>
+      <title>实在不懂,出租房路由器相关[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918218-1-1.html</link>
+      <description>实在不懂,出租房路由器相关&#13;
+11间出租房,一根200m网线.
+&#13;
+买一个路由器挂在走廊就可以了吗?可以的话应该买一个怎样的路由器,网速应该怎么分配?</description>
+      <content:encoded><![CDATA[<p><b>我的貓: </b><br>
+<span>实在不懂,出租房路由器相关</span><br>
+<span>11间出租房,一根200m网线.</span><br>
+<span>买一个路由器挂在走廊就可以了吗?可以的话应该买一个怎样的路由器,网速应该怎么分配?</span><br>
+</p><p><b>傲游: </b><br>
+<span>11间…… 每间一个吧 不然会烦死你</span><br>
+</p><p><b>elflie: </b><br>
+<span>拉条线近自己房，不管别人死活</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>你是房东吗？</span><br>
+</p><p><b>继承权: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1581726-1-1.html</span><br>
+<span>可以参考一下</span><br>
+<span>得看你这十一间房是怎么分布的，一个应该不太好全覆盖，两三个比较好吧。我这边给房东弄的就是一个主路由负责流控限速，然后每层挂一个无线路由当AP。</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>死道友不死贫道，拉根网线进屋</span><br>
+</p><p><b>我的貓: </b><br>
+<span>是房东。。。</span><br>
+</p><p><b>King5268: </b><br>
+<span>淘宝有那种二手中兴的馈线路由，你可以看看，很便宜，就是得自己折腾折腾。</span><br>
+</p><p><b>flymop: </b><br>
+<span>一个人开迅雷能一次干死其他10个</span><br>
+</p><p><b>继承权: </b><br>
+<span>我的貓 发表于 2020-3-11 10:41</span><br>
+<span>是房东。。。</span><br>
+<span>主路由要不要带无线自己用？要的话就买个k2p或新路由刷高恪固件，不需要的话就弄个nr285g足够了。</span><br>
+<span>我这边平时大概要带二三十台设备，限速就设成了8M，你可以放宽些。不过其实200M就算不限速也足够用了，2.4G无线本来也跑不快，就算有人用迅雷下载估计也就能占个20M。</span><br>
+<span>用来当ap的无线路由可以随便些，我是把房东原来挂在每层楼的tp-wr2041n都刷成了lede固件，连续开机几个月都没问题。</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>原来出租屋的网络还有这种模式吗，人均才20M。看来下半年找房子要问清楚是群共享还是单独的。现在租的房子房东不管网络，我自己跑去办的，感觉还不错。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>我的貓: </b><br>
+<span>我这是农村地方,跟城市不能比...今天先弄台路由看行不行,不行再搞.</span><br>
+</p><p><b>粉刷月季: </b><br>
+<span>普通那种路由器应该挺不住吧</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>spiece: </b><br>
+<span> 本帖最后由 spiece 于 2020-3-12 11:38 编辑 </span><br>
+<span>11个房间？我觉得应该找一个12或24口交换机来搞，百兆口就够了。</span><br>
+<span>不过现在年轻人用的都是手机，估计用不上固网，可能还是搞几个AC-AP做热点咯……</span><br>
+</p><p><b>wave14: </b><br>
+<span>能不能覆盖信号好不好根本不是问题</span><br>
+<span>关键是你得买一个带流量控制的好点的路由器</span><br>
+<span>否则后面租客必然天天投诉网络不好</span><br>
+</p><p><b>HGP: </b><br>
+<span>你最好这样弄：</span><br>
+<span>主路由（限速每间房10M带宽）-------交换机---------分路由（各房间独立）</span><br>
+<span>见人用过电力猫方案，用过无线AP中转方案，用过高档单路由方案。</span><br>
+<span>我跟你说，都不稳。</span><br>
+<span>另外，你装监控吗？用的无线还是有线？无线监控头特别吃WIFI。数量多的话，建议用有线。</span><br>
+</p><p><b>gnorz: </b><br>
+<span>tp的ap+ac套餐，买百兆只有2.5gWiFi的面板即可，ac上限制一下速度，顺便还能做ap隔离。</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>管jb的wifi，路由器加交换机用上，每个房间网线甩过去就行了</span><br>
+</p><p><b>mcq_2: </b><br>
+<span> 本帖最后由 mcq_2 于 2020-3-13 21:27 编辑 </span><br>
+<span>spiece 发表于 2020-3-12 10:53</span><br>
+<span>11个房间？我觉得应该找一个12或24口交换机来搞，百兆口就够了。</span><br>
+<span>不过现在年轻人用的都是手机，估计用不上 ...</span><br>
+<span>ap热点死得更快。比较好的方法是用酒店那种，连Wi-Fi后跳转认证页面，认证后即时生成随机密码自动登陆，同时后台记录设备并自动限流。但是不知道具体怎么实现的，大概要什么专用软件。</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>看你资金了</span><br>
+<span>靠谱一点还是H3C商用AC加吸顶AP套餐，带有效果好的QOS的，这样他们因为网络来骚扰你的可能性也很低</span><br>
+</p><p><b>gnorz: </b><br>
+<span>mcq_2 发表于 2020-3-13 21:25</span><br>
+<span>ap热点死得更快。比较好的方法是用酒店那种，连Wi-Fi后跳转认证页面，认证后即时生成随机密码自动登陆，同 ...</span><br>
+<span>行为管理路由器或者交换机，</span><br>
+<span>所以，上TP全家桶就是了，</span><br>
+<span>250大洋的AC100，V4.0</span><br>
+</p><p><b>gnorz: </b><br>
+<span> 本帖最后由 gnorz 于 2020-3-13 21:52 编辑 </span><br>
+<span>不过说回来做一个认证也是一个思路，网络是你提供的，如果有人通过你的网络发表了不当言论的话，先找到的是你，</span><br>
+<span>做一个认证页面，可以增加一些威慑，并留下有效记录。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918218[0-50]</guid>
+    </item>
+  </channel>
+</rss>

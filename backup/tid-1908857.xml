@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[求助]我他妈真是服了戴尔这声卡驱动</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[求助]我他妈真是服了戴尔这声卡驱动</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:49:39 +0000</lastBuildDate>
+    <item>
+      <title>[求助]我他妈真是服了戴尔这声卡驱动[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908857-1-1.html</link>
+      <description>[求助]我他妈真是服了戴尔这声卡驱动&#13;
+把老本子出掉了，打包快递之前准备重做一个系统，这一做就出事
+
+戴尔7559，声卡驱动小问题一直不断，要么喇叭爆音要么耳机声音奇小要么耳机不识别，每次都是卸载驱动或者重做系统，能管一段时间
+
+然后今天这系统一做，果然耳机又不识别了，具体表现为插入耳机时扬声器正常发声，但是耳机没有任何反应，音频设备检测不到，dell audio不显示耳机插入
+
+我尝试过：
+
+重装系统（1903）
+
+删除现有驱动
+
+windows全部更新
+
+官网下载本机型声卡驱动
+
+试用三个版本以上的声卡驱动
+
+更换耳机
+
+重装maxx audio pro
+
+保证waves maxxaudio service自启动
+
+启VacSvc动服务并设置为自启
+
+装win10 1607
+
+中间穿插无数次重启
+
+基本上把能查到的方法全试了一遍，但是全 部 木 大
+
+曾考虑过接口是不是损坏了，但是在今天以前没有耳机孔物理损坏的迹象，一直是正常使用。19年初倒是拆机清过灰，不过和耳机孔在同一块pcb上的usb口正常使用，所以大概不是io小板和主板间接触不良
+
+而且我现在连判断耳机孔能否正常使用的办法都没有
+
+有没有大佬知道该怎么办....实在不行的话只能明天找售后了</description>
+      <content:encoded><![CDATA[<p><b>Herreimu: </b><br>
+<span>[求助]我他妈真是服了戴尔这声卡驱动</span><br>
+<span>把老本子出掉了，打包快递之前准备重做一个系统，这一做就出事</span><br>
+<span>戴尔7559，声卡驱动小问题一直不断，要么喇叭爆音要么耳机声音奇小要么耳机不识别，每次都是卸载驱动或者重做系统，能管一段时间</span><br>
+<span>然后今天这系统一做，果然耳机又不识别了，具体表现为插入耳机时扬声器正常发声，但是耳机没有任何反应，音频设备检测不到，dell audio不显示耳机插入</span><br>
+<span>我尝试过：</span><br>
+<span>重装系统（1903）</span><br>
+<span>删除现有驱动</span><br>
+<span>windows全部更新</span><br>
+<span>官网下载本机型声卡驱动</span><br>
+<span>试用三个版本以上的声卡驱动</span><br>
+<span>更换耳机</span><br>
+<span>重装maxx audio pro</span><br>
+<span>保证waves maxxaudio service自启动</span><br>
+<span>启VacSvc动服务并设置为自启</span><br>
+<span>装win10 1607</span><br>
+<span>中间穿插无数次重启</span><br>
+<span>基本上把能查到的方法全试了一遍，但是全 部 木 大</span><br>
+<span>曾考虑过接口是不是损坏了，但是在今天以前没有耳机孔物理损坏的迹象，一直是正常使用。19年初倒是拆机清过灰，不过和耳机孔在同一块pcb上的usb口正常使用，所以大概不是io小板和主板间接触不良</span><br>
+<span>而且我现在连判断耳机孔能否正常使用的办法都没有</span><br>
+<span>有没有大佬知道该怎么办....实在不行的话只能明天找售后了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>从5点半折腾到现在，洗个澡继续奋斗吧</span><br>
+</p><p><b>maybezp: </b><br>
+<span>如果这是打包准备出掉的本子 不如自刀一下把问题留给下一任</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>耳机孔物理损坏的可能性很大。</span><br>
+</p><p><b>弹幕: </b><br>
+<span>话说我的神🚢是装上驱动不识别耳机，不装驱动p事没有</span><br>
+</p><p><b>qianheng: </b><br>
+<span>硬件正常的话，刷个bios试试</span><br>
+</p><p><b>TDFF: </b><br>
+<span>耳机孔里和插头接触的地方是个有弹性的金属片。如果因为某种原因它卡住了就不能和插头接触了。你拿个牙签或者针之类的东西在里面捅捅。把那个金属片动一动，没准就好了</span><br>
+</p><p><b>litel: </b><br>
+<span>1，升级BIOS到最新。</span><br>
+<span>2，重装win10 1909</span><br>
+<span>3，进系统啥都别装，啥都别调，联网，自动更新让它自己下驱动。装完重启，循环几次直到没有新的更新和驱动。</span><br>
+<span>4，用edge打开douban.fm播放音乐试试。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>你机子硬件问题吧</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>戴尔的声卡驱动其实你可以之际用windows更新推送的那个。如果还有问题，那真的可能是硬件问题。</span><br>
+</p><p><b>Herreimu: </b><br>
+<span> 本帖最后由 Herreimu 于 2020-1-11 09:40 编辑 </span><br>
+<span>更新bios试了试也没用</span><br>
+<span>耳机孔从外面看起来有点内嵌，所以我把小板拆了</span><br>
+<span>结果发现本来就是个斜面设计</span><br>
+<span>只有最外面的这个簧//片能手动调，我去找根报废耳机线测一下接触神他妈簧//片都是敏感词</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>买个便宜的解码二房一体机</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>拿对录线试了下一切接触正常，真是奇了怪了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>我操!!!!!好了!!!!!!!!!</span><br>
+<span>果然是第一个簧//片接触不良的问题，这也太巧了吧!!!!!</span><br>
+</p><p><b>King5268: </b><br>
+<span>恭喜解决~ </span><br>
+</p><p><b>口袋妖怪: </b><br>
+<span>我的老Alienware也有爆音，不知道为啥原因，已经放弃了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908857[0-50]</guid>
+    </item>
+  </channel>
+</rss>

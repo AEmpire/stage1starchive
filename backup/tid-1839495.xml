@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>我觉得wattman需要取消自动重置.</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>我觉得wattman需要取消自动重置.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:47:03 +0000</lastBuildDate>
+    <item>
+      <title>我觉得wattman需要取消自动重置.[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839495-1-1.html</link>
+      <description>我觉得wattman需要取消自动重置.&#13;
+就是取消wattman 休眠,待机自动重置的工具.
+&#13;
+动不动就重置,现在都不会去用这东西就是因为这个瑕疵,我也不知道怎么解决.
+&#13;
+功能再好有什么用呢?
+&#13;
+MSIAB好像也不完善这事情,电压还是全局降压,根本没法用.</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>我觉得wattman需要取消自动重置.</span><br>
+<span>就是取消wattman 休眠,待机自动重置的工具.</span><br>
+<span>动不动就重置,现在都不会去用这东西就是因为这个瑕疵,我也不知道怎么解决.</span><br>
+<span>功能再好有什么用呢?</span><br>
+<span>MSIAB好像也不完善这事情,电压还是全局降压,根本没法用.</span><br>
+</p><p><b>albertfu: </b><br>
+<span>用的overdriveNTool，待机和重启不会重置频率电压设置，休眠禁用了没试过</span><br>
+<span>不是AB那种全局offset式，调用的wattman API</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>albertfu 发表于 2019-6-15 00:11</span><br>
+<span>用的overdriveNTool，待机和重启不会重置频率电压设置，休眠禁用了没试过</span><br>
+<span>不是AB那种全局offset式，调用的 ...</span><br>
+<span>我先康康..</span><br>
+<span>哦~~</span><br>
+<span>需要计划任务..</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>albertfu 发表于 2019-6-15 00:11</span><br>
+<span>用的overdriveNTool，待机和重启不会重置频率电压设置，休眠禁用了没试过</span><br>
+<span>不是AB那种全局offset式，调用的 ...</span><br>
+<span>这个可以,好像改的和wattman不是一个东西.</span><br>
+<span>GPU-Z就可以看出来,不是def那一行的</span><br>
+<span>休眠也不会重置.</span><br>
+</p><p><b>albertfu: </b><br>
+<span>塔奇克马 发表于 2019-6-15 11:38</span><br>
+<span>这个可以,好像改的和wattman不是一个东西.</span><br>
+<span>GPU-Z就可以看出来,不是def那一行的</span><br>
+<span>休眠也不会重置. ...</span><br>
+<span>原来如此，我是当时下载时看什么介绍以为就调用的wattman接口，毕竟可调参数种类都一样</span><br>
+<span>而且不需要建立服务或者计划任务啥的</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>albertfu 发表于 2019-6-15 15:06</span><br>
+<span>原来如此，我是当时下载时看什么介绍以为就调用的wattman接口，毕竟可调参数种类都一样</span><br>
+<span>而且不需要建立 ...</span><br>
+<span>啊?不需要计划任务怎么做到的</span><br>
+<span>OverdriveNTool.exe -p0"1330-1900"</span><br>
+</p><p><b>albertfu: </b><br>
+<span>塔奇克马 发表于 2019-6-15 15:12</span><br>
+<span>啊?不需要计划任务怎么做到的</span><br>
+<span>版本用的0.2.4和0.2.8（对应不同显卡），设置完之后不手动改设置不会掉</span><br>
+<span>我也不知道咋回事，计划任务看了下没有 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839495[0-50]</guid>
+    </item>
+  </channel>
+</rss>

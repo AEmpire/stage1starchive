@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>便宜的大尺寸电视里，那些广告有没有办法通过折腾去掉？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>便宜的大尺寸电视里，那些广告有没有办法通过折腾去掉？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:55:36 +0000</lastBuildDate>
+    <item>
+      <title>便宜的大尺寸电视里，那些广告有没有办法通过折腾去掉？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915988-1-1.html</link>
+      <description>便宜的大尺寸电视里，那些广告有没有办法通过折腾去掉？&#13;
+ 本帖最后由 zlzhcqblf 于 2020-2-27 11:02 编辑 
+
+就是那种三四千的大电视，各家的广告都是什么程度？有没有办法屏蔽掉，比如root，hosts黑名单之类的？
+&#13;
+再顺便问一下，哪家电视能换桌面？</description>
+      <content:encoded><![CDATA[<p><b>zlzhcqblf: </b><br>
+<span>便宜的大尺寸电视里，那些广告有没有办法通过折腾去掉？</span><br>
+<span> 本帖最后由 zlzhcqblf 于 2020-2-27 11:02 编辑 </span><br>
+<span>就是那种三四千的大电视，各家的广告都是什么程度？有没有办法屏蔽掉，比如root，hosts黑名单之类的？</span><br>
+<span>再顺便问一下，哪家电视能换桌面？</span><br>
+</p><p><b>騜: </b><br>
+<span>Pi-hole</span><br>
+</p><p><b>霸道总裁: </b><br>
+<span>你好，没有，电视可折腾程度不比手机。如果无广告是刚需，3-4千选智慧屏，或者加钱东芝6900C</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>霸道总裁 发表于 2020-2-27 10:55</span><br>
+<span>你好，没有，电视可折腾程度不比手机。如果无广告是刚需，3-4千选智慧屏，或者加钱东芝6900C ...</span><br>
+<span>智慧屏三四千的只有55寸</span><br>
+</p><p><b>ulric: </b><br>
+<span>路由器屏蔽呢</span><br>
+</p><p><b>6111212fz: </b><br>
+<span>羊毛出在羊身上</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>请买大尺寸显示器加机顶盒。</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>不插网线没有广告。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>通过路由器屏蔽即可，不过你得先抓到广告地址。</span><br>
+</p><p><b>cdyz: </b><br>
+<span>出厂内置广告了解一下，不联网也能给你开机先来一段</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>adb shell pm uninstall 能卸载吗？</span><br>
+</p><p><b>硬盘删干净了: </b><br>
+<span>有的是写在系统里的，除非你知道这在哪的，否则没办法。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>baiyee: </b><br>
+<span>你米可以电脑无线调试全删了</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>伊可费斯 发表于 2020-2-27 11:13</span><br>
+<span>通过路由器屏蔽即可，不过你得先抓到广告地址。</span><br>
+<span>这个是不是要自己抓包？而且会不会经常换地址</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>baiyee 发表于 2020-2-27 13:44</span><br>
+<span>你米可以电脑无线调试全删了</span><br>
+<span>全部型号都可以吗？删了后会不会自动升级重装</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>会拆电视主控吗？</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>ulric 发表于 2020-2-27 11:03</span><br>
+<span>路由器屏蔽呢</span><br>
+<span>广告网址一直在更新，需要人来维护</span><br>
+<span>义务的终究斗不过拿工资的程序员</span><br>
+</p><p><b>sirlion: </b><br>
+<span>这些广告都是直接写入内部闪存的，联网只负责更新到最新的，也就是不root去掉这个机制的情况下，不联网也会播放一段内置的广告</span><br>
+<span>买电视认准大法</span><br>
+</p><p><b>kulanyee: </b><br>
+<span>索尼有款50寸低价位的电视机，用的不是安卓，必然没广告，好像是3k有找</span><br>
+</p><p><b>淼霆: </b><br>
+<span>小米的能去，路由器里屏蔽几个网址就行</span><br>
+</p><p><b>zqr211: </b><br>
+<span>小米肯定可以 </span><br>
+<span>路由干掉小米电视广告都尼玛可以当卖点了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 8 Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>baiyee: </b><br>
+<span>zlzhcqblf 发表于 2020-2-27 15:56</span><br>
+<span>全部型号都可以吗？删了后会不会自动升级重装</span><br>
+<span>全型号不清楚 我自己吧小米的桌面启动器删了换了当贝 没死灰复燃</span><br>
+</p><p><b>jestime: </b><br>
+<span>ulric 发表于 2020-2-27 11:03</span><br>
+<span>路由器屏蔽呢</span><br>
+<span>然后一直看旧广告</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>baiyee 发表于 2020-2-28 09:06</span><br>
+<span>全型号不清楚 我自己吧小米的桌面启动器删了换了当贝 没死灰复燃</span><br>
+<span>你用的是哪个型号</span><br>
+</p><p><b>欲哭无泪: </b><br>
+<span>有些国产牌子一开始出电视号称无广告 然后自己偷偷摸摸更新 就加了 真的吃屎 老老实实大法吧</span><br>
+</p><p><b>风之道2号: </b><br>
+<span>家里去年买的海信 就开机广告可跳过 其他广告真没见过</span><br>
+</p><p><b>诚子: </b><br>
+<span>买了乐视 淘宝花了50买了个系统刷上去就没广告了</span><br>
+</p><p><b>小ghoul: </b><br>
+<span>亲测小米4a不联网就没有，一直连的广电盒子</span><br>
+</p><p><b>evooil: </b><br>
+<span>我也是小米没联过网没广告就是有点想用小爱同学后来还是忍住了</span><br>
+</p><p><b>Opportunity: </b><br>
+<span> 本帖最后由 Opportunity 于 2020-2-29 22:32 编辑 </span><br>
+<span>https://zhuanlan.zhihu.com/p/108983099</span><br>
+<span>是不是这种方法去广告更靠谱？刚好也快到315了，正是投诉的好时候。</span><br>
+</p><p><b>baiyee: </b><br>
+<span>zlzhcqblf 发表于 2020-2-28 13:57</span><br>
+<span>你用的是哪个型号</span><br>
+<span>55寸4c </span><br>
+</p><p><b>michaelwng: </b><br>
+<span>东芝三四千有65寸的两个型号，好像是6900和5900，其中一个还是分区背光</span><br>
+<span>—— 来自 HUAWEI HLK-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>能root或者有提权漏洞就应该有办法，或者有办法刷修改系统那基本上也有人做。</span><br>
+<span>以前买的乐视S50就有通用的Android漏洞，root掉之后发现广告是下载到一个独立分区里的，于是开机过程加一句把那分区卸载了。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915988[0-50]</guid>
+    </item>
+  </channel>
+</rss>

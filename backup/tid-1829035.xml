@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>软路由硬件</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>软路由硬件</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:50:59 +0000</lastBuildDate>
+    <item>
+      <title>软路由硬件[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1829035-1-1.html</link>
+      <description>软路由硬件&#13;
+家里宽带200M，有看油管需求。现在在用路由器newifi3跑v2ray，速度只有20M能勉强看1080P。试过在电脑上用v2ray速度可以到80M。1.想在路由器端跑满v2ray是不是就得上软路由了？
+
+2.软路由我看可选低功耗CPU那么多，我就这一个需求是不是买个最便宜的D525就够用了呢？
+
+谢谢了</description>
+      <content:encoded><![CDATA[<p><b>flmu: </b><br>
+<span>软路由硬件</span><br>
+<span>家里宽带200M，有看油管需求。现在在用路由器newifi3跑v2ray，速度只有20M能勉强看1080P。试过在电脑上用v2ray速度可以到80M。1.想在路由器端跑满v2ray是不是就得上软路由了？</span><br>
+<span>2.软路由我看可选低功耗CPU那么多，我就这一个需求是不是买个最便宜的D525就够用了呢？</span><br>
+<span>谢谢了</span><br>
+</p><p><b>Litccc: </b><br>
+<span>v2ray最好上软路由，mt7621性能还是不够强，跑酸酸乳还行</span><br>
+</p><p><b>就烦起名字: </b><br>
+<span>转图</span><br>
+<span>那个功能想要快 硬件最好带AES</span><br>
+</p><p><b>flmu: </b><br>
+<span>Litccc 发表于 2019-5-4 11:53</span><br>
+<span>v2ray最好上软路由，mt7621性能还是不够强，跑酸酸乳还行</span><br>
+<span>酸酸乳在我这连20M都不跑到，不如v2ray</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>flmu: </b><br>
+<span>就烦起名字 发表于 2019-5-4 11:55</span><br>
+<span>转图</span><br>
+<span>那个功能想要快 硬件最好带AES</span><br>
+<span>OK，谢谢</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ccen3020: </b><br>
+<span>200M宽带上限也就20M出头吧，怎么能跑80M的，这都600M多了</span><br>
+<span>如果你想跑80M，那可能得用个好点的CPU了，不然光千兆路由就能吃满CPU，更别提还有加密解密了</span><br>
+</p><p><b>flmu: </b><br>
+<span>ccen3020 发表于 2019-5-4 11:57</span><br>
+<span>200M宽带上限也就20M出头吧，怎么能跑80M的，这都600M多了</span><br>
+<span>如果你想跑80M，那可能得用个好点的CPU ...</span><br>
+<span>带宽20M，不是20m/s</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>就烦起名字: </b><br>
+<span>flmu 发表于 2019-5-4 11:57</span><br>
+<span>OK，谢谢</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>其实如果你没有什么额外的需求 比如ikuai的流量控制 应用管理之类的</span><br>
+<span>直接在自己的主机上用虚拟机上个旁路的lede就能很好的实现你需要的事情了 消耗不过是一个核心500MB内存</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>直接在手机电脑上都装个不好吗，路由器上改个名单都麻烦</span><br>
+</p><p><b>flmu: </b><br>
+<span>就烦起名字 发表于 2019-5-4 12:13</span><br>
+<span>其实如果你没有什么额外的需求 比如ikuai的流量控制 应用管理之类的</span><br>
+<span>直接在自己的主机上用虚拟机上个旁路 ...</span><br>
+<span>然而主机不能24H开机呢。</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>flmu: </b><br>
+<span>typeunknown 发表于 2019-5-4 12:15</span><br>
+<span>直接在手机电脑上都装个不好吗，路由器上改个名单都麻烦</span><br>
+<span>电视端要看油管</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>可以试试电视上安装clashA，支持v2</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>flmu: </b><br>
+<span>更新个后续，闲鱼上400块买了个1037U，4G+32G占美的双网口机器，刷上lean的x64固件，速度真香</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>因为酸酸乳这些, 只支持单线程</span><br>
+<span>也就是说需要单核能力强</span><br>
+<span>我用的AMD 200GE</span><br>
+</p><p><b>qwased: </b><br>
+<span>blackeyed 发表于 2019-5-11 23:34</span><br>
+<span>因为酸酸乳这些, 只支持单线程</span><br>
+<span>也就是说需要单核能力强</span><br>
+<span>去年开始就可以多线程了</span><br>
+</p><p><b>ayese: </b><br>
+<span>楼主分享个某宝关键词呗，同样的需求</span><br>
+</p><p><b>Realplayer: </b><br>
+<img src="https://i.loli.net/2019/05/12/5cd6ff27199b7.png" title="https://i.loli.net/2019/05/12/5cd6ff27199b7.png"><br>
+<span>装Windows TPC挂游戏加速器</span><br>
+</p><p><b>refo2613: </b><br>
+<span>aes指令集，学到了</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>flmu: </b><br>
+<span>ayese 发表于 2019-5-12 00:22</span><br>
+<span>楼主分享个某宝关键词呗，同样的需求</span><br>
+<span>根据3楼的CPU图，直接搜CPU型号加双网口，或则CPU型号加工控机。软路由刷机我是在恩山X86版块看的。</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1829035[0-50]</guid>
+    </item>
+  </channel>
+</rss>

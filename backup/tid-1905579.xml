@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>中国移动完成基于鲲鹏920服务器的核心网测试</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>中国移动完成基于鲲鹏920服务器的核心网测试</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:07:45 +0000</lastBuildDate>
+    <item>
+      <title>中国移动完成基于鲲鹏920服务器的核心网测试[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905579-1-1.html</link>
+      <description>中国移动完成基于鲲鹏920服务器的核心网测试&#13;
+12月25日消息，华为基于鲲鹏的端到端4G/5G核心网网络云软硬件完成中国移动内外场测试验收，其中IMS、EPC整机用户容量相对网络云一期有30%以上的提升。本次测试整体方案遵从中国移动NFV/SDN技术标准“三层一域”架构：硬件采用ARM服务器替代x86服务器，采用基于ARM的分布式存储，对虚拟层、MANO、VNF进行ARM适配调优，引入SDN实现站点组网。
+&#13;
+此次测试采用了鲲鹏920处理器，鲲鹏920是华为自研的一颗基于ARM架构的7nm服务器处理器，专为大数据处理以及分布式存储等应用而设计。
+&#13;
+鲲鹏920内建64个内核，主频2.6GH，配对8通道DDR4内存，相比竞品内存带宽提升了46%、总I/O带宽提升66%，网络带宽提升4倍。同时，包括两个100G RoCE端口，支持PCIe Gen4和CCIX。在SPECint基准测试中，鲲鹏920得分超过930分，比行业基准高出近25%，同时功耗降低30%。
+&#13;
+而且鲲鹏920已经逐步在国内落地，10月份，搭载鲲鹏920处理器的1300万亿次高性能计算平台在沈阳落地，12月份，华为官方又被挖出了鲲鹏920台式机主板。
+&#13;
+看来国内去X86化趋势越来越明显了，如果移动网络彻底干掉X86，牙膏厂国内销售额起码下降20%</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>中国移动完成基于鲲鹏920服务器的核心网测试</span><br>
+<span>12月25日消息，华为基于鲲鹏的端到端4G/5G核心网网络云软硬件完成中国移动内外场测试验收，其中IMS、EPC整机用户容量相对网络云一期有30%以上的提升。本次测试整体方案遵从中国移动NFV/SDN技术标准“三层一域”架构：硬件采用ARM服务器替代x86服务器，采用基于ARM的分布式存储，对虚拟层、MANO、VNF进行ARM适配调优，引入SDN实现站点组网。</span><br>
+<span>此次测试采用了鲲鹏920处理器，鲲鹏920是华为自研的一颗基于ARM架构的7nm服务器处理器，专为大数据处理以及分布式存储等应用而设计。</span><br>
+<span>鲲鹏920内建64个内核，主频2.6GH，配对8通道DDR4内存，相比竞品内存带宽提升了46%、总I/O带宽提升66%，网络带宽提升4倍。同时，包括两个100G RoCE端口，支持PCIe Gen4和CCIX。在SPECint基准测试中，鲲鹏920得分超过930分，比行业基准高出近25%，同时功耗降低30%。</span><br>
+<span>而且鲲鹏920已经逐步在国内落地，10月份，搭载鲲鹏920处理器的1300万亿次高性能计算平台在沈阳落地，12月份，华为官方又被挖出了鲲鹏920台式机主板。</span><br>
+<span>看来国内去X86化趋势越来越明显了，如果移动网络彻底干掉X86，牙膏厂国内销售额起码下降20%</span><br>
+</p><p><b>ryuki: </b><br>
+<span>去x86入arm，怎么感觉是从虎口跑到狼穴去了，riscv和mips架构的什么时间用得上啊</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>overflowal: </b><br>
+<span>ryuki 发表于 2019-12-26 12:15</span><br>
+<span>去x86入arm，怎么感觉是从虎口跑到狼穴去了，riscv和mips架构的什么时间用得上啊</span><br>
+<span>—— 来自 Xiaomi Redmi...</span><br>
+<span>你要替换至少要有东西能用啊，现在risc-v都集中在IoT领域，mips死得连路由器都不用了。除了x86,只有arm了，至少arm还可以买断授权。</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ryuki: </b><br>
+<span>overflowal 发表于 2019-12-26 12:22</span><br>
+<span>你要替换至少要有东西能用啊，现在risc-v都集中在IoT领域，mips死得连路由器都不用了。除了x86,只有arm了 ...</span><br>
+<span>mips龙芯都用到桌面上了，再用到服务器上也不奇怪吧。arm就算买断也是旧架构，再出新的不能用那就傻眼了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>自旋: </b><br>
+<span>ryuki 发表于 2019-12-26 12:15</span><br>
+<span>去x86入arm，怎么感觉是从虎口跑到狼穴去了，riscv和mips架构的什么时间用得上啊</span><br>
+<span>—— 来自 Xiaomi Redmi...</span><br>
+<span>龙芯应该快了，前几天的新闻，最新的龙芯已经接近amd的推土机了，明年或者后年可以达到amd两年前的水平，很多场合都够用了。</span><br>
+</p><p><b>66666: </b><br>
+<span>ryuki 发表于 2019-12-27 07:06</span><br>
+<span>mips龙芯都用到桌面上了，再用到服务器上也不奇怪吧。arm就算买断也是旧架构，再出新的不能用那就傻眼了</span><br>
+<span> ...</span><br>
+<span>有指令集永久授权，不能直接用官方IP也有各种通融的办法</span><br>
+</p><p><b>mingminlun: </b><br>
+<span>以后就是出自主架构了吧，反正以后大概率都是完全不同的体系了</span><br>
+<span>—— 来自 samsung SM-G970N, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905579[0-50]</guid>
+    </item>
+  </channel>
+</rss>

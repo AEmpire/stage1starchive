@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有人用BT Sync嘛，来分享文件呀</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有人用BT Sync嘛，来分享文件呀</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:23:53 +0000</lastBuildDate>
+    <item>
+      <title>有人用BT Sync嘛，来分享文件呀[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833470-1-1.html</link>
+      <description>有人用BT Sync嘛，来分享文件呀&#13;
+ 本帖最后由 AolKleinZ 于 2019-6-8 14:34 编辑 
+
+只读密钥 B32ZZ453XI4R4FFLCLESVAZCSIAYIKJAQ
+**** Hidden Message *****
+&#13;
+关于BitTorrent Sync
+&#13;
+      可以参考https://bookfere.com/post/347.html，以及扫盲 BTSync 和 如何让你的 BTsync 客户端使用 DHT 网络
+&#13;
+      我用回2.11版了，既支持DHT又可以选择性同步，2.14版DHT在我这有问题。下载：https://www.lanzous.com/b740284
+&#13;
+如何白嫖Pro版
+&#13;
+      安装时将系统日期调至未来，第一次运行试用Pro后再调回来
+&#13;
+一些设置
+&#13;
+      添加密钥时记得关闭"同步所有"，并选中"搜索DHT网络"
+&#13;
+      http://wx3.sinaimg.cn/large/005Etpinly1g3944zarl7j305n08d74c.jpg      http://wx1.sinaimg.cn/large/005Etpinly1g3944yrs7aj30950ak74i.jpg
+&#13;
+      官方tracker可能被墙了，添加密钥后若找不到节点杀后台重启软件，还是连不上的话设置下代理。
+&#13;
+      推荐使用ZeroTier组建虚拟局域网配合预定义主机，网络ID=83048a06324e2377，预定义主机10.10.10.10:10101
+&#13;
+一些奇怪问题
+&#13;
+      莫名其妙地出现了0B的*.rsls文件，猜测是新版软件产生的占位符同步过来了。可以在.sync目录下IgnoreList文件中添加“*.rsls”和“*.bts”，从而不同步这些文件
+&#13;
+      偶现重启后zerotier连不上服务器的情况，卸载重装试试
+&#13;
+希望在添加文件时做好分类，书籍直接按中图法分类怎么样？不方便分类的直接拖到"个人文件夹"里也是一个选择。
+&#13;
+不想改变自己的目录结构可以使用软链接映射过来，windows下命令为 mklink 
+&#13;
+为防止文件被误删，可以对已完成同步的文件夹设置只读权限，或者借助filelock等软件进行控制
+&#13;
+在使用读写密钥时:
+&#13;
+不要修改已广泛传播及子文件很多的文件夹名称及目录结构
+&#13;
+不要对占位符(*.bts)进行双击以外的操作，包括不限于改名、移动、删除。除非你了解这样做的影响
+&#13;
+建议使用右键菜单"remove from..."删除文件，便于确定删除操作是否会同步到其他用户/设备
+&#13;
+建议仅在新增文件时使用读写密钥，更保险
+&#13;
+已添加80G世界文学扫描版，8G轻小说，22G冻鳗壁纸，2019上半年壁纸战
+&#13;
+看到五个节点了
+&#13;
+http://wx1.sinaimg.cn/large/005Etpinly1g3bgk1xraej30eg06jt8s.jpg</description>
+      <content:encoded><![CDATA[<p><b>AolKleinZ: </b><br>
+<span>有人用BT Sync嘛，来分享文件呀</span><br>
+<span> 本帖最后由 AolKleinZ 于 2019-6-8 14:34 编辑 </span><br>
+<span>只读密钥 B32ZZ453XI4R4FFLCLESVAZCSIAYIKJAQ</span><br>
+<span>**** Hidden Message *****</span><br>
+<span>关于BitTorrent Sync</span><br>
+<span>      可以参考https://bookfere.com/post/347.html，以及扫盲 BTSync 和 如何让你的 BTsync 客户端使用 DHT 网络</span><br>
+<span>      我用回2.11版了，既支持DHT又可以选择性同步，2.14版DHT在我这有问题。下载：https://www.lanzous.com/b740284</span><br>
+<span>如何白嫖Pro版</span><br>
+<span>      安装时将系统日期调至未来，第一次运行试用Pro后再调回来</span><br>
+<span>一些设置</span><br>
+<span>      添加密钥时记得关闭"同步所有"，并选中"搜索DHT网络"</span><br>
+<span>      http://wx3.sinaimg.cn/large/005Etpinly1g3944zarl7j305n08d74c.jpg      http://wx1.sinaimg.cn/large/005Etpinly1g3944yrs7aj30950ak74i.jpg</span><br>
+<span>      官方tracker可能被墙了，添加密钥后若找不到节点杀后台重启软件，还是连不上的话设置下代理。</span><br>
+<span>      推荐使用ZeroTier组建虚拟局域网配合预定义主机，网络ID=83048a06324e2377，预定义主机10.10.10.10:10101</span><br>
+<span>一些奇怪问题</span><br>
+<span>      莫名其妙地出现了0B的*.rsls文件，猜测是新版软件产生的占位符同步过来了。可以在.sync目录下IgnoreList文件中添加“*.rsls”和“*.bts”，从而不同步这些文件</span><br>
+<span>      偶现重启后zerotier连不上服务器的情况，卸载重装试试</span><br>
+<span>希望在添加文件时做好分类，书籍直接按中图法分类怎么样？不方便分类的直接拖到"个人文件夹"里也是一个选择。</span><br>
+<span>不想改变自己的目录结构可以使用软链接映射过来，windows下命令为 mklink </span><br>
+<span>为防止文件被误删，可以对已完成同步的文件夹设置只读权限，或者借助filelock等软件进行控制</span><br>
+<span>在使用读写密钥时:</span><br>
+<span>不要修改已广泛传播及子文件很多的文件夹名称及目录结构</span><br>
+<span>不要对占位符(*.bts)进行双击以外的操作，包括不限于改名、移动、删除。除非你了解这样做的影响</span><br>
+<span>建议使用右键菜单"remove from..."删除文件，便于确定删除操作是否会同步到其他用户/设备</span><br>
+<span>建议仅在新增文件时使用读写密钥，更保险</span><br>
+<span>已添加80G世界文学扫描版，8G轻小说，22G冻鳗壁纸，2019上半年壁纸战</span><br>
+<span>看到五个节点了</span><br>
+<img src="http://wx1.sinaimg.cn/large/005Etpinly1g3bgk1xraej30eg06jt8s.jpg" title="http://wx1.sinaimg.cn/large/005Etpinly1g3bgk1xraej30eg06jt8s.jpg"><br>
+</p><p><b>AolKleinZ: </b><br>
+<span> 本帖最后由 AolKleinZ 于 2019-5-23 21:15 编辑 </span><br>
+<span>分享站</span><br>
+<span>http://www.btsynckeys.com/</span><br>
+<span>http://btsync.org/</span><br>
+<span>http://wherebt.com/blog/2017/blog0418.html</span><br>
+<span>Keys</span><br>
+<span>Kindle伴侣精品书库（中文）</span><br>
+<span>BOC3NIGPF2DOKETOF2FAHXJXE2HF24QWC</span><br>
+<span>Kindle伴侣精品书库（英文）</span><br>
+<span>BZGL26OZ4AFMOYFXJ4WGI4YIG4LOIDA43</span><br>
+<span>2012-2016 经济学人电子杂志资源 </span><br>
+<span>BIBAKKFXPVTFJETXWU7L7SCKQSDYGSBCQ</span><br>
+<span>NHK纪录片</span><br>
+<span>BPOCPRP5TYBYBJDJXHMOZNCHC4QYLANTS</span><br>
+<span>Nature杂志，PDF格式，从2016年6月到最新一期 </span><br>
+<span>BIFJUA263UDPSSERVRR4VT5D2ZSEWMGN</span><br>
+<span>影视资源：每个 Key 都是10T，请先用选择性同步预览之后再选择下载。</span><br>
+<span>BTF54P7OIENHOA6EGRODEEJFPTNT6MU6J</span><br>
+<span>BBNMR7OYSHWHEME57PIEXJBGMTCESA3DL </span><br>
+<span>BD233BBGZGA2OHHAJMQAVSAEQ2BJ6JQZF</span><br>
+<span>B22XVZWW3IZ6A7NQ5UB6JPWMTEI2V7OKY</span><br>
+<span>BHR2523CVVT4NCGIMFSLB22VS4DNCKCWN</span><br>
+<span>书格古籍图书馆，高清PDF古籍善本，中文为主；超过800G</span><br>
+<span>BJLHVKV3NNFXRTVP7D4EZSGB35BXWPKFD</span><br>
+<span>3.6T 岛国艺术</span><br>
+<span>BER6DGAYRZ2SYI6EWEKFTPYUKACSSWYBT</span><br>
+<span>1.5T 霓虹骑兵</span><br>
+<span>BNF3UTBILG67KCL4ZNYTSKZ3RJZEHGZPU</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>我有syn但是btsyn是啥</span><br>
+</p><p><b>南门二: </b><br>
+<span>之前用过，没怎么搞懂</span><br>
+</p><p><b>112zero: </b><br>
+<span>晚上研究研究，分享些前卫摇滚</span><br>
+</p><p><b>京吹病人: </b><br>
+<span>有这空咱琢磨折腾出个pt站来怎么样</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span>这和PT站区别在哪儿</span><br>
+</p><p><b>云梦渊泽: </b><br>
+<span>用过 Syncthing， 看介绍要好一点，这种软件缺一个目录，以后想自己写一个</span><br>
+</p><p><b>AolKleinZ: </b><br>
+<span> 本帖最后由 AolKleinZ 于 2019-6-4 11:26 编辑 </span><br>
+<span>四月和五月的壁纸战按上传者整理好了,1.34G</span><br>
+<span>顺路推荐个下图用的插件ImageAssistant Batch Image Downloader</span><br>
+<span>三月740M 二月398M 一月839M</span><br>
+<span>六月848M</span><br>
+</p><p><b>银岚: </b><br>
+<span>AolKleinZ 发表于 2019-5-23 19:00</span><br>
+<span>四月和五月的壁纸战按上传者整理好了,1.34G</span><br>
+<span>顺路推荐个下图用的插件ImageAssistant Batch Image Dow ...</span><br>
+<span>下了2.11发现完全不会用，但还是好评一下吧</span><br>
+</p><p><b>foxlxr: </b><br>
+<span>这个买过高级版，结果没用几次就放一边了，想要的KEY还是难找</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>joymii: </b><br>
+<span>系统科技有专区的，个人感觉大致是类电驴一样的玩意</span><br>
+</p><p><b>沙漏: </b><br>
+<span>找不到节点</span><br>
+</p><p><b>AolKleinZ: </b><br>
+<span>沙漏 发表于 2019-6-7 09:17</span><br>
+<span>找不到节点</span><br>
+<span>由于中国高考导致中继服务器连接不稳定，试试代理或zerotier吧</span><br>
+</p><p><b>搏击俱乐部: </b><br>
+<span>我记得BT Sync和谐了，这还能用？</span><br>
+</p><p><b>yych0611: </b><br>
+<span>雖然 不知道是啥東西，但是先收藏了，謝謝樓主</span><br>
+</p><p><b>克图格亚: </b><br>
+<span>以前有个论坛下日本u15写真video用过。</span><br>
+</p><p><b>沙漏: </b><br>
+<span> 本帖最后由 沙漏 于 2019-6-7 12:26 编辑 </span><br>
+<span>AolKleinZ 发表于 2019-6-7 10:38</span><br>
+<span>由于中国高考导致中继服务器连接不稳定，试试代理或zerotier吧</span><br>
+<span>zerotier用了，可能是不得法吧。</span><br>
+<span>话说不考虑微力吗</span><br>
+<span>吃了个饭回来发现连上了</span><br>
+<span>—— 來自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>松鼠症候群</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>电驴都死透了吧</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>御众师: </b><br>
+<span>有点儿坑啊，不能选择性同步</span><br>
+</p><p><b>沙漏: </b><br>
+<span>御众师 发表于 2019-6-7 16:04</span><br>
+<span>有点儿坑啊，不能选择性同步</span><br>
+<span>可以，用楼主的版本</span><br>
+<span>—— 來自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>搏击俱乐部 发表于 2019-6-7 10:42</span><br>
+<span>我记得BT Sync和谐了，这还能用？</span><br>
+<span>dht可破之</span><br>
+</p><p><b>PNK: </b><br>
+<span>从另外一个帖子过来的</span><br>
+<span>本来想下80g文学那个，不知道为什么下了几个小时只下下来一堆二次元壁纸，其他的只有空文件夹</span><br>
+<span>滚回去用utorrent了</span><br>
+</p><p><b>AolKleinZ: </b><br>
+<span>沙漏 发表于 2019-6-7 12:05</span><br>
+<span>zerotier用了，可能是不得法吧。</span><br>
+<span>话说不考虑微力吗</span><br>
+<span>微力确实有些很贴心的功能，但好像不支持DHT</span><br>
+<span>还是说我没找到</span><br>
+</p><p><b>AolKleinZ: </b><br>
+<span>御众师 发表于 2019-6-7 16:04</span><br>
+<span>有点儿坑啊，不能选择性同步</span><br>
+<span>您好，2.0之后的版本是支持的呢</span><br>
+</p><p><b>AolKleinZ: </b><br>
+<span> 本帖最后由 AolKleinZ 于 2019-6-8 10:37 编辑 </span><br>
+<span>PNK 发表于 2019-6-7 19:03</span><br>
+<span>从另外一个帖子过来的</span><br>
+<span>本来想下80g文学那个，不知道为什么下了几个小时只下下来一堆二次元壁纸，其他的只有 ...</span><br>
+<span>您好，在添加密钥时开启选择性同步，等目录同步后右键就可以单独下载了</span><br>
+<img src="http://wx1.sinaimg.cn/large/005Etpinly1g3tibikh1jj305p04pt8r.jpg" title="http://wx1.sinaimg.cn/large/005Etpinly1g3tibikh1jj305p04pt8r.jpg"><br>
+<span>祝您食用愉快</span><br>
+</p><p><b>door: </b><br>
+<span>先mark为敬</span><br>
+</p><p><b>沙漏: </b><br>
+<span>AolKleinZ 发表于 2019-6-8 10:34</span><br>
+<span>微力确实有些很贴心的功能，但好像不支持DHT</span><br>
+<span>还是说我没找到</span><br>
+<span>这连接也太玄学了，昨天中午连上一会之后就再没连上</span><br>
+</p><p><b>PNK: </b><br>
+<span>AolKleinZ 发表于 2019-6-8 10:36</span><br>
+<span>您好，在添加密钥时开启选择性同步，等目录同步后右键就可以单独下载了</span><br>
+<span>祝您食用愉快 ...</span><br>
+<span>这个好像是pro版的功能吧，我之前懒得白嫖pro，没有这个选项</span><br>
+<span>多谢了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>一直用来搭建私有云，挺好用的，因为有ddns，所以都是用预定义主机的方式连接</span><br>
+</p><p><b>ThatShaman: </b><br>
+<span>研究了一下午，白嫖pro版，在经历了断网 -> 修改系统时间 ->安装 -> 启动 -> 领取 ->将时间调回 ->最后发现使用时间还是只有30天 之后宣告大失败</span><br>
+<span>主楼上的预定义主机也ping不通 还是选择了挂代理</span><br>
+<span>最后总算是成功了 至于试用到期了怎么办..再说吧</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>记录下 Resilio Sync 的一个坑https://www.v2ex.com/t/610851#reply0</span><br>
+<span>   Sylv · 3 小时 59 分钟前 · 515 次点击</span><br>
+<span>TL;DR</span><br>
+<span>Resilio Sync 在差异同步下仍会重写整个文件，在用于同步类似日志文件这样不断变动的文件时，会导致巨量硬盘写入量。</span><br>
+<span>起因</span><br>
+<span>前几天我无意中使用 DriveDx 查看硬盘 S.M.A.R.T. 信息时发现，我使用了差不多才一年的 MacBook Pro 的 SSD 硬盘写入量竟然高达 180 TB ！按 365 天算，平均每天写入量接近 500 GB。</span><br>
+<span>image-20191018123129542</span><br>
+<span>非常不可思议，因为我并没有主动写入这么多数据量。虽然 MacBook Pro 的 SSD 应该有相当高的写入寿命，但按这疯狂的写入量趋势，我还是怕没过一两年这 SSD 就得出问题。</span><br>
+<span>很快我就通过 iStat Menus 和活动监视器（ Activity Monitor ）发现，造成这疯狂写入量的罪魁祸首就是 Resilio Sync。Resilio Sync 持续不断地以数十 MB/s 的速度往硬盘写入数据，一天的写入量可以达到 1 TB 以上，但是我并没有使用 Resilio Sync 同步这么高的数据量。</span><br>
+<span>我的 Resilio Sync 使用场景</span><br>
+<span>大半年以来，我有二三十台服务器长时间在跑我的一个程序，我一直用 Resilio Sync 来同步这些服务器上此程序使用的配置文件和生成的 CSV 数据文件以及日志文件到我的电脑上，这样可以很方便地管理和维护这么多台服务器，也可以及时获取生成的数据文件，一直都挺满意的。</span><br>
+<span>虽然同步的服务器多，但需要同步的数据量并不高，每台服务器上同步的文件夹总大小一般只有几百 MB，而程序每分钟只会新增几十行数据到 CSV 数据文件和日志文件中，因为 Resilio Sync 支持块级差异同步——只有文件新改动的部分才需要传输，所以几十台服务器总共一直也只有 KB/s 数量级的同步量，一天应该不到 1 GB 的数据量。</span><br>
+<span>那么按这同步量，理论上 Resilio Sync 一天的写入量也只要 1 GB 左右就好了，但是实际上 Resilio Sync 却以上千倍的速度不断地往硬盘写入数据，导致一天能有上 TB 的写入量，和同步量严重不符。</span><br>
+<span>原因</span><br>
+<span>为了找出造成此问题的具体原因，我搜遍了互联网没找到先例，以及尝试了许多现在看来是徒劳的方法，期间的折腾就按下不表，最终被我发现导致这问题的原因是：</span><br>
+<span>Resilio Sync 虽然支持差异同步传输，但是在同步到差异数据后会重写整个文件！</span><br>
+<span>假设服务器上有个 100 MB 的文本文件，之前已经和本地同步好了。现在在文件末尾添加了 1 MB 的数据，Resilio Sync 可以只传输这新增的 1 MB 数据到本地，但是本地在接收到这 1 MB 后，会读取已有的 100 MB 文件加上这 1 MB，重新写一个 101 MB 的文件覆盖原文件，而不是将新的数据直接写入原文件。每次同步完后文件的 inode 编号都会改变，说明文件已经不是同一个文件了，我是这样才发现的。</span><br>
+<span>所以虽然我的同步量很少，但是服务器上生成的数据文件和日志文件有的能涨到上百 MB 大小，而且每分钟都会有新增数据，因此 Resilio Sync 在同步过程中就会不断重写这些大文件，也就导致了每天上 TB 的恐怖写入量。</span><br>
+<span>解决方法</span><br>
+<span>受制于 Resilio Sync 的这个机制，在我这使用场景下其实并没有可以根治的办法，可能 Resilio Sync 就不适合用来同步这种一直会变动的文件，但我目前没找到更好的替代方案。</span><br>
+<span>我唯一能做的就是改程序，将生成的数据文件和日志文件按时间或者大小进行拆分，使得需要不断同步的文件的体积保持在一定大小以下，以此来减少每次重写的数据量。这样更改后效果还是很明显的，Resilio Sync 每天的写入量从 1 TB 多降低到了 100 GB 左右，减少了 90%，虽然和实际同步量比还是很高，但已经在我可接受范围内，再配合上 Resilio Sync 的定时暂停同步功能，可以进一步降低写入量，这样应该在这台电脑淘汰前不会因此导致 SSD 提前寿终正寝了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833470[0-50]</guid>
+    </item>
+  </channel>
+</rss>

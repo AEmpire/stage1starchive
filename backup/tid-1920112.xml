@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于陌生后辈通过QQ推荐加我好友问专业问题这件事</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于陌生后辈通过QQ推荐加我好友问专业问题这件事</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:12:18 +0000</lastBuildDate>
+    <item>
+      <title>关于陌生后辈通过QQ推荐加我好友问专业问题这件事[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920112-1-1.html</link>
+      <description>关于陌生后辈通过QQ推荐加我好友问专业问题这件事&#13;
+昨晚收到一个完全陌生的QQ账号的加好友申请，对面还发消息问能不能打扰一下。
+&#13;
+检查了一下这个账号，不来自任何我已加入的QQ群，申请界面显示来源是QQ号查找，顿时感觉到了信息泄露。
+&#13;
+于是没好气地回复了一句：这号咋找到的？
+&#13;
+结果对面说是QQ推荐的（QQ：你可能认识XX），觉得我是同一所大学的学长（学校是对的），有专业问题想问便加了过来。
+&#13;
+遇到的问题是在虚拟机里运行 CentOS 时网卡不分配 IP 地址。
+&#13;
+之后便就事论事地鼓捣了起来。
+&#13;
+途中发现：
+&#13;
+1. 红帽系发行版是在 /etc/sysconfig/network-scripts/ 目录下写各个网卡的网络配置，他上网查资料，写了，写在了 network-scripts 这个目录文件上（这也许是 vim 能以文件形式打开目录的错）
+&#13;
+2. 写完了配置文件没有保存的自觉（如果保存了反而会发现问题，因为不能改写），再次执行 vi(m) /etc/sysconfig/network-scripts/ 发现自己的修改都没了，十分惊慌……
+&#13;
+3. 使用了名为 vim 的文本编辑器却连怎么保存和退出都不知道，当他敲下 v i m 三个字母（或两个）的时候他知道自己在干什么吗？
+&#13;
+4. 让他按 :q! 结果他按 q:
+&#13;
+5. 说自己没基础想学 Linux，看到京东上销量最高的 CentOS 7.5 系统管理与运维实战就买了啃了……吐槽一上来就讲 netstat 给看懵了，连 vim 是啥都不知道。他说这本书适合 Linux 初学者，我看了下前言说的是适合有一定计算机基础的学习 Linux 的初学者。
+&#13;
+进展到第5点时我问了问他学习 Linux 的目的和期望是啥。他说自己再去鼓捣一下后一整天没新进展了，看来这次网络奇遇也到此为止。
+&#13;
+事后回想起来这次奇遇最魔幻的还不是折腾虚拟机网络问题和教科书一般的 vim 新手样本，而是加好友这一步。
+&#13;
+QQ推荐了，就觉得是X大的学长？
+&#13;
+是X大的学长，就是同一个专业的学长了？（本来都做好了遭遇数学分析和大雾的准备）
+&#13;
+就算加好友了，不做身份和领域筛选就开始问问题？对双方都不好啊！
+&#13;
+你TM没有自己的班级群吗？
+&#13;
+这QQ怎么做到给毫无群关系和通讯录关系的人推荐账号的？
+&#13;
+这QQ怎么可以单方面申请好友后就可以让毫无关系的账号畅通无阻地发消息？
+&#13;
+此刻，微信竟然显得清纯可爱了起来。</description>
+      <content:encoded><![CDATA[<p><b>whzfjk: </b><br>
+<span>关于陌生后辈通过QQ推荐加我好友问专业问题这件事</span><br>
+<span>昨晚收到一个完全陌生的QQ账号的加好友申请，对面还发消息问能不能打扰一下。</span><br>
+<span>检查了一下这个账号，不来自任何我已加入的QQ群，申请界面显示来源是QQ号查找，顿时感觉到了信息泄露。</span><br>
+<span>于是没好气地回复了一句：这号咋找到的？</span><br>
+<span>结果对面说是QQ推荐的（QQ：你可能认识XX），觉得我是同一所大学的学长（学校是对的），有专业问题想问便加了过来。</span><br>
+<span>遇到的问题是在虚拟机里运行 CentOS 时网卡不分配 IP 地址。</span><br>
+<span>之后便就事论事地鼓捣了起来。</span><br>
+<span>途中发现：</span><br>
+<span>1. 红帽系发行版是在 /etc/sysconfig/network-scripts/ 目录下写各个网卡的网络配置，他上网查资料，写了，写在了 network-scripts 这个目录文件上（这也许是 vim 能以文件形式打开目录的错）</span><br>
+<span>2. 写完了配置文件没有保存的自觉（如果保存了反而会发现问题，因为不能改写），再次执行 vi(m) /etc/sysconfig/network-scripts/ 发现自己的修改都没了，十分惊慌……</span><br>
+<span>3. 使用了名为 vim 的文本编辑器却连怎么保存和退出都不知道，当他敲下 v i m 三个字母（或两个）的时候他知道自己在干什么吗？</span><br>
+<span>4. 让他按 :q! 结果他按 q:</span><br>
+<span>5. 说自己没基础想学 Linux，看到京东上销量最高的 CentOS 7.5 系统管理与运维实战就买了啃了……吐槽一上来就讲 netstat 给看懵了，连 vim 是啥都不知道。他说这本书适合 Linux 初学者，我看了下前言说的是适合有一定计算机基础的学习 Linux 的初学者。</span><br>
+<span>进展到第5点时我问了问他学习 Linux 的目的和期望是啥。他说自己再去鼓捣一下后一整天没新进展了，看来这次网络奇遇也到此为止。</span><br>
+<span>事后回想起来这次奇遇最魔幻的还不是折腾虚拟机网络问题和教科书一般的 vim 新手样本，而是加好友这一步。</span><br>
+<span>QQ推荐了，就觉得是X大的学长？</span><br>
+<span>是X大的学长，就是同一个专业的学长了？（本来都做好了遭遇数学分析和大雾的准备）</span><br>
+<span>就算加好友了，不做身份和领域筛选就开始问问题？对双方都不好啊！</span><br>
+<span>你TM没有自己的班级群吗？</span><br>
+<span>这QQ怎么做到给毫无群关系和通讯录关系的人推荐账号的？</span><br>
+<span>这QQ怎么可以单方面申请好友后就可以让毫无关系的账号畅通无阻地发消息？</span><br>
+<span>此刻，微信竟然显得清纯可爱了起来。</span><br>
+</p><p><b>口袋九尾: </b><br>
+<span>根据“朋友的朋友”推荐，然后再看介绍确定是同一专业？</span><br>
+</p><p><b>蓬莱妹红: </b><br>
+<span>应该是你和他有共同学校的好友吧，或者你之前加过学校的辅导员之类的</span><br>
+</p><p><b>jinyang411: </b><br>
+<span>我被加过微信呢，大学的学弟，咨询留学问题。也不知道怎么拿到的我的微信号</span><br>
+</p><p><b>strangerw: </b><br>
+<span>qq每次更新都带一堆这种破功能，建议更新完看看更新内容，没用的全关掉</span><br>
+<span>电脑端给推荐过几次好友，推荐理由一般是一定数量的共同好友，或者是踩过空间之类的</span><br>
+</p><p><b>高斯与格林: </b><br>
+<span>这人也太自来熟了吧，要是我都不一定鸟他</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>我第一次折腾debian，用Vim也是这样的</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>仇绝恨: </b><br>
+<span>最讨厌好友推荐这种功能，上次在淘宝就推荐了给了我阴影的初恋，结果还屏蔽不了建议用TIM，更简洁，不会有这种花里胡哨的功能。</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>这要是考研也就罢了…………这种问题还好意思找陌生人问…………</span><br>
+</p><p><b>两个路人: </b><br>
+<span>LZ你是在校？说不定是你登录IP被记录了呢。信息泄露就是这么流行，说不定你在哪就被企鹅和其嫡系诓掉了信息</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>两个路人 发表于 2020-3-21 19:47</span><br>
+<span>LZ你是在校？说不定是你登录IP被记录了呢。信息泄露就是这么流行，说不定你在哪就被企鹅和其嫡系诓掉了信息 ...</span><br>
+<span>没有，毕业三年了呢</span><br>
+<span>对面只提了大学，也不确定是本科生还是毕业读研了</span><br>
+<span>最迷惑的还是这种事情怎么可能找不到学生群去问？</span><br>
+</p><p><b>mj0017: </b><br>
+<span>LZ真好人...学妹可以教下,学弟丢给他一个自己Google的链接就完了</span><br>
+<span>另外vmware跑linux不都是自动设置网络的么,装过几次都是开箱即用的</span><br>
+</p><p><b>None: </b><br>
+<span> 本帖最后由 匿名 于 2020-3-22 15:07 编辑 </span><br>
+<span>vim真毒瘤,用了nano一切都美好了</span><br>
+</p><p><b>kina: </b><br>
+<span>当年我申请留学的材料被当成乐模板给学弟学妹们做参考，在我没换电话号码的的那几年每年都能收到电话咨询我</span><br>
+</p><p><b>嘲哳的声音: </b><br>
+<span> 本帖最后由 嘲哳的声音 于 2020-3-22 15:19 编辑 </span><br>
+<span>这书根本不是给真初学者看的乱跳技能树的下场</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>结论：vim害人</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>膛线: </b><br>
+<span>“男的女的，先视频看看”</span><br>
+</p><p><b>叹希奇: </b><br>
+<span>大段描述了Linux 问题？？？ 我点进来想看到的是学妹加学长的展开呀。。。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>匿名者 发表于 2020-3-22 14:56</span><br>
+<span>vim真毒瘤,用了nano一切都美好了</span><br>
+<span>2020年了，这坛子竟然还能匿名</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>嘲哳的声音 发表于 2020-3-22 15:15</span><br>
+<span>这书根本不是给真初学者看的乱跳技能树的下场</span><br>
+<span>是的，问了下目的和方向</span><br>
+<span>其实是想走数据科学</span><br>
+<span>听说要部署模型到云平台</span><br>
+<span>那就得先玩转云计算</span><br>
+<span>于是走向了 CentOS 运维</span><br>
+<span>不过命令行什么的熟悉起来还是有必要的</span><br>
+</p><p><b>Nyaaarlathotep: </b><br>
+<span>问题是你还和他聊到了第五点</span><br>
+</p><p><b>yikka: </b><br>
+<span>介绍Linux的书不介绍vim的用法？</span><br>
+</p><p><b>水稳: </b><br>
+<span>关闭推荐朋友啊</span><br>
+<span>都在设置隐私加好友那</span><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版 v2.2.2-alpha</span><br>
+</p><p><b>UCCU1102: </b><br>
+<span>linux新手应该老老实实去看鸟哥的书。</span><br>
+<span>网卡名称这种东西还好有tab补全，不然每次敲这种冗长命令我会疯→ /etc/sysconfig/network-scripts/ifcfg-eth0</span><br>
+</p><p><b>Abba-il-Aeon: </b><br>
+<span>加QQ这个，楼主你已经算好的了，身边大佬遇到你这种情况都是直接拒或拉黑。对不认识不熟悉的根本不鸟</span><br>
+</p><p><b>雪地白狼: </b><br>
+<span>QQ不是可以设置不给自己推荐可能认识的人/不把自己推荐给别人</span><br>
+</p><p><b>kenxin1984: </b><br>
+<span>我讨厌QQ的那个你可能认识的人的功能</span><br>
+<span>我也讨厌centos</span><br>
+<span>windows server不比centos好用？</span><br>
+</p><p><b>神山芥末子: </b><br>
+<span>微信也不可爱吧，微信也有推荐的功能，我之前用qq小号开了个微信小号，没绑手机号，第二天还是第三天，就被推荐到我爸那去了，我？？？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920112[0-50]</guid>
+    </item>
+  </channel>
+</rss>

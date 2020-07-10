@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>《任天堂明星大乱斗 特别版》的图像制作(CEDEC 2019) 全文翻译</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>《任天堂明星大乱斗 特别版》的图像制作(CEDEC 2019) 全文翻译</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:57:07 +0000</lastBuildDate>
+    <item>
+      <title>《任天堂明星大乱斗 特别版》的图像制作(CEDEC 2019) 全文翻译[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857003-1-1.html</link>
+      <description>《任天堂明星大乱斗 特别版》的图像制作(CEDEC 2019) 全文翻译&#13;
+ 本帖最后由 平昭·南宫司卿 于 2019-9-30 22:14 编辑 
+
+没有泥潭的日子真难过中间这段时间刚好日本开CEDEC游戏开发者大会，一如既往4gamer对一些场次有报告可以看
+&#13;
+挑了个大乱斗的翻译了一下，个人觉得还挺有趣的，泥潭开了之后赶紧弄过来（
+&#13;
+主要图是真的多…
+&#13;
+会涉及一些图形制作方面的专业内容，对此认识较浅，翻译仓促，欢迎指正（其实还是图注有货）
+&#13;
+2019年9月6日，游戏开发者大会CEDEC2019第三天，举办了有关《任天堂明星大乱斗 特别版》（以下简称 大乱斗sp）图像制作的演讲——“《任天堂明星大乱斗 特别版》~3D图像绘制”。开发团队中的万代南梦宫工作室的美术设计师池沢宇功，谷口幸宏，负责程序的中村义朗，就大乱斗sp中角色和场地的制作进行了讲解，本文就此进行报道。
+&#13;
+https://wx1.sinaimg.cn/large/0075Lozrgy1g6x15ilmeaj30zk0npnkj.jpg
+&#13;
+http://wx4.sinaimg.cn/large/0075Lozrgy1g6x15jdp6aj30zk0np7wh.jpg图注：从右往左分别为：池沢宇功、谷口幸宏、中村义朗</description>
+      <content:encoded><![CDATA[<p><b>平昭·南宫司卿: </b><br>
+<span>《任天堂明星大乱斗 特别版》的图像制作(CEDEC 2019) 全文翻译</span><br>
+<span> 本帖最后由 平昭·南宫司卿 于 2019-9-30 22:14 编辑 </span><br>
+<span>没有泥潭的日子真难过中间这段时间刚好日本开CEDEC游戏开发者大会，一如既往4gamer对一些场次有报告可以看</span><br>
+<span>挑了个大乱斗的翻译了一下，个人觉得还挺有趣的，泥潭开了之后赶紧弄过来（</span><br>
+<span>主要图是真的多…</span><br>
+<span>会涉及一些图形制作方面的专业内容，对此认识较浅，翻译仓促，欢迎指正（其实还是图注有货）</span><br>
+<span>2019年9月6日，游戏开发者大会CEDEC2019第三天，举办了有关《任天堂明星大乱斗 特别版》（以下简称 大乱斗sp）图像制作的演讲——“《任天堂明星大乱斗 特别版》~3D图像绘制”。开发团队中的万代南梦宫工作室的美术设计师池沢宇功，谷口幸宏，负责程序的中村义朗，就大乱斗sp中角色和场地的制作进行了讲解，本文就此进行报道。</span><br>
+<img src="https://wx1.sinaimg.cn/large/0075Lozrgy1g6x15ilmeaj30zk0npnkj.jpg" title="https://wx1.sinaimg.cn/large/0075Lozrgy1g6x15ilmeaj30zk0npnkj.jpg"><br>
+<span>http://wx4.sinaimg.cn/large/0075Lozrgy1g6x15jdp6aj30zk0np7wh.jpg图注：从右往左分别为：池沢宇功、谷口幸宏、中村义朗</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span> 本帖最后由 平昭·南宫司卿 于 2019-9-30 22:38 编辑 </span><br>
+<span>每个角色不同的呈现方式会产生不公</span><br>
+<span>直至今日也无需多言大乱斗SP是一个“将各种角色击飞的对战型动作游戏”。为了表现这一点，作为监督的樱井政博，在开发初期提出了3个概念，“各种各样的角色同时出现也没有违和感”，“展现出各种各样的场地的魅力”，“FHD/60fps的标准”。池沢表示，对于大乱斗SP这样开发规模庞大的项目来说，这种清楚明了的理念非常有效。</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x17w5tt0j30zk0npqn9.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x17w5tt0j30zk0npqn9.jpg"><br>
+<span>那么该如何实现这些概念呢？首先，关于“各种各样的角色同时出现也没有违和感”这一点，“必须表现一致”是很重要的。</span><br>
+<span>就比如原作形象的火狐和马力欧，火狐的笔触较为写实，每根毛都细致刻画。而另一方面，马力欧则是色彩鲜艳带有夸张成分的角色。这两个角色以这样的姿态在大乱斗的场地中登场，火狐会融入背景难以分辨，而马力欧则相反过于突出。如果这么去对战，对于显眼的马力欧来说是不利的。尤其是大乱斗系列中，惹眼的角色更容易遭到集火。为此，在表现方面让所有角色以公平的状态对战是必要的。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x18fpvmhj30zk0npttn.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x18fpvmhj30zk0npttn.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x18gjrg7j30zk0nphdt.jpg" title="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x18gjrg7j30zk0nphdt.jpg"><br>
+<span>为了实现平等的表现方式，开发团队对“形态变化的平衡”“亮度、饱和度的平衡”“质感、阴影的平衡”进行了调整。</span><br>
+<span>对火狐来说，调整阴影深浅的明暗平衡，减少毛发的信息量，设计上比起对细节变化的描绘更注重轮廓。而对马力欧而言，会在他的工作服的描绘中增加写实的风格，色彩搭配也会向着平常化的氛围去调整。</span><br>
+<span>尽管如此，如果所有角色都完全向一个风格调整也会损失个性。大乱斗sp中，角色要调整到什么程度，具有什么样的个性，是樱井全部对角色一个一个进行监督的。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1a7pt5tj30zk0np7v6.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1a7pt5tj30zk0np7v6.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1a89h3cj30zk0npqs8.jpg" title="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1a89h3cj30zk0npqs8.jpg"><br>
+<span>而在大乱斗sp的开发初期，作为图形制作的立足点，樱井先生提出了一个课题，就是制作“在场地‘战场’上，马力欧和林克对战的2D形象”。池沢先生表示，除了马力欧和林克在体型变化的差异之外，还能确认肤质、布料、皮质、金属等各种各样的质感。而战场这个场地，是大乱斗原创的中立场地，构成简单但包含了所有必要的元素在内，是一个非常合适的课题。</span><br>
+<span>基于这些，制作了以下的2D形象。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1awjuwvj30zk0np7wh.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1awjuwvj30zk0np7wh.jpg"><br>
+<span>本作的图形制作倾力于光线的自然度。为了作参考，也在室外对模型进行拍摄，于此值得注意的是，打到模型帽子部分的蓝色光。这个光线并非只来自于蓝天，还有周遭物体反射的影响，由此而呈现出了蓝色光。但是，在游戏上表现这一点，用迄今为止的渲染方式只能简单地照射蓝色光，表现折射会相对困难一些。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1ck0p9aj30zk0np7wh.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1ck0p9aj30zk0np7wh.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1cu05n2j30zk0np1i3.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1cu05n2j30zk0np1i3.jpg"><br>
+<span>另外也对间接光源进行了强化。间接光源并不只是为了变现角色所处的位置，对表现“各种各样的角色同时出现也没有违和感”也起到很大作用。</span><br>
+<span>皮肤的气色、布料、皮质和金属这些材质的质感也比过去进行了提升，这个方针也是在2D图像的阶段决定的。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1dprzt9j30zk0npe81.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1dprzt9j30zk0npe81.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1dq88ynj30zk0np4if.jpg图注：确定方针后，就进入了3D制作。角色采用了PBR（Physically Based Rendering）着色器制作。因为可以在材质方面对自然光线和质感进行调整，美术师们在苛刻的细节方面也能够轻松满足樱井的期望</span><br>
+<span>http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1f5fv2jj30zk0np4qp.jpg图注：角色光照的光线一览</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1fr1ojtj30zk0npkih.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1fr1ojtj30zk0npkih.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1frjhsjj30zk0np4qp.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1frjhsjj30zk0np4qp.jpg"><br>
+<span>http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1fs0qknj30zk0np4qp.jpg图注：光线反光板效果的补充。大乱斗sp是镜头会剧烈移动的游戏。为此，角色显示变小时，会强化对比来加强辨认度。但是就这么加强会让角色气色显得很差，所以会根据镜头的距离来调整反光板的强弱效果</span><br>
+<span>以“美术”和“游戏”两面来制作场地</span><br>
+<span>接下来是“展现出各种各样的场地的魅力”这点。大乱斗sp的大乱斗模式里之中，103种场地里有不少也是来自以前的作品。对大乱斗sp而言，不破坏原作魅力的同时提升它们的品质是重点。</span><br>
+<span>但是，这只是在“美术”方面。场地制作还要根据“游戏”这一方面，也就是辨识度也是非常重要的。大乱斗中从场地落下就会遭到惩罚，必须能够把握哪里会跌落哪里可以着地。和其他对战格斗游戏相比，落脚点的辨识性会非常重要。</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1hmmdkij30zk0npqiq.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1hmmdkij30zk0npqiq.jpg"><br>
+<span>因此大乱斗sp中，按照远近程度场地分成“远景”“中景”“近景”三个图层进行描绘。越接近近景强调性越强，越容易辨认立足点。另外，角色所站的部分作为“正中线”另行处理。</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1i67pc5j30zk0nphdt.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1i67pc5j30zk0nphdt.jpg"><br>
+<span>根据场地的差异，有些场地中正中线的正后方会配置物体。这种情况下，根据图层间的微妙差异并不能辨识正中线。于是就会强调地板。</span><br>
+<span>比如说，如果是存在机械的场地，会在地板的侧面设置光线，让人能轻松明白哪里是地板。对难以配置光线的场地，通过条纹化等符合原作风格的设计，加强侧面暗度形成对比，都可以让人一眼明白“这里可以站立”。</span><br>
+<img src="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1iv1tmgj30zk0np4qp.jpg" title="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1iv1tmgj30zk0np4qp.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1ivm6mcj30zk0np4qp.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1ivm6mcj30zk0np4qp.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1iw7rl5j30zk0np1kx.jpg图注：强调地板的例子。花了很多细致的功夫，如果没有的话的确是容易让人误判立足点跌落​</span><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1jvryq1j30zk0npkjl.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1jvryq1j30zk0npkjl.jpg"><br>
+<span>http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1jwlu7mj30zk0nphdt.jpg图注：大乱斗的攻防中很重要的版边，设置了光线便于分辨。根据场地的不同，会出现一些略有牵强的“不可思议的光线”来强调</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1kkp8z8j30zk0np7wh.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1kkp8z8j30zk0np7wh.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1kl87exj30zk0np7wh.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1kl87exj30zk0np7wh.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1klned0j30zk0npat2.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1klned0j30zk0npat2.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1kmp3v0j30zk0nptpx.jpg​图注：大乱斗sp的视角在大多情况下是30度，这也是出于辨识性考虑。如果是40度，抓住版边的角色就会被地形所阻挡，也容易对版边距离进行误判</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1myzu0oj30zk0np1kx.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1myzu0oj30zk0np1kx.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1mzivvkj30zk0np1kx.jpg图注：没有采用的提升辨识度的例子。景深让角色看上去迷你化而不采用。近景的色相变化会和原作品世界观风格发生变化因而不采用</span><br>
+<span>演讲者以大乱斗原创场地“战场”为例，介绍了场地制作的要点。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1nuj0bwj30zk0np7wh.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1nuj0bwj30zk0np7wh.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1nvbh4jj30zk0npb29.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1nvbh4jj30zk0npb29.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1nvyxasj30zk0npe81.jpg图注：迄今为止系列中的战场，以“古战场”“杀伐氛围”“高远之地”为概念进行设计，大乱斗sp则追加了“华丽”这一点。场地是不寄托于任何IP的原创场地，以此来表现大乱斗的世界观设计。大乱斗sp也绘制了各种各样场地的艺术设定图，最终制作出了华丽而又具有杀伐氛围的成品</span><br>
+<span>第一点是“制作清晰可见的场所”。大乱斗的场地，是要从正面以及拉远镜头的状态下也能最清楚地看清来制作的。</span><br>
+<span>另外，虽说是架空的世界，但如果场地的物件中古代和中世代混杂配置，就会产生时代混乱的违和感。因而“文化·时代的统一”就是第二个要点。</span><br>
+<span>http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1opipq4j30zk0np7wh.jpg图注：古战场是以“圆”为主题风格的文化来进行设计的</span><br>
+<span>第三点就是“构造”。关于构造有“空间留白”“非对称”“排乱”这三点。“空间留白”是在画面某处刻意留出空白的方法。在画面中想加入很多信息很正常，但太多就会让人感觉冗杂。尤其是战场，塑造成了全方向开阔让人舒适的场地。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1q74sodj30zk0npau2.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1q74sodj30zk0npau2.jpg"><br>
+<span>“非对称”是在自然物体的制作时采用非对称的设计。对称的设计虽然有安定感，但可以使用的地方并不多。古战场在场地制作中虽然对称，但在肉眼所见的外观上则是非对称的。</span><br>
+<span>“排乱”是指在岩石砖块的排列上，不用大小形状相似的物件来构造，而是刻意用大小交错不规则的设计来构建。</span><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1qyho9rj30zk0npto5.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1qyho9rj30zk0npto5.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1qyuh0kj30zk0npnd2.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1qyuh0kj30zk0npnd2.jpg"><br>
+<span>第四点是“光照”。在物件上，要意识到是否为同光源的光线照射，是否有各自的固有颜色，是否有损坏立体感的地方等等。战场在逆光时，只有环境光会让光线较弱，显得单调，因而会设定反光板来照射反射光来表现立体感。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1rxeuhbj30zk0npngq.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1rxeuhbj30zk0npngq.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1rxtsvuj30zk0np7oe.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1rxtsvuj30zk0np7oe.jpg"><br>
+<span>第五点是“针对材质风格的差异”。游戏中，长宽面的制作中，如果都是均一的表面就会给人以工业产品一样的不自然感。于是，要想象这个场地所经历的年代劣化、污化、钝感来进行补充是很有效的。</span><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1svdepbj30zk0np7wh.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1svdepbj30zk0np7wh.jpg"><br>
+<span>http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1svxabgj30zk0np7wh.jpg​图注：为了不产生一样的印象，追加了让一部分的地板凹陷，让能量流过的地板周围一部分颜色发生变化的效果</span><br>
+<span>为了实现FHD/60fps的努力最后中村介绍了“FHD/60fps的标准”这个理念。</span><br>
+<span>大乱斗sp为了角色的辨识度必须要成FHD。镜头拉远时，角色仅以24×39的点阵来描绘，在这种情况下也要让人清楚角色在做什么，因此高解析度是必须的。</span><br>
+<span>另外，中村先生表示，作为对战型动作游戏，考虑到想毫无压力进行毫厘之间的攻防，维持60fps也是如此。</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1u4o7ctj30zk0np7wh.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1u4o7ctj30zk0np7wh.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1u5cfvbj30zk0npaql.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1u5cfvbj30zk0npaql.jpg"><br>
+<span>近来的对战游戏也会让人觉得“FHD/60fps不是很普通吗”，但是对大乱斗sp来说并不是那么简单。在大乱斗sp中，最多8名斗士，场地，道具，辅助模型，宝可梦，特效，UI，最终必杀技和场地的变化等突发的演出，有太多太多要素必须要GPU来处理。</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1uuvpvkj30zk0npe81.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1uuvpvkj30zk0npe81.jpg"><br>
+<span>为了实现FHD/60fps，开发团队采取了什么样的对策呢？</span><br>
+<span>首先一开始，进行了对Nintendo Switch的硬件性能的验证。从樱井先生那里得到指示，原封不动将《任天堂明星大乱斗 for Wii U》移植到Nintendo Swtich上，为了明确“能完成什么程度的挑战”，非常有帮助。</span><br>
+<img src="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1v91duuj30zk0np7o8.jpg" title="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1v91duuj30zk0np7o8.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1v9il5zj30zk0np4lb.jpg图注：即使了解了性能，还要决定GPU负荷的细化部分。斗士的25％，是指画面上存在的斗士的合计数值</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1vvbx9lj30zk0np1kx.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1vvbx9lj30zk0np1kx.jpg"><br>
+<span>http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1vwkm3vj30zk0np7wh.jpg图注：斗士的负荷对策也是必要的。比如说库鲁鲁王，只是画面面积就会造成较大负荷，最初还绘制了背后的披风，更是加重了负荷。于是这点的对策就是不对身体重叠看不见的部分进行描绘</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1wovewuj30zk0npb29.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1wovewuj30zk0npb29.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1wph5s9j30zk0npb29.jpg图注：也有些场地背景是卷轴式，GPU的负荷以乱斗时间经过2分30秒来进行测量。图片为对某个场地的Mipmap进行确认，能够发现背景的负荷（红色部分）较高，因而采取对策</span><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1xfk9mrj30zk0npqkv.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1xfk9mrj30zk0npqkv.jpg"><br>
+<span>http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1xgd86fj30zk0npb29.jpg图注：特效进行了缩小缓冲。马力欧的最后必杀技的特效解析度为FHD的一半，960×540​</span><br>
+<span>采取了这么多各种各样的对策，也还是会有稀少的情况下无法维持60fps。于是在大乱斗sp中，还导入了根据GPU负荷来动态调整解析度的构造。4名斗士情况下的横向解析度，5名以上斗士情况下的纵横解析度会发生5个阶段的变化。</span><br>
+<img src="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1ydgo54j30zk0np4qp.jpg" title="http://wx2.sinaimg.cn/large/0075Lozrgy1g6x1ydgo54j30zk0np4qp.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1ydy9a0j30zk0np4i8.jpg" title="http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1ydy9a0j30zk0np4i8.jpg"><br>
+<img src="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1yeeua0j30zk0np4h8.jpg" title="http://wx1.sinaimg.cn/large/0075Lozrgy1g6x1yeeua0j30zk0np4h8.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1yexexcj30zk0npkg5.jpg" title="http://wx3.sinaimg.cn/large/0075Lozrgy1g6x1yexexcj30zk0npkg5.jpg"><br>
+<span>http://wx4.sinaimg.cn/large/0075Lozrgy1g6x1yfgo7lj30zk0np1ki.jpg图注：樱井先生的理念和实际完成情况的总结。本次演讲也承蒙任天堂和樱井先生的厚意得以实现，池沢先生进行了致谢</span><br>
+<span>如上，汇集各种各样IP角色的大乱斗sp，是因开发者巨大的努力而得以实现的。在游玩时，留意这些角色和场地绘制制作中至臻至细的细节，会有一番新发现。</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span> 本帖最后由 平昭·南宫司卿 于 2019-9-30 22:37 编辑 </span><br>
+<span>顺便年初译过去年CEDEC猛汉王一篇，一直都没往泥潭扔…</span><br>
+<span>《怪物猎人：世界》场景和怪物制作解读（CEDEC 2018）</span><br>
+</p><p><b>RedPig: </b><br>
+<span>新浪源的图片要用http, 用https外链PC网页端看不到图片</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span>RedPig 发表于 2019-9-30 21:49</span><br>
+<span>新浪源的图片要用http, 用https外链PC网页端看不到图片</span><br>
+<span>= =这样吗！我改一下……</span><br>
+</p><p><b>RedPig: </b><br>
+<span>平昭·南宫司卿 发表于 2019-9-30 21:50</span><br>
+<span>= =这样吗！我改一下……</span><br>
+<span>我有时候也忘记了, 本地还有缓存, 自己完全没察觉</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span>RedPig 发表于 2019-9-30 21:52</span><br>
+<span>我有时候也忘记了, 本地还有缓存, 自己完全没察觉</span><br>
+<span>我发现过两分钟就不能编辑了…倒吸一口凉气…</span><br>
+</p><p><b>NF17: </b><br>
+<span>图片多的话直接发微博文章然后泥潭留传送门也行</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span> 本帖最后由 平昭·南宫司卿 于 2019-9-30 22:16 编辑 </span><br>
+<span>虚惊一场，丢人了</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>4gamer的报道比发霉通的咋样？我发现之前我是在发霉通的网站看的，内容基本一致，然后多两篇音乐和压缩的报道……</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span>Aeroblast 发表于 2019-9-30 22:12</span><br>
+<span>4gamer的报道比发霉通的咋样？我发现之前我是在发霉通的网站看的，内容基本一致，然后多两篇音乐和压缩的报 ...</span><br>
+<span>因为反正都是报道别人演讲的内容，要点都是一样的如果为了全的话，cedec有个CEDiL能找到所有的讲座资料https://cedil.cesa.or.jp/</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>平昭·南宫司卿 发表于 2019-9-30 22:19</span><br>
+<span>因为反正都是报道别人演讲的内容，要点都是一样的如果为了全的话，cedec有个CEDiL能找到所有的讲 ...</span><br>
+<span>试着注册了下，只有PPT还是有点难理解的……</span><br>
+<span>不过能稍微多看点也不错了</span><br>
+</p><p><b>lost_恩恩: </b><br>
+<span>他不说我时真没注意过，居然细节到这种程度，樱井真工作狂人</span><br>
+</p><p><b>Buke: </b><br>
+<span>感谢翻译，手机没法加鹅回去记得再加</span><br>
+<span>哎呀妈呀泥潭被塞一个月太难受了</span><br>
+<span>所以泥潭什么时候才能支持markdown，这样排版编辑也怪幸苦的</span><br>
+</p><p><b>grantstage: </b><br>
+<span>这个跟樱井说不注重对战矛盾了吧</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span>grantstage 发表于 2019-9-30 22:44</span><br>
+<span>这个跟樱井说不注重对战矛盾了吧</span><br>
+<span>从x到for已经是在争取让竞技选手也满意了，sp就更不用说了，从机制和平衡调整都是。早期或者说x和之前还能算这游戏不太在乎高深的对战，现在肯定不是的</span><br>
+<span>不过文里面提到的我感觉也没什么冲突的吧</span><br>
+</p><p><b>Bymeoryou: </b><br>
+<span>大乱斗在今年cedec上还有好几篇分享，图形方面的其实这篇不是很详细</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>平昭·南宫司卿: </b><br>
+<span>Bymeoryou 发表于 2019-10-1 10:45</span><br>
+<span>大乱斗在今年cedec上还有好几篇分享，图形方面的其实这篇不是很详细</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, An ...</span><br>
+<span>但图多看着好玩一点…毕竟我也就是个普通玩家，挑就挑我觉得更有趣的…</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857003[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>群晖的DDNS功能将要被限制？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>群晖的DDNS功能将要被限制？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:40:30 +0000</lastBuildDate>
+    <item>
+      <title>群晖的DDNS功能将要被限制？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859594-1-1.html</link>
+      <description>群晖的DDNS功能将要被限制？&#13;
+在隔壁论坛看到的帖子，据说CHH那边也有人反映收到了电信的通知
+&#13;
+https://bbs.tgfcer.com/thread-7903004-1-1.html
+&#13;
+我个人是黑群晖，路由器上挂着花生壳的域名解析，不知道以后会不会也不能用？</description>
+      <content:encoded><![CDATA[<p><b>huaxianyan: </b><br>
+<span>hftrrt 发表于 2019-10-18 15:17</span><br>
+<span>那只有把域名转出去？国内备案必须要租服务器了吧</span><br>
+<span>基本是这样</span><br>
+<span>而且备案的网页如果有大型的改动，需要重新备案，基本就是这样了</span><br>
+</p><p><b>嵐ステリ: </b><br>
+<span>john 发表于 2019-10-18 16:45</span><br>
+<span>所以point就是在于备案？</span><br>
+<span>群晖那边我问了下，对方说QuickConnect是经过备案的，“请放心使用”</span><br>
+<span>这样的话难道我可以域名转QC转wordpress搭个不会被屏蔽的博客了？</span><br>
+</p><p><b>john: </b><br>
+<span>嵐ステリ 发表于 2019-10-19 01:46</span><br>
+<span>这样的话难道我可以域名转QC转wordpress搭个不会被屏蔽的博客了？</span><br>
+<span>你这叫在危险的边缘试探，一般都早卒</span><br>
+</p><p><b>password: </b><br>
+<span>我现在黑裙上配了个脚本 定时查询外网IP 要是变了就发一封通知邮件给自己邮箱</span><br>
+<span>这样不通过DDNS也能知道IP变化 然后隧道连回家</span><br>
+</p><p><b>混饭: </b><br>
+<span>password 发表于 2019-10-19 13:13</span><br>
+<span>我现在黑裙上配了个脚本 定时查询外网IP 要是变了就发一封通知邮件给自己邮箱</span><br>
+<span>这样不通过DDNS也能知道IP变 ...</span><br>
+<span>脚本能分享下吗？最近都不敢开黑群了</span><br>
+</p><p><b>robit: </b><br>
+<span>lotsbiss 发表于 2019-10-18 16:20</span><br>
+<span>小心点吧，我们公司已经触发过一次了</span><br>
+<span> 我们公司Cisco annyconnect 的安装界面是443的，一样被封。现在根本不管你挂出去的是什么，只要浏览器里能显示东西就给你封了。</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>password: </b><br>
+<span>混饭 发表于 2019-10-20 08:25</span><br>
+<span>脚本能分享下吗？最近都不敢开黑群了</span><br>
+<span>脚本不是我写的，网上类似实现有好几个，我试下来这个跑在群晖DSM里没问题</span><br>
+<span>https://qiita.com/R_28/items/8357c6320aec00305358</span><br>
+<span>原说明都是日文的，不过就算不懂日文应该也能理解吧</span><br>
+<span>群晖要安装python3 然后ssh root安装一下pip 并且安装好requests库</span><br>
+<span>最后放在一个独立文件夹配置一个计划任务就行</span><br>
+</p><p><b>混饭: </b><br>
+<span>password 发表于 2019-10-20 10:34</span><br>
+<span>脚本不是我写的，网上类似实现有好几个，我试下来这个跑在群晖DSM里没问题</span><br>
+<span>https://qiita.com/R_28/item ...</span><br>
+<span>谢谢，我去研究下</span><br>
+</p><p><b>eilot: </b><br>
+<span>小野賢章 发表于 2019-10-15 19:48</span><br>
+<span>群晖默认开的是5000端口，应该不要紧吧</span><br>
+<span>但用預設5000，保證撞密碼多到會要關了警告通知...</span><br>
+<span>買回寸第一件事都是轉了預設...之後再開2步，再封區IP</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>我他妈可去你妈的电信了吧,上个月说我没备案DDNS封了我一个IP,好吧,我把DDNS关了,这个月我他妈啥都没开,就又被封了个IP,这尼玛好玩??</span><br>
+</p><p><b>downforce: </b><br>
+<span>finallyeva 发表于 2019-10-21 10:41</span><br>
+<span>我他妈可去你妈的电信了吧,上个月说我没备案DDNS封了我一个IP,好吧,我把DDNS关了,这个月我他妈啥都没开,就 ...</span><br>
+<span>我把华硕路由器自带的ddns关了以后查这个域名还是会解析到我的IP。也许要重启路由器才行？</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>光关ddns不管用吧，dns那边还留着记录呢</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>所以我现在如果直连IP的话也会被封??</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859594[50-100]</guid>
+    </item>
+    <item>
+      <title>群晖的DDNS功能将要被限制？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859594-1-1.html</link>
+      <description>群晖的DDNS功能将要被限制？&#13;
+在隔壁论坛看到的帖子，据说CHH那边也有人反映收到了电信的通知
+&#13;
+https://bbs.tgfcer.com/thread-7903004-1-1.html
+&#13;
+我个人是黑群晖，路由器上挂着花生壳的域名解析，不知道以后会不会也不能用？</description>
+      <content:encoded><![CDATA[<p><b>常一真: </b><br>
+<span>群晖的DDNS功能将要被限制？</span><br>
+<span>在隔壁论坛看到的帖子，据说CHH那边也有人反映收到了电信的通知</span><br>
+<span>https://bbs.tgfcer.com/thread-7903004-1-1.html</span><br>
+<span>我个人是黑群晖，路由器上挂着花生壳的域名解析，不知道以后会不会也不能用？</span><br>
+</p><p><b>YuKin: </b><br>
+<span>几个意思，不让访问家里的NAS么？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>谁知道你家的NAS里放了什么，请备案</span><br>
+</p><p><b>零度可乐: </b><br>
+<span>又开始了吗，padavan上挂着的dnspod会不会受影响</span><br>
+</p><p><b>tclm: </b><br>
+<span>晕啊新买的nas刚一个月……不能退货了呀</span><br>
+</p><p><b>password: </b><br>
+<span>https://www.v2ex.com/t/608821</span><br>
+<span>据说最近开始禁止DDNS了</span><br>
+<span>我昨天赶紧关了</span><br>
+</p><p><b>常一真: </b><br>
+<span>password 发表于 2019-10-15 16:07</span><br>
+<span>https://www.v2ex.com/t/608821</span><br>
+<span>据说最近开始禁止DDNS了</span><br>
+<span>我昨天赶紧关了</span><br>
+<span>看了帖子，有点担心了</span><br>
+<span>我黑群晖上挂着不少服务，当然没有对外，都是自己用的，谁知道到时候会不会被误伤，唉...</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>看了感觉死的都是玩pt被发现开了web的。感觉就是找个借口把你关了</span><br>
+</p><p><b>秘封赛高！: </b><br>
+<span>应该是大流量然后再检测的？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>吓得我赶紧把路由器和群晖的DDNS都关了，还重启了路由器</span><br>
+<span>趴在地上想了下群晖quick connect走私有协议应该没事，以后还是拨回自己家看设备状态吧</span><br>
+</p><p><b>sirlion: </b><br>
+<span>那张纸上写的是违规开设web服务，也就是普通远程ddns没事？</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>用的黑裙，自己买域名，就怕连个人域名业务都变成非法</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>通过Quick Connect访问Synology Drive应该没问题？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>看到有人说，9月份开始，所有使用未经备案的二级域名提供的ddns服务全部封！！！</span><br>
+</p><p><b>乔槁: </b><br>
+<span> 本帖最后由 乔槁 于 2019-10-15 18:09 编辑 </span><br>
+<span>也就是只好用cloudflare这种国外服务了。</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>sirlion 发表于 2019-10-15 17:21</span><br>
+<span>看到有人说，9月份开始，所有使用未经备案的二级域名提供的ddns服务全部封！！！ ...</span><br>
+<span>所以华硕路由器免费给的这种都不行了？</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>露露缇耶: </b><br>
+<span>问了成都的电信说的没有接到有关ddns的通知。所以是上海的地方规定？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>baesystems: </b><br>
+<span>租个VPS转发怎么样？前段时间看到腾讯和阿里的轻量级服务器30/月。</span><br>
+</p><p><b>YuKin: </b><br>
+<span>开机看了一下，还好我菜不会玩，NAS和路由都没开。</span><br>
+</p><p><b>like0036: </b><br>
+<span>昨天发现上不了NAS 回家一看才知道被分了内网IP 10000号打了电话才分回外网IP 瑟瑟发抖。。。</span><br>
+</p><p><b>violind88: </b><br>
+<span>这是开80端口了吧</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>群晖默认开的是5000端口，应该不要紧吧</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>zerotier 可以规避风险么</span><br>
+</p><p><b>baicon: </b><br>
+<span>看了下直接访问ip地址是路由的web页面吓得我直接转了个不存在的内网地址......</span><br>
+</p><p><b>jing86: </b><br>
+<span>jumbleh 发表于 2019-10-15 19:51</span><br>
+<span>zerotier 可以规避风险么</span><br>
+<span>zerotier因为isp识别不到会被限速限流qos的很厉害</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>john: </b><br>
+<span>我爬了一下V2EX，现在是我的解决方案</span><br>
+<span>关了所有的DDNS，留着群晖的quickconnect，据说3322 DDNS是备案过的不要紧，谁吊大可以试试</span><br>
+<span>NAS服务用quickconnect ID完全不受影响，外网跟以前一样直接用</span><br>
+<span>然后发现在外网用mynas.quickconnect.cn会直接在路由器上upnp一个端口出来跳转到公网ip:端口的形式访问，因为最后的地址是IP:端口应该不要紧，quickconnect.cn有备案应该也不要紧</span><br>
+<span>NAS上有一个docker是浏览器，这样就可以用浏览器访问自己家里局域网的所有网页服务，</span><br>
+<span>另外因为可以通过这种方法知道公网IP，所以也可以通过隧道连接到IP钻回家，接着就用内网IP解决</span><br>
+<span>我是不是应该入狱前持续更新</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>有点好奇，电信如何进行端口扫描，5w多个端口挨个扫一遍看哪个开了？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-10-16 01:22 编辑 </span><br>
+<span>楼上的v2ex地址中某楼不是有人打电话咨询了电信的负责人了么，那人的回复是不能有任何弹窗口的web服务（包括各种设备的登陆web页面）。也就是说不开web服务就行？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>3322要验证手机，花生壳更厉害要拍照片，所以没准可能大概应该问题不大吧（</span><br>
+</p><p><b>Benighted: </b><br>
+<span> 本帖最后由 Benighted 于 2019-10-16 07:15 编辑 </span><br>
+<span>すぴぱら 发表于 2019-10-15 22:10</span><br>
+<span>有点好奇，电信如何进行端口扫描，5w多个端口挨个扫一遍看哪个开了？ ...</span><br>
+<span>7层墙自动识别把</span><br>
+</p><p><b>Benighted: </b><br>
+<span>还好我自己只开了一个SSH，owncloud、管理界面、VNC都通过ssh隧道链接</span><br>
+</p><p><b>pluser: </b><br>
+<span>只开了袜子连入和远程桌面服务不知道行不行</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>正规上传手持身份证照片备案啊。</span><br>
+<span>ddns又不是非得国外的。</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>纯情小鸭鸭 发表于 2019-10-15 23:20</span><br>
+<span>楼上的v2ex地址中某楼不是有人打电话咨询了电信的负责人了么，那人的回复是不能有任何弹窗口的web服务（包 ...</span><br>
+<span>你要用群晖的话是不可能不开的，手机app其实都是用web服务开的</span><br>
+<span>除非你全部都用隧道钻回家访问</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>用个毛线花生壳</span><br>
+<span>dnspod有api接口每天次数不要太多直接通过dnspod更新就行了</span><br>
+</p><p><b>黑羽零: </b><br>
+<span>中华人民共和国信息产业部令第33号 第五条了解一下</span><br>
+<span>理论上要是严格解释，你没备案什么互联网对外服务都是不行的，和你用什么域名，IP,端口都没什么关系，没处理到你只不过是电信抓捕手段落后而已</span><br>
+</p><p><b>モナド: </b><br>
+<span>好奇到底是用什么手段发现的，群晖的对外web服务有强制https吗</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>モナド 发表于 2019-10-16 13:17</span><br>
+<span>好奇到底是用什么手段发现的，群晖的对外web服务有强制https吗</span><br>
+<span>可以强制https</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>可以关掉公网的web服务（或其他服务），然后搭个飞机场或∨ρп连上内网进行访问？</span><br>
+</p><p><b>Fury: </b><br>
+<span>坐标魔都，公司和家里的电信宽带都没有外网ip了，啥都干不了</span><br>
+</p><p><b>youta: </b><br>
+<span>Fury 发表于 2019-10-16 13:44</span><br>
+<span>坐标魔都，公司和家里的电信宽带都没有外网ip了，啥都干不了</span><br>
+<span>可以用frp之类的内网穿透，问题是这个算不算触线？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>john: </b><br>
+<span>按现在的说法来看，3322这种备案过的DDNS是没问题的</span><br>
+<span>让子弹再飞一会</span><br>
+</p><p><b>五月病少女: </b><br>
+<span>单位内部网站，没屏蔽外网的，也会被牵连？</span><br>
+<span>按http返回来确定非法web服务怕是误伤会有点多</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>我是购买的阿里云的 .top 域名</span><br>
+<span>然后用阿里云的ddns</span><br>
+<span>top域名实名认证过</span><br>
+<span>使用下来没问题</span><br>
+</p><p><b>youta: </b><br>
+<span>blackeyed 发表于 2019-10-18 06:15</span><br>
+<span>我是购买的阿里云的 .top 域名</span><br>
+<span>然后用阿里云的ddns</span><br>
+<span>+1,但我已经自己阉割，现在挂代理连接了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>hftrrt 发表于 2019-10-15 16:45</span><br>
+<span>用的黑裙，自己买域名，就怕连个人域名业务都变成非法</span><br>
+<span>不备案的域名在国内和非法没什么区别，什么服务都用不了，现在还能解个析，过不久解析都不行了吧</span><br>
+</p><p><b>s-fix: </b><br>
+<span>卧槽，那我自己搭的私有云和home assistant岂不是也算违法了？</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>huaxianyan 发表于 2019-10-18 13:51</span><br>
+<span>不备案的域名在国内和非法没什么区别，什么服务都用不了，现在还能解个析，过不久解析都不行了吧 ...</span><br>
+<span>那只有把域名转出去？国内备案必须要租服务器了吧</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>五月病少女 发表于 2019-10-17 21:56</span><br>
+<span>单位内部网站，没屏蔽外网的，也会被牵连？</span><br>
+<span>按http返回来确定非法web服务怕是误伤会有点多 ...</span><br>
+<span>小心点吧，我们公司已经触发过一次了</span><br>
+</p><p><b>john: </b><br>
+<span>lotsbiss 发表于 2019-10-18 16:20</span><br>
+<span>小心点吧，我们公司已经触发过一次了</span><br>
+<span>所以point就是在于备案？</span><br>
+<span>群晖那边我问了下，对方说QuickConnect是经过备案的，“请放心使用”</span><br>
+<span>改天直接问问电信吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859594[0-50]</guid>
+    </item>
+  </channel>
+</rss>

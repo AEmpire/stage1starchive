@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>论fate的从者设定和OOP(面向对象程序设计)的完美契合</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>论fate的从者设定和OOP(面向对象程序设计)的完美契合</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:34:43 +0000</lastBuildDate>
+    <item>
+      <title>论fate的从者设定和OOP(面向对象程序设计)的完美契合[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860504-1-1.html</link>
+      <description>论fate的从者设定和OOP(面向对象程序设计)的完美契合&#13;
+一开始发到贴吧上的，但感觉还是泥潭码农多点，所以再转到这里水：
+&#13;
+英灵=》class（类）
+&#13;
+servant=》object（对象）
+&#13;
+英灵没有实体，但可以从英灵座上复制一些数据clone一个从者（实例化）因此对象怎么样并不影响英灵类，就算从者死亡（执行析构函数）也影响不到他的类，顶多析构器返回个String给英灵的static成员（从者的经历变成日记供英灵阅读）
+&#13;
+英灵的宝具就是interface（接口）每个英灵类都必须实现一个或多个接口（宝具）
+&#13;
+一个英灵类可以有一个或多个构造器，呆毛只有一个构造器，大狗就有多个（lancer和caster）
+&#13;
+其中却有两个特殊的类：金先生 ：实现了几乎所有接口 ；红茶：自己本身没有实现任何接口 但他却是Object类
+&#13;
+多态：
+&#13;
+Interface Gáe Bolg｛
+&#13;
+/... 各项宝具参数../
+&#13;
+... void Noble Phantasm_RELEASE （String...args)；//突穿死翔之枪
+&#13;
+void Noble Phantasm_RELEASE （String arg)；
+&#13;
+...}
+&#13;
+//大狗的Class
+&#13;
+Class Setanta implement Gáe Bolg {
+&#13;
+Static String []diary=new String;
+&#13;
+@Override
+&#13;
+void Noble Phantasm_RELEASE （String ...args){
+&#13;
+.......
+&#13;
+}
+&#13;
+void Noble Phantasm_RELEASE （String arg){
+&#13;
+.......
+&#13;
+}
+&#13;
+Setanta(){......
+&#13;
+}
+&#13;
+Setanta( String Class){......
+&#13;
+}//Setanta（Caste）召唤法狗 
+&#13;
+...
+&#13;
+}
+&#13;
+补充死棘的接口
+&#13;
+Enum Weapon_Static Rank{
+&#13;
+E,D,C,B,A;
+&#13;
+}
+&#13;
+Interface Gáe Bolg｛
+&#13;
+Final Weapon_Static Rank Static_Rank =B;
+&#13;
+....
+&#13;
+....
+&#13;
+... void Noble Phantasm_RELEASE （String...args);//突穿死翔之枪
+&#13;
+void Noble Phantasm_RELEASE （String arg)；
+&#13;
+｝</description>
+      <content:encoded><![CDATA[<p><b>TCPProtocol: </b><br>
+<span>论fate的从者设定和OOP(面向对象程序设计)的完美契合</span><br>
+<span>一开始发到贴吧上的，但感觉还是泥潭码农多点，所以再转到这里水：</span><br>
+<span>英灵=》class（类）</span><br>
+<span>servant=》object（对象）</span><br>
+<span>英灵没有实体，但可以从英灵座上复制一些数据clone一个从者（实例化）因此对象怎么样并不影响英灵类，就算从者死亡（执行析构函数）也影响不到他的类，顶多析构器返回个String给英灵的static成员（从者的经历变成日记供英灵阅读）</span><br>
+<span>英灵的宝具就是interface（接口）每个英灵类都必须实现一个或多个接口（宝具）</span><br>
+<span>一个英灵类可以有一个或多个构造器，呆毛只有一个构造器，大狗就有多个（lancer和caster）</span><br>
+<span>其中却有两个特殊的类：金先生 ：实现了几乎所有接口 ；红茶：自己本身没有实现任何接口 但他却是Object类</span><br>
+<span>多态：</span><br>
+<span>Interface Gáe Bolg｛</span><br>
+<span>/... 各项宝具参数../</span><br>
+<span>... void Noble Phantasm_RELEASE （String...args)；//突穿死翔之枪</span><br>
+<span>void Noble Phantasm_RELEASE （String arg)；</span><br>
+<span>...}</span><br>
+<span>//大狗的Class</span><br>
+<span>Class Setanta implement Gáe Bolg {</span><br>
+<span>Static String []diary=new String;</span><br>
+<span>@Override</span><br>
+<span>void Noble Phantasm_RELEASE （String ...args){</span><br>
+<span>.......</span><br>
+<span>}</span><br>
+<span>void Noble Phantasm_RELEASE （String arg){</span><br>
+<span>.......</span><br>
+<span>}</span><br>
+<span>Setanta(){......</span><br>
+<span>}</span><br>
+<span>Setanta( String Class){......</span><br>
+<span>}//Setanta（Caste）召唤法狗 </span><br>
+<span>...</span><br>
+<span>}</span><br>
+<span>补充死棘的接口</span><br>
+<span>Enum Weapon_Static Rank{</span><br>
+<span>E,D,C,B,A;</span><br>
+<span>}</span><br>
+<span>Interface Gáe Bolg｛</span><br>
+<span>Final Weapon_Static Rank Static_Rank =B;</span><br>
+<span>....</span><br>
+<span>....</span><br>
+<span>... void Noble Phantasm_RELEASE （String...args);//突穿死翔之枪</span><br>
+<span>void Noble Phantasm_RELEASE （String arg)；</span><br>
+<span>｝</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>宝具就不能单纯地当作asset吗，难道我们有什么场合会只关心具有某某宝具的任意英灵对象？</span><br>
+</p><p><b>绿茶与猫: </b><br>
+<span>呆毛特殊，没有成为英灵。另外也有看门剑圣、杰克那样不是英灵，借个名号出场的。</span><br>
+</p><p><b>mintpie: </b><br>
+<span>fate的从者设定和OOP(面向对象程序设计)的区别：</span><br>
+<span>程序写好了就不能改了</span><br>
+<span>菌哥哥想推翻哪个设定就推翻哪个设定。</span><br>
+</p><p><b>ClampZZZ: </b><br>
+<span>mintpie 发表于 2019-10-21 07:40</span><br>
+<span>fate的从者设定和OOP(面向对象程序设计)的区别：</span><br>
+<span>程序写好了就不能改了</span><br>
+<span>菌哥哥想推翻哪个设定就推翻哪个设 ...</span><br>
+<span>程序写好了也是可以改的。</span><br>
+<span>可以看甲方有没有给过够钱</span><br>
+<span>像我们这种自己给自己公司的就是经常打补丁，打到不想打就refactor</span><br>
+<span>基本还是看钱给没给够哈哈哈</span><br>
+</p><p><b>尼特子很辛苦哟: </b><br>
+<span>有理有据角度清奇</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>wesdrtfg: </b><br>
+<span>实话实说，全角圆括号看的难受…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>wuzhengkai: </b><br>
+<span>能对应不是很正常么。。这种程度的抽象做不出来拿oop这种范式还有啥用</span><br>
+</p><p><b>solaris40: </b><br>
+<span>你这完全就是Java</span><br>
+</p><p><b>TCPProtocol: </b><br>
+<span>//红茶的类// </span><br>
+<span>Class Emiya{</span><br>
+<span>… </span><br>
+<span>Emiya emiya=new Emiya();</span><br>
+<span>Emiya.Unlimited Blade Works unlimited blade works=emiya.new .Unlimited Blade Works(); </span><br>
+<span>Private <T>TSCAN (){ </span><br>
+<span>…. </span><br>
+<span>}</span><br>
+<span>……..</span><br>
+<span>Class Umlauted Blade Works{</span><br>
+<span>Private Object Noble Phantasm;</span><br>
+<span>Private <T> T Gradation Air(T object)A{</span><br>
+<span>Noble Phantasm=object;</span><br>
+<span>} </span><br>
+<span>Private RELEASE{String…chant）{ </span><br>
+<span>…. </span><br>
+<span>}</span><br>
+<span>.... </span><br>
+<span>}</span><br>
+</p><p><b>KafuuEriri: </b><br>
+<span>能不能format一下，强迫症表示看着蛋疼</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>嗯，我之前有类似想法，不过我觉得从都是是clone出来的进程</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860504[0-50]</guid>
+    </item>
+  </channel>
+</rss>

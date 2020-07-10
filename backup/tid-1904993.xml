@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Core1.38v offset+0.05和Core1.43v是一样的吗?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Core1.38v offset+0.05和Core1.43v是一样的吗?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:10:26 +0000</lastBuildDate>
+    <item>
+      <title>Core1.38v offset+0.05和Core1.43v是一样的吗?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904993-1-1.html</link>
+      <description>Core1.38v offset+0.05和Core1.43v是一样的吗?&#13;
+ 本帖最后由 塔奇克马 于 2019-12-23 23:20 编辑 
+
+adaptive+offset
+&#13;
+adaptive-cpu-core-电压:
+&#13;
+最大参考电压,这个是最大电压,会参考这个产生不同的vid.
+&#13;
+比如这个core1.43v,会让avx高负载vid电压到1.36v-1.37v 普通高负载vid到1.32v
+&#13;
+在节能全部开启的情况下.
+&#13;
+RT这两个设置情况下稳定性上面是一样的吗?</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>Core1.38v offset+0.05和Core1.43v是一样的吗?</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-23 23:20 编辑 </span><br>
+<span>adaptive+offset</span><br>
+<span>adaptive-cpu-core-电压:</span><br>
+<span>最大参考电压,这个是最大电压,会参考这个产生不同的vid.</span><br>
+<span>比如这个core1.43v,会让avx高负载vid电压到1.36v-1.37v 普通高负载vid到1.32v</span><br>
+<span>在节能全部开启的情况下.</span><br>
+<span>RT这两个设置情况下稳定性上面是一样的吗?</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>我记得toppc有个视频专门讲过几种电压模式的区别 你可以找找</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>符里宮亜 发表于 2019-12-24 05:33</span><br>
+<span>我记得toppc有个视频专门讲过几种电压模式的区别 你可以找找</span><br>
+<span>这个我刚才看了，adaptive覆盖掉超过睿频倍频的vid，offset把曲线向上抬.前者应该更稳定，但是我短期体验是前者更不稳.</span><br>
+</p><p><b>johnie: </b><br>
+<span>offset的好处是待机时候电压跟vid吧 自己手动电压待机也是这点</span><br>
+<span>虽然一年下来差不过10块钱电费</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>johnie 发表于 2019-12-24 08:19</span><br>
+<span>offset的好处是待机时候电压跟vid吧 自己手动电压待机也是这点</span><br>
+<span>虽然一年下来差不过10块钱电费 ...</span><br>
+<span>因为是offset+所以待机电压会高,没有好处,但是因为adaptive core电压设置更低,所以电压曲线更平,应该更稳定才对啊.</span><br>
+<span>难道我忽略了auto 的 offset浮动电压?</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904993[0-50]</guid>
+    </item>
+  </channel>
+</rss>

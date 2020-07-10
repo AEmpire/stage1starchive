@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[已解决]tachiyomi相关问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[已解决]tachiyomi相关问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:45:21 +0000</lastBuildDate>
+    <item>
+      <title>[已解决]tachiyomi相关问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1829946-1-1.html</link>
+      <description>[已解决]tachiyomi相关问题&#13;
+ 本帖最后由 memphiseme 于 2019-5-8 16:17 编辑 
+
+   之前把部分dmzj失效的漫画迁移到漫画人源了，这样只要用科学上网，不需要改手机的系统语言就能看。
+&#13;
+   今天突然失效了，打开上面隐藏的漫画就提示http error 500 , 看5xx报错推测可能是服务器的问题，不知道是api改了还是我的ip被ban了。
+&#13;
+   有人安装了漫画人源的帮忙测试一下么？测试漫画比如进击的巨人就可以。
+&#13;
+   刚刚在github提交了issue，还没回复。
+&#13;
+------------更新一下，中午因为一些其他问题，把手机双清了，结果收藏的漫画都没了，这次我恢复后发现没更新漫画人的插件没有更新到最新版，目前用的版本是1.2.4，现在是正常的，之前是更新到的1.2.5，总之虽然不知道是什么原因，但是现在ok了，我也懒得升级了。</description>
+      <content:encoded><![CDATA[<p><b>memphiseme: </b><br>
+<span>[已解决]tachiyomi相关问题</span><br>
+<span> 本帖最后由 memphiseme 于 2019-5-8 16:17 编辑 </span><br>
+<span>   之前把部分dmzj失效的漫画迁移到漫画人源了，这样只要用科学上网，不需要改手机的系统语言就能看。</span><br>
+<span>   今天突然失效了，打开上面隐藏的漫画就提示http error 500 , 看5xx报错推测可能是服务器的问题，不知道是api改了还是我的ip被ban了。</span><br>
+<span>   有人安装了漫画人源的帮忙测试一下么？测试漫画比如进击的巨人就可以。</span><br>
+<span>   刚刚在github提交了issue，还没回复。</span><br>
+<span>------------更新一下，中午因为一些其他问题，把手机双清了，结果收藏的漫画都没了，这次我恢复后发现没更新漫画人的插件没有更新到最新版，目前用的版本是1.2.4，现在是正常的，之前是更新到的1.2.5，总之虽然不知道是什么原因，但是现在ok了，我也懒得升级了。</span><br>
+</p><p><b>TR4835: </b><br>
+<span>你的工具正常吗</span><br>
+</p><p><b>memphiseme: </b><br>
+<span>TR4835 发表于 2019-5-8 11:19</span><br>
+<span>你的工具正常吗</span><br>
+<span>你指的工具是科学上网吗？ 我用网页版试了下是可以的，只是tachiyomi里的漫画人插件收藏的漫画打开有问题。</span><br>
+<span>不过电脑和手机的ip应该是不一样的，我手机开的是4g，所以我也不知道是我ip被ban了，还是tachiyomi插件失效了。。</span><br>
+</p><p><b>7七麦: </b><br>
+<span>正常，不过可能是我以前看过，有缓存？</span><br>
+</p><p><b>detao0452: </b><br>
+<span>我这儿漫画人源的巨人能看</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>sandro: </b><br>
+<span>顺路求哪些英文源靠谱</span><br>
+</p><p><b>Zepp: </b><br>
+<span>顺路求巨佬开发manhuagui的插件</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>进击的巨人繁体还是简体？我这里怎么搜不到？用的日本节点能看到海贼王行吗？</span><br>
+</p><p><b>memphiseme: </b><br>
+<span>若荼泱 发表于 2019-5-8 16:11</span><br>
+<span>进击的巨人繁体还是简体？我这里怎么搜不到？用的日本节点能看到海贼王行吗？ ...</span><br>
+<span>用简体搜就可以，已经解决了，更新到主楼上了， 如果用的是酸酸乳的话试试开全局，我之前只把tachiyomi添加到里面，选择绕过局域网和大陆也搜不出，该成全局就可以了。</span><br>
+<span>讨论这个软件的帖子里经常能看到你， 真是热心啊， 这个漫画软件用起来习惯了，就是备份起来稍微麻烦了一些，要是可以像阅读一样，用webdav之类的坚果云备份就好了。</span><br>
+</p><p><b>colohot: </b><br>
+<span>借楼问一下tachiyomi双页漫画切分的正确姿势是什么</span><br>
+<span>特别是有些单双页混排的单页漫画无法完美切分，smart fit模式还是需要从第一页拖动到第二页，没办法像布卡那种看起来直接裁成单页的吗</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>借楼报告一个问题，不知道有没有解决办法。</span><br>
+<span>漫画堆的插件可能有问题，有的能看有的加载不出章节，比如终末的后宫加载不了，终末的后宫玄幻版就可以。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>pzy2222 发表于 2019-10-26 19:47</span><br>
+<span>借楼报告一个问题，不知道有没有解决办法。</span><br>
+<span>漫画堆的插件可能有问题，有的能看有的加载不出章节，比如终末 ...</span><br>
+<span>就你举的这个例子，看了看。Tachiyomi进去提示No chapters found，进网页直接看反而没问题</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>若荼泱 发表于 2019-10-26 20:21</span><br>
+<span>就你举的这个例子，看了看。Tachiyomi进去提示No chapters found，进网页直接看反而没问题 ...</span><br>
+<span>是啊，就是很奇怪为啥网页版能看而这个app就不行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1829946[0-50]</guid>
+    </item>
+  </channel>
+</rss>

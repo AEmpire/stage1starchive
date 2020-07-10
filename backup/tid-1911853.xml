@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>笔记本全功能typec怎么区分电源输出输入？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>笔记本全功能typec怎么区分电源输出输入？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:27:14 +0000</lastBuildDate>
+    <item>
+      <title>笔记本全功能typec怎么区分电源输出输入？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911853-1-1.html</link>
+      <description>笔记本全功能typec怎么区分电源输出输入？&#13;
+笔记本typec支持65w输入
+&#13;
+1，连接typec电源插头可以支持充电
+&#13;
+2，连接苹果LC，苹果设备可以冲3s秒然后断开
+&#13;
+3，连接45w移动电源，显示为笔记本充电，这个移动电源仅有typec输入，也就是笔记本无法给它充
+&#13;
+4，连接18w移动电源，笔记本不充电，移动电源typec输入，但也不充电
+&#13;
+笔记本的全功能typec是不是不能当成c口输出充电设备来用？
+&#13;
+因为之前有一台雷电3的c口不支持电源输入时，可以冲上述的同款移动电源和苹果手机</description>
+      <content:encoded><![CDATA[<p><b>sirlion: </b><br>
+<span>笔记本全功能typec怎么区分电源输出输入？</span><br>
+<span>笔记本typec支持65w输入</span><br>
+<span>1，连接typec电源插头可以支持充电</span><br>
+<span>2，连接苹果LC，苹果设备可以冲3s秒然后断开</span><br>
+<span>3，连接45w移动电源，显示为笔记本充电，这个移动电源仅有typec输入，也就是笔记本无法给它充</span><br>
+<span>4，连接18w移动电源，笔记本不充电，移动电源typec输入，但也不充电</span><br>
+<span>笔记本的全功能typec是不是不能当成c口输出充电设备来用？</span><br>
+<span>因为之前有一台雷电3的c口不支持电源输入时，可以冲上述的同款移动电源和苹果手机</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>笔记本c口输出是基本功能</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>移动电源是只支持输出吧</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>首先pd协议有drp，输入输出都可以同口实现，且tb 和dp集成在type c口上，也是通过pd来做角色切换的。pd供电受电是根据等级来决定方向的，一般来说 笔记本处于中间等级，但是实际上是可以更改的，比如在有外部供电的时候倾向于输出，无外部电源时倾向于输入。你这个情况c2l不能供电是个问题，应该是pd协议握手失败了，且没降到普通的usb5v供电。估计是pd芯片比较弱鸡。</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>用TP试了下，C2L充苹果无问题，不过只有5v档位，因为C口和雷电口都只有5v3A的PD档位</span><br>
+<span>至于用电脑充移动电源....我的紫米带45W PD输出，无论如何都是移动电源给电脑充，而且个人觉得电脑充移动电源是脱裤子放屁，你要充其他的直接用电脑充手机或其他设备就行</span><br>
+</p><p><b>sirlion: </b><br>
+<span>外挂全家脚气 发表于 2020-2-2 10:00</span><br>
+<span>用TP试了下，C2L充苹果无问题，不过只有5v档位，因为C口和雷电口都只有5v3A的PD档位</span><br>
+<span>至于用电脑充移动电源. ...</span><br>
+<span>我的笔记本也支持dc充电，所以我想用dc充的时候pd可以顺便充充充电宝，结果不行</span><br>
+</p><p><b>qyqgpower: </b><br>
+<span>这是带c口笔记本的基本素养吧</span><br>
+</p><p><b>sirlion: </b><br>
+<span>qyqgpower 发表于 2020-2-3 07:15</span><br>
+<span>这是带c口笔记本的基本素养吧</span><br>
+<span>居然可以指定电流走向？这个软件其他笔记本能装么？</span><br>
+<span>PS这两字有点俗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911853[0-50]</guid>
+    </item>
+  </channel>
+</rss>

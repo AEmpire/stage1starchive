@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S1全文RSS源（更新：能看图了！）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>S1全文RSS源（更新：能看图了！）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:19:20 +0000</lastBuildDate>
+    <item>
+      <title>S1全文RSS源（更新：能看图了！）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834226-1-1.html</link>
+      <description>S1全文RSS源（更新：能看图了！）&#13;
+ 本帖最后由 witness-s1 于 2019-6-3 11:45 编辑 
+
+TL; DR
+&#13;
+版面热帖rss源： https://caraba1st.com/fid-{版面ID}.xml 比如 https://caraba1st.com/fid-75.xml 就是外野的全文RSS
+&#13;
+帖子追踪rss源：https://caraba1st.com/tid-{帖子ID}.xml 比如 https://caraba1st.com/tid-636427.xml 就是J20帖子的全文RSS
+&#13;
+帖子的ID和版面的ID都可以通过地址栏获得。
+&#13;
+外野： https://caraba1st.com/fid-75.xml漫区： https://caraba1st.com/fid-6.xml
+&#13;
+八体：https://caraba1st.com/fid-77.xml
+&#13;
+PC： https://caraba1st.com/fid-51.xml
+&#13;
+对于想要只有标题，没有内容的rss源，可以在中间加上title-only
+&#13;
+比如https://caraba1st.com/title-only/fid-75.xml 就是外野的标题rss源。
+&#13;
+06-02：图片功能更新，效果如下
+&#13;
+https://i.loli.net/2019/06/03/5cf491e2e450621078.png
+&#13;
+什么是RSS，什么是全文RSS？关于RSS的介绍可以看这个博客。RSS是一种信息聚合格式，博客作者或者新闻网站的站长以RSS的格式发布自己写的博客或者新闻，然后用户通过RSS的软件订阅这些RSS源。现在的今日头条属于RSS的进化（或者说退化）版本，相对于头条控制所有的频道，RSS能够更自由的添加和删除订阅频道。
+&#13;
+RSS有两种，一种叫做摘要RSS，就是RSS的内容里面只有文章的一小部分内容，大部分内容都需要点到网页上才能查看。另一种叫做全文RSS，不需要点击rss的源网页就能查看，S1的全文RSS属于第二种，会显示帖子的所有内容。
+&#13;
+这个RSS有什么用？
+&#13;
+[*]摸鱼：终端的RSS阅读器很容易伪装成你在看代码／写程序，可以十分隐蔽的刷S1。
+&#13;
+[*]推送：关注你想关注的帖子，等到有更新的时候就会给你推送新的帖子。
+&#13;
+[*]聚合：版面的RSS会帮你聚合最热的帖子，节省你的看贴时间。
+&#13;
+[*]自动化：IFTTT提供很多自动化的Applet，可以根据你的需要打造自己的流程。
+&#13;
+怎么订阅？
+&#13;
+手机版的话推荐Feedly&amp;inoreader，命令行版本的话推荐newsboat
+&#13;
+为什么要做这个聚合？
+&#13;
+主要是想爬一点语料，做一个S1的Bot。同时顺带做了这个聚合的RSS源。
+&#13;
+之后的计划？
+&#13;
+关于RSS源相关的东西我感觉做的差不多了，需要修补的时候可以在这帖子里提意见。等到bot出来之后，做一个网页给**玩。</description>
+      <content:encoded><![CDATA[<p><b>witness-s1: </b><br>
+<span>S1全文RSS源（更新：能看图了！）</span><br>
+<span> 本帖最后由 witness-s1 于 2019-6-3 11:45 编辑 </span><br>
+<span>TL; DR</span><br>
+<span>版面热帖rss源： https://caraba1st.com/fid-{版面ID}.xml 比如 https://caraba1st.com/fid-75.xml 就是外野的全文RSS</span><br>
+<span>帖子追踪rss源：https://caraba1st.com/tid-{帖子ID}.xml 比如 https://caraba1st.com/tid-636427.xml 就是J20帖子的全文RSS</span><br>
+<span>帖子的ID和版面的ID都可以通过地址栏获得。</span><br>
+<span>外野： https://caraba1st.com/fid-75.xml漫区： https://caraba1st.com/fid-6.xml</span><br>
+<span>八体：https://caraba1st.com/fid-77.xml</span><br>
+<span>PC： https://caraba1st.com/fid-51.xml</span><br>
+<span>对于想要只有标题，没有内容的rss源，可以在中间加上title-only</span><br>
+<span>比如https://caraba1st.com/title-only/fid-75.xml 就是外野的标题rss源。</span><br>
+<span>06-02：图片功能更新，效果如下</span><br>
+<img src="https://i.loli.net/2019/06/03/5cf491e2e450621078.png" title="https://i.loli.net/2019/06/03/5cf491e2e450621078.png"><br>
+<span>什么是RSS，什么是全文RSS？关于RSS的介绍可以看这个博客。RSS是一种信息聚合格式，博客作者或者新闻网站的站长以RSS的格式发布自己写的博客或者新闻，然后用户通过RSS的软件订阅这些RSS源。现在的今日头条属于RSS的进化（或者说退化）版本，相对于头条控制所有的频道，RSS能够更自由的添加和删除订阅频道。</span><br>
+<span>RSS有两种，一种叫做摘要RSS，就是RSS的内容里面只有文章的一小部分内容，大部分内容都需要点到网页上才能查看。另一种叫做全文RSS，不需要点击rss的源网页就能查看，S1的全文RSS属于第二种，会显示帖子的所有内容。</span><br>
+<span>这个RSS有什么用？</span><br>
+<span>[*]摸鱼：终端的RSS阅读器很容易伪装成你在看代码／写程序，可以十分隐蔽的刷S1。</span><br>
+<span>[*]推送：关注你想关注的帖子，等到有更新的时候就会给你推送新的帖子。</span><br>
+<span>[*]聚合：版面的RSS会帮你聚合最热的帖子，节省你的看贴时间。</span><br>
+<span>[*]自动化：IFTTT提供很多自动化的Applet，可以根据你的需要打造自己的流程。</span><br>
+<span>怎么订阅？</span><br>
+<span>手机版的话推荐Feedly&inoreader，命令行版本的话推荐newsboat</span><br>
+<span>为什么要做这个聚合？</span><br>
+<span>主要是想爬一点语料，做一个S1的Bot。同时顺带做了这个聚合的RSS源。</span><br>
+<span>之后的计划？</span><br>
+<span>关于RSS源相关的东西我感觉做的差不多了，需要修补的时候可以在这帖子里提意见。等到bot出来之后，做一个网页给**玩。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>手机版推荐inoreader。</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>lawsherman 发表于 2019-5-25 09:53</span><br>
+<span>手机版推荐inoreader。</span><br>
+<span>多谢，加上了。</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span>tracker哥你转生啦</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>这个外野全文的rss还是不好用。昨天订阅一晚上，有100多篇新文章是AKB48专楼的更新，80篇新文章是创造101的更新。对于不追爱抖露的人来讲就是刷屏。要是订阅漫区的话估计全屏都是某女仆的真爱楼更新。</span><br>
+<span>最近外野加上护城河，自带的RSS也关了，楼主能不能做个替代品？@witness-s1 </span><br>
+</p><p><b>witness-s1: </b><br>
+<span>爵士人生 发表于 2019-5-26 09:35</span><br>
+<span>这个外野全文的rss还是不好用。昨天订阅一晚上，有100多篇新文章是AKB48专楼的更新，80篇新文章是创造101的 ...</span><br>
+<span>我在想屏蔽那些大于20页的帖子，如何？</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>witness-s1 发表于 2019-5-26 09:39</span><br>
+<span>我在想屏蔽那些大于20页的帖子，如何？</span><br>
+<span>这个思路应该可以解决长楼更新的霸屏。</span><br>
+<span>有个问题请教一下，评论数小于50的新帖是不是不会被放进去？</span><br>
+</p><p><b>witness-s1: </b><br>
+<span> 本帖最后由 witness-s1 于 2019-5-26 09:57 编辑 </span><br>
+<span>爵士人生 发表于 2019-5-26 09:43</span><br>
+<span>这个思路应该可以解决长楼更新的霸屏。</span><br>
+<span>有个问题请教一下，评论数小于50的新帖是不是不会被放进去？ ...</span><br>
+<span>我把长楼的更新限制到了最新的200个帖子，这样应该就不会刷屏了。</span><br>
+<span>这个更新是根据回帖速度来的，最近一个小时回帖最快的帖子就会放进去。如果帖子不满50楼，那么新的回复会出现在下一次的更新中。这要求RSS阅读器能够跟踪文章的更新，具体实现看你的RSS阅读器而定。</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>另外，泥潭bot训练一天的结果：</span><br>
+<span>TITLE: 有史以来最受你们欢迎的总统不耐烦了</span><br>
+<span>PRED: 建议加班</span><br>
+<span>TITLE: 废医验药个P，这个中医都废了吧，根本就是个毒瘤！</span><br>
+<span>PRED: 豆奶是什么意思</span><br>
+<span>TITLE: 【人人都是INTJ】泥潭大五人格民调</span><br>
+<span>PRED: 貼個自己的結果</span><br>
+<span>TITLE: 村上春树新作公开其父曾是侵华日军:不能忘掉过去</span><br>
+<span>PRED: 精日论坛真好看</span><br>
+<span>TITLE: 猫跑进家里下了3个崽。。。。</span><br>
+<span>PRED: 当然是接盘</span><br>
+<span>TITLE: 体会了一下仅次于生孩子的疼痛</span><br>
+<span>PRED: 有点懵逼</span><br>
+<span>感觉还是有点意思的</span><br>
+</p><p><b>shabee001: </b><br>
+<span>witness-s1 发表于 2019-5-26 10:01</span><br>
+<span>另外，泥潭bot训练一天的结果：</span><br>
+<span>训练出了个巨魔，喷了</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>话说不知道泥潭有些人看得到么，我就这一个小号也只会在这帖子里回帖。不要把所有人都想象成我的马甲好不好，我还没那么闲</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>endlessz: </b><br>
+<span>有意思，持续观察</span><br>
+</p><p><b>灰色的夏天: </b><br>
+<span>可以生成一个只有标题的最新贴吗，帖子下的内容更新了也只显示一次的那种（类似原来官方的）</span><br>
+<span>—— 来自 Google Pixel 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>灰色的夏天 发表于 2019-6-2 08:38</span><br>
+<span>可以生成一个只有标题的最新贴吗，帖子下的内容更新了也只显示一次的那种（类似原来官方的）</span><br>
+<span>—— 来自 G ...</span><br>
+<span>话说只有标题的需求，需要实时么？我现在这个爬虫大概延时有一个小时。</span><br>
+</p><p><b>灰色的夏天: </b><br>
+<span>witness-s1 发表于 2019-6-2 08:57</span><br>
+<span>话说只有标题的需求，需要实时么？我现在这个爬虫大概延时有一个小时。 ...</span><br>
+<span>不需要实时的</span><br>
+</p><p><b>UncleCat: </b><br>
+<img src="https://i.loli.net/2019/06/02/5cf32a71676ad58355.png" title="https://i.loli.net/2019/06/02/5cf32a71676ad58355.png"><br>
+<span>好用，多谢LZ！</span><br>
+<span>顺便问一下thunderbird 有办法显示图片吗</span><br>
+</p><p><b>feolhn: </b><br>
+<span>多谢楼主，试试看</span><br>
+</p><p><b>Prushka: </b><br>
+<span> 本帖最后由 Prushka 于 2019-6-2 10:06 编辑 </span><br>
+<span>这个能处理引用吗？</span><br>
+<span>畜男不是人: </span><br>
+<span>sheshiro 发表于 2019-06-02 07:21:02</span><br>
+<span>又是炸妹帖</span><br>
+<span>在我看来樱桃和那天佳木斯那个司机一样，没有过错但是让人不舒服而已</span><br>
+<span>而别人承认有些女的碰瓷， ...真是强行不舒服 不知道女粉丝多的公众号抽女**的时候有没有考虑过男人舒不舒服。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+<span>现在引用区域和正文混在一起，分不清哪些是引用那些是回复</span><br>
+<span>可以用>标记出引用区域吗</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>求一个码农用win平台rss阅读器啊，摸鱼找不着门路是最难受的</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>灰色的夏天 发表于 2019-6-2 09:04</span><br>
+<span>不需要实时的</span><br>
+<span>那弄好了，https://caraba1st.com/title-only/fid-75.xml 会显示前100个热贴</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>UncleCat 发表于 2019-6-2 09:47</span><br>
+<span>好用，多谢LZ！</span><br>
+<span>顺便问一下thunderbird 有办法显示图片吗</span><br>
+<span>原因是我没有把img标签变成带img的tag（懒得写regex</span><br>
+<span>今天处理完了 @灰色的夏天 的要求，等下有时间处理quote和图片</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>八八八云紫 发表于 2019-6-2 10:10</span><br>
+<span>求一个码农用win平台rss阅读器啊，摸鱼找不着门路是最难受的</span><br>
+<span>楼上用Thunderbird看着不错，需要命令行版本么？</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>witness-s1 发表于 2019-6-2 11:21</span><br>
+<span>楼上用Thunderbird看着不错，需要命令行版本么？</span><br>
+<span>多谢，突然想起foxmail也有rss订阅功能，不过用着是真难受啊</span><br>
+</p><p><b>Prushka: </b><br>
+<span>八八八云紫 发表于 2019-6-2 11:37</span><br>
+<span>多谢，突然想起foxmail也有rss订阅功能，不过用着是真难受啊</span><br>
+<span>本地的有newsflow</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>witness-s1 发表于 2019-6-1 19:12</span><br>
+<span>原因是我没有把img标签变成带img的tag（懒得写regex</span><br>
+<span>今天处理完了 @灰色的夏天 的要求，等下有时间处理qu ...</span><br>
+<span>多谢多谢！</span><br>
+</p><p><b>灰色的夏天: </b><br>
+<span>witness-s1 发表于 2019-6-2 11:09</span><br>
+<span>那弄好了，https://caraba1st.com/title-only/fid-75.xml 会显示前100个热贴</span><br>
+<span>十分感谢！！</span><br>
+</p><p><b>小小陌路人: </b><br>
+<span>为了隐蔽的摸鱼，你们怎么什么都懂</span><br>
+</p><p><b>zievod: </b><br>
+<span>楼主你这个爬虫权限多少</span><br>
+<span>最好是权限低一点的</span><br>
+<span>不然到时候地址外泄 高权限帖子也满世界乱飞了</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>。</span><br>
+<span>zievod 发表于 2019-6-2 15:27</span><br>
+<span>楼主你这个爬虫权限多少</span><br>
+<span>最好是权限低一点的</span><br>
+<span>40，现在权限不是很高的。而且rss那么难用，很难推广开</span><br>
+</p><p><b>witness-s1: </b><br>
+<span> 本帖最后由 witness-s1 于 2019-6-3 11:44 编辑 </span><br>
+<span>UncleCat 发表于 2019-6-2 12:09</span><br>
+<span>多谢多谢！</span><br>
+<span>现在已经支持看帖子里的图片了，目前来源于s1的图片不支持，任何外链图床都支持。</span><br>
+<span>效果：https://i.loli.net/2019/06/03/5cf491e2e450621078.png</span><br>
+<span>不说了，去买营养快线</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>witness-s1 发表于 2019-6-2 19:22</span><br>
+<span>现在已经支持看帖子里的图片了，目前来源于s1的图片不支持，任何外链图床都支持。</span><br>
+<span>效果：</span><br>
+<span>您真是太棒了！</span><br>
+</p><p><b>雨井绫: </b><br>
+<span>witness-s1 发表于 2019-05-26 10:01:29</span><br>
+<span>另外，泥潭bot训练一天的结果：</span><br>
+<span>感觉还是有点意思的这个有点意思，建议深入开发</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span>好评如潮。</span><br>
+<span>不过那个bot真是笑死。</span><br>
+</p><p><b>诗酒剑行: </b><br>
+<span>没文史区的吗</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>诗酒剑行 发表于 2019-6-14 19:38</span><br>
+<span>没文史区的吗</span><br>
+<span>想要的话可以加入～对我来说就改两行代码的事情</span><br>
+</p><p><b>j0n2: </b><br>
+<span> 本帖最后由 j0n2 于 2019-6-17 01:08 编辑 </span><br>
+</p><p><b>witness-s1: </b><br>
+<span>j0n2 发表于 2019-6-15 02:59</span><br>
+<span>有意思，有github吗？</span><br>
+<span>还没，现在绝大部分的回复还不能看（都在回复：我觉得不错），我在想可能半年之后相关的系统会成熟一点。目前是用allennlp做的LSTM模型。</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>witness-s1 发表于 2019-6-2 16:22</span><br>
+<span>40，现在权限不是很高的。而且rss那么难用，很难推广开</span><br>
+<span>爬虫用的号因为频繁抓数据导致二十四小时在线，在线时间和权限会越来越高的吧，如果权限超70是不是应该换个号？</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>游戏区的rss链接报500错了</span><br>
+<span>https://caraba1st.com/fid-4.xml</span><br>
+</p><p><b>luffyzhou: </b><br>
+<span>马克，图有些啊</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>蓝色的风之精灵 发表于 2019-7-11 17:31</span><br>
+<span>游戏区的rss链接报500错了</span><br>
+<span>https://caraba1st.com/fid-4.xml</span><br>
+<span>游戏区的楼太高，导致MongoDB出问题了，我周末改一下。</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>蓝色的风之精灵 发表于 2019-7-11 17:31</span><br>
+<span>游戏区的rss链接报500错了</span><br>
+<span>https://caraba1st.com/fid-4.xml</span><br>
+<span>那啥。。我本来也没爬游戏区的（</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>witness-s1 发表于 2019-7-19 12:22</span><br>
+<span>那啥。。我本来也没爬游戏区的（</span><br>
+<span>谢谢，能否爬一下游戏区</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>蓝色的风之精灵 发表于 2019-7-23 15:49</span><br>
+<span>谢谢，能否爬一下游戏区</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>那啥，弄好了</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>witness-s1 发表于 2019-7-26 15:23</span><br>
+<span>那啥，弄好了</span><br>
+<span>谢谢~</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834226[0-50]</guid>
+    </item>
+  </channel>
+</rss>

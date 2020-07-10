@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>下代XBOX说的那个可变速率着色（VRS），是不是上4K60的底气？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>下代XBOX说的那个可变速率着色（VRS），是不是上4K60的底气？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:58:54 +0000</lastBuildDate>
+    <item>
+      <title>下代XBOX说的那个可变速率着色（VRS），是不是上4K60的底气？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915555-1-1.html</link>
+      <description>下代XBOX说的那个可变速率着色（VRS），是不是上4K60的底气？&#13;
+ 本帖最后由 dumplingpro 于 2020-2-25 13:04 编辑 
+
+NV的20系显卡也有这个功能。
+&#13;
+原理是让画面特定区域真4K，其他区域实际渲染1080甚至720，然后算法拉伸到4K，达到优（缩）化（水）的效果。
+&#13;
+常见的用途是在VR上，搭配眼球追踪，追踪玩家视线，玩家看哪里就高清到哪里，或者视野中心高清，外圈低清。
+&#13;
+用在非VR游戏上，应该也可以像NV那个官图一样，玩家一般注意力都在角色、车辆、敌人上，所以这部分区域真4K，而背景反正没人看用1080凑合一下，从而得到一个理论上的4K 60？
+&#13;
+个人在VR上用过这个技术，根据缩水的范围大小，大概能让显卡压力-50%级别（小派5K，中间高清，两边低清），据说有眼球追踪可以达到75%-85%。
+&#13;
+另外NV最近还搞了个逆向版本VRSS，视野边缘正常渲染，视野中心更高分辨率渲染，然后算法压缩显示出来。
+&#13;
+非VR也有，刺客信条PC版，用摄像头捕捉玩家眼球，用了类似技术。
+&#13;
+不过个人实际在VR上体验，有一个比较麻烦的地方，是高低清区域之间分界线，有时候会比较显眼，不知道怎么处理这个问题。</description>
+      <content:encoded><![CDATA[<p><b>dumplingpro: </b><br>
+<span>下代XBOX说的那个可变速率着色（VRS），是不是上4K60的底气？</span><br>
+<span> 本帖最后由 dumplingpro 于 2020-2-25 13:04 编辑 </span><br>
+<span>NV的20系显卡也有这个功能。</span><br>
+<span>原理是让画面特定区域真4K，其他区域实际渲染1080甚至720，然后算法拉伸到4K，达到优（缩）化（水）的效果。</span><br>
+<span>常见的用途是在VR上，搭配眼球追踪，追踪玩家视线，玩家看哪里就高清到哪里，或者视野中心高清，外圈低清。</span><br>
+<span>用在非VR游戏上，应该也可以像NV那个官图一样，玩家一般注意力都在角色、车辆、敌人上，所以这部分区域真4K，而背景反正没人看用1080凑合一下，从而得到一个理论上的4K 60？</span><br>
+<span>个人在VR上用过这个技术，根据缩水的范围大小，大概能让显卡压力-50%级别（小派5K，中间高清，两边低清），据说有眼球追踪可以达到75%-85%。</span><br>
+<span>另外NV最近还搞了个逆向版本VRSS，视野边缘正常渲染，视野中心更高分辨率渲染，然后算法压缩显示出来。</span><br>
+<span>非VR也有，刺客信条PC版，用摄像头捕捉玩家眼球，用了类似技术。</span><br>
+<span>不过个人实际在VR上体验，有一个比较麻烦的地方，是高低清区域之间分界线，有时候会比较显眼，不知道怎么处理这个问题。</span><br>
+</p><p><b>费老师: </b><br>
+<span>毕竟人眼也就注视焦点</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>N卡那个叫做MRS，Maxwell时加入的功能，4-5年前了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>这个跟棋盘渲染完全不是一个东西的。</span><br>
+<span>可以叠加使用不冲突的。。。</span><br>
+</p><p><b>First_Snow: </b><br>
+<span> 本帖最后由 First_Snow 于 2020-2-25 00:56 编辑 </span><br>
+<span>Digital Foundry做过视频了，开启VRS帧率仅提高4%</span><br>
+<span>目前最好的提升性能的技术是DLSS，不仅比原生4K+TAA画面好还节约38%性能</span><br>
+<span>https://www.youtube.com/watch?v=gpzFX4P1Jow&t=601s</span><br>
+</p><p><b>navarra: </b><br>
+<span>First_Snow 发表于 2020-2-25 00:54</span><br>
+<span>Digital Foundry做过视频了，开启VRS帧率仅提高4%</span><br>
+<span>目前最好的提升性能的技术是DLSS，不仅比原生4K+TAA画面 ...</span><br>
+<span>而且dlss现在已经第二代了，画面更好</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>920619lqy 发表于 2020-2-25 00:38</span><br>
+<span>N卡那个叫做MRS，Maxwell时加入的功能，4-5年前了</span><br>
+<span>这是N卡新的，20系才有。</span><br>
+<span>我用过的VR头盔在用，只有20系才能开。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-2-25 09:36 编辑 </span><br>
+<span>First_Snow 发表于 2020-2-25 00:54</span><br>
+<span>Digital Foundry做过视频了，开启VRS帧率仅提高4%</span><br>
+<span>目前最好的提升性能的技术是DLSS，不仅比原生4K+TAA画面 ...</span><br>
+<span>要看缩水多少，我在VR头盔上，大概可以减半显卡压力（视野中心区域高清，余光区域低清），不过有比较明显的高低清分界线。</span><br>
+<span>NV家的DLSS记得靠的是专门的光追核心效率才高，AMD似乎也没在搞AI，AMD的DLSS不知道效果如何。</span><br>
+</p><p><b>神王西格玛: </b><br>
+<span>navi2相当于5700xt的125%性能，已经接近2080ti，再加上主机优化，上4k 60很正常</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>神王西格玛 发表于 2020-2-25 10:13</span><br>
+<span>navi2相当于5700xt的125%性能，已经接近2080ti，再加上主机优化，上4k 60很正常</span><br>
+<span>那是中低效+优(缩)化(水)，</span><br>
+<span>要是搞点新花样，提高画质就远远不够了。</span><br>
+</p><p><b>神王西格玛: </b><br>
+<span>dumplingpro 发表于 2020-2-25 10:15</span><br>
+<span>那是中低效+优(缩)化(水)，</span><br>
+<span>要是搞点新花样，提高画质就远远不够了。</span><br>
+<span>恰恰相反</span><br>
+<span>战神完爆所有当时pc画面，实际上只在480级别硬件上实现</span><br>
+</p><p><b>铅笔: </b><br>
+<span>说起来，xsx也没说要支持vr</span><br>
+</p><p><b>First_Snow: </b><br>
+<span>dumplingpro 发表于 2020-2-25 09:29</span><br>
+<span>要看缩水多少，我在VR头盔上，大概可以减半显卡压力（视野中心区域高清，余光区域低清），不过有比较明显 ...</span><br>
+<span>在VR下那效果还挺好的，不过玩VR毕竟还是少数，DLSS必须要有Tensor Core才能计算，目前DLSS 2.0的效果已经非常厉害了，AMD image sharpening大体上只是一个锐化滤镜，比起DLSS只计算低分辨率再通过deep learning upscale到4K就相形见绌了，而且DLSS在过去一年进步巨大，是一项潜力很大的技术。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>神王西格玛 发表于 2020-2-25 10:17</span><br>
+<span>恰恰相反</span><br>
+<span>战神完爆所有当时pc画面，实际上只在480级别硬件上实现</span><br>
+<span>完爆个头，插到大屏幕上坐远点效果才好，可惜家里人要用只能偶尔插，只好插在显示器上玩，在眼屏距离更近的屏幕上，明显看到糙。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>First_Snow 发表于 2020-2-25 10:53</span><br>
+<span>在VR下那效果还挺好的，不过玩VR毕竟还是少数，DLSS必须要有Tensor Core才能计算，目前DLSS 2.0的效果已 ...</span><br>
+<span>是的，VR效果好，是因为玩家看哪里是固定的（即使没有眼球跟踪，人也是向前看居多）。</span><br>
+<span>但大屏幕玩家看哪里就不知道了（非VR也有，刺客信条PC版，用摄像头捕捉玩家眼球，一般人没这个设备。）</span><br>
+</p><p><b>神王西格玛: </b><br>
+<span>dumplingpro 发表于 2020-2-25 10:54</span><br>
+<span>完爆个头，插到大屏幕上坐远点效果才好，可惜家里人要用只能偶尔插，只好插在显示器上玩，在眼屏距离更近 ...</span><br>
+<span>就雪地那几个场景物理效果就完爆现有所有PC引擎</span><br>
+<span>我就是在27寸4K显示器（EA275UHD）上玩的。我的PC显卡是2080ti。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-2-25 11:20 编辑 </span><br>
+<span>神王西格玛 发表于 2020-2-25 10:59</span><br>
+<span>就雪地那几个场景物理效果就完爆现有所有PC引擎</span><br>
+<span>我就是在27寸4K显示器（EA275UHD）上玩的。我的PC显卡是2 ...</span><br>
+<span>也许……是我没仔细看？ </span><br>
+<span>当时媒体关注什么一镜到底的东西，没感觉画质惊艳没特别关注，就普普通通的砍过去，甚至都没通关。</span><br>
+<span>又或者我是晕3D体质，走路必须到处看，不是一直被角色吸引注意力，就看着贴图糙了？</span><br>
+<span>也有可能那段时间口味比较高？那段时间正好跟老滚VR PC版同期，正在折腾画质MOD，搭配VR，拉高了口味？ 至少我觉得相比老滚中档的画质MOD没有太大差别，对比高档（容易出毛病）的级别有差距。</span><br>
+</p><p><b>MikePJ: </b><br>
+<span>dumplingpro 发表于 2020-2-25 11:07</span><br>
+<span> 也许……是我没仔细看？当时媒体关注什么一镜到底的东西，没感觉画质惊艳没特别关注，就普普通通的砍过 ...</span><br>
+<span>可不能细看</span><br>
+<span>仔细看的话你会发现：斧子砍到墙上的痕迹是贴图贴上去的；路边尸体和非主线道路的模型多边形扎得眼疼；儿子战斗时上天掠地</span><br>
+<span>当然没pc版怎么也说不出个一二来，看隔壁rdr2，主机上画面顶尖，结果数毛社数了数天蝎版发现好多特效都是pc最低还要低的定制档</span><br>
+<span>圣莫尼卡做得好是真的，但是不代表他们做了个优化及格情况下在同级别pc上不可能跑得动的东西，9012都过去了，独占画面哪有什么魔力可言</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-2-25 11:52 编辑 </span><br>
+<span>MikePJ 发表于 2020-2-25 11:18</span><br>
+<span>可不能细看</span><br>
+<span>仔细看的话你会发现：斧子砍到墙上的痕迹是贴图贴上去的；路边尸体和非主线道路的模型 ...</span><br>
+<span>我也这么觉得，一眼看上去还行，只是有点"油腻"，实际上看上去还是有种……"糙"的感觉。</span><br>
+<span>尤其我晕3D，注意力不能保持在角色上，必须到处看分散注意力，这种感觉就相当明显了。</span><br>
+<span>倒是一些PC实验性质的游戏/小游戏/MOD会有些惊喜。</span><br>
+<span>画质这个东西，是要烧硬件的，提了4K，画质就不能保证了，两者都要提升，就要靠可变速率着色、DLSS之类的手段了。</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>神王西格玛 发表于 2020-2-25 10:17</span><br>
+<span>恰恰相反</span><br>
+<span>战神完爆所有当时pc画面，实际上只在480级别硬件上实现</span><br>
+<span>梦里呢，雪山上奎爷的影子都飘在空中，停下来看贴图到处都是糊的，没优秀的美工和动态模糊，光论本身硬条件它拿什么和PC比，有些地方法线贴图都没弄好</span><br>
+</p><p><b>抖S君: </b><br>
+<span>竜ヶ峰桜子 发表于 2020-02-25 15:10:56</span><br>
+<span>梦里呢，雪山上奎爷的影子都飘在空中，停下来看贴图到处都是糊的，没优秀的美工和动态模糊，光论本身硬条 ...光看论坛很多人好像只关心分辨率和帧数，对建模贴图光影特效都是毫不在意的，只要有4k60帧就完美了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>clover293: </b><br>
+<span>画面的好坏不在于性能，在于美术———某欧美厂员工说的</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>神王西格玛 发表于 2020-2-25 10:17</span><br>
+<span>恰恰相反</span><br>
+<span>战神完爆所有当时pc画面，实际上只在480级别硬件上实现</span><br>
+<span>多玩游戏，就不会有这种搞笑言论。</span><br>
+<span>且不说PC，先爆个自家的1886试试看吧？</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>竜ヶ峰桜子 发表于 2020-2-25 15:10</span><br>
+<span>梦里呢，雪山上奎爷的影子都飘在空中，停下来看贴图到处都是糊的，没优秀的美工和动态模糊，光论本身硬条 ...</span><br>
+<span>+1，确实有法线贴图没做的感觉，盔甲什么的，明明是凹凸的，但没有凹凸感，看着就像在皮革画上去的一样，当时记得群里有歪楼歪到历史，有人一本正经的吐槽说这个类似唐代的布/皮装饰用甲</span><br>
+<span>然后正好在玩了一个国产的VR小游戏，人家水壶都做了法线贴图和反光，压出来的凹凸暗纹，金属的光泽都很有质感。</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1645011-1-1.html</span><br>
+</p><p><b>iou90: </b><br>
+<span>clover293 发表于 2020-2-25 15:16</span><br>
+<span>画面的好坏不在于性能，在于美术———某欧美厂员工说的</span><br>
+<span>所以到今天为止 还是觉得神海4的人物与室内无敌 大镖客2在xbonex上环境最厉害 除了天空就是next gen级别</span><br>
+</p><p><b>大暴死: </b><br>
+<span>又见“我有xxxx显卡所以我说某主机游戏画面完爆pc就一定是对哒”的论调了</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>我现在5700xt 大部分游戏高特效-最高特效都可以4k50+，个别贼吃配置的比如猛汉王除外，xsx性能比5700xt强点+主机优化，大部分4k60也不奇怪，当然次世代的引擎会更吃资源，到时候就不够了</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-2-26 10:38 编辑 </span><br>
+<span>伊克路西安 发表于 2020-2-25 20:59</span><br>
+<span>我现在5700xt 大部分游戏高特效-最高特效都可以4k50+，个别贼吃配置的比如猛汉王除外，xsx性能比5700xt强点 ...</span><br>
+<span>是的，4K 60没问题，大不了优(缩)化(水)。</span><br>
+<span>但换代了，画面肯定也要提升玩家才买账。</span><br>
+<span>上面也有人说了，画面提升要不靠性能，要不靠美工。</span><br>
+<span>性能都给4K吃了，就只能靠美工了。</span><br>
+<span>靠美工了，这开发费用蹭蹭的就涨上去了。</span><br>
+<span>硬着头皮4K是一条死路</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>本世代画面巅峰应该还是大表哥2</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>胡桃丶 发表于 2020-2-26 11:12</span><br>
+<span>本世代画面巅峰应该还是大表哥2</span><br>
+<span>堆人工的巅峰</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915555[0-50]</guid>
+    </item>
+  </channel>
+</rss>

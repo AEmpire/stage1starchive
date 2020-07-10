@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>IE与FF无法上网，谷歌却可以，这是个什么情况？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>IE与FF无法上网，谷歌却可以，这是个什么情况？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:56:49 +0000</lastBuildDate>
+    <item>
+      <title>IE与FF无法上网，谷歌却可以，这是个什么情况？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847477-1-1.html</link>
+      <description>IE与FF无法上网，谷歌却可以，这是个什么情况？&#13;
+ 本帖最后由 钢铁的巨神 于 2019-7-17 22:43 编辑 
+
+因为工作原因装了某个V/P/N工具，上周对方厂家要求更换V/P/N工具，然后我把旧的工具卸载后本机网络情况就出现了异常，一通折腾之后，发现谷歌浏览器能上网，QQ能上，微信不能上，IE和FF不能上网，但在虚拟机内用IE却能正常上
+
+这种诡异的情况彻底把我搞懵逼了，搜索了一些cmd修复命令和工具都无法恢复正常的网络状况，所以我想问问有谁遇到这种情况吗？
+
+设置代理项也试过了，网上搜索能找到的方法我都试了一遍，都没用</description>
+      <content:encoded><![CDATA[<p><b>钢铁的巨神: </b><br>
+<span>IE与FF无法上网，谷歌却可以，这是个什么情况？</span><br>
+<span> 本帖最后由 钢铁的巨神 于 2019-7-17 22:43 编辑 </span><br>
+<span>因为工作原因装了某个V/P/N工具，上周对方厂家要求更换V/P/N工具，然后我把旧的工具卸载后本机网络情况就出现了异常，一通折腾之后，发现谷歌浏览器能上网，QQ能上，微信不能上，IE和FF不能上网，但在虚拟机内用IE却能正常上</span><br>
+<span>这种诡异的情况彻底把我搞懵逼了，搜索了一些cmd修复命令和工具都无法恢复正常的网络状况，所以我想问问有谁遇到这种情况吗？</span><br>
+<span>设置代理项也试过了，网上搜索能找到的方法我都试了一遍，都没用</span><br>
+</p><p><b>zerocount: </b><br>
+<span>进ie设置把代理关了</span><br>
+</p><p><b>Zh某: </b><br>
+<span>理论上应该是代理问题，进internet设置里看看</span><br>
+<span>—— 来自 Xiaomi MI 8 Lite, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>钢铁的巨神: </b><br>
+<span>这个我也试过了，也完全不行</span><br>
+<span>—— 来自 OPPO PAFM00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>blackgrail: </b><br>
+<span>internet选项-连接-局域网设置-勾掉使用自动配置脚本-勾选自动选择设置-确定保存</span><br>
+<span>应该可以解决问题</span><br>
+</p><p><b>XSK小龙王: </b><br>
+<span>没有正常退出软件所以代理设置没变回来，重装次软件再退出，或者360之类恢复浏览器设置</span><br>
+<span>----发送自 vivo V1818A,Android 8.1.0</span><br>
+</p><p><b>the_ripples: </b><br>
+<span>firefox-选项-常规-网络设置-不使用代理服务器</span><br>
+</p><p><b>芥雏子: </b><br>
+<span>有时候开了SS再关会出现浏览器代理设置出问题的情况，遇到过比较诡异的一次情况是，一个网站能上另一个不行，打开代理设置一改两个都能上了</span><br>
+</p><p><b>钢铁的巨神: </b><br>
+<span> 本帖最后由 钢铁的巨神 于 2019-7-17 22:45 编辑 </span><br>
+<span>设置代理项也试过了，网上搜索能找到的方法我都试了一遍，都没用，要不然我也不会发贴了</span><br>
+<span>—— 来自 OPPO PAFM00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>芥雏子 发表于 2019-7-17 21:22</span><br>
+<span>有时候开了SS再关会出现浏览器代理设置出问题的情况，遇到过比较诡异的一次情况是，一个网站能上另一个不行 ...</span><br>
+<span>系统代理模式的锅</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>代理设置被改了，但是系统设置改不会</span><br>
+<span>遇到过一次。。。然后靠360解决的。。。</span><br>
+</p><p><b>singguo: </b><br>
+<span>重新配置网络，具体百度</span><br>
+<span>—— 来自 Xiaomi Redmi Note 4, Android 6.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>thq: </b><br>
+<span>也有可能是防火墙的问题。</span><br>
+</p><p><b>星野心叶: </b><br>
+<span>试试国产的安全管家类工具，用完卸载就是了</span><br>
+</p><p><b>卡修_Kasio: </b><br>
+<span>注册表里的DNS设置删了/重命名掉 </span><br>
+</p><p><b>钢铁的巨神: </b><br>
+<span>诡异的事情继续发生中，在没有任何操作的情况下，谷歌和虚拟机也上不了网了，仅剩QQ可以上</span><br>
+<span>—— 来自 OPPO PAFM00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>星野心叶: </b><br>
+<span> 本帖最后由 星野心叶 于 2019-7-26 11:04 编辑 </span><br>
+<span>DNS和代理问题吧</span><br>
+<span>我看这帖子之前回复过，这么久了你们都没解决？</span><br>
+</p><p><b>jie2000: </b><br>
+<span>dns跪了吧</span><br>
+</p><p><b>钢铁的巨神: </b><br>
+<span>很好，使用了360，恢复了谷歌和虚拟机的网络，但是其它软件依然无法上网，包括360自己</span><br>
+<span>—— 来自 OPPO PAFM00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>上礼拜我有台上不了网用netsh命令重置网络才搞好的</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>firefox有dsns缓存，今天上午刚解决过一起类似事件</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>卡仑治糖: </b><br>
+<span>360网络急救箱</span><br>
+<span>不行就重装 遇到过一次 也是无解</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847477[0-50]</guid>
+    </item>
+  </channel>
+</rss>

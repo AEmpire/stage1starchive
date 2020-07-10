@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>老硬盘删掉重新分区了，为什么系统还是会从老硬盘启动</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>老硬盘删掉重新分区了，为什么系统还是会从老硬盘启动</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:16:17 +0000</lastBuildDate>
+    <item>
+      <title>老硬盘删掉重新分区了，为什么系统还是会从老硬盘启动[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863418-1-1.html</link>
+      <description>老硬盘删掉重新分区了，为什么系统还是会从老硬盘启动&#13;
+ 本帖最后由 武蔵 于 2019-11-4 18:57 编辑 
+
+救命啊
+&#13;
+老硬盘克隆到新硬盘，然后新硬盘单独开机都正常工作，挂上老硬盘开机就会慢的无法理解而且进系统是一个看不到任何硬盘的桌面，之前发了一贴坛友回答说是从老硬盘启动的临时桌面，但是我bios里设置了新硬盘优先启动的。。。
+&#13;
+没办法我用sata转usb的线，新硬盘单独开机之后再插上老硬盘，然后分区助手里把老硬盘删除全部分区，然后再分成一个新的单独分区，这样老硬盘里应该已经没有任何东西了才对吧，但是这样搞过之后挂上老硬盘开机还是跟之前一样毛病，我到底该怎么操作
+&#13;
+听楼下的重建了MBR，然后现在挂上老硬盘可以进新硬盘的系统了，但是开机过程还是明显比新硬盘单独的时候要慢
+&#13;
+进去之后在文件资源管理器里老硬盘那个盘符是看不到容量的，也无法访问，快速格式化也无法进行用diskgenius扫描了一下，全红
+&#13;
+但是拔掉之后先开机，再用sata转usb插上老硬盘，这时候就可以正常访问，再用diskgenius扫描是全绿
+&#13;
+是我主板上sata口有什么问题还是bios有什么我不知道的设置吗</description>
+      <content:encoded><![CDATA[<p><b>武蔵: </b><br>
+<span>老硬盘删掉重新分区了，为什么系统还是会从老硬盘启动</span><br>
+<span> 本帖最后由 武蔵 于 2019-11-4 18:57 编辑 </span><br>
+<span>救命啊</span><br>
+<span>老硬盘克隆到新硬盘，然后新硬盘单独开机都正常工作，挂上老硬盘开机就会慢的无法理解而且进系统是一个看不到任何硬盘的桌面，之前发了一贴坛友回答说是从老硬盘启动的临时桌面，但是我bios里设置了新硬盘优先启动的。。。</span><br>
+<span>没办法我用sata转usb的线，新硬盘单独开机之后再插上老硬盘，然后分区助手里把老硬盘删除全部分区，然后再分成一个新的单独分区，这样老硬盘里应该已经没有任何东西了才对吧，但是这样搞过之后挂上老硬盘开机还是跟之前一样毛病，我到底该怎么操作</span><br>
+<span>听楼下的重建了MBR，然后现在挂上老硬盘可以进新硬盘的系统了，但是开机过程还是明显比新硬盘单独的时候要慢</span><br>
+<span>进去之后在文件资源管理器里老硬盘那个盘符是看不到容量的，也无法访问，快速格式化也无法进行用diskgenius扫描了一下，全红</span><br>
+<span>但是拔掉之后先开机，再用sata转usb插上老硬盘，这时候就可以正常访问，再用diskgenius扫描是全绿</span><br>
+<span>是我主板上sata口有什么问题还是bios有什么我不知道的设置吗</span><br>
+</p><p><b>czgzxc: </b><br>
+<span> 本帖最后由 czgzxc 于 2019-11-4 17:29 编辑 </span><br>
+<span>大概要把mbr/gpt信息抹掉才行吧？只是删除分区不抹这些的</span><br>
+<span>大概是这样搞？或者试试那个动态磁盘转基本磁盘？</span><br>
+</p><p><b>中川夏纪: </b><br>
+<span>大概率旧硬盘的引导记录没有删，解决方法看楼上</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>分区助手不会删除引导分区吧</span><br>
+</p><p><b>mirari: </b><br>
+<span>分区助手里可以看到引导分区的，要删应该是全删了。</span><br>
+<span>看看老硬盘的SMART如何</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863418[0-50]</guid>
+    </item>
+  </channel>
+</rss>

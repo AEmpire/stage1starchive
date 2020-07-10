@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>想汉化一个游戏，结果一开始就搁浅了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>想汉化一个游戏，结果一开始就搁浅了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:53:47 +0000</lastBuildDate>
+    <item>
+      <title>想汉化一个游戏，结果一开始就搁浅了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1866725-1-1.html</link>
+      <description>想汉化一个游戏，结果一开始就搁浅了&#13;
+最近非常喜欢玩Underrail这个游戏，今天突然产生了汉化它、让更多的人了解它的念头，我觉得自己的英文水平可以看懂绝大多数内容（除了极少数比较专业的内容之外），然而……这游戏用的是自建的引擎，我根本不会导出和导入文本，结果雄心壮志一开始就失败了。
+&#13;
+这个游戏虽然素质十分过硬，然而题材过于冷门、入门门槛要求太高，到现在都没有多少人关注，我觉得非常可惜。</description>
+      <content:encoded><![CDATA[<p><b>CZ75: </b><br>
+<span>想汉化一个游戏，结果一开始就搁浅了</span><br>
+<span>最近非常喜欢玩Underrail这个游戏，今天突然产生了汉化它、让更多的人了解它的念头，我觉得自己的英文水平可以看懂绝大多数内容（除了极少数比较专业的内容之外），然而……这游戏用的是自建的引擎，我根本不会导出和导入文本，结果雄心壮志一开始就失败了。</span><br>
+<span>这个游戏虽然素质十分过硬，然而题材过于冷门、入门门槛要求太高，到现在都没有多少人关注，我觉得非常可惜。</span><br>
+</p><p><b>格林达姆: </b><br>
+<span>这种rpg文本量一般都大到不行吧</span><br>
+</p><p><b>CZ75: </b><br>
+<span>格林达姆 发表于 2019-11-19 20:11</span><br>
+<span>这种rpg文本量一般都大到不行吧</span><br>
+<span>我自信只要能解决文本的导出和导入，能在几个月之内完成文本的翻译。然而对于技术问题一筹莫展……</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>尝试联系开发者能让汉化工作事半功倍</span><br>
+</p><p><b>CZ75: </b><br>
+<span>洗刷刷 发表于 2019-11-19 20:21</span><br>
+<span>尝试联系开发者能让汉化工作事半功倍</span><br>
+<span>在蒸汽论坛和开发者论坛上喊了四年都没有回应，这个制作组很奇怪，对于本地化好像不太热衷，他们只做了英文版，连自己的母语塞尔维亚语都没有。</span><br>
+</p><p><b>灼眼艾莉亚: </b><br>
+<span>CZ75 发表于 2019-11-19 20:26</span><br>
+<span>在蒸汽论坛和开发者论坛上喊了四年都没有回应，这个制作组很奇怪，对于本地化好像不太热衷，他们只做了英 ...</span><br>
+<span>东欧那边只做英文版不奇怪吧，</span><br>
+<span>你用邮箱联系了吗</span><br>
+<span>Contact information</span><br>
+<span>Send your inquiries and business propositions to:</span><br>
+<span>admin@underrail.com</span><br>
+</p><p><b>modedd: </b><br>
+<span>说起来迷叔平时都是怎么和制作组搭上线的？</span><br>
+</p><p><b>BRRM: </b><br>
+<span>一般汉化的流程是有壳要脱壳，没壳就开始解密，把资源文件解密后，一般里面就能找到文本文件，这时候就可以开始汉化了，汉化完成后把资源逆向解密（加密）装回原来的样子就算完成了。</span><br>
+<span>如果是知名公司的游戏，一般都能找到外国人已经写好的解密工具，如果是小公司的游戏，就只能靠自己去分析。</span><br>
+</p><p><b>CZ75: </b><br>
+<span>BRRM 发表于 2019-11-19 20:59</span><br>
+<span>一般汉化的流程是有壳要脱壳，没壳就开始解密，把资源文件解密后，一般里面就能找到文本文件，这时候就可以 ...</span><br>
+<span>我找到了解包工具，但是似乎只能用于很久以前的版本，现在的版本好像更换了封包方式，所以以前的解包工具失效了。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>破解真难</span><br>
+<span>不蹭社区的拆包工具连文件系统都解不开</span><br>
+<span>就算拆了FS但数据文件用了什么压缩算法也逆向不出来，有magic number，但搜不到相关资料</span><br>
+<span>只敢替换字模，500字符的字模array根本容不下动辄千字的汉字，但真正的大佬直接替换地址开辟新天地</span><br>
+<span>同样用字体文件生成字模，就是没有大佬的居中、好看</span><br>
+</p><p><b>ekoneko: </b><br>
+<span>https://steamcommunity.com/app/250520/discussions/3/135509472109846448/</span><br>
+<span>联系下这位? </span><br>
+</p><p><b>空月の梦: </b><br>
+<span>CZ75 发表于 2019-11-19 20:13</span><br>
+<span>我自信只要能解决文本的导出和导入，能在几个月之内完成文本的翻译。然而对于技术问题一筹莫展…… ...</span><br>
+<span>AOD：“泪，流了下来”</span><br>
+</p><p><b>CZ75: </b><br>
+<span>空月の梦 发表于 2019-11-19 21:48</span><br>
+<span>AOD：“泪，流了下来”</span><br>
+<span>Age of Decadence对我来说吸引力没那么大，如果能有机会——确切地说是有技术——汉化完Underrail的话，我会考虑翻译Age of Decadence的。</span><br>
+</p><p><b>空月の梦: </b><br>
+<span>CZ75 发表于 2019-11-19 22:11</span><br>
+<span>Age of Decadence对我来说吸引力没那么大，如果能有机会——确切地说是有技术——汉化完Underrail的话， ...</span><br>
+<span>主要是没有flowchart支持，纯靠破解盲翻这种文本量大且有一定C&C成分的crpg真的难做</span><br>
+</p><p><b>Ferelasong: </b><br>
+<span>这游戏是个辐射2LIKE吧，玩过一会不过没继续。。能汉化自然是好的</span><br>
+<span>联系开发者吧，一般开发者也乐意做多国语言，可能有助于销量；当初我玩某个游戏写了篇好评开发者就找上门来问我愿不愿意汉化。。反正文本量不大几天搞定了</span><br>
+</p><p><b>CZ75: </b><br>
+<span>Ferelasong 发表于 2019-11-19 23:06</span><br>
+<span>这游戏是个辐射2LIKE吧，玩过一会不过没继续。。能汉化自然是好的</span><br>
+<span>联系开发者吧，一般开发者也乐意做多国语 ...</span><br>
+<span>这个制作组似乎比较……奇怪，他们连自己的母语塞尔维亚语版本都没做，几年来不断有人表示愿意制作各种本地化版本，都没有得到他们的积极回应。</span><br>
+</p><p><b>oidoid: </b><br>
+<span>和你差不多，想汉化个GAL，安卓版是OBB，3DS版不知道找谁破解，于是也只能放弃了</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span>也许这游戏文本没用资源文件而是全写死在代码里了(</span><br>
+<span>- 发自忧郁深沉的  非官方客户端</span><br>
+</p><p><b>Trompete: </b><br>
+<span> 本帖最后由 Trompete 于 2019-11-20 07:43 编辑 </span><br>
+<span>emmmm，虽然我没了解游戏，随手查了一下日语化有人做机翻，至少程序面上有一定能力吧，试着联系一下此人？</span><br>
+<span>https://w.atwiki.jp/underrail/pages/40.html</span><br>
+<span>https://twitter.com/CastleOrange1/status/1106155664190009344</span><br>
+<span>汉化这个事情，程序只能靠找高手，翻译只能靠自己绝对硬刚了，看你决心有多大了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1866725[0-50]</guid>
+    </item>
+  </channel>
+</rss>

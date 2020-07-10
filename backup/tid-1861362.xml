@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>三千问求助：台式机蓝牙问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>三千问求助：台式机蓝牙问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:29:23 +0000</lastBuildDate>
+    <item>
+      <title>三千问求助：台式机蓝牙问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861362-1-1.html</link>
+      <description>三千问求助：台式机蓝牙问题&#13;
+台式机搭配杂牌蓝牙发射器，重装系统前蓝牙可以正常使用，重装系统后蓝牙就没法正常使用了
+&#13;
+表现为可以扫描到蓝牙设备，但是却无法连接。
+&#13;
+设备管理器里面尝试过卸载重新装也无效，服务里面蓝牙服务也是正常打开的。
+&#13;
+如图，正常的蓝牙设备应该有枚举器和LE枚举器，出问题的机器不知道为啥缺了一个LE枚举器，可能是原因所在？但是搜了一圈没有找到答案，求教</description>
+      <content:encoded><![CDATA[<p><b>lampharelove: </b><br>
+<span>三千问求助：台式机蓝牙问题</span><br>
+<span>台式机搭配杂牌蓝牙发射器，重装系统前蓝牙可以正常使用，重装系统后蓝牙就没法正常使用了</span><br>
+<span>表现为可以扫描到蓝牙设备，但是却无法连接。</span><br>
+<span>设备管理器里面尝试过卸载重新装也无效，服务里面蓝牙服务也是正常打开的。</span><br>
+<span>如图，正常的蓝牙设备应该有枚举器和LE枚举器，出问题的机器不知道为啥缺了一个LE枚举器，可能是原因所在？但是搜了一圈没有找到答案，求教</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>不用win自带的驱动，手动安装其它驱动试试？</span><br>
+</p><p><b>无聊者X: </b><br>
+<span>杂牌要上杂牌驱动</span><br>
+<span>去他家官网看看</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lampharelove: </b><br>
+<span>回复楼上，安装了杂牌驱动以后蓝牙的界面变得高大上了一些，然而还是没法连接设备…</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-10-25 17:07 编辑 </span><br>
+<span>在刚过去的夏天我的笔记本发生了几次过热自动关机，每次重启后蓝牙鼠标都没反应，重装驱动重新配对了还是没反应，但鼠标连到另一设备就正常，然后不管它过几天就自动好了，每次都是这样，我也不知道原因。</span><br>
+<span>补充说一下，在鼠标没反应时笔记本和手机配对了也是无法传文件的。</span><br>
+<span>这是我的情况，供lz参考。</span><br>
+</p><p><b>无聊者X: </b><br>
+<span>不是手柄的问题？其他蓝牙设备也连不上吗</span><br>
+<span>按说能搜到就说明蓝牙没太大问题</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lampharelove: </b><br>
+<span>任何蓝牙设备包括手柄，耳机，音箱都是可以搜到没法连接，这些蓝牙设备在其他电脑都可以正常使用。</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>...换个usb口？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>建议换个系统版本，曾经遇到过特定更新造成蓝牙失灵的情况</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861362[0-50]</guid>
+    </item>
+  </channel>
+</rss>

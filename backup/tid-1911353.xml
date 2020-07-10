@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OX163list里图片地址反馈错误</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>OX163list里图片地址反馈错误</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:31:08 +0000</lastBuildDate>
+    <item>
+      <title>OX163list里图片地址反馈错误[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911353-1-1.html</link>
+      <description>OX163list里图片地址反馈错误&#13;
+ 本帖最后由 mula3 于 2020-1-30 02:16 编辑 
+
+不知道大家还记不记的OX163这款软件，虽然作者不再更新，但是偶尔还是能用到，一直用起来不错。这次因为重装系统重新下载0.6.1版本后，在一张一张正常下载danbooru上图片时发现下载进度不动，检查后发现图片地址栏反馈的图片地址是错误的，多了一个https://danboru.donmai.us地址，如图附件1
+&#13;
+打开软件里的VBS脚本之后，发现找不到相对应的语句来反馈正确的图片地址，求助万能的S1大神们给我一点指导或者解题方向也可以，谢谢谢谢
+&#13;
+OX163下载地址：http://shj.ugschina.com/163/
+&#13;
+附件2是danbooru脚本
+&#13;
+PS：我发现作者已经在2018年更新了相应脚本，但是现在的OX163的版本只能下载到0.6.1是2017年出的版本而脚本已经不能更新了，只能伸手求大神给传一个比较全脚本的OX163或者只有一个donmai.us的2018年8月版本的也行，谢谢谢谢
+&#13;
+进度更新：已解决，后来发现旁边标签有作者更新的脚本，我需要看眼科，谢谢各位菊苣</description>
+      <content:encoded><![CDATA[<p><b>mula3: </b><br>
+<span>OX163list里图片地址反馈错误</span><br>
+<span> 本帖最后由 mula3 于 2020-1-30 02:16 编辑 </span><br>
+<span>不知道大家还记不记的OX163这款软件，虽然作者不再更新，但是偶尔还是能用到，一直用起来不错。这次因为重装系统重新下载0.6.1版本后，在一张一张正常下载danbooru上图片时发现下载进度不动，检查后发现图片地址栏反馈的图片地址是错误的，多了一个https://danboru.donmai.us地址，如图附件1</span><br>
+<span>打开软件里的VBS脚本之后，发现找不到相对应的语句来反馈正确的图片地址，求助万能的S1大神们给我一点指导或者解题方向也可以，谢谢谢谢</span><br>
+<span>OX163下载地址：http://shj.ugschina.com/163/</span><br>
+<span>附件2是danbooru脚本</span><br>
+<span>PS：我发现作者已经在2018年更新了相应脚本，但是现在的OX163的版本只能下载到0.6.1是2017年出的版本而脚本已经不能更新了，只能伸手求大神给传一个比较全脚本的OX163或者只有一个donmai.us的2018年8月版本的也行，谢谢谢谢</span><br>
+<span>进度更新：已解决，后来发现旁边标签有作者更新的脚本，我需要看眼科，谢谢各位菊苣</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>要不要考虑换moeloader的几个个人维护版？</span><br>
+</p><p><b>mula3: </b><br>
+<span>Tr火药味 发表于 2020-1-30 01:19</span><br>
+<span>要不要考虑换moeloader的几个个人维护版？</span><br>
+<span>求链接，万分感谢</span><br>
+<span>moeloader以前我试用过，不过我尝试搜索的TAG却显示的图片不全，后来就放弃了</span><br>
+</p><p><b>mirari: </b><br>
+<span> 本帖最后由 mirari 于 2020-1-31 17:53 编辑 </span><br>
+<span>ox163作者在s1啊</span><br>
+<span>@hein</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>mirari 发表于 2020-1-31 17:51</span><br>
+<span>ox163作者在s1啊</span><br>
+<span>@hein</span><br>
+<span>居然是漫区斑竹搞的</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2020-1-31 18:57 编辑 </span><br>
+<span>程序设置里面常规设置的更新服务器填写http://shj.ugschina.com/163/就能更新了。</span><br>
+<span>不过我是老年人了，163相册都GG了，自己的域名也忘记续费GG了，应该不会去弄了………</span><br>
+<span>现在年轻人的替代软件应该蛮多的吧，真没有的话我可以更下脚本，也不麻烦。</span><br>
+</p><p><b>mula3: </b><br>
+<span>hein 发表于 2020-1-31 18:18</span><br>
+<span>程序设置里面常规设置的更新服务器填写http://shj.ugschina.com/163/就能更新了。</span><br>
+<span>不过我是老年人了，163相 ...</span><br>
+<span>哇，谢谢菊苣的回复，好的，其实我在原网址另一个标签页发现了更新脚本的文本，直接替换之后解决了问题。谢谢菊苣的软件，OX163一直都非常好用，10年从大学一直用到现在了，定期从danbooru更新某一tag的图片，非常实用。</span><br>
+</p><p><b>mula3: </b><br>
+<span>mirari 发表于 2020-1-31 17:51</span><br>
+<span>ox163作者在s1啊</span><br>
+<span>@hein</span><br>
+<span>谢谢菊苣</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911353[0-50]</guid>
+    </item>
+  </channel>
+</rss>

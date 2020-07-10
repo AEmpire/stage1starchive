@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么有时候主板bios会自动重置？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么有时候主板bios会自动重置？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:25:16 +0000</lastBuildDate>
+    <item>
+      <title>为什么有时候主板bios会自动重置？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833245-1-1.html</link>
+      <description>为什么有时候主板bios会自动重置？&#13;
+板子是技嘉的B360M-D3V，去年下半年换的，偶尔启动开机就会自动进bios，弹出bios已被重置的提示，搞得我每次都要重新设置一遍，更恶心的是这时候连我的SSD都不能识别，要重启一遍才能识别
+&#13;
+印象中好几次出现这种情况都是在前一次win10更新关机后下次开机出现的，和这个有关系吗？</description>
+      <content:encoded><![CDATA[<p><b>kuglv: </b><br>
+<span>为什么有时候主板bios会自动重置？</span><br>
+<span>板子是技嘉的B360M-D3V，去年下半年换的，偶尔启动开机就会自动进bios，弹出bios已被重置的提示，搞得我每次都要重新设置一遍，更恶心的是这时候连我的SSD都不能识别，要重启一遍才能识别</span><br>
+<span>印象中好几次出现这种情况都是在前一次win10更新关机后下次开机出现的，和这个有关系吗？</span><br>
+</p><p><b>车欠: </b><br>
+<span>主板电池没电了？</span><br>
+<span>—— 来自 OnePlus A0001, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>不清楚，我的映泰B360 MHD Pro也会这样。</span><br>
+<span>自动更新之后就容易点不亮，仔细一看是重置了BIOS，然后我的矿卡580就无法识别，得把8pinPCIE电源口上的曲别针拔了再插才行。</span><br>
+</p><p><b>kuglv: </b><br>
+<span>车欠 发表于 2019-5-21 23:55</span><br>
+<span>主板电池没电了？</span><br>
+<span>—— 来自 OnePlus A0001, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>这板子也挺新的，应该不是电池问题吧</span><br>
+<span>而且也不是经常出问题，我上上上次出问题还是三个月前，然后这周出现了两次了</span><br>
+</p><p><b>obiy: </b><br>
+<span>是咖喱10的锅吧</span><br>
+</p><p><b>madbird302: </b><br>
+<span>华硕华擎和已经不在的升技DFI表示没遇到过</span><br>
+</p><p><b>ricotte: </b><br>
+<span>换电池先</span><br>
+</p><p><b>上班族: </b><br>
+<span>主板or电源，其中一个的问题</span><br>
+</p><p><b>kuglv: </b><br>
+<span>今天回家开机又出现这问题了，准备换个电池排查一下了</span><br>
+<span>我搜了下纽扣电池型号有好多，有电流不一样的有厚度不一样的，主板一般是用哪种？</span><br>
+</p><p><b>闇口憑依: </b><br>
+<span> kuglv 发表于 2019-5-22 19:53 今天回家开机又出现这问题了，准备换个电池排查一下了 我搜了下纽扣电池型号有好多，有电流不一样的有厚度不一样的，主板一般是用哪种？ </span><br>
+<span>CR2032</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>主板电池十有八九没电了，别以为新主板的电池就靠得住，以前富士康还卖自有品牌主板的时候，早期的965加富士康自研的超频芯片，主板电池掉电飞快，十块主板九块里一个月电池没电。</span><br>
+</p><p><b>kuglv: </b><br>
+<span>换电池之后正常了半个多月，这几天BIOS又开始重置了，不同的是在按下电源键时还没过自检电源灯就会灭掉，风扇也停转，过几秒钟又开始启动，重复几次之后就会进bios提示bios已重置</span><br>
+<span>我上个月底才换的主板电池，按理来说不会这么快用掉电吧，难道是电源有问题？</span><br>
+</p><p><b>大厨麦当牛: </b><br>
+<span>kuglv 发表于 2019-6-12 18:54</span><br>
+<span>换电池之后正常了半个多月，这几天BIOS又开始重置了，不同的是在按下电源键时还没过自检电源灯就会灭掉，风 ...</span><br>
+<span>拿万用表测一下你的CR2032电池看还有没有电，没电了就是主板有问题哪里漏电，纽扣电池掉电速度不正常。</span><br>
+</p><p><b>BT有理: </b><br>
+<span>我觉得你遇上技嘉双bios主板的传统艺能了，会不定期bios损坏然后主机就是无限重启直到自动修复bios</span><br>
+</p><p><b>kuglv: </b><br>
+<span>用技嘉的@BIOS更新了一下BIOS，第一次从本地读取BIOS文件（版本F12）更新失败了，自动重启N次之后还原了原来的BIOS（版本F2），之后选择从服务器更新，关机之后无限重启，不得已强制断电看看启动后能不能自动从副BIOS恢复，结果BIOS设置重置了，但是BIOS更新成功了（版本F12），之后我手动关机等了10分钟在开机，好像也没有二次启动重置BIOS的问题了，暂时还没看到别的什么不良反应，先用着看看吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833245[0-50]</guid>
+    </item>
+  </channel>
+</rss>

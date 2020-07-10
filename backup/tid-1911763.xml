@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>写了个S1专楼下载器</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>写了个S1专楼下载器</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:27:56 +0000</lastBuildDate>
+    <item>
+      <title>写了个S1专楼下载器[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911763-1-1.html</link>
+      <description>写了个S1专楼下载器&#13;
+原帖发在外野，考虑到漫区需要保存的专楼大概更多，在这边也转一份~（如果一贴多发不违反版规的话）
+&#13;
+S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价值的专楼备份一下
+&#13;
+最开始想用selenium一页页的下载成mht，但是发现这样下载的网页不支持离线翻页，而且很多帖子里图片没加载完就下载了。于是一怒之下用python搓了个轮子，用requests下载帖子每页的html，然后将其中所有css、script和图片保存至本地。
+&#13;
+这样下载后的帖子可以离线翻页，方便阅读，而且不同帖子共用css、图片等资源，节约硬盘空间。缺点是删除下载的帖子时无法删除其中图片，而且下载速度比较慢，不过个人感觉还可以接受。（关爱服务器，拒绝多线程）
+&#13;
+程序非常简单，源代码扔到github了。然后用PyQt5做了一个简陋的GUI打包了成exe，自己测试了下64位win10和64位win7都能正常使用，其他系统就不确定了。
+&#13;
+用法也很简单，看界面直接操作就行。github上写了个简单的说明，需要的话可以去看看，这里就不细讲了。
+&#13;
+使用建议：
+&#13;
+[*]由于下载速度主要由论坛响应速度决定，建议在论坛流量较小时使用，比如睡前开个下载转天起来再看之类。尽量不要多开，以免对服务器造成过大压力
+&#13;
+[*]由于论坛帖子有大量共用素材（样式表、麻将脸等），当这部分素材下载完毕后，帖子下载速度会得到显著提升。比如我昨天下载漫区那个196页的WA2直播贴花了40分钟左右，这是因为里面图片很多，以文字为主的楼会更快一些。
+&#13;
+[*]由于作者水平所限，程序大概会有很多bug，如果大家使用中遇到问题欢迎在论坛或github上反馈，有希望添加的功能也欢迎提出（如果有大佬愿意接手优化就更好了）
+&#13;
+下载地址：
+&#13;
+github：https://github.com/shuangluoxss/Stage1st-downloader/releases
+&#13;
+百度网盘：链接：https://pan.baidu.com/s/1Xu0DyTYu5KVQV0YkyzWzmw提取码：fi43
+&#13;
+运行界面
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=639911&amp;size=300x300&amp;key=abde79dc931c503c&amp;nocache=yes&amp;type=fixnone&amp;ramdom=W5SSZ
+&#13;
+页面和资源文件会下载到程序运行路径的data文件夹下，全楼下载完之后会在程序运行路径同级目录生成一个 帖子标题.html，指向下载好的页面。只要保证html、data文件夹、source文件夹的相对位置不变，网页就可以正常打开。
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=639913&amp;size=300x300&amp;key=d353389b89a8e7cb&amp;nocache=yes&amp;type=fixnone&amp;ramdom=qCc05
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=639915&amp;size=300x300&amp;key=096e19cb83720ffb&amp;nocache=yes&amp;type=fixnone&amp;ramdom=I8SyS
+&#13;
+另外需要提到的是，下载器在下载时会自动跳过已经存在的文件，所以下载中断基本没有影响，重新开始后很很快就能达到之前的进度</description>
+      <content:encoded><![CDATA[<p><b>霜落xss: </b><br>
+<span>写了个S1专楼下载器</span><br>
+<span>原帖发在外野，考虑到漫区需要保存的专楼大概更多，在这边也转一份~（如果一贴多发不违反版规的话）</span><br>
+<span>S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价值的专楼备份一下</span><br>
+<span>最开始想用selenium一页页的下载成mht，但是发现这样下载的网页不支持离线翻页，而且很多帖子里图片没加载完就下载了。于是一怒之下用python搓了个轮子，用requests下载帖子每页的html，然后将其中所有css、script和图片保存至本地。</span><br>
+<span>这样下载后的帖子可以离线翻页，方便阅读，而且不同帖子共用css、图片等资源，节约硬盘空间。缺点是删除下载的帖子时无法删除其中图片，而且下载速度比较慢，不过个人感觉还可以接受。（关爱服务器，拒绝多线程）</span><br>
+<span>程序非常简单，源代码扔到github了。然后用PyQt5做了一个简陋的GUI打包了成exe，自己测试了下64位win10和64位win7都能正常使用，其他系统就不确定了。</span><br>
+<span>用法也很简单，看界面直接操作就行。github上写了个简单的说明，需要的话可以去看看，这里就不细讲了。</span><br>
+<span>使用建议：</span><br>
+<span>[*]由于下载速度主要由论坛响应速度决定，建议在论坛流量较小时使用，比如睡前开个下载转天起来再看之类。尽量不要多开，以免对服务器造成过大压力</span><br>
+<span>[*]由于论坛帖子有大量共用素材（样式表、麻将脸等），当这部分素材下载完毕后，帖子下载速度会得到显著提升。比如我昨天下载漫区那个196页的WA2直播贴花了40分钟左右，这是因为里面图片很多，以文字为主的楼会更快一些。</span><br>
+<span>[*]由于作者水平所限，程序大概会有很多bug，如果大家使用中遇到问题欢迎在论坛或github上反馈，有希望添加的功能也欢迎提出（如果有大佬愿意接手优化就更好了）</span><br>
+<span>下载地址：</span><br>
+<span>github：https://github.com/shuangluoxss/Stage1st-downloader/releases</span><br>
+<span>百度网盘：链接：https://pan.baidu.com/s/1Xu0DyTYu5KVQV0YkyzWzmw提取码：fi43</span><br>
+<span>运行界面</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=639911&size=300x300&key=abde79dc931c503c&nocache=yes&type=fixnone&ramdom=W5SSZ</span><br>
+<span>页面和资源文件会下载到程序运行路径的data文件夹下，全楼下载完之后会在程序运行路径同级目录生成一个 帖子标题.html，指向下载好的页面。只要保证html、data文件夹、source文件夹的相对位置不变，网页就可以正常打开。</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=639913&size=300x300&key=d353389b89a8e7cb&nocache=yes&type=fixnone&ramdom=qCc05</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=639915&size=300x300&key=096e19cb83720ffb&nocache=yes&type=fixnone&ramdom=I8SyS</span><br>
+<span>另外需要提到的是，下载器在下载时会自动跳过已经存在的文件，所以下载中断基本没有影响，重新开始后很很快就能达到之前的进度</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>麻麻再也不用担心我的帖子消失了早一点在大清洗前开发出来就好了</span><br>
+</p><p><b>Quantum233: </b><br>
+<span>论坛还好些，不是太那啥基本可以一直活着。。。贴吧真的是</span><br>
+<span>总之还是谢过大佬了</span><br>
+</p><p><b>朔方原的星MK.2: </b><br>
+<span>若荼泱 发表于 2020-2-1 20:07</span><br>
+<span>麻麻再也不用担心我的帖子消失了早一点在大清洗前开发出来就好了 ...</span><br>
+<span>泥潭清理的帖子好像都有备份，当然什么时候能再放出来就不知道了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>朔方原的星MK.2 发表于 2020-3-31 10:28</span><br>
+<span>泥潭清理的帖子好像都有备份，当然什么时候能再放出来就不知道了</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1918211-1-1.html</span><br>
+<span>之前我就发现了，RSS无视一切。只是个雪藏</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>情迷弗兰西西24个专楼先保存下来</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>mchan: </b><br>
+<span>求源码，我好改写一个 macOS 图形界面版和 UNIX 命令行版</span><br>
+</p><p><b>BankA: </b><br>
+<span>mchan 发表于 2020-3-31 13:10</span><br>
+<span>求源码，我好改写一个 macOS 图形界面版和 UNIX 命令行版</span><br>
+<span>看GitHub链接啊别进releases，几个Python不都是很清楚的</span><br>
+</p><p><b>mchan: </b><br>
+<span>BankA 发表于 2020-3-31 13:29</span><br>
+<span>看GitHub链接啊别进releases，几个Python不都是很清楚的</span><br>
+<span>那我就星标了哈。（我这里的开发语言是 C、Objective-C 和 Swift，因此需要大规模重写。网络部分丢给 libcurl 或 libaria2 或 NSURLSession。）</span><br>
+</p><p><b>Lighteen: </b><br>
+<span>还没来得及下载，专楼就没了有人下了巨人和ID专楼的可以分享一下吗</span><br>
+</p><p><b>aptx8285144: </b><br>
+<span>突然发觉高达和异度侵入的楼不能进去了，希望都尽快审核完毕吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911763[0-50]</guid>
+    </item>
+  </channel>
+</rss>

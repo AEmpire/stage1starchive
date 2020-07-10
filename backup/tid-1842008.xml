@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>树莓派 4 发布了 / 别买！供电有问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>树莓派 4 发布了 / 别买！供电有问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:31:31 +0000</lastBuildDate>
+    <item>
+      <title>树莓派 4 发布了 / 别买！供电有问题[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842008-1-1.html</link>
+      <description>树莓派 4 发布了&#13;
+ 本帖最后由 ekdc11 于 2019-6-25 10:48 编辑 
+
+硬件升级 (对比 3B+)，主要加入了两个 4k micro HDMI 接口，电源换成了 USB-C，两个USB 3.0 口，更多的 RAM (1-4 GB)。 1GB RAM 版本 $35 -&gt; 2GB RAM 版本 $45 -&gt; 4 GB RAM 版本 $55
+&#13;
+https://www.raspberrypi.org/homepage-9df4b/static/pi4-labelled-99c2e8935bb3cfdb27d23f634ea98a7e.png
+&#13;
+Specifications(Raspberry Pi 4 Model B specifications – Raspberry Pi)
+&#13;
+[*]Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+&#13;
+[*]1GB, 2GB or 4GB LPDDR4-2400 SDRAM (depending on model)
+&#13;
+[*]2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE
+&#13;
+[*]Gigabit Ethernet
+&#13;
+[*]2 USB 3.0 ports; 2 USB 2.0 ports.
+&#13;
+[*]Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)
+&#13;
+[*]2 × micro-HDMI ports (up to 4kp60 supported)
+&#13;
+[*]2-lane MIPI DSI display port
+&#13;
+[*]2-lane MIPI CSI camera port
+&#13;
+[*]4-pole stereo audio and composite video port
+&#13;
+[*]H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)
+&#13;
+[*]OpenGL ES 3.0 graphics
+&#13;
+[*]Micro-SD card slot for loading operating system and data storage
+&#13;
+[*]5V DC via USB-C connector (minimum 3A*)
+&#13;
+[*]5V DC via GPIO header (minimum 3A*)
+&#13;
+[*]Power over Ethernet (PoE) enabled (requires separate PoE HAT)
+&#13;
+[*]Operating temperature: 0 – 50 degrees C ambient
+&#13;
+* A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.
+&#13;
+==
+&#13;
+官方对于参数的解释
+&#13;
+Raspberry Pi 4 on sale now from $35 - Raspberry Pi
+&#13;
+==
+&#13;
+预购链接 (居然没有 China，有香港，看国内谁代理吧)，starter kit 有些带了官方红白配色的键盘和鼠标
+&#13;
+Buy a Raspberry Pi 4 Model B – Raspberry Pi
+&#13;
+==
+&#13;
+之前只用树莓派，贴个竞品之间的对比
+&#13;
+Best Single Board Computers 2019 (Raspberry Pi Alternatives)</description>
+      <content:encoded><![CDATA[<p><b>御风八极: </b><br>
+<span>好顶赞。要是有出两个usb3.0平铺的版本我一定买。平铺才可以做掌上设备</span><br>
+</p><p><b>御风八极: </b><br>
+<span>个人觉得理想的版本应该是三个typec，毕竟大点的大家完全可以买itx</span><br>
+</p><p><b>车欠: </b><br>
+<span>精灵狮 发表于 2019-6-25 14:18</span><br>
+<span>这东西是面向专业人群或者折腾人群的。</span><br>
+<span>比如说，你要开发个工程机械手，总不能配台电脑用来做核心吧。这 ...</span><br>
+<span>如果真要做成产品估计不会用树莓派的…很大程度上看稳定性</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sorayang: </b><br>
+<span>御风八极 发表于 2019-6-25 19:22</span><br>
+<span>好顶赞。要是有出两个usb3.0平铺的版本我一定买。平铺才可以做掌上设备 ...</span><br>
+<span>你真要追求体积做掌上设备把网口和USB口焊掉就是了，玩游戏什么的甚至把扩展针也全部拆掉也没事</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>pi用来干需要gpio交互有一定多媒体需求的任务就挺合适</span><br>
+<span>当盒子用纯属蛋疼</span><br>
+</p><p><b>御风八极: </b><br>
+<span>精灵狮 发表于 2019-6-25 14:18</span><br>
+<span>这东西是面向专业人群或者折腾人群的。</span><br>
+<span>比如说，你要开发个工程机械手，总不能配台电脑用来做核心吧。这 ...</span><br>
+<span>机械手有Arduino</span><br>
+</p><p><b>御风八极: </b><br>
+<span>ekdc11 发表于 2019-6-25 14:45</span><br>
+<span>小、轻量是前提，没有外设只要供电就行</span><br>
+<span>- 最大的亮点是通过 GPIO 输入输出信号从而让很多事情变成可能。连 ...</span><br>
+<span>有卖金属外壳，芯片表面加一层导热垫即可。</span><br>
+</p><p><b>solaris40: </b><br>
+<span>ekdc11 发表于 2019-6-25 14:45</span><br>
+<span>小、轻量是前提，没有外设只要供电就行</span><br>
+<span>- 最大的亮点是通过 GPIO 输入输出信号从而让很多事情变成可能。连 ...</span><br>
+<span>自带Mathematica。。。这玩意儿在树莓派上用得多吗。。。</span><br>
+<span>还有这玩意儿没有数字签名吧？</span><br>
+</p><p><b>可乐猫: </b><br>
+<span>55的粒子矿云了解一下，还带个硬盘位</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>晴空怜: </b><br>
+<span>改进不大啊，不如s922x的12纳米a73</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>solaris40 发表于 2019-6-26 09:20</span><br>
+<span>自带Mathematica。。。这玩意儿在树莓派上用得多吗。。。</span><br>
+<span>还有这玩意儿没有数字签名吧？ ...</span><br>
+<span>我觉得 mathematica 对比 python、fortran 和 C++ 还是有优势的，不过效率肯定差很多，所以用的人应该不多。更新就是通过一个自带的闭源 repo。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>是不是可以拿来挂bt</span><br>
+</p><p><b>solaris40: </b><br>
+<span>ekdc11 发表于 2019-6-26 10:23</span><br>
+<span>我觉得 mathematica 对比 python、fortran 和 C++ 还是有优势的，不过效率肯定差很多，所以用的人应该不 ...</span><br>
+<span>我知道有优势，不过一般不会在树莓派上用才是。。。</span><br>
+</p><p><b>Fstt: </b><br>
+<span> kros 发表于 2019-6-25 14:14 有没有大佬说说 这东西买来干啥 能干的手机电脑都能干，当路由器的话随便买个同价位路由器不比这强 </span><br>
+<span>GPIO，我大学毕业设计就是用树莓派做的</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>Fstt 发表于 2019-6-26 18:30</span><br>
+<span>GPIO，我大学毕业设计就是用树莓派做的</span><br>
+<span>对于搞软硬件开发的人来说树莓派是非常优秀的原型开发平台和学习工具</span><br>
+<span>但是，对于普通消费者来说，很多人就是拿来当个卡片电脑用的，尤其在国内很多拿来当电视盒、模拟器游戏机用。。。。。虽然我觉得蛮蛋疼</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第64楼皇帝雅西加于2019-06-27 04:46发表的:</span><br>
+<span>引用:Fstt 发表于 2019-6-26 18:30GPIO，我大学毕业设计就是用树莓派做的对于搞......</span><br>
+<span>@皇帝雅西加</span><br>
+<span>不光国内当游戏机，retropie lakka 等可都是老外开发出来的</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>radar: </b><br>
+<span>皇帝雅西加 发表于 2019-6-27 04:46</span><br>
+<span>对于搞软硬件开发的人来说树莓派是非常优秀的原型开发平台和学习工具</span><br>
+<span>但是，对于普通消费者来说，很多人 ...</span><br>
+<span>树莓派设计的初心就是成为成本低廉的个人电脑，所以当卡片电脑没毛病</span><br>
+</p><p><b>droople: </b><br>
+<span>树莓派的初衷是做一台便宜的小电脑，让小朋友学电脑，然后加一个GPIO让小朋友再学点其他的东西。因为CPU相对单片机强不少，还有各种接口，自然有人想捣鼓点其他东西。虽然没有实时系统不适合生产环境的自动化控制。但是自己玩玩还可以。看淘宝上成熟的树莓派项目就是小车，魔镜，语音控制，人脸识别，加一大票游戏机</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>droople 发表于 2019-6-27 01:03</span><br>
+<span>@皇帝雅西加</span><br>
+<span>不光国内当游戏机，retropie lakka 等可都是老外开发出来的</span><br>
+<span>当游戏机主要是价格便宜功耗低并且最最重要的是Linux开发、封装方便，所以特别适合拿来搞掌机，跑跑PS2之前的主机模拟器（虽然PS1很多游戏运行有问题）如果是安卓系统限制就比较多了</span><br>
+<span>但是拿来当电视盒还是觉得非常蛋疼，同价位能打的电视盒多多了，性能、软件都要强很多</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-27 11:34 编辑 </span><br>
+<span>皇帝雅西加 发表于 2019-6-27 04:46</span><br>
+<span>对于搞软硬件开发的人来说树莓派是非常优秀的原型开发平台和学习工具</span><br>
+<span>但是，对于普通消费者来说，很多人 ...</span><br>
+<span>Pi 因为硬件统一，有提前 bios、rom 和模拟器全搞好的 Pi 镜像的 (16Gb-256GB 不等)。有些特别麻烦的游戏还会 tweak 好，根据机种预设好 overlay。特殊的像 drastic 只有 arm 上有，反而成了 Pi 的优势。例: Retropie 的集成镜像 (SNES mini 主题)</span><br>
+<img src="https://retropie.org.uk/forum/assets/uploads/files/1506615290828-snes-update-1.jpg" title="https://retropie.org.uk/forum/assets/uploads/files/1506615290828-snes-update-1.jpg"><br>
+<img src="https://retropie.org.uk/forum/assets/uploads/files/1506615300715-snes-update-2.jpg" title="https://retropie.org.uk/forum/assets/uploads/files/1506615300715-snes-update-2.jpg"><br>
+</p><p><b>droople: </b><br>
+<span>引用第68楼皇帝雅西加于2019-06-27 09:03发表的:</span><br>
+<span>引用:droople 发表于 2019-6-27 01:03@皇帝雅西加不光国内当游戏机，retro......</span><br>
+<span>@皇帝雅西加</span><br>
+<span>印象里很少有人拿树莓派做电视盒子</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>Psyche: </b><br>
+<span>之前折腾树莓派 3B+ 嫌性能太差, 一咬牙剁手了 nuc8 i5, 结果cpu, 内存占用率低的一逼, 好心疼我的钱, 早知道得这个就好了</span><br>
+</p><p><b>Litccc: </b><br>
+<span>想问下除了本体有什么必入的配件呢？</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>Litccc 发表于 2019-6-24 23:27</span><br>
+<span>能自己换ram🐴</span><br>
+<span>自己用热风枪吹下来换</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第72楼Litccc于2019-06-29 23:24发表的:</span><br>
+<span>想问下除了本体有什么必入的配件呢？</span><br>
+<span>@Litccc</span><br>
+<span>外壳键盘鼠标显示器</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-30 00:04 编辑 </span><br>
+<span>Litccc 发表于 2019-6-29 23:24</span><br>
+<span>想问下除了本体有什么必入的配件呢？</span><br>
+<span>树莓派要能运行还需要有 microSD 卡 (支持到256GB->SDXC), 和5V&2.5A的电源适配器。插电脑或者电视机的 USB 口往往会提示电压不够。有这两样 Pi 就可以用了。不少人应该就是 SSH 登录 Pi 只用命令行的。</span><br>
+<span>其他就取决于你的应用场景了。如果你要当个小电脑来用，其实是需要一个带散热 (散热片和风扇各种搭配) 的壳。如果工作轻，买个便宜的壳防灰尘。前面的楼层我还推荐过一个全金属的壳，如果跑的东西很多。如果来模拟老游戏，可以考虑带 Retroflag 的壳，提供重置游戏和关机按钮，配的手柄也不错。当然也有拿 Pi 组 Cluster 的...</span><br>
+</p><p><b>美利坚大老爹: </b><br>
+<span>其实国产的开源方案已经很成熟了，掌机方面。价格也不高</span><br>
+<span>树莓派的优点是低功耗，稳定性，和扩展性。</span><br>
+<span>接个摄像头挂满电池组上写字楼屋顶拍延时，很好玩哒</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Baccano: </b><br>
+<span>ekdc11 发表于 2019-6-29 23:51</span><br>
+<span>树莓派要能运行还需要有 microSD 卡 (支持到256GB->SDXC), 和5V&2.5A的电源适配器。插电脑或者电视机的 US ...</span><br>
+<span>完全弄不懂拿pi组Cluster 有什么用，那么羸弱的cpu，还有更弱的io性能。</span><br>
+<span>感觉只能拿来实操学习下分布式，没有什么实际意义。</span><br>
+</p><p><b>拜拜: </b><br>
+<span>有个Pi2装了ARCH LINUX跑chrome有点卡</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>lionheart 发表于 2019-6-25 15:05</span><br>
+<span>不知道这东西的多媒体性能怎么样，整一个跑kodi靠谱不，能放原盘、4k之类不？</span><br>
+<span>手头上两个1代的pi，开图形 ...</span><br>
+<span>不行。4测下来KODI和VLC都不能4K视频，在线 YouTube 也最多 720p60，本地1080p60</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第77楼Baccano于2019-06-30 02:55发表的:</span><br>
+<span>引用:ekdc11 发表于 2019-6-29 23:51树莓派要能运行还需要有 microSD 卡......</span><br>
+<span>@Baccano</span><br>
+<span>就是学习用啊</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>nicebody: </b><br>
+<span>皇帝雅西加 发表于 2019-6-27 04:46</span><br>
+<span>对于搞软硬件开发的人来说树莓派是非常优秀的原型开发平台和学习工具</span><br>
+<span>但是，对于普通消费者来说，很多人 ...</span><br>
+<span>我拿来跑homeassistant</span><br>
+<span>当airplay 和 airprint的服务器</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-7-13 08:44 编辑 </span><br>
+<span>最近有电源问题的报道，官方说会有当前版本的修复版 (revision)</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>ekdc11 发表于 2019-7-13 08:40</span><br>
+<span>最近有电源问题的报道，官方说会有当前版本的修复版 (revision)</span><br>
+<span>看了一下，感觉问题不大，就是供电不能用e-marked线而已，现在除了type-c供电的笔记本送的e-marked线以外，谁会去买e-marked的线啊，市面基本上都是不带e-marked芯片的。</span><br>
+</p><p><b>sorayang: </b><br>
+<span>好像已经卖出的不会有什么修复了</span><br>
+<span>换批次后会改变设计吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842008[50-100]</guid>
+    </item>
+    <item>
+      <title>树莓派 4 发布了 / 别买！供电有问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842008-1-1.html</link>
+      <description>树莓派 4 发布了&#13;
+ 本帖最后由 ekdc11 于 2019-6-25 10:48 编辑 
+
+硬件升级 (对比 3B+)，主要加入了两个 4k micro HDMI 接口，电源换成了 USB-C，两个USB 3.0 口，更多的 RAM (1-4 GB)。 1GB RAM 版本 $35 -&gt; 2GB RAM 版本 $45 -&gt; 4 GB RAM 版本 $55
+&#13;
+https://www.raspberrypi.org/homepage-9df4b/static/pi4-labelled-99c2e8935bb3cfdb27d23f634ea98a7e.png
+&#13;
+Specifications(Raspberry Pi 4 Model B specifications – Raspberry Pi)
+&#13;
+[*]Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+&#13;
+[*]1GB, 2GB or 4GB LPDDR4-2400 SDRAM (depending on model)
+&#13;
+[*]2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE
+&#13;
+[*]Gigabit Ethernet
+&#13;
+[*]2 USB 3.0 ports; 2 USB 2.0 ports.
+&#13;
+[*]Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)
+&#13;
+[*]2 × micro-HDMI ports (up to 4kp60 supported)
+&#13;
+[*]2-lane MIPI DSI display port
+&#13;
+[*]2-lane MIPI CSI camera port
+&#13;
+[*]4-pole stereo audio and composite video port
+&#13;
+[*]H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)
+&#13;
+[*]OpenGL ES 3.0 graphics
+&#13;
+[*]Micro-SD card slot for loading operating system and data storage
+&#13;
+[*]5V DC via USB-C connector (minimum 3A*)
+&#13;
+[*]5V DC via GPIO header (minimum 3A*)
+&#13;
+[*]Power over Ethernet (PoE) enabled (requires separate PoE HAT)
+&#13;
+[*]Operating temperature: 0 – 50 degrees C ambient
+&#13;
+* A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.
+&#13;
+==
+&#13;
+官方对于参数的解释
+&#13;
+Raspberry Pi 4 on sale now from $35 - Raspberry Pi
+&#13;
+==
+&#13;
+预购链接 (居然没有 China，有香港，看国内谁代理吧)，starter kit 有些带了官方红白配色的键盘和鼠标
+&#13;
+Buy a Raspberry Pi 4 Model B – Raspberry Pi
+&#13;
+==
+&#13;
+之前只用树莓派，贴个竞品之间的对比
+&#13;
+Best Single Board Computers 2019 (Raspberry Pi Alternatives)</description>
+      <content:encoded><![CDATA[<p><b>ekdc11: </b><br>
+<span>树莓派 4 发布了</span><br>
+<span> 本帖最后由 ekdc11 于 2019-6-25 10:48 编辑 </span><br>
+<span>硬件升级 (对比 3B+)，主要加入了两个 4k micro HDMI 接口，电源换成了 USB-C，两个USB 3.0 口，更多的 RAM (1-4 GB)。 1GB RAM 版本 $35 -> 2GB RAM 版本 $45 -> 4 GB RAM 版本 $55</span><br>
+<img src="https://www.raspberrypi.org/homepage-9df4b/static/pi4-labelled-99c2e8935bb3cfdb27d23f634ea98a7e.png" title="https://www.raspberrypi.org/homepage-9df4b/static/pi4-labelled-99c2e8935bb3cfdb27d23f634ea98a7e.png"><br>
+<span>Specifications(Raspberry Pi 4 Model B specifications – Raspberry Pi)</span><br>
+<span>[*]Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz</span><br>
+<span>[*]1GB, 2GB or 4GB LPDDR4-2400 SDRAM (depending on model)</span><br>
+<span>[*]2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE</span><br>
+<span>[*]Gigabit Ethernet</span><br>
+<span>[*]2 USB 3.0 ports; 2 USB 2.0 ports.</span><br>
+<span>[*]Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)</span><br>
+<span>[*]2 × micro-HDMI ports (up to 4kp60 supported)</span><br>
+<span>[*]2-lane MIPI DSI display port</span><br>
+<span>[*]2-lane MIPI CSI camera port</span><br>
+<span>[*]4-pole stereo audio and composite video port</span><br>
+<span>[*]H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)</span><br>
+<span>[*]OpenGL ES 3.0 graphics</span><br>
+<span>[*]Micro-SD card slot for loading operating system and data storage</span><br>
+<span>[*]5V DC via USB-C connector (minimum 3A*)</span><br>
+<span>[*]5V DC via GPIO header (minimum 3A*)</span><br>
+<span>[*]Power over Ethernet (PoE) enabled (requires separate PoE HAT)</span><br>
+<span>[*]Operating temperature: 0 – 50 degrees C ambient</span><br>
+<span>* A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.</span><br>
+<span>==</span><br>
+<span>官方对于参数的解释</span><br>
+<span>Raspberry Pi 4 on sale now from $35 - Raspberry Pi</span><br>
+<span>==</span><br>
+<span>预购链接 (居然没有 China，有香港，看国内谁代理吧)，starter kit 有些带了官方红白配色的键盘和鼠标</span><br>
+<span>Buy a Raspberry Pi 4 Model B – Raspberry Pi</span><br>
+<span>==</span><br>
+<span>之前只用树莓派，贴个竞品之间的对比</span><br>
+<span>Best Single Board Computers 2019 (Raspberry Pi Alternatives)</span><br>
+</p><p><b>1774565576: </b><br>
+<span>有点小贵</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Litccc: </b><br>
+<span>能自己换ram🐴</span><br>
+</p><p><b>易方世界: </b><br>
+<span>所以这个能干什么程度的活，我挺感兴趣的</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>Litccc 发表于 2019-6-24 23:27</span><br>
+<span>能自己换ram🐴</span><br>
+<span>不行，单纯就是买的时候选自己要的 RAM </span><br>
+</p><p><b>datzz: </b><br>
+<span>记得主控不怎么厉害吧</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>买前搞学习，买后路由器</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>说得好，我选择zero</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>rare720: </b><br>
+<span>和s905比哪个强？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-6-25 03:44 编辑 </span><br>
+<span>关键是cpu啊 还是博通么？35-55其实可以买国产3328之类的开发板了，搭建起来其实差不多。</span><br>
+</p><p><b>schrodingerscat: </b><br>
+<span>至少这次Pi 4的图形部分的硬件升级了！</span><br>
+<span>“•VideoCore VI graphics, supporting OpenGL ES 3.x”</span><br>
+<span>“but note that this isn't even neccesarily a speed thing - the pi1-3 simply couldn't run GLES 3.x instruction set, which meant it uses slower, less accurate GLES 2.x pathways, or it couldn't run certain 3d emulators at all.</span><br>
+<span>it was never a GPU speed issue. even in n64 games with slowdown, 9/10 the slowdown would be caused by one or both of: nonoptimal GLES2 pathway, very slow system bus. both of these issues should be eliminated with the pi4.”</span><br>
+<span>以前模拟N64都不行其实并非是Pi 3的图形部分速度真的慢， 而是Pi1-3不支持GL ES 3.X指令集, 因此只能用低效而且不精确的 ES 2.X</span><br>
+<span>而且以前Pi 3模拟N64的卡顿十有八九是因为未针对GL ES2.X优化 或者 巨慢的总线</span><br>
+<span>所以这次的Pi 4有望把PS2以前的主机都成功模拟</span><br>
+</p><p><b>月神侠: </b><br>
+<span>还留着USB 2.0干什么？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>这个soc看规格比rk3399都好，55刀还挺不错的</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-25 02:23 编辑 </span><br>
+<span>schrodingerscat 发表于 2019-6-25 01:47</span><br>
+<span>至少这次Pi 4的图形部分的硬件升级了！</span><br>
+<span>“•VideoCore VI graphics, supporting OpenGL ES 3.x”</span><br>
+<span>我的 3B 就是拿来模拟老游戏的 ，弄了一堆东西散热。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-6-25 03:49 编辑 </span><br>
+<span>处理器：博通 BCM2711，四核 Cortex-A72、64 位 SoC、主频 1.5GHz 。</span><br>
+<span>内存： 1GB、2GB 或 4GB LPDDR4 SDRAM（取决于型号）。</span><br>
+<span>连接性：双频 IEEE 802.11ac 无线 + 蓝牙5.0，千兆以太网，2×USB 3.0、2×USB 2.0 端口。</span><br>
+<span>GPIO：向前兼容树莓派的标准 40 针引脚。</span><br>
+<span>视频和声音： 2×micro-HDMI 输出（4kp60 或 4kp30）、2 通道 MIPI DSI 显示端口、2 通道 MIPI CSI 摄像头端口、4 极立体声音频和复合视频端口。</span><br>
+<span>多媒体： HEVC / H.265（4kp60 解码）、AVC / H.264（1080p60 解码 / 1080p30 编码）、OpenGL ES 3.0 GPU 。</span><br>
+<span>存储：Micro SD 卡槽，用于加载操作系统和数据存储。</span><br>
+<span>电源输入： 5V DC（USB-C、3A）、GPIO 接头支持 5V DC @ 3A、或以太网供电（需单独的 PoE HAT）。</span><br>
+<span>工作温度：0 - 50 ℃摄氏度。</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>据说制程还是28nm的，看来不上散热没法玩</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>tsubasa9 发表于 2019-6-25 03:46</span><br>
+<span>据说制程还是28nm的，看来不上散热没法玩</span><br>
+<span>没用40nm小火龙还不感恩戴德</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-25 03:57 编辑 </span><br>
+<span>tsubasa9 发表于 2019-6-25 03:46</span><br>
+<span>据说制程还是28nm的，看来不上散热没法玩</span><br>
+<span>RaspPi 当桌面、模拟器都会过热降频。可能是效果最好的壳</span><br>
+<img src="https://img1.wantitall.co.za/prodimages/iuniker-raspberry-pi-armor-case-raspberry-pi-metal-case-with-dual-fan-aluminium-alloy-raspberry-pi-f__51ZYic-1hgL.jpg" title="https://img1.wantitall.co.za/prodimages/iuniker-raspberry-pi-armor-case-raspberry-pi-metal-case-with-dual-fan-aluminium-alloy-raspberry-pi-f__51ZYic-1hgL.jpg"><br>
+</p><p><b>巨魔古拉格: </b><br>
+<span>猫不萌 发表于 2019-6-25 00:22</span><br>
+<span>买前搞学习，买后路由器</span><br>
+<span>路由器买香蕉派R1/R2不是更好吗？口多加天线还方便</span><br>
+</p><p><b>navarra: </b><br>
+<span>rare720 发表于 2019-6-25 00:36</span><br>
+<span>和s905比哪个强？</span><br>
+<span>s905才a53.......这个是四核a72</span><br>
+</p><p><b>四控大叔: </b><br>
+<span> 本帖最后由 四控大叔 于 2019-6-25 08:44 编辑 </span><br>
+<span>这性能还有以太网接口，感觉搞个当NAS已经不错了，有点心动。</span><br>
+</p><p><b>nailuo1993: </b><br>
+<span>玩模拟器不如买斐讯t1 n1吧</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>这个价格看看就好</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>这两个micro hdmi太败笔了，一个走TypeC一个大口HDMI不好么；另外万年5V供电，这性能估计电流足够的供电头子不好找</span><br>
+<span>1g版价格还是很不错的，4g版同价位有RK3399派，更强的扩展性能换更好的生态</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span>3399性能和这个比差距大么</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>罗莉控: </b><br>
+<span>3399的盒子都要600多700吧，这个的4GB也才400</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>那么淘宝哪里能买到？</span><br>
+</p><p><b>五月之雨: </b><br>
+<span>四控大叔 发表于 2019-6-25 08:43</span><br>
+<span>这性能还有以太网接口，感觉搞个当NAS已经不错了，有点心动。</span><br>
+<span>磁盘性能捉急,千兆网卡也不知道是不是还是usb桥接的</span><br>
+</p><p><b>bbpoo: </b><br>
+<span>千兆不是桥接了</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>micro hdmi他们就不知道这接口有多容易坏吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>乔槁: </b><br>
+<span>性能不错，加上生态好，当路由器或NAS都足够了。</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>五月之雨 发表于 2019-6-25 10:27</span><br>
+<span>磁盘性能捉急,千兆网卡也不知道是不是还是usb桥接的</span><br>
+<span>用usb3口接一个移动硬盘大概还成？</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>伊可费斯 发表于 2019-6-25 03:49</span><br>
+<span>没用40nm小火龙还不感恩戴德</span><br>
+<span>以我以前使用高通650手机的体验来看。。a72，a73在28nm发热其实还行</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第23楼DENHJD于2019-06-25 09:59发表的:</span><br>
+<span>这两个micro hdmi太败笔了，一个走TypeC一个大口HDMI不好么；另外万年5V供电，这性能......</span><br>
+<span>@DENHJD</span><br>
+<span>rk3399至今优化还是一坨</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>四控大叔 发表于 2019-6-25 11:34</span><br>
+<span>以我以前使用高通650手机的体验来看。。a72，a73在28nm发热其实还行</span><br>
+<span>隔壁rk3399两个a72+四个a53已经热到爆炸了</span><br>
+<span>不敢想这个bcm的四核a72不带散热要降频到什么地步了</span><br>
+</p><p><b>美利坚大老爹: </b><br>
+<span>youtube已经有评测视频了，看了几个，大概率真香</span><br>
+</p><p><b>kros: </b><br>
+<span>有没有大佬说说 这东西买来干啥</span><br>
+<span>能干的手机电脑都能干，当路由器的话随便买个同价位路由器不比这强</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>kros 发表于 2019-6-25 14:14</span><br>
+<span>有没有大佬说说 这东西买来干啥</span><br>
+<span>能干的手机电脑都能干，当路由器的话随便买个同价位路由器不比这强 ...</span><br>
+<span>这东西是面向专业人群或者折腾人群的。</span><br>
+<span>比如说，你要开发个工程机械手，总不能配台电脑用来做核心吧。这个东西又小，性能还够，成本低，开源方便折腾。</span><br>
+</p><p><b>美利坚大老爹: </b><br>
+<span>树莓派有那么多外设，能干的活很多啊</span><br>
+<span>可以实现很多玩法</span><br>
+<span>路由器的问题，树莓派之前因为内部总线的问题，不太适合，但现在瓶颈大部分都解决了，挂软路由OS比路由器好用多了。</span><br>
+<span>同价位的真不一定比4代运算能力强。</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>cybernetics31 发表于 2019-6-25 10:42</span><br>
+<span>micro hdmi他们就不知道这接口有多容易坏吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>所以说才要和肾脏一样给两个么 T_T</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-6-25 15:18 编辑 </span><br>
+<span>kros 发表于 2019-6-25 14:14</span><br>
+<span>有没有大佬说说 这东西买来干啥</span><br>
+<span>能干的手机电脑都能干，当路由器的话随便买个同价位路由器不比这强 ...</span><br>
+<span>小、轻量是前提，没有外设只要供电就行</span><br>
+<span>- 最大的亮点是通过 GPIO 输入输出信号从而让很多事情变成可能。连马达、LED灯、摄像头、各种传感器……</span><br>
+<span>- 各种接屏幕，焊东西做设备的</span><br>
+<span>- 开源的东西本身对它很友好，各种稀奇古怪的项目</span><br>
+<span>- Raspbian (官方基于 debian 的发行版) 自带了 Mathematica 的 Linux 版本，你可以查查正版要多少钱。</span><br>
+<span>- RaspPi 几代下来性能真是有点强了。我觉得是次要的，因为往往散热会跟不上。但是就是像提供一个更好的平台一样，可能性更多。</span><br>
+</p><p><b>美利坚大老爹: </b><br>
+<span>3B+不上风扇，不上散热，我都觉得有点撑不住，不知道4全功率会怎么样。</span><br>
+</p><p><b>lionheart: </b><br>
+<span>不知道这东西的多媒体性能怎么样，整一个跑kodi靠谱不，能放原盘、4k之类不？</span><br>
+<span>手头上两个1代的pi，开图形界面就卡的不行，只能放后台跑跑homeassistant</span><br>
+</p><p><b>chan: </b><br>
+<span>我的2代就装个homeassistant，性能足够用了。 不知道4代能不能装个manjaro当个小电脑用。</span><br>
+</p><p><b>Hieda: </b><br>
+<span>可以搞一个装alarm玩玩，省得我本地跑一些需要网络环境的systemd service了</span><br>
+</p><p><b>美利坚大老爹: </b><br>
+<span>lionheart 发表于 2019-6-25 15:05</span><br>
+<span>不知道这东西的多媒体性能怎么样，整一个跑kodi靠谱不，能放原盘、4k之类不？</span><br>
+<span>手头上两个1代的pi，开图形 ...</span><br>
+<span>3B+我记得4K不行，原盘碍于网络速度没试过挂硬盘配件行不行。</span><br>
+<span>3B+跑KODI 1080P是已经相当靠谱了</span><br>
+<span>3B+整个Nespi盒子，现在也有世嘉盒子了，装retropi挂KODI很好用。</span><br>
+</p><p><b>正义大朋友: </b><br>
+<span>什么时候出个zero的更新版，现在还用1代的cpu太弱了</span><br>
+</p><p><b>mp5: </b><br>
+<span>四核A72，怕不是要上全金属外壳来辅助散热才行</span><br>
+</p><p><b>bbpoo: </b><br>
+</p><p><b>droople: </b><br>
+<span>引用第48楼bbpoo于2019-06-25 17:32发表的:</span><br>
+<span>@bbpoo</span><br>
+<span>运算能力提升没有想象中大，</span><br>
+<span>网口和USB分开之后果然提升很大</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842008[0-50]</guid>
+    </item>
+  </channel>
+</rss>

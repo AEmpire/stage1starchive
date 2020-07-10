@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>家里电脑开OFFICE相关的东西，过会儿就蓝屏了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>家里电脑开OFFICE相关的东西，过会儿就蓝屏了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:05:03 +0000</lastBuildDate>
+    <item>
+      <title>家里电脑开OFFICE相关的东西，过会儿就蓝屏了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865181-1-1.html</link>
+      <description>家里电脑开OFFICE相关的东西，过会儿就蓝屏了&#13;
+昨天出现的这种状况，不管是开OFFICE还是WPS，WORD或者EXCEL ，打开一会儿电脑就死机蓝屏了。 用360修复工具也修复不出来。以前没碰到过这种问题 </description>
+      <content:encoded><![CDATA[<p><b>葛雷新: </b><br>
+<span>家里电脑开OFFICE相关的东西，过会儿就蓝屏了</span><br>
+<span>昨天出现的这种状况，不管是开OFFICE还是WPS，WORD或者EXCEL ，打开一会儿电脑就死机蓝屏了。 用360修复工具也修复不出来。以前没碰到过这种问题 </span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>其它程序没事？</span><br>
+</p><p><b>葛雷新: </b><br>
+<span>纯情小鸭鸭 发表于 2019-11-12 13:43</span><br>
+<span>其它程序没事？</span><br>
+<span>对~</span><br>
+</p><p><b>沙恩: </b><br>
+<span>MEMTESTPRO</span><br>
+</p><p><b>aurraro: </b><br>
+<span> 本帖最后由 aurraro 于 2019-11-12 18:07 编辑 </span><br>
+<span>开始-运行-verifier，创建自定义设置，然后除了“随机低资源模拟”，“DDI兼容性检查”不勾之外其他勾上（win10系统），从一个列表选择驱动程序，勾选所有microsoft公司之外的驱动，完成重启。</span><br>
+<span>然后估计会蓝屏，记下出错的驱动看看。</span><br>
+<span>PS：强烈不推荐上述方法，因为这个verifier不是只执行一次就完了，你蓝屏之后重启依然会做这个动作重复蓝屏，蓝屏多次之后才会给出选项进安全模式，在安全模式下开始-运行-verifier，删除现有设置即可</span><br>
+<span>PS2：上面这个方法是我最近WIN10蓝屏问了微软answer之后，一个老外回复的解决办法，确实我找到蓝屏驱动然后删除后就没问题了，不保证你也是驱动有问题，你也可以先查下内存，就用楼上提供的memorytest试试再说</span><br>
+</p><p><b>λ2000: </b><br>
+<span>把360删了</span><br>
+<span>— from HMD Global Nokia 7 plus, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865181[0-50]</guid>
+    </item>
+  </channel>
+</rss>

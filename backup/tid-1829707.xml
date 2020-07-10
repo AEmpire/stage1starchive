@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PSV 3.70破解教程</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PSV 3.70破解教程</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:46:50 +0000</lastBuildDate>
+    <item>
+      <title>PSV 3.70破解教程[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1829707-1-1.html</link>
+      <description>PSV 3.70破解教程&#13;
+ 本帖最后由 Zest 于 2019-5-7 13:59 编辑 
+
+PSV 3.70破解教程
+&#13;
+1 下载破解工具
+&#13;
+QCMA
+&#13;
+https://codestation.github.io/qcma/
+&#13;
+PSVIMGTOOLS
+&#13;
+https://github.com/yifanlu/PSVimgtools
+&#13;
+破解气泡Trinity
+&#13;
+https://github.com/TheOfficialFloW/Trinity/releases/download/v1.0/PBOOT.PBP
+&#13;
+MODORU
+&#13;
+https://github.com/TheOfficialFloW/modoru/releases
+&#13;
+各种版本的PSV固件
+&#13;
+https://darthsternie.net/index.php/ps-vita-firmwares/
+&#13;
+2 安装运行QCMA，打开QCMA设置选项，设置版本更新为Fw 0.0.0
+&#13;
+3 设置PSV的DNS为212.47.229.76屏蔽系统更新检测
+&#13;
+4 在PSV上运行内容管理器，连接电脑，选择PS VITA→电脑→应用程序→PSP/其他，选择你用于破解的PSP游戏复制到电脑上，这里以LocoRoco为例
+&#13;
+5 在QCMA游戏备份目录\PS Vita\PGAME\xxxxxxxxxxxxxxxx\NPHG00024下找到备份的游戏，xxxxxxxxxxxxxxxx是你的PSV机器码AID，LocoRoco的目录名为NPHG00024
+&#13;
+6 登录http://cma.henkaku.xyz/，提交你的机器码AID，就是上一步的xxxxxxxxxxxxxxxx，得到解密码
+&#13;
+7 将下载的PSVIMGTOOLS解压到NPHG00024下，WIN+R输入cmd，转到上一步的NPHG00024目录，输入解包命令PSVimg-extract -K 解密码 game/game.PSVimg game_dec，成功会提示all done
+&#13;
+8 将破解气泡Trinity的PBOOT.PBP放到上一步生成的NPHG00024\game_dec\ux0_pspemu_temp_game_PSP_GAME_NPHG00024下
+&#13;
+9 输入打包命令PSVimg-create -n game -K 解密码 game_dec game，成功会提示create game/game.psvmd
+&#13;
+10 删除NPHG00024目录下的game_dec文件夹和PSVIMGTOOLS相关程序，只保留game，license，sce_sys三个目录
+&#13;
+11 QCMA右键刷新数据库，启动PSV上的内容管理器连接电脑，选择电脑→PS VITA→应用程序→PSP/其他，点LocoRoco游戏复制到PSV，复制完成后退出内容管理器
+&#13;
+12 PSV上原来的LocoRoco名称会变成Trinity，图标气泡也变了，如果没有，关机长按PS+R+电源进入恢复模式，选择重构数据库
+&#13;
+13 开启WIFI重启PSV，运行Trinity，等待破解程序Construct运行后下载安装VitaShell和HENkaku，之后就和老版本的破解一样了，以后开机直接执行13的步骤即可，不过作者建议破解后用MODORU降级到之前的版本，比如可以固化破解的3.60</description>
+      <content:encoded><![CDATA[<p><b>Zest: </b><br>
+<span>PSV 3.70破解教程</span><br>
+<span> 本帖最后由 Zest 于 2019-5-7 13:59 编辑 </span><br>
+<span>PSV 3.70破解教程</span><br>
+<span>1 下载破解工具</span><br>
+<span>QCMA</span><br>
+<span>https://codestation.github.io/qcma/</span><br>
+<span>PSVIMGTOOLS</span><br>
+<span>https://github.com/yifanlu/PSVimgtools</span><br>
+<span>破解气泡Trinity</span><br>
+<span>https://github.com/TheOfficialFloW/Trinity/releases/download/v1.0/PBOOT.PBP</span><br>
+<span>MODORU</span><br>
+<span>https://github.com/TheOfficialFloW/modoru/releases</span><br>
+<span>各种版本的PSV固件</span><br>
+<span>https://darthsternie.net/index.php/ps-vita-firmwares/</span><br>
+<span>2 安装运行QCMA，打开QCMA设置选项，设置版本更新为Fw 0.0.0</span><br>
+<span>3 设置PSV的DNS为212.47.229.76屏蔽系统更新检测</span><br>
+<span>4 在PSV上运行内容管理器，连接电脑，选择PS VITA→电脑→应用程序→PSP/其他，选择你用于破解的PSP游戏复制到电脑上，这里以LocoRoco为例</span><br>
+<span>5 在QCMA游戏备份目录\PS Vita\PGAME\xxxxxxxxxxxxxxxx\NPHG00024下找到备份的游戏，xxxxxxxxxxxxxxxx是你的PSV机器码AID，LocoRoco的目录名为NPHG00024</span><br>
+<span>6 登录http://cma.henkaku.xyz/，提交你的机器码AID，就是上一步的xxxxxxxxxxxxxxxx，得到解密码</span><br>
+<span>7 将下载的PSVIMGTOOLS解压到NPHG00024下，WIN+R输入cmd，转到上一步的NPHG00024目录，输入解包命令PSVimg-extract -K 解密码 game/game.PSVimg game_dec，成功会提示all done</span><br>
+<span>8 将破解气泡Trinity的PBOOT.PBP放到上一步生成的NPHG00024\game_dec\ux0_pspemu_temp_game_PSP_GAME_NPHG00024下</span><br>
+<span>9 输入打包命令PSVimg-create -n game -K 解密码 game_dec game，成功会提示create game/game.psvmd</span><br>
+<span>10 删除NPHG00024目录下的game_dec文件夹和PSVIMGTOOLS相关程序，只保留game，license，sce_sys三个目录</span><br>
+<span>11 QCMA右键刷新数据库，启动PSV上的内容管理器连接电脑，选择电脑→PS VITA→应用程序→PSP/其他，点LocoRoco游戏复制到PSV，复制完成后退出内容管理器</span><br>
+<span>12 PSV上原来的LocoRoco名称会变成Trinity，图标气泡也变了，如果没有，关机长按PS+R+电源进入恢复模式，选择重构数据库</span><br>
+<span>13 开启WIFI重启PSV，运行Trinity，等待破解程序Construct运行后下载安装VitaShell和HENkaku，之后就和老版本的破解一样了，以后开机直接执行13的步骤即可，不过作者建议破解后用MODORU降级到之前的版本，比如可以固化破解的3.60</span><br>
+</p><p><b>Bzesii: </b><br>
+<span>PSV还有啥游戏没</span><br>
+</p><p><b>tasuku: </b><br>
+<span>PSV跑以前PSP那堆模拟器是不是能满速的？</span><br>
+<span>比如SFC之类的..</span><br>
+</p><p><b>jesuswjx: </b><br>
+<span>这玩意居然还有新系统要破解。。明明跟3ds是一个时代的掌机但我总觉得五六年没碰过它了 机器都不知道扔哪儿去了。。3ds好歹去年还玩了个世界树呢。。。</span><br>
+</p><p><b>Zest: </b><br>
+<span>tasuku 发表于 2019-5-7 14:04</span><br>
+<span>PSV跑以前PSP那堆模拟器是不是能满速的？</span><br>
+<span>比如SFC之类的..</span><br>
+<span>有的能有的不能</span><br>
+</p><p><b>oil: </b><br>
+<span>这论坛发ns破解是不是就要删帖了啊</span><br>
+</p><p><b>zero4166: </b><br>
+<span>oil 发表于 2019-5-7 14:49</span><br>
+<span>这论坛发ns破解是不是就要删帖了啊</span><br>
+<span>LZ今天就发了一贴NS破解的，你看删帖了吗</span><br>
+</p><p><b>yudongxxb: </b><br>
+<span>3.70是最新系统吗？我的PSV现在还是老板系统然后登着PSN的号，不大敢破解怕被BAN账号，如果最新版可以破解了的话我就登入然后更新了</span><br>
+</p><p><b>Zest: </b><br>
+<span>是</span><br>
+</p><p><b>Zest: </b><br>
+<span>Bzesii 发表于 2019-5-7 14:00</span><br>
+<span>PSV还有啥游戏没</span><br>
+<span>凯瑟琳</span><br>
+</p><p><b>萝卜片: </b><br>
+<span>oil 发表于 2019-5-7 14:49</span><br>
+<span>这论坛发ns破解是不是就要删帖了啊</span><br>
+<span>楼主在任何贴子里都能把话题转到NS破解上，你看楼主有事吗，任任除了无能狂怒逮着机会就骂楼主两句还能干嘛</span><br>
+<span>3DS PSV NS破解贴都没人管的，唯一一次有关于破解的贴子被删我记得是说的PS4破解吧和多玩的PS4折腾区被搞没的事情</span><br>
+</p><p><b>yan38324: </b><br>
+<span>中老年人表示太复杂了看不懂 还是psp破解简单</span><br>
+</p><p><b>葛雷新: </b><br>
+<span>yan38324 发表于 2019-5-7 15:27</span><br>
+<span>中老年人表示太复杂了看不懂 还是psp破解简单</span><br>
+<span>PSP最早破解玩游戏也很烦的，</span><br>
+</p><p><b>leonyang19: </b><br>
+<span>破解后再降级还能玩系统要求是3.69或者3.70的游戏么？</span><br>
+<span>我好像是吃灰在变革那个系统，3.65？每次开机都要重新破解的，想折腾下但是想想没啥想玩的</span><br>
+</p><p><b>Zest: </b><br>
+<span>不能，不过现在有解密高版本游戏的repatch插件</span><br>
+</p><p><b>joker8023: </b><br>
+<span>这就像隔壁PS3依旧有新的破解系统一个道理，对于已经有老版本破解的玩家不痛不痒，最大的意义在于让 淘宝和闲鱼等平台的PSV降价</span><br>
+</p><p><b>gunmanmk2: </b><br>
+<span>psv上最好玩的游戏：系统破解又来了</span><br>
+<span>不过我两台机都3.60固化了，而且吃灰中……</span><br>
+</p><p><b>kaempfe: </b><br>
+<span>又到了PSV最好玩的时候了 把我的暴死V拿出来折腾折腾</span><br>
+</p><p><b>lolozp: </b><br>
+<span>怪不得凯瑟琳的psv版没中文。。</span><br>
+</p><p><b>wonder041: </b><br>
+<span>这机器居然还有破解，我的已经吃灰好久了……</span><br>
+</p><p><b>C男: </b><br>
+<span>lolozp 发表于 2019-5-7 22:12</span><br>
+<span>怪不得凯瑟琳的psv版没中文。。</span><br>
+<span>这有什么逻辑上的联系吗？</span><br>
+</p><p><b>拱猪: </b><br>
+<span>我记得我的3.65变革好像也是能固化的？是不是就不用升这玩意儿了？现在能玩3.70的游戏了么？</span><br>
+</p><p><b>Zest: </b><br>
+<span>拱猪 发表于 2019-5-7 23:13</span><br>
+<span>我记得我的3.65变革好像也是能固化的？是不是就不用升这玩意儿了？现在能玩3.70的游戏了么？ ...</span><br>
+<span>这个破解只是给3.69和3.70用的，3.60-3.68的机器该怎么玩怎么玩，有repatch插件可以把高版本游戏解密成低版本，但现在的游戏最高3.68，还没有游戏用到3.70的SDK</span><br>
+</p><p><b>Ichihatsu: </b><br>
+<span>破完发现超频改分辨率也太麻烦了 </span><br>
+</p><p><b>蔡卓妍: </b><br>
+<span>玩了2台psv的破解，好玩到忘记怎么搞的了，好累，好好玩 233</span><br>
+</p><p><b>blazeknife: </b><br>
+<span>4月的时候说两个月后</span><br>
+<span>我还下好了建议免费下的ys7等破解</span><br>
+<span>结果五月就出了？</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>弹幕: </b><br>
+<span>psv破解是最好玩的psv游戏</span><br>
+</p><p><b>arx-7: </b><br>
+<span>从没了解过PSV破解相关的新人提问 登了日区PSN的日版机 破解了能玩港服游戏吗？</span><br>
+</p><p><b>wuyin211: </b><br>
+<span>的确，破解过程超好玩，破解了反而吃灰了。</span><br>
+</p><p><b>Zest: </b><br>
+<span>arx-7 发表于 2019-5-9 10:21</span><br>
+<span>从没了解过PSV破解相关的新人提问 登了日区PSN的日版机 破解了能玩港服游戏吗？ ...</span><br>
+<span>能</span><br>
+</p><p><b>蓝星月: </b><br>
+<span>这个版本的破解，能玩PSV90%以上的游戏了吗？</span><br>
+</p><p><b>Zest: </b><br>
+<span>能玩99%</span><br>
+</p><p><b>玩吗？: </b><br>
+<span>把吃灰多年的机子翻出来折腾了破了，然后固化到了3.6.0，请问这个版本如果要玩3.6.5的游戏，需要做什么额外操作吗？搜了一圈没找到答案。。。</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-5-10 08:27 编辑 </span><br>
+<span>https://www.techbang.com/posts/65873-psv-fully-cracked-1th-shot-ref00d-lets-you-execute-new-games-on-low-version-host</span><br>
+</p><p><b>玩吗？: </b><br>
+<span>Zest 发表于 2019-05-10 08:23:47</span><br>
+<span>https://www.techbang.com/posts/65873-psv-fully-cracked-1th-shot-ref00d-lets-you-execute-new-games- ...明白了，多谢</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>小鸟游泉: </b><br>
+<span>最近才想折腾psv破解，可是现在用这个方法破解时因为现在有了3.71系统，卡在了进商店下那几个破解用的psp游戏demo上（提示你得先更新系统）…请教下lz有没有什么办法？psv是3.70系统，账号是日服的</span><br>
+</p><p><b>若闲: </b><br>
+<span>玩破解跟玩胶一个道理，按说明书一步一步来，然后达到理想效果。中间如有问题就去搜索解决。</span><br>
+<span>所以！觉得破解好玩的各位！还等什么！一起成为胶佬吧！</span><br>
+</p><p><b>mintpie: </b><br>
+<span>PSV上有春物GLAGAME，有汉化，想跟团子结婚的，这是最后的机会了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>引用第35楼小鸟游泉于2019-08-11 12:04发表的:</span><br>
+<span>最近才想折腾psv破解，可是现在用这个方法破解时因为现在有了3.71系统，卡在了进商店下那几个破解用......</span><br>
+<span>改个DNS就能上，具体地址百毒一下多试几个</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>医生狼多: </b><br>
+<span>之前psv吃灰了半年出了，现在看到有春物汉化考虑再买一台</span><br>
+</p><p><b>月下流觞: </b><br>
+<span>这几天把psv找出来本想把那堆轨迹都通了 没想到发现了Wa2的汉化</span><br>
+<span>于是就变成天天wa2了</span><br>
+</p><p><b>Mi-24: </b><br>
+<span>这套破解教程适用PSV TV吗？</span><br>
+</p><p><b>Fcrea: </b><br>
+<span>春物汉化了？那我得去破解了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1829707[0-50]</guid>
+    </item>
+  </channel>
+</rss>

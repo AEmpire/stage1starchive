@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WIN10能否支持更换cpu不重装？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>WIN10能否支持更换cpu不重装？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:45:56 +0000</lastBuildDate>
+    <item>
+      <title>WIN10能否支持更换cpu不重装？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917273-1-1.html</link>
+      <description>WIN10能否支持更换cpu不重装？&#13;
+考虑到zen3，有点想先搞个3600x装上然后年底了再换4900x之类的。。。
+&#13;
+所以win10能否支持c盘不重装系统更换cpu呢？</description>
+      <content:encoded><![CDATA[<p><b>兰开夏: </b><br>
+<span>WIN10能否支持更换cpu不重装？</span><br>
+<span>考虑到zen3，有点想先搞个3600x装上然后年底了再换4900x之类的。。。</span><br>
+<span>所以win10能否支持c盘不重装系统更换cpu呢？</span><br>
+</p><p><b>ml1642879: </b><br>
+<span>换cpu和系统有什么关系？换主板才有关系</span><br>
+</p><p><b>Yalbsd: </b><br>
+<span>亲身经历表示，换整个平台都不用重装，别说换U了</span><br>
+</p><p><b>john: </b><br>
+<span>ml1642879 发表于 2020-3-5 13:13</span><br>
+<span>换cpu和系统有什么关系？换主板才有关系</span><br>
+<span>有的，XP时候单核换双核不能开双核，必须重装系统</span><br>
+<span>但那是XP……</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>我觉得不用，我前辈说他不重装效率低</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>CyanCloverFern 发表于 2020-3-5 13:37</span><br>
+<span>我觉得不用，我前辈说他不重装效率低</span><br>
+<span>感觉微妙</span><br>
+</p><p><b>aurraro: </b><br>
+<span>按win10说明是可以，特别是我是从intel换成AMD的。因为win10支持你的liveID和win10绑定数字认证，换了CPU或者主板之后还可以重新联网使用liveID认证。</span><br>
+<span>不过就怕你换完硬件之后系统认证时出问题激活不了</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>cpu么是一定要买的，到时候跑个分，没问题就用有问题就重装喽</span><br>
+</p><p><b>ゼカキユ: </b><br>
+<span>WIN7都可以，我十年前农企3A换牙膏+核弹顺便把系统从HDD迁移到SSD上都没出毛病</span><br>
+</p><p><b>hein: </b><br>
+<span>john 发表于 2020-3-5 13:16</span><br>
+<span>有的，XP时候单核换双核不能开双核，必须重装系统</span><br>
+<span>但那是XP……</span><br>
+<span>xp也不是那么不堪，前几天老人4系i5的系统盘挂了，直接进了第二块盘的xp，除了显卡和网卡驱动，一点问题么有，老人还用了两天才发现。</span><br>
+<span>后来我惭愧的把bios的IDE该到了AHCI🤪</span><br>
+</p><p><b>九耳: </b><br>
+<span>亲测多次。完全没问题</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>johnie: </b><br>
+<span>没问题 我15年装的win10到现在换过2次主板和cpu都没问题</span><br>
+</p><p><b>mondaijin: </b><br>
+<span>不用重装，但要重新激活</span><br>
+</p><p><b>mishizuo: </b><br>
+<span>我昨天刚从intel换到Amd平台，直接开机正常使用。换前去安全模式里删了些驱动（不知道有没有用）。</span><br>
+</p><p><b>幽远ghofar: </b><br>
+<span>一个WIN10从CPU到主板到显卡上上下下都换过了，依然不需要重装</span><br>
+</p><p><b>macos: </b><br>
+<span>vm下动态增加内存和cpu都成立的，关键不在cpu，总线才影响大</span><br>
+</p><p><b>小妻水亚美: </b><br>
+<span>xp的时候换主板倒是要重装的，要不然机都开不了。</span><br>
+<span>—— 来自 motorola XT1929-15, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>jestime: </b><br>
+<span>我最近换主板和u，连启动盘都没设置，直接进系统了</span><br>
+</p><p><b>sirlion: </b><br>
+<span>win10可以通过进入安全模式自动安装新平台的自带驱动，和你全新安装win10一样的效果</span><br>
+<span>比如你更改ahci为raid，正常重启要蓝屏，或者修改注册表啥的，其实直接进入安全模式就可以了，按着shift关机，选择高级启动，然后重启的时候进入bios直接关机，换硬件，开机自动进入安全模式装好驱动，ok</span><br>
+</p><p><b>野田だめ: </b><br>
+<span>电脑硬件炸了的最快解决办法就是把装有win10的硬盘拖到另一个电脑里面启动</span><br>
+<span>真的只要重新激活</span><br>
+</p><p><b>不灭钻石: </b><br>
+<span>我昨晚装好au的电脑直接把iu笔记本上的硬盘拔下来用，可以正常进系统，看起来也没什么问题</span><br>
+<span>不过稳妥起见我还是格盘重装了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>hein 发表于 2020-3-5 13:45</span><br>
+<span>xp也不是那么不堪，前几天老人4系i5的系统盘挂了，直接进了第二块盘的xp，除了显卡和网卡驱动，一点问题 ...</span><br>
+<span>他跟你讲的不是一回事，XP是因为安装的时候内核分单核版、多核的SMP版还有扩展地址支持的PAE版加上SMP+PAE一共四种组合，而XP后的系统已经不再编译单核版本了</span><br>
+<span>https://en.wikipedia.org/wiki/Ntoskrnl.exe</span><br>
+</p><p><b>sorayang: </b><br>
+<span>数字权利通道，把整台机器换了都不影响你使用，前提是更换前后系统版本要一致</span><br>
+</p><p><b>404489039: </b><br>
+<span>win7肯定也行 除非你用ghost版</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>这么说来如果都是au的话其实根本不用担心？</span><br>
+</p><p><b>yujohn: </b><br>
+<span>中午的时候，把家里从i5升级到ryzen5，cpu和主板都换了，一键开机，终于能愉快地在家里加班了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>有句土话怎么说来着？买了新硬件你先把硬盘插上去试试，能用就是白赚，不能用你再重装呗？</span><br>
+</p><p><b>linuy: </b><br>
+<span>根据我的经验，只要不换硬盘，其他全换都可以直接进桌面</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>屎就是这样的，一般用无所谓，就是不知道什么时候味道（bug）就出来了。</span><br>
+<span>一般用随便换。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>Anoneko: </b><br>
+<span>win7时代要事先卸驱动，win10好像不用了</span><br>
+<span>不放心可以sysprep一下</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>不重装怎么感觉买了新电脑？这是仪式</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>没啥问题，我1月份把i5 7500换成3500x,主板cpu全换，硬盘插上直接开机</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>fireandstar: </b><br>
+<span>应该没问题，我现在的台式机c盘d盘是直接从笔记本对拷的(不是全盘对拷是因为分区格式从mbr改成gpt了，手动多做了几个分区)，17年用到现在没遇到啥大毛病</span><br>
+</p><p><b>alvarez: </b><br>
+<span>换平台都不用，年头4790k换了3700x</span><br>
+<span>—— 来自 OnePlus HD1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917273[0-50]</guid>
+    </item>
+  </channel>
+</rss>

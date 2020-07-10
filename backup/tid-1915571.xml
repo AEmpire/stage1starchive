@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>萌新自组ESXI的All in One，求教直通问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>萌新自组ESXI的All in One，求教直通问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:58:47 +0000</lastBuildDate>
+    <item>
+      <title>萌新自组ESXI的All in One，求教直通问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915571-1-1.html</link>
+      <description>萌新自组ESXI的All in One，求教直通问题&#13;
+目前是一块映泰带双网卡的ITX B85主板配4790不K加8G*2并加装了一块富士通4口千兆网卡，现已安装好esxi 6.7+爱快+lede双软路由，目前可正常使用（lede x64的飞机场还没搞到
+&#13;
+现在想给这个机器再增加一个freenas或黑裙子之类玩玩，但主板sata控制器没法直通，搜索了不少也没看到明确的解决办法
+&#13;
+如果添置HBA的sata卡应该能解决直通，然主板就一个pcieX16槽，网卡就没了
+&#13;
+抑或此主板的msata槽可以跳线成为pcie，可转个1x插槽出来接sata卡？似乎很不靠谱
+&#13;
+也有说可以把ESXI本身装在U盘上，再打主板sata驱动去直通，但系统装U盘上的操作也没看到详细教程
+&#13;
+有折腾过的老哥可以给点经验么？</description>
+      <content:encoded><![CDATA[<p><b>RPG-7: </b><br>
+<span>萌新自组ESXI的All in One，求教直通问题</span><br>
+<span>目前是一块映泰带双网卡的ITX B85主板配4790不K加8G*2并加装了一块富士通4口千兆网卡，现已安装好esxi 6.7+爱快+lede双软路由，目前可正常使用（lede x64的飞机场还没搞到</span><br>
+<span>现在想给这个机器再增加一个freenas或黑裙子之类玩玩，但主板sata控制器没法直通，搜索了不少也没看到明确的解决办法</span><br>
+<span>如果添置HBA的sata卡应该能解决直通，然主板就一个pcieX16槽，网卡就没了</span><br>
+<span>抑或此主板的msata槽可以跳线成为pcie，可转个1x插槽出来接sata卡？似乎很不靠谱</span><br>
+<span>也有说可以把ESXI本身装在U盘上，再打主板sata驱动去直通，但系统装U盘上的操作也没看到详细教程</span><br>
+<span>有折腾过的老哥可以给点经验么？</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>双网卡你还要加装千兆网卡干什么?? 如果是为了当交换机用, 那我劝你还是直接买个交换机吧, 现在千兆交换机就一百来块钱吧? LEDE是软路由, 它做交换的性能差到吐血, 我走过这条路, 完全没法和硬交换相提并论</span><br>
+<span>那么另外采购交换机的话, 你的插槽就有了</span><br>
+<span>还有一条路, 就是不要直通sata了, 你就esxi里直接给群辉用呗, 你要是HDD, 也没啥性能问题, SSD才会有, 直通sata的好处只是有smart这些硬盘信息</span><br>
+</p><p><b>琴酒: </b><br>
+<span>单独拿个u盘和硬盘出来试试unraid</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>blackeyed 发表于 2020-2-25 03:19</span><br>
+<span>双网卡你还要加装千兆网卡干什么?? 如果是为了当交换机用, 那我劝你还是直接买个交换机吧, 现在千兆交换机 ...</span><br>
+<span>啊，还真是想当交换机用的，现用旧路由当AP使，把有线都插过去反而性能更好的么</span><br>
+<span>那我先用ESXI的虚拟磁盘给Freenas试试看好了</span><br>
+</p><p><b>0WHan0: </b><br>
+<span> 本帖最后由 0WHan0 于 2020-2-25 17:02 编辑 </span><br>
+<span>我也组了一台有这问题，准备以后换块大板大机箱。有一个疑问想请教一下，双软路由的作用是什么，目前只装了lede，感觉够用了，爱快有什么额外的功能吗。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yuuu: </b><br>
+<span>爱快真不好用，昨天刚把ESXI+IKUAI+LEDE里面的IKUAI 格了只剩LEDE，感觉舒畅多了</span><br>
+</p><p><b>騜: </b><br>
+<span>爱快适合多线路环境配置负载的 家里只有一条宽带没啥必要</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>所以为啥要all in one呢，这配置做nas都overkill了。软路由还是单独一个设备吧。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>eva02eva02: </b><br>
+<span>软路由一般不是搞全局翻X才用的吗</span><br>
+</p><p><b>Processed: </b><br>
+<span>RPG-7 发表于 2020-2-25 13:03</span><br>
+<span>啊，还真是想当交换机用的，现用旧路由当AP使，把有线都插过去反而性能更好的么</span><br>
+<span>那我先用ESXI的 ...</span><br>
+<span>硬交换只要内部跳通电路就是点对点传输</span><br>
+<span>软交换都要去CPU那里周转一下这个效率怎么比</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>0WHan0 发表于 2020-2-25 14:56</span><br>
+<span>我也组了一台有这问题，准备以后换块大板大机箱。有一个疑问想请教一下，双软路由的作用是什么，目前只装了 ...</span><br>
+<span>只是为了区分主路由旁路由嘛，原本是想用ros的，但一时没搞懂，爱快安装比较简单一点就先装着了</span><br>
+<span>旁路由lede自然是为了搞点事情（出国旅游）OP系统的插件丰富</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>cybernetics31 发表于 2020-2-25 16:15</span><br>
+<span>所以为啥要all in one呢，这配置做nas都overkill了。软路由还是单独一个设备吧。</span><br>
+<span>-- 来自 有消息提醒的...</span><br>
+<span>疫情在家没事瞎折腾罢了，还想试试黑苹果的</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>https://koolshare.cn/thread-173537-1-1.html</span><br>
+<span>lz可以参考这个帖子看看能不能直通板载的sata控制器</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>rdm给freenas就可以。</span><br>
+<span>安装到u盘跟安装硬盘是一样的。在esxi安装选择安装盘的时候，你如果之前已经插入了u盘，就会出现u盘的盘符。</span><br>
+<span>msata转成pcie看了一些介绍，问题多多，除非实在没辙或者随便玩玩，否则不建议。</span><br>
+<span>我rdm给win10的盘可以正常看到smart信息，但是通过hba卡直通给黑群的反而看不到smart信息。</span><br>
+</p><p><b>catxing: </b><br>
+<span>RPG-7 发表于 2020-2-26 02:15</span><br>
+<span>只是为了区分主路由旁路由嘛，原本是想用ros的，但一时没搞懂，爱快安装比较简单一点就先装着了</span><br>
+<span>旁路由led ...</span><br>
+<span>主路由还是用ros吧，稳得一逼，虽然学习曲线确实比较陡但是配完了基本你就可以忘掉它的存在了</span><br>
+</p><p><b>RPG-7: </b><br>
+<span> 本帖最后由 RPG-7 于 2020-3-1 12:19 编辑 </span><br>
+<span>高卢鸡 发表于 2020-2-26 17:05</span><br>
+<span>rdm给freenas就可以。</span><br>
+<span>安装到u盘跟安装硬盘是一样的。在esxi安装选择安装盘的时候，你如果之前已经插入了u ...</span><br>
+<span>求教下 esxi引导装在U盘里，再用块NVME转pcie插上装软路由系统，这样主板sata应该就能空余出来直通了把？</span><br>
+<span>PS. ros这个东西能配置的东西也太多了， 有点晕</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>RPG-7 发表于 2020-3-1 12:18</span><br>
+<span>求教下 esxi引导装在U盘里，再用块NVME转pcie插上装软路由系统，这样主板sata应该就能空余出来直通了把？</span><br>
+<span> ...</span><br>
+<span>没这么用过，你需要所有的虚拟系统都装在nvme上，sata完全只作为数据。</span><br>
+<span>还要看esxi能否识别nvme，可能需要6.7版本。</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>6.7u2肯定是可以支持nvme的，我现在6.7u2装在nvme上面</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>暗影翔 发表于 2020-03-02 19:26:28</span><br>
+<span>没这么用过，你需要所有的虚拟系统都装在nvme上，sata完全只作为数据。</span><br>
+<span>还要看esxi能否识别nvme，可能需要 ...额 B85不能用nvme引导，需要修改bios增加模块，所以才想到U盘引导</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>killer0079: </b><br>
+<span>不要用ikuai，我所有的问题都出在ikuai上，单用ledeUI一切正常</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>RPG-7 发表于 2020-3-2 21:04</span><br>
+<span>额 B85不能用nvme引导，需要修改bios增加模块，所以才想到U盘引导</span><br>
+<span>-- 来自 能看大图的 Stage1官 ...</span><br>
+<span>u盘引导起来之后的esxi宿主机，再启动虚拟系统就无所谓b85不能用nvme引导了吧，esxi会把nvme识别为硬盘，然后引导这块盘里的虚拟系统启动。</span><br>
+</p><p><b>killyu: </b><br>
+<span>我原来也试过类似的all in one，不过现在发现还是喜欢在不用时关机，所以弄了个刷好openwrt的n1做旁路由，够用了</span><br>
+</p><p><b>糊状物: </b><br>
+<span>楼主不需要流控，也不需要计费等功能的话，用爱快一点意义都没有啊。。。说到底家庭用户应该基本用不上爱快。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915571[0-50]</guid>
+    </item>
+  </channel>
+</rss>

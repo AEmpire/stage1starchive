@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>幻14外接显示器的时候，内屏背光一直开着这事有救吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>幻14外接显示器的时候，内屏背光一直开着这事有救吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:03 +0000</lastBuildDate>
+    <item>
+      <title>幻14外接显示器的时候，内屏背光一直开着这事有救吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945000-1-1.html</link>
+      <description>幻14外接显示器的时候，内屏背光一直开着这事有救吗&#13;
+如题
+&#13;
+外接用的试typec口，直连2060MQ的
+&#13;
+内屏是连到锐龙的核显上的
+&#13;
+windows里面选了只在外接显示器上显示
+&#13;
+内屏一片漆黑，但是背光一直亮着（关了灯看到角落漏光），这不正常吧
+&#13;
+之前炸了芯片的已经退回给天猫了，这台是京东的，两台都是这样
+&#13;
+所以是AMD混合显卡方案不成熟的问题？无解？还是说有什么工具可以把内屏背光关掉</description>
+      <content:encoded><![CDATA[<p><b>real_zyf: </b><br>
+<span>幻14外接显示器的时候，内屏背光一直开着这事有救吗</span><br>
+<span>如题</span><br>
+<span>外接用的试typec口，直连2060MQ的</span><br>
+<span>内屏是连到锐龙的核显上的</span><br>
+<span>windows里面选了只在外接显示器上显示</span><br>
+<span>内屏一片漆黑，但是背光一直亮着（关了灯看到角落漏光），这不正常吧</span><br>
+<span>之前炸了芯片的已经退回给天猫了，这台是京东的，两台都是这样</span><br>
+<span>所以是AMD混合显卡方案不成熟的问题？无解？还是说有什么工具可以把内屏背光关掉</span><br>
+</p><p><b>我很费纸: </b><br>
+<span>这个问题好像PC区也有R7000用户吐槽了，应该是核显的锅，那个老哥把R7000的核显禁了就没事了。</span><br>
+<span>—— 来自 Sony J9210, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>r7000的问题是是我发的帖。一个办法就是禁用混合模式，另外一个办法是开机后手工切一下到双屏，再切回单独外屏，也能好用。至少我这台r7000是这样</span><br>
+<span>感觉这个bios应该能修正</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>liwangli1983 发表于 2020-6-30 18:39</span><br>
+<span>r7000的问题是是我发的帖。一个办法就是禁用混合模式，另外一个办法是开机后手工切一下到双屏，再切回单独 ...</span><br>
+<span>那么如何禁用混合模式呢...</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>real_zyf 发表于 2020-6-30 19:33</span><br>
+<span>那么如何禁用混合模式呢...</span><br>
+<span>r7000这边用联想自带的管理软件就可以，当然在bios里也可以，幻应该也行吧，这个你查下？</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>liwangli1983 发表于 2020-6-30 19:56</span><br>
+<span>r7000这边用联想自带的管理软件就可以，当然在bios里也可以，幻应该也行吧，这个你查下？ ...</span><br>
+<span>至少bios里面空荡荡啥都没有...</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>real_zyf 发表于 2020-6-30 19:58</span><br>
+<span>至少bios里面空荡荡啥都没有...</span><br>
+<span>我怎么查了下幻这款似乎并不支持独显直接输出？要么你试下我说的另外一种解决办法，或者给华硕写邮件让他们发bios修正</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>liwangli1983 发表于 2020-6-30 20:03</span><br>
+<span>我怎么查了下幻这款似乎并不支持独显直接输出？要么你试下我说的另外一种解决办法，或者给华硕写邮件让他 ...</span><br>
+<span>这玩意很蛋疼的，type c是独显，内屏和hdmi是核显</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>real_zyf 发表于 2020-6-30 20:09</span><br>
+<span>这玩意很蛋疼的，type c是独显，内屏和hdmi是核显</span><br>
+<span>r7000这边看，hdmi和typec都是nv独显……这点比较烦，如果将来跑linux会很麻烦，我到是希望至少有一个是核显输出就好了。</span><br>
+</p><p><b>ChaoSS: </b><br>
+<span>禁用混合好了。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我这边更新了下联想发布的最新显卡驱动，驱动版本是26.20.14034.4001，问题好像好，重启了几遍都没再发现背光问题</span><br>
+</p><p><b>冬马总冠军: </b><br>
+<span>我的pc也这样，还有144和60hz切换所带来的卡顿，懒得管了</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>ChaoSS 发表于 2020-7-2 22:10</span><br>
+<span>禁用混合好了。</span><br>
+<span>并没有找到哪里可以禁用混合</span><br>
+</p><p><b>ChaoSS: </b><br>
+<span>real_zyf 发表于 2020-7-3 23:57</span><br>
+<span>并没有找到哪里可以禁用混合</span><br>
+<span>https://zhuanlan.zhihu.com/p/143370564</span><br>
+<span>左边typec-dp好像直接就是独显直连，可能和R7000一样要下载软件切换一下。</span><br>
+</p><p><b>ChaoSS: </b><br>
+<span>还可以试试传统的方法，合盖不休眠不关机只关显示器看看效果，折到快合住了看看显示器究竟关了没，这样数过来摆放也有利于散热，D面进风以及出风都更强</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>ChaoSS 发表于 2020-7-4 02:09</span><br>
+<span>https://zhuanlan.zhihu.com/p/143370564</span><br>
+<span>左边typec-dp好像直接就是独显直连，可能和R7000一样要下载软 ...</span><br>
+<span>没有找到是指包括华硕自己提供的软件也没有，等后续它会不会提供了。</span><br>
+<span>目前只有来回切一次双屏扩展好使</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>real_zyf 发表于 2020-7-4 12:02</span><br>
+<span>没有找到是指包括华硕自己提供的软件也没有，等后续它会不会提供了。</span><br>
+<span>目前只有来回切一次双屏扩展好使 ...去华硕官网看了吗，有驱动更新吗？</span><br>
+<span>如果没有，不行你去联想网站搜下r7000 2020，找里面的最新显卡驱动试试？我觉得东西都是amd给的，应该不会不兼容吧……</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>liwangli1983 发表于 2020-7-4 20:10</span><br>
+<span>去华硕官网看了吗，有驱动更新吗？</span><br>
+<span>如果没有，不行你去联想网站搜下r7000 2020，找里面的最新显卡驱动试试 ...</span><br>
+<span>看了一眼asus给的是 V26.20.14048.2...看版本号甚至更新一点，不过可以一试嗯</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>real_zyf 发表于 2020-7-4 20:22</span><br>
+<span>看了一眼asus给的是 V26.20.14048.2...看版本号甚至更新一点，不过可以一试嗯</span><br>
+<span>嗯，我觉得应该就解决了。之前到手就换了从amd官网下的那个，4月29号版本，具体版本号忘了</span><br>
+<span>官网驱动主要是无法启用amd控制面板，不过这个到无所谓，反正外接显示器的时候走的是n卡</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945000[0-50]</guid>
+    </item>
+  </channel>
+</rss>

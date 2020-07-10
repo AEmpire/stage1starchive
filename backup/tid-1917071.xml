@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Wi-Fi断流如何诊断锅是谁的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Wi-Fi断流如何诊断锅是谁的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:47:29 +0000</lastBuildDate>
+    <item>
+      <title>Wi-Fi断流如何诊断锅是谁的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917071-1-1.html</link>
+      <description>Wi-Fi断流如何诊断锅是谁的？&#13;
+PC用WUMC710做网卡，使用起来掉线情况特别多，搜索基本上没有类似情况问题，后者固件已更新最新1.01，PC系统win 10已更新最新版本。
+&#13;
+AP是水星4530r，OP改版，主路由k2p，刷的老毛子。
+&#13;
+断流表现，wumc710的Wi-Fi信号灯突然灭掉，没有明显规律性，刷网页或者半响不用也会，网络共享传输数据一段时间也会断。此时浏览器登录wumc710默认10.X也是不确定的，有时候能进入管理页面有时候不能，输入wumc710/也是如此。以前以为主路由水星问题，换k2p，水星ap问题依旧。
+&#13;
+对于Wi-Fi断流的归因，有什么办法么？到底是wumc710的锅还是AP水星的锅？或者主路由k2p？</description>
+      <content:encoded><![CDATA[<p><b>reagain: </b><br>
+<span>Wi-Fi断流如何诊断锅是谁的？</span><br>
+<span>PC用WUMC710做网卡，使用起来掉线情况特别多，搜索基本上没有类似情况问题，后者固件已更新最新1.01，PC系统win 10已更新最新版本。</span><br>
+<span>AP是水星4530r，OP改版，主路由k2p，刷的老毛子。</span><br>
+<span>断流表现，wumc710的Wi-Fi信号灯突然灭掉，没有明显规律性，刷网页或者半响不用也会，网络共享传输数据一段时间也会断。此时浏览器登录wumc710默认10.X也是不确定的，有时候能进入管理页面有时候不能，输入wumc710/也是如此。以前以为主路由水星问题，换k2p，水星ap问题依旧。</span><br>
+<span>对于Wi-Fi断流的归因，有什么办法么？到底是wumc710的锅还是AP水星的锅？或者主路由k2p？</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-3-4 10:54 编辑 </span><br>
+<span>看着像是710崩了，断的时候手机连wifi能用吗</span><br>
+</p><p><b>∴: </b><br>
+<span>我的710也经常断流，最后关掉无线拿来当交换机用了</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2020-3-4 11:08 编辑 </span><br>
+<span>WUMC710当年我用下来有两个缺点比较明显</span><br>
+<span>一是BCM4706比较热 这点可能导致了这玩意寿命不是那么长 用久了也可能不是很稳定（这点amazon上有很多评价）</span><br>
+<span>想用下去可以考虑改造一下散热</span><br>
+<span>二是兼容性不好 和非博通方案的路由/AP混用时 容易出现明显的兼容性问题</span><br>
+<span>即使以前和同用BCM4706的AC66U对搭时 我也是调整了信号间隔才不会断流</span><br>
+<span>另外MW4530R很老了 AR9344都是11n时代的东西了 可以考虑换掉了</span><br>
+</p><p><b>雪影: </b><br>
+<span>路由可能性挺大，我最近不止手机，PS4PRO（5G链接），9000F（5G链接）都经常WIFI有链接但是没办法访问</span><br>
+</p><p><b>reagain: </b><br>
+<span>UGDJ 发表于 2020-3-4 10:52</span><br>
+<span>看着像是710崩了，断的时候手机连wifi能用吗</span><br>
+<span>手机用的5G信号没有问题，710就是断线，拔电重启能连上，然后继续无规律掉线。</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>我也是 最近隔了一个房间就时不时掉线 以前不会的</span><br>
+<span>打算换个路由器了</span><br>
+</p><p><b>reagain: </b><br>
+<span> 本帖最后由 reagain 于 2020-3-4 11:29 编辑 </span><br>
+<span>password 发表于 2020-3-4 11:07</span><br>
+<span>WUMC710当年我用下来有两个缺点比较明显</span><br>
+<span>一是BCM4706比较热 这点可能导致了这玩意寿命不是那么长 用久了也 ...</span><br>
+<span>信号间隔改后没效。</span><br>
+<span>水星我觉得不错，内网传输能跑满带宽速度上40m/s，自定义内容也不少，重要的是宽带只有200m，内网传输也没有太大速率要求。</span><br>
+<span>现在主要想确定锅是谁的，然后再改，到底是换ap还是换710。710速度真的很满意，有些舍不得。</span><br>
+</p><p><b>reagain: </b><br>
+<span>雪影 发表于 2020-3-4 11:12</span><br>
+<span>路由可能性挺大，我最近不止手机，PS4PRO（5G链接），9000F（5G链接）都经常WIFI有链接但是没办法访问 ...</span><br>
+<span>其他正常，就是710掉线，同时手机平板一切正常。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>710</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917071[0-50]</guid>
+    </item>
+  </channel>
+</rss>

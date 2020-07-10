@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>菊花40W无线充兼容性测试</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>菊花40W无线充兼容性测试</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:48:12 +0000</lastBuildDate>
+    <item>
+      <title>菊花40W无线充兼容性测试[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1941956-1-1.html</link>
+      <description>菊花40W无线充兼容性测试&#13;
+ 本帖最后由 Sangria 于 2020-6-16 09:15 编辑 
+
+因为PDD上了国美的车，弄了一台农药V30pro，于是需要购入一台无线充电器（习惯了，之前用IPX,米9都无线充）看来看去还是觉得立式的比较好（私有协议无第三方，立式占空间小也方便摸鱼），于是又上了159.9的40w无线充车。
+&#13;
+这是无线充电联盟WPC的产品资料
+&#13;
+https://www.wirelesspowerconsortium.com/products/8872
+&#13;
+可以看到是EPP等级的无线充电器，即使在不支持私有协议，但是达到EPP通用等级的设备上可以达到10W
+&#13;
+蹊跷的是同一款产品有两个资料，另一个资料里显示的是15W，百思不得骑姐。https://www.wirelesspowerconsortium.com/products/8751
+&#13;
+搭配40W充电器实现27W无线充这个不用说了，我想验证的是既然40W无线充电需要搭配兼容PD的华为65WC2C充电头，那么65WPD充电器能否实现27W无线充。
+&#13;
+结论是：并不能。
+&#13;
+倍思60W 2A1C 充电器C口+3A线=15W
+&#13;
+倍思60W 2A1C 充电器A口+3A线=15W
+&#13;
+爱否QC3.0 24W充电头=15W
+&#13;
+紫米65W插座+5A C2C线=15W
+&#13;
+想来应该是部分QC3.0充电头支持FCP，激活了18W的输入，于是稳定输出15W无线充电，普通PD也同理。
+&#13;
+一个小细节就是15W快充时貌似并不会激活风扇（也可能是办公室太吵听不见），可能是对铝合金外壳散热有自信。
+&#13;
+小总结一下：
+&#13;
+目前菊花家唯一一款立式无线充，如果看中这个算是唯一选择。
+&#13;
+搭配兼容FCP的18W充电头可以实现15W无线充（一大一小两闪电）
+&#13;
+搭配原装40W充电头可以实现27W无线充（废话，一个两折大闪电）
+&#13;
+搭配原装65W充电头才能实现40W无线充（省钱梦碎）</description>
+      <content:encoded><![CDATA[<p><b>Sangria: </b><br>
+<span>菊花40W无线充兼容性测试</span><br>
+<span> 本帖最后由 Sangria 于 2020-6-16 09:15 编辑 </span><br>
+<span>因为PDD上了国美的车，弄了一台农药V30pro，于是需要购入一台无线充电器（习惯了，之前用IPX,米9都无线充）看来看去还是觉得立式的比较好（私有协议无第三方，立式占空间小也方便摸鱼），于是又上了159.9的40w无线充车。</span><br>
+<span>这是无线充电联盟WPC的产品资料</span><br>
+<span>https://www.wirelesspowerconsortium.com/products/8872</span><br>
+<span>可以看到是EPP等级的无线充电器，即使在不支持私有协议，但是达到EPP通用等级的设备上可以达到10W</span><br>
+<span>蹊跷的是同一款产品有两个资料，另一个资料里显示的是15W，百思不得骑姐。https://www.wirelesspowerconsortium.com/products/8751</span><br>
+<span>搭配40W充电器实现27W无线充这个不用说了，我想验证的是既然40W无线充电需要搭配兼容PD的华为65WC2C充电头，那么65WPD充电器能否实现27W无线充。</span><br>
+<span>结论是：并不能。</span><br>
+<span>倍思60W 2A1C 充电器C口+3A线=15W</span><br>
+<span>倍思60W 2A1C 充电器A口+3A线=15W</span><br>
+<span>爱否QC3.0 24W充电头=15W</span><br>
+<span>紫米65W插座+5A C2C线=15W</span><br>
+<span>想来应该是部分QC3.0充电头支持FCP，激活了18W的输入，于是稳定输出15W无线充电，普通PD也同理。</span><br>
+<span>一个小细节就是15W快充时貌似并不会激活风扇（也可能是办公室太吵听不见），可能是对铝合金外壳散热有自信。</span><br>
+<span>小总结一下：</span><br>
+<span>目前菊花家唯一一款立式无线充，如果看中这个算是唯一选择。</span><br>
+<span>搭配兼容FCP的18W充电头可以实现15W无线充（一大一小两闪电）</span><br>
+<span>搭配原装40W充电头可以实现27W无线充（废话，一个两折大闪电）</span><br>
+<span>搭配原装65W充电头才能实现40W无线充（省钱梦碎）</span><br>
+</p><p><b>jestime: </b><br>
+<span>买了上代平面27w的哭出来，不是立式的经常放歪就很难受，车载那个自动夹住的27w倒是很方便</span><br>
+</p><p><b>Sangria: </b><br>
+<span>jestime 发表于 2020-6-16 09:27</span><br>
+<span>买了上代平面27w的哭出来，不是立式的经常放歪就很难受，车载那个自动夹住的27w倒是很方便 ...</span><br>
+<span>上代我看现在还要110左右呢，还真不如160买这个立式。</span><br>
+<span>查了一下米9支持10W EPP无线充电，用这个能10W充也不算慢了。</span><br>
+</p><p><b>datzz: </b><br>
+<span> 本帖最后由 datzz 于 2020-6-16 11:10 编辑 </span><br>
+<span>平面的真的不好用 立式哪怕慢点实用性也更好</span><br>
+<span>而且华为还是哪家好像阉割过第三方无线充电速率？</span><br>
+<span>然后华为40w以上没有开放给第三方，不知道65w和40w不通用和这个有没有关系</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>jestime: </b><br>
+<span>datzz 发表于 2020-6-16 11:07</span><br>
+<span>平面的真的不好用 立式哪怕慢点实用性也更好</span><br>
+<span>而且华为还是哪家好像**过第三方无线充电速率？</span><br>
+<span>平面唯一用处是给freebuds3充电了（</span><br>
+</p><p><b>datzz: </b><br>
+<span>jestime 发表于 2020-6-16 11:08</span><br>
+<span>平面唯一用处是给freebuds3充电了（</span><br>
+<span>耳机又没有快充能力随便找个无线充都可以吧</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Sangria: </b><br>
+<span>jestime 发表于 2020-6-16 11:08</span><br>
+<span>平面唯一用处是给freebuds3充电了（</span><br>
+<span>我Airpods都是把盒子倒过来放实现立式充电器无线充电的，不知道菊花的行不行。</span><br>
+</p><p><b>jestime: </b><br>
+<span>datzz 发表于 2020-6-16 11:09</span><br>
+<span>耳机又没有快充能力随便找个无线充都可以吧</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next- ...</span><br>
+<span>我还有个老的三棒s7，配了个淘宝60多的立式无线充放着当台历用了</span><br>
+</p><p><b>Sangria: </b><br>
+<span>datzz 发表于 2020-6-16 11:09</span><br>
+<span>耳机又没有快充能力随便找个无线充都可以吧</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next- ...</span><br>
+<span>可以用手机反向无线充，OTG功能用C2C线是不是也可以？</span><br>
+</p><p><b>jestime: </b><br>
+<span>Sangria 发表于 2020-6-16 11:12</span><br>
+<span>可以用手机反向无线充，OTG功能用C2C线是不是也可以？</span><br>
+<span>都可以，华为可以有线无线反向充电</span><br>
+</p><p><b>datzz: </b><br>
+<span>Sangria 发表于 2020-6-16 11:12</span><br>
+<span>可以用手机反向无线充，OTG功能用C2C线是不是也可以？</span><br>
+<span>也许应该对电池好点？</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>datzz: </b><br>
+<span>jestime 发表于 2020-6-16 11:11</span><br>
+<span>我还有个老的三棒s7，配了个淘宝60多的立式无线充放着当台历用了</span><br>
+<span>普通手机+无线充电贴也可以啦</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>松霖: </b><br>
+<span>jestime 发表于 2020-6-16 09:27</span><br>
+<span>买了上代平面27w的哭出来，不是立式的经常放歪就很难受，车载那个自动夹住的27w倒是很方便 ...</span><br>
+<span>平面的可以买一个3d打印支架就能立起来了</span><br>
+</p><p><b>子犴: </b><br>
+<span>买了车载的 感觉很好用 支架+充电二合一</span><br>
+</p><p><b>日了狗了: </b><br>
+<span>这个风扇啥时候才能转，用了一个月没看见风扇转过……</span><br>
+</p><p><b>Sangria: </b><br>
+<img src="https://p.sda1.dev/0/5feb6bb6871749dc940197c271b6e3fa/IMG_725DA011E935C27E09C93A54D712BFAA.jpeg" title="https://p.sda1.dev/0/5feb6bb6871749dc940197c271b6e3fa/IMG_725DA011E935C27E09C93A54D712BFAA.jpeg"><br>
+<span>菊花这65W有点东西啊，比紫米30W就大了一丁点，可惜不能折叠插脚。</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>卡米拉大人: </b><br>
+<span>子犴 发表于 2020-6-16 19:08</span><br>
+<span>买了车载的 感觉很好用 支架+充电二合一</span><br>
+<span>求问大佬，我的无线充点烟器，usb口都闪白灯，不知道咋解决，无法充电，拿回家用华为自带充电线+充电器测试又行，迷惑</span><br>
+<span>—— 来自 HUAWEI TAS-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>penpk: </b><br>
+<span>datzz 发表于 2020-6-16 11:45</span><br>
+<span>普通手机+无线充电贴也可以啦</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>求个可靠的、支持10W以上充电功率的无线充电贴！</span><br>
+<span>—— 来自 HUAWEI LIO-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>jestime: </b><br>
+<span>卡米拉大人 发表于 2020-6-21 20:45</span><br>
+<span>求问大佬，我的无线充点烟器，usb口都闪白灯，不知道咋解决，无法充电，拿回家用华为自带充电线+充电器测 ...</span><br>
+<span>华为车载无线充是点烟器转圆头的啊，usb？</span><br>
+</p><p><b>datzz: </b><br>
+<span>penpk 发表于 2020-6-21 21:29</span><br>
+<span>求个可靠的、支持10W以上充电功率的无线充电贴！</span><br>
+<span>—— 来自 HUAWEI LIO-AL00, Android 10上的 S1Next-鹅 ...</span><br>
+<span>快充估计不行</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>zievod: </b><br>
+<span>penpk 发表于 2020-6-21 21:29</span><br>
+<span>求个可靠的、支持10W以上充电功率的无线充电贴！</span><br>
+<span>—— 来自 HUAWEI LIO-AL00, Android 10上的 S1Next-鹅 ...</span><br>
+<span>别吧 </span><br>
+<span>慢充的无限贴都跟要爆炸一样的烫 </span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>松霖 发表于 2020-6-16 11:53</span><br>
+<span>平面的可以买一个3d打印支架就能立起来了</span><br>
+<span>那个支架长得是真的丑</span><br>
+</p><p><b>无念: </b><br>
+<span>40w只能到27w可能是无线传输中损耗太大了，所以降了一档</span><br>
+</p><p><b>Sangria: </b><br>
+<span>无念 发表于 2020-6-22 15:50</span><br>
+<span>40w只能到27w可能是无线传输中损耗太大了，所以降了一档</span><br>
+<span>感觉无线充电功率损耗在15%-25%附近，其实挺不环保？</span><br>
+<span>而且18W输入基本可以支持15W无线，30W无线就要40W输入，40W无线甚至需要65W输入了。</span><br>
+</p><p><b>无念: </b><br>
+<span>Sangria 发表于 2020-6-22 17:13</span><br>
+<span>感觉无线充电功率损耗在15%-25%附近，其实挺不环保？</span><br>
+<span>而且18W输入基本可以支持15W无线，30W无线就 ...</span><br>
+<span>感应线圈的精度就那样了，反正大多数人前几年还在用18w有线快充呢，15w无线也差不多啦</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>子犴: </b><br>
+<span>卡米拉大人 发表于 2020-6-21 20:45</span><br>
+<span>求问大佬，我的无线充点烟器，usb口都闪白灯，不知道咋解决，无法充电，拿回家用华为自带充电线+充电器测 ...</span><br>
+<span>楼下说得对啊 华为车载不是圆头吗 usb白灯什么意思？</span><br>
+</p><p><b>卡米拉大人: </b><br>
+<span>子犴 发表于 2020-6-22 19:35</span><br>
+<span>楼下说得对啊 华为车载不是圆头吗 usb白灯什么意思？</span><br>
+<span>是点烟器圆头没错，就是我把圆头**点烟器以后无法充电，不知道是怎么回事</span><br>
+<span>—— 来自 HUAWEI TAS-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>子犴: </b><br>
+<span>卡米拉大人 发表于 2020-6-22 22:50</span><br>
+<span>是点烟器圆头没错，就是我把圆头**点烟器以后无法充电，不知道是怎么回事</span><br>
+<span>—— 来自 HUAWEI TAS-AN00, A ...</span><br>
+<span>额 听着像接触不良。。 不知道是线的问题还是车上接头的问题 需要排查一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1941956[0-50]</guid>
+    </item>
+  </channel>
+</rss>

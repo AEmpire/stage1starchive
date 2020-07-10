@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>话说 麻将脸要怎样才能在其他网站上用？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>话说 麻将脸要怎样才能在其他网站上用？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:01:20 +0000</lastBuildDate>
+    <item>
+      <title>话说 麻将脸要怎样才能在其他网站上用？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837171-1-1.html</link>
+      <description>话说 麻将脸要怎样才能在其他网站上用？&#13;
+可以吗？我看NGA那也有人用</description>
+      <content:encoded><![CDATA[<p><b>Cortana: </b><br>
+<span>话说 麻将脸要怎样才能在其他网站上用？</span><br>
+<span>可以吗？我看NGA那也有人用</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>之前下过表情包</span><br>
+</p><p><b>Prushka: </b><br>
+<span>应该可以，待我试试Ctrl+F大法替换下NGA那个vtb区表情包的代码</span><br>
+<img src="http://wx1.sinaimg.cn/large/006MV2nZly1g3qkyelrlnj31nj07l40k.jpg" title="http://wx1.sinaimg.cn/large/006MV2nZly1g3qkyelrlnj31nj07l40k.jpg"><br>
+<span>成功了</span><br>
+<span>// ==UserScript==</span><br>
+<span>// @name         NGA论坛Vtuber讨论区表情包</span><br>
+<span>// @version      0.1.0</span><br>
+<span>// @description在NGA发帖框中增加VTB表情（现为清露イクナ和湊あくあ），图片来自于NGA用户绘制。</span><br>
+<span>// @author       hoshikaze</span><br>
+<span>// @match      *://bbs.ngacn.cc/post.php*</span><br>
+<span>// @match      *://ngabbs.com/post.php*</span><br>
+<span>// @match      *://nga.178.com/post.php*</span><br>
+<span>// @match      *://bbs.nga.cn/post.php*</span><br>
+<span>// @grant      none</span><br>
+<span>// @require      http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js</span><br>
+<span>// @namespace    https://greasyfork.org/users/296667</span><br>
+<span>// ==/UserScript==</span><br>
+<span>this.$ = this.jQuery = jQuery.noConflict(true);</span><br>
+<span>(function() {</span><br>
+<span>    'use strict';</span><br>
+<span>    const addStyle = (css) => {</span><br>
+<span>      const style = document.createElement('style')</span><br>
+<span>      style.innerText = css</span><br>
+<span>      document.head.appendChild(style)</span><br>
+<span>    }</span><br>
+<span>    addStyle(`</span><br>
+<span>    .single_ttip2 .div3 > div {</span><br>
+<span>      padding: 4px 4px 0 4px;</span><br>
+<span>    }</span><br>
+<span>    .single_ttip2 .div3 > div:empty {</span><br>
+<span>      display: inline-block;</span><br>
+<span>      padding: 0;</span><br>
+<span>    }</span><br>
+<span>    .vtb-sticker img {</span><br>
+<span>      max-height: 130px;</span><br>
+<span>      cursor: pointer;</span><br>
+<span>    }</span><br>
+<span>    `)</span><br>
+<span>    const stickers = ['./mon_201906/05/-zue37Q5-gemjK7T8S18-18.gif','./mon_201906/05/-zue37Q5-aawK8T8S18-18.gif','./mon_201906/05/-zue37Q5-5khaK5T8S16-u.gif','./mon_201906/05/-zue37Q5-azizK2S1j-10.gif','./mon_201906/05/-zue37Q5-g65eK2S1j-12.gif','./mon_201906/05/-zue37Q5-t4K0Sw-x.png','./mon_201906/05/-zue37Q5-5drlK0Sw-w.png','./mon_201906/05/-zue37Q5-ar9wK0Sw-w.png','./mon_201906/05/-zue37Q5-gakzK0Sw-y.png','./mon_201906/05/-zue37Q5-73lK0Sw-w.png','./mon_201906/05/-zue37Q5-5huwK0Sw-w.png','./mon_201906/05/-zue37Q5-asncK0Sw-w.png','./mon_201906/05/-zue37Q5-ghg1K1Sw-w.png','./mon_201906/05/-zue37Q5-fgsK0Sw-w.png','./mon_201906/05/-zue37Q5-5tx9K0Sw-w.png','./mon_201906/05/-zue37Q5-b2ysK0Sw-w.png','./mon_201906/05/-zue37Q5-gdqgK0Sw-w.png','./mon_201906/05/-zue37Q5-7ofK0Sw-w.png','./mon_201906/05/-zue37Q5-5j68K0Sw-w.png','./mon_201906/05/-zue37Q5-aypoK0Sw-w.png','./mon_201906/05/-zue37Q5-gyv9K0Sw-w.png','./mon_201906/05/-zue37Q5-uw9K0Sw-w.png','./mon_201906/05/-zue37Q5-64h6K0Sw-w.png','./mon_201906/05/-zue37Q5-bg7sK0Sw-w.png','./mon_201906/05/-zue37Q5-h44eK0Sw-w.png','./mon_201906/05/-zue37Q5-xvyK0Sw-w.png','./mon_201906/05/-zue37Q5-69fcK2S10-w.gif','./mon_201906/05/-zue37Q5-bj1lK0Sw-w.png','./mon_201906/05/-zue37Q5-gzq0K0Sw-w.png','./mon_201906/05/-zue37Q5-xjeK0Sw-w.png'</span><br>
+<span>    ]</span><br>
+<span>    const insertBtn = () => {</span><br>
+<span>      if (document.querySelector('button#vtb-sticker')) return</span><br>
+<span>      const box = document.querySelector('#uiAddTag .div3')</span><br>
+<span>      box.insertAdjacentHTML('beforeend', '<button id="vtb-sticker" onclick="window.setvtbSticker(this)">S1</button><div class="vtb-sticker"></div>')</span><br>
+<span>    }</span><br>
+<span>    function m() {</span><br>
+<span>      $("#xoxoxxxoxoxxoo").find("tr").eq(3).find("td.c2").append(' <button title="vtb区" id="vtb-sticker"type="button" style="" onclick="window.setvtbSticker(this)">S1</button><div class="vtb-sticker"></div>');</span><br>
+<span>    }</span><br>
+<span>    m()</span><br>
+<span>    $("body").on("click","#vtb-sticker",function(e) {</span><br>
+<span>      postfunc.dialog.createWindow('uiAddTag')</span><br>
+<span>      postfunc.dialog.w.style.display='none'</span><br>
+<span>      postfunc.dialog.w._.addContent(null)</span><br>
+<span>      postfunc.dialog.w._.addTitle('S1')</span><br>
+<span>      var tmp = ''</span><br>
+<span>      tmp += "<div style='display: block; transform-origin: 0px 0px; width: 1314px; visibility: inherit; transform: translate(0px, 0px) scale(1); left: 19px; top: 449px;'>" </span><br>
+<span>      /*调整边框大小和图片大小*/</span><br>
+<span>      for (var k in stickers) {</span><br>
+<span>            tmp += "<img src='http://img.nga.178.com/attachments/"+stickers+"' max-height='130' onclick='postfunc.dialog.w._.hide();postfunc.addText(\""+stickers+"\")' />"</span><br>
+<span>      }</span><br>
+<span>      tmp += "</div>"</span><br>
+<span>      postfunc.dialog.w._.addContent(tmp)</span><br>
+<span>      postfunc.dialog.w._.show(e)</span><br>
+<span>    })</span><br>
+<span>    const obConfig = {</span><br>
+<span>      subtree: true,</span><br>
+<span>      childList: true</span><br>
+<span>    }</span><br>
+<span>    const targetNode = document.body</span><br>
+<span>    const observer = new MutationObserver(mutationCallback)</span><br>
+<span>    observer.observe(targetNode, obConfig)</span><br>
+<span>})();</span><br>
+<span>就只替换了下人家的表情图片链接</span><br>
+</p><p><b>yenvy: </b><br>
+<span>复制地址当成图片贴不就是了</span><br>
+</p><p><b>二狗还我五块钱: </b><br>
+<span>每外链一次麻将脸都要点一次泥潭广告来补偿！</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>同问怎么在qq，wx用麻将脸头像</span><br>
+</p><p><b>Prushka: </b><br>
+<span>氪金萌新 发表于 2019-6-5 21:20</span><br>
+<span>同问怎么在qq，wx用麻将脸头像</span><br>
+<span>需要投稿到 企鹅原创开放平台 和 微信表情开放平台</span><br>
+</p><p><b>giogioG: </b><br>
+<span>感觉像line搞收费表情包会很有市场，毕竟扭曲之源</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>Litccc: </b><br>
+<span>氪金萌新 发表于 2019-6-5 21:20</span><br>
+<span>同问怎么在qq，wx用麻将脸头像</span><br>
+<span>wx上有，表情里搜麻将脸就行</span><br>
+</p><p><b>BankA: </b><br>
+<span>qq上怎么用。我第一次存下来当图片发出去但是有边框巨难看。但看到有人发的就没边框，怎么做到的？</span><br>
+</p><p><b>liyibai: </b><br>
+<span>Litccc 发表于 2019-6-5 21:24</span><br>
+<span>wx上有，表情里搜麻将脸就行</span><br>
+<span>好像搜不到啊</span><br>
+</p><p><b>Litccc: </b><br>
+<span>liyibai 发表于 2019-6-5 21:47</span><br>
+<span>好像搜不到啊</span><br>
+<span>我这里可以搜到，不过不太全</span><br>
+<img src="https://i.loli.net/2019/06/05/5cf7ca16eaad028525.png" title="https://i.loli.net/2019/06/05/5cf7ca16eaad028525.png"><br>
+</p><p><b>woxihuan23: </b><br>
+<span>感觉不在s1用，就失去神韵了。</span><br>
+</p><p><b>雨R: </b><br>
+<span>微信里那个太高清了，想要低清像素版</span><br>
+</p><p><b>ykyin09: </b><br>
+<span>Litccc 发表于 2019-6-5 21:56</span><br>
+<span>我这里可以搜到，不过不太全</span><br>
+<span>高清麻将脸反而没有感觉。</span><br>
+</p><p><b>kona-kona: </b><br>
+<span>高清麻将脸失去了神韵</span><br>
+</p><p><b>Litccc: </b><br>
+<span>ykyin09 发表于 2019-6-5 22:09</span><br>
+<span>高清麻将脸反而没有感觉。</span><br>
+<span>我也感觉，泥潭整天弄那些广告还不如出微信表情创收</span><br>
+</p><p><b>Cortana: </b><br>
+<span>雨R 发表于 2019-6-5 22:08</span><br>
+<span>微信里那个太高清了，想要低清像素版</span><br>
+<span>而且太大了......感觉细节一多就失去神韵了（</span><br>
+</p><p><b>kona-kona: </b><br>
+<span>复议，麻将脸表情创收</span><br>
+</p><p><b>mumubear: </b><br>
+<span>氪金萌新 发表于 2019-6-5 21:20</span><br>
+<span>同问怎么在qq，wx用麻将脸头像</span><br>
+<span>我试过，发到微信里泥潭原版大概是小拇指二分之一的大小你确定？。。。</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1825867-0-1.html</span><br>
+<span>当做图片发送</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>asion617: </b><br>
+<span>gif的可以直接拖下来发微信就是表情了，但是静图这么做在微信上显示大小会不对</span><br>
+</p><p><b>kane123: </b><br>
+<span>微信那个只能单独发不能放在文字里</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>左梓喵右受兔: </b><br>
+<span>麻将脸表情 在哪掏钱？</span><br>
+</p><p><b>ulysses: </b><br>
+<span>那个钓鱼咬钩无限吞噬循环的表情太赞了，希望能上架wx</span><br>
+</p><p><b>小冻子: </b><br>
+<span>管理员找人做个微信表情收费然后补贴论坛吧</span><br>
+</p><p><b>bzmk: </b><br>
+<span>忽然好奇麻将脸最早是泥潭哪位大大创作的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>便秘的狗: </b><br>
+<span>以前有个帖子里有下载包，可以下下来自己导到微信表情里用，原汁原味。</span><br>
+</p><p><b>Stellar_Frost: </b><br>
+<span>支持出付费微信表情包，不用高清化，敢出敢买</span><br>
+</p><p><b>Prushka: </b><br>
+<span>不高清化好像不行，QQ和微信表情有分辨率要求的</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>饿梦: </b><br>
+<span>支持官方表情包</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837171[0-50]</guid>
+    </item>
+  </channel>
+</rss>

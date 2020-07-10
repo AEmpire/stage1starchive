@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在FC的盗版卡真先进，都用上Altera的CPLD了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在FC的盗版卡真先进，都用上Altera的CPLD了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:56:40 +0000</lastBuildDate>
+    <item>
+      <title>现在FC的盗版卡真先进，都用上Altera的CPLD了[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847499-1-1.html</link>
+      <description>现在FC的盗版卡真先进，都用上Altera的CPLD了&#13;
+ 本帖最后由 yksoft1 于 2019-7-17 21:27 编辑 
+
+最近以一张80的价买了几个有人新搞的KONAMI FC游戏合卡，一拆开来，表示相当震惊。当初设计FC的人肯定想不到这一步。
+&#13;
+先拆开恶魔城3（英文化的FC日版恶魔城传说）的卡。板号FC-01C，日期1810。预留了电池位置。
+&#13;
+卡上一共有4个IC。
+&#13;
+卡带主控，Altera的CPLD EPM240T100C5N。这个CPLD的理论复杂度比整个FC加起来都高不少倍，貌似在D商那里主要用于烧录卡中。不知道店家改一下板子和程序是否能直接改成烧录卡？
+&#13;
+注意到旁边的CON2和JTAG了？难不成这个卡的游戏程序就是直接上电之后通过JTAG烧进来的。。
+&#13;
+128KB的SRAM，LP62S1024BX。估计是作为卡带VRAM使用。
+&#13;
+ 8MB的NOR FLASH，S29GL064N90TF104。单独一个“恶魔城3”应该只有512KB不到，有点浪费了。
+&#13;
+这个SRAM的型号看不清。
+&#13;
+然后再拆一个合卡，内含RPG游戏，有电池的。布局和板号和上一盘一样。
+&#13;
+主控一样。
+&#13;
+BS62LV2001STI，256KB的SRAM，应该也是作VRAM用的。
+&#13;
+NOR FLASH 和上一盘一样，其上面的SRAM是8KB的LH5168N-10L。估计上一盘卡看不清的那个也是8KB。
+&#13;
+这个SRAM应该是用于存储游戏电池记忆的WRAM。据说同一卡板有些其他合卡可存多个游戏存档，只有这一块WRAM，是怎么做到的？
+&#13;
+合卡里面有五右卫门、宇宙巡航机2、Q版沙罗曼蛇、兵蜂3等以前很少能见到盗版的游戏。拉格朗日点有原版、汉化版，不知是否因为CPLD没模拟VRC7的扩展音源，没音乐。
+&#13;
+恶魔城3是日版恶魔城传说改的，不知是否因为没模拟VRC6音源，音乐没有主音。周末去拿原装FC试一下，就知道了。</description>
+      <content:encoded><![CDATA[<p><b>czxiang_0: </b><br>
+<span>jun6627480 发表于 2019-7-18 14:34</span><br>
+<span>当年真的有48合一不重样的卡么，因为家里有亲戚开店卖小霸王的，去店里蹭的玩了不少，印象中不管是48合一68 ...</span><br>
+<span>有 </span><br>
+<span>早年 90年代初期 42 48 64 72in1都是不带重样的。</span><br>
+<span>当年老爸在南京路市百一店4楼花了480元天价买的48合一。卡带是白色的，游戏选择画面还分2种，按reset重置。</span><br>
+<span>现在还记得其中一版 1.超级玛丽2 2.兵峰 3.B计划</span><br>
+<span>各类hack魔改版是90年代后期才流行起来的</span><br>
+</p><p><b>bfogda: </b><br>
+<span>我小时候 大概95年</span><br>
+<span>一张不重复的4合1大概80左右</span><br>
+</p><p><b>纯战士: </b><br>
+<span>华理傻宅 发表于 2019-7-18 12:44</span><br>
+<span>正版卡6800日元，你不要小看泡沫经济的日本。。。</span><br>
+<span>最牛逼的还是sfc时，那些rpg动不动就是8800，9800的 ...</span><br>
+<span>按这个汇率的话90年左右魂斗罗要卖500么？当时好像没有卖那么贵啊，那看来经常去的店估计卖的是中古的。这种价位难怪后来再也买不到正版卡了，当时的500比现在5000贵。</span><br>
+</p><p><b>华理傻宅: </b><br>
+</p><p><b>lcx0cd: </b><br>
+<span>华理傻宅 发表于 2019-7-18 07:20</span><br>
+<span>这贴暴露泥潭已经世代交替了啊，fc卡带100多200多的时代，可能他们还没出生了 ...</span><br>
+<span>这才是实话 八几年的时候卡带贵得很</span><br>
+</p><p><b>P-L: </b><br>
+<span>卡带机能超过主机</span><br>
+</p><p><b>P-L: </b><br>
+<span>大概96年，买个成龙之龙、魂斗罗3等四合一还要200</span><br>
+</p><p><b>真那啥: </b><br>
+<span>97还是98年来着，买吞食天地3也就是吞2奸商汉化版，80元，坐标福州天丰电子城</span><br>
+<span>为什么记得这么清楚呢，因为这破卡容易掉档，我买了两张，贵爆</span><br>
+</p><p><b>纯战士: </b><br>
+<span>华理傻宅 发表于 2019-7-18 18:27</span><br>
+<span>是重装机兵比较贵吧，魂斗罗这种是不是两三千日元的这个价位啊</span><br>
+</p><p><b>华理傻宅: </b><br>
+<span> 本帖最后由 华理傻宅 于 2019-7-18 23:11 编辑 </span><br>
+<span>纯战士 发表于 2019-7-18 22:44</span><br>
+<span>是重装机兵比较贵吧，魂斗罗这种是不是两三千日元的这个价位啊</span><br>
+<span>兵峰和沙罗曼蛇1都是4900，86年的</span><br>
+<span>魂斗罗应该也差不多吧</span><br>
+<span>dq1开启jrpg历史可能也是因为定价低“只要”4900，同样价格游戏性提高太多了，这口碑肯定好啊</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>P-L 发表于 2019-7-18 19:57</span><br>
+<span>卡带机能超过主机</span><br>
+<span>SFC后期的一些卡带已经是这样了，记得有一个DSP搭载27MHz还是多少的ARM3。</span><br>
+</p><p><b>P-L: </b><br>
+<span>yksoft1 发表于 2019-7-19 08:08</span><br>
+<span>SFC后期的一些卡带已经是这样了，记得有一个DSP搭载27MHz还是多少的ARM3。</span><br>
+<span>那个星际火狐卡带就超过主机了吧</span><br>
+</p><p><b>onezeron: </b><br>
+<span>这个是真的有点牛逼</span><br>
+</p><p><b>melvin95: </b><br>
+<span>一个树莓派的算力就是全世界FC加起来也不如啊</span><br>
+<span>30多年前的情怀和硬件是两回事</span><br>
+</p><p><b>我要写个惨字: </b><br>
+<span>这要是整点都市传说出来，敖厂长是不是又有素材了？</span><br>
+</p><p><b>ralfli: </b><br>
+<span>viosonia 发表于 2019-7-18 01:13</span><br>
+<span>90年代初，不重样的76合一花了我爸460大洋</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1. ...</span><br>
+<span>90年代出，超级魂斗罗花了我爹120大洋</span><br>
+</p><p><b>棺材叔叔: </b><br>
+<span>是实现原理不同嘛，我看都有把N合1 FC做到直尺上的，要插到FC上玩，反而板子要做的更大了？</span><br>
+</p><p><b>MOOMBA: </b><br>
+<span>棺材叔叔 发表于 2019-7-19 15:35</span><br>
+<span>是实现原理不同嘛，我看都有把N合1 FC做到直尺上的，要插到FC上玩，反而板子要做的更大了？ ...</span><br>
+<span>原理不同吧</span><br>
+<span>小霸王尺是用现在的技术实现游戏的模拟</span><br>
+<span>卡带模拟是尽可能还原原始环境   </span><br>
+<span>原始rom卡带配合原始的机器达成实机体验而不是"模拟器"这种东西了 吧...</span><br>
+</p><p><b>ChrisSnake: </b><br>
+<span>wjbdasd 发表于 2019-7-18 15:34</span><br>
+<span>有啊，经典的64合1卡带很多人应该都买过，初始光标停留在《碰碰车》上，里面的游戏大多是"几百合1"那种体 ...</span><br>
+<span>64合1超级经典 还有各种4合1</span><br>
+</p><p><b>highsky: </b><br>
+<span>fcbjay 发表于 2019-7-18 00:07</span><br>
+<span>一张80喷了</span><br>
+<span>小时候多少钱一张来着？</span><br>
+<span>好像10块钱左右</span><br>
+<span>93年时一张霸王的大陆300以上，盗版的</span><br>
+</p><p><b>口袋妖怪: </b><br>
+<span>你这设备玩我感觉还不如直接用小龙王</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>口袋妖怪 发表于 2019-7-19 22:19</span><br>
+<span>你这设备玩我感觉还不如直接用小龙王</span><br>
+<span>这台机子只是用来测的。真玩当然还是要用newfc+joycard</span><br>
+</p><p><b>550616: </b><br>
+<span>bfogda 发表于 2019-7-18 16:56</span><br>
+<span>我小时候 大概95年</span><br>
+<span>一张不重复的4合1大概80左右</span><br>
+<span>是不是9人街霸，烈火三代（打飞机射击游戏），热血新纪录（英文版），野战排（特种部队）</span><br>
+</p><p><b>牧濑紅莉栖: </b><br>
+<span>龙珠z z2 z3 赛亚人灭绝计划这个经典四合一应该要200多的，当年玩的停不下来</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>记得听清楚，我小学的时候买的小霸王红白机，花了老爸168元人民币。</span><br>
+<span>后来在火车站批发市场花了156块钱买了张四合一的卡。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847499[50-100]</guid>
+    </item>
+    <item>
+      <title>现在FC的盗版卡真先进，都用上Altera的CPLD了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847499-1-1.html</link>
+      <description>现在FC的盗版卡真先进，都用上Altera的CPLD了&#13;
+ 本帖最后由 yksoft1 于 2019-7-17 21:27 编辑 
+
+最近以一张80的价买了几个有人新搞的KONAMI FC游戏合卡，一拆开来，表示相当震惊。当初设计FC的人肯定想不到这一步。
+&#13;
+先拆开恶魔城3（英文化的FC日版恶魔城传说）的卡。板号FC-01C，日期1810。预留了电池位置。
+&#13;
+卡上一共有4个IC。
+&#13;
+卡带主控，Altera的CPLD EPM240T100C5N。这个CPLD的理论复杂度比整个FC加起来都高不少倍，貌似在D商那里主要用于烧录卡中。不知道店家改一下板子和程序是否能直接改成烧录卡？
+&#13;
+注意到旁边的CON2和JTAG了？难不成这个卡的游戏程序就是直接上电之后通过JTAG烧进来的。。
+&#13;
+128KB的SRAM，LP62S1024BX。估计是作为卡带VRAM使用。
+&#13;
+ 8MB的NOR FLASH，S29GL064N90TF104。单独一个“恶魔城3”应该只有512KB不到，有点浪费了。
+&#13;
+这个SRAM的型号看不清。
+&#13;
+然后再拆一个合卡，内含RPG游戏，有电池的。布局和板号和上一盘一样。
+&#13;
+主控一样。
+&#13;
+BS62LV2001STI，256KB的SRAM，应该也是作VRAM用的。
+&#13;
+NOR FLASH 和上一盘一样，其上面的SRAM是8KB的LH5168N-10L。估计上一盘卡看不清的那个也是8KB。
+&#13;
+这个SRAM应该是用于存储游戏电池记忆的WRAM。据说同一卡板有些其他合卡可存多个游戏存档，只有这一块WRAM，是怎么做到的？
+&#13;
+合卡里面有五右卫门、宇宙巡航机2、Q版沙罗曼蛇、兵蜂3等以前很少能见到盗版的游戏。拉格朗日点有原版、汉化版，不知是否因为CPLD没模拟VRC7的扩展音源，没音乐。
+&#13;
+恶魔城3是日版恶魔城传说改的，不知是否因为没模拟VRC6音源，音乐没有主音。周末去拿原装FC试一下，就知道了。</description>
+      <content:encoded><![CDATA[<p><b>yksoft1: </b><br>
+<span>现在FC的盗版卡真先进，都用上Altera的CPLD了</span><br>
+<span> 本帖最后由 yksoft1 于 2019-7-17 21:27 编辑 </span><br>
+<span>最近以一张80的价买了几个有人新搞的KONAMI FC游戏合卡，一拆开来，表示相当震惊。当初设计FC的人肯定想不到这一步。</span><br>
+<span>先拆开恶魔城3（英文化的FC日版恶魔城传说）的卡。板号FC-01C，日期1810。预留了电池位置。</span><br>
+<span>卡上一共有4个IC。</span><br>
+<span>卡带主控，Altera的CPLD EPM240T100C5N。这个CPLD的理论复杂度比整个FC加起来都高不少倍，貌似在D商那里主要用于烧录卡中。不知道店家改一下板子和程序是否能直接改成烧录卡？</span><br>
+<span>注意到旁边的CON2和JTAG了？难不成这个卡的游戏程序就是直接上电之后通过JTAG烧进来的。。</span><br>
+<span>128KB的SRAM，LP62S1024BX。估计是作为卡带VRAM使用。</span><br>
+<span> 8MB的NOR FLASH，S29GL064N90TF104。单独一个“恶魔城3”应该只有512KB不到，有点浪费了。</span><br>
+<span>这个SRAM的型号看不清。</span><br>
+<span>然后再拆一个合卡，内含RPG游戏，有电池的。布局和板号和上一盘一样。</span><br>
+<span>主控一样。</span><br>
+<span>BS62LV2001STI，256KB的SRAM，应该也是作VRAM用的。</span><br>
+<span>NOR FLASH 和上一盘一样，其上面的SRAM是8KB的LH5168N-10L。估计上一盘卡看不清的那个也是8KB。</span><br>
+<span>这个SRAM应该是用于存储游戏电池记忆的WRAM。据说同一卡板有些其他合卡可存多个游戏存档，只有这一块WRAM，是怎么做到的？</span><br>
+<span>合卡里面有五右卫门、宇宙巡航机2、Q版沙罗曼蛇、兵蜂3等以前很少能见到盗版的游戏。拉格朗日点有原版、汉化版，不知是否因为CPLD没模拟VRC7的扩展音源，没音乐。</span><br>
+<span>恶魔城3是日版恶魔城传说改的，不知是否因为没模拟VRC6音源，音乐没有主音。周末去拿原装FC试一下，就知道了。</span><br>
+</p><p><b>faust123: </b><br>
+<span>挺奇妙的</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>我怎么看到了ALTERA的标啊</span><br>
+</p><p><b>超氪金月饼: </b><br>
+<span>高射炮打蚊子</span><br>
+</p><p><b>拆骨羊肉2: </b><br>
+<span>你想买到老fc卡带里的老掉牙芯片，而且还能烧录数据</span><br>
+<span>那可比弄个新的贵多了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>thinkideas: </b><br>
+<span>这MAX II不是Altera的嘛。。。我以前天天用，现在换Zynq了。</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>这种FPGA散片的资源足够把所有FC卡带数据做进LUT或者block ram吗，不然就是只烧出个控制器？</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>アーシェス 发表于 2019-7-17 22:24</span><br>
+<span>这种FPGA散片的资源足够把所有FC卡带数据做进LUT或者block ram吗，不然就是只烧出个控制器？ ...</span><br>
+<span>合卡数据量挺大的。而且人家也要考虑模块化生产。</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>Lunamos 发表于 2019-7-17 21:27</span><br>
+<span>合卡数据量挺大的。而且人家也要考虑模块化生产。</span><br>
+<span>我觉得这种卡带的多游戏电池记忆的WRAM内容就是复制到CPLD的ram里面了。</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>Lunamos 发表于 2019-7-17 21:27</span><br>
+<span>合卡数据量挺大的。而且人家也要考虑模块化生产。</span><br>
+<span>bitstream反正也是存在flash里的，烧数据进去也就是多综合几个版本的事吧</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>アーシェス 发表于 2019-7-17 22:29</span><br>
+<span>bitstream反正也是存在flash里的，烧数据进去也就是多综合几个版本的事吧</span><br>
+<span>主要当然还是资源不够烧吧，特别小的游戏可能还行，再加上管理生产麻烦。加块FLASH成本更低。</span><br>
+</p><p><b>铅笔: </b><br>
+<span>现在不用黑疙瘩了？？</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>铅笔 发表于 2019-7-17 21:45</span><br>
+<span>现在不用黑疙瘩了？？</span><br>
+<span>现在fc盗版卡产量已经大大减少，搞软封装绑定还是要量大才便宜的。</span><br>
+</p><p><b>bruce314314: </b><br>
+<span>电子产品进步大，最早期的硬盘好像是一栋楼这么大</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>铅笔 发表于 2019-07-17 21:45:45</span><br>
+<span>现在不用黑疙瘩了？？黑疙瘩里面到底是啥？一直很好奇</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>一张80喷了</span><br>
+<span>小时候多少钱一张来着？</span><br>
+<span>好像10块钱左右</span><br>
+</p><p><b>夜明的月下: </b><br>
+<span>往有时尚魔女硬核街机玩家。今有2019FC卡带发烧友这就是我为什么离不开这个破谭的原因</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>反正是双面板，线都看的到，几个IC的规格书一下载，对着IO看，基本就清楚是怎么个玩意了。</span><br>
+<span>CPLD我只用过lattice的XP2，altera只用过c2-c5，MAXII资源太小，从来没在设计里用过，FPGA是可以通过jtag口烧录jic来配置自己的spi flash的。理论上也可以通过jtag先配置一个nand flash if 然后把数据从jtag口灌到nand里更新游戏。</span><br>
+<span>如果资源少，完全可以配置是一套，运行是另一套。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>迪米特里: </b><br>
+<span>fcbjay 发表于 2019-7-18 00:07</span><br>
+<span>一张80喷了</span><br>
+<span>小时候多少钱一张来着？</span><br>
+<span>好像10块钱左右</span><br>
+<span>喷了，fc卡因为载体成本一直没怎么降，80是正常价位，玩腻的卡去店里10元换张别的游戏倒是有</span><br>
+</p><p><b>viosonia: </b><br>
+<span>90年代初，不重样的76合一花了我爸460大洋</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>迪米特里 发表于 2019-7-18 01:05</span><br>
+<span>喷了，fc卡因为载体成本一直没怎么降，80是正常价位，玩腻的卡去店里10元换张别的游戏倒是有</span><br>
+<span> ...</span><br>
+<span>怎么可能。2000年左右农村孩子哪有80块钱去买游戏。那时候一台学习机也就一两百。</span><br>
+</p><p><b>海克托尔: </b><br>
+<span>fcbjay 发表于 2019-7-18 01:22</span><br>
+<span>怎么可能。2000年左右农村孩子哪有80块钱去买游戏。那时候一台学习机也就一两百。 ...</span><br>
+<span>00年→_→，那是清仓处理价啊</span><br>
+</p><p><b>华理傻宅: </b><br>
+<span>这贴暴露泥潭已经世代交替了啊，fc卡带100多200多的时代，可能他们还没出生了</span><br>
+</p><p><b>Feena: </b><br>
+<span>喷了，真实杀鸡牛刀</span><br>
+</p><p><b>另一个小智: </b><br>
+<span>fcbjay 发表于 2019-7-18 00:07</span><br>
+<span> 一张80喷了 小时候多少钱一张来着？ 好像10块钱左右</span><br>
+<span>我记得98年附近吧，几百合一的垃圾卡50一张，好点的三合一四合一都要100左右</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>现在这些卡带应该都是随着FC、SFC的最新烧录技术的发展而诞生出来的，这种卡应该说是没多大意义，如果想玩不如用烧录卡。</span><br>
+</p><p><b>无动于衷: </b><br>
+<span>技术革新 X</span><br>
+<span>老硬件不造了 O</span><br>
+</p><p><b>black: </b><br>
+<span> 本帖最后由 black 于 2019-7-18 08:56 编辑 </span><br>
+<span>2000年后</span><br>
+<span>外星科技那些盗版汉化带电池的游戏倒是80起步最高卖到150，当然旧二手和卖不掉处理的60能搞到。</span><br>
+</p><p><b>MOOMBA: </b><br>
+<span>9102年了为何FC卡带的完全形态100%模拟硬件的烧录卡 好像还是很少看到吧。。</span><br>
+<span>烧录卡配合特殊芯片完美再现FC卡带机能然后主机添加一个HDMI接口实现数字信号输出</span><br>
+<span>这种FC游戏终极解决方案 在技术上感觉应该没啥瓶颈了 果然是价格成本问题么？。。。</span><br>
+</p><p><b>纯战士: </b><br>
+<span>游戏卡的价格肯定是200左右啊，当时盗版卡跟正版卡价格上并没有什么区别。如果是80的话，那肯定已经是2000年左右了，2000年左右GB和GBA的盗版卡，价格大概是100左右，便宜的有80的。2000年左右FC有模拟器了啊，花钱买卡不划算了。</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>MOOMBA 发表于 2019-7-18 09:09</span><br>
+<span>9102年了为何FC卡带的完全形态100%模拟硬件的烧录卡 好像还是很少看到吧。。</span><br>
+<span>烧录卡配合特殊芯 ...</span><br>
+<span>Everdrive N8 Pro比起之前的N8 强很多。不过还在开发中</span><br>
+</p><p><b>希瓦的守护: </b><br>
+<span>一台仿PS1造型的机器插着FC的卡带，索索和任任：now，we are one！</span><br>
+</p><p><b>mcfly: </b><br>
+<span>这一张卡就秒了fc的机能，还要主机干嘛？</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>MOOMBA 发表于 2019-7-18 09:09</span><br>
+<span>9102年了为何FC卡带的完全形态100%模拟硬件的烧录卡 好像还是很少看到吧。。</span><br>
+<span>烧录卡配合特殊芯 ...</span><br>
+<span>FC 改 rgb 输出的技术已经很成熟了，接彩监的输出效果比 hdmi 液晶电视好不知道多少倍</span><br>
+</p><p><b>MOOMBA: </b><br>
+<span>huzhiyangqaz 发表于 2019-7-18 09:46</span><br>
+<span>FC 改 rgb 输出的技术已经很成熟了，接彩监的输出效果比 hdmi 液晶电视好不知道多少倍 ...</span><br>
+<span>问题是彩监随着时间的发展入手难度 保养难度 存放难度都是问题吧</span><br>
+<span>虽然以前梦想有一台丢家里 爽玩以前的老式机器</span><br>
+<span>现在慢慢的 已经不奢望了。。。</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>我以前玩的fc盗版卡，游戏很多，拆开大多都只有一个大黑点封装，看不到其他芯片，这种算先进吗？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>fcbjay: </b><br>
+<span>Inquisitor 发表于 2019-7-18 09:58</span><br>
+<span>我以前玩的fc盗版卡，游戏很多，拆开大多都只有一个大黑点封装，看不到其他芯片，这种算先进吗？</span><br>
+<span>----发送 ...</span><br>
+<span>对，就是这种</span><br>
+</p><p><b>doraemon0711: </b><br>
+<span>fcbjay 发表于 2019-7-18 00:07</span><br>
+<span>一张80喷了</span><br>
+<span>小时候多少钱一张来着？</span><br>
+<span>好像10块钱左右</span><br>
+<span>得看时间节点的，2000年以后一般都是一张四合一10块钱，80年代和90年代出去80一张不奇怪</span><br>
+</p><p><b>黑茶子: </b><br>
+<span>95年左右的时候经典三，五合一FC卡（我这叫黄卡）的确要一百一张，光荣的三国志大航海时代那种单游戏的黑卡更要近200一张，而99合一，200合一的也要50多一张</span><br>
+<span>那时候买不起卡就去新华书店卖小霸王学习机的柜台一元钱一小时向营业员租着玩</span><br>
+<span>时泪啊</span><br>
+</p><p><b>Demi.Albertini: </b><br>
+<span>Inquisitor 发表于 2019-7-18 09:58</span><br>
+<span>我以前玩的fc盗版卡，游戏很多，拆开大多都只有一个大黑点封装，看不到其他芯片，这种算先进吗？</span><br>
+<span>----发送 ...</span><br>
+<span>牛屎封装，成本低，但是封装效果不错</span><br>
+</p><p><b>华理傻宅: </b><br>
+<span>纯战士 发表于 2019-7-18 09:14</span><br>
+<span>游戏卡的价格肯定是200左右啊，当时盗版卡跟正版卡价格上并没有什么区别。如果是80的话，那肯定已经是2000 ...</span><br>
+<span>正版卡6800日元，你不要小看泡沫经济的日本。。。</span><br>
+<span>最牛逼的还是sfc时，那些rpg动不动就是8800，9800的</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>希瓦的守护 发表于 2019-7-18 09:15</span><br>
+<span>一台仿PS1造型的机器插着FC的卡带，索索和任任：now，we are one！</span><br>
+<span>国内的山寨主机，种类还是挺多的，什么样外形的FC兼容机都有。</span><br>
+<span>我记得喷神还为国内的山寨主机做过几期节目，我真没想到国内山寨的影响力已经达到这么大的程度了……</span><br>
+</p><p><b>iqbsh38: </b><br>
+<span>99年吧 我一张48合一没重样的经典游戏合集是79元 300合一的魂斗罗雪人兄弟马里奥冒险岛是120 单个游戏的55 都是我不吃早饭一点一点攒的</span><br>
+</p><p><b>jun6627480: </b><br>
+<span>当年真的有48合一不重样的卡么，因为家里有亲戚开店卖小霸王的，去店里蹭的玩了不少，印象中不管是48合一68合一88合一100合一一般都是六七个游戏重复来，最多也没有超过十个游戏的</span><br>
+</p><p><b>nanoka111: </b><br>
+<span> 本帖最后由 nanoka111 于 2019-7-18 15:21 编辑 </span><br>
+<span>jun6627480 发表于 2019-7-18 14:34</span><br>
+<span>当年真的有48合一不重样的卡么，因为家里有亲戚开店卖小霸王的，去店里蹭的玩了不少，印象中不管是48合一68 ...</span><br>
+<span>因为在当时的技术下，FC卡带总容量是有限制的，所以说数量比较大的合卡几乎肯定是有重复的。</span><br>
+<span>如果不考虑那些有名的大作，大多FC游戏的容量是64KB，FC卡带总容量限制好像是1MB，这样合卡最大可容纳不重复游戏数就是16个，这应该是个极限了。</span><br>
+<span>还记得以前玩过一款100合一的卡，这盘卡相对其他很多合卡还是比较厚道的，有一个相对比较复杂的带有音画效果的选择进入游戏的菜单。虽然很多写错的游戏名字表明这只是盗版的手笔而已。</span><br>
+<span>后来这盘卡也被dump出来了，我测了一下，如果去掉重复的游戏的话，这款卡一共是收录了34款游戏，大约是3：1的比例，相对其他数字更大但实际游戏数量更少的合卡应该是很厚道的了。虽说这些游戏里除了魂斗罗都是容量不怎么大的游戏（几乎都是容量不足64KB的游戏）。不过我把这些游戏的ROM都找出来后发现总容量居然比这个合卡ROM要大，看来合卡也是会对原本游戏的做一定精简的。</span><br>
+<span>数量大又不重复的合卡至少要等到闪存技术出现了后才开始有的，这个至少应该在2000年以后了。</span><br>
+</p><p><b>alecwong: </b><br>
+<span>看不懂，就觉得做工真好啊，比小时候好多了</span><br>
+</p><p><b>wjbdasd: </b><br>
+<span>jun6627480 发表于 2019-7-18 14:34</span><br>
+<span>当年真的有48合一不重样的卡么，因为家里有亲戚开店卖小霸王的，去店里蹭的玩了不少，印象中不管是48合一68 ...</span><br>
+<span>有啊，经典的64合1卡带很多人应该都买过，初始光标停留在《碰碰车》上，里面的游戏大多是"几百合1"那种体量，至少买来不会被坑</span><br>
+<span>游戏目录</span><br>
+<span>01冒险岛</span><br>
+<span>02沙罗曼蛇</span><br>
+<span>03星际战士</span><br>
+<span>04七宝奇谋</span><br>
+<span>05影子传说</span><br>
+<span>06俄罗斯方块</span><br>
+<span>07超级马利</span><br>
+<span>08兵蜂</span><br>
+<span>09忍者2代</span><br>
+<span>10碰碰车</span><br>
+<span>11中国象棋</span><br>
+<span>12一九四二</span><br>
+<span>13成龙踢馆</span><br>
+<span>14轰炸队</span><br>
+<span>15前线</span><br>
+<span>16台球</span><br>
+<span>17高尔夫球</span><br>
+<span>18棒球</span><br>
+<span>19弹珠台</span><br>
+<span>20五子棋</span><br>
+<span>21淘金者一</span><br>
+<span>22淘金者二</span><br>
+<span>23二人麻将</span><br>
+<span>24四人麻将</span><br>
+<span>25爱的小屋</span><br>
+<span>26超时空要塞</span><br>
+<span>27F-16雷鸟号</span><br>
+<span>28功夫</span><br>
+<span>29忍者</span><br>
+<span>30水管马利奥</span><br>
+<span>31到33大金刚I、II、III</span><br>
+<span>34快乐猫</span><br>
+<span>35越野机车</span><br>
+<span>36大赛车</span><br>
+<span>37火箭车</span><br>
+<span>38大力水手</span><br>
+<span>39大蜜蜂</span><br>
+<span>40小精灵吃豆</span><br>
+<span>41**</span><br>
+<span>42雪人</span><br>
+<span>43一九八九火凤凰</span><br>
+<span>44摔跤</span><br>
+<span>45坦克</span><br>
+<span>46神风特工队</span><br>
+<span>47气球</span><br>
+<span>48机器人变飞机</span><br>
+<span>49小猪打狼</span><br>
+<span>50马戏团</span><br>
+<span>51空手道</span><br>
+<span>52辛巴达</span><br>
+<span>53南极探险</span><br>
+<span>54到64分别重复前面的</span><br>
+</p><p><b>czxiang_0: </b><br>
+<span>有个小疑问 </span><br>
+<span>当年的龙珠系列卡带从没见过电池，2 3 4合1都是一块黑疙瘩，还能合卡内多个游戏同时保存记录，怎么做到的</span><br>
+</p><p><b>550616: </b><br>
+<span>fcbjay 发表于 2019-7-18 01:22</span><br>
+<span>怎么可能。2000年左右农村孩子哪有80块钱去买游戏。那时候一台学习机也就一两百。 ...</span><br>
+<span>不对吧，92年所谓正版带光枪唐老鸭中文开机配音的小霸王都要102元</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>华理傻宅 发表于 2019-7-18 12:44</span><br>
+<span>正版卡6800日元，你不要小看泡沫经济的日本。。。</span><br>
+<span>最牛逼的还是sfc时，那些rpg动不动就是8800，9800的 ...</span><br>
+<span>FF6和DQ6的时候，价格都直接10800还是11800了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847499[0-50]</guid>
+    </item>
+  </channel>
+</rss>

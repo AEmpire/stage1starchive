@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这什么鬼？机箱没插任何3.5设备但是音频管理狂跳提示</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这什么鬼？机箱没插任何3.5设备但是音频管理狂跳提示</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:55:25 +0000</lastBuildDate>
+    <item>
+      <title>这什么鬼？机箱没插任何3.5设备但是音频管理狂跳提示[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886958-1-1.html</link>
+      <description>这什么鬼？机箱没插任何3.5设备但是音频管理狂跳提示&#13;
+https://i.loli.net/2019/12/08/EYZwC7mb2TcWRuX.png
+&#13;
+什么都没插就狂跳，确认不确认一会儿又提示弹出，无限loop
+&#13;
+https://i.loli.net/2019/12/08/CEDepj62AF4tnmO.png
+&#13;
+不装MSI的驱动不弹这个但是Windows Audio Endpoint Builder的CPU占用率爆高，装了以后驱动是没事了，狂弹窗没法用 这是主板还是音频线的问题？我被这主板坑了一个月，有了阴影</description>
+      <content:encoded><![CDATA[<p><b>序曲: </b><br>
+<span>这什么鬼？机箱没插任何3.5设备但是音频管理狂跳提示</span><br>
+<img src="https://i.loli.net/2019/12/08/EYZwC7mb2TcWRuX.png" title="https://i.loli.net/2019/12/08/EYZwC7mb2TcWRuX.png"><br>
+<span>什么都没插就狂跳，确认不确认一会儿又提示弹出，无限loop</span><br>
+<img src="https://i.loli.net/2019/12/08/CEDepj62AF4tnmO.png" title="https://i.loli.net/2019/12/08/CEDepj62AF4tnmO.png"><br>
+<span>不装MSI的驱动不弹这个但是Windows Audio Endpoint Builder的CPU占用率爆高，装了以后驱动是没事了，狂弹窗没法用 这是主板还是音频线的问题？我被这主板坑了一个月，有了阴影</span><br>
+</p><p><b>序曲: </b><br>
+<span>这你妈把插入自动检测关了总算先不跳了，可这机箱前耳机孔用不了也不是个事啊，泥潭狗狗我，给我点检测思路</span><br>
+</p><p><b>madbird302: </b><br>
+<span>是不是耳机孔那个线插反了</span><br>
+</p><p><b>序曲: </b><br>
+<span>madbird302 发表于 2019-12-8 23:15</span><br>
+<span>是不是耳机孔那个线插反了</span><br>
+<span>那到不会，防呆的</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>检测思路没有，反正空着没在用，找个不用的耳机一直插着满足它呗</span><br>
+</p><p><b>序曲: </b><br>
+<span>typeunknown 发表于 2019-12-8 23:23</span><br>
+<span>检测思路没有，反正空着没在用，找个不用的耳机一直插着满足它呗</span><br>
+<span>不是，插不插都跳……</span><br>
+<span>只能关掉自动检测了</span><br>
+</p><p><b>saderious: </b><br>
+<span>前两天玩守望发现声音一卡一卡的，点开音频设备管理也是不停检测到设备，不知道什么原因，怀疑莫不又是win10bug，因为刚走Windows设置更新了个声卡驱动</span><br>
+</p><p><b>saderious: </b><br>
+<span>缺乏相应知识，最后瞎搞暂时解决了问题，把设备管理器里的声卡禁用了一个，机箱后耳机孔估计用不了了。顺便我的主板是很多年的老主板了，前两天才出的这问题</span><br>
+</p><p><b>两个路人: </b><br>
+<span>如果是win7底下，那大概率是主板或者线头子上负责短路的那个针脚有问题。然而放瘟屎上，就不好说了</span><br>
+</p><p><b>序曲: </b><br>
+<span>saderious 发表于 2019-12-9 00:35</span><br>
+<span>前两天玩守望发现声音一卡一卡的，点开音频设备管理也是不停检测到设备，不知道什么原因，怀疑莫不又是win1 ...</span><br>
+<span>我开始的问题是插上耳麦后音频设备里不停的跳播放设备，一秒G433一秒耳机这么乱跳，不插东西就是一秒耳机一秒红叉这样跳，然后CPU占用率爆炸，插3.5也不见好</span><br>
+<span>MSI官方下个驱动以后就楼顶那样，哦对了我是1909</span><br>
+<span>不对最开始我是1809就这样……</span><br>
+</p><p><b>qianheng: </b><br>
+<span>不就是机箱耳机口坏了</span><br>
+</p><p><b>SORAYA: </b><br>
+<span>把机箱的音频线拔了，去买根质量好的耳机延长线直接插主板声卡的输出口</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>序曲 发表于 2019-12-9 01:49</span><br>
+<span>我开始的问题是插上耳麦后音频设备里不停的跳播放设备，一秒G433一秒耳机这么乱跳，不插东西就是一秒耳机 ...</span><br>
+<span>询问一下</span><br>
+<span>你没考虑过是硬件问题么</span><br>
+</p><p><b>win8: </b><br>
+<span>前面板3.5的耳机孔无论是否检测到耳机插入，都有输出的吧。我的笔记本和Android手机都是这个逻辑。</span><br>
+</p><p><b>杉田悠一: </b><br>
+<span>机箱跳线坏了？</span><br>
+</p><p><b>jzsgtx: </b><br>
+<span>会不会是前面板音频线有问题</span><br>
+</p><p><b>widder: </b><br>
+<span>把前置音频口的线拔下来试试？</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>bug可能更大吧？这种东西放着会坏？</span><br>
+</p><p><b>saderious: </b><br>
+<span>我是1909，不过我没用耳机孔，视频线连电视输出声音的，所以对我影响不大。而且我是主板上耳机孔显示不停检测到设备，感觉不会像用很多年突然坏掉的样子。还是怀疑win10，因为我明确记得当天更新了显卡驱动，win10自己更新的</span><br>
+</p><p><b>saderious: </b><br>
+<span>打错，不是显卡驱动，是声卡驱动</span><br>
+</p><p><b>序曲: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-9 10:56</span><br>
+<span>bug可能更大吧？这种东西放着会坏？</span><br>
+<span>机箱电源主板全是新的，我才纳闷</span><br>
+<span>音频跳线坏了难道还要我修一个月机箱</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>序曲 发表于 2019-12-9 14:48</span><br>
+<span>机箱电源主板全是新的，我才纳闷</span><br>
+<span>音频跳线坏了难道还要我修一个月机箱 ...</span><br>
+<span>我也是全新配的，然后无规律没声音，最后把声卡驱动禁用了，就用显示器自带的</span><br>
+<span>所以你的多半应该也是软件问题</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-9 19:17</span><br>
+<span>我也是全新配的，然后无规律没声音，最后把声卡驱动禁用了，就用显示器自带的</span><br>
+<span>所以你的多半应该也是软件 ...</span><br>
+<span>你这不叫软件问题，是用软件屏蔽了未知问题</span><br>
+</p><p><b>菠萝蛋散: </b><br>
+<span>有可能插孔进了异物，有些纤维性质的灰尘导电会引起误触……</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886958[0-50]</guid>
+    </item>
+  </channel>
+</rss>

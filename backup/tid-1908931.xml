@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>玩家自制补丁修复卡普空四年未改的联网代码bug</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>玩家自制补丁修复卡普空四年未改的联网代码bug</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:49:08 +0000</lastBuildDate>
+    <item>
+      <title>玩家自制补丁修复卡普空四年未改的联网代码bug[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908931-1-1.html</link>
+      <description>玩家自制补丁修复卡普空四年未改的联网代码bug&#13;
+ 本帖最后由 佐伯香織 于 2020-1-11 12:01 编辑 
+
+街霸5联机机制客户端不同步，最大会到玩家之间的画面相差15帧，也就好比1p画面比2p快15帧，然后1p会疯狂rollback(类似打中动画回滚成被防动画,俗称任意门)，实际1p和2p延迟可能就100ms,远到不了15f，这个补丁修正了这个问题，玩家之间的画面相差不超过ping值除2。
+&#13;
+简单讲就是修正了原代码的bug,原代码计算rollback的frame，但这个计算值有时候会很大，大于玩家间的网络延迟,造成artificial rollback, 这个民间补丁加了一个cap, rollback永远不允许大于玩家间ping值除2。
+&#13;
+下载地址:github.com/AltimorTASDK/SFVNetcodeFix/releases
+&#13;
+卡普空方面的负责人小野义德已经知道此事,不知道下一步会不会屏蔽这个补丁,这事闹上ign了。</description>
+      <content:encoded><![CDATA[<p><b>佐伯香織: </b><br>
+<span>玩家自制补丁修复卡普空四年未改的联网代码bug</span><br>
+<span> 本帖最后由 佐伯香織 于 2020-1-11 12:01 编辑 </span><br>
+<span>街霸5联机机制客户端不同步，最大会到玩家之间的画面相差15帧，也就好比1p画面比2p快15帧，然后1p会疯狂rollback(类似打中动画回滚成被防动画,俗称任意门)，实际1p和2p延迟可能就100ms,远到不了15f，这个补丁修正了这个问题，玩家之间的画面相差不超过ping值除2。</span><br>
+<span>简单讲就是修正了原代码的bug,原代码计算rollback的frame，但这个计算值有时候会很大，大于玩家间的网络延迟,造成artificial rollback, 这个民间补丁加了一个cap, rollback永远不允许大于玩家间ping值除2。</span><br>
+<span>下载地址:github.com/AltimorTASDK/SFVNetcodeFix/releases</span><br>
+<span>卡普空方面的负责人小野义德已经知道此事,不知道下一步会不会屏蔽这个补丁,这事闹上ign了。</span><br>
+</p><p><b>Exm842: </b><br>
+<span>IGN是法庭吗？注意你的用词！</span><br>
+</p><p><b>JudgmentEye: </b><br>
+<span>家用机版怎么办</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>红魔馆的糖: </b><br>
+<span>能解决国内的网络问题么</span><br>
+</p><p><b>liuyuan23: </b><br>
+<span>ign：将受到我的审判！</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>布拉德莱恩: </b><br>
+<span>闹上IGN还行</span><br>
+</p><p><b>morment: </b><br>
+<span>lz真的很看重巨魔媒体ign……</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>闹上IGN，我觉得这样说不太妥</span><br>
+</p><p><b>四氢化钠: </b><br>
+<span>IGN：我是二次元高院吗？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>黑之月: </b><br>
+<span>IGN：没错，在下就是电子游戏界的高院</span><br>
+<span>—— 来自 HUAWEI EVA-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>雨中曲: </b><br>
+<span>今日份沙雕，IGN审判庭</span><br>
+</p><p><b>JudgmentEye: </b><br>
+<span>红魔馆的糖 发表于 2020-1-11 15:41</span><br>
+<span>能解决国内的网络问题么</span><br>
+<span>怎么可能</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908931[0-50]</guid>
+    </item>
+  </channel>
+</rss>

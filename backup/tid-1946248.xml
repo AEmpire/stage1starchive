@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于cpu纳米制程的一个疑问</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于cpu纳米制程的一个疑问</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:12:03 +0000</lastBuildDate>
+    <item>
+      <title>关于cpu纳米制程的一个疑问[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946248-1-1.html</link>
+      <description>关于cpu纳米制程的一个疑问&#13;
+单位面积里纳米制程越小，是不是就代表能容纳的晶体管就越多，是这样理解吗？
+&#13;
+国内如果做不了7纳米4纳米这样的高级制程，那把cpu面积做大点行不行？这样不是就能容纳更多的晶体管吗。
+&#13;
+当然，单纯把cpu做大要是可行，搞cpu设计的早就干了。我就是不知道为啥这样做不行。</description>
+      <content:encoded><![CDATA[<p><b>amzonme: </b><br>
+<span>关于cpu纳米制程的一个疑问</span><br>
+<span>单位面积里纳米制程越小，是不是就代表能容纳的晶体管就越多，是这样理解吗？</span><br>
+<span>国内如果做不了7纳米4纳米这样的高级制程，那把cpu面积做大点行不行？这样不是就能容纳更多的晶体管吗。</span><br>
+<span>当然，单纯把cpu做大要是可行，搞cpu设计的早就干了。我就是不知道为啥这样做不行。</span><br>
+</p><p><b>orecheng: </b><br>
+<span>面积和良率成反比,面积越小,良率越高.单颗芯片成本越低,芯片产能越大.</span><br>
+</p><p><b>GJRstone: </b><br>
+<span>不能。一方面有随机坏点，单片面积越大，切出来的总数越少，坏点一定的话损坏率就越高。</span><br>
+<span>另一方面面积越大发热越大，intel最新的消费u可以跑到200瓦，制程低两代面积翻4倍，同样的功能就跑到800瓦，基本就热水壶了</span><br>
+</p><p><b>萧观澜: </b><br>
+<span>有这个思路做芯片的https://mp.weixin.qq.com/s/6XMeOWKcG7y2Ojd6z4cbtQ</span><br>
+</p><p><b>囧Smith: </b><br>
+<span>成本，功耗，散热 之类的吧</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>一个圆晶，如果整个圆晶做成一个芯片，有一块坏了就完全坏了</span><br>
+<span>如果做成四个芯片，可能只坏一个</span><br>
+</p><p><b>xxren1: </b><br>
+<span>不行，</span><br>
+<span>首先面积大良率就低，因为硅片有随机的缺陷。第二同样的面积下工艺越小速度越快，如果要在大工艺上达到相同速度，就要多切流水线，这会带来其它问题，典型的例子就是p4</span><br>
+<span>第三如果面积太大线延时就会成为一个问题，导致速度上不去。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Ichthys: </b><br>
+<span>Cerebras Wafer Scale Engine</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>制程和芯片做多大没关系    做大还是堆核心数量而不是每个芯片的面积   速度散热影响都很大</span><br>
+</p><p><b>泪指环: </b><br>
+<span>大核芯片的良品率很成问题</span><br>
+</p><p><b>junning1999: </b><br>
+<span>芯片做大还有一个问题是信号因为较长的导线/较高的寄生电感造成频率上不去。线路越长这个问题越大</span><br>
+</p><p><b>stmule: </b><br>
+<span>楼主可以看看Intel下一代，一个巴掌大的胶水cpu</span><br>
+<span>也不是不能用</span><br>
+<span>楼主这个加大面积的思路和业界数一数二的国际大企业高度一致</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>mintpie: </b><br>
+<span>我记得PS3的Cell处理器原计划是八个核，实际只有七个核，因为八核良品率太低。</span><br>
+</p><p><b>斯文老狗: </b><br>
+<span>军品不追求面积是这样的</span><br>
+</p><p><b>8400gs: </b><br>
+<span>xxren1 发表于 2020-7-6 23:05</span><br>
+<span>不行，</span><br>
+<span>首先面积大良率就低，因为硅片有随机的缺陷。第二同样的面积下工艺越小速度越快，如果要在大工艺上 ...</span><br>
+<span>7nm跑高频目前还是跑不过14++</span><br>
+</p><p><b>elflie: </b><br>
+<span>8400gs 发表于 2020-7-7 07:38</span><br>
+<span>7nm跑高频目前还是跑不过14++</span><br>
+<span>频率，延时，速度，这三个可不是同一个东西</span><br>
+</p><p><b>8400gs: </b><br>
+<span>elflie 发表于 2020-7-7 08:44</span><br>
+<span>频率，延时，速度，这三个可不是同一个东西</span><br>
+<span>你要讲单核性能的话，目前AMD用TSMC的7nm因为频率劣势也还是打不过Intel的14nm++啊</span><br>
+<span>讲延时的话，内存延迟算不算？AMD目前在桌面级U上还是劣势</span><br>
+<span>而且同等功耗下7nm温度更高散热更不好压</span><br>
+</p><p><b>elflie: </b><br>
+<span>8400gs 发表于 2020-7-7 08:52</span><br>
+<span>你要讲单核性能的话，目前AMD用TSMC的7nm因为频率劣势也还是打不过Intel的14nm++啊</span><br>
+<span>讲延时的话，内存延 ...</span><br>
+<span>又不是IA间对比...</span><br>
+<span>内存延时这种都跑出die外的东西更不在这帖子说的范围内...</span><br>
+<span>至于同功耗发热，die面积不算一下吗</span><br>
+</p><p><b>foreversmiles: </b><br>
+<span>我记得INTEL的纳米数是按实际刻在上面的晶体管数量对标的   比如如果14NM是100万那么7纳米就需要400万</span><br>
+<span>而AMD和三星之类一直被INTEL攻击的地方就是，虽然他们用的7NM技术，但实际的晶体管数量可能跟14NM差不多</span><br>
+</p><p><b>66666: </b><br>
+<span>晶体管越密集频率越难提升，CPU/GPU高性能库晶体管密度都比手机SOC要低的多</span><br>
+</p><p><b>youta: </b><br>
+<span>foreversmiles 发表于 2020-7-7 09:11</span><br>
+<span>我记得INTEL的纳米数是按实际刻在上面的晶体管数量对标的   比如如果14NM是100万那么7纳米就需要400万</span><br>
+<span>而 ...</span><br>
+<span>问题是Intel造不出来量产品</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>台球论坛网友: </b><br>
+<span>巴掌大的U把玩起来还是比现在这些筹码似的舒服</span><br>
+</p><p><b>xxren1: </b><br>
+<span>8400gs 发表于 2020-7-7 07:38</span><br>
+<span>7nm跑高频目前还是跑不过14++</span><br>
+<span>如果你是说amd的cpu，主要原因有两个。</span><br>
+<span>一是tsmc的工艺是研发出来给移动设备用的低功耗工艺，不是给大型设备用的高性能工艺。农企本质上是搭了移动处理器的便车，自然也要接受它不好的地方。</span><br>
+<span>二是tsmc的工艺本来就不是和英特尔一一对应的，用finfet之后都是折算值，更说不好了。</span><br>
+<span>至于你说的内存控制器上面，这和逻辑与架构设计有关系。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946248[0-50]</guid>
+    </item>
+  </channel>
+</rss>

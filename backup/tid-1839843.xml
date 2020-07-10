@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网站能ping能tracert，但是不能访问是什么问题啊？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网站能ping能tracert，但是不能访问是什么问题啊？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:44:52 +0000</lastBuildDate>
+    <item>
+      <title>网站能ping能tracert，但是不能访问是什么问题啊？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839843-1-1.html</link>
+      <description>网站能ping能tracert，但是不能访问是什么问题啊？&#13;
+上海电信，网站是fitibit.com
+&#13;
+能ping通，也能tracert通
+&#13;
+但是就不能在正常情况下访问
+&#13;
+这个一般是什么原因啊？
+&#13;
+谢谢</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>网站能ping能tracert，但是不能访问是什么问题啊？</span><br>
+<span>上海电信，网站是fitibit.com</span><br>
+<span>能ping通，也能tracert通</span><br>
+<span>但是就不能在正常情况下访问</span><br>
+<span>这个一般是什么原因啊？</span><br>
+<span>谢谢</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>ipv6的原因?</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-6-16 11:53 编辑 </span><br>
+<span>gwl？ ping走的ICMP 试了下的确应该是gwl问题，挂代理可以正常访问，同上海电信。</span><br>
+<img src="https://i.loli.net/2019/06/16/5d05bd54670b127362.png" title="https://i.loli.net/2019/06/16/5d05bd54670b127362.png"><br>
+</p><p><b>droople: </b><br>
+<span>伊可费斯 发表于 2019-6-16 11:48</span><br>
+<span>gwl？ ping走的ICMP 试了下的确应该是gwl问题，挂代理可以正常访问，同上海电信。</span><br>
+<span> ...</span><br>
+<span>这不是不能讨论那个么，所以我没提</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>droople 发表于 2019-6-16 12:02</span><br>
+<span>这不是不能讨论那个么，所以我没提</span><br>
+<span>啥，我说啥了？</span><br>
+</p><p><b>夜语: </b><br>
+<span>实在想了解可以搜索下sni阻断，以前不是很多hosts文件吗？上了这个以后基本全灭。但是也不保证你遇到的就是这问题。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>重置一下winsocks呢</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第6楼lawsherman于2019-06-16 12:38发表的:</span><br>
+<span>重置一下winsocks呢</span><br>
+<span>@lawsherman</span><br>
+<span>我的体重秤也连不上fitbit，如果不是秤连不上我还发觉不了</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>可能是tcp阻断？墙近几年的招数，具体症状是udp之类的包能过，但是建不起来tcp链接</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839843[0-50]</guid>
+    </item>
+  </channel>
+</rss>

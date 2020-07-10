@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑网线连接路由器上不了网</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑网线连接路由器上不了网</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:12:16 +0000</lastBuildDate>
+    <item>
+      <title>电脑网线连接路由器上不了网[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904593-1-1.html</link>
+      <description>电脑网线连接路由器上不了网&#13;
+电脑是用网线连接的无线路由器，手机连接WIFI可以上网，把接电脑的网线连接到其他设备也可以上网，就是连这台电脑不行。
+
+网络连接里看到以太网显示为无法识别的网络，在路由器设置里也看不到这台电脑，不知道是哪里有问题，求助各位</description>
+      <content:encoded><![CDATA[<p><b>asakura20005: </b><br>
+<span>电脑网线连接路由器上不了网</span><br>
+<span>电脑是用网线连接的无线路由器，手机连接WIFI可以上网，把接电脑的网线连接到其他设备也可以上网，就是连这台电脑不行。</span><br>
+<span>网络连接里看到以太网显示为无法识别的网络，在路由器设置里也看不到这台电脑，不知道是哪里有问题，求助各位</span><br>
+</p><p><b>404489039: </b><br>
+<span>IP冲突</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>先看看ip是固定，还是自动获取？</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>自动获取的，我指定了其他ip也不行</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>刚重装了系统，还是一样</span><br>
+</p><p><b>wzp2853: </b><br>
+<span>换一根网线，罪魁祸首大概率是网线</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>wzp2853 发表于 2019-12-21 23:06</span><br>
+<span>换一根网线，罪魁祸首大概率是网线</span><br>
+<span>可我把网线接到别的设备上也没问题啊</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>路由器的WAN口没坏吧  （好吧，我是来玩这种小概率事件的）</span><br>
+<span>手机能上网，路由器wifi功能是好的，IP也不可能与光猫一致，莫非真的是楼上说的网线？</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>shinjiikari 发表于 2019-12-21 23:11</span><br>
+<span>路由器的WAN口没坏吧（好吧，我是来玩这种小概率事件的）</span><br>
+<span>手机能上网，路由器wifi功能是好的，IP ...</span><br>
+<span>我现在怀疑是不是网卡坏了</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>先问是不是intel家的卡？如果是的话，卸载重装驱动试试。</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>asakura20005 发表于 2019-12-21 23:12</span><br>
+<span>我现在怀疑是不是网卡坏了</span><br>
+<span>都主板集成了，而且硬件问题小概率，不容易用替换法测试，您这有些难受</span><br>
+<span>换了我，自带wifi的板子走起 </span><br>
+</p><p><b>asakura20005: </b><br>
+<span>依然荏苒 发表于 2019-12-21 23:14</span><br>
+<span>先问是不是intel家的卡？如果是的话，卸载重装驱动试试。</span><br>
+<span>主板是微星b450迫击炮，查了下应该不是i家网卡，不过我也重新装驱动试试</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>不经过路由器，pc直接连猫/入户网线是什么反应</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>typeunknown 发表于 2019-12-21 23:40</span><br>
+<span>不经过路由器，pc直接连猫/入户网线是什么反应</span><br>
+<span>没有任何反应，连ip都获取不到</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>asakura20005 发表于 2019-12-21 23:48</span><br>
+<span>没有任何反应，连ip都获取不到</span><br>
+<span>ping 127.0.0.1试试</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>月夜凝雪 发表于 2019-12-22 00:20</span><br>
+<span>ping 127.0.0.1试试</span><br>
+<span>ping 127.0.0.1是通的，但是即使指定同网段ip都ping不通路由器ip</span><br>
+<span>—— 来自 meizu 16s Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span>换个路由器呢？搞不好是路由器设置出问题了</span><br>
+</p><p><b>hollowd: </b><br>
+<span> 本帖最后由 hollowd 于 2019-12-22 03:03 编辑 </span><br>
+<span>网线口的灯亮吗？</span><br>
+</p><p><b>sssfans: </b><br>
+<span>试试看把网卡速率固定成100M，或者1000M，不要自动。不过看你的描述，感觉像是网卡坏了。</span><br>
+</p><p><b>wzp2853: </b><br>
+<span>路由器lan口挂掉的可能性存在，要么是路由器lan的芯片要么是主板的网卡</span><br>
+</p><p><b>starash: </b><br>
+<span>台式机买块网卡给，30块的事。</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>hollowd 发表于 2019-12-22 03:00</span><br>
+<span>网线口的灯亮吗？</span><br>
+<span>只有一个黄灯时不时闪一下，绿灯不亮</span><br>
+</p><p><b>asakura20005: </b><br>
+<span>已经下单了网卡，等到货后再试试了，谢谢大家的热心帮助</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>如果是新装的机器很大可能是网卡驱动没搞好，到官网下网卡驱动安装试试。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>看下电脑网口的针是不是弯了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904593[0-50]</guid>
+    </item>
+  </channel>
+</rss>

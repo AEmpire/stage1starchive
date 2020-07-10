@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>批量视频转码求推荐方案，以及关于NVENC的几个傻问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>批量视频转码求推荐方案，以及关于NVENC的几个傻问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:36:47 +0000</lastBuildDate>
+    <item>
+      <title>批量视频转码求推荐方案，以及关于NVENC的几个傻问题[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831373-1-1.html</link>
+      <description>批量视频转码求推荐方案，以及关于NVENC的几个傻问题&#13;
+作为松树症患者，目前屯了180多T的片儿。。。硬盘实在太贵了，吃不消了。想转码以后，全都压成H265进行保存。
+&#13;
+***************
+&#13;
+可以放置一台电脑7x24小时转码工作。目前可以用来转码的配置cpu有一个I7 4770,I7 7700K，I7 8700K，锐龙1700，1200。。。如果用NVENC转码是不是用什么CPU不太重要了？显卡其实还有几张A卡，不过A卡的转码速度貌似很残念，就不考虑了。
+&#13;
+******************
+&#13;
+1、目前手上有GTX1060 1070 1080各一块。不知到用于NVENC编码，区别大不大？
+&#13;
+2、新出的图灵显卡有新的nvenc编码器，效率或者质量会不会比10系的高很多？
+&#13;
+3、问题接2，,那么有必要买个1660或者1660ti么，这两张卡在编码速度上有什么区别吗？
+&#13;
+4、大概10K以上的片子，分辨率和格式不尽相同（导致各个分辨率的目标码率不一样），如何高效且保证一定质量的转码呢？
+&#13;
+   目前我的方案是MediaCoder pro版，设置智能码率到60%，压成H265，用nvenc编码器。
+&#13;
+   没正经接触过压制，据说CRF不错？如果这样的话要怎么设置好呢。FFMPEG我不会用，很蛋疼。小丸工具箱试了一下。。CRF26，转码速度特别慢= =
+&#13;
+5、以防万一，手上有8700K之类的QSV转码不知道效率和NVENC比如何。
+&#13;
+******************
+&#13;
+大概就是这几个问题。求救Orz。硬盘告急。上个月新买的10T又满了，才半个多月，手上这个10T也用完一半了。。。。</description>
+      <content:encoded><![CDATA[<p><b>九耳: </b><br>
+<span>lwa190212 发表于 2019-5-16 02:12</span><br>
+<span>剪出精华+1反正起码是要剪掉片头的博彩体验的</span><br>
+<span>我会把剪辑时间标明在文件名里</span><br>
+<span>因为有时候会回顾后再 ...</span><br>
+<span>。。。。现在总片数太多，近一万了。剪辑下来怕是要 过累死（各种意义）</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>我记得计算机文件系统里面有个功能叫删除。</span><br>
+</p><p><b>f.w.: </b><br>
+<span>买个bd刻录机刻盘吧，反正99%你都不会再去看的</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>买硬盘比较划算 真的</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831373[50-100]</guid>
+    </item>
+    <item>
+      <title>批量视频转码求推荐方案，以及关于NVENC的几个傻问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831373-1-1.html</link>
+      <description>批量视频转码求推荐方案，以及关于NVENC的几个傻问题&#13;
+作为松树症患者，目前屯了180多T的片儿。。。硬盘实在太贵了，吃不消了。想转码以后，全都压成H265进行保存。
+&#13;
+***************
+&#13;
+可以放置一台电脑7x24小时转码工作。目前可以用来转码的配置cpu有一个I7 4770,I7 7700K，I7 8700K，锐龙1700，1200。。。如果用NVENC转码是不是用什么CPU不太重要了？显卡其实还有几张A卡，不过A卡的转码速度貌似很残念，就不考虑了。
+&#13;
+******************
+&#13;
+1、目前手上有GTX1060 1070 1080各一块。不知到用于NVENC编码，区别大不大？
+&#13;
+2、新出的图灵显卡有新的nvenc编码器，效率或者质量会不会比10系的高很多？
+&#13;
+3、问题接2，,那么有必要买个1660或者1660ti么，这两张卡在编码速度上有什么区别吗？
+&#13;
+4、大概10K以上的片子，分辨率和格式不尽相同（导致各个分辨率的目标码率不一样），如何高效且保证一定质量的转码呢？
+&#13;
+   目前我的方案是MediaCoder pro版，设置智能码率到60%，压成H265，用nvenc编码器。
+&#13;
+   没正经接触过压制，据说CRF不错？如果这样的话要怎么设置好呢。FFMPEG我不会用，很蛋疼。小丸工具箱试了一下。。CRF26，转码速度特别慢= =
+&#13;
+5、以防万一，手上有8700K之类的QSV转码不知道效率和NVENC比如何。
+&#13;
+******************
+&#13;
+大概就是这几个问题。求救Orz。硬盘告急。上个月新买的10T又满了，才半个多月，手上这个10T也用完一半了。。。。</description>
+      <content:encoded><![CDATA[<p><b>九耳: </b><br>
+<span>批量视频转码求推荐方案，以及关于NVENC的几个傻问题</span><br>
+<span>作为松树症患者，目前屯了180多T的片儿。。。硬盘实在太贵了，吃不消了。想转码以后，全都压成H265进行保存。</span><br>
+<span>***************</span><br>
+<span>可以放置一台电脑7x24小时转码工作。目前可以用来转码的配置cpu有一个I7 4770,I7 7700K，I7 8700K，锐龙1700，1200。。。如果用NVENC转码是不是用什么CPU不太重要了？显卡其实还有几张A卡，不过A卡的转码速度貌似很残念，就不考虑了。</span><br>
+<span>******************</span><br>
+<span>1、目前手上有GTX1060 1070 1080各一块。不知到用于NVENC编码，区别大不大？</span><br>
+<span>2、新出的图灵显卡有新的nvenc编码器，效率或者质量会不会比10系的高很多？</span><br>
+<span>3、问题接2，,那么有必要买个1660或者1660ti么，这两张卡在编码速度上有什么区别吗？</span><br>
+<span>4、大概10K以上的片子，分辨率和格式不尽相同（导致各个分辨率的目标码率不一样），如何高效且保证一定质量的转码呢？</span><br>
+<span>   目前我的方案是MediaCoder pro版，设置智能码率到60%，压成H265，用nvenc编码器。</span><br>
+<span>   没正经接触过压制，据说CRF不错？如果这样的话要怎么设置好呢。FFMPEG我不会用，很蛋疼。小丸工具箱试了一下。。CRF26，转码速度特别慢= =</span><br>
+<span>5、以防万一，手上有8700K之类的QSV转码不知道效率和NVENC比如何。</span><br>
+<span>******************</span><br>
+<span>大概就是这几个问题。求救Orz。硬盘告急。上个月新买的10T又满了，才半个多月，手上这个10T也用完一半了。。。。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>180t。。。大姐姐？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>九耳: </b><br>
+<span>伊克路西安 发表于 2019-5-14 12:01</span><br>
+<span>180t。。。大姐姐？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>对。。。。</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2019-5-14 12:08 编辑 </span><br>
+<span>还是用CPU压比较保险，显卡压是傻快但是画质容易出问题。</span><br>
+<span>压制工具我用megui。</span><br>
+<span>----发送自 samsung SM-G9350,Android 8.0.0</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>九耳 发表于 2019-5-14 12:02</span><br>
+<span>对。。。。</span><br>
+<span>180T中你用过的有1%么</span><br>
+</p><p><b>qwased: </b><br>
+<span>自己瞎压基本上都会压出屎一样的容量画质比，别折腾了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>九耳: </b><br>
+<span>伊克路西安 发表于 2019-5-14 12:19</span><br>
+<span>180T中你用过的有1%么</span><br>
+<span>光收集不看，，所以才是松树嘛= =</span><br>
+</p><p><b>九耳: </b><br>
+<span>qwased 发表于 2019-5-14 12:23</span><br>
+<span>自己瞎压基本上都会压出屎一样的容量画质比，别折腾了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next- ...</span><br>
+<span>想学习学习嘛</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>没用的，转码速度远远跟不上你的下载速度</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>180T的大姐姐。。。。我这没怎么整理的都加起来，也不够你5%。。。。。</span><br>
+</p><p><b>404489039: </b><br>
+<span>建议把1070 1080卖了换硬盘</span><br>
+</p><p><b>littleneko: </b><br>
+<span>建议下载专业Rip组压的，自己批量转码粗来就是一坨X</span><br>
+</p><p><b>两个路人: </b><br>
+<span>sblnrrk 发表于 2019-5-14 12:46</span><br>
+<span>没用的，转码速度远远跟不上你的下载速度</span><br>
+<span>老黄nvenc做FHD hevc 10bit轻松破120帧的速度完全就是傲视群雄的存在。裸压4K的压力基本在CPU解码不够快上。</span><br>
+<span>记得帕斯卡系列各卡的编码性能差距不超过20%的样子。但是，老黄的nvenc的设计目的是在于实时传送，通俗点讲就是傻快。拿来做成品，hevc 10bit质量和体积的比，多数情况下比不过慢到死的x265（举个例子，帕斯卡系列的HEVC是没有B帧设计的，图灵才有，你感受一下）</span><br>
+<span>如果要尝试nvenc，需要编码软件（比如ffmpeg）里编译时采用的库，和老黄驱动使用的SDK一致，要不然会输出错误信息。</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>九耳 发表于 2019-5-14 12:02</span><br>
+<span>对。。。。</span><br>
+<span>膜拜</span><br>
+</p><p><b>starrin: </b><br>
+<span>建议把硬盘泡个水，彻底治愈松鼠病，一劳永逸</span><br>
+</p><p><b>SmterC: </b><br>
+<span> 本帖最后由 SmterC 于 2019-5-14 14:47 编辑 </span><br>
+<span>我都是一边下一边压的</span><br>
+<span>为了省空间的话，建议还是用CPU慢慢压吧</span><br>
+<span>小丸已经很久没更新了，似乎是没有H265的？</span><br>
+<span>FFMPEG的话看一看相关的配置建议就行了</span><br>
+<span>这里有一份Google提供的VP9压制推荐设置，可以参考看看</span><br>
+<span>https://developers.google.com/media/vp9/settings/vod/</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>图灵的nvenc简直是逆天改命 建议上张1660ti</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>SmterC 发表于 2019-5-14 14:44</span><br>
+<span>我都是一边下一边压的</span><br>
+<span>为了省空间的话，建议还是用CPU慢慢压吧</span><br>
+<span>小丸已经很久没更新了，似乎是没有H2 ...</span><br>
+<span>是有265的 但是比较老</span><br>
+</p><p><b>temp255: </b><br>
+<span>h.265 不适合压隔行扫描的片子</span><br>
+<span>降分辨率是一种减小体积的方法，对待不同码率的影片还要分配不同压制参数，折腾了一圈我还是觉得1080分辨率5000k码率以下没有压制的必要</span><br>
+</p><p><b>雪影: </b><br>
+<span>我觉得你买显卡之前，先去学一下压制知识比较好</span><br>
+<span>劝退了至少钱还在</span><br>
+<span>显卡压片除了快，出片质量还是不如CPU</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>想腾空间的话，可以先试试剔除没有什么保留价值的片？</span><br>
+<span>低于1080p4000Kbps的、有非透明水印的、有片头广告的、DVDISO之类的</span><br>
+</p><p><b>smishe: </b><br>
+<span>我建议用剪切软件把好用的部分剪出来，这样至少能减少一半体积吧。不过需要花时间一部一部过，经常剪着剪着就社保了</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>片倒是没压过 不过帕斯卡的nvenc推流是很烂</span><br>
+<span>现在工作室的电脑装20系卡 obs多了个nvenc.new 这方面确实强很多</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>180T了就上磁带机吧，反正我觉得楼主下载下来也不是用来看的。。。</span><br>
+</p><p><b>九耳: </b><br>
+<span> 咲月露娜 发表于 2019-5-14 15:57 180T了就上磁带机吧，反正我觉得楼主下载下来也不是用来看的。。。 </span><br>
+<span>架不住经常有朋友带着一块移动硬盘来我这儿做客。。哈哈。。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>九耳: </b><br>
+<span> Ichthy 发表于 2019-5-14 15:24 图灵的nvenc简直是逆天改命 建议上张1660ti </span><br>
+<span>1660和1660ti差距大吗</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>我觉得你还是云盘比较好 </span><br>
+</p><p><b>Zest: </b><br>
+<span>卖了显卡买硬盘</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>谎称: </b><br>
+<span>180T。膜拜</span><br>
+</p><p><b>vxzms: </b><br>
+<span>2压没任何收藏价值</span><br>
+</p><p><b>fnscar: </b><br>
+<span>不建议用ffmpeg里的libnvenc，更不建议用mediacoder。</span><br>
+<span>首推rigaya的nvencc，应该是目前调用nvenc的编码器里参数最丰富的。</span><br>
+<span>https://github.com/rigaya/NVEnc</span><br>
+<span>rigaya的博客里有各种硬件编码器的速度和质量的对比。</span><br>
+</p><p><b>scad: </b><br>
+<span>180T就算10T一个也要18个以上硬盘，楼主家里放这么多硬盘别人不会怀疑你吗？</span><br>
+</p><p><b>kanpachi: </b><br>
+<span>ffmpeg装一下自己写代码最靠谱啊，那些软件不都这玩意套个ui</span><br>
+</p><p><b>litel: </b><br>
+<span>1 收藏保存别指望显卡加速的压制了，质量不行。。。</span><br>
+<span>2 不调参数压制不如找大组压好的小体积重下。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Ichthy: </b><br>
+<span>九耳 发表于 2019-5-14 15:59</span><br>
+<span>1660和1660ti差距大吗</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+<span>单压片的话区别不大，但是ti比普通版贵没多少。</span><br>
+</p><p><b>香港记者巴拉森: </b><br>
+<span>180t……到死都用完了。</span><br>
+<span>无论是怎么死的</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>九耳: </b><br>
+<span> kanpachi 发表于 2019-5-14 16:54 ffmpeg装一下自己写代码最靠谱啊，那些软件不都这玩意套个ui </span><br>
+<span>orz问题就是不会。。。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>九耳: </b><br>
+<span> litel 发表于 2019-5-14 17:50 1 收藏保存别指望显卡加速的压制了，质量不行。。。2 不调参数压制不如找大组压好的小体积重下。。。—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2 </span><br>
+<span>一个就是a片儿。冷门资源下不动，没人做种。。</span><br>
+<span>还有就是a片儿也没人专业压制啊。。。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>九耳: </b><br>
+<span> scad 发表于 2019-5-14 16:53 180T就算10T一个也要18个以上硬盘，楼主家里放这么多硬盘别人不会怀疑你吗？ </span><br>
+<span>。。。已经超30块了。不只是a片，也有正经电影电视。</span><br>
+<span>哈哈哈。没人注意的！</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>九耳: </b><br>
+<span> yeah20002 发表于 2019-5-14 16:07 我觉得你还是云盘比较好    </span><br>
+<span>云盘不是看服务商心情的事儿么。。。怕全军覆没</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>sirius0714: </b><br>
+<span>HaNdbrake其实够用了吧</span><br>
+<span>—— 來自 Sony F8131, Android 7.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>ml1642879: </b><br>
+<span>我先看以为是180g，再一看tm是T！！！楼主天荒地老都看不完了</span><br>
+</p><p><b>mfkof: </b><br>
+<span>楼主学我吧，喜欢的片段无损剪辑下来。</span><br>
+<span>本来网上的源质量就一般，你还压制。</span><br>
+<span>再说10个T又怎样，最后还不是10分钟。</span><br>
+<span>—— 来自 ZUK Z2151, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>别折腾了。要么继续赚钱买硬盘。要么沉迷点别的爱好让自己没精力去下载。</span><br>
+<span>基本上身边谈了女盆友的基本1年后就把松鼠病戒了</span><br>
+</p><p><b>九耳: </b><br>
+<span>系统杀手 发表于 2019-5-15 12:49</span><br>
+<span>别折腾了。要么继续赚钱买硬盘。要么沉迷点别的爱好让自己没精力去下载。</span><br>
+<span>基本上身边谈了女盆友的基本1年 ...</span><br>
+<span>咳咳。。。已婚。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>，一把辛酸泪</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>yuuu: </b><br>
+<span>只有7t的羞愧路过</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>littleneko 发表于 2019-5-14 13:07</span><br>
+<span>建议下载专业Rip组压的，自己批量转码粗来就是一坨X</span><br>
+<span>还真没见过专门压动作片的rip组。</span><br>
+</p><p><b>freeforever: </b><br>
+<span>弄一块2060来压就行。讲道理压了之后你也会继续加速DOWN到塞满然后买硬盘，所以其实压不压没区别。当然如果你以后想做这方面生意的话收集倒是没错，但是收益和风险不成正比</span><br>
+<span>建议转变一下行为，直接自己拍，想到什么拍什么，然后你就发现以前收集这些别人拍的片是真D很无聊</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>剪出精华+1反正起码是要剪掉片头的博彩体验的</span><br>
+<span>我会把剪辑时间标明在文件名里</span><br>
+<span>因为有时候会回顾后再次缩减，所以写了个parser解析时间区间，保证每次剪辑后更新的时间区间都是相对于原视频的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831373[0-50]</guid>
+    </item>
+  </channel>
+</rss>

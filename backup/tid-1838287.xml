@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>cystaldskinfo的数据存在很大误差？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>cystaldskinfo的数据存在很大误差？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:54:30 +0000</lastBuildDate>
+    <item>
+      <title>cystaldskinfo的数据存在很大误差？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838287-1-1.html</link>
+      <description>cystaldskinfo的数据存在很大误差？&#13;
+http://wx4.sinaimg.cn/large/88b66d28gy1g3vw6cqmj7j20ne0ig76o.jpg
+&#13;
+http://wx3.sinaimg.cn/large/88b66d28gy1g3vw6ajjgyj20ne0igac6.jpg
+&#13;
+如图，我笔记本上面现在有两块SSD，C盘是原装256G的NVME，D盘是用了不久之后感觉空间不够（不超过2周）自己加的一块M.2 SATA，今天拿cystaldskinfo打开一看，发现系统盘的通电时间居然只有后来那块盘的三分之一。
+&#13;
+这台笔记本是2017年8月采购的，按照使用时间84周，每周工作时间40小时计算，应该有超过3000小时左右的通电时间，D盘的通电时间比较接近真实数据但是应该仍然存在误差，C盘的通电时间就差的有点离谱了。而且C盘写入量高达5061G，平均每天有8G，实际上我大多数文件是存在D盘，C盘只是装了一些软件，写入量D盘应该会高于C盘，不可能只有C盘的七分之一左右。</description>
+      <content:encoded><![CDATA[<p><b>fusoclass: </b><br>
+<span>cystaldskinfo的数据存在很大误差？</span><br>
+<img src="http://wx4.sinaimg.cn/large/88b66d28gy1g3vw6cqmj7j20ne0ig76o.jpg" title="http://wx4.sinaimg.cn/large/88b66d28gy1g3vw6cqmj7j20ne0ig76o.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/88b66d28gy1g3vw6ajjgyj20ne0igac6.jpg" title="http://wx3.sinaimg.cn/large/88b66d28gy1g3vw6ajjgyj20ne0igac6.jpg"><br>
+<span>如图，我笔记本上面现在有两块SSD，C盘是原装256G的NVME，D盘是用了不久之后感觉空间不够（不超过2周）自己加的一块M.2 SATA，今天拿cystaldskinfo打开一看，发现系统盘的通电时间居然只有后来那块盘的三分之一。</span><br>
+<span>这台笔记本是2017年8月采购的，按照使用时间84周，每周工作时间40小时计算，应该有超过3000小时左右的通电时间，D盘的通电时间比较接近真实数据但是应该仍然存在误差，C盘的通电时间就差的有点离谱了。而且C盘写入量高达5061G，平均每天有8G，实际上我大多数文件是存在D盘，C盘只是装了一些软件，写入量D盘应该会高于C盘，不可能只有C盘的七分之一左右。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>是三丧的smart不靠谱，漏算时间</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>三丧oem盘smart信息不准</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>读的是smart，不关软件的事情</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838287[0-50]</guid>
+    </item>
+  </channel>
+</rss>

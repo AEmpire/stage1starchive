@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KODI使用求助。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>KODI使用求助。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:44:23 +0000</lastBuildDate>
+    <item>
+      <title>KODI使用求助。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849444-1-1.html</link>
+      <description>KODI使用求助。&#13;
+版本是电视盒上装的KODI 18.3
+&#13;
+求助一下~
+&#13;
+1,请问KODI每个库只能关联一个文件夹吗？意思我所有的电影只能放在一个文件夹里？（比如电影-进入文件区-关联了NAS上一个MOVIE的文件夹，但是其实还有在同一盘符下叫ANIME-M的文件夹也需要放在这个电影库里，）可以做到吗？
+&#13;
+2,KODI的左列表现在只有自己的【电影】，【剧集】等库，能不能自己建自定义的库？比如像PLEX一样，库名字都自己取自己加，【电影】【动画电影】【美剧】【日剧】这样？？
+&#13;
+3,如果上面都做不到的话，能有其他方法实现吗？装plex插件？安装后可以使用kodi的搜刮器和字幕插件吗？我觉得这俩很好用。。
+&#13;
+谢谢~~</description>
+      <content:encoded><![CDATA[<p><b>sola_gaigaigai: </b><br>
+<span>KODI使用求助。</span><br>
+<span>版本是电视盒上装的KODI 18.3</span><br>
+<span>求助一下~</span><br>
+<span>1,请问KODI每个库只能关联一个文件夹吗？意思我所有的电影只能放在一个文件夹里？（比如电影-进入文件区-关联了NAS上一个MOVIE的文件夹，但是其实还有在同一盘符下叫ANIME-M的文件夹也需要放在这个电影库里，）可以做到吗？</span><br>
+<span>2,KODI的左列表现在只有自己的【电影】，【剧集】等库，能不能自己建自定义的库？比如像PLEX一样，库名字都自己取自己加，【电影】【动画电影】【美剧】【日剧】这样？？</span><br>
+<span>3,如果上面都做不到的话，能有其他方法实现吗？装plex插件？安装后可以使用kodi的搜刮器和字幕插件吗？我觉得这俩很好用。。</span><br>
+<span>谢谢~~</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>1 可以啊，文件区那不是有设置么</span><br>
+<span>2 好像不行，只能隐藏，不能加</span><br>
+<span>3 我没用plex，用了emby，但是感觉那个搜刮器还不如kodi自己的好用</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>EraserKing 发表于 2019-7-27 10:07</span><br>
+<span>1 可以啊，文件区那不是有设置么</span><br>
+<span>2 好像不行，只能隐藏，不能加</span><br>
+<span>3 我没用plex，用了emby，但是感觉那个搜刮 ...</span><br>
+<span>是的。。。EMBY和PLEX的搜刮器都没有KODI自己添加插件搜刮来的好用，我用KODI的时光和豆瓣搜刮一搜一个准。。</span><br>
+<span>请问下第一个问题那里。。从哪进文件区然后选哪个添加另外的文件夹？能稍微说详细点吗？感谢</span><br>
+</p><p><b>杰瑞: </b><br>
+<span>顺便问下我的盒子和电脑在同一个wifi下但是kodi无法搜到网络位置…smb显示无法共享</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>sola_gaigaigai 发表于 2019-7-27 10:09</span><br>
+<span>是的。。。EMBY和PLEX的搜刮器都没有KODI自己添加插件搜刮来的好用，我用KODI的时光和豆瓣搜刮一搜一个准 ...</span><br>
+<span>我记得还挺显眼的…以默认皮肤为例</span><br>
+<span>主界面，左侧选中“电影”，按“确认”，进二级菜单了对吧，一般默认是个列表</span><br>
+<span>不管在哪一级，一路点“..”到底（没有的话 去“设置”-“媒体”-“常规”-“显示上级目录项”启用）</span><br>
+<span>然后到顶级菜单之后（退无可退了），里面有一个“文件”，点进去</span><br>
+<span>最下面“添加视频”，点它</span><br>
+<span>弹出来对话框“添加视频源”</span><br>
+<span>到这差不多你就懂了…</span><br>
+<span>如果还不懂…</span><br>
+<span>按右边“浏览”</span><br>
+<span>底下的“添加网络位置”</span><br>
+<span>（中略）</span><br>
+<span>选好之后一路“确定”</span><br>
+<span>又弹一个对话框“设置内容”</span><br>
+<span>“该目录包含”选上你需要的类别</span><br>
+<span>一路“确定”到底</span><br>
+<span>完毕</span><br>
+<span>如果要删的话，还在“文件”这里，移到你要删的目录上，长按确认键，弹出菜单选“移除视频源”，一路“确定”</span><br>
+<span>编辑同理</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>EraserKing 发表于 2019-7-27 16:55</span><br>
+<span>我记得还挺显眼的…以默认皮肤为例</span><br>
+<span>主界面，左侧选中“电影”，按“确认”，进二级菜单了对吧，一般默认 ...</span><br>
+<span>多谢。。。我去试试。。。可能是那个显示上级目录没开，，没看到上层菜单来着。。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>我比较佛，现在连kodi搜刮都懒的弄了，动画的搜刮改名字实在太烦了，现在就加个nas文件位置打开看</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>cybernetics31 发表于 2019-7-27 18:29</span><br>
+<span>我比较佛，现在连kodi搜刮都懒的弄了，动画的搜刮改名字实在太烦了，现在就加个nas文件位置打开看</span><br>
+<span> ...</span><br>
+<span>如果这样的话，，都不用装KODI，直接装个文件管理器里面就可以看NAS了呀。。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>sola_gaigaigai 发表于 2019-07-27 19:45:03</span><br>
+<span>如果这样的话，，都不用装KODI，直接装个文件管理器里面就可以看NAS了呀。。 ...mx player啥的在我的n1上不好使，文件管理器放安卓tv上看界面就和平板似的，kodi浏览比较直接点就是了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>搏击俱乐部: </b><br>
+<span>其实我觉得kodi没有电视盒自己播放器搜刮海报做的好，但是我不喜欢电视盒自带播放器的快捷手感，</span><br>
+<span>现在也佛系随缘了，就像7楼的直接打开文件夹看。</span><br>
+</p><p><b>雪影: </b><br>
+<span>cybernetics31 发表于 2019-7-27 20:09</span><br>
+<span>mx player啥的在我的n1上不好使，文件管理器放安卓tv上看界面就和平板似的，kodi浏览比较直接点就是 ...</span><br>
+<span>vlc，有专门tv模式，不过解码能力没kodi强，解不了bd 4k原盘</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>逆袭的黑月: </b><br>
+<span>kodi又能用豆瓣了?之前不是说豆瓣关闭API了吗...而且感觉搜动画真的是一塌糊涂</span><br>
+</p><p><b>浮憧~: </b><br>
+<span>kodi搜刮器 豆瓣的下了 用不了啊</span><br>
+</p><p><b>弥勒: </b><br>
+<span>顺便问下TV动画归剧集里后搜刮出来都没问题但是剧集里点进去就是看不到是什么原因？（分类里相关制作公司之类的相关条目都有了）少部分剧集也是搜刮完后子显示不了（不是没海报），比如planet earth第一季</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>弥勒 发表于 2019-07-28 00:45:40</span><br>
+<span>顺便问下TV动画归剧集里后搜刮出来都没问题但是剧集里点进去就是看不到是什么原因？（分类里相关制作公司之 ...文件命名没按要求改好，基本上都要改成对应动画的罗马音加sxxexx这样，如何命名可以参考tvdb的官网。tv动画的搜刮我以前也弄过，每次下bdrip就各种批量改文件名，真的都是要按鬼佬的要求改，真的太麻烦了就放弃了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>弥勒: </b><br>
+<span>cybernetics31 发表于 2019-7-28 01:03</span><br>
+<span>文件命名没按要求改好，基本上都要改成对应动画的罗马音加sxxexx这样，如何命名可以参考tvdb的官网。tv动画 ...</span><br>
+<span>感谢，强迫症舒坦了</span><br>
+</p><p><b>rare720: </b><br>
+<span>每次打开kodi系统都自动搜索一遍，而且好多都是错的海报，怎么设置不开机自动搜索？怎么删除掉这个插件？</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>rare720 发表于 2019-7-29 14:20</span><br>
+<span>每次打开kodi系统都自动搜索一遍，而且好多都是错的海报，怎么设置不开机自动搜索？怎么删除掉这个插件？ ...</span><br>
+<span>重新添加一遍文件夹就行 然后在文件类型中选无就行 别选啥电影电视剧就不会搜刮</span><br>
+</p><p><b>我是学长我纱布: </b><br>
+<span>kodi的豆瓣刮削器经常挂</span><br>
+<span>我现在用的emby非常好用啊，电影丢文件夹就自动识别出来了</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>我是学长我纱布 发表于 2019-7-29 21:28</span><br>
+<span>kodi的豆瓣刮削器经常挂</span><br>
+<span>我现在用的emby非常好用啊，电影丢文件夹就自动识别出来了 ...</span><br>
+<span>+1，昨天试了nas装emby server，kodi装emby插件，几乎完美解决了我上面的痛点。</span><br>
+<span>但是emby有一点，刮削TV动画的速度非常慢，而且出错率很高。。把插件库里的刮削插件全下了，都不好用。。奇怪。</span><br>
+</p><p><b>zhao25: </b><br>
+<span>豆瓣的是有限制，多久内刮得太多就会封停几分钟。。。</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.0</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>sola_gaigaigai 发表于 2019-07-30 09:07:04</span><br>
+<span>+1，昨天试了nas装emby server，kodi装emby插件，几乎完美解决了我上面的痛点。</span><br>
+<span>但是emby有一点，刮削TV ...tv动画的搜刮就别折腾了，真的，全世界就没一个好的动画相关的搜刮器，本身就是放在电视剧的搜刮里头，没识别出的或者搜刮出错的要么是文件名没按鬼佬们的命名方式要么就是直接没这个动画的条目要么就是网不好被墙没搜刮全，泥潭超能力者这么多也没一个去写个动画的中文搜刮器</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>827288988: </b><br>
+<span>kodi现在有支持原盘3d的版本吗</span><br>
+</p><p><b>弥勒: </b><br>
+<span>动画电视剧电影我都用的tmdb，除了要改文件名没啥其他问题。。。豆瓣的我就从来没连上过。bgm说是有做过个动画的搜刮器但是找不到。。</span><br>
+</p><p><b>我是学长我纱布: </b><br>
+<span>zhao25 发表于 2019-7-30 09:17</span><br>
+<span>豆瓣的是有限制，多久内刮得太多就会封停几分钟。。。</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next- ...</span><br>
+<span>那是以前，今年经常连着2周连不上……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849444[0-50]</guid>
+    </item>
+  </channel>
+</rss>

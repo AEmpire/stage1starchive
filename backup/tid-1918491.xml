@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>数学问题求助:如何判断一个变化对关键指标的影响?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>数学问题求助:如何判断一个变化对关键指标的影响?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:31:01 +0000</lastBuildDate>
+    <item>
+      <title>数学问题求助:如何判断一个变化对关键指标的影响?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918491-1-1.html</link>
+      <description>数学问题求助:如何判断一个变化对关键指标的影响?&#13;
+举个例子，假如我有个泳池，每天24小时监测水质（水的细菌含量，含氯量，等等30个kpi），现在我水池里装一个滑梯（材料可能影响水质），然后照常每天检测kpi。如何判断，滑梯对水质的影响？</description>
+      <content:encoded><![CDATA[<p><b>balthasar: </b><br>
+<span>数学问题求助:如何判断一个变化对关键指标的影响?</span><br>
+<span>举个例子，假如我有个泳池，每天24小时监测水质（水的细菌含量，含氯量，等等30个kpi），现在我水池里装一个滑梯（材料可能影响水质），然后照常每天检测kpi。如何判断，滑梯对水质的影响？</span><br>
+</p><p><b>balthasar: </b><br>
+<span>或者换句话说，这些指标需要产生怎么样的变化，就有足够大的概率能说是滑梯产生了影响？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>风神之神德: </b><br>
+<span>把泳池分两边</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>balthasar: </b><br>
+<span>有没有相关的数学方法可以证明类似的问题？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>nexus1: </b><br>
+<span>卡方检验</span><br>
+</p><p><b>adiedfish: </b><br>
+<span>把泳池分两边</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>假设检验？</span><br>
+</p><p><b>Chia: </b><br>
+<span>这个归统计，选一个检验方法，计算参考值。</span><br>
+<span>至于何种程度算显著，得有你行业内的人说了算</span><br>
+</p><p><b>balthasar: </b><br>
+<span>多谢楼上各位的回复，我这就去看看假设检验</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>cleverfox: </b><br>
+<span>逻辑回归</span><br>
+</p><p><b>82887: </b><br>
+<span>correlation coefficient</span><br>
+</p><p><b>oT3To: </b><br>
+<span>这不是数学问题，这是工程问题</span><br>
+<span>你想明白为什么要定那40个kpi就知道了</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>如果是要检验任意游泳池可能受到的影响，需要若干个放在不同地方的游泳池。</span><br>
+<span>只考虑这一个游泳池的话，考虑到气候的影响，最好同样时间下（其次往年同期）有另一边作为对照。然后计算平均值和方差整形成标准正态分布以后计算卡方？</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>确认有相关性之后提高减少都可以就着均值和方差讲了。</span><br>
+</p><p><b>regalia: </b><br>
+<span>可以去搜一下change point detection的文章</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918491[0-50]</guid>
+    </item>
+  </channel>
+</rss>

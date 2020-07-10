@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>打人硕这BIOS也不知道是谁设计的</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>打人硕这BIOS也不知道是谁设计的</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:22:11 +0000</lastBuildDate>
+    <item>
+      <title>打人硕这BIOS也不知道是谁设计的[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853022-1-1.html</link>
+      <description>打人硕这BIOS也不知道是谁设计的&#13;
+ 本帖最后由 EraserKing 于 2019-8-12 20:00 编辑 
+
+就算被打我也要说打人硕这个BIOS最多是能用的水平
+&#13;
+3700X，X570 TUF，掠食者3200 8G*2
+&#13;
+————
+&#13;
+装好了我也懒得超U了，就想拉一下内存拉倒
+&#13;
+打开DOCP，3200，直接进系统没毛病
+&#13;
+直接拉到3600碰磁运气，电压时序都没调，不开机，行吧，这得怪我
+&#13;
+关机放电（反正没自动恢复功能，你不放电就一直重启），重设，DRAM Calculator算了下电压时序，填上重要的参数，16-19-20-36，电压填上，Gear Down打开，1T选上。
+&#13;
+VDDG有，但是……VDDP呢？？？没找到。先算了。
+&#13;
+开机，进BIOS检查了下，3600。进系统没细看，简单烤了下机，没啥问题。
+&#13;
+————
+&#13;
+那我再拉下3666看看。时序再略放点，FCLK改1833。开机……
+&#13;
+开了。但是仔细看了下，不知道触发了什么BUG。BCLK居然掉下去了。100的BCLK掉到98.2了可还行。
+&#13;
+搞毛呢？我又没改BCLK。结果内存频率反而掉成了36.66*98.2，连3600都不到了。BIOS里还是显示3666。障眼法这是？
+&#13;
+顺带着把CPU频率也掉了。不知道是哪里抽风……
+&#13;
+————
+&#13;
+那我再看看有没有地方改BCLK呗？
+&#13;
+结果BCLK是真没有地方改，但是居然还发现了另外一个高级超频设置，DRAM啥的设置另有一套，和外面的设置还不同步？？
+&#13;
+再看看，除了DRAM设置，PBO在这里也能改，但是除了主菜单里的PBO和这里的PBO，外面还有一个地方设置PBO？？？
+&#13;
+这BIOS相关人员就自己没打开看过，反正选项给你做上了就行？你问我到底哪个起作用，无可奉告，你不会都设上么
+&#13;
+————
+&#13;
+VDDP在这堆高级设置里也找到了，可以设置，但是没单位？也没说明？就让输个数？
+&#13;
+0.950不行，非要整数……我也不敢试950，猜不透设计人员这尿性，万一单位是V我还不上天了？
+&#13;
+————
+&#13;
+行吧，最后清空重设了一轮，原样抄上设置，好了，外频也正常了，频率也正常了，烤机也过了，VDDP我也不管了，再也不想弄了
+&#13;
+可能也就比雕牌那个只能VCORE +0.3V的神秘BIOS好些吧……</description>
+      <content:encoded><![CDATA[<p><b>EraserKing: </b><br>
+<span>mhss 发表于 2019-8-13 17:15</span><br>
+<span>群殴国度的q-fan设置我觉得挺丰富的呀？而且这不是有静音么</span><br>
+<span>我错了…… @ft5555 </span><br>
+<span>顶上这个F6和菜单里的设置不一样！</span><br>
+<span>TM不是喜欢在别的地方安排一样的设置么！</span><br>
+<span>怎么在菜单里不再做一个打开图形界面的设置了？？</span><br>
+</p><p><b>沙恩: </b><br>
+<span>EraserKing 发表于 2019-8-13 18:33</span><br>
+<span>我错了…… @ft5555 </span><br>
+<span>顶上这个F6和菜单里的设置不一样！</span><br>
+<span>TM不是喜欢在别的地方安排一样的设置么！</span><br>
+<span>不行AI SUITE3啊 虽然这个软件又慢又蠢</span><br>
+<span>但是仅仅说风扇的功能 还是很足的</span><br>
+</p><p><b>feelmydick: </b><br>
+<span>TUF怎么能算华硕呢,请上ROG系列,再不济也得上STRIX,BIOS包满意</span><br>
+</p><p><b>noobtizi: </b><br>
+<span>我作为rog粉，手里有三个rog的笔电，也觉得rog的bios很傻逼</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>沙恩 发表于 2019-8-14 10:41</span><br>
+<span>不行AI SUITE3啊 虽然这个软件又慢又蠢</span><br>
+<span>但是仅仅说风扇的功能 还是很足的 ...</span><br>
+<span>试了下，和BIOS里功能一模一样</span><br>
+<span>之前是我找漏了……</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>feelmydick 发表于 2019-8-14 11:56</span><br>
+<span>TUF怎么能算华硕呢,请上ROG系列,再不济也得上STRIX,BIOS包满意</span><br>
+<span>不满意就打到满意么？</span><br>
+</p><p><b>linjia: </b><br>
+<span>现在BIOS厂家还是（Phoenix，AMI，Insyde，Byosoft）这几家吗</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>Realplayer 发表于 2019-8-13 16:36</span><br>
+<span>能，但是我这个重启之后发现曲线又回去了，不知咋回事也没管</span><br>
+<span>我的msi x370也有这毛病，风扇曲线有时候能生效有时候又自己还原</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-12 21:05</span><br>
+<span>HWiNFO 看比较方便 会记录每个核心的最大频率，99.8对应的就是4391</span><br>
+<span>我昨天用了一天，正常使用情况下</span><br>
+<span>最后记录下来的结果是6个核最高值是4375，剩下两个核最高值是4350，没见到4400，就是差一口气</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>EraserKing 发表于 2019-8-15 08:38</span><br>
+<span>我昨天用了一天，正常使用情况下</span><br>
+<span>最后记录下来的结果是6个核最高值是4375，剩下两个核最高值是4350，没见 ...</span><br>
+<span>嗯，我想办法烤单核最大也没上到4.4。关键是从cpuz看那个倍频最大只见过43.5，从来没见过44，所以就算bclk不是99.8而是100也没用，除非是101.15</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-15 08:38</span><br>
+<span>我昨天用了一天，正常使用情况下</span><br>
+<span>最后记录下来的结果是6个核最高值是4375，剩下两个核最高值是4350，没见 ...</span><br>
+<span>那也还行了，很多升到ab只能到4.3</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-15 09:54</span><br>
+<span>嗯，我想办法烤单核最大也没上到4.4。关键是从cpuz看那个倍频最大只见过43.5，从来没见过44，所以就算bcl ...</span><br>
+<span>农企倍频是以0.25为倍数的，所以我这就有4375</span><br>
+<span>BCLK我就直接取整了，我现在99.98了，就当100吧</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>EraserKing 发表于 2019-8-15 10:47</span><br>
+<span>农企倍频是以0.25为倍数的，所以我这就有4375</span><br>
+<span>BCLK我就直接取整了，我现在99.98了，就当100吧 ...</span><br>
+<span>奇怪我刷了abb也加载了优化配置，但bclk还是99.8，你咋搞出99.98的</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-15 10:06</span><br>
+<span>那也还行了，很多升到ab只能到4.3</span><br>
+<span>我看林大说微星会停在AB出好所有400系板子之后再上ABB，留一个最后的PCI-E 4.0版本，X570也就被拖迟了</span><br>
+<span>那急的话就只能手超了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-15 10:49</span><br>
+<span>奇怪我刷了abb也加载了优化配置，但bclk还是99.8，你咋搞出99.98的</span><br>
+<span>你和我用的是一个板子么</span><br>
+<span>我是先存了原来的设置，升了ABB之后，加载了原来的设置结果有一堆地方对不上，我又手改了一番</span><br>
+<span>打人硕这个BCLK确实挺迷的，首先是没有地方可以改，其次我之前还掉过98.2，我也不知道咋回事，清了设置重设就回到99.8了</span><br>
+<span>要不你抄下设置清空重设？不过我觉得99.8还行吧，不是特别值得折腾了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>EraserKing 发表于 2019-8-15 10:52</span><br>
+<span>你和我用的是一个板子么</span><br>
+<span>我是先存了原来的设置，升了ABB之后，加载了原来的设置结果有一堆地方对不上，我 ...</span><br>
+<span>我是prime x570 pro。</span><br>
+<span>和你一样，刷完abb后，原来存的配置就被清了（这次长记性存U盘里了），然后重新填了一遍。</span><br>
+<span>98.2我碰见过，好像是有次改内存到3533（1766）后，进系统后虽然win10任务管理器虽然显示3533，但用cpuz啥的看都是3466，我还以为弄错了，结果再一看bclk变成98.2了，这样1766乘完了就剩下1734了。</span><br>
+<span>后来我把内存改回3600就正常了，不知道是不是bios的bug，对特定频率的分频有问题？</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-15 10:50</span><br>
+<span>我看林大说微星会停在AB出好所有400系板子之后再上ABB，留一个最后的PCI-E 4.0版本，X570也就被拖迟了</span><br>
+<span>那 ...</span><br>
+<span>我还停在1.0.0.2 唯一的升频没问题的版本 但内存只能拉到3600</span><br>
+<span>1.0.0.3开始对内存超频改善大</span><br>
+<span>先这么用着了。。。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-15 10:58</span><br>
+<span>我是prime x570 pro。</span><br>
+<span>和你一样，刷完abb后，原来存的配置就被清了（这次长记性存U盘里了），然后重新填 ...</span><br>
+<span>你这么一说确实有可能</span><br>
+<span>我拉3733的，FCLK拉到1866，然后发现掉98.2</span><br>
+<span>降回3666，FCLK降到1833，还是98.2</span><br>
+<span>但是BUG在于</span><br>
+<span>我清掉所有设置重设之后，还是3666，FCLK 1833，就回到99.8了</span><br>
+<span>升1003ABB之后现在甚至是99.98</span><br>
+<span>BTW，我的任务管理器里现在不显示内存频率了，不知道是主板的锅还是咖喱10的锅 </span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-15 10:59</span><br>
+<span>我还停在1.0.0.2 唯一的升频没问题的版本 但内存只能拉到3600</span><br>
+<span>1.0.0.3开始对内存超频改善大</span><br>
+<span>3600也够了，3600再往上还要抬FCLK，这个吃CPU体质</span><br>
+<span>拉频率拉不上去还可以压时序嘛……</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-15 10:59</span><br>
+<span>我还停在1.0.0.2 唯一的升频没问题的版本 但内存只能拉到3600</span><br>
+<span>1.0.0.3开始对内存超频改善大</span><br>
+<span>3600也够了，3600再往上还要抬FCLK，这个吃CPU体质，3600一般都没问题</span><br>
+<span>拉频率拉不上去还可以压时序嘛……</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>FCLK的话普遍限界是1866对应内存3733,往上1900就大概只有两成不到的U能上去了,再往上一格1933基本得二十选一......另外1866相对1800优势微乎其微,能3600C14/C15就差不多了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>EraserKing 发表于 2019-8-15 11:02</span><br>
+<span>你这么一说确实有可能</span><br>
+<span>我拉3733的，FCLK拉到1866，然后发现掉98.2</span><br>
+<span>降回3666，FCLK降到1833，还是98.2</span><br>
+<span>等bios更新吧，超频设置不说了，真是没想到9102年了bios连最基本的快捷启动设备选择都没有。</span><br>
+<span>话说你3666情况下跑aida64的内存读取大概是多少？我3600 16 18 18 19 36 56 1T情况下大概是52.6G/s，我怎么看网上有人时序基本一致的情况下能到55G/s</span><br>
+<span>3600稳了后我也试了下3666，加到1.4V跑mt50%就出错了，也许再加点电压就行了吧，不过懒得折腾了，就3600@1.39v用了。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>KOGmk2 发表于 2019-8-15 11:09</span><br>
+<span>FCLK的话普遍限界是1866对应内存3733,往上1900就大概只有两成不到的U能上去了,再往上一格1933基本得二十选 ...</span><br>
+<span>我造，林大讲过</span><br>
+<span>不过我懒，现在3666C16就行了，不想再反复试了</span><br>
+<span>有空还不如试试PBO，但是PBO我都不想搞</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-15 11:12</span><br>
+<span>等bios更新吧，超频设置不说了，真是没想到9102年了bios连最基本的快捷启动设备选择都没有。</span><br>
+<span>话说你3666 ...</span><br>
+<span>我现在不记得了，晚上回去看看</span><br>
+<span>不过我电压设得高，1.44好像，计算器显示1.44我就1.44了，懒得降了，不炸就行</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>liwangli1983 发表于 2019-8-15 11:12</span><br>
+<span>等bios更新吧，超频设置不说了，真是没想到9102年了bios连最基本的快捷启动设备选择都没有。</span><br>
+<span>话说你3666 ...</span><br>
+<span>ZEN2内存性能受trfc影响极大~~~和ZEN/ZEN+是不同的,trfc 260和485能差出15%以上差距,以前差距不到3%</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-15 11:12</span><br>
+<span>等bios更新吧，超频设置不说了，真是没想到9102年了bios连最基本的快捷启动设备选择都没有。</span><br>
+<span>话说你3666 ...</span><br>
+<img src="https://i.loli.net/2019/08/16/uhlVArbTJEjXeSO.png" title="https://i.loli.net/2019/08/16/uhlVArbTJEjXeSO.png"><br>
+<span>忘了回你了，刚想起来</span><br>
+<span>你看3666下面这数据感觉还不如你呢</span><br>
+<span>至于为什么BCLK现在不是99.98而是99.8</span><br>
+<span>我也不知道是调了什么设置，总之就是又掉下来了</span><br>
+<span>看了下现在时序是16 18 19 20 36 56，Gear Down和Cmd都是Auto（Ryzen Master里显示是开和1T）</span><br>
+<span>稳定MT 100%无错，AIDA64单烤内存30分钟没问题</span><br>
+<span>我大概试了下，内存时序会影响BCLK（真的）</span><br>
+<span>然后……虚拟化会极大影响BCLK，开着的话BCLK会乱跳，从80多到100出头我都见过，不知道是数据错误还是别的什么原因</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853022[50-100]</guid>
+    </item>
+    <item>
+      <title>打人硕这BIOS也不知道是谁设计的[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853022-1-1.html</link>
+      <description>打人硕这BIOS也不知道是谁设计的&#13;
+ 本帖最后由 EraserKing 于 2019-8-12 20:00 编辑 
+
+就算被打我也要说打人硕这个BIOS最多是能用的水平
+&#13;
+3700X，X570 TUF，掠食者3200 8G*2
+&#13;
+————
+&#13;
+装好了我也懒得超U了，就想拉一下内存拉倒
+&#13;
+打开DOCP，3200，直接进系统没毛病
+&#13;
+直接拉到3600碰磁运气，电压时序都没调，不开机，行吧，这得怪我
+&#13;
+关机放电（反正没自动恢复功能，你不放电就一直重启），重设，DRAM Calculator算了下电压时序，填上重要的参数，16-19-20-36，电压填上，Gear Down打开，1T选上。
+&#13;
+VDDG有，但是……VDDP呢？？？没找到。先算了。
+&#13;
+开机，进BIOS检查了下，3600。进系统没细看，简单烤了下机，没啥问题。
+&#13;
+————
+&#13;
+那我再拉下3666看看。时序再略放点，FCLK改1833。开机……
+&#13;
+开了。但是仔细看了下，不知道触发了什么BUG。BCLK居然掉下去了。100的BCLK掉到98.2了可还行。
+&#13;
+搞毛呢？我又没改BCLK。结果内存频率反而掉成了36.66*98.2，连3600都不到了。BIOS里还是显示3666。障眼法这是？
+&#13;
+顺带着把CPU频率也掉了。不知道是哪里抽风……
+&#13;
+————
+&#13;
+那我再看看有没有地方改BCLK呗？
+&#13;
+结果BCLK是真没有地方改，但是居然还发现了另外一个高级超频设置，DRAM啥的设置另有一套，和外面的设置还不同步？？
+&#13;
+再看看，除了DRAM设置，PBO在这里也能改，但是除了主菜单里的PBO和这里的PBO，外面还有一个地方设置PBO？？？
+&#13;
+这BIOS相关人员就自己没打开看过，反正选项给你做上了就行？你问我到底哪个起作用，无可奉告，你不会都设上么
+&#13;
+————
+&#13;
+VDDP在这堆高级设置里也找到了，可以设置，但是没单位？也没说明？就让输个数？
+&#13;
+0.950不行，非要整数……我也不敢试950，猜不透设计人员这尿性，万一单位是V我还不上天了？
+&#13;
+————
+&#13;
+行吧，最后清空重设了一轮，原样抄上设置，好了，外频也正常了，频率也正常了，烤机也过了，VDDP我也不管了，再也不想弄了
+&#13;
+可能也就比雕牌那个只能VCORE +0.3V的神秘BIOS好些吧……</description>
+      <content:encoded><![CDATA[<p><b>EraserKing: </b><br>
+<span>打人硕这BIOS也不知道是谁设计的</span><br>
+<span> 本帖最后由 EraserKing 于 2019-8-12 20:00 编辑 </span><br>
+<span>就算被打我也要说打人硕这个BIOS最多是能用的水平</span><br>
+<span>3700X，X570 TUF，掠食者3200 8G*2</span><br>
+<span>————</span><br>
+<span>装好了我也懒得超U了，就想拉一下内存拉倒</span><br>
+<span>打开DOCP，3200，直接进系统没毛病</span><br>
+<span>直接拉到3600碰磁运气，电压时序都没调，不开机，行吧，这得怪我</span><br>
+<span>关机放电（反正没自动恢复功能，你不放电就一直重启），重设，DRAM Calculator算了下电压时序，填上重要的参数，16-19-20-36，电压填上，Gear Down打开，1T选上。</span><br>
+<span>VDDG有，但是……VDDP呢？？？没找到。先算了。</span><br>
+<span>开机，进BIOS检查了下，3600。进系统没细看，简单烤了下机，没啥问题。</span><br>
+<span>————</span><br>
+<span>那我再拉下3666看看。时序再略放点，FCLK改1833。开机……</span><br>
+<span>开了。但是仔细看了下，不知道触发了什么BUG。BCLK居然掉下去了。100的BCLK掉到98.2了可还行。</span><br>
+<span>搞毛呢？我又没改BCLK。结果内存频率反而掉成了36.66*98.2，连3600都不到了。BIOS里还是显示3666。障眼法这是？</span><br>
+<span>顺带着把CPU频率也掉了。不知道是哪里抽风……</span><br>
+<span>————</span><br>
+<span>那我再看看有没有地方改BCLK呗？</span><br>
+<span>结果BCLK是真没有地方改，但是居然还发现了另外一个高级超频设置，DRAM啥的设置另有一套，和外面的设置还不同步？？</span><br>
+<span>再看看，除了DRAM设置，PBO在这里也能改，但是除了主菜单里的PBO和这里的PBO，外面还有一个地方设置PBO？？？</span><br>
+<span>这BIOS相关人员就自己没打开看过，反正选项给你做上了就行？你问我到底哪个起作用，无可奉告，你不会都设上么</span><br>
+<span>————</span><br>
+<span>VDDP在这堆高级设置里也找到了，可以设置，但是没单位？也没说明？就让输个数？</span><br>
+<span>0.950不行，非要整数……我也不敢试950，猜不透设计人员这尿性，万一单位是V我还不上天了？</span><br>
+<span>————</span><br>
+<span>行吧，最后清空重设了一轮，原样抄上设置，好了，外频也正常了，频率也正常了，烤机也过了，VDDP我也不管了，再也不想弄了</span><br>
+<span>可能也就比雕牌那个只能VCORE +0.3V的神秘BIOS好些吧……</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>别问，问就是amd不行各家bios都是垃圾</span><br>
+</p><p><b>ft5555: </b><br>
+<span>我的x470等1.0.0.3abb的bios出来再刷了，现在停留在1.0.0.2 内存超频比较差只能3600 但主频能自动上到4.4</span><br>
+<span>1.0.0.3是自动上不到这么高。</span><br>
+<span>总之asus这回bios比微星 技嘉慢太多。 完全没有前两代那样领先别家的感觉</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>qzy741147 发表于 2019-8-12 20:05</span><br>
+<span>别问，问就是amd不行各家bios都是垃圾</span><br>
+<span>菌龟星要好不少吧！</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-12 20:06</span><br>
+<span>我的x470等1.0.0.3abb的bios出来再刷了，现在停留在1.0.0.2 内存超频比较差只能3600 但主频能自动上到4.4</span><br>
+<span> ...</span><br>
+<span>其实我试过3733，能跑aida64烤机坚持半小时，之后可能会重启，所以我就降3666了</span><br>
+<span>主频我能看到4.3（当然，单核），没看到过4.4，不过我是原装散热器，我就不折腾了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-12 20:10</span><br>
+<span>其实我试过3733，能跑aida64烤机坚持半小时，之后可能会重启，所以我就降3666了</span><br>
+<span>主频我能看到4.3（当然 ...</span><br>
+<span>对 reddit上很多人在讨论 现在的微码 上不到标称频率</span><br>
+<span>能上的只有1.0.0.2</span><br>
+<span>你现在bios 1.0.0.3ab？</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-12 20:15</span><br>
+<span>对 reddit上很多人在讨论 现在的微码 上不到标称频率</span><br>
+<span>能上的只有1.0.0.2</span><br>
+<img src="https://i.loli.net/2019/08/12/Vu9n5h13fYw6oSC.png" title="https://i.loli.net/2019/08/12/Vu9n5h13fYw6oSC.png"><br>
+<span>只能看到是1003，看不到是ab aba还是abb</span><br>
+<span>官网也没说</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-12 20:15</span><br>
+<span>对 reddit上很多人在讨论 现在的微码 上不到标称频率</span><br>
+<span>能上的只有1.0.0.2</span><br>
+<span>刷新了下发现abb今天刚出了……我来刷刷</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-12 20:27</span><br>
+<span>刷新了下发现abb今天刚出了……我来刷刷</span><br>
+<span>看看主频能到多少pceva说ABB有改善</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2019-8-12 20:57 编辑 </span><br>
+<span>ft5555 发表于 2019-8-12 20:29</span><br>
+<span>看看主频能到多少pceva说ABB有改善</span><br>
+<span>试了下（还把我的设置清空了，加载原来的设置错得一塌糊涂，简单重设了下）</span><br>
+<span>BCLK好像更准了点，上次清过之后是99.80，现在设置好了是99.98</span><br>
+<span>频率方面，还是以单核最高来说，4.3挺常见（CPU-Z里看的，任务管理器反而只显示4.2了），4.325 4.35 4.375机率依次降低，4.4还是没见过，怀疑可能还是要手动超上去</span><br>
+<span>然后还是显示1003，不是1003ABB，所以原来可能已经是AB了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>，99</span><br>
+<span>EraserKing 发表于 2019-8-12 20:51</span><br>
+<span>试了下（还把我的设置清空了，加载原来的设置错得一塌糊涂，简单重设了下）</span><br>
+<span>BCLK好像更准了点，上次清过之 ...</span><br>
+<span>HWiNFO 看比较方便 会记录每个核心的最大频率，99.8对应的就是4391</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-12 21:05</span><br>
+<span>HWiNFO 看比较方便 会记录每个核心的最大频率，99.8对应的就是4391</span><br>
+<span>我用的是HWMonitor，一样可以记</span><br>
+<span>正常用了一会，看了会视频刷了会网页</span><br>
+<span>确定没有4.4，最高是4374，4301 4324 4349也都有</span><br>
+</p><p><b>美人希: </b><br>
+<span>楼主，华硕是守法企业，不会做出打人这种事的。至于请律师这是合法合规的事情</span><br>
+<span>— from OPPO PAAM00, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>美人希 发表于 2019-8-12 21:30</span><br>
+<span>楼主，华硕是守法企业，不会做出打人这种事的。至于请律师这是合法合规的事情</span><br>
+<span>— from OPPO PAAM00 ...</span><br>
+<span>你说这是啥牌子？我可不认识，我只知道打人硕，你说的那个什么硕和我可没关系</span><br>
+</p><p><b>evooil: </b><br>
+<span> EraserKing 发表于 2019-8-12 21:37 引用:美人希 发表于 2019-8-12 21:30 楼主，华硕是守法企业，不会做出打人这种事的。至于请律师这是合法合规的事情— from OPPO PAAM00 ... 你说这是啥牌子？我可不认识，我只知道打人硕，你说的那个什么硕和我可没关系 </span><br>
+<span>我的板u刚发货了 3600x TUF B450m pro </span><br>
+<span>也是3200的内存 可以超内存吗哪里有bios设置的指导啊</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>LuYang1: </b><br>
+<span>evooil 发表于 2019-8-12 22:00</span><br>
+<span>我的板u刚发货了 3600x TUF B450m pro </span><br>
+<span>也是3200的内存 可以超内存吗哪里有bios设置的指导啊</span><br>
+<span>https://www.chiphell.com/thread-1794688-1-1.html</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>LuYang1 发表于 2019-8-12 22:03</span><br>
+<span>https://www.chiphell.com/thread-1794688-1-1.html</span><br>
+<span>这都啥时候的了</span><br>
+<span>DRAM Calc现在直接读XMP就行了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>这</span><br>
+<span>evooil 发表于 2019-8-12 22:00</span><br>
+<span>我的板u刚发货了 3600x TUF B450m pro </span><br>
+<span>也是3200的内存 可以超内存吗哪里有bios设置的指导啊</span><br>
+<span>DRAM Calculator下载下来</span><br>
+<span>读好XMP，设置好你的环境（U，芯片组，内存Die类型，条数等等）</span><br>
+<span>一键计算</span><br>
+<span>去BIOS里填上就行</span><br>
+<span>主要就是频率，时序（前几个重要的填上就行了），电压，超过3600的话最好手选FCLK分频或者FCLK频率</span><br>
+<span>保存开机烤机能过</span><br>
+<span>就差不多了</span><br>
+<span>不过打人硕这个BIOS估计你得找一会设置</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我是x570pro，楼主碰到的坑也碰到了，经过一顿折腾现在基本上直接用的计算器的参数，稳定在3600了</span><br>
+<span>这个bios除了楼主提到的问题外，启动方面我有时需要插u盘启动系统，结果这个也没个usb优先的设定，也没有方便的快捷启动设备选择菜单，不爽啊</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>没人用WS么</span><br>
+</p><p><b>zanber: </b><br>
+<span>再怎么也比拒保嘉的那个狗屎bios强一点，傻屌一样的菜单逻辑，xmp每次断电后就读不到预设电压，号称小雕连cpu电压都木的调</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>chitongfok: </b><br>
+<span>难道现在御三家里最强的是军规星？想不到啊</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>EraserKing 发表于 2019-8-12 20:08</span><br>
+<span>菌龟星要好不少吧！</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+<span>一个网上的朋友买的msi tomahawk b450 折腾了一个半月最后平均开一次机需要启动5-6次。</span><br>
+</p><p><b>u8j9ku8j9k: </b><br>
+<span>那么到底哪家BIOS好用点</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-8-12 23:02</span><br>
+<span>我是x570pro，楼主碰到的坑也碰到了，经过一顿折腾现在基本上直接用的计算器的参数，稳定在3600了</span><br>
+<span>这个bio ...</span><br>
+<span>你这么一说好像确实……没见到启动项选择快捷键</span><br>
+<span>不过进BIOS之后在EZ Mode里右边倒是有可选的，Advanced Mode好像确实没印象了</span><br>
+<span>我晚上回去再瞅瞅</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zanber 发表于 2019-8-12 23:47</span><br>
+<span>再怎么也比拒保嘉的那个狗屎bios强一点，傻屌一样的菜单逻辑，xmp每次断电后就读不到预设电压，号称小雕连c ...</span><br>
+<span>B站有人做了B450的横评，小雕只能+0.3核心电压</span><br>
+<span>不要问，问就是五年保怕你五天就炸上天</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>qzy741147 发表于 2019-8-13 01:16</span><br>
+<span>一个网上的朋友买的msi tomahawk b450 折腾了一个半月最后平均开一次机需要启动5-6次。 ...</span><br>
+<span>看林大的说法是，菌龟星想得比较多，但是经常被AGESA坑，然而AGESA启动太早，他们也没法介入 </span><br>
+</p><p><b>Geminize: </b><br>
+<span>chitongfok 发表于 2019-8-13 00:05</span><br>
+<span>难道现在御三家里最强的是军规星？想不到啊</span><br>
+<span>是的，拒保嘉BIOS改成高级界面，随便改点参数保存，重启再进有几率变回标准界面的我还没见过第二家</span><br>
+</p><p><b>zanber: </b><br>
+<span>EraserKing 发表于 2019-8-13 09:01</span><br>
+<span>B站有人做了B450的横评，小雕只能+0.3核心电压</span><br>
+<span>不要问，问就是五年保怕你五天就炸上天</span><br>
+<span>不是，我那个X470UG的初版BIOS之后拒保嘉直接砍掉了VDDP调整只留下DVDDP给我，我可谢谢你啊，就怕我调电压调炸了</span><br>
+</p><p><b>zanber: </b><br>
+<span>Geminize 发表于 2019-8-13 09:03</span><br>
+<span>是的，拒保嘉BIOS改成高级界面，随便改点参数保存，重启再进有几率变回标准界面的我还没见过第二家</span><br>
+<span> ...</span><br>
+<span>变标准界面的那是超挂了还原BIOS设置了，但是拒保嘉神奇的断电丢失内存设置和奇迹一样的F12启动菜单bug真的让我无法吐槽</span><br>
+</p><p><b>AlfredXC: </b><br>
+<span>看了下，b450i昨天也更新了1.0.0.3 AB，要不要升级了看看呢</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> MSI 戰斧MAX   3600 默認比標稱BOOST 低只有4.1G</span><br>
+</p><p><b>Geminize: </b><br>
+<span>zanber 发表于 2019-8-13 09:10</span><br>
+<span>变标准界面的那是超挂了还原BIOS设置了，但是拒保嘉神奇的断电丢失内存设置和奇迹一样的F12启动菜单bug真 ...</span><br>
+<span>就改个启动顺序什么的，除了界面都没还原，别的设置都正常</span><br>
+</p><p><b>zanber: </b><br>
+<span>Geminize 发表于 2019-8-13 10:39</span><br>
+<span>就改个启动顺序什么的，除了界面都没还原，别的设置都正常</span><br>
+<span>那这种情况我没遇到</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>AlfredXC 发表于 2019-8-13 09:25</span><br>
+<span>看了下，b450i昨天也更新了1.0.0.3 AB，要不要升级了看看呢</span><br>
+<span>AB？我感觉微星出得挺快啊，不应该是ABB了么</span><br>
+</p><p><b>aurraro: </b><br>
+<span>微星的1.0.0.3ABB据说不发了？</span><br>
+</p><p><b>AlfredXC: </b><br>
+<span>EraserKing 发表于 2019-8-13 14:16</span><br>
+<span>AB？我感觉微星出得挺快啊，不应该是ABB了么</span><br>
+<span>华硕的，出得贼慢</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>aurraro 发表于 2019-8-13 14:32</span><br>
+<span>微星的1.0.0.3ABB据说不发了？</span><br>
+<span>为啥？</span><br>
+<span>我看到已经有板子的Beta版BIOS放了ABB了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>EraserKing 发表于 2019-8-13 14:16</span><br>
+<span>AB？我感觉微星出得挺快啊，不应该是ABB了么</span><br>
+<span>还真是……AB……</span><br>
+<span>和ABB之间还差了个ABA</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>EraserKing 发表于 2019-8-12 20:08</span><br>
+<span>菌龟星要好不少吧！</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+<span>菌龟星非要整个什么打麻将UI，易用性我觉得连华擎不如</span><br>
+<img src="https://i.loli.net/2019/08/13/RWmjtV8dObPDA4H.png" title="https://i.loli.net/2019/08/13/RWmjtV8dObPDA4H.png"><br>
+</p><p><b>EraserKing: </b><br>
+<span>Realplayer 发表于 2019-8-13 16:25</span><br>
+<span>菌龟星非要整个什么打麻将UI，易用性我觉得连华擎不如</span><br>
+<span>我听说风扇能拉曲线？</span><br>
+<span>这个华硕的Q-Fan控制……一言难尽</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>EraserKing 发表于 2019-8-13 16:33</span><br>
+<span>我听说风扇能拉曲线？</span><br>
+<span>这个华硕的Q-Fan控制……一言难尽</span><br>
+<span>能，但是我这个重启之后发现曲线又回去了，不知咋回事也没管</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Realplayer 发表于 2019-8-13 16:36</span><br>
+<span>能，但是我这个重启之后发现曲线又回去了，不知咋回事也没管</span><br>
+<span>好歹能设置……打人硕好像只能设DC/PWM模式，加减转速的延迟和最小转速警告，没了……</span><br>
+<span>你说我就要静音，不好意思，要么被打要么坐牢，可以自选其一</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-13 16:50</span><br>
+<span>好歹能设置……打人硕好像只能设DC/PWM模式，加减转速的延迟和最小转速警告，没了……</span><br>
+<span>你说我就要 ...</span><br>
+<span>不会啊， 我这prime x470 自定义转速没问题。</span><br>
+<span>主要是q-fan页面是个简化设置。。更多设置藏在高级设置里。。。</span><br>
+</p><p><b>mhss: </b><br>
+<span>EraserKing 发表于 2019-8-13 16:50</span><br>
+<span>好歹能设置……打人硕好像只能设DC/PWM模式，加减转速的延迟和最小转速警告，没了……</span><br>
+<span>你说我就要 ...</span><br>
+<span>群殴国度的q-fan设置我觉得挺丰富的呀？而且这不是有静音么</span><br>
+<img src="http://ww1.sinaimg.cn/large/bc3e4754gy1g5y64fx5pcj20sg0lcjw5.jpg" title="http://ww1.sinaimg.cn/large/bc3e4754gy1g5y64fx5pcj20sg0lcjw5.jpg"><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-13 17:03</span><br>
+<span>不会啊， 我这prime x470 自定义转速没问题。</span><br>
+<span>主要是q-fan页面是个简化设置。。更多设置藏在高级设置里 ...</span><br>
+<span>晩上上图…真没…</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>mhss 发表于 2019-8-13 17:15</span><br>
+<span>群殴国度的q-fan设置我觉得挺丰富的呀？而且这不是有静音么</span><br>
+<span>我这和你不一样！</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>ft5555: </b><br>
+<span>EraserKing 发表于 2019-8-13 17:32</span><br>
+<span>我这和你不一样！</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+<span>我的和45楼一样</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ft5555 发表于 2019-8-13 17:33</span><br>
+<span>我的和45楼一样</span><br>
+<span>干，我的是纯文本的</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>madbird302: </b><br>
+<span>华擎X570最近差不多一周一版新bios，等等呗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853022[0-50]</guid>
+    </item>
+  </channel>
+</rss>

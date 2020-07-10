@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:26:37 +0000</lastBuildDate>
+    <item>
+      <title>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842801-1-1.html</link>
+      <description>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了&#13;
+雷锋网   2019-06-28 06:34:53
+&#13;
+摘要：
+&#13;
+今天，谷歌的 Dropout 专利生效这一消息突然在圈内传开，而生效日期就在 6 月 25 日，有效期 15 年。三年前，谷歌就给 Dropout 申请了专利，但因为此举引发了业界众多异议，最最后无疾而终。只是令人没想到时隔三年，这一专利申请竟然生效了。
+&#13;
+何为 Dropout？
+&#13;
+但凡是接触过机器学习的人士，一定知道 Dropout。它是在进行深度学习、训练神经网络时，普遍会用到的方法，也是调参的一种手段，可以有效防止过拟合。由 Hinton 在 2012 年的论文《Improving neural networks by preventing co-adaptation of feature detectors》中提出。
+&#13;
+而在随后 Alex 和 Hinton 的论文《ImageNet Classification with Deep Convolutional Neural Networks》中，则用 Dropout 算法来防止过拟合。论文中的 AlexNet 网络模型瞬间引爆神经网络应用热潮，并赢得了 2012 年图像识别大赛冠军，使得 CNN 成为图像分类上的核心算法模型。
+&#13;
+而 Dropout 在这里面，就起到了训练深度神经网络的一种 trick 供选择这一重要作用。简单来讲：在前向传播过程中，Dropout 让某个神经元的激活值以一定的概率 p 停止工作，通过取各种网络的平均来提升模型的稳定性，从而有效的缓解过拟合现象，并在一定程度上达到正则化的效果。
+&#13;
+而且对于机器学习来说，一旦模型过拟合，那么该模型几乎不能用。因此，这一方法在很早的时候，就被广泛的运用在机器学习领域中。
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/4edf99fcd84c800.png
+&#13;
+Dropout 申请专利
+&#13;
+在谷歌申请专利的介绍中，他们把 Dropout 称为——《解决神经网络过拟合的系统与方法》。我们可以在 Google Patents （https://patents.google.com/patent/US9406017B2/en）上看到这项技术的专利详情页面。
+&#13;
+通过摘要，我们大致可以了解到关于 Dropout 的这几点：
+&#13;
+Dropout 是一个用来训练神经网络的系统；
+&#13;
+其中网络某些层上的特征检测器都连着一个开关；
+&#13;
+在每个训练场景下，这些开关会随机关闭部分特征检测器；
+&#13;
+而这些训练场景下的权重会被归一化，最终将神经网络应用在测试集上。
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/55c32c9a80ad527.png
+&#13;
+从图中右上角，我们可以看到该技术发明者包括：Geoffrey E. Hinton、Alexander Krizhevsky、Ilya Sutskever、Nitish Srivastva；而目前的专利权受让人（Current Assignee）是谷歌。
+&#13;
+Dropout 的影响
+&#13;
+综上所述，当 Dropout 这一普遍且通用的方法成为了专利，虽然它非常简单，但此举就好比加法成为了个人专利，这势必会为整个行业带来大的扰动。
+&#13;
+这一方法在将来的使用中，是否存在法律风险？谷歌会对该专利作出怎样的限制？这些限制将给学术研究与合作带来怎样的结果？对于国内外的相关企业又有什么影响？......这些问题不免引起大家的关注与思考。
+&#13;
+消息发出后，reddit 上就针对这件事进行了热烈的讨论：
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/3718d315a16e6b6.png
+&#13;
+其中讨论得最多的问题就是——以后我们是否还能够自由使用 Dropout？
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/51c17abe2932e74.png
+&#13;
+针对这一问题，有人认为谷歌不会强制执行专利许可，就像他们之前的“使用深度神经网络处理图像”专利一样，也没有强制执行；
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/2cfdc43f3a0c5b2.png
+&#13;
+也有人持有相反的态度，并且将关注点落在了企业层面，认为这一专利申请，势必会影响一大部分年轻的机器学习公司。因为谷歌可以对其专利代码被使用，随时提出诉讼，而对公司造成消极影响；
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/f1509d3647de537.png
+&#13;
+还有持辩证态度的群众，他总结到这个事情的影响视个人情况而定。如果你是机器学习相关的公司负责人，这件事的就会对公司利益造成损害；如果你与谷歌有利益纠纷，走法律程序前三思，因为你很可能会被谷歌公司以专利侵权返告；但如果你是谷歌的专利律师，那恭喜，估计世界上也没有能难到你的案件了！
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/9589deadaf341d9.png
+&#13;
+知乎上，一位知友也发表了自己的看法——
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/50c8e3998c5e435.png
+&#13;
+还有网友表示我们不应该指责谷歌，应该指责专利制度；正如有句话所说“不要怪玩家，要怪就怪制定游戏规则的人。”不过，在事情还没有任何定论之前，我们也只能持观望态度，毕竟专利设置之初，其本意是用来鼓励和保护发明创造的，从过去的一些专利申请来看，它确实也起到了相应的作用，也维护了很多发明者自身的利益。
+&#13;
+当然，我们也希望如大部分乐观网友所说，谷歌的行为只是单纯为了维护自身利益；而 Dropout 专利申请生效事件，也不会为学术圈乃至整个行业带来任何消极影响。
+&#13;
+https://m.cnbeta.com/view/861877.htm</description>
+      <content:encoded><![CDATA[<p><b>Jonsoncao: </b><br>
+<span>ianny544 发表于 2019-6-28 02:29</span><br>
+<span>算法申请专利也不是什么新鲜事吧，像是MARS也是被商业公司申请了专利吧</span><br>
+<span>— from samsung SM-G965W, Androi ...</span><br>
+<span>Dropout哪里算什么算法，和batchnorm一样的小trick而已</span><br>
+</p><p><b>Grenadier: </b><br>
+<span>去把relu和bn一起申请了专利(</span><br>
+</p><p><b>VALKIRA: </b><br>
+<span>9012年了还有人相信谷歌有良心？</span><br>
+</p><p><b>powwow: </b><br>
+<span>专利法该改了</span><br>
+</p><p><b>newlifer: </b><br>
+<span>什么玩意？dropout还能申请专利的？</span><br>
+</p><p><b>εRemastered: </b><br>
+<span>美国专利局好像……对于新技术没什么辨别能力</span><br>
+<span>听说美国很多这类问题是上了法庭才决定“这东西根本就不该算专利”的</span><br>
+<span>所以大公司为了省上法庭的钱肯定都拼命想办法把可能成为陷阱的“技术”都事先申专利了</span><br>
+</p><p><b>illjay: </b><br>
+<span>26.5(2)警告</span><br>
+<span>—— 来自 HUAWEI VCE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>illjay: </b><br>
+<span>skullgreymon 发表于 2019-6-28 14:17</span><br>
+<span>选择性执法，专门搞中国公司？</span><br>
+<span>专利有地域性，进中国的时候找各种理由不授权就行</span><br>
+<span>—— 来自 HUAWEI VCE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>illjay: </b><br>
+<span>εRemastered 发表于 2019-6-29 12:10</span><br>
+<span>美国专利局好像……对于新技术没什么辨别能力</span><br>
+<span>听说美国很多这类问题是上了法庭才决定“这东西根本就不该算 ...</span><br>
+<span>对，还有一种策略是不管能不能授权，先申请了，把这个技术先公开了，让竞争对手不能把这个技术申请专利。</span><br>
+<span>—— 来自 HUAWEI VCE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842801[50-100]</guid>
+    </item>
+    <item>
+      <title>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842801-1-1.html</link>
+      <description>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了&#13;
+雷锋网   2019-06-28 06:34:53
+&#13;
+摘要：
+&#13;
+今天，谷歌的 Dropout 专利生效这一消息突然在圈内传开，而生效日期就在 6 月 25 日，有效期 15 年。三年前，谷歌就给 Dropout 申请了专利，但因为此举引发了业界众多异议，最最后无疾而终。只是令人没想到时隔三年，这一专利申请竟然生效了。
+&#13;
+何为 Dropout？
+&#13;
+但凡是接触过机器学习的人士，一定知道 Dropout。它是在进行深度学习、训练神经网络时，普遍会用到的方法，也是调参的一种手段，可以有效防止过拟合。由 Hinton 在 2012 年的论文《Improving neural networks by preventing co-adaptation of feature detectors》中提出。
+&#13;
+而在随后 Alex 和 Hinton 的论文《ImageNet Classification with Deep Convolutional Neural Networks》中，则用 Dropout 算法来防止过拟合。论文中的 AlexNet 网络模型瞬间引爆神经网络应用热潮，并赢得了 2012 年图像识别大赛冠军，使得 CNN 成为图像分类上的核心算法模型。
+&#13;
+而 Dropout 在这里面，就起到了训练深度神经网络的一种 trick 供选择这一重要作用。简单来讲：在前向传播过程中，Dropout 让某个神经元的激活值以一定的概率 p 停止工作，通过取各种网络的平均来提升模型的稳定性，从而有效的缓解过拟合现象，并在一定程度上达到正则化的效果。
+&#13;
+而且对于机器学习来说，一旦模型过拟合，那么该模型几乎不能用。因此，这一方法在很早的时候，就被广泛的运用在机器学习领域中。
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/4edf99fcd84c800.png
+&#13;
+Dropout 申请专利
+&#13;
+在谷歌申请专利的介绍中，他们把 Dropout 称为——《解决神经网络过拟合的系统与方法》。我们可以在 Google Patents （https://patents.google.com/patent/US9406017B2/en）上看到这项技术的专利详情页面。
+&#13;
+通过摘要，我们大致可以了解到关于 Dropout 的这几点：
+&#13;
+Dropout 是一个用来训练神经网络的系统；
+&#13;
+其中网络某些层上的特征检测器都连着一个开关；
+&#13;
+在每个训练场景下，这些开关会随机关闭部分特征检测器；
+&#13;
+而这些训练场景下的权重会被归一化，最终将神经网络应用在测试集上。
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/55c32c9a80ad527.png
+&#13;
+从图中右上角，我们可以看到该技术发明者包括：Geoffrey E. Hinton、Alexander Krizhevsky、Ilya Sutskever、Nitish Srivastva；而目前的专利权受让人（Current Assignee）是谷歌。
+&#13;
+Dropout 的影响
+&#13;
+综上所述，当 Dropout 这一普遍且通用的方法成为了专利，虽然它非常简单，但此举就好比加法成为了个人专利，这势必会为整个行业带来大的扰动。
+&#13;
+这一方法在将来的使用中，是否存在法律风险？谷歌会对该专利作出怎样的限制？这些限制将给学术研究与合作带来怎样的结果？对于国内外的相关企业又有什么影响？......这些问题不免引起大家的关注与思考。
+&#13;
+消息发出后，reddit 上就针对这件事进行了热烈的讨论：
+&#13;
+https://static.cnbetacdn.com/thumb/article/2019/0628/3718d315a16e6b6.png
+&#13;
+其中讨论得最多的问题就是——以后我们是否还能够自由使用 Dropout？
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/51c17abe2932e74.png
+&#13;
+针对这一问题，有人认为谷歌不会强制执行专利许可，就像他们之前的“使用深度神经网络处理图像”专利一样，也没有强制执行；
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/2cfdc43f3a0c5b2.png
+&#13;
+也有人持有相反的态度，并且将关注点落在了企业层面，认为这一专利申请，势必会影响一大部分年轻的机器学习公司。因为谷歌可以对其专利代码被使用，随时提出诉讼，而对公司造成消极影响；
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/f1509d3647de537.png
+&#13;
+还有持辩证态度的群众，他总结到这个事情的影响视个人情况而定。如果你是机器学习相关的公司负责人，这件事的就会对公司利益造成损害；如果你与谷歌有利益纠纷，走法律程序前三思，因为你很可能会被谷歌公司以专利侵权返告；但如果你是谷歌的专利律师，那恭喜，估计世界上也没有能难到你的案件了！
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/9589deadaf341d9.png
+&#13;
+知乎上，一位知友也发表了自己的看法——
+&#13;
+https://static.cnbetacdn.com/article/2019/0628/50c8e3998c5e435.png
+&#13;
+还有网友表示我们不应该指责谷歌，应该指责专利制度；正如有句话所说“不要怪玩家，要怪就怪制定游戏规则的人。”不过，在事情还没有任何定论之前，我们也只能持观望态度，毕竟专利设置之初，其本意是用来鼓励和保护发明创造的，从过去的一些专利申请来看，它确实也起到了相应的作用，也维护了很多发明者自身的利益。
+&#13;
+当然，我们也希望如大部分乐观网友所说，谷歌的行为只是单纯为了维护自身利益；而 Dropout 专利申请生效事件，也不会为学术圈乃至整个行业带来任何消极影响。
+&#13;
+https://m.cnbeta.com/view/861877.htm</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>谷歌 Dropout 专利生效 AI 圈内人表示坐不住了</span><br>
+<span>雷锋网   2019-06-28 06:34:53</span><br>
+<span>摘要：</span><br>
+<span>今天，谷歌的 Dropout 专利生效这一消息突然在圈内传开，而生效日期就在 6 月 25 日，有效期 15 年。三年前，谷歌就给 Dropout 申请了专利，但因为此举引发了业界众多异议，最最后无疾而终。只是令人没想到时隔三年，这一专利申请竟然生效了。</span><br>
+<span>何为 Dropout？</span><br>
+<span>但凡是接触过机器学习的人士，一定知道 Dropout。它是在进行深度学习、训练神经网络时，普遍会用到的方法，也是调参的一种手段，可以有效防止过拟合。由 Hinton 在 2012 年的论文《Improving neural networks by preventing co-adaptation of feature detectors》中提出。</span><br>
+<span>而在随后 Alex 和 Hinton 的论文《ImageNet Classification with Deep Convolutional Neural Networks》中，则用 Dropout 算法来防止过拟合。论文中的 AlexNet 网络模型瞬间引爆神经网络应用热潮，并赢得了 2012 年图像识别大赛冠军，使得 CNN 成为图像分类上的核心算法模型。</span><br>
+<span>而 Dropout 在这里面，就起到了训练深度神经网络的一种 trick 供选择这一重要作用。简单来讲：在前向传播过程中，Dropout 让某个神经元的激活值以一定的概率 p 停止工作，通过取各种网络的平均来提升模型的稳定性，从而有效的缓解过拟合现象，并在一定程度上达到正则化的效果。</span><br>
+<span>而且对于机器学习来说，一旦模型过拟合，那么该模型几乎不能用。因此，这一方法在很早的时候，就被广泛的运用在机器学习领域中。</span><br>
+<img src="https://static.cnbetacdn.com/thumb/article/2019/0628/4edf99fcd84c800.png" title="https://static.cnbetacdn.com/thumb/article/2019/0628/4edf99fcd84c800.png"><br>
+<span>Dropout 申请专利</span><br>
+<span>在谷歌申请专利的介绍中，他们把 Dropout 称为——《解决神经网络过拟合的系统与方法》。我们可以在 Google Patents （https://patents.google.com/patent/US9406017B2/en）上看到这项技术的专利详情页面。</span><br>
+<span>通过摘要，我们大致可以了解到关于 Dropout 的这几点：</span><br>
+<span>Dropout 是一个用来训练神经网络的系统；</span><br>
+<span>其中网络某些层上的特征检测器都连着一个开关；</span><br>
+<span>在每个训练场景下，这些开关会随机关闭部分特征检测器；</span><br>
+<span>而这些训练场景下的权重会被归一化，最终将神经网络应用在测试集上。</span><br>
+<img src="https://static.cnbetacdn.com/thumb/article/2019/0628/55c32c9a80ad527.png" title="https://static.cnbetacdn.com/thumb/article/2019/0628/55c32c9a80ad527.png"><br>
+<span>从图中右上角，我们可以看到该技术发明者包括：Geoffrey E. Hinton、Alexander Krizhevsky、Ilya Sutskever、Nitish Srivastva；而目前的专利权受让人（Current Assignee）是谷歌。</span><br>
+<span>Dropout 的影响</span><br>
+<span>综上所述，当 Dropout 这一普遍且通用的方法成为了专利，虽然它非常简单，但此举就好比加法成为了个人专利，这势必会为整个行业带来大的扰动。</span><br>
+<span>这一方法在将来的使用中，是否存在法律风险？谷歌会对该专利作出怎样的限制？这些限制将给学术研究与合作带来怎样的结果？对于国内外的相关企业又有什么影响？......这些问题不免引起大家的关注与思考。</span><br>
+<span>消息发出后，reddit 上就针对这件事进行了热烈的讨论：</span><br>
+<img src="https://static.cnbetacdn.com/thumb/article/2019/0628/3718d315a16e6b6.png" title="https://static.cnbetacdn.com/thumb/article/2019/0628/3718d315a16e6b6.png"><br>
+<span>其中讨论得最多的问题就是——以后我们是否还能够自由使用 Dropout？</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0628/51c17abe2932e74.png" title="https://static.cnbetacdn.com/article/2019/0628/51c17abe2932e74.png"><br>
+<span>针对这一问题，有人认为谷歌不会强制执行专利许可，就像他们之前的“使用深度神经网络处理图像”专利一样，也没有强制执行；</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0628/2cfdc43f3a0c5b2.png" title="https://static.cnbetacdn.com/article/2019/0628/2cfdc43f3a0c5b2.png"><br>
+<span>也有人持有相反的态度，并且将关注点落在了企业层面，认为这一专利申请，势必会影响一大部分年轻的机器学习公司。因为谷歌可以对其专利代码被使用，随时提出诉讼，而对公司造成消极影响；</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0628/f1509d3647de537.png" title="https://static.cnbetacdn.com/article/2019/0628/f1509d3647de537.png"><br>
+<span>还有持辩证态度的群众，他总结到这个事情的影响视个人情况而定。如果你是机器学习相关的公司负责人，这件事的就会对公司利益造成损害；如果你与谷歌有利益纠纷，走法律程序前三思，因为你很可能会被谷歌公司以专利侵权返告；但如果你是谷歌的专利律师，那恭喜，估计世界上也没有能难到你的案件了！</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0628/9589deadaf341d9.png" title="https://static.cnbetacdn.com/article/2019/0628/9589deadaf341d9.png"><br>
+<span>知乎上，一位知友也发表了自己的看法——</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0628/50c8e3998c5e435.png" title="https://static.cnbetacdn.com/article/2019/0628/50c8e3998c5e435.png"><br>
+<span>还有网友表示我们不应该指责谷歌，应该指责专利制度；正如有句话所说“不要怪玩家，要怪就怪制定游戏规则的人。”不过，在事情还没有任何定论之前，我们也只能持观望态度，毕竟专利设置之初，其本意是用来鼓励和保护发明创造的，从过去的一些专利申请来看，它确实也起到了相应的作用，也维护了很多发明者自身的利益。</span><br>
+<span>当然，我们也希望如大部分乐观网友所说，谷歌的行为只是单纯为了维护自身利益；而 Dropout 专利申请生效事件，也不会为学术圈乃至整个行业带来任何消极影响。</span><br>
+<span>https://m.cnbeta.com/view/861877.htm</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>现在谷歌干这种没妈的事大家已经一点不奇怪了</span><br>
+</p><p><b>Chromium: </b><br>
+<span>这都能专利的吗谷歌司马</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fuochai: </b><br>
+<span>数学方法能申请专利说明制度有问题吧？</span><br>
+<span>其他技术大多是发明 可数学是发现 你申请了等于是说剥夺了以后的人发现的权利</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>这也能申请专利？</span><br>
+<span>线性回归有没有人申请过专利，我去申请一下。</span><br>
+</p><p><b>oT3To: </b><br>
+<span> 本帖最后由 oT3To 于 2019-6-28 09:53 编辑 </span><br>
+<span>股沟不就是白宫和五角大楼的RBQ么</span><br>
+</p><p><b>火烧云: </b><br>
+<span> 本帖最后由 火烧云 于 2019-6-28 09:54 编辑 </span><br>
+<span>安卓这事儿出来后还有人这么傻白甜吗</span><br>
+<span>我记得类似的情况还有老任，手里一堆能让游戏业集体停滞几年的专利，不过一直用在自我保护上</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>乘法加法也申请专利好不</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>魔法酪饼: </b><br>
+<span>好事啊，这是彻底踹开了专利制度滥用的垃圾桶，把里面的臭鱼烂虾摊在所有人的面前</span><br>
+</p><p><b>Liveforlong哀哉: </b><br>
+<span>我是没有洗白百度的打算，并且百度的司马搜索也确实司马，但是看着谷歌抽自由人士的脸，真爽啊。</span><br>
+</p><p><b>卡普空: </b><br>
+<span>傻逼谷歌，关键是现在说不会有任何消极影响还有人信？</span><br>
+</p><p><b>红夜殇雨: </b><br>
+<span>魔法酪饼 发表于 2019-6-28 10:02</span><br>
+<span>好事啊，这是彻底踹开了专利制度滥用的垃圾桶，把里面的臭鱼烂虾摊在所有人的面前 ...</span><br>
+<span>这垃圾桶早就被踹开了，比如改进蒸汽机却被说是发明的瓦特，就喜欢用没发明出来的东西的概念申请专利。</span><br>
+<span>还有偷意大利人发明的所谓电话之父贝尔。</span><br>
+<span>不过业内人士不告诉你还能这么干而已。</span><br>
+</p><p><b>魔法酪饼: </b><br>
+<span>红夜殇雨 发表于 2019-6-28 10:11</span><br>
+<span>这垃圾桶早就被踹开了，比如改进蒸汽机却被说是发明的瓦特，就喜欢用没发明出来的东西的概念申请专利。</span><br>
+<span> ...</span><br>
+<span>我的意思是那些垃圾原来就一直在垃圾桶里发酵变臭啦，只是现在盖子被踹开就是了。。。</span><br>
+</p><p><b>剑鹰: </b><br>
+<span>Chromium 发表于 2019-6-28 09:34</span><br>
+<span>这都能专利的吗谷歌司马</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v ...</span><br>
+<span>美帝大概是专利授权范围最广的国家了</span><br>
+</p><p><b>大韩李明博: </b><br>
+<span>专利这个我举个例子。二维码是日本发明的，无偿公开使用，然后几个留日回国的发现商机，把扫二维码这个注册专利，赚的大发特发。</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>islxyqwe: </b><br>
+<span>我是觉得这个东西制度上如果谷歌不申请专利,那别的公司也可以申请专利,只有所有人统一高风亮节的情况会比现在被谷歌申请了好</span><br>
+<span>说白了还是专利制度本身有问题,就是过时了</span><br>
+<span>老任拿着那么多专利, 也不就在某公司试图独占虚拟摇杆的时候才用吗</span><br>
+</p><p><b>落花化华: </b><br>
+<span>你能再表演一下那个吗？</span><br>
+</p><p><b>jinyang411: </b><br>
+<span>这也能申请专利？现在把各种统计常用方法都申一遍是不是能躺着赚钱了</span><br>
+</p><p><b>当歌: </b><br>
+<span>不作恶都移到最后去了，什么时候删掉啊</span><br>
+</p><p><b>zievod: </b><br>
+<span> 本帖最后由 zievod 于 2019-6-28 11:17 编辑 </span><br>
+<span>fuochai 发表于 2019-6-28 09:50</span><br>
+<span>数学方法能申请专利说明制度有问题吧？</span><br>
+<span>其他技术大多是发明 可数学是发现 你申请了等于是说剥夺了以后的人 ...</span><br>
+<span>苹果那个圆角矩形也不是发明啊</span><br>
+<span>在苹果之前不知道多少个设计师有意无意的用过了</span><br>
+<span>专利的判定标准真的蛮怪的</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>laotoutou 发表于 2019-6-28 09:52</span><br>
+<span>这也能申请专利？</span><br>
+<span>线性回归有没有人申请过专利，我去申请一下。</span><br>
+<span>高斯棺材板按不住了</span><br>
+</p><p><b>mobdom: </b><br>
+<span>不作恶×</span><br>
+<span>不认为自己作的是恶√</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>大韩李明博 发表于 2019-6-28 10:20</span><br>
+<span>专利这个我举个例子。二维码是日本发明的，无偿公开使用，然后几个留日回国的发现商机，把扫二维码这个注册 ...</span><br>
+<span>不过值得一提的是，虽然二维码是日本发明的，但“二维码扫一扫”的专利权却在中国人手中。而正是“二维码扫一扫”这项技术支撑起了无线支付。</span><br>
+<span>下面的评论 </span><br>
+<span>二维码是一种编码技术</span><br>
+<span>二维码扫一扫是一种编码应用技术。</span><br>
+</p><p><b>autapomorphy: </b><br>
+<span>???</span><br>
+<span>这玩意也能申请专利的？</span><br>
+</p><p><b>tiro_finale: </b><br>
+<span>弱智吧新闻的感觉</span><br>
+</p><p><b>wxcabc: </b><br>
+<span>佳丽三千到 发表于 2019-6-28 12:01</span><br>
+<span>下面的评论</span><br>
+<span>我相信日本人都是靠工匠精神肉眼识别二维码的了。</span><br>
+</p><p><b>马猴肥宅√: </b><br>
+<span>资本的恶臭吗……</span><br>
+</p><p><b>AraTurambar: </b><br>
+<span>喷了Dropout都申请专利。</span><br>
+</p><p><b>victorzl: </b><br>
+<span>这是专利审核的问题吧...?</span><br>
+<span>我记得已经广泛使用的东西是不能申请的,因为很久很久以前我刚听说有专利这么回事的时候我就在想要申请个使用"专利"这个词的专利下来岂不是就发大财了...</span><br>
+</p><p><b>UCCU1102: </b><br>
+<span>有点魔幻。</span><br>
+</p><p><b>skullgreymon: </b><br>
+<span>选择性执法，专门搞中国公司？</span><br>
+</p><p><b>你的全家: </b><br>
+<span>这个啊</span><br>
+<span>我记得贝尔实验室至少还有卷积的专利来着</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>来个人申请下“使用傅立叶变换对波形信号进行处理”的专利</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暮光闪闪: </b><br>
+<span>把呼吸申请专利</span><br>
+</p><p><b>好好一兔子: </b><br>
+<span>从专利的角度说几句，申请专利有几个条件，比如是你自己的发明（或者发明人把专利卖给你了），申请专利前这项技术没有被公开。所以楼里说加减法申请专利的可以醒醒了。</span><br>
+<span>谷歌能申请这项专利，说明这项技术是谷歌发明的或者发明人把专利卖给了谷歌（文里说的论文作者和专利里发明人都有Hinton，不知道是不是一个人）。</span><br>
+<span>另外专利能得到授权说明谷歌在公开这项技术前就申请了专利，只是近期才授权而已。</span><br>
+<span>我不懂Dropout是什么，不过是人家自己发明出来的东西拿去申请专利，我不觉得有什么不对。另外，如果是出于科研的目的，是不受专利限制的，只是商用会受影响。</span><br>
+</p><p><b>scourge411: </b><br>
+<span> 本帖最后由 scourge411 于 2019-6-28 16:01 编辑 </span><br>
+<span>专利流氓，罪大恶极。我都不想说谷歌在android上干的那些扒屁眼的事情，表面上谷歌说只有GMS有专利，android是开源的。</span><br>
+<span>实际上在andorid里买了一堆专利炸弹，如果要完全避开这些炸弹，你用android连闹钟都做不出来。</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>好好一兔子 发表于 2019-6-28 15:47</span><br>
+<span>从专利的角度说几句，申请专利有几个条件，比如是你自己的发明（或者发明人把专利卖给你了），申请专利前这 ...</span><br>
+<span>这货现在是谷歌员工吧 之前还号称不为美国军方服务才一直待加拿大的 结果是立牌坊啊</span><br>
+</p><p><b>ianny544: </b><br>
+<span>算法申请专利也不是什么新鲜事吧，像是MARS也是被商业公司申请了专利吧</span><br>
+<span>— from samsung SM-G965W, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>谷歌创始人的博士论文不就是用随机结束来防止page rank 死循环吗？</span><br>
+</p><p><b>ahztb: </b><br>
+<span>树个靶子乱打喽</span><br>
+<span>你行你也去申请一个呗</span><br>
+</p><p><b>afsd109: </b><br>
+<span>python创始人听说现在还是谷歌员工，要不要窜说一下也申请个专利</span><br>
+</p><p><b>ady272: </b><br>
+<span>谷歌不作恶！</span><br>
+</p><p><b>zephyrus_z: </b><br>
+<span>把申请专利申请专利，一击必杀</span><br>
+</p><p><b>zao: </b><br>
+<span>“不作恶”</span><br>
+</p><p><b>mimighost: </b><br>
+<span>这是传统艺能。。</span><br>
+<span>当然是美国企业的传统艺能</span><br>
+<span>比如链表就是一项专利</span><br>
+<span>https://patentimages.storage.googleapis.com/51/61/25/7da6c5b51a64e2/US7028023.pdf</span><br>
+<span>标题就是Linked List.....</span><br>
+</p><p><b>mimighost: </b><br>
+<span>哈希表是微软的专利</span><br>
+<span>https://patentimages.storage.googleapis.com/95/e0/d9/0c0c52da7ea9cc/US20070234005A1.pdf</span><br>
+</p><p><b>香草大圣代: </b><br>
+<span>不作恶</span><br>
+</p><p><b>不存在的骑士: </b><br>
+<span>美国人不还把个别人类基因申请过专利么？正常操作</span><br>
+</p><p><b>coldhot3: </b><br>
+<span>不存在的骑士 发表于 2019-6-28 20:32</span><br>
+<span>美国人不还把个别人类基因申请过专利么？正常操作</span><br>
+<span>nf kappa b，按照那个专利，你吃阿司匹林都得给那个公司付钱。。。结果被一个大药企打官司按死了。</span><br>
+</p><p><b>苍天之翼: </b><br>
+<span>圆角矩形都能申请专利呢美国人黑起钱来不要脸的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842801[0-50]</guid>
+    </item>
+  </channel>
+</rss>

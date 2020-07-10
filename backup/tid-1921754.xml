@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[求助]Excel中，如何在已有的坐标图中根据X值找到Y值</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[求助]Excel中，如何在已有的坐标图中根据X值找到Y值</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:59:36 +0000</lastBuildDate>
+    <item>
+      <title>[求助]Excel中，如何在已有的坐标图中根据X值找到Y值[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1921754-1-1.html</link>
+      <description>[求助]Excel中，如何在已有的坐标图中根据X值找到Y值&#13;
+用两列数据拉出来一张散点坐标图，添加了趋势线
+
+然后我已知一个X值（X值不等于构建坐标所用数据中的任何一个值），如何代入这张坐标图，显示在趋势线上的对应坐标？</description>
+      <content:encoded><![CDATA[<p><b>钟鼎文: </b><br>
+<span>[求助]Excel中，如何在已有的坐标图中根据X值找到Y值</span><br>
+<span>用两列数据拉出来一张散点坐标图，添加了趋势线</span><br>
+<span>然后我已知一个X值（X值不等于构建坐标所用数据中的任何一个值），如何代入这张坐标图，显示在趋势线上的对应坐标？</span><br>
+</p><p><b>nexus1: </b><br>
+<span>趋势线不是有拟合方程吗，直接代啊</span><br>
+</p><p><b>Dijklstra: </b><br>
+<span>以前物理实验的做法是：</span><br>
+<span>1. 拟合直线，得出斜率和截距</span><br>
+<span>2. 根据斜率、截距、X值，算出Y值。</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>python之, 拟合一波回归一波完事,</span><br>
+</p><p><b>Mitka: </b><br>
+<span>=SLOPE(A:A,B,B)*X+INTERCEPT(A:A,B:B)</span><br>
+<span>把原来的x值和y值区域分别代替A:A B:B即可</span><br>
+</p><p><b>卢浮临时宫: </b><br>
+<span>趋势线右键</span><br>
+<span>勾选下方“显示公式”</span><br>
+<span>根据图上显示的公式回归</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1921754[0-50]</guid>
+    </item>
+  </channel>
+</rss>

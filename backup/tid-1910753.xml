@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这win10真会促进曾经流行的各种“优化版”回归</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这win10真会促进曾经流行的各种“优化版”回归</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:35:41 +0000</lastBuildDate>
+    <item>
+      <title>这win10真会促进曾经流行的各种“优化版”回归[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910753-1-1.html</link>
+      <description>这win10真会促进曾经流行的各种“优化版”回归&#13;
+新机，全新MSDN的1909 12月最新版安装试用
+&#13;
+软件只装了office2016全家桶，PS，COMODO CIS的杀软，vmware 15，listary
+&#13;
+用了一天，出现了以下症状
+&#13;
+1，开机进桌面后会卡一分钟左右无法进行任何操作，任务管理器都呼不出来，鼠标变漏斗，右下角图标没启动完。一定时间过后继续启动，系统恢复正常
+&#13;
+2，NV显卡驱动默认DCH驱动，没有NV控制面板，提示去ms store下载安装。装好了以后，睡一觉第二天开机，提示“无法打开nv控制面板，请联系ms store。”（大意）
+&#13;
+3，PS里进行跨文件拖曳会直接卡死（PS里同时打开A和B两个文件窗口，把B拖到A新建一个B图层），有时卡一阵后正常，有时干脆直接蓝屏
+&#13;
+网上搜了一下
+&#13;
+第一个问题可能是因为win10的自动同步导致
+&#13;
+第二个问题找不到答案
+&#13;
+第三个问题可能是win10自带杀软没关彻底
+&#13;
+于是，进行了以下操作，症状“暂时”消失，不知道以后还不会有什么新的幺蛾子
+&#13;
+1，nv标准驱动下载（带控制面板）：
+&#13;
+https://www.nvidia.cn/Download/Find.aspx?lang=cn#
+&#13;
+选“标准”驱动
+&#13;
+2，win10关闭主机同步服务
+&#13;
+在注册表编辑器中定位到：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services;
+&#13;
+找到OneSyncSvc、OneSyncSvc_XXXXX、UserDataSvc、UserDataSvc_XXXXX，将start值改为4（注：未修改时，前两个默认值为2，后两个默认值为3）;
+&#13;
+3，关闭安全中心
+&#13;
+任务管理器页面，点击【启动】，找到【Windows secruity notice】，右键点击【禁用】
+&#13;
+4，关闭自带防火墙
+&#13;
+注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MpsSvc，start值改成4
+&#13;
+4，禁用Security Center
+&#13;
+注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc， start由2（自动）改为4（禁用）
+&#13;
+妈蛋多少年没试过新装系统后还要上网找优化方案的
+&#13;
+我有印象还是win7早期，8.1用了好几年就从来没试过，开箱即用
+&#13;
+服了</description>
+      <content:encoded><![CDATA[<p><b>passgan: </b><br>
+<span>那我换个说法好吧</span><br>
+<span>你运气不好，你不行</span><br>
+</p><p><b>bill基: </b><br>
+<span>符里宮亜 发表于 2020-1-26 06:04</span><br>
+<span>onedrive和store相关的问题其实有时候是强的关系</span><br>
+<span>这我想到了，显得更加弱智</span><br>
+<span>随便一个下载软件都会有设置代理的选项，store找了半天，木有。</span><br>
+<span>按照常理判断，把IE设置成通过代理，无效……</span><br>
+<span>难道要系统级VPN？一直都是轻量级用某两个字母，好久没用VPN了</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>bill基 发表于 2020-1-26 11:47</span><br>
+<span>这我想到了，显得更加弱智</span><br>
+<span>随便一个下载软件都会有设置代理的选项，store找了半天，木有。</span><br>
+<span>按照常理判断， ...</span><br>
+<span>有可能是需要全局或者至少是要国内外分流的 </span><br>
+<span>而且估计还不能用运营商给的dns</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>第二个问题 下一个ddu 去nv官网下一份standard版的驱动 </span><br>
+<span>进安全模式用ddu把驱动清干净 然后勾上禁止windows (update)自动安装驱动程序 </span><br>
+<span>以防万一可以顺道把网线拔了 重启</span><br>
+<span>然后再正常启动系统 安装官网下的驱动 装好以后再插线就行了 </span><br>
+<span>以后要升级驱动就通过geforce experience升 当然这个东西也存在被强的问题 时好时坏</span><br>
+</p><p><b>爱尔米娜: </b><br>
+<span>加藤樱 发表于 2020-1-25 18:59</span><br>
+<span>ltsc感觉还可以，我随便找的一个优化版</span><br>
+<span>原版的笔记本系统也是臃肿得不行</span><br>
+<span>憋说了，我ltsc_2019也蓝屏，已经滚回win7</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>bill基 发表于 2020-1-25 20:47</span><br>
+<span>这我想到了，显得更加弱智</span><br>
+<span>随便一个下载软件都会有设置代理的选项，store找了半天，木有。</span><br>
+<span>按照常理判断， ...</span><br>
+<span>uwp/modern app不走IE代理</span><br>
+<span>要loopback</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>eva02eva02: </b><br>
+<span>等WIN7 R2吧</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>零下五度猫 发表于 2020-1-25 20:54</span><br>
+<span>听了大家的意见，我去微软官网下了安装工具，制作了U盘，安装完之后又卡死了</span><br>
+<span>总之还是谢谢大家的 ...</span><br>
+<span>哈哈哈哈哈</span><br>
+</p><p><b>shiroamada: </b><br>
+<span>装好系统后把自带程序删了一大半，包括市场什么的，就留下不能删的和计算器，截图，几个小软件，使用半年状态良好，就是有时候关闭程序会卡住，不知道何解</span><br>
+</p><p><b>小阪千寻: </b><br>
+<span>win10出bug是正常现象，三哥还等着你们反馈呢</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>Narrative: </b><br>
+<span>前几天才解决掉银联插件问题</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>零下五度猫 发表于 2020-1-25 20:54</span><br>
+<span>听了大家的意见，我去微软官网下了安装工具，制作了U盘，安装完之后又卡死了</span><br>
+<span>总之还是谢谢大家的 ...</span><br>
+<span>心疼，还是换ltsc吧</span><br>
+</p><p><b>Hibino: </b><br>
+<span>蓝屏的话在系统高级设置里面取消掉自动重启然后记录一下蓝屏的错误代码可能能知道到底是啥原因</span><br>
+</p><p><b>kaiki_aiolos: </b><br>
+<span>零下五度猫 发表于 2020-1-25 23:00</span><br>
+<span>我一开始也这么觉得，换不同的方式装都一样会卡死，但是PE却一切正常，所以我觉得用PE装的系统跟官方启动 ...</span><br>
+<span>你确认一下你内存有没有问题····我之前试过内存有隐患的情况下很容易卡死····跑一下负载看看</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>kaiki_aiolos 发表于 2020-1-28 16:54</span><br>
+<span>你确认一下你内存有没有问题····我之前试过内存有隐患的情况下很容易卡死····跑一下负载看看 ...</span><br>
+<span>今天刚回来搬砖，笔记本被我扔在老家了</span><br>
+<span>不过还是感谢你的建议</span><br>
+</p><p><b>科本学士: </b><br>
+<span>我使用WIN10就遇到一个问题，就是XBOX手柄的驱动经常消失</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910753[50-100]</guid>
+    </item>
+    <item>
+      <title>这win10真会促进曾经流行的各种“优化版”回归[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910753-1-1.html</link>
+      <description>这win10真会促进曾经流行的各种“优化版”回归&#13;
+新机，全新MSDN的1909 12月最新版安装试用
+&#13;
+软件只装了office2016全家桶，PS，COMODO CIS的杀软，vmware 15，listary
+&#13;
+用了一天，出现了以下症状
+&#13;
+1，开机进桌面后会卡一分钟左右无法进行任何操作，任务管理器都呼不出来，鼠标变漏斗，右下角图标没启动完。一定时间过后继续启动，系统恢复正常
+&#13;
+2，NV显卡驱动默认DCH驱动，没有NV控制面板，提示去ms store下载安装。装好了以后，睡一觉第二天开机，提示“无法打开nv控制面板，请联系ms store。”（大意）
+&#13;
+3，PS里进行跨文件拖曳会直接卡死（PS里同时打开A和B两个文件窗口，把B拖到A新建一个B图层），有时卡一阵后正常，有时干脆直接蓝屏
+&#13;
+网上搜了一下
+&#13;
+第一个问题可能是因为win10的自动同步导致
+&#13;
+第二个问题找不到答案
+&#13;
+第三个问题可能是win10自带杀软没关彻底
+&#13;
+于是，进行了以下操作，症状“暂时”消失，不知道以后还不会有什么新的幺蛾子
+&#13;
+1，nv标准驱动下载（带控制面板）：
+&#13;
+https://www.nvidia.cn/Download/Find.aspx?lang=cn#
+&#13;
+选“标准”驱动
+&#13;
+2，win10关闭主机同步服务
+&#13;
+在注册表编辑器中定位到：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services;
+&#13;
+找到OneSyncSvc、OneSyncSvc_XXXXX、UserDataSvc、UserDataSvc_XXXXX，将start值改为4（注：未修改时，前两个默认值为2，后两个默认值为3）;
+&#13;
+3，关闭安全中心
+&#13;
+任务管理器页面，点击【启动】，找到【Windows secruity notice】，右键点击【禁用】
+&#13;
+4，关闭自带防火墙
+&#13;
+注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MpsSvc，start值改成4
+&#13;
+4，禁用Security Center
+&#13;
+注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc， start由2（自动）改为4（禁用）
+&#13;
+妈蛋多少年没试过新装系统后还要上网找优化方案的
+&#13;
+我有印象还是win7早期，8.1用了好几年就从来没试过，开箱即用
+&#13;
+服了</description>
+      <content:encoded><![CDATA[<p><b>bill基: </b><br>
+<span>这win10真会促进曾经流行的各种“优化版”回归</span><br>
+<span>新机，全新MSDN的1909 12月最新版安装试用</span><br>
+<span>软件只装了office2016全家桶，PS，COMODO CIS的杀软，vmware 15，listary</span><br>
+<span>用了一天，出现了以下症状</span><br>
+<span>1，开机进桌面后会卡一分钟左右无法进行任何操作，任务管理器都呼不出来，鼠标变漏斗，右下角图标没启动完。一定时间过后继续启动，系统恢复正常</span><br>
+<span>2，NV显卡驱动默认DCH驱动，没有NV控制面板，提示去ms store下载安装。装好了以后，睡一觉第二天开机，提示“无法打开nv控制面板，请联系ms store。”（大意）</span><br>
+<span>3，PS里进行跨文件拖曳会直接卡死（PS里同时打开A和B两个文件窗口，把B拖到A新建一个B图层），有时卡一阵后正常，有时干脆直接蓝屏</span><br>
+<span>网上搜了一下</span><br>
+<span>第一个问题可能是因为win10的自动同步导致</span><br>
+<span>第二个问题找不到答案</span><br>
+<span>第三个问题可能是win10自带杀软没关彻底</span><br>
+<span>于是，进行了以下操作，症状“暂时”消失，不知道以后还不会有什么新的幺蛾子</span><br>
+<span>1，nv标准驱动下载（带控制面板）：</span><br>
+<span>https://www.nvidia.cn/Download/Find.aspx?lang=cn#</span><br>
+<span>选“标准”驱动</span><br>
+<span>2，win10关闭主机同步服务</span><br>
+<span>在注册表编辑器中定位到：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services;</span><br>
+<span>找到OneSyncSvc、OneSyncSvc_XXXXX、UserDataSvc、UserDataSvc_XXXXX，将start值改为4（注：未修改时，前两个默认值为2，后两个默认值为3）;</span><br>
+<span>3，关闭安全中心</span><br>
+<span>任务管理器页面，点击【启动】，找到【Windows secruity notice】，右键点击【禁用】</span><br>
+<span>4，关闭自带防火墙</span><br>
+<span>注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MpsSvc，start值改成4</span><br>
+<span>4，禁用Security Center</span><br>
+<span>注册表，HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wscsvc， start由2（自动）改为4（禁用）</span><br>
+<span>妈蛋多少年没试过新装系统后还要上网找优化方案的</span><br>
+<span>我有印象还是win7早期，8.1用了好几年就从来没试过，开箱即用</span><br>
+<span>服了</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>给笔记本换了新的SSD，装完系统后进系统就卡死，重装几次也没有用，明明PE运行的就挺好的。后来把硬盘拆下来装老电脑上，系统也能正常运行，当时怀疑是不是笔记本硬件有什么问题，现在想想怕还是1909的锅</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>1809笑看你们这些先吃的,等一年后再食.</span><br>
+</p><p><b>qwased: </b><br>
+<span>等一个楼主不会用我用挺好的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>松霖: </b><br>
+<span>标准驱动马上就要不提供了，何苦</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>我用20H2挺好啊</span><br>
+</p><p><b>一炮交友: </b><br>
+<span>可能我只用最基本的steam 和影音 浏览器 功能</span><br>
+<span>这几年没出过问题</span><br>
+<span>当然如果这些都出问题 那这玩意是没法用了</span><br>
+</p><p><b>Litccc: </b><br>
+<span>我用win10唯一出现过的问题就是1809时蓝牙耳机会在显示连接状态下失去响应。当时还发帖求助了，后来就莫名其妙地好了</span><br>
+</p><p><b>攻守俱其土肉狐: </b><br>
+<span>归根结底还是你配置不行</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>win10啊</span><br>
+<span>挺蛋疼的，有些系统项目不百度几乎找不到</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>chachi: </b><br>
+<span>你配置不行</span><br>
+<span>楼主不会用 我挺好的</span><br>
+</p><p><b>Ozen: </b><br>
+<span>用Linux就不会有这种问题了</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>leystage: </b><br>
+<span>我也来！除了开始菜单图标显示有bug和SB2键盘识别有问题外，六台设备最早从首发用到现在一切正常</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>第3方杀软和输入法很容易出问题</span><br>
+</p><p><b>john: </b><br>
+<span>零下五度猫 发表于 2020-1-25 15:55</span><br>
+<span>给笔记本换了新的SSD，装完系统后进系统就卡死，重装几次也没有用，明明PE运行的就挺好的。后来把硬盘拆下 ...</span><br>
+<span>先说说看你这系统怎么装的，PE？</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>john 发表于 2020-1-25 18:08</span><br>
+<span>先说说看你这系统怎么装的，PE？</span><br>
+<span>硬盘先格式化，然后转GPT，新建分区包括ESP、MSR和C盘，最后用PE里的WinNTSetuo安装，镜像是从MSDN我告诉你下的win10最新business版</span><br>
+</p><p><b>john: </b><br>
+<span>零下五度猫 发表于 2020-1-25 18:21</span><br>
+<span>硬盘先格式化，然后转GPT，新建分区包括ESP、MSR和C盘，最后用PE里的WinNTSetuo安装，镜像是从MSDN我告诉 ...</span><br>
+<span>这都什么乱七八糟的</span><br>
+<span>你让Windows自己装一个不行？</span><br>
+</p><p><b>bigcali: </b><br>
+<span>搭车问下msdn我告诉你下的，现在就消费者版跟商业版本了。激活咋整？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>sun119108: </b><br>
+<span>john 发表于 2020-1-25 18:23</span><br>
+<span>这都什么乱七八糟的</span><br>
+<span>你让Windows自己装一个不行？</span><br>
+<span>莫名的感觉想笑</span><br>
+</p><p><b>rinnnn: </b><br>
+<span>年29装的win10,2700 32g内存，卡的生活不能自理，看了这贴决定下个win7</span><br>
+</p><p><b>justevil: </b><br>
+<span>win10 1909，除了chrome开了100多个网页偶尔会卡死鼠标不动外其他都挺好的</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>连微卵自己都不知道怎么蹦出来的BUG，外人还想优化掉</span><br>
+</p><p><b>加藤樱: </b><br>
+<span>ltsc感觉还可以，我随便找的一个优化版</span><br>
+<span>原版的笔记本系统也是臃肿得不行</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>john 发表于 2020-1-25 18:23</span><br>
+<span>这都什么乱七八糟的</span><br>
+<span>你让Windows自己装一个不行？</span><br>
+<span>我刚刚拆掉硬盘装回去，把所有分区删掉了，直接点击镜像包里的setup安装，现在也卡死了，鼠标动不了了，和之前的情况一样</span><br>
+<span>总之多谢指导</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>john: </b><br>
+<span>零下五度猫 发表于 2020-1-25 19:17</span><br>
+<span>我刚刚拆掉硬盘装回去，把所有分区删掉了，直接点击镜像包里的setup安装，现在也卡死了，鼠标动不了了， ...</span><br>
+<span>U盘或者光盘启动根本不用点击setup</span><br>
+<span>远离那些你自己都不知道怎么做出来的PE，好好用官方途径安装会死？</span><br>
+</p><p><b>chust: </b><br>
+<span>日常用已经是Manjaro了，只有在玩游戏和写office文档时才切换到win10</span><br>
+<span>— from Xiaomi MI 8 UD, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>gdx9900: </b><br>
+<span> 本帖最后由 gdx9900 于 2020-1-25 20:06 编辑 </span><br>
+<span>utraliso结合msdnitellyou下载的ltsc版win10目前一切顺利，比单位买的笔记本带的win10好用多了。win7也确实稳定，我那t60的老本子，大概12年左右时候装的系统，用到现在一点系统上的问题都没出过，从98到xp时代练就的一身重装操作系统的本事就这么荒废的…</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>零下五度猫 发表于 2020-1-25 19:17</span><br>
+<span>我刚刚拆掉硬盘装回去，把所有分区删掉了，直接点击镜像包里的setup安装，现在也卡死了，鼠标动不了了， ...</span><br>
+<span>不是这样装的</span><br>
+<span>用微软的官方工具做个u盘，u盘启动，按提示装就好了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>我一直都是把ISO放到非系统盘直接点开安装即可……楼主这怎么感觉还可能是硬盘或者硬盘引导有问题……</span><br>
+</p><p><b>macos: </b><br>
+<span>俺现在封装的版本来说，禁止onedrive安装，后台应用，游戏栏，其他的在oobe期间关闭，唯一问题是不知道怎么改资源管理器的快捷栏，默认的锁太多了</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span> 本帖最后由 零下五度猫 于 2020-1-25 21:18 编辑 </span><br>
+<span>john 发表于 2020-1-25 19:23</span><br>
+<span>U盘或者光盘启动根本不用点击setup</span><br>
+<span>远离那些你自己都不知道怎么做出来的PE，好好用官方途径安装会死？ ...</span><br>
+<span>听了大家的意见，我去微软官网下了安装工具，制作了U盘，安装完之后又卡死了</span><br>
+<span>总之还是谢谢大家的指导</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>开机后开始菜单第一次必定打不开，后续偶尔出现。我已经放弃治疗了，反正电脑用的少了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>连镜像都不需要写，打开复制到u盘里就行了...</span><br>
+</p><p><b>s1-5-5: </b><br>
+<span>win7winxp基本还知道系统文件大概在哪，win10我躺好了随便草了，放哪我都不想去清理了</span><br>
+</p><p><b>http: </b><br>
+<span>别装最新版</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>零下五度猫 发表于 2020-1-25 20:54</span><br>
+<span>听了大家的意见，我去微软官网下了安装工具，制作了U盘，安装完之后又卡死了</span><br>
+<span>总之还是谢谢大家的 ...</span><br>
+<span>那应该是你的电脑有问题</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>精钢魔像 发表于 2020-1-25 21:58</span><br>
+<span>那应该是你的电脑有问题</span><br>
+<span>我一开始也这么觉得，换不同的方式装都一样会卡死，但是PE却一切正常，所以我觉得用PE装的系统跟官方启动盘装的没什么区别，可能是最新版系统的问题，虽然我也没有试旧版本就是了</span><br>
+<span>当然最根本原因还是我太菜了，从硬件到软件对我来说都是黑箱，知其然不知其所以然，还要继续提高姿势水平</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>izthr: </b><br>
+<span>零下五度猫 发表于 2020-1-25 18:21</span><br>
+<span>硬盘先格式化，然后转GPT，新建分区包括ESP、MSR和C盘，最后用PE里的WinNTSetuo安装，镜像是从MSDN我告诉 ...</span><br>
+<span>亲，你能不能用微软自己提供的软件做个usb去装系统？</span><br>
+</p><p><b>elflie: </b><br>
+<span>根据我的经验，乱优化会导致更奇葩的问题</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>win10 这德行，不可预期的问题挺多的。还不如用 Linux，需要特定软件一个软件一个虚拟机，也好转移密钥。</span><br>
+</p><p><b>momoooo: </b><br>
+<span>我怎么觉得你硬盘坏了</span><br>
+</p><p><b>King5268: </b><br>
+<span>同意楼上观点，我觉得像是硬件问题，虽然BUG10确实问题很多，但是真的不至于像LZ这样........</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2020-1-26 00:26 编辑 </span><br>
+<span>从1909退回到了1803，9600KF 5G的进系统电压从手工1.35V降低到了手工1.2V, 1.232V目前可跑FPU,P95秒蓝。</span><br>
+<span>不管了，offset 设置一个-0.075V，在1.29V下FP64连跑20次毫无压力，散热垃圾，P95里15分钟冲95°C掉线程。</span><br>
+<span>目前是9600KF 5G 1.29V + 16G DDR4 3600 17-19-19-40 1.37V，比前几天好超多了，爽了两天至今没蓝。</span><br>
+<span>所以从1803到1909到底更新了啥</span><br>
+</p><p><b>john: </b><br>
+<span>kuleisite1992 发表于 2020-1-26 00:23</span><br>
+<span>从1909退回到了1803，9600KF 5G的进系统电压从手工1.35V降低到了手工1.2V, 1.232V目前可跑FPU,P95秒蓝。</span><br>
+<span>不 ...</span><br>
+<span>操作系统越稳定越难超</span><br>
+<span>当年Core 2 Duo都是拿XP而不是最新发售的Vista秀超频的</span><br>
+</p><p><b>bill基: </b><br>
+<span> 本帖最后由 bill基 于 2020-1-26 02:08 编辑 </span><br>
+<span>momoooo 发表于 2020-1-25 23:26</span><br>
+<span>我怎么觉得你硬盘坏了</span><br>
+<span>肯定不可能是硬盘</span><br>
+<span>我3个硬盘，P3605 1.6t，P3500 2t，PM1725A 3.2t，SMART都正常</span><br>
+<span>都试过U盘引导全新装一次1909，同样问题</span><br>
+<span>逼得我上网找了半天才发现是顶楼说的问题，对症下药后现在症状已消失</span><br>
+<span>真是硬盘问题我也不用发帖了，这三个硬盘是在旧机移过来的，旧机8.1用一点事都没有</span><br>
+<span>特别是NV驱动那个，简直TM弱智</span><br>
+<span>网上一搜，一大堆1909用ms store完全下不到东西的</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>onedrive和store相关的问题其实有时候是强的关系</span><br>
+</p><p><b>Ozen: </b><br>
+<span>下到ISO之后自己用rufus烧进u盘都能用来安装的</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>win8: </b><br>
+<span>win8除了不能uwp，其实是比win10省心好用的</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>同样msdn版本。。。office2016</span><br>
+<span>但是没装别的杀软，全部默认</span><br>
+<span>显卡面板那个我记得也是另外找的安装包，商店里点下载没反应</span><br>
+<span>用了快三个月了无任何异常，顺畅无比。。</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span> 本帖最后由 黑夜守望者 于 2020-1-26 10:07 编辑 </span><br>
+<span>1909我用得还好，只有一次掉了引导，主板死活认不出rc500，然后重新安装一遍就可以了，至今不知道是win10的锅还是rc500的</span><br>
+<span>而且为什么主板认不了但是却能装系统啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910753[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【技术】要从零开始写一款 VN 引擎有多难？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【技术】要从零开始写一款 VN 引擎有多难？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:54:51 +0000</lastBuildDate>
+    <item>
+      <title>【技术】要从零开始写一款 VN 引擎有多难？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1941099-1-1.html</link>
+      <description>【技术】要从零开始写一款 VN 引擎有多难？&#13;
+如题。注意关键字从零开始，因此只能用操作系统自带的功能，图形只有 DirectX 或 OpenGL 或 Vulcan 或 Metal，什么 RenPy、Cocos、Unity 之流一概不考虑。</description>
+      <content:encoded><![CDATA[<p><b>mchan: </b><br>
+<span>【技术】要从零开始写一款 VN 引擎有多难？</span><br>
+<span>如题。注意关键字从零开始，因此只能用操作系统自带的功能，图形只有 DirectX 或 OpenGL 或 Vulcan 或 Metal，什么 RenPy、Cocos、Unity 之流一概不考虑。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-6-11 20:54 编辑 </span><br>
+<span>只是实现基本功能的话不算难。VN其实就是根据脚本去显示图片文字和播放声音的工具。因此关键就是准备两件事，资源管理和展示部分（文字，图片，声音），以及脚本理解部分。资源展示部分用一些音频图像相关的库去管理和展示即可。略难的可能是脚本理解部分。你要自己定义一种脚本语言，写parser去控制资源的展示。可以照着RenPy定义的脚本功能抄一下，关键要处理好flag、分支这些东西即可。这样用户编写脚本并准备资源，就可以用你的引擎生成VN了。</span><br>
+<span>要做成个好用的引擎，最好提供GUI让用户使用，就麻烦了不少。比如用户自定义分支树，图形化地拖拽一些资源文件之类。(——当然如果只是要做VN而不是VN引擎，那难度再降两个档次。)</span><br>
+</p><p><b>ohi: </b><br>
+<span>其实一款游戏画面多好看和游戏引擎没多大关系，主要还是取决于美术的资源，普通的游戏引擎，其实就是把DX，OpenGL给包装一下，再做一套资源管理而已。</span><br>
+</p><p><b>mchan: </b><br>
+<span>Lunamos 发表于 2020-6-11 19:52</span><br>
+<span>只是实现基本功能的话不算难。VN其实就是根据脚本去显示图片文字和播放声音的工具。因此关键就是准备两件事 ...</span><br>
+<span>能不能不完全自定义脚本语言，而是借用某种现有语言，在其基础上扩展？譬如说网页版 VN 引擎就要把游戏脚本转化成 JavaScript，这时候脚本语言本身如果和 JavaScript 差不太多就很方便。</span><br>
+</p><p><b>darkfall: </b><br>
+<span> 本帖最后由 darkfall 于 2020-6-12 02:03 编辑 </span><br>
+<span>基础的几千行够了，主要就几个地方</span><br>
+<span>* 2D渲染，贴quad</span><br>
+<span>* 脚本，直接用现成，lua, angel, JS(水果平台上系统自带JSCore，别的麻烦点)等等都可以方面集成到C/CPP里</span><br>
+<span>* 集成，控制流，用脚本控制你的核心，i.e.</span><br>
+<span>   setLeftWaifu("1st Waifu.jpg")</span><br>
+<span>   setRightWaifu("2nd Waifu.jpg")</span><br>
+<span>   setDialog("Oniisama, daisuki")</span><br>
+<span>扩展下去就是更复杂的功能提高表现力，2D图形特效，3D特效，表情控制（live2D etc）。你还要考虑网页版的话那直接全JS写都可以，桌面版套一个Chromium。</span><br>
+<span>麻烦的永远是工具，如果要提供这方面的东西的话。u3d的优势就在于非常方便做自定义工具，不然从头手写工作量非常大</span><br>
+</p><p><b>Redis: </b><br>
+<span>有开源的，抄个js版本的应该不难</span><br>
+<span>事件选择肢的编辑器和触发应该是代码的大头。其余部分无非是拿到事件和脚本进行渲染而已。</span><br>
+</p><p><b>格林达姆: </b><br>
+<span>直接js+electron</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2020-6-12 07:48 编辑 </span><br>
+<span>我写过一个基于c# 的脚本系统 ，前后大概用了两周，实现不算很难，全程coroutine加个index就行了，支持自由跳转和存储进度</span><br>
+<span>但是渲染部分确实想不好怎么做多平台，最后用了unity做前端，毕竟从头开始做一个2d engine是一件很恶心的事</span><br>
+<span>事实上引擎就是解决重复造轮子的问题，愿意用unity 还是xna 还是godot并不重要，但是再实现一遍他们真的很花时间</span><br>
+</p><p><b>zxtree: </b><br>
+<span>sdl sfml</span><br>
+</p><p><b>w30of: </b><br>
+<span>跨平台的话那基本是用gles或vulkan，想要兼容更多设备就是gles了</span><br>
+<span>但是要从这一步开始得包装api还得写双缓冲等等底层开始写一个2d渲染引擎出来</span><br>
+<span>那不如拿ogre或者cocos改一改，渲染从头写没什么必要啊</span><br>
+<span>在一个开源多平台的渲染引擎之上，像楼上几位说的实现一个自己的Gal脚本系统比较靠谱</span><br>
+</p><p><b>lxzworry: </b><br>
+<span>vn是啥</span><br>
+</p><p><b>widder: </b><br>
+<span>ohi 发表于 2020-6-11 20:44</span><br>
+<span>其实一款游戏画面多好看和游戏引擎没多大关系，主要还是取决于美术的资源，普通的游戏引擎，其实就是把DX， ...</span><br>
+<span>引擎确定了个框，美术在里面发挥，引擎不行，美术也是巧妇难为无米之炊</span><br>
+</p><p><b>ohi: </b><br>
+<span>widder 发表于 2020-6-12 09:26</span><br>
+<span>引擎确定了个框，美术在里面发挥，引擎不行，美术也是巧妇难为无米之炊 ...</span><br>
+<span>美术哪些地方受引擎制约这个我还没了解过，还在学习中</span><br>
+</p><p><b>mchan: </b><br>
+<span>lxzworry 发表于 2020-6-12 09:15</span><br>
+<span>vn是啥</span><br>
+<span>VN = Visual Novel 视觉小说。大多数 Galgame 都是 VN。</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-6-12 22:29 编辑 </span><br>
+<span>darkfall 发表于 2020-6-12 01:59</span><br>
+<span>基础的几千行够了，主要就几个地方</span><br>
+<span>* 2D渲染，贴quad</span><br>
+<span>* 脚本，直接用现成，lua, angel, JS(水果平台上系统 ...</span><br>
+<span>如果是别的平台需要 JS，可以上 node.js 分支的 V8。要么直接做成网页 VN。</span><br>
+<span>其实我有做苹果开发的经验，按照苹果审核的尿性，最理想的苹果用脚本是要走转编译器，转换成 Swift 或 Objective-C 然后和引擎连接在一起的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1941099[0-50]</guid>
+    </item>
+  </channel>
+</rss>

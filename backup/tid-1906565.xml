@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>能让windows按caps键切换输入法吗，可以</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>能让windows按caps键切换输入法吗，可以</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:02:05 +0000</lastBuildDate>
+    <item>
+      <title>能让windows按caps键切换输入法吗，可以[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906565-1-1.html</link>
+      <description>能让windows按caps键切换输入法吗，可以&#13;
+我觉得macos这个设计非常合理，因为很多软件都要同时用到ctrl/shift/alt，输入法再去占用这几个键就很不合理，老是在不知情的情况下切换了输入法，造成在其他软件界面下快捷键失效，烦得一逼，而利用不常用的capslock来切换就很方便了，小拇指按着也很舒服。
+&#13;
+起初想在capslock+里设置，但发现它没法设置单击capslock键，所以搜到了这个：
+&#13;
+https://github.com/cuiliang/Caps2CtrlSpace
+&#13;
+功能单一，和capslock+也不冲突。</description>
+      <content:encoded><![CDATA[<p><b>真田丸: </b><br>
+<span>能让windows按caps键切换输入法吗，可以</span><br>
+<span>我觉得macos这个设计非常合理，因为很多软件都要同时用到ctrl/shift/alt，输入法再去占用这几个键就很不合理，老是在不知情的情况下切换了输入法，造成在其他软件界面下快捷键失效，烦得一逼，而利用不常用的capslock来切换就很方便了，小拇指按着也很舒服。</span><br>
+<span>起初想在capslock+里设置，但发现它没法设置单击capslock键，所以搜到了这个：</span><br>
+<span>https://github.com/cuiliang/Caps2CtrlSpace</span><br>
+<span>功能单一，和capslock+也不冲突。</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>这个解决不了资源管理器自动切英文的问题吧</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>这样能解决系统输入法读取ctrl 加 space优先级高于应用软件的问题吗</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>真田丸: </b><br>
+<span>Nanachi 发表于 2019-12-30 19:54</span><br>
+<span>这样能解决系统输入法读取ctrl 加 space优先级高于应用软件的问题吗</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android...</span><br>
+<span>很遗憾，不能啊，这个只是检测按下capslock键来激活ctrl 加 space。</span><br>
+<span>不过，我用的是谷歌拼音，之前是用ctrl做中英输入法切换，用了这程序我就直接把输入法里的切换快捷键关了。至少可以避免在其他软件里按下ctrl就切换输入法的困扰。</span><br>
+</p><p><b>wuuuuuud: </b><br>
+<span>win10下的win space是个很好的方案，但是被猪队友微软中文输入法坑了</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>我经常切着用win和Mac，导致切换舒服人有时候shift和caps lock要按好几次才能切对……</span><br>
+</p><p><b>Psyche: </b><br>
+<span>这种问题 autohotkey 自己写个 1 行的脚本不就搞定了? capslock + 也就是个写好打包的 ahk 脚本</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906565[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>软路由用多网口网卡当交换机 还是 使用硬件交换机</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>软路由用多网口网卡当交换机 还是 使用硬件交换机</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:41:01 +0000</lastBuildDate>
+    <item>
+      <title>软路由用多网口网卡当交换机 还是 使用硬件交换机[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917759-1-1.html</link>
+      <description>软路由用多网口网卡当交换机 还是 使用硬件交换机&#13;
+最近在折腾一台NAS，想尝试下allinone，因为主板上已经有两个网口(intel和瑞鑫双网卡） 但是在软路由的选择上有个疑问， 因为有以下两个方案：
+&#13;
+1. NAS上的一个网口用来接光猫的wan，一个网口接交换机，然后接AP，等
+&#13;
+2. NAS上再插块PCI-E的4口网卡，直接把这个4口网卡虚拟成一个软路由，应该也可以实现交换机的功能
+&#13;
+我想问下这两种方案该选哪种？ 内网是千兆的，传输量应该不是很大，最多的应用情况是从5g网络拷贝/播放视频</description>
+      <content:encoded><![CDATA[<p><b>neotaburiss: </b><br>
+<span>软路由用多网口网卡当交换机 还是 使用硬件交换机</span><br>
+<span>最近在折腾一台NAS，想尝试下allinone，因为主板上已经有两个网口(intel和瑞鑫双网卡） 但是在软路由的选择上有个疑问， 因为有以下两个方案：</span><br>
+<span>1. NAS上的一个网口用来接光猫的wan，一个网口接交换机，然后接AP，等</span><br>
+<span>2. NAS上再插块PCI-E的4口网卡，直接把这个4口网卡虚拟成一个软路由，应该也可以实现交换机的功能</span><br>
+<span>我想问下这两种方案该选哪种？ 内网是千兆的，传输量应该不是很大，最多的应用情况是从5g网络拷贝/播放视频</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>同时跑两个软路由你的nas啥配置，个人的话1。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>对你来说都一样,当然成本最低的那个</span><br>
+</p><p><b>moondigi: </b><br>
+<span>首先你wifi肯定要有的，那为什么不买个wifi路由器当无线交换机用呢，最好是带vlan功能的</span><br>
+</p><p><b>password: </b><br>
+<span>软路由+硬交换是王道</span><br>
+<span>软交换性能低于硬交换</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>依然荏苒 发表于 2020-3-8 13:19</span><br>
+<span>同时跑两个软路由你的nas啥配置，个人的话1。</span><br>
+<span>https://www.bilibili.com/video/av94166949?from=search&seid=5175434877879830148</span><br>
+<span>类似这个的配置，不过我的CPU现在是G4400T.不过打算换成I3 8100T</span><br>
+</p><p><b>JWJking: </b><br>
+<span>方案一，不建议虚拟交换机，虚拟交换机全部走cpu的，转发性能远低于硬交换。</span><br>
+<span>另外咋回事这几天怎么突然这么多人软路由了</span><br>
+</p><p><b>騜: </b><br>
+<span>JWJking 发表于 2020-3-8 15:29</span><br>
+<span>方案一，不建议虚拟交换机，虚拟交换机全部走cpu的，转发性能远低于硬交换。</span><br>
+<span>另外咋回事这几天怎么突然这么 ...</span><br>
+<span>在家闲的吧</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>虚拟交换机上，intel有dpdk用dma加速，mallenox有asap2可以直接调用nic上的asic处理网络包</span><br>
+<span>不过我只知道这个在虚拟交换机上用得多，没研究过真实网络口转发能不能用硬件加速</span><br>
+<span>起码更新的高性能平台上虚拟交换机也不是全走cpu的，除非需要更复杂的包处理</span><br>
+<span>但是你这个量级就别折腾了，百来块交换机省电又省心</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>JWJking 发表于 2020-3-8 15:29</span><br>
+<span>方案一，不建议虚拟交换机，虚拟交换机全部走cpu的，转发性能远低于硬交换。</span><br>
+<span>另外咋回事这几天怎么突然这么 ...</span><br>
+<span>隔壁也为个mesh撕的浑天地暗，大概认识到家庭网络的重要性了吧</span><br>
+</p><p><b>2stage: </b><br>
+<span>1.</span><br>
+<span>非管理交换机很便宜，也不会占用主机CPU。不需要多wan，搞软交换吃力不讨好。</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>fallenevil: </b><br>
+<span>软路由一定要接交换机，不然内部流量交换效率低而且CPU负载高</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917759[0-50]</guid>
+    </item>
+  </channel>
+</rss>

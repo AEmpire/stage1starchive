@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Win10常发性蓝屏求助，疑似软件不兼容</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Win10常发性蓝屏求助，疑似软件不兼容</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:42:50 +0000</lastBuildDate>
+    <item>
+      <title>Win10常发性蓝屏求助，疑似软件不兼容[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830364-1-1.html</link>
+      <description>Win10常发性蓝屏求助，疑似软件不兼容&#13;
+ 本帖最后由 Diabolosis 于 2019-5-13 01:40 编辑 
+
+https://i.loli.net/2019/05/09/5cd43be22ef35.jpg
+&#13;
+这个月第二次了
+&#13;
+学校校园网有两种连接方式：一种网页认证，一种通过拨号连接。如果想要用电信的宽带，需要运行软件加一层虚拟adsl（这个是学长给的，电信的工作人员在办的时候都没说过）
+&#13;
+如果采用拨号连接＋软件，系统就会十分不稳定，尤其看视频直播的时候，调到最高码率过一段时间系统就会假死
+&#13;
+改用网页认证＋软件以后会好很多，但是有时候还是而且常发生于电脑刚启动的时候，表现为网络连接几乎断开、系统反应缓慢，之后手动重启也无济于事，只能强制关机或者等蓝屏自动重启
+&#13;
+之前在泥潭也发过一次帖子，不过那时候症状更严重，有时关机都关不了……
+&#13;
+而且现在报的错和那时候也不一样了</description>
+      <content:encoded><![CDATA[<p><b>Diabolosis: </b><br>
+<span>Win10常发性蓝屏求助，疑似软件不兼容</span><br>
+<span> 本帖最后由 Diabolosis 于 2019-5-13 01:40 编辑 </span><br>
+<img src="https://i.loli.net/2019/05/09/5cd43be22ef35.jpg" title="https://i.loli.net/2019/05/09/5cd43be22ef35.jpg"><br>
+<span>这个月第二次了</span><br>
+<span>学校校园网有两种连接方式：一种网页认证，一种通过拨号连接。如果想要用电信的宽带，需要运行软件加一层虚拟adsl（这个是学长给的，电信的工作人员在办的时候都没说过）</span><br>
+<span>如果采用拨号连接＋软件，系统就会十分不稳定，尤其看视频直播的时候，调到最高码率过一段时间系统就会假死</span><br>
+<span>改用网页认证＋软件以后会好很多，但是有时候还是而且常发生于电脑刚启动的时候，表现为网络连接几乎断开、系统反应缓慢，之后手动重启也无济于事，只能强制关机或者等蓝屏自动重启</span><br>
+<span>之前在泥潭也发过一次帖子，不过那时候症状更严重，有时关机都关不了……</span><br>
+<span>而且现在报的错和那时候也不一样了</span><br>
+</p><p><b>笙歌鼎沸: </b><br>
+<span>https://www.ithome.com/0/416/452.htm</span><br>
+<span>试试</span><br>
+</p><p><b>nashor: </b><br>
+<span>我以前是内存，换了新内存就没蓝过</span><br>
+</p><p><b>sheepx86: </b><br>
+<span>错误信息是访问了不可执行（带NX Bit）的内存页，大概率是驱动（包括各种助手和你说的拨号软件）的锅。</span><br>
+<span>不怕死可以把“数据执行保护(DEP)”关了或者加个例外。</span><br>
+</p><p><b>litel: </b><br>
+<span>c Windows minidump 文件夹下文件，压缩打包发上来可以帮你看具体是哪个文件/进程导致的蓝屏。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>litel 发表于 2019-5-10 09:17</span><br>
+<span>c Windows minidump 文件夹下文件，压缩打包发上来可以帮你看具体是哪个文件/进程导致的蓝屏。。。</span><br>
+<span>——...</span><br>
+<span>上次发了也没人有反应</span><br>
+<span>— from SHARP SHV34, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Dox: </b><br>
+<span>我之前也是偶尔蓝屏，删了一个小系统监控软件就再也没蓝过</span><br>
+</p><p><b>litel: </b><br>
+<span>Diabolosis 发表于 2019-5-10 12:30</span><br>
+<span>上次发了也没人有反应</span><br>
+<span>— from SHARP SHV34, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+<span>蓝屏截图其实用处不大。</span><br>
+<span>发文件，才有人帮你看。</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>litel 发表于 2019-5-10 17:23</span><br>
+<span>蓝屏截图其实用处不大。</span><br>
+<span>发文件，才有人帮你看。</span><br>
+<span> https://bbs.saraba1st.com/2b/thread-1751225-0-1.html </span><br>
+<span>发过</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>scad: </b><br>
+<span>exploit protection 添加例外</span><br>
+</p><p><b>win8: </b><br>
+<span>你还是找破解客户端的法子吧。用路由器拨号什么问题都没有了</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-5-10 21:09 编辑 </span><br>
+<span>Diabolosis 发表于 2019-5-10 17:29</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1751225-0-1.html </span><br>
+<span>发过</span><br>
+<span>1个文件太少了。。</span><br>
+<span>所有的都打包传上来啊。。。</span><br>
+<span>这个文件啥都没分析出来，</span><br>
+<span>驱动倒是看到了鲁大师，和罗技的驱动。</span><br>
+<span>不是所有的蓝屏dump都是有用的，有的时候有的文件里蓝屏时就没保存下来啥有用的信息，换个文件可能就有。</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>litel 发表于 2019-5-10 21:00</span><br>
+<span>1个文件太少了。。</span><br>
+<span>所有的都打包传上来啊。。。</span><br>
+<span>我回去找找……麻烦你了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>litel 发表于 2019-5-10 21:00</span><br>
+<span>1个文件太少了。。</span><br>
+<span>所有的都打包传上来啊。。。</span><br>
+<span>前几天去找的时候没有，刚刚出现了一次，现在复制出来添加到附件里了。只有这一个</span><br>
+</p><p><b>yuriyang: </b><br>
+<span>感觉是内存的锅呢……</span><br>
+</p><p><b>sheepx86: </b><br>
+<span>Diabolosis 发表于 2019-5-13 01:41</span><br>
+<span>前几天去找的时候没有，刚刚出现了一次，现在复制出来添加到附件里了。只有这一个 ...</span><br>
+<span>你发的minidump和截图是不同的错误...感觉就是驱动有bug...</span><br>
+<span>扫了一眼驱动列表最可疑的是vaif_60.sys，应该是你说的拨号软件。可以进安全模式从C:\Windows\System32\drivers挪到其他位置重启试试。</span><br>
+<span>另外看你还装了网易加速器，说不定会和拨号软件有冲突。</span><br>
+</p><p><b>Kshatriya: </b><br>
+<span>搭车问问win10跟罗技游戏软件不兼容是怎回事，装完开机就蓝屏</span><br>
+</p><p><b>litel: </b><br>
+<span>Diabolosis 发表于 2019-5-13 01:41</span><br>
+<span>前几天去找的时候没有，刚刚出现了一次，现在复制出来添加到附件里了。只有这一个 ...</span><br>
+<span>我技术不行。。。这个dump里也看不到原因。。。</span><br>
+<span>根据描述感觉和16楼说的可能差不多，就是拨号软件的驱动的问题。。</span><br>
+<span>http://nic.swu.edu.cn/s/nic/ebook/20131009/23613.html</span><br>
+<span>https://zhidao.baidu.com/question/1701723165051668260.html</span><br>
+</p><p><b>litel: </b><br>
+<span>litel 发表于 2019-5-13 12:37</span><br>
+<span>我技术不行。。。这个dump里也看不到原因。。。</span><br>
+<span>根据描述感觉和16楼说的可能差不多，就是拨号软件的驱动 ...</span><br>
+<span>从驱动列表里看，有 MacAfee 的驱动，鲁大师的驱动，UU加速器的驱动，HP的一些设备驱动，罗技的一些驱动，然后就是那个拨号软件的驱动。</span><br>
+<span>建议卸掉鲁大师和UU加速器和罗技的软件，重启再做复现操作，如果还是蓝屏，那大概率就是拨号软件的驱动的问题。</span><br>
+</p><p><b>斜阳中的落叶: </b><br>
+<span>我用闪讯时下东西次次死机，小白不懂电脑现在下东西只能用龟速CMCC</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>litel 发表于 2019-5-13 12:44</span><br>
+<span>从驱动列表里看，有 MacAfee 的驱动，鲁大师的驱动，UU加速器的驱动，HP的一些设备驱动，罗技的一些驱动 ...</span><br>
+<span>迈克菲我老早就用官方工具卸载了，现在用的NOD32</span><br>
+<span>鲁大师和罗技的完全是装了就用几次，也没有自启动</span><br>
+</p><p><b>ricotte: </b><br>
+<span>惠普用不到的软件也删一下，</span><br>
+<span>bios有更新过吗，更一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830364[0-50]</guid>
+    </item>
+  </channel>
+</rss>

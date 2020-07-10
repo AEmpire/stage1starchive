@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10忽然找不到任何音频设备了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10忽然找不到任何音频设备了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:22:54 +0000</lastBuildDate>
+    <item>
+      <title>win10忽然找不到任何音频设备了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862394-1-1.html</link>
+      <description>win10忽然找不到任何音频设备了&#13;
+ 本帖最后由 mirari 于 2019-10-30 22:27 编辑 
+
+大约两个月前某次win10更新过程中出现蓝屏，这之后好几次推送的补丁更新都会蓝屏。最近一次升级失败回滚后，启动系统时需要输入ctrl+alt+del才能进入登录页。我下了一个1909的镜像尝试大版本升级覆盖这个问题，没想到升级中也出现了蓝屏，提示“在SYSPREP_SPECIALIZE操作过程中的FIRST_BOOT阶段，安装失败”然后回滚之后启动发现系统右下角的喇叭变成了红叉。但是设备管理器里的音频驱动全部都能看到，唯独右下角啥也没有。
+&#13;
+已经尝试过卸载音频驱动、显卡驱动，再次安装1909，顺利进行到大半进度，结果再次蓝屏，蓝屏信息是PAGE-FAULT-IN-NONPAGED-AREA
+&#13;
+再次回滚以后，win升级程序提示在BOOT操作过程的SECOND_BOOT阶段安装失败。错误代码0xC1900101 - 0x40017
+&#13;
+看说明一般是驱动问题导致的
+&#13;
+重置系统工作量很大，希望能找出卡蓝屏的原因。
+&#13;
+https://www.landiannews.com/archives/53801.html
+&#13;
+好像是中招了，典型问题</description>
+      <content:encoded><![CDATA[<p><b>mirari: </b><br>
+<span>win10忽然找不到任何音频设备了</span><br>
+<span> 本帖最后由 mirari 于 2019-10-30 22:27 编辑 </span><br>
+<span>大约两个月前某次win10更新过程中出现蓝屏，这之后好几次推送的补丁更新都会蓝屏。最近一次升级失败回滚后，启动系统时需要输入ctrl+alt+del才能进入登录页。我下了一个1909的镜像尝试大版本升级覆盖这个问题，没想到升级中也出现了蓝屏，提示“在SYSPREP_SPECIALIZE操作过程中的FIRST_BOOT阶段，安装失败”然后回滚之后启动发现系统右下角的喇叭变成了红叉。但是设备管理器里的音频驱动全部都能看到，唯独右下角啥也没有。</span><br>
+<span>已经尝试过卸载音频驱动、显卡驱动，再次安装1909，顺利进行到大半进度，结果再次蓝屏，蓝屏信息是PAGE-FAULT-IN-NONPAGED-AREA</span><br>
+<span>再次回滚以后，win升级程序提示在BOOT操作过程的SECOND_BOOT阶段安装失败。错误代码0xC1900101 - 0x40017</span><br>
+<span>看说明一般是驱动问题导致的</span><br>
+<span>重置系统工作量很大，希望能找出卡蓝屏的原因。</span><br>
+<span>https://www.landiannews.com/archives/53801.html</span><br>
+<span>好像是中招了，典型问题</span><br>
+</p><p><b>litel: </b><br>
+<span>上传蓝屏文件。。。</span><br>
+<span>网上搜了个，一般是带驱动的软件冲突，有个说是 Citrix VDA</span><br>
+<span>有蓝屏文件可以看看。</span><br>
+</p><p><b>暗示我7酱: </b><br>
+<span>我每次升级大版本也是音频出问题，后来把原有驱动卸载然后让win10自己找一般就好了</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>我靠，什么配置，这么吓人？</span><br>
+<span>—— 来自 HUAWEI COR-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>一样，最后重装解决。装了各种驱动，用了各种方法都没办法</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>每次企图用系统更新和易升，都会出问题，最后还是重装解决一切</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>madbird302: </b><br>
+<span>为什么不用LTSC呢</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>与其花费大量时间找原因，不如格盘重装。</span><br>
+</p><p><b>notmyproblem: </b><br>
+<span> 本帖最后由 notmyproblem 于 2019-10-31 13:01 编辑 </span><br>
+<span>补丁问题吧，我2月份的时候遇到过同样问题，只不过没有蓝屏</span><br>
+<span>1803自动更新后声卡驱动出问题，重装没用，升到1809自愈了。没多久在1809上又遇到过一次，这回怎么折腾都没效果以为是主板要挂，买了块外接声卡，然后装的外接声卡驱动非常神奇的解决了所有问题，在心里辱骂了一遍win10全家之后换回了1703，happy end。</span><br>
+</p><p><b>mirari: </b><br>
+<span>现在的临时处理方法是点击设置-系统-声音-轻松访问音频设置-更改设备或应用的音量。</span><br>
+<span>这时候就能看到音频设备列表了，然后点一下红叉启动音频问题检查，之后红叉会消失。但是重启以后又会这样，目前靠休眠顶着。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862394[0-50]</guid>
+    </item>
+  </channel>
+</rss>

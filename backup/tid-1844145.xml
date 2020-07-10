@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>陷入僵局了 Magisk Riru Core Edxposed相关</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>陷入僵局了 Magisk Riru Core Edxposed相关</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:17:58 +0000</lastBuildDate>
+    <item>
+      <title>陷入僵局了 Magisk Riru Core Edxposed相关[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844145-1-1.html</link>
+      <description>陷入僵局了 Magisk Riru Core Edxposed相关&#13;
+原始环境
+
+安卓8.1
+
+Root
+
+Magisk 19.3
+
+Magisk Manager 7.3.2
+
+Riru Core 19.1
+
+EdXposed 0.4.5.1 beta Sandhook
+
+因为发现对xposed 云音乐插件和大妈之家插件支持有问题。
+
+看了edxposed github issue里有人riru core还在用17.1，于是直接Magisk Manager里卸载了riru core 19.1，重启后未卸载edxposed就直接在Magisk Manager里刷入了riru core 17.1。
+
+然后重启就卡NOKIA了
+
+因为这机子data分区加密，临时刷入的twrp也不完善，没办法用edxposed和Magisk的卸载卡刷包，会报错
+
+最后活过来是通过官方的9.0全量卡刷包，线推下去才能进系统。
+
+现在就变成
+
+安卓9.0
+
+未Root
+
+Magisk 无
+
+Magisk Manager 7.3.2
+
+Riru Core 17.1(未激活)
+
+EdXposed 0.4.5.1 beta Sandhook(未激活)
+
+https://i.loli.net/2019/07/04/5d1d41872338487469.png
+
+这机子的root办法是解锁BL后，通过fastboot刷入临时的带Magisk的boot.img，随后进系统，通过Magisk Manager再给实际的boot做永久root修补。
+
+但我一旦刷入这个临时boot，就又会卡NOKIA。
+
+现在就是陷入僵局，不root没办法把Magisk的残余卸载干净，root了，又没办法进系统。。。
+
+是不是唯一的解决方案就是做好备份，重新线刷或者清data分区了啊。。。</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>陷入僵局了 Magisk Riru Core Edxposed相关</span><br>
+<span>原始环境</span><br>
+<span>安卓8.1</span><br>
+<span>Root</span><br>
+<span>Magisk 19.3</span><br>
+<span>Magisk Manager 7.3.2</span><br>
+<span>Riru Core 19.1</span><br>
+<span>EdXposed 0.4.5.1 beta Sandhook</span><br>
+<span>因为发现对xposed 云音乐插件和大妈之家插件支持有问题。</span><br>
+<span>看了edxposed github issue里有人riru core还在用17.1，于是直接Magisk Manager里卸载了riru core 19.1，重启后未卸载edxposed就直接在Magisk Manager里刷入了riru core 17.1。</span><br>
+<span>然后重启就卡NOKIA了</span><br>
+<span>因为这机子data分区加密，临时刷入的twrp也不完善，没办法用edxposed和Magisk的卸载卡刷包，会报错</span><br>
+<span>最后活过来是通过官方的9.0全量卡刷包，线推下去才能进系统。</span><br>
+<span>现在就变成</span><br>
+<span>安卓9.0</span><br>
+<span>未Root</span><br>
+<span>Magisk 无</span><br>
+<span>Magisk Manager 7.3.2</span><br>
+<span>Riru Core 17.1(未激活)</span><br>
+<span>EdXposed 0.4.5.1 beta Sandhook(未激活)</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1d41872338487469.png" title="https://i.loli.net/2019/07/04/5d1d41872338487469.png"><br>
+<span>这机子的root办法是解锁BL后，通过fastboot刷入临时的带Magisk的boot.img，随后进系统，通过Magisk Manager再给实际的boot做永久root修补。</span><br>
+<span>但我一旦刷入这个临时boot，就又会卡NOKIA。</span><br>
+<span>现在就是陷入僵局，不root没办法把Magisk的残余卸载干净，root了，又没办法进系统。。。</span><br>
+<span>是不是唯一的解决方案就是做好备份，重新线刷或者清data分区了啊。。。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>TWRP不能解密/data么</span><br>
+<span>那估计你只能在TWRP下面格/data了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-4 08:49 编辑 </span><br>
+<span>EraserKing 发表于 2019-7-4 08:34</span><br>
+<span>TWRP不能解密/data么</span><br>
+<span>那估计你只能在TWRP下面格/data了</span><br>
+<span>看了下XDA，能解密data分区的TWRP刚出，对应的国际版的rom，而且看说法，根据每个月的安全更新，twrp也要跟着改版本，我这是国行的，要切国际版也许无法保留现有程序。</span><br>
+<span>而且这机子有国行国际标记在BL里，一不小心BL也许就会回锁</span><br>
+<span>看来只有先备份好，重新刷机了。。。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>是你后来刷的boot.img有问题吧，能自己解包出boot吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 08:47</span><br>
+<span>看了下XDA，能解密data分区的TWRP刚出，对应的国际版的rom，而且看说法，根据每个月的安全更新，twrp也要 ...</span><br>
+<span>TWRP的，解密主要看的是keymaster，这个不会经常变，变了之后原来的数据在系统下面也会狗带</span><br>
+<span>国行和国际版的keymaster倒有可能不一样，我觉得你可以试试，TWRP刷坏了能用Fastboot再刷回来应该没危险吧</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>Xerxes_2 发表于 2019-7-4 09:06</span><br>
+<span>是你后来刷的boot.img有问题吧，能自己解包出boot吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅 ...</span><br>
+<span>是论坛里的，应该不会是错的，之前8.1 root就是刷的他们的临时boot去root的</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>o</span><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-4 10:07 编辑 </span><br>
+<span>EraserKing 发表于 2019-7-4 09:08</span><br>
+<span>TWRP的，解密主要看的是keymaster，这个不会经常变，变了之后原来的数据在系统下面也会狗带</span><br>
+<span>国行和国际版 ...</span><br>
+<span>https://forum.xda-developers.com/nokia-7-plus/development/twrp-3-3-1-0-team-win-recovery-project-t3940223</span><br>
+<span>https://github.com/hmd-nokia-sdm660-development</span><br>
+<span>Note - Download and Flash according to the Security Patch And From Now i will update Twrp Every Month & if you get password error in twrp just get back to system and Remove lock screen password , pin , pattern and keep in swipe mode and follow the procedure</span><br>
+<span>这个每个月更新,就是针对每月的安全补丁更新的意思么?</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1g4nkmef1lrj20ok02dglk.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1g4nkmef1lrj20ok02dglk.jpg"><br>
+<span>哦,原帖子被编辑了,作者把仅用于19年6月更新补丁的描述去掉了...哦,原来是8小时前,他更新了7月份的版本...</span><br>
+<span>(国行我刷的版本是19年1月补丁的)</span><br>
+<span>找到编译好的了</span><br>
+<span>https://gitlab.com/RaghuVarma331/nokia_7plus_custom_roms/tree/pie/TWRP/</span><br>
+<span>不过真的就分6月和7月,真搞不清楚...是不是必须要对应版本的</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1g4nkt8xzw9j20rh0aegls.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1g4nkt8xzw9j20rh0aegls.jpg"><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 09:56</span><br>
+<span>https://forum.xda-developers.com/nokia-7-plus/development/twrp-3-3-1-0-team-win-recovery-project-t3 ...</span><br>
+<span>不一定需要直接对应</span><br>
+<span>TWRP也要一个Kernel，应该是跟着上游的Kernel的安全补丁走的</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-4 11:07 编辑 </span><br>
+<span>EraserKing 发表于 2019-7-4 10:30</span><br>
+<span>不一定需要直接对应</span><br>
+<span>TWRP也要一个Kernel，应该是跟着上游的Kernel的安全补丁走的 ...</span><br>
+<span>谢谢</span><br>
+<span>群里问一下,有人用过这个TWRP,支持data分区解密.</span><br>
+<span>晚上回去试一试</span><br>
+<span>fastboot临时刷入救救急</span><br>
+<span>说在临时twrp下删除data/adb文件夹就可以了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 10:39</span><br>
+<span>谢谢</span><br>
+<span>群里问一下,有人用过这个TWRP,支持data分区解密.</span><br>
+<span>晚上回去试一试</span><br>
+<span>可以解密的话就直接干Magisk就行了吧……用mm把模块停了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>EraserKing 发表于 2019-7-4 11:10</span><br>
+<span>可以解密的话就直接干Magisk就行了吧……用mm把模块停了</span><br>
+<span>到时候,搞不好magisk卸载包也无法执行,因为实际这个magisk是不完整的.</span><br>
+<span>data/adb里面都是啥啊?我搜了一下,magisk的文件就是路径在这个下面.</span><br>
+<span>全删,是不是也没多大问题啊</span><br>
+</p><p><b>毒品: </b><br>
+<span>我也是这样，最后双清了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 11:14</span><br>
+<span>到时候,搞不好magisk卸载包也无法执行,因为实际这个magisk是不完整的.</span><br>
+<span>data/adb里面都是啥啊?我搜了一下, ...</span><br>
+<span>magisk的相关文件我记得在下面吧</span><br>
+<span>主要是有个magisk.img，你先试试把这个文件改个名吧</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>EraserKing 发表于 2019-7-4 12:24</span><br>
+<span>magisk的相关文件我记得在下面吧</span><br>
+<span>主要是有个magisk.img，你先试试把这个文件改个名吧 ...</span><br>
+<span>现在卡开机的原因应该还是riru core 17.1的问题，应该把这个干掉就好了</span><br>
+<span>magisk模块的路径，我放狗搜了一下</span><br>
+<span>又说是在/sbin/.core/img/</span><br>
+<span>https://www.google.com/amp/s/liufw.cn/amp/227</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1d89c99477b20100.png" title="https://i.loli.net/2019/07/04/5d1d89c99477b20100.png"><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 13:07</span><br>
+<span>现在卡开机的原因应该还是riru core 17.1的问题，应该把这个干掉就好了</span><br>
+<span>magisk模块的路径，我放狗搜了一 ...</span><br>
+<span>我感觉你说的这个路径是magisk已经把img挂上之后产生的，我不知道你在TWRP里能不能看到这个路径 </span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>EraserKing 发表于 2019-7-4 13:24</span><br>
+<span>我感觉你说的这个路径是magisk已经把img挂上之后产生的，我不知道你在TWRP里能不能看到这个路径...</span><br>
+<span>https://forum.xda-developers.com/apps/magisk/magisk-module-causing-freeze-boot-t3879820</span><br>
+<span>感觉上楼的方法2也挺好的,回去先试一试方法二,让magisk即使激活,也只运行在Core Only Mode下面.</span><br>
+<span>感觉应该还是直接在magisk manage里删除模块最干净</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>所以 Magisk Manager for Recovery 很重要……</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>毒品 发表于 2019-7-4 11:49</span><br>
+<span>我也是这样，最后双清了</span><br>
+<span>如果还要救点照片或者微信聊天记录.</span><br>
+<span>一般进不了系统,卡刷全量包就可以了,这个老经验还是百试不爽的...</span><br>
+</p><p><b>SilverBrady: </b><br>
+<span> 本帖最后由 SilverBrady 于 2019-7-4 14:49 编辑 </span><br>
+<span>你们这也搞得太复杂了吧。刷能进系统的rom（不要格式化data），进安全设置把加密关了，再到bootloader刷临时的twrp，进去找到data/adb 把magisk相关的都删了。刷magisk的boot img，进系统重新装需要的模块就可以了</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>SilverBrady 发表于 2019-7-4 14:48</span><br>
+<span>你们这也搞得太复杂了吧。刷能进系统的rom（不要格式化data），进安全设置把加密关了，再到bootloader刷临 ...</span><br>
+<span>加密怎么关？</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1da66d45bfc24383.png" title="https://i.loli.net/2019/07/04/5d1da66d45bfc24383.png"><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zmw_831110 发表于 2019-7-4 15:11</span><br>
+<span>加密怎么关？</span><br>
+<span>正常关不了，现在新机器出场都要强制加密了</span><br>
+<span>要关的话，一般是改fstab，把/data的加密关了，再格/data</span><br>
+<span>fstab应该都放在/vendor里了，不过也有可能在内核里</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>SilverBrady: </b><br>
+<span>zmw_831110 发表于 2019-7-4 15:11</span><br>
+<span>加密怎么关？</span><br>
+<span>pixel是直接设置无锁屏就是关闭加密</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>SilverBrady 发表于 2019-7-4 15:56</span><br>
+<span>pixel是直接设置无锁屏就是关闭加密</span><br>
+<span>设置了，无效，还是加密的</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>SilverBrady: </b><br>
+<span>zmw_831110 发表于 2019-7-4 16:02</span><br>
+<span>设置了，无效，还是加密的</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>那就真的爱莫能助了</span><br>
+<span>老老实实折腾twrp的解密吧，只要能进data目录，删掉magisk相关文件是最快的解决办法。</span><br>
+<span>我之前Q beta4的太极折腾了我好几天</span><br>
+</p><p><b>毒品: </b><br>
+<span>zmw_831110 发表于 2019-7-4 14:38</span><br>
+<span>如果还要救点照片或者微信聊天记录.</span><br>
+<span>一般进不了系统,卡刷全量包就可以了,这个老经验还是百试不爽的... ...</span><br>
+<span>我当时是不root就没事，然后备份了一下就双清了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>汇报一下，实际情况是我重新线刷了</span><br>
+<span>之前备份好了微信聊天记录和通讯录，照片</span><br>
+<span>搞着搞着，系统我被搞回8.1了，AB分区不熟悉，太迷了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844145[0-50]</guid>
+    </item>
+  </channel>
+</rss>

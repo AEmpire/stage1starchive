@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于升级老笔电的疑问</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于升级老笔电的疑问</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:46:40 +0000</lastBuildDate>
+    <item>
+      <title>关于升级老笔电的疑问[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1829735-1-1.html</link>
+      <description>关于升级老笔电的疑问&#13;
+本子是 14 年初买的 ROG G750，傻大黑粗，基本当台式机使用，这两年风扇越来越响，CPU 也越来越热。之前也想救几次，但是无奈这机器太难拆，拆了几次主板没拆下来，因此没法清灰。昨天终于下决心动手花了三小时拆了个精光，清了灰也换了硅脂，瞬间回到了刚买时候的清净。加上最近内存和固态盘白菜价，还在用当年 750 买的 128G 840 PRO 做系统盘，现在都能买 1T 的了，于是想升级一下。
+&#13;
+目前配置是 i7 4700HQ + 2*4G 三星 DDR3 内存 + GTX 770M，两个 SATA 硬盘仓，四个 DDR3 插槽，不过多年没怎么研究硬件，有几个问题想问问大噶：
+&#13;
+1. CPU-Z 的 SPD 信息显示内存电压是 1.28V，这是 DDR3L 吧？但是 CPU-Z 只显示 DDR3
+&#13;
+2. 想加内存到 16G，我这种已经是 2*4G 的情况，是再加两个 4G 的好还是加一条 8G 的好？
+&#13;
+3. 内存买啥牌子的好，金士顿还是渣士顿吗？以前三星条假货很多，现在某东也没有自营的，某猫的三星条能信吗？
+&#13;
+4. QLC 的 SSD 是不是有坑，500G 或者 1T 现在有什么好的选择？不是很敢买除三星、Intel、闪迪、英睿达这几个牌子以外的
+&#13;
+谢谢各位</description>
+      <content:encoded><![CDATA[<p><b>Kickshaw: </b><br>
+<span>关于升级老笔电的疑问</span><br>
+<span>本子是 14 年初买的 ROG G750，傻大黑粗，基本当台式机使用，这两年风扇越来越响，CPU 也越来越热。之前也想救几次，但是无奈这机器太难拆，拆了几次主板没拆下来，因此没法清灰。昨天终于下决心动手花了三小时拆了个精光，清了灰也换了硅脂，瞬间回到了刚买时候的清净。加上最近内存和固态盘白菜价，还在用当年 750 买的 128G 840 PRO 做系统盘，现在都能买 1T 的了，于是想升级一下。</span><br>
+<span>目前配置是 i7 4700HQ + 2*4G 三星 DDR3 内存 + GTX 770M，两个 SATA 硬盘仓，四个 DDR3 插槽，不过多年没怎么研究硬件，有几个问题想问问大噶：</span><br>
+<span>1. CPU-Z 的 SPD 信息显示内存电压是 1.28V，这是 DDR3L 吧？但是 CPU-Z 只显示 DDR3</span><br>
+<span>2. 想加内存到 16G，我这种已经是 2*4G 的情况，是再加两个 4G 的好还是加一条 8G 的好？</span><br>
+<span>3. 内存买啥牌子的好，金士顿还是渣士顿吗？以前三星条假货很多，现在某东也没有自营的，某猫的三星条能信吗？</span><br>
+<span>4. QLC 的 SSD 是不是有坑，500G 或者 1T 现在有什么好的选择？不是很敢买除三星、Intel、闪迪、英睿达这几个牌子以外的</span><br>
+<span>谢谢各位</span><br>
+</p><p><b>john: </b><br>
+<span>1. 内存拆开看规格，DDR3L在速度后面会标个L</span><br>
+<span>2. 你这笔记本能插4条内存这么野？</span><br>
+<span>3. 内存有钱尽量买行货，去CHH这种懂的人多的地方蹲二手也行，泥潭二手区卖假内存已经被我抓过两个了</span><br>
+<span>4. QLC的SSD又不便宜，你为什么要买QLC的？</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>4内存不奇怪，蓝天的p系列全是4条，p1/3/6/7/8都是的，对应档次微星，rog和外星人我记得也都是4条</span><br>
+<span>建议再插两个4，不然内存就异步了很麻烦，至于1.35v或者1.5v无所谓，ddr3l也不是什么强制标准，不过就是低压而已，混用是可以的，当然不混用肯定更好，内存条上的贴纸应该会写，不管写在ddr3后面还是写在dimm后面，有个L就是低压条了</span><br>
+<span>当然了，最好还是你收两条8g，卖掉手头的4g</span><br>
+<span>金士顿和三星假货确实多，我一般都会跳过</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>770m其实也可以换掉了，收个老版965什么的性能强一截温度也更低</span><br>
+<span>当然如果你是bga当我没说</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 15:33</span><br>
+<span>1. 内存拆开看规格，DDR3L在速度后面会标个L</span><br>
+<span>2. 你这笔记本能插4条内存这么野？</span><br>
+<span>3. 内存有钱尽量买行货，去 ...</span><br>
+<span>感谢解答，DDR3 现在比较少见了，CHH 也没多少卖的了</span><br>
+<span>QLC 不是最便宜的吗？我看三星 860 QVO，1T 才八百多</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>sakuraNTET 发表于 2019-5-7 15:57</span><br>
+<span>4内存不奇怪，蓝天的p系列全是4条，p1/3/6/7/8都是的，对应档次微星，rog和外星人我记得也都是4条</span><br>
+<span>建议再 ...</span><br>
+<span>感谢，京东自营的条子一般都可信吗？</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>sakuraNTET 发表于 2019-5-7 15:58</span><br>
+<span>770m其实也可以换掉了，收个老版965什么的性能强一截温度也更低</span><br>
+<span>当然如果你是bga当我没说</span><br>
+<span>应该是 BGA，CPU 也是 BGA，我记得那一代游戏本的除了蓝天模具，基本都是 BGA</span><br>
+<span>不过我只打打 DOTA2，770M 问题也不大</span><br>
+</p><p><b>john: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:04</span><br>
+<span>感谢解答，DDR3 现在比较少见了，CHH 也没多少卖的了</span><br>
+<span>QLC 不是最便宜的吗？我看三星 860 QVO，1T 才八百 ...</span><br>
+<span>DDR3是淘汰换代和升级需求热门好吗，CHH卖内存一半都是出DDR3的</span><br>
+<span>查了一下是有4个槽，另外买2条4G好了，升级淘汰的比较多，笔记本8G不太好买，不过刚刚刷出来一对你要不要去收</span><br>
+<span>https://www.chiphell.com/forum.p ... peid%26typeid%3D751</span><br>
+<span>https://item.jd.com/5935501.html</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:05</span><br>
+<span>感谢，京东自营的条子一般都可信吗？</span><br>
+<span>买锤子京东自营，闲鱼买</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 16:15</span><br>
+<span>DDR3是淘汰换代和升级需求热门好吗，CHH卖内存一半都是出DDR3的</span><br>
+<span>查了一下是有4个槽，另外买2条4G好了，升 ...</span><br>
+<span>这个我也看到了，不过还是决定买 DDR3L 的，而且内存太多假了也不好鉴别，打算买新的</span><br>
+<span>这个蓝盘还可以，不过我只有 SATA3 接口，买 SATA3 版的会比 M2 版的差吗？那个时代还的笔记本都还没有 M2 这种接口</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>sakuraNTET 发表于 2019-5-7 16:22</span><br>
+<span>买锤子京东自营，闲鱼买</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>怕假条……</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span> 本帖最后由 bad_alloc 于 2019-5-7 16:35 编辑 </span><br>
+<span>Kickshaw 发表于 2019-5-7 16:04</span><br>
+<span>感谢解答，DDR3 现在比较少见了，CHH 也没多少卖的了</span><br>
+<span>QLC 不是最便宜的吗？我看三星 860 QVO，1T 才八百 ...</span><br>
+<span>西数1t蓝盘sata也就这个价, 买qlc干什么</span><br>
+</p><p><b>john: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:25</span><br>
+<span>这个我也看到了，不过还是决定买 DDR3L 的，而且内存太多假了也不好鉴别，打算买新的</span><br>
+<span>这个蓝盘还可以， ...</span><br>
+<span>这两条我目测不假，8G都没新的卖了，你自己看着办吧</span><br>
+<span>M.2 SATA加个十几块钱的盒子无缝转2.5寸SATA，以后新机还可以直接插，不怕49国就849买2.5寸的</span><br>
+</p><p><b>YuKin: </b><br>
+<span>查了一下lz这个是1600的，我只有一条4G。</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 16:31</span><br>
+<span>这两条我目测不假，8G都没新的卖了，你自己看着办吧</span><br>
+<span>M.2 SATA加个十几块钱的盒子无缝转2.5寸SATA，以后 ...</span><br>
+<span>我去问问他</span><br>
+<span>M2 转 SATA 性能也会更好吗，长姿势了</span><br>
+</p><p><b>烟萝: </b><br>
+<span>卧槽，泥潭二手区还有人来专门卖假内存？</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>bad_alloc 发表于 2019-5-7 16:27</span><br>
+<span>西数1t蓝盘sata也就这个价, 买qlc干什么</span><br>
+<span>蓝盘是 TLC？</span><br>
+</p><p><b>john: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:51</span><br>
+<span>我去问问他</span><br>
+<span>M2 转 SATA 性能也会更好吗，长姿势了</span><br>
+<span>不会啊，M.2 SATA也是SATA，和2.5寸SATA的差别在于物理接口</span><br>
+<span>但是2.5寸被淘汰了啊，你以后买新机可能都没有2.5安装位</span><br>
+</p><p><b>john: </b><br>
+<span>烟萝 发表于 2019-5-7 16:52</span><br>
+<span>卧槽，泥潭二手区还有人来专门卖假内存？</span><br>
+<span>没有吧，这些人应该自己都不知道自己用的是假内存</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:53</span><br>
+<span>蓝盘是 TLC？</span><br>
+<span>就强尼贴的那个啊，tlc</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 16:31</span><br>
+<span>这两条我目测不假，8G都没新的卖了，你自己看着办吧</span><br>
+<span>M.2 SATA加个十几块钱的盒子无缝转2.5寸SATA，以后 ...</span><br>
+<span>https://rog.asus.com/forum/showthread.php?53752-1-35V-memory-required-in-G751-G771-G551s-(same-as-G750)</span><br>
+<span>G750 似乎最好用低压的，可能是 Haswell 的问题……</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:04</span><br>
+<span>感谢解答，DDR3 现在比较少见了，CHH 也没多少卖的了</span><br>
+<span>QLC 不是最便宜的吗？我看三星 860 QVO，1T 才八百 ...</span><br>
+<span>现在某宝蓝盘1t也就七百多啊</span><br>
+<span>还是原厂发货支持个人送保</span><br>
+<span>犯不着用QLC</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 16:55</span><br>
+<span>不会啊，M.2 SATA也是SATA，和2.5寸SATA的差别在于物理接口</span><br>
+<span>但是2.5寸被淘汰了啊，你以后买新机可能都没 ...</span><br>
+<span>感谢，学到了，避了一个坑</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>脚本水平 发表于 2019-5-7 16:59</span><br>
+<span>现在某宝蓝盘1t也就七百多啊</span><br>
+<span>还是原厂发货支持个人送保</span><br>
+<span>犯不着用QLC</span><br>
+<span>就蓝盘了</span><br>
+</p><p><b>john: </b><br>
+<span>Kickshaw 发表于 2019-5-7 16:58</span><br>
+<span>https://rog.asus.com/forum/showthread.php?53752-1-35V-memory-required-in-G751-G771-G551s-(same-as- ...</span><br>
+<span>内存条上写着PC3L，型号HMT41GS6BFR8A，怎么就不是低压的了</span><br>
+<span>https://www.skhynix.com/products.view.do?vseq=969&cseq=75</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>john 发表于 2019-5-7 17:05</span><br>
+<span>内存条上写着PC3L，型号HMT41GS6BFR8A，怎么就不是低压的了</span><br>
+<span>https://www.skhynix.com/products.view.do?v ...</span><br>
+<span>再问了一下，确实是低压的，我买来试试</span><br>
+<span>感谢</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>sakuraNTET 发表于 2019-5-7 15:58</span><br>
+<span>770m其实也可以换掉了，收个老版965什么的性能强一截温度也更低</span><br>
+<span>当然如果你是bga当我没说</span><br>
+<span>查了下好像可以换</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>脚本水平 发表于 2019-5-7 17:12</span><br>
+<span>查了下好像可以换</span><br>
+<span>华硕的显卡接口奇特，网上也没有案例</span><br>
+<span>虽然这个模具是很不错，用料也很扎实</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>Kickshaw 发表于 2019-5-7 17:23</span><br>
+<span>华硕的显卡接口奇特，网上也没有案例</span><br>
+<span>虽然这个模具是很不错，用料也很扎实 ...</span><br>
+<span>非标mxm？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Kickshaw: </b><br>
+<span>sakuraNTET 发表于 2019-5-7 18:09</span><br>
+<span>非标mxm？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>http://tieba.baidu.com/p/3250966409</span><br>
+<span>是的</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>华硕换显卡？想太多</span><br>
+</p><p><b>radar: </b><br>
+<span>咸鱼上三星的内存条假货非常多，关键词黑电阻，颗粒和标签的生产时间</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>Kickshaw 发表于 2019-5-7 18:13</span><br>
+<span>http://tieba.baidu.com/p/3250966409</span><br>
+<span>是的</span><br>
+<span>emmmm好诡异的卡型…蓝天就是被败家之眼带坏的！</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Kickshaw: </b><br>
+<img src="https://i.imgur.com/67tBY2L.png" title="https://i.imgur.com/67tBY2L.png"><br>
+<img src="https://i.imgur.com/NPmgqAY.png" title="https://i.imgur.com/NPmgqAY.png"><br>
+<img src="https://i.imgur.com/TugqzKl.jpg" title="https://i.imgur.com/TugqzKl.jpg"><br>
+<img src="https://i.imgur.com/JFORdSb.jpg" title="https://i.imgur.com/JFORdSb.jpg"><br>
+<img src="https://i.imgur.com/dI5ndEN.png" title="https://i.imgur.com/dI5ndEN.png"><br>
+<span>今天内存也到了，memtest 测了一下没有问题，时序和电压都和之前的三星一样，这样就有 24G 了。蓝盘直接当系统盘用了，有其他东西所以跑分有点影响，感谢楼里的各位，老机器真的又焕发新生了</span><br>
+</p><p><b>千本blur: </b><br>
+<span>我这笔记本也是傻大黑粗四代i7，用了五年先后换过：固态硬盘，内存条，硬盘，外置声卡（主板声卡坏了，风扇，显示屏....</span><br>
+<span>今年办公室购置了台式机，想了想，准备换个更大SSD和硬盘，继续凑活用几年....</span><br>
+</p><p><b>猫熊爱: </b><br>
+<span>7年机，换过CPU，散热器，内存，加SSD换2T的PMR硬盘，A壳C壳，电池。</span><br>
+<span>感觉8G内存办公够用差不多，还可以再拖个2-3年吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1829735[0-50]</guid>
+    </item>
+  </channel>
+</rss>

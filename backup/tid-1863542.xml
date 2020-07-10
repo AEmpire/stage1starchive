@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>拼音输入法的词语联想是什么规则？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>拼音输入法的词语联想是什么规则？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:15:28 +0000</lastBuildDate>
+    <item>
+      <title>拼音输入法的词语联想是什么规则？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863542-1-1.html</link>
+      <description>拼音输入法的词语联想是什么规则？&#13;
+用的是win10自带拼音输入。
+&#13;
+比如我想打阿尔兹海默症，输入完aerzih后备选词里已经出现了
+&#13;
+但是我继续把hai拼完，输入a后备选词里就没有了
+&#13;
+再输入i，备选词里又有了
+&#13;
+为什么ha不能正确联想出来？类似的情况在手机9宫格输入的时候也有</description>
+      <content:encoded><![CDATA[<p><b>sniffer: </b><br>
+<span>拼音输入法的词语联想是什么规则？</span><br>
+<span>用的是win10自带拼音输入。</span><br>
+<span>比如我想打阿尔兹海默症，输入完aerzih后备选词里已经出现了</span><br>
+<span>但是我继续把hai拼完，输入a后备选词里就没有了</span><br>
+<span>再输入i，备选词里又有了</span><br>
+<span>为什么ha不能正确联想出来？类似的情况在手机9宫格输入的时候也有</span><br>
+</p><p><b>antiultima: </b><br>
+<span>只打出h时，联想的是所有h声母（+所有韵母）下的所有词汇</span><br>
+<span>打出ha时，联想的是h声母+a韵母（不是a开头的所有韵母）下的所有词汇</span><br>
+<span>打出hai时，联想的是h声母+ai韵母下的所有词汇</span><br>
+</p><p><b>sniffer: </b><br>
+<span>antiultima 发表于 2019-11-5 00:38</span><br>
+<span>只打出h时，联想的是所有h声母（+所有韵母）下的所有词汇</span><br>
+<span>打出ha时，联想的是h声母+a韵母（不是a开头的所有 ...</span><br>
+<span>明白了，就是说a和ai是并列关系，并不是a包含ai</span><br>
+</p><p><b>cxn: </b><br>
+<span>AI脑补了间隔符吧</span><br>
+<span>a'er'zi'h%</span><br>
+<span>a'er'zi'ha'%</span><br>
+<span>a'er'zi'hai'%</span><br>
+</p><p><b>kunimihiro: </b><br>
+<span>因为这样的逻辑更有利于减小选择范围吧。假如打了a，把ai，ao，an，ang的可能都列出来，反而不利于取词。</span><br>
+<span>对于阿兹海默这个词你是麻烦了，但对于更多的情况下更好，比如要打 “联系”，弹出“联想”、“联线”等候选词不方便迅速定词。</span><br>
+</p><p><b>ladiesman802: </b><br>
+<span>我的苹果更新系统后输入法像个傻逼，整天出些不是单词的联想</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863542[0-50]</guid>
+    </item>
+  </channel>
+</rss>

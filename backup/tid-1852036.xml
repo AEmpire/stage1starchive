@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【s1高手如云】excel vba问题请教 12L更新问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【s1高手如云】excel vba问题请教 12L更新问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:28:14 +0000</lastBuildDate>
+    <item>
+      <title>【s1高手如云】excel vba问题请教 12L更新问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852036-1-1.html</link>
+      <description>【s1高手如云】excel问题请教（已解决）（转型自学分享）&#13;
+ 本帖最后由 高卢鸡 于 2019-8-15 21:57 编辑 
+
+闲来无事不玩游戏不看片，没事要折腾游戏属性计算，用excel计算。
+&#13;
+想实现如下效果：某单元格里存在文字，根据文字判断单元格格式这个可以找到，我也实现了。从下拉选择菜单选择也实现了。
+&#13;
+但是目前要实现同一单元格内有不同文字，每个文字独立判断并单独设置每个文字的格式，例如颜色、斜体等。
+&#13;
+用条件格式的单元格值包含设定，会把这个单元格的格式统一调整，无法实现每个文字不同格式。
+&#13;
+求助s1的excel高手
+&#13;
+——————————————8月15日分割线————————————
+&#13;
+新需求，装备名里有罗马数字，输入麻烦，如何自动转换成阿拉伯数字。</description>
+      <content:encoded><![CDATA[<p><b>高卢鸡: </b><br>
+<span>【s1高手如云】excel问题请教（已解决）（转型自学分享）</span><br>
+<span> 本帖最后由 高卢鸡 于 2019-8-15 21:57 编辑 </span><br>
+<span>闲来无事不玩游戏不看片，没事要折腾游戏属性计算，用excel计算。</span><br>
+<span>想实现如下效果：某单元格里存在文字，根据文字判断单元格格式这个可以找到，我也实现了。从下拉选择菜单选择也实现了。</span><br>
+<span>但是目前要实现同一单元格内有不同文字，每个文字独立判断并单独设置每个文字的格式，例如颜色、斜体等。</span><br>
+<span>用条件格式的单元格值包含设定，会把这个单元格的格式统一调整，无法实现每个文字不同格式。</span><br>
+<span>求助s1的excel高手</span><br>
+<span>——————————————8月15日分割线————————————</span><br>
+<span>新需求，装备名里有罗马数字，输入麻烦，如何自动转换成阿拉伯数字。</span><br>
+</p><p><b>绕指流光: </b><br>
+<span>首先说结论：单纯条件格式搞不了，你录个宏按ALT+F11会发现这玩意本身就是作用于range对象的，单元格内的部分字符串没有这个方法或属性</span><br>
+<span>其次可以用VBA直接实现，自己写个sub整个按钮就行，非要下拉菜单那就绑定动作事件</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>绕指流光 发表于 2019-8-8 10:25</span><br>
+<span>首先说结论：单纯条件格式搞不了，你录个宏按ALT+F11会发现这玩意本身就是作用于range对象的，单元格内的部 ...</span><br>
+<span>求助大佬，没用过宏，总之条件格式搞不定。怎么写sub按钮呢，我找到了vba的命令，可是不会向你说的弄按钮。</span><br>
+<span>Sub a()</span><br>
+<span>For Each Rng In UsedRange</span><br>
+<span>    For i = 1 To Len(Rng)</span><br>
+<span>      If Mid(Rng, i, 1) = "火" Then</span><br>
+<span>         Rng.Characters(i, 1).Font.Color = vbRed</span><br>
+<span>      End If</span><br>
+<span>    Next i</span><br>
+<span>Next</span><br>
+<span>End Sub</span><br>
+<span>另外这个命令是针对所有单元格的，怎么写可以指针对部分单元格。</span><br>
+</p><p><b>绕指流光: </b><br>
+<span>高卢鸡 发表于 2019-8-8 21:04</span><br>
+<span>求助大佬，没用过宏，总之条件格式搞不定。怎么写sub按钮呢，我找到了vba的命令，可是不会向你说的弄按钮 ...</span><br>
+<span>首先，没有程序相关知识的话，你先确定为了这个功能能花多少时间，就算是简单的入门，excel的F1也够看很久了，像你说的改变单元格内部分文字的格式，这实际上是改变workbook.sheet.range.cell.character.font的属性，还要一定的逻辑判断，我觉得不是录个宏就能理解的问题，只能告诉你能用vba实现，但自带功能做不到</span><br>
+<span>真有时间研究的话，就找个教程先入门，然后反复录宏吧，vba相对其他语言容易理解的多</span><br>
+<span>—— 来自 smartisan OE106, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>绕指流光 发表于 2019-8-9 16:57</span><br>
+<span>首先，没有程序相关知识的话，你先确定为了这个功能能花多少时间，就算是简单的入门，excel的F1也够看很 ...</span><br>
+<span>如果能当伸手党，当然最好了，没有大佬回答的话，指出了门路我就回去看。反正不是研究excel就是打游戏，都是一样的。</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span> 本帖最后由 高卢鸡 于 2019-8-13 23:41 编辑 </span><br>
+<span>最近实在太忙了，每天除了工作，业余时间也有1、2个小时不到，然后就要睡觉了，随便录了2、3个宏看了一下，改了改上文找到的所有单元格搜索改个别文字颜色的代码，可以算是基本达到我的需求了。</span><br>
+<span>Sub text()</span><br>
+<span> Rng.Font.ColorIndex = xlAutomatic</span><br>
+<span>Set Rng = </span><br>
+<span>   For i = 1 To Len(Rng)</span><br>
+<span>      If Mid(Rng, i, 1) = "火" Then</span><br>
+<span>         Rng.Characters(i, 1).Font.color = vbRed</span><br>
+<span>      End If</span><br>
+<span>    Next i</span><br>
+<span>End Sub然后也找到了添加按钮的方法，插入了一个表单控件 按钮。</span><br>
+<span>谢谢大佬指点，@绕指流光</span><br>
+<span>刚刚发现一个问题，如果改了C5的内容比如火、雨、雷，虽然火、雨、雷符合了代码的判断，替换了颜色，但是顿号也会变成上次C5内容中第一个符合判断条件的字的颜色，看来需要在代码前增加一个将字体颜色改为默认的代码。（已修正）</span><br>
+<span>————————8月13日分割线——————————</span><br>
+<span>想着能否在C5内容变化时自动运行代码，搜了一下发现实现很简单。</span><br>
+<span>Private Sub worksheet_change(ByVal target As Range)</span><br>
+<span>    If target.Address = "$C$5" Then</span><br>
+<span>    Call text</span><br>
+<span>    End If</span><br>
+<span>End Sub添加如下代码即可，text就是我上面的sub过程名。其实可以把上面的那么多代码一起放在if。。。then之后。</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>【s1高手如云】excel问题请教（转型vba自学分享贴）</span><br>
+<span>前情还是那样，不玩游戏开始研究计算游戏数据。</span><br>
+<span>游戏里有些装备是用罗马数字的。众所周知，不如阿拉伯数字输入方便，所以就想能不能输入阿拉伯数字，然后自动变为罗马数字。</span><br>
+<span>然后就有了最近每天只有一点点能自由用电脑的睡前空闲也要花在上网查资料，vba实验中。</span><br>
+<span>代码如下：</span><br>
+<span>Sub AraToRom()</span><br>
+<span>Set Rng = </span><br>
+<span>    Dim wo As String, Rom As String, Ara As Integer</span><br>
+<span>            For i = 1 To Len(Rng)</span><br>
+<span>          If Mid(Rng, i, 1) Like "" Then</span><br>
+<span>             wo = Left(Rng, i - 1)</span><br>
+<span>             Ara = Right(Rng, 1)</span><br>
+<span>             Rom = WorksheetFunction.roman(Ara)</span><br>
+<span>             Range("A2").Value = wo & Rom</span><br>
+<span>          End If</span><br>
+<span>   Next i</span><br>
+<span>End Sub因为装备名还是比较简单，右侧第一个字符为数字，中间没有数字，所以通过for语句找到数字开始的位置，截取前面的字符串，之后转换最后一个数字为罗马数字。最后字符串合并。</span><br>
+<span>还要想想如果数字在前面or在中间，或者有多个不同位置，不同位数的数字，如何都转换。</span><br>
+</p><p><b>我的貓: </b><br>
+<span>看不明白主楼在说什么。传个excel附件看看。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>其实很多问题都可以转成csv之后拿Python去干，个人感觉比写vba方便一点。</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>Bondrewd 发表于 2019-8-16 02:42</span><br>
+<span>其实很多问题都可以转成csv之后拿Python去干，个人感觉比写vba方便一点。</span><br>
+<span>那不就更难了，excel里面有现成的表格，用python还要去先设计一个窗体。</span><br>
+<span>没有超能力，每天工作到死</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>我的貓 发表于 2019-8-16 00:00</span><br>
+<span>看不明白主楼在说什么。传个excel附件看看。</span><br>
+<span>试试s1的附件</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852036[0-50]</guid>
+    </item>
+  </channel>
+</rss>

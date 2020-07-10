@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>B站推出4k清晰度，码率仅有7.5M？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>B站推出4k清晰度，码率仅有7.5M？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:44 +0000</lastBuildDate>
+    <item>
+      <title>B站推出4k清晰度，码率仅有7.5M？[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844950-1-1.html</link>
+      <description>B站推出4k清晰度，码率仅有7.5M？&#13;
+视频：异常生物见闻录 https://www.bilibili.com/bangumi/play/ep275925?spm_id_from=666.5.b_62616e6e65725f6c696e6b.5
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdep4qk3j30bq0ein2o.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdev47q2j30vc0ee161.jpg
+&#13;
+视频：三体花絮访谈 https://www.bilibili.com/bangumi/play/ep276049
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdhojkblj31170llk1s.jpg
+&#13;
+附赠Youtube上传比特率推荐：
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfed0nhj30w80xjwh7.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfm6wzxj30w80xjwh7.jpg</description>
+      <content:encoded><![CDATA[<p><b>baiducaonima: </b><br>
+<span>zccicy 发表于 2019-7-12 13:12</span><br>
+<span>码率这东西不是跟着内容来的吗。还有youtube这是推荐上传原片码率，不是最终吐流的码率啊大哥们。 ...</span><br>
+<span>B站的二压4K最多可输出多少码率？没有上限吗？</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>zccicy 发表于 2019-7-12 13:18</span><br>
+<span>这个7000kbps是啥标准。。可以给一些理论支持么。。</span><br>
+<span>沒有，我口嗨，祝貴站越辦越好就這樣</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-7-12 15:27 编辑 </span><br>
+<span>刚油管扒下来的还热乎</span><br>
+</p><p><b>baiducaonima: </b><br>
+<span> 本帖最后由 baiducaonima 于 2019-7-12 15:16 编辑 </span><br>
+<span>zccicy 发表于 2019-7-12 13:20</span><br>
+<span>我在B站做了5年的视频技术，6M也是我们推上线的，有什么问题你们都可以提，我们想办法搞 ...</span><br>
+<span>本来想测试一波，可你b无法转码VP9的4K视频</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>baiducaonima 发表于 2019-7-12 15:14</span><br>
+<span>本来想测试一波，可你b无法转码VP9的4K视频</span><br>
+<span>vp9这种压缩率这么低的算法怎么能用，一定要用h265啊，减半呢。不对，要av1！</span><br>
+</p><p><b>zccicy: </b><br>
+<span>baiducaonima 发表于 2019-7-12 15:14</span><br>
+<span>本来想测试一波，可你b无法转码VP9的4K视频</span><br>
+<span>ugc没放开4k，不过转码失败有问题，我看看，具体上限多少M没想好。。看具体内容得评估下。</span><br>
+</p><p><b>zqpm1235: </b><br>
+<span>zccicy 发表于 2019-07-12 15:49:38</span><br>
+<span>ugc没放开4k，不过转码失败有问题，我看看，具体上限多少M没想好。。看具体内容得评估下。 ...b站现在各分辨率不二压的标准到底是多少</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>zccicy: </b><br>
+<span>zqpm1235 发表于 2019-7-12 16:51</span><br>
+<span>b站现在各分辨率不二压的标准到底是多少</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端 ...</span><br>
+<span>就在官网上。因为dash所以现在只有最高画质一路不被二压</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>zccicy 发表于 2019-7-12 20:59</span><br>
+<span>就在官网上。因为dash所以现在只有最高画质一路不被二压</span><br>
+<span>把3000的60p压成30什么原因呢 dash？</span><br>
+</p><p><b>zccicy: </b><br>
+<span>baiducaonima 发表于 2019-7-12 15:14</span><br>
+<span>本来想测试一波，可你b无法转码VP9的4K视频</span><br>
+<span>感谢你为我们抓到一个bug，这几周就会着手修了</span><br>
+</p><p><b>zccicy: </b><br>
+<span>伊可费斯 发表于 2019-7-12 21:45</span><br>
+<span>把3000的60p压成30什么原因呢 dash？</span><br>
+<span>因为dash需要自动切换，得把相关清晰度的标准规约好，so.....</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844950[100-150]</guid>
+    </item>
+    <item>
+      <title>B站推出4k清晰度，码率仅有7.5M？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844950-1-1.html</link>
+      <description>B站推出4k清晰度，码率仅有7.5M？&#13;
+视频：异常生物见闻录 https://www.bilibili.com/bangumi/play/ep275925?spm_id_from=666.5.b_62616e6e65725f6c696e6b.5
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdep4qk3j30bq0ein2o.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdev47q2j30vc0ee161.jpg
+&#13;
+视频：三体花絮访谈 https://www.bilibili.com/bangumi/play/ep276049
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdhojkblj31170llk1s.jpg
+&#13;
+附赠Youtube上传比特率推荐：
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfed0nhj30w80xjwh7.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfm6wzxj30w80xjwh7.jpg</description>
+      <content:encoded><![CDATA[<p><b>すぴぱら: </b><br>
+<span>现在流量费这么高，不虚标怎么办</span><br>
+</p><p><b>qpsd1022: </b><br>
+<span>我记得有报道油土鳖4k也是亏的啊，标一个安慰下粉丝就行了，玩什么服务器</span><br>
+</p><p><b>如月尤菲: </b><br>
+<span>KBG就完事了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>シャル: </b><br>
+<span>魔人揪揪 发表于 2019-7-7 19:37</span><br>
+<span>你们看非会员1080p就不觉得糊么？我看油土鳖720都能和b站1080p对打 更别提b站有很多视频都是乱标的1 ...</span><br>
+<span>youtube的720够清晰了，没必要1080</span><br>
+<span>B站720算个屁啊</span><br>
+</p><p><b>bioCory: </b><br>
+<span>我不懂，现在塑料圆盘有4k了吗？没有的话阿批上哪弄得片源？</span><br>
+</p><p><b>free切: </b><br>
+<span>4k多半是给up主服务的，日本动画片大概不要想了。</span><br>
+</p><p><b>baiducaonima: </b><br>
+<span>国产动画都无纸了，日本还是落后啊</span><br>
+</p><p><b>Processed: </b><br>
+<span>bioCory 发表于 2019-7-8 10:26</span><br>
+<span>我不懂，现在塑料圆盘有4k了吗？没有的话阿批上哪弄得片源？</span><br>
+<span>圆盘只有少量剧场版（对说的就是你君名）在做4K，但是实际作画质量没有这么高，也就是1080P的水平，然后upscale到4K的</span><br>
+</p><p><b>Processed: </b><br>
+<span>baiducaonima 发表于 2019-7-8 10:40</span><br>
+<span>国产动画都无纸了，日本还是落后啊</span><br>
+<span>用不用纸不是关键，关键是作画的面积</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>游蜓 发表于 2019-7-8 01:11</span><br>
+<span>有没有大佬给搞个科普的。。。油管和阿b的4k有啥区别，啊b上的动画码率为啥不行</span><br>
+<span>-- 来自 有消息提醒的 S ...</span><br>
+<span>7000kbps就是比較優秀的1080p碼率</span><br>
+</p><p><b>zag: </b><br>
+<span>纸面作画靠扫描分辨率，和纸张大小关系不大吧</span><br>
+</p><p><b>Processed: </b><br>
+<span>zag 发表于 2019-7-8 15:36</span><br>
+<span>纸面作画靠扫描分辨率，和纸张大小关系不大吧</span><br>
+<span>小纸张能提供的信息量就是小，这个怎么扫描都救不了的</span><br>
+<span>用实际的例子来说，A3纸上画远景人物还能把五官描清楚，在A4纸上就只能描几条线表示一下了</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>你b把设置默认画质改成默认自动就很厌恶了,手机的话跑流量降至自动就算,哪怕是wifi也是这样,竖屏先是自动480p再到视频最高...</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span>4K都才这点码率，这得压成啥样啊。</span><br>
+</p><p><b>wwbfred: </b><br>
+<span> 本帖最后由 wwbfred 于 2019-7-8 16:46 编辑 </span><br>
+<span>在后花园瞎说啥大实话...</span><br>
+<span>标题应该这么写:还在看Youtube?你已经OUT了!B站视频压缩算法全面碾压Youtube!!!</span><br>
+</p><p><b>memphiseme: </b><br>
+<span>国内视频网站好像都这么瞎搞,也没有部门管管么</span><br>
+</p><p><b>cedric301: </b><br>
+<span>画质欺诈会影响社会稳定吗？</span><br>
+<span>不会。</span><br>
+<span>那就不管。</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>没有硬性规定怎么管，去法院告说不定会判阿B赔你30块钱</span><br>
+</p><p><b>光荣的小学生: </b><br>
+<span>Processed 发表于 2019-7-8 16:09</span><br>
+<span>小纸张能提供的信息量就是小，这个怎么扫描都救不了的</span><br>
+<span>用实际的例子来说，A3纸上画远景人物还能把五官描 ...</span><br>
+<span>扩大作画，分层作画</span><br>
+<span>和纸的大小没关系</span><br>
+</p><p><b>kiritokun: </b><br>
+<span>想知道一下怎么看这种在线视频的码率压制的信息，就比如主楼这种</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>kiritokun 发表于 2019-7-8 19:52</span><br>
+<span>想知道一下怎么看这种在线视频的码率压制的信息，就比如主楼这种</span><br>
+<span>html播放器直接右击就有了</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>国内视频网站都在比烂，腾讯视频更糟糕，照样一大票，虽然不愿承认，但是b站在国内算不错了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>临界点: </b><br>
+<span>莫夜戎 发表于 2019-7-8 20:04</span><br>
+<span>国内视频网站都在比烂，腾讯视频更糟糕，照样一大票，虽然不愿承认，但是b站在国内算不错了</span><br>
+<span>-- 来自 能 ...</span><br>
+<span>B站的码率在国内真不算低了 油土鳖人家是全球第一视频网站就不是一个量级的很难比    再说4K还没有正式公布估计还在测试别急着挑刺</span><br>
+</p><p><b>JWJking: </b><br>
+<span>动画压制码率低一些其实差距没那么大</span><br>
+</p><p><b>シャスタ: </b><br>
+<span> 本帖最后由 シャスタ 于 2019-7-8 21:57 编辑 </span><br>
+<span>zag 发表于 2019-7-8 15:36</span><br>
+<span>纸面作画靠扫描分辨率，和纸张大小关系不大吧http://bokuen.net/wordpress/376</span><br>
+<span>人手太大了,笔还那么粗,画师又不是搞微雕,纸不够大就画不出细节,画不出细节就扫不出细节</span><br>
+</p><p><b>mus2012: </b><br>
+<span>7.5M么 那现在的1080P+是多少来着</span><br>
+</p><p><b>时雨: </b><br>
+<span>是国内连1080p都不能信</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>mus2012 发表于 2019-7-10 16:57</span><br>
+<span>7.5M么 那现在的1080P+是多少来着</span><br>
+<span>3M都不到，很惨</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>mus2012 发表于 2019-7-10 16:57</span><br>
+<span>7.5M么 那现在的1080P+是多少来着</span><br>
+<span>用户投稿上限6M</span><br>
+<span>正版真人电影/电视剧/纪录片5.5M</span><br>
+<span>动画有的高有的低，大部分在3M左右，没啥打戏的动画能低到2.3M，JOJO好像独一档给4M-5M</span><br>
+</p><p><b>yoyolibra: </b><br>
+<span> 本帖最后由 yoyolibra 于 2019-7-11 03:00 编辑 </span><br>
+<span>国内 CDN 太贵了，均价在 8~9RMB/1M/月，华为云据说可以给到7.5。</span><br>
+<span>B站流量带宽据说是 10T 量级，按 7.5RMB 算好了那就是一个月7000万。</span><br>
+<span>另外4K、1080P 只是视频分辨率（尺寸大小），和画面质量不是一回事。</span><br>
+</p><p><b>qwased: </b><br>
+<span>yoyolibra 发表于 2019-7-11 02:05</span><br>
+<span>国内 CDN 太贵了，均价在 0.8~0.9RMB/1M/月，华为云据说可以给到0.75。</span><br>
+<span>B站流量带宽据说是 10T 量级，按 0. ...</span><br>
+<span>逼站我记得是有买这宝那宝的网络挖矿提供的廉价加速服务吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yoyolibra: </b><br>
+<span>qwased 发表于 2019-7-11 02:33</span><br>
+<span>逼站我记得是有买这宝那宝的网络挖矿提供的廉价加速服务吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0. ...</span><br>
+<span>第一次听说有这种产品，像加速宝那种不是省用户自己的流量么</span><br>
+<span>只看到 B 站在腾讯云 CDN 客户名单那挂着，不知道有没有用 P2P，P2P 的价格倒是便宜，不过覆盖率能有一半就不错了</span><br>
+</p><p><b>qwased: </b><br>
+<span> 本帖最后由 qwased 于 2019-7-11 03:16 编辑 </span><br>
+<span>yoyolibra 发表于 2019-7-11 03:03</span><br>
+<span>第一次听说有这种产品，像加速宝那种不是省用户自己的流量么</span><br>
+<span>只看到 B 站在腾讯云 CDN 客户名单那挂着， ...</span><br>
+<span>2015年，共享计算首个TOC和TOB产品--迅雷赚钱宝和星域CDN分别落地，不仅成功构建了规模庞大的"无限节点"，还将无限节点资源向企业进行输送，为包括小米、快手、爱奇艺、陌陌、bilibili、熊猫直播等在内的中国互联网企业提供了优质的共享计算服务。</span><br>
+<span>搜了下好像号称给bilibili提供服务的还不少，不知道占比多少</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yoyolibra: </b><br>
+<span>qwased 发表于 2019-7-11 03:14</span><br>
+<span>2015年，共享计算首个TOC和TOB产品--迅雷赚钱宝和星域CDN分别落地，不仅成功构建了规模庞大的"无限节点" ...</span><br>
+<span>看了下大概是 P2P 的加强版，有共享的基础节点</span><br>
+<span>明天让商务同学去当个记者问问 </span><br>
+</p><p><b>京吹病人: </b><br>
+<span>批站还有标称1080p 实际上720p 只有750kbps码率</span><br>
+</p><p><b>塔洛斯级: </b><br>
+<span>没什么意义 油管的4K能带动我也没看几回 毕竟一般的视频也没人传4K</span><br>
+</p><p><b>labmem-000: </b><br>
+<span>居然有4k了</span><br>
+</p><p><b>平贺才人: </b><br>
+<span>阿b刚出大会员和1080p+时新番区不错，进去看基本都是5000+起大部分6000左右</span><br>
+<span>现在，能上3000都是阿b看得起这部番了</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>平贺才人 发表于 2019-7-11 08:55</span><br>
+<span>阿b刚出大会员和1080p+时新番区不错，进去看基本都是5000+起大部分6000左右</span><br>
+<span>现在，能上3000都是阿b ...</span><br>
+<span>其实也就18年1月无脑压高码率，4月后就降码率了</span><br>
+<span>之前b站研发还跑过来解释了 https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&ptid=1608120&pid=39258083</span><br>
+</p><p><b>平贺才人: </b><br>
+<span>Destiny4073 发表于 2019-7-11 09:21</span><br>
+<span>其实也就18年1月无脑压高码率，4月后就降码率了</span><br>
+<span>之前b站研发还跑过来解释了 https://bbs.saraba1st.com/2 ...</span><br>
+<span>喷了，真后花园啊</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>Destiny4073 发表于 2019-7-11 09:21</span><br>
+<span>其实也就18年1月无脑压高码率，4月后就降码率了</span><br>
+<span>之前b站研发还跑过来解释了 https://bbs.saraba1st.com/2 ...</span><br>
+<span>然而现在ugc一律二丫啊</span><br>
+</p><p><b>airclab: </b><br>
+<span>标着玩</span><br>
+<span>以前有的直播平台还可以选4k8k原画</span><br>
+<span>看得我一愣</span><br>
+</p><p><b>XIEGC: </b><br>
+<span>阿B现在手机客户端都不让看码率了</span><br>
+<span>—— 来自 Xiaomi Redmi 5 Plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>临界点: </b><br>
+<span>伊可费斯 发表于 2019-7-11 12:06</span><br>
+<span>然而现在ugc一律二丫啊</span><br>
+<span>除非跟YouTube一样有个谷歌爸爸要不谁烧得起啊</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>你们可以看看这个Up主传的4k 120fps的炮姐时代</span><br>
+<span>https://b23.tv/av19687643</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zccicy: </b><br>
+<span>qwased 发表于 2019-7-11 02:33</span><br>
+<span>逼站我记得是有买这宝那宝的网络挖矿提供的廉价加速服务吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0. ...</span><br>
+<span>并没有。</span><br>
+</p><p><b>zccicy: </b><br>
+<span>码率这东西不是跟着内容来的吗。还有youtube这是推荐上传原片码率，不是最终吐流的码率啊大哥们。</span><br>
+</p><p><b>zccicy: </b><br>
+<span>baiducaonima 发表于 2019-7-7 23:07</span><br>
+<span>y2b韩国女团跳舞的有26m码率的vp9，放批站7m会有多糊啊</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Nex ...</span><br>
+<span>有模糊的视频地址吗，我们看下具体情况。</span><br>
+</p><p><b>zccicy: </b><br>
+<span>寺川愛美 发表于 2019-7-8 14:37</span><br>
+<span>7000kbps就是比較優秀的1080p碼率</span><br>
+<span>这个7000kbps是啥标准。。可以给一些理论支持么。。</span><br>
+</p><p><b>zccicy: </b><br>
+<span>我在B站做了5年的视频技术，6M也是我们推上线的，有什么问题你们都可以提，我们想办法搞</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844950[50-100]</guid>
+    </item>
+    <item>
+      <title>B站推出4k清晰度，码率仅有7.5M？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844950-1-1.html</link>
+      <description>B站推出4k清晰度，码率仅有7.5M？&#13;
+视频：异常生物见闻录 https://www.bilibili.com/bangumi/play/ep275925?spm_id_from=666.5.b_62616e6e65725f6c696e6b.5
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdep4qk3j30bq0ein2o.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdev47q2j30vc0ee161.jpg
+&#13;
+视频：三体花絮访谈 https://www.bilibili.com/bangumi/play/ep276049
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdhojkblj31170llk1s.jpg
+&#13;
+附赠Youtube上传比特率推荐：
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfed0nhj30w80xjwh7.jpg
+&#13;
+http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfm6wzxj30w80xjwh7.jpg</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>B站推出4k清晰度，码率仅有7.5M？</span><br>
+<span>视频：异常生物见闻录 https://www.bilibili.com/bangumi/play/ep275925?spm_id_from=666.5.b_62616e6e65725f6c696e6b.5</span><br>
+<img src="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdep4qk3j30bq0ein2o.jpg" title="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdep4qk3j30bq0ein2o.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdev47q2j30vc0ee161.jpg" title="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdev47q2j30vc0ee161.jpg"><br>
+<span>视频：三体花絮访谈 https://www.bilibili.com/bangumi/play/ep276049</span><br>
+<img src="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdhojkblj31170llk1s.jpg" title="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdhojkblj31170llk1s.jpg"><br>
+<span>附赠Youtube上传比特率推荐：</span><br>
+<img src="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfed0nhj30w80xjwh7.jpg" title="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfed0nhj30w80xjwh7.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfm6wzxj30w80xjwh7.jpg" title="http://ww1.sinaimg.cn/large/006MV2nZly1g4rdfm6wzxj30w80xjwh7.jpg"><br>
+</p><p><b>Onelooker: </b><br>
+<span>阿b为了照顾3g用户，都是好事</span><br>
+</p><p><b>韶华白首: </b><br>
+<span>这算不算假4K？</span><br>
+</p><p><b>AAAOC: </b><br>
+<span>阿B是为了照顾你们这些细水管啊！（震声）</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>zhDesire: </b><br>
+<span>就搞个噱头，有这功夫不如多买点服务器把码率放开。</span><br>
+<span>(记得现在的标准是1080p平均码率6m，峰值24m？</span><br>
+</p><p><b>Processed: </b><br>
+<span>U2B的4K码率大约15M上下，阿B你这不行啊</span><br>
+</p><p><b>zs008007: </b><br>
+<span>单位？</span><br>
+</p><p><b>ror: </b><br>
+<span>就异常那种质量的动画玩4k码率给那么高有毛用啊，关键是那些纪录片上高码率啊</span><br>
+</p><p><b>幽夜流霜: </b><br>
+<span>阿B番剧区的码率缩水非常厉害，非会员的1080P缩到了1000kbps左右，会员的1080+也不超过3000kbps，而游戏区的1080最高有6000kbps/60FPS。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>zs008007 发表于 2019-7-7 17:05</span><br>
+<span>单位？</span><br>
+<span>7551Kbps=7.5Mbps，没问题吧</span><br>
+</p><p><b>zs008007: </b><br>
+<span>原来还真是假的，好吧假的我也看不了Orz</span><br>
+</p><p><b>Sissii: </b><br>
+<span>当年阿B刚买番的时候 原画码率只有2000多就被疯狂吐槽了吧</span><br>
+</p><p><b>piaoxiang123: </b><br>
+<span>国内视频网站这种不都是假的吗</span><br>
+</p><p><b>404489039: </b><br>
+<span>1080p都是假的，还想真4k？</span><br>
+</p><p><b>zs008007: </b><br>
+<span>什么时候来个4k＋？何必打肿脸充胖子呢，大部分人显示器还没换到2k呢，影院电影基本都是2k呢</span><br>
+</p><p><b>kiraabu: </b><br>
+<span>还没监控枪的大</span><br>
+</p><p><b>550616: </b><br>
+<span> 本帖最后由 550616 于 2019-7-7 20:41 编辑 </span><br>
+<span>优酷以前伪高清表面那层不就是这样操作的么</span><br>
+<span>只能说现在用户太年轻</span><br>
+<span>花的父母的钱，人傻钱多</span><br>
+</p><p><b>三合一出现: </b><br>
+<span>没监控清过分了。</span><br>
+</p><p><b>V5Style: </b><br>
+<span> 本帖最后由 V5Style 于 2019-7-7 19:33 编辑 </span><br>
+<span>B站的4K视频不是只有HEVC编码的吗，怎么还有AVC编码的</span><br>
+<span>话说相同画质下，HEVC和VP9哪个的码率小？</span><br>
+</p><p><b>千叶铁矢: </b><br>
+<span>哔哩哔哩什么时候倒闭</span><br>
+</p><p><b>那牛喝多: </b><br>
+<span>不要倒垃圾，国内视频网站什么样谁不清楚？不愧是b站后花园，这么点事都水</span><br>
+</p><p><b>OedoSoldier: </b><br>
+<span>你b正常操作</span><br>
+<span>没Y2B的技术却想当Y2B</span><br>
+</p><p><b>0l1i1k: </b><br>
+<span>1080p+和360p根本没必要存在</span><br>
+</p><p><b>魔人揪揪: </b><br>
+<span>你们看非会员1080p就不觉得糊么？我看油土鳖720都能和b站1080p对打 更别提b站有很多视频都是乱标的1080</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Stellar_Frost: </b><br>
+<span>中国大陆视频网站虚标清晰度是传统</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>三合一出现 发表于 2019-7-7 19:10</span><br>
+<span>没监控清过分了。</span><br>
+<span>这你得看什么枪，摄像枪可是能很高的</span><br>
+</p><p><b>lolikonh: </b><br>
+<span>没用 b站视频都2压的 8k都这吊样</span><br>
+</p><p><b>临界点: </b><br>
+<span>这个也要看片源吧异常能有4K？ 日本都没几部片子做到TV的话才刚刚开始进入1080p而已</span><br>
+</p><p><b>zaozaoxx: </b><br>
+<span>0l1i1k 发表于 2019-7-7 19:31</span><br>
+<span>1080p+和360p根本没必要存在</span><br>
+<span>360p还是有用的啊，b站又没有视频只加载声音的模式，听个响的时候360就舒服了</span><br>
+</p><p><b>datzz: </b><br>
+<span>临界点 发表于 2019-7-7 21:06</span><br>
+<span>这个也要看片源吧异常能有4K？ 日本都没几部片子做到TV的话才刚刚开始进入1080p而已 ...</span><br>
+<span>啊？那为什么有蓝光碟。。。</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>鸳鸳相抱: </b><br>
+<span>动画，尤其是TV版动画，码率不高不是很正常？</span><br>
+<span>本来就不是无损编码，压缩的原理你学习下就知道为啥TV动画码率低了</span><br>
+</p><p><b>Processed: </b><br>
+<span>datzz 发表于 2019-7-7 21:48</span><br>
+<span>啊？那为什么有蓝光碟。。。</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>日本动画业界现在A4作画还是主流，这种直接做出来其实就720P水平，要想实现1080P的话，A3作画不可避</span><br>
+<span>但是蓝光碟放720P的话，你得少卖多少</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>V5Style 发表于 2019-7-7 19:19</span><br>
+<span>B站的4K视频不是只有HEVC编码的吗，怎么还有AVC编码的</span><br>
+<span>话说相同画质下，HEVC和VP9哪个的码率小？</span><br>
+<span>v2ex上说手机上用的是hevc，电脑上因为不作恶不兼容</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>是向管子看齐吧，人家有4K，B站也要有。</span><br>
+</p><p><b>SevenYuan23: </b><br>
+<span>zaozaoxx 发表于 2019-7-7 21:33</span><br>
+<span>360p还是有用的啊，b站又没有视频只加载声音的模式，听个响的时候360就舒服了 ...</span><br>
+<span>手机端有只加载音频的选项</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Processed: </b><br>
+<span>cyberalogo 发表于 2019-7-7 22:27</span><br>
+<span>是向管子看齐吧，人家有4K，B站也要有。</span><br>
+<span>国内很多up为了满足在U2B投稿的需求，已经开始制作4K了，B站要跟上是必然的</span><br>
+<span>另外上4K还有些编码上的原因，现在压片普遍用的颜色编码是YUV420，U分量是取半的，只有视频分辨率达到4K，U分量才能达到1080P的水平，才能满足一般家用场景的观看</span><br>
+</p><p><b>baiducaonima: </b><br>
+<span>y2b韩国女团跳舞的有26m码率的vp9，放批站7m会有多糊啊</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>BRRM: </b><br>
+<span>分辨率是分辨率，码率是码率。</span><br>
+</p><p><b>ejsbs: </b><br>
+<span> 本帖最后由 ejsbs 于 2019-7-7 23:25 编辑 </span><br>
+<span>目前来看清晰度没缩水，码率比较低，估计是还在试水吧，毕竟还没有去年初那样的官宣https://www.bilibili.com/blackboard/activity-quality2pc.html</span><br>
+<span>B站的码率标准是目前国内最透明写在公告里的，而且右键就能直接查验，等上公告全站推了就知道B站的4K码率标准是多少了，毕竟越来越多的UP主开始有4K视频需求，自家的纪录片也很需要，更别提大会员再忽悠一波入坑</span><br>
+<span>不过还是要吐槽一下目前B站的码率还不够爽，我网飞看片虽然只能到720P，但码率已经上6K了</span><br>
+</p><p><b>真医生: </b><br>
+<span>我放弃你B多数视频的一个重要原因就是高压变形</span><br>
+</p><p><b>游蜓: </b><br>
+<span>有没有大佬给搞个科普的。。。油管和阿b的4k有啥区别，啊b上的动画码率为啥不行</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>Processed 发表于 2019-7-7 22:20</span><br>
+<span>日本动画业界现在A4作画还是主流，这种直接做出来其实就720P水平，要想实现1080P的话，A3作画不可避</span><br>
+<span>但 ...</span><br>
+<span>a4？？？？</span><br>
+</p><p><b>Processed: </b><br>
+<span> 本帖最后由 Processed 于 2019-7-8 01:38 编辑 </span><br>
+<span>伊可费斯 发表于 2019-7-8 01:36</span><br>
+<span>a4？？？？</span><br>
+<span>有什么问题吗</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>游蜓 发表于 2019-7-8 01:11</span><br>
+<span>有没有大佬给搞个科普的。。。油管和阿b的4k有啥区别，啊b上的动画码率为啥不行</span><br>
+<span>-- 来自 有消息提醒的 S ...</span><br>
+<span>油管做两个压缩的vp9和avc 码率高带宽费用高 服务器成本高。平时黑你睿但是技术还是值得赞扬的 油管用dash 你睿也用 油管有hevc你睿也在测试 </span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>这片是假4k 1080插的 fft一跑就露原型了</span><br>
+</p><p><b>hlazd: </b><br>
+<span>TV用A4基本上原生分辨率是720或810</span><br>
+<span>剧场用B4就可以原生1080了</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>伊可费斯 发表于 2019-7-8 01:39</span><br>
+<span>油管做两个压缩的vp9和avc 码率高带宽费用高 服务器成本高。平时黑你睿但是技术还是值得赞扬的 油管用das ...</span><br>
+<span>油管没有HEVC吧，网站用H265要交钱的，不然不至于强推自己的VP9</span><br>
+<span>而且油管的H264画质比VP9差好多</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>国家推5G呢,你B这是倒行逆施,可打为反动派,缩社会主义水管</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2019-7-8 02:47 编辑 </span><br>
+<span>qwased 发表于 2019-7-8 02:11</span><br>
+<span>油管没有HEVC吧，网站用H265要交钱的，不然不至于强推自己的VP9</span><br>
+<span>而且油管的H264画质比VP9差好多 ...</span><br>
+<span>我早年大概1314年是见过h265的油管视频的 那会vp9还在测试阶段 但是现在的确是找不到了 难不成是把其他站记忆搞混了？</span><br>
+</p><p><b>selain.meneth: </b><br>
+<span>有爱奇艺的全损音质，别家什么样也可想而知</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844950[0-50]</guid>
+    </item>
+  </channel>
+</rss>

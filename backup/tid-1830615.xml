@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>killer网卡这破驱动弱智到我了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>killer网卡这破驱动弱智到我了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:41:21 +0000</lastBuildDate>
+    <item>
+      <title>killer网卡这破驱动弱智到我了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830615-1-1.html</link>
+      <description>killer网卡这破驱动弱智到我了&#13;
+笔记本开个bt下东西，风扇狂转
+&#13;
+打开任务管理器跟aida64看了下，两个核心轮流满载，温度直升70度，全是System在占用
+&#13;
+打开Process Explorer，线程里面KfeCo10X64占用第一稳稳当当
+&#13;
+打开驱动，把负优化功能Advanced Stream Detect关掉，马上安静了
+&#13;
+搞个网络优化能搞到单核满载也是很神秘，不知道是有多高级的算法
+&#13;
+这破玩意现在几乎所有的主打“游戏”的主板/笔记本都在用，全是靠营销搞出来的？还是说在不为达利特所知的pro电竞领域是真的有用？</description>
+      <content:encoded><![CDATA[<p><b>bad_alloc: </b><br>
+<span>killer网卡这破驱动弱智到我了</span><br>
+<span>笔记本开个bt下东西，风扇狂转</span><br>
+<span>打开任务管理器跟aida64看了下，两个核心轮流满载，温度直升70度，全是System在占用</span><br>
+<span>打开Process Explorer，线程里面KfeCo10X64占用第一稳稳当当</span><br>
+<span>打开驱动，把负优化功能Advanced Stream Detect关掉，马上安静了</span><br>
+<span>搞个网络优化能搞到单核满载也是很神秘，不知道是有多高级的算法</span><br>
+<span>这破玩意现在几乎所有的主打“游戏”的主板/笔记本都在用，全是靠营销搞出来的？还是说在不为达利特所知的pro电竞领域是真的有用？</span><br>
+</p><p><b>1stPaleMaster: </b><br>
+<span>相当垃圾，这玩意把我有线上传卡到10%，全部卸载才正常。</span><br>
+</p><p><b>Litccc: </b><br>
+<span>其实就是intel无线网卡的马甲，驱动可以混用</span><br>
+</p><p><b>bas3721: </b><br>
+<span>不知道这玩意儿为啥火爆，问题真的多。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span>这个所谓的Advanced Stream Detect号称智能检测应用优先级实现分流，结果打开之后刷个S1都不利索，关掉反而好多了，BT速度还快了点</span><br>
+<span>可能是移动U的单核性能过于羸弱计算不出来怎么优化吧</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span>Litccc 发表于 2019-5-11 00:36</span><br>
+<span>其实就是intel无线网卡的马甲，驱动可以混用</span><br>
+<span>我插网线的，家里的路由器也有点问题</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>你说的是那个killer network managerment 软件吧</span><br>
+<span>可以单独装驱动的</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>就跟路由器开软QOS差不多吧</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>Litccc 发表于 2019-5-11 00:36</span><br>
+<span>其实就是intel无线网卡的马甲，驱动可以混用</span><br>
+<span>主要是Atheros（现高通）的马甲，intel马甲是最近才有的</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>网卡只认博通</span><br>
+</p><p><b>lazior: </b><br>
+<span>Litccc 发表于 2019-05-11 00:36:22</span><br>
+<span>其实就是intel无线网卡的马甲，驱动可以混用不止intel，killer家还采购高通atheros的，朋友的xps15 9570的killer卡就是</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>kalenty: </b><br>
+<span>killer这坑爹货，刚买电脑的时候频繁蓝屏，发现是他家网卡驱动的锅...官网更新了就好了</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Killer网卡差不多也是个智商税了吧，感觉还不如很早以前的Broadcom网卡好用</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>从来不装killer自带的软件，只装inf单驱动，从来没问题。</span><br>
+<span>官网http://support.killernetworking.com/software/里边Driver only Packages就是</span><br>
+</p><p><b>ryans233: </b><br>
+<span>NyanMisaka 发表于 2019-5-11 17:57</span><br>
+<span>从来不装killer自带的软件，只装inf单驱动，从来没问题。</span><br>
+<span>官网http://support.killernetworking.com/softwa ...</span><br>
+<span>这玩意儿在我这儿安装完过一段时间会被Windows Update覆盖回去……</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>モトロ: </b><br>
+<span>一般主板用的不都是cfosspeed的OEM版吗</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>ryans233 发表于 2019-5-11 21:18</span><br>
+<span>这玩意儿在我这儿安装完过一段时间会被Windows Update覆盖回去……</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, A ...</span><br>
+<span>我手动对着设备管理器里的killer检查更新都没用，win10自带的驱动往往很老。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>bas3721 发表于 2019-5-11 00:36</span><br>
+<span>不知道这玩意儿为啥火爆，问题真的多。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>智商税都是这样的</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>killer网卡问题很大，然而很多板子都板载，烦死了。</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>sjbssd 发表于 2019-5-12 23:22</span><br>
+<span>killer网卡问题很大，然而很多板子都板载，烦死了。</span><br>
+<span>一般都有类似配置没killer的版本,比如穷人救星的X370太极/pro就一个用211V一个用Killer,别的都一样......反正我是感觉不出Killer和各家OEM版Cfos的差距</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830615[0-50]</guid>
+    </item>
+  </channel>
+</rss>

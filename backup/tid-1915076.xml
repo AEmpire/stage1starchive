@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一个神秘的电脑问题求教2/22更新，2133mhz烤鸡黑屏</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一个神秘的电脑问题求教2/22更新，2133mhz烤鸡黑屏</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:02:34 +0000</lastBuildDate>
+    <item>
+      <title>一个神秘的电脑问题求教2/22更新，2133mhz烤鸡黑屏[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915076-1-1.html</link>
+      <description>一个神秘的电脑问题求教&#13;
+ 本帖最后由 无梦女 于 2020-2-21 23:02 编辑 
+
+R5 2600@4.0ghz+2070+16g3200mhz+华擎B450gaming K4，就这电脑，玩比较大型的游戏(最近是巫师3和r6，的时候大概两天左右会出现一次直接卡死的情况，游戏中声音还在，yy有声音，但是屏幕卡住不动，不能操作，只能重启。
+&#13;
+我有用这套参数烤鸡，用挨打64的cpugpu双烤，几个钟头也不会卡住。
+&#13;
+有没有谁指点一下
+&#13;
+我是双屏，刚才新鲜的卡住的截图，aida64监控还开着，也看不出来有啥不对</description>
+      <content:encoded><![CDATA[<p><b>无梦女: </b><br>
+<span>一个神秘的电脑问题求教</span><br>
+<span> 本帖最后由 无梦女 于 2020-2-21 23:02 编辑 </span><br>
+<span>R5 2600@4.0ghz+2070+16g3200mhz+华擎B450gaming K4，就这电脑，玩比较大型的游戏(最近是巫师3和r6，的时候大概两天左右会出现一次直接卡死的情况，游戏中声音还在，yy有声音，但是屏幕卡住不动，不能操作，只能重启。</span><br>
+<span>我有用这套参数烤鸡，用挨打64的cpugpu双烤，几个钟头也不会卡住。</span><br>
+<span>有没有谁指点一下</span><br>
+<span>我是双屏，刚才新鲜的卡住的截图，aida64监控还开着，也看不出来有啥不对</span><br>
+</p><p><b>无梦女: </b><br>
+<span> 本帖最后由 无梦女 于 2020-2-21 23:05 编辑 </span><br>
+<span>重启过后BIOS参数也不会变，仿佛一切无事发生过</span><br>
+<span>编辑了卡住刚卡住时的图片</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>峰大介: </b><br>
+<span>遇到过，是Intel核显驱动问题，装了旧版本。不知道你这个是否可行。</span><br>
+</p><p><b>无梦女: </b><br>
+<span>峰大介 发表于 2020-2-21 22:56</span><br>
+<span>遇到过，是Intel核显驱动问题，装了旧版本。不知道你这个是否可行。</span><br>
+<span>没说清楚是AMDR5 2600</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>CPU怎么烤的？</span><br>
+<span>AIDA64 FPU么？</span><br>
+<span>还是P95 SmallFFT？</span><br>
+<span>GPU呢？甜甜圈？</span><br>
+</p><p><b>无梦女: </b><br>
+<span>EraserKing 发表于 2020-2-21 23:00</span><br>
+<span>CPU怎么烤的？</span><br>
+<span>AIDA64 FPU么？</span><br>
+<span>跑过甜甜圈但是没有跑太久，烤几个钟头的是用aida64的那个FPU CPU GPU全勾上烤的</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>回滚一下显卡驱动试试，有点怀疑硬件问题</span><br>
+</p><p><b>无梦女: </b><br>
+<span>wuzhou6058 发表于 2020-2-21 23:11</span><br>
+<span>回滚一下显卡驱动试试，有点怀疑硬件问题</span><br>
+<span>有推荐的驱动版本吗</span><br>
+<span>我这个问题出现有好几个月了，期间也是有一搭没一搭的更新新版驱动，感觉没啥变化，还是像顶楼那情况</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>无梦女 发表于 2020-2-21 23:17</span><br>
+<span>有推荐的驱动版本吗</span><br>
+<span>我这个问题出现有好几个月了，期间也是有一搭没一搭的更新新版驱动，感觉没啥变化， ...</span><br>
+<span>我还真不清楚，你可以试试几个月前的刚出现这个问题的时候之前的版本试试。（同时建议卸载GeForce Exprerce之类的软件）</span><br>
+</p><p><b>无梦女: </b><br>
+<span>wuzhou6058 发表于 2020-2-21 23:20</span><br>
+<span>我还真不清楚，你可以试试几个月前的刚出现这个问题的时候之前的版本试试。（同时建议卸载GeForce Exprer ...</span><br>
+<span>我还真的一直用NVGF这软件更新驱动，这软件有什么弊端吗？</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>无梦女 发表于 2020-2-21 23:04</span><br>
+<span>跑过甜甜圈但是没有跑太久，烤几个钟头的是用aida64的那个FPU CPU GPU全勾上烤的</span><br>
+<span> ...</span><br>
+<span>双拷标准操作是</span><br>
+<span>AIDA64只勾FPU，CPU不勾</span><br>
+<span>再同时跑甜甜圈</span><br>
+<span>跑个两三个小时没问题再说</span><br>
+</p><p><b>john: </b><br>
+<span>内存不要超频，降回去</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>无梦女 发表于 2020-2-21 23:23</span><br>
+<span>我还真的一直用NVGF这软件更新驱动，这软件有什么弊端吗？</span><br>
+<span>这种东西除了看帧率外个人觉得没啥用...xjb升驱动把系统崩掉的事也不是没有...</span><br>
+</p><p><b>无梦女: </b><br>
+<span>john 发表于 2020-2-21 23:25</span><br>
+<span>内存不要超频，降回去</span><br>
+<span>内存是科赋的3200条子，直接用xmp上来的，也会出问题吗</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>无梦女: </b><br>
+<span>EraserKing 发表于 2020-2-21 23:24</span><br>
+<span>双拷标准操作是</span><br>
+<span>AIDA64只勾FPU，CPU不勾</span><br>
+<span>再同时跑甜甜圈</span><br>
+<span>明天早上试一下看看</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>内存先降回去试试</span><br>
+<span>冻屏也有win10的锅，我以前某个版本就是冻屏，后面回滚解决</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>怀疑内存，建议先默认看看</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>无梦女 发表于 2020-2-21 23:29</span><br>
+<span>内存是科赋的3200条子，直接用xmp上来的，也会出问题吗</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1N ...</span><br>
+<span>第一   XMP本身就属于超频（排查问题的时候肯定需要关掉XMP）</span><br>
+<span>第二显卡驱动除非有什么特别的更新，否则都是用着一个稳定版本用到底（喜欢折腾的另算）</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>我玩apex在倒计时的时候会遇到 r6倒没有</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>内存先降到2133看看</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>内存的可能性比较大，然后是显卡</span><br>
+</p><p><b>sirlion: </b><br>
+<span>超频了出问题肯定是超频导致的，不要相信什么烤鸡没问题就ok，平时使用频率和电压是一直变化的，烤鸡仅能测试满负荷电压频率是否稳定，无法测试中负载 低负载的电压频率是否稳定，我之前超频就明显有这个体验，满负荷怎么折腾都没事，结果在桌面看网页降频的时候就不稳了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915076[0-50]</guid>
+    </item>
+  </channel>
+</rss>

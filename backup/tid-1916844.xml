@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助！内存插满4条机器就无法正常开机</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助！内存插满4条机器就无法正常开机</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:49:08 +0000</lastBuildDate>
+    <item>
+      <title>求助！内存插满4条机器就无法正常开机[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916844-1-1.html</link>
+      <description>求助！内存插满4条机器就无法正常开机&#13;
+主板是技嘉Z390 PRO WIFI，已经更新到最新版BIOS。内存原来是两条8G 3200(XMP)的金士顿掠食者。现在又加了两条同规格的，机器开机没法过自检。
+&#13;
+试了一下用3000的频率可以正常开机，这时重启进BIOS改成3200就能正常进系统。用memtest86测试了一下400%没有报错，玩游戏也正常。
+&#13;
+但只要3200的频率关机再开机就没法过自检。
+&#13;
+又试了下无论旧条、新条，只要插两条3200就能正常开机使用(13槽或者24槽都可以)，插4条就不行。
+&#13;
+请问这是哪里出了问题？ </description>
+      <content:encoded><![CDATA[<p><b>绝世路痴: </b><br>
+<span>求助！内存插满4条机器就无法正常开机</span><br>
+<span>主板是技嘉Z390 PRO WIFI，已经更新到最新版BIOS。内存原来是两条8G 3200(XMP)的金士顿掠食者。现在又加了两条同规格的，机器开机没法过自检。</span><br>
+<span>试了一下用3000的频率可以正常开机，这时重启进BIOS改成3200就能正常进系统。用memtest86测试了一下400%没有报错，玩游戏也正常。</span><br>
+<span>但只要3200的频率关机再开机就没法过自检。</span><br>
+<span>又试了下无论旧条、新条，只要插两条3200就能正常开机使用(13槽或者24槽都可以)，插4条就不行。</span><br>
+<span>请问这是哪里出了问题？ </span><br>
+</p><p><b>Buke: </b><br>
+<span>交换一下插的位置，很多主板会对其中一组2个槽做优化，兼容性最好。</span><br>
+<span>我的酷兽海力士jjr就要插到指定插槽组里才能开机。另外两根是科赋cjr</span><br>
+</p><p><b>2stage: </b><br>
+<span>xmp也算是内存超频了，四条不如两条稳定频率高是正常的。可以给vccio，vccsa加点电压，可以先加0.05V试试。</span><br>
+</p><p><b>v724789: </b><br>
+<span>这个板子不是有debug灯么？先看看开不了机是卡在哪里了</span><br>
+</p><p><b>绝世路痴: </b><br>
+<span>搞定了！感谢楼上几位的解答！</span><br>
+<span>跟主板位置和内存体质都有关系。</span><br>
+<span>不换位置的话加0.02V电压就能稳定开机。或者把新买的两条插在靠近CPU的位置，这样不加电压也能正常开机了！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916844[0-50]</guid>
+    </item>
+  </channel>
+</rss>

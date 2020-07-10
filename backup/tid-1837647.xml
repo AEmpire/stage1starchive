@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>推荐一个PC的开源复式记账软件beancount</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>推荐一个PC的开源复式记账软件beancount</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:58:26 +0000</lastBuildDate>
+    <item>
+      <title>推荐一个PC的开源复式记账软件beancount[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837647-1-1.html</link>
+      <description>推荐一个PC的开源复式记账软件beancount&#13;
+ 本帖最后由 Prushka 于 2019-6-8 08:23 编辑 
+
+虽然直接安装Windows版本的beancount很蛋疼，但是现在有了WSL。在WSL里面安装beancount+fava的难度可比下一个Visual Studio 2019的C编译工具小多了。再加上VSCode里面的beancount插件补全功能也很好用，可以说是比较完美的PC记账软件选择了吧。
+&#13;
+优点：
+&#13;
+- 纯文本格式的数据，完全由你自己掌控
+&#13;
+- 开源软件，用得放心
+&#13;
+- fava生成的报表很好看
+&#13;
+缺点：
+&#13;
+- 账户分类只支持英文
+&#13;
+- 要折腾一下WSL
+&#13;
+报表示例图：
+&#13;
+https://wzyboy.im/uploads/2016/02/screenshot-02.png
+&#13;
+账本示例图：
+&#13;
+http://wx4.sinaimg.cn/large/006MV2nZly1g3smwdvjlbj30mz0m1411.jpg
+&#13;
+入门教程：https://wzyboy.im/post/1063.html
+&#13;
+如果你只打算在wsl里面用beancount的话，可以看看我写的操作图解：https://www.bilibili.com/read/cv2825835</description>
+      <content:encoded><![CDATA[<p><b>呆伟: </b><br>
+<span>我手机上是用口袋记账</span><br>
+</p><p><b>Prushka: </b><br>
+<span>mqm 发表于 2019-6-19 11:55</span><br>
+<span>能导入GNUCash的xml吗，用了一年多感觉不好用，想换了</span><br>
+<span>https://github.com/henriquebastos/gnucash-to-beancount/</span><br>
+<span>Gnucash to Beancount Converter</span><br>
+<span>Convert your Gnucash Sqlite3 file to a Beancount text ledger.</span><br>
+<span>Requires Python 3.3+</span><br>
+</p><p><b>Prushka: </b><br>
+<span> 本帖最后由 Prushka 于 2019-6-19 14:31 编辑 </span><br>
+<span>waox 发表于 2019-6-18 23:50</span><br>
+<span>截图给的分割线就特别清晰</span><br>
+<span>为什么我把他们的例子下载以后本地打开白色分割线没有了，就这个有点难受，不知 ...</span><br>
+<span>这个问题在三月份就有人提出了，然后已经更新代码merge了。</span><br>
+<span>https://github.com/beancount/fava/pull/892</span><br>
+<span>但是不幸的是，fava在pip上的最新版本是二月份的1.10……所以你要改正这个错误的话可能得手动编译一下了。</span><br>
+<span>https://github.com/beancount/fava/releases</span><br>
+<span>可以按照这里的教程手动编译一下fava</span><br>
+<span>p.s. 看了下更新记录，一年一般会发布三个版本。所以不是特别急迫的话可以耐心等待下半年的pip版本更新。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>原装大小姐 发表于 2019-6-19 12:23</span><br>
+<span>还是excel加one drive稳</span><br>
+<span>excel我嫌弃它太重了，打开速度不太行。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>waox 发表于 2019-6-18 23:50</span><br>
+<span>截图给的分割线就特别清晰</span><br>
+<span>为什么我把他们的例子下载以后本地打开白色分割线没有了，就这个有点难受，不知 ...</span><br>
+<span>https://zhuanlan.zhihu.com/p/69795314</span><br>
+<span>我找到编译方法了，这是教程</span><br>
+<img src="http://pic1.zhimg.com/80/v2-eb57c3c70d4fa297746c975a2cd6c410_hd.jpg" title="http://pic1.zhimg.com/80/v2-eb57c3c70d4fa297746c975a2cd6c410_hd.jpg"><br>
+</p><p><b>waox: </b><br>
+<span>Prushka 发表于 2019-6-19 14:31</span><br>
+<span>https://zhuanlan.zhihu.com/p/69795314</span><br>
+<span>我找到编译方法了，这是教程</span><br>
+<span>感谢，好评</span><br>
+<span>mac和linux的差不多，安装好包其他命令都一样，大概windows会痛苦一些</span><br>
+<span>舒服多了</span><br>
+</p><p><b>Prushka: </b><br>
+<span>waox 发表于 2019-6-19 22:42</span><br>
+<span>感谢，好评</span><br>
+<span>mac和linux的差不多，安装好包其他命令都一样，大概windows会痛苦一些</span><br>
+<span>在WSL里面什么话都好说。</span><br>
+<span>我都不敢在Windows下安装原生beancount，因为得下一个C++的编译工具，好几个G……比WSL麻烦多了。</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>折腾了一下，很有满足感。谢谢楼主推荐。</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>也不用每次花钱都记上，现在大多手机支付，三四天看下支持记录，整理下账单就行。</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>楼主最近用的有啥心得嘛</span><br>
+<span>刚刚心血来潮看了一下，发现有手机App了呢</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>waox: </b><br>
+<span>记了四五个月的帐，感觉累了</span><br>
+<span>计小账感觉真不是自己的需求，记到最后把信用卡点数和uber cash余额都记下来了，回报率有点低</span><br>
+</p><p><b>linuslinus: </b><br>
+<span>其实可以用云闪付来记账，反正都是绑银联的卡</span><br>
+</p><p><b>spyps: </b><br>
+<span>国内什么时候会有Mint</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>装个VS就行了吧</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837647[50-100]</guid>
+    </item>
+    <item>
+      <title>推荐一个PC的开源复式记账软件beancount[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837647-1-1.html</link>
+      <description>推荐一个PC的开源复式记账软件beancount&#13;
+ 本帖最后由 Prushka 于 2019-6-8 08:23 编辑 
+
+虽然直接安装Windows版本的beancount很蛋疼，但是现在有了WSL。在WSL里面安装beancount+fava的难度可比下一个Visual Studio 2019的C编译工具小多了。再加上VSCode里面的beancount插件补全功能也很好用，可以说是比较完美的PC记账软件选择了吧。
+&#13;
+优点：
+&#13;
+- 纯文本格式的数据，完全由你自己掌控
+&#13;
+- 开源软件，用得放心
+&#13;
+- fava生成的报表很好看
+&#13;
+缺点：
+&#13;
+- 账户分类只支持英文
+&#13;
+- 要折腾一下WSL
+&#13;
+报表示例图：
+&#13;
+https://wzyboy.im/uploads/2016/02/screenshot-02.png
+&#13;
+账本示例图：
+&#13;
+http://wx4.sinaimg.cn/large/006MV2nZly1g3smwdvjlbj30mz0m1411.jpg
+&#13;
+入门教程：https://wzyboy.im/post/1063.html
+&#13;
+如果你只打算在wsl里面用beancount的话，可以看看我写的操作图解：https://www.bilibili.com/read/cv2825835</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>推荐一个PC的开源复式记账软件beancount</span><br>
+<span> 本帖最后由 Prushka 于 2019-6-8 08:23 编辑 </span><br>
+<span>虽然直接安装Windows版本的beancount很蛋疼，但是现在有了WSL。在WSL里面安装beancount+fava的难度可比下一个Visual Studio 2019的C编译工具小多了。再加上VSCode里面的beancount插件补全功能也很好用，可以说是比较完美的PC记账软件选择了吧。</span><br>
+<span>优点：</span><br>
+<span>- 纯文本格式的数据，完全由你自己掌控</span><br>
+<span>- 开源软件，用得放心</span><br>
+<span>- fava生成的报表很好看</span><br>
+<span>缺点：</span><br>
+<span>- 账户分类只支持英文</span><br>
+<span>- 要折腾一下WSL</span><br>
+<span>报表示例图：</span><br>
+<img src="https://wzyboy.im/uploads/2016/02/screenshot-02.png" title="https://wzyboy.im/uploads/2016/02/screenshot-02.png"><br>
+<span>账本示例图：</span><br>
+<img src="http://wx4.sinaimg.cn/large/006MV2nZly1g3smwdvjlbj30mz0m1411.jpg" title="http://wx4.sinaimg.cn/large/006MV2nZly1g3smwdvjlbj30mz0m1411.jpg"><br>
+<span>入门教程：https://wzyboy.im/post/1063.html</span><br>
+<span>如果你只打算在wsl里面用beancount的话，可以看看我写的操作图解：https://www.bilibili.com/read/cv2825835</span><br>
+</p><p><b>guyfawkes: </b><br>
+<span>支付宝或微信要是愿意增加记账功能，这些记账软件迟早退出历史舞台</span><br>
+</p><p><b>Prushka: </b><br>
+<span>guyfawkes 发表于 2019-6-7 16:11</span><br>
+<span>支付宝或微信要是愿意增加记账功能，这些记账软件迟早退出历史舞台</span><br>
+<span>那自然</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>之前研究过，有两个痛点所以没有迁移过去</span><br>
+<span>一个是没有好用的安卓端app</span><br>
+<span>一个是没有精确到时刻</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Prushka: </b><br>
+<span>月千一夜 发表于 2019-6-7 16:16</span><br>
+<span>之前研究过，有两个痛点所以没有迁移过去</span><br>
+<span>一个是没有好用的安卓端app</span><br>
+<span>一个是没有精确到时刻</span><br>
+<span>手机上的记账app大多是单式的，复式基本上没有（除了很久没更新的贝壳记账和难用的GNUCash）</span><br>
+<span>记账为什么要精确到时刻……这个粒度也太细了吧</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>记账的话Android我用“钱迹”，感觉不错。PC端直接用Excel了（</span><br>
+</p><p><b>萌名雪: </b><br>
+<span>早就被安利过了，对我来说最大的痛点就是外出记账不方便。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>Lisylfn 发表于 2019-6-7 16:21</span><br>
+<span>记账的话Android我用“钱迹”，感觉不错。PC端直接用Excel了（</span><br>
+<span>excel记多了感觉有点“重”，这个更轻量一点</span><br>
+</p><p><b>Prushka: </b><br>
+<span>萌名雪 发表于 2019-6-7 16:24</span><br>
+<span>早就被安利过了，对我来说最大的痛点就是外出记账不方便。</span><br>
+<span>毕竟PC软件</span><br>
+</p><p><b>Hieda: </b><br>
+<span>依云老师安利之后我在用vim-beancount，还挺不错的</span><br>
+<span>方不方便看个人，对于我来讲没有内置云端存储是加分项</span><br>
+</p><p><b>eshin: </b><br>
+<span>手机上一直用bluecoins，虽然不能直接读取支付宝微信信用卡的记录需要手动填写，但就是觉得好用</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>Hieda 发表于 2019-6-7 16:42</span><br>
+<span>依云老师安利之后我在用vim-beancount，还挺不错的</span><br>
+<span>方不方便看个人，对于我来讲没有内置云端存储是加分项 ...</span><br>
+<span>现在用的Moneywiz，被它的内置云同步弄得不厌其烦…</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>guyfawkes 发表于 2019-6-7 16:11</span><br>
+<span>支付宝或微信要是愿意增加记账功能，这些记账软件迟早退出历史舞台</span><br>
+<span>能不用支付宝和微信支付就不用的飘过，账户里面不留钱。我记得主楼那个博客博主也是这样，记账时就不用开支付宝和微信账户了。</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>记账当然最好的是在手机上，随身而且手机自己就是个钱包。电脑太不方便了</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>虽然好久不用现金了，但我还是愿意用第三方软件记账</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>都折騰WSL了干嘛不上SQL-Ledger</span><br>
+</p><p><b>Prushka: </b><br>
+<span>gofbayrf 发表于 2019-6-7 18:13</span><br>
+<span>都折騰WSL了干嘛不上SQL-Ledger</span><br>
+<span>wsl现在真不折腾，特别傻瓜化操作。</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Prushka: </b><br>
+<span>暗藏流 发表于 2019-6-7 17:40</span><br>
+<span>记账当然最好的是在手机上，随身而且手机自己就是个钱包。电脑太不方便了 ...</span><br>
+<span>可以手机记录纯文本之后输入电脑做分析</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>勇者护手: </b><br>
+<span>马一下</span><br>
+</p><p><b>waox: </b><br>
+<span>不懂记账，开始用对这种表格的美感感觉很爽</span><br>
+<span>我就有一个问题，我用信用卡花了20块钱吃饭</span><br>
+<span>        Liabilities:CreditCard:DiscoverIt           -28.66                USD</span><br>
+<span>        Expenses:Eating                                                   28.66                 USD</span><br>
+<span>在fava里的Income statement没有问题</span><br>
+<span>为什么Balance sheet就看着很奇怪</span><br>
+<span>Equity</span><br>
+<span>-xxx CNY</span><br>
+<span>-xxx USD</span><br>
+<span>Before</span><br>
+<span>-xxx CNY</span><br>
+<span>-xxx USD</span><br>
+<span>CN</span><br>
+<span>-xxx CNY</span><br>
+<span>US</span><br>
+<span>-xxx USD</span><br>
+<span>Earnings</span><br>
+<span>28.66 USD</span><br>
+<span>    Current</span><br>
+<span>    28.66 USD</span><br>
+<span>我不太理解为什么在equity里面一定要自动加一个Earnings-Current，因为我没有赚钱，这是让什么归零啊</span><br>
+</p><p><b>轻尘有雨: </b><br>
+<span>waox 发表于 2019-6-8 00:41</span><br>
+<span>不懂记账，开始用对这种表格的美感感觉很爽</span><br>
+<span>我就有一个问题，我用信用卡花了20块钱吃饭</span><br>
+<span>负债增加相应权益减少，的确不是赚钱，因为实际上是预支收入举债</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>请问楼主，这个软件支持自动计算资产评估吗？比如投资收益和资产减记。正常情况下买东西当时应该不会有明显的资产变化，而是在使用过程中通过不断的资产增值或减记来体现。至于买菜这种根本没必要记。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>Prushka 发表于 2019-6-7 16:21</span><br>
+<span>手机上的记账app大多是单式的，复式基本上没有（除了很久没更新的贝壳记账和难用的GNUCash）</span><br>
+<span>记账为什么 ...</span><br>
+<span>肯定要精确到时刻，不然怎么计算资产的增值和减记？</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>guyfawkes 发表于 2019-6-7 16:11</span><br>
+<span>支付宝或微信要是愿意增加记账功能，这些记账软件迟早退出历史舞台</span><br>
+<span>支付宝有个简单的记账功能</span><br>
+</p><p><b>Prushka: </b><br>
+<span>lixianfyss 发表于 2019-6-8 04:25</span><br>
+<span>肯定要精确到时刻，不然怎么计算资产的增值和减记？</span><br>
+<span>以天为单位啊</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Prushka: </b><br>
+<span> 本帖最后由 Prushka 于 2019-6-8 05:50 编辑 </span><br>
+<span>lixianfyss 发表于 2019-6-8 04:23</span><br>
+<span>请问楼主，这个软件支持自动计算资产评估吗？比如投资收益和资产减记。正常情况下买东西当时应该不会有明显 ...</span><br>
+<span>你是说这种吗？</span><br>
+<img src="http://ws4.sinaimg.cn/large/006MV2nZly1g3tawheuz1j31xd0q9q75.jpg" title="http://ws4.sinaimg.cn/large/006MV2nZly1g3tawheuz1j31xd0q9q75.jpg"><br>
+<span>证券投资的话请看这里 使用 Beancount 记录证券投资</span><br>
+</p><p><b>Prushka: </b><br>
+<span>waox 发表于 2019-6-8 00:41</span><br>
+<span>不懂记账，开始用对这种表格的美感感觉很爽</span><br>
+<span>我就有一个问题，我用信用卡花了20块钱吃饭</span><br>
+<span>当小明决定开始用复式簿记的时候，他从 Equity 里倒一些豆子其他桶里（或从其他桶倒一些豆子到 Equity 里），将其他桶的数字调节成符合当前实际情况即可。实际操作中，人们一般只关心 Income 和 Expenses 桶的数字在某段时间内的变化，并不关心它的总数（除非你想统计你出生到现在一共收入多少、支出多少），只要把 Assets 和 Liabilities 调节准就行了。这便是 Equity 的作用——存放已有的「权益」。</span><br>
+<span>所以不用关心Equity里面的东西，只要不报错一般就不会有问题。</span><br>
+</p><p><b>neverer: </b><br>
+<span>waox 发表于 2019-6-8 00:41</span><br>
+<span>不懂记账，开始用对这种表格的美感感觉很爽</span><br>
+<span>我就有一个问题，我用信用卡花了20块钱吃饭</span><br>
+<span>因为是复式记账嘛</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>Prushka 发表于 2019-6-8 05:32</span><br>
+<span>你是说这种吗？</span><br>
+<span>主要是固定资产投资，证券一般不需要这种记账软件。记账软件主要就是反应所购买的固定资产的价值变化状况，如果买的产品有严重的资产减记现象，购买前需要非常谨慎。</span><br>
+</p><p><b>网银患者: </b><br>
+<span>Prushka 发表于 2019-6-7 15:42</span><br>
+<span>虽然直接安装Windows版本的beancount很蛋疼，但是现在有了WSL。在WSL里面安装beancount+fava的难度可比下一 ...</span><br>
+<span>楼主怎么导入银行账单啊？比如招行的借记卡和信用卡账单？</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>楼主这套让我对电子记账这套东西更加惧怕了，</span><br>
+<span>还是专门手写记账好了</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>猫不萌 发表于 2019-6-15 01:37</span><br>
+<span>楼主这套让我对电子记账这套东西更加惧怕了，</span><br>
+<span>还是专门手写记账好了</span><br>
+<span>请问手写记账有哪些作用？平常买菜吃饭，坐车通信水电费这些都是刚性支出，且无法变卖，感觉记录下来没有用。</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>org-mode 不是也能做计算吗？tag 什么也都支持，win osx linux 直接用就行了。</span><br>
+</p><p><b>Prushka: </b><br>
+<span> 本帖最后由 Prushka 于 2019-6-15 06:12 编辑 </span><br>
+<span>猫不萌 发表于 2019-6-15 01:37</span><br>
+<span>楼主这套让我对电子记账这套东西更加惧怕了，</span><br>
+<span>还是专门手写记账好了</span><br>
+<span>电子记账图个后期处理分析省事，程序自动计算了。beancount和手写记账其实也没什么区别罢。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>网银患者 发表于 2019-6-15 01:00</span><br>
+<span>楼主怎么导入银行账单啊？比如招行的借记卡和信用卡账单？</span><br>
+<span>https://yuchi.me/post/beancount-intro/</span><br>
+<span>https://morefreeze.github.io/2016/10/beancount-thinking.html</span><br>
+<span>导入支付宝账单：http://lidongchao.com/2018/07/20/has_header_in_csv_Sniffer/</span><br>
+<span>总之都需要手动调整下格式，最好是用python编一个小脚本</span><br>
+</p><p><b>Prushka: </b><br>
+<span>ekdc11 发表于 2019-6-15 05:21</span><br>
+<span>org-mode 不是也能做计算吗？tag 什么也都支持，win osx linux 直接用就行了。</span><br>
+<span>报表难弄</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我用记账城市。这东西其实如果不是花钱比较随意平常不注意的人，其实用处不是很大。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>lixianfyss 发表于 2019-6-15 05:00</span><br>
+<span>请问手写记账有哪些作用？平常买菜吃饭，坐车通信水电费这些都是刚性支出，且无法变卖，感觉记录下来没有 ...</span><br>
+<span>我也不知道，我习惯了粗略的记，防止我想不起来某一次大开支的原因</span><br>
+</p><p><b>旧游时节: </b><br>
+<span> 本帖最后由 旧游时节 于 2019-6-15 08:45 编辑 </span><br>
+<span>之前用过一段时间的Ledger，也是复式记账+文本文档管理账单。结果后来有几天忙着没记后来也就懒得记了。</span><br>
+<span>反正现在消费都走微信支付宝，自己盘点的时候也麻烦不到哪去。每天去记录反而更花时间。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>旧游时节 发表于 2019-6-15 08:43</span><br>
+<span>之前用过一段时间的Ledger，也是复式记账+文本文档管理账单。结果后来有几天忙着没记后来也就懒得记了。</span><br>
+<span> ...</span><br>
+<span>我也考虑过用ledger，但是beancount的报表实在是太好看了。</span><br>
+</p><p><b>燕山雪: </b><br>
+<span>话说他家文档有国内镜像咩，全放googledoc太不方便了</span><br>
+</p><p><b>trentswd: </b><br>
+<span>很多笔记都是败在手机不方便</span><br>
+<span>包括org mode</span><br>
+</p><p><b>明月闲窗: </b><br>
+<span>用Google sheet自建表格记的，多终端同步，就是对iPhone不太友善。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>trentswd 发表于 2019-6-17 05:31</span><br>
+<span>很多笔记都是败在手机不方便</span><br>
+<span>包括org mode</span><br>
+<span>org mode自身要配置也是一大原因吧</span><br>
+</p><p><b>莉洁莉特: </b><br>
+<span>我用的钱迹。</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>waox: </b><br>
+<span>截图给的分割线就特别清晰</span><br>
+<span>为什么我把他们的例子下载以后本地打开白色分割线没有了，就这个有点难受，不知道是fava可以设置还是浏览器的CSS问题？</span><br>
+</p><p><b>roger_goodell: </b><br>
+<span>guyfawkes 发表于 2019-6-7 16:11</span><br>
+<span>支付宝或微信要是愿意增加记账功能，这些记账软件迟早退出历史舞台</span><br>
+<span>多多记账，其实也是腾讯出的</span><br>
+</p><p><b>mqm: </b><br>
+<span>能导入GNUCash的xml吗，用了一年多感觉不好用，想换了</span><br>
+</p><p><b>原装大小姐: </b><br>
+<span>还是excel加one drive稳</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>手机输入太蛋疼了，我都是隔段时间对着各个主要支付平台账单用excel记录非必需消费，唯一的问题是饮食消费的交易记录远没有买游戏那么准确，所以很不好追查，但是吃一顿记一下有太蛋疼了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837647[0-50]</guid>
+    </item>
+  </channel>
+</rss>

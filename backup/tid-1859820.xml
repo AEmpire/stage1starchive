@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：双线路由</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：双线路由</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:39:03 +0000</lastBuildDate>
+    <item>
+      <title>求助：双线路由[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859820-1-1.html</link>
+      <description>求助：双路线路由&#13;
+
+&#13;
+　　配置：
+&#13;
+同一室。引入两条外线：L1(联通)，L2(电信)。L1接R1(无线路由器)，L2接R2。   路由器R1、R2都是单WAN口，相互独立，不考虑网线连接。
+&#13;
+室内有三台电脑：甲、乙、丙(接打印机)。三台都是实网线连接R1，WiFi连接R2。
+&#13;
+　　要求：
+&#13;
+甲乙丙，可网上邻居、打印机共享。
+&#13;
+甲乙丙，登录办公网ABC.org，必须走L2线路(电信)。其余走L1线路。
+&#13;
+　　求助：
+&#13;
+没有新设备：双WAN口路由器。
+&#13;
+在现有设备情况下，如何设置R1、R2 ？听网友说“加个静态路由表即可”、“做个策略路由就行”。我也不太懂。求助一个脚本。
+&#13;
+　　以下为参考数据：
+&#13;
+接入L2(电信)需设置IP：(直连，未接路由器R2时)，现已移到R2外网设置。
+&#13;
+L1(联通)没有这步设置。</description>
+      <content:encoded><![CDATA[<p><b>proof1: </b><br>
+<span>求助：双路线路由</span><br>
+<span>　　配置：</span><br>
+<span>同一室。引入两条外线：L1(联通)，L2(电信)。L1接R1(无线路由器)，L2接R2。   路由器R1、R2都是单WAN口，相互独立，不考虑网线连接。</span><br>
+<span>室内有三台电脑：甲、乙、丙(接打印机)。三台都是实网线连接R1，WiFi连接R2。</span><br>
+<span>　　要求：</span><br>
+<span>甲乙丙，可网上邻居、打印机共享。</span><br>
+<span>甲乙丙，登录办公网ABC.org，必须走L2线路(电信)。其余走L1线路。</span><br>
+<span>　　求助：</span><br>
+<span>没有新设备：双WAN口路由器。</span><br>
+<span>在现有设备情况下，如何设置R1、R2 ？听网友说“加个静态路由表即可”、“做个策略路由就行”。我也不太懂。求助一个脚本。</span><br>
+<span>　　以下为参考数据：</span><br>
+<span>接入L2(电信)需设置IP：(直连，未接路由器R2时)，现已移到R2外网设置。</span><br>
+<span>L1(联通)没有这步设置。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>你两个路由彼此间没有连接，办公网IP固定的话我认为应该设置计算机上的路由表。</span><br>
+<span>这就是双网卡电脑上设置路由表的问题，手机打字建议往这方向百度。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>互相独立不考虑网线连接的两个网络没法坐策略路由和静态路由，如果网友说的静态路由在两台设备有网线连接的情况下是没问题的，不过你的两个路由器均为单WAN口设备不存在策略路由这个功能（既然只有一个运营商哪里来策略问题？）</span><br>
+<span>如果两个设备没有物理连接，那只能两台设备做IPSEC VPN连接，然后再在开启了IPSEC服务器的那台路由器上写路由表来实现你的要求了</span><br>
+</p><p><b>net13p: </b><br>
+<span>R1和R2的lan口还有3台电脑都接到1个交换机上,R1开DHCP R2关掉</span><br>
+<span>3个电脑手动指IP的话,网管配置R1的LAN口IP</span><br>
+<span>这样解决了局域网互通</span><br>
+<span>然后3台电脑上写静态IP,把ABC.org的IP指向R2的LAN口IP</span><br>
+</p><p><b>moondigi: </b><br>
+<span> 本帖最后由 moondigi 于 2019-10-17 17:01 编辑 </span><br>
+<span>假设abc.com的ip是1.1.1.1</span><br>
+<span>R1路由开dhcp，R2路由不开dhcp</span><br>
+<span>R1ip：192.168.1.1，R2ip：192.168.2.2</span><br>
+<span>客户端电脑假设是windows，管理员权限打开cmd</span><br>
+<span>route add 1.1.1.1 192.168.2.2</span><br>
+<span>如果想永久生效，连上wifi后cmd输入route print，获取interface id（例如是30）</span><br>
+<span>route add -p 1.1.1.1 192.168.2.2 if 30</span><br>
+<span>没有条件测试应该没问题，wifi设个2.x的ip，网关dns留空</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859820[0-50]</guid>
+    </item>
+  </channel>
+</rss>

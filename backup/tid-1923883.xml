@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>话说如果P社出《维多利亚3》用GPU加速CPU计算？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>话说如果P社出《维多利亚3》用GPU加速CPU计算？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:42:01 +0000</lastBuildDate>
+    <item>
+      <title>话说如果P社出《维多利亚3》用GPU加速CPU计算？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1923883-1-1.html</link>
+      <description>话说如果P社出《维多利亚3》用GPU加速CPU计算？&#13;
+ 本帖最后由 dumplingpro 于 2020-4-13 17:50 编辑 
+
+之前看别人讨论维多利亚3，我就在想这个。
+&#13;
+要是出维多利亚3的话，画面八成还是对显卡没啥需求可言的，但策略复杂度肯定要提高，运算量也会相应变大，足够让CPU0原地升天。
+&#13;
+但这些运算量里面，大头都是人口、商品、消费这些运算，虽然也有IF-ELSE逻辑，但其实是识字率大于10%=1%转换为工人，识字率大于20%=2%转换为工人这样的逻辑，完全是可以改写成多次加法/乘法运算，并且互相没有逻辑因果关系，很适合GPU加速。
+&#13;
+GPU加速在游戏和软件里并不少见，常见的就是GPU辅助计算物理引擎，还有一些科学计算、AI会用N卡的CUDA，算力堪比十几年前的超算（2000年人类最强超算的浮点算力，才超过了现在的1060，NV也是现在超算主要硬件供应商之一，记得提供了新增算力的40%？虽然浮点精度有差距，但游戏也不要求太高精度）。
+&#13;
+真-超算玩游戏了
+&#13;
+你看这维多利亚3要是用上了GPU加速……</description>
+      <content:encoded><![CDATA[<p><b>dumplingpro: </b><br>
+<span>话说如果P社出《维多利亚3》用GPU加速CPU计算？</span><br>
+<span> 本帖最后由 dumplingpro 于 2020-4-13 17:50 编辑 </span><br>
+<span>之前看别人讨论维多利亚3，我就在想这个。</span><br>
+<span>要是出维多利亚3的话，画面八成还是对显卡没啥需求可言的，但策略复杂度肯定要提高，运算量也会相应变大，足够让CPU0原地升天。</span><br>
+<span>但这些运算量里面，大头都是人口、商品、消费这些运算，虽然也有IF-ELSE逻辑，但其实是识字率大于10%=1%转换为工人，识字率大于20%=2%转换为工人这样的逻辑，完全是可以改写成多次加法/乘法运算，并且互相没有逻辑因果关系，很适合GPU加速。</span><br>
+<span>GPU加速在游戏和软件里并不少见，常见的就是GPU辅助计算物理引擎，还有一些科学计算、AI会用N卡的CUDA，算力堪比十几年前的超算（2000年人类最强超算的浮点算力，才超过了现在的1060，NV也是现在超算主要硬件供应商之一，记得提供了新增算力的40%？虽然浮点精度有差距，但游戏也不要求太高精度）。</span><br>
+<span>真-超算玩游戏了</span><br>
+<span>你看这维多利亚3要是用上了GPU加速……</span><br>
+</p><p><b>Redis: </b><br>
+<span>GPU做逻辑运算的还没有把。</span><br>
+<span>用GPU做SQL这种的不是没有，但是场景和游戏完全不一样。游戏的实时性要求高，逻辑方面的吞吐量却小，GPU没啥优势。</span><br>
+</p><p><b>sawyer000: </b><br>
+<span>一大堆逻辑计算，不是矩阵运算的话，GPU加不了速</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>这种似乎只有在以前还用汇编语言来编写程序的年代存在这种可能性，现在编程大多是用高级语言了，每种“PU”都是各司其责，很难再出现这种这种情况了。</span><br>
+<span>当初Atari Jaguar所宣传的“64位机”遭质疑的时候，雅达利也辩解称他们的GPU也能当CPU来使所以足以能称为“64位机”的，大概就指的是这么回事吧，实际到底能不能也说不准。</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>nanoka111 发表于 2020-4-13 12:07</span><br>
+<span>这种似乎只有在以前还用汇编语言来编写程序的年代存在这种可能性，现在编程大多是用高级语言了，每种“PU” ...</span><br>
+<span>如果是语言的原始语句表达的逻辑那可能有点难度（不是做不到只是做不好），但如果是AI应用调库那就很容易根据不同的硬件后端来组织计算任务了，只不过对高层开发人员来说与硬件交互的这部分也很像汇编了。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-4-13 13:30 编辑 </span><br>
+<span>游戏里最并行的东西是什么？图形。GPU是干什么的？搞图形的，这就是天然的契合。逻辑拿GPU当然也可以，比如文明、P社的逻辑可以拿GPU算，但要做出无bug的游戏程序出来难于登天。连多核都没用好，就先别想GPU了。</span><br>
+<span>一般来说除非天然SIMD的工作，如矩阵乘法之类足够robust的计算普及度较高以外，其他需要在大规模SIMD硬件上手写的逻辑因为编程框架繁琐（CUDA/OpenCL），硬件差距过大等等，都有大量的BUG等着你，用在扁平的科学计算里当然很常见，用在商业软件里都不算很多，遑论游戏了。至于现在依然会有人用着GPGPU诞生之前，利用图形API、shader做运算的hack，稳定性甚至都比GPGPU的框架要好。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-4-13 13:44 编辑 </span><br>
+<span>sawyer000 发表于 2020-4-13 12:03</span><br>
+<span>一大堆逻辑计算，不是矩阵运算的话，GPU加不了速</span><br>
+<span>恩，但是非逻辑运算也不少，最常见的是辅助物理运算，现在已经整合到GPU了。</span><br>
+<span>比如维多利亚的POP，还有货物价格，如果优化算法的话，理论上很适合大批量并行运算。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>同意, 虽然P社游戏整体有大量ifelse, 但很多数据运算都矩阵化, "Stellaris" 的贸易度, 人口产出这类等等...</span><br>
+<span>但这样一来, 估计P社对游戏内数据在内存中的调度方式就要改变...</span><br>
+<span>我没有研究过p社引擎的结构, 有没有懂的人来讲讲....</span><br>
+</p><p><b>Redis: </b><br>
+<span>除非你的游戏逻辑运算能够变形成一系列的线性代数的集合，否则如果ifesle满天飞，还是不要想用gpu加速了.</span><br>
+<span>另外GPU的独占性很强，调度相比CPU要原始很多，如果逻辑计算卡了图形运算，这个就糟糕了。</span><br>
+<span>另一个巨大问题就是，没有统一的编程平台可以用。CUDA是N家独占的，OpenCL半死不活。所以你要做这个优化，要么两套都ship，要么自己开发一个公有的运行时，除非这个运行速度提**到100%，否则很难推</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>首先游戏中吃cpu的部分绝对不是数学运算</span><br>
+<span>串行运算 条件逻辑 比如动画状态机 游戏数据查个表或者实时解压这种事情上gpu可没有任何优势</span><br>
+</p><p><b>notfind404: </b><br>
+<span>还是等量子计算机民用了比较靠谱...</span><br>
+</p><p><b>w108108: </b><br>
+<span>p社游戏，gpu只用来辅助涂色</span><br>
+</p><p><b>冬眠的龙凰: </b><br>
+<span>你是说以p🐍的技术力玩gpu加速？</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-4-13 17:53 编辑 </span><br>
+<span>すぴぱら 发表于 2020-4-13 14:52</span><br>
+<span>首先游戏中吃cpu的部分绝对不是数学运算</span><br>
+<span>串行运算 条件逻辑 比如动画状态机 游戏数据查个表或者实时解压这 ...</span><br>
+<span>部分策略类游戏比较特殊，比如上面提到的维多利亚2，大量数据都是商品的价格、人口的民族和政治倾向，理论上都可以转换为大规模的矩阵加法乘法。</span><br>
+<span>（比如之前有人说的，货物价格包含运输成本，这就是个大型矩阵加法乘法）</span><br>
+<span>其实GPU加速最常见是物理引擎加速吧，也算是很成功了。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>Redis 发表于 2020-4-13 14:37</span><br>
+<span>除非你的游戏逻辑运算能够变形成一系列的线性代数的集合，否则如果ifesle满天飞，还是不要想用gpu加速了.</span><br>
+<span> ...</span><br>
+<span>看游戏把，维多利亚那种，大量的商品的价格、人口的民族和政治倾向运算。</span><br>
+<span>虽然IF-ELSE，但其实是识字率大于10% 转化率1%，识字率大于20%转化率2%这种IF-ELSE，完全可以改成非IF-ELSE运算。</span><br>
+</p><p><b>frosta: </b><br>
+<span>想多了，商品能有多大量</span><br>
+<span>只要是人工设计出来的列举项就完全碰不到需要“大量”的边</span><br>
+<span>— from samsung SM-G975U, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1923883[0-50]</guid>
+    </item>
+  </channel>
+</rss>

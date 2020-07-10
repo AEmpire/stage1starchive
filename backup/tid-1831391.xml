@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>在Word文档中一行文字为了凑够长度而产生空格该怎么解释？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>在Word文档中一行文字为了凑够长度而产生空格该怎么解释？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:36:41 +0000</lastBuildDate>
+    <item>
+      <title>在Word文档中一行文字为了凑够长度而产生空格该怎么解释？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831391-1-1.html</link>
+      <description>在Word文档中一行文字为了凑够长度而产生空格该怎么解释？&#13;
+      我舍友在和我讨论他的论文的引用格式的问题，他提到他在搞一个论点的引用时，由于复制的网址太长，中间自发排列出了一段不连续的空格，问我该怎么处理。我在和他解释的时候，突然发现这个情况我以前也遇到过很多次，但是就是没有想到过该用什么方式来形容这个错误。
+&#13;
+      这个错误大致而言类似于在引用一大段文字以至于另起一行的时候：
+&#13;
+Notes of the Secret Debates of the Federal Convention of 1787, Taken by the Late Hon Robert Yates, Chief Justice 
+&#13;
+of       the         State         of          New       York,       and      One       of       the      Delegates      from      That          ←中间这行出现了无法撤销的空格。
+&#13;
+State to the Said Convention. The Avalon Project at Yale Law School. . （原始内容存档于2013-01-20）
+&#13;
+      我想要和朋友解释这个错误，但发现完全没有办法组织语言去形容这个，那么这个错误该如何形容以及解决？</description>
+      <content:encoded><![CDATA[<p><b>南朝Sonicbbs: </b><br>
+<span>在Word文档中一行文字为了凑够长度而产生空格该怎么解释？</span><br>
+<span>      我舍友在和我讨论他的论文的引用格式的问题，他提到他在搞一个论点的引用时，由于复制的网址太长，中间自发排列出了一段不连续的空格，问我该怎么处理。我在和他解释的时候，突然发现这个情况我以前也遇到过很多次，但是就是没有想到过该用什么方式来形容这个错误。</span><br>
+<span>      这个错误大致而言类似于在引用一大段文字以至于另起一行的时候：</span><br>
+<span>Notes of the Secret Debates of the Federal Convention of 1787, Taken by the Late Hon Robert Yates, Chief Justice </span><br>
+<span>of       the         State         of          New       York,       and      One       of       the      Delegates      from      That          ←中间这行出现了无法撤销的空格。</span><br>
+<span>State to the Said Convention. The Avalon Project at Yale Law School. . （原始内容存档于2013-01-20）</span><br>
+<span>      我想要和朋友解释这个错误，但发现完全没有办法组织语言去形容这个，那么这个错误该如何形容以及解决？</span><br>
+</p><p><b>桜麻苧生: </b><br>
+<span> 本帖最后由 桜麻苧生 于 2019-5-14 13:05 编辑 </span><br>
+<span>两端对齐</span><br>
+<span>改成左边对齐...</span><br>
+</p><p><b>nexus1: </b><br>
+<span>桜麻苧生 发表于 2019-5-14 13:04</span><br>
+<span>两端对齐</span><br>
+<span>改成左边对齐/居中对齐...</span><br>
+<span>他的应该是两端对齐</span><br>
+</p><p><b>Hieda: </b><br>
+<span>你好，这边建议你用LaTeX呢</span><br>
+</p><p><b>TripleK: </b><br>
+<span> 本帖最后由 TripleK 于 2019-5-14 13:09 编辑 </span><br>
+<span>段落里有一个禁止西文自动换行什么的吧，忘了具体叫什么来着看了一眼是允许西文单词中间换行，这个选上试试</span><br>
+</p><p><b>桐山和雄: </b><br>
+<span>允许英文单词中间段行试试</span><br>
+</p><p><b>leachiman: </b><br>
+<span>建议全文左端对齐</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>latex+1</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>latex+2</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>LaTeX +3</span><br>
+<span>— from OnePlus ONEPLUS A5000, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>Opportunity: </b><br>
+<span>词距调整、段落对齐、没连字符三个不可能全占吧，你总得放弃其中一个</span><br>
+</p><p><b>GMJ: </b><br>
+<span>中文的优越性体现出来了，</span><br>
+</p><p><b>外骨骼: </b><br>
+<span>排版用了indesign后，我就回不去了</span><br>
+</p><p><b>桶口兼续: </b><br>
+<span>记得有一次用IEEE还是哪里的latex模板来着，不知道什么原因也出现打字带空格的了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>外骨骼 发表于 2019-5-14 13:44</span><br>
+<span>排版用了indesign后，我就回不去了</span><br>
+<span>…………Hardcore用户……</span><br>
+</p><p><b>onezeron: </b><br>
+<span>写论文最好用latex，不行用markdown混一下平时。</span><br>
+<span>直接答案是不要居中对齐。。。</span><br>
+</p><p><b>rei402: </b><br>
+<span>office都解决不了你别指望他能用latex</span><br>
+</p><p><b>mlfans: </b><br>
+<span> 本帖最后由 mlfans 于 2019-5-14 14:01 编辑 </span><br>
+<span>我一般都和老父亲解释为“自动排版造成的间距拉伸”</span><br>
+<span>“为了上下文对齐，把其中一行的最后一、两个字符（含单词、符号等）挪到下一行，并对该行的空格进行拉伸处理已达到对齐的效果”</span><br>
+<span>解决方案有多种啊</span><br>
+<span>1.手动调整文字内容，适当增改</span><br>
+<span>2.使用其它文字工具，对文章进行排版</span><br>
+<span>3.看看调整对齐方式、文字间距等</span><br>
+</p><p><b>革萌: </b><br>
+<span>塞几个词呗</span><br>
+</p><p><b>museqsou: </b><br>
+<span>怎么处理？</span><br>
+<span>改左端对齐</span><br>
+<span>这是什么错误？</span><br>
+<span>亲，这就是两端对齐，不明白建议百度一下</span><br>
+</p><p><b>metaphias: </b><br>
+<span>LaTeX其实多少也会有这种问题的...</span><br>
+<span>不过对于排版来说，奇奇怪怪的毛病是会少很多</span><br>
+</p><p><b>外骨骼: </b><br>
+<span>宅男的爱 发表于 2019-5-14 13:52</span><br>
+<span>…………Hardcore用户……</span><br>
+<span>真的 现在无论做什么我都想会用indesign，做海报啦 做排版啦 ，弄单页啦</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span>其实用LATEX这种两端对齐的现象会好一点。但也不能完全解决。</span><br>
+<span>现在体会到IEEE conference template分两栏的好处了吧</span><br>
+</p><p><b>齿落犹带血: </b><br>
+<span>改对齐没用，当年我写论文经常出现这种排版，什么对齐都没用，我一般就是加单词或者连字符让这种排版消失</span><br>
+</p><p><b>الطائر: </b><br>
+<span>是程序 BUG 吧，WordPad 就没有这个问题，两端对齐很整齐啊？</span><br>
+</p><p><b>2517君: </b><br>
+<span>因为下一行第一个词（比如Supercalifragilisticexpialidocious）是一个超长的无法或者没有选择进行拆分的单词。塞不到上一行，放下一行又会使得上一行空的蛋疼</span><br>
+</p><p><b>Illidan: </b><br>
+<span>大概十年前就开始教论文用LaTex，2019年依然有人不用。</span><br>
+</p><p><b>東京急行: </b><br>
+<span>感觉这和用不用 LaTeX 没关系吧_(:3」∠)_</span><br>
+<span>这是段落默认设置了两端对齐？要不改成左端对齐，要不自己手动换行，估计自动换行会插入连字符破坏网址</span><br>
+</p><p><b>Okumur: </b><br>
+<span> 本帖最后由 Okumur 于 2019-5-14 16:41 编辑 </span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前端，我怎么把光标定位到它的前面来插入新的东西啊，不管是光标还是鼠标根本定位不到前面，一选就选中自动编号了。每次用word都痛苦无比，已经努力去学了，但一用就有14485475个你根本想不到的奇葩问题等着你</span><br>
+<img src="https://i.loli.net/2019/05/14/5cda7e4d29df114235.gif" title="https://i.loli.net/2019/05/14/5cda7e4d29df114235.gif"><br>
+</p><p><b>WiiGe: </b><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>先清除格式，写完东西之后手动插入编号</span><br>
+</p><p><b>yzhiyu_123: </b><br>
+<span> 本帖最后由 yzhiyu_123 于 2019-5-14 17:02 编辑 </span><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>你为什么不用键盘上的箭头键？</span><br>
+<span>哦明白了。首先定位到1. 后面，然后按一下回车</span><br>
+</p><p><b>Okumur: </b><br>
+<span>yzhiyu_123 发表于 2019-5-14 17:01</span><br>
+<span>你为什么不用键盘上的箭头键？</span><br>
+<span>哦明白了。首先定位到1. 后面，然后按一下回车 ...</span><br>
+<span>前面没有空间的不行，箭头移动光标还是选中编号域，然后前进不了了</span><br>
+</p><p><b>wrnk: </b><br>
+<span>用latex可以套现成的模板啊，基本就告别排版问题了，学习也不难，后面节约的时间不可估量。就是渣电脑编译中文的时候等半天</span><br>
+</p><p><b>Okumur: </b><br>
+<span>WiiGe 发表于 2019-5-14 17:00</span><br>
+<span>先清除格式，写完东西之后手动插入编号</span><br>
+<span>我这是随便打几个字演示一下，原稿层级很复杂，必须要用自动编号不然累死我</span><br>
+</p><p><b>yzhiyu_123: </b><br>
+<span>Okumur 发表于 2019-5-14 17:04</span><br>
+<span>前面没有空间的不行，箭头移动光标还是选中编号域，然后前进不了了 ...</span><br>
+<span>我编辑了。</span><br>
+<span>按一下如果成</span><br>
+<span>1.</span><br>
+<span>2. 第一条</span><br>
+<span>就在1.后面再按一次回车</span><br>
+</p><p><b>Okumur: </b><br>
+<span>yzhiyu_123 发表于 2019-5-14 17:06</span><br>
+<span>我编辑了。</span><br>
+<span>按一下如果成</span><br>
+<span>1.</span><br>
+<span>可以了多谢！</span><br>
+</p><p><b>逆城的风: </b><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>1.后面敲个回车，然后把第一行刷成正文就可以了吧</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>用html写论文，写完转pdf</span><br>
+</p><p><b>nsevit: </b><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>别问，问就是不要用自动编号</span><br>
+</p><p><b>museqsou: </b><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>原生编号是不支持在序号前加数字。</span><br>
+<span>有2种模拟实现方式：</span><br>
+<span>1、表格</span><br>
+<span>2、2个对齐的文本框</span><br>
+<span>之后表格/文本框设置里把边框设为透明。调整下margin就可以了</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>桶口兼续 发表于 2019-5-14 13:48</span><br>
+<span>记得有一次用IEEE还是哪里的latex模板来着，不知道什么原因也出现打字带空格的了 ...</span><br>
+<span>用\hyphenpenalty和\tolerance可以设置这个</span><br>
+<span>如:</span><br>
+<span>\hyphenpenalty=5000</span><br>
+<span>\tolerance=2000</span><br>
+<span>前者数值越大就越少把单词切开来换行, tolerance越大越不会强行要求每行一样长(换行更少)</span><br>
+</p><p><b>nice女武神: </b><br>
+<span>Okumur 发表于 2019-5-14 16:36</span><br>
+<span>借楼我也问两个问题，勿LaTeX ，CNM只能用word这反人类的东西。如果有一个自动编号域（这里是1）在页面最前 ...</span><br>
+<span>“选”字前回车   然后光标放第一行按退格 就行了很容易</span><br>
+</p><p><b>ycwzq: </b><br>
+<span>要用latex的思维来用word，内容格式分开，用好样式，word其实比很多人想象的还要好用。不客气的说，90%的人根本没资格在简历里写“精通”word。</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>Okumur 发表于 2019-05-14 16:36:39</span><br>
+<span>请用题注。这个就是在任意位置可以插入的编号。</span><br>
+<span>另外分散对齐是因为出现了超长的无法分割的字段，例如网址，超长单词等，可以用shift+enter在超长单词中间强制换行。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>zxlice: </b><br>
+<span>text align 改成left </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831391[0-50]</guid>
+    </item>
+  </channel>
+</rss>

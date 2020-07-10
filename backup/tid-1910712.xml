@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>最近 macOS 声音总是突然消失</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>最近 macOS 声音总是突然消失</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:36:00 +0000</lastBuildDate>
+    <item>
+      <title>最近 macOS 声音总是突然消失[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910712-1-1.html</link>
+      <description>最近 macOS 声音总是突然消失&#13;
+最近两个礼拜开始的，具体表现为：浏览器看二次元，隔 5 分钟左右会突然没声，如果重新插拔声音输出接口，重启电脑，甚至用其他软件比如网易云放个音乐都能好。。
+&#13;
+不像是浏览器的问题，我用 Firefox，Safari 都会这样
+&#13;
+不是接口的问题，AUX 或是蓝牙都一样
+&#13;
+也不是网上能搜到的，重启声音进程 coreaudiod 能好，或是重置 NVRAM
+&#13;
+我寻思最近也没安过什么程序，这个时间点也就打过苹果推的补丁，但是网上搜了下最近也没有类似的情况
+&#13;
+就很怪异
+&#13;
+macOS 10.15.2</description>
+      <content:encoded><![CDATA[<p><b>kiddolck: </b><br>
+<span>最近 macOS 声音总是突然消失</span><br>
+<span>最近两个礼拜开始的，具体表现为：浏览器看二次元，隔 5 分钟左右会突然没声，如果重新插拔声音输出接口，重启电脑，甚至用其他软件比如网易云放个音乐都能好。。</span><br>
+<span>不像是浏览器的问题，我用 Firefox，Safari 都会这样</span><br>
+<span>不是接口的问题，AUX 或是蓝牙都一样</span><br>
+<span>也不是网上能搜到的，重启声音进程 coreaudiod 能好，或是重置 NVRAM</span><br>
+<span>我寻思最近也没安过什么程序，这个时间点也就打过苹果推的补丁，但是网上搜了下最近也没有类似的情况</span><br>
+<span>就很怪异</span><br>
+<span>macOS 10.15.2</span><br>
+</p><p><b>yst234: </b><br>
+<span>重启 CoreAudio 能解决的问题通常都是抽风 bug。。</span><br>
+<span>如果有条件的话还是会滚到 10.14.6 吧 （Mojave）</span><br>
+</p><p><b>hein: </b><br>
+<span>是的，我是开个别的放一下音乐</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910712[0-50]</guid>
+    </item>
+  </channel>
+</rss>

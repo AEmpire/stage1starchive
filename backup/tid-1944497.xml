@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于移动和前端开发请教些问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于移动和前端开发请教些问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:20:59 +0000</lastBuildDate>
+    <item>
+      <title>关于移动和前端开发请教些问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944497-1-1.html</link>
+      <description>关于移动和前端开发请教些问题&#13;
+最近花时间把郭霖大神写的第二行代码看完，有种相见恨晚的感觉，很多以前稀里糊涂凑合用的地方回头看大神的讲解感觉又重新学了一遍，国内外不同作者写的软件类书籍也看了不少，感觉郭霖这本书对初级、中级学习者来说真的非常好；
+&#13;
+一般来说，除了大牛以外，大部分人自学新语言新框架时，还是这种系统的、详细的用通俗易懂的语言配上具体代码和图讲解的书比较容易理解吧。国外的书比如JavaScript高级程序设计上面好多代码写法就对我编程启发非常大，有点像写作时看范文、例文的感觉
+&#13;
+综上所述，其实我就是想问三个半问题：
+&#13;
+1，不知道你们学新东西时喜欢这样对着“范文”“临摹”吗？
+&#13;
+2，学新东西时，先大致看一遍通用教程/书本，然后动手做demo、小project，碰到不会的再查书查资料，中途巩固加深之前了解掌握不太好的知识点，你们也是这样学新语言/框架的吗？
+&#13;
+3，React和React Native练手以及用来在投简历时展示用的project有什么比较典型或经典的项目吗，电商网站/APP？
+&#13;
+3.5，自己看书看教程做project，一天5～7小的时间，科班出身有其他编程经验，脑子一般，学java后端的那些东西一般多久能学到足够找工作的水平？</description>
+      <content:encoded><![CDATA[<p><b>KaneL: </b><br>
+<span>关于移动和前端开发请教些问题</span><br>
+<span>最近花时间把郭霖大神写的第二行代码看完，有种相见恨晚的感觉，很多以前稀里糊涂凑合用的地方回头看大神的讲解感觉又重新学了一遍，国内外不同作者写的软件类书籍也看了不少，感觉郭霖这本书对初级、中级学习者来说真的非常好；</span><br>
+<span>一般来说，除了大牛以外，大部分人自学新语言新框架时，还是这种系统的、详细的用通俗易懂的语言配上具体代码和图讲解的书比较容易理解吧。国外的书比如JavaScript高级程序设计上面好多代码写法就对我编程启发非常大，有点像写作时看范文、例文的感觉</span><br>
+<span>综上所述，其实我就是想问三个半问题：</span><br>
+<span>1，不知道你们学新东西时喜欢这样对着“范文”“临摹”吗？</span><br>
+<span>2，学新东西时，先大致看一遍通用教程/书本，然后动手做demo、小project，碰到不会的再查书查资料，中途巩固加深之前了解掌握不太好的知识点，你们也是这样学新语言/框架的吗？</span><br>
+<span>3，React和React Native练手以及用来在投简历时展示用的project有什么比较典型或经典的项目吗，电商网站/APP？</span><br>
+<span>3.5，自己看书看教程做project，一天5～7小的时间，科班出身有其他编程经验，脑子一般，学java后端的那些东西一般多久能学到足够找工作的水平？</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>框架性的看各种 admin 项目呗</span><br>
+<span>—— 来自 Xiaomi Redmi K30 5G, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>zievod: </b><br>
+<span>你们程序员都这个作息的吗太可怕了</span><br>
+<span>前端的未来属于flutter 右转dart把</span><br>
+<span>好好的后端不做转前端干啥 前端都在往后端跑</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>奥古斯都: </b><br>
+<span>第二行代码？不是出了第三行代码了吗，用kotlin重写</span><br>
+<span>个人对移动端没啥兴趣，买了书还没看。</span><br>
+<span>我就是个垃圾前端，来看看大佬的学习方法。</span><br>
+<span>想做一个不写网页的前端，想做可视化、音视频直播 、nodejs bff层，不知道怎么迈开步。。。</span><br>
+</p><p><b>kll85757: </b><br>
+<span>我是实践派，虚构一个需求出来然后设计界面来实现，比如我现在觉得市面上的骑行app不好用，我要开发一个给自己用，中途肯定会遇到障碍，怎么样锁屏下让进程不被杀掉，还要让gps持续记录，还要跟地图api交互，然后去找解法，这样你就会无形间逼着自己接触了若干技术。</span><br>
+<span>这样日后遇到同样的问题，场景记忆可以让你迅速的想起来，我那个时候是这么干的，比看书看视频听别人讲都来的牢固，理论学习的阶段到记住常用语法就结束了，接下来就是上手写东西，遇到问题再去查漏补缺</span><br>
+</p><p><b>KaneL: </b><br>
+<span>kll85757 发表于 2020-6-28 13:12</span><br>
+<span>我是实践派，虚构一个需求出来然后设计界面来实现，比如我现在觉得市面上的骑行app不好用，我要开发一个给 ...</span><br>
+<span>我也是这么想的：必须自己做demo做严肃的Project才能真正掌握一门语言/框架，刷题只是提高算法和数据结构基本功，而看书或者跟着书上、视频上的例子敲代码看完不用要不了多久就会忘，只有自己做东西碰到问题然后想着解决才能真正掌握，之前用安卓的多线程问题就因为asynctask和handler不同写法的比较和适应场景扣了两星期才勉强搞懂，以及你说的后台service容易被杀，怎么用前台service解决的问题（碰巧做个类似的APP，你是用一个专门的与地图API的前台服务开runnable子线程解决的吗？比如这个负责监听地图API返回结果的线程通过message或者post()通知UI线程更新UI；AsyncTask一般是一次性任务）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944497[0-50]</guid>
+    </item>
+  </channel>
+</rss>

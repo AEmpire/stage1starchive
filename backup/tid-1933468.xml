@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>aurora4X的C#版本出了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>aurora4X的C#版本出了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:05:33 +0000</lastBuildDate>
+    <item>
+      <title>aurora4X的C#版本出了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933468-1-1.html</link>
+      <description>aurora4X的C#版本出了&#13;
+ 本帖最后由 wangchaofire 于 2020-5-8 17:02 编辑 
+
+对早就听说过的:
+&#13;
+这版本换了个引擎，运行速度相比较VB6版快的飞起，还加了很多新东西，比如改了陆战系统等等一大堆大小改动。
+&#13;
+不过目前版本还不太稳定，不过更新飞快，发帖时间时候版本号已经到了1.95
+&#13;
+对没听说过：
+&#13;
+这是个没什么游戏画面的硬核太空4X策略游戏，整个游戏过程都是对着一堆报表和各种抽象的地图进行的那种。适合上班摸鱼，你领导一般都看不出来你在摸鱼。免费的，可以百度到下载地址</description>
+      <content:encoded><![CDATA[<p><b>wangchaofire: </b><br>
+<span>aurora4X的C#版本出了</span><br>
+<span> 本帖最后由 wangchaofire 于 2020-5-8 17:02 编辑 </span><br>
+<span>对早就听说过的:</span><br>
+<span>这版本换了个引擎，运行速度相比较VB6版快的飞起，还加了很多新东西，比如改了陆战系统等等一大堆大小改动。</span><br>
+<span>不过目前版本还不太稳定，不过更新飞快，发帖时间时候版本号已经到了1.95</span><br>
+<span>对没听说过：</span><br>
+<span>这是个没什么游戏画面的硬核太空4X策略游戏，整个游戏过程都是对着一堆报表和各种抽象的地图进行的那种。适合上班摸鱼，你领导一般都看不出来你在摸鱼。免费的，可以百度到下载地址</span><br>
+</p><p><b>技术性装怪: </b><br>
+<span> 听上去很酷</span><br>
+</p><p><b>shimotsuki14: </b><br>
+<span>头一回听说</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>另外我们这里有一小群人在搞这游戏的汉化 就是速度没保证</span><br>
+</p><p><b>小明神: </b><br>
+<span>楼主不能给个下载和上手教程么</span><br>
+<span>想试试 但是不知道怎么下手</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>小明神 发表于 2020-5-8 22:39</span><br>
+<span>楼主不能给个下载和上手教程么</span><br>
+<span>想试试 但是不知道怎么下手</span><br>
+<span>目前国内唯一一个中文教程可能就是我们群大佬写的一个老版的简易入门教程 很多地方已经和现在这个C#版本不一样了 而且百度就能百度到</span><br>
+</p><p><b>北卡厨王: </b><br>
+<span>看不出在摸鱼太牛逼了</span><br>
+</p><p><b>半分宅: </b><br>
+<span> 本帖最后由 半分宅 于 2020-5-8 16:17 编辑 </span><br>
+<span>最烦的还是大建。标准开局第一批探测船和运输船下水的时候往往已经是开局十多年后，武器科技和战斗舰队成型得等到30-40年了。</span><br>
+<span>目前版本SpaceMaster功能不全，没办法加速这个过程。</span><br>
+<span>因为船坞扩张非常慢，前期我能造的军用船大约到1万吨就是极限了。这样至少需要以下几个船型：</span><br>
+<span>1. 探测艇。为了降低成本增加数量，造1000吨的小艇，包括地理探测和跃迁点探测两种船型。</span><br>
+<span>2. 探测艇母舰。带跃迁和机库，1万吨。</span><br>
+<span>3. 点防驱逐舰。带光束炮和点防炮，为了保证基本的机动性能，体积控制在7500到8000吨。</span><br>
+<span>4. Missile驱逐舰。把点防舰的武装换成防空和反舰Missile。</span><br>
+<span>5. 电子侦察舰。把武器换成增大的主动和被动传感器。</span><br>
+<span>6. 部队运输舰。 运输和投放地面部队，1万吨。</span><br>
+<span>至少需要5个万吨级大型船坞和2个基本的小型船坞。光造这么多船坞就烦死了。</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>半分宅 发表于 2020-5-9 03:27</span><br>
+<span>最烦的还是大建。标准开局第一批探测船和运输船下水的时候往往已经是开局十多年后，武器科技和战斗舰队成型 ...</span><br>
+<span> 还真有人玩了？</span><br>
+<span>现在有个UI的MOD可以修正不少目前原版UI的问题</span><br>
+<span>等会我看看我能不能把MOD打个包</span><br>
+</p><p><b>半分宅: </b><br>
+<span>wangchaofire 发表于 2020-5-9 00:54</span><br>
+<span>还真有人玩了？</span><br>
+<span>现在有个UI的MOD可以修正不少目前原版UI的问题</span><br>
+<span>等会我看看我能不能把MOD打个包</span><br>
+<span>我属于“早就听说过，早就玩过，弃坑了，现在捡起来再玩”的那一批</span><br>
+<span>几年前捏着鼻子用VB6版本打了两次大规模舰队战，然后实在受不了每回合要等那么久。</span><br>
+<span>作者在官方论坛里明确反对MOD（他没精力提供支持），还说要是玩家再出mod他就不公开发布更新了。</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>半分宅 发表于 2020-5-9 14:10</span><br>
+<span>我属于“早就听说过，早就玩过，弃坑了，现在捡起来再玩”的那一批</span><br>
+<span>几年前捏着鼻子用VB6版本打了 ...</span><br>
+<span>然而C版本作者似乎说了可以搞MOD了</span><br>
+<span>顺便 有兴趣来搞汉化么</span><br>
+</p><p><b>半分宅: </b><br>
+<span> 本帖最后由 半分宅 于 2020-5-9 02:26 编辑 </span><br>
+<span>wangchaofire 发表于 2020-5-9 02:15</span><br>
+<span>然而C版本作者似乎说了可以搞MOD了</span><br>
+<span>顺便 有兴趣来搞汉化么</span><br>
+<span>没时间没兴趣。</span><br>
+<span>我觉得这游戏对我来说主要的爽点在于精确到每一个零件每一发炮弹的舰队对决，但是攒舰队攒20年太痛苦了。把屎把尿养大（这不是开玩笑的说法，燃料补给装备都得手动调配）的舰娘们可能一个下午就在大战中灰飞烟灭，除非开SpaceMaster生成舰队。</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>半分宅 发表于 2020-5-9 14:21</span><br>
+<span>没时间没兴趣。</span><br>
+<span>我觉得这游戏对我来说主要的爽点在于精确到每一个零件每一发炮弹的舰队对决，但是攒舰队 ...</span><br>
+<span> 硬核游戏就是这样 </span><br>
+<span>不过我看来这游戏没有单独的存档文件是个问题 容错太差 不知道以后能改么</span><br>
+</p><p><b>大哀之君: </b><br>
+<span>佛了B站连个视频都没</span><br>
+</p><p><b>wangchaofire: </b><br>
+<span>大哀之君 发表于 2020-5-9 20:37</span><br>
+<span>佛了B站连个视频都没</span><br>
+<span>https://www.bilibili.com/video/BV1mZ4y1x7vi/</span><br>
+</p><p><b>闪电战: </b><br>
+<span>被楼主这厮安利过多次</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933468[0-50]</guid>
+    </item>
+  </channel>
+</rss>

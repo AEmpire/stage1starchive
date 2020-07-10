@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>懂C++模板的进来一下，有偿求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>懂C++模板的进来一下，有偿求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:11:05 +0000</lastBuildDate>
+    <item>
+      <title>懂C++模板的进来一下，有偿求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946457-1-1.html</link>
+      <description>懂C++模板的进来一下，有偿求助&#13;
+模板里的traits技巧，在c++11里有库type_traits，库里有模板is_base_of ，我要的是template 版的 is_base_of&lt;Base, Derived&gt;。
+&#13;
+具体如下：
+&#13;
+有如下关系
+&#13;
+template &lt;typename T&gt;
+&#13;
+class A {};
+&#13;
+class B : A&lt;int&gt; {};
+&#13;
+B b;能够在编译期确定
+&#13;
+bool isSubClass&lt;b, A&gt;::value;的值。作用应该不用我多说了吧，偏特化很常见。b只要是 A的任意特化类就能返回为true，不一定是int，实现isSubClass这个模板类。
+&#13;
+我确定这个是能够实现的，因为几年之前我在intel的某个项目中看到了具体实现，我记得git log 该文件时间在10年-11年，C++11 标准之前，但是我忘了具体实现，项目也不知道是开源还是闭源。
+&#13;
+我现在大概还记得template 的开头
+&#13;
+template &lt;typename T, template&lt;typename... U&gt; class V&gt;
+&#13;
+class IsSubclass
+&#13;
+{}有没有兄弟能完成括号里的内容，或者告诉我可行的思路。 我做GC的某个算法要用到
+&#13;
+stackoverflow我搜索过也有类似的问题，但是几乎没有能给出建设性意见的，其他QQ群里甚至连问题都看不懂，希望人均程序员的S1能解答一下
+&#13;
+有建设性回答的兄弟到时候私下支付宝</description>
+      <content:encoded><![CDATA[<p><b>暴力炸鱼: </b><br>
+<span>懂C++模板的进来一下，有偿求助</span><br>
+<span>模板里的traits技巧，在c++11里有库type_traits，库里有模板is_base_of ，我要的是template 版的 is_base_of<Base, Derived>。</span><br>
+<span>具体如下：</span><br>
+<span>有如下关系</span><br>
+<span>template <typename T></span><br>
+<span>class A {};</span><br>
+<span>class B : A<int> {};</span><br>
+<span>B b;能够在编译期确定</span><br>
+<span>bool isSubClass<b, A>::value;的值。作用应该不用我多说了吧，偏特化很常见。b只要是 A的任意特化类就能返回为true，不一定是int，实现isSubClass这个模板类。</span><br>
+<span>我确定这个是能够实现的，因为几年之前我在intel的某个项目中看到了具体实现，我记得git log 该文件时间在10年-11年，C++11 标准之前，但是我忘了具体实现，项目也不知道是开源还是闭源。</span><br>
+<span>我现在大概还记得template 的开头</span><br>
+<span>template <typename T, template<typename... U> class V></span><br>
+<span>class IsSubclass</span><br>
+<span>{}有没有兄弟能完成括号里的内容，或者告诉我可行的思路。 我做GC的某个算法要用到</span><br>
+<span>stackoverflow我搜索过也有类似的问题，但是几乎没有能给出建设性意见的，其他QQ群里甚至连问题都看不懂，希望人均程序员的S1能解答一下</span><br>
+<span>有建设性回答的兄弟到时候私下支付宝</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>#include <iostream></span><br>
+<span>template <typename T, template <typename... V> class U></span><br>
+<span>class IsSubclassOfTemplate {</span><br>
+<span>typedef char YesType;</span><br>
+<span>struct NoType {</span><br>
+<span>    char padding;</span><br>
+<span>};</span><br>
+<span>template <typename... W> static YesType subclassCheck(U<W...> *);</span><br>
+<span>static NoType subclassCheck(...);</span><br>
+<span>static T *t;</span><br>
+<span>public:</span><br>
+<span>static const bool value = sizeof(subclassCheck(t)) == sizeof(YesType);</span><br>
+<span>};</span><br>
+<span>template <typename T> class Base1 {};</span><br>
+<span>class DerivedSingle : public Base1<int> {};</span><br>
+<span>int main() {</span><br>
+<span>std::cout << IsSubclassOfTemplate<DerivedSingle, Base1>::value << std::endl;</span><br>
+<span>}</span><br>
+<span>今天问了组里的大佬，说是Chromium里有实现，于是我在Chromium找到了上述代码。经过测试只能判断出public继承，使用protected或private会报错。好处是什么编译器都能通过</span><br>
+<span>严格意义上来说22楼的实现超越了Chromium里的实现。14楼的实现和Chromium的实现一样的问题</span><br>
+<span>22楼的实现在G++9.3.0上确实不一样，clang++10上无法编译通过，但是确实是我现在找到的最好实现。</span><br>
+</p><p><b>超能力者: </b><br>
+<span>在stackoverflow找到这个，不过既然你找过了，那大概率不是这个吧：</span><br>
+<span>template<template<class> class T, class U></span><br>
+<span>struct isDerivedFrom</span><br>
+<span>{</span><br>
+<span>    static constexpr bool value = decltype(isDerivedFrom::test(std::declval<U>()))::value;</span><br>
+<span>private:</span><br>
+<span>    template<class V></span><br>
+<span>    static decltype(static_cast<T<V>>(std::declval<U>()), std::true_type{}) test(const T<V>&);</span><br>
+<span>    static std::false_type test(...);</span><br>
+<span>};</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>超能力者 发表于 2020-7-7 21:21</span><br>
+<span>在stackoverflow找到这个，不过既然你找过了，那大概率不是这个吧：</span><br>
+<span>这个答案我看过，底下有说 t this solution also fails (rather than returns false) with single non-public inheritance from A。 </span><br>
+<span>因为是渲染器的GC，肯定是各种各样的继承类型都有，而且肯定是要跑在 MSVC下的。（跨平台项目）</span><br>
+</p><p><b>thq: </b><br>
+<span>顶着这个ID来求助……大概去素数群问问？</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>thq 发表于 2020-7-7 21:41</span><br>
+<span>顶着这个ID来求助……大概去素数群问问？</span><br>
+<span>S1的账号忘了，号不是我的</span><br>
+</p><p><b>resty: </b><br>
+<span> 本帖最后由 resty 于 2020-7-7 21:44 编辑 </span><br>
+<span>手滑...</span><br>
+</p><p><b>resty: </b><br>
+<span>11标准前是没有typename...的吧</span><br>
+</p><p><b>thq: </b><br>
+<span> 本帖最后由 thq 于 2020-7-7 21:55 编辑 </span><br>
+<span>没看清问题，编辑掉</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>进来帮顶</span><br>
+</p><p><b>根正苗红: </b><br>
+<span> 本帖最后由 根正苗红 于 2020-7-7 22:24 编辑 </span><br>
+<span>isSubClass<b， A>在语法上就是错误的。不能把实例b作为模板参数。</span><br>
+<span>既然b已经是实例了，为什么还要需要静态调用？直接dynamic cast不就成了？楼主的use case是啥呢？</span><br>
+<span>— from vivo NEX S, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>根正苗红 发表于 2020-7-7 22:20</span><br>
+<span>isSubClass在语法上就是错误的。不能把实例b作为模板参数。楼主要这个用来做什么呢？</span><br>
+<span>— from vivo NEX S, ...</span><br>
+<span>？ 请你好好学习c++再回答。</span><br>
+<span>做什么我说的很清楚了，用作GC里的偏特化处理</span><br>
+</p><p><b>根正苗红: </b><br>
+<span>暴力炸鱼 发表于 2020-7-7 22:25</span><br>
+<span>？ 请你好好学习c++再回答。</span><br>
+<span>做什么我说的很清楚了，用作GC里的偏特化处理 ...</span><br>
+<span>好，是我才疏学浅。既然楼主c++功力这么深厚。一定能找到答案的。good luck。</span><br>
+<span>— from vivo NEX S, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>北卡厨王: </b><br>
+<span>mark，等看答案</span><br>
+</p><p><b>猫島かおる: </b><br>
+<span> 本帖最后由 猫島かおる 于 2020-7-7 23:02 编辑 </span><br>
+<span>抄了一个，和楼主要求的稍微有点不一样，您看看这个行不行</span><br>
+<span>#include <type_traits></span><br>
+<span>#include <iostream></span><br>
+<span>template < typename Derived, template <typename...> class Base></span><br>
+<span>struct is_sub_class_template</span><br>
+<span>{</span><br>
+<span>    using U = typename std::remove_cv<Derived>::type;</span><br>
+<span>    template <typename... Args></span><br>
+<span>    static std::true_type test(Base<Args...>*);</span><br>
+<span>    static std::false_type test(void*);</span><br>
+<span>    using type = decltype(test(std::declval<U*>()));</span><br>
+<span>};</span><br>
+<span>template < typename Derived, template <typename...> class Base></span><br>
+<span>using is_sub_class_template_t = typename is_sub_class_template<Derived, Base>::type;</span><br>
+<span>template < typename Derived, template <typename...> class Base></span><br>
+<span>constexpr bool is_sub_class_template_v = is_sub_class_template_t<Derived, Base>::value;</span><br>
+<span>template<typename T></span><br>
+<span>struct B</span><br>
+<span>{};</span><br>
+<span>struct F</span><br>
+<span>{};</span><br>
+<span>struct DA : B<int></span><br>
+<span>{};</span><br>
+<span>struct DB : B<F></span><br>
+<span>{};</span><br>
+<span>int main()</span><br>
+<span>{</span><br>
+<span>    F f;</span><br>
+<span>    DA da;</span><br>
+<span>    DB db;</span><br>
+<span>    std::cout << is_sub_class_template_v<decltype(da), B> << std::endl;</span><br>
+<span>    std::cout << is_sub_class_template_v<decltype(db), B> << std::endl;</span><br>
+<span>    std::cout << is_sub_class_template_v<decltype(f), B> << std::endl;</span><br>
+<span>    std::cout << is_sub_class_template_v<decltype(0), B> << std::endl;</span><br>
+<span>    return 0;</span><br>
+<span>}</span><br>
+<span>output</span><br>
+<span>1</span><br>
+<span>1</span><br>
+<span>0</span><br>
+<span>0</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>猫島かおる 发表于 2020-7-7 22:58</span><br>
+<span>和楼主要求的稍微有点不一样，您看看这个行不行</span><br>
+<span>明天上班了看一下，要是可以私信下支付宝。</span><br>
+<span>现在躺床上用手机看感觉有8分靠谱</span><br>
+</p><p><b>d2loader: </b><br>
+<span> 本帖最后由 d2loader 于 2020-7-7 23:05 编辑 </span><br>
+<span>抄了一个发现不对</span><br>
+<span>答案都要C++17的特性</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>d2loader 发表于 2020-7-7 23:03</span><br>
+<span>抄了一个发现不对</span><br>
+<span>答案都要C++17的特性</span><br>
+<span>C++ 17也可以参考，项目是我自己个人的。</span><br>
+<span>C++20的语法都可以用，实现了就行。</span><br>
+</p><p><b>resty: </b><br>
+<span>被骗了，struct默认是public继承</span><br>
+</p><p><b>d2loader: </b><br>
+<span>#include <iostream></span><br>
+<span>#include <type_traits></span><br>
+<span>template <typename T> struct Base1 {};</span><br>
+<span>template <typename T> struct Base2 {};</span><br>
+<span>struct DerivedSingle : Base1<int> {};</span><br>
+<span>struct DerivedProtected : protected Base1<int> {};</span><br>
+<span>struct DerivedMultiple : Base1<int>, Base2<int> {};</span><br>
+<span>struct DerivedSame : Base1<int>, Base1<char> {};</span><br>
+<span>struct NotDerived {};</span><br>
+<span>template <template <typename...> class BaseTemplate, typename Derived,</span><br>
+<span>          typename TCheck = void></span><br>
+<span>struct test_base_template;</span><br>
+<span>template <template <typename...> class BaseTemplate, typename Derived></span><br>
+<span>using is_base_template_of =</span><br>
+<span>    typename test_base_template<BaseTemplate, Derived>::is_base;</span><br>
+<span>// Derive - is a class. Let inherit from Derive, so it can cast to its protected</span><br>
+<span>// parents</span><br>
+<span>template <template <typename...> class BaseTemplate, typename Derived></span><br>
+<span>struct test_base_template<BaseTemplate, Derived,</span><br>
+<span>                        std::enable_if_t<std::is_class_v<Derived>>></span><br>
+<span>    : Derived {</span><br>
+<span>template <typename... T></span><br>
+<span>static constexpr std::true_type test(BaseTemplate<T...> *);</span><br>
+<span>static constexpr std::false_type test(...);</span><br>
+<span>using is_base = decltype(test((test_base_template *)nullptr));</span><br>
+<span>};</span><br>
+<span>// Derive - is not a class, so it always false</span><br>
+<span>template <template <typename...> class BaseTemplate, typename Derived></span><br>
+<span>struct test_base_template<BaseTemplate, Derived,</span><br>
+<span>                        std::enable_if_t<!std::is_class_v<Derived>>> {</span><br>
+<span>using is_base = std::false_type;</span><br>
+<span>};</span><br>
+<span>int main() {</span><br>
+<span>    DerivedSingle ds;</span><br>
+<span>std::cout << is_base_template_of<Base1, decltype(ds)>::value << '\n';</span><br>
+<span>}</span><br>
+<span>可以用C++17的话你可以试试看</span><br>
+</p><p><b>resty: </b><br>
+<span> 本帖最后由 resty 于 2020-7-7 23:43 编辑 </span><br>
+<span>d2loader 发表于 2020-7-7 23:10</span><br>
+<span>可以用C++17的话你可以试试看</span><br>
+<span>同上，struct默认是公有继承</span><br>
+</p><p><b>zerofighter: </b><br>
+<span>https://github.com/ZFFramework/ZFFramework/blob/master/ZF/ZFCore/zfsrc/ZFCore/ZFCoreDef/ZFCoreUtilTemplate.h#L443</span><br>
+<span>造过个类似的轮子，不知道是不是你要的</span><br>
+<span>顺便安利下链接里的玩意儿，很多奇奇怪怪的奇技淫巧</span><br>
+</p><p><b>resty: </b><br>
+<span> 本帖最后由 resty 于 2020-7-8 01:27 编辑 </span><br>
+<span>resty 发表于 2020-7-7 23:12</span><br>
+<span>同上，struct默认是共有继承</span><br>
+<span>拿楼上诸位的代码改改居然成了</span><br>
+<span>#include <iostream></span><br>
+<span>#include <type_traits></span><br>
+<span>template <typename T> struct Base1 {};</span><br>
+<span>template <typename T> struct Base2 {};</span><br>
+<span>class DerivedSingle : private Base1<int> {};</span><br>
+<span>class DerivedProtected : protected Base1<int> {};</span><br>
+<span>class DerivedMultiple : Base1<int>, Base2<int> {};</span><br>
+<span>class DerivedSame : Base1<int>, Base1<char> {};</span><br>
+<span>class NotDerived {};</span><br>
+<span>template <typename T1, typename T2></span><br>
+<span>class Base2v {};</span><br>
+<span>class D : Base2v<int, int> {};</span><br>
+<span>template <template <typename...> class B, typename D, typename = void></span><br>
+<span>struct test_base_template;</span><br>
+<span>template <template <typename...> class B, typename D></span><br>
+<span>struct test_base_template<B, D,</span><br>
+<span>    typename std::enable_if<std::is_class<D>::value>::type> {</span><br>
+<span>    template <typename... T></span><br>
+<span>    static constexpr std::true_type test(B<T...>*);</span><br>
+<span>    static constexpr std::false_type test(...);</span><br>
+<span>};</span><br>
+<span>template <template <typename...> class B, typename D></span><br>
+<span>struct test_base_template<B, D,</span><br>
+<span>    typename std::enable_if<!std::is_class<D>::value>::type> {</span><br>
+<span>    static constexpr std::false_type test(...);</span><br>
+<span>};</span><br>
+<span>template <class...> using void_t = void;</span><br>
+<span>template <template <typename...> class B, typename D></span><br>
+<span>using test_for_same_or_public_inheritance = decltype(test_base_template<B, D>::test(static_cast<D*>(nullptr)));</span><br>
+<span>template <template <typename...> class B, typename D, typename = void></span><br>
+<span>struct is_template_base_of : public std::true_type {};</span><br>
+<span>template <template <typename...> class B, typename D></span><br>
+<span>struct is_template_base_of<B, D, void_t<test_for_same_or_public_inheritance<B, D>>></span><br>
+<span>    : public test_for_same_or_public_inheritance<B, D> {};</span><br>
+<span>int main() {</span><br>
+<span>    std::cout << is_template_base_of<Base1, DerivedSingle>::value << '\n';</span><br>
+<span>    std::cout << is_template_base_of<Base1, DerivedProtected>::value << '\n';</span><br>
+<span>    std::cout << is_template_base_of<Base2, DerivedMultiple>::value << '\n';</span><br>
+<span>    std::cout << is_template_base_of<Base1, DerivedSame>::value << '\n';</span><br>
+<span>    std::cout << is_template_base_of<Base1, NotDerived>::value << '\n';</span><br>
+<span>    std::cout << is_template_base_of<Base2v, D>::value << '\n';</span><br>
+<span>}</span><br>
+<span>></span><br>
+<span>结果</span><br>
+<span>1</span><br>
+<span>1</span><br>
+<span>1</span><br>
+<span>1</span><br>
+<span>0</span><br>
+<span>1</span><br>
+<span>顺便感谢lz, 很少写模板代码，今天又涨不少奇技淫巧。</span><br>
+<span>换了个整理简化后的，不幸的消息是我刚下了个mingw跑g++，结果DerivedSame那一项的结果居然和VS不一样，两边不知谁错了。</span><br>
+<span>大概区别是下面的代码g++报错了vs2019没事</span><br>
+<span>#include <vector></span><br>
+<span>template <typename T></span><br>
+<span>void f(std::vector<T>* s) {}</span><br>
+<span>struct N : std::vector<int>, std::vector<char> {} n;</span><br>
+<span>int main() {</span><br>
+<span>f(&n)；</span><br>
+<span>}</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>每当看到这种帖子，我都在怀疑我到底学没学过C++</span><br>
+</p><p><b>aaabbbccc__: </b><br>
+<span>template <typename T> class A {};A 不是个存在的类型， 只有有具体的 T， A<T> 才是个类型</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>resty 发表于 2020-7-7 23:34</span><br>
+<span>拿楼上诸位的代码改改居然成了</span><br>
+<span>兄弟支付宝私聊一下</span><br>
+</p><p><b>zxlice: </b><br>
+<span>来了，尖括号冒号星号教做人</span><br>
+</p><p><b>刻刻帝: </b><br>
+<span>我以为我懂所以进来了，但是发现并不懂</span><br>
+</p><p><b>自旋: </b><br>
+<span>Chromium的版本还能看懂，22楼的就已经看不懂了……</span><br>
+</p><p><b>云卷花开: </b><br>
+<span>mark</span><br>
+</p><p><b>aw98132139: </b><br>
+<span> 本帖最后由 aw98132139 于 2020-7-8 13:13 编辑 </span><br>
+<span>resty 发表于 2020-7-7 23:34</span><br>
+<span>拿楼上诸位的代码改改居然成了</span><br>
+<span>看了下感觉你这个和楼主的要求不太一致啊。楼主是要一个具体Derived实例d来作为模板参数，你这个还是以类型来作为模板参数。另外感觉如果想以实例来作为模板参数走特化的路子的话，困难在于如何让Derived的不同实例d1,d2走到同一个特化路径上吧？</span><br>
+</p><p><b>暴力炸鱼: </b><br>
+<span>aw98132139 发表于 2020-7-8 12:55</span><br>
+<span>看了下感觉你这个和楼主的要求不太一致啊。楼主是要一个具体Derived实例d来作为模板参数，你这个还是以类 ...</span><br>
+<span>这个就行了，实例作参数纯属手滑打错了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946457[0-50]</guid>
+    </item>
+  </channel>
+</rss>

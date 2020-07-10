@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3400g + deskmini a300翻车了，win10启动黑屏进不了桌面</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>3400g + deskmini a300翻车了，win10启动黑屏进不了桌面</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:05:22 +0000</lastBuildDate>
+    <item>
+      <title>3400g + deskmini a300翻车了，win10启动黑屏进不了桌面[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1879417-1-1.html</link>
+      <description>3400g + deskmini a300翻车了，win10启动黑屏进不了桌面&#13;
+今天刚到的华擎a300，两根8g的2666内存，额外加了块9260ac的无线模块。
+&#13;
+硬盘是之前笔记本的换下来的128g的name ssd。里面有系统，装进机器里原有的win10还能跑。就是驱动都不对。
+&#13;
+用驱动大师，先修复wifi，安了驱动还是不工作。于是接网线装驱动，装了一半就黑了。
+&#13;
+原本天真的以为是系统烂了，结果后面装了两次win10，分别是1903和1909，结果一样，都没能见到桌面。安装时，过了设置用户名密码正要进桌面的时候就黑了。硬盘灯倒还会有节奏的是不是闪一下。
+&#13;
+之后装了ubuntu 19.10，顺利进桌面。不过显卡驱动还没有折腾进去。9260的蓝牙识别出来了，无线倒是没有。
+&#13;
+怀疑是不是win10自带的显卡驱动有啥问题？对了，用的是dp线连一台2k的显示器。
+&#13;
+对了，3400g用ix40压，开机进bios就快50度了。室温24度的样子，这个温度正常么？
+&#13;
+近十年没装机了，就想弄台小机器打打cs go，居然翻车了哈哈哈
+&#13;
+还请各位大佬指点迷津，23333</description>
+      <content:encoded><![CDATA[<p><b>Fury: </b><br>
+<span>3400g + deskmini a300翻车了，win10启动黑屏进不了桌面</span><br>
+<span>今天刚到的华擎a300，两根8g的2666内存，额外加了块9260ac的无线模块。</span><br>
+<span>硬盘是之前笔记本的换下来的128g的name ssd。里面有系统，装进机器里原有的win10还能跑。就是驱动都不对。</span><br>
+<span>用驱动大师，先修复wifi，安了驱动还是不工作。于是接网线装驱动，装了一半就黑了。</span><br>
+<span>原本天真的以为是系统烂了，结果后面装了两次win10，分别是1903和1909，结果一样，都没能见到桌面。安装时，过了设置用户名密码正要进桌面的时候就黑了。硬盘灯倒还会有节奏的是不是闪一下。</span><br>
+<span>之后装了ubuntu 19.10，顺利进桌面。不过显卡驱动还没有折腾进去。9260的蓝牙识别出来了，无线倒是没有。</span><br>
+<span>怀疑是不是win10自带的显卡驱动有啥问题？对了，用的是dp线连一台2k的显示器。</span><br>
+<span>对了，3400g用ix40压，开机进bios就快50度了。室温24度的样子，这个温度正常么？</span><br>
+<span>近十年没装机了，就想弄台小机器打打cs go，居然翻车了哈哈哈</span><br>
+<span>还请各位大佬指点迷津，23333</span><br>
+</p><p><b>SICP: </b><br>
+<span>1. 黑屏试试换一下显示器口，4K HDMI进BIOS和Windows读取界面会黑屏</span><br>
+<span>2. 无线模块不清楚，我的是Killer网卡，正常</span><br>
+<span>3. 温度我用自带的扇子，压200GE是52-54度</span><br>
+</p><p><b>hguawolo: </b><br>
+<span>可以用typec的口接显示器试试</span><br>
+</p><p><b>Fury: </b><br>
+<span>我先换个显示器和接口试试去</span><br>
+</p><p><b>sirlion: </b><br>
+<span>安全模式进得去的，反复在启动的时候拔电源，三次就有安全模式可以选</span><br>
+</p><p><b>Fury: </b><br>
+<span>2333 dp口确实不好用。换了台4k的显示器，走hdmi点亮了。</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>deskmini a300带3400g会撞功耗墙吧。。</span><br>
+</p><p><b>Fury: </b><br>
+<span>lucifer0607 发表于 2019-12-5 13:30</span><br>
+<span>deskmini a300带3400g会撞功耗墙吧。。</span><br>
+<span>不清楚额，带的电源是120w的。我的暗影精灵4电源也才150w，不过是8750h和弱鸡1050ti</span><br>
+</p><p><b>litel: </b><br>
+<span>升级bios试试。</span><br>
+<span>升级bios前，内存先降频到1600防止内存不稳刷bios失败。</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>把IOMMU之类的涉及到虚拟化的东西关掉试试。</span><br>
+</p><p><b>Fury: </b><br>
+<span>lucifer0607 发表于 2019-12-5 13:30</span><br>
+<span>deskmini a300带3400g会撞功耗墙吧。。</span><br>
+<span>看起来是撞墙了。娱乐大师跑下来cpu是7w多分。我看网上的评测都是8w的。</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>Fury 发表于 2019-12-7 11:51</span><br>
+<span>看起来是撞墙了。娱乐大师跑下来cpu是7w多分。我看网上的评测都是8w的。</span><br>
+<span>A300什么情况我不太清楚，我的H310好像主板只给了65还是75W</span><br>
+<span>就很僵硬</span><br>
+</p><p><b>Fury: </b><br>
+<span>lucifer0607 发表于 2019-12-7 12:35</span><br>
+<span>A300什么情况我不太清楚，我的H310好像主板只给了65还是75W</span><br>
+<span>就很僵硬</span><br>
+<span>没办法，毕竟超小的板子。</span><br>
+<span>现在性能也还可以，1080p下能60帧玩cs go（内存小超到3000），风扇还不怎么转（虽然我在bios里调过风扇策略了，233）。比我两台笔记本都安静，很满意了。</span><br>
+<span>哦对了，要说不满意的地方，大概就是有轻微的电流啸叫了。机器就放我枕头边上，关机后一定要关电源，233</span><br>
+</p><p><b>neosea: </b><br>
+<span>Fury 发表于 2019-12-7 23:31</span><br>
+<span>没办法，毕竟超小的板子。</span><br>
+<span>现在性能也还可以，1080p下能60帧玩cs go（内存小超到3000），风扇还不怎么转 ...</span><br>
+<span>请教一下大佬，这机器无线网卡压在M2底下真的不会过热翻车吗？另外大佬买了usb2.0扩展线没有，好不好用？在网上看有人说接移动硬盘翻车心很慌，但接满硬盘又怕散热不好或者接口有冲突</span><br>
+</p><p><b>qazesz: </b><br>
+<span>dp又出问题了吗</span><br>
+<span>surface的minidp也是，闪屏，在网上查了下dp点不亮/不稳定的太多了</span><br>
+</p><p><b>Fury: </b><br>
+<span>neosea 发表于 2020-2-29 19:43</span><br>
+<span>请教一下大佬，这机器无线网卡压在M2底下真的不会过热翻车吗？另外大佬买了usb2.0扩展线没有，好不好用？ ...</span><br>
+<span>还行吧，哈哈，反正我下steam游戏可以稳定在40MB+，好的时候能到50MB。USB扩展线也买了，做工蛮粗糙的。我也就是接键盘鼠标。主板自带的USB和机箱前置的usb3.0带移动硬盘都是没有问题的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1879417[0-50]</guid>
+    </item>
+  </channel>
+</rss>

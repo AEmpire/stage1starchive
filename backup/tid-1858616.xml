@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>potplay怎么显示两行字幕?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>potplay怎么显示两行字幕?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:46:44 +0000</lastBuildDate>
+    <item>
+      <title>potplay怎么显示两行字幕?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858616-1-1.html</link>
+      <description>potplay怎么显示两行字幕?&#13;
+有办法做到吗?
+&#13;
+就是上一行字幕保留一段时间或者上移,类似于土鳖那样,
+&#13;
+srt是自己用土鳖API转的字幕.</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>potplay怎么显示两行字幕?</span><br>
+<span>有办法做到吗?</span><br>
+<span>就是上一行字幕保留一段时间或者上移,类似于土鳖那样,</span><br>
+<span>srt是自己用土鳖API转的字幕.</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>同时开启potplayer和xysubfilter，然后把其中一个的时间位移几秒</span><br>
+</p><p><b>sirlion: </b><br>
+<span>我记得你默认播放一个字幕后，你再拖拉一个新字幕文件进去，会自动提示你在哪个地方可以显示第二条字幕的</span><br>
+</p><p><b>macos: </b><br>
+<span>你说的功能，像音乐的滚动歌词？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>字幕文件里所有结束时间加个量，怎么显示看播放软件/滤镜的设计</span><br>
+</p><p><b>牙晓: </b><br>
+<span>画面上鼠标右键。。。字幕。。。选择显示次字幕，宽度和高度都可以调节</span><br>
+</p><p><b>牙晓: </b><br>
+<span>什么，滚动效果，没有试过</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>塔奇克马 发表于 2019-10-9 13:44</span><br>
+<span>有办法做到吗?</span><br>
+<span>就是上一行字幕保留一段时间或者上移,类似于土鳖那样,</span><br>
+<span>我写了个工具 把YouTube的自动字幕转为带滚动甚至是带一个一个字蹦的ass字幕，基本是完美还原了。</span><br>
+<span>就是不知道现在还兼容不兼容现在的YouTube版本</span><br>
+<span>地址 sofronio.cn</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>SimonOpera 发表于 2019-10-11 04:35</span><br>
+<span>我写了个工具 把YouTube的自动字幕转为带滚动甚至是带一个一个字蹦的ass字幕，基本是完美还原了。</span><br>
+<span>我发现我那个工具是直接srt没有vtt 看来要弄个vtt工具...</span><br>
+<span>然后我发现vtt工具需要自己抽出音频.几百个视频.太麻烦. ...了</span><br>
+</p><p><b>两个路人: </b><br>
+<span>塔奇克马 发表于 2019-10-11 12:18</span><br>
+<span>我发现我那个工具是直接srt没有vtt 看来要弄个vtt工具...</span><br>
+<span>然后我发现vtt工具需要自己抽出音频.几百个视频 ...</span><br>
+<span>Youtube-dl应该已经修正了下载字幕必须带视频的问题了吧，记得加个no-download（大概）就完了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-10-11 13:54 编辑 </span><br>
+<span>两个路人 发表于 2019-10-11 13:13</span><br>
+<span>Youtube-dl应该已经修正了下载字幕必须带视频的问题了吧，记得加个no-download（大概）就完了 ...</span><br>
+<span>我是把本地视频加上字幕,这些视频不是土鳖的.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858616[0-50]</guid>
+    </item>
+  </channel>
+</rss>

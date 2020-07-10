@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌于AOSP源代码中阻止部分软件运行于90Hz：包括谷歌地图</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌于AOSP源代码中阻止部分软件运行于90Hz：包括谷歌地图</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:27:44 +0000</lastBuildDate>
+    <item>
+      <title>谷歌于AOSP源代码中阻止部分软件运行于90Hz：包括谷歌地图[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861624-1-1.html</link>
+      <description>谷歌于AOSP源代码中阻止部分软件运行于90Hz：包括谷歌地图&#13;
+ 本帖最后由 Bondrewd 于 2019-10-27 10:52 编辑 
+
+90Hz 的高刷新率显示屏，算是 Google Pixel 4 系列智能机的一大亮点，助其获得了 DisplayMate 最高的 A+ 评级。然而在某些情况下，一些 App 却没能顺利启用 90Hz 刷新率，这到底又是怎么一回事呢？通过检查 Android 开源项目（AOSP）的源代码，我们惊讶地发现，原来一些 App 竟然上了谷歌的 60Hz 黑名单。
+&#13;
+目前已知的有《谷歌地图》、《精灵宝可梦 Go》、《Waze》、以及《WeChat》。谷歌在代码注释中解释到：“这些 App 在 90Hz 高刷新率屏幕上的表现不佳”。
+&#13;
+以《精灵宝可梦 Go》为例，这意味着它的 90Hz 显示模式，仍需开发商投入更多的时间和经历，以解决高刷新率设置下的性能问题。
+&#13;
+http://static.cnbetacdn.com/article/2019/1026/33f3acdedee98ac.png
+&#13;
+外媒 Android Police 在 Pixel 4 实测了《谷歌地图》和《Waze 打车》应用，结果发现屏幕刷新率确实会从 90Hz 掉到 60Hz 。
+&#13;
+而在退出《谷歌地图》App 之后，Pixel 4 的屏幕刷新率又会重新回到 90Hz 的高刷新率模式。
+&#13;
+http://static.cnbetacdn.com/article/2019/1026/3076564f103401a.png
+&#13;
+如果你不希望在应用黑名单给限制高刷新率模式的使用，不妨尝试启用“强制 90Hz 显示模式”的开发人员选项。
+&#13;
+遗憾的是，即便如此，在《谷歌地图》应用内的滚动操作体验，也没有得到肉眼可见的大幅提升。
+&#13;
+当然，我们还是希望相关 App 开发商，能够在未来进一步优化，以解除谷歌的 60Hz 黑名单限制。</description>
+      <content:encoded><![CDATA[<p><b>Bondrewd: </b><br>
+<span>谷歌于AOSP源代码中阻止部分软件运行于90Hz：包括谷歌地图</span><br>
+<span> 本帖最后由 Bondrewd 于 2019-10-27 10:52 编辑 </span><br>
+<span>90Hz 的高刷新率显示屏，算是 Google Pixel 4 系列智能机的一大亮点，助其获得了 DisplayMate 最高的 A+ 评级。然而在某些情况下，一些 App 却没能顺利启用 90Hz 刷新率，这到底又是怎么一回事呢？通过检查 Android 开源项目（AOSP）的源代码，我们惊讶地发现，原来一些 App 竟然上了谷歌的 60Hz 黑名单。</span><br>
+<span>目前已知的有《谷歌地图》、《精灵宝可梦 Go》、《Waze》、以及《WeChat》。谷歌在代码注释中解释到：“这些 App 在 90Hz 高刷新率屏幕上的表现不佳”。</span><br>
+<span>以《精灵宝可梦 Go》为例，这意味着它的 90Hz 显示模式，仍需开发商投入更多的时间和经历，以解决高刷新率设置下的性能问题。</span><br>
+<img src="http://static.cnbetacdn.com/article/2019/1026/33f3acdedee98ac.png" title="http://static.cnbetacdn.com/article/2019/1026/33f3acdedee98ac.png"><br>
+<span>外媒 Android Police 在 Pixel 4 实测了《谷歌地图》和《Waze 打车》应用，结果发现屏幕刷新率确实会从 90Hz 掉到 60Hz 。</span><br>
+<span>而在退出《谷歌地图》App 之后，Pixel 4 的屏幕刷新率又会重新回到 90Hz 的高刷新率模式。</span><br>
+<img src="http://static.cnbetacdn.com/article/2019/1026/3076564f103401a.png" title="http://static.cnbetacdn.com/article/2019/1026/3076564f103401a.png"><br>
+<span>如果你不希望在应用黑名单给限制高刷新率模式的使用，不妨尝试启用“强制 90Hz 显示模式”的开发人员选项。</span><br>
+<span>遗憾的是，即便如此，在《谷歌地图》应用内的滚动操作体验，也没有得到肉眼可见的大幅提升。</span><br>
+<span>当然，我们还是希望相关 App 开发商，能够在未来进一步优化，以解除谷歌的 60Hz 黑名单限制。</span><br>
+</p><p><b>ronh: </b><br>
+<span>pokemon go游戏本身锁死30fps的，这黑得没水平。</span><br>
+<span>— from Google Pixel 3 XL, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>我觉得90Hz刷新率没啥意义，还不如其它手机一步到位的120Hz，就像显示器的60Hz直接升级到120Hz/144Hz那种体验的提升才更直观。</span><br>
+</p><p><b>elflie: </b><br>
+<span>性欲モンスター 发表于 2019-10-27 01:05</span><br>
+<span>我觉得90Hz刷新率没啥意义，还不如其它手机一步到位的120Hz，就像显示器的60Hz直接升级到120Hz/144Hz那种体 ...</span><br>
+<span>就算放到PC里，使用高刷新率显示器有明显提升的也就是部分游戏，手机上这个性能不够，徒增耗电显然是得不偿失</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>elflie 发表于 2019-10-27 01:29</span><br>
+<span>就算放到PC里，使用高刷新率显示器有明显提升的也就是部分游戏，手机上这个性能不够，徒增耗电显然是得不 ...</span><br>
+<span>不止游戏，连桌面的快速移动鼠标和滚动网页/表格/页面等都是连贯得如丝般顺滑。</span><br>
+</p><p><b>elflie: </b><br>
+<span>性欲モンスター 发表于 2019-10-27 01:39</span><br>
+<span>不止游戏，连桌面的快速移动鼠标和滚动网页/表格/页面等都是连贯得如丝般顺滑。 ...</span><br>
+<span>但是这并不能提升你的效率，也不会让你浏览网页的速度变快</span><br>
+</p><p><b>yaoyiqun513: </b><br>
+<span>这不就和华为emui10一开始限制游戏分辨率一个做法么，讲道理还是为了省电</span><br>
+</p><p><b>奶牛: </b><br>
+<span>yaoyiqun513 发表于 2019-10-27 01:56</span><br>
+<span>这不就和华为emui10一开始限制游戏分辨率一个做法么，讲道理还是为了省电</span><br>
+<span>别人是地图保持60不升到90，小畜生那是游戏本身锁30</span><br>
+<span>EMUI那是把地图60降到15，质变了</span><br>
+</p><p><b>epilogue: </b><br>
+<span>性欲モンスター 发表于 2019-10-27 01:05</span><br>
+<span>我觉得90Hz刷新率没啥意义，还不如其它手机一步到位的120Hz，就像显示器的60Hz直接升级到120Hz/144Hz那种体 ...</span><br>
+<span>厂商又不傻，90本来就是一个折中选择，一是让你在碰到锁60的应用时体验差距不会那么明显，二是为了控制功耗。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>[移动] 谷歌于AOSP源代码中限制部分软件运行于90Hz：包括谷歌地图 </span><br>
+<span>只有我一个人觉得楼主文不对题？？？</span><br>
+</p><p><b>星月肥纪: </b><br>
+<span>我印象中夏普用谷歌地图是不锁帧的，这pixel的地图版本比较特别？</span><br>
+<span>—— 來自 realme RMX1971, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>马赛克: </b><br>
+<span>真那么在意在开发者选项里可以让你强制永远90hz，这应该是Google的省电策略罢了</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>咲月露娜 发表于 2019-10-27 06:26</span><br>
+<span>[移动] 谷歌于AOSP源代码中限制部分软件运行于90Hz：包括谷歌地图 </span><br>
+<span>只有我一个人觉得楼主文不对题？？？ ...</span><br>
+<span>您说说哪儿概括错了吗</span><br>
+</p><p><b>22174559: </b><br>
+<span>性欲モンスター 发表于 2019-10-27 01:05</span><br>
+<span>我觉得90Hz刷新率没啥意义，还不如其它手机一步到位的120Hz，就像显示器的60Hz直接升级到120Hz/144Hz那种体 ...</span><br>
+<span>挤牙膏 慢慢榨钱</span><br>
+</p><p><b>308: </b><br>
+<span>Bondrewd 发表于 2019-10-27 10:10:57</span><br>
+<span>您说说哪儿概括错了吗“限制运行于90hz”会让人理解成“只能以90hz运行”，但你的内容是说app无法以90hz形式良好运行</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>shahito: </b><br>
+<span>看过国外原本的新闻和别人的评论两个地图软件关了是因为开起来反而体验比90hz差，更不滑。然后wechat是因为poor performance。</span><br>
+</p><p><b>露露缇耶: </b><br>
+<span>个人感觉显示器从60提升到144的区别没有手机提升到90的区别明显。可能是操作方式不同导致的</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我前几天帖子说了，没适配就是开了反而变卡</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861624[0-50]</guid>
+    </item>
+  </channel>
+</rss>

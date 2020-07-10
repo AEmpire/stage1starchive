@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>美国联想的灵越15怎么实现U盘启动？//////已解决</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>美国联想的灵越15怎么实现U盘启动？//////已解决</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:16:04 +0000</lastBuildDate>
+    <item>
+      <title>美国联想的灵越15怎么实现U盘启动？//////已解决[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903773-1-1.html</link>
+      <description>美国联想的灵越15怎么实现U盘启动？//////已解决&#13;
+ 本帖最后由 maidplayer 于 2019-12-18 17:27 编辑 
+
+解决了，只能说DELL 脑壳有问题
+&#13;
+灵越15 5548这个笔记本一共有三个USB接口，其中左侧靠近电源口的是系统原生
+&#13;
+右边靠近HDMI输出的是USB-CW转的，外形跟原生USB一毛一样，你服不服
+&#13;
+系统下能读是因为装了RTL USB读卡器驱动，BIOS下是不认的（但是有USB供电
+&#13;
+==============================
+&#13;
+求助
+&#13;
+笔记本是灵越15-5548，准备重灌系统（预装的win8），BIOS里面启动改成Legacy、EFI+Secure Boot Disabled两种，都看不到USB启动的选项
+&#13;
+跟这个图一毛一样：
+&#13;
+请问怎样才能进到U盘的PE系统？</description>
+      <content:encoded><![CDATA[<p><b>maidplayer: </b><br>
+<span>美国联想的灵越15怎么实现U盘启动？//////已解决</span><br>
+<span> 本帖最后由 maidplayer 于 2019-12-18 17:27 编辑 </span><br>
+<span>解决了，只能说DELL 脑壳有问题</span><br>
+<span>灵越15 5548这个笔记本一共有三个USB接口，其中左侧靠近电源口的是系统原生</span><br>
+<span>右边靠近HDMI输出的是USB-CW转的，外形跟原生USB一毛一样，你服不服</span><br>
+<span>系统下能读是因为装了RTL USB读卡器驱动，BIOS下是不认的（但是有USB供电</span><br>
+<span>==============================</span><br>
+<span>求助</span><br>
+<span>笔记本是灵越15-5548，准备重灌系统（预装的win8），BIOS里面启动改成Legacy、EFI+Secure Boot Disabled两种，都看不到USB启动的选项</span><br>
+<span>跟这个图一毛一样：</span><br>
+<span>请问怎样才能进到U盘的PE系统？</span><br>
+</p><p><b>騜: </b><br>
+<span>你的PE是UEFI的？</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-18 14:21 编辑 </span><br>
+<span>1. PE问题，给做的UEFI启动 2. 磁盘格式问题，BIOS读不出（有概率）3. 制作软件问题，模拟条件BIOS不支持</span><br>
+<span>我们之前的HP机子有一批用ultraISO做HDD+模拟就是起不来，要用的HDD才行</span><br>
+</p><p><b>maidplayer: </b><br>
+<span>騜 发表于 2019-12-18 13:56</span><br>
+<span>你的PE是UEFI的？</span><br>
+<span>对</span><br>
+</p><p><b>两个路人: </b><br>
+<span>maidplayer 发表于 2019-12-18 14:19</span><br>
+<span>对</span><br>
+<span>你把EFI支持关了，起得来个鬼哦</span><br>
+</p><p><b>nexus1: </b><br>
+<span>我xps也是直接插不能启动，插在雷电口的dock上就能启动……</span><br>
+</p><p><b>maidplayer: </b><br>
+<span>两个路人 发表于 2019-12-18 14:22</span><br>
+<span>你把EFI支持关了，起得来个鬼哦</span><br>
+<span>你不知道有UEFI+Legacy模式吗？</span><br>
+<img src="https://i.loli.net/2019/12/18/bRpAC5SvqlMI98w.jpg" title="https://i.loli.net/2019/12/18/bRpAC5SvqlMI98w.jpg"><br>
+<span>另外补充一下：wepe有Legacy+EFI三分区引导；这个破本子用老式PE（比如老毛桃）也看不到U盘 </span><br>
+</p><p><b>强尼高达: </b><br>
+<span>maidplayer 发表于 2019-12-18 14:36</span><br>
+<span>你不知道有UEFI+Legacy模式吗？</span><br>
+<span>另外补充一下：wepe有Legacy+EFI三分区引导；这个破本子用老式PE（比如老 ...</span><br>
+<span>你用rufus和MSDN镜像做个正经Win10安装盘看看是不是你这个破PE的问题</span><br>
+</p><p><b>maidplayer: </b><br>
+<span>强尼高达 发表于 2019-12-18 14:45</span><br>
+<span>你用rufus和MSDN镜像做个正经Win10安装盘看看是不是你这个破PE的问题</span><br>
+<span>不是，B250的板子Legacy和EFI都启动得好好的，几个PE都没问题</span><br>
+<span>另外dell这个本子自带的Windows8.1，安装PE到硬盘上（Wepe）也能正常启动，无论开不开EFI（当然Secure Boot要关掉</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-18 16:15 编辑 </span><br>
+<span>maidplayer 发表于 2019-12-18 14:36</span><br>
+<span>你不知道有UEFI+Legacy模式吗？</span><br>
+<span>另外补充一下：wepe有Legacy+EFI三分区引导；这个破本子用老式PE（比如老 ...</span><br>
+<span>我确实不知道Dell奇葩的BIOS有什么具体选项，但是就你这张照片来说，USB设备都没有被检测到那是真的</span><br>
+<span>建议你插到USB 2.0的接口上再试试。另外就是制作器的USB模拟选项。大约Dell就是这么设计不给你玩的。</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>maidplayer 发表于 2019-12-18 14:48</span><br>
+<span>不是，B250的板子Legacy和EFI都启动得好好的，几个PE都没问题</span><br>
+<span>另外dell这个本子自带的Windows8.1，安装PE ...</span><br>
+<span>那也不能说明你这个破PE没问题啊，标准Windows安装盘到底能起来吗</span><br>
+<span>非挂在这个PE这棵树上，你分别刻光盘和用rufus做个U盘也算troubleshooting了</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>我翻了下记录</span><br>
+<span>有一台ODM BIOS的Wyse机器，为了启动FreeNAS和OMV，我是用了量产成USB光驱的U盘写入这俩货的ISO彻底模拟成外置光驱才能启动，连rufus都不行</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>现在没必要用pe安装系统吧，直接找个u盘烧录软件把iso灌进去不就行了？一般都能引导</span><br>
+</p><p><b>两个路人: </b><br>
+<span>土豆麻辣人 发表于 2019-12-18 16:28</span><br>
+<span>现在没必要用pe安装系统吧，直接找个u盘烧录软件把iso灌进去不就行了？一般都能引导 ...</span><br>
+<span>图样图森破，笔记本里奇葩的BIOS多如牛毛。我看了一下这个型号还是薄款不带光驱的，指不定就和楼上有人说的得外挂dock才能让通用USB设备启动。要不就是得有特别分区设计的恢复镜像</span><br>
+</p><p><b>maidplayer: </b><br>
+<span>两个路人 发表于 2019-12-18 16:57</span><br>
+<span>图样图森破，笔记本里奇葩的BIOS多如牛毛。我看了一下这个型号还是薄款不带光驱的，指不定就和楼上有人说 ...</span><br>
+<span>对，没有光驱，不过这不是问题</span><br>
+<span>Dell那个recovery奇卡无比，恢复出厂的时候要扫描用户文件（好像是做备份），我等了个把钟头实在受不了了</span><br>
+</p><p><b>maidplayer: </b><br>
+<span>强尼高达 发表于 2019-12-18 16:19</span><br>
+<span>那也不能说明你这个破PE没问题啊，标准Windows安装盘到底能起来吗</span><br>
+<span>非挂在这个PE这棵树上，你分别刻光盘和 ...</span><br>
+<span>不能</span><br>
+<span>我不用光驱，系统：（了你给我重灌？？？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>同款电脑，这个u口挑盘，不是所有兼容的，建议用2.0那个口装，pe用usm u盘魔术师</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903773[0-50]</guid>
+    </item>
+  </channel>
+</rss>

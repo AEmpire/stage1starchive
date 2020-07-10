@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>每次登陆服务器都会提示有几千个失败登陆怎么解决？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>每次登陆服务器都会提示有几千个失败登陆怎么解决？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:44:23 +0000</lastBuildDate>
+    <item>
+      <title>每次登陆服务器都会提示有几千个失败登陆怎么解决？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839920-1-1.html</link>
+      <description>每次登陆服务器都会提示有几千个失败登陆怎么解决？&#13;
+ 本帖最后由 requiem116 于 2019-6-16 17:58 编辑 
+
+rt，查过资料以后装了一个fail2ban，也不知道好不好使。是不是只要是公网ip就不可避免会出现这种被人暴力登陆的问题？
+&#13;
+现在账号还是root是不是赶紧换一下比较好？
+&#13;
+另外我经常出现ping能ping通但是ssh连不上去的问题有啥办法吗，本来是要搭个数据库在上面用来水文章结果现在数据都传不上去
+&#13;
+实在不行只有说服小老板用回aliyun好了。。。</description>
+      <content:encoded><![CDATA[<p><b>requiem116: </b><br>
+<span>每次登陆服务器都会提示有几千个失败登陆怎么解决？</span><br>
+<span> 本帖最后由 requiem116 于 2019-6-16 17:58 编辑 </span><br>
+<span>rt，查过资料以后装了一个fail2ban，也不知道好不好使。是不是只要是公网ip就不可避免会出现这种被人暴力登陆的问题？</span><br>
+<span>现在账号还是root是不是赶紧换一下比较好？</span><br>
+<span>另外我经常出现ping能ping通但是ssh连不上去的问题有啥办法吗，本来是要搭个数据库在上面用来水文章结果现在数据都传不上去</span><br>
+<span>实在不行只有说服小老板用回aliyun好了。。。</span><br>
+</p><p><b>requiem116: </b><br>
+<span>突然警觉，我这个不算违反版头吧。。。</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>默认端口 22 改了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span> 本帖最后由 Herreimu 于 2019-6-16 17:31 编辑 </span><br>
+<span>改端口就行</span><br>
+<span>萌新时期的我因为不知道在防火墙里开端口，所以什么iptables啊删除root账户啊都试过了，最后发现真的是</span><br>
+</p><p><b>last_order: </b><br>
+<span>能ping不能ssh很有可能是tcp阻断，你自己去https://ipcheck.need.sh/测一下。要是被阻断了，你搞个程序测测upd，udp可以的话，想办法tcp over udp，但是很多运营商会限制udp流量，反正用起来又麻烦效果又不好。</span><br>
+</p><p><b>requiem116: </b><br>
+<span>last_order 发表于 2019-6-16 17:43</span><br>
+<span>能ping不能ssh很有可能是tcp阻断，你自己去https://ipcheck.need.sh/测一下。要是被阻断了，你搞个程序测测 ...</span><br>
+<span>试了一下这个四个绿√</span><br>
+<span>所以有可能是我自己的网络问题？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>网络凶险，扫肉鸡无处不在。你还没遇到过DDoS到你宕机而已</span><br>
+</p><p><b>Benighted: </b><br>
+<span>改完端口建议换成证书登录别用密码了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839920[0-50]</guid>
+    </item>
+  </channel>
+</rss>

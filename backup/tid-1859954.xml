@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【再战十年】实践ZEN2安装WIN7+GPT</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【再战十年】实践ZEN2安装WIN7+GPT</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:38:13 +0000</lastBuildDate>
+    <item>
+      <title>【再战十年】实践ZEN2安装WIN7+GPT[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859954-1-1.html</link>
+      <description>【再战十年】实践ZEN2安装WIN7+GPT&#13;
+干活机器常规升级，稳定性需要加上不想改变使用习惯，遂考虑目前对WIN7支持比较好的农企平台，记录一下过程以供坛友参考少走弯路吧，虽然实际挺简单的
+&#13;
+准备工作：
+&#13;
+U盘一枚，然后是WIN7x64 ISO，WIN PE（我使用微PE），MSI Smart Tool，引导盘制作工具（强烈推荐rufus）
+&#13;
+安装流程：
+&#13;
+首先是准备安装U盘，用Smart Tool制作ISO就可，记得勾上“添加NVME驱动”，做好后直接用rufus灌录，需在“分区方案和目标系统类型”中选择“用于UEFI计算机的GPT分区方案”；
+&#13;
+然后BIOS设置UEFI启动，并且打开CSM，先插PE启动，将准好的系统盘转换为GPT并且分区，可以用Diskpart，或者图形界面的DiskGenius，分区时预留EFI，不要留MSR区。提前分区这一步不一定要做，但是WIN7安装盘并不会转换分区格式，所以提前用PE分好区更直接点；
+&#13;
+插安装盘重启，这里有个小插曲，ZEN2 CPU自带的USB 3.0控制器跟之前不一样，而农企官方提供的驱动包里面并没有适用WIN7的驱动，所以要么是自己封个改好的驱动进去（后面有说），要么插USB2.0/3.1口先完成安装。记得3.0的通通用不了，不要插错；
+&#13;
+装好后会发现还是少一些驱动，在 这个帖子 里可以下到修改过支持WIN7的驱动，包括最重要的USB 3.0，但是因为是个人魔改版本，使用风险自负；
+&#13;
+最后就是到https://github.com/zeffy/wufuc下一个关闭系统提示不支持硬件的补丁了</description>
+      <content:encoded><![CDATA[<p><b>zatsuza: </b><br>
+<span>【再战十年】实践ZEN2安装WIN7+GPT</span><br>
+<span>干活机器常规升级，稳定性需要加上不想改变使用习惯，遂考虑目前对WIN7支持比较好的农企平台，记录一下过程以供坛友参考少走弯路吧，虽然实际挺简单的</span><br>
+<span>准备工作：</span><br>
+<span>U盘一枚，然后是WIN7x64 ISO，WIN PE（我使用微PE），MSI Smart Tool，引导盘制作工具（强烈推荐rufus）</span><br>
+<span>安装流程：</span><br>
+<span>首先是准备安装U盘，用Smart Tool制作ISO就可，记得勾上“添加NVME驱动”，做好后直接用rufus灌录，需在“分区方案和目标系统类型”中选择“用于UEFI计算机的GPT分区方案”；</span><br>
+<span>然后BIOS设置UEFI启动，并且打开CSM，先插PE启动，将准好的系统盘转换为GPT并且分区，可以用Diskpart，或者图形界面的DiskGenius，分区时预留EFI，不要留MSR区。提前分区这一步不一定要做，但是WIN7安装盘并不会转换分区格式，所以提前用PE分好区更直接点；</span><br>
+<span>插安装盘重启，这里有个小插曲，ZEN2 CPU自带的USB 3.0控制器跟之前不一样，而农企官方提供的驱动包里面并没有适用WIN7的驱动，所以要么是自己封个改好的驱动进去（后面有说），要么插USB2.0/3.1口先完成安装。记得3.0的通通用不了，不要插错；</span><br>
+<span>装好后会发现还是少一些驱动，在 这个帖子 里可以下到修改过支持WIN7的驱动，包括最重要的USB 3.0，但是因为是个人魔改版本，使用风险自负；</span><br>
+<span>最后就是到https://github.com/zeffy/wufuc下一个关闭系统提示不支持硬件的补丁了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>实际上zen2 的芯片组驱动兼容性及新功能只有win10 1903下能完美</span><br>
+<span>win10 1803都不行， 1803下LatencyMon显示系统不定时有延迟尖峰问题，会导致爆音。</span><br>
+<span>升级到1903症状消失</span><br>
+</p><p><b>Slum.: </b><br>
+<span>我现在也是3700x+win7企业版</span><br>
+<span>别的都好就是频率锁在3.8 跑压力测试也一点都不见变的 很神秘</span><br>
+<span>而且装ryzen master就会无限蓝屏</span><br>
+<span>— from Razer Phone 2, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>ft5555 发表于 2019-10-17 17:40</span><br>
+<span>实际上zen2 的芯片组驱动兼容性及新功能只有win10 1903下能完美</span><br>
+<span>win10 1803都不行， 1803下LatencyMon显示 ...</span><br>
+<span>爆音跟这个软件测量结果没有什么联系，它是给做实时音频编辑的人参考的</span><br>
+<span>即使飙红，系统混音器的buffer也比这个里面的数值长几十倍，爆音的原因那也不是它能测出来的了</span><br>
+<span>以及WIN7下ZEN2我目前感觉好得很，什么问题都没有</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>Slum. 发表于 2019-10-17 17:55</span><br>
+<span>我现在也是3700x+win7企业版</span><br>
+<span>别的都好就是频率锁在3.8 跑压力测试也一点都不见变的 很神秘</span><br>
+<span>而且装ryzen mas ...</span><br>
+<span>boost问题好像要等microcode更新了，目前我是直接拉的</span><br>
+</p><p><b>mickoo: </b><br>
+<span>感觉还是win10靠谱点，我还是主力机装win10 ，没什么问题</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>Slum. 发表于 2019-10-17 17:55</span><br>
+<span>我现在也是3700x+win7企业版</span><br>
+<span>别的都好就是频率锁在3.8 跑压力测试也一点都不见变的 很神秘</span><br>
+<span>而且装ryzen mas ...</span><br>
+<span>我是3800X+B450</span><br>
+<span>刚才试了下改回全默认跑了会压测，全核4.15</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>上次直接用系统之家下了一个win7，装到2200G+B350M迫击炮。居然直接装上了。不过设备管理器里有几个问号，不影响日常使用，后来准备把驱动打上吧，上amd官网下驱动，结果就蓝屏了有的驱动还是不打为好</span><br>
+<span>当然用的是独显</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>还是太麻烦，重装之后如何把原来的系统设置，用户设置也移过去</span><br>
+<span>还有改过的注册表，安装的各种软件，有些软件设置也不知如何备份，是写在注册表里了吧</span><br>
+<span>重装系统太可怕了，不可接受</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859954[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AX200 SMB传输奇葩问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AX200 SMB传输奇葩问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:38:29 +0000</lastBuildDate>
+    <item>
+      <title>AX200 SMB传输奇葩问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917942-1-1.html</link>
+      <description>AX200 SMB传输奇葩问题&#13;
+笔记本AX200网卡   无线链接路由器路由器有线链接NAS
+&#13;
+160MHZ1.7g协商速率非常稳定不跳信号强度路由器显示-38应该也是极强
+&#13;
+但是SMB传输速度只有25/50 MB
+&#13;
+换成有线网卡 立马变成100/100MB不知道是哪里的问题
+&#13;
+更换驱动无效更换其它80MHZ路由也无效    其它路由866协商速率 信号也是极强
+&#13;
+SMB只有20/40 MB速率也是不正常
+&#13;
+1.要说NAS有问题 有线立马满速
+&#13;
+2.要说160MHZ或者路由器有问题更换另外一台80MHZ路由 速率更低
+&#13;
+3.要说AX200有问题   但是协商速率和信号强度 都很正常 也不丢包实在不知道咋回事</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>AX200 SMB传输奇葩问题</span><br>
+<span>笔记本AX200网卡   无线链接路由器路由器有线链接NAS</span><br>
+<span>160MHZ1.7g协商速率非常稳定不跳信号强度路由器显示-38应该也是极强</span><br>
+<span>但是SMB传输速度只有25/50 MB</span><br>
+<span>换成有线网卡 立马变成100/100MB不知道是哪里的问题</span><br>
+<span>更换驱动无效更换其它80MHZ路由也无效    其它路由866协商速率 信号也是极强</span><br>
+<span>SMB只有20/40 MB速率也是不正常</span><br>
+<span>1.要说NAS有问题 有线立马满速</span><br>
+<span>2.要说160MHZ或者路由器有问题更换另外一台80MHZ路由 速率更低</span><br>
+<span>3.要说AX200有问题   但是协商速率和信号强度 都很正常 也不丢包实在不知道咋回事</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>AX200好像有V1 V2版本的区别，V2版本稳定会好很多。</span><br>
+<span>另外强上killer网卡驱动试试看，CSDN有教程</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>muyefytte 发表于 2020-3-9 15:08</span><br>
+<span>AX200好像有V1 V2版本的区别，V2版本稳定会好很多。</span><br>
+<span>另外强上killer网卡驱动试试看，CSDN有教程 ...</span><br>
+<span>我这就是002版本      关键不知道是哪个环节的问题</span><br>
+</p><p><b>Piero: </b><br>
+<span>换ftp试试？</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Piero 发表于 2020-3-9 15:22</span><br>
+<span>换ftp试试？</span><br>
+<span>试过了不行ftp和smb速率一样    感觉既不像软件问题 也不像硬件问题</span><br>
+<span>头要爆炸不行就只用有线了</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>可以不用smb协议</span><br>
+<span>一般nas都能同时开smb，ftp，sftp，webdav，nfs等协议</span><br>
+<span>推荐webdav协议，Windows上使用raidrive这个软件映射成网络磁盘</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>KnightHart 发表于 2020-3-9 15:28</span><br>
+<span>可以不用smb协议</span><br>
+<span>一般nas都能同时开smb，ftp，sftp，webdav，nfs等协议</span><br>
+<span>推荐webdav协议，Windows上使用raid ...</span><br>
+<span>问题不在这里我用笔记本有线网卡 SMB也是满速但是只要无线 速率就很低 </span><br>
+<span>并且低的不正常 866都只有40MB不明白问题在哪</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>协商速率也很高信号强度也很强    但是局域网传输就是偏低   40-50MB也不能说不正常</span><br>
+<span>一用有线立马满速</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>表面看毫无问题   就是最高跑50MB   无语了</span><br>
+<span>ping了11万也不丢包 延迟很平稳</span><br>
+</p><p><b>sirlion: </b><br>
+<span>宽带网速够测试ax200吗？你换台机器做个smb盘给ax200试试</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>sirlion 发表于 2020-3-9 15:44</span><br>
+<span>宽带网速够测试ax200吗？你换台机器做个smb盘给ax200试试</span><br>
+<span>网速只有300Mbps   测不出上限啊ax200 跑满小意思</span><br>
+<span>我也想换台电脑测测 可惜就一台</span><br>
+<span>不过我同一台笔记本的有线网卡整个网络环境都能跑满   不存在瓶颈啊</span><br>
+<span>为啥换成笔记本上的AX200 就降速这么多啊 同样的路由器 同样的交换机 同样的网线和NAS</span><br>
+</p><p><b>sahara: </b><br>
+<span>11N/AC？路由器是什么？不是AX的？也许是兼容问题吧</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>sahara 发表于 2020-3-9 15:51</span><br>
+<span>11N/AC？路由器是什么？不是AX的？也许是兼容问题吧</span><br>
+<span>当然不是AXAX就是2.4g了</span><br>
+<span>前面我也说了跑80MHZ速度也不正常 这就不是兼容性问题了吧</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>K380mhz866m20/40 最大</span><br>
+<span>DIR 882 160mhz1.7g 25/50最大 </span><br>
+<span>都不正常   博通也不正常   MTK也不正常应该不是兼容性问题</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>可以确定是NAS的问题刚才试了下 往同一个局域网内的路由器挂载U盘   读写分别达到60/60</span><br>
+<span>全程有线NAS满速    无线转有线NAS速度被限制 这是啥毛病</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-3-9 16:07 编辑 </span><br>
+<span>观铃の使魔 发表于 2020-3-9 16:01</span><br>
+<span>可以确定是NAS的问题刚才试了下 往同一个局域网内的路由器挂载U盘   读写分别达到60/60</span><br>
+<span>也可能是路由器问题？找另一台电脑做s**试试</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>继承权 发表于 2020-3-9 16:06</span><br>
+<span>也可能是路由器问题？找另一台电脑做s**试试</span><br>
+<span>只有一台电脑    路由器我换了两台不同方案得 都有这问题</span><br>
+<span>现在问题变成 </span><br>
+<span>ax200传NAS 最高25/50</span><br>
+<span>ax200传NAS同局域网路由器60/60</span><br>
+<span>有线传NAS100/100</span><br>
+<span>速度问题是NAS造成的吧</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>ax200的160没救了</span><br>
+</p><p><b>magpte: </b><br>
+<span>用iperf测速如何？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tyx776: </b><br>
+<span>今天也刚收到。我的更神奇，k3握手500多mbps，nas读取最高60。mtk的一个usb无线握手866，读nas就只有30。讲真的这无线网卡很奇怪。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>magpte: </b><br>
+<span> 本帖最后由 magpte 于 2020-3-9 17:56 编辑 </span><br>
+<span>手机在别人家的水星191g跑宽带可以跑满speedtest 300mbps</span><br>
+<span>家里的k2p，用了padavan和openwrt速度和楼主的866差不多，醉了。由于5g设备没有，也测试不到更快，用iperf只能在最大300mbps</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>无线网卡的局域网传输速度 感觉也快变成玄学了      </span><br>
+<span>我还是有线保平安吧</span><br>
+<span>不过不知道有人关注过 有线集成网卡造成的DPC延迟么   低端有线网卡各种问题    高端无线网卡反倒没有</span><br>
+<span>可是这速度 头痛</span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2020-3-9 20:05 编辑 </span><br>
+<span>80MHz 50M/s是正常的，866是双向866，单向传输只有433，差不多就是50M/s</span><br>
+<span>160我不清楚了 </span><br>
+<span>能有线肯定有线，这不用想的</span><br>
+</p><p><b>联合警备队: </b><br>
+<span> 本帖最后由 联合警备队 于 2020-3-9 20:25 编辑 </span><br>
+<span>直接用我的电脑登录NAS，复制粘贴到本地属于啥协议？</span><br>
+<span>也是AX200，最多跑到70MB/S，而且还是866的</span><br>
+</p><p><b>c11220k: </b><br>
+<span>用ip地址访问SMB试试？不要用计算机名字访问。</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>联合警备队 发表于 2020-3-9 20:23</span><br>
+<span>直接用我的电脑登录NAS，复制粘贴到本地属于啥协议？</span><br>
+<span>也是AX200，最多跑到70MB/S，而且还是866的 ...</span><br>
+<span>win都是smb</span><br>
+<span>你的86670MB是峰值 正常水平就该这样</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>c11220k 发表于 2020-3-9 21:35</span><br>
+<span>用ip地址访问SMB试试？不要用计算机名字访问。</span><br>
+<span>我就是IP访问    不行 有线满速 无线最高50</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>雪影 发表于 2020-3-9 20:03</span><br>
+<span>80MHz 50M/s是正常的，866是双向866，单向传输只有433，差不多就是50M/s</span><br>
+<span>160我不清楚了 </span><br>
+<span>能有线肯定有线， ...</span><br>
+<span>866   理想状态单向可以跑到70MB的不过最高也就70了</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>观铃の使魔 发表于 2020-3-9 16:17</span><br>
+<span>只有一台电脑    路由器我换了两台不同方案得 都有这问题</span><br>
+<span>现在问题变成 </span><br>
+<span>是 pc-路由-挂u盘的路由 还是 pc-挂u盘的路由?</span><br>
+<span>路由器方面还是比较可疑</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>观铃の使魔 发表于 2020-3-9 14:59</span><br>
+<span>笔记本AX200网卡   无线链接路由器路由器有线链接NAS</span><br>
+<span>160MHZ1.7g协商速率非常稳定不跳信号强度路由器 ...</span><br>
+<span>SMB是这样的，无线延迟导致单线程难以跑满，换NFS吧，FTP都可以</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>雪影 发表于 2020-3-9 20:03</span><br>
+<span>80MHz 50M/s是正常的，866是双向866，单向传输只有433，差不多就是50M/s</span><br>
+<span>160我不清楚了 </span><br>
+<span>能有线肯定有线， ...</span><br>
+<span>866是半双工，可以动态分配双向带宽</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>华蝶风雪 发表于 2020-3-9 23:33</span><br>
+<span>是 pc-路由-挂u盘的路由 还是 pc-挂u盘的路由?</span><br>
+<span>路由器方面还是比较可疑</span><br>
+<span>是PC(AX200)-路由-挂U盘的路由   可以60/60</span><br>
+<span>PC(AX200)-路由-NAS   只有25/50</span><br>
+<span>PC(有线)-路由-NAS   可以100/100</span><br>
+<span>都是通过WIN10 原生的SMB2.0访问</span><br>
+<span>NAS也是SMB2.0协议</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Gnyueh 发表于 2020-3-9 23:53</span><br>
+<span>SMB是这样的，无线延迟导致单线程难以跑满，换NFS吧，FTP都可以</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android...</span><br>
+<span>特意开了NAS的FTP服务   没用</span><br>
+<span>速度和SMB一样 被限制到25/50</span><br>
+<span>我不确定到底是软件还是硬件问题导致我无线访问NAS被降速</span><br>
+<span>但是我是PC(AX200)-路由-挂U盘的路由却可以60/60奇葩的很</span><br>
+<span>现在问题就是这样</span><br>
+<span>PC(AX200)-路由-挂U盘的路由   可以60/60</span><br>
+<span>PC(AX200)-路由-NAS   只有25/50</span><br>
+<span>PC(有线)-路由-NAS   可以100/100</span><br>
+<span>都是通过WIN10 原生的SMB2.0访问</span><br>
+<span>NAS也是SMB2.0协议</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span> 本帖最后由 Gnyueh 于 2020-3-10 10:51 编辑 </span><br>
+<span>观铃の使魔 发表于 2020-3-10 09:17</span><br>
+<span>特意开了NAS的FTP服务   没用</span><br>
+<span>速度和SMB一样 被限制到25/50</span><br>
+<span>这个……估计还是和延迟有关，你FTP和SMB双向速度是完全一样的嘛，FTP多线程应该会比SMB高不少的你用其他FTP客户端试一试，别用WIN自带的？</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Gnyueh 发表于 2020-3-10 10:50</span><br>
+<span>这个……估计还是和延迟有关，你FTP和SMB双向速度是完全一样的嘛，FTP多线程应该会比SMB高不少的你用其他 ...</span><br>
+<span>FTP也是 25/50   不是协议限制住了    所以才叫奇葩问题   完全搞不明白哪里的问题</span><br>
+<span>我用winscp测试低</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>先拿ipef测速，基本上你会发现是辣鸡smb的锅</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>有钱上AX路由，没钱……</span><br>
+<img src="https://p.sda1.dev/0/a644ef75330202c812e2472de3607e4d/Untitled.png" title="https://p.sda1.dev/0/a644ef75330202c812e2472de3607e4d/Untitled.png"><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>cybernetics31 发表于 2020-3-10 11:02</span><br>
+<span>先拿ipef测速，基本上你会发现是辣鸡smb的锅</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端 ...</span><br>
+<span>但是有线smb 就能100/100怎么解释</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>dongjuanyong 发表于 2020-3-10 11:41</span><br>
+<span>有钱上AX路由，没钱……</span><br>
+<span>我这明显不是路由的问题   11ac866都应该能跑70MB峰值</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>观铃の使魔 发表于 2020-3-10 11:45</span><br>
+<span>我这明显不是路由的问题   11ac866都应该能跑70MB峰值</span><br>
+<span>有一说一，我用2x2 ac的时候就没见过866的协商速率（路由贴脸也没有），70M的速率更是做梦，50M就得烧高香</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>观铃の使魔 发表于 2020-3-10 11:44</span><br>
+<span>但是有线smb 就能100/100怎么解释</span><br>
+<span>SMB是单线程协议没法很好掩盖无线的延迟</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zzz222: </b><br>
+<span> 本帖最后由 zzz222 于 2020-3-10 20:27 编辑 </span><br>
+<span>不用怀疑，就是ax200的问题，我两台电脑轮流换上ax200测试连接三台路由器都出现断流情况，协商出的速率也一直会跳三台路由器分别是 wifi4e2500，wifi5荣耀x2，wifi6 tplink399的，而且居然英特尔芯片的wifi6路由器和ax200还是有断流情况，系统也重装试过</span><br>
+<span>最神奇的是其中一台电脑装了这块ax200在公司用就毫无问题，连的是思科的802.11ac的ap，可能是企业用ap做的确实比家用路由器好</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>zzz222 发表于 2020-3-10 20:15</span><br>
+<span>不用怀疑，就是ax200的问题，我两台电脑轮流换上ax200测试连接三台路由器都出现断流情况，协商出的速率也一 ...</span><br>
+<span>老哥咱俩不是一个问题   我不断流速率也不跳 就是SMB速度有点低</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span> 本帖最后由 superchenxx01 于 2020-3-12 20:36 编辑 </span><br>
+<span>楼主我也是这款网卡，发现VMWARE虚拟机用桥接网络的模式，局域网里传文件特别慢，只有几十K。</span><br>
+<span>目前没找到原因，只测试出来虚拟机是win2016有这毛病，其他版本倒是正常</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>2stage: </b><br>
+<span>Nas和PC用iperf3测试一下速度，这个测试只和网络相关。有docker镜像可用</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.2.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917942[0-50]</guid>
+    </item>
+  </channel>
+</rss>

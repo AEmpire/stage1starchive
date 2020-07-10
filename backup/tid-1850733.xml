@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>XBOX上的KODI串流教程</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>XBOX上的KODI串流教程</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:36:24 +0000</lastBuildDate>
+    <item>
+      <title>XBOX上的KODI串流教程[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850733-1-1.html</link>
+      <description>XBOX上的KODI串流教程&#13;
+ 本帖最后由 风中凌舞 于 2019-8-2 16:06 编辑 
+
+最近忙着折腾从PC到电视的串流，原来用的串流软件坏了，然后发现了KODI就开始折腾，现在折腾完了觉得可以写下来当教程，就写了
+&#13;
+如果你的盒子可以装KODI这个软件，那么以下内容基本是通用的，但我没有其他盒子，所以不清楚详情。
+&#13;
+所需硬件：
+&#13;
+XBOX一台，PC一台，电视一台
+&#13;
+所需软件：
+&#13;
+KODI
+&#13;
+原理：
+&#13;
+通过设置PC上的共享文件夹，授予KODI访问共享文件夹的权限，达到PC串流到电视的效果
+&#13;
+========================================================================
+&#13;
+PC部分设置：
+&#13;
+1.以K2P为例，打开你家路由器的后台设置页面，打开DHCP设置，为你的PC绑定一个固定的IP和MAC地址，记下IP地址只需更改IP，MAC不需要动
+&#13;
+http://wx1.sinaimg.cn/large/86ad7aa6gy1g5kkepb0uaj20xo0esmxu.jpg
+&#13;
+2.打开控制面板，程序-程序和功能-启用或关闭Windows功能-勾选SMB 1.0
+&#13;
+http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkiogpi3j20dg0do3zm.jpg
+&#13;
+3.为你的共享文件夹设置一个单独的用户账户方便管理：
+&#13;
+打开控制面板，用户账户-管理用户-管理其他账户-在电脑设置中添加新用户-其他用户-将其他人添加到这台电脑
+&#13;
+设置新本地用户的ID和密码，ID和密码都可以短一些，用户类型设置为管理员。
+&#13;
+http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kklbgliaj20id0d4t8z.jpg
+&#13;
+http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkm0zcuej20h20973ys.jpg
+&#13;
+4.找到你的影视文件夹，右键-属性-共享-选择要与其共享的用户-选中我们刚才新建的用户-共享
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kkvh5v0pj20lv0gggm2.jpg
+&#13;
+这时候打开网络-你的PC，应该不会有共享文件夹出现
+&#13;
+如果本机登录的就是为共享设置的新用户账户，那才会看到共享文件夹，或者将共享文件夹同时共享给主账户，那也会显示共享文件夹。
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl0k6hisj20j2084dg8.jpg
+&#13;
+XBOX部分设置：
+&#13;
+1.打开XBOX，打开商店，搜寻KODI，下载并安装
+&#13;
+2.安装完毕后打开KODI，进行一些设置：
+&#13;
+点击齿轮图标进行设置-界面-skin-front-设置为Arial字体
+&#13;
+后退，依序打开区域-语言-设置为简/繁中文
+&#13;
+（如果你的电视是4K的，需要在KODI的画面设置里将分辨率改为4K。）
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl54yv6ij21hc0u0kjl.jpg
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5j564qj21hc0u0npd.jpg
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5r67okj21hc0u0qv5.jpg
+&#13;
+2.因为KODI没有SMB功能，所以我们需要通过插件支持这个功能：
+&#13;
+点开插件页面-我的插件-Virtual filesystems-点开SMB Support-启用这个功能
+&#13;
+http://wx3.sinaimg.cn/mw1024/86ad7aa6gy1g5kla2x1kzj20xd0ofqoi.jpg
+&#13;
+3.回到标题画面，开始设置共享文件夹：
+&#13;
+电影-进入文件区-添加视频-浏览-添加网络位置
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klco4y9dj21hc0u0kjl.jpg
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klcvx2vkj21hc0u015p.jpg
+&#13;
+http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kldi4rt0j21hc0u0te1.jpg
+&#13;
+开始共享文件夹的详细设置：
+&#13;
+①协议选取为SMB
+&#13;
+②服务器名称填写PC部分1节里，你电脑的固定IP地址
+&#13;
+③-浏览和共享文件夹以及端口不要打开，全部跳过
+&#13;
+④用户名填写为PC部分3节里的新用户的ID，大小写要对
+&#13;
+⑤填写为该新用户设置的密码，确定
+&#13;
+http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kleb5uc2j21hc0u0771.jpg
+&#13;
+之后会有一些零碎设置，依据个人喜好来选就可以。
+&#13;
+KODI开始加载共享文件夹，如果这时候报错【连不上服务器，是否继续加载】，只需不断点是直到它加载完即可。
+&#13;
+好了，现在你可以在电视上面串流看片啦。
+&#13;
+=========================================================
+&#13;
+打完字感觉真折腾……
+&#13;
+如果你是Windows10旗舰版支持NFS服务（家庭版只有SMB），设置方法与SMB不同。
+&#13;
+如果你是群晖NAS用户，KODI支持NAS功能，设置方法与SMB不同。
+&#13;
+因为我不是旗舰版也不是NAS用户，这两个群体想要在XBOX上用KODI需要自行搜索教程。</description>
+      <content:encoded><![CDATA[<p><b>风中凌舞: </b><br>
+<span>XBOX上的KODI串流教程</span><br>
+<span> 本帖最后由 风中凌舞 于 2019-8-2 16:06 编辑 </span><br>
+<span>最近忙着折腾从PC到电视的串流，原来用的串流软件坏了，然后发现了KODI就开始折腾，现在折腾完了觉得可以写下来当教程，就写了</span><br>
+<span>如果你的盒子可以装KODI这个软件，那么以下内容基本是通用的，但我没有其他盒子，所以不清楚详情。</span><br>
+<span>所需硬件：</span><br>
+<span>XBOX一台，PC一台，电视一台</span><br>
+<span>所需软件：</span><br>
+<span>KODI</span><br>
+<span>原理：</span><br>
+<span>通过设置PC上的共享文件夹，授予KODI访问共享文件夹的权限，达到PC串流到电视的效果</span><br>
+<span>========================================================================</span><br>
+<span>PC部分设置：</span><br>
+<span>1.以K2P为例，打开你家路由器的后台设置页面，打开DHCP设置，为你的PC绑定一个固定的IP和MAC地址，记下IP地址只需更改IP，MAC不需要动</span><br>
+<img src="http://wx1.sinaimg.cn/large/86ad7aa6gy1g5kkepb0uaj20xo0esmxu.jpg" title="http://wx1.sinaimg.cn/large/86ad7aa6gy1g5kkepb0uaj20xo0esmxu.jpg"><br>
+<span>2.打开控制面板，程序-程序和功能-启用或关闭Windows功能-勾选SMB 1.0</span><br>
+<img src="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkiogpi3j20dg0do3zm.jpg" title="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkiogpi3j20dg0do3zm.jpg"><br>
+<span>3.为你的共享文件夹设置一个单独的用户账户方便管理：</span><br>
+<span>打开控制面板，用户账户-管理用户-管理其他账户-在电脑设置中添加新用户-其他用户-将其他人添加到这台电脑</span><br>
+<span>设置新本地用户的ID和密码，ID和密码都可以短一些，用户类型设置为管理员。</span><br>
+<img src="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kklbgliaj20id0d4t8z.jpg" title="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kklbgliaj20id0d4t8z.jpg"><br>
+<img src="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkm0zcuej20h20973ys.jpg" title="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5kkm0zcuej20h20973ys.jpg"><br>
+<span>4.找到你的影视文件夹，右键-属性-共享-选择要与其共享的用户-选中我们刚才新建的用户-共享</span><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kkvh5v0pj20lv0gggm2.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kkvh5v0pj20lv0gggm2.jpg"><br>
+<span>这时候打开网络-你的PC，应该不会有共享文件夹出现</span><br>
+<span>如果本机登录的就是为共享设置的新用户账户，那才会看到共享文件夹，或者将共享文件夹同时共享给主账户，那也会显示共享文件夹。</span><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl0k6hisj20j2084dg8.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl0k6hisj20j2084dg8.jpg"><br>
+<span>XBOX部分设置：</span><br>
+<span>1.打开XBOX，打开商店，搜寻KODI，下载并安装</span><br>
+<span>2.安装完毕后打开KODI，进行一些设置：</span><br>
+<span>点击齿轮图标进行设置-界面-skin-front-设置为Arial字体</span><br>
+<span>后退，依序打开区域-语言-设置为简/繁中文</span><br>
+<span>（如果你的电视是4K的，需要在KODI的画面设置里将分辨率改为4K。）</span><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl54yv6ij21hc0u0kjl.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl54yv6ij21hc0u0kjl.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5j564qj21hc0u0npd.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5j564qj21hc0u0npd.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5r67okj21hc0u0qv5.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5kl5r67okj21hc0u0qv5.jpg"><br>
+<span>2.因为KODI没有SMB功能，所以我们需要通过插件支持这个功能：</span><br>
+<span>点开插件页面-我的插件-Virtual filesystems-点开SMB Support-启用这个功能</span><br>
+<img src="http://wx3.sinaimg.cn/mw1024/86ad7aa6gy1g5kla2x1kzj20xd0ofqoi.jpg" title="http://wx3.sinaimg.cn/mw1024/86ad7aa6gy1g5kla2x1kzj20xd0ofqoi.jpg"><br>
+<span>3.回到标题画面，开始设置共享文件夹：</span><br>
+<span>电影-进入文件区-添加视频-浏览-添加网络位置</span><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klco4y9dj21hc0u0kjl.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klco4y9dj21hc0u0kjl.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klcvx2vkj21hc0u015p.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5klcvx2vkj21hc0u015p.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kldi4rt0j21hc0u0te1.jpg" title="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kldi4rt0j21hc0u0te1.jpg"><br>
+<span>开始共享文件夹的详细设置：</span><br>
+<span>①协议选取为SMB</span><br>
+<span>②服务器名称填写PC部分1节里，你电脑的固定IP地址</span><br>
+<span>③-浏览和共享文件夹以及端口不要打开，全部跳过</span><br>
+<span>④用户名填写为PC部分3节里的新用户的ID，大小写要对</span><br>
+<span>⑤填写为该新用户设置的密码，确定</span><br>
+<img src="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kleb5uc2j21hc0u0771.jpg" title="http://wx3.sinaimg.cn/large/86ad7aa6gy1g5kleb5uc2j21hc0u0771.jpg"><br>
+<span>之后会有一些零碎设置，依据个人喜好来选就可以。</span><br>
+<span>KODI开始加载共享文件夹，如果这时候报错【连不上服务器，是否继续加载】，只需不断点是直到它加载完即可。</span><br>
+<span>好了，现在你可以在电视上面串流看片啦。</span><br>
+<span>=========================================================</span><br>
+<span>打完字感觉真折腾……</span><br>
+<span>如果你是Windows10旗舰版支持NFS服务（家庭版只有SMB），设置方法与SMB不同。</span><br>
+<span>如果你是群晖NAS用户，KODI支持NAS功能，设置方法与SMB不同。</span><br>
+<span>因为我不是旗舰版也不是NAS用户，这两个群体想要在XBOX上用KODI需要自行搜索教程。</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>妈的，图片怎么比例全乱了</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>太晚了先睡了，明天起床再重新上传图片（）</span><br>
+</p><p><b>汝者: </b><br>
+<span>首先 这不是串流 这是访问共享播放 </span><br>
+<span>其次 kodi是支持smbv1 所以win10打开smbv1支持就好</span><br>
+<span>第三 win要nfs装hanewin nfs就行了 比你设置权限快多了 而且不用管win什么版本</span><br>
+<span>其实我想说，kodi啥版本设置都一样，不用去分什么xbox/PC之类的</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>管这叫串流还行</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>图片重新传输了一下，这下比例应该正常了</span><br>
+<span>关于串流的说法解释一下，我自己定义里只要两台设备之间通过无线传输音频或者视频都算串流</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>汝者 发表于 2019-8-1 23:50</span><br>
+<span>首先 这不是串流 这是访问共享播放 </span><br>
+<span>其次 kodi是支持smbv1 所以win10打开smbv1支持就好</span><br>
+<span>第三 win要nfs装han ...</span><br>
+<span>之前折腾SMB走不通的时候想要折腾NFS的，但是hanewin软件对我来说有点复杂就没去用，想走Windows自带的NFS功能，然后才知道家庭版没有NFS，就回过头研究SMB去了</span><br>
+</p><p><b>汝者: </b><br>
+<span>风中凌舞 发表于 2019-8-2 16:09</span><br>
+<span>之前折腾SMB走不通的时候想要折腾NFS的，但是hanewin软件对我来说有点复杂就没去用，想走Windows自带的NF ...</span><br>
+<span>hanewin超简单的 装吧</span><br>
+<span>win10的权限各种麻烦一点都不好用</span><br>
+</p><p><b>mamamiya: </b><br>
+<span>搞个nas吧</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>汝者 发表于 2019-8-2 16:36</span><br>
+<span>hanewin超简单的 装吧</span><br>
+<span>win10的权限各种麻烦一点都不好用</span><br>
+<span>哪天SMB不好用了我就去折腾NFS，现在已经折腾完了就不动它了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850733[0-50]</guid>
+    </item>
+  </channel>
+</rss>

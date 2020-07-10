@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>windows10的微软日语如何默认为平假名模式？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>windows10的微软日语如何默认为平假名模式？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 23:16:13 +0000</lastBuildDate>
+    <item>
+      <title>windows10的微软日语如何默认为平假名模式？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1805926-1-1.html</link>
+      <description>windows10的微软日语如何默认为平假名模式？&#13;
+现在的微软日语默认是“半角字母数字/直接输入（A）”模式，有办法直接改成平假名模式吗（即可直接罗马字输入）
+&#13;
+微软拼音也是加了英文模式，还好把shift切换键关掉和默认中文就行。</description>
+      <content:encoded><![CDATA[<p><b>yibo: </b><br>
+<span>windows10的微软日语如何默认为平假名模式？</span><br>
+<span>现在的微软日语默认是“半角字母数字/直接输入（A）”模式，有办法直接改成平假名模式吗（即可直接罗马字输入）</span><br>
+<span>微软拼音也是加了英文模式，还好把shift切换键关掉和默认中文就行。</span><br>
+</p><p><b>marine_01: </b><br>
+<span> 本帖最后由 marine_01 于 2019-1-22 15:06 编辑 </span><br>
+<span>关掉“为不同窗口记住输入法”试试。另外，自带的输入法有个规则，如果焦点命中只能输入英文，或者无法输入的控件，会自动切换为A模式。如果控件可以输入非英文，则自动切换为非英文。你可以观察看看。</span><br>
+</p><p><b>john: </b><br>
+<span>明明高级设置里第一个tab第一个选项就是改这个设定的</span><br>
+</p><p><b>sorayang: </b><br>
+<span>win10上是默认平假，XP上会默认成片假...（哦看错，我说的股沟输入法...）</span><br>
+</p><p><b>macos: </b><br>
+<span>测了下规则，应该是前一个输入状态决定进入英文还是日文，英文状态切过去必定英文，你可以多加ctrl+caps强制每次必然平假</span><br>
+</p><p><b>酥盐炸鸡: </b><br>
+<span>Alt加波浪符</span><br>
+<span>win10是这样解决</span><br>
+<span>—— 来自 Sony G8441, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>Uranus: </b><br>
+<span>我设置了三个输入法，默认ENG，第二是微软拼音中文，第三是微软日语输入法，默认就是平假名，</span><br>
+<span>但切换的时候，用Alt+Shift在三者间切换，当第二输入法且为英文输入时，切到第三输入时为片假名输入，用Alt+`键切回平假名状态</span><br>
+<span>虽然麻烦了一点，但用习惯了还好，不喜欢将中文输入作为默认，用shift切换中英文输入太麻烦了</span><br>
+</p><p><b>obiy: </b><br>
+<span>Uranus 发表于 2019-1-22 19:39</span><br>
+<span>我设置了三个输入法，默认ENG，第二是微软拼音中文，第三是微软日语输入法，默认就是平假名，</span><br>
+<span>但切换的时候 ...</span><br>
+<span>目前在build 1903里，即使上一个输入法是英文，切换到日语也会保持罗马字输入了。</span><br>
+<span>开启了“允许我为每个应用窗口使用不同的输入法”</span><br>
+</p><p><b>bitcoin: </b><br>
+<span>Uranus 发表于 2019-1-22 19:39</span><br>
+<span>我设置了三个输入法，默认ENG，第二是微软拼音中文，第三是微软日语输入法，默认就是平假名，</span><br>
+<span>但切换的时候 ...</span><br>
+<span>1903的微软拼音已经支持ctrl space切换中英了，且默认状态可以设为英文，也就是说你不需要再装eng了</span><br>
+</p><p><b>macos: </b><br>
+<span> 本帖最后由 macos 于 2019-6-5 12:52 编辑 </span><br>
+<span>bitcoin 发表于 2019-6-5 12:44</span><br>
+<span>1903的微软拼音已经支持ctrl space切换中英了，且默认状态可以设为英文，也就是说你不需要再装eng了 ...</span><br>
+<span>这不是一直都有的快捷键吗，从1511到现在也没变过</span><br>
+<span>哦不是，默认英文好像是1709开始的</span><br>
+</p><p><b>Uranus: </b><br>
+<span>bitcoin 发表于 2019-6-5 12:44</span><br>
+<span>1903的微软拼音已经支持ctrl space切换中英了，且默认状态可以设为英文，也就是说你不需要再装eng了 ...</span><br>
+<span>我还没升级1903，还是1809，不过我仍然会保留ENG作为默认输入法，不习惯用中文输入法作为默认……</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>bitcoin 发表于 2019-6-5 12:44</span><br>
+<span>1903的微软拼音已经支持ctrl space切换中英了，且默认状态可以设为英文，也就是说你不需要再装eng了 ...</span><br>
+<span>打游戏的时候Ctrl+space这种组合挺常见的……没有Eng还是不行容易把中文输入法误切出来。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>野田だめ: </b><br>
+<span>不会日语为啥要用日语版？</span><br>
+<span>不都在</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>战略性马克</span><br>
+<span>— from Sony F5122, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1805926[0-50]</guid>
+    </item>
+  </channel>
+</rss>

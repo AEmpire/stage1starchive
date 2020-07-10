@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>都说windows server 比群晖好，那有没有大佬写篇教程啊！</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>都说windows server 比群晖好，那有没有大佬写篇教程啊！</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:40:22 +0000</lastBuildDate>
+    <item>
+      <title>都说windows server 比群晖好，那有没有大佬写篇教程啊！[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850092-1-1.html</link>
+      <description>都说windows server 比群晖好，那有没有大佬写篇教程啊！&#13;
+ 本帖最后由 暗夜明岚 于 2019-7-30 14:53 编辑 
+
+都说windows server 比群晖好，那有没有大佬写篇教程啊！
+&#13;
+最好可以带上配件 谢谢啦
+&#13;
+给各位大佬跪了！大佬们都是搞什么啊！要那么多多盘位？
+&#13;
+我是先打算买过8-10T的硬盘就够了把？最多2个8T的硬盘，我就是给小姐姐和刘备买过新房子啊！</description>
+      <content:encoded><![CDATA[<p><b>暗夜明岚: </b><br>
+<span>都说windows server 比群晖好，那有没有大佬写篇教程啊！</span><br>
+<span> 本帖最后由 暗夜明岚 于 2019-7-30 14:53 编辑 </span><br>
+<span>都说windows server 比群晖好，那有没有大佬写篇教程啊！</span><br>
+<span>最好可以带上配件 谢谢啦</span><br>
+<span>给各位大佬跪了！大佬们都是搞什么啊！要那么多多盘位？</span><br>
+<span>我是先打算买过8-10T的硬盘就够了把？最多2个8T的硬盘，我就是给小姐姐和刘备买过新房子啊！</span><br>
+</p><p><b>铅笔: </b><br>
+<span>懒，去隔壁chh慢慢扒。</span><br>
+</p><p><b>abcbuzhiming: </b><br>
+<span>用windows server最大的问题是要怎么弄出一个体积小还能塞好多块硬盘的硬件来，这个问题解决了，论生态圈windows不是吊起来打其它</span><br>
+</p><p><b>烟萝: </b><br>
+<span> 本帖最后由 烟萝 于 2019-7-30 12:52 编辑 </span><br>
+<span>DIY 的黑群晖箱子都能装。大部分情况装个WIN10就行了。</span><br>
+<span>我是黑群转白转WIN。再也不捣鼓那劳什子的文件系统了。无数的天坑，说起来可以哭满黄河。</span><br>
+<span>设备永远跟不上需求升级。而你给群晖升级的时候有无数的坑等着你填。</span><br>
+<span>机箱上6盘位8盘的选择不多都是杀猪价。</span><br>
+<span>有个DIY的机箱还不错可以看看。也不贵。</span><br>
+<span>B450I + 2400G + 个M.2分4SATA的卡。就可以6 3.5盘位+2个2.5盘了。成本只有2000左右。</span><br>
+<span>再便宜J3455+一个M.2分2SATA 的卡也能6盘。</span><br>
+<span>https://item.taobao.com/item.htm?spm=a1z09.2.0.0.39a82e8dKrnafg&id=20683131221&_u=u29u1c1a5341</span><br>
+</p><p><b>汝者: </b><br>
+<span>最简单的做法是买万由nas装win </span><br>
+<span>碰上618双11之类价格不错 箱子也可以</span><br>
+<span>diy就很多做法了 看钱包说话</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>闲鱼收了个便宜爱国者atx机箱</span><br>
+<span>z170魔改上的g5400</span><br>
+<span>16 GDDR4</span><br>
+<span>PCIE的硬盘接口扩展卡，加主板可以一共带12块硬盘个一块m.2PCIE盘，</span><br>
+<span>win10ltsc2019 vmware装Ubuntu，在虚拟机里面挂载物理磁盘，开samba，然后win10挂下载软件</span><br>
+<span>下一步准备配置plex，不过怕cpu性能吃紧，考虑要不要升级9100f，但是没核显很犹豫。</span><br>
+<span>各种东西都是路由器映射端口，自己写了ddns配置工具</span><br>
+<span>目前为止用的还算舒服，除了机箱太大(我不在乎)</span><br>
+<span>好处是软件支持度很高</span><br>
+<span>缺点是什么都要自己琢磨配置，麻烦</span><br>
+<span>当然，满足我自己需求就好</span><br>
+</p><p><b>bilibon: </b><br>
+<span>以前买过万由四盘位，这次买的万由8盘位，淘宝搜下能官方店的机箱钱买到机箱+海韵那个电源。到手还是香，能塞进我的柜子，一关门什么声音都没有。而且我也没用server，直接WIN10开了共享文件夹。everything用来搜文件，还是挺好用的</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>bilibon 发表于 2019-7-30 13:47</span><br>
+<span>以前买过万由四盘位，这次买的万由8盘位，淘宝搜下能官方店的机箱钱买到机箱+海韵那个电源。到手还是香，能 ...</span><br>
+<span>求pm个连接 谢谢！</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>win server 垃圾 老老实实 linux </span><br>
+<span>系统用fedora 29或者其他4.18 以上内核的系统</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>其实 群晖比自己折腾服务器便宜..... 自己折腾服务器价格没底的</span><br>
+<span>群晖老老实实买个1500的就不折腾了 23333</span><br>
+<span>我建议你还是不要折腾老老实实群晖之类的算了</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>赤色彗星SEXY 发表于 2019-7-30 15:27</span><br>
+<span>win server 垃圾 老老实实 linux </span><br>
+<span>系统用fedora 29或者其他4.18 以上内核的系统</span><br>
+<span>朋友专门给医院那些转服务器的 他说2016可以破的 到时候问下他看看 谢谢！群晖的话 白的也贵把？</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>有什么需求就折腾什么，常规下载就装115挂着就行了，所有硬盘共享然后别的电脑输地址添加远程磁盘，平时访问用远程桌面mstsc</span><br>
+<span>如果你不介意电费，也完全可以搞高性能NAS，4核-8核+16G内存+NVME SSD+独立显卡，想干什么都能干</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>暗夜明岚 发表于 2019-7-30 15:57</span><br>
+<span>朋友专门给医院那些转服务器的 他说2016可以破的 到时候问下他看看 谢谢！群晖的话 白的也贵把？ ...</span><br>
+<span>折腾是个无底洞,一般需求买个便宜的群晖够了</span><br>
+<span>看你也不是个垃圾佬,黑裙折腾起来硬件也不便宜</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>能折腾的,硬件到位黑群没啥用,功能服务器基本都可用的开源软件,没必要纠结黑白群</span><br>
+<span>如果不折腾干嘛不老老实实买个成品呢</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>赤色彗星SEXY 发表于 2019-7-30 16:26</span><br>
+<span>能折腾的,硬件到位黑群没啥用,功能服务器基本都可用的开源软件,没必要纠结黑白群</span><br>
+<span>如果不折腾干嘛不老老实 ...</span><br>
+<span>原来闲鱼买老公黑群晖的，那个时候新家没搞好，扔朋友那里了，不带硬盘1000出头，带了32g的ssd好像？然后现在想搞个可以在外面看小电影的东西，115几个人用烦躁。看了下折腾服务器可以搞软路由，什么游戏放在上面可以直接远程玩什么的，所以试着看看。我看下smzdm 一套下来2500出头好像会够了？</span><br>
+</p><p><b>全力少年: </b><br>
+<span>星际蜗牛300块不到，刷好黑群，闲鱼上找人30块钱洗白，完事</span><br>
+</p><p><b>宵十一狼: </b><br>
+<span>我觉得windows这权限管理好麻烦，这点是不如群晖的……不过家用大概没有这个需求吧</span><br>
+</p><p><b>sorayang: </b><br>
+<span>用法就是server开hyperV装win10虚拟机，然后就跟台式机一样用了</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>烟萝 发表于 2019-7-30 12:47</span><br>
+<span>DIY 的黑群晖箱子都能装。大部分情况装个WIN10就行了。</span><br>
+<span>我是黑群转白转WIN。再也不捣鼓那劳什子的文件系统 ...</span><br>
+<span>请问使用hp gen10四核版本的话，是不是贵但是简化了基础配置的时间。</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>全力少年 发表于 2019-7-30 16:56</span><br>
+<span>星际蜗牛300块不到，刷好黑群，闲鱼上找人30块钱洗白，完事</span><br>
+<span>打死你就是在tg看到你的帖子想起要搞nas</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>暗夜明岚 发表于 2019-7-30 16:44</span><br>
+<span>原来闲鱼买老公黑群晖的，那个时候新家没搞好，扔朋友那里了，不带硬盘1000出头，带了32g的ssd好像？然后 ...</span><br>
+<span>如果你用流媒体播放器, 不想烂硬盘, 内存32G比较好 ,32G内存就1000块了</span><br>
+<span>1个8T 硬盘也要1000块</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>烟萝 发表于 2019-7-30 12:47</span><br>
+<span>DIY 的黑群晖箱子都能装。大部分情况装个WIN10就行了。</span><br>
+<span>我是黑群转白转WIN。再也不捣鼓那劳什子的文件系统 ...</span><br>
+<span>这个机箱散热不好，有淌过河的，别搞了</span><br>
+</p><p><b>烟萝: </b><br>
+<span>Realplayer 发表于 2019-7-30 17:57</span><br>
+<span>这个机箱散热不好，有淌过河的，别搞了</span><br>
+<span>散热肯定不好啊。这是6mm厚的铝板啊，要是散热好就有鬼了。。</span><br>
+<span>洞洞流的DIY的ITX机箱铝板都只有1.5-2mm（500元等级）3mm（1000元等级）。就这都说散热不好</span><br>
+<span>但是散热也要根据自己的使用场景和实际功耗情况来看。</span><br>
+<span>这机箱6盘位，大夏天6个硬盘温度也就平均40度的样子，足够了。</span><br>
+<span>反之带来的好处就是安静的厉害。别说里面的风扇声，你连炒豆子的声音都听不见。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span> 本帖最后由 cybernetics31 于 2019-7-30 18:48 编辑 </span><br>
+<span>限定win的话 蜗牛单千兆 现在价格250？嫌电源差的小1u的买二手撑死150。再买块ssd，撑死100，机子总价撑死500。</span><br>
+<span>软件：我懒 直接装的win10 LTSB 照片备份photosync 下载qbittorrent 开web ui 就不需要开远程rdp了 死种115伺候 其他开smb啥的就是常规操作了 反正我就是这么设置的 蜗牛胜在价格便宜 比较适合我这种只是下载和smb的 备份啥的倒是其次 基本都是大奶上备份 不需要虚拟机 zfs raid的啥的J1900完全够用 功耗也小 现在稳定运行好几个月了 </span><br>
+</p><p><b>VirMoe: </b><br>
+<span>sorayang 发表于 2019-7-30 17:00</span><br>
+<span>用法就是server开hyperV装win10虚拟机，然后就跟台式机一样用了</span><br>
+<span>那怎么不直接装win10</span><br>
+</p><p><b>longooyue: </b><br>
+<span>都说windows server 比群晖好，那有没有大佬写篇教程啊！</span><br>
+<span> 太麻烦，下好镜像直接安装就ok</span><br>
+<span>最好可以带上配件 谢谢啦</span><br>
+<span> cpu要x86架构</span><br>
+<span>给各位大佬跪了！大佬们都是搞什么啊！要那么多多盘位？</span><br>
+<span> 公司IT，要</span><br>
+<span>我是先打算买过8-10T的硬盘就够了把？最多2个8T的硬盘，我就是给小姐姐和刘备买过新房子啊！</span><br>
+<span> 够的，理论上可以动态增加。我实际没有操作过</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>烟萝 发表于 2019-7-30 18:37</span><br>
+<span>散热肯定不好啊。这是6mm厚的铝板啊，要是散热好就有鬼了。。</span><br>
+<span>洞洞流的DIY的ITX机箱铝板都只有1.5-2mm（50 ...</span><br>
+<span>谁给它的勇气夏天六盘40°……</span><br>
+<span>恩杰H2那么大箱子五盘位都快五十了，这还是有前风扇的</span><br>
+</p><p><b>Kryss: </b><br>
+<span> longooyue replied on 2019-7-30 19:35 都说windows server 比群晖好，那有没有大佬写篇教程啊！太麻烦，下好镜像直接安装就ok 最好可以带上配件 谢谢啦cpu要x86架构 给各位大佬跪了！大佬们都是搞什么啊！要那么多多盘位？公司IT，要 我是先打算买过8-10T的硬盘就够了把？最多2个8T的硬盘，我就是给小姐姐和刘备买过新房子啊！够的，理论上可以动态增加。我实际没有操作过 </span><br>
+<span>你这样的话还是别自己折腾了，Server2019如果当Win10用都不会的话写多少教程也没用，如果真的去用Server特有的功能那么msdn就是教程你肯定也看不懂。总结：如果只是共享文件那就是把server2019当win10用，正常装系统然后右键共享</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>xylxp: </b><br>
+<span> 本帖最后由 xylxp 于 2019-7-31 08:03 编辑 </span><br>
+<span>用屁win10，debian 10，Ubuntu18.04走起</span><br>
+<span>搞个zfs美滋滋</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>男子汉: </b><br>
+<span>群晖装app比较无脑，windows server的设置门槛感觉比linux还高</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>之前的星际蜗牛就装过W Server，优化一下还可以的</span><br>
+</p><p><b>小单酱: </b><br>
+<span>写一下我的,前端时间家里装修顺便弄的 </span><br>
+<span>硬件:</span><br>
+<span>主板:ms-s0651 ATX板 4千兆网口,10sata,支持板载raid.如果网口还不够用,直接插千兆网卡就行.</span><br>
+<span>CPU:i5 3470t 支持vt-d vt-x 低功耗 (hyper好像没关系)</span><br>
+<span>硬盘:目前是256固态+4t机械</span><br>
+<span>内存:4G*2</span><br>
+<span>电源:DC-ATX电源 200w (够用/体积小)</span><br>
+<span>散热:搞个静音风扇就行</span><br>
+<span>机箱:淘宝的亚克力机箱,自己组装的.因为不用装显卡,ATX机箱+预览7sata位 也可以压缩到很小的体积.30*36*28</span><br>
+<span>软件:</span><br>
+<span>win server 2016 (教育邮箱 微软会送的)</span><br>
+<span>远程桌面</span><br>
+<span>hyper lede </span><br>
+<span>媒体 plex</span><br>
+<span>文件 samba + kodcould</span><br>
+<span>下载 aria2 + 桌面迅雷</span><br>
+<span>git gitlib</span><br>
+<span>以上的都可以进行端口转发,进行远程访问</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>小单酱 发表于 2019-7-31 09:52</span><br>
+<span>写一下我的,前端时间家里装修顺便弄的 </span><br>
+<span>硬件:</span><br>
+<span>谢谢， 可以pm个机箱连接吗？一套下来大概多少钱了？</span><br>
+</p><p><b>小单酱: </b><br>
+<span>暗夜明岚 发表于 2019-7-31 11:34</span><br>
+<span>谢谢， 可以pm个机箱连接吗？一套下来大概多少钱了？</span><br>
+<span>所有成本算下来1k+</span><br>
+<span>晚上回去我补张图</span><br>
+</p><p><b>mfkof: </b><br>
+<span>直接迎广ms04＋win10</span><br>
+<span>nas和htpc都有了。</span><br>
+<span>硬盘做存储池。</span><br>
+<span>—— 来自 ZUK Z2151, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>我说下我的   HTPC+软路由+NAS+虚拟桌面四合一</span><br>
+<span>CPUe3 1235l v5   TDP才25W的神器   因为牙膏一直锁主板所以到去年破解了才大范围应用</span><br>
+<span>主板 华硕H110T   双网卡一个M2接口固态128G，另外再接了2块2T硬盘，DC供电 </span><br>
+<span>机箱淘宝上买的，20*20*6 一个CPU风扇，又自己配了2个调速的机箱风扇，放客厅电视机下面，即使半夜也听不见声音</span><br>
+<span>内存16G</span><br>
+<span>外置一个120W的电源</span><br>
+<span>装的windows LTSC2019，硬盘用的Windows的存储池，开了SMB共享</span><br>
+<span>hyper-V虚拟机自己编译了一个openwrt做软路由，又虚拟了一个win,专门做远程桌面，方便日常工作，例如有些要跑的东西，可以24小时开机。</span><br>
+<span>再装了一个Linux，为了装DOCKER，里面花样就多了，各种的下载程序媒体库啥的，都可以用那台虚拟的WIN来控制</span><br>
+<span>用手机连接远程桌面，即使在外，也能做到随时随地回家看看</span><br>
+<span>HDMI接电视，专用一个Windows子账号,装了UWP还有kodi，买了一个无线小键盘，女儿现在能自己开了电视屏幕看动画。</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>你就用来做SMB共享的，那自然是windows无脑方便啊</span><br>
+<span>但是你又要做快照，又要文件去重，又要实时压缩，还要一些方便媒体应用比如什么PLEX啊，什么DDNS啊，什么照片管理啊那自然是成品NAS好用了</span><br>
+</p><p><b>like0036: </b><br>
+<span>WIN有好用的云同步吗？</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>我要是有钱就搞unraid服务器</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>AT丶Field: </b><br>
+<span>yeah20002 发表于 2019-7-31 13:29</span><br>
+<span>我说下我的   HTPC+软路由+NAS+虚拟桌面四合一</span><br>
+<span>CPUe3 1235l v5   TDP才25W的神器   因为牙膏一直锁主板 ...</span><br>
+<span>想问一下，软路由和nas是可以共用网口吗？打算组个nas软路由一体机</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>AT丶Field 发表于 2019-7-31 16:11</span><br>
+<span>想问一下，软路由和nas是可以共用网口吗？打算组个nas软路由一体机</span><br>
+<span>虚拟机啊    你要多少个网口都能给你整出来还都是万兆的</span><br>
+</p><p><b>AT丶Field: </b><br>
+<span>yeah20002 发表于 2019-7-31 16:22</span><br>
+<span>虚拟机啊    你要多少个网口都能给你整出来还都是万兆的</span><br>
+<span>噢噢，懂了 物理网口只要一进一出就行了</span><br>
+</p><p><b>小单酱: </b><br>
+<span>暗夜明岚 发表于 2019-7-31 11:34</span><br>
+<span>谢谢， 可以pm个机箱连接吗？一套下来大概多少钱了？</span><br>
+<span>补张图</span><br>
+<span>机箱正好放进客厅的架子里</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>提个建议，配个屏幕做电子相册，美滋滋</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850092[0-50]</guid>
+    </item>
+  </channel>
+</rss>

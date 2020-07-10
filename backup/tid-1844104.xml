@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问超能力者们, 你们接触过\见过最复杂的数据结构是什么?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问超能力者们, 你们接触过\见过最复杂的数据结构是什么?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:18:14 +0000</lastBuildDate>
+    <item>
+      <title>请问超能力者们, 你们接触过\见过最复杂的数据结构是什么?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844104-1-1.html</link>
+      <description>请问超能力者们, 你们接触过\见过最复杂的数据结构是什么?&#13;
+ 本帖最后由 李恭暔 于 2019-7-4 03:20 编辑 
+
+请问超能力大大们
+&#13;
+在不不不涉及多线程的前提下
+&#13;
+最复杂的数据结构是什么？
+&#13;
+B+树？ 
+&#13;
+红黑树？
+&#13;
+AVL树？
+&#13;
+还是别的？ 请随便提名</description>
+      <content:encoded><![CDATA[<p><b>李恭暔: </b><br>
+<span>请问超能力者们, 你们接触过\见过最复杂的数据结构是什么?</span><br>
+<span> 本帖最后由 李恭暔 于 2019-7-4 03:20 编辑 </span><br>
+<span>请问超能力大大们</span><br>
+<span>在不不不涉及多线程的前提下</span><br>
+<span>最复杂的数据结构是什么？</span><br>
+<span>B+树？ </span><br>
+<span>红黑树？</span><br>
+<span>AVL树？</span><br>
+<span>还是别的？ 请随便提名</span><br>
+</p><p><b>diablost3: </b><br>
+<span>是没有结构</span><br>
+</p><p><b>Entity: </b><br>
+<span>b+树上了锁就是多线程用的呀...</span><br>
+</p><p><b>汤大鸡: </b><br>
+<span>接触过最复杂的就是Van Emde Boas layout，感觉就是给做理论的发paper用的</span><br>
+</p><p><b>Endle: </b><br>
+<span>KD树？</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>提名word文件，.doc不带x的</span><br>
+</p><p><b>契卡: </b><br>
+<span>https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/calendar-and-notes/</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想多复杂都可以。自己实现过的没有比并查集更复杂的简单结构了，别的不知道了。复杂的一般都是先选定一个基础结构，伸展树之类的，再添加一堆跳表做优化。要我说，只有两种数据结构，链表和数组。。。。</span><br>
+</p><p><b>wardenlym: </b><br>
+<span> 本帖最后由 wardenlym 于 2019-7-4 00:21 编辑 </span><br>
+<span>比如说区块链这个结构，看着复杂，但没有比分块链表多什么东西。另外有一本函数式数据结构的书，里面讲的挺不错，开眼界，有兴趣楼主可以找来看看Purely Functional Data Structures. Chris Okasaki. September 1996</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>wardenlym 发表于 2019-7-4 00:15</span><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想 ...</span><br>
+<span>逼呼上有人贴了个极其简单的并查集代码</span><br>
+<span>十行左右</span><br>
+<span>绝对不到二十行</span><br>
+</p><p><b>米兰球迷: </b><br>
+<span>Mark一下</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>Entity 发表于 2019-7-3 23:19</span><br>
+<span>b+树上了锁就是多线程用的呀...</span><br>
+<span>这位大大</span><br>
+<span>我想问的是不不不涉及多线程的数据结构了</span><br>
+<span>不过既然你说了，求可并发访问的B+树的资料</span><br>
+<span>我翻了好几本教科书，都是单线程的。</span><br>
+</p><p><b>Entity: </b><br>
+<span>这个时候就要推荐cmu著名db讲师 andy pavlo的15-645了。我跟这个老师上过课，做过项目，这兄弟很搞，你要是能上油管 和推特可以去看他传的东西，搞的一笔，比如: https://www.youtube.com/watch?v=qENwioSzPFs 。</span><br>
+<span>https://www.bilibili.com/video/av39731185?from=search&seid=12022172703830848624</span><br>
+<span>这是b站上的，重点看p7-p9.</span><br>
+<span>书的话，我记得我以前上这课的时候用了个书，有各种thread-safe data structure的伪代码，可能就是这个课的课本Database System Concepts (6th Edition)? 我不太记得了，你可以翻翻。</span><br>
+</p><p><b>infinitesimal7: </b><br>
+<span>Top tree</span><br>
+</p><p><b>革萌: </b><br>
+<span>这玩意儿不是想要多复杂就有多复杂吗</span><br>
+</p><p><b>sorrow17: </b><br>
+<span>lz还是得明确一下想要问的是啥，就像楼里说的，数据结构想要多复杂就要可以有多复杂，重点是有没有限定这个东西具体要提供什么功能（接口），然后再说能接触到最复杂的结构是啥，要不很多东西没有可比性。</span><br>
+</p><p><b>mimighost: </b><br>
+<span> 本帖最后由 mimighost 于 2019-7-4 05:09 编辑 </span><br>
+<span>这些哪里算复杂</span><br>
+<span>单机可测的都不算复杂</span><br>
+<span>复杂度可怕的地方在于，太复杂的东西你连他啥时候fail都不知道，测试都没法下手，这才是最可怕的</span><br>
+</p><p><b>jxwufan: </b><br>
+<span>汤大鸡 发表于 2019-7-3 23:23</span><br>
+<span>接触过最复杂的就是Van Emde Boas layout，感觉就是给做理论的发paper用的</span><br>
+<span>这个是为了给cache提升性能用的吧</span><br>
+</p><p><b>jxwufan: </b><br>
+<span>实用一点的 log structured merge tree 还有leveldb可以看</span><br>
+</p><p><b>拍手迅雷: </b><br>
+<span>"超能力者们"</span><br>
+</p><p><b>汤大鸡: </b><br>
+<span> 本帖最后由 汤大鸡 于 2019-7-4 08:37 编辑 </span><br>
+<span>jxwufan 发表于 2019-07-04 05:08:24</span><br>
+<span>这个是为了给cache提升性能用的吧</span><br>
+<span>做 cache-oblivious data structure 大概率会用这个结构，但据我所知，基本没有靠谱的实现</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>wardenlym 发表于 2019-7-4 00:15</span><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想 ...</span><br>
+<span>不是，并查集不是十行代码搞定的么？每个人存个爹指针。每次查询更新下爹。</span><br>
+</p><p><b>mqm: </b><br>
+<span>想起一个解决精确覆盖问题的结构叫舞蹈链，不过回顾了一下也没有很复杂</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>有种东西叫树套树，还有树套树套树。都可以组合</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>mqm 发表于 2019-7-4 09:35</span><br>
+<span>想起一个解决精确覆盖问题的结构叫舞蹈链，不过回顾了一下也没有很复杂</span><br>
+<span>当年noip最后一题数独，我就是用舞蹈链写的。。。</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>苇原雪道 发表于 2019-7-4 09:33</span><br>
+<span>不是，并查集不是十行代码搞定的么？每个人存个爹指针。每次查询更新下爹。 ...</span><br>
+<span>我鼓捣了半天才出来，抱歉，我只是分享一下我个人写过的，见笑见笑</span><br>
+</p><p><b>寿命不过一岁: </b><br>
+<span>苇原雪道 发表于 2019-7-4 09:44</span><br>
+<span>当年noip最后一题数独，我就是用舞蹈链写的。。。</span><br>
+<span>算法教材里从来没提过这个数据结构</span><br>
+<span>— from HUAWEI ELE-AL00, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>limbo.null: </b><br>
+<span>斐波那契堆....楼上说什么树套树这种其实手撸不难</span><br>
+</p><p><b>WindFi: </b><br>
+<span>wardenlym 发表于 2019-7-4 00:15</span><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想 ...</span><br>
+<span>这个和 教你四则运算 然后开始高数 一个道理 基本原理简单组合起来就复杂</span><br>
+</p><p><b>jxwufan: </b><br>
+<span>汤大鸡 发表于 2019-7-4 08:33</span><br>
+<span>做 cache-oblivious data structure 大概率会用这个结构，但据我所知，基本没有靠谱的实现</span><br>
+<span>-- 来自 有 ...</span><br>
+<span>大佬您是做TCS的吗</span><br>
+</p><p><b>李恭暔: </b><br>
+<span> 本帖最后由 李恭暔 于 2019-7-4 17:09 编辑 </span><br>
+<span>wardenlym 发表于 2019-7-4 00:15</span><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想 ...</span><br>
+<span>谢谢指教</span><br>
+<span>不过我原帖問的是 "数据结构"</span><br>
+<span>不是 基本 数据结构</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span> 本帖最后由 海底铁锚 于 2019-7-4 17:42 编辑 </span><br>
+<span>可并堆做k短路</span><br>
+<span>实现各种功能的splay</span><br>
+<span>动态kd树</span><br>
+<span>LCT</span><br>
+<span>基本上数据结构教材上面有的都不复杂，要找复杂的得在oi竞赛里面找。然后像是AVL这种平衡树，不难理解的都不复杂。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span>还有并查集这种程度的数据结构，手撸都不用五分钟。根本算不上什么。</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>海底铁锚 发表于 2019-7-4 17:37</span><br>
+<span>可并堆做k短路</span><br>
+<span>实现各种功能的splay</span><br>
+<span>动态kd树</span><br>
+<span>LCT全称是啥？</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>海底铁锚 发表于 2019-7-4 17:37</span><br>
+<span>可并堆做k短路</span><br>
+<span>实现各种功能的splay</span><br>
+<span>动态kd树</span><br>
+<span>LCT全称是啥？</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>wardenlym 发表于 2019-7-4 00:15</span><br>
+<span>之所以叫基本数据结构，就是可以调整组合成复杂的，再往上也是特化的森林，并查集，跳表和图的组合了，那想 ...</span><br>
+<span>链表、数组、树、图</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span>李恭暔 发表于 2019-7-8 18:19</span><br>
+<span>LCT全称是啥？</span><br>
+<span>link-cut tree</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>课程有这个 https://courses.csail.mit.edu/6.851/</span><br>
+<span>实际范围内大概是微软实现的open xml ?</span><br>
+</p><p><b>mimighost: </b><br>
+<span>李恭暔 发表于 2019-7-4 17:06</span><br>
+<span>谢谢指教</span><br>
+<span>不过我原帖問的是 "数据结构"</span><br>
+<span>其实还可以加一个纬度</span><br>
+<span>那就是介质，顺序的还是随机读写的，这些其实才是决定使用场景和复杂度的大头</span><br>
+<span>数据库这么多年守着lsm tree这些看似没啥新意的数据结构不是全无道理的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844104[0-50]</guid>
+    </item>
+  </channel>
+</rss>

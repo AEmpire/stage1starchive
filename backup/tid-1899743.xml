@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>千兆只能光猫拨号是不是无解了？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>千兆只能光猫拨号是不是无解了？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:52:48 +0000</lastBuildDate>
+    <item>
+      <title>千兆只能光猫拨号是不是无解了？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1899743-1-1.html</link>
+      <description>千兆只能光猫拨号是不是无解了？&#13;
+前段时间从300M升了千兆，到月初发现还是300M，叫电信来测，电信测出线路没问题，光猫路由拨号能满速，我改回桥接换了几个路由器拨号测试，甚至电脑直连光猫拨号都只能300M····
+&#13;
+再联系电信就打哈哈了，让我先用光猫路由拨号用着，他们想办法解决。这千兆是不是只能用光猫拨号了？</description>
+      <content:encoded><![CDATA[<p><b>rp1993: </b><br>
+<span>千兆只能光猫拨号是不是无解了？</span><br>
+<span>前段时间从300M升了千兆，到月初发现还是300M，叫电信来测，电信测出线路没问题，光猫路由拨号能满速，我改回桥接换了几个路由器拨号测试，甚至电脑直连光猫拨号都只能300M····</span><br>
+<span>再联系电信就打哈哈了，让我先用光猫路由拨号用着，他们想办法解决。这千兆是不是只能用光猫拨号了？</span><br>
+</p><p><b>騜: </b><br>
+<span>https://dxss.miit.gov.cn/</span><br>
+<span>一套投诉先做完再说</span><br>
+</p><p><b>huruii7: </b><br>
+<span>想桥接是不是iptv用不了</span><br>
+</p><p><b>rp1993: </b><br>
+<span>huruii7 发表于 2019-12-10 11:00</span><br>
+<span>想桥接是不是iptv用不了</span><br>
+<span>那不会，IPTV本身就是桥接，然后机顶盒拨号的····</span><br>
+</p><p><b>风云再起: </b><br>
+<span>上海电信，桥接想看iptv需要在设备里动一番手脚</span><br>
+<span>—— 来自 Xiaomi Mi9 Pro 5G, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>smallace: </b><br>
+<span>风云再起 发表于 2019-12-10 11:12:21</span><br>
+<span>上海电信，桥接想看iptv需要在设备里动一番手脚</span><br>
+<span>—— 来自 Xiaomi Mi9 Pro 5G, Android 9上的v2.2.0.1 ...上海这边还给改桥接吗，现在据说没法自己破解新的光猫了？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>白武男: </b><br>
+<span> 本帖最后由 白武男 于 2019-12-10 11:44 编辑 </span><br>
+<span>smallace 发表于 2019-12-10 11:39</span><br>
+<span>上海这边还给改桥接吗，现在据说没法自己破解新的光猫了？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>新的SDN网关？给改但是问题多，似乎和型号有关，黑色的F450G和白色的F450G有点不一样。所以很多怕麻烦的上门师傅都不愿意改。</span><br>
+</p><p><b>风云再起: </b><br>
+<span>白武男 发表于 2019-12-10 11:42</span><br>
+<span>新的SDN网关？给改但是问题多，似乎和型号有关，黑色的F450G和白色的F450G有点不一样。所以很多怕麻烦的上 ...</span><br>
+<span>sdn光猫好像要申请，然后等下发配置，之前问小哥说是要等10个工作日以上。</span><br>
+<span>我还是老款的悦me</span><br>
+<span>—— 来自 Xiaomi Mi9 Pro 5G, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>悦me不是sdn，要超管能改。</span><br>
+<span>升千兆给的万兆光猫是sdn，没得自己设置，电信策略是，你要改桥接就不让上千只让用500m。</span><br>
+<span>但是呢，这个万兆光猫的路由性能挺强的，端口转发也是真实的，除了不能设置dhcp固定分配客户ip，其它都不对使用造成影响。</span><br>
+<span>我自己已经把所有路由器改成交换机了，就只用这个sdn做主路由，特殊需求我装了个koolshare lede虚拟机，比梅林还好用</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>激光飞侠: </b><br>
+<span>光猫用桥接模式不能硬件加速吧，所以不能满速 一定要拨号那就只买500M以下的宽带吧</span><br>
+<span>现在的天翼网关+elink其实蛮方便的</span><br>
+</p><p><b>sahara: </b><br>
+<span>sunyiren 发表于 2019-12-10 19:01</span><br>
+<span>悦me不是sdn，要超管能改。</span><br>
+<span>升千兆给的万兆光猫是sdn，没得自己设置，电信策略是，你要改桥接就不让上千只 ...</span><br>
+<span>光猫没办法分配固定IP对于内网内互相访问类似NAS页面和作AP用的路由管理页面有什么好的解决方法吗？还是得下面再加一层可分配地址的交换机或路由之类的？</span><br>
+</p><p><b>rp1993: </b><br>
+<span>sunyiren 发表于 2019-12-10 19:01</span><br>
+<span>悦me不是sdn，要超管能改。</span><br>
+<span>升千兆给的万兆光猫是sdn，没得自己设置，电信策略是，你要改桥接就不让上千只 ...</span><br>
+<span>我这新光猫界面和老的一样啊，可以自己设置的，应该不是SDN</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>sahara 发表于 2019-12-10 19:52</span><br>
+<span>光猫没办法分配固定IP对于内网内互相访问类似NAS页面和作AP用的路由管理页面有什么好的解决方法吗？还是 ...</span><br>
+<span>手动给每个设备设置ip地址，不要用DHCP</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1899743[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>centbrowser看张大妈首页这个区域是糊的...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>centbrowser看张大妈首页这个区域是糊的...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:56:04 +0000</lastBuildDate>
+    <item>
+      <title>centbrowser看张大妈首页这个区域是糊的...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915927-1-1.html</link>
+      <description>centbrowser看张大妈首页这个区域是糊的...&#13;
+ 本帖最后由 zmw_831110 于 2020-2-26 23:21 编辑 
+
+centbrowser看张大妈首页这个区域是糊的...
+&#13;
+http://ww1.sinaimg.cn/large/46a42788gy1gca7puduoxj214y0obapu.jpg
+&#13;
+有解决方案么?
+&#13;
+浏览器缩放100%就是好的,上图是开到115%,其他部分没问题,就红框里的糊了
+&#13;
+windows显示是100%,没有缩放</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>centbrowser看张大妈首页这个区域是糊的...</span><br>
+<span> 本帖最后由 zmw_831110 于 2020-2-26 23:21 编辑 </span><br>
+<span>centbrowser看张大妈首页这个区域是糊的...</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gca7puduoxj214y0obapu.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gca7puduoxj214y0obapu.jpg"><br>
+<span>有解决方案么?</span><br>
+<span>浏览器缩放100%就是好的,上图是开到115%,其他部分没问题,就红框里的糊了</span><br>
+<span>windows显示是100%,没有缩放</span><br>
+</p><p><b>mfkof: </b><br>
+<span>借楼问个问题，我一直好奇，这浏览器看新浪微博里的视频，进度条拖两次以后就挂了，是浏览器的问题还是微博垃圾的缘故？</span><br>
+<span>—— 来自 ZUK Z2151, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>怀疑是chromium渲染的问题，firefox测试没问题（另外我自己换的苹方字体）</span><br>
+</p><p><b>aimkiray: </b><br>
+<span> 本帖最后由 aimkiray 于 2020-2-27 11:48 编辑 </span><br>
+<span>这应该是transform的锅。</span><br>
+<span>用transform渲染元素，可能会出现非整数的px，导致字体会模糊。图中的位置勾掉就没问题了（张大妈来修bug</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915927[0-50]</guid>
+    </item>
+  </channel>
+</rss>

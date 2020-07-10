@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>加利略系统挂了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>加利略系统挂了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:05:26 +0000</lastBuildDate>
+    <item>
+      <title>加利略系统挂了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846104-1-1.html</link>
+      <description>加利略系统挂了&#13;
+欧盟巨资打造的伽利略导航，凉了
+&#13;
+
+&#13;
+航天君
+&#13;
+3小时前 · 媒体人
+&#13;
+文章来源 公众号 北斗办
+&#13;
+伽利略挂了，不是指伟大的科学家伽利略·伽利雷，
+&#13;
+伽利略：我都已经挂了快400年了才想起我，你们的良心不会疼吗？
+&#13;
+而是四大全球卫星导航系统之一的，由欧盟建设的伽利略系统挂了，而且还挂得特别惨。
+&#13;
+该事件在国内最早由公众号“监测评估中心”爆出，伽利略系统在UTC时间2019年7月10日14-15和17时（北京时间7月10日22-23和7月11日01时）出现3个小时的异常，其卫星导航信号的广播星历没有更新。
+&#13;
+绿色是健康状态，灰色是莫名故障
+&#13;
+燃鹅，这个故障并没有结束...
+&#13;
+把这张图和上一张图连起来看，你就会发现伽利略系统全部卫星都处在一种持续的不正常的状态中，目前图表数据是统计到昨晚22点。
+&#13;
+欧洲人在这么强烈的芝麻糊的香味的刺激下，债也卓不住了，发了以下的声明。
+&#13;
+[翻译]：
+&#13;
+系统服务恶化告警，该故障出现在2019年07月11日01:00（北京时间7月11日09:00），啥时候能解决不知道，该故障影响的范围是所有的伽利略系统的卫星。
+&#13;
+直到有进一步的通知，（目前）用户会经历全部伽利略导航卫星的服务恶化。这意味着(导航)信号将不可用，也不符合服务定义中最小的性能等级，用户们你们现在只能靠自己了。服务将尽快恢复正常。
+&#13;
+伽利略系统广播星历缺失，是什么意思？
+&#13;
+卫星星历是以开普勒定律的6个轨道参数之间的数学关系确定飞行体的时间、坐标、方位、速度等的各项参数，其具有极高的精度。卫星星历能精确计算、预测、描绘、跟踪卫星、飞行体的时间、位置、速度等运行状态，能表达天体、卫星、航天器、导弹、太空垃圾等飞行体的精确参数，能将飞行体置于三维的空间，能用时间立体描绘天体的过去、现在和将来。
+&#13;
+从卫星导航原理上我们知道，卫星导航系统的精度是基于自身轨道、时间等参数的精准信息，这些信息将通过GNSS星历广播给用户。在上面所述的伽利略系统出现的故障中，全系统是无法向用户更新卫星的各个参数的。
+&#13;
+伽利略系统广播星历缺失，是如何造成的？
+&#13;
+目前具体故障原因欧洲人还在查，尚未有官方的信息放出。仅从目前的故障现象判断，由于是全部卫星都出现同样的故障，因此不是卫星的问题，是地面系统的问题。电文时有时无，可以说明硬件链路没有问题，可以预估为地面软件运行故障造成注入失败引起的。整个卫星星座出现的同步故障，说明伽利略系统的星间链路在其中起了作用，一点故障，链式反应波及整个系统。
+&#13;
+一句话总结，伽利略系统的地面软件里有Bug，是不是也跟波音公司一样，把关键软件外包给了时薪9美元的工程师，外国也有临时工吗？
+&#13;
+伽利略系统广播星历缺失，对应用有啥影响？
+&#13;
+导航星历偶尔缺失，对在使用中的接收机影响不大，因为可以用过期的星历，但时间长了就不行了，精度会发散直至不可用。对于RTK的影响会更大，现有的RTK软件对于老IOD的星历不会有很好的支持，因此直接会导致无法使用。
+&#13;
+对于在此期间新开机的用户，不管是PPP还是RTK，大概率都无法使用。
+&#13;
+整星座故障是非常重大的事件，不过大家似乎并没有这方面受到影响的感觉，这应该感谢多系统带来的好处。
+&#13;
+目前已经在运行的全球系统有美帝的GPS、我国的北斗、普大大的GLONASS和欧盟的Galileo，加上日本和印度的区域导航系统，在轨导航卫星已经超过100颗。有这么多的在轨导航卫星，对于接收机在卫星选择上就可以做冗余策略的可能。
+&#13;
+甚至有一段时间，小葱发现华为手机是接收北斗但是并不将北斗纳入导航解算的，当时博通也采用了同样的策略。华为采用这样策略的原因是由于华为是全世界销售的，而当时北斗还只是区域导航系统，因此其选星策略里做这样的抉择也是可以理解的。
+&#13;
+目前伽利略系统的故障还在继续，但这个事件已经给出了对我们的启发，有更多的卫星，才有更加稳定的应用，在一个兼容的世界里，北斗系统既扮演了一个非常重要的角色，也在一个极为透明的平台上与竞争对手比拼。
+&#13;
+搜索
+&#13;
+北斗地图app
+&#13;
+卫星导航
+&#13;
+金灿荣讲北斗导航
+&#13;
+手机版北斗地图
+&#13;
+高德导航
+&#13;
+北斗导航系统地图</description>
+      <content:encoded><![CDATA[<p><b>csq21701: </b><br>
+<span>加利略系统挂了</span><br>
+<span>欧盟巨资打造的伽利略导航，凉了</span><br>
+<span></span><br>
+<span>航天君</span><br>
+<span>3小时前 · 媒体人</span><br>
+<span>文章来源 公众号 北斗办</span><br>
+<span>伽利略挂了，不是指伟大的科学家伽利略·伽利雷，</span><br>
+<span>伽利略：我都已经挂了快400年了才想起我，你们的良心不会疼吗？</span><br>
+<span>而是四大全球卫星导航系统之一的，由欧盟建设的伽利略系统挂了，而且还挂得特别惨。</span><br>
+<span>该事件在国内最早由公众号“监测评估中心”爆出，伽利略系统在UTC时间2019年7月10日14-15和17时（北京时间7月10日22-23和7月11日01时）出现3个小时的异常，其卫星导航信号的广播星历没有更新。</span><br>
+<span>绿色是健康状态，灰色是莫名故障</span><br>
+<span>燃鹅，这个故障并没有结束...</span><br>
+<span>把这张图和上一张图连起来看，你就会发现伽利略系统全部卫星都处在一种持续的不正常的状态中，目前图表数据是统计到昨晚22点。</span><br>
+<span>欧洲人在这么强烈的芝麻糊的香味的刺激下，债也卓不住了，发了以下的声明。</span><br>
+<span>[翻译]：</span><br>
+<span>系统服务恶化告警，该故障出现在2019年07月11日01:00（北京时间7月11日09:00），啥时候能解决不知道，该故障影响的范围是所有的伽利略系统的卫星。</span><br>
+<span>直到有进一步的通知，（目前）用户会经历全部伽利略导航卫星的服务恶化。这意味着(导航)信号将不可用，也不符合服务定义中最小的性能等级，用户们你们现在只能靠自己了。服务将尽快恢复正常。</span><br>
+<span>伽利略系统广播星历缺失，是什么意思？</span><br>
+<span>卫星星历是以开普勒定律的6个轨道参数之间的数学关系确定飞行体的时间、坐标、方位、速度等的各项参数，其具有极高的精度。卫星星历能精确计算、预测、描绘、跟踪卫星、飞行体的时间、位置、速度等运行状态，能表达天体、卫星、航天器、导弹、太空垃圾等飞行体的精确参数，能将飞行体置于三维的空间，能用时间立体描绘天体的过去、现在和将来。</span><br>
+<span>从卫星导航原理上我们知道，卫星导航系统的精度是基于自身轨道、时间等参数的精准信息，这些信息将通过GNSS星历广播给用户。在上面所述的伽利略系统出现的故障中，全系统是无法向用户更新卫星的各个参数的。</span><br>
+<span>伽利略系统广播星历缺失，是如何造成的？</span><br>
+<span>目前具体故障原因欧洲人还在查，尚未有官方的信息放出。仅从目前的故障现象判断，由于是全部卫星都出现同样的故障，因此不是卫星的问题，是地面系统的问题。电文时有时无，可以说明硬件链路没有问题，可以预估为地面软件运行故障造成注入失败引起的。整个卫星星座出现的同步故障，说明伽利略系统的星间链路在其中起了作用，一点故障，链式反应波及整个系统。</span><br>
+<span>一句话总结，伽利略系统的地面软件里有Bug，是不是也跟波音公司一样，把关键软件外包给了时薪9美元的工程师，外国也有临时工吗？</span><br>
+<span>伽利略系统广播星历缺失，对应用有啥影响？</span><br>
+<span>导航星历偶尔缺失，对在使用中的接收机影响不大，因为可以用过期的星历，但时间长了就不行了，精度会发散直至不可用。对于RTK的影响会更大，现有的RTK软件对于老IOD的星历不会有很好的支持，因此直接会导致无法使用。</span><br>
+<span>对于在此期间新开机的用户，不管是PPP还是RTK，大概率都无法使用。</span><br>
+<span>整星座故障是非常重大的事件，不过大家似乎并没有这方面受到影响的感觉，这应该感谢多系统带来的好处。</span><br>
+<span>目前已经在运行的全球系统有美帝的GPS、我国的北斗、普大大的GLONASS和欧盟的Galileo，加上日本和印度的区域导航系统，在轨导航卫星已经超过100颗。有这么多的在轨导航卫星，对于接收机在卫星选择上就可以做冗余策略的可能。</span><br>
+<span>甚至有一段时间，小葱发现华为手机是接收北斗但是并不将北斗纳入导航解算的，当时博通也采用了同样的策略。华为采用这样策略的原因是由于华为是全世界销售的，而当时北斗还只是区域导航系统，因此其选星策略里做这样的抉择也是可以理解的。</span><br>
+<span>目前伽利略系统的故障还在继续，但这个事件已经给出了对我们的启发，有更多的卫星，才有更加稳定的应用，在一个兼容的世界里，北斗系统既扮演了一个非常重要的角色，也在一个极为透明的平台上与竞争对手比拼。</span><br>
+<span>搜索</span><br>
+<span>北斗地图app</span><br>
+<span>卫星导航</span><br>
+<span>金灿荣讲北斗导航</span><br>
+<span>手机版北斗地图</span><br>
+<span>高德导航</span><br>
+<span>北斗导航系统地图</span><br>
+</p><p><b>无梦女: </b><br>
+<span>吓得TG又射几颗北斗上去</span><br>
+</p><p><b>Schweinebauch: </b><br>
+<span>要不再射50颗北斗上去吧</span><br>
+</p><p><b>无机盐水: </b><br>
+<span>现在北斗纳入导航解算了吧</span><br>
+</p><p><b>超能力程序猿: </b><br>
+<span>注入出问题。。。真屌</span><br>
+</p><p><b>mu1: </b><br>
+<span>笑出声，这挂的还是挺彻底的啊。</span><br>
+</p><p><b>光明寺茉衣子: </b><br>
+<span>相比真有实力的美国，老欧洲就是一群傲慢无用的废物</span><br>
+</p><p><b>الطائر: </b><br>
+<span>这是替身攻击！</span><br>
+</p><p><b>zn231: </b><br>
+<span>光明寺茉衣子 发表于 2019-7-12 12:04</span><br>
+<span>相比真有实力的美国，老欧洲就是一群傲慢无用的废物</span><br>
+<span>美国地面站全球分布很广，而北斗和伽利略没有这样的地面站部署优势，需要靠星际链路来补充全球定位应用，目前来看仅依靠星际链路可靠性还是不足</span><br>
+<span>不过星际链路是深空导航前置科技点，迟早要点开</span><br>
+</p><p><b>tsukatsukieiko: </b><br>
+<span>谁给个信源？</span><br>
+<span>谷歌搜galileo navigation，新闻前两页没有这个。</span><br>
+</p><p><b>wangbin1010: </b><br>
+<span>我记得零几年的时候还是中欧合资搞伽利略的那时候各种新闻吹伽利略 什么打破gps的垄断 世界第三大卫星定位系统。后来欧盟不知怎的 把中国排除在外了 这才另起炉灶搞的北斗 等北斗都发射的时候 伽利略还在欧盟里互相推诿难产中 于是北斗就把伽利略的波段还是高度啥的占了 </span><br>
+<span>没想到北斗都上去几十颗了伽利略凉了</span><br>
+</p><p><b>大江户战士: </b><br>
+<span>假消息死个🐴先</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>搜不到来源。</span><br>
+</p><p><b>黑斯廷斯: </b><br>
+<span>wangbin1010 发表于 2019-7-12 12:41</span><br>
+<span>我记得零几年的时候还是中欧合资搞伽利略的那时候各种新闻吹伽利略 什么打破gps的垄断 世界第三大卫星定位 ...</span><br>
+<span>我也是通过这几年的发展，觉得中国人真是务实，说干点啥就踏踏实实地去干最后还干成了。而其他国家，欧盟印度什么的都只会吹，打个不太恰当的比喻就是秀才造反十年不成。</span><br>
+</p><p><b>zn231: </b><br>
+<span> 本帖最后由 zn231 于 2019-7-12 12:50 编辑 </span><br>
+<span>wangbin1010 发表于 2019-7-12 12:41</span><br>
+<span>我记得零几年的时候还是中欧合资搞伽利略的那时候各种新闻吹伽利略 什么打破gps的垄断 世界第三大卫星定位 ...</span><br>
+<span>但是磨完嘴皮子后的伽利略超过我们还是很快的建的晚，但全球服务比我们早，也给国内北斗各个团队敲了警钟，不然北斗不会这么快赶全球覆盖</span><br>
+</p><p><b>Ton: </b><br>
+<span>没搜到相关消息啊。。</span><br>
+</p><p><b>元肉丸子: </b><br>
+<span>中文只在界面上有提，但是也没出处</span><br>
+<span>https://m.jiemian.com/article/3303596.html</span><br>
+<span>—— 来自 Xiaomi Mi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>海克托尔: </b><br>
+<span>伽利略系统广播星历缺失balablaba</span><br>
+<span>伽利略系统广播星历缺失balablaba</span><br>
+<span>伽利略系统广播星历缺失balablaba</span><br>
+<span>这个文体可信度有点低啊(≧∇≦)</span><br>
+</p><p><b>革萌: </b><br>
+<span> 本帖最后由 革萌 于 2019-7-12 12:57 编辑 </span><br>
+<span>https://www.gsc-europa.eu/system-status/Constellation-Information</span><br>
+<span>GENERAL      2019025      2019-07-11 01:00      2019-07-11 14:45      SERVICE DEGRADATION      ALL</span><br>
+<span>全系统服务降级</span><br>
+<span>具体通知是这一条</span><br>
+<span>https://www.gsc-europa.eu/notice-advisory-to-galileo-users-nagu-2019025</span><br>
+<span>DATE GENERATED (UTC): 2019-07-11 14:45</span><br>
+<span>NAGU TYPE: GENERAL</span><br>
+<span>NAGU NUMBER: 2019025</span><br>
+<span>NAGU SUBJECT: SERVICE DEGRADATION</span><br>
+<span>NAGU REFERENCED TO: N/A</span><br>
+<span>START DATE EVENT (UTC): 2019-07-11 01:00</span><br>
+<span>END DATE EVENT (UTC): N/A</span><br>
+<span>SATELLITE AFFECTED: ALL</span><br>
+<span>EVENT DESCRIPTION: UNTIL FURTHER NOTICE, USERS MAY EXPERIENCE SERVICE DEGRADATION ON ALL GALILEO SATELLITES. THIS MEANS THAT THE SIGNALS MAY NOT BE AVAILABLE NOR MEET THE MINIMUM PERFORMANCE LEVELS DEFINED IN THE SERVICE DEFINITION DOCUMENTS AND SHOULD BE EMPLOYED AT USERS’ OWN RISK. THE NOMINAL SERVICE WILL BE RESUMED AS SOON AS POSSIBLE.</span><br>
+</p><p><b>zxzx7753: </b><br>
+<span>最近好多北斗的优势新闻一看股票应该是要拉高出货</span><br>
+<span>—— 来自 Sony H9493, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>看来电影里瞬间瘫痪全部系统的桥段也不是没有道理</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-7-12 13:05 编辑 </span><br>
+<span>所以这是没那么严重还是全网删帖？</span><br>
+<span>如果是北斗挂了，画美不看吧... </span><br>
+</p><p><b>mu1: </b><br>
+<span>楼里有骂楼主的不出来道个歉么</span><br>
+</p><p><b>purgatorio: </b><br>
+<span>革萌 发表于 2019-7-12 12:53</span><br>
+<span>https://www.gsc-europa.eu/system-status/Constellation-Information</span><br>
+<span>GENERAL      2019025      201 ...</span><br>
+<span>为啥这个通知正文儿要全大写？</span><br>
+</p><p><b>大江户战士: </b><br>
+<span>typeunknown 发表于 2019-7-12 13:01</span><br>
+<span>所以这是没那么严重还是全网删帖？</span><br>
+<span>如果是北斗挂了，画美不看吧...</span><br>
+<span>https://www.gsc-europa.eu/system-status/Constellation-Information</span><br>
+<span>至少目前看星历是正常的</span><br>
+<span>实际上北斗也出现过星历很久不更新的状况，包括现在北斗官网的星历还是7月11号的</span><br>
+<span>http://www.beidou.gov.cn/xt/xlxz/201907/t20190711_18560.html</span><br>
+<span>引起系统波动原因很多，不经调查就说凉了和造谣无异</span><br>
+</p><p><b>mu1: </b><br>
+<span>大江户战士 发表于 2019-7-12 13:18</span><br>
+<span>https://www.gsc-europa.eu/system-status/Constellation-Information</span><br>
+<span>至少目前看星历是正常的</span><br>
+<span>别视而不见官网通知啊，人家都文雅的写着连最小性能要求都达不到。就是全面彻底且恢复时间都不能确定的宕机</span><br>
+</p><p><b>革萌: </b><br>
+<span>mu1 发表于 2019-7-12 13:21</span><br>
+<span>别视而不见官网通知啊，人家都文雅的写着连最小性能要求都达不到。就是全面彻底且恢复时间都不能确定的宕 ...</span><br>
+<span>什么叫宕机，只是服务降级，你还可以自负风险的用喔</span><br>
+</p><p><b>大江户战士: </b><br>
+<span>mu1 发表于 2019-7-12 13:21</span><br>
+<span>别视而不见官网通知啊，人家都文雅的写着连最小性能要求都达不到。就是全面彻底且恢复时间都不能确定的宕 ...</span><br>
+<span> MAY NOT 不懂什么意思吗？我不是 Galileo 用户自然不知道现在信号状况，但很明显情况并不严重，目前国外媒体尚无报道，社交媒体也没有相关反应。这就好比手术通知要把所有最坏状态都要列出来一样，但并不是一定会发生。</span><br>
+</p><p><b>革萌: </b><br>
+<span>大江户战士 发表于 2019-7-12 13:23</span><br>
+<span>MAY NOT 不懂什么意思吗？我不是 Galileo 用户自然不知道现在信号状况，但很明显情况并不严重，目前国外 ...</span><br>
+<span>国外媒体慢是正常的.......这又不是流量话题</span><br>
+</p><p><b>mu1: </b><br>
+<span>革萌 发表于 2019-7-12 13:22</span><br>
+<span>什么叫宕机，只是服务降级，你还可以自负风险的用喔</span><br>
+<span>最小性能要求都达不到的“降级”对用户来说和宕机有什么区别？</span><br>
+</p><p><b>左撇子的猫: </b><br>
+<span>有一些卫星看起来还是好的https://i.loli.net/2019/07/12/5d282086c530079289.png</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>scourge411: </b><br>
+<span>软件问题，先杀个程序员祭天，然后再DEBUG</span><br>
+</p><p><b>narutoz: </b><br>
+<span>充分说明航空航天是真的只能由强有力的大国才能办成，美国最强不用说，俄罗斯还有苏联底子，中国正在努力追上，欧洲这种松散的邦联......</span><br>
+</p><p><b>优秀: </b><br>
+<span>软件bug杀个程序员祭天，这事就这么过去了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>光明寺茉衣子 发表于 2019-7-12 12:04</span><br>
+<span>相比真有实力的美国，老欧洲就是一群傲慢无用的废物</span><br>
+<span>不过现在看空客比波音像话一点</span><br>
+</p><p><b>火烧云: </b><br>
+<span>wangbin1010 发表于 2019-7-12 12:41</span><br>
+<span>我记得零几年的时候还是中欧合资搞伽利略的那时候各种新闻吹伽利略 什么打破gps的垄断 世界第三大卫星定位 ...</span><br>
+<span>当年是拉土共入伙，一开始说得挺好的共研共享，后来条款改成光出钱啥也捞不到的冤大头了，兔子说这帽子我不戴了才回来自己搞</span><br>
+<span>不然的话现在不就可以甩锅土共零件了吗</span><br>
+<span>说起来21世纪头几年中欧几大关系似乎要破冰，无论是伽俐略还是解除对华军售禁令，到最后都是无果而终，搞得土共只好自力更生</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>相比gps和伽利略 北斗才是更依赖星间链路，因为我们没法满世界建地面站。从三代开始北斗ka星间链路正式启用。</span><br>
+</p><p><b>革萌: </b><br>
+<span>大江户战士 发表于 2019-7-12 13:18</span><br>
+<span>https://www.gsc-europa.eu/system-status/Constellation-Information</span><br>
+<span>至少目前看星历是正常的</span><br>
+<span>现在所有卫星的正常都没了........</span><br>
+</p><p><b>nominication47: </b><br>
+<span>借着这个话题问一下，我的一加6t手机在美国纽约为啥搜不到北斗的卫星。不是说已经实现全球覆盖了吗？</span><br>
+<span>用一个叫做GPS test的软件查看可搜索到的卫星，美国GPS11颗，俄罗斯格洛纳斯10颗。</span><br>
+<span>是北斗没覆盖美国？还是因为手机的问题？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>埃罗芒阿: </b><br>
+<span> 本帖最后由 埃罗芒阿 于 2019-7-13 12:54 编辑 </span><br>
+<span>nominication47 发表于 2019-7-13 10:54</span><br>
+<span>借着这个话题问一下，我的一加6t手机在美国纽约为啥搜不到北斗的卫星。不是说已经实现全球覆盖了吗？</span><br>
+<span>用一 ...</span><br>
+<span>北斗信号确实不行，</span><br>
+<span>国内没建筑物遮挡能搜到五六颗</span><br>
+<span>听说打仗的时候信号会好点</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xdonic: </b><br>
+<span>所以说自力更生都是被逼的</span><br>
+<span>—— 来自 HUAWEI HMA-TL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>半江瑟瑟半江红: </b><br>
+<span>nominication47 发表于 2019-7-13 10:54</span><br>
+<span>借着这个话题问一下，我的一加6t手机在美国纽约为啥搜不到北斗的卫星。不是说已经实现全球覆盖了吗？</span><br>
+<span>用一 ...</span><br>
+<span>彻底全球覆盖得明年</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>尼克芭菲: </b><br>
+<span>亏得当时甩开那群咖喱味十足的欧洲佬</span><br>
+<span>独自搞北斗还是正确的</span><br>
+<span>不然真的被猪队友坑死</span><br>
+</p><p><b>ryan831231: </b><br>
+<span>北斗不是说2020才覆盖全球？</span><br>
+</p><p><b>feirenhenduo: </b><br>
+<span>火烧云 发表于 2019-7-12 14:51</span><br>
+<span>当年是拉土共入伙，一开始说得挺好的共研共享，后来条款改成光出钱啥也捞不到的冤大头了，兔子说这帽子我 ...</span><br>
+<span>伽利略的原子钟好像是TG造的</span><br>
+</p><p><b>bluesss: </b><br>
+<span>feirenhenduo 发表于 2019-7-13 13:56</span><br>
+<span>伽利略的原子钟好像是TG造的</span><br>
+<span>不是说瑞士造的么？前一段时间新闻说原子钟大规模故障的时候就有提到。</span><br>
+</p><p><b>obulis: </b><br>
+<span>大江户战士 发表于 2019-7-12 12:43</span><br>
+<span>假消息死个🐴先</span><br>
+<span>所以是不是假消息呢？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846104[0-50]</guid>
+    </item>
+  </channel>
+</rss>

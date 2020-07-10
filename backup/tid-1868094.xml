@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>手机屏幕排线断了，能开机能充电，有啥方法清除数据不</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>手机屏幕排线断了，能开机能充电，有啥方法清除数据不</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:43:46 +0000</lastBuildDate>
+    <item>
+      <title>手机屏幕排线断了，能开机能充电，有啥方法清除数据不[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868094-1-1.html</link>
+      <description>手机屏幕排线断了，能开机能充电，有啥方法清除数据不&#13;
+ 本帖最后由 zy08211051 于 2019-11-26 20:30 编辑 
+
+给备机mix2换个电池，结果一不小心把屏幕排线弄断了，能开机，指纹也是好的，电池充电也没问题
+&#13;
+实在是不想再拆机换个屏幕了，我知道你们什么都懂，这种情况下有啥办法清楚数据嘛，想当个配件机器处理掉
+&#13;
+PS:屏幕排线彻底断了，啥都不显示，而且触摸震动让我关了，所以一点反馈都没有，我手贱</description>
+      <content:encoded><![CDATA[<p><b>zy08211051: </b><br>
+<span>手机屏幕排线断了，能开机能充电，有啥方法清除数据不</span><br>
+<span> 本帖最后由 zy08211051 于 2019-11-26 20:30 编辑 </span><br>
+<span>给备机mix2换个电池，结果一不小心把屏幕排线弄断了，能开机，指纹也是好的，电池充电也没问题</span><br>
+<span>实在是不想再拆机换个屏幕了，我知道你们什么都懂，这种情况下有啥办法清楚数据嘛，想当个配件机器处理掉</span><br>
+<span>PS:屏幕排线彻底断了，啥都不显示，而且触摸震动让我关了，所以一点反馈都没有，我手贱</span><br>
+</p><p><b>沙恩: </b><br>
+<span>OTG鼠标？</span><br>
+</p><p><b>win8: </b><br>
+<span>论开启adb的重要性。能解锁，如果原先开了adb就可以用电脑操作手机了（比如用scrcpy）</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>重新用fastboot/miflash刷个机</span><br>
+</p><p><b>gnorz: </b><br>
+<span> 本帖最后由 gnorz 于 2019-11-27 00:29 编辑 </span><br>
+<span>好吧，审题不清，</span><br>
+<span>反正谷歌账号加密手机，没这种烦恼。。。。</span><br>
+</p><p><b>凉宫春日的野望: </b><br>
+<span>最近我想换mix2的屏幕，自己试试练手，你这种情况应该试试自己换屏幕，再用一段时间，这样你就不会觉得亏了，数据也得到了保护</span><br>
+</p><p><b>elflie: </b><br>
+<span>线刷</span><br>
+</p><p><b>樱绰落: </b><br>
+<span> 本帖最后由 樱绰落 于 2019-11-27 12:00 编辑 </span><br>
+<span>小米设备管理里直接注销该设备</span><br>
+<span>开机wifi或者数据打开的话，联网应该是自动登出账号</span><br>
+<span>不过本地数据不知道还能不能导得出，有指纹应该能防住usb读写吧</span><br>
+</p><p><b>midearth: </b><br>
+<span>搭车问下。屏幕碎了，无显示，开机只能看到亮光，应该也是无法操作。有没有办法把里面的数据弄出来</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>shazuna: </b><br>
+<span>不能typec转HDMI接显示器当输出么？</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span> 本帖最后由 adslnet0519 于 2019-11-28 11:47 编辑 </span><br>
+<span>shazuna 发表于 2019-11-28 10:28</span><br>
+<span>不能typec转HDMI接显示器当输出么？</span><br>
+<span>有一些手机不支持MHL的吧，小米不知道有哪些型号可以，现在我用的大法xz2c就是砍掉了这个功能。。</span><br>
+<span>查了一下，买个一百多块的绿联的投屏线大概可以用</span><br>
+</p><p><b>shazuna: </b><br>
+<span>adslnet0519 发表于 2019-11-28 11:41</span><br>
+<span>有一些手机不支持MHL的吧，小米不知道有哪些型号可以，现在我用的大法xz2c就是砍掉了这个功能。。</span><br>
+<span>查了一 ...</span><br>
+<span>那个投屏线需要联wifi，手机都黑屏了没法儿操作的。 </span><br>
+<span>查了下，小米mix2还真不支持</span><br>
+</p><p><b>zy08211051: </b><br>
+<span>感谢大家的回复，折腾了一下，最后线刷成功了，盲操了几次，进入fastboot，刷机成功，重启之后有了声音，再次感谢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868094[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python和开源库真是了不起</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python和开源库真是了不起</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:11:42 +0000</lastBuildDate>
+    <item>
+      <title>python和开源库真是了不起[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920188-1-1.html</link>
+      <description>python和开源库真是了不起&#13;
+昨天突然想写网络爬虫，抓取一点S1的数据，折腾了一个下午+晚上，居然就已经可以从卓明谷做为起始点，获取首页的帖子的URL，进入帖子后进一步获取发帖人的ID，发帖人的主页URL，发帖时间，发帖内容。LZ并不是专业的码农，有一点C++编程的基础，能在这么短时间内做出超出自己期望的事，非常感慨python以及开源库的强大，把之前一个对于外人来说比较高大上的东西的门槛拉低了很多。
+&#13;
+另外隐约觉得在当今社会，不会网络编程的人相比会的竞争力差了很多，不要说首先是收入上的区别，网络编程技术拿来挂个医院的号，刷火车票，写写游戏外挂就是分分钟的事。以前玩舰C，某岛风GO就靠写个代理起码小赚一笔，写航海日志的人给游戏玩家创造很多的便利。</description>
+      <content:encoded><![CDATA[<p><b>rescue_kar: </b><br>
+<span>python和开源库真是了不起</span><br>
+<span>昨天突然想写网络爬虫，抓取一点S1的数据，折腾了一个下午+晚上，居然就已经可以从卓明谷做为起始点，获取首页的帖子的URL，进入帖子后进一步获取发帖人的ID，发帖人的主页URL，发帖时间，发帖内容。LZ并不是专业的码农，有一点C++编程的基础，能在这么短时间内做出超出自己期望的事，非常感慨python以及开源库的强大，把之前一个对于外人来说比较高大上的东西的门槛拉低了很多。</span><br>
+<span>另外隐约觉得在当今社会，不会网络编程的人相比会的竞争力差了很多，不要说首先是收入上的区别，网络编程技术拿来挂个医院的号，刷火车票，写写游戏外挂就是分分钟的事。以前玩舰C，某岛风GO就靠写个代理起码小赚一笔，写航海日志的人给游戏玩家创造很多的便利。</span><br>
+</p><p><b>a2532521: </b><br>
+<span> 爬S1</span><br>
+</p><p><b>nihilxp: </b><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜淘宝的信息是怎么回事？</span><br>
+</p><p><b>rescue_kar: </b><br>
+<span>我昨晚调试的时候抓网页频率很低的，一分钟以上才会抓一次。经常上S1，所以第一个目标就是S1了。</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>nihilxp 发表于 2020-3-22 10:07</span><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜 ...</span><br>
+<span>淘宝不允许百度抓吧，个人搞搞么对他威胁不大就算了，搜索引擎这么干就法庭见吧</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>很多实战就把F12里链接拿来直接用，带着cookie带着session当然容易，过两个小时就过期了</span><br>
+<span>真的要成为长期使用，还是得把这些都交给程序协商，就麻烦了</span><br>
+</p><p><b>mayourt: </b><br>
+<span>爬虫的目标真不适合放到台面上说，就像煎蛋一样，很多人照个教程做个爬虫就爬煎蛋</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>24k纯帅 发表于 2020-3-22 10:12</span><br>
+<span>很多实战就把F12里链接拿来直接用，带着cookie带着session当然容易，过两个小时就过期了</span><br>
+<span>真的要成为 ...</span><br>
+<span>我每次写爬虫都是手动登陆获取到cookie，然后一直复用session，过期了就再登陆一次，感觉还是挺稳的</span><br>
+</p><p><b>Litccc: </b><br>
+<span> 本帖最后由 Litccc 于 2020-3-22 10:20 编辑 </span><br>
+<span>其实各行各业的人学点编程没坏处，现在的情况不是码农改变其他行业，而是其他行业会编程的人改变行业</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>真不知道那么多人有什么可爬的，是要做归档还是学习模型啊？</span><br>
+</p><p><b>pyjq: </b><br>
+<span>不是码农没啥竞争力吧。顶多能让你的工作效率变高。工作又不会考你编程。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>nihilxp: </b><br>
+<span>pyjq 发表于 2020-3-22 10:21</span><br>
+<span>不是码农没啥竞争力吧。顶多能让你的工作效率变高。工作又不会考你编程。</span><br>
+<span>—— 来自 OnePlus GM1900, Andr ...</span><br>
+<span>提高效率这条就够了，跑程序自动做表真的是省脑力也省体力，特别是现在坐办公室的人生大半浪费在表格上了。</span><br>
+</p><p><b>Nyaaarlathotep: </b><br>
+<span>爬s1小心狗叔生气塞你ip啊</span><br>
+<span>也是，好久没见python侠了</span><br>
+</p><p><b>UMN307: </b><br>
+<span>rescue_kar 发表于 2020-3-22 10:07</span><br>
+<span>我昨晚调试的时候抓网页频率很低的，一分钟以上才会抓一次。经常上S1，所以第一个目标就是S1了。 ...</span><br>
+<span>其实大家的第一个目标都是s1</span><br>
+</p><p><b>rescue_kar: </b><br>
+<span>UMN307 发表于 2020-3-22 10:30</span><br>
+<span>其实大家的第一个目标都是s1</span><br>
+<span>哈哈，不过现在的S1发帖量少，1天不超过1W，有质量的帖子也比较少，学会爬了之后反而不爬了。大概欧金金的图值得写写代码下载到本地。</span><br>
+</p><p><b>onezeron: </b><br>
+<span>第三</span><br>
+<span> 本帖最后由 onezeron 于 2020-3-22 12:11 编辑 </span><br>
+<span>第一，你能感受到写程序的乐趣，并对自己生活有点帮助就好。</span><br>
+<span>第二，爬虫这个东西现在比较微妙/危险，很容易被抓的，国内还有帮公司爬被抓的故事，要小心</span><br>
+<span>第三，代码以后应该是基础科学，跟数学一样。就像以前建筑要会画图，现在matlab要会一个意思</span><br>
+</p><p><b>伍佰: </b><br>
+<span>好多人学python后平时也没怎么用到。大部分精力都贡献给爬黄图上了</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>ttqs: </b><br>
+<span>其实java库也很全，为啥在这种方面大家说起来都是python呢？</span><br>
+</p><p><b>CK355: </b><br>
+<span>.net 有啥好用的爬虫库么</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>会编程确实对非开发岗位的日常办公有很大帮助，特别是 js、shell、python 和 vba</span><br>
+</p><p><b>有点追求: </b><br>
+<span>CK355 发表于 2020-3-22 12:21</span><br>
+<span>.net 有啥好用的爬虫库么</span><br>
+<span>dotnetspider？</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>之前用C写了一个爬别的，偏不用脚本，哼</span><br>
+</p><p><b>槲寄生: </b><br>
+<span>羡慕不写代码也能赚钱的人！</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>骈儿: </b><br>
+<span>虽然不是计算机相关专业的，平时也必须会点matlab或者python进行数据前处理和后处理</span><br>
+</p><p><b>goranger: </b><br>
+<span>面对基层各种反人类的报表统计数据以及重复工作，有一次我果断的找码农同学帮我写脚本用python代替人工输入，我需要做的就只剩原始数据获取以及规范化原始数据了，结果就是其他地方n多人好多天才做完的事情，我和同学一个通宵两个白天做完了...所以我也打算学点编程傍身..基础么高中课外兴趣小组学了几天pascal....有没有入门推荐的</span><br>
+</p><p><b>jctc: </b><br>
+<span>ttqs 发表于 2020-3-22 12:16</span><br>
+<span>其实java库也很全，为啥在这种方面大家说起来都是python呢？</span><br>
+<span>相同的东西java写起来多烦</span><br>
+<span>屎要捡不臭的吃</span><br>
+</p><p><b>火炎龙: </b><br>
+<span>罗克萨斯 发表于 2020-3-22 10:19</span><br>
+<span>真不知道那么多人有什么可爬的，是要做归档还是学习模型啊？</span><br>
+<span>可以爬马甲啊 以前有个马甲关系图 还有“亲友” “对喷对手”等关系   挺有趣的</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>自己爬小网站是有意思。</span><br>
+</p><p><b>巨贤者: </b><br>
+<span>nihilxp 发表于 2020-3-22 10:07</span><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜 ...</span><br>
+<span>百度不会帮淘宝带流量的。按百度的逻辑，淘宝得花钱打广告才能搜到</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>goranger 发表于 2020-3-22 13:59</span><br>
+<span>面对基层各种反人类的报表统计数据以及重复工作，有一次我果断的找码农同学帮我写脚本用python代替人工输入 ...</span><br>
+<span>python 就好。windows开个wsl，vscode 远程连接wsl 开发</span><br>
+</p><p><b>rescue_kar: </b><br>
+<span>goranger 发表于 2020-3-22 13:59</span><br>
+<span>面对基层各种反人类的报表统计数据以及重复工作，有一次我果断的找码农同学帮我写脚本用python代替人工输入 ...</span><br>
+<span>就学python呗，都有同学的脚本了，依葫芦画瓢，再上网搜资料学学，自己多动手练练就会了</span><br>
+</p><p><b>电话微波炉: </b><br>
+<span>你一个人爬网站说出来，到时候真追究你了，你也得吃官司</span><br>
+</p><p><b>董松松松: </b><br>
+<span>恰恰相反，百度是绝对乐意支持搜索淘宝商品的</span><br>
+<span>商品是淘宝的核心数据，现在的逻辑是商家给淘宝交钱，让自己的商品在淘宝搜索的时候排名靠前（其他各种活动玩法的本质都是这样的）</span><br>
+<span>假如百度能搜索，那就变成了商家给百度交钱，让自己的商品在百度搜索的时候靠前，这笔钱就被百度赚走了</span><br>
+<span>—— 来自 samsung SM-G9750, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>晚韶华: </b><br>
+<span>淘宝等电商平台都是用robots.txt禁止搜索引擎爬数据的。</span><br>
+</p><p><b>bolitao: </b><br>
+<span>nihilxp 发表于 2020-3-22 10:07</span><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜 ...</span><br>
+<span>1. 淘宝不让，你没见浏览网页版淘宝，多点几个商品详情到后台就要输验证码了</span><br>
+<span>2. 不敢爬，自己写来玩玩没事，构成盈利要吃官司的，有句话玩笑话叫“爬虫写得好，牢饭吃到饱”。这里有一些爬虫违法的案例：https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China/blob/master/README.md</span><br>
+</p><p><b>tf小红帽: </b><br>
+<span>nihilxp 发表于 2020-3-22 10:07</span><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜 ...</span><br>
+<span>这玩意犯法的，哪天看你不爽了还是能让你去坐牢的</span><br>
+</p><p><b>antisamael: </b><br>
+<span>python简直太火了…确实很好用就是了，但是我觉得会写python就说自己会编程了，总觉得比较奇怪…python给我的感觉就是新时代的vba…</span><br>
+</p><p><b>糊状物: </b><br>
+<span>antisamael 发表于 2020-3-22 16:22</span><br>
+<span>python简直太火了…确实很好用就是了，但是我觉得会写python就说自己会编程了，总觉得比较奇怪…python给我 ...</span><br>
+<span>用vba写能满足需求的脚本是编程没错啊，把编程两字看得太神圣大概是一种婆罗门行为吧。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>泥潭有api</span><br>
+</p><p><b>iluso: </b><br>
+<span>讲道理node.js做爬虫更友好，天生异步，同属JS还能照搬部分网站的验证行为</span><br>
+</p><p><b>由比ケ浜結衣: </b><br>
+<span>nihilxp 发表于 2020-3-22 10:07</span><br>
+<span>外行问个小白问题哈，我看很多视频PYTHON教程实战都可以去爬淘宝数据，但是百度这么大个搜索引擎居然没法搜 ...</span><br>
+<span>robot.txt</span><br>
+</p><p><b>奥古斯都: </b><br>
+<span>菜鸡前端用node爬，以前折腾过python爬豆瓣，现在已经忘了。。</span><br>
+</p><p><b>董卓: </b><br>
+<span>说实在的casperjs什么的比python不香么</span><br>
+</p><p><b>永不加赋: </b><br>
+<span>小野賢章 发表于 2020-3-22 13:02</span><br>
+<span>会编程确实对非开发岗位的日常办公有很大帮助，特别是 js、shell、python 和 vba ...</span><br>
+<span>特别喜欢js，一招鲜吃遍天下，学了以后啥地方都能用</span><br>
+<span>在网页上可以用，学了js，一般也会顺手学了html和css，做个静态网页，同事就把你当神仙了</span><br>
+<span>在IE上配合ActiveXObject简直无所不能，采集数据什么的不在话下</span><br>
+<span>网页后端也能用js，现在有node.js，其实很早的asp也可以用js写，IIS+Access写的一个数据管理系统，给某部门用了快10年了，稳如狗</span><br>
+<span>特别神奇的是，VBA也可以用js写，批量生成word报表，爽的一比</span><br>
+<span>不知道为啥体制内单位的表格喜欢用word而不是excel。。。</span><br>
+</p><p><b>rescue_kar: </b><br>
+<span>fqxufo 发表于 2020-3-22 10:18</span><br>
+<span>我每次写爬虫都是手动登陆获取到cookie，然后一直复用session，过期了就再登陆一次，感觉还是挺稳的 ...</span><br>
+<span>哥们你会玩，哈哈。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920188[0-50]</guid>
+    </item>
+  </channel>
+</rss>

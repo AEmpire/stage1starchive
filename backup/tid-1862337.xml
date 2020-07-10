@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问一个potplayer的疑难问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问一个potplayer的疑难问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:23:16 +0000</lastBuildDate>
+    <item>
+      <title>问一个potplayer的疑难问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862337-1-1.html</link>
+      <description>问一个potplayer的疑难问题&#13;
+ 本帖最后由 yenvy 于 2019-10-30 17:45 编辑 
+
+出现过好多次这种情况：
+&#13;
+打开potplayer，随便播放一个什么视频，就是普通的非高清的avc/mp4动画
+&#13;
+然后暂停切出去打游戏，时间短了不行，得一个小时起步吧
+&#13;
+然后关了游戏切回potplayer，此时发现无论打开什么文件，在显示画面之前都会卡到鼠标粘滞(好像用鼠标跳进度条还有停止播放的时候也会粘一下)，就跟蓝牙接收器被干扰那种情况差不多
+&#13;
+但是性能图标里也没有异常的尖刺，硬盘访问也很低，机箱里的东西都挺凉快的，播放器也的确是在硬解。
+&#13;
+最关键的是退出播放器再打开还会有这个问题，但是什么设置都不用改，重启一下机器就正常了，这就很不解
+&#13;
+配置是2600x+580，16G，都没超频(这配置是码区问来的)，也没ssd，win10。难不成是win10某种先进特性导致的吗。
+&#13;
+打开URL会不会卡我没试过，把电脑闲置一段时间也没试过，因为复现太麻烦了所以想先问问。想上官方论坛发一贴的，死活收不到验证邮件</description>
+      <content:encoded><![CDATA[<p><b>yenvy: </b><br>
+<span>问一个potplayer的疑难问题</span><br>
+<span> 本帖最后由 yenvy 于 2019-10-30 17:45 编辑 </span><br>
+<span>出现过好多次这种情况：</span><br>
+<span>打开potplayer，随便播放一个什么视频，就是普通的非高清的avc/mp4动画</span><br>
+<span>然后暂停切出去打游戏，时间短了不行，得一个小时起步吧</span><br>
+<span>然后关了游戏切回potplayer，此时发现无论打开什么文件，在显示画面之前都会卡到鼠标粘滞(好像用鼠标跳进度条还有停止播放的时候也会粘一下)，就跟蓝牙接收器被干扰那种情况差不多</span><br>
+<span>但是性能图标里也没有异常的尖刺，硬盘访问也很低，机箱里的东西都挺凉快的，播放器也的确是在硬解。</span><br>
+<span>最关键的是退出播放器再打开还会有这个问题，但是什么设置都不用改，重启一下机器就正常了，这就很不解</span><br>
+<span>配置是2600x+580，16G，都没超频(这配置是码区问来的)，也没ssd，win10。难不成是win10某种先进特性导致的吗。</span><br>
+<span>打开URL会不会卡我没试过，把电脑闲置一段时间也没试过，因为复现太麻烦了所以想先问问。想上官方论坛发一贴的，死活收不到验证邮件</span><br>
+</p><p><b>epilogue: </b><br>
+<span>potplayer经常莫名其妙出问题，我已经不用了</span><br>
+</p><p><b>nb33: </b><br>
+<span>硬盘休眠？</span><br>
+</p><p><b>yenvy: </b><br>
+<span>nb33 发表于 2019-10-30 17:08</span><br>
+<span>硬盘休眠？</span><br>
+<span>没懂，电脑在连轴转没闲着啊，怎么休眠</span><br>
+</p><p><b>nb33: </b><br>
+<span>yenvy 发表于 2019-10-30 17:10</span><br>
+<span>没懂，电脑在连轴转没闲着啊，怎么休眠</span><br>
+<span>电源设置里不用的硬盘会自动休眠啊，你游戏和视频是同一个硬盘吗？</span><br>
+</p><p><b>1aqqq: </b><br>
+<span>换mpc be吧</span><br>
+</p><p><b>yenvy: </b><br>
+<span>nb33 发表于 2019-10-30 17:12</span><br>
+<span>电源设置里不用的硬盘会自动休眠啊，你游戏和视频是同一个硬盘吗？</span><br>
+<span>就一块硬盘啊</span><br>
+</p><p><b>nb33: </b><br>
+<span>yenvy 发表于 2019-10-30 17:15</span><br>
+<span>就一块硬盘啊</span><br>
+<span>尝试升级显卡驱动</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>为嘛要开着啊，他会自动记忆播放位置啊。当然potplay问题很多就是了 解决了一个又会冒出另外一个</span><br>
+</p><p><b>yenvy: </b><br>
+<span>nb33 发表于 2019-10-30 17:24</span><br>
+<span>尝试升级显卡驱动</span><br>
+<span>从第一次发现这毛病到现在驱动已经升过两次了</span><br>
+</p><p><b>yenvy: </b><br>
+<span>伊可费斯 发表于 2019-10-30 17:26</span><br>
+<span>为嘛要开着啊，他会自动记忆播放位置啊。当然potplay问题很多就是了 解决了一个又会冒出另外一个 ...</span><br>
+<span>现在这个记忆播放位置的功能太弱智了，双击列表里的项目也会继续播放，以前记忆位置不会打开就自己跳过去啊。所以我就给关了。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>自从换成MPV之后，我的播放体验好了很多，虽然没那么多功能了</span><br>
+<span>特别是外挂字幕字体，用pot不加载字体就自动变宋体，MPV缺失字体可以设置成我喜欢的兰亭黑</span><br>
+</p><p><b>StefanCharles: </b><br>
+<span>不用的时候关了就行</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>伊克路西安 发表于 2019-10-30 17:36</span><br>
+<span>自从换成MPV之后，我的播放体验好了很多，虽然没那么多功能了</span><br>
+<span>特别是外挂字幕字体，用pot不加载字体 ...</span><br>
+<span>mvp这个是否支持svp这种插帧？</span><br>
+<span>他这设置什么的都在哪里改。。。我这下载了一个git上的，拖进去文件播放可以，但是完全不知道怎么折腾其他- -</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-10-30 17:54 编辑 </span><br>
+<span>史莱姆KING 发表于 2019-10-30 17:47</span><br>
+<span>mvp这个是否支持svp这种插帧？</span><br>
+<span>他这设置什么的都在哪里改。。。我这下载了一个git上的，拖进去文件播放 ...</span><br>
+<span>我没有用过SVP</span><br>
+<span>我是按这个教程来的，你可以参考下</span><br>
+<span>http://bbs.vcb-s.com/thread-2730-1-3.html</span><br>
+<span>https://vcb-s.com/archives/7594</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>伊克路西安 发表于 2019-10-30 17:52</span><br>
+<span>我没有用过SVP</span><br>
+<span>我是按这个教程来的，你可以参考下</span><br>
+<span>这设置的还真是相当复杂。。。。</span><br>
+</p><p><b>nodkane: </b><br>
+<span>对 我也好像有这个问题 就是有时候打开视频时候好像卡死一样 视频拉进度条和播放都问题 就算是ssd打开也是这样 </span><br>
+</p><p><b>sirius0714: </b><br>
+<span>搭车求问完美者解码2019版带的那个potplayer窗口最小化之后播放列表自动回到最上面，要怎么设置才不会回到最上面呢？</span><br>
+</p><p><b>幻夜未央: </b><br>
+<span>最简单的办法不是换一个版本试试么？</span><br>
+</p><p><b>ballban: </b><br>
+<span>我也有一样的问题（ 然而我不怎么看视频所以没有困扰到我太多（</span><br>
+<span>—— 来自 samsung SM-N950N, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862337[0-50]</guid>
+    </item>
+  </channel>
+</rss>

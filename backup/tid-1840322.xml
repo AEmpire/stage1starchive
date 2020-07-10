@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>路由器相关，救命咨询</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>路由器相关，救命咨询</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:41:56 +0000</lastBuildDate>
+    <item>
+      <title>路由器相关，救命咨询[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840322-1-1.html</link>
+      <description>路由器相关，救命咨询&#13;
+保命声明：如有违反版规，恳请版主删帖。
+
+前情提要：前段时间某特殊原因导致不能科学上网，当时想着日子过去就行了。然后就发生了很玄学的问题，现在服务恢复了，手机移动数据，可以科学上网；校园网的学校的WiFi，可以科学上网；走校园宽带线路（移动）的学校寝室网络，无法科学上网。
+
+一开始以为是路由器问题，瞎鸡儿折腾半天，然后发现关闭DHCP就可以科学，但是关闭以后会导致某几台设备无法连接路由，无法获得IP地址。
+
+头好大，一开始以为是路由器问题，把垃圾H3C换了个华硕AC1200GU，还是不行……
+
+求求老司机救救我，每次科学查点资料还要手机开热点，太难受了，必有重鹅感谢。</description>
+      <content:encoded><![CDATA[<p><b>糟糕的魔女: </b><br>
+<span>路由器相关，救命咨询</span><br>
+<span>保命声明：如有违反版规，恳请版主删帖。</span><br>
+<span>前情提要：前段时间某特殊原因导致不能科学上网，当时想着日子过去就行了。然后就发生了很玄学的问题，现在服务恢复了，手机移动数据，可以科学上网；校园网的学校的WiFi，可以科学上网；走校园宽带线路（移动）的学校寝室网络，无法科学上网。</span><br>
+<span>一开始以为是路由器问题，瞎鸡儿折腾半天，然后发现关闭DHCP就可以科学，但是关闭以后会导致某几台设备无法连接路由，无法获得IP地址。</span><br>
+<span>头好大，一开始以为是路由器问题，把垃圾H3C换了个华硕AC1200GU，还是不行……</span><br>
+<span>求求老司机救救我，每次科学查点资料还要手机开热点，太难受了，必有重鹅感谢。</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>八成是移动墙内墙还没解除。移动宽带有墙内墙，但是移动无线网没有，教育网也没有</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>wzp28538 发表于 2019-6-18 11:32</span><br>
+<span>八成是移动墙内墙还没解除。移动宽带有墙内墙，但是移动无线网没有，教育网也没有 ...</span><br>
+<span>那为关闭DHCP就有用……我头都大完了</span><br>
+<span>这也太玄学了，一点头绪都没有，求救命。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糊状物: </b><br>
+<span>关dhcp可以的话应该是dns的问题，看看你dhcp配置的dns与你关闭dhcp后获得的dns是否一致，把两个的ipconfig内容发上来看看吧</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span> 本帖最后由 糟糕的魔女 于 2019-6-18 11:49 编辑 </span><br>
+<span>糊状物 发表于 2019-6-18 11:37</span><br>
+<span>关dhcp可以的话应该是dns的问题，看看你dhcp配置的dns与你关闭dhcp后获得的dns是否一致，把两个的ipconfig ...</span><br>
+<span>开启DHCP：</span><br>
+<img src="https://i.loli.net/2019/06/18/5d085ecea869985682.jpg" title="https://i.loli.net/2019/06/18/5d085ecea869985682.jpg"><br>
+<span>关闭DHCP：</span><br>
+<img src="https://i.loli.net/2019/06/18/5d085edb2e6d089254.jpg" title="https://i.loli.net/2019/06/18/5d085edb2e6d089254.jpg"><br>
+<span>不知道为啥根本不显示DNS服务器……</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>ipconfig /all</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>开启DHCP：</span><br>
+<img src="https://i.loli.net/2019/06/18/5d0863474a49419625.jpg" title="https://i.loli.net/2019/06/18/5d0863474a49419625.jpg"><br>
+<span>关闭DHCP：</span><br>
+<img src="https://i.loli.net/2019/06/18/5d086354b66e188017.jpg" title="https://i.loli.net/2019/06/18/5d086354b66e188017.jpg"><br>
+<span>DHCP设置界面：</span><br>
+<img src="https://i.loli.net/2019/06/18/5d086361900ad93920.jpg" title="https://i.loli.net/2019/06/18/5d086361900ad93920.jpg"><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>404489039: </b><br>
+<span>换电信</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>404489039 发表于 2019-6-18 12:15</span><br>
+<span>换电信</span><br>
+<span>校园网，线路固定换不了，学校不提供更换服务商服务</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>主舵者: </b><br>
+<span>https://www.rubyfish.cn/config-simplednscrypt</span><br>
+<span>用DoH试试，如果能解决就是DNS的问题，不能就可能是墙中墙了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>主舵者 发表于 2019-6-18 12:25</span><br>
+<span>https://www.rubyfish.cn/config-simplednscrypt</span><br>
+<span>用DoH试试，如果能解决就是DNS的问题，不能就可能是墙中墙 ...</span><br>
+<span>看了一下说明这是解决电脑的问题……假设成功了，那我手机是不是还是没办法解决</span><br>
+<span>有没有办法从路由器上一次性全部搞定</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糊状物: </b><br>
+<span>糟糕的魔女 发表于 2019-6-18 12:07</span><br>
+<span>开启DHCP：</span><br>
+<span>为什么你开dhcp和不开dhcp分配的IP地址以及第二dns是一样的?</span><br>
+<span>算了，我觉得无论s还是v开头的上网工具，你都可以在工具可用时找出他们正确的IP，替换上去试试就行了吧</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>robit: </b><br>
+<span>你科学上网插件内的DNS设定是什么样的？在我这里DHCP设置里的DNS项目是空的，走插件的设置解析。</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>糊状物 发表于 2019-6-18 12:53</span><br>
+<span>为什么你开dhcp和不开dhcp分配的IP地址以及第二dns是一样的?</span><br>
+<span>算了，我觉得无论s还是v开头的上网工具，你 ...</span><br>
+<span>因为我开着PAC？我也不太懂为啥开不开都是一样的……但开不开确实影响我能不能访问不作恶。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>有两个路由器的话，一个开dchp挂在另一个下面不就行了</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span> 本帖最后由 Saker_bobo 于 2019-6-18 13:02 编辑 </span><br>
+<span>眼残看错了</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>robit 发表于 2019-6-18 12:54</span><br>
+<span>你科学上网插件内的DNS设定是什么样的？在我这里DHCP设置里的DNS项目是空的，走插件的设置解析。 ...</span><br>
+<img src="https://i.loli.net/2019/06/18/5d0870cd2c78465879.jpg" title="https://i.loli.net/2019/06/18/5d0870cd2c78465879.jpg"><br>
+<span>这样的</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>hgfdsa 发表于 2019-6-18 12:57</span><br>
+<span>有两个路由器的话，一个开dchp挂在另一个下面不就行了</span><br>
+<span>实在不行的话我会试试这个蠢办法</span><br>
+<span>但是并不想留着两个路由器要么退货要么二手出了回血。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span> 本帖最后由 糟糕的魔女 于 2019-6-18 13:16 编辑 </span><br>
+<span>我喷了</span><br>
+<span>折腾了几天搞不定，上网一发贴，给老哥们截几个图看看。然后出门拿个快递，啥都没做，现在全正常了？？？</span><br>
+<span>试了一下同样设置的H3C（DHCP开启，自动获取DNS），也恢复正常了（但是速度极慢）。</span><br>
+<span>这tm到底什么玄学 </span><br>
+<span>难道真是移动墙中墙今天撤墙？</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>youta: </b><br>
+<span>用的是pc和手机版上网工具还是内置在路由器里的上网工具？路由内置的可以选择chinadns之类的</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>youta 发表于 2019-6-18 13:48</span><br>
+<span>用的是pc和手机版上网工具还是内置在路由器里的上网工具？路由内置的可以选择chinadns之类的</span><br>
+<span>—— 来自 Xi ...</span><br>
+<span>PC和手机客户端，路由器啥都没搞特殊玩法</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>喷了……刚说完好了，又tm抽了……我现在真看不懂了。</span><br>
+<span>这种什么设置都没动反复无常在科学与否的边缘横跳，应该就确定是网络本身的问题了吧</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>主舵者: </b><br>
+<span>糟糕的魔女 发表于 2019-6-18 12:45</span><br>
+<span>看了一下说明这是解决电脑的问题……假设成功了，那我手机是不是还是没办法解决</span><br>
+<span>有没有办法从路 ...</span><br>
+<span>你先确定是不是DNS的问题才有办法排除故障</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>robit: </b><br>
+<span> 你试试换换DNS，不要用114</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>robit 发表于 2019-6-18 15:56</span><br>
+<span>你试试换换DNS，不要用114</span><br>
+<span>之前试过阿里的……也不行……总之现在莫名其妙好了，谢谢各位帮忙。</span><br>
+<span>同样的设置（DHCP+自动获取DNS），目前华硕正常，H3C间歇性撞墙……我也不知道怎么排查了，总之能用了就好。</span><br>
+<span>衷心感谢诸位。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>主舵者 发表于 2019-6-18 15:00</span><br>
+<span>你先确定是不是DNS的问题才有办法排除故障</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>个人确定应该是DNS吧……改成自动获取以后正常了，之前试了114和阿里的DNS都抽风。</span><br>
+<span>虽然两个路由器还是有差异，H3C那个就是依旧间歇撞墙</span><br>
+<span>总之感谢各位帮忙了，谢谢。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840322[0-50]</guid>
+    </item>
+  </channel>
+</rss>

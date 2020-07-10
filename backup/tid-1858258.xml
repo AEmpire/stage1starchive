@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>steam若干游戏无法运行的奇怪情况</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>steam若干游戏无法运行的奇怪情况</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:49:01 +0000</lastBuildDate>
+    <item>
+      <title>steam若干游戏无法运行的奇怪情况[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858258-1-1.html</link>
+      <description>steam若干游戏无法运行的奇怪情况&#13;
+如题 一个很奇怪的现象求助
+&#13;
+系统win10 pro 64位
+&#13;
+6850k+1080+32G内存
+&#13;
+最近玩亡灵诡计/死亡细胞/空洞骑士的时候发现的问题 steam购买下载后运行游戏 steam界面显示running 任务管理器平台中有游戏对应进程 但是没有画面显示 alt+tab切换也没有任何页面
+&#13;
+已经试过重装显卡驱动 系统C++有2008-15全部 .net3.5和4.0都有 xna4.0也有 系统/steam升级也试过 本地文件也确认过还试过网上搜索的拔掉手柄键盘等等 都没有用一直这样没法玩了
+&#13;
+希望能找到解决方案
+&#13;
+更新：运行死亡细胞的时候先出现cmd界面 等待一小会后显示报错如图</description>
+      <content:encoded><![CDATA[<p><b>子犴: </b><br>
+<span>steam若干游戏无法运行的奇怪情况</span><br>
+<span>如题 一个很奇怪的现象求助</span><br>
+<span>系统win10 pro 64位</span><br>
+<span>6850k+1080+32G内存</span><br>
+<span>最近玩亡灵诡计/死亡细胞/空洞骑士的时候发现的问题 steam购买下载后运行游戏 steam界面显示running 任务管理器平台中有游戏对应进程 但是没有画面显示 alt+tab切换也没有任何页面</span><br>
+<span>已经试过重装显卡驱动 系统C++有2008-15全部 .net3.5和4.0都有 xna4.0也有 系统/steam升级也试过 本地文件也确认过还试过网上搜索的拔掉手柄键盘等等 都没有用一直这样没法玩了</span><br>
+<span>希望能找到解决方案</span><br>
+<span>更新：运行死亡细胞的时候先出现cmd界面 等待一小会后显示报错如图</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>最后绝招：重装系统</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-10-7 16:29 编辑 </span><br>
+<span>win98的时候我家电脑点了用到directx的程序会过三到五分钟才开始运行，这段时间里有进程但是连cpu占用都没上去就像什么都没干一样</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>我win7三年前的电脑，死亡细胞也偶尔这样，感觉就是steam自己问题</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>北野苍术: </b><br>
+<span>我没玩过这三个游戏，但是我遇到过类似的情况</span><br>
+<span>当时我是双点医院和墓场物语开起来以后显示running并且有进程，却没有任何窗口…</span><br>
+<span>后来找到的解决办法是：</span><br>
+<span>这几个游戏都是unity的，删掉游戏根目录里的UnityCrashHandler64.exe ​​后就能正常运行了…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>子犴: </b><br>
+<span>北野苍术 发表于 2019-10-8 14:17</span><br>
+<span>我没玩过这三个游戏，但是我遇到过类似的情况</span><br>
+<span>当时我是双点医院和墓场物语开起来以后显示running并且有进程 ...</span><br>
+<span>本来激动的以为有救了 结果发现这几个游戏里没看到这个exe</span><br>
+</p><p><b>obiy: </b><br>
+<span>battleye还没适配1903，吃鸡一启动就死机</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>obiy 发表于 2019-10-8 21:25</span><br>
+<span>battleye还没适配1903，吃鸡一启动就死机</span><br>
+<span>彩6用的不也是be吗？我1903玩彩6没问题啊</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>我这是steam客户端长时间开着电脑就死机</span><br>
+</p><p><b>obiy: </b><br>
+<span>注册者资格 发表于 2019-10-9 03:10</span><br>
+<span>彩6用的不也是be吗？我1903玩彩6没问题啊</span><br>
+<span>看我的发帖，非常奇怪的bug</span><br>
+</p><p><b>feelmydick: </b><br>
+<span>obiy 发表于 2019-10-9 11:01</span><br>
+<span>看我的发帖，非常奇怪的bug</span><br>
+<span>我2600X,WIN10 1903玩吃鸡也没问题啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858258[0-50]</guid>
+    </item>
+  </channel>
+</rss>

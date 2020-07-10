@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WIN10能否通过脚本控制网络代理中手动设置代理的开关</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>WIN10能否通过脚本控制网络代理中手动设置代理的开关</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:13:55 +0000</lastBuildDate>
+    <item>
+      <title>WIN10能否通过脚本控制网络代理中手动设置代理的开关[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913601-1-1.html</link>
+      <description>WIN10能否通过脚本控制网络代理中手动设置代理的开关&#13;
+
+&#13;
+日常使用公司的**，有时候忘记关就关机了，开机后手动代理设置就打开，这时候就上不去网，需要手动关闭。请问能不能靠脚本控制，加入启动项每次开机自动运行关闭一下</description>
+      <content:encoded><![CDATA[<p><b>bilibon: </b><br>
+<span>WIN10能否通过脚本控制网络代理中手动设置代理的开关</span><br>
+<span>日常使用公司的**，有时候忘记关就关机了，开机后手动代理设置就打开，这时候就上不去网，需要手动关闭。请问能不能靠脚本控制，加入启动项每次开机自动运行关闭一下</span><br>
+</p><p><b>小野賢章: </b><br>
+<span> 本帖最后由 小野賢章 于 2020-2-13 12:00 编辑 </span><br>
+<span>https://gallery.technet.microsof ... nction-Get-cba2abf5</span><br>
+<span>有 powershell 脚本，本质上是修改注册表。</span><br>
+<span>这个脚本是启用代理的，如果要禁用代理，在评论里面有：</span><br>
+<span>Function Disable-InternetProxy</span><br>
+<span>{</span><br>
+<span>Begin</span><br>
+<span>    {</span><br>
+<span>            $regKey="HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings"</span><br>
+<span>    }</span><br>
+<span>    Process</span><br>
+<span>    {</span><br>
+<span>      Set-ItemProperty -path $regKey ProxyEnable -value 0 -ErrorAction Stop</span><br>
+<span>      Set-ItemProperty -path $regKey ProxyServer -value "" -ErrorAction Stop</span><br>
+<span>      Set-ItemProperty -path $regKey AutoConfigURL -Value "" -ErrorAction Stop          </span><br>
+<span>    } </span><br>
+<span>    End</span><br>
+<span>    {</span><br>
+<span>      Write-Output "Proxy is now Disabled"</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+</p><p><b>紫苑寺友子: </b><br>
+<span>我也经常遇到这毛病，忘关就关机了，不过使用频率不高，一开始我还以为网卡坏了，后来才发现</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>bilibon: </b><br>
+<span>小野賢章 发表于 2020-2-13 11:38</span><br>
+<span>https://gallery.technet.microsof ... nction-Get-cba2abf5</span><br>
+<span>有 powershell 脚本，本质上是修改注册表。</span><br>
+<span>运行了下有用，放到启动项里看看，感谢</span><br>
+</p><p><b>bilibon: </b><br>
+<span>试了下发现放在启动项里虽然运行了但是还是没用，启动项比网络设置加载得更快么</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>建议多装几个浏览器，需要用代理的浏览器装个代理插件，专门负责上使用代理的网页</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Opportunity: </b><br>
+<span> 本帖最后由 Opportunity 于 2020-2-14 10:39 编辑 </span><br>
+<span>注册表改还是不靠谱，建议用系统api</span><br>
+<span>https://bit.ly/39CfJxh</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>bilibon 发表于 2020-2-14 09:47</span><br>
+<span>试了下发现放在启动项里虽然运行了但是还是没用，启动项比网络设置加载得更快么 ...</span><br>
+<span>用计划任务，开机后过几分钟再运行</span><br>
+</p><p><b>bilibon: </b><br>
+<span>小野賢章 发表于 2020-2-14 11:45</span><br>
+<span>用计划任务，开机后过几分钟再运行</span><br>
+<span>有道理，我试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913601[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小米为什么现在要不择手段地阻止用户刷机呢</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小米为什么现在要不择手段地阻止用户刷机呢</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:15:37 +0000</lastBuildDate>
+    <item>
+      <title>小米为什么现在要不择手段地阻止用户刷机呢[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834806-1-1.html</link>
+      <description>小米为什么现在要不择手段地阻止用户刷机呢&#13;
+最开始是这样的：
+&#13;
+1.下载开发版卡刷包
+&#13;
+2.复制到手机任意目录
+&#13;
+3.进入系统更新页面，手动选择安装包并升级
+&#13;
+后来刷之前需要解锁：
+&#13;
+1.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具解锁
+&#13;
+2.下载开发版卡刷包
+&#13;
+3.复制到手机任意目录
+&#13;
+4.进入系统更新页面，手动选择安装包并升级
+&#13;
+再后来解锁需要先申请：
+&#13;
+1.登录MIUI官网申请获取账号解锁权限，快的大约半小时内能拿到验证码，慢的据说需要数个工作日
+&#13;
+2.将手机开机并完成引导，登录小米账号
+&#13;
+3.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号然后解锁
+&#13;
+4.下载开发版卡刷包
+&#13;
+5.复制到手机任意目录
+&#13;
+6.进入系统更新页面，手动选择安装包并升级
+&#13;
+前几天买了米9透明版给家人用，刷机体验如下：
+&#13;
+（小米账号已解锁，申请步骤略过）
+&#13;
+1.将手机开机并完成引导，登录小米账号
+&#13;
+2.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号
+&#13;
+3.点击下一步提示需要先绑定设备（原来手机登录小米账号还不算绑定？）
+&#13;
+4.重新开机，进入系统信息页，按miui版本号这行10下，开启开发者选项（要不是以前折腾过光找这开发者选项在哪里就要纠结半天）。找到开发者选项，点击系统解锁状态，再点击绑定账号
+&#13;
+5.关机再次进入fastboot，连接电脑
+&#13;
+6.提示您的账号与手机绑定时间太短，请用账号登录手机168小时后再试，登录期间请保持手机经常使用（从米2用到米9第一次看到这种幺蛾子）
+&#13;
+7.网上搜了各种喷小米解锁的帖子，尝试了修改系统时间等各种办法，无效。据官方说法是出现时间提示是因为检测到账户环境异常，时间限制不能通过联系客服等任何途径缩短。（也有些人说提示300小时的，笑就完了。另外这限制不是现实时间，而是使用时长需达标。我一个要用开发版root的人你让我用一个月稳定版，到时候一刷机还得清空数据，蛋疼吗）
+&#13;
+8.重新开机，恢复出厂设置，登录购买此手机的小米账号，绑定设备，重新进入fastboot，终于一键解锁。
+&#13;
+9.下载开发版卡刷包
+&#13;
+10.复制到手机任意目录
+&#13;
+11.进入系统更新页面，喵喵喵，手动选择安装包去哪了？
+&#13;
+12.上网搜，点击系统更新页面的MIUI图标10下，显示手动选择安装包选项
+&#13;
+13.进入系统更新页面，手动选择安装包并升级
+&#13;
+14.刷完开机，输入家人小米账号，提示该手机已与我的小米账号绑定，无法登录其他账号
+&#13;
+15.用我的账号登录，解绑设备，然后恢复出厂设置
+&#13;
+16.用新账号登录，总算折腾完了</description>
+      <content:encoded><![CDATA[<p><b>leeex: </b><br>
+<span>+65536，傻逼小米这逻辑简直无法理解，新机子不让刷，用过一段时间之后刷机又要清空数据，要不要这么智障啊。</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>mirari 发表于 2019-10-2 07:19</span><br>
+<span>解锁地址现在虽然入口难找但我还是找到的，已经有解锁资格了，但是我之前想问的是解锁以后的rec和magisk ...</span><br>
+<span>看了下上面的讨论</span><br>
+<span>米9pro太新了官方开发版还没有</span><br>
+<span>TWRP官网也没正式REC https://twrp.me/Devices/Xiaomi/</span><br>
+<span>稳定版刷得进magisk就有root</span><br>
+</p><p><b>sky0hjh: </b><br>
+<span>qieyifonger 发表于 2019-10-2 10:31</span><br>
+<span>我的账号就是秒解的，到手就刷magisk～</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2 ...</span><br>
+<span>我的上一部mix2s就是秒解，再之前一部mix2等了三天</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>你操作太繁琐了，解锁BL后刷第三方boot直接可以刷任意ROM。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834806[100-150]</guid>
+    </item>
+    <item>
+      <title>小米为什么现在要不择手段地阻止用户刷机呢[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834806-1-1.html</link>
+      <description>小米为什么现在要不择手段地阻止用户刷机呢&#13;
+最开始是这样的：
+&#13;
+1.下载开发版卡刷包
+&#13;
+2.复制到手机任意目录
+&#13;
+3.进入系统更新页面，手动选择安装包并升级
+&#13;
+后来刷之前需要解锁：
+&#13;
+1.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具解锁
+&#13;
+2.下载开发版卡刷包
+&#13;
+3.复制到手机任意目录
+&#13;
+4.进入系统更新页面，手动选择安装包并升级
+&#13;
+再后来解锁需要先申请：
+&#13;
+1.登录MIUI官网申请获取账号解锁权限，快的大约半小时内能拿到验证码，慢的据说需要数个工作日
+&#13;
+2.将手机开机并完成引导，登录小米账号
+&#13;
+3.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号然后解锁
+&#13;
+4.下载开发版卡刷包
+&#13;
+5.复制到手机任意目录
+&#13;
+6.进入系统更新页面，手动选择安装包并升级
+&#13;
+前几天买了米9透明版给家人用，刷机体验如下：
+&#13;
+（小米账号已解锁，申请步骤略过）
+&#13;
+1.将手机开机并完成引导，登录小米账号
+&#13;
+2.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号
+&#13;
+3.点击下一步提示需要先绑定设备（原来手机登录小米账号还不算绑定？）
+&#13;
+4.重新开机，进入系统信息页，按miui版本号这行10下，开启开发者选项（要不是以前折腾过光找这开发者选项在哪里就要纠结半天）。找到开发者选项，点击系统解锁状态，再点击绑定账号
+&#13;
+5.关机再次进入fastboot，连接电脑
+&#13;
+6.提示您的账号与手机绑定时间太短，请用账号登录手机168小时后再试，登录期间请保持手机经常使用（从米2用到米9第一次看到这种幺蛾子）
+&#13;
+7.网上搜了各种喷小米解锁的帖子，尝试了修改系统时间等各种办法，无效。据官方说法是出现时间提示是因为检测到账户环境异常，时间限制不能通过联系客服等任何途径缩短。（也有些人说提示300小时的，笑就完了。另外这限制不是现实时间，而是使用时长需达标。我一个要用开发版root的人你让我用一个月稳定版，到时候一刷机还得清空数据，蛋疼吗）
+&#13;
+8.重新开机，恢复出厂设置，登录购买此手机的小米账号，绑定设备，重新进入fastboot，终于一键解锁。
+&#13;
+9.下载开发版卡刷包
+&#13;
+10.复制到手机任意目录
+&#13;
+11.进入系统更新页面，喵喵喵，手动选择安装包去哪了？
+&#13;
+12.上网搜，点击系统更新页面的MIUI图标10下，显示手动选择安装包选项
+&#13;
+13.进入系统更新页面，手动选择安装包并升级
+&#13;
+14.刷完开机，输入家人小米账号，提示该手机已与我的小米账号绑定，无法登录其他账号
+&#13;
+15.用我的账号登录，解绑设备，然后恢复出厂设置
+&#13;
+16.用新账号登录，总算折腾完了</description>
+      <content:encoded><![CDATA[<p><b>neverer: </b><br>
+<span>yikaa 发表于 2019-5-28 08:01</span><br>
+<span>第二页了还没人说小米锁BL是因为360悄咪咪地把miui换成了他的雷电os。</span><br>
+<span>—— 来自 Xiaomi MI 6, And ...</span><br>
+<span>这事太早了，已经忘记了</span><br>
+</p><p><b>白徵明: </b><br>
+<span>yikaa 发表于 2019-5-28 08:01</span><br>
+<span>第二页了还没人说小米锁BL是因为360悄咪咪地把miui换成了他的雷电os。</span><br>
+<span>—— 来自 Xiaomi MI 6, And ...</span><br>
+<span>其实还有串货的问题……</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>OV表示刷机？妄想！</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>小米弄个靠谱的官改还是美滋滋的</span><br>
+<span>----发送自 samsung SM-N9600,Android 8.1.0</span><br>
+</p><p><b>玉皇贰弟: </b><br>
+<span>MIUI用着不爽可以换华为啊，EMUI有99种办法恶心你</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>password: </b><br>
+<span>我的米板4硬生生让我等了15天</span><br>
+<span>我是因为米板4 MIUI10 WIFI会断流才想刷的</span><br>
+<span>等完15天我连欧版都不想试了 直接刷了个Havoc-OS</span><br>
+</p><p><b>pap: </b><br>
+<span>云用户是真的多</span><br>
+<span>小米刷机唯一麻烦就是解锁bl要等很久</span><br>
+<span>剩余操作都是傻瓜式，miui论坛搜一下就知道</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>尼曼兔: </b><br>
+<span>虚无连斩 发表于 2019-5-28 07:50</span><br>
+<span>不是我在用一加也就真信了你的邪……自带短信和浏览器都有推广广告，想不看广告请刷洋大人版 ...</span><br>
+<span>前3T氢OS用户表示：啊？</span><br>
+</p><p><b>笙歌鼎沸: </b><br>
+<span>刷开发版不用解锁</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>一是为了防范360这类厂商把手机刷成它的系统。</span><br>
+<span>二是为了防范二道贩子刷第三方系统和恶意吸费应用，保护买家和小米。</span><br>
+<span>三是为了防止手贱用户乱搞。</span><br>
+<span>插sim卡才能装APP也是差不多的意思，都是为了增加瞎搞的难度…</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>汝者: </b><br>
+<span>开发版不就是卡刷吗 压根不用解锁</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>民工业: </b><br>
+<span>虚无连斩 发表于 2019-5-28 07:50</span><br>
+<span>不是我在用一加也就真信了你的邪……自带短信和浏览器都有推广广告，想不看广告请刷洋大人版 ...</span><br>
+<span>我也再用5T啊，没有广告啊</span><br>
+</p><p><b>kalenty: </b><br>
+<span>password 发表于 2019-5-28 10:47</span><br>
+<span>我的米板4硬生生让我等了15天</span><br>
+<span>我是因为米板4 MIUI10 WIFI会断流才想刷的</span><br>
+<span>米板用下来还是havoc最舒服</span><br>
+</p><p><b>虚无连斩: </b><br>
+<span>民工业 发表于 2019-5-28 12:01</span><br>
+<span>我也再用5T啊，没有广告啊</span><br>
+<span>手机到手第一天，我装酷安的时候就蹦出个推广，还有自带商城也有推广推送给我关掉了</span><br>
+</p><p><b>六步走天下: </b><br>
+<span>那么现在有自带广告的手机有哪些？下台机就不买他们了</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>民工业: </b><br>
+<span>虚无连斩 发表于 2019-5-28 12:40</span><br>
+<span>手机到手第一天，我装酷安的时候就蹦出个推广，还有自带商城也有推广推送给我关掉了</span><br>
+<span>难道是因为我把自带的商店直接放冰箱了的缘故嘛</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>虚无连斩 发表于 2019-5-28 12:40</span><br>
+<span>手机到手第一天，我装酷安的时候就蹦出个推广，还有自带商城也有推广推送给我关掉了</span><br>
+<span>真婆罗门都是用Google play当主力商店，自带都是冻结的宿命</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Zest: </b><br>
+<span>六步走天下 发表于 2019-5-28 12:48</span><br>
+<span>那么现在有自带广告的手机有哪些？下台机就不买他们了</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next ...</span><br>
+<span>应该说除了大法就没有不带的</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>算上谷歌广告的话 全员阵亡</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>虚无连斩: </b><br>
+<span>四控大叔 发表于 2019-5-28 13:57</span><br>
+<span>真婆罗门都是用Google play当主力商店，自带都是冻结的宿命</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, A ...</span><br>
+<span>手机到手第一天啥都没有肯定要开自带的装啊……</span><br>
+<span>就算谷歌商店不少app也不上架的，比如这图的ehviewer</span><br>
+</p><p><b>yikaa: </b><br>
+<span>虚无连斩 发表于 2019-5-28 12:40</span><br>
+<span>手机到手第一天，我装酷安的时候就蹦出个推广，还有自带商城也有推广推送给我关掉了</span><br>
+<span>道理我都懂，看到你这个ehviewer我笑喷了</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>尼曼兔: </b><br>
+<span>看来不更新就没有市场啊，没市场就没有akp推送吗</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>安卓都在逐渐封闭别说第三方厂家了，美其名曰保证服务质量，实际上还不是把自己服务和硬件绑定走苹果那套，毕竟一流企业卖服务嘛</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>雪影 发表于 2019-5-27 18:57</span><br>
+<span>我寻思着小米是目前为数不多可以解锁bl的了，lz这是自己竖靶子打着玩的？？？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3 ...</span><br>
+<span>可它现在越活越回去了啊</span><br>
+</p><p><b>雪影: </b><br>
+<span>__爱撕衣 发表于 2019-5-28 16:11</span><br>
+<span>可它现在越活越回去了啊</span><br>
+<span>谈不上吧</span><br>
+<span>毕竟现在作为上市公司，而且发售地区那多么，各区法律都不同，很多要顾虑的</span><br>
+<span>如果没做一定的防呆限制，到时候收到起诉，影响会很大</span><br>
+</p><p><b>vanmercury: </b><br>
+<span>解锁貌似和miui账号绑定的，我之前解锁，换机后直接不用等了</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>我mi9拿到就刷开发了 好像没这么麻烦啊 也没等几百h</span><br>
+</p><p><b>我怎么知道: </b><br>
+<span>虚无连斩 发表于 2019-5-28 12:40</span><br>
+<span>手机到手第一天，我装酷安的时候就蹦出个推广，还有自带商城也有推广推送给我关掉了</span><br>
+<span>老哥，俺虽然不懂英文，但是这个ehviewer还是看得懂的，绝对不是酷安好吗</span><br>
+</p><p><b>mirari: </b><br>
+<span>米9pro到手的时候才去miui官网看了下，结果居然没找到米9pro的机型rom下载地址。</span><br>
+<span>然后发现小米论坛基本完了，相关话题都被转移到手机上的小米社区app。再进去一看，现在开发版要内测申请，下载入口也只开放给申请用户，而且有效期只有一年，到时候需要再次双清刷回稳定版。</span><br>
+<span>其实我只想要一个root功能，现在这是基本没得搞了？</span><br>
+<span>自2019年7月5日起， MIUI开发版开放内测公测时间调整为一年，发布超过一年的产品将逐步收回权限。对于适配Android最新版本的机型，我们将招募勇于尝鲜的米粉参与开发版内测。此外，入门级Redmi新机不再提供MIUI开发版刷机包。MIUI稳定版不受此次策略调整影响。</span><br>
+</p><p><b>elxy: </b><br>
+<span>看来下个手机只能买一加了</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>827288988: </b><br>
+<span>mirari 发表于 2019-10-1 14:50</span><br>
+<span>米9pro到手的时候才去miui官网看了下，结果居然没找到米9pro的机型rom下载地址。</span><br>
+<span>然后发现小米论坛基本完了 ...</span><br>
+<span>能解锁root没压力，不过开发版是方便些，也更容易避开银行类app的root检查</span><br>
+</p><p><b>MISAKA20001: </b><br>
+<span>七草真由美 发表于 2019-5-27 19:30</span><br>
+<span>因为小米手机就是广告机，只要用MIUI，每天就能给小米公司创造广告利润，刷机后就没有了</span><br>
+<span>-- 来自 能搜索 ...</span><br>
+<span>这个，冤枉猴王了吧，粗粮是广告多不错，大部分可以关。刷机的话菜鸟可能操作失误变砖，导致口碑变差。我当年用小米3，因为一场bug刷机，差点变砖，把我吓了一大跳，还好后来刷了一次刷回来了。</span><br>
+</p><p><b>mirari: </b><br>
+<span>827288988 发表于 2019-10-1 15:17</span><br>
+<span>能解锁root没压力，不过开发版是方便些，也更容易避开银行类app的root检查</span><br>
+<span>现在不刷开发版的话root怎么操作？</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>mirari 发表于 2019-10-1 15:33</span><br>
+<span>现在不刷开发版的话root怎么操作？</span><br>
+<span>解bl，刷rec，刷magisk</span><br>
+<span>都解bl了还要开发版干啥</span><br>
+</p><p><b>marxel: </b><br>
+<span>mirari 发表于 2019-10-1 15:33</span><br>
+<span>现在不刷开发版的话root怎么操作？</span><br>
+<span>解bl，刷rec，刷官改</span><br>
+</p><p><b>827288988: </b><br>
+<span>Herreimu 发表于 2019-10-1 15:48</span><br>
+<span>解bl，刷rec，刷magisk</span><br>
+<span>都解bl了还要开发版干啥</span><br>
+<span>稳定版刷root开了面具隐藏root也总有点问题，就是银行类检测不出也有闪退之类的问题</span><br>
+</p><p><b>白徵明: </b><br>
+<span>mirari 发表于 2019-10-1 14:50</span><br>
+<span>米9pro到手的时候才去miui官网看了下，结果居然没找到米9pro的机型rom下载地址。</span><br>
+<span>然后发现小米论坛基本完了 ...</span><br>
+<span>现在是没了开发版线刷</span><br>
+<span>要稳定版卡刷包得从系统更新里找</span><br>
+<span>要开发版就得去注册新的小米社区（原我的小米）加入公测来下载，PC端怎么弄要等月底</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mirari: </b><br>
+<span>Herreimu 发表于 2019-10-1 15:48</span><br>
+<span>解bl，刷rec，刷magisk</span><br>
+<span>都解bl了还要开发版干啥</span><br>
+<span>有教程吗？现在都不知道去哪里找了</span><br>
+</p><p><b>gaiden: </b><br>
+<span>mirari 发表于 2019-10-1 17:50</span><br>
+<span>有教程吗？现在都不知道去哪里找了</span><br>
+<span>解锁论坛置顶一般有傻瓜包，解了bl刷个rec，rec带root就很简单</span><br>
+</p><p><b>mirari: </b><br>
+<span>gaiden 发表于 2019-10-1 18:26</span><br>
+<span>解锁论坛置顶一般有傻瓜包，解了bl刷个rec，rec带root就很简单</span><br>
+<span>解锁论坛是啥？</span><br>
+<span>刷第三方rec以后，可以正常进行稳定版OTA升级吗</span><br>
+</p><p><b>gaiden: </b><br>
+<span>mirari 发表于 2019-10-1 19:54</span><br>
+<span>解锁论坛是啥？</span><br>
+<span>刷第三方rec以后，可以正常进行稳定版OTA升级吗</span><br>
+<span>MIUI社区对应板块指定有</span><br>
+<span>我自己小米解锁以后OTA有点问题，每次OTA rec都会被覆盖，不过刷一下也就一分钟</span><br>
+</p><p><b>mirari: </b><br>
+<span>gaiden 发表于 2019-10-1 20:27</span><br>
+<span>MIUI社区对应板块指定有</span><br>
+<span>我自己小米解锁以后OTA有点问题，每次OTA rec都会被覆盖，不过刷一下也就一分钟 ...</span><br>
+<span>我在小米社区用解锁关键字没搜到什么有用的信息啊，别说解锁板块了，解锁的帖子都几乎没有。大多数说的是屏幕解锁、功能解锁。</span><br>
+<span>小米论坛的话，大多数都是解锁问题的抱怨，没有关于教程和包下载的内容。</span><br>
+</p><p><b>xinfengj: </b><br>
+<span>开发版9.8.22体验差的要死，然后愣是8月份卡到现在不更新</span><br>
+</p><p><b>momoooo: </b><br>
+<span>小米刷机除了这个要等 我一点问题都没碰到 不如刷个recovery随便玩了就</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>mirari 发表于 2019-10-1 21:07</span><br>
+<span>我在小米社区用解锁关键字没搜到什么有用的信息啊，别说解锁板块了，解锁的帖子都几乎没有。大多数说的是 ...</span><br>
+<span>解锁地址http://www.miui.com/unlock/index.html</span><br>
+<span>申请老帐号很快</span><br>
+</p><p><b>mirari: </b><br>
+<span>小隐隐于自宅 发表于 2019-10-1 23:08</span><br>
+<span>解锁地址http://www.miui.com/unlock/index.html</span><br>
+<span>申请老帐号很快</span><br>
+<span>解锁地址现在虽然入口难找但我还是找到的，已经有解锁资格了，但是我之前想问的是解锁以后的rec和magisk的资源和教程要去哪里找。</span><br>
+<span>MIUI论坛的相关讨论帖都是发一条删一条，而且论坛还大部分帖子看不到，社区则没有板块搜索功能</span><br>
+</p><p><b>sky0hjh: </b><br>
+<span>卡洛德 发表于 2019-5-27 19:06</span><br>
+<span>等168小时不是为了避免七天无理由吗</span><br>
+<span>并不是，有的账号绑定上是可以秒解的具体机制未知</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>mirari 发表于 2019-10-2 07:19</span><br>
+<span>解锁地址现在虽然入口难找但我还是找到的，已经有解锁资格了，但是我之前想问的是解锁以后的rec和magisk ...</span><br>
+<span>rec和magisk可以去魔趣拿https://download.mokeedev.com/</span><br>
+<span>教程在机型的QQ群一般有，或者酷市场看看有没有人发</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>sky0hjh 发表于 2019-10-2 07:56</span><br>
+<span>并不是，有的账号绑定上是可以秒解的具体机制未知</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1 ...</span><br>
+<span>我的账号就是秒解的，到手就刷magisk～</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>虾扯蛋777: </b><br>
+<span>恶心搞机的，因为搞机的怎么小恶心他他都可能还在用，只有留个底线就可以了，这样还可以减轻自己的负担。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834806[50-100]</guid>
+    </item>
+    <item>
+      <title>小米为什么现在要不择手段地阻止用户刷机呢[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834806-1-1.html</link>
+      <description>小米为什么现在要不择手段地阻止用户刷机呢&#13;
+最开始是这样的：
+&#13;
+1.下载开发版卡刷包
+&#13;
+2.复制到手机任意目录
+&#13;
+3.进入系统更新页面，手动选择安装包并升级
+&#13;
+后来刷之前需要解锁：
+&#13;
+1.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具解锁
+&#13;
+2.下载开发版卡刷包
+&#13;
+3.复制到手机任意目录
+&#13;
+4.进入系统更新页面，手动选择安装包并升级
+&#13;
+再后来解锁需要先申请：
+&#13;
+1.登录MIUI官网申请获取账号解锁权限，快的大约半小时内能拿到验证码，慢的据说需要数个工作日
+&#13;
+2.将手机开机并完成引导，登录小米账号
+&#13;
+3.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号然后解锁
+&#13;
+4.下载开发版卡刷包
+&#13;
+5.复制到手机任意目录
+&#13;
+6.进入系统更新页面，手动选择安装包并升级
+&#13;
+前几天买了米9透明版给家人用，刷机体验如下：
+&#13;
+（小米账号已解锁，申请步骤略过）
+&#13;
+1.将手机开机并完成引导，登录小米账号
+&#13;
+2.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号
+&#13;
+3.点击下一步提示需要先绑定设备（原来手机登录小米账号还不算绑定？）
+&#13;
+4.重新开机，进入系统信息页，按miui版本号这行10下，开启开发者选项（要不是以前折腾过光找这开发者选项在哪里就要纠结半天）。找到开发者选项，点击系统解锁状态，再点击绑定账号
+&#13;
+5.关机再次进入fastboot，连接电脑
+&#13;
+6.提示您的账号与手机绑定时间太短，请用账号登录手机168小时后再试，登录期间请保持手机经常使用（从米2用到米9第一次看到这种幺蛾子）
+&#13;
+7.网上搜了各种喷小米解锁的帖子，尝试了修改系统时间等各种办法，无效。据官方说法是出现时间提示是因为检测到账户环境异常，时间限制不能通过联系客服等任何途径缩短。（也有些人说提示300小时的，笑就完了。另外这限制不是现实时间，而是使用时长需达标。我一个要用开发版root的人你让我用一个月稳定版，到时候一刷机还得清空数据，蛋疼吗）
+&#13;
+8.重新开机，恢复出厂设置，登录购买此手机的小米账号，绑定设备，重新进入fastboot，终于一键解锁。
+&#13;
+9.下载开发版卡刷包
+&#13;
+10.复制到手机任意目录
+&#13;
+11.进入系统更新页面，喵喵喵，手动选择安装包去哪了？
+&#13;
+12.上网搜，点击系统更新页面的MIUI图标10下，显示手动选择安装包选项
+&#13;
+13.进入系统更新页面，手动选择安装包并升级
+&#13;
+14.刷完开机，输入家人小米账号，提示该手机已与我的小米账号绑定，无法登录其他账号
+&#13;
+15.用我的账号登录，解绑设备，然后恢复出厂设置
+&#13;
+16.用新账号登录，总算折腾完了</description>
+      <content:encoded><![CDATA[<p><b>mirari: </b><br>
+<span>小米为什么现在要不择手段地阻止用户刷机呢</span><br>
+<span>最开始是这样的：</span><br>
+<span>1.下载开发版卡刷包</span><br>
+<span>2.复制到手机任意目录</span><br>
+<span>3.进入系统更新页面，手动选择安装包并升级</span><br>
+<span>后来刷之前需要解锁：</span><br>
+<span>1.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具解锁</span><br>
+<span>2.下载开发版卡刷包</span><br>
+<span>3.复制到手机任意目录</span><br>
+<span>4.进入系统更新页面，手动选择安装包并升级</span><br>
+<span>再后来解锁需要先申请：</span><br>
+<span>1.登录MIUI官网申请获取账号解锁权限，快的大约半小时内能拿到验证码，慢的据说需要数个工作日</span><br>
+<span>2.将手机开机并完成引导，登录小米账号</span><br>
+<span>3.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号然后解锁</span><br>
+<span>4.下载开发版卡刷包</span><br>
+<span>5.复制到手机任意目录</span><br>
+<span>6.进入系统更新页面，手动选择安装包并升级</span><br>
+<span>前几天买了米9透明版给家人用，刷机体验如下：</span><br>
+<span>（小米账号已解锁，申请步骤略过）</span><br>
+<span>1.将手机开机并完成引导，登录小米账号</span><br>
+<span>2.关机后按住音量下和开机按钮进入fastboot，连接电脑打开小米官方解锁工具，登录小米账号</span><br>
+<span>3.点击下一步提示需要先绑定设备（原来手机登录小米账号还不算绑定？）</span><br>
+<span>4.重新开机，进入系统信息页，按miui版本号这行10下，开启开发者选项（要不是以前折腾过光找这开发者选项在哪里就要纠结半天）。找到开发者选项，点击系统解锁状态，再点击绑定账号</span><br>
+<span>5.关机再次进入fastboot，连接电脑</span><br>
+<span>6.提示您的账号与手机绑定时间太短，请用账号登录手机168小时后再试，登录期间请保持手机经常使用（从米2用到米9第一次看到这种幺蛾子）</span><br>
+<span>7.网上搜了各种喷小米解锁的帖子，尝试了修改系统时间等各种办法，无效。据官方说法是出现时间提示是因为检测到账户环境异常，时间限制不能通过联系客服等任何途径缩短。（也有些人说提示300小时的，笑就完了。另外这限制不是现实时间，而是使用时长需达标。我一个要用开发版root的人你让我用一个月稳定版，到时候一刷机还得清空数据，蛋疼吗）</span><br>
+<span>8.重新开机，恢复出厂设置，登录购买此手机的小米账号，绑定设备，重新进入fastboot，终于一键解锁。</span><br>
+<span>9.下载开发版卡刷包</span><br>
+<span>10.复制到手机任意目录</span><br>
+<span>11.进入系统更新页面，喵喵喵，手动选择安装包去哪了？</span><br>
+<span>12.上网搜，点击系统更新页面的MIUI图标10下，显示手动选择安装包选项</span><br>
+<span>13.进入系统更新页面，手动选择安装包并升级</span><br>
+<span>14.刷完开机，输入家人小米账号，提示该手机已与我的小米账号绑定，无法登录其他账号</span><br>
+<span>15.用我的账号登录，解绑设备，然后恢复出厂设置</span><br>
+<span>16.用新账号登录，总算折腾完了</span><br>
+</p><p><b>StarBlazers: </b><br>
+<span>mirari 发表于 2019-05-27 18:50:56</span><br>
+<span>最开始是这样的：</span><br>
+<span>1.下载开发版卡刷包</span><br>
+<span>2.复制到手机任意目录</span><br>
+<span>3.进入系统更新页面，手动选择安装包并升级</span><br>
+<span> ...我擦现在刷开放版这么麻烦了吗 我当年的米3刷得很轻松啊</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>winoros: </b><br>
+<span>12.上网搜，点击系统更新页面的MIUI图标10下，显示手动选择安装包选项</span><br>
+<span>这个当时迷了好久，开始搜到的都是直接就能刷的，搜了好久才发现要点10下</span><br>
+<span>6.提示您的账号与手机绑定时间太短，请用账号登录手机168小时后再试，登录期间请保持手机经常使用</span><br>
+<span>这一条当时看miui论坛的时候好像人不少，但是我到手之后直接刷是没事的。而且可能是印象有错，米6当时好像也有人报这问题，我当时也是战战兢兢的试着刷一下，发现直接就成功了</span><br>
+</p><p><b>雪影: </b><br>
+<span>我寻思着小米是目前为数不多可以解锁bl的了，lz这是自己竖靶子打着玩的？？？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>空罐子: </b><br>
+<span>老账号，登录之后直接fastboot模式解锁，刷入TWRP,刷ROM</span><br>
+</p><p><b>winoros: </b><br>
+<span>8.重新开机，恢复出厂设置，登录购买此手机的小米账号，绑定设备，重新进入fastboot，终于一键解锁。</span><br>
+<span>难道是机号不一导致的？我米6是线下买的，米9是小米商城捡漏买的，都直接成了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>168小时还算好了</span><br>
+<span>去年买的mi8直接让我等1440小时 </span><br>
+</p><p><b>卡洛德: </b><br>
+<span>等168小时不是为了避免七天无理由吗</span><br>
+</p><p><b>Okumur: </b><br>
+<span>早不用猴机了，出处喂屎感老让人生出一种无名火</span><br>
+</p><p><b>白花油发电机: </b><br>
+<span>给家人用为什么要刷机……</span><br>
+<span>—— 来自 Xiaomi MI 9 Transparent Edition, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>做猴乖乖被耍和做狗乖乖听话那个好呢反正不把用户当人就对了</span><br>
+</p><p><b>ganeid: </b><br>
+<span>现在没几个人用开发版自带残废root，解锁之后都是twrp+面具走起</span><br>
+<span>至于刷开发版，不解锁也能刷</span><br>
+</p><p><b>mimighost: </b><br>
+<span>为啥要刷机？</span><br>
+<span>刷机之后bug一堆，特别是相机</span><br>
+</p><p><b>琦言: </b><br>
+<span>小米是为数不多的能解BL的了。</span><br>
+<span>楼主要不评价下华为？</span><br>
+</p><p><b>Nelioer: </b><br>
+<span>买华为试试</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-5-27 19:27 编辑 </span><br>
+<span>刷机就没ad了。现在粗粮不像其他厂商一样直接禁掉只是它当年为发烧而生的slogan的最后一点遮羞布罢了，早就想全禁了当年adui可是适配各种机型的，现在呢？</span><br>
+</p><p><b>neverer: </b><br>
+<span>我记得好像还是很简单啊，至少米板4就是解锁，线刷刷入twrp，卡刷刷机包，重启，完事……mi9的twrp好像已经有了吧</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>空罐子 发表于 2019-5-27 18:58</span><br>
+<span>老账号，登录之后直接fastboot模式解锁，刷入TWRP,刷ROM</span><br>
+<span>多老的帐号？我7年老帐号也要14天</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>因为小米手机就是广告机，只要用MIUI，每天就能给小米公司创造广告利润，刷机后就没有了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Iridescence_C: </b><br>
+<span>楼主一个字都没提华为，下面不到二十楼就开始说华为也干了。有些粉丝怕不是觉得只要比华为强就可以显得自己不lowb。</span><br>
+</p><p><b>elflie: </b><br>
+<span>步骤麻烦主要在解锁BL上，硬时间没办法，其他都一样吧...</span><br>
+</p><p><b>js·: </b><br>
+<span>当然是为了广告。</span><br>
+<span>当然小米的官方理由，红米3和note3时代最火最耍猴的时候，很多经销商刷私改rom内藏吸费陷阱和广告，为此才搞这么麻烦。</span><br>
+</p><p><b>404489039: </b><br>
+<span>你刷机那么广告给谁看，你刷机怎么推广他的服务怎么才能对小米有依赖性。</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>因为要卖广告</span><br>
+</p><p><b>d2loader: </b><br>
+<span>楼主只是刷个开发版啊。。。开发版不一样有广告吗</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>Zest: </b><br>
+<span>用户都刷机了ADUI给谁推广告</span><br>
+</p><p><b>geminixxf: </b><br>
+<span>MIX2S移动刷成全网通的表示稳定。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>ポコフォン只需等3天就能解锁</span><br>
+<span>——　ポコフォン　F1　、　アンドロイド　🥧　の　S1 Next ガチョウ　v2.1.2　より</span><br>
+</p><p><b>marxel: </b><br>
+<span>一帮人都说不到点子上，既然ADUI没了雷布斯要哭瞎，那为什么不把解BL的途径关掉，或者索性搞付费解锁？</span><br>
+<span>另外高通有神之9008，别说解锁了，有锁机都能糊弄着让你能用能登账号</span><br>
+</p><p><b>melvin117: </b><br>
+<span>年头买给老爸的max3根本不想刷，反正给老爸看广告就看吧</span><br>
+<span>马的比三星还要麻烦</span><br>
+<span>真是风水轮流转，以猴王的恶心人程度，觉得迟早就要封掉了</span><br>
+</p><p><b>huruii7: </b><br>
+<span>借楼问一下，小米root之后自带的pay，指纹支付和交通卡功能还能用吗</span><br>
+</p><p><b>win8: </b><br>
+<span>这话说的苹果让你随便刷了还是华为让你随便刷了，哪怕是退出大陆的htc也没让你随便解bl</span><br>
+</p><p><b>畜男不是人: </b><br>
+<span>为发烧而生 X</span><br>
+<span>为AD而生 O</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>mirari: </b><br>
+<span>刚才忘了说，绑定和解绑设备的时候还要求插入手机卡，并切断wifi使用数据网络连接后进行验证。这一步就让我把3个手机的卡槽来来回回折腾了半天。每次打开解锁工具总以为可以下一步，结果后面一堆坑等着踩。</span><br>
+</p><p><b>huidh123: </b><br>
+<span>很简单。1，有人成批买手机刷完修改版机器然后卖。2，刷完机怎么推你用应用。3，想刷的人自然能刷，不会刷的人也不会误点给机器搞坏。</span><br>
+<span>—— 来自 Xiaomi Mi 9 SE, Android 9上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>luciffer: </b><br>
+<span>左转找一加</span><br>
+<span>吃饱了撑的选小米</span><br>
+</p><p><b>marxel: </b><br>
+<span>huruii7 发表于 2019-5-27 20:30</span><br>
+<span>借楼问一下，小米root之后自带的pay，指纹支付和交通卡功能还能用吗</span><br>
+<span>可以，但是刷国际版可能不行</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Zest: </b><br>
+<span>win8 发表于 2019-5-27 20:31</span><br>
+<span>这话说的苹果让你随便刷了还是华为让你随便刷了，哪怕是退出大陆的htc也没让你随便解bl ...</span><br>
+<span>大法让你随便刷</span><br>
+</p><p><b>螺纹: </b><br>
+<span>你把人家广告终端系统弄得播不了广告人家当然刁难啦</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Rafale: </b><br>
+<span>围华救米，十分熟练</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>WDLEZ: </b><br>
+<span>刷机王者的名号老早就转移到一加手机了</span><br>
+</p><p><b>stevenzero: </b><br>
+<span>论刷机，五十步当然能笑一百步。只要小米还能解BL，连Launcher都不让换的活该中枪。</span><br>
+</p><p><b>pbkings: </b><br>
+<span>小米，为发烧而生</span><br>
+<span>嫌麻烦说明你烧的不够</span><br>
+</p><p><b>空罐子: </b><br>
+<span>zlzhcqblf 发表于 2019-5-27 19:29</span><br>
+<span>多老的帐号？我7年老帐号也要14天</span><br>
+<span>14天？老账号登录新机器也就3天呀</span><br>
+</p><p><b>魔人揪揪: </b><br>
+<span>现在只有小米一加能刷机了吧？</span><br>
+<span>然后手机ui里面只有一加没有广告 大家都靠广告吃饭</span><br>
+<span>让网络用户把adui和miui绑定的水军太强了 一下把miui打入万劫不复深渊不得翻身啊</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>魔人揪揪 发表于 2019-5-27 23:42</span><br>
+<span>现在只有小米一加能刷机了吧？</span><br>
+<span>然后手机ui里面只有一加没有广告 大家都靠广告吃饭</span><br>
+<span>让网络用户把adui和miui ...</span><br>
+<span>华硕的也可以刷，也没广告，热门的Max Pro M1和M2够多ROM</span><br>
+<span>——　ポコフォン　F1　、　アンドロイド　🥧　の　S1 Next ガチョウ　v2.1.2　より</span><br>
+</p><p><b>marxel: </b><br>
+<span>魔人揪揪 发表于 2019-5-27 23:42</span><br>
+<span>现在只有小米一加能刷机了吧？</span><br>
+<span>然后手机ui里面只有一加没有广告 大家都靠广告吃饭</span><br>
+<span>让网络用户把adui和miui ...</span><br>
+<span>用任总的观点来看，水军黑adui是因为adui够强大，你看怎么没有人黑那个什么lorOS，什么touchOS的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>riczxc: </b><br>
+<span>我买了后发觉要等3天才能解锁，也差点想退货了。</span><br>
+</p><p><b>虚无连斩: </b><br>
+<span>魔人揪揪 发表于 2019-5-27 23:42</span><br>
+<span>现在只有小米一加能刷机了吧？</span><br>
+<span>然后手机ui里面只有一加没有广告 大家都靠广告吃饭</span><br>
+<span>让网络用户把adui和miui ...</span><br>
+<span>不是我在用一加也就真信了你的邪……自带短信和浏览器都有推广广告，想不看广告请刷洋大人版</span><br>
+</p><p><b>yikaa: </b><br>
+<span>第二页了还没人说小米锁BL是因为360悄咪咪地把miui换成了他的雷电os。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834806[0-50]</guid>
+    </item>
+  </channel>
+</rss>

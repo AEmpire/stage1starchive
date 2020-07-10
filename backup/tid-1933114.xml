@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>设计组装制造调试一台游戏机</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>设计组装制造调试一台游戏机</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:08:17 +0000</lastBuildDate>
+    <item>
+      <title>设计组装制造调试一台游戏机[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933114-1-1.html</link>
+      <description>设计组装制造调试一台游戏机&#13;
+ 本帖最后由 nowords 于 2020-5-6 21:28 编辑 
+
+设计目标：
+&#13;
+该游戏机遵循“复古”和“仪式感”的设计语言，无GUI。进入游戏前人机交互界面为“纸质菜单”和“拨盘电话”，主显示界面采用CRT监视器显示，拨盘数字采用辉光管显示。
+&#13;
+选择游戏：
+&#13;
+1.）从菜单中查询游戏号码，该编号可自定义，例：“115-街头霸王II”
+&#13;
+2.）抬起电话，主界面进入待机状态，并辉光管通电
+&#13;
+3.）拨号，如 115
+&#13;
+4.）启动对应号码之游戏。
+&#13;
+硬件计划：
+&#13;
+- 任意品牌9寸CRT- 任意品牌脉冲拨盘电话机- Raspberry Pi CM3+- 自制CM3底板，包含如下功能      - 读取拨盘脉冲信号并转换为数字信号      - 辉光管驱动及电源管理      - RGBs/RGBHV信号输出      - 其他杂项（WIFI 蓝牙等）- 内置立体声音响- 手柄若干- 笔记本一本（用做菜单）
+&#13;
+软件计划：
+&#13;
+- Raspbian lite
+&#13;
+- Retroarch - 另开发一套能够读取拨号/控制辉光管/启动游戏的管理程序
+&#13;
+~</description>
+      <content:encoded><![CDATA[<p><b>曾江: </b><br>
+<span>太强了吧 这动手能力</span><br>
+</p><p><b>orx: </b><br>
+<span>为何这么吊</span><br>
+</p><p><b>帕林马哲理: </b><br>
+<span>辉光管可真的是情怀啊，15年做了个六位时钟，今天只有四个还亮了</span><br>
+</p><p><b>mes: </b><br>
+<span>树莓派有个只用拼装看外壳还不错的，有线手柄可以分开买。</span><br>
+<span>retroflag.com/SUPERPi-CASE-J.html</span><br>
+<span>retroflag.com/MEGAPi-CASE-M.html</span><br>
+<span>但是因为板的形状都不同，不支持那个系列最新的4。除非像这样开洞，又太难看了。</span><br>
+<span>i.imgur.com/OsvcFpE.jpg</span><br>
+</p><p><b>back57992: </b><br>
+<span>理论挺简单的，，就是动起手来比较麻烦。</span><br>
+</p><p><b>资本剑客: </b><br>
+<span>羡慕动手能力强的人</span><br>
+</p><p><b>离怨离忧: </b><br>
+<span>这做一个得有什么水平的单片机知识啊？</span><br>
+</p><p><b>蕾丝: </b><br>
+<span>wwdzcjsmxx 发表于 2020-5-6 23:23</span><br>
+<span>大佬，你这硬件+编程+超强的动手能力啊。。。</span><br>
+<span>能做个兼容一票怀旧主机掌机的吗？然后来量产 ...</span><br>
+<span>说来喷神有个朋友就做过类似的玩意233333333</span><br>
+</p><p><b>nowords: </b><br>
+<span>第二十三个马甲 发表于 2020-05-07 00:48:44</span><br>
+<span>不懂就问，这一套下来要多少钱？我也打算自己整一个理论上讲，不走歪路，不算木工盒子，大约1000元不到，具体我也没算过</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>shimotsuki14: </b><br>
+<span>厉害啊，有那味儿了，佩服佩服</span><br>
+</p><p><b>jiemo0925: </b><br>
+<span>有内味了</span><br>
+<span>follow the white rabbit那里也是绝了</span><br>
+</p><p><b>笔の海: </b><br>
+<span>太强了</span><br>
+</p><p><b>nowords: </b><br>
+<span> 本帖最后由 nowords 于 2020-5-7 13:28 编辑 </span><br>
+<span>201号机和202号机机体制作完毕，改进了工艺，正面取木头纹理面，采用CNC一次切割成型</span><br>
+</p><p><b>bilibiligo: </b><br>
+<span>可惜泥潭99%的人没有这种热情+行动力，不然也不用整天煮鸡大战放酸屁了。</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>wocao 帅爆了</span><br>
+</p><p><b>绝霜: </b><br>
+<span>面包板，好怀念</span><br>
+</p><p><b>pbkings: </b><br>
+<span>真的是酷</span><br>
+</p><p><b>Silence5902: </b><br>
+<span>电视好评，电话塑料外壳太low了，没内味，换个金属的好点，或者把外壳喷成黑色的。</span><br>
+</p><p><b>konev: </b><br>
+<span>太酷了吧！！！！！妈呀！</span><br>
+</p><p><b>iqbsh38: </b><br>
+<span>贩售不 搞个众筹吧LZ</span><br>
+</p><p><b>mixxiu: </b><br>
+<span>吊的一批</span><br>
+</p><p><b>nowords: </b><br>
+<span> 本帖最后由 nowords 于 2020-5-7 20:30 编辑 </span><br>
+<span>iqbsh38 发表于 2020-05-07 19:01:02</span><br>
+<span>贩售不 搞个众筹吧LZ</span><br>
+<span>不会弄这些。。。感觉还没开始就交了很多推广费</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>谎称: </b><br>
+<span>拨号盘这点子真不错。</span><br>
+</p><p><b>nowords: </b><br>
+<span>我又来更新了，这几天PCB在打板，二号机暂时无法推进，设计一款配套的“键盘形”手柄，因为早年赛扬电脑Winkawas手，所以相比手柄，更习惯键盘打机，这个产品可能真的除了自己以外没有什么用处了，不管怎样还是更新一发其实就是全尺寸键盘拿掉不用的按键。</span><br>
+</p><p><b>MOOMBA: </b><br>
+<span>nowords 发表于 2020-5-9 22:08</span><br>
+<span>我又来更新了，这几天PCB在打板，二号机暂时无法推进，设计一款配套的“键盘形”手柄，因为早年赛扬电脑Win ...</span><br>
+<span>这键盘手柄有点像某隔壁音游产品**2的思路。。。</span><br>
+<span>那玩意感觉和这个设计差不多   小众的吓人。。。</span><br>
+</p><p><b>nowords: </b><br>
+<span>3D打印测试版到了，中间一块没打，怕尺寸不对浪费钱</span><br>
+<span>疯狂飞线</span><br>
+<span>完工，测试一遍通过，整体上盖开始打印</span><br>
+</p><p><b>nowords: </b><br>
+<span>MOOMBA 发表于 2020-5-11 22:57</span><br>
+<span>这键盘手柄有点像某隔壁音游产品**2的思路。。。</span><br>
+<span>那玩意感觉和这个设计差不多   小众的吓人。。。 ...</span><br>
+<span>嗯，用键盘玩的人少之又少呐</span><br>
+</p><p><b>mes: </b><br>
+<span>RetroArch默认键位好像是这样的，实际只有SFC一套键位。</span><br>
+<img src="https://i.niupic.com/images/2020/05/12/7Qq3.jpg" title="https://i.niupic.com/images/2020/05/12/7Qq3.jpg"><br>
+</p><p><b>nowords: </b><br>
+<span>一体化上盖到了...正式版完成</span><br>
+<span>一个LED指示灯</span><br>
+</p><p><b>萌萌alone酱: </b><br>
+<span>佬</span><br>
+</p><p><b>sorayang: </b><br>
+<span>前几天才看到最新的retropi系统适配raspberryPi4B了</span><br>
+</p><p><b>nowords: </b><br>
+<span>sorayang 发表于 2020-5-14 09:56</span><br>
+<span>前几天才看到最新的retropi系统适配raspberryPi4B了</span><br>
+<span>嗯..据说4B可以流畅的运行DC游戏...据说</span><br>
+</p><p><b>nowords: </b><br>
+<span>二号机第一版五片PCB收到，明天送去贴片...一定要一版过呀！！！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933114[50-100]</guid>
+    </item>
+    <item>
+      <title>设计组装制造调试一台游戏机[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933114-1-1.html</link>
+      <description>设计组装制造调试一台游戏机&#13;
+ 本帖最后由 nowords 于 2020-5-6 21:28 编辑 
+
+设计目标：
+&#13;
+该游戏机遵循“复古”和“仪式感”的设计语言，无GUI。进入游戏前人机交互界面为“纸质菜单”和“拨盘电话”，主显示界面采用CRT监视器显示，拨盘数字采用辉光管显示。
+&#13;
+选择游戏：
+&#13;
+1.）从菜单中查询游戏号码，该编号可自定义，例：“115-街头霸王II”
+&#13;
+2.）抬起电话，主界面进入待机状态，并辉光管通电
+&#13;
+3.）拨号，如 115
+&#13;
+4.）启动对应号码之游戏。
+&#13;
+硬件计划：
+&#13;
+- 任意品牌9寸CRT- 任意品牌脉冲拨盘电话机- Raspberry Pi CM3+- 自制CM3底板，包含如下功能      - 读取拨盘脉冲信号并转换为数字信号      - 辉光管驱动及电源管理      - RGBs/RGBHV信号输出      - 其他杂项（WIFI 蓝牙等）- 内置立体声音响- 手柄若干- 笔记本一本（用做菜单）
+&#13;
+软件计划：
+&#13;
+- Raspbian lite
+&#13;
+- Retroarch - 另开发一套能够读取拨号/控制辉光管/启动游戏的管理程序
+&#13;
+~</description>
+      <content:encoded><![CDATA[<p><b>nowords: </b><br>
+<span>设计组装制造调试一台游戏机</span><br>
+<span> 本帖最后由 nowords 于 2020-5-6 21:28 编辑 </span><br>
+<span>设计目标：</span><br>
+<span>该游戏机遵循“复古”和“仪式感”的设计语言，无GUI。进入游戏前人机交互界面为“纸质菜单”和“拨盘电话”，主显示界面采用CRT监视器显示，拨盘数字采用辉光管显示。</span><br>
+<span>选择游戏：</span><br>
+<span>1.）从菜单中查询游戏号码，该编号可自定义，例：“115-街头霸王II”</span><br>
+<span>2.）抬起电话，主界面进入待机状态，并辉光管通电</span><br>
+<span>3.）拨号，如 115</span><br>
+<span>4.）启动对应号码之游戏。</span><br>
+<span>硬件计划：</span><br>
+<span>- 任意品牌9寸CRT- 任意品牌脉冲拨盘电话机- Raspberry Pi CM3+- 自制CM3底板，包含如下功能      - 读取拨盘脉冲信号并转换为数字信号      - 辉光管驱动及电源管理      - RGBs/RGBHV信号输出      - 其他杂项（WIFI 蓝牙等）- 内置立体声音响- 手柄若干- 笔记本一本（用做菜单）</span><br>
+<span>软件计划：</span><br>
+<span>- Raspbian lite</span><br>
+<span>- Retroarch - 另开发一套能够读取拨号/控制辉光管/启动游戏的管理程序</span><br>
+<span>~</span><br>
+</p><p><b>nowords: </b><br>
+<span>开始工作，首先用硬纸板先搭一个基础的模型</span><br>
+<span>直接跑一个GB Mario试一下</span><br>
+<span>主体搭建完成，开始装修</span><br>
+</p><p><b>droople: </b><br>
+<span>不是说八位堂的十字键手感很差么</span><br>
+</p><p><b>nowords: </b><br>
+<span>droople 发表于 2020-5-6 21:28</span><br>
+<span>不是说八位堂的十字键手感很差么</span><br>
+<span>嗯，超任造型没办法</span><br>
+</p><p><b>路西恩: </b><br>
+<span>一种生活大爆炸的感觉</span><br>
+</p><p><b>nowords: </b><br>
+<span>装修第一步搞拨盘输入，手搓一个小板子转换方波</span><br>
+<span>成功读取十位数字</span><br>
+</p><p><b>takami: </b><br>
+<span>楼主你这手柄不对味</span><br>
+<span>试试雅达利的摇杆</span><br>
+</p><p><b>afer: </b><br>
+<span>我推荐八位堂那个SN30 Pro 有线手柄，起码有摇杆，方便很多。</span><br>
+<span>另外八位堂那个md手柄容我吹一波</span><br>
+</p><p><b>nowords: </b><br>
+<span>装修第二步，辉光管。</span><br>
+<span>辉光管的驱动模型先用面包板测试，用12颗LED代表3颗辉光管，毕竟真管子175V，而且很贵。。。</span><br>
+<span>LED会根据电话拨盘显示辉光管数值的二进制代码的，照片中为 0000 0000 0001</span><br>
+</p><p><b>nowords: </b><br>
+<span>测试成功后，点亮第一发辉光管</span><br>
+<span>测试拨号....成功显示</span><br>
+</p><p><b>nowords: </b><br>
+<span>接下来EE的工作先放到一边，转到木工的进展，外壳初号机制作完毕，采用菠萝格木料+木蜡油，天然环保无污染</span><br>
+<span>上盖采用抽拉式设计，方便维护，前后面板计划采用高精度尼龙3D打印</span><br>
+</p><p><b>shineaslin: </b><br>
+<span>赶上直播啦？</span><br>
+</p><p><b>nowords: </b><br>
+<span>shineaslin 发表于 2020-5-6 21:58</span><br>
+<span>赶上直播啦？</span><br>
+<span>录播哈哈</span><br>
+</p><p><b>nowords: </b><br>
+<span>赞美科技的进步，3D打印真好</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>nowords 发表于 2020-5-6 21:59</span><br>
+<span>录播哈哈</span><br>
+<span>录播好</span><br>
+<span>可以看个爽</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>插眼等更新</span><br>
+</p><p><b>ehero428: </b><br>
+<span>好强，羡慕动手能力</span><br>
+</p><p><b>nowords: </b><br>
+<span> 本帖最后由 nowords 于 2020-5-7 00:07 编辑 </span><br>
+<span>系统第一次总装，辉光管系统暂未实装，开机成功，出现命令提示符</span><br>
+<span>自检完毕后提示”Follow the white rabbit..."</span><br>
+<span>取下电话手柄等待拨入游戏代码（玩梗）</span><br>
+<span>成功启动游戏</span><br>
+<span>===============================</span><br>
+<span>和梗的对比</span><br>
+<span>===============================</span><br>
+<span>Neo查看电脑</span><br>
+<span>Trinity叫他 Follow the white rabbit</span><br>
+<span>剧中的电话</span><br>
+<span>可以用来脱离Matrix</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>木头是自己加工的吗？</span><br>
+</p><p><b>nowords: </b><br>
+<span>接下来开始初号机的总装</span><br>
+<span>首先把辉光管驱动，电话机模数转换电路全部搓成一个板子</span><br>
+<span>接上辉光管，塞进菠萝格盒子里，并内置电源</span><br>
+<span>总装初步完成，等待抬起电话</span><br>
+<span>电话抬起，辉光管显示无误</span><br>
+</p><p><b>nowords: </b><br>
+<span>总装完成，总体达到设计目标</span><br>
+</p><p><b>炽天使·路西菲尔: </b><br>
+<span>炫酷</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>竖排乱码有内味儿了</span><br>
+</p><p><b>nowords: </b><br>
+<span>启动流程视频</span><br>
+<span>https://www.bilibili.com/video/BV1LT4y1372m/</span><br>
+</p><p><b>yoki42: </b><br>
+<span>NB，已投币</span><br>
+</p><p><b>nowords: </b><br>
+<span>一些频摄，240P的原生素材在原生CRT上展现出了他们原本的英姿，而且在当代科技的加持下，系统实际输出的并不是320x240的分辨率，而是恐怖的2560x240，并将2560的水平分辨率投射到CRT的4:3荧光粉上，达到了超越那个时代的效果</span><br>
+</p><p><b>nowords: </b><br>
+<span>takami 发表于 2020-5-6 21:41</span><br>
+<span>楼主你这手柄不对味</span><br>
+<span>试试雅达利的摇杆</span><br>
+<span>那个。。没办法正常游戏吧</span><br>
+</p><p><b>進藤あまね: </b><br>
+<span>厉害</span><br>
+</p><p><b>nowords: </b><br>
+<span>二号机</span><br>
+<span>初号机暂时告一段落，其实还有0号机。已经封存，接下来就要开始二号机的制作了，由于初号机纯粹是一个验证可行性的模型，虽然能够运作，但是存在很多弊端，比如非常的不耐震，主要是电子设备采用的都是插座和手搓的板子，二号机主要在这里要进行完善和改进。</span><br>
+<span>二号机的第一步：绘制原理图和PCB，所有辉光管，模数转换，高低压模块全部集成到主板上，PCB整体尺寸压缩进10cmX10cm。</span><br>
+<span>初号机的核心是树莓派3B， 二号机改为板载CM模块，缩小空间，并且摈弃了一些不用的东西，降低了功耗</span><br>
+</p><p><b>挂命贵: </b><br>
+<span>卧槽，牛逼，币给了</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>大佬，你这硬件+编程+超强的动手能力啊。。。</span><br>
+<span>能做个兼容一票怀旧主机掌机的吗？然后来量产</span><br>
+</p><p><b>lordvv: </b><br>
+<span>牛逼牛逼</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>sagat.raid: </b><br>
+<span>辉光管有内味了</span><br>
+</p><p><b>ohi: </b><br>
+<span>当初单片机学一半弃坑了orz</span><br>
+</p><p><b>nowords: </b><br>
+<span>wwdzcjsmxx 发表于 2020-5-6 23:23</span><br>
+<span>大佬，你这硬件+编程+超强的动手能力啊。。。</span><br>
+<span>能做个兼容一票怀旧主机掌机的吗？然后来量产 ...</span><br>
+<span>淘宝有很大一堆的，做的都很不错的</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>这是要直接把nano焊在板子上吗</span><br>
+</p><p><b>nowords: </b><br>
+<span>Herreimu 发表于 2020-5-6 23:48</span><br>
+<span>这是要直接把nano焊在板子上吗</span><br>
+<span>嗯嗯，直接贴上去</span><br>
+</p><p><b>fat: </b><br>
+<span>卧槽牛逼</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>nowords 发表于 2020-5-6 23:55</span><br>
+<span>嗯嗯，直接贴上去</span><br>
+<span>不考虑直接整片ATmega328上去吗，最小系统没多少东西的</span><br>
+</p><p><b>nowords: </b><br>
+<span>Herreimu 发表于 2020-5-7 00:06</span><br>
+<span>不考虑直接整片ATmega328上去吗，最小系统没多少东西的</span><br>
+<span>嗯 也是可以的，但是二号机考虑到ATmega328的固件还是要反复修改，所以用nano方便一些</span><br>
+</p><p><b>第二十三个马甲: </b><br>
+<span>不懂就问，这一套下来要多少钱？我也打算自己整一个</span><br>
+</p><p><b>ayarinwen: </b><br>
+<span> 本帖最后由 ayarinwen 于 2020-5-7 01:13 编辑 </span><br>
+<span>牛逼 已投币</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2020-5-7 01:12 编辑 </span><br>
+<span>大佬求求你量产吧</span><br>
+<span>// 树莓派考虑接个散热片吧，街机和ps1甚至sfc长时间运行都有降频的问题</span><br>
+</p><p><b>qq525266: </b><br>
+<span>先占个位置，明天再缴费</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>ronac: </b><br>
+<span>复古未来主义！电话拨号盘的想法够靓</span><br>
+<span>其实老任能量手套配对游戏的那种开关组合方式也行，但是实行起来可能没有拨号实际吧</span><br>
+<span>雅达利的摇杆据说手感挺硬的，当然那个造型没得说，仿一个应该不错</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>牛逼牛逼</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>敖厂长发来贺电！</span><br>
+<span>—— 来自 vivo V1924A, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>nowords: </b><br>
+<span>ekdc11 发表于 2020-05-07 01:06:20</span><br>
+<span>大佬求求你量产吧</span><br>
+<span>// 树莓派考虑接个散热片吧，街机和ps1甚至sfc长时间运行都有降频的问题</span><br>
+<span> ...嗯 初号机确实有散热问题，二号机有散热系统的</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>nowords: </b><br>
+<span>Cityrat 发表于 2020-05-07 03:08:20</span><br>
+<span>敖厂长发来贺电！</span><br>
+<span>—— 来自 vivo V1924A, Android 9上的v2.1.0-play啊！受宠若惊</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>ESAKA!!!!: </b><br>
+<span>牛逼疯了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933114[0-50]</guid>
+    </item>
+  </channel>
+</rss>

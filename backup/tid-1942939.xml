@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用potplayer看斗鱼直播的总结</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用potplayer看斗鱼直播的总结</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:37:31 +0000</lastBuildDate>
+    <item>
+      <title>用potplayer看斗鱼直播的总结[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942939-1-1.html</link>
+      <description>用potplayer看斗鱼直播的总结&#13;
+ 本帖最后由 sniffer 于 2020-6-20 20:50 编辑 
+
+因为最好用占资源最低的斗鱼uwp版一直闪退，客户端和网页版又狂占cpu导致我电脑过热直接挂掉，折腾了几天把网上用potplayer看斗鱼的方法做了个整合，效果还可以，缺点就是没有弹幕少了吐槽的乐趣。我试着改了些代码，输出一个播放列表，potplayer可以直接播放。我不会程序，才发现能让程序跑起来真是各种坑。。。
+&#13;
+1. 安装python 2.7 （我开始以为肯定是最新的最好，谁知道那代码是用python 2写的，python 3不兼容。）
+&#13;
+2. 安装需要的模块在命令行下运行pip install requests 和 pip install pyexecjs 安装完后用 pip list 查看一下是不是安装成功了
+&#13;
+3. 修改douyu.py里清晰度、播放列表存放位置和自己喜欢的主播名字房间id return "http://tx2play1.douyucdn.cn/live/" + url + "_1200p.flv?uuid="#_4000P为蓝光，_2000p超清，_1200p高清，_550p流畅，不加是最高清晰度
+&#13;
+f=open(r'C:\Users\Administrator\Desktop\douyu\mylist.dpl'.decode("utf-8"),'w')
+&#13;
+f.write("DAUMPLAYLIST"+"\n")
+&#13;
+f.write("1*file*"+main(rid="3507497")+"\n")
+&#13;
+f.write("1*title*Ams"+"\n")
+&#13;
+4. 删掉PotPlayer\Extention\Media\UrlList\MediaUrlList - YouTube.as里的youtube地址
+&#13;
+array GetCategorys()
+&#13;
+{
+&#13;
+array ret;
+&#13;
+//中间这部分代码全部删掉
+&#13;
+return ret;
+&#13;
+}5. 把douyu.py拉到命令行窗口里回车，生成mylist.dpl
+&#13;
+6. 用potplayer打开mylist.dpl即可，图标可以区分出是不是正在开播。根据自己显卡情况点时间显示右边那里切换软硬件解码
+&#13;
+7. 因为主播每次开播地址都会变，所以每次要重复步骤5重新生成一次播放列表。如果斗鱼又改了地址格式，就用手动抓取得到新格式更新到代码里
+&#13;
+参考链接
+&#13;
+手动抓取 https://www.52pojie.cn/thread-957638-1-1.html
+&#13;
+原代码 https://blog.csdn.net/qq_38641985/article/details/104351483
+&#13;
+potplayer打开链接慢 https://www.52pojie.cn/thread-946342-1-1.html</description>
+      <content:encoded><![CDATA[<p><b>sniffer: </b><br>
+<span>用potplayer看斗鱼直播的总结</span><br>
+<span> 本帖最后由 sniffer 于 2020-6-20 20:50 编辑 </span><br>
+<span>因为最好用占资源最低的斗鱼uwp版一直闪退，客户端和网页版又狂占cpu导致我电脑过热直接挂掉，折腾了几天把网上用potplayer看斗鱼的方法做了个整合，效果还可以，缺点就是没有弹幕少了吐槽的乐趣。我试着改了些代码，输出一个播放列表，potplayer可以直接播放。我不会程序，才发现能让程序跑起来真是各种坑。。。</span><br>
+<span>1. 安装python 2.7 （我开始以为肯定是最新的最好，谁知道那代码是用python 2写的，python 3不兼容。）</span><br>
+<span>2. 安装需要的模块在命令行下运行pip install requests 和 pip install pyexecjs 安装完后用 pip list 查看一下是不是安装成功了</span><br>
+<span>3. 修改douyu.py里清晰度、播放列表存放位置和自己喜欢的主播名字房间id return "http://tx2play1.douyucdn.cn/live/" + url + "_1200p.flv?uuid="#_4000P为蓝光，_2000p超清，_1200p高清，_550p流畅，不加是最高清晰度</span><br>
+<span>f=open(r'C:\Users\Administrator\Desktop\douyu\mylist.dpl'.decode("utf-8"),'w')</span><br>
+<span>f.write("DAUMPLAYLIST"+"\n")</span><br>
+<span>f.write("1*file*"+main(rid="3507497")+"\n")</span><br>
+<span>f.write("1*title*Ams"+"\n")</span><br>
+<span>4. 删掉PotPlayer\Extention\Media\UrlList\MediaUrlList - YouTube.as里的youtube地址</span><br>
+<span>array GetCategorys()</span><br>
+<span>{</span><br>
+<span>array ret;</span><br>
+<span>//中间这部分代码全部删掉</span><br>
+<span>return ret;</span><br>
+<span>}5. 把douyu.py拉到命令行窗口里回车，生成mylist.dpl</span><br>
+<span>6. 用potplayer打开mylist.dpl即可，图标可以区分出是不是正在开播。根据自己显卡情况点时间显示右边那里切换软硬件解码</span><br>
+<span>7. 因为主播每次开播地址都会变，所以每次要重复步骤5重新生成一次播放列表。如果斗鱼又改了地址格式，就用手动抓取得到新格式更新到代码里</span><br>
+<span>参考链接</span><br>
+<span>手动抓取 https://www.52pojie.cn/thread-957638-1-1.html</span><br>
+<span>原代码 https://blog.csdn.net/qq_38641985/article/details/104351483</span><br>
+<span>potplayer打开链接慢 https://www.52pojie.cn/thread-946342-1-1.html</span><br>
+</p><p><b>madbird302: </b><br>
+<span>ams只要不唱歌就完美无缺</span><br>
+</p><p><b>Momechen: </b><br>
+<span> 本帖最后由 Momechen 于 2020-6-20 20:38 编辑 </span><br>
+<span>刚刚试了下，gpu占用不减反正，大呼上当。后来发现怎么这么丝滑，原来是开启了A卡插帧，关了之后果然占用率降低了！</span><br>
+</p><p><b>Momechen: </b><br>
+<span> 本帖最后由 Momechen 于 2020-6-20 20:34 编辑 </span><br>
+<span>python3以上修改两个地方就可以啦</span><br>
+<span>reload(sys)</span><br>
+<span>sys.setdefaultencoding("utf-8")</span><br>
+<span>替换成</span><br>
+<span>import importlib</span><br>
+<span>importlib.reload(sys)</span><br>
+<span>f=open(r'C:\Users\Administrator\Desktop\douyu\mylist.dpl'.decode("utf-8"),'w')</span><br>
+<span>替换成</span><br>
+<span>f=open(r'C:\Users\Administrator\Desktop\douyu\mylist.dpl'.encode('utf-8').decode(),'w')</span><br>
+</p><p><b>sniffer: </b><br>
+<span>Momechen 发表于 2020-6-20 20:14</span><br>
+<span>刚刚试了下，gpu占用不减反正，大呼上当。后来发现怎么这么丝滑，原来是开启了A卡插帧，关了之后果然占用率 ...</span><br>
+<span>我跟你目的相反，我是要减cpu增gpu。。。</span><br>
+<span>我是apu无独显，cpu低了温度就低。uwp版斗鱼cpu占用极低gpu拉满但是一点都不热，客户端和网页版都是cpu和gpu用的比较平均。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942939[0-50]</guid>
+    </item>
+  </channel>
+</rss>

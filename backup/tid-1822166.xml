@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>a卡待机显存是一直都满载的吗(更新解决办法)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>a卡待机显存是一直都满载的吗(更新解决办法)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:35:23 +0000</lastBuildDate>
+    <item>
+      <title>a卡待机显存是一直都满载的吗(更新解决办法)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822166-1-1.html</link>
+      <description>a卡待机显存是一直都满载的吗(更新解决办法)&#13;
+ 本帖最后由 萝卜roto 于 2020-2-6 21:52 编辑 
+
+找到解决办法了.
+&#13;
+在驱动设置-显示器-自定义分辨率-在时序标准那选择CVT减少消隐   然后问题解决.
+&#13;
+找到问题了,原来就是2K屏的75刷新.换到60后马上降下来..是农企的锅吗?
+&#13;
+599的盈通588矿渣到了，看着挺新的。
+&#13;
+gpuz和其他软件看过都是官方bios，tdp145w，其他猫腻暂时没看出什么。
+&#13;
+但问题来了，待机核心降到300，为什么显存一直保持2000的？我记得不是这样的啊。https://i.loli.net/2019/04/05/5ca75db4b32b2.jpghttps://i.loli.net/2019/04/05/5ca75e86cc60a.jpg
+&#13;
+找到问题了,原来就是2K屏的75刷新.换到60后马上降下来..是农企的锅吗?</description>
+      <content:encoded><![CDATA[<p><b>萝卜roto: </b><br>
+<span>a卡待机显存是一直都满载的吗(更新解决办法)</span><br>
+<span> 本帖最后由 萝卜roto 于 2020-2-6 21:52 编辑 </span><br>
+<span>找到解决办法了.</span><br>
+<span>在驱动设置-显示器-自定义分辨率-在时序标准那选择CVT减少消隐   然后问题解决.</span><br>
+<span>找到问题了,原来就是2K屏的75刷新.换到60后马上降下来..是农企的锅吗?</span><br>
+<span>599的盈通588矿渣到了，看着挺新的。</span><br>
+<span>gpuz和其他软件看过都是官方bios，tdp145w，其他猫腻暂时没看出什么。</span><br>
+<span>但问题来了，待机核心降到300，为什么显存一直保持2000的？我记得不是这样的啊。https://i.loli.net/2019/04/05/5ca75db4b32b2.jpghttps://i.loli.net/2019/04/05/5ca75e86cc60a.jpg</span><br>
+<span>找到问题了,原来就是2K屏的75刷新.换到60后马上降下来..是农企的锅吗?</span><br>
+</p><p><b>Radeon: </b><br>
+<span>你这矿渣肯定是改过bios了</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>拉了显存吧… bios 动手脚了</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1821768-1-2.html</span><br>
+<span>联动</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>決戦型美羽 发表于 2019-4-5 21:58</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1821768-1-2.html</span><br>
+<span>联动</span><br>
+<span>这个我看过，可他是3屏我只有一个2K屏。</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-5 21:57</span><br>
+<span>拉了显存吧… bios 动手脚了</span><br>
+<span>有办法刷回原bios方法吗</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>反正rx580驱动 没有签名验证,无法看bios是否改过.</span><br>
+<span>你用PolarisBiosEditor看看bios吧</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>萝卜roto 发表于 2019-4-5 22:02</span><br>
+<span>有办法刷回原bios方法吗</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>没用过这几代 a 卡，具体操作我不是很清楚</span><br>
+<span>找到官方 bios 先刷回去看看显存频率会不会降？</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>你好，不是</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oskneo: </b><br>
+<span>萝卜roto 发表于 2019-4-5 22:02</span><br>
+<span>有办法刷回原bios方法吗</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>atiflash，偶也是刚买了矿渣570，而且更严重，不刷bios无法装驱动</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>albertfu: </b><br>
+<span>刷回去吧，显存待机应该只有150MHz之类的</span><br>
+</p><p><b>烟萝: </b><br>
+<span>超白金 588 </span><br>
+<span>刷bios教程：https://jingyan.baidu.com/article/ca2d939d7e2d1eeb6d31ce56.html</span><br>
+<span>做好的bios:http://tieba.baidu.com/p/5918675176</span><br>
+<span>1080P 单屏幕待机，两个都是300</span><br>
+<span>4K 单屏幕待机核心 300左右   显存 1000 和300 来回跳 </span><br>
+<span>双屏4K + 1080显存会直接顶满。 核心750。</span><br>
+<span>给588的人参考。。</span><br>
+</p><p><b>izthr: </b><br>
+<span>随手看了一下我的590，不打游戏一直400MHz，你这是出了什么问题吧。。</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>烟萝 发表于 2019-4-6 09:29</span><br>
+<span>超白金 588 </span><br>
+<span>刷bios教程：https://jingyan.baidu.com/article/ca2d939d7e2d1eeb6d31ce56.html</span><br>
+<span>做好的bios:...</span><br>
+<span>感谢,这两帖子我搜过.但没把握不知是否正确.</span><br>
+<span>我这个是镁光片,不同片之间听说不能刷.</span><br>
+</p><p><b>烟萝: </b><br>
+<span>萝卜roto 发表于 2019-4-6 18:11</span><br>
+<span>感谢,这两帖子我搜过.但没把握不知是否正确.</span><br>
+<span>我这个是镁光片,不同片之间听说不能刷. ...</span><br>
+<span>第二个链接里面是官方的出场BIOS，肯定没问题。</span><br>
+<span>超频的就得专门找镁光的了。</span><br>
+<span>然后超白金588 要用   atiflash_284(win10.1803)，低版本的刷不了。</span><br>
+<span>其他的就自己研究吧。</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>楼里讨论的什么结果，也就是说这个600块的588是坏的？我的二手垃圾588还没看过</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>烟萝 发表于 2019-4-6 18:24</span><br>
+<span>第二个链接里面是官方的出场BIOS，肯定没问题。</span><br>
+<span>超频的就得专门找镁光的了。</span><br>
+<span>切记，这个只支持海力士和三星的显存的BIOS</span><br>
+<span>Memory Support 8192 MB, GDDR5, </span><br>
+<span>Autodetect 8192 MB, </span><br>
+<span>GDDR5, Samsung K4G80325FB 8192 MB, </span><br>
+<span>GDDR5, Hynix H5GQ8H24MJR</span><br>
+<span>我在下面看到这段话就害怕了.</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>七草真由美 发表于 2019-4-6 18:26</span><br>
+<span>楼里讨论的什么结果，也就是说这个600块的588是坏的？我的二手垃圾588还没看过 ...</span><br>
+<span>现在还不知道,暂时来说玩游戏特效全开100%耗着还没花瓶..</span><br>
+</p><p><b>烟萝: </b><br>
+<span>萝卜roto 发表于 2019-4-6 18:32</span><br>
+<span>现在还不知道,暂时来说玩游戏特效全开100%耗着还没花瓶..</span><br>
+<span>我是最近开始偶尔黑屏，双屏切全屏会卡。</span><br>
+<span>等等开始刷BIOS的。</span><br>
+<span>换回了官方的BIOS，用了一天，没有任何问题，感觉还可以。</span><br>
+<span>不过双屏一直是满载2000显存，隔壁帖子好像有个办法，你看看。</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>烟萝 发表于 2019-4-6 18:50</span><br>
+<span>我是最近开始偶尔黑屏，双屏切全屏会卡。</span><br>
+<span>等等开始刷BIOS的。</span><br>
+<span>我刚刚在贴吧找了一个人家放出来的盈通原厂BIOS.</span><br>
+<span>对比一下原卡的,数值一摸一样</span><br>
+<span>另外感谢,我去隔壁看下.</span><br>
+</p><p><b>七草真由美: </b><br>
+<span> 本帖最后由 七草真由美 于 2019-4-6 19:02 编辑 </span><br>
+<span>我看了下，我这个正常的</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>七草真由美 发表于 2019-4-6 18:57</span><br>
+<span>我看了下，我这个正常的</span><br>
+<span>求问你的什么三星还是镁光的片?有空发个BIOS不?</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>萝卜roto 发表于 2019-4-6 19:27</span><br>
+<span>求问你的什么三星还是镁光的片?有空发个BIOS不?</span><br>
+<span>这个有通用bios</span><br>
+<span>http://www.smxdiy.com/forum.php?mod=viewthread&tid=1079</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>塔奇克马 发表于 2019-4-6 19:30</span><br>
+<span>这个有通用bios</span><br>
+<span>http://www.smxdiy.com/forum.php?mod=viewthread&tid=1079</span><br>
+<span>搞不了,怎么刷显存频率依然是保持最高..右下角也改好3档频率了.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>萝卜roto 发表于 2019-4-6 20:50</span><br>
+<span>搞不了,怎么刷显存频率依然是保持最高..右下角也改好3档频率了.</span><br>
+<span>通刷bios不用改,要是源bios没改过就不是bios的问题.</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>你的卡是咸鱼买的吗？搞不定退货别浪费时间</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>七草真由美 发表于 2019-4-6 21:28</span><br>
+<span>你的卡是咸鱼买的吗？搞不定退货别浪费时间</span><br>
+<span>已经找到问题所在了,不知是不是驱动BUG.最新的19.4</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>找到解决办法了.</span><br>
+<span>在驱动设置-显示器-自定义分辨率-在时序标准那选择CVT减少消隐   然后问题解决.</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>降低消隐期,其实就降低了内存的数据吞吐量.</span><br>
+<span>像我2500U外接2K 144Hz显示器</span><br>
+<span>内存频率一直是最高的933MHz了</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gbo1t4yo28j20hp0pewgd.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gbo1t4yo28j20hp0pewgd.jpg"><br>
+</p><p><b>萝卜roto: </b><br>
+<span>zmw_831110 发表于 2020-2-7 19:12</span><br>
+<span>降低消隐期,其实就降低了内存的数据吞吐量.</span><br>
+<span>像我2500U外接2K 144Hz显示器</span><br>
+<span>内存频率一直是最高的933MHz了</span><br>
+<span>那么,改为这个除了显存频率降低了其他有什么坏处吗?</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>萝卜roto 发表于 2020-2-8 00:33</span><br>
+<span>那么,改为这个除了显存频率降低了其他有什么坏处吗?</span><br>
+<span>消隐期的设计,原本就是为了模拟CRT设计的时候做的.</span><br>
+<span>后来,消隐期用来做HDMI的音频数据插入使用(分时复用信道)</span><br>
+<span>对LCD来说,消隐期其实是没有原本的意义了.只要显示器和显卡能支持,没什么坏处.</span><br>
+</p><p><b>ftdtyzst: </b><br>
+<span>我是双显示屏就自动拉满2000 单显示屏300</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822166[0-50]</guid>
+    </item>
+  </channel>
+</rss>

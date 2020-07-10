@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>nas求助openmediavault设置iSCSI</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>nas求助openmediavault设置iSCSI</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:37 +0000</lastBuildDate>
+    <item>
+      <title>nas求助openmediavault设置iSCSI[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945488-1-1.html</link>
+      <description>nas求助openmediavault设置iSCSI&#13;
+openmediavault5.版本，搜了一圈没发现怎么设置iSCSI，有谁能指导下吗？谢谢了🙏</description>
+      <content:encoded><![CDATA[<p><b>flmu: </b><br>
+<span>nas求助openmediavault设置iSCSI</span><br>
+<span>openmediavault5.版本，搜了一圈没发现怎么设置iSCSI，有谁能指导下吗？谢谢了🙏</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2020-7-3 03:02 编辑 </span><br>
+<span>装第三方omv-extras.org插件</span><br>
+<span>看看tgt那个是不是</span><br>
+<span>反正我不会用,建议自己研究.如果不是那就没有了.自己linux命令行搞定吧.</span><br>
+</p><p><b>KnightHart: </b><br>
+<span> 本帖最后由 KnightHart 于 2020-7-3 12:46 编辑 </span><br>
+<span>具体做法</span><br>
+<span>1.安装omv iscsi tgt插件</span><br>
+<span>2.在插件设置列表添加一块磁盘镜像（image），容量自己设定</span><br>
+<span>3.在客户端设置列表（targets）添加连接到iscsi服务端的机器IP，和要连接的是哪一块磁盘镜像</span><br>
+<span>4.在Windows下搜索iscsi设置，连接到这块磁盘镜像</span><br>
+<span>5.格式化磁盘镜像，开始使用</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945488[0-50]</guid>
+    </item>
+  </channel>
+</rss>

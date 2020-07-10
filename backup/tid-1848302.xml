@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[超能力贴归外野]C语言进一步学习用啥教材</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[超能力贴归外野]C语言进一步学习用啥教材</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:51:33 +0000</lastBuildDate>
+    <item>
+      <title>[超能力贴归外野]C语言进一步学习用啥教材[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848302-1-1.html</link>
+      <description>[超能力贴归外野]C语言进一步学习用啥教材&#13;
+至于为啥叫进一步学习…楼主现在已经学过C,Python,Ruby,JS（网课或者老师教过），小的程序也写过一点，但是最近想学有关二进制安全的方向，学长告诉我C的能力得有，但我属于只会个基本语法的层次也不光是为了学pwn吧，想锻炼写C的代码的能力，各位大哥有什么书/文章/网课/网站推荐的吗？</description>
+      <content:encoded><![CDATA[<p><b>Smile_D_up: </b><br>
+<span>[超能力贴归外野]C语言进一步学习用啥教材</span><br>
+<span>至于为啥叫进一步学习…楼主现在已经学过C,Python,Ruby,JS（网课或者老师教过），小的程序也写过一点，但是最近想学有关二进制安全的方向，学长告诉我C的能力得有，但我属于只会个基本语法的层次也不光是为了学pwn吧，想锻炼写C的代码的能力，各位大哥有什么书/文章/网课/网站推荐的吗？</span><br>
+</p><p><b>lee0709: </b><br>
+<span>csapp看三遍，不是我说的，公开课上作者说的</span><br>
+<span>----发送自 Xiaomi MI MAX,Android 7.0</span><br>
+</p><p><b>the_ripples: </b><br>
+<span>深入理解计算机系统，一些代码量较少的开源库像redis、libevent之类的</span><br>
+</p><p><b>yenvy: </b><br>
+<span>锻炼不就是多写多看吗，redis/sqlite什么的</span><br>
+</p><p><b>Damenly: </b><br>
+<span>CSAPP + 1</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-7-22 09:21 编辑 </span><br>
+<span>二进制安全用c主要就是用指针，函数指针之类</span><br>
+<span>比如劫持系统调用，比如修改函数在内存里的代码，要修改代码，你要知道函数内存的位置，加载别的库的函数就是先求库加载在内存的相对位置，然后算之类</span><br>
+<span>这些与其说和c相关，不如说和操作系统相关……csapp里有一部分，链接器的部分看程序员的自我修养吧，linux的部分有很多书讲原理讲代码的都有用就不说了</span><br>
+<span>除了这些涉及内存需要用指针的东西之外大部分工作用别的语言都行，不用纠结于C，都是操作系统相关的东西</span><br>
+<span>你要练写C本身的技术，那也就是C的一些套路，用指针做面向对象之类，剩下的都是纯代码能力，和语言无关的</span><br>
+</p><p><b>widder: </b><br>
+<span>c语言进一步学习就是学操作系统</span><br>
+<span>不想其他语言自带一堆库就够你学得了，c语言全靠第三方</span><br>
+</p><p><b>chnyang: </b><br>
+<span>apue</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>jctc: </b><br>
+<span>TCPL</span><br>
+<span>Expert C Programming</span><br>
+<span>C and pointer</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848302[0-50]</guid>
+    </item>
+  </channel>
+</rss>

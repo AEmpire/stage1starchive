@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>（已解决）裂开了，新硬盘不支持，在线等急</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>（已解决）裂开了，新硬盘不支持，在线等急</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:37:47 +0000</lastBuildDate>
+    <item>
+      <title>（已解决）裂开了，新硬盘不支持，在线等急[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917994-1-1.html</link>
+      <description>（已解决）裂开了，新硬盘不支持，在线等急&#13;
+ 本帖最后由 tojoaya 于 2020-3-10 21:59 编辑 
+
+新买了个2t硬盘，然后发现无法同时支持是为啥，装好开机，一块老硬盘没了
+
+然后拔了新硬盘，老硬盘又有了
+
+最多只支持3个硬盘是为啥，主板是华硕p8h77</description>
+      <content:encoded><![CDATA[<p><b>tojoaya: </b><br>
+<span>（已解决）裂开了，新硬盘不支持，在线等急</span><br>
+<span> 本帖最后由 tojoaya 于 2020-3-10 21:59 编辑 </span><br>
+<span>新买了个2t硬盘，然后发现无法同时支持是为啥，装好开机，一块老硬盘没了</span><br>
+<span>然后拔了新硬盘，老硬盘又有了</span><br>
+<span>最多只支持3个硬盘是为啥，主板是华硕p8h77</span><br>
+</p><p><b>nlesslin: </b><br>
+<span>换换插槽，很多主板sata3和sata2共用通道。</span><br>
+</p><p><b>violind88: </b><br>
+<span>看下说明书sata口有什么讲究吧 查了下你这块板好像就2个sata3 不看名字后缀也不太好查</span><br>
+</p><p><b>两个路人: </b><br>
+<span>BIOS里看的？供电正常？</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>电源老化了</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>磁盘没了是指bios里没了？还是磁盘管理中没了？还是资源管理器中没了？</span><br>
+</p><p><b>cosx: </b><br>
+<span>我只知道nvme会占个位置</span><br>
+</p><p><b>BT有理: </b><br>
+<span>我用技嘉H77板2个SATA3，3个SATA2都插满了也没见冲突呀</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>我华硕b450m 总共有6个sata接口，但是每插一个m. 2ssd就会屏蔽两个sata口，所以实际上只能插2个机械硬盘，最后没办法加了个pcie扩展卡。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>King5268: </b><br>
+<span>夜留歌 发表于 2020-3-10 17:32</span><br>
+<span>我华硕b450m 总共有6个sata接口，但是每插一个m. 2ssd就会屏蔽两个sata口，所以实际上只能插2个机械硬盘， ...</span><br>
+<span>还有这操作啊，我一直以为m2的带宽是从pcie那里搞来的</span><br>
+</p><p><b>startraveller: </b><br>
+<span>H77哪来的M2</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>不至于吧，sata位冲突就不该设置多个sata位呀 </span><br>
+</p><p><b>两个路人: </b><br>
+<span>King5268 发表于 2020-3-10 17:55</span><br>
+<span>还有这操作啊，我一直以为m2的带宽是从pcie那里搞来的</span><br>
+<span>农企B450就是这个尿性啊，所以我很羡慕隔壁H270马甲来的B365有俩完整M2支持</span><br>
+</p><p><b>ftfkjb: </b><br>
+<span>把硬盘屁股处数据线旁边的有针的小口上插的塑料块拔掉。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>你老硬盘多大的？支持2T硬盘需要GPT UEFI和64位系统三者都有</span><br>
+</p><p><b>tojoaya: </b><br>
+<span>事实证明，重启接近90%问题</span><br>
+</p><p><b>tojoaya: </b><br>
+<span>madbird302 发表于 2020-3-10 18:46</span><br>
+<span>你老硬盘多大的？支持2T硬盘需要GPT UEFI和64位系统三者都有</span><br>
+<span>一块1t一块2t的老硬盘，一块250ssd也是前一段才买的，最近下东西太多就买了块2t的绿盘，才300多挺便宜</span><br>
+</p><p><b>tojoaya: </b><br>
+<span>hftrrt 发表于 2020-3-10 14:13</span><br>
+<span>磁盘没了是指bios里没了？还是磁盘管理中没了？还是资源管理器中没了？</span><br>
+<span>一开始，bios，资源管理器，磁盘管理都没，一块老的1t没了，但是重启几遍就好了，不知什么玄学故障</span><br>
+</p><p><b>tojoaya: </b><br>
+<span>强尼高达 发表于 2020-3-9 21:19</span><br>
+<span>电源老化了</span><br>
+<span>这个感觉走很大可能，除了显卡别的大件都是五六年前一次性换的了</span><br>
+</p><p><b>elflie: </b><br>
+<span>King5268 发表于 2020-3-10 17:55</span><br>
+<span>还有这操作啊，我一直以为m2的带宽是从pcie那里搞来的</span><br>
+<span>除了显卡，大部分pcie也是从南桥出来的啊，硬盘也是直通南桥的</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>bios认不到，不是sata线的问题，就是电源问题，垃圾电源半年搞坏我2块硬盘</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917994[0-50]</guid>
+    </item>
+  </channel>
+</rss>

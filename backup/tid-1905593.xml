@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Google 将仅允许使用 OAuth 访问账户，引开发者不满</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Google 将仅允许使用 OAuth 访问账户，引开发者不满</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:07:42 +0000</lastBuildDate>
+    <item>
+      <title>Google 将仅允许使用 OAuth 访问账户，引开发者不满[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905593-1-1.html</link>
+      <description>Google 将仅允许使用 OAuth 访问账户，引开发者不满&#13;
+Google 宣布，从 2021 年 2 月 15 日开始，G Suite 帐户将仅允许使用 OAuth 访问应用程序。从开发者们收到的邮件来看，Google 此举在于“保护 Google 帐户的安全性”。邮件中提到，Google 将关闭对安全性较低的应用（LSA）的访问权限，这些非 Google 应用目前仅使用用户名和密码就可以访问 Google 账户，无需更多验证步骤，因而更容易遭受攻击。
+&#13;
+      因此，Google 将分两个阶段来关闭这类应用程序的访问。到 2020 年 6 月 15 日，首次尝试连接 LSA 的用户将无法再连接；2021 年 2 月 15 日，所有 G Suite 帐户都将无法使用 LSA 应用进行访问。https://oscimg.oschina.net/oscnet/up-8bcb0a85f63233883c1d3152b3b719182d2.png开源邮箱客户端 FreeScout 的开发者发文表示不满。他指出，“无法使用标准 PHP IMAP 扩展名通过 OAuth 连接到 Gmail，因为 imap_open 函数不支持 Google SASL XOAUTH2 协议建议的功能。这意味着所有使用标准 PHP IMAP 功能的 PHP 项目都需要重新设计，以使用能够运用 Google IMAP OAuth 算法的 Zend Mail 库。”
+&#13;
+PHP IMAP 是用 C 编写的标准扩展，它快速而可靠。但 Zend Mail 和 PHP IMAP 不兼容。对于某些项目，这将导致数月的开发、调试和 bug 修复。FreeScout 开发者表示，他们在项目初始时特意选择了 PHP IMAP，以使应用程序更快运行，但是现在 Google 使得 PHP IMAP 扩展被迫停止。
+&#13;
+使用标准 PHP IMAP 的软件包成千上万，下载量更是不计其数，这些软件包都将无法通过 IMAP 连接到 G_Suite Gmail 帐户，这将带来极大的影响。
+&#13;
+FreeScout 开发者提出疑问：“届时对 G Suite 的 IMAP 请求都将通过 OAuth 发出，为什么 Google 不只允许将 OAuth 令牌作为 IMAP 密码传递？这样一来，所有现有的 IMAP 库将可以继续运行。”
+&#13;
+“当可以在标准 IMAP 认证中实现目标时，为什么要重复造轮子并迫使全世界使用 SASL XOAUTH2 协议？”
+&#13;
+他认为，Google 要做的就是在 G Suite 帐户的 IMAP 密码中接收 OAuth 令牌即可。这是非常简单且合乎逻辑的优雅解决方案，不会给开发人员带来过多麻烦。 Google 甚至可以继续使用 SASL XOAUTH2。
+&#13;
+https://oscimg.oschina.net/oscnet/up-c15df835b60eb6ca04be5317a7a7c4e291c.png
+&#13;
+为此，FreeScout 团队向 Google 提出了Issue，不过目前还未得到 Google 的回应。
+&#13;
+有网友回复说，“这不是在发展，也不是创新。这是在强制采用一种标准，而放弃了对另一种工具（IMAP 库）的支持。”从评论中来看，大多数开发者都对 Google 的做法表示不支持，有人将其解读为垄断：“他们正在做的是强制垄断，同时希望一堆开发人员能够给他们免费的劳动力。”
+&#13;
+原帖地址：https://medium.com/@freescout/google-forces-developers-to-stop-using-php-imap-extension-ea935feb1770    </description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>Google 将仅允许使用 OAuth 访问账户，引开发者不满</span><br>
+<span>Google 宣布，从 2021 年 2 月 15 日开始，G Suite 帐户将仅允许使用 OAuth 访问应用程序。从开发者们收到的邮件来看，Google 此举在于“保护 Google 帐户的安全性”。邮件中提到，Google 将关闭对安全性较低的应用（LSA）的访问权限，这些非 Google 应用目前仅使用用户名和密码就可以访问 Google 账户，无需更多验证步骤，因而更容易遭受攻击。</span><br>
+<span>      因此，Google 将分两个阶段来关闭这类应用程序的访问。到 2020 年 6 月 15 日，首次尝试连接 LSA 的用户将无法再连接；2021 年 2 月 15 日，所有 G Suite 帐户都将无法使用 LSA 应用进行访问。https://oscimg.oschina.net/oscnet/up-8bcb0a85f63233883c1d3152b3b719182d2.png开源邮箱客户端 FreeScout 的开发者发文表示不满。他指出，“无法使用标准 PHP IMAP 扩展名通过 OAuth 连接到 Gmail，因为 imap_open 函数不支持 Google SASL XOAUTH2 协议建议的功能。这意味着所有使用标准 PHP IMAP 功能的 PHP 项目都需要重新设计，以使用能够运用 Google IMAP OAuth 算法的 Zend Mail 库。”</span><br>
+<span>PHP IMAP 是用 C 编写的标准扩展，它快速而可靠。但 Zend Mail 和 PHP IMAP 不兼容。对于某些项目，这将导致数月的开发、调试和 bug 修复。FreeScout 开发者表示，他们在项目初始时特意选择了 PHP IMAP，以使应用程序更快运行，但是现在 Google 使得 PHP IMAP 扩展被迫停止。</span><br>
+<span>使用标准 PHP IMAP 的软件包成千上万，下载量更是不计其数，这些软件包都将无法通过 IMAP 连接到 G_Suite Gmail 帐户，这将带来极大的影响。</span><br>
+<span>FreeScout 开发者提出疑问：“届时对 G Suite 的 IMAP 请求都将通过 OAuth 发出，为什么 Google 不只允许将 OAuth 令牌作为 IMAP 密码传递？这样一来，所有现有的 IMAP 库将可以继续运行。”</span><br>
+<span>“当可以在标准 IMAP 认证中实现目标时，为什么要重复造轮子并迫使全世界使用 SASL XOAUTH2 协议？”</span><br>
+<span>他认为，Google 要做的就是在 G Suite 帐户的 IMAP 密码中接收 OAuth 令牌即可。这是非常简单且合乎逻辑的优雅解决方案，不会给开发人员带来过多麻烦。 Google 甚至可以继续使用 SASL XOAUTH2。</span><br>
+<img src="https://oscimg.oschina.net/oscnet/up-c15df835b60eb6ca04be5317a7a7c4e291c.png" title="https://oscimg.oschina.net/oscnet/up-c15df835b60eb6ca04be5317a7a7c4e291c.png"><br>
+<span>为此，FreeScout 团队向 Google 提出了Issue，不过目前还未得到 Google 的回应。</span><br>
+<span>有网友回复说，“这不是在发展，也不是创新。这是在强制采用一种标准，而放弃了对另一种工具（IMAP 库）的支持。”从评论中来看，大多数开发者都对 Google 的做法表示不支持，有人将其解读为垄断：“他们正在做的是强制垄断，同时希望一堆开发人员能够给他们免费的劳动力。”</span><br>
+<span>原帖地址：https://medium.com/@freescout/google-forces-developers-to-stop-using-php-imap-extension-ea935feb1770    </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905593[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>DOS游戏加速问题求教。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>DOS游戏加速问题求教。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:50:31 +0000</lastBuildDate>
+    <item>
+      <title>DOS游戏加速问题求教。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858023-1-1.html</link>
+      <description>DOS游戏加速问题求教。&#13;
+ 本帖最后由 nukejoker 于 2019-10-5 22:18 编辑 
+
+国庆前下单的UCG光荣专辑到了。于是今天一整天都在折腾dos版大航海时代2。结果遇到了一个比较难搞的问题。
+&#13;
+我当年接触到大航海2的时候比较晚，是在2000年初，电脑已经更新换代了一轮。CPU基本是奔腾2/3的时代。系统在98或者ME之间。dos游戏也是直接可以运行的。
+&#13;
+所以那时候接触到的大航海2的貌似是因为CPU超频的原因，应该是加速情况下的游戏，实际体验就是非常行云流水的操作。
+&#13;
+而如今dosbox下的大航海时代2运行起来是原始速度，运行下来那叫一个节奏迟缓。行走慢，交互慢，航海慢，甚至是对话框都感觉是拖慢的。
+&#13;
+用如今玩家能以理解的帧数来说的话，如果当初我的游戏体验是帧数120的话，现在的dosbox版的大航海2的速度只有24帧。
+&#13;
+实测了几个游戏，凡是有即时要素的游戏比如波斯战记IV，模拟城市2000都有这样的感觉。dosbox模拟下来都有一种生涩感。但按理说dosbox已经是相当完美和成熟的了。
+&#13;
+甚至我自己都怀疑当初玩dos游戏行云流水的感觉会不会只是一种记忆美化带来的错觉？
+&#13;
+已经试过了dosbox本身cpu调节，跳帧，变速齿轮。都没什么效果。还不行我只能明天捣鼓虚拟机了。
+&#13;
+问问S1有没有同样玩dos游戏的玩家遇到类似问题，或者和我有相同体验的玩家有什么好的解决办法。</description>
+      <content:encoded><![CDATA[<p><b>nukejoker: </b><br>
+<span>DOS游戏加速问题求教。</span><br>
+<span> 本帖最后由 nukejoker 于 2019-10-5 22:18 编辑 </span><br>
+<span>国庆前下单的UCG光荣专辑到了。于是今天一整天都在折腾dos版大航海时代2。结果遇到了一个比较难搞的问题。</span><br>
+<span>我当年接触到大航海2的时候比较晚，是在2000年初，电脑已经更新换代了一轮。CPU基本是奔腾2/3的时代。系统在98或者ME之间。dos游戏也是直接可以运行的。</span><br>
+<span>所以那时候接触到的大航海2的貌似是因为CPU超频的原因，应该是加速情况下的游戏，实际体验就是非常行云流水的操作。</span><br>
+<span>而如今dosbox下的大航海时代2运行起来是原始速度，运行下来那叫一个节奏迟缓。行走慢，交互慢，航海慢，甚至是对话框都感觉是拖慢的。</span><br>
+<span>用如今玩家能以理解的帧数来说的话，如果当初我的游戏体验是帧数120的话，现在的dosbox版的大航海2的速度只有24帧。</span><br>
+<span>实测了几个游戏，凡是有即时要素的游戏比如波斯战记IV，模拟城市2000都有这样的感觉。dosbox模拟下来都有一种生涩感。但按理说dosbox已经是相当完美和成熟的了。</span><br>
+<span>甚至我自己都怀疑当初玩dos游戏行云流水的感觉会不会只是一种记忆美化带来的错觉？</span><br>
+<span>已经试过了dosbox本身cpu调节，跳帧，变速齿轮。都没什么效果。还不行我只能明天捣鼓虚拟机了。</span><br>
+<span>问问S1有没有同样玩dos游戏的玩家遇到类似问题，或者和我有相同体验的玩家有什么好的解决办法。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>把cycles设成max试试？cycles=max</span><br>
+<span>很多游戏是增加频率也不会变快的，90年代大多游戏都不再运行在实模式下了，内部计时器也一般都考虑了CPU频率问题。不过cycles=max应该能缓解对话框拖慢之类感觉。</span><br>
+<span>PC版大2操作是有点别扭，实在不行可以玩MD版</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858023[0-50]</guid>
+    </item>
+  </channel>
+</rss>

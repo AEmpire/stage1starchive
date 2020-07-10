@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>硬盘底座支持热插拔的条件是啥</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>硬盘底座支持热插拔的条件是啥</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:04:55 +0000</lastBuildDate>
+    <item>
+      <title>硬盘底座支持热插拔的条件是啥[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865199-1-1.html</link>
+      <description>硬盘底座支持热插拔的条件是啥&#13;
+今天第一次尝试热插拔硬盘USB3.0的硬盘底座竟然像U盘一样可以直接识别 不需要重启电脑= =
+&#13;
+热插拔是和硬盘底座有关 还是和系统有关？</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>硬盘底座支持热插拔的条件是啥</span><br>
+<span>今天第一次尝试热插拔硬盘USB3.0的硬盘底座竟然像U盘一样可以直接识别 不需要重启电脑= =</span><br>
+<span>热插拔是和硬盘底座有关 还是和系统有关？</span><br>
+</p><p><b>騜: </b><br>
+<span>BIOS里面打开热拔插就可以识别啊</span><br>
+<span>只是热拔插的时候注意不要有数据读取就行了 我一般选择在磁盘管理里面把那个磁盘脱机再拔，下次插上了磁盘管理再联机就能识别</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>騜 发表于 2019-11-12 15:05</span><br>
+<span>BIOS里面打开热拔插就可以识别啊</span><br>
+<span>只是热拔插的时候注意不要有数据读取就行了 我一般选择在磁盘管理里面把 ...</span><br>
+<span>……你看清LZ用的啥……</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>你是把磁盤變成了USB設備，只針對你的問題：必須和硬盤座有關，系統是決定了你挂載和卸載的方便程度</span><br>
+</p><p><b>騜: </b><br>
+<span>宅男的爱 发表于 2019-11-12 15:47</span><br>
+<span>……你看清LZ用的啥……</span><br>
+<span>看花眼了。。。。我之前是硬盘笼直接拔插的所以开bios里面sata热拔插选项就行</span><br>
+</p><p><b>沙恩: </b><br>
+<span>这个热拔插是热拔插了硬盘还是硬盘底座</span><br>
+<span>热拔插硬盘的话还是尽量别把 至少把底座拔了过几秒再动硬盘</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>沙恩 发表于 2019-11-12 16:05</span><br>
+<span>这个热拔插是热拔插了硬盘还是硬盘底座</span><br>
+<span>热拔插硬盘的话还是尽量别把 至少把底座拔了过几秒再动硬盘 ...</span><br>
+<span>当然是热插拔硬盘底座有啥好插拔的 就是个USB设备</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>观铃の使魔 发表于 2019-11-12 16:09</span><br>
+<span>当然是热插拔硬盘底座有啥好插拔的 就是个USB设备</span><br>
+<span>……………………</span><br>
+<span>朋友你有点猛啊……</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>宅男的爱 发表于 2019-11-12 15:49</span><br>
+<span>你是把磁盤變成了USB設備，只針對你的問題：必須和硬盤座有關，系統是決定了你挂載和卸載的方便程度 ...</span><br>
+<span>这样啊 </span><br>
+<span>问这个 就是因为之前好像哪里看到过 不是所有的硬盘底座都支持热插拔      看来还是和底座关系大</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>宅男的爱 发表于 2019-11-12 16:09</span><br>
+<span>……………………</span><br>
+<span>朋友你有点猛啊……</span><br>
+<span>咋啦   我说的就是USB3.0硬盘底座开启链接到PC</span><br>
+<span>我在硬盘底座开启的状态下    底座插入硬盘系统就直接识别了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>观铃の使魔 发表于 2019-11-12 16:13</span><br>
+<span>咋啦   我说的就是USB3.0硬盘底座开启链接到PC</span><br>
+<span>我在硬盘底座开启的状态下    底座插入硬盘系统就直 ...</span><br>
+<span>SATA口从结构到协议都是支持热拔插的，说难听点这是【硬盘支持的】</span><br>
+<span>但是，拔插必须保证直进直出——不然容易短路——你可以参考一下哪怕是星际蜗牛那种超低端热拔插硬盘座，那个拉扣+导轨，就是干这个用的</span><br>
+<span>市面上说难听点，99%（除Century个别型号外）的产品（尤其是Orico）都没有这个结构，就是靠手，所以不建议这么干</span><br>
+</p><p><b>xeseed: </b><br>
+<span>你买的啥牌的底座啊？</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>xeseed 发表于 2019-11-12 16:37</span><br>
+<span>你买的啥牌的底座啊？</span><br>
+<span>MAIWO K3082H </span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-11-12 17:18 编辑 </span><br>
+<span>一定要卸载，再拔，不卸载，即使pc关机，面包机也不是被卸载的状态，我关pc后，再关面包机，丢过数据</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1347471-0-1.html</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>拔usb，关电源，拔硬盘</span><br>
+</p><p><b>win8: </b><br>
+<span>宅男的爱 发表于 2019-11-12 16:33</span><br>
+<span>SATA口从结构到协议都是支持热拔插的，说难听点这是【硬盘支持的】</span><br>
+<span>但是，拔插必须保证直进直出——不然 ...</span><br>
+<span>艹我好像明白上次电脑为什么会主板挂了 power   esata口插的线可能没插正,短路烧主板了</span><br>
+</p><p><b>xeseed: </b><br>
+<span>观铃の使魔 发表于 2019-11-12 16:39</span><br>
+<span>MAIWO K3082H</span><br>
+<span>求问这2中的哪个好点啊？</span><br>
+<span>是绿连的好 https://item.jd.com/33218065796.html </span><br>
+<span>还是飚王的好啊？https://item.jd.com/100004877704.html</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865199[0-50]</guid>
+    </item>
+  </channel>
+</rss>

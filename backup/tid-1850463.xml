@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>菜鸟求问一个android studio问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>菜鸟求问一个android studio问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:38:05 +0000</lastBuildDate>
+    <item>
+      <title>菜鸟求问一个android studio问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850463-1-1.html</link>
+      <description>菜鸟求问一个android studio问题&#13;
+外野码农多，手上有一个照相功能和一个录音功能，想把两个整合在一起，变成一个app，不知道该咋弄，新手问问大家</description>
+      <content:encoded><![CDATA[<p><b>zounry: </b><br>
+<span>菜鸟求问一个android studio问题</span><br>
+<span>外野码农多，手上有一个照相功能和一个录音功能，想把两个整合在一起，变成一个app，不知道该咋弄，新手问问大家</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>"就差程序员了"</span><br>
+</p><p><b>a4425421: </b><br>
+<span>想问你手上有是有代码还是有安装包啊？ </span><br>
+</p><p><b>天地猫: </b><br>
+<span>查API就是，调用摄像头权限，录音权限，以及存储卡权限，不就好了.现在是个应用都有这些功能..</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span>我建议你打开自带相机调到录像模式....</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>不会写java还用什么android studio</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>西门无恨: </b><br>
+<span>2楼说得对</span><br>
+</p><p><b>Ton: </b><br>
+<span>先查怎么做照相功能，再查怎么做录音功能，然后合一起不就成了？</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>什么叫有一个录音功能有照相功能……</span><br>
+<span>这两玩意都是一个API的事……几行代码就有了</span><br>
+<span>还是两个app都分别有很多代码，那重新复制一下就行…………</span><br>
+<span>不过应该不是这么蠢的问题，是只有两个app的apk，然后要合到一起？</span><br>
+<span>intent就行了，如果要真的合成一个app而不是两个，最拍脑袋，插件化就行吧，好多方法</span><br>
+<span>https://www.jianshu.com/p/704cac3eb13d</span><br>
+<span>这个涉及到类加载器，但是demo也不麻烦</span><br>
+<span>但是安卓9不知道行不行…………</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850463[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>路由器只用lan口做内网交换，为什么会降到100mbps？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>路由器只用lan口做内网交换，为什么会降到100mbps？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:27:56 +0000</lastBuildDate>
+    <item>
+      <title>路由器只用lan口做内网交换，为什么会降到100mbps？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852086-1-1.html</link>
+      <description>路由器只用lan口做内网交换，为什么会降到100mbps？&#13;
+ 本帖最后由 中村隆太郎 于 2019-8-8 11:02 编辑 
+
+光猫——软路由（拨号）——路由器1（客厅）——路由器2（书房）
+&#13;
+两个路由器全是千兆口，线全部原装6类成品线
+&#13;
+因为路由器1在客厅，想保留的wifi功能，又不想多一层子网开dhcp导致路由性能损失，就关闭了路由器1的dhcp，不接wan口，只用lan口做内网交换。由软路由dhcp直接分配地址
+&#13;
+测试上网wifi正常，确实直接分配的软路由的dhcp地址，但是书房测试只有100mbps的速度，我家一直是250mbps宽带
+&#13;
+两个路由器互换也测了，只用lan口都只有100mbps测速。
+&#13;
+后来不接软路由，单独测了路由器的lan口内网交换性能，确实只有100mbps。明明都全是千兆口，不知道为什么会这样？有聚聚知道吗？</description>
+      <content:encoded><![CDATA[<p><b>中村隆太郎: </b><br>
+<span>路由器只用lan口做内网交换，为什么会降到100mbps？</span><br>
+<span> 本帖最后由 中村隆太郎 于 2019-8-8 11:02 编辑 </span><br>
+<span>光猫——软路由（拨号）——路由器1（客厅）——路由器2（书房）</span><br>
+<span>两个路由器全是千兆口，线全部原装6类成品线</span><br>
+<span>因为路由器1在客厅，想保留的wifi功能，又不想多一层子网开dhcp导致路由性能损失，就关闭了路由器1的dhcp，不接wan口，只用lan口做内网交换。由软路由dhcp直接分配地址</span><br>
+<span>测试上网wifi正常，确实直接分配的软路由的dhcp地址，但是书房测试只有100mbps的速度，我家一直是250mbps宽带</span><br>
+<span>两个路由器互换也测了，只用lan口都只有100mbps测速。</span><br>
+<span>后来不接软路由，单独测了路由器的lan口内网交换性能，确实只有100mbps。明明都全是千兆口，不知道为什么会这样？有聚聚知道吗？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>路由什么型号？</span><br>
+<span>是原来千兆突然掉到百兆？</span><br>
+</p><p><b>中村隆太郎: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-8 10:32</span><br>
+<span>路由什么型号？</span><br>
+<span>是原来千兆突然掉到百兆？</span><br>
+<span>一个TL-WDR6500千兆版</span><br>
+<span>一个TL-WDR8620千兆版</span><br>
+<span>家里是200mbps合约带宽，如果全接路由器lan口当交换机用，speednet测速只有90mbps左右</span><br>
+<span>如果软路由lan口接路由器wan口，开启dhcp组子网，那又恢复到180mbps左右网速。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>电脑网卡是千兆的么。。。</span><br>
+<span>—— 来自 samsung SM-G9500, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>先确认一下协商速度是不是千兆？</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852086[0-50]</guid>
+    </item>
+  </channel>
+</rss>

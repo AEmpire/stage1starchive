@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>wsl2Y有人踩雷了吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>wsl2Y有人踩雷了吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:39:28 +0000</lastBuildDate>
+    <item>
+      <title>wsl2Y有人踩雷了吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840724-1-1.html</link>
+      <description>wsl2Y有人踩雷了吗&#13;
+微软今天发布了 Windows 10 build 18917 Insider 版本，其中最引人关注的是内核采用 Linux 重构的 WSL 2（Windows Subsystem for Linux）现在已经可用。
+&#13;
+https://static.oschina.net/uploads/space/2019/0613/155845_dIyg_2720166.gif
+&#13;
+WSL 2 是上个月微软在 Build 2019 上宣布推出的，相比第一代，新的 WSL 重新设计了架构，使用真正的 Linux 内核，可以在 Windows 上运行 ELF64 Linux 二进制文件。
+&#13;
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
+&#13;
+To install and start using WSL 2 complete the following steps:
+&#13;
+[*]Enable the 'Virtual Machine Platform' optional component
+&#13;
+[*]Set a distro to be backed by WSL 2 using the command line
+&#13;
+[*]Verify what versions of WSL your distros are using
+&#13;
+Please note that you'll need to be running Windows 10 build 18917 or higher to use WSL 2, and that you will need to have WSL already installed (you can find instructions to do so here).
+&#13;
+Enable the 'Virtual Machine Platform' optional componentOpen PowerShell as an Administrator and run:
+&#13;
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+&#13;
+After these changes are enabled you will need to restart your computer.
+&#13;
+Set a distro to be backed by WSL 2 using the command lineIn PowerShell run:
+&#13;
+wsl --set-version &lt;Distro&gt; 2
+&#13;
+and make sure to replace &lt;Distro&gt; with the actual name of your distro. (You can find these with the command: wsl -l). You can change back to WSL 1 at anytime by running the same command as above but replacing the '2' with a '1'.
+&#13;
+Additionally, if you want to make WSL 2 your default architecture you can do so with this command:
+&#13;
+wsl --set-default-version 2
+&#13;
+This will make any new distro that you install be initialized as a WSL 2 distro.
+&#13;
+Finish with verifying what versions of WSL your distro are usingTo verify what versions of WSL each distro is using use the following command:
+&#13;
+wsl --list --verbose or wsl -l -v
+&#13;
+The distro that you've chosen above should now display a '2' under the 'version' column. Now that you're finished feel free to start using your WSL 2 distro!</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>wsl2Y有人踩雷了吗</span><br>
+<span>微软今天发布了 Windows 10 build 18917 Insider 版本，其中最引人关注的是内核采用 Linux 重构的 WSL 2（Windows Subsystem for Linux）现在已经可用。</span><br>
+<img src="https://static.oschina.net/uploads/space/2019/0613/155845_dIyg_2720166.gif" title="https://static.oschina.net/uploads/space/2019/0613/155845_dIyg_2720166.gif"><br>
+<span>WSL 2 是上个月微软在 Build 2019 上宣布推出的，相比第一代，新的 WSL 重新设计了架构，使用真正的 Linux 内核，可以在 Windows 上运行 ELF64 Linux 二进制文件。</span><br>
+<span>https://docs.microsoft.com/en-us/windows/wsl/wsl2-install</span><br>
+<span>To install and start using WSL 2 complete the following steps:</span><br>
+<span>[*]Enable the 'Virtual Machine Platform' optional component</span><br>
+<span>[*]Set a distro to be backed by WSL 2 using the command line</span><br>
+<span>[*]Verify what versions of WSL your distros are using</span><br>
+<span>Please note that you'll need to be running Windows 10 build 18917 or higher to use WSL 2, and that you will need to have WSL already installed (you can find instructions to do so here).</span><br>
+<span>Enable the 'Virtual Machine Platform' optional componentOpen PowerShell as an Administrator and run:</span><br>
+<span>Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform</span><br>
+<span>After these changes are enabled you will need to restart your computer.</span><br>
+<span>Set a distro to be backed by WSL 2 using the command lineIn PowerShell run:</span><br>
+<span>wsl --set-version <Distro> 2</span><br>
+<span>and make sure to replace <Distro> with the actual name of your distro. (You can find these with the command: wsl -l). You can change back to WSL 1 at anytime by running the same command as above but replacing the '2' with a '1'.</span><br>
+<span>Additionally, if you want to make WSL 2 your default architecture you can do so with this command:</span><br>
+<span>wsl --set-default-version 2</span><br>
+<span>This will make any new distro that you install be initialized as a WSL 2 distro.</span><br>
+<span>Finish with verifying what versions of WSL your distro are usingTo verify what versions of WSL each distro is using use the following command:</span><br>
+<span>wsl --list --verbose or wsl -l -v</span><br>
+<span>The distro that you've chosen above should now display a '2' under the 'version' column. Now that you're finished feel free to start using your WSL 2 distro!</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>据说是用hyper-v搞的。。。</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>还和vmware冲突</span><br>
+</p><p><b>linjia: </b><br>
+<span>我就是想问，是不是要把目前windows卸载重装那个18917 版本才可以？</span><br>
+</p><p><b>linjia: </b><br>
+<span>找到一个，</span><br>
+<span>https://www.jb51.net/os/win10/678060_all.html</span><br>
+<span>不过可能失败，解毒</span><br>
+<span>http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1819750&highlight=</span><br>
+<span>[求助] 升级18917卡在70% 电梯直达</span><br>
+<span>跳转到指定楼层复制 </span><br>
+<span>longkaslongkas</span><br>
+<span>Rank: 1</span><br>
+<span>UID528228帖子2PB币293 贡献0 技术0 活跃1</span><br>
+<span>楼主</span><br>
+<span>发表于 2019-6-14 18:37:55 |只看该作者 |倒序浏览</span><br>
+<span>升级18917卡在70%不动，重启好几次都不行，有一样的吗</span><br>
+</p><p><b>linjia: </b><br>
+<span>今晚手痒试了下</span><br>
+<span>PS C:\WINDOWS\system32> wsl -l</span><br>
+<span>执行 Linux 程序的 Windows 子系统分发版:</span><br>
+<span>Ubuntu-18.04 (默认)</span><br>
+<span>PS C:\WINDOWS\system32> wsl --set-version Ubuntu-18.04 2</span><br>
+<span>正在进行转换，这可能需要几分钟时间...</span><br>
+<span>有关与 WSL 2 的主要区别的信息，请访问 https://aka.ms/wsl2</span><br>
+<span>转换完成。</span><br>
+<span>PS C:\WINDOWS\system32> wsl --set-default-version 2</span><br>
+<span>有关与 WSL 2 的主要区别的信息，请访问 https://aka.ms/wsl2</span><br>
+<span>PS C:\WINDOWS\system32> wsl -l -v</span><br>
+<span>NAME            STATE         VERSION</span><br>
+<span>* Ubuntu-18.04    Stopped         2</span><br>
+<span>PS C:\WINDOWS\system32></span><br>
+<span>然后没啥感觉，就结束了</span><br>
+</p><p><b>linjia: </b><br>
+<span>补充下这2篇文章中关于windows下资源管理器访问linux目录之没有说明清楚的步骤</span><br>
+<span>http://www.sohu.com/a/320326896_827544</span><br>
+<span>https://devblogs.microsoft.com/commandline/wsl-2-is-now-available-in-windows-insiders/</span><br>
+<span>当然也许是我理解力太差，看了这个才明白要怎么执行</span><br>
+<span>https://github.com/microsoft/WSL/issues/4260</span><br>
+<span>/home# /mnt/c/Windows/explorer.exe.</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>linjia 发表于 2019-8-9 23:58</span><br>
+<span>补充下这2篇文章中关于windows下资源管理器访问linux目录之没有说明清楚的步骤</span><br>
+<span>http://www.sohu.com/a/3203 ...</span><br>
+<span>一般都是在wsl侧用windows侧的路径</span><br>
+<span>在windows侧d 盘 code 文件夹下建wsl 的git 仓库</span><br>
+<span>cd /mnt/d/code</span><br>
+<span>git init</span><br>
+<span>你用资源管理器能看到d盘code下有git 的配置.git 文件夹</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>hyper－v层上搞得？ 哦 那再见。</span><br>
+<span>—— 来自 360 1801-A01, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>我建议windows直接用linux kernel, 一劳永逸</span><br>
+</p><p><b>yy77: </b><br>
+<span>据说能在wsl2里跑docker了。</span><br>
+</p><p><b>帆影FX: </b><br>
+<span>刚出来的时候还升级到内测版试了，是能跑docker，不过在windows里无法用127.0.0.1访问ubuntu里面用docker启的nginx(当时好像看到的说这是个bug，然后微软在修了），然后后面出的windows terminal还是个半成品，于是决定离开windows,现在已经愉快地使用manjaro好几个月了</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>IO依旧烂到爆吧？</span><br>
+<span>win就老老实实呆虚拟机里当游戏OS好了啦！</span><br>
+</p><p><b>qratosone: </b><br>
+<span>catazshadow 发表于 2019-8-10 13:13</span><br>
+<span>IO依旧烂到爆吧？</span><br>
+<span>win就老老实实呆虚拟机里当游戏OS好了啦！</span><br>
+<span>WSL2换底层就是解决IO问题的。以及你是专门装一块显卡给KVM直通？</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>iptable能用了吗</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>qratosone 发表于 2019-8-10 13:57</span><br>
+<span>WSL2换底层就是解决IO问题的。以及你是专门装一块显卡给KVM直通？</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android...</span><br>
+<span>主机用集显，独显直通给虚拟机</span><br>
+</p><p><b>qratosone: </b><br>
+<span>catazshadow 发表于 2019-8-10 15:29</span><br>
+<span>主机用集显，独显直通给虚拟机</span><br>
+<span>直通能用CUDA吗</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>qratosone 发表于 2019-8-10 15:30</span><br>
+<span>直通能用CUDA吗</span><br>
+<span>肯定可以啊，不过N卡直通貌似有坑，驱动要怎么搞一下</span><br>
+</p><p><b>linjia: </b><br>
+<span>wsl2不是出来半年了吗？今天这个新闻什么意思</span><br>
+<span>2020年03月14日 09:21 5185 次阅读 稿源：cnBeta.COM 0 条评论</span><br>
+<span>Windows 10</span><br>
+<span>曾经有一段时间，微软对 Linux 的态度并不友好。但随着企业战略的全面转型，该公司已经积极投身相关应用与服务的开发。甚至在 Windows 10 操作系统层面，都有专门的 Linux 子系统。最新消息是，作为开发者与 IT 经理们必不可少的一款趁手工具，微软已经完成了新版 Linux 子系统的开发（简称 WSL2），并将随 Windows 10 2004 一起提供</span><br>
+</p><p><b>再买自检星剁手: </b><br>
+<span>等正式版出了就升，对我来说能用开发工具就够了</span><br>
+</p><p><b>d2loader: </b><br>
+<span>能直通N卡，用CUDA用Pytorch啥的么</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span>切随机ip就是蛋痛，用1就行了</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 7.1.1上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>hyper v 吔屎啦</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>七七见: </b><br>
+<span>linjia 发表于 2020-3-14 23:36</span><br>
+<span>wsl2不是出来半年了吗？今天这个新闻什么意思</span><br>
+<span>wsl2目前只有insider 正式版没上</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840724[0-50]</guid>
+    </item>
+  </channel>
+</rss>

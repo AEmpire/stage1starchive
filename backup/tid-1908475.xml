@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>局域网内网络测速不达标（已解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>局域网内网络测速不达标（已解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:52:28 +0000</lastBuildDate>
+    <item>
+      <title>局域网内网络测速不达标（已解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908475-1-1.html</link>
+      <description>局域网内网络测速不达标（已解决）&#13;
+ 本帖最后由 听雷而起 于 2020-1-12 12:40 编辑 
+
+光纤线接进屋了，光猫桥接在主路由，由路由拨号。自己搭了一个AC+AP的网络。测试了一下，一台电脑连接ap面板的有线端口，一台直连拨号的路由器的lan口，两个电脑的网卡都开的是千兆双工，两台电脑本地连接状态也显示的是1G。开共享smb两台相互拷文件却只有11mb/s，软件测速也只有百兆速度。网线是以前埋的超五类，头子是我自己压的，568b线序，网线测试仪测了八线都是通的。茫然了，不知道哪里出了问题。主路由是打人硕acrh17，ACAP是TPLINK一套，AC是AC100V4 ap是AC1900， poe是5口千兆poe交换机总速率10G。</description>
+      <content:encoded><![CDATA[<p><b>听雷而起: </b><br>
+<span>局域网内网络测速不达标（已解决）</span><br>
+<span> 本帖最后由 听雷而起 于 2020-1-12 12:40 编辑 </span><br>
+<span>光纤线接进屋了，光猫桥接在主路由，由路由拨号。自己搭了一个AC+AP的网络。测试了一下，一台电脑连接ap面板的有线端口，一台直连拨号的路由器的lan口，两个电脑的网卡都开的是千兆双工，两台电脑本地连接状态也显示的是1G。开共享smb两台相互拷文件却只有11mb/s，软件测速也只有百兆速度。网线是以前埋的超五类，头子是我自己压的，568b线序，网线测试仪测了八线都是通的。茫然了，不知道哪里出了问题。主路由是打人硕acrh17，ACAP是TPLINK一套，AC是AC100V4 ap是AC1900， poe是5口千兆poe交换机总速率10G。</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>https://www.tp-link.com.cn/product_347.html?v=specification#tag</span><br>
+<span>AC100官网写的明明白白的5个10/100M RJ45端口，你买之前没看么，这名字里面就带个100不起疑心吗</span><br>
+</p><p><b>听雷而起: </b><br>
+<span>偶滴小乔 发表于 2020-1-9 01:55</span><br>
+<span>AC100官网写的明明白白的5个10/100M RJ45端口，你买之前没看么，这名字里面就带个100不起疑心吗 ...</span><br>
+<span>我又不是用AC100接的线，我用的是千兆poe交换机，AC100就是个AC管理</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2020-1-9 02:38 编辑 </span><br>
+<span>听雷而起 发表于 2020-1-9 01:57</span><br>
+<span>我又不是用AC100接的线，我用的是千兆poe交换机，AC100就是个AC管理</span><br>
+<span>ac是集中式的话，也就是路由→poe交换机→ac→poe→ap。构成两层关系，数据要通过ac解封分包的话ac会限制带宽。</span><br>
+<span>突然想起来你是不是没开旁接模式？tp ac好像都支持分布式转发吧</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>测试方法很简单，路由器直接poe wan口 电脑直接poe lan口再测一下速</span><br>
+</p><p><b>听雷而起: </b><br>
+<span> 本帖最后由 听雷而起 于 2020-1-9 03:17 编辑 </span><br>
+<span>依然荏苒 发表于 2020-1-9 02:03</span><br>
+<span>瘦ap是无法独立工作的，数据都要ac分发。也就是路由→poe交换机→ac→poe→ap。 ...</span><br>
+<span>结构差不多是这样光猫-路由-poe交换机-ap，AC旁路管理，两台电脑交换机直连没有问题。</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>看着像交换机和ap握手成百兆poe了？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>我的只能跑500Mbps，这啥问题呢，路由器电脑都是显示1Gbps</span><br>
+</p><p><b>Player: </b><br>
+<span>mark</span><br>
+</p><p><b>听雷而起: </b><br>
+<span>最后发现还是线的问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908475[0-50]</guid>
+    </item>
+  </channel>
+</rss>

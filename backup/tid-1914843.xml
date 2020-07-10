@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这个是博弈论里的囚徒困境还是风险控制法来着？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这个是博弈论里的囚徒困境还是风险控制法来着？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:04:22 +0000</lastBuildDate>
+    <item>
+      <title>这个是博弈论里的囚徒困境还是风险控制法来着？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914843-1-1.html</link>
+      <description>这个是博弈论里的囚徒困境还是风险控制法来着？&#13;
+ 本帖最后由 water 于 2020-2-20 15:09 编辑 
+
+下午又跑去和领导碰头开会商量复工，回来路上联想到这个问题：
+&#13;
+已知一种传染病的传染性为2，危害性为2，现在发现它的一个亚种病毒，传染性和危害性未知，那么事情发展有如下几种情况。
+&#13;
+传染性   危害性
+&#13;
+   1               1
+&#13;
+   2               2
+&#13;
+   3               3
+&#13;
+我本来想强烈程度按1—5来计算，像风险表一样，后来发现太麻烦了。
+&#13;
+已知病毒破坏度为2+2=4，未知病毒有如下9种可能：
+&#13;
+2      3      4
+&#13;
+3      4      5
+&#13;
+4      5      6
+&#13;
+按已知情况，原有病毒破坏度为4时，整体社会难以承受，那么≥4的情况都不可接受。
+&#13;
+结论是，在面对已知病毒的亚种的时候，有6/9=67%的可能性情况不容乐观。
+&#13;
+然而这种推理是啥来着，风险控制？
+&#13;
+为啥想到这个问题呢，我觉得某些领导可能当时是想赌一把，结果赌没了。</description>
+      <content:encoded><![CDATA[<p><b>water: </b><br>
+<span>这个是博弈论里的囚徒困境还是风险控制法来着？</span><br>
+<span> 本帖最后由 water 于 2020-2-20 15:09 编辑 </span><br>
+<span>下午又跑去和领导碰头开会商量复工，回来路上联想到这个问题：</span><br>
+<span>已知一种传染病的传染性为2，危害性为2，现在发现它的一个亚种病毒，传染性和危害性未知，那么事情发展有如下几种情况。</span><br>
+<span>传染性   危害性</span><br>
+<span>   1               1</span><br>
+<span>   2               2</span><br>
+<span>   3               3</span><br>
+<span>我本来想强烈程度按1—5来计算，像风险表一样，后来发现太麻烦了。</span><br>
+<span>已知病毒破坏度为2+2=4，未知病毒有如下9种可能：</span><br>
+<span>2      3      4</span><br>
+<span>3      4      5</span><br>
+<span>4      5      6</span><br>
+<span>按已知情况，原有病毒破坏度为4时，整体社会难以承受，那么≥4的情况都不可接受。</span><br>
+<span>结论是，在面对已知病毒的亚种的时候，有6/9=67%的可能性情况不容乐观。</span><br>
+<span>然而这种推理是啥来着，风险控制？</span><br>
+<span>为啥想到这个问题呢，我觉得某些领导可能当时是想赌一把，结果赌没了。</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-2-20 15:23 编辑 </span><br>
+<span>1+3和3+1和2+2真的等价吗</span><br>
+<span>这是加，如果是乘不就是4/9赢面大了</span><br>
+</p><p><b>丁兔: </b><br>
+<span>风控吧，囚徒困境不是这样的</span><br>
+</p><p><b>nexus1: </b><br>
+<span>我怀疑就算是这么赌的，也没那分析能力画个表</span><br>
+</p><p><b>zerona: </b><br>
+<span>只能往最惨的先考虑吧？</span><br>
+</p><p><b>sug2shake: </b><br>
+<span>这个叫脑袋一拍胡乱推理</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914843[0-50]</guid>
+    </item>
+  </channel>
+</rss>

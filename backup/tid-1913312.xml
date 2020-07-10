@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ROG笔记本的30键无冲，防鬼键意义在哪</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ROG笔记本的30键无冲，防鬼键意义在哪</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:16:06 +0000</lastBuildDate>
+    <item>
+      <title>ROG笔记本的30键无冲，防鬼键意义在哪[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913312-1-1.html</link>
+      <description>ROG笔记本的30键无冲，防鬼键意义在哪&#13;
+清理键盘，瞎按按出了一个华硕app里面没有介绍的快捷功能，FN+[和FN+]，上面显示为防鬼键
+&#13;
+结果网上查了半天就只是说防鬼键是表示键盘无冲的功能，我的本子幻15官网也有介绍是全键、无冲的，但是这里明显显示2个防鬼键功能，谷歌搜索也找不到任何信息
+&#13;
+然后我用键盘测试软件发现，如同其字面意思，一个是30键无冲（上限30，同时按下30个键后第31个无反应），一个是全部按键无冲，按多少都有反应……30键无冲的意义在哪看不懂</description>
+      <content:encoded><![CDATA[<p><b>sirlion: </b><br>
+<span>ROG笔记本的30键无冲，防鬼键意义在哪</span><br>
+<span>清理键盘，瞎按按出了一个华硕app里面没有介绍的快捷功能，FN+[和FN+]，上面显示为防鬼键</span><br>
+<span>结果网上查了半天就只是说防鬼键是表示键盘无冲的功能，我的本子幻15官网也有介绍是全键、无冲的，但是这里明显显示2个防鬼键功能，谷歌搜索也找不到任何信息</span><br>
+<span>然后我用键盘测试软件发现，如同其字面意思，一个是30键无冲（上限30，同时按下30个键后第31个无反应），一个是全部按键无冲，按多少都有反应……30键无冲的意义在哪看不懂</span><br>
+</p><p><b>暗铁: </b><br>
+<span>搜了一下资料我猜是这样的</span><br>
+<span>USB只能支持6键无冲，市面上做的更多无冲是用虚拟多个键盘搞出来的，30键就是5个键盘，全键就要更多，但是某些系统可能不支持这么多的键盘（应该就是Mac和Linux），所以做成了开关</span><br>
+<span>—— 来自 samsung SM-G9650, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>三个人每人十个手指按键盘才三十</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>键盘无冲分为软件无冲和硬件无冲</span><br>
+<span>先说软件无冲，USB键盘跟电脑通信采用USB HID中的键盘协议</span><br>
+<span>标准USB HID协议包为8Byte，其中前2Byte为功能键信息，其余6Byte为按键信息，每个Byte代表一个键位，这样同时可以传送6个键位的信息，这也就是6键无冲，这种模式在任何环境下都可以使用</span><br>
+<span>扩展的USB HID协议包是加长标准USB HID协议包的包长，可以为16Byte/32Byte/64Byte，减去功能键信息。按键信息为14Byte/30Byte/62Byte，同样每个Byte代表一个键位，这样也就是14键无冲/30键无冲/62键无冲，这种模式兼容性也很高，没记错的话Bios下也可使用</span><br>
+<span>第三种是基于Bitmap的USB HID协议，包长与扩展USB HID协议相同，最大可达64Byte，但是在这种模式下，采用每bit代表一个键位，一个Byte可以传送8个按键信息，同时功能键信息与普通按键信息混合传输，这样在16Byte数据包模式下就可以达到128键无冲，也就是厂商所宣传的全键无冲，这种模式兼容性一般，我记忆里是只有系统下才可使用</span><br>
+<span>对于2楼所说的那种虚拟键盘的方式有点傻，104键要想无冲得虚拟快20个键盘，怎么可能……</span><br>
+<span>以上说的是软件无冲，但对于键盘来说，如果硬件不做处理，仍然无法达到全键无冲。这个说着比较麻烦，大概就是如果键盘就是一个大的矩阵按键阵列，如果行列上不加二极管的话，则可能出现在相邻两行和相邻两列的四个键中的任意三个键按下后会出现第四个按键的信息，这也就是鬼键的由来，大部分不加二极管的按键都会避免常用组合按键出现这种情况，同时在主控检测到相邻行列的3个键都按下的情况下则只会输出任意两个键的信息防止出现鬼键，但这样仍然无法实现全键无冲。而在行列之间加入二极管后就可以避免鬼键的出现，这样配合上面软件部分协议的切换即可实现全键无冲，也就是NKRO。</span><br>
+<span>科普完了，说下楼主发的这两张图，30键无冲和全键无冲应该指的是软件协议的切换，但是上边那个防鬼键我就看不懂了，防鬼键有两种解释，一种是无二极管情况，这种不可能实现全键无冲；一种是有二极管情况，但一般来说笔记本键盘是没有二极管的……</span><br>
+<span>很迷</span><br>
+</p><p><b>若闲: </b><br>
+<span>DENHJD 发表于 2020-2-11 16:37</span><br>
+<span>键盘无冲分为软件无冲和硬件无冲</span><br>
+<span>先说软件无冲，USB键盘跟电脑通信采用USB HID中的键盘协议</span><br>
+<span>感谢科普</span><br>
+<span>又在s1学到了估计一辈子都用不到的知识</span><br>
+</p><p><b>sirlion: </b><br>
+<span>DENHJD 发表于 2020-2-11 12:37</span><br>
+<span>键盘无冲分为软件无冲和硬件无冲</span><br>
+<span>先说软件无冲，USB键盘跟电脑通信采用USB HID中的键盘协议</span><br>
+<span>那这两个选项就是，扩展的USB HID协议包，基于Bitmap的USB HID协议，的切换了？</span><br>
+<span>既然需要我们自己选择，是不是存在前者比后者的延迟要更低一些，所以提供这个选项？不然这个选项完全被后面那个包含了，就没必要提出来了吧</span><br>
+<span>而且总不可能我选了后者后进入到bios不会自动切换到前者吧，fn这些键在bios下似乎无法用</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>sirlion 发表于 2020-2-11 18:20</span><br>
+<span>那这两个选项就是，扩展的USB HID协议包，基于Bitmap的USB HID协议，的切换了？</span><br>
+<span>既然需要我们自己选择， ...</span><br>
+<span>对，应该是这样，延迟都是一样的，估计是为了特殊系统或者特殊环境吧，bitmap模式我记得osx好像有问题，要是dos之类的更麻烦</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913312[0-50]</guid>
+    </item>
+  </channel>
+</rss>

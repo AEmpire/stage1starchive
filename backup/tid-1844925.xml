@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有什么手段能控制浏览器网页脚本？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有什么手段能控制浏览器网页脚本？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:53 +0000</lastBuildDate>
+    <item>
+      <title>有什么手段能控制浏览器网页脚本？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844925-1-1.html</link>
+      <description>有什么手段能控制浏览器网页脚本？&#13;
+ 本帖最后由 lixianfyss 于 2019-7-7 15:20 编辑 
+
+主要是想控制网页上某些JS函数的执行，比如检测反广告和打码。最好是能直接修改函数，免得缺了返回值有副作用。
+&#13;
+试了下uMatrix，并不能细化到具体函数，而且速度慢，误杀很严重。
+&#13;
+请问有什么比较简单易行的手段吗？实在是没实力自己写油猴脚本。</description>
+      <content:encoded><![CDATA[<p><b>lixianfyss: </b><br>
+<span>有什么手段能控制浏览器网页脚本？</span><br>
+<span> 本帖最后由 lixianfyss 于 2019-7-7 15:20 编辑 </span><br>
+<span>主要是想控制网页上某些JS函数的执行，比如检测反广告和打码。最好是能直接修改函数，免得缺了返回值有副作用。</span><br>
+<span>试了下uMatrix，并不能细化到具体函数，而且速度慢，误杀很严重。</span><br>
+<span>请问有什么比较简单易行的手段吗？实在是没实力自己写油猴脚本。</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>你这个需求还挺神秘的。</span><br>
+<span>如果你自己看不懂JS代码的话，你怎么知道该禁止哪段代码运行？如果别人直接写in-line的代码，用eval加混淆你又怎么办？</span><br>
+<span>如果你都知道是具体哪个函数有问题了，你再写个脚本不是很容易吗？</span><br>
+<span>另外我还没见过用JS去打码的网站，也不是掩耳盗铃吗。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>cxf5102 发表于 2019-7-7 15:40</span><br>
+<span>你这个需求还挺神秘的。</span><br>
+<span>如果你自己看不懂JS代码的话，你怎么知道该禁止哪段代码运行？如果别人直接写in-li ...</span><br>
+<span>没那些混淆手段的话能看懂简单的JS代码，可以定位函数。</span><br>
+<span>就算是掩耳盗铃，也不好搞定。</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>Firefox 有插件能做，但我忘记是哪个了</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>森田美位子: </b><br>
+<span>scriptsafe?</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>咲月露娜 发表于 2019-7-8 11:44</span><br>
+<span>https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm</span><br>
+<span>这个跟uMatrix好像一样都是根据域名来区分的，很容易误杀，体验不算好。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2019-7-8 15:00 编辑 </span><br>
+<span>lixianfyss 发表于 2019-7-8 14:42</span><br>
+<span>这个跟uMatrix好像一样都是根据域名来区分的，很容易误杀，体验不算好。</span><br>
+<span>uMatrix 你自己控制 放行不就行了？如果你是想要那种傻瓜式的？抱歉没有</span><br>
+<span>也可以自己添加规则来执行放行或者屏蔽</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844925[0-50]</guid>
+    </item>
+  </channel>
+</rss>

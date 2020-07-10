@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>普通U盘写入大量小文件最快的方法是啥(更新：U盘翻车）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>普通U盘写入大量小文件最快的方法是啥(更新：U盘翻车）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:47:43 +0000</lastBuildDate>
+    <item>
+      <title>普通U盘写入大量小文件最快的方法是啥(更新：U盘翻车）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839384-1-1.html</link>
+      <description>普通U盘写入大量小文件最快的方法是啥(更新：U盘翻车）&#13;
+ 本帖最后由 9-11-2001 于 2019-6-20 17:03 编辑 
+
+昨天对拷两个U盘，10G七千多个文件花了3个多小时....到最后进度条根本不动了。普通U盘写入大量小文件最快的方法是啥啊
+&#13;
+今天试了下拷贝大文件，直接卡死，没一次拷贝成功的格式化多次还是一个德行，售后了</description>
+      <content:encoded><![CDATA[<p><b>9-11-2001: </b><br>
+<span>普通U盘写入大量小文件最快的方法是啥(更新：U盘翻车）</span><br>
+<span> 本帖最后由 9-11-2001 于 2019-6-20 17:03 编辑 </span><br>
+<span>昨天对拷两个U盘，10G七千多个文件花了3个多小时....到最后进度条根本不动了。普通U盘写入大量小文件最快的方法是啥啊</span><br>
+<span>今天试了下拷贝大文件，直接卡死，没一次拷贝成功的格式化多次还是一个德行，售后了</span><br>
+</p><p><b>xk1357240: </b><br>
+<span>打包成zip，模式选择 仅存储</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>Linux下打包拷贝进去。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-6-14 10:34 编辑 </span><br>
+<span>用压缩软件封包吧，嫌慢选存储无压缩模式。</span><br>
+<span>或者买高速的U盘，前不久论坛不是还贴100元的 128G ufs高速u盘吗。</span><br>
+<span>这种对做pe、引导一类支持不是那么好，正好适合你这种拷贝大量零碎小文件的。</span><br>
+<span>持续写有200MB/S，读有400MB/S，4k小块也有20MB/S，</span><br>
+<span>你这种应该最少有40-50MB/S。</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>SM328X的U盘都可以4K写10M左右</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>tar打包</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>linux 或 mac 可以用 dd 拷贝 U 盘 的镜像，然后写入另一个 U 盘，这样是连续读写，速度取决于 U 盘的大小。</span><br>
+<span>拷贝出来的镜像可以 mount，把里面的小文件拷贝出来打包，这个读取的是电脑的磁盘，会快很多。</span><br>
+<span>参考</span><br>
+<span>windows 上应该可以用 ghost 之类的方式，不过没试过。</span><br>
+</p><p><b>netplaying: </b><br>
+<span>zip文件主要用处之一不就是这种情形么</span><br>
+</p><p><b>marxel: </b><br>
+<span>liaojings1 发表于 2019-6-14 10:26</span><br>
+<span>用压缩软件封包吧，嫌慢选存储无压缩模式。</span><br>
+<span>或者买高速的U盘，前不久论坛不是还贴100元的 128G ufs高速u盘 ...</span><br>
+<span>哪种盘做pe好啊，想弄个64/128带usb3.0的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span> 本帖最后由 華蝶風雪 于 2019-6-19 10:17 编辑 </span><br>
+<span>不想花任何时间和金钱成本可以用fastcopy，比直接拷贝快不少而且稳定，或者干脆ghost。</span><br>
+<span>我感觉除非单纯做备份，不然ZIP后拷进去没有任何意义，到时候万一要投影或者找个图，是先花半小时解压还是在压缩包里看着文件名猜图片？</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>華蝶風雪 发表于 2019-6-19 10:12</span><br>
+<span>不想花任何时间和金钱成本可以用fastcopy，比直接拷贝快不少而且稳定</span><br>
+<span>我也是上了fatscopy，虽然快一点但还是漫长无比才发帖问....zip倒是可以试试</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>打包</span><br>
+<span>或者dd命令</span><br>
+</p><p><b>widder: </b><br>
+<span>先用镜像工具做个镜像，然后把镜像盖上去</span><br>
+</p><p><b>乔槁: </b><br>
+<span>華蝶風雪 发表于 2019-6-19 10:12</span><br>
+<span>不想花任何时间和金钱成本可以用fastcopy，比直接拷贝快不少而且稳定，或者干脆ghost。</span><br>
+<span>我感觉除非单纯做备 ...</span><br>
+<span>有些软件可以不解压预览zip内文档或图片。</span><br>
+<span>zip兼容性不错，但具体用什么还是看情况。</span><br>
+</p><p><b>xy2401: </b><br>
+<span>移动固态硬盘 大小差不多 type c 数据线 </span><br>
+<span>半个月前 忍受不了 买了 600块钱。爽！</span><br>
+<span>然后昨天降到 500了 还不能保价 </span><br>
+</p><p><b>zyhang: </b><br>
+<span>先打包成tar再拷入</span><br>
+</p><p><b>win8: </b><br>
+<span>Linux 可以直接mount，写到一个文件就好啦。Windows用虚拟光驱软件写到光盘镜像里，读不是问题。</span><br>
+</p><p><b>macos: </b><br>
+<span>文件系统的登记效率太低下，打包基本都能回转到正常水平</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span> 本帖最后由 9-11-2001 于 2019-6-20 17:18 编辑 </span><br>
+<span>今天发现是傻屌U盘有问题？</span><br>
+</p><p><b>marine_01: </b><br>
+<span>不管你的U盘是否有问题，转移文件肯定要打包的，小文件拷进拷出耗费的时间都够你打包解压了。更何况你零散状态你还要承担拷贝失败文件出错的风险</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839384[0-50]</guid>
+    </item>
+  </channel>
+</rss>

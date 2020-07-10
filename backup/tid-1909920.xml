@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>玄学 老箱改造（娱乐向）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>玄学 老箱改造（娱乐向）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:41:59 +0000</lastBuildDate>
+    <item>
+      <title>玄学 老箱改造（娱乐向）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1909920-1-1.html</link>
+      <description>玄学 老箱改造（娱乐向）&#13;
+ 本帖最后由 伊可费斯 于 2020-1-22 17:31 编辑 
+
+前几天打扫卫生，扫出来一对2.0有源4寸箱，回忆了一下大概是10年前买的了，也没有好好保存，南方这天气，单元纸盆都长了一层白毛。上电接音源居然还能正常工作，不过底噪感人，不知道是时间太长电路老化，还是就是这样，当时买也很便宜。本来打算当垃圾处理了，临时起意想改个蓝牙玩玩。
+
+原本计划用原有部件，加装蓝牙模块。拆开看后欲望升级，打算直接改为d类，看看这单元有没有值得挖掘的潜力(然而并没有)，老话说的好冲动是魔鬼如果最开始就扔了就没有后面种种了，当然那是后话了。
+
+密度板倒相箱体，里面不出意外的也长了霉，倒出一只uk酱干尸简单清理干净，后装模作样贴了一圈隔之前剩下的隔音棉。
+
+拆下的单元
+
+https://upload.cc/i1/2020/01/20/ifEvDp.jpg
+
+https://upload.cc/i1/2020/01/20/FAm4Hj.jpg
+
+4寸中低频单元20w 4Ω，1寸高频单元15w 4Ω，高频串了个电容做功率分频，符合定位，意外的是居然丝绢振膜，谷歌了下只有几个俄语信息，俄罗斯人不愧是是中国廉价电子设备忠实粉丝，信噪比失真啥的也就查不到了。
+
+牛屎板ab功放，用了两tda2030L输出，查了下14w(d&lt;0.5% 4Ω 40-15k)输出，峰值18w(d=10%)符合箱体标签上的2x15w功率。
+
+https://upload.cc/i1/2020/01/20/lsk9LG.jpg
+
+https://upload.cc/i1/2020/01/20/mWzQ7E.jpg
+
+双出e牛，13v 1.2a x2
+
+https://upload.cc/i1/2020/01/20/FsZyib.jpg
+
+然后买功放板，世面5块钱价位的d类有st tda7948 ti 3116d2 ysd138，本来很心水138，毕竟有雅马哈logo加成，但是资料少的可怜，7948风评不怎么好，最后总结diyaudio的意见买了3116。
+
+https://upload.cc/i1/2020/01/20/YoRFIl.jpg
+
+https://upload.cc/i1/2020/01/20/Lkv0fK.jpg
+
+https://upload.cc/i1/2020/01/20/SU14bz.jpg
+
+https://upload.cc/i1/2020/01/20/WLkN70.jpg
+
+打磨掉的ssop24封装蓝牙5.0芯片+tl047前级+单3116d2+工程师多年经验做出了2x100的输出，中国能源安全的未来就靠他了。实际上3116d2单片只有2x50w输出(dc24v/ac21v 4Ω thd+n=10% 1k )，如果是双芯片桥接下是可以做到2x100的持续输出的。
+
+上面提了很多thd，单元也是有这个的，所以也不是越大越好，还是要和单元匹配，不然轻则失真重责烧喇叭。3116d2的最大不失真输出只有35wx2(ac26v 4Ω thd+n&lt;1% 400k)实际可能更低。
+
+这块板子真正坑到我的是，它是直流供电，恰巧我手头一个直流电源都没有，不得已简单改造直接升级为加线电。
+
+200va国产灌胶环牛
+
+https://upload.cc/i1/2020/01/20/6DM5kT.jpg
+
+lm317+2sa1943整流电路
+
+https://upload.cc/i1/2020/01/20/j1dlPt.jpg
+
+https://upload.cc/i1/2020/01/20/fJOATB.jpg
+
+手头正好有对惠威的单元，算是先做了（自我安慰）。
+
+选这家主要是电路设计的很不错，交流进出大量的滤波，输出用料也很足，事后测试也非常完美，波动非常小。1943算是经典的输出管了，美中不足的是只有一个，不过对于这套来说足以。
+
+零件码上板
+
+https://upload.cc/i1/2020/01/20/jQ6ftR.jpg
+
+因为担负全部输出，1943散热片就是必须的了，拆下原来功放板的散热器，装上有点大了，好在工具多，用砂带机打掉5mm，正好。
+
+https://upload.cc/i1/2020/01/20/j9cJql.jpg
+
+https://upload.cc/i1/2020/01/20/1Cjdrp.jpg
+
+https://upload.cc/i1/2020/01/20/p3RVZC.jpg
+
+只要温度够，焊这个还是很简单的。
+
+完工
+
+https://upload.cc/i1/2020/01/20/fITP2n.jpg
+
+https://upload.cc/i1/2020/01/20/eG57aE.jpg
+
+https://upload.cc/i1/2020/01/20/21Ged5.jpg
+
+https://upload.cc/i1/2020/01/20/3ugfDZ.jpg
+
+改了有段时间可以说说一些问题了，因为3116是为车机设计的直流输入还是挺坑的，这块板卖这么便宜也不是没有原因，刮片ssop24的蓝牙5.0只支持sbc，aux输入特别奇葩是靠地线和mic短接切换，但是如果插头插进去，断电重启后他还是默认蓝牙，需要重新插拔一下，挺好奇这东西卖的出去？不会被投诉么？
+
+开始以为底噪很大是因为我只用19v输入没到tl047前级触发，后来才发现是垃圾电位器的问题，直接拆掉短接后底噪基本可以说是0了，需要贴在箱子上才能听见。缺点是输入音量没调好分分钟xx。至于好听不好听，只能说音量大了！
+
+接下来应该会弄个纯a放+惠威的4寸中低音单元，有推荐的箱体么？</description>
+      <content:encoded><![CDATA[<p><b>伊可费斯: </b><br>
+<span>玄学 老箱改造（娱乐向）</span><br>
+<span> 本帖最后由 伊可费斯 于 2020-1-22 17:31 编辑 </span><br>
+<span>前几天打扫卫生，扫出来一对2.0有源4寸箱，回忆了一下大概是10年前买的了，也没有好好保存，南方这天气，单元纸盆都长了一层白毛。上电接音源居然还能正常工作，不过底噪感人，不知道是时间太长电路老化，还是就是这样，当时买也很便宜。本来打算当垃圾处理了，临时起意想改个蓝牙玩玩。</span><br>
+<span>原本计划用原有部件，加装蓝牙模块。拆开看后欲望升级，打算直接改为d类，看看这单元有没有值得挖掘的潜力(然而并没有)，老话说的好冲动是魔鬼如果最开始就扔了就没有后面种种了，当然那是后话了。</span><br>
+<span>密度板倒相箱体，里面不出意外的也长了霉，倒出一只uk酱干尸简单清理干净，后装模作样贴了一圈隔之前剩下的隔音棉。</span><br>
+<span>拆下的单元</span><br>
+<img src="https://upload.cc/i1/2020/01/20/ifEvDp.jpg" title="https://upload.cc/i1/2020/01/20/ifEvDp.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/FAm4Hj.jpg" title="https://upload.cc/i1/2020/01/20/FAm4Hj.jpg"><br>
+<span>4寸中低频单元20w 4Ω，1寸高频单元15w 4Ω，高频串了个电容做功率分频，符合定位，意外的是居然丝绢振膜，谷歌了下只有几个俄语信息，俄罗斯人不愧是是中国廉价电子设备忠实粉丝，信噪比失真啥的也就查不到了。</span><br>
+<span>牛屎板ab功放，用了两tda2030L输出，查了下14w(d<0.5% 4Ω 40-15k)输出，峰值18w(d=10%)符合箱体标签上的2x15w功率。</span><br>
+<img src="https://upload.cc/i1/2020/01/20/lsk9LG.jpg" title="https://upload.cc/i1/2020/01/20/lsk9LG.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/mWzQ7E.jpg" title="https://upload.cc/i1/2020/01/20/mWzQ7E.jpg"><br>
+<span>双出e牛，13v 1.2a x2</span><br>
+<img src="https://upload.cc/i1/2020/01/20/FsZyib.jpg" title="https://upload.cc/i1/2020/01/20/FsZyib.jpg"><br>
+<span>然后买功放板，世面5块钱价位的d类有st tda7948 ti 3116d2 ysd138，本来很心水138，毕竟有雅马哈logo加成，但是资料少的可怜，7948风评不怎么好，最后总结diyaudio的意见买了3116。</span><br>
+<img src="https://upload.cc/i1/2020/01/20/YoRFIl.jpg" title="https://upload.cc/i1/2020/01/20/YoRFIl.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/Lkv0fK.jpg" title="https://upload.cc/i1/2020/01/20/Lkv0fK.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/SU14bz.jpg" title="https://upload.cc/i1/2020/01/20/SU14bz.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/WLkN70.jpg" title="https://upload.cc/i1/2020/01/20/WLkN70.jpg"><br>
+<span>打磨掉的ssop24封装蓝牙5.0芯片+tl047前级+单3116d2+工程师多年经验做出了2x100的输出，中国能源安全的未来就靠他了。实际上3116d2单片只有2x50w输出(dc24v/ac21v 4Ω thd+n=10% 1k )，如果是双芯片桥接下是可以做到2x100的持续输出的。</span><br>
+<span>上面提了很多thd，单元也是有这个的，所以也不是越大越好，还是要和单元匹配，不然轻则失真重责烧喇叭。3116d2的最大不失真输出只有35wx2(ac26v 4Ω thd+n<1% 400k)实际可能更低。</span><br>
+<span>这块板子真正坑到我的是，它是直流供电，恰巧我手头一个直流电源都没有，不得已简单改造直接升级为加线电。</span><br>
+<span>200va国产灌胶环牛</span><br>
+<img src="https://upload.cc/i1/2020/01/20/6DM5kT.jpg" title="https://upload.cc/i1/2020/01/20/6DM5kT.jpg"><br>
+<span>lm317+2sa1943整流电路</span><br>
+<img src="https://upload.cc/i1/2020/01/20/j1dlPt.jpg" title="https://upload.cc/i1/2020/01/20/j1dlPt.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/fJOATB.jpg" title="https://upload.cc/i1/2020/01/20/fJOATB.jpg"><br>
+<span>手头正好有对惠威的单元，算是先做了（自我安慰）。</span><br>
+<span>选这家主要是电路设计的很不错，交流进出大量的滤波，输出用料也很足，事后测试也非常完美，波动非常小。1943算是经典的输出管了，美中不足的是只有一个，不过对于这套来说足以。</span><br>
+<span>零件码上板</span><br>
+<img src="https://upload.cc/i1/2020/01/20/jQ6ftR.jpg" title="https://upload.cc/i1/2020/01/20/jQ6ftR.jpg"><br>
+<span>因为担负全部输出，1943散热片就是必须的了，拆下原来功放板的散热器，装上有点大了，好在工具多，用砂带机打掉5mm，正好。</span><br>
+<img src="https://upload.cc/i1/2020/01/20/j9cJql.jpg" title="https://upload.cc/i1/2020/01/20/j9cJql.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/1Cjdrp.jpg" title="https://upload.cc/i1/2020/01/20/1Cjdrp.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/p3RVZC.jpg" title="https://upload.cc/i1/2020/01/20/p3RVZC.jpg"><br>
+<span>只要温度够，焊这个还是很简单的。</span><br>
+<span>完工</span><br>
+<img src="https://upload.cc/i1/2020/01/20/fITP2n.jpg" title="https://upload.cc/i1/2020/01/20/fITP2n.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/eG57aE.jpg" title="https://upload.cc/i1/2020/01/20/eG57aE.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/21Ged5.jpg" title="https://upload.cc/i1/2020/01/20/21Ged5.jpg"><br>
+<img src="https://upload.cc/i1/2020/01/20/3ugfDZ.jpg" title="https://upload.cc/i1/2020/01/20/3ugfDZ.jpg"><br>
+<span>改了有段时间可以说说一些问题了，因为3116是为车机设计的直流输入还是挺坑的，这块板卖这么便宜也不是没有原因，刮片ssop24的蓝牙5.0只支持sbc，aux输入特别奇葩是靠地线和mic短接切换，但是如果插头插进去，断电重启后他还是默认蓝牙，需要重新插拔一下，挺好奇这东西卖的出去？不会被投诉么？</span><br>
+<span>开始以为底噪很大是因为我只用19v输入没到tl047前级触发，后来才发现是垃圾电位器的问题，直接拆掉短接后底噪基本可以说是0了，需要贴在箱子上才能听见。缺点是输入音量没调好分分钟xx。至于好听不好听，只能说音量大了！</span><br>
+<span>接下来应该会弄个纯a放+惠威的4寸中低音单元，有推荐的箱体么？</span><br>
+</p><p><b>YUNO: </b><br>
+<span>没图无法开脑放。3116音质挺差的，远不如原来的2030</span><br>
+</p><p><b>squarex: </b><br>
+<span>图都没有怎么看啊。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>以前拆过几次音响，不知为何都是能找到的螺丝都拆完了却还是打不开也撬不动就放弃了。</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>爱夏: </b><br>
+<span>3116，这个D类的啊...既然要线性要不线性到底？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>YUNO 发表于 2020-1-20 15:35</span><br>
+<span>没图无法开脑放。3116音质挺差的，远不如原来的2030</span><br>
+<span>原来2030的ab牛屎板底噪太大了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2020-1-20 20:48 编辑 </span><br>
+<span>这贴……刚发图没补泥潭就大姨妈，还以为要年后再开了。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>伊可费斯 发表于 2020-1-20 20:46</span><br>
+<span>原来2030的ab牛屎板底噪太大了</span><br>
+<span>楼主对底噪有什么研究？我现在也觉得音箱高音单元底噪略大，但总觉得不是市电的问题。</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>箱子只要不震动就行了，挑沉的买就行了。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>lixianfyss 发表于 2020-1-21 07:53</span><br>
+<span>楼主对底噪有什么研究？我现在也觉得音箱高音单元底噪略大，但总觉得不是市电的问题。 ...</span><br>
+<span>底噪有很多原因要逐个排查，如果随音量调节底噪变化的话可能电位器问题，或者没有接地，没有变化可能是本底噪声，考虑是否是内部电源干扰，或者电路干扰等。底噪是不可能没有的，只要不影响听音乐就行。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>伊可费斯 发表于 2020-1-21 11:13</span><br>
+<span>底噪有很多原因要逐个排查，如果随音量调节底噪变化的话可能电位器问题，或者没有接地，没有变化可能是本 ...</span><br>
+<span>有源箱子里面数字电路部分太复杂不好排查，我买了之后也有点后悔，关键这个AES数字输入设备还不好搞。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1909920[0-50]</guid>
+    </item>
+  </channel>
+</rss>

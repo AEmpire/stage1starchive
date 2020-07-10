@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>mac系统下有办法查看内存真伪么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>mac系统下有办法查看内存真伪么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:02:46 +0000</lastBuildDate>
+    <item>
+      <title>mac系统下有办法查看内存真伪么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836932-1-1.html</link>
+      <description>mac系统下有办法查看内存真伪么？&#13;
+win的话 有类似aida64、cpuz之类的软件 可以查询硬件的大量信息 从而在一定程度上辨别真伪
+&#13;
+mac系统下 有相关的软件 可以辅助判断内存的真伪么？</description>
+      <content:encoded><![CDATA[<p><b>fumeflow: </b><br>
+<span>mac系统下有办法查看内存真伪么？</span><br>
+<span>win的话 有类似aida64、cpuz之类的软件 可以查询硬件的大量信息 从而在一定程度上辨别真伪</span><br>
+<span>mac系统下 有相关的软件 可以辅助判断内存的真伪么？</span><br>
+</p><p><b>夜语: </b><br>
+<span>进Windows pe?</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>夜语 发表于 2019-6-4 17:32</span><br>
+<span>进Windows pe?</span><br>
+<span>可能不太方便 我买的是imac（不过晚上才到货）</span><br>
+</p><p><b>帕鲁迪娜: </b><br>
+<span>左上角苹果标点系统信息</span><br>
+</p><p><b>f.w.: </b><br>
+<span>mac机内存还有假的？</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>f.w. 发表于 2019-6-4 18:57</span><br>
+<span>mac机内存还有假的？</span><br>
+<span>不是 我的是imac 然后自己买了32g的三星笔记本内存（这样比官网配内存能便宜一大半）</span><br>
+<span>但是就很难判断真伪了</span><br>
+</p><p><b>w酱: </b><br>
+<span>装个bootcamp windows也就20分钟吧</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-6-4 23:56 编辑 </span><br>
+<span>32G单条的so-dimm内存现在应该没假的吧...?</span><br>
+<span>osx上gui显示spd的没找到</span><br>
+<span>linux上有decode-dimms，不过我不知道osx上有没有</span><br>
+<span>不过可以试试这个dmidecode: https://www.nongnu.org/dmidecode/</span><br>
+</p><p><b>Sam喵: </b><br>
+<span>下载一个memtest，写到u盘里，USB启动然后跑一次测试，没错误就行。其他信息啥的都能刷的</span><br>
+<span>— from HUAWEI DUK-AL20, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>lwa190212 发表于 2019-6-4 23:38</span><br>
+<span>32G单条的so-dimm内存现在应该没假的吧...?</span><br>
+<span>osx上gui显示spd的没找到</span><br>
+<span>linux上有decode-dimms，不过我不知道 ...</span><br>
+<span>不是32g单条 是2条16g的</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>Sam喵 发表于 2019-6-5 09:57</span><br>
+<span>下载一个memtest，写到u盘里，USB启动然后跑一次测试，没错误就行。其他信息啥的都能刷的</span><br>
+<span>— from HUAWEI...</span><br>
+<span>memetest写到优盘能启动么？还是说要先做个启动盘（或者pe什么的）</span><br>
+</p><p><b>Sam喵: </b><br>
+<span>fumeflow 发表于 2019-6-5 10:31</span><br>
+<span>memetest写到优盘能启动么？还是说要先做个启动盘（或者pe什么的）</span><br>
+<span>有个ISO版本的，写到u盘可以直接启动。应该是基于什么迷你的Linux还是dos的吧</span><br>
+<span>— from HUAWEI DUK-AL20, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>Sam喵 发表于 2019-6-6 17:55</span><br>
+<span>有个ISO版本的，写到u盘可以直接启动。应该是基于什么迷你的Linux还是dos的吧</span><br>
+<span>— from HUAWEI DUK-AL20, ...</span><br>
+<span>好的 等我内存到了试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836932[0-50]</guid>
+    </item>
+  </channel>
+</rss>

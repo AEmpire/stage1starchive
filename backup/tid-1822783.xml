@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>rpcs3-ACFA测试报告[大概能正常游玩]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>rpcs3-ACFA测试报告[大概能正常游玩]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:31:28 +0000</lastBuildDate>
+    <item>
+      <title>rpcs3-ACFA测试报告[大概能正常游玩][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822783-1-1.html</link>
+      <description>rpcs3-ACFA测试报告[大概能正常游玩]&#13;
+ 本帖最后由 塔奇克马 于 2020-1-20 23:37 编辑 
+
+GPU选项需要取消wirte color buffers才能正常进入游戏关卡
+&#13;
+ACFA不会陷入地下了,我记得之前有这个bug,出了自身机体渲染问题以外.
+&#13;
+打了个boss没有问题,也没有像审判一样切换关卡卡死.
+&#13;
+测试时间不长.
+&#13;
+RPCS3 v0.0.7-9231-6388c980 Alpha | HEAD | Firmware version: 4.85 -20191219
+&#13;
+最近这个版本更新后你会发现进不去了,卡住在检测网络,解决办法就是修改network那里为 获取IP或者IP已经获取
+&#13;
+-----------------------------------------------------
+&#13;
+RPCS3 v0.0.7-9164-429a76a1 Alpha | HEAD | Firmware version: 4.85
+&#13;
+opengl多数任务会有显示错误.不知道是不是A卡原因
+&#13;
+建议使用Vulkan,第一个任务会导致tsx锁死(切换到opengl可解)其他任务不影响.
+&#13;
+SPU LLVM卡死概率中,完成任务和开始任务时候会触发卡死.低概率可以完成任务.多试几次总会过的.依然可以切SPU解决但是帧数个位数,也不推荐.
+&#13;
+画面定住概率低,基本上声音先停顿之后就是卡死
+&#13;
+------------------------------------
+&#13;
+版本 
+&#13;
+RPCS3 v0.0.7-9142-9a8c59a1 Alpha | HEAD | Firmware version: 4.82
+&#13;
+9600KF OC 4.9G
+&#13;
+默认下完全可以流畅运行,但是会卡死,两个错误
+&#13;
+其中一个错误可以通过把vulkan切换成opengL来解决,原因是vulkan太快了.代价-10帧
+&#13;
+-----------------------------------
+&#13;
+版本
+&#13;
+ v0.0.6-7935 Alpha  
+&#13;
+其实这模拟器只有少部分正常玩,到现在根本不完善.
+&#13;
+就算你有9900K 5G 暂时流畅别想.
+&#13;
+注意标题只是进入,但是如果不选择最低速 PPU Decoder 则不能完成任务.
+&#13;
+右键游戏 copy info - copy serial
+&#13;
+然后再
+&#13;
+\dev_hdd0\game下建立
+&#13;
+&lt;serial&gt;_INSTALL文件夹
+&#13;
+例如
+&#13;
+BLAS50618_INSTALL反正目录树弄成这个样子
+&#13;
+dev_hdd0\game\BLAS50618_INSTALL\USRDIR\这样安装过程就可以正确完成了
+&#13;
+但是显示不正确,机甲全黑(明显是贴图丢失).
+&#13;
+把写入颜色缓冲(wirte color buffers)打勾
+&#13;
+显示正常(并不能完全修正)
+&#13;
+序章过后下一关必然卡死,退出AC测试小概率卡死,载入过程中小小概率卡死
+&#13;
+(PPU decoder 改成最低速 可以完成关卡 不会卡死 但是速度更加不流畅)
+&#13;
+错误都是一样的
+&#13;
+不知道什么时候(fastest/fast)修正
+&#13;
+做个记录
+&#13;
+https://i.loli.net/2019/04/08/5cab1b707df3a.png
+&#13;
+https://i.loli.net/2019/04/08/5cab345f848b4.png</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>rpcs3-ACFA测试报告[大概能正常游玩]</span><br>
+<span> 本帖最后由 塔奇克马 于 2020-1-20 23:37 编辑 </span><br>
+<span>GPU选项需要取消wirte color buffers才能正常进入游戏关卡</span><br>
+<span>ACFA不会陷入地下了,我记得之前有这个bug,出了自身机体渲染问题以外.</span><br>
+<span>打了个boss没有问题,也没有像审判一样切换关卡卡死.</span><br>
+<span>测试时间不长.</span><br>
+<span>RPCS3 v0.0.7-9231-6388c980 Alpha | HEAD | Firmware version: 4.85 -20191219</span><br>
+<span>最近这个版本更新后你会发现进不去了,卡住在检测网络,解决办法就是修改network那里为 获取IP或者IP已经获取</span><br>
+<span>-----------------------------------------------------</span><br>
+<span>RPCS3 v0.0.7-9164-429a76a1 Alpha | HEAD | Firmware version: 4.85</span><br>
+<span>opengl多数任务会有显示错误.不知道是不是A卡原因</span><br>
+<span>建议使用Vulkan,第一个任务会导致tsx锁死(切换到opengl可解)其他任务不影响.</span><br>
+<span>SPU LLVM卡死概率中,完成任务和开始任务时候会触发卡死.低概率可以完成任务.多试几次总会过的.依然可以切SPU解决但是帧数个位数,也不推荐.</span><br>
+<span>画面定住概率低,基本上声音先停顿之后就是卡死</span><br>
+<span>------------------------------------</span><br>
+<span>版本 </span><br>
+<span>RPCS3 v0.0.7-9142-9a8c59a1 Alpha | HEAD | Firmware version: 4.82</span><br>
+<span>9600KF OC 4.9G</span><br>
+<span>默认下完全可以流畅运行,但是会卡死,两个错误</span><br>
+<span>其中一个错误可以通过把vulkan切换成opengL来解决,原因是vulkan太快了.代价-10帧</span><br>
+<span>-----------------------------------</span><br>
+<span>版本</span><br>
+<span> v0.0.6-7935 Alpha  </span><br>
+<span>其实这模拟器只有少部分正常玩,到现在根本不完善.</span><br>
+<span>就算你有9900K 5G 暂时流畅别想.</span><br>
+<span>注意标题只是进入,但是如果不选择最低速 PPU Decoder 则不能完成任务.</span><br>
+<span>右键游戏 copy info - copy serial</span><br>
+<span>然后再</span><br>
+<span>\dev_hdd0\game下建立</span><br>
+<span><serial>_INSTALL文件夹</span><br>
+<span>例如</span><br>
+<span>BLAS50618_INSTALL反正目录树弄成这个样子</span><br>
+<span>dev_hdd0\game\BLAS50618_INSTALL\USRDIR\这样安装过程就可以正确完成了</span><br>
+<span>但是显示不正确,机甲全黑(明显是贴图丢失).</span><br>
+<span>把写入颜色缓冲(wirte color buffers)打勾</span><br>
+<span>显示正常(并不能完全修正)</span><br>
+<span>序章过后下一关必然卡死,退出AC测试小概率卡死,载入过程中小小概率卡死</span><br>
+<span>(PPU decoder 改成最低速 可以完成关卡 不会卡死 但是速度更加不流畅)</span><br>
+<span>错误都是一样的</span><br>
+<span>不知道什么时候(fastest/fast)修正</span><br>
+<span>做个记录</span><br>
+<img src="https://i.loli.net/2019/04/08/5cab1b707df3a.png" title="https://i.loli.net/2019/04/08/5cab1b707df3a.png"><br>
+<img src="https://i.loli.net/2019/04/08/5cab345f848b4.png" title="https://i.loli.net/2019/04/08/5cab345f848b4.png"><br>
+</p><p><b>Samvery: </b><br>
+<span>感谢教程</span><br>
+<span>—— 來自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>空罐子: </b><br>
+<span>RPCS3现在就玩玩机战，P5，战神，蛇2U吧。</span><br>
+<span>这几个模拟效果好还有中文。</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>感谢，但更想用模拟器玩fa，不知道那个地图无限坠落问题修复了没</span><br>
+<span>v的话游戏版本应该还是1.0？那就能上未削弱的最强配置了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>更新,完全流畅,但是会卡死.</span><br>
+</p><p><b>张超杰: </b><br>
+<span> 本帖最后由 张超杰 于 2019-11-17 16:26 编辑 </span><br>
+<span>编辑</span><br>
+</p><p><b>jowawawa: </b><br>
+<span>画面怎样，实机帧数低又模糊</span><br>
+</p><p><b>ssd: </b><br>
+<span>服务器都关了多少年了</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>马克一下</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>就想等4系V系能模拟，我已经不指望FS出续作或者HD了</span><br>
+<span>毕竟大家都知道的秘密是宫崎英高讨厌机甲 </span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>慕容断月 发表于 2019-11-17 21:06</span><br>
+<span>就想等4系V系能模拟，我已经不指望FS出续作或者HD了</span><br>
+<span>毕竟大家都知道的秘密是宫崎英高讨厌机甲...</span><br>
+<span>估计有点难啊,这游戏没人提交错误.</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>塔奇克马 发表于 2019-11-17 21:32</span><br>
+<span>估计有点难啊,这游戏没人提交错误.</span><br>
+<span>毕竟过气小众</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>慕容断月 发表于 2019-11-17 23:53</span><br>
+<span>毕竟过气小众</span><br>
+<span>试了下ac4,教程过完就死那了.这bug一年了吧.</span><br>
+</p><p><b>xgazer: </b><br>
+<span>虽说OW设定酷得不行，那个启动时花屏效果和掉帧真是有绝招的感觉。</span><br>
+<span>但是原来玩的时候我基本就没打中过人</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>我有个问题，我连游戏都进不去，就在点开游戏后读蓝条，读完就死机了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-11-18 12:33 编辑 </span><br>
+<span>悲叹的夜想曲 发表于 2019-11-18 12:25</span><br>
+<span>我有个问题，我连游戏都进不去，就在点开游戏后读蓝条，读完就死机了 ...</span><br>
+<span>哪个蓝条?第一次要安装到硬盘,这部分死机还是别的地方?</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>塔奇克马 发表于 2019-11-18 12:30</span><br>
+<span>哪个蓝条?第一次要安装到硬盘,这部分死机还是别的地方?</span><br>
+<span>就是第一次安装到硬盘，蓝条读满就不动，然后就死机了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>悲叹的夜想曲 发表于 2019-11-18 12:57</span><br>
+<span>就是第一次安装到硬盘，蓝条读满就不动，然后就死机了</span><br>
+<span>按照主贴里面建立文件夹了吗?</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>塔奇克马 发表于 2019-11-18 13:05</span><br>
+<span>按照主贴里面建立文件夹了吗?</span><br>
+<span>建了呀，应该是这样吧</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-11-18 13:42 编辑 </span><br>
+<span>悲叹的夜想曲 发表于 2019-11-18 13:26</span><br>
+<span>建了呀，应该是这样吧</span><br>
+<span>那就不清楚喽,你这个是什么版本啊,是中文版之后打1.02补丁那个版本吗?不同版本这个号也是不一样的</span><br>
+<span>另外这个文件夹下如果没有生成东西,说明还是文件夹问题.</span><br>
+</p><p><b>realgyf1985: </b><br>
+<span>xgazer 发表于 2019-11-18 11:48</span><br>
+<span>虽说OW设定酷得不行，那个启动时花屏效果和掉帧真是有绝招的感觉。</span><br>
+<span>但是原来玩的时候我基本就没打中过人</span><br>
+<span>请问一下，我现在有5和资料片，该玩哪一个？当年玩5玩了一半，听说本地单人玩拿不到所有武器，OW啥的都得去打网站才能玩到，于是就没动力了。</span><br>
+<span>资料片会不会好一点？</span><br>
+</p><p><b>xgazer: </b><br>
+<span>realgyf1985 发表于 2019-11-18 15:27</span><br>
+<span>请问一下，我现在有5和资料片，该玩哪一个？当年玩5玩了一半，听说本地单人玩拿不到所有武器，OW啥的都得 ...</span><br>
+<span>战役不一样，审判日有额外的零件。OW我记得没有必须网战才能拿到的，打通战役应该就全有了。</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>塔奇克马 发表于 2019-11-18 13:40</span><br>
+<span>那就不清楚喽,你这个是什么版本啊,是中文版之后打1.02补丁那个版本吗?不同版本这个号也是不一样的</span><br>
+<span> ...</span><br>
+<span>我也不知道是什么版本，文件夹里也没东西</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>悲叹的夜想曲 发表于 2019-11-18 16:33</span><br>
+<span>我也不知道是什么版本，文件夹里也没东西</span><br>
+<span>你右键复制下serial看看.</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>塔奇克马 发表于 2019-11-18 11:37</span><br>
+<span>试了下ac4,教程过完就死那了.这bug一年了吧.</span><br>
+<span>太惨了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>慕容断月 发表于 2019-11-18 20:09</span><br>
+<span>太惨了</span><br>
+<span>对比战神3,今天更新解决了卡死问题,已经可以玩了.出了配置要求有些高.但是这几天更新后战神升天又进不去了.</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>塔奇克马 发表于 2019-11-18 22:48</span><br>
+<span>对比战神3,今天更新解决了卡死问题,已经可以玩了.出了配置要求有些高.但是这几天更新后战神升天又 ...</span><br>
+<span>呜哇……太惨了</span><br>
+<span>我去看看一些冷门游戏咋样</span><br>
+<span>KT家的波涛协奏曲倒是模拟的巨完美，还不吃配置</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>更新能玩,但是高概率任务结算死机.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>dhddhh 发表于 2019-4-9 11:41</span><br>
+<span>感谢，但更想用模拟器玩fa，不知道那个地图无限坠落问题修复了没</span><br>
+<span>v的话游戏版本应该还是1.0？那就能 ...</span><br>
+<span>fa测试报告更新,没有陷落了.</span><br>
+<span>版本 RPCS3v0.0.8-9414-5ef3465f Alpha-Firmware version: 4.85</span><br>
+</p><p><b>钢铁侠: </b><br>
+<span>哪里有ps3忍龙的下载</span><br>
+</p><p><b>nozomitech: </b><br>
+<span>我只关心什么时候合金装备4能正常玩</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>塔奇克马 发表于 2020-1-20 23:32</span><br>
+<span>fa测试报告更新,没有陷落了.</span><br>
+<span>版本 RPCS3v0.0.8-9414-5ef3465f Alpha-Firmware version: 4.85</span><br>
+<span>2020年1月份听到的最好的消息</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>得找个时间学学从ps3里把存档和游戏光盘的内容导入到电脑上了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>dhddhh 发表于 2020-1-21 08:48</span><br>
+<span>得找个时间学学从ps3里把存档和游戏光盘的内容导入到电脑上了</span><br>
+<span>打第二个ac无法载入会卡死[非主线?],为啥贴吧那位全S了?难道新版某些关卡会有问题?</span><br>
+<span>第一次不知道怎么进去的,失败了,后面不知道怎么进不去了.</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>dhddhh 发表于 2020-1-21 08:48</span><br>
+<span>得找个时间学学从ps3里把存档和游戏光盘的内容导入到电脑上了</span><br>
+<span>存档导入会陷入一个非常棘手的问题：存档所属的用户ID</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>慕容断月 发表于 2020-1-21 12:54</span><br>
+<span>存档导入会陷入一个非常棘手的问题：存档所属的用户ID</span><br>
+<span>xenia好像能玩ac4,也不知道真假.</span><br>
+<span>等我下完试试看</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>塔奇克马 发表于 2020-1-21 12:49</span><br>
+<span>打第二个ac无法载入会卡死[非主线?],为啥贴吧那位全S了?难道新版某些关卡会有问题?</span><br>
+<span>第一次 ...</span><br>
+<span>貌似又出新版模拟器了，影响这么大的么</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>慕容断月 发表于 2020-1-21 12:54</span><br>
+<span>存档导入会陷入一个非常棘手的问题：存档所属的用户ID</span><br>
+<span>想想算了，到时候还是重头再打一次也不会浪费太多时间。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2020-1-21 13:27 编辑 </span><br>
+<span>dhddhh 发表于 2020-1-21 13:06</span><br>
+<span>想想算了，到时候还是重头再打一次也不会浪费太多时间。</span><br>
+<span>换了几个版本了.应该不是版本问题.</span><br>
+<span>那位用的9300,也不能解决.</span><br>
+<span>清除缓存,清除显卡着色器缓存.</span><br>
+<span>都没效果呢.</span><br>
+<span>楼主凉了,进都进不去了.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822783[0-50]</guid>
+    </item>
+  </channel>
+</rss>

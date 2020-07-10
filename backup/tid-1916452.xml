@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何搞定win不在Recent这个文件夹创建使用纪录？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何搞定win不在Recent这个文件夹创建使用纪录？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:52:07 +0000</lastBuildDate>
+    <item>
+      <title>如何搞定win不在Recent这个文件夹创建使用纪录？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916452-1-1.html</link>
+      <description>如何搞定win不在Recent这个文件夹创建使用纪录？&#13;
+ 本帖最后由 hein 于 2020-2-29 19:22 编辑 
+
+win喜欢在Recent拉屎
+&#13;
+就算去掉“在快速访问中显示最近使用的文件”与“在快速访问中显示常用文件夹”两项前的勾选，它还是喜欢在Recent拉屎everthing搜索，用过的文件什么常会多一个一样名字的快捷方式在Recent文件夹
+&#13;
+粗暴的方法是rename recenet，然后建一个只读的recenet文件
+&#13;
+就可以是随便删了username\AppData\Roaming\Microsoft\Windows\Recent文件夹
+&#13;
+但是带来的一个最大的问题是，对任务栏固定的程序和运行的程序图标点击右键，只有“关闭”和“固定到任务栏/取消固定”这两个选项
+&#13;
+右键功能不能出现程序小图标和次一级目录“属性”、“固定到开始栏”“打开文件位置”“以管理员方式启动”等内容
+&#13;
+简直了 </description>
+      <content:encoded><![CDATA[<p><b>hein: </b><br>
+<span>如何搞定win不在Recent这个文件夹创建使用纪录？</span><br>
+<span> 本帖最后由 hein 于 2020-2-29 19:22 编辑 </span><br>
+<span>win喜欢在Recent拉屎</span><br>
+<span>就算去掉“在快速访问中显示最近使用的文件”与“在快速访问中显示常用文件夹”两项前的勾选，它还是喜欢在Recent拉屎everthing搜索，用过的文件什么常会多一个一样名字的快捷方式在Recent文件夹</span><br>
+<span>粗暴的方法是rename recenet，然后建一个只读的recenet文件</span><br>
+<span>就可以是随便删了username\AppData\Roaming\Microsoft\Windows\Recent文件夹</span><br>
+<span>但是带来的一个最大的问题是，对任务栏固定的程序和运行的程序图标点击右键，只有“关闭”和“固定到任务栏/取消固定”这两个选项</span><br>
+<span>右键功能不能出现程序小图标和次一级目录“属性”、“固定到开始栏”“打开文件位置”“以管理员方式启动”等内容</span><br>
+<span>简直了 </span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-29 20:40 编辑 </span><br>
+<span>组策略里有个关闭用户跟踪可以试试，还有个不保留打开文档记录</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>借楼问一下，我win10好像出bug了…开始菜单里面的最近添加一直削除不掉…麻烦的要死有什么解决办法吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916452[0-50]</guid>
+    </item>
+  </channel>
+</rss>

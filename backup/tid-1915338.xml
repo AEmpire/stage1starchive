@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>最近在做给视频网站开启画中画模式的油猴，有需自取。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>最近在做给视频网站开启画中画模式的油猴，有需自取。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:00:32 +0000</lastBuildDate>
+    <item>
+      <title>最近在做给视频网站开启画中画模式的油猴，有需自取。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915338-1-1.html</link>
+      <description>最近在做给视频网站开启画中画模式的油猴，有需自取。&#13;
+因为最近比较肝所以喜欢一边看娱乐视频一边肝代码。
+&#13;
+所以前几天看了某个大佬的给bilibili开画中画的油猴。
+&#13;
+然后发现停止维护了所以不能用了。
+&#13;
+然后稍稍维护了一下，并且做了一些改造。
+&#13;
+然后现在支持Bilibili，acfun，icourse163.org。
+&#13;
+https://github.com/XenoAmess/EnablePIP有兴趣的可以自己拿。
+&#13;
+有啥别的网站想做的可以找我，我抽空可以试试。
+&#13;
+因为简单做了一下约束所以改动起来还挺快的现在。
+&#13;
+差不多一小时左右能新加一个吧。
+&#13;
+效果图：</description>
+      <content:encoded><![CDATA[<p><b>??????: </b><br>
+<span>最近在做给视频网站开启画中画模式的油猴，有需自取。</span><br>
+<span>因为最近比较肝所以喜欢一边看娱乐视频一边肝代码。</span><br>
+<span>所以前几天看了某个大佬的给bilibili开画中画的油猴。</span><br>
+<span>然后发现停止维护了所以不能用了。</span><br>
+<span>然后稍稍维护了一下，并且做了一些改造。</span><br>
+<span>然后现在支持Bilibili，acfun，icourse163.org。</span><br>
+<span>https://github.com/XenoAmess/EnablePIP有兴趣的可以自己拿。</span><br>
+<span>有啥别的网站想做的可以找我，我抽空可以试试。</span><br>
+<span>因为简单做了一下约束所以改动起来还挺快的现在。</span><br>
+<span>差不多一小时左右能新加一个吧。</span><br>
+<span>效果图：</span><br>
+</p><p><b>hein: </b><br>
+<span>vivadli浏览器倒是自带这功能，可以比较比较，那个是通用什么网站都能画中画</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>右键菜单出来得有点迟，把脚本第13行500改成5后感觉好多了</span><br>
+<img src="https://ae01.alicdn.com/kf/Hbd6a29fafff54bbba24b5f4f023aca47p.jpg" title="https://ae01.alicdn.com/kf/Hbd6a29fafff54bbba24b5f4f023aca47p.jpg"><br>
+</p><p><b>s1-5-5: </b><br>
+<span>firefox直接可以好像，就是不太方便</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>额，其实各大浏览器都有对应的PiP模式通用插件，楼主的脚本好像还要手动添加网站支持，想问问优势在哪里。</span><br>
+<span>chrome的pip插件(by Google):https://chrome.google.com/websto ... jojocmhlaklaeopbecg</span><br>
+<span>火狐在71版本之后自带PiP模式。</span><br>
+</p><p><b>??????: </b><br>
+<span>Nanachi 发表于 2020-2-23 22:17</span><br>
+<span>额，其实各大浏览器都有对应的PiP模式通用插件，楼主的脚本好像还要手动添加网站支持，想问问优势在哪里。</span><br>
+<span> ...</span><br>
+<span>emm菜单栏风格更协调？</span><br>
+<span>没什么额外的优点，毕竟只是调用chrome自带的PIP而已</span><br>
+</p><p><b>??????: </b><br>
+<span>小隐隐于自宅 发表于 2020-2-23 22:08</span><br>
+<span>右键菜单出来得有点迟，把脚本第13行500改成5后感觉好多了</span><br>
+<span>这个只能自己权衡吧。。暴力轮询写的，5就是5ms检测一次，500就是500ms检测一次。</span><br>
+<span>理所当然5ms一次会更卡，但是考虑到现在硬件性能普遍过剩所以也无所谓吧大概。</span><br>
+</p><p><b>hein: </b><br>
+<span>?????? 发表于 2020-2-23 22:27</span><br>
+<span>emm菜单栏风格更协调？</span><br>
+<span>没什么额外的优点，毕竟只是调用chrome自带的PIP而已 ...</span><br>
+<span>不能飞弹幕，你整成可以飞弹幕就灵了</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>Firefox 自带的画中画其实挺方便的</span><br>
+<img src="http://tva2.sinaimg.cn/large/006ajUXPly1gc6pi7103zj31pg0wu45w.jpg" title="http://tva2.sinaimg.cn/large/006ajUXPly1gc6pi7103zj31pg0wu45w.jpg"><br>
+</p><p><b>临界点: </b><br>
+<span>hein 发表于 2020-2-23 22:35</span><br>
+<span>不能飞弹幕，你整成可以飞弹幕就灵了</span><br>
+<span>用360极速b站就有弹幕   但爱奇艺之类的就不行</span><br>
+</p><p><b>麻花疼: </b><br>
+<span>火狐自带这个功能。。</span><br>
+</p><p><b>FishHawk: </b><br>
+<span> 本帖最后由 FishHawk 于 2020-2-23 23:55 编辑 </span><br>
+<span>这样敲代码的时候不会有点挡吗？有办法做到半透明吗？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Onelooker: </b><br>
+<span>我一直以为这是基础功能，后来发现竟然大多数都用不了</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>空手回家，家里电脑带不动火狐换成chrome才知道原来这不是基本功能。</span><br>
+</p><p><b>cangyuyao: </b><br>
+<span>能不能加一个默认多少大小的设置，或者原生PIP有没有这个功能？</span><br>
+<span>Opera的video pop-out又被chrome搞死了……PIP每次打开都太小了</span><br>
+</p><p><b>獓的一声: </b><br>
+<span>多谢</span><br>
+</p><p><b>乡之先达: </b><br>
+<span>chrome不是对视频双击右键就有画中画了吗。</span><br>
+</p><p><b>??????: </b><br>
+<span>hein 发表于 2020-2-23 22:35</span><br>
+<span>不能飞弹幕，你整成可以飞弹幕就灵了</span><br>
+<span>这个真超出我能力范围了，抱歉。</span><br>
+</p><p><b>??????: </b><br>
+<span>乡之先达 发表于 2020-2-24 08:54</span><br>
+<span>chrome不是对视频双击右键就有画中画了吗。</span><br>
+<span>是的，双击一般就会有。不过某些变态的网站比如www.icourse163.org出于某些目的就给封了。。封了。</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>chrome 的官方扩展有 bug，调整大小会移到屏幕外</span><br>
+</p><p><b>7七麦: </b><br>
+<span>chrome我记得有这个功能啊，还比火狐早，只是当时用的时候需要手动开启</span><br>
+</p><p><b>天杀包子神: </b><br>
+<span>hein 发表于 2020-2-23 22:35</span><br>
+<span>不能飞弹幕，你整成可以飞弹幕就灵了</span><br>
+<span>separate window 推荐给你</span><br>
+<span>https://chrome.google.com/websto ... aeabfcmmglhnfkfnpon</span><br>
+</p><p><b>天杀包子神: </b><br>
+<span> 本帖最后由 天杀包子神 于 2020-2-25 19:06 编辑 </span><br>
+<span>另外B站在自定义右键菜单出现的情况下再右键一次视频 出现的标准菜单里自带画中画...</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915338[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求问经济学基础，用cpi算通货膨胀率</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求问经济学基础，用cpi算通货膨胀率</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:48:19 +0000</lastBuildDate>
+    <item>
+      <title>求问经济学基础，用cpi算通货膨胀率[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916956-1-1.html</link>
+      <description>求问经济学基础，用cpi算通货膨胀率&#13;
+查到的用cpi算通胀的公式是：今年的通胀=（今年cpi-去年cpi）/去年cpi*100%
+&#13;
+可如果是这样的话，如果去年cpi是负1%，今年正15%，通胀就是(15%-(-1%))/-1%*100%=-1600%
+&#13;
+或者反过来，去年1%，今年负15%，通胀就是(-15%-1%)/1%*100%=-1600%
+&#13;
+无论物价涨跌，通胀都是负数，而且1600%是什么鬼？</description>
+      <content:encoded><![CDATA[<p><b>奎拉西亚: </b><br>
+<span>求问经济学基础，用cpi算通货膨胀率</span><br>
+<span>查到的用cpi算通胀的公式是：今年的通胀=（今年cpi-去年cpi）/去年cpi*100%</span><br>
+<span>可如果是这样的话，如果去年cpi是负1%，今年正15%，通胀就是(15%-(-1%))/-1%*100%=-1600%</span><br>
+<span>或者反过来，去年1%，今年负15%，通胀就是(-15%-1%)/1%*100%=-1600%</span><br>
+<span>无论物价涨跌，通胀都是负数，而且1600%是什么鬼？</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-3-3 16:12 编辑 </span><br>
+<span>因为cpi是一个index，公布的那个百分比就已经是cpi的增长率了</span><br>
+<span>可以看统计局原文是怎么写的：2020年1月份居民消费价格同比上涨5.4%</span><br>
+<span>民间简写成1月cpi5.4%就类似于把法定代表人叫成法人那样</span><br>
+</p><p><b>奎拉西亚: </b><br>
+<span> 本帖最后由 奎拉西亚 于 2020-3-3 16:33 编辑 </span><br>
+<span>UGDJ 发表于 2020-3-3 16:04</span><br>
+<span>因为cpi是一个index，公布的那个百分比就已经是cpi的增长率了</span><br>
+<span>可以看统计局原文是怎么写的：2020年1月份居 ...</span><br>
+<span>所以上面的两个算式应该改成</span><br>
+<span>（115%-99%）/99%</span><br>
+<span>（85%-101%）/101%</span><br>
+<span>这样？</span><br>
+<span>可是这也太容易出现通缩了吧？</span><br>
+<span>去年cpi涨了50%，今年涨了30%，然后今年通胀就是（130%-150%）/150%，今年通缩了？明明物价涨了，还是大涨，居然通缩？</span><br>
+<span>难道每年cpi都高过前一年，才能保持通胀的？这也不可能啊</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>你觉得会有x%这种指数吗       人家除过了</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>奎拉西亚 发表于 2020-3-3 16:23</span><br>
+<span>所以上面的两个算式应该改成</span><br>
+<span>（115%-99%）/99%</span><br>
+<span>你看这个能不能有助于理解。它的意思是，2018年是2017年的102.1%，2017年是2016年的101.6%</span><br>
+<img src="https://i.ibb.co/Lnjs0GX/TIM-20200303181703.png" title="https://i.ibb.co/Lnjs0GX/TIM-20200303181703.png"><br>
+</p><p><b>烤烤鱼σ: </b><br>
+<span>奎拉西亚 发表于 2020-3-3 16:23</span><br>
+<span>所以上面的两个算式应该改成</span><br>
+<span>（115%-99%）/99%</span><br>
+<span>cpi是个加权平均价格去年涨了50%，今年涨了30%，那今年的cpi就是1.5*1.3=1.95.</span><br>
+</p><p><b>V2ABGundam: </b><br>
+<span>您从一开始就搞错了</span><br>
+<span>一般CPI指数本来就是增长率</span><br>
+<span>CPI=103，意味着比上一年增长3%</span><br>
+<span>您要分清CPI和CPI积累指数</span><br>
+<span>CPI积累指数才是以某一年为定基，之后积累增长的</span><br>
+<span>CPI本身都是以上一年等于100计算，所以就是增长率</span><br>
+<span>但注意CPI是消费者价格指数</span><br>
+<span>它的涵盖对象只是官方指定的消费品，不含资本品、原材料，也不喊官方未指定的消费品</span><br>
+<span>另外权重是消费者支出结构</span><br>
+<span>大意就是假设食品支出占总支出40%，住宿占总支出20%时，那么食品价格变化的权重就是0.4，住宿0.2</span><br>
+<span>所以，它并不是全部商品和服务的通货膨胀——这个一般用GDP平减价格指数，但中国官方不公布，只能自己用名义GDP和实际GDP推算</span><br>
+<span>另一个就是它的权重可能会产生严重歪曲的结果，有些价格暴涨的商品会因为权重而被稀释</span><br>
+</p><p><b>奎拉西亚: </b><br>
+<span>明白cpi和通胀之间得关系了</span><br>
+<span>那么新的问题来了</span><br>
+<span>搜索其他国家特别是鼻屎小国的经济数据时，绝大多数都已现时美金作为统计单位</span><br>
+<span>但是cpi对应的是本国货币吧？和美金之间应该还隔着一个汇率才对？</span><br>
+<span>一个国家cpi增幅2%，经济增长也是2%，那实际gdp增长就是0，但是美元暴跌了，于是这个国家以美元计算时经济就增长了，用美元gdp配合本地cpi来进行数据计算，是不是就要出偏差了？</span><br>
+</p><p><b>V2ABGundam: </b><br>
+<span> 本帖最后由 V2ABGundam 于 2020-3-4 15:04 编辑 </span><br>
+<span>奎拉西亚 发表于 2020-3-4 14:44</span><br>
+<span>明白cpi和通胀之间得关系了</span><br>
+<span>那么新的问题来了</span><br>
+<span>1）绝大多数以美金为统计单位？</span><br>
+<span>您先找到各国统计局官方网站再说这个话</span><br>
+<span>任何国家都是以自己本币核算的，无论CPI还是GDP国民经济核算</span><br>
+<span>问题只是您懒，想百度、google里一搜就拿到数据</span><br>
+<span>搜索引擎里优先提供的都是国际组织数据，为了比较当然换算成美元</span><br>
+<span>2）您获得实际GDP为什么要用CPI？</span><br>
+<span>GDP有自己的价格平减指数</span><br>
+<span>CPI是来自物价监控和居民家庭抽样调查，它不仅不含资本品、也不含进出口价格变化，甚至消费品都涵盖不齐全</span><br>
+<span>任何国家都会公布名义价格GDP，与GDP价格平减指数调整之后的可比价格GDP</span><br>
+<span>用GDP配合CPI完全错误，双方口径根本不对</span><br>
+<span>3）美元GDP分两种，一是汇率法换算，二是平价购买力法换算</span><br>
+<span>美元暴跌只影响汇率法</span><br>
+<span>平价购买力法不受影响，因为平价购买力从一开始就是指定年份的美元价格系统</span><br>
+<span>4）不知道您要算什么，但无论如何美元GDP都不能配合本地CPI</span><br>
+</p><p><b>michael357: </b><br>
+<span>index一般理解为基数为1的倍数</span><br>
+</p><p><b>michael357: </b><br>
+<span>用在计算里的话-1%应该写作0.99 10%应该写作1.1，这样才能够正确对应上index这个词的意思</span><br>
+</p><p><b>wszweill: </b><br>
+<span>奎拉西亚 发表于 2020-3-3 03:23</span><br>
+<span>所以上面的两个算式应该改成</span><br>
+<span>（115%-99%）/99%</span><br>
+<span>你1L公式里面CPI=130不是今年涨了30%，是相对基年涨了30%。一个篮菜，1990年100块，去年150,今年130.当然是通缩，要不然呢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916956[0-50]</guid>
+    </item>
+  </channel>
+</rss>

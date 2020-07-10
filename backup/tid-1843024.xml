@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>你们用过最难受的编程语言是哪一种</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>你们用过最难受的编程语言是哪一种</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:25:12 +0000</lastBuildDate>
+    <item>
+      <title>你们用过最难受的编程语言是哪一种[200-250]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843024-1-1.html</link>
+      <description>你们用过最难受的编程语言是哪一种&#13;
+我最不喜欢php，太杂乱
+&#13;
+运算符都乱七八糟，一大堆毫无规律的函数名
+&#13;
+写代码的时候像便秘一样，一会儿就要翻手册
+&#13;
+现在完全转投node.js了</description>
+      <content:encoded><![CDATA[<p><b>洗刷刷: </b><br>
+<span>plazum 发表于 2019-7-2 13:56</span><br>
+<span>我当时就是在写GUI程序，我需要从一个文件里读入信息，只不过我把问题简化成控制台而已 ...</span><br>
+<span>文件有FileStream，如果是json或是xml也有对应的库。C#的标准文件读取就是这个啊，你是怎么读文件的？</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-7-2 14:24 编辑 </span><br>
+<span>hamano_taiki 发表于 2019-7-2 14:09</span><br>
+<span>道理我都懂</span><br>
+<span>可python是强类型啊</span><br>
+<span>那大概是没有声明类型的锅？我看还是静态类型这种声明清晰易懂。python虽然强类型，但是很多时候你也搞不清楚一个变量到底是什么类型。</span><br>
+</p><p><b>hamano_taiki: </b><br>
+<span>lixianfyss 发表于 2019-7-2 14:20</span><br>
+<span>那大概是没有声明类型的锅？</span><br>
+<span>自己写typehint咯</span><br>
+</p><p><b>Tackstone: </b><br>
+<span>lukesweet 发表于 2019-6-29 12:21</span><br>
+<span>泥潭还是学生气太重，py的存在直接为业界提供了低门槛进行进阶数据分析/工程化统计计算的可能，光这 ...</span><br>
+<span>学生气反而不够吧，或者搞科研的少。当你拿到手的脚本是py而不是Fortran和perl的时候，那心情，别提多开心了</span><br>
+</p><p><b>kylinwang2014: </b><br>
+<span>看到这里也没看到你们提 prolog 我很着急啊</span><br>
+</p><p><b>plazum: </b><br>
+<span>洗刷刷 发表于 2019-7-2 14:14</span><br>
+<span>文件有FileStream，如果是json或是xml也有对应的库。C#的标准文件读取就是这个啊，你是怎么读文件的？ ...</span><br>
+<span>那个文件是别的程序生成的</span><br>
+</p><p><b>大哼哼: </b><br>
+<span>lisp，用emacs好多年都没学会。另外perl真好用</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-7-2 15:15 编辑 </span><br>
+<span>plazum 发表于 2019-7-2 13:56</span><br>
+<span>我当时就是在写GUI程序，我需要从一个文件里读入信息，只不过我把问题简化成控制台而已 ...</span><br>
+<span>我就不懂了，java的Scanner都是基于正则做的，为什么c#不能split？</span><br>
+<span>操作一下数组真的算很污的方法吗你不愿意甚至可以写个流然后regex.match 慢慢拿啊</span><br>
+<span>还有一个问题，你说控制台输入没有stringwriter，那为什么不写入到memorystream里慢慢搞</span><br>
+</p><p><b>革萌: </b><br>
+<span>至今以来 没有比Dos更讨厌的</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>plusSharp 发表于 2019-7-2 13:10</span><br>
+<span>C#这方面确实不好用，虽然C++的iostream总被批评但至少我本科做数据结构作业时C++的IO还是很方便的，我用 ...</span><br>
+<span>C++的IOSTREAM和STRINGSTREAM真的是非常厉害。</span><br>
+</p><p><b>plazum: </b><br>
+<span>すぴぱら 发表于 2019-7-2 14:59</span><br>
+<span>我就不懂了，java的Scanner都是基于正则做的，为什么c#不能split？</span><br>
+<span>操作一下数组真的算很污的方法吗</span><br>
+<span>1.split是不是要先读入一整行？</span><br>
+<span>2.那就更复杂了</span><br>
+<span>3.后面的更不用说了，一看就知道更复杂了</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>plazum 发表于 2019-7-2 16:02</span><br>
+<span>1.split是不是要先读入一整行？</span><br>
+<span>2.那就更复杂了</span><br>
+<span>3.后面的更不用说了，一看就知道更复杂了</span><br>
+<span>我就是没懂你的意思啊，难道你是面对一个几百M的大文件？</span><br>
+<span>void main(){</span><br>
+<span>            var input = " 11 222 3333 555   666";</span><br>
+<span>            var argv = input.Split(new Char[] {' '}, 5, StringSplitOptions.RemoveEmptyEntries);</span><br>
+<span>            foreach (var v in argv){</span><br>
+<span>                var target3 = Convert.ToInt32(v);</span><br>
+<span>                Debug.LogFormat("target value {0}",target3);</span><br>
+<span>            }</span><br>
+<span>      }</span><br>
+</p><p><b>plazum: </b><br>
+<span>すぴぱら 发表于 2019-7-2 16:26</span><br>
+<span>我就是没懂你的意思啊，难道你是面对一个几百M的大文件？</span><br>
+<span>void main(){</span><br>
+<span>            var input = " 11 222 ...</span><br>
+<span>连一个优雅地读一个整数的方法都没有我就想取其中一个，但是却不得不先cache一整行，这种实现太丑陋了</span><br>
+</p><p><b>丁春秋: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1769849-1-1.html</span><br>
+<span>泥潭招聘帖 结果被骂最多的c++和python给的最多 怀疑是故意的</span><br>
+</p><p><b>御风八极: </b><br>
+<span>诚司 发表于 2019-6-29 10:11</span><br>
+<span>**** 作者被禁止或删除 内容自动屏蔽 ****</span><br>
+<span>哈哈哈哈+1</span><br>
+</p><p><b>御众师: </b><br>
+<span>万恶淫猥手 发表于 2019-6-29 08:00</span><br>
+<span>你php都学不下去是怎么学下去js的？</span><br>
+<span>js只写后端的话是很舒服的，和php比起来简直可以算是优雅</span><br>
+<span>但php积累太雄厚了，几乎无论啥需求都有现成的轮子，有时候不得不用</span><br>
+<span>前端的话，反正也没的选，js必须用啊</span><br>
+</p><p><b>MakeLaugh: </b><br>
+<span>Elm</span><br>
+</p><p><b>jctc: </b><br>
+<span>我看java，python都是一坨屎</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>化肥会挥发 发表于 2019-6-29 18:08</span><br>
+<span>Js, 运不运行，怎么运行，在哪个浏览器运行，全看脸</span><br>
+<span>----发送自 STAGE1 App for Android. ...</span><br>
+<span>有什么比较好的教程或者书讲解写前端代码时怎么解决跨浏览器兼容性问题的吗？</span><br>
+</p><p><b>是这样: </b><br>
+<span>prolog其实也不能算用过，只是写相关作业就痛苦死我了</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>心二: </b><br>
+<span>马猴烧酒的微笑 发表于 2019-6-29 08:06</span><br>
+<span>Slang</span><br>
+<span>某银行专用语言</span><br>
+<span>特点是不区分大小写，变量名可以加空格，以及括号里也要加空格，像 ( Variable )这样 ...</span><br>
+<span>银行还不如提名COBOL, 编程界面一行就80个字符，一页才显示20多行，每个变量最多30个字符，要用各种缩写才够用。</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843024[200-250]</guid>
+    </item>
+    <item>
+      <title>你们用过最难受的编程语言是哪一种[150-200]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843024-1-1.html</link>
+      <description>你们用过最难受的编程语言是哪一种&#13;
+我最不喜欢php，太杂乱
+&#13;
+运算符都乱七八糟，一大堆毫无规律的函数名
+&#13;
+写代码的时候像便秘一样，一会儿就要翻手册
+&#13;
+现在完全转投node.js了</description>
+      <content:encoded><![CDATA[<p><b>电脑死机: </b><br>
+<span>風舞雪 发表于 2019-6-29 22:28</span><br>
+<span>perl学起来很爽 看起来要命 所以我对perl还是有好感的 js是真的恶心 特别是callback多了以后 没有async库...</span><br>
+<span>promise，generator，async在向你招手</span><br>
+</p><p><b>电脑死机: </b><br>
+<span>water004641 发表于 2019-6-30 00:07</span><br>
+<span>js.如果這玩意也能算是编程语言的话...</span><br>
+<span>格式诡异 执行效率低 ,关键是很多时候你还必须得用它. ...</span><br>
+<span>有es6有v8，已经好很多了，想黑人家动态类型的话，隔壁微软的typescript有事找你</span><br>
+</p><p><b>化肥会挥发: </b><br>
+<span>Js, 运不运行，怎么运行，在哪个浏览器运行，全看脸</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>千本blur: </b><br>
+<span>C可以做绝大多数佛坛可以做的事，不知道为什么还有人用佛坛。</span><br>
+</p><p><b>千本blur: </b><br>
+<span>而且就我浅薄的经验来讲，py是一门极好的语言，但不适合作为计算机工作者编程入手的第一门语言，否则只会照猫画虎，或者高级地照猫画虎。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>ReginaldMorgan 发表于 2019-6-29 08:06</span><br>
+<span>css：杂技语言，清除浮动有四种写法你知道吗.JPG</span><br>
+<span>nes-c：其实恶心的不是语言而是环境，我至今都忘不了当初 ...</span><br>
+<span>Haskell的复杂度真的有办法算清楚？</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>dkswxd 发表于 2019-6-29 09:17</span><br>
+<span>这个问题取决于verilog算不算编程语言</span><br>
+<span>算，verilog</span><br>
+<span>不算，python的那一坨环境是我见过最屎的</span><br>
+<span>Verilog本身没什么问题，但是调试环境特别不好。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>Saltychtao 发表于 2019-6-29 09:50</span><br>
+<span>复杂度不是和算法有关的吗... 和编程语言有啥关系</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9 ...</span><br>
+<span>是说分析Haskell代码的复杂度，我觉得这个真的不现实，除非懂Haskell编译器。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>acg_s1 发表于 2019-6-29 10:31</span><br>
+<span>python写起来不比C,C++,Java什么的爽多了</span><br>
+<span>很多时候弱类型有副作用。</span><br>
+</p><p><b>zw531129: </b><br>
+<span>屎一样的JS</span><br>
+</p><p><b>peter723pan: </b><br>
+<span>gimp 用的宏语言，太多（）号了。</span><br>
+<span>AutoHotKey 的脚本， 函数格式另类。感觉像是直接用win32 汇编调用API。</span><br>
+</p><p><b>yigua: </b><br>
+<span>amtcmp 发表于 2019-6-30 00:17</span><br>
+<span>虽然不是编程语言，但是vhdl这个东西是真的。。。</span><br>
+<span>《关于我怎么学会拼写architecture这个词》</span><br>
+</p><p><b>yigua: </b><br>
+<span>lixianfyss 发表于 2019-6-30 05:01</span><br>
+<span>Verilog本身没什么问题，但是调试环境特别不好。</span><br>
+<span>Verilog的问题在于需要硅农而不是码农去编写</span><br>
+<span>另外它的debug一直是可视化的，波形一开爽的一笔</span><br>
+</p><p><b>ClampZZZ: </b><br>
+<span>6页了，verilog VHDL matlab R都出来了都没人吐槽java </span><br>
+</p><p><b>witness-s1: </b><br>
+<span>ClampZZZ 发表于 2019-6-30 10:00</span><br>
+<span>6页了，verilog VHDL matlab R都出来了都没人吐槽java</span><br>
+<span>跟我念：intellij大法好</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>yigua 发表于 2019-6-30 09:32</span><br>
+<span>Verilog的问题在于需要硅农而不是码农去编写</span><br>
+<span>另外它的debug一直是可视化的，波形一开爽的一笔 ...</span><br>
+<span>这不能算Veirlog的问题吧，而且C转Verilog的尝试一直都有，只不过很容易搞出来不可综合的代码。</span><br>
+<span>波形可视化那都是几个EDA厂的工具支持，倒不如说写Verilog设计和验证的一般都是两拨人，跑一遍贼慢。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>ClampZZZ 发表于 2019-6-30 10:00</span><br>
+<span>6页了，verilog VHDL matlab R都出来了都没人吐槽java</span><br>
+<span>Java在大厂生产力领域的地位稳如泰山，吐槽Java反而显得特别外行。</span><br>
+</p><p><b>yigua: </b><br>
+<span> 本帖最后由 yigua 于 2019-6-30 16:05 编辑 </span><br>
+<span>lixianfyss 发表于 2019-6-30 13:23</span><br>
+<span>这不能算Veirlog的问题吧，而且C转Verilog的尝试一直都有，只不过很容易搞出来不可综合的代码。</span><br>
+<span>波形可视 ...</span><br>
+<span>C转Verilog的就是所谓的High Level Synthesis (HLS)</span><br>
+<span>这个我也做过，还是一样，必须找个硅农（思维）的人而非码农来写编码，否则不行</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>yigua 发表于 2019-6-30 15:38</span><br>
+<span>C转Verilog的就是所谓的High Level Synthesis (HLS)</span><br>
+<span>这个我也做过，还是一样，必须找个硅农（思维）的人而 ...</span><br>
+<span>这个还是看对业务的熟悉程度，就算是码农，不同业务之间的思维差异也可能很大，轻易没法换人。但这不是Verilog的问题，硬件的工作方式决定了HDL的风格就是跟C有区别。</span><br>
+<span>我觉得主要问题还是调试工具不够友好易用，定位错误效率很低，仿真速度慢，整个工具链非常昂贵。</span><br>
+</p><p><b>morgendave: </b><br>
+<span>Python 这么好的语言还有人各种喷，怕是都是学生吧。吐槽社区的只能说国内社区环境水准都低的令人发指</span><br>
+</p><p><b>jjyycy: </b><br>
+<span>kdb q</span><br>
+</p><p><b>Grenadier: </b><br>
+<span> 本帖最后由 Grenadier 于 2019-7-1 05:08 编辑 </span><br>
+<span>matlab和assembly</span><br>
+<span>matlab的ide用着非常难受，很多更新batch改动莫名其妙的东西，比如某次更新包把filter设计唤出键改了...</span><br>
+<span>assembly单纯就是，没什么好说的，现在码农也不怎么用，基本功</span><br>
+</p><p><b>plazum: </b><br>
+<span>C#，连一个优雅地读一个整数的方法都没有</span><br>
+<span>举一个简单的例子，在控制台输入“1 2”，很难读</span><br>
+<span>----发送自 HUAWEI DUK-AL20,Android 9</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>plazum 发表于 2019-7-2 08:48</span><br>
+<span> C#，连一个优雅地读一个整数的方法都没有 举一个简单的例子，在控制台输入“1 2”，很难读</span><br>
+<span>这看如何才算优雅了</span><br>
+<span>你要拿1还是2还是12</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>cloudian 发表于 2019-6-29 07:52</span><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40… ...</span><br>
+<span>方便goto吧</span><br>
+<span>当然这都是陋习 要被鄙视的</span><br>
+<span>—— 来自 HUAWEI EML-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>plazum: </b><br>
+<span>すぴぱら 发表于 2019-7-2 08:55</span><br>
+<span>这看如何才算优雅了</span><br>
+<span>你要拿1还是2还是12</span><br>
+<span>我输入“1 2”肯定是要1和2两个啊</span><br>
+</p><p><b>sprittee: </b><br>
+<span>pascal，编译原理写的时候一脸懵逼，主要原因是图书馆也没什么参考书</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>plazum 发表于 2019-7-2 09:06</span><br>
+<span> 我输入“1 2”肯定是要1和2两个啊</span><br>
+<span>split 还不够分吗，我觉得c++ java和python也不能一次不split全拿到手啊</span><br>
+</p><p><b>由莉亚100式: </b><br>
+<span>plazum 发表于 2019-7-2 09:06</span><br>
+<span>我输入“1 2”肯定是要1和2两个啊</span><br>
+<span>这不是2个整数么</span><br>
+</p><p><b>をすりばば: </b><br>
+<span>UncleCat 发表于 2019-6-29 07:33</span><br>
+<span>MATLAB 和 Python，特别是Python 简直搞不懂为什么会有人用这个做data analysis</span><br>
+<span>借楼帮朋友（真不是我）问一下java转data analysis怎么样</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>をすりばば 发表于 2019-7-1 17:21</span><br>
+<span>借楼帮朋友（真不是我）问一下java转data analysis怎么样</span><br>
+<span>你问错人了 我对Java 唯一的了解就是public static void main </span><br>
+</p><p><b>woodcoin: </b><br>
+<span>讨厌写强类型的 </span><br>
+<span>讨厌读弱类型的</span><br>
+</p><p><b>iriyano: </b><br>
+<span>をすりばば 发表于 2019-7-2 10:21</span><br>
+<span>借楼帮朋友（真不是我）问一下java转data analysis怎么样</span><br>
+<span>大学生没毕业的超能力者根部不存在转这个问题吧</span><br>
+</p><p><b>plazum: </b><br>
+<span>由莉亚100式 发表于 2019-7-2 09:16</span><br>
+<span>这不是2个整数么</span><br>
+<span>那我要是只想读第一个呢</span><br>
+</p><p><b>plazum: </b><br>
+<span>すぴぱら 发表于 2019-7-2 09:14</span><br>
+<span>split 还不够分吗，我觉得c++ java和python也不能一次不split全拿到手啊</span><br>
+<span>为什么要split呢，其他语言都可以只读一个token</span><br>
+</p><p><b>iriyano: </b><br>
+<span>工作的内容是分析别人的代码</span><br>
+<span>cobol,c,cpp,vb,java,python,php,js,ruby都在用</span><br>
+<span>ruby代码真的狗屎</span><br>
+<span>python自用其实没啥好吐槽的，问题是想把自己的代码给别人用比登天还难</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>plazum 发表于 2019-7-2 09:27</span><br>
+<span> 为什么要split呢，其他语言都可以只读一个token</span><br>
+<span>我就是很好奇，你有时想要一个有时想要两个，对字符串还不用数组分片，别的语言是怎样做的，别的语言又指哪些主流语言</span><br>
+</p><p><b>をすりばば: </b><br>
+<span>iriyano 发表于 2019-7-2 09:25</span><br>
+<span>大学生没毕业的超能力者根部不存在转这个问题吧</span><br>
+<span>已经社会人啦不过也只是个工作一年的辣鸡</span><br>
+<span>成天自己研究Python说想转数据分析，也不知道跟java比哪个比较好一点</span><br>
+</p><p><b>ColdHumour: </b><br>
+<span>perl，真的跟天书一样，很早以前实习的时候老板只会perl就硬着头皮学着写，写了几个月真心难受</span><br>
+<span>后来来了个高级员工懂python，我就全都写python了</span><br>
+</p><p><b>永不加赋: </b><br>
+<span>化肥会挥发 发表于 2019-6-30 01:08</span><br>
+<span>Js, 运不运行，怎么运行，在哪个浏览器运行，全看脸</span><br>
+<span>----发送自 STAGE1 App for Android. ...</span><br>
+<span>js写写后端还是挺舒服的</span><br>
+<span>要是前端底层js+html+css，要跨浏览器的话，就太难受了，简直想死</span><br>
+<span>但是一般人也没必要去硬刚底层，至少用个jquery，那就舒服多了</span><br>
+</p><p><b>plazum: </b><br>
+<span>すぴぱら 发表于 2019-7-2 09:32</span><br>
+<span>我就是很好奇，你有时想要一个有时想要两个，对字符串还不用数组分片，别的语言是怎样做的，别的语言又指 ...</span><br>
+<span>比如现在输入</span><br>
+<span>1 2</span><br>
+<span>我就想读入</span><br>
+<span>1</span><br>
+<span>到一个变量里</span><br>
+<span>比如，C语言可以</span><br>
+<span>scanf("%d", &a);</span><br>
+<span>Java可以</span><br>
+<span>Scanner sc = new Scanner(System.in);</span><br>
+<span>a = sc.nextInt();</span><br>
+<span>但是C#没有这样直接的方法</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>plazum 发表于 2019-7-2 11:39</span><br>
+<span>比如现在输入</span><br>
+<span>1 2</span><br>
+<span>我就想读入</span><br>
+<span>用stream类就行啊，不要直接readline，先放进stream再read。我用C#最大的感触就是只有我不知道的库和API，不会没有这个功能。</span><br>
+</p><p><b>plazum: </b><br>
+<span>洗刷刷 发表于 2019-7-2 11:54</span><br>
+<span>用stream类就行啊，不要直接readline，先放进stream再read。我用C#最大的感触就是只有我不知道的库和API ...</span><br>
+<span>我查了一下，Stream的Read方法只能读进一个字节块，不能把用文本表示的数字转换成数字</span><br>
+<span>要不然你直接说怎么用吧</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>plazum 发表于 2019-7-2 11:39</span><br>
+<span>比如现在输入</span><br>
+<span>1 2</span><br>
+<span>我就想读入</span><br>
+<span>我还以为你想说需要读入两个数字，那样的话C++比C简单得多：</span><br>
+<span>int a,b;</span><br>
+<span>cin>>a>>b;</span><br>
+<span>控制台直接输入1 2就行</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plazum: </b><br>
+<span>plusSharp 发表于 2019-7-2 12:17</span><br>
+<span>我还以为你想说需要读入两个数字，那样的话C++比C简单得多：</span><br>
+<span>int a,b;</span><br>
+<span>cin>>a>>b;</span><br>
+<span>我只是在批判C#，C++的这个我知道</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>plazum 发表于 2019-7-2 12:12</span><br>
+<span>我查了一下，Stream的Read方法只能读进一个字节块，不能把用文本表示的数字转换成数字</span><br>
+<span>要不然你直接说怎 ...</span><br>
+<span>steam类要搭配write和read使用，如果是字符串请使用StringWriter和StringReder。每一次write对应一次read。当用户输入，调用writer（）写入流，需要获取使用read（），如果想先读取后面的也有相应的跳过。</span><br>
+<span>C#对强类型有近乎病态的执着，毕竟光是数字类型就有11种。字符串转数字不适用隐式转换，你需要显式调用Parse（）。</span><br>
+<span>我承认C#对类型的要求过于繁琐，但是你和你的同事日后会感谢这一点。</span><br>
+</p><p><b>plazum: </b><br>
+<span>洗刷刷 发表于 2019-7-2 12:34</span><br>
+<span>steam类要搭配write和read使用，如果是字符串请使用StringWriter和StringReder。每一次write对应一次read ...</span><br>
+<span>所以说明我的说法是正确的；因为我在控制台输入“1 2”的时候是不存在什么StringWriter的，所以这显然不能解决这个需求的问题（设想我们已经有了这样的文件，我显然不可能重新制作一遍已有的文件）</span><br>
+</p><p><b>plusSharp: </b><br>
+<span> 本帖最后由 plusSharp 于 2019-7-2 13:11 编辑 </span><br>
+<span>plazum 发表于 2019-7-2 12:19</span><br>
+<span>我只是在批判C#，C++的这个我知道</span><br>
+<span>C#这方面确实不好用，虽然C++的iostream总被批评但至少我本科做数据结构作业时C++的IO还是很方便的，我用C#主要是写网页和需要GUI的桌面程序而很少写控制台程序。</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plazum: </b><br>
+<span>plusSharp 发表于 2019-7-2 13:10</span><br>
+<span>C#这方面确实不好用，虽然C++的iostream总被批评但至少我本科做数据结构作业时C++的IO还是很方便的，我用 ...</span><br>
+<span>我当时就是在写GUI程序，我需要从一个文件里读入信息，只不过我把问题简化成控制台而已</span><br>
+</p><p><b>hamano_taiki: </b><br>
+<span>lixianfyss 发表于 2019-06-30 05:05:47</span><br>
+<span>很多时候弱类型有副作用。道理我都懂</span><br>
+<span>可python是强类型啊</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843024[150-200]</guid>
+    </item>
+    <item>
+      <title>你们用过最难受的编程语言是哪一种[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843024-1-1.html</link>
+      <description>你们用过最难受的编程语言是哪一种&#13;
+我最不喜欢php，太杂乱
+&#13;
+运算符都乱七八糟，一大堆毫无规律的函数名
+&#13;
+写代码的时候像便秘一样，一会儿就要翻手册
+&#13;
+现在完全转投node.js了</description>
+      <content:encoded><![CDATA[<p><b>ClampZZZ: </b><br>
+<span>绝对是php</span><br>
+<span>楼上还有提verilog的兄台，对不起，虽然我十年前也写过，但是感觉它真的不能算编程语言...</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>lukesweet 发表于 2019-6-28 21:44</span><br>
+<span>Hofert吗，想起来你是水卢的了</span><br>
+<span>当时的mixed copula fit是有问题的，后来我和导师自己实现了一遍， ...</span><br>
+<span>有bug 很正常啦我也没说Python 就罪大恶极，毕竟自己还在用着keras tf pytorch 什么的说真香。但LZ 的问题不是我用过的吗，对于在校生来说还是R 用得顺手所以thesis 都是用R 写的，没有GIL 百来个核跑起simulation 美滋滋，不过为了今后工作捏着鼻子也在逼自己用Python 就是了</span><br>
+<span>Hofert 自己也吐槽过，他三天两头收到邮件已经懒得回了，除非认识的人找他才会看一下，反正大家都知道有bug 就无所谓了。我有个学长之前倒是想写一个新的copula 包不过他毕业去了industry 估计也黄了</span><br>
+</p><p><b>mlfans: </b><br>
+<span>话说最简单的编程语言是不是VB？</span><br>
+<span>—— 來自 samsung SM-G9650, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>世界上只有两种语言，被人骂的语言和没人用的语言</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>matlab，最麻烦的一点是不允许同一个文件里既写直接允许的脚本，又定义函数，自带的编辑器又比较难用。</span><br>
+<span>整个MATLAB给我的感觉就是，不得不用，又懒得去深究里面的东西。因为感觉设计得比较屎，而且我以后也不准靠这个混饭吃。</span><br>
+<span>不过MATLAB的代码要移植到PYTHON还是挺容易的，基本只要注意下标就好。只不过之前遇到有拿C还是C++编译成MATLAB可调用的函数是真的蛋疼。</span><br>
+<span>另外，JS比起以前越来越好了（指各种语法糖），虽然整个生态确实挺乱的，但也正说明生命力强。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>没人提forth 看来是太冷了</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>yikaa 发表于 2019-6-29 10:12</span><br>
+<span>汇编。</span><br>
+<span>这学期刚学完，写递归我都是先写了c的版本，再人肉翻译成汇编的。不知道直接写汇编的人有多强大，大 ...</span><br>
+<span>编译器可以调输出汇编的，改下注释就可以交了</span><br>
+</p><p><b>白藏主: </b><br>
+<span>xxren 发表于 2019-6-29 08:45</span><br>
+<span>perl，简直恶魔之语。</span><br>
+<span>写完之后过两天你就不知道自己写的是什么东西。别人写的更别想看懂。</span><br>
+<span>perl没有之一，写代码好像写诗歌，正着写，反着写，你就是写成七律都特么能编译，连注释都不需要，因为就算看了注释也特么看不懂代码的逻辑……</span><br>
+</p><p><b>walfeds: </b><br>
+<span>梯形图</span><br>
+</p><p><b>ColinWine: </b><br>
+<span>js </span><br>
+<span>matlab</span><br>
+<span>我宁愿去写汇编。。</span><br>
+</p><p><b>Liza: </b><br>
+<span>UncleCat 发表于 2019-6-29 11:56</span><br>
+<span>不不不，Python 的统计包里面是存在错误的，R 在这上面至少要好一点</span><br>
+<span>大佬举个例子？</span><br>
+<span>我只知道float32还是64要自己照顾</span><br>
+<span>然后乘除法不是取对数改乘除会出问题</span><br>
+<span>然后scikit的label_ranking_average_precision_score()计算的不是MAP要自己写这种的</span><br>
+</p><p><b>都柏林: </b><br>
+<span>马猴烧酒的微笑 发表于 2019-6-29 08:06</span><br>
+<span>Slang</span><br>
+<span>某银行专用语言</span><br>
+<span>特点是不区分大小写，变量名可以加空格，以及括号里也要加空格，像 ( Variable )这样 ...</span><br>
+<span>高盛大佬</span><br>
+</p><p><b>Liza: </b><br>
+<span> 本帖最后由 Liza 于 2019-6-29 16:19 编辑 </span><br>
+<span>UncleCat 发表于 2019-6-29 13:10</span><br>
+<span>我自己碰到的是一个用来生成low discrepancy sequence 的包，忘了具体名字了，不过Google的话就只有这一个 ...</span><br>
+<span>这不是github上的吗？ 关py什么事，去写issue喷啊。Github上瞎几把写的多了去了。</span><br>
+<span>甚至是个travis和unittest都没有的项目。</span><br>
+<span>这也敢用。</span><br>
+</p><p><b>best: </b><br>
+<span>bash，ats，lua排名分先后</span><br>
+</p><p><b>都柏林: </b><br>
+<span>竟然没人提abap，那我提出来好了</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>cxf5102 发表于 2019-6-29 14:30</span><br>
+<span>matlab，最麻烦的一点是不允许同一个文件里既写直接允许的脚本，又定义函数，自带的编辑器又比较难用。</span><br>
+<span>整 ...</span><br>
+<span>matlab怎么就不能，在同一个文件中既有脚本又定义函数了？</span><br>
+<span>向脚本中添加函数</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>gcl（</span><br>
+</p><p><b>kts1mg: </b><br>
+<span>perl, write only language</span><br>
+</p><p><b>calmer: </b><br>
+<span>erlang。。。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>御风八极: </b><br>
+<span>绝壁cpp</span><br>
+</p><p><b>長門改: </b><br>
+<span>爬完楼</span><br>
+<span>看来py确实是初学、自学、爱好者的最佳选择。</span><br>
+</p><p><b>wddark: </b><br>
+<span>提名perl，perl鬼畜的地方太多了，</span><br>
+<span>比如perl有个鬼畜上下文的概念。</span><br>
+<span>也就是说同一个表达式，不同地方的返回结果不同。。。</span><br>
+<span>对于新人这简直鹅妹子嘤</span><br>
+<span>其实perl更接近bash，熟悉bash的话perl学习曲线倒也还好，不然的话。。秒劝退。</span><br>
+</p><p><b>NotSoGOOD: </b><br>
+<span>名如其人 brainfxxker</span><br>
+</p><p><b>illjay: </b><br>
+<span>cxf5102 发表于 2019-6-29 14:30</span><br>
+<span>matlab，最麻烦的一点是不允许同一个文件里既写直接允许的脚本，又定义函数，自带的编辑器又比较难用。</span><br>
+<span>整 ...</span><br>
+<span>+1</span><br>
+<span>调用个ode45，微分方程组还要写在另一个脚本里，有点反直觉了。</span><br>
+<span>—— 来自 HUAWEI VCE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>ClampZZZ 发表于 2019-6-29 14:03</span><br>
+<span>绝对是php</span><br>
+<span>楼上还有提verilog的兄台，对不起，虽然我十年前也写过，但是感觉它真的不能算编程语言...</span><br>
+<span>verilog 比起 vhdl 简直就是天使</span><br>
+<span>不过这么一说确实感觉更像 HTML 层面的东西</span><br>
+<span>但终究还是以并发的风格和有限的资源来描述算法和控制逻辑</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span> 本帖最后由 唐边叶介 于 2019-6-29 18:19 编辑 </span><br>
+<span>perl，看着反胃</span><br>
+<span>我相信泥潭部分硅农深有感触</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>cloudian 发表于 2019-6-29 07:52</span><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40… ...</span><br>
+<span>方便你goto呀</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>真田丸: </b><br>
+<span>UncleCat 发表于 2019-6-29 07:51</span><br>
+<span>R 的格式和C／C++ 几乎一样，比Python 清晰一万倍，而且所有你能想到的问题都有解决的包，倒是Python 用 ...</span><br>
+<span>今天什么日子，R也能嘲讽Python了</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>dkswxd 发表于 2019-6-29 16:36</span><br>
+<span>matlab怎么就不能，在同一个文件中既有脚本又定义函数了？</span><br>
+<span>向脚本中添加函数 ...</span><br>
+<span>因为我的MATLAB是R2016a（出于某种很神秘的原因，我们整个实验室都不约而同是这个版本），不过很高兴MATLAB终于有这个功能了。</span><br>
+</p><p><b>真田丸: </b><br>
+<span>UncleCat 发表于 2019-6-29 11:56</span><br>
+<span>不不不，Python 的统计包里面是存在错误的，R 在这上面至少要好一点</span><br>
+<span>喷了R的包里就没错的？</span><br>
+</p><p><b>大沢佑香: </b><br>
+<span>自己为某业务写的一个跨存储计算引擎的dsl，现在看看简直是屎</span><br>
+</p><p><b>luhuan: </b><br>
+<span>php吧，创始人缺钱吗？</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>walfeds 发表于 2019-6-29 15:02</span><br>
+<span>梯形图</span><br>
+<span>梯形图有了，G代码不能缺席</span><br>
+</p><p><b>yikaa: </b><br>
+<span>精钢魔像 发表于 2019-6-29 14:54</span><br>
+<span>编译器可以调输出汇编的，改下注释就可以交了</span><br>
+<span>道理我都懂，但是期末要考手写汇编写递归</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dorasir: </b><br>
+<span>包出错喷语言，今日新乐子</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>pyjq 发表于 2019-6-29 07:55</span><br>
+<span>虽然不是编程语言，但是十分讨厌css。想学前端，每次都被劝退。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 9上的 ...</span><br>
+<span>终于出现css了。前几年劝退过一次。。导致我至今都没有勇气学web</span><br>
+</p><p><b>leystage: </b><br>
+<span>cloudian 发表于 2019-6-29 07:52</span><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40… ...</span><br>
+<span>以10为单位，方便以后在里面插入新代码，标号15、14、13这样…</span><br>
+<span>那时候太不容易了</span><br>
+</p><p><b>黑丝后的腿毛: </b><br>
+<span>做工控，感觉汇编很直观倒是真的</span><br>
+<span>----发送自 vivo V1821A,Android 9</span><br>
+</p><p><b>千羽宸: </b><br>
+<span>php：我是脚本语言……</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>StrangerJ: </b><br>
+<span>perl</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>居然有那么多人被perl折磨过</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>自旋 发表于 2019-6-29 10:24</span><br>
+<span>现在的年轻人都不记得有个叫perl的“编程语言”了吧</span><br>
+<span>只要不超过30行</span><br>
+<span>只要每一行都有注释</span><br>
+<span>perl还是很好的</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>perl学起来很爽 看起来要命 所以我对perl还是有好感的 js是真的恶心 特别是callback多了以后 没有async库 简直要自杀</span><br>
+</p><p><b>万恶淫猥手: </b><br>
+<span>すぴぱら 发表于 2019-6-29 10:20</span><br>
+<span>python本身是个极好的语言，语法清晰简洁糖多，初学是最合适的，比c++ java js都简单。但是python社区有 ...</span><br>
+<span>你都不加type hint算什么pythonista</span><br>
+</p><p><b>万恶淫猥手: </b><br>
+<span>greentie 发表于 2019-6-29 12:02</span><br>
+<span>怪了泥潭竟然还没人喷Java</span><br>
+<span>泥潭群众：什么是Java？</span><br>
+</p><p><b>water004641: </b><br>
+<span>js.如果這玩意也能算是编程语言的话...</span><br>
+<span>格式诡异 执行效率低 ,关键是很多时候你还必须得用它.</span><br>
+</p><p><b>112zero: </b><br>
+<span>matlab和mathmatica，能用python画出的图我绝不用其他两个</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>山竹罐头: </b><br>
+<span>在下只会用python跟c，说不上谁好谁坏</span><br>
+</p><p><b>权限狗: </b><br>
+<span>几乎所有DSL</span><br>
+<span>ABAP</span><br>
+<span>— from Sony G8142, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>amtcmp: </b><br>
+<span>虽然不是编程语言，但是vhdl这个东西是真的。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843024[100-150]</guid>
+    </item>
+    <item>
+      <title>你们用过最难受的编程语言是哪一种[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843024-1-1.html</link>
+      <description>你们用过最难受的编程语言是哪一种&#13;
+我最不喜欢php，太杂乱
+&#13;
+运算符都乱七八糟，一大堆毫无规律的函数名
+&#13;
+写代码的时候像便秘一样，一会儿就要翻手册
+&#13;
+现在完全转投node.js了</description>
+      <content:encoded><![CDATA[<p><b>acg_s1: </b><br>
+<span>python写起来不比C,C++,Java什么的爽多了</span><br>
+</p><p><b>三味线的鱼: </b><br>
+<span>那么有没有最好用的编程语言？</span><br>
+</p><p><b>kumh: </b><br>
+<span>Python不喜欢的原因是，如果有个地方格式不对，逻辑爆炸！</span><br>
+<span>PHP真的是一千个人有一千种写法，接手代码就是吃屎。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>2517君: </b><br>
+<span>诚司 发表于 2019-6-29 10:11</span><br>
+<span>毫无疑问，labview …………写这个和吃屎，还是写这个难受一点…………</span><br>
+<span>这玩意与其说是编程不如说是划线</span><br>
+</p><p><b>Bymeoryou: </b><br>
+<span>Python写起来很爽，但是写完后如果过一段时间要重构就是灾难</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>有点追求: </b><br>
+<span>需要用游标卡尺的语言</span><br>
+<span>—— 来自 vivo V1824A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Dreamophobia: </b><br>
+<span>css是修饰脚本不是便乘语言啊，另外有flex布局已经不需要考虑很多的响应式浮动问题了</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>显然是yacc了</span><br>
+</p><p><b>ohi: </b><br>
+<span>python, js</span><br>
+</p><p><b>finalflying: </b><br>
+<span>无能力者，用过Python以后再也不想回到matlab</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>dhl，汇编，windows cmd</span><br>
+</p><p><b>OedoSoldier: </b><br>
+<span>ARMv8</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>すぴぱら 发表于 2019-6-29 10:20</span><br>
+<span>python本身是个极好的语言，语法清晰简洁糖多，初学是最合适的，比c++ java js都简单。但是python社区有 ...</span><br>
+<span>2.7很好啊 redhat 8继续有,起码5-10年死不了</span><br>
+<span>async要各种类库都用上了才能用, 这也起码5年起,现在根本就算不上优势</span><br>
+</p><p><b>zzzzv: </b><br>
+<span>早期的js</span><br>
+</p><p><b>北冥: </b><br>
+<span>mimighost 发表于 2019-6-29 08:14</span><br>
+<span>喷matlab的，你们可以去用一下octave，哈哈哈</span><br>
+<span>然鹅Octave不要钱</span><br>
+<span>—— 来自 HUAWEI BLA-A09, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>QShen: </b><br>
+<span>HTML 不知道算不算</span><br>
+</p><p><b>北冥: </b><br>
+<span>最近脑子进水，在用matlab写GUI，界面太难用了</span><br>
+<span>—— 来自 HUAWEI BLA-A09, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>噂の船: </b><br>
+<span>fortran啊！！！</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>enako_cosplay: </b><br>
+<span>UncleCat 发表于 2019-6-29 07:51</span><br>
+<span>R 的格式和C／C++ 几乎一样，比Python 清晰一万倍，而且所有你能想到的问题都有解决的包，倒是Python 用 ...</span><br>
+<span>统计结果错了肯定是你写错了啊   这不能赖python</span><br>
+</p><p><b>黑丝后的腿毛: </b><br>
+<span>汇编是让你用机器的方式思考啊</span><br>
+<span>----发送自 vivo V1821A,Android 9</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>无能力者现在正在用python3写脚本。</span><br>
+</p><p><b>tiro_finale: </b><br>
+<span>不喜欢python，写起来束手束脚，记得迭代器的问题搞得我很头大，可能和我没钻研太深也有关系</span><br>
+<span>反正python、matlab这些快速解决一个东西还不错，但弄完我只想立刻关掉</span><br>
+<span>标准的语言虽然都说麻烦，但那种结构感我感觉比较舒服</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>不太喜欢python的风格，不过sklearn库是真的方便</span><br>
+</p><p><b>RAMDA: </b><br>
+<span> 本帖最后由 RAMDA 于 2019-6-29 11:58 编辑 </span><br>
+<span>Saltychtao 发表于 2019-6-29 09:50</span><br>
+<span>复杂度不是和算法有关的吗... 和编程语言有啥关系</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9 ...</span><br>
+<span>我觉得是因为你们两个说的“复杂度”不是一个东西</span><br>
+<span>不过我觉得用haskell写的算法大概是没法分析复杂度的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>yikaa 发表于 2019-6-29 10:12</span><br>
+<span>汇编。</span><br>
+<span>这学期刚学完，写递归我都是先写了c的版本，再人肉翻译成汇编的。不知道直接写汇编的人有多强大，大 ...</span><br>
+<span>人肉gcc</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>alacab: </b><br>
+<span>无能力者，我觉得派森和php这样子也行那样子也可以，凑合凑合过的特性很好啊，很适合我们</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>enako_cosplay 发表于 2019-6-28 19:32</span><br>
+<span>统计结果错了肯定是你写错了啊   这不能赖python</span><br>
+<span>不不不，Python 的统计包里面是存在错误的，R 在这上面至少要好一点</span><br>
+</p><p><b>青菜子: </b><br>
+<span>喷了。。楼上都在瞎几把胡说八道，在泥潭python都不能数据分析了</span><br>
+</p><p><b>五月之雨: </b><br>
+<span>必然是go啊</span><br>
+</p><p><b>greentie: </b><br>
+<span>怪了泥潭竟然还没人喷Java</span><br>
+</p><p><b>mimighost: </b><br>
+<span>青菜子 发表于 2019-6-29 11:57</span><br>
+<span>喷了。。楼上都在瞎几把胡说八道，在泥潭python都不能数据分析了</span><br>
+<span>泥潭半桶水或者大学生太多，哈哈哈哈</span><br>
+</p><p><b>deathomega: </b><br>
+<span>sakamoko 发表于 2019-6-29 09:10</span><br>
+<span>那么问题来了，既然Python这么垃圾？为啥网上经常有人推荐它为学习的第一门语言？ ...</span><br>
+<span>这世界，所有东西都是这样。婆罗门鄙视下面的。</span><br>
+<span>做点有技术性的东西，想好好学，一开始得打好基础。</span><br>
+<span>问题是你怎么知道你想好好学？你得先拿个易学的东西入入门。学成以后大概80%的群体不会去学核心内容</span><br>
+<span>所以弱类型的东西使用的群体很大，但是真的拿来搞点事情，又不适合了。</span><br>
+<span>这东西适合让业余玩家弄一弄，尤其是MBA，几句import让你起飞。</span><br>
+</p><p><b>yoyolibra: </b><br>
+<span>不知道现在的 python 怎么样了，若干年前大学还用的 py3.3 3.4 的时候，经常能在解决包依赖的问题上花上非常多的时间</span><br>
+</p><p><b>SolarTorch: </b><br>
+<span>c用多了再去用py就像便秘 反过来也一样</span><br>
+</p><p><b>lukesweet: </b><br>
+<span>泥潭还是学生气太重，py的存在直接为业界提供了低门槛进行进阶数据分析/工程化统计计算的可能，光这两项就是大功德。</span><br>
+<span>py缺点确实不少，但优点同样很多，不然学界为什么大量的学者在用？真以为tf和skl是天生从py上长出来的啊？</span><br>
+<span>至于拿py的包里有错说事，我寻思你是没用过R的copula和hmm</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>我讨厌php和go</span><br>
+</p><p><b>netcat: </b><br>
+<span>pigbayspy 发表于 2019-6-29 12:23</span><br>
+<span>我讨厌php和go</span><br>
+<span>go那个语法简直吃💩，每次想学都能成功劝退。明明直接沿用C的就很好</span><br>
+<span>—— 来自 HUAWEI EVA-TL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>契卡: </b><br>
+<span>SKILL……</span><br>
+<span>可能很少有人见过，Cadence自己为自己工具开发的基于Lisp的脚本语言……老旧的语法、几乎不存在的社区资源加上Cadence那套用了几十年的代码的各种奇怪接口……</span><br>
+<span>妈呀，我用了以后就明白为什么硅农们能忍受用tcl+perl了</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>UncleCat 发表于 2019-6-29 11:56</span><br>
+<span>不不不，Python 的统计包里面是存在错误的，R 在这上面至少要好一点</span><br>
+<span>说下哪里错了让大伙们乐一乐</span><br>
+</p><p><b>裏世界: </b><br>
+<span>主业写python，极个别速度要求写点c++和rust贴胶水，抱怨不是太多，如果有大概是大项目debug起来有点累</span><br>
+<span>js：讨厌缝合怪，怎么写都有机会能神奇得运行起来，有种老外学中文的抓狂感</span><br>
+<span>scala：太依赖java生态了，动不动就得从java借个包，搞得风格很诡异</span><br>
+</p><p><b>a254590455: </b><br>
+<span>r本质是函数集啊。科研人员要的可不是直观的思维结构而不是运行效率</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>九八式衍射弹: </b><br>
+<span>js确实有点诡异...</span><br>
+</p><p><b>UncleCat: </b><br>
+<span> 本帖最后由 UncleCat 于 2019-6-28 21:15 编辑 </span><br>
+<span>Mocilol 发表于 2019-6-28 20:36</span><br>
+<span>说下哪里错了让大伙们乐一乐</span><br>
+<span>我自己碰到的是一个用来生成low discrepancy sequence 的包，忘了具体名字了，不过Google的话就只有这一个，不仅支持的种类不完整而且根本用不了，Python 的error message 又垃圾，根本看不出来source code 里面究竟哪里有问题</span><br>
+<span>我找到了，是一个叫sobel_seq 的包，只支持sobol normal sequence，而R 的fOption 里面支持Sobol 和Halton 的uniform 和normal sequence</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>vhdl</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>lukesweet 发表于 2019-6-28 20:21</span><br>
+<span>泥潭还是学生气太重，py的存在直接为业界提供了低门槛进行进阶数据分析/工程化统计计算的可能，光这 ...</span><br>
+<span>copula 的作者办公室就在我的斜对面，如果碰到了什么具体的问题的话我可以直接帮你转达</span><br>
+</p><p><b>gundamff: </b><br>
+<span>lua 一个方法可以有不定个数个返回值,基础类型里面包括函数</span><br>
+</p><p><b>过河小马: </b><br>
+<span> 本帖最后由 过河小马 于 2019-6-29 13:32 编辑 </span><br>
+<span>某种专用脚本语言pml。我要求不多，只要一个脚本能在同一个文件里写函数并且不是全局可见的就满足了，然而它做不到，你要么写成面条脚本，要么另开文件写函数污染全局命名空间。感觉各种专业软件自己造出来的脚本都不会太好用。</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>netcat 发表于 2019-6-29 12:31</span><br>
+<span>go那个语法简直吃💩，每次想学都能成功劝退。明明直接沿用C的就很好</span><br>
+<span>—— 来自 HUAWEI EVA-TL00, Androi ...</span><br>
+<span>我一个写c++出身的，真的很讨厌一门语言想要规制你写代码的风格，go语言真的写起来让人难受</span><br>
+</p><p><b>lukesweet: </b><br>
+<span>UncleCat 发表于 2019-6-29 13:20</span><br>
+<span>copula 的作者办公室就在我的斜对面，如果碰到了什么具体的问题的话我可以直接帮你转达 ...</span><br>
+<span>Hofert吗，想起来你是水卢的了</span><br>
+<span>当时的mixed copula fit是有问题的，后来我和导师自己实现了一遍，所以有比较深的印象。现在都毕业多年了，不知道现在还是否维护，R也不用好多年。我倒不是想吃着别人的饭还砸别人的锅，我只是想强调这种非热门包里有各种bug还真没什么办法，无论是R还是Py，无论是我说的copula包还是你说的low discrepancy sequence包。</span><br>
+</p><p><b>orangee: </b><br>
+<span>说个最近在看的破系统，用JSF写的页面，一层一层套的真没法看……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843024[50-100]</guid>
+    </item>
+    <item>
+      <title>你们用过最难受的编程语言是哪一种[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843024-1-1.html</link>
+      <description>你们用过最难受的编程语言是哪一种&#13;
+我最不喜欢php，太杂乱
+&#13;
+运算符都乱七八糟，一大堆毫无规律的函数名
+&#13;
+写代码的时候像便秘一样，一会儿就要翻手册
+&#13;
+现在完全转投node.js了</description>
+      <content:encoded><![CDATA[<p><b>御众师: </b><br>
+<span>你们用过最难受的编程语言是哪一种</span><br>
+<span>我最不喜欢php，太杂乱</span><br>
+<span>运算符都乱七八糟，一大堆毫无规律的函数名</span><br>
+<span>写代码的时候像便秘一样，一会儿就要翻手册</span><br>
+<span>现在完全转投node.js了</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>MATLAB 和 Python，特别是Python 简直搞不懂为什么会有人用这个做data analysis</span><br>
+</p><p><b>Lysergids: </b><br>
+<span>R 比python 还便秘的 排版格式，统计分析还爱用，下包的时候还各种乱码 不兼容。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>杂色k: </b><br>
+<span>Haskell，在下鲁钝确实不擅长……</span><br>
+</p><p><b>riczxc: </b><br>
+<span>R和matlab。其实这些都不算编程语言。</span><br>
+<span>编程语言最难受的还是c++吧，边吐边用。无比希望rust能把c++赶尽杀绝，让它变成cobol一样的语言。</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>Lysergids 发表于 2019-6-28 15:43</span><br>
+<span>R 比python 还便秘的 排版格式，统计分析还爱用，下包的时候还各种乱码 不兼容。</span><br>
+<span>发自我的iPhone via Sara ...</span><br>
+<span>R 的格式和C／C++ 几乎一样，比Python 清晰一万倍，而且所有你能想到的问题都有解决的包，倒是Python 用来做统计分析就是个笑话，而且好多结果都是错的</span><br>
+</p><p><b>cloudian: </b><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40…… 来编个号？</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dragonfalls: </b><br>
+<span>R和python半斤八两，谁也别笑谁顺便matlab不是编程语言（暴论</span><br>
+</p><p><b>pyjq: </b><br>
+<span>虽然不是编程语言，但是十分讨厌css。想学前端，每次都被劝退。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>万恶淫猥手: </b><br>
+<span>你php都学不下去是怎么学下去js的？</span><br>
+</p><p><b>riczxc: </b><br>
+<span>UncleCat 发表于 2019-6-29 07:51</span><br>
+<span>R 的格式和C／C++ 几乎一样，比Python 清晰一万倍，而且所有你能想到的问题都有解决的包，倒是Python 用 ...</span><br>
+<span>别的编程语言鄙视python就罢了，就一个做统计包多的R来鄙视正牌程序语言，我真是不懂。</span><br>
+</p><p><b>ReginaldMorgan: </b><br>
+<span>css：杂技语言，清除浮动有四种写法你知道吗.JPG</span><br>
+<span>nes-c：其实恶心的不是语言而是环境，我至今都忘不了当初做嵌入式，把一个7次的循环展开它就不出bug了是一种怎么样吃屎的心情</span><br>
+<span>es6之前的JS：？你在玩我？</span><br>
+<span>MATLAB：其实难受的原因主要是那个IDE太难用</span><br>
+<span>Haskell：其实我很喜欢这门语言，难受的主要原因是恕我资质鲁钝，我真的不知道这玩意的复杂度怎么算……</span><br>
+</p><p><b>马猴烧酒的微笑: </b><br>
+<span>Slang</span><br>
+<span>某银行专用语言</span><br>
+<span>特点是不区分大小写，变量名可以加空格，以及括号里也要加空格，像 ( Variable )这样</span><br>
+<span>但这都好说，最令我崩溃的是它的IDE，同样是银行专用</span><br>
+<span>基本上就是下图这个样子，梦回90年代</span><br>
+</p><p><b>nexus1: </b><br>
+<span>mathematica 你缩略方式那么多吃不消啊,太简单就根本看不懂了</span><br>
+</p><p><b>riczxc: </b><br>
+<span>ReginaldMorgan 发表于 2019-6-29 08:06</span><br>
+<span>css：杂技语言，清除浮动有四种写法你知道吗.JPG</span><br>
+<span>nes-c：其实恶心的不是语言而是环境，我至今都忘不了当初 ...</span><br>
+<span>matlab语言api很烂不说，整个社区质量也低下，没有救。</span><br>
+</p><p><b>nvis: </b><br>
+<span>foxpro</span><br>
+</p><p><b>mimighost: </b><br>
+<span>R</span><br>
+<span>什么鬼。莫名其妙的syntax，难以直观预测的复杂度，非常的恶心。写过一次之后再也不想碰了。</span><br>
+</p><p><b>mimighost: </b><br>
+<span>喷matlab的，你们可以去用一下octave，哈哈哈</span><br>
+</p><p><b>jctc: </b><br>
+<span>cloudian 发表于 2019-6-29 07:52</span><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40… ...</span><br>
+<span>不然你怎么GOTO</span><br>
+</p><p><b>jctc: </b><br>
+<span>马猴烧酒的微笑 发表于 2019-6-29 08:06</span><br>
+<span>Slang</span><br>
+<span>某银行专用语言</span><br>
+<span>特点是不区分大小写，变量名可以加空格，以及括号里也要加空格，像 ( Variable )这样 ...</span><br>
+<span>这不是midnight commander吗</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>python是真的不舒服</span><br>
+</p><p><b>wangh: </b><br>
+<span>cloudian 发表于 2019-6-29 07:52</span><br>
+<span>不是码农，是一个普通人。30年前学校教Basic，现在回想一下……为啥每一行命令之前都要用10, 20, 30, 40… ...</span><br>
+<span>早期的Basic是用在最低端的家用电脑上。当时这类电脑内存极小，文本编辑时是没有页的概念的，只能够操作行。代码只能够一行一行的列出来，一行一行的编辑修改，所以必须要给每一行编个号码才能操作</span><br>
+</p><p><b>matrixtheory: </b><br>
+<span>跟js八字不合，这么孱弱的语言，要啥没啥。现在ts终于有点改观了</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>炽十二翼: </b><br>
+<span>汇编语言，c++写的程序不加注释可能过一个月我就看不懂了，汇编写的过一周我就看不懂自己写了什么</span><br>
+</p><p><b>丁春秋: </b><br>
+<span>科研人员大概脑子都进水了吧 用C#和java还有go多好</span><br>
+</p><p><b>gutzz: </b><br>
+<span>perl</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>xxren: </b><br>
+<span>perl，简直恶魔之语。</span><br>
+<span>写完之后过两天你就不知道自己写的是什么东西。别人写的更别想看懂。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>MagicalMinori: </b><br>
+<span>丁春秋 发表于 2019-6-29 08:41</span><br>
+<span>科研人员大概脑子都进水了吧 用C#和java还有go多好</span><br>
+<span>java9才有repl，还是算了吧，对科研人员太不友善了。</span><br>
+</p><p><b>橋白: </b><br>
+<span>R这种甚至可以不算编程语言的还要程序员用真是抱歉了啊（虽然确实有很多吐槽的地方 </span><br>
+<span>我觉得是fortran.....可能是我菜</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>js：函数还能套函数？你在逗我</span><br>
+</p><p><b>d2loader: </b><br>
+<span>js只是有点丑，加上es6之前oo那套用prototype的方法让人很不习惯</span><br>
+<span>用过的里面最让人难受的还是R</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>Hieda: </b><br>
+<span> 本帖最后由 Hieda 于 2019-6-29 09:24 编辑 </span><br>
+<span>https://github.com/mqyqingfeng/Blog/issues/7</span><br>
+<span>要不是ts和reasonml我可能这辈子也不会接触前端生态圈</span><br>
+<span>Python语言本身用起来不难受，难受的是生态圈和社区</span><br>
+</p><p><b>sakamoko: </b><br>
+<span>那么问题来了，既然Python这么垃圾？为啥网上经常有人推荐它为学习的第一门语言？</span><br>
+</p><p><b>Ni月: </b><br>
+<span>固定格式的Fortran，看着都头疼</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>这个问题取决于verilog算不算编程语言</span><br>
+<span>算，verilog</span><br>
+<span>不算，python的那一坨环境是我见过最屎的</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>macos: </b><br>
+<span>马猴烧酒的微笑 发表于 2019-6-29 08:06</span><br>
+<span>Slang</span><br>
+<span>某银行专用语言</span><br>
+<span>特点是不区分大小写，变量名可以加空格，以及括号里也要加空格，像 ( Variable )这样 ...</span><br>
+<span>这是套了个nc吧</span><br>
+</p><p><b>yygundam: </b><br>
+<span>php，js和C++我都很讨厌，此外Java我也不喜欢。</span><br>
+</p><p><b>anlace: </b><br>
+<span>当然是cobol</span><br>
+</p><p><b>Saltychtao: </b><br>
+<span>ReginaldMorgan 发表于 2019-6-29 08:06</span><br>
+<span>css：杂技语言，清除浮动有四种写法你知道吗.JPG</span><br>
+<span>nes-c：其实恶心的不是语言而是环境，我至今都忘不了当初 ...</span><br>
+<span>复杂度不是和算法有关的吗... 和编程语言有啥关系</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ianny544: </b><br>
+<span>R这么简单易用还有人黑么，感觉比Python好用多了</span><br>
+<span>— from samsung SM-G965W, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>Liza: </b><br>
+<span>sakamoko 发表于 2019-6-29 09:10</span><br>
+<span>那么问题来了，既然Python这么垃圾？为啥网上经常有人推荐它为学习的第一门语言？ ...</span><br>
+<span>我不知道这个楼前面喷py的是遇到了什么问题</span><br>
+<span>要说python有什么缺点</span><br>
+<span>大概是在书写格式, 数据格式, 类型转换上没有强制限制</span><br>
+<span>可以很快写出个能跑的东西, 但是不熟悉的话可能其实是错的(前面那个抱怨做统计结果会错的我猜就是这么一回事)</span><br>
+<span>不过我觉得python社群不错啊</span><br>
+<span>哪里不好了</span><br>
+</p><p><b>糊状物: </b><br>
+<span>Liza 发表于 2019-6-29 09:57</span><br>
+<span>我不知道这个楼前面喷py的是遇到了什么问题</span><br>
+<span>要说python有什么缺点</span><br>
+<span>弱类型语言不就这样的吗。。。而且Python3现在也能做一定程度类型提示，新版本还加强了一下，虽然看起来用的人不多。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>fat: </b><br>
+<span>等等，我不是程序员，但我觉得python很快乐啊</span><br>
+</p><p><b>tiancailin: </b><br>
+<span>pyjq 发表于 2019-6-29 07:55</span><br>
+<span>虽然不是编程语言，但是十分讨厌css。想学前端，每次都被劝退。</span><br>
+<span>—— 来自 OnePlus GM1900, Android 9上的 ...</span><br>
+<span>CSS各种选择器覆盖来覆盖去其实很好玩的</span><br>
+</p><p><b>诚司: </b><br>
+<span>毫无疑问，labview …………写这个和吃屎，还是写这个难受一点…………</span><br>
+</p><p><b>yikaa: </b><br>
+<span>汇编。</span><br>
+<span>这学期刚学完，写递归我都是先写了c的版本，再人肉翻译成汇编的。不知道直接写汇编的人有多强大，大概这就是超能力者吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>sakamoko 发表于 2019-6-29 09:10</span><br>
+<span> 那么问题来了，既然Python这么垃圾？为啥网上经常有人推荐它为学习的第一门语言？ ...</span><br>
+<span>python本身是个极好的语言，语法清晰简洁糖多，初学是最合适的，比c++ java js都简单。但是python社区有病，连用py2还是py3，windows还是linux都能大战十条街，我现在说python2.7好，下面肯定一群s1er喷python2连async都没有已经入土了，可是类库都是旧式的我又重构不了，好多库还是cpython写的还要求环境.....python婆罗门也很神秘，你写的像c++或者java还会被婆罗门喷不够pythonic，他们说太土，结果弱类型超过几千行不写注释又看不懂..</span><br>
+</p><p><b>绝望勇者的反击: </b><br>
+<span>idl，fortran</span><br>
+</p><p><b>自旋: </b><br>
+<span>现在的年轻人都不记得有个叫perl的“编程语言”了吧</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>深圳I/O汇编，限制行数什么鬼 </span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843024[0-50]</guid>
+    </item>
+  </channel>
+</rss>

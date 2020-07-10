@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>弱电箱里的纯拨号用有线路由求推荐</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>弱电箱里的纯拨号用有线路由求推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:50:35 +0000</lastBuildDate>
+    <item>
+      <title>弱电箱里的纯拨号用有线路由求推荐[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916652-1-1.html</link>
+      <description>弱电箱里的纯拨号用有线路由求推荐&#13;
+目前找到ubnt的er-x，还有类似的么？</description>
+      <content:encoded><![CDATA[<p><b>neno: </b><br>
+<span>弱电箱里的纯拨号用有线路由求推荐</span><br>
+<span>目前找到ubnt的er-x，还有类似的么？</span><br>
+</p><p><b>继承权: </b><br>
+<span>小娱c1，搞个塑料外壳</span><br>
+</p><p><b>catxing: </b><br>
+<span>不搞个软路由折腾下吗？</span><br>
+</p><p><b>andieakky: </b><br>
+<span>主要还得看你家的弱电箱有多大吧</span><br>
+<span>我现在的弱电箱就放了个ER-X和光猫</span><br>
+<span>但ER-X性能虽然强但设置太复杂了</span><br>
+<span>而且现在上500M以上有点吃力了</span><br>
+<span>还是买软路由比较好</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>继承权: </b><br>
+<span>andieakky 发表于 2020-3-1 23:13</span><br>
+<span>主要还得看你家的弱电箱有多大吧</span><br>
+<span>我现在的弱电箱就放了个ER-X和光猫</span><br>
+<span>但ER-X性能虽然强但设置太复杂了</span><br>
+<span>软路由也不好塞进弱电箱啊。</span><br>
+<span>7621的硬件NAT跑满单向千兆应该还是没问题的</span><br>
+<span>https://koolshare.cn/forum.php?m ... tra=page%3D1&page=2</span><br>
+<span>er-x固件设置麻烦所以选小娱c1更合适，都是7621a，体积也不比er-x大多少，能刷padavan等简单易用又强大稳定的固件，</span><br>
+</p><p><b>password: </b><br>
+<span>andieakky 发表于 2020-3-1 23:13</span><br>
+<span>主要还得看你家的弱电箱有多大吧</span><br>
+<span>我现在的弱电箱就放了个ER-X和光猫</span><br>
+<span>但ER-X性能虽然强但设置太复杂了</span><br>
+<span>er-x你是不是没开硬件加速？</span><br>
+<span>系统用不惯的话可以刷openwrt</span><br>
+<span>现在也openwrt支持7612的硬件加速了</span><br>
+</p><p><b>2stage: </b><br>
+<span>er-x 开硬件加速NAT可以跑千兆。但是和sqm流量整形和一些其他功能冲突。要sqm最多300m。</span><br>
+<span>想更快或者**还是要上软路由。</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>hftrrt: </b><br>
+<span>继承权 发表于 2020-3-1 23:35</span><br>
+<span>软路由也不好塞进弱电箱啊。</span><br>
+<span>7621的硬件NAT跑满单向千兆应该还是没问题的</span><br>
+<span>https://koolshare.cn/forum.php ...</span><br>
+<span>软路由也有做成NUC大小的4口路由。特殊上网情况下，7621还是吃力</span><br>
+</p><p><b>neno: </b><br>
+<span>谢谢大家的建议，感觉是软路由适合我，像我这种只是丢弱电箱里拨号+转发的应该J1900的就足够了吧？</span><br>
+</p><p><b>继承权: </b><br>
+<span>neno 发表于 2020-3-2 23:31</span><br>
+<span>谢谢大家的建议，感觉是软路由适合我，像我这种只是丢弱电箱里拨号+转发的应该J1900的就足够了吧？ ...</span><br>
+<span>纯拨号转发干嘛要用软路由啊，上面说的特殊上网需求就是过滤广告、防火墙、代理工具之类，你确定有需要？</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>光猫，软路由，交换机，还有多条网线，弱电箱塞的下？</span><br>
+</p><p><b>roamer: </b><br>
+<span>现在的光猫不是说性能还不错嘛</span><br>
+</p><p><b>warrior: </b><br>
+<span>er-x 用户路过，感觉挺好，并不复杂啊</span><br>
+</p><p><b>琴酒: </b><br>
+<span>ros的也能買啊</span><br>
+</p><p><b>JWJking: </b><br>
+<span>nanopi r2s</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916652[0-50]</guid>
+    </item>
+  </channel>
+</rss>

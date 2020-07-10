@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>编辑。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>编辑。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:33:39 +0000</lastBuildDate>
+    <item>
+      <title>编辑。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841666-1-1.html</link>
+      <description>[ZT]CUDA支持Arm是实现E级超算的新途径，还是NV和Arm的好机会？&#13;
+超级计算机（Supercomputer）通常简称超算，在科学界常被视作一个国家技术领军能力的指标，因为它能够为AI、空气动力、大气科学、能源科学等重要技术的研究提供算力支撑。如今强国之间的竞争已经进入到了百万兆级超算的时代，这就需要更强大的处理器。目前，X86、Power作为超算CPU计算节点的主要架构，那么Nvidia宣布CUDA支持Arm谁将是最大的赢家？
+&#13;
+https://static.leiphone.com/uploads/new/images/20190618/5d090857e1780.png?imageView2/2/w/740超算竞争进入百万兆级时代
+&#13;
+去年六月，美国能源部公布了世界上最快的超级计算机——Summit，反超中国超算太湖之光重夺超算Top 500第一的位置，并且美国表示他们预计在2021年建造一台每秒运算数十亿亿次计算机“极光（Aurora）”，甚至会打造更高效能的计算机。
+&#13;
+https://static.leiphone.com/uploads/new/images/20190618/5d0907dc80c9f.png?imageView2/2/w/7402019超算Top 500当然，中国也在建立一个百万兆级超级计算机系统，有消息称它基于已构建的三种原型系统：曙光、天河和神威。日本和欧洲也不甘落后，日本希望在2021年有一台百万兆级的超级计算机，欧洲人则在希望在2023年实现这一目标。显然，超级计算机的竞赛跨入了Exascale计算（百万兆级的计算，也可称E级超算）时代。
+&#13;
+用一个不精确的说法来解释百万兆级计算，一个百万兆级计算机一瞬间进行的计算，相当于地球上的所有人每天每秒都不停地计算四年。这样强大的计算能力需要更加复杂的系统。与普通计算机一样，超算同样由硬件和软件系统组成，但超算仅硬件部分就由高速运算系统、高速互连通信网络系统、存储系统、维护监控系统、电源系统、冷却系统和结构组装设计等部分组成。
+&#13;
+其中，高速运算系统负责逻辑复杂的调度和串行任务和并行度高的任务，可采用同构计算（纯CPU组成计算节点），也可以采用异构计算（CPU+加速器组成计算节点）的方式。
+&#13;
+实现百万兆级超算的新途径
+&#13;
+根据国际组织TOP500编制的超级计算机榜单，从2019年度ISC国际超算大会上公布的超算性能500强榜单中，我们不难发现IBM Power、Nvidia Volta/Tesla、Intel Xeon显然是超算计算节点的重要组成。
+&#13;
+https://static.leiphone.com/uploads/new/images/20190618/5d0907dc86fcc.png?imageView2/2/w/7402019年度ISC国际超算大会上公布的超算Green500但是，随着算力的进一步增强，超算产生的热量不仅会造成更多的资源消耗，冷却系统的设计同样面临更大的挑战，因此没瓦特性能也十分重要。TOP500也编制了一个Green500的超算排行榜，这个排行榜比拼的不是性能，而是比拼每瓦性能，所以，即便某个超算在TOP500榜单中垫底，在Green500中却获得好名次。
+&#13;
+根据最新的Green500排行榜，在全球最节能的25款超级计算机中，有22款都得益于Nvidia的支持。
+&#13;
+https://static.leiphone.com/uploads/new/images/20190618/5d0907dccf502.png?imageView2/2/w/740这其中的关键之一就是采用了异构计算的方式，让x86或者Power架构的CPU与Nvidia GPU协同，把繁重的处理作业卸载至更为节能的并行处理CUDA GPU之上。不过在CPU市场，Arm架构也不可忽略，那么在超算的百万兆级竞争中，Arm CPU是否也能发挥优势？
+&#13;
+现在下结论还为时尚早，但英伟达并不打算错过这个可能的机会。6月17日，2019年度ISC国际超算大会上，Nvidia宣布将于年底前向Arm生态系统提供全堆栈的AI和HPC软件，该堆栈为600多个HPC应用程序和所有AI框架提供加速，其中包括了所有Nvidia CUDA-X AI和HPC库、GPU加速的AI框架和软件开发工具，如支持OpenACC的PGI编译器和性能分析器。https://static.leiphone.com/uploads/new/images/20190618/5d0907dcc4d24.png?imageView2/2/w/740这也就意味着，在Nvidia的堆栈优化完成之后，Nvidia将为所有主要CPU架构提供加速，包括x86、Power和Arm。
+&#13;
+对于新的宣布，Nvidia创始人兼首席执行官黄仁勋表示：“超级计算机是促进科学发现的重要工具，建立百万兆级超级计算将能够极大地扩展人类知识的边界。随着传统计算规模扩展步伐的停止，功率也将成为所有超级计算机的限制因素。Nvidia CUDA加速的计算和Arm的高能效CPU架构的相结合，将助力HPC社区实现大幅提升，以达到百万兆级。”
+&#13;
+Nvidia的好生意
+&#13;
+从百万兆级超算建造者的角度看，Arm CPU+Nvidia GPU是一个新选择，但从Nvidia的角度看，CUDA支持Arm不是一个简单的宣布，而是资源的投入。让Nvidia有动力进行这样的投入，是各国和巨头公司们的需求和投入。
+&#13;
+仅美国方面，下一代超算技术的研发总投入将达到4.3亿多美元，美国能源部部长里克⋅佩里就表示，这些资金剑指“下阶段研发百亿亿次系统的全球竞赛”。显然，百万兆级超算的构建少不了Nvidia的GPU，特别是AI技术蓬勃发展并且越来越重要的当下。此时Nvidia又联合Arm为构建百万兆级超算提供了新的途径，自然能让其从超算市场获得更多的营收。
+&#13;
+Nvidia的在超算市场的努力不止CUDA支持Arm，Nvidia在2019年度ISC国际超算大会上还宣布了全球速度排名第22位的超级计算机——DGX SuperPOD。根据Nvidia的说法，该超级计算机系统采用了96台NvidiaDGX-2H超级计算机，内含1536颗Nvidia V100 Tensor Core GPU，由Nvidia NVSwitch及 Mellanox网络结构相联接。其处理能力高达9.4 petaflops，能够用于训练安全自动驾驶汽车所需要的海量深度神经网络。
+&#13;
+https://static.leiphone.com/uploads/new/images/20190618/5d0907dced382.png?imageView2/2/w/740对比来看，具备同等性能的其他TOP500超级计算机系统需要由数千台服务器构建，而DGX SuperPOD占地面积更少，体积比同等系统小400倍左右。部署方面，其他同等规模的系统通常需要6-9个月才能完成部署毕，DGX SuperPOD在工程师采用经过验证的规范性方法情况下，仅需3个星期。
+&#13;
+据雷锋网了解，Nvidia DGX系统已经服务于众多对大规模计算有需求的企业机构，例如宝马、Continental、福特与Zenuity 等汽车公司，还有Facebook、微软与富士胶片等公司，还有研究领域的日本理化学研究所与美国能源部实验室等。
+&#13;
+Nvidia希望还没有部署人工智能的数据中心的企业机构使用Nvidia SuperPOD架构。这可以让双方都从中获益，不止于此，Nvidia还能通过构建这样的超级计算机，可以学会如何设计面向大规模人工智能机器的系统。
+&#13;
+显然，超算特别是百万兆超算对Nvidia是可以多赢的好生意。
+&#13;
+Arm的好机会
+&#13;
+对于Arm而言，百万兆级超算市场则是一个好机会。在移动市场占据领导地位的Arm遇到市场增长放缓时，同样也希望能够将其架构拓展到新的市场带来增长，近年来也在努力联合合作伙伴推动Arm服务器的发展，不过情况并不理想。
+&#13;
+但在超算市场，特别是CUDA支持Arm之后，Arm能够迎来了好机会。Atos高级执行副总裁、大数据和网络安全部门负责人Pierre Barnabé表示：“凭借万**项目，以及为百万兆级超级计算机BullSequana X所做的Arm计算刀片设计，Atos成为了ARM生态系统中的先驱者。”
+&#13;
+全球重要的超算提供商Cray总裁兼首席执行官Peter Ungaro表示：“我们的Cray系统管理和编程环境（编译器、库和工具）已经能够在XC和未来的Shasta超级计算机上支持Arm处理器，将CUDA和CUDA-X HPC和AI软件堆栈用于Arm平台，并将其与Cray系统管理和编程环境紧密集成，能够助力我们的超级计算机实现我们的愿景。”
+&#13;
+另外，Ampere Computing、CSC、EPI、HPE、Jülich超算中心、Marvell等都表达了对于CUDA支持Arm的期待。同时还要看到，CUDA支持Arm能够建造百万兆级超算，同样也能让服务器厂商更便捷地制造Arm服务器，所以，Arm的好机会是让其能够更好的拓展架构优势。
+&#13;
+雷锋网小结
+&#13;
+百万兆级超算系统是各国努力正在打造的新一代超算，此时，英伟达CUDA支持Arm给正在打造新一代超算的国家以及对算力有更高需求的企业一个新的选择，这既是英伟达能够多赢的好生意，更是Arm进入超算市场的好机会。现在有众多的支持者表态支持这一新路径，我们虽然对此也保持积极的态度，但结果仍需通过实际的百万兆级的超算系统来得出。创新不会百分之百成功，但创新才是推动革新的最大动力。</description>
+      <content:encoded><![CDATA[<p><b>撒撒: </b><br>
+<span>[ZT]CUDA支持Arm是实现E级超算的新途径，还是NV和Arm的好机会？</span><br>
+<span>超级计算机（Supercomputer）通常简称超算，在科学界常被视作一个国家技术领军能力的指标，因为它能够为AI、空气动力、大气科学、能源科学等重要技术的研究提供算力支撑。如今强国之间的竞争已经进入到了百万兆级超算的时代，这就需要更强大的处理器。目前，X86、Power作为超算CPU计算节点的主要架构，那么Nvidia宣布CUDA支持Arm谁将是最大的赢家？</span><br>
+<span>https://static.leiphone.com/uploads/new/images/20190618/5d090857e1780.png?imageView2/2/w/740超算竞争进入百万兆级时代</span><br>
+<span>去年六月，美国能源部公布了世界上最快的超级计算机——Summit，反超中国超算太湖之光重夺超算Top 500第一的位置，并且美国表示他们预计在2021年建造一台每秒运算数十亿亿次计算机“极光（Aurora）”，甚至会打造更高效能的计算机。</span><br>
+<span>https://static.leiphone.com/uploads/new/images/20190618/5d0907dc80c9f.png?imageView2/2/w/7402019超算Top 500当然，中国也在建立一个百万兆级超级计算机系统，有消息称它基于已构建的三种原型系统：曙光、天河和神威。日本和欧洲也不甘落后，日本希望在2021年有一台百万兆级的超级计算机，欧洲人则在希望在2023年实现这一目标。显然，超级计算机的竞赛跨入了Exascale计算（百万兆级的计算，也可称E级超算）时代。</span><br>
+<span>用一个不精确的说法来解释百万兆级计算，一个百万兆级计算机一瞬间进行的计算，相当于地球上的所有人每天每秒都不停地计算四年。这样强大的计算能力需要更加复杂的系统。与普通计算机一样，超算同样由硬件和软件系统组成，但超算仅硬件部分就由高速运算系统、高速互连通信网络系统、存储系统、维护监控系统、电源系统、冷却系统和结构组装设计等部分组成。</span><br>
+<span>其中，高速运算系统负责逻辑复杂的调度和串行任务和并行度高的任务，可采用同构计算（纯CPU组成计算节点），也可以采用异构计算（CPU+加速器组成计算节点）的方式。</span><br>
+<span>实现百万兆级超算的新途径</span><br>
+<span>根据国际组织TOP500编制的超级计算机榜单，从2019年度ISC国际超算大会上公布的超算性能500强榜单中，我们不难发现IBM Power、Nvidia Volta/Tesla、Intel Xeon显然是超算计算节点的重要组成。</span><br>
+<span>https://static.leiphone.com/uploads/new/images/20190618/5d0907dc86fcc.png?imageView2/2/w/7402019年度ISC国际超算大会上公布的超算Green500但是，随着算力的进一步增强，超算产生的热量不仅会造成更多的资源消耗，冷却系统的设计同样面临更大的挑战，因此没瓦特性能也十分重要。TOP500也编制了一个Green500的超算排行榜，这个排行榜比拼的不是性能，而是比拼每瓦性能，所以，即便某个超算在TOP500榜单中垫底，在Green500中却获得好名次。</span><br>
+<span>根据最新的Green500排行榜，在全球最节能的25款超级计算机中，有22款都得益于Nvidia的支持。</span><br>
+<span>https://static.leiphone.com/uploads/new/images/20190618/5d0907dccf502.png?imageView2/2/w/740这其中的关键之一就是采用了异构计算的方式，让x86或者Power架构的CPU与Nvidia GPU协同，把繁重的处理作业卸载至更为节能的并行处理CUDA GPU之上。不过在CPU市场，Arm架构也不可忽略，那么在超算的百万兆级竞争中，Arm CPU是否也能发挥优势？</span><br>
+<span>现在下结论还为时尚早，但英伟达并不打算错过这个可能的机会。6月17日，2019年度ISC国际超算大会上，Nvidia宣布将于年底前向Arm生态系统提供全堆栈的AI和HPC软件，该堆栈为600多个HPC应用程序和所有AI框架提供加速，其中包括了所有Nvidia CUDA-X AI和HPC库、GPU加速的AI框架和软件开发工具，如支持OpenACC的PGI编译器和性能分析器。https://static.leiphone.com/uploads/new/images/20190618/5d0907dcc4d24.png?imageView2/2/w/740这也就意味着，在Nvidia的堆栈优化完成之后，Nvidia将为所有主要CPU架构提供加速，包括x86、Power和Arm。</span><br>
+<span>对于新的宣布，Nvidia创始人兼首席执行官黄仁勋表示：“超级计算机是促进科学发现的重要工具，建立百万兆级超级计算将能够极大地扩展人类知识的边界。随着传统计算规模扩展步伐的停止，功率也将成为所有超级计算机的限制因素。Nvidia CUDA加速的计算和Arm的高能效CPU架构的相结合，将助力HPC社区实现大幅提升，以达到百万兆级。”</span><br>
+<span>Nvidia的好生意</span><br>
+<span>从百万兆级超算建造者的角度看，Arm CPU+Nvidia GPU是一个新选择，但从Nvidia的角度看，CUDA支持Arm不是一个简单的宣布，而是资源的投入。让Nvidia有动力进行这样的投入，是各国和巨头公司们的需求和投入。</span><br>
+<span>仅美国方面，下一代超算技术的研发总投入将达到4.3亿多美元，美国能源部部长里克⋅佩里就表示，这些资金剑指“下阶段研发百亿亿次系统的全球竞赛”。显然，百万兆级超算的构建少不了Nvidia的GPU，特别是AI技术蓬勃发展并且越来越重要的当下。此时Nvidia又联合Arm为构建百万兆级超算提供了新的途径，自然能让其从超算市场获得更多的营收。</span><br>
+<span>Nvidia的在超算市场的努力不止CUDA支持Arm，Nvidia在2019年度ISC国际超算大会上还宣布了全球速度排名第22位的超级计算机——DGX SuperPOD。根据Nvidia的说法，该超级计算机系统采用了96台NvidiaDGX-2H超级计算机，内含1536颗Nvidia V100 Tensor Core GPU，由Nvidia NVSwitch及 Mellanox网络结构相联接。其处理能力高达9.4 petaflops，能够用于训练安全自动驾驶汽车所需要的海量深度神经网络。</span><br>
+<span>https://static.leiphone.com/uploads/new/images/20190618/5d0907dced382.png?imageView2/2/w/740对比来看，具备同等性能的其他TOP500超级计算机系统需要由数千台服务器构建，而DGX SuperPOD占地面积更少，体积比同等系统小400倍左右。部署方面，其他同等规模的系统通常需要6-9个月才能完成部署毕，DGX SuperPOD在工程师采用经过验证的规范性方法情况下，仅需3个星期。</span><br>
+<span>据雷锋网了解，Nvidia DGX系统已经服务于众多对大规模计算有需求的企业机构，例如宝马、Continental、福特与Zenuity 等汽车公司，还有Facebook、微软与富士胶片等公司，还有研究领域的日本理化学研究所与美国能源部实验室等。</span><br>
+<span>Nvidia希望还没有部署人工智能的数据中心的企业机构使用Nvidia SuperPOD架构。这可以让双方都从中获益，不止于此，Nvidia还能通过构建这样的超级计算机，可以学会如何设计面向大规模人工智能机器的系统。</span><br>
+<span>显然，超算特别是百万兆超算对Nvidia是可以多赢的好生意。</span><br>
+<span>Arm的好机会</span><br>
+<span>对于Arm而言，百万兆级超算市场则是一个好机会。在移动市场占据领导地位的Arm遇到市场增长放缓时，同样也希望能够将其架构拓展到新的市场带来增长，近年来也在努力联合合作伙伴推动Arm服务器的发展，不过情况并不理想。</span><br>
+<span>但在超算市场，特别是CUDA支持Arm之后，Arm能够迎来了好机会。Atos高级执行副总裁、大数据和网络安全部门负责人Pierre Barnabé表示：“凭借万**项目，以及为百万兆级超级计算机BullSequana X所做的Arm计算刀片设计，Atos成为了ARM生态系统中的先驱者。”</span><br>
+<span>全球重要的超算提供商Cray总裁兼首席执行官Peter Ungaro表示：“我们的Cray系统管理和编程环境（编译器、库和工具）已经能够在XC和未来的Shasta超级计算机上支持Arm处理器，将CUDA和CUDA-X HPC和AI软件堆栈用于Arm平台，并将其与Cray系统管理和编程环境紧密集成，能够助力我们的超级计算机实现我们的愿景。”</span><br>
+<span>另外，Ampere Computing、CSC、EPI、HPE、Jülich超算中心、Marvell等都表达了对于CUDA支持Arm的期待。同时还要看到，CUDA支持Arm能够建造百万兆级超算，同样也能让服务器厂商更便捷地制造Arm服务器，所以，Arm的好机会是让其能够更好的拓展架构优势。</span><br>
+<span>雷锋网小结</span><br>
+<span>百万兆级超算系统是各国努力正在打造的新一代超算，此时，英伟达CUDA支持Arm给正在打造新一代超算的国家以及对算力有更高需求的企业一个新的选择，这既是英伟达能够多赢的好生意，更是Arm进入超算市场的好机会。现在有众多的支持者表态支持这一新路径，我们虽然对此也保持积极的态度，但结果仍需通过实际的百万兆级的超算系统来得出。创新不会百分之百成功，但创新才是推动革新的最大动力。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841666[0-50]</guid>
+    </item>
+  </channel>
+</rss>

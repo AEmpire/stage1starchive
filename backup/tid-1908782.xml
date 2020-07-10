@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>外出用轻薄本 远程连家里主机码代码可行吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>外出用轻薄本 远程连家里主机码代码可行吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:50:12 +0000</lastBuildDate>
+    <item>
+      <title>外出用轻薄本 远程连家里主机码代码可行吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908782-1-1.html</link>
+      <description>外出用轻薄本 远程连家里主机码代码可行吗&#13;
+ 本帖最后由 をすりばば 于 2020-1-10 15:40 编辑 
+
+rt
+&#13;
+组itx带着跑其实还是不够轻，但是如果是带轻薄本出门，办公为目的出门的话也不会打游戏，所以也不会对延迟有什么较高的要求，多开虚拟机多开ide啥的，是不是就可行了？</description>
+      <content:encoded><![CDATA[<p><b>をすりばば: </b><br>
+<span>外出用轻薄本 远程连家里主机码代码可行吗</span><br>
+<span> 本帖最后由 をすりばば 于 2020-1-10 15:40 编辑 </span><br>
+<span>rt</span><br>
+<span>组itx带着跑其实还是不够轻，但是如果是带轻薄本出门，办公为目的出门的话也不会打游戏，所以也不会对延迟有什么较高的要求，多开虚拟机多开ide啥的，是不是就可行了？</span><br>
+</p><p><b>ZRS: </b><br>
+<span>体验一般，搞搞运维还行，开发会很难受。</span><br>
+</p><p><b>をすりばば: </b><br>
+<span>ZRS 发表于 2020-1-10 15:42</span><br>
+<span>体验一般，搞搞运维还行，开发会很难受。</span><br>
+<span>影响体验的主要会有什么问题呢？我现在能想到会影响体验的暂时只有网络问题</span><br>
+</p><p><b>ZRS: </b><br>
+<span>をすりばば 发表于 2020-1-10 15:54</span><br>
+<span>影响体验的主要会有什么问题呢？我现在能想到会影响体验的暂时只有网络问题 ...</span><br>
+<span>延迟、RD质量都很成问题，你可以先实操一下试试。</span><br>
+</p><p><b>白头盔: </b><br>
+<span>不可行，建议10710轻薄本</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>用IDE得用远程桌面吧，家里没有公网IP得买云主机做流量转发，然后延迟就上来了</span><br>
+</p><p><b>gnorz: </b><br>
+<span>然后还有上行带宽问题。</span><br>
+</p><p><b>oskneo: </b><br>
+<span>装个类似cloud9那种框架应该有不错的体验</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>现在轻薄本也很强力了，狗联想的y9000x cpu tdp给到了65w，内存32g</span><br>
+<span>开发够用了</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>我有时候会连接家里的台式开发，觉得还行（几十公里内）。我使用SSH隧道下的远程桌面。有时候SSH会断（不知为何最开始连接必断1、2次），于是使用Bitvise SSH自动重连再开，一般不会再断了。</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>不要用远程桌面这种延迟很大的东西，试下远程ssh开发</span><br>
+<span>以前开发树莓派的时候用过，本机只是用来编辑代码，写好后能自动部署到远程环境下运行</span><br>
+<span>不知道Windows支持不支持作为远程服务器，Linux应该都行</span><br>
+</p><p><b>mistzzt: </b><br>
+<span>如果没有图形界面远程的需求，可以考虑使用类似vscode remote这样的东西远程ssh或者docker。我自己在家里运行docker engine后远程tcp连接上去，体验非常好。</span><br>
+</p><p><b>董卓: </b><br>
+<span>要有外网ip，不然服务器frpc之类的不太行，同城找有ip的装frps之后还行</span><br>
+<span>我在家里开着eclipse，在外面用手机搞代码都能玩，调试快捷键啥的有时候有点不是太爽</span><br>
+<span>只是简单改改、往环境上发布一下之类的问题不大</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908782[0-50]</guid>
+    </item>
+  </channel>
+</rss>

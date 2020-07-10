@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Onedrive的即时同步问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Onedrive的即时同步问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:57:47 +0000</lastBuildDate>
+    <item>
+      <title>Onedrive的即时同步问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847322-1-1.html</link>
+      <description>Onedrive的即时同步问题&#13;
+以前一直使用坚果云，但价格感觉有点贵了，而且我买了Office365，自带1T容量onedrive，所以想用Onedrive替换坚果云，现在已经用了3天了；发现Onedrive有个奇怪的问题：
+&#13;
+只要是Office文件，修改保存后Onedrive马上就会上传同步（坚果云只有当保存且关闭Office文件后才可以同步）；但其它类型的文件就不会即时同步，比如我修改了一批PDF文件，它完全不同步，6个小时后我看它还不同步就手动暂停同步再打开同步，这样它才开始同步修改的PDF文件，这个就比坚果云差远了——坚果云同步文件夹内只要有修改马上就同步。
+&#13;
+上面这个问题是正常的吗？还是因为我网络问题（公司电信网络，每人限速1M）？
+&#13;
+如果是正常的，那么我还是换回坚果云吧，贵就贵点，至少我不用担心两个电脑上文件不一致。</description>
+      <content:encoded><![CDATA[<p><b>天知道: </b><br>
+<span>Onedrive的即时同步问题</span><br>
+<span>以前一直使用坚果云，但价格感觉有点贵了，而且我买了Office365，自带1T容量onedrive，所以想用Onedrive替换坚果云，现在已经用了3天了；发现Onedrive有个奇怪的问题：</span><br>
+<span>只要是Office文件，修改保存后Onedrive马上就会上传同步（坚果云只有当保存且关闭Office文件后才可以同步）；但其它类型的文件就不会即时同步，比如我修改了一批PDF文件，它完全不同步，6个小时后我看它还不同步就手动暂停同步再打开同步，这样它才开始同步修改的PDF文件，这个就比坚果云差远了——坚果云同步文件夹内只要有修改马上就同步。</span><br>
+<span>上面这个问题是正常的吗？还是因为我网络问题（公司电信网络，每人限速1M）？</span><br>
+<span>如果是正常的，那么我还是换回坚果云吧，贵就贵点，至少我不用担心两个电脑上文件不一致。</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>我这边PDF也显示同步被挂起，但是拿别的机子一看，实际上还是同步上去了。你是不是这种情况？</span><br>
+</p><p><b>天知道: </b><br>
+<span>cxf5102 发表于 2019-7-17 11:10</span><br>
+<span>我这边PDF也显示同步被挂起，但是拿别的机子一看，实际上还是同步上去了。你是不是这种情况？ ...</span><br>
+<span>我是根本没显示同步，只有当我手动暂停再恢复时才出现PDF文件同步的状态；我上网页版看了，确实是未同步状态。</span><br>
+<span>难道是因为我安装Onedrive后电脑没重启过？它是需要安装服务的吗？</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-7-17 11:18 编辑 </span><br>
+<span>关了没？这个功能其实还是挺有用的。你可以设置一个PDF文件总是同步(文件或者文件夹右键)，测试是不是这个原因导致的。</span><br>
+</p><p><b>天知道: </b><br>
+<span>ekdc11 发表于 2019-7-17 11:15</span><br>
+<span>关了没？这个功能其实还是挺有用的。你可以设置一个PDF文件总是同步(文件或者文件夹右键)，测试是不是这个 ...</span><br>
+<span>咦？我怎么没有这个选项？我是WIN7系统，是不是只有WIN10下才有的？Onedrive的版本是19.103.0527</span><br>
+</p><p><b>天知道: </b><br>
+<span>重启系统后依然是老样子，排除未重启问题。那可能主要的原因就是WIN7，或者是杀毒软件（ESET）了吧。</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>天知道 发表于 2019-7-17 11:22</span><br>
+<span>咦？我怎么没有这个选项？我是WIN7系统，是不是只有WIN10下才有的？Onedrive的版本是19.103.0527 ...</span><br>
+<span>没有 win7 机器了，我和你的版本一样的 (19.103.0527.0003)</span><br>
+<span>Office 会同步的原因是它自己有上传的通道。</span><br>
+</p><p><b>marine_01: </b><br>
+<span>不存在这种问题，应该是个人的问题</span><br>
+</p><p><b>天知道: </b><br>
+<span>marine_01 发表于 2019-7-17 11:42</span><br>
+<span>不存在这种问题，应该是个人的问题</span><br>
+<span>我知道是我电脑的问题，但现在就是不知道问题在哪里。</span><br>
+<span>重启，关闭杀毒软件，使用SS都试了，它就是不自动同步。</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>win10可以开启很多OD的新功能</span><br>
+</p><p><b>天知道: </b><br>
+<span> 本帖最后由 天知道 于 2019-7-17 14:57 编辑 </span><br>
+<span>yeah20002 发表于 2019-7-17 13:51</span><br>
+<span>win10可以开启很多OD的新功能</span><br>
+<span>也就是说我最好换WIN10了？感觉微软对于WIN10之前的系统现在都不怎么支持了。。。</span><br>
+<span>另外，您这1元5T的OD是可以做类似百度云盘的使用吧；比如上传视频后可以在线播放（使用Nplayer之类的）</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>天知道 发表于 2019-7-17 14:56</span><br>
+<span>也就是说我最好换WIN10了？感觉微软对于WIN10之前的系统现在都不怎么支持了。。。</span><br>
+<span>另外，您这1元5T的OD是 ...</span><br>
+<span>OneDrive是可以作为webdav来使用具体怎么设置忘了谷歌下</span><br>
+<span>用rclone 可以挂载成一个盘符</span><br>
+<span>看视频的话 最好科学方式   要不然高峰期还是很卡的 </span><br>
+</p><p><b>若荼泱: </b><br>
+<span>OD我还是不太会用…妈的我都从我电脑上同步到OD上了他还要再给我下载下来</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>你这是出了疑难杂症了，正常来说不会是这样的</span><br>
+</p><p><b>天知道: </b><br>
+<span>秋雨灰灰 发表于 2019-7-17 16:25</span><br>
+<span>你这是出了疑难杂症了，正常来说不会是这样的</span><br>
+<span>所以我现在头疼呢，上网查了一下，统统是让手动关闭再打开。问题是一次可以，总不能天天这样吧，万一忘记了，我在另一台电脑上就抓瞎了啊。。。</span><br>
+</p><p><b>sxxylz: </b><br>
+<span>我这里也有这个问题 office文件保存后及时上传 其他文件同步就有些佛系了</span><br>
+<span>我这里只能每天下班前手动暂停重开一下了...</span><br>
+</p><p><b>天知道: </b><br>
+<span>sxxylz 发表于 2019-7-17 20:43</span><br>
+<span>我这里也有这个问题 office文件保存后及时上传 其他文件同步就有些佛系了</span><br>
+<span>我这里只能每天下班前手动 ...</span><br>
+<span>也是WIN7吗？</span><br>
+<span>如果也是WIN7的话，可能就是WIN7的不兼容了。</span><br>
+</p><p><b>sxxylz: </b><br>
+<span>天知道 发表于 2019-7-17 20:56</span><br>
+<span>也是WIN7吗？</span><br>
+<span>如果也是WIN7的话，可能就是WIN7的不兼容了。</span><br>
+<span>家里WIN7 公司win10 ltsb2016 都有一样的问题</span><br>
+</p><p><b>天知道: </b><br>
+<span>sxxylz 发表于 2019-7-17 20:58</span><br>
+<span>家里WIN7 公司win10 ltsb2016 都有一样的问题</span><br>
+<span>难道是文件太多了？我现在是两个文件夹在同步，各有25000个文件（当然下面还有分级文件夹）</span><br>
+</p><p><b>千羽宸: </b><br>
+<span>网络重置下，dns改下</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>两个路人: </b><br>
+<span>Office的文档不一样，你打开文档，客户端就变成随时等待更新的图标了；其他类型的文件，为了保证它会上传，我都是剪切到桌面再丢回去</span><br>
+</p><p><b>取名字好难啊啊: </b><br>
+<span>推荐使用 RaiDrive 直接挂载成本地磁盘，用起来比 onedirve 客户端顺手多了。开源免费没有广告同步也快。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>天知道: </b><br>
+<span>取名字好难啊啊 发表于 2019-7-20 23:04</span><br>
+<span>推荐使用 RaiDrive 直接挂载成本地磁盘，用起来比 onedirve 客户端顺手多了。开源免费没有广告同步也快。</span><br>
+<span> ...</span><br>
+<span>Raidrive这个我在网上查了一下，好多人说不太稳定，占用CPU很大，有时需要重启再开才能用啊。您用得效果如何？</span><br>
+</p><p><b>天知道: </b><br>
+<span>我趁着周末换了WIN10，结果发现。。。。。还是那个德性，修改了上百个文件，它愣是没反应，一点都不同步；文件夹里面的图标倒是标上了未同步的蓝色标识，但点进Onedrive程序界面，上方显示“保持最新”，我的改文件根本没出现在下面。</span><br>
+</p><p><b>我爱撩菜: </b><br>
+<span>Raidrive +1</span><br>
+<span>非常好用,之前one dirve各种无法同步...也找不到原因,各种什么共享关闭之类的,偶然能自动共享..网上也找不到相关解决办法,装了Raidrive后非常满意</span><br>
+</p><p><b>天知道: </b><br>
+<span>我爱撩菜 发表于 2019-8-4 09:53</span><br>
+<span>Raidrive +1</span><br>
+<span>非常好用,之前one dirve各种无法同步...也找不到原因,各种什么共享关闭之类的,偶然能自动共享 ...</span><br>
+<span>资源占用如何？网络需要大带宽吗？支持WIN7吗？</span><br>
+</p><p><b>xing7673: </b><br>
+<span>Onedrive除了容量大以外其实没什么优势，</span><br>
+<span>我不知道是阿三写的代码还是怎样，</span><br>
+<span>各种BUG很神奇，</span><br>
+<span>比如：</span><br>
+<span>文件数量不能超过8W还是10W否则无法同步。</span><br>
+<span>同步时间延后。</span><br>
+<span>桌面版显示同步完成，网页版和手机版都无法显示同步后的结果。</span><br>
+<span>所以，把这个当成备份网盘最好，如果对实时性要求较高那还是用坚果云。</span><br>
+<span>但是，office文件同步这个是给崩溃后用来恢复的，office独有。和adobe比较像（adobe云？）。</span><br>
+</p><p><b>天知道: </b><br>
+<span> 本帖最后由 天知道 于 2019-8-4 10:10 编辑 </span><br>
+<span>xing7673 发表于 2019-8-4 09:55</span><br>
+<span>Onedrive除了容量大以外其实没什么优势，</span><br>
+<span>我不知道是阿三写的代码还是怎样，</span><br>
+<span>各种BUG很神奇，</span><br>
+<span>确实感觉除了大，一无是处；BUG不少，有些还被当作特性，比如它宣称已经去除文件数量5万的限制了。。。。但实际上是把文件数量上限从5万提升到15万，简直了。。还有用户名不能带下划线、目录名+文件名不能超过255字节等。。。。</span><br>
+<span>同步这个感觉和坚果云差太远了，而且OD是微软家的，WIN也是微软家，就这样OD还不能实时监控文件修改，我真的是服了。。。</span><br>
+<span>唉，还是老实掏钱上坚果吧。。主要是坚果云容量真的有点小啊，用几年了，现在才90G。</span><br>
+</p><p><b>我爱撩菜: </b><br>
+<span>天知道 发表于 2019-8-4 09:54</span><br>
+<span>资源占用如何？网络需要大带宽吗？支持WIN7吗？</span><br>
+<span>占用运行内存 78M</span><br>
+<span>网络需求 这个没看到限制上传下载速度的方式,但我估计跟onedrive是差不多的.</span><br>
+<span>我用的是WIN10,不确定WIN7 可以不可以,但我公司one drive是WIN7同步,我这边win10使用的,个人觉得应该没有太大问题. </span><br>
+</p><p><b>天知道: </b><br>
+<span>我爱撩菜 发表于 2019-8-4 10:14</span><br>
+<span>占用运行内存 78M</span><br>
+<span>网络需求 这个没看到限制上传下载速度的方式,但我估计跟onedrive是差不多的.</span><br>
+<span>我用的是W ...</span><br>
+<span>好的，谢谢回复。我装一个试试。</span><br>
+</p><p><b>wonderful259: </b><br>
+<span>不确定是不是被qiang的问题，我这边有时候上传的时候，会显示已同步完成，但是其实根本没有连接上服务器，挂个科学上网后，同步才正常……</span><br>
+</p><p><b>天知道: </b><br>
+<span>wonderful259 发表于 2019-8-4 15:19</span><br>
+<span>不确定是不是被qiang的问题，我这边有时候上传的时候，会显示已同步完成，但是其实根本没有连接上服务器， ...</span><br>
+<span>嗯，我的问题主要是根本不自动同步，手动的话没问题；和您这个不太一样，而且我后台有SS，我刚才看了一下PAC里面写了Onedrive</span><br>
+</p><p><b>两个路人: </b><br>
+<span>wonderful259 发表于 2019-8-4 15:19</span><br>
+<span>不确定是不是被qiang的问题，我这边有时候上传的时候，会显示已同步完成，但是其实根本没有连接上服务器， ...</span><br>
+<span>破处区前面说过被大面积干掉的事儿。毕竟是bing中国区都能被不明原因不可描述2天的国度</span><br>
+</p><p><b>doki: </b><br>
+<span>不是有个office选项吗，关掉文件协作</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>天知道 发表于 2019-8-4 02:20</span><br>
+<span>嗯，我的问题主要是根本不自动同步，手动的话没问题；和您这个不太一样，而且我后台有SS，我刚才看了一下 ...</span><br>
+<span>你打开ss日志看看 我觉得你的OneDrive应用程序可能没有走ss流量</span><br>
+</p><p><b>天知道: </b><br>
+<span>世界的膀胱者 发表于 2019-8-5 14:27</span><br>
+<span>你打开ss日志看看 我觉得你的OneDrive应用程序可能没有走ss流量</span><br>
+<span>走或者不走，应该和我的问题没关系；我的问题不是说报错，无法同步之类的问题，而是不“自动”同步，不“即时”同步，而只能“手动”同步；也就是说我改了文件后，OD它不会自动识别我已经修改了文件，第一步就被卡住了，根本还没到上传、走网络这步。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847322[0-50]</guid>
+    </item>
+  </channel>
+</rss>

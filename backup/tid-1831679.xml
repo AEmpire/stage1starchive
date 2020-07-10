@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有个数据表格，如何按行批量输出图片形式的标签？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有个数据表格，如何按行批量输出图片形式的标签？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:34:52 +0000</lastBuildDate>
+    <item>
+      <title>有个数据表格，如何按行批量输出图片形式的标签？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831679-1-1.html</link>
+      <description>有个数据表格，如何按行批量输出图片形式的标签？&#13;
+如题。
+&#13;
+需求是标签打印，就是比如一个excel表，一百种商品每种都有品名价格日期货号等一系列信息，需要一件商品的好几种信息都以一个比较复杂的模板打印到同一张标签上。
+&#13;
+必须能自定义字体，最好能自动生成二维码。
+&#13;
+这样的需求怎么实现比较现实？
+&#13;
+目前我能想到的思路：
+&#13;
+excel内部的表单功能
+&#13;
+转ppt，每行对应一张，再保存png
+&#13;
+转换成网页，全屏截图，切图
+&#13;
+但感觉都不是很实际……</description>
+      <content:encoded><![CDATA[<p><b>Scrummble: </b><br>
+<span>有个数据表格，如何按行批量输出图片形式的标签？</span><br>
+<span>如题。</span><br>
+<span>需求是标签打印，就是比如一个excel表，一百种商品每种都有品名价格日期货号等一系列信息，需要一件商品的好几种信息都以一个比较复杂的模板打印到同一张标签上。</span><br>
+<span>必须能自定义字体，最好能自动生成二维码。</span><br>
+<span>这样的需求怎么实现比较现实？</span><br>
+<span>目前我能想到的思路：</span><br>
+<span>excel内部的表单功能</span><br>
+<span>转ppt，每行对应一张，再保存png</span><br>
+<span>转换成网页，全屏截图，切图</span><br>
+<span>但感觉都不是很实际……</span><br>
+</p><p><b>hamano_taiki: </b><br>
+<span>python大法好</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>hamano_taiki 发表于 2019-5-15 14:38</span><br>
+<span>python大法好</span><br>
+<span>字体渲染是个大坑，肯定要外来方案解决，当然python用来输出html还是可以的</span><br>
+</p><p><b>hamano_taiki: </b><br>
+<span>Scrummble 发表于 2019-5-15 14:42</span><br>
+<span>字体渲染是个大坑，肯定要外来方案解决，当然python用来输出html还是可以的 ...</span><br>
+<span>两种方案</span><br>
+<span>一个是通过EXCEL输出</span><br>
+<span>读取表格以后</span><br>
+<span>新建一个EXCEL文档，一个SHEET一条码的信息，用单元格定位，指定字体，插入生成的二维码</span><br>
+<span>第二个是通过PILLOW之类的库</span><br>
+<span>直接生成空白图片往上写，最后保存成一张一张的图片，批量打印即可</span><br>
+</p><p><b>是风: </b><br>
+<span>除了单纯标签的话，试试找找新生命标签软件，表格复制进去就好了</span><br>
+<span>—— 来自 OPPO R11s, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>字体不复杂的话windows自带的GDI就能满足需求</span><br>
+<span>—— 来自 Sony F5122, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>轩辕夜羽: </b><br>
+<span>一个思路不一定对：Excel套XAML格式然后套CSS</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>轩辕夜羽 发表于 2019-5-15 15:13</span><br>
+<span>一个思路不一定对：Excel套XAML格式然后套CSS</span><br>
+<span>可能是比较靠谱的思路了……</span><br>
+<span>想知道有没有更简单的</span><br>
+</p><p><b>fescn3: </b><br>
+<span>http://www.cnblogs.com/Geton/p/3951584.html</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>js-xlsx 拿到数据，渲染HTML就行了</span><br>
+<span>写一个网页的事</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831679[0-50]</guid>
+    </item>
+  </channel>
+</rss>

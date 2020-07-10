@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>「码农归外野」服务器非root用户如何启动uwsgi？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>「码农归外野」服务器非root用户如何启动uwsgi？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:00:11 +0000</lastBuildDate>
+    <item>
+      <title>「码农归外野」服务器非root用户如何启动uwsgi？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915383-1-1.html</link>
+      <description>「码农归外野」服务器非root用户如何启动uwsgi？&#13;
+用root用户加载配置的话，是可以正常启动uwsgi
+&#13;
+但是我新建一个非root用户，只授予的sudo权限，启动uwsgi时，就会警告。
+&#13;
+按照这个提示来说应该是这个非root账户没有创建socket文件
+&#13;
+~/log$ uwsgi uwsgi.ini
+&#13;
+ getting INI configuration from uwsgi.ini
+&#13;
+*** Starting uWSGI 2.0.18 (64bit) on  ***
+&#13;
+compiled with version: 7.4.0 on 23 February 2020 14:23:16
+&#13;
+os: Linux-4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019
+&#13;
+nodename: ecs-sn3-medium-2-linux-20200107174859
+&#13;
+machine: x86_64
+&#13;
+clock source: unix
+&#13;
+detected number of CPU cores: 1
+&#13;
+current working directory: /home/user1/log
+&#13;
+writing pidfile to /home/user1/log/uwsgi.pid
+&#13;
+detected binary path: /home/user1/proj/venv/bin/uwsgi
+&#13;
+!!! no internal routing support, rebuild with pcre support !!!
+&#13;
+chdir() to /home/user1/proj
+&#13;
+your processes number limit is 7725
+&#13;
+your memory page size is 4096 bytes
+&#13;
+detected max file descriptor number: 65535
+&#13;
+lock engine: pthread robust mutexes
+&#13;
+thunder lock: disabled (you can enable it with --thunder-lock)
+&#13;
+bind(): Permission denied 
+&#13;
+这个是我的配置
+&#13;
+http= :80
+&#13;
+uid=root
+&#13;
+gid=root
+&#13;
+chdir=/home/user1/proj
+&#13;
+virtualenv=/home/user1/proj/venv
+&#13;
+wsgi-file=app.py
+&#13;
+callable=app
+&#13;
+processes=1
+&#13;
+threads=2
+&#13;
+stats=/home/user1/log/uwsgi.status
+&#13;
+pidfile=/home/user1/log/uwsgi.pid
+&#13;
+使用sudo然后使用uid+gid的配置可以正常启动uwsgi，又回到了使用root权限启动uwsgi，但是我的本意是不行root权限启动uwsgi，所以我不清楚怎么配置这个非root账户的权限。</description>
+      <content:encoded><![CDATA[<p><b>晩韶华: </b><br>
+<span>「码农归外野」服务器非root用户如何启动uwsgi？</span><br>
+<span>用root用户加载配置的话，是可以正常启动uwsgi</span><br>
+<span>但是我新建一个非root用户，只授予的sudo权限，启动uwsgi时，就会警告。</span><br>
+<span>按照这个提示来说应该是这个非root账户没有创建socket文件</span><br>
+<span>~/log$ uwsgi uwsgi.ini</span><br>
+<span> getting INI configuration from uwsgi.ini</span><br>
+<span>*** Starting uWSGI 2.0.18 (64bit) on  ***</span><br>
+<span>compiled with version: 7.4.0 on 23 February 2020 14:23:16</span><br>
+<span>os: Linux-4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019</span><br>
+<span>nodename: ecs-sn3-medium-2-linux-20200107174859</span><br>
+<span>machine: x86_64</span><br>
+<span>clock source: unix</span><br>
+<span>detected number of CPU cores: 1</span><br>
+<span>current working directory: /home/user1/log</span><br>
+<span>writing pidfile to /home/user1/log/uwsgi.pid</span><br>
+<span>detected binary path: /home/user1/proj/venv/bin/uwsgi</span><br>
+<span>!!! no internal routing support, rebuild with pcre support !!!</span><br>
+<span>chdir() to /home/user1/proj</span><br>
+<span>your processes number limit is 7725</span><br>
+<span>your memory page size is 4096 bytes</span><br>
+<span>detected max file descriptor number: 65535</span><br>
+<span>lock engine: pthread robust mutexes</span><br>
+<span>thunder lock: disabled (you can enable it with --thunder-lock)</span><br>
+<span>bind(): Permission denied </span><br>
+<span>这个是我的配置</span><br>
+<span>http= :80</span><br>
+<span>uid=root</span><br>
+<span>gid=root</span><br>
+<span>chdir=/home/user1/proj</span><br>
+<span>virtualenv=/home/user1/proj/venv</span><br>
+<span>wsgi-file=app.py</span><br>
+<span>callable=app</span><br>
+<span>processes=1</span><br>
+<span>threads=2</span><br>
+<span>stats=/home/user1/log/uwsgi.status</span><br>
+<span>pidfile=/home/user1/log/uwsgi.pid</span><br>
+<span>使用sudo然后使用uid+gid的配置可以正常启动uwsgi，又回到了使用root权限启动uwsgi，但是我的本意是不行root权限启动uwsgi，所以我不清楚怎么配置这个非root账户的权限。</span><br>
+</p><p><b>FujiZ: </b><br>
+<span> 本帖最后由 FujiZ 于 2020-2-24 01:44 编辑 </span><br>
+<span>端口号小于1024的需要root权限才能用。可以试试这个方法https://superuser.com/questions/710253/allow-non-root-process-to-bind-to-port-80-and-443</span><br>
+<span>—— 来自 Xiaomi MI 5s, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ustslayer: </b><br>
+<span>嗯，楼上答案1和2说的很好了。要么给nonroot提权，要么先bind再降权</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>root敢死队 没这个烦恼</span><br>
+</p><p><b>jpcl: </b><br>
+<span>不是root的话用80端口，你这是农民工想进中南海指点江山啊</span><br>
+</p><p><b>starrlit: </b><br>
+<span>建议你套个 nginx 在前面，uwsgi 开个 5000 之类的，nginx 中转过去</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>flask?</span><br>
+<span>一般都是uwsgi+nginx</span><br>
+</p><p><b>晩韶华: </b><br>
+<span>FujiZ 发表于 2020-2-24 01:41</span><br>
+<span>端口号小于1024的需要root权限才能用。可以试试这个方法https://superuser.com/questions/710253/allow-non ...</span><br>
+<span>了解了，这就给uwsgi套个nginx皮</span><br>
+</p><p><b>redbuck: </b><br>
+<span>建议上v2ex</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915383[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为啥接上显卡，整个电脑就不供电？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为啥接上显卡，整个电脑就不供电？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:17:30 +0000</lastBuildDate>
+    <item>
+      <title>为啥接上显卡，整个电脑就不供电？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945098-1-1.html</link>
+      <description>为啥接上显卡，整个电脑就不供电？&#13;
+ 本帖最后由 ufo2222 于 2020-7-1 10:15 编辑 
+
+还是我，一波三折的折腾电脑了。之前新电脑突然跳闸确认是电源问题，换了个海韵的就毛事没有了。然后折腾下老的那台，那台原先也是电源问题，换了一个新的照理也没问题。
+&#13;
+但东西都七七八八装好后，开电发现主板灯不亮，逐一排查发现是显卡（老的A卡380X）问题，因为是6+6，只要插上了，电源就不供电，还不仅仅是显卡不供电，而是整个主机都不供电，但是换成另一张亮机卡（n卡的210，不需要外接供电的那种）就没问题了。
+&#13;
+这又是何故？
+&#13;
+楼下有些说是电源功率不够，但应该是够的，用了500w的足额金牌，这个电源之前还用在新电脑上（3600+2060s），老的是E31230+380X的组合，老电源也不过是520w的</description>
+      <content:encoded><![CDATA[<p><b>ufo2222: </b><br>
+<span>为啥接上显卡，整个电脑就不供电？</span><br>
+<span> 本帖最后由 ufo2222 于 2020-7-1 10:15 编辑 </span><br>
+<span>还是我，一波三折的折腾电脑了。之前新电脑突然跳闸确认是电源问题，换了个海韵的就毛事没有了。然后折腾下老的那台，那台原先也是电源问题，换了一个新的照理也没问题。</span><br>
+<span>但东西都七七八八装好后，开电发现主板灯不亮，逐一排查发现是显卡（老的A卡380X）问题，因为是6+6，只要插上了，电源就不供电，还不仅仅是显卡不供电，而是整个主机都不供电，但是换成另一张亮机卡（n卡的210，不需要外接供电的那种）就没问题了。</span><br>
+<span>这又是何故？</span><br>
+<span>楼下有些说是电源功率不够，但应该是够的，用了500w的足额金牌，这个电源之前还用在新电脑上（3600+2060s），老的是E31230+380X的组合，老电源也不过是520w的</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>听起来像是电源功率不够？</span><br>
+</p><p><b>netplaying: </b><br>
+<span>电源问题，电流不够</span><br>
+</p><p><b>ufo2222: </b><br>
+<span>netplaying 发表于 2020-7-1 09:28</span><br>
+<span>电源问题，电流不够</span><br>
+<span>电源是够的，有500w应该足够了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>把老显卡插新机试试。</span><br>
+</p><p><b>netplaying: </b><br>
+<span>ufo2222 发表于 2020-7-1 10:27</span><br>
+<span>电源是够的，有500w应该足够了</span><br>
+<span>不要只看额定功率，要看显卡那路的输出电流，而且即便是标称电流满足了，也可能存在虚标的情况。</span><br>
+</p><p><b>ufo2222: </b><br>
+<span>netplaying 发表于 2020-7-1 10:40</span><br>
+<span>不要只看额定功率，要看显卡那路的输出电流，而且即便是标称电流满足了，也可能存在虚标的情况。</span><br>
+<span> ...</span><br>
+<span>显卡输出哪路带2060s都能，带个古早的380x就带不起的嘛？ati no？</span><br>
+</p><p><b>midearth: </b><br>
+<span>显卡短路了？把卡插到别的机器上试试</span><br>
+</p><p><b>midearth: </b><br>
+<span>netplaying 发表于 2020-7-1 10:40</span><br>
+<span>不要只看额定功率，要看显卡那路的输出电流，而且即便是标称电流满足了，也可能存在虚标的情况。</span><br>
+<span> ...</span><br>
+<span>正常来说显卡不会一开机就满载的，功率不足不会开机都开不起来，如果是一玩游戏就死机还比较像。</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>显卡供电有短接的说法么</span><br>
+<span>如果有的话短接下试试看</span><br>
+</p><p><b>ufo2222: </b><br>
+<span>midearth 发表于 2020-7-1 10:46</span><br>
+<span>正常来说显卡不会一开机就满载的，功率不足不会开机都开不起来，如果是一玩游戏就死机还比较像。 ...</span><br>
+<span>奇怪的是显卡插上去，整个供电都断了，主板灯都不亮，换个显卡倒是可以，但显卡坏了也不至于把整个供电掐断吧</span><br>
+</p><p><b>linux40: </b><br>
+<span>midearth 发表于 2020-7-1 10:46</span><br>
+<span>正常来说显卡不会一开机就满载的，功率不足不会开机都开不起来，如果是一玩游戏就死机还比较像。 ...</span><br>
+<span>功率不足会开不起机的，一般pcie能供75w的电。</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>看显卡接口的针一样没有凹回去，或者里面烧黑了。</span><br>
+<span>我之前有个电源就是这样，有一根线的铜接触面接触不良烧黑掉了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>有万用表量一下就知道了，看上去像短路，记得部分N卡供电不足是有提示灯的（A卡不知道），而且至少风扇会转</span><br>
+</p><p><b>ufo2222: </b><br>
+<span>zatsuza 发表于 2020-7-1 12:10</span><br>
+<span>有万用表量一下就知道了，看上去像短路，记得部分N卡供电不足是有提示灯的（A卡不知道），而且至少风扇会转 ...</span><br>
+<span>风扇不转的，就像是整个主机没通电一样，一点电都没有</span><br>
+</p><p><b>midearth: </b><br>
+<span>ufo2222 发表于 2020-7-1 11:41</span><br>
+<span>奇怪的是显卡插上去，整个供电都断了，主板灯都不亮，换个显卡倒是可以，但显卡坏了也不至于把整个供电掐 ...</span><br>
+<span>短路了然后电源断电保护了呀。而且某个部件有问题导致主板完全不亮是很正常的，不用纠结这个。有其他机器的话把显卡换上去试试，故障一样的话肯定就是显卡问题。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945098[0-50]</guid>
+    </item>
+  </channel>
+</rss>

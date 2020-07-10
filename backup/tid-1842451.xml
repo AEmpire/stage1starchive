@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>血污PC/PS4/NS存档互转</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>血污PC/PS4/NS存档互转</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:28:45 +0000</lastBuildDate>
+    <item>
+      <title>血污PC/PS4/NS存档互转[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842451-1-1.html</link>
+      <description>血污PC/PS4/NS存档互转&#13;
+ 本帖最后由 Zest 于 2019-6-26 19:23 编辑 
+
+血污PC/PS4/NS存档互转
+&#13;
+把存档文件Story_Slot??.sav拖到转换工具上，会生成一个解密/加密后的out_Story_Slot??.sav，加密和解密是相同的算法，拖PC加密存档自动解密，拖PC解密后的存档/PS4用Save Wizard选Export导出的存档/NS用Checkpoint备份的存档自动加密
+&#13;
+PC&gt;PS4/NS
+&#13;
+PC存档拖到转换工具上，自动生成解密后的out_Story_Slot??.sav，因为PC版有DLC，PS4/NS没DLC所以存档不能直接用，需要用16进制编辑工具打开解密后的out_Story_Slot??.sav，搜索486173444c4373（就是HasDLCs），替换成00000000000000就变成没有DLC的存档了，改名成Story_Slot??.sav
+&#13;
+PS4用Save Wizard打开存档，选Import导入上一步的Story_Slot??.sav，NS用Checkpoint替换TF卡上的同名备份文件后还原
+&#13;
+PS4/NS&gt;PC
+&#13;
+PS4用Save Wizard选Export导出的存档/NS用Checkpoint备份的存档拖到转换工具上，自动生成加密后的out_Story_Slot??.sav，改名替换PC存档即可直接使用</description>
+      <content:encoded><![CDATA[<p><b>Zest: </b><br>
+<span>血污PC/PS4/NS存档互转</span><br>
+<span> 本帖最后由 Zest 于 2019-6-26 19:23 编辑 </span><br>
+<span>血污PC/PS4/NS存档互转</span><br>
+<span>把存档文件Story_Slot??.sav拖到转换工具上，会生成一个解密/加密后的out_Story_Slot??.sav，加密和解密是相同的算法，拖PC加密存档自动解密，拖PC解密后的存档/PS4用Save Wizard选Export导出的存档/NS用Checkpoint备份的存档自动加密</span><br>
+<span>PC>PS4/NS</span><br>
+<span>PC存档拖到转换工具上，自动生成解密后的out_Story_Slot??.sav，因为PC版有DLC，PS4/NS没DLC所以存档不能直接用，需要用16进制编辑工具打开解密后的out_Story_Slot??.sav，搜索486173444c4373（就是HasDLCs），替换成00000000000000就变成没有DLC的存档了，改名成Story_Slot??.sav</span><br>
+<span>PS4用Save Wizard打开存档，选Import导入上一步的Story_Slot??.sav，NS用Checkpoint替换TF卡上的同名备份文件后还原</span><br>
+<span>PS4/NS>PC</span><br>
+<span>PS4用Save Wizard选Export导出的存档/NS用Checkpoint备份的存档拖到转换工具上，自动生成加密后的out_Story_Slot??.sav，改名替换PC存档即可直接使用</span><br>
+</p><p><b>hypnossz86: </b><br>
+<span>ps4没破解的话能用么?</span><br>
+</p><p><b>Zest: </b><br>
+<span>破解机玩不了血污，本来就是没破解用的，不过需要买Save Wizard解密PS4存档</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>2019年了，有存档是 json 格式的吗（存储时压缩一下）</span><br>
+</p><p><b>Zest: </b><br>
+<span>アーシェス 发表于 2019-6-26 19:21</span><br>
+<span>2019年了，有存档是 json 格式的吗（存储时压缩一下）</span><br>
+<span>各大手游</span><br>
+</p><p><b>hugosol: </b><br>
+<span>这个好，如果主机版的DLC一直不出我就导回PC玩了</span><br>
+</p><p><b>johanliebert: </b><br>
+<span>pc转成ps4以后鞭剑还在不</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-6-26 21:26 编辑 </span><br>
+<span>johanliebert 发表于 2019-6-26 20:51</span><br>
+<span>pc转成ps4以后鞭剑还在不</span><br>
+<span>没试过，如果这武器已经在1.0的数据文件里，只是正常拿不到通过DLC才能解锁的话应该还在，说白了就是1.0没装DLC也能用修改器改出来的话就在</span><br>
+<span>是叫剑鞭吗？开NS看了一下还在，PS4应该一样</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>ns现在只有破解才能用存档吧</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Zest: </b><br>
+<span>可以通过云存档传到一台破解机上，转换完再同步回去</span><br>
+</p><p><b>gaosongdf: </b><br>
+<span>LZ我下载了，但是无法在WIN10上使用啊，点击了没反应</span><br>
+</p><p><b>PYY: </b><br>
+<span>插个话，今天突然想起来看看港服psn的万圣节优惠，鬼怪类的游戏中看看有没有这个恶魔城，结果居然下架了。</span><br>
+<span>只有那个几十块钱的制作人资料片还在。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>gaosongdf: </b><br>
+<span>PC存档导入NS后（按照LZ的方法），记录读取画面里显示一个灰色的叹号“！” 存档名字也是灰色的“新资料”，无法读取。是我什么地方弄错了么？16进制的改过和没改过都试过了，都是如此</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842451[0-50]</guid>
+    </item>
+  </channel>
+</rss>

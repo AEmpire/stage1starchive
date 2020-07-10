@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Linus Torvalds回应用户抱怨：不建议使用 ZFS On Linux</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Linus Torvalds回应用户抱怨：不建议使用 ZFS On Linux</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:50:43 +0000</lastBuildDate>
+    <item>
+      <title>Linus Torvalds回应用户抱怨：不建议使用 ZFS On Linux[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908714-1-1.html</link>
+      <description>Linus Torvalds回应用户抱怨：不建议使用 ZFS On Linux&#13;
+Linux内核创建者Linus Torvalds最近回应 Linux内核调度器存在问题的文章引发了大家的关注，在同一个帖子里，他还回复了一名用户抱怨Linux内核最近破坏了内核源码树外ZFS模块的评论。
+&#13;
+Linus表明了自己对 ZFS On Linux的态度，在Oracle对ZFS的代码进行重新授权以使其能更友好地被引入到Linux Kernel mainline之前，他不会推荐使用 ZFS On Linux。不过即便抛开许可证的原因，Linus似乎也没被ZFS的功能或综合表现所吸引。
+&#13;
+当然，Linus Torvalds对内核源码树外模块的行为几乎不怎么控制，并且始终坚守不维护不稳定的驱动程序API/ABI的立场，不会投入精力到闭源/内核源码树外的代码中。内核源码树外的模块也基本上被视为不存在。
+&#13;
+根据Linus的回应，如果有人为Linux内核添加了像ZFS这样的模块，那么它们将独立于Linux内核，Linus也无法维护它，也无法被其他人提交的内核变更所影响。有人认为将ZFS代码合并到内核中是可行的，但Linus考虑到Oracle的诉讼性质，以及有关许可的问题，他绝对无法放心采用这种方式。
+&#13;
+Linus还坦言对某些"ZFS shim layer"东西完全不感兴趣，有些人似乎认为这会隔离两个项目。但这对Linux内核没有任何价值，并且考虑到Oracle关于API的版权诉讼（请参阅Java），他不认为Oracle会修改ZFS的许可证。
+&#13;
+总而言之，Linus的观点就是不要使用ZFS。他表示自己见过的基准测试并没有使ZFS看起来那么出色。据他所知，ZFS背后也没有任何真正的维护人员。因此，从长期稳定性的角度来看，为什么首先要使用它？</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>Linus Torvalds回应用户抱怨：不建议使用 ZFS On Linux</span><br>
+<span>Linux内核创建者Linus Torvalds最近回应 Linux内核调度器存在问题的文章引发了大家的关注，在同一个帖子里，他还回复了一名用户抱怨Linux内核最近破坏了内核源码树外ZFS模块的评论。</span><br>
+<span>Linus表明了自己对 ZFS On Linux的态度，在Oracle对ZFS的代码进行重新授权以使其能更友好地被引入到Linux Kernel mainline之前，他不会推荐使用 ZFS On Linux。不过即便抛开许可证的原因，Linus似乎也没被ZFS的功能或综合表现所吸引。</span><br>
+<span>当然，Linus Torvalds对内核源码树外模块的行为几乎不怎么控制，并且始终坚守不维护不稳定的驱动程序API/ABI的立场，不会投入精力到闭源/内核源码树外的代码中。内核源码树外的模块也基本上被视为不存在。</span><br>
+<span>根据Linus的回应，如果有人为Linux内核添加了像ZFS这样的模块，那么它们将独立于Linux内核，Linus也无法维护它，也无法被其他人提交的内核变更所影响。有人认为将ZFS代码合并到内核中是可行的，但Linus考虑到Oracle的诉讼性质，以及有关许可的问题，他绝对无法放心采用这种方式。</span><br>
+<span>Linus还坦言对某些"ZFS shim layer"东西完全不感兴趣，有些人似乎认为这会隔离两个项目。但这对Linux内核没有任何价值，并且考虑到Oracle关于API的版权诉讼（请参阅Java），他不认为Oracle会修改ZFS的许可证。</span><br>
+<span>总而言之，Linus的观点就是不要使用ZFS。他表示自己见过的基准测试并没有使ZFS看起来那么出色。据他所知，ZFS背后也没有任何真正的维护人员。因此，从长期稳定性的角度来看，为什么首先要使用它？</span><br>
+</p><p><b>catxing: </b><br>
+<span>远离oracle一定会被历史证明是明智的</span><br>
+</p><p><b>ZRS: </b><br>
+<span>想用ZFS还是得上FreeNAS</span><br>
+</p><p><b>董卓: </b><br>
+<span>正好之前看过方面，那S1众推荐还有啥好的DFS？</span><br>
+<span>GlusterFS？前4年测过，大规模了之后性能比较糟，还有点bug</span><br>
+<span>Lustre？</span><br>
+<span>感觉基于FUSE的都不咋地</span><br>
+<span>是不是还是得上块级的东西？但全都是商用啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908714[0-50]</guid>
+    </item>
+  </channel>
+</rss>

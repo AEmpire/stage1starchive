@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 外野万能，求助个excel使用方法]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1945819.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1945819.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 外野万能，求助个excel使用方法 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 09:26:46 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #25]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48107418&ptid=1945819" target="_blank"><font color="#999999">zievod 发表于 2020-7-7 19:39</font></a></font><br>
+最简单粗暴就直接上公式<br>
+<br>
+h2</blockquote></div><br>
+公式的方法我知道的<br>
+我只是觉得excel应该有办法直接搜索出我想要的结果的<br>
+也许用数组结合公式能做到？但是我不会用数组<img src="https://static.saraba1st.com/image/smiley/face2017/068.png" smilieid="680" border="0" alt referrerpolicy="no-referrer">]]></description>
+            <pubDate>Tue, 07 Jul 2020 12:04:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107695</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107695</link>
+            
+            
+            
+            <author><![CDATA[macrosszhao]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #24]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48107264&ptid=1945819" target="_blank"><font color="#999999">cxn 发表于 2020-7-7 19:26</font></a></font><br>
+试了一下，很简洁啊，如图，优化了一下把name放筛选器里去了，并且隐藏了行标签所在的第一列<br>
+你弄两个shee ...</blockquote></div><br>
+原来如此，透视表的筛选是不会隐藏整行的，学到了<img src="https://static.saraba1st.com/image/smiley/face2017/068.png" smilieid="680" border="0" alt referrerpolicy="no-referrer">]]></description>
+            <pubDate>Tue, 07 Jul 2020 11:50:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107533</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107533</link>
+            
+            
+            
+            <author><![CDATA[macrosszhao]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #23]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 zievod 于 2020-7-7 19:50 编辑 </i><br>
+<br>
+最简单粗暴就直接上公式<br>
+<br>
+h2<br>
+=IF(A2=$H$1,B2,"")<br>
+<br>
+然后清除公式清除空格...<br>
+<br>
+// 忽略<br>
+透视表的话<br>
+你直接把name和value都放行标签也行 就是数据量大的话复制起来麻烦<br>
+<br>
+这方法不行 这么搞的话不如直接复制源数据 然后按照name排序了<br>
+]]></description>
+            <pubDate>Tue, 07 Jul 2020 11:39:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107418</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107418</link>
+            
+            
+            
+            <author><![CDATA[zievod]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #22]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 cxn 于 2020-7-7 19:38 编辑 </i><br>
+<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48107013&ptid=1945819" target="_blank"><font color="#999999">macrosszhao 发表于 2020-7-7 18:57</font></a></font><br>
+这样需要建两个标签页然后分别筛选然后把结果再映射到一个新的标签页里，感觉操作步骤有点多…… ...</blockquote></div><br>
+试了一下，很简洁啊，如图，优化了一下把name放筛选器里去了，并且隐藏了行标签所在的第一列<br>
+你弄两个sheet干嘛，都放一个sheet里不就完事了，映射也多此一举嘛<br>
+]]></description>
+            <pubDate>Tue, 07 Jul 2020 11:26:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107264</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107264</link>
+            
+            
+            
+            <author><![CDATA[cxn]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #21]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48100159&ptid=1945819" target="_blank"><font color="#999999">cxn 发表于 2020-7-7 10:41</font></a></font><br>
+再截图的基础上再多弄1个透视图，原有透视图的列标签筛选a，新透视图的列标签筛选b ...</blockquote></div><br>
+这样需要建两个标签页然后分别筛选然后把结果再映射到一个新的标签页里，感觉操作步骤有点多……]]></description>
+            <pubDate>Tue, 07 Jul 2020 10:57:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107013</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48107013</link>
+            
+            
+            
+            <author><![CDATA[macrosszhao]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #20]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48099671&ptid=1945819" target="_blank"><font color="#999999">pkwopawho 发表于 2020-7-7 09:59</font></a></font><br>
+https://mp.weixin.qq.com/s/QD-TA4JXyMOQZ3qRM4iNLA<br>
+<br>
+正好看到</blockquote></div><br>
+我想做到的效果正好和他相反<img src="https://static.saraba1st.com/image/smiley/face2017/068.png" smilieid="680" border="0" alt referrerpolicy="no-referrer"><br>
+想从右图到左图]]></description>
+            <pubDate>Tue, 07 Jul 2020 10:55:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48106995</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48106995</link>
+            
+            
+            
+            <author><![CDATA[macrosszhao]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #19]]></title>
+            <description><![CDATA[再截图的基础上再多弄1个透视图，原有透视图的列标签筛选a，新透视图的列标签筛选b<img src="https://static.saraba1st.com/image/smiley/face2017/049.png" smilieid="766" border="0" alt referrerpolicy="no-referrer">]]></description>
+            <pubDate>Tue, 07 Jul 2020 02:41:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48100159</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48100159</link>
+            
+            
+            
+            <author><![CDATA[cxn]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #18]]></title>
+            <description><![CDATA[<a href="https://mp.weixin.qq.com/s/QD-TA4JXyMOQZ3qRM4iNLA" target="_blank">https://mp.weixin.qq.com/s/QD-TA4JXyMOQZ3qRM4iNLA</a><br>
+<br>
+正好看到]]></description>
+            <pubDate>Tue, 07 Jul 2020 01:59:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48099671</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48099671</link>
+            
+            
+            
+            <author><![CDATA[pkwopawho]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #17]]></title>
+            <description><![CDATA[<a href="https://support.microsoft.com/zh-cn/office/filter-%E5%87%BD%E6%95%B0-f4f7cb66-82eb-4767-8f7c-4877ad80c759" target="_blank">https://support.microsoft.com/zh ... 7-8f7c-4877ad80c759</a><br>
+<br>
+新公式， =FILTER(b2:b30,a2:a30=h1,"0")]]></description>
+            <pubDate>Sun, 05 Jul 2020 14:59:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48082471</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48082471</link>
+            
+            
+            
+            <author><![CDATA[ulysses]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[外野万能，求助个excel使用方法 #16]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48072460&ptid=1945819" target="_blank"><font color="#999999">awflu 发表于 2020-7-5 04:33</font></a></font><br>
+pandas直接有个unstack是做你这件事的..<br>
+一定要用公式拉的话就是在公式里面把这玩意实现一次，索引取值来来 ...</blockquote></div><br>
+谢谢，<img src="https://static.saraba1st.com/image/smiley/face2017/073.png" smilieid="633" border="0" alt referrerpolicy="no-referrer"><br>
+看来要靠公式实现的话套好几层公式是避免不了的呢，]]></description>
+            <pubDate>Sun, 05 Jul 2020 13:35:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48081254</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1945819&#38;pid=48081254</link>
+            
+            
+            
+            <author><![CDATA[macrosszhao]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>华硕的RT-AC5300支持WISP的第三方固件有哪些</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>华硕的RT-AC5300支持WISP的第三方固件有哪些</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:34:48 +0000</lastBuildDate>
+    <item>
+      <title>华硕的RT-AC5300支持WISP的第三方固件有哪些[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841479-1-1.html</link>
+      <description>华硕的RT-AC5300支持WISP的第三方固件有哪些&#13;
+不管是原厂还是梅林，无线中继这块都太烂了，还是WISP最好。
+&#13;
+我要的是通过无线WAN中继，不在同一个网段，可以开DHCP，还能隐藏SSID
+&#13;
+听说DD-WRT支持，有没有玩过的朋友分享一下经验，主要是刷机的要点。
+&#13;
+好像要先刷一个小型系统再刷一个大型系统，不过官网上只找到大的。
+&#13;
+https://dd-wrt.com/support/router-database/?model=RT-AC5300_-</description>
+      <content:encoded><![CDATA[<p><b>Saphir: </b><br>
+<span>华硕的RT-AC5300支持WISP的第三方固件有哪些</span><br>
+<span>不管是原厂还是梅林，无线中继这块都太烂了，还是WISP最好。</span><br>
+<span>我要的是通过无线WAN中继，不在同一个网段，可以开DHCP，还能隐藏SSID</span><br>
+<span>听说DD-WRT支持，有没有玩过的朋友分享一下经验，主要是刷机的要点。</span><br>
+<span>好像要先刷一个小型系统再刷一个大型系统，不过官网上只找到大的。</span><br>
+<span>https://dd-wrt.com/support/router-database/?model=RT-AC5300_-</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>华硕做无线网卡用很好3层交互，延迟很低。</span><br>
+<span>中继，别说路由器了。华硕的中继器都很烂。</span><br>
+</p><p><b>Saphir: </b><br>
+<span>华硕官网还有体验某型号路由器模拟设置这种东西，什么鬼？</span><br>
+<span>https://event.asus.com/2012/nw/dummy_ui/cn/advanced_dhcp_content.html</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>梅林天生缺陷不能WISP的，刷lede呗</span><br>
+</p><p><b>Saphir: </b><br>
+<span>你们有见过这么奇葩的网络故障么？</span><br>
+<span>RT-AC5300的2.4G中继，有线连接一开始能上网，过一段非固定但不长的时间右下角的网络图标就打叉不能上网，网页提示与DNS有关，但即便手动设置静态IP和DNS问题依旧。</span><br>
+<span>最奇葩的来了，无线连接2.4G和5G-2都能正常上网，连接5G-1右下角的无线网络图标一直显示正常没打叉属性里也不提示无internet访问权限但就是和有线连接一样无法上网。</span><br>
+<span>这个问题是百思不得其解，之前同样固件用5G-2中继过什么问题都没有，5G信道什么的也都逐一换过，路由器设置里开不开DHCP都一样。</span><br>
+<span>以下是华硕固件开启中继模式后进入被隐藏的无线和DHCP设置的地址：</span><br>
+<span>Advanced_Wireless_Content.asp</span><br>
+<span>Advanced_DHCP_Content.asp</span><br>
+<span>前面加上路由器的LAN地址即可访问，不知道华硕为什么要隐藏，明明有很多很有用的设置，当消费者都是智障么？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841479[0-50]</guid>
+    </item>
+  </channel>
+</rss>

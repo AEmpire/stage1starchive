@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求助】新装的PC，每隔一阵就卡一下</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求助】新装的PC，每隔一阵就卡一下</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:00:44 +0000</lastBuildDate>
+    <item>
+      <title>【求助】新装的PC，每隔一阵就卡一下[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837266-1-1.html</link>
+      <description>【求助】新装的PC，每隔一阵就卡一下&#13;
+前几个月才装的电脑，win10系统，现在每用一阵（10-30分钟不等）系统就卡一下，持续大概3秒，期间所有程序定住不动，鼠标移动正常但点击什么都无效，过了2-3秒后每个程序就像是重新刷新了一遍，这时就回复正常了。
+&#13;
+配置是9900K+32G，卡住的时候任务管理器也显示并无异常，CPU内存什么的都没有波动，应该不是硬件性能的问题。
+&#13;
+难道只能重装验证了吗</description>
+      <content:encoded><![CDATA[<p><b>yang6451: </b><br>
+<span>【求助】新装的PC，每隔一阵就卡一下</span><br>
+<span>前几个月才装的电脑，win10系统，现在每用一阵（10-30分钟不等）系统就卡一下，持续大概3秒，期间所有程序定住不动，鼠标移动正常但点击什么都无效，过了2-3秒后每个程序就像是重新刷新了一遍，这时就回复正常了。</span><br>
+<span>配置是9900K+32G，卡住的时候任务管理器也显示并无异常，CPU内存什么的都没有波动，应该不是硬件性能的问题。</span><br>
+<span>难道只能重装验证了吗</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>用LatencyMon看看哪个造成卡的</span><br>
+</p><p><b>madbird302: </b><br>
+<span> 本帖最后由 madbird302 于 2019-6-5 23:09 编辑 </span><br>
+<span>感觉是HDD坏道……不过不大可能吧</span><br>
+</p><p><b>gaiden: </b><br>
+<span>系统盘是什么</span><br>
+</p><p><b>EP2: </b><br>
+<span>显卡崩溃了？</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>似乎像固态的问题，或者是机械盘休眠了？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>棺材叔叔: </b><br>
+<span>WIN10？如果是，看看有没有什么傻叉进程占用硬盘非常高的，</span><br>
+<span>如果不是，换块硬盘试试。。。</span><br>
+</p><p><b>flymop: </b><br>
+<span>一定是有某个傻X的小程序占进程，我这里是网银控件</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>网卡驱动是不是装了杀手官方的？</span><br>
+<span>—— 来自 HUAWEI COR-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yang6451: </b><br>
+<span>感谢各位回复</span><br>
+<span>经过排查，似乎可能是输入法的锅。卸载掉搜狗/QQ拼音后一段时间都没有出现过这种问题了，先继续观察下。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837266[0-50]</guid>
+    </item>
+  </channel>
+</rss>

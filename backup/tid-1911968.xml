@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【编程归外野】python如何调用汇编</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【编程归外野】python如何调用汇编</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:26:21 +0000</lastBuildDate>
+    <item>
+      <title>【编程归外野】python如何调用汇编[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911968-1-1.html</link>
+      <description>【编程归外野】python如何调用汇编&#13;
+反编译了办公室流程管理系统（完全没什么用的东西，我拥有全部角色的权限，平时就是走流程）的调用函数，想搞一个流程发起、审批、通过自动化。
+&#13;
+如何用python调用反编译后的汇编函数代码？</description>
+      <content:encoded><![CDATA[<p><b>zhenniuren: </b><br>
+<span>【编程归外野】python如何调用汇编</span><br>
+<span>反编译了办公室流程管理系统（完全没什么用的东西，我拥有全部角色的权限，平时就是走流程）的调用函数，想搞一个流程发起、审批、通过自动化。</span><br>
+<span>如何用python调用反编译后的汇编函数代码？</span><br>
+</p><p><b>vybuff: </b><br>
+<span>首先要确认dll/so之类的链接库有没有暴露出来你要调用的过程 如果有暴露出来的话再确认下calling convention是什么 然后用python的cffi调用就行了 如果没有暴露 你就需要写一个dll/so 用c或者汇编去跳转到你想调用的代码 然后在这个dll/so中暴露出来自定义的接口给python cffi调用</span><br>
+</p><p><b>Redis: </b><br>
+<span>你把你的代码弄成一个exectuable，随便怎么掉随便你了</span><br>
+<span>python没法自动识别入口</span><br>
+</p><p><b>Litccc: </b><br>
+<span>召唤python侠</span><br>
+</p><p><b>jctc: </b><br>
+<span>最关键的是你Python的Object是PyObject，和C的接口不一致</span><br>
+<span>如果你这个是可以运行的直接用subprocess做</span><br>
+<span>如果不能运行的话你还得自己写一个中间件。</span><br>
+</p><p><b>lokomotiv: </b><br>
+<span>jctc 发表于 2020-2-3 03:40</span><br>
+<span>最关键的是你Python的Object是PyObject，和C的接口不一致</span><br>
+<span>如果你这个是可以运行的直接用subprocess做</span><br>
+<span>如果 ...</span><br>
+<span>整层楼下来就能理解用subprocess。。话说dll/so是什么方向的开发人员会用到的</span><br>
+</p><p><b>mintpie: </b><br>
+<span>lokomotiv 发表于 2020-2-3 04:13</span><br>
+<span>整层楼下来就能理解用subprocess。。话说dll/so是什么方向的开发人员会用到的 ...</span><br>
+<span>动态库，基本上是C写好了编译出来的binary。他的意思是如果你要做的东西就在库里，那么调用起来就很容易，不然你得自己写一个再调用。</span><br>
+<span>你可以看一下微软的DLL教程：https://docs.microsoft.com/en-us ... ry-cpp?view=vs-2019</span><br>
+<span>本质就是写C代码。</span><br>
+</p><p><b>jctc: </b><br>
+<span>lokomotiv 发表于 2020-2-3 04:13</span><br>
+<span>整层楼下来就能理解用subprocess。。话说dll/so是什么方向的开发人员会用到的 ...</span><br>
+<span>几个考虑</span><br>
+<span>首先，如果很多程序都要用一套相同的库，比如gnu c的runtime library，那就希望几点，一个是把这个库保存在一个公共的文件上，这样其他程序不需要自己本身携带，直接用这个公共文件就行。还有一个是系统运行的时候，保存在一个特定的内存空间里，这样所有正在运行的程序都映射到这一个内存空间里。减少了占用空间大小同时也减少了管理时的复杂度。</span><br>
+<span>第二，有时候你要考虑的是，一个程序只做一个特定的事情，其他的功能交给别的程序做，然后把这些程序组合起来。比如你要做分子动力学模拟，需要计算分子间作用力，根据作用力大小更新分子间的位置。那么分子间作用力的计算可能你能选择非常多的方法，但是更新分子间的位置就是个很标准的操作了。这时候把更新位置的程序A写出来，然后把算作用力的程序B，C，D，etc写成DLL/SO文件，提供标准接口。这样A就可以根据情况灵活调用B，C，D，解决了换一种方法就要重新编译一遍程序的不便。</span><br>
+<span>第三，很多大型程序是由很多人组成很多不同的小组进行的，每个小组可能专注于某一个功能，那么把大型程序拆分成很多个库，就可以方便每个小组独立开发，独立测试，在项目管理中起到很方便的作用。</span><br>
+<span>总之，这种设计就是模块化设计的结果，通过模块化抽象解决了开发和管理的很多问题。希望以后能开发出模块化的老婆，由祖国根据我的功劳发给我一个。</span><br>
+</p><p><b>jctc: </b><br>
+<span>mintpie 发表于 2020-2-3 04:25</span><br>
+<span>动态库，基本上是C写好了编译出来的binary。他的意思是如果你要做的东西就在库里，那么调用起来就很容易， ...</span><br>
+<span>我不是这个意思</span><br>
+<span>我的意思是说</span><br>
+<span>如果你这个是一个可执行文件</span><br>
+<span>那Python直接调用subprocess就行了</span><br>
+<span>用参数或者用共享文件之类的进行信息传输</span><br>
+<span>在不考虑安全性和效率的情况下</span><br>
+<span>这个是最省事的</span><br>
+<span>但是如果你得到的是一个DLL/SO文件</span><br>
+<span>那就要动态载入</span><br>
+<span>这个在Python里面罗嗦很多</span><br>
+<span>而且Python内部的值都是PyObject</span><br>
+<span>甚至你随便一个整数都是PyObject</span><br>
+<span>毕竟垃圾语言</span><br>
+<span>很难和其他正常语言进行沟通</span><br>
+<span>所以你很可能要自己写一个C的模块</span><br>
+<span>把PyObject翻译成那个DLL/SO能懂的东西</span><br>
+<span>然后把DLL/SO生成的东西再转换回PyObject</span><br>
+<span>垃圾语言做事麻烦</span><br>
+<span>我也没有办法</span><br>
+</p><p><b>mintpie: </b><br>
+<span> 本帖最后由 mintpie 于 2020-2-3 04:46 编辑 </span><br>
+<span>jctc 发表于 2020-2-3 04:36</span><br>
+<span>我不是这个意思</span><br>
+<span>我的意思是说</span><br>
+<span>如果你这个是一个可执行文件</span><br>
+<span>我明白了你的意思了，是我理解错了。楼主是反编译出来已经有汇编代码了。</span><br>
+<span>楼主需要看这个：https://docs.python.org/3/library/ctypes.html</span><br>
+</p><p><b>Endle: </b><br>
+<span>万能答案:用C包裹一层</span><br>
+</p><p><b>magi: </b><br>
+<span>一般来说这种应用应该是有个数据库吧？各种，看下流程 发起、审批、通过 大致是怎么操纵数据的，python直接仿照着操作一下数据库，可能会好维护些？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>用c++或者c#什么的包装一下dll，然后用python胶水套上去</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span>要不仿写一下反编译出来的数据库调用语句直接改数据库？</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>用C包成个函数</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>citrus: </b><br>
+<span> 本帖最后由 citrus 于 2020-2-3 10:38 编辑 </span><br>
+<span>首先顶楼说的是反汇编而不是反编译吧</span><br>
+<span>其次鉴于lz连dll/so都要问，我觉得与其去钻研C怎么写，还得读懂原程序的汇编代码，不如用python写一个自动生成键盘鼠标事件的程序，来自动化流程，比如这种：https://automatetheboringstuff.com/chapter18/</span><br>
+<span>这样完全省去了去理解别人代码的麻烦。</span><br>
+</p><p><b>Cirn09: </b><br>
+<span>用ctype加载dll调用</span><br>
+<span>如果是exe就修改文件头把类型改成dll、把入口地址改成0</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>citrus 发表于 2020-2-3 10:35</span><br>
+<span>首先顶楼说的是反汇编而不是反编译吧</span><br>
+<span>其次鉴于lz连dll/so都要问，我觉得与其去钻研C怎么写，还得读懂原程 ...</span><br>
+<span>是反汇编。</span><br>
+<span>之前也一直在用键盘鼠标模拟，但是这样比较耽误正常操作。改用虚拟机也是，cpu占用率一高其他工作就卡顿。</span><br>
+<span>现在知道具体的提交、审核、审批的函数地址和参数，如何用python直接写寄存器然后调用call指令？</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>不如看看到底怎么操作数据库的用py实现一遍</span><br>
+</p><p><b>革萌: </b><br>
+<span> 本帖最后由 革萌 于 2020-2-3 18:52 编辑 </span><br>
+<span>zhenniuren 发表于 2020-2-3 18:32</span><br>
+<span>是反汇编。</span><br>
+<span>之前也一直在用键盘鼠标模拟，但是这样比较耽误正常操作。改用虚拟机也是，cpu占用率一高其他 ...</span><br>
+<span>python不是让你干这个的.........你这要侵入别的程序的内存空间搞事</span><br>
+<span>这事情我不知道用python怎么干，但是我觉得python肯定能干，但是很麻烦。</span><br>
+<span>标准做法是用C，如果你执意去黑这个程序。</span><br>
+<span>然后正常做法是看这个流程的数据库在哪儿，调用服务器接口或者直接写库....</span><br>
+</p><p><b>q8f13: </b><br>
+<span>这种需求有必要整这么麻烦吗，建议上ahk</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>jctc: </b><br>
+<span>zhenniuren 发表于 2020-2-3 18:32</span><br>
+<span>是反汇编。</span><br>
+<span>之前也一直在用键盘鼠标模拟，但是这样比较耽误正常操作。改用虚拟机也是，cpu占用率一高其他 ...</span><br>
+<span>你要真的注入这个的话还是得写C函数</span><br>
+<span>垃圾语言活在虚拟机的世界之中</span><br>
+<span>真正的语言直接写物理内存地址</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>迂回了一下，把汇编转成shellcode直接注入程序空间</span><br>
+<span>用PVZ简单测试了一下，成功</span><br>
+<img src="https://s2.ax1x.com/2020/02/06/16U6bT.gif" title="https://s2.ax1x.com/2020/02/06/16U6bT.gif"><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911968[0-50]</guid>
+    </item>
+  </channel>
+</rss>

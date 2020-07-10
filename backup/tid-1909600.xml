@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>咨询个机战静态修改器的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>咨询个机战静态修改器的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:44:18 +0000</lastBuildDate>
+    <item>
+      <title>咨询个机战静态修改器的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1909600-1-1.html</link>
+      <description>咨询个机战静态修改器的问题&#13;
+最近的机战难度都太简单了，有些机体设置得又不满意，但是对演出效果还是能接受的，所以想自己改一版出来玩。问题如下：
+&#13;
+以百式为例，为毛这里会有5台之多？我该改哪一台？
+&#13;
+机师的话，以傻子那为例，为毛会分那么多个，而且还不连续的，我该改哪一个？
+&#13;
+以上。</description>
+      <content:encoded><![CDATA[<p><b>c月光咖啡: </b><br>
+<span>咨询个机战静态修改器的问题</span><br>
+<span>最近的机战难度都太简单了，有些机体设置得又不满意，但是对演出效果还是能接受的，所以想自己改一版出来玩。问题如下：</span><br>
+<span>以百式为例，为毛这里会有5台之多？我该改哪一台？</span><br>
+<span>机师的话，以傻子那为例，为毛会分那么多个，而且还不连续的，我该改哪一个？</span><br>
+<span>以上。</span><br>
+</p><p><b>武神吕布: </b><br>
+<span>第一次改机战？</span><br>
+<span>同名机体和机师是剧情里不同关不同进度不同剧情的产物。</span><br>
+<span>比如百式开局时没map，多少关后追加map，某固定关剧情只能用巴尔干炮和光剑，其他武器全废。这就是三台百式。</span><br>
+<span>机师也一样，敌方的，友军的，我方的，傻子那的那个叫啥的特殊能力觉醒前用？？？表示版，特殊能力觉醒后版等等。</span><br>
+<span>改哪个自己试吧。或者修改大触能直接搞清楚游戏每关调用的是哪台机体和机师，小白就不懂了。</span><br>
+</p><p><b>瞬间少年JUMP: </b><br>
+<span> 本帖最后由 瞬间少年JUMP 于 2020-1-14 19:44 编辑 </span><br>
+<span>之前也尝试过修改，后来发现太麻烦就放弃了，需要改的boss太多了</span><br>
+</p><p><b>JudgmentEye: </b><br>
+<span> 本帖最后由 JudgmentEye 于 2020-1-14 20:12 编辑 </span><br>
+<span>Z2的话，解开游戏ISO，用CPK解包USRDIR/KURO/STG_Z2.BIN，里面是每关的lua脚本，第一个文件是所有机体机师的代码列表，顺序就是静态修改器从上到下的顺序，每关对应的关卡文件里有登场代码，可以对照反推出哪关你应该改哪台</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1909600[0-50]</guid>
+    </item>
+  </channel>
+</rss>

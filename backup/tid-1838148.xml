@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教 现在有什么好用的鼠标映射软件</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教 现在有什么好用的鼠标映射软件</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:55:21 +0000</lastBuildDate>
+    <item>
+      <title>求教 现在有什么好用的鼠标映射软件[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838148-1-1.html</link>
+      <description>求教 现在有什么好用的鼠标映射软件&#13;
+买了套无线键鼠 用着还成就是鼠标侧键居然是前进后退 就是上一页和下一页 这俩按键使用频率比音量键还低 不知道设计师脑子里面进了什么玩意
+&#13;
+想要改成pageup和pagedown
+&#13;
+记着以前小众有推荐过 今天去小众找才发现改版了 什么都搜不到 52也凉了 
+&#13;
+只能来s1求助了 毕竟大佬又多人又热心
+&#13;
+现在问题来了 有什么按键映射软件好用的吗</description>
+      <content:encoded><![CDATA[<p><b>zievod: </b><br>
+<span>求教 现在有什么好用的鼠标映射软件</span><br>
+<span>买了套无线键鼠 用着还成就是鼠标侧键居然是前进后退 就是上一页和下一页 这俩按键使用频率比音量键还低 不知道设计师脑子里面进了什么玩意</span><br>
+<span>想要改成pageup和pagedown</span><br>
+<span>记着以前小众有推荐过 今天去小众找才发现改版了 什么都搜不到 52也凉了 </span><br>
+<span>只能来s1求助了 毕竟大佬又多人又热心</span><br>
+<span>现在问题来了 有什么按键映射软件好用的吗</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-6-9 20:43 编辑 </span><br>
+<span>注意这玩意改不了巨硬Sculpt系列的Windows键，别的键可以</span><br>
+<span>http://www.highrez.co.uk/downloads/XMouseButtonControl.htm</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span> 本帖最后由 JasonBourne 于 2019-6-10 00:55 编辑 </span><br>
+<span>我用的卓威鼠标，恰好和你一样的需求。工具用的AutoHotKey，这基本上是win上写按键脚本最好的软件了。</span><br>
+<span>关于侧键pgup、pgdown，我自己简单写了个脚本。复制到一个.ahk结尾的文件里，拖到AHK软件，生成exe，打开就行，最后记得把exe加到开机启动。</span><br>
+<span>以上更多细节或者想实现其他功能的话可以自行谷歌/百度，这软件能实现的效果超乎你想象。</span><br>
+<span>#NoEnv; Recommended for performance and compatibility with future AutoHotkey releases.</span><br>
+<span>; #Warn; Enable warnings to assist with detecting common errors.</span><br>
+<span>SendMode Input; Recommended for new scripts due to its superior speed and reliability.</span><br>
+<span>SetWorkingDir %A_ScriptDir%; Ensures a consistent starting directory.</span><br>
+<span>xbutton1::</span><br>
+<span>Send {PgDn}</span><br>
+<span>While GetKeyState("xbutton1", "p")</span><br>
+<span>{</span><br>
+<span>    If (A_TimeSinceThisHotkey > 500)</span><br>
+<span>      Send {PgDn}</span><br>
+<span>    sleep 30</span><br>
+<span>}</span><br>
+<span>Return</span><br>
+<span>xbutton2::</span><br>
+<span>Send {PgUp}</span><br>
+<span>While GetKeyState("xbutton2", "p")</span><br>
+<span>{</span><br>
+<span>    If (A_TimeSinceThisHotkey > 500)</span><br>
+<span>      Send {PgUp}</span><br>
+<span>    sleep 30</span><br>
+<span>}</span><br>
+<span>Return</span><br>
+</p><p><b>DapFlog: </b><br>
+<span> 本帖最后由 DapFlog 于 2019-6-10 09:00 编辑 </span><br>
+<span>不想连续触发的话</span><br>
+<span>XButton1::PgUp</span><br>
+<span>XButton2::PgDn</span><br>
+</p><p><b>BRRM: </b><br>
+<span>AHK，具体如3楼介绍的那样。他这个脚本是死按着侧键就会接连触发PGUP PGDOWN，不喜欢的话就把while那段给删掉。</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>改侧键？无线鼠标自带的配置软件都能改吧？这是最基本的功能啊</span><br>
+</p><p><b>zievod: </b><br>
+<span>感谢回复 </span><br>
+<span>试过了给体验</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>buynowcore: </b><br>
+<span>X-Mouse Button Control，好用的1b</span><br>
+<span>https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm</span><br>
+</p><p><b>zievod: </b><br>
+<span>测试了一下, 两个都很好用 </span><br>
+<span>需求</span><br>
+<span>1. 按下侧键则pageup/pagedown</span><br>
+<span>2. 长按侧键持续翻页</span><br>
+<span>X-Mouse Button Control</span><br>
+<span>下载: http://www.highrez.co.uk/downloads/XMouseButtonControl.htm</span><br>
+<span>功能:</span><br>
+<span>1. 按下侧键则pageup/pagedown √</span><br>
+<span>2. 长按侧键持续翻页 √</span><br>
+<span>      持续时间设置 repeatedly while the button is down</span><br>
+<span>      设置 during( press on down ,release on up ) 不行</span><br>
+<span>似乎还能设置鼠标宏什么的 功能很强的样子 就是全英文看着累</span><br>
+<span>AHK</span><br>
+<span>功能:</span><br>
+<span>1. 按下侧键则pageup/pagedown √</span><br>
+<span>2. 长按侧键持续翻页 √</span><br>
+<span>把翻页的延迟修改成了300 连续翻页的时候内容看的比较清楚</span><br>
+</p><p><b>卡片魔法师: </b><br>
+<span>Zest 发表于 2019-06-09 20:42:01</span><br>
+<span>反正巨硬的自带修改软件</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838148[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>我的傲腾32g总是掉是为什么啊？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>我的傲腾32g总是掉是为什么啊？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:07:42 +0000</lastBuildDate>
+    <item>
+      <title>我的傲腾32g总是掉是为什么啊？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914411-1-1.html</link>
+      <description>我的傲腾32g总是掉是为什么啊？&#13;
+笔记本自带的一条h10 ssd，自带32g傲腾，但是其实系统识别就是2条x2的硬盘，所以需要手动装rst驱动去加速，但是每次操作完过几天就弹出个窗口，傲腾正在禁用，然后我就必须重启才能再次开启傲腾加速
+&#13;
+而且最近的一次傲腾掉了，把我最近拷进去的数据全部损坏了，hash值全部都变了
+&#13;
+为什么这玩意会不稳定，自动掉？是因为我没拿它做系统盘的缘故吗？因为傲腾是绑定死那个1t的ssd的，所以还无法给我系统盘加速，不加速就只能是个32g的硬盘，一点用都没</description>
+      <content:encoded><![CDATA[<p><b>sirlion: </b><br>
+<span>我的傲腾32g总是掉是为什么啊？</span><br>
+<span>笔记本自带的一条h10 ssd，自带32g傲腾，但是其实系统识别就是2条x2的硬盘，所以需要手动装rst驱动去加速，但是每次操作完过几天就弹出个窗口，傲腾正在禁用，然后我就必须重启才能再次开启傲腾加速</span><br>
+<span>而且最近的一次傲腾掉了，把我最近拷进去的数据全部损坏了，hash值全部都变了</span><br>
+<span>为什么这玩意会不稳定，自动掉？是因为我没拿它做系统盘的缘故吗？因为傲腾是绑定死那个1t的ssd的，所以还无法给我系统盘加速，不加速就只能是个32g的硬盘，一点用都没</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>RST我已经给禁用了，垃圾玩意</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>最近我也掉了一次，给你这么一说怕了。傲腾新版软件现在换到微软商城了，我换了这个装，试试看还掉不掉</span><br>
+</p><p><b>disrupt: </b><br>
+<span>sirlion 发表于 2020-2-17 22:20</span><br>
+<span>笔记本自带的一条h10 ssd，自带32g傲腾，但是其实系统识别就是2条x2的硬盘，所以需要手动装rst驱动去加速， ...</span><br>
+<span>H10性能垃圾。掉盘可能是快挂了。</span><br>
+<span>但是也可以当活马医一下，不启用RST，搞个PrimoCache用它的32G Optane加速你的系统盘。这样万一再掉盘也不怕丢数据</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>只加速读取别加速写入</span><br>
+</p><p><b>feelmydick: </b><br>
+<span> 本帖最后由 feelmydick 于 2020-2-18 11:24 编辑 </span><br>
+<span>直接禁用得了</span><br>
+</p><p><b>風駿: </b><br>
+<span>傲腾是给拿机械盘做系统的加速，固态用傲腾搞哪样</span><br>
+</p><p><b>sirlion: </b><br>
+<span>Mocilol 发表于 2020-2-17 20:44</span><br>
+<span>最近我也掉了一次，给你这么一说怕了。傲腾新版软件现在换到微软商城了，我换了这个装，试试看还掉不掉 ...</span><br>
+<span>那要卸载原来的rst驱动和管理软件么？好像不能单独卸载管理软件</span><br>
+</p><p><b>sirlion: </b><br>
+<span>符里宮亜 发表于 2020-2-18 06:39</span><br>
+<span>只加速读取别加速写入</span><br>
+<span>这个rst管理软件没选项啊，只能加速和禁用加速</span><br>
+</p><p><b>a9okalypse: </b><br>
+<span>風駿 发表于 2020-2-18 11:26</span><br>
+<span>傲腾是给拿机械盘做系统的加速，固态用傲腾搞哪样</span><br>
+<span>这个固态是QLC的</span><br>
+<span>— from Google Pixel 4 XL, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>sirlion 发表于 2020-2-18 11:58</span><br>
+<span>这个rst管理软件没选项啊，只能加速和禁用加速</span><br>
+<span>有个叫Intel Cache Acceleration Software的东西 </span><br>
+<span>似乎是intel的ssd都能免费用 包括傲腾 可以单独选择只加速读取</span><br>
+<span>不过不清楚你这个H10行不行</span><br>
+</p><p><b>Benighted: </b><br>
+<span>之前帮人重装系统没注意停用这玩意时的特殊要求，差点弄丢一堆数据</span><br>
+</p><p><b>启航PRC: </b><br>
+<span>就是坏了吧</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>風駿 发表于 2020-2-18 11:26</span><br>
+<span> 傲腾是给拿机械盘做系统的加速，固态用傲腾搞哪样</span><br>
+<span>马上傲腾给TLC/QLC之类做加速就要成为标准方案了</span><br>
+</p><p><b>finger: </b><br>
+<span>不要用RST，用这个试试</span><br>
+<span>https://downloadcenter.intel.com/zh-cn/download/29340?v=t</span><br>
+</p><p><b>finger: </b><br>
+<span>安装以前把RST卸载干净</span><br>
+</p><p><b>sirlion: </b><br>
+<span>finger 发表于 2020-2-21 11:55</span><br>
+<span>不要用RST，用这个试试</span><br>
+<span>https://downloadcenter.intel.com/zh-cn/download/29340?v=t</span><br>
+<span>试过了，还是掉了，现在能确定的是，如果我一直睡眠休眠就不会掉，如果重启，只要重启四到五次后就会掉了</span><br>
+<span>驱动也换了，软件也换过了你这个，还试了上面说的微软商店的，都是这样，重启几次就自动禁用</span><br>
+</p><p><b>sirlion: </b><br>
+<span>Mocilol 发表于 2020-2-17 20:44</span><br>
+<span>最近我也掉了一次，给你这么一说怕了。傲腾新版软件现在换到微软商城了，我换了这个装，试试看还掉不掉 ...</span><br>
+<span>我试了这个还是掉，不重启就没问题，重启几次后，桌面有时突然闪过一个cmd窗口，再打开管理软件，就显示已禁用傲腾需要重启</span><br>
+</p><p><b>sirlion: </b><br>
+<span>符里宮亜 发表于 2020-2-18 11:44</span><br>
+<span>有个叫Intel Cache Acceleration Software的东西 </span><br>
+<span>似乎是intel的ssd都能免费用 包括傲腾 可以单独选择只 ...</span><br>
+<span>这东西我在官网怎么没找到下载地址啊，只找到一个人介绍如何使用的pdf</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>sirlion 发表于 2020-2-25 17:32</span><br>
+<span>这东西我在官网怎么没找到下载地址啊，只找到一个人介绍如何使用的pdf</span><br>
+<span>https://registrationcenter.intel.com/en/forms/?productid=3000</span><br>
+<span>简单注册一下应该就能下了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914411[0-50]</guid>
+    </item>
+  </channel>
+</rss>

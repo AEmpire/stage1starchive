@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>自组ITX机子作NAS，求建议</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>自组ITX机子作NAS，求建议</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:22:21 +0000</lastBuildDate>
+    <item>
+      <title>自组ITX机子作NAS，求建议[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912497-1-1.html</link>
+      <description>自组ITX机子作NAS，求建议&#13;
+ 本帖最后由 xzk0916 于 2020-2-6 16:29 编辑 
+
+最近想整一台NAS，主要用来挂下载、做文件服务器，同时为了想要更多可玩性，希望是x86架构的。
+&#13;
+看了些群晖 威联通之类的方案，觉得贵+箱子丑，不如自己用itx攒一台，单块3.5硬盘应该能让我玩很久了。
+&#13;
+自己看了一圈，准备用速龙3000G + 华擎A320M-ITX + 水冷快乐盒组一台，但是还有在纠结的地方：
+&#13;
+这个性能上（包括可能需要做转码的话）应该是完全足够？
+&#13;
+电源该怎么选择？看了些低功率的SFX电源外观都比较糙，买高端的好像又用不上，请问有没有推荐的。
+&#13;
+机箱有没有其它推荐的？希望是足够小（最好A4）并且能装1～2个3.5的
+&#13;
+关于系统，最近看的吹UNRAID的比较多，有必要入一个吗，还是说OMV会比较好。目前UNRAID比较对胃口的一点是可以U盘引导，全在内存中运行，不用我多准备一个系统盘。</description>
+      <content:encoded><![CDATA[<p><b>xzk0916: </b><br>
+<span>自组ITX机子作NAS，求建议</span><br>
+<span> 本帖最后由 xzk0916 于 2020-2-6 16:29 编辑 </span><br>
+<span>最近想整一台NAS，主要用来挂下载、做文件服务器，同时为了想要更多可玩性，希望是x86架构的。</span><br>
+<span>看了些群晖 威联通之类的方案，觉得贵+箱子丑，不如自己用itx攒一台，单块3.5硬盘应该能让我玩很久了。</span><br>
+<span>自己看了一圈，准备用速龙3000G + 华擎A320M-ITX + 水冷快乐盒组一台，但是还有在纠结的地方：</span><br>
+<span>这个性能上（包括可能需要做转码的话）应该是完全足够？</span><br>
+<span>电源该怎么选择？看了些低功率的SFX电源外观都比较糙，买高端的好像又用不上，请问有没有推荐的。</span><br>
+<span>机箱有没有其它推荐的？希望是足够小（最好A4）并且能装1～2个3.5的</span><br>
+<span>关于系统，最近看的吹UNRAID的比较多，有必要入一个吗，还是说OMV会比较好。目前UNRAID比较对胃口的一点是可以U盘引导，全在内存中运行，不用我多准备一个系统盘。</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>最后你会发现还不如装一台win server实用...</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2020-2-6 16:57 编辑 </span><br>
+<span>够</span><br>
+<span>全汉MS450的SFX是全新最便宜的 但是硬线做好难装的心理准备</span><br>
+<span>佑泽A4 能装1个3.5，但是你这APU没有显卡需求为什么要弄A4呢</span><br>
+<span>https://item.jd.com/20105648610.html</span><br>
+<span>或者这种机箱，能装ATX电源，省钱到硬盘上 </span><br>
+<span>系统没研究 推荐B站一个叫司波图的 有教程</span><br>
+<span>哦对 看到楼上我补充一下 我装的就是server</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>我是蜗牛星际机箱+蜗牛星际板子，自己换电源+风扇</span><br>
+<span>平时挂下载，播动画够用</span><br>
+<span>HEVC不太行，转码更不行</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>omv就是debian加个web ui的壳 熟悉debian的话omv可以用来当nas的系统</span><br>
+<span>至于unraid 反正我混的nas diy群里 大佬普遍都是用proxmox ve来玩各种虚拟化 主要unraid要钱。。。。</span><br>
+<span>至于转码 除非你有强烈的外网连接nas看片的需求 否则日常使用还是不要对nas的转码报太大希望 3000g核显再怎么强也不如压制组的双路e5来的靠谱</span><br>
+</p><p><b>xzk0916: </b><br>
+<span> 本帖最后由 xzk0916 于 2020-2-6 17:42 编辑 </span><br>
+<span>騜 发表于 2020-2-6 16:48</span><br>
+<span>够</span><br>
+<span>全汉MS450的SFX是全新最便宜的 但是硬线做好难装的心理准备</span><br>
+<span>佑泽A4 能装1个3.5，但是你这APU没有显卡需 ...</span><br>
+<span>因为我觉得大方盒子丑啊，看下来觉得就A4那一水的机箱比较精致</span><br>
+<span>不过ATX电源+itx的机箱倒是盲区了，我再看看</span><br>
+<span>全汉这个也是我目前暂定的，就是这个功率是不是太高了，换低点的能更省点？</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>cybernetics31 发表于 2020-2-6 17:29</span><br>
+<span>omv就是debian加个web ui的壳 熟悉debian的话omv可以用来当nas的系统</span><br>
+<span>至于unraid 反正我混的nas diy群里 大 ...</span><br>
+<span>unraid的价格确实有点劝退，主要也是存着想自己折腾玩的心思才选的linux系的系统。如果选OMV的话，是不是需要买根m.2的盘做系统盘？</span><br>
+<span>转码这个，是自己会想用iPad/手机看下下来的视频，可能有这个需要，属于有更好没有也行的feature吧</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>unraid一千块啊……同样奇偶校验的snapraid不要钱</span><br>
+</p><p><b>radar: </b><br>
+<span>可以参考下我类似的方案和你需求挺接近</span><br>
+<span>https://post.smzdm.com/p/a3gw5e7n/?send_by=3644894738&from=other</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>xzk0916 发表于 2020-2-6 17:37</span><br>
+<span>unraid的价格确实有点劝退，主要也是存着想自己折腾玩的心思才选的linux系的系统。如果选OMV的话，是不是 ...</span><br>
+<span>omv系统安装好后我记得是不能存储其他的数据的 并不需要m2 ssd 一块小容量的ssd就行 甚至不少人都装在u盘里头 当然你怕u盘而且sata系统盘占有sata口的话买m2的ssd也可以 我记得有看到过买网上洋垃圾傲腾的盘装linux系统的 omv自然也行 </span><br>
+</p><p><b>mickoo: </b><br>
+<span>cybernetics31 发表于 2020-2-6 18:02</span><br>
+<span>omv系统安装好后我记得是不能存储其他的数据的 并不需要m2 ssd 一块小容量的ssd就行 甚至不少人都装在u盘 ...</span><br>
+<span>OMV就是没有手机段软件，用来备份相册的话，不友好，群晖那种photo软件</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>我一直觉得unriad是宿主级别的，你要omv那就unraid下面装omv，然后omv里再装一套snapraid+mergerfs</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>mickoo 发表于 2020-2-6 18:08</span><br>
+<span>OMV就是没有手机段软件，用来备份相册的话，不友好，群晖那种photo软件</span><br>
+<span>其实是有的 nextcloud就能解决 omv本质上是debian 找个备份照片的软件并不难 无非就是需要手动设置或者omv里头安装插件或者docker安装麻烦点罢了 没有黑群photo这么直接</span><br>
+</p><p><b>騜: </b><br>
+<span>radar 发表于 2020-2-6 17:51</span><br>
+<span>可以参考下我类似的方案和你需求挺接近</span><br>
+<span>https://post.smzdm.com/p/a3gw5e7n/?send_by=3644894738&from=othe ...</span><br>
+<span>你这商务机SFF机箱如果不仔细选的话 默认电源有的是非标定制的 自己装主板不一定能上，举例我的DELL 9020</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>爱吃豆包 发表于 2020-2-6 17:49</span><br>
+<span>unraid一千块啊……同样奇偶校验的snapraid不要钱</span><br>
+<span>最低的60刀好像还能咬咬牙，不过我看中的还是他的内存运行</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>cybernetics31 发表于 2020-2-6 18:02</span><br>
+<span>omv系统安装好后我记得是不能存储其他的数据的 并不需要m2 ssd 一块小容量的ssd就行 甚至不少人都装在u盘 ...</span><br>
+<span>对的，就是要占用一块盘不能存数据比较纠结。请教下还有什么常用的系统我可以去了解下么？</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>騜: </b><br>
+<span>xzk0916 发表于 2020-2-6 17:33</span><br>
+<span>因为我觉得大方盒子丑啊，看下来觉得就A4那一水的机箱比较精致</span><br>
+<span>不过ATX电源+itx的机箱倒是盲区了， ...</span><br>
+<span>省电不是看瓦数的 是看转化率 全汉是铜牌 海盗船是金牌 要说省电的话金牌更省电</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>騜 发表于 2020-2-6 19:05</span><br>
+<span>省电不是看瓦数的 是看转化率 全汉是铜牌 海盗船是金牌 要说省电的话金牌更省电 ...</span><br>
+<span>指的是省电源的价格，不是电费。</span><br>
+<span>之前也有看到过省电的讨论，感觉没必要抠那点电量？</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>騜: </b><br>
+<span>xzk0916 发表于 2020-2-6 19:09</span><br>
+<span>指的是省电源的价格，不是电费。</span><br>
+<span>之前也有看到过省电的讨论，感觉没必要抠那点电量？</span><br>
+<span>对 没必要</span><br>
+<span>ATX电源+我说的那种机箱比A4+SFX电源便宜两三百了</span><br>
+<span>自己比划一下看看尺寸能不能接受</span><br>
+</p><p><b>mickoo: </b><br>
+<span>cybernetics31 发表于 2020-2-6 18:35</span><br>
+<span>其实是有的 nextcloud就能解决 omv本质上是debian 找个备份照片的软件并不难 无非就是需要手动设置或者om ...</span><br>
+<span>草，还真有，研究了下，还可以，不过部署麻烦点，没有一点基础基本看不懂</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>xzk0916 发表于 2020-2-6 19:02</span><br>
+<span>对的，就是要占用一块盘不能存数据比较纠结。请教下还有什么常用的系统我可以去了解下么？</span><br>
+<span>—— 来自 So ...</span><br>
+<span>除了omv不就是那几个嘛 freenas、win server甚至直接装win10也可以 </span><br>
+<span>拿不带图形桌面的ubantu和centos当nas系统的人也不少</span><br>
+</p><p><b>radar: </b><br>
+<span>騜 发表于 2020-2-6 18:59</span><br>
+<span>你这商务机SFF机箱如果不仔细选的话 默认电源有的是非标定制的 自己装主板不一定能上，举例我的DELL 9020 ...</span><br>
+<span>你说的没错，不过这种问题一般可以通过转接线解决</span><br>
+</p><p><b>hhz1213: </b><br>
+<span>G3930上用了大概一年OMV，确实轻量好用，配上docker简直无所不能，还可以加上KMV虚拟化软路由各种骚操作。但现在我还是换了win10，有这个配置也是无所不能，还不像linux折腾…</span><br>
+</p><p><b>john: </b><br>
+<span>爱吃豆包 发表于 2020-2-6 17:49</span><br>
+<span>unraid一千块啊……同样奇偶校验的snapraid不要钱</span><br>
+<span>6盘四百块，12盘六百块，你们这一上手就是旗舰版的毛病到Win7退休了还没改掉么</span><br>
+</p><p><b>bsb1986gem: </b><br>
+<span>还不上华擎A300速龙200GE</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>bsb1986gem 发表于 2020-2-7 02:00</span><br>
+<span>还不上华擎A300速龙200GE</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版...</span><br>
+<span>准系统的A300和nuc最大问题是不能上3.5硬盘…</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>xjndfdfe: </b><br>
+<span>nas一块盘太咸鱼了..</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>https://item.taobao.com/item.htm?spm=a230r.1.14.41.11cf12e2HdDefi&id=588261186974&ns=1&abbucket=5#detail</span><br>
+<span>上个这种机箱呗</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>问题来了 已有B85的ITX平台装了esxi，全汉SFX的450电源，预计购入一个四口千兆网卡，找一圈没合适箱子装进去，只能放弃sfx电源用那些软路由箱子，就很无奈</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>RPG-7 发表于 2020-2-7 14:17</span><br>
+<span>问题来了 已有B85的ITX平台装了esxi，全汉SFX的450电源，预计购入一个四口千兆网卡，找一圈没合适箱子装进 ...</span><br>
+<span>装在那些小机箱的显卡位呢？</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>你们是用群晖系统还是win 系统啊</span><br>
+</p><p><b>mjwells: </b><br>
+<span>为什么用小箱子，因为大箱子丑，</span><br>
+<span>那么大箱子漂亮点的如何呢</span><br>
+<span>itx，3.5*5，fanless</span><br>
+<span>https://www.chiphell.com/thread-1913474-1-1.html</span><br>
+</p><p><b>sc流亡湿人: </b><br>
+<span>小马软路由v5+3.5硬盘</span><br>
+<span>搞个软路由+nas一体机   飞机场和群晖都有了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>5盘nas还fanless图个什么 (只说箱子外观的话另当别论)</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>研究了一下，似乎银欣的ml06 09适合我，sfx+itx+半高卡还能装3.5</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>mjwells 发表于 2020-2-8 00:09</span><br>
+<span>为什么用小箱子，因为大箱子丑，</span><br>
+<span>那么大箱子漂亮点的如何呢</span><br>
+<span>itx，3.5*5，fanless</span><br>
+<span> 箱子确实够惊艳，但是都能抵得上整个配置的价钱了</span><br>
+<span>不过作为臭玩游戏的，主力机也不敢上fanless，这箱子就是出给有钱人玩玩看的吗</span><br>
+</p><p><b>mjwells: </b><br>
+<span>lwa190212 发表于 2020-2-8 00:21</span><br>
+<span>5盘nas还fanless图个什么 (只说箱子外观的话另当别论)</span><br>
+<span>嫌3.5吵还可以2.5*12</span><br>
+<span>反正就是有钱人的nas需求</span><br>
+</p><p><b>mjwells: </b><br>
+<span>xzk0916 发表于 2020-2-8 00:55</span><br>
+<span>箱子确实够惊艳，但是都能抵得上整个配置的价钱了</span><br>
+<span>不过作为臭玩游戏的，主力机也不敢上fanless， ...</span><br>
+<span>挂下载和做服务器用主力机就行了，不就一点电费嘛，随便配个NAS都不止那点电费</span><br>
+<span>我的主力机光污染严重，5700xt的灯不能软件关，</span><br>
+<span>所以搞了个路由器R7900p刷R8000P梅林固件，挂下载，也还行，刚看了一下“已开机时间         43 天 15 时 23 分 27 秒”不算u盘700块钱，够用稳定。</span><br>
+</p><p><b>werone: </b><br>
+<span>这个性能上（包括可能需要做转码的话）应该是完全足够？</span><br>
+<span>——太够了，作为nas性能溢出</span><br>
+<span>电源该怎么选择？看了些低功率的SFX电源外观都比较糙，买高端的好像又用不上，请问有没有推荐的</span><br>
+<span>——长城GW425ZN，一百来块，最便宜的支持风扇启停的电源，300w足够满足一切需求，比什么flex什么1u都省心</span><br>
+<span>他的意义在于因为nas功率不到负载一半，全程风扇是不启动的，配合J3455方案可以做到实际上的fanless，nas噪音小非常非常重要</span><br>
+<span>机箱有没有其它推荐的？希望是足够小（最好A4）并且能装1～2个3.5的</span><br>
+<span>——机箱追求便宜就星际蜗牛，预算充足喜欢啥买啥，折中一下金河田和酷冷都有一百来块itx机箱</span><br>
+<span>关于系统，最近看的吹UNRAID的比较多，有必要入一个吗，还是说OMV会比较好</span><br>
+<span>——首先你得明确需求，追求nas稳定省心不折腾还是建议黑群晖3617xs</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>主舵者: </b><br>
+<span>OMV就是debian+webui，系统盘当然能存数据啊，你要不放心就做LV，系统盘一个LV，数据盘一个LV。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>主舵者 发表于 2020-2-9 10:59</span><br>
+<span>OMV就是debian+webui，系统盘当然能存数据啊，你要不放心就做LV，系统盘一个LV，数据盘一个LV。</span><br>
+<span>—— 来自 ...</span><br>
+<span>系统盘不能放数据是OMV的限制啊？</span><br>
+<span>https://openmediavault.readthedocs.io/en/stable/prerequisites.html</span><br>
+<span>The whole disc will be occupied by the system and swap space , so size doesn’t matter so much. Data storage on the system disc is not supported.</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>werone 发表于 2020-2-9 07:47</span><br>
+<span>这个性能上（包括可能需要做转码的话）应该是完全足够？</span><br>
+<span>——太够了，作为nas性能溢出</span><br>
+<span>长城这款是下市了吗？只有淘宝上面看起来不靠谱的店在卖</span><br>
+</p><p><b>JWJking: </b><br>
+<span> 本帖最后由 JWJking 于 2020-2-9 14:36 编辑 </span><br>
+<span>万由4盘位+J3455+万兆卡+esxi直通+黑群+win不是标准答案么(软件比硬件重要多了，实用带来的体验提升远超过外观吧</span><br>
+</p><p><b>werone: </b><br>
+<span>xzk0916 发表于 2020-2-9 14:29</span><br>
+<span>长城这款是下市了吗？只有淘宝上面看起来不靠谱的店在卖</span><br>
+<span>因为这款性价比太高，不挣钱</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>我是直接一个退下来的中塔机箱的台式机放在角落里，甚至直接win10企业版当服务器。</span><br>
+<span>6700，三个SSD两个机械硬盘</span><br>
+<span>测了耗电量待机20W左右也没比群晖什么的差多少</span><br>
+<span>也很安静</span><br>
+</p><p><b>主舵者: </b><br>
+<span> 本帖最后由 主舵者 于 2020-2-9 21:52 编辑 </span><br>
+<span>xzk0916 发表于 2020-2-9 11:49</span><br>
+<span>系统盘不能放数据是OMV的限制啊？</span><br>
+<span>https://openmediavault.readthedocs.io/en/stable/prerequisites.html ...</span><br>
+<span>只是Web UI下面不能直接设置为共享文件夹而已，实际在/home 下面手动建个文件夹加到Samba里面完全没问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912497[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NAS无法连接外网，求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NAS无法连接外网，求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:09:58 +0000</lastBuildDate>
+    <item>
+      <title>NAS无法连接外网，求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835735-1-1.html</link>
+      <description>NAS无法连接外网，求助&#13;
+ 本帖最后由 Rufus.X 于 2019-5-30 23:04 编辑 
+
+QNAP TS428，QTS 4.3.4，使用myQNAPcloud连不上网。路由器是AC68U，固件384.11_2，无线路由器模式接到光猫，WAN设置已经把UPNP打开，但是QTS中仍然扫描不到UPNP路由器。
+&#13;
+WAN 联机类型：动态 IP启动 WAN：是
+&#13;
+启动NAT：是
+&#13;
+启动UPNP：是
+&#13;
+Enable secure UPnP mode：      是
+&#13;
+UPNP: Allowed internal port range：1024 to 65535
+&#13;
+UPNP: Allowed external port range：1 to 65535
+&#13;
+求高人指点。谢谢！</description>
+      <content:encoded><![CDATA[<p><b>Rufus.X: </b><br>
+<span>NAS无法连接外网，求助</span><br>
+<span> 本帖最后由 Rufus.X 于 2019-5-30 23:04 编辑 </span><br>
+<span>QNAP TS428，QTS 4.3.4，使用myQNAPcloud连不上网。路由器是AC68U，固件384.11_2，无线路由器模式接到光猫，WAN设置已经把UPNP打开，但是QTS中仍然扫描不到UPNP路由器。</span><br>
+<span>WAN 联机类型：动态 IP启动 WAN：是</span><br>
+<span>启动NAT：是</span><br>
+<span>启动UPNP：是</span><br>
+<span>Enable secure UPnP mode：      是</span><br>
+<span>UPNP: Allowed internal port range：1024 to 65535</span><br>
+<span>UPNP: Allowed external port range：1 to 65535</span><br>
+<span>求高人指点。谢谢！</span><br>
+</p><p><b>五月之雨: </b><br>
+<span>看样子86u已经是2级路由了</span><br>
+<span>最简单的应该是光猫给86u开dmz 86u再给nas开dmz</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>光猫拨号？</span><br>
+</p><p><b>Rufus.X: </b><br>
+<span> 本帖最后由 Rufus.X 于 2019-5-31 08:29 编辑 </span><br>
+<span>纯情小鸭鸭 发表于 2019-5-31 01:31</span><br>
+<span>光猫拨号？</span><br>
+<span>目前是光猫拨号。</span><br>
+<span>光猫在弱电箱，路由器在电视墙，中间只有一根网线，现在是分成2个100M分别给iTV和网络</span><br>
+<span>如果光猫改成桥接，要怎么访问光猫的控制界面啊？是不是桥接之后就没IP了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-5-31 08:39 编辑 </span><br>
+<span>Rufus.X 发表于 2019-5-31 08:25</span><br>
+<span>目前是光猫拨号。</span><br>
+<span>光猫在弱电箱，路由器在电视墙，中间只有一根网线，现在是分成2个100M分别给iTV和网络</span><br>
+<span> ...</span><br>
+<span>有些路由器的固件支持直接访问光猫的（不同网段），我现在用的pandavan就是。就算路由器不支持，设置一下也是可以的。</span><br>
+</p><p><b>rare720: </b><br>
+<span>请教，家里是移动光猫拨号。想改成桥接模式，但不知道管理员账号密码。直接10086人工提要求，对方会给超级密码么？或者说编一个什么合理的理由？</span><br>
+</p><p><b>淼霆: </b><br>
+<span>rare720 发表于 2019-5-31 09:50</span><br>
+<span>请教，家里是移动光猫拨号。想改成桥接模式，但不知道管理员账号密码。直接10086人工提要求，对方会给超级 ...</span><br>
+<span>超级密码不一定会给你，但你说想光猫改桥接，他们可以直接远程帮你改</span><br>
+</p><p><b>Rufus.X: </b><br>
+<span>rare720 发表于 2019-5-31 09:50</span><br>
+<span>请教，家里是移动光猫拨号。想改成桥接模式，但不知道管理员账号密码。直接10086人工提要求，对方会给超级 ...</span><br>
+<span>看下啥品牌的猫，一般网上有教程，</span><br>
+<span>印象中我的猫是用户帐号登上去，输入某个地址可以下载到配置文件，超级密码在配置文件中是明文的</span><br>
+</p><p><b>rare720: </b><br>
+<span>淼霆 发表于 2019-5-31 09:52</span><br>
+<span>超级密码不一定会给你，但你说想光猫改桥接，他们可以直接远程帮你改</span><br>
+<span>谢啦。。移动的光猫真奇葩，lan口一个千兆，其余全是百兆。</span><br>
+<span>刚把家里网线换成6类，准备618买个好点的路由器。</span><br>
+</p><p><b>霍普离斯: </b><br>
+<span>Rufus.X 发表于 2019-5-31 08:25</span><br>
+<span>目前是光猫拨号。</span><br>
+<span>光猫在弱电箱，路由器在电视墙，中间只有一根网线，现在是分成2个100M分别给iTV和网络</span><br>
+<span> ...</span><br>
+<span>光猫的控制界面也没什么访问的必要吧。。。</span><br>
+</p><p><b>rare720: </b><br>
+<span>Rufus.X 发表于 2019-5-31 09:56</span><br>
+<span>看下啥品牌的猫，一般网上有教程，</span><br>
+<span>印象中我的猫是用户帐号登上去，输入某个地址可以下载到配置文件，超 ...</span><br>
+<span>还有这种操作？</span><br>
+<span>看了一下光猫型号是 吉比特GM619，盒子上倒是有密码不过是普通的用户密码。不是超级密码。</span><br>
+<span>搜过网上默认账号密码，都不行，应该是本地移动都改过了。坐标内蒙包头。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835735[0-50]</guid>
+    </item>
+  </channel>
+</rss>

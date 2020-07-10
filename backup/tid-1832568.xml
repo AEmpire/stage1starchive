@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>果然社区对于商业项目的戒心是正确的，anaconda镜像全挂了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>果然社区对于商业项目的戒心是正确的，anaconda镜像全挂了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:29:21 +0000</lastBuildDate>
+    <item>
+      <title>果然社区对于商业项目的戒心是正确的，anaconda镜像全挂了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832568-1-1.html</link>
+      <description>果然社区对于商业项目的戒心是正确的，anaconda镜像全挂了&#13;
+应该不是我一个人后知后觉吧？
+&#13;
+今天才发现 清华 中科大 腾讯之类的镜像 全挂了
+&#13;
+据说上交的还能用 但是自己试了一下好像还是不行 看了一下好像是限制只许上交学生使用了...
+&#13;
+商业公司果然都是靠不住的吗
+&#13;
+这个时间点还蛮微妙的呢</description>
+      <content:encoded><![CDATA[<p><b>lemon鱿鱼: </b><br>
+<span>果然社区对于商业项目的戒心是正确的，anaconda镜像全挂了</span><br>
+<span>应该不是我一个人后知后觉吧？</span><br>
+<span>今天才发现 清华 中科大 腾讯之类的镜像 全挂了</span><br>
+<span>据说上交的还能用 但是自己试了一下好像还是不行 看了一下好像是限制只许上交学生使用了...</span><br>
+<span>商业公司果然都是靠不住的吗</span><br>
+<span>这个时间点还蛮微妙的呢</span><br>
+</p><p><b>i0ncuBe: </b><br>
+<span>你真是最后一个知道的了。。。。一个多月前的事了</span><br>
+</p><p><b>天知道: </b><br>
+<span>这个有一阵了吧：我这种基本不升级的人都知道，原因好像是因为Anaconda是商标来着，不允许其他人拿来使用吧</span><br>
+</p><p><b>Cry_Blues: </b><br>
+<span>https://www.solidot.org/story?sid=60423</span><br>
+<span>上个月的事情了</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>i0ncuBe 发表于 2019-5-18 23:39</span><br>
+<span>你真是最后一个知道的了。。。。一个多月前的事了</span><br>
+<span>因为我一个月没下新的包了= =</span><br>
+<span>刚才发现这事的</span><br>
+<span>所以咋解决？默认的太慢了啊...</span><br>
+</p><p><b>晩韶华: </b><br>
+<span>电脑上可以实时挂梯子所以直接用官方源了，但是部署时没办法，又不想去折腾那些该死的包，真是恶心人。</span><br>
+</p><p><b>i0ncuBe: </b><br>
+<span>lemon鱿鱼 发表于 2019-5-18 23:47</span><br>
+<span>因为我一个月没下新的包了= =</span><br>
+<span>刚才发现这事的</span><br>
+<span>所以咋解决？默认的太慢了啊... ...</span><br>
+<span>没办法，老实挂梯子，这是纯恶心人的，商业公司真是不值得信任，直接上pip也行。现在我最讨厌的就是cuda不同版本没法用conda命令轻松的安装了</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>直接梯子官方源啊。。</span><br>
+</p><p><b>ReginaldMorgan: </b><br>
+<span>……我可能才是最后一个</span><br>
+<span>刚才爬去tuna上看了一眼，他们是一个月前停止更新和隐藏入口，5.16彻底关闭下载。怪不得我记得最近明明用得好好的啊，差点以为虚空下载了</span><br>
+<span>只能说，行8</span><br>
+</p><p><b>1001200: </b><br>
+<span>虚拟环境有pyenv和virtualenv，包安装有pip，依赖不好搞了，部署可能要封装docker了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>莉诺雅羽月: </b><br>
+<span>这种有版权的是真没办法了</span><br>
+<span>我服务器上的yum源好像就是清华的，用了这么久好像也没啥问题</span><br>
+</p><p><b>d2loader: </b><br>
+<span>一直用pip</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>什么原来本校还有镜像站的，感觉周围所有人都是用 tuna</span><br>
+</p><p><b>你的全家: </b><br>
+<span>Uranium233 发表于 2019-5-19 01:19</span><br>
+<span>什么原来本校还有镜像站的，感觉周围所有人都是用 tuna</span><br>
+<span>全宇宙都用的tuna</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>你的全家 发表于 2019-5-19 01:24</span><br>
+<span>全宇宙都用的tuna</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+<span>我用中科大</span><br>
+</p><p><b>ReginaldMorgan: </b><br>
+<span>捞一下，tuna似乎发公告说得到授权近期要恢复了</span><br>
+</p><p><b>mimighost: </b><br>
+<span>一直pip的飘过，pip+virtualenv不是很好么</span><br>
+<span>不行直接docker呗。。。</span><br>
+</p><p><b>sayano: </b><br>
+<span>conda的cuda还是比较友好的，要不然真不知道咋装，慢死了</span><br>
+</p><p><b>metaphias: </b><br>
+<span>官方源...也还行吧，时快时慢</span><br>
+<span>最近一直用也还好</span><br>
+</p><p><b>lincewind: </b><br>
+<span>docker保平安</span><br>
+</p><p><b>假侦探trap: </b><br>
+<span>这东西有啥好的，瞎鸡巴改环境</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>ReginaldMorgan 发表于 2019-06-15 16:51:21</span><br>
+<span>捞一下，tuna似乎发公告说得到授权近期要恢复了我反正已经逐步在摆脱依赖了</span><br>
+<span>等考研完有空我就把系统重新理一边 这么多年都没整理过系统</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832568[0-50]</guid>
+    </item>
+  </channel>
+</rss>

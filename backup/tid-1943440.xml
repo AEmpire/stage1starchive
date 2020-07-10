@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>0202年了，windows推荐用什么播放器？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>0202年了，windows推荐用什么播放器？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:31:12 +0000</lastBuildDate>
+    <item>
+      <title>0202年了，windows推荐用什么播放器？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943440-1-1.html</link>
+      <description>0202年了，windows推荐用什么播放器？&#13;
+零几年就开始用k-lite，后来改用win7codec，kawaii codec，最终又改回k-lite一直到现在，不知是否落后于时代了，主要需求就是看1080p的电影动画bdrip10bit，想尽量少地折腾研究参数获得较好的画质，都推荐哪些播放器？mpc，vlc，kodi，还是就安个什么解码包么(现在还时兴用这种解码包么)，先谢了</description>
+      <content:encoded><![CDATA[<p><b>楚轩: </b><br>
+<span>f.w. 发表于 2020-6-23 21:45</span><br>
+<span>mpv开启Anime4k滤镜播放720p以下视频一全屏就变绿怎么解决</span><br>
+<span>那个滤镜对配置要求有点高</span><br>
+</p><p><b>noneoneone: </b><br>
+<span>f.w. 发表于 2020-6-23 21:45</span><br>
+<span>mpv开启Anime4k滤镜播放720p以下视频一全屏就变绿怎么解决</span><br>
+<span>我这里是红屏。</span><br>
+<span>打开portable_config\mpv.conf，把gpu-api从d3d11改成vulkan后好了。</span><br>
+</p><p><b>f.w.: </b><br>
+<span>noneoneone 发表于 2020-6-26 09:16</span><br>
+<span>我这里是红屏。</span><br>
+<span>打开portable_config\mpv.conf，把gpu-api从d3d11改成vulkan后好了。</span><br>
+<span>感谢，问题解决了</span><br>
+</p><p><b>togochina: </b><br>
+<span>xzhlj0325 发表于 2020-6-22 19:55</span><br>
+<span>vcb论坛有个mpv的懒人包，目前使用体验好过madvr＋mpcbe</span><br>
+<span>madvr+pot不好吗？</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>togochina 发表于 2020-6-26 14:49</span><br>
+<span>madvr+pot不好吗？</span><br>
+<span>为什么提到madvr适配播放器鄙视链底层？</span><br>
+</p><p><b>mhss: </b><br>
+<span> 本帖最后由 mhss 于 2020-6-26 17:39 编辑 </span><br>
+<span>调了下懒人包的动画补帧设置数到120，观感上抖动控制比svp要强，调进度条不会大量掉帧造成卡顿这点远胜过svp，而且意外的并不吃CPU（除了开播时的缓存）和GPU?</span><br>
+<span>再学着调整下大概就能把MPC卸载了，SVP可能也没用了。</span><br>
+<span>目前发现首选字幕不认雪飘的紫罗兰永恒花园，读取的是日文，条件我设置了"chs,sc,zh,chi,gb,hans,简"，但是雪飘用的是“zh-Hans-CN-chi”，mpcbe设置同样条件直接识别读取简体没问题。</span><br>
+</p><p><b>nianiania: </b><br>
+<span>mhss 发表于 2020-6-26 17:05</span><br>
+<span>调了下懒人包的动画补帧设置数到120，观感上抖动控制比svp要强，调进度条不会大量掉帧造成卡顿这点远胜过sv ...</span><br>
+<span>想问下需要设置些啥吗，为什么我一开补帧就一卡一卡的，3600有这么弱吗</span><br>
+</p><p><b>mhss: </b><br>
+<span> 本帖最后由 mhss 于 2020-6-27 10:06 编辑 </span><br>
+<span>nianiania 发表于 2020-6-27 08:59</span><br>
+<span>想问下需要设置些啥吗，为什么我一开补帧就一卡一卡的，3600有这么弱吗 ...</span><br>
+<span>我就开了那个针对2d动画的补帧（从60改到120），那个4k滤镜我试了下感觉对1080p动画有劣化没开（比如你名op城市远景拉动视角中，某建筑本身有众多细密平直的线条被锐化成了深浅不一的摩尔纹），别的没怎么动默认，u和显是8086k+1080，除了一开始建立缓存u占用高一点，全屏播放时（2560x1440）两者占用都没大于20%</span><br>
+<span>点开视频我也改成直接播放了，默认暂停还要再点一次这点无法接受</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>nianiania: </b><br>
+<span>mhss 发表于 2020-6-27 09:52</span><br>
+<span>我就开了那个针对2d动画的补帧（从60改到120），那个4k滤镜我试了下感觉对1080p动画有劣化没开（比如你名 ...</span><br>
+<span>试了下放1080P的就不卡了，4K的就卡，看来是3600不行，感觉还是DmitriRender对配置要求低点</span><br>
+</p><p><b>lixkang: </b><br>
+<span>mhss 发表于 2020-6-26 17:05</span><br>
+<span>调了下懒人包的动画补帧设置数到120，观感上抖动控制比svp要强，调进度条不会大量掉帧造成卡顿这点远胜过sv ...</span><br>
+<span>设置120帧具体怎么改？我看svpflow-anime.vpy里面没说明啊。</span><br>
+</p><p><b>mhss: </b><br>
+<span>lixkang 发表于 2020-6-27 10:28</span><br>
+<span>设置120帧具体怎么改？我看svpflow-anime.vpy里面没说明啊。</span><br>
+<span>是没说明，但可以靠数字猜出来改哪</span><br>
+<span>smoothfps_params = "{rate:{num:120,den:1,abs:true},algo:21,mask:{area:100},scene:{limits:{m1:1800,m2:3600,scene:5200,zero:100,blocks:45}}}"</span><br>
+</p><p><b>lixkang: </b><br>
+<span>mhss 发表于 2020-6-27 12:25</span><br>
+<span>是没说明，但可以靠数字猜出来改哪</span><br>
+<span>smoothfps_params = "{rate:{num:120,den:1,abs:true},algo:21,mask:{a ...</span><br>
+<span>试了下，用60HZ的显示器感觉没什么变化</span><br>
+<span>最后对比了下几个插帧插件，好像高速运动中补帧最顺滑的还是用DR插帧，要不是付费很麻烦，我都想买个正版了，现在只能用试用版，1分钟跳一次水印。</span><br>
+</p><p><b>mhss: </b><br>
+<span>lixkang 发表于 2020-6-27 13:19</span><br>
+<span>试了下，用60HZ的显示器感觉没什么变化</span><br>
+<span>最后对比了下几个插帧插件，好像高速运动中补帧最顺滑的 ...</span><br>
+<span>你显示器60上限设高了当然没意义啊</span><br>
+<span>我是买的SVP，DR我也试用过，但是可调性不强，而且看网上反馈防盗版措施会恶心到付费用户</span><br>
+<span>就个人观感而言我觉得懒人包里那个svpflow看动画效果还是不错的</span><br>
+</p><p><b>exsaga: </b><br>
+<span>就弹弹play吧，不折腾</span><br>
+</p><p><b>paladin7: </b><br>
+<span>之前QQ影音有个很方便的功能</span><br>
+<span>可以在百分百的音量上继续增大音量</span><br>
+<span>mpc或者pot有这种类似的功能吗？</span><br>
+<span>— from OnePlus ONEPLUS A5000, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>mhss 发表于 2020-6-27 13:24</span><br>
+<span>你显示器60上限设高了当然没意义啊</span><br>
+<span>我是买的SVP，DR我也试用过，但是可调性不强，而且看网上反馈 ...</span><br>
+<span>请问懒人包里那个svpflow-anime可以设置成默认开启吗，还是每次都要ctrl+7？</span><br>
+</p><p><b>mhss: </b><br>
+<span>cloudskate 发表于 2020-6-27 19:55</span><br>
+<span>请问懒人包里那个svpflow-anime可以设置成默认开启吗，还是每次都要ctrl+7？</span><br>
+<span>可以，在mpv.conf的“脚本 滤镜”那里添加一行vf=vapoursynth="~~/svpflow-anime.vpy"</span><br>
+</p><p><b>waldo: </b><br>
+<span> 本帖最后由 waldo 于 2020-6-27 23:31 编辑 </span><br>
+<span>mhss 发表于 2020-6-26 17:05</span><br>
+<span>调了下懒人包的动画补帧设置数到120，观感上抖动控制比svp要强，调进度条不会大量掉帧造成卡顿这点远胜过sv ...</span><br>
+<span>感觉svpflow-anime改成120还是比不过mvtools-high，但我记得黑米奇那边之前某个版本能做到和mvtools-high差不多效果</span><br>
+</p><p><b>观自在: </b><br>
+<span>exsaga 发表于 2020-6-27 13:48</span><br>
+<span>就弹弹play吧，不折腾</span><br>
+<span>弹弹play播放历史记录都有问题</span><br>
+</p><p><b>mhss: </b><br>
+<span> 本帖最后由 mhss 于 2020-6-28 14:05 编辑 </span><br>
+<span>waldo 发表于 2020-6-27 23:22</span><br>
+<span>感觉svpflow-anime改成120还是比不过mvtools-high，但我记得黑米奇那边之前某个版本能做到和mvtools-high ...</span><br>
+<span>mvtools我还没试过，我之前也是用黑米奇的教程来配置svp，但是svp不能拨进度条这一最大缺陷始终得不到解决，甚至多暂停几次都会导致严重的掉帧。</span><br>
+<span>插帧我觉得顺滑瑕疵少和资源消耗适当不影响播放器本身稳定这两者达到均衡就好，网上还有很多什么机器学习的插帧（比如nvidia演示的那个插帧慢动作？），但是目前对个人爱好者而言根本没有实用性。</span><br>
+<span>试了下，mvtools-high 60帧CPU的占用维持在60%~70%之间，按我的温度设置风扇起飞，svpflows-anime 120帧CPU占用维持在19%~25%之间，风扇很安静，我还是选择后者</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Jumbohard: </b><br>
+<span>借楼问下，轻薄本（8265U+MX250）丢电视下面做机顶盒，用什么播放器比较好？可以不用考虑风扇问题，毕竟看电视离得远...</span><br>
+<span>我目前是照着VCB的教程配置了pot+lav，插帧和madVR感觉自己电脑性能不够就没尝试了。请问有更好的方案吗？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>鬼迷心窍: </b><br>
+<span>mpc-be</span><br>
+</p><p><b>lhm123: </b><br>
+<span>PotPlayer+K-lite 足够用了</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>Unlight 发表于 2020-6-22 21:58</span><br>
+<span>MPC-BE + LAV + madVR</span><br>
+<span>性能够建议再安排个DR，老A卡（5700之前）BFRC也够用</span><br>
+<span>MPC-BE按下一首时会跳当前文件的下一节，而不是下一个文件，请问怎么改成跳转下一个文件？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>cmyk1234 发表于 2020-6-29 20:49</span><br>
+<span>MPC-BE按下一首时会跳当前文件的下一节，而不是下一个文件，请问怎么改成跳转下一个文件？ ...</span><br>
+<span>CTRL+PAGEUP</span><br>
+<span>CTRL+PAGEDOWN</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>暁美ほむら 发表于 2020-6-29 21:35</span><br>
+<span>CTRL+PAGEUP</span><br>
+<span>CTRL+PAGEDOWN</span><br>
+<span>额，请问有没有改gui实现跳转下一个文件的方案？</span><br>
+</p><p><b>Unlight: </b><br>
+<span>mhss 发表于 2020-6-28 09:23</span><br>
+<span>mvtools我还没试过，我之前也是用黑米奇的教程来配置svp，但是svp不能拨进度条这一最大缺陷始终得不到解决 ...</span><br>
+<span>试试DR？</span><br>
+<span>DmitriRender</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>cmyk1234 发表于 2020-6-29 22:30</span><br>
+<span>额，请问有没有改gui实现跳转下一个文件的方案？</span><br>
+<span>自己去选项——快捷键里面找，自己设置快捷键</span><br>
+</p><p><b>mhss: </b><br>
+<span>Unlight 发表于 2020-6-30 00:35</span><br>
+<span>试试DR？</span><br>
+<span>DmitriRender</span><br>
+<span>我63楼就说了dr的问题</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>MPV你们能用的进去？   我感觉UI都不完善啥都要命令行改</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>观铃の使魔 发表于 2020-6-30 07:01</span><br>
+<span>MPV你们能用的进去？   我感觉UI都不完善啥都要命令行改</span><br>
+<span>所以说这也是MPV的优势但也是它的劣势，一个GUI真的很重要。一个播放器让消费者去干这些我觉得这已经是一个失格的播放器了</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>观铃の使魔 发表于 2020-6-30 07:01</span><br>
+<span>MPV你们能用的进去？   我感觉UI都不完善啥都要命令行改</span><br>
+<span>MPV让我想起当初用的FOOBAR。</span><br>
+<span>窗口简陋到极点，打开播放器就像开了个空白txt文档。什么东西都要去找插件定制。</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>superchenxx01 发表于 2020-6-30 16:30</span><br>
+<span>MPV让我想起当初用的FOOBAR。</span><br>
+<span>窗口简陋到极点，打开播放器就像开了个空白txt文档。什么东西都要去找插件 ...</span><br>
+<span>这俩可不一样foobar只是界面简洁</span><br>
+<span>菜单 界面 选项 一个也不少   看看设置选项都有多少mpv有设置选项么？</span><br>
+</p><p><b>nuoer: </b><br>
+<span>苏菲6破用mpv开插帧插件放1080p直接幻灯片了，不折腾了继续用回potplay</span><br>
+<span>—— 来自 meizu 16s Pro, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Unlight: </b><br>
+<span>mhss 发表于 2020-6-30 06:53</span><br>
+<span>我63楼就说了dr的问题</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>DR效果确实比较理想啊</span><br>
+<span>至于防盗版措施，其实你给他发邮件就可以了，他会帮你的…</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943440[50-100]</guid>
+    </item>
+    <item>
+      <title>0202年了，windows推荐用什么播放器？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943440-1-1.html</link>
+      <description>0202年了，windows推荐用什么播放器？&#13;
+零几年就开始用k-lite，后来改用win7codec，kawaii codec，最终又改回k-lite一直到现在，不知是否落后于时代了，主要需求就是看1080p的电影动画bdrip10bit，想尽量少地折腾研究参数获得较好的画质，都推荐哪些播放器？mpc，vlc，kodi，还是就安个什么解码包么(现在还时兴用这种解码包么)，先谢了</description>
+      <content:encoded><![CDATA[<p><b>shishkebab: </b><br>
+<span>0202年了，windows推荐用什么播放器？</span><br>
+<span>零几年就开始用k-lite，后来改用win7codec，kawaii codec，最终又改回k-lite一直到现在，不知是否落后于时代了，主要需求就是看1080p的电影动画bdrip10bit，想尽量少地折腾研究参数获得较好的画质，都推荐哪些播放器？mpc，vlc，kodi，还是就安个什么解码包么(现在还时兴用这种解码包么)，先谢了</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>klite依旧很能打，播放hdr也是klite省心。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>反正播放器不过是mpc-be、mpc-hc、potplayer。</span><br>
+<span>折腾的就是解码包。我自己用mpc-be发的解码包，一般人k-lite就行了</span><br>
+</p><p><b>linux40: </b><br>
+<span>mpv，不过不支持dlna。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>折腾就madvr+mpc-be之类的，不折腾就mpv</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>vcb论坛有个mpv的懒人包，目前使用体验好过madvr＋mpcbe</span><br>
+</p><p><b>boday: </b><br>
+<span>解码包确实不怎么需要了，因为只需要 ffmpeg 就通吃了。几乎所有的播放器的解码部分实际都是 ffmpeg。</span><br>
+<span>尽量少折腾的方案我建议是 MPC-BE，别的都不需要。</span><br>
+<span>不推荐 MPC-HC 是因为它已经停止开发了，虽然现在直接用也应该没什么问题。</span><br>
+<span>不推荐 PotPlayer 是因为它默认设置有问题，需要手动改一些设置才行。</span><br>
+<span>我自己在用的是 mpv，这个播放器没有图形界面，配置文件需要手写，习惯了还是很方便的。有兴趣可以参考我写的简易教程：</span><br>
+<span>https://vcb-s.com/archives/7594</span><br>
+<span>如上面所说，解码现在基本都是 ffmpeg 一把梭，而追求画质主要看渲染器的设计和功能。现在在高画质方面主要就是两个选择：madVR 和 mpv。前者是个基于 DirectShow 的视频渲染器，需要一个同样基于 DirectShow 并且支持 madVR 的播放器（比如 MPC-BE）一起用；后者则是一个独立的播放器。</span><br>
+</p><p><b>玉米黍: </b><br>
+<span>自带的播放器凑合用挺好</span><br>
+</p><p><b>Austaras: </b><br>
+<span>potplayer现在有广告了, 很不好</span><br>
+</p><p><b>Unlight: </b><br>
+<span>MPC-BE + LAV + madVR</span><br>
+<span>性能够建议再安排个DR，老A卡（5700之前）BFRC也够用</span><br>
+</p><p><b>Rosetta: </b><br>
+<span>mpc-hc现在由clsid2续命, 最新版本1.9.5: https://github.com/clsid2/mpc-hc/releases</span><br>
+</p><p><b>faki998: </b><br>
+<span> 本帖最后由 faki998 于 2020-6-22 23:10 编辑 </span><br>
+<span>https://bbs.vcb-s.com/forum.php? ... uthorid=7914&page=1</span><br>
+<span>刚才试了一下一个楼上的mpv懒人包，开了滤镜之后太强了，补老番神器。而且补帧消耗资源也不错。</span><br>
+<span>开启滤镜</span><br>
+<img src="https://s1.ax1x.com/2020/06/22/NY2hZt.png" title="https://s1.ax1x.com/2020/06/22/NY2hZt.png"><br>
+<span>不开滤镜</span><br>
+<img src="https://s1.ax1x.com/2020/06/22/NY2vd0.png" title="https://s1.ax1x.com/2020/06/22/NY2vd0.png"><br>
+<span>点开图片开的比较明显，然后右上角反复点击下一张可以看到对比细节处的提升，真的很明显。</span><br>
+</p><p><b>citrus: </b><br>
+<span>搭车问，有比较新的MPC-BE配置MADVR的教程吗？</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>VCB的大佬居然出了MPV的懒人包，马上试试。</span><br>
+</p><p><b>mhss: </b><br>
+<span>目前在用MPC-BE+lav+madvr+svp，如果改用mpv+svp资源消耗是高还是低？如果拨进度条能不卡就好了（svp的锅）</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>听剑客: </b><br>
+<span>我还在用完美解码（以及它带的potplayer)，图个省事</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>badmouse: </b><br>
+<span>完美解码稍微调教一下就完事了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>sirlion: </b><br>
+<span>太折腾了，完全不需要那么多滤镜，自带的电影与电视+hevc解码器即可搞定大部分视频</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>感觉都不咋地，hdr和外挂字幕支持没一个满意的。</span><br>
+</p><p><b>neverer: </b><br>
+<span>boday 发表于 2020-6-22 20:15</span><br>
+<span>解码包确实不怎么需要了，因为只需要 ffmpeg 就通吃了。几乎所有的播放器的解码部分实际都是 ffmpeg。</span><br>
+<span>尽 ...</span><br>
+<span>mpv支持加速播放声音不变调吗？</span><br>
+</p><p><b>萝卜roto: </b><br>
+<span>用了好多年完美解码，集成了pot，现在不知道什么水平。</span><br>
+<span>—— 来自 vivo NEX S, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>boday: </b><br>
+<span>neverer 发表于 2020-6-23 08:43</span><br>
+<span>mpv支持加速播放声音不变调吗？</span><br>
+<span>支持。</span><br>
+</p><p><b>Icytail_: </b><br>
+<span>刚才试了下mpv懒人包，不知道各位有没有碰到这个问题，默认分辨率播放时正常，全屏后音画就不同步了，画面播放加速，MP4和MKV格式都有碰到这个问题。设置没有改动，配置是3500X+rx470d。</span><br>
+</p><p><b>lixkang: </b><br>
+<span>上面的mpv厉害了，我用potplayer+svp插帧拖进度条会有卡顿，用这个mpv+svp拖进度条没卡顿。</span><br>
+<span>----发送自 Xiaomi Redmi K20 Pro Premium Edition,Android 10</span><br>
+</p><p><b>dvd6: </b><br>
+<span>除了potplayer还有支持触屏的播放器吗？</span><br>
+</p><p><b>qazesz: </b><br>
+<span>mpc-be hdr转sdr颜色有问题，改用mpv了，资源占用更小</span><br>
+</p><p><b>faki998: </b><br>
+<span>Icytail_ 发表于 2020-6-23 11:14</span><br>
+<span>刚才试了下mpv懒人包，不知道各位有没有碰到这个问题，默认分辨率播放时正常，全屏后音画就不同步了，画面 ...</span><br>
+<span>同，全屏有bug...</span><br>
+</p><p><b>P-L: </b><br>
+<span>qq影音</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>MPC-BE+MADVR</span><br>
+<span>目前HDR转SDR效果最好的必须是madvr测试版本</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>我是pot配合人家的参数的madvr的。除了每次NVIDIA的那个alt+z提示很烦之外暂时没太大问题</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>2517君改二 发表于 2020-6-23 13:58</span><br>
+<span>我是pot配合人家的参数的madvr的。除了每次NVIDIA的那个alt+z提示很烦之外暂时没太大问题 ...</span><br>
+<span>alt+z那个你可以在GeForce Experience里面关闭</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>qazesz 发表于 2020-6-23 12:57</span><br>
+<span>mpc-be hdr转sdr颜色有问题，改用mpv了，资源占用更小</span><br>
+<span>尝试使用最新测试版本</span><br>
+<span>http://madshi.net/madVRhdrMeasure113.zip</span><br>
+</p><p><b>qazesz: </b><br>
+<span>暁美ほむら 发表于 2020-6-23 14:11</span><br>
+<span>尝试使用最新测试版本</span><br>
+<span>http://madshi.net/madVRhdrMeasure113.zip</span><br>
+<span>没用madvr，自带evr的问题</span><br>
+</p><p><b>Icytail_: </b><br>
+<span>faki998 发表于 2020-6-23 13:09</span><br>
+<span>同，全屏有bug...</span><br>
+<span>我刚才把portable_config里的mpv.conf文件里关于svp补帧的选项按照说明改了下，现在全屏播放正常了，你可以试试。</span><br>
+</p><p><b>白色誓言: </b><br>
+<span>借楼问下，有没有好的采集播放软件，厂商自带的太卡，obs也有音画不同的问题，在用的pot也感觉有不少问题。。</span><br>
+</p><p><b>ulric: </b><br>
+<span>这还带版本的</span><br>
+<span>KrigBilateral-new.glsl</span><br>
+<span>https://pastebin.com/RMAfXiYU</span><br>
+<span>KrigBilateral-new-pre.glsl</span><br>
+<span>https://pastebin.com/b3vjTYAB</span><br>
+<span>KrigBilateral-new-444.glsl</span><br>
+<span>https://pastebin.com/UjRbNgJ9</span><br>
+</p><p><b>lixkang: </b><br>
+<span> 本帖最后由 lixkang 于 2020-6-23 21:10 编辑 </span><br>
+<span>求问下mvp播放器怎么修改快捷键，想把上下键改成音量控制，现在上下键是快进1分钟，不习惯啊，快进已经有左右了，虽然是10秒快进，真的要大步快进就直接拖进度条了。</span><br>
+<span>网上查了下，解决了，在 input.conf 里加上下面的代码。</span><br>
+<span>UP    add volume 2#UP键音量增加</span><br>
+<span>DOWNadd volume -2 #DOWN键音量减小</span><br>
+<span>WHEEL_UP   add volume 2 #鼠标中健键音量增加</span><br>
+<span>WHEEL_DOWN    add volume -2 #鼠标中健键音量减小</span><br>
+<span>还有左右键出现奇怪的OSD进度条，我自己也做了修改，在 mvp.conf里加上代码</span><br>
+<span>#no-osd-bar #取消进度条 </span><br>
+<span>osd-border-size=1 #进度条边框大小</span><br>
+<span>osd-blur= 1 #进度条模糊 1到20</span><br>
+<span>osd-bar-h= 2 #进度条高度，按屏幕百分比</span><br>
+<span>osd-bar-w=100 #进度条宽度，1到100</span><br>
+<span>osd-bar-align-y=1 #进度条Y轴位置，-1到1,1位底部</span><br>
+<span>----发送自 Xiaomi Redmi K20 Pro Premium Edition,Android 10</span><br>
+</p><p><b>f.w.: </b><br>
+<span>mpv开启Anime4k滤镜播放720p以下视频一全屏就变绿怎么解决</span><br>
+</p><p><b>風駿: </b><br>
+<span>potplayer挺好，不用那些高端技术</span><br>
+</p><p><b>螺纹: </b><br>
+<span>Rosetta 发表于 2020-6-22 22:22</span><br>
+<span>mpc-hc现在由clsid2续命, 最新版本1.9.5: https://github.com/clsid2/mpc-hc/releases</span><br>
+<span>居然有大好人帮忙续，用了be代替好久还是想hc</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>拜拜: </b><br>
+<span>VLC</span><br>
+</p><p><b>znzn2012173: </b><br>
+<span>lixkang 发表于 2020-6-23 20:40</span><br>
+<span>求问下mvp播放器怎么修改快捷键，想把上下键改成音量控制，现在上下键是快进1分钟，不习惯啊，快进已经有左 ...</span><br>
+<span>巨巨帮大忙了 我这mvp不知道怎么的不能跟系统音量同步 用了你这个音量代码解决了 谢谢谢巨巨</span><br>
+</p><p><b>茴香蚪的马甲: </b><br>
+<span>我用的Potplayer+LAV+MadVR，一直有个问题就是，为什么很多视频在窗口模式和全屏模式下播放的色调不一样，全屏以后色调明显变淡了。</span><br>
+</p><p><b>mhss: </b><br>
+<span>试了下mpv，没有图像操作配置选项界面这一操作太硬核了，习惯不来</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>茴香蚪的马甲 发表于 2020-6-24 16:29</span><br>
+<span>我用的Potplayer+LAV+MadVR，一直有个问题就是，为什么很多视频在窗口模式和全屏模式下播放的色调不一样， ...</span><br>
+<span>全屏模式下不受桌面配置影响？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>暁美ほむら 发表于 2020-6-23 14:11</span><br>
+<span>尝试使用最新测试版本</span><br>
+<span>http://madshi.net/madVRhdrMeasure113.zip</span><br>
+<span>这个咋用，覆盖原来的madvr吗？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2020-6-24 19:04 编辑 </span><br>
+<span>liwangli1983 发表于 2020-6-24 18:45</span><br>
+<span>这个咋用，覆盖原来的madvr吗？</span><br>
+<span>覆盖就行，测试时候请关闭smooth</span><br>
+<span>madvr</span><br>
+<img src="https://bbs.vcb-s.com/data/attachment/forum/202006/24/183811cxfjzdl8fgt0jfg0.png" title="https://bbs.vcb-s.com/data/attachment/forum/202006/24/183811cxfjzdl8fgt0jfg0.png"><br>
+<span>MPV</span><br>
+<img src="https://bbs.vcb-s.com/data/attachment/forum/202006/24/183820kvvjwk8j6d9vn6kt.png" title="https://bbs.vcb-s.com/data/attachment/forum/202006/24/183820kvvjwk8j6d9vn6kt.png"><br>
+</p><p><b>linux40: </b><br>
+<span>mhss 发表于 2020-6-24 18:40</span><br>
+<span>试了下mpv，没有图像操作配置选项界面这一操作太硬核了，习惯不来</span><br>
+<span>放的时候就有了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>mhss 发表于 2020-6-24 18:40</span><br>
+<span>试了下mpv，没有图像操作配置选项界面这一操作太硬核了，习惯不来</span><br>
+<span>可以先用mpv.net过渡，渐渐就会觉得右键菜单其实多余了。我就是因为mpv.net一直有点bug跟作者沟通无果转mpv，花点时间配置好热键和脚本以后舒服得不行</span><br>
+</p><p><b>果壳中的松鼠: </b><br>
+<span>madvr太吃性能了，现在快进播放个1080P视频，显卡都能跑到1.8Ghz，风扇起飞</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943440[0-50]</guid>
+    </item>
+  </channel>
+</rss>

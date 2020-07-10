@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>尝试构建大数据网文智能推荐系统，解决书荒[10.10更新]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>尝试构建大数据网文智能推荐系统，解决书荒[10.10更新]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:23:26 +0000</lastBuildDate>
+    <item>
+      <title>尝试构建大数据网文智能推荐系统，解决书荒[10.10更新][50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852821-1-1.html</link>
+      <description>自己写了个程序推荐相似网络小说，解决书荒&#13;
+小时候就喜欢看网文，现在还记得当时看网络小说都是去书店，里面都是厚厚的黄皮书，署名都是黄易，当时还感觉黄易这个作者好厉害
+&#13;
+感觉前几年网文质量还不错，现在网文虽然数量上来了，但是找书越来越难了，因为自己是程序员，所以就尝试收集了点数据，做了一个简单的相似网文推荐
+&#13;
+这里贴一下推荐结果：类似《王牌进化》的小说:最终进化   相似度:98无限恐怖   相似度:87无尽武装   相似度:73超弦空间   相似度:55龙蛇演义   相似度:35
+&#13;
+类似《佛本是道》的小说:龙蛇演义   相似度:90黑山老妖   相似度:87阳神   相似度:82仙葫   相似度:72凡人修仙传   相似度:70
+&#13;
+类似《马恩的日常》的小说:反正我是超能力者   相似度:49限制级末日症候   相似度:39悲惨世界   相似度:37战略级天使   相似度:34外乡人日记   相似度:30
+&#13;
+目前还支持搜索标签，比如无限流、幕后黑手、种田等等
+&#13;
+符合标签「无限流」的小说: 惊悚乐园   字数: 489万一世之尊   字数: 443万无尽武装   字数: 599万幻想世界大穿越   字数: 390万无限恐怖   字数: 269万
+&#13;
+符合标签「幕后黑手」的小说: 幻想世界大穿越   字数: 390万邪恶组织注意事项   字数: 496万低维游戏   字数: 113万我夺舍了魔皇   字数: 132万这世界的土著好凶猛   字数: 180万
+&#13;
+符合标签「种田」的小说: 修真世界   字数: 286万放开那个女巫   字数: 336万晚明   字数: 227万三国之最风流   字数: 383万临高启明   字数: 762万
+&#13;
+这个搜索目前是托管到公众号 推书君 里的，只要在回复框回应回复对应的书籍或者标签就可以看结果了。因为刚开始，收集的数据还不太全，大家有什么反馈或者推荐的不对的都可以在下面回复，我看看能不能优化算法。</description>
+      <content:encoded><![CDATA[<p><b>青龙圣者: </b><br>
+<span>希望加入轻小说的搜索，随便搜了下发现只支持网文。</span><br>
+</p><p><b>gaomingyu: </b><br>
+<span>希望标签加上“耽美”一类～方便排毒～比如晋江的那些～～～</span><br>
+</p><p><b>victor19940828: </b><br>
+<span>类似的功能有人做了一个网站，http://www.tuishuapp.com</span><br>
+</p><p><b>lalala德玛西亚: </b><br>
+<span>s1网友作品 大床造者？？？</span><br>
+</p><p><b>fg2731355203: </b><br>
+<span>希望能多加一些轻文，sf中的网文</span><br>
+</p><p><b>titians: </b><br>
+<span>试了下，确实挺准的</span><br>
+</p><p><b>qratosone: </b><br>
+<span>楼主用的是什么样的算法？手工抽取特征还是深度NLP</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@caine4u 可以通过公众号 推书君 体验，网址是 www.tuishujun.com</span><br>
+<span>@有口皆悲 目前的标签有腹黑、妹控，可以通过网址的多标签来搜索，因为微信暂时还不支持多标签，后续会加上</span><br>
+<span>@gaomingyu 目前还是专注男频比较多，女频的数据收集的还不全，后续会不断扩展数据。</span><br>
+<span>@victor19940828 嗯，我觉得这是趋势，我 3 年前在 v 站发过贴就搭建过一个简单的系统，后面忙其他事情搁置了，最近有时间又开始把系统搭建起来。https://www.v2ex.com/t/308827#reply101</span><br>
+<span>@lalala德玛西亚 是的，昨天推荐了一下 s1 网友的作品，大创造者，幕后黑手无敌流，欢迎观看。</span><br>
+<span>@fg2731355203 多谢，目前一直在加入网文的网站，轻小说倒是没有关注，后续会慢慢扩展书库。</span><br>
+<span>@titians 多谢支持。</span><br>
+<span>@qratosone 混合，纯算法有时候效果不是太好，有一部分是手工介入的。</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>昨天遇到一个 sql 的问题，码代码到3点多，终于搞定了多标签的搜索，现在可以回复多个 标签 去筛选小说了，比如</span><br>
+<span>符合标签「无限 仙侠」的小说:·</span><br>
+<span>仙武道纪   字数: 159万</span><br>
+<span>原血神座   字数: 304万</span><br>
+<span>众星之主   字数: 392万</span><br>
+<span>诸天投影   字数: 466万</span><br>
+<span>能穿越的修行者   字数: 292万</span><br>
+<span>点击查看更多</span><br>
+<span>符合标签「无限 武侠」的小说:</span><br>
+<span>一世之尊   字数: 443万</span><br>
+<span>幻想世界大穿越   字数: 390万</span><br>
+<span>武林半侠传   字数: 198万</span><br>
+<span>仙武道纪   字数: 159万</span><br>
+<span>武侠世界大冒险   字数: 219万</span><br>
+<span>点击查看更多</span><br>
+<span>这样的话找书就方便多了，一个标签还有有局限性。</span><br>
+<span>顺便加了一堆标签，这是 剑道 的推荐结果</span><br>
+<span>符合标签「剑道」的小说: </span><br>
+<span>雪中悍刀行   字数: 461万</span><br>
+<span>我的女友是恶女   字数: 172万</span><br>
+<span>剑道独尊   字数: 414万</span><br>
+<span>重生日本之以剑称圣   字数: 189万</span><br>
+<span>剑道独神   字数: 735万</span><br>
+<span>点击查看更多</span><br>
+</p><p><b>nexus1: </b><br>
+<span>cosx 发表于 2019-8-11 21:43</span><br>
+<span>向量可以多一点，比如“虎躯一震”出现的次数...</span><br>
+<span>嘤咛一声</span><br>
+</p><p><b>卓尔之影: </b><br>
+<span>类似《<a href="http://www.tuishujun.com/books/2269">都市妖奇谈</a>》的小说: 标签: <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=妖怪">妖怪</a> <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=温馨">温馨</a> <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=都市">都市</a> <a href="http://www.tuishujun.com/books/38622">新宋</a>   相似度:24 <a href="http://www.tuishujun.com/books/1062">搜神记</a>   相似度:22 <a href="http://www.tuishujun.com/books/3248">风姿物语</a>   相似度:22 <a href="http://www.tuishujun.com/books/1218">魔法学徒</a>   相似度:20 <a href="http://www.tuishujun.com/books/2060">史上第一混乱</a>   相似度:19 <a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=都市妖奇谈">点击查看更多</a></span><br>
+</p><p><b>卓尔之影: </b><br>
+<span>都市妖奇谈这个和新宋有什么象似点啊</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@卓尔之影 相似度低于 30 的基本没有参考价值了，可能是都属于远古书籍吧。你可以通过标签去查找，比如妖怪，温馨 就比较准确。</span><br>
+</p><p><b>卓尔之影: </b><br>
+<span>longlysdg 发表于 2019-8-18 11:42</span><br>
+<span>@卓尔之影 相似度低于 30 的基本没有参考价值了，可能是都属于远古书籍吧。你可以通过标签去查找， ...</span><br>
+<span>这书是挺久的</span><br>
+</p><p><b>yang3350380: </b><br>
+<span>牛逼了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>lrgb: </b><br>
+<span>书看的少，跑步是个什么类型？</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@lrgb 跑步是指流派，就跟仙侠、无限流这些一样，就是主角以跑步为事业。因为这几年马拉松之类的赛事越来越火热，所以才有了跑步文。</span><br>
+<span>符合标签「跑步」的小说: </span><br>
+<span>跑出我人生   字数: 127万</span><br>
+<span>重生在跑道上   字数: 65万</span><br>
+<span>天生就会跑   字数: 183万</span><br>
+</p><p><b>aranyakay: </b><br>
+<span>不用NLP很难推荐准确吧，除非你知道具体的订阅客户资料可以做相似度匹配</span><br>
+</p><p><b>爱尔米娜: </b><br>
+<span>微信读书上面有个类似的功能，根据你书架的书来推荐，但是我一本都没入眼的</span><br>
+</p><p><b>一色いろは: </b><br>
+<span>试了下，还可以，不过我喜欢看的书只能找到20相似度的，太惨了</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@aranyakay 是的，现在有些书的推荐效果不是很好，这个只能靠不断优化算法了。</span><br>
+<span>@爱尔米娜 希望我后面能做的好一点。</span><br>
+<span>@一色いろは 多谢支持，太小众的书通过标签搜索的话，结果会好很多。</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>看到更新，惯例试着输入锁情咒当关键字，这次竟然多了标签提示：复仇 治郁 血腥。感谢楼主！</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@有口皆碑 之前优化了一波标签算法，结果好了很多。后续标签估计还有一波比较大的提升，等我抽出时间来实现下。</span><br>
+</p><p><b>kaflash: </b><br>
+<span>也是余弦相似度？</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>LZ，给你个建议：</span><br>
+<span>做用户脸谱分析，加上这个关联</span><br>
+<span>哪怕用户登上来，你给他10本书让他挑看过并喜欢的几本都行</span><br>
+<span>对着Tag池做关联挖掘的，圈内搞笑事情有多少你应该也是知道的吧……</span><br>
+</p><p><b>不爱做梦: </b><br>
+<span>“用我现在的书单来给我推荐新书”这种功能能不能实现？阅读APP里的那些“为你推荐”全是推广位吧，实际效果太差了。</span><br>
+<span>或者根据字数+流派分类，筛查评价好的推荐（这点感觉最难，评价是真不好整）</span><br>
+<span>感觉这个才是内在。</span><br>
+<span>有相似流派需求的一般也不会同时追，不然比如漫威同人这种，多本同时追超级容易混淆的。</span><br>
+<span>网易云音乐当初那么突出就是因为推荐算法比其他的音乐软件更胜一筹，虽然后面没落了。</span><br>
+<span>LZ加油。</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@kaflash 变种</span><br>
+<span>@宅男的爱主要现在用户太少，后续可能会做冷启动。不是圈内人，就是比较喜欢网文，看了一些书开始实践的。</span><br>
+<span>@不爱做梦 这个后续会做，不过网站还没什么用户，也没什么人创建书单，后期会考虑实现这个功能。没有用户很多东西都不太好做。</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>8.20 更新</span><br>
+<span>1. 现在相似小说的搜索不会再返回同个作者的小说了</span><br>
+<span>2. 升级了标签算法，现在标签的丰富度增加了很多。</span><br>
+<span>下面贴一波这次新版本标签识别出来的一些比较有意思的标签</span><br>
+<span>符合标签「养猪」的小说:</span><br>
+<span>重生之宅男完美生活   字数: 163万</span><br>
+<span>女主都和男二HE   字数: 67万</span><br>
+<span>重生之养猪大佬   字数: 182万</span><br>
+<span>请回答二零一四   字数: 247万</span><br>
+<span>锦绣农门   字数: 71万</span><br>
+<span>符合标签「律师」的小说:</span><br>
+<span>喷神   字数: 189万</span><br>
+<span>荣耀法兰西   字数: 168万</span><br>
+<span>郭大炮的文娱生涯   字数: 239万</span><br>
+<span>布莱肯林场   字数: 45万</span><br>
+<span>覆手   字数: 119万</span><br>
+<span>感觉标签的挖掘还有很多可以提高的地方，准备后续有空再花一点时间研究下。</span><br>
+</p><p><b>lpzhg: </b><br>
+<span>搜了一下同居博客，居然直接信息不足没有推荐，我喜欢的这得多小众</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@lpzhg ，现在数据还不够多，后续数据多了，大部分小说应该都会有推荐。</span><br>
+</p><p><b>悉尼老宅男: </b><br>
+<span>longlysdg 发表于 2019-08-11 21:35:35</span><br>
+<span>用超能力的话说，就是协同过滤你这个不就是基础的聚类么？没有协同过滤的思想吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@悉尼老宅男 没用到聚类，因为很多书上都介绍的是协同过滤，所以实现的时候也是基于协同过滤，后面标签可能会考虑聚类。</span><br>
+</p><p><b>free切: </b><br>
+<span>类似《<a href="http://www.tuishujun.com/books/26761">天启预报</a>》的小说:</span><br>
+<span>作者: <a href="https://www.tuishujun.com/search?order_by=default&page=1&searchMode=bookAuthor&book_author_name=风月">风月</a></span><br>
+<span>标签: <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=文笔好">文笔好</a> <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=奇幻">奇幻</a> <a href="https://www.tuishujun.com/search?searchMode=bookTag&tags=现代魔法">现代魔法</a></span><br>
+<span><a href="http://www.tuishujun.com/books/26503">工业法典</a>   相似度:39</span><br>
+<span><a href="http://www.tuishujun.com/books/28411">天阿降临</a>   相似度:37</span><br>
+<span><a href="http://www.tuishujun.com/books/27839">氪金成仙</a>   相似度:32</span><br>
+<span><a href="http://www.tuishujun.com/books/26544">七界之都</a>   相似度:29</span><br>
+<span><a href="http://www.tuishujun.com/books/26629">迷雾之上</a>   相似度:29</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=天启预报">点击查看更多</a></span><br>
+<span>卧槽，没几个相似的。风月娘，你好强大</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@卓尔之影 周末升级了下算法，现在会考虑流派因素了，目前结果中已经看不到新宋这种类别相差特别远的小说。</span><br>
+<span>类似《都市妖奇谈》的小说:</span><br>
+<span>作者: 可蕊</span><br>
+<span>标签: 妖怪 都市文 温馨</span><br>
+<span>风姿物语 - 22%相似 - 278w</span><br>
+<span>搜神记 - 21%相似 - 160w</span><br>
+<span>魔法学徒 - 19%相似 - 265w</span><br>
+<span>史上第一混乱 - 19%相似 - 170w</span><br>
+<span>随波逐流之一代军师 - 18%相似 - 147w</span><br>
+<span>@lpzhg周末升级的算法优化了对冷门小说的推荐，现在大部分冷门小说都有对应的推荐结果了。</span><br>
+<span>类似《同居博客》的小说:</span><br>
+<span>作者: 泥男</span><br>
+<span>标签: 都市文 言情 明星</span><br>
+<span>重生的飘渺之旅 - 56%相似 - 93w</span><br>
+<span>英雄联盟之王座传奇 - 56%相似 - 111w</span><br>
+<span>唯有奋斗可期待 - 54%相似 - 59w</span><br>
+<span>** - 53%相似 - 181w</span><br>
+<span>暗房 - 48%相似 - 77w</span><br>
+<span>@零度雨</span><br>
+<span>现在支持在公众号直接搜索作者名了</span><br>
+<span>@高本惠 之前升级了一次标签算法，现在五代十国的标签已经有很多书了</span><br>
+<span>符合标签「五代十国」的小说:</span><br>
+<span>十国千娇 - 265w</span><br>
+<span>天下节度 - 267w</span><br>
+<span>北唐 - 128w</span><br>
+<span>皇家娱乐指南 - 138w</span><br>
+<span>五代梦 - 241w</span><br>
+<span>五代十国</span><br>
+</p><p><b>purplelake: </b><br>
+<span>麻烦楼主加一下优书网/龙空的评分；虽然优书的评分不作数， 但是低于4.0的，基本狗屎很多， 省的看了</span><br>
+</p><p><b>旺旺牛奶: </b><br>
+<span>帮顶，回头试试准不准</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>楼主我觉得你这个东西只要持续做下去很有前途</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@purplelake 主要优书网给有些书打了太多低分，比如王国血脉，才 5.3 有点无法直视</span><br>
+</p><p><b>Reideen: </b><br>
+<span>purplelake 发表于 2019-8-25 23:40</span><br>
+<span>麻烦楼主加一下优书网/龙空的评分；虽然优书的评分不作数， 但是低于4.0的，基本狗屎很多， 省的看了 ...</span><br>
+<span>优书网喷子太多了，你不能看评分，得看好评</span><br>
+<span>—— 来自 HUAWEI DUK-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>之前上线的智能标签在 s1 单独发帖了见 https://bbs.saraba1st.com/2b/thread-1857396-1-1.html</span><br>
+<span>国庆更新了各种排行榜同时对 UI 进行了改版，具体可以顶楼更新。欢迎大家反馈意见。</span><br>
+</p><p><b>lvcha: </b><br>
+<span>楼主你好厉害啊。</span><br>
+<span>动手能力强</span><br>
+</p><p><b>gyfsgm: </b><br>
+<span>数据何来，先REMARK下。看看前10的推荐 。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852821[50-100]</guid>
+    </item>
+    <item>
+      <title>尝试构建大数据网文智能推荐系统，解决书荒[10.10更新][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852821-1-1.html</link>
+      <description>自己写了个程序推荐相似网络小说，解决书荒&#13;
+小时候就喜欢看网文，现在还记得当时看网络小说都是去书店，里面都是厚厚的黄皮书，署名都是黄易，当时还感觉黄易这个作者好厉害
+&#13;
+感觉前几年网文质量还不错，现在网文虽然数量上来了，但是找书越来越难了，因为自己是程序员，所以就尝试收集了点数据，做了一个简单的相似网文推荐
+&#13;
+这里贴一下推荐结果：类似《王牌进化》的小说:最终进化   相似度:98无限恐怖   相似度:87无尽武装   相似度:73超弦空间   相似度:55龙蛇演义   相似度:35
+&#13;
+类似《佛本是道》的小说:龙蛇演义   相似度:90黑山老妖   相似度:87阳神   相似度:82仙葫   相似度:72凡人修仙传   相似度:70
+&#13;
+类似《马恩的日常》的小说:反正我是超能力者   相似度:49限制级末日症候   相似度:39悲惨世界   相似度:37战略级天使   相似度:34外乡人日记   相似度:30
+&#13;
+目前还支持搜索标签，比如无限流、幕后黑手、种田等等
+&#13;
+符合标签「无限流」的小说: 惊悚乐园   字数: 489万一世之尊   字数: 443万无尽武装   字数: 599万幻想世界大穿越   字数: 390万无限恐怖   字数: 269万
+&#13;
+符合标签「幕后黑手」的小说: 幻想世界大穿越   字数: 390万邪恶组织注意事项   字数: 496万低维游戏   字数: 113万我夺舍了魔皇   字数: 132万这世界的土著好凶猛   字数: 180万
+&#13;
+符合标签「种田」的小说: 修真世界   字数: 286万放开那个女巫   字数: 336万晚明   字数: 227万三国之最风流   字数: 383万临高启明   字数: 762万
+&#13;
+这个搜索目前是托管到公众号 推书君 里的，只要在回复框回应回复对应的书籍或者标签就可以看结果了。因为刚开始，收集的数据还不太全，大家有什么反馈或者推荐的不对的都可以在下面回复，我看看能不能优化算法。</description>
+      <content:encoded><![CDATA[<p><b>longlysdg: </b><br>
+<span>自己写了个程序推荐相似网络小说，解决书荒</span><br>
+<span>小时候就喜欢看网文，现在还记得当时看网络小说都是去书店，里面都是厚厚的黄皮书，署名都是黄易，当时还感觉黄易这个作者好厉害</span><br>
+<span>感觉前几年网文质量还不错，现在网文虽然数量上来了，但是找书越来越难了，因为自己是程序员，所以就尝试收集了点数据，做了一个简单的相似网文推荐</span><br>
+<span>这里贴一下推荐结果：类似《王牌进化》的小说:最终进化   相似度:98无限恐怖   相似度:87无尽武装   相似度:73超弦空间   相似度:55龙蛇演义   相似度:35</span><br>
+<span>类似《佛本是道》的小说:龙蛇演义   相似度:90黑山老妖   相似度:87阳神   相似度:82仙葫   相似度:72凡人修仙传   相似度:70</span><br>
+<span>类似《马恩的日常》的小说:反正我是超能力者   相似度:49限制级末日症候   相似度:39悲惨世界   相似度:37战略级天使   相似度:34外乡人日记   相似度:30</span><br>
+<span>目前还支持搜索标签，比如无限流、幕后黑手、种田等等</span><br>
+<span>符合标签「无限流」的小说: 惊悚乐园   字数: 489万一世之尊   字数: 443万无尽武装   字数: 599万幻想世界大穿越   字数: 390万无限恐怖   字数: 269万</span><br>
+<span>符合标签「幕后黑手」的小说: 幻想世界大穿越   字数: 390万邪恶组织注意事项   字数: 496万低维游戏   字数: 113万我夺舍了魔皇   字数: 132万这世界的土著好凶猛   字数: 180万</span><br>
+<span>符合标签「种田」的小说: 修真世界   字数: 286万放开那个女巫   字数: 336万晚明   字数: 227万三国之最风流   字数: 383万临高启明   字数: 762万</span><br>
+<span>这个搜索目前是托管到公众号 推书君 里的，只要在回复框回应回复对应的书籍或者标签就可以看结果了。因为刚开始，收集的数据还不太全，大家有什么反馈或者推荐的不对的都可以在下面回复，我看看能不能优化算法。</span><br>
+</p><p><b>pyjq: </b><br>
+<span>牛逼了</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>饿梦: </b><br>
+<span>隐杀</span><br>
+<span>类似《<a href="http://www.tuishujun.com/books/606">隐杀</a>》的小说:</span><br>
+<span>赘婿   相似度:77</span><br>
+<span>异化   相似度:67</span><br>
+<span>重生之心动   相似度:64</span><br>
+<span>重生之官路商途   相似度:59</span><br>
+<span>间客   相似度:58</span><br>
+<span>刚好这几本我全看过 感觉结果还行</span><br>
+</p><p><b>开普勒: </b><br>
+<span>楼主勾起了我童年回忆，我记得我以前在书店看小兵传奇，厚厚一大本，都是署名黄易的黄皮书，此外，还有一堆网络小说。当时也是感叹黄易这人这能写</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@开普勒 是的，当时感觉黄易这人简直太牛了，书店满满的几书架全是他的书，而且各种类型都有，惊为天人。当时看黄皮书还有个比较烦的点是名字全是乱写的，而且有时候书会串，比如前后两半是不同的小说。因为当时都是实体书不全，最痛苦的就是看完了一本，后续的书店没有，当时也没电脑，不会上网，简直难受到不行。</span><br>
+</p><p><b>戈饭: </b><br>
+<span>测试了一下，发现你的程序对于太小众或太大众的都推荐不准确啊。</span><br>
+<span>输入大众热门爆款书，也是推荐热门爆款书，但是其实并不相似</span><br>
+<span>输入小众书也是推荐小众书，相关度也很低</span><br>
+<span>但是对于不热不冷的书，推荐就很准确，比如《临高启明》《赤色黎明》《归向》等等</span><br>
+<img src="https://i.loli.net/2019/08/11/mZFxvzVacNGwdI2.jpg" title="https://i.loli.net/2019/08/11/mZFxvzVacNGwdI2.jpg"><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>梅林的三角裤: </b><br>
+<span>相似度是怎么判断的，能用非超能力者能听懂的方式说说吗？</span><br>
+<span>—— 来自 Xiaomi MIX, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>用超能力者的方式说说也行啊</span><br>
+</p><p><b>fg2731355203: </b><br>
+<span>马克</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@戈饭 嗯，目前的推荐算法还比较基础，热门书籍因为喜欢的人太多，在计算相似度的时候回导致权重很高，后期会对热门作品进行降权。但是冷门就不太好办，因为原始数据就比较少，可能需要从不同的渠道多爬数据才行。</span><br>
+<span>@梅林的三角裤 用非超能力者的话来讲，你可以想象每本书有很多特征，比如字数、分类、是否同一作者等，将这些书籍的特征映射到二维坐标的话，每本书就是坐标上的一个个点，相似书籍就是离某本书的点较近的那些点。还有就是假设靠喜欢这本书的用户同时也会喜欢其他类型的书。比如一本书有很多人看过，找到这些看过这本书的人看的所有类似书籍，从里面提取最常见的，就算相似书籍了。</span><br>
+<span>@一百三十万颗星 用超能力的话说，就是协同过滤</span><br>
+</p><p><b>izumlily: </b><br>
+<span>搜了一下诡秘,非常不准啊</span><br>
+<span>而且发现推荐都是倾向同作者的书,其实同作者就不需要推荐了</span><br>
+</p><p><b>cosx: </b><br>
+<span>向量可以多一点，比如“虎躯一震”出现的次数...</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@cosx 这个要扫描全书文本，有点难，目前估计不太可能做，以后有机会的话扫描书籍前 10 章的公共章节，抽取一些关键字或者判断文笔之类的估计可以。</span><br>
+<span>@izumlily 太热门的书目前确实不太准，推荐通过 tag 去搜，比如诡秘是属于克苏鲁</span><br>
+<span>符合标签「克苏鲁」的小说: </span><br>
+<span>诡秘之主   字数: 303万</span><br>
+<span>反正我是超能力者   字数: 132万</span><br>
+<span>我，旧日支配者   字数: 223万</span><br>
+<span>马恩的日常   字数: 250万</span><br>
+<span>比如想看地煞七十二变类似的，就搜索 斩妖除魔</span><br>
+<span>符合标签「斩妖除魔」的小说: </span><br>
+<span>地煞七十二变   字数: 52万</span><br>
+<span>骸骨武士   字数: 26万</span><br>
+<span>先砍一刀   字数: 194万</span><br>
+<span>青城道长   字数: 243万</span><br>
+<span>点击查看更多</span><br>
+<span>明日之劫   字数: 125万</span><br>
+<span>点击查看更多</span><br>
+</p><p><b>kong78: </b><br>
+<span>不错不错，先马克一下。</span><br>
+</p><p><b>鯖: </b><br>
+<span>先关注了，试试再来回。</span><br>
+</p><p><b>acgcn: </b><br>
+<span>longlysdg 发表于 2019-8-11 21:14</span><br>
+<span>@开普勒 是的，当时感觉黄易这人简直太牛了，书店满满的几书架全是他的书，而且各种类型都有，惊为天人</span><br>
+<span>当时经常碰到一部小说分了好几本，结果就最后一本的最后几页被撕掉了</span><br>
+</p><p><b>别的一只到游: </b><br>
+<span>我找游戏用的50gameslike就是这样，只是对神农的业务水平要求比较高吧，否则和网站的同类型推荐差距不大。。</span><br>
+</p><p><b>MR骑士道MKⅦ: </b><br>
+<span>类似《<a href="http://www.tuishujun.com/books/28094">芝加哥1990</a>》的小说:</span><br>
+<span>重生野性时代   相似度:45</span><br>
+<span>咸鱼的自救攻略   相似度:38</span><br>
+<span>飞越泡沫时代   相似度:38</span><br>
+<span>球霸的黑科技系统   相似度:32</span><br>
+<span>狩猎好莱坞   相似度:32</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=芝加哥1990">点击查看更多</a></span><br>
+<span>类似《<a href="http://www.tuishujun.com/books/4116">纣临</a>》的小说:</span><br>
+<span>贩罪   相似度:27</span><br>
+<span>诡秘之主   相似度:24</span><br>
+<span>惊悚乐园   相似度:24</span><br>
+<span>从姑获鸟开始   相似度:20</span><br>
+<span>点道为止   相似度:19</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=纣临">点击查看更多</a></span><br>
+<span>类似《<a href="http://www.tuishujun.com/books/398">绝境长城上的王者</a>》的小说:</span><br>
+<span>冰与火之歌：大枭雄   相似度:58</span><br>
+<span>冰与火之凛冬已至   相似度:32</span><br>
+<span>始于冰与火之歌   相似度:23</span><br>
+<span>开海   相似度:22</span><br>
+<span>战国野心家   相似度:20</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=绝境长城上的王者">点击查看更多</a></span><br>
+<span>类似《<a href="http://www.tuishujun.com/books/56064">对冲</a>》的小说:</span><br>
+<span>金融霸主之重生   相似度:31</span><br>
+<span>重生野性时代   相似度:23</span><br>
+<span>重生光辉年代   相似度:22</span><br>
+<span>重生之激荡年华   相似度:21</span><br>
+<span>重生世纪之交   相似度:21</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=对冲">点击查看更多</a></span><br>
+<span>类似《<a href="http://www.tuishujun.com/books/26677">我在北美当律师</a>》的小说:</span><br>
+<span>我能看见状态栏   相似度:34</span><br>
+<span>最佳娱乐时代   相似度:25</span><br>
+<span>从影评人到文娱大佬   相似度:23</span><br>
+<span>重生之美利坚反恐   相似度:23</span><br>
+<span>重生南非当警察   相似度:21</span><br>
+<span><a href="http://www.tuishujun.com/search?searchMode=similarBook&similar_book=我在北美当律师">点击查看更多</a></span><br>
+<span>进步空间很大啊……冷门书基本没什么相似度。</span><br>
+</p><p><b>izumlily: </b><br>
+<span>longlysdg 发表于 2019-8-11 22:01</span><br>
+<span>@cosx 这个要扫描全书文本，有点难，目前估计不太可能做，以后有机会的话扫描书籍前 10 章的公共章节，抽取 ...</span><br>
+<span>又搜了一下黑科技标签,结果只有三本,连名字里有黑科技的都没推荐</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@izumlily 看了下程序，发现黑科技没有加入词典，现在加入重算了，结果应该好很多</span><br>
+<span>@MR骑士道MKⅦ 冷门书的相似度很难做，因为数据太少了</span><br>
+<span>@别的一只到游 是的，目前感觉算法还很简单，要做好的话肯定要吸取大家的意见不断优化 。后面准备先搞定 热门书籍权重太大的问题。符合标签「黑科技」的小说: 学霸的黑科技系统   字数: 288万超级怪兽工厂   字数: 312万日在地球   字数: 39万关于黑科技的二三事   字数: 147万斗神武装   字数: 81万点击查看更多</span><br>
+</p><p><b>starrlit: </b><br>
+<span>数据从哪爬的？优书网？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>大佬开源吗？想学习下...</span><br>
+</p><p><b>CK355: </b><br>
+<span>关注下</span><br>
+</p><p><b>冰之妖精琪露诺: </b><br>
+<span>lz请问是基于物品的协调过滤吗，相似度矩阵是离线算好的？对热门物品和用户有相关参数可以惩罚。微信读书app在网文页面有推荐书籍功能</span><br>
+</p><p><b>Phoenix_0592: </b><br>
+<span>大佬开源下呗</span><br>
+<span>recommendation无论在哪个大公司里都是个大部门，一个人要写起来还是挺累的</span><br>
+</p><p><b>Z_D: </b><br>
+<span>牛逼</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>cosx: </b><br>
+<span>如果小说也有eh的tag系统是不是会更好</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>输入锁情咒没搜到，不开心</span><br>
+</p><p><b>shineaslin: </b><br>
+<span>土著类型的呢</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@冰之妖精琪露诺 是基于物品的协调过滤，第一次的相似度矩阵是离线计算的，目前也在考虑对热门物品进行惩罚</span><br>
+<span>@cosx 不太了解 eh 的 tag 系统是怎么样的，目前也支持类似豆瓣的标签系统，方便的话大佬能介绍下吗，看我能不能学习下</span><br>
+<span>@有口皆悲 这种就没办法了</span><br>
+<span>@shineaslin 看了下土著也没有加入词典，我看看加入之后的效果怎么样</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@戈饭 @izumlily 现在已经对热门书籍做了降权，应该结果会好很多</span><br>
+<span>@shineaslin 土著标签已加</span><br>
+</p><p><b>天地猫: </b><br>
+<span>mark下</span><br>
+</p><p><b>Reideen: </b><br>
+<span>帮顶</span><br>
+<span>—— 来自 HUAWEI DUK-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>龙星丸: </b><br>
+<span>mark</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>很多年不看了， 跑步 土著 这是啥意思？</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@依然荏苒 跑步、土著是指流派，就跟仙侠、无限流这些一样，下面是这两个标签的结果</span><br>
+<span>符合标签「跑步」的小说: </span><br>
+<span>跑出我人生   字数: 127万</span><br>
+<span>重生在跑道上   字数: 65万</span><br>
+<span>天生就会跑   字数: 183万</span><br>
+<span>符合标签「土著」的小说: </span><br>
+<span>平天策   字数: 204万</span><br>
+<span>三国之最风流   字数: 383万</span><br>
+<span>临高启明   字数: 762万</span><br>
+<span>覆汉   字数: 280万</span><br>
+<span>楚臣   字数: 255万</span><br>
+</p><p><b>wzmss17: </b><br>
+<span>战术插眼</span><br>
+</p><p><b>carfisher: </b><br>
+<span>强啊楼主，这算法要是做的好完全可以卖给各大平台了。抖音式网文推送，会有多可怕。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>零度雨: </b><br>
+<span>提个意见，能否有个方法显示支持哪些标签？</span><br>
+<span>还有能否有办法搜索某一个作者的所有作品？</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>@carfisher 现在还很简陋，正在不断改善中</span><br>
+<span>@零度雨 目前还没有显示所有标签的地方，后面考虑加上。搜索某个作者的所有作品你可以去 www.tuishujun.com 里面可以直接搜索作者，公众号还没支持，我后面看看有必要就加上</span><br>
+</p><p><b>我不是大叔: </b><br>
+<span>可以的，我去瞅瞅看</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>longlysdg: </b><br>
+<span>今天根据大家的反馈添加了女仆、棒球、神豪等标签，这是目前的一部分推荐结果：</span><br>
+<span>符合标签「女仆」的小说: </span><br>
+<span>特拉福买家俱乐部   字数: 570万</span><br>
+<span>小春日和   字数: 31万</span><br>
+<span>我的妹妹武则天   字数: 156万</span><br>
+<span>女仆战争   字数: 93万</span><br>
+<span>符合标签「棒球」的小说: </span><br>
+<span>舵爷   字数: 295万</span><br>
+<span>神眼强棒   字数: 55万</span><br>
+<span>中国少年的甲子园   字数: 137万</span><br>
+<span>符合标签「神豪」的小说: </span><br>
+<span>神豪无极限   字数: 199万</span><br>
+<span>因为我有钞能力   字数: 46万</span><br>
+<span>神豪求放过   字数: 43万</span><br>
+<span>更多的推荐结果请在推书君公众号回复对应的标签即可查看，标签还在不断收集完善中</span><br>
+<span>欢迎大家评论回复使用感受</span><br>
+</p><p><b>haobatou: </b><br>
+<span>感谢楼主分享</span><br>
+</p><p><b>caine4u: </b><br>
+<span>网址呢？</span><br>
+</p><p><b>剑起苍斓: </b><br>
+<span>我记得之前有过类似的一个搜索站，但是记不起网址了</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zhwpjy: </b><br>
+<span>我咋感觉这玩意是反抄袭神器啊</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>还是没有锁情咒</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>也没有腹黑妹妹这个标签</span><br>
+</p><p><b>高本惠: </b><br>
+<span>厉害。搜了下“五代十国”，只有5本，是不是太少了？</span><br>
+</p><p><b>阿木木的野望: </b><br>
+<span>以前起点有过 后来不知为何没了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852821[0-50]</guid>
+    </item>
+  </channel>
+</rss>

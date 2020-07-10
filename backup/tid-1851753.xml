@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>madVR渲染器没用（已解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>madVR渲染器没用（已解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:30:02 +0000</lastBuildDate>
+    <item>
+      <title>madVR渲染器没用（已解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851753-1-1.html</link>
+      <description>madVR渲染器没用（已解决）&#13;
+ 本帖最后由 TheDoctor 于 2019-8-7 18:02 编辑 
+
+我是按照了vcb的教程对potplayer进行了调教，在设置中选择了视频解码器是madvr然而打开视频之后没有效果。</description>
+      <content:encoded><![CDATA[<p><b>TheDoctor: </b><br>
+<span>madVR渲染器没用（已解决）</span><br>
+<span> 本帖最后由 TheDoctor 于 2019-8-7 18:02 编辑 </span><br>
+<span>我是按照了vcb的教程对potplayer进行了调教，在设置中选择了视频解码器是madvr然而打开视频之后没有效果。</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>试了一下我的pot，在视频渲染器那行应该显示madshi video render，你这个明显用的默认视频渲染。具体vcb咋设置的我没看，但是我想应该没有写错。</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>全局滤镜里看看</span><br>
+</p><p><b>RainyH2O: </b><br>
+<span>你下载安装madVR了么- -</span><br>
+<span>不是光设置下potplayer就能用的</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span> RainyH2O 发表于 2019-8-6 23:58 你下载安装madVR了么- - 不是光设置下potplayer就能用的 </span><br>
+<span>安装了</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>滤镜中无论是否钩选mad都没有用</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-8-7 00:05 编辑 </span><br>
+<span>“Madshi视频渲染”右侧的选项点进去是什么？</span><br>
+<span>看看全局滤镜和个人滤镜，是不是强制调用了别的渲染器。</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>HYNDコン 发表于 2019-8-7 00:04</span><br>
+<span>“Madshi视频渲染”右侧的选项点进去是什么？</span><br>
+<span>看看全局滤镜和个人滤镜，是不是强制调用了别的渲染器。</span><br>
+<span>右边干脆点不开。。</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>另外这个mad无论点不点是否强制使用都没有用</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-8-7 00:12 编辑 </span><br>
+<span>TheDoctor 发表于 2019-8-7 00:07</span><br>
+<span>右边干脆点不开。。</span><br>
+<span>？？？不可能吧，要不卸掉重装下pot软件</span><br>
+<span>http://www.madvr.com/</span><br>
+<span>https://daumpotplayer.com/download/</span><br>
+</p><p><b>九条院入鹿: </b><br>
+<span>实在不行就算了吧，说实话，开了不开我是没看出多大区别 该糊还是糊，通常bdrip都是修了一遍的，片源下好没多大问题</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span> 本帖最后由 TheDoctor 于 2019-8-7 00:25 编辑 </span><br>
+<span>强迫症好方用不用会有致命的影响吗</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>pot就快速预览用用，想折腾mpc-be</span><br>
+</p><p><b>Grasshopetrus: </b><br>
+<span>打钩 强制使用 要么就是安装失败了 重新下madvr 管理员运行install.bat</span><br>
+</p><p><b>zihexing: </b><br>
+<span>TheDoctor 发表于 2019-8-7 00:08</span><br>
+<span>另外这个mad无论点不点是否强制使用都没有用</span><br>
+</p><p><b>RainyH2O: </b><br>
+<span>正常应该是这样的，而且全局滤镜和个人滤镜根本不需要加madVR</span><br>
+<span>首先你先确保madVR是否以管理员安装了，再确认播放器自带滤镜是否关闭了吧</span><br>
+</p><p><b>九味小吃: </b><br>
+<span>折腾不好的话可以直接搞k-lite，mpc-hc+madVR效果比pot+madVR好的</span><br>
+<span>—— 来自 HMD Global Nokia X6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>我觉得是我没有管理员安装等我今天回去试试</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>pbkings: </b><br>
+<span>我是懒人，直接下载vcb现成的打包版，配置都不用调</span><br>
+<span>https://vcb-s.com/archives/5610</span><br>
+</p><p><b>qwased: </b><br>
+<span>还是mpc be吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Bhagavan: </b><br>
+<span>搭车求问一下</span><br>
+<span>自从我弄了madvr后我只要一开视频</span><br>
+<span>显卡占用率就飙到95%</span><br>
+<span>请问正常吗</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>换mpc-be</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>烈之斩: </b><br>
+<span>Bhagavan 发表于 2019-8-6 23:38</span><br>
+<span>搭车求问一下</span><br>
+<span>自从我弄了madvr后我只要一开视频</span><br>
+<span>显卡占用率就飙到95%</span><br>
+<span>换几个低端点的缩放算法</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>qwased 发表于 2019-8-7 09:48</span><br>
+<span>还是mpc be吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>mpc-be免调教直接用对吧</span><br>
+</p><p><b>cs0111: </b><br>
+<span>Bhagavan 发表于 2019-8-7 12:38</span><br>
+<span>搭车求问一下</span><br>
+<span>自从我弄了madvr后我只要一开视频</span><br>
+<span>显卡占用率就飙到95%</span><br>
+<span>什么显卡，MADVR设置开的多高？</span><br>
+</p><p><b>Bhagavan: </b><br>
+<span>cs0111 发表于 2019-8-7 14:27</span><br>
+<span>什么显卡，MADVR设置开的多高？</span><br>
+<span>显卡是970..</span><br>
+<span>设置的话是照着网上教程抄的</span><br>
+<span>可能是我设置调太高了</span><br>
+</p><p><b>敖轩: </b><br>
+<span>我也遇到过，通过2种方法可以解决。</span><br>
+<span>1、换台电脑；</span><br>
+<span>2、换用mpc-hc。</span><br>
+</p><p><b>midearth: </b><br>
+<span>搭车问个问题，我照那教程配置好后，显卡从A卡换成N卡，需要重新设一遍吗？显示的信息正常，只是显卡占用低了好多。</span><br>
+</p><p><b>cs0111: </b><br>
+<span> 本帖最后由 cs0111 于 2019-8-7 16:41 编辑 </span><br>
+<span>Bhagavan 发表于 2019-8-7 15:02</span><br>
+<span>显卡是970..</span><br>
+<span>设置的话是照着网上教程抄的</span><br>
+<span>可能是我设置调太高了</span><br>
+<span>应该是开太高，1060显卡，720p 24帧片源拉伸到1080p显示器也只能开到ngu med程度，再高就会掉帧</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>我madvr没有用管理员运行install.bat现在可以用了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851753[0-50]</guid>
+    </item>
+  </channel>
+</rss>

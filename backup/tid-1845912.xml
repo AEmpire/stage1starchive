@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>lan内主机连接数一直很高很正常么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>lan内主机连接数一直很高很正常么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:06:39 +0000</lastBuildDate>
+    <item>
+      <title>lan内主机连接数一直很高很正常么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845912-1-1.html</link>
+      <description>lan内主机连接数一直很高很正常么&#13;
+事情是这样的，我自带笔电上班，公司里大家都是用笔记本连接公司wifi办公的。然后前天换了个路由，紧接着我就发现我的网开始巨卡无比
+&#13;
+一开始还以为是dns问题，鼓捣了半天没用，后来突发奇想鼓捣进了公司路由管理页面，找到了我的主机连接，一看发现每个主机连接限制都是512条，我的电脑就是一直512爆满，然后就给限制上网导致卡了。提示信息说可能是开了迅雷等等p2p软件，我寻思我电脑里有是有这些，但是当天根本没有打开过啊，启动项我也都禁止了。然后把什么迅雷，百度网盘，360之类的全删了，然后把连接数清空，网才好了。
+&#13;
+现在是这个问题，这个连接数，只要开始上网就会慢慢的累计变多，这到没啥，但是我看其他主机运行一天了最多也就400多连接数，我的电脑现在没有p2p软件，开机后就打开一个qq，一个谷歌浏览器（只有微博和b站和贴吧几个页面），就这样过了几个小时就又变成512爆满了，必须隔几个小时手动清空连接数。我想问问有没有大佬懂的，这是正常的吗？
+&#13;
+我也查过，ping过自己的电脑，应该不是被人当肉鸡监听了，而且我在家就没有这种问题，公司也是说了原路由坏了用这个路由顶工的，是我电脑的原因还是路由的这个512限制数太少了呢？</description>
+      <content:encoded><![CDATA[<p><b>zbofjuntou: </b><br>
+<span>lan内主机连接数一直很高很正常么</span><br>
+<span>事情是这样的，我自带笔电上班，公司里大家都是用笔记本连接公司wifi办公的。然后前天换了个路由，紧接着我就发现我的网开始巨卡无比</span><br>
+<span>一开始还以为是dns问题，鼓捣了半天没用，后来突发奇想鼓捣进了公司路由管理页面，找到了我的主机连接，一看发现每个主机连接限制都是512条，我的电脑就是一直512爆满，然后就给限制上网导致卡了。提示信息说可能是开了迅雷等等p2p软件，我寻思我电脑里有是有这些，但是当天根本没有打开过啊，启动项我也都禁止了。然后把什么迅雷，百度网盘，360之类的全删了，然后把连接数清空，网才好了。</span><br>
+<span>现在是这个问题，这个连接数，只要开始上网就会慢慢的累计变多，这到没啥，但是我看其他主机运行一天了最多也就400多连接数，我的电脑现在没有p2p软件，开机后就打开一个qq，一个谷歌浏览器（只有微博和b站和贴吧几个页面），就这样过了几个小时就又变成512爆满了，必须隔几个小时手动清空连接数。我想问问有没有大佬懂的，这是正常的吗？</span><br>
+<span>我也查过，ping过自己的电脑，应该不是被人当肉鸡监听了，而且我在家就没有这种问题，公司也是说了原路由坏了用这个路由顶工的，是我电脑的原因还是路由的这个512限制数太少了呢？</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>单机没有开下载软件的话，512连接确实太多，考虑重装下系统？</span><br>
+</p><p><b>zbofjuntou: </b><br>
+<span>adrftgyh 发表于 2019-7-11 16:45</span><br>
+<span>单机没有开下载软件的话，512连接确实太多，考虑重装下系统？</span><br>
+<span>有考虑过，不过我也还是想知道可能的原因，是跟系统会有关吗？我电脑是6月10号新买的，预装的说是正版win10家庭版，后来6月底左右我用在网上搜到的win10专业版秘钥去更改后变成了win10专业版，会跟这个有关系吗？</span><br>
+</p><p><b>zeax: </b><br>
+<span>netstat -ano |find "ESTABLISH" 看看是哪里建的连接？</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>zbofjuntou 发表于 2019-7-11 16:56</span><br>
+<span>有考虑过，不过我也还是想知道可能的原因，是跟系统会有关吗？我电脑是6月10号新买的，预装的说是正版win ...</span><br>
+<span>和系统本身没关系，重装系统仅仅是相当于恢复出厂设置.....反正也不知道中了啥毒，不如直接刷机一了百了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>上班摸鱼的报应</span><br>
+</p><p><b>tower: </b><br>
+<span>如楼上所说, netstat -ano 检查连接.注意445端口,比如说这个.</span><br>
+<span>http://sec.sangfor.com.cn/events/214.html</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>chrome有没有什么奇怪的插件</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>火绒自带的流量监控可以看应用连接数</span><br>
+</p><p><b>EP2: </b><br>
+<span>一般都是流氓软件，自己随便删删吧</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zbofjuntou: </b><br>
+<span>emmmmm，感谢各位老哥的回复和帮助，我下了一个火绒，看了下没有什么很显著的连接数，都很正常，更戏剧性的是，我们公司昨天换了一个路由，然后今天我是同样的情况在去路由管理界面看，连接数就变成正常的不到50了......</span><br>
+<span>所以还有这种操作的嘛，大概率路由的锅....嘛不管怎样解决就好了， 再次感谢各位老哥</span><br>
+</p><p><b>robit: </b><br>
+<span> 你们什么野鸡公司啊，路由谁都能进的么。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845912[0-50]</guid>
+    </item>
+  </channel>
+</rss>

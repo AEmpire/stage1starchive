@@ -1,0 +1,894 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:06:11 +0000</lastBuildDate>
+    <item>
+      <title>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845983-1-1.html</link>
+      <description>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个&#13;
+ 本帖最后由 CAMUS.net 于 2019-7-11 23:17 编辑 
+
+import sys
+&#13;
+import subprocess
+&#13;
+print('正在删除……')
+&#13;
+#直接使用系统for
+&#13;
+subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)
+&#13;
+print('删除完成。')
+&#13;
+import os
+&#13;
+import re
+&#13;
+import sys
+&#13;
+import subprocess
+&#13;
+from multiprocessing import Pool
+&#13;
+trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees
+&#13;
+#print(list(trees))
+&#13;
+path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"
+&#13;
+#print(path)
+&#13;
+if path:                                 #如果带路径
+&#13;
+    trees = #补齐路径
+&#13;
+#print(trees)
+&#13;
+def del_tree(proc):                     #删除文件夹函数
+&#13;
+    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹
+&#13;
+if __name__ == "__main__":
+&#13;
+    print('正在删除……')
+&#13;
+    with Pool(4) as p:                   #线程
+&#13;
+      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去
+&#13;
+    print('删除完成。')
+&#13;
+import os
+&#13;
+import re
+&#13;
+import sys
+&#13;
+import subprocess
+&#13;
+from multiprocessing import Pool
+&#13;
+verify_yes_no = ""
+&#13;
+if len(sys.argv) == 1:
+&#13;
+    print("仿deltree删除文件夹\n"
+&#13;
+          r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')
+&#13;
+    sys.exit()
+&#13;
+elif len(sys.argv) == 2:
+&#13;
+    if sys.argv == '/?':
+&#13;
+      print("仿deltree删除文件夹\n"
+&#13;
+            r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')
+&#13;
+      sys.exit()
+&#13;
+elif len(sys.argv) == 3:
+&#13;
+    verify_yes_no = sys.argv
+&#13;
+    if verify_yes_no in ["y", "Y"]:
+&#13;
+      pass
+&#13;
+    elif verify_yes_no in ["n", "N"]:
+&#13;
+      print('取消删除')
+&#13;
+      sys.exit()
+&#13;
+    else:
+&#13;
+      print('输入参数错误。')
+&#13;
+      sys.exit()
+&#13;
+else:
+&#13;
+    print('输入参数错误。')
+&#13;
+    sys.exit()
+&#13;
+def verify(verify_yes_no):
+&#13;
+    if verify_yes_no in ["y", "Y"]:
+&#13;
+      return
+&#13;
+    else:
+&#13;
+      print('警告:\n', '确认要删除', sys.argv, "文件夹? Y/N")
+&#13;
+      verify_yes_no = input()
+&#13;
+      if verify_yes_no in ["y", "Y"]:
+&#13;
+            return
+&#13;
+      elif verify_yes_no in ["n", "N"]:
+&#13;
+            print('取消删除')
+&#13;
+            sys.exit()
+&#13;
+      else:
+&#13;
+            print('参数错误。')
+&#13;
+            sys.exit()
+&#13;
+#verify(verify_yes_no)
+&#13;
+#print('正在删除……')
+&#13;
+#直接使用系统for
+&#13;
+#subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)
+&#13;
+#print('删除完成。')
+&#13;
+trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees
+&#13;
+#print(list(trees))
+&#13;
+path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"
+&#13;
+#print(path)
+&#13;
+if path:                                 #如果带路径
+&#13;
+    trees = #补齐路径
+&#13;
+#print(trees)
+&#13;
+def del_tree(proc):                     #删除文件夹函数
+&#13;
+    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹
+&#13;
+if __name__ == "__main__":
+&#13;
+    verify(verify_yes_no)
+&#13;
+    print('正在删除……')
+&#13;
+    with Pool(4) as p:                   #线程
+&#13;
+      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去
+&#13;
+    print('删除完成。')
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py
+&#13;
+仿deltree删除文件
+&#13;
+示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py /?
+&#13;
+仿deltree删除文件
+&#13;
+示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+n
+&#13;
+取消删除
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+h
+&#13;
+参数错误。
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+y
+&#13;
+正在删除……
+&#13;
+删除完成。
+&#13;
+D:\Python\Project01\deltree&gt;md D:\Downloads\aa\aa1
+&#13;
+D:\Python\Project01\deltree&gt;md D:\Downloads\aa\aa2
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa* y
+&#13;
+正在删除……
+&#13;
+删除完成。
+&#13;
+D:\Python\Project01\deltree&gt;</description>
+      <content:encoded><![CDATA[<p><b>Litccc: </b><br>
+<span>你应该去学硬件的，这样造轮子也没人会觉得你在做无用功</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>革萌 发表于 2019-7-11 23:16</span><br>
+<span>基本常识wildcard不是传给程序的值.....在cmd里会解释之后传给程序</span><br>
+<span>诶等等</span><br>
+<span>expand wildcard这个常识的设定应该是限定在常用的*unix的那些shell里吧</span><br>
+<span>cmd什么时候学会的？</span><br>
+</p><p><b>ykrank: </b><br>
+<span>挺适合做网管的，我见到的几个网管工作基本就是这种轮子了</span><br>
+</p><p><b>sykeash: </b><br>
+<span>everything匹配出来选一下删除不就得了… </span><br>
+</p><p><b>kaflash: </b><br>
+<span> 本帖最后由 kaflash 于 2019-7-12 09:52 编辑 </span><br>
+<span>不好好学习</span><br>
+<span>rd   命令就可以实现的。   还deltree</span><br>
+<span>难道还叫人家装个py的环境？明明直接可以实现的，还要绕个圈</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>用py直接删不行么？</span><br>
+</p><p><b>macos: </b><br>
+<span>kaflash 发表于 2019-7-12 09:50</span><br>
+<span>不好好学习</span><br>
+<span>rd   命令就可以实现的。   还deltree</span><br>
+<span>只有poweshell的rd能用通配符，powershell的实现并不完全相同，交互更丰富</span><br>
+</p><p><b>革萌: </b><br>
+<span>lwa190212 发表于 2019-7-12 08:59</span><br>
+<span>诶等等</span><br>
+<span>expand wildcard这个常识的设定应该是限定在常用的*unix的那些shell里吧</span><br>
+<span>cmd什么时候学会的？</span><br>
+<span>我错了 确实如此。windows的所有wildcard都是靠程序处理的........</span><br>
+</p><p><b>featherwit: </b><br>
+<span>我觉得楼主干的不错</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fsz1987 发表于 2019-7-12 00:48</span><br>
+<span>而且del本身是能删除文件夹的 好吧, 是我长久没用cmd记错了</span><br>
+<span>但我的结论不变</span><br>
+<span>deltree这 ...</span><br>
+<span>找到答案了</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>lz可以找点有意思的方面造点轮子</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>比如试试用python数据分析下动漫，游戏，av这些大家喜闻乐见的东西。比如我这个dmm封面人脸匹配 https://github.com/fqxufo/dmm_face_compare，你完全可以以这个为基础，实现个根据图片查女优/番号的服务出来</span><br>
+</p><p><b>xmcp: </b><br>
+<span>进来之前我还以为lz要用shutil.rmtree，</span><br>
+<span>结果竟然直接调用shell？？？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845983[50-100]</guid>
+    </item>
+    <item>
+      <title>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845983-1-1.html</link>
+      <description>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个&#13;
+ 本帖最后由 CAMUS.net 于 2019-7-11 23:17 编辑 
+
+import sys
+&#13;
+import subprocess
+&#13;
+print('正在删除……')
+&#13;
+#直接使用系统for
+&#13;
+subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)
+&#13;
+print('删除完成。')
+&#13;
+import os
+&#13;
+import re
+&#13;
+import sys
+&#13;
+import subprocess
+&#13;
+from multiprocessing import Pool
+&#13;
+trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees
+&#13;
+#print(list(trees))
+&#13;
+path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"
+&#13;
+#print(path)
+&#13;
+if path:                                 #如果带路径
+&#13;
+    trees = #补齐路径
+&#13;
+#print(trees)
+&#13;
+def del_tree(proc):                     #删除文件夹函数
+&#13;
+    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹
+&#13;
+if __name__ == "__main__":
+&#13;
+    print('正在删除……')
+&#13;
+    with Pool(4) as p:                   #线程
+&#13;
+      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去
+&#13;
+    print('删除完成。')
+&#13;
+import os
+&#13;
+import re
+&#13;
+import sys
+&#13;
+import subprocess
+&#13;
+from multiprocessing import Pool
+&#13;
+verify_yes_no = ""
+&#13;
+if len(sys.argv) == 1:
+&#13;
+    print("仿deltree删除文件夹\n"
+&#13;
+          r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')
+&#13;
+    sys.exit()
+&#13;
+elif len(sys.argv) == 2:
+&#13;
+    if sys.argv == '/?':
+&#13;
+      print("仿deltree删除文件夹\n"
+&#13;
+            r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')
+&#13;
+      sys.exit()
+&#13;
+elif len(sys.argv) == 3:
+&#13;
+    verify_yes_no = sys.argv
+&#13;
+    if verify_yes_no in ["y", "Y"]:
+&#13;
+      pass
+&#13;
+    elif verify_yes_no in ["n", "N"]:
+&#13;
+      print('取消删除')
+&#13;
+      sys.exit()
+&#13;
+    else:
+&#13;
+      print('输入参数错误。')
+&#13;
+      sys.exit()
+&#13;
+else:
+&#13;
+    print('输入参数错误。')
+&#13;
+    sys.exit()
+&#13;
+def verify(verify_yes_no):
+&#13;
+    if verify_yes_no in ["y", "Y"]:
+&#13;
+      return
+&#13;
+    else:
+&#13;
+      print('警告:\n', '确认要删除', sys.argv, "文件夹? Y/N")
+&#13;
+      verify_yes_no = input()
+&#13;
+      if verify_yes_no in ["y", "Y"]:
+&#13;
+            return
+&#13;
+      elif verify_yes_no in ["n", "N"]:
+&#13;
+            print('取消删除')
+&#13;
+            sys.exit()
+&#13;
+      else:
+&#13;
+            print('参数错误。')
+&#13;
+            sys.exit()
+&#13;
+#verify(verify_yes_no)
+&#13;
+#print('正在删除……')
+&#13;
+#直接使用系统for
+&#13;
+#subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)
+&#13;
+#print('删除完成。')
+&#13;
+trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees
+&#13;
+#print(list(trees))
+&#13;
+path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"
+&#13;
+#print(path)
+&#13;
+if path:                                 #如果带路径
+&#13;
+    trees = #补齐路径
+&#13;
+#print(trees)
+&#13;
+def del_tree(proc):                     #删除文件夹函数
+&#13;
+    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹
+&#13;
+if __name__ == "__main__":
+&#13;
+    verify(verify_yes_no)
+&#13;
+    print('正在删除……')
+&#13;
+    with Pool(4) as p:                   #线程
+&#13;
+      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去
+&#13;
+    print('删除完成。')
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py
+&#13;
+仿deltree删除文件
+&#13;
+示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py /?
+&#13;
+仿deltree删除文件
+&#13;
+示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+n
+&#13;
+取消删除
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+h
+&#13;
+参数错误。
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa*
+&#13;
+警告:
+&#13;
+ 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N
+&#13;
+y
+&#13;
+正在删除……
+&#13;
+删除完成。
+&#13;
+D:\Python\Project01\deltree&gt;md D:\Downloads\aa\aa1
+&#13;
+D:\Python\Project01\deltree&gt;md D:\Downloads\aa\aa2
+&#13;
+D:\Python\Project01\deltree&gt;deltree.py D:\Downloads\aa\aa* y
+&#13;
+正在删除……
+&#13;
+删除完成。
+&#13;
+D:\Python\Project01\deltree&gt;</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>Win7竟然没有deltree(批量删除文件夹轮子),我们来用python组装个</span><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-11 23:17 编辑 </span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>print('正在删除……')</span><br>
+<span>#直接使用系统for</span><br>
+<span>subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)</span><br>
+<span>print('删除完成。')</span><br>
+<span>import os</span><br>
+<span>import re</span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>from multiprocessing import Pool</span><br>
+<span>trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees</span><br>
+<span>#print(list(trees))</span><br>
+<span>path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"</span><br>
+<span>#print(path)</span><br>
+<span>if path:                                 #如果带路径</span><br>
+<span>    trees = #补齐路径</span><br>
+<span>#print(trees)</span><br>
+<span>def del_tree(proc):                     #删除文件夹函数</span><br>
+<span>    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    print('正在删除……')</span><br>
+<span>    with Pool(4) as p:                   #线程</span><br>
+<span>      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去</span><br>
+<span>    print('删除完成。')</span><br>
+<span>import os</span><br>
+<span>import re</span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>from multiprocessing import Pool</span><br>
+<span>verify_yes_no = ""</span><br>
+<span>if len(sys.argv) == 1:</span><br>
+<span>    print("仿deltree删除文件夹\n"</span><br>
+<span>          r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')</span><br>
+<span>    sys.exit()</span><br>
+<span>elif len(sys.argv) == 2:</span><br>
+<span>    if sys.argv == '/?':</span><br>
+<span>      print("仿deltree删除文件夹\n"</span><br>
+<span>            r'示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*')</span><br>
+<span>      sys.exit()</span><br>
+<span>elif len(sys.argv) == 3:</span><br>
+<span>    verify_yes_no = sys.argv</span><br>
+<span>    if verify_yes_no in ["y", "Y"]:</span><br>
+<span>      pass</span><br>
+<span>    elif verify_yes_no in ["n", "N"]:</span><br>
+<span>      print('取消删除')</span><br>
+<span>      sys.exit()</span><br>
+<span>    else:</span><br>
+<span>      print('输入参数错误。')</span><br>
+<span>      sys.exit()</span><br>
+<span>else:</span><br>
+<span>    print('输入参数错误。')</span><br>
+<span>    sys.exit()</span><br>
+<span>def verify(verify_yes_no):</span><br>
+<span>    if verify_yes_no in ["y", "Y"]:</span><br>
+<span>      return</span><br>
+<span>    else:</span><br>
+<span>      print('警告:\n', '确认要删除', sys.argv, "文件夹? Y/N")</span><br>
+<span>      verify_yes_no = input()</span><br>
+<span>      if verify_yes_no in ["y", "Y"]:</span><br>
+<span>            return</span><br>
+<span>      elif verify_yes_no in ["n", "N"]:</span><br>
+<span>            print('取消删除')</span><br>
+<span>            sys.exit()</span><br>
+<span>      else:</span><br>
+<span>            print('参数错误。')</span><br>
+<span>            sys.exit()</span><br>
+<span>#verify(verify_yes_no)</span><br>
+<span>#print('正在删除……')</span><br>
+<span>#直接使用系统for</span><br>
+<span>#subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)</span><br>
+<span>#print('删除完成。')</span><br>
+<span>trees = os.popen('dir {trees} /a:d /b'.format(trees=sys.argv)) #调用系统DIR，列出文件夹，并赋值给trees</span><br>
+<span>#print(list(trees))</span><br>
+<span>path = re.search('.*\\\\', sys.argv)#查询传入参数是否带路径，即是否有"\"，这是个坑"\"="\\\\"</span><br>
+<span>#print(path)</span><br>
+<span>if path:                                 #如果带路径</span><br>
+<span>    trees = #补齐路径</span><br>
+<span>#print(trees)</span><br>
+<span>def del_tree(proc):                     #删除文件夹函数</span><br>
+<span>    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    verify(verify_yes_no)</span><br>
+<span>    print('正在删除……')</span><br>
+<span>    with Pool(4) as p:                   #线程</span><br>
+<span>      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去</span><br>
+<span>    print('删除完成。')</span><br>
+<span>D:\Python\Project01\deltree>deltree.py</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*</span><br>
+<span>D:\Python\Project01\deltree>deltree.py /?</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*</span><br>
+<span>D:\Python\Project01\deltree>deltree.py D:\Downloads\aa\aa*</span><br>
+<span>警告:</span><br>
+<span> 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N</span><br>
+<span>n</span><br>
+<span>取消删除</span><br>
+<span>D:\Python\Project01\deltree>deltree.py D:\Downloads\aa\aa*</span><br>
+<span>警告:</span><br>
+<span> 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N</span><br>
+<span>h</span><br>
+<span>参数错误。</span><br>
+<span>D:\Python\Project01\deltree>deltree.py D:\Downloads\aa\aa*</span><br>
+<span>警告:</span><br>
+<span> 确认要删除 D:\Downloads\aa\aa* 文件夹? Y/N</span><br>
+<span>y</span><br>
+<span>正在删除……</span><br>
+<span>删除完成。</span><br>
+<span>D:\Python\Project01\deltree>md D:\Downloads\aa\aa1</span><br>
+<span>D:\Python\Project01\deltree>md D:\Downloads\aa\aa2</span><br>
+<span>D:\Python\Project01\deltree>deltree.py D:\Downloads\aa\aa* y</span><br>
+<span>正在删除……</span><br>
+<span>删除完成。</span><br>
+<span>D:\Python\Project01\deltree></span><br>
+</p><p><b>Timme: </b><br>
+<span>楼主贵庚</span><br>
+</p><p><b>7hil: </b><br>
+<span>bash 一个命令就搞定的东西…</span><br>
+</p><p><b>Prushka: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1804960-1-1.html</span><br>
+<span>油猴脚本 - S1帖子屏蔽器</span><br>
+<span>功能</span><br>
+<span>以四种条件屏蔽帖子列表中的帖子：主题关键字、主题分类、主题作者、投票主题</span><br>
+<span>页面内部更新时(下一页、新回复主题)重新过滤</span><br>
+<span>在UI上新增能暂时开关过滤功能的麻将脸</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>rmdir /s</span><br>
+</p><p><b>fsz1987: </b><br>
+<span>rmdir /s</span><br>
+<span>不就完了?</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>C:\Users>rd /?</span><br>
+<span>删除一个目录。</span><br>
+<span>RMDIR   path</span><br>
+<span>RD   path</span><br>
+<span>    /S      除目录本身外，还将删除指定目录下的所有子目录和</span><br>
+<span>            文件。用于删除目录树。</span><br>
+<span>    /Q      安静模式，带 /S 删除目录树时不要求确认</span><br>
+</p><p><b>guava: </b><br>
+<span> 本帖最后由 guava 于 2019-7-11 23:07 编辑 </span><br>
+<span>删掉~</span><br>
+</p><p><b>青菜子: </b><br>
+<span> 本帖最后由 青菜子 于 2019-7-11 22:05 编辑 </span><br>
+<span>谢谢四楼昨天找了没找到</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>help rd</span><br>
+<span>Removes (deletes) a directory.</span><br>
+<span>RMDIR   path</span><br>
+<span>RD   path</span><br>
+<span>    /S      Removes all directories and files in the specified directory</span><br>
+<span>            in addition to the directory itself.Used to remove a directory</span><br>
+<span>            tree.</span><br>
+<span>    /Q      Quiet mode, do not ask if ok to remove a directory tree with /S</span><br>
+</p><p><b>董卓: </b><br>
+<span>咦rd支持/s是哪个dos带进来的？6.2.2之前就有了吧？</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-11 22:27 编辑 </span><br>
+<span>其实大家都只看标题的吧</span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>print('正在删除……')</span><br>
+<span>#直接使用系统for</span><br>
+<span>subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)</span><br>
+<span>print('删除完成。')</span><br>
+<span>import os</span><br>
+<span>import re</span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>from multiprocessing import Pool</span><br>
+<span>def del_tree(proc):                     #删除文件夹函数</span><br>
+<span>    subprocess.run('rd /s /q "%s"' % proc, shell=True, check=True) #调用系统RD删除文件夹</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    verify(verify_yes_no)</span><br>
+<span>    print('正在删除……')</span><br>
+<span>    with Pool(4) as p:                   #线程</span><br>
+<span>      p.map(del_tree, trees)         #调用删除文件夹函数,并文件夹变量传递过去</span><br>
+<span>    print('删除完成。')</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>lwa190212 发表于 2019-7-11 22:03</span><br>
+<span>help rd</span><br>
+<span>Removes (deletes) a directory.</span><br>
+<span>D:\Python\Project01\deltree>deltree.py /?</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*</span><br>
+<span>明白？</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>lotsbiss 发表于 2019-7-11 21:57</span><br>
+<span>D:\Python\Project01\deltree>deltree.py /?</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件头）：deltree.py x:\abc*</span><br>
+<span>明白？</span><br>
+</p><p><b>startraveller: </b><br>
+<span>Powershell的Remove-item了解一下</span><br>
+</p><p><b>fdream923: </b><br>
+<span>LZ想自嗨还是继续回去画LOGO吧，虽然天赋也是约等于0，但依旧明显高于你写代码的水平</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>startraveller 发表于 2019-7-11 22:28</span><br>
+<span>Powershell的Remove-item了解一下</span><br>
+<span>python一招通吃bash和powershell不是很爽？</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>坚持5年 估计内部命令都被你重新造了一遍轮子</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-11 22:42 编辑 </span><br>
+<span>fdream923 发表于 2019-7-11 22:30</span><br>
+<span>LZ想自嗨还是继续回去画LOGO吧，虽然天赋也是约等于0，但依旧明显高于你写代码的水平</span><br>
+<span> ...</span><br>
+<span>就算讽刺我嘲笑，我也认真回答你的问题。</span><br>
+<span>rd 并没有完全实现deltree的功能</span><br>
+<span>dir /s /a:d 会显示完整路径，但会显示文件夹里的子文件夹，所以手动补路径。</span><br>
+<span>通过做这个，已经学会调用外部命令，将将外部命令输出结果收集起来，不用再去学bat->cmd->powershell了</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>python侠日日进化中</span><br>
+</p><p><b>lancasterliang: </b><br>
+<span>LOGO侠想兼职PYTHON侠吗？</span><br>
+</p><p><b>gimmlins: </b><br>
+<span>冲LZ活到老学到老的精神，好顶赞</span><br>
+</p><p><b>novem: </b><br>
+<span>我觉得楼主去学C++更有前途一点</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>楼主迁移到linux学习python吧。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>是的我承认我下意识小看py侠的需求了，下次一定小心</span><br>
+<span>等等，这么久远的东西记不清了，deltree原来是接受wildcards参数的吗？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>楼主群号多少，发出来大家一起赚</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span>果然又是你。。。。</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>革萌: </b><br>
+<span>lwa190212 发表于 2019-7-11 23:09</span><br>
+<span>是的我承认我下意识小看py侠的需求了，下次一定小心</span><br>
+<span>等等，这么久远的东西记不清了，deltree原来是 ...</span><br>
+<span>基本常识wildcard不是传给程序的值.....在cmd里会解释之后传给程序</span><br>
+</p><p><b>Existinghomes: </b><br>
+<span>我现在开始好奇python虾的发展走向了</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>又...又是樓主!?</span><br>
+</p><p><b>fdream923: </b><br>
+<span>CAMUS.net 发表于 2019-7-11 22:41</span><br>
+<span>就算讽刺我嘲笑，我也认真回答你的问题。</span><br>
+<span>rd 并没有完全实现deltree的功能</span><br>
+<span>dir /s /a:d 会显示完整路径， ...</span><br>
+<span>感谢你认真回答</span><br>
+<span>这么说吧，你列举的bat->cmd->powershell，包括python和其他脚本级语言都只是工具，目的是方便人拿起来直接用，节省时间，不是花时间绕一圈最后造个轮子。。。的套</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>我觉得Python 侠还是挺厉害的呀，每天都在进步。要是参加今年的强者大赛的话一定会投票给你</span><br>
+</p><p><b>schneehertz: </b><br>
+<span>轮子侠</span><br>
+<span>真这么闲的话研究些有用的轮子，别在这里闹笑话</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-12 00:45 编辑 </span><br>
+<span>fdream923 发表于 2019-7-11 23:45</span><br>
+<span>感谢你认真回答</span><br>
+<span>这么说吧，你列举的bat->cmd->powershell，包括python和其他脚本级语言都只是工具，目的 ...</span><br>
+<span>你有认真看别人说话？</span><br>
+<span>“rd 并没有完全实现deltree的功能”</span><br>
+<span>“D:\Python\Project01\deltree>deltree.py</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*”</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>schneehertz 发表于 2019-7-12 00:02</span><br>
+<span>轮子侠</span><br>
+<span>真这么闲的话研究些有用的轮子，别在这里闹笑话</span><br>
+<span>D:\Python\Project01\deltree>deltree.py</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*</span><br>
+<span>请问好笑在哪里？</span><br>
+</p><p><b>fsz1987: </b><br>
+<span> 本帖最后由 fsz1987 于 2019-7-12 01:06 编辑 </span><br>
+<span>CAMUS.net 发表于 2019-7-12 00:41</span><br>
+<span>D:\Python\Project01\deltree>deltree.py</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件夹）：deltree. ...</span><br>
+<span>del x:\abc*</span><br>
+<span>而且del本身是能删除文件夹的 好吧, 是我长久没用cmd记错了</span><br>
+<span>但我的结论不变</span><br>
+<span>deltree这个命令的消失本身就是因为其它命令已经足以完成同样的任务.</span><br>
+</p><p><b>革萌: </b><br>
+<span>虽然这么说python侠可能会不开心，但是显然这就像是军人交流打仗的时候，过来一个胖乎乎的军迷给大家讲**的组装方法。</span><br>
+<span>这么一大堆代码，并干不了什么事情，对自己也很难说有什么提高，系统封装其实已经很高级了，如果python侠能有由此看下rd对应的Windows API和对应的磁盘删除机理倒是可能会有提高，可是热衷与用很麻烦的方法解决不存在的问题的人一般都会避重就轻就是了</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fsz1987 发表于 2019-7-12 00:48</span><br>
+<span>另外del本身也是可以用来删除文件夹的╮(╯-╰)╭</span><br>
+<span>deltree这个命令的消失本身就是因为其它命令已经足以完 ...</span><br>
+<span>就不能实践一下，再发言？这个不是基本吗？</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>革萌 发表于 2019-7-12 00:49</span><br>
+<span>虽然这么说python侠可能会不开心，但是显然这就像是军人交流打仗的时候，过来一个胖乎乎的军迷给大家讲** ...</span><br>
+<span>我不知道你有没有看内容，所有的里面，还是rd实现的。</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fdream923 发表于 2019-7-11 23:45</span><br>
+<span>感谢你认真回答</span><br>
+<span>这么说吧，你列举的bat->cmd->powershell，包括python和其他脚本级语言都只是工具，目的 ...</span><br>
+<span>“D:\Python\Project01\deltree>deltree.py</span><br>
+<span>仿deltree删除文件</span><br>
+<span>示例（删除X盘下abc开头的文件夹）：deltree.py x:\abc*”</span><br>
+<span>就这个功能吧，请问要怎么才是方便人拿起来直接用，节省时间，不是花时间绕一圈最后造个轮子？</span><br>
+</p><p><b>fsz1987: </b><br>
+<span> 本帖最后由 fsz1987 于 2019-7-12 01:14 编辑 </span><br>
+<span>CAMUS.net 发表于 2019-7-12 00:54</span><br>
+<span>就不能实践一下，再发言？这个不是基本吗？</span><br>
+<span>del那个确实是我弄错了, 但我的结论不变.</span><br>
+<span>直接录入的命令行版</span><br>
+<span>for /d %f in (x:\abc*) do rd /s /q "%f"</span><br>
+<span>bat版</span><br>
+<span>for /d %%f in (x:\abc*) do rd /s /q "%%f"</span><br>
+<span>支持参数的bat版(除了没有删除前确认外和你那个同样功能)</span><br>
+<span>for /d %%f in (%1) do rd /s /q "%%f"</span><br>
+<span>对比你那冗长难维护的py代码你是系统管理员你愿意用哪个?</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fsz1987 发表于 2019-7-12 01:09</span><br>
+<span>del那个确实是我弄错了, 但我的结论不变.</span><br>
+<span>直接录入的命令行版</span><br>
+<span>在百度的时候，还不如认真看一下人家说话，有区别吗？</span><br>
+<span>import sys</span><br>
+<span>import subprocess</span><br>
+<span>print('正在删除……')</span><br>
+<span>#直接使用系统for</span><br>
+<span>subprocess.run('for /d %i in ({trees}) do rd /s /q "%i"'.format(trees=sys.argv), shell=True, check=True)</span><br>
+<span>print('删除完成。')</span><br>
+<span>那一堆IF是说明和防误操作，还有试一下4线程，也许可能快一点</span><br>
+</p><p><b>fsz1987: </b><br>
+<span> 本帖最后由 fsz1987 于 2019-7-12 01:48 编辑 </span><br>
+<span>CAMUS.net 发表于 2019-7-12 01:18</span><br>
+<span>在百度的时候，还不如认真看一下人家说话，有区别吗？</span><br>
+<span>好吧. 怪我没仔细看帖. </span><br>
+<span>虽然很久没写windows批处理了我也没必要靠百度这玩意. 看看for/?就够了.</span><br>
+<span>既然你会用for那py的意义又何在? 不过你py和命令行都会点那就好说话了.这里我就说3点.</span><br>
+<span>1. 学py多少会接触shell. 一个会shell和py的人做这种事首先应该想到的是使用已有的shell工具, 如shell本身能满足要求, 那么py就是多余的. 纯粹是无端的增加复杂度.</span><br>
+<span>2. 关于造轮子. 看你的三段代码你连py关于fs相关的api都不会用, 全是靠着调用外部命令.造这种轮子对你来说根本得不到什么提高. 真有兴趣靠造轮子提高自己的py水平去研究下几个容器的原理试着自己造. 或者多啃下py的doc比写这种玩意靠谱得多.</span><br>
+<span>3. 对fs的操作会说出还有试一下4线程，也许可能快一点这种话说明你对硬盘和文件系统的工作原理完全没概念. 这种事不要想当然. 多看书.</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fsz1987 发表于 2019-7-12 01:45</span><br>
+<span>好吧. 怪我没仔细看帖. </span><br>
+<span>虽然很久没写windows批处理了我也没必要靠百度这玩意. 看看for/?就够了.</span><br>
+<span> ...</span><br>
+<span>以下内容用BAT实现容易还是python容易，且代码更易懂？BAT的IF和GOTO是人用的吗？用py意义就在这里</span><br>
+<span>能输出说明</span><br>
+<span>deltree.py</span><br>
+<span>deltree.py /?</span><br>
+<span>能再次确认</span><br>
+<span>deltree.py xxx</span><br>
+<span>也可以直接静默操作</span><br>
+<span>deltree.py xxx y</span><br>
+</p><p><b>lhw369: </b><br>
+<span> 本帖最后由 lhw369 于 2019-7-12 03:19 编辑 </span><br>
+<span>Python牛逼</span><br>
+</p><p><b>一个好名字: </b><br>
+<span>楼主若把硬编码批处理脚本的部分改成调用python的库或者自己实现的轮子，估计喷的人会少些</span><br>
+</p><p><b>晴空怜: </b><br>
+<span>造轮子可以，能不用多线程么，这调4遍rd实在是...</span><br>
+</p><p><b>朝仓和美: </b><br>
+<span>既然楼主坚持认为有这种需求，你们还在和他争啥？</span><br>
+</p><p><b>macos: </b><br>
+<span>用了for，你要么别调用cmd，要么直接用cmd吧，各用一点很奇怪</span><br>
+</p><p><b>hanfze: </b><br>
+<span>全用python的话shutil+glob也能搞定，不需要调cmd吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845983[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10开机黑屏只有一个cmd，请问有什么解决办法吗...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10开机黑屏只有一个cmd，请问有什么解决办法吗...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:31:58 +0000</lastBuildDate>
+    <item>
+      <title>win10开机黑屏只有一个cmd，请问有什么解决办法吗...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1717652-1-1.html</link>
+      <description>win10开机黑屏只有一个cmd，请问有什么解决办法吗...&#13;
+ 本帖最后由 violettor 于 2018-6-25 11:45 编辑 
+
+可以通过敲explorer正常进入桌面，其他一切正常，虽然说不影响使用但是很闹心……
+&#13;
+初步判断是昨天发现运行不了cmd于是看网上的说法删了一个注册表（AutoRun什么什么的）导致的，但是用了网上恢复注册表的方法试了都没有效果。近期比较忙不敢轻易重装系统……有没有比较温和的解决办法呢？</description>
+      <content:encoded><![CDATA[<p><b>violettor: </b><br>
+<span>win10开机黑屏只有一个cmd，请问有什么解决办法吗...</span><br>
+<span> 本帖最后由 violettor 于 2018-6-25 11:45 编辑 </span><br>
+<span>可以通过敲explorer正常进入桌面，其他一切正常，虽然说不影响使用但是很闹心……</span><br>
+<span>初步判断是昨天发现运行不了cmd于是看网上的说法删了一个注册表（AutoRun什么什么的）导致的，但是用了网上恢复注册表的方法试了都没有效果。近期比较忙不敢轻易重装系统……有没有比较温和的解决办法呢？</span><br>
+</p><p><b>丹尼: </b><br>
+<span>再买一台电脑</span><br>
+</p><p><b>相互理解: </b><br>
+<span>运行 start "" cmd 就有两个 cmd 了</span><br>
+</p><p><b>VirMoe: </b><br>
+<span>覆盖安装，保留应用和设置。</span><br>
+</p><p><b>netplaying: </b><br>
+<span>新建一个账户</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>計劃啟動裏加上 explore.?</span><br>
+</p><p><b>violettor: </b><br>
+<span>gofbayrf 发表于 2018-6-25 16:55</span><br>
+<span>計劃啟動裏加上 explore.?</span><br>
+<span>依然不行 这么做的效果是开机cmd，依然要敲explorer，然后进桌面弹出我的电脑</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>很硬核了，有效杜绝别人玩电脑</span><br>
+</p><p><b>macos: </b><br>
+<span>桌面是由winlogon初始化的，正常是shell指定为explorer.exe</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>应该是删除了 logon 导致的，需要加回去，不知道怎么加的话找台正常的电脑看一下注册表</span><br>
+</p><p><b>cloudian: </b><br>
+<span>为什么感觉很带感，就这么用多酷啊。</span><br>
+<span>—— 来自 HUAWEI GRA-UL10, Android 6.0上的 S1Next-鹅版 v2.0</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>感觉好硬核</span><br>
+<span>—— 来自 Sony F5122, Android 8.0.0上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>yaoyiqun513: </b><br>
+<span>macos 发表于 2018-6-25 19:09</span><br>
+<span>桌面是由winlogon初始化的，正常是shell指定为explorer.exe</span><br>
+<span>这个应该是正解，不过这样有什么不好呢，如果你装了一个wsl，那么你不是就有了一个linux，完美</span><br>
+</p><p><b>violettor: </b><br>
+<span>一年了....这个问题依然每天困扰着我</span><br>
+<span>而且不知为何，我的Adobe系软件只要闲置超过1分钟必定死机，不知道和这个有没有关系。</span><br>
+</p><p><b>lwj8507: </b><br>
+<span>一年了还没重装系统。。。</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>violettor: </b><br>
+<span>lwj8507 发表于 2019-7-19 16:54</span><br>
+<span>一年了还没重装系统。。。</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+<span>几乎每天都要做图，各种软件都在C盘，不敢乱重装</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>闲置1分钟死机lz也能忍？</span><br>
+<span>买台新笔记本再慢慢迁移数据啊</span><br>
+</p><p><b>2659646573: </b><br>
+<span>长痛不如短痛啊，实在不行买个新硬盘装个系统呗，其他的一点一点弄过去</span><br>
+</p><p><b>changeek: </b><br>
+<span>win10吗？直接去msdn下个原版镜像升级安装，不好用的话还可以回滚嘛</span><br>
+<span>—— 来自 360 1809-A01, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>topgamer: </b><br>
+<span>数据导出备份然后重做系统吧</span><br>
+<span>总是死机也太影响使用了</span><br>
+</p><p><b>六尺之下: </b><br>
+<span>能忍一年……换做我就算熬个通宵也得重装系统</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>装个WIN10几分钟的事情纠结啥呢</span><br>
+</p><p><b>violettor: </b><br>
+<span>ramiel1 发表于 2019-7-19 22:54</span><br>
+<span>装个WIN10几分钟的事情纠结啥呢</span><br>
+<span>有什么办法能保住C盘文件的同时装win10吗...</span><br>
+<span>还有就是...自带的正版系统重装之后会变成盗版吗？没有重装过系统...</span><br>
+</p><p><b>乃木坂裕人: </b><br>
+<span>是不是有U盘没拔下来啊 拔了优盘重启下呗</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>给楼主的根性点赞</span><br>
+</p><p><b>King5268: </b><br>
+<span>violettor 发表于 2019-7-19 23:26</span><br>
+<span>有什么办法能保住C盘文件的同时装win10吗...</span><br>
+<span>还有就是...自带的正版系统重装之后会变成盗版吗？没有重装 ...</span><br>
+<span>可以去某宝买个win10激活码</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>violettor 发表于 2019-7-19 08:26</span><br>
+<span>有什么办法能保住C盘文件的同时装win10吗...</span><br>
+<span>还有就是...自带的正版系统重装之后会变成盗版吗？没有重装 ...</span><br>
+<span>设置->更新和安全->恢复->重置此电脑->保留我的文件</span><br>
+<span>安装的软件会被删掉</span><br>
+</p><p><b>violettor: </b><br>
+<span>捣鼓了一下午总算是一次排查清楚了</span><br>
+<span>第一个问题，开机cmd，参考了这个网站终于解决了https://linustechtips.com/main/topic/860115-solved-windows-10-black-screen-with-system32-cmd-prompt/?page=2</span><br>
+<span>I'm sorry for reviving this thread, but I found the ACTUAL solution to this problem, as opposed to just reinstalling Windows. Since this thread comes up near the top of Google results for this issue, I think it can actually help people.</span><br>
+<span>The answer is to open the registry editor (press Start and type regedit) and check the registry location below for a key called 'Shell'. For people experiencing this problem the key is there and it has a value of %comspec%. For people with healthy systems, that key isn't there. So simply delete the key and reboot!HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon</span><br>
+<span>There is also a 'Shell' key in the registry location below, and that one SHOULD be there, and its values SHOULD be explorer.exe.HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</span><br>
+<span>I hope this helps someone some day, and saves them the headache of having to reinstall/reset/refresh Windows.</span><br>
+<span>按照操作删除了注册表果然没问题了！</span><br>
+<span>第二个问题，Adobe蓝屏。果不其然是搜狗输入法的问题（去年我chrome几次崩溃都说是搜狗输入法不兼容，当时没引起注意）。卸载之后用回微软自家输入法，虽然还要适应但是不影响做图了。</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>原来白漂王的论坛还真的能帮到人。</span><br>
+<span>可喜可贺。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1717652[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>压力测试工具如何保证Http request会准时触发？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>压力测试工具如何保证Http request会准时触发？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:24 +0000</lastBuildDate>
+    <item>
+      <title>压力测试工具如何保证Http request会准时触发？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857730-1-1.html</link>
+      <description>压力测试工具如何保证Http request会准时触发？&#13;
+       我自己用多线程写的时候在思考一个问题，压力测试工具的压力都是逐渐上升的，比如目标是500，加速度是100每秒，但是加到300之后，本机已经无力一秒处理完300个Http request（Locust好像发现RPM在266左右就上不去了），那么下一秒这些工具是怎么操作的？发送300个request之后装模作样等一秒？            
+&#13;
+       另外除了用多台服务器之外，有什么办法把这个上限抬高吗？比如重写Requests类？</description>
+      <content:encoded><![CDATA[<p><b>义亦死吾亦死: </b><br>
+<span>压力测试工具如何保证Http request会准时触发？</span><br>
+<span>       我自己用多线程写的时候在思考一个问题，压力测试工具的压力都是逐渐上升的，比如目标是500，加速度是100每秒，但是加到300之后，本机已经无力一秒处理完300个Http request（Locust好像发现RPM在266左右就上不去了），那么下一秒这些工具是怎么操作的？发送300个request之后装模作样等一秒？            </span><br>
+<span>       另外除了用多台服务器之外，有什么办法把这个上限抬高吗？比如重写Requests类？</span><br>
+</p><p><b>董卓: </b><br>
+<span>啥意思？难道发压侧是同步嗯？</span><br>
+<span>不是开线程池或者暴力直接300个线程上压力的么？</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span> 本帖最后由 义亦死吾亦死 于 2019-10-4 08:55 编辑 </span><br>
+<span>董卓 发表于 2019-10-4 08:46</span><br>
+<span>啥意思？难道发压侧是同步嗯？</span><br>
+<span>不是开线程池或者暴力直接300个线程上压力的么？ ...</span><br>
+<span>是开线程池，但是如果发压测一秒钟之内处理不完怎么办？我还要写逻辑去验证response的正确性，感觉会进一步降低速度。</span><br>
+</p><p><b>攻心为上木之本: </b><br>
+<span>所以判定很复杂么？流行的异步http client都能单核发10k qps吧，在好点机器上1m qps也能发出来。</span><br>
+<span>首先考虑网络环境和系统参数是不是没设置好？然后考虑能否通过检查测试完成后的状态确认测试是否通过，最后才是加机器吧。</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ohi: </b><br>
+<span>300个请求就处理不了，这是什么极品服务器。一般发送请求的是另外一台机器，而且应该是linux环境。</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span> 本帖最后由 义亦死吾亦死 于 2019-10-4 10:29 编辑 </span><br>
+<span>ohi 发表于 2019-10-4 09:55</span><br>
+<span>300个请求就处理不了，这是什么极品服务器。一般发送请求的是另外一台机器，而且应该是linux环境。 ...</span><br>
+<span>windows系统，locust web模式，加压和承压都是本机，还开了二十多个网页，就一个8g内存的老公牌笔记本……</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>义亦死吾亦死 发表于 2019-10-4 10:21</span><br>
+<span>windows系统，locust web模式，加压和承压都是本机，还开了二十多个网页，就一个8g内存的老公牌笔记本… ...</span><br>
+<span>这种测试没意义</span><br>
+<span>就好比你做了件航母模型下水成功，然后宣称自己能做航母了</span><br>
+</p><p><b>董卓: </b><br>
+<span>义亦死吾亦死 发表于 2019-10-4 08:53</span><br>
+<span>是开线程池，但是如果发压测一秒钟之内处理不完怎么办？我还要写逻辑去验证response的正确性，感觉会进一 ...</span><br>
+<span>异步线程暴力点么就直接一直开下去呗</span><br>
+<span>每秒起300个，包括http连接和验证返回都在一个线程里面</span><br>
+<span>最多给个上限累了20000个线程都没处理完那么就说明服务器太慢了</span><br>
+<span>还是说你觉得客户端做的验证会慢过网络通信？验证逻辑都在本地的话，不可能逻辑慢于网络io的</span><br>
+</p><p><b>解体诸因: </b><br>
+<span>我之前就写了个js for loop timeout这样简单测测就好了</span><br>
+</p><p><b>frosta: </b><br>
+<span>就多开几个服务器就够了吧…</span><br>
+<span>— from samsung SM-G975U, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>epoll多路复用</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857730[0-50]</guid>
+    </item>
+  </channel>
+</rss>

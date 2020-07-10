@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>想学编程做一点小工具，如何入手</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>想学编程做一点小工具，如何入手</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:44:50 +0000</lastBuildDate>
+    <item>
+      <title>想学编程做一点小工具，如何入手[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839848-1-1.html</link>
+      <description>想学编程做一点小工具，如何入手&#13;
+ 本帖最后由 fhja 于 2019-6-16 12:29 编辑 
+
+这个归外野应该没问题吧。
+&#13;
+基础：参加过OI，当时是pascal
+&#13;
+目标：数据整理，office文件内容提取，网页自动填表提交，也可以给客户端自动填表（公司系统既有客户端也有网页）。顺便做做比如爬虫什么的。考虑到可能要别人来用，最好可以方便搞出图形界面的。别太慢就好，一般遇到数据量比较大吧，条目数在几千到十万级不等（这么一说好像也不是很大），但是公司电脑性能大概是10年前水平（我记得好像是酷睿dual什么的）
+&#13;
+问题：
+&#13;
+1 从哪个编程语言开始入手比较好？
+&#13;
+2 有没有推荐书籍文档？或者说从哪开始学？学习路线？
+&#13;
+3 我最搞不清的就是程序员们是怎么找轮子和装轮子的？目前连GIT和GITHUB怎么玩都没明白
+&#13;
+先谢过了_____________________________________
+&#13;
+谢谢前几楼的推荐，不过我重点不是爬虫啊，虽然爬虫也想去做。
+&#13;
+举个实际的例子，拿到一个EXCEL文档，从里面提取数据进行计算后，填到网页里面提交，可能要提交几百次。
+&#13;
+加上爬虫的话，就是从A系统的网页里面直接抓数据，然后计算并填到B系统的网页端里面。
+&#13;
+规则比较复杂（有些要靠人为判断），所以没有直接做到系统里面，现在是手工操作的，但是我想起码有一部分可以实现自动化。
+&#13;
+爬虫的事情其实是自己收集资料用的，和工作关系不大，学的优先级靠后一点吧</description>
+      <content:encoded><![CDATA[<p><b>fhja: </b><br>
+<span>想学编程做一点小工具，如何入手</span><br>
+<span> 本帖最后由 fhja 于 2019-6-16 12:29 编辑 </span><br>
+<span>这个归外野应该没问题吧。</span><br>
+<span>基础：参加过OI，当时是pascal</span><br>
+<span>目标：数据整理，office文件内容提取，网页自动填表提交，也可以给客户端自动填表（公司系统既有客户端也有网页）。顺便做做比如爬虫什么的。考虑到可能要别人来用，最好可以方便搞出图形界面的。别太慢就好，一般遇到数据量比较大吧，条目数在几千到十万级不等（这么一说好像也不是很大），但是公司电脑性能大概是10年前水平（我记得好像是酷睿dual什么的）</span><br>
+<span>问题：</span><br>
+<span>1 从哪个编程语言开始入手比较好？</span><br>
+<span>2 有没有推荐书籍文档？或者说从哪开始学？学习路线？</span><br>
+<span>3 我最搞不清的就是程序员们是怎么找轮子和装轮子的？目前连GIT和GITHUB怎么玩都没明白</span><br>
+<span>先谢过了_____________________________________</span><br>
+<span>谢谢前几楼的推荐，不过我重点不是爬虫啊，虽然爬虫也想去做。</span><br>
+<span>举个实际的例子，拿到一个EXCEL文档，从里面提取数据进行计算后，填到网页里面提交，可能要提交几百次。</span><br>
+<span>加上爬虫的话，就是从A系统的网页里面直接抓数据，然后计算并填到B系统的网页端里面。</span><br>
+<span>规则比较复杂（有些要靠人为判断），所以没有直接做到系统里面，现在是手工操作的，但是我想起码有一部分可以实现自动化。</span><br>
+<span>爬虫的事情其实是自己收集资料用的，和工作关系不大，学的优先级靠后一点吧</span><br>
+</p><p><b>無想の風: </b><br>
+<span>爬虫感觉好多人用Python做得挺好的</span><br>
+</p><p><b>Prushka: </b><br>
+<span>v2ex上看见的一个网站：Crawlab</span><br>
+<span>基于 Celery 的爬虫分布式爬虫管理平台，支持多种编程语言以及多种爬虫框架.</span><br>
+<span>Github: https://github.com/tikazyq/crawlab</span><br>
+</p><p><b>GTNP: </b><br>
+<span>觉得你要不要试试看quicker？虽然不是编程，但是直接用自带的高级动作模块也能实现不少需求，甚至是爬虫。</span><br>
+<span>有些自带模块没有的功能可以通过写powershell脚本之类的补充。</span><br>
+<span>关键是，不用画GUI了。。</span><br>
+<span>https://getquicker.net/</span><br>
+</p><p><b>xyzzy: </b><br>
+<span>AutoIt，使用说明。</span><br>
+</p><p><b>远野四季: </b><br>
+<span>做过一个差不多的，用的R shiny</span><br>
+</p><p><b>schneehertz: </b><br>
+<span>起点是excel建议先看看能不能用VBA，虽然VBA很傻逼，但是不用搭环境还是有优势的</span><br>
+<span>复杂一点的考虑electron或者网页应用，node的轮子不少，写gui也比Python的要友好一些</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wingmanwn: </b><br>
+<span>不懂，但网上python的教程很多，学习选择余地大点</span><br>
+</p><p><b>blueshift: </b><br>
+<span>用pandas和webdriver+selenium+beautifulsoup应该可以实现。十万级数据用R已经比较慢了。</span><br>
+</p><p><b>zeppeli: </b><br>
+<span>python</span><br>
+</p><p><b>weakiwi: </b><br>
+<span>office的话可以先搜搜各种库的支持情况，有些貌似只能03或者07，再高就不行了</span><br>
+<span>—— 来自 Xiaomi Redmi 4, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mimighost: </b><br>
+<span>举个实际的例子，拿到一个EXCEL文档，从里面提取数据进行计算后，填到网页里面提交，可能要提交几百次。</span><br>
+<span>加上爬虫的话，就是从A系统的网页里面直接抓数据，然后计算并填到B系统的网页端里面。</span><br>
+<span>规则比较复杂（有些要靠人为判断），所以没有直接做到系统里面，现在是手工操作的，但是我想起码有一部分可以实现自动化。</span><br>
+<span>1. 解析excel这个，如果是csv这种简单的还好办，如果本身带有很复杂的逻辑和功能的话，要正确的解析还真不是很简单。这一步其实变数最大</span><br>
+<span>2. 提取数据这个你可以随便搞，几百行不用任何库都可以</span><br>
+<span>3. 网页提交这个用selenium可以搞，把xpath什么的找出来，扔进去就行了。</span><br>
+</p><p><b>batrain: </b><br>
+<span>我投python一票</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>javaweb+kafka+storm+mongodb</span><br>
+</p><p><b>fhja: </b><br>
+<span>谢谢各位的回复，你们讲的东西我要一个一个去了解一下。恕不能逐一回复。</span><br>
+</p><p><b>fhja: </b><br>
+<span>schneehertz 发表于 2019-6-16 12:54</span><br>
+<span>起点是excel建议先看看能不能用VBA，虽然VBA很傻逼，但是不用搭环境还是有优势的</span><br>
+<span>复杂一点的考虑electron ...</span><br>
+<span>最初倒是学了一点VBA，但是它不能脱离office独立运行吧？</span><br>
+<span>而且有MS有WPS还有Libre（公司应该没人用这玩意不过也不敢保证），传给别人再用不知道能不能保证兼容性。我自己就只有WPS</span><br>
+<span>网页应用也是一样，不想开浏览器才能用（浏览器一般经常开着好几个页面常驻着，处理其他任务的时候我一般把浏览器关了来保证可怜的可用内存多一点</span><br>
+</p><p><b>最后的法芙娜: </b><br>
+<span>java或者python吧</span><br>
+</p><p><b>真田丸: </b><br>
+<span>python + flask</span><br>
+</p><p><b>雷之: </b><br>
+<span>学那个在这里看到的，程序把文件发给印度人，然后你就收到了结果这是人工智能（迫真）</span><br>
+</p><p><b>第五人格: </b><br>
+<span>用Flask来处理Excel？楼上无脑吹Python能不能有个限度</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>中间的是逻辑，是个语言就能搞定，后面的填表提交了解一下 selenium 和 dom 的知识很快就能上手</span><br>
+<span>什么 framework 什么 db 等业务复杂经验上去了再说吧</span><br>
+<span>excel 这一关感觉确实挺蛋疼的，纯文件的话应该还行，反正都是 xml，应该有库可调？</span><br>
+</p><p><b>w酱: </b><br>
+<span>方便的excel图形界面 请上c# + epplus或者reogrid ，拽两下就是个表格gui，后面跟python交互一下跑爬虫爽的要死</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-16 22:17 编辑 </span><br>
+<span>公司系统，就是公司自己的系统？用爬虫采集，然后用网页自动填表录入？</span><br>
+<span>一个业务系统，就是第三方业务系统（例如顺丰批量下单），也至少有最起码最基本的批量导入导出吧，例如固定格式的CSV导入导出。</span><br>
+<span>要做的，就是Excel做好固定格式的表，另存为CSV，导入。</span><br>
+<span>要是连这个都没有，大不了打开数据库里直接导入导出CSV，从入门到删库。</span><br>
+</p><p><b>fhja: </b><br>
+<span>CAMUS.net 发表于 2019-6-16 22:13</span><br>
+<span>公司系统，就是公司自己的系统？用爬虫采集，然后用网页自动填表录入？</span><br>
+<span>一个业务系统，就是第三方业务系统 ...</span><br>
+<span>你就当没有好了，一言难尽</span><br>
+<span>而且原始数据也不一定是从系统中得到的，有手工录入的，也有别人做过处理的（加了各种公式）</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>借楼问一下，一直想做个涩图APP，学flutter就是为这个。现在flutter的示例项目都学完了，感觉可以干了，但是我该怎么在网站不提供API的情况下拿到图片地址列表呢？因为我从来没写过前端所以也不太清楚怎么从网页前端代码里找对应的东西。</span><br>
+</p><p><b>fhja: </b><br>
+<span>mimighost 发表于 2019-6-16 17:03</span><br>
+<span>1. 解析excel这个，如果是csv这种简单的还好办，如果本身带有很复杂的逻辑和功能的话，要正确的解析还真 ...</span><br>
+<span>应该也不会太复杂</span><br>
+<span>里面有些单元格是公式，需要取得最终值，</span><br>
+<span>还要知道单元格颜色、字体颜色，再复杂一点可能还需要读一下数据透视表</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-16 23:43 编辑 </span><br>
+<span>fhja 发表于 2019-6-16 22:56</span><br>
+<span>你就当没有好了，一言难尽</span><br>
+<span>而且原始数据也不一定是从系统中得到的，有手工录入的，也有别人做过处 ...</span><br>
+<span>复制Excel公式单元格，粘贴到网页上，点提交，还能将公式原样保存在数据库里不成？难道不是只复制公式得出的数字？</span><br>
+<span>要做的，只是各种地方的来的数据，做好Excel统一格式的表，另存CSV，批量导入系统。</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fhja 发表于 2019-6-16 23:00</span><br>
+<span>应该也不会太复杂</span><br>
+<span>里面有些单元格是公式，需要取得最终值，</span><br>
+<span>还要知道单元格颜色、字体颜色，再复杂一点可 ...</span><br>
+<span>按楼主的思路，自动化录入。</span><br>
+<span>有两种方式：</span><br>
+<span>1、网页自动填表提交：浏览器自动化puppeteer（JS）、Selenium（C#、JAVA、JS、Python、Ruby）</span><br>
+<span>2、客户端自动填表：AutoIt、AutoHotkey、pywinauto、按键精灵等等</span><br>
+<span>第一步：将各种要录入系统的乱七八糟的表，录入到一个固定格式的Excel表。</span><br>
+<span>第二步：自动化工具读入Excel第一条记录</span><br>
+<span>第三步：自动化工具动作将Excel第一条记录各项逐一录入对应位置，提交。</span><br>
+<span>第四步：循环第二三步，直接读到最后一条记录。</span><br>
+<span>等等，做好了固定格式的Excel（CSV）表，不是可以直接导入了数据库了？</span><br>
+</p><p><b>冰比冰水冰: </b><br>
+<span> 本帖最后由 冰比冰水冰 于 2019-6-17 00:56 编辑 </span><br>
+<span>如果要做数据分析啥的，做数据库的，一定要学vba和axxx么，忘记怎么拼了？有更好的选择么？</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>洗刷刷 发表于 2019-06-16 22:59:16</span><br>
+<span>借楼问一下，一直想做个涩图APP，学flutter就是为这个。现在flutter的示例项目都学完了，感觉可以干了，但 ...手写json文件</span><br>
+<span>flutter去请求json文件呗</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>fhja: </b><br>
+<span>CAMUS.net 发表于 2019-6-17 00:40</span><br>
+<span>按楼主的思路，自动化录入。</span><br>
+<span>有两种方式：</span><br>
+<span>1、网页自动填表提交：浏览器自动化puppeteer（JS）、Selenium ...</span><br>
+<span>我没有数据库权限啦，只有一个网页端可以用</span><br>
+<span>而且对接的不光是公司的系统，还要客户的SRM（怪我描述不清</span><br>
+<span>客户端没有提供接口的情况下好像也只能模拟按键了么</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>洗刷刷 发表于 2019-6-16 22:59</span><br>
+<span>借楼问一下，一直想做个涩图APP，学flutter就是为这个。现在flutter的示例项目都学完了，感觉可以干了，但 ...</span><br>
+<span>在网页上复制图片地址可以看到链接。如果要做爬虫而且图片地址没有规律，那就只能把网页下载下来然后解析html</span><br>
+</p><p><b>fufusako: </b><br>
+<span>这个python确实能做到，我很久之前写过功能相反的爬虫，就是网页动态提交抓到excel里，想也差不多</span><br>
+<span>应该是Selenium、PhantomJS交互网页，BeautifulSoup整理，xlrd等等一套处理excel</span><br>
+<span>有编程基础的话，python学习就是半小时学个语法，然后用啥库补啥库</span><br>
+</p><p><b>化肥会挥发: </b><br>
+<span>读取Excel 可以用office 自己的interop ，或者用基于微软家的openxml(超难用)的closedxml。然后逻辑端进行计算。填到网页里，对性能要求不高可以用selenium ，否则要用httprequest的post。</span><br>
+<span>----发送自 Xiaomi Mi MIX 3,Android 9</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> fhja 发表于 2019-6-17 07:13</span><br>
+<span>我没有数据库权限啦，只有一个网页端可以用</span><br>
+<span>而且对接的不光是公司的系统，还要客户的SRM（怪我描 ...</span><br>
+<span>不会真想直接操作数据库，我的意思是做批量导入模板，在网页或客户端批量批入导入而已。</span><br>
+<span>例如发多个快递，用顺丰提供导入模板做好Excel，打开顺丰网页，点批量下单，上传Excel。</span><br>
+<span>又公司的系统，又客户的SRM，不会连个批量导入功能都没有吧。在想这个，还不如问一下技术，一句话的事。</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>python，</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>化肥会挥发 发表于 2019-6-17 07:47</span><br>
+<span>读取Excel 可以用office 自己的interop ，或者用基于微软家的openxml(超难用)的closedxml。然后逻辑端进行 ...</span><br>
+<span>搜了一下， Microsoft Office Interop Excel ，是C#带的，这样不是直接用C#最好？反正selenium也可以用C#。</span><br>
+<span>没有搜到python使用的Microsoft Office Interop Excel的方法，难道是因为版权？</span><br>
+<span>这不是又要学C#，C#调用python，python调用C#，从一个坑到另外一个坑，从另外一个坑又回到第一个坑，无穷无尽的坑。算了，还是用CSV，反正导入数据库也是固定的表。</span><br>
+</p><p><b>d2loader: </b><br>
+<span>python有读excel库的，但是格式一复杂就不太好用</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>葡萄牙的高山: </b><br>
+<span>楼主学html吗？sublime text不错</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839848[0-50]</guid>
+    </item>
+  </channel>
+</rss>

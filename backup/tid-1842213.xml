@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一些关于蓝牙音频的豆知识</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一些关于蓝牙音频的豆知识</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:30:14 +0000</lastBuildDate>
+    <item>
+      <title>一些关于蓝牙音频的豆知识[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842213-1-1.html</link>
+      <description>一些关于蓝牙音频的豆知识&#13;
+ 本帖最后由 shahito 于 2019-6-26 11:12 编辑 
+
+最近看到两篇关于蓝牙文章：
+&#13;
+https://habr.com/en/post/456182/
+&#13;
+https://habr.com/en/post/456476/
+&#13;
+感觉作者应该是这方面的作家，开头一句说：
+&#13;
+Bluetooth device manufacturers rarely disclose detailed product specifications, and Bluetooth audio articles on the Internet are contradictory and sometimes incorrect. They do not tell about all the features, and often publish the same false information.
+&#13;
+然后文章中讲了一些蓝牙音频相关的内容，感觉绝大部分人可能都不知道，或者有误解。因为文章比较长，而且知识点很多，我只说一些我影响比较深的：
+&#13;
+1、蓝牙5里面其实有两个模式，一个是以前的，一个是 Low Energy 模式。以前的那个模式在5.0里基本没什么改变。传输音频只能通过前者（后者标准里还没说怎么通过这个模式传输音频）。所以有蓝牙音频设备用了5.0说提高了传播范围、减少了功耗都是假的，其实和蓝牙4的设备没什么区别。
+&#13;
+2、SBC 比实际大家认为和误导里的要好。码率低的原因是因为 A2DP 标准里推荐了一个值（会作用码率），大家都使用这个值，但是其实设备可以用更大的值改善音质（当然这要耳机厂商和系统都支持），还有一个原因是 A2DP的设计有点问题，所以也加剧了这个问题。另外 sbc 有些方法可以直接提高传输码率。现在在最新版的 LineageOS 上（后续可能 Linux 也会有），蓝牙设备的音质都回提升，绝大部分时候远优于 aptX。15年后有蓝牙认证的设备，码率会更高，和 aptx hd 旗鼓相当的程度。
+&#13;
+3、LDAC 只是稍微（slightly better ）比 aptX HD 好一点（虽然感觉大家应该都知道了），市场营销氛围很重。
+&#13;
+4、在 Android 手机上不推荐用 AAC，因为很多 Android 手机上的 AAC 解码器很差，导致音质很差。国外测了一些旗舰手机， 某款P开头型号的手机，AAC音质垫底。在苹果手机上，AAC 音质最好。所以 AAC 只推荐在 iOS 设备在用。
+&#13;
+5、看的出来苹果的硬件和系统无论是 SBC 还是 AAC，都做得蛮好的，比其他的一些用心。
+&#13;
+6、推荐买蓝牙认证的音频设备，因为有可能设备厂商瞎搞。
+&#13;
+7、用蓝牙音频设备通话音质其实很差。因为运行的模式和听音乐的不一样。
+&#13;
+虽然文章没怎么说，但是我从文章整体的理解来看，其实苹果设备不支持 aptX HD 或者 LDAC 可能不是什么问题，前两者其实并没有那些想象中比 SBC 好很多的那种程度，尤其是现在更是如此了。所以其实苹果用 AAC 可能音质和其他的并没有什么太大的区别，而且不用交钱。
+&#13;
+另外有一个网站可以让你AB一下这些区别（没有LDAC） 。https://btcodecs.valdikss.org.ru/sbc-encoder/ 大家可以试试。(里面SBC Channel Mode 设置成 Dual，Bitpool 选 47，就是上文说到能和 aptX HD 不相上下的那个）</description>
+      <content:encoded><![CDATA[<p><b>shahito: </b><br>
+<span>一些关于蓝牙音频的豆知识</span><br>
+<span> 本帖最后由 shahito 于 2019-6-26 11:12 编辑 </span><br>
+<span>最近看到两篇关于蓝牙文章：</span><br>
+<span>https://habr.com/en/post/456182/</span><br>
+<span>https://habr.com/en/post/456476/</span><br>
+<span>感觉作者应该是这方面的作家，开头一句说：</span><br>
+<span>Bluetooth device manufacturers rarely disclose detailed product specifications, and Bluetooth audio articles on the Internet are contradictory and sometimes incorrect. They do not tell about all the features, and often publish the same false information.</span><br>
+<span>然后文章中讲了一些蓝牙音频相关的内容，感觉绝大部分人可能都不知道，或者有误解。因为文章比较长，而且知识点很多，我只说一些我影响比较深的：</span><br>
+<span>1、蓝牙5里面其实有两个模式，一个是以前的，一个是 Low Energy 模式。以前的那个模式在5.0里基本没什么改变。传输音频只能通过前者（后者标准里还没说怎么通过这个模式传输音频）。所以有蓝牙音频设备用了5.0说提高了传播范围、减少了功耗都是假的，其实和蓝牙4的设备没什么区别。</span><br>
+<span>2、SBC 比实际大家认为和误导里的要好。码率低的原因是因为 A2DP 标准里推荐了一个值（会作用码率），大家都使用这个值，但是其实设备可以用更大的值改善音质（当然这要耳机厂商和系统都支持），还有一个原因是 A2DP的设计有点问题，所以也加剧了这个问题。另外 sbc 有些方法可以直接提高传输码率。现在在最新版的 LineageOS 上（后续可能 Linux 也会有），蓝牙设备的音质都回提升，绝大部分时候远优于 aptX。15年后有蓝牙认证的设备，码率会更高，和 aptx hd 旗鼓相当的程度。</span><br>
+<span>3、LDAC 只是稍微（slightly better ）比 aptX HD 好一点（虽然感觉大家应该都知道了），市场营销氛围很重。</span><br>
+<span>4、在 Android 手机上不推荐用 AAC，因为很多 Android 手机上的 AAC 解码器很差，导致音质很差。国外测了一些旗舰手机， 某款P开头型号的手机，AAC音质垫底。在苹果手机上，AAC 音质最好。所以 AAC 只推荐在 iOS 设备在用。</span><br>
+<span>5、看的出来苹果的硬件和系统无论是 SBC 还是 AAC，都做得蛮好的，比其他的一些用心。</span><br>
+<span>6、推荐买蓝牙认证的音频设备，因为有可能设备厂商瞎搞。</span><br>
+<span>7、用蓝牙音频设备通话音质其实很差。因为运行的模式和听音乐的不一样。</span><br>
+<span>虽然文章没怎么说，但是我从文章整体的理解来看，其实苹果设备不支持 aptX HD 或者 LDAC 可能不是什么问题，前两者其实并没有那些想象中比 SBC 好很多的那种程度，尤其是现在更是如此了。所以其实苹果用 AAC 可能音质和其他的并没有什么太大的区别，而且不用交钱。</span><br>
+<span>另外有一个网站可以让你AB一下这些区别（没有LDAC） 。https://btcodecs.valdikss.org.ru/sbc-encoder/ 大家可以试试。(里面SBC Channel Mode 设置成 Dual，Bitpool 选 47，就是上文说到能和 aptX HD 不相上下的那个）</span><br>
+</p><p><b>starash: </b><br>
+<span> 本帖最后由 starash 于 2019-6-26 08:55 编辑 </span><br>
+<span>我感觉楼主要被说倒垃圾。</span><br>
+<span>好吧, 大概是这段时间混外野被巨魔污染了</span><br>
+<span>破处区除了一些知名ID外还是比较学术的. </span><br>
+</p><p><b>samfs: </b><br>
+<span>我感觉内容不垃圾啊，要是能有些数据什么的就更好了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>第二条和第六条的蓝牙认证说的是同一个东西？</span><br>
+</p><p><b>starash: </b><br>
+<span> 本帖最后由 starash 于 2019-6-26 08:38 编辑 </span><br>
+<span>typeunknown 发表于 2019-6-26 07:13</span><br>
+<span>第二条和第六条的蓝牙认证说的是同一个东西？</span><br>
+<span>一个是信号源一个是接收端. </span><br>
+</p><p><b>starash: </b><br>
+<span>samfs 发表于 2019-6-26 07:09</span><br>
+<span>我感觉内容不垃圾啊，要是能有些数据什么的就更好了</span><br>
+<span>原文的数据给得很足很清晰, 而且易读性高. </span><br>
+<span>有时间建议一读. </span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-6-26 08:40 编辑 </span><br>
+<span>最恶心的是某些国产手机把蓝牙砍到只有sbc和aac，我很难相信这种情况下sbc能有多出色的表现。</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>可能是sony aac做的不认真？</span><br>
+<span>xm2在iphone上和android上，ldac比aac的解析提升感觉还蛮明显的....</span><br>
+</p><p><b>starash: </b><br>
+<span> 本帖最后由 starash 于 2019-6-26 09:10 编辑 </span><br>
+<span>lixianfyss 发表于 2019-6-26 08:39</span><br>
+<span>最恶心的是某些国产手机把蓝牙砍到只有sbc和aac，我很难相信这种情况下sbc能有多出色的表现。 ...</span><br>
+<span>   SBC codec is OK SBC码足够用了(前提是用高码率编码);</span><br>
+<span>    Headphones have their own per-codec equalizer and post processing configuration耳机都自带预解码均衡器(所以这里是网页解码的方式做的测试);</span><br>
+<span>    aptX is not as good as the advertisements say aptx(包括HD等)不如宣称那样好;</span><br>
+<span>    LDAC is a marketing fluff LDAC就是个宣传噱头;</span><br>
+<span>    Voice audio quality is still low 通话音质已经low了十几年了;</span><br>
+<span>    Browsers are able to execute audio encoders compiled to WebAssembly from C using emscripten, and they won't even lag.</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>aptx hd和ldac的对比评测有么</span><br>
+</p><p><b>starash: </b><br>
+<span>matthewsteel 发表于 2019-6-26 08:50</span><br>
+<span>可能是sony aac做的不认真？</span><br>
+<span>xm2在iphone上和android上，ldac比aac的解析提升感觉还蛮明显的.... ...</span><br>
+<span>有个恶意的猜测是反正安卓的AAC输出都是屎, 那耳机的AAC解码也就随便做做</span><br>
+<span>现在的卖点是LDAC. </span><br>
+</p><p><b>laotoutou: </b><br>
+<span>pc平台sbc的发射端编码和什么有关？</span><br>
+<span>和蓝牙发射器还是播放软件？</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>SBC 你倒是让我设置个高码率啊！</span><br>
+<span>手机上，很多时候码率和抽样率都是不可调节的 锁死44mhz和16bit</span><br>
+</p><p><b>利物浦: </b><br>
+<span>6、不推荐买没蓝牙认证的音频设备，因为有可能设备厂商瞎搞。</span><br>
+<span>主楼这里应该是写错了吧</span><br>
+</p><p><b>solaris40: </b><br>
+<span>AAC解码差怎么来的？这年头有不用库，自己写的解码？</span><br>
+</p><p><b>starash: </b><br>
+<span>solaris40 发表于 2019-6-26 09:15</span><br>
+<span>AAC解码差怎么来的？这年头有不用库，自己写的解码？</span><br>
+<span>Headphones have their own per-codec equalizer and post processing configuration</span><br>
+</p><p><b>利物浦: </b><br>
+<span>蓝牙语音还是不清晰，记得还是因为根上没人动，语音通话采样率就8khz好像 所以蓝牙HFP采用的还是万年没变的CVSD或mSBC。。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>倒是自己打开网页看一看呀</span><br>
+<img src="https://habrastorage.org/getpro/habr/post_images/80d/70f/e89/80d70fe89844c47aa58f3e1e24c3223e.jpg" title="https://habrastorage.org/getpro/habr/post_images/80d/70f/e89/80d70fe89844c47aa58f3e1e24c3223e.jpg"><br>
+<span>一目了然，编码器就算一样又如何，参数又不是全限定的，这里明显是不同的lowpass设定</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>蓝牙耳机太贵了，魅族小米华为荣耀这些什么阿猫阿狗开个手机发布会都能卖500块以上的蓝牙耳机</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>对了，还有个牌子吹骨传导的傻吊，艹他妹的这骨传导不是给残障人士用的吗</span><br>
+</p><p><b>starash: </b><br>
+<span>lwa190212 发表于 2019-6-26 09:38</span><br>
+<span>倒是自己打开网页看一看呀</span><br>
+<span>一目了然，编码器就算一样又如何，参数又不是全限定的，这里明显是不同的lowpas ...</span><br>
+<span>https://www.soundguys.com/the-ultimate-guide-to-bluetooth-headphones-aac-20296/</span><br>
+<span>关于AAC差异的看这个吧. </span><br>
+</p><p><b>typeunknown: </b><br>
+<span>AAC is the only Bluetooth codec that makes uses of psychoacoustic modeling to transmit data, so it’s a very processing-heavy codec compared to SBC or aptX.</span><br>
+<span>这是爱疯一天n冲的原因之一么</span><br>
+<span>还有前端对蓝牙音质有没有影响这个问题不用再争了吧</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-6-26 10:24 编辑 </span><br>
+<span>starash 发表于 2019-6-26 08:53</span><br>
+<span>SBC codec is OK SBC码足够用了(前提是用高码率编码);</span><br>
+<span>    Headphones have their own per-codec equal ...</span><br>
+<span>那怎么控制sbc的码率？我感觉连aptx都砍的厂家并不会给你这个选项。</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>lixianfyss 发表于 2019-6-26 10:21</span><br>
+<span>那怎么控制sbc的码率？我感觉连aptx都砍的厂家并不会给你这个选项。</span><br>
+<span>安卓开发者选项</span><br>
+</p><p><b>starash: </b><br>
+<span> 本帖最后由 starash 于 2019-6-26 10:35 编辑 </span><br>
+<span>lixianfyss 发表于 2019-6-26 10:21</span><br>
+<span>那怎么控制sbc的码率？我感觉连aptx都砍的厂家并不会给你这个选项。</span><br>
+<span>没得选, 而且根据实测一些(旗舰)机型的aptx/HD/LDAC甚至还不如自己的SBC输出... </span><br>
+<span>算了反正我木耳, 只要不是爆音尖噪啥的就当不知道吧. </span><br>
+<span>上面说开发者选项的哪里?</span><br>
+<span>开发者选项里只有采样率和位数, 没有码率啊. </span><br>
+</p><p><b>King5268: </b><br>
+<span>用过各种蓝牙耳机，Sony的10RBT+Sounder蜂巢APTX适配器（服役至今，电脑用真的好），BOSE的Soundsport(除了运动时不往下掉之外几乎没有任何亮点)，后来用到Sony的m2bt1蓝牙线+n3ap(挂脖子的蓝牙线还是算了，真的影响活动)，最后用到现在的夏新F9，这个一百多块的F9反而是最满意的，除了麦克风垃圾，信号天然有点延迟之外没有任何缺点，毕竟价格在这里</span><br>
+</p><p><b>shahito: </b><br>
+<span>typeunknown 发表于 2019-6-26 07:13</span><br>
+<span>第二条和第六条的蓝牙认证说的是同一个东西？</span><br>
+<span>我第六条写错了，是推荐买蓝牙认证的设备，不推荐买非蓝牙认证过多的设备。比如说那种设备包装和设备上没有蓝牙logo的、设备上没有蓝色led闪光灯、设备和包装上没写蓝牙字（没写Bluetooth而写Wireless，BT）。</span><br>
+</p><p><b>shahito: </b><br>
+<span>呃，原本发帖的时候，第六点我写错了，希望不会误导了很多人。</span><br>
+<span>我第六条写错了，原文是推荐买蓝牙认证的设备，不推荐买非蓝牙认证过多的设备。没蓝牙认证的那种设备很多包装和设备上没有蓝牙logo的、设备上没有蓝色led闪光灯、设备和包装上没写蓝牙字（没写Bluetooth而写Wireless，BT）。没有这些标记的设备表明这些设备没有经过蓝牙认证，有可能没有很好的遵守A2DP之类的规范。</span><br>
+</p><p><b>shahito: </b><br>
+<span>观铃の使魔 发表于 2019-6-26 08:54</span><br>
+<span>aptx hd和ldac的对比评测有么</span><br>
+<span>因为没有免费的 LDAC 编码器，所以补好做对比评测，原文里引用的文章有有人用数字输出录下了 LDAC，然后进行了比较，然后得出了 LDAC 比 aptX HD 好一些的结论。</span><br>
+<span>那个引用的文章是这个 https://www.soundguys.com/ldac-ultimate-bluetooth-guide-20026/</span><br>
+</p><p><b>shahito: </b><br>
+<span>matthewsteel 发表于 2019-6-26 08:50</span><br>
+<span>可能是sony aac做的不认真？</span><br>
+<span>xm2在iphone上和android上，ldac比aac的解析提升感觉还蛮明显的.... ...</span><br>
+<span>不太清楚，除非有专家专门研究过是什么原因，不然很难说这个具体的原因是什么。不过也有可能 LDAC 的确比 AAC 的好。follow your 听感。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>shahito 发表于 2019-6-26 11:09</span><br>
+<span>因为没有免费的 LDAC 编码器，所以补好做对比评测，原文里引用的文章有有人用数字输出录下了 LDAC，然后 ...</span><br>
+<span>https://android.googlesource.com/platform/external/libldac</span><br>
+<span>https://github.com/EHfive/ldacBT</span><br>
+</p><p><b>shahito: </b><br>
+<span>lwa190212 发表于 2019-6-26 11:16</span><br>
+<span>https://android.googlesource.com/platform/external/libldac</span><br>
+<span>https://github.com/EHfive/ldacBT</span><br>
+<span>我有错，原文是说解码器，我脑补成了编码器…因为没有解码器，所以不好排除设备的那些均衡器和其他的处理功能，也不好在电脑上对比声谱图。</span><br>
+<span>> Since the LDAC software decoder is not freely available, it is not possible to test the codec without additional devices that decode LDAC. According to the results of the LDAC test on the DAC with its support, which SoundGuys.com engineers connected via the digital output and recorded the output sound of the test signals, the LDAC 660 and 990 kbit/s in CD quality mode provides a signal-to-noise ratio slightly better than that of aptX HD. This is a good result.</span><br>
+<span>比如说现在的一些开源项目都是支持 LDAC 编码，但是不支持解码：</span><br>
+<span>https://github.com/EHfive/pulseaudio-modules-bt</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>starash 发表于 2019-6-26 10:30</span><br>
+<span>没得选, 而且根据实测一些(旗舰)机型的aptx/HD/LDAC甚至还不如自己的SBC输出... </span><br>
+<span>算了反正我木耳, 只要不 ...</span><br>
+<span>对，开发者选项里面没有码率可选。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>shahito 发表于 2019-6-26 11:41</span><br>
+<span>我有错，原文是说解码器，我脑补成了编码器…因为没有解码器，所以不好排除设备的那些均衡器和其 ...</span><br>
+<span>翻了下src原来真的没有decoder，sony好鸡贼</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>我看还得加一句，以上这些和坛里使用99真香的没有任何关联，该用AAC就用AAC</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>利物浦: </b><br>
+<span>lwa190212 发表于 2019-6-26 12:13</span><br>
+<span>翻了下src原来真的没有decoder，sony好鸡贼</span><br>
+<span>毕竟耳机是终端产品，所以编码器安卓随便用啦，解码还得靠我耳机</span><br>
+</p><p><b>迷路的: </b><br>
+<span>shahito 发表于 2019-6-26 11:09</span><br>
+<span>因为没有免费的 LDAC 编码器，所以补好做对比评测，原文里引用的文章有有人用数字输出录下了 LDAC，然后 ...</span><br>
+<span>这篇文章解释了为啥LDAC会有如此糟糕的稳定性与耗电表现。</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>你看mp3很多都注明了320k，什么时候SBC也标个？</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>SBC理论上确实如文章所说，但是实际到手机和蓝牙耳机产品上没有这样的操作，而且这个编码相比其它来说性能低下也是客观事实吧</span><br>
+</p><p><b>datzz: </b><br>
+<span>好也好不到哪去 差也差不到哪去嘛</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>因为发射和接受设备</span><br>
+<span>实际情况还是</span><br>
+<span>SBC最弱鸡</span><br>
+<span>AAC 稍微能听 优点是耳机续航会久 配合骚尼的DSEE HX会有改善</span><br>
+<span>APTX 凑合听</span><br>
+<span>APTX LL 延迟最低 不过发射和接收都支持的设备不多,我这里只在谷粒发射器+一个蓝牙接收器上体验过</span><br>
+<span>APTX-HD 和 LDAC差距是很小,我AB过,LDAC的低音区域会更好一点,LDAC比较耗电,如果AAC可以续航9小时,LDAC续航只有7小时.</span><br>
+<span>另:那种3.5转蓝牙发射器的玩意别买,太垃圾了,发射的APTX-HD,还不如直接走USB信道的APTX</span><br>
+</p><p><b>消亡值语义: </b><br>
+<span>LineageOS才能调节SBC？那对一般的安卓来说用不了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>消亡值语义 发表于 2019-6-26 21:22</span><br>
+<span>LineageOS才能调节SBC？那对一般的安卓来说用不了</span><br>
+<span>而且耳机接收端又改不了，怀疑实际效果到底怎样</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842213[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Foobar2000 ASIO 输出问题求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Foobar2000 ASIO 输出问题求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:07:53 +0000</lastBuildDate>
+    <item>
+      <title>Foobar2000 ASIO 输出问题求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855293-1-1.html</link>
+      <description>Foobar2000 ASIO 输出问题求助&#13;
+ 本帖最后由 Montana 于 2019-8-22 23:22 编辑 
+
+之前板载声卡坏了，于是入了个二手的乐之邦03 plus
+&#13;
+试了试，用Foobar2000的DS输出没问题，用WASAPI输出也没问题
+&#13;
+但是用ASIO输出的时候，必须手动在系统控制面板里设置采样率（如下图），使之与音乐文件的采样率相同，不然就没法播放
+&#13;
+https://s2.ax1x.com/2019/08/22/m0OoZt.jpg
+&#13;
+例如，如果控制面板里设置成96000Hz，放44100Hz的音乐就会提示：Could not set sample rate to 44100 Hz
+&#13;
+https://s2.ax1x.com/2019/08/22/m0O5qI.jpg
+&#13;
+是不是我哪里设置不对...求问有没有解决办法</description>
+      <content:encoded><![CDATA[<p><b>Montana: </b><br>
+<span>Foobar2000 ASIO 输出问题求助</span><br>
+<span> 本帖最后由 Montana 于 2019-8-22 23:22 编辑 </span><br>
+<span>之前板载声卡坏了，于是入了个二手的乐之邦03 plus</span><br>
+<span>试了试，用Foobar2000的DS输出没问题，用WASAPI输出也没问题</span><br>
+<span>但是用ASIO输出的时候，必须手动在系统控制面板里设置采样率（如下图），使之与音乐文件的采样率相同，不然就没法播放</span><br>
+<img src="https://s2.ax1x.com/2019/08/22/m0OoZt.jpg" title="https://s2.ax1x.com/2019/08/22/m0OoZt.jpg"><br>
+<span>例如，如果控制面板里设置成96000Hz，放44100Hz的音乐就会提示：Could not set sample rate to 44100 Hz</span><br>
+<img src="https://s2.ax1x.com/2019/08/22/m0O5qI.jpg" title="https://s2.ax1x.com/2019/08/22/m0O5qI.jpg"><br>
+<span>是不是我哪里设置不对...求问有没有解决办法</span><br>
+</p><p><b>Yerish: </b><br>
+<span>以前用06mx的时候没遇过类似的问题。</span><br>
+<span>但我记得如果设为系统默认扬声器，然后fb2k里面选asio输出，fb2k在放歌时，还有软件在播放音频，是会出问题的，打开乐之邦的驱动会看到asio和WASAPI有冲突。</span><br>
+<span>把系统默认扬声器换成别的，只用fb2k的asio输出应该没问题。</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>你用SSRC插件给他resamole到96khz试试看。</span><br>
+<span>强制指定sample rate 如果驱动里面不提供src 那不经转换肯定不行</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Rosetta: </b><br>
+<span>窮邦03P的話，建議就這麼使用wasapi就得了。</span><br>
+<span>如果一定要用asio，就要去bios關閉secure boot，關閉系統的強制驅動簽名驗證，然後安裝窮邦的驅動。</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>dsp插件里有个src的，加上就好了</span><br>
+</p><p><b>kane123: </b><br>
+<span>我想问这个外接声卡真的对音乐播放效果有提升吗</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>滚犊子: </b><br>
+<span>我用一体机也遇到你这个问题，怎么弄都没搞定，最后放弃了PCHIFI…</span><br>
+</p><p><b>Montana: </b><br>
+<span>Yerish 发表于 2019-8-23 04:24</span><br>
+<span>以前用06mx的时候没遇过类似的问题。</span><br>
+<span>但我记得如果设为系统默认扬声器，然后fb2k里面选asio输出，fb2k在放 ...</span><br>
+<span>感谢，解决了，的确是冲突的问题，把默认播放设备切成别的就好了</span><br>
+<span>不过还是好奇原本是哪个程序在播放音频...听上去是没有在播放，但是驱动里面会显示wave IN USE</span><br>
+</p><p><b>Montana: </b><br>
+<span>kane123 发表于 2019-8-23 10:17</span><br>
+<span>我想问这个外接声卡真的对音乐播放效果有提升吗</span><br>
+<span>----发送自 STAGE1 App for Android. ...</span><br>
+<span>看评测说这个DAC对音响提升大一些，但是我拿到这个的那天我的左音响正好坏了</span><br>
+<span>如果拿我的廉价的耳机来比的话，感觉大概是用DAC输出的时候比用HDMI输出要“带感”一些（我集成声卡坏了，之前用的是显卡HDMI音频输出）</span><br>
+<span>譬如，听渡口的话会感觉开头鼓声更弹一些....然后还有一些说不出来的感觉</span><br>
+<span>不过我觉得播放效果提升大概来源如下：脑放 90% DAC 5% 大音量 5%</span><br>
+</p><p><b>Yerish: </b><br>
+<span>Montana 发表于 2019-8-23 10:21</span><br>
+<span>感谢，解决了，的确是冲突的问题，把默认播放设备切成别的就好了</span><br>
+<span>不过还是好奇原本是哪个程序在播放音频. ...</span><br>
+<span>我之前一直都是浏览器的问题，即便没有网页在播放音频</span><br>
+<span>以及其实我觉得asio和wasapi输出声音区别不是特别明显，虽然为了脑放我听歌都是asio输出。就穷帮这个配合自家superdsp各种问题的驱动，fb2k设wasapi输出其实挺省心的。我另一块岛国砖接pc当dac的时候，走xmos就没出过问题</span><br>
+</p><p><b>ft5555: </b><br>
+<span> 本帖最后由 ft5555 于 2019-8-23 12:09 编辑 </span><br>
+<span>Yerish 发表于 2019-8-23 11:41</span><br>
+<span>我之前一直都是浏览器的问题，即便没有网页在播放音频</span><br>
+<span>以及其实我觉得asio和wasapi输出声音区别不是特别 ...</span><br>
+<span>superdsp是不是自研值得讨论</span><br>
+<span>至少现在他们在各种解码线上用的dsp230 是盛威家芯片打磨的</span><br>
+<span>asio跟wasapi声音区别在win10上是这样的：</span><br>
+<span>asio声场比wasapi小，纵深感不明显。前者适合音箱 后者适合耳机</span><br>
+<span>wasapi推送比wasapi事件 低频量明显大。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>Montana 发表于 2019-8-23 10:42</span><br>
+<span>看评测说这个DAC对音响提升大一些，但是我拿到这个的那天我的左音响正好坏了</span><br>
+<span>如果拿我的廉价的耳 ...</span><br>
+<span>03plus模拟输出一般吧，当初卖698 跟别家比综合功能和音质 性价比并不出色。</span><br>
+<span>毕竟是cs4398芯片，高频解析力天生不如现在的主流芯片。</span><br>
+<span>最大的弱点的中高频缺乏密度。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855293[0-50]</guid>
+    </item>
+  </channel>
+</rss>

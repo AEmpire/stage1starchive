@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>看到有人提起改版KOF，我也想跟人合作改98了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>看到有人提起改版KOF，我也想跟人合作改98了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:43:06 +0000</lastBuildDate>
+    <item>
+      <title>看到有人提起改版KOF，我也想跟人合作改98了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859189-1-1.html</link>
+      <description>看到有人提起改版KOF，我也想跟人合作改98了&#13;
+ 本帖最后由 exellen 于 2019-10-13 12:34 编辑 
+
+認識了會寫代碼、志同道合的友人，打算改個KOF98來自娛娛樂，也不指望廣泛流傳就是了。你們幫我審一下，改成這樣子如何？我主要負責策劃，整個遊戲改版目前還在構思中。遊戲是基於拳皇98的界面以及基本都是98的結構，配上某些97的東西。
+&#13;
+首先Extra模式被刪除掉，改成了Advance1跟Advance2模式。遊戲基本改變如下：
+&#13;
+1）削除了跑步的動作，所有的前前後後都比照原本的Extra模式的踏步模式。
+&#13;
+2）超必殺技必須廢三氣，但是發出來的超比必然是Max超殺。
+&#13;
+3）Advance1跟2的差別是角色的一些特殊變化。比方八神，Advance1是有三顆氣時，按下ABC鍵在有限的時間內（比方原本Advance模式暴氣的時間長度，這個還沒想好）會變身成97的瘋狂八神，Advance2則是一口氣消費兩顆氣，然後使出Max八酒杯。
+&#13;
+4）滾動迴避跟吹飛攻擊取消，但是緊急迴避跟剛CD保留，花一氣。
+&#13;
+5）無論第幾局、無論前面戰敗了多少個隊友，每個角色能用的氣上限就是三氣。
+&#13;
+6）取消大跳小跳系統，跳的方法就只剩下一個：平常跳。
+&#13;
+7）漲氣速度變慢，可能會參考無印02的漲氣速度。
+&#13;
+8）普通投的指令改成方向加BCD，並且沒中的話有失敗動作。同樣，解投也變成BCD，有解投失敗的動作。但是投的傷害因此上升，作為指令變複雜的補償。
+&#13;
+9）按下挑釁會有特殊動作，比方八神是削風，京是夜摘（龍射/伏虎），命中對手的話會比較有效地漲氣。
+&#13;
+10）會出現一些簡易連段，比方八神的C-&gt;夢彈的連段改成連打C便可發出。
+&#13;
+11）導入連段傷害修正，輕攻擊起手的連段傷害修正最大。
+&#13;
+12）調整波的發生幀數，比方雅典娜調整成10幀發生，不利幀-7（這個還沒真正想好，會依據試玩情況調整）
+&#13;
+麻煩各位幫我評論一下，看看什麼地方再改進比較好。</description>
+      <content:encoded><![CDATA[<p><b>exellen: </b><br>
+<span>看到有人提起改版KOF，我也想跟人合作改98了</span><br>
+<span> 本帖最后由 exellen 于 2019-10-13 12:34 编辑 </span><br>
+<span>認識了會寫代碼、志同道合的友人，打算改個KOF98來自娛娛樂，也不指望廣泛流傳就是了。你們幫我審一下，改成這樣子如何？我主要負責策劃，整個遊戲改版目前還在構思中。遊戲是基於拳皇98的界面以及基本都是98的結構，配上某些97的東西。</span><br>
+<span>首先Extra模式被刪除掉，改成了Advance1跟Advance2模式。遊戲基本改變如下：</span><br>
+<span>1）削除了跑步的動作，所有的前前後後都比照原本的Extra模式的踏步模式。</span><br>
+<span>2）超必殺技必須廢三氣，但是發出來的超比必然是Max超殺。</span><br>
+<span>3）Advance1跟2的差別是角色的一些特殊變化。比方八神，Advance1是有三顆氣時，按下ABC鍵在有限的時間內（比方原本Advance模式暴氣的時間長度，這個還沒想好）會變身成97的瘋狂八神，Advance2則是一口氣消費兩顆氣，然後使出Max八酒杯。</span><br>
+<span>4）滾動迴避跟吹飛攻擊取消，但是緊急迴避跟剛CD保留，花一氣。</span><br>
+<span>5）無論第幾局、無論前面戰敗了多少個隊友，每個角色能用的氣上限就是三氣。</span><br>
+<span>6）取消大跳小跳系統，跳的方法就只剩下一個：平常跳。</span><br>
+<span>7）漲氣速度變慢，可能會參考無印02的漲氣速度。</span><br>
+<span>8）普通投的指令改成方向加BCD，並且沒中的話有失敗動作。同樣，解投也變成BCD，有解投失敗的動作。但是投的傷害因此上升，作為指令變複雜的補償。</span><br>
+<span>9）按下挑釁會有特殊動作，比方八神是削風，京是夜摘（龍射/伏虎），命中對手的話會比較有效地漲氣。</span><br>
+<span>10）會出現一些簡易連段，比方八神的C->夢彈的連段改成連打C便可發出。</span><br>
+<span>11）導入連段傷害修正，輕攻擊起手的連段傷害修正最大。</span><br>
+<span>12）調整波的發生幀數，比方雅典娜調整成10幀發生，不利幀-7（這個還沒真正想好，會依據試玩情況調整）</span><br>
+<span>麻煩各位幫我評論一下，看看什麼地方再改進比較好。</span><br>
+</p><p><b>空罐子: </b><br>
+<span>有98UM为什么还改普通版98？</span><br>
+</p><p><b>exellen: </b><br>
+<span>空罐子 发表于 2019-10-12 22:54</span><br>
+<span>有98UM为什么还改普通版98？</span><br>
+<span>兩個字：情懷。</span><br>
+<span>98UM很多東西都不一樣了，沒那種熟悉的感覺。</span><br>
+</p><p><b>风夏: </b><br>
+<span>我觉得台妈大概不是台湾人</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 9</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>没有大小跳的kof还不如去玩街霸</span><br>
+</p><p><b>black: </b><br>
+<span>楼主不是东南亚（三声）的么？</span><br>
+</p><p><b>hagenda4: </b><br>
+<span>exellen 发表于 2019-10-12 22:59</span><br>
+<span>兩個字：情懷。</span><br>
+<span>98UM很多東西都不一樣了，沒那種熟悉的感覺。</span><br>
+<span>那你都改成这样了 跟情怀也没啥关系啊。。。</span><br>
+</p><p><b>不可避免: </b><br>
+<span>不好评判，各种改动好或是不好没有一个基准。需要楼主先把每一处修改的设计意图是为了什么说出来，不然很多改动没法评价</span><br>
+</p><p><b>hootao: </b><br>
+<span>您这根本就不是kof 98，平衡性一坨，还不如直接给终极街霸4加个跑动，再打个kof的mod算了</span><br>
+<span>我举个例来说，kof 98里角色的跳跃高度和时间是不固定的，没了中小跳，只有大跳，那么类似神乐千鹤，雅典娜这种跳跃高度特别高，浮空时间特别长的角色，干脆最好删除上键，不然升龙一吃一个准。就算跳跃速度和高度都一般性能的角色，没有小跳跳入快速近身手段的，遇到波升流强角，一样会连衣角都摸不到</span><br>
+<span>—— 来自 OPPO PCAM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>thegoldblade: </b><br>
+<span>取消大小跳和跑步…楼主到底会不会玩98？</span><br>
+</p><p><b>hootao: </b><br>
+<span>比如稍微会那么一点的雅典娜玩家，都是只发波不推前的:拉开距离手段是442B 特殊技，速度比谁都快，对手一跳入一个623A，对空判定比谁都高，对手没了小跳入对策，波升能恶心到对方砸摇杆</span><br>
+<span>—— 来自 OPPO PCAM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>boom33: </b><br>
+<span>取消跑步喷了，去玩街霸2不好吗</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>kraxia: </b><br>
+<span>台妈这无非就是想用街霸系统打拳皇……建议直接CVS2</span><br>
+</p><p><b>keiko: </b><br>
+<span>exellen 发表于 2019-10-12 22:59</span><br>
+<span>兩個字：情懷。</span><br>
+<span>98UM很多東西都不一樣了，沒那種熟悉的感覺。</span><br>
+<span>你这改完，也没有熟悉得感觉了</span><br>
+</p><p><b>掘墓人: </b><br>
+<span>kraxia 发表于 2019-10-13 09:52</span><br>
+<span>台妈这无非就是想用街霸系统打拳皇……建议直接CVS2</span><br>
+<span>对了歪楼问一下，CVS系列怎样才能玩到？现在似乎没啥简单点的模拟器</span><br>
+<span>—— 来自 Xiaomi MIX 3, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>exellen: </b><br>
+<span> 本帖最后由 exellen 于 2019-10-13 12:35 编辑 </span><br>
+<span>hootao 发表于 2019-10-13 08:14</span><br>
+<span>您这根本就不是kof 98，平衡性一坨，还不如直接给终极街霸4加个跑动，再打个kof的mod算了</span><br>
+<span>這個早有想到，因此在波的發生幀數、彈射速度、收手幀數方面會根據實際情況調整。比方雅典娜發波十二幀發生的話，整個情況就不一樣了。</span><br>
+</p><p><b>明神武之死: </b><br>
+<span>不是 删大小跳本身的意义在哪 还要再额外改波的性能就为了配合删大小跳？</span><br>
+<span>不如我也问问CVS哪个版本容易玩 好像就GC的版本模拟起来还不错</span><br>
+</p><p><b>猫坤: </b><br>
+<span>人家98C是往爽了改，只有你越改越憋屈</span><br>
+</p><p><b>マテリア: </b><br>
+<span>好好一个kof改成波升游戏。</span><br>
+<span>没了小跳，很多角色普通跳jajb命中落地也接不上连段，跳ab键可以删了。</span><br>
+<span>大跳也没，那就是普通跳判定最强几个角色横着走了。</span><br>
+</p><p><b>macos: </b><br>
+<span>取消大小跳，这不成街霸了</span><br>
+</p><p><b>exellen: </b><br>
+<span>明神武之死 发表于 2019-10-13 13:53</span><br>
+<span>不是 删大小跳本身的意义在哪 还要再额外改波的性能就为了配合删大小跳？</span><br>
+<span>不如我也问问CVS哪个版本容易玩...</span><br>
+<span>刪大小跳主要的原因是提高進攻成本，讓拼命進攻的想法不成立，必須更注重立回跟防守方面的功夫。</span><br>
+</p><p><b>orcher1945: </b><br>
+<span>exellen 发表于 2019-10-12 22:59</span><br>
+<span>兩個字：情懷。</span><br>
+<span>98UM很多東西都不一樣了，沒那種熟悉的感覺。</span><br>
+<span>你都把原版魔改成那样了也配说情怀和熟悉的感觉？</span><br>
+</p><p><b>永远的海格力斯: </b><br>
+<span>不是有MUGEN么</span><br>
+</p><p><b>hootao: </b><br>
+<span>exellen 发表于 2019-10-13 12:25</span><br>
+<span>這個早有想到，因此在波的發生幀數、彈射速度、收手幀數方面會根據實際情況調整。比方雅典娜發波十二幀發 ...</span><br>
+<span>您可以试一下98画风的mugen</span><br>
+</p><p><b>KYO(T): </b><br>
+<span>1、这么改出来的“98”不会有别人玩</span><br>
+<span>2、如果是改给自己玩就不需要别人的意见</span><br>
+</p><p><b>托米: </b><br>
+<span>您这自high版本直接自己爽就完事了，何必征询别人的意见</span><br>
+</p><p><b>量产失败型: </b><br>
+<span>全改成EX小跳步?好啊,橄榄球66236P飞遍全场勿要太美</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>只负责策划，意思是只出一张嘴？</span><br>
+</p><p><b>狗兄弟: </b><br>
+<span>这确实是按照街霸的打法改98</span><br>
+</p><p><b>血之暴走: </b><br>
+<span>不，这是瞎JB改，街霸有6个键的拳脚</span><br>
+<span>拳皇才四个，地面搞不出花样，才在跳跃的种类上做文章往空中发展</span><br>
+</p><p><b>exellen: </b><br>
+<span>血之暴走 发表于 2019-10-13 23:28</span><br>
+<span>不，这是瞎JB改，街霸有6个键的拳脚</span><br>
+<span>拳皇才四个，地面搞不出花样，才在跳跃的种类上做文章往空中发展</span><br>
+<span>好的，我会思考有没有办法变成六键拳脚，估计要回去玩一下CVS2了。</span><br>
+</p><p><b>qubeley: </b><br>
+<span>又没有暴气连段没必要伤害修正，也就千鹤布阵后追击修正下还行</span><br>
+<span>—— 来自 smartisan OE106, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>exellen: </b><br>
+<span>qubeley 发表于 2019-10-14 08:36</span><br>
+<span>又没有暴气连段没必要伤害修正，也就千鹤布阵后追击修正下还行</span><br>
+<span>—— 来自 smartisan OE106, Android 8.1.0 ...</span><br>
+<span>主要是防止2b摸獎，這摸獎在98中太常見了。</span><br>
+</p><p><b>liq: </b><br>
+<span>KOF系列和SF系列对比，优势就在于小跳（影跳）、跑步带来的爽快的进攻和连招，你这一改把优势都改掉了，其他方面又比不上SF系列，何必取短补长呢</span><br>
+</p><p><b>大肥兔: </b><br>
+<span>exellen 发表于 2019-10-14 08:30</span><br>
+<span>好的，我会思考有没有办法变成六键拳脚，估计要回去玩一下CVS2了。</span><br>
+<span>侍魂是轻+中=重</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859189[0-50]</guid>
+    </item>
+  </channel>
+</rss>

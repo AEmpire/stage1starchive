@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>aira2下bt时候要暴露哪个端口到公网？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>aira2下bt时候要暴露哪个端口到公网？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:29:48 +0000</lastBuildDate>
+    <item>
+      <title>aira2下bt时候要暴露哪个端口到公网？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918575-1-1.html</link>
+      <description>aira2下bt时候要暴露哪个端口到公网？&#13;
+在某pt网站看到我的状态是“不可链接”，我有公网ip的。
+&#13;
+我把6800rpc暴露到公网是可以访问的。
+&#13;
+aira2版本是1.34
+&#13;
+为什么我的“可连接”是“否”？（以及为什么我需要关注这个问题？）
+&#13;
+Tracker服务器认为你在防火墙后，或者在NAT桥接后，并且无法接收其他Peer的连接请求。
+&#13;
+这意味着其它的大批Peer无法连接到你，只能由你连接到他们。更糟糕的情况是，如果两个Peer都处于这样的状态，他们将完全无法连接到对方。这对于整体速度有着非常不利的影响。
+&#13;
+对于这个问题，有以下解决方式：对于防火墙，打开用于接收连接的端口（即你在BT客户端中定义的端口）；对于NAT，你需要配置NAT服务器使用Basic NAT方式而不是NAPT（不同的路由有着不同的运行方式。翻阅你的路由文档或客服论坛。你也可以在PortForward找到关于此问题的大量信息）。</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>aira2下bt时候要暴露哪个端口到公网？</span><br>
+<span>在某pt网站看到我的状态是“不可链接”，我有公网ip的。</span><br>
+<span>我把6800rpc暴露到公网是可以访问的。</span><br>
+<span>aira2版本是1.34</span><br>
+<span>为什么我的“可连接”是“否”？（以及为什么我需要关注这个问题？）</span><br>
+<span>Tracker服务器认为你在防火墙后，或者在NAT桥接后，并且无法接收其他Peer的连接请求。</span><br>
+<span>这意味着其它的大批Peer无法连接到你，只能由你连接到他们。更糟糕的情况是，如果两个Peer都处于这样的状态，他们将完全无法连接到对方。这对于整体速度有着非常不利的影响。</span><br>
+<span>对于这个问题，有以下解决方式：对于防火墙，打开用于接收连接的端口（即你在BT客户端中定义的端口）；对于NAT，你需要配置NAT服务器使用Basic NAT方式而不是NAPT（不同的路由有着不同的运行方式。翻阅你的路由文档或客服论坛。你也可以在PortForward找到关于此问题的大量信息）。</span><br>
+</p><p><b>Erlang: </b><br>
+<span> 本帖最后由 Erlang 于 2020-3-13 10:06 编辑 </span><br>
+<span>pt网站不能用aria2吧？</span><br>
+<span>用qb，tr其实并不会降低下载速度的。</span><br>
+<span>如果想用aria2，可以试试带上这个</span><br>
+<img src="https://p.sda1.dev/0/7d8ab2fb75dc85346cde868b605e4cfa/IMG_1F903A21EF94E10B2F2DE8C31D483520.jpeg" title="https://p.sda1.dev/0/7d8ab2fb75dc85346cde868b605e4cfa/IMG_1F903A21EF94E10B2F2DE8C31D483520.jpeg"><br>
+<span>tr，qb都支持web ui api。</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 10 of S1 Next Goose v2.2.2</span><br>
+</p><p><b>琴酒: </b><br>
+<span>雖然aria2 有針對pt的特殊設置</span><br>
+<span>但是從來不保證不會被查出來</span><br>
+<span>pt還是乖乖的用pt允許的客戶端吧</span><br>
+</p><p><b>lvcha: </b><br>
+<span>琴酒 发表于 2020-3-13 09:59</span><br>
+<span>雖然aria2 有針對pt的特殊設置</span><br>
+<span>但是從來不保證不會被查出來</span><br>
+<span>pt還是乖乖的用pt允許的客戶端吧 ...</span><br>
+<span>我是按网上说的改了些配置伪装一下。</span><br>
+<span>我不想装别的bt下载软件，</span><br>
+<span>我是linux命令行，所以需要有rpc远程管理的。</span><br>
+</p><p><b>john: </b><br>
+<span>lvcha 发表于 2020-3-13 10:01</span><br>
+<span>我是按网上说的改了些配置伪装一下。</span><br>
+<span>我不想装别的bt下载软件，</span><br>
+<span>我是linux命令行，所以需要有rpc远程管理 ...</span><br>
+<span>用transmission啊</span><br>
+</p><p><b>lvcha: </b><br>
+<span>john 发表于 2020-3-13 10:03</span><br>
+<span>用transmission啊</span><br>
+<span>可以吗？我研究研究。</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-3-13 10:57 编辑 </span><br>
+<span>多跑一个程序又不费什么，何必冒这个险。</span><br>
+<span>端口的话rpc和bt监听用的不一样，一个是rpc-listen-port默认6800，一个是listen-port默认6881-6999。</span><br>
+</p><p><b>lvcha: </b><br>
+<span>UGDJ 发表于 2020-3-13 10:55</span><br>
+<span>多跑一个程序又不费什么，何必冒这个险。</span><br>
+<span>端口的话rpc和bt监听用的不一样，一个是rpc-listen-port默认6800 ...</span><br>
+<span>我已经换了，</span><br>
+<span>不过transimissin的bt监听端口是啥呢？</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-3-13 11:36 编辑 </span><br>
+<span>lvcha 发表于 2020-3-13 10:57</span><br>
+<span>我已经换了，</span><br>
+<span>不过transimissin的bt监听端口是啥呢？</span><br>
+<span>https://github.com/transmission/transmission/wiki/Editing-Configuration-Files</span><br>
+<span>至今没改的话是51413，有个范围1024-65535但是默认并不会随机换。另外transmission好像默认开着DHT，要看一下你的PT站对这个是什么态度。</span><br>
+<span>settings.json</span><br>
+<span>Peer Port</span><br>
+<span>peer-port: Number (default = 51413)</span><br>
+<span>peer-port-random-high: Number (default = 65535)</span><br>
+<span>peer-port-random-low: Number (default = 1024)</span><br>
+<span>peer-port-random-on-start: Boolean (default = false)</span><br>
+<span>port-forwarding-enabled: Boolean (default = true) Enable UPnP or NAT-PMP.</span><br>
+</p><p><b>lvcha: </b><br>
+<span>UGDJ 发表于 2020-3-13 11:07</span><br>
+<span>https://github.com/transmission/transmission/wiki/Editing-Configuration-Files</span><br>
+<span>至今没改的话是51413 ...</span><br>
+<span>好的，我改了。</span><br>
+<span>这玩意还得停了改貌似。运行时改有时候感觉不生效</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>PT网站不允许使用aria2 客户端    小心你的账号被BAN</span><br>
+<span>另外 6800rpc是监听aria2状态的端口   打开这个可以远程获取客户端状态</span><br>
+<span>你需要设定一个端口。用于别的人来读取你的本地数据   你没有搞这个所以可连接才是否</span><br>
+<span>用专门的PT客户端吧   设定更清晰</span><br>
+</p><p><b>lvcha: </b><br>
+<span>yeah20002 发表于 2020-3-13 14:00</span><br>
+<span>PT网站不允许使用aria2 客户端    小心你的账号被BAN</span><br>
+<span>另外 6800rpc是监听aria2状态的端口   打开这个可 ...</span><br>
+<span>换成transsmission了，不过感觉好像慢一些。</span><br>
+<span>aria2昨天下资源是满速。</span><br>
+<span>不过无所谓了</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>lvcha 发表于 2020-3-13 14:55</span><br>
+<span>换成transsmission了，不过感觉好像慢一些。</span><br>
+<span>aria2昨天下资源是满速。</span><br>
+<span>不过无所谓了 ...</span><br>
+<span>PT不看下载 看上传啊</span><br>
+<span>你把PT当成下载工具了？</span><br>
+</p><p><b>john: </b><br>
+<span>yeah20002 发表于 2020-3-13 15:06</span><br>
+<span>PT不看下载 看上传啊</span><br>
+<span>你把PT当成下载工具了？</span><br>
+<span>你不想下载那你上传是图个啥</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>aria2我记得也是51314啊... 你可以下载一个airaNG,看看里面写的端口是啥</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>john 发表于 2020-3-13 16:31</span><br>
+<span>你不想下载那你上传是图个啥</span><br>
+<span>养成经营类游戏</span><br>
+</p><p><b>yikka: </b><br>
+<span>https://blog.rhilip.info/archives/1010/</span><br>
+<span>pt用aria会不会被抓只取决于管理员愿不愿意下精力去抓你而已。看这篇文章就知道了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918575[0-50]</guid>
+    </item>
+  </channel>
+</rss>

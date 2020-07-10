@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何一边记笔记一边控制网页视频播放？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何一边记笔记一边控制网页视频播放？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:37:33 +0000</lastBuildDate>
+    <item>
+      <title>如何一边记笔记一边控制网页视频播放？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910512-1-1.html</link>
+      <description>如何一边记笔记一边控制网页视频播放？&#13;
+经常用chrome播放微信、云课堂或者B站的视频课程，同时用印象笔记做记录。码字正爽的时候要不停移动鼠标控制视频暂停和播放很打断节奏，有没有办法在做笔记的同时用快捷键控制网页视频的暂停和播放？</description>
+      <content:encoded><![CDATA[<p><b>无敌のpeach: </b><br>
+<span>如何一边记笔记一边控制网页视频播放？</span><br>
+<span>经常用chrome播放微信、云课堂或者B站的视频课程，同时用印象笔记做记录。码字正爽的时候要不停移动鼠标控制视频暂停和播放很打断节奏，有没有办法在做笔记的同时用快捷键控制网页视频的暂停和播放？</span><br>
+</p><p><b>elflie: </b><br>
+<span>多媒体按键可以</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span>elflie 发表于 2020-1-23 11:23</span><br>
+<span>多媒体按键可以</span><br>
+<span>win系统的键盘上有这个键吗？</span><br>
+</p><p><b>天网: </b><br>
+<span>我是一个电脑看，一个电脑记的。观看电脑连接了一个小型蓝牙键盘，小键盘就放在手边，随时空格</span><br>
+</p><p><b>elflie: </b><br>
+<span>无敌のpeach 发表于 2020-1-23 11:29</span><br>
+<span>win系统的键盘上有这个键吗？</span><br>
+<span>为什么没有？？就算没有单独的多媒体键FN不会用吗？</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>无敌のpeach 发表于 2020-1-23 11:29</span><br>
+<span>win系统的键盘上有这个键吗？</span><br>
+<span>你换个键盘不就行了</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>这不是空格键就行了？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>PENTAX-DA: </b><br>
+<span>用纸笔记呗</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span>elflie 发表于 2020-1-23 11:34</span><br>
+<span>为什么没有？？就算没有单独的多媒体键FN不会用吗？</span><br>
+<span>知道Fn键，还能控制另一个窗口的视频播放？</span><br>
+<span>原谅我刚村通网，这个应该怎么设置？</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span>Digi1980s 发表于 2020-1-23 11:50</span><br>
+<span>这不是空格键就行了？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>笔记软件中空格控制不了网页视频的</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>CHROME的媒体键默认能控制视频播放/暂停，即使游览器窗口在后台。火狐似乎没有做这个功能？</span><br>
+</p><p><b>startdl: </b><br>
+<span>浏览器好像有个切换窗口的事件，用它写个js，切换窗口就暂停视频</span><br>
+</p><p><b>startdl: </b><br>
+<span>写个B站的切换标签暂停播放视频的伪代码，你参考一下，直接复制到控制台就能用了。</span><br>
+<span>let video = document.getElementsByTagName('video');</span><br>
+<span>document.addEventListener('visibilitychange',function(){</span><br>
+<span>    if(document.visibilityState=='hidden') {</span><br>
+<span>      video.pause();</span><br>
+<span>    }else {</span><br>
+<span>      video.play();</span><br>
+<span>    }</span><br>
+<span>});</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span>startdl 发表于 2020-1-23 12:41</span><br>
+<span>写个B站的切换标签暂停播放视频的伪代码，你参考一下，直接复制到控制台就能用了。</span><br>
+<span>这个确实有效，不过仍然需要在浏览器中操作。如果能光标不离开笔记软件仍然能控制浏览器就好了。</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span> 本帖最后由 无敌のpeach 于 2020-1-23 13:53 编辑 </span><br>
+<span>cxf5102 发表于 2020-1-23 12:33</span><br>
+<span>CHROME的媒体键默认能控制视频播放/暂停，即使游览器窗口在后台。火狐似乎没有做这个功能？ ...</span><br>
+<span>貌似chrome73开始有这功能，我还在71。。升级一下试试</span><br>
+<span>----------------------------</span><br>
+<span>那个多媒体键应该是说mac的吧，Fn反正不行</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>无敌のpeach 发表于 2020-1-23 13:20</span><br>
+<span>貌似chrome73开始有这功能，我还在71。。升级一下试试</span><br>
+<span>----------------------------</span><br>
+<span>我是WINDOWS，你在 chrome://flags/ 中看看存不存在 Hardware Media Key Handling 功能</span><br>
+</p><p><b>Chromium: </b><br>
+<span>用苹果音频线加苹果耳机的话，按耳机上的暂停键是可以暂停chrome上的视频的</span><br>
+</p><p><b>无敌のpeach: </b><br>
+<span>cxf5102 发表于 2020-1-23 14:07</span><br>
+<span>我是WINDOWS，你在 chrome://flags/ 中看看存不存在 Hardware Media Key Handling 功能</span><br>
+<span>已经启用了，按下Fn似乎没有任何作用？</span><br>
+</p><p><b>win8: </b><br>
+<span>Chromium 发表于 2020-1-23 14:55</span><br>
+<span>用苹果音频线加苹果耳机的话，按耳机上的暂停键是可以暂停chrome上的视频的 ...</span><br>
+<span>如果线控有效的话，就和苹果没什么关系了。任何一个蓝牙耳机蓝牙音响都有播放暂停键，并且比线控兼容的更好。</span><br>
+</p><p><b>Chromium: </b><br>
+<span>win8 发表于 2020-1-23 15:20</span><br>
+<span>如果线控有效的话，就和苹果没什么关系了。任何一个蓝牙耳机蓝牙音响都有播放暂停键，并且比线控兼容的更 ...</span><br>
+<span>没错，我用蓝牙音箱也行</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>我这边用cent（chromium 74版）可以直接用G502侧键控制媒体播放暂停 应该是用的windows自带媒体热键实现的</span><br>
+</p><p><b>elflie: </b><br>
+<span>无敌のpeach 发表于 2020-1-23 12:21</span><br>
+<span>知道Fn键，还能控制另一个窗口的视频播放？</span><br>
+<span>原谅我刚村通网，这个应该怎么设置？ ...</span><br>
+<span>win10下html5播放器都可以</span><br>
+</p><p><b>我很费纸: </b><br>
+<span>不是有个最简单的办法就是alt+tab+space吗？切换窗口+暂停……</span><br>
+<span>—— 来自 Sony H8324, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>okey3m: </b><br>
+<span>对呀用alt+tab切换不行么一定要用鼠标？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910512[0-50]</guid>
+    </item>
+  </channel>
+</rss>

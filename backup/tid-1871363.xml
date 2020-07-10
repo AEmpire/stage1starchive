@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[松鼠]巨量压缩包内文件怎么统计</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[松鼠]巨量压缩包内文件怎么统计</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:18:58 +0000</lastBuildDate>
+    <item>
+      <title>[松鼠]巨量压缩包内文件怎么统计[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1871363-1-1.html</link>
+      <description>[松鼠]巨量压缩包内文件怎么统计&#13;
+
+&#13;
+正在整理漫画之类一堆图片的，很用7Z都压缩压不了多少，而且解压也卡，就直接压ZIP最快了。
+&#13;
+但是压完了发现，没有啥软件能统计压缩包内压缩文件个数和压缩前大小的。
+&#13;
+但是不压的话，一堆小文件无论是复制还是统计查找都是麻烦。
+&#13;
+顺便还有人用啥查重软件么，
+&#13;
+上回问有人介绍了alldup，但是这玩意好像对带中括号之类的文件夹名不识别，一堆文件夹只识别了没有括号的来搜索，</description>
+      <content:encoded><![CDATA[<p><b>whatd: </b><br>
+<span>[松鼠]巨量压缩包内文件怎么统计</span><br>
+<span>正在整理漫画之类一堆图片的，很用7Z都压缩压不了多少，而且解压也卡，就直接压ZIP最快了。</span><br>
+<span>但是压完了发现，没有啥软件能统计压缩包内压缩文件个数和压缩前大小的。</span><br>
+<span>但是不压的话，一堆小文件无论是复制还是统计查找都是麻烦。</span><br>
+<span>顺便还有人用啥查重软件么，</span><br>
+<span>上回问有人介绍了alldup，但是这玩意好像对带中括号之类的文件夹名不识别，一堆文件夹只识别了没有括号的来搜索，</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>7z l 就可以</span><br>
+</p><p><b>whatd: </b><br>
+<span>lwa190212 发表于 2019-12-1 14:58</span><br>
+<span>7z l 就可以</span><br>
+<span>but ，how?</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>whatd 发表于 2019-12-1 14:59</span><br>
+<span>but ，how?</span><br>
+<span>通过键盘敲击7z l {INPUT}：</span><br>
+<img src="http://i1.fuimg.com/622475/bbffedea2df2650f.png" title="http://i1.fuimg.com/622475/bbffedea2df2650f.png"><br>
+</p><p><b>whatd: </b><br>
+<span>lwa190212 发表于 2019-12-1 15:03</span><br>
+<span>通过键盘敲击7z l {INPUT}：</span><br>
+<span>还是看不懂，CMD输入？</span><br>
+<span>而且{input}命令没找着用法，</span><br>
+<span>以前我好像试过用CMD调用7z分别压缩，但是CMD碰上特殊字符还是不识别所以放弃了。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>whatd 发表于 2019-12-1 15:38</span><br>
+<span>还是看不懂，CMD输入？</span><br>
+<span>而且{input}命令没找着用法，</span><br>
+<span>{input}替换成你不想解压但想了解包内情况的那个压缩包的路径就行了</span><br>
+<span>限制是只能看一个压缩包(废话)</span><br>
+</p><p><b>whatd: </b><br>
+<span>lwa190212 发表于 2019-12-1 15:49</span><br>
+<span>{input}替换成你不想解压但想了解包内情况的那个压缩包的路径就行了</span><br>
+<span>限制是只能看一个压缩包(废话)</span><br>
+<span> ...</span><br>
+<span>所以我想要统计大量压缩包的方法...</span><br>
+<span>不统计我都不知道哪些下过了,</span><br>
+<span>刚发现个笨办法，测试压缩文件最后会给个统计数据....</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>编辑</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>whatd 发表于 2019-12-1 16:02</span><br>
+<span>所以我想要统计大量压缩包的方法...</span><br>
+<span>不统计我都不知道哪些下过了,</span><br>
+<span>可惜7z本身不支持regexp，如果是同一格式比如zip可以用*.zip</span><br>
+</p><p><b>whatd: </b><br>
+<span>lwa190212 发表于 2019-12-1 16:17</span><br>
+<span>可惜7z本身不支持regexp，如果是同一格式比如zip可以用*.zip</span><br>
+<span>以前用命令行想把目录都列出来都不行，各种特殊字符混在一起就是乱码，问了下比我会的，说这玩意无解，全英文路径+文件名才能避免。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>whatd 发表于 2019-12-1 17:57</span><br>
+<span>以前用命令行想把目录都列出来都不行，各种特殊字符混在一起就是乱码，问了下比我会的，说这玩意无解，全 ...</span><br>
+<span>windows的cmd或powershell有它们自己的想法，即使chcp 65001依然会有些问题，但是7z还是可以正常输出utf8的，举个例子：</span><br>
+<img src="http://i2.tiimg.com/622475/bb44946c85d8619e.png" title="http://i2.tiimg.com/622475/bb44946c85d8619e.png"><br>
+</p><p><b>whatd: </b><br>
+<span>lwa190212 发表于 2019-12-1 19:05</span><br>
+<span>windows的cmd或powershell有它们自己的想法，即使chcp 65001依然会有些问题，但是7z还是可以正常输出utf8 ...</span><br>
+<span>不是码农...这7Z命令行是从哪启动的</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>whatd 发表于 2019-12-1 19:20</span><br>
+<span>不是码农...这7Z命令行是从哪启动的</span><br>
+<span>这是一个python console...</span><br>
+<span>如果你是win10的话可以试试win store商店里的那个测试版terminal，可以正常显示unicode字符(即使在gbk下也可以显示)</span><br>
+<span>不过7z依然要用参数 -sccUTF-8 指定stdout输出为utf8，此时要使用chcp 65001切换到utf-8字符集才能正常显示：</span><br>
+<img src="http://i1.fuimg.com/622475/1c6d74340c5983e6.png" title="http://i1.fuimg.com/622475/1c6d74340c5983e6.png"><br>
+</p><p><b>月千一夜: </b><br>
+<span>但是压完了发现，没有啥软件能统计压缩包内压缩文件个数和压缩前大小的。</span><br>
+<span>我原来也在整理漫画，为啥要统计这个啊…</span><br>
+<span>感觉用 Python 写个程序可以统计？</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>whatd: </b><br>
+<span>月千一夜 发表于 2019-12-1 19:33</span><br>
+<span>但是压完了发现，没有啥软件能统计压缩包内压缩文件个数和压缩前大小的。</span><br>
+<span>我原来也在整理漫画，为啥要统计 ...</span><br>
+<span>有论坛的大佬发合集资源一直标有多少P，我压了之后看不到了，要看只能对着文件名一个个看过去。</span><br>
+<span>能看的话就直接知道还有那些没下。</span><br>
+<span>给个弱智也能学会的PYTHON教程咋样。</span><br>
+</p><p><b>天网: </b><br>
+<span> 本帖最后由 天网 于 2019-12-1 20:51 编辑 </span><br>
+<span>统计？要输出一个报告出来么。</span><br>
+<span>还是 打开一个压缩包文件，能看出来就算？（话说这不是压缩软件最基础的功能吗，我都不确定lz是不是这个意思..</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>shell脚本配合7z就行了</span><br>
+</p><p><b>whatd: </b><br>
+<span>天网 发表于 2019-12-1 20:40</span><br>
+<span>统计？要输出一个报告出来么。</span><br>
+<span>还是 打开一个压缩包文件，能看出来就算？（话说这不是压缩软件最基础的功 ...</span><br>
+<span>N个压缩包一起统计，就跟普通文件夹一样显示压缩包内文件数。</span><br>
+</p><p><b>whatd: </b><br>
+<span> 本帖最后由 whatd 于 2019-12-2 00:27 编辑 </span><br>
+<span>tsubasa9 发表于 2019-12-1 20:50</span><br>
+<span>shell脚本配合7z就行了</span><br>
+<span>LS说了，SHELL乱码...</span><br>
+<span>正在捣鼓terminal 这玩意和7z怎么弄命令行。</span><br>
+<span>漫区就我一个没N1，破处就我一个不会写代码。</span><br>
+</p><p><b>win8: </b><br>
+<span>对这玩意统计有什么意义嘛？</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>没有啥软件能统计压缩包内压缩文件个数和压缩前大小的</span><br>
+<span>楼主的意思是不是</span><br>
+<span>龙珠ZIP——然后里面是——第一卷.ZIP，第二卷.ZIP，第三卷.ZIP</span><br>
+<span>然后要统计容量？</span><br>
+<span>这个直接双击龙珠.ZIP就能显示了吧。。。。当然，你如果要的是，双击龙珠.ZIP之后，不但显示每卷.ZIP，还需要列出每个卷里面有多少个PNG/JPG并且还有大小的话。。。。。还真不知道了</span><br>
+</p><p><b>victor19940828: </b><br>
+<span>装winrar，然后在文件上右键属性，可以看压缩率</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>后知后觉，7z l使用-ai参数可以使用文件列表和正则表达式输出</span><br>
+<span>文件列表里还可以使用*作为wildcard</span><br>
+<span>所以lz只要把所有要查询的文件路径全写在一个文本文件(假设路径为C:\XXXX)里，然后用以下命令输出到另一个文本文件(假设路径为C:\YYYY)里就行了</span><br>
+<span>7z l -an -ai@C:\XXXX -sccUTF-8 > C:\YYYY</span><br>
+<span>然后打开C:\YYYY就可以查看结果</span><br>
+<span>这样就不用折腾什么字符集什么终端环境了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>如果你还要问怎么快速列出文件列表，我曾使用过的方法是以下这些</span><br>
+<span>1.用*匹配</span><br>
+<span>2.win10的资源管理器里选中多个文件后shift+右键，点击“复制为路径”</span><br>
+<span>3.listary配合资源管理器可以快捷键复制文件路径</span><br>
+<span>4.everything搜索完后选中多个，右键，复制完整路径和文件名</span><br>
+<span>因为够用了所以很久没碰过totoal commander，这个大概也可以</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1871363[0-50]</guid>
+    </item>
+  </channel>
+</rss>

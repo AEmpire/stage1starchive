@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何批量修改epub内的部分文字信息？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何批量修改epub内的部分文字信息？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:39 +0000</lastBuildDate>
+    <item>
+      <title>如何批量修改epub内的部分文字信息？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904078-1-1.html</link>
+      <description>如何批量修改epub内的部分文字信息？&#13;
+RT，很多网站都会给发布的电子书资源添加网站宣传的文字信息，有什么软件能批量清除吗？</description>
+      <content:encoded><![CDATA[<p><b>twwa17: </b><br>
+<span>如何批量修改epub内的部分文字信息？</span><br>
+<span>RT，很多网站都会给发布的电子书资源添加网站宣传的文字信息，有什么软件能批量清除吗？</span><br>
+</p><p><b>password: </b><br>
+<span>calibre</span><br>
+</p><p><b>Geminize: </b><br>
+<span>epub其实就是zip改个扩展名，解包后用UltraEdit之类批量替换再压缩回zip</span><br>
+</p><p><b>幻剑游玩: </b><br>
+<span>正则了解一下 对付规律性文字一去一个准</span><br>
+</p><p><b>红左手: </b><br>
+<span>Sigil</span><br>
+</p><p><b>lhm123: </b><br>
+<span>用Sigil打开，工具栏有“搜索&替换”，就可以批量改了。</span><br>
+<span>如图</span><br>
+</p><p><b>starrin: </b><br>
+<span>lhm123 发表于 2019-12-19 20:22</span><br>
+<span>用Sigil打开，工具栏有“搜索&替换”，就可以批量改了。</span><br>
+<span>如图</span><br>
+<span>LZ是想批量改很多epub文件吧</span><br>
+</p><p><b>宏: </b><br>
+<span>calibre批量转word-自己写个vba批量替换-calibre批量转epub</span><br>
+</p><p><b>lhm123: </b><br>
+<span> 本帖最后由 lhm123 于 2019-12-19 21:14 编辑 </span><br>
+<span>starrin 发表于 2019-12-19 20:53</span><br>
+<span>LZ是想批量改很多epub文件吧几本书同时批量处理，关键词相同的话，也可以用多开扫替换。其余方法就不太清楚了 。</span><br>
+</p><p><b>ma05758: </b><br>
+<span>zip+html找超能力者写个小脚本应该就能搞定</span><br>
+</p><p><b>zxlice: </b><br>
+<span>正则</span><br>
+</p><p><b>Geminize: </b><br>
+<span>lhm123 发表于 2019-12-19 21:07</span><br>
+<span>几本书同时批量处理，关键词相同的话，也可以用多开扫替换。其余方法就不太清楚了 。 ...</span><br>
+<span>UltraEdit可以直接修改替换指定目录下所有文件，不用一起打开</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2019-12-20 13:33 编辑 </span><br>
+<span>宏 发表于 2019-12-19 21:05</span><br>
+<span>calibre批量转word-自己写个vba批量替换-calibre批量转epub</span><br>
+<span>不需要这么麻烦好不</span><br>
+<span>calibre自带批量转换时正则搜索替换</span><br>
+<span>而且也不需要转成其它格式，输入格式和输出格式可以是同一个</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>我倒是干过类似的事情，拿毕竟解zip和正则替换是个主流语言都有现成的。</span><br>
+<span>我自己用的C#自带的System.IO.Compression和System.Text.RegularExpressions。</span><br>
+<span>calibre会把文件结构改掉，还会擅自改封面改css什么的，转出来看上去有微妙的差别，实在不太放心。</span><br>
+</p><p><b>password: </b><br>
+<span>Aeroblast 发表于 2019-12-20 14:25</span><br>
+<span>我倒是干过类似的事情，拿毕竟解zip和正则替换是个主流语言都有现成的。</span><br>
+<span>我自己用的C#自带的System.IO.Comp ...</span><br>
+<span>calibre那些基本都可以设置的</span><br>
+<span>倒是很多epub本身不是很规范 不给calibre转一遍app兼容性就不行</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>password 发表于 2019-12-20 15:08</span><br>
+<span>calibre那些基本都可以设置的</span><br>
+<span>倒是很多epub本身不是很规范 不给calibre转一遍app兼容性就不行 ...</span><br>
+<span>没找到哪设置，藏得很深？</span><br>
+<span>兼容性问题没怎么见过，可能是我收书来源比较固定…倒是见过图片不在manifest声明的，这个能修吗？</span><br>
+<span>还有calibre的封面页一定会在edge里变形这种问题，这个能不能改掉…</span><br>
+</p><p><b>password: </b><br>
+<span>Aeroblast 发表于 2019-12-20 16:29</span><br>
+<span>没找到哪设置，藏得很深？</span><br>
+<span>兼容性问题没怎么见过，可能是我收书来源比较固定…倒是见过图片不在manifest ...</span><br>
+<span>我错了 印象流了</span><br>
+<span>查了下应该没办法不让calibre转换的时候不动css</span><br>
+<span>封面转换的时候你可以勾选一下保持比例，不过老edge马上就要正式退出历史舞台了</span><br>
+<span>兼容性问题国内真是太常见了，因为很多epub是为多看调的而不是跟随标准epub3/2的</span><br>
+<span>manifest你是想移除没声明的图还是加回去？</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>password 发表于 2019-12-22 10:58</span><br>
+<span>我错了 印象流了</span><br>
+<span>查了下应该没办法不让calibre转换的时候不动css</span><br>
+<span>加回去。就是没有在manifest里声明，书里还引用了。看了眼信息是epubBuilder做的，大概是通病。</span><br>
+<span>这类书平时我也接触不到，这是之前让朋友搜集点烂epub给我测试找到的。</span><br>
+<span>多看特殊的地方有啥，我记得有注释，opf里几个私有属性，还有几个插图的私有类？这些应该不影响吧……</span><br>
+<span>之前提到的自制程序其实就是用来把多看注释转成标准+Kindle注释的，其他的没怎么管，也没遇到过太大问题</span><br>
+</p><p><b>password: </b><br>
+<span>Aeroblast 发表于 2019-12-22 11:42</span><br>
+<span>加回去。就是没有在manifest里声明，书里还引用了。看了眼信息是epubBuilder做的，大概是通病。</span><br>
+<span>这类书平 ...</span><br>
+<span>试了下 补回来calibre转一遍就行</span><br>
+<span>sigil么好像不会自动修正manifest的问题 只会提示一下</span><br>
+<span>也没人开发过补回manifest的plugin的样子 移除的倒是有</span><br>
+<span>多看epub我还见过使用JS的 比如下面这个</span><br>
+<span>https://www.tsdm.live/forum.php?mod=viewthread&tid=910239</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>password 发表于 2019-12-22 12:13</span><br>
+<span>试了下 补回来calibre转一遍就行</span><br>
+<span>sigil么好像不会自动修正manifest的问题 只会提示一下</span><br>
+<span>那个js不是给多看，而是给iBooks的</span><br>
+<span>这个会把多看的图片注释换成文字，因为过去iBooks不能拿图片做注释。这个问题前几年就没了，不过貌似多看还是必须用图片做链接。</span><br>
+<span>tsdm的模板一直是兼顾两边的，而且有过相关讨论，具体可以看https://www.tsdm.live/forum.php?mod=viewthread&tid=918551 （甚至可以看到我回帖</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904078[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网络打印机连不上了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网络打印机连不上了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:14:55 +0000</lastBuildDate>
+    <item>
+      <title>网络打印机连不上了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834919-1-1.html</link>
+      <description>网络打印机连不上了&#13;
+ 本帖最后由 cxn 于 2019-5-28 09:19 编辑 
+
+办公室内，电脑、打印机都接的交换机，电脑win7系统，设置了静态地址10.40.*.*，打印机没设插上就用的，电脑通过WSD连的打印机，地址是169.254.213.168
+&#13;
+之前都正常，昨天不知道动了什么，今天有台电脑连不上了打印机了，但同时其他电脑却还正常
+&#13;
+用其他电脑ping 169.254.213.168，正常
+&#13;
+那台电脑ping 169.254.213.168，返回的是“来自 169.254.35.226 的回复：无法访问目标主机”
+&#13;
+而且那台电脑除了打印机连不上，网页、网络邻居、远程都正常
+&#13;
+暂时不想把打印机也设置成10.40.*.*，一来要用掉一个IP地址，二来这样办公室外其他人也能轻松看到并添加打印机，三来其他电脑都要跟着改，我懒得改
+&#13;
+那么，怎么修复现在的问题呢？</description>
+      <content:encoded><![CDATA[<p><b>cxn: </b><br>
+<span>网络打印机连不上了</span><br>
+<span> 本帖最后由 cxn 于 2019-5-28 09:19 编辑 </span><br>
+<span>办公室内，电脑、打印机都接的交换机，电脑win7系统，设置了静态地址10.40.*.*，打印机没设插上就用的，电脑通过WSD连的打印机，地址是169.254.213.168</span><br>
+<span>之前都正常，昨天不知道动了什么，今天有台电脑连不上了打印机了，但同时其他电脑却还正常</span><br>
+<span>用其他电脑ping 169.254.213.168，正常</span><br>
+<span>那台电脑ping 169.254.213.168，返回的是“来自 169.254.35.226 的回复：无法访问目标主机”</span><br>
+<span>而且那台电脑除了打印机连不上，网页、网络邻居、远程都正常</span><br>
+<span>暂时不想把打印机也设置成10.40.*.*，一来要用掉一个IP地址，二来这样办公室外其他人也能轻松看到并添加打印机，三来其他电脑都要跟着改，我懒得改</span><br>
+<span>那么，怎么修复现在的问题呢？</span><br>
+</p><p><b>ricotte: </b><br>
+<span>两边都重启看看先</span><br>
+<span>打印机这个168可以固定吧</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>排除法呗</span><br>
+<span>打印机肯定没问题</span><br>
+<span>网络物理连接肯定没问题</span><br>
+<span>那我猜是那台电脑的打印驱动出问题</span><br>
+<span>去控制面板打印机那里删了打印机重装一下试试</span><br>
+<span>再看看任务管理器里有没有什么可疑的进程</span><br>
+</p><p><b>cxn: </b><br>
+<span> 本帖最后由 cxn 于 2019-5-28 10:16 编辑 </span><br>
+<span>重启无效，感觉是寻址过程出了问题</span><br>
+<span>试着把电脑的IPv4设为自动获取IP后，ping 169.254.213.168，返回值正常了，打印机就连上了，但是不能上网了</span><br>
+<span>改回静态地址10.40.*.*，能正常上网，但是ping 169.254.213.168就不通了，而且提示中无法连接的是 169.254.35.226</span><br>
+</p><p><b>晚梦: </b><br>
+<span>嗯，你又没有试过重启路由器？</span><br>
+<span>目前我遇到过的</span><br>
+<span>①驱动没安好</span><br>
+<span>②路由器出问题了（一直好好的突然就打不了了）</span><br>
+<span>③电脑防火墙/杀毒</span><br>
+<span>④打印机坏了</span><br>
+</p><p><b>cxn: </b><br>
+<span>晚梦 发表于 2019-5-28 10:26</span><br>
+<span>嗯，你又没有试过重启路由器？</span><br>
+<span>目前我遇到过的</span><br>
+<span>①驱动没安好</span><br>
+<span>办公室内没有路由器，只有交换机</span><br>
+<span>设备都正常的，就是网络问题，自动IP后打印机能连上但不能上网，静态IP后能上网但打印机连不上，问题是办公室内其他电脑用静态IP都是既能上网也能连打印机</span><br>
+<span>我搞不懂的关键在于，电脑不是通过常规的IPv4去连接打印机，而是采用WSD方式，虽然表现形式好像还是IPv4</span><br>
+</p><p><b>cxn: </b><br>
+<span>想起来有条指令叫 ipconfig /flushdns</span><br>
+<span>果然问题解决了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834919[0-50]</guid>
+    </item>
+  </channel>
+</rss>

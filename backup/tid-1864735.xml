@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【windows本地漫画软件推荐】NeeView</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【windows本地漫画软件推荐】NeeView</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:07:54 +0000</lastBuildDate>
+    <item>
+      <title>【windows本地漫画软件推荐】NeeView[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864735-1-1.html</link>
+      <description>【windows本地漫画软件推荐】NeeView&#13;
+ 本帖最后由 oscarwty 于 2019-11-10 15:10 编辑 
+
+之所以特意写一篇是因为自己用的LTSB 2016屏蔽了win10商店，导致众口铄金的Comics++和Pico Viewer根本没法用。
+&#13;
+（到底为什么要学苹果，什么都发到商店去啊……想找个正常的离线安装包都不可能，明明免费软件）
+&#13;
+mangameeya和comicsviewer实在太陈旧了自不用说，honeyview我有很大意见，倒不是针对国籍，而是这个公司基本上都在宣传一些花哨的噱头，核心功能真心一般般，bandizip从7.0开始还要加广告（目前已经用回7zip）……而且我也不信任一个没有专门漫画优化的图片浏览软件。像faststone那样默默做好本职看图我反而还放心一些。
+&#13;
+所以转来转去找到了目前几乎的唯一解，国内还没有人提过的NeeView，日本人开发的开源软件。
+&#13;
+https://bitbucket.org/neelabo/neeview/wiki/Home
+&#13;
+不需要解释，一句话：该有的功能都有。（除了语言方面只有英日，但这应该不是什么困难……）
+&#13;
+下载回来一秒就用，更多的专业自定义设置可以慢慢挖掘，实用项绝对不缺。
+&#13;
+提供了zip绿色和msi安装，甚至还有win10商店版……这也太强迫症了。
+&#13;
+===
+&#13;
+楼下回复有人打不开官网，度盘分流：
+&#13;
+链接: https://pan.baidu.com/s/1S2hF_6SXRncPU-njkzp6Rg 提取码: m8be 
+&#13;
+我不是作者，也是刚刚开始用，太复杂的问题我也不知道，新需求建议自己向官网提issue——</description>
+      <content:encoded><![CDATA[<p><b>dyzchen: </b><br>
+<span>感谢楼主，在苏菲狗上用的，就是想问一下有一次无意中通过手势自动到了下一话，但之后再怎么试也没有成功了，这个的手势具体是怎样的呢？</span><br>
+</p><p><b>SmterC: </b><br>
+<span>不知支持webp格式的图片吗？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>heliopetuous 发表于 2019-11-16 20:13</span><br>
+<span>比起mangameeya的优势是unicode支持？除此之外？</span><br>
+<span>挺多的，触屏支持，新格式支持，多层压缩支持，还有一堆我也不太懂的</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>dyzchen 发表于 2019-11-24 11:36</span><br>
+<span>感谢楼主，在苏菲狗上用的，就是想问一下有一次无意中通过手势自动到了下一话，但之后再怎么试也没有成功了 ...</span><br>
+<span>键位表在设置里可以自己查看和调整，抱歉我穷没有苏菲，需要你自己看一下qwq</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>SmterC 发表于 2019-11-24 12:23</span><br>
+<span>不知支持webp格式的图片吗？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>并没有任何问题，放心~</span><br>
+</p><p><b>7七麦: </b><br>
+<span>不知道为啥用的时候翻到新页，要在模糊状态保持零点几秒后图片才变的清晰，这个怎么解决啊？</span><br>
+</p><p><b>chexk03: </b><br>
+<span>什么时候能汉化，用WIN10高DPI显示器后，mangameeya糊的厉害，终于感觉跟不上时代了，NeeView试用了一下还是没有中文不舒服，想自己设置都一脸懵逼…</span><br>
+</p><p><b>moekyo: </b><br>
+<span>可以自动跳转文件夹吗，比如有个漫画有N卷，每一卷都单独一个文件夹，这个可以看完一卷之后继续看下一卷吗，不用切出来手动跳到下一卷</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>7七麦 发表于 2019-12-16 17:17</span><br>
+<span>不知道为啥用的时候翻到新页，要在模糊状态保持零点几秒后图片才变的清晰，这个怎么解决啊？ ...</span><br>
+<span>我没有遇到这个问题，你可以考虑在设置里把缓存参数稍微调高一点，尤其是预读页数。</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>chexk03 发表于 2019-12-16 17:27</span><br>
+<span>什么时候能汉化，用WIN10高DPI显示器后，mangameeya糊的厉害，终于感觉跟不上时代了，NeeView试用了一下还 ...</span><br>
+<span>目前issue看起来还没有人做中文，大概也是中文用户不够多（在我这个帖子之前中文圈好像根本没人安利）。</span><br>
+<span>不过我一路用下来英文需求应该不超过四级水平，实在不明白的选项试一下也知道什么意思了。</span><br>
+</p><p><b>kraxia: </b><br>
+<span>用着还可以。但目前感受打开压缩包有点慢，对付不了加密的包，这方面不如mangameeya</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>moekyo 发表于 2019-12-16 17:56</span><br>
+<span>可以自动跳转文件夹吗，比如有个漫画有N卷，每一卷都单独一个文件夹，这个可以看完一卷之后继续看下一卷吗 ...</span><br>
+<span>默认设置下，你直接把根目录拖进去，然后按上下就可以切换书目。</span><br>
+<span>不过如果你想要手动设置更舒服的方式……当然是有的。</span><br>
+</p><p><b>7七麦: </b><br>
+<span> 本帖最后由 7七麦 于 2019-12-16 19:29 编辑 </span><br>
+<span>oscarwty 发表于 2019-12-16 19:05</span><br>
+<span>我没有遇到这个问题，你可以考虑在设置里把缓存参数稍微调高一点，尤其是预读页数。 ...</span><br>
+<img src="https://upload.cc/i1/2019/12/16/G0fWnQ.gif" title="https://upload.cc/i1/2019/12/16/G0fWnQ.gif"><br>
+<span>一直都让我很费解······</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>kraxia 发表于 2019-12-16 19:10</span><br>
+<span>用着还可以。但目前感受打开压缩包有点慢，对付不了加密的包，这方面不如mangameeya ...</span><br>
+<span>第一个问题可以通过调整缓存设置来解决，甚至自定义改换压缩包的读取插件。另外貌似mangameeya是把7z直接暴力全解压的……密码的问题目前无解，等更新吧。我一般是直接批量手动转换了。</span><br>
+</p><p><b>oscarwty: </b><br>
+<span> 本帖最后由 oscarwty 于 2019-12-16 19:53 编辑 </span><br>
+<span>7七麦 发表于 2019-12-16 19:25</span><br>
+<span>一直都让我很费解······</span><br>
+<span>确认一下是否是因为开启resize filter导致的。如果是，目前只能把预读页数设置为0了。作者还在完善这个功能。</span><br>
+<span>（虽然我试了的结果也不是很有用……等吧，看来是暂时无解。）</span><br>
+</p><p><b>moekyo: </b><br>
+<span>试了一下，好评，感谢楼主推荐！</span><br>
+</p><p><b>z22901206: </b><br>
+<span> 本帖最后由 z22901206 于 2019-12-16 21:36 编辑 </span><br>
+<span>条目源文件是喜闻乐见的excel表格.</span><br>
+<span>作者同时给了工具, 程序那边不难, 有1500+个条目 </span><br>
+<span>(谷歌共享文档)文本条目_带机翻</span><br>
+<span>机翻效果</span><br>
+<img src="https://i.loli.net/2019/12/16/xLZM6IQ5GUVnPRz.jpg" title="https://i.loli.net/2019/12/16/xLZM6IQ5GUVnPRz.jpg"><br>
+</p><p><b>moekyo: </b><br>
+<span>下面这排缩略图怎么调出来？</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>moekyo 发表于 2019-12-16 21:45</span><br>
+<span>下面这排缩略图怎么调出来？</span><br>
+<span>↓如何调出，及相关详细设置</span><br>
+</p><p><b>糊状物: </b><br>
+<span>是我眼神不好吗，找了很久都没找到 自动翻页/幻灯片播放 之类的....</span><br>
+</p><p><b>moekyo: </b><br>
+<span>糊状物 发表于 2019-12-18 20:01</span><br>
+<span>是我眼神不好吗，找了很久都没找到 自动翻页/幻灯片播放 之类的....</span><br>
+<span>F5或者file-slideshow</span><br>
+</p><p><b>糊状物: </b><br>
+<span>moekyo 发表于 2019-12-18 20:12</span><br>
+<span>F5或者file-slideshow</span><br>
+<span>按过了，当时怎么没反应，现在又可以了</span><br>
+<span>然后这个怎么设置翻页速度？好像设定那里的对应的这项没数据可以调节？</span><br>
+</p><p><b>moekyo: </b><br>
+<span>糊状物 发表于 2019-12-18 20:16</span><br>
+<span>按过了，当时怎么没反应，现在又可以了</span><br>
+<span>然后这个怎么设置翻页速度？好像设定那里的对应的这项没数 ...</span><br>
+</p><p><b>糊状物: </b><br>
+<span>moekyo 发表于 2019-12-18 20:54</span><br>
+<span>噢噢，谢谢！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864735[50-100]</guid>
+    </item>
+    <item>
+      <title>【windows本地漫画软件推荐】NeeView[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864735-1-1.html</link>
+      <description>【windows本地漫画软件推荐】NeeView&#13;
+ 本帖最后由 oscarwty 于 2019-11-10 15:10 编辑 
+
+之所以特意写一篇是因为自己用的LTSB 2016屏蔽了win10商店，导致众口铄金的Comics++和Pico Viewer根本没法用。
+&#13;
+（到底为什么要学苹果，什么都发到商店去啊……想找个正常的离线安装包都不可能，明明免费软件）
+&#13;
+mangameeya和comicsviewer实在太陈旧了自不用说，honeyview我有很大意见，倒不是针对国籍，而是这个公司基本上都在宣传一些花哨的噱头，核心功能真心一般般，bandizip从7.0开始还要加广告（目前已经用回7zip）……而且我也不信任一个没有专门漫画优化的图片浏览软件。像faststone那样默默做好本职看图我反而还放心一些。
+&#13;
+所以转来转去找到了目前几乎的唯一解，国内还没有人提过的NeeView，日本人开发的开源软件。
+&#13;
+https://bitbucket.org/neelabo/neeview/wiki/Home
+&#13;
+不需要解释，一句话：该有的功能都有。（除了语言方面只有英日，但这应该不是什么困难……）
+&#13;
+下载回来一秒就用，更多的专业自定义设置可以慢慢挖掘，实用项绝对不缺。
+&#13;
+提供了zip绿色和msi安装，甚至还有win10商店版……这也太强迫症了。
+&#13;
+===
+&#13;
+楼下回复有人打不开官网，度盘分流：
+&#13;
+链接: https://pan.baidu.com/s/1S2hF_6SXRncPU-njkzp6Rg 提取码: m8be 
+&#13;
+我不是作者，也是刚刚开始用，太复杂的问题我也不知道，新需求建议自己向官网提issue——</description>
+      <content:encoded><![CDATA[<p><b>oscarwty: </b><br>
+<span>【windows本地漫画软件推荐】NeeView</span><br>
+<span> 本帖最后由 oscarwty 于 2019-11-10 15:10 编辑 </span><br>
+<span>之所以特意写一篇是因为自己用的LTSB 2016屏蔽了win10商店，导致众口铄金的Comics++和Pico Viewer根本没法用。</span><br>
+<span>（到底为什么要学苹果，什么都发到商店去啊……想找个正常的离线安装包都不可能，明明免费软件）</span><br>
+<span>mangameeya和comicsviewer实在太陈旧了自不用说，honeyview我有很大意见，倒不是针对国籍，而是这个公司基本上都在宣传一些花哨的噱头，核心功能真心一般般，bandizip从7.0开始还要加广告（目前已经用回7zip）……而且我也不信任一个没有专门漫画优化的图片浏览软件。像faststone那样默默做好本职看图我反而还放心一些。</span><br>
+<span>所以转来转去找到了目前几乎的唯一解，国内还没有人提过的NeeView，日本人开发的开源软件。</span><br>
+<span>https://bitbucket.org/neelabo/neeview/wiki/Home</span><br>
+<span>不需要解释，一句话：该有的功能都有。（除了语言方面只有英日，但这应该不是什么困难……）</span><br>
+<span>下载回来一秒就用，更多的专业自定义设置可以慢慢挖掘，实用项绝对不缺。</span><br>
+<span>提供了zip绿色和msi安装，甚至还有win10商店版……这也太强迫症了。</span><br>
+<span>===</span><br>
+<span>楼下回复有人打不开官网，度盘分流：</span><br>
+<span>链接: https://pan.baidu.com/s/1S2hF_6SXRncPU-njkzp6Rg 提取码: m8be </span><br>
+<span>我不是作者，也是刚刚开始用，太复杂的问题我也不知道，新需求建议自己向官网提issue——</span><br>
+</p><p><b>amulelernen: </b><br>
+<span>问一下可以对图片调色吗？比如将图片整体变成棕色或者绿色</span><br>
+</p><p><b>狂暴饮凶马: </b><br>
+<span>打不开网址，求分流下载</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>amulelernen 发表于 2019-11-10 13:49</span><br>
+<span>问一下可以对图片调色吗？比如将图片整体变成棕色或者绿色</span><br>
+<span>有哦，在右侧工具栏effect里~你能想到的都有，除了太奇葩的</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>狂暴饮凶马 发表于 2019-11-10 13:50</span><br>
+<span>打不开网址，求分流下载</span><br>
+<span>那我等下分个百度盘怎么样？还是说有什么特别需求~</span><br>
+</p><p><b>狂暴饮凶马: </b><br>
+<span>oscarwty 发表于 2019-11-10 13:53</span><br>
+<span>那我等下分个百度盘怎么样？还是说有什么特别需求~</span><br>
+<span>用鼠标中键卷到漫画页面底部就会翻页，这很不方便，怎么禁止中键翻页？</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>狂暴饮凶马 发表于 2019-11-10 14:22</span><br>
+<span>用鼠标中键卷到漫画页面底部就会翻页，这很不方便，怎么禁止中键翻页？ ...</span><br>
+<span>按键设置里把scroll+prev/next的滚轮，改回上面的scroll试试看~</span><br>
+</p><p><b>临界点: </b><br>
+<span>能等比观看并有向下滚动模式吗</span><br>
+</p><p><b>chexk03: </b><br>
+<span>还是习惯中文，标记一下。等有汉化再用。</span><br>
+</p><p><b>sopotato: </b><br>
+<span>确实好用，不比mangaviewer差，如果有纵向滚屏翻页的模式，就可以代替mangaviewer了</span><br>
+</p><p><b>fuochai: </b><br>
+<span>有翻页效果和文件树吗，而且每开一本新的都会变回1page？</span><br>
+<span>看200页以上的时候载入就不如mangameeya了。</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>fuochai 发表于 2019-11-10 14:51</span><br>
+<span>有翻页效果和文件树吗，而且每开一本新的都会变回1page？</span><br>
+<span>看200页以上的时候载入就不如mangameeya了。 ...</span><br>
+<span>其他的我不太清楚，载入缓存的方面在选项里自己调应该没问题。</span><br>
+<span>我记得mangameeya好像是直接全展开在临时文件以换取性能……</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>fuochai 发表于 2019-11-10 14:51</span><br>
+<span>有翻页效果和文件树吗，而且每开一本新的都会变回1page？</span><br>
+<span>看200页以上的时候载入就不如mangameeya了。 ...</span><br>
+<span>另外1page这个问题在选项里的books默认设置，可以默认并页的</span><br>
+<span>翻页效果应该暂时没有，文件树是什么意思？</span><br>
+</p><p><b>狂暴饮凶马: </b><br>
+<span>oscarwty 发表于 2019-11-10 14:33</span><br>
+<span>按键设置里把scroll+prev/next的滚轮，改回上面的scroll试试看~</span><br>
+<span>可以了，谢谢。本想加个鹅，却发现死鱼不足无法评分</span><br>
+</p><p><b>jacket: </b><br>
+<span>启动要等个1秒多才能出来，比mangameeya慢一点，不知道有没设置可以缩短启动时间</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>jacket 发表于 2019-11-10 16:46:50</span><br>
+<span>启动要等个1秒多才能出来，比mangameeya慢一点，不知道有没设置可以缩短启动时间 ...我晚上看一下……毕竟我不是作者也不会写代码，能力有限，请多包涵</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>jacket 发表于 2019-11-10 16:46</span><br>
+<span>启动要等个1秒多才能出来，比mangameeya慢一点，不知道有没设置可以缩短启动时间 ...</span><br>
+<span>看了一下官网的答疑，第一条就是……和架构有关，暂时只能这样</span><br>
+<span>https://bitbucket.org/neelabo/neeview/wiki/QuestionAndAnswer</span><br>
+</p><p><b>kyogngn: </b><br>
+<span>最近一直在用别的，谢谢了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>jacket: </b><br>
+<span>oscarwty 发表于 2019-11-10 18:50</span><br>
+<span>看了一下官网的答疑，第一条就是……和架构有关，暂时只能这样</span><br>
+<span>https://bitbucket.org/neelabo/neeview/ ...</span><br>
+<span>用来看书没啥影响，整理一堆文件开了关开了关可能会慢点</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>jacket 发表于 2019-11-10 19:03</span><br>
+<span>用来看书没啥影响，整理一堆文件开了关开了关可能会慢点</span><br>
+<span>我半天前就想吐槽了，泥潭用软件的方法怎么一个比一个鬼畜啊(╯‵□′)╯︵┻━┻</span><br>
+<span>全都是我这个小萌新难以回答的问题，瑟瑟发抖</span><br>
+</p><p><b>fuochai: </b><br>
+<span>oscarwty 发表于 2019-11-10 15:05</span><br>
+<span>另外1page这个问题在选项里的books默认设置，可以默认并页的</span><br>
+<span>翻页效果应该暂时没有，文件树是什么意思？ ...</span><br>
+<span>folder tree</span><br>
+<span>左边那个书架差不多功能</span><br>
+<span>没翻页效果看着有点难受 不过好在作者还在更新 有可能加入</span><br>
+</p><p><b>amulelernen: </b><br>
+<span>楼主啊，再问一下：</span><br>
+<span>1 有没有纵向瀑布的浏览模式啊？</span><br>
+<span>2 笔记本触摸板的两指扩大缩小操作如何设置成放大缩小图片？</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>fuochai 发表于 2019-11-10 19:47</span><br>
+<span>folder tree</span><br>
+<span>左边那个书架差不多功能</span><br>
+<span>没翻页效果看着有点难受 不过好在作者还在更新 有可能加入 ...</span><br>
+<span>噗，我是有翻页效果难受的那种，喜欢极简风_(:з」∠)_</span><br>
+<span>这问题反映的人也有，以后慢慢加吧</span><br>
+</p><p><b>oscarwty: </b><br>
+<span> 本帖最后由 oscarwty 于 2019-11-10 20:18 编辑 </span><br>
+<span>amulelernen 发表于 2019-11-10 19:54</span><br>
+<span>楼主啊，再问一下：</span><br>
+<span>1 有没有纵向瀑布的浏览模式啊？</span><br>
+<span>2 笔记本触摸板的两指扩大缩小操作如何设置成放大缩小 ...</span><br>
+<span>1 我找了半天看来是还没加入这个功能，不过大部分软件也没有，建议去官网issue一下</span><br>
+<span>2 edit commands试试看，不行我就不知道了，因为我没有那么高级的笔记本QwQ</span><br>
+<span>目前可能只有支持触屏双指，笔记本触摸板是什么情况我真不知道，没用过_(:з」∠)_去找作者问吧</span><br>
+<span>（谁知道canary版会不会支持这些稀奇古怪的功能——）</span><br>
+</p><p><b>藤田有静: </b><br>
+<span>始终要把屏幕竖起来才好看</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>藤田有静 发表于 2019-11-11 00:37</span><br>
+<span>始终要把屏幕竖起来才好看</span><br>
+<span>个人习惯不一样，横屏双页也不错~不过neeview应该是支持竖屏的来着？</span><br>
+</p><p><b>acgzero: </b><br>
+<span>windows上，有没有漫画软件，跟ios的comic glass一样好用？</span><br>
+<span>我觉得comic glass一个很赞的功能是，能非常方面地裁出自己想要的漫画封面</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>acgzero 发表于 2019-11-11 13:09</span><br>
+<span>windows上，有没有漫画软件，跟ios的comic glass一样好用？</span><br>
+<span>我觉得comic glass一个很赞的功能是，能非常方 ...</span><br>
+<span>我知道你说的这个功能，pico viewer应该是支持的（win10商店付费），其他的我不知道了</span><br>
+</p><p><b>镜工坊: </b><br>
+<span>acgzero 发表于 2019-11-11 13:09</span><br>
+<span>windows上，有没有漫画软件，跟ios的comic glass一样好用？</span><br>
+<span>我觉得comic glass一个很赞的功能是，能非常方 ...</span><br>
+<span>您好，有的。</span><br>
+<span>pico viewer除了没有Mediaserver其他功能都有。</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>镜工坊 发表于 2019-11-11 14:55:18</span><br>
+<span>您好，有的。</span><br>
+<span>pico viewer除了没有Mediaserver其他功能都有。然也，虽然我觉得有谁会用server来订阅漫画也是个谜</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>acgzero: </b><br>
+<span>镜工坊 发表于 2019-11-11 14:55</span><br>
+<span>您好，有的。</span><br>
+<span>pico viewer除了没有Mediaserver其他功能都有。</span><br>
+<span>我现在用的就是在win 10商店里买的pico viewer。这个app的换封面还是不方便的，得手动生成一张截图，然后在软件提供的接口里替换；comic glass能直接根据当前阅览的图片弹出一个截图窗口，截完直接ok；</span><br>
+<span>另外pico viewer也不好像不支持对文件的操作，比如我想把漫画从bookshelf A剪切到bookshelf B，就得在windows目录里操作，不能在pico viewer里操作；</span><br>
+<span>但pico viewer确实是我在windows上用过但最好用但漫画阅读器了</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>acgzero 发表于 2019-11-11 17:08</span><br>
+<span>我现在用的就是在win 10商店里买的pico viewer。这个app的换封面还是不方便的，得手动生成一张截图，然后 ...</span><br>
+<span>我是通过这个帖子才知道大家有好多我根本想不到的需求_(:з」∠)_</span><br>
+<span>柔软地瘫成一团</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>不知道有没有人联系作者翻译一下？这个文本量感觉适中，可惜我英语废</span><br>
+</p><p><b>小修: </b><br>
+<span>comicview虽然旧但也够用了。这个有什么亮眼功能么？</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>先收藏然后下载测试   </span><br>
+</p><p><b>纯氧: </b><br>
+<span>太在意众口铄金导致我后面都没看进去</span><br>
+</p><p><b>oscarwty: </b><br>
+<span> 本帖最后由 oscarwty 于 2019-11-11 21:49 编辑 </span><br>
+<span>纯氧 发表于 2019-11-11 20:48</span><br>
+<span>太在意众口铄金导致我后面都没看进去</span><br>
+<span>咦，请问这个词有什么问题嘛QwQ本义确实是中性的，而且这里我也不打算称赞这俩软件_(:з」∠)_</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>慕容断月 发表于 2019-11-11 20:06</span><br>
+<span>不知道有没有人联系作者翻译一下？这个文本量感觉适中，可惜我英语废 ...</span><br>
+<span>作者自己做的英语，一个月就完成了，文本量应该不大（issue342）</span><br>
+<span>就是缺个人才了，我不懂编程所以不知道怎么弄_(:з」∠)_</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>小修 发表于 2019-11-11 20:11</span><br>
+<span>comicview虽然旧但也够用了。这个有什么亮眼功能么？</span><br>
+<span>新格式的兼容性，平板模式优化，较高的自定义性，以及插件支持</span><br>
+<span>如果指的是ComicsViewer的话，至少就我自己的体验来说，不支持7z和不支持自由跳页是硬伤，参数也不够灵活</span><br>
+</p><p><b>小修: </b><br>
+<span>oscarwty 发表于 2019-11-11 21:45</span><br>
+<span>新格式的兼容性，平板模式优化，较高的自定义性，以及插件支持</span><br>
+<span>如果指的是ComicsViewer的话，至少就我自 ...</span><br>
+<span>谢了。感觉板子更有用一些。</span><br>
+<span>我就没必要换了。</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>小修 发表于 2019-11-11 21:49</span><br>
+<span>谢了。感觉板子更有用一些。</span><br>
+<span>我就没必要换了。</span><br>
+<span>好的，谢谢~这帖子也是按需自取，只是普通的随手安利啦w</span><br>
+<span>我一般会把同类软件准备两三个，极度缺乏安全感_(:з」∠)_</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span>mark</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>acalephs: </b><br>
+<span>能不能像hamana那样全键盘操作啊？包括打开漫画和切换文件夹这些</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>acalephs 发表于 2019-11-12 03:12</span><br>
+<span>能不能像hamana那样全键盘操作啊？包括打开漫画和切换文件夹这些</span><br>
+<span>虽然我没试过（因为呆萌记不住那么多键位），但自定义键位设置的丰富程度应该没问题。大概扫了一眼，大部分操作基本都能设置快捷键</span><br>
+</p><p><b>amulelernen: </b><br>
+<span>想了想其实我只是需要一个能改变压缩包里的图片颜色（有color filter）的sumatra pdf阅读器而已</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>amulelernen 发表于 2019-11-12 12:44</span><br>
+<span>想了想其实我只是需要一个能改变压缩包里的图片颜色（有color filter）的sumatra pdf阅读器而已 ...</span><br>
+<span>说起来sumatra阅读epub的时候，字体啊背景啊这些能自定义的么？</span><br>
+<span>宋体+小字号姑且能忍，那个像LyX一样的粉色背景太疲劳了……离开屏幕之后就满眼绿色，唐马儒世界</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>马克一下回去试试</span><br>
+</p><p><b>amulelernen: </b><br>
+<span> 本帖最后由 amulelernen 于 2019-11-12 15:09 编辑 </span><br>
+<span>oscarwty 发表于 2019-11-12 13:52</span><br>
+<span>说起来sumatra阅读epub的时候，字体啊背景啊这些能自定义的么？</span><br>
+<span>宋体+小字号姑且能忍，那个像LyX一样的粉 ...</span><br>
+<span>可以的 设置-高级选项，在Ebook UI里面直接敲入参数，重新打开文件即可生效；不过这软件看epub也不爽，不如ms edge</span><br>
+<span>或者你看看我这贴里面其他人的推荐做法：</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1858447-1-1.html</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>amulelernen 发表于 2019-11-12 15:07</span><br>
+<span>可以的 设置-高级选项，在Ebook UI里面直接敲入参数，重新打开文件即可生效；不过这软件看epub也不爽，不 ...</span><br>
+<span>感谢……看了一圈头大，估计要试试看neat了。虽然我觉得epub本身就是个反人类格式（逃）</span><br>
+</p><p><b>heliopetuous: </b><br>
+<span>oscarwty 发表于 2019-11-11 21:45</span><br>
+<span>新格式的兼容性，平板模式优化，较高的自定义性，以及插件支持</span><br>
+<span>如果指的是ComicsViewer的话，至少就我自 ...</span><br>
+<span>比起mangameeya的优势是unicode支持？除此之外？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864735[0-50]</guid>
+    </item>
+  </channel>
+</rss>

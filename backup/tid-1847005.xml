@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>最好的编程语言新增一名竞争者：Regent</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>最好的编程语言新增一名竞争者：Regent</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:59:47 +0000</lastBuildDate>
+    <item>
+      <title>最好的编程语言新增一名竞争者：Regent[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847005-1-1.html</link>
+      <description>最好的编程语言新增一名竞争者：Regent&#13;
+美开发高效易操作超算编程语言
+&#13;
+据新华社电 超级计算机在解决科学领域重大挑战方面具有优势，但是编程操控这些“大家伙”并非易事。美国研究人员新开发出一种程序语言，让非计算机背景的人也能便捷利用超级计算机处理问题。目前广泛使用来操控超算的仍是40多年前发明的C++语言，在当时主要的微处理器是中央处理单元（CPU），它可以一个接一个地计算，即串行处理。而现在的超算更多地使用另一种微处理器，也就是图形处理单元（GPU），它可以同时处理多个相似的计算任务，即并行处理。美国斯坦福大学通信与网络教授亚历克斯·艾肯的团队日前开发出了新的计算机程序语言“Regent”，这种用户友好型语言在操作超算处理任务方面比C++更便捷高效。它能简化超级计算机程序员的工作，例如将串行处理任务分配给CPU，而将并行处理任务分配给GPU。程序员先使用Regent语言将自己的计算任务进行编译，存入该团队开发的名为“Legion”的第二个软件层；Legion再据此生成机器代码，也就是超算可以理解的指令，指挥计算机执行任务。Regent和Legion间的配合让程序员可以更方便地做出一些决策，比如在哪儿存储数据，这直接影响到计算的成本和速度。尽管新程序语言的推行都需要克服惯性，但研究者对Regent程序语言的推广充满信心。美国能源部目前正在大力推进百亿亿次级超级计算机项目，超算软件正是其支持的研发重点之一。（彭茜）《中国科学报》 (2019-07-15 第2版 国际)
+&#13;
+Legion？可以，这很兄弟会</description>
+      <content:encoded><![CDATA[<p><b>ydd-319: </b><br>
+<span>最好的编程语言新增一名竞争者：Regent</span><br>
+<span>美开发高效易操作超算编程语言</span><br>
+<span>据新华社电 超级计算机在解决科学领域重大挑战方面具有优势，但是编程操控这些“大家伙”并非易事。美国研究人员新开发出一种程序语言，让非计算机背景的人也能便捷利用超级计算机处理问题。目前广泛使用来操控超算的仍是40多年前发明的C++语言，在当时主要的微处理器是中央处理单元（CPU），它可以一个接一个地计算，即串行处理。而现在的超算更多地使用另一种微处理器，也就是图形处理单元（GPU），它可以同时处理多个相似的计算任务，即并行处理。美国斯坦福大学通信与网络教授亚历克斯·艾肯的团队日前开发出了新的计算机程序语言“Regent”，这种用户友好型语言在操作超算处理任务方面比C++更便捷高效。它能简化超级计算机程序员的工作，例如将串行处理任务分配给CPU，而将并行处理任务分配给GPU。程序员先使用Regent语言将自己的计算任务进行编译，存入该团队开发的名为“Legion”的第二个软件层；Legion再据此生成机器代码，也就是超算可以理解的指令，指挥计算机执行任务。Regent和Legion间的配合让程序员可以更方便地做出一些决策，比如在哪儿存储数据，这直接影响到计算的成本和速度。尽管新程序语言的推行都需要克服惯性，但研究者对Regent程序语言的推广充满信心。美国能源部目前正在大力推进百亿亿次级超级计算机项目，超算软件正是其支持的研发重点之一。（彭茜）《中国科学报》 (2019-07-15 第2版 国际)</span><br>
+<span>Legion？可以，这很兄弟会</span><br>
+</p><p><b>jctc: </b><br>
+<span>你先用regent给我写个能算CAS(17, 17)的量化软件我就服你。 </span><br>
+</p><p><b>给我加个鹅吧: </b><br>
+<span>我没记错的话最好的编程语言梗好像是反话</span><br>
+</p><p><b>widder: </b><br>
+<span>语言越来越多了，隔几年就蹦一个出来，都说自己是最好的</span><br>
+<span>我还是继续坚持用c++吧</span><br>
+</p><p><b>看不透的人生: </b><br>
+<span>给我加个鹅吧 发表于 2019-7-16 10:54</span><br>
+<span>我没记错的话最好的编程语言梗好像是反话</span><br>
+<span>证明了超能力者对它的热爱(误)</span><br>
+</p><p><b>arbipher: </b><br>
+<span>没想到编程语言都能上国内新闻了，搜了下页面给超能力者看看。</span><br>
+<span>https://legion.stanford.edu/overview/</span><br>
+<span>https://github.com/StanfordLegion/legion</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847005[0-50]</guid>
+    </item>
+  </channel>
+</rss>

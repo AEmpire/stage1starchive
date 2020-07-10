@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农归外野？ mq Kafka 的异步ack?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农归外野？ mq Kafka 的异步ack?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:12:00 +0000</lastBuildDate>
+    <item>
+      <title>码农归外野？ mq Kafka 的异步ack?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904652-1-1.html</link>
+      <description>码农归外野？ mq Kafka 的异步ack?&#13;
+
+&#13;
+嘛 代码挺久没写了..生疏了生疏了 过了一下几个开源库的源码发现有些地方不太清楚，上来请教下高人们～
+&#13;
+cloudevents 1.0 出来了拿来玩玩，想拿mq 支撑纯异步的事件分发。
+&#13;
+做模型的时候遇到一个问题：
+&#13;
+1. 机器A 从Kakfa 收到信息M后，会将信息丢别地儿异步处理。期望在未知时间后，别的机器B 处理完后，能直接ack这条信息M。
+&#13;
+Kafka 嘛，能通过broker topic 和partition 之类的信息拿到对应offset 的msg block。是可以满足说任何一个instance 直接从pull 信息的，然后分发至别处处理。这个时候就不需要建立cosumer连接了
+&#13;
+然而看协议，例如另一台机器b 需要ack这条msg的时候，报错了，必须有generation I'd，就是一定要对应有个consumer group 链接建立? 
+&#13;
+是否有办法在没有consumer 链接建立的情况下ack 这条信息呢？
+&#13;
+Hmmm 目的是想避免在pull机制下高频的建立&amp;删除consumer 连接。似乎想歪了？
+&#13;
+----
+&#13;
+其实本质上kafka也没有完全满足我的想法，首先offset ack是顺序的，无法逐条ack。rabbitmq rocketmq mq之类的也试了试也不行：
+&#13;
+均无法在机器a监听到消息后，处理完后，在机器b ack这条消息。
+&#13;
+感觉可能是我的姿势不对，求教～
+&#13;
+（kakfa 弄个delay group这种好像是可以的 但是这样感觉就不怎么简洁了？多引入了一个服务来专门监听重试就，唔…）
+&#13;
+有些什么别的论坛适合讨论mq相关问题咧？ StackOverflow相关的不太活跃没人理哇…</description>
+      <content:encoded><![CDATA[<p><b>关空空: </b><br>
+<span>码农归外野？ mq Kafka 的异步ack?</span><br>
+<span>嘛 代码挺久没写了..生疏了生疏了 过了一下几个开源库的源码发现有些地方不太清楚，上来请教下高人们～</span><br>
+<span>cloudevents 1.0 出来了拿来玩玩，想拿mq 支撑纯异步的事件分发。</span><br>
+<span>做模型的时候遇到一个问题：</span><br>
+<span>1. 机器A 从Kakfa 收到信息M后，会将信息丢别地儿异步处理。期望在未知时间后，别的机器B 处理完后，能直接ack这条信息M。</span><br>
+<span>Kafka 嘛，能通过broker topic 和partition 之类的信息拿到对应offset 的msg block。是可以满足说任何一个instance 直接从pull 信息的，然后分发至别处处理。这个时候就不需要建立cosumer连接了</span><br>
+<span>然而看协议，例如另一台机器b 需要ack这条msg的时候，报错了，必须有generation I'd，就是一定要对应有个consumer group 链接建立? </span><br>
+<span>是否有办法在没有consumer 链接建立的情况下ack 这条信息呢？</span><br>
+<span>Hmmm 目的是想避免在pull机制下高频的建立&删除consumer 连接。似乎想歪了？</span><br>
+<span>----</span><br>
+<span>其实本质上kafka也没有完全满足我的想法，首先offset ack是顺序的，无法逐条ack。rabbitmq rocketmq mq之类的也试了试也不行：</span><br>
+<span>均无法在机器a监听到消息后，处理完后，在机器b ack这条消息。</span><br>
+<span>感觉可能是我的姿势不对，求教～</span><br>
+<span>（kakfa 弄个delay group这种好像是可以的 但是这样感觉就不怎么简洁了？多引入了一个服务来专门监听重试就，唔…）</span><br>
+<span>有些什么别的论坛适合讨论mq相关问题咧？ StackOverflow相关的不太活跃没人理哇…</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>mark一下有空看</span><br>
+</p><p><b>asi6611633: </b><br>
+<span>请配合zk</span><br>
+<span>— from meizu 16s, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>最近也在学这个…学习一下</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>美人希: </b><br>
+<span>zk我不会用，所以说下我知道的</span><br>
+<span>listener为啥不开多线程监听？不方便开的话感觉只好冗余一下再建个判读数据处理结果的事件了，处理失败的重新push回去。</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>lvcha: </b><br>
+<span>超纲了，没搞过卡夫卡。</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>明显你的模型flow就是错的 所以你永远找不到解决办法</span><br>
+<span>kafka的ack机制是为了保证他自己的exactly once delivery设计的 不是给控制ack的</span><br>
+<span>这里只有2个解决办法</span><br>
+<span>一个是你consumer发回给kafka的一个新的topic专门用来ack 而你producer subscribe这个topic （反正就是走side channel让producer重发）</span><br>
+<span>一个是你A的consumer不停的reset offset去取 但是其实你可以看到而且你reset了offset拿了以后你还要reset到别的地方继续下一条 这还是有违mq的设计初衷的 没人这么干</span><br>
+<span>所以我觉得你用这个来实现你的想法就是错的</span><br>
+<span>相对的跳过用queue自己做个异步程序用grpc就好了</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>第一眼看成mia khalifa的我还有救吗</span><br>
+</p><p><b>keamedes: </b><br>
+<span> 本帖最后由 keamedes 于 2019-12-22 14:45 编辑 </span><br>
+<span>消息对接是做消息的ack，你这个是业务的ack，不是一个层面的事</span><br>
+<span>你这个需求不需要用消息队列，毫无意义地增加系统复杂度，自己玩的就算了</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>カドモン: </b><br>
+<span>celery 中，如果设置了backend，执行任务时会给 consumer 一个值，任务执行完之后会把结果和之前返回的值作为对存起来，consumer 拿着这个值去找结果就行了。</span><br>
+<span>不过我没这么用过，一般这种任务失败就失败了，在自己的业务库中存一个结果就行了。。。。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>明显你的模型flow就是错的 所以你永远找不到解决办法</span><br>
+<span>kafka的ack机制是为了保证他自己的exactly once delivery设计的 不是给控制ack的</span><br>
+<span>顶一下版主。</span><br>
+<span>说多一点。kafka的ack是传输层的问题，中间件是用来隔离消息传递之间的机制的。你把中间件的内部状态用来做两个应用的状态通信，是一个错误的想法导致的错误的设计。</span><br>
+<span>楼主你这个让B写个A_msg_finished_topic然后A 收一下就行了。让应用的归应用，传输的归传输。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>推荐一本本书，对于虽然不是讲MQ的，但是对这种IO密集型的程序有指导意义。</span><br>
+<span>Designing Data-Intensive Applications 数据密集型应用设计</span><br>
+<span>堪称经典主要是读完你就知道问题是什么，能做什么不能做什么。</span><br>
+</p><p><b>关空空: </b><br>
+<span>風舞雪 发表于 2019-12-22 13:47</span><br>
+<span>明显你的模型flow就是错的 所以你永远找不到解决办法</span><br>
+<span>kafka的ack机制是为了保证他自己的exactly once deliv ...</span><br>
+<span>感谢指导</span><br>
+<span>对，我也想过用你说的第一种解法，开个kafka topic delay group 来做，但是等于引入了一个额外的服务来管理，所以在想是否能依靠原生机制来实现。</span><br>
+<span>想借用kafka的重发等机制来覆盖掉异步服务的生命周期管理。grpc的服务，其实还是得接个mq才方便做高可用，所以想看看kafka 本体ack能否扩展…</span><br>
+<span>从概念来说 一个consumer group 对应topic & partition 是由zk维持offset 来做的，就想能直接修改的话，就能扩展ack的含义，复用他的能力了</span><br>
+<span>----</span><br>
+<span>还参考了rabbitmq 可以支持乱序ack，但是还是遇到了只能在同一个连接ack的问题</span><br>
+</p><p><b>关空空: </b><br>
+<span>wwwwn168 发表于 2019-12-22 18:11</span><br>
+<span>明显你的模型flow就是错的 所以你永远找不到解决办法</span><br>
+<span>kafka的ack机制是为了保证他自己的exactly once deli ...</span><br>
+<span>对，我也想过，就开个topic 集群内所有机器监听她来拿异步的ack事件。不过这个想了下做在了ingress层，让消息路由回对应的连接所在的instance</span><br>
+<span>不过这样还是需要保持对应服务上的consumer一直连着kafka</span><br>
+<span>还是在想 是否有办法，不保持和kafka的consumer 连接。现在通过kafka api broker 请求的话 可以实现一个request 拿一次对应topic&partition的消息，不保持连接。但是无法ack我拿到了的消息（需要带上generationid，说是低版本的api不用 但是还是报错）</span><br>
+</p><p><b>关空空: </b><br>
+<span>keamedes 发表于 2019-12-22 14:44</span><br>
+<span>消息对接是做消息的ack，你这个是业务的ack，不是一个层面的事</span><br>
+<span>你这个需求不需要用消息队列，毫无意义地增 ...</span><br>
+<span>对，其事就是希望mq 的ack当作业务的ack lol</span><br>
+<span>这样下游业务就不需要加入逻辑来处理落盘或者丢回mq</span><br>
+<span>所以Mq在这里其实也是希望能覆盖掉重试削峰延时诸如此类的能力，保证服务高可用</span><br>
+</p><p><b>keamedes: </b><br>
+<span>关空空 发表于 2019-12-22 21:41</span><br>
+<span>对，其事就是希望mq 的ack当作业务的ack lol</span><br>
+<span>这样下游业务就不需要加入逻辑来处理落盘或者丢回mq</span><br>
+<span>保证服务高可用，谁保证kafka高可用呢？</span><br>
+<span>是维护一个replica为3的服务成本低，还是维护一个replice=3的服务+一个replice=2的kafka +replica=3的zk成本低？</span><br>
+<span>说到底还是你有什么资源和需求。</span><br>
+<span>你有团队负责kafka运维吗？</span><br>
+<span>你的目标qps多大？100w？1w？1k？</span><br>
+<span>你的并发度要求多高？1w？100？</span><br>
+<span>你的延迟要求多大？ms级？秒级？分钟级？</span><br>
+<span>没有具体的场景做设计就是无根之木，纯属扯淡</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>关空空 发表于 2019-12-22 21:41</span><br>
+<span>对，其事就是希望mq 的ack当作业务的ack lol</span><br>
+<span>这样下游业务就不需要加入逻辑来处理落盘或者丢回mq</span><br>
+<span>你这样做设计，本质上就是一个hack，</span><br>
+<span>如果是一个hack，那么为什么要做这个hack，</span><br>
+<span>有什么正当的理由这样非做不可？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904652[0-50]</guid>
+    </item>
+  </channel>
+</rss>

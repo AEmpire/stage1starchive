@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>RoamResearch有没有什么类似的替代方案？[roamedit]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>RoamResearch有没有什么类似的替代方案？[roamedit]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:36 +0000</lastBuildDate>
+    <item>
+      <title>RoamResearch有没有什么类似的替代方案？[roamedit][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944903-1-1.html</link>
+      <description>RoamResearch有没有什么类似的替代方案？[roamedit]&#13;
+ 本帖最后由 Bondrewd 于 2020-7-3 14:11 编辑 
+
+15刀一个月有点贵，而且是单人开发的小作坊软件，说实话对于服务的持续性不怎么有信心。想问问有没有类似的替代软件？
+&#13;
+Obisidan基于markdown，导致没有大纲模式和缩进功能，非常不流畅。
+&#13;
+Org-Roam在Windows下无法启动，提示需要sqlite3……
+&#13;
+编辑：最后找到一个国内个人开发者做的借鉴作品RoamEdit，可以说勉强可用吧，虽然需要手动点击同步。</description>
+      <content:encoded><![CDATA[<p><b>Bondrewd: </b><br>
+<span>RoamResearch有没有什么类似的替代方案？[roamedit]</span><br>
+<span> 本帖最后由 Bondrewd 于 2020-7-3 14:11 编辑 </span><br>
+<span>15刀一个月有点贵，而且是单人开发的小作坊软件，说实话对于服务的持续性不怎么有信心。想问问有没有类似的替代软件？</span><br>
+<span>Obisidan基于markdown，导致没有大纲模式和缩进功能，非常不流畅。</span><br>
+<span>Org-Roam在Windows下无法启动，提示需要sqlite3……</span><br>
+<span>编辑：最后找到一个国内个人开发者做的借鉴作品RoamEdit，可以说勉强可用吧，虽然需要手动点击同步。</span><br>
+</p><p><b>月千一夜: </b><br>
+<span> 本帖最后由 月千一夜 于 2020-6-30 10:38 编辑 </span><br>
+<span>Obsidian</span><br>
+<span>能折腾就 TiddlyWiki</span><br>
+<span>Edit：没注意，基本就这几种，Roam模式才兴起，要么就继续观望…</span><br>
+<span>要不试试 Scrapbox，听说过，不确定是不是这个类型的</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>月千一夜 发表于 2020-6-30 10:34</span><br>
+<span>Obsidian</span><br>
+<span>能折腾就 TiddlyWiki</span><br>
+<span>我理解的roamresearch优点有：1.大纲，整理层级关系和思路。2. 双向链接，方便跳转。3. 网状图，点与点之间的关系一目了然。</span><br>
+<span>tiddlywiki和obsidian都不是大纲模式的软件，不太好用。如果只有快捷的双向链接，不就成了wiki类软件了吗。</span><br>
+</p><p><b>Tepmnthar: </b><br>
+<span>org-roam</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>大纲模式的软件？我不太理解这个意思…</span><br>
+<span>TW 应该是可以弄大纲的啊，还是说RR有什么特别之处…</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>反正我是不看好RR，要说产品打磨度还不如Notion呢，也没见人家收费那么贵啊…</span><br>
+<span>当年的独角兽Evernote如今也免不了衰落，RR能火几年？到时候其中的笔记怎么迁移？</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>天知道: </b><br>
+<span> 本帖最后由 天知道 于 2020-6-30 13:24 编辑 </span><br>
+<span>我目前正在尝试使用TW+tiddlymap，不过似乎需要自己写一些底层的JS或宏？</span><br>
+<span>非程序员，现在连TW高级搜索中的筛选器都不知道怎么用。</span><br>
+<span>我没用过RR，看了几个介绍文章和视频，感觉它主要是能自动双向，同时粒度可以划分得够小，结合自动双向可以自动展示相关文档？TW也可以双向，粒度也建议尽可能小（tiddler内容），但目前无法自动推荐相关内容，同时Tiddlymap需要自己手动连接：虽然对整理有用，但还是有点烦。</span><br>
+<span>WikiText超级好评，感觉比MD好用多了，尤其是表格这块，加上Katex，数学与化学符号都没问题。但目前似乎没有把Wikitext转成PDF或DOCX的东西吧。</span><br>
+<span>TW最好的地方：就是一个HTML，有些时候要批量修改时直接上VSC就可以了；而且数据保证不会被商家套牢。</span><br>
+</p><p><b>狂笨de音速: </b><br>
+<span>听说notion下下周就支持了</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>月千一夜 发表于 2020-6-30 12:33</span><br>
+<span>大纲模式的软件？我不太理解这个意思…</span><br>
+<span>TW 应该是可以弄大纲的啊，还是说RR有什么特别之处…</span><br>
+<span>outliner，就是workflowy和org-mode/cherrytree这种软件。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>Tepmnthar 发表于 2020-6-30 12:28</span><br>
+<span>org-roam</span><br>
+<span>windows下提示我需要安装sqlite3</span><br>
+</p><p><b>Tepmnthar: </b><br>
+<span>Bondrewd 发表于 2020-6-30 15:22</span><br>
+<span> windows下提示我需要安装sqlite3</span><br>
+<span>啥平台都要装的，你环境变量能找到sqlite就行了</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>Tepmnthar 发表于 2020-6-30 15:32</span><br>
+<span>啥平台都要装的，你环境变量能找到sqlite就行了</span><br>
+<span>也行，再试试折腾org-roam</span><br>
+</p><p><b>win8: </b><br>
+<span>notion现在真的被吹上了天我还没用过 …和roam比起来evernote真的太不思进取了</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>Bondrewd 发表于 2020-6-30 15:22</span><br>
+<span>outliner，就是workflowy和org-mode/cherrytree这种软件。</span><br>
+<span>可以看看这个，我刚刚发现的</span><br>
+<span>https://giffmex.org/stroll/stroll.html</span><br>
+<span>在TW实现所谓的双链和引用</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>Tepmnthar 发表于 2020-6-30 15:32</span><br>
+<span>啥平台都要装的，你环境变量能找到sqlite就行了</span><br>
+<span>仔细试了了一下，除了启动的时候sqlite查询超时以外，要展示网状图还需要设置org-roam-protocol，而这个传输协议目前仅支持Linux和MacOS。如果没有网状图功能单纯使用链接功能的话，我觉得可以直接就用Org-Mode，内置的[[]]快速链接还是很方便的。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>win8 发表于 2020-6-30 15:41</span><br>
+<span>notion现在真的被吹上了天我还没用过 …和roam比起来evernote真的太不思进取了</span><br>
+<span>notion我用过，没品出来厉害的地方。</span><br>
+</p><p><b>天知道: </b><br>
+<span> 本帖最后由 天知道 于 2020-6-30 16:12 编辑 </span><br>
+<span>win8 发表于 2020-6-30 15:41</span><br>
+<span>notion现在真的被吹上了天我还没用过 …和roam比起来evernote真的太不思进取了</span><br>
+<span>Notion外观真的不错，随意拖拽的Block有种使用Onenote的快感，而且理念上把笔记当成表格或数据库来处理，给我一种低配版Filemaker的感觉；但。。。。真的没心情再去折腾了。</span><br>
+<span>Evernote从2018年感觉就没什么改进了，印象笔记倒是改进不少，但都冲着变现去的，而且WIN版是后娘养的。目前我把它当作收集篮了。</span><br>
+</p><p><b>狂笨de音速: </b><br>
+<span>印象笔记在推印象团队，听说今天开始测试</span><br>
+</p><p><b>win8: </b><br>
+<span>我从前折腾wiz，最近几年一直是印象和有道。印象笔记也是主要采集网页，有道写点东西直接分享网页链接。新工具一个都没上手</span><br>
+</p><p><b>天知道: </b><br>
+<span> 本帖最后由 天知道 于 2020-6-30 18:09 编辑 </span><br>
+<span>月千一夜 发表于 2020-6-30 15:52</span><br>
+<span>可以看看这个，我刚刚发现的</span><br>
+<span>https://giffmex.org/stroll/stroll.html</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>又试了一下，Obsidian可以开启heading和list的折叠功能，勉强能当作一个outliner来使用。</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>问一下这些笔记有内置 web clipper 吗，现在还守着 Joplin 的原因基本上就是这个了</span><br>
+</p><p><b>Gal3rielol: </b><br>
+<span>感觉最近roam类的软件火起来了?</span><br>
+<span>我个人的选择还是org-roam, 本身org-mode自身的功能就很强大, Spacemac/Evil的编辑模式更是割舍不开.</span><br>
+<span>我自己组了一个spacemacs的layer, 其实就只用到了org-roam, org-roam-server, org-journal和deft</span><br>
+<span>我感觉不太看好roam research的前景, 双向链接这个属于难想出来但是容易实现的idea, 同类产品以后估计会挺多的.</span><br>
+</p><p><b>Gal3rielol: </b><br>
+<span>最近研究roam类软件对我转变思路最大的一句话还是org-mode作者说的,</span><br>
+<span>写一段笔记的时候要问自己在什么上下文的情况下我会想要见到这段笔记.</span><br>
+</p><p><b>利维坦与霍布斯: </b><br>
+<span>这些软件好像都没有全平台同步啊</span><br>
+</p><p><b>Gal3rielol: </b><br>
+<span>利维坦与霍布斯 发表于 2020-7-1 03:43</span><br>
+<span>这些软件好像都没有全平台同步啊</span><br>
+<span>都是纯文本文件 我是拿Dropbox同步</span><br>
+<span>任何一个云储存平台都可以来做同步</span><br>
+</p><p><b>天知道: </b><br>
+<span>Uranium233 发表于 2020-7-1 01:30</span><br>
+<span>问一下这些笔记有内置 web clipper 吗，现在还守着 Joplin 的原因基本上就是这个了 ...</span><br>
+<span>似乎基本上都没有；所以这个功能就让给印象或者为知这类做得好的，然后再把剪辑的网络内容转入自己的笔记中吧。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>Uranium233 发表于 2020-7-1 01:30</span><br>
+<span>问一下这些笔记有内置 web clipper 吗，现在还守着 Joplin 的原因基本上就是这个了 ...</span><br>
+<span>这些软件一般都没有网页剪贴功能，因为设计思路就不是印象笔记那种收藏中心（垃圾回收站）</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>Gal3rielol 发表于 2020-7-1 01:50</span><br>
+<span>感觉最近roam类的软件火起来了?</span><br>
+<span>我个人的选择还是org-roam, 本身org-mode自身的功能就很强大, Spacemac/Ev ...</span><br>
+<span>Windows下很难配置org-roam</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>Bondrewd 发表于 2020-7-1 06:28</span><br>
+<span>Windows下很难配置org-roam</span><br>
+<span>主要是配置 Emacs 吧，把它配置好后面的都好说了</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>月千一夜 发表于 2020-7-1 08:12</span><br>
+<span>主要是配置 Emacs 吧，把它配置好后面的都好说了</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2 ...</span><br>
+<span>org-roam要展示网状图需要用到org-roam-protocol，官方文档里根本没提Windows，只有Linux和MacOS</span><br>
+</p><p><b>heyeshuang: </b><br>
+<span>有一些方案还没有成熟，我先列在这里</span><br>
+<span>zettlr</span><br>
+<span>foam</span><br>
+<span>athens</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>https://roamedit.com/ </span><br>
+<span>最后找到一个国内个人开发者做的借鉴作品RoamEdit，可以说勉强可用吧，虽然需要手动点击同步。</span><br>
+<img src="http://tva4.sinaimg.cn/large/007WH5Y2ly1ggdr8vk95hj31700niwig.jpg" title="http://tva4.sinaimg.cn/large/007WH5Y2ly1ggdr8vk95hj31700niwig.jpg"><br>
+</p><p><b>Uranium233: </b><br>
+<span>打算试一下 org-roam，看起来 Windows 只要把 emacs 装在 wsl 就行，想要 GUI 可以用 Windows X Server。这里有个参考 https://github.com/hubisan/emacs-wsl</span><br>
+</p><p><b>天知道: </b><br>
+<span>Bondrewd 发表于 2020-7-3 14:13</span><br>
+<span>https://roamedit.com/ </span><br>
+<span>最后找到一个国内个人开发者做的借鉴作品RoamEdit，可以说勉强可用吧，虽然需要手 ...</span><br>
+<span>对我来说，这个的主要问题是不支持Fx：从注册账号开始就不支持——注册时直接要求使用Chrome，用Fx看不到注册框。询问了作者，他说会支持的，再等吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944903[0-50]</guid>
+    </item>
+  </channel>
+</rss>

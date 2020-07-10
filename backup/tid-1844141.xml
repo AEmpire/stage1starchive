@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>LEETCODE算法问题又来了！</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>LEETCODE算法问题又来了！</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:18:00 +0000</lastBuildDate>
+    <item>
+      <title>LEETCODE算法问题又来了！[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844141-1-1.html</link>
+      <description>LEETCODE算法问题又来了！&#13;
+ 本帖最后由 jason_gideon 于 2019-7-4 07:20 编辑 
+
+154. Find Minimum in Rotated Sorted Array II
+&#13;
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+&#13;
+这一题二分查找，边界问题。为什么所有答案都是拿mid的值和右边的值比？
+&#13;
+为什么不能拿mid的值和左边的值比?</description>
+      <content:encoded><![CDATA[<p><b>jason_gideon: </b><br>
+<span>LEETCODE算法问题又来了！</span><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-4 07:20 编辑 </span><br>
+<span>154. Find Minimum in Rotated Sorted Array II</span><br>
+<span>https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/</span><br>
+<span>这一题二分查找，边界问题。为什么所有答案都是拿mid的值和右边的值比？</span><br>
+<span>为什么不能拿mid的值和左边的值比?</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-4 08:59 编辑 </span><br>
+<span>如果和左边比。是不是二分的时候求上界？</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>https://www.cnblogs.com/grandyang/p/4325648.html</span><br>
+</p><p><b>traburiss: </b><br>
+<span>应该不行，因为数组是递增的（旋转点除外），向左比较求的是最大值，向右比较才算最小值。</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>alvin051414 发表于 2019-7-4 09:00</span><br>
+<span>https://www.cnblogs.com/grandyang/p/4325648.html</span><br>
+<span>你给的链接不是同一道题。</span><br>
+<span>链接里这个思路是闭区间二分查找，在查找过程中return 答案。</span><br>
+<span>我翻了一下154的讨论区貌似没有看到闭区间的写法。153倒是有闭区间的写法，这也是我的一个疑问。</span><br>
+</p><p><b>呆鹅: </b><br>
+<span>这题其实挺蠢的，因为二分法最坏情况还是O(n)，和扫一遍没区别。</span><br>
+</p><p><b>心二: </b><br>
+<span>呆鹅 发表于 2019-7-4 10:52</span><br>
+<span>这题其实挺蠢的，因为二分法最坏情况还是O(n)，和扫一遍没区别。</span><br>
+<span>不是o(log n)?</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ebuw: </b><br>
+<span>最优不是二分法</span><br>
+</p><p><b>kts1mg: </b><br>
+<span>为什么最近好算法帖子？</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>心二 发表于 2019-7-4 13:10</span><br>
+<span>不是o(log n)?</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>不是，因为有重复，所以最坏情况是On</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>呆鹅 发表于 2019-7-4 10:52</span><br>
+<span>这题其实挺蠢的，因为二分法最坏情况还是O(n)，和扫一遍没区别。</span><br>
+<span>求解这题为什么一定要和右边比，就因为MID向下取整了？</span><br>
+</p><p><b>Phoenix_0592: </b><br>
+<span>jason_gideon 发表于 2019-7-4 13:35</span><br>
+<span>求解这题为什么一定要和右边比，就因为MID向下取整了？</span><br>
+<span>可以和左边比呀</span><br>
+<span>核心是判断minimum不在左边或者不在右边</span><br>
+<span>你画个图case by case讨论下</span><br>
+<span>和右边比大概是因为这样写起来比较concise</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844141[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,877 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:10:33 +0000</lastBuildDate>
+    <item>
+      <title>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1826103-1-1.html</link>
+      <description>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】&#13;
+ 本帖最后由 pgain2004 于 2020-2-25 13:24 编辑 
+
+业余捣鼓了那么些年头的CSS后，总结了之前S1 MUX和其它一些主题的不足，重新写了这个：
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVBVO.jpg
+&#13;
+相比之前的MUX，NUX：
+&#13;
+1、对长宽变化的适应性更强，有更完善的窄屏自适配布局；
+&#13;
+2、覆盖更全面，连大乱斗页面都适配了；
+&#13;
+3、大量使用utf8字符、emoji、svg、css绘制等来替代Discuz!自带、抠边都抠不好的残废图标（基于对emoji的支持，不同平台会有一定程度的显示差异，Win7等支持差的老系统可能就比较挫了，我没测试）；
+&#13;
+4、相比MUX的卡片+阴影，采用浅勾边风格，更贴近论坛原样式；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVyPH.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnV6Gd.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVrIe.jpg
+&#13;
+5、使用全局变量进行颜色设置，色调主题的更换和自定义都十分方便；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVwqK.gif
+&#13;
+使用方法：
+&#13;
+您需要先安装Stylus(Firefox/Chromium/Opera)、xStyle(Firefox/Chromium)、Stylish(官方但流氓，不推荐)或同类扩展，支持所有主流浏览器(除非你还在用IE)。
+&#13;
+然后通过主题页面安装：https://userstyles.org/styles/171198/s1-nux 
+&#13;
+内含一些简单的自定义选项：https://s2.ax1x.com/2019/04/26/EnVDaD.jpg
+&#13;
+顺便，论坛表情进行了一小波更新，这是更新说明帖：https://bbs.saraba1st.com/2b/thread-1825867-1-1.html，三天只有两个有效回复也太惨了口巴</description>
+      <content:encoded><![CDATA[<p><b>pgain2004: </b><br>
+<span>Litccc 发表于 2019-11-9 11:55</span><br>
+<span>有个bug，在快速发帖页面上传图片以后，光标移到未选择的图片上会疯狂反复横跳 ...</span><br>
+<span>看了一下，这个主要是因为：</span><br>
+<span>①当鼠标指向链接，图片预览会把页面下方撑出多一片空间，页面上滚；</span><br>
+<span>②导致鼠标离开了链接，图片消失，页面又回到原来的位置；</span><br>
+<span>③鼠标又因此和链接重叠……如此循环。</span><br>
+<span>只要不完全把页面滚到底部，即使出现预览图片也不会让页面自动上滚(这是浏览器照顾玩家能看到页面最底部内容的一个自动逻辑)，就不会导致这种情况了。</span><br>
+<span>暂时没想到如何从样式上解决。</span><br>
+</p><p><b>Litccc: </b><br>
+<span>pgain2004 发表于 2019-11-9 16:14</span><br>
+<span>看了一下，这个主要是因为：</span><br>
+<span>①当鼠标指向链接，图片预览会把页面下方撑出多一片空间，页面上滚；</span><br>
+<span>②导致 ...</span><br>
+<span>老老实实用图床好了</span><br>
+</p><p><b>小修: </b><br>
+<span> 本帖最后由 小修 于 2019-11-24 01:12 编辑 </span><br>
+<span>用上了，很好。</span><br>
+<span>好像对table标签兼容性有问题。</span><br>
+<span>具体可以用这个style看</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1867524&page=1#pid45604358</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>小修 发表于 2019-11-24 01:10</span><br>
+<span>用上了，很好。</span><br>
+<span>好像对table标签兼容性有问题。</span><br>
+<span>具体可以用这个style看</span><br>
+<span>table标签兼容性？</span><br>
+</p><p><b>小修: </b><br>
+<span>pgain2004 发表于 2019-11-24 12:00</span><br>
+<span>table标签兼容性？</span><br>
+<span>我在帖子里插入了个表格，css样式不对了，原版4张图原始大小，这个会改图大小。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>小修 发表于 2019-11-24 13:19</span><br>
+<span>我在帖子里插入了个表格，css样式不对了，原版4张图原始大小，这个会改图大小。</span><br>
+<span> ...</span><br>
+<span>看了一下， 那个table自带这样的代码：</span><br>
+<span><table class="t_table" style="width:150px" cellspacing="0" bgcolor="LemonChiffon"></span><br>
+<span>也就是说它自身的宽度是150像素，而Discuz!系统加载图片时经常忽略该限制，强行按原尺寸显示，撑大了整个表格；偶尔还会在加载中超出网页边缘。</span><br>
+<span>所以我在脚本中给帖内图片加了个限制：max-width:100%，也就是说图片的最大宽度和母元素宽度相当，不会超出，于是你的图就被限制在150px内了。不太清楚Discuz!能否设置table宽度，但个人觉得用母元素限制子元素尺寸算是个正常思路……</span><br>
+</p><p><b>sfour: </b><br>
+<span>好好好</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>求助，如何让漫区版头默认显示出来</span><br>
+</p><p><b>小修: </b><br>
+<span>pgain2004 发表于 2019-11-24 17:29</span><br>
+<span>看了一下， 那个table自带这样的代码：</span><br>
+<span>也就是说它自身的宽度是150像素，而Discuz!系统加载图片时经常忽 ...</span><br>
+<span>没事 反正table标签已经落伍了。我以后注意不用好了 感谢大佬</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>xzhlj0325 发表于 2019-11-24 17:34</span><br>
+<span>求助，如何让漫区版头默认显示出来</span><br>
+<span>已增加选项，不过是全板块通用的。</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>pgain2004 发表于 2019-11-24 19:02</span><br>
+<span>已增加选项，不过是全板块通用的。</span><br>
+<span>哦哦，感谢</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>黑色主题无限好。唯一的问题是有些帖子全文是黑色字体，就完全看不到了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>胡桃丶 发表于 2019-11-24 19:10</span><br>
+<span>黑色主题无限好。唯一的问题是有些帖子全文是黑色字体，就完全看不到了 ...</span><br>
+<span>倒是可以给一个选项，配合黑暗类主体，将特定颜色的文字变色，例如被指定为纯黑(#000000)的。但这个判断范围非常窄，单靠CSS能做的终究有限。</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>pgain2004 发表于 2019-11-24 20:46</span><br>
+<span>倒是可以给一个选项，配合黑暗类主体，将特定颜色的文字变色，例如被指定为纯黑(#000000)的。但这个判断 ...</span><br>
+<span>也没必要那么智能。。暴力点强制所有文字统一颜色就行了，有需要就开</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>胡桃丶 发表于 2019-11-25 02:22</span><br>
+<span>也没必要那么智能。。暴力点强制所有文字统一颜色就行了，有需要就开 ...</span><br>
+<span>最近陆陆续续收集了一些反色的案例，刚更新了相关可选项(默认开启)，你看看效果，如果将来遇到未生效的（也就是字色没覆盖进来的）可以来这反馈</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>pgain2004 发表于 2019-12-6 19:27</span><br>
+<span>最近陆陆续续收集了一些反色的案例，刚更新了相关可选项(默认开启)，你看看效果，如果将来遇到未生效的（ ...</span><br>
+<span>老哥太给力了！</span><br>
+</p><p><b>Sacko9: </b><br>
+<span>非常感谢！</span><br>
+</p><p><b>离魂仙: </b><br>
+<span> 本帖最后由 离魂仙 于 2020-2-23 14:25 编辑 </span><br>
+<span>首先感谢LZ的主题，一直在用</span><br>
+<span>然后最近S1又别扭了起来，我看到有坛友写了这俩脚本，很实用</span><br>
+<span>但长图缩小跟S1 NUX不能共存，希望可以整合在一起</span><br>
+<span>S1长图缩小</span><br>
+<span>删除S1论坛B站播放器</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>离魂仙 发表于 2020-2-23 14:24</span><br>
+<span>首先感谢LZ的主题，一直在用</span><br>
+<span>然后最近S1又别扭了起来，我看到有坛友写了这俩脚本，很实用</span><br>
+<span>但长图缩小跟S1 N ...</span><br>
+<span>长图高度限制这个用CSS主题实现更加简单灵活……不过代码什么的要等我骨折出院了。</span><br>
+</p><p><b>bushfu: </b><br>
+<span>感谢</span><br>
+</p><p><b>SYSUKuuga: </b><br>
+<span>当初装了stylus后自己找到了nux，没想到在外野原来是有原贴的，感谢楼主</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>离魂仙 发表于 2020-2-23 14:24</span><br>
+<span>首先感谢LZ的主题，一直在用</span><br>
+<span>然后最近S1又别扭了起来，我看到有坛友写了这俩脚本，很实用</span><br>
+<span>但长图缩小跟S1 N ...</span><br>
+<span>更新了“帖内图片最大高度选项”，默认是无限制(none)，你用的那个脚本则限定了“800px”。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>顺便修正了主页板块的屏蔽选项，咋都没人反馈这问题的……</span><br>
+</p><p><b>dulun59: </b><br>
+<span>棒 回家试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1826103[100-150]</guid>
+    </item>
+    <item>
+      <title>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1826103-1-1.html</link>
+      <description>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】&#13;
+ 本帖最后由 pgain2004 于 2020-2-25 13:24 编辑 
+
+业余捣鼓了那么些年头的CSS后，总结了之前S1 MUX和其它一些主题的不足，重新写了这个：
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVBVO.jpg
+&#13;
+相比之前的MUX，NUX：
+&#13;
+1、对长宽变化的适应性更强，有更完善的窄屏自适配布局；
+&#13;
+2、覆盖更全面，连大乱斗页面都适配了；
+&#13;
+3、大量使用utf8字符、emoji、svg、css绘制等来替代Discuz!自带、抠边都抠不好的残废图标（基于对emoji的支持，不同平台会有一定程度的显示差异，Win7等支持差的老系统可能就比较挫了，我没测试）；
+&#13;
+4、相比MUX的卡片+阴影，采用浅勾边风格，更贴近论坛原样式；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVyPH.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnV6Gd.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVrIe.jpg
+&#13;
+5、使用全局变量进行颜色设置，色调主题的更换和自定义都十分方便；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVwqK.gif
+&#13;
+使用方法：
+&#13;
+您需要先安装Stylus(Firefox/Chromium/Opera)、xStyle(Firefox/Chromium)、Stylish(官方但流氓，不推荐)或同类扩展，支持所有主流浏览器(除非你还在用IE)。
+&#13;
+然后通过主题页面安装：https://userstyles.org/styles/171198/s1-nux 
+&#13;
+内含一些简单的自定义选项：https://s2.ax1x.com/2019/04/26/EnVDaD.jpg
+&#13;
+顺便，论坛表情进行了一小波更新，这是更新说明帖：https://bbs.saraba1st.com/2b/thread-1825867-1-1.html，三天只有两个有效回复也太惨了口巴</description>
+      <content:encoded><![CDATA[<p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 20:58</span><br>
+<span>这样分布的</span><br>
+<span>修复了，既然正序被不定项影响，那就倒着数好了</span><br>
+</p><p><b>TRACESPY: </b><br>
+<span>反馈个问题，点进用户的主题或回复，没有“下一页”</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>TRACESPY 发表于 2019-4-23 21:34</span><br>
+<span>反馈个问题，点进用户的主题或回复，没有“下一页”</span><br>
+<span>部分页面（例如用户主题和回复）的页码栏并没有放到顶栏，就在列表底部。</span><br>
+<span>迟点看能不能也放上去。</span><br>
+</p><p><b>Zepp: </b><br>
+<span>提一个建议哈。隐藏用户信息，鼠标悬浮时才显示这个功能很好。但有点不爽的就是，鼠标放上去用户信息一出来，半个页面的内容都往下动，鼠标一移开，半个页面的内容又都往上飞，对视觉干扰很大。不知道能不能让用户信息出现在一个小窗内，大概就像下图一样</span><br>
+<img src="https://i.loli.net/2019/04/23/5cbf187f59e0e.png" title="https://i.loli.net/2019/04/23/5cbf187f59e0e.png"><br>
+</p><p><b>moekyo: </b><br>
+<img src="https://ws1.sinaimg.cn/large/73508f0fgy1g2b9p7v2okj20ew0afq3g.jpg" title="https://ws1.sinaimg.cn/large/73508f0fgy1g2b9p7v2okj20ew0afq3g.jpg"><br>
+<span>这个设置是在调出来的？</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Zepp 发表于 2019-4-23 21:52</span><br>
+<span>提一个建议哈。隐藏用户信息，鼠标悬浮时才显示这个功能很好。但有点不爽的就是，鼠标放上去用户信息一出来 ...</span><br>
+<span>做不到另外开一个窗口的，这是纯CSS带来的限制。当然我可以想办法用别的思路来实现……</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>moekyo 发表于 2019-4-23 22:13</span><br>
+<span>这个设置是在调出来的？</span><br>
+<span>点上面的customize settings就会展开出现下面的项目。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>pgain2004 发表于 2019-4-23 22:25</span><br>
+<span>点上面的customize settings就会展开出现下面的项目。真没看到，难道是Stylish的设置项？</span><br>
+</p><p><b>Zepp: </b><br>
+<span>moekyo 发表于 2019-4-23 22:56</span><br>
+<span>真没看到，难道是Stylish的设置项？</span><br>
+<span>那个页面是在userstyles.org上的，看一楼加粗链接</span><br>
+</p><p><b>elxy: </b><br>
+<span>pgain2004 发表于 2019-4-23 01:05</span><br>
+<span>如果你是指顶部那些快捷入口……不来看看我写的练习用脚本么，会将顶部快捷入口替换为你收藏的板块+几个 ...</span><br>
+<span>你写的练习用脚本在哪儿？UserStyle里没找到。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>Zepp 发表于 2019-4-23 22:59</span><br>
+<span>那个页面是在userstyles.org上的，看一楼加粗链接</span><br>
+<span>谢谢，眼瞎了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>elxy 发表于 2019-4-23 23:02</span><br>
+<span>你写的练习用脚本在哪儿？UserStyle里没找到。</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1575248-0-1.html</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>感觉还是mux美观</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>xzhlj0325 发表于 2019-4-23 23:27</span><br>
+<span>感觉还是mux美观</span><br>
+<span>你不说具体哪为什么，我也是没办法的……</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>pgain2004 发表于 2019-4-23 23:32</span><br>
+<span>你不说具体哪为什么，我也是没办法的……</span><br>
+<span>总的来说ui色调更淡，帖子标题前的分类，顶上的导航栏等。nux可能对原生用户比较友好吧。我mux用了快1年了，不适应</span><br>
+</p><p><b>拾与拾柒: </b><br>
+<span>太好看了！</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>xzhlj0325 发表于 2019-4-24 00:08</span><br>
+<span>总的来说ui色调更淡，帖子标题前的分类，顶上的导航栏等。nux可能对原生用户比较友好吧。我mux用了快1年 ...</span><br>
+<span>这……主帖次帖也提了，这次更换和自定义主题都很方便还说了方法。例如用Stylus可以直接点颜色然后拖动，相应网页会随拖动即时变化。</span><br>
+<span>调好后开个txt把这段配色代码保存下来就行了。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Zepp 发表于 2019-4-23 21:52</span><br>
+<span>提一个建议哈。隐藏用户信息，鼠标悬浮时才显示这个功能很好。但有点不爽的就是，鼠标放上去用户信息一出来 ...</span><br>
+<span>曲线救国，现在有个“悬浮显示风格2”的选项，你看如何。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>你们会不会看不到主帖微博图床的图了？</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>反应一个bug 在鼠标移到主题最左边的tag后鼠标再移到主论坛有子分区选项（应该叫这个？）的时候子分区选项会漂移</span><br>
+</p><p><b>OiCkilL: </b><br>
+<span> 本帖最后由 OiCkilL 于 2019-4-24 16:35 编辑 </span><br>
+<span>回帖框不是居中的，悬浮动作按钮图标错位</span><br>
+<span>动作按钮中的回帖按钮无效</span><br>
+<span>另外，希望可以把头像和文字区域的间距拉大一点，现在感觉有点太近了</span><br>
+<span>系统是 macOS High Sierra，浏览器是 Vivaldi 2.5.1497.4</span><br>
+</p><p><b>hisousihou: </b><br>
+<span> 本帖最后由 hisousihou 于 2019-4-24 16:44 编辑 </span><br>
+<span>那个……现在是怎么样设置宽窄屏的？我这看着还是太宽了，如何让内容集中在中央？</span><br>
+<span>哦找到了……在论坛主页打开编辑以后看到了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>OiCkilL 发表于 2019-4-24 16:31</span><br>
+<span>回帖框不是居中的，悬浮动作按钮图标错位</span><br>
+<span>动作按钮中的回帖按钮无效</span><br>
+<span>1、回帖框右边的那个窄空列本来是放快速表情的，因为狗叔恢复窄屏时把这次表情更新的文件搞没了，现在等他修复呢……</span><br>
+<span>2、如果你这里看⮝是一个空框，证明macOS High Sierra不支持Unicode 7.0就有的这个符号……我已经换成更普通的▲了，虽然没那么美观，你看行不。</span><br>
+<span>3、头像和内容的间隔这个改是不可能改的，这辈子都不可能改的，还请先习惯一下看看</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>唯一指定用户名 发表于 2019-4-24 16:20</span><br>
+<span>反应一个bug 在鼠标移到主题最左边的tag后鼠标再移到主论坛有子分区选项（应该叫这个？）的时候子分区选项 ...</span><br>
+<span>修复了。</span><br>
+</p><p><b>Zepp: </b><br>
+<span>pgain2004 发表于 2019-4-24 15:33</span><br>
+<span>曲线救国，现在有个“悬浮显示风格2”的选项，你看如何。</span><br>
+<span>啊不错不错，这个效果很好很喜欢，辛苦了！</span><br>
+</p><p><b>有点神奇: </b><br>
+<span>咦，现在头像那不能看到最后访问时间了吗，只能点进用户看了</span><br>
+</p><p><b>酒丸: </b><br>
+<span>强制宽度好评！</span><br>
+</p><p><b>野々原雛桜: </b><br>
+<span>更喜欢mux的配色，我只要信息密度越高越好，在单位摸鱼都是直接用论坛自带的archiver，nux的配色有点不够鲜明，楼与楼之间没有分隔开反而觉得太平面了，其他小改动还是不错的，我试过nux和mux都开，效果好像也不错，就是灰色的底色不习惯，能换会经典尿黄就好了</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>nux默认的dark theme太黑，黑过头了。以前用的是mux dark，能不能把mux dark的配色移植一套过来用于选择？</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>爵士人生 发表于 2019-4-26 10:56</span><br>
+<span>nux默认的dark theme太黑，黑过头了。以前用的是mux dark，能不能把mux dark的配色移植一套过来用于选择？ ...</span><br>
+<span>今晚加一个间隔色对比度更高，底色稍浅的主题好了，但可能不会用绿偏碧的主色调。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span> 本帖最后由 pgain2004 于 2019-4-26 18:02 编辑 </span><br>
+<span>爵士人生 发表于 2019-4-26 10:56</span><br>
+<span>nux默认的dark theme太黑，黑过头了。以前用的是mux dark，能不能把mux dark的配色移植一套过来用于选择？ ...</span><br>
+<span>/*jungle theme*/</span><br>
+<span>    --bg:#202221;</span><br>
+<span>    --pri:#26342a;</span><br>
+<span>    --prid:#445948;</span><br>
+<span>    --pril:#1e261f;</span><br>
+<span>    --bn:#5f8e00;</span><br>
+<span>    --bnd:#1f5500;</span><br>
+<span>    --sec:#c7e80b;</span><br>
+<span>    --secp:#c9d586;</span><br>
+<span>    --t:#a2afa7;</span><br>
+<span>    --tl:#c7d6ca;</span><br>
+<span>    --tg:#5e645f;</span><br>
+<span>    --pt:#aaafa2;</span><br>
+<span>    --ptl:#cfd6c7;</span><br>
+<span>    --icl:#000;</span><br>
+<span>    --ic:#333;</span><br>
+<span>    --icd:#666;</span><br>
+<span>    --icdd:#ccc;</span><br>
+<span>    --icddd:#fff;</span><br>
+<span>    --shd:#000;</span><br>
+<span>    --shdl:#161616;</span><br>
+<span>/**/</span><br>
+<span>你先按2楼介绍的方法试试看，比较绿意盎然的暗色主题。觉得确实行，或者有什么意见，可以修改完再帖上来，我也觉得没问题就添加到正式主题里去。</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>pgain2004 发表于 2019-4-26 18:00</span><br>
+<span>你先按2楼介绍的方法试试看，比较绿意盎然的暗色主题。觉得确实行，或者有什么意见，可以修改完再帖上来 ...</span><br>
+<span>拿S1 MUX DARK的配色对着改了一下</span><br>
+<span>/*jungle theme*/</span><br>
+<span>    --bg:#262626;</span><br>
+<span>    --pri:#263238;</span><br>
+<span>    --prid:#151515;</span><br>
+<span>    --pril:#171717;</span><br>
+<span>    --bn:#424242;</span><br>
+<span>    --bnd:#424242;</span><br>
+<span>    --sec:#F26C4F;</span><br>
+<span>    --secp:#F26C4F;</span><br>
+<span>    --t:#bbbbbb;</span><br>
+<span>    --tl:#c7d6ca;</span><br>
+<span>    --tg:#bbbbbb;</span><br>
+<span>    --pt:#bbbbbb;</span><br>
+<span>    --ptl:#cfd6c7;</span><br>
+<span>    --icl:#000;</span><br>
+<span>    --ic:#333;</span><br>
+<span>    --icd:#666;</span><br>
+<span>    --icdd:#ccc;</span><br>
+<span>    --icddd:#fff;</span><br>
+<span>    --shd:#000;</span><br>
+<span>    --shdl:#161616;</span><br>
+<span>/**/</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>爵士人生 发表于 2019-4-26 19:19</span><br>
+<span>拿S1 MUX DARK的配色对着改了一下</span><br>
+<span>加上了。虽然我觉得非卡片布局下这底色还是有点浅。</span><br>
+</p><p><b>dq188: </b><br>
+<span>只是个人看法这种布局翻页不大方便，所以我把CSS里隐藏的</span><br>
+<span>/*板块页宽翻页按钮.boardnav #autopbn,*/</span><br>
+<span>弄出来了，单纯感觉这样舒服一些</span><br>
+</p><p><b>Litccc: </b><br>
+<span>建议在帖子和板块下方加入翻页键，不然每次都要把鼠标移上去，不符合操作逻辑</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Litccc 发表于 2019-4-27 08:39</span><br>
+<span>建议在帖子和板块下方加入翻页键，不然每次都要把鼠标移上去，不符合操作逻辑 ...</span><br>
+<span>加上了加上了，请更新，并且加上的翻页按钮并不是原来那个（而是借用了原底部页码栏的“下一页”按钮），不会直接扩展列表造成问题。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>更新了主页风格，并增加加大版主页选项</span><br>
+</p><p><b>pgain2004: </b><br>
+<span> 本帖最后由 pgain2004 于 2019-6-8 11:03 编辑 </span><br>
+<span>V1.03</span><br>
+<span>增加两种配色；</span><br>
+<span>为板块主题列表底部增加“下一页”宽按钮（非原按钮）；</span><br>
+<span>优化主题列表细节；</span><br>
+<span>改善强制窄屏适配；</span><br>
+<span>快捷导航改为满屏高；</span><br>
+<span>修改主页格式；</span><br>
+<span>增加加大主页选项；</span><br>
+<span>修复小黑屋“更多”按钮的显示问题。</span><br>
+<span>V1.02</span><br>
+<span>增加主题内用户信息显示选项；</span><br>
+<span>增加强制宽度选项，当其被启用后，【自定义宽度(px)】和【“自定义宽度”值+40px】才会生效；</span><br>
+<span>搜索页已访问链接以浅色显示；</span><br>
+<span>增加快捷导航按钮右置选项(不推荐)；</span><br>
+<span>增加Chromium系浏览器适配选项(Chromium居然仍不支持sticky特性！？)；</span><br>
+<span>增加用户信息自动收纳新风格选项；</span><br>
+<span>优化用户信息侧栏布局；</span><br>
+<span>修复快捷入口子菜单错位问题。</span><br>
+<span>V1.0</span><br>
+<span>初版发布。</span><br>
+<span>以后版本更新内容就在这个回复发，看最后能有多长。</span><br>
+</p><p><b>qwased: </b><br>
+<span>捞一下，使用一周了感觉良好，蟹蟹楼主</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Prushka: </b><br>
+<span>如果自定义了配色方案是不是更新之后会被覆盖</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Prushka 发表于 2019-6-26 09:03</span><br>
+<span>如果自定义了配色方案是不是更新之后会被覆盖</span><br>
+<span>是，这点无可奈何，所以要么保存好自定义的那段代码，升级后覆盖，要么复制为不受升级影响的独立主题。</span><br>
+<span>另一方面，因为现在已经相对完善，我不会很频繁地更新，所以……</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>趁着论坛复活更了一轮，适配了新的充值页面，顺便自己顶一下帖</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>自定义宽度好评，就是主题帖内用户信息和回复内容挨太近了，既然不能改那只有习惯先</span><br>
+</p><p><b>kwin_: </b><br>
+<span>支持，一直觉得很好用</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span>刚用上，感觉焕然一新，好评如潮。</span><br>
+</p><p><b>Kobayashi: </b><br>
+<span>才看到，想给楼主补鹅！！！！！</span><br>
+</p><p><b>yeran: </b><br>
+<span>谢谢老哥</span><br>
+</p><p><b>Litccc: </b><br>
+<span>有个bug，在快速发帖页面上传图片以后，光标移到未选择的图片上会疯狂反复横跳</span><br>
+</p><p><b>酒丸: </b><br>
+<span>一直在用，简直太棒了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Litccc 发表于 2019-11-9 11:55</span><br>
+<span>有个bug，在快速发帖页面上传图片以后，光标移到未选择的图片上会疯狂反复横跳 ...</span><br>
+<span>从来没用过垃圾论坛附件系统……我去复现一下看看</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1826103[50-100]</guid>
+    </item>
+    <item>
+      <title>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1826103-1-1.html</link>
+      <description>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】&#13;
+ 本帖最后由 pgain2004 于 2020-2-25 13:24 编辑 
+
+业余捣鼓了那么些年头的CSS后，总结了之前S1 MUX和其它一些主题的不足，重新写了这个：
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVBVO.jpg
+&#13;
+相比之前的MUX，NUX：
+&#13;
+1、对长宽变化的适应性更强，有更完善的窄屏自适配布局；
+&#13;
+2、覆盖更全面，连大乱斗页面都适配了；
+&#13;
+3、大量使用utf8字符、emoji、svg、css绘制等来替代Discuz!自带、抠边都抠不好的残废图标（基于对emoji的支持，不同平台会有一定程度的显示差异，Win7等支持差的老系统可能就比较挫了，我没测试）；
+&#13;
+4、相比MUX的卡片+阴影，采用浅勾边风格，更贴近论坛原样式；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVyPH.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnV6Gd.jpg
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVrIe.jpg
+&#13;
+5、使用全局变量进行颜色设置，色调主题的更换和自定义都十分方便；
+&#13;
+https://s2.ax1x.com/2019/04/26/EnVwqK.gif
+&#13;
+使用方法：
+&#13;
+您需要先安装Stylus(Firefox/Chromium/Opera)、xStyle(Firefox/Chromium)、Stylish(官方但流氓，不推荐)或同类扩展，支持所有主流浏览器(除非你还在用IE)。
+&#13;
+然后通过主题页面安装：https://userstyles.org/styles/171198/s1-nux 
+&#13;
+内含一些简单的自定义选项：https://s2.ax1x.com/2019/04/26/EnVDaD.jpg
+&#13;
+顺便，论坛表情进行了一小波更新，这是更新说明帖：https://bbs.saraba1st.com/2b/thread-1825867-1-1.html，三天只有两个有效回复也太惨了口巴</description>
+      <content:encoded><![CDATA[<p><b>pgain2004: </b><br>
+<span>【论坛优化主题】S1 NUX【20/2/25 最大图片高度】</span><br>
+<span> 本帖最后由 pgain2004 于 2020-2-25 13:24 编辑 </span><br>
+<span>业余捣鼓了那么些年头的CSS后，总结了之前S1 MUX和其它一些主题的不足，重新写了这个：</span><br>
+<img src="https://s2.ax1x.com/2019/04/26/EnVBVO.jpg" title="https://s2.ax1x.com/2019/04/26/EnVBVO.jpg"><br>
+<span>相比之前的MUX，NUX：</span><br>
+<span>1、对长宽变化的适应性更强，有更完善的窄屏自适配布局；</span><br>
+<span>2、覆盖更全面，连大乱斗页面都适配了；</span><br>
+<span>3、大量使用utf8字符、emoji、svg、css绘制等来替代Discuz!自带、抠边都抠不好的残废图标（基于对emoji的支持，不同平台会有一定程度的显示差异，Win7等支持差的老系统可能就比较挫了，我没测试）；</span><br>
+<span>4、相比MUX的卡片+阴影，采用浅勾边风格，更贴近论坛原样式；</span><br>
+<img src="https://s2.ax1x.com/2019/04/26/EnVyPH.jpg" title="https://s2.ax1x.com/2019/04/26/EnVyPH.jpg"><br>
+<img src="https://s2.ax1x.com/2019/04/26/EnV6Gd.jpg" title="https://s2.ax1x.com/2019/04/26/EnV6Gd.jpg"><br>
+<img src="https://s2.ax1x.com/2019/04/26/EnVrIe.jpg" title="https://s2.ax1x.com/2019/04/26/EnVrIe.jpg"><br>
+<span>5、使用全局变量进行颜色设置，色调主题的更换和自定义都十分方便；</span><br>
+<img src="https://s2.ax1x.com/2019/04/26/EnVwqK.gif" title="https://s2.ax1x.com/2019/04/26/EnVwqK.gif"><br>
+<span>使用方法：</span><br>
+<span>您需要先安装Stylus(Firefox/Chromium/Opera)、xStyle(Firefox/Chromium)、Stylish(官方但流氓，不推荐)或同类扩展，支持所有主流浏览器(除非你还在用IE)。</span><br>
+<span>然后通过主题页面安装：https://userstyles.org/styles/171198/s1-nux </span><br>
+<span>内含一些简单的自定义选项：https://s2.ax1x.com/2019/04/26/EnVDaD.jpg</span><br>
+<span>顺便，论坛表情进行了一小波更新，这是更新说明帖：https://bbs.saraba1st.com/2b/thread-1825867-1-1.html，三天只有两个有效回复也太惨了口巴</span><br>
+</p><p><b>pgain2004: </b><br>
+<span> 本帖最后由 pgain2004 于 2019-4-22 12:37 编辑 </span><br>
+<span>自定义主题说明：</span><br>
+<span>进入NUX的代码编辑页面后，你能看到：</span><br>
+<span>/*1-0 配色*/</span><br>
+<span>/*</span><br>
+<span>bg(background)：背景色；</span><br>
+<span>pri(primary)：主色调，主要作为顶栏和标题栏背景；</span><br>
+<span>prid(primary-dark)：深主色调(暗色主题：浅)，主要用来为模块勾边；</span><br>
+<span>pril(primary-light)：浅主色调(暗色：深)；</span><br>
+<span>bn(button)：按钮色；</span><br>
+<span>bnd(button-dark)：深按钮色；</span><br>
+<span>sec(secondary)：副色调；</span><br>
+<span>secp(secondary-in-primary)：主色调背景下的副色调；</span><br>
+<span>t(text)：默认文本色；</span><br>
+<span>tl(text-light)：浅文本色；</span><br>
+<span>tg(text-grey)：灰文本色；</span><br>
+<span>pt(primarytext)：主色调背景下文本色；</span><br>
+<span>ptl(primarytext-light)：主色调背景下浅文本色；</span><br>
+<span>ic(icon)：图标色；</span><br>
+<span>icl(icon-light)：浅图标色；</span><br>
+<span>icd(icon-dark)：深图标色；</span><br>
+<span>icdd(icon-darker)：更深图标色；</span><br>
+<span>icddd(icon-darkest)：最深图标色；</span><br>
+<span>shd(shadow)：阴影色；</span><br>
+<span>shdl(shadow-light)：浅阴影色；</span><br>
+<span>*/</span><br>
+<span>:root{</span><br>
+<span>/*tea theme*/</span><br>
+<span>      --bg:#ecedeb;</span><br>
+<span>      --pri:#d1d9c1;</span><br>
+<span>      --prid:#cc9;</span><br>
+<span>      --pril:#e5e9df;</span><br>
+<span>      --bn:#0b7ac9;</span><br>
+<span>      --bnd:#0555ba;</span><br>
+<span>      --sec:#0095ff;</span><br>
+<span>      --secp:#0095ff;</span><br>
+<span>      --t:#022C80;</span><br>
+<span>      --tl:#3159a9;</span><br>
+<span>      --tg:#889dc8;</span><br>
+<span>      --pt:#022C80;</span><br>
+<span>      --ptl:#3159a9;</span><br>
+<span>      --icl:#fff;</span><br>
+<span>      --ic:#ccc;</span><br>
+<span>      --icd:#999;</span><br>
+<span>      --icdd:#555;</span><br>
+<span>      --icddd:#000;</span><br>
+<span>      --shd:#555;</span><br>
+<span>      --shdl:#999;</span><br>
+<span>/**/</span><br>
+<span>/*中间的其它主题，略*/</span><br>
+<span>/*custom theme*/</span><br>
+<span>/*</span><br>
+<span>    --bg:#ecedeb;</span><br>
+<span>    --pri:#d1d9c1;</span><br>
+<span>    --prid:#cc9;</span><br>
+<span>    --pril:#e5e9df;</span><br>
+<span>    --bn:#0b7ac9;</span><br>
+<span>    --bnd:#0555ba;</span><br>
+<span>    --sec:#0095ff;</span><br>
+<span>    --secp:#0095ff;</span><br>
+<span>    --t:#022C80;</span><br>
+<span>    --tl:#3159a9;</span><br>
+<span>    --tg:#889dc8;</span><br>
+<span>    --pt:#022C80;</span><br>
+<span>    --ptl:#3159a9;</span><br>
+<span>    --icl:#fff;</span><br>
+<span>    --ic:#ccc;</span><br>
+<span>    --icd:#999;</span><br>
+<span>    --icdd:#555;</span><br>
+<span>    --icddd:#000;</span><br>
+<span>    --shd:#555;</span><br>
+<span>    --shdl:#999;</span><br>
+<span>/**/</span><br>
+<span>}</span><br>
+<span>最上面是关于颜色值的说明，:root{开始是主题代码，tea theme就是经典的午后红茶(屎黄色)主题，custom theme则是自定义主题。</span><br>
+<span>--bg(背景色)的前一行如果为空，代表该主题代码未被无效化(被注释)，主题生效。反之亦然。若有多个主题没被无效化，则最后一个主题有效(覆盖了前面的定义)。</span><br>
+<span>如果不想频繁地去userstyle页面变更自定义项再更新，可以直接去掉对应主题--bg前的那个/*并将其它主题无效化(加上/*)。本主题所有代码都是完整的，诸如签名自动隐藏功能的开关、首页板块的显示隐藏，均能通过增减/*来设置。</span><br>
+<span>你可以随意设置随意主题的hex色值，扩展支持的话甚至能直接点击拖动，所见即所得：</span><br>
+<img src="https://ws1.sinaimg.cn/large/73508f0fgy1g2ba74wh4mj20cz0ao3z3.jpg" title="https://ws1.sinaimg.cn/large/73508f0fgy1g2ba74wh4mj20cz0ao3z3.jpg"><br>
+</p><p><b>pgain2004: </b><br>
+<span> 本帖最后由 pgain2004 于 2020-2-25 18:25 编辑 </span><br>
+<span>V1.048</span><br>
+<span>修正增补主页隐藏栏目选项；</span><br>
+<span>增加主题帖内图片最大高度限定选项(默认为不限制)。</span><br>
+<span>V1.045</span><br>
+<span>修改过渡界面图标(效果一般，容我再找)。</span><br>
+<span>V1.042</span><br>
+<span>修复用户类型标签的显示(static服务器用https啦?)</span><br>
+<span>V1.041</span><br>
+<span>可设置版头是否自动收起和展开。</span><br>
+<span>V1.04</span><br>
+<span>适配充值页面。</span><br>
+<span>V1.037</span><br>
+<span>适配签名编辑框的表情选择栏。</span><br>
+<span>准备适配充钱界面。</span><br>
+<span>复活快……乐？</span><br>
+<span>V1.036</span><br>
+<span>修正主页公告和公告页UI。</span><br>
+<span>只读模式快乐。</span><br>
+<span>V1.035</span><br>
+<span>完善大乱斗页适配。</span><br>
+<span>V1.03</span><br>
+<span>增加两种配色；</span><br>
+<span>为板块主题列表底部增加“下一页”宽按钮（非原按钮）；</span><br>
+<span>优化主题列表细节；</span><br>
+<span>改善强制窄屏适配；</span><br>
+<span>快捷导航改为满屏高；</span><br>
+<span>修改主页格式；</span><br>
+<span>增加加大主页选项；</span><br>
+<span>修复小黑屋“更多”按钮的显示问题。</span><br>
+<span>V1.02</span><br>
+<span>增加主题内用户信息显示选项；</span><br>
+<span>增加强制宽度选项，当其被启用后，【自定义宽度(px)】和【“自定义宽度”值+40px】才会生效；</span><br>
+<span>搜索页已访问链接以浅色显示；</span><br>
+<span>增加快捷导航按钮右置选项(不推荐)；</span><br>
+<span>增加Chromium系浏览器适配选项(Chromium居然仍不支持sticky特性！？)；</span><br>
+<span>增加用户信息自动收纳新风格选项；</span><br>
+<span>优化用户信息侧栏布局；</span><br>
+<span>修复快捷入口子菜单错位问题。</span><br>
+<span>V1.0</span><br>
+<span>初版发布。</span><br>
+<span>以后版本更新内容就在这个回复发，看最后能有多长。</span><br>
+</p><p><b>lordvv: </b><br>
+<span>谢谢楼主，用上了dark theme，这下不会有人质疑我上班摸鱼了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>紧急修了点小问题……我也不清楚userstyle改版后现在的更新机制如何，如果发现错位或者代码框字色太浅就更一下吧</span><br>
+<span>还有其它什么意见尽管提。</span><br>
+</p><p><b>xsl1099: </b><br>
+<span>谢谢 mux用了很多年</span><br>
+</p><p><b>とげちー: </b><br>
+<span>感谢，刚好最近页面变宽了看着很难受</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>とげちー 发表于 2019-4-22 18:30</span><br>
+<span>感谢，刚好最近页面变宽了看着很难受</span><br>
+<span>狗叔好像已经调回去了。</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>pgain2004 发表于 2019-4-22 18:40</span><br>
+<span>狗叔好像已经调回去了。</span><br>
+<span>新表情也没了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>性欲モンスター 发表于 2019-4-22 18:57</span><br>
+<span>新表情也没了</span><br>
+<span>似乎可能大概或许是因为老爷直接同步整个库回去，于是把表情更新部分也同步没了</span><br>
+<span>还好文件都是现成的，而且是修正过的，再加回去应该不难</span><br>
+</p><p><b>小明神: </b><br>
+<span>之前一直用你的，这个更新看起来更好了。感谢楼主</span><br>
+<span>—— 来自 HUAWEI ARS-AL00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>千本blur: </b><br>
+<span>挺好看的，但是S1的页面真的改回去了吗，无论是否安装楼主的主题，我这里页面依然横跨了十万八千里。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>千本blur 发表于 2019-4-22 23:54</span><br>
+<span>挺好看的，但是S1的页面真的改回去了吗，无论是否安装楼主的主题，我这里页面依然横跨了十万八千里。</span><br>
+<span>我这主题是自适应宽屏的……</span><br>
+<span>你是想要强行窄屏么？</span><br>
+<span>在最后的最后加一行body{width:你想要的数字px!important;max-width:你想要的数字px!important;margin:0 auto!important}，应该就能覆盖所有其它设定，让整个页面缩窄居中了。对其它所有网页都可以这么干。</span><br>
+<span>但如果是有选择地缩窄，那还请具体描述，我可以因应提供选项或者代码。</span><br>
+</p><p><b>elxy: </b><br>
+<span>问个问题，之前的S1 Mux修改后，一旦更新就还原回去了，这个还会有这样的问题么？</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>elxy 发表于 2019-4-23 00:28</span><br>
+<span>问个问题，之前的S1 Mux修改后，一旦更新就还原回去了，这个还会有这样的问题么？ ...</span><br>
+<span>呃，是指修改的啥？自己改的代码？页面里的自定义选项？</span><br>
+</p><p><b>elxy: </b><br>
+<span>pgain2004 发表于 2019-4-23 00:31</span><br>
+<span>呃，是指修改的啥？自己改的代码？页面里的自定义选项？</span><br>
+<span>隐藏板块入口，比如主题页面中的“大乱斗”、“手游”之类的</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>elxy 发表于 2019-4-23 00:32</span><br>
+<span>隐藏板块入口，比如主题页面中的“大乱斗”、“手游”之类的</span><br>
+<span>如果是设定好的自定义选项，理论上用扩展更新后也会保留。如果是自己改的代码，那在更新时确实会被覆盖，推荐另外开个txt之类的保存该部分代码，到时直接覆盖。这方面确实很难兼顾，抱歉了。</span><br>
+</p><p><b>elxy: </b><br>
+<span>pgain2004 发表于 2019-4-23 00:52</span><br>
+<span>如果是设定好的自定义选项，理论上用扩展更新后也会保留。如果是自己改的代码，那在更新时确实会被覆盖， ...</span><br>
+<span>好吧，那我用uBlock Origin屏蔽好了。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>elxy 发表于 2019-4-23 00:54</span><br>
+<span>好吧，那我用uBlock Origin屏蔽好了。</span><br>
+<span>如果你是指顶部那些快捷入口……不来看看我写的练习用脚本么，会将顶部快捷入口替换为你收藏的板块+几个可自定义项。</span><br>
+</p><p><b>千本blur: </b><br>
+<span>pgain2004 发表于 2019-4-23 00:15</span><br>
+<span>我这主题是自适应宽屏的……</span><br>
+<span>你是想要强行窄屏么？</span><br>
+<span>在最后的最后加一行body{width:你想要的数字px!import ...</span><br>
+<span>啊哦，谢谢，这个就很棒了。</span><br>
+<span>提一个建议，可不可以增加选项，让用户自己选择是否折叠头像下面的用户信息？感觉浏览的时候这个还看得挺多的。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>千本blur 发表于 2019-4-23 01:50</span><br>
+<span>啊哦，谢谢，这个就很棒了。</span><br>
+<span>提一个建议，可不可以增加选项，让用户自己选择是否折叠头像下面的用户信息 ...</span><br>
+<span>可以，我之后加吧。</span><br>
+</p><p><b>酒丸: </b><br>
+<span>可以变成夜间模式好评</span><br>
+</p><p><b>待宵: </b><br>
+<span>NUX版论坛首页比起MUX版更为激进，我觉得后者的首页好</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>千本blur 发表于 2019-4-23 01:50</span><br>
+<span>啊哦，谢谢，这个就很棒了。</span><br>
+<span>提一个建议，可不可以增加选项，让用户自己选择是否折叠头像下面的用户信息 ...</span><br>
+<span>加上了</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>待宵 发表于 2019-4-23 07:37</span><br>
+<span>NUX版论坛首页比起MUX版更为激进，我觉得后者的首页好</span><br>
+<span>因为一开始主页是现在“板块分类”的这个布局：https://bbs.saraba1st.com/2b/forum.php?gid=1</span><br>
+<span>【板块名】</span><br>
+<span>【板块简述】</span><br>
+<span>【子板块入口】</span><br>
+<span>【版主列表】</span><br>
+<span>例如子版块入口和版主列表，我觉得有保留价值，当初MUX留的也是这个。</span><br>
+<span>后来改版成双栏后，就只剩下“总主题&回复数”和“最后被回复的主题”了。</span><br>
+<span>就算老爷自己也不会去看这什么总数吧，也不需要（直接就能看数据库），而后者……你会用到吗</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>elxy 发表于 2019-4-23 00:32</span><br>
+<span>隐藏板块入口，比如主题页面中的“大乱斗”、“手游”之类的</span><br>
+<span>https://openuserjs.org/scripts/ylns1314/S1_NaviBar_Customization</span><br>
+<span>用一个脚本来自定义, 两边就不会覆盖了</span><br>
+</p><p><b>离魂仙: </b><br>
+<img src="https://wx3.sinaimg.cn/large/622734bdly1g2cduc3ctbj21h70akn0b.jpg" title="https://wx3.sinaimg.cn/large/622734bdly1g2cduc3ctbj21h70akn0b.jpg"><br>
+<span>加了强制窄屏代码后变这样了，还是希望能和原版窄屏一样的模式</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>帖子列表底部的下一页栏是删掉了吗? 帖子里的还在</span><br>
+<span>另外, 搜索页面的链接能加一个已访问的变色标记吗?</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span> 本帖最后由 NagisaLoveMami 于 2019-4-23 18:29 编辑 </span><br>
+<span>按照gruvbox的配色改了下颜色</span><br>
+<span>/*gruvboxdark theme*/</span><br>
+<span>    --bg:#504945;</span><br>
+<span>    --pri:#3c3836;</span><br>
+<span>    --prid:#282828;</span><br>
+<span>    --pril:#665c54;</span><br>
+<span>    --bn:#8ec07c;</span><br>
+<span>    --bnd:#689d6a;</span><br>
+<span>    --sec:#fe8019;</span><br>
+<span>    --secp:#d65d0e;</span><br>
+<span>    --t:#d5c4a1;</span><br>
+<span>    --tl:#ebdbb2;</span><br>
+<span>    --tg:#928374;</span><br>
+<span>    --pt:#458588;</span><br>
+<span>    --ptl:#83a598;</span><br>
+<span>    --ic:#ccc;</span><br>
+<span>    --icd:#999;</span><br>
+<span>    --icdd:#555;</span><br>
+<span>    --icddd:#000;</span><br>
+<span>    --shd:#555;</span><br>
+<span>    --shdl:#999;</span><br>
+<span>/*gruvboxlight theme*/</span><br>
+<span>    --bg:#fbf1c7;</span><br>
+<span>    --pri:#d5c4a1;</span><br>
+<span>    --prid:#bdae93;</span><br>
+<span>    --pril:#ebdbb2;</span><br>
+<span>    --bn:#689d6a;</span><br>
+<span>    --bnd:#427b58;</span><br>
+<span>    --sec:#d65d0e;</span><br>
+<span>    --secp:#af3a03;</span><br>
+<span>    --t:#504945;</span><br>
+<span>    --tl:#665c54;</span><br>
+<span>    --tg:#928374;</span><br>
+<span>    --pt:#076678;</span><br>
+<span>    --ptl:#458588;</span><br>
+<span>    --ic:#ccc;</span><br>
+<span>    --icd:#999;</span><br>
+<span>    --icdd:#555;</span><br>
+<span>    --icddd:#000;</span><br>
+<span>    --shd:#555;</span><br>
+<span>    --shdl:#999;</span><br>
+<span>不过不建议用darktheme，总感觉颜色不好配不太好看。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>离魂仙 发表于 2019-4-23 11:00</span><br>
+<span>加了强制窄屏代码后变这样了，还是希望能和原版窄屏一样的模式</span><br>
+<span>增加了强制宽屏选项，但注意设置太窄会导致“地址栏”和“页码栏”在一些标题较长页数又多的帖子里相互覆盖。</span><br>
+<span>另外不知道为啥这时候页面会让用户“安装”成另一个主题而不是更新原来的主题，如果你发现有两个NUX在同时生效，把老的删了就好。</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>Lisylfn 发表于 2019-4-23 11:31</span><br>
+<span>帖子列表底部的下一页栏是删掉了吗? 帖子里的还在</span><br>
+<span>另外, 搜索页面的链接能加一个已访问的变色标记吗?</span><br>
+<span>更了，已访问的链接会变淡。</span><br>
+<span>至于删掉板块列表底部的下一页栏，主要是因为它触发的行为模式和主题内的不同，容易导致布局错乱，只能说抱歉了，习惯一下用页码栏来跳转吧。</span><br>
+</p><p><b>elfspeeder: </b><br>
+<span>帖子内固定显示栏的第二条，就是那个帖子来源导航，影响信息密度能不能改个选项鼠标悬浮显示或者不要</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>elfspeeder 发表于 2019-4-23 12:53</span><br>
+<span>帖子内固定显示栏的第二条，就是那个帖子来源导航，影响信息密度能不能改个选项鼠标悬浮显示或者不要 ...</span><br>
+<span>隐了这一栏连页码都会看不到的啊……</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>没有适配二手区吗？没看到入口啊</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 13:40</span><br>
+<span>没有适配二手区吗？没看到入口啊</span><br>
+<span>不是在外野的后面么……</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>pgain2004 发表于 2019-4-23 13:44</span><br>
+<span>不是在外野的后面么……</span><br>
+<span>发现了，原来要到快捷导航那里找，我在页面定的导航栏或者S1首页没看到</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 13:48</span><br>
+<span>发现了，原来要到快捷导航那里找，我在页面定的导航栏或者S1首页没看到</span><br>
+<span>首页有的啊，就在外野入口后面，你是用其它扩展之类的屏蔽了吧？</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>pgain2004 发表于 2019-4-23 13:52</span><br>
+<span>首页有的啊，就在外野入口后面，你是用其它扩展之类的屏蔽了吧？</span><br>
+<img src="https://i.loli.net/2019/04/23/5cbea8ded34b7.png" title="https://i.loli.net/2019/04/23/5cbea8ded34b7.png"><br>
+<img src="https://i.loli.net/2019/04/23/5cbea8dee0f42.png" title="https://i.loli.net/2019/04/23/5cbea8dee0f42.png"><br>
+<span>我的首页和扩展是这些，我也不知道是哪个出了问题</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 13:56</span><br>
+<span>我的首页和扩展是这些，我也不知道是哪个出了问题</span><br>
+<span>我在主帖展示了一个自定义选项界面，里面能设置首页各部分的显示或隐藏，你是把主板块、收藏板块和友情链接隐藏了吧。按喜好重新选择后点更新按钮就可以了。</span><br>
+</p><p><b>elfspeeder: </b><br>
+<span>pgain2004 发表于 2019-4-23 13:25</span><br>
+<span>隐了这一栏连页码都会看不到的啊……</span><br>
+<span>知道了，是为了把个人信息栏加进去才做了两行，以前mux就一行用习惯了</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>pgain2004 发表于 2019-4-23 14:05</span><br>
+<span>我在主帖展示了一个自定义选项界面，里面能设置首页各部分的显示或隐藏，你是把主板块、收藏板块和友情链 ...</span><br>
+<span>我试了一下，热门新区和友情链接里面有一项才是设置主板块的，设置与实际对应不同。</span><br>
+</p><p><b>有点神奇: </b><br>
+<span>还有楼主能否麻烦把快捷导航还是放最右边行不，mux用惯了左边一点都不习惯，我这苦手css调了一会没调过去！</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>跟dark reader好像不太适配, 不过用dark reader的开发者工具将nux的黑夜主题添加就可以了</span><br>
+<span>================================</span><br>
+<span>bbs.saraba1st.com</span><br>
+<span>CSS</span><br>
+<span>:root{</span><br>
+<span>        --bg:#161616 !important;</span><br>
+<span>        --pri:#263034 !important;</span><br>
+<span>        --prid:#344042 !important;</span><br>
+<span>        --pril:#1b2326 !important;</span><br>
+<span>        --bn:#072 !important;</span><br>
+<span>        --bnd:#051 !important;</span><br>
+<span>        --sec:#7b0 !important;</span><br>
+<span>        --secp:#7b0 !important;</span><br>
+<span>        --t:#a2aaaf !important;</span><br>
+<span>        --tl:#c7d0d6 !important;</span><br>
+<span>        --tg:#566266 !important;</span><br>
+<span>        --pt:#a2aaaf !important;</span><br>
+<span>        --ptl:#c7d0d6 !important;</span><br>
+<span>        --icl:#000 !important;</span><br>
+<span>        --ic:#333 !important;</span><br>
+<span>        --icd:#666 !important;</span><br>
+<span>        --icdd:#ccc !important;</span><br>
+<span>        --icddd:#fff !important;</span><br>
+<span>        --shd:#000 !important;</span><br>
+<span>        --shdl:#161616 !important;</span><br>
+<span>}</span><br>
+<span>================================</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 16:38</span><br>
+<span>我试了一下，热门新区和友情链接里面有一项才是设置主板块的，设置与实际对应不同。 ...</span><br>
+<span>检查了一下，首先内野(子版块)的隐藏代码确实有问题，已修正。</span><br>
+<span>然后，请问阁下不用主题时的主页里，几个类别如何分布？</span><br>
+<span>我这里是先有①“收藏板块”，然后是②“热门新区”，接着才是③“主论坛”、④“子论坛”、⑤“在线会员”、⑥“友情链接”。</span><br>
+<span>所以我的代码里是【隐藏第一个板块】对应【隐藏收藏板块】，【隐藏第二个板块】对应【隐藏热门新区】，如此类推。有没有可能你那边的顺序和我的不同？</span><br>
+</p><p><b>海色: </b><br>
+<span>个人感觉还是MUX更美观一些</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>有点神奇 发表于 2019-4-23 17:00</span><br>
+<span>还有楼主能否麻烦把快捷导航还是放最右边行不，mux用惯了左边一点都不习惯，我这苦手css调了一会没调过去！ ...</span><br>
+<span>容我解释一下：</span><br>
+<span>①LOGO和用户信息②快捷入口和快捷导航③搜索栏；</span><br>
+<span>这是在一个框架(div)里的三个同级子元素。而②-①快捷导航和②-②快捷入口栏则是次一级的同级子元素。</span><br>
+<span>在MUX，我是把③搜索栏用笨拙的办法强行放在②快捷入口和快捷导航的上方(位置在它们之间)。而现在则是让平级的它们用Flex格子布局自然而然地左右分布。</span><br>
+<span>无论从逻辑抑或实际结构来看，“快捷入口”和“快捷导航”都应该放一起，我绝不提倡把它们分离，也希望用户能习惯。</span><br>
+<span>……当然，啰哩吧嗦了这么些字，如果你仍然坚持——相关选项已添加</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>1.015：</span><br>
+<span>增加主题内用户信息显示选项；</span><br>
+<span>增加强制宽度选项，当其被启用后，【自定义宽度(px)】和【“自定义宽度”值+40px】才会生效；</span><br>
+<span>搜索页已访问链接以浅色显示；</span><br>
+<span>增加快捷导航按钮右置选项(不推荐)；</span><br>
+<span>窄屏布局下不再显示特殊用户标签；</span><br>
+<span>增加Chromium系浏览器适配选项(Chromium居然仍不支持sticky特性！？)。</span><br>
+<span>用Chrome、Opera、Edge(Chromium)、国内那堆Blink核浏览器的用户，请更新并选择Chromium适配。</span><br>
+<span>才第二天……</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>再更新一下，修正论坛本身在Firefox环境下图片显示比例出错的问题……问题总是有的，修不完的（绝望）</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>pgain2004 发表于 2019-4-23 17:57</span><br>
+<span>检查了一下，首先内野(子版块)的隐藏代码确实有问题，已修正。</span><br>
+<span>然后，请问阁下不用主题时的主页里，几个 ...</span><br>
+<img src="https://i.loli.net/2019/04/23/5cbf0be3b2e41.png" title="https://i.loli.net/2019/04/23/5cbf0be3b2e41.png"><br>
+<img src="https://i.loli.net/2019/04/23/5cbf0be3b3cca.png" title="https://i.loli.net/2019/04/23/5cbf0be3b3cca.png"><br>
+<span>这样分布的</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>zhongjie 发表于 2019-4-23 20:58</span><br>
+<span>这样分布的</span><br>
+<span>所以是因为如果未收藏板块就不会显示吗！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1826103[0-50]</guid>
+    </item>
+  </channel>
+</rss>

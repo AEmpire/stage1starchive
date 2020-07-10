@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网速达不到是路由能力问题吗？ —— 应该是</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网速达不到是路由能力问题吗？ —— 应该是</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:22:14 +0000</lastBuildDate>
+    <item>
+      <title>网速达不到是路由能力问题吗？ —— 应该是[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1889849-1-1.html</link>
+      <description>网速达不到是路由能力问题吗？ —— 应该是&#13;
+ 本帖最后由 fat 于 2019-12-10 23:15 编辑 
+
+最近升了电信500m了。
+&#13;
+试了一下，电脑直连光猫能跑满500Mbps，
+&#13;
+但路由接电脑（台式有线），就只剩下可怜的100Mbps……
+&#13;
+这是纯粹路由能力不足，还是设定问题？
+&#13;
+基本情况：
+&#13;
+路由是网件wndr4300，刷了石像鬼固件。
+&#13;
+没弄光猫的桥接模式，所以光猫也是路由，用192.168.1.x
+&#13;
+网件的路由是192.168.0.x网段，这个有影响吗？
+&#13;
+——————————更新————————
+&#13;
+兜兜转转，明确是路由能力问题了。
+&#13;
+1、不用埋墙线，换另一根断线接光猫，依旧100Mb，排除线问题；
+&#13;
+2、光猫插lan口，直接当交换机用，可跑满500Mb；
+&#13;
+3、刷到DD WRT固件，能跑到150Mb。刷回原厂固件，也是150Mb；
+&#13;
+那么，现在华硕ac68u还好用吗？
+&#13;
+现在直接远程固件+AP模式，直插lan口就能跑满速了……
+&#13;
+https://wx4.sinaimg.cn/mw690/69730d63gy1g9s159ykm5j20kc087q44.jpg</description>
+      <content:encoded><![CDATA[<p><b>fat: </b><br>
+<span>网速达不到是路由能力问题吗？ —— 应该是</span><br>
+<span> 本帖最后由 fat 于 2019-12-10 23:15 编辑 </span><br>
+<span>最近升了电信500m了。</span><br>
+<span>试了一下，电脑直连光猫能跑满500Mbps，</span><br>
+<span>但路由接电脑（台式有线），就只剩下可怜的100Mbps……</span><br>
+<span>这是纯粹路由能力不足，还是设定问题？</span><br>
+<span>基本情况：</span><br>
+<span>路由是网件wndr4300，刷了石像鬼固件。</span><br>
+<span>没弄光猫的桥接模式，所以光猫也是路由，用192.168.1.x</span><br>
+<span>网件的路由是192.168.0.x网段，这个有影响吗？</span><br>
+<span>——————————更新————————</span><br>
+<span>兜兜转转，明确是路由能力问题了。</span><br>
+<span>1、不用埋墙线，换另一根断线接光猫，依旧100Mb，排除线问题；</span><br>
+<span>2、光猫插lan口，直接当交换机用，可跑满500Mb；</span><br>
+<span>3、刷到DD WRT固件，能跑到150Mb。刷回原厂固件，也是150Mb；</span><br>
+<span>那么，现在华硕ac68u还好用吗？</span><br>
+<span>现在直接远程固件+AP模式，直插lan口就能跑满速了……</span><br>
+<img src="https://wx4.sinaimg.cn/mw690/69730d63gy1g9s159ykm5j20kc087q44.jpg" title="https://wx4.sinaimg.cn/mw690/69730d63gy1g9s159ykm5j20kc087q44.jpg"><br>
+</p><p><b>fat: </b><br>
+<span>还有个现象是，上行速度无论是直连还是通过路由都是60Mbps</span><br>
+<span>由此可见比较倾向于路由能力问题？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-12-9 21:10 编辑 </span><br>
+<span>路由器网口是千兆的吗？</span><br>
+<span>先确定isp给你的上行是多少。</span><br>
+</p><p><b>fat: </b><br>
+<span>纯情小鸭鸭 发表于 2019-12-9 21:08</span><br>
+<span>路由器网口是千兆的吗？</span><br>
+<span>先确定isp给你的上行是多少。</span><br>
+<span>网口是千兆的。</span><br>
+<span>上行给的是60m……</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>电脑显示的网络带宽是多少？</span><br>
+</p><p><b>琴酒: </b><br>
+<span>先排除是不是网线的问题吧</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>先排除是不是石像鬼的bug</span><br>
+</p><p><b>fat: </b><br>
+<span>纯情小鸭鸭 发表于 2019-12-9 21:23</span><br>
+<span>电脑显示的网络带宽是多少？</span><br>
+<span>电脑端显示是1000m没问题。</span><br>
+<span>不过石像鬼怎么看路由和光猫之间的速度……我居然找不到</span><br>
+</p><p><b>elflie: </b><br>
+<span>现在潜在前兆路由跑个500应该都没有问题，不如看看是不是固件的问题，有的固件因为驱动的原因是跑不到高速率的</span><br>
+</p><p><b>baesystems: </b><br>
+<span>我前段时间升级500M后也遇到个类似的问题，一查是扔弱电箱里的小交换机上那个网口坏掉了，实在是奇怪的很，因为那个网口几乎没人动过它。</span><br>
+</p><p><b>fat: </b><br>
+<span>唔，最新进展是刷了明月的openwrt固件，仍然是只有100M上下的速度。</span><br>
+<span>明天再研究了。</span><br>
+</p><p><b>騜: </b><br>
+<span>电脑端显示1000但是网线可能是四类的，就只能跑满百兆了呗，换个线看看</span><br>
+</p><p><b>qwased: </b><br>
+<span>这mips单核700mhz就是只能跑100m的软nat啊，想快就刷回支持hwnat的原厂固件抛弃掉openwrt之类的第三方</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>qwased: </b><br>
+<span>或者你把连光猫的线插路由的lan口把路由器当成无线交换机用，记得把路由器的dhcp功能关了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>fat: </b><br>
+<span>qwased 发表于 2019-12-10 01:40</span><br>
+<span>这mips单核700mhz就是只能跑100m的软nat啊，想快就刷回支持hwnat的原厂固件抛弃掉openwrt之类的第三 ...</span><br>
+<span>诶果然是这样的吗！！我今晚试试！</span><br>
+</p><p><b>phyc: </b><br>
+<span>最近把好几年前的tplink换成asus，网速直接跑满</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>Lazia: </b><br>
+<span>wndr4300+openwrt跑千兆没问题的，家里的300m联通满速，还是先看网线吧。</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>序曲: </b><br>
+<span>先买根网线，我当初就是10换300死活上不去，换根线毛病马上好</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span>借楼问一下，无线的达不到又是什么原因，路由器已经插千兆口了</span><br>
+</p><p><b>暗黑破坏棍: </b><br>
+<span>如果是同一根网线测试的电脑-光猫，电脑-路由速度不同 那么试试换一个光猫到路由的那段跳线 </span><br>
+<span>openwrt里也能看到已连接端口速度的</span><br>
+</p><p><b>fat: </b><br>
+<span>qwased 发表于 2019-12-10 01:42</span><br>
+<span>或者你把连光猫的线插路由的lan口把路由器当成无线交换机用，记得把路由器的dhcp功能关了</span><br>
+<span>—— 来自 Xiaom ...</span><br>
+<span>感谢大佬！按你的方法明确了，确实是路由能力问题。</span><br>
+<span>将光猫-插到lan当交换机用，电脑用光猫的网段，直接就能跑满速了！</span><br>
+<span>那么…………什么路由好顶赞呢？</span><br>
+<span>现在ac68u还堪用吗</span><br>
+</p><p><b>qwased: </b><br>
+<span>fat 发表于 2019-12-10 21:53</span><br>
+<span>感谢大佬！按你的方法明确了，确实是路由能力问题。</span><br>
+<span>将光猫-插到lan当交换机用，电脑用光猫的网段，直接 ...</span><br>
+<span>既然你用光猫拨号也能满足需求，就这么用着就行了啊</span><br>
+<span>68u太老了不推荐</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>madbird302: </b><br>
+<span>AC68U我是250M带宽还没问题，500M就不好说了</span><br>
+</p><p><b>fat: </b><br>
+<span>qwased 发表于 2019-12-11 01:24</span><br>
+<span>既然你用光猫拨号也能满足需求，就这么用着就行了啊</span><br>
+<span>68u太老了不推荐</span><br>
+<span>感谢。那还是等明年wifi6铺开了再说吧……</span><br>
+</p><p><b>AlphaAnother: </b><br>
+<span>fat 发表于 2019-12-11 21:05</span><br>
+<span>感谢。那还是等明年wifi6铺开了再说吧……</span><br>
+<span>你想太多了 wifi6铺开估计得到21年 到时候AX Wave2也出来</span><br>
+</p><p><b>qwased: </b><br>
+<span>fat 发表于 2019-12-11 21:05</span><br>
+<span>感谢。那还是等明年wifi6铺开了再说吧……</span><br>
+<span>tplink xdr3020请</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>happyliuhao: </b><br>
+<span>肯定不是68u的问题 我以前移动千兆有线 官方固件轻松跑满 提醒关掉所有耗费性能的功能 例如qos 我看只能跑百兆一般就是线和网卡的问题</span><br>
+<span>----发送自 HUAWEI TAS-AN00,Android 10</span><br>
+</p><p><b>fat: </b><br>
+<span>happyliuhao 发表于 2019-12-14 09:27</span><br>
+<span>肯定不是68u的问题 我以前移动千兆有线 官方固件轻松跑满 提醒关掉所有耗费性能的功能 例如qos 我看只能跑 ...</span><br>
+<span>啊我在用的不是68u，是网件WNDR4300 。两百多元的便宜货而已。</span><br>
+</p><p><b>viosonia: </b><br>
+<span>ac88u也不是很贵了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1889849[0-50]</guid>
+    </item>
+  </channel>
+</rss>

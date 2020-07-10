@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，ts文件的点击卡顿问题（已解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，ts文件的点击卡顿问题（已解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:36:11 +0000</lastBuildDate>
+    <item>
+      <title>求助，ts文件的点击卡顿问题（已解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841260-1-1.html</link>
+      <description>求助，ts文件的点击卡顿问题（已解决）&#13;
+ 本帖最后由 Epsilonhomu 于 2019-6-21 20:48 编辑 
+
+不知这个标题说得准不准确，我详细说一下
+&#13;
+系统是win10家庭版，我有一个装了几十G的ts文件的文件夹，初次访问时资源管理器就未响应了，过了大概一分钟才恢复过来。右键点击任意一个ts文件，要数秒才会弹出右键菜单。我在sn500和660p上试了试，都是同样的慢，SSD我新买的问题肯定不在这
+&#13;
+用crystaldiskinfo发现硬盘读取量有点夸张，我猜是系统在扫描整个文件夹，读取量就飞涨了。于是开着任务管理器试着右键点击了一个ts文件，发现windows资源管理器有500+m/s的使用量，持续数秒，破案了。对装了大量mp4文件的文件夹进行了同样操作，没有这个问题。这些ts文件我迟早要搬到机械硬盘里的，不敢想象到时候会有多慢……
+&#13;
+百度了一下只找到一个有关的，说是Windows 10 自带的媒体扫描功能，但是里面提到的解决方法不管用（更新：其实有效，只是当时我没有重启）
+&#13;
+改用英文搜索，微软社区里有人问了同样的问题，win7正常，但是win10不行，有人回复说win10专业版可破，我不想重装……
+&#13;
+那么这个问题有解吗，不行我就把ts文件转换成其他格式了</description>
+      <content:encoded><![CDATA[<p><b>Epsilonhomu: </b><br>
+<span>求助，ts文件的点击卡顿问题（已解决）</span><br>
+<span> 本帖最后由 Epsilonhomu 于 2019-6-21 20:48 编辑 </span><br>
+<span>不知这个标题说得准不准确，我详细说一下</span><br>
+<span>系统是win10家庭版，我有一个装了几十G的ts文件的文件夹，初次访问时资源管理器就未响应了，过了大概一分钟才恢复过来。右键点击任意一个ts文件，要数秒才会弹出右键菜单。我在sn500和660p上试了试，都是同样的慢，SSD我新买的问题肯定不在这</span><br>
+<span>用crystaldiskinfo发现硬盘读取量有点夸张，我猜是系统在扫描整个文件夹，读取量就飞涨了。于是开着任务管理器试着右键点击了一个ts文件，发现windows资源管理器有500+m/s的使用量，持续数秒，破案了。对装了大量mp4文件的文件夹进行了同样操作，没有这个问题。这些ts文件我迟早要搬到机械硬盘里的，不敢想象到时候会有多慢……</span><br>
+<span>百度了一下只找到一个有关的，说是Windows 10 自带的媒体扫描功能，但是里面提到的解决方法不管用（更新：其实有效，只是当时我没有重启）</span><br>
+<span>改用英文搜索，微软社区里有人问了同样的问题，win7正常，但是win10不行，有人回复说win10专业版可破，我不想重装……</span><br>
+<span>那么这个问题有解吗，不行我就把ts文件转换成其他格式了</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我用tc，关掉文件预览及exe图标读取</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>Epsilonhomu: </b><br>
+<span>暗影翔 发表于 2019-6-21 20:01</span><br>
+<span>我用tc，关掉文件预览及exe图标读取</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+<span>虽然不是文件预览的问题，不过托你的福我重启电脑了，主楼提到的方法是有效的，只是我没有重启</span><br>
+</p><p><b>qazesz: </b><br>
+<span>这个问题从win8就有</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841260[0-50]</guid>
+    </item>
+  </channel>
+</rss>

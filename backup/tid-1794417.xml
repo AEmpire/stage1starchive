@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NAS+PLEX+KODI+PotPlayer踩坑记录</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NAS+PLEX+KODI+PotPlayer踩坑记录</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:53:03 +0000</lastBuildDate>
+    <item>
+      <title>NAS+PLEX+KODI+PotPlayer踩坑记录[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1794417-1-1.html</link>
+      <description>NAS+PLEX+KODI+PotPlayer踩坑记录&#13;
+最近闲的蛋疼，折腾了市面上常见的各种家庭影院方案，踩了无数坑，最终还是因为各种瑕疵而放弃了但是分开来看的话，每个部分可能都有一点用，所以写一下踩过的各种坑。如果有感兴趣的点我可以再写些具体的教程。但是由于今天下午一怒之下把架好的服务都删了，所以没什么截图
+&#13;
+0. 终极期望：
+&#13;
+实现这样一个流水线：发现一部感兴趣的番↓找到磁链/种子↓离线下载（115）↓拖到本地（Aria2）↓自动归档添加元数据（Plex/Emby）↓动画数据库前端（KODI）↓多终端高质量播放（PotPlayer+Madvr）
+&#13;
+还有一个关键点就是这个流水线要支持安全的远程操作关于最终效果，可以去搜一下Plex/Kodi的海报墙，还是很炫酷的！
+&#13;
+1. 准备工作：
+&#13;
+要实现整个流水线需要这些东西一台支持docker或者win系统的NAS←没有的话可以用本地电脑代替一个Open vIRTUAL pRIVATE nETWORK sERVER←没有的话可以买别人的服务代替一个（子）域名并申请SSL证书←没有的话 去买一个啊！！域名才十几块一年 SSL证书不要钱没有公网IP的话需要一个DDNS域名一条最少10M上传的宽带性能不太差的终端
+&#13;
+2. 找资源部分
+&#13;
+我的资源全部都是动画片，所以基本上dmhy或者bangumi.moe上的磁链即可，电影美剧偶尔看，rarbg上应该都能有。rss订阅那一套不喜欢，保证不了画质。PT站混不来，没有想要的如果和我一样是磁链党的话，可以在NAS上用docker部署Aria2，镜像里搜索Aria2里Xujinkai的版本就很好用，Windows系统的NAS就更方便了，直接起个Aria2的服务下载的话直接用Aria2下载也可以，但稀有资源一般没速度（tracker都挂了），我是用了115先离线下好，然后115拖回本地。这里推荐两个脚本，一个是雪月秋水做的115Exporter，是Chrome插件，商城可以搜到；另一个是kkhaike做的fake115，是油猴脚本，GitHub上可以搜到；同时使用，效果更佳这里的话可以用SSL加密Aria2的传输，强迫症/内网环境复杂可以做，要用到域名和SSL证书
+&#13;
+3. 自动归档并添加元数据
+&#13;
+先讲一下基本原理：当一部片被下载到目标文件夹后，这些软件，首先会去解析它的名字，把那些字幕组、压制组、压制参数之类的去掉，留下一个片名和第几季第几话之类的信息。做这件事的叫Sanner然后会去一些视频数据库上用刚刚分析出的名字、剧集来搜数据，并且下载海报、宣传画之类的东西。做这件事的叫Scraper最后系统会根据下到的数据，把这部片归到相应的番的对应的季，总之就该怎么放怎么放这里有两套解决方案（其实是三套，但是KODI不能做Server端，我就没研究）首先说说Emby：Sanner的话Emby有一个不足，就是只支持SxxExx的名命解析，对于美剧一般没有问题，但是动画片很少有按这个命名格式来发布的。这个问题在Emby官方论坛有讨论，那个串我记得从14年讲到现在，结论就是自己手动改命名，否则无法识别动画片Scraper的话官方插件有一个叫Anime的，但是15年之后就没有更新了，写过爬虫或者做过API的同学都知道，如果目标网页的API改了，这玩意就废了。所以基本上就找不到什么数据总之我测试下来，识别率大约只有50%，其中有多少识别错的我还没统计，用了一天我就删了服务投奔Plex了那么说说Plex：Plex的论坛比Emby活跃的多，插件我觉得也比Emby强得多。比如说有一个叫HAMA的，专门用来做动画片元数据，至今仍在维护。看上去一切都很美好，我甚至头脑一热给这货开了终身会员（120刀，可以做多用户权限管理和iOS上的串流），现在已经在联系退款了最后其实还有一个叫Shoko的，我没有试过，但是docker上镜像就有1G，而且只能支持动画片，美剧、美国电影都用不了，放弃KODI的话如果不需要做Server远程播放还不错，但同样面临Scraper的问题然后就是三家通病了：一般找不到日语/中文数据，只有英语数据！！！不是我英文不好看不懂，但是实在是太膈应了。而且这问题一时半会还没法解决，因为几个比较常见的动画数据库都是英文的→MyAnimeList, AniDb, TheTVDb, TheMovieDb(这个有部分日文)，还有一些细节的问题，比如同一部动画不同季搜到的海报是一样的，之类的所以Server端没有一个完美的动画解决方案，这也是我放弃的直接原因。当然如果只有美剧/美国电影的话，还是强烈推荐搞一搞的，各家支持都很棒（当然中文数据是没有的）另外这两个方案都支持SSL加密，需要用到域名和SSL证书。Plex还提供一个基于IP地址的外网串流方案，Emby没有
+&#13;
+4. 动画数据库前端
+&#13;
+这个说实话只有一个KODI，其他杂七杂八的基本都是KODI的衍生版本先说好的地方。Emby和Plex都有KODI的插件，链接起来很方便，支持直接播放文件（画质好，配置复杂，对终端配置要求高）和串流播放（画质略差，配置简单，对服务器配置要求高）再说坏的地方。KODI的目标用户是电视用户和平板用户，用键盘鼠标的PC并不在他们服务范围内，也就直接导致了键鼠操作比玩音游还难，有的时候半天按不到是很恼火的，看论坛他们竟然建议在PC上用手柄操作，这过于弱智。然后UI也是电视机和机顶盒的风格，很不21世纪，丑不可避。最后启动时会和服务器同步数据库，会刷新（闪烁）界面三次，眼睛疼。还有不定时卡死之类的事就不说了然后由于是小众开源软件，所以开发组维护的也不是很勤快，当然要求不高的话也能用（吧总之我也很不满意对了还有一个Plex MediaHome←好像叫这个，是Plex自己的客户端，对画质要求不高可以用，还不错
+&#13;
+5. 多终端高质量播放
+&#13;
+PC端两个方案：一个是KODI调用外置的PotPlayer，再配合LAV+MadVR+XySubFilter之类的。问题是偶尔会卡死，播放进度不能保存另一个是KODI+DSPlayer，其实是替换了内置的player，也可以使用那几个插件，但是没有了PotPlayer很多方便的功能，比如预览进度条，拖动进度条同时切换画面，然后UI也比PotPlayer丑一些（适应平板和电视的大图标注意要直接播放文件的话需要和NAS在同一个局域网内（SMB协议），那么开头说到的某个工具会派用处，如果是NFS协议的话就不需要，但是Windows下传输速度会变慢30%左右移动端的话基本就要串流了，普通的播放器播串流即可，不追求画质
+&#13;
+大致就是这样了，除了第一部分的下载完美无瑕，其他每个步骤都有坑，或多或少要舍弃一点追求。反正我是放弃了，当然如果觉得不太在乎的话，整一套这玩意，还是很帅很爽的</description>
+      <content:encoded><![CDATA[<p><b>Kiriz: </b><br>
+<span>NAS+PLEX+KODI+PotPlayer踩坑记录</span><br>
+<span>最近闲的蛋疼，折腾了市面上常见的各种家庭影院方案，踩了无数坑，最终还是因为各种瑕疵而放弃了但是分开来看的话，每个部分可能都有一点用，所以写一下踩过的各种坑。如果有感兴趣的点我可以再写些具体的教程。但是由于今天下午一怒之下把架好的服务都删了，所以没什么截图</span><br>
+<span>0. 终极期望：</span><br>
+<span>实现这样一个流水线：发现一部感兴趣的番↓找到磁链/种子↓离线下载（115）↓拖到本地（Aria2）↓自动归档添加元数据（Plex/Emby）↓动画数据库前端（KODI）↓多终端高质量播放（PotPlayer+Madvr）</span><br>
+<span>还有一个关键点就是这个流水线要支持安全的远程操作关于最终效果，可以去搜一下Plex/Kodi的海报墙，还是很炫酷的！</span><br>
+<span>1. 准备工作：</span><br>
+<span>要实现整个流水线需要这些东西一台支持docker或者win系统的NAS←没有的话可以用本地电脑代替一个Open vIRTUAL pRIVATE nETWORK sERVER←没有的话可以买别人的服务代替一个（子）域名并申请SSL证书←没有的话 去买一个啊！！域名才十几块一年 SSL证书不要钱没有公网IP的话需要一个DDNS域名一条最少10M上传的宽带性能不太差的终端</span><br>
+<span>2. 找资源部分</span><br>
+<span>我的资源全部都是动画片，所以基本上dmhy或者bangumi.moe上的磁链即可，电影美剧偶尔看，rarbg上应该都能有。rss订阅那一套不喜欢，保证不了画质。PT站混不来，没有想要的如果和我一样是磁链党的话，可以在NAS上用docker部署Aria2，镜像里搜索Aria2里Xujinkai的版本就很好用，Windows系统的NAS就更方便了，直接起个Aria2的服务下载的话直接用Aria2下载也可以，但稀有资源一般没速度（tracker都挂了），我是用了115先离线下好，然后115拖回本地。这里推荐两个脚本，一个是雪月秋水做的115Exporter，是Chrome插件，商城可以搜到；另一个是kkhaike做的fake115，是油猴脚本，GitHub上可以搜到；同时使用，效果更佳这里的话可以用SSL加密Aria2的传输，强迫症/内网环境复杂可以做，要用到域名和SSL证书</span><br>
+<span>3. 自动归档并添加元数据</span><br>
+<span>先讲一下基本原理：当一部片被下载到目标文件夹后，这些软件，首先会去解析它的名字，把那些字幕组、压制组、压制参数之类的去掉，留下一个片名和第几季第几话之类的信息。做这件事的叫Sanner然后会去一些视频数据库上用刚刚分析出的名字、剧集来搜数据，并且下载海报、宣传画之类的东西。做这件事的叫Scraper最后系统会根据下到的数据，把这部片归到相应的番的对应的季，总之就该怎么放怎么放这里有两套解决方案（其实是三套，但是KODI不能做Server端，我就没研究）首先说说Emby：Sanner的话Emby有一个不足，就是只支持SxxExx的名命解析，对于美剧一般没有问题，但是动画片很少有按这个命名格式来发布的。这个问题在Emby官方论坛有讨论，那个串我记得从14年讲到现在，结论就是自己手动改命名，否则无法识别动画片Scraper的话官方插件有一个叫Anime的，但是15年之后就没有更新了，写过爬虫或者做过API的同学都知道，如果目标网页的API改了，这玩意就废了。所以基本上就找不到什么数据总之我测试下来，识别率大约只有50%，其中有多少识别错的我还没统计，用了一天我就删了服务投奔Plex了那么说说Plex：Plex的论坛比Emby活跃的多，插件我觉得也比Emby强得多。比如说有一个叫HAMA的，专门用来做动画片元数据，至今仍在维护。看上去一切都很美好，我甚至头脑一热给这货开了终身会员（120刀，可以做多用户权限管理和iOS上的串流），现在已经在联系退款了最后其实还有一个叫Shoko的，我没有试过，但是docker上镜像就有1G，而且只能支持动画片，美剧、美国电影都用不了，放弃KODI的话如果不需要做Server远程播放还不错，但同样面临Scraper的问题然后就是三家通病了：一般找不到日语/中文数据，只有英语数据！！！不是我英文不好看不懂，但是实在是太膈应了。而且这问题一时半会还没法解决，因为几个比较常见的动画数据库都是英文的→MyAnimeList, AniDb, TheTVDb, TheMovieDb(这个有部分日文)，还有一些细节的问题，比如同一部动画不同季搜到的海报是一样的，之类的所以Server端没有一个完美的动画解决方案，这也是我放弃的直接原因。当然如果只有美剧/美国电影的话，还是强烈推荐搞一搞的，各家支持都很棒（当然中文数据是没有的）另外这两个方案都支持SSL加密，需要用到域名和SSL证书。Plex还提供一个基于IP地址的外网串流方案，Emby没有</span><br>
+<span>4. 动画数据库前端</span><br>
+<span>这个说实话只有一个KODI，其他杂七杂八的基本都是KODI的衍生版本先说好的地方。Emby和Plex都有KODI的插件，链接起来很方便，支持直接播放文件（画质好，配置复杂，对终端配置要求高）和串流播放（画质略差，配置简单，对服务器配置要求高）再说坏的地方。KODI的目标用户是电视用户和平板用户，用键盘鼠标的PC并不在他们服务范围内，也就直接导致了键鼠操作比玩音游还难，有的时候半天按不到是很恼火的，看论坛他们竟然建议在PC上用手柄操作，这过于弱智。然后UI也是电视机和机顶盒的风格，很不21世纪，丑不可避。最后启动时会和服务器同步数据库，会刷新（闪烁）界面三次，眼睛疼。还有不定时卡死之类的事就不说了然后由于是小众开源软件，所以开发组维护的也不是很勤快，当然要求不高的话也能用（吧总之我也很不满意对了还有一个Plex MediaHome←好像叫这个，是Plex自己的客户端，对画质要求不高可以用，还不错</span><br>
+<span>5. 多终端高质量播放</span><br>
+<span>PC端两个方案：一个是KODI调用外置的PotPlayer，再配合LAV+MadVR+XySubFilter之类的。问题是偶尔会卡死，播放进度不能保存另一个是KODI+DSPlayer，其实是替换了内置的player，也可以使用那几个插件，但是没有了PotPlayer很多方便的功能，比如预览进度条，拖动进度条同时切换画面，然后UI也比PotPlayer丑一些（适应平板和电视的大图标注意要直接播放文件的话需要和NAS在同一个局域网内（SMB协议），那么开头说到的某个工具会派用处，如果是NFS协议的话就不需要，但是Windows下传输速度会变慢30%左右移动端的话基本就要串流了，普通的播放器播串流即可，不追求画质</span><br>
+<span>大致就是这样了，除了第一部分的下载完美无瑕，其他每个步骤都有坑，或多或少要舍弃一点追求。反正我是放弃了，当然如果觉得不太在乎的话，整一套这玩意，还是很帅很爽的</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>fake115收下了</span><br>
+<span>在用这个脚本，和115Exporter一样的效果</span><br>
+<span>https://github.com/QuChao/Watsilla/raw/master/userScripts/aria2HelperFor115.user.js</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>原来弄过这些玩意 各种改文件名后来嘛嫌麻烦 电视装个b站tv客户端 装个kodi连上nas 感觉还是直接看文件浏览快速 </span><br>
+</p><p><b>windbms: </b><br>
+<span>kodi支持遥控器的，什么值得买上有人搞过</span><br>
+<span>https://post.smzdm.com/p/528679/</span><br>
+</p><p><b>luorenyuan: </b><br>
+<span>kodi其实是没有任何几把毛意义的，当你折腾完文件夹和文件名，配好搜刮器以后你发现真他妈的难用，交互也是一坨屎，只能用遥控器最方便，遥控器又全都是一坨屎，最后打开文件共享直接播，说白了kodi如果足够好用，早就风靡全球人手标配了，然而并没有</span><br>
+<span>不要钱的，才是最贵的，也是最麻烦的，基本谈不上什么用户体验</span><br>
+</p><p><b>riczxc: </b><br>
+<span>pc端很简单，直接sshfs解决，和本地一回事。</span><br>
+<span>移动端没有想好怎么做，sshfs说不定是一种方法，不过考虑到x265太多，还是需要一个能自动重编码的服务器...plex不开源，有洁癖不想用。</span><br>
+</p><p><b>osk666neo: </b><br>
+<span>偶直接dandanplay算了，数据库啥的都有了，懒得搞这么多麻烦复杂的。</span><br>
+<span>更是不明白新番为啥要离线。</span><br>
+<span>最近觉得下载看番这部分最麻烦的不是下载，而是看完后清理方面，显得非常没条理，啥都人工干。</span><br>
+<span>最近烦的还是从raid卡硬raid转移到付费软raid上。</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>大象吃西瓜: </b><br>
+<span> 本帖最后由 大象吃西瓜 于 2018-12-1 04:20 编辑 </span><br>
+<span>我现在的配置就是PT/115 - Rclone - Google Drive - Plexdrive - Filebot - Plex - Kodi/Infuse这样的顺序</span><br>
+</p><p><b>billy987ss: </b><br>
+<span>绝大多数人。。。一个D站就足够了。。。</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>咲月露娜 发表于 2018-11-30 21:24</span><br>
+<span>fake115收下了</span><br>
+<span>在用这个脚本，和115Exporter一样的效果</span><br>
+<span>油猴那个115导出不支持文件夹，插件的话占用一个进程耗系统资源，没有两全其美的办法唉。。</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>riczxc 发表于 2018-11-30 23:21</span><br>
+<span>pc端很简单，直接sshfs解决，和本地一回事。</span><br>
+<span>移动端没有想好怎么做，sshfs说不定是一种方法，不过考虑到x2 ...</span><br>
+<span>这么炫酷的海报墙哪个肥肥不想要一个呢</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>大象吃西瓜 发表于 2018-12-1 04:19</span><br>
+<span>我现在的配置就是PT/115 - Rclone - Google Drive - Plexdrive - Filebot - Plex - Kodi/Infuse这样的顺序 ...</span><br>
+<span>Filebot不错，之前没看到，能解决命名问题吧</span><br>
+<span>问下你的削刮器能有办法搜到日文/中文信息吗？特别是简介和每一集的标题之类的</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>osk666neo 发表于 2018-12-1 02:25</span><br>
+<span>偶直接dandanplay算了，数据库啥的都有了，懒得搞这么多麻烦复杂的。</span><br>
+<span>更是不明白新番为啥要离线。</span><br>
+<span>最近觉得 ...</span><br>
+<span>新番我也不离线看</span><br>
+<span>主要是收藏的老番，很多稀有资源，做个海报墙什么的，有时候想拿起来复习一下也方便</span><br>
+<span>整理最头疼的问题</span><br>
+</p><p><b>Nelioer: </b><br>
+<span>马一下，以后可能有用（大概）</span><br>
+</p><p><b>xjx: </b><br>
+<span>正想搞一个类似的东西，收藏学习了。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>riczxc: </b><br>
+<span>Kiriz 发表于 2018-12-1 11:33</span><br>
+<span>这么炫酷的海报墙哪个肥肥不想要一个呢</span><br>
+<span>是很酷，但用起来远没有文字或者列表好用...</span><br>
+</p><p><b>wolfling45: </b><br>
+<span>我也马一下，现在就是PT加盒子自带的海报墙</span><br>
+</p><p><b>thegodra: </b><br>
+<span>win server 2019 有本地kms可用了吗？</span><br>
+</p><p><b>sekitomokazu: </b><br>
+<span>mark一下</span><br>
+</p><p><b>qwjhb: </b><br>
+<span>如果美剧电影的话 直接sonarrradarr就好了 动画真是麻烦=-=</span><br>
+</p><p><b>wonderful259: </b><br>
+<span> 本帖最后由 wonderful259 于 2018-12-3 10:58 编辑 </span><br>
+<span>我现在的方案就是emby+kodi，个人觉得动画完全没法靠自动识别，而且收藏的版本还是要带上字幕组信息的。这个还是手动处理吧。</span><br>
+<span>不过我的观影环境是电视盒子直接kodi，emby那边只要文件夹归类好就可以了。外网没有需求。</span><br>
+</p><p><b>中已矣: </b><br>
+<span>电视墙太麻烦了，现在就随缘了。</span><br>
+</p><p><b>moekyo: </b><br>
+<span>终于有个地方可以晒一下我的折腾成果了</span><br>
+<span>周末也是折腾了一下那个 shokoanime 的，可以安装完之后死活打不开，然后想到现在 plex 基本可以满足我需求了，遂放弃</span><br>
+</p><p><b>littleneko: </b><br>
+<span> 本帖最后由 littleneko 于 2018-12-3 20:01 编辑 </span><br>
+<span>问一下楼主，plex是不是之后开了plex pass才能硬解？我折腾了好久没找到那里可以设置硬解，不能硬解的话外网完全不能用啊，软解不动。。。。</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>littleneko 发表于 2018-12-3 20:00</span><br>
+<span>问一下楼主，plex是不是之后开了plex pass才能硬解？我折腾了好久没找到那里可以设置硬解，不能硬解的话外 ...</span><br>
+<span>对的硬解要pass</span><br>
+</p><p><b>Kiriz: </b><br>
+<span>moekyo 发表于 2018-12-3 11:06</span><br>
+<span>终于有个地方可以晒一下我的折腾成果了</span><br>
+<span>太强了！</span><br>
+</p><p><b>phorcys02: </b><br>
+<span>12年kodi用户，目前， transmission + transmission-rss</span><br>
+<span>每季只要设定一下关键词，就全自动下载了</span><br>
+<span>kodi 刮削器完全不用，看什么列表直接选</span><br>
+<span>操作是 xbox one 手柄 + 空中飞鼠（淘宝搜，类似wiimote的手柄+键盘 合体，大小一个遥控器）</span><br>
+<span>海报墙除了酷炫卵用没有...</span><br>
+<span>移动端比如手机pad，直接播放nas 上的samba共享</span><br>
+<span>android 用 es文件管理器+mxplayer， ios用nplayer</span><br>
+</p><p><b>你说这个谁懂: </b><br>
+<span>看了LZ的贴，顺带也弄了个。</span><br>
+<span>用Plex+Hama的话日文标题什么的显示倒是没有问题。</span><br>
+<span>海报墙好爽啊！！！</span><br>
+<span>心痒了，有点想买终身会员</span><br>
+<img src="https://img.eservice-hk.net/upload/2018/12/09/093249_e3047185a218510f8dfda1b1af0af33b.png" title="https://img.eservice-hk.net/upload/2018/12/09/093249_e3047185a218510f8dfda1b1af0af33b.png"><br>
+<img src="https://img.eservice-hk.net/upload/2018/12/09/093325_bd1a44babe2fb3fa94f54a43fbe0ec9c.png" title="https://img.eservice-hk.net/upload/2018/12/09/093325_bd1a44babe2fb3fa94f54a43fbe0ec9c.png"><br>
+<img src="https://img.eservice-hk.net/upload/2018/12/09/093142_8cce85c6fdd63d670f5607eb2838269b.png" title="https://img.eservice-hk.net/upload/2018/12/09/093142_8cce85c6fdd63d670f5607eb2838269b.png"><br>
+</p><p><b>wuyingjun: </b><br>
+<span>用电脑文件夹分类的路过</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>1. 没有公网ip的话ddns不起效</span><br>
+<span>2. 建议直接bt。新番大马哈鱼或者萌番组的种有分流，速度还可以。老番u2，版本全。</span><br>
+<span>3. potplayer记忆播放位置选项默认是关的，在选项里。拖动卡死大概率是硬解的问题。</span><br>
+</p><p><b>幻剑游玩: </b><br>
+<span>求教一下 关于“多终端高质量播放（PotPlayer+Madvr）”这一部分单独在电视上实现有可能么</span><br>
+<span>早些年尝试过黑群晖这类NAS系统 需求始终对不上就放弃了 直接上了ESXI跑虚拟化</span><br>
+<span>我现在是片源（BDMV、BDRIP）扔服务器走ISCSI映射到本地多终端（几台PC）上每台电脑上都折腾了一遍TMT/POT+madvr+SVP 本地播放毫无问题 现在想要再加一个电视终端</span><br>
+<span>尝试过走DLNA、投屏等传输 受制于电视自身孱弱的解码 9成以上都无法播放 结果现在是单独跑了颗长hdmi连到最近的PC上 手机通过steam串流控制电脑点开POT播放</span><br>
+<span>不知道KODI、Plex这种第三方服务 解码是在服务端还是本地呢？ </span><br>
+</p><p><b>长末: </b><br>
+<span>混pt要么下载回家幻想着某天躺床上看大电视，要么用手机</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>奇迹之巅: </b><br>
+<span>你说这个谁懂 发表于 2018-12-9 09:33</span><br>
+<span>看了LZ的贴，顺带也弄了个。</span><br>
+<span>用Plex+Hama的话日文标题什么的显示倒是没有问题。</span><br>
+<span>海报墙好爽啊！！！ ...</span><br>
+<span>能说一下怎么配置hama么，不是码农看github头痛</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>幻剑游玩 发表于 2018-12-24 16:35</span><br>
+<span>求教一下 关于“多终端高质量播放（PotPlayer+Madvr）”这一部分单独在电视上实现有可能么</span><br>
+<span>早些年尝试过 ...</span><br>
+<span>ISCSI只大概试用过，请问多台电脑的话是不是有数据可靠性什么的问题？家庭使用的话，有哪些要折腾的点？</span><br>
+<span>plex之类可以服务器解码（转码），也可以接收端解码。</span><br>
+<span>看了下要求比较高，不知道</span><br>
+<span>    No transcoding: Intel “Atom” 1.2GHz (NAS devices based on ARM processors should also be capable of at least one stream with no transcoding)</span><br>
+<span>    Single 720p transcode: Intel Core i3 3.0 GHz</span><br>
+<span>    Single 1080p transcode: Intel Core i5 3.0GHz</span><br>
+<span>    Single 4K transcode: Intel Core i7 3.2GHz</span><br>
+<span>    4K HDR (50Mbps, 10-bit HEVC) file: 17000 PassMark score (being transcoded to 10Mbps 1080p)</span><br>
+<span>    4K SDR (40Mbps, 8-bit HEVC) file: 12000 PassMark score (being transcoded to 10Mbps 1080p)</span><br>
+<span>    1080p (10Mbps, H.264) file: 2000 PassMark score</span><br>
+<span>    720p (4Mbps, H.264) file: 1500 PassMark score</span><br>
+<span>想用G4600T做nas，passmark才4200</span><br>
+</p><p><b>osk666: </b><br>
+<span>话说想问问如何解决smb速度问题，直传能有30多mB，</span><br>
+<span>但播bdmv时有时候卡得厉害</span><br>
+</p><p><b>幻剑游玩: </b><br>
+<span>sakuyamai 发表于 2018-12-24 18:32</span><br>
+<span>ISCSI只大概试用过，请问多台电脑的话是不是有数据可靠性什么的问题？家庭使用的话，有哪些要折腾的点？</span><br>
+<span> ...</span><br>
+<span>走ISCSI的话要上HBA 可以理解成一个高级的网卡 要说局限性就是这玩意X宝上基本都是光环境用的的10G 就两个点的好说 再多要上光纤交换</span><br>
+<span>我是硬RAID5 千兆iSCSI HBA接交换机日常维护做好其他倒是没啥了 进一步折腾的话那就是考虑一步到位上10G全光环境 网卡还好 节点多的全光口交换机是一大笔投入</span><br>
+<span>plex 2000分就能跑1080P的话那还行 找个时间研究下试试</span><br>
+</p><p><b>osk666: </b><br>
+<span>幻剑游玩 发表于 2018-12-24 19:58</span><br>
+<span>走ISCSI的话要上HBA 可以理解成一个高级的网卡 要说局限性就是这玩意X宝上基本都是光环境用的的10G 就两 ...</span><br>
+<span>为啥一定要上HBA？直接用windows的initiator不行？</span><br>
+<span>还有你iscsi的server用啥，windows server自带的？</span><br>
+<span>偶现在用starwind的免费的最大2t好像不太行</span><br>
+</p><p><b>狂笨de音速: </b><br>
+<span>求下hama的下载地址，谢谢。</span><br>
+</p><p><b>dark_saber: </b><br>
+<span> 本帖最后由 dark_saber 于 2019-1-2 13:01 编辑 </span><br>
+<span>奇迹之巅 发表于 2018-12-24 18:03</span><br>
+<span>能说一下怎么配置hama么，不是码农看github头痛</span><br>
+<span>github主页上其实也讲得差不多了，把主页上的文件下载下来然后放到指定位置就行，重启plex应该就能选hama识别动画了。放的位置要看你的plex服务器端安装的平台，我是qnap就用winscp登录nas找到对应的目录（记得打开显示隐藏文件选项），把文件放进去就行，有好几个目录要放，别漏了</span><br>
+<span>hama装上后基本设置就是把hama勾上去，然后设置一下优先语言吧，喜欢日文就把日文加到第一位（默认第一位是en），对应的代号github上有说明</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>奇迹之巅: </b><br>
+<span>dark_saber 发表于 2019-1-2 12:58</span><br>
+<span>github主页上其实也讲得差不多了，把主页上的文件下载下来然后放到指定位置就行，重启plex应该就能选hama ...</span><br>
+<span>感谢回复。</span><br>
+<span>我按照他的说明把文件都放进NAS了，可是PLEX里面还是没有看到HAMA的选项。（Synology</span><br>
+<span>是要手动执行什么启动脚本么</span><br>
+</p><p><b>dark_saber: </b><br>
+<span> 本帖最后由 dark_saber 于 2019-1-4 21:55 编辑 </span><br>
+<span>奇迹之巅 发表于 2019-1-4 17:49</span><br>
+<span>感谢回复。</span><br>
+<span>我按照他的说明把文件都放进NAS了，可是PLEX里面还是没有看到HAMA的选项。（Synology</span><br>
+<span>是要手 ...</span><br>
+<span>我是放完之后就重启了一下plex，然后进设置-服务器-代理 里面就能看到hama的选项了（hamaMovies和hamaTV，分别在电影和电视节目里面）http://ww1.sinaimg.cn/large/6ddd6163gy1fyuw8xmyf4j21o30h37wh.jpg</span><br>
+</p><p><b>kalenty: </b><br>
+<span>看完种草，自己也在本子上简单整了radarr/sonarr + transmission + plex，主要问题是这几个：</span><br>
+<span>1. radarr依赖于tmdb，从wiki看起来不能简单的定制db入口；</span><br>
+<span>2. plex不能直接打开potplayer，自带的web player用起来不大舒服，搜官方论坛看起来只能复制链接串流播放</span><br>
+<span>3. plex安装了subtitle zero自动下载字幕，但是电视剧、番剧无法自动搜寻字幕</span><br>
+<span>整体来说只有下载电影算得上利器，不知道是不是我哪里整错了...</span><br>
+</p><p><b>kyokofsky: </b><br>
+<span>老哥试试jellyfin?</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.1</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>moekyo 发表于 2018-12-3 11:06</span><br>
+<span>终于有个地方可以晒一下我的折腾成果了</span><br>
+<span>感觉海报的版本有点混乱..</span><br>
+</p><p><b>moekyo: </b><br>
+<span>雪ノ下だんご 发表于 2019-02-22 20:15:16</span><br>
+<span>感觉海报的版本有点混乱..都是 anidb 上的，虽然可以手动贴，但是工作量太大了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>求大佬们帮忙看看</span><br>
+<span>plex会把存在电影文件夹里的特典之类也搜索出来识别为单独的影片，求问有什么办法从资料库删除或隐藏这些吗？</span><br>
+<img src="https://i.loli.net/2020/01/11/VNcM64rbxJ3SO9T.png" title="https://i.loli.net/2020/01/11/VNcM64rbxJ3SO9T.png"><br>
+<span>点菜单里的删除是删源文件。。。</span><br>
+<span>另外我尝试安装了hama插件到如下目录，但是plex重启了也还是显示“未安装任何插件”，需要激活一下吗？</span><br>
+<span>/share/CACHEDEV1_DATA/.qpkg/PlexMediaServer/Library/Plex Media Server/Plug-ins</span><br>
+</p><p><b>xjndfdfe: </b><br>
+<span>cloudskate 发表于 2020-1-11 21:44</span><br>
+<span>求大佬们帮忙看看</span><br>
+<span>plex会把存在电影文件夹里的特典之类也搜索出来识别为单独的影片，求问有什么办法从资料 ...</span><br>
+<span>我是手动在文件名上加-behindthescenes</span><br>
+</p><p><b>哈德斯: </b><br>
+<span>海报墙除了看看有个卵用</span><br>
+</p><p><b>benjin: </b><br>
+<img src="https://wx1.sinaimg.cn/large/6d914c9agy1gatxtr3bwuj21hc0u0npg.jpg" title="https://wx1.sinaimg.cn/large/6d914c9agy1gatxtr3bwuj21hc0u0npg.jpg"><br>
+<span>PLEX的海报墙的确很舒服。不过因为我下的片都是在百度网盘的，所以只能选择用网盘同步来自己拖下来。</span><br>
+<span>因为我拖的有动画也有其他不同的片子，所以最后还是手动把不同的片放到不同的文件夹里</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1794417[0-50]</guid>
+    </item>
+  </channel>
+</rss>

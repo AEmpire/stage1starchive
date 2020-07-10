@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安卓模拟器就没有一个能和hyper-V兼容的吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安卓模拟器就没有一个能和hyper-V兼容的吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:53:27 +0000</lastBuildDate>
+    <item>
+      <title>安卓模拟器就没有一个能和hyper-V兼容的吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847999-1-1.html</link>
+      <description>安卓模拟器就没有一个能和hyper-V兼容的吗？&#13;
+雷电 夜深   木木    都试过了
+&#13;
+有没有一个可以和hyper-V兼容的？</description>
+      <content:encoded><![CDATA[<p><b>yeah20002: </b><br>
+<span>安卓模拟器就没有一个能和hyper-V兼容的吗？</span><br>
+<span>雷电 夜深   木木    都试过了</span><br>
+<span>有没有一个可以和hyper-V兼容的？</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>你在hype-v里装个安卓不就解决问题了么</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>废话 hyper-v上的windows自己就是个虚拟机, 访问不了vt-x当然跑不动安卓</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>有，谷歌官方和微软都有不用hxam的。</span><br>
+<span>但是那俩家伙完全不适合拿来玩游戏。</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>系统杀手 发表于 2019-7-20 11:54</span><br>
+<span>你在hype-v里装个安卓不就解决问题了么</span><br>
+<span>要能玩游戏的。。。。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>typeunknown 发表于 2019-7-20 11:58</span><br>
+<span>有，谷歌官方和微软都有不用hxam的。</span><br>
+<span>但是那俩家伙完全不适合拿来玩游戏。 ...</span><br>
+<span>根据牙膏厂的手册，HAXM这玩意儿支持的是x86的安卓镜像，但是不少app就没做x86的编译</span><br>
+<span>https://software.intel.com/en-us/blogs/2015/07/17/a-quick-peek-at-hardware-accelerated-android-emulation-using-intel-hardware</span><br>
+<span>至于Android Studio的avd：x86镜像支持CPU硬件加速，Windows下可选HAXM或者HyperV。但是x86镜像自身是没有houdini的，这意味着没有专门针对x86平台编译的App/游戏是没法跑起来的。而ARM镜像用的QEMU虚拟ARM，效率比起houdini这个黑科技来CPU效率要差很多。 </span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>那么有安卓模拟器能正常使用闲鱼的吗？</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>纯情小鸭鸭 发表于 2019-7-20 13:48</span><br>
+<span>那么有安卓模拟器能正常使用闲鱼的吗？</span><br>
+<span>好像没有…我试过一个打开是能打开。但是登录验证死活过不去</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>yeah20002 发表于 2019-7-20 11:52</span><br>
+<span>雷电 夜深   木木    都试过了</span><br>
+<span>有没有一个可以和hyper-V兼容的？</span><br>
+<span>我直接在hyper-v上装了安卓x86</span><br>
+<span>—— 来自 HUAWEI EML-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>404489039: </b><br>
+<span>不能镶套虚拟化，所谓的安卓模拟器也是虚拟化一种</span><br>
+</p><p><b>hecas: </b><br>
+<span>若荼泱 发表于 2019-7-20 17:12</span><br>
+<span>好像没有…我试过一个打开是能打开。但是登录验证死活过不去</span><br>
+<span>可以先用老版本的咸鱼跳过验证，登陆后</span><br>
+<span>再直接新版本覆盖安装</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>RAMDA: </b><br>
+<span> 本帖最后由 RAMDA 于 2019-7-21 10:43 编辑 </span><br>
+<span>市面上没几家虚拟机是可以跟微软的hyper-v共存的吧</span><br>
+<span>这种时候就只能hyper-v和安卓模拟器二选一了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847999[0-50]</guid>
+    </item>
+  </channel>
+</rss>

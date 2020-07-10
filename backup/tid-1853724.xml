@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>玩永恒之柱有个问题请教</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>玩永恒之柱有个问题请教</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:17:51 +0000</lastBuildDate>
+    <item>
+      <title>玩永恒之柱有个问题请教[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853724-1-1.html</link>
+      <description>玩永恒之柱有个问题请教&#13;
+请问装备上的加属性为什么完全没效果？
+&#13;
+我知道多件装备加同一个属性是不会堆叠的，但是我其他都脱掉只穿一件of constitution+2的衣服，con值也没变。
+&#13;
+另外在城堡里盖了图书馆和chapel，然后去brighthollow休息的比如lasts for 2 rests: +3 resolve的效果也没用，睡醒res也是没变。
+&#13;
+我的con和res都没超19，都是14、15应该也不是到顶了吧。
+&#13;
+吃蔬菜+1 perception倒是有效…
+&#13;
+NS版的</description>
+      <content:encoded><![CDATA[<p><b>19_5702: </b><br>
+<span>玩永恒之柱有个问题请教</span><br>
+<span>请问装备上的加属性为什么完全没效果？</span><br>
+<span>我知道多件装备加同一个属性是不会堆叠的，但是我其他都脱掉只穿一件of constitution+2的衣服，con值也没变。</span><br>
+<span>另外在城堡里盖了图书馆和chapel，然后去brighthollow休息的比如lasts for 2 rests: +3 resolve的效果也没用，睡醒res也是没变。</span><br>
+<span>我的con和res都没超19，都是14、15应该也不是到顶了吧。</span><br>
+<span>吃蔬菜+1 perception倒是有效…</span><br>
+<span>NS版的</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>请问优化怎么样 读图等几分钟啊</span><br>
+</p><p><b>volanta: </b><br>
+<span>bug了吧，没遇见过种情况</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>19_5702: </b><br>
+<span>雪映风影 发表于 2019-8-15 23:46</span><br>
+<span>请问优化怎么样 读图等几分钟啊</span><br>
+<span>我觉得不太行，loading挺久的，一进loading我就刷s1打发时间</span><br>
+</p><p><b>九门惠: </b><br>
+<span>我记得1代是只取最高值</span><br>
+</p><p><b>19_5702: </b><br>
+<span>九门惠 发表于 2019-8-15 23:51</span><br>
+<span>我记得1代是只取最高值</span><br>
+<span>只取最高值就是不堆叠的意思吧？穿两件衣服分别con+1、con+2的话就只+2</span><br>
+<span>但我的情况是全身上下只穿一件装备，也不加点</span><br>
+</p><p><b>19_5702: </b><br>
+<span>volanta 发表于 2019-8-15 23:48</span><br>
+<span>bug了吧，没遇见过种情况</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+<span>刚去obsidian论坛看了下有人发个帖说的刚买的NS版的问题和我几乎一模一样，那估计就是NS版bug了</span><br>
+</p><p><b>飞姆托: </b><br>
+<span>就是BUG了，等修复吧</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>kruskal: </b><br>
+<span>我很好奇NS操作的复杂程度读图久是老问题了，PC上NVME SSD都快不起来</span><br>
+</p><p><b>冬眠的龙凰: </b><br>
+<span>龙与地下城和pf就是这样的，加值只取最高，除非是不同性质的</span><br>
+<span>比如你一个食人魔拳套力量获得增强加值4，一个食人魔腰带力量获得增强加值6，两个都是增强加值，只能取最高+6</span><br>
+<span>但是用祈愿术获得的力量加值就是内在加值，可以和增强加值叠加</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>冬眠的龙凰 发表于 2019-8-16 17:40</span><br>
+<span>龙与地下城和pf就是这样的，加值只取最高，除非是不同性质的</span><br>
+<span>比如你一个食人魔拳套力量获得增强加值4，一 ...</span><br>
+<span>我很不喜欢这个设计，摆明方便桌游的设定电子化还保留干嘛，明明叠加凑极限build更有趣</span><br>
+</p><p><b>冬眠的龙凰: </b><br>
+<span>洗刷刷 发表于 2019-8-16 17:54</span><br>
+<span>我很不喜欢这个设计，摆明方便桌游的设定电子化还保留干嘛，明明叠加凑极限build更有趣 ...</span><br>
+<span>因为有很多效果相同装备位不同的装备，这样极限凑只会导致战力崩坏，制作者反而会严格限制装备数值爆率了</span><br>
+<span>又不是暗黑那种刷刷刷游戏</span><br>
+</p><p><b>魔法酪饼: </b><br>
+<span>洗刷刷 发表于 2019-8-16 17:54</span><br>
+<span>我很不喜欢这个设计，摆明方便桌游的设定电子化还保留干嘛，明明叠加凑极限build更有趣 ...</span><br>
+<span>这并不是方便桌游的设计，而是基于数据平衡的设计</span><br>
+<span>而且这个设计也是提供跑团时和平分赃环境的基础</span><br>
+</p><p><b>jf8350143: </b><br>
+<span>洗刷刷 发表于 2019-08-16 17:54:19</span><br>
+<span>我很不喜欢这个设计，摆明方便桌游的设定电子化还保留干嘛，明明叠加凑极限build更有趣 ...二代就改掉了。不过二代也没多少直接加属性的装备，效果更五花八门</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>giogioG: </b><br>
+<span>这两天又鬼使神差的想重新捡起个crpg打发一下时间就看到这个帖子。柱子2当时草草通关了看了看dlc更了不少，但是又想玩拥王者，有玩过的推荐一下哪款更值得重新考虑吗</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>tdkrgj: </b><br>
+<span>ns版的披风是歪的，看着难受</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>harmonytree: </b><br>
+<span>giogioG 发表于 2019-8-16 20:27</span><br>
+<span>这两天又鬼使神差的想重新捡起个crpg打发一下时间就看到这个帖子。柱子2当时草草通关了看了看dlc更了不少， ...</span><br>
+<span>论可玩性我觉得拥王者是这几年crpg里的第一档，比柱2强不少</span><br>
+</p><p><b>notfind404: </b><br>
+<span>harmonytree 发表于 2019-8-18 01:22</span><br>
+<span>论可玩性我觉得拥王者是这几年crpg里的第一档，比柱2强不少</span><br>
+<span>都201几年了还在做半即时制，玩起来太蛋疼，不如干脆回合制。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853724[0-50]</guid>
+    </item>
+  </channel>
+</rss>

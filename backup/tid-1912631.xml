@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>(海外)内置AC-DC电源，直插交流电，无PCI扩展的ITX软路由作业</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>(海外)内置AC-DC电源，直插交流电，无PCI扩展的ITX软路由作业</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:21:20 +0000</lastBuildDate>
+    <item>
+      <title>(海外)内置AC-DC电源，直插交流电，无PCI扩展的ITX软路由作业[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912631-1-1.html</link>
+      <description>(海外)内置AC-DC电源，直插交流电，无PCI扩展的ITX软路由作业&#13;
+ 本帖最后由 营业收入 于 2020-2-18 22:51 编辑 
+
+工程未完成，持续更新中
+&#13;
+本贴是一个海外垃圾佬的装机日记，可能不适合各位国内垃圾佬抄作业，各位可以看一看捡垃圾过程和海外购物体验
+&#13;
+剁手前
+&#13;
+为什么想搞一台软路由机器？
+&#13;
+四个臭打游戏的一起租房，结果就是我想打会游戏放松下，却被迫变身高ping战士，很火大
+&#13;
+网络卡顿时ping网关总会有不少丢包，该让哪个硬件背锅很明显了
+&#13;
+目前的路由器是WRT3200ACM，这才四个人就把高端“家用”路由器干趴下了，这些玩意怕不是本质都是个人路由器
+&#13;
+为什么需要机箱内置DC-AC模块？
+&#13;
+不喜欢一坨大黑块在外面露着，一是个人觉得不好看，二是给理线添堵
+&#13;
+为什么不需要PCI扩展？
+&#13;
+入户网线和网络设备都在客厅，四人的电脑都在各自的卧室，没条件搞优雅的网线穿墙，也没人真的想从客厅拉网线
+&#13;
+而且我们不接NAS，不需要单臂路由对数据包做奇怪的事情，也不需要链路聚合
+&#13;
+所以板载双网卡的主板够用了
+&#13;
+选购主板
+&#13;
+首先确定主板选购标准：
+&#13;
+双网口
+&#13;
+主板有 ATX 规格的电源连接器（一些工控主板只能直插12V电源）
+&#13;
+板载低功耗 CPU（ atom 性能够用了，而且通常比较低价）
+&#13;
+确定如何选购主板后，用 ITX 主板 网口 作为搜索关键词来捡垃圾
+&#13;
+起初打算在国内捡个超低价垃圾，交给转运公司运到海外
+&#13;
+但国内春节假期延长，而且假期后国内物流的情况估计不太妙
+&#13;
+所以转战google购物搜索来捡洋垃圾，不给国内的企业添麻烦了
+&#13;
+最终确定的主板为 Supermicro X7SPA-HF
+&#13;
+标价 44.44 美元 + 免运费 + 加州消费税 3.22 美元，最终到手价格 47.66 美元
+&#13;
+这个价格买到工作站领域一线大厂的主板，很实惠了
+&#13;
+该主板板载 Atom D510，支持 DDR2 笔记本内存
+&#13;
+而且主板上有个和 SATA 口相同朝向的 USB 接口，随便找个U盘就能当做内置“硬盘”使用，能在硬盘预算上省一笔了
+&#13;
+顺便分享一下一些在国内能买到的 ITX 软路由主板：
+&#13;
+华硕 Hummingbird：板载 Atom D510，大厂出品，我没买是因为 ebay 上售价高达税前 78 美元 + 运费 13.8 美元
+&#13;
+板载 AMD G-T48N 的主板：残血的初代 APU 架构，价格很低，关键词“T48N 主板”，注意同型号主板既有双网卡的也有单网卡的
+&#13;
+6网口 ITX 主板：目前没见过板载超过6个网口的 itx 主板，关键词 “ELSKY J1900” ，进一步压缩预算可搜索 "itx 网口 D525"，供需要极小机箱和很多网口的朋友参考
+&#13;
+用台式机 CPU 的4网口 ITX 主板：关键词 “Q31-4L”、“7580 主板” （LGA1151），“7560 主板”（LGA1150），供需要极小机箱，多网口，而且要求CPU性能（比如虚拟机）的朋友参考
+&#13;
+选购机箱
+&#13;
+起初打算购买国内的 zs-D1 或 X2N V3，这两个机箱都能内置 AC-DC 模块
+&#13;
+放弃从国内购买配件后，首先通过搜索 "3L ITX case" 找到了在美国众筹成功的 J-HACK Pure 机箱
+&#13;
+能安装明纬 RPS-200 电源模块，搭配 DC-ATX 模块使用
+&#13;
+但是这个众筹产品贵爆，机箱本体售价高达税前 84.95 美元，电源模块也要大概 50 美元
+&#13;
+最终选择了 G ATLANTIC GA6605 
+&#13;
+内置全汉 180W Flex ATX 电源
+&#13;
+标价 50 美元 + 运费 17美元 + 加州消费税 3.63 美元，最终到手价格 70.63 美元
+&#13;
+下图是我国台湾 G ATLANTIC 官网的图片，能看清此机箱主要特性的高清图只能靠我来补全了
+&#13;
+其他配件
+&#13;
+闲置U盘 - 0元
+&#13;
+ProMOS 1 GB DR2 667 笔记本内存 - 3.75美元
+&#13;
+因机箱附赠的全汉 FSP180-50LG 电源翻车，无法开机，更换电源为 FSP100-50LG ，25.73 美元
+&#13;
+部分施工过程
+&#13;
+ G ATLANTIC GA6605 机箱出厂状态的拆解图，此时旁边的电源还是附赠的全汉 FSP180-50LG
+&#13;
+我买到的机箱只给了一个2.5寸硬盘支架，可以选择左、中、右三个位置安装（实际这个机箱架构能容纳三个2.5寸硬盘）
+&#13;
+可以发现这个机箱自带一个串口，而且这个串口还引出了两根线接入主板开机键，没想到串口还能给电脑开机
+&#13;
+https://i.loli.net/2020/02/18/LOKsA8xRXyPS6QI.jpg
+&#13;
+ 新买的 FSP100-50LG 电源，仅提供非常极简主义的电源接口，附带了一条 ATX 主板 20pin 转不知名品牌机主板接口的转接线
+&#13;
+https://i.loli.net/2020/02/18/oVlC3ktPYfvwWAB.jpg
+&#13;
+https://i.loli.net/2020/02/18/s7FlADpOQLau8hk.jpg
+&#13;
+GA6605 机箱装机图，串口已经被我拆除
+&#13;
+https://i.loli.net/2020/02/18/tu8EJAxwegnXCOi.jpg
+&#13;
+https://i.loli.net/2020/02/18/oVKrOkgp5If6AdY.jpg</description>
+      <content:encoded><![CDATA[<p><b>营业收入: </b><br>
+<span>(海外)内置AC-DC电源，直插交流电，无PCI扩展的ITX软路由作业</span><br>
+<span> 本帖最后由 营业收入 于 2020-2-18 22:51 编辑 </span><br>
+<span>工程未完成，持续更新中</span><br>
+<span>本贴是一个海外垃圾佬的装机日记，可能不适合各位国内垃圾佬抄作业，各位可以看一看捡垃圾过程和海外购物体验</span><br>
+<span>剁手前</span><br>
+<span>为什么想搞一台软路由机器？</span><br>
+<span>四个臭打游戏的一起租房，结果就是我想打会游戏放松下，却被迫变身高ping战士，很火大</span><br>
+<span>网络卡顿时ping网关总会有不少丢包，该让哪个硬件背锅很明显了</span><br>
+<span>目前的路由器是WRT3200ACM，这才四个人就把高端“家用”路由器干趴下了，这些玩意怕不是本质都是个人路由器</span><br>
+<span>为什么需要机箱内置DC-AC模块？</span><br>
+<span>不喜欢一坨大黑块在外面露着，一是个人觉得不好看，二是给理线添堵</span><br>
+<span>为什么不需要PCI扩展？</span><br>
+<span>入户网线和网络设备都在客厅，四人的电脑都在各自的卧室，没条件搞优雅的网线穿墙，也没人真的想从客厅拉网线</span><br>
+<span>而且我们不接NAS，不需要单臂路由对数据包做奇怪的事情，也不需要链路聚合</span><br>
+<span>所以板载双网卡的主板够用了</span><br>
+<span>选购主板</span><br>
+<span>首先确定主板选购标准：</span><br>
+<span>双网口</span><br>
+<span>主板有 ATX 规格的电源连接器（一些工控主板只能直插12V电源）</span><br>
+<span>板载低功耗 CPU（ atom 性能够用了，而且通常比较低价）</span><br>
+<span>确定如何选购主板后，用 ITX 主板 网口 作为搜索关键词来捡垃圾</span><br>
+<span>起初打算在国内捡个超低价垃圾，交给转运公司运到海外</span><br>
+<span>但国内春节假期延长，而且假期后国内物流的情况估计不太妙</span><br>
+<span>所以转战google购物搜索来捡洋垃圾，不给国内的企业添麻烦了</span><br>
+<span>最终确定的主板为 Supermicro X7SPA-HF</span><br>
+<span>标价 44.44 美元 + 免运费 + 加州消费税 3.22 美元，最终到手价格 47.66 美元</span><br>
+<span>这个价格买到工作站领域一线大厂的主板，很实惠了</span><br>
+<span>该主板板载 Atom D510，支持 DDR2 笔记本内存</span><br>
+<span>而且主板上有个和 SATA 口相同朝向的 USB 接口，随便找个U盘就能当做内置“硬盘”使用，能在硬盘预算上省一笔了</span><br>
+<span>顺便分享一下一些在国内能买到的 ITX 软路由主板：</span><br>
+<span>华硕 Hummingbird：板载 Atom D510，大厂出品，我没买是因为 ebay 上售价高达税前 78 美元 + 运费 13.8 美元</span><br>
+<span>板载 AMD G-T48N 的主板：残血的初代 APU 架构，价格很低，关键词“T48N 主板”，注意同型号主板既有双网卡的也有单网卡的</span><br>
+<span>6网口 ITX 主板：目前没见过板载超过6个网口的 itx 主板，关键词 “ELSKY J1900” ，进一步压缩预算可搜索 "itx 网口 D525"，供需要极小机箱和很多网口的朋友参考</span><br>
+<span>用台式机 CPU 的4网口 ITX 主板：关键词 “Q31-4L”、“7580 主板” （LGA1151），“7560 主板”（LGA1150），供需要极小机箱，多网口，而且要求CPU性能（比如虚拟机）的朋友参考</span><br>
+<span>选购机箱</span><br>
+<span>起初打算购买国内的 zs-D1 或 X2N V3，这两个机箱都能内置 AC-DC 模块</span><br>
+<span>放弃从国内购买配件后，首先通过搜索 "3L ITX case" 找到了在美国众筹成功的 J-HACK Pure 机箱</span><br>
+<span>能安装明纬 RPS-200 电源模块，搭配 DC-ATX 模块使用</span><br>
+<span>但是这个众筹产品贵爆，机箱本体售价高达税前 84.95 美元，电源模块也要大概 50 美元</span><br>
+<span>最终选择了 G ATLANTIC GA6605 </span><br>
+<span>内置全汉 180W Flex ATX 电源</span><br>
+<span>标价 50 美元 + 运费 17美元 + 加州消费税 3.63 美元，最终到手价格 70.63 美元</span><br>
+<span>下图是我国台湾 G ATLANTIC 官网的图片，能看清此机箱主要特性的高清图只能靠我来补全了</span><br>
+<span>其他配件</span><br>
+<span>闲置U盘 - 0元</span><br>
+<span>ProMOS 1 GB DR2 667 笔记本内存 - 3.75美元</span><br>
+<span>因机箱附赠的全汉 FSP180-50LG 电源翻车，无法开机，更换电源为 FSP100-50LG ，25.73 美元</span><br>
+<span>部分施工过程</span><br>
+<span> G ATLANTIC GA6605 机箱出厂状态的拆解图，此时旁边的电源还是附赠的全汉 FSP180-50LG</span><br>
+<span>我买到的机箱只给了一个2.5寸硬盘支架，可以选择左、中、右三个位置安装（实际这个机箱架构能容纳三个2.5寸硬盘）</span><br>
+<span>可以发现这个机箱自带一个串口，而且这个串口还引出了两根线接入主板开机键，没想到串口还能给电脑开机</span><br>
+<img src="https://i.loli.net/2020/02/18/LOKsA8xRXyPS6QI.jpg" title="https://i.loli.net/2020/02/18/LOKsA8xRXyPS6QI.jpg"><br>
+<span> 新买的 FSP100-50LG 电源，仅提供非常极简主义的电源接口，附带了一条 ATX 主板 20pin 转不知名品牌机主板接口的转接线</span><br>
+<img src="https://i.loli.net/2020/02/18/oVlC3ktPYfvwWAB.jpg" title="https://i.loli.net/2020/02/18/oVlC3ktPYfvwWAB.jpg"><br>
+<img src="https://i.loli.net/2020/02/18/s7FlADpOQLau8hk.jpg" title="https://i.loli.net/2020/02/18/s7FlADpOQLau8hk.jpg"><br>
+<span>GA6605 机箱装机图，串口已经被我拆除</span><br>
+<img src="https://i.loli.net/2020/02/18/tu8EJAxwegnXCOi.jpg" title="https://i.loli.net/2020/02/18/tu8EJAxwegnXCOi.jpg"><br>
+<img src="https://i.loli.net/2020/02/18/oVKrOkgp5If6AdY.jpg" title="https://i.loli.net/2020/02/18/oVKrOkgp5If6AdY.jpg"><br>
+</p><p><b>糊状物: </b><br>
+<span> 本帖最后由 糊状物 于 2020-2-8 10:18 编辑 </span><br>
+<span>搜了一下，我错了，我编辑掉</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>曾经买过妖擎的j1900dc-jack板组下载机</span><br>
+</p><p><b>warrior: </b><br>
+<span>我有一块N2800的板子   KINO-CV1MINI-ITX</span><br>
+<span> CPU </span><br>
+<span>1.86GHz Intel® Atom™ D2550 dual-core processor</span><br>
+<span>1.6GHz Intel® Atom™ N2600 dual-core processor </span><br>
+<span>1.86GHz Intel® Atom™ N2800 dual-core processor (optional) </span><br>
+<span> Chipset </span><br>
+<span>Intel® NM10</span><br>
+<span> BIOS </span><br>
+<span>UEFI BIOS</span><br>
+<span> Memory </span><br>
+<span>1 x 1066MHz DDR3/DDR3L (1.35V) SO-DIMM up to 4GB (D2550 and N2800) </span><br>
+<span>1 x 800MHz DDR3/DDR3L (1.35V) SO-DIMM up to 2GB (N2600)</span><br>
+<span> Graphics </span><br>
+<span>Intel® GMA 3650 with 640 MHz graphics core speed for D2550 and N2800 </span><br>
+<span>Intel® GMA 3600 with 400 MHz graphics core speed for N2600</span><br>
+<span> Display Output </span><br>
+<span>Supports dual LVDS, VGA and HDMI for dual independent display </span><br>
+<span>1 x VGA (up to 2048 x 1536 @75Hz) </span><br>
+<span>1 x HDMI (up to 1920 x 1200 @60Hz) </span><br>
+<span>LVDS1 integrated in the D2550/N2600 </span><br>
+<span>Single-channel 24-bit LVDS by D2550, resolution support up to 1440x900 </span><br>
+<span>Single-channel 18-bit LVDS by N2600 and N2800, resolution support up to 1366x768 </span><br>
+<span>LVDS2 supports 24-bit dual-channel by CH7511 DP to LVDS converter</span><br>
+<span> Ethernet </span><br>
+<span>Dual GbE Realtek RTL8111E controller with ASF 2.0 support</span><br>
+<span> I/O Interfaces </span><br>
+<span>5 x RS-2321 x RS-422/485 </span><br>
+<span>1 x 6-pin KB/MS2 x SATA 3Gb/s with 5V/12V power connector </span><br>
+<span>6 x USB 2.02 x USB 3.0 </span><br>
+<span>1 x microSD solt (bootable)</span><br>
+<span> Super IO </span><br>
+<span>Fintek F81866</span><br>
+<span> Digital I/O </span><br>
+<span>8-bit digital I/O (4-bit input, 4-bit output)</span><br>
+<span> Expansions </span><br>
+<span>1 x PCIe Mini card slot (compatible with mSATA SSD storage) </span><br>
+<span>1 x PCI slot</span><br>
+<span> Audio </span><br>
+<span>Realtek ALC662 HD audio codec</span><br>
+<span> Watchdog Timer </span><br>
+<span>Software programmable supports 1~255 sec. system reset by Super I/O </span><br>
+<span> Power Supply </span><br>
+<span>Maximum input voltage range: 9V ~ 28V </span><br>
+<span>Recommended operating input voltage range: 12V ~ 24V </span><br>
+<span>1 x External 4-pin DIN DC jack </span><br>
+<span>1 x Internal 4-pin (2x2) power connector</span><br>
+<span> Fan Connector </span><br>
+<span>1 x 3-pin CPU fan connector </span><br>
+<span>1 x 3-pin system fan connector</span><br>
+<span> SMBus </span><br>
+<span>1 x 4-pin connector</span><br>
+<span> Power Consumption </span><br>
+<span>12V@2.8A (1.86GHz Intel® D2550 CPU with DDR3 1333MHz 4GB DIMM) </span><br>
+<span>12V@2.4A (1.6GHz Intel® N2600 CPU with DDR3 1333MHz 2GB DIMM)</span><br>
+<span> Operating Temperature </span><br>
+<span>-20°C ~ 60°C with free air, -20°C ~ 70°C with force air for D2550 processor </span><br>
+<span>-20°C ~ 70°C with free air, -20°C ~ 75°C with force air for N2600 and N2800 processor</span><br>
+<span> Operating Humidity </span><br>
+<span>5% ~ 95%, non-condensing</span><br>
+<span>淘宝180买的，又花了100买了条内存，80搭配了机箱电源</span><br>
+<span>然而还是性能太烂没有需求，吃灰ING</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>没必要搞这些，买个大水牛pc180机箱 ，普通matx就完事了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>radar: </b><br>
+<span>这硬件真是太老了，不如ebay上捡整机…</span><br>
+</p><p><b>营业收入: </b><br>
+<span>radar 发表于 2020-2-8 12:55</span><br>
+<span>这硬件真是太老了，不如ebay上捡整机…</span><br>
+<span>也有考虑过捡台瘦客户机，但是这些机器基本都是单网口，毕竟就是个远程桌面播放器，怎么改造出双网口是个大问题</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>天朝水深火热</span><br>
+<span>主板这玩意我搜了下最便宜卖500块</span><br>
+</p><p><b>radar: </b><br>
+<span>营业收入 发表于 2020-2-8 23:22</span><br>
+<span>也有考虑过捡台瘦客户机，但是这些机器基本都是单网口，毕竟就是个远程桌面播放器，怎么改造出双网口是个 ...</span><br>
+<span>hp的thin client有胖机，比如 t620 plus或者t730，都可以插一块pci网卡。</span><br>
+<span>另外acer 有出过带全尺寸pci卡槽的小机器，性价比超群，也可以扩展网口，秒杀具备相同扩展能力的昂贵的thinkcentre m910x。</span><br>
+<span>我要是在北美，我肯定买上述机器</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>单口小主机可以搭配交换机坐独臂路由嘛，除非是用上了千兆下行的宽带，用单1G网的独臂路由去接50/500M宽带毫无压力啊</span><br>
+</p><p><b>营业收入: </b><br>
+<span>Realplayer 发表于 2020-2-8 23:47</span><br>
+<span>天朝水深火热</span><br>
+<span>主板这玩意我搜了下最便宜卖500块</span><br>
+<span>不同地区的垃圾肯定也不一样嘛</span><br>
+<span>在国内搞itx平台的软路由可以考虑一下yes时代之前的低功耗 AMD 平台</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>后悔以前DQ77KB量大价低的时候没买个两三块存着</span><br>
+</p><p><b>Litccc: </b><br>
+<span>从国内买一个快递过来不行吗</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>我也想找一块能用笔记本D2的主板，最好是双内存槽的</span><br>
+</p><p><b>liuxl8964: </b><br>
+<span> 本帖最后由 liuxl8964 于 2020-2-11 09:14 编辑 </span><br>
+<span>信步SV3-26026，</span><br>
+<span>3.5寸台机硬盘大小，集成双核四线程N2600CPU，DDR3内存，mini-pcie插槽，mSATA插槽，SATA硬盘插槽，无风扇散热，工作完全静音，DC12V电源供电，双千M网卡 整机加3.5硬盘功耗待机10W</span><br>
+<span>最开始单板只要45单位人民币</span><br>
+<span>后来炒到130</span><br>
+<span>现在只能买到那批上车的成品</span><br>
+<span>250左右带内存机箱这样</span><br>
+</p><p><b>elflie: </b><br>
+<span>不想要个大黑块其实搞个变压端跟插头一体的适配器就好了，选择会多很多</span><br>
+</p><p><b>营业收入: </b><br>
+<span>垃圾佬翻车了</span><br>
+<span>机箱附赠的全汉 flex 电源是坏的，目前正在物色新电源</span><br>
+</p><p><b>SICP: </b><br>
+<span>营业收入 发表于 2020-2-11 13:08</span><br>
+<span>垃圾佬翻车了</span><br>
+<span>机箱附赠的全汉 flex 电源是坏的，目前正在物色新电源</span><br>
+<span>哈哈哈哈哈</span><br>
+</p><p><b>8492-nsk: </b><br>
+<span>在这里也咨询一下，国内哪家DC-ATX电源靠谱点？包括适配器。看了下这玩意只有淘宝作坊有是吧？能有稳定的200W功率么？</span><br>
+<span>家里长辈用那个惠普的小品牌机电源风扇非常响，清过灰。现在想一劳永逸做静音。</span><br>
+<span>主要是这玩意有显卡有光驱，我还给加了个固态。显卡不用额外供电，DC电源能有多个稳定的SATA电源接口的吗？看了下好像都要定制。</span><br>
+</p><p><b>营业收入: </b><br>
+<span> 本帖最后由 营业收入 于 2020-2-18 22:21 编辑 </span><br>
+<span>Litccc 发表于 2020-2-11 08:58</span><br>
+<span>从国内买一个快递过来不行吗</span><br>
+<span>现在国内的转运公司都在摸鱼啊</span><br>
+<span>不然我肯定会考虑一下淘宝</span><br>
+<span>来看一下我年前就提交打包的包裹</span><br>
+<span>因为这家公司是先打包再付费，所以现在没办法支付运费，客服QQ永远离线，电话永远不通</span><br>
+<img src="https://i.loli.net/2020/02/18/dQmlOFucbPGwUhC.png" title="https://i.loli.net/2020/02/18/dQmlOFucbPGwUhC.png"><br>
+<span>而我同学去联系另一家转运公司时，直接吃闭门羹：</span><br>
+<img src="https://i.loli.net/2020/02/18/6a7Kxf2X8uwFGgb.jpg" title="https://i.loli.net/2020/02/18/6a7Kxf2X8uwFGgb.jpg"><br>
+</p><p><b>Litccc: </b><br>
+<span>营业收入 发表于 2020-2-18 22:19</span><br>
+<span>现在国内的转运公司都在摸鱼啊</span><br>
+<span>不然我肯定会考虑一下淘宝</span><br>
+<span>还好我在年前买的，疫情爆发前就寄出来了</span><br>
+</p><p><b>koakon: </b><br>
+<span>看完一楼我怎么觉得是无线的锅。不是路由的锅。打游戏的都是小帧包。又没有大流量。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912631[0-50]</guid>
+    </item>
+  </channel>
+</rss>

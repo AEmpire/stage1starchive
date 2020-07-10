@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一个内网远程桌面问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一个内网远程桌面问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:24:05 +0000</lastBuildDate>
+    <item>
+      <title>请教一个内网远程桌面问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1889713-1-1.html</link>
+      <description>请教一个内网远程桌面问题&#13;
+如果我有两台PC，用千兆线连接，带宽足够播放6k 60hz视频吗？</description>
+      <content:encoded><![CDATA[<p><b>碳.: </b><br>
+<span>请教一个内网远程桌面问题</span><br>
+<span>如果我有两台PC，用千兆线连接，带宽足够播放6k 60hz视频吗？</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>何不直接SMB播放</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>我这里两台电脑有线千M直连，windows的RDP，没试过播放视频，倒是窗口拖动感觉没有在本地流畅</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>本地播放不行吗</span><br>
+<span>远程 还要涉及到显卡解码的问题</span><br>
+</p><p><b>youta: </b><br>
+<span>远程桌面帧率画质都有问题吧，还不如smb</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sirlion: </b><br>
+<span>楼主应该是有别的需求，只是拿视频当例子</span><br>
+</p><p><b>碳.: </b><br>
+<span>sirlion 发表于 2019-12-9 18:12</span><br>
+<span>楼主应该是有别的需求，只是拿视频当例子</span><br>
+<span>就是这样，我猜带宽也不够，就是对这个问题没找到具体测试结果</span><br>
+</p><p><b>碳.: </b><br>
+<span>咲月露娜 发表于 2019-12-9 11:53</span><br>
+<span>我这里两台电脑有线千M直连，windows的RDP，没试过播放视频，倒是窗口拖动感觉没有在本地流畅 ...</span><br>
+<span>据说RDP是在本地渲染而不是传输视频？那这是怎么回事</span><br>
+</p><p><b>yst234: </b><br>
+<span> 这需求 如果是走网络传输视频本身还好说，毕竟是压缩过的内容</span><br>
+<span>可问题是远程桌面。。这个流量就可怕了 至少万兆起吧（感觉还不一定够，要高速 + 低延迟的话怕不是要上 40G InfiniBand 网络了都）</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>LZ你有两台8K显示器吗？WIN10现在大于1080P分辨率默认启用AVC444编码，流畅度应该有很大改善了</span><br>
+</p><p><b>dogfight: </b><br>
+<span>碳. 发表于 2019-12-11 11:06</span><br>
+<span>据说RDP是在本地渲染而不是传输视频？那这是怎么回事</span><br>
+<span>本地渲染的是UI</span><br>
+<span>但比如打游戏就是远程里面渲染</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>dogfight 发表于 2019-12-11 11:32</span><br>
+<span>本地渲染的是UI</span><br>
+<span>但比如打游戏就是远程里面渲染</span><br>
+<span>早就不用本地渲染了，那都是remotefx之前的事情了</span><br>
+<span>虽然拿个不打补丁的WIN7还是可以回顾一下</span><br>
+</p><p><b>碳.: </b><br>
+<span>zatsuza 发表于 2019-12-11 11:31</span><br>
+<span>LZ你有两台8K显示器吗？WIN10现在大于1080P分辨率默认启用AVC444编码，流畅度应该有很大改善了 ...</span><br>
+<span>手头有个很强的PC……在机架上，你懂的</span><br>
+<span>就想试试能怎么利用一下</span><br>
+</p><p><b>radar: </b><br>
+<span>如果不是实时性要求很高的话，steam串流可以试试</span><br>
+</p><p><b>モトロ: </b><br>
+<span> moonlight4K 60FPS默认码率是80000Kbps 感觉还行吧</span><br>
+</p><p><b>refo2613: </b><br>
+<span>机架上的强力PC</span><br>
+<span>一般是用来citrix远程桌面，上工控绘图软件的</span><br>
+</p><p><b>碳.: </b><br>
+<span>refo2613 发表于 2019-12-11 12:49</span><br>
+<span>机架上的强力PC</span><br>
+<span>一般是用来citrix远程桌面，上工控绘图软件的</span><br>
+<span>那个太复杂了……我就准备用RDP玩玩</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1889713[0-50]</guid>
+    </item>
+  </channel>
+</rss>

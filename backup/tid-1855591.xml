@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>华硕：AMD认为zen2的Boost频率太激进，所以通过Agesa降了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>华硕：AMD认为zen2的Boost频率太激进，所以通过Agesa降了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:06:01 +0000</lastBuildDate>
+    <item>
+      <title>华硕：AMD认为zen2的Boost频率太激进，所以通过Agesa降了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855591-1-1.html</link>
+      <description>华硕：AMD认为zen2的Boost频率太激进，所以通过Agesa降了&#13;
+ 本帖最后由 ft5555 于 2019-8-24 11:59 编辑 
+
+Shamino from Asus - newer Agesa (inc 1004 ) dont fix boost behavior and previous Agesa were too aggressive.
+&#13;
+==============================================
+&#13;
+https://www.overclock.net/forum/28085580-post549.html.
+&#13;
+Setting the thermal limits below stock (95°C) make no difference, since the boost algorithm already uses lower limits.
+&#13;
+The original limits for Ryzen 3000 SKUs were:
+&#13;
+- 3600 = 4100MHz (80-95°C) / 4200MHz (&lt; 80°C)
+&#13;
+- 3600X = 4200MHz (80-95°C) / 4400MHz (&lt; 80°C)
+&#13;
+- 3700X = 4200MHz (80-95°C) / 4400MHz (&lt; 80°C)
+&#13;
+- 3800X = 4300MHz (80-95°C) / 4550MHz (&lt; 80°C)
+&#13;
+- 3900X = 4400MHz (80-95°C) / 4650MHz (&lt; 80°C)
+&#13;
+Since then, it appears that the HighTemperature limit has been reduced further to 75°C (from 80°C).
+&#13;
+New SMUs also have introduced "MiddleTemperature" limit, but that gets disabled when PBO is enabled.
+&#13;
+HWInfo is also able to display these limits (fused values).
+&#13;
+======================================================
+&#13;
+reddit上有条评论： zen2芯片质量值得怀疑</description>
+      <content:encoded><![CDATA[<p><b>ft5555: </b><br>
+<span>华硕：AMD认为zen2的Boost频率太激进，所以通过Agesa降了</span><br>
+<span> 本帖最后由 ft5555 于 2019-8-24 11:59 编辑 </span><br>
+<span>Shamino from Asus - newer Agesa (inc 1004 ) dont fix boost behavior and previous Agesa were too aggressive.</span><br>
+<span>==============================================</span><br>
+<span>https://www.overclock.net/forum/28085580-post549.html.</span><br>
+<span>Setting the thermal limits below stock (95°C) make no difference, since the boost algorithm already uses lower limits.</span><br>
+<span>The original limits for Ryzen 3000 SKUs were:</span><br>
+<span>- 3600 = 4100MHz (80-95°C) / 4200MHz (< 80°C)</span><br>
+<span>- 3600X = 4200MHz (80-95°C) / 4400MHz (< 80°C)</span><br>
+<span>- 3700X = 4200MHz (80-95°C) / 4400MHz (< 80°C)</span><br>
+<span>- 3800X = 4300MHz (80-95°C) / 4550MHz (< 80°C)</span><br>
+<span>- 3900X = 4400MHz (80-95°C) / 4650MHz (< 80°C)</span><br>
+<span>Since then, it appears that the HighTemperature limit has been reduced further to 75°C (from 80°C).</span><br>
+<span>New SMUs also have introduced "MiddleTemperature" limit, but that gets disabled when PBO is enabled.</span><br>
+<span>HWInfo is also able to display these limits (fused values).</span><br>
+<span>======================================================</span><br>
+<span>reddit上有条评论： zen2芯片质量值得怀疑</span><br>
+</p><p><b>bilibon: </b><br>
+<span>官方告诉你只能超到这样</span><br>
+</p><p><b>ft5555: </b><br>
+<span>bilibon 发表于 2019-8-24 11:51</span><br>
+<span>官方告诉你只能超到这样</span><br>
+<span>这不是超，这是连产品标注频率都达不到了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>AMD Yes！</span><br>
+<span>请问是不是要赔钱了？</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>melvin95: </b><br>
+<span>双11八折大丈夫？</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>降价就对了，要那么高频干嘛，赶紧降价</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>红左手: </b><br>
+<span>Intel太菜，不值得上高频来对付</span><br>
+</p><p><b>Sheny: </b><br>
+<span>EraserKing 发表于 2019-8-24 12:09</span><br>
+<span>AMD Yes！</span><br>
+<span>请问是不是要赔钱了？</span><br>
+<span>觉得自己没到标称频率可以退货，国内不知道行不行。</span><br>
+</p><p><b>雪影: </b><br>
+<span>CHH不是有个帖子么，也看主板，同Agesa不同品牌主板最高频率也不同</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sheny 发表于 2019-8-24 12:58</span><br>
+<span>觉得自己没到标称频率可以退货，国内不知道行不行。</span><br>
+<span>别扯，拿官方声明来</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>albertfu: </b><br>
+<span>也就是说压到80度或75度以下就可以单核boost到4.65GHz？</span><br>
+<span>420+560排等一个zen2 TR</span><br>
+</p><p><b>ft5555: </b><br>
+<span>albertfu 发表于 2019-8-24 23:29</span><br>
+<span>也就是说压到80度或75度以下就可以单核boost到4.65GHz？</span><br>
+<span>420+560排等一个zen2 TR</span><br>
+<span>那是1.0.0.2 </span><br>
+</p><p><b>albertfu: </b><br>
+<span>ft5555 发表于 2019-8-24 23:58</span><br>
+<span>那是1.0.0.2</span><br>
+<span>只看顶楼就看到降频温度从80降到75了</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>艹，在用的电脑坏了刚好想换3700X啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855591[0-50]</guid>
+    </item>
+  </channel>
+</rss>

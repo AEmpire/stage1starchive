@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小新Pro13有DP1.4需求的谨慎升级新版BIOS</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小新Pro13有DP1.4需求的谨慎升级新版BIOS</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:16:16 +0000</lastBuildDate>
+    <item>
+      <title>小新Pro13有DP1.4需求的谨慎升级新版BIOS[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945348-1-1.html</link>
+      <description>小新Pro13有DP1.4需求的谨慎升级新版BIOS&#13;
+京东611购入的小新Pro13 4800U，到手就升级BIOS版本到16WW。虽说官方手册写的TypeC只有DP1.2，但实测通过DELL WD19TB连接两个2K显示器，可以激活DP1.4 HBR3模式。前两天联想推送了新版BIOS，版本号17WW，今天升级后发现DP只激活了1.2也就是HBR2模式，两个显示器有一个只能跑在1080P模式下。BIOS中打开BIOS降级功能后成功将版本降到16WW，DP1.4也恢复正常。提醒大家如果有单线4K+USB3.0需求的需要谨慎升级17WW版BIOS，目前不清楚是我的个例还是普遍现象</description>
+      <content:encoded><![CDATA[<p><b>DENHJD: </b><br>
+<span>小新Pro13有DP1.4需求的谨慎升级新版BIOS</span><br>
+<span>京东611购入的小新Pro13 4800U，到手就升级BIOS版本到16WW。虽说官方手册写的TypeC只有DP1.2，但实测通过DELL WD19TB连接两个2K显示器，可以激活DP1.4 HBR3模式。前两天联想推送了新版BIOS，版本号17WW，今天升级后发现DP只激活了1.2也就是HBR2模式，两个显示器有一个只能跑在1080P模式下。BIOS中打开BIOS降级功能后成功将版本降到16WW，DP1.4也恢复正常。提醒大家如果有单线4K+USB3.0需求的需要谨慎升级17WW版BIOS，目前不清楚是我的个例还是普遍现象</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>这么贴心 还有bios降级功能？</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>观铃の使魔 发表于 2020-7-2 12:52</span><br>
+<span>这么贴心 还有bios降级功能？</span><br>
+<span>这个降级功能也是玄学，19款小新pro13有不少降不了的</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>我也刚到了13pro。</span><br>
+<span>现在折腾好后整个硬盘备份用什么软件啊。</span><br>
+<span>ghost不支持隐藏分区。</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>单C口可以接两个显示器了吗……我一直以为只能接一个</span><br>
+<span>—— 来自 vivo V1986A, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>aliensvx: </b><br>
+<span>Summary of changes</span><br>
+<span>==================</span><br>
+<span>General Information:</span><br>
+<span>F0CN17WW:</span><br>
+<span>BIOS Notification:</span><br>
+<span>1. Fixed</span><br>
+<span>   1)"System performance mode" can't keep changed mode in BIOS setup after BIOS update.</span><br>
+<span>2. Add</span><br>
+<span>   1)Support Silent mode to flash BIOS.</span><br>
+<span>3. Modified</span><br>
+<span>   1)Update AMD patch to 1002PatchO.</span><br>
+<span>   2)Modify the HBR3,HBR2,HDMI2 mapping relationship.</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>laotoutou 发表于 2020-7-2 15:57</span><br>
+<span>我也刚到了13pro。</span><br>
+<span>现在折腾好后整个硬盘备份用什么软件啊。</span><br>
+<span>ghost不支持隐藏分区。 ...</span><br>
+<span>TRUE IMAGE</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>传统艺能 </span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>观铃の使魔 发表于 2020-7-2 12:52</span><br>
+<span>这么贴心 还有bios降级功能？</span><br>
+<span>B450的PCIe 4:没错，确实有这种操作</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945348[0-50]</guid>
+    </item>
+  </channel>
+</rss>

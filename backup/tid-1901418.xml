@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>论坛的“高级回复”模式，如果不点“纯文本”的勾，回....</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>论坛的“高级回复”模式，如果不点“纯文本”的勾，回....</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:36:11 +0000</lastBuildDate>
+    <item>
+      <title>论坛的“高级回复”模式，如果不点“纯文本”的勾，回....[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901418-1-1.html</link>
+      <description>论坛的“高级回复”模式，如果不点“纯文本”的勾，回....&#13;
+（标题写不下）
+&#13;
+……如果不点“纯文本”的勾，回车换行不认，两行回复会变成一行
+&#13;
+是啥原理？
+&#13;
+据我所知换行符有两种，一种是LF，一种是CR，Windows下要两个一起用算换一行。
+&#13;
+是不是不在“纯文本”模式下按回车只会输入一个换行符而且Windows识别不出？</description>
+      <content:encoded><![CDATA[<p><b>fn_herstal: </b><br>
+<span>论坛的“高级回复”模式，如果不点“纯文本”的勾，回....</span><br>
+<span>（标题写不下）</span><br>
+<span>……如果不点“纯文本”的勾，回车换行不认，两行回复会变成一行</span><br>
+<span>是啥原理？</span><br>
+<span>据我所知换行符有两种，一种是LF，一种是CR，Windows下要两个一起用算换一行。</span><br>
+<span>是不是不在“纯文本”模式下按回车只会输入一个换行符而且Windows识别不出？</span><br>
+</p><p><b>大江户战士: </b><br>
+<span> 本帖最后由 大江户战士 于 2019-12-11 20:37 编辑 </span><br>
+<span>discuz的问题，html和bbcode转换过程中的漏洞</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>因为html 代码中换行符不一样？</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>嗯，是有这个问题</span><br>
+<span>/n有没有用？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901418[0-50]</guid>
+    </item>
+  </channel>
+</rss>

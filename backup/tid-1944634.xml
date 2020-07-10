@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>家庭网络布局方案</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>家庭网络布局方案</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:20:08 +0000</lastBuildDate>
+    <item>
+      <title>家庭网络布局方案[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944634-1-1.html</link>
+      <description>家庭网络布局方案&#13;
+ 本帖最后由 haibara 于 2020-7-1 00:30 编辑 
+
+最近装修，房子面积115，有2个卧室，1个客厅，1个书房，这4个房间通网线
+&#13;
+客厅与次卧之间有个书房，客厅与主卧之间也有一定遮挡，隔着次卫和衣帽间，平面图见附件
+&#13;
+没有NAS需求，有个AC86U路由器，不知道怎么废物利用
+&#13;
+现在有几个选择
+&#13;
+1，都用面板AP，https://item.jd.com/47921834659.html，卖掉AC86U
+&#13;
+2，再买个华硕路由器，搞普通面板+MESH
+&#13;
+3，客厅用AC86U，其他房间用面板AP
+&#13;
+4，用一个吸顶AP，https://item.jd.com/48155335743.html，卖掉AC86U
+&#13;
+我对漫游要求不高，能有最好</description>
+      <content:encoded><![CDATA[<p><b>haibara: </b><br>
+<span>家庭网络布局方案</span><br>
+<span> 本帖最后由 haibara 于 2020-7-1 00:30 编辑 </span><br>
+<span>最近装修，房子面积115，有2个卧室，1个客厅，1个书房，这4个房间通网线</span><br>
+<span>客厅与次卧之间有个书房，客厅与主卧之间也有一定遮挡，隔着次卫和衣帽间，平面图见附件</span><br>
+<span>没有NAS需求，有个AC86U路由器，不知道怎么废物利用</span><br>
+<span>现在有几个选择</span><br>
+<span>1，都用面板AP，https://item.jd.com/47921834659.html，卖掉AC86U</span><br>
+<span>2，再买个华硕路由器，搞普通面板+MESH</span><br>
+<span>3，客厅用AC86U，其他房间用面板AP</span><br>
+<span>4，用一个吸顶AP，https://item.jd.com/48155335743.html，卖掉AC86U</span><br>
+<span>我对漫游要求不高，能有最好</span><br>
+</p><p><b>BABY: </b><br>
+<span>面板AP散热不好，要定时重启。 建议选2.</span><br>
+</p><p><b>jestime: </b><br>
+<span>华硕的mesh功能很一般，直接上企业级面板就不怕，比如h3c</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>这情况搞什么面板AP 买台MG1200AC往信号弱的房间的网线口上插 SSID名字加密改一样 搞定</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>Saker_bobo 发表于 2020-6-28 23:07</span><br>
+<span>这情况搞什么面板AP 买台MG1200AC往信号弱的房间的网线口上插 SSID名字加密改一样 搞定 ...</span><br>
+<span>不考虑漫游的话，mg1200ac不是性价比最高的吧？</span><br>
+<span>简单查了一下，ac86u支持v，改一样的话可能需要手动切换。要不就ac86u当主路由关了无线，两个支持kvr的只开无线关闭dhcp。</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>暗影翔 发表于 2020-6-28 23:33</span><br>
+<span>不考虑漫游的话，mg1200ac不是性价比最高的吧？</span><br>
+<span>简单查了一下，ac86u支持v，改一样的话可能需要手动切换 ...</span><br>
+<span>自己实测 开了802.11r可以单向快速漫游(50ms) 刷了padavan的882切到1200ac的范围内可以50ms快速漫游到1200ac上 1200ac到882的范围内就要150ms左右 不是所有设备都支持802.11r也是有用的</span><br>
+<span>V本身是一个推荐漫游的协议 不能控制漫游 终端设备RSSI太低的话会自动切换的</span><br>
+</p><p><b>gnorz: </b><br>
+<span>面板确实热，留位没和其他插座挤一起的话，吸顶墙装也可以。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>Saker_bobo 发表于 2020-6-29 00:16</span><br>
+<span>自己实测 开了802.11r可以单向快速漫游(50ms) 刷了padavan的882切到1200ac的范围内可以50ms快速漫游到120 ...</span><br>
+<span>我的两个1200ac用魔盒测都能无丢包or少量丢包50ms以内漫游。（很早以前测得了，我对效果很满意，这价格要啥自行车）</span><br>
+<span>看来只要有部分kvr协议，也可以保证简单的漫游。</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>暗影翔 发表于 2020-6-29 09:14</span><br>
+<span>我的两个1200ac用魔盒测都能无丢包or少量丢包50ms以内漫游。（很早以前测得了，我对效果很满意，这价格要 ...</span><br>
+<span>我也买了俩mg1200ac 只不过882的无线还不错 我也没有无缝漫游的需求所以没换上</span><br>
+<span>其实漫游比起AP 很多是由终端自身来控制的 KVR三个协议 我觉得最重要的还是R 只有R才能把切换AP时间压到50ms左右 K V本身只是辅助漫游 决定漫游的还是终端自身 就算是kvr都不支持的两台AP 只要终端RSSI达到了漫游阈值 就会尝试漫游(2.4g和5g分开命名 否则终端大概率黏在2.4g一辈子了) 只不过切换速度就会有150ms以上 体会不到"无缝"</span><br>
+</p><p><b>leuxao: </b><br>
+<span>ubnt 全家桶了解一下。但ubnt是痩AP，需要AC</span><br>
+</p><p><b>heimu: </b><br>
+<span>leuxao 发表于 2020-06-29 13:59:14</span><br>
+<span>ubnt 全家桶了解一下。但ubnt是痩AP，需要ACubnt的ac用电脑装controller第一次配一下就可以了。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>花海境: </b><br>
+<span>一个路由器摆在中心无法覆盖吗？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>haibara: </b><br>
+<span> 本帖最后由 haibara 于 2020-6-29 16:44 编辑 </span><br>
+<span>Saker_bobo 发表于 2020-6-28 23:07</span><br>
+<span>这情况搞什么面板AP 买台MG1200AC往信号弱的房间的网线口上插 SSID名字加密改一样 搞定 ...</span><br>
+<span>网络我不太懂</span><br>
+<span>你的意思AC86U放客厅，再买2个次路由器各自放到卧室，3个路由器设置为相同的SSID？</span><br>
+</p><p><b>haibara: </b><br>
+<span> 本帖最后由 haibara 于 2020-6-29 16:48 编辑 </span><br>
+<span>花海境 发表于 2020-6-29 14:20</span><br>
+<span>一个路由器摆在中心无法覆盖吗？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>不知道能不能覆盖，如果放在客厅，到卧室需要穿2个墙</span><br>
+<span>客厅与次卧之间有个书房</span><br>
+<span>客厅与主卧之间也有一定遮挡，里面有个次卫和衣帽间</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span> 本帖最后由 Saker_bobo 于 2020-6-29 16:51 编辑 </span><br>
+<span>haibara 发表于 2020-6-29 16:41</span><br>
+<span>网络我不太懂</span><br>
+<span>你的意思AC86U当主路由（放客厅），再买2个次路由器当AP（放2个卧室）？</span><br>
+<span>你不在意漫游的话 在5G信号差的地方放一台MG1200AC就行了（这样也有还不错的漫游效果） 如果在意无缝漫游 买两台MG1200AC做AP看着放 68U关掉无线做有线路由</span><br>
+<span>SSID 2.4G和5G的分开设置 2.4G只开一个能覆盖全家的就行了 其他的关掉 5G都开 SSID设置一样 保证不在同一个80MHz下</span><br>
+</p><p><b>haibara: </b><br>
+<span> 本帖最后由 haibara 于 2020-6-29 16:56 编辑 </span><br>
+<span>Saker_bobo 发表于 2020-6-29 16:48</span><br>
+<span>你不在意漫游的话 在5G信号差的地方放一台MG1200AC就行了（这样也有还不错的漫游效果） 如果在意无缝漫游...</span><br>
+<span>您好，我家是这样的：客厅与次卧之间有个书房，客厅与主卧之间也有一定遮挡，隔着次卫和衣帽间</span><br>
+<span>你的意思，AC86U放客厅，关闭WIFI</span><br>
+<span>然后买3个MG1200AC当AP，分别放在客厅和2个卧室？</span><br>
+<span>就是个人觉得不太好看，如果不是新房的话，这个方案也比较合算，我是新房装修，所以一开始我觉得面板AP可能比较好</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>haibara 发表于 2020-6-29 16:54</span><br>
+<span>您好，我家是这样的：客厅与次卧之间有个书房，客厅与主卧之间也有一定遮挡，隔着次卫和衣帽间</span><br>
+<span>你的意思 ...</span><br>
+<span>先发张户型图</span><br>
+<span>因为你说面积115 这个面积不大 两个AP就能全5G覆盖 又自带了个68U 最简单的方法就是68U再加个路由做AP就行了</span><br>
+<span>如果你觉得不好看 想上AP的话 还是在房子中心位置放吸顶的好 面板积热 覆盖范围还小 用AP的话你还需要个AC来控制漫游</span><br>
+</p><p><b>haibara: </b><br>
+<span>Saker_bobo 发表于 2020-6-29 17:40</span><br>
+<span>先发张户型图</span><br>
+<span>因为你说面积115 这个面积不大 两个AP就能全5G覆盖 又自带了个68U 最简单的方法就是68U再加 ...</span><br>
+<span>已上传了平面图</span><br>
+</p><p><b>cen: </b><br>
+<span>如果要用面板AP的话，别买那种86面板大小的正方形小面板。</span><br>
+<span>平层比较适合用吸顶AP，还没布线的话优先布吸顶AP的网线，115㎡两个吸顶就很够了。一根线放在吧台附近吊顶，一根线放卧室门附近吊顶。</span><br>
+</p><p><b>dds0: </b><br>
+<span>cen 发表于 2020-6-30 23:47</span><br>
+<span>如果要用面板AP的话，别买那种86面板大小的正方形小面板。</span><br>
+<span>平层比较适合用吸顶AP，还没布线的话优先布吸顶A ...</span><br>
+<span>如果线路走向是光纤>入户光猫>交换机>路由器>路由wifi</span><br>
+<span>请问吸顶AP的网线是必须连路由器吗？</span><br>
+<span>还是说只要ssid密码设一样，连光猫或者交换机都可以呢？</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>haibara 发表于 2020-6-29 16:54</span><br>
+<span>您好，我家是这样的：客厅与次卧之间有个书房，客厅与主卧之间也有一定遮挡，隔着次卫和衣帽间</span><br>
+<span>你的意思 ...</span><br>
+<span>可以考虑吸顶式ap，ac+ap。如果想旧物利用，就把mg1200ac的壳换了吸顶装</span><br>
+</p><p><b>cen: </b><br>
+<span>dds0 发表于 2020-7-1 11:27</span><br>
+<span>如果线路走向是光纤>入户光猫>交换机>路由器>路由wifi</span><br>
+<span>请问吸顶AP的网线是必须连路由器吗？</span><br>
+<span>还是说只要 ...</span><br>
+<span>吸顶ap一般是poe供电，需要接poe交换机，硬重启AP只需要拔插网线就行。dc供电的还得再做一个插座，布线和维护都更麻烦。</span><br>
+<span>一般是光猫>路由>poe交换机(旁挂ac控制器)>AP。</span><br>
+<span>普通家用也可以用好一点的一体机，路由、ac控制器、poe交换机三合一。</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>同意楼上说的 你要在装修的时候装AP 那吸顶是最好的选择 当然 各个房间的网线也不能少铺 无线论速度永远比不过有线的</span><br>
+</p><p><b>dds0: </b><br>
+<span>cen 发表于 2020-7-1 12:15</span><br>
+<span>吸顶ap一般是poe供电，需要接poe交换机，硬重启AP只需要拔插网线就行。dc供电的还得再做一个插座，布线和 ...</span><br>
+<span>懂了 谢谢！</span><br>
+</p><p><b>haibara: </b><br>
+<span>Saker_bobo 发表于 2020-7-1 12:29</span><br>
+<span>同意楼上说的 你要在装修的时候装AP 那吸顶是最好的选择 当然 各个房间的网线也不能少铺 无线论速度永远比 ...</span><br>
+<span>一个吸顶够吗</span><br>
+<span>我准备先留线</span><br>
+</p><p><b>jestime: </b><br>
+<span>haibara 发表于 2020-7-2 12:33</span><br>
+<span>一个吸顶够吗</span><br>
+<span>我准备先留线</span><br>
+<span>2.4g可能够，5g肯定不够</span><br>
+<span>我搞了套锐捷的ap，不需要ac，自动组网漫游</span><br>
+</p><p><b>haibara: </b><br>
+<span>jestime 发表于 2020-7-2 12:35</span><br>
+<span>2.4g可能够，5g肯定不够</span><br>
+<span>我搞了套锐捷的ap，不需要ac，自动组网漫游</span><br>
+<span>ap还是要POE交换机吧</span><br>
+</p><p><b>jestime: </b><br>
+<span>haibara 发表于 2020-7-2 19:47</span><br>
+<span>ap还是要POE交换机吧</span><br>
+<span>省电源变压器就要poe，也可以电源供电</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944634[0-50]</guid>
+    </item>
+  </channel>
+</rss>

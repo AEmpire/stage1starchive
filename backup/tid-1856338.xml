@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10的linux子系统到底好用吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10的linux子系统到底好用吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:01:25 +0000</lastBuildDate>
+    <item>
+      <title>win10的linux子系统到底好用吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856338-1-1.html</link>
+      <description>win10的linux子系统到底好用吗？&#13;
+最近在考虑换新电脑。手头用的是一台13年的mac。虽然当年是顶配所以现在还可以用，就是这些年磕磕碰碰，机身被压坏，散热有些问题。也毕竟时间久了，考虑换台电脑。人在美国，搞算法研发，所以需要unix环境。考虑了很久到底是再买台mac pro 15顶配，将近三千美金，还是一千五配一台台式机，现在这台就出门的时候用用。mac的话虽然一直很顺手而且一买用个七八年什么的一点问题都没有，但是现在的配置不是很好，又贵，又不能打很多想玩的游戏。台式机的话这一千五可以很不错的配置了，而且可以玩很多以前不能玩的游戏，很期待。可是实在不想装双系统。工作了切linux，玩的时候切windows，实在太麻烦了。虽说工作的时候大部分时候连个ssh就行，本地再怎么强弱都和工作没有关系，严格来讲也实际没有工作了就开linux的必要性。但有时候还是会想在本地做些什么。本地没有linux的一些package，甚至路径都是windows路径，就很难受（这个路径问题有时候好像真挺烦）。然后我这个人比较注重客制化，我喜欢把环境都改出花来。如果买台式机直接装linux，这点倒是满足了，可是游戏又不能打了
+
+一直在关注win10的linux子系统。之前不是还推出了一个全新的linux terminal嘛。就是不知道到底好不好用，和原生的linux到底有什么区别。求用过的人介绍介绍！谢谢！</description>
+      <content:encoded><![CDATA[<p><b>ranranking: </b><br>
+<span>win10的linux子系统到底好用吗？</span><br>
+<span>最近在考虑换新电脑。手头用的是一台13年的mac。虽然当年是顶配所以现在还可以用，就是这些年磕磕碰碰，机身被压坏，散热有些问题。也毕竟时间久了，考虑换台电脑。人在美国，搞算法研发，所以需要unix环境。考虑了很久到底是再买台mac pro 15顶配，将近三千美金，还是一千五配一台台式机，现在这台就出门的时候用用。mac的话虽然一直很顺手而且一买用个七八年什么的一点问题都没有，但是现在的配置不是很好，又贵，又不能打很多想玩的游戏。台式机的话这一千五可以很不错的配置了，而且可以玩很多以前不能玩的游戏，很期待。可是实在不想装双系统。工作了切linux，玩的时候切windows，实在太麻烦了。虽说工作的时候大部分时候连个ssh就行，本地再怎么强弱都和工作没有关系，严格来讲也实际没有工作了就开linux的必要性。但有时候还是会想在本地做些什么。本地没有linux的一些package，甚至路径都是windows路径，就很难受（这个路径问题有时候好像真挺烦）。然后我这个人比较注重客制化，我喜欢把环境都改出花来。如果买台式机直接装linux，这点倒是满足了，可是游戏又不能打了</span><br>
+<span>一直在关注win10的linux子系统。之前不是还推出了一个全新的linux terminal嘛。就是不知道到底好不好用，和原生的linux到底有什么区别。求用过的人介绍介绍！谢谢！</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span> 本帖最后由 御坂MKII 于 2019-8-28 00:05 编辑 </span><br>
+<span> wsl2 底层和 wsl 完全不一样，看演示效果挺好的 但是现在只有 fast ring 的 insider 可以用</span><br>
+<span>1 比较菜，运行开销不小。</span><br>
+<span>还有一个问题是如果是日常机的话，环境可能太过复杂容易出神秘的事情。大概半年前一年前试过一次wsl，发现自己监听端口怎么也监听不到，搜了半天发现是tx的那个傻吊tgp加了个啥过滤器导致的</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>wsl吗 我觉得不好用</span><br>
+<span>不行你就直接装个linux虚拟机完事</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>数码区.</span><br>
+<span>WSL不行还有MSYS2, 再不行还可以虚拟机, 内存多装点.</span><br>
+<span>更复杂的玩法是装个Linux然后KVM装Windows, 显卡Passthrough基本没有性能损失, 几乎可以当两台物理机器用.</span><br>
+<span>没钱穷折腾也还有些乐趣.</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>现在基本接服务器了，反正笔记本终究是不堪用的，也就随手写 ruby 脚本和用 fish shell 时比较快乐了 </span><br>
+</p><p><b>treexper: </b><br>
+<span>不能暴露gpu，卒。</span><br>
+</p><p><b>fsz1987: </b><br>
+<span>个人来说,够用. 不过我不是啥linux重度用户. 大概没啥参考价值.</span><br>
+<span>不过实在不够Hyper-v装个完全的linux随便折腾折腾别搞烧鸡器的玩意对1.5k$的机器也造不成什么鸭梨. </span><br>
+<span>两个系统间切换起来也比切换应用窗口复杂不了多少.</span><br>
+</p><p><b>mwj: </b><br>
+<span>wsl1用docker比较麻烦，除此之外还好。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>不搞gpu，io密度不大的话还不错的</span><br>
+<span>vscode远程开发上了正式版后，windows侧的开发环境我一个没留，全挪到wsl 里了</span><br>
+</p><p><b>tokitoki: </b><br>
+<span>底层实现不同会导致非常诡异的问题。我从github上找的软件库在虚拟机和mac上都能成功编译运行，在WSL上编译之后运行的时候调用函数会报错</span><br>
+</p><p><b>sinomonster: </b><br>
+<span>我问过我老婆，两个字不好用。</span><br>
+<span>不过买台式机的话，装个双系统就解决问题了。按她的感觉windows中高端笔记本电脑溢价也很严重，大体上亮点不多槽点多。</span><br>
+</p><p><b>sign34789: </b><br>
+<span>没啥问题，ubuntu的包都可以直接装，都兼容的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856338[0-50]</guid>
+    </item>
+  </channel>
+</rss>

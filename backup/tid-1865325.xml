@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>那天第一次听到哈曼曲线这个名词 今天偶然看到这篇文章</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>那天第一次听到哈曼曲线这个名词 今天偶然看到这篇文章</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:04:02 +0000</lastBuildDate>
+    <item>
+      <title>那天第一次听到哈曼曲线这个名词 今天偶然看到这篇文章[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865325-1-1.html</link>
+      <description>那天第一次听到哈曼曲线这个名词 今天偶然看到这篇文章&#13;
+
+&#13;
+耳机网站又双叒叕打起来了虽然媒体之间经常互怼但这次很热闹：老板御驾亲征大佬们亲自下场肉搏缘起是 Innerfidelity 的 SONY Z1R 耳机评测，实测频响是酱紫的：
+&#13;
+https://static.exound.com/attachments/89d2b344-8d2b-40f0-b2e2-ac1de0d3da64.jpeg然后轮到 Head-Fi 评测 Z1R留意下图横/纵轴的不同https://static.exound.com/attachments/01c48b8f-2d86-4681-b554-99dc84f296fa.png
+&#13;
+耳机频响实测不一致很常见，总有人会疑惑：你们测的曲线与谁谁谁不一样！一般老烧也不理会，但 Head-Fi 的大佬 Jude 意外地回帖怼同行，说友站 Innerfidelity 可能...
+&#13;
+“测了一个假的 Z1R”原文是：“Tyll has an outlier Sony MDR-Z1R”，另外还指出了其他几条问题...
+&#13;
+这就像特朗普骂其他国家领导人一样，引起了 Innerfidelity 大佬 Tyll 的逐条回击...
+&#13;
+高手过招都是拼内功欧美是文明国度，两位又是耳机圈的意见领袖，因此互怼看似慢条斯理、波澜不惊，不过内行能看出两人每个用词的考究，直指要害。
+&#13;
+细节我们就不逐一讨论了Tyll 第一招就够分析半天这可能是耳机评测最隐秘的潜规则。原文：“it might be that Jude's compensation curve has a big bump at or near 10kHz. I'd certainly like to see the compensation curve used, and I'd really like to see the raw measurements from his HATS.”
+&#13;
+光速翻译一下：“Jude 的【补偿曲线】可能在 10kHz 有个大疙瘩，我想看看这个补偿曲线，另外我还想看看他用 HATS 仿真耳测试的【原始曲线】”。
+&#13;
+什么“原始曲线”？什么“补偿曲线”？https://img.alicdn.com/imgextra/i4/1094243595/TB2BPPsXNeK.eBjSZFuXXcT4FXa_!!1094243595.png_120x120.jpg
+&#13;
+我们先谈回老话题：——————————A 加权——————————我们在《你为什么无法忍受这个声音》谈过“等响曲线”和“A加权”，目前音箱厂商公布的频响曲线都经过“A 加权”校准，音箱的【原始曲线】并不是平的——
+&#13;
+但大家按照统一标准来校准有网友回复说：“了解到每个人等响曲线都不一样后，便对频响的平直没有了执着”。
+&#13;
+一方面他是对的，甚至同一人在一天的不同时段里听觉都不一样；但另一方面，有标准总比没有好，这是无数科学家80年来不断修正的标准。
+&#13;
+刚好同事看完也问我问题：这个曲线是怎么测的？最初的等响曲线叫 “Fletcher–Munson 曲线”，是贝尔实验室的科学家 Fletcher 和 Munson 在 1933 年用耳机对不同的人群进行大规模听力统计得出，先给受测者们放一段 1000Hz 的测试波形，以此为音量基准，对比测试他们对其他频率的敏感程度。
+&#13;
+很明显实验有不少时代局限一是30年代的样本不够多样化，以美国本土人群为主；
+&#13;
+二是用耳机测试——怎么保证这个耳机的准确性？要知道耳机在1919年才开始规模化量产（Brandes），还是动铁/2000Ω阻抗，因此测出 Fletcher–Munson 曲线的下限也就到 30Hz。
+&#13;
+“等响曲线”的首次大改动是 1956 年由英国国家物理实验室修正的 “Robinson-Dadson 曲线”，这两位科学家制定了更先进的测试方法，最关键的一点改进是：
+&#13;
+换成了音箱进行测试这成为了音响行业第一个“ISO 全球统一标准”，当然测试也有很多时代局限，于是陆续修补，最新标准由日本名校东北大学在 2003 年制定，统计了来自日本、德国、丹麦、英国和美国的更大规模人群，值得注意的是——
+&#13;
+日本人占测试人群的40%因此新标准更偏袒黄种人看看等响曲线 80 年来的变化:https://static.exound.com/attachments/683fbad9-df0d-406b-abe0-27483706e0e0.png纵轴单位是 phon/方，是 1000Hz 处的声压，40 phon 代表 1000Hz 处的 40dB SPL 声压，不熟悉“dB SPL”请看我们另一篇文章《dB、dBFS、dBV、dBu 都是啥啊...》可能还要再次提醒一下：这都是基于音箱的测试为什么抛弃了当初的耳机?因为音箱的体验更真实例如光谈“左右定位”，人耳对自然界声源的定位除了通过音量（声源在左边时，左耳声压就更大），还有双耳的细微时间差（HRTF: Head-related transfer function）；另外假如有人在你【正左】方向说话，你塞紧左耳用右耳也能听到，自然界的扩散和反射总有“左右串音”，但用耳机听音没有准确的双耳时间差、也没有左右串音。https://static.exound.com/attachments/30c36af8-50a0-46a5-b7fb-f8a1a2902a92.jpeg
+&#13;
+总之“等响曲线”和 A 加权都不是为耳机而设计的因此，耳机校准就成了大难题
+&#13;
+——————————耳机校准之谜——————————以前耳机只是临时娱乐，其实不算大众，但在移动互联和大都市时代，人们越来越多在路上（年轻人经常每天花两小时上下班）和户外（2000年后中国旅游产业年均增长率将近 12%）。
+&#13;
+耳机正在成为主要娱乐方式耳机曲线需不需要校准？需要，音乐 APP 内的强大声学调教已经打包了“风格多样化”的问题，耳机不准相当于限制了多样化，年轻人听歌也很杂，不会一辈子听一种风格，这对准确性的要求就提高了。（基于同样原因，新上市的音箱也越来越准）
+&#13;
+然而耳机又不能直接用音箱的校准标准（消音室、1米、90dB SPL、A加权），于是就没有标准，通常厂商公布的不是“频率响应”（标注误差值，例如 ±3dB），而是误差值不明确的“频率范围”（万能的 20Hz ~ 20kHz），即使是有频响图的万元级耳机，怎么校准也是商业机密。
+&#13;
+https://static.exound.com/attachments/25a9ba75-c61f-44ec-8f89-5d9cd4f8a9c8.png
+&#13;
+对于音箱评测而言，各家的实测其实都差不多（只是房间大小导致的低音差异）但耳机评测就千差万别了
+&#13;
+例如这次两大网站互怼提到的 Z1R，除了上文看到的两条曲线，其他媒体测出来也不一样：
+&#13;
+https://static.exound.com/attachments/a34b6524-2748-452b-935f-754d78410adc.jpeg
+&#13;
+再看著名的森海 HD800（第一条曲线是官方图）https://static.exound.com/attachments/a2cff0a6-5e44-4782-957e-c2fef3fda025.jpeg
+&#13;
+五家测得的曲线都不一样别说不懂声学的普通人，对于不明真相的职业录音师，看到这五条各异的频响曲线也懵了：低音是肥是瘦？人声是靠前还是靠后？高频是亮丽还是暗淡...信官方还是信媒体？信哪家媒体...
+&#13;
+————————————各家的“Target”————————————校准标准其实与声音无关可能更关系国家的话语权“Fletcher–Munson 曲线”诞生在30年代的美国，并通过好莱坞进行推广；
+&#13;
+“Robinson-Dadson 曲线”诞生在50年代的英国，通过 BBC 进行推广；
+&#13;
+“2003 ISO 标准”诞生在日本，当时以 SONY 为代表的日本电子企业还是全球霸主，能组织业内最大规模的科研和推广。
+&#13;
+不过日本音响产业群没有抓住机会统一耳机标准、后来的苹果公司成为霸主的时间还不长，目前呼声较高的是 Harman 集团，被“干爹”三星收购之后，他们的话语权增加不少。
+&#13;
+Harman 提出的校准方案叫 “Harman Target Response Curve”，
+&#13;
+简称 “HTRC”“Target”是近年耳机圈流行的说法，就是校准曲线。各家有自己的 Target，例如 Golden Ears 每份频响图里面有条绿线，就是它们的“Golden Ears Target”，而 Infidelity 就用的 HTRC。HTRC 的制定者就是杀手锏Sean Olive他是录音博士/哈曼研发总监还是 AES 协会现役主席无论专业/发烧/民用/科研圈他都是最有影响力的人之一我们看看 Sean 大神给录音协会做讲座的 PPT 视频（英文），里面详细描述了测试方法，除了耳机还有音箱测试的问题（普通人的房间不是消音室），可能有点深，不懂的发帖讨论下~
+&#13;
+然后看看这条 HTRC 曲线：https://static.exound.com/attachments/513f69ff-5a6b-4374-96ae-5e5de429e55c.jpeg这！么！夸！张！https://static.exound.com/attachments/3b19548f-25e6-481c-84ce-7a7233c7a09c.jpeg别担心，这是仿真耳测试结果图中绿线是平直音箱实测（也就是 A 加权校准后的平直）3kHz 也就是所谓的耳道共鸣黑线才是校准范围这个校准曲线可以理解成：在 A 加权的标准上做一些微调，其中低频是在 200Hz 以下做一个 +4dB 的 Low Shelf，高频大概是在 1.2kHz 以上做一个 -4dB 的 High Shelf。可以看出等响曲线和 A 加权对于音箱和耳机都是统一的大方向，
+&#13;
+只是由于耳机太过靠近耳朵与音箱校准有轻微不同这个不同在全频上有 ±4dB留意用仿真耳测出的“平直”从视觉上看起来不平直，因此仿真耳本身需要校准，这就比较难，市面上有不同品牌、不同价位的仿真耳，如果仿真耳公司不提供频谱，我们需要用仿真耳在消音室里测一对平直的音箱来获得——用什么规格的音箱、距离多远、用多大声压来测...校准完仿真耳可能是这样的https://static.exound.com/attachments/2e763523-02cb-49bf-b188-2e339b0c47fa.jpeg
+&#13;
+——————————其他问题——————————回到开始我们看到的互怼，也许 Jude 和 Tyll 都是对的，SONY 耳机的差异不可能这么大；
+&#13;
+另一方面他们可能都不对——Infidelity 用仿真耳测出的“平直”，普通人看不懂，除了需要 HTFC 校准，还要对仿真耳本身做一次校准；而 Head-Fi 的平直应该对仿真耳本身做了校准，但最好公布一下他们的“二次校准”曲线。
+&#13;
+耳机测试还有很多问题包括佩戴位置的轻微变动、脑袋大小造成的耳压区别、头发多少导致的密闭性差异、左/右耳罩的轻微差异、用多大声压来测试、FFT 曲线的 delay 多少？用哪个品牌/哪个价位的“仿真耳”...
+&#13;
+另外耳机有很多种耳塞的校准可能不止 ±4dB特殊的情况比音箱多得多：https://static.exound.com/attachments/2642a7b0-5829-4c0b-bbf7-190eeccaeab1.jpeg
+&#13;
+“HTFC”成为标准有很大难度，三星不是苹果（苹果也有难度），旗下品牌虽然有 JBL、AKG、Lexicon、Crown、Martin、SoundCraft、Studer...但影响力都在下降，Sean 大神作为 AES 美国录音协会的主席不知能否说服 EBU（欧洲广播联盟），说服森海塞尔、拜亚动力和日本的 SONY、铁三角共用一个标准（还是先搞定美国的 Beats 和 Shure 吧...）
+&#13;
+在标准制定之前（估计无望），我想咱评测室还是用普通话筒（GRAS 仿真耳一套就让小编破产...）和 A 加权为标准，有钱有权如 Tyll 和 Jude 照样被怼，做评测最关键还是心态，心想被怼是一种常态，就平衡多了...
+&#13;
+对于耳机爱好者，没必要追求像音箱一样的“绝对平直”，人耳的适应性不止±4dB，只要听上一两周，你“耳朵的频响”便会匹配你的耳机，相对平直即可，但还是建议不要选频响太夸张的（耳朵都调不过来）；而且别听太响，有没有发现从迪厅和音乐节回来后，你的听力有明显下降？“听毛细胞”的死亡不可逆，只会越来越少，永不再生。
+&#13;
+https://img.alicdn.com/imgextra/i2/1094243595/TB2x7uza4z_F1JjSZFIXXcxHVXa_!!1094243595.png</description>
+      <content:encoded><![CDATA[<p><b>loli炮: </b><br>
+<span>那天第一次听到哈曼曲线这个名词 今天偶然看到这篇文章</span><br>
+<span>耳机网站又双叒叕打起来了虽然媒体之间经常互怼但这次很热闹：老板御驾亲征大佬们亲自下场肉搏缘起是 Innerfidelity 的 SONY Z1R 耳机评测，实测频响是酱紫的：</span><br>
+<img src="https://static.exound.com/attachments/89d2b344-8d2b-40f0-b2e2-ac1de0d3da64.jpeg然后轮到 Head-Fi 评测 Z1R留意下图横/纵轴的不同https://static.exound.com/attachments/01c48b8f-2d86-4681-b554-99dc84f296fa.png" title="https://static.exound.com/attachments/89d2b344-8d2b-40f0-b2e2-ac1de0d3da64.jpeg然后轮到 Head-Fi 评测 Z1R留意下图横/纵轴的不同https://static.exound.com/attachments/01c48b8f-2d86-4681-b554-99dc84f296fa.png"><br>
+<span>耳机频响实测不一致很常见，总有人会疑惑：你们测的曲线与谁谁谁不一样！一般老烧也不理会，但 Head-Fi 的大佬 Jude 意外地回帖怼同行，说友站 Innerfidelity 可能...</span><br>
+<span>“测了一个假的 Z1R”原文是：“Tyll has an outlier Sony MDR-Z1R”，另外还指出了其他几条问题...</span><br>
+<span>这就像特朗普骂其他国家领导人一样，引起了 Innerfidelity 大佬 Tyll 的逐条回击...</span><br>
+<span>高手过招都是拼内功欧美是文明国度，两位又是耳机圈的意见领袖，因此互怼看似慢条斯理、波澜不惊，不过内行能看出两人每个用词的考究，直指要害。</span><br>
+<span>细节我们就不逐一讨论了Tyll 第一招就够分析半天这可能是耳机评测最隐秘的潜规则。原文：“it might be that Jude's compensation curve has a big bump at or near 10kHz. I'd certainly like to see the compensation curve used, and I'd really like to see the raw measurements from his HATS.”</span><br>
+<span>光速翻译一下：“Jude 的【补偿曲线】可能在 10kHz 有个大疙瘩，我想看看这个补偿曲线，另外我还想看看他用 HATS 仿真耳测试的【原始曲线】”。</span><br>
+<span>什么“原始曲线”？什么“补偿曲线”？https://img.alicdn.com/imgextra/i4/1094243595/TB2BPPsXNeK.eBjSZFuXXcT4FXa_!!1094243595.png_120x120.jpg</span><br>
+<span>我们先谈回老话题：——————————A 加权——————————我们在《你为什么无法忍受这个声音》谈过“等响曲线”和“A加权”，目前音箱厂商公布的频响曲线都经过“A 加权”校准，音箱的【原始曲线】并不是平的——</span><br>
+<span>但大家按照统一标准来校准有网友回复说：“了解到每个人等响曲线都不一样后，便对频响的平直没有了执着”。</span><br>
+<span>一方面他是对的，甚至同一人在一天的不同时段里听觉都不一样；但另一方面，有标准总比没有好，这是无数科学家80年来不断修正的标准。</span><br>
+<span>刚好同事看完也问我问题：这个曲线是怎么测的？最初的等响曲线叫 “Fletcher–Munson 曲线”，是贝尔实验室的科学家 Fletcher 和 Munson 在 1933 年用耳机对不同的人群进行大规模听力统计得出，先给受测者们放一段 1000Hz 的测试波形，以此为音量基准，对比测试他们对其他频率的敏感程度。</span><br>
+<span>很明显实验有不少时代局限一是30年代的样本不够多样化，以美国本土人群为主；</span><br>
+<span>二是用耳机测试——怎么保证这个耳机的准确性？要知道耳机在1919年才开始规模化量产（Brandes），还是动铁/2000Ω阻抗，因此测出 Fletcher–Munson 曲线的下限也就到 30Hz。</span><br>
+<span>“等响曲线”的首次大改动是 1956 年由英国国家物理实验室修正的 “Robinson-Dadson 曲线”，这两位科学家制定了更先进的测试方法，最关键的一点改进是：</span><br>
+<span>换成了音箱进行测试这成为了音响行业第一个“ISO 全球统一标准”，当然测试也有很多时代局限，于是陆续修补，最新标准由日本名校东北大学在 2003 年制定，统计了来自日本、德国、丹麦、英国和美国的更大规模人群，值得注意的是——</span><br>
+<span>日本人占测试人群的40%因此新标准更偏袒黄种人看看等响曲线 80 年来的变化:https://static.exound.com/attachments/683fbad9-df0d-406b-abe0-27483706e0e0.png纵轴单位是 phon/方，是 1000Hz 处的声压，40 phon 代表 1000Hz 处的 40dB SPL 声压，不熟悉“dB SPL”请看我们另一篇文章《dB、dBFS、dBV、dBu 都是啥啊...》可能还要再次提醒一下：这都是基于音箱的测试为什么抛弃了当初的耳机?因为音箱的体验更真实例如光谈“左右定位”，人耳对自然界声源的定位除了通过音量（声源在左边时，左耳声压就更大），还有双耳的细微时间差（HRTF: Head-related transfer function）；另外假如有人在你【正左】方向说话，你塞紧左耳用右耳也能听到，自然界的扩散和反射总有“左右串音”，但用耳机听音没有准确的双耳时间差、也没有左右串音。https://static.exound.com/attachments/30c36af8-50a0-46a5-b7fb-f8a1a2902a92.jpeg</span><br>
+<span>总之“等响曲线”和 A 加权都不是为耳机而设计的因此，耳机校准就成了大难题</span><br>
+<span>——————————耳机校准之谜——————————以前耳机只是临时娱乐，其实不算大众，但在移动互联和大都市时代，人们越来越多在路上（年轻人经常每天花两小时上下班）和户外（2000年后中国旅游产业年均增长率将近 12%）。</span><br>
+<span>耳机正在成为主要娱乐方式耳机曲线需不需要校准？需要，音乐 APP 内的强大声学调教已经打包了“风格多样化”的问题，耳机不准相当于限制了多样化，年轻人听歌也很杂，不会一辈子听一种风格，这对准确性的要求就提高了。（基于同样原因，新上市的音箱也越来越准）</span><br>
+<span>然而耳机又不能直接用音箱的校准标准（消音室、1米、90dB SPL、A加权），于是就没有标准，通常厂商公布的不是“频率响应”（标注误差值，例如 ±3dB），而是误差值不明确的“频率范围”（万能的 20Hz ~ 20kHz），即使是有频响图的万元级耳机，怎么校准也是商业机密。</span><br>
+<img src="https://static.exound.com/attachments/25a9ba75-c61f-44ec-8f89-5d9cd4f8a9c8.png" title="https://static.exound.com/attachments/25a9ba75-c61f-44ec-8f89-5d9cd4f8a9c8.png"><br>
+<span>对于音箱评测而言，各家的实测其实都差不多（只是房间大小导致的低音差异）但耳机评测就千差万别了</span><br>
+<span>例如这次两大网站互怼提到的 Z1R，除了上文看到的两条曲线，其他媒体测出来也不一样：</span><br>
+<img src="https://static.exound.com/attachments/a34b6524-2748-452b-935f-754d78410adc.jpeg" title="https://static.exound.com/attachments/a34b6524-2748-452b-935f-754d78410adc.jpeg"><br>
+<span>再看著名的森海 HD800（第一条曲线是官方图）https://static.exound.com/attachments/a2cff0a6-5e44-4782-957e-c2fef3fda025.jpeg</span><br>
+<span>五家测得的曲线都不一样别说不懂声学的普通人，对于不明真相的职业录音师，看到这五条各异的频响曲线也懵了：低音是肥是瘦？人声是靠前还是靠后？高频是亮丽还是暗淡...信官方还是信媒体？信哪家媒体...</span><br>
+<span>————————————各家的“Target”————————————校准标准其实与声音无关可能更关系国家的话语权“Fletcher–Munson 曲线”诞生在30年代的美国，并通过好莱坞进行推广；</span><br>
+<span>“Robinson-Dadson 曲线”诞生在50年代的英国，通过 BBC 进行推广；</span><br>
+<span>“2003 ISO 标准”诞生在日本，当时以 SONY 为代表的日本电子企业还是全球霸主，能组织业内最大规模的科研和推广。</span><br>
+<span>不过日本音响产业群没有抓住机会统一耳机标准、后来的苹果公司成为霸主的时间还不长，目前呼声较高的是 Harman 集团，被“干爹”三星收购之后，他们的话语权增加不少。</span><br>
+<span>Harman 提出的校准方案叫 “Harman Target Response Curve”，</span><br>
+<span>简称 “HTRC”“Target”是近年耳机圈流行的说法，就是校准曲线。各家有自己的 Target，例如 Golden Ears 每份频响图里面有条绿线，就是它们的“Golden Ears Target”，而 Infidelity 就用的 HTRC。HTRC 的制定者就是杀手锏Sean Olive他是录音博士/哈曼研发总监还是 AES 协会现役主席无论专业/发烧/民用/科研圈他都是最有影响力的人之一我们看看 Sean 大神给录音协会做讲座的 PPT 视频（英文），里面详细描述了测试方法，除了耳机还有音箱测试的问题（普通人的房间不是消音室），可能有点深，不懂的发帖讨论下~</span><br>
+<span>然后看看这条 HTRC 曲线：https://static.exound.com/attachments/513f69ff-5a6b-4374-96ae-5e5de429e55c.jpeg这！么！夸！张！https://static.exound.com/attachments/3b19548f-25e6-481c-84ce-7a7233c7a09c.jpeg别担心，这是仿真耳测试结果图中绿线是平直音箱实测（也就是 A 加权校准后的平直）3kHz 也就是所谓的耳道共鸣黑线才是校准范围这个校准曲线可以理解成：在 A 加权的标准上做一些微调，其中低频是在 200Hz 以下做一个 +4dB 的 Low Shelf，高频大概是在 1.2kHz 以上做一个 -4dB 的 High Shelf。可以看出等响曲线和 A 加权对于音箱和耳机都是统一的大方向，</span><br>
+<span>只是由于耳机太过靠近耳朵与音箱校准有轻微不同这个不同在全频上有 ±4dB留意用仿真耳测出的“平直”从视觉上看起来不平直，因此仿真耳本身需要校准，这就比较难，市面上有不同品牌、不同价位的仿真耳，如果仿真耳公司不提供频谱，我们需要用仿真耳在消音室里测一对平直的音箱来获得——用什么规格的音箱、距离多远、用多大声压来测...校准完仿真耳可能是这样的https://static.exound.com/attachments/2e763523-02cb-49bf-b188-2e339b0c47fa.jpeg</span><br>
+<span>——————————其他问题——————————回到开始我们看到的互怼，也许 Jude 和 Tyll 都是对的，SONY 耳机的差异不可能这么大；</span><br>
+<span>另一方面他们可能都不对——Infidelity 用仿真耳测出的“平直”，普通人看不懂，除了需要 HTFC 校准，还要对仿真耳本身做一次校准；而 Head-Fi 的平直应该对仿真耳本身做了校准，但最好公布一下他们的“二次校准”曲线。</span><br>
+<span>耳机测试还有很多问题包括佩戴位置的轻微变动、脑袋大小造成的耳压区别、头发多少导致的密闭性差异、左/右耳罩的轻微差异、用多大声压来测试、FFT 曲线的 delay 多少？用哪个品牌/哪个价位的“仿真耳”...</span><br>
+<span>另外耳机有很多种耳塞的校准可能不止 ±4dB特殊的情况比音箱多得多：https://static.exound.com/attachments/2642a7b0-5829-4c0b-bbf7-190eeccaeab1.jpeg</span><br>
+<span>“HTFC”成为标准有很大难度，三星不是苹果（苹果也有难度），旗下品牌虽然有 JBL、AKG、Lexicon、Crown、Martin、SoundCraft、Studer...但影响力都在下降，Sean 大神作为 AES 美国录音协会的主席不知能否说服 EBU（欧洲广播联盟），说服森海塞尔、拜亚动力和日本的 SONY、铁三角共用一个标准（还是先搞定美国的 Beats 和 Shure 吧...）</span><br>
+<span>在标准制定之前（估计无望），我想咱评测室还是用普通话筒（GRAS 仿真耳一套就让小编破产...）和 A 加权为标准，有钱有权如 Tyll 和 Jude 照样被怼，做评测最关键还是心态，心想被怼是一种常态，就平衡多了...</span><br>
+<span>对于耳机爱好者，没必要追求像音箱一样的“绝对平直”，人耳的适应性不止±4dB，只要听上一两周，你“耳朵的频响”便会匹配你的耳机，相对平直即可，但还是建议不要选频响太夸张的（耳朵都调不过来）；而且别听太响，有没有发现从迪厅和音乐节回来后，你的听力有明显下降？“听毛细胞”的死亡不可逆，只会越来越少，永不再生。</span><br>
+<img src="https://img.alicdn.com/imgextra/i2/1094243595/TB2x7uza4z_F1JjSZFIXXcxHVXa_!!1094243595.png" title="https://img.alicdn.com/imgextra/i2/1094243595/TB2x7uza4z_F1JjSZFIXXcxHVXa_!!1094243595.png"><br>
+</p><p><b>madbird302: </b><br>
+<span>自打AKG和其他一干牌子被哈曼收购后再被三星收购就有被边缘化的迹象，这种怎么可能成为世界主流</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>我还以为在看麦文学</span><br>
+</p><p><b>YUNO: </b><br>
+<span>耳机看频响没什么意义，都是造假。所有耳机10KHZ开始下跌，但是频率响应造样标5Hz~40KHz,这个指标就是骗你玩。要破除耳机的玄学只能从物理的角度，从结构和材料上来判断和比较。</span><br>
+</p><p><b>丶美坂栞: </b><br>
+<span>YUNO 发表于 2019-11-13 07:56</span><br>
+<span>耳机看频响没什么意义，都是造假。所有耳机10KHZ开始下跌，但是频率响应造样标5Hz~40KHz,这个指标就是骗你 ...</span><br>
+<span>搞清楚频响范围和频响曲线的区别再来发言</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>qc352和新出的什么700</span><br>
+<span>bose做那么难听，是我的耳朵不符合曲线还是聋了</span><br>
+</p><p><b>YUNO: </b><br>
+<span>丶美坂栞 发表于 2019-11-13 11:01</span><br>
+<span>搞清楚频响范围和频响曲线的区别再来发言</span><br>
+<span>如果频响范围和频响曲线有区别的话</span><br>
+<span>那你能解释下所有的耳机频响范围都标20Hz~20KHz到底是什么意思？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-11-13 11:53 编辑 </span><br>
+<span>频响范围表示我有1分钱到100万可丢</span><br>
+<span>频响曲线反映我丢了相应金额的反应</span><br>
+</p><p><b>无印凉粉: </b><br>
+<span>YUNO 发表于 2019-11-13 11:49</span><br>
+<span>如果频响范围和频响曲线有区别的话</span><br>
+<span>那你能解释下所有的耳机频响范围都标20Hz~20KHz到底是什么意思？</span><br>
+<span> ...</span><br>
+<span>玄学金砖大佬还是去造你的玄学金砖吧，这种实打实的东西不适合您掺和。</span><br>
+<span>索尼收到你的简历了吗？</span><br>
+</p><p><b>FMIC: </b><br>
+<span>虽然看曲线也就图一乐，但不同校准下面这曲线也跑太远了。</span><br>
+</p><p><b>izthr: </b><br>
+<span>丶美坂栞 发表于 2019-11-13 11:01:58</span><br>
+<span>搞清楚频响范围和频响曲线的区别再来发言他要是搞得清楚还会说这种话？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>izthr: </b><br>
+<span>无印凉粉 发表于 2019-11-13 12:16:50</span><br>
+<span>玄学金砖大佬还是去造你的玄学金砖吧，这种实打实的东西不适合您掺和。</span><br>
+<span>索尼收到你的简历了吗？ ...你不如问他烧了多少钱，我感觉这是脑子都烧不清楚了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>takami: </b><br>
+<span>那个，我看了全文，哈曼曲线在哪里？</span><br>
+<span>说好的卡碧尼呢？</span><br>
+</p><p><b>loli炮: </b><br>
+<span>takami 发表于 2019-11-13 14:53</span><br>
+<span>那个，我看了全文，哈曼曲线在哪里？</span><br>
+<span>说好的卡碧尼呢？</span><br>
+<span>Harman 即哈曼</span><br>
+</p><p><b>无印凉粉: </b><br>
+<span>izthr 发表于 2019-11-13 13:28</span><br>
+<span>你不如问他烧了多少钱，我感觉这是脑子都烧不清楚了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1487540&page=1&authorid=6310</span><br>
+<span>来见识一下名场面</span><br>
+<span>“调金砖的工程师思想境界低”</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865325[0-50]</guid>
+    </item>
+  </channel>
+</rss>

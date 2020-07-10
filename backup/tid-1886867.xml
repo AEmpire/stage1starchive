@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>2019 年末，我们能采用什么方式改善 Windows 的字体渲染？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>2019 年末，我们能采用什么方式改善 Windows 的字体渲染？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:56:06 +0000</lastBuildDate>
+    <item>
+      <title>2019 年末，我们能采用什么方式改善 Windows 的字体渲染？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886867-1-1.html</link>
+      <description>2019 年末，我们能采用什么方式改善 Windows 的字体渲染？&#13;
+「9102 年」就要结束了，最新版 Windows 10（v1909）的字体渲染在 150% 以下缩放时的表现依然十分糟糕；开启 150% 缩放后字体渲染才会迎来大幅改善。
+&#13;
+这是因为微软雅黑内置的 gasp 表中对不同字号启用了不同的渲染方式定义。在最新的 1909 上，这个阈值是 21px，即 21px 以上的文字才启用平滑渲染。很巧的是，21px 对应的缩放百分比正好是 130%。
+&#13;
+这就意味着 125% 的缩放可能导致大部分字体渲染「崩坏」。对此，我们可以通过两个方法来「hack」。
+&#13;
+注：
+&#13;
+[*]所有操作在最新版本系统 Windows 10（v1909）下操作，更早的版本可能效果有所不同。
+&#13;
+[*]本文所使用方法 2 来自知乎用户 @洛晓晓晓晓，原文地址 及 原理 可跳转阅读。本文对工具进行了整合并系统化操作步骤。
+&#13;
+[*]本文所提及所有方法仅为临时解决方案，根治该问题的办法包括但不限于：虔诚地祈愿微软能找人把字体渲染的汇编重新写一次、等待新微软雅黑（一说新微软雅黑即小米兰亭 Pro）被部署到系统中、购买 4K 显示器并启用至少 150% 的缩放、破釜沉舟改用 Linux （针对计算机专业学生）、购买一台 Mac 等等。
+&#13;
+方法1：MacType可喜可贺的是，早前很多人所熟悉的 MacType 现在完全支持 Windows 10 且无需打补丁了，同时也不太可能会出现大的 bug。使用 MacType 可以看做一个「AOE 技能」，默认情况下对全部字体有效，且可以进行字体热替换、调整阴影、微调笔划等。
+&#13;
+但缺点也很明显：
+&#13;
+[*]严重影响性能，包括 dwm 和用户程序如：Fences 3
+&#13;
+[*]无法在安全策略高的软件中加载，如：WPS
+&#13;
+[*]部分程序的渲染很奇怪，如宋体在 IE 或 Edge 下的渲染效果
+&#13;
+[*]效果调试起来比较麻烦，达到完美需要折腾一段时间
+&#13;
+MacType 的配置方法倒也简单：从 Github 下载最新的 Release ，安装后启用即可。在初始配置中建议遵循以下顺序：
+&#13;
+[*]第一次使用 MacType Wizard 时，选择「独立加载」模式
+&#13;
+[*]选择配置文件，观察 Explorer.exe (资源管理器) 内与 Word / Edge Beta 中的渲染效果
+&#13;
+[*]重新运行 MacType Wizard。若满意效果，将加载模式改为「注册表加载」或「服务加载」以获得更好的使用体验；若不满意，关闭所有应用程序，更改配置文件后重新观察渲染效果。
+&#13;
+关于更详细的介绍与效果 demo，可参考《用 MacType 拯救你的 Windows 字体 | 一日一技》。需要注意的是，此文写作于 2016 年，部分配置方法已过时。
+&#13;
+方法2：干掉微软雅黑的 hinting
+&#13;
+具体到本文开头提到的平滑渲染问题，我们也可以使用硬替换的方法，将系统中微软雅黑、Segoe UI、Arial、宋体等字体的 hinting 干掉来得到更好的渲染效果。
+&#13;
+注意，这个方法也有一定的危险性且可能在操作系统更新后失效。请在完全了解过程与其危险性的前提下进行此操作。
+&#13;
+工具包下载：Link。该链接仅供本站使用。
+&#13;
+步骤
+&#13;
+[*]解压缩工具包，并按照 instruction.txt 配置好环境。
+&#13;
+[*]启动 Powershell，将目录切换到工具包目录下。
+&#13;
+[*]执行 cd simsun 、 .\GaspHack_v2.bat 与 cd ..
+&#13;
+[*]执行 cd general 与 .\GaspHack_v2.bat
+&#13;
+[*]双击运行 backup 目录下的 back.bat
+&#13;
+[*]如果一切都正常运行，backup 下应有一堆字体，包括 simsun.ttc, msyh.ttc, segoeui.ttf 等；general\workingDir\output 与 simsun\workingDir\output 下也有对应的字体。
+&#13;
+[*]尽可能地退出其他无关软件，特别是杀毒软件等安全工具，运行「字体替换工具」，将general\workingDir\output 与simsun\workingDir\output 下的文件拖入，点击「开始执行任务」即可。
+&#13;
+[*]重启电脑，打开设置并搜索「ClearType」，选择「调整 ClearType 文本」并按照提示操作。
+&#13;
+[*]注销用户并重新登录，完成。
+&#13;
+Credit
+&#13;
+[*]GaspHack: ThemeX, RadarNyan
+&#13;
+[*]字体替换工具：fishlee.net
+&#13;
+[*]UniteTTC: yozvox
+&#13;
+总结
+&#13;
+平心而论，通过干掉 hinting 的方式来改善渲染在效果上可能不如 MacType 好，但这种方法的优势很明显：兼容性好、性能高（没有动态加载其他 dll）。
+&#13;
+出于性能及安全性考虑，本文不再介绍 WinFont 对此方法的一个小修复。如果想覆盖更多字体，可通过增删 general 目录下的 bat 文件中的 copy C:\Windows\Fonts\segoe*.ttf .\ 段来达到目的。
+&#13;
+同时，本方法主要面对使用 125% 缩放的设备，150% 与 175% 缩放的设备也可以通过该方法提升观感。200% 以上缩放的设备无需改动。对于低 PPI 屏幕（简单判断方法：Windows 推荐缩放比例为 100%，且 100% 下字体大小可接受）的用户，原作者建议不用折腾了。
+&#13;
+如果在干掉 hinting 后想要恢复原来的字体，打开字体替换工具执行「还原」操作即可。
+&#13;
+最后放上方法二操作前后的效果预览：https://cdn.sspai.com/2019/12/07/682a205ef3beb6a03a25ee0fc3a5c6b3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+Word 中的渲染示例
+&#13;
+由于每个显示器的像素排列方式等不同，效果也有可能不同，这也是需要执行「调整 ClearType 文本」的原因。宋体由于在小字号下使用平滑渲染看着比较难受，本文中给出的配置未进行处理。
+&#13;
+https://sspai.com/post/57729</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>2019 年末，我们能采用什么方式改善 Windows 的字体渲染？</span><br>
+<span>「9102 年」就要结束了，最新版 Windows 10（v1909）的字体渲染在 150% 以下缩放时的表现依然十分糟糕；开启 150% 缩放后字体渲染才会迎来大幅改善。</span><br>
+<span>这是因为微软雅黑内置的 gasp 表中对不同字号启用了不同的渲染方式定义。在最新的 1909 上，这个阈值是 21px，即 21px 以上的文字才启用平滑渲染。很巧的是，21px 对应的缩放百分比正好是 130%。</span><br>
+<span>这就意味着 125% 的缩放可能导致大部分字体渲染「崩坏」。对此，我们可以通过两个方法来「hack」。</span><br>
+<span>注：</span><br>
+<span>[*]所有操作在最新版本系统 Windows 10（v1909）下操作，更早的版本可能效果有所不同。</span><br>
+<span>[*]本文所使用方法 2 来自知乎用户 @洛晓晓晓晓，原文地址 及 原理 可跳转阅读。本文对工具进行了整合并系统化操作步骤。</span><br>
+<span>[*]本文所提及所有方法仅为临时解决方案，根治该问题的办法包括但不限于：虔诚地祈愿微软能找人把字体渲染的汇编重新写一次、等待新微软雅黑（一说新微软雅黑即小米兰亭 Pro）被部署到系统中、购买 4K 显示器并启用至少 150% 的缩放、破釜沉舟改用 Linux （针对计算机专业学生）、购买一台 Mac 等等。</span><br>
+<span>方法1：MacType可喜可贺的是，早前很多人所熟悉的 MacType 现在完全支持 Windows 10 且无需打补丁了，同时也不太可能会出现大的 bug。使用 MacType 可以看做一个「AOE 技能」，默认情况下对全部字体有效，且可以进行字体热替换、调整阴影、微调笔划等。</span><br>
+<span>但缺点也很明显：</span><br>
+<span>[*]严重影响性能，包括 dwm 和用户程序如：Fences 3</span><br>
+<span>[*]无法在安全策略高的软件中加载，如：WPS</span><br>
+<span>[*]部分程序的渲染很奇怪，如宋体在 IE 或 Edge 下的渲染效果</span><br>
+<span>[*]效果调试起来比较麻烦，达到完美需要折腾一段时间</span><br>
+<span>MacType 的配置方法倒也简单：从 Github 下载最新的 Release ，安装后启用即可。在初始配置中建议遵循以下顺序：</span><br>
+<span>[*]第一次使用 MacType Wizard 时，选择「独立加载」模式</span><br>
+<span>[*]选择配置文件，观察 Explorer.exe (资源管理器) 内与 Word / Edge Beta 中的渲染效果</span><br>
+<span>[*]重新运行 MacType Wizard。若满意效果，将加载模式改为「注册表加载」或「服务加载」以获得更好的使用体验；若不满意，关闭所有应用程序，更改配置文件后重新观察渲染效果。</span><br>
+<span>关于更详细的介绍与效果 demo，可参考《用 MacType 拯救你的 Windows 字体 | 一日一技》。需要注意的是，此文写作于 2016 年，部分配置方法已过时。</span><br>
+<span>方法2：干掉微软雅黑的 hinting</span><br>
+<span>具体到本文开头提到的平滑渲染问题，我们也可以使用硬替换的方法，将系统中微软雅黑、Segoe UI、Arial、宋体等字体的 hinting 干掉来得到更好的渲染效果。</span><br>
+<span>注意，这个方法也有一定的危险性且可能在操作系统更新后失效。请在完全了解过程与其危险性的前提下进行此操作。</span><br>
+<span>工具包下载：Link。该链接仅供本站使用。</span><br>
+<span>步骤</span><br>
+<span>[*]解压缩工具包，并按照 instruction.txt 配置好环境。</span><br>
+<span>[*]启动 Powershell，将目录切换到工具包目录下。</span><br>
+<span>[*]执行 cd simsun 、 .\GaspHack_v2.bat 与 cd ..</span><br>
+<span>[*]执行 cd general 与 .\GaspHack_v2.bat</span><br>
+<span>[*]双击运行 backup 目录下的 back.bat</span><br>
+<span>[*]如果一切都正常运行，backup 下应有一堆字体，包括 simsun.ttc, msyh.ttc, segoeui.ttf 等；general\workingDir\output 与 simsun\workingDir\output 下也有对应的字体。</span><br>
+<span>[*]尽可能地退出其他无关软件，特别是杀毒软件等安全工具，运行「字体替换工具」，将general\workingDir\output 与simsun\workingDir\output 下的文件拖入，点击「开始执行任务」即可。</span><br>
+<span>[*]重启电脑，打开设置并搜索「ClearType」，选择「调整 ClearType 文本」并按照提示操作。</span><br>
+<span>[*]注销用户并重新登录，完成。</span><br>
+<span>Credit</span><br>
+<span>[*]GaspHack: ThemeX, RadarNyan</span><br>
+<span>[*]字体替换工具：fishlee.net</span><br>
+<span>[*]UniteTTC: yozvox</span><br>
+<span>总结</span><br>
+<span>平心而论，通过干掉 hinting 的方式来改善渲染在效果上可能不如 MacType 好，但这种方法的优势很明显：兼容性好、性能高（没有动态加载其他 dll）。</span><br>
+<span>出于性能及安全性考虑，本文不再介绍 WinFont 对此方法的一个小修复。如果想覆盖更多字体，可通过增删 general 目录下的 bat 文件中的 copy C:\Windows\Fonts\segoe*.ttf .\ 段来达到目的。</span><br>
+<span>同时，本方法主要面对使用 125% 缩放的设备，150% 与 175% 缩放的设备也可以通过该方法提升观感。200% 以上缩放的设备无需改动。对于低 PPI 屏幕（简单判断方法：Windows 推荐缩放比例为 100%，且 100% 下字体大小可接受）的用户，原作者建议不用折腾了。</span><br>
+<span>如果在干掉 hinting 后想要恢复原来的字体，打开字体替换工具执行「还原」操作即可。</span><br>
+<span>最后放上方法二操作前后的效果预览：https://cdn.sspai.com/2019/12/07/682a205ef3beb6a03a25ee0fc3a5c6b3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>Word 中的渲染示例</span><br>
+<span>由于每个显示器的像素排列方式等不同，效果也有可能不同，这也是需要执行「调整 ClearType 文本」的原因。宋体由于在小字号下使用平滑渲染看着比较难受，本文中给出的配置未进行处理。</span><br>
+<span>https://sspai.com/post/57729</span><br>
+</p><p><b>碳.: </b><br>
+<span>所以，有改善calibre渲染的办法吗</span><br>
+</p><p><b>sniffer: </b><br>
+<span>125%，有的窗口就是模模糊糊，服了</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我用124缩放，主要窗口比125好多了，但是有些程序窗口直接不缩放了</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>yst234: </b><br>
+<span> 装 MacType 是唯一正解</span><br>
+<span>不然非整比缩放的渲染完全不能看</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>说个笑话，9012年都快过完了， 一堆软件的ui图片还在用72dpi 16x16 32x32像素的位图</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-12-8 15:47 编辑 </span><br>
+<span>96DPI的情况下，在我这边，清晰度是优先于美观度的</span><br>
+<span>特地找回了XP时候的点阵宋体，清晰锐利，比朦朦胧胧的mactype好使多了所以为啥不能提取GAL里的字体啊，我觉得在96DPI清晰度都比这堆玩意高多了.....</span><br>
+</p><p><b>308: </b><br>
+<span>当然是换一个高分屏。windows的字体渲染难看，是因为对比高ppi的手机屏幕及字体显得又糊又扭曲。另外低分辨率lcd屏的显示效果可比电子轰击荧光粉扫描线成像的crt显示器渣多了，外加锐利清晰的点阵字体......只能说win的包袱太多了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>安永透: </b><br>
+<span>煞笔知乎天天洗脑</span><br>
+</p><p><b>404489039: </b><br>
+<span>弄着有点没的建议换个4k屏幕</span><br>
+</p><p><b>308: </b><br>
+<span>安永透 发表于 2019-12-08 16:10:10</span><br>
+<span>煞笔知乎天天洗脑是少数派的</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>红叶: </b><br>
+<span>要删掉原来再装吗</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>换个4K屏幕，我开150%缩放也不觉得有啥难受的，之前1080p的屏幕不开mactype那叫一个难受，现在mactype也懒得装了，系统字体懒得整。就看微软雅黑算了</span><br>
+<span>chrome里倒是把宋体全部毙掉，换成方正兰亭圆</span><br>
+</p><p><b>macos: </b><br>
+<span>渲染没有问题，是dpi的缩放模式，在不支持的程序中，看程序的属性，有三种模式，最接近老式的是程序缩放，这时字体不会拉伸，其他两种系统方式都有一定程度拉伸，但老式方式窗体比例不处理，可能会走样</span><br>
+</p><p><b>P-link: </b><br>
+<span>225%缩放 怪不得没啥感觉</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>19年Linux 桌面发展挺快的</span><br>
+<span>新人 debian 系选一个(Linux Mint, Ubuntu, elementaryOS) flatpak, snaps, appimage 再加上几个常用的源已经相当好用了。具体可以去看看flathub snaps商店里面的包。学术界的软件其实反而都有编译好的甚至deb/rpm包提供。</span><br>
+<span>win10 确实是历史包袱太沉重了</span><br>
+</p><p><b>cirno9: </b><br>
+<span>微软自动的125%会字体模糊，但是手动输入125%就没有问题，有少量老程序不支持只能100%缩放</span><br>
+</p><p><b>kros: </b><br>
+<span>台式机4K 27寸 150缩放</span><br>
+<span>笔记本1080P 15.6100默认</span><br>
+<span>感觉都没啥问题</span><br>
+</p><p><b>litel: </b><br>
+<span>4k显示器。。。200%缩放，专治各种花里胡哨。。</span><br>
+</p><p><b>風駿: </b><br>
+<span>MacType在win10有些情况还是没辙啊</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>4k开200%的雅黑一样很烂好不好</span><br>
+<span>最舒服的是Linux的freetype2, osx也是垃圾</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span>都挺危险的，系统稳定性没有保障。</span><br>
+<span>还是推荐4k+200%缩放，2k+150%缩放。</span><br>
+</p><p><b>御风八极: </b><br>
+<span>cirno9 发表于 2019-12-08 17:41:43</span><br>
+<span>微软自动的125%会字体模糊，但是手动输入125%就没有问题，有少量老程序不支持只能100%缩放 ...我说我怎么没什么感觉。除了部分老程序完全是走缩放整体ui</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>qazesz: </b><br>
+<span>kuleisite1992 发表于 2019-12-8 15:45</span><br>
+<span>96DPI的情况下，在我这边，清晰度是优先于美观度的</span><br>
+<span>特地找回了XP时候的点阵宋体，清晰锐利，比朦朦 ...</span><br>
+<span>+1,没有比点阵宋体更舒服的ui字体了</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>争取在强制推送1909前换4k</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zyhang: </b><br>
+<span>mac现在在低分屏下的表现比Windows还糟糕</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>404489039 发表于 2019-12-8 16:13</span><br>
+<span>弄着有点没的建议换个4k屏幕</span><br>
+<span>4k屏幕天下第一</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>Mactype还是不行，上次用了没几天，就不正常了。字体边缘变得五颜六色，更糊了。</span><br>
+<span>后来还是卸载了。</span><br>
+</p><p><b>rhocas: </b><br>
+<span>换个4k屏就行了</span><br>
+</p><p><b>macos: </b><br>
+<span>qazesz 发表于 2019-12-9 09:21</span><br>
+<span>+1,没有比点阵宋体更舒服的ui字体了</span><br>
+<span>点阵太过特殊，全是单行线做的，两行跃迁了，其实最好是直接提到完全不需要考虑细节的dpi，像纸质一样，不要计较性能浪费</span><br>
+</p><p><b>松霖: </b><br>
+<span>弄这些有的没的不如直接换4k屏开150 200缩放 </span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>wonderful259: </b><br>
+<span>目前是2k，150缩放，感觉还是不错的。</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>你们4K开200%不觉得涨眼睛么？涨的要死 </span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>4K开200%缩放绝对立竿见影的提升</span><br>
+<span>—— 来自 smartisan DE106, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>闪电战: </b><br>
+<span>27寸4k开150感觉很爽</span><br>
+<span>开200太大了</span><br>
+</p><p><b>hein: </b><br>
+<span>qazesz 发表于 2019-12-9 09:21</span><br>
+<span>+1,没有比点阵宋体更舒服的ui字体了</span><br>
+<span>支持</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>我现在已经4K 250%了</span><br>
+<span>感觉还行</span><br>
+<span>WIN10直接推介我用300%，真的清晰很多，但窗口太大了</span><br>
+</p><p><b>皇牌马甲: </b><br>
+<span>犇䨻</span><br>
+<span>为啥我的手机能看清楚 电脑看不清楚</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Geminize: </b><br>
+<span>WIN7能用方法2吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886867[0-50]</guid>
+    </item>
+  </channel>
+</rss>

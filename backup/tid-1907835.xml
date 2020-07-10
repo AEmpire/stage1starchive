@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>对比一下rust和java</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>对比一下rust和java</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:57:09 +0000</lastBuildDate>
+    <item>
+      <title>对比一下rust和java[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907835-1-1.html</link>
+      <description>对比一下rust和java&#13;
+最近学了一些rust。 想用rust写一个无延迟无GC的金融撮合系统。
+&#13;
+试了一下才发现。rust这个东西和java比。库做的简直过家家级别的。不知道rust社区怎么好意思叫嚣代替C++。
+&#13;
+那个rust的BigDecimal看了下源代码简直不忍直视。居然没有制定精度除法。
+&#13;
+你看看java的BigDecimal
+&#13;
+现在还没有官方的float16和float128.
+&#13;
+我专门去研究过为什么没有float16和float128，居然是一些委员会的人以
+&#13;
+a）一些根本没有人用的OS的兼容性问题，
+&#13;
+b）没有看到应用的紧迫性。
+&#13;
+的XX理由把这个提案拒绝了。
+&#13;
+这些人脑子都有坑吗？
+&#13;
+ 一个以性能为卖点的语言，居然对高性能计算一无所知，不知道f16和f128有什么用。
+&#13;
+对矩阵计算和向量化支持也比较差。
+&#13;
+当然rust优点还是有的
+&#13;
+matching 默认不可变。生命周期，写起来非常geek范。不过没有库支持，都是美好的幻想。</description>
+      <content:encoded><![CDATA[<p><b>wwwwn168: </b><br>
+<span>对比一下rust和java</span><br>
+<span>最近学了一些rust。 想用rust写一个无延迟无GC的金融撮合系统。</span><br>
+<span>试了一下才发现。rust这个东西和java比。库做的简直过家家级别的。不知道rust社区怎么好意思叫嚣代替C++。</span><br>
+<span>那个rust的BigDecimal看了下源代码简直不忍直视。居然没有制定精度除法。</span><br>
+<span>你看看java的BigDecimal</span><br>
+<span>现在还没有官方的float16和float128.</span><br>
+<span>我专门去研究过为什么没有float16和float128，居然是一些委员会的人以</span><br>
+<span>a）一些根本没有人用的OS的兼容性问题，</span><br>
+<span>b）没有看到应用的紧迫性。</span><br>
+<span>的XX理由把这个提案拒绝了。</span><br>
+<span>这些人脑子都有坑吗？</span><br>
+<span> 一个以性能为卖点的语言，居然对高性能计算一无所知，不知道f16和f128有什么用。</span><br>
+<span>对矩阵计算和向量化支持也比较差。</span><br>
+<span>当然rust优点还是有的</span><br>
+<span>matching 默认不可变。生命周期，写起来非常geek范。不过没有库支持，都是美好的幻想。</span><br>
+</p><p><b>Hieda: </b><br>
+<span>你说的对！</span><br>
+</p><p><b>d2loader: </b><br>
+<span> edition 2018 之后才能算稳定的rust 生态要是能和java比，是活在梦里</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>rust发展不过10年而已，5年后再看看？</span><br>
+<span>—— 来自 smartisan DE106, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>远野四季: </b><br>
+<span>V2EX化</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>java几年了, 能比么, 不过用rust我还不如拿自带语法糖的c++11用c with class</span><br>
+</p><p><b>novem: </b><br>
+<span>我感觉rust代替c++只是个时间问题，包揽万物巨无霸c++的学习成本终究会进化到普通学习者无法接受的地步</span><br>
+</p><p><b>onoma: </b><br>
+<span>Rust也就是刚起步，拼生态暂时拼不过Java、Python这些也正常，还是得给点时间吧</span><br>
+<span>要从生态、性能、开发速度中间权衡选一个的话，目前我还是选Go……</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>罗克萨斯 发表于 2020-1-6 01:07</span><br>
+<span>rust发展不过10年而已，5年后再看看？</span><br>
+<span>—— 来自 smartisan DE106, Android 8.1.0上的 S1Next-鹅版 v2.2.0 ...</span><br>
+<span>java也有5年后啊</span><br>
+</p><p><b>HariSeldon: </b><br>
+<span>和几十年的语言比库成熟度，你对rust期待很高啊，BigDecimal版本号才0.1.0，就算rust很多库轻易不上1.0，这版本也太早期了吧</span><br>
+<span>刚起步不是很正常么，核心开发组看起来人手不够，现在还有成堆RFC没实现。包括const generics，GAT等等。2019一个重大成果算是async/await了</span><br>
+<span>要用的话现在也能用，就是说不定得自己撸库，想用得爽，等几年吧</span><br>
+</p><p><b>Endle: </b><br>
+<span>rust和java没有任何可比性啊</span><br>
+<span>无GC，精确内存控制，不依赖 run time</span><br>
+<span>你想要库的话直接就用C++呗</span><br>
+</p><p><b>jpcl: </b><br>
+<span>Java和C++这种几十年的生态环境rust怎么能比嘛</span><br>
+<span>要我说，java必死，早日投奔kotlin才是王道</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>同样强调并发多核 学rust不如学golang</span><br>
+<span>golang好歹背后是谷歌 rust背后是mozilla 根本不是一个资源等级的东西</span><br>
+<span>至于学kotlin 我不知道kotlin有啥好学的 你没java基础直接学kotlin就是有病</span><br>
+<span>kotlin和scala能用好本身需要java库的支持 所以结果还是要学java 用kotlin的基本都是用了很久java的</span><br>
+<span>严格说后两者更像java的语法糖 而不是本质一门语言</span><br>
+</p><p><b>化肥会挥发: </b><br>
+<span>.net core才是未来</span><br>
+</p><p><b>mintpie: </b><br>
+<span>novem 发表于 2020-1-6 01:35</span><br>
+<span>我感觉rust代替c++只是个时间问题，包揽万物巨无霸c++的学习成本终究会进化到普通学习者无法接受的地步 ...</span><br>
+<span>问题是等到Rust有能力替代C++的时候它会不会也变成一个巨无霸？</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>Endle 发表于 2020-1-6 02:36</span><br>
+<span>rust和java没有任何可比性啊</span><br>
+<span>无GC，精确内存控制，不依赖 run time</span><br>
+<span>我这不是就是不想写C++么。阿不然我学rust做什么勒</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>風舞雪 发表于 2020-1-6 03:31</span><br>
+<span>同样强调并发多核 学rust不如学golang</span><br>
+<span>golang好歹背后是谷歌 rust背后是mozilla 根本不是一个资源等级的东 ...</span><br>
+<span>go lang 有GC，我为什么不用java？</span><br>
+<span>rust的潜力是不需要估计backport compatiblity的C++，golang怕是比不了。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>jpcl 发表于 2020-1-6 02:58</span><br>
+<span>Java和C++这种几十年的生态环境rust怎么能比嘛</span><br>
+<span>要我说，java必死，早日投奔kotlin才是王道 ...</span><br>
+<span>大哥你咋么这么闲，不怕linkedin开了你吗？</span><br>
+</p><p><b>Endle: </b><br>
+<span>wwwwn168 发表于 2020-1-6 05:56</span><br>
+<span>我这不是就是不想写C++么。阿不然我学rust做什么勒</span><br>
+<span>那你列举C++相比rust的优点啊，你明明是在C++和rust之间选，但拿java的有点过来批判rust，这就说不过去了吧</span><br>
+<span>你真这么喜欢java的库的话，你找一个没有 global gc 的商业JVM好了</span><br>
+</p><p><b>onezeron: </b><br>
+<span>你这个帖子内容，都不是第一年开发了，还对程序员届的催牛逼不了解吗</span><br>
+<span>什么时候上新语言（rust）---》当你们组没别的干了，还想刷kpi的时候</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>onezeron 发表于 2020-1-6 06:30</span><br>
+<span>你这个帖子内容，都不是第一年开发了，还对程序员届的催牛逼不了解吗</span><br>
+<span>什么时候上新语言（rust）---》当你 ...</span><br>
+<span>兄弟我还真是第一年开发。</span><br>
+<span>rust是不可能上的。只是想看看无GC无runtime能带来多少性能提升。</span><br>
+</p><p><b>onezeron: </b><br>
+<span>wwwwn168 发表于 2020-1-6 06:36</span><br>
+<span>兄弟我还真是第一年开发。</span><br>
+<span>用比较油的套话回答你一下，无GC，和无runtime肯定是有不少提升的，之前语言这么干的也不少，然而软工圣经上面说的核心就是no silver bullet，没有完美的解法一切事情都伴随着代价。Java说是要保持纯洁性这么多年，不慢慢也把Lambda，函数式那些东西加上去了，都是这样的。</span><br>
+<span>所以作为程序员的立场很简单，你是打工仔，老板让你用啥你用啥，你掌握好就可以。没事可以多掌握一些没坏处。</span><br>
+<span>如果你是tech lead，我个人的建议是用成型的东西，别人做过的东西，你在趟，阻力少很多，当然也有人全程作死流的，我个人是不推荐</span><br>
+<span>如果你是想升职的，确实可以考虑用一些新的酷炫的东西，重要的是能决定你命运的那个人，能吃你那一套。</span><br>
+</p><p><b>攻心为上木之本: </b><br>
+<span>maven中央仓库有459万个jar包，号称世界第一大依赖管理库，你拿这个当标准那其他语言都是垃圾。</span><br>
+<span>以及rust的库现在比golang的还玩具吧。之前放弃迁移到golang就是因为golang各种数据库驱动成熟度不如java，低水平如我写出来的golang性能还不如spring搭积木。</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>所以 我来总结一下：</span><br>
+<span>1. 楼主觉得rust不够好</span><br>
+<span>2. 因为自己不想学c++ 但是rust又不够好到代替c++</span><br>
+<span>3. 其他语言一律不如他自己写java</span><br>
+<span>所以我想问 你开这个贴想表明什么 这贴有啥意义？</span><br>
+</p><p><b>flyinwild: </b><br>
+<span>5年后rust可能又被替代了呢？如果是为了恰饭现在就不要学rust。</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>pyjq: </b><br>
+<span>jpcl 发表于 2020-1-6 02:58</span><br>
+<span>Java和C++这种几十年的生态环境rust怎么能比嘛</span><br>
+<span>要我说，java必死，早日投奔kotlin才是王道 ...</span><br>
+<span>我记得你喷过kotlin啊</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>finnegan: </b><br>
+<span>Rust最初设计者Graydon Hoare已经去苹果Swift开发组两年了。</span><br>
+</p><p><b>Endle: </b><br>
+<span>風舞雪 发表于 2020-1-6 07:42</span><br>
+<span>所以 我来总结一下：</span><br>
+<span>1. 楼主觉得rust不够好</span><br>
+<span>这里的2我觉得站不住脚</span><br>
+<span>LZ列举了一堆rust不如JAVA的地方，但他同样没有对比 C++和Java，更没有直接对比Rust vs C++</span><br>
+<span>所以 rust 不如 Java 并不能证明 rust 不能（在这个场合）替代C++</span><br>
+</p><p><b>heilasuka91: </b><br>
+<span>说一下我自己写rust的感觉，编译器是你爹，你爹同意你干的事大多数情况下不会有bug，之前拿rust写了个爬虫，写代码半天，被编译器吊打了一星期，最后一跑，过了。还是爹好，严格一点没坏处</span><br>
+</p><p><b>美人希: </b><br>
+<span>老铁你先试试把Java的disruptor用好了我们再来谈no gc</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>lvcha: </b><br>
+<span>绝大多数语言的库跟java比都是过家家水平。</span><br>
+<span>这方面目前能一战的恐怕只有python</span><br>
+</p><p><b>革萌: </b><br>
+<span>lvcha 发表于 2020-1-6 10:32</span><br>
+<span>绝大多数语言的库跟java比都是过家家水平。</span><br>
+<span>这方面目前能一战的恐怕只有python ...</span><br>
+<span>python那是自己的库吗........</span><br>
+<span>胶水语言占了便宜罢了</span><br>
+</p><p><b>keamedes: </b><br>
+<span>java一样可以no gc，只有你自己管理内存，flink，netty之流</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>iranaikimi: </b><br>
+<span>行了吧 就java那泛型和type erase的设计就纯傻逼 抽象能力更捉急 实现更是一堆runtime overhead</span><br>
+<span>现代语言连一票jvm系的语言都标配pattern matching了 看看java呢</span><br>
+<span>rust就是为c++程序员准备的 而非java程序员</span><br>
+<span>顺便吐槽下 就curator这种级别的lib都能出现多个线程同时写一个volatile的代码 大约java是真的降低了程序员的门槛</span><br>
+</p><p><b>happydog: </b><br>
+<span>我觉得还是c+python，可以搞定一切了。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>美人希 发表于 2020-1-6 10:31</span><br>
+<span>老铁你先试试把Java的disruptor用好了我们再来谈no gc</span><br>
+<span>— from OPPO PAAM00, Android 9 of S1 Next ...</span><br>
+<span>我要是能用好disruptor我就自己单干了。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>都不要跑题了，这个贴的重点是喷rust有替代C++的心，但是没有替代C++的命。</span><br>
+<span>先别说第三方库了，把基础的数值计算的库做好不行吗？</span><br>
+<span>另外Java不能SIMD是硬伤。上限就在那了。</span><br>
+</p><p><b>d2loader: </b><br>
+<span>标题是java结果说别人跑题</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>j5g27: </b><br>
+<span>看标题一瞬间梦回v2ex</span><br>
+<span>再说你比生态拿java做对比对象也太作弊了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907835[0-50]</guid>
+    </item>
+  </channel>
+</rss>

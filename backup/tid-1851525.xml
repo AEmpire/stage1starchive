@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NAS播放视频问题，安卓和iOS应该使用什么软件？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NAS播放视频问题，安卓和iOS应该使用什么软件？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:31:28 +0000</lastBuildDate>
+    <item>
+      <title>NAS播放视频问题，安卓和iOS应该使用什么软件？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851525-1-1.html</link>
+      <description>NAS播放视频问题，安卓和iOS应该使用什么软件？&#13;
+最近自己入了一台群晖，下了不少BD和BDRip动画观看，不过还是有几个疑惑的地方
+
+首先是什么协议传输效率最高？目前NAS上开启了FTP、SMB、Webdav协议，安卓上smb协议效率低下已经弃用了，现在主要是用webdav，求问有更高效率的协议吗
+
+目前安卓上用solidexplore连接nas，调用mxplayer观看动画，整体感觉接近完美，可惜SE上有个小bug，第二次打开时候自动返回上次目录会出错，直接返回根目录，这点有些不爽，想要用其他文件管理器替换。
+
+iOS上情况不怎么乐观，原本感觉iOS生态强大，应该不会在视频播放这上面掉链子了吧，于是下载了广受好评的nplayer和vlc，整体效果还行，不过两个都有一个非常致命的缺点：无法放大ass格式字幕的字体。说实话我有点不敢相信，这种成熟的全能播放器居然连放大字幕的功能都没。。。。不知道大家有什么好用的iOS视频播放器推荐，要求不高，只希望能使用webdav协议，外挂字幕能放大就行。另外Infuse这货就算了，我还没钱供一个月付的播放器。</description>
+      <content:encoded><![CDATA[<p><b>KnightHart: </b><br>
+<span>NAS播放视频问题，安卓和iOS应该使用什么软件？</span><br>
+<span>最近自己入了一台群晖，下了不少BD和BDRip动画观看，不过还是有几个疑惑的地方</span><br>
+<span>首先是什么协议传输效率最高？目前NAS上开启了FTP、SMB、Webdav协议，安卓上smb协议效率低下已经弃用了，现在主要是用webdav，求问有更高效率的协议吗</span><br>
+<span>目前安卓上用solidexplore连接nas，调用mxplayer观看动画，整体感觉接近完美，可惜SE上有个小bug，第二次打开时候自动返回上次目录会出错，直接返回根目录，这点有些不爽，想要用其他文件管理器替换。</span><br>
+<span>iOS上情况不怎么乐观，原本感觉iOS生态强大，应该不会在视频播放这上面掉链子了吧，于是下载了广受好评的nplayer和vlc，整体效果还行，不过两个都有一个非常致命的缺点：无法放大ass格式字幕的字体。说实话我有点不敢相信，这种成熟的全能播放器居然连放大字幕的功能都没。。。。不知道大家有什么好用的iOS视频播放器推荐，要求不高，只希望能使用webdav协议，外挂字幕能放大就行。另外Infuse这货就算了，我还没钱供一个月付的播放器。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>nplayer和vlc安卓上也有，播放器啥的和生态没一点关系，你要的放大ass字幕这个功能没有无非是没多少人有这需求，ios最好用的就是nplayer了。安卓放nas的视频可以试试nfs，我电视盒子就是smb不太对付转用的nfs。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>哈德斯: </b><br>
+<span>webdav已经是最好的了，用nplayer吧，个别解不了的用kodi。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>ios字幕请在pc上用aegisub改好样式再传到nas</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>白夜の火柴: </b><br>
+<span>IOS 目前用的是自带的DS FILE和SPLAYER</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>我没你们那么麻烦。</span><br>
+<span>片子下移动硬盘里，空的话找一下ass字幕，一起改个名字放进去；</span><br>
+<span>插上我的ac68u；</span><br>
+<span>打开iOS和tvOS的infuse pro 5，对，我直接买断了一个大版本；</span><br>
+<span>协议选upnp，开看。</span><br>
+<span>大版本infuse pro 5已经支持杜比atoms和hdr10视频播放，我目前觉得完全够用，而且比你自己瞎折腾简单多了，有这个时间折腾为什么不多下点片子看？</span><br>
+</p><p><b>bbpoo: </b><br>
+<span>nplayer</span><br>
+</p><p><b>404489039: </b><br>
+<span>Infuse free版不能用吗 好像就不支持dsd而已</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>404489039 发表于 2019-8-6 13:06</span><br>
+<span>Infuse free版不能用吗 好像就不支持dsd而已</span><br>
+<span>不支持播放局域网文件</span><br>
+<span>免费版只能播放本地视频</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>kodi和vlc自带nfs，不用再通过文件管理器访问了</span><br>
+<span>kodi对bd原盘支持度比vlc好，不过vlc操作更友好</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>雪影 发表于 2019-8-6 13:30</span><br>
+<span>kodi和vlc自带nfs，不用再通过文件管理器访问了</span><br>
+<span>kodi对bd原盘支持度比vlc好，不过vlc操作更友好</span><br>
+<span>其实Android上用mxplayer我就挺满意了</span><br>
+<span>主要是iOS这边播放器还没找到能保留格式放大ass字幕的，iOS上好像也没法安装kodi</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>土豆麻辣人 发表于 2019-8-6 09:57</span><br>
+<span>我没你们那么麻烦。</span><br>
+<span>片子下移动硬盘里，空的话找一下ass字幕，一起改个名字放进去；</span><br>
+<span>你自顾自说了一堆废话，连我问啥都没看懂</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>全力少年: </b><br>
+<span>你需要的是115之类</span><br>
+<span>手机连群晖看片有点蛋疼，电视才是王道</span><br>
+</p><p><b>404489039: </b><br>
+<span>KnightHart 发表于 2019-8-6 13:28</span><br>
+<span> 不支持播放局域网文件 免费版只能播放本地视频 </span><br>
+<span>怎么不支持我就nplayer跟infuse都用</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>404489039 发表于 2019-8-6 14:14</span><br>
+<span>怎么不支持我就nplayer跟infuse都用</span><br>
+<span>好吧，看了下是我记错了，应该是不能连接云端服务</span><br>
+<span>不过infuse对字幕支持也一般啊</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elwingh: </b><br>
+<span>vlc我觉得还不错啊 体验还行</span><br>
+</p><p><b>哈德斯: </b><br>
+<span>KnightHart 发表于 2019-8-6 13:33</span><br>
+<span>其实Android上用mxplayer我就挺满意了</span><br>
+<span>主要是iOS这边播放器还没找到能保留格式放大ass字幕的，iOS上好像 ...</span><br>
+<span>越狱可装</span><br>
+</p><p><b>龙骑士尹志平: </b><br>
+<span>何国源现在在哪里</span><br>
+</p><p><b>FSS: </b><br>
+<span>直接kodi完事</span><br>
+</p><p><b>烟萝: </b><br>
+<span>安卓上MXplay基本没法用了。</span><br>
+<span>谷歌商店的最新版VLC还行。可以试试。</span><br>
+<span>SMB协议并没有问题，是你网络和设备的问题。</span><br>
+<span>苹果用nplay</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>KnightHart 发表于 2019-8-6 13:34</span><br>
+<span>你自顾自说了一堆废话，连我问啥都没看懂</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版...</span><br>
+<span>我意思就是买个infuse就完事了，你折腾那么多干啥呢</span><br>
+</p><p><b>xk1357240: </b><br>
+<span>实话说你的放大字体这个需求巨少见。。。nplayer你可以安装字体，infuse对ass支持远不如nplayer，但是infuse还是比较适合NAS的，主要是界面美观、支持BDMV。</span><br>
+<span>所以，LZ需要更换设备了，不论安卓还是ios</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851525[0-50]</guid>
+    </item>
+  </channel>
+</rss>

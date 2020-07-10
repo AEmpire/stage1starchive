@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>松鼠症发作，有没有比较高性价比的家用存储方案？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>松鼠症发作，有没有比较高性价比的家用存储方案？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:59:58 +0000</lastBuildDate>
+    <item>
+      <title>松鼠症发作，有没有比较高性价比的家用存储方案？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915411-1-1.html</link>
+      <description>松鼠症发作，有没有比较高性价比的家用存储方案？&#13;
+ 本帖最后由 土豆麻辣人 于 2020-2-23 20:29 编辑 
+
+总之这个想法也不是第一次有了，一直想付诸行动了，但是拖延症爆发，所以一直没做。
+&#13;
+现在的情况是：
+&#13;
+台式机有一块3t，是我的主力存储，但是已经快爆了，而且机箱是itx没有盘位了；
+&#13;
+路由器插着一块500g，平时在单位远程aira2下点动画电影啥的，满了就拷到台式机上去；
+&#13;
+还有一个移动ssd 500g，做做笔记本的备份和移动存储。
+&#13;
+一直想组个nas，所以需求是：
+&#13;
+1.电视盒子可以直接播放电影，在内网里能放就行了。
+&#13;
+2.备份全家手机上的照片，我是一直有自主备份，但是我爹妈是不可能隔一段时间就插电脑上备份的，而且他们也不可能舍得花钱开云存储，最好能在手机上安个app，在家的时候就能无感备份到nas。
+&#13;
+3.可以挂个类似aria2的下载进程，可以穿透到外网远程下载的。
+&#13;
+然后问题就是：
+&#13;
+1.硬盘配置多大的，买的8t的还是4t的？有没有必要买nas专用的？
+&#13;
+2.两盘位的话，有没有必要牺牲一块的容量做raid1，毕竟我个人还没用坏过硬盘。
+&#13;
+3.要不要买现成的nas还是自己组？我现在看上的威联通ts-428，还没来得及做功课。
+&#13;
+4.最后就是这套玩意能用多久，不考虑我疯了一样下东西的话，稳定运行个3-5年可以吗？
+&#13;
+最后，泥潭大佬么还有没有更性价比的方案了，四盘位nas+4块6t硬盘，价格太美了……</description>
+      <content:encoded><![CDATA[<p><b>土豆麻辣人: </b><br>
+<span>松鼠症发作，有没有比较高性价比的家用存储方案？</span><br>
+<span> 本帖最后由 土豆麻辣人 于 2020-2-23 20:29 编辑 </span><br>
+<span>总之这个想法也不是第一次有了，一直想付诸行动了，但是拖延症爆发，所以一直没做。</span><br>
+<span>现在的情况是：</span><br>
+<span>台式机有一块3t，是我的主力存储，但是已经快爆了，而且机箱是itx没有盘位了；</span><br>
+<span>路由器插着一块500g，平时在单位远程aira2下点动画电影啥的，满了就拷到台式机上去；</span><br>
+<span>还有一个移动ssd 500g，做做笔记本的备份和移动存储。</span><br>
+<span>一直想组个nas，所以需求是：</span><br>
+<span>1.电视盒子可以直接播放电影，在内网里能放就行了。</span><br>
+<span>2.备份全家手机上的照片，我是一直有自主备份，但是我爹妈是不可能隔一段时间就插电脑上备份的，而且他们也不可能舍得花钱开云存储，最好能在手机上安个app，在家的时候就能无感备份到nas。</span><br>
+<span>3.可以挂个类似aria2的下载进程，可以穿透到外网远程下载的。</span><br>
+<span>然后问题就是：</span><br>
+<span>1.硬盘配置多大的，买的8t的还是4t的？有没有必要买nas专用的？</span><br>
+<span>2.两盘位的话，有没有必要牺牲一块的容量做raid1，毕竟我个人还没用坏过硬盘。</span><br>
+<span>3.要不要买现成的nas还是自己组？我现在看上的威联通ts-428，还没来得及做功课。</span><br>
+<span>4.最后就是这套玩意能用多久，不考虑我疯了一样下东西的话，稳定运行个3-5年可以吗？</span><br>
+<span>最后，泥潭大佬么还有没有更性价比的方案了，四盘位nas+4块6t硬盘，价格太美了……</span><br>
+</p><p><b>铅笔: </b><br>
+<span>看你的容量需求，我光动画片就10几T了。我现在每年大概6T左右的下载量。</span><br>
+<span>4盘位不是问题，单盘性价比比较好的就是8T跟10T，可以等海外购的车。</span><br>
+<span>nas随意，想省钱可以自己DIY都行。</span><br>
+</p><p><b>騜: </b><br>
+<span>这已经快成本版周经了吧自己搜搜很多帖子都有人回答了</span><br>
+<span>问性价比就是星级蜗牛等一系列矿渣垃圾</span><br>
+<span>要折腾就是自建ALLINONE</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>铅笔 发表于 2020-2-23 20:34</span><br>
+<span>看你的容量需求，我光动画片就10几T了。我现在每年大概6T左右的下载量。</span><br>
+<span>4盘位不是问题，单盘性价比比较好 ...</span><br>
+<span>我现在基本放弃了在线看了，不想给阉割版交钱。</span><br>
+<span>以前都是看完删，现在不知道如果只是收集点高评价电影和动画 需要多少存储空间。</span><br>
+</p><p><b>tyx776: </b><br>
+<span>便宜就蜗牛自己想装什么装什么。我是蜗牛之前的暴风，换了蜗牛的4盘位机箱。现在感觉良好，就是硬盘怎么都贵，我现两4t两8t也不怎么够</span><br>
+<span>—— 来自 asus P00I, Android 6.0.1上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>铅笔: </b><br>
+<span> 本帖最后由 铅笔 于 2020-2-24 11:15 编辑 </span><br>
+<span>土豆麻辣人 发表于 2020-2-24 10:38</span><br>
+<span>我现在基本放弃了在线看了，不想给阉割版交钱。</span><br>
+<span>以前都是看完删，现在不知道如果只是收集点高评价电影和 ...</span><br>
+<span>我是这么考虑的，下载用电脑上的SSD，当然我电脑全是ssd。经常看的放盘柜或者nas或者阵列盒，这个无所谓，不常用的用密封袋加干燥机装箱子做冷备份。</span><br>
+<span>我现在的情况：SSD有1t。阵列盒四位，20T左右。冷备份的有四五个硬盘了，大概20t左右。</span><br>
+<span>计划是以后所有的数据都同步冷备份，阵列盒上只放想看的。</span><br>
+<span>现在存片子要看你个人追求，美剧从480P的rmvb到BDremux，同一集的容量从200多M到8G，就看你自己想存什么样的。不过现在资源不好找咯。没多少可挑的。</span><br>
+<span>我一般都是找高质量BDRIP，美剧比较占空间，一部剧3，400G的太多了，另两个大头是纪录片跟UHD资源。动画片我觉得一般人4t或者5t差不多了，我都是下BDRIP的，一集1G多。。</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>tyx776 发表于 2020-2-23 20:39</span><br>
+<span>便宜就蜗牛自己想装什么装什么。我是蜗牛之前的暴风，换了蜗牛的4盘位机箱。现在感觉良好，就是硬盘怎么都 ...</span><br>
+<span>问个事，nas可以后续添加硬盘不影响之前的资料嘛？</span><br>
+<span>比如我本来塞了两块用的差不多，再塞两块，可以这样用么，一下子四块真的大出血。</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>騜 发表于 2020-2-23 20:37</span><br>
+<span>这已经快成本版周经了吧自己搜搜很多帖子都有人回答了</span><br>
+<span>问性价比就是星级蜗牛等一系列矿渣垃圾</span><br>
+<span>算了，蜗牛这玩意去看了下不敢下手</span><br>
+</p><p><b>gaiden: </b><br>
+<span> 本帖最后由 gaiden 于 2020-2-24 10:56 编辑 </span><br>
+<span>便宜就蜗牛被，不过我只有主板是蜗牛的，总体成本还是比成品低，机箱和电源还有内存啥的另外买的</span><br>
+<span>反正你的要求基本上nas都能达到</span><br>
+</p><p><b>tyx776: </b><br>
+<span>土豆麻辣人 发表于 2020-2-24 10:50</span><br>
+<span>问个事，nas可以后续添加硬盘不影响之前的资料嘛？</span><br>
+<span>比如我本来塞了两块用的差不多，再塞两块，可以这样 ...</span><br>
+<span>之前的跟后来的没有影响。只是如果你硬盘里面是ntfs装有资料，群晖需要格式化才能使用，你就要先转存</span><br>
+</p><p><b>王苍幻: </b><br>
+<span>能折腾就自己上淘宝买个多硬盘位的机箱，自己配。整个黑群。</span><br>
+<span>不想折腾就买个商业成品</span><br>
+</p><p><b>王苍幻: </b><br>
+<span>土豆麻辣人 发表于 2020-2-24 10:52</span><br>
+<span>算了，蜗牛这玩意去看了下不敢下手</span><br>
+<span>有啥不敢下手的？？黑群很稳定啊，</span><br>
+</p><p><b>sccs: </b><br>
+<span>星际蜗牛算是比较低成本了，几百块就能实现</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>想便宜？蜗牛啊，黑群</span><br>
+<span>需求：</span><br>
+<span>1. FTP/SAMBA随便放，想好看还可以折腾Jellyfin/Emby/Plex</span><br>
+<span>2. Photo Station/Moments</span><br>
+<span>3. docker上啥都有</span><br>
+<span>问题：</span><br>
+<span>1. 有多少钱办多少事，没必要</span><br>
+<span>2. 四盘位你怕这个？</span><br>
+<span>3. 有钱都好说，没钱那就别想太多</span><br>
+<span>4. 蜗牛好像没怎么听说有翻车的，但是看人品的东西谁也说不准就是了</span><br>
+</p><p><b>shiroamada: </b><br>
+<span>我的毛片已经15t了，考虑要不要删掉几个姐姐的收集</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>1 8t走起，没必要买所谓的nas专用，红盘3t 4t翻车人数众多，要便宜的蹲亚马逊特价就行。</span><br>
+<span>2 没必要，raid is not backup，家用nas把重要资料按321原则做好备份就行。</span><br>
+<span>3 不想折腾可以买qnap，功能能满足你的需求</span><br>
+<span>4 用几年咋说好呢，有人一过保成品nas就坏了，有人低端型号一用就是7 8年。觉得怕坏就自己组呗，部件坏了也方便换。</span><br>
+<span>要稳定别学网上的弄什么all in one就是了。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>john: </b><br>
+<span>cybernetics31 发表于 2020-2-24 12:57</span><br>
+<span>1 8t走起，没必要买所谓的nas专用，红盘3t 4t翻车人数众多，要便宜的蹲亚马逊特价就行。</span><br>
+<span>2 没必要，raid is ...</span><br>
+<span>红盘4T翻车我知道，3T翻了好多人？都在哪？</span><br>
+</p><p><b>董卓: </b><br>
+<span>我HP T610洋垃圾（300元不到）+库存二手笔记本盘，都有跑一年黑裙不用重启</span><br>
+<span>现在进一步直接就拉线外置3.5寸盘了</span><br>
+<span>作为一个洋垃圾佬，回答你的4个问题。</span><br>
+<span>1.原来1t现在换4t，垃圾佬没有必要买nas专用，越便宜越好。重要资料多机备份</span><br>
+<span>2.同上，垃圾佬不需要</span><br>
+<span>3.垃圾佬捡垃圾上黑裙</span><br>
+<span>4.垃圾佬只担心垃圾有没有继续供货，店家有得包换能换，不能换再买2、3个都比你稳定3~5年便宜得多，再说万一3~5年内除了新玩法能用新垃圾了，那不是更开心</span><br>
+</p><p><b>雪影: </b><br>
+<span>蜗牛，香</span><br>
+<span>黑群不要搞二合一</span><br>
+</p><p><b>可防可控: </b><br>
+<span>我6块</span><br>
+<span>5T+4T+4T+3T+2T+1T</span><br>
+<span>全爆</span><br>
+</p><p><b>火烧云: </b><br>
+<span>shiroamada 发表于 2020-2-24 12:52</span><br>
+<span>我的毛片已经15t了，考虑要不要删掉几个姐姐的收集</span><br>
+<span>我愿称你一声黄品源</span><br>
+<span>更新版本就好了为啥要删</span><br>
+</p><p><b>sorayang: </b><br>
+<span>考虑扩展性的话，给机器加带外置SAS口的HBA卡就行，一般都可以级联扩展，最多可以到几百块硬盘，你这辈子是用不完的。</span><br>
+</p><p><b>keytomylife: </b><br>
+<span> 本帖最后由 keytomylife 于 2020-2-24 16:50 编辑 </span><br>
+<span>蜗牛千万不要用那个硬盘背板，直连SATA吧</span><br>
+<span>我是折腾了一大轮什么黑裙什么威联通</span><br>
+<span>最后还是装个1G的精简WIN10开SMB省事</span><br>
+<span>顺带挂个百度网盘 BT播放1080P影片都没什么问题</span><br>
+<span>raid什么的不需要</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>john 发表于 2020-2-24 13:22</span><br>
+<span>红盘4T翻车我知道，3T翻了好多人？都在哪？</span><br>
+<span>chh啊 不少了 一讨论到红盘 说3t翻的也不少 </span><br>
+</p><p><b>紧那罗: </b><br>
+<span>借楼问一下 不选蜗牛和黑裙有别的选择吗...</span><br>
+<span>现在用的gen8装windows server.</span><br>
+<span>gen8感觉硬件有点老了....至少也是4盘位吧</span><br>
+</p><p><b>sorayang: </b><br>
+<span>紧那罗 发表于 2020-2-24 18:09</span><br>
+<span>借楼问一下 不选蜗牛和黑裙有别的选择吗...</span><br>
+<span>现在用的gen8装windows server.</span><br>
+<span>gen8感觉硬件有点老了....至少 ...</span><br>
+<span>我GEN8里挂了9块硬盘</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>sorayang 发表于 2020-2-24 18:30</span><br>
+<span>我GEN8里挂了9块硬盘</span><br>
+<span>我的是micro的那个 只有4盘位.....</span><br>
+</p><p><b>天乃冥: </b><br>
+<span>有台老电脑装win10够呛，想上freenas，不知和黑群有啥区别，后期加硬盘方便麼</span><br>
+<span>—— 来自 smartisan DE106, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>killyu: </b><br>
+<span>蜗牛注意下供电和背板问题，整体还是很香的</span><br>
+</p><p><b>sorayang: </b><br>
+<span>紧那罗 发表于 2020-2-25 08:37</span><br>
+<span>我的是micro的那个 只有4盘位.....</span><br>
+<span>动手折腾下呀，gen8其实很适合搞所谓的allinone</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>shiroamada 发表于 2020-2-23 22:52</span><br>
+<span>我的毛片已经15t了，考虑要不要删掉几个姐姐的收集</span><br>
+<span>小姐姐我倒不收集，现在表番和电影比毛片还难下。</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>小姐姐3t，BDRIP3t左右。</span><br>
+<span>比较麻烦的是BD原盘，和hi-res音乐。如果买nas或者自己组nas，最好4盘位走起。数据无价，我是只买nas盘的，冷备份用的随意。</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>keytomylife 发表于 2020-2-24 16:48</span><br>
+<span>蜗牛千万不要用那个硬盘背板，直连SATA吧</span><br>
+<span>我是折腾了一大轮什么黑裙什么威联通</span><br>
+<span>同蜗牛黑群，正想换WIN10，求个精简WIN10连接！！多谢！</span><br>
+<span>同样只行开个SMB就够了。。</span><br>
+</p><p><b>obeyalsodie: </b><br>
+<span>不懂啊，想下手星际黑群不知道怎么搞靠谱</span><br>
+</p><p><b>john: </b><br>
+<span>cybernetics31 发表于 2020-2-24 18:04</span><br>
+<span>chh啊 不少了 一讨论到红盘 说3t翻的也不少</span><br>
+<span>给链接统计一下</span><br>
+<span>我粗粗搜索了一下，感觉你要是能找出5个说3T翻车的，我就能找出50个说4T翻的</span><br>
+</p><p><b>长末: </b><br>
+<span>john 发表于 2020-2-25 11:19</span><br>
+<span>给链接统计一下</span><br>
+<span>我粗粗搜索了一下，感觉你要是能找出5个说3T翻车的，我就能找出50个说4T翻的 ...</span><br>
+<span>你们不用吵了前几年京东特价红盘3t和4t翻车的都很多，大哥不笑二哥。在我眼里仅次于希捷dm3t</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>长末: </b><br>
+<span>obeyalsodie 发表于 2020-2-25 10:48</span><br>
+<span>不懂啊，想下手星际黑群不知道怎么搞靠谱</span><br>
+<span>不会的话，网上有卖黑群晖引导盘，很便宜四十块不到，全都做好了，插到usb口上开机就可以引导了。</span><br>
+<span>动手能力强就可以剩下来</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>sola_gaigaigai 发表于 2020-2-25 10:46</span><br>
+<span>同蜗牛黑群，正想换WIN10，求个精简WIN10连接！！多谢！</span><br>
+<span>同样只行开个SMB就够了。。 ...</span><br>
+<span>Win10-LTSB-X64-Geek-MINI</span><br>
+<span>我这个还是2016的</span><br>
+<span>你可以去找一下2019的</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>keytomylife 发表于 2020-2-25 11:59</span><br>
+<span>Win10-LTSB-X64-Geek-MINI</span><br>
+<span>我这个还是2016的</span><br>
+<span>你可以去找一下2019的</span><br>
+<span>搜到个2018版的，下来试试，这个装完占多少？蜗牛自带的16G够用吧？</span><br>
+</p><p><b>keytomylife: </b><br>
+<span> 本帖最后由 keytomylife 于 2020-2-25 12:24 编辑 </span><br>
+<span>sola_gaigaigai 发表于 2020-2-25 12:08</span><br>
+<span>搜到个2018版的，下来试试，这个装完占多少？蜗牛自带的16G够用吧？</span><br>
+<span>2018的就是这个0.98G</span><br>
+<span>2019是指LTSB 2019</span><br>
+<span>禁虚拟内存装完还有8G还是9G</span><br>
+<span>我装好常用软件还有6G剩</span><br>
+</p><p><b>john: </b><br>
+<span>长末 发表于 2020-2-25 11:39</span><br>
+<span>你们不用吵了前几年京东特价红盘3t和4t翻车的都很多，大哥不笑二哥。在我眼里仅次于希捷dm3t</span><br>
+<span>— ...</span><br>
+<span>说话要讲证据，我来扔证据了</span><br>
+<span>在CHH用百度分别搜 红盘 3T 和 红盘 4T，取前三页的帖子，每个记录发帖ID以免重复统计，看得出说的是多大型号的统计在内，看不出的不算</span><br>
+<span>4T一共 95片坏，3T一共10片坏，大哥不笑二哥？差一个数量级这也平辈？</span><br>
+<span>CHH里面那么多受害者有好几位都总结了4T红盘不能买，也有一杆子打死说红盘不能买的，从来没有人说3T红盘不能买的</span><br>
+<span>4T</span><br>
+<span>https://www.chiphell.com/thread-1850190-1-1.html</span><br>
+<span>020 3pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=38919871</span><br>
+<span>jimmystar 6pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=38922819</span><br>
+<span>voandrew 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=38961492</span><br>
+<span>uzii 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=40697249</span><br>
+<span>aloness 4pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=40700113</span><br>
+<span>surfwave 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=40705228</span><br>
+<span>nickywin 6pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=41376723</span><br>
+<span>久坐花落多 3pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=41379045</span><br>
+<span>深圳老胡 1pc</span><br>
+<span>https://www.chiphell.com/thread-1450563-1-1.html</span><br>
+<span>doufuguo 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 450563&pid=31766425</span><br>
+<span>leavelost 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 450563&pid=31768325</span><br>
+<span>ssz999 1pc?</span><br>
+<span>https://www.chiphell.com/thread-1675988-1-1.html</span><br>
+<span>Ptobear 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31197058</span><br>
+<span>zimuqingyang 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31201806</span><br>
+<span>daimail 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31203342</span><br>
+<span>robots1990 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31205409</span><br>
+<span>crcrane 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31229167</span><br>
+<span>oolong 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 398075&pid=31265068</span><br>
+<span>xtumu 1pc</span><br>
+<span>https://www.chiphell.com/thread-1663489-1-1.html</span><br>
+<span>Tsm 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34971977</span><br>
+<span>woodsheep 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34975313</span><br>
+<span>阿财 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34975849</span><br>
+<span>against 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34976243</span><br>
+<span>kanjia 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34982972</span><br>
+<span>lovedaxiang 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34983726</span><br>
+<span>jambol 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=34986661</span><br>
+<span>xust 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 663489&pid=35249124</span><br>
+<span>oscarxie 1pc</span><br>
+<span>https://www.chiphell.com/thread-1308033-1-1.html</span><br>
+<span>delldg 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 308033&pid=29178176</span><br>
+<span>imtida 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 308033&pid=29178292</span><br>
+<span>crcrane 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 308033&pid=29189152</span><br>
+<span>alumnium 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 308033&pid=29199239</span><br>
+<span>huanfu6 1pc</span><br>
+<span>https://www.chiphell.com/thread-1520156-1-1.html</span><br>
+<span>jyq200 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 520156&pid=32233109</span><br>
+<span>ioricool1314 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 520156&pid=32248619</span><br>
+<span>bearxm 1pc</span><br>
+<span>https://www.chiphell.com/thread-1677485-1-1.html</span><br>
+<span>无敌恐龙 2pc</span><br>
+<span>https://www.chiphell.com/forum.php?mod=viewthread&tid=1773086</span><br>
+<span>tinybaby 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 773086&pid=37263585</span><br>
+<span>LunaSea 8pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 773086&pid=37266532</span><br>
+<span>sega2 1pc</span><br>
+<span>https://www.chiphell.com/thread-1272890-1-1.html</span><br>
+<span>pennylei_ch 1pc</span><br>
+<span>https://www.chiphell.com/thread-1516133-1-1.html</span><br>
+<span>liese 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 516133&pid=32761863</span><br>
+<span>chazikai24 1pc</span><br>
+<span>https://www.chiphell.com/thread-1450563-1-1.html</span><br>
+<span>doufuguo 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=37000401</span><br>
+<span>joshuaily 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=37188698</span><br>
+<span>tddxldp 6pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=37871694</span><br>
+<span>k-777 3pc?</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=38030714</span><br>
+<span>james_join 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=38032528</span><br>
+<span>seigai 1pc</span><br>
+<span>3T</span><br>
+<span>https://www.chiphell.com/forum.php?mod=redirect&goto=findpost&ptid=1663489&pid=34999068</span><br>
+<span>liu1985 2pc?</span><br>
+<span>https://www.chiphell.com/forum.p ... 317308&pid=29386989</span><br>
+<span>enuma0 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 516133&pid=32233727</span><br>
+<span>liese 2pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 850190&pid=38922819</span><br>
+<span>voandrew 2pc</span><br>
+<span>https://www.chiphell.com/thread-1170808-1-1.html</span><br>
+<span>zibo2002 1pc</span><br>
+<span>https://www.chiphell.com/thread-1706318-1-1.html</span><br>
+<span>wuyq_1981 1pc</span><br>
+<span>https://www.chiphell.com/forum.p ... 761172&pid=36977206</span><br>
+<span>amike 1pc</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>sorayang 发表于 2020-2-25 09:35</span><br>
+<span>动手折腾下呀，gen8其实很适合搞所谓的allinone</span><br>
+<span>你剩下5块挂的都是ssd吗</span><br>
+<span>我只改了光驱位挂ssd装系统 再魔改下去感觉意义不大了吧 硬件有点老了主板又不好换</span><br>
+</p><p><b>sorayang: </b><br>
+<span>紧那罗 发表于 2020-2-25 14:58</span><br>
+<span>你剩下5块挂的都是ssd吗</span><br>
+<span>我只改了光驱位挂ssd装系统 再魔改下去感觉意义不大了吧 硬件有点老了主板又不 ...</span><br>
+<span>宿主、虚拟机、下载盘是SSD，剩下是3块1T机械做的3盘镜像放我觉得比较重要的东西。</span><br>
+<span>其实本来就是用的以前淘汰下来的旧零件。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>john 发表于 2020-2-25 14:13</span><br>
+<span>说话要讲证据，我来扔证据了</span><br>
+<span>在CHH用百度分别搜 红盘 3T 和 红盘 4T，取前三页的帖子，每个记录发帖ID以 ...</span><br>
+<span>我去 看来我这对红盘3t确实是印象流了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915411[0-50]</guid>
+    </item>
+  </channel>
+</rss>

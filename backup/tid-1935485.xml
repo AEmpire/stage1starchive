@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>数毛社的虚幻五demo分析</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>数毛社的虚幻五demo分析</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:50:14 +0000</lastBuildDate>
+    <item>
+      <title>数毛社的虚幻五demo分析[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1935485-1-1.html</link>
+      <description>数毛社的虚幻五demo分析&#13;
+中字:https://b23.tv/vxo3bX
+
+原视频:https://www.youtube.com/watch?v=iIDzZJpDlpA</description>
+      <content:encoded><![CDATA[<p><b>医生狼多: </b><br>
+<span>数毛社的虚幻五demo分析</span><br>
+<span>中字:https://b23.tv/vxo3bX</span><br>
+<span>原视频:https://www.youtube.com/watch?v=iIDzZJpDlpA</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2020-5-17 15:14 编辑 </span><br>
+<span>DF这期质量挺高的。顺便说说我的一些想法：</span><br>
+<span>几处来源都表明Lumen的scene representation是voxel，这总是不禁让人想起NVIDIA当年推过的VXGI：</span><br>
+<span>https://developer.nvidia.com/vxgi</span><br>
+<span>现在VXGI的demo仍然可以下载。在UE5的demo这样漫反射为主的场景感觉观感有些类似。当时因为许多问题VXGI相关技术并没有很广泛的运用，现在老黄推直接在三角形上进行RT的年代来看略有过时，但对于硬件性能较弱的主机来说或许还有利用的空进。另外略微有些类似的还有曾经Pixar用在Renderman里的PBGI，用surfels代替等等，都是用稀疏场景简化light transportation的方法。</span><br>
+<span>视频说用了屏幕空间信息：所谓屏幕空间信息就是最后的那几个buffer：RGBA，Z，G等等。就算GI不用开了AO也要用。视频猜测有illumination cache还是观察得很仔细的，不逐帧看还真看不出来。总体上说Lumen在理解范围之内，因为还有很多对动态几何或植被、毛发表现空间的猜测。</span><br>
+<span>但海量三角形的技术是有点革新的味道。关于阴影视频里说了很多了。关于海量三角形无LOD渲染，个人猜测可能用了Raycasting剔除：Raycasting剔除的意思是从camera像素平面发射光线打入场景，只渲染有交点的三角形，剔除其他三角形（光照和阴影另外用其他的scene representation计算）。这样可以从十几亿减少到像素平面的数百万。稍微计算一下一次光追剔除的时间：2K分辨率是414万像素，对于一个10T硬件的软光追（用Aila kernel）在高复杂场景下大约是600mrays/s，保守一点按照414million rays/s，414万剔除光线返回triangle ID所需时间是10毫秒。对于30帧游戏每帧33毫秒的budget来说占比确实有点大，但如果能实现这种效果可能也会用。但问题在于这里没有超采样，如果一个像素包含多个三角形信息的情况下就不好用了。如果每个像素乘4的超采样，剔除需要40毫秒，可能必须上硬件光追才行，或者用hierarchical或者stochastic的方法近似实现。无论如何过段时间就知道具体实现了，这里先瞎蒙一个。</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>转两篇顾老师的文章好了</span><br>
+<span>https://mp.weixin.qq.com/s/TinFbTmmQI_VCOHvu43Rqg</span><br>
+<span>https://mp.weixin.qq.com/s/Q2QsZsQhCLGCmvonQfhl2Q</span><br>
+</p><p><b>断翼: </b><br>
+<span>这篇料更足</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2020-unreal-engine-5-playstation-5-tech-demo-analysis</span><br>
+</p><p><b>FMIC: </b><br>
+<span>不懂图形技术，这个高模根据分辨率比例选择渲染面数，选择的过程性能开销不大吗。传统过程是人工制作几个不同面数的版本，他把这些重复劳动丢给引擎实时地、无级变化地进行，在CGI领域性能开销是怎么样的。</span><br>
+</p><p><b>剑起苍斓: </b><br>
+<span>底下评论那个育碧 PS4开发机的事真的假的？一般来说开发机不都是早期，性能往往比零售还差，也就风扇使劲怼了</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>好像不用光追硬件就能实现很好的光照效果</span><br>
+</p><p><b>aceralon: </b><br>
+<span>剑起苍斓 发表于 2020-5-17 17:46</span><br>
+<span>底下评论那个育碧 PS4开发机的事真的假的？一般来说开发机不都是早期，性能往往比零售还差，也就风扇使劲怼 ...</span><br>
+<span>开发机一般稍微好点吧</span><br>
+<span>—— 来自 OPPO PCLM10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>这还能和顾老师的共形几何扯上关系</span><br>
+<span>之前看了一点顾老师的课程被mindfuck了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1935485[0-50]</guid>
+    </item>
+  </channel>
+</rss>

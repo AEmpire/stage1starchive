@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个excel的基础操作方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个excel的基础操作方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:36:26 +0000</lastBuildDate>
+    <item>
+      <title>问个excel的基础操作方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910656-1-1.html</link>
+      <description>问个excel的基础操作方法&#13;
+假设有A-Z26种不同的项目，每个项目的数量不一样，而且顺序是乱的，表格内打开的样子大概是这样的：
+&#13;
+A
+&#13;
+B
+&#13;
+A
+&#13;
+A
+&#13;
+C
+&#13;
+F
+&#13;
+G
+&#13;
+Q
+&#13;
+Q
+&#13;
+A
+&#13;
+……
+&#13;
+A
+&#13;
+C 
+&#13;
+现在的要求是，将这几百个项目按照每个项目的数量多少进行排序，具体该如何操作？应该是很基础的excel操作</description>
+      <content:encoded><![CDATA[<p><b>twwa17: </b><br>
+<span>问个excel的基础操作方法</span><br>
+<span>假设有A-Z26种不同的项目，每个项目的数量不一样，而且顺序是乱的，表格内打开的样子大概是这样的：</span><br>
+<span>A</span><br>
+<span>B</span><br>
+<span>A</span><br>
+<span>A</span><br>
+<span>C</span><br>
+<span>F</span><br>
+<span>G</span><br>
+<span>Q</span><br>
+<span>Q</span><br>
+<span>A</span><br>
+<span>……</span><br>
+<span>A</span><br>
+<span>C </span><br>
+<span>现在的要求是，将这几百个项目按照每个项目的数量多少进行排序，具体该如何操作？应该是很基础的excel操作</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>透视表+计数+辅助列输入计数+辅助列降序</span><br>
+</p><p><b>sorayang: </b><br>
+<span>在旁边加一个countif统计前一列然后手动排一下就行了。</span><br>
+</p><p><b>doraemon0711: </b><br>
+<span>加一列count，再将这列排序</span><br>
+<span>a12</span><br>
+<span>b4</span><br>
+<span>c32</span><br>
+<span>b4</span><br>
+<span>.</span><br>
+<span>.</span><br>
+<span>.</span><br>
+<span>a12</span><br>
+</p><p><b>cegsm01: </b><br>
+<span>countif记一下数，然后排序计数</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>libratest: </b><br>
+<span>加一个辅助计算列再排序</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910656[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农请进 求教</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农请进 求教</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:53:28 +0000</lastBuildDate>
+    <item>
+      <title>码农请进 求教[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857564-1-1.html</link>
+      <description>码农请进 求教&#13;
+#include &lt;iostream&gt;
+&#13;
+#include &lt;ctime&gt;
+&#13;
+using namespace std;
+&#13;
+int main(int argc, char *argv[]) {
+&#13;
+    clock_t start, end;
+&#13;
+    int i = 0;
+&#13;
+    int num = 0;
+&#13;
+    start = clock();
+&#13;
+    for (i = 0; i &lt; 1000000000; i++) {
+&#13;
+      num = 123 % 100 / 10 * 10; 
+&#13;
+    }
+&#13;
+    end = clock();
+&#13;
+    cout &lt;&lt; "run time is " &lt;&lt; (double)(end - start) / CLOCKS_PER_SEC &lt;&lt; "s." &lt;&lt; endl;
+&#13;
+    start = clock();
+&#13;
+    for (i = 0; i &lt; 1000000000; i++) {
+&#13;
+      num = 123 / 10 % 10 * 10; 
+&#13;
+    }
+&#13;
+    end = clock();
+&#13;
+    cout &lt;&lt; "run time is " &lt;&lt; (double)(end - start) / CLOCKS_PER_SEC &lt;&lt; "s." &lt;&lt; endl;
+&#13;
+    return 0;
+&#13;
+};
+&#13;
+num = 123 % 100 / 10 * 10 = 123 / 10 % 10 * 10 = 20
+&#13;
+结果一样 为什么下面这种的算法比较慢？为什么？？？</description>
+      <content:encoded><![CDATA[<p><b>琉璃瓶: </b><br>
+<span>码农请进 求教</span><br>
+<span>#include <iostream></span><br>
+<span>#include <ctime></span><br>
+<span>using namespace std;</span><br>
+<span>int main(int argc, char *argv[]) {</span><br>
+<span>    clock_t start, end;</span><br>
+<span>    int i = 0;</span><br>
+<span>    int num = 0;</span><br>
+<span>    start = clock();</span><br>
+<span>    for (i = 0; i < 1000000000; i++) {</span><br>
+<span>      num = 123 % 100 / 10 * 10; </span><br>
+<span>    }</span><br>
+<span>    end = clock();</span><br>
+<span>    cout << "run time is " << (double)(end - start) / CLOCKS_PER_SEC << "s." << endl;</span><br>
+<span>    start = clock();</span><br>
+<span>    for (i = 0; i < 1000000000; i++) {</span><br>
+<span>      num = 123 / 10 % 10 * 10; </span><br>
+<span>    }</span><br>
+<span>    end = clock();</span><br>
+<span>    cout << "run time is " << (double)(end - start) / CLOCKS_PER_SEC << "s." << endl;</span><br>
+<span>    return 0;</span><br>
+<span>};</span><br>
+<span>num = 123 % 100 / 10 * 10 = 123 / 10 % 10 * 10 = 20</span><br>
+<span>结果一样 为什么下面这种的算法比较慢？为什么？？？</span><br>
+</p><p><b>大巴车司机: </b><br>
+<span>跨版发帖？</span><br>
+</p><p><b>jctc: </b><br>
+<span>把你的输出结果拿来看看</span><br>
+<span>反正我这里是一样的</span><br>
+<span>顺便你如果加优化，两个耗时都是0</span><br>
+</p><p><b>jctc: </b><br>
+<span>你要是加-O2优化，那两个循环都被优化掉了</span><br>
+<span>如果是-O0优化，那就是等号右边的表达式预先算好保存在栈中，然后不停赋值</span><br>
+<span>所以怎么都一样</span><br>
+</p><p><b>琉璃瓶: </b><br>
+<span>jctc 发表于 2019-10-3 07:27</span><br>
+<span>把你的输出结果拿来看看</span><br>
+<span>反正我这里是一样的</span><br>
+<span>顺便你如果加优化，两个耗时都是0 ...</span><br>
+<span>run time is 2.16975s.</span><br>
+<span>run time is 2.18995s.</span><br>
+<span>run time is 2.15815s.</span><br>
+<span>run time is 2.25375s.</span><br>
+<span>其实这个问题是LintCode 37 反转一个3位整数 遇到的。</span><br>
+</p><p><b>extended: </b><br>
+<span>我用https://www.onlinegdb.com/online_c++_compiler#跑的结果是第二个快。</span><br>
+<span>1000000000次的结果加起来就差个0.1秒左右基本就是误差范围了。</span><br>
+</p><p><b>にまぴ: </b><br>
+<span>大巴车司机 发表于 2019-10-3 07:27</span><br>
+<span>跨版发帖？</span><br>
+<span>没有码农版吧？</span><br>
+</p><p><b>martinium: </b><br>
+<span>楼主你把两种方法分开跑多跑几次看看？我觉得你说的效率就是随机误差啊</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>琉璃瓶: </b><br>
+<span> 本帖最后由 琉璃瓶 于 2019-10-3 08:22 编辑 </span><br>
+<span>jctc 发表于 2019-10-3 07:32</span><br>
+<span>你要是加-O2优化，那两个循环都被优化掉了</span><br>
+<span>如果是-O0优化，那就是等号右边的表达式预先算好保存在栈中，然 ...</span><br>
+<span>谢谢回答。 感觉知道问题在哪了。</span><br>
+<span>根据这个大哥的解说</span><br>
+<span>我修改了代码</span><br>
+<span>结果是</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 3e-06s.</span><br>
+<span>run time is 1e-06s.</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 1e-06s.</span><br>
+<span>run time is 3e-06s.</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 0s.</span><br>
+<span>run time is 2e-06s.</span><br>
+<span>run time is 1e-06s.所以真的是……</span><br>
+</p><p><b>大巴车司机: </b><br>
+<span>にまぴ 发表于 2019-10-3 07:52</span><br>
+<span> 没有码农版吧？</span><br>
+<span>有数码版啊，我几个求助帖全被删了，问管理员就说码农问题发外野算跨版</span><br>
+</p><p><b>琉璃瓶: </b><br>
+<span> 本帖最后由 琉璃瓶 于 2019-10-3 08:10 编辑 </span><br>
+<span>martinium 发表于 2019-10-3 07:55</span><br>
+<span>楼主你把两种方法分开跑多跑几次看看？我觉得你说的效率就是随机误差啊</span><br>
+<span>— from Google Pixel 2, Android...</span><br>
+<span>用另一种就是10ms过。所以搞不懂。</span><br>
+</p><p><b>martinium: </b><br>
+<span>琉璃瓶 发表于 2019-10-3 08:04</span><br>
+<span>用另一种就是10ms过。所以搞不懂。</span><br>
+<span>这种在线编译的时间不用当真，我分开试了10次左右，两者内有任何区别都存在0.6%左右的误差。</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>jctc: </b><br>
+<span>琉璃瓶 发表于 2019-10-3 08:04</span><br>
+<span>用另一种就是10ms过。所以搞不懂。</span><br>
+<span>你为什么不写成这样的</span><br>
+<span>std::stringstream ss;</span><br>
+<span>ss<<number;</span><br>
+<span>std::string res;</span><br>
+<span>ss>>res;</span><br>
+<span>std::reverse(std::begin(res), std::end(res));</span><br>
+<span>return std::stoi(res);</span><br>
+<span>多好啊</span><br>
+</p><p><b>DolphinAlpha: </b><br>
+<span>看下汇编不就知道了</span><br>
+</p><p><b>脑洞: </b><br>
+<span>你猜改成num=20会运行多久</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>建议objdump</span><br>
+</p><p><b>VLDB: </b><br>
+<span>主楼5%差别是运行时误差</span><br>
+</p><p><b>琉璃瓶: </b><br>
+<span>jctc 发表于 2019-10-3 09:21</span><br>
+<span>你为什么不写成这样的</span><br>
+<span>std::stringstream ss;</span><br>
+<span> 让我思考一下人生……</span><br>
+</p><p><b>jctc: </b><br>
+<span>琉璃瓶 发表于 2019-10-3 13:30</span><br>
+<span>让我思考一下人生……</span><br>
+<span>妈个臀，为什么会这样……</span><br>
+</p><p><b>kumh: </b><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>君往何处: </b><br>
+<span>有些测试平台计算的是程序整体运行时间，包括读入和输出数据</span><br>
+</p><p><b>oopsoops: </b><br>
+<span>c++ 流式输入就是强啊</span><br>
+<span>不过上次碰到这个题用python写的直接返回了int(str(number)[::-1])也打败了99%的运行时间</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857564[0-50]</guid>
+    </item>
+  </channel>
+</rss>

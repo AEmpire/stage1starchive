@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么这图片的比例不对？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么这图片的比例不对？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:48:00 +0000</lastBuildDate>
+    <item>
+      <title>为什么这图片的比例不对？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839338-1-1.html</link>
+      <description>为什么这图片的比例不对？&#13;
+ 本帖最后由 shamal0324 于 2019-6-14 04:24 编辑 
+
+http://ww1.sinaimg.cn/large/779f3f1aly1g405zdspslj23342bc4qt.jpg
+&#13;
+http://ww1.sinaimg.cn/large/779f3f1aly1g406kn52slj20tn0h9wn4.jpg
+&#13;
+小米相机拍摄，用小米云下载到本地，用win10默认的图片软件打开，是竖着的，用win10默认的图片软件编辑旋转，弄成横着的了，上传到新浪微博图床，居然还是竖着的，用QQ影像打开另存为，再上传新浪微博图床，总算是正的了。求教这是怎么回事orz</description>
+      <content:encoded><![CDATA[<p><b>shamal0324: </b><br>
+<span>为什么这图片的比例不对？</span><br>
+<span> 本帖最后由 shamal0324 于 2019-6-14 04:24 编辑 </span><br>
+<img src="http://ww1.sinaimg.cn/large/779f3f1aly1g405zdspslj23342bc4qt.jpg" title="http://ww1.sinaimg.cn/large/779f3f1aly1g405zdspslj23342bc4qt.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/779f3f1aly1g406kn52slj20tn0h9wn4.jpg" title="http://ww1.sinaimg.cn/large/779f3f1aly1g406kn52slj20tn0h9wn4.jpg"><br>
+<span>小米相机拍摄，用小米云下载到本地，用win10默认的图片软件打开，是竖着的，用win10默认的图片软件编辑旋转，弄成横着的了，上传到新浪微博图床，居然还是竖着的，用QQ影像打开另存为，再上传新浪微博图床，总算是正的了。求教这是怎么回事orz</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>EXIF orientation tag</span><br>
+</p><p><b>shamal0324: </b><br>
+<span>ekdc11 发表于 2019-6-14 04:26</span><br>
+<span>EXIF orientation tag</span><br>
+<span>大致查了一下，知道是怎么一回事了，有什么软件可以批量旋转并修改这个orientation tag的吗？</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>shamal0324 发表于 2019-6-14 08:54</span><br>
+<span>大致查了一下，知道是怎么一回事了，有什么软件可以批量旋转并修改这个orientation tag的吗？ ...</span><br>
+<span>FastStone Photo Resizer</span><br>
+<span>根据情况你可以批量去掉 EXIF 信息，然后使用里面的旋转。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839338[0-50]</guid>
+    </item>
+  </channel>
+</rss>

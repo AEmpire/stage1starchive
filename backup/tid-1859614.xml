@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问有哪些内核是5.0以上的linux发行版？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问有哪些内核是5.0以上的linux发行版？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:40:22 +0000</lastBuildDate>
+    <item>
+      <title>请问有哪些内核是5.0以上的linux发行版？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859614-1-1.html</link>
+      <description>请问有哪些内核是5.0以上的linux发行版？&#13;
+最近想在工控机赶个时髦玩linux，上linux内核官网看了下最新稳定版是5.3.x
+&#13;
+下了个ubuntu18.04.3桌面版装到普通pc上，内核是5.0，手工升级到5.3，完了想想如果能安装成不带桌面只用控制台就省点空间了。
+&#13;
+我对linux不是很熟悉，运营只用centos，开发偶尔也用ubuntu，其他就没碰过，请问各位大佬知道哪些发行版内核是5.0或以上的吗？
+&#13;
+我想都装来试试看，主要是要考虑空间装工控机上</description>
+      <content:encoded><![CDATA[<p><b>优秀: </b><br>
+<span>请问有哪些内核是5.0以上的linux发行版？</span><br>
+<span>最近想在工控机赶个时髦玩linux，上linux内核官网看了下最新稳定版是5.3.x</span><br>
+<span>下了个ubuntu18.04.3桌面版装到普通pc上，内核是5.0，手工升级到5.3，完了想想如果能安装成不带桌面只用控制台就省点空间了。</span><br>
+<span>我对linux不是很熟悉，运营只用centos，开发偶尔也用ubuntu，其他就没碰过，请问各位大佬知道哪些发行版内核是5.0或以上的吗？</span><br>
+<span>我想都装来试试看，主要是要考虑空间装工控机上</span><br>
+</p><p><b>obiy: </b><br>
+<span>manjaro</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>不带桌面只带tty，点名arch呀</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>lfs？</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>优秀: </b><br>
+<span>多谢各位，这两天我就挨个下载来试试看</span><br>
+</p><p><b>linux40: </b><br>
+<span>distrowatch</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>原味arch调教一次太麻烦了，你们真是好心情</span><br>
+</p><p><b>distrowatch: </b><br>
+<span>感觉用地沟油fedora好点，方便你从cent换</span><br>
+</p><p><b>starrlit: </b><br>
+<span>ubuntu 不是有 server 版么，直接装 server 版啊。</span><br>
+<span>另外 tuna 和 ustc 除了apt/yum 源之外也有主流发行版的 iso 可以下载，比官网快很多，推荐从那里下</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qqdragon: </b><br>
+<span>centos 7升级到5x ml直接xfs出错了 233</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>debian装完直升unstable，一般落后一个小数点</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>alpine,很小很节约。 gentoo，据说也比较小巧。</span><br>
+</p><p><b>Hieda: </b><br>
+<span> 本帖最后由 Hieda 于 2019-10-16 13:44 编辑 </span><br>
+<span>你看我签名</span><br>
+<span>至于麻不麻烦的问题，我觉得第一次可以说对于啥也不懂的人来讲麻烦，第二次开始就不是了</span><br>
+<span>因为linux脚本化安装过程需要的技术含量基本等于0，第一次搞定之后以后都是curl自己脚本一跑就完事了，也可以自己打个archiso</span><br>
+<span>软件配置更加是git repo一拉下来脚本一跑就完事，注意维护自己配置的话做到任意发行版+macos全兼容也不难，我同一套配置在自己的arch和mbp还有云端arch和centos全在用</span><br>
+<span>这俩过程加一起顶多10条命令</span><br>
+<span>而用户友好开箱即用的win</span><br>
+</p><p><b>happydog: </b><br>
+<span>处男鉴黄师 发表于 2019-10-16 01:01</span><br>
+<span>alpine,很小很节约。 gentoo，据说也比较小巧。</span><br>
+<span>同支持alpine，docker都用它</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859614[0-50]</guid>
+    </item>
+  </channel>
+</rss>

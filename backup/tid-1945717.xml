@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Just Dance 2020网络太卡以至于玩不了会员歌曲的问题解决笔记</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Just Dance 2020网络太卡以至于玩不了会员歌曲的问题解决笔记</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:32 +0000</lastBuildDate>
+    <item>
+      <title>Just Dance 2020网络太卡以至于玩不了会员歌曲的问题解决笔记[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945717-1-1.html</link>
+      <description>Just Dance 2020网络太卡以至于玩不了会员歌曲的问题解决笔记&#13;
+写一下希望能帮助到有相同困扰的坛友，也欢迎讨论
+&#13;
+家里宽带是中国电信，开了Ulitimate会员后基本跳不了会员歌曲，加载缓慢，AV画质，跳一分多钟就掉线，甚至Allstar模式都不是秒进，需要进游戏两分多钟后才显示开启
+&#13;
+PLAN A：修改NS网关设置，连接到LEDE旁路由上，将旁路由上的V2瑞设置为NS全局魔法上网
+&#13;
+结果：能跳，但是还是卡，并且AV画质，偶尔掉线
+&#13;
+思考：我的V2瑞线路是用TLS+WS混淆加密的GCP服务器，平时看油管4k没问题，但是可能是V2瑞+TLS+WS的情况下UDP转发会有问题，因为之前马车8这么干无法联机，在github上问作者没有回复
+&#13;
+PLAN B：用AC88U自带的网易UU加速器将NS设置为加速，加速模式选择JUST DANCE 2020
+&#13;
+结果：能跳，高清画质，偶尔卡，但是不稳定，时不时抽风狂卡而且掉线，或者昨天没问题但是今天就卡，重启情况就会改善但是很烦
+&#13;
+思考：加速器的原理估计是把流量劫持到网易的服务器线路上，但是具体连接的CDN服务器取决于节点服务器和它的解析结果，情况比较复杂，可能就出现不稳定的状况，但是NS的DNS解析缓存并不能像手机一样每次连接网路的时候就重置，似乎只能靠重启重置
+&#13;
+PLAN C：用AC88U自带的网易UU加速器将NS设置为加速，加速模式选择Switch全平台加速
+&#13;
+结果：没问题了
+&#13;
+思考：大自然真TM神奇……</description>
+      <content:encoded><![CDATA[<p><b>werone: </b><br>
+<span>Just Dance 2020网络太卡以至于玩不了会员歌曲的问题解决笔记</span><br>
+<span>写一下希望能帮助到有相同困扰的坛友，也欢迎讨论</span><br>
+<span>家里宽带是中国电信，开了Ulitimate会员后基本跳不了会员歌曲，加载缓慢，AV画质，跳一分多钟就掉线，甚至Allstar模式都不是秒进，需要进游戏两分多钟后才显示开启</span><br>
+<span>PLAN A：修改NS网关设置，连接到LEDE旁路由上，将旁路由上的V2瑞设置为NS全局魔法上网</span><br>
+<span>结果：能跳，但是还是卡，并且AV画质，偶尔掉线</span><br>
+<span>思考：我的V2瑞线路是用TLS+WS混淆加密的GCP服务器，平时看油管4k没问题，但是可能是V2瑞+TLS+WS的情况下UDP转发会有问题，因为之前马车8这么干无法联机，在github上问作者没有回复</span><br>
+<span>PLAN B：用AC88U自带的网易UU加速器将NS设置为加速，加速模式选择JUST DANCE 2020</span><br>
+<span>结果：能跳，高清画质，偶尔卡，但是不稳定，时不时抽风狂卡而且掉线，或者昨天没问题但是今天就卡，重启情况就会改善但是很烦</span><br>
+<span>思考：加速器的原理估计是把流量劫持到网易的服务器线路上，但是具体连接的CDN服务器取决于节点服务器和它的解析结果，情况比较复杂，可能就出现不稳定的状况，但是NS的DNS解析缓存并不能像手机一样每次连接网路的时候就重置，似乎只能靠重启重置</span><br>
+<span>PLAN C：用AC88U自带的网易UU加速器将NS设置为加速，加速模式选择Switch全平台加速</span><br>
+<span>结果：没问题了</span><br>
+<span>思考：大自然真TM神奇……</span><br>
+</p><p><b>byisme001: </b><br>
+<span>千言万语汇成一句开加速器</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>plan a说的是自己搭的v2？那完全没有可比性呀。。。而且几乎不需要考虑，自己搭还不如机场的线路呢，我现在用的是机场的线路，路由器挂上妥妥的nat a，但是平常不怎么跳just dance，也没具体测试过效果，应该不如加速器。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>我专门搞了三个vps，tentcent-深圳、gcp-hk和oracle-kr来加速ns，挂的是ss+ws+tls，padavan开全局+udp</span><br>
+<span>nat A，马车喷喷捡树枝都没问题，下更新东西也快</span><br>
+</p><p><b>chenyuhao467: </b><br>
+<span>我是浙江电信，直接只用网易uu的，没搞别的。</span><br>
+<span>直接用uu的switch通用加速，选择香港线路，游玩过程非常顺畅，加载很快，从不卡顿。</span><br>
+<span>我之前试过switch通用 东京线，好像连都连不上，而just dance专用加速的加载速度非常捉急。</span><br>
+</p><p><b>werone: </b><br>
+<span>chenyuhao467 发表于 2020-7-5 17:57</span><br>
+<span>我是浙江电信，直接只用网易uu的，没搞别的。</span><br>
+<span>直接用uu的switch通用加速，选择香港线路，游玩过程非常顺畅 ...</span><br>
+<span>是，不知道这个JD2020的专线要来何用</span><br>
+<span>—— 来自 vivo NEX S, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945717[0-50]</guid>
+    </item>
+  </channel>
+</rss>

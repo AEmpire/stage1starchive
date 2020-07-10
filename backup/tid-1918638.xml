@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>EVRCP渲染器的输出范围到底哪个是对的</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>EVRCP渲染器的输出范围到底哪个是对的</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:28:57 +0000</lastBuildDate>
+    <item>
+      <title>EVRCP渲染器的输出范围到底哪个是对的[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918638-1-1.html</link>
+      <description>EVRCP渲染器的输出范围到底哪个是对的&#13;
+连接的显示器 N卡驱动桌面设置完全动态范围   视频由播放器决定
+&#13;
+选择0-255    黑阶的测试视频反到看不到16以下
+&#13;
+选择16-235   可以看到全黑阶   和我想的刚好反过来啥情况</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>EVRCP渲染器的输出范围到底哪个是对的</span><br>
+<span>连接的显示器 N卡驱动桌面设置完全动态范围   视频由播放器决定</span><br>
+<span>选择0-255    黑阶的测试视频反到看不到16以下</span><br>
+<span>选择16-235   可以看到全黑阶   和我想的刚好反过来啥情况</span><br>
+</p><p><b>两个路人: </b><br>
+<span>O_O截图看显示器黑阶是不是搞错了什么？LZ倒不如先明确一下什么显示设备，连接方式，播放器和测试视频（摊手</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2020-3-13 17:01 编辑 </span><br>
+<span>用拾色器试了下，图一确实从1-16列都是灰度0，图二则是正常的递增灰度1-24</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>两个路人 发表于 2020-3-13 16:45</span><br>
+<span>O_O截图看显示器黑阶是不是搞错了什么？LZ倒不如先明确一下什么显示设备，连接方式，播放器和测试视频（摊 ...</span><br>
+<span>我这个是看视频播放黑阶是否正确    不是看显示器本身的黑阶能力</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>视频也可能就是按16-235压的</span><br>
+</p><p><b>ft5555: </b><br>
+<span>n卡的话 驱动里设0~255肯定没错</span><br>
+</p><p><b>wfm: </b><br>
+<span>0-255正确</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>我算是弄明白了      并且配合madvr做了验证</span><br>
+<span>显示器模式默认0-255显示 并且不可修改</span><br>
+<span>影响视频黑阶显示的就是播放软件和显卡设置</span><br>
+<span>显示器0-255    播放软件和显卡设置正确出来的就是1画面    只能看到16以上的部分</span><br>
+<span>如果看到2画面 说明输出范围不匹配 是错误的画面</span><br>
+<span>之前以为全动态范围能看到视频黑阶更多是错误的想法</span><br>
+</p><p><b>downforce: </b><br>
+<span>专业的谈谈0～255，16～235的产生和历史及合理设置，专业叫法Y/C伸张压缩</span><br>
+<span>https://blog.csdn.net/xiaoyafang123/article/details/81903191</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2020-3-13 22:18 编辑 </span><br>
+<span>视频全范围+显示设备全范围=什么也不用做</span><br>
+<span>视频限制范围+显示设备限制范围=什么也不用做</span><br>
+<span>视频全范围+显示设备限制范围=做Y/C压缩</span><br>
+<span>视频限制范围+显示设备全范围=做Y/C伸张</span><br>
+<span>然后还有一个问题是过伸张和过压缩，就是伸张和压缩各做了两次。</span><br>
+<span>你这个视频本身应该是16~235的。在全范围设置的显示状态下需要做Y/C伸张。</span><br>
+<span>你的图1和图2的设置都有问题。</span><br>
+<span>图1是未作伸张，以MPC hc为例要在选项的着色器里添加16-235 to0-255。</span><br>
+<span>图2播放器虽然和视频匹配了都是限制范围，但显示器却是全范围。这个设置下需要把显示器更换为电视，并且电视设置为限制范围。这个的效果应该是最接近原始视频的。</span><br>
+<span>更现实的问题是根本不知道源视频是哪种范围。bdmv是限制范围没问题。bdrip就不知道压制者做没做过伸张了。没做的自己不做伸张就会黑的发灰，做了的自己再做一遍伸张就会丢失色阶。</span><br>
+<span>忘了还有解码器的事了，解码器也有做Y/C伸张压缩的功能。所以就更混乱了，所以我早就不在乎这些了，在电脑上看就随便了。更不用说现在在线视频看得多，这种的更没什么可追求了。想要好的效果的时候，BD原盘加家庭影院走起。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>downforce 发表于 2020-3-13 21:48</span><br>
+<span>视频全范围+显示设备全范围=什么也不用做</span><br>
+<span>视频限制范围+显示设备限制范围=什么也不用做</span><br>
+<span>视频全范围+显示设 ...</span><br>
+<span>越说我越混乱 那显示器上到底怎么播放视频才是正确的</span><br>
+</p><p><b>两个路人: </b><br>
+<span>https://www.videouniversity.com/articles/color-bars-and-how-to-use-em/</span><br>
+<span>https://wikimili.com/en/SMPTE_color_bars</span><br>
+<span>https://www.mediacollege.com/video/test-patterns/colour-bars-smpte.html</span><br>
+<span>简单粗暴：非编软件里生成SMPTE测试图，用媒体播放器看一遍。因为你只要测亮度，只用看右下角三条黑柱子，从左到右：超级黑、黑、灰。看到三条是有问题的，只能看到灰色就是正确的。</span><br>
+<span>1.Turn on the monitor and allow it to warm up (10-15 minutes).</span><br>
+<span>2.Using a guaranteed source, display SMPTE color bars on monitor.</span><br>
+<span>3.Turn the monitor's chroma off or down completely.</span><br>
+<span>4.The pluge pattern consists of the three dark bars at the lower right - superblack, black, and gray. Adjust the monitor brightness until there is no discernable difference between superblack and black, but there is a difference between black and gray.</span><br>
+<span>5.Adjust the monitor contrast until a smooth gradient of gray appears along the top bars.</span><br>
+<span>6.Turn the red and green guns off (there may be a "Blue gun only" option to achieve this). If your monitor cannot do this, look at the bars through a blue filter.</span><br>
+<span>7.Turn the monitor chroma up until the far left bar (white) and far right bar (blue) have the same brightness.</span><br>
+<span>8.Adjust the monitor tint (hue or chroma/colour phase) until the third bar from the left (cyan) and the third bar from the right (magenta) have the same brightness.</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>0-255肯定是正确的，看不清请给设备做GAMMA校正</span><br>
+</p><p><b>downforce: </b><br>
+<span>观铃の使魔 发表于 2020-3-13 22:50</span><br>
+<span>越说我越混乱 那显示器上到底怎么播放视频才是正确的</span><br>
+<span>https://blog.csdn.net/flyingqr/article/details/29581215</span><br>
+<span>https://www.nmm-hd.org/newbbs/viewtopic.php?t=21</span><br>
+<span> 这两篇文章的原始版本都找不到了，只有转载的，里面的下载链接都不能用了。我重新按文章里的要求制作了测试文件。</span><br>
+<span>链接：https://pan.baidu.com/s/1MvrA9qbz_ewyuhCimF7nPw </span><br>
+<span>提取码：ocwm </span><br>
+<span>按照“YC伸张与YC压缩的实验”制作的测试图。原始图像上半部分的颜色范围为16～240，黑白部分为16～235（601 Range）。下半部分为0～255（Full range）。</span><br>
+<span>压缩为两个文件：</span><br>
+<span>一个是TV标准的“压缩时，打开TMPGEnc的YC压缩选项，此时图像上部为30～217，下部为16～235。”</span><br>
+<span>播放时：</span><br>
+<span>1.图像上部为30～217、下部为16～235，则没有进行YC伸张。（也就是MPEG2里面的原始数据）</span><br>
+<span>2.图像上部为16～235、下部为0～255则判断为进行了一次YC伸张。</span><br>
+<span>3.如果上下全都变成了0～255的Full range，则是进行了两次YC伸张。</span><br>
+<span>当然，只有第二种情况才是正确的。</span><br>
+<span>另一个是PC标准的“压缩时，关闭TMPGEnc的YC压缩选项，此时图像上部为16～235，下部为0～255。”</span><br>
+<span>播放时：</span><br>
+<span>1.图像上部为16～235、下部为0～255，则没有进行YC伸张。（也就是MPEG2里面的原始数据）</span><br>
+<span>2.图像上下完全相同，都是0～255，则进行了至少一次YC伸张。</span><br>
+<span>只有第一种情况是正确的。</span><br>
+<span>如果播放这两个文件的结果都是图像上部为16～235、下部为0～255，播放器的设置才算正确。</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>downforce 发表于 2020-3-14 07:28</span><br>
+<span>https://blog.csdn.net/flyingqr/article/details/29581215</span><br>
+<span>https://www.nmm-hd.org/newbbs/viewtopic.ph ...</span><br>
+<span>EVRCP输出设置为0-255时   两个视频的显示效果一致应该是正确的设置</span><br>
+<span>但是你之前帖子说我 第一幅图显示结果也是错误的是怎么回事</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>downforce 发表于 2020-3-14 07:28</span><br>
+<span>https://blog.csdn.net/flyingqr/article/details/29581215</span><br>
+<span>https://www.nmm-hd.org/newbbs/viewtopic.ph ...</span><br>
+<span>链接: https://pan.baidu.com/s/1rAqCXVLCPbNbawqwApk-UQ 提取码: ys84</span><br>
+<span>这是我的测试文件麻烦你拍摄个显示器上正确显示效果让我看看</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2020-3-14 18:27 编辑 </span><br>
+<span>观铃の使魔 发表于 2020-3-14 14:13</span><br>
+<span>链接: https://pan.baidu.com/s/1rAqCXVLCPbNbawqwApk-UQ 提取码: ys84</span><br>
+<span>这是我的测试文件麻烦你拍摄个 ...</span><br>
+<span>你这测试图有问题吧。</span><br>
+<span>他报告说自己是Color range: Limited。</span><br>
+<span>但是我给播放器和显卡都设置成不做任何处理，得到的截图是1的地方灰阶是2，2的地方是4...24的地方是48。而且所谓的Reference Black也不是纯黑，灰阶是1。</span><br>
+<span>知道了，这个是我电脑的问题。英特尔显卡控制中心默认开启一项对比度增强功能，如果一整幅画面的像素最高亮度比较低的话它就把整体的亮度值X2。</span><br>
+<span>我前面说你的设置有问题是按照前面楼层的回复1-16列灰度为0作为前提所作的假设。</span><br>
+<span>开了对比度增强。</span><br>
+<span>关闭对比度增强。</span><br>
+<span>你的设置一是正确的，但它老老实实的按照视频报告的limited去做拉伸，导致0-15的灰阶全部削除变成0，结果就是图一。</span><br>
+<span>设置二虽然不对，但是它自身是limited，视频也说自己是limited，它就不做任何处理直接输出，而显卡设的是full对接收到的0-15的数据也不做任何处理，结果得到的反而是正确的图像，也就是图二。</span><br>
+<span>所以怕就怕这种明明是full range，却报告自己是limited的。</span><br>
+<span>如果播放器按照他报告的去做了Y/C伸张反而颜色不对了。</span><br>
+</p><p><b>乙山法純: </b><br>
+<span> 本帖最后由 乙山法純 于 2020-3-14 17:16 编辑 </span><br>
+<span>播放器管yuv转rgb 其他一路0-255可以避免显卡驱动各种骚操作</span><br>
+<span>话说回来，你们也是够闲的7年前似曾相似https://bbs.saraba1st.com/2b/thread-931052-2-1.html</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2020-3-14 16:56 编辑 </span><br>
+<span>我已经都说了第一张图输出设置肯定是正确的，看不清是因为没有做GAMMA校正的原因，你们真以为输出范围设置正确了就能很好的表现细节了？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2020-3-14 16:57 编辑 </span><br>
+<span>downforce 发表于 2020-3-14 15:37</span><br>
+<span>你这测试图有问题吧。</span><br>
+<span>他报告说自己是Color range: Limited。</span><br>
+<span>但是我给播放器和显卡都设置成不做任何 ...</span><br>
+<span>这视频就是测试播放设备是否能正确处理limited而不是无视limited去处理完整的full range信号</span><br>
+</p><p><b>downforce: </b><br>
+<span>暁美ほむら 发表于 2020-3-14 16:53</span><br>
+<span>我已经都说了第一张图输出设置肯定是正确的，看不清是因为没有做GAMMA校正的原因，你们真以为输出范围设置 ...</span><br>
+<span>按图一的设置再怎么调gamma都不能把1-15的色阶调出来，因为播放器已经按照limited去做YC伸张的时候把0-15的色阶削掉了，都变成0了。</span><br>
+</p><p><b>downforce: </b><br>
+<span>暁美ほむら 发表于 2020-3-14 16:55</span><br>
+<span>这视频就是测试播放设备是否能正确处理limited而不是无视limited去处理完整的full range信号 ...</span><br>
+<span>如果一个视频是limited，按标准它的原始数据里就不该有亮度值在0-15之间的数值，最低亮度值是16。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>downforce 发表于 2020-3-14 18:30</span><br>
+<span>按图一的设置再怎么调gamma都不能把1-15的色阶调出来，因为播放器已经按照limited去做YC伸张的时候把0-15 ...</span><br>
+<span>把1-15调出来就是错误了</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2020-3-14 18:49 编辑 </span><br>
+<span>暁美ほむら 发表于 2020-3-14 18:41</span><br>
+<span>把1-15调出来就是错误了</span><br>
+<span>色阶测试图你告诉我第1-15条色带的色阶都是0是正确的？</span><br>
+<span>不过楼主图1的设置是对的，这个没错。但输出结果不像是测试图作者想要的。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>downforce 发表于 2020-3-14 18:33</span><br>
+<span>如果一个视频是limited，按标准它的原始数据里就不该有亮度值在0-15之间的数值，最低亮度值是16。 ...</span><br>
+<span>这是一个full的视频，并不是limited的视频。虽然这是一个full视频，但是发送给播放设备的是limited信号，目的是测试播放设备是否能正确处理limited信号而不是错误的理解该信号。你去纠结本身视频的原始范围方向就是错的，这是一个full的视频，但是它的目的就是让你控制在16-235的范围内。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span> 本帖最后由 暁美ほむら 于 2020-3-14 18:54 编辑 </span><br>
+<span>downforce 发表于 2020-3-14 18:45</span><br>
+<span>色阶测试图你告诉我第1-15条色带的色阶都是0是正确的？</span><br>
+<span>不过楼主图1的设置是对的，这个没错。但输出结果不 ...</span><br>
+<span>你是看不到图中16位置的英文注释？你去解析视频本身的色阶范围本身就是错误的。</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2020-3-14 19:08 编辑 </span><br>
+<span>暁美ほむら 发表于 2020-3-14 18:52</span><br>
+<span>这是一个full的视频，并不是limited的视频。虽然这是一个full视频，但是发送给播放设备的是limited信号， ...</span><br>
+<span>明白了。我一开始真的没搞清楚那个reference black是干嘛的。我还想这个视频是怎么压制出来的，拿图片写avs用x264设定--range tv 的话自动就做Y/C压缩了，不应该还存在0-15的数据了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918638[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>LGA2011 主板的绝唱：24 核升级</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>LGA2011 主板的绝唱：24 核升级</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:16:53 +0000</lastBuildDate>
+    <item>
+      <title>LGA2011 主板的绝唱：24 核升级[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945215-1-1.html</link>
+      <description>LGA2011 主板的绝唱：24 核升级&#13;
+ 本帖最后由 mchan 于 2020-7-1 23:18 编辑 
+
+前两天新工作发了工资，买件礼物犒赏犒赏自己。
+&#13;
+这台机器 2013 年买了当虚拟机服务器，后来改做代码工作站兼游戏主机。这台机器基础配置是魔改 BIOS 的华硕 Z9PE-D16 主板，128GB 内存、讯景 RX 480 8GB 公版和 1TB 西数 NVMe 黑盘。最初用的是双路 E5-2620v2，后来乘便宜换了双路 E5-2680 C2。这次的升级是上双路 E5-2696v2，整机 24 核 48 线程，默频 2.5GHz 全核睿频 3.1GHz。
+&#13;
+E5-2696v2 和参数几乎完全一致的 E5-2697v2 是 LGA2011 平台上综合性能最强的型号了，其中 E5-2696v2 是绝对算力最强的，而全核睿频稍低的 E5-2697v2 其次。但是 E5-2696v2 作为一颗 OEM CPU，挑主板，好在华硕基本全系列都可以支持。对于这块双路主板，E5-2696v2 便是 CPU 的天顶星了，是所谓绝唱也。而对于这台机器，最后的升级是第二张公版 RX 480 8GB 交火了。
+&#13;
+这样的一对 CPU，淘宝均价在 650 一颗左右。我选了一家本地卖家，价格稍贵一点。
+&#13;
+各位评论前请注意，这是升级，不是新购。主板、内存、显卡等部件不替换，均保留沿用。</description>
+      <content:encoded><![CDATA[<p><b>albertfu: </b><br>
+<span>mchan 发表于 2020-7-3 03:50</span><br>
+<span>双路 E5 那是八通 92 PCIe，也就 EPYC 可以对标了吧？况且我的使用场景还就是八通全用上，PCIe 全插满。 ...</span><br>
+<span>单颗Ivy-E PCIE 3.0 x40，C602~C608的8条PCIE 2.0算上去也就88条，哪来的92条？</span><br>
+<span>八通道也比较虚，跨socket的双路。。。本质还是2个四通道NUMA nodes</span><br>
+<span>万一用的1600或更低频的ddr3那更悲催了，还不如ddr4双通道。ddr3 2400四通道还比较能打</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-3 08:11 编辑 </span><br>
+<span>albertfu 发表于 2020-7-3 05:01</span><br>
+<span>单颗Ivy-E PCIE 3.0 x40，C602~C608的8条PCIE 2.0算上去也就88条，哪来的92条？</span><br>
+<span>八通道也比较虚，跨sock ...</span><br>
+<span>CPU 1 的 DMI 是可以当 PCIe x4 用的。（南桥在 CPU 0。）</span><br>
+<span>DDR3-1600 有一个神奇的时序配置，其访问延迟始终难以被 DDR4 超越。很多时候内存拼的不是绝对速度，而是访问延迟。至于 NUMA，AMD 的 EPYC 八通那是四节点 NUMA，每节点双通……</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>mchan 发表于 2020-7-3 08:04</span><br>
+<span>CPU 1 的 DMI 是可以当 PCIe x4 用的。（南桥在 CPU 0。）</span><br>
+<span>DDR3-1600 有一个神奇的时序配置，其访问延迟 ...</span><br>
+<span>你说的是一代，二代无numa</span><br>
+<span>当然买不到，现在挖ipfs，epyc的绝对优势，官价都要抢</span><br>
+<span>甚至es都被搜刮光了，epyc es可超频，双路128核超频秒天秒地</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>mchan 发表于 2020-7-3 08:04</span><br>
+<span>CPU 1 的 DMI 是可以当 PCIe x4 用的。（南桥在 CPU 0。）</span><br>
+<span>DDR3-1600 有一个神奇的时序配置，其访问延迟 ...</span><br>
+<span>去年铺货的zen2了解一下，不再是一颗chiplet一个numa节点了，一个socket一个节点，4核到64核都一样</span><br>
+<span>吹ddr3的延迟 </span><br>
+<span>牙膏vs牙膏的话，ddr4高频都普遍干进40ns了。我以前ddr3 2400 cl9的四通道也只是略低于50ns，差远了。很难相信ddr3四通道能比我这套低到哪里去</span><br>
+<span>当然你说zen/zen2的延迟，那确实还不如n年前的牙膏，60ns就不错了。最近桌面renoir es倒是干进了50ns，摸到了牙膏的尾气</span><br>
+<span>最后好奇的是你都插了啥8根pcie用满，看主楼不像是显卡</span><br>
+</p><p><b>mchan: </b><br>
+<span>albertfu 发表于 2020-7-3 08:33</span><br>
+<span>去年铺货的zen2了解一下，不再是一颗chiplet一个numa节点了，一个socket一个节点，4核到64核都一样</span><br>
+<span>吹dd ...</span><br>
+<span>RX 480 8GB 显卡、NVMe 固态盘、SAS HBA、USB 3.0 卡、声卡、无线网卡。计划拆掉声卡和 USB 3.0 卡换装第二张 RX 480 或 FPGA 计算卡。</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-3 09:00 编辑 </span><br>
+<span>我这对 E5-2696v2 在我的双超频三蝴蝶 4U 六热管散热器下，CB15 = 2601。</span><br>
+</p><p><b>mchan: </b><br>
+<span>参照：截图中的 E3-1231v3 系统是我送人的那套 E3v3，下面一行是默认外频，上面一行是 103.25MHz 外频。</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>看来我还高估了E5V2的性能，3900X R15分数随便上3100，24核打不过12核，E5V2还没AVX2，浮点等于6核 </span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span> 本帖最后由 shiraikuroko 于 2020-7-3 11:55 编辑 </span><br>
+<span>mchan 发表于 2020-7-3 08:04</span><br>
+<span>CPU 1 的 DMI 是可以当 PCIe x4 用的。（南桥在 CPU 0。）</span><br>
+<span>DDR3-1600 有一个神奇的时序配置，其访问延迟 ...</span><br>
+<span>扯，你这所谓的E5V2，内存延迟80+，还不计NUMA远端远RING节点，被桌面的任何处理器都要吊打，不信你开AIDA64跑一下</span><br>
+</p><p><b>香港记者巴拉森: </b><br>
+<span>Zen2出了之后双路c602就没法看了，手上有平台换个u还行</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>在旧平台升级的情景下拿出今年去年的U和七八年前的U比性能到底是什么心态</span><br>
+</p><p><b>我真的很變態: </b><br>
+<span>垃圾佬路过，</span><br>
+<span>以前折腾过771平台，</span><br>
+<span>自检长，性能差，发热大</span><br>
+<span>后来扔了</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>双路E5对标EPYC</span><br>
+</p><p><b>mchan: </b><br>
+<span>lucifer0607 发表于 2020-7-3 13:04</span><br>
+<span>在旧平台升级的情景下拿出今年去年的U和七八年前的U比性能到底是什么心态 ...</span><br>
+<span>总有那么些人觉得老平台不值得留，给人一种阔大爷的感觉。我要不是预算有限，也会优先考虑新平台的，但原本这台机器的升级预算被另一台机器吃了，这就只剩下螺蛳壳里做道场，用有限的预算去显著提高实际使用体验。</span><br>
+</p><p><b>mchan: </b><br>
+<span>我真的很變態 发表于 2020-7-3 16:22</span><br>
+<span>垃圾佬路过，</span><br>
+<span>以前折腾过771平台，</span><br>
+<span>自检长，性能差，发热大</span><br>
+<span>华硕的服务器 BIOS 还是不错的，再加上我的魔改，自检还可以，性能有保证，发热也不严重，启动速度杠杠的。</span><br>
+</p><p><b>mchan: </b><br>
+<span>香港记者巴拉森 发表于 2020-7-3 12:57</span><br>
+<span>Zen2出了之后双路c602就没法看了，手上有平台换个u还行</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>我这就是典型的已有老平台打打鸡血再战。</span><br>
+</p><p><b>mchan: </b><br>
+<span>Realplayer 发表于 2020-7-3 16:32</span><br>
+<span>双路E5对标EPYC</span><br>
+<span>PCIe 通道，双 E5 的 92 个对标单 EPYC 的 128 个，没问题啊。</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>mchan 发表于 2020-7-3 18:05</span><br>
+<span>PCIe 通道，双 E5 的 92 个对标单 EPYC 的 128 个，没问题啊。</span><br>
+<span>480插x8损失1%都没有，双ring环跨numa的16x打不打得过过原生x4是个问题</span><br>
+<span>新平台不需要什么usb卡，ryzen自带10g usb3.0</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>mchan: </b><br>
+<span>shiraikuroko 发表于 2020-7-3 18:55</span><br>
+<span>480插x8损失1%都没有，双ring环跨numa的16x打不打得过过原生x4是个问题</span><br>
+<span>新平台不需要什么usb卡，ryzen自 ...</span><br>
+<span>先要解决钱的问题再来谈换平台。</span><br>
+</p><p><b>mchan: </b><br>
+<span>我真的很變態 发表于 2020-7-3 16:22</span><br>
+<span>垃圾佬路过，</span><br>
+<span>以前折腾过771平台，</span><br>
+<span>自检长，性能差，发热大</span><br>
+<span>Sandy Bridge 是一个分水岭，之前是摩尔定律，之后是牙膏。你这个是 SNB 之前的，当然有各种问题。我这是 SNB/IVB，属于早期牙膏。</span><br>
+</p><p><b>mchan: </b><br>
+<span>神知道的sjd 发表于 2020-7-2 21:24</span><br>
+<span>AMD粉是被压制了这么多年终于可以出来喘气喷人了？LZ这样一个捡垃圾（无贬义）的配置 ...</span><br>
+<span>我捡点合适的垃圾，给老平台打打鸡血，这应该无过吧。某些人觉得 AMD 性价比高，但这是建立在和英特尔新平台的比较之下的。对于我来说，我的关注点是 AMD 新平台和给老平台打鸡血之间的性价比问题。</span><br>
+</p><p><b>沉默之声: </b><br>
+<span>国家电网合作伙伴，这一套也太费电了</span><br>
+</p><p><b>mchan: </b><br>
+<span>沉默之声 发表于 2020-7-4 16:51</span><br>
+<span>国家电网合作伙伴，这一套也太费电了</span><br>
+<span>反正不是日用，有需要了才开，无所谓了。再说了，2696v2 的 TDP 比原来的 2680 还低一点。</span><br>
+</p><p><b>卖力偷破泥: </b><br>
+<span>老平台就光凭ddr3reg价格巨便宜这一点，内存容量刚需时真的完爆各种新平台。。</span><br>
+<span>至于amd啥的软件支持的情况下还是很香的，用ms做分子模拟时18蛋的鸡血96v3与4.4的7940x这俩居然都打不过4.3的39x...</span><br>
+<span>但兼容的问题也的确要命。。就比如单ccx的zen2就是死活算不了。。</span><br>
+</p><p><b>mchan: </b><br>
+<span>卖力偷破泥 发表于 2020-7-4 20:01</span><br>
+<span>老平台就光凭ddr3reg价格巨便宜这一点，内存容量刚需时真的完爆各种新平台。。</span><br>
+<span>至于amd啥的软件支持的情况 ...</span><br>
+<span>我的这台机器原本就是为了虚拟机多开而配置了 128GB 内存。虽然现在当工作站用平时用不到 128GB，但为了八通道对称我不能拆内存了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945215[50-100]</guid>
+    </item>
+    <item>
+      <title>LGA2011 主板的绝唱：24 核升级[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945215-1-1.html</link>
+      <description>LGA2011 主板的绝唱：24 核升级&#13;
+ 本帖最后由 mchan 于 2020-7-1 23:18 编辑 
+
+前两天新工作发了工资，买件礼物犒赏犒赏自己。
+&#13;
+这台机器 2013 年买了当虚拟机服务器，后来改做代码工作站兼游戏主机。这台机器基础配置是魔改 BIOS 的华硕 Z9PE-D16 主板，128GB 内存、讯景 RX 480 8GB 公版和 1TB 西数 NVMe 黑盘。最初用的是双路 E5-2620v2，后来乘便宜换了双路 E5-2680 C2。这次的升级是上双路 E5-2696v2，整机 24 核 48 线程，默频 2.5GHz 全核睿频 3.1GHz。
+&#13;
+E5-2696v2 和参数几乎完全一致的 E5-2697v2 是 LGA2011 平台上综合性能最强的型号了，其中 E5-2696v2 是绝对算力最强的，而全核睿频稍低的 E5-2697v2 其次。但是 E5-2696v2 作为一颗 OEM CPU，挑主板，好在华硕基本全系列都可以支持。对于这块双路主板，E5-2696v2 便是 CPU 的天顶星了，是所谓绝唱也。而对于这台机器，最后的升级是第二张公版 RX 480 8GB 交火了。
+&#13;
+这样的一对 CPU，淘宝均价在 650 一颗左右。我选了一家本地卖家，价格稍贵一点。
+&#13;
+各位评论前请注意，这是升级，不是新购。主板、内存、显卡等部件不替换，均保留沿用。</description>
+      <content:encoded><![CDATA[<p><b>mchan: </b><br>
+<span>LGA2011 主板的绝唱：24 核升级</span><br>
+<span> 本帖最后由 mchan 于 2020-7-1 23:18 编辑 </span><br>
+<span>前两天新工作发了工资，买件礼物犒赏犒赏自己。</span><br>
+<span>这台机器 2013 年买了当虚拟机服务器，后来改做代码工作站兼游戏主机。这台机器基础配置是魔改 BIOS 的华硕 Z9PE-D16 主板，128GB 内存、讯景 RX 480 8GB 公版和 1TB 西数 NVMe 黑盘。最初用的是双路 E5-2620v2，后来乘便宜换了双路 E5-2680 C2。这次的升级是上双路 E5-2696v2，整机 24 核 48 线程，默频 2.5GHz 全核睿频 3.1GHz。</span><br>
+<span>E5-2696v2 和参数几乎完全一致的 E5-2697v2 是 LGA2011 平台上综合性能最强的型号了，其中 E5-2696v2 是绝对算力最强的，而全核睿频稍低的 E5-2697v2 其次。但是 E5-2696v2 作为一颗 OEM CPU，挑主板，好在华硕基本全系列都可以支持。对于这块双路主板，E5-2696v2 便是 CPU 的天顶星了，是所谓绝唱也。而对于这台机器，最后的升级是第二张公版 RX 480 8GB 交火了。</span><br>
+<span>这样的一对 CPU，淘宝均价在 650 一颗左右。我选了一家本地卖家，价格稍贵一点。</span><br>
+<span>各位评论前请注意，这是升级，不是新购。主板、内存、显卡等部件不替换，均保留沿用。</span><br>
+</p><p><b>太夏梵天: </b><br>
+<span>电源用的多少的？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>这玩意日常表现应该打不过差不多价格的3600，老平台又热又慢</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>######: </b><br>
+<span>DeepFishing 发表于 2020-7-1 20:13</span><br>
+<span>这玩意日常表现应该打不过差不多价格的3600，老平台又热又慢</span><br>
+<span>—— 来自 Sony H8296, Android 10上 ...</span><br>
+<span>24核打不过6核 你说笑话么？老平台热？ 3600很凉快么？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-7-1 05:08 编辑 </span><br>
+<span>###### 发表于 2020-7-1 04:20</span><br>
+<span>24核打不过6核 你说笑话么？老平台热？ 3600很凉快么？</span><br>
+<span>楼主这帖子内容格式差不多就是广告，</span><br>
+<span>没看到是负鹅嘛。</span><br>
+<span>首先是2011，不是2066，是x99，甚至是x79。</span><br>
+<span>我忘了v2上是x79哪个最强我忘了，但2011的终点是2679v4。</span><br>
+<span>因为我买过，记得很清楚。20核3.2ghz，被3800x锤翻。</span><br>
+<span>x79上的12核打不过3600再正常不过，真的，“大人，食大便了。”</span><br>
+<span>https://www.cpubenchmark.net/cpu.php?&id=2009</span><br>
+<span>https://www.cpubenchmark.net/cpu.php?&id=3481</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>这样的洋垃圾5年前就上过船了。现在花钱去买这货纯属想不开。</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>要是V3 V4的话 还能凑个X99的鸡血补丁，V1 V2 X79那代是有点跟不上了</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>楼上几位言重了，这机器冬天取暖挺好的</span><br>
+</p><p><b>madbird302: </b><br>
+<span>E5V2肯定打不过现在的主流民用U，V4也许还能一战</span><br>
+</p><p><b>distrowatch: </b><br>
+<span> 本帖最后由 distrowatch 于 2020-7-1 22:14 编辑 </span><br>
+<span>V2不清楚低频V4还是挺凉的，我原来B81压2660V4不用AVX怎么玩都玩不上60度，当然全核性能也就1700水平</span><br>
+</p><p><b>風駿: </b><br>
+<span>i9级都没这么强，这得i11级了</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>不过自己有主板这样升级开销也不会太大</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>台球论坛网友: </b><br>
+<span>https://openbenchmarking.org/showdown/pts/build-linux-kernel</span><br>
+<span>2697 v3和核心少了一半的3900X打的有来有回，LZ是在买暖气片吗？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>###### 发表于 2020-7-1 20:20</span><br>
+<span>24核打不过6核 你说笑话么？老平台热？ 3600很凉快么？</span><br>
+<span>3600我用的就是原装的铝块散热连铜都没有。</span><br>
+<span>我这跑过各种老平台，做工业视觉，这玩意连avx2都没有，为了给老平台做兼容实在太恶心，我有e5 ptsd，看见稀奇古怪的老平台就蛋疼，老平台开个机打个游戏就知道表现有多垃圾了。</span><br>
+<span>这个点日常使用双路CPU和双路GPU都是坑，</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mchan: </b><br>
+<span>太夏梵天 发表于 2020-7-1 19:31</span><br>
+<span>电源用的多少的？</span><br>
+<span>长城的 1000W 模块化电源，不过日常用基本都在 800W 不到。</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-2 00:15 编辑 </span><br>
+<span>天堂懵懂人 发表于 2020-7-1 22:27</span><br>
+<span>不过自己有主板这样升级开销也不会太大</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>我本来就有这块主板和那 8 条 16GB 内存条，那些都是七年一直沿用下来的。这次只换 CPU，别的一概沿用。</span><br>
+<span>之前日用台式机换平台已经让我大出血了，光是技嘉 Z390 UD 主板 + i7-9700K CPU + 32GB DDR4-3000 内存就 6000 多，这还是 RX 580 8GB 2304SP 显卡、三颗硬盘、机箱、外设一概沿用的条件下。（我做黑苹果，Intel CPU 和 AMD 显卡是刚需。现在这个配置基本对标顶配 27 寸 2019 iMac。）</span><br>
+</p><p><b>mchan: </b><br>
+<span>DeepFishing 发表于 2020-7-1 20:13</span><br>
+<span>这玩意日常表现应该打不过差不多价格的3600，老平台又热又慢</span><br>
+<span>—— 来自 Sony H8296, Android 10上 ...</span><br>
+<span>我这里只换 CPU，内存、主板这些大件一概沿用。3600 要整体换平台，额外的主板、内存成本太贵了。</span><br>
+</p><p><b>mchan: </b><br>
+<span>天神十三煞 发表于 2020-7-1 20:48</span><br>
+<span>楼主这帖子内容格式差不多就是广告，</span><br>
+<span>没看到是负鹅嘛。</span><br>
+<span>首先是2011，不是2066，是x99，甚至是x79。</span><br>
+<span>您家财万贯，还请您对一贫如洗的鄙人高抬贵手。我没那个钱去整个换平台，只能在用了七八年的旧平台上再苟延残喘那么几年。</span><br>
+</p><p><b>mchan: </b><br>
+<span>madbird302 发表于 2020-7-1 21:54</span><br>
+<span>E5V2肯定打不过现在的主流民用U，V4也许还能一战</span><br>
+<span>双路 E5-2680（v1）多线程基本追平 i9-9900K 默频。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>mchan 发表于 2020-7-1 23:09</span><br>
+<span>双路 E5-2680（v1）多线程基本追平 i9-9900K 默频。</span><br>
+<span>你得跟核心数差得不太多的比啊</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-2 00:14 编辑 </span><br>
+<span>madbird302 发表于 2020-7-1 23:47</span><br>
+<span>你得跟核心数差得不太多的比啊</span><br>
+<span>四五年前那两颗 2680 作为洋垃圾买进来的时候都合在一起都没破千，又能沿用我已有的主板，这个性价比还是放在那里的。到了现在 i9-9900K 才出来多久，我就已经在操作多核提升 60% 了。我做的是代码编译、CAD 和多媒体纯 CPU 转码为主，吃全核绝对性能。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>mchan 发表于 2020-7-2 00:05</span><br>
+<span>四五年前那两颗 2680 作为洋垃圾买进来的时候都合在一起都没破千，又能沿用我已有的主板，这个性价比还是 ...</span><br>
+<span>是的，从使用时间和你的用法来说绝对是物超所值了，现在还搞这么升级应该纯粹是因为个人念想吧</span><br>
+</p><p><b>qwased: </b><br>
+<span>跑编译应该还凑合，多媒体吃avx2的应该就不太行了</span><br>
+<span>不过650也不贵，弄着玩还可以</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>clover9017: </b><br>
+<span>不巧我就是四五年前装洋垃圾e5v2的，让我早4年用上了i9等级的性能，然而电费都够在装一台了</span><br>
+<span>去年装了一台37x的itx，经济，性能，功耗，体积，美观，全面提升。现在双路e5丢在公司吃灰</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>首先2696V2 TDP=130W，别以为满载能到3.1，连BASE 2.5都不一定稳，再说这玩意也没有AVX2啊，跑没AVX2的比如R15=1500分</span><br>
+<span>2696V2的数据我不知道，但是之前群友的2697V2，单路只能跑到R15 1500分左右 ，3900X正常在3200左右 ，超频的到3500左右。双路跑不出单路3900X性能，功耗还能大一倍</span><br>
+<span>楼上说的单路打不过3600，双路自然也打不过3900，跑起来功耗能大250W，开机越多亏的越多</span><br>
+</p><p><b>mchan: </b><br>
+<span>madbird302 发表于 2020-7-2 00:27</span><br>
+<span>是的，从使用时间和你的用法来说绝对是物超所值了，现在还搞这么升级应该纯粹是因为个人念想吧 ...</span><br>
+<span>几个月之前是有家亲戚问我要一台电脑，我把我的日用黑苹果 E3v3/Z97 基本平台拆了一半内存，配上一张 R9 380 给她了。我本来想收一台 i7-6700K 的二手机器替代的，碰上疫情不能当面验货，就买了 9700K/Z390 新平台，搞得我大出血。</span><br>
+<span>现在没钱换 HEDT 平台了，但复工后编译工作更繁重了，因此就变成了便宜一点给现有的 HPC 工作站打打鸡血再接着用了。</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-2 09:34 编辑 </span><br>
+<span>shiraikuroko 发表于 2020-7-2 09:03</span><br>
+<span>首先2696V2 TDP=130W，别以为满载能到3.1，连BASE 2.5都不一定稳，再说这玩意也没有AVX2啊，跑没AVX2的比如 ...</span><br>
+<span>2696v2 是 120W 的 TDP，而且我的 4U 散热器可以压住 150W 以内的各型 CPU，包括我现在用的 2680（v1）而且可以维持全核睿频至少 15 分钟。</span><br>
+<span>我最常见的任务是用 GCC 和 GNU Make 编译代码，这事情是可以任意并行化的纯整数计算，AVX 有没有无所谓，看的就是全核绝对性能、内存带宽和磁盘 IOPS。</span><br>
+<span>再说了，我已经没钱去折腾 HEDT 了，而且 AMD 现在的 CPU 内 NUMA 以及那个坑爹的 HEDT 内存控制器布局是个调度噩梦，我不想碰。</span><br>
+</p><p><b>mchan: </b><br>
+<span>clover9017 发表于 2020-7-2 03:42</span><br>
+<span>不巧我就是四五年前装洋垃圾e5v2的，让我早4年用上了i9等级的性能，然而电费都够在装一台了</span><br>
+<span>去年装了一台37 ...</span><br>
+<span>AMD 在我这里没法 YES，Intel 的性价比您也懂得，所以就只能退而求其次了。</span><br>
+</p><p><b>mchan: </b><br>
+<span>“2020年了，4770k连缩缸后的surface pro或iPad pro都打不过，</span><br>
+<span>别喊再战三年了，请直面没钱换机的事实”</span><br>
+<span>原来这位婆罗门是这样的立场。现在的市场放在那里，就是越来越多的人没钱换机，只能缝缝补补硬是让 E3v3/B85 再战三年，或者换上 E5-1680v2+X79 拉到 4.6GHz 顶一段时间。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>mchan 发表于 2020-7-2 09:40</span><br>
+<span>原来这位婆罗门是这样的立场。现在的市场放在那里，就是越来越多的人没钱换机，只能缝缝补补硬是让 E3v3/B ...</span><br>
+<span>1680 v2超到5GHz都打不过1.1kg的zen2 4800H笔记本（扩展性不提，PCIE 3.0 x40今天也够用</span><br>
+<span>我已经用轻薄本淘汰牙膏8核了，要8c都不够用我还有TR台机</span><br>
+</p><p><b>cosx: </b><br>
+<span>我觉得台式机U打不过ipad就是个伪命题，用处不同何来对比。我4770k看ytb能屏蔽广告，ipad 不行=4770k吊打iPad</span><br>
+</p><p><b>山药白薯: </b><br>
+<span>还用着5820k</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>3900x价格不是远超过楼主选的cpu吗，这有什么好比的</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>这个老机器修修补补没问题吧，新买机器没必要了</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span> 本帖最后由 shiraikuroko 于 2020-7-2 16:22 编辑 </span><br>
+<span>mchan 发表于 2020-7-2 09:27</span><br>
+<span>2696v2 是 120W 的 TDP，而且我的 4U 散热器可以压住 150W 以内的各型 CPU，包括我现在用的 2680（v1）而 ...</span><br>
+<span>现在AMD CPU内只有同CCX和非同CCX，非同CCX也比E5 V2双RING互联要强。HEDT4通道控制器有啥毛病吗？没看出来</span><br>
+<span>全核 整数性能，AMD秒天秒地，3900X 随便秒双路E5 V2</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>卡洛德 发表于 2020-7-2 13:10</span><br>
+<span>3900x价格不是远超过楼主选的cpu吗，这有什么好比的</span><br>
+<span>3900X=2600块，主板=500</span><br>
+<span>开机3年不见得比双路E5V2贵</span><br>
+</p><p><b>madbird302: </b><br>
+<span>mchan 发表于 2020-7-2 09:16</span><br>
+<span>几个月之前是有家亲戚问我要一台电脑，我把我的日用黑苹果 E3v3/Z97 基本平台拆了一半内存，配上一张 R9...</span><br>
+<span>家用HPC么……</span><br>
+</p><p><b>孙红雷: </b><br>
+<span>AMD 让一众垃圾佬 知道了啥是带差</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-2 19:42 编辑 </span><br>
+<span>孙红雷 发表于 2020-7-2 18:15</span><br>
+<span>AMD 让一众垃圾佬 知道了啥是带差</span><br>
+<span>我的主要应用是黑果，必须用 I，九代又太贵，日用机换平台把两台机器的预算全吃了。黑果用 AMD 不是不可以，但那叫没事找别扭，太折腾了。</span><br>
+</p><p><b>mchan: </b><br>
+<span>madbird302 发表于 2020-7-2 18:11</span><br>
+<span>家用HPC么……</span><br>
+<span>就是个 HEDT 啦……我这台机器原来是做高性能计算用的，后来才改的工作站。</span><br>
+</p><p><b>mchan: </b><br>
+<span>有哪位婆罗门有这个人际关系可以帮我做一个报价，看看新平台性能追平要花多少钱。</span><br>
+<span>我现在的基础平台：双路 E5-2696v2、128GB 内存，PCIe 槽插 7 张卡。新平台系统基础平台必须达到一样的 CPU 性能、内存容量和板卡扩展性。目标价格 3500。</span><br>
+</p><p><b>神知道的sjd: </b><br>
+<span>AMD粉是被压制了这么多年终于可以出来喘气喷人了？LZ这样一个捡垃圾（无贬义）的配置还能被人这样喷？</span><br>
+</p><p><b>9616777: </b><br>
+<span>我寻思人家说AMD的事不是因为2L的那个深井冰吗</span><br>
+</p><p><b>albertfu: </b><br>
+<span>mchan 发表于 2020-7-2 19:50</span><br>
+<span>有哪位婆罗门有这个人际关系可以帮我做一个报价，看看新平台性能追平要花多少钱。</span><br>
+<span>我现在的基础平台：双路 ...</span><br>
+<span>想了想节约点不上HEDT，3900x+32g x4+WS X570转出来8个PCIE 4.0槽（x8+x4*5+x1*2），还超出需求一点，毕竟插这么多卡不太可能都要求x8 x16的带宽</span><br>
+<span>不过预算3500还是。。。光3900x+ws x570都得4k多</span><br>
+<span>然后因为要黑果还限定牙膏。。。</span><br>
+<span>那还是现在的机器用着完美，毕竟限制摆在那</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>ryzen出来以后, E5真的是没法比, 主频不行, 核数也不行……也就剩四通和PCIE通道数了 (毕竟便宜的ryzen只有两通)所以做做服务器之类的, 需要大量PCIE的还不错(比如上一堆PCIE的nvme固态)</span><br>
+</p><p><b>ayaseyue: </b><br>
+<span>albertfu 发表于 2020-7-2 23:53</span><br>
+<span>想了想节约点不上HEDT，3900x+32g x4+WS X570转出来8个PCIE 4.0槽（x8+x4*5+x1*2），还超出需求一点，毕 ...</span><br>
+<span>既然洋垃圾还有市场，那么其他旧件是可以出的啊</span><br>
+<span>旧件价格不计算本身就是个给大家挖预设坑，真是拮据有谁这么搞预算的哦</span><br>
+</p><p><b>韦伯: </b><br>
+<span> 本帖最后由 韦伯 于 2020-7-3 00:43 编辑 </span><br>
+<span>神知道的sjd 发表于 2020-7-2 21:24</span><br>
+<span>AMD粉是被压制了这么多年终于可以出来喘气喷人了？LZ这样一个捡垃圾（无贬义）的配置 ...</span><br>
+<span>数码论坛只有四种</span><br>
+<span>蓝星制程永远第一频率第一软件兼容永远稳定牙膏粉</span><br>
+<span>只买四核的保值吹精神牙膏粉</span><br>
+<span>买HEDT掉价狠却被舆论无视的而转黑的扭曲牙膏粉</span><br>
+<span>想农企崛起买便宜牙膏的跟风吹农企的牙膏粉</span><br>
+<span>什么农企粉不存在的好吗</span><br>
+</p><p><b>mchan: </b><br>
+<span>神知道的sjd 发表于 2020-7-2 21:24</span><br>
+<span>AMD粉是被压制了这么多年终于可以出来喘气喷人了？LZ这样一个捡垃圾（无贬义）的配置 ...</span><br>
+<span>这也不能算是捡垃圾，2013 年买的主板，2016 年买的 E5-2680(v1)，这都是一路坚持下来的老将了。主板七年了接着再战，CPU 也是四年才升级。</span><br>
+</p><p><b>mchan: </b><br>
+<span>ayaseyue 发表于 2020-7-3 00:31</span><br>
+<span>既然洋垃圾还有市场，那么其他旧件是可以出的啊</span><br>
+<span>旧件价格不计算本身就是个给大家挖预设坑，真是拮据有谁 ...</span><br>
+<span>那个 3500 的预算就是把我手里的旧平台估价出来的。</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-7-3 03:51 编辑 </span><br>
+<span>blackeyed 发表于 2020-7-3 00:01</span><br>
+<span>ryzen出来以后, E5真的是没法比, 主频不行, 核数也不行……也就剩四通和PCIE通道数了 (毕竟便宜的ryzen只有 ...</span><br>
+<span>双路 E5 那是八通 92 PCIe，也就 EPYC 可以对标了吧？况且我的使用场景还就是八通全用上，PCIe 全插满。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945215[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>向日葵和TeamViewer该怎么选，是否有其他推荐</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>向日葵和TeamViewer该怎么选，是否有其他推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:25:15 +0000</lastBuildDate>
+    <item>
+      <title>向日葵和TeamViewer该怎么选，是否有其他推荐[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1877323-1-1.html</link>
+      <description>向日葵和TeamViewer该怎么选，是否有其他推荐&#13;
+电信宽带下行500 上行30，找向日葵客服要了1天游戏版体验账号，应该是向日葵个人版最快版本，试用下来感觉速度和TV免费版差不多。
+&#13;
+不过胜在价格合理，就算买游戏版3个终端5年价格才和TV普通商业版1年相当。当然固定数量收费不如TV免费版的区间数量，再想增加一台远程电脑得加钱，这样没办法。
+&#13;
+目前就存在一个纠结的点：
+&#13;
+向日葵的安全是否值得信任？
+&#13;
+毕竟装上去之后电脑隐私就不存在了，向日葵管理员肯定能窥屏什么的。
+&#13;
+心理上总觉得洋大人比鹅害鹅靠谱点。</description>
+      <content:encoded><![CDATA[<p><b>taxiom: </b><br>
+<span>向日葵和TeamViewer该怎么选，是否有其他推荐</span><br>
+<span>电信宽带下行500 上行30，找向日葵客服要了1天游戏版体验账号，应该是向日葵个人版最快版本，试用下来感觉速度和TV免费版差不多。</span><br>
+<span>不过胜在价格合理，就算买游戏版3个终端5年价格才和TV普通商业版1年相当。当然固定数量收费不如TV免费版的区间数量，再想增加一台远程电脑得加钱，这样没办法。</span><br>
+<span>目前就存在一个纠结的点：</span><br>
+<span>向日葵的安全是否值得信任？</span><br>
+<span>毕竟装上去之后电脑隐私就不存在了，向日葵管理员肯定能窥屏什么的。</span><br>
+<span>心理上总觉得洋大人比鹅害鹅靠谱点。</span><br>
+</p><p><b>baesystems: </b><br>
+<span>找电信要公网IP，端口转发远程桌面。</span><br>
+</p><p><b>taxiom: </b><br>
+<span>baesystems 发表于 2019-12-3 17:41</span><br>
+<span>找电信要公网IP，端口转发远程桌面。</span><br>
+<span>我也想，但是杭州电信它不给力呀，打过一次电话，说现在不能给个人IP地址</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>不推荐向日葵，原因有3</span><br>
+<span>1、没有内网模式，内网远程操作也要过外网</span><br>
+<span>2、非常浪费资源，笔记本用掉电飞快</span><br>
+<span>3、不稳定，经常掉，偶尔登录以后看不到在线机器，莫名其妙的</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>vpn 后远程连接内网开 windows 自带的远程桌面呢？</span><br>
+<span>我读书时一直用这方法连实验室的电脑，感觉挺稳定的</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>向日葵吧，我记得还有个开源的蒲公英</span><br>
+</p><p><b>尼曼兔: </b><br>
+<span>anydesk，目前还算良心吧</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>阿里云乞丐版 ecs，1 核 1G 内存，一个月 17，网络按量付费，0.8元 / GB。</span><br>
+<span>部署 frp （参考），反向代理 Windows 的 3389 端口，就可以直接用 Windows 远程桌面了。</span><br>
+<span>RDP 只要不打游戏、看视频，带宽占用是很低的，去年给阿里云充值 100 块余额，现在还剩 94.85。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>ipv6+ddns+远程桌面？</span><br>
+<span>只是连接的时候也要用ipv6。</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span> 本帖最后由 zhenniuren 于 2019-12-3 23:50 编辑 </span><br>
+<span>买的bwh</span><br>
+<span>用frp</span><br>
+<span>双11买了台nuc8放在家里</span><br>
+<span>自己写了个程序自动打怪升级</span><br>
+<span>偶尔用windows远程登录 清理一下背包修一下装备点天赋点学新技能</span><br>
+<span>除去购置的主机，成本不到300元/年</span><br>
+<span>还能登梯，个人用也没什么限制基本算无限流量＋不限客户端数量了</span><br>
+<span>非常舒服</span><br>
+<span>还有你这洋大人靠谱的观念建议去了解一下棱镜门的监听人员都经常监听什么内容，简直跟辛普森一家大电影一样</span><br>
+</p><p><b>taxiom: </b><br>
+<span>小野賢章 发表于 2019-12-3 20:02</span><br>
+<span>阿里云乞丐版 ecs，1 核 1G 内存，一个月 17，网络按量付费，0.8元 / GB。</span><br>
+<span>部署 frp （参考），反向代理 W ...</span><br>
+<span>感谢，看起来这个靠谱，得找个朋友帮忙部署下frp</span><br>
+</p><p><b>taxiom: </b><br>
+<span>zhenniuren 发表于 2019-12-3 23:41</span><br>
+<span>买的bwh</span><br>
+<span>用frp</span><br>
+<span>双11买了台nuc8放在家里</span><br>
+<span>我臆想中都会被窥屏，但TV毕竟用户体量多，中彩票的概率低</span><br>
+</p><p><b>flyang: </b><br>
+<span>Googleremotedesktop</span><br>
+</p><p><b>oskneo: </b><br>
+<span>南小鸭 发表于 2019-12-3 18:00</span><br>
+<span>不推荐向日葵，原因有3</span><br>
+<span>1、没有内网模式，内网远程操作也要过外网</span><br>
+<span>2、非常浪费资源，笔记本用掉电飞快</span><br>
+<span>tv有内网模式？偶现在基本内网都撤换到splashtop的，tv内网流畅度不够</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>sakurafly: </b><br>
+<span>虽然我有frp，不过用远程桌面有些需求我实现不了，要obs录屏没办法操作只能换tv那些，所以还是要看你具体需求。</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>oskneo 发表于 2019-12-4 06:17</span><br>
+<span>tv有内网模式？偶现在基本内网都撤换到splashtop的，tv内网流畅度不够</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Andro ...</span><br>
+<span>内网模式输入要连机器的ip地址即可</span><br>
+</p><p><b>sunny_am: </b><br>
+<span>steam？</span><br>
+</p><p><b>EP2: </b><br>
+<span>内网直接rdp就可以了，搞这些干嘛</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>EP2 发表于 2019-12-4 10:42</span><br>
+<span>内网直接rdp就可以了，搞这些干嘛</span><br>
+<span>有跨平台的需求的话 ，目前还没有比teamviewer能打的</span><br>
+<span>就是特供版的teamviewer太恶心</span><br>
+</p><p><b>天知道: </b><br>
+<span>zhenniuren 发表于 2019-12-3 23:41</span><br>
+<span>买的bwh</span><br>
+<span>用frp</span><br>
+<span>双11买了台nuc8放在家里</span><br>
+<span>这玩的啥游戏啊，这么肝？</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>天知道 发表于 2019-12-4 11:23</span><br>
+<span>这玩的啥游戏啊，这么肝？</span><br>
+<span>怀旧服</span><br>
+</p><p><b>Febird: </b><br>
+<span>目前用teamviewer免费许可证还没过什么问题</span><br>
+<span>晚上下班排队怀旧服还可以用手机操作</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>我的 TeamViewer 已经商业化了</span><br>
+<span>我不太喜欢 rdp，因为会顶掉计算机当前用户，另外会按我连接的客户端的设备的分辨率去展示，然后断开后电脑上的布局就全乱了</span><br>
+<span>我试图设置过连接时候指定分辨率，但是好像并没有什么用</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>huaxianyan 发表于 2019-12-4 16:53</span><br>
+<span>我的 TeamViewer 已经商业化了</span><br>
+<span>我不太喜欢 rdp，因为会顶掉计算机当前用户，另外会按我连接的客户端的设备 ...</span><br>
+<span>搜索:rdp多用户同时登录同一账户</span><br>
+<span>搜索:rdp自定义远程桌面分辨率</span><br>
+</p><p><b>激光飞侠: </b><br>
+<span>huaxianyan 发表于 2019-12-4 16:53</span><br>
+<span>我的 TeamViewer 已经商业化了</span><br>
+<span>我不太喜欢 rdp，因为会顶掉计算机当前用户，另外会按我连接的客户端的设备 ...</span><br>
+<span>moonlight</span><br>
+</p><p><b>kukimao: </b><br>
+<span>千万别用向日葵！</span><br>
+<span>前一段时间，有一天大概凌晨3点多，我还在家里的PC旁边，没碰鼠标。突然看到鼠标自己动起来了，还去点击文件夹！吓得我赶紧把电脑上的向日葵客户端关掉。</span><br>
+<span>主控端只有我的笔记本上有装，笔记本也没打开。再加上这个时间段，凌晨3点多，怎么看都是有人想趁人睡觉时侵入电脑。至于是谁，反正除了向日葵管理员想不到有别人</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>kukimao 发表于 2019-12-4 21:00</span><br>
+<span>千万别用向日葵！</span><br>
+<span>前一段时间，有一天大概凌晨3点多，我还在家里的PC旁边，没碰鼠标。突然看到鼠标自己动 ...</span><br>
+<span>凌晨三点、鼠标自己动起来</span><br>
+<span>可以拍个鬼片了</span><br>
+</p><p><b>orecheng: </b><br>
+<span>teamviewer 用毛子版？</span><br>
+</p><p><b>xmmc1800: </b><br>
+<span>折腾了半天frp+rdp一直没成功，最后才发现是因为win10家庭版没有远程桌面的功能，换了台专业版的直接OK了</span><br>
+<span>顺便问下有没有合适的云服务器推荐？我现在用的腾讯云10元每月的学生机，带宽只有1M感觉有点卡</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>zhenniuren 发表于 2019-12-4 19:26</span><br>
+<span>搜索:rdp多用户同时登录同一账户</span><br>
+<span>搜索:rdp自定义远程桌面分辨率</span><br>
+<span>还真没找到 Android 怎么能够呈现 2K 屏幕不让布局变动的</span><br>
+<span>试了很多次就是不行</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span> 本帖最后由 zhenniuren 于 2019-12-5 09:18 编辑 </span><br>
+<span>huaxianyan 发表于 2019-12-5 01:01</span><br>
+<span>还真没找到 Android 怎么能够呈现 2K 屏幕不让布局变动的</span><br>
+<span>试了很多次就是不行 ...</span><br>
+<span>安卓微软原生app设置里面就有 自定义分辨率和放大倍数保存就行</span><br>
+<span>你用手机 还是把客户端的分辨率调到1080以下吧</span><br>
+</p><p><b>widder: </b><br>
+<span>为啥不用VNC?</span><br>
+</p><p><b>linux40: </b><br>
+<span>widder 发表于 2019-12-5 09:27</span><br>
+<span>为啥不用VNC?</span><br>
+<span>公网IP</span><br>
+<span>其实超能力者可以基于磁力链接搞一个</span><br>
+</p><p><b>widder: </b><br>
+<span>linux40 发表于 2019-12-5 13:14</span><br>
+<span>公网IP</span><br>
+<span>其实超能力者可以基于磁力链接搞一个</span><br>
+<span>现在的VNC不需要公网IP的啊，就是免费版限制5台机器和不能传文件，个人5台机器足够了，传文件可以用别的办法解决</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>widder 发表于 2019-12-5 13:17</span><br>
+<span>现在的VNC不需要公网IP的啊，就是免费版限制5台机器和不能传文件，个人5台机器足够了，传文件可以用别的 ...</span><br>
+<span>RealVNC 设备太少了</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>我突然发现 Chrome Remote Desktop 反而是最适合我的，配合 ZeroTier 只有在开始认证的时候会和 Google 通讯，后面的都走 LAN 了</span><br>
+</p><p><b>widder: </b><br>
+<span>huaxianyan 发表于 2019-12-5 13:23</span><br>
+<span>RealVNC 设备太少了</span><br>
+<span>设备少？windows，linux，IOS，Android都有客户端</span><br>
+<span>https://www.realvnc.com/en/connect/download/viewer/</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>widder 发表于 2019-12-5 13:27</span><br>
+<span>设备少？windows，linux，IOS，Android都有客户端</span><br>
+<span>https://www.realvnc.com/en/connect/download/viewer/ ...</span><br>
+<span>我的意思是免费版的设备数少，不够我使用</span><br>
+</p><p><b>Kshatriya: </b><br>
+<span>huaxianyan 发表于 2019-12-4 16:53</span><br>
+<span>我的 TeamViewer 已经商业化了</span><br>
+<span>我不太喜欢 rdp，因为会顶掉计算机当前用户，另外会按我连接的客户端的设备 ...</span><br>
+<span>破解rdp连接数，github上就有工具</span><br>
+</p><p><b>kvll32: </b><br>
+<span>taxiom 发表于 2019-12-3 17:57</span><br>
+<span>我也想，但是杭州电信它不给力呀，打过一次电话，说现在不能给个人IP地址 ...</span><br>
+<span>你打电话给客服，让给你开IPV6。</span><br>
+</p><p><b>zxlice: </b><br>
+<span> 本帖最后由 zxlice 于 2019-12-5 20:26 编辑 </span><br>
+<span>anydesk?</span><br>
+<span>向日葵那个免费版的分辨率，简直太小气</span><br>
+</p><p><b>沧兰殇: </b><br>
+<span>如果只是同一个网络下串流，推荐moonlight，外网远程不知道怎么做</span><br>
+<span>—— 来自 motorola Moto Z (2), Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1877323[0-50]</guid>
+    </item>
+  </channel>
+</rss>

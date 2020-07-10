@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>万能的泥潭，问个影视出片格式的问题。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>万能的泥潭，问个影视出片格式的问题。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:09:14 +0000</lastBuildDate>
+    <item>
+      <title>万能的泥潭，问个影视出片格式的问题。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1872628-1-1.html</link>
+      <description>万能的泥潭，问个影视出片格式的问题。&#13;
+甲方给的格式是视频编码是MPEG-2，音频编码 PCM 48K，文件格式是mpg。从pr到fcpx，AME到格式工厂。能试得我都试了，搞不出符合需求的视频。有没有知道的大佬，讲解一下。</description>
+      <content:encoded><![CDATA[<p><b>Karen329: </b><br>
+<span>万能的泥潭，问个影视出片格式的问题。</span><br>
+<span>甲方给的格式是视频编码是MPEG-2，音频编码 PCM 48K，文件格式是mpg。从pr到fcpx，AME到格式工厂。能试得我都试了，搞不出符合需求的视频。有没有知道的大佬，讲解一下。</span><br>
+</p><p><b>stmule: </b><br>
+<span>电脑能播么？能播那NVIDIA alt+f9就完了</span><br>
+<span>ati的快捷键忘了，要不fraps吧，大就大点</span><br>
+</p><p><b>两个路人: </b><br>
+<span>这不是很标准的脚盆DV机格式吗？你这是导入不进去？还是甲方要求出成这个？</span><br>
+</p><p><b>Karen329: </b><br>
+<span>两个路人 发表于 2019-12-2 15:34</span><br>
+<span>这不是很标准的脚盆DV机格式吗？你这是导入不进去？还是甲方要求出成这个？ ...</span><br>
+<span>甲方要求出这个...能试的都试了。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>ffmpeg -vcodec mpeg2 -acodec libwavpack</span><br>
+</p><p><b>shinzero: </b><br>
+<span>ffmpeg -i input -codec:v mpeg2video -vf scale=720x576,interlace -b:v 4000k -codec:a pcm_s16le -b:a 128k -ar 48000 output.mpg根据你的需要修改</span><br>
+<span>-vf scale 分辨率</span><br>
+<span>-b:v视频码率</span><br>
+<span>-b:a音频码率</span><br>
+</p><p><b>vxzms: </b><br>
+<span>我记得PR能输出啊</span><br>
+</p><p><b>Geminize: </b><br>
+<span>ffmpeg -i xxx.mp4 -vcodec mpeg2video -acodec pcm_dvd -ar 48000 xxx.mpg</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>dvd也是时代的眼泪了</span><br>
+</p><p><b>Karen329: </b><br>
+<span>vxzms 发表于 2019-12-2 16:00</span><br>
+<span>我记得PR能输出啊</span><br>
+<span>出不了pcm音频编码的mpg</span><br>
+</p><p><b>Karen329: </b><br>
+<span>谢谢各位大佬，搞定了。</span><br>
+</p><p><b>hein: </b><br>
+<span> 本帖最后由 hein 于 2019-12-2 18:37 编辑 </span><br>
+<span>哦哦哦，看错</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-2 18:48 编辑 </span><br>
+<span>typeunknown 发表于 2019-12-2 17:02</span><br>
+<span>dvd也是时代的眼泪了</span><br>
+<span>然而并不是DVD。DVD的音频是AC3，需要PCM直出的基本上是摄像机和一些配套硬件。我寻思着不入流的Sony Vegas都有DV输出模板，阿逗比全家桶竟然没有，简直不可思议</span><br>
+</p><p><b>madbird302: </b><br>
+<span>MPG……记得是我刚接触电脑视频文件时常见的格式，后来直接被rm淹没了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>VEGAS那个DV模板改不了音频输出格式</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>两个路人 发表于 2019-12-2 18:46</span><br>
+<span>然而并不是DVD。DVD的音频是AC3，需要PCM直出的基本上是摄像机和一些配套硬件。我寻思着不入流的Sony Veg ...</span><br>
+<span>PCM、DTS、AC3、MP2都可以的，不过PCM体积太大了用得少</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>两个路人 发表于 2019-12-2 18:46</span><br>
+<span>然而并不是DVD。DVD的音频是AC3，需要PCM直出的基本上是摄像机和一些配套硬件。我寻思着不入流的Sony Veg ...</span><br>
+<span>adb这个输出的是m2v后缀</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>当年都是用TmpgEnc 4.0，先用ae导出avi，然后用TmpgEnc出片</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1872628[0-50]</guid>
+    </item>
+  </channel>
+</rss>

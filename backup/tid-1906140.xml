@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】在VRchat里做宝可梦</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】在VRchat里做宝可梦</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:05:15 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】在VRchat里做宝可梦[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906140-1-1.html</link>
+      <description>【已解决】在VRchat里做宝可梦&#13;
+ 本帖最后由 setree 于 2019-12-28 21:38 编辑 
+
+如题，作为扭曲伊布粉，看到鬼佬拆包了Poke Kid Eevee的模型第一时间搞下来，想转入VRChat转生宝可梦小朋友
+&#13;
+原模型是V社起源引擎.mdl格式，转入blender后遇到了一个问题：
+&#13;
+导出成fbx和dae格式后，贴图都会消失
+&#13;
+单纯导出obj后，在Unity里无法加载贴图球（选项为灰色）
+&#13;
+贴图转为tga与bmp格式都试过了，求大佬指点一下是哪里出了问题
+&#13;
+宝可梦小朋友模型：
+&#13;
+链接：https://pan.baidu.com/s/13OuWF3qr0pekgwHVrC9KvA 
+&#13;
+提取码：8vrb 
+&#13;
+mdl解包工具crowdbar
+&#13;
+blender版本号2.81a
+&#13;
+blender读取起源引擎插件Blender_Source_Tools
+&#13;
+unity版本号2017.4.28f1（vrc sdk要求的版本）
+&#13;
+ .blend格式的模型：
+&#13;
+链接：https://pan.baidu.com/s/1en-T_ZY98QBajq0-xlGB7w 
+&#13;
+提取码：862b 
+&#13;
+前天折腾了一个通宵没搞定，已解决
+&#13;
+做好的u3dpack：链接：https://pan.baidu.com/s/186O1FfpWpeNegPEZiMMKLA 
+&#13;
+提取码：x1l9</description>
+      <content:encoded><![CDATA[<p><b>setree: </b><br>
+<span>【已解决】在VRchat里做宝可梦</span><br>
+<span> 本帖最后由 setree 于 2019-12-28 21:38 编辑 </span><br>
+<span>如题，作为扭曲伊布粉，看到鬼佬拆包了Poke Kid Eevee的模型第一时间搞下来，想转入VRChat转生宝可梦小朋友</span><br>
+<span>原模型是V社起源引擎.mdl格式，转入blender后遇到了一个问题：</span><br>
+<span>导出成fbx和dae格式后，贴图都会消失</span><br>
+<span>单纯导出obj后，在Unity里无法加载贴图球（选项为灰色）</span><br>
+<span>贴图转为tga与bmp格式都试过了，求大佬指点一下是哪里出了问题</span><br>
+<span>宝可梦小朋友模型：</span><br>
+<span>链接：https://pan.baidu.com/s/13OuWF3qr0pekgwHVrC9KvA </span><br>
+<span>提取码：8vrb </span><br>
+<span>mdl解包工具crowdbar</span><br>
+<span>blender版本号2.81a</span><br>
+<span>blender读取起源引擎插件Blender_Source_Tools</span><br>
+<span>unity版本号2017.4.28f1（vrc sdk要求的版本）</span><br>
+<span> .blend格式的模型：</span><br>
+<span>链接：https://pan.baidu.com/s/1en-T_ZY98QBajq0-xlGB7w </span><br>
+<span>提取码：862b </span><br>
+<span>前天折腾了一个通宵没搞定，已解决</span><br>
+<span>做好的u3dpack：链接：https://pan.baidu.com/s/186O1FfpWpeNegPEZiMMKLA </span><br>
+<span>提取码：x1l9</span><br>
+</p><p><b>凪のあす: </b><br>
+<span>是大佬</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>非专业，只是瞎猜：试过新建材质没？Unity默认材质应该是没贴图的，导出fbx应该不会丢uv，新建个材质放贴图上去，再把新材质给模型？</span><br>
+</p><p><b>setree: </b><br>
+<span>Aeroblast 发表于 2019-12-28 19:34</span><br>
+<span>非专业，只是瞎猜：试过新建材质没？Unity默认材质应该是没贴图的，导出fbx应该不会丢uv，新建个材质放贴图 ...</span><br>
+<span>右下角那个预览正常了，但上面好像贴图丢失了？</span><br>
+</p><p><b>setree: </b><br>
+<span>已解决，对应好文件名后直接指定就OK了</span><br>
+<span>顺带一提我发现Source Filmmaker的创意工坊里藏了好多好东西，果然不愧是上代颜色视频制作中心</span><br>
+<span>比如说泥潭指定老婆：https://steamcommunity.com/sharedfiles/filedetails/?id=1703401626</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906140[0-50]</guid>
+    </item>
+  </channel>
+</rss>

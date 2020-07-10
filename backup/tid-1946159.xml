@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>海外网络加速</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>海外网络加速</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:12:28 +0000</lastBuildDate>
+    <item>
+      <title>海外网络加速[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946159-1-1.html</link>
+      <description>海外网络加速&#13;
+公司的业务需要经常远程国外客户的电脑或设备。访问海外的网站和服务器等。直连的速度经常很慢很卡，想问问现在有没有什么成本合适的海外网络加速方案？1.最近联系了一家SDWAN公司，给了一个试用账号。确实能达到期望的效果，海外网站访问和远程桌面几乎能达到国内的效果。网络应该是走了香港节点转发。但是报价挺高的，一年要五六w。
+&#13;
+2.运营商海外专线。不知道费用如何，听说运营商专线要比SDWAN贵很多。
+&#13;
+3.以前听坛友说过电信精品网什么的，不知道能不能达到预期的效果，费用如何。
+&#13;
+4.海外游戏加速这种不知道能用在我们这种场景吗？一年几百块倒是很便宜。
+&#13;
+5.可以自建云服务达到海外加速的目的吗？我们在美国有Azure云，我以前搭过科学上网，开全局模式依然很慢，远远达不到上面SDWAN加速的效果。估计是姿势不对。
+&#13;
+想要问问一年成本预算千元级，有可以用的海外加速服务吗？</description>
+      <content:encoded><![CDATA[<p><b>bixinhaner: </b><br>
+<span>海外网络加速</span><br>
+<span>公司的业务需要经常远程国外客户的电脑或设备。访问海外的网站和服务器等。直连的速度经常很慢很卡，想问问现在有没有什么成本合适的海外网络加速方案？1.最近联系了一家SDWAN公司，给了一个试用账号。确实能达到期望的效果，海外网站访问和远程桌面几乎能达到国内的效果。网络应该是走了香港节点转发。但是报价挺高的，一年要五六w。</span><br>
+<span>2.运营商海外专线。不知道费用如何，听说运营商专线要比SDWAN贵很多。</span><br>
+<span>3.以前听坛友说过电信精品网什么的，不知道能不能达到预期的效果，费用如何。</span><br>
+<span>4.海外游戏加速这种不知道能用在我们这种场景吗？一年几百块倒是很便宜。</span><br>
+<span>5.可以自建云服务达到海外加速的目的吗？我们在美国有Azure云，我以前搭过科学上网，开全局模式依然很慢，远远达不到上面SDWAN加速的效果。估计是姿势不对。</span><br>
+<span>想要问问一年成本预算千元级，有可以用的海外加速服务吗？</span><br>
+</p><p><b>overflowal: </b><br>
+<span>找Rixcloud买企业级的套餐，Team subscription</span><br>
+<span>—— 来自 meizu 17, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>上海才有电信精品网吧</span><br>
+</p><p><b>cosx: </b><br>
+<span>企业精品网可是很贵的</span><br>
+</p><p><b>halleluiah: </b><br>
+<span>电信企业用户最低宽带套餐的精品网每月500。但不给办了，因为精品网会有一个固定IP,资源不够。</span><br>
+<span>新的听说好像要Gpon套餐才能选精品网选项。套餐价格就很夸张了，不知道大客户楼宇经理能给多少折扣。</span><br>
+</p><p><b>刘佐: </b><br>
+<span>SDWAN首先问题是价格和带宽，你这个不涉及私有协议的路由与转发，那么高看预算。或者联系大厂多比较一下</span><br>
+<span>海外专线与精品网你直接问宽带供应商或者客户经理</span><br>
+<span>云加速只对游戏</span><br>
+<span>自建云服务一样问题，出口堵着你外面再怎么好也依旧该卡还是卡。</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>电信员工表示你的预算建议2L的方案，当然你有传入的需求还是建议走运营商的专线</span><br>
+<span>魔都的精品网已经严重超售了，没办法做到很好的业务支撑</span><br>
+<span>海外游戏加速基本就是针对需要解析的域名进行，意义不大</span><br>
+<span>美国的Azure链路等级低，国内Azure在备案的情况下有专门出去的线路，但是贵</span><br>
+<span>SD-WAN说白了就是打隧道，好不好看你接入线路和网关给不给力</span><br>
+</p><p><b>TR4835: </b><br>
+<span>一年成本千元左右的话感觉还是自建吧... </span><br>
+</p><p><b>shikkoku: </b><br>
+<span>Rixcloud有许可证，楼主你可以考虑下。</span><br>
+</p><p><b>GiGaFotress: </b><br>
+<span>预算不够就找个中转鸡出去不就完事</span><br>
+</p><p><b>听剑客: </b><br>
+<span>马克，正好现在急需，四十到五十人需要日常上法兰克福AWS。方案记下了，看看有哪些能过隐私和安全部门。。。</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>wave14: </b><br>
+<span>简单</span><br>
+<span>再去买点Azure世纪互联的云</span><br>
+<span>你用Azure自己的site2site也好, 自己通过第三方软件架也好</span><br>
+<span>本地网络全局路由到Azure美国做出口</span><br>
+<span>可以做到ytb 4K流畅</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946159[0-50]</guid>
+    </item>
+  </channel>
+</rss>

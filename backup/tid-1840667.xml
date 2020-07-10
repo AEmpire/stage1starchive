@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农归外野，好奇想问一下(dota/自走棋)怎么获取局面状态</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农归外野，好奇想问一下(dota/自走棋)怎么获取局面状态</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:39:49 +0000</lastBuildDate>
+    <item>
+      <title>码农归外野，好奇想问一下(dota/自走棋)怎么获取局面状态[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840667-1-1.html</link>
+      <description>码农归外野，好奇想问一下(dota/自走棋)怎么获取局面状态&#13;
+想用网络搞一个自走棋AI玩玩
+&#13;
+纯娱乐非盈利。
+&#13;
+但是目前问题是不知道怎么去获取局面状态（包括对手的局面状态）。
+&#13;
+像DeepMind搞星际/data2人工智能，他们怎么获取到的。</description>
+      <content:encoded><![CDATA[<p><b>moonsin: </b><br>
+<span>码农归外野，好奇想问一下(dota/自走棋)怎么获取局面状态</span><br>
+<span>想用网络搞一个自走棋AI玩玩</span><br>
+<span>纯娱乐非盈利。</span><br>
+<span>但是目前问题是不知道怎么去获取局面状态（包括对手的局面状态）。</span><br>
+<span>像DeepMind搞星际/data2人工智能，他们怎么获取到的。</span><br>
+</p><p><b>icicle314: </b><br>
+<span>他们有API的 Dota2这方面研究多也是因为给出了接口 </span><br>
+</p><p><b>icicle314: </b><br>
+<span>不过也有基于画面用计算机视觉获取状态的，但是难度更高了</span><br>
+</p><p><b>you2996: </b><br>
+<span>星际是暴雪直接提供的api，dota2但应该是类似的（没注意过报导）</span><br>
+</p><p><b>mimighost: </b><br>
+<span>dota2有api吧</span><br>
+<span>deepmind的星际environment开源的</span><br>
+<span>https://github.com/deepmind/pysc2</span><br>
+</p><p><b>沉默的寒冰: </b><br>
+<span>研究下外挂？</span><br>
+</p><p><b>moonsin: </b><br>
+<span>沉默的寒冰 发表于 2019-6-19 16:22</span><br>
+<span>研究下外挂？</span><br>
+<span>哈哈 其实差不多</span><br>
+</p><p><b>moonsin: </b><br>
+<span>mimighost 发表于 2019-6-19 16:19</span><br>
+<span>dota2有api吧</span><br>
+<span>deepmind的星际environment开源的</span><br>
+<span>找到个dota的。</span><br>
+<span>具体还要看一下。</span><br>
+<span>https://github.com/ValvePython/dota2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840667[0-50]</guid>
+    </item>
+  </channel>
+</rss>

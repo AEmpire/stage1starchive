@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD Radeon年度驱动细节曝光：HD 7000以上显卡都能支持整数缩放</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD Radeon年度驱动细节曝光：HD 7000以上显卡都能支持整数缩放</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:21:39 +0000</lastBuildDate>
+    <item>
+      <title>AMD Radeon年度驱动细节曝光：HD 7000以上显卡都能支持整数缩放[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1889891-1-1.html</link>
+      <description>AMD Radeon年度驱动细节曝光：HD 7000以上显卡都能支持整数缩放&#13;
+昨天我们报道了AMD Radeon显卡年度压轴福利驱动可能定名“Radeon Software Adrenalin 2019 Edition（肾上腺素）”，新增名为Radeon Boost智能帧数提高功能。有细心网友发现，在AMD官网的一则脚注中，不仅再次确认了“Radeon Boost”，还出现了“Integer Scaling（整数缩放）”（截稿前已被删除）。
+&#13;
+所谓整数缩放，简单地说就是在一些像素级的游戏中，尤其是模拟器里跑老游戏的时候，会通过最临近像素乘法模型，使之即便在高分辨率下也依然能保持画面清晰、图像边缘锐利。传统的双线性缩放(bilinear upscaling)会改变相乘像素的颜色数据，导致画面模糊。https://static.cnbetacdn.com/article/2019/1209/848f167e12fb274.jpgNVIDIA在今年8月底发布的436.02版驱动中首发支持整数缩放，不过仅限图灵架构显卡，Intel核芯显卡也随后加入，但仅限10nm Ice Lake十代酷睿。理论上说，整数缩放功能需要硬件加速可编程缩放滤镜的支持，老卡应该无缘，但在脚注中AMD却强调，DX11/DX12/Vulkan环境下，最早8年前的GCN 7000系列显卡也能支持，RX 5000系列更是可下方到DX9环境。
+&#13;
+至于Radeon Boost，需要RX 400系列显卡或锐龙APU才能支持。
+&#13;
+不出意外的，年度驱动将于12月中下旬发布。</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>AMD Radeon年度驱动细节曝光：HD 7000以上显卡都能支持整数缩放</span><br>
+<span>昨天我们报道了AMD Radeon显卡年度压轴福利驱动可能定名“Radeon Software Adrenalin 2019 Edition（肾上腺素）”，新增名为Radeon Boost智能帧数提高功能。有细心网友发现，在AMD官网的一则脚注中，不仅再次确认了“Radeon Boost”，还出现了“Integer Scaling（整数缩放）”（截稿前已被删除）。</span><br>
+<span>所谓整数缩放，简单地说就是在一些像素级的游戏中，尤其是模拟器里跑老游戏的时候，会通过最临近像素乘法模型，使之即便在高分辨率下也依然能保持画面清晰、图像边缘锐利。传统的双线性缩放(bilinear upscaling)会改变相乘像素的颜色数据，导致画面模糊。https://static.cnbetacdn.com/article/2019/1209/848f167e12fb274.jpgNVIDIA在今年8月底发布的436.02版驱动中首发支持整数缩放，不过仅限图灵架构显卡，Intel核芯显卡也随后加入，但仅限10nm Ice Lake十代酷睿。理论上说，整数缩放功能需要硬件加速可编程缩放滤镜的支持，老卡应该无缘，但在脚注中AMD却强调，DX11/DX12/Vulkan环境下，最早8年前的GCN 7000系列显卡也能支持，RX 5000系列更是可下方到DX9环境。</span><br>
+<span>至于Radeon Boost，需要RX 400系列显卡或锐龙APU才能支持。</span><br>
+<span>不出意外的，年度驱动将于12月中下旬发布。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>5700xt爽到</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>这种东西为什么现在才拿出来</span><br>
+<span>明明理论上应该是超级简单的玩意....</span><br>
+<span>我就不懂了，四合一显示到底难点在哪里</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>矿卡爽到</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>kuleisite1992 发表于 2019-12-10 00:47</span><br>
+<span>这种东西为什么现在才拿出来</span><br>
+<span>明明理论上应该是超级简单的玩意....</span><br>
+<span>我就不懂了，四合一显示到底难点 ...</span><br>
+<span>就是,就这intel和Nv还当宝不给旧显卡呢.</span><br>
+</p><p><b>albertfu: </b><br>
+<span>还能想着GCN还算有良心</span><br>
+<span>支持硬件DXR的A卡能比PS5早出吗</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>a n都开始支持整数倍缩放，是不是暗示现在显卡的技术发展已经无法满足4k全特效游戏了？更不要说一些144hz的fps。所以只好让大家1080凑合着</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>处男鉴黄师 发表于 2019-12-10 02:33</span><br>
+<span>a n都开始支持整数倍缩放，是不是暗示现在显卡的技术发展已经无法满足4k全特效游戏了？更不要说一些144hz的 ...</span><br>
+<span>10年前1080p游戏也这样</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>处男鉴黄师 发表于 2019-12-10 02:33</span><br>
+<span>a n都开始支持整数倍缩放，是不是暗示现在显卡的技术发展已经无法满足4k全特效游戏了？更不要说一些144hz的 ...</span><br>
+<span>我觉得1080p还行，用这个分辨率打多了fps，换到其他分辨率还不太适应鼠标移动的感觉。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>怀特赛兹: </b><br>
+<span>GCN可以插帧</span><br>
+<span>又可以这个</span><br>
+<span>买5700就不能插帧</span><br>
+</p><p><b>Panda付: </b><br>
+<span>kuleisite1992 发表于 2019-12-10 00:47:52</span><br>
+<span>这种东西为什么现在才拿出来</span><br>
+<span>明明理论上应该是超级简单的玩意....</span><br>
+<span>我就不懂了，四合一显示到底难点在哪里 ...牙膏一次挤完了 下次ppt怎么办</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>小ghoul: </b><br>
+<span>只能amdyes了</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>其實是難以跟gcn在驅動上做切割吧</span><br>
+</p><p><b>白头盔: </b><br>
+<span>gnc矿卡真的性价比无敌啊。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>a卡战未来石锤了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>这么多年GCN的潜力一直被垃圾驱动拖累了吧</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-12-10 09:26 编辑 </span><br>
+<span>这个特性特别适合游戏机啊，4K UI，1080p 3D，你还不怎么看得出来</span><br>
+<span>如果有这种插值的线卖就好了</span><br>
+<span>不过，我刚买的2k显示器只能当720p用了</span><br>
+</p><p><b>bm7号: </b><br>
+<span> 本帖最后由 bm7号 于 2019-12-10 09:46 编辑 </span><br>
+<span>处男鉴黄师 发表于 2019-12-10 02:33</span><br>
+<span>a n都开始支持整数倍缩放，是不是暗示现在显卡的技术发展已经无法满足4k全特效游戏了？更不要说一些144hz的 ...</span><br>
+<span>不是，这是给老2d游戏用的，而且用了之后真就是整数倍放大640*480的游戏变成1280*960都填不满屏幕，四周都有黑边。而且在两倍的时候跟过去的显示面积调整的显示效果没区别，可能3倍的时候有区别吧。</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>草，因为这我换了2070s，早知道等多几天上5700xt</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rhocas: </b><br>
+<span>typeunknown 发表于 2019-12-10 09:15</span><br>
+<span>这么多年GCN的潜力一直被垃圾驱动拖累了吧</span><br>
+<span>现在还信这个？</span><br>
+<span>吹gcn的潜力和吹未来是三哥的差不多</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>gcn挺好的, 今年买的全新580很满意</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>塔奇克马 发表于 2019-12-10 00:56</span><br>
+<span>就是,就这intel和Nv还当宝不给旧显卡呢.</span><br>
+<span>gtmd嘤特尔和老黄</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>rhocas 发表于 2019-12-10 09:56</span><br>
+<span>现在还信这个？</span><br>
+<span>吹gcn的潜力和吹未来是三哥的差不多</span><br>
+<span>前几年挖矿啦madvr啦什么杂七杂八的花活就是比黄家强啊</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>typeunknown 发表于 2019-12-10 12:20</span><br>
+<span>前几年挖矿啦madvr啦什么杂七杂八的花活就是比黄家强啊</span><br>
+<span>什麼都強 就是遊戲不強</span><br>
+</p><p><b>白武男: </b><br>
+<span>hd7970继续战未来</span><br>
+</p><p><b>白头盔: </b><br>
+<span>能不能win10也支持整数缩放。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>gofbayrf 发表于 2019-12-10 12:21</span><br>
+<span>什麼都強 就是遊戲不強</span><br>
+<span>什么?</span><br>
+<span>你还指望250mm左右的navi10能干赢750mm+的tu102?</span><br>
+</p><p><b>narutoz: </b><br>
+<span>怀特赛兹 发表于 2019-12-10 08:09</span><br>
+<span>GCN可以插帧</span><br>
+<span>刷了vega64bios的vega56 yes！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1889891[0-50]</guid>
+    </item>
+  </channel>
+</rss>

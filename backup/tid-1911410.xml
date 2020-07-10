@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>华硕路由器这什么毛病</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>华硕路由器这什么毛病</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:30:37 +0000</lastBuildDate>
+    <item>
+      <title>华硕路由器这什么毛病[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911410-1-1.html</link>
+      <description>华硕路由器这什么毛病&#13;
+从ac66开始上了华硕的贼船，不是说觉得它多好用，只是因为没啥大问题所以一直到现在都习惯性的买华硕。
+
+目前我租的房间用ac88u，给老家买了个ac68u。刚开始还好，但渐渐的遇到的小问题越来越多。
+
+ac88u的情况：
+
+①经常半夜三点准时断网（也有几次一点两点断的情况），重新连接后恢复正常
+
+②5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。
+
+③新买的nvidia shield tv 2019连不上或者连接后无法接入网络，偶尔正常也会在三五分钟后失去网络连接。现在的解决办法是在ac88u上又串了个裴讯k3，shield连接k3就一切正常了。
+
+④官方固件和梅林固件都有以上问题。
+
+ac68u的情况：
+
+①5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。
+
+②新买的nvidia shield tv 2017（爱奇艺国行版）头几天能正常连接，但是昨天又出现断网情况，看着看着提示没网络了，也不会自动重连，而是需要手动重新连接。出现时间不固定，有时候几分钟有时候大半天。解决方法是翻出了古老的水果airport串上ac68u，然后连airport就正常了。
+
+虽然都不是啥致命问题，但是总是这样也还是太蛋疼了，是我不会用还是和华硕天生犯冲？网件会不会好点？</description>
+      <content:encoded><![CDATA[<p><b>Saker_bobo: </b><br>
+<span>yang6451 发表于 2020-1-31 11:53</span><br>
+<span>AX11000买不起，AC5300办公室买过一台，用了一年感觉现在小问题也挺多</span><br>
+<span>被你们一说感觉现在没啥靠谱的中高 ...</span><br>
+<span>对自己好些 换高通或者mtk试试</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>モトロ: </b><br>
+<span>500M以下继续买WIFI5的想跑1000M买WIFI6的 很简单啊</span><br>
+<span>买几个二手的电信定制版wifi6路由器就行了 便宜</span><br>
+</p><p><b>john: </b><br>
+<span>yang6451 发表于 2020-1-31 11:53</span><br>
+<span>AX11000买不起，AC5300办公室买过一台，用了一年感觉现在小问题也挺多</span><br>
+<span>被你们一说感觉现在没啥靠谱的中高 ...</span><br>
+<span>你要高端，华硕和Broadcom就是下游和上游厂商的最强组合，其他的要么性能不高端，要么功能不高端</span><br>
+<span>不稳定是另一回事，ROG主板返修率也挺高的，有一半是越复杂的东西故障率越高，有一半是自己折腾的</span><br>
+<span>小毛病又是另一回事，比如最简单的无线断流问题，兼容性是无解的，你去用路由器型号加断流关键字去搜，没有哪个型号能幸免，只能说AP和客户端都买最好的设备、AP每个月重启一次可以最大程度避免类似问题</span><br>
+</p><p><b>defer: </b><br>
+<span>松霖 发表于 2020-1-31 02:40</span><br>
+<span>有没有适合ac86u路由器用的风扇推荐啊，我怕夏天直接就交代了</span><br>
+<span>淘宝几块钱买个usb转小3pin，找个闲置机箱风扇用扎带挂上。</span><br>
+</p><p><b>Saphir: </b><br>
+<span>尼玛，现在可是冬天，建议加风扇的莫不是华硕路由器黑？</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2020-1-31 13:42 编辑 </span><br>
+<span>Saker_bobo 发表于 2020-1-31 11:56</span><br>
+<span>你要是用它跑得满带宽就继续用呗</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>用硬件nat转发500m以下应该都够用吧，我是200m能跑满。也就是开ssr去广告之类会不够，但看这楼里的需求也不需要这些，单纯做路由网关的话，两三百块应该也只是有无线性能的优势吧？</span><br>
+</p><p><b>ulric: </b><br>
+<span> 本帖最后由 ulric 于 2020-1-31 14:04 编辑 </span><br>
+<span>普通家用：qualcomm > mtk、realtek > broadcom > intel > quantenna</span><br>
+<span>nxp/marvell和gigahome不参与竞争</span><br>
+<span>不折腾随便买个群晖RT2600ac</span><br>
+</p><p><b>defer: </b><br>
+<span>Saphir 发表于 2020-1-31 13:22</span><br>
+<span>尼玛，现在可是冬天，建议加风扇的莫不是华硕路由器黑？</span><br>
+<span>最近过年，家里供到26度了，白天要适当开开窗。</span><br>
+</p><p><b>werone: </b><br>
+<span>Saphir 发表于 2020-01-31 13:22:20</span><br>
+<span>尼玛，现在可是冬天，建议加风扇的莫不是华硕路由器黑？有一种冬天叫东北的冬天</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>Saphir 发表于 2020-1-31 13:22</span><br>
+<span>尼玛，现在可是冬天，建议加风扇的莫不是华硕路由器黑？</span><br>
+<span>我路由器没地方摆就搁暖气边上了</span><br>
+</p><p><b>gaiden: </b><br>
+<span>UGDJ 发表于 2020-1-31 14:42</span><br>
+<span>我路由器没地方摆就搁暖气边上了</span><br>
+<span>怕不是热飞，我这ax88u，不加散热冬天都要50度了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yang6451: </b><br>
+<span>linksys mx5300能买吗？看了下高通芯片</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>rentrody 发表于 2020-1-31 13:39</span><br>
+<span>用硬件nat转发500m以下应该都够用吧，我是200m能跑满。也就是开ssr去广告之类会不够，但看这楼里的需求也 ...</span><br>
+<span>有线转到无线也是需要CPU的 如果是300M只跑有线的话 7620应该没问题 我没有千兆LAN口的7620 不清楚硬件NAT能跑多少 7621的话有线可以轻松跑满千兆 搭配7615的话无线能跑到850</span><br>
+</p><p><b>ulric: </b><br>
+<span> 本帖最后由 ulric 于 2020-1-31 15:36 编辑 </span><br>
+<span>yang6451 发表于 2020-1-31 14:59</span><br>
+<span>linksys mx5300能买吗？看了下高通芯片</span><br>
+<span>这个是mesh，配Velop效果更佳</span><br>
+<span>wifi6高端8t8r只有高通，博通落后了</span><br>
+</p><p><b>mhss: </b><br>
+<span>稳定的梅林改版86U路过，对加风扇的需求始终理解不了</span><br>
+</p><p><b>defer: </b><br>
+<span>yang6451 发表于 2020-1-31 14:59</span><br>
+<span>linksys mx5300能买吗？看了下高通芯片</span><br>
+<span>当前版本毕业装备</span><br>
+</p><p><b>password: </b><br>
+<span>yang6451 发表于 2020-1-31 14:59</span><br>
+<span>linksys mx5300能买吗？看了下高通芯片</span><br>
+<span>velop的无线水平是广受好评的</span><br>
+<span>但是作为路由它的功能太弱 最好改为网桥模式搭配软路由使用</span><br>
+</p><p><b>qwased: </b><br>
+<span>yang6451 发表于 2020-1-31 14:59</span><br>
+<span>linksys mx5300能买吗？看了下高通芯片</span><br>
+<span>家用不需要思考，TPLINK易展就完事了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>モトロ 发表于 2020-1-31 12:04</span><br>
+<span>500M以下继续买WIFI5的想跑1000M买WIFI6的 很简单啊</span><br>
+<span>买几个二手的电信定制版wifi6路由器就行了...</span><br>
+<span>电信有wifi6的？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>看了楼上说法让人虎躯一震，博通比不上高通就算了，毕竟现在路由器的角色变了，成了家庭服务器，博通从手机soc开始，sata usb pcie等io丰富，不过居然连mtk螃蟹都不如了看来那一阵卖千元的博通路由都是坑钱。</span><br>
+</p><p><b>qwased: </b><br>
+<span>伊可费斯 发表于 2020-1-31 19:30</span><br>
+<span>看了楼上说法让人虎躯一震，博通比不上高通就算了，毕竟现在路由器的角色变了，成了家庭服务器，博通从手机 ...</span><br>
+<span>因为螃蟹性能垃圾厂家不会拿来搞花活啊</span><br>
+<span>ac86那个固件折腾了n久都不知道现在稳定了没</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>shinjico: </b><br>
+<span>如果我没有记错的话，固定时间断网重连是电信的一项服务，目的是让你释放IP，换别的IP。我之前是每48小时断联一次，打电话找电信取消这项服务就再也没有断联过。</span><br>
+</p><p><b>モトロ: </b><br>
+<span>伊可费斯 发表于 2020-1-31 19:19</span><br>
+<span>电信有wifi6的？</span><br>
+<span>有wifi6的mesh路由器了ty-400</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>shinjico 发表于 2020-1-31 20:45</span><br>
+<span>如果我没有记错的话，固定时间断网重连是电信的一项服务，目的是让你释放IP，换别的IP。我之前是每48小时断 ...</span><br>
+<span>服务还行，也不知是服务谁的</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>伊可费斯 发表于 2020-1-31 19:19</span><br>
+<span>电信有wifi6的？</span><br>
+<span>有，正当白菜送着呢。</span><br>
+</p><p><b>yang6451: </b><br>
+<span> shinjico 发表于 2020-1-31 20:45 如果我没有记错的话，固定时间断网重连是电信的一项服务，目的是让你释放IP，换别的IP。我之前是每48小时断联一次，打电话找电信取消这项服务就再也没有断联过。 </span><br>
+<span>还有这蛋疼服务？回头打电话问问，多谢提醒</span><br>
+</p><p><b>yang6451: </b><br>
+<span>下单了一台mx5300，等到货，好用的话回头再给家里买一台</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2020-2-1 13:32 编辑 </span><br>
+<span>モトロ 发表于 2020-2-1 11:50</span><br>
+<span>有wifi6的mesh路由器了ty-400</span><br>
+<span>看了下bcm6750 还可以和阿苏斯ax58u tp的ax1500一个方案 1.5g 三核，问题是它是2x2</span><br>
+</p><p><b>justevil: </b><br>
+<span>madbird302 发表于 2020-1-30 19:07</span><br>
+<span>水星哪个型号比AC68U还好用？</span><br>
+<span>好多年前的了，好像是330R，据说跟tp还有个啥牌子pcb都一样，有好多固件能刷，虽然没5G，不过用起来很稳不会察觉到无线的存在，不会断流也不用重启。后来1300买了68u，玩农药老断流，坚持升级了好几年固件才正常，原来的水星折腾完用到死都没再升过固件。</span><br>
+</p><p><b>defer: </b><br>
+<span>2x2 wifi6就算了，我宁肯用4x4 ac。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911410[50-100]</guid>
+    </item>
+    <item>
+      <title>华硕路由器这什么毛病[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911410-1-1.html</link>
+      <description>华硕路由器这什么毛病&#13;
+从ac66开始上了华硕的贼船，不是说觉得它多好用，只是因为没啥大问题所以一直到现在都习惯性的买华硕。
+
+目前我租的房间用ac88u，给老家买了个ac68u。刚开始还好，但渐渐的遇到的小问题越来越多。
+
+ac88u的情况：
+
+①经常半夜三点准时断网（也有几次一点两点断的情况），重新连接后恢复正常
+
+②5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。
+
+③新买的nvidia shield tv 2019连不上或者连接后无法接入网络，偶尔正常也会在三五分钟后失去网络连接。现在的解决办法是在ac88u上又串了个裴讯k3，shield连接k3就一切正常了。
+
+④官方固件和梅林固件都有以上问题。
+
+ac68u的情况：
+
+①5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。
+
+②新买的nvidia shield tv 2017（爱奇艺国行版）头几天能正常连接，但是昨天又出现断网情况，看着看着提示没网络了，也不会自动重连，而是需要手动重新连接。出现时间不固定，有时候几分钟有时候大半天。解决方法是翻出了古老的水果airport串上ac68u，然后连airport就正常了。
+
+虽然都不是啥致命问题，但是总是这样也还是太蛋疼了，是我不会用还是和华硕天生犯冲？网件会不会好点？</description>
+      <content:encoded><![CDATA[<p><b>yang6451: </b><br>
+<span>华硕路由器这什么毛病</span><br>
+<span>从ac66开始上了华硕的贼船，不是说觉得它多好用，只是因为没啥大问题所以一直到现在都习惯性的买华硕。</span><br>
+<span>目前我租的房间用ac88u，给老家买了个ac68u。刚开始还好，但渐渐的遇到的小问题越来越多。</span><br>
+<span>ac88u的情况：</span><br>
+<span>①经常半夜三点准时断网（也有几次一点两点断的情况），重新连接后恢复正常</span><br>
+<span>②5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。</span><br>
+<span>③新买的nvidia shield tv 2019连不上或者连接后无法接入网络，偶尔正常也会在三五分钟后失去网络连接。现在的解决办法是在ac88u上又串了个裴讯k3，shield连接k3就一切正常了。</span><br>
+<span>④官方固件和梅林固件都有以上问题。</span><br>
+<span>ac68u的情况：</span><br>
+<span>①5g或者2.4g经常其中一个能连上，但上不去网。切换到另一个正常。</span><br>
+<span>②新买的nvidia shield tv 2017（爱奇艺国行版）头几天能正常连接，但是昨天又出现断网情况，看着看着提示没网络了，也不会自动重连，而是需要手动重新连接。出现时间不固定，有时候几分钟有时候大半天。解决方法是翻出了古老的水果airport串上ac68u，然后连airport就正常了。</span><br>
+<span>虽然都不是啥致命问题，但是总是这样也还是太蛋疼了，是我不会用还是和华硕天生犯冲？网件会不会好点？</span><br>
+</p><p><b>ulric: </b><br>
+<span>别买博通</span><br>
+</p><p><b>defer: </b><br>
+<span>博通U的路由器发现稀奇古怪的问题，七成以上可以通过加个风扇解决。</span><br>
+</p><p><b>yang6451: </b><br>
+<span>原来是芯片的问题吗…还有什么可以推荐的路由器，1-2k价位都行</span><br>
+</p><p><b>yuuu: </b><br>
+<span>我曾经买了两个ac86，都是因为断网退了</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>现在换路由器挺亏的，wifi5不值得，wifi6价格高还不成熟，标准还没完全定下来，支持wifi6的终端也少</span><br>
+<span>要是没过保修期先找找华硕售后一下吧</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>datzz: </b><br>
+<span>66u问题也不少吧</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>华硕硬件出问题的几率比较大 最简单买网件刷梅林</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>博通就是这么热 网件还是算了 </span><br>
+<span>建议tb搞几个专用风扇挂着 要么就换高通的 不过现有设备支持度是个问题</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>买过88u，就是这样……网件也用过俩，比华硕的稳定多了。</span><br>
+</p><p><b>defer: </b><br>
+<span>同价位的华硕和网件都是一样的博通再贴片铝，能好到哪去，刷起来还更麻烦。</span><br>
+<span>要么买个风扇一劳永逸。</span><br>
+<span>要么就软路由+螃蟹当AP</span><br>
+<span>高通的机器路还长，acrh17似乎有包了，不知具体如何。</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>我ax11000没发现任何问题</span><br>
+</p><p><b>ulric: </b><br>
+<span> 本帖最后由 ulric 于 2020-1-30 17:15 编辑 </span><br>
+<span>国内GL.iNet这牌子似高通铁粉，ipq4029除了它都没见人用过</span><br>
+<span>可惜ipq4029+openwrt卖r7800的价，还暗示你买多个组mesh，英文官方论坛看着主供洋大人，来福值和做工品控应该不错</span><br>
+<span>https://github.com/gl-inet</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span> 本帖最后由 伊可费斯 于 2020-1-30 20:59 编辑 </span><br>
+<span>defer 发表于 2020-1-30 16:11</span><br>
+<span>同价位的华硕和网件都是一样的博通再贴片铝，能好到哪去，刷起来还更麻烦。</span><br>
+<span>要么买个风扇一劳永逸。</span><br>
+<span>高通的梅林是lean开发的，据说是伪梅林，因为高通压根没有开源的代码。</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>ulric 发表于 2020-1-30 16:51</span><br>
+<span>国内GL.iNet这牌子似高通铁粉，ipq4029除了它都没见人用过</span><br>
+<span>可惜ipq4029+openwrt卖r7800的价，还暗示你买多 ...</span><br>
+<span>次一级4019的星际宝盒啊</span><br>
+</p><p><b>defer: </b><br>
+<span>伊可费斯 发表于 2020-1-30 17:03</span><br>
+<span>高通的梅林是lean开发的，据说是伪梅林，因为高通压根没有开源的无线代码。 ...</span><br>
+<span>梅林从来加载的都是二进制驱动。</span><br>
+<span>应该是梅林固件没做过非博通版，并且内核更新的也不频繁，在fork制作高通的过程中要做的工作肯定比fork一个博通版要多。</span><br>
+</p><p><b>znjznj: </b><br>
+<span>难怪之前买86U官店还送风扇</span><br>
+</p><p><b>madbird302: </b><br>
+<span>AC68U稳定使用第四年，全年无休</span><br>
+</p><p><b>qwased: </b><br>
+<span>谁叫你迷信华硕的</span><br>
+<span>有一说一，华硕除了UI好看真没啥出色的点</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>真的，加个风扇，外加设定个定时重启，能提高很大稳定性</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>justevil: </b><br>
+<span>好多年前1000多买的68u也不如100块的水星好用</span><br>
+</p><p><b>madbird302: </b><br>
+<span>justevil 发表于 2020-1-30 19:05</span><br>
+<span>好多年前1000多买的68u也不如100块的水星好用</span><br>
+<span>水星哪个型号比AC68U还好用？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>我的ac56u ac68u明天晚上11点断网，原来不是电信的原因？</span><br>
+</p><p><b>topgamer: </b><br>
+<span>AC66U-B1搭配的笔记本散热底座，虽然不知道有没有作用，父母家和自己家的有七八个月没关机，一切正常。</span><br>
+<span>自己的刷的改版梅林，父母家的官方固件。</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>试图买两个扇给 86u 挂上，然后现在各种店家都不发货…估计得下个月中旬了</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>买个家用路由哪用动不动一两千 你买个400块的ARCH17都能用到AX普及了 动手能力好点的话买个300块的dir878刷padavan体验也一样</span><br>
+</p><p><b>皇牌马甲: </b><br>
+<span>楼主，断网后你是采用什么方法重新连接的？</span><br>
+<span>我是关闭手机wifi，然后在打开。</span><br>
+<span>面前我还不清楚是手机的问题还是路由器的问题</span><br>
+</p><p><b>铅笔: </b><br>
+<span>华硕确实不是很好用，ac88u偶尔就断了。以后还是继续用回linksys算了。</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>楼上各位ac88u用户可能就是被ac88u坑了</span><br>
+<span>博通bcm4366是有缺陷的，一大票用bcm4366的路由器都有问题包括ac88u rt-ac5300之类的</span><br>
+<span>博通弄了个bcm4366e才比较稳定，我的ac86u就挺稳定的</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span>Saker_bobo 发表于 2020-1-30 19:44</span><br>
+<span>买个家用路由哪用动不动一两千 你买个400块的ARCH17都能用到AX普及了 动手能力好点的话买个300块的dir878刷 ...</span><br>
+<span>50块的mt7620a够不够用呢？</span><br>
+</p><p><b>SICP: </b><br>
+<span>madbird302 发表于 2020-1-30 19:07</span><br>
+<span>水星哪个型号比AC68U还好用？</span><br>
+<span>D191G，稳定性比AC68U好太多</span><br>
+</p><p><b>john: </b><br>
+<span>SICP 发表于 2020-1-30 23:14</span><br>
+<span>D191G，稳定性比AC68U好太多</span><br>
+<span>MTK的无线产品白送都不能要</span><br>
+<img src="https://www.acwifi.net/wp-content/uploads/2019/12/SAM_5602.jpg" title="https://www.acwifi.net/wp-content/uploads/2019/12/SAM_5602.jpg"><br>
+</p><p><b>john: </b><br>
+<span>qwased 发表于 2020-1-30 18:49</span><br>
+<span>谁叫你迷信华硕的</span><br>
+<span>有一说一，华硕除了UI好看真没啥出色的点</span><br>
+<span>那是因为你没用过网件，网件连点都没有，更别说出色不出色了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>SICP 发表于 2020-1-30 23:14</span><br>
+<span>D191G，稳定性比AC68U好太多</span><br>
+<span>我是不知道为什么这么多人说华硕不稳定又说博通方案不行的，反正我AC68U这些年下来24*365没断过一次网也没因为过热死过一次机，也没加什么风扇</span><br>
+</p><p><b>SICP: </b><br>
+<span>madbird302 发表于 2020-1-30 23:46</span><br>
+<span>我是不知道为什么这么多人说华硕不稳定又说博通方案不行的，反正我AC68U这些年下来24*365没断过一次网也 ...</span><br>
+<span>年前家里拉了千兆网，之前用的DIR-810L，测速路由开始狂掉线，回老家换了AC86U，同样掉线</span><br>
+<span>跑路边电脑店买了水星D161G，跑下来500M左右，估计已经到极限了，掉线问题没有</span><br>
+<span>明天把AC86U刷个梅林看看，不行就再买个</span><br>
+</p><p><b>madbird302: </b><br>
+<span>SICP 发表于 2020-1-30 23:53</span><br>
+<span>年前家里拉了千兆网，之前用的DIR-810L，测速路由开始狂掉线，回老家换了AC86U，同样掉线</span><br>
+<span>跑路边电脑店 ...</span><br>
+<span>我的这个是以前托人从美国买的，价钱差不多1000，难道是国内有缩水的地方？</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>又见86u吹，拜托上网百度一下行吗，还365*24，真当自己用的是服务器。</span><br>
+<span>作为被带入坑的表示火炉路由器买不得。</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>rentrody 发表于 2020-1-30 21:18</span><br>
+<span>50块的mt7620a够不够用呢？</span><br>
+<span>7620内置百兆交换机算了吧 7621又不贵</span><br>
+</p><p><b>rentrody: </b><br>
+<span>Saker_bobo 发表于 2020-1-31 01:00</span><br>
+<span>7620内置百兆交换机算了吧 7621又不贵</span><br>
+<span>y1s有带千兆交换芯片嘛</span><br>
+</p><p><b>松霖: </b><br>
+<span>有没有适合ac86u路由器用的风扇推荐啊，我怕夏天直接就交代了</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>松霖 发表于 2020-1-31 02:40</span><br>
+<span>有没有适合ac86u路由器用的风扇推荐啊，我怕夏天直接就交代了</span><br>
+<span>就这家吧，为了ac86u定制的，不用双面胶，扣上就行</span><br>
+<span>https://h5.m.taobao.com/**/core/detail.htm?id=596033173761&spm=a21202.11768517.tborderdetaiitem_1.i1</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>书迷秦迷 发表于 2020-1-31 08:33</span><br>
+<span>就这家吧，为了ac86u定制的，不用双面胶，扣上就行</span><br>
+<span>https://h5.m.taobao.com/**/core/detail.htm?id=5960 ...</span><br>
+<span>链接有问题？打不开</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-1-31 09:48 编辑 </span><br>
+<span>https://h5.m.taobao.com/aw p/core/detail.htm?id=596033173761&spm=a21202.11768517.tborderdetaiitem_1.i1</span><br>
+<span>咋不把狙字也*了</span><br>
+</p><p><b>john: </b><br>
+<span>ペチャパイ 发表于 2020-1-31 00:51</span><br>
+<span>又见86u吹，拜托上网百度一下行吗，还365*24，真当自己用的是服务器。</span><br>
+<span>作为被带入坑的表示火炉路由器买不 ...</span><br>
+<span>R8500用户都没有说话，你个区区10W的路由器哪来资格叫火炉</span><br>
+<span>如果真是散热问题的话那是最容易解决的，除非你非要把路由器当家居软装伺候</span><br>
+</p><p><b>fanisy: </b><br>
+<span>66ub1握手，第一、二个问题都有。换了299的dir878，刷了老毛子，是我用过最香的路由</span><br>
+<span>----发送自 Meizu 16th,Android 8.1.0</span><br>
+</p><p><b>bikaqu: </b><br>
+<span>同款88U 没5g信号,笔记本挂PT会断网.台式机没事.后来怒换GT AC5300 .屁事没有,稳定挂机</span><br>
+<span>推荐楼主购买哦 GT AC5300,买了不会被群殴.</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>kiddolck 发表于 2020-1-31 09:37</span><br>
+<span>链接有问题？打不开</span><br>
+<span>这就对了</span><br>
+<span>搜众禾设计就行https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-17831195560.2.49d1eaf1VvwNQw&id=596033173761</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yang6451: </b><br>
+<span>皇牌马甲 发表于 2020-1-30 20:04</span><br>
+<span>楼主，断网后你是采用什么方法重新连接的？</span><br>
+<span>我是关闭手机wifi，然后在打开。</span><br>
+<span>我是断开连接再重新连接</span><br>
+</p><p><b>yang6451: </b><br>
+<span>AX11000买不起，AC5300办公室买过一台，用了一年感觉现在小问题也挺多</span><br>
+<span>被你们一说感觉现在没啥靠谱的中高端路由器了</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>rentrody 发表于 2020-1-31 01:11</span><br>
+<span>y1s有带千兆交换芯片嘛</span><br>
+<span>你要是用它跑得满带宽就继续用呗</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911410[0-50]</guid>
+    </item>
+  </channel>
+</rss>

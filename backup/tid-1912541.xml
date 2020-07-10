@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>考古，I820芯片组，INTEL的一次失败的耍流氓</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>考古，I820芯片组，INTEL的一次失败的耍流氓</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:22:00 +0000</lastBuildDate>
+    <item>
+      <title>考古，I820芯片组，INTEL的一次失败的耍流氓[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912541-1-1.html</link>
+      <description>考古，I820芯片组，INTEL的一次失败的耍流氓&#13;
+本帖本来首发于图吧，但是似乎因为人长期在海外绑定的海外手机号，发帖只有自己看的见，知乎更是不让发
+&#13;
+RT，楼主是个从上个世纪开始搞电脑的，玩过昆腾硬盘，海洋主板，妈妈叉133 166， 更早的甚至拆装过486DX-2 66MHZ+8MEDO内存，金牛9850显卡。如果按照时间划分，可能算中国第一代民间DIYER，毕竟那个时代，基本上网络是想都不敢想的，获取知识的途径也就是只有电脑报和之后的一些杂志了，这一批人大都是这个时候靠着这些渠道开始搞起来的。
+&#13;
+先说好，下面的内容，基本上是楼主自己的记忆，由于时代太久远，距今已经有20年左右的历史，所以有些东西未必能对的上，如果有啥自媒体到这里取材搞啥考据之类的，还得稍微注意一下，多考证一下。 手打更新中
+&#13;
+首先讲讲为啥会写这篇帖子，这是楼主最近和小自己10来岁的哥们在QQ群里讨论的时候突然有的想法，在楼主看来，在一个垄断竞争（Monoply competition）的环境下，任何试图使用捆绑销售的手段来获取更大利益的行为，都是耍流氓。其实呢，在IT行业里面，这种事情也是屡见不鲜的，比如早年WINDOWS捆绑IE干掉了NETSCAPE，再后来A和N两家都不开放自家的芯片组授权给第三方厂家等等（当然这是后话，毕竟现如今，别说北桥，南桥好多都给塞到CPU里面去了，但是你们看看啥时候VIA，N的芯片组退市的？那会儿还没到这程度呢）。在楼主看来，I820芯片组这事儿，也是这样的这么一回事，只是比较庆幸的是，这事儿最后INTEL失败了。
+&#13;
+首先说一下这事儿的背景：
+&#13;
+在上个90年代，本来有三家公司竞争CPU市场，CRYRIX，AMD， INTEL，其中INTEL是当仁不让的老大，CRYRIX呢，其实取得的成绩还算不错，但是后继乏力，到了1999年，已经彻底没法招架了，最后被VIA买走，出过几款CPU但是都不行，直到最近，VIA参与了国产CPU的制造，最近的那个KA开头的，就有VIA相关的技术。但是，基本上从90年代后期开始，这家基本出局。
+&#13;
+而AMD当时对INTEL的压力，一点不比现在的小。自从K6-2/3开始，一直追着INTEL打，到了K7，也就是众所周知的ATHLON发布以后，更是基本上性能开始压INTEL一头了，第一个打破1GHZ的CPU，就是AMD。
+&#13;
+因此，那段时间，可以说CPU的性能提升，因为市场竞争的关系一直呈现高速螺旋上升的趋势。相比之下，主板芯片组的FSB（这个概念现在基本上都没了呢，这是说CPU到北桥的速度，当然当时AMD因为用了EV6总线，因此这边的压力比INTEL小很多）也好，内存的速度也好，都开始有点顶不住了。（这个概念现如今也有，比如显卡如果GPU规格比较高，但是内存位宽比较低，外加用的显存不够好的话会出现性能不足，这时候你超GPU的速度效果是不甚理想的，得超显存，反过来也一样）当时的SDRAM，最多也就是支持到133MHZ，很显然，这个技术，已经走到了尽头，需要一种新的内存方式来取代这个。那时候基本上取代的方式有三种
+&#13;
+1.VRAM，因为年代久远，我甚至不知道这玩意儿是不是叫这个名字了，最早是NEC提出的，当然笔者也有点不确定了。基本上这玩意儿的原理就是内存加缓存，这个技术到了XB1初代就有过，然而本身这玩意儿因为本身也属于一个头痛医头脚痛医脚的方法，说到底，治标不治本，更不要说还有显卡等更吃带宽的玩意儿，所以第一时间被搞的出局，至于后来有没有被各种运用，XB1是否用的就是这个技术的近似值还是直接用的这个，楼主就不清楚了。
+&#13;
+2.DDR，这个没啥好说的了，目前你如果把GDDR都算上去，都6代了吧？这里我就提一句，这玩意儿最大的好处在于，这标准是免费的。至于为啥提这个，下文会给解释。
+&#13;
+3.RDRAM，这玩意儿呢是当时INTEL力推的标准，我个人感觉这设计思路，挺接近于RISC指令集CPU的。我们都知道，SDRAM，不管你是不是DDR，DDR几，一条内存都是标准的64BIT，但是这玩意儿的特点是单条内存的位宽很低，速度却很快。整体效果，是要好于DDR的。只是，这玩意儿最大的缺点在于，该技术并非免费。是的，你没搞错，要生产种内存，不仅结构比较复杂，还得交专利费。
+&#13;
+流氓的开端和过程：
+&#13;
+在这两种新型内存的方式上，INTEL选择了RAMBUS，当时INTEL的如意算盘那是打的一个叮当响，第一，他们收购了一部分RAMBUS的股份，日后我不仅芯片组，CPU，包括内存在内，统统都给我钱，哪怕你内存条用的是什么四爽牌，古代牌，银士顿牌，只要你用我RDRAM的颗粒，乖乖给钱。第二，他们和RAMBUS签约的同时留了一手，规定INTEL在一定时间内不能推行用DDR的芯片组，但是SDRAM并不在此列。这也就是为什么会存在I845这么奇怪的芯片组，而作为首发的I820芯片组，因为考虑到市场的关系，所以加入了一个能使用普通SDRAM的芯片，而恰恰是这一个芯片导致了非常严重的问题。
+&#13;
+好了，时间到了世纪末的2000年（按照比较正规的说法，2000年依旧是20世纪）的11月，P4出笼了，这玩意儿各方面指标都很牛X，在当时所有的人看来，各方面都很厉害，第一是频率高（当时就是这样的理论），第二，前端总线也做了更改，QBM，直接是AMD EV6总线的两倍，100M的实际频率能到400M的效果，那时候人家AMD撑死200-266. 御用的配置是直接用两条RDRAM，具体是128X2还是64X2，楼主也记不清楚了。但是呢，由于考虑到SDRAM的市场惯性，上文提到，配套的I820芯片组加入MTH芯片用以支持SDRAM，结果没想到的是，这玩意儿翻车了。而且翻车的非常难看。 而当时RDRAM由于各方面原因，价格高的离谱，我记得当时我看微型计算杂志写过一个P4尝鲜套，RDRAM的价格，甚至堪比P4CPU， 简直天价。 而RDRAM本身，还有各方面的性能问题，实际表现，并没有当初PPT做的这么出众。
+&#13;
+耍流氓的后果：
+&#13;
+上面提到I820的翻车。这里我还要加重说明一点，当时的主板芯片组市场，不仅有INTEL，还有VIA，ALI，SIS这样的第三方厂商，在这个情况下，其实，真要如此耍流氓，并不是一件容易的事情。比如VIA的P4X266/266A，P4+DDR，甚至还能干掉INTEL的I820+RDRAM的组合。 而I820芯片组，最后的结果就是全球召回。这里我还要提一句，当时INTEL的处理方法，还是比较够意思的，最后退赔了一条还是两条堪比天价的RDRAM。而国内当时的主板厂商，我记得除了三大厂里的一家（具体哪家就不知道了，如果想要深入了解，大概可以找的到）以外，别的，集体装死了。于是国内的消费者又被当成了韭菜。这事情，其实当时的反应是非常激烈的，只是那会儿BBS也好别的也好都没有这么热门。放到现在我看这事情，绝对不会这么容易的就过去了。
+&#13;
+最后的最后，RAMBUS事件，以INTEL出了一个比较蹩脚的I845芯片组（对，P4用SDRAM，因为和RAMBUS的合约规定不许支持DDR）宣告了RAMBUS内存在PC领域的彻底死亡。多年以后，PS3的内存，采用了这款产品。然后，笔者就再也没找到这家公司有关的事情了。
+&#13;
+大概就是这么多了。。。如果大家有兴趣，笔者倒是想要回顾一下APU的故事，说实在的，在笔者看来，这事儿，其实也是这么一个基于耍流氓思维的产物</description>
+      <content:encoded><![CDATA[<p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 22:20</span><br>
+<span>肯定要出B550啊，直连CPU的20条M2要支持PCIE4吧，PCH接出来的升级到PCIE3就可以了</span><br>
+<span>我记得这个已经有人在 ...</span><br>
+<span>那就要赶紧把B450下架了</span><br>
+</p><p><b>爱夏: </b><br>
+<span>madbird302 发表于 2020-2-7 19:31</span><br>
+<span>显卡是个当时都没听说过的台湾芯片品牌，声卡是打磨的雅马哈734，不过这是当时证券公司做够交易额送的， ...</span><br>
+<span>yhf734也是个神级假货了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>爱夏 发表于 2020-2-7 23:02</span><br>
+<span>yhf734也是个神级假货了</span><br>
+<span>是啊，而且居然有这么大的量，恐怕只有信息闭塞的时代才有这种事</span><br>
+</p><p><b>1106hong: </b><br>
+<span>RAMBUS现在作为专利厂混得很好。</span><br>
+<span>他也想开了，不能与全世界为敌。。。。</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>有考古I820芯片组的，还有人记得 ASUS P/I-P55T2P4主板么.....CPU支持列表是这样的</span><br>
+<img src="http://wx3.sinaimg.cn/large/6dea5610gy1gbpiw8r4v0j21d30o3gmw.jpg" title="http://wx3.sinaimg.cn/large/6dea5610gy1gbpiw8r4v0j21d30o3gmw.jpg"><br>
+</p><p><b>soloviki: </b><br>
+<span>845上423针的P4实在也是尬的不行 02年还小啥也不懂的时候算是被联想坑了第一把</span><br>
+<span>等到过了多年觉得性能不行想换点件的时候 好么 P4都是478针了 内存都不好找SDRAM了 显卡也只到AGP4x 彻底沦为垃圾佬</span><br>
+<span>不过机箱是好东西 过了快20年了 现在还装着G1840在家里给我爸偶尔上网用着呢</span><br>
+</p><p><b>KaneL: </b><br>
+<span>madbird302 发表于 2020-2-7 01:07</span><br>
+<span>1.C3后边还是挺厉害的，370接口用到死，最后好像还卖给中国这边什么CPU项目了</span><br>
+<span>2.全美达的CPU专利破产时都 ...</span><br>
+<span>K6-2 K6-2和Cyrix的CPU都有一个严重问题就是整数运算强但是浮点运算性能被同时期的P2 P3 赛扬吊着打，我用过K6-2 450，玩游戏比赛扬300A差远了，更别提P3 500</span><br>
+</p><p><b>KaneL: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:48</span><br>
+<span>PRESCOTT，还有能比这个更惨的东西？这套东西我还用过不少，给人装过不少，但是我就记得很清楚，当时，05- ...</span><br>
+<span>当年X2 3600+卖的最火的那会AMD得意忘形，把CPU价格提的比同时期的INTEL贵多了，不过INTEL在CORE出来之前的PENTIUM D以及P4都不咋地</span><br>
+</p><p><b>KaneL: </b><br>
+<span>hourousha 发表于 2020-2-7 19:16</span><br>
+<span>586有ISA当然没问题，但你说显卡也插ISA？ISA带宽才多少？用的纯文字或VGA模式？</span><br>
+<span>VLB其实是在ISA Slot的 ...</span><br>
+<span>见过用ISA接口的S3 64V+的IBM商用机，CPU是奔腾133，32M内存，1G硬盘，95年96年那会</span><br>
+</p><p><b>madbird302: </b><br>
+<span>KaneL 发表于 2020-2-9 05:09</span><br>
+<span>K6-2 K6-2和Cyrix的CPU都有一个严重问题就是整数运算强但是浮点运算性能被同时期的P2 P3 赛扬吊着打，我 ...</span><br>
+<span>是的，包括后来很长时间AMD最大的死穴都是浮点和指令集，，铜矿出来以后K6就是退市状态了</span><br>
+</p><p><b>chillicez: </b><br>
+<span>madbird302 发表于 2020-2-7 23:57</span><br>
+<span>是啊，而且居然有这么大的量，恐怕只有信息闭塞的时代才有这种事</span><br>
+<span>哈哈，YMF734当年电脑城老板都不知道是假货</span><br>
+</p><p><b>madbird302: </b><br>
+<span>chillicez 发表于 2020-2-9 12:35</span><br>
+<span>哈哈，YMF734当年电脑城老板都不知道是假货</span><br>
+<span>当年我是用Hwinfo才知道究竟是什么芯片</span><br>
+</p><p><b>albertfu: </b><br>
+<span>KaneL 发表于 2020-2-9 05:14</span><br>
+<span>当年X2 3600+卖的最火的那会AMD得意忘形，把CPU价格提的比同时期的INTEL贵多了，不过INTEL在CORE出来之前 ...</span><br>
+<span>当时同等性能的牙膏还是要比AMD贵一大截，信仰无价</span><br>
+<span>牙膏顶级型号比AMD顶级型号便宜3%的同时，性能只能和价格几乎打对折的AMD相比</span><br>
+</p><p><b>9616777: </b><br>
+<span>扣肉出来以后就是每年一次的I3杀全家系列啊</span><br>
+</p><p><b>Kabine: </b><br>
+<span>只记得当时的815芯片组，820已经没印象了</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>阴摩罗鬼之眼 发表于 2020-2-9 01:49</span><br>
+<span>有考古I820芯片组的，还有人记得 ASUS P/I-P55T2P4主板么.....CPU支持列表是这样的</span><br>
+<span> ...</span><br>
+<span>记得，初代神板，从此一炮走红</span><br>
+</p><p><b>dhddhh: </b><br>
+<span>98年买的第一台品牌机p2 266+trident9880全加起来差不多九千多</span><br>
+<span>03年自己看mc之类的杂志学着配了一台上网用的廉价机p4 1.7(没过一年捡到一颗p42.4c)+华擎的845pe+fx5200，现在还在书房的角落里给老人上网那时候差不多华擎好感度就已经要满了。</span><br>
+</p><p><b>kgb007: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:40</span><br>
+<span>股票卡那都是Isa的。我家里后来的股票也是ISA卡。那时候都是第二台用SLOT A的K7的主板了 ...</span><br>
+<span>请教下股票信息卡是通过什么方式通讯的？当年为什么要来一个这个来炒股呢？</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>kgb007 发表于 2020-2-10 12:00</span><br>
+<span>请教下股票信息卡是通过什么方式通讯的？当年为什么要来一个这个来炒股呢？ ...</span><br>
+<span>电视线，单项通信</span><br>
+</p><p><b>kknds: </b><br>
+<span>Sheny 发表于 2020-2-6 23:43</span><br>
+<span>k6-3的对手是“我疯起来连大哥都打”的初代赛扬…</span><br>
+<span>赛扬300A才是大哥都打吧，初代赛扬自己差意思吧</span><br>
+</p><p><b>大肥兔: </b><br>
+<span>hgfdsa 发表于 2020-2-7 09:04</span><br>
+<span>雷鸟已经是p4时代了，1.2g雷鸟对上2.1g的p4你觉得有胜算？</span><br>
+<span>图拉丁是下一代工艺，请和athlonxp northwood ...</span><br>
+<span>如果是图拉丁赛扬的话也不应该拿athlon比。之后觉得barton时期，奔腾4没有性价比</span><br>
+</p><p><b>madbird302: </b><br>
+<span>大肥兔 发表于 2020-2-12 22:18</span><br>
+<span>如果是图拉丁赛扬的话也不应该拿athlon比。之后觉得barton时期，奔腾4没有性价比 ...</span><br>
+<span>P4也不能全都否定，北木头P4C是可以用的，另外后期双核里的600和900系列也是有点性能的，不过性价比确实不行</span><br>
+</p><p><b>happyliuhao: </b><br>
+<span>08ms的梗啊</span><br>
+<span>----发送自 HUAWEI TAS-AN00,Android 10</span><br>
+</p><p><b>riczxc: </b><br>
+<span>madbird302 发表于 2020-2-7 18:33</span><br>
+<span>5.我印象里也没见过850E，大概根本没进零售市场</span><br>
+<span>6.还有这么个东西真是头一次知道</span><br>
+<span>7.对的，当时支持兼容MC ...</span><br>
+<span>我第三部电脑用的就是华硕的850E配搭northwood，还有烧钱的rdram。再之前的第一代p4的分支预测太垃圾，完全没有买的必要。</span><br>
+<span>不过现在作为中学生看来还是太败家了。</span><br>
+</p><p><b>riczxc: </b><br>
+<span>EraserKing 发表于 2020-2-7 18:51</span><br>
+<span>5. 回LZ帖子找资料的时候我确实没有从那几年的报价单上一眼发现850E的板子，不过我看漏了的可能性也大， ...</span><br>
+<span>我买的就是华硕的P4T533C，真有人上rambus的沉船。</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>大肥兔 发表于 2020-2-12 22:18</span><br>
+<span>如果是图拉丁赛扬的话也不应该拿athlon比。之后觉得barton时期，奔腾4没有性价比 ...</span><br>
+<span>barton之前的1700+，极限频率和barton 2500+差不多，区别就是l2少一半，价格不到400块。</span><br>
+<span>图拉丁吹的厉害的时候已经是洋垃圾了，而且性能远不如同价位的毒龙，唯一的优势是老bx板可以用转接卡直接上。</span><br>
+<span>这两货完全是被国内奸商吹起来的，白板和洋垃圾在奸商那里的利润只怕比高端p4还高。</span><br>
+</p><p><b>red4: </b><br>
+<span>K6-3没出多久就出速龙了，k6-3的存在价值就是能给老平台升级</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-2-13 11:29 编辑 </span><br>
+<span>462才开始入坑的，不过给老婆的赛扬2加过内存</span><br>
+<span>我那个死活都超不上去的巴顿2500+盒装，和缩水版的8RDA3+。。。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>zmw_831110 发表于 2020-2-13 11:27</span><br>
+<span>462才开始入坑的，不过给老婆的赛扬2加过内存</span><br>
+<span>我那个死活都超不上去的巴顿2500+盒装，和缩水版的8R ...</span><br>
+<span>barton最火的时候，国内90%的盒装都是水货，能超的都单独挑出来卖了。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>riczxc 发表于 2020-2-13 08:55</span><br>
+<span>我第三部电脑用的就是华硕的850E配搭northwood，还有烧钱的rdram。再之前的第一代p4的分支预测太垃圾，完 ...</span><br>
+<span>是啊，当时学生机还是倾向以菜羊为主，主流P4太贵了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912541[100-150]</guid>
+    </item>
+    <item>
+      <title>考古，I820芯片组，INTEL的一次失败的耍流氓[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912541-1-1.html</link>
+      <description>考古，I820芯片组，INTEL的一次失败的耍流氓&#13;
+本帖本来首发于图吧，但是似乎因为人长期在海外绑定的海外手机号，发帖只有自己看的见，知乎更是不让发
+&#13;
+RT，楼主是个从上个世纪开始搞电脑的，玩过昆腾硬盘，海洋主板，妈妈叉133 166， 更早的甚至拆装过486DX-2 66MHZ+8MEDO内存，金牛9850显卡。如果按照时间划分，可能算中国第一代民间DIYER，毕竟那个时代，基本上网络是想都不敢想的，获取知识的途径也就是只有电脑报和之后的一些杂志了，这一批人大都是这个时候靠着这些渠道开始搞起来的。
+&#13;
+先说好，下面的内容，基本上是楼主自己的记忆，由于时代太久远，距今已经有20年左右的历史，所以有些东西未必能对的上，如果有啥自媒体到这里取材搞啥考据之类的，还得稍微注意一下，多考证一下。 手打更新中
+&#13;
+首先讲讲为啥会写这篇帖子，这是楼主最近和小自己10来岁的哥们在QQ群里讨论的时候突然有的想法，在楼主看来，在一个垄断竞争（Monoply competition）的环境下，任何试图使用捆绑销售的手段来获取更大利益的行为，都是耍流氓。其实呢，在IT行业里面，这种事情也是屡见不鲜的，比如早年WINDOWS捆绑IE干掉了NETSCAPE，再后来A和N两家都不开放自家的芯片组授权给第三方厂家等等（当然这是后话，毕竟现如今，别说北桥，南桥好多都给塞到CPU里面去了，但是你们看看啥时候VIA，N的芯片组退市的？那会儿还没到这程度呢）。在楼主看来，I820芯片组这事儿，也是这样的这么一回事，只是比较庆幸的是，这事儿最后INTEL失败了。
+&#13;
+首先说一下这事儿的背景：
+&#13;
+在上个90年代，本来有三家公司竞争CPU市场，CRYRIX，AMD， INTEL，其中INTEL是当仁不让的老大，CRYRIX呢，其实取得的成绩还算不错，但是后继乏力，到了1999年，已经彻底没法招架了，最后被VIA买走，出过几款CPU但是都不行，直到最近，VIA参与了国产CPU的制造，最近的那个KA开头的，就有VIA相关的技术。但是，基本上从90年代后期开始，这家基本出局。
+&#13;
+而AMD当时对INTEL的压力，一点不比现在的小。自从K6-2/3开始，一直追着INTEL打，到了K7，也就是众所周知的ATHLON发布以后，更是基本上性能开始压INTEL一头了，第一个打破1GHZ的CPU，就是AMD。
+&#13;
+因此，那段时间，可以说CPU的性能提升，因为市场竞争的关系一直呈现高速螺旋上升的趋势。相比之下，主板芯片组的FSB（这个概念现在基本上都没了呢，这是说CPU到北桥的速度，当然当时AMD因为用了EV6总线，因此这边的压力比INTEL小很多）也好，内存的速度也好，都开始有点顶不住了。（这个概念现如今也有，比如显卡如果GPU规格比较高，但是内存位宽比较低，外加用的显存不够好的话会出现性能不足，这时候你超GPU的速度效果是不甚理想的，得超显存，反过来也一样）当时的SDRAM，最多也就是支持到133MHZ，很显然，这个技术，已经走到了尽头，需要一种新的内存方式来取代这个。那时候基本上取代的方式有三种
+&#13;
+1.VRAM，因为年代久远，我甚至不知道这玩意儿是不是叫这个名字了，最早是NEC提出的，当然笔者也有点不确定了。基本上这玩意儿的原理就是内存加缓存，这个技术到了XB1初代就有过，然而本身这玩意儿因为本身也属于一个头痛医头脚痛医脚的方法，说到底，治标不治本，更不要说还有显卡等更吃带宽的玩意儿，所以第一时间被搞的出局，至于后来有没有被各种运用，XB1是否用的就是这个技术的近似值还是直接用的这个，楼主就不清楚了。
+&#13;
+2.DDR，这个没啥好说的了，目前你如果把GDDR都算上去，都6代了吧？这里我就提一句，这玩意儿最大的好处在于，这标准是免费的。至于为啥提这个，下文会给解释。
+&#13;
+3.RDRAM，这玩意儿呢是当时INTEL力推的标准，我个人感觉这设计思路，挺接近于RISC指令集CPU的。我们都知道，SDRAM，不管你是不是DDR，DDR几，一条内存都是标准的64BIT，但是这玩意儿的特点是单条内存的位宽很低，速度却很快。整体效果，是要好于DDR的。只是，这玩意儿最大的缺点在于，该技术并非免费。是的，你没搞错，要生产种内存，不仅结构比较复杂，还得交专利费。
+&#13;
+流氓的开端和过程：
+&#13;
+在这两种新型内存的方式上，INTEL选择了RAMBUS，当时INTEL的如意算盘那是打的一个叮当响，第一，他们收购了一部分RAMBUS的股份，日后我不仅芯片组，CPU，包括内存在内，统统都给我钱，哪怕你内存条用的是什么四爽牌，古代牌，银士顿牌，只要你用我RDRAM的颗粒，乖乖给钱。第二，他们和RAMBUS签约的同时留了一手，规定INTEL在一定时间内不能推行用DDR的芯片组，但是SDRAM并不在此列。这也就是为什么会存在I845这么奇怪的芯片组，而作为首发的I820芯片组，因为考虑到市场的关系，所以加入了一个能使用普通SDRAM的芯片，而恰恰是这一个芯片导致了非常严重的问题。
+&#13;
+好了，时间到了世纪末的2000年（按照比较正规的说法，2000年依旧是20世纪）的11月，P4出笼了，这玩意儿各方面指标都很牛X，在当时所有的人看来，各方面都很厉害，第一是频率高（当时就是这样的理论），第二，前端总线也做了更改，QBM，直接是AMD EV6总线的两倍，100M的实际频率能到400M的效果，那时候人家AMD撑死200-266. 御用的配置是直接用两条RDRAM，具体是128X2还是64X2，楼主也记不清楚了。但是呢，由于考虑到SDRAM的市场惯性，上文提到，配套的I820芯片组加入MTH芯片用以支持SDRAM，结果没想到的是，这玩意儿翻车了。而且翻车的非常难看。 而当时RDRAM由于各方面原因，价格高的离谱，我记得当时我看微型计算杂志写过一个P4尝鲜套，RDRAM的价格，甚至堪比P4CPU， 简直天价。 而RDRAM本身，还有各方面的性能问题，实际表现，并没有当初PPT做的这么出众。
+&#13;
+耍流氓的后果：
+&#13;
+上面提到I820的翻车。这里我还要加重说明一点，当时的主板芯片组市场，不仅有INTEL，还有VIA，ALI，SIS这样的第三方厂商，在这个情况下，其实，真要如此耍流氓，并不是一件容易的事情。比如VIA的P4X266/266A，P4+DDR，甚至还能干掉INTEL的I820+RDRAM的组合。 而I820芯片组，最后的结果就是全球召回。这里我还要提一句，当时INTEL的处理方法，还是比较够意思的，最后退赔了一条还是两条堪比天价的RDRAM。而国内当时的主板厂商，我记得除了三大厂里的一家（具体哪家就不知道了，如果想要深入了解，大概可以找的到）以外，别的，集体装死了。于是国内的消费者又被当成了韭菜。这事情，其实当时的反应是非常激烈的，只是那会儿BBS也好别的也好都没有这么热门。放到现在我看这事情，绝对不会这么容易的就过去了。
+&#13;
+最后的最后，RAMBUS事件，以INTEL出了一个比较蹩脚的I845芯片组（对，P4用SDRAM，因为和RAMBUS的合约规定不许支持DDR）宣告了RAMBUS内存在PC领域的彻底死亡。多年以后，PS3的内存，采用了这款产品。然后，笔者就再也没找到这家公司有关的事情了。
+&#13;
+大概就是这么多了。。。如果大家有兴趣，笔者倒是想要回顾一下APU的故事，说实在的，在笔者看来，这事儿，其实也是这么一个基于耍流氓思维的产物</description>
+      <content:encoded><![CDATA[<p><b>FA怪叔叔: </b><br>
+<span>好了，修改了一下，做了更多的考证，回忆了更多的细节。上年纪了啊</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>Sheny 发表于 2020-2-7 02:45</span><br>
+<span>还有当年k6真的弱逼，也就理论性能好，实际跑起来很蛋疼，一直到k6-3才算有点战斗力，但那都猴年马月了，p3 ...</span><br>
+<span>K7上市也是差不多的时间，查了查维基百科，甚至还有K6-III被召回的事儿。</span><br>
+<span>另外@albertfu我记得那时候稍微好点的板子已经不用跳线了，是一个DIP开关一样的东西，各种排列组合能实现不同的频率，到了SLOT A上的ATHLON我自己亲手试过，100外频我超到105MHZ</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>madbird302 发表于 2020-2-7 00:18</span><br>
+<span>K6对标的P2，第一代很差，但K6-2和K6-3确实按着P2打，不过那时候intel已经迅速转向P3了，加上AMD早期一直 ...</span><br>
+<span>k6-2同频不如mmx，k6-3就是k6-2加内置l2，用头打p2。k6-2系列对p2唯一有优势的测试就是用glide for 3dnow的quake。其他都被吊起来打。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-7 08:29 编辑 </span><br>
+<span>hgfdsa 发表于 2020-2-7 08:17</span><br>
+<span>k6-2同频不如mmx，k6-3就是k6-2加内置l2，用头打p2。k6-2系列对p2唯一有优势的测试就是用glide for 3dnow ...</span><br>
+<span>Technology testing Web site Tom's Hardware Guide today published the first in-depth comparison of the Intel Pentium III and AMD's K6-III. The verdict: the K6-III rules the roost on business applications, but the Celeron is tops for games and floating-point intensive work. The Pentium III, for now, beats the Pentium II solely because of its faster clock speed. Both chips were reviewed in comparable systems and tested with a wide variety of benchmarks to compare their performance with business applications, games and high-end graphics software. Both processors were also compared for the performance boost they give under Windows 98 and the more CPU-intensive Windows NT. For business applications, tested using the Winstone99 business suite, the 450MHz K6-III came tops: it scored 24.3 over the 500MHz Pentium III's score of 24 -- the same score achieved by the Celeron 500/100. The 400MHz K6-III came in ahead of the 450MHz PII and 450MHz PIII, scoring 23.2 to both Intel CPUs' joint score of 22.9, an improvement of 1.3 per cent. Under Windows NT, the K6-III's relatively poor floating-point performance saw it well down on the PIII. The 500MHz PIII scored 34.9 on the Winstone99 business benchmark; the 450MHz PIII scored 33.1 and the 450MHz K6-III scored 32.2. With the Winstone99 high-end NT test, the 500MHz PIII scored 30.2, the 450MHz PIII 28.7 and the 450MHz PII 28.6. The 450MHz K6-III was well down, on 23.4. To compare gaming performance, Tom's Hardware Guide measured 3Dfx Voodoo3 3500 (see 3Dfx unveils Voodoo3 2000, 3000 and 3500) frame rates at 1024x768. The 500MHz PIII scored 46.4m, compared to the 450MHz K6-III's 40.2. Using 3D winbench99 to compare 3D Now! Against the PIII's Streaming SIMD Extensions (SSE), in a lighting and transform test, the 500MHz PIII scored 62.9, the 450MHz PIII 57.1, the 450MHz K6-III 43.1 and the 400MHz K6-III 39.4. Again, the Intel parts come out on top. "My verdict on the K6-III," said Tom's Hardware Guide chief, Tom Pabst, "buy it if office applications are most important to you. Get a Celeron if you care about 3D games or other floating point intensive software. "K6-III is now the fastest PC processor for business applications under Windows 98, but as soon as Intel releases the Pentium III 550, the crown will go back to Intel." As for the PIII: "The Pentium III is only faster than the Pentium II due to a higher clock speed. We will have to wait if there will be any software that can take a real advantage of SSE... For now, I cannot see why anybody has to rush into buying Pentium III processors. Celeron is still the best bang for the buck." ® The Register recommends you visit Tom's Hardware Guide's full set of benchmarks and complete analysis of the new processors and their predecessors.</span><br>
+<span>https://www.theregister.co.uk/19 ... pentium_iii_vs_amd/</span><br>
+<span>另外，顺带一提，PIII，至少SLOT 1的那批，还真的有点马甲的味道</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>Sheny 发表于 2020-2-7 02:42</span><br>
+<span>820存在的时间很短，就像当年的p3 1.13一样，国内很多人没见过实物就召回了。你记忆偏差的厉害 ...</span><br>
+<span>820时间的确短，但是后面的850卖了有一年，很多人买的都是845加sdr，结果就是让这些人觉得p4还不如p3。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>hgfdsa 发表于 2020-2-7 08:31</span><br>
+<span>820时间的确短，但是后面的850卖了有一年，很多人买的都是845加sdr，结果就是让这些人觉得p4还不如p3。 ...</span><br>
+<span>其实从结构上来说P4还真的是不行。NETBURST结构，简直。。。</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span> 本帖最后由 hgfdsa 于 2020-2-7 08:38 编辑 </span><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:28</span><br>
+<span>Technology testing Web site Tom's Hardware Guide today published the first in-depth comparison of t ...</span><br>
+<span>别看winstone，当时的几个理论测试数据量太小，比的就是cache大小，cyrix的辣鸡6x86就是用这个刷分，跑红警和软解vcd就原型毕露了。https://www.anandtech.com/show/211/4</span><br>
+<span>实际跑游戏，k6系列连没l2的老赛扬都打不过</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-7 08:44 编辑 </span><br>
+<span>hgfdsa 发表于 2020-2-7 08:36</span><br>
+<span>别看winstone，当时的几个理论测试数据量太小，比的就是cache大小，cyrix的辣鸡6x86就是用这个刷分，跑红 ...</span><br>
+<span>你要说原形毕露，面对发起疯来的赛扬，那才是所有人都原形毕露,而且查了查时间，K6-III其实时间都不长。没几个月ATHLON就来了</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span> 本帖最后由 hgfdsa 于 2020-2-7 08:47 编辑 </span><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:33</span><br>
+<span>其实从结构上来说P4还真的是不行。NETBURST结构，简直。。。</span><br>
+<span>p4目标不是ipc，而是高频率，130nm的northwood做到了3.4g，吊打同期k7。到了90nm，intel的内部目标至少是5g。</span><br>
+<span>03年海外一堆k8的测试，结论都是虽然k8很强，对上northwood优势很大，但是碰上马上要发布的prescott还是要吃瘪，结果intel就搞出个ipc基本不变，频率只加了0.4g的玩意。</span><br>
+</p><p><b>navarra: </b><br>
+<span>之前一个采用rdram的设备是N64。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-7 08:49 编辑 </span><br>
+<span>hgfdsa 发表于 2020-2-7 08:46</span><br>
+<span>p4目标不是ipc，而是高频率，130nm的northwood做到了3.4g，吊打同期k7。到了90nm，intel的内部目标至少是 ...</span><br>
+<span>PRESCOTT，还有能比这个更惨的东西？这套东西我还用过不少，给人装过不少，但是我就记得很清楚，当时，05-06年前后，AMD的价格卖得比INTEL还要贵。然后我记得就是因为这点，所以我阴差阳错的上了PT880的华擎主板，这也是我这么多年给人装机器里记忆最深刻的一款</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:37</span><br>
+<span>你要说原形毕露，面对发起疯来的赛扬，那才是所有人都原形毕露,而且查了查时间，K6-III其实时间都不长。没 ...</span><br>
+<span>athlon低频的时候和铜矿差不多，高频只有1/3速的l2，性能不如铜矿，不过频率高些，两边基本上差不多。但是从这时候开始，amd的低端毒龙一直吊打菜羊，一直吊打到core2时代。</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:48</span><br>
+<span>PRESCOTT，还有能比这个更惨的东西？这套东西我还用过不少，给人装过不少，但是我就记得很清楚，当时，05- ...</span><br>
+<span>有啊，prescott二世 k10，因为功耗频率上不去。真prescott 推土机，频率上去了还是辣鸡。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>hgfdsa 发表于 2020-2-7 08:50</span><br>
+<span>athlon低频的时候和铜矿差不多，高频只有1/3速的l2，性能不如铜矿，不过频率高些，两边基本上差不多。但 ...</span><br>
+<span>ATHLON你也得分SLOT A和SOKET A, 换了462的ATHLON，雷鸟加毒龙，基本上打铜矿都是没问题的，当然铜矿也有370的和SLOT的。至于说打图拉丁，估计难</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 08:54</span><br>
+<span>ATHLON你也得分SLOT A和SOKET A, 换了462的ATHLON，雷鸟加毒龙，基本上打铜矿都是没问题的，当然铜矿也有3 ...</span><br>
+<span>雷鸟已经是p4时代了，1.2g雷鸟对上2.1g的p4你觉得有胜算？</span><br>
+<span>图拉丁是下一代工艺，请和athlonxp northwood比，估计只有功耗能强点吧。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>雷鸟2000年9月，p4 11月，首发就只有1.4g 1.5g,还得配rdram</span><br>
+</p><p><b>threefcata: </b><br>
+<span>用着菜羊850混过了那个年代，好想要套巴顿，多年后通过二手辣鸡一本满足</span><br>
+</p><p><b>kawa11: </b><br>
+<span>我第一台电脑就是赛扬666   i815集成的显卡</span><br>
+<span>rambus就是专业流氓啊，人家就吃这口饭，三年不开张，开张吃三年</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>hgfdsa 发表于 2020-2-7 09:04</span><br>
+<span>雷鸟已经是p4时代了，1.2g雷鸟对上2.1g的p4你觉得有胜算？</span><br>
+<span>图拉丁是下一代工艺，请和athlonxp northwood ...</span><br>
+<span>奔4新出来 一大把1. 7/1.8的垃圾，图拉丁都打不过</span><br>
+<span>配sdr被雷鸟吊打</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>leeex: </b><br>
+<span>能不用这么多括号么？注释可以像论文那样角注序号然后文末列出。这样连续好几行的括号太影响阅读了。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 00:51</span><br>
+<span>1.我寻思我没拼错啊</span><br>
+<span>2.那玩意儿一年就完蛋了，号称半软的CPU。</span><br>
+<span>4.815那可是PIII的</span><br>
+<span>1. 从第一句就拼错啦，不过你已经改过了</span><br>
+<span>4. 820不也是P3的么，P4配的是845 850</span><br>
+<span>5. 848那更新了，是865的哪个变种的马甲了</span><br>
+<span>6. 你前面说出货量不大，我也就补充说明下和召回其实关系不大</span><br>
+<span>8. 阿波罗是VIA的早期芯片组的牌子（后期似乎都不加阿波罗的名字了），我此处特指133A</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2020-2-7 12:46 编辑 </span><br>
+<span>madbird302 发表于 2020-2-7 01:07</span><br>
+<span>1.C3后边还是挺厉害的，370接口用到死，最后好像还卖给中国这边什么CPU项目了</span><br>
+<span>2.全美达的CPU专利破产时都 ...</span><br>
+<span>5. 850E有没有主板上市我也记不清了，太久远了，不过搜了下应该是有的：https://bbs.pku.edu.cn/v2/collec ... 4F%2FM.1024274467.A</span><br>
+<span>6. 搜到篇新闻，https://www.ithome.com.tw/news/775</span><br>
+<span>7. 我用P45的时候还有DDR2/3双支持的主板出……不过同时只能用一种就是了</span><br>
+<span>8. 那就太多了，VIA至少能写三篇，VIA在AMD早期上也是大杀四方的存在……然后就是老黄了……AMD自家芯片组主流也就近10年的事。</span><br>
+</p><p><b>kaiki_aiolos: </b><br>
+<span>RAMBUS内存我大学时修电脑是在后辈的电脑里见过</span><br>
+<span>那台机里还有NV FX5700···同期NV的产品是9800GT</span><br>
+<span>一问才知道，那是后辈的哥哥淘汰下来的机子···</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>EraserKing 发表于 2020-2-7 12:38</span><br>
+<span>1. 从第一句就拼错啦，不过你已经改过了</span><br>
+<span>4. 820不也是P3的么，P4配的是845 850</span><br>
+<span>5. 848那更新了，是865的 ...</span><br>
+<span>5.848不是马甲，可以看做是845D的改版。单通道的</span><br>
+<span>6.但是国内那次实际上做的还是蛮恶劣的，这个事儿大家能否一起考证一下，时间太久了。我记得当时除了三大厂里面的一家，大概是MSI，直接给了INTEL的赔偿以外，别的似乎集体装死了。但是INTEL当时给出的方案那可是直接赔天价的RDRAM</span><br>
+<span>8.并没有，这个还在上面的，不信你找找看维基，当然我们一般称呼694X是对的，而133A往往不这么叫，因为同期的还有KT133A。至于VIA的故事，别的可以写，但是那会儿年纪小，别人信不过，只能自己脑内补完装机，我那会儿最走火入魔的时候甚至折腾了好几个作业本，但是实际上手的没几台。倒是华擎的这款PT880-DUAL-VSTA，那会儿我上大学了，基本上当时是我的招牌配置，实际出去不少，而且故事是在很传奇，所以我能写的比较有意思</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>sblnrrk 发表于 2020-2-7 12:10</span><br>
+<span>奔4新出来 一大把1. 7/1.8的垃圾，图拉丁都打不过</span><br>
+<span>配sdr被雷鸟吊打</span><br>
+<span>别，一出来那是1.4 1.5, SDR还配不上，845那都是什么时候的事儿了</span><br>
+</p><p><b>hourousha: </b><br>
+<span>madbird302 发表于 2020-2-7 01:38</span><br>
+<span>是我记错了，我那时用的586上还都是ISA，插的显卡和股票卡</span><br>
+<span>486的显卡基本都用VESA(VLB)，586哪还有ISA的。</span><br>
+<span>主板接口486是ISA+VLB，586是ISA+PCI+VLB，P2开始是AGP+PCI</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 13:47</span><br>
+<span>5.848不是马甲，可以看做是845D的改版。单通道的</span><br>
+<span>6.但是国内那次实际上做的还是蛮恶劣的，这个事儿大家能 ...</span><br>
+<span>我仔细去看了看参数，确定848（P）是865PE的太监版（说马甲确实不严谨），而不是845D……原因如下</span><br>
+<span>1. 845D只支持到DDR266，848P/865PE是可以DDR400，只不过848P是1C，865PE是2C，这个就是最主要的区别了</span><br>
+<span>2. 845/845D的FSB是400，848P/865PE是可以到800</span><br>
+<span>3. 845搭配的是ICH2，848P/865PE是ICH5</span><br>
+<span>4. 845D并没有775的版本，848P有。支持775的是后期的别的845，比如845GE/GV</span><br>
+<span>5. 845支持到AGP 4X，848P/865PE是AGP 8X</span><br>
+<span>694X算是俗名，只是用北桥指代了整个芯片组。大名还是Apollo Pro 133A，只不过约定俗成了。</span><br>
+<span>至于原因是怕KT133A混淆的可能性不大，首先KT133A是对应农企的，再加上时间前后差了挺久的了（KT133A是Socket A那时代了，对应牙膏厂是P4了），并不是同期，其实并不会混。</span><br>
+<span>以及不可能先出的AP133A怕和后出的KT133A混淆，然后改叫694X了，逻辑上也说不通。</span><br>
+<span>召回的细节我就没印象了，这个要翻翻历史资料再说了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 13:47</span><br>
+<span>5.848不是马甲，可以看做是845D的改版。单通道的</span><br>
+<span>6.但是国内那次实际上做的还是蛮恶劣的，这个事儿大家能 ...</span><br>
+<span>找了下那几个月的新闻</span><br>
+<span>拒保嘉是给你换板子，没说别的补偿</span><br>
+<span>自检星是换815或者820+RDRAM内存</span><br>
+<span>坐牢硕是没找到新闻</span><br>
+<span>不过当年主板厂也太多了</span><br>
+<span>比如图上的升技，也是大牌子</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>EraserKing 发表于 2020-2-7 16:11</span><br>
+<span>找了下那几个月的新闻</span><br>
+<span>拒保嘉是给你换板子，没说别的补偿</span><br>
+<span>看来我的记忆还是准确的。。。对，当时就这么恶心。其实这个补偿是INTEL给的。结果你看看除了MSI以外做的多恶心</span><br>
+<span>至于说848芯片组，实际上还真有845D的，因为后来有好多甚至官方用845D超一下来顶个848用的。区别倒是也不大。顺带插花说一下I865PE，这玩意儿也有个比较妖的一个地方，你看桌面平台本来有个更高端的875系列的，PAT，不知道是不是这么叫，只能用于875，结果呢，结果是865也有这个功能，后来大家纷纷解锁。于是875悲剧了。</span><br>
+<span>694X还真的是这么叫的，怕混淆也是真的，那个年代CPU之间的疯狂淘汰速度和现在完全不同，我给你举个例子，1999年6月，SLOTA ATHLON出了，时间一年略微不到几天，SOKECT A，也叫462的雷鸟毒龙系列发售，PIII,SLOT 1的版本发售时间在1999年2月，10月25日发售SOCKET 370版，铜矿核心，2001年6月，铜矿改进制成版发售，7月，PIII绝唱一代经典图拉丁发售，11月，P4发售，12月，最终版本高频图拉丁发售。</span><br>
+<span>那个时代，还是非常疯狂的，在考虑到P4首发是I850，845都要到2002年1月才发售，所以冲突完全是有可能的，你还得考虑一下那个时候的市场惯性问题，远比现在来的厉害的多。</span><br>
+<span>最后，看到你上面写了KX133，这我不得不再提一嘴，KX133支持的是SLOTA的CPU，当时我记得KX133没带A是翻车过的。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 16:52</span><br>
+<span>看来我的记忆还是准确的。。。对，当时就这么恶心。其实这个补偿是INTEL给的。结果你看看除了MSI以外做的 ...</span><br>
+<span>694X是99年的，KT133A是01年的，694X不叫133A是因为要避免和KT133A混淆也是说不通的</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-7 17:15 编辑 </span><br>
+<span>EraserKing 发表于 2020-2-7 17:05</span><br>
+<span>694X是99年的，KT133A是01年的，694X不叫133A是因为要避免和KT133A混淆也是说不通的 ...</span><br>
+<span>这个实际上两个是同时存在于市场里有一段时间的。</span><br>
+<span>中国市场真正开始用上P4，怕是要S478开始普及，到第二代NORTHWOOD才开始，哦，还有一种办法是使用VIA的芯片组上DDR。 但是PIII，尤其是图拉丁后期用的不少。另外，694X是99年10月，真正大规模上市怕是以那时候的状况都得到2000年年后，那时候都是S370的接口了，即便有，那也是那种所谓的双子星，SLOT 1 SOCKET 370同时有的，另外，还有KX133</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 17:13</span><br>
+<span>这个实际上两个是同时存在于市场里有一段时间的。</span><br>
+<span>中国市场真正开始用上P4，怕是要S478开始普及，到第二代 ...</span><br>
+<span>没必要再解释了</span><br>
+<span>你找找2000年上半年的文章，694X的叫法已经满天飞了，直接叫694X芯片组的都有</span><br>
+<span>KT133都要到2000年下半年才出，KT133A更晚</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>EraserKing 发表于 2020-2-7 17:48</span><br>
+<span>没必要再解释了</span><br>
+<span>你找找2000年上半年的文章，694X的叫法已经满天飞了，直接叫694X芯片组的都有</span><br>
+<span>KT133都要 ...</span><br>
+<span>好吧，其实都给忘了，芯片组什么的直接叫北桥型号确实也是比较正式的俗称</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 12:43</span><br>
+<span>5. 850E有没有主板上市我也记不清了，太久远了，不过搜了下应该是有的：https://bbs.pku.edu.cn/v2/collec ...</span><br>
+<span>5.我印象里也没见过850E，大概根本没进零售市场</span><br>
+<span>6.还有这么个东西真是头一次知道</span><br>
+<span>7.对的，当时支持兼容MC的就是P35和P45最多，不过也没人在那上边用DDR3吧，当时的DDR3频率太低了</span><br>
+<span>8.K7时代AMD也搞过自己的芯片组，不过基本没法用就是了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>hourousha 发表于 2020-2-7 14:22</span><br>
+<span>486的显卡基本都用VESA(VLB)，586哪还有ISA的。</span><br>
+<span>主板接口486是ISA+VLB，586是ISA+PCI+VLB，P2开始是AGP+PC ...</span><br>
+<span>有的，我家当时用的是个品牌机，是MMX200，股票卡插的ISA</span><br>
+</p><p><b>Sheny: </b><br>
+<span>EraserKing 发表于 2020-2-7 17:05</span><br>
+<span>694X是99年的，KT133A是01年的，694X不叫133A是因为要避免和KT133A混淆也是说不通的 ...</span><br>
+<span>原因很简单，那段历史产品迭代非常频繁，包括芯片组。而主板厂通常把小升级的主板命名搞得很接近，市场方面避免混淆，自然就直接拿标志性的北桥型号作为销售型号。反正那时一般一家厂，一套芯片组也就1-2款产品，带不带raid区分就行。</span><br>
+<span>还有一个原因就是当时南北桥混搭很普遍，amd760可以搭任何第三方南桥。via sis ali都有自己的方案，还存在一些隔代搭南北桥的行为艺术…</span><br>
+</p><p><b>takami: </b><br>
+<span>印象中k6-3还是挺强的</span><br>
+<span>大概是阿布扎拉斯带来的错觉</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>madbird302 发表于 2020-2-7 18:33</span><br>
+<span>5.我印象里也没见过850E，大概根本没进零售市场</span><br>
+<span>6.还有这么个东西真是头一次知道</span><br>
+<span>7.对的，当时支持兼容MC ...</span><br>
+<span>5. 回LZ帖子找资料的时候我确实没有从那几年的报价单上一眼发现850E的板子，不过我看漏了的可能性也大，毕竟没仔细看</span><br>
+<span>6. 当年820召回是搞得风风雨雨的，可能时间长了你忘了</span><br>
+<span>7. 我用的就是DDR3，不要问我为什么，忘了 </span><br>
+<span>8. K7？VIA/老黄，请……</span><br>
+<span>感觉农企就没点过芯片组的天赋，有第三方的情况，感觉上都是买第三方的多</span><br>
+<span>好不容易自己操刀做了个X570，功能是可以了，结果带风扇也是开R档</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sheny 发表于 2020-2-7 18:35</span><br>
+<span>原因很简单，那段历史产品迭代非常频繁，包括芯片组。而主板厂通常把小升级的主板命名搞得很接近，市场方 ...</span><br>
+<span>北桥么当时也是门道多，Intel AMD VIA NV都有，VIA NV还吃两家，VIA自己还有U，SIS和ALI相比之下是小厂了，再加上当时一个接口可以用N年，一个芯片组还有不同的集显</span><br>
+<span>所以市场上算是群魔乱舞了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 18:51</span><br>
+<span>5. 回LZ帖子找资料的时候我确实没有从那几年的报价单上一眼发现850E的板子，不过我看漏了的可能性也大， ...</span><br>
+<span>6.820我知道，但是能上SDRAM的820是完全没听说过</span><br>
+<span>7.1066？</span><br>
+<span>8.不是说4系和5系是包给祥硕设计的吗？现在看消息600系列也是，搞出需要主动散热的芯片也真够迷惑的了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>madbird302 发表于 2020-2-7 18:59</span><br>
+<span>6.820我知道，但是能上SDRAM的820是完全没听说过</span><br>
+<span>7.1066？</span><br>
+<span>8.不是说4系和5系是包给祥硕设计的吗？现在看 ...</span><br>
+<span>6. 820一开始只有RDRAM，后来为了支持SDRAM才加了MTH的，然而MTH翻车，所以又召回了SDRAM版的820，RDRAM的没问题，这个资料就很多了</span><br>
+<span>7. 不记得了，机器都不知道在哪吃灰了</span><br>
+<span>8. 34系都是祥硕，5系里X570是AMD自家做的（好像是因为怕别人搞不好PCIE4），B550听说还给祥硕……</span><br>
+<span>6系目前还不知道怎么说，正常配合Zen3的话也要到下半年了，X670能加啥呢？我能想到的就是多加几个USB多给几个PCIE算了。</span><br>
+</p><p><b>hourousha: </b><br>
+<span>madbird302 发表于 2020-2-7 18:35</span><br>
+<span>有的，我家当时用的是个品牌机，是MMX200，股票卡插的ISA</span><br>
+<span>586有ISA当然没问题，但你说显卡也插ISA？ISA带宽才多少？用的纯文字或VGA模式？</span><br>
+<span>VLB其实是在ISA Slot的基础上，后面又加了一段比PCI 稍短的Slot，你估计是没记清。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>hourousha 发表于 2020-2-7 19:16</span><br>
+<span>586有ISA当然没问题，但你说显卡也插ISA？ISA带宽才多少？用的纯文字或VGA模式？</span><br>
+<span>VLB其实是在ISA Slot的 ...</span><br>
+<span>显卡是个当时都没听说过的台湾芯片品牌，声卡是打磨的雅马哈734，不过这是当时证券公司做够交易额送的，没什么可挑的</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 19:07</span><br>
+<span>6. 820一开始只有RDRAM，后来为了支持SDRAM才加了MTH的，然而MTH翻车，所以又召回了SDRAM版的820，RDRAM ...</span><br>
+<span>就是支持新CPU接口吧……</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>madbird302 发表于 2020-2-7 19:32</span><br>
+<span>就是支持新CPU接口吧……</span><br>
+<span>你在指啥？6系当然还是AM4啊，搭配Zen3</span><br>
+<span>明年才换接口</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 19:37</span><br>
+<span>你在指啥？6系当然还是AM4啊，搭配Zen3</span><br>
+<span>明年才换接口</span><br>
+<span>难道600系列是今年的？</span><br>
+</p><p><b>sunyiren: </b><br>
+<span> 本帖最后由 sunyiren 于 2020-2-7 20:38 编辑 </span><br>
+<span>693 694市场里叫着方便呀 比较阿波罗Pro方便多了</span><br>
+<span>配毒龙的时候，买一块带ISA的大板依然也是当时的刚需，因为股票卡还没完全退役</span><br>
+<span>以前还买过trident，9880Blade3D也火过一段时间，玩保时捷之旅美如画</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>madbird302 发表于 2020-2-7 20:18</span><br>
+<span>难道600系列是今年的？</span><br>
+<span>今年啊，至少X670今年……B650（不知道有没有了）如果有的话倒有可能明年，因为你看到现在B550还没出呢</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 20:58</span><br>
+<span>今年啊，至少X670今年……B650（不知道有没有了）如果有的话倒有可能明年，因为你看到现在B550还没出呢 ...</span><br>
+<span>B450不知道有多少存货还是还在生产，有这个就没必要出B550</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>madbird302 发表于 2020-2-7 22:09</span><br>
+<span>B450不知道有多少存货还是还在生产，有这个就没必要出B550</span><br>
+<span>肯定要出B550啊，直连CPU的20条M2要支持PCIE4吧，PCH接出来的升级到PCIE3就可以了</span><br>
+<span>我记得这个已经有人在本版里说过了</span><br>
+<span>要是不支持PCIE4，你让5700/XT之类的咋宣传？自家的卡说PCIE4很有用，自家的板却只有一种能支持？</span><br>
+<span>至少还没拉下脸学牙膏厂，前脚说PCIE4没用，后脚网卡和Optane都出了PCIE4的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912541[50-100]</guid>
+    </item>
+    <item>
+      <title>考古，I820芯片组，INTEL的一次失败的耍流氓[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912541-1-1.html</link>
+      <description>考古，I820芯片组，INTEL的一次失败的耍流氓&#13;
+本帖本来首发于图吧，但是似乎因为人长期在海外绑定的海外手机号，发帖只有自己看的见，知乎更是不让发
+&#13;
+RT，楼主是个从上个世纪开始搞电脑的，玩过昆腾硬盘，海洋主板，妈妈叉133 166， 更早的甚至拆装过486DX-2 66MHZ+8MEDO内存，金牛9850显卡。如果按照时间划分，可能算中国第一代民间DIYER，毕竟那个时代，基本上网络是想都不敢想的，获取知识的途径也就是只有电脑报和之后的一些杂志了，这一批人大都是这个时候靠着这些渠道开始搞起来的。
+&#13;
+先说好，下面的内容，基本上是楼主自己的记忆，由于时代太久远，距今已经有20年左右的历史，所以有些东西未必能对的上，如果有啥自媒体到这里取材搞啥考据之类的，还得稍微注意一下，多考证一下。 手打更新中
+&#13;
+首先讲讲为啥会写这篇帖子，这是楼主最近和小自己10来岁的哥们在QQ群里讨论的时候突然有的想法，在楼主看来，在一个垄断竞争（Monoply competition）的环境下，任何试图使用捆绑销售的手段来获取更大利益的行为，都是耍流氓。其实呢，在IT行业里面，这种事情也是屡见不鲜的，比如早年WINDOWS捆绑IE干掉了NETSCAPE，再后来A和N两家都不开放自家的芯片组授权给第三方厂家等等（当然这是后话，毕竟现如今，别说北桥，南桥好多都给塞到CPU里面去了，但是你们看看啥时候VIA，N的芯片组退市的？那会儿还没到这程度呢）。在楼主看来，I820芯片组这事儿，也是这样的这么一回事，只是比较庆幸的是，这事儿最后INTEL失败了。
+&#13;
+首先说一下这事儿的背景：
+&#13;
+在上个90年代，本来有三家公司竞争CPU市场，CRYRIX，AMD， INTEL，其中INTEL是当仁不让的老大，CRYRIX呢，其实取得的成绩还算不错，但是后继乏力，到了1999年，已经彻底没法招架了，最后被VIA买走，出过几款CPU但是都不行，直到最近，VIA参与了国产CPU的制造，最近的那个KA开头的，就有VIA相关的技术。但是，基本上从90年代后期开始，这家基本出局。
+&#13;
+而AMD当时对INTEL的压力，一点不比现在的小。自从K6-2/3开始，一直追着INTEL打，到了K7，也就是众所周知的ATHLON发布以后，更是基本上性能开始压INTEL一头了，第一个打破1GHZ的CPU，就是AMD。
+&#13;
+因此，那段时间，可以说CPU的性能提升，因为市场竞争的关系一直呈现高速螺旋上升的趋势。相比之下，主板芯片组的FSB（这个概念现在基本上都没了呢，这是说CPU到北桥的速度，当然当时AMD因为用了EV6总线，因此这边的压力比INTEL小很多）也好，内存的速度也好，都开始有点顶不住了。（这个概念现如今也有，比如显卡如果GPU规格比较高，但是内存位宽比较低，外加用的显存不够好的话会出现性能不足，这时候你超GPU的速度效果是不甚理想的，得超显存，反过来也一样）当时的SDRAM，最多也就是支持到133MHZ，很显然，这个技术，已经走到了尽头，需要一种新的内存方式来取代这个。那时候基本上取代的方式有三种
+&#13;
+1.VRAM，因为年代久远，我甚至不知道这玩意儿是不是叫这个名字了，最早是NEC提出的，当然笔者也有点不确定了。基本上这玩意儿的原理就是内存加缓存，这个技术到了XB1初代就有过，然而本身这玩意儿因为本身也属于一个头痛医头脚痛医脚的方法，说到底，治标不治本，更不要说还有显卡等更吃带宽的玩意儿，所以第一时间被搞的出局，至于后来有没有被各种运用，XB1是否用的就是这个技术的近似值还是直接用的这个，楼主就不清楚了。
+&#13;
+2.DDR，这个没啥好说的了，目前你如果把GDDR都算上去，都6代了吧？这里我就提一句，这玩意儿最大的好处在于，这标准是免费的。至于为啥提这个，下文会给解释。
+&#13;
+3.RDRAM，这玩意儿呢是当时INTEL力推的标准，我个人感觉这设计思路，挺接近于RISC指令集CPU的。我们都知道，SDRAM，不管你是不是DDR，DDR几，一条内存都是标准的64BIT，但是这玩意儿的特点是单条内存的位宽很低，速度却很快。整体效果，是要好于DDR的。只是，这玩意儿最大的缺点在于，该技术并非免费。是的，你没搞错，要生产种内存，不仅结构比较复杂，还得交专利费。
+&#13;
+流氓的开端和过程：
+&#13;
+在这两种新型内存的方式上，INTEL选择了RAMBUS，当时INTEL的如意算盘那是打的一个叮当响，第一，他们收购了一部分RAMBUS的股份，日后我不仅芯片组，CPU，包括内存在内，统统都给我钱，哪怕你内存条用的是什么四爽牌，古代牌，银士顿牌，只要你用我RDRAM的颗粒，乖乖给钱。第二，他们和RAMBUS签约的同时留了一手，规定INTEL在一定时间内不能推行用DDR的芯片组，但是SDRAM并不在此列。这也就是为什么会存在I845这么奇怪的芯片组，而作为首发的I820芯片组，因为考虑到市场的关系，所以加入了一个能使用普通SDRAM的芯片，而恰恰是这一个芯片导致了非常严重的问题。
+&#13;
+好了，时间到了世纪末的2000年（按照比较正规的说法，2000年依旧是20世纪）的11月，P4出笼了，这玩意儿各方面指标都很牛X，在当时所有的人看来，各方面都很厉害，第一是频率高（当时就是这样的理论），第二，前端总线也做了更改，QBM，直接是AMD EV6总线的两倍，100M的实际频率能到400M的效果，那时候人家AMD撑死200-266. 御用的配置是直接用两条RDRAM，具体是128X2还是64X2，楼主也记不清楚了。但是呢，由于考虑到SDRAM的市场惯性，上文提到，配套的I820芯片组加入MTH芯片用以支持SDRAM，结果没想到的是，这玩意儿翻车了。而且翻车的非常难看。 而当时RDRAM由于各方面原因，价格高的离谱，我记得当时我看微型计算杂志写过一个P4尝鲜套，RDRAM的价格，甚至堪比P4CPU， 简直天价。 而RDRAM本身，还有各方面的性能问题，实际表现，并没有当初PPT做的这么出众。
+&#13;
+耍流氓的后果：
+&#13;
+上面提到I820的翻车。这里我还要加重说明一点，当时的主板芯片组市场，不仅有INTEL，还有VIA，ALI，SIS这样的第三方厂商，在这个情况下，其实，真要如此耍流氓，并不是一件容易的事情。比如VIA的P4X266/266A，P4+DDR，甚至还能干掉INTEL的I820+RDRAM的组合。 而I820芯片组，最后的结果就是全球召回。这里我还要提一句，当时INTEL的处理方法，还是比较够意思的，最后退赔了一条还是两条堪比天价的RDRAM。而国内当时的主板厂商，我记得除了三大厂里的一家（具体哪家就不知道了，如果想要深入了解，大概可以找的到）以外，别的，集体装死了。于是国内的消费者又被当成了韭菜。这事情，其实当时的反应是非常激烈的，只是那会儿BBS也好别的也好都没有这么热门。放到现在我看这事情，绝对不会这么容易的就过去了。
+&#13;
+最后的最后，RAMBUS事件，以INTEL出了一个比较蹩脚的I845芯片组（对，P4用SDRAM，因为和RAMBUS的合约规定不许支持DDR）宣告了RAMBUS内存在PC领域的彻底死亡。多年以后，PS3的内存，采用了这款产品。然后，笔者就再也没找到这家公司有关的事情了。
+&#13;
+大概就是这么多了。。。如果大家有兴趣，笔者倒是想要回顾一下APU的故事，说实在的，在笔者看来，这事儿，其实也是这么一个基于耍流氓思维的产物</description>
+      <content:encoded><![CDATA[<p><b>FA怪叔叔: </b><br>
+<span>考古，I820芯片组，INTEL的一次失败的耍流氓</span><br>
+<span>本帖本来首发于图吧，但是似乎因为人长期在海外绑定的海外手机号，发帖只有自己看的见，知乎更是不让发</span><br>
+<span>RT，楼主是个从上个世纪开始搞电脑的，玩过昆腾硬盘，海洋主板，妈妈叉133 166， 更早的甚至拆装过486DX-2 66MHZ+8MEDO内存，金牛9850显卡。如果按照时间划分，可能算中国第一代民间DIYER，毕竟那个时代，基本上网络是想都不敢想的，获取知识的途径也就是只有电脑报和之后的一些杂志了，这一批人大都是这个时候靠着这些渠道开始搞起来的。</span><br>
+<span>先说好，下面的内容，基本上是楼主自己的记忆，由于时代太久远，距今已经有20年左右的历史，所以有些东西未必能对的上，如果有啥自媒体到这里取材搞啥考据之类的，还得稍微注意一下，多考证一下。 手打更新中</span><br>
+<span>首先讲讲为啥会写这篇帖子，这是楼主最近和小自己10来岁的哥们在QQ群里讨论的时候突然有的想法，在楼主看来，在一个垄断竞争（Monoply competition）的环境下，任何试图使用捆绑销售的手段来获取更大利益的行为，都是耍流氓。其实呢，在IT行业里面，这种事情也是屡见不鲜的，比如早年WINDOWS捆绑IE干掉了NETSCAPE，再后来A和N两家都不开放自家的芯片组授权给第三方厂家等等（当然这是后话，毕竟现如今，别说北桥，南桥好多都给塞到CPU里面去了，但是你们看看啥时候VIA，N的芯片组退市的？那会儿还没到这程度呢）。在楼主看来，I820芯片组这事儿，也是这样的这么一回事，只是比较庆幸的是，这事儿最后INTEL失败了。</span><br>
+<span>首先说一下这事儿的背景：</span><br>
+<span>在上个90年代，本来有三家公司竞争CPU市场，CRYRIX，AMD， INTEL，其中INTEL是当仁不让的老大，CRYRIX呢，其实取得的成绩还算不错，但是后继乏力，到了1999年，已经彻底没法招架了，最后被VIA买走，出过几款CPU但是都不行，直到最近，VIA参与了国产CPU的制造，最近的那个KA开头的，就有VIA相关的技术。但是，基本上从90年代后期开始，这家基本出局。</span><br>
+<span>而AMD当时对INTEL的压力，一点不比现在的小。自从K6-2/3开始，一直追着INTEL打，到了K7，也就是众所周知的ATHLON发布以后，更是基本上性能开始压INTEL一头了，第一个打破1GHZ的CPU，就是AMD。</span><br>
+<span>因此，那段时间，可以说CPU的性能提升，因为市场竞争的关系一直呈现高速螺旋上升的趋势。相比之下，主板芯片组的FSB（这个概念现在基本上都没了呢，这是说CPU到北桥的速度，当然当时AMD因为用了EV6总线，因此这边的压力比INTEL小很多）也好，内存的速度也好，都开始有点顶不住了。（这个概念现如今也有，比如显卡如果GPU规格比较高，但是内存位宽比较低，外加用的显存不够好的话会出现性能不足，这时候你超GPU的速度效果是不甚理想的，得超显存，反过来也一样）当时的SDRAM，最多也就是支持到133MHZ，很显然，这个技术，已经走到了尽头，需要一种新的内存方式来取代这个。那时候基本上取代的方式有三种</span><br>
+<span>1.VRAM，因为年代久远，我甚至不知道这玩意儿是不是叫这个名字了，最早是NEC提出的，当然笔者也有点不确定了。基本上这玩意儿的原理就是内存加缓存，这个技术到了XB1初代就有过，然而本身这玩意儿因为本身也属于一个头痛医头脚痛医脚的方法，说到底，治标不治本，更不要说还有显卡等更吃带宽的玩意儿，所以第一时间被搞的出局，至于后来有没有被各种运用，XB1是否用的就是这个技术的近似值还是直接用的这个，楼主就不清楚了。</span><br>
+<span>2.DDR，这个没啥好说的了，目前你如果把GDDR都算上去，都6代了吧？这里我就提一句，这玩意儿最大的好处在于，这标准是免费的。至于为啥提这个，下文会给解释。</span><br>
+<span>3.RDRAM，这玩意儿呢是当时INTEL力推的标准，我个人感觉这设计思路，挺接近于RISC指令集CPU的。我们都知道，SDRAM，不管你是不是DDR，DDR几，一条内存都是标准的64BIT，但是这玩意儿的特点是单条内存的位宽很低，速度却很快。整体效果，是要好于DDR的。只是，这玩意儿最大的缺点在于，该技术并非免费。是的，你没搞错，要生产种内存，不仅结构比较复杂，还得交专利费。</span><br>
+<span>流氓的开端和过程：</span><br>
+<span>在这两种新型内存的方式上，INTEL选择了RAMBUS，当时INTEL的如意算盘那是打的一个叮当响，第一，他们收购了一部分RAMBUS的股份，日后我不仅芯片组，CPU，包括内存在内，统统都给我钱，哪怕你内存条用的是什么四爽牌，古代牌，银士顿牌，只要你用我RDRAM的颗粒，乖乖给钱。第二，他们和RAMBUS签约的同时留了一手，规定INTEL在一定时间内不能推行用DDR的芯片组，但是SDRAM并不在此列。这也就是为什么会存在I845这么奇怪的芯片组，而作为首发的I820芯片组，因为考虑到市场的关系，所以加入了一个能使用普通SDRAM的芯片，而恰恰是这一个芯片导致了非常严重的问题。</span><br>
+<span>好了，时间到了世纪末的2000年（按照比较正规的说法，2000年依旧是20世纪）的11月，P4出笼了，这玩意儿各方面指标都很牛X，在当时所有的人看来，各方面都很厉害，第一是频率高（当时就是这样的理论），第二，前端总线也做了更改，QBM，直接是AMD EV6总线的两倍，100M的实际频率能到400M的效果，那时候人家AMD撑死200-266. 御用的配置是直接用两条RDRAM，具体是128X2还是64X2，楼主也记不清楚了。但是呢，由于考虑到SDRAM的市场惯性，上文提到，配套的I820芯片组加入MTH芯片用以支持SDRAM，结果没想到的是，这玩意儿翻车了。而且翻车的非常难看。 而当时RDRAM由于各方面原因，价格高的离谱，我记得当时我看微型计算杂志写过一个P4尝鲜套，RDRAM的价格，甚至堪比P4CPU， 简直天价。 而RDRAM本身，还有各方面的性能问题，实际表现，并没有当初PPT做的这么出众。</span><br>
+<span>耍流氓的后果：</span><br>
+<span>上面提到I820的翻车。这里我还要加重说明一点，当时的主板芯片组市场，不仅有INTEL，还有VIA，ALI，SIS这样的第三方厂商，在这个情况下，其实，真要如此耍流氓，并不是一件容易的事情。比如VIA的P4X266/266A，P4+DDR，甚至还能干掉INTEL的I820+RDRAM的组合。 而I820芯片组，最后的结果就是全球召回。这里我还要提一句，当时INTEL的处理方法，还是比较够意思的，最后退赔了一条还是两条堪比天价的RDRAM。而国内当时的主板厂商，我记得除了三大厂里的一家（具体哪家就不知道了，如果想要深入了解，大概可以找的到）以外，别的，集体装死了。于是国内的消费者又被当成了韭菜。这事情，其实当时的反应是非常激烈的，只是那会儿BBS也好别的也好都没有这么热门。放到现在我看这事情，绝对不会这么容易的就过去了。</span><br>
+<span>最后的最后，RAMBUS事件，以INTEL出了一个比较蹩脚的I845芯片组（对，P4用SDRAM，因为和RAMBUS的合约规定不许支持DDR）宣告了RAMBUS内存在PC领域的彻底死亡。多年以后，PS3的内存，采用了这款产品。然后，笔者就再也没找到这家公司有关的事情了。</span><br>
+<span>大概就是这么多了。。。如果大家有兴趣，笔者倒是想要回顾一下APU的故事，说实在的，在笔者看来，这事儿，其实也是这么一个基于耍流氓思维的产物</span><br>
+</p><p><b>marsquake: </b><br>
+<span>好文，马克</span><br>
+</p><p><b>红左手: </b><br>
+<span>Rambus活得好好的，一年还有几亿美元营业额吧</span><br>
+<span>PS3上用的已经是叫XDR了</span><br>
+<span>后来还出过XDR 2，但是好像没什么人用</span><br>
+</p><p><b>忧郁的羊: </b><br>
+<span>FA还真发这里了 RAMBUS现在日子应该过得还行吧</span><br>
+</p><p><b>1694295955: </b><br>
+<span>RDRAM不仅是本身的价格贵啊</span><br>
+<span>其他你不插 RDRAM的内存槽还要插上占位的卡</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-6 23:27 编辑 </span><br>
+<span>红左手 发表于 2020-2-6 23:11</span><br>
+<span>Rambus活得好好的，一年还有几亿美元营业额吧</span><br>
+<span>PS3上用的已经是叫XDR了</span><br>
+<span>所以我写了啊，PS3以后我就再也没听到这家公司的声音了</span><br>
+<span>另外回楼上这个当时聊天的时候提到了，但是我忘了写了。。。另外，当时第一批P4， WILLAMETTE核心的，甚至还不止这些呢，还有I840 I850，只是这些都是给至强用的</span><br>
+</p><p><b>红左手: </b><br>
+<span>FA怪叔叔 发表于 2020-2-6 23:25</span><br>
+<span>所以我写了啊，PS3以后我就再也没听到这家公司的声音了</span><br>
+<span>后来和NV还有过一场诉讼</span><br>
+</p><p><b>Sheny: </b><br>
+<span>很多错误，K6对于intel并没有什么压力，我第一台电脑就是k6，纯粹便宜而已。初代k7包括后来拿到1g记录，全部是socket7半速缓存，对比同期的P3实际效果也毫无优势。amd真正拿到优势的是改用socketA的thunderbird，那时仍然是大家对拼sdram。amd凭借买来的ev6总线，加上intel处于slot1转型期，大量的bx440库存，才拿到优势。至于820确实翻车了，但是rdram当时绝对是性能最好的内存，没啥可说的。你说最后免费的ddr摘取胜利果实没问题，rdram输给明显过时的sdram，纯粹就是市场原因，跟技术无关。</span><br>
+</p><p><b>Sheny: </b><br>
+<span>楼上没说错，rdram必须成对插，不成对要插对位卡。当时一条64mb的rdram售价近2000元，成对就是4000元，如果再加上处理器和主板，10000元就没了。市场根本无法承受</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span> 本帖最后由 FA怪叔叔 于 2020-2-6 23:40 编辑 </span><br>
+<span>Sheny 发表于 2020-2-6 23:27</span><br>
+<span>很多错误，K6对于intel并没有什么压力，我第一台电脑就是k6，纯粹便宜而已。初代k7包括后来拿到1g记录，全 ...</span><br>
+<span>K6-2和3是不一样的。K-6III当时对INTEL的压力就不小了。光一个100MHZ外频就把PII打败了，真正缺点无非是3D NOW之类的不行。实际效果还是可以的</span><br>
+<span>至于SLOT A的CPU当时的评测你去找找看。我当时手里就有这么一台，PLUTO核心。比起当时SLOT1的CPU还是有一定优势的。</span><br>
+<span>至于说楼上说插卡的问题，写帖子的时候给忘了，之前和人聊天的时候倒是提过。。确实是，毕竟这货16BIT一条。位宽低</span><br>
+</p><p><b>GlennBrookshear: </b><br>
+<span>家里现在还运行着i850芯片组的电脑 legend 未来先锋711 本来是98 se系统，后来长时间用me，最后装xp sp2，最后的最后ubuntu 9.04，然后的然后，还是XP SP3吧，然后的然后发现XPSP3停服后还能打补丁，好玩。</span><br>
+</p><p><b>Sheny: </b><br>
+<span>估计没经历过的人会问，为什么intel有大量bx440库存。一并回答了，intel大获成功的奔腾和奔腾mmx后，放弃了大锅饭socket7接口，转向专用的slot1接口，不给这一众兼容厂一起吃。之后奔腾2王者降临，这slot1御用接口，第一次王朝盛世，bx440自然是大家都拼了命造。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>后面一次全球召回也就是1155平台B2冻结问题了</span><br>
+</p><p><b>Sheny: </b><br>
+<span>FA怪叔叔 发表于 2020-2-6 23:36</span><br>
+<span>K6-2和3是不一样的。K-6III当时对INTEL的压力就不小了。光一个100MHZ外频就把PII打败了，真正缺点无非是3D ...</span><br>
+<span>k6-3的对手是“我疯起来连大哥都打”的初代赛扬…</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>Sheny 发表于 2020-2-6 23:41</span><br>
+<span>估计没经历过的人会问，为什么intel有大量bx440库存。一并回答了，intel大获成功的奔腾和奔腾mmx后，放弃了 ...</span><br>
+<span>当时的INTEL，比起之后的怕是良心多了。BX甚至还能艹几下支持133MHZ外频。</span><br>
+<span>至于说SLOT的原因也是为了更多的缓存。</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>Sheny 发表于 2020-2-6 23:43</span><br>
+<span>k6-3的对手是“我疯起来连大哥都打”的初代赛扬…</span><br>
+<span>我知道。。。问题是赛扬300A你发疯以后怕是P2都得跪的</span><br>
+</p><p><b>Sheny: </b><br>
+<span>FA怪叔叔 发表于 2020-2-6 23:44</span><br>
+<span>当时的INTEL，比起之后的怕是良心多了。BX甚至还能艹几下支持133MHZ外频。</span><br>
+<span>至于说SLOT的原因也是为了更多 ...</span><br>
+<span>不不不，slot1我觉得反倒是真垄断，凭着自己同频更快，指令集更好，有更高频率的产品。摆明了不再和你们一起玩。</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>小时候用着老奔腾，看电脑报上完全是神仙打架 </span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2020-2-7 00:17 编辑 </span><br>
+<span>1. 是Cyrix啦</span><br>
+<span>2. 还有全美达，不过更小众了，我记得Linus去美国一开始就是在全美达干活的吧</span><br>
+<span>3. 而且Rambus难买，一买还要买一对，单条还要配假条，当时记得是买U还是买板是配套送内存的</span><br>
+<span>4. Rambus的死亡应该是从牙膏厂重新又主打了815开始……</span><br>
+<span>5. 为什么不说是出用SDRAM的845呢，因为那是老后来的事了，845还有个兄弟叫850，用的依然是RDRAM……再往后还有支持DDR的845变种的845D……</span><br>
+<span>6. 召回820也不全是因为市场差，你想想还有更差的850呢……而是因为硬件上出了Bug，使用SDRAM的820在内存那块有啥问题来着的，会蓝屏死机之类的……至少表面上是这么说的。Rambus的820没问题。</span><br>
+<span>7. 现在想想IMC在北桥里也是挺有意思的，换个板就可以用不同的内存了，主板上还可以做两种内存的支持……</span><br>
+<span>8. 哦，还有，写那个时代的事，你怎么能不写694X呢……</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Sheny 发表于 2020-2-6 23:27</span><br>
+<span>很多错误，K6对于intel并没有什么压力，我第一台电脑就是k6，纯粹便宜而已。初代k7包括后来拿到1g记录，全 ...</span><br>
+<span>K6对标的P2，第一代很差，但K6-2和K6-3确实按着P2打，不过那时候intel已经迅速转向P3了，加上AMD早期一直存在的兼容性问题，从赛扬出现以后K6就基本退场了，那时候AMD的问题是性能上基本都比intel晚半代到一代，直到最后发起频率战争才站在同一起跑线上，820和RDRAM这种其实和后来的迅驰方案没什么区别，就是性价比太差才会崩盘</span><br>
+</p><p><b>madbird302: </b><br>
+<span>GlennBrookshear 发表于 2020-2-6 23:38</span><br>
+<span>家里现在还运行着i850芯片组的电脑 legend 未来先锋711 本来是98 se系统，后来长时间用me，最后装xp sp2， ...</span><br>
+<span>我擦，P4首发版吗？那性能叫一个差</span><br>
+</p><p><b>play_plug: </b><br>
+<span>slot1强是因为赛扬A，300A≈450,333A≈500的P2性能至少90%甚至更高，这U二级缓存虽小，但是全速运行十分可怕，超频幅度大，散热要求低，关键价格低，后续也就毒龙铅笔超频能有这种福利了，可惜我手里的333A运行两年主板就不行了（后来排查发现主要是电源和家里电压不稳害的，可怜的微星6163）</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Sheny 发表于 2020-2-6 23:41</span><br>
+<span>估计没经历过的人会问，为什么intel有大量bx440库存。一并回答了，intel大获成功的奔腾和奔腾mmx后，放弃了 ...</span><br>
+<span>BX还是挺良心的，第一次DIY盛世就是BX带来的，超频概念也是BX时期出现的，最主要的是ISA槽拓展了计算机的巨大潜能</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>EraserKing 发表于 2020-2-7 00:15</span><br>
+<span>1. 是Cyrix啦</span><br>
+<span>2. 还有全美达，不过更小众了，我记得Linus去美国一开始就是在全美达干活的吧</span><br>
+<span>3. 而且Rambus ...</span><br>
+<span>1.我寻思我没拼错啊</span><br>
+<span>2.那玩意儿一年就完蛋了，号称半软的CPU。</span><br>
+<span>4.815那可是PIII的</span><br>
+<span>5.还有848呢，当然这些都是后话了。</span><br>
+<span>6.我何时说过市场表现差？是翻车了。 MTH的锅</span><br>
+<span>7.更有趣的还有北桥显卡。但是这都不相关了</span><br>
+<span>8.阿波罗还是PIII，和P4时代没关系</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>madbird302 发表于 2020-2-7 00:31</span><br>
+<span>BX还是挺良心的，第一次DIY盛世就是BX带来的，超频概念也是BX时期出现的，最主要的是ISA槽拓展了计算机的 ...</span><br>
+<span>ISA？？？？？？？？？？？？？？？？？？？？？？</span><br>
+<span>PCI那会儿都落伍了，早一代的LX芯片组那都用上AGP了</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>play_plug 发表于 2020-2-7 00:21</span><br>
+<span>slot1强是因为赛扬A，300A≈450,333A≈500的P2性能至少90%甚至更高，这U二级缓存虽小，但是全速运行十分可 ...</span><br>
+<span>对，就是因为这全速二缓，导致这东西部分指标很高，再加上能直接艹个50%，到现在估计也找不到这么变态的U。</span><br>
+<span>当年我记得超这个我见识过一个叫噪声王的风扇，原装风扇拆下来搞这个。还有更走火入魔的，半导体散热片，结果半导体一时爽，结露分分钟火葬场</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EraserKing 发表于 2020-2-7 00:15</span><br>
+<span>1. 是Cyrix啦</span><br>
+<span>2. 还有全美达，不过更小众了，我记得Linus去美国一开始就是在全美达干活的吧</span><br>
+<span>3. 而且Rambus ...</span><br>
+<span>1.C3后边还是挺厉害的，370接口用到死，最后好像还卖给中国这边什么CPU项目了</span><br>
+<span>2.全美达的CPU专利破产时都卖给NV了，不过也没变出什么东西来</span><br>
+<span>3.第一代P4首发是CPU捆850主板，RDRAM成对卖的，不过超级贵</span><br>
+<span>4.看了下RAMBUS的网站，他们手里现在还有GDDR6 DDR4 HBM2还有PCI-E4.0 5.0的相官专利……</span><br>
+<span>5.是850E，不过感觉好像没上市？</span><br>
+<span>6.这点忘干净了</span><br>
+<span>7.映泰好像出了好多这种主板，尤其是nvidia芯片组的</span><br>
+<span>8.相对于694X，我感觉VIA芯片组更值得大书特书</span><br>
+</p><p><b>retp: </b><br>
+<span> 本帖最后由 retp 于 2020-2-7 01:11 编辑 </span><br>
+<span>FA怪叔叔 发表于 2020-2-6 22:59</span><br>
+<span>本帖本来首发于图吧，但是似乎因为人长期在海外绑定的海外手机号，发帖只有自己看的见，知乎更是不让发</span><br>
+<span>RT ...</span><br>
+<span>搞啥，820是370的芯片组，跟p4没关系，p4的rdram芯片组是840和850.</span><br>
+<span>820翻车之后intel出了sd的815但是还是喂了一口屎:只支持512m内存，bx440还有via sis全都能上1g+</span><br>
+<span>rdram内存翻车最大问题是贵，第二点是一开始预期频率800mhZ,量产发现上不去啊，只能600mhz，直接导致这个16bit位宽的内存性能才相当于sdram 150mhz，ddr最低标准也是等效200mhz了，性能打不过价格贵n多，你不死谁死？</span><br>
+<span>另外，ddr上下沿传输数据等效带宽翻倍的专利在rambus手上，所以用ddr内存rambus还是可以告倒一圈活的很滋润。</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>我第一次干坏事就是装机的时候把P4 2.4c里自带的128MB Rambus插反了，MSI的主板</span><br>
+<span>幸好师傅帮我瞒过去了，2333333</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>retp 发表于 2020-2-7 01:07</span><br>
+<span>搞啥，820是370的芯片组，跟p4没关系，p4的rdram芯片组是840和850.</span><br>
+<span>820翻车之后intel出了sd的815但是还是 ...</span><br>
+<span>哎呦卧槽。。。还真的是。。。</span><br>
+<span>我了个去，确实搞错了。毕竟20来年的事儿了，我就记得当年P4首发用的RDRAM，主板还得配套。还以为这两套和一起了。确实有问题，提的好</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>Cityrat 发表于 2020-2-7 01:14</span><br>
+<span>我第一次干坏事就是装机的时候把P4 2.4c里自带的128MB Rambus插反了，MSI的主板</span><br>
+<span>幸好师傅帮我瞒过去了，23 ...</span><br>
+<span>你确定？2.4c那都是NORTHWOOD核心了。。。。接口都换成478了啊</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:22</span><br>
+<span>你确定？2.4c那都是NORTHWOOD核心了。。。。接口都换成478了啊</span><br>
+<span>是P4 1.7</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>madbird302 发表于 2020-2-7 01:07</span><br>
+<span>1.C3后边还是挺厉害的，370接口用到死，最后好像还卖给中国这边什么CPU项目了</span><br>
+<span>2.全美达的CPU专利破产时都 ...</span><br>
+<span>1.恩，后来也有几款CPU面世，但是性能真的不行，主要是走低功耗路线。现如今的KA啥的国产芯片搞不好也有这个的血脉。</span><br>
+<span>3.这个我脑残了，搞错了，毕竟20年了，我还以为820才是P4的首发主板。记错了</span><br>
+<span>5.848其实就是845D的改版，这个你可以查一下，无非能支持更高的外频，但是不支持双通道，这款产品当年卖的不少。</span><br>
+<span>7.那时候几乎所有的厂家都这么干，INTEL，AMD，ati,N，都是这样的。当年甚至还有INTEL原装主板上Ati的主板,因为自家的集显完全没法看，http://arch.pconline.com.cn/diy/main/news/0512/730051.html 就这款，我当年还修过，因为用了小机箱导致散热极度不良，最后我的解决办法还是很简单暴力的，侧板打开别关。</span><br>
+<span>8.这个啊，不得不提华擎妖板PT880-VTSA了。VIA的这个绝唱才是真的牛逼</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>madbird302 发表于 2020-2-7 01:07</span><br>
+<span>1.C3后边还是挺厉害的，370接口用到死，最后好像还卖给中国这边什么CPU项目了</span><br>
+<span>2.全美达的CPU专利破产时都 ...</span><br>
+<span>当年nv的丹佛不就谣传要用全美达的技术通过兼容x86指令来向intel寻仇的吗</span><br>
+</p><p><b>madbird302: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 00:54</span><br>
+<span>ISA？？？？？？？？？？？？？？？？？？？？？？</span><br>
+<span>PCI那会儿都落伍了，早一代的LX芯片组那都用上AGP了 ...</span><br>
+<span>是我记错了，我那时用的586上还都是ISA，插的显卡和股票卡</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>madbird302 发表于 2020-2-7 01:38</span><br>
+<span>是我记错了，我那时用的586上还都是ISA，插的显卡和股票卡</span><br>
+<span>股票卡那都是Isa的。我家里后来的股票也是ISA卡。那时候都是第二台用SLOT A的K7的主板了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:31</span><br>
+<span>1.恩，后来也有几款CPU面世，但是性能真的不行，主要是走低功耗路线。现如今的KA啥的国产芯片搞不好也有 ...</span><br>
+<span>7.是的，当时大量intel服务器板子集成的Radeon VE还是LE来着，intel当时最后一个正式的北桥显卡是还是815815E里的i752吧，亮个机就能吃掉一小半CPU负载</span><br>
+<span>8.威盛最后也是搞的太过了，直接被intel发了好人卡彻底断了后路</span><br>
+</p><p><b>madbird302: </b><br>
+<span>zhenniuren 发表于 2020-2-7 01:37</span><br>
+<span>当年nv的丹佛不就谣传要用全美达的技术通过兼容x86指令来向intel寻仇的吗</span><br>
+<span>那时候老黄和欧德宁互相对喷CPU/GPU末日论真精彩，不过老黄最后拿出来的是基于ARM的特瓜，X86什么的早就扔到九霄云外去了</span><br>
+</p><p><b>FA怪叔叔: </b><br>
+<span>madbird302 发表于 2020-2-7 01:47</span><br>
+<span>7.是的，当时大量intel服务器板子集成的Radeon VE还是LE来着，intel当时最后一个正式的北桥显卡是还是815 ...</span><br>
+<span>8.其实不仅是VIA，真正把INTEL搞的阿妈都不认识的是N。</span><br>
+<span> 另外，其实以当时的情势看，北桥的消失也是差不多大势所趋了。先是内存控制内移，基本上这玩意儿出了以后各家厂商的主版都没啥太大差距了，拼的只剩下磁盘性之类南桥问题。接下来更是一步一步把主板上的各种控制器内移。偏偏这个还能有技术上的进步，所以这时候芯片组厂商还不能说啥。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:40</span><br>
+<span>股票卡那都是Isa的。我家里后来的股票也是ISA卡。那时候都是第二台用SLOT A的K7的主板了 ...</span><br>
+<span>后来还有鼓吹创新ISA声卡比后边PCI版本音质好的，不知道有没有现在还留着一台的</span><br>
+</p><p><b>madbird302: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:53</span><br>
+<span>8.其实不仅是VIA，真正把INTEL搞的阿妈都不认识的是N。</span><br>
+<span> 另外，其实以当时的情势看，北桥的消失也是差不 ...</span><br>
+<span>nforce虽然性能很强，但Intel版本没有许可始终是小众里的小众，就算老黄敢出主板厂商也不敢用啊，我记得只有升技和钻石出过。</span><br>
+<span>当时主板芯片组和CPU之间的带宽已经没法提升的，把多余的芯片拿掉提升集成度是唯一的出路，实际上后期的南桥的功能只有USB和HDD，根本没必要单独做那么大体积的一块芯片</span><br>
+</p><p><b>acalephs: </b><br>
+<span>FA怪叔叔 发表于 2020-2-6 08:51</span><br>
+<span>1.我寻思我没拼错啊</span><br>
+<span>2.那玩意儿一年就完蛋了，号称半软的CPU。</span><br>
+<span>4.815那可是PIII的</span><br>
+<span>您把Cyrix拼成CRYRIX了</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>815是奔3的，820也是，不过没人用rdram，850强推几乎人人喷，贵的一比，性能不见得给ddr好，还要成对插，还要空条占位 ，后面845d才叫打脸</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sheny: </b><br>
+<span>FA怪叔叔 发表于 2020-2-7 01:16</span><br>
+<span>哎呦卧槽。。。还真的是。。。</span><br>
+<span>我了个去，确实搞错了。毕竟20来年的事儿了，我就记得当年P4首发用的RDRAM ...</span><br>
+<span>820存在的时间很短，就像当年的p3 1.13一样，国内很多人没见过实物就召回了。你记忆偏差的厉害</span><br>
+</p><p><b>Sheny: </b><br>
+<span>还有当年k6真的弱逼，也就理论性能好，实际跑起来很蛋疼，一直到k6-3才算有点战斗力，但那都猴年马月了，p3都差不多上市了。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>说到超频，当时用着p1的时候还是跳线帽，外频60超一丁点到66，再往上75和83就点不亮了</span><br>
+<span>后来换了socket a的k7，流行铅笔胶带改倍频 </span><br>
+</p><p><b>Realplayer: </b><br>
+<span>madbird302 发表于 2020-2-7 01:49</span><br>
+<span>那时候老黄和欧德宁互相对喷CPU/GPU末日论真精彩，不过老黄最后拿出来的是基于ARM的特瓜，X86什么 ...</span><br>
+<span>黄叔叔手里还有一点x86授权？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Realplayer 发表于 2020-2-7 03:31</span><br>
+<span>黄叔叔手里还有一点x86授权？</span><br>
+<span>好像后来又卖掉了</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>Realplayer 发表于 2020-2-7 03:31</span><br>
+<span>黄叔叔手里还有一点x86授权？</span><br>
+<span>没什么用了，x86也在进步，像x86-64/em64t这样的没有直接判死刑</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>UniqueDiablo: </b><br>
+<span>红左手 发表于 2020-2-6 23:11</span><br>
+<span>Rambus活得好好的，一年还有几亿美元营业额吧</span><br>
+<span>PS3上用的已经是叫XDR了</span><br>
+<span>营业额   X</span><br>
+<span>官司收入 O</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912541[0-50]</guid>
+    </item>
+  </channel>
+</rss>

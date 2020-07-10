@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑开共享可能被入侵如何补救</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑开共享可能被入侵如何补救</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:04:51 +0000</lastBuildDate>
+    <item>
+      <title>电脑开共享可能被入侵如何补救[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855782-1-1.html</link>
+      <description>电脑开共享可能被入侵如何补救&#13;
+ 本帖最后由 飞蛾 于 2019-8-25 14:54 编辑 
+
+从来没用过网上邻居功能，不知道风险，照着网上攻略成功把一台win10和一台win7互连，win10开了smb1.0和一些不必要的设置。设成共享两天后发现电脑待机的20分钟被改成了永不待机，取消待机后电脑还有一段时间连不上网络，我就觉得不太对劲，然后才去把当时设共享的攻略全都反操作一遍，关文件夹共享的时候还提示我“有一个用户正在连接你的文件，现在关闭会XXX”什么的，我不知道这个是我自己还是别人，反正我接着关了server和workstation，现在我想问如果被入侵过，需要做把设置关闭以外的工作么，黑客能设置一些计划任务定时开启一些对我不利的设置么？或许还有什么我没想到的危险？求大佬们指点。</description>
+      <content:encoded><![CDATA[<p><b>飞蛾: </b><br>
+<span>电脑开共享可能被入侵如何补救</span><br>
+<span> 本帖最后由 飞蛾 于 2019-8-25 14:54 编辑 </span><br>
+<span>从来没用过网上邻居功能，不知道风险，照着网上攻略成功把一台win10和一台win7互连，win10开了smb1.0和一些不必要的设置。设成共享两天后发现电脑待机的20分钟被改成了永不待机，取消待机后电脑还有一段时间连不上网络，我就觉得不太对劲，然后才去把当时设共享的攻略全都反操作一遍，关文件夹共享的时候还提示我“有一个用户正在连接你的文件，现在关闭会XXX”什么的，我不知道这个是我自己还是别人，反正我接着关了server和workstation，现在我想问如果被入侵过，需要做把设置关闭以外的工作么，黑客能设置一些计划任务定时开启一些对我不利的设置么？或许还有什么我没想到的危险？求大佬们指点。</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>你有什么惊天大秘密吗，你有的话你要是担心那就重装</span><br>
+</p><p><b>飞蛾: </b><br>
+<span>月夜凝雪 发表于 2019-8-25 14:54</span><br>
+<span>你有什么惊天大秘密吗，你有的话你要是担心那就重装</span><br>
+<span>明白了，谢谢大佬。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>这个是指自己吧，我经常共享文件夹，每次关共享时候都有这个提示。</span><br>
+<span>我都是带用户名和密码的共享，别人访问不了吧...</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>开了共享被入侵你是想太多</span><br>
+</p><p><b>sirlion: </b><br>
+<span>关闭共享都会提示这个，没啥事，况且smb都不支持外网访问的，我还想着法能外网访问smb呢</span><br>
+</p><p><b>qwased: </b><br>
+<span>别开smb1.0</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>实际上是个人电脑别人才没那么闲，但有些人是自己心理过不去那总得找些事干</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>smb本身不安全，但是用的那几个端口都被运营商封了。</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>永恒之蓝了解一下</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>smb1.0还是关掉吧，安全隐患很大的。直接在可选功能里关掉就行</span><br>
+</p><p><b>飞蛾: </b><br>
+<span>现在还有一件怪事，就是我知道要重装系统后，我用115试着下msdn上的系统，试了4个版本，全都是最后几秒下不动了，这是被谁限制网络了么还是115的问题？</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>没错，是同一个人把你的网卡住了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>无字仓颉 发表于 2019-8-25 16:41</span><br>
+<span>smb1.0还是关掉吧，安全隐患很大的。直接在可选功能里关掉就行</span><br>
+<span>1.0不开，没办法识别R7000挂的硬盘。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855782[0-50]</guid>
+    </item>
+  </channel>
+</rss>

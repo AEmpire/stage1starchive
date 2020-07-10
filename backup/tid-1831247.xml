@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:37:35 +0000</lastBuildDate>
+    <item>
+      <title>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831247-1-1.html</link>
+      <description>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？&#13;
+ 本帖最后由 zhuangku556 于 2019-10-28 14:38 编辑 
+
+以下内容基于iPhone，iPad，推荐iPad 9.7寸以上，全篇无任何技术难度，前置条件：有稳定的FQ工具。
+&#13;
+看漫画：
+&#13;
+1.离线推荐comicglass，没毛病，是个人都知道。软件收费，忘了多少钱了好像480日元左右。
+&#13;
+2.在线分两种方案：
+&#13;
+-1）如果你有大量的在线网站，并且可以忍受通过浏览器在线阅读，
+&#13;
+      那你只要安装一个safari专用的屏蔽广告APP：adguard
+&#13;
+      免费版即可，收费版多了个VPN全局系统过滤广告功能，但和梯子软件冲突，不推荐。（本肥宅优先推荐本种方法！）
+&#13;
+似乎有人对iOS的全局屏蔽广告感兴趣，我补充一下：
+&#13;
+①adguard的收费版有这个功能，购买以后开启就行，可以对付app开屏广告，但效果不绝对，比如微博和知乎就有用，网易云就没用，主要还是和规则有关。原理就是手机全局挂个VPN帮你过滤，缺点是不能和别的梯子共存，而且会影响sim卡免流。
+&#13;
+②小火箭的过滤广告规则，实测可以对付开屏广告，比如知乎，微博这种。
+&#13;
+具体链接参考：https://github.com/h2y/Shadowrocket-ADBlock-Rules 
+&#13;
+缺点：AppStore国区没这个软件，外区你得解决付费购买的问题。而且同样影响sim卡免流，效果同样视规则可能有不小的差距，但如果你要用梯子的话这个办法首选。
+&#13;
+-2）我非要用app怎么办，也有！名字是：yealico，可以根据需求添加各种规则用来阅读漫画和看视频。
+&#13;
+      详细规则可参考：https://yealicositemarket.home.blog/ （包含EH,EX,漫画柜，汗汗等漫画站规则）
+&#13;
+      价格：app免费，去广告480日元，自带1个免费站点，5个站点720日元。（挺贵）
+&#13;
+      目前已知缺陷：无法同步E站的收藏，看GIF不会动。某些站点看漫画可能会缺页，目前原因不明，已经向规则开发者反馈。
+&#13;
+-3）某粉红色APP，解决肥宅刚需。
+&#13;
+      羡慕Android的粉红色app？现在iOS也有了：
+&#13;
+安裝方法:
+&#13;
+1. 先到appstore下載testflight app
+&#13;
+2. 在safari 打開 https://testflight.apple.com/join/BwaSasyZ
+&#13;
+3. 安裝便成
+&#13;
+https://t.me/PicACG 粉红色APP的tg公众号，iOS版本的技术支持，test flight的名额都可查询。
+&#13;
+-4）多多猫 
+&#13;
+目前iOS版和粉红色漫画一样，只有test flight，体验不太好，可以试试。
+&#13;
+iOS 通用版本 已开放preview版试用 https://testflight.apple.com/join/asklyqJk
+&#13;
+同时支持iPhone、iPad 
+&#13;
+2019年10月28日更新：-5）alook浏览器+熊猫书签
+&#13;
+在AppStore搜索“alook”，链接：
+&#13;
+https://apps.apple.com/jp/app/alookブラウザ-2倍速/id1261944766
+&#13;
+大概12人民币左右，此浏览器非常强大，建议好好阅读开发者的使用手册，而我们可以通过其中的js脚本功能实现提升浏览e绅士的体验。
+&#13;
+进入熊猫书签：https://expanda.org/
+&#13;
+javascript:(function(){var a=document.createElement('script');a.setAttribute('src','//expanda.org/panda.js?'+parseInt(Date.parse(new Date())/600000));document.body.appendChild(a);}());
+&#13;
+将上方代码复制并填入alook浏览器，路径为：设置=自定义设置=JavaScript扩展=右上角加号：
+&#13;
+名称自己填，匹配类型=域名，匹配值=exhentai.org，运行时间=DOMContentLoaded，下方为js代码。
+&#13;
+全部设置完存储即可。
+&#13;
+至于熊猫书签的功能，可以免cookie进入里站，瀑布流阅读等，具体阅读开发者的使用手册。
+&#13;
+看涩图：
+&#13;
+群里和推上的涩图不够看，pixiv又一堆广告，怎么办呢？
+&#13;
+隆重推荐：Anime boxes 
+&#13;
+可自行添加danbooru，gelbooru，shimmie2，danbooru2等图站规则，比如konachan和yande.re，提升收图用户体验！
+&#13;
+具体规则简单，没啥门槛，进到app-sever，自己看看就会设置。
+&#13;
+软件基础功能免费，可氪金增加点花边功能支持开发者。（实测没卵用，可以不氪）
+&#13;
+看视频：
+&#13;
+1.直接网页看澄黑站，配合adguard去广告，享受和PC差不多的快感。（有坛友补充可以用nplay的内置浏览器看，视频UI效果更好，但我实测由于nplay内置浏览器没有屏蔽广告的能力，所以体验反而下降了。）
+&#13;
+2.如果你有个nas，喜欢自己下载动画电影的，推荐infuse，收费奇高，但值回票。
+&#13;
+建议订阅不要买断，买断了一个大版本，新的大版本更新又不支持了。
+&#13;
+本人用来配合apple TV，在大法4K电视上观赏live BD，影视剧和剧场版动画，如果只有小屏幕设备的话，用处不是很大。
+&#13;
+3.nplayer，VLC这些多平台的，不用太多介绍，但体感对smb和upnp的支持不如infuse好。
+&#13;
+目前想到的就是这些，有啥别的想到再补充吧。</description>
+      <content:encoded><![CDATA[<p><b>tower: </b><br>
+<span>adguard可以元素隐藏,赞.</span><br>
+</p><p><b>mashirotan: </b><br>
+<span>Aeroblast 发表于 2019-5-13 21:30</span><br>
+<span>看来一下支持里没写7z……</span><br>
+<span>早年间自己备份都是是7z打包，现在傻眼了……comicshare也只有7z出毛病……算 ...</span><br>
+<span>7z会提示solid archive，但是是可以正常打开的</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span> 本帖最后由 Aeroblast 于 2019-5-14 16:42 编辑 </span><br>
+<span>mashirotan 发表于 2019-5-14 14:54</span><br>
+<span>7z会提示solid archive，但是是可以正常打开的</span><br>
+<span>不是这个问题，7z用滚动模式，偶尔会出现图片损坏或者只加载了一半，还有关闭的时候偶尔会卡死。然而上一个版本没这问题。zip目前也没遇到过。</span><br>
+</p><p><b>hagenda4: </b><br>
+<span>插个眼 安卓的粉红色软件到底是啥啊 最近找漫画老看到</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>kanpachi 发表于 2019-5-14 13:38</span><br>
+<span> 浏览记录同步是刚需，chrome不支持插件太蛋疼 p站可以用nplayer内置浏览器看，载入后直接用nplayer的ui，吊 ...</span><br>
+<span>nplayer的ui是什么？我下了个免费版没看出浏览网页和Safari有什么区别</span><br>
+</p><p><b>ckl80: </b><br>
+<span>hagenda4 发表于 2019-5-14 16:49</span><br>
+<span>插个眼 安卓的粉红色软件到底是啥啊 最近找漫画老看到</span><br>
+<span>picacg</span><br>
+</p><p><b>ckl80: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-5-14 16:49</span><br>
+<span>nplayer的ui是什么？我下了个免费版没看出浏览网页和Safari有什么区别</span><br>
+<span>要看视频才有用，等于就是用nplayer的播放器播放网页上的视频</span><br>
+</p><p><b>halfwind: </b><br>
+<span>mark</span><br>
+<span>一下，exhentai是ios 最大的伤</span><br>
+</p><p><b>肥肚肚: </b><br>
+<span>哔咔测试满了</span><br>
+</p><p><b>evooil: </b><br>
+<span> zhuangku556 发表于 2019-5-14 12:04 引用:蔡卓妍 发表于 2019-5-14 11:46 楼主知道怎么屏蔽app的广告吗？ 就是切换了再看就会有广告那种，例如nga客户端，谢谢 ... 有一个方案，就是dns过滤。具体有好几个软件都可以，但是效果不保证。1）adguard的收费版有这个功能，你购买以后开启就行，可以对付app开屏广告。原理就是手机全局挂个VPN帮你过滤，但不能和别的梯子共存，而且会影响sim卡免流。2）小火箭 </span><br>
+<span>小火箭规则试了几个 微博开屏广告都去不掉</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>序曲: </b><br>
+<span>halfwind 发表于 2019-5-14 17:09</span><br>
+<span>mark</span><br>
+<span>一下，exhentai是ios 最大的伤</span><br>
+<span>找去广告的浏览器上nh</span><br>
+</p><p><b>杨雪崩: </b><br>
+<span>有PM能买外服IOS账号的方法</span><br>
+</p><p><b>串行总线: </b><br>
+<span> 本帖最后由 串行总线 于 2019-5-14 21:07 编辑 </span><br>
+<span>用浏览器看e站的话，试试这个脚本 Manga Loader NSFW 里面提供的一个书签</span><br>
+<span>javascript:(function(){BM_MODE=true;var addScript=function(src,onload){var s=document.createElement('script');s.onload=onload;s.src=src;document.body.appendChild(s);};addScript('https://greasyfork.org/scripts/692-manga-loader/code/Manga%20Loader.user.js',addScript.bind(null,'https://greasyfork.org/scripts/12657-manga-loader-nsfw/code/Manga%20Loader%20NSFW.user.js'));})();</span><br>
+<span>点开某一页后打开这个书签可以自动加载瀑布浏览</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>串行总线 发表于 2019-5-14 21:05</span><br>
+<span> 用浏览器看e站的话，试试这个脚本 Manga Loader NSFW 里面提供的一个书签   </span><br>
+<span>试了下显示Safari无法以此方式运行JavaScript脚本</span><br>
+</p><p><b>串行总线: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-5-14 21:38</span><br>
+<span>试了下显示Safari无法以此方式运行JavaScript脚本</span><br>
+<span>啊，抱歉我忘记上次是拿chrome试的了，现在pad不在身边也不清楚现在什么情况……</span><br>
+</p><p><b>信长的呕吐: </b><br>
+<span>xp3player</span><br>
+</p><p><b>violettor: </b><br>
+<span>小白，请教anime boxes该怎么设置…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>额？e站直接拿Safari看不就好了，表站梯子，里站清个cookies甚至不用登梯子。</span><br>
+<span>nplayer播nas视频除了找字幕比较麻烦，虽然我都是自己找字幕，其他还好。</span><br>
+<span>—— 来自 Meizu PRO 6 Plus, Android 7.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>rahicis: </b><br>
+<span>学习了</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>挂半年hentai@home，用hath开multipage用iPad直接看网页，除了不能离线体验已经很好了。</span><br>
+</p><p><b>kanpachi: </b><br>
+<span>培根芝士蛋堡XD 发表于 2019-5-14 16:49</span><br>
+<span>nplayer的ui是什么？我下了个免费版没看出浏览网页和Safari有什么区别</span><br>
+<span>说的是那个黄黑色的P站啦</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>violettor 发表于 2019-5-15 01:00</span><br>
+<span>小白，请教anime boxes该怎么设置…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端 ...</span><br>
+<img src="https://i.loli.net/2019/05/15/5cdb7042b613722074.jpeg" title="https://i.loli.net/2019/05/15/5cdb7042b613722074.jpeg"><br>
+<span>以yande.re为例，其他图站以此类推</span><br>
+</p><p><b>无无明亦无: </b><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>Jealousy: </b><br>
+<span> 战略性马克</span><br>
+</p><p><b>hansel: </b><br>
+<span>Yealico 现在已经支持横屏了，而且还支持一屏双页……鉴于其漫画源社区比较完善，我觉得已经完胜荟聚漫画了……（除了贵点</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>整了个熊猫书签+alook浏览器的用法</span><br>
+</p><p><b>tosu: </b><br>
+<span> 本帖最后由 tosu 于 2019-10-30 12:03 编辑 </span><br>
+<span>在Alook浏览器内设置熊猫书签时</span><br>
+<span>4. 使用刚才复制的代码，替换原有地址。</span><br>
+<span>Alook浏览器会提示输入无效地址，导致没有办法设置，是有别的使用方法吗</span><br>
+<span>如果是直接配置加载JS的话，调用的时候好像会报错</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>tosu 发表于 2019-10-30 11:50</span><br>
+<span>在Alook浏览器内设置熊猫书签时</span><br>
+<span>Alook浏览器会提示输入无效地址，导致没有办法设置，是有别的使用方法吗</span><br>
+<img src="https://i.loli.net/2019/10/30/DMuvt5LBXneC2Zs.png" title="https://i.loli.net/2019/10/30/DMuvt5LBXneC2Zs.png"><br>
+<span>不是输在地址栏里，是在软件的js设置里</span><br>
+</p><p><b>tosu: </b><br>
+<span>zhuangku556 发表于 2019-10-30 13:40</span><br>
+<span>不是输在地址栏里，是在软件的js设置里</span><br>
+<span>确实是在这里，然后进入ex站点后用开发工具看就是报错了……</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>tosu 发表于 2019-10-30 15:18</span><br>
+<span>确实是在这里，然后进入ex站点后用开发工具看就是报错了……</span><br>
+<span>代码开头的JavaScript：记得去掉。。</span><br>
+</p><p><b>palingenesis: </b><br>
+<span>好评</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831247[50-100]</guid>
+    </item>
+    <item>
+      <title>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831247-1-1.html</link>
+      <description>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？&#13;
+ 本帖最后由 zhuangku556 于 2019-10-28 14:38 编辑 
+
+以下内容基于iPhone，iPad，推荐iPad 9.7寸以上，全篇无任何技术难度，前置条件：有稳定的FQ工具。
+&#13;
+看漫画：
+&#13;
+1.离线推荐comicglass，没毛病，是个人都知道。软件收费，忘了多少钱了好像480日元左右。
+&#13;
+2.在线分两种方案：
+&#13;
+-1）如果你有大量的在线网站，并且可以忍受通过浏览器在线阅读，
+&#13;
+      那你只要安装一个safari专用的屏蔽广告APP：adguard
+&#13;
+      免费版即可，收费版多了个VPN全局系统过滤广告功能，但和梯子软件冲突，不推荐。（本肥宅优先推荐本种方法！）
+&#13;
+似乎有人对iOS的全局屏蔽广告感兴趣，我补充一下：
+&#13;
+①adguard的收费版有这个功能，购买以后开启就行，可以对付app开屏广告，但效果不绝对，比如微博和知乎就有用，网易云就没用，主要还是和规则有关。原理就是手机全局挂个VPN帮你过滤，缺点是不能和别的梯子共存，而且会影响sim卡免流。
+&#13;
+②小火箭的过滤广告规则，实测可以对付开屏广告，比如知乎，微博这种。
+&#13;
+具体链接参考：https://github.com/h2y/Shadowrocket-ADBlock-Rules 
+&#13;
+缺点：AppStore国区没这个软件，外区你得解决付费购买的问题。而且同样影响sim卡免流，效果同样视规则可能有不小的差距，但如果你要用梯子的话这个办法首选。
+&#13;
+-2）我非要用app怎么办，也有！名字是：yealico，可以根据需求添加各种规则用来阅读漫画和看视频。
+&#13;
+      详细规则可参考：https://yealicositemarket.home.blog/ （包含EH,EX,漫画柜，汗汗等漫画站规则）
+&#13;
+      价格：app免费，去广告480日元，自带1个免费站点，5个站点720日元。（挺贵）
+&#13;
+      目前已知缺陷：无法同步E站的收藏，看GIF不会动。某些站点看漫画可能会缺页，目前原因不明，已经向规则开发者反馈。
+&#13;
+-3）某粉红色APP，解决肥宅刚需。
+&#13;
+      羡慕Android的粉红色app？现在iOS也有了：
+&#13;
+安裝方法:
+&#13;
+1. 先到appstore下載testflight app
+&#13;
+2. 在safari 打開 https://testflight.apple.com/join/BwaSasyZ
+&#13;
+3. 安裝便成
+&#13;
+https://t.me/PicACG 粉红色APP的tg公众号，iOS版本的技术支持，test flight的名额都可查询。
+&#13;
+-4）多多猫 
+&#13;
+目前iOS版和粉红色漫画一样，只有test flight，体验不太好，可以试试。
+&#13;
+iOS 通用版本 已开放preview版试用 https://testflight.apple.com/join/asklyqJk
+&#13;
+同时支持iPhone、iPad 
+&#13;
+2019年10月28日更新：-5）alook浏览器+熊猫书签
+&#13;
+在AppStore搜索“alook”，链接：
+&#13;
+https://apps.apple.com/jp/app/alookブラウザ-2倍速/id1261944766
+&#13;
+大概12人民币左右，此浏览器非常强大，建议好好阅读开发者的使用手册，而我们可以通过其中的js脚本功能实现提升浏览e绅士的体验。
+&#13;
+进入熊猫书签：https://expanda.org/
+&#13;
+javascript:(function(){var a=document.createElement('script');a.setAttribute('src','//expanda.org/panda.js?'+parseInt(Date.parse(new Date())/600000));document.body.appendChild(a);}());
+&#13;
+将上方代码复制并填入alook浏览器，路径为：设置=自定义设置=JavaScript扩展=右上角加号：
+&#13;
+名称自己填，匹配类型=域名，匹配值=exhentai.org，运行时间=DOMContentLoaded，下方为js代码。
+&#13;
+全部设置完存储即可。
+&#13;
+至于熊猫书签的功能，可以免cookie进入里站，瀑布流阅读等，具体阅读开发者的使用手册。
+&#13;
+看涩图：
+&#13;
+群里和推上的涩图不够看，pixiv又一堆广告，怎么办呢？
+&#13;
+隆重推荐：Anime boxes 
+&#13;
+可自行添加danbooru，gelbooru，shimmie2，danbooru2等图站规则，比如konachan和yande.re，提升收图用户体验！
+&#13;
+具体规则简单，没啥门槛，进到app-sever，自己看看就会设置。
+&#13;
+软件基础功能免费，可氪金增加点花边功能支持开发者。（实测没卵用，可以不氪）
+&#13;
+看视频：
+&#13;
+1.直接网页看澄黑站，配合adguard去广告，享受和PC差不多的快感。（有坛友补充可以用nplay的内置浏览器看，视频UI效果更好，但我实测由于nplay内置浏览器没有屏蔽广告的能力，所以体验反而下降了。）
+&#13;
+2.如果你有个nas，喜欢自己下载动画电影的，推荐infuse，收费奇高，但值回票。
+&#13;
+建议订阅不要买断，买断了一个大版本，新的大版本更新又不支持了。
+&#13;
+本人用来配合apple TV，在大法4K电视上观赏live BD，影视剧和剧场版动画，如果只有小屏幕设备的话，用处不是很大。
+&#13;
+3.nplayer，VLC这些多平台的，不用太多介绍，但体感对smb和upnp的支持不如infuse好。
+&#13;
+目前想到的就是这些，有啥别的想到再补充吧。</description>
+      <content:encoded><![CDATA[<p><b>zhuangku556: </b><br>
+<span>【2019/10更新】来来来，如何在iOS生态满足肥宅需求？</span><br>
+<span> 本帖最后由 zhuangku556 于 2019-10-28 14:38 编辑 </span><br>
+<span>以下内容基于iPhone，iPad，推荐iPad 9.7寸以上，全篇无任何技术难度，前置条件：有稳定的FQ工具。</span><br>
+<span>看漫画：</span><br>
+<span>1.离线推荐comicglass，没毛病，是个人都知道。软件收费，忘了多少钱了好像480日元左右。</span><br>
+<span>2.在线分两种方案：</span><br>
+<span>-1）如果你有大量的在线网站，并且可以忍受通过浏览器在线阅读，</span><br>
+<span>      那你只要安装一个safari专用的屏蔽广告APP：adguard</span><br>
+<span>      免费版即可，收费版多了个VPN全局系统过滤广告功能，但和梯子软件冲突，不推荐。（本肥宅优先推荐本种方法！）</span><br>
+<span>似乎有人对iOS的全局屏蔽广告感兴趣，我补充一下：</span><br>
+<span>①adguard的收费版有这个功能，购买以后开启就行，可以对付app开屏广告，但效果不绝对，比如微博和知乎就有用，网易云就没用，主要还是和规则有关。原理就是手机全局挂个VPN帮你过滤，缺点是不能和别的梯子共存，而且会影响sim卡免流。</span><br>
+<span>②小火箭的过滤广告规则，实测可以对付开屏广告，比如知乎，微博这种。</span><br>
+<span>具体链接参考：https://github.com/h2y/Shadowrocket-ADBlock-Rules </span><br>
+<span>缺点：AppStore国区没这个软件，外区你得解决付费购买的问题。而且同样影响sim卡免流，效果同样视规则可能有不小的差距，但如果你要用梯子的话这个办法首选。</span><br>
+<span>-2）我非要用app怎么办，也有！名字是：yealico，可以根据需求添加各种规则用来阅读漫画和看视频。</span><br>
+<span>      详细规则可参考：https://yealicositemarket.home.blog/ （包含EH,EX,漫画柜，汗汗等漫画站规则）</span><br>
+<span>      价格：app免费，去广告480日元，自带1个免费站点，5个站点720日元。（挺贵）</span><br>
+<span>      目前已知缺陷：无法同步E站的收藏，看GIF不会动。某些站点看漫画可能会缺页，目前原因不明，已经向规则开发者反馈。</span><br>
+<span>-3）某粉红色APP，解决肥宅刚需。</span><br>
+<span>      羡慕Android的粉红色app？现在iOS也有了：</span><br>
+<span>安裝方法:</span><br>
+<span>1. 先到appstore下載testflight app</span><br>
+<span>2. 在safari 打開 https://testflight.apple.com/join/BwaSasyZ</span><br>
+<span>3. 安裝便成</span><br>
+<span>https://t.me/PicACG 粉红色APP的tg公众号，iOS版本的技术支持，test flight的名额都可查询。</span><br>
+<span>-4）多多猫 </span><br>
+<span>目前iOS版和粉红色漫画一样，只有test flight，体验不太好，可以试试。</span><br>
+<span>iOS 通用版本 已开放preview版试用 https://testflight.apple.com/join/asklyqJk</span><br>
+<span>同时支持iPhone、iPad </span><br>
+<span>2019年10月28日更新：-5）alook浏览器+熊猫书签</span><br>
+<span>在AppStore搜索“alook”，链接：</span><br>
+<span>https://apps.apple.com/jp/app/alookブラウザ-2倍速/id1261944766</span><br>
+<span>大概12人民币左右，此浏览器非常强大，建议好好阅读开发者的使用手册，而我们可以通过其中的js脚本功能实现提升浏览e绅士的体验。</span><br>
+<span>进入熊猫书签：https://expanda.org/</span><br>
+<span>javascript:(function(){var a=document.createElement('script');a.setAttribute('src','//expanda.org/panda.js?'+parseInt(Date.parse(new Date())/600000));document.body.appendChild(a);}());</span><br>
+<span>将上方代码复制并填入alook浏览器，路径为：设置=自定义设置=JavaScript扩展=右上角加号：</span><br>
+<span>名称自己填，匹配类型=域名，匹配值=exhentai.org，运行时间=DOMContentLoaded，下方为js代码。</span><br>
+<span>全部设置完存储即可。</span><br>
+<span>至于熊猫书签的功能，可以免cookie进入里站，瀑布流阅读等，具体阅读开发者的使用手册。</span><br>
+<span>看涩图：</span><br>
+<span>群里和推上的涩图不够看，pixiv又一堆广告，怎么办呢？</span><br>
+<span>隆重推荐：Anime boxes </span><br>
+<span>可自行添加danbooru，gelbooru，shimmie2，danbooru2等图站规则，比如konachan和yande.re，提升收图用户体验！</span><br>
+<span>具体规则简单，没啥门槛，进到app-sever，自己看看就会设置。</span><br>
+<span>软件基础功能免费，可氪金增加点花边功能支持开发者。（实测没卵用，可以不氪）</span><br>
+<span>看视频：</span><br>
+<span>1.直接网页看澄黑站，配合adguard去广告，享受和PC差不多的快感。（有坛友补充可以用nplay的内置浏览器看，视频UI效果更好，但我实测由于nplay内置浏览器没有屏蔽广告的能力，所以体验反而下降了。）</span><br>
+<span>2.如果你有个nas，喜欢自己下载动画电影的，推荐infuse，收费奇高，但值回票。</span><br>
+<span>建议订阅不要买断，买断了一个大版本，新的大版本更新又不支持了。</span><br>
+<span>本人用来配合apple TV，在大法4K电视上观赏live BD，影视剧和剧场版动画，如果只有小屏幕设备的话，用处不是很大。</span><br>
+<span>3.nplayer，VLC这些多平台的，不用太多介绍，但体感对smb和upnp的支持不如infuse好。</span><br>
+<span>目前想到的就是这些，有啥别的想到再补充吧。</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>看视频比较通用的还是nplayer吧</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>BallanceHZ 发表于 2019-5-13 20:49</span><br>
+<span>看视频比较通用的还是nplayer吧</span><br>
+<span>我本人是直接订阅了infuse，应为对本地观看没啥需求，infuse配合nas和pc的流媒体功能很好用。</span><br>
+</p><p><b>azraelwang: </b><br>
+<span>配合nas的话我用的是nplayer</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>infuse无非可以在apple tv上用，但是多次收钱的嘴脸实在是恶心，还是nplayer吧。</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>如果有工具的话 </span><br>
+<span>Reddit tg都是很好的选择</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>其实我本人最推荐的还是装个adguard然后配合safari用，浏览器能实现的事要什么app ！</span><br>
+<span>而且iPad的屏幕大，不存在和手机一样字太小的情况。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>雪映风影 发表于 2019-5-13 20:55</span><br>
+<span>如果有工具的话 </span><br>
+<span>Reddit tg都是很好的选择</span><br>
+<span>是的，所有的前提要会科学上网。</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>comicglass可以左右滚动模式和加载7z吗……comicshare这俩功能日常用，结果越更新bug越多…</span><br>
+</p><p><b>amitiel: </b><br>
+<span>学习一下</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>Aeroblast 发表于 2019-5-13 21:17</span><br>
+<span>comicglass可以左右滚动模式和加载7z吗……comicshare这俩功能日常用，结果越更新bug越多… ...</span><br>
+<span>可以左右滑动，选择日漫的右开页。</span><br>
+<span>7z没试过，我都是zip</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>zhuangku556 发表于 2019-5-13 21:20</span><br>
+<span>可以左右滑动，选择日漫的右开页。</span><br>
+<span>7z没试过，我都是zip</span><br>
+<span>看来一下支持里没写7z……</span><br>
+<span>早年间自己备份都是是7z打包，现在傻眼了……comicshare也只有7z出毛病……算了，哪天有空全重打包成zip好了……</span><br>
+</p><p><b>holywind: </b><br>
+<span>离线推荐comicglass</span><br>
+<span>那么能不能推荐一些漫画下载站</span><br>
+</p><p><b>holywind: </b><br>
+<span>testflight.apple.com/join/BwaSasyZ</span><br>
+<span>测试员已满 从哪找新邀请呢</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>holywind 发表于 2019-5-13 21:56</span><br>
+<span> testflight.apple.com/join/BwaSasyZ 测试员已满 从哪找新邀请呢</span><br>
+<span>https://t.me/PicACG</span><br>
+<span>可以关注粉红色tg公众号等待新的名额</span><br>
+</p><p><b>传说中的小鱼: </b><br>
+<span>感谢楼主，解决了多年的困扰~ 我也喜欢safari刷网页~</span><br>
+</p><p><b>ひふみ: </b><br>
+<span>为什么都推荐nplayer呢？免费的播放器最好用的肯定是vlc</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>ひふみ 发表于 2019-5-13 22:49</span><br>
+<span>为什么都推荐nplayer呢？免费的播放器最好用的肯定是vlc</span><br>
+<span>我个人对VLC的体验，Android平台强于win强于iOS。</span><br>
+<span>特别是iOS，有各种莫名其妙的bug，而且解码能力不够强。</span><br>
+</p><p><b>hansel: </b><br>
+<span>漫画有一个软件叫 荟聚漫画，也是可以编辑漫画源，加漫画源不要钱，去广告三十块钱</span><br>
+<span>卖点是 iPad 适配得很好（横屏、slide），有汗汗漫画、动漫之家啥的，没有 e 站应该是社区尚未建立起来</span><br>
+<span>目前还有点 bug，有的小功能没有（两页拼一起看、固定放大比例之类的）</span><br>
+<span>不过大多情况是很好用的了</span><br>
+<span>lz 的那个不能横屏，有时候插着数据线看很痛苦</span><br>
+</p><p><b>eden0412: </b><br>
+<span>lz这套方案好棒啊，如果早点看到也许我就不买三星的板子了，顺便问下澄黑站是啥？</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span> 本帖最后由 zhuangku556 于 2019-5-13 23:35 编辑 </span><br>
+<span>eden0412 发表于 2019-5-13 23:22</span><br>
+<span>lz这套方案好棒啊，如果早点看到也许我就不买三星的板子了，顺便问下澄黑站是啥？ ...</span><br>
+<span>全球最大的瑟琴网站，logo是橙色和黑色的那个</span><br>
+<span>其实你要说做这些事还是Android板体验好，iOS只是解决了有无的问题。</span><br>
+<span>毕竟用卓板那段时间我是可以直接磁力bt下载，然后手机播放器观看的。</span><br>
+<span>漫画就更是不用说了，各种软件手到擒来。</span><br>
+<span>但是如果你综合来说，iOS手游的体验，笔记功能，偶尔轻度p个照片，剪个vlog，甚至你如果陷进了苹果全家桶的泥潭里，</span><br>
+<span>这些解决方案至少能帮你省一个安卓平板钱了。</span><br>
+</p><p><b>东方电气集团: </b><br>
+<span>yealico这个一直在用，感觉阔以</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>hansel 发表于 2019-5-13 22:55</span><br>
+<span>漫画有一个软件叫 荟聚漫画，也是可以编辑漫画源，加漫画源不要钱，去广告三十块钱</span><br>
+<span>卖点是 iPad 适配得很 ...</span><br>
+<span>感谢补充，体验了下也是做的比较糙的，而且刚需E站不解决那怎么行呢</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>zhuangku556 发表于 2019-5-13 23:37</span><br>
+<span> 感谢补充，体验了下也是做的比较糙的，而且刚需E站不解决那怎么行呢 ...</span><br>
+<span>adguard过滤广告能力不是很强啊，看小说还是有网站的广告</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>zhongjie 发表于 2019-5-13 23:48</span><br>
+<span>adguard过滤广告能力不是很强啊，看小说还是有网站的广告</span><br>
+<span>你有没有调节规则？我不看小说不太清楚。</span><br>
+<span>但是大部分的漫画网站，国外R18资源网站的广告都能滤掉，使用体验和pc上chrome+abp差不多。</span><br>
+</p><p><b>eienyami: </b><br>
+<span>IOS连1024APP都没法用。。。。</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>zhuangku556 发表于 2019-5-13 23:51</span><br>
+<span>你有没有调节规则？我不看小说不太清楚。</span><br>
+<span>但是大部分的漫画网站，国外R18资源网站的广告都能滤掉，使用 ...</span><br>
+<span>我就是按照原本的来，一点改动都没做</span><br>
+</p><p><b>ckl80: </b><br>
+<span>Safari看p站视频不知道为什么要缓存很久，后来才发现下了一直没用过的nplayer可以用来看在线视频，而且缓存快能划动快进，至此ipad才完全取代我安卓机的娱乐地位。有一点小小不足就是没有像ehviewer一样好用的app，不过好在有替代品，影响不大</span><br>
+</p><p><b>mistzzt: </b><br>
+<span>楼主都有nas了，那么建议折腾plex。确实麻烦，但搞好了以后随地看很文明</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>song_yl93: </b><br>
+<span>iOS上的各种exh阅读器充其量只能做到能用，离好用都差的很远</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>song_yl93 发表于 2019-5-14 05:40</span><br>
+<span>iOS上的各种exh阅读器充其量只能做到能用，离好用都差的很远</span><br>
+<span>yealico功能已经可以了。能看漫画，能看评论。不过确实还是那个问题，只能解决有无，没什么体验可言。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>mistzzt 发表于 2019-5-14 01:58</span><br>
+<span>楼主都有nas了，那么建议折腾plex。确实麻烦，但搞好了以后随地看很文明</span><br>
+<span>发自我的iPhone via Saralin 2.1. ...</span><br>
+<span>那个我下来看过，过于复杂了。直接买了个infuse完事，电影信息，字幕都能自动匹配。</span><br>
+</p><p><b>borrowface: </b><br>
+<span>讲真，求推漫画下载站，本地阅读也不是不行</span><br>
+</p><p><b>Zest: </b><br>
+<span>拿买那些app的钱买台猴机还有找</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>Zest 发表于 2019-5-14 09:05</span><br>
+<span>拿买那些app的钱买台猴机还有找</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+<span>没啥要花钱的啊，全加起来买个内购去个广告算上梯子有没有200块rmb。</span><br>
+<span>泥潭一堆洋垃圾平板都不止这个价。</span><br>
+</p><p><b>utada: </b><br>
+<span>雪映风影 发表于 2019-5-13 20:55</span><br>
+<span>如果有工具的话 </span><br>
+<span>Reddit tg都是很好的选择</span><br>
+<span>求详细</span><br>
+</p><p><b>atomicink: </b><br>
+<span>看网页版漫画就是不好存书签，哎</span><br>
+</p><p><b>n98848tj: </b><br>
+<span>konachan和yande.re 属于什么类型？ Moebooru 4.0.0-a.1 好像没有</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>第三方签的 app 算吗。。</span><br>
+<span>www.iinstaller.net</span><br>
+<span>动漫、电影都是英语(字幕)的，还有若干模拟器、破解的spotify和youtube。</span><br>
+<span>主要就是被 Revoke 就得等。虽然一般来说挺快的</span><br>
+</p><p><b>batrain: </b><br>
+<span>我现在的策略是comicglass+pc端安卓模拟器+ehviewer。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>n98848tj 发表于 2019-5-14 10:45</span><br>
+<span>konachan和yande.re 属于什么类型？ Moebooru 4.0.0-a.1 好像没有</span><br>
+<span>danbooru类的，用https</span><br>
+</p><p><b>蔡卓妍: </b><br>
+<span>楼主知道怎么屏蔽app的广告吗？ 就是切换了再看就会有广告那种，例如nga客户端，谢谢</span><br>
+</p><p><b>zn5256655: </b><br>
+<span>VLC是真的真的好用</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>蔡卓妍 发表于 2019-5-14 11:46</span><br>
+<span>楼主知道怎么屏蔽app的广告吗？ 就是切换了再看就会有广告那种，例如nga客户端，谢谢 ...</span><br>
+<span>这得越狱才能解决了</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>ekdc11 发表于 2019-5-14 10:47</span><br>
+<span>第三方签的 app 算吗。。</span><br>
+<span>www.iinstaller.net</span><br>
+<span>这个不错 不过好像内容不多</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>蔡卓妍 发表于 2019-5-14 11:46</span><br>
+<span>楼主知道怎么屏蔽app的广告吗？ 就是切换了再看就会有广告那种，例如nga客户端，谢谢 ...</span><br>
+<span>有一个方案，就是dns过滤。具体有好几个软件都可以，但是效果不保证。</span><br>
+<span>1）adguard的收费版有这个功能，你购买以后开启就行，可以对付app开屏广告。原理就是手机全局挂个VPN帮你过滤，但不能和别的梯子共存，而且会影响sim卡免流。</span><br>
+<span>2）小火箭的过滤广告规则，实测可以对付开屏广告，比如知乎，微博这种。</span><br>
+<span>具体链接参考：https://github.com/h2y/Shadowrocket-ADBlock-Rules </span><br>
+<span>缺点：AppStore国区没这个软件，外区你得解决付费购买的问题。而且同样影响sim卡免流，效果可能不如adguard好，但如果你要用梯子的话这个办法首选。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>xzhlj0325 发表于 2019-5-14 11:52</span><br>
+<span>这得越狱才能解决了</span><br>
+<span>不需要越狱，最简单的方法就是我帖子里的adguard收费版，国区可以购买到，你不FQ就一直开着就行。</span><br>
+<span>能对付大部分开屏广告和后台切回的广告。</span><br>
+<span>实测网易云依旧有开屏广告，但切回来的广告没了。</span><br>
+</p><p><b>蔡卓妍: </b><br>
+<span>zhuangku556 发表于 2019-5-14 12:04</span><br>
+<span>有一个方案，就是dns过滤。具体有好几个软件都可以，但是效果不保证。</span><br>
+<span>1）adguard的收费版有这个功能， ...</span><br>
+<span>明白了，小火箭已经各服务器买了一次了</span><br>
+</p><p><b>Nelioer: </b><br>
+<span>我选择洋垃圾猴板</span><br>
+</p><p><b>kanpachi: </b><br>
+<span>浏览记录同步是刚需，chrome不支持插件太蛋疼</span><br>
+<span>p站可以用nplayer内置浏览器看，载入后直接用nplayer的ui，吊打浏览器体验</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831247[0-50]</guid>
+    </item>
+  </channel>
+</rss>

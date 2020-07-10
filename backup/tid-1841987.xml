@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PC有办法让游戏后台接受手柄操作指令，鼠标键盘干别的事吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PC有办法让游戏后台接受手柄操作指令，鼠标键盘干别的事吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:31:39 +0000</lastBuildDate>
+    <item>
+      <title>PC有办法让游戏后台接受手柄操作指令，鼠标键盘干别的事吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841987-1-1.html</link>
+      <description>PC有办法让游戏后台接受手柄操作指令，鼠标键盘干别的事吗&#13;
+先说一下我的使用场景，就是双屏，主屏工作画图，副屏打游戏
+&#13;
+我知道很多模拟器是可以做到的，即使丢失焦点也能接收手柄的操作
+&#13;
+那么PC游戏可以做到这一点吗？举例说就是血污了，我折腾了一下一些分屏软件只能让当前游戏窗口不丢失焦点保持运行，但是鼠标点击窗口以外的地方就无法响应鼠标键盘手柄一切操作了
+&#13;
+而且我想象了一下，这游戏即使可以后台响应操作，键盘一按肯定也会影响到游戏动作。。。模拟器没这个困扰是因为可以只设置按键为手柄。
+&#13;
+所以，我是不是在异想天开？</description>
+      <content:encoded><![CDATA[<p><b>01046: </b><br>
+<span>PC有办法让游戏后台接受手柄操作指令，鼠标键盘干别的事吗</span><br>
+<span>先说一下我的使用场景，就是双屏，主屏工作画图，副屏打游戏</span><br>
+<span>我知道很多模拟器是可以做到的，即使丢失焦点也能接收手柄的操作</span><br>
+<span>那么PC游戏可以做到这一点吗？举例说就是血污了，我折腾了一下一些分屏软件只能让当前游戏窗口不丢失焦点保持运行，但是鼠标点击窗口以外的地方就无法响应鼠标键盘手柄一切操作了</span><br>
+<span>而且我想象了一下，这游戏即使可以后台响应操作，键盘一按肯定也会影响到游戏动作。。。模拟器没这个困扰是因为可以只设置按键为手柄。</span><br>
+<span>所以，我是不是在异想天开？</span><br>
+</p><p><b>Observer1379: </b><br>
+<span>再组一台电脑或者看直播完美解决问题</span><br>
+</p><p><b>nice女武神: </b><br>
+<span>gta5好像可以这样</span><br>
+</p><p><b>lzp729: </b><br>
+<span>pc原则上可以，但是可能被判为外挂</span><br>
+</p><p><b>01046: </b><br>
+<span>lzp729 发表于 2019-6-24 22:44</span><br>
+<span>pc原则上可以，但是可能被判为外挂</span><br>
+<span>血污无所谓的啦，请问大概思路是怎样的？</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>虎纹鲨鱼鱼鱼: </b><br>
+<span>在PC上玩的少,只知道FF14这种就是原生支持的</span><br>
+</p><p><b>lzp729: </b><br>
+<span>01046 发表于 2019-6-24 23:06</span><br>
+<span>血污无所谓的啦，请问大概思路是怎样的？</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>你在windows平台会写什么代码？</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>AutoHotKey 可以在后台窗口模拟键鼠操作</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>不能吧，活动窗口焦点怎么解决</span><br>
+</p><p><b>nocode: </b><br>
+<span>这个操作很看游戏，游戏自带后台xinput输入设置的话就很简单（如ff14）；有些游戏在用窗口模式+“ -alwaysfocus”参数启动后，自己就可以后台接收输入指令（如borderlands）。可以尝试用alwaysfocus命令+autohotkey后台输入的方式试试看，一般能解决。</span><br>
+<span>如果以上方法不行就要用专门软件了，查了一下有类似功能的包括displayfusion/Actual Multiple Monitors/special K MOD（前两者在steam上直接有卖，当然网上也有学习版；第三个的是民间大神的调试工具，有steam讨论组），视情况还要使用两条线接同一个显示器的方法来进行多屏欺诈</span><br>
+</p><p><b>01046: </b><br>
+<span>lzp729 发表于 2019-6-25 00:16</span><br>
+<span>你在windows平台会写什么代码？</span><br>
+<span>hello world？</span><br>
+</p><p><b>にまビ: </b><br>
+<span>lzp729 发表于 2019-6-25 00:16</span><br>
+<span>你在windows平台会写什么代码？</span><br>
+<span>可以ssh到别的地方去啊</span><br>
+</p><p><b>01046: </b><br>
+<span>我太弱了，打开autohotkey后一脸茫然哈哈哈哈哈哈</span><br>
+</p><p><b>01046: </b><br>
+<span>lzp729 发表于 2019-6-25 00:16</span><br>
+<span>你在windows平台会写什么代码？</span><br>
+<span>明白你的意思了，得要有编程基础</span><br>
+</p><p><b>黑之月: </b><br>
+<span>有不少游戏本来就支持的</span><br>
+<span>—— 来自 HUAWEI EVA-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>烟萝: </b><br>
+<span>可以吧，好多游戏都支持的。</span><br>
+<span>只狼   FF14gta都支持非激活窗口状态操作</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>当年以及现在双开网游是不是lz的意思</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841987[0-50]</guid>
+    </item>
+  </channel>
+</rss>

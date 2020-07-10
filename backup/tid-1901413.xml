@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>（已解决）amd的霄龙cpu是不支持virtualbox吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>（已解决）amd的霄龙cpu是不支持virtualbox吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:36:15 +0000</lastBuildDate>
+    <item>
+      <title>（已解决）amd的霄龙cpu是不支持virtualbox吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901413-1-1.html</link>
+      <description>（已解决）amd的霄龙cpu是不支持virtualbox吗？&#13;
+ 本帖最后由 562423321111 于 2019-12-12 20:05 编辑 
+
+virtualbox装不了虚拟机，显示必须开启amd-v虚拟化。。。可是明明主板里开了虚拟化，各种软件检测结果也是cpu虚拟化开启状态，vb就是死活不认。win10系统，全新安装，hyper-v也没有开。。。要疯了，网上找不到原因。
+&#13;
+尝试virtualbox里直接装一个虚拟机，显示的是虚拟化已开启，可以正常安装，那就是docker toolbox的问题。。。由原来的docker19.0版本换成低一点的18.0版本。。。竟然就成功了。。。win10是1903版本的旗舰版。。。</description>
+      <content:encoded><![CDATA[<p><b>562423321111: </b><br>
+<span>（已解决）amd的霄龙cpu是不支持virtualbox吗？</span><br>
+<span> 本帖最后由 562423321111 于 2019-12-12 20:05 编辑 </span><br>
+<span>virtualbox装不了虚拟机，显示必须开启amd-v虚拟化。。。可是明明主板里开了虚拟化，各种软件检测结果也是cpu虚拟化开启状态，vb就是死活不认。win10系统，全新安装，hyper-v也没有开。。。要疯了，网上找不到原因。</span><br>
+<span>尝试virtualbox里直接装一个虚拟机，显示的是虚拟化已开启，可以正常安装，那就是docker toolbox的问题。。。由原来的docker19.0版本换成低一点的18.0版本。。。竟然就成功了。。。win10是1903版本的旗舰版。。。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>都用epyc了直接esxi不好吗</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>https://superuser.com/questions/1374694/amd-v-is-not-available-verr-svm-no-svm</span><br>
+<span>找到一个类似的问题</span><br>
+</p><p><b>404489039: </b><br>
+<span>amd的为题大部分可以升级bios解决</span><br>
+</p><p><b>562423321111: </b><br>
+<span>你的全家 发表于 2019-12-11 19:29</span><br>
+<span>都用epyc了直接esxi不好吗</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play ...</span><br>
+<span>docker toolbox版本必须得virtualbox啊。。。这样可以直接从其他电脑把虚拟硬盘文件拷过来导入</span><br>
+</p><p><b>562423321111: </b><br>
+<span>404489039 发表于 2019-12-11 19:38</span><br>
+<span>amd的为题大部分可以升级bios解决</span><br>
+<span>真的吗？课题组刚购置的工作站，各种驱动版本应该还算新吧。。。</span><br>
+</p><p><b>562423321111: </b><br>
+<span>小野賢章 发表于 2019-12-11 19:35</span><br>
+<span>https://superuser.com/questions/1374694/amd-v-is-not-available-verr-svm-no-svm</span><br>
+<span>找到一个类似的问题 ...</span><br>
+<span>都尝试过了。。。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>vbox早就支持amd-v了，提示不支持绝对是bios的问题，看看有没有新的bios刷一下吧</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>我记得win10下装docker可以不用virtualbox</span><br>
+</p><p><b>562423321111: </b><br>
+<span>hgfdsa 发表于 2019-12-11 20:46</span><br>
+<span>我记得win10下装docker可以不用virtualbox</span><br>
+<span>嗯，用hyper-v可以运行，没问题。。。但是我想用vb然后把其他电脑上配置好的虚拟硬盘文件直接拷过来导入直接用。。。</span><br>
+</p><p><b>litel: </b><br>
+<span>hyper-v先关掉。。。hyper-v和其他所有都不兼容。</span><br>
+<span>命令行运行cmd，粘贴 bcdedit /set hypervisorlaunchtype off 回车，然后重启即可。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>562423321111 发表于 2019-12-11 20:58</span><br>
+<span>嗯，用hyper-v可以运行，没问题。。。但是我想用vb然后把其他电脑上配置好的虚拟硬盘文件直接拷过来导入 ...</span><br>
+<span>转换一下磁盘</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>King5268: </b><br>
+<span> 这.....................问题真的很严重啊.....................AMD劝退啊</span><br>
+</p><p><b>562423321111: </b><br>
+<span> litel 发表于 2019-12-11 21:01 hyper-v先关掉。。。hyper-v和其他所有都不兼容。命令行运行cmd，粘贴 bcdedit /set hypervisorlaunchtype off 回车，然后重启即可。</span><br>
+<span>一开始尝试的不行就怒而重装系统，格盘安装，hyper-v压根就没开过。。。而且要是开了hyper-v在启动检查的错误就不是amd-v未开启而是直接提示与hyper-v冲突请关闭了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>确定虚拟化开了么，任务管理器里能看到么</span><br>
+</p><p><b>562423321111: </b><br>
+<span> King5268 发表于 2019-12-11 21:27这.....................问题真的很严重啊.....................AMD劝退啊 </span><br>
+<span>。。。目前找不到原因，是某科某炫的牌子的工作站，epyc的cpu配超微h11dsi的主板。。。我怀疑是硬件这边要不就是bios驱动的问题。。。可能问题比家用平台的cpu更稀奇古怪一点。。。</span><br>
+</p><p><b>562423321111: </b><br>
+<span> EraserKing 发表于 2019-12-11 21:45 确定虚拟化开了么，任务管理器里能看到么 </span><br>
+<span>确定啊，任务管理器里和网上一些检测软件结果都是虚拟化开启状态。。。因为之前hyper-v都是能正常使用啊，hyoer-v也需要虚拟化的吧。然后我就全新重装系统再次尝试，还是不行</span><br>
+</p><p><b>Radeon: </b><br>
+<span>服务器的EPYC怎么可能不支持呢。。。先确定你BIOS和virtualbox是最新版</span><br>
+<span>然后进bios看看虚拟化的设置</span><br>
+</p><p><b>562423321111: </b><br>
+<span> Radeon 发表于 2019-12-11 21:55 服务器的EPYC怎么可能不支持呢。。。先确定你BIOS和virtualbox是最新版然后进bios看看虚拟化的设置 </span><br>
+<span>virtualbox版本6.0多，官网找的最新版，除了bios不能肯定是最新版，是刚购置的工作站，应该不会很老的版本。至于虚拟化，在bios里再三确认了，用leomoon、securable之类的虚拟化检测工具检测结果也都是开启状态。</span><br>
+</p><p><b>562423321111: </b><br>
+<span> 562423321111 发表于 2019-12-11 22:00 引用: Radeon 发表于 2019-12-11 21:55 服务器的EPYC怎么可能不支持呢。。。先确定你BIOS和virtualbox是最新版  然后进bios看看虚拟化的设置virtualbox版本6.0多，官网找的最新版，除了bios不能肯定是最新版，是刚购置的工作站，应该不会很老的版本。至于虚拟化，在bios里再三确认了，用leomoon、securable之类的虚拟化检测工具检测 </span><br>
+<span>bios里包括什么iommu啊只要和虚拟化沾边的都尝试开启过，没有效果。还有所谓的先关闭虚拟化然后冷启动，再开启虚拟化再冷启动啥的都尝试过。。。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>这种时候：1. 联系机子生产厂家 2. 联系软件服务商。农企Ryzen的U是Yes，板卡BIOS是No</span><br>
+</p><p><b>Radeon: </b><br>
+<span>562423321111 发表于 2019-12-11 22:00</span><br>
+<span>virtualbox版本6.0多，官网找的最新版，除了bios不能肯定是最新版，是刚购置的工作站，应该不会很老的版 ...</span><br>
+<span>你确定是最新版？</span><br>
+<span>VirtualBox 6.0.6 (released April 17 2019)</span><br>
+<span> This is a maintenance release. The following items were fixed and/or added: </span><br>
+<span>[*]Virtualization core: nested AMD virtualization fixes</span><br>
+<span>VirtualBox 6.0.0 (released December 18 2018)</span><br>
+<span>This is a major update. The following major new features were added: </span><br>
+<span>[*] Implemented support for exporting a virtual machine to Oracle Cloud Infrastructure</span><br>
+<span>[*] Virtualization core: support for nested hardware-virtualization on AMD CPUs</span><br>
+</p><p><b>562423321111: </b><br>
+<span> Radeon 发表于 2019-12-11 22:10 引用:562423321111 发表于 2019-12-11 22:00 virtualbox版本6.0多，官网找的最新版，除了bios不能肯定是最新版，是刚购置的工作站，应该不会很老的版 ...   你确定是最新版？   VirtualBox 6.0.6 (released April 17 2019)   This is a maintenance release. The following </span><br>
+<span>6.0.6那个，最新最稳定版本应该是在网页最上头吧，我记得是这个版本</span><br>
+</p><p><b>Radeon: </b><br>
+<span>562423321111 发表于 2019-12-11 22:13</span><br>
+<span>6.0.6那个，最新最稳定版本应该是在网页最上头吧，我记得是这个版本</span><br>
+<span>最新是6.0.14了，你下个试试</span><br>
+<span>https://www.virtualbox.org/wiki/Downloads</span><br>
+</p><p><b>562423321111: </b><br>
+<span> Radeon 发表于 2019-12-11 22:18 引用:562423321111 发表于 2019-12-11 22:13 6.0.6那个，最新最稳定版本应该是在网页最上头吧，我记得是这个版本 最新是6.0.14了，你下个试试https://www.virtualbox.org/wiki/Downloads </span><br>
+<span>嗯，再确认过了，确实是最新版。而且看网上说法起码从5.0开始就能在win10，amd平台用了。我看了你贴的6.0.6的说明，解决的是amd的cpu的嵌套虚拟化bug，也就是虚拟机中再安装虚拟机的情况才对，而我是虚拟机就启动不了。真的头大</span><br>
+</p><p><b>serial: </b><br>
+<span>vm15在3600上完全没问题…epyc更应该没问题…可能如转帖机所言是vb版本的锅？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>可能是主板bios有bug，你试试linux上能不能虚拟化，能的话就是win10 hyperv冲突，不能的话就是主板傻逼</span><br>
+</p><p><b>qwe111: </b><br>
+<span>内核隔离 内存完整性 </span><br>
+</p><p><b>litel: </b><br>
+<span>562423321111 发表于 2019-12-11 21:43</span><br>
+<span>一开始尝试的不行就怒而重装系统，格盘安装，hyper-v压根就没开过。。。而且要是开了hyper-v在启动检查的 ...</span><br>
+<span>为什么不试试管理员运行cmd然后重启呢。。。</span><br>
+<span>hyper出来还时间不多，很多检测软件有毛病。</span><br>
+<span>如果你hyper-v还能用，那就是表示你并没有关闭hyper-v。</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>virtual-box5当初发现卸载永远不会成功，后来再也不用了。现在解决了吗？</span><br>
+</p><p><b>562423321111: </b><br>
+<span> litel 发表于 2019-12-12 08:07 引用:562423321111 发表于 2019-12-11 21:43 一开始尝试的不行就怒而重装系统，格盘安装，hyper-v压根就没开过。。。而且要是开了hyper-v在启动检查的 ... 为什么不试试管理员运行cmd然后重启呢。。。 hyper出来还时间不多，很多检测软件有毛病。 如果你hyper-v还能用，那就是表示你并没有关闭hyper-v。 </span><br>
+<span>可能是我没说清楚吧。。。hyper-v能用，那是重装系统前。然后我全新安装了系统，win10官方镜像，hyper-v默认是没有开启的，bcdedit命令后根本没有hypervisor这项。。。这种在网上能找到的解决方法我都尝试过了，不然也不会来问</span><br>
+</p><p><b>562423321111: </b><br>
+<span> 562423321111 发表于 2019-12-12 09:42 引用: litel 发表于 2019-12-12 08:07 引用:562423321111 发表于 2019-12-11 21:43 一开始尝试的不行就怒而重装系统，格盘安装，hyper-v压根就没开过。。。而且要是开了hyper-v在启动检查的 ... 为什么不试试管理员运行cmd然后重启呢。。。 hyper出来还时间不多，很多检测软件有毛病。 如果你hyper-v还能用，那就是表示你并没有关 </span><br>
+<span>而且我安装docker的预检查，提示的是amd-v未开启。假如hyper-v占用了虚拟化有冲突，预检查会直接提示与hyper-v等有冲突而不是提示amd-v未开启，这我重装系统前各种尝试时就发现了</span><br>
+</p><p><b>Radeon: </b><br>
+<span>562423321111 发表于 2019-12-12 09:46</span><br>
+<span>而且我安装docker的预检查，提示的是amd-v未开启。假如hyper-v占用了虚拟化有冲突，预检查会直接提示与hy ...</span><br>
+<span>那你应该去问你机器的卖家了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901413[0-50]</guid>
+    </item>
+  </channel>
+</rss>

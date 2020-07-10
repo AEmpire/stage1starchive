@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>台式机无线网卡的连接问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>台式机无线网卡的连接问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:15:53 +0000</lastBuildDate>
+    <item>
+      <title>台式机无线网卡的连接问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844446-1-1.html</link>
+      <description>台式机无线网卡的连接问题&#13;
+主板是MSI的Z170 ITX，使用的USB 网卡，一块TP，一块奥瑞金，虽然都是低端货不过起码还有根天线
+&#13;
+Win10版本是1803专业工作站版软破
+&#13;
+症状是连不上Wifi，发现不了Wifi——旁边30公分的笔记本全无这毛病
+&#13;
+主板上每一个能插的USB口都试过，现在快疯了……
+&#13;
+求会诊，感谢</description>
+      <content:encoded><![CDATA[<p><b>宅男的爱: </b><br>
+<span>台式机无线网卡的连接问题</span><br>
+<span>主板是MSI的Z170 ITX，使用的USB 网卡，一块TP，一块奥瑞金，虽然都是低端货不过起码还有根天线</span><br>
+<span>Win10版本是1803专业工作站版软破</span><br>
+<span>症状是连不上Wifi，发现不了Wifi——旁边30公分的笔记本全无这毛病</span><br>
+<span>主板上每一个能插的USB口都试过，现在快疯了……</span><br>
+<span>求会诊，感谢</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>网线拔过吗</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>强尼高达 发表于 2019-7-5 12:38</span><br>
+<span>网线拔过吗</span><br>
+<span>没，没有连接有线网的机会</span><br>
+</p><p><b>sirlion: </b><br>
+<span>Wi-Fi是5g，usb网卡是2.4g</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>碰到过两台win7的搜不到无线就卸载网卡驱动以后再重新装遍驱动解决的</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>袄_偶滴小乔 发表于 2019-7-5 13:05</span><br>
+<span>碰到过两台win7的搜不到无线就卸载网卡驱动以后再重新装遍驱动解决的</span><br>
+<span>好吧，我试试……</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>不要插在USB3.0接口上。要插，接根延长线，会稳定的多</span><br>
+<span>当然，你这应该还是驱动问题</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>asier: </b><br>
+<span>你去看看windows里网卡配置的高级选项，如果网卡工作在5G only，确认一下频段是不是和路由器一致</span><br>
+</p><p><b>kikka: </b><br>
+<span>换PCIE插口的intel网卡，或者买个K2P一类的桥接，我扔了几个USB网卡了，最后没办法还是买了K2P，就跟直连网线一样非常稳定</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>kikka 发表于 2019-7-5 13:30</span><br>
+<span>换PCIE插口的intel网卡，或者买个K2P一类的桥接，我扔了几个USB网卡了，最后没办法还是买了K2P，就跟直连网 ...</span><br>
+<span>ITX板，PCIE插显卡了，M2插SSD了</span><br>
+<span>K2P是啥？就是做个AP？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>也许随便一个路由当网卡也会比lz那些usb的强。</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>我USB网卡，TPLINK的，插上能用但是动不动就断，去官网找了个驱动，解决，一直很稳定</span><br>
+<span>所以你试试找个驱动？</span><br>
+</p><p><b>kikka: </b><br>
+<span>宅男的爱 发表于 2019-7-5 13:34</span><br>
+<span>ITX板，PCIE插显卡了，M2插SSD了</span><br>
+<span>K2P是啥？就是做个AP？</span><br>
+<span>K2P就是斐讯那个期货路由，相对来说物美价廉性能好，你也可以买个其他的</span><br>
+<span>网线直连路由和电脑，就起到一个无线接收器的作用，路由自己是个独立系统不会被电脑影响，很稳定的</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>kikka 发表于 2019-7-5 13:52</span><br>
+<span>K2P就是斐讯那个期货路由，相对来说物美价廉性能好，你也可以买个其他的</span><br>
+<span>网线直连路由和电脑，就起到一个 ...</span><br>
+<span>喔，做AP啊——啊啊啊啊好占地方啊</span><br>
+<span>感谢，我回去翻个路由器出来</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>Aeroblast 发表于 2019-7-5 13:37</span><br>
+<span>我USB网卡，TPLINK的，插上能用但是动不动就断，去官网找了个驱动，解决，一直很稳定</span><br>
+<span>所以你试试找个驱动？ ...</span><br>
+<span>我在想回头换成螃蟹8812BU的方案驱动去哪更新……</span><br>
+<span>找了个TP 18年的驱动，我先试试</span><br>
+<span>感谢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844446[0-50]</guid>
+    </item>
+  </channel>
+</rss>

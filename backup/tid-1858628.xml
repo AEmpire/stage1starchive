@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求推荐播放器，之前在论坛看到的播放器调教帖子怎么找不到了。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求推荐播放器，之前在论坛看到的播放器调教帖子怎么找不到了。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:46:39 +0000</lastBuildDate>
+    <item>
+      <title>求推荐播放器，之前在论坛看到的播放器调教帖子怎么找不到了。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858628-1-1.html</link>
+      <description>求推荐播放器，之前在论坛看到的播放器调教帖子怎么找不到了。&#13;
+本来一直1080p,720p过来的没感觉。最近换了台4k显示器。用potplayer播放前两天国庆别人录的4k，h265视频，怎么看怎么不对。黑色的地方有明显的条纹，还没1080p清晰，以为别人没录好。结果偶然换了vlc就没问题。
+&#13;
+求推荐好用的播放器和调教方法。还是说就用vlc了？</description>
+      <content:encoded><![CDATA[<p><b>鸡毛当令箭: </b><br>
+<span>求推荐播放器，之前在论坛看到的播放器调教帖子怎么找不到了。</span><br>
+<span>本来一直1080p,720p过来的没感觉。最近换了台4k显示器。用potplayer播放前两天国庆别人录的4k，h265视频，怎么看怎么不对。黑色的地方有明显的条纹，还没1080p清晰，以为别人没录好。结果偶然换了vlc就没问题。</span><br>
+<span>求推荐好用的播放器和调教方法。还是说就用vlc了？</span><br>
+</p><p><b>琴酒: </b><br>
+<span>MPC-BE/MPC-HC/pot+madVR+LAV filters+XySubFilter </span><br>
+</p><p><b>plusSharp: </b><br>
+<span>vlc 主要优势是跨平台，windows 下还是用mpc-hc 好一些</span><br>
+<span>—— 来自 samsung SM-A6060, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>vcb 有教程 https://vcb-s.com/archives/category/kb</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>potplayer相当于一个框架，你自己要装分离器解码器和渲染器才能有好效果。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>mpv</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>子不语人渐离: </b><br>
+<span>我用的vcb论坛里的教程。。</span><br>
+</p><p><b>闪电战: </b><br>
+<span> 本帖最后由 闪电战 于 2019-10-9 19:33 编辑 </span><br>
+<span>MPC-HC + madVR</span><br>
+<span>设置一下，2080Ti都给你榨干</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span> 本帖最后由 JasonBourne 于 2019-10-9 23:19 编辑 </span><br>
+<span>和楼上的差不多，我比较懒就直接买了svp pro (https://www.svp-team.com/wiki/Main_Page)，自带的安装程序把svp+ffdshow+madvr+mpc-hc一整套就给我装好了。当然svp只是用来插补帧的，没那要求可以不用。</span><br>
+<span>除此外上个月还找到个做动画实时放大的滤镜 https://github.com/bloc97/Anime4K 。</span><br>
+<span>4个文件下载下来放到mpc-hc的滤镜文件夹里就行，具体可以看这个指南 https://github.com/bloc97/Anime4K/blob/master/HLSL_Instructions.md 。</span><br>
+<span>这个算法我具体看了下，其实都不是像waifu那种真正的超分辨率算法，更像是一个针对高分辨率屏的动画画质优化算法，所以实际吃的性能并不多。注意releases里下载那个0.9 HLSL的版本，另一个是给mpv用的。</span><br>
+<span>madvr坑有点大，这有个湾湾（？）写的博客可以看看，每个设置项都讲得清清楚楚，自己边读边配边看实际表现，跟着自己机器实际性能走就行。http://lysandria1985.blogspot.com/2013/01/3-madvr.html?m=1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858628[0-50]</guid>
+    </item>
+  </channel>
+</rss>

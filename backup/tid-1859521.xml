@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>英国部署国家级超算“ARCHER2”纯CPU计算，64核EPYC 2，28 PFLOP/s</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>英国部署国家级超算“ARCHER2”纯CPU计算，64核EPYC 2，28 PFLOP/s</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:40:59 +0000</lastBuildDate>
+    <item>
+      <title>英国部署国家级超算“ARCHER2”纯CPU计算，64核EPYC 2，28 PFLOP/s[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859521-1-1.html</link>
+      <description>英国部署国家级超算“ARCHER2”纯CPU计算，64核EPYC 2，28 PFLOP/s&#13;
+
+&#13;
+https://insidehpc.com/2019/10/amd-to-power-crays-archer2-supercomputer-in-the-uk/
+&#13;
+Needless to say, ARCHER2 represents a significant step forwards in capability for the UK science community, with the system expected to sit among the fastest fully general purpose (CPU only) systems when it comes into service in May 2020.
+&#13;
+Hardware specifications:
+&#13;
+28 PFLOP/s peak performance
+&#13;
+5,848 compute nodes, each with dual AMD Rome 64 core CPUs at 2.2GHz, for 748,544 cores in total and 1.57 PBytes of total system memory
+&#13;
+23x Shasta Mountain direct liquid cooled cabinets
+&#13;
+14.5 PBytes of Lustre work storage in 4 file systems
+&#13;
+1.1 PByte all-flash Lustre BurstBuffer file system
+&#13;
+1+1 PByte home file system in Disaster Recovery configuration using NetApp FAS8200
+&#13;
+Cray next-generation Slingshot 100Gbps network in a diameter-three dragonfly topology, consisting of 46 compute groups, 1 I/O group and 1 Service group
+&#13;
+Shasta River racks for management and post processing
+&#13;
+Test and Development System (TDS) platform, to be installed in advance
+&#13;
+Collaboration platform with 4 x compute nodes attached to 16 x Next Generation AMD GPUs
+&#13;
+Software stack:
+&#13;
+Cray Programming Environment including optimizing compilers and libraries for the AMD Rome CPU
+&#13;
+Cray Linux Environment optimized for the AMD CPU blade based on SLES 15
+&#13;
+Shasta Software Stack
+&#13;
+SLURM work load manager
+&#13;
+CrayPat as profiler
+&#13;
+GDB4HPC as debugger</description>
+      <content:encoded><![CDATA[<p><b>Radeon: </b><br>
+<span>英国部署国家级超算“ARCHER2”纯CPU计算，64核EPYC 2，28 PFLOP/s</span><br>
+<span>https://insidehpc.com/2019/10/amd-to-power-crays-archer2-supercomputer-in-the-uk/</span><br>
+<span>Needless to say, ARCHER2 represents a significant step forwards in capability for the UK science community, with the system expected to sit among the fastest fully general purpose (CPU only) systems when it comes into service in May 2020.</span><br>
+<span>Hardware specifications:</span><br>
+<span>28 PFLOP/s peak performance</span><br>
+<span>5,848 compute nodes, each with dual AMD Rome 64 core CPUs at 2.2GHz, for 748,544 cores in total and 1.57 PBytes of total system memory</span><br>
+<span>23x Shasta Mountain direct liquid cooled cabinets</span><br>
+<span>14.5 PBytes of Lustre work storage in 4 file systems</span><br>
+<span>1.1 PByte all-flash Lustre BurstBuffer file system</span><br>
+<span>1+1 PByte home file system in Disaster Recovery configuration using NetApp FAS8200</span><br>
+<span>Cray next-generation Slingshot 100Gbps network in a diameter-three dragonfly topology, consisting of 46 compute groups, 1 I/O group and 1 Service group</span><br>
+<span>Shasta River racks for management and post processing</span><br>
+<span>Test and Development System (TDS) platform, to be installed in advance</span><br>
+<span>Collaboration platform with 4 x compute nodes attached to 16 x Next Generation AMD GPUs</span><br>
+<span>Software stack:</span><br>
+<span>Cray Programming Environment including optimizing compilers and libraries for the AMD Rome CPU</span><br>
+<span>Cray Linux Environment optimized for the AMD CPU blade based on SLES 15</span><br>
+<span>Shasta Software Stack</span><br>
+<span>SLURM work load manager</span><br>
+<span>CrayPat as profiler</span><br>
+<span>GDB4HPC as debugger</span><br>
+</p><p><b>可乐猫: </b><br>
+<span>难怪3900×一直缺货，好点的die全都拿去做服务器了，差得就用来做3600 3700之类的。</span><br>
+</p><p><b>wzp2853: </b><br>
+<span>archer2还行</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>名字叫LANCER是不是算出某些问题的解的概率要高一点</span><br>
+</p><p><b>碳.: </b><br>
+<span>catazshadow 发表于 2019-10-15 11:26</span><br>
+<span>名字叫LANCER是不是算出某些问题的解的概率要高一点</span><br>
+<span>3天一次停机故障</span><br>
+</p><p><b>qazesz: </b><br>
+<span>1w刀一个，才1亿多点嘛</span><br>
+</p><p><b>qazesz: </b><br>
+<span>.</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span> 本帖最后由 sblnrrk 于 2019-10-15 11:50 编辑 </span><br>
+<span>Collaboration platform with 4 x compute nodes attached to 16 x Next Generation AMD GPU</span><br>
+<span>人家只是没装GPU，等回头GPU装起来，可以冲榜</span><br>
+<span>每个节点4个，5848*4就是23392个，MI60都有14.7T（FP32）</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>qazesz 发表于 2019-10-15 11:39</span><br>
+<span>1w刀一个，才1亿多点嘛</span><br>
+<span>后续还要买2万块加速卡，不少了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Opteron终于后继有人了</span><br>
+</p><p><b>相互理解: </b><br>
+<span>日本人念神威是不是和 saber 差不多？</span><br>
+</p><p><b>東京急行: </b><br>
+<span>相互理解 发表于 2019-10-15 15:00</span><br>
+<span>日本人念神威是不是和 saber 差不多？</span><br>
+<span>天河倒是和TENGA差不多</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>按摩店好像到现在都没啥做GPU服务器的？epyc这么多pcie总线，不知道过过能等到啥大船</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>DeepFishing 发表于 2019-10-15 21:20</span><br>
+<span>按摩店好像到现在都没啥做GPU服务器的？epyc这么多pcie总线，不知道过过能等到啥大船</span><br>
+<span>—— 来自 Sony H829 ...</span><br>
+<span>vega7啊，就是没人下单</span><br>
+<span>amd也没好货，拿vega7又做了个双芯核蛋。。。很明显英国佬不买账，宁可继续等</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>马金葛: </b><br>
+<span>相互理解 发表于 2019-10-15 15:00</span><br>
+<span>日本人念神威是不是和 saber 差不多？</span><br>
+<span>神威不是卡姆依吗？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859521[0-50]</guid>
+    </item>
+  </channel>
+</rss>

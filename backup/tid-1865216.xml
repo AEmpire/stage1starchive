@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求会诊：点关机键后主板CPU依旧带电</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求会诊：点关机键后主板CPU依旧带电</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:04:49 +0000</lastBuildDate>
+    <item>
+      <title>求会诊：点关机键后主板CPU依旧带电[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865216-1-1.html</link>
+      <description>求会诊：点关机键后主板CPU依旧带电&#13;
+N年老电脑，Windows里点了关机键后，CPU风扇会继续转，主板电源灯亮，机箱Power灯亮
+&#13;
+键盘灯灭，显示器显示没有信号输入，摇晃鼠标键盘，整机无任何反应
+&#13;
+此症状最近一个月愈发频繁
+&#13;
+求会诊，感谢
+&#13;
+主板：华擎 Z77 Pro4
+&#13;
+电源：安钛克 BP550Plus</description>
+      <content:encoded><![CDATA[<p><b>宅男的爱: </b><br>
+<span>求会诊：点关机键后主板CPU依旧带电</span><br>
+<span>N年老电脑，Windows里点了关机键后，CPU风扇会继续转，主板电源灯亮，机箱Power灯亮</span><br>
+<span>键盘灯灭，显示器显示没有信号输入，摇晃鼠标键盘，整机无任何反应</span><br>
+<span>此症状最近一个月愈发频繁</span><br>
+<span>求会诊，感谢</span><br>
+<span>主板：华擎 Z77 Pro4</span><br>
+<span>电源：安钛克 BP550Plus</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>都那么多年了……</span><br>
+<span>先清灰看看？</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>纯情小鸭鸭 发表于 2019-11-12 16:44</span><br>
+<span>都那么多年了……</span><br>
+<span>先清灰看看？</span><br>
+<span>3个月前刚扫了一遍</span><br>
+</p><p><b>P-link: </b><br>
+<span>好巧，我的也这样，开机时间长了就有这问题（短时间正常开关机没这情况），机箱风扇，CPU风扇还在转，RGB还在亮，开机键电源灯也在亮。屏幕没信号，键盘鼠标没亮。最后非要按电源键关机。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>gdx23532: </b><br>
+<span>我也是这个问题，非得长按电源键才能断电，两三天发生一次</span><br>
+</p><p><b>yizi: </b><br>
+<span>换电池试试？</span><br>
+</p><p><b>铅笔: </b><br>
+<span>win10吧。</span><br>
+</p><p><b>傲游: </b><br>
+<span>华擎好像有个机箱除湿功能……</span><br>
+<span>看看有没有关掉</span><br>
+</p><p><b>两个路人: </b><br>
+<span>看着怎么像S1睡眠状态</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>我是flex电源就有这个问题</span><br>
+<span>系统是winserver2016</span><br>
+</p><p><b>braverbt: </b><br>
+<span> 本帖最后由 braverbt 于 2019-11-13 14:44 编辑 </span><br>
+<span>查了一下,发现这个板子都有这个问题.</span><br>
+<span>reddit还蛮多人反应,有些怀疑是PSU问题.</span><br>
+<span>不过首先刷个bios试试?</span><br>
+</p><p><b>takami: </b><br>
+<span>是待机+5v的问题吧，bios里找找相关设置</span><br>
+<span>把鼠标键盘唤醒什么的都关了试试</span><br>
+</p><p><b>braverbt: </b><br>
+<span>另外如果刷bios不能解决的话,就只能关掉win10快速启动了.</span><br>
+<span>这样关机会强制变成S5状态,就彻底断电了</span><br>
+</p><p><b>P-link: </b><br>
+<span> 本帖最后由 P-link 于 2019-11-13 14:57 编辑 </span><br>
+<span>braverbt 发表于 2019-11-13 14:51:08</span><br>
+<span>另外如果刷bios不能解决的话,就只能关掉win10快速启动了.</span><br>
+<span>这样关机会强制变成S5状态,就彻底断电了 ...</span><br>
+<span>我的X570试过没用</span><br>
+<span>反而一直变成卡在“关机中”BIOS暂时没更新</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>braverbt: </b><br>
+<span>P-link 发表于 2019-11-13 14:55</span><br>
+<span>我的X570试过没用</span><br>
+<span>反而一直变成卡在“关机中”BIOS暂时没更新</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客 ...</span><br>
+<span>在bios里还有一个睡眠模式的选项,有试过禁用那个吗</span><br>
+<span>具体的名称我忘记叫睡眠模式还是混合睡眠,总之有个选项能关闭他们?</span><br>
+</p><p><b>P-link: </b><br>
+<span>braverbt 发表于 2019-11-13 14:59:00</span><br>
+<span>在bios里还有一个睡眠模式的选项,有试过禁用那个吗</span><br>
+<span>具体的名称我忘记叫睡眠模式还是混合睡眠,总之有个选 ...BIOS电源管理没看到这选项 而且基本都是默认禁止的</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>braverbt: </b><br>
+<span>P-link 发表于 2019-11-13 15:00</span><br>
+<span>BIOS电源管理没看到这选项 而且基本都是默认禁止的</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>我手头没有华擎板子了,但是这个选项确实是存在的.</span><br>
+<span>因为关机不掉电的问题我之前也遇到过并且调整了,板子型号华擎Z97 极限玩家6</span><br>
+<span>总之看看bios电源管理里的选项吧,如果找不到的话就不清楚了~</span><br>
+</p><p><b>moondigi: </b><br>
+<span>深度睡眠设成s5-s4，默认是s5</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865216[0-50]</guid>
+    </item>
+  </channel>
+</rss>

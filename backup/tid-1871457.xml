@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何提升油猴脚本的速度？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何提升油猴脚本的速度？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:18:16 +0000</lastBuildDate>
+    <item>
+      <title>如何提升油猴脚本的速度？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1871457-1-1.html</link>
+      <description>如何提升油猴脚本的速度？&#13;
+以S1为例，涉及到修改页面内容的（比如屏蔽、增加快捷项）都会有一个明显的变化过程，让我先看到了原来的样子，0.5秒再变成脚本修改过后的样子。
+&#13;
+这个变换动作还挺难受的，尤其是屏蔽类，仿佛不能起到屏蔽效果了（用户用论坛系统屏蔽更直接，帖子和关键词屏蔽则会有这个问题）。</description>
+      <content:encoded><![CDATA[<p><b>whzfjk: </b><br>
+<span>如何提升油猴脚本的速度？</span><br>
+<span>以S1为例，涉及到修改页面内容的（比如屏蔽、增加快捷项）都会有一个明显的变化过程，让我先看到了原来的样子，0.5秒再变成脚本修改过后的样子。</span><br>
+<span>这个变换动作还挺难受的，尤其是屏蔽类，仿佛不能起到屏蔽效果了（用户用论坛系统屏蔽更直接，帖子和关键词屏蔽则会有这个问题）。</span><br>
+</p><p><b>chenjiajia94: </b><br>
+<span>少装几个附加组件……</span><br>
+<span>    —— from S1 Nyan (Microsoft Lumia 950)</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>这类脚本前端屏蔽，要等页面加载完成吧</span><br>
+</p><p><b>win8: </b><br>
+<span>浏览器本地脚本就这样加载完了再修改如果你自己写个app就可以取回数据直接显示了   要不然整个服务器,在服务器端去</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>这其实和速度没啥关系，主要是实现方式有关。如果是等DOM加载出来再改，会看到这种情况很正常。而S1基本上返回的大部分是静态内容，页面上的JS应该是没有能力拦截和请求HTTP请求的。依我看这种情况上有浏览器拓展的webRequest API比较合适。</span><br>
+</p><p><b>heroboy: </b><br>
+<span>简单来说就是实现起来简单。页面加载完成后统一修改。当然一定要在显示出来之前修改也是可以的，估计难度也就是20倍而已。</span><br>
+</p><p><b>YoumuChan: </b><br>
+<span>如果页面本身不大，主要是等图片加载，把Event Listener的对象从load改成DOMContentLoaded就行了</span><br>
+<span>如果本身页面也挺大，那就需要实现一个Mutation Observer来侦听元素加载了</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>我的自从装了屏蔽华为用户，下面的回复栏总是变形，要刷新好几次才能输入。删除了脚本还是这样，看样子没救了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1871457[0-50]</guid>
+    </item>
+  </channel>
+</rss>

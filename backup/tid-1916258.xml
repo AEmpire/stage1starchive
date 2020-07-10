@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>科学计算对多核支持情况如何？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>科学计算对多核支持情况如何？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:53:35 +0000</lastBuildDate>
+    <item>
+      <title>科学计算对多核支持情况如何？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916258-1-1.html</link>
+      <description>科学计算对多核支持情况如何？&#13;
+虽然说其实都是在服务器上计算的为主，如果线下需要进行几G数据计算的话，是cpu更重要（多核or技术支持？）还是更快的ssd更重要呢？</description>
+      <content:encoded><![CDATA[<p><b>兰开夏: </b><br>
+<span>科学计算对多核支持情况如何？</span><br>
+<span>虽然说其实都是在服务器上计算的为主，如果线下需要进行几G数据计算的话，是cpu更重要（多核or技术支持？）还是更快的ssd更重要呢？</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>内存和 cpu 核数，这种数据一般都是在内存里跑的，硬盘 io 性能不会有特别大的影响</span><br>
+<span>指令集的话，看你跑的代码是不是祖传代码有没有优化了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>huzhiyangqaz 发表于 2020-2-28 17:32</span><br>
+<span>内存和 cpu 核数，这种数据一般都是在内存里跑的，硬盘 io 性能不会有特别大的影响</span><br>
+<span>指令集的话，看你跑的代 ...</span><br>
+<span>原来如此。。。其实就是关系不大。。。</span><br>
+</p><p><b>GeneralAtomics: </b><br>
+<span>少年不试试GPU计算吗</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>磁盘io很慢，跑高分辨图像，一般全塞内存，服务器不是多核跑吗，按理服务器主频都不高</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>内存带宽>CPU>>>剩下一切</span><br>
+</p><p><b>treexper: </b><br>
+<span>一般来说跟硬盘没啥关系，有关系的都是上T甚至几十T的数据。</span><br>
+<span>offline处理看什么还真是个具体情况具体分析。如果仅仅是个顺序执行过程，那么对配置要求是比较小的，如果存在对上下文数据的随机读取，那么缓存和内存大点好。</span><br>
+</p><p><b>蓝泽玲: </b><br>
+<span>内存够大的话就和SSD完全没有关系。对多核的支持看你的代码怎么写的。</span><br>
+</p><p><b>catenary: </b><br>
+<span>计算化学领域大部分软件都是用现成的并行api，openmp，openmpi，mpich之类的，并行效率还是不错的</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>CPU通道数>指令集>核心数>磁盘</span><br>
+<span>等到要从磁盘拿数据速度必然会慢下来</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2020-2-29 11:09 编辑 </span><br>
+<span>你看一看老莱17年的视频，加拿大的超算项目。</span><br>
+<span>av11861050</span><br>
+<span>针对不同方向的科学计算有不同的配置单元，和云服务器多种配置差不多。cpu计算型、高内存容量型、gpu计算型。</span><br>
+<span>我上面的回复有些审题不清。不知道别人家有没有用傲腾做本地存储的，SSD的IO吞吐量的优先级不是很高。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916258[0-50]</guid>
+    </item>
+  </channel>
+</rss>

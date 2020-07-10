@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:17:45 +0000</lastBuildDate>
+    <item>
+      <title>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903433-1-1.html</link>
+      <description>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器&#13;
+整了一堆4K60HDR的电视宣传片打算买电视，先在自家的电脑上试试。
+&#13;
+结果偶然发现偶尔会出现口型跟声音对不上，当时就惊了。
+&#13;
+显卡是GTX1050，我想这要是连4K都看不了，岂不是被手机吊打了。
+&#13;
+TAB一开，发现帧数在LAV解码器下也就59然后慢慢降到57，然后稳定维持在57
+&#13;
+之后我渲染器一个个试，解码器也一个个试。LAV和madvr参数照着网上教程改半天，质量都糊的一批了还是没法满。
+&#13;
+最后发现，有且仅有potplay全内置解码器，能够稳定的输出60(60)→60.0
+&#13;
+其他的任何解码器都会掉到57-59。
+&#13;
+这咋回事啊
+&#13;
+画质再高，隔一段时间就要抛弃好几帧，最后偶尔来个音画不同步，这没意义啊。</description>
+      <content:encoded><![CDATA[<p><b>暁美ほむら: </b><br>
+<span>qazesz 发表于 2019-12-19 18:38</span><br>
+<span>mpc-be的hdr转sdr颜色不对，能调吗</span><br>
+<span>HDR转SDR乖乖使用madvr最新测试版本那个</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>从网盘里找出了几年前保存的测试视频</span><br>
+<span>江南style H.264 8k 60hz 10bit码率160M</span><br>
+<span>https://pan.baidu.com/s/1-9PbtMwEXxMxYLnnAPSz2Q   bxgh</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>炮姐时代</span><br>
+<span>H.264 4k 120hz 8bit 码率大约28Mb/s</span><br>
+<span>https://pan.baidu.com/s/14jfAPMGnWF4Kc1DLkwwksA   xfrw</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>H.264 4k 120hz 10bit码率大约27M</span><br>
+<span>https://pan.baidu.com/s/1D99XjPXfku57iQVHK6gwzg4ofd</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>H.264是老格式了，4k 120hz 8bit还可以硬解，10bit的据我所知这个参数显卡都不支持，只能软解</span><br>
+<span>那个8k60hz 10bit的也是</span><br>
+</p><p><b>lhw369: </b><br>
+<span>宅闻天下 发表于 2019-12-19 22:41</span><br>
+<span>H.264是老格式了，4k 120hz 8bit还可以硬解，10bit的据我所知这个参数显卡都不支持，只能软解</span><br>
+<span>那个8k60hz 1 ...</span><br>
+<span>因为你用h.264的hi10p不如直接上h.265了。</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>qazesz 发表于 2019-12-19 18:38</span><br>
+<span>mpc-be的hdr转sdr颜色不对，能调吗</span><br>
+<span>用的MPC-BE 1.5.3如果EVR-CP没正常工作，就重启一下软件。毕竟魔改没有单独开关，就会你用WMP一样</span><br>
+</p><p><b>两个路人: </b><br>
+<span>waox 发表于 2019-12-18 17:43</span><br>
+<span>看了这贴看了一下我用madvr，1080p动画，一会400多帧，一会掉到只有160，关键是我只看视频就瞧不出区别</span><br>
+<span>有俩个比较容易看出来，一个是放大避免banding/ring，一个是缩小的那啥新算法</span><br>
+</p><p><b>qazesz: </b><br>
+<span>两个路人 发表于 2019-12-20 13:36</span><br>
+<span>用的MPC-BE 1.5.3如果EVR-CP没正常工作，就重启一下软件。毕竟魔改没有单独开关，就会你用WMP一样 ...</span><br>
+<span>不是偶尔的情况，重启有什么用。evr-cp渲染器hdr转成sdr颜色就是不正常，泛红，但mpv和wmp没问题</span><br>
+</p><p><b>两个路人: </b><br>
+<span>qazesz 发表于 2019-12-20 16:07</span><br>
+<span>不是偶尔的情况，重启有什么用。evr-cp渲染器hdr转成sdr颜色就是不正常，泛红，但mpv和wmp没问题 ...</span><br>
+<span>我用1.5.3稳定版只有偶尔不做HDR转SDR的情况，系统win7。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>qazesz 发表于 2019-12-20 16:07</span><br>
+<span>不是偶尔的情况，重启有什么用。evr-cp渲染器hdr转成sdr颜色就是不正常，泛红，但mpv和wmp没问题 ...</span><br>
+<span>今天用空出来的SSD盘装了WIN10 1903，在应用商店加载VP9解码，播U2B的VP9 HDR视频，确实是出现了明显过曝的问题。你这大概这就是标准的瘟屎受害者了 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903433[50-100]</guid>
+    </item>
+    <item>
+      <title>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903433-1-1.html</link>
+      <description>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器&#13;
+整了一堆4K60HDR的电视宣传片打算买电视，先在自家的电脑上试试。
+&#13;
+结果偶然发现偶尔会出现口型跟声音对不上，当时就惊了。
+&#13;
+显卡是GTX1050，我想这要是连4K都看不了，岂不是被手机吊打了。
+&#13;
+TAB一开，发现帧数在LAV解码器下也就59然后慢慢降到57，然后稳定维持在57
+&#13;
+之后我渲染器一个个试，解码器也一个个试。LAV和madvr参数照着网上教程改半天，质量都糊的一批了还是没法满。
+&#13;
+最后发现，有且仅有potplay全内置解码器，能够稳定的输出60(60)→60.0
+&#13;
+其他的任何解码器都会掉到57-59。
+&#13;
+这咋回事啊
+&#13;
+画质再高，隔一段时间就要抛弃好几帧，最后偶尔来个音画不同步，这没意义啊。</description>
+      <content:encoded><![CDATA[<p><b>kuleisite1992: </b><br>
+<span>有点颠覆认知啊，MadVR+LAV不如Potplay自带解码器</span><br>
+<span>整了一堆4K60HDR的电视宣传片打算买电视，先在自家的电脑上试试。</span><br>
+<span>结果偶然发现偶尔会出现口型跟声音对不上，当时就惊了。</span><br>
+<span>显卡是GTX1050，我想这要是连4K都看不了，岂不是被手机吊打了。</span><br>
+<span>TAB一开，发现帧数在LAV解码器下也就59然后慢慢降到57，然后稳定维持在57</span><br>
+<span>之后我渲染器一个个试，解码器也一个个试。LAV和madvr参数照着网上教程改半天，质量都糊的一批了还是没法满。</span><br>
+<span>最后发现，有且仅有potplay全内置解码器，能够稳定的输出60(60)→60.0</span><br>
+<span>其他的任何解码器都会掉到57-59。</span><br>
+<span>这咋回事啊</span><br>
+<span>画质再高，隔一段时间就要抛弃好几帧，最后偶尔来个音画不同步，这没意义啊。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2019-12-17 00:14 编辑 </span><br>
+<span>你是指内置解码器+madvr还是都关了？madvr和lav比较吃cpu，因为是软解。</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>依然荏苒 发表于 2019-12-17 00:13</span><br>
+<span>你是指内置解码器+madvr还是都关了？madvr和lav比较吃cpu，因为是软解。</span><br>
+<span>两者只要开其一就不能满帧60,只有57.X-59.X </span><br>
+<span>而且开的时候CPU和GPU也就50-70%这样，没满</span><br>
+</p><p><b>元肉丸子: </b><br>
+<span>换mpc试试，potplayer和madvr兼容性有时不太好</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>如果原生片源是10bit，pot我记得默认用nv12，8bit的，对性能要求会放低</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-17 00:42 编辑 </span><br>
+<span>"显卡是GTX1050"</span><br>
+<span>你就没发现你家显卡频率和显存突然就封顶了吗？我旧电脑上用GTX1050硬解4K 60FPS VP9都不敢随便上MADVR，看HDR都只敢上MPC-BE魔改的EVR-CP </span><br>
+</p><p><b>yuuu: </b><br>
+<span>两个路人 发表于 2019-12-17 00:37</span><br>
+<span>"显卡是GTX1050"</span><br>
+<span>你就没发现你家显卡频率突然就封顶了吗？我旧电脑上用GTX1050硬解4K 60FPS VP9都不 ...</span><br>
+<span>1050有这么不堪吗？我1066随便玩madvr，型号就差一个位数</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>两个路人 发表于 2019-12-17 00:37</span><br>
+<span>"显卡是GTX1050"</span><br>
+<span>你就没发现你家显卡频率和显存突然就封顶了吗？我旧电脑上用GTX1050硬解4K 60FPS V ...</span><br>
+<span>但是我只要开着madvr和LAV，不管我把参数调多低，画质糊的一批，还是只有57-59帧....</span><br>
+<span>这个时候显存占用才600mb啊所以我强烈怀疑不是性能问题啊</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-17 00:47 编辑 </span><br>
+<span>yuuu 发表于 2019-12-17 00:39</span><br>
+<span>1050有这么不堪吗？我1066随便玩madvr，型号就差一个位数</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上 ...</span><br>
+<span>FHD倒是没问题，但是你把视频上扩到4K就顶不住了呀。上个高级点的算法（比如Jinc），分分钟频率和显存哭给你看哦 </span><br>
+<span>选Cubic、Spline和Lanczos，我为啥不用魔改的EVR-CP凑合算了 当然啦，GTX1050作为和GTX1080Ti（大概）硬解支持最全的帕斯卡，倒也不是一无是处（噗</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-17 01:02 编辑 </span><br>
+<span>kuleisite1992 发表于 2019-12-17 00:45</span><br>
+<span>但是我只要开着madvr和LAV，不管我把参数调多低，画质糊的一批，还是只有57-59帧....</span><br>
+<span>这个时候显存占用才6 ...</span><br>
+<span>不如你先把你的播放环境和片源贴一遍，让大家瞅瞅；我觉着啥都不懂，开箱即用的MPC-BE才是你们的最好归宿。另外，笔记本电脑平台就免谈了，没有驱动破解，老黄家显卡不会干活的</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-12-17 01:10 编辑 </span><br>
+<span>两个路人 发表于 2019-12-17 01:01</span><br>
+<span>不如你先把你的播放环境和片源贴一遍，让大家瞅瞅；我觉着啥都不懂，开箱即用的MPC-BE才是你们的最好归宿 ...</span><br>
+<span>笔记本的老黄驱动有啥特殊的地方么？我看解码还是正常硬解啊片源是很老的那个LG Rays of Light 4K Demo</span><br>
+<span>软件是最新版本的开箱即用的完美解码，调用potplay最新版本，然后打开LAV解码器</span><br>
+</p><p><b>淼霆: </b><br>
+<span>感觉楼主啥都不懂啊</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>淼霆 发表于 2019-12-17 01:09</span><br>
+<span>感觉楼主啥都不懂啊</span><br>
+<span>就是啥都不懂才见鬼啊</span><br>
+<span>1080P的视频毫无问题。自己下的4K电影也没问题</span><br>
+<span>只有这几个4KHDR演示片出了问题.....</span><br>
+</p><p><b>两个路人: </b><br>
+<span>kuleisite1992 发表于 2019-12-17 01:08</span><br>
+<span>笔记本的老黄驱动有啥特殊的地方么？我看解码还是正常硬解啊片源是很老的那个LG Rays of Light 4K...</span><br>
+<span>老黄家显卡在笔记本上常规上不启用硬解，默认干活的都是牙膏厂的集显 </span><br>
+</p><p><b>rentrody: </b><br>
+<span>yuuu 发表于 2019-12-17 00:39</span><br>
+<span>1050有这么不堪吗？我1066随便玩madvr，型号就差一个位数</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上 ...</span><br>
+<span>看价格差几位数</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>两个路人 发表于 2019-12-17 01:12</span><br>
+<span>老黄家显卡在笔记本上常规上不启用硬解，默认干活的都是牙膏厂的集显...</span><br>
+<span>那么我想去一个个试电视，该带啥当播放器</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-17 01:32 编辑 </span><br>
+<span>kuleisite1992 发表于 2019-12-17 01:14</span><br>
+<span>那么我想去一个个试电视，该带啥当播放器</span><br>
+<span>笔记本外接4K还要看你的HDMI口有没有2.0呢 </span><br>
+<span>看片直接带U盘/移动硬盘过去，凡是读不出NTFS格式，自带播放不出HDR的统统枪毙即可；然后再看看HDMI口是不是2.0的 PS：以前泥潭哪个帖子里，有人特意留了个帕斯卡笔记本怎么搞破解的回复，但是不知道沉到哪里去了</span><br>
+</p><p><b>上班族: </b><br>
+<span>两个路人 发表于 2019-12-17 01:27</span><br>
+<span>笔记本外接4K还要看你的HDMI口有没有2.0呢 </span><br>
+<span>看片直接带U盘/移动硬盘过去，凡是读不出NTFS格式，自 ...</span><br>
+<span>那索尼可以被毙了</span><br>
+<span>8.0下u盘内容不被读取，需要装上kodi</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-12-17 05:54 编辑 </span><br>
+<span>任开其一就不行这就很不科学了，播个片子开lav的面板看看工作在什么模式，cpu干到50%多半不是硬解。不开madvr的高级算法光谈解码1050规格不差的。</span><br>
+<span>http://tieba.baidu.com/f?kz=6119359964</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>进来之前我当时是209980ti，那跑不满确实值得批判一番…</span><br>
+<span>结果是1050(还没ti)…要是算法高级点分分钟暴毙…</span><br>
+<span>听你意思还是笔记本？那………确实只有集显干活，不死不正常…</span><br>
+<span>想要集显干活，要么用inspector改设置，要么把可执行文件改名字</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>yuuu 发表于 2019-12-17 00:39</span><br>
+<span>1050有这么不堪吗？我1066随便玩madvr，型号就差一个位数</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上 ...</span><br>
+<span>型号就差一个位数</span><br>
+</p><p><b>magpte: </b><br>
+<span>lav有没有设置硬解分辨率，之前试过有些整个包默认没选</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>去vcb找那个教程文章</span><br>
+<span>madvr有几档配置好的文件</span><br>
+<span>最高一档至少要1070</span><br>
+<span>不过这是对动画优化的就是了</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>上班族 发表于 2019-12-17 04:18</span><br>
+<span>那索尼可以被毙了</span><br>
+<span>8.0下u盘内容不被读取，需要装上kodi</span><br>
+<span>辣鸡翔尼，活该国内要倒闭呀。和强国货一起苟在4.4 / 6.0不好嘛？为了自家蓝牙协议强上8.0不可取啊 xsk</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>yuuu 发表于 2019-12-17 00:39</span><br>
+<span>1050有这么不堪吗？我1066随便玩madvr，型号就差一个位数</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上 ...</span><br>
+<span>1066纸面性能是1050翻倍，别看尾号就差了10</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>1050性能还不如960吧</span><br>
+</p><p><b>dvd6: </b><br>
+<span>madvr没个主流游戏显卡都跑不了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>显示器不是HDR的话，madVR还需要把HDR转一遍SDR，这个负担也不小，1050ti还是洗洗睡吧。。。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>换splash试试，这个挺好用</span><br>
+</p><p><b>mhss: </b><br>
+<span>上班族 发表于 2019-12-17 04:18</span><br>
+<span>那索尼可以被毙了</span><br>
+<span>8.0下u盘内容不被读取，需要装上kodi</span><br>
+<span>那我上周末插u盘直接播视频的8.0一定是假索尼</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>月見里時雨 发表于 2019-12-17 09:54</span><br>
+<span>去vcb找那个教程文章</span><br>
+<span>madvr有几档配置好的文件</span><br>
+<span>请教一下，VCB那个教程的QA里提到的炮姐时代是什么梗，搜了下好像是指炮姐的视频，有啥特别的地方吗？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>夜留歌 发表于 2019-12-18 15:57</span><br>
+<span>请教一下，VCB那个教程的QA里提到的炮姐时代是什么梗，搜了下好像是指炮姐的视频，有啥特别的地方吗？ ...</span><br>
+<span>用少女时代的4个FHD的MV拼起来的4K视频，帧率特意搞到鬼畜的120fps的缝合怪😒</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>炮姐时代是13年左右有人搞出来的把超炮op用差值等方式转化为4k120帧的测试视频</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>话说你都用potplayer了，按下tab键不就显示当前视频与播放器的参数以及资源使用情况了吗</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>pot+LAV，看wmv只要拉动播放条就会卡顿几秒钟，这是为啥……</span><br>
+<span>是win10的缘故吗？以前配置更低都没这问题，而且现在换用巨硬自带播放器也没事</span><br>
+</p><p><b>waox: </b><br>
+<span>看了这贴看了一下我用madvr，1080p动画，一会400多帧，一会掉到只有160，关键是我只看视频就瞧不出区别这种东西是不是玄学啊，有啥可以入门研究的教学吗</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>cloudskate 发表于 2019-12-18 16:34</span><br>
+<span>pot+LAV，看wmv只要拉动播放条就会卡顿几秒钟，这是为啥……</span><br>
+<span>是win10的缘故吗？以前配置更低都没这问题， ...</span><br>
+<span>lav解vc-1就这b样</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>两个路人: </b><br>
+<span>cloudskate 发表于 2019-12-18 16:34</span><br>
+<span>pot+LAV，看wmv只要拉动播放条就会卡顿几秒钟，这是为啥……</span><br>
+<span>是win10的缘故吗？以前配置更低都没这问题， ...</span><br>
+<span>因为是巨硬专利格式，同理还有RealPlayer和QuickTime，第三方做兼容都会出问题。所以，一般瘟逗死上的处理方式就是直接调用WMP的解码器来播</span><br>
+</p><p><b>lhw369: </b><br>
+<span>我1070都玩不动无脑全高madvr，4k下</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>上班族 发表于 2019-12-17 04:18</span><br>
+<span>那索尼可以被毙了</span><br>
+<span>8.0下u盘内容不被读取，需要装上kodi</span><br>
+<span>据说近期电视更新后不能读U盘是GJ政策</span><br>
+</p><p><b>ReginaldMorgan: </b><br>
+<span>cloudskate 发表于 2019-12-18 16:34</span><br>
+<span>pot+LAV，看wmv只要拉动播放条就会卡顿几秒钟，这是为啥……</span><br>
+<span>是win10的缘故吗？以前配置更低都没这问题， ...</span><br>
+<span>lav解部分格式拖进度条确实会卡，都习惯了</span><br>
+<span>我的解决方案是用lav+madvr的时候基本不拖进度条</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>lav source splitter对vc1定位专门有个选项，不知道改一改有没有效果</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span>前几天刚折腾完，效果挺明显的。看到标题还以为potplayer内置解码器出新算法了，进来一看，“GTX1050”“4K”，只有这个表情了</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span> 本帖最后由 会玩熊孩子 于 2019-12-19 17:25 编辑 </span><br>
+<span>上了MadVR+LAV没看出来什么效果 快进还会卡 果断关了 下过一个60帧的复联 看着怪怪的估计有效果也会关</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>是不是折腾这些东西的前提是得有资源入手渠道啊</span><br>
+</p><p><b>qazesz: </b><br>
+<span>两个路人 发表于 2019-12-17 00:37</span><br>
+<span>"显卡是GTX1050"</span><br>
+<span>你就没发现你家显卡频率和显存突然就封顶了吗？我旧电脑上用GTX1050硬解4K 60FPS V ...</span><br>
+<span>mpc-be的hdr转sdr颜色不对，能调吗</span><br>
+</p><p><b>日了狗了: </b><br>
+<span>解码这种东西太烦了，还有音频解码也是，一直搞不懂，有没有什么教程</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>lz的认知确实得到了扩展</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>日了狗了 发表于 2019-12-19 18:57</span><br>
+<span>解码这种东西太烦了，还有音频解码也是，一直搞不懂，有没有什么教程</span><br>
+<span>买一个外接DAC，WASPI或者ASIO输出，完</span><br>
+<span>有钱优先换发声设备</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>Diabolosis 发表于 2019-12-19 21:52</span><br>
+<span>买一个外接DAC，WASPI或者ASIO输出，完</span><br>
+<span>有钱优先换发声设备</span><br>
+<span>没完呢，设了独占，有的程序比如mumu会和播放器抢声卡然后卡成ppt</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903433[0-50]</guid>
+    </item>
+  </channel>
+</rss>

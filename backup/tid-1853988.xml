@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【基本解决了，谢谢】如何改善github的访问？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【基本解决了，谢谢】如何改善github的访问？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:16:07 +0000</lastBuildDate>
+    <item>
+      <title>【基本解决了，谢谢】如何改善github的访问？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853988-1-1.html</link>
+      <description>【基本解决了，谢谢】如何改善github的访问？&#13;
+ 本帖最后由 batrain 于 2019-8-17 21:04 编辑 
+
+情况描述：南方某省电信网络，最近访问github越来越不流畅了
+&#13;
+白天或者晚上，经常是进去卡，下载卡，甚至下载几十kb就连接断开了
+&#13;
+后来发现早上9点前访问速度和体验都挺好
+&#13;
+需求：在不用那些个禁止讨论的工具的情况下，仅仅通过修改host能改善体验吗？
+&#13;
+==================================================
+&#13;
+感谢各位的帮助，基本解决了</description>
+      <content:encoded><![CDATA[<p><b>batrain: </b><br>
+<span>【基本解决了，谢谢】如何改善github的访问？</span><br>
+<span> 本帖最后由 batrain 于 2019-8-17 21:04 编辑 </span><br>
+<span>情况描述：南方某省电信网络，最近访问github越来越不流畅了</span><br>
+<span>白天或者晚上，经常是进去卡，下载卡，甚至下载几十kb就连接断开了</span><br>
+<span>后来发现早上9点前访问速度和体验都挺好</span><br>
+<span>需求：在不用那些个禁止讨论的工具的情况下，仅仅通过修改host能改善体验吗？</span><br>
+<span>==================================================</span><br>
+<span>感谢各位的帮助，基本解决了</span><br>
+</p><p><b>qwased: </b><br>
+<span>把dns改成腾讯的119.29.29.29试试</span><br>
+</p><p><b>batrain: </b><br>
+<span>qwased 发表于 2019-8-17 10:57</span><br>
+<span>把dns改成腾讯的119.29.29.29试试</span><br>
+<span>等我试试</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>有用，但是可能还是不稳定，之前下载没问题，但是git就不行，测测才知道</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>夜语: </b><br>
+<span>不只github，很多国外IP国内网站的都会出现这种情况，什么v2ex之类。</span><br>
+<span>出口带宽不足？</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>git config --global https.proxy https://127.0.0.1:1080</span><br>
+<span>用代理下啊 （上面是示意）</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>架梯子</span><br>
+</p><p><b>小隐隐于自宅: </b><br>
+<span>我这里是能秒开但下东西慢，限速了？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>我记得以前亚麻云上的东西根本下不动，现在倒是好些了，不知是限制放松了一点还是加密dns的效果</span><br>
+</p><p><b>TR4835: </b><br>
+<span>**** Hidden Message *****</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>改host 有效。但要下载编译好的成品，因为是亚马逊的，就没办法了</span><br>
+<span>光是clone 还是可以接受的</span><br>
+</p><p><b>xk1357240: </b><br>
+<span>按理github访问应该是没问题的，主要反映的问题都是下载太慢，托管好像都是aws，你可以把项目克隆到码云上再用wget下载</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>别走新加坡那个AWS，hosts里写美国GitHub本体那边试试看</span><br>
+</p><p><b>比良坂竜二: </b><br>
+<span>proxychains4</span><br>
+</p><p><b>overflowal: </b><br>
+<span>当然是梯子加速，github的dns在国内很抽风</span><br>
+<span>—— 来自 vivo V1911A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>windrarara: </b><br>
+<span>梯子，肉翻，2选1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>“后来发现早上9点前访问速度和体验都挺好”，再给你加个上限：凌晨4点左右</span><br>
+</p><p><b>fifmanyc: </b><br>
+<span>请问怎么解决的？我也有类似的问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853988[0-50]</guid>
+    </item>
+  </channel>
+</rss>

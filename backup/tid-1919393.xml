@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【编程归外野】面向编程，数学应该怎么补</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【编程归外野】面向编程，数学应该怎么补</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:18:30 +0000</lastBuildDate>
+    <item>
+      <title>【编程归外野】面向编程，数学应该怎么补[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919393-1-1.html</link>
+      <description>【编程归外野】面向编程，数学应该怎么补&#13;
+现在高中数学不过关的水平，最近想自己看看数据结构与算法，但是一开头就遇到了困难，一个比较渐进时间复杂度的题，我连题干都有点看不懂，看了解题思路也有点一知半解的。大概也知道想学这个数学多少还是有些要求的，想问问万能的坛友，数学应该怎么补</description>
+      <content:encoded><![CDATA[<p><b>asion617: </b><br>
+<span>【编程归外野】面向编程，数学应该怎么补</span><br>
+<span>现在高中数学不过关的水平，最近想自己看看数据结构与算法，但是一开头就遇到了困难，一个比较渐进时间复杂度的题，我连题干都有点看不懂，看了解题思路也有点一知半解的。大概也知道想学这个数学多少还是有些要求的，想问问万能的坛友，数学应该怎么补</span><br>
+</p><p><b>spikedingo: </b><br>
+<span>我想说先不补可以吗，挑点不用数学很好的语言先看着</span><br>
+</p><p><b>even001: </b><br>
+<span>高中数学不过关可以先去买本五三（</span><br>
+</p><p><b>asion617: </b><br>
+<span>spikedingo 发表于 2020-3-17 20:27</span><br>
+<span>我想说先不补可以吗，挑点不用数学很好的语言先看着</span><br>
+<span>不是语言的关系，就是想学数据结构算法这些内容，编程语言应该都是绕不开的吧</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>线性代数，矩阵，离散数学，找尽可能讲人话的国外教材看看，编程对数学要求没那么高</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>旧游时节: </b><br>
+<span>找个考研的教材或者视频看看</span><br>
+</p><p><b>红都剧院24排4号: </b><br>
+<span>编程入门的话小学数学应该够了</span><br>
+</p><p><b>李剡s: </b><br>
+<span>算法导论最后有简单的线性代数和概率</span><br>
+</p><p><b>Katkan_Ivan: </b><br>
+<span>“高中数学不过关”可以形容的水平上至清北下至考不上专科……</span><br>
+<span>总之一般985意义上的入门数据结构需要的高中数学知识也就基本的等差等比数列吧……?</span><br>
+</p><p><b>widder: </b><br>
+<span>你是要去考试还是去干活，干活的话这些屁用都没有，记住你只是个码农</span><br>
+</p><p><b>玬翼: </b><br>
+<span>时间复杂度</span><br>
+<span>学过高中数列就OK吧</span><br>
+</p><p><b>asion617: </b><br>
+<span>李剡s 发表于 2020-3-17 20:49</span><br>
+<span>算法导论最后有简单的线性代数和概率</span><br>
+<span>都没注意到还有这个附录</span><br>
+</p><p><b>asion617: </b><br>
+<span>widder 发表于 2020-3-17 20:50</span><br>
+<span>你是要去考试还是去干活，干活的话这些屁用都没有，记住你只是个码农</span><br>
+<span>还没毕业，暂时没有找工作的需求，所以就想学一些这些内容</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>学算法和数据结构和对数学要求不高，发明新算法对数学直觉要求高。你就正经学算法就行，数学有高中水平就够了。</span><br>
+</p><p><b>24k纯帅: </b><br>
+<span>一个数组n个数, 你从头到尾摸一次就是n的复杂度, </span><br>
+<span>一个for循环就一个n, 里面还有循环就乘一个,</span><br>
+<span>二分法的就乘个logn, 这个比n快, 把题目整成能二分的你就赢了</span><br>
+<span>看到递归不要慌, 仔细看看每个数摸了几次, 归了半天可能也只是摸一遍而已, 和for一次一样而已,</span><br>
+<span>python之类高级语言要小心, max, min之类的函数自带一个n,</span><br>
+</p><p><b>pyjq: </b><br>
+<span>建议把看不懂的题干贴出来看看，才能感知lz的水平</span><br>
+</p><p><b>d2loader: </b><br>
+<span>知道微分积分的概念懂点矩阵，概率论， 看CLRS够了</span><br>
+</p><p><b>bdangel1984: </b><br>
+<span>什么，写程序需要懂数学？</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>高中毕业够了，会算o(n)就行</span><br>
+</p><p><b>冷秋魂: </b><br>
+<span>从高中数学开始补。学完高数 学概率线数离散组合。</span><br>
+</p><p><b>flytomars: </b><br>
+<span>实事求是的说没必要补。</span><br>
+<span>真要补可以买这个：</span><br>
+<img src="https://i.loli.net/2020/03/17/lbX5UIevazgRZKF.png" title="https://i.loli.net/2020/03/17/lbX5UIevazgRZKF.png"><br>
+</p><p><b>asion617: </b><br>
+<span>pyjq 发表于 2020-3-17 21:02</span><br>
+<span>建议把看不懂的题干贴出来看看，才能感知lz的水平</span><br>
+<span>大概就是这种吧。。</span><br>
+</p><p><b>zmny: </b><br>
+<span> 本帖最后由 zmny 于 2020-3-17 21:32 编辑 </span><br>
+<span>线代，离散吧，我大一上就没好好学，现在又在家咸鱼，蓝桥杯怕是又要被吊打</span><br>
+</p><p><b>chitongfok: </b><br>
+<span>asion617 发表于 2020-3-17 21:18</span><br>
+<span>大概就是这种吧。。</span><br>
+<span>这是问你不同f的时间复杂度吧</span><br>
+<span>其实计算机需要的数学真的不难，我觉得学计算机最主要是要有计算机思维吧，这个比较难培养，不过总的来说也不难</span><br>
+</p><p><b>Chia: </b><br>
+<span>你们让基础不好的人去看离散组合，脑浆都要爆出来……</span><br>
+<span>还是找点工科的书看看吧</span><br>
+</p><p><b>onEgoOdmAn: </b><br>
+<span>zmny 发表于 2020-3-17 21:29</span><br>
+<span>线代，离散吧，我大一上就没好好学，现在又在家咸鱼，蓝桥杯怕是又要被吊打 ...</span><br>
+<span>什么？！</span><br>
+<span>现在的大一就要学线代和离散了？</span><br>
+</p><p><b>艾登皮尔斯: </b><br>
+<span>onEgoOdmAn 发表于 2020-3-17 21:57</span><br>
+<span>什么？！</span><br>
+<span>现在的大一就要学线代和离散了？</span><br>
+<span>不是计算机专业离散基本没怎么学过不知道，但是线代是工科大一必修课啊。</span><br>
+</p><p><b>imzxz: </b><br>
+<span>你要做算法相关的自然得补微积分线代概率统计，但只数据结构入门的话，高中数学就够了</span><br>
+</p><p><b>onEgoOdmAn: </b><br>
+<span>艾登皮尔斯 发表于 2020-3-17 22:04</span><br>
+<span>不是计算机专业离散基本没怎么学过不知道，但是线代是工科大一必修课啊。 ...</span><br>
+<span>以前都挤在大二上学期一群人学的，还记得课本还是大一暑假从高年级买的二手。</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>如果数据结构以及22l的题干看不懂的话…………lz可能应该重新念一遍高中</span><br>
+</p><p><b>asion617: </b><br>
+<span>伊迪潘喵森 发表于 2020-3-17 22:26</span><br>
+<span> 如果数据结构以及22l的题干看不懂的话…………lz可能应该重新念一遍高中 ...</span><br>
+<span>也不是说看不懂吧，看解题大概知道怎么得出结果，但是自己完全想不出怎么做…</span><br>
+</p><p><b>小野賢章: </b><br>
+<span> 本帖最后由 小野賢章 于 2020-3-17 22:34 编辑 </span><br>
+<span>学习数据结构与算法的话，有高中水平数列、排列组合、概率就差不多了。</span><br>
+<span>比较这四个函数的渐进时间复杂度，保守估计 90% 的程序员用纸笔做不出来，不过可以用作图软件画曲线，看哪里交叉。</span><br>
+<img src="https://img.saraba1st.com/forum/202003/17/211802p49oop49bwhxwd1o.png" title="https://img.saraba1st.com/forum/202003/17/211802p49oop49bwhxwd1o.png"><br>
+</p><p><b>進藤あまね: </b><br>
+<span>人教版数学选修2-3、4-2</span><br>
+</p><p><b>Redis: </b><br>
+<span>数据结构就是数据结构呗</span><br>
+<span>有啥好补的</span><br>
+</p><p><b>80天拯救沃夫朗: </b><br>
+<span>asion617 发表于 2020-3-17 05:18</span><br>
+<span>大概就是这种吧。。</span><br>
+<span>美国高中数学之预备微积分…去下个photomath试试吧，大概能帮你解决部分问题（有过程）</span><br>
+</p><p><b>文字文字: </b><br>
+<span>就算写代码的高级程序员，对数学的要求也没那么高。</span><br>
+</p><p><b>留美预备学校: </b><br>
+<span>我寻思程序员找工作一般考的是编程题吧，还有公司会丢给你几个程序让你算时间复杂度的？</span><br>
+</p><p><b>Adam0_0: </b><br>
+<span>推MIT的Mathematics for Computer Science</span><br>
+</p><p><b>asion617: </b><br>
+<span>留美预备学校 发表于 2020-3-18 09:21</span><br>
+<span>我寻思程序员找工作一般考的是编程题吧，还有公司会丢给你几个程序让你算时间复杂度的？ ...</span><br>
+<span>暂时还没有找工作的需求，所以才想学一些基础的东西</span><br>
+</p><p><b>熊起: </b><br>
+<span>不用事先补，编程的手册或者课本需要用什么数学的时候会说清楚。特别心虚的看下状态机，纸带机之类。</span><br>
+</p><p><b>asion617: </b><br>
+<span>Adam0_0 发表于 2020-3-18 09:23</span><br>
+<span>推MIT的Mathematics for Computer Science</span><br>
+<span>这个感觉很不错，有英文字幕可以啃一下</span><br>
+</p><p><b>StaticAnalysis: </b><br>
+<span>DeepFishing 发表于 2020-3-17 20:41</span><br>
+<span>线性代数，矩阵，离散数学，找尽可能讲人话的国外教材看看，编程对数学要求没那么高</span><br>
+<span>—— 来自 Sony H8296 ...</span><br>
+<span>楼主高中数学不过关...</span><br>
+</p><p><b>lonely1eaf: </b><br>
+<span>一般的编程要的不是数学，要的是逻辑。不是学校学院派上来看数据结构算法也是百搭，直接先上手写就是了。</span><br>
+<span>能把if for 这些控制流搞清楚，能把想实现的业务画出流程图其实就能入门了。</span><br>
+<span>数据结构和算法可以一边写一边再学</span><br>
+</p><p><b>女神アイギス: </b><br>
+<span>小野賢章 发表于 2020-3-17 22:32</span><br>
+<span>学习数据结构与算法的话，有高中水平数列、排列组合、概率就差不多了。</span><br>
+<span>比较这四个函数的渐进时间复杂度， ...</span><br>
+<span>最终肯定是f2>f1>f4>f3吧，渐进我就不懂了</span><br>
+</p><p><b>女神アイギス: </b><br>
+<span>图形学，人工智能都要正经高数，其他都是逻辑推理能力更重要</span><br>
+</p><p><b>onezeron: </b><br>
+<span> 本帖最后由 onezeron 于 2020-3-18 10:01 编辑 </span><br>
+<span>你错了，是编程“精深”可能需要“数学”。 这有两个前提，第一个是你先到精深的层次。第二个是你的方向可能牵涉数学。</span><br>
+<span>而根据我对你帖子的了解。你应该是刚入门或者准备入门的级别，别想太多有的没的。算法这个东西现在基本有专人去做，跟你暂时没什么关系</span><br>
+<span>当然基本编程的话，离散里面的基本逻辑。就是思维思路还是要清楚的，你这个思路不清楚写代码可能会比较吃力</span><br>
+</p><p><b>mqm: </b><br>
+<span>学数据结构根本不用微积分线性代数，搞竞赛那帮人初中就能写图的最大流最小割</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>哆来咪: </b><br>
+<span>数算需要的数学……</span><br>
+<span>首先要会极限，而且没必要从ε-N定义开始，记住一些等阶无穷大、建立无穷大量比较的数感就行……不会也没有关系，和后面的东西相对是独立的</span><br>
+<span>然后要会矩阵（线代），虽然说线代比较苦，但是只是想整个邻接矩阵什么的还是不难的，数算里也用不到矩阵合同相似、二次型什么的，会加法乘法就完事了</span><br>
+<span>但往深了说的话，深度学习、数值分析、符号计算什么的都很依赖线代的基础（只是练个技能吃口饭的话用不到就是了）</span><br>
+<span>要认真做算法的话肯定还得学抽代还有组合数学方向的一些课程，但是这个“算法”和数算里的算法大概不是一回事了</span><br>
+<span>这些东西本身用不到高中数学的知识（不如说大学数学和之前的本来就是脱离的），所以不会也没啥。但是没有短时间内快速学完高中数学的思维能力的话，想快速上手也是不太现实的</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>发现需要什么再学什么吧</span><br>
+<span>不然就跟花大价钱买了钢琴 一会又不想学一样</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919393[0-50]</guid>
+    </item>
+  </channel>
+</rss>

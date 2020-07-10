@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】批处理批量替换文件名 Windows/Linux</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】批处理批量替换文件名 Windows/Linux</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:14:39 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】批处理批量替换文件名 Windows/Linux[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913504-1-1.html</link>
+      <description>【已解决】批处理批量替换文件名 Windows/Linux&#13;
+ 本帖最后由 faki998 于 2020-2-12 22:21 编辑 
+
+Update：楼下大佬给出了4个版本的答案，Windows Powershell/Windows batch/Linux shell/Python 泥潭NB！
+&#13;
+我找到了一个批处理脚本，可以删除当前目录下文件名中的“要删除的字符串”，但是我有很多个目录，如何修改脚本使它在当前目录和所有层级的子目录中完成这一功能？（另外有点想学批处理，有什么靠谱教程推荐吗？）超能力者大佬help！
+&#13;
+@echo off
+&#13;
+Setlocal Enabledelayedexpansion
+&#13;
+set "str=要删除的字符串"
+&#13;
+for /f "delims=" %%i in ('dir /b *.*') do (
+&#13;
+set "var=%%i" &amp; ren "%%i" "!var:%str%=!")
+&#13;
+&lt;div&gt;@echo off&lt;/div&gt;&lt;div&gt;Setlocal Enabledelayedexpansion&lt;/div&gt;&lt;div&gt;set "str=要删除的字符串"&lt;/div&gt;&lt;div&gt;for /f "delims=" %%i in ('dir /b *.*') do (&lt;/div&gt;&lt;div&gt;set "var=%%i" &amp; ren "%%i" "!var:%str%=!")&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p><b>faki998: </b><br>
+<span>【已解决】批处理批量替换文件名 Windows/Linux</span><br>
+<span> 本帖最后由 faki998 于 2020-2-12 22:21 编辑 </span><br>
+<span>Update：楼下大佬给出了4个版本的答案，Windows Powershell/Windows batch/Linux shell/Python 泥潭NB！</span><br>
+<span>我找到了一个批处理脚本，可以删除当前目录下文件名中的“要删除的字符串”，但是我有很多个目录，如何修改脚本使它在当前目录和所有层级的子目录中完成这一功能？（另外有点想学批处理，有什么靠谱教程推荐吗？）超能力者大佬help！</span><br>
+<span>@echo off</span><br>
+<span>Setlocal Enabledelayedexpansion</span><br>
+<span>set "str=要删除的字符串"</span><br>
+<span>for /f "delims=" %%i in ('dir /b *.*') do (</span><br>
+<span>set "var=%%i" & ren "%%i" "!var:%str%=!")</span><br>
+<span><div>@echo off</div><div>Setlocal Enabledelayedexpansion</div><div>set "str=要删除的字符串"</div><div>for /f "delims=" %%i in ('dir /b *.*') do (</div><div>set "var=%%i" & ren "%%i" "!var:%str%=!")</div></span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>不如去学python</span><br>
+</p><p><b>kumh: </b><br>
+<span>呼叫python侠</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>python的os.walk()</span><br>
+</p><p><b>xzh0001: </b><br>
+<span>for /r 这个命令是遍历所有子目录的包含本身</span><br>
+</p><p><b>faki998: </b><br>
+<span>xzh0001 发表于 2020-2-12 21:26</span><br>
+<span>for /r 这个命令是遍历所有子目录的包含本身</span><br>
+<span>把for /f 改成for /r /f 闪退。。。我在油-管上找到了一个batch教程，先学起来吧</span><br>
+</p><p><b>guava: </b><br>
+<span> 本帖最后由 guava 于 2020-2-12 21:41 编辑 </span><br>
+<span>编辑</span><br>
+</p><p><b>若闲: </b><br>
+<span> 本帖最后由 若闲 于 2020-2-12 21:46 编辑 </span><br>
+<span>@echo off </span><br>
+<span>set /p str1= 请输入要替换的文件(文件夹)名字符串（可替换空格）：</span><br>
+<span>set /p str2= 请输入替换后的文件(文件夹)名字符串（去除则直接回车）：</span><br>
+<span>echo.</span><br>
+<span>echo 正在修改文件(夹)名中，请稍候……</span><br>
+<span>for /f "delims=" %%a in ('dir /s /b ^|sort /+65535') do (</span><br>
+<span>if "%%~nxa" neq "%~nx0" (</span><br>
+<span>set "file=%%a"</span><br>
+<span>set "name=%%~na"</span><br>
+<span>set "extension=%%~xa"</span><br>
+<span>call set "name=%%name:%str1%=%str2%%%"</span><br>
+<span>setlocal enabledelayedexpansion</span><br>
+<span>ren "!file!" "!name!!extension!" 2>nul</span><br>
+<span>endlocal</span><br>
+<span>)</span><br>
+<span>)</span><br>
+<span>exit以前存的一个，你可以试试。不要问我原理，我不知道</span><br>
+</p><p><b>ustc: </b><br>
+<span>查找用grep替换用sed</span><br>
+<span>sed -i "s/原字符串/新字符串/g" `grep 原字符串 目录/ -rl`</span><br>
+<span>如果至于一层目录的话直接remane就可以了</span><br>
+</p><p><b>faki998: </b><br>
+<span>若闲 发表于 2020-2-12 21:44</span><br>
+<span>以前存的一个，你可以试试。不要问我原理，我不知道</span><br>
+<span>OMG，真的能用。。。</span><br>
+<span>泥潭也太强大了。。。</span><br>
+</p><p><b>旧游时节: </b><br>
+<span>如果不愿意装 Python，可以学 PowerShell。Win7 以上系统都自带的。</span><br>
+<span>批处理既不好学又不好写，功能也不强。微软基本已经不维护了。</span><br>
+<span>在 PowerShell 里，这一行就可以实现lz的需求。</span><br>
+<span>Get-ChildItem -Recurse | Rename-Item -NewName {$_.Name -replace '要删除的字符串',''}</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>，</span><br>
+<span> 本帖最后由 NarwhalC 于 2020-2-12 22:15 编辑 </span><br>
+<span>非超能力者为什么不学excel呢，之前自己写了个一键给视频按顺序重命名的。</span><br>
+<img src="https://i.loli.net/2020/02/12/Ldz8gHWnZBUbSVu.png" title="https://i.loli.net/2020/02/12/Ldz8gHWnZBUbSVu.png"><br>
+</p><p><b>若闲: </b><br>
+<span>faki998 发表于 2020-2-12 22:03</span><br>
+<span>OMG，真的能用。。。</span><br>
+<span>泥潭也太强大了。。。</span><br>
+<span>这东西我用了超级超级久，非常好用，几乎一切批量改名的需求都可以满足</span><br>
+</p><p><b>lucac: </b><br>
+<span>python -c "import os;d='C:\\test';s='要删的';"</span><br>
+</p><p><b>若闲: </b><br>
+<span>NarwhalC 发表于 2020-2-12 22:13</span><br>
+<span>非超能力者为什么不学excel呢，之前自己写了个一键给视频按顺序重命名的。</span><br>
+<span> ...</span><br>
+<span>vba超级好用，真心建议所有人都学一学</span><br>
+<span>但有一说一，在改名这件事上，合并个单元格然后加个ren就够了</span><br>
+</p><p><b>月森葉子: </b><br>
+<span>这时候就要推广一下fish shell了。手写脚本自动高亮：</span><br>
+<img src="https://i.imgur.com/Ue7SQLS.jpg" title="https://i.imgur.com/Ue7SQLS.jpg"><br>
+</p><p><b>有口皆悲: </b><br>
+<span>totalcommander可以把文件批量重命名问题转化为文本替换问题。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>batch那语法你看了不会想吐吗？</span><br>
+</p><p><b>vievieyu: </b><br>
+<span> 本帖最后由 vievieyu 于 2020-2-12 23:28 编辑 </span><br>
+<span>STR=要删的; find . -name "*${STR}*" -exec bash -c 'mv $1 $(dirname $1)/$(echo $(basename $1)|sed "s/$0//g")' $STR '{}' \;</span><br>
+</p><p><b>overmindoyj: </b><br>
+<span>windows下totalcommander就行了，君子善假于物也</span><br>
+</p><p><b>ceekay: </b><br>
+<span>其实这东西已经有一些小软件是集成了，就是要会员罢了 </span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>NarwhalC 发表于 2020-2-12 22:13</span><br>
+<span>非超能力者为什么不学excel呢，之前自己写了个一键给视频按顺序重命名的。</span><br>
+<span> ...</span><br>
+<span>怎么学?</span><br>
+<span>有什么资料吗?</span><br>
+<span> excel一个做表格的居然还可以操作文件名?</span><br>
+<span>真的不知道;...</span><br>
+<span>没有资料的话能把这个发给我吗?</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>lwa190212 发表于 2020-2-12 23:15</span><br>
+<span>batch那语法你看了不会想吐吗？</span><br>
+<span>还行吧</span><br>
+<span>我们那年c语言课还有让我们写正则表达式的</span><br>
+</p><p><b>糊状物: </b><br>
+<span>不推荐用python，遇到文件/文件夹权限不足时还得多写几句处理一下。</span><br>
+<span>而且用python处理的话用pathlib模块更简便吧。</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>TC的重命名支持正则。 python熟练的话也挺好用的（</span><br>
+</p><p><b>数据库停止响应: </b><br>
+<span>链接：https://pan.baidu.com/s/1c2QYK1PT4dbbvHWby0ls9A </span><br>
+<span>提取码：h256</span><br>
+<span>批量改名我用的是这个</span><br>
+</p><p><b>chen_null: </b><br>
+<span>python3 -c "from pathlib import Path; from re import sub; (lambda p, target, replace: )(Path('F:/替换目录'), '被替换字符串', '替换的字符串')"</span><br>
+<span>补个使用 pathlib 的 python 代码。如果有文件权限问题，那就提高解释器的运行权限呗</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>泉玲奈 发表于 2020-2-14 17:18</span><br>
+<span>怎么学?</span><br>
+<span>有什么资料吗?</span><br>
+<span> excel一个做表格的居然还可以操作文件名?</span><br>
+<span>我最佩服Office三件套的就是这个鬼东西内置了一个真的能直接用的IDE，叫visual basic for applications（默认是没开的，在顶部菜单-文件-选项-自定义功能区-主选项卡-开发工具 那里勾上之后就能打开了）。python能做的这个鬼东西基本上都能做，从文件处理到网络爬虫都能搞，因为录制宏这个神奇功能的关系，打开excel更新数据之后点一下自动生成word报表什么的它比其他的语言有优势，甚至不要你懂很多。界面什么的在表里直接放按钮控件就OK，看起来很挫但是很直观</span><br>
+<span>项目在这里，做的不是很好，实现功能自己爽到之后就没继续往下优化了，有需要可以自己再加</span><br>
+<span>https://github.com/ConstantineNo/Modify-the-file-name-BY-Excel/tree/master</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>NarwhalC 发表于 2020-2-15 15:11</span><br>
+<span>我最佩服Office三件套的就是这个鬼东西内置了一个真的能直接用的IDE，叫visual basic for applications（ ...</span><br>
+<span>这..........真是没想到...</span><br>
+</p><p><b>sekitomokazu: </b><br>
+<span>mark一下，之前也搞过类似的事情。win下for语法真的恶心，不过功能还不错</span><br>
+</p><p><b>两个路人: </b><br>
+<span>泉玲奈 发表于 2020-2-14 17:18</span><br>
+<span>怎么学?</span><br>
+<span>有什么资料吗?</span><br>
+<span> excel一个做表格的居然还可以操作文件名?</span><br>
+<span>其实就是VB语言，大学计算机课程那个VB6你们没体验过？</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span> 本帖最后由 泉玲奈 于 2020-2-15 17:02 编辑 </span><br>
+<span>两个路人 发表于 2020-2-15 16:59</span><br>
+<span>其实就是VB语言，大学计算机课程那个VB6你们没体验过？</span><br>
+<span>我在中学的时候自学过VB觉得很好用</span><br>
+<span>有个界面,嗯,觉得是在做现代程序</span><br>
+<span>大学学的C,感觉就是黑乎乎的,怕是在做dos时代的玩意,简直在开历史倒车.........</span><br>
+<span>不过这两者都没有学过文件名操作.........应该是学的比较浅薄</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>不是</span><br>
+<span>你们都不考虑过重命名之后的文件名已经存在时的操作逻辑吗</span><br>
+<span>或者虽然改完名后不存在相同文件名，但改的过程中会出现，比如：</span><br>
+<span>A->B</span><br>
+<span>B->C</span><br>
+<span>这样的，要不要对改名的顺序进行自动排序</span><br>
+<span>又或者是检测到改完以后会出现文件名互换的，是不是得取一个临时名</span><br>
+<span>A->B</span><br>
+<span>B->A</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913504[0-50]</guid>
+    </item>
+  </channel>
+</rss>

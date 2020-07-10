@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【概率】推书，顺便来一道概率题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【概率】推书，顺便来一道概率题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:00:10 +0000</lastBuildDate>
+    <item>
+      <title>【概率】推书，顺便来一道概率题[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846944-1-1.html</link>
+      <description>【概率】推书，顺便来一道概率题&#13;
+随机性 —（美）黛博拉·J·本内特著上次坛里1/2和2/3大战时候买的，结果现在才抽空看了。挺有趣的一本书，内容不是很深很数学，更多是介绍人类认识概率的历史，可以深刻体会到随机性的反直觉魅力为什么能让人争得面红耳赤。
+&#13;
+献上一道书开头的概率题：
+&#13;
+有一种疾病的发病率为千分之一，而医院对这种疾病做的检测方法有5%的假阳性率（误确诊）。如果你去医院做检测，检测结果为阳性，请问你确实患上病的可能性是多大呢？</description>
+      <content:encoded><![CDATA[<p><b>martinium: </b><br>
+<span> 本帖最后由 martinium 于 2019-7-16 09:49 编辑 </span><br>
+<span>03e7 发表于 2019-7-16 07:44</span><br>
+<span>1/1000是大街上隨便挑一個人的發病率率，題目問的是已經檢測陽性的發病幾率，這1/1000根本是干擾項 ...</span><br>
+<span>大街上随便选人，没诊断是千分之一，诊断后提高到百分之一级别。这么想就很符合常理了。再换个说法就是通过诊断，你患病的概率比其他人高了十几倍。</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>vb234: </b><br>
+<span>希瓦的守护 发表于 2019-7-16 09:27</span><br>
+<span>楼上那些说这道题不配发到论坛上来做的人敢把计算结果发出来吗？？？</span><br>
+<span>眼高手低，指指 ...</span><br>
+<span>楼主改题目了，变成百分之五得到相反的结果了，看来原题的意思是希望我们得到1.87%的</span><br>
+</p><p><b>03e7: </b><br>
+<span> 本帖最后由 03e7 于 2019-7-16 10:13 编辑 </span><br>
+<span>mumu551920 发表于 2019-7-16 09:43</span><br>
+<span>我最喜欢看这种傻逼优越感十足的给了一个错误答案。</span><br>
+<span>得病率在已经诊断出结果的前提下根本无意义。泥潭傻逼 ...</span><br>
+<span>假陽性率=</span><br>
+<span>1.正常人被檢測出陽性的幾率</span><br>
+<span>2.檢測出陽性的人群里正常人的幾率</span><br>
+<span>1的話1/1000有意義，2的話沒意義。</span><br>
+<span>前面我理解錯誤以為是2，我承認。不過這種醫學專業術語不應該解釋一下嗎</span><br>
+<span>按1的話就是48樓的0.0196</span><br>
+</p><p><b>白藏主: </b><br>
+<span>真田源次郎信繁 发表于 2019-7-15 22:41</span><br>
+<span>我看了半天这电子书…………</span><br>
+<span>为什么这样的书都能成科普译丛………………这内容不是给文盲看的吗</span><br>
+<span>因为这书是2001年出版的，18年前的标准扫盲读物......</span><br>
+</p><p><b>我靠不是吧: </b><br>
+<span>mumu551920 发表于 2019-7-16 09:43</span><br>
+<span>我最喜欢看这种傻逼优越感十足的给了一个错误答案。</span><br>
+<span>得病率在已经诊断出结果的前提下根本无意义。泥潭傻逼 ...</span><br>
+<span>一路看下来，这楼里最自以为是的煞笔非你莫属</span><br>
+</p><p><b>03e7: </b><br>
+<span> 本帖最后由 03e7 于 2019-7-16 10:11 编辑 </span><br>
+<span>vb234 发表于 2019-7-16 09:51</span><br>
+<span>楼主改题目了，变成百分之五得到相反的结果了，看来原题的意思是希望我们得到1.87%的 ...</span><br>
+<span>誤診率也沒說是正常人被誤診的幾率還是診斷有病里正常人被誤診的幾率，一樣是要做題者自己百度的專業術語</span><br>
+<span>而且5%相反結果就是包含假陰性了吧，整個題目都不一樣了</span><br>
+</p><p><b>Tackstone: </b><br>
+<span>索尔之怒 发表于 2019-7-15 23:43</span><br>
+<span>P(C|A) = 0.95</span><br>
+<span>这条我反对，应当是P(B|C) = 0.05</span><br>
+<span>且不说理由，你真的相信医院准确率只有1.87%吗 ...</span><br>
+<span>你以为为什么医院里查艾滋总是让你查很多遍。</span><br>
+</p><p><b>Tackstone: </b><br>
+<span>03e7 发表于 2019-7-16 10:10</span><br>
+<span>誤診率也沒說是正常人被誤診的幾率還是診斷有病里正常人被誤診的幾率，一樣是要做題者自己百度的專業術語</span><br>
+<span> ...</span><br>
+<span>差不太多，一个0.019，一个0.020</span><br>
+</p><p><b>希瓦的守护: </b><br>
+<span>vb234 发表于 2019-7-16 09:51</span><br>
+<span>楼主改题目了，变成百分之五得到相反的结果了，看来原题的意思是希望我们得到1.87%的 ...</span><br>
+<span>我是题目改了之后看到帖子的，不好意思</span><br>
+</p><p><b>eva02eva02: </b><br>
+<span>还是1000分之1啊</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>blueshift 发表于 2019-7-15 23:56</span><br>
+<span>如果我说这个检测手段的准确率precision是95%，也就是凡是检测出来的就有95%是对的。这还不够算条件概率， ...</span><br>
+<span>讲道理，本题不要求精确解的话，漏诊率可以无视。</span><br>
+</p><p><b>寻找无双: </b><br>
+<span>hunterkiller 发表于 2019-7-15 23:07</span><br>
+<span>概率论古典概型以外的一道典型题：</span><br>
+<span>在0~1之间随机取5个实数（平均分布），从大到小排列，求第3个数在0.4~0 ...</span><br>
+<span>？</span><br>
+</p><p><b>viennafray: </b><br>
+<span>说个题外话，特异性和灵敏度都是95%的检测方法在医院里一般不可能作为确诊的依据，就比如肿瘤标志物的血清学检测，一般只做预后和筛查用。医生不会因为你CEA/AFP/CA50这种指标常年偏高就给你确诊个癌症出来的。。想起以前一个同事体格非常好但是常年CEA突破天际，以致于他（的血）都被用来做公司产品的质控了</span><br>
+</p><p><b>箭猪: </b><br>
+<span>问</span><br>
+<span>人群中，流动资产超过100万的人，可称为小康，大概是10%的比例</span><br>
+<span>现在你有100万流动资产，请问你被称为小康的几率是多少？</span><br>
+<span>这样？</span><br>
+</p><p><b>碧池: </b><br>
+<span>假阳性=误诊率的话就是 1.87%啊</span><br>
+</p><p><b>蛇头: </b><br>
+<span>讲真，你们讨论大部分的概率问题都是看贝叶斯定律的维基百科10分钟内就能学会的…为啥还能反复讨论啊…</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>浆糊居士: </b><br>
+<span>寻找无双 发表于 2019-7-16 11:04</span><br>
+<span>？</span><br>
+<span>把0.2换成30就对了，所以答案是0.36512，你这0到1积分起来明显没有1</span><br>
+</p><p><b>tetie: </b><br>
+<span>假设10w人参与了检查，千分之一患病，那么有100人是有病的，99900人无病，100人中95人阳性，5人检测为阴性，99900人中4995人被检测为阳性，其他阴性，所以检测为阳性的一共有4995加95等于5090，其中95为有病，概率95/5090</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>寻找无双: </b><br>
+<span>浆糊居士 发表于 2019-7-16 11:55</span><br>
+<span>把0.2换成30就对了，所以答案是0.36512，你这0到1积分起来明显没有1</span><br>
+<span>原来如此</span><br>
+</p><p><b>我是大鲨鱼: </b><br>
+<span>yigua 发表于 2019-7-16 08:10</span><br>
+<span>无脑贝叶斯公式啦</span><br>
+<span>这道题答案是1.87%楼里很多人都对了。之所以答案反直觉是因为假阳性概率是发病率的50倍。 ...</span><br>
+<span>受教了！按照你的提示再回头思考了一遍题目，真是有豁然开朗的感觉。反直觉之说，名不虚传。</span><br>
+</p><p><b>华想梦葛: </b><br>
+<span>在医院确诊过的病例，只要满足人群发病率够低，检验方法有误诊率，就能把患病的可能性从接近百分之一百降低到百分之一</span><br>
+<span>流行病学宣告破产</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>yigua: </b><br>
+<span>我是大鲨鱼 发表于 2019-7-16 13:54</span><br>
+<span>受教了！按照你的提示再回头思考了一遍题目，真是有豁然开朗的感觉。反直觉之说，名不虚传。 ...</span><br>
+<span>我搞错了一件事情。顶楼这道题目的数据，即使两次检测为阳性，确诊概率也才26.5%。</span><br>
+<span>要连续四次检测并且都为阳性，才能保证确诊概率为99.2%</span><br>
+</p><p><b>fore_long: </b><br>
+<span>真田源次郎信繁 发表于 2019-7-15 22:41</span><br>
+<span>我看了半天这电子书…………</span><br>
+<span>为什么这样的书都能成科普译丛………………这内容不是给文盲看的吗</span><br>
+<span>你是在哪里找到的电子版……用了鸠摩，百度条件搜索，百度云，libgen 都没有⊙﹏⊙</span><br>
+</p><p><b>jpcl: </b><br>
+<span>贝叶斯死不瞑目</span><br>
+</p><p><b>呂布: </b><br>
+<span>1/1000的患病率：</span><br>
+<span>假定一共有20000个人，</span><br>
+<span>这样总计有：</span><br>
+<span>20个病人</span><br>
+<span>19980个健康人。</span><br>
+<span>5%误诊，诊断结果：</span><br>
+<span>实际病人中：</span><br>
+<span>19个诊断病人</span><br>
+<span>1个诊断“健康人”</span><br>
+<span>实际健康人中：</span><br>
+<span>999个诊断“病人”</span><br>
+<span>18981个诊断健康人</span><br>
+<span>所以总计诊断后病人总数为：1018人，1018人中实际病人总数为：19人</span><br>
+<span>所以，确诊率为：1.87%</span><br>
+</p><p><b>呂布: </b><br>
+<span>希瓦的守护 发表于 2019-7-16 09:27</span><br>
+<span>楼上那些说这道题不配发到论坛上来做的人敢把计算结果发出来吗？？？</span><br>
+<span>眼高手低，指指 ...</span><br>
+<span>你在嘲笑别人智商不够的时候，自己做的简单数学题也做错了</span><br>
+</p><p><b>dempacat: </b><br>
+<span>人均985潭难道都没看过浙大的数理统计吗，还是说用书比较高端国内的课本看不上呢……没记错的话是第一章的例题吧。</span><br>
+</p><p><b>昆汀: </b><br>
+<span>不就有病正确诊断+没病误诊两种么简单的懒得算</span><br>
+</p><p><b>ΣPRC: </b><br>
+<span> 本帖最后由 ΣPRC 于 2019-7-26 19:25 编辑 </span><br>
+<span>其實原因很简单</span><br>
+<span>對于一个发病率只有千分之一的疾病来说，5%这个误诊率太高了，至少要降到0.1%以下甚至0.01以下才能算是有用。如果误诊率达到0.01%，大约能保证诊出有病的人里面90%确實有病，可以用于初步筛查。</span><br>
+<span>0.1%的话，诊出有病的人里只有大约一般有病。</span><br>
+<span>换个说法，误诊率至少得比患病率低一个数量级才行</span><br>
+</p><p><b>memory020: </b><br>
+<span>典型概率论题，阳性，假阳性，阴性，假阴性</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846944[50-100]</guid>
+    </item>
+    <item>
+      <title>【概率】推书，顺便来一道概率题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846944-1-1.html</link>
+      <description>【概率】推书，顺便来一道概率题&#13;
+随机性 —（美）黛博拉·J·本内特著上次坛里1/2和2/3大战时候买的，结果现在才抽空看了。挺有趣的一本书，内容不是很深很数学，更多是介绍人类认识概率的历史，可以深刻体会到随机性的反直觉魅力为什么能让人争得面红耳赤。
+&#13;
+献上一道书开头的概率题：
+&#13;
+有一种疾病的发病率为千分之一，而医院对这种疾病做的检测方法有5%的假阳性率（误确诊）。如果你去医院做检测，检测结果为阳性，请问你确实患上病的可能性是多大呢？</description>
+      <content:encoded><![CDATA[<p><b>rp1993: </b><br>
+<span>【概率】推书，顺便来一道概率题</span><br>
+<span>随机性 —（美）黛博拉·J·本内特著上次坛里1/2和2/3大战时候买的，结果现在才抽空看了。挺有趣的一本书，内容不是很深很数学，更多是介绍人类认识概率的历史，可以深刻体会到随机性的反直觉魅力为什么能让人争得面红耳赤。</span><br>
+<span>献上一道书开头的概率题：</span><br>
+<span>有一种疾病的发病率为千分之一，而医院对这种疾病做的检测方法有5%的假阳性率（误确诊）。如果你去医院做检测，检测结果为阳性，请问你确实患上病的可能性是多大呢？</span><br>
+</p><p><b>startraveller: </b><br>
+<span>为什么老想讨论一些大一概率课前三节课讲的例题</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>这题的答案太过单一只是稍微有点反直觉，以至于不会概率的人根本没法参与进来吵，没啥意思，不如三门</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>footmanpon: </b><br>
+<span>startraveller 发表于 2019-7-15 22:20</span><br>
+<span> 为什么老想讨论一些大一概率课前三节课讲的例题</span><br>
+<span>居信普通网民越有80%只有中学文凭</span><br>
+</p><p><b>我真的很變態: </b><br>
+<span>5%的假阳性率</span><br>
+<span>这个假阳性率怎么定义？</span><br>
+<span>是5%的正常人被测出了阳性还是测出的阳性人群中有5%是误判</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>我看了半天这电子书…………</span><br>
+<span>为什么这样的书都能成科普译丛………………这内容不是给文盲看的吗</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>我真的很變態 发表于 2019-7-15 22:33</span><br>
+<span>5%的假阳性率</span><br>
+<span>这个假阳性率怎么定义？</span><br>
+<span>是5%的正常人被测出了阳性还是测出的阳性人群中有5%是误判 ...</span><br>
+<span>后者</span><br>
+<span>我觉得既然你能理解成前者，说明这书还是有必要的</span><br>
+<span>0.95一票</span><br>
+</p><p><b>莫里斯: </b><br>
+<span>换层皮</span><br>
+<span>中头奖概率千分之一</span><br>
+<span>纪念奖5%</span><br>
+<span>中奖的人里多大概率是头奖</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>古典概型就是排列组合穷举，理解不了的人智商就不适合上大学。</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>莫里斯 发表于 2019-7-15 22:48</span><br>
+<span>换层皮</span><br>
+<span>中头奖概率千分之一</span><br>
+<span>纪念奖5%</span><br>
+<span>提醒下</span><br>
+<span>这跟楼主的题完全不是一回事</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>概率论古典概型以外的一道典型题：</span><br>
+<span>在0~1之间随机取5个实数（平均分布），从大到小排列，求第3个数在0.4~0.6之间的概率。</span><br>
+</p><p><b>zoomine: </b><br>
+<span>1/50.95</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>A：染病。B：不染病。C：检测出阳性。</span><br>
+<span>要计算的是P(A|C)</span><br>
+<span>P(A|C)=P(C|A)xP(A)/P(C)。</span><br>
+<span>而已知P(C|A) = 0.95，P(A) = 0.001，只需要计算P(C)</span><br>
+<span>P(C) = P(A)xP(C|A) + P(B)xP(C|B) = 0.001 * 0.95 + 0.999 * 0.05 = 0.0509</span><br>
+<span>P(A|C)=0.95 * 0.001 / 0.0509 = 1.87%</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>索尔之怒 发表于 2019-7-15 22:47</span><br>
+<span>后者</span><br>
+<span>我觉得既然你能理解成前者，说明这书还是有必要的</span><br>
+<span>0.95一票</span><br>
+<span>你忘了题目第一句前半句了</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>乙酸乙酯 发表于 2019-7-15 23:40</span><br>
+<span>你忘了题目第一句前半句了</span><br>
+<span>没忘</span><br>
+<span>来吧，战吧</span><br>
+</p><p><b>blueshift: </b><br>
+<span>Lunamos 发表于 2019-7-15 23:38</span><br>
+<span>A：染病。B：不染病。C：检测出阳性。</span><br>
+<span>要计算的是P(A|C)</span><br>
+<span>P(A|C)=P(C|A)xP(A)/P(C)。</span><br>
+<span>提醒一下precision不是recall</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span> 本帖最后由 索尔之怒 于 2019-7-15 23:53 编辑 </span><br>
+<span>Lunamos 发表于 2019-7-15 23:38</span><br>
+<span>A：染病。B：不染病。C：检测出阳性。</span><br>
+<span>要计算的是P(A|C)</span><br>
+<span>P(A|C)=P(C|A)xP(A)/P(C)。</span><br>
+<span>P(C|A) = 0.95</span><br>
+<span>这条我反对，应当是P(B|C) = 0.05</span><br>
+<span>且不说理由，你真的相信医院准确率只有1.87%吗</span><br>
+</p><p><b>炎の妖精: </b><br>
+<span> 本帖最后由 炎の妖精 于 2019-7-15 23:51 编辑 </span><br>
+<span>0.95/1000/（0.95/1000+0.05*999/1000）=0.95/50.9≈0.0187</span><br>
+<span>发病率是1‰误诊率是5%，设有1000人其中病人1人正常人999人。病人1人阳性1*0.95=0.95人，正常999人阳性999*0.05=49.5人，0.95/（0.95+49.5）即得解。</span><br>
+<span>本质上这个题也是一个先验概率，所谓的反直觉也只是对于先验概率1‰没有重视造成的错误。</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>hunterkiller 发表于 2019-7-15 23:07</span><br>
+<span>概率论古典概型以外的一道典型题：</span><br>
+<span>在0~1之间随机取5个实数（平均分布），从大到小排列，求第3个数在0.4~0 ...</span><br>
+<span>0.68256^2=0.4658881536‬</span><br>
+<span>求对答案</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>索尔之怒 发表于 2019-7-16 00:43</span><br>
+<span>P(C|A) = 0.95</span><br>
+<span>这条我反对，应当是P(A|C) = 0.95</span><br>
+<span>且不说理由，你真的相信医院准确率只有1.87%吗 ...</span><br>
+<span>那就是假阳性率的定义不一样。</span><br>
+<span>我觉得误诊既可能有病告诉你没病，也可能没病告诉你有病。</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>Lunamos 发表于 2019-7-15 23:49</span><br>
+<span>那就是假阳性率的定义不一样。</span><br>
+<span>我觉得误诊既可能有病告诉你没病，也可能没病告诉你有病。 ...</span><br>
+<span>我把B打成A了，你看下</span><br>
+<span>这里挺明白了，“误确诊”，没病的看成有病了</span><br>
+<span>当然说不定是楼主打错字了，不然这题够智障的</span><br>
+</p><p><b>-orib: </b><br>
+<span> 本帖最后由 -orib 于 2019-7-16 00:04 编辑 </span><br>
+<span>假阳性率：得到了阳性结果，但这个阳性结果是假的。即在金标准判断无病（阴性）人群中，检测出为阳性的几率。（没病，但却检测结果说有病），为误诊率。</span><br>
+<span>这么说应该是P(C|B)=0.05才对吧?那这题又没说这个方法在确实有病的人群里的敏感度如何, 即P(C|A)根本不知道, 那恐怕不会有准确答案吧?</span><br>
+<span>真要往大了说, P(C|A)=1, 那</span><br>
+<span>P(C)=P(A)*P(C|A)+P(B)*P(C|B)=0.001*1+0.999*0.05=0.05095</span><br>
+<span>P(A|C)=P(C|A)*P(A)/P(C)=0.001/0.5095=0.019627...</span><br>
+<span>就是楼上一个老哥的1/50.95</span><br>
+<span>这是最大得病概率了</span><br>
+</p><p><b>blueshift: </b><br>
+<span>如果我说这个检测手段的准确率precision是95%，也就是凡是检测出来的就有95%是对的。这还不够算条件概率，你得补上另一半信息。比如这个检测手段的探测率recall只有20%，也就是在所有得病的人里用这个检测手段只有20%可能性是会报阳性，其他80%情况下会报阴性。</span><br>
+<span>把这两个事都凑齐了这题才能严谨得算，不然你们在这算的都不知道是些什么数字。</span><br>
+</p><p><b>乙酸乙酯: </b><br>
+<span>索尔之怒 发表于 2019-7-15 23:41</span><br>
+<span>没忘</span><br>
+<span>来吧，战吧</span><br>
+<span>呣，又成了语文(医学术语)问题了</span><br>
+</p><p><b>炎の妖精: </b><br>
+<span>回头看了一下我也觉得这题目有问题，只给了真阳性率没给真阴性率。我算的时候默认两者相等了。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>blueshift 发表于 2019-7-16 00:56</span><br>
+<span>如果我说这个检测手段的准确率precision是95%，也就是凡是检测出来的就有95%是对的。这还不够算条件概率， ...</span><br>
+<span>我理解就是准确率95%（误诊率5%）。如果只有假正（不存在假负），那也就是P(C|A)=1，结果相差不大，也是小于2%。</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>blueshift 发表于 2019-7-15 23:56</span><br>
+<span>如果我说这个检测手段的准确率precision是95%，也就是凡是检测出来的就有95%是对的。这还不够算条件概率， ...</span><br>
+<span>你跟20L一样</span><br>
+<span>提醒下，precision的反面是误诊率，和楼主这个假阳性率不是一回事</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>这种高中概率题目真别拿出来说了...</span><br>
+</p><p><b>blueshift: </b><br>
+<span>索尔之怒 发表于 2019-7-16 00:05</span><br>
+<span>你跟20L一样</span><br>
+<span>提醒下，precision的反面是误诊率，和楼主这个假阳性率不是一回事 ...</span><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png" title="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/525px-Precisionrecall.svg.png"><br>
+<span>你说啥？？</span><br>
+</p><p><b>夏胧: </b><br>
+<span>startraveller 发表于 2019-7-15 22:20</span><br>
+<span>为什么老想讨论一些大一概率课前三节课讲的例题</span><br>
+<span>还真别说，只考概率论与数理统计第一章，社会上也不见到有太多及格的</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>jxwats1: </b><br>
+<span>上网多年的一个教训就是别指望大家能理解条件概率</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span> 本帖最后由 索尔之怒 于 2019-7-16 00:47 编辑 </span><br>
+<span>blueshift 发表于 2019-7-16 00:32</span><br>
+<span>你说啥？？</span><br>
+<span>我说false positive rate≠1-precision</span><br>
+<span>补一句，false positive rate=false positive/(false positive+true negative)</span><br>
+<span>1-precision=false positive/(false positive+true positive)</span><br>
+</p><p><b>田多宇光: </b><br>
+<span> 本帖最后由 田多宇光 于 2019-7-16 01:27 编辑 </span><br>
+<span>不如来点有意思的题目。1.0到1亿的的随机数，十进制字符串是回文数的概率？</span><br>
+<span>2.将满足题1条件的回文数打乱顺序，仍然是回文数的概率？</span><br>
+<span>3.将满足题1条件的回文数打乱顺序，最大回文子串长度为5的概率？</span><br>
+<span>4.满足题1条件的回文数，是质数的概率？</span><br>
+<span>5.满足题1条件的回文数打乱顺序后，最大回文子串是质数的概率？</span><br>
+</p><p><b>莫里斯: </b><br>
+<span>我上面换皮得出来的就这个结果</span><br>
+<span>有人同时中头等和纪念的情况1/50</span><br>
+<span>中头等的没中纪念时1/51</span><br>
+<span>下面情况发生的概率是95%然后一乘</span><br>
+<span>就是1/50.95</span><br>
+</p><p><b>脑洞: </b><br>
+<span>如果真有的话，有概率出成阴吗？概率是多少呢？</span><br>
+</p><p><b>wszweill: </b><br>
+<span>Lunamos 发表于 2019-7-15 10:38</span><br>
+<span>A：染病。B：不染病。C：检测出阳性。</span><br>
+<span>要计算的是P(A|C)</span><br>
+<span>P(A|C)=P(C|A)xP(A)/P(C)。</span><br>
+<span>假阳性概率 = 没病 | 检测有病 = 非C|A。所以答案就是95%。P（C|A）是染病的人多少检测为阳性，1-P(C|A)是染病的人检测为阴性的概率，显然是II类错误</span><br>
+</p><p><b>blueshift: </b><br>
+<span> 本帖最后由 blueshift 于 2019-7-16 04:17 编辑 </span><br>
+<span>索尔之怒 发表于 2019-7-16 00:43</span><br>
+<span>我说false positive rate≠1-precision</span><br>
+<span>补一句，false positive rate=false positive/(false positive+tr ...</span><br>
+<span>明白了，统计检定的fp原来是这么个说法。</span><br>
+</p><p><b>李恭暔: </b><br>
+<span>startraveller 发表于 2019-7-15 22:20</span><br>
+<span>为什么老想讨论一些大一概率课前三节课讲的例题</span><br>
+<span>因为并非所有S1er都是理工男</span><br>
+<span>文史类同学觉得很有趣就让他们发出来娱乐一下呗</span><br>
+</p><p><b>米缸: </b><br>
+<span>这不是贝叶斯估计么？</span><br>
+<span>—— 来自 Google Pixel XL, Android 9上的 S1Next-鹅版 v2.1.0</span><br>
+</p><p><b>呆鹅: </b><br>
+<span> 本帖最后由 呆鹅 于 2019-7-16 07:57 编辑 </span><br>
+<span>这题只知道precision=0.95, 没有交代recall是多少。0.001是prior。假设precision=recall，则条件概率为</span><br>
+<span>0.001*0.95/(0.001*0.95 + 0.999*.05) = 1.866%。</span><br>
+</p><p><b>03e7: </b><br>
+<span>1/1000是大街上隨便挑一個人的發病率率，題目問的是已經檢測陽性的發病幾率，這1/1000根本是干擾項</span><br>
+</p><p><b>03e7: </b><br>
+<span>Lunamos 发表于 2019-7-15 23:49</span><br>
+<span>那就是假阳性率的定义不一样。</span><br>
+<span>我觉得误诊既可能有病告诉你没病，也可能没病告诉你有病。 ...</span><br>
+<span>假陽性就是沒病告訴你有病，沒有其他定義</span><br>
+<span>有病告訴你沒病那叫假陰性</span><br>
+</p><p><b>03e7: </b><br>
+<span> 本帖最后由 03e7 于 2019-7-16 08:06 编辑 </span><br>
+<span>炎の妖精 发表于 2019-7-16 00:02</span><br>
+<span>回头看了一下我也觉得这题目有问题，只给了真阳性率没给真阴性率。我算的时候默认两者相等了。 ...</span><br>
+<span>沒給出的條件不應該是默認100%么，何況已經查出陽性了為什麼還要考慮假陰性</span><br>
+</p><p><b>起飞: </b><br>
+<span> 本帖最后由 起飞 于 2019-7-16 08:13 编辑 </span><br>
+<span>前面的概率根本无关啊。</span><br>
+<span>换个例子，比如说一种血型，哪怕一亿分之一的概率，只要检测的正确率为95%，那测出为阳性后，该血型可能性也是95%。</span><br>
+<span>仔细看了下，不对，主楼提到的是假阳性误诊率。那就要分情况了。是测出来的阳性结果有5%误诊率，还是所有检测结果有5%误诊率？两者的完全不同的。</span><br>
+</p><p><b>yigua: </b><br>
+<span>无脑贝叶斯公式啦</span><br>
+<span>这道题答案是1.87%楼里很多人都对了。之所以答案反直觉是因为假阳性概率是发病率的50倍。要想提高正确率再做一次检测就行了。如果第二次仍然是阳性那么确诊概率会提高到95%以上</span><br>
+<span>所以医院里某些检查总是两遍的</span><br>
+</p><p><b>yigua: </b><br>
+<span>起飞 发表于 2019-7-16 08:09</span><br>
+<span>前面的概率根本无关啊。</span><br>
+<span>换个例子，比如说一种血型，哪怕一亿分之一的概率，只要检测的正确率为95%，那测 ...</span><br>
+<span>不对，以你的数据来说第一遍阳性的错误率实在很高。做两遍检测就好。</span><br>
+</p><p><b>yiiy1254: </b><br>
+<span>真田源次郎信繁 发表于 2019-7-15 22:41</span><br>
+<span>我看了半天这电子书…………</span><br>
+<span>为什么这样的书都能成科普译丛………………这内容不是给文盲看的吗</span><br>
+<span>考虑的美国人民的快乐教育，嗯。。。</span><br>
+</p><p><b>希瓦的守护: </b><br>
+<span>楼上那些说这道题不配发到论坛上来做的人敢把计算结果发出来吗？？？</span><br>
+<span>眼高手低，指指点点内行，真抓实干外行，下笔如有千言，胸中实无点墨，说的大概就是这种人吧</span><br>
+<span>1.87%有误</span><br>
+<span>原因：实际得病概率0.001，医院检验正确率100%，因为得病的情况下误确诊（注意描述是假阳性）结果也是得病了，不影响，总概率0.001，这种情况下是确实得病</span><br>
+<span>         无病概率0.999，误确诊概率0.05，总概率0.999*0.05</span><br>
+<span>          一个人被诊断得病的概率0.001+0.999*0.05=0.05095</span><br>
+<span>         确实得病的概率0.001/0.05095= 1.96%</span><br>
+<span>那些纠结语文的，纠结医学用语的，估计智商确实不够吧，从上高中的时候概率题能难倒多少人就知道了</span><br>
+</p><p><b>希瓦的守护: </b><br>
+<span>虽然这道题可能对误确诊没有解释清楚，导致一些理解偏差，不过无论是字面意思还是生活经历，都应该能知道误确诊=无病的人被诊断出有病/无病的人总数</span><br>
+<span>前面有人也提到过，这是道贝叶斯定理的概率题，有人可能就要说了没学过贝叶斯定理，抛开贝叶斯不管，这道再清楚不过的条件概率问题高中水平都应该能解决，建议前面几楼指指点点的好好学学高中数学，毕竟高考/工作的时候是要看结果的，看真才实学的</span><br>
+<span>有一点45楼有提到过，就是一次诊断能确诊得病的概率是很低的，所以医院对一些常规项目都要进行两次诊断，两次会诊结果都是得病，那么确实得病的概率是非常置信的，这算是这道题对生活的指导吧</span><br>
+</p><p><b>mumu551920: </b><br>
+<span>我最喜欢看这种傻逼优越感十足的给了一个错误答案。</span><br>
+<span>得病率在已经诊断出结果的前提下根本无意义。泥潭傻逼率1%，已确认你为傻逼，所以你是傻逼的概率是多少</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846944[0-50]</guid>
+    </item>
+  </channel>
+</rss>

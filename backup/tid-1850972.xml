@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>下载速度快的时候系统很卡是什么原因？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>下载速度快的时候系统很卡是什么原因？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:34:55 +0000</lastBuildDate>
+    <item>
+      <title>下载速度快的时候系统很卡是什么原因？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850972-1-1.html</link>
+      <description>下载速度快的时候系统很卡是什么原因？&#13;
+ 本帖最后由 皇帝雅西加 于 2019-8-24 00:29 编辑 
+
+系统从win7升级到WIN10以后下载速度每秒20M一样不卡，神了
+&#13;
+旧笔记本电脑，THINKPAD T440P，CPU是I5, 16G内存，硬盘是创见的NGFF 512G SSD，系统WIN7
+&#13;
+下载速度只要超过7.5M每秒系统就卡的不行，连鼠标移动都拖慢；无论是迅雷还是浏览器自带下载功能都卡，迅雷缓存已经设置成512M</description>
+      <content:encoded><![CDATA[<p><b>皇帝雅西加: </b><br>
+<span>下载速度快的时候系统很卡是什么原因？</span><br>
+<span> 本帖最后由 皇帝雅西加 于 2019-8-24 00:29 编辑 </span><br>
+<span>系统从win7升级到WIN10以后下载速度每秒20M一样不卡，神了</span><br>
+<span>旧笔记本电脑，THINKPAD T440P，CPU是I5, 16G内存，硬盘是创见的NGFF 512G SSD，系统WIN7</span><br>
+<span>下载速度只要超过7.5M每秒系统就卡的不行，连鼠标移动都拖慢；无论是迅雷还是浏览器自带下载功能都卡，迅雷缓存已经设置成512M</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>磁盘卡死</span><br>
+<span>磁盘占用100% 卡系统很正常</span><br>
+</p><p><b>Endle: </b><br>
+<span>硬盘占用达到100%了</span><br>
+<span>不过7.5M就能把SSD的写入跑满吗？</span><br>
+</p><p><b>play_plug: </b><br>
+<span>看样子是网卡或者主板过热了？机械硬盘都不会吧</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>不至于，再烂好歹是块固态硬盘。你下载的时候打卡任务管理器看看各项占用</span><br>
+</p><p><b>TTest: </b><br>
+<span>我也发现了，看了各个数据，网络跑满，cpu和硬盘占用都不高，但就是卡，最后还大概率死机</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>另外找一块无线网卡试试？有时候是网卡的锅。</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>有时候确实是这样。别说笔记本了，台式机用满1g网速都会觉得卡</span><br>
+</p><p><b>qwased: </b><br>
+<span>netsh int tcp set global autotuninglevel=disabled</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qazesz: </b><br>
+<span>win10对网络活动有一个日志，把它关掉</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>qwased 发表于 2019-8-3 13:43</span><br>
+<span>netsh int tcp set global autotuninglevel=disabled</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版...</span><br>
+<span>就是这个</span><br>
+</p><p><b>caibing: </b><br>
+<span>2.4g无线鼠标？</span><br>
+<span>—— 来自 samsung SM-G9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>磁盘缓存满了，你小心点吧，很容易出坏块的</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>骆宾王 发表于 2019-8-3 11:34</span><br>
+<span>就是这个</span><br>
+<span>没用，还是卡，我下载Ubuntu镜像速度达到近20M每秒，电脑卡的鼠标都快动不了了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>qazesz 发表于 2019-8-3 16:52</span><br>
+<span>win10对网络活动有一个日志，把它关掉</span><br>
+<span>禁用wfpdiag日志</span><br>
+<span>Windows Registry Editor Version 5.00</span><br>
+<span>"EnablePacketQueue"=dword:00000000</span><br>
+<span>"CollectConnections"=dword:00000001</span><br>
+<span>"CollectNetEvents"=dword:00000000</span><br>
+</p><p><b>田黄石: </b><br>
+<span>你这可能是硬盘坏了，我上个笔记本也是，正常使用一切正常，一碰上下载那就完了，鼠标都开始开，下载关了也不行，除非重新开机。</span><br>
+<span>后来换了块硬盘万事大吉。</span><br>
+<span>不过网上也有说把坏道区域单独拎出来禁用也可以，但是实在懒得折腾了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>你的全家: </b><br>
+<span>硬盘坏了卡io 但是卡的不是io速度</span><br>
+<span>你撞io阻塞了</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的手机: </b><br>
+<span>I/O满了</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gearh: </b><br>
+<span>有可能是无线鼠标造成的卡顿幻觉</span><br>
+</p><p><b>Observer1379: </b><br>
+<span>硬盘问题？我后来改了硬盘加固态，固态装的系统硬盘里面下载心理感觉好一些</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>我是下载速度上来后，网络会卡死，短暂断网，然后再恢复，反反复复几次后网络直接断了，需要重启电脑。其他网络内的设备无问题。</span><br>
+<span>出问题的是台式机，接的网线，有交换机。用过笔记本试无线网，满速下载无任何问题，是台机的操作系统问题还是网卡问题？或者说是交换机的问题？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>oz01: </b><br>
+<span>你试试看用wasapi或asio输出音频，如果开了之后下载速度会大幅下降的话，那就是主板io就那点，没啥好办法，落后时代了</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>具体什么问题到现在不清楚，但是从WIN7换WIN10以后问题直接解决。。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850972[0-50]</guid>
+    </item>
+  </channel>
+</rss>

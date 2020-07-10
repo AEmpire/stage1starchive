@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【bug10日常】“美国英语-国际”输入法消失</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【bug10日常】“美国英语-国际”输入法消失</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:59:45 +0000</lastBuildDate>
+    <item>
+      <title>【bug10日常】“美国英语-国际”输入法消失[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906635-1-1.html</link>
+      <description>【bug10日常】“美国英语-国际”输入法消失&#13;
+OS版本18363.535
+&#13;
+在语言首选项里打开“美国英语-国际”键盘，在重启或某些状态后，按windows键+空格键，该选项会消失，需要在设置中添加“美式键盘”，然后才会多出这两个输入法。
+&#13;
+我的使用场景是安装简体中文、英语（美国）、日语三个语言包，然后分别使用QQ拼音输入法，美国英语-国际输入法，和微软日语输入法。在上述设置下，有时美国英语-国际会消失（此时按win+空格就只能在QQ输入法和微软日语输入法切换），而在设置中美国英语-国际输入法还在。</description>
+      <content:encoded><![CDATA[<p><b>obiy: </b><br>
+<span>【bug10日常】“美国英语-国际”输入法消失</span><br>
+<span>OS版本18363.535</span><br>
+<span>在语言首选项里打开“美国英语-国际”键盘，在重启或某些状态后，按windows键+空格键，该选项会消失，需要在设置中添加“美式键盘”，然后才会多出这两个输入法。</span><br>
+<span>我的使用场景是安装简体中文、英语（美国）、日语三个语言包，然后分别使用QQ拼音输入法，美国英语-国际输入法，和微软日语输入法。在上述设置下，有时美国英语-国际会消失（此时按win+空格就只能在QQ输入法和微软日语输入法切换），而在设置中美国英语-国际输入法还在。</span><br>
+</p><p><b>obiy: </b><br>
+<span>图1为正常，用户预期的状态：</span><br>
+<span>图2为出现bug的状态（重启后）：</span><br>
+<span>语言包设置：</span><br>
+<span>英语中的输入法设置：</span><br>
+</p><p><b>albertfu: </b><br>
+<span>我是没添加英语-美国，而是把中文美式键盘设为了默认键盘</span><br>
+<span>Windows Registry Editor Version 5.00</span><br>
+<span>"2"="0000040c"</span><br>
+<span>"3"="00000411"</span><br>
+<span>"1"="00000804"</span><br>
+<span>"4"="d0010804"</span><br>
+<span>"00000804"="00000409"</span><br>
+<span>"d0010804"="00000804"</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>我一直去不掉美国英语这东西</span><br>
+</p><p><b>‭‭‭: </b><br>
+<span>这个我每次发现都是装了QQ输入法设置里选了那个设为首选项后自带的微软拼音就会消失，装其他输入法就没有这种情况，而且消失后似乎找不回。</span><br>
+</p><p><b>cosx: </b><br>
+<span>用个输入法要改注册表这么硬核，win10赢定了</span><br>
+</p><p><b>kitano: </b><br>
+<span>每隔一段时间会遇到相同的问题，英语输入法消失默认输入法变成排第三的日语，怀疑是不是QQ拼音的锅。</span><br>
+</p><p><b>linjia: </b><br>
+<span>你们有没有遇到win10微软输入法多选时候，敲数字n，结果出现数字n+1那个汉字，</span><br>
+</p><p><b>胖达君: </b><br>
+<span>我却是明明删除咯美国英语这个输入法，但是会莫名其妙又给我出现，比如今天早上就是这样</span><br>
+</p><p><b>ChengChung: </b><br>
+<span>你们是不是开了语言同步</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>用qq输入法经常在word里输不进汉字</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>黑羽零: </b><br>
+<span>去不掉英语输入法，可能是欢迎屏幕这边的默认输入法还是默认英语的关系，需要到 区域-管理 这边同步掉</span><br>
+<span>但英语输入法自动消失这个一般不是删掉重添加一下之后就正常了吗</span><br>
+</p><p><b>blackchichen: </b><br>
+<span>这bug在我这存在好久了，有开设置同步，所以一bug俩电脑就都没有。</span><br>
+<span>懒得置气直接加了个加拿大键盘英语凑合。</span><br>
+<span>哦对了，那个消失的英语会不定时显现又消失</span><br>
+</p><p><b>obiy: </b><br>
+<span>18363.628这bug似乎修过了</span><br>
+</p><p><b>marxel: </b><br>
+<span>我比你的厉害，我这儿多出一个泰米尔语删不掉……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906635[0-50]</guid>
+    </item>
+  </channel>
+</rss>

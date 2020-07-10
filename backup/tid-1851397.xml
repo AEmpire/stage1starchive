@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>chrome：您的浏览器受管理</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>chrome：您的浏览器受管理</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:32:17 +0000</lastBuildDate>
+    <item>
+      <title>chrome：您的浏览器受管理[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851397-1-1.html</link>
+      <description>chrome：您的浏览器受管理&#13;
+最好看下自己中招没，查看办法：
+&#13;
+1.右上角点击三个点的图标，如果被托管了会在列表最底行显示【您的浏览器受管理】
+&#13;
+2.或者在chrome地址栏输入chrome://management
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5omg9sgiuj210d0a9myn.jpg
+&#13;
+如果中招了，方法是这样的：
+&#13;
+1.删除更改了你的chrome注册表的软件，比如说阿里旺旺（我就是这个）
+&#13;
+2.打开Windows的注册表编辑器，打开之后路径为HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome
+&#13;
+3.删除chrome文件夹下的EnabledPlugins文件夹，重启chrome
+&#13;
+http://wx4.sinaimg.cn/large/86ad7aa6gy1g5omgp6u0nj20qm06djs6.jpg
+&#13;
+我装的旺旺还是2016版的，没想到居然也会改注册表</description>
+      <content:encoded><![CDATA[<p><b>stmule: </b><br>
+<span>wuuuuuud 发表于 2019-8-5 15:23</span><br>
+<span>这个列表是指：如果安装了列表中的插件plugin，则必定会启用</span><br>
+<span>这个功能现在被标注为已弃用，同时about：plug ...</span><br>
+<span>win7卸载了的旺旺在c盘有2g文件夹，现在还会弹阿里旺旺的报错。</span><br>
+<span>辣鸡阿里</span><br>
+<span>昨天粉碎了今天回去看看会不会长出来</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>stmule 发表于 2019-8-7 11:31</span><br>
+<span>win7卸载了的旺旺在c盘有2g文件夹，现在还会弹阿里旺旺的报错。</span><br>
+<span>辣鸡阿里</span><br>
+<span>昨天粉碎了今天回去看看会不会 ...</span><br>
+<span>给个目录位置？</span><br>
+</p><p><b>Geminize: </b><br>
+<span>C:\Users\Administrator\AppData\Roaming\AliWangWang</span><br>
+</p><p><b>stmule: </b><br>
+<span>若荼泱 发表于 2019-8-7 12:07</span><br>
+<span>给个目录位置？</span><br>
+<span>2个，手机打快了是这样的</span><br>
+<span>一个160m一个2m多</span><br>
+</p><p><b>a8336869: </b><br>
+<span>有些人搞笑，有意思买点充值卡赖的输验证码还是需要旺旺的.</span><br>
+</p><p><b>maxcrave: </b><br>
+<span>用的百度输入法，没有改我浏览器</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>FireFox 可以看 about:policies</span><br>
+<span>这个本身应该是类似 Windows 的域控制器的功能吧，方便公司监管员工用的。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>小野賢章 发表于 2019-8-7 20:45</span><br>
+<span>FireFox 可以看 about:policies</span><br>
+<span>这个本身应该是类似 Windows 的域控制器的功能吧，方便公司监管员工用的。 ...</span><br>
+<span>无效的网址</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>塔奇克马 发表于 2019-8-7 20:48</span><br>
+<span>无效的网址</span><br>
+<span>版本问题吗？我是 firefox69</span><br>
+<img src="https://s2.ax1x.com/2019/08/07/eILDTH.png" title="https://s2.ax1x.com/2019/08/07/eILDTH.png"><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-8-7 20:56 编辑 </span><br>
+<span>小野賢章 发表于 2019-8-7 20:53</span><br>
+<span>版本问题吗？我是 firefox69</span><br>
+<span>我的是60.7.0esr</span><br>
+<img src="https://i.loli.net/2019/08/07/qcOxGNyzRECJSFh.png" title="https://i.loli.net/2019/08/07/qcOxGNyzRECJSFh.png"><br>
+</p><p><b>小德: </b><br>
+<span>这件事更有趣的是，在外面搜索解决方案，大部分是教人把这个提示关掉。然后说问题解决了 细思恐极 这是他们故意放出来忽悠人的文章吧。</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>ramiel1 发表于 2019-8-6 22:09</span><br>
+<span>这年头还有人用阿里旺旺？手机淘宝聊不就完事了，PC版天天给你装一堆扫后台的驱动和服务，直接被我连根拔起 ...</span><br>
+<span>手机打字太慢，而且复制粘贴，或者来回切app很折腾</span><br>
+<span>所以PC还是需要装个= =</span><br>
+</p><p><b>refo2613: </b><br>
+<span>我推荐iron浏览器，也是chrome改版，但老外改的，而且是简洁向的，自带portable模式，根本不读注册表</span><br>
+</p><p><b>mirrorside: </b><br>
+<span>我前段时间也出现了这个 不过看了看是ublock origin搞得 应该没太大问题</span><br>
+<span>—— 来自 samsung SC-02J, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>bolitao: </b><br>
+<img src="https://i.loli.net/2019/08/09/Fm8URbYdfuisapl.png" title="https://i.loli.net/2019/08/09/Fm8URbYdfuisapl.png"><br>
+<span>阿里真的恶心，卸载了旺旺还是会残留一个服务，不知道居心何在，残留文件位置在 C:\Program Files (x86)\Alibaba\wwbizsrv</span><br>
+<span>可以通过 services.msc 停止 wwbizsrv 服务，然后删掉这玩意。</span><br>
+</p><p><b>独自旅行: </b><br>
+<span>lotsbiss 发表于 2019-8-5 11:29</span><br>
+<span>可以在 chrome://policy/ 里查看被修改的值</span><br>
+<span>值出来了怎么看？一堆乱七八糟的东西。</span><br>
+</p><p><b>独自旅行: </b><br>
+<span>袄_偶滴小乔 发表于 2019-8-5 19:47</span><br>
+<span>搜了一下这是自己设置的白名单咯</span><br>
+<span>政策名</span><br>
+<span>我为了安装非商店插件也设置了白名单。没问题吧？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851397[50-100]</guid>
+    </item>
+    <item>
+      <title>chrome：您的浏览器受管理[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851397-1-1.html</link>
+      <description>chrome：您的浏览器受管理&#13;
+最好看下自己中招没，查看办法：
+&#13;
+1.右上角点击三个点的图标，如果被托管了会在列表最底行显示【您的浏览器受管理】
+&#13;
+2.或者在chrome地址栏输入chrome://management
+&#13;
+http://wx2.sinaimg.cn/large/86ad7aa6gy1g5omg9sgiuj210d0a9myn.jpg
+&#13;
+如果中招了，方法是这样的：
+&#13;
+1.删除更改了你的chrome注册表的软件，比如说阿里旺旺（我就是这个）
+&#13;
+2.打开Windows的注册表编辑器，打开之后路径为HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome
+&#13;
+3.删除chrome文件夹下的EnabledPlugins文件夹，重启chrome
+&#13;
+http://wx4.sinaimg.cn/large/86ad7aa6gy1g5omgp6u0nj20qm06djs6.jpg
+&#13;
+我装的旺旺还是2016版的，没想到居然也会改注册表</description>
+      <content:encoded><![CDATA[<p><b>风中凌舞: </b><br>
+<span>chrome：您的浏览器受管理</span><br>
+<span>最好看下自己中招没，查看办法：</span><br>
+<span>1.右上角点击三个点的图标，如果被托管了会在列表最底行显示【您的浏览器受管理】</span><br>
+<span>2.或者在chrome地址栏输入chrome://management</span><br>
+<img src="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5omg9sgiuj210d0a9myn.jpg" title="http://wx2.sinaimg.cn/large/86ad7aa6gy1g5omg9sgiuj210d0a9myn.jpg"><br>
+<span>如果中招了，方法是这样的：</span><br>
+<span>1.删除更改了你的chrome注册表的软件，比如说阿里旺旺（我就是这个）</span><br>
+<span>2.打开Windows的注册表编辑器，打开之后路径为HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome</span><br>
+<span>3.删除chrome文件夹下的EnabledPlugins文件夹，重启chrome</span><br>
+<img src="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5omgp6u0nj20qm06djs6.jpg" title="http://wx4.sinaimg.cn/large/86ad7aa6gy1g5omgp6u0nj20qm06djs6.jpg"><br>
+<span>我装的旺旺还是2016版的，没想到居然也会改注册表</span><br>
+</p><p><b>xtdyx001: </b><br>
+<span>我的有，是ublock origin干的，应该没啥事</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>xtdyx001 发表于 2019-8-5 11:14</span><br>
+<span>我的有，是ublock origin干的，应该没啥事</span><br>
+<span>如果是国内BAT三家软件进行的托管最好还是清掉，只有他们知道传了什么数据</span><br>
+</p><p><b>千川ちひろ: </b><br>
+<span>xtdyx001 发表于 2019-8-5 11:14</span><br>
+<span>我的有，是ublock origin干的，应该没啥事</span><br>
+<span>我也用啊，没有受管理啊</span><br>
+<span>“此浏览器不由某个公司或其他组织管理。此设备上的活动可能会在 Chrome 外部受管理。”</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>基本上是阿里干的没屁眼事情</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>可以在 chrome://policy/ 里查看被修改的值</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>虚拟机里的阿里旺旺是9.12.05C 2018年的</span><br>
+<span>chrome显示 此浏览器不由某个公司或其他组织管理。此设备上的活动可能会在 Chrome 外部受管理。</span><br>
+</p><p><b>qwased: </b><br>
+<span>自从阿里旺旺uwp没法启动之后就没在pc上用过阿里系的软件了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>优秀: </b><br>
+<span>没搞懂，bat怎么管理你的浏览器的，难道你chrome是在bat站点下载的魔改版？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 优秀 发表于 2019-8-5 11:53 没搞懂，bat怎么管理你的浏览器的，难道你chrome是在bat站点下载的魔改版？ </span><br>
+<span>这还用魔改么，加载插件获得高权限而已</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>优秀 发表于 2019-8-5 11:53</span><br>
+<span>没搞懂，bat怎么管理你的浏览器的，难道你chrome是在bat站点下载的魔改版？</span><br>
+<span>Chrome可以通过组策略管理。</span><br>
+<span>计算机策略优先级最高，使用管理员权限修改注册表就能更改。</span><br>
+<span>chrome策略里有一条可以强制安装插件</span><br>
+</p><p><b>傅潇逍: </b><br>
+<span>办公室的电脑没发现ali发现个sougou，注册表里删除之后按照6#那方式查看还在啊</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>我的是HP安全管理软件托管的。</span><br>
+</p><p><b>flyfish: </b><br>
+<span>两个月前碰到这问题，是网易干的</span><br>
+</p><p><b>田黄石: </b><br>
+<span>阿里巴巴日常生孩子没屁眼。</span><br>
+<span>旗下哪个软件不流氓？</span><br>
+<span>钉钉，上家公司默认必须装，结果成天发一些垃圾推送，更狠的有一次星期六，一天给我推了三四条垃圾消息，没一个是同事找我说话的，于是一怒之下关了他的推送，有事找我打电话。</span><br>
+<span>还有支付宝，也是三天两头推垃圾，又不想关推送。只能默默祝福阿里巴巴生孩子没屁眼了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>我还以为是因为我的Google账号在公司登过一次之后被公司管理了，看来要重视</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>田黄石 发表于 2019-8-5 12:30</span><br>
+<span>阿里巴巴日常生孩子没屁眼。</span><br>
+<span>旗下哪个软件不流氓？</span><br>
+<span>钉钉，上家公司默认必须装，结果成天发一些垃圾推送，更 ...</span><br>
+<span>只有iOS能治 </span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>这么说今年iOS值4千？其实真不太想换刘海信号又差的水果。</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>萱时令: </b><br>
+<span>小白无机酸 发表于 2019-8-5 14:01</span><br>
+<span>这么说今年iOS值4千？其实真不太想换刘海信号又差的水果。</span><br>
+<span>—— 来自 Realme RMX1901, Andr ...</span><br>
+<span>是的 只有iOS siri只窃听不到1%的用户 多克制</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>epilogue: </b><br>
+<span>国内icloud服务器在哪里，自己心里没点B数？别想太多</span><br>
+</p><p><b>wuuuuuud: </b><br>
+<span>这个列表是指：如果安装了列表中的插件plugin，则必定会启用</span><br>
+<span>这个功能现在被标注为已弃用，同时about：plugins页面也被移除。</span><br>
+<span>我个人认为，目前chrome并不会去执行这个政策，用户不会受到影响。同时我推测只有旧版的旺旺会发生这种事情</span><br>
+</p><p><b>xeseed: </b><br>
+<span>火狐有这危险么？</span><br>
+</p><p><b>风中凌舞: </b><br>
+<span>xeseed 发表于 2019-8-5 16:54</span><br>
+<span>火狐有这危险么？</span><br>
+<span>有，但火狐好像还没有是否受管理的提示，应该要自己查注册表</span><br>
+</p><p><b>唯一指定用户名: </b><br>
+<span>我用uBlock Origin也没有受到管理</span><br>
+</p><p><b>cosx: </b><br>
+<span>您的设备不受管理员管理。</span><br>
+<span>The contents of websites that you visit is not seen by your administrators</span><br>
+<span>Administrators may have other ways of monitoring users, outside of Chrome.</span><br>
+<span>这算没中招？</span><br>
+</p><p><b>gnorz: </b><br>
+<span>早就发现了，无视，强迫症可能有点难受。</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>这插件装的 好吓人</span><br>
+</p><p><b>bilibon: </b><br>
+<span>装了阿里旺旺，也装了支付宝插件，没有受到管理还行，估计不是默认浏览器吧</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>hp品牌机托管还行 哈哈哈 阿里的钉钉没有流氓过hp。。。。。也行吧 反正基本不用办公电脑上网</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>搜了一下这是自己设置的白名单咯</span><br>
+<span>政策名</span><br>
+<span>政策值</span><br>
+<span>来源</span><br>
+<span>适用对象</span><br>
+<span>级别</span><br>
+<span>状态</span><br>
+<span>ExtensionInstallWhitelistdata:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iIzVGNjM2OCI+PHBhdGggZD0iTTE5IDE5SDVWNWg3VjNINWEyIDIgMCAwIDAtMiAydjE0YTIgMiAwIDAgMCAyIDJoMTRjMS4xIDAgMi0uOSAyLTJ2LTdoLTJ2N3pNMTQgM3YyaDMuNTlsLTkuODMgOS44MyAxLjQxIDEuNDFMMTkgNi40MVYxMGgyVjNoLTd6Ii8+PC9zdmc+Cg==</span><br>
+<span>mebjlpbgpphlmmkhmhnjnmhjpdhkhnaj</span><br>
+<span>平台</span><br>
+<span>本机</span><br>
+<span>强制</span><br>
+<span>确定</span><br>
+</p><p><b>Xenor: </b><br>
+<img src="http://chuantu.xyz/t6/702/1565011022x992245975.jpghttp://chuantu.xyz/t6/702/1565011011x992245975.jpg" title="http://chuantu.xyz/t6/702/1565011022x992245975.jpghttp://chuantu.xyz/t6/702/1565011011x992245975.jpg"><br>
+<span>为什么都没有..</span><br>
+</p><p><b>遗尿: </b><br>
+<span>Xenor 发表于 2019-8-5 21:19</span><br>
+<span>为什么都没有..</span><br>
+<span>你这是远古版本的CHROME吧，标签都不是圆角的。</span><br>
+</p><p><b>eilot: </b><br>
+<span>firefox都出現了，正在找方法刪除</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>并没有中招</span><br>
+</p><p><b>SORAYA: </b><br>
+<span>我也有，以前装过阿里旺旺，后来删掉了，虾米那个客户端也会自动安装阿里的安全服务，所以要注意一点</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>萱时令 发表于 2019-8-5 14:45</span><br>
+<span>是的 只有iOS siri只窃听不到1%的用户 多克制</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next- ...</span><br>
+<span>才1%，不怕不怕，比不作恶应该好多了......大概？</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>eshin: </b><br>
+<span>更新到最新版后看了一下，都没有中招，还行</span><br>
+</p><p><b>归蝶: </b><br>
+<span>萱时令 发表于 2019-8-5 14:45</span><br>
+<span>是的 只有iOS siri只窃听不到1%的用户 多克制</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next- ...</span><br>
+<span>但是不影响体验啊，而且不用siri不就好了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>xtdyx001 发表于 2019-8-5 11:14</span><br>
+<span>我的有，是ublock origin干的，应该没啥事</span><br>
+<span>可能Vivaldi不会中招？这插件我也装了，WIN7提示如下</span><br>
+<span>此浏览器不由某个公司或其他组织管理。此设备上的活动可能会在 Vivaldi 外部受管理</span><br>
+</p><p><b>xtdyx001: </b><br>
+<span>Geminize 发表于 2019-8-6 07:17</span><br>
+<span>可能Vivaldi不会中招？这插件我也装了，WIN7提示如下</span><br>
+<span>此浏览器不由某个公司或其他组织管理。此设备上的活 ...</span><br>
+<span>我冤枉他了，其实是注册表那个文件夹内有个空白文件夹导致的</span><br>
+</p><p><b>万花谷杂役: </b><br>
+<span>昨天微博爆出来之后也看了下也中招了</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>装的有阿里旺旺，没中招</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>不用chrome,那么其它浏览器有类似情况吗？</span><br>
+</p><p><b>Litccc: </b><br>
+<span>没有中招</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我找到了4个月前v2ex的帖子</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>优秀: </b><br>
+<span>你们还真敢在自己电脑上装bat应用。</span><br>
+<span>百度我没什么软件需要装，旺旺和qq装虚拟机里面，用的时候开一下，反正现在qq用得少多用的是微信。</span><br>
+<span>淘宝网站的相关控件我倒是安装了，但暂时没发现它修改了我浏览器设置。</span><br>
+</p><p><b>Benighted: </b><br>
+<span>优秀 发表于 2019-8-6 18:47</span><br>
+<span>你们还真敢在自己电脑上装bat应用。</span><br>
+<span>百度我没什么软件需要装，旺旺和qq装虚拟机里面，用的时候开一下，反正 ...</span><br>
+<span>我都装sandboxie里的，虚拟机太麻烦了</span><br>
+</p><p><b>d-scher: </b><br>
+<span>没有中招，电脑上bat的软件只有qq微信。手机版chrome有这个问题吗？</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>这年头还有人用阿里旺旺？手机淘宝聊不就完事了，PC版天天给你装一堆扫后台的驱动和服务，直接被我连根拔起干了</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>用的是老的绿色版的旺旺 没中招</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851397[0-50]</guid>
+    </item>
+  </channel>
+</rss>

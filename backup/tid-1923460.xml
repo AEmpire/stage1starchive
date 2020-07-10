@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ff7的贴图有些地方特别模糊？到底是bug还是feature</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ff7的贴图有些地方特别模糊？到底是bug还是feature</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:46:11 +0000</lastBuildDate>
+    <item>
+      <title>ff7的贴图有些地方特别模糊？到底是bug还是feature[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1923460-1-1.html</link>
+      <description>ff7的贴图有些地方特别模糊？到底是bug还是feature&#13;
+比如提法刚给你介绍宿舍的那段 你会看到宿舍的门特别模糊 还有后来的一些商店里跟店员对话的时候 商店的吧台啊桌子上的一些报纸啊特别糊 
+
+是不是lod bug了导致近处没有读出高清贴图还是因为性能原因的优化？反正看着真挺难受的 人物模型尤其克劳德那个小护肩还挺清楚的
+
+以及跟目标人物要按三角对话的时候老是要等一会 感觉操作特别不跟手
+
+右上角那个小地图能不能变大？或者改变显示区域的大小？老得按触摸板切地图好难受</description>
+      <content:encoded><![CDATA[<p><b>魔人揪揪: </b><br>
+<span>ff7的贴图有些地方特别模糊？到底是bug还是feature</span><br>
+<span>比如提法刚给你介绍宿舍的那段 你会看到宿舍的门特别模糊 还有后来的一些商店里跟店员对话的时候 商店的吧台啊桌子上的一些报纸啊特别糊 </span><br>
+<span>是不是lod bug了导致近处没有读出高清贴图还是因为性能原因的优化？反正看着真挺难受的 人物模型尤其克劳德那个小护肩还挺清楚的</span><br>
+<span>以及跟目标人物要按三角对话的时候老是要等一会 感觉操作特别不跟手</span><br>
+<span>右上角那个小地图能不能变大？或者改变显示区域的大小？老得按触摸板切地图好难受</span><br>
+</p><p><b>魔人揪揪: </b><br>
+<span>顺便一提我等了好久也没有贴图更新 肯定不是还没加载出来的问题</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>gg142857: </b><br>
+<span>应该是BUG了，等一个补丁吧</span><br>
+</p><p><b>66666: </b><br>
+<span>BUG可能性大，这游戏都这么大了场景也不是很多， 不可能这种贴图分辨率都拉胯</span><br>
+</p><p><b>mowind: </b><br>
+<span>我也发现了，在我第一次在酒吧想就着高清tifa撸一把的时候</span><br>
+</p><p><b>任天索尼子: </b><br>
+<span>感觉那贴图都有PS1级别了</span><br>
+</p><p><b>宛若青空: </b><br>
+<span>是BUG吗，那正好等修复，实体盘还要等一周才知道会不会被砍单</span><br>
+<span>不过SE都全在家里办公了，怕是升级补丁不会那么快推出吧</span><br>
+</p><p><b>斯大林: </b><br>
+<span>贫民街明显内存很吃紧，TextureStreamingPool估计也爆了，导致只load了最低分辨率的进去</span><br>
+</p><p><b>魔人揪揪: </b><br>
+<span>斯大林 发表于 2020-4-10 19:03</span><br>
+<span>贫民街明显内存很吃紧，TextureStreamingPool估计也爆了，导致只load了最低分辨率的进去 ...</span><br>
+<span>可能是bug吧？我看a9vg有人说没问题？不太清楚是他们没看清还是真没问题 宿舍门以及宿舍一进门左手边那个水池上面的杯子 特别明显 杯子都是五边形的</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>saintgory: </b><br>
+<span>城镇里面挺多地方贴图加载都有点问题。第一次见加载这么慢，甚至有时候直接加载不出来的游戏。。。。延期1个月都优化了点啥</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>想想一块28nm的1.8T的片子吭哧吭哧地跑着，原谅他了。</span><br>
+</p><p><b>hui.w: </b><br>
+<span>一出魔光炉第一个场景那墙面简直了，一到第八街看到路人更加了，克劳德跟路人站一起一秒出戏，两个世代的碰撞</span><br>
+</p><p><b>空气蛹: </b><br>
+<span>宿舍那门真把我惊呆了，真就一坨像素块往哪一放</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>木架穷奇: </b><br>
+<span>ps4机能已经搓到这种地步了吗</span><br>
+</p><p><b>rainsheep: </b><br>
+<span>希望我玩到的时候，能够修复好</span><br>
+</p><p><b>crabwar: </b><br>
+<span>虚幻4祖传艺能了</span><br>
+</p><p><b>田黄石: </b><br>
+<span>我的都还没发货啊……好像全国的ff7实体都卡在香港了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Fuero: </b><br>
+<span> 本帖最后由 Fuero 于 2020-4-11 10:34 编辑 </span><br>
+<span>你看一下 宿舍洗漱台，震惊到我难得用share键截图收藏</span><br>
+<span>尤其是近期生化3开场刚好也有个洗漱台+看惯了动森抠细节的小家具再看这个，反差有点大</span><br>
+</p><p><b>hui.w: </b><br>
+<span>田黄石 发表于 2020-4-11 09:56</span><br>
+<span>我的都还没发货啊……好像全国的ff7实体都卡在香港了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端 ...</span><br>
+<span>数字版买起，预购特典也做为早期购入特典</span><br>
+</p><p><b>yuwe0714: </b><br>
+<span>Fuero 发表于 2020-4-11 10:30</span><br>
+<span>你看一下 宿舍洗漱台，震惊到我难得用share键截图收藏</span><br>
+<span>尤其是近期生化3开场刚好也有个洗漱台+看惯了动森抠 ...</span><br>
+<span>我当时在洗漱台观察录屏了半天，然后分享给群友，讨论这些洗漱用品的瓶子到底真就是设计成六边形，还是因为bug导致的</span><br>
+</p><p><b>Yui_hirasawa: </b><br>
+<span>哈 刚好还在等实体发货 希望补丁搞快点 到时候可以直接玩完美版</span><br>
+</p><p><b>墨火: </b><br>
+<span>空气蛹 发表于 2020-4-11 08:47</span><br>
+<span>宿舍那门真把我惊呆了，真就一坨像素块往哪一放</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next ...</span><br>
+<span>然而楼下包租婆的门贴图又是正常的....给租客偷工减料实锤</span><br>
+</p><p><b>marine_01: </b><br>
+<span>美术资源可能又没有节制的使用了吧，挤爆了显存</span><br>
+</p><p><b>H5N1: </b><br>
+<span>内部整合不足吧。</span><br>
+<span>古墓的暗影 崛起其实技术表现很不错，针对x1x pc的优化也肉眼可见。</span><br>
+</p><p><b>断翼: </b><br>
+<span>技术问题吧，同引擎的王国之心3就很少会发生这些问题</span><br>
+<span>而且说不定为赶发售，QA时间也不够</span><br>
+</p><p><b>如月尤菲: </b><br>
+<span>就这样吧</span><br>
+<img src="https://p.sda1.dev/0/92c1b0df8ae7246037e0593cf2e5acd6/IMG_5BA0D952C155E05405602AD42943B39F.jpeg" title="https://p.sda1.dev/0/92c1b0df8ae7246037e0593cf2e5acd6/IMG_5BA0D952C155E05405602AD42943B39F.jpeg"><br>
+<span>—— 来自 HUAWEI YAL-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>佐伯香織: </b><br>
+<span>这已经不能甩锅给引擎和机能了，真的太过分了，我玩到现在有时怀疑自己在玩ps2.5，连影子都没有。</span><br>
+</p><p><b>宛若青空: </b><br>
+<span>如月尤菲 发表于 2020-4-11 16:25</span><br>
+<span>就这样吧</span><br>
+<span>问了下nga有渠道的人士说是BUG，过段时间会有补丁（不过SE现在都全在家办公了，不知道要等多久</span><br>
+</p><p><b>pandaman7777: </b><br>
+<span>部分贴图材质真的惊为天人的烂了</span><br>
+</p><p><b>佐伯香織: </b><br>
+<span>宛若青空 发表于 2020-4-11 16:43</span><br>
+<span>问了下nga有渠道的人士说是BUG，过段时间会有补丁（不过SE现在都全在家办公了，不知道要等多久 ...</span><br>
+<span>单独的贴图载入延迟应该是bug，但目前这些贴图，多边形，影子的问题结合在一起，说都是bug就有点难了....</span><br>
+</p><p><b>为啥: </b><br>
+<span>不知道这是不是SE家传统艺能，FF14也是衣服戒指都独立建模建模精细的一比，结果人物手一伸出来手指头是尼玛长方体</span><br>
+</p><p><b>ziyer: </b><br>
+<span>为啥 发表于 2020-4-11 17:09</span><br>
+<span>不知道这是不是SE家传统艺能，FF14也是衣服戒指都独立建模建模精细的一比，结果人物手一伸出来手指头是尼玛 ...</span><br>
+<span>那个不一样，那个明显是为了优化减少了多边形数量，戒指之类的多边形数量更少，只是很少有游戏独立做出来了而已</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 10上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>nukejoker: </b><br>
+<span>为啥 发表于 2020-4-11 17:09</span><br>
+<span>不知道这是不是SE家传统艺能，FF14也是衣服戒指都独立建模建模精细的一比，结果人物手一伸出来手指头是尼玛 ...</span><br>
+<span>FF13当年那方块手被喷了多久。</span><br>
+<span>只能怪FF当年画面领导者的名头拉仇恨拉的太足。</span><br>
+<span>此恨绵绵无尽期。</span><br>
+<span>JRPG里也就FF能受到这种待遇了。</span><br>
+</p><p><b>Glasber: </b><br>
+<span>同问地图问题，为啥我连右上角小地图都没有，是因为进度还没到吗</span><br>
+</p><p><b>naonao5205: </b><br>
+<span>Glasber 发表于 2020-4-11 22:20</span><br>
+<span>同问地图问题，为啥我连右上角小地图都没有，是因为进度还没到吗</span><br>
+<span>按l2可以切换导航模式 没，仅方向数字，小地图三种 </span><br>
+</p><p><b>佐伯香織: </b><br>
+<span> 本帖最后由 佐伯香織 于 2020-4-11 22:59 编辑 </span><br>
+<span>问了下前ea的大佬，说这个短时间内不好修的，属于制作低级错误，显存爆了，修复要倒腾资源修改模型，场景还要涉及重烘焙，宣传的素材没共用是很沙雕业余的说法，也是导致这个问题的主因之一，所以现在能玩到就先玩了吧。</span><br>
+<span>简单的比喻是你装台机箱，线走的一塌糊涂，导致不光散热很差，新配件也装不上，要改你首先就得把机箱拆开先。现在模型都是重烘焙预渲染的，更估计要更整张地图，不会特别快，但如果有个经验很丰富的团队来接手修复，可能会快很多。</span><br>
+</p><p><b>foggyflower: </b><br>
+<span>美术资源和性能之间的协调，不管在哪个游戏都是最常见的问题之一。</span><br>
+<span>怎么都当BUG甩给程序员了...</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>我是不是该等等一年后的pc</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Fuero: </b><br>
+<span>中后期贴图有好转吗？平民窟里各种细节看得好出戏，还糊，不说和大表哥比，和FF15比有时候都…</span><br>
+</p><p><b>佐伯香織: </b><br>
+<span>Fuero 发表于 2020-4-11 23:57</span><br>
+<span>中后期贴图有好转吗？平民窟里各种细节看得好出戏，还糊，不说和大表哥比，和FF15比有时候都… ...</span><br>
+<span>我在第九章，随处可见.....</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>夜留歌 发表于 2020-4-11 22:49</span><br>
+<span>我是不是该等等一年后的pc</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>PC 显存大，估计就不用修了。</span><br>
+</p><p><b>De-Kolibre: </b><br>
+<span>H5N1 发表于 2020-4-11 16:16</span><br>
+<span>内部整合不足吧。</span><br>
+<span>古墓的暗影 崛起其实技术表现很不错，针对x1x pc的优化也肉眼可见。</span><br>
+<span> ...</span><br>
+<span>古墓是水晶动力和艺夺蒙特利尔做的，这俩以前是Eidos的工作室，后来Eidos被SE收购了。本质上就跟Square和Enix的人才技术不互通一样，都是各玩各的。</span><br>
+<span>像水晶动力自己有研发一套引擎Crystal Engine，但FF没得用</span><br>
+<span>—— 来自 Xiaomi MI 8 Lite, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>另一个小智: </b><br>
+<span>就这水平，就算重制CT或XG，怕只能是更惨吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1923460[0-50]</guid>
+    </item>
+  </channel>
+</rss>

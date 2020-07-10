@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>远程桌面重度办公是否可行，有什么局限吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>远程桌面重度办公是否可行，有什么局限吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:19:47 +0000</lastBuildDate>
+    <item>
+      <title>远程桌面重度办公是否可行，有什么局限吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912838-1-1.html</link>
+      <description>远程桌面重度办公是否可行，有什么局限吗？&#13;
+职业是程序员，对电脑性能有要求，办公地点有多个，但是是比较固定的多个位置，笔记本要达到这个要求价格会很贵，且也比较重，所以一直以来都每个地方配了主机，然而经济负担比较重，隔几年换机就是一大笔钱。最近突发奇想，想用办公室的那台不错的配置作为开发机，其它办公位置配置瘦客户端和屏幕，加鼠标键盘，办公室的那台电脑，通过内网穿透+一台云服务器暴露远程桌面登录接口，让瘦客户端登录。这种方式是否可行，对带宽有什么要求？</description>
+      <content:encoded><![CDATA[<p><b>abcxiawei: </b><br>
+<span>远程桌面重度办公是否可行，有什么局限吗？</span><br>
+<span>职业是程序员，对电脑性能有要求，办公地点有多个，但是是比较固定的多个位置，笔记本要达到这个要求价格会很贵，且也比较重，所以一直以来都每个地方配了主机，然而经济负担比较重，隔几年换机就是一大笔钱。最近突发奇想，想用办公室的那台不错的配置作为开发机，其它办公位置配置瘦客户端和屏幕，加鼠标键盘，办公室的那台电脑，通过内网穿透+一台云服务器暴露远程桌面登录接口，让瘦客户端登录。这种方式是否可行，对带宽有什么要求？</span><br>
+</p><p><b>404489039: </b><br>
+<span>你公司没喂屁嗯？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>teamviewer段子没听过么</span><br>
+<span>从前有一个程序员写代码猝死在工位上，后来那个工位来了个妹子，某一天妹子在睡觉让他男朋友远程帮他写代码，然后产品经理经过的时候看见电脑自动写代码吓得脸都绿了……</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>非程序员，我上周都是未批嗯公司内网再远程桌面到公司电脑，公司电脑上资料全，比直接用家里的电脑方便。</span><br>
+</p><p><b>手撕寿司: </b><br>
+<span>不是，很多“重度”办公真的得远程开展。</span><br>
+<span>一些比如芯片EDA之类的工业软件，授权费很贵，或者部署很麻烦，需要硬件key，所以很多公司办法是安装在服务器上，然后远程使用。现在还有专门的共享云服务，专门为小微公司提供远程的软件租用服务~</span><br>
+</p><p><b>革萌: </b><br>
+<span>程序员的基本工作是文本编辑，所以其实对配置要求非常低的。吃配置主要是编译测试之类的。一般都是用服务器专门搞这个。</span><br>
+</p><p><b>EP2: </b><br>
+<span>我们全公司都是在远程桌面上办公呢</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>like0036: </b><br>
+<span>AnyDesk+向日葵 轮流着用 基本够用了</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>革萌 发表于 2020-2-8 21:26</span><br>
+<span>程序员的基本工作是文本编辑，所以其实对配置要求非常低的。吃配置主要是编译测试之类的。一般都是用服务器 ...</span><br>
+<span>一旦需要开会讨论或者评审，体验都不行。</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>深信服的vSSL 喂屁嗯正好5000用户用户免费，在公司搭好，正好解决最近的远程办公问题</span><br>
+</p><p><b>两弹元勋: </b><br>
+<span>有好用便宜的远程控制软件么</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>unbalanced: </b><br>
+<span>直接架个Linux服务器上开VNC server连上去用啊，除了有点延迟没啥不方便的</span><br>
+</p><p><b>kumh: </b><br>
+<span>上家公司有类似的场景。后期有没有推广出来不知道，我辞职了。工位上就是一个终端，所有的操作在云端（？）。</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>开会麻烦</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>我们做游戏的，这波远程办公多数走远程桌面，没感觉什么问题，并且不需要每台机器单独做反代，在内网单独搞一台open**的服务器开到外网就行了</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>微软自己就有全套的解决方案。</span><br>
+<span>rd网关我记得2003开始就有了。</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>思路可以再放宽点，不一定远程桌面，你需要的是公司电脑的运算能力，编辑功能本地就能做到，可以了解下远程编译或者远程ssh之类的方法，本地PC进行程序编写，编译和运行等耗费资源的放在远程</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>abcxiawei: </b><br>
+<span>KnightHart 发表于 2020-2-9 22:26</span><br>
+<span>思路可以再放宽点，不一定远程桌面，你需要的是公司电脑的运算能力，编辑功能本地就能做到，可以了解下远程 ...</span><br>
+<span>远程编译需要把代码发布过去，或者像vscode的那种remote编程（可惜具备这种能力的ide目前不完善），而且不好调试</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>运算能力好解决，如果远程办公常态化，能上云的就上云，实在需要直接操作的特殊设备、高性能电脑，可以公司采购寄到家里。</span><br>
+<span>沟通是比较难解决的问题。产品与开发、测试与开发之间的沟通，面对面的情况下可能半天都讲不清楚，更不用说电话或打字交流了。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>本来就是在linux里用vnc远程工作的，工作软件没有win版本</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912838[0-50]</guid>
+    </item>
+  </channel>
+</rss>

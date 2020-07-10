@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3ds操作系统源代码泄露</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>3ds操作系统源代码泄露</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:30:17 +0000</lastBuildDate>
+    <item>
+      <title>3ds操作系统源代码泄露[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1937304-1-1.html</link>
+      <description>3ds操作系统源代码泄露&#13;
+https://www.resetera.com/threads/nintendo-leaks-ultimate-3ds-os-source-code-has-been-leaked-and-pok%C3%A9mon-d-p.211467/</description>
+      <content:encoded><![CDATA[<p><b>医生狼多: </b><br>
+<span>3ds操作系统源代码泄露</span><br>
+<span>https://www.resetera.com/threads/nintendo-leaks-ultimate-3ds-os-source-code-has-been-leaked-and-pok%C3%A9mon-d-p.211467/</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>这个我在4channel实时刷出来、下载了，两个包，1.7个G.</span><br>
+<span>里面还是少了一大堆东西，让人感兴趣的就是那个看上去完整的CVS。</span><br>
+<span>比起这个，我还是关心/ppg/谁能把编译同样是昨天泄露的口袋妖怪珍珠钻石源码的条件全部凑齐，现在是少了NitroSDK 3.2以及其对应的NitroDWC + NitroWiFi</span><br>
+</p><p><b>batrain: </b><br>
+<span>如果完整泄漏，是不是意味着模拟器可以完美模拟3ds了吗？</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>batrain 发表于 2020-5-24 12:33</span><br>
+<span>如果完整泄漏，是不是意味着模拟器可以完美模拟3ds了吗？</span><br>
+<span>你可以用任天堂的代码，看看任天堂会不会告到你坐牢。</span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>这意味着什么</span><br>
+</p><p><b>000000: </b><br>
+<span>resetera现在真是越做越好啊</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>yksoft1 发表于 2020-5-24 12:22</span><br>
+<span>这个我在4channel实时刷出来、下载了，两个包，1.7个G.</span><br>
+<span>里面还是少了一大堆东西，让人感兴趣的就是那个看上 ...</span><br>
+<span>easybuild已出，但据说编译出来的游戏一战斗就会死机。</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>有没有sdk一类的</span><br>
+<span>3ds那屏幕还挺想折腾一下</span><br>
+</p><p><b>Znesmoc: </b><br>
+<span>mcq_2 发表于 2020-5-24 12:36</span><br>
+<span>你可以用任天堂的代码，看看任天堂会不会告到你坐牢。</span><br>
+<span>说起来，那我找个人看了代码然后转告思路的话算不算坐牢？</span><br>
+<span>复制轮子 ×</span><br>
+<span>对着轮子画轮子 ¿</span><br>
+<span>找个人看了轮子之后口述轮子的外形自己画 ¿</span><br>
+</p><p><b>无动于衷: </b><br>
+<span>以后得模拟器是不是可以对应多核优化和高性能显卡了（死）</span><br>
+</p><p><b>恨盈蠹纸: </b><br>
+<span>有源码知道工作原理的话对模拟器开发确实有帮助。</span><br>
+</p><p><b>DeltaStriker: </b><br>
+<span>Znesmoc 发表于 2020-5-24 14:16</span><br>
+<span>说起来，那我找个人看了代码然后转告思路的话算不算坐牢？</span><br>
+<span>复制轮子 ×</span><br>
+<span>对着轮子画轮子 ¿</span><br>
+<span>这个应该不算 美国那边ps1出过的类似事</span><br>
+<span>ps1模拟器bleem！开发组好像是找了索尼的硬件说明（还是代码？）啥的 学习了工作原理以后自己写代码 没有直接抄索尼的东西做出来模拟器 被索尼告 结果被法官判决没有用索尼的东西 胜诉</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Redis: </b><br>
+<span> 本帖最后由 Redis 于 2020-5-24 17:25 编辑 </span><br>
+<span>彩虹肥宅 发表于 2020-5-24 12:36</span><br>
+<span>这意味着什么</span><br>
+<span>难说，操作系统有了，但是硬件还是要跟上才能做出3ds的虚拟机吧。</span><br>
+<span>如果一切顺利，就是3ds虚拟机了</span><br>
+<span>其实更多是给制作模拟器的大手们一个官方的参考。没有源码的话，其实也得要加载操作系统，只不过是编译好的二进制，不直观</span><br>
+</p><p><b>d2loader: </b><br>
+<span>Znesmoc 发表于 2020-5-24 14:16</span><br>
+<span>说起来，那我找个人看了代码然后转告思路的话算不算坐牢？</span><br>
+<span>复制轮子 ×</span><br>
+<span>对着轮子画轮子 ¿</span><br>
+<span>恭喜你学会了clean room</span><br>
+</p><p><b>back57992: </b><br>
+<span>对**和模拟器开发帮助很大的，问题是已经完美**了。</span><br>
+</p><p><b>SinkMoon: </b><br>
+<span>yksoft1 发表于 2020-5-24 12:22</span><br>
+<span>这个我在4channel实时刷出来、下载了，两个包，1.7个G.</span><br>
+<span>里面还是少了一大堆东西，让人感兴趣的就是那个看上 ...</span><br>
+<span>大哥，能发一份吗？给个链接我自己拖也行。</span><br>
+<span>我在4chan上找了半天只找到了宝可梦的源码，就是那个gen1-gen6的那个文件。</span><br>
+<span>想看看3DS的源码，正好这几天研究操作系统。</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>SinkMoon 发表于 2020-5-24 18:39</span><br>
+<span>大哥，能发一份吗？给个链接我自己拖也行。</span><br>
+<span>我在4chan上找了半天只找到了宝可梦的源码，就是那个gen1-gen ...</span><br>
+<span>有两个文件，一个700多M。一个900多M</span><br>
+<span>只有内核部分比较全。</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>DeltaStriker 发表于 2020-5-24 17:09</span><br>
+<span>这个应该不算 美国那边ps1出过的类似事</span><br>
+<span>ps1模拟器bleem！开发组好像是找了索尼的硬件说明（还是代码？） ...</span><br>
+<span>你再讲讲bleem！的后续</span><br>
+</p><p><b>世界之旅: </b><br>
+<span> 本帖最后由 世界之旅 于 2020-5-25 10:27 编辑 </span><br>
+<span>mcq_2 发表于 2020-5-25 10:09</span><br>
+<span>你再讲讲bleem！的后续</span><br>
+<span>我记得后续是索尼砸钱招安 然并软 bleem没了但是后面VGS epsxe又诞生了 总之既然大家看到轮子的样子了还能禁止别人按记忆画轮子？最多拖延时间而已</span><br>
+</p><p><b>nanoka1021: </b><br>
+<span>世界之旅 发表于 2020-5-25 10:19</span><br>
+<span>我记得后续是索尼砸钱招安 然并软 bleem没了但是后面VGS又诞生了 总之既然大家看到轮子的样子了还能禁止 ...</span><br>
+<span>被索尼招安（收购工作组和源代码）的是VGS。</span><br>
+<span>bleem!则是虽然赢了官司，但是因为官司投入了太多的钱，最后实在经不起折腾而破产了。bleem!能被索尼盯上的一个关键原因是当时仍然位于PS的生命周期。后来的PS模拟器都是过了PS生命周期后才推出的，对索尼已经没有多少利益上的冲突了。</span><br>
+<span>类似的事情任天堂也搞过，就是当初在N64的生命周期内出了一款高效模拟器UltraHLE，甚至对主机的几款招牌游戏的支持非常好，结果导致任天堂发来律师函，最终制作组解散软件停更。</span><br>
+<span>这种事情基本就只有在被厂商认为会对自己造成威胁或利益冲突的时候才有可能遭到非难……</span><br>
+</p><p><b>世界之旅: </b><br>
+<span>nanoka1021 发表于 2020-5-25 10:31</span><br>
+<span>被索尼招安（收购工作组和源代码）的是VGS。</span><br>
+<span>bleem!则是虽然赢了官司，但是因为官司投入了太多的钱，最后 ...</span><br>
+<span>那我记错了。 bleem被盯上的另一个重要原因是bleem!模拟器可使原装PlayStation游戏光碟在Dreamcast执行，当中供Dreamcast使用的bleem!被称为“bleemcast!”。直接有利竞争对手那还了得。不过生命周期这事gba模拟器就特别神奇了 居然和GBA同步面市一点事没有 让人怀疑是任的大旗</span><br>
+</p><p><b>hahamamamia: </b><br>
+<span>世界之旅 发表于 2020-5-25 10:37</span><br>
+<span>那我记错了。 bleem被盯上的另一个重要原因是bleem!模拟器可使原装PlayStation游戏光碟在Dreamcast执行， ...</span><br>
+<span>vba是真的nb</span><br>
+</p><p><b>世界之旅: </b><br>
+<span>hahamamamia 发表于 2020-5-25 10:49</span><br>
+<span>vba是真的nb</span><br>
+<span>这个才是最牛逼的 </span><br>
+<span>GBAEmu, 2000 九月发布</span><br>
+<span>Game Boy Advance，日本: March 21, 2001</span><br>
+<span>让人想不大棋也难</span><br>
+<span>毕竟你在电脑白嫖gba不要紧反正要体验掌机的便携性还是得买gba</span><br>
+<span>这个和让ps游戏在竞争对手dreamcast上运行的bleem可不是一回事</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>那时候有几个人有PC，我们小学都是模拟器随便玩还要拼了老命买GBA的</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>口袋珍钻编译出来了。在中文系统下CodeWarrior的编译器对带"\"之类控制字符的SJIS特殊字有问题，我全部梳理了一遍。。</span><br>
+</p><p><b>杉田悠一: </b><br>
+<span>GBA模拟器确实是比较神奇，世纪初时候我就有一张光盘，整整齐齐的放着模拟器和按编号排序到机战A的rom，</span><br>
+</p><p><b>navarra: </b><br>
+<span>另外还有两个有意思的地方，第一任天堂当年确实考虑过3ds上黄老板tegra，第二switch的系统是基于3ds的系统来的.....</span><br>
+</p><p><b>kayoubi: </b><br>
+<span>有办法给3ds做游戏吗</span><br>
+</p><p><b>Huliya: </b><br>
+<span>SinkMoon 发表于 2020-05-24 18:39:26</span><br>
+<span>大哥，能发一份吗？给个链接我自己拖也行。</span><br>
+<span>我在4chan上找了半天只找到了宝可梦的源码，就是那个gen1-gen ...兄弟，宝可梦的能分享一份不</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>DraQin: </b><br>
+<span>navarra 发表于 2020-5-26 10:53</span><br>
+<span>另外还有两个有意思的地方，第一任天堂当年确实考虑过3ds上黄老板tegra，第二switch的系统是基于3ds的系统 ...</span><br>
+<span>任天堂机器的系统我记得某个视频说过是一路沿用一路魔改上来的</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>SinkMoon: </b><br>
+<span>Huliya 发表于 2020-5-26 15:43</span><br>
+<span>兄弟，宝可梦的能分享一份不</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>不好意思，这几天实习有点忙，没上论坛，今天才看到，我还没有权限私信，就在这里回复您了https://mega.nz/folder/t5MxxArT#4R76KUBh_KcPcOV75BIl6g</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1937304[0-50]</guid>
+    </item>
+  </channel>
+</rss>

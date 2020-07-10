@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>球懂编程的看看，龙之信条解包后数据看不懂。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>球懂编程的看看，龙之信条解包后数据看不懂。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:59:21 +0000</lastBuildDate>
+    <item>
+      <title>球懂编程的看看，龙之信条解包后数据看不懂。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1940524-1-1.html</link>
+      <description>球懂编程的看看，龙之信条解包后数据看不懂。&#13;
+玩龙之信条职业拐弯练级很不爽，想修改一下升级的数据，解包了ARC后，需要修改的数据文件是个LVL后缀的玩意，用文本打开就是这样子，看得我一头雾水。
+&#13;
+请问这种文件该怎么打开能看得一目了然？升级数据本身就只是涉及每升一级血耐攻防的具体点数，应该不复杂吧？</description>
+      <content:encoded><![CDATA[<p><b>沉睡城市: </b><br>
+<span>球懂编程的看看，龙之信条解包后数据看不懂。</span><br>
+<span>玩龙之信条职业拐弯练级很不爽，想修改一下升级的数据，解包了ARC后，需要修改的数据文件是个LVL后缀的玩意，用文本打开就是这样子，看得我一头雾水。</span><br>
+<span>请问这种文件该怎么打开能看得一目了然？升级数据本身就只是涉及每升一级血耐攻防的具体点数，应该不复杂吧？</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span>得用十六进制编辑器改吧</span><br>
+</p><p><b>BRRM: </b><br>
+<span> 本帖最后由 BRRM 于 2020-6-9 07:35 编辑 </span><br>
+<span>会解包却看不懂？ 你是咋解的，直接拿别人现成的工具？</span><br>
+<span>一般这种文件都不是纯文本格式，而是特别设计的数据结构，你用文本编辑器打开当然是乱七八糟的。要用16进制编辑器打开，找到等级的那个字节，修改。</span><br>
+</p><p><b>Anonymous_User: </b><br>
+<span>https://www.nexusmods.com/dragonsdogma/mods/96</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>你要改等级直接开修改器或者ce不行吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Feena: </b><br>
+<span>...别啥都用记事本开啊</span><br>
+</p><p><b>2659646573: </b><br>
+<span>要是记事本能随便打开这玩意儿，那你也不需要解包了</span><br>
+</p><p><b>kayoubi: </b><br>
+<span>没有恶意，楼主让我想起了我十几岁时发帖的情况</span><br>
+</p><p><b>金星: </b><br>
+<span>直接用记事本改数据我只有在远古的极品6和GTA改mod做过</span><br>
+<span>—— 来自 HMD Global Nokia X6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>用word分析二进制文件你是怎么学会解包的？</span><br>
+</p><p><b>kemyes: </b><br>
+<span>金星 发表于 2020-6-9 10:40</span><br>
+<span>直接用记事本改数据我只有在远古的极品6和GTA改mod做过</span><br>
+<span>—— 来自 HMD Global Nokia X6, Android 9 ...</span><br>
+<span>GTA:SA把警察的枪改成负伤害，把散弹枪的散布改成0（然后一开枪就崩溃XD），那时候的记事本就是神233</span><br>
+</p><p><b>巨魔已被忠诚: </b><br>
+<span>金星 发表于 2020-6-9 10:40</span><br>
+<span>直接用记事本改数据我只有在远古的极品6和GTA改mod做过</span><br>
+<span>—— 来自 HMD Global Nokia X6, Android 9 ...</span><br>
+<span>我来推荐一个神奇的老游戏——黑暗之刃</span><br>
+<span>这个02年游戏数据保存使用python做的</span><br>
+<span>过于神奇</span><br>
+</p><p><b>museqsou: </b><br>
+<span>すぴぱら 发表于 2020-6-9 10:45</span><br>
+<span>用word分析二进制文件你是怎么学会解包的？</span><br>
+<span>我来杠精一下，这个是写字板</span><br>
+</p><p><b>WIZARDMK2: </b><br>
+<span>UltraEdit，请</span><br>
+</p><p><b>沉睡城市: </b><br>
+<span>各位，我只是个玩家，不懂编程，解包是用的别人发的工具。</span><br>
+<span>14楼说的UE我用过，打开这个文件后是一片数值矩阵照样看不懂。</span><br>
+<span>看来非得会编程才能改这玩意了，唉。说起来，恐怖黎明自带的编辑器，如果只是一些简单的数值修改，那个编辑器显示的就是很直观的表格，就算参数很多很杂，起码看得懂。我还以为涉及简单数值的编辑都是那样。</span><br>
+<span>我只是想把魔弓的升级数据改成和巫师一样啊啊啊啊！我已经重新开档了，无限负重和冲刺不耗耐力MOD我都没用了，但是不想玩巫师200级才能玩魔弓。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>第一行开头的XFS 可能表面是文件头，你可以查查XFS 该怎么编辑。也不知道是那个XFS 还是卡婊的独立格式</span><br>
+<span>文件里的mXXXX 有鲜明的程序设计风格，整个文件可能是持久化转来的文本，而且没加密</span><br>
+<span>不会编程确实玩不了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1940524[0-50]</guid>
+    </item>
+  </channel>
+</rss>

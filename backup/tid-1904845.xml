@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python打包成exe的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python打包成exe的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:11:06 +0000</lastBuildDate>
+    <item>
+      <title>python打包成exe的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904845-1-1.html</link>
+      <description>python打包成exe的问题&#13;
+ 本帖最后由 腹黑眼镜 于 2019-12-23 11:29 编辑 
+
+自己做了个工具，想给同事用
+&#13;
+使用pyinstaller 打包，可以正常运行
+&#13;
+但有个功能，生成txt文件，一运行窗口都没了
+&#13;
+txt文件有生成，但没内容
+&#13;
+问下各位大佬要怎么排查，由于窗口是直接消失也看不到出错的信息
+&#13;
+工具的界面是用pyqt5做的，使用qt designer生成的ui</description>
+      <content:encoded><![CDATA[<p><b>腹黑眼镜: </b><br>
+<span>python打包成exe的问题</span><br>
+<span> 本帖最后由 腹黑眼镜 于 2019-12-23 11:29 编辑 </span><br>
+<span>自己做了个工具，想给同事用</span><br>
+<span>使用pyinstaller 打包，可以正常运行</span><br>
+<span>但有个功能，生成txt文件，一运行窗口都没了</span><br>
+<span>txt文件有生成，但没内容</span><br>
+<span>问下各位大佬要怎么排查，由于窗口是直接消失也看不到出错的信息</span><br>
+<span>工具的界面是用pyqt5做的，使用qt designer生成的ui</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span> 本帖最后由 Sacnussem 于 2019-12-23 11:37 编辑 </span><br>
+<span>按住shift目录空白处右键，选powershell</span><br>
+<span>我猜是你用的venv里面的依赖外面没有导致的...</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>我发现可以在打包的时候不加-w。</span><br>
+<span>然后终于看到错误信息了，忘记把一个文件放到目录</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>PyQt5感觉极其不好用，有没有其他python的桌面开发工具推荐吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>tianyagk 发表于 2019-12-23 11:55</span><br>
+<span>PyQt5感觉极其不好用，有没有其他python的桌面开发工具推荐吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的...</span><br>
+<span>这个不好，其它就当没有吧</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>tianyagk 发表于 2019-12-23 11:55</span><br>
+<span>PyQt5感觉极其不好用，有没有其他python的桌面开发工具推荐吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的...</span><br>
+<span>wxpython？我搞搞小工具是够了，大项目不清楚</span><br>
+</p><p><b>糊状物: </b><br>
+<span>tianyagk 发表于 2019-12-23 11:55</span><br>
+<span>PyQt5感觉极其不好用，有没有其他python的桌面开发工具推荐吗</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的...</span><br>
+<span>不在意资源占用、响应速度，而你又有js等前端基础的话，可以考虑electron?不过响应真的慢。</span><br>
+<span>pyqt5中文资料是少了点，英文API又是C++的，初学是不怎么友好。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>糊状物 发表于 2019-12-23 18:21</span><br>
+<span>不在意资源占用、响应速度，而你又有js等前端基础的话，可以考虑electron?不过响应真的慢。</span><br>
+<span>pyqt5中文资 ...</span><br>
+<span>看了下electron的官网，感觉挺有意思的</span><br>
+<span>回去试用一下，感谢！</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>electron是真的垃圾</span><br>
+<span>写跨平台ui还是qt比较好</span><br>
+</p><p><b>warrior: </b><br>
+<span> wxpython 一票</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904845[0-50]</guid>
+    </item>
+  </channel>
+</rss>

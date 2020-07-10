@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>bug10 无法开启 Credential Guard（已弃疗）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>bug10 无法开启 Credential Guard（已弃疗）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:20:33 +0000</lastBuildDate>
+    <item>
+      <title>bug10 无法开启 Credential Guard（已弃疗）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853287-1-1.html</link>
+      <description>bug10 无法开启 Credential Guard（已弃疗）&#13;
+ 本帖最后由 obiy 于 2019-8-14 21:20 编辑 
+
+官方工具还有个-Capable参数，可以查看能否兼容Credential Guard，查了一下发现没有HSTI和TPM，要额外的硬件的话就算了，关了省事（臭打游戏的也没多么珍贵的数据）
+&#13;
+关闭此功能最方便的方法是用官方脚本，这东西在非英语Windows下有bug，不想改代码的话就修改显示语言，关闭后再修改回来。
+&#13;
+--------------------------------
+&#13;
+通过文档的方法无法开启此功能，有什么办法吗？
+&#13;
+https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage
+&#13;
+版本      10.0.18362 版本 18362
+&#13;
+以下为dgreadiness的日志（工具里的说明是开启hyper-v失败了，可是不知道如何令其开启）：
+&#13;
+###########################################################################
+&#13;
+Readiness Tool Version 3.4 Release. 
+&#13;
+Tool to check if your device is capable to run Device Guard and Credential Guard.
+&#13;
+###########################################################################
+&#13;
+###########################################################################
+&#13;
+OS and Hardware requirements for enabling Device Guard and Credential Guard
+&#13;
+ 1. OS SKUs: Available only on these OS Skus - Enterprise, Server, Education, Enterprise IoT, Pro, and Home
+&#13;
+ 2. Hardware: Recent hardware that supports virtualization extension with SLAT
+&#13;
+To learn more please visit: https://aka.ms/dgwhcr
+&#13;
+########################################################################### 
+&#13;
+Enabling Device Guard and Credential Guard
+&#13;
+Setting RegKeys to enable DG/CG
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d 1 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "RequirePlatformSecurityFeatures" /t REG_DWORD /d 1 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+MajorMinorBuildRevision
+&#13;
+-----------------------
+&#13;
+10   0      183620       
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "Locked" /t REG_DWORD /d 0 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v "LsaCfgFlags" /t REG_DWORD /d 2 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 1 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Locked" /t REG_DWORD /d 0 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+Writing Decoded SIPolicy.p7b
+&#13;
+Enabling Hyper-V and IOMMU
+&#13;
+MajorMinorBuildRevision
+&#13;
+-----------------------
+&#13;
+10   0      183620       
+&#13;
+部署映像服务和管理工具
+&#13;
+版本: 10.0.18362.1
+&#13;
+映像版本: 10.0.18362.267
+&#13;
+错误: 0x800f080c
+&#13;
+功能名称 Microsoft-Hyper-V-Online 未知。
+&#13;
+未识别出 Windows 功能名称。
+&#13;
+请使用 /Get-Features 选项在映像中查找功能名称，然后重试该命令。
+&#13;
+可以在 C:\WINDOWS\Logs\DISM\dism.log 上找到 DISM 日志文件
+&#13;
+Enabling Hyper-V failed please check the log file
+&#13;
+Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Capabilities\" /v "HyperVEnabled" /t REG_DWORD /d 0 /f
+&#13;
+Output: 操作成功完成。
+&#13;
+PC will restart in 30 seconds
+&#13;
+Executing: shutdown /r /t 30
+&#13;
+Output: 
+&#13;
+###########################################################################
+&#13;
+Readiness Tool Version 3.4 Release. 
+&#13;
+Tool to check if your device is capable to run Device Guard and Credential Guard.
+&#13;
+###########################################################################
+&#13;
+###########################################################################
+&#13;
+OS and Hardware requirements for enabling Device Guard and Credential Guard
+&#13;
+ 1. OS SKUs: Available only on these OS Skus - Enterprise, Server, Education, Enterprise IoT, Pro, and Home
+&#13;
+ 2. Hardware: Recent hardware that supports virtualization extension with SLAT
+&#13;
+To learn more please visit: https://aka.ms/dgwhcr
+&#13;
+########################################################################### 
+&#13;
+Current DGRunning = 0, ConfigCI= 2
+&#13;
+_CGState: 0, _HVCIState: 0, _ConfigCIState: 2
+&#13;
+Credential-Guard is not running.
+&#13;
+HVCI is not running.
+&#13;
+Config-CI is enabled and running. (Enforced mode)
+&#13;
+Not all services are running.</description>
+      <content:encoded><![CDATA[<p><b>obiy: </b><br>
+<span>bug10 无法开启 Credential Guard（已弃疗）</span><br>
+<span> 本帖最后由 obiy 于 2019-8-14 21:20 编辑 </span><br>
+<span>官方工具还有个-Capable参数，可以查看能否兼容Credential Guard，查了一下发现没有HSTI和TPM，要额外的硬件的话就算了，关了省事（臭打游戏的也没多么珍贵的数据）</span><br>
+<span>关闭此功能最方便的方法是用官方脚本，这东西在非英语Windows下有bug，不想改代码的话就修改显示语言，关闭后再修改回来。</span><br>
+<span>--------------------------------</span><br>
+<span>通过文档的方法无法开启此功能，有什么办法吗？</span><br>
+<span>https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage</span><br>
+<span>版本      10.0.18362 版本 18362</span><br>
+<span>以下为dgreadiness的日志（工具里的说明是开启hyper-v失败了，可是不知道如何令其开启）：</span><br>
+<span>###########################################################################</span><br>
+<span>Readiness Tool Version 3.4 Release. </span><br>
+<span>Tool to check if your device is capable to run Device Guard and Credential Guard.</span><br>
+<span>###########################################################################</span><br>
+<span>###########################################################################</span><br>
+<span>OS and Hardware requirements for enabling Device Guard and Credential Guard</span><br>
+<span> 1. OS SKUs: Available only on these OS Skus - Enterprise, Server, Education, Enterprise IoT, Pro, and Home</span><br>
+<span> 2. Hardware: Recent hardware that supports virtualization extension with SLAT</span><br>
+<span>To learn more please visit: https://aka.ms/dgwhcr</span><br>
+<span>########################################################################### </span><br>
+<span>Enabling Device Guard and Credential Guard</span><br>
+<span>Setting RegKeys to enable DG/CG</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d 1 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "RequirePlatformSecurityFeatures" /t REG_DWORD /d 1 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>MajorMinorBuildRevision</span><br>
+<span>-----------------------</span><br>
+<span>10   0      183620       </span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard" /v "Locked" /t REG_DWORD /d 0 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v "LsaCfgFlags" /t REG_DWORD /d 2 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 1 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Locked" /t REG_DWORD /d 0 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>Writing Decoded SIPolicy.p7b</span><br>
+<span>Enabling Hyper-V and IOMMU</span><br>
+<span>MajorMinorBuildRevision</span><br>
+<span>-----------------------</span><br>
+<span>10   0      183620       </span><br>
+<span>部署映像服务和管理工具</span><br>
+<span>版本: 10.0.18362.1</span><br>
+<span>映像版本: 10.0.18362.267</span><br>
+<span>错误: 0x800f080c</span><br>
+<span>功能名称 Microsoft-Hyper-V-Online 未知。</span><br>
+<span>未识别出 Windows 功能名称。</span><br>
+<span>请使用 /Get-Features 选项在映像中查找功能名称，然后重试该命令。</span><br>
+<span>可以在 C:\WINDOWS\Logs\DISM\dism.log 上找到 DISM 日志文件</span><br>
+<span>Enabling Hyper-V failed please check the log file</span><br>
+<span>Executing: REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Capabilities\" /v "HyperVEnabled" /t REG_DWORD /d 0 /f</span><br>
+<span>Output: 操作成功完成。</span><br>
+<span>PC will restart in 30 seconds</span><br>
+<span>Executing: shutdown /r /t 30</span><br>
+<span>Output: </span><br>
+<span>###########################################################################</span><br>
+<span>Readiness Tool Version 3.4 Release. </span><br>
+<span>Tool to check if your device is capable to run Device Guard and Credential Guard.</span><br>
+<span>###########################################################################</span><br>
+<span>###########################################################################</span><br>
+<span>OS and Hardware requirements for enabling Device Guard and Credential Guard</span><br>
+<span> 1. OS SKUs: Available only on these OS Skus - Enterprise, Server, Education, Enterprise IoT, Pro, and Home</span><br>
+<span> 2. Hardware: Recent hardware that supports virtualization extension with SLAT</span><br>
+<span>To learn more please visit: https://aka.ms/dgwhcr</span><br>
+<span>########################################################################### </span><br>
+<span>Current DGRunning = 0, ConfigCI= 2</span><br>
+<span>_CGState: 0, _HVCIState: 0, _ConfigCIState: 2</span><br>
+<span>Credential-Guard is not running.</span><br>
+<span>HVCI is not running.</span><br>
+<span>Config-CI is enabled and running. (Enforced mode)</span><br>
+<span>Not all services are running.</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-8-13 23:32 编辑 </span><br>
+<span>我是1903 CG,DG 关不掉。不知道是vm的问题还是bug10的问题。因为是家庭版所以用的是什么注册表来关，也是看的doc。关了之后没什么问题，但是免费的vm好像不能装tools…然后我就去下了个pro然后随便填了一个注册码，也没有任何问题。结果再打开就提示我CG，DG没关。pro和free的都是…刚准备发帖问问。</span><br>
+<span>顺便问问家庭版有hyperv吗？MSDN上下的1903ISO，但光盘容量不够被我用dism++精简了一下现在服务里没有hyperv…正常吗？</span><br>
+</p><p><b>obiy: </b><br>
+<span>若荼泱 发表于 2019-8-13 23:31</span><br>
+<span>我是1903 CG,DG 关不掉。不知道是vm的问题还是bug10的问题。因为是家庭版所以用的是什么注册表来关，也是看 ...</span><br>
+<span>家庭版没有。</span><br>
+<span>我当初也为了vmware关闭这个（忘了具体操作了）。后来发现用不上虚拟机又想重新打开。</span><br>
+<span>然后就卡住了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>obiy 发表于 2019-8-13 23:35</span><br>
+<span>家庭版没有。</span><br>
+<span>我当初也为了vmware关闭这个（忘了具体操作了）。后来发现用不上虚拟机又想重新打开。</span><br>
+<span>这开了有什么好处吗</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>淘宝版win10pro，网上序列号版vm workstation14，没遇到这个问题</span><br>
+</p><p><b>obiy: </b><br>
+<span>若荼泱 发表于 2019-8-13 23:39</span><br>
+<span>这开了有什么好处吗</span><br>
+<span>多一层防护不是更安全么</span><br>
+</p><p><b>obiy: </b><br>
+<span>若荼泱 发表于 2019-8-13 23:31</span><br>
+<span>我是1903 CG,DG 关不掉。不知道是vm的问题还是bug10的问题。因为是家庭版所以用的是什么注册表来关，也是看 ...</span><br>
+<span>最省事的关闭方法就是使用官方工具，最好先把显示语言改成英语再执行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853287[0-50]</guid>
+    </item>
+  </channel>
+</rss>

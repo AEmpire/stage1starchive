@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[代码归外野] 新版 Chrome 如何关闭 CORS 启动</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[代码归外野] 新版 Chrome 如何关闭 CORS 启动</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:59:45 +0000</lastBuildDate>
+    <item>
+      <title>[代码归外野] 新版 Chrome 如何关闭 CORS 启动[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915442-1-1.html</link>
+      <description>[代码归外野] 新版 Chrome 如何关闭 CORS 启动&#13;
+ 本帖最后由 三葉Mitsuha 于 2020-2-24 12:34 编辑 
+
+我时不时用 JS 写一些简易的图片批处理脚本，需要依赖关闭 CORS 的环境（ 比如 canvas 的 toBlob 方法有同源策略限制）
+&#13;
+我之前是用 open -a "Google Chrome" --args --disable-web-security 来操作的
+&#13;
+但某次更新后，貌似无法再用同样的方法关闭 CORS 了，Google 去查不知道搜哪些关键词
+&#13;
+有人知道该怎么做么
+&#13;
+---
+&#13;
+不要问我为啥不用Safari，因为他不支持js批量创建a标签进行批量自动下载（？</description>
+      <content:encoded><![CDATA[<p><b>三葉Mitsuha: </b><br>
+<span>[代码归外野] 新版 Chrome 如何关闭 CORS 启动</span><br>
+<span> 本帖最后由 三葉Mitsuha 于 2020-2-24 12:34 编辑 </span><br>
+<span>我时不时用 JS 写一些简易的图片批处理脚本，需要依赖关闭 CORS 的环境（ 比如 canvas 的 toBlob 方法有同源策略限制）</span><br>
+<span>我之前是用 open -a "Google Chrome" --args --disable-web-security 来操作的</span><br>
+<span>但某次更新后，貌似无法再用同样的方法关闭 CORS 了，Google 去查不知道搜哪些关键词</span><br>
+<span>有人知道该怎么做么</span><br>
+<span>---</span><br>
+<span>不要问我为啥不用Safari，因为他不支持js批量创建a标签进行批量自动下载（？</span><br>
+</p><p><b>heroboy: </b><br>
+<span>用https://github.com/puppeteer/puppeteer 吧</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>去下载个dev版的老版本，把自动更新关闭，可以和正式版共存</span><br>
+</p><p><b>jpcl: </b><br>
+<span>Chrome有专门的插件可以关CORS</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span>jpcl 发表于 2020-2-24 12:53</span><br>
+<span> Chrome有专门的插件可以关CORS</span><br>
+<span>那个不能用于本地文件的处理</span><br>
+</p><p><b>HDRorz: </b><br>
+<span>python3 -m http.server 8080</span><br>
+</p><p><b>璇瑢子R: </b><br>
+<span>如果是固定几个人用的话。可以直接在浏览器设置里把这个限制关掉的吧。</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span>璇瑢子R 发表于 2020-2-24 13:12</span><br>
+<span> 如果是固定几个人用的话。可以直接在浏览器设置里把这个限制关掉的吧。</span><br>
+<span>只有我一个人用，就是一些临时的批处理。</span><br>
+<span>所以，怎么设置关掉cors呢……</span><br>
+</p><p><b>董卓: </b><br>
+<span>n年前都用firefox搞</span><br>
+<span>后面习惯本地http服务了，感觉也挺好</span><br>
+</p><p><b>璇瑢子R: </b><br>
+<span>三葉Mitsuha 发表于 2020-2-24 13:16</span><br>
+<span>只有我一个人用，就是一些临时的批处理。</span><br>
+<span>所以，怎么设置关掉cors呢…… ...</span><br>
+<span>先URL输入chrome://flags</span><br>
+<span>然后搜索samesite有两个选项</span><br>
+<span>搜CORS有一个选项</span><br>
+<span>每一个都可以试一下调整选项之后能不能工作</span><br>
+<span>不确定是不是针对你的问题</span><br>
+</p><p><b>三葉Mitsuha: </b><br>
+<span>璇瑢子R 发表于 2020-2-24 13:30</span><br>
+<span>先URL输入chrome://flags</span><br>
+<span>然后搜索samesite有两个选项</span><br>
+<span>搜CORS有一个选项</span><br>
+<span>不生效</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915442[0-50]</guid>
+    </item>
+  </channel>
+</rss>

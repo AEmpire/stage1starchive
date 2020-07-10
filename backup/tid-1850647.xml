@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【坑】声卡调试入门，如何靠插件实现小姐姐声线</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【坑】声卡调试入门，如何靠插件实现小姐姐声线</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:36:56 +0000</lastBuildDate>
+    <item>
+      <title>【坑】声卡调试入门，如何靠插件实现小姐姐声线[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850647-1-1.html</link>
+      <description>【坑】声卡调试入门，如何靠插件实现小姐姐声线&#13;
+ 本帖最后由 厨具战士 于 2019-8-1 16:34 编辑 
+
+应大家要求先挖个坑，有时间慢慢写。
+&#13;
+目录
+&#13;
+一、前言
+&#13;
+二、道场训
+&#13;
+三、体之卷 软硬件方面漫谈
+&#13;
+1、当前市面主流变声器的原理，以及为何不用变声器而用插件
+&#13;
+2、拥有想要的声线，你需要的一切
+&#13;
+3、什么是外置声卡，为什么需要外置声卡
+&#13;
+4、外置声卡的选购需注意什么
+&#13;
+5、麦克风的类型及选购需注意的事项
+&#13;
+6、虚拟机架软件的安装和应用
+&#13;
+7、变声用插件的类型及下载
+&#13;
+8、FAQ
+&#13;
+四、技之卷 调音及发声技巧初探
+&#13;
+1、人声的构成，各频段的作用
+&#13;
+2、插件能做到的和不能做到的
+&#13;
+3、主流变声插件介绍及其调试方法
+&#13;
+4、均衡器的调试方法
+&#13;
+5、压限器的调试方法
+&#13;
+6、混响器的调试方法
+&#13;
+7、其他有用的插件及其调试
+&#13;
+8、BC MIXer类插件的用途
+&#13;
+9、如何发声，才能让变化出的声音自然
+&#13;
+10、发声的练习方法
+&#13;
+五、心之卷 语气及少女心的养成
+&#13;
+1、语气的重要性，语气和心的关系
+&#13;
+2、女性之心境初探
+&#13;
+3、简单修心法之一：猫叫法
+&#13;
+4、简单修心法之二：娇喘法
+&#13;
+5、简单修心法之三：手势法
+&#13;
+6、如何克服初期的怯懦和紧张
+&#13;
+五、空之卷 杂论
+&#13;
+1、人类靠声音认知彼此身份的本能之浅论
+&#13;
+2、什么样的声音会对男性起作用
+&#13;
+3、什么样的声音会对女性起作用
+&#13;
+4、如何成为熟悉之人
+&#13;
+5、如何成为陌生之人
+&#13;
+6、实验结果
+&#13;
+7、结论
+&#13;
+六、后记</description>
+      <content:encoded><![CDATA[<p><b>悲伤的风中云: </b><br>
+<span>王菠萝声卡?</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>f77887: </b><br>
+<span>留个马克</span><br>
+</p><p><b>sekaiL: </b><br>
+<span>好帖马克一下</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>宇白顺: </b><br>
+<span>行动代号：乔</span><br>
+</p><p><b>utada: </b><br>
+<span> 来学屠龙之技</span><br>
+</p><p><b>fancykid: </b><br>
+<span>我也要成为龙</span><br>
+</p><p><b>四口神: </b><br>
+<span>技多不压身，都是好事</span><br>
+</p><p><b>爱尔米娜: </b><br>
+<span>紧跟热点</span><br>
+</p><p><b>AZHT: </b><br>
+<span>顺路歪个楼求一个简易好用的电吉他录音软件和软件效果器，越简易越傻瓜越好，之前我是用windows自带的录音、cool edit编辑，感觉玩不出花样</span><br>
+</p><p><b>337845818: </b><br>
+<span>自产自销，请学成的宅宅联系我，扣字文爱好不好</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>光之骑兵: </b><br>
+<span>我有声卡 缺小姐姐</span><br>
+</p><p><b>雨天游戏: </b><br>
+<span>AZHT 发表于 2019-8-2 19:03</span><br>
+<span>顺路歪个楼求一个简易好用的电吉他录音软件和软件效果器，越简易越傻瓜越好，之前我是用windows自带的录音 ...</span><br>
+<span>那当然是全宇宙最好的cubase和bias2了</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zypyong: </b><br>
+</p><p><b>咲衣憧: </b><br>
+<span>哎呀 正需要</span><br>
+<span>—— 来自 HUAWEI VCE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qx1995: </b><br>
+<span>战略性马克</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>taxiom: </b><br>
+<span>先mark</span><br>
+</p><p><b>aj_wolf: </b><br>
+<span>mark</span><br>
+</p><p><b>finalflying: </b><br>
+<span>战马</span><br>
+</p><p><b>幻想枫靡: </b><br>
+<span>感觉会用得着</span><br>
+</p><p><b>南门二: </b><br>
+<span>好东西</span><br>
+</p><p><b>立即注册s1: </b><br>
+<span>就没有下文了吗</span><br>
+</p><p><b>厨具战士: </b><br>
+<span>说好的先挖坑，有时间再慢慢填嘛。</span><br>
+<span>讲道理，你们这么兴奋让我压力很大啊。我更习惯在角落里默默填坑的感觉……</span><br>
+</p><p><b>郁子MM: </b><br>
+<span>装汉子是不是在技术这块也差不多？是的话，蹲点学习！</span><br>
+</p><p><b>Jon: </b><br>
+<span>先马为敬@！</span><br>
+</p><p><b>-AKIRA-: </b><br>
+<span>战马</span><br>
+</p><p><b>kyoumei: </b><br>
+<span>战马</span><br>
+</p><p><b>白龙: </b><br>
+<span>厨具战士 发表于 2019-8-3 17:03</span><br>
+<span>说好的先挖坑，有时间再慢慢填嘛。</span><br>
+<span>讲道理，你们这么兴奋让我压力很大啊。我更习惯在角落里默默填坑的感觉 ...</span><br>
+<span>别走，你先放个预览短视频给大家提振一下信心啊</span><br>
+<span>至少要先知道最终效果，期待起来才会更有动力不是</span><br>
+</p><p><b>Inkash: </b><br>
+<span>战略性马克，想从性冷淡变成乔碧萝</span><br>
+</p><p><b>Zwei222: </b><br>
+<span>楼主怎么被塞了，我还想看后续</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>冥河娃娃: </b><br>
+<span>临近过年了，楼主快填坑，等我学到了这门手艺，今年没骗到妹子骗到个小哥哥也好的。</span><br>
+</p><p><b>驾考之耻: </b><br>
+<span>冥河娃娃 发表于 2019-12-15 21:02</span><br>
+<span>临近过年了，楼主快填坑，等我学到了这门手艺，今年没骗到妹子骗到个小哥哥也好的。 ...</span><br>
+<span>你只能骗到lker</span><br>
+<span>—— 来自 vivo X9, Android 7.1.2上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>绿茶与猫: </b><br>
+<span>mark</span><br>
+</p><p><b>森野大熊: </b><br>
+<span>摩多摩多</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850647[50-100]</guid>
+    </item>
+    <item>
+      <title>【坑】声卡调试入门，如何靠插件实现小姐姐声线[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850647-1-1.html</link>
+      <description>【坑】声卡调试入门，如何靠插件实现小姐姐声线&#13;
+ 本帖最后由 厨具战士 于 2019-8-1 16:34 编辑 
+
+应大家要求先挖个坑，有时间慢慢写。
+&#13;
+目录
+&#13;
+一、前言
+&#13;
+二、道场训
+&#13;
+三、体之卷 软硬件方面漫谈
+&#13;
+1、当前市面主流变声器的原理，以及为何不用变声器而用插件
+&#13;
+2、拥有想要的声线，你需要的一切
+&#13;
+3、什么是外置声卡，为什么需要外置声卡
+&#13;
+4、外置声卡的选购需注意什么
+&#13;
+5、麦克风的类型及选购需注意的事项
+&#13;
+6、虚拟机架软件的安装和应用
+&#13;
+7、变声用插件的类型及下载
+&#13;
+8、FAQ
+&#13;
+四、技之卷 调音及发声技巧初探
+&#13;
+1、人声的构成，各频段的作用
+&#13;
+2、插件能做到的和不能做到的
+&#13;
+3、主流变声插件介绍及其调试方法
+&#13;
+4、均衡器的调试方法
+&#13;
+5、压限器的调试方法
+&#13;
+6、混响器的调试方法
+&#13;
+7、其他有用的插件及其调试
+&#13;
+8、BC MIXer类插件的用途
+&#13;
+9、如何发声，才能让变化出的声音自然
+&#13;
+10、发声的练习方法
+&#13;
+五、心之卷 语气及少女心的养成
+&#13;
+1、语气的重要性，语气和心的关系
+&#13;
+2、女性之心境初探
+&#13;
+3、简单修心法之一：猫叫法
+&#13;
+4、简单修心法之二：娇喘法
+&#13;
+5、简单修心法之三：手势法
+&#13;
+6、如何克服初期的怯懦和紧张
+&#13;
+五、空之卷 杂论
+&#13;
+1、人类靠声音认知彼此身份的本能之浅论
+&#13;
+2、什么样的声音会对男性起作用
+&#13;
+3、什么样的声音会对女性起作用
+&#13;
+4、如何成为熟悉之人
+&#13;
+5、如何成为陌生之人
+&#13;
+6、实验结果
+&#13;
+7、结论
+&#13;
+六、后记</description>
+      <content:encoded><![CDATA[<p><b>厨具战士: </b><br>
+<span>【坑】声卡调试入门，如何靠插件实现小姐姐声线</span><br>
+<span> 本帖最后由 厨具战士 于 2019-8-1 16:34 编辑 </span><br>
+<span>应大家要求先挖个坑，有时间慢慢写。</span><br>
+<span>目录</span><br>
+<span>一、前言</span><br>
+<span>二、道场训</span><br>
+<span>三、体之卷 软硬件方面漫谈</span><br>
+<span>1、当前市面主流变声器的原理，以及为何不用变声器而用插件</span><br>
+<span>2、拥有想要的声线，你需要的一切</span><br>
+<span>3、什么是外置声卡，为什么需要外置声卡</span><br>
+<span>4、外置声卡的选购需注意什么</span><br>
+<span>5、麦克风的类型及选购需注意的事项</span><br>
+<span>6、虚拟机架软件的安装和应用</span><br>
+<span>7、变声用插件的类型及下载</span><br>
+<span>8、FAQ</span><br>
+<span>四、技之卷 调音及发声技巧初探</span><br>
+<span>1、人声的构成，各频段的作用</span><br>
+<span>2、插件能做到的和不能做到的</span><br>
+<span>3、主流变声插件介绍及其调试方法</span><br>
+<span>4、均衡器的调试方法</span><br>
+<span>5、压限器的调试方法</span><br>
+<span>6、混响器的调试方法</span><br>
+<span>7、其他有用的插件及其调试</span><br>
+<span>8、BC MIXer类插件的用途</span><br>
+<span>9、如何发声，才能让变化出的声音自然</span><br>
+<span>10、发声的练习方法</span><br>
+<span>五、心之卷 语气及少女心的养成</span><br>
+<span>1、语气的重要性，语气和心的关系</span><br>
+<span>2、女性之心境初探</span><br>
+<span>3、简单修心法之一：猫叫法</span><br>
+<span>4、简单修心法之二：娇喘法</span><br>
+<span>5、简单修心法之三：手势法</span><br>
+<span>6、如何克服初期的怯懦和紧张</span><br>
+<span>五、空之卷 杂论</span><br>
+<span>1、人类靠声音认知彼此身份的本能之浅论</span><br>
+<span>2、什么样的声音会对男性起作用</span><br>
+<span>3、什么样的声音会对女性起作用</span><br>
+<span>4、如何成为熟悉之人</span><br>
+<span>5、如何成为陌生之人</span><br>
+<span>6、实验结果</span><br>
+<span>7、结论</span><br>
+<span>六、后记</span><br>
+</p><p><b>cd112332255: </b><br>
+<span>嗯……我该说啥？</span><br>
+</p><p><b>Nocte: </b><br>
+<span>乔碧萝养成计划？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>上uad么？最近好像在打折</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>好像一些RPGmaker做的小黄油，作者请不到声优就自己用变声软件上了</span><br>
+</p><p><b>zhDesire: </b><br>
+<span>cy</span><br>
+</p><p><b>afawa: </b><br>
+<span>搬板凳</span><br>
+</p><p><b>左撇子的猫: </b><br>
+<span>战马</span><br>
+</p><p><b>无梦女: </b><br>
+<span>mark</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>啥玩意，现在玩个小黄油配音都可能是男人了</span><br>
+</p><p><b>lightdog: </b><br>
+<span>楼主又来了......</span><br>
+</p><p><b>二狗还我五块钱: </b><br>
+<span>上一贴有备份吗https://bbs.saraba1st.com/2b/thread-1497006-0-1.html</span><br>
+</p><p><b>hujl2516: </b><br>
+<span>请务必直播，让我们评价一下实际效果</span><br>
+</p><p><b>NBNB: </b><br>
+<span>乔奶奶量产计划？</span><br>
+</p><p><b>東方凌: </b><br>
+<span>马克一个</span><br>
+</p><p><b>松开的鞋带: </b><br>
+<span>硬件有需求，马克</span><br>
+<span>—— 来自 Razer Phone, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>BT有理: </b><br>
+<span>立派的变态教程</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>2517君: </b><br>
+<span>最近用roland vt-4 感觉还是不太行，看lz怎么说</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>马克</span><br>
+</p><p><b>小小陌路人: </b><br>
+<span>学习一下</span><br>
+</p><p><b>didapick: </b><br>
+<span>这楼主不就是荣耀装妹那帖子的楼主么。。</span><br>
+</p><p><b>jinyang411: </b><br>
+<span>装妹侠似你</span><br>
+</p><p><b>大巴车司机: </b><br>
+<span>是女装大佬雏菊战士！</span><br>
+</p><p><b>蓝白碗: </b><br>
+<span>先收藏为敬</span><br>
+</p><p><b>mhfdt: </b><br>
+<span>战马，有用</span><br>
+</p><p><b>净水计划: </b><br>
+<span>mark</span><br>
+</p><p><b>monki: </b><br>
+<span>马克等更</span><br>
+</p><p><b>希瓦的守护: </b><br>
+<span>一大波乔奶奶接近中</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>时俗薄朱颜: </b><br>
+<span>收藏了，学习一下技能改天也去当女主播</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>基德基德</span><br>
+</p><p><b>无聊者X: </b><br>
+<span>泥潭那么多屠龙之法</span><br>
+<span>终于有一部教人变成龙的</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>King5268: </b><br>
+<span>人生已经如此艰难，为啥还要欺骗肥宅</span><br>
+</p><p><b>饿另: </b><br>
+<span>等更新，有兴趣，学着玩</span><br>
+</p><p><b>Uгd: </b><br>
+<span>无聊者X 发表于 2019-8-1 18:07</span><br>
+<span>泥潭那么多屠龙之法</span><br>
+<span>终于有一部教人变成龙的</span><br>
+<span>左手屠龙之法，右手成龙之法</span><br>
+<span>左右互搏！</span><br>
+<span>我已经天下无敌了！.jpg</span><br>
+</p><p><b>机动妖精: </b><br>
+<span>无聊者X 发表于 2019-8-1 18:07</span><br>
+<span>泥潭那么多屠龙之法</span><br>
+<span>终于有一部教人变成龙的</span><br>
+<span>毕竟灭龙魔导士们都是要变成龙来战斗的，没有毛病！</span><br>
+<span>我就问问这宝典开卷没有那两句吧</span><br>
+</p><p><b>7sword: </b><br>
+<span>乔罗碧MKII计划要来了吗？</span><br>
+</p><p><b>洛颜倾墨: </b><br>
+<span>马克一下</span><br>
+</p><p><b>GStar: </b><br>
+<span>mark!</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>矢吹奈子: </b><br>
+<span>收藏是回帖量的三倍还行</span><br>
+</p><p><b>199april: </b><br>
+<span>支持技术贴</span><br>
+</p><p><b>涛哥吃上校鸡块: </b><br>
+<span>码了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>凉宫春又日团长: </b><br>
+<span>年度强者预订</span><br>
+</p><p><b>新吾: </b><br>
+<span>马克，以后调戏沙雕群友用</span><br>
+</p><p><b>sjtdd: </b><br>
+<span>乔碧萝我只听过某微信文章里的一小段，感觉能听出电声，不是很真实</span><br>
+<span>污秋声音和那个算同一类型吧，但听不出电声</span><br>
+</p><p><b>雨R: </b><br>
+<span>战术性马克</span><br>
+</p><p><b>无脑突突突: </b><br>
+<span>你们战马的到底是好奇声音还是好奇女装呢</span><br>
+</p><p><b>甜虾寿司: </b><br>
+<span>深度好帖，马克一下</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>冥河娃娃: </b><br>
+<span>战略性MARK，成本不是太高的话到时候弄一套听下自已的娇喘声。</span><br>
+</p><p><b>ltay222: </b><br>
+<span>屠龙之技1/1000</span><br>
+</p><p><b>i酱酱: </b><br>
+<span>我记得**电影版里面犯罪分子用初音未来的声音消除自己的声音信息。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850647[0-50]</guid>
+    </item>
+  </channel>
+</rss>

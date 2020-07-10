@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>不知道发这合不合适，关于b站港澳台</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>不知道发这合不合适，关于b站港澳台</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:58:41 +0000</lastBuildDate>
+    <item>
+      <title>不知道发这合不合适，关于b站港澳台[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856763-1-1.html</link>
+      <description>不知道发这合不合适，关于b站港澳台&#13;
+电脑上不知道为啥昨天开始挂了全局的ss都显示不能看了
+&#13;
+虽然用油猴脚本可以看，但是比较这个是和别人共享带宽的，多人一起看就卡
+&#13;
+应该不是工具的问题，同样的线路用手机是可以看的，无论是app还是手机的网页版
+&#13;
+电脑上试过chrome和edge都不行
+&#13;
+无论是重启，清缓存清cookie，换wifi，甚至使用手机热点都没有办法解决
+&#13;
+就我一个人碰到这么个问题吗</description>
+      <content:encoded><![CDATA[<p><b>mwj: </b><br>
+<span>不知道发这合不合适，关于b站港澳台</span><br>
+<span>电脑上不知道为啥昨天开始挂了全局的ss都显示不能看了</span><br>
+<span>虽然用油猴脚本可以看，但是比较这个是和别人共享带宽的，多人一起看就卡</span><br>
+<span>应该不是工具的问题，同样的线路用手机是可以看的，无论是app还是手机的网页版</span><br>
+<span>电脑上试过chrome和edge都不行</span><br>
+<span>无论是重启，清缓存清cookie，换wifi，甚至使用手机热点都没有办法解决</span><br>
+<span>就我一个人碰到这么个问题吗</span><br>
+</p><p><b>free切: </b><br>
+<span>ss翻的地区是哪的。</span><br>
+</p><p><b>mwj: </b><br>
+<span>free切 发表于 2019-8-29 22:25</span><br>
+<span>ss翻的地区是哪的。</span><br>
+<span>港台都翻过，台湾时还专门试了下爱奇艺是自动跳转台湾站的。</span><br>
+</p><p><b>downforce: </b><br>
+<span>油猴脚本只对检测ip的部分使用代理服务器，视频缓冲是直连的。要是都走服务器怎么可能免费给人用。</span><br>
+</p><p><b>大丈夫萌大乃: </b><br>
+<span>但是用油猴确实比直接看要卡,每次拖进度条都卡半天,直连都是秒拖</span><br>
+</p><p><b>mwj: </b><br>
+<span>downforce 发表于 2019-8-29 23:29</span><br>
+<span>油猴脚本只对检测ip的部分使用代理服务器，视频缓冲是直连的。要是都走服务器怎么可能免费给人用。 ...</span><br>
+<span>这样吗，不过今晚好卡。</span><br>
+</p><p><b>风吹涟漪: </b><br>
+<span>可能b站把你的vps服务商ip段给ban了</span><br>
+</p><p><b>ipcjs: </b><br>
+<span>大丈夫萌大乃 发表于 2019-8-29 23:50</span><br>
+<span>但是用油猴确实比直接看要卡,每次拖进度条都卡半天,直连都是秒拖</span><br>
+<span>https://www.bilibili.com/read/mobile/3118508</span><br>
+<span>— from Google Pixel 2 XL, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>wwbfred: </b><br>
+<span>B站只要*.bilibili.com走代理就能看出差番,视频流量可以直连.</span><br>
+<span>香港使用的是B站在香港的自建服务器,到内地带宽严重不足,看起来会很卡.</span><br>
+<span>台湾会使用akamai的cdn,任何证书为a248.e.akamai.net的服务器都能用.</span><br>
+<span>使用台湾的代理,并将upos-hz-mirrorakam.akamaized.net解析到最快的cdn可以提升访问质量.</span><br>
+<span>另外你的具体问题得抓包才能知道是怎么回事,你可以用浏览器的调试模式看下哪里www版和m版有什么不同.</span><br>
+</p><p><b>mwj: </b><br>
+<span>wwbfred 发表于 2019-8-30 00:33</span><br>
+<span>B站只要*.bilibili.com走代理就能看出差番,视频流量可以直连.</span><br>
+<span>香港使用的是B站在香港的自建服务器,到内地带 ...</span><br>
+<span>应该不是www和m的问题，手机上我也是调成桌面版才对比的。</span><br>
+</p><p><b>wwbfred: </b><br>
+<span> 本帖最后由 wwbfred 于 2019-8-30 00:47 编辑 </span><br>
+<span>mwj 发表于 2019-8-30 00:38</span><br>
+<span>应该不是www和m的问题，手机上我也是调成桌面版才对比的。</span><br>
+<span>那还是要抓包.能看和不能看的两个都抓,看究竟是哪里不一样.</span><br>
+<span>拓展/hosts等等很多情况都有可能造成这种问题,要想快速定位只能抓包.</span><br>
+</p><p><b>mwj: </b><br>
+<span>风吹涟漪 发表于 2019-8-30 00:03</span><br>
+<span>可能b站把你的vps服务商ip段给ban了</span><br>
+<span>没有，我用手机和用公司电脑测试过，就我个人电脑有这问题，变量就差系统了，手上没有另一台win10的电脑测试。</span><br>
+</p><p><b>mwj: </b><br>
+<span>wwbfred 发表于 2019-8-30 00:43</span><br>
+<span>那还是要抓包.能看和不能看的两个都抓,看究竟是哪里不一样.</span><br>
+<span>拓展/hosts等等很多情况都有可能造成这种问题, ...</span><br>
+<span>大概有什么可能可以说一下吗？只抓包不太会分析</span><br>
+</p><p><b>wfefe: </b><br>
+<span>那个，win10第三方的uwp客户端可以直接看港澳台，不知道是怎么回事，但是挺卡的。</span><br>
+<span>我对弹幕需求不高，所以基本都是bt下载。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>IP段会ban的，我一个倍率1.00的就被ban了。另一个0.01的没ban但是根本不能看，480p都卡…</span><br>
+<span>—— 来自 Google Pixel, Android 10上的 S1Next-鹅版 v2.1.3.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856763[0-50]</guid>
+    </item>
+  </channel>
+</rss>

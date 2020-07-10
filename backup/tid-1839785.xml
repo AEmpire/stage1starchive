@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[不懂就问]逼乎的搜索可能是怎么做的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[不懂就问]逼乎的搜索可能是怎么做的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:45:13 +0000</lastBuildDate>
+    <item>
+      <title>[不懂就问]逼乎的搜索可能是怎么做的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839785-1-1.html</link>
+      <description>[不懂就问]逼乎的搜索可能是怎么做的？&#13;
+这个问题很奇怪，我说说我遇到的现象：
+&#13;
+知乎APP，搜索同一个固定的关键字，我每隔一段时间就会去搜索一下，但是搜索结果表现给我看好像有【两套搜索结果】，一段时间会呈现A搜索结果的list，过一段时间会呈现B搜索结果的list，隔一段时间会交替出现，这个频率没具体测过，但我肯定自己没有看错
+&#13;
+坛友有兴趣也可以去尝试下，时间跨度也不长，月头搜索一下，月尾再搜索一下，基本上就是两种不同的结果在轮换
+&#13;
+所以像这种搜索可能会是怎么做的？对这方面完全不懂，有没有老哥来科普下。。。</description>
+      <content:encoded><![CDATA[<p><b>多得吓人: </b><br>
+<span>[不懂就问]逼乎的搜索可能是怎么做的？</span><br>
+<span>这个问题很奇怪，我说说我遇到的现象：</span><br>
+<span>知乎APP，搜索同一个固定的关键字，我每隔一段时间就会去搜索一下，但是搜索结果表现给我看好像有【两套搜索结果】，一段时间会呈现A搜索结果的list，过一段时间会呈现B搜索结果的list，隔一段时间会交替出现，这个频率没具体测过，但我肯定自己没有看错</span><br>
+<span>坛友有兴趣也可以去尝试下，时间跨度也不长，月头搜索一下，月尾再搜索一下，基本上就是两种不同的结果在轮换</span><br>
+<span>所以像这种搜索可能会是怎么做的？对这方面完全不懂，有没有老哥来科普下。。。</span><br>
+</p><p><b>百响: </b><br>
+<span>印象中知乎的搜索是包给搜狗了，热搜是知乎自己控制，普通list估计和知乎没啥关系了。</span><br>
+</p><p><b>frosta: </b><br>
+<span>如果明显是两套结果的话可能是A/B test，按流量随机分</span><br>
+<span>当然说到逼乎我很怀疑是某些服务器定期挂掉所以导致结果搜不到</span><br>
+<span>— from samsung SM-G955U, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>泰德邦德: </b><br>
+<span>最近已经开源了。</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>site:zhihu.com</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839785[0-50]</guid>
+    </item>
+  </channel>
+</rss>

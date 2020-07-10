@@ -1,0 +1,1070 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>1968年的美国军用计算机拆解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>1968年的美国军用计算机拆解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:15 +0000</lastBuildDate>
+    <item>
+      <title>1968年的美国军用计算机拆解[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904163-1-1.html</link>
+      <description>1968年的美国军用计算机拆解&#13;
+ 本帖最后由 哈里.谢顿 于 2019-12-19 21:15 编辑 
+
+https://weibo.com/ttarticle/p/show?id=2309404451273108750593#_0
+&#13;
+​​本文罗老师于2016年11月13日发布于数码之家，2019年12月15日授权我转载到微博                图文共计101P，2825字，预计耗费数据39MB，阅读时间20分钟这台机器在本人的eBay收藏夹里呆了很久，某日无意间扫了一眼收藏夹，突然发现卖家大降价，只要15刀，还有best offer选项。15刀你买不了吃亏，15刀你买不了上当。事不宜迟果断下手。
+&#13;
+根据非常有限的资料显示，这台机器代号为AN/ASX-2，是1968年美军为F4战斗机开发的非协助式敌我识别系统中的一部分。所谓非协助式敌我识别就是不通过无线电应答机，而直接通过分析目标的特征信息识别目标类型。自然这样的系统会有较大的误判可能性。这次拆解的机器是通过对雷达接收的回波进行频谱分析，得到对方机型，判断目标种类。当然这个设备已经非常旧了，时至今日已经完全失去了保密价值，加上1988年美军由于误判，击落了一架伊朗的民航客机(参见伊朗航空655号班机空难)，美国随后终止了非协助式敌我识别系统的研发(当然私下里有没有做就不知道了)。因此这样的设备也被彻底废弃，作为电子垃圾出现在了互联网上。
+&#13;
+这次得到的机器，序列号是001。据说这套设备一共也只生产过6台，估计这台是美军研制出的第一台样机，也很可能是美国1965年开始研发以来第一台能工作的机器，因此个人感觉它的历史上价值也是不小的。不过显然机器已经不能工作，里面缺了几块板卡，模拟前端之类的电路也都被拆除。不过大体上还算完整。发上来也给大家开开眼界吧。
+&#13;
+外壳，灰色的，啥也看不出来
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ta32xyj212w0q1hdt.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tew9nvj212w0q1npd.jpg这面写了一些字，意思是机器是坏的，只能用来当配件了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tgt9rfj212w0q1e81.jpg
+&#13;
+这面贴了两张温度感应贴纸，后面介绍
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tnpkakj212w0q1hdt.jpg
+&#13;
+卖家还送了个小控制盒，不过是不是和机器配套就不知道了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tr09ypj212w0q1kjl.jpg
+&#13;
+编号No.001，ASSY M600663-1
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25ttj28ij212w0q1npd.jpg
+&#13;
+接口部分，原来有个风扇早已被拆去了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tvurxnj212w0q1u0x.jpg
+&#13;
+航空插座，里面还带了个同轴接口，也是第一次见。估计雷达来的模拟信号从这里进入
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25u0ns68j212w0q1qv5.jpg
+&#13;
+巨型航空插座
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u1cu6dj212w0q14qq.jpg
+&#13;
+故障指示灯，里面镀金的
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25u6ausfj212w0q11ky.jpg
+&#13;
+灯珠是白炽灯泡，灯罩里面还有一层钢网。果然高级货都是在细节上取胜
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u7i2jpj212w0q14qp.jpg
+&#13;
+下面看，这是贴在机箱上的温度指示标签，可用于检测设备运转过程中的最大温度。当温度超过标签上对应值时，相应的圆圈会变黑，而且会一直保持黑色不会变回来。这样把设备放在飞机上运转一段时间，回来后就能知道最高温度是多少。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uanq7yj212w0q1x6p.jpg
+&#13;
+拿电吹风吹了好一会，170度的圈就变黑了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uezg0cj212w0q1x6p.jpg
+&#13;
+机器屁股，里面藏了一块巨大的磁芯存储模块
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25uhtxlej212w0q1kjl.jpg
+&#13;
+散热出风口
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25vwzk3nj212w0q1hdt.jpg
+&#13;
+下面拆开一块侧面板，可以看到里面复杂的总线结构。。。。
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25w6je4rj212w0q1e81.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga25w9oclnj212w0q1hdu.jpg
+&#13;
+近距离，这是使用专门的绕线工具手工连接的电路。由于不需要印刷线路，且方便改装和样机制作，在早期的计算机、军用设备中很常见
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wdjy2oj212w0q14qq.jpg
+&#13;
+线束
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25weubt4j212w0q1hdt.jpg
+&#13;
+俩kemet的镀银钽电容
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wisua3j212w0q1000.jpg
+&#13;
+这两个接口可能是用来调试或者烧录程序的(纯属瞎猜)
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wk17y0j212w0q1b2a.jpg
+&#13;
+下面打开另一侧面的盖子。。。发现里面少了不少板子啊，看来想把机器跑起来是不可能了
+&#13;
+不过还好，还剩了7块电路板
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wujauaj212w0q1kjl.jpg
+&#13;
+侧过来看，电路板上不少芯片
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wvtrj3j212w0q1e81.jpg
+&#13;
+换个角度
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25x0ho2kj212w0q11ky.jpg
+&#13;
+这有个14MHz晶振，好似是有源的，为系统提供时钟
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25x3kh9tj212w0q1qv5.jpg
+&#13;
+还有一个被拆了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xabb0uj212w0q1x6p.jpg
+&#13;
+下面拔出第一块板，简直美哭了难以想象，1968年老美就已经有表面贴片技术了。想当年，阿姆斯特朗还没有登月，东方红还没有上天，大多数中国工程师连集成电路是啥都没听说过
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25xen35uj212w0q11ky.jpg
+&#13;
+然而反面。。。呃
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xhto17j212w0q11ky.jpg
+&#13;
+这线走得太飘逸了。。。不过应该也是作为原型机制作的，只是用来验证功能而已。
+&#13;
+这上面用的飞线我也是头一次见，似乎是镀银线上裹了一层非常薄的透明绝缘材料，看上去和裸露的一样
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25xklkzmj212w0q1hdu.jpg
+&#13;
+芯片，由通用仪器(General Instruments)制造，用途未知。看上去比较像缓存之类的东西。这家公司后来被Microchip公司(也就是做PIC单片机那家公司)收购。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xn833mj212w0q1hdu.jpg
+&#13;
+电路板接口也比较特殊，空心镀金圆柱
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25xtrk92j212w0q11ky.jpg
+&#13;
+下面取出第二款块板子。
+&#13;
+可见电路板完全由不锈钢制成，镶嵌在铝质框架中。
+&#13;
+这块板子上全是小规模集成电路，应该用来实现逻辑功能
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xw9tkvj212w0q11ky.jpg
+&#13;
+反面也是一样的飘逸
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25y33zekj212w0q1u0x.jpg
+&#13;
+仔细看发现每个芯片的电源和地连接到隐藏在板子内部的电源总线上，其余的脚也是用的特殊镀银飞线
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25y6m9xkj212w0q17wi.jpg
+&#13;
+第三块板子，上面除了贴片芯片还多了几个仙童半导体的直插芯片。当然型号都查不到了
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ya02t3j212w0q11ky.jpg
+&#13;
+这块板正反两面都有元件
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25ydkayvj212w0q11ky.jpg
+&#13;
+其实是两个不锈钢电路板嵌在同一个铝框两面
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yfqdgsj212w0q1x6p.jpg
+&#13;
+电路板编号也是001哦
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yjng54j212w0q14qq.jpg
+&#13;
+其他的几块板其实也大同小异，都是非常多的小规模集成电路
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2602jj1uj212w0q11ky.jpg
+&#13;
+这个编号002
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2605xwvdj212w0q11ky.jpg
+&#13;
+板子上也贴了温度标签，用来观察机器内部温度
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260ac51ij212w0q1kjl.jpg
+&#13;
+这块板显然是出了问题，手工飞线调试的
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260f2d7vj212w0q11ky.jpg。。。
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260j6rzaj212w0q1e82.jpg
+&#13;
+这块也一样。
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga260osawpj212w0q11ky.jpghttps://wx1.sinaimg.cn/large/7406e5bcgy1ga260sp500j212w0q11ky.jpg
+&#13;
+飞线飞线飞线。。。
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga260waqxlj212w0q11ky.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga2610igkcj212w0q11ky.jpg
+&#13;
+所有剩下的电路板都拿出来了，可以看到每块板底部都有不同位置的定位插销，防止差错插槽
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2618gs24j212w0q1qv5.jpg
+&#13;
+侧面看
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga261bvxqdj212w0q1kjl.jpg
+&#13;
+空机箱，每个插座上写了对应模块的编号
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga261hsuvtj212w0q1x6p.jpg
+&#13;
+所有电路板合影
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261ktoajj212w0q1x6p.jpg下面看看细节。这些电路板上用的小规模集成电路由美国Sylvania(喜万年，也就是现在做灯的那个厂家)出品。这个公司也是最早生产制造集成电路的厂家之一，然而做到后面就不行了。。。。
+&#13;
+不得不提的是，喜万年在1963年研制成功TTL集成电路，是世界上最早制造出TTL集成电路的厂家(对，比大名鼎鼎的德州仪器和74系列芯片早)。这台机器里用的就是喜万年的第一代TTL集成电路。这种迷你的封装叫做flat pack，在60年代较为常见，并且被大量运用于军事设备中。
+&#13;
+图中的SGxxx是逻辑门(gate)，SFxxx是触发器(flip-flop)。根据资料，SG220是与非门，SG200是8输入与非门，SF130时50MHz的j-k触发器。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261o9h5bj212w0q1qv6.jpg
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261rre9jj212w0q17wi.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga261vl2nmj212w0q14qq.jpg
+&#13;
+主机里面没啥好看的了，下面打开机器屁股上的盖子看看里面有啥
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263tysfoj212w0q1qv5.jpg
+&#13;
+铭牌，这个模块由Litton公司生产。这家公司是美国著名的军火生产商，旗下产品包含了导航系统、火控系统、航空航天等，甚至帮NASA生产过宇航服。
+&#13;
+铭牌上没写啥有价值的信息，不过据资料这是个32KB的磁芯存储模块
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263w3x3yj212w0q1u0x.jpg
+&#13;
+拆下来
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263zpfhwj212w0q1kjl.jpg接口
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2642vyobj212w0q1qv5.jpg单独看，上面写着bad memory，说明内存模块也坏了23333
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26478lgtj212w0q1b29.jpg
+&#13;
+整个模块完全被金属包裹，还贴了封条
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga264a2jizj212w0q1b29.jpg封条写着立顿公司/导航与控制分部，最后日期1972年7月12日
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga264ef71uj212w0q1qv5.jpg本来不想破坏封条，但为了看看里面到底啥样，还是忍痛拆了。。。
+&#13;
+侧面拆掉，看到一堆磁芯存储板，叠在一起
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga264hpc5zj212w0q1u0x.jpg换个角度
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga264lpiqdj212w0q11ky.jpg顶上的盖子里应该还有东西，继续拆
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga264oz8b8j212w0q1qv5.jpg
+&#13;
+刚开盖，一道金光闪过。。。我要瞎了。。。。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga264t4ul0j212w0q17wi.jpg全是金色的芯片，整齐排列着。。。。
+&#13;
+不得不说到现在为止，这是我见过最漂亮的电路了
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga264xu1poj212w0q14qq.jpg拿下来，这是正面
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2651h2u6j212w0q1u0x.jpg反面还有一层，两块板子分别贴在一块钢板两侧
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2654mgrtj212w0q1u0x.jpg
+&#13;
+正面电路板编号001
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2658pdhtj212w0q14qq.jpg
+&#13;
+仙童的芯片
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga265cknnaj212w0q1u0y.jpg这些是陶瓷排阻
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga265g72hzj212w0q11kz.jpg电阻
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga265itqs1j212w0q17wi.jpg白色的是摩托罗拉的芯片
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga265rk3faj212w0q1qv6.jpgSN5400，大名鼎鼎的TI出现了！这是flat pack封装的74系列TTL芯片，生产日期1968年第四周。54代表军用级别芯片，5400自然是大名鼎鼎的4与非门了
+&#13;
+据说1968年的时候一颗这样的芯片价值20美刀，显然整个系统造价一定不菲
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga265uubb5j212w0q1u0y.jpg电容等无源器件
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga265ysdybj212w0q14qq.jpg模块的另一边也有一个类似的电路板
+&#13;
+正面和之前的完全一样，估计是磁芯读写的前端电路
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26629v33j212w0q14qq.jpg反面不太一样
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26666ijij212w0q14qq.jpg
+&#13;
+飞线还是不能避免的
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2669nup5j212w0q14qr.jpg电阻
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga266f2uz2j212w0q1x6q.jpg两块板子合影，这是反面，功能不同，元件排布也不一样
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga266jdkmvj212w0q1x6p.jpg正面，看似是一样的
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga266n76eej212w0q14qq.jpg看看序列号，一个是01，一个是02。序列号是丝印上去的，老美真是费心了。。。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga266r4fs1j212w0q17wi.jpg芯片大小可能不是很直观，加个参照物
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga266wsd64j212w0q11kz.jpg近照，现代的74HC芯片和50年前的54芯片同台亮相
+&#13;
+发现虽然过了这么久，贴片SO封装的脚距和50年前却完全没有变化。不得不感慨老美制定规范时的远见。再看看我们，很多规范都是朝令夕改，难以延续。
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga2670kcyjj212w0q1x6q.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga2675jwtkj212w0q1x6q.jpg
+&#13;
+拆掉板子后的模块，不锈钢材质
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg
+&#13;
+镀金接口
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga267f8a63j212w0q1qv5.jpg
+&#13;
+再拆，可以看到磁芯存储堆了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267i1g7tj212w0q11ky.jpg最顶上是二极管板，下面的都是磁芯板。可惜焊在一起的，不能无损拆解，所以不拆了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267lsq63j212w0q1b2a.jpg二极管阵列
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga267p5t8nj212w0q1kjm.jpg一堆走线
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267t020aj212w0q17wi.jpg这里还有个小板，上面的芯片简直是八国联军。。。
+&#13;
+从左至右依次来自国家半导体(NS)，德州仪器(TI)，摩托罗拉，HELIPOT(一个生产电阻的厂家)，最右边是仙童。
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga267wpcvmj212w0q1u0x.jpg最后来几张模块全貌。因为实在是太美了，忍不住多发几张图
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga268159q7j212w0q1u0x.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga26e4pyczj212w0q1npd.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268632akj212w0q1npd.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2689w2ydj212w0q1kjl.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268dcmpfj212w0q1e81.jpg
+&#13;
+就此拆解完成
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268gchpvj212w0q1x6p.jpg
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2695jfazj212w0q11ky.jpg
+&#13;
+最后来张可当桌面的图镇楼
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga26998y0kj212w0q14qq.jpg ———————————————————————————————The End——————————————————————————————————————感谢阅读———</description>
+      <content:encoded><![CDATA[<p><b>正义大朋友: </b><br>
+<span>棺材叔叔 发表于 2019-12-20 22:06</span><br>
+<span>这东西当年搞一台给tg能卖多少钱</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>tg当年打U2掉了不少好东西出来，我记得有部纪录片还专门讲过，当时地空导弹部队已经开始跟米帝搞起电子对抗了</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>正义大朋友 发表于 2019-12-20 23:36</span><br>
+<span>tg当年打U2掉了不少好东西出来，我记得有部纪录片还专门讲过，当时地空导弹部队已经开始跟米帝搞起电子对 ...</span><br>
+<span>响尾蛇导弹就是这里搞来的，一开始试图仿制失败，苏联知道后硬是要过去（中苏交恶理由之一），造出了环礁系列，我们再引进</span><br>
+</p><p><b>半点孤灯: </b><br>
+<span>TI官网SN5400居然还在供货</span><br>
+</p><p><b>半江瑟瑟半江红: </b><br>
+<span>哈里.谢顿 发表于 2019-12-20 23:40</span><br>
+<span>响尾蛇导弹就是这里搞来的，一开始试图仿制失败，苏联知道后硬是要过去（中苏交恶理由之一），造出了环礁 ...</span><br>
+<span>响尾蛇不是跟台湾打空战捡到的么</span><br>
+</p><p><b>infinitesimal7: </b><br>
+<span>hellgate11 发表于 2019-12-20 20:13</span><br>
+<span>都是镀金玩意，你全刮下来也没几克</span><br>
+<span>有一克都赚了啊？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904163[50-100]</guid>
+    </item>
+    <item>
+      <title>1968年的美国军用计算机拆解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904163-1-1.html</link>
+      <description>1968年的美国军用计算机拆解&#13;
+ 本帖最后由 哈里.谢顿 于 2019-12-19 21:15 编辑 
+
+https://weibo.com/ttarticle/p/show?id=2309404451273108750593#_0
+&#13;
+​​本文罗老师于2016年11月13日发布于数码之家，2019年12月15日授权我转载到微博                图文共计101P，2825字，预计耗费数据39MB，阅读时间20分钟这台机器在本人的eBay收藏夹里呆了很久，某日无意间扫了一眼收藏夹，突然发现卖家大降价，只要15刀，还有best offer选项。15刀你买不了吃亏，15刀你买不了上当。事不宜迟果断下手。
+&#13;
+根据非常有限的资料显示，这台机器代号为AN/ASX-2，是1968年美军为F4战斗机开发的非协助式敌我识别系统中的一部分。所谓非协助式敌我识别就是不通过无线电应答机，而直接通过分析目标的特征信息识别目标类型。自然这样的系统会有较大的误判可能性。这次拆解的机器是通过对雷达接收的回波进行频谱分析，得到对方机型，判断目标种类。当然这个设备已经非常旧了，时至今日已经完全失去了保密价值，加上1988年美军由于误判，击落了一架伊朗的民航客机(参见伊朗航空655号班机空难)，美国随后终止了非协助式敌我识别系统的研发(当然私下里有没有做就不知道了)。因此这样的设备也被彻底废弃，作为电子垃圾出现在了互联网上。
+&#13;
+这次得到的机器，序列号是001。据说这套设备一共也只生产过6台，估计这台是美军研制出的第一台样机，也很可能是美国1965年开始研发以来第一台能工作的机器，因此个人感觉它的历史上价值也是不小的。不过显然机器已经不能工作，里面缺了几块板卡，模拟前端之类的电路也都被拆除。不过大体上还算完整。发上来也给大家开开眼界吧。
+&#13;
+外壳，灰色的，啥也看不出来
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ta32xyj212w0q1hdt.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tew9nvj212w0q1npd.jpg这面写了一些字，意思是机器是坏的，只能用来当配件了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tgt9rfj212w0q1e81.jpg
+&#13;
+这面贴了两张温度感应贴纸，后面介绍
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tnpkakj212w0q1hdt.jpg
+&#13;
+卖家还送了个小控制盒，不过是不是和机器配套就不知道了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tr09ypj212w0q1kjl.jpg
+&#13;
+编号No.001，ASSY M600663-1
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25ttj28ij212w0q1npd.jpg
+&#13;
+接口部分，原来有个风扇早已被拆去了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tvurxnj212w0q1u0x.jpg
+&#13;
+航空插座，里面还带了个同轴接口，也是第一次见。估计雷达来的模拟信号从这里进入
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25u0ns68j212w0q1qv5.jpg
+&#13;
+巨型航空插座
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u1cu6dj212w0q14qq.jpg
+&#13;
+故障指示灯，里面镀金的
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25u6ausfj212w0q11ky.jpg
+&#13;
+灯珠是白炽灯泡，灯罩里面还有一层钢网。果然高级货都是在细节上取胜
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u7i2jpj212w0q14qp.jpg
+&#13;
+下面看，这是贴在机箱上的温度指示标签，可用于检测设备运转过程中的最大温度。当温度超过标签上对应值时，相应的圆圈会变黑，而且会一直保持黑色不会变回来。这样把设备放在飞机上运转一段时间，回来后就能知道最高温度是多少。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uanq7yj212w0q1x6p.jpg
+&#13;
+拿电吹风吹了好一会，170度的圈就变黑了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uezg0cj212w0q1x6p.jpg
+&#13;
+机器屁股，里面藏了一块巨大的磁芯存储模块
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25uhtxlej212w0q1kjl.jpg
+&#13;
+散热出风口
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25vwzk3nj212w0q1hdt.jpg
+&#13;
+下面拆开一块侧面板，可以看到里面复杂的总线结构。。。。
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25w6je4rj212w0q1e81.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga25w9oclnj212w0q1hdu.jpg
+&#13;
+近距离，这是使用专门的绕线工具手工连接的电路。由于不需要印刷线路，且方便改装和样机制作，在早期的计算机、军用设备中很常见
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wdjy2oj212w0q14qq.jpg
+&#13;
+线束
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25weubt4j212w0q1hdt.jpg
+&#13;
+俩kemet的镀银钽电容
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wisua3j212w0q1000.jpg
+&#13;
+这两个接口可能是用来调试或者烧录程序的(纯属瞎猜)
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wk17y0j212w0q1b2a.jpg
+&#13;
+下面打开另一侧面的盖子。。。发现里面少了不少板子啊，看来想把机器跑起来是不可能了
+&#13;
+不过还好，还剩了7块电路板
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wujauaj212w0q1kjl.jpg
+&#13;
+侧过来看，电路板上不少芯片
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wvtrj3j212w0q1e81.jpg
+&#13;
+换个角度
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25x0ho2kj212w0q11ky.jpg
+&#13;
+这有个14MHz晶振，好似是有源的，为系统提供时钟
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25x3kh9tj212w0q1qv5.jpg
+&#13;
+还有一个被拆了
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xabb0uj212w0q1x6p.jpg
+&#13;
+下面拔出第一块板，简直美哭了难以想象，1968年老美就已经有表面贴片技术了。想当年，阿姆斯特朗还没有登月，东方红还没有上天，大多数中国工程师连集成电路是啥都没听说过
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga25xen35uj212w0q11ky.jpg
+&#13;
+然而反面。。。呃
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xhto17j212w0q11ky.jpg
+&#13;
+这线走得太飘逸了。。。不过应该也是作为原型机制作的，只是用来验证功能而已。
+&#13;
+这上面用的飞线我也是头一次见，似乎是镀银线上裹了一层非常薄的透明绝缘材料，看上去和裸露的一样
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25xklkzmj212w0q1hdu.jpg
+&#13;
+芯片，由通用仪器(General Instruments)制造，用途未知。看上去比较像缓存之类的东西。这家公司后来被Microchip公司(也就是做PIC单片机那家公司)收购。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xn833mj212w0q1hdu.jpg
+&#13;
+电路板接口也比较特殊，空心镀金圆柱
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25xtrk92j212w0q11ky.jpg
+&#13;
+下面取出第二款块板子。
+&#13;
+可见电路板完全由不锈钢制成，镶嵌在铝质框架中。
+&#13;
+这块板子上全是小规模集成电路，应该用来实现逻辑功能
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xw9tkvj212w0q11ky.jpg
+&#13;
+反面也是一样的飘逸
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25y33zekj212w0q1u0x.jpg
+&#13;
+仔细看发现每个芯片的电源和地连接到隐藏在板子内部的电源总线上，其余的脚也是用的特殊镀银飞线
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25y6m9xkj212w0q17wi.jpg
+&#13;
+第三块板子，上面除了贴片芯片还多了几个仙童半导体的直插芯片。当然型号都查不到了
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ya02t3j212w0q11ky.jpg
+&#13;
+这块板正反两面都有元件
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga25ydkayvj212w0q11ky.jpg
+&#13;
+其实是两个不锈钢电路板嵌在同一个铝框两面
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yfqdgsj212w0q1x6p.jpg
+&#13;
+电路板编号也是001哦
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yjng54j212w0q14qq.jpg
+&#13;
+其他的几块板其实也大同小异，都是非常多的小规模集成电路
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2602jj1uj212w0q11ky.jpg
+&#13;
+这个编号002
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2605xwvdj212w0q11ky.jpg
+&#13;
+板子上也贴了温度标签，用来观察机器内部温度
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260ac51ij212w0q1kjl.jpg
+&#13;
+这块板显然是出了问题，手工飞线调试的
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260f2d7vj212w0q11ky.jpg。。。
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga260j6rzaj212w0q1e82.jpg
+&#13;
+这块也一样。
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga260osawpj212w0q11ky.jpghttps://wx1.sinaimg.cn/large/7406e5bcgy1ga260sp500j212w0q11ky.jpg
+&#13;
+飞线飞线飞线。。。
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga260waqxlj212w0q11ky.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga2610igkcj212w0q11ky.jpg
+&#13;
+所有剩下的电路板都拿出来了，可以看到每块板底部都有不同位置的定位插销，防止差错插槽
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2618gs24j212w0q1qv5.jpg
+&#13;
+侧面看
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga261bvxqdj212w0q1kjl.jpg
+&#13;
+空机箱，每个插座上写了对应模块的编号
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga261hsuvtj212w0q1x6p.jpg
+&#13;
+所有电路板合影
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261ktoajj212w0q1x6p.jpg下面看看细节。这些电路板上用的小规模集成电路由美国Sylvania(喜万年，也就是现在做灯的那个厂家)出品。这个公司也是最早生产制造集成电路的厂家之一，然而做到后面就不行了。。。。
+&#13;
+不得不提的是，喜万年在1963年研制成功TTL集成电路，是世界上最早制造出TTL集成电路的厂家(对，比大名鼎鼎的德州仪器和74系列芯片早)。这台机器里用的就是喜万年的第一代TTL集成电路。这种迷你的封装叫做flat pack，在60年代较为常见，并且被大量运用于军事设备中。
+&#13;
+图中的SGxxx是逻辑门(gate)，SFxxx是触发器(flip-flop)。根据资料，SG220是与非门，SG200是8输入与非门，SF130时50MHz的j-k触发器。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261o9h5bj212w0q1qv6.jpg
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga261rre9jj212w0q17wi.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga261vl2nmj212w0q14qq.jpg
+&#13;
+主机里面没啥好看的了，下面打开机器屁股上的盖子看看里面有啥
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263tysfoj212w0q1qv5.jpg
+&#13;
+铭牌，这个模块由Litton公司生产。这家公司是美国著名的军火生产商，旗下产品包含了导航系统、火控系统、航空航天等，甚至帮NASA生产过宇航服。
+&#13;
+铭牌上没写啥有价值的信息，不过据资料这是个32KB的磁芯存储模块
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263w3x3yj212w0q1u0x.jpg
+&#13;
+拆下来
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga263zpfhwj212w0q1kjl.jpg接口
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2642vyobj212w0q1qv5.jpg单独看，上面写着bad memory，说明内存模块也坏了23333
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26478lgtj212w0q1b29.jpg
+&#13;
+整个模块完全被金属包裹，还贴了封条
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga264a2jizj212w0q1b29.jpg封条写着立顿公司/导航与控制分部，最后日期1972年7月12日
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga264ef71uj212w0q1qv5.jpg本来不想破坏封条，但为了看看里面到底啥样，还是忍痛拆了。。。
+&#13;
+侧面拆掉，看到一堆磁芯存储板，叠在一起
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga264hpc5zj212w0q1u0x.jpg换个角度
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga264lpiqdj212w0q11ky.jpg顶上的盖子里应该还有东西，继续拆
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga264oz8b8j212w0q1qv5.jpg
+&#13;
+刚开盖，一道金光闪过。。。我要瞎了。。。。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga264t4ul0j212w0q17wi.jpg全是金色的芯片，整齐排列着。。。。
+&#13;
+不得不说到现在为止，这是我见过最漂亮的电路了
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga264xu1poj212w0q14qq.jpg拿下来，这是正面
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga2651h2u6j212w0q1u0x.jpg反面还有一层，两块板子分别贴在一块钢板两侧
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2654mgrtj212w0q1u0x.jpg
+&#13;
+正面电路板编号001
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2658pdhtj212w0q14qq.jpg
+&#13;
+仙童的芯片
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga265cknnaj212w0q1u0y.jpg这些是陶瓷排阻
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga265g72hzj212w0q11kz.jpg电阻
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga265itqs1j212w0q17wi.jpg白色的是摩托罗拉的芯片
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga265rk3faj212w0q1qv6.jpgSN5400，大名鼎鼎的TI出现了！这是flat pack封装的74系列TTL芯片，生产日期1968年第四周。54代表军用级别芯片，5400自然是大名鼎鼎的4与非门了
+&#13;
+据说1968年的时候一颗这样的芯片价值20美刀，显然整个系统造价一定不菲
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga265uubb5j212w0q1u0y.jpg电容等无源器件
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga265ysdybj212w0q14qq.jpg模块的另一边也有一个类似的电路板
+&#13;
+正面和之前的完全一样，估计是磁芯读写的前端电路
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26629v33j212w0q14qq.jpg反面不太一样
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga26666ijij212w0q14qq.jpg
+&#13;
+飞线还是不能避免的
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2669nup5j212w0q14qr.jpg电阻
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga266f2uz2j212w0q1x6q.jpg两块板子合影，这是反面，功能不同，元件排布也不一样
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga266jdkmvj212w0q1x6p.jpg正面，看似是一样的
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga266n76eej212w0q14qq.jpg看看序列号，一个是01，一个是02。序列号是丝印上去的，老美真是费心了。。。
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga266r4fs1j212w0q17wi.jpg芯片大小可能不是很直观，加个参照物
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga266wsd64j212w0q11kz.jpg近照，现代的74HC芯片和50年前的54芯片同台亮相
+&#13;
+发现虽然过了这么久，贴片SO封装的脚距和50年前却完全没有变化。不得不感慨老美制定规范时的远见。再看看我们，很多规范都是朝令夕改，难以延续。
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga2670kcyjj212w0q1x6q.jpg
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga2675jwtkj212w0q1x6q.jpg
+&#13;
+拆掉板子后的模块，不锈钢材质
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg
+&#13;
+镀金接口
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga267f8a63j212w0q1qv5.jpg
+&#13;
+再拆，可以看到磁芯存储堆了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267i1g7tj212w0q11ky.jpg最顶上是二极管板，下面的都是磁芯板。可惜焊在一起的，不能无损拆解，所以不拆了
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267lsq63j212w0q1b2a.jpg二极管阵列
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga267p5t8nj212w0q1kjm.jpg一堆走线
+&#13;
+https://wx4.sinaimg.cn/large/7406e5bcgy1ga267t020aj212w0q17wi.jpg这里还有个小板，上面的芯片简直是八国联军。。。
+&#13;
+从左至右依次来自国家半导体(NS)，德州仪器(TI)，摩托罗拉，HELIPOT(一个生产电阻的厂家)，最右边是仙童。
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga267wpcvmj212w0q1u0x.jpg最后来几张模块全貌。因为实在是太美了，忍不住多发几张图
+&#13;
+https://wx1.sinaimg.cn/large/7406e5bcgy1ga268159q7j212w0q1u0x.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga26e4pyczj212w0q1npd.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268632akj212w0q1npd.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga2689w2ydj212w0q1kjl.jpg
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268dcmpfj212w0q1e81.jpg
+&#13;
+就此拆解完成
+&#13;
+https://wx3.sinaimg.cn/large/7406e5bcgy1ga268gchpvj212w0q1x6p.jpg
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga2695jfazj212w0q11ky.jpg
+&#13;
+最后来张可当桌面的图镇楼
+&#13;
+https://wx2.sinaimg.cn/large/7406e5bcgy1ga26998y0kj212w0q14qq.jpg ———————————————————————————————The End——————————————————————————————————————感谢阅读———</description>
+      <content:encoded><![CDATA[<p><b>哈里.谢顿: </b><br>
+<span>1968年的美国军用计算机拆解</span><br>
+<span> 本帖最后由 哈里.谢顿 于 2019-12-19 21:15 编辑 </span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404451273108750593#_0</span><br>
+<span>​​本文罗老师于2016年11月13日发布于数码之家，2019年12月15日授权我转载到微博                图文共计101P，2825字，预计耗费数据39MB，阅读时间20分钟这台机器在本人的eBay收藏夹里呆了很久，某日无意间扫了一眼收藏夹，突然发现卖家大降价，只要15刀，还有best offer选项。15刀你买不了吃亏，15刀你买不了上当。事不宜迟果断下手。</span><br>
+<span>根据非常有限的资料显示，这台机器代号为AN/ASX-2，是1968年美军为F4战斗机开发的非协助式敌我识别系统中的一部分。所谓非协助式敌我识别就是不通过无线电应答机，而直接通过分析目标的特征信息识别目标类型。自然这样的系统会有较大的误判可能性。这次拆解的机器是通过对雷达接收的回波进行频谱分析，得到对方机型，判断目标种类。当然这个设备已经非常旧了，时至今日已经完全失去了保密价值，加上1988年美军由于误判，击落了一架伊朗的民航客机(参见伊朗航空655号班机空难)，美国随后终止了非协助式敌我识别系统的研发(当然私下里有没有做就不知道了)。因此这样的设备也被彻底废弃，作为电子垃圾出现在了互联网上。</span><br>
+<span>这次得到的机器，序列号是001。据说这套设备一共也只生产过6台，估计这台是美军研制出的第一台样机，也很可能是美国1965年开始研发以来第一台能工作的机器，因此个人感觉它的历史上价值也是不小的。不过显然机器已经不能工作，里面缺了几块板卡，模拟前端之类的电路也都被拆除。不过大体上还算完整。发上来也给大家开开眼界吧。</span><br>
+<span>外壳，灰色的，啥也看不出来</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ta32xyj212w0q1hdt.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ta32xyj212w0q1hdt.jpg"><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tew9nvj212w0q1npd.jpg这面写了一些字，意思是机器是坏的，只能用来当配件了</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tgt9rfj212w0q1e81.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tgt9rfj212w0q1e81.jpg"><br>
+<span>这面贴了两张温度感应贴纸，后面介绍</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tnpkakj212w0q1hdt.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tnpkakj212w0q1hdt.jpg"><br>
+<span>卖家还送了个小控制盒，不过是不是和机器配套就不知道了</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tr09ypj212w0q1kjl.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25tr09ypj212w0q1kjl.jpg"><br>
+<span>编号No.001，ASSY M600663-1</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25ttj28ij212w0q1npd.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25ttj28ij212w0q1npd.jpg"><br>
+<span>接口部分，原来有个风扇早已被拆去了</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tvurxnj212w0q1u0x.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25tvurxnj212w0q1u0x.jpg"><br>
+<span>航空插座，里面还带了个同轴接口，也是第一次见。估计雷达来的模拟信号从这里进入</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25u0ns68j212w0q1qv5.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25u0ns68j212w0q1qv5.jpg"><br>
+<span>巨型航空插座</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u1cu6dj212w0q14qq.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u1cu6dj212w0q14qq.jpg"><br>
+<span>故障指示灯，里面镀金的</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25u6ausfj212w0q11ky.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25u6ausfj212w0q11ky.jpg"><br>
+<span>灯珠是白炽灯泡，灯罩里面还有一层钢网。果然高级货都是在细节上取胜</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u7i2jpj212w0q14qp.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25u7i2jpj212w0q14qp.jpg"><br>
+<span>下面看，这是贴在机箱上的温度指示标签，可用于检测设备运转过程中的最大温度。当温度超过标签上对应值时，相应的圆圈会变黑，而且会一直保持黑色不会变回来。这样把设备放在飞机上运转一段时间，回来后就能知道最高温度是多少。</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uanq7yj212w0q1x6p.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uanq7yj212w0q1x6p.jpg"><br>
+<span>拿电吹风吹了好一会，170度的圈就变黑了</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uezg0cj212w0q1x6p.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25uezg0cj212w0q1x6p.jpg"><br>
+<span>机器屁股，里面藏了一块巨大的磁芯存储模块</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25uhtxlej212w0q1kjl.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25uhtxlej212w0q1kjl.jpg"><br>
+<span>散热出风口</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25vwzk3nj212w0q1hdt.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25vwzk3nj212w0q1hdt.jpg"><br>
+<span>下面拆开一块侧面板，可以看到里面复杂的总线结构。。。。</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25w6je4rj212w0q1e81.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga25w9oclnj212w0q1hdu.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25w6je4rj212w0q1e81.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga25w9oclnj212w0q1hdu.jpg"><br>
+<span>近距离，这是使用专门的绕线工具手工连接的电路。由于不需要印刷线路，且方便改装和样机制作，在早期的计算机、军用设备中很常见</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wdjy2oj212w0q14qq.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wdjy2oj212w0q14qq.jpg"><br>
+<span>线束</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25weubt4j212w0q1hdt.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25weubt4j212w0q1hdt.jpg"><br>
+<span>俩kemet的镀银钽电容</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wisua3j212w0q1000.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wisua3j212w0q1000.jpg"><br>
+<span>这两个接口可能是用来调试或者烧录程序的(纯属瞎猜)</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wk17y0j212w0q1b2a.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wk17y0j212w0q1b2a.jpg"><br>
+<span>下面打开另一侧面的盖子。。。发现里面少了不少板子啊，看来想把机器跑起来是不可能了</span><br>
+<span>不过还好，还剩了7块电路板</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wujauaj212w0q1kjl.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25wujauaj212w0q1kjl.jpg"><br>
+<span>侧过来看，电路板上不少芯片</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wvtrj3j212w0q1e81.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25wvtrj3j212w0q1e81.jpg"><br>
+<span>换个角度</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25x0ho2kj212w0q11ky.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25x0ho2kj212w0q11ky.jpg"><br>
+<span>这有个14MHz晶振，好似是有源的，为系统提供时钟</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25x3kh9tj212w0q1qv5.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25x3kh9tj212w0q1qv5.jpg"><br>
+<span>还有一个被拆了</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xabb0uj212w0q1x6p.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xabb0uj212w0q1x6p.jpg"><br>
+<span>下面拔出第一块板，简直美哭了难以想象，1968年老美就已经有表面贴片技术了。想当年，阿姆斯特朗还没有登月，东方红还没有上天，大多数中国工程师连集成电路是啥都没听说过</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25xen35uj212w0q11ky.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga25xen35uj212w0q11ky.jpg"><br>
+<span>然而反面。。。呃</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xhto17j212w0q11ky.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xhto17j212w0q11ky.jpg"><br>
+<span>这线走得太飘逸了。。。不过应该也是作为原型机制作的，只是用来验证功能而已。</span><br>
+<span>这上面用的飞线我也是头一次见，似乎是镀银线上裹了一层非常薄的透明绝缘材料，看上去和裸露的一样</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25xklkzmj212w0q1hdu.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25xklkzmj212w0q1hdu.jpg"><br>
+<span>芯片，由通用仪器(General Instruments)制造，用途未知。看上去比较像缓存之类的东西。这家公司后来被Microchip公司(也就是做PIC单片机那家公司)收购。</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xn833mj212w0q1hdu.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xn833mj212w0q1hdu.jpg"><br>
+<span>电路板接口也比较特殊，空心镀金圆柱</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25xtrk92j212w0q11ky.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25xtrk92j212w0q11ky.jpg"><br>
+<span>下面取出第二款块板子。</span><br>
+<span>可见电路板完全由不锈钢制成，镶嵌在铝质框架中。</span><br>
+<span>这块板子上全是小规模集成电路，应该用来实现逻辑功能</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xw9tkvj212w0q11ky.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25xw9tkvj212w0q11ky.jpg"><br>
+<span>反面也是一样的飘逸</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25y33zekj212w0q1u0x.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25y33zekj212w0q1u0x.jpg"><br>
+<span>仔细看发现每个芯片的电源和地连接到隐藏在板子内部的电源总线上，其余的脚也是用的特殊镀银飞线</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25y6m9xkj212w0q17wi.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25y6m9xkj212w0q17wi.jpg"><br>
+<span>第三块板子，上面除了贴片芯片还多了几个仙童半导体的直插芯片。当然型号都查不到了</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ya02t3j212w0q11ky.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga25ya02t3j212w0q11ky.jpg"><br>
+<span>这块板正反两面都有元件</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25ydkayvj212w0q11ky.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga25ydkayvj212w0q11ky.jpg"><br>
+<span>其实是两个不锈钢电路板嵌在同一个铝框两面</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yfqdgsj212w0q1x6p.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yfqdgsj212w0q1x6p.jpg"><br>
+<span>电路板编号也是001哦</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yjng54j212w0q14qq.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga25yjng54j212w0q14qq.jpg"><br>
+<span>其他的几块板其实也大同小异，都是非常多的小规模集成电路</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga2602jj1uj212w0q11ky.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga2602jj1uj212w0q11ky.jpg"><br>
+<span>这个编号002</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga2605xwvdj212w0q11ky.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga2605xwvdj212w0q11ky.jpg"><br>
+<span>板子上也贴了温度标签，用来观察机器内部温度</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga260ac51ij212w0q1kjl.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga260ac51ij212w0q1kjl.jpg"><br>
+<span>这块板显然是出了问题，手工飞线调试的</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga260f2d7vj212w0q11ky.jpg。。。</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga260j6rzaj212w0q1e82.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga260j6rzaj212w0q1e82.jpg"><br>
+<span>这块也一样。</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga260osawpj212w0q11ky.jpghttps://wx1.sinaimg.cn/large/7406e5bcgy1ga260sp500j212w0q11ky.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga260osawpj212w0q11ky.jpghttps://wx1.sinaimg.cn/large/7406e5bcgy1ga260sp500j212w0q11ky.jpg"><br>
+<span>飞线飞线飞线。。。</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga260waqxlj212w0q11ky.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga2610igkcj212w0q11ky.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga260waqxlj212w0q11ky.jpghttps://wx2.sinaimg.cn/large/7406e5bcgy1ga2610igkcj212w0q11ky.jpg"><br>
+<span>所有剩下的电路板都拿出来了，可以看到每块板底部都有不同位置的定位插销，防止差错插槽</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2618gs24j212w0q1qv5.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2618gs24j212w0q1qv5.jpg"><br>
+<span>侧面看</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga261bvxqdj212w0q1kjl.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga261bvxqdj212w0q1kjl.jpg"><br>
+<span>空机箱，每个插座上写了对应模块的编号</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga261hsuvtj212w0q1x6p.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga261hsuvtj212w0q1x6p.jpg"><br>
+<span>所有电路板合影</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga261ktoajj212w0q1x6p.jpg下面看看细节。这些电路板上用的小规模集成电路由美国Sylvania(喜万年，也就是现在做灯的那个厂家)出品。这个公司也是最早生产制造集成电路的厂家之一，然而做到后面就不行了。。。。</span><br>
+<span>不得不提的是，喜万年在1963年研制成功TTL集成电路，是世界上最早制造出TTL集成电路的厂家(对，比大名鼎鼎的德州仪器和74系列芯片早)。这台机器里用的就是喜万年的第一代TTL集成电路。这种迷你的封装叫做flat pack，在60年代较为常见，并且被大量运用于军事设备中。</span><br>
+<span>图中的SGxxx是逻辑门(gate)，SFxxx是触发器(flip-flop)。根据资料，SG220是与非门，SG200是8输入与非门，SF130时50MHz的j-k触发器。</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga261o9h5bj212w0q1qv6.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga261o9h5bj212w0q1qv6.jpg"><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga261rre9jj212w0q17wi.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga261rre9jj212w0q17wi.jpg"><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga261vl2nmj212w0q14qq.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga261vl2nmj212w0q14qq.jpg"><br>
+<span>主机里面没啥好看的了，下面打开机器屁股上的盖子看看里面有啥</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga263tysfoj212w0q1qv5.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga263tysfoj212w0q1qv5.jpg"><br>
+<span>铭牌，这个模块由Litton公司生产。这家公司是美国著名的军火生产商，旗下产品包含了导航系统、火控系统、航空航天等，甚至帮NASA生产过宇航服。</span><br>
+<span>铭牌上没写啥有价值的信息，不过据资料这是个32KB的磁芯存储模块</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga263w3x3yj212w0q1u0x.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga263w3x3yj212w0q1u0x.jpg"><br>
+<span>拆下来</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga263zpfhwj212w0q1kjl.jpg接口</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga2642vyobj212w0q1qv5.jpg单独看，上面写着bad memory，说明内存模块也坏了23333</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga26478lgtj212w0q1b29.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga26478lgtj212w0q1b29.jpg"><br>
+<span>整个模块完全被金属包裹，还贴了封条</span><br>
+<span>https://wx2.sinaimg.cn/large/7406e5bcgy1ga264a2jizj212w0q1b29.jpg封条写着立顿公司/导航与控制分部，最后日期1972年7月12日</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga264ef71uj212w0q1qv5.jpg本来不想破坏封条，但为了看看里面到底啥样，还是忍痛拆了。。。</span><br>
+<span>侧面拆掉，看到一堆磁芯存储板，叠在一起</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga264hpc5zj212w0q1u0x.jpg换个角度</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga264lpiqdj212w0q11ky.jpg顶上的盖子里应该还有东西，继续拆</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga264oz8b8j212w0q1qv5.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga264oz8b8j212w0q1qv5.jpg"><br>
+<span>刚开盖，一道金光闪过。。。我要瞎了。。。。</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga264t4ul0j212w0q17wi.jpg全是金色的芯片，整齐排列着。。。。</span><br>
+<span>不得不说到现在为止，这是我见过最漂亮的电路了</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga264xu1poj212w0q14qq.jpg拿下来，这是正面</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga2651h2u6j212w0q1u0x.jpg反面还有一层，两块板子分别贴在一块钢板两侧</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga2654mgrtj212w0q1u0x.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga2654mgrtj212w0q1u0x.jpg"><br>
+<span>正面电路板编号001</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2658pdhtj212w0q14qq.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2658pdhtj212w0q14qq.jpg"><br>
+<span>仙童的芯片</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga265cknnaj212w0q1u0y.jpg这些是陶瓷排阻</span><br>
+<span>https://wx2.sinaimg.cn/large/7406e5bcgy1ga265g72hzj212w0q11kz.jpg电阻</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga265itqs1j212w0q17wi.jpg白色的是摩托罗拉的芯片</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga265rk3faj212w0q1qv6.jpgSN5400，大名鼎鼎的TI出现了！这是flat pack封装的74系列TTL芯片，生产日期1968年第四周。54代表军用级别芯片，5400自然是大名鼎鼎的4与非门了</span><br>
+<span>据说1968年的时候一颗这样的芯片价值20美刀，显然整个系统造价一定不菲</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga265uubb5j212w0q1u0y.jpg电容等无源器件</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga265ysdybj212w0q14qq.jpg模块的另一边也有一个类似的电路板</span><br>
+<span>正面和之前的完全一样，估计是磁芯读写的前端电路</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga26629v33j212w0q14qq.jpg反面不太一样</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga26666ijij212w0q14qq.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga26666ijij212w0q14qq.jpg"><br>
+<span>飞线还是不能避免的</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga2669nup5j212w0q14qr.jpg电阻</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga266f2uz2j212w0q1x6q.jpg两块板子合影，这是反面，功能不同，元件排布也不一样</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga266jdkmvj212w0q1x6p.jpg正面，看似是一样的</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga266n76eej212w0q14qq.jpg看看序列号，一个是01，一个是02。序列号是丝印上去的，老美真是费心了。。。</span><br>
+<span>https://wx1.sinaimg.cn/large/7406e5bcgy1ga266r4fs1j212w0q17wi.jpg芯片大小可能不是很直观，加个参照物</span><br>
+<span>https://wx2.sinaimg.cn/large/7406e5bcgy1ga266wsd64j212w0q11kz.jpg近照，现代的74HC芯片和50年前的54芯片同台亮相</span><br>
+<span>发现虽然过了这么久，贴片SO封装的脚距和50年前却完全没有变化。不得不感慨老美制定规范时的远见。再看看我们，很多规范都是朝令夕改，难以延续。</span><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga2670kcyjj212w0q1x6q.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga2670kcyjj212w0q1x6q.jpg"><br>
+<img src="https://wx4.sinaimg.cn/large/7406e5bcgy1ga2675jwtkj212w0q1x6q.jpg" title="https://wx4.sinaimg.cn/large/7406e5bcgy1ga2675jwtkj212w0q1x6q.jpg"><br>
+<span>拆掉板子后的模块，不锈钢材质</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg"><br>
+<span>镀金接口</span><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga267f8a63j212w0q1qv5.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga267f8a63j212w0q1qv5.jpg"><br>
+<span>再拆，可以看到磁芯存储堆了</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga267i1g7tj212w0q11ky.jpg最顶上是二极管板，下面的都是磁芯板。可惜焊在一起的，不能无损拆解，所以不拆了</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga267lsq63j212w0q1b2a.jpg二极管阵列</span><br>
+<span>https://wx2.sinaimg.cn/large/7406e5bcgy1ga267p5t8nj212w0q1kjm.jpg一堆走线</span><br>
+<span>https://wx4.sinaimg.cn/large/7406e5bcgy1ga267t020aj212w0q17wi.jpg这里还有个小板，上面的芯片简直是八国联军。。。</span><br>
+<span>从左至右依次来自国家半导体(NS)，德州仪器(TI)，摩托罗拉，HELIPOT(一个生产电阻的厂家)，最右边是仙童。</span><br>
+<span>https://wx3.sinaimg.cn/large/7406e5bcgy1ga267wpcvmj212w0q1u0x.jpg最后来几张模块全貌。因为实在是太美了，忍不住多发几张图</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga268159q7j212w0q1u0x.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga268159q7j212w0q1u0x.jpg"><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga26e4pyczj212w0q1npd.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga26e4pyczj212w0q1npd.jpg"><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268632akj212w0q1npd.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268632akj212w0q1npd.jpg"><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga2689w2ydj212w0q1kjl.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga2689w2ydj212w0q1kjl.jpg"><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268dcmpfj212w0q1e81.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268dcmpfj212w0q1e81.jpg"><br>
+<span>就此拆解完成</span><br>
+<img src="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268gchpvj212w0q1x6p.jpg" title="https://wx3.sinaimg.cn/large/7406e5bcgy1ga268gchpvj212w0q1x6p.jpg"><br>
+<img src="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2695jfazj212w0q11ky.jpg" title="https://wx2.sinaimg.cn/large/7406e5bcgy1ga2695jfazj212w0q11ky.jpg"><br>
+<span>最后来张可当桌面的图镇楼</span><br>
+<span>https://wx2.sinaimg.cn/large/7406e5bcgy1ga26998y0kj212w0q14qq.jpg ———————————————————————————————The End——————————————————————————————————————感谢阅读———</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>看不到图 有微博地址嘛</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>会玩熊孩子 发表于 2019-12-19 21:09</span><br>
+<span>看不到图 有微博地址嘛</span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404451273108750593#_0</span><br>
+<span>奇怪，为我这里可以</span><br>
+</p><p><b>rahicis: </b><br>
+<span>能看到图</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>哈里.谢顿 发表于 2019-12-19 21:10</span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404451273108750593#_0</span><br>
+<span>奇怪，为我这里可以 ...</span><br>
+<span>刷新了几遍看见图了 再刷新又没了.....大概微博图床不能带S吧</span><br>
+</p><p><b>stevenzero: </b><br>
+<span>我也脑补过pcb出现前电路板是什么样，真看到还是挺震撼，真跟面包板差不多啊。</span><br>
+</p><p><b>dstar: </b><br>
+<span>还是那句话，引用微博图最好图片地址https去掉s啊。。。</span><br>
+</p><p><b>Mr.Cheung: </b><br>
+<span>看着看着想起了影视飓风某期评测了一套十年前RED的电影摄影机，用现在的眼光看也是显得比较落后，电子设备这玩意儿在过去大半个世纪的时间里真是一直保持高速进步啊，曾经是高级军事机密的东西几十年后就只是电子垃圾......</span><br>
+</p><p><b>山鬼: </b><br>
+<span>能看到图，这么大个，存储空间才32k</span><br>
+</p><p><b>Panda付: </b><br>
+<span>电子行业确实比机械复杂上万倍 代差也更加致命</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>近照，现代的74HC芯片和50年前的54芯片同台亮相</span><br>
+<span>发现虽然过了这么久，贴片SO封装的脚距和50年前却完全没有变化。不得不感慨老美制定规范时的远见。再看看我们，很多规范都是朝令夕改，难以延续。</span><br>
+<span>这也能黑一把zf？</span><br>
+</p><p><b>patchper: </b><br>
+<span>74系列居然50年没变过，真的是。。。</span><br>
+</p><p><b>烈士鲮鱼: </b><br>
+<span>real_zyf 发表于 2019-12-19 08:40</span><br>
+<span>这也能黑一把zf？</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>那一堆工艺品一样的电路板，现在一块soc就搞定了。</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>这东西看着好重啊，放到现在可能几克就解决了</span><br>
+</p><p><b>辉夜姬: </b><br>
+<span>拆掉板子后的模块，不锈钢材质</span><br>
+<img src="https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg" title="https://wx1.sinaimg.cn/large/7406e5bcgy1ga267a23tvj212w0q1u0x.jpg"><br>
+<span>=========================</span><br>
+<span>这个看光泽像铝呢？</span><br>
+<span>真是这么厚的不锈钢也不利于散热吧……</span><br>
+</p><p><b>liuliu66: </b><br>
+<span>real_zyf 发表于 2019-12-19 21:40</span><br>
+<span>这也能黑一把zf？</span><br>
+<span>就是，明明连续性是我们的优点才对，真不要脸，这文章的屁股歪到哪里去了</span><br>
+</p><p><b>lindley: </b><br>
+<span>再顺便看了一下楼主在评论里的对话，的确是一声赞叹</span><br>
+</p><p><b>biye: </b><br>
+<span>贴新浪图源时把https里的s去掉</span><br>
+</p><p><b>samaleg: </b><br>
+<span> 本帖最后由 samaleg 于 2019-12-19 23:31 编辑 </span><br>
+<span>real_zyf 发表于 2019-12-19 21:40</span><br>
+<span>这也能黑一把zf？</span><br>
+<span>当然可以黑</span><br>
+<span>比如说耳机插头，全球都一样，就国标定义不同，更傻逼的是我只在现实中见过苹果的行货耳机采用这个标准，国产货我就没见过鸟过这个标准的</span><br>
+<span>还有推行不下去的标准，比如08年那附近的行货手机没wifi，因为wapi</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>lindley 发表于 2019-12-19 23:04</span><br>
+<span>再顺便看了一下楼主在评论里的对话，的确是一声赞叹</span><br>
+<span>和我对话的一个人是做军工的，帮空军干过的</span><br>
+</p><p><b>yikaa: </b><br>
+<span>这密密麻麻的线。</span><br>
+</p><p><b>Rei_Lily: </b><br>
+<span>15刀也太便宜了吧，这堆东西就算用料也不止15刀</span><br>
+</p><p><b>JITAN: </b><br>
+<span>看过视频阿波罗11号计算机的飞线也挺奔放的</span><br>
+<span>—— 来自 HUAWEI EML-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>samaleg 发表于 2019-12-19 23:30</span><br>
+<span>当然可以黑</span><br>
+<span>比如说耳机插头，全球都一样，就国标定义不同，更傻逼的是我只在现实中见过苹果的行货耳机采 ...</span><br>
+<span>这俩不需要这样来趁机黑，我也没说不能黑，但是这种明明不相关的文也要暗搓搓的趁机黑一把太low了，电气上出于各种自私理由定的莫名其妙的标准明明也有一大堆，刚好这soic是个大家都用的而已</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>鬥爭的弦上得很緊嘛，不就是隨口抱怨一句了，放輕鬆吧</span><br>
+</p><p><b>acalephs: </b><br>
+<span>50多年过去了，5400依然活跃在电路板上</span><br>
+<span>这飞线水平也没比我强嘛</span><br>
+</p><p><b>hacisiki: </b><br>
+<span>那家造灯的叫希尔瓦尼亚?</span><br>
+</p><p><b>youjh: </b><br>
+<span>感觉里面能提炼出不少黄金</span><br>
+</p><p><b>绝赞販売中: </b><br>
+<span>samaleg 发表于 2019-12-19 23:30</span><br>
+<span> 当然可以黑比如说耳机插头，全球都一样，就国标定义不同，更傻逼的是我只在现实中见过苹果的行货耳机采 ...</span><br>
+<span>08年我还没有自己的手机，不过我好奇wapi不是网络安全的吗？现在苹果貌似还有，这东西和没有Wi-Fi是啥联系</span><br>
+</p><p><b>acalephs: </b><br>
+<span>绝赞販売中 发表于 2019-12-19 11:16</span><br>
+<span>08年我还没有自己的手机，不过我好奇wapi不是网络安全的吗？现在苹果貌似还有，这东西和没有Wi-Fi是啥联 ...</span><br>
+<span>中国大陆要求带有WIFI功能的手机必须兼容WAPI。早期的IPhone用的WIFI芯片不支持WAPI，所以出现了没有WIFI功能的特供版国行iPhone。</span><br>
+<span>后来都兼容了，WAPI兼容一下也挺简单的。</span><br>
+</p><p><b>kina: </b><br>
+<span>绝赞販売中 发表于 2019-12-20 03:16:30</span><br>
+<span>08年我还没有自己的手机，不过我好奇wapi不是网络安全的吗？现在苹果貌似还有，这东西和没有Wi-Fi是啥联 ...当年诺基亚不少行货手机都是wapi的没有WiFi，比如e71当年就为了WiFi买的水货</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>kazefsh: </b><br>
+<span>安军工的做法一定后面还有100台一样的这台是被挑出来的。</span><br>
+</p><p><b>过河小马: </b><br>
+<span>寺川愛美 发表于 2019-12-20 01:40</span><br>
+<span>鬥爭的弦上得很緊嘛，不就是隨口抱怨一句了，放輕鬆吧</span><br>
+<span>人家也不过随口抱怨一句，你们不也掀起批判小高潮了么，可见某些弦也绷得挺紧</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>youjh 发表于 2019-12-20 03:09:02</span><br>
+<span>感觉里面能提炼出不少黄金我记得以前调查洋垃圾提炼的新闻里，收东西的人最喜欢军工品和实验室及仪表测量器材，应为里面用料考究很大方</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-12-20 09:48 编辑 </span><br>
+<span>哈里.谢顿 发表于 2019-12-19 23:34</span><br>
+<span>和我对话的一个人是做军工的，帮空军干过的</span><br>
+<span>要这么说我还帮陆军干过活呢…………</span><br>
+<span>张口就是毛爹的历史博主吗…………</span><br>
+<span>指着这个50年前的玩意说山寨不出来的人，除了说这人有屁股我什么也说不出来…………做过电路吗……</span><br>
+</p><p><b>ahsammas: </b><br>
+<span>感觉这电脑里面的黄金就不止15美元了</span><br>
+</p><p><b>hanyuwei70: </b><br>
+<span>绝赞販売中 发表于 2019-12-20 03:16:30</span><br>
+<span>08年我还没有自己的手机，不过我好奇wapi不是网络安全的吗？现在苹果貌似还有，这东西和没有Wi-Fi是啥联 ...WAPI当时是为了解决WEP的安全问题出来的，后来没有打过WPA/WPA2。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>hanyuwei70 发表于 2019-12-20 09:49</span><br>
+<span>WAPI当时是为了解决WEP的安全问题出来的，后来没有打过WPA/WPA2。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 And ...</span><br>
+<span>然而强推wapi，国行诺基亚没wlan的那个年代，wpa早出来了，市面上卖的路由器都802.11g了</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>薛素姐: </b><br>
+<span>68年的普通人看了估计认为是外星科技</span><br>
+</p><p><b>shimotsuki14: </b><br>
+<span>真是技术活儿</span><br>
+</p><p><b>EP2: </b><br>
+<span>samaleg 发表于 2019-12-19 23:30</span><br>
+<span>当然可以黑</span><br>
+<span>比如说耳机插头，全球都一样，就国标定义不同，更傻逼的是我只在现实中见过苹果的行货耳机采 ...</span><br>
+<span>耳机插头分明是欧洲和美国2个标准，当年诺基亚如日中天，我们当然跟欧标啦，谁知道人家死这么早啊</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span>落后就要挨打</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>过河小马 发表于 2019-12-20 09:03</span><br>
+<span>人家也不过随口抱怨一句，你们不也掀起批判小高潮了么，可见某些弦也绷得挺紧 ...</span><br>
+<span>...你對放輕鬆怕不是有點誤解</span><br>
+</p><p><b>过河小马: </b><br>
+<span>寺川愛美 发表于 2019-12-20 19:35</span><br>
+<span>...你對放輕鬆怕不是有點誤解</span><br>
+<span>你放轻松了吗？</span><br>
+</p><p><b>hellgate11: </b><br>
+<span>ahsammas 发表于 2019-12-20 09:43</span><br>
+<span>感觉这电脑里面的黄金就不止15美元了</span><br>
+<span>都是镀金玩意，你全刮下来也没几克</span><br>
+</p><p><b>忒弥斯: </b><br>
+<span>为什么图只有部分能出来？</span><br>
+</p><p><b>棺材叔叔: </b><br>
+<span>这东西当年搞一台给tg能卖多少钱</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>哈里.谢顿: </b><br>
+<span>棺材叔叔 发表于 2019-12-20 22:06</span><br>
+<span>这东西当年搞一台给tg能卖多少钱</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>越战时期我们有搞到过F4残骸的（猴子送的），然后学了不少东西</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>那个日期看美国的写法，应该是12月7日72年吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904163[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>新电脑玩dota2经常闪退</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>新电脑玩dota2经常闪退</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:13:14 +0000</lastBuildDate>
+    <item>
+      <title>新电脑玩dota2经常闪退[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863900-1-1.html</link>
+      <description>新电脑玩dota2经常闪退&#13;
+ 本帖最后由 evooil 于 2019-11-6 15:45 编辑 
+
+今年8月份配的3600X加B450M迫击炮掠食者DDR4 3200 8G*2海康**的1t固态2070s的七彩虹显卡 驱动什么的都是最新的
+&#13;
+最开始是系统蓝屏（不管在不在玩游戏，真游戏蓝屏好像就一次，后来重装最近都没出现了 )游戏中还会时不时右上角报网络问题，
+&#13;
+现在是打的时候卡住之后游戏没了回来桌面等一会再运行重连继续打 （多的时候一把能有3、4次，也有全程正常打完的）
+&#13;
+看到chh有帖子说内存频率的关系 已经调到2400了可还是闪退（就是想用高频内存才升级的主机，我的4790k加ddr3稳的一B啊）
+&#13;
+还有老哥让我跑了下P95的第二项测试和aida64单钩内存项，都正常跑了30分钟，问题还是没用找到。
+&#13;
+有老司机能指条路吗？是不是只能排除法了
+&#13;
+早上一把就选人阶段闪退了下重连后正常打完。下午一把猴子大牛小牛混沌打团就闪退。。。感觉又变成显卡问题了</description>
+      <content:encoded><![CDATA[<p><b>evooil: </b><br>
+<span>新电脑玩dota2经常闪退</span><br>
+<span> 本帖最后由 evooil 于 2019-11-6 15:45 编辑 </span><br>
+<span>今年8月份配的3600X加B450M迫击炮掠食者DDR4 3200 8G*2海康**的1t固态2070s的七彩虹显卡 驱动什么的都是最新的</span><br>
+<span>最开始是系统蓝屏（不管在不在玩游戏，真游戏蓝屏好像就一次，后来重装最近都没出现了 )游戏中还会时不时右上角报网络问题，</span><br>
+<span>现在是打的时候卡住之后游戏没了回来桌面等一会再运行重连继续打 （多的时候一把能有3、4次，也有全程正常打完的）</span><br>
+<span>看到chh有帖子说内存频率的关系 已经调到2400了可还是闪退（就是想用高频内存才升级的主机，我的4790k加ddr3稳的一B啊）</span><br>
+<span>还有老哥让我跑了下P95的第二项测试和aida64单钩内存项，都正常跑了30分钟，问题还是没用找到。</span><br>
+<span>有老司机能指条路吗？是不是只能排除法了</span><br>
+<span>早上一把就选人阶段闪退了下重连后正常打完。下午一把猴子大牛小牛混沌打团就闪退。。。感觉又变成显卡问题了</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>有话好好说，为什么要绿底</span><br>
+<span>我先来，你用iu会这样？</span><br>
+</p><p><b>evooil: </b><br>
+<span> 粉色猛男 发表于 2019-11-6 15:45 有话好好说，为什么要绿底我先来，你用iu会这样？ </span><br>
+<span>我信了amd yes的鬼啊 </span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>evooil 发表于 2019-11-6 15:53</span><br>
+<span>我信了amd yes的鬼啊</span><br>
+<span>我这就玩个梗</span><br>
+<span>这事说不准谁背锅，可能AMD背也可能不是AMD背</span><br>
+<span>就比如我的1600X+1070，各项压力测试没问题，也用了2年没问题，但是开量子破碎就必定闪退，我也不知道啥情况，最后决定不玩了</span><br>
+<span>内存测试的话要用memtest跑，比较花时间</span><br>
+<span>CPU和GPU测试用AIAD64烤下差不多了</span><br>
+<span>可以考虑内存和显卡先找替换的做排除法试试看</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>你为什么不用5700xt，这样就可以甩锅给A卡了</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>说不定还可能是bug10的锅</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>说了一堆实际可用信息很少………………</span><br>
+<span>软件:升级主板bios 重装系统 建议乖乖1903 乖乖去官网下驱动</span><br>
+<span>显卡驱动如果要卸载的进安全模式用ddu卸</span><br>
+<span>以上操作做了还不行，内存 显卡一个个试错，保不定哪个坏了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-11-6 16:30 编辑 </span><br>
+<span>1 重装的系统是1903吗+最新AMD官方驱动甚至主板bios也得考虑升级或者降级一下</span><br>
+<span>2 N卡驱动不一定是最新的最好，找找稳定版，不过之前有要求更新到391还是什么版本来着</span><br>
+<span>3 还是从内存开始排查 跑mentest过200%再说</span><br>
+<span>4 海康的M2可印刷驱动的，这里作为一个检查点试试看别的驱动</span><br>
+</p><p><b>evooil: </b><br>
+<span>这电脑还是看网上视频后自己装的，本想说这次体验diy体验amd的，现在想还不如找萌叔</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>evooil 发表于 2019-11-6 16:30</span><br>
+<span>这电脑还是看网上视频后自己装的，本想说这次体验diy体验amd的，现在想还不如找萌叔 ...</span><br>
+<span>新手初体验有些小问题再正常不过了，你要装的intel多半也难逃一劫</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>evooil 发表于 2019-11-6 16:30</span><br>
+<span>这电脑还是看网上视频后自己装的，本想说这次体验diy体验amd的，现在想还不如找萌叔 ...</span><br>
+<span>双十一正准备自己的装的看着你</span><br>
+</p><p><b>evooil: </b><br>
+<span> wwdzcjsmxx 发表于 2019-11-6 16:57 引用:evooil 发表于 2019-11-6 16:30 这电脑还是看网上视频后自己装的，本想说这次体验diy体验amd的，现在想还不如找萌叔 ... 双十一正准备自己的装的看着你 </span><br>
+<span>动手能力强的话还行 抄个配置 </span><br>
+<span>我这次完全xjb弄的 小毛病太恶心了</span><br>
+</p><p><b>pulotocore: </b><br>
+<span>烤鸡没有问题的话是不是考虑重新做一下系统试试</span><br>
+<span>—— 来自 OPPO PCLM10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>King5268: </b><br>
+<span>要是我就备份一下系统，然后重装，只装跟dota有关的软件再试一下，系统的问题有的时候真的说不清，AMD背锅好多年</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>我新装的电脑一打开无主之地2就闪退重启，验证完整性说缺少一个文件，然后steam就开始自动下载，再打开还是闪退，然后又说缺少一个文件</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>你可以试试: </b><br>
+<span>我3600x b450 打了好几把一点问题没有，我还嫌这破dead game服务器垃圾配不上我的电脑呢</span><br>
+</p><p><b>qianheng: </b><br>
+<span>amd不背锅</span><br>
+</p><p><b>evooil: </b><br>
+<span>你可以试试 发表于 2019-11-6 18:10</span><br>
+<span>我3600x b450 打了好几把一点问题没有，我还嫌这破dead game服务器垃圾配不上我的电脑呢 ...</span><br>
+<span>额刚才又打了2把我把渲染开到倒数第二档好像不闪退了倒是有2次网络断开连接</span><br>
+<span>2070s2k 144都不能开到最高吗？</span><br>
+</p><p><b>你可以试试: </b><br>
+<span> 本帖最后由 你可以试试 于 2019-11-6 20:19 编辑 </span><br>
+<span>evooil 发表于 2019-11-6 19:54</span><br>
+<span>额刚才又打了2把我把渲染开到倒数第二档好像不闪退了倒是有2次网络断开连接</span><br>
+<span>2070s2k 144都不能开 ...</span><br>
+<span>我2060全开稳定120</span><br>
+<span>看了一下主楼，用的还是凄惨红？怀疑显卡供电boom</span><br>
+</p><p><b>evooil: </b><br>
+<span> 你可以试试 发表于 2019-11-6 20:16本帖最后由 你可以试试 于 2019-11-6 20:19 编辑引用:evooil 发表于 2019-11-6 19:54 额  刚才又打了2把  我把渲染开到倒数第二档好像不闪退了  倒是有2次网络断开连接 2070s  2k 144都不能开 ... 我2060全开稳定120 看了一下主楼，用的还是凄惨红？怀疑显卡供电boom</span><br>
+<span>跑furmark能看出来吗</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>win10都能蓝屏，多半你内存运行有问题，要么是U有问题。显卡有问题顶多花屏白屏进不了游戏，不至于中途闪退；要么就是电源有问题</span><br>
+</p><p><b>sssfans: </b><br>
+<span>电源什么型号？多少瓦的</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>看了下回复 这又是蓝屏 又是游戏闪退的加网络崩的 带概率是系统驱动没弄好 电源怕不是也有问题 总之还真不是amd的锅 换成Intel碰上问题电源也是这尿性啊</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>之前朋友组的x570+3700x也经常不定时蓝屏重启，结果是主板bios问题要更新后才能正常</span><br>
+</p><p><b>Hetarre: </b><br>
+<span>别慌</span><br>
+<span>大概率win10的问题</span><br>
+<span>俺也经常遇见这个问题</span><br>
+<span>解决方法两个</span><br>
+<span>1，重装win10</span><br>
+<span>2，卸载dota2</span><br>
+</p><p><b>evooil: </b><br>
+<span> sssfans 发表于 2019-11-6 21:15 电源什么型号？多少瓦的 </span><br>
+<span>EVGA G3 650w 我自己淘宝了定制线</span><br>
+</p><p><b>evooil: </b><br>
+<span> tsubasa9 发表于 2019-11-6 21:27 之前朋友组的x570 3700x也经常不定时蓝屏重启，结果是主板bios问题要更新后才能正常 </span><br>
+<span>嗯 貌似就是bios更新后就没蓝屏了</span><br>
+</p><p><b>香木香香: </b><br>
+<span>遇到过同样问题</span><br>
+<span>重装游戏系统都不管用</span><br>
+<span>内存频率恢复默认，什么事都没有了</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>evooil 发表于 2019-11-6 19:54</span><br>
+<span>额刚才又打了2把我把渲染开到倒数第二档好像不闪退了倒是有2次网络断开连接</span><br>
+<span>2070s2k 144都不能开 ...</span><br>
+<span>我个人建议你换块显卡测试</span><br>
+<span>或者换几个驱动试试</span><br>
+<span>游戏闪退其他没问题</span><br>
+<span>很多时候就是显卡和驱动</span><br>
+<span>甚至还有可能是电源问题</span><br>
+</p><p><b>torpedo: </b><br>
+<span>新收了一台电脑 1700+ b350 +芝奇 8g *2 +5700xt超白金</span><br>
+<span>斧王岛测试 调出所有斧王直接降到30帧，但是外面看到各种负载没有到最满，会是什么原因？内存 cpu gpu 都默频使用</span><br>
+<span>这个平台唯一有点有点的是系统装在一块pcie转nvme转接卡上的ssd</span><br>
+<span>但游戏装在另外一块ssd上，会是这个原因吗？</span><br>
+</p><p><b>evooil: </b><br>
+<span>问题应该找到了关闭“周身布料模拟”   其他效果可以全开 渲染100% 每秒150帧 今天打了3把都没有闪退了</span><br>
+<span>本来这个答案在chh那里还看到过关键那老哥说"我是linux,关了周身布料模拟就好了。。。“我就去看内存降频了</span><br>
+</p><p><b>pulotocore: </b><br>
+<span>evooil 发表于 2019-11-7 16:14</span><br>
+<span>问题应该找到了关闭“周身布料模拟”   其他效果可以全开 渲染100% 每秒150帧 今天打了3把都没有闪退了</span><br>
+<span> ...</span><br>
+<span>有这么个选项来着？回去看一眼</span><br>
+<span>—— 来自 OPPO PCLM10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>有些事情讲不清的，又不是当QA</span><br>
+<span>我装的3700X，之前跑EU4 1.28必跳出，放置2个月，期间唯一的变化只有1903的更新补丁，EU4升级1.29，然后我还回退和之前一样的版本，就啥事没有了</span><br>
+</p><p><b>litel: </b><br>
+<span>我3700x内存3800c15显卡5700xt</span><br>
+<span>dota2全开没闪退过。。。</span><br>
+<span>你蓝屏文件发上来看看咯？</span><br>
+<span>C:\Windows\minidump里所有文件</span><br>
+</p><p><b>evooil: </b><br>
+<span> litel 发表于 2019-11-7 17:07 我3700x内存3800c15显卡5700xt dota2全开没闪退过。。。你蓝屏文件发上来看看咯？ C:\Windows\minidump里所有文件</span><br>
+<span>更新bios后没蓝屏了 而且我还重装了次系统</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863900[0-50]</guid>
+    </item>
+  </channel>
+</rss>

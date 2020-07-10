@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>windows下快速切换音频输出和显示器的快捷软件有么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>windows下快速切换音频输出和显示器的快捷软件有么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:32:27 +0000</lastBuildDate>
+    <item>
+      <title>windows下快速切换音频输出和显示器的快捷软件有么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851371-1-1.html</link>
+      <description>windows下快速切换音频输出和显示器的快捷软件有么？&#13;
+ 本帖最后由 董卓 于 2019-8-5 10:41 编辑 
+
+场景是——床头显示器和桌上显示器，两个设备需要切换，两者不会同时使用、一个时间中仅一个使用。
+&#13;
+同时桌面音箱和床头耳机类似，两个输出设备需要随显示器同时切换。
+&#13;
+目标：
+&#13;
+一个脚本、绑定快捷键之后，按下快捷键，拿起无线手柄，往床上躺，开始在床上玩
+&#13;
+反过来，床上玩的出了点事情，需要做到桌前用鼠标键盘，爬到桌前，键盘快捷键盲按一次，就能切换回桌面显示和音箱
+&#13;
+当然如果最好能够和小爱同学之类的语音联动就更好了
+&#13;
+没有现成软件的话，有人指点写脚本方向么？还是说必须得搞了第三方软件再加命令行？</description>
+      <content:encoded><![CDATA[<p><b>董卓: </b><br>
+<span>windows下快速切换音频输出和显示器的快捷软件有么？</span><br>
+<span> 本帖最后由 董卓 于 2019-8-5 10:41 编辑 </span><br>
+<span>场景是——床头显示器和桌上显示器，两个设备需要切换，两者不会同时使用、一个时间中仅一个使用。</span><br>
+<span>同时桌面音箱和床头耳机类似，两个输出设备需要随显示器同时切换。</span><br>
+<span>目标：</span><br>
+<span>一个脚本、绑定快捷键之后，按下快捷键，拿起无线手柄，往床上躺，开始在床上玩</span><br>
+<span>反过来，床上玩的出了点事情，需要做到桌前用鼠标键盘，爬到桌前，键盘快捷键盲按一次，就能切换回桌面显示和音箱</span><br>
+<span>当然如果最好能够和小爱同学之类的语音联动就更好了</span><br>
+<span>没有现成软件的话，有人指点写脚本方向么？还是说必须得搞了第三方软件再加命令行？</span><br>
+</p><p><b>john: </b><br>
+<span>你好，没有的</span><br>
+<span>第三方软件自己研究</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-8-5 10:59 编辑 </span><br>
+<span>切显示器用win+p，切音频设备用audio switcher，按键精灵做脚本...</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>买个hdmi切换器，可以考虑买带遥控板的，音频从hdmi分出来</span><br>
+</p><p><b>董卓: </b><br>
+<span>第二次赞美伟大的nirsoft https://bbs.saraba1st.com/2b/thread-1812490-1-1.html</span><br>
+<span>https://www.nirsoft.net/utils/nircmd.html</span><br>
+<span>nircmd showsounddevices</span><br>
+<span>nircmd setdefaultsounddevice "xxx"</span><br>
+<span>显示器倒是简单，直接</span><br>
+<span>displayswitch /internal</span><br>
+<span>displayswitch /external</span><br>
+</p><p><b>BorisX: </b><br>
+<span>虽然主要不是为了这个需求，但是Voicemeeter应该可以实现，甚至你希望两个同时发声都可以</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851371[0-50]</guid>
+    </item>
+  </channel>
+</rss>

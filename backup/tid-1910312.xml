@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>超频碰到极限是主板拉胯还是这配件就这样了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>超频碰到极限是主板拉胯还是这配件就这样了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:39:05 +0000</lastBuildDate>
+    <item>
+      <title>超频碰到极限是主板拉胯还是这配件就这样了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910312-1-1.html</link>
+      <description>超频碰到极限是主板拉胯还是这配件就这样了&#13;
+春节回家更新家里的垃圾玩，首先电源管够 矿龙1250w
+&#13;
+主板实体店选了个坐牢硕的Z370M II Plus 10相供电
+&#13;
+手上这块新抓的jd 9600kf越南r0盒装 先直接4.8 然后1.232V的auto电压 P95 跑到我没耐心为止 用coretemp 看VID最高也就1.25V 温度79
+&#13;
+然后迷惑的情况出现了，在设置avx -0.2的情况下 1.35V才能进系统，1.38V才能FPU P95温度太高完全无法测试.这5.0/4.8 跟4.8/4.8有这么大的区别么……
+&#13;
+内存咸鱼同城买了Bdie下脚料的adata，在Vccio跟VCcsa都是1.2v的情况下.3600 1.45V 要 16-20-20-38-2T 3600才能进系统，而且一堆报错，但是当我把频率压到3200 时序可以压到14-14-14-36-1t 电压1.35v就稳了
+&#13;
+这什么jb条子跟cpu啊 是不是得换个微星到板子？华硕有类似memory try it 的玩意么？</description>
+      <content:encoded><![CDATA[<p><b>kuleisite1992: </b><br>
+<span>超频碰到极限是主板拉胯还是这配件就这样了</span><br>
+<span>春节回家更新家里的垃圾玩，首先电源管够 矿龙1250w</span><br>
+<span>主板实体店选了个坐牢硕的Z370M II Plus 10相供电</span><br>
+<span>手上这块新抓的jd 9600kf越南r0盒装 先直接4.8 然后1.232V的auto电压 P95 跑到我没耐心为止 用coretemp 看VID最高也就1.25V 温度79</span><br>
+<span>然后迷惑的情况出现了，在设置avx -0.2的情况下 1.35V才能进系统，1.38V才能FPU P95温度太高完全无法测试.这5.0/4.8 跟4.8/4.8有这么大的区别么……</span><br>
+<span>内存咸鱼同城买了Bdie下脚料的adata，在Vccio跟VCcsa都是1.2v的情况下.3600 1.45V 要 16-20-20-38-2T 3600才能进系统，而且一堆报错，但是当我把频率压到3200 时序可以压到14-14-14-36-1t 电压1.35v就稳了</span><br>
+<span>这什么jb条子跟cpu啊 是不是得换个微星到板子？华硕有类似memory try it 的玩意么？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>你CPU散热呢？感觉U的体制质也一般，你要是超内存就也上幻光戟B-die吧</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>madbird302 发表于 2020-1-22 00:32</span><br>
+<span>你CPU散热呢？感觉U的体制质也一般，你要是超内存就也上幻光戟B-die吧</span><br>
+<span>散热无所谓，6热管老B81，冬天玩肯定是够用了。1.38V的情况下FPU也就70度 P95主要是核心瞬间95度然后就停止工作，都来不及散热。</span><br>
+<span>毕竟室温8度+没有机箱</span><br>
+<span>问题是5g和4.8g比也就加了0.2g 还是AVX4.8G的 也就是跑FPU和P95其实都还是4.8g</span><br>
+<span>4.8g的主板自动电压是1.232V，肯定还能降的。</span><br>
+<span>就是这个5.0g要1.35V才能进系统实在想不通。</span><br>
+<span>对了，5G情况下主板没有auto电压，直接黑。</span><br>
+<span>内存是16g双面单条DDR3000，就一根，超着玩。这个是Bdie没错， TRFC起手可以压到380都没事，就是3333都上不去着实恼火。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2020-1-22 00:46 编辑 </span><br>
+<span>因为avx-2你电压还是按照5G VID/设定电压得到的.</span><br>
+<span>看供电相数没啥用,我那块不也是10相,然后单U功耗180W跳闸.</span><br>
+<span>1.23v 烤机79度,感觉散热也不咋地....</span><br>
+<span>既然5G不行,4.9G/4.9G得了,推测也就需要1.32v左右.不过你这散热还是啥估计极限烤机也不行.</span><br>
+<span>1.38V感觉应该不够,因为你1.35v才进系统,怎么也得+0.05v-0.1v P95</span><br>
+<span>感觉和我那块差不多,应该稍好,毕竟我那块1.42v都无法通过avx渲染测试.</span><br>
+<span>另外温度太高会影响体制.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>CPU存在拐点的,某个频率之后电压需求猛增.基本这个决定体制了.</span><br>
+<span>能低电压上5G的9600kf估计1/3不到的吧.</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>塔奇克马 发表于 2020-1-22 00:44</span><br>
+<span>因为avx-2你电压还是按照5G VID/设定电压得到的.</span><br>
+<span>看供电相数没啥用,我那块不也是10相,然后单U功耗180W跳闸. ...</span><br>
+<span>如果是FPU的话温度会低非常多。但是这个主板没有5g的auto电压才是我恼火的地方。我都不知道稳定进系统电压是多少。1.35v以下进不去系统，但是实际上P95掉压到1.264v也没死机就是掉线程。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>kuleisite1992 发表于 2020-1-22 00:59</span><br>
+<span>如果是FPU的话温度会低非常多。但是这个主板没有5g的auto电压才是我恼火的地方。我都不知道稳定进系统电 ...</span><br>
+<span>Aida64 FPU对于没有HT的U负载像玩具一样.</span><br>
+<span>你要进不去那就是进不去.因为这个时候负载不高,是考验低负载,有些时候低负载电压要求比高负载电压要求还要高.</span><br>
+<span>你这掉压到是挺严重的.价格不高,plus+后缀不会是丐版吧</span><br>
+<span>有稳压吗?调下稳压.</span><br>
+</p><p><b>madbird302: </b><br>
+<span>kuleisite1992 发表于 2020-1-22 00:43</span><br>
+<span>散热无所谓，6热管老B81，冬天玩肯定是够用了。1.38V的情况下FPU也就70度 P95主要是核心瞬间95度然后就停 ...</span><br>
+<span>我用的9600K，现在跑4.9也就是1.25，温度很稳定，所以还是感觉你踩到雷了</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>下脚料换什么板子都没用 自身pcb层数太少了串扰太严重 3200缩时序凑合用吧</span><br>
+</p><p><b>tyx776: </b><br>
+<span>应该跟板子没什么关系。就是英特尔的u官方已经给你最好的频率了。什么超低电压5g进系统，这些都是吹逼，稳定是另外一回事。我那颗8700k卖家说能稳的电压根本不行，我还特地买了块太极。这些u极难稳定p95最新版本</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910312[0-50]</guid>
+    </item>
+  </channel>
+</rss>

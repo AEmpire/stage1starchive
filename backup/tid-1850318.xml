@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Potplayer实时字幕翻译中的Bing翻译功能要怎样才能正常使用？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Potplayer实时字幕翻译中的Bing翻译功能要怎样才能正常使用？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:38:59 +0000</lastBuildDate>
+    <item>
+      <title>Potplayer实时字幕翻译中的Bing翻译功能要怎样才能正常使用？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850318-1-1.html</link>
+      <description>Potplayer实时字幕翻译中的Bing翻译功能要怎样才能正常使用？&#13;
+大家应该知道Potplayer有一个实时字幕翻译功能，可选择的翻译器有Bing和谷歌，此外网上还可以搜到安装百度翻译进Potplayer的方法，不过我也试过了，百度翻译的质量相比谷歌还是有差距。
+&#13;
+但是，使用谷歌翻译字幕的话，用不到几分钟翻译功能就会自动掉线，这个大概是跟墙有关系。而如果选择用Bing来翻译，则Potplayer根本就连视频都打不开，直接弹出一个我看不懂的提示，只能关闭软件。
+&#13;
+所以我就想问一下，要如何进行操作、设置，才可以在Potplayer的实时字幕翻译功能中正常使用Bing翻译？还请哪位大神教我一下，谢谢。</description>
+      <content:encoded><![CDATA[<p><b>狂河冰不烈: </b><br>
+<span>Potplayer实时字幕翻译中的Bing翻译功能要怎样才能正常使用？</span><br>
+<span>大家应该知道Potplayer有一个实时字幕翻译功能，可选择的翻译器有Bing和谷歌，此外网上还可以搜到安装百度翻译进Potplayer的方法，不过我也试过了，百度翻译的质量相比谷歌还是有差距。</span><br>
+<span>但是，使用谷歌翻译字幕的话，用不到几分钟翻译功能就会自动掉线，这个大概是跟墙有关系。而如果选择用Bing来翻译，则Potplayer根本就连视频都打不开，直接弹出一个我看不懂的提示，只能关闭软件。</span><br>
+<span>所以我就想问一下，要如何进行操作、设置，才可以在Potplayer的实时字幕翻译功能中正常使用Bing翻译？还请哪位大神教我一下，谢谢。</span><br>
+</p><p><b>kruskal: </b><br>
+<span>你碰到的GOOGLE翻译掉线问题，我猜测是API请求存在限制。</span><br>
+<span>一般来说为了避免API滥用，服务商都会进行限制。</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>这个实时字幕需要原来的字幕吗？</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>laotoutou 发表于 2019-7-31 11:24</span><br>
+<span>这个实时字幕需要原来的字幕吗？</span><br>
+<span>需要吧，还没YouTube那么高级可以听声</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>风怒艹</span><br>
+</p><p><b>狂河冰不烈: </b><br>
+<span>kruskal 发表于 2019-7-31 11:24</span><br>
+<span>你碰到的GOOGLE翻译掉线问题，我猜测是API请求存在限制。</span><br>
+<span>一般来说为了避免API滥用，服务商都会进行限制。 ...</span><br>
+<span>请问这个有什么好的解决办法吗？</span><br>
+</p><p><b>kruskal: </b><br>
+<span>狂河冰不烈 发表于 2019-8-1 09:52</span><br>
+<span>请问这个有什么好的解决办法吗？</span><br>
+<span>https://cloud.google.com/translate/docs/samples</span><br>
+<span>如果能够学会，新用户GCP有免费的额度可供你翻译。</span><br>
+<span>https://github.com/BlackGlory/subtitle-translate-tmt</span><br>
+<span>这个则是我搜到一个腾讯云的实现，可供你参考。</span><br>
+</p><p><b>狂河冰不烈: </b><br>
+<span>kruskal 发表于 2019-8-1 14:30</span><br>
+<span>https://cloud.google.com/translate/docs/samples</span><br>
+<span>如果能够学会，新用户GCP有免费的额度可供你翻译。</span><br>
+<span>ht ...</span><br>
+<span>多谢！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850318[0-50]</guid>
+    </item>
+  </channel>
+</rss>

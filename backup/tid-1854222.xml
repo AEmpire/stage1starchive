@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网络相关疑难杂症。PC端网络疑似变成单线程？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网络相关疑难杂症。PC端网络疑似变成单线程？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:14:38 +0000</lastBuildDate>
+    <item>
+      <title>网络相关疑难杂症。PC端网络疑似变成单线程？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854222-1-1.html</link>
+      <description>网络相关疑难杂症。PC端网络疑似变成单线程？&#13;
+ 本帖最后由 粉色猛男 于 2019-8-18 15:36 编辑 
+
+今天刚从老家回来，就遇到这破事，手游都没法肝了。情况比较复杂，还请各位耐心听我道来。
+&#13;
+基础：PC端，使用无线网卡。
+&#13;
+手机端 
+&#13;
+症状：
+&#13;
+当PC端进行多个（2个或以上）联网操作时，必定断网（ping请求超时，所有连接都断开）。
+&#13;
+比如：开机后，打开浏览器，进入S1—&gt;正常
+&#13;
+打开另一个标签页，进入百度—&gt;断线
+&#13;
+关闭其他标签页，只用S1—&gt;正常
+&#13;
+有时候第二个联网操作就断，有时候第三四个。
+&#13;
+模拟器开手游也是，只开一个正常，开第二个就断。
+&#13;
+1个网页+LOL这样也会断
+&#13;
+但是在PC端断网的时候，手机端连接wifi是正常的。 
+&#13;
+变量：
+&#13;
+1.WIN 10更新。（罪魁祸首预定）
+&#13;
+从18年4月版本被强制更新到了1903.
+&#13;
+2.联通上门更换了新的光猫和套餐。
+&#13;
+上门的技术人员声称旧的光猫只能拨号上网不能DHCP，换了新的光猫后只能DHCP不能拨号上网。套餐由原来的单宽带变成了大王卡捆绑。
+&#13;
+3.路由器。
+&#13;
+技术人员上门更换光猫的时候，把家里的路由器reset了 
+&#13;
+重装过网卡驱动，没啥卵用，现在手头又没多的网线。之前就这个无线网卡也用的好好的
+&#13;
+补一个挂着ping时网络从有到无的过程，关闭多余的网络连接只留下一个后就会恢复正常</description>
+      <content:encoded><![CDATA[<p><b>粉色猛男: </b><br>
+<span>网络相关疑难杂症。PC端网络疑似变成单线程？</span><br>
+<span> 本帖最后由 粉色猛男 于 2019-8-18 15:36 编辑 </span><br>
+<span>今天刚从老家回来，就遇到这破事，手游都没法肝了。情况比较复杂，还请各位耐心听我道来。</span><br>
+<span>基础：PC端，使用无线网卡。</span><br>
+<span>手机端 </span><br>
+<span>症状：</span><br>
+<span>当PC端进行多个（2个或以上）联网操作时，必定断网（ping请求超时，所有连接都断开）。</span><br>
+<span>比如：开机后，打开浏览器，进入S1—>正常</span><br>
+<span>打开另一个标签页，进入百度—>断线</span><br>
+<span>关闭其他标签页，只用S1—>正常</span><br>
+<span>有时候第二个联网操作就断，有时候第三四个。</span><br>
+<span>模拟器开手游也是，只开一个正常，开第二个就断。</span><br>
+<span>1个网页+LOL这样也会断</span><br>
+<span>但是在PC端断网的时候，手机端连接wifi是正常的。 </span><br>
+<span>变量：</span><br>
+<span>1.WIN 10更新。（罪魁祸首预定）</span><br>
+<span>从18年4月版本被强制更新到了1903.</span><br>
+<span>2.联通上门更换了新的光猫和套餐。</span><br>
+<span>上门的技术人员声称旧的光猫只能拨号上网不能DHCP，换了新的光猫后只能DHCP不能拨号上网。套餐由原来的单宽带变成了大王卡捆绑。</span><br>
+<span>3.路由器。</span><br>
+<span>技术人员上门更换光猫的时候，把家里的路由器reset了 </span><br>
+<span>重装过网卡驱动，没啥卵用，现在手头又没多的网线。之前就这个无线网卡也用的好好的</span><br>
+<span>补一个挂着ping时网络从有到无的过程，关闭多余的网络连接只留下一个后就会恢复正常</span><br>
+</p><p><b>騜: </b><br>
+<span>1、买个网线直连PC的网口和路由器，排除无线网卡驱动问题这个变量，几块钱包邮的事</span><br>
+<span>2、路由器具体是什么型号的，看LZ表述不清估计也没有刷什么第三方固件了，再进路由看看是不是默认开了QOS之类</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>騜 发表于 2019-8-18 15:35</span><br>
+<span>1、买个网线直连PC的网口和路由器，排除无线网卡驱动问题这个变量，几块钱包邮的事</span><br>
+<span>2、路由器具体是什么型 ...</span><br>
+<span>TP LINK的某款，好像是TL-WR890N ，没刷固件，没开QOS（我进路由管理界面都没找到有这个功能）</span><br>
+<span>至于网线，过段时间再说吧，一会我就要出门赶高铁</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854222[0-50]</guid>
+    </item>
+  </channel>
+</rss>

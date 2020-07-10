@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>买了个tl-c12,NH-D15咋装12cm的扇子？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>买了个tl-c12,NH-D15咋装12cm的扇子？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:35 +0000</lastBuildDate>
+    <item>
+      <title>买了个tl-c12,NH-D15咋装12cm的扇子？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844974-1-1.html</link>
+      <description>买了个tl-c12,NH-D15咋装12cm的扇子？&#13;
+ 本帖最后由 sakuyamai 于 2019-7-10 17:30 编辑 
+
+买d15的时候，看chh的12cm风扇评测贴顺便买了个利民c12玩玩，本来打算装散热器上内存位的
+&#13;
+d15买的时候发现机箱太小，内存位没法抬高安装14cm扇子，自带的卡扣没法装12cm的扇子
+&#13;
+淘宝上搜了下也不知道选哪种，九州风神那种12cm能扣住不？ 猫u12s的卡扣呢？
+&#13;
+--
+&#13;
+目前用单风扇的d15比起以前macho rev.b9900k 4.7g ring4.3g，待机package温度从40度变成33度，单烤aida64第一项71变成了64，fpu关机箱烤6分钟从100度降频21%，变成89度
+&#13;
+硅脂7868，d15上的硅脂还是从前天涂好的macho上刮下来直接给d15用的
+&#13;
+果然用9900k这种火炉不能随便乱买扇子
+&#13;
+顺便说下这C12，不知道和装在前面板有没有关系，1500转的时候很吵，1000转开始 距离50cm能听见声音，设到900转才听不到
+&#13;
+机箱5种扇子追风者PH-F120MP，bequiet pure wings 2 12、14cm，TL-C12 ，d15上的A15
+&#13;
+满速噪音C12&gt;F120mp&gt;A15&gt;pure wings2 14cm &gt;pure wings2 12cm(12c最高才1200转）
+&#13;
+C12比起F120mp会产生一种战斗机一样的声音，声音特别大http://static.saraba1st.com/image/smiley/face2017/068.png 不知道是不是因为放在闷罐机箱前面的原因，如果放散热器上也这么吵的话还不如用F120mp
+&#13;
+----
+&#13;
+原标题:台机默频烤fpu上来就88度，过5分钟就过热降频是啥问题？
+&#13;
+看了前几天硅脂的贴，买了7868。瞬间降了10度，但总感觉机器本身有问题。
+&#13;
+我9900k+ 利民macho rev.B +z390 aorus master
+&#13;
+本来开个直播之类 cpu10%左右 ， 能到58度，前几天重置升级了bios变成了50度左右。（调过超频到5g再改回全默认就高个6-10度，升级了下bios果然就正常了）
+&#13;
+今天换了7868 好好抹后，现在是42度，待机的话大约38度，（主板也38度）
+&#13;
+可是不管是以前还是现在，单烤fpu都能过热99度降频。区别无非是以前瞬间就过热，现在能撑个3分钟从88度慢慢升到100度
+&#13;
+aida64单烤第一项cpu 倒是只有68度了，电压1.22v左右
+&#13;
+单烤fpu的时候，hwinfo里看cpu最高电压是1.27-1.28v，
+&#13;
+尝试机箱盖全开，跑fpu能坚持更久了，启动fpu上来就 88度（package 90度 ，8个核心85-90度），但之前是3分钟现在可能能撑个6分钟才过热
+&#13;
+我看别人大霜塔默频fpu也才70度，感觉这机器肯定有问题
+&#13;
+难道是这cpu的焊钳有问题，还是利民这扇子有问题，还是aorus master这主板全默认有问题？
+&#13;
+我分析了下
+&#13;
+1 首先这bios大概有问题，但现在升级了bios全默认了， 大概主板的影响小一点（全默认好像是全auto，默频fpu 1.28v正常吗？)
+&#13;
+2 大概这利民散热器有问题，首先蛮难装，固定螺丝的时候很容易滑来滑去。今天小心的涂抹+尽量保证不滑动的情况下安装螺丝，就这情况能一口气待机都降10度，总怀疑元凶是这散热，
+&#13;
+3 cpu有问题？就算这300价位的便宜散热，我看海外评测和顶级风冷满载好像差5度，就算再烂撑死差10度，也不可能跑个3分钟100度吧</description>
+      <content:encoded><![CDATA[<p><b>sakuyamai: </b><br>
+<span>买了个tl-c12,NH-D15咋装12cm的扇子？</span><br>
+<span> 本帖最后由 sakuyamai 于 2019-7-10 17:30 编辑 </span><br>
+<span>买d15的时候，看chh的12cm风扇评测贴顺便买了个利民c12玩玩，本来打算装散热器上内存位的</span><br>
+<span>d15买的时候发现机箱太小，内存位没法抬高安装14cm扇子，自带的卡扣没法装12cm的扇子</span><br>
+<span>淘宝上搜了下也不知道选哪种，九州风神那种12cm能扣住不？ 猫u12s的卡扣呢？</span><br>
+<span>--</span><br>
+<span>目前用单风扇的d15比起以前macho rev.b9900k 4.7g ring4.3g，待机package温度从40度变成33度，单烤aida64第一项71变成了64，fpu关机箱烤6分钟从100度降频21%，变成89度</span><br>
+<span>硅脂7868，d15上的硅脂还是从前天涂好的macho上刮下来直接给d15用的</span><br>
+<span>果然用9900k这种火炉不能随便乱买扇子</span><br>
+<span>顺便说下这C12，不知道和装在前面板有没有关系，1500转的时候很吵，1000转开始 距离50cm能听见声音，设到900转才听不到</span><br>
+<span>机箱5种扇子追风者PH-F120MP，bequiet pure wings 2 12、14cm，TL-C12 ，d15上的A15</span><br>
+<span>满速噪音C12>F120mp>A15>pure wings2 14cm >pure wings2 12cm(12c最高才1200转）</span><br>
+<span>C12比起F120mp会产生一种战斗机一样的声音，声音特别大http://static.saraba1st.com/image/smiley/face2017/068.png 不知道是不是因为放在闷罐机箱前面的原因，如果放散热器上也这么吵的话还不如用F120mp</span><br>
+<span>----</span><br>
+<span>原标题:台机默频烤fpu上来就88度，过5分钟就过热降频是啥问题？</span><br>
+<span>看了前几天硅脂的贴，买了7868。瞬间降了10度，但总感觉机器本身有问题。</span><br>
+<span>我9900k+ 利民macho rev.B +z390 aorus master</span><br>
+<span>本来开个直播之类 cpu10%左右 ， 能到58度，前几天重置升级了bios变成了50度左右。（调过超频到5g再改回全默认就高个6-10度，升级了下bios果然就正常了）</span><br>
+<span>今天换了7868 好好抹后，现在是42度，待机的话大约38度，（主板也38度）</span><br>
+<span>可是不管是以前还是现在，单烤fpu都能过热99度降频。区别无非是以前瞬间就过热，现在能撑个3分钟从88度慢慢升到100度</span><br>
+<span>aida64单烤第一项cpu 倒是只有68度了，电压1.22v左右</span><br>
+<span>单烤fpu的时候，hwinfo里看cpu最高电压是1.27-1.28v，</span><br>
+<span>尝试机箱盖全开，跑fpu能坚持更久了，启动fpu上来就 88度（package 90度 ，8个核心85-90度），但之前是3分钟现在可能能撑个6分钟才过热</span><br>
+<span>我看别人大霜塔默频fpu也才70度，感觉这机器肯定有问题</span><br>
+<span>难道是这cpu的焊钳有问题，还是利民这扇子有问题，还是aorus master这主板全默认有问题？</span><br>
+<span>我分析了下</span><br>
+<span>1 首先这bios大概有问题，但现在升级了bios全默认了， 大概主板的影响小一点（全默认好像是全auto，默频fpu 1.28v正常吗？)</span><br>
+<span>2 大概这利民散热器有问题，首先蛮难装，固定螺丝的时候很容易滑来滑去。今天小心的涂抹+尽量保证不滑动的情况下安装螺丝，就这情况能一口气待机都降10度，总怀疑元凶是这散热，</span><br>
+<span>3 cpu有问题？就算这300价位的便宜散热，我看海外评测和顶级风冷满载好像差5度，就算再烂撑死差10度，也不可能跑个3分钟100度吧</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-7-7 19:09 编辑 </span><br>
+<span>大霜塔压9900K才70℃的话你可以让九州风神送锦旗了</span><br>
+<span>事实上你这才是正常情况。</span><br>
+<span>现在也就D15之流能够保障9900K满载170W的情况下烤FPU在80多摄氏度。然后稍微次一丢丢的就直接只能稳90了。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>利民macho是低风量优化，静音玩家的选择</span><br>
+<span>高负载并不适合</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>大霜塔70度要么就是空调对着吹，要么就是主板里95w tdp墙还没解开</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>http://nga.178.com/read.php?pid=308010783</span><br>
+<span>我随便google乱搜的 这人说是大霜塔 ，不过那是冬天， 主板就20度比我这空调26度，主板38度的火炉牛逼多了，</span><br>
+<img src="https://i.loli.net/2019/07/07/5d21d40260a3c13184.png" title="https://i.loli.net/2019/07/07/5d21d40260a3c13184.png"><br>
+<img src="https://i.loli.net/2019/07/07/5d21d4094afe118035.png" title="https://i.loli.net/2019/07/07/5d21d4094afe118035.png"><br>
+<span>而我第一张图是刚跑fpu，第二张是4分钟后，</span><br>
+<span>macho说是静音，其实静音的jb,散热性能弱鸡，编译几秒或者打开吃cpu满载的网页，ty147突然满载的瞬时噪音变化简直在用游戏本</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2019-7-7 19:36 编辑 </span><br>
+<span>sakuyamai 发表于 2019-7-7 19:21</span><br>
+<span>http://nga.178.com/read.php?pid=308010783</span><br>
+<span>我随便google乱搜的 这人说是大霜塔 ，不过那是冬天， 主板就2 ...</span><br>
+<span>他这曲线还在45度往上走呢，压不住妥妥的而且你用法不是很对，这个散热器的存热能力比较强。</span><br>
+<span>所以推荐TY147定速在1000转(我的TY143就是这个转速，配合P280根本听不到声音)</span><br>
+</p><p><b>孤狼arcueid: </b><br>
+<span>这款其实更适合fanless那种</span><br>
+<span>单纯压9900这种还是u12a d15s 银剑 或者大霜塔啥的</span><br>
+<span>而且没事烤fpu干啥</span><br>
+<span>ps:直播现在推荐用n卡新的nvenc new</span><br>
+</p><p><b>violind88: </b><br>
+<span>是不是散热器没压紧 或者机箱风道是不是冲突了 不过待机温度不高</span><br>
+<span>大霜塔70度烤鸡听他吹 这天室温30度 烤鸡8 90度其实挺正常的</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>我就想确认下烤fpu默频能烤到过热降频是不是正常</span><br>
+<span>使用的话倒是用了7868这恼人风扇也不会太吵了</span><br>
+<span>这套给我的教训就是不能什么东西都买最静音的</span><br>
+<span>在“ 没有机械硬盘纯ssd环境 + 340w以下不转风扇的电源 + macho + 带风扇停转的显卡 ”下，就不应该买纯静音闷罐机箱，反而提高噪音</span><br>
+<span>静音向cpu散热也没啥用，配合静音机箱简直阿克琉斯之踵，当初就应该直接d15、银箭然后风扇策略调低转速就行了</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>sakuyamai 发表于 2019-7-7 19:34</span><br>
+<span>我就想确认下烤fpu默频能烤到过热降频是不是正常</span><br>
+<span>使用的话倒是用了7868这恼人风扇也不会太吵了</span><br>
+<span>给你贴个NGA的帖子吧。</span><br>
+<span>https://ngabbs.com/read.php?tid=15613959&rand=991</span><br>
+<span>单塔一般性能也就这样了。</span><br>
+<span>你的macho rev.A 压8700K 4.7G的默认，FPU也就是92.3℃。</span><br>
+<span>压你这8C16T的5G9900K降频那简直分分钟。</span><br>
+</p><p><b>Theseus: </b><br>
+<span>9900K @5g我用150I压fpu都上了80度啊</span><br>
+</p><p><b>ftu: </b><br>
+<span>Theseus 发表于 2019-7-7 19:40</span><br>
+<span>9900K @5g我用150I压fpu都上了80度啊</span><br>
+<span>你的电压是多少呀 跑fpu只有80度吗</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>sakuyamai 发表于 2019-7-7 19:34</span><br>
+<span>我就想确认下烤fpu默频能烤到过热降频是不是正常</span><br>
+<span>使用的话倒是用了7868这恼人风扇也不会太吵了</span><br>
+<span>是的我之前一台i5长期oc到4.2G使用，用macho+满载时900不到转速的风扇+洞洞流箱子就美滋滋</span><br>
+<span>macho的鳍片间距大，流速大的时候在鳍片中间有很大的区域是没有有效加热的，所以高功耗下根本比不过风速上来的密集鳍片的双塔散热</span><br>
+</p><p><b>Theseus: </b><br>
+<span>1.35V吧，不过不太稳，1-2周就会翻车1-2次</span><br>
+<span>还是降回4.5G   1.25V了</span><br>
+</p><p><b>ftu: </b><br>
+<span>同9900k 散热北极熊360 主板m11h 防掉压7 1.3v5ghz开空调开侧板情况下 单烤fpu温度会涨到97，电压掉到1.25v~1.26v跑p95第三项第一阶段时温度60~70 第二阶段暴涨到90多，电压同样会掉0.04v左右同时开始掉线程</span><br>
+<span>待机35~45单烤cpu温度则保持在60~70度</span><br>
+<span>不知道我这个电压这个温度到底正不正常 会不会是我散热器装的有问题?</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>谢谢楼上各位</span><br>
+<span>本来关注着银箭，结果jd上银箭 ib-e前几天过了618还有-50没下手，现在还直接下架了（不是没货），难道要出新品了，还是jd不打算进利民货了</span><br>
+<span>不过内存用的还是幻光戟，ibe大概第一个位置风扇还没法装，d15和be quiet都可以装。</span><br>
+<span>能选的大概还有DARK ROCK PRO 4和d15</span><br>
+<span>话说d15这扇子和d15s怎么比去年贵了这么多 鉴于猫头鹰今年完全没怎么跌，而be quiet活动能到500，现在买还是d15保值</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>我这有只4月刚入的IBE ls有兴趣不?</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span> 本帖最后由 sakuyamai 于 2019-7-8 05:38 编辑 </span><br>
+<span>看完chh上一堆9900k的功耗相关贴，我知道了只要烤fpu，想要默频 avx0不掉频，就应该500元级别的散热起步。现在这个散热 ，软件上显示150w功耗就100度了</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>拥挤的屋顶 发表于 2019-7-7 20:24</span><br>
+<span>我这有只4月刚入的IBE ls有兴趣不?</span><br>
+<span>想了下还是算了，4个幻光戟实在太烦，又不想风扇装在背后</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>正常用就是了，实际家用使用场景，几乎不可能达到跑FPU那种压力。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>你这数据整体而言问题不大啊,待机38 拷机90+</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>买d15的时候，看chh的12cm风扇评测贴顺便买了个利民c12玩玩，本来打算装散热器上内存位的</span><br>
+<span>d15买的时候发现机箱太小，内存位没法抬高安装14cm扇子，自带的卡扣没法装12cm的扇子</span><br>
+<span>淘宝上搜了下也不知道选哪种，九州风神那种12cm能扣住不？ 猫u12s的卡扣呢？</span><br>
+<span>--</span><br>
+<span>目前用单风扇的d15比起以前macho rev.b9900k 4.7g ring4.3g，待机package温度从40度变成33度，单烤aida64第一项71变成了64，fpu关机箱烤6分钟从100度降频21%，变成89度</span><br>
+<span>硅脂7868，d15上的硅脂还是从前天涂好的macho上刮下来直接给d15用的</span><br>
+<span>果然用9900k这种火炉不能随便乱买扇子</span><br>
+<span>顺便说下这C12，不知道和装在前面板有没有关系，1500转的时候很吵，1000转开始 距离50cm能听见声音，设到900转才听不到</span><br>
+<span>机箱5种扇子追风者PH-F120MP，bequiet pure wings 2 12、14cm，TL-C12 ，d15上的A15</span><br>
+<span>满速噪音C12>F120mp>A15>pure wings2 14cm >pure wings2 12cm(12c最高才1200转）</span><br>
+<span>C12比起F120mp会产生一种战斗机一样的声音，声音特别大 不知道是不是因为放在闷罐机箱前面的原因，如果放散热器上也这么吵的话还不如用F120mp</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>我的 利民银风ArrowT8，9900k 1.27V跑5G，AIDA单跑FPU，显示210W，温度3秒破100。。。。。</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>9900K5g风冷fpu不能破百说明Cpu有问题。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844974[0-50]</guid>
+    </item>
+  </channel>
+</rss>

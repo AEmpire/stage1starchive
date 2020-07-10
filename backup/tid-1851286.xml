@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑最近经常黑屏，只能强制重启，如何排查问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑最近经常黑屏，只能强制重启，如何排查问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:32:59 +0000</lastBuildDate>
+    <item>
+      <title>电脑最近经常黑屏，只能强制重启，如何排查问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851286-1-1.html</link>
+      <description>电脑最近经常黑屏，只能强制重启，如何排查问题？&#13;
+不是黑屏后恢复正常的那种，而是无法恢复只能强制重启
+
+win10 1903的系统，之前是1803，升级系统后依然有问题；升级过显卡驱动，也没有用
+
+我觉得可能是硬件有问题，应该如何排查？谢谢~
+
+大概的硬件：
+
+i7 4770
+
+MSI GTX 960
+
+技嘉B85
+
+金士顿 DDR3 8Gx1 4Gx2
+
+台达NX550电源</description>
+      <content:encoded><![CDATA[<p><b>仙人持玉尺: </b><br>
+<span>电脑最近经常黑屏，只能强制重启，如何排查问题？</span><br>
+<span>不是黑屏后恢复正常的那种，而是无法恢复只能强制重启</span><br>
+<span>win10 1903的系统，之前是1803，升级系统后依然有问题；升级过显卡驱动，也没有用</span><br>
+<span>我觉得可能是硬件有问题，应该如何排查？谢谢~</span><br>
+<span>大概的硬件：</span><br>
+<span>i7 4770</span><br>
+<span>MSI GTX 960</span><br>
+<span>技嘉B85</span><br>
+<span>金士顿 DDR3 8Gx1 4Gx2</span><br>
+<span>台达NX550电源</span><br>
+</p><p><b>回忆and无语: </b><br>
+<span>散热检查过了吗</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>楼主描述的黑屏的故障现象太模糊了吧，到底是显卡没有输出显示器黑屏了，还是整个电脑死机导致显示器黑屏同时鼠标键盘都没反应？？至少去计算机管理里看下windows日志有什么故障警告信息？？</span><br>
+<span>不过楼主既然升级过显卡驱动，就是怀疑显卡坏了，那拔掉独显就用I7的核显用一段时间试试？</span><br>
+</p><p><b>仙人持玉尺: </b><br>
+<span>eraghjk 发表于 2019-8-4 20:57</span><br>
+<span>楼主描述的黑屏的故障现象太模糊了吧，到底是显卡没有输出显示器黑屏了，还是整个电脑死机导致显示器黑屏同 ...</span><br>
+<span>正在尝试用核显输出</span><br>
+<span>黑屏看起来是只是视频信号没了，但是音频信号还有，系统应该也在继续运行</span><br>
+</p><p><b>仙人持玉尺: </b><br>
+<span>回忆and无语 发表于 2019-8-4 20:55</span><br>
+<span>散热检查过了吗</span><br>
+<span>我不知道黑屏时的温度，不过CPU GPU风扇看起来是在正常工作的，AIDA64显示的温度在30-50度之间</span><br>
+<span>黑屏是毫无征兆的，不一定在高负载的时候，比如我看个b站视频或者玩个PVZ也会黑屏</span><br>
+</p><p><b>風駿: </b><br>
+<span>黑屏时键盘大小写切换还有反应吗？有的话就是显示方面的问题</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>听着像是显卡掉驱动了，难道是win10自动更新了楼主的显卡驱动，N卡的最新驱动又对老显卡有负的优化，导致的黑屏??</span><br>
+<span>但是黑屏又不在高负载的时候固定出现，不像是显卡驱动不合适导致的？？</span><br>
+<span>我现在用的亮机卡是个网吧拆机的750Ti开始用最新驱动也有打LOL卡顿、看高清视频黑屏一下恢复的问题，找了个比较老的稳定驱动http://www.drivergenius.com/drv/hotdrivers/ht208.shtml就好了，但是也没有经常出现的毫无征兆的黑屏啊</span><br>
+</p><p><b>仙人持玉尺: </b><br>
+<span>eraghjk 发表于 2019-8-4 20:57</span><br>
+<span>楼主描述的黑屏的故障现象太模糊了吧，到底是显卡没有输出显示器黑屏了，还是整个电脑死机导致显示器黑屏同 ...</span><br>
+<span>今天的错误日志：</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=NetworkAvailable</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=NetworkAvailable</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=UserLogon;SessionId=1</span><br>
+<span>桌面窗口管理器进程已退出。(进程退出代码: 0x000000ff，重新启动计数: 1，主显示设备 ID: NVIDIA GeForce GTX 960)</span><br>
+<span>错误应用程序名称: dwm.exe，版本: 10.0.18362.267，时间戳: 0x6468b8f9</span><br>
+<span>错误模块名称: unknown，版本: 0.0.0.0，时间戳: 0x00000000</span><br>
+<span>异常代码: 0xe0464645</span><br>
+<span>错误偏移量: 0x0000000000000000</span><br>
+<span>错误进程 ID: 0x2a54</span><br>
+<span>错误应用程序启动时间: 0x01d54abef7c70280</span><br>
+<span>错误应用程序路径: C:\WINDOWS\system32\dwm.exe</span><br>
+<span>错误模块路径: unknown</span><br>
+<span>报告 ID: efad57f0-b5bd-4438-9802-b6f10421db42</span><br>
+<span>错误程序包全名: </span><br>
+<span>错误程序包相对应用程序 ID: </span><br>
+<span>程序 explorer.exe 版本 10.0.18362.267 已停止与 Windows 交互并关闭。若要查看是否有关于该问题的详细信息，请检查“安全性与维护”控制面板中的问题历史记录。</span><br>
+<span> 进程 ID: 1ab0</span><br>
+<span> 开始时间: 01d54aa7dec01c1f</span><br>
+<span> 终止时间: 0</span><br>
+<span> 应用程序路径: C:\Windows\explorer.exe</span><br>
+<span> 报告 ID: 6afbf174-4ca3-4f4a-b53d-05757488a93b</span><br>
+<span> 错误程序包全名: </span><br>
+<span> 错误程序包相关应用程序 ID: </span><br>
+<span> 挂起类型: Cross-process</span><br>
+<span> 错误应用程序名称: PanDownload.exe，版本: 2.1.2.0，时间戳: 0x5d14816f</span><br>
+<span>错误模块名称: ntdll.dll，版本: 10.0.18362.1，时间戳: 0x9bbcb4a9</span><br>
+<span>异常代码: 0xc0000005</span><br>
+<span>错误偏移量: 0x0008654f</span><br>
+<span>错误进程 ID: 0x27fc</span><br>
+<span>错误应用程序启动时间: 0x01d54abbd003aa3e</span><br>
+<span>错误应用程序路径: E:\Program Files\PanDownload\PanDownload.exe</span><br>
+<span>错误模块路径: C:\WINDOWS\SYSTEM32\ntdll.dll</span><br>
+<span>报告 ID: 5723443f-1377-478a-bcf8-e2d6f87917dd</span><br>
+<span>错误程序包全名: </span><br>
+<span>错误程序包相对应用程序 ID: </span><br>
+<span>错误应用程序名称: HD-Player.exe，版本: 4.60.21.1000，时间戳: 0x5cb02fdd</span><br>
+<span>错误模块名称: nvoglv64.dll，版本: 26.21.14.3160，时间戳: 0x5d2f886b</span><br>
+<span>异常代码: 0xc0000409</span><br>
+<span>错误偏移量: 0x0000000000f12919</span><br>
+<span>错误进程 ID: 0x2f00</span><br>
+<span>错误应用程序启动时间: 0x01d54ab74c9bd992</span><br>
+<span>错误应用程序路径: D:\Program Files (x86)\BluestacksCN\Engine\ProgramFiles\HD-Player.exe</span><br>
+<span>错误模块路径: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_547eeefb57db4499\nvoglv64.dll</span><br>
+<span>报告 ID: b8767553-8fb9-46bf-877a-0992346ea906</span><br>
+<span>错误程序包全名: </span><br>
+<span>错误程序包相对应用程序 ID: </span><br>
+<span>Unable to recover from a kernel exception. The application must close.</span><br>
+<span>Error code: 3 (subcode 2)</span><br>
+<span> (pid=12032 tid=9672 hd-player.exe 64bit)</span><br>
+<span>Visit http://www.nvidia.com/page/support.html for more information.</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=NetworkAvailable</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=UserLogon;SessionId=1</span><br>
+<span>许可证激活(slui.exe)失败，返回以下错误代码:</span><br>
+<span>hr=0xC004F074</span><br>
+<span>命令行参数:</span><br>
+<span>RuleId=502ff3ba-669a-4674-bbb1-601f34a3b968;Action=AutoActivateSilent;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2de67392-b7a7-462a-b1ca-108dd189f588;NotificationInterval=1440;Trigger=NetworkAvailable</span><br>
+<span>无法找到来自源 Office 2016 Licensing Service 的事件 ID 0 的描述。本地计算机上未安装引发此事件的组件，或者安装已损坏。可以安装或修复本地计算机上的组件。</span><br>
+<span>如果该事件产生于另一台计算机，则必须在该事件中保存显示信息。</span><br>
+<span>以下是包含在事件中的信息: </span><br>
+<span>Subscription licensing service failed: -2147467259</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>内存条擦擦先</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>我说的日志不是这个，而且这个错误日志怎么都是激活失败，试试S1的附件，看看能不能看到</span><br>
+<span>在win10桌面的“此电脑”上选择右键“管理”在“事件查看器”--“windows日志”--“系统”--“筛选当前日志”--选错误和警告，对着黑屏时间看看有什么信息，我之前显卡驱动问题是有Display错误的</span><br>
+</p><p><b>仙人持玉尺: </b><br>
+<span>eraghjk 发表于 2019-8-4 21:56</span><br>
+<span>我说的日志不是这个，而且这个错误日志怎么都是激活失败，试试S1的附件，看看能不能看到</span><br>
+<span>在win10桌面的“此 ...</span><br>
+<span>和display相关的有一个警告</span><br>
+<span>显示器驱动程序 nvlddmkm 已停止响应，并且已成功恢复。</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>仙人持玉尺 发表于 2019-8-4 22:27</span><br>
+<span>和display相关的有一个警告</span><br>
+<span>和黑屏时间对的上的应该就是显卡掉驱动了，先试试装个老点的驱动能不能救，例如http://www.drivergenius.com/drv/hotdrivers/ht208.shtml</span><br>
+<span>一般安装驱动的时候选清洁安装就能卸载掉有问题的驱动了</span><br>
+<span>再不行就用显卡驱动卸载工具(Display Driver Uninstaller) 进入安全模式卸载驱动在重新安装显卡驱动</span><br>
+<span>最后这个样都不好就拔掉独显用核显输出看看</span><br>
+</p><p><b>eraghjk: </b><br>
+<span>要是真是win10自动更新驱动导致的问题还得关掉win10自动更新的驱动部分</span><br>
+</p><p><b>仙人持玉尺: </b><br>
+<span>eraghjk 发表于 2019-8-4 22:35</span><br>
+<span>和黑屏时间对的上的应该就是显卡掉驱动了，先试试装个老点的驱动能不能救，例如http://www.drivergenius. ...</span><br>
+<span>感谢耐心回复！我先逐个尝试一下</span><br>
+</p><p><b>Mr.BBWoLf: </b><br>
+<span>刚才别人推我电脑故障检测卡，作为最后手段可以考虑一下</span><br>
+</p><p><b>linjia: </b><br>
+<span>我以为我那贴</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1850827-1-1.html</span><br>
+<span>然而并不是。。。。。</span><br>
+<span>话说楼主电脑用多久了，问题出现多久了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851286[0-50]</guid>
+    </item>
+  </channel>
+</rss>

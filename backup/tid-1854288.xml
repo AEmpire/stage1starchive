@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有办法强制系统用TCP进行DNS解析请求？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有办法强制系统用TCP进行DNS解析请求？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:14:13 +0000</lastBuildDate>
+    <item>
+      <title>有没有办法强制系统用TCP进行DNS解析请求？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854288-1-1.html</link>
+      <description>有没有办法强制系统用TCP进行DNS解析请求？&#13;
+本人目前处于一个被限制了DNS的环境里，有一个固定的DNS服务器，我用nslookup测试，发现除了给定的DNS服务器，所有发往远程端口53的UDP请求包都会被“request time out”，但是如果使用nslookup -v强制使用tcp方式的话，可以连接到其它dns服务器得到解析结果，有没有办法把系统修改为强制使用TCP来进行DNS请求的操作？</description>
+      <content:encoded><![CDATA[<p><b>abcbuzhiming: </b><br>
+<span>有没有办法强制系统用TCP进行DNS解析请求？</span><br>
+<span>本人目前处于一个被限制了DNS的环境里，有一个固定的DNS服务器，我用nslookup测试，发现除了给定的DNS服务器，所有发往远程端口53的UDP请求包都会被“request time out”，但是如果使用nslookup -v强制使用tcp方式的话，可以连接到其它dns服务器得到解析结果，有没有办法把系统修改为强制使用TCP来进行DNS请求的操作？</span><br>
+</p><p><b>qwased: </b><br>
+<span>dnscrypt</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>改成非标准端口，有些公共dns支持5353</span><br>
+</p><p><b>abcbuzhiming: </b><br>
+<span>DapFlog 发表于 2019-8-18 21:35</span><br>
+<span>改成非标准端口，有些公共dns支持5353</span><br>
+<span>如何改呢？</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2019-8-18 23:04 编辑 </span><br>
+<span>你在本地部署一个dns服务就可以</span><br>
+<span>比如Pcap_DNSProxy</span><br>
+</p><p><b>abcbuzhiming: </b><br>
+<span>qwased 发表于 2019-8-18 21:33</span><br>
+<span>dnscrypt</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>谢谢了，测试有用</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>本地起一个DNS server，然后让网络请求本地</span><br>
+<span>有很多方案楼主可以自己选</span><br>
+<span>—— 来自 Google Pixel 3, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>直接IP走起就好了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>路过问一下dns的优先权问题，在pc和路由设置了不同的dns服务器的时候，优先启用pc的吧？</span><br>
+<span>另外在挂梯子的情况下呢？</span><br>
+</p><p><b>自旋: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-20 09:54</span><br>
+<span>路过问一下dns的优先权问题，在pc和路由设置了不同的dns服务器的时候，优先启用pc的吧？</span><br>
+<span>另外在挂梯子的情 ...</span><br>
+<span>把网络连接的dns服务器设为本机，就会忽略路由器的dns了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-20 09:54</span><br>
+<span>路过问一下dns的优先权问题，在pc和路由设置了不同的dns服务器的时候，优先启用pc的吧？</span><br>
+<span>另外在挂梯子的情 ...</span><br>
+<span>梯子要是连这都搞不定，一个dns污染不就给它治服帖了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>难怪某软件只要挂梯子就会弹窗，我明明已经将那软件的服务器写进了路由器的host。</span><br>
+<span>那么有办法在挂梯子时禁止那软件连接到它的服务器呢？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854288[0-50]</guid>
+    </item>
+  </channel>
+</rss>

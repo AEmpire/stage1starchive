@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:09:15 +0000</lastBuildDate>
+    <item>
+      <title>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920498-1-1.html</link>
+      <description>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪&#13;
+https://blogs.nvidia.com/blog/2020/03/23/dlss-2-ai-gaming-directx-12-ultimate/
+&#13;
+出色的图像质量 — DLSS 2.0提供的图像质量与原始分辨率相当，而仅需渲染四分之一到一半的像素。它采用了新的时间反馈技术，可获取更清晰的图像细节并提高帧与帧之间的稳定性。
+&#13;
+在所有RTX GPU和分辨率上都具有出色的扩展性 -一种新的AI模型可以更高效地使用Tensor Cores来执行原始速度的2倍，从而提高了帧速率并消除了对受支持的GPU，设置和分辨率的限制。
+&#13;
+一个适用于所有游戏的网络 -原始的DLSS需要为每个新游戏训练AI网络。DLSS 2.0使用非特定于游戏的内容进行训练，从而提供了一个跨游戏使用的通用网络。这意味着更快的游戏集成，最终将有更多的DLSS游戏。
+&#13;
+可自定义的选项 -DLSS 2.0为用户提供了三种控制渲染分辨率的图像质量模式（Quality，Balanced和Performance），而Performance模式现在可以实现高达4倍的超分辨率。（即1080p→4K）。这意味着更多的用户选择，甚至更大的性能提升。
+&#13;
+DLSS 开发人员计划现已向虚幻引擎4开发人员提供了DLSS 2.0，该程序将加快在世界上最受欢迎的游戏引擎之一中的部署。
+&#13;
+新增了控制和机甲5两款游戏DLSS 2.0支持，相信在虚幻4 SDK里直接提供之后，大量游戏支持DLSS 2.0已经在路上了</description>
+      <content:encoded><![CDATA[<p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-3-26 17:44 编辑 </span><br>
+<span>66666 发表于 2020-3-26 17:10</span><br>
+<span>不需要，本来这一个通用模型就是面对所有类型风格画面，你理解成一个抗锯齿就行了 ...</span><br>
+<span>好吧，我其实是想要有没有公司，专门训练一个萌豚画风的AI神经网络。</span><br>
+<span>之前玩了一下谷歌还有别的哪家公司的AI网络作画，改变画风很有意思，在想能不能AI渲染。</span><br>
+<span>而且未来可能会催生一种AI模仿描图手绘过程的渲染方法。——比如先3D做一个粗模做参考，然后AI手绘。</span><br>
+</p><p><b>66666: </b><br>
+<span>卿卿雅儿 发表于 2020-3-26 17:27</span><br>
+<span>我理解2.0最大的优势就是二三线作品也能用得上。</span><br>
+<span>3A大作一般有能力按1.0的方式自己做训练提交。</span><br>
+<span>gust这种 ...</span><br>
+<span>其实大游戏公司也不大愿意去玩炼丹，在游戏领域有很多AI方面研究的paper但直到目前真正达到商业应用的只有老黄DLSS和微软的DirectML，深度学习在实时3D渲染上的应用开发很烧钱也很需要数据积累，EA、育碧都不够看</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-26 02:26 编辑 </span><br>
+<span>dumplingpro 发表于 2020-3-26 00:56</span><br>
+<span>有个问题，游戏厂家是否可以自行训练？</span><br>
+<span>比如一个主打三渲二的公司，可以自己训练日系萌豚画风的DLSS么？ ...</span><br>
+<span>DLSS你可以把它当作directML的前置子集样板，你先看DLSS全称的意思，这是一个单独针对的分类，就是抗锯齿和缩放进行AI脑补，最近三家联合起来发dx12u，directML里面集成了很多东西。</span><br>
+<span>也许将来directML里可能会有三渲二脑补训练方案，我知道你想说把罪恶装备那种上色特殊的动画阴影模式进行智能化学习，这种应该可以自行训练，或者开发商找微软合作对应的炼丹。</span><br>
+</p><p><b>C男: </b><br>
+<span>这种既能提升画质，又能提高帧数的升级，比以往堆硬件性能的挤牙膏牛逼太多了。最低要求是2060吗？</span><br>
+</p><p><b>夏之岚: </b><br>
+<span>这下纠结618买本子是1660TI还是2060了。听说2060在本子上会降频？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>天神十三煞 发表于 2020-3-26 17:55</span><br>
+<span>DLSS你可以把它当作directML的前置子集样板，你先看DLSS全称的意思，这是一个单独针对的分类，就是抗锯齿 ...</span><br>
+<span>希望吧！</span><br>
+<span>VR+VRS（注视点渲染）+AI渲染=空气人老婆。</span><br>
+</p><p><b>First_Snow: </b><br>
+<span>dumplingpro 发表于 2020-3-26 16:56</span><br>
+<span>有个问题，游戏厂家是否可以自行训练？</span><br>
+<span>比如一个主打三渲二的公司，可以自己训练日系萌豚画风的DLSS么？ ...</span><br>
+<span>锐度太高了，纸片人老婆可是会割伤人的</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>First_Snow 发表于 2020-3-26 20:31</span><br>
+<span>锐度太高了，纸片人老婆可是会割伤人的</span><br>
+<span>我老婆是VR的，有厚度的！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920498[50-100]</guid>
+    </item>
+    <item>
+      <title>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920498-1-1.html</link>
+      <description>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪&#13;
+https://blogs.nvidia.com/blog/2020/03/23/dlss-2-ai-gaming-directx-12-ultimate/
+&#13;
+出色的图像质量 — DLSS 2.0提供的图像质量与原始分辨率相当，而仅需渲染四分之一到一半的像素。它采用了新的时间反馈技术，可获取更清晰的图像细节并提高帧与帧之间的稳定性。
+&#13;
+在所有RTX GPU和分辨率上都具有出色的扩展性 -一种新的AI模型可以更高效地使用Tensor Cores来执行原始速度的2倍，从而提高了帧速率并消除了对受支持的GPU，设置和分辨率的限制。
+&#13;
+一个适用于所有游戏的网络 -原始的DLSS需要为每个新游戏训练AI网络。DLSS 2.0使用非特定于游戏的内容进行训练，从而提供了一个跨游戏使用的通用网络。这意味着更快的游戏集成，最终将有更多的DLSS游戏。
+&#13;
+可自定义的选项 -DLSS 2.0为用户提供了三种控制渲染分辨率的图像质量模式（Quality，Balanced和Performance），而Performance模式现在可以实现高达4倍的超分辨率。（即1080p→4K）。这意味着更多的用户选择，甚至更大的性能提升。
+&#13;
+DLSS 开发人员计划现已向虚幻引擎4开发人员提供了DLSS 2.0，该程序将加快在世界上最受欢迎的游戏引擎之一中的部署。
+&#13;
+新增了控制和机甲5两款游戏DLSS 2.0支持，相信在虚幻4 SDK里直接提供之后，大量游戏支持DLSS 2.0已经在路上了</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>英伟达正式发布DLSS 2.0帮助游戏普及光线追踪</span><br>
+<span>https://blogs.nvidia.com/blog/2020/03/23/dlss-2-ai-gaming-directx-12-ultimate/</span><br>
+<span>出色的图像质量 — DLSS 2.0提供的图像质量与原始分辨率相当，而仅需渲染四分之一到一半的像素。它采用了新的时间反馈技术，可获取更清晰的图像细节并提高帧与帧之间的稳定性。</span><br>
+<span>在所有RTX GPU和分辨率上都具有出色的扩展性 -一种新的AI模型可以更高效地使用Tensor Cores来执行原始速度的2倍，从而提高了帧速率并消除了对受支持的GPU，设置和分辨率的限制。</span><br>
+<span>一个适用于所有游戏的网络 -原始的DLSS需要为每个新游戏训练AI网络。DLSS 2.0使用非特定于游戏的内容进行训练，从而提供了一个跨游戏使用的通用网络。这意味着更快的游戏集成，最终将有更多的DLSS游戏。</span><br>
+<span>可自定义的选项 -DLSS 2.0为用户提供了三种控制渲染分辨率的图像质量模式（Quality，Balanced和Performance），而Performance模式现在可以实现高达4倍的超分辨率。（即1080p→4K）。这意味着更多的用户选择，甚至更大的性能提升。</span><br>
+<span>DLSS 开发人员计划现已向虚幻引擎4开发人员提供了DLSS 2.0，该程序将加快在世界上最受欢迎的游戏引擎之一中的部署。</span><br>
+<span>新增了控制和机甲5两款游戏DLSS 2.0支持，相信在虚幻4 SDK里直接提供之后，大量游戏支持DLSS 2.0已经在路上了</span><br>
+</p><p><b>findpkq: </b><br>
+<span>不用特地送去训练真是一下拉低推广门槛了</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>界王拳，开</span><br>
+</p><p><b>铅笔: </b><br>
+<span>堪比开核啊</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span>这是超赛吗</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>那么MHW什么时候可以更新一下这个呢，现在用的DLSS细节根本不能看，雾蒙蒙的，要不是为了上90FPS我也不想开</span><br>
+</p><p><b>66666: </b><br>
+<span>920619lqy 发表于 2020-3-24 02:42</span><br>
+<span>那么MHW什么时候可以更新一下这个呢，现在用的DLSS细节根本不能看，雾蒙蒙的，要不是为了上90FPS我也不想开 ...</span><br>
+<span>要看卡婊自己有没有针对MHW更大的更新计划，DLSS 2.0整个SDK和数据处理方式跟1.0完全不一样，需要对引擎做一定调整</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>记得控制里面，是2060开极效+高光追 4K@3帧，优化后变成4K@30帧，1000%优化</span><br>
+<span>AMD之前说普通抗锯齿就够了，这次怕是要真香，出AMD版，那PC就全面普及了。</span><br>
+<span>主机方面，有硬光追核心的XSX估计也行，反倒是PS5可能用不了（或者说效率很低），怕是主机玄学优化都追不上技术进步。</span><br>
+</p><p><b>隔夜的哈劳斯: </b><br>
+<span>那么没有光追的1660super能用上吗</span><br>
+<span>—— 来自 HUAWEI BKL-AL20, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Chia: </b><br>
+<span>应该不绑定光追吧</span><br>
+</p><p><b>Asukalangley33: </b><br>
+<span>1080用户表示必须坚持到3系再换</span><br>
+</p><p><b>mirrorside: </b><br>
+<span>买了1660s出30系就换另外xsx也可以享受到dlss了吧以后</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>新驱动吗没看到有</span><br>
+</p><p><b>jmdmzt: </b><br>
+<span> 本帖最后由 jmdmzt 于 2020-3-24 15:07 编辑 </span><br>
+<span>1080ti用户表示情绪稳定</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>Chia 发表于 2020-3-24 14:55</span><br>
+<span>应该不绑定光追吧</span><br>
+<span>绑定tensor core，但是现在tensor core和rt core是绑定的，反正就是rtx独享</span><br>
+</p><p><b>Chia: </b><br>
+<span>BallanceHZ 发表于 2020-3-24 15:08</span><br>
+<span>绑定tensor core，但是现在tensor core和rt core是绑定的，反正就是rtx独享</span><br>
+<span>他强归他强，再等等老黄</span><br>
+</p><p><b>66666: </b><br>
+<span>Chia 发表于 2020-3-24 14:55</span><br>
+<span>应该不绑定光追吧</span><br>
+<span>非光追游戏也能用，不过需要tensor core，反正安培系列所有型号都有tensor core</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>1060用户该高兴还好无动于衷</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-23 23:30 编辑 </span><br>
+<span>dlss2是不错，但目前数量太少了，黄一刀的号召力还不够强</span><br>
+<span>理论这套算directML的前置样板，directML子集里肯定摘抄了类似的玩意儿</span><br>
+<span>炼丹需要时间，缩短时间能最快随游戏发布支持才是重点，等玩到凉了才出可不实际</span><br>
+<span>所以云以及炼丹走量的话还是微软在行些，还是等次时代大规模炼丹才好用了</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>天神十三煞 发表于 2020-3-24 15:24</span><br>
+<span>dlss2是不错，但目前数量太少了，黄一刀的号召力还不够强</span><br>
+<span>理论这套算directML的前置样板</span><br>
+<span>directML子集里肯 ...</span><br>
+<span>微软的什么dx12u，directml和老黄rtx重复度实在太高了，老黄还是厉害的</span><br>
+</p><p><b>66666: </b><br>
+<span>天神十三煞 发表于 2020-3-24 15:24</span><br>
+<span>dlss2是不错，但目前数量太少了，黄一刀的号召力还不够强</span><br>
+<span>理论这套算directML的前置样板</span><br>
+<span>directML子集里肯 ...</span><br>
+<span>游戏数量少是之前NV并没大力推广DLSS，主要着重改进画质和效率，现在2.0才正式发布而已</span><br>
+<span>后面支持DLSS2.0的大作多的是，比如赛博朋克2077就已经说了要着重优化光追和DLSS2.0，未来PC光追游戏每这个很难玩的爽</span><br>
+</p><p><b>qsedwa8487: </b><br>
+<span>不知道DirectML效果如何，如果真是找老黄要的技术，那就有意思了，技术独不占</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>这东西不能直接做在驱动里吗？游戏开1080p，驱动处理成4k输出？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-24 01:19 编辑 </span><br>
+<span>卿卿雅儿 发表于 2020-3-24 00:08</span><br>
+<span>这东西不能直接做在驱动里吗？游戏开1080p，驱动处理成4k输出？</span><br>
+<span>你想的那种做成驱动只能是一种定式，就成了压片工具里的滤镜了，先不论降低机能效率问题，</span><br>
+<span>你好好想下哪有按照某个公式可以把任意图放大局部细节都扩大的很好的道理？就算是简单的手绘动画，用外敷滤镜也总有各种细节缺失等问题的</span><br>
+<span>游戏世界建模材质多样，显然有耐心的情况下手工PS每个图比常用定式操作更能做到很好的缩放和抗锯齿效果，DLSS技术实际是在让机器学习该怎么PS，</span><br>
+<span>就是用大量的时间和帧场进行低分辨率upscale后的图像和超高分辨率采样的进行对比分析，不断训练纠正达成最好效果，客户端预先载入训练好的配置就能提高效率</span><br>
+<span>机器学习，说俗一点就是计算机拟人类的条件反射，你想下人类所有的学习能力，最基础不就是条件反射吗</span><br>
+<span>拿阿狗下棋举例，它不懂围棋，但就奔着胜率去，不断的下，知道下这步胜率最高，累积的经验亿万达到一种可怕的'直觉'，看起来很玄学，所以机器学习又被戏称为炼丹</span><br>
+</p><p><b>66666: </b><br>
+<span>卿卿雅儿 发表于 2020-3-24 16:08</span><br>
+<span>这东西不能直接做在驱动里吗？游戏开1080p，驱动处理成4k输出？</span><br>
+<span>目前不能，它跟TAA一样，需要引擎提供渲染帧时间序列矢量信息，跟FXAA、SMAA这种完全后端处理的机制不同，所以你们看TAA包括TXAA也是需要游戏支持才行</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span> 本帖最后由 卿卿雅儿 于 2020-3-24 17:42 编辑 </span><br>
+<span>66666 发表于 2020-3-24 16:27</span><br>
+<span>目前不能，它跟TAA一样，需要引擎提供渲染帧时间序列矢量信息，跟FXAA、SMAA这种完全后端处理的机制不同 ...</span><br>
+<span>那么有没有可能以驱动加引擎的方式实现？</span><br>
+<span>比如虚幻5引擎支持这个，只要用这个引擎，游戏厂商就无需刻意处理</span><br>
+<span>戏发布后黄老板更新驱动支持这个游戏——就像现在这样。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-24 02:45 编辑 </span><br>
+<span>卿卿雅儿 发表于 2020-3-24 01:41</span><br>
+<span>那么有没有可能以驱动加引擎的方式实现？</span><br>
+<span>比如虚幻5引擎支持这个，只要用这个引擎，游戏厂商就无需刻意处 ...</span><br>
+<span>你再把我的回复好好看一遍，都说了这玩意儿不是一个固定公式算法。</span><br>
+<span>引擎当然要提供sdk api支持，提供通用训练模型方法，游戏厂商依然要刻意去处理，不是说我设置引用下，代码搞搞就解决的事</span><br>
+<span>得利用云端不断的转帧场输出画面训练对比累积经验，例如黄一刀那个NGX，需要大量的时间和数据，</span><br>
+<span>如果想在发售时同步的话，开发末期快完成的时候，利用更强大的云计算力来操作更好，这也是为什么我说微软要比黄一刀更能带场子的原因</span><br>
+<span>客户端这边则不是靠驱动更新支持，而是靠游戏开发商和老黄来提供发布已经训练好的配置[经验]，</span><br>
+<span>然后本地参照这个经验，进行低分辨率输出自动补成像高采样原图那样的细节[可以比作PS]</span><br>
+</p><p><b>findpkq: </b><br>
+<span>天神十三煞 发表于 2020-3-24 18:04</span><br>
+<span>你再把我的回复好好看一遍</span><br>
+<span>都说了这玩意儿不是一个固定公式算法，</span><br>
+<span>DLSS2.0还需要厂商刻意对每个游戏去处理吗，单看说明感觉训练经验像是老黄直接包办，是否训练过的游戏都能够用一个通用Network</span><br>
+<span>One Network for All Games —The original DLSS required training the AI network for each new game. DLSS 2.0 trains using non-game-specific content, delivering a generalized network that works across games. This means faster game integrations, and ultimately more DLSS games.</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-24 02:35 编辑 </span><br>
+<span>findpkq 发表于 2020-3-24 02:15</span><br>
+<span>DLSS2.0还需要厂商刻意对每个游戏去处理吗，单看说明感觉训练经验像是老黄直接包办，是否训练过的游戏都 ...</span><br>
+<span>通用还是要刻意过水一次的</span><br>
+<span>我回他的意思训练这个过程不可少，</span><br>
+<span>时间和数据必不可少，</span><br>
+<span>不是指每个游戏有专案去训练</span><br>
+<span>而且跨游戏通用的部分也还是有限的</span><br>
+<span>我感觉前期需要大量的累积后期才能加速</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>nvidia的东西</span><br>
+<span>看看就好，和海飞丝 物理加速之类的吹一段时间就自动消失了</span><br>
+</p><p><b>66666: </b><br>
+<span>天神十三煞 发表于 2020-3-24 18:21</span><br>
+<span>通用还是要刻意过水一次的</span><br>
+<span>我回他的意思训练这个过程不可少，</span><br>
+<span>时间和数据必不可少，</span><br>
+<span>不知道你在说什么，现在虚幻4.25新分支直接用，根本不需要厂商提交训练数据</span><br>
+<span>光明记忆开发者说的很清楚，DLSS 2.0现在就是一个DLL文件，跟TAA、FXAA等一样直接用完全不需要训练</span><br>
+<span>https://tieba.baidu.com/p/6445491949?pid=130485660304&cid=0&red_tag=3356117454#129418482367l</span><br>
+</p><p><b>66666: </b><br>
+<span>卿卿雅儿 发表于 2020-3-24 17:41</span><br>
+<span>那么有没有可能以驱动加引擎的方式实现？</span><br>
+<span>比如虚幻5引擎支持这个，只要用这个引擎，游戏厂商就无需刻意处 ...</span><br>
+<span>现在虚幻4.25就是这样，在预览里直接用就能看到DLSS 2.0效果和帧率，跟平常用其他抗锯齿一样</span><br>
+</p><p><b>NegativeRamos: </b><br>
+<span>920619lqy 发表于 2020-3-24 02:42</span><br>
+<span>那么MHW什么时候可以更新一下这个呢，现在用的DLSS细节根本不能看，雾蒙蒙的，要不是为了上90FPS我也不想开 ...</span><br>
+<span>别说了，mhw开了环境光遮蔽阴影部分都能看多好多一格一格的</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>66666 发表于 2020-3-24 02:58</span><br>
+<span>不知道你在说什么，现在虚幻4.25新分支直接用，根本不需要厂商提交训练数据</span><br>
+<span>光明记忆开发者说的很清楚， ...</span><br>
+<span>如果免除训练，那就不叫Deep Learning Super Sampling了好吗</span><br>
+<span>谁告诉你是厂商提交数据，是厂商提交训练目标而获得数据</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-24 03:14 编辑 </span><br>
+<span>66666 发表于 2020-3-24 02:59</span><br>
+<span>现在虚幻4.25就是这样，在预览里直接用就能看到DLSS 2.0效果和帧率，跟平常用其他抗锯齿一样 ...</span><br>
+<span>预览能看到效果也只能说明黄一刀把ngx群组性能提升了巨多量级，达到了可以实时预览的效果。</span><br>
+<span>不等于没有训练过程，理论上游戏开发商也是在线提交目标再从云同步到本地数据的</span><br>
+<span>前面算我误判，之前是两三月</span><br>
+<span>我想通用化也就缩短些，没想到黄一刀下血本升级硬件组群来搞这事</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>天神十三煞 发表于 2020-3-24 19:08</span><br>
+<span>如果免除训练，那就不叫Deep Learning Super Sampling了好吗</span><br>
+<span>谁告诉你是厂商提交数据，是厂商提交训练目 ...</span><br>
+<span>2.0按老黄稿子的意思我怎么理解都是nv训练了一个通用模型开发者直接用就行</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>天神十三煞 发表于 2020-3-24 19:12</span><br>
+<span>预览能看到效果也只能说明黄一刀把ngx群组性能提升了巨多量级，达到了可以实时预览的效果。</span><br>
+<span>不等于没有训 ...</span><br>
+<span>一个开关实时可以切换的预览不太可能是云的，只能是本地吧</span><br>
+</p><p><b>381030691: </b><br>
+<span>keytomylife 发表于 2020-3-24 18:48</span><br>
+<span>nvidia的东西</span><br>
+<span>看看就好，和海飞丝 物理加速之类的吹一段时间就自动消失了</span><br>
+<span>你说的这些东西都老黄历了，真以为physx没了？现在PhysX直接就是内置到各大引擎里面，不提而已</span><br>
+<span>Nvidia最近两年出的光追，VRS，DLSS，Mesh shading哪个消失了？都已经让微软纳入到DX12标准里面去了好吧</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>BallanceHZ 发表于 2020-3-24 03:16</span><br>
+<span>一个开关实时可以切换的预览不太可能是云的，只能是本地吧</span><br>
+<span>我指获得的经验数据，我猜本地是靠提交云瞬间云算并下载配置然后本地tensor去艹</span><br>
+<span>一个通用dll解决完全就不叫机器学习了，你仔细看黄一刀介绍着重讲了新ngx</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>天神十三煞 发表于 2020-3-24 19:22</span><br>
+<span>我指获得的经验数据，我猜本地是靠提交云瞬间云算并下载配置然后本地tensor去艹</span><br>
+<span>一个通用dll解决完全就不 ...</span><br>
+<span>瞬间云算你不觉得比通用模型更玄幻吗</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>就是通用的超分辨率模型，论文都公开了，说白了还是玄学范畴，游戏世界比现实世界都难找出规律，老黄超采样技术现在是世界第一不代表真能做到，从少到多本来就超困难。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-24 04:33 编辑 </span><br>
+<span>BallanceHZ 发表于 2020-3-24 03:24</span><br>
+<span>瞬间云算你不觉得比通用模型更玄幻吗</span><br>
+<span>新版细节上我也没探究太多</span><br>
+<span>但你看介绍最后段落</span><br>
+<span>明确的说了还要继续学继续训练</span><br>
+<span>通用的模型没问题，但不更新的通用结果就会有问题，不再提交新参考继续训练那就没意义了</span><br>
+<span>尤其是现在只有个位数游戏支持的情况下</span><br>
+<span>DLSS的前两个字母肯定还要继续下去才行</span><br>
+<span>我理解老黄大概现在的方案是新出游戏暂时用既有通用模型</span><br>
+<span>加新游戏出来就dgx群组继续训练</span><br>
+<span>训练完就更新通用模型，滚雪球越滚越大</span><br>
+<span>就是我前面旧认知所以讲的有一点不对， dlss 1.0那样厂商提交训练的过程完全免除。</span><br>
+<span>厂商确实不需要刻意做什么，这一点由黄一刀自己来做。</span><br>
+<span>但新游戏确实还是需要继续训练过水，才能使通用模型累积的越来越强</span><br>
+</p><p><b>66666: </b><br>
+<span>天神十三煞 发表于 2020-3-24 19:45</span><br>
+<span>新版细节上我也没探究太多</span><br>
+<span>但你看介绍最后段落</span><br>
+<span>明确的说了还要继续学继续训练</span><br>
+<span>https://zhuanlan.zhihu.com/p/116211994</span><br>
+<span>自己去看看开发者说明吧，你那些观点都是错的，现在就是一个模型，游戏引擎直接套用更TAA/TXAA等时间序列抗锯齿应用流程没什么区别，DLSS 2.0本质就是一个超高清、超高性能的抗锯齿</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-25 21:03 编辑 </span><br>
+<span>66666 发表于 2020-3-25 18:18</span><br>
+<span>https://zhuanlan.zhihu.com/p/116211994</span><br>
+<span>自己去看看开发者说明吧，你那些观点都是错的，现在就是一个模 ...</span><br>
+<span>这个我看过了。</span><br>
+<span>除了我按照1.0理解认为厂商还要做什么是错的外，</span><br>
+<span>其他大部分想法没什么问题。</span><br>
+<span>这些开发者介绍也没把黄一刀介绍说详尽</span><br>
+<span>DLSS Continues to Learn</span><br>
+<span>With the Turing architecture, we set out to change gaming with two big leaps in graphics: real-time ray tracing and NVIDIA DLSS. Ray tracing brings next-generation realism, while DLSS boosts framerates to help you enjoy those stunning ray-traced visuals.</span><br>
+<span>With NVIDIA DLSS 2.0, we’ve made big leaps in image quality and performance, all while paving the way for easier integration so gamers can enjoy the technology in more and more games. And thanks to the power of AI, our DLSS network will continue to grow and improve over time.</span><br>
+<span>黄一刀已经明确说了一直继续训练下去</span><br>
+<span>当然这可能不一定或只需要提交游戏</span><br>
+<span>基于游戏图像的特性甚至是提交UE或Unity等三方建模又或是动画</span><br>
+<span>大体上黄一刀已经下血本堆了硬件和大量游戏建模数据先堆出了可用的通用模型解决了1.0版本里的等待才能用的缺点</span><br>
+<span>如我所想它还是需要继续滚雪球下去的</span><br>
+<span>“DLSS 2.0本质就是一个超高清、超高性能的抗锯齿”</span><br>
+<span>这点说法我不敢苟同</span><br>
+<span>先不提硬件上实现的不同，以及脑补方法上的细节不同。一般传统意义的AA不管哪种算法，都是预设型，如果需要优化改进，则需要直接的外部人工干预，事情不容易尽善尽美</span><br>
+<span>而DLSS或directML一类搞AA的话，并不是大量预设方法进行靠堆量的玄学炼丹，外部人工干预有限，堆量后可以无限趋近最好，而且即使是通用模型也可以比前者更容易允许例外情况</span><br>
+</p><p><b>66666: </b><br>
+<span>天神十三煞 发表于 2020-3-26 12:37</span><br>
+<span>这个我看过了。</span><br>
+<span>除了我按照1.0理解认为厂商还要做什么是错的外，</span><br>
+<span>其他大部分想法没什么问题。</span><br>
+<span>DLSS怎么不需要人工干预？2.0算法都全换了这还不叫人工干预吗？</span><br>
+<span>继续训练提升效果这也是很正常的事，淘宝、评多多等AI推荐模型难道就不需要继续训练了？</span><br>
+<span>深度学习AI最强大的地方就在于只要数据持续足够多，模型可以一直改进下去，理论上没有止境，现在NV在用16K分辨率的素材，未来肯定会进化到好莱坞特效电影级别分辨率（64K*64K），DLSS现在仅仅只是开始，未来必然会完全取代目前纯粹的光栅化渲染</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2020-3-25 21:04 编辑 </span><br>
+<span>66666 发表于 2020-3-25 20:45</span><br>
+<span>DLSS怎么不需要人工干预？2.0算法都全换了这还不叫人工干预吗？</span><br>
+<span>继续训练提升效果这也是很正常的事，淘 ...</span><br>
+<span>可能我表达不太准你理解错我的意思了</span><br>
+<span>我指的是外部干预的成分和量以及时效性都不同</span><br>
+<span>所以我前面打一堆字主要反对说有了通用模型就不再需要训练啊</span><br>
+<span>能明白我想说啥就行</span><br>
+</p><p><b>66666: </b><br>
+<span>天神十三煞 发表于 2020-3-26 12:47</span><br>
+<span>可能我表达不太准你理解错我的意思了</span><br>
+<span>我指的是外部干预的成分和量以及时效性都不同</span><br>
+<span>所以我前面打一堆字主 ...</span><br>
+<span>持续改进和继续训练并不矛盾，即使是SMAA和TAA新的算法改进和用法也层出不穷，任何技术如果不随着时代进化必然被彻底淘汰，例如现在已经很难看到的MSAA</span><br>
+<span>PS：DLSS作者在知乎又更新了，2.0渲染引擎又要微调，可见NV对于该技术重视程度</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2020-3-26 17:06 编辑 </span><br>
+<span>66666 发表于 2020-3-26 16:11</span><br>
+<span>持续改进和继续训练并不矛盾，即使是SMAA和TAA新的算法改进和用法也层出不穷，任何技术如果不随着时代进 ...</span><br>
+<span>有个问题，游戏厂家是否可以自行训练？</span><br>
+<span>比如一个主打三渲二的公司，可以自己训练日系萌豚画风的DLSS么？</span><br>
+</p><p><b>66666: </b><br>
+<span>dumplingpro 发表于 2020-3-26 16:56</span><br>
+<span>有个问题，游戏厂家是否可以自行训练？</span><br>
+<span>比如一个主打三渲二的公司，可以自己训练日系萌豚画风的DLSS么？ ...</span><br>
+<span>不需要，本来这一个通用模型就是面对所有类型风格画面，你理解成一个抗锯齿就行了</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>dumplingpro 发表于 2020-3-26 16:56</span><br>
+<span>有个问题，游戏厂家是否可以自行训练？</span><br>
+<span>比如一个主打三渲二的公司，可以自己训练日系萌豚画风的DLSS么？ ...</span><br>
+<span>我理解2.0最大的优势就是二三线作品也能用得上。</span><br>
+<span>3A大作一般有能力按1.0的方式自己做训练提交。</span><br>
+<span>gust这种三流小厂用2.0黄老板的通用方案也能提升不少。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920498[0-50]</guid>
+    </item>
+  </channel>
+</rss>

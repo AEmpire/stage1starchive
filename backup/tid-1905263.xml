@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>单片机学习建议</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>单片机学习建议</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:09:11 +0000</lastBuildDate>
+    <item>
+      <title>单片机学习建议[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905263-1-1.html</link>
+      <description>单片机学习建议&#13;
+学单片机需要先学c语言吗？因为复试有这个科目，之前根本没接触过单片机，请教下各位大神</description>
+      <content:encoded><![CDATA[<p><b>TRG42: </b><br>
+<span>单片机学习建议</span><br>
+<span>学单片机需要先学c语言吗？因为复试有这个科目，之前根本没接触过单片机，请教下各位大神</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>不需要先学，边学单片机边上手就好了</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>写单片机你甚至可以不用指针，不用结构体……</span><br>
+<span>然而，复试需要单片机的学科，面试知道你不会c语言，恐怕是…………</span><br>
+</p><p><b>Litccc: </b><br>
+<span> 本帖最后由 Litccc 于 2019-12-24 18:43 编辑 </span><br>
+<span>我学单片机的时候都是用汇编写的（学校要求），简直反人类，期末上机考试的时候写完程序才发现电脑U口坏了，最后上机部分不及格，还好卷面分还行过了</span><br>
+</p><p><b>脑洞: </b><br>
+<span> 本帖最后由 脑洞 于 2019-12-24 18:50 编辑 </span><br>
+<span>能去考单片机的学科不可能没有通识类编程课的嘛，</span><br>
+<span>大可以告诉人家你会C++，JAVA，之类的，语言根本不重要，本来大部分语言都是C的扩展包</span><br>
+<span>单片机嘛，就说说你知道什么是ADC，什么是看门狗，怎么输出个波控制小马达，单片机和PC的区别也就是要管管外面的电路而已，</span><br>
+</p><p><b>TRG42: </b><br>
+<span>脑洞 发表于 2019-12-24 18:46</span><br>
+<span>能去考单片机的学科不可能没有通识类编程课的嘛，</span><br>
+<span>大可以告诉人家你会C++，JAVA，之类的，</span><br>
+<span>单片机嘛，知道 ...</span><br>
+<span>我学的是机械，鬼知道为啥复试有单片机原理c语言我都忘光了</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>TRG42 发表于 2019-12-24 18:48</span><br>
+<span>我学的是机械，鬼知道为啥复试有单片机原理c语言我都忘光了</span><br>
+<span>单片机原理可比c语言写单片机难多了</span><br>
+<span>汇编，请</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>别学单片机。坑。</span><br>
+</p><p><b>喵呜哇哈: </b><br>
+<span>不要方，你就说你学的是arduino</span><br>
+</p><p><b>naihs: </b><br>
+<span>讲道理还是认真把c学好吧，搞嵌入式c不熟很难做的好的</span><br>
+</p><p><b>秘封赛高！: </b><br>
+<span>TRG42 发表于 2019-12-24 18:48:23</span><br>
+<span>我学的是机械，鬼知道为啥复试有单片机原理机械专业本科不应该有单片机课程吗，51单片机连LED各种瞎闪的实验</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>机械学学单片机控制小车跑跑不是还挺正常的么，至少我发小是学了的</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-12-24 19:48 编辑 </span><br>
+<span>八八八云紫 发表于 2019-12-24 19:35</span><br>
+<span>机械学学单片机控制小车跑跑不是还挺正常的么，至少我发小是学了的</span><br>
+<span>很多学校课程安排非常奇怪…………照理说自控，机械，电信都该学，然而有的学校，直接让C和Java选一种，选了Java的人因为不是做计算机的，一辈子基本都用不上…………但是因为容易，相当大部分的人就学java了</span><br>
+<span>单片机部分用汇编，结果就教串口，中断定时器这些最基本的，因为是汇编，课程设计难度就不得不非常低，最后什么也学不会</span><br>
+<span>聪明的学校是考试考汇编，课程设计是c，提高难度，有的学校脑子被驴踢了，c是选修，就不行了。</span><br>
+<span>所以说国内某些学校这个课程安排真的弱智的一逼，方差非常大，有的学校培养计划非常清楚，有的学校则完全反过来，教育部定的如此严的情况下都是如此，没法说了…………</span><br>
+</p><p><b>nuick: </b><br>
+<span>at98c51 我这辈子记得这垃圾</span><br>
+<span>千万别学单片机</span><br>
+</p><p><b>蔡小贫: </b><br>
+<span>我们大一的时候前半学期开单片机，后半学期另一个专业课就开始上c</span><br>
+<span>反正单片机跪了不少人</span><br>
+</p><p><b>Ik4ruga: </b><br>
+<span>单片机当兴趣吧</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>肯定要会C</span><br>
+<span>然后也看题目范围吧，问单片机的体系架构原理跟怎么用，不是同一个难度</span><br>
+</p><p><b>车欠: </b><br>
+<span> 本帖最后由 车欠 于 2019-12-24 21:33 编辑 </span><br>
+<span>微机原理和c语言是基础，有了这两个基础，再学单片机。</span><br>
+<span>至于复试嘛，稍微动一下手就行了。</span><br>
+<span>学校教的单片机主要以51单片机，而STM32那么多功能就别碰了。</span><br>
+<span>对于一些转行的人来说，比机械专业好一点，比CS简单点的工作是单片机</span><br>
+</p><p><b>马甲号2: </b><br>
+<span>单片机对C的要求近乎于无（我指的是拿来应试的情况），一边玩一边学都行。</span><br>
+<span>串口LCD舵机这些鬼东西虽然没实际难度，但肯定会花你不少时间。</span><br>
+<span>真正有难度的是微机原理，真往深里考就认命吧</span><br>
+</p><p><b>ceekay: </b><br>
+<span>不是。。。。你们机械就不能好好学plc么。。。</span><br>
+</p><p><b>槲寄生: </b><br>
+<span>看看内核源码。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905263[0-50]</guid>
+    </item>
+  </channel>
+</rss>

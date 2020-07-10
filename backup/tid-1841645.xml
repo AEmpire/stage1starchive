@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>(万能S1)流水线的图像分析技术</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>(万能S1)流水线的图像分析技术</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:33:46 +0000</lastBuildDate>
+    <item>
+      <title>(万能S1)流水线的图像分析技术[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841645-1-1.html</link>
+      <description>(万能S1)流水线的图像分析技术&#13;
+S1卧虎藏龙，遇事不决发个贴。
+&#13;
+本人就职于某涂装车间，想实现一个功能。
+&#13;
+背景：一条保险杠涂装流水线，为保险杠涂上颜色。
+&#13;
+问题：偶然（约万分一）会由于各种故障，产品会有部分或者全部漏喷涂料。
+&#13;
+需求：流水线上安装摄像头，通过图像分析判断产品是否已经有漏喷。
+&#13;
+考虑方案：
+&#13;
+产品到达既定位置→摄像→【图像分析】→传输信号给流水线控制盘
+&#13;
+前提条件：
+&#13;
+1、产品形状会有3-5种车型；
+&#13;
+2、基材颜色是固定的（黑色），涂上后会呈现灰、白、红等；
+&#13;
+3、摄像头和产品会固定，也就是背景是相对稳定的，但不会有绿幕什么的；
+&#13;
+按技术上肯定是可实现的，只是不知道难度有多大。
+&#13;
+想咨询各位大佬， 有什么软件方案推荐？
+&#13;
+了解过python和matlab都有图像分析包
+&#13;
+我略懂一点python基础，自己写一个需要多大工程量？
+&#13;
+或者市面上有没有公司已经有成熟的方案？
+&#13;
+如果有大佬刚好是干这个的，欢迎商业洽淡</description>
+      <content:encoded><![CDATA[<p><b>fat: </b><br>
+<span>(万能S1)流水线的图像分析技术</span><br>
+<span>S1卧虎藏龙，遇事不决发个贴。</span><br>
+<span>本人就职于某涂装车间，想实现一个功能。</span><br>
+<span>背景：一条保险杠涂装流水线，为保险杠涂上颜色。</span><br>
+<span>问题：偶然（约万分一）会由于各种故障，产品会有部分或者全部漏喷涂料。</span><br>
+<span>需求：流水线上安装摄像头，通过图像分析判断产品是否已经有漏喷。</span><br>
+<span>考虑方案：</span><br>
+<span>产品到达既定位置→摄像→【图像分析】→传输信号给流水线控制盘</span><br>
+<span>前提条件：</span><br>
+<span>1、产品形状会有3-5种车型；</span><br>
+<span>2、基材颜色是固定的（黑色），涂上后会呈现灰、白、红等；</span><br>
+<span>3、摄像头和产品会固定，也就是背景是相对稳定的，但不会有绿幕什么的；</span><br>
+<span>按技术上肯定是可实现的，只是不知道难度有多大。</span><br>
+<span>想咨询各位大佬， 有什么软件方案推荐？</span><br>
+<span>了解过python和matlab都有图像分析包</span><br>
+<span>我略懂一点python基础，自己写一个需要多大工程量？</span><br>
+<span>或者市面上有没有公司已经有成熟的方案？</span><br>
+<span>如果有大佬刚好是干这个的，欢迎商业洽淡</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>这种需求直接用成熟的图像识别库就行。但是你得明白，软件和实际生产环境有天堑一般的鸿沟。很容易出现调试成功率极高，线上各种问题的情况，这方面你要多费心</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>约万分一，那不是良品率99.99%，发给客户，让客户送回来就行了</span><br>
+</p><p><b>fat: </b><br>
+<span>洗刷刷 发表于 2019-6-23 15:34</span><br>
+<span>这种需求直接用成熟的图像识别库就行。但是你得明白，软件和实际生产环境有天堑一般的鸿沟。很容易出现调试 ...</span><br>
+<span>我也觉得会是这样的……</span><br>
+<span>不过反正线外辅助设备，不会影响流水线生产。</span><br>
+<span>不妨先装个雏形，再花1-2年时间去完善都是可以的。</span><br>
+</p><p><b>yych0611: </b><br>
+<span>CAMUS.net 发表于 2019-6-23 15:36</span><br>
+<span>约万分一，那不是良品率99.99%，发给客户，让客户送回来就行了</span><br>
+<span>我猜他这个万分之一发生后后面的所有部件全部会漏涂，不然1、2件不良产品明显在可接受范围内</span><br>
+</p><p><b>71888675: </b><br>
+<span>用opencv来做好像不是很难吧。</span><br>
+<span>但我不会</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>我听着好像取一些固定点的颜色判断就好了</span><br>
+</p><p><b>fat: </b><br>
+<span>yych0611 发表于 2019-6-23 15:39</span><br>
+<span>我猜他这个万分之一发生后后面的所有部件全部会漏涂，不然1、2件不良产品明显在可接受范围内 ...</span><br>
+<span>这里详细说明下。</span><br>
+<span>1、其实需要检查的是第一层“底漆”。当面漆喷完后，就算底漆漏喷了也是在后面检查工程很难看出来的（容易漏检）。</span><br>
+<span>2、这样不良品就很容易装到车上，一路去到顾客手上。一开始没问题，但是一不小心刮花过保险杠后，就会沿缺口大面积脱漆。</span><br>
+<span>一方面是难检出，另一方面是影响恶劣。</span><br>
+<span>是绝对不能允许有一件流出到顾客手上的……</span><br>
+</p><p><b>朔方原的星: </b><br>
+<span>超简单，你去搜吧搜吧就能做</span><br>
+</p><p><b>fat: </b><br>
+<span>一百三十万颗星 发表于 2019-6-23 15:51</span><br>
+<span>我听着好像取一些固定点的颜色判断就好了</span><br>
+<span>确实有供应商推荐过固定点的方案。</span><br>
+<span>不过不是很完美，因为怕一些产品是“部分面积漏喷”的。</span><br>
+<span>虽然可能性更低，只有十万分一左右是部分漏喷的。</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span>这个你自己写工程量感觉会相当大，而且部署到生产环境上估计会有一堆问题，还是找相关方案的提供商方便。</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span> 本帖最后由 Sacnussem 于 2019-6-23 16:01 编辑 </span><br>
+<span>固定场景这种。。能固定光照，opencv的模式匹配足够了</span><br>
+<span>如果零件朝向也是固定的，我猜着几张照片十几行代码就能搞定</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xiaojve: </b><br>
+<span>在线检测，工业高速CCD配合计算机自检。</span><br>
+<span>国内很多厂家做。我们厂买的北京凌云，还行</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>openmv模块</span><br>
+<span>可以玩玩试试</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>fat: </b><br>
+<span>xiaojve 发表于 2019-6-23 15:58</span><br>
+<span>在线检测，工业高速CCD配合计算机自检。</span><br>
+<span>国内很多厂家做。我们厂买的北京凌云，还行</span><br>
+<span>感谢！搜了下感觉不错。先mark住了。</span><br>
+</p><p><b>龙蛇演义: </b><br>
+<span>深圳这边工业自动化上机器视觉的一大堆，你随便找个靠谱的厂就行</span><br>
+</p><p><b>fat: </b><br>
+<span>Sacnussem 发表于 2019-6-23 15:57</span><br>
+<span>固定场景这种。。能固定光照，opencv的模式匹配足够了</span><br>
+<span>如果零件朝向也是固定的，我猜着几张照片十几行代码 ...</span><br>
+<span>卧槽，我了解下，感觉可以我自己先拍几张下来试试。</span><br>
+<span>虽然说是固定场景，但难免会有些变化。譬如工件位置变化，摄像头抖动等。我先试试看。</span><br>
+</p><p><b>qq800as: </b><br>
+<span>工业建议用halcon</span><br>
+</p><p><b>sujoju: </b><br>
+<span>？it程序员硬扛自动化？你在闭门造车吗？你随便找个机器视觉自动化公司一天内有方案，十天完成样机，一个月就能上线，其实吧，不嫌烦用色标传感器就行，底色一样</span><br>
+</p><p><b>龙手马弗: </b><br>
+<span>不用什么都上图像分析啊，那个多贵啊</span><br>
+<span>设计个白光射上去，调整一下识别反射光，红色就是涂上了，其他颜色就是没涂上，多简单</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>担心位置变化的话，开持续录像，用openCV的MoG把运动目标从静止背景中提取出来就好了</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>zyhang: </b><br>
+<span>拍几张图片，自己标注一下位置，然后用unet搞一个分割模型，判断颜色。感觉可行。</span><br>
+</p><p><b>zdb838: </b><br>
+<span>fat 发表于 2019-06-23 15:29:49</span><br>
+<span>S1卧虎藏龙，遇事不决发个贴。这不是传统的plc工业化流水编程吗，为啥要考虑颜色，直接测试重量偏差值不就可以了，少于一定重量一定少喷漆上去了。或者直接外接红外线扫描，上下都要，直接判定喷漆表面起伏度也可以判断有没有喷上去。关键在于判断有没有喷漆上去，是不是喷到位，是不是？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>zdb838: </b><br>
+<span>fat 发表于 2019-06-23 15:29:49</span><br>
+<span>S1卧虎藏龙，遇事不决发个贴。按你说的这种情况实际上不需要图像分析啊，只是质量检验把关而已。便准化生产最后只要有数据标准即可判断优等是否。你这样不是多此一举吗。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>novem: </b><br>
+<span>以我的工作经验来说，除非你是老板，这事情不建议你出手，如果你们是国企就更不建议了。</span><br>
+</p><p><b>blazeknife: </b><br>
+<span>随便一家做CCD的随机软件都有这个功能啊。。。。。。。。。</span><br>
+<span>为啥要自己做轮子 接口对上不就结了。。。。。。。</span><br>
+</p><p><b>fat: </b><br>
+<span> 本帖最后由 fat 于 2019-6-24 20:33 编辑 </span><br>
+<span>zdb838 发表于 2019-6-23 22:47</span><br>
+<span>这不是传统的plc工业化流水编程吗，为啥要考虑颜色，直接测试重量偏差值不就可以了，少于一定重量一定少喷 ...</span><br>
+<span>也有考虑过除颜色外的其他方案。</span><br>
+<span>重量：产品约1.6kg，全涂膜重量约10-15g。测量精度要求不低。加上要在流水线上加重量测量装置也不容易，就放弃了。</span><br>
+<span>红外扫描起伏度：这个没想过。要在大范围（约1㎡）快速测量10μm的起伏难度更高吧？</span><br>
+<span>现在已经在用的方案其实是“涂料流量”，有一定实用性。</span><br>
+<span>只是偶然会出现设备问题，涂料是流过去了但是没有喷涂到产品上（譬如涂料管路破裂泄漏了）。</span><br>
+<span>我对图像分析有执着是有些别的理由的。</span><br>
+<span>因为眼看IT技术近10年飞速发展，但我们车间工佬对此类技术一窍不通。</span><br>
+<span>想以此为突破口，多导入些新思路。</span><br>
+</p><p><b>fat: </b><br>
+<span>dkswxd 发表于 2019-6-23 16:37</span><br>
+<span>担心位置变化的话，开持续录像，用openCV的MoG把运动目标从静止背景中提取出来就好了</span><br>
+<span>----发送自 HUAWEI B ...</span><br>
+<span>感谢~~我好好研究一下openCV，昨晚重新搭了下python环境终于又能跑起来。</span><br>
+</p><p><b>fat: </b><br>
+<span>blazeknife 发表于 2019-6-23 23:34</span><br>
+<span>随便一家做CCD的随机软件都有这个功能啊。。。。。。。。。</span><br>
+<span>为啥要自己做轮子 接口对上不就结了。。。。。 ...</span><br>
+<span>有找过相熟的keyence讨论方案。</span><br>
+<span>他们确实有给出小型CCD辨识的方案。</span><br>
+<span>只是范围太小（10×10cm）。</span><br>
+<span>我理想是可以做到整个产品的检测（不规则约1㎡）……</span><br>
+</p><p><b>fat: </b><br>
+<span>novem 发表于 2019-6-23 22:50</span><br>
+<span>以我的工作经验来说，除非你是老板，这事情不建议你出手，如果你们是国企就更不建议了。 ...</span><br>
+<span>国企、国企……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841645[0-50]</guid>
+    </item>
+  </channel>
+</rss>

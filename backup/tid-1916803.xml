@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，9900K+Z390平台，所有SSD跑分都明显偏低，啥毛病？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，9900K+Z390平台，所有SSD跑分都明显偏低，啥毛病？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:49:27 +0000</lastBuildDate>
+    <item>
+      <title>求助，9900K+Z390平台，所有SSD跑分都明显偏低，啥毛病？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916803-1-1.html</link>
+      <description>求助，9900K+Z390平台，所有SSD跑分都明显偏低，啥毛病？&#13;
+
+&#13;
+这是960pro 512G 写入2000M有点不对劲
+&#13;
+这是P4600 1.6T，4K QT1不到20M，怀疑人生
+&#13;
+这是WD黑盘 SN700，表现稍微正常些，4K QT1还是偏低
+&#13;
+顺便，另外一台i7 8700 + Z370的电脑
+&#13;
+同样P4600 1.6T的4K QT1要稍微正常点</description>
+      <content:encoded><![CDATA[<p><b>shinjico: </b><br>
+<span>求助，9900K+Z390平台，所有SSD跑分都明显偏低，啥毛病？</span><br>
+<span>这是960pro 512G 写入2000M有点不对劲</span><br>
+<span>这是P4600 1.6T，4K QT1不到20M，怀疑人生</span><br>
+<span>这是WD黑盘 SN700，表现稍微正常些，4K QT1还是偏低</span><br>
+<span>顺便，另外一台i7 8700 + Z370的电脑</span><br>
+<span>同样P4600 1.6T的4K QT1要稍微正常点</span><br>
+</p><p><b>shinjico: </b><br>
+<span> 本帖最后由 shinjico 于 2020-3-2 20:37 编辑 </span><br>
+<span>技嘉 Z390 pro wifi ， bios升到了F12c</span><br>
+<span>开始以为是幽灵熔断补丁的问题，刷回F9，还是一个鸟样</span><br>
+<span>Win10 是一直自动更新到了1909最新版的</span><br>
+<span>intel的那些芯片组驱动什么，intel nvme 驱动，三星nvme驱动也都装了的</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>用inspectre确认过了没有</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>First_Snow: </b><br>
+<span>CPU C-States会影响跑分</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>bios更新过微码叻吧</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>bios和windows回滚到漏洞踢爆前的版本，禁用杀毒软件，否则SSD跑分某些子项都是砍半级别的性能下降</span><br>
+</p><p><b>shinjico: </b><br>
+<span> 本帖最后由 shinjico 于 2020-3-3 15:35 编辑 </span><br>
+<span>albertfu 发表于 2020-3-3 14:52</span><br>
+<span>bios和windows回滚到漏洞踢爆前的版本，禁用杀毒软件，否则SSD跑分某些子项都是砍半级别的性能下降 ...</span><br>
+<span>windows也要回滚，这太麻烦了...... 凑合用用算了.....</span><br>
+<span>家里杀毒软件用的nod32，应该影响不大吧……</span><br>
+<span>单位是什么亚信的，这倒是个不同点</span><br>
+</p><p><b>albertfu: </b><br>
+<span>shinjico 发表于 2020-3-3 15:33</span><br>
+<span>windows也要回滚，这太麻烦了...... 凑合用用算了.....</span><br>
+<span>家里杀毒软件用的nod32，应该影响不大吧……</span><br>
+<span>试试暂时禁用nod32，可能会有用</span><br>
+<span>这两年的win10和bios都或多或少包含牙膏的漏洞补丁，回滚确实烦。。。要不先用inspectre禁用试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916803[0-50]</guid>
+    </item>
+  </channel>
+</rss>

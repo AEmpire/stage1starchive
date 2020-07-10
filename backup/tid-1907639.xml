@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有综合均值和方差来评定结果的指标</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有综合均值和方差来评定结果的指标</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:58:35 +0000</lastBuildDate>
+    <item>
+      <title>有没有综合均值和方差来评定结果的指标[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907639-1-1.html</link>
+      <description>有没有综合均值和方差来评定结果的指标&#13;
+效果类似于Excel的TRIMMEAN函数，也就是很多比赛中用的“去掉最低分和最高分”。但要给出能直接计算的公式，结果要符合均值相同时方差大的值更低。
+&#13;
+不一定要有什么数学证明或者物理意义（当然有是最好），在某个领域中有一定应用范围即可。</description>
+      <content:encoded><![CDATA[<p><b>马甲号2: </b><br>
+<span>有没有综合均值和方差来评定结果的指标</span><br>
+<span>效果类似于Excel的TRIMMEAN函数，也就是很多比赛中用的“去掉最低分和最高分”。但要给出能直接计算的公式，结果要符合均值相同时方差大的值更低。</span><br>
+<span>不一定要有什么数学证明或者物理意义（当然有是最好），在某个领域中有一定应用范围即可。</span><br>
+</p><p><b>干将莫邪: </b><br>
+<span>有个衡量参数叫变异系数，是标准差除以平均值。我没理解错的话应该是你要的东西</span><br>
+</p><p><b>blueshift: </b><br>
+<span>在经济学choice under risk的分析之中有一种简单的效用函数叫做mean-variance utility，就是U(X) = E - k * V。不过这里的k是个自由参数，你可以自己设置。</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>不是很确定楼主在说什么。楼主这名字也让我不是很想回。</span><br>
+<span>招标的时候为了避免恶意低价中标，有种计分方式是计算所有投标人报价或者去掉极大极小投标人报价后的平均值作为基准价，高于或者低于这个价都要扣分。</span><br>
+<span>比如基准价算出来是30万，那么不论29万还是31万都要扣分。</span><br>
+</p><p><b>fat: </b><br>
+<span>楼主试试用T检验，算p值作为指标？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907639[0-50]</guid>
+    </item>
+  </channel>
+</rss>

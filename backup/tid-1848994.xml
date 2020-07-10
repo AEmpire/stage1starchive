@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>编译也挺考验系统稳定性的，内存超频翻车</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>编译也挺考验系统稳定性的，内存超频翻车</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:47:13 +0000</lastBuildDate>
+    <item>
+      <title>编译也挺考验系统稳定性的，内存超频翻车[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848994-1-1.html</link>
+      <description>编译也挺考验系统稳定性的，内存超频翻车&#13;
+ 本帖最后由 liwangli1983 于 2019-7-25 09:33 编辑 
+
+如题，3700x，x570主板，内存是金士顿掠夺者RGB灯条3200 8Gx2，据说是CJR，按那个dram计算器出来的3600的safe参数填了下，开机进win10，超aida64稳定性测试，开memtest都正常，以为这样就ok了
+&#13;
+昨天编译gentoo里面的llvm，16线程全开也就1分钟吧，直接重启了。现在内核温度模块也不支持zen2的温度显示，但从出风口温度感觉来看并没有比aida64烤机高，频率来看也就是全4.2G，所以感觉还是内存可能不稳定，于是重进bios切回xmp 3200默认设置，再编译就一切ok了……
+&#13;
+不改降内存频率的话，用6线程试了下也不会重启。看来线程数多了不光是对cpu有压力，对内存压力也不小啊</description>
+      <content:encoded><![CDATA[<p><b>liwangli1983: </b><br>
+<span>编译也挺考验系统稳定性的，内存超频翻车</span><br>
+<span> 本帖最后由 liwangli1983 于 2019-7-25 09:33 编辑 </span><br>
+<span>如题，3700x，x570主板，内存是金士顿掠夺者RGB灯条3200 8Gx2，据说是CJR，按那个dram计算器出来的3600的safe参数填了下，开机进win10，超aida64稳定性测试，开memtest都正常，以为这样就ok了</span><br>
+<span>昨天编译gentoo里面的llvm，16线程全开也就1分钟吧，直接重启了。现在内核温度模块也不支持zen2的温度显示，但从出风口温度感觉来看并没有比aida64烤机高，频率来看也就是全4.2G，所以感觉还是内存可能不稳定，于是重进bios切回xmp 3200默认设置，再编译就一切ok了……</span><br>
+<span>不改降内存频率的话，用6线程试了下也不会重启。看来线程数多了不光是对cpu有压力，对内存压力也不小啊</span><br>
+</p><p><b>albertfu: </b><br>
+<span>还是不能迷信memtest，当时跑了百分之多少？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>albertfu 发表于 2019-7-25 10:57</span><br>
+<span>还是不能迷信memtest，当时跑了百分之多少？</span><br>
+<span>200%？记不清了</span><br>
+</p><p><b>solaris40: </b><br>
+<span>羡慕用gentoo的，不是有钱人就是闲人。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>拿超频的机器做开发是给自己找麻烦</span><br>
+</p><p><b>男子汉: </b><br>
+<span>memtest你才运行多长时间，当然不能保证更长时间的高负荷运行</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>精钢魔像 发表于 2019-7-25 11:39</span><br>
+<span>拿超频的机器做开发是给自己找麻烦</span><br>
+<span>到也不算是做开发啦，gentoo这玩意本身系统就是编出来的，正常的更新升级而已</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>男子汉 发表于 2019-7-25 12:48</span><br>
+<span>memtest你才运行多长时间，当然不能保证更长时间的高负荷运行</span><br>
+<span>1小时？但编译这个1分钟就重启啊……线程减少点就ok了，所以我又感觉可能不完全是内存的事</span><br>
+</p><p><b>john: </b><br>
+<span>liwangli1983 发表于 2019-7-25 13:20</span><br>
+<span>1小时？但编译这个1分钟就重启啊……线程减少点就ok了，所以我又感觉可能不完全是内存的事 ...</span><br>
+<span>要么就是内存控制器扛不住了</span><br>
+<span>跑测试从来只是稳定运行的必要条件而不是充分条件，稳定运行的充要条件只有一个就是稳定运行</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>john 发表于 2019-7-25 13:22</span><br>
+<span>要么就是内存控制器扛不住了</span><br>
+<span>跑测试从来只是稳定运行的必要条件而不是充分条件，稳定运行的充要条件只有 ...</span><br>
+<span>内存控制器是给给soc加点电压？我研究研究去，虽然就按xmp3200跑也没有多大关系，不过折腾下也挺有意思</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-7-25 13:24</span><br>
+<span>内存控制器是给给soc加点电压？我研究研究去，虽然就按xmp3200跑也没有多大关系，不过折腾下也挺有意思 ...</span><br>
+<span>内存也加点吧，1.2估计不够，感觉直接拉1.35的多</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>EraserKing 发表于 2019-7-25 13:29</span><br>
+<span>内存也加点吧，1.2估计不够，感觉直接拉1.35的多</span><br>
+<span>xmp3200就是1.35了，dram计算器那个3600的参数给的1.39。不知道要不要再加点</span><br>
+<span>这里比较奇怪的是，如果是有不稳定那么压力一上来，应该马上会重启或者死机，但这里总是要高负荷运行1分钟左右才重启，我一度以为是散热问题，但linux下目前看不到cpu温度也没办法，而且cpu有采融a3加持正常来说不会过热，win下压力测试也没问题。</span><br>
+<span>要么就是内存散热不行，金士顿这条最边上两个颗粒没和散热片没接触……</span><br>
+</p><p><b>lpc2103: </b><br>
+<span>趴在泥潭看3700相关的帖子，现在越来越不敢入3700了</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>liwangli1983 发表于 2019-7-25 13:33</span><br>
+<span>xmp3200就是1.35了，dram计算器那个3600的参数给的1.39。不知道要不要再加点</span><br>
+<span>这里比较奇怪的是，如果是有 ...</span><br>
+<span>已经1.39了？那基本先不用加DRAM了，加SOC或者降时序。</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>没ECC你说个稳定性</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>只用xmp</span><br>
+</p><p><b>albertfu: </b><br>
+<span>liwangli1983 发表于 2019-7-25 13:33</span><br>
+<span>xmp3200就是1.35了，dram计算器那个3600的参数给的1.39。不知道要不要再加点</span><br>
+<span>这里比较奇怪的是，如果是有 ...</span><br>
+<span>那个计算器感觉没必要信他，我是没法按照算出来的值稳定跑的</span><br>
+<span>zen手动超内存就是SOC 1.2V给足（算上LLC，实际得设得低些比如1.16），内存电压给足（看你内存散热，一般不要超过1.65V），CPU+VRM+RAM的散热到位，然后zen2的话3800开始锁CL22往下降频率（优先IF频率），降到稳定为止再开始缩时序，运气好点可以缩到CL14。后面小参就xjb填，一般市面卖的条的值或者memory try-it里面的预设值参考一下得了</span><br>
+<span>但这一通折腾，很可能比XMP高不了太多，但是费的功夫很大，不值。。。尤其是你XMP 3200本来就没问题，就别去折腾了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>albertfu 发表于 2019-7-25 15:07</span><br>
+<span>那个计算器感觉没必要信他，我是没法按照算出来的值稳定跑的</span><br>
+<span>zen手动超内存就是SOC 1.2V给足（算上LLC， ...</span><br>
+<span>昨晚试了下soc给到1.15v直接开不了机。清了bios后想算了，不折腾了。</span><br>
+<span>之前明试过xmp3200设完后，单独只改成3466是正常的，3600能进系统但烤机会死。这次先是试了3466，编译正常。然后试了下3533，结果编译中途会出错，大概还是内存不够稳定。</span><br>
+<span>所以就凑合3466用了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>liwangli1983 发表于 2019-7-26 14:47</span><br>
+<span>昨晚试了下soc给到1.15v直接开不了机。清了bios后想算了，不折腾了。</span><br>
+<span>之前明试过xmp3200设完后，单独只 ...</span><br>
+<span>3466非常好了，zen2 IF:IMC=1:1极限才3800，再往上没意义</span><br>
+<span>我是3600的b-die只能跑3066憋屈得很，等zen2 TR出来了看看能有多大改进。。。</span><br>
+</p><p><b>ReZeroL: </b><br>
+<span>偷偷说一句，吃鸡测内存和cpu，apex和ow测显卡</span><br>
+<span>我自己体感比各种测试都好用一截。。</span><br>
+</p><p><b>oz01: </b><br>
+<span>lpc2103 发表于 2019-7-25 13:39</span><br>
+<span>趴在泥潭看3700相关的帖子，现在越来越不敢入3700了</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅 ...</span><br>
+<span>3700x x570，目前一切正常，很巧的是我也做开发，C++，会用到boost</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>ReZeroL 发表于 2019-7-26 15:24</span><br>
+<span>偷偷说一句，吃鸡测内存和cpu，apex和ow测显卡</span><br>
+<span>我自己体感比各种测试都好用一截。。 ...</span><br>
+<span>说到游戏测系统稳定性，让我想起来大学（05年左右）时候带同学去电脑城配机，回来测试稳定性一个办法就是玩魔兽3（不是魔兽世界）</span><br>
+<span>明明各种考机软件都能pass的，一玩war3就蓝，最后换内存解决</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>albertfu 发表于 2019-7-26 15:22</span><br>
+<span>3466非常好了，zen2 IF:IMC=1:1极限才3800，再往上没意义</span><br>
+<span>我是3600的b-die只能跑3066憋屈得很，等zen2 T ...</span><br>
+<span>嗯，可能我手头这条体质也是一般吧，当时直接买xmp3600的就好了，不过贵好多</span><br>
+<span>zen的tr单位有一台用于编译的，1950x，内存配的比较保守2666，不过一直挺稳定的论月不关。为了加速编译还买了970evo当缓存（linux下的bcache），编译速度先不提，grep代码速度比纯硬盘快太多</span><br>
+</p><p><b>limon: </b><br>
+<span>一般 amd 主板都是 nct6775 这个传感器模块，运行 sensors 就能看。cpu 核心温度是对应 SMBUSMASTER 那项。</span><br>
+<span>注意默认 4.19 内核不行，我用的 5.2。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>limon 发表于 2019-7-26 18:53</span><br>
+<span>一般 amd 主板都是 nct6775 这个传感器模块，运行 sensors 就能看。cpu 核心温度是对应 SMBUSMASTER 那项。 ...</span><br>
+<span>aida64显示是nct6798好像，sensor-detect显示nct6775匹配，但实际上载入模块后用sensors并没有看到，原因不详；</span><br>
+<span>内核已经是5.2.1了。k10temp据说是有补丁可以识别zen2，等周末有时间搞一下。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span> 本帖最后由 liwangli1983 于 2019-8-4 19:29 编辑 </span><br>
+<span>这两天有时间，再加上dram计算器又出了新版，于是又折腾了一下。</span><br>
+<span>拉到3600，填了下参数，在1.42v在win10下用memtest跑700%无错，但进linux一编译还是重启。于是加压，1.435v还是重启，干脆加到1.45v，这下到是ok了，但觉得电压有点高了。</span><br>
+<span>后来一想，非要强求3600么，降一个档次看下。降到3533，结果一路电压降到1.37v都ok（更低没试），不管编译还是memtest。</span><br>
+<span>跑了下速度，比3600没差多少，但代价小多了，就这么凑合用吧。</span><br>
+</p><p><b>ardin: </b><br>
+<span>用gentoo还是别超频了吧。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848994[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小米竟然直接用msa推送广告通知（34、64楼有关闭方法）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小米竟然直接用msa推送广告通知（34、64楼有关闭方法）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:40:49 +0000</lastBuildDate>
+    <item>
+      <title>小米竟然直接用msa推送广告通知（34、64楼有关闭方法）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840505-1-1.html</link>
+      <description>小米竟然直接用msa推送广告通知&#13;
+ 本帖最后由 被雨困住的城市 于 2019-6-19 00:56 编辑 
+
+好气啊618收到一条广告通知
+
+https://i.loli.net/2019/06/19/5d09178e112d350983.jpg</description>
+      <content:encoded><![CDATA[<p><b>zhrs456: </b><br>
+<span>互联网手机的日常 还好我用过的手机基本都把广告费算进售价了</span><br>
+</p><p><b>奶牛: </b><br>
+<span>typeunknown 发表于 2019-8-6 08:38</span><br>
+<span>可以啊。不过要是想设空白页还得手输about:blank可能是要算不太友好。</span><br>
+<span>我手上这台干脆没有默认导航的选项了，看了下花粉论坛说是EDUI9的浏览器不给改</span><br>
+</p><p><b>windfire: </b><br>
+<span>有什么关系呢？s1都自带广告。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>奶牛 发表于 2019-8-6 09:27</span><br>
+<span>我手上这台干脆没有默认导航的选项了，看了下花粉论坛说是EDUI9的浏览器不给改 ...</span><br>
+<span>我这老机器系统升了9.1浏览器的版本号还是5开头，找台nova5看了下浏览器也是9.x了不让自定义主页</span><br>
+<span>—— 来自 HUAWEI DUK-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<img src="https://i.loli.net/2019/08/18/bKV2Ma1FyUYn83J.jpg" title="https://i.loli.net/2019/08/18/bKV2Ma1FyUYn83J.jpg"><br>
+<span>……</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>Herreimu 发表于 2019-08-05 20:13:21</span><br>
+<span>都两个月了，楼主的msa还没被处理掉吗害怕影响其他功能，没敢弄</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>elflie: </b><br>
+<span>msa，mab到手冻结，从没有过问题</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>还来二连击https://i.loli.net/2019/08/20/rHqauNgxVvkC1cs.jpg</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>atomicink: </b><br>
+<span>小米的多看才是恶心，独占一堆广告，iOS版反而清爽很多。</span><br>
+</p><p><b>jolethin: </b><br>
+<span>哈哈哈哈哈哈哈哈哈哈哈哈哈，米BOY的烦恼</span><br>
+</p><p><b>风云再起: </b><br>
+<span>msa知道怎么用adb命令来禁用；但是mab该禁用哪个程序呢？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elflie: </b><br>
+<span>风云再起 发表于 2019-8-20 22:36</span><br>
+<span>msa知道怎么用adb命令来禁用；但是mab该禁用哪个程序呢？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next- ...</span><br>
+<span>com.xiaomi.ab</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>windrarara: </b><br>
+<span>你们干脆搞一个交流小米广告怎么关的楼好了</span><br>
+</p><p><b>奶牛: </b><br>
+<span>MIUI里面的有三个程序是和广告有关联的，分别是Analytics、msa、mab。</span><br>
+<span>Analytics：用于分析上传数据改善体验，但存在漏洞，可实现静默安装任意apk，桌面偶尔会出现并非你自己安装的APP，就是其所导致的（不排除是官方有意而为之）；</span><br>
+<span>msa（即MIUI System Ad Solution）：用于推送广告的程序，是状态栏推送广告的罪魁祸首；</span><br>
+<span>mab：据推测这个为“设置”里“我的设备”中的“小米商城”模块，相当于在系统中内嵌了一个轻量版小米商城，也会时不时推送广告；</span><br>
+<span>adb shell pm uninstall --user 0 com.miui.systemAdSolution</span><br>
+<span>adb shell pm uninstall --user 0 com.xiaomi.ab</span><br>
+<span>adb shell pm uninstall --user 0 com.miui.analytics</span><br>
+<span>用了几家国产猴之后的感想是在不root不解锁的前提下ADUI关完之后是最少体验最好的</span><br>
+<span>其他几家都会不同程度在系统内置app积极给用户喂屎</span><br>
+<span>反之在不折腾的情况下，ADUI就是体验最糟糕的那个</span><br>
+</p><p><b>风云再起: </b><br>
+<span>奶牛 发表于 2019-8-21 10:02</span><br>
+<span>MIUI里面的有三个程序是和广告有关联的，分别是Analytics、msa、mab。</span><br>
+<span>Analytics：用于分析上传数据改善体 ...</span><br>
+<span>感觉停用还是稍微稳妥点？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>奶牛: </b><br>
+<span>风云再起 发表于 2019-8-21 10:32</span><br>
+<span>感觉停用还是稍微稳妥点？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>米6刷国际版用了1年半，祖国版也用了半年多</span><br>
+<span>都是手工adb直接删掉，一切正常</span><br>
+<span>顺便国际版MIUI的msa包名加了个global</span><br>
+<span>觉得不保险冻结也可以</span><br>
+<span>顺便快应用国际版是可以安全干掉的，祖国版理论上干掉没问题，但可能会对小米会员/漫游助手什么的有影响</span><br>
+</p><p><b>ut0: </b><br>
+<span>k20pro的应用商店怎么搞掉？这货一直间歇性的给我推送，还不能停用，然后root了后卸载了又会卡开机。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>奶牛: </b><br>
+<span>ut0 发表于 2019-8-21 11:08</span><br>
+<span>k20pro的应用商店怎么搞掉？这货一直间歇性的给我推送，还不能停用，然后root了后卸载了又会卡开机。</span><br>
+<span>—— ...</span><br>
+<span>应用商店还有一些系统级app是不能卸的，不root改框架检测的话，卸了直接卡开机</span><br>
+<span>只能进app里关掉所有消息通知和内容推荐</span><br>
+<span>应用详情里关掉所有通知权限了</span><br>
+<span>游戏中心直接清除协议退app后，关掉所有通知</span><br>
+</p><p><b>魂命: </b><br>
+<span>你们发的我还真都没见过。。。</span><br>
+</p><p><b>奶牛: </b><br>
+<span>魂命 发表于 2019-8-21 11:30</span><br>
+<span>你们发的我还真都没见过。。。</span><br>
+<span>我也没遇过，因为这些都是大数据根据定位/手机型号/年份/转手次数/用户画像精准推送的，像LZ这种明知道msa喂翔了还不做点行动只会在泥潭贴图的，粗粮就会猛给他推广告了www</span><br>
+</p><p><b>风云再起: </b><br>
+<span>刚才在我的手机里搜索了一下，没有com.xiaomi.ab这个应用。。其他两个都找到了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>1aqqq: </b><br>
+<span>红米n7miboy路过。实在是太懒了，以前也许还会折腾下。。。现在要么直接无视，要么刷LOS</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>本来还以为小米不屑于向小米6推送广告啦，结果又来一个！</span><br>
+<img src="https://i.loli.net/2019/11/30/3NGY9BhSCV7jTUc.jpg" title="https://i.loli.net/2019/11/30/3NGY9BhSCV7jTUc.jpg"><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>楼主你不把msa禁用吗</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>pzy2222 发表于 2019-11-30 12:26:10</span><br>
+<span>楼主你不把msa禁用吗害怕出bug啊555</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>被雨困住的城市 发表于 2019-11-30 12:35</span><br>
+<span>害怕出bug啊555</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+<span>bug倒是不会有，偶尔会自己解冻而已</span><br>
+<span>我有root权限，用写轮眼关闭了msa的所有服务，这样它就打不开了，也不用怕反复解冻</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>Herreimu 发表于 2019-8-5 20:13</span><br>
+<span>都两个月了，楼主的msa还没被处理掉吗</span><br>
+<span>半年了，楼主的msa还活着</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>楼主真是爱得深沉啊…</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>elflie: </b><br>
+<span>原来我看过这贴</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>changeek: </b><br>
+<span>看了楼主的帖子的默默把三个广告应用都冻结了。root了才能大战ADUI。</span><br>
+<span>顺便问一下MIUI自带的应用商店和全球上网怎么冻结不卡米，全球上网居然还是个用户应用，卸载不了也冻结不了https://i.loli.net/2019/11/30/1K25a3lDCqvyiL4.jpg</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>changeek 发表于 2019-11-30 17:30</span><br>
+<span>看了楼主的帖子的默默把三个广告应用都冻结了。root了才能大战ADUI。</span><br>
+<span>顺便问一下MIUI自带的应用商店和全球 ...</span><br>
+<span>开BL锁，刷欧洲洋大人版可破（滑稽</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>elflie 发表于 2019-11-30 14:38</span><br>
+<span>原来我看过这贴</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>这页第二层就是您啊233</span><br>
+</p><p><b>goldtide07: </b><br>
+<span>changeek 发表于 2019-11-30 17:30</span><br>
+<span>看了楼主的帖子的默默把三个广告应用都冻结了。root了才能大战ADUI。</span><br>
+<span>顺便问一下MIUI自带的应用商店和全球 ...</span><br>
+<span>用冰箱冻结。</span><br>
+<span>冰箱机制很安全，是半冻结。重启默认解洞再冻结</span><br>
+<img src="https://ae01.alicdn.com/kf/Ue91b153467aa44f89b29e4308fcb0c24q.jpg" title="https://ae01.alicdn.com/kf/Ue91b153467aa44f89b29e4308fcb0c24q.jpg"><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840505[50-100]</guid>
+    </item>
+    <item>
+      <title>小米竟然直接用msa推送广告通知（34、64楼有关闭方法）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840505-1-1.html</link>
+      <description>小米竟然直接用msa推送广告通知&#13;
+ 本帖最后由 被雨困住的城市 于 2019-6-19 00:56 编辑 
+
+好气啊618收到一条广告通知
+
+https://i.loli.net/2019/06/19/5d09178e112d350983.jpg</description>
+      <content:encoded><![CDATA[<p><b>被雨困住的城市: </b><br>
+<span>小米竟然直接用msa推送广告通知</span><br>
+<span> 本帖最后由 被雨困住的城市 于 2019-6-19 00:56 编辑 </span><br>
+<span>好气啊618收到一条广告通知</span><br>
+<img src="https://i.loli.net/2019/06/19/5d09178e112d350983.jpg" title="https://i.loli.net/2019/06/19/5d09178e112d350983.jpg"><br>
+</p><p><b>RAMDA: </b><br>
+<span>那么你以为msa是干什么用的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>acg_s1: </b><br>
+<span>所以说msa本来是干什么用的？</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>acg_s1 发表于 2019-6-19 02:00</span><br>
+<span>所以说msa本来是干什么用的？</span><br>
+<span>包名com.miui.systemAdSolution</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2019-6-19 02:20 编辑 </span><br>
+<span>Mislim AD，为米粉特供的广告</span><br>
+</p><p><b>melvin95: </b><br>
+<span>阿门</span><br>
+</p><p><b>caibing: </b><br>
+<span>https://blog.csdn.net/asdfzxc54342/article/details/75251467</span><br>
+<span>618之前刚把msa干掉</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>烟萝: </b><br>
+<span>别说了，找你基本推送都关的。</span><br>
+<span>但是同步，系统，和米家常用就没关，但是最近已经逼得自己全关了。</span><br>
+</p><p><b>雪影: </b><br>
+<span>等k20P的twrp出来，就解锁root掉</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>marxel: </b><br>
+<span>雪影 发表于 2019-6-19 08:07</span><br>
+<span>等k20P的twrp出来，就解锁root掉</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>已经出了啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>marxel 发表于 2019-6-19 08:25</span><br>
+<span>已经出了啊</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>第三方的，等官方的了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>BT有理: </b><br>
+<span>难得这么多楼没有米粉出来三连击</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>BT有理 发表于 2019-06-19 09:33:34</span><br>
+<span>难得这么多楼没有米粉出来三连击 v2.1.2</span><br>
+<span>啥子三连?</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>卡爹: </b><br>
+<span>MSA的A就是AD啊，不然你以为呢</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zyhang: </b><br>
+<span>matthewsteel 发表于 2019-6-19 09:40</span><br>
+<span>啥子三连?</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+<span>我没有 可以关 波兰版</span><br>
+</p><p><b>marxel: </b><br>
+<span>BT有理 发表于 2019-6-19 09:33</span><br>
+<span>难得这么多楼没有米粉出来三连击</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2. ...</span><br>
+<span>我没有 早删了 不root买个几把小米</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>河水: </b><br>
+<span>marxel 发表于 2019-6-19 14:52</span><br>
+<span>我没有 早删了 不root买个几把小米</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>你这正宗，还带小米尾巴</span><br>
+<span>—— 来自 LENOVO Lenovo X3c50, Android 6.0.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>河水 发表于 2019-6-19 15:07</span><br>
+<span>你这正宗，还带小米尾巴</span><br>
+<span>—— 来自 LENOVO Lenovo X3c50, Android 6.0.1上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>讲真，msa mab我都删了，还是会有通知栏广告。。618当天 小米智能卡给我推了个狗东大促</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>marxel: </b><br>
+<span>qwased 发表于 2019-6-19 16:17</span><br>
+<span>讲真，msa mab我都删了，还是会有通知栏广告。。618当天 小米智能卡给我推了个狗东大促</span><br>
+<span>—— 来 ...</span><br>
+<span>最近是pdd比较厉害，每天好几个大图广告</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2019-6-19 22:30 编辑 </span><br>
+<span>qwased 发表于 2019-6-19 16:17</span><br>
+<span>讲真，msa mab我都删了，还是会有通知栏广告。。618当天 小米智能卡给我推了个狗东大促</span><br>
+<span>—— 来 ...</span><br>
+<span>我的不知点到啥，东西都禁了也用magisk装了adblock，这几天倒是没有广告</span><br>
+<span>看来我是合格の米boy了</span><br>
+</p><p><b>BT有理: </b><br>
+<span>melvin95 发表于 2019-6-19 17:22</span><br>
+<span>我的不知点到啥，东西都禁了也用magisk装了adblock，这几天倒没有广告</span><br>
+<span>看来我是合格の米boy了</span><br>
+<span>小米所有APP都带广告推送，光删系统那个没用</span><br>
+</p><p><b>sirius0714: </b><br>
+<span>BT有理 发表于 2019-6-19 21:58</span><br>
+<span>小米所有APP都带广告推送，光删系统那个没用</span><br>
+<span>只能通知全关+系统语言改繁体/英文吧</span><br>
+<span>—— 來自 Sony F8131, Android 7.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>BT有理: </b><br>
+<span>sirius0714 发表于 2019-6-19 22:10</span><br>
+<span>只能通知全关+系统语言改繁体/英文吧</span><br>
+<span>—— 來自 Sony F8131, Android 7.0上的 S1Next-鵝版 v2.1.2 ...</span><br>
+<span>小米更新系统还会偷偷给你打开，最彻底就是不用小米手机</span><br>
+</p><p><b>melvin95: </b><br>
+<span>BT有理 发表于 2019-6-19 21:58</span><br>
+<span>小米所有APP都带广告推送，光删系统那个没用</span><br>
+<span> 上论坛还买小米手机就准备好了看广告，没问题的</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>S1 miboy大佬认证过，黑adui的都没用miui，楼上那些小尾巴一定是华为手机改的</span><br>
+</p><p><b>pauleldwan: </b><br>
+<span>我今年最后悔的事就是买了首发MI9，没等2698的16s，中途修了两次，一次掉信号，一次相机无限FC，还得忍受日历这种app都有的开屏广告</span><br>
+</p><p><b>帝蓝: </b><br>
+<span>pauleldwan 发表于 2019-6-20 11:09</span><br>
+<span>我今年最后悔的事就是买了首发MI9，没等2698的16s，中途修了两次，一次掉信号，一次相机无限FC，还得忍受日 ...</span><br>
+<span>别后悔了 16S更烂</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<img src="https://i.loli.net/2019/07/27/5d3bf967e636327020.pnghttps://i.loli.net/2019/07/27/5d3bf96822fbc13908.png" title="https://i.loli.net/2019/07/27/5d3bf967e636327020.pnghttps://i.loli.net/2019/07/27/5d3bf96822fbc13908.png"><br>
+<span>有没有会用的教教我这玩意怎么干掉</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>qwased 发表于 2019-7-27 15:12</span><br>
+<span>有没有会用的教教我这玩意怎么干掉</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>这样可不可以</span><br>
+<img src="https://i.loli.net/2019/07/27/5d3c00a647fc480117.jpg" title="https://i.loli.net/2019/07/27/5d3c00a647fc480117.jpg"><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>RAMDA 发表于 2019-7-27 15:43</span><br>
+<span>这样可不可以</span><br>
+<span>就我之前鼓捣的经验，没用</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>奶牛: </b><br>
+<span>adb把快应用砍了就好了</span><br>
+</p><p><b>litmusblue: </b><br>
+<span>qwased 发表于 2019-7-27 16:04</span><br>
+<span>就我之前鼓捣的经验，没用</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>根据楼上的图，这玩意属性页面通知管理里可以禁用，再不行就adb禁用呗</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>litmusblue 发表于 2019-7-27 16:37</span><br>
+<span>根据楼上的图，这玩意属性页面通知管理里可以禁用，再不行就adb禁用呗</span><br>
+<span>根据再楼上的图，通知应该是关不了的</span><br>
+</p><p><b>litmusblue: </b><br>
+<span>zlzhcqblf 发表于 2019-7-27 16:39</span><br>
+<span>根据再楼上的图，通知应该是关不了的</span><br>
+<span>快应用关不了，快应用服务框架可以关</span><br>
+</p><p><b>xtdyx001: </b><br>
+<span>帝蓝 发表于 2019-6-20 12:20</span><br>
+<span>别后悔了 16S更烂</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>求详细，正准备买呢</span><br>
+</p><p><b>Sofiya: </b><br>
+<span>qwased 发表于 2019-7-27 15:12</span><br>
+<span>有没有会用的教教我这玩意怎么干掉</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>今天死妈的adui给爷也弹了个</span><br>
+<span>点进“快应用服务框架”看起来貌似可以关</span><br>
+<span>然后呢 下一次是什么玩意再弹？</span><br>
+</p><p><b>L'Étranger: </b><br>
+<span>qwased 发表于 2019-7-27 15:12</span><br>
+<span>有没有会用的教教我这玩意怎么干掉</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>第四连，我没见过</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>光宗薫: </b><br>
+<span>qwased 发表于 2019-7-27 15:12</span><br>
+<span>有没有会用的教教我这玩意怎么干掉</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<img src="https://wx1.sinaimg.cn/mw690/5a70bd56ly1g5erqq9e72j20j612cwg7.jpg" title="https://wx1.sinaimg.cn/mw690/5a70bd56ly1g5erqq9e72j20j612cwg7.jpg"><br>
+<img src="https://wx3.sinaimg.cn/mw690/5a70bd56ly1g5erqr8lvzj20j612cwev.jpg" title="https://wx3.sinaimg.cn/mw690/5a70bd56ly1g5erqr8lvzj20j612cwev.jpg"><br>
+<img src="https://wx2.sinaimg.cn/mw690/5a70bd56ly1g5erqsmpcdj20j612c74f.jpg" title="https://wx2.sinaimg.cn/mw690/5a70bd56ly1g5erqsmpcdj20j612c74f.jpg"><br>
+<img src="https://wx1.sinaimg.cn/mw690/5a70bd56ly1g5erqu2f75j20j612cq32.jpg" title="https://wx1.sinaimg.cn/mw690/5a70bd56ly1g5erqu2f75j20j612cq32.jpg"><br>
+</p><p><b>ramiel1: </b><br>
+<span>为啥我从来没遇到过此类广告，推送默认都是关的啊</span><br>
+</p><p><b>烟萝: </b><br>
+<span>无所谓了，来一个关一个。</span><br>
+<span>只是之前是各种自己装的APP在弹。</span><br>
+<span>现在是各种系统的APP在弹。</span><br>
+</p><p><b>yikaa: </b><br>
+<span>快应用框架推了个广告</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>LHO: </b><br>
+<span>你们这是在跟资本作对啊</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<img src="https://i.loli.net/2019/08/05/3pXPDNf1lrozvtL.jpg" title="https://i.loli.net/2019/08/05/3pXPDNf1lrozvtL.jpg"><br>
+<span>真讨厌</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>都两个月了，楼主的msa还没被处理掉吗</span><br>
+</p><p><b>无聊者X: </b><br>
+<span>来了来了</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>我直接刷pixel experience，和adui说拜拜。</span><br>
+<span>k20pro也会出pixel的官方rom</span><br>
+<span>—— 来自 Xiaomi Redmi Note 4, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>田黄石: </b><br>
+<span>没用过小米，但是华为那个自带音乐播放器有广告这个真的让我接受不了</span><br>
+<span>于是用回苹果了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>奶牛: </b><br>
+<span>田黄石 发表于 2019-8-5 20:49</span><br>
+<span>没用过小米，但是华为那个自带音乐播放器有广告这个真的让我接受不了</span><br>
+<span>于是用回苹果了</span><br>
+<span>其实相比之下ADUI的播放器还好些，设置里可以勾选去掉网络内容，变成一个单机版的播放器</span><br>
+<span>用过EDUI才知道不能关的恶心，自带浏览器简直强行喂shi连主页都不允许改</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-8-6 09:02 编辑 </span><br>
+<span>奶牛 发表于 2019-8-6 08:26</span><br>
+<span>其实相比之下ADUI的播放器还好些，设置里可以勾选去掉网络内容，变成一个单机版的播放器</span><br>
+<span>用过EDUI才知道 ...</span><br>
+<span>可以啊。不过要是想设空白页还得手输about:blank可能是要算不太友好。</span><br>
+<img src="https://i.loli.net/2019/08/06/QxHPk1U2Bl9DhaY.jpg" title="https://i.loli.net/2019/08/06/QxHPk1U2Bl9DhaY.jpg"><br>
+</p><p><b>RyuguRena: </b><br>
+<span>田黄石 发表于 2019-8-5 20:49</span><br>
+<span>没用过小米，但是华为那个自带音乐播放器有广告这个真的让我接受不了</span><br>
+<span>于是用回苹果了</span><br>
+<span>为什么要用自带的</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840505[0-50]</guid>
+    </item>
+  </channel>
+</rss>

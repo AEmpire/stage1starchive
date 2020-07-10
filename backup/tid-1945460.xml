@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:45 +0000</lastBuildDate>
+    <item>
+      <title>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945460-1-1.html</link>
+      <description>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）&#13;
+ 本帖最后由 KyoaniButa 于 2020-7-3 11:43 编辑 
+
+先上效果。竖屏+上下分屏：
+&#13;
+https://cdn.jsdelivr.net/gh/Pockies/pic/20200702145818.gif
+&#13;
+横屏+四分屏：
+&#13;
+https://cdn.jsdelivr.net/gh/Pockies/pic/20200702192930.gif
+&#13;
+自定义分屏工作区：
+&#13;
+https://i.loli.net/2020/07/02/flDiQk6FtxpcvLW.jpg
+&#13;
+完美解决垃圾windows分屏模式太少，多屏/宽屏下难用，且“上下分屏”基本不可用的毛病。
+&#13;
+软件地址：PowerToys
+&#13;
+使用教程（含软件内容翻译）：Blog
+&#13;
+第一次使用最好先看教程，先看教程，先看教程，照着设置就不会出“问题”。
+&#13;
+优点：
+&#13;
+[*]体验异常舒适，自定义项丰富，运行无缝，一键触发。完美实现windows下 “一个拖拽动作” 就自由的 “上下分屏”。
+&#13;
+[*]支持为多块屏幕单独配置分屏方式，且可以设置为只在一块屏幕上触发。
+&#13;
+[*]巨硬开发，开源免费，可以和bug10完美整合，包括直接接替系统的默认分屏快捷键。
+&#13;
+没错，这软件是巨硬自己写的。
+&#13;
+缺点：
+&#13;
+[*]英文软件。（看不懂/不会用的照着教程配置就行，做了翻译说明）
+&#13;
+[*]分屏功能外的部分其他扩展功能（比如重新分配bug10的系统快捷键），可能需要高版本bug10才能启用，不过分屏功能我在ltsc上可以完美运行，请放心使用。
+&#13;
+总之，近期装了一大堆分屏工具，就数这东西最好使。
+&#13;
+推荐双屏/大屏/带鱼屏用户尝试，尤其是竖了块屏幕，想要“上下分屏”的用户，保证爽到。
+&#13;
+另外这软件是一个“工具合集”，用来给Windows增加“提高生产力”的高级功能。
+&#13;
+难怪巨硬没敢把这玩意直接整合进bug10。
+&#13;
+===
+&#13;
+才发现这东西除了支持实体的多块屏幕，还支持Windows的虚拟桌面。简单来说：哪怕你只有一块屏幕，但通过bug10自带的虚拟桌面新建一个桌面，同样能用这软件在虚拟桌面里配置一套独立的分屏布局。
+&#13;
+等于曲线救国，让同一块屏幕能借助虚拟桌面在多种分屏布局中切换（不过这个虚拟桌面不能删掉，删了就得重新配置）。
+&#13;
+https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png
+&#13;
+不愧是巨硬亲生的。</description>
+      <content:encoded><![CDATA[<p><b>KyoaniButa: </b><br>
+<span>runningch 发表于 2020-7-3 22:33</span><br>
+<span>用上了，对多屏用户来说真是一下子舒服多了，就是有没有什么更容易触发1占2的方式？ ...</span><br>
+<span>目前只有拖动窗口到两个区块中间。</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>power rename和图片批量缩小还行 直接嵌入右键还是方便</span><br>
+</p><p><b>Panty23: </b><br>
+<span>用上了，爽到</span><br>
+<span>教程写的很详细，感谢LZ</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>倒是powerrename我是真的喜欢</span><br>
+<span>分屏感觉，拖动鼠标触发和按shift触发，果然还是得培养一下使用习惯，装了好久愣是忘了shift+拖动触发这回事了</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>慕容断月 发表于 2020-7-5 18:51</span><br>
+<span>倒是powerrename我是真的喜欢</span><br>
+<span>分屏感觉，拖动鼠标触发和按shift触发，果然还是得培养一下使用习惯，装了好 ...</span><br>
+<span>怎么说，高级重命名软件个人更推荐用这个：</span><br>
+<span>http://www.den4b.com/products/renamer</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>KyoaniButa 发表于 2020-7-5 19:23</span><br>
+<span>怎么说，高级重命名软件个人更推荐用这个：</span><br>
+<span>http://www.den4b.com/products/renamer ...</span><br>
+<span>主要是，powertoys自带的这个，轻量化，功能性上符合我的日常使用需求，再加上其他功能也有需要，装一个powertoys就能直接使用多个需求也算是偷懒吧~</span><br>
+</p><p><b>荷叶饭: </b><br>
+<span>感谢楼主，试用下</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>kitano: </b><br>
+<span>慕容断月 发表于 2020-7-5 18:51</span><br>
+<span>倒是powerrename我是真的喜欢</span><br>
+<span>分屏感觉，拖动鼠标触发和按shift触发，果然还是得培养一下使用习惯，装了好 ...</span><br>
+<span>习惯快捷键的话覆盖系统原有的win键+方向键更方便，不够目前好像有bug，按左右有时会反方向排列</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>貌似有很多功能。不上msstore就感觉这很微软。好东西一律不上。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>我是快乐小马甲 发表于 2020-7-8 23:08</span><br>
+<span>貌似有很多功能。不上msstore就感觉这很微软。好东西一律不上。</span><br>
+<span>会上的，说过了</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945460[50-100]</guid>
+    </item>
+    <item>
+      <title>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945460-1-1.html</link>
+      <description>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）&#13;
+ 本帖最后由 KyoaniButa 于 2020-7-3 11:43 编辑 
+
+先上效果。竖屏+上下分屏：
+&#13;
+https://cdn.jsdelivr.net/gh/Pockies/pic/20200702145818.gif
+&#13;
+横屏+四分屏：
+&#13;
+https://cdn.jsdelivr.net/gh/Pockies/pic/20200702192930.gif
+&#13;
+自定义分屏工作区：
+&#13;
+https://i.loli.net/2020/07/02/flDiQk6FtxpcvLW.jpg
+&#13;
+完美解决垃圾windows分屏模式太少，多屏/宽屏下难用，且“上下分屏”基本不可用的毛病。
+&#13;
+软件地址：PowerToys
+&#13;
+使用教程（含软件内容翻译）：Blog
+&#13;
+第一次使用最好先看教程，先看教程，先看教程，照着设置就不会出“问题”。
+&#13;
+优点：
+&#13;
+[*]体验异常舒适，自定义项丰富，运行无缝，一键触发。完美实现windows下 “一个拖拽动作” 就自由的 “上下分屏”。
+&#13;
+[*]支持为多块屏幕单独配置分屏方式，且可以设置为只在一块屏幕上触发。
+&#13;
+[*]巨硬开发，开源免费，可以和bug10完美整合，包括直接接替系统的默认分屏快捷键。
+&#13;
+没错，这软件是巨硬自己写的。
+&#13;
+缺点：
+&#13;
+[*]英文软件。（看不懂/不会用的照着教程配置就行，做了翻译说明）
+&#13;
+[*]分屏功能外的部分其他扩展功能（比如重新分配bug10的系统快捷键），可能需要高版本bug10才能启用，不过分屏功能我在ltsc上可以完美运行，请放心使用。
+&#13;
+总之，近期装了一大堆分屏工具，就数这东西最好使。
+&#13;
+推荐双屏/大屏/带鱼屏用户尝试，尤其是竖了块屏幕，想要“上下分屏”的用户，保证爽到。
+&#13;
+另外这软件是一个“工具合集”，用来给Windows增加“提高生产力”的高级功能。
+&#13;
+难怪巨硬没敢把这玩意直接整合进bug10。
+&#13;
+===
+&#13;
+才发现这东西除了支持实体的多块屏幕，还支持Windows的虚拟桌面。简单来说：哪怕你只有一块屏幕，但通过bug10自带的虚拟桌面新建一个桌面，同样能用这软件在虚拟桌面里配置一套独立的分屏布局。
+&#13;
+等于曲线救国，让同一块屏幕能借助虚拟桌面在多种分屏布局中切换（不过这个虚拟桌面不能删掉，删了就得重新配置）。
+&#13;
+https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png
+&#13;
+不愧是巨硬亲生的。</description>
+      <content:encoded><![CDATA[<p><b>KyoaniButa: </b><br>
+<span>推荐一款Windows下的多屏幕分屏软件：PowerToys（含教程）</span><br>
+<span> 本帖最后由 KyoaniButa 于 2020-7-3 11:43 编辑 </span><br>
+<span>先上效果。竖屏+上下分屏：</span><br>
+<img src="https://cdn.jsdelivr.net/gh/Pockies/pic/20200702145818.gif" title="https://cdn.jsdelivr.net/gh/Pockies/pic/20200702145818.gif"><br>
+<span>横屏+四分屏：</span><br>
+<img src="https://cdn.jsdelivr.net/gh/Pockies/pic/20200702192930.gif" title="https://cdn.jsdelivr.net/gh/Pockies/pic/20200702192930.gif"><br>
+<span>自定义分屏工作区：</span><br>
+<img src="https://i.loli.net/2020/07/02/flDiQk6FtxpcvLW.jpg" title="https://i.loli.net/2020/07/02/flDiQk6FtxpcvLW.jpg"><br>
+<span>完美解决垃圾windows分屏模式太少，多屏/宽屏下难用，且“上下分屏”基本不可用的毛病。</span><br>
+<span>软件地址：PowerToys</span><br>
+<span>使用教程（含软件内容翻译）：Blog</span><br>
+<span>第一次使用最好先看教程，先看教程，先看教程，照着设置就不会出“问题”。</span><br>
+<span>优点：</span><br>
+<span>[*]体验异常舒适，自定义项丰富，运行无缝，一键触发。完美实现windows下 “一个拖拽动作” 就自由的 “上下分屏”。</span><br>
+<span>[*]支持为多块屏幕单独配置分屏方式，且可以设置为只在一块屏幕上触发。</span><br>
+<span>[*]巨硬开发，开源免费，可以和bug10完美整合，包括直接接替系统的默认分屏快捷键。</span><br>
+<span>没错，这软件是巨硬自己写的。</span><br>
+<span>缺点：</span><br>
+<span>[*]英文软件。（看不懂/不会用的照着教程配置就行，做了翻译说明）</span><br>
+<span>[*]分屏功能外的部分其他扩展功能（比如重新分配bug10的系统快捷键），可能需要高版本bug10才能启用，不过分屏功能我在ltsc上可以完美运行，请放心使用。</span><br>
+<span>总之，近期装了一大堆分屏工具，就数这东西最好使。</span><br>
+<span>推荐双屏/大屏/带鱼屏用户尝试，尤其是竖了块屏幕，想要“上下分屏”的用户，保证爽到。</span><br>
+<span>另外这软件是一个“工具合集”，用来给Windows增加“提高生产力”的高级功能。</span><br>
+<span>难怪巨硬没敢把这玩意直接整合进bug10。</span><br>
+<span>===</span><br>
+<span>才发现这东西除了支持实体的多块屏幕，还支持Windows的虚拟桌面。简单来说：哪怕你只有一块屏幕，但通过bug10自带的虚拟桌面新建一个桌面，同样能用这软件在虚拟桌面里配置一套独立的分屏布局。</span><br>
+<span>等于曲线救国，让同一块屏幕能借助虚拟桌面在多种分屏布局中切换（不过这个虚拟桌面不能删掉，删了就得重新配置）。</span><br>
+<img src="https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png" title="https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png"><br>
+<span>不愧是巨硬亲生的。</span><br>
+</p><p><b>lain2008: </b><br>
+<span>谢谢lz分享</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>powertoys完爆maxto，后者还花了我一百多</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>Bondrewd 发表于 2020-7-2 20:41</span><br>
+<span>powertoys完爆maxto，后者还花了我一百多</span><br>
+<span>看到那东西要价29刀，我当时就告辞了。</span><br>
+</p><p><b>starash: </b><br>
+<span>我就问问当年xp里面那个powercal有没有类似的软件....</span><br>
+<span>不要和我提开MATLAB。</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>收藏了，谢谢茄子(刚刚在微博上也看见了</span><br>
+<span>—— 来自 vivo V1986A, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>scoop 里竟然有，感谢楼主推荐，试试</span><br>
+</p><p><b>暗口崩子: </b><br>
+<span>山寨水果Spotlight的快速搜索框</span><br>
+<span>能达到wox+everything的水平不</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>暗口崩子 发表于 2020-7-2 21:41</span><br>
+<span>山寨水果Spotlight的快速搜索框</span><br>
+<span>能达到wox+everything的水平不</span><br>
+<span>不知道，我的ltsc启用不了这功能（需要至少1903的bug10）。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>暗口崩子 发表于 2020-7-2 21:41</span><br>
+<span>山寨水果Spotlight的快速搜索框</span><br>
+<span>能达到wox+everything的水平不</span><br>
+<span>不知道，但是我觉得肯定没Listary强</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>九耳: </b><br>
+<span>用了几个月了，好爽好爽的</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>等等，这难道不就是tiling window manager</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>First_Snow: </b><br>
+<span>戴尔显示器自带的Dell Display Manager也还算好用，还可以直接调节亮度对比度</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>First_Snow 发表于 2020-7-2 22:30</span><br>
+<span>戴尔显示器自带的Dell Display Manager也还算好用，还可以直接调节亮度对比度</span><br>
+<span>看你这一说突然想起明基显示器的Display Pilot也有类似功能。</span><br>
+<span>不过只支持在自家的中高端显示器上用（使用体验不如PowerToys），而我另一块竖着的明基便宜货直接不让使。</span><br>
+<img src="https://i.loli.net/2020/07/02/RiW817pQeAlx9EB.png" title="https://i.loli.net/2020/07/02/RiW817pQeAlx9EB.png"><br>
+</p><p><b>帆影FX: </b><br>
+<span>暗口崩子 发表于 2020-7-2 21:41</span><br>
+<span>山寨水果Spotlight的快速搜索框</span><br>
+<span>能达到wox+everything的水平不</span><br>
+<span>不行，就目前体验，巨菜</span><br>
+</p><p><b>帆影FX: </b><br>
+<span>Smile_D_up 发表于 2020-7-2 22:21</span><br>
+<span>等等，这难道不就是tiling window manager</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2 ...</span><br>
+<span>它要是有i3wm或者dwm一半好用我就不用Linux了，可惜现在还差得远</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>First_Snow 发表于 2020-7-2 22:30</span><br>
+<span>戴尔显示器自带的Dell Display Manager也还算好用，还可以直接调节亮度对比度</span><br>
+<span>我也有用這個</span><br>
+<span>但這個工具有個小問題,如果多屏縮放比例不一致的話布局會留有奇怪的空白位置</span><br>
+<span>(我主屏4K32吋用125% 兩個副屏4K27吋用的150%)</span><br>
+</p><p><b>win8: </b><br>
+<span>。。。我还是不会用</span><br>
+<span>把Override Windows Snap hotkeys (Win + Arrow)打勾，覆盖了系统默认快捷键，才能用快捷键触发分屏的功能。</span><br>
+<span>如果不打勾，拖动窗口不能触发分屏</span><br>
+</p><p><b>orecheng: </b><br>
+<span> 本帖最后由 orecheng 于 2020-7-3 00:10 编辑 </span><br>
+<span>巨硬开发https://github.com/microsoft/PowerToys</span><br>
+<span>谢谢楼主，此外竟然是个windows95 时代起的计划</span><br>
+<span>release：</span><br>
+<span>https://github.com/microsoft/PowerToys/releases/</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>楼主推荐这个好是好，不过不能解决我的一些奇怪需求</span><br>
+<span>比如希望能够覆盖到任务栏上，因为有的软件的边界有一部分我是不需要的，要让任务栏挡住，但是这个自定义区域好像不能到任务栏上</span><br>
+<span>还有就是希望能到屏幕外，原因同上，不过这需求很奇怪估计不会去实现，我还是自己老老实实拖动窗口好了</span><br>
+<span>如果有一个能记住我窗口布局，按热键一口气放好的软件，可能更适合我</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>在用 AquaSnap，觉得也不错</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>win8 发表于 2020-7-3 00:04</span><br>
+<span>。。。我还是不会用</span><br>
+<span>把Override Windows Snap hotkeys (Win + Arrow)打勾，覆盖了系统默认快捷键，才能用快 ...</span><br>
+<span>把第一项：Hold Shift key to activate zones while dragging</span><br>
+<span>取消勾选，才能拖动窗口即触发，不然需要按住shift+拖动窗口才能触发分屏。</span><br>
+<span>另外如果实在搞不清，就推荐照着我那教程配置（将分屏的额外设置全部取消勾选/关闭），这样肯定没问题。</span><br>
+</p><p><b>orecheng: </b><br>
+<span> 本帖最后由 orecheng 于 2020-7-3 00:32 编辑 </span><br>
+<span>请问怎么消除边缘空白？</span><br>
+<span>找到了，launch zones editor里面space around zones 设为0</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>huaxianyan 发表于 2020-7-3 00:06</span><br>
+<span>楼主推荐这个好是好，不过不能解决我的一些奇怪需求</span><br>
+<span>比如希望能够覆盖到任务栏上，因为有的软件的边界有一 ...</span><br>
+<span>第一个需求恐怕悬了，任务栏是永远的爷，倒是好奇你用的啥软件需要任务栏遮挡一部分，如果这软件有替代品建议能换就换</span><br>
+<span>第二个，“分屏”的根基理念就是把窗口保持在屏幕区域内以更好的展示内容，而不是扔出屏幕啊。</span><br>
+<span>第三个，打开一组程序并恢复布局的需求，楼上提到的另一个分屏工具maxto倒是有，不过要29刀付费，你可以下个试用版看能不能满足需求。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>orecheng 发表于 2020-7-3 00:30</span><br>
+<span>请问怎么消除边缘空白？</span><br>
+<span>找到了，launch zones editor里面space around zones 设为0</span><br>
+<span>其实直接把旁边的“show space around zones”取消勾选就行。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>才发现这东西除了支持实体的多块屏幕，还支持Windows的虚拟桌面。</span><br>
+<span>简单来说：哪怕你只有一块屏幕，但通过bug10自带的虚拟桌面新建一个桌面，同样能用这软件在虚拟桌面里配置一套独立的分屏布局。</span><br>
+<span>等于曲线救国，让同一块屏幕能借助虚拟桌面在多种分屏布局中切换（不过这个虚拟桌面不能删掉，删了就得重新配置）。</span><br>
+<img src="https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png" title="https://i.loli.net/2020/07/03/SBaJPLk4EXtMYiH.png"><br>
+<span>不愧是巨硬亲生的。</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>暗口崩子 发表于 2020-7-2 21:41</span><br>
+<span>山寨水果Spotlight的快速搜索框</span><br>
+<span>能达到wox+everything的水平不</span><br>
+<span>wox的代码已经用上了，能不能达到everything不好说。上个版本才加的新组件估计还要迭代一阵子才能成熟</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>KyoaniButa 发表于 2020-7-3 00:40</span><br>
+<span>第一个需求恐怕悬了，任务栏是永远的爷，倒是好奇你用的啥软件需要任务栏遮挡一部分，如果这软件有替代品 ...</span><br>
+<span>QQ，QQ 实际上的框体比显示出来的要大，如果用分屏的话离任务栏会有一截空白，我的任务栏是贴右的</span><br>
+<span>不过我倒不是说完全没用，同时在多窗口工作的时候很好用，只是我的日常使用场景不太适合罢了，还是很感谢推荐的</span><br>
+</p><p><b>pl0okm: </b><br>
+<span>当初装它主要为了看win快捷键的，不知道自定义win快捷键猴年能出</span><br>
+</p><p><b>elwingh: </b><br>
+<span>收藏先 感谢楼主**！</span><br>
+</p><p><b>utakata: </b><br>
+<span> 本帖最后由 utakata 于 2020-7-3 09:57 编辑 </span><br>
+<span>有个问题请教下，我分屏之后为什么几个窗口不是互相贴合，单个窗口四周、多个窗口之间都有很宽的空隙啊？那个“space around zones”已经设置成0了</span><br>
+</p><p><b>starrlit: </b><br>
+<span>仅仅从快捷启动器的角度考虑，powertoys run 在 release19 之前性能非常差，无论是启动时间还是搜索时间，比不上直接 win 键搜索启动。</span><br>
+<span>更新到 release19 之后性能好了很多，虽然还是没有 win 键搜索返回的结果智能，不过已经可以一用了。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>utakata 发表于 2020-7-3 09:55</span><br>
+<span>有个问题请教下，我分屏之后为什么几个窗口不是互相贴合，单个窗口四周、多个窗口之间都有很宽的空隙啊？那 ...</span><br>
+<span>把那个“space around zones”旁的“show space around zones”取消勾选并保存。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>pl0okm 发表于 2020-7-3 03:28</span><br>
+<span>当初装它主要为了看win快捷键的，不知道自定义win快捷键猴年能出</span><br>
+<span>自定义win快捷键的功能已经有了：https://github.com/microsoft/PowerToys/wiki/Keyboard-Manager-Overview</span><br>
+<span>不过需要把bug10升上1903。</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>感谢，插个眼先</span><br>
+</p><p><b>Quokka: </b><br>
+<span>感谢推荐，回去试试</span><br>
+<span>—— 来自 HUAWEI YAL-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>我是竖了块屏幕，但是不明白lz说的想要“上下分屏”是什么情况？把竖屏分两个工作区？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>cloudskate 发表于 2020-7-3 12:33</span><br>
+<span>我是竖了块屏幕，但是不明白lz说的想要“上下分屏”是什么情况？把竖屏分两个工作区？ ...</span><br>
+<span>就第一张gif那样。</span><br>
+<span>竖着平铺排列多个窗口，因为很多软件实际根本用不着竖屏下这么高的高度，与其浪费这高度，还不如划分成上下两块乃至三块，能同时放进更多的软件，效率更高。</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>早就在用这个了…一直不懂怎么设置副屏的分割</span><br>
+<span>看了LZ的blog才明白要把软件拖到副屏上</span><br>
+<span>以及拖动到分屏的边界是缩放到两个块的面积</span><br>
+</p><p><b>游戏列表: </b><br>
+<span>powertoys工具20年前感觉就在用了…但是现在完全想不起当时装来干嘛</span><br>
+</p><p><b>巭孬嫑夯昆: </b><br>
+<span>那么比方游戏进入全屏状态的话，那么这个软件是不是还是分屏显示的？还是说显示器整体屏幕就进入全屏状态了？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>巭孬嫑夯昆 发表于 2020-7-3 13:27</span><br>
+<span>那么比方游戏进入全屏状态的话，那么这个软件是不是还是分屏显示的？还是说显示器整体屏幕就进入全屏状态了 ...</span><br>
+<span>游戏全屏就是全屏了，被这个软件接管分屏的屏幕里的窗口也能自由调整尺寸和最大化。</span><br>
+<span>你把这个当成更好用的windows自带分屏功能理解就好，windows的自带分屏下窗口是啥样，这个就啥样。</span><br>
+</p><p><b>ballban: </b><br>
+<span>装上用了一下 哦草 好用多了</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>huaxianyan 发表于 2020-7-3 02:22</span><br>
+<span>QQ，QQ 实际上的框体比显示出来的要大，如果用分屏的话离任务栏会有一截空白，我的任务栏是贴右的</span><br>
+<span>不过 ...</span><br>
+<span>居然是企鹅。。</span><br>
+<span>这软件虽然不能利用任务栏和移出屏幕来遮挡窗口，但两个窗口是可以设置成“层叠”的，也就是说你能用另一个窗口来盖住企鹅的空白部分。</span><br>
+<span>就像这样（一号分区盖住二号分区的一部分左侧），规划一下你的桌面软件位置应该也能凑合使使：</span><br>
+<img src="https://i.loli.net/2020/07/03/wvXj2N6MsmKQrfy.jpg" title="https://i.loli.net/2020/07/03/wvXj2N6MsmKQrfy.jpg"><br>
+</p><p><b>cqkxywj: </b><br>
+<span>这还没*nix的一众wm一半能打</span><br>
+</p><p><b>runningch: </b><br>
+<span> 本帖最后由 runningch 于 2020-7-3 22:35 编辑 </span><br>
+<span>用上了，对多屏用户来说真是一下子舒服多了，就是有没有什么更容易触发1占2的方式？</span><br>
+</p><p><b>bureaucratic: </b><br>
+<span>那种布局大小固定的软件有什么好的处理方法吗？</span><br>
+</p><p><b>久島鴎: </b><br>
+<span>试了下，的确好用。</span><br>
+<span>然后简单体验了下powerToys里面的其他功能，发现普遍残废，listary吊打。</span><br>
+</p><p><b>http: </b><br>
+<span>悲剧</span><br>
+<span>仅支持1803 bulid17134以上</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>久島鴎 发表于 2020-7-5 10:43</span><br>
+<span>试了下，的确好用。</span><br>
+<span>然后简单体验了下powerToys里面的其他功能，发现普遍残废，listary吊打。 ...</span><br>
+<span>所以我才在教程里让人把其他功能全部关闭，因为普遍有更好的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945460[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>唉，永远搞不清家里网络到底怎么设置</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>唉，永远搞不清家里网络到底怎么设置</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:06:14 +0000</lastBuildDate>
+    <item>
+      <title>唉，永远搞不清家里网络到底怎么设置[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836352-1-1.html</link>
+      <description>唉，永远搞不清家里网络到底怎么设置&#13;
+ 本帖最后由 深埋地底 于 2019-6-2 16:30 编辑 
+
+家里的情况是这样的 
+&#13;
+光猫--AC68路由器（192.168.3.1）--- 荣耀路由器（192.168.3.172）（192.168.2.1）---- 我的电脑（192.168.2.117）
+&#13;
+            |（USB）
+&#13;
+         1T硬盘
+&#13;
+大致上是这样的情况 现在想要达到的最低的限度 是“我的电脑”能访问“1T硬盘”，然后我的最终目的是，想看这个1T硬盘上的片子
+&#13;
+有没有大佬可以指点一下怎么设置</description>
+      <content:encoded><![CDATA[<p><b>深埋地底: </b><br>
+<span>唉，永远搞不清家里网络到底怎么设置</span><br>
+<span> 本帖最后由 深埋地底 于 2019-6-2 16:30 编辑 </span><br>
+<span>家里的情况是这样的 </span><br>
+<span>光猫--AC68路由器（192.168.3.1）--- 荣耀路由器（192.168.3.172）（192.168.2.1）---- 我的电脑（192.168.2.117）</span><br>
+<span>            |（USB）</span><br>
+<span>         1T硬盘</span><br>
+<span>大致上是这样的情况 现在想要达到的最低的限度 是“我的电脑”能访问“1T硬盘”，然后我的最终目的是，想看这个1T硬盘上的片子</span><br>
+<span>有没有大佬可以指点一下怎么设置</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>荣耀路由器没有AP模式吗，或者直接DHCP关掉所有网线插LAN口</span><br>
+<span>或者你AC68U上开个ftp总行吧</span><br>
+</p><p><b>sirlion: </b><br>
+<span>呃？二级路由不是可以直接访问一级路由吗？你的电脑直接访问192.168.3.1不行吗？如果可以的话应该可以直接挂在路由器的smb才对吧</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>sirlion 发表于 2019-6-2 16:29</span><br>
+<span>呃？二级路由不是可以直接访问一级路由吗？你的电脑直接访问192.168.3.1不行吗？如果可以的话应该可以直接 ...</span><br>
+<span>我的电脑可以访问 ac68 但是，通过windows的网络共享，就找不到了，我的电脑直接与ac68连接 通过网络共享，能直接找到ac68共享的1T硬盘</span><br>
+</p><p><b>绕指流光: </b><br>
+<span>你荣耀路由器不要再开DHCP了，全部在192.168.3的C段下就没问题</span><br>
+</p><p><b>macos: </b><br>
+<span>网络共享在对等网状态下只能找本网段，unc ip是没问题的，用2楼做法最直观</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>偶滴小乔 发表于 2019-6-2 16:13</span><br>
+<span>荣耀路由器没有AP模式吗，或者直接DHCP关掉所有网线插LAN口</span><br>
+<span>或者你AC68U上开个ftp总行吧 ...</span><br>
+<span>貌似可行，rest了荣耀 然后所有路由器和电脑都插到荣耀LAN口上，我的电脑的地址，在ac68里面看到的是在192.168.3.X的网段了。</span><br>
+<span>新问题来了，在ac68里面，看到荣耀路由器的地址，但是这个地址无法访问荣耀路由器了</span><br>
+<span>那么我应该怎么知道 荣耀路由器的地址？</span><br>
+</p><p><b>白花油发电机: </b><br>
+<span>把二级路由的地址都设在上级网段，不开dhcp不就行了么</span><br>
+<span>—— 来自 Xiaomi MI 9 Transparent Edition, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>moondigi: </b><br>
+<span>你这不能访问是因为又经过了一层路由nat的关系，最简单的方法：</span><br>
+<span>荣耀路由关掉dhcp服务，lan ip设一个没在用的例如192.168.3.123，wan口设成lan口（如果没这功能直接禁掉或者不理就好）</span><br>
+<span>ac68过来的网线插在荣耀路由的lan口上，电脑自动获取ip就能和ac68同一个网段，输入192.168.3.123就能访问荣耀路由</span><br>
+<span>广播什么的经过路由全被洗掉，上面的设置方法就是将荣耀路由弄成一个交换机用</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>谢谢了，虽然还是找不到荣耀的地址，但是荣耀路由莫名的继承了之前设置的无线名称和密码，就是5G的用不了，不管他了</span><br>
+<span>----发送自 Xiaomi MI 6,Android 8.0.0</span><br>
+</p><p><b>霖星: </b><br>
+<span>深埋地底 发表于 2019-6-2 19:43</span><br>
+<span>谢谢了，虽然还是找不到荣耀的地址，但是荣耀路由莫名的继承了之前设置的无线名称和密码，就是5G的用不了， ...</span><br>
+<span>手机现在一般都支持看连接上的WIFI的路由器地址的</span><br>
+</p><p><b>solaris40: </b><br>
+<span> 本帖最后由 solaris40 于 2019-6-3 09:55 编辑 </span><br>
+<span>手机看主楼看不出名堂，编辑了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836352[0-50]</guid>
+    </item>
+  </channel>
+</rss>

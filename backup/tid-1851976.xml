@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>etwrtdefenderapilogger究竟是何方神圣，一直不停的往磁盘写入</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>etwrtdefenderapilogger究竟是何方神圣，一直不停的往磁盘写入</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:28:41 +0000</lastBuildDate>
+    <item>
+      <title>etwrtdefenderapilogger究竟是何方神圣，一直不停的往磁盘写入[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851976-1-1.html</link>
+      <description>etwrtdefenderapilogger究竟是何方神圣，一直不停的往磁盘写入&#13;
+今天无一发现的，一直不断的以3~10M的速度往磁盘写入
+&#13;
+名称    PID    文件    读(字节/秒)    写(字节/秒)    总数(字节/秒)    I/O 优先级    响应时间(ms)
+&#13;
+System    4    C:\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDefenderApiLogger.etl
+&#13;
+照这个速度，一到两周就能写入一个T的数据，系统盘是SSD，架不住这么折腾啊</description>
+      <content:encoded><![CDATA[<p><b>岬: </b><br>
+<span>etwrtdefenderapilogger究竟是何方神圣，一直不停的往磁盘写入</span><br>
+<span>今天无一发现的，一直不断的以3~10M的速度往磁盘写入</span><br>
+<span>名称    PID    文件    读(字节/秒)    写(字节/秒)    总数(字节/秒)    I/O 优先级    响应时间(ms)</span><br>
+<span>System    4    C:\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDefenderApiLogger.etl</span><br>
+<span>照这个速度，一到两周就能写入一个T的数据，系统盘是SSD，架不住这么折腾啊</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>https://serverfault.com/questions/237637/what-is-stored-in-windir-system32-logfiles-wmi-rtbackup</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>这在哪里能查写入情况？</span><br>
+</p><p><b>红夜殇雨: </b><br>
+<span>https://www.chiphell.com/forum.php?mod=viewthread&tid=2012385&page=1</span><br>
+<span>找到这个</span><br>
+</p><p><b>烟萝: </b><br>
+<span>楼主教我怎么看</span><br>
+</p><p><b>遗尿: </b><br>
+<span>Defender什么不杀，杀各种激活是最积极的</span><br>
+</p><p><b>岬: </b><br>
+<span>红夜殇雨 发表于 2019-8-7 19:31</span><br>
+<span>https://www.chiphell.com/forum.php?mod=viewthread&tid=2012385&page=1</span><br>
+<span>找到这个</span><br>
+<span>Defender关了</span><br>
+<span>MEI设备我直接禁用了</span><br>
+<span>无卵用</span><br>
+</p><p><b>岬: </b><br>
+<span>若荼泱 发表于 2019-8-7 19:12</span><br>
+<span>这在哪里能查写入情况？</span><br>
+<span>任务管理器的性能选项卡选择对应磁盘就能看</span><br>
+<span>打开下方的资源监视器的磁盘选项卡能看到具体写入的进程</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851976[0-50]</guid>
+    </item>
+  </channel>
+</rss>

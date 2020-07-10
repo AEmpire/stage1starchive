@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Evernote 强力替代品：开源加密笔记本 Joplin</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Evernote 强力替代品：开源加密笔记本 Joplin</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:10 +0000</lastBuildDate>
+    <item>
+      <title>Evernote 强力替代品：开源加密笔记本 Joplin[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903359-1-1.html</link>
+      <description>Evernote 强力替代品：开源加密笔记本 Joplin&#13;
+由于需求的普遍性，笔记应用是个长久讨论的话题，但是由于需求的差异性，才催生无数同类服务和软件，假如有这样一个细分需求：开源、跨(全)平台、自由(免费)、云存储同步、数据自由导出、端到端加密、笔记嵌套、多层次结构、支持附件/图片、网页剪藏、Markdown，代办事项，可选择的软件和服务并不多。
+&#13;
+一些需求：
+&#13;
+[*]笔记一般是纯个人数据，开源是安全、功能扩展、自由的保证
+&#13;
+[*]跨平台，尤其是全平台意味着未来在平台选择上不需要再寻找替代品
+&#13;
+[*]Free，是人见人爱的
+&#13;
+[*]自由的云同步是必不可少的
+&#13;
+[*]自由的数据导出是避免灾难的终极保证
+&#13;
+[*]笔记加密和传输过程端到端加密才有安全可言
+&#13;
+[*]嵌入附件和多媒体文件增加了使用场景
+&#13;
+[*]Markdown 以及扩展其扩展语法支持应该是基础功能
+&#13;
+[*]其他锦上添花的扩展功能
+&#13;
+本文介绍的开源笔记软件 Joplin 符合上述需求，并且提供多种扩展功能，和某些独一无二的专业功能。
+&#13;
+https://img3.appinn.net/images/201912/76e773bd0b918ee9ce4cd.jpg!o
+&#13;
+Joplin 是一个自由开源的笔记和待办事项应用，可用于 Linux、Windows、macOS、Android 和 iOS。它的主要功能包括端到端加密，Markdown 支持以及通过 NextCloud、Dropbox、OneDrive 或 WebDAV 等第三方服务进行同步。
+&#13;
+Joplin 的特色：
+&#13;
+[*]桌面、移动端、命令行全平台客户端
+&#13;
+[*]支持网页剪藏（Firefox. chrome）
+&#13;
+[*]端到端加密（E2EE）
+&#13;
+[*]支持与 Onedrive. Nextcloud. Dropbox. Webdav 等网盘同步
+&#13;
+[*]导入 Enex 文件(Evernote导出文件格式)和Markdown文件
+&#13;
+[*]支持导出为：JEX（Joplin 导出格式）、MD、RAW、PDF、JASON 等格式
+&#13;
+[*]支持 to-do 模式
+&#13;
+[*]离线优先，数据在本地可读
+&#13;
+[*]Markdown 支持扩展语法如数学公式（math notation）复选框(checkboxes)、纯文本标记语言 Fountain
+&#13;
+[*]支持插入附件、图片
+&#13;
+[*]支持地理位置功能
+&#13;
+[*]支持外置编辑器，一键打开外置编辑器编辑内容
+&#13;
+https://img3.appinn.net/images/201912/80fa414800074fa56e49a.jpg!o
+&#13;
+Joplin 支持的平台：
+&#13;
+[*]Mac
+&#13;
+[*]Windows
+&#13;
+[*]Linux
+&#13;
+[*]Android
+&#13;
+[*]iOS
+&#13;
+[*]ChromeOS
+&#13;
+[*]Chrome
+&#13;
+[*]Termux
+&#13;
+[*]Firefox
+&#13;
+https://img3.appinn.net/images/201912/68d63785b427ff38a4e79.jpg!o
+&#13;
+作为功能强大的 Markdown 笔记应用，Joplin 的入手门槛很低，除了一些扩展 Markdown 语法，软件层面非常友好易用。
+&#13;
+https://img3.appinn.net/images/201912/c68a45af55918a767891c_0.jpg!o
+&#13;
+同步作为开源软件，Joplin 避免与特定公司或服务捆绑。所以提供多种网盘同步功能，如 NextCloud、Dropbox、oneDrive 和 WebDav，并且迁移数据很容易，如果你改变主意，也很容易从一种服务切换到另一种服务。
+&#13;
+https://img3.appinn.net/images/201912/ea168177c1ca4331b2027.jpg!o
+&#13;
+界面Joplin 的界面自带多种深浅两色主题配色，左侧带有可隐藏的笔记本/笔记导航栏，在纯写作状态（左侧的笔记本/笔记导航栏隐藏）界面，可以设置为纯编辑界面，纯预览界面以及“编辑+预览”双排界面。
+&#13;
+https://img3.appinn.net/images/201912/ea24111814dd2125429d4.jpg!o
+&#13;
+Markdown默认 Markdown 语法在编辑区上方有独立工具栏，可以快速设置粗体、斜体、外链、引用、图片、列表、二级标题、待办标记、隔离线，日期，标签等语法快速生成按钮。
+&#13;
+https://img3.appinn.net/images/201912/e193a6083e921e6e7ee67.jpg!o
+&#13;
+支持图片和附件
+&#13;
+https://img3.appinn.net/images/201912/eadef50b67ec8375d67e9.jpg!o
+&#13;
+可以用 Markdown 格式（支持数学符号和复选框）记笔记，可以在笔记中添加附件（使用图像预览）或在外部 Markdown 编辑器中编辑它们并在每次保存文件时自动在 Joplin 中更新它们。
+&#13;
+复选框https://img3.appinn.net/images/201912/68b8894d3acdc2d85fe4c.jpg!o
+&#13;
+数学公式https://img3.appinn.net/images/201912/bb42180a391f97d314054.jpg!o
+&#13;
+插入图表https://img3.appinn.net/images/201912/4821a068bb177dcde172f.jpg!o
+&#13;
+混合排版https://img3.appinn.net/images/201912/908dbf71e3e1aef8c531f.png!o
+&#13;
+Joplin 可以很好地处理大量笔记，它允许你将笔记组织到笔记本中、添加标签和搜索。还可以按更新日期、创建日期或标题对笔记进行排序。每个笔记本可以包含笔记、待办事项或两者，可以轻松添加其他笔记的链接（在桌面应用中右键单击笔记并选择 “Copy Markdown link”，然后在笔记中添加链接）。
+&#13;
+其他扩展功能：CSS 样式表的 Markdown 显示https://img3.appinn.net/images/201912/004a0e7f6548b602cfa86.jpg!o
+&#13;
+自动检测代码块https://img3.appinn.net/images/201912/501bd05a839add0d118fa.jpg!o
+&#13;
+本地图片资源（从 Evernote 备份导入）https://img3.appinn.net/images/201912/0c6854c9ae0b8a6597ea0.jpg!o
+&#13;
+插入地图https://img3.appinn.net/images/201912/64136d5e9bf6f7068192d.jpg!o
+&#13;
+用颜色代码代替图片以减小本地文件体积https://img3.appinn.net/images/201912/26ca6245c38e9111383a9.png!o
+&#13;
+https://img3.appinn.net/images/201912/21dad0b52c7dcf02185dc.png!o
+&#13;
+支持 Fountain支持主要用于剧本写作的轻量文本标记语言 Fountain，来代替专业且昂贵的剧本写作软件。Fountain 是电影电视广告工业领域的通用文本标记语言，与 markdown 类似，但语法完全不同。
+&#13;
+Joplin 官网在这里：https://joplinapp.org/ 应本文作者要求匿名，是一位小众软件网友。
+&#13;
+https://www.appinn.com/joplin/</description>
+      <content:encoded><![CDATA[<p><b>linux40: </b><br>
+<span>Nanachi 发表于 2019-12-17 10:36</span><br>
+<span>而且你这个字体看起来不是等宽啊……那Emacs的mini buffer里面怎么保持格式的？ ...</span><br>
+<span>Preview就行，用不着设置非等宽字体。</span><br>
+</p><p><b>linjia: </b><br>
+<span>这种东西怎么可能不依赖服务器？</span><br>
+<span>你在公司电脑上写个东西，不依赖服务器，怎么传到家里的电脑上？   又不是每个公司都有vpn</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>linux40 发表于 2019-12-17 16:22</span><br>
+<span>Preview就行，用不着设置非等宽字体。</span><br>
+<span>看起来是行内渲染的，不是单独的一个渲染界面吧</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>linjia 发表于 2019-12-17 16:32</span><br>
+<span>这种东西怎么可能不依赖服务器？</span><br>
+<span>你在公司电脑上写个东西，不依赖服务器，怎么传到家里的电脑上？   又不 ...</span><br>
+<span>同步盘，比如坚果云</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>7，8个月前用过，当时还是远不如boostnote，不看好</span><br>
+<span>boostnote我也快放弃了，这些electron笔记工具怀疑他们的可维护性，boostnote到中后期就基本就是灾难，每次更新无数bug。现在推倒重来要出全新重构版本了。</span><br>
+</p><p><b>Nanachi: </b><br>
+<span> 本帖最后由 Nanachi 于 2019-12-18 09:44 编辑 </span><br>
+<span>sakuyamai 发表于 2019-12-17 16:40</span><br>
+<span>7，8个月前用过，当时还是远不如boostnote，不看好</span><br>
+<span>boostnote我也快放弃了，这些electron笔记工具怀疑他们 ...</span><br>
+<span>原来是基于electron的吗？我立即放弃使用</span><br>
+<span>https://electronjs.org/apps/joplin</span><br>
+</p><p><b>linjia: </b><br>
+<span>Nanachi 发表于 2019-12-17 16:38</span><br>
+<span>同步盘，比如坚果云</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>那本质也是依赖一个公网上的服务器来做中转吧</span><br>
+</p><p><b>linux40: </b><br>
+<span>Nanachi 发表于 2019-12-17 16:37</span><br>
+<span>看起来是行内渲染的，不是单独的一个渲染界面吧</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 ...</span><br>
+<span>我在tex-mode下preview过，就是在同一位置替换成编译后pdf转的图片，orgmode我一般不preview。</span><br>
+</p><p><b>小德: </b><br>
+<span>其实印象笔记对我而言最有用的功能是保存公众号文章</span><br>
+<span>有些文章存活时间短暂 没时间看先存了再说</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>试用了一下，有个问题</span><br>
+<span>编辑窗口跟显示窗口只能分开吗？</span><br>
+</p><p><b>elxy: </b><br>
+<span>冰痕 发表于 2019-12-17 10:58</span><br>
+<span>刚开始写论文，这些文献管理怎么用？</span><br>
+<span>Zotero和endnote都装了，Zotero没办法预览PDF啊 ...</span><br>
+<span>具体怎么使用请自行百度。</span><br>
+<span>Zotero是使用系统的PDF阅读器查看PDF，设置里面可以自定义。</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>这个有用，可以一试</span><br>
+</p><p><b>深埋地底: </b><br>
+<span>试了一下，用onedrive同步有问题，附件大于4M就会卡住，同步不下去，查了一下说是onedrive的api 限制文件不能大于4M</span><br>
+<span>----发送自 Xiaomi MI 6,Android 9</span><br>
+</p><p><b>冰痕: </b><br>
+<span>elxy 发表于 2019-12-18 17:02</span><br>
+<span>具体怎么使用请自行百度。</span><br>
+<span>Zotero是使用系统的PDF阅读器查看PDF，设置里面可以自定义。 ...</span><br>
+<span>我知道调用系统PDF查看器的……</span><br>
+<span>就是这货不能像EndNote一样在主界面直接预览PDF有点烦</span><br>
+</p><p><b>冰痕: </b><br>
+<span>深埋地底 发表于 2019-12-18 21:22</span><br>
+<span>试了一下，用onedrive同步有问题，附件大于4M就会卡住，同步不下去，查了一下说是onedrive的api 限制文件不 ...</span><br>
+<span>附件是指什么？</span><br>
+<span>试了下这个软件，不是只能写md么？写纯文本超过4M……你是要写书么？写书建议用其他软件</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>冰痕 发表于 2019-12-18 22:54</span><br>
+<span>附件是指什么？</span><br>
+<span>试了下这个软件，不是只能写md么？写纯文本超过4M……你是要写书么？写书建议用其他软件 ...</span><br>
+<span>这个软件是富文本编辑器，可以插入图片之类的附件</span><br>
+</p><p><b>冰痕: </b><br>
+<span> 本帖最后由 冰痕 于 2019-12-19 09:01 编辑 </span><br>
+<span>Nanachi 发表于 2019-12-18 22:58</span><br>
+<span>这个软件是富文本编辑器，可以插入图片之类的附件</span><br>
+<span>哦……看完主楼我还以为是MD编辑器，于是我只用它写了MD。</span><br>
+<span>就是想在MD里插入图片好像没办法，我用Typora写的MD，用的相对地址链接的图片，结果连图传进这里显示不出来。</span><br>
+<span>现在就想要个能手机和电脑都能同时用的支持MD语法的编辑器</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>好东西，马克一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903359[50-100]</guid>
+    </item>
+    <item>
+      <title>Evernote 强力替代品：开源加密笔记本 Joplin[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903359-1-1.html</link>
+      <description>Evernote 强力替代品：开源加密笔记本 Joplin&#13;
+由于需求的普遍性，笔记应用是个长久讨论的话题，但是由于需求的差异性，才催生无数同类服务和软件，假如有这样一个细分需求：开源、跨(全)平台、自由(免费)、云存储同步、数据自由导出、端到端加密、笔记嵌套、多层次结构、支持附件/图片、网页剪藏、Markdown，代办事项，可选择的软件和服务并不多。
+&#13;
+一些需求：
+&#13;
+[*]笔记一般是纯个人数据，开源是安全、功能扩展、自由的保证
+&#13;
+[*]跨平台，尤其是全平台意味着未来在平台选择上不需要再寻找替代品
+&#13;
+[*]Free，是人见人爱的
+&#13;
+[*]自由的云同步是必不可少的
+&#13;
+[*]自由的数据导出是避免灾难的终极保证
+&#13;
+[*]笔记加密和传输过程端到端加密才有安全可言
+&#13;
+[*]嵌入附件和多媒体文件增加了使用场景
+&#13;
+[*]Markdown 以及扩展其扩展语法支持应该是基础功能
+&#13;
+[*]其他锦上添花的扩展功能
+&#13;
+本文介绍的开源笔记软件 Joplin 符合上述需求，并且提供多种扩展功能，和某些独一无二的专业功能。
+&#13;
+https://img3.appinn.net/images/201912/76e773bd0b918ee9ce4cd.jpg!o
+&#13;
+Joplin 是一个自由开源的笔记和待办事项应用，可用于 Linux、Windows、macOS、Android 和 iOS。它的主要功能包括端到端加密，Markdown 支持以及通过 NextCloud、Dropbox、OneDrive 或 WebDAV 等第三方服务进行同步。
+&#13;
+Joplin 的特色：
+&#13;
+[*]桌面、移动端、命令行全平台客户端
+&#13;
+[*]支持网页剪藏（Firefox. chrome）
+&#13;
+[*]端到端加密（E2EE）
+&#13;
+[*]支持与 Onedrive. Nextcloud. Dropbox. Webdav 等网盘同步
+&#13;
+[*]导入 Enex 文件(Evernote导出文件格式)和Markdown文件
+&#13;
+[*]支持导出为：JEX（Joplin 导出格式）、MD、RAW、PDF、JASON 等格式
+&#13;
+[*]支持 to-do 模式
+&#13;
+[*]离线优先，数据在本地可读
+&#13;
+[*]Markdown 支持扩展语法如数学公式（math notation）复选框(checkboxes)、纯文本标记语言 Fountain
+&#13;
+[*]支持插入附件、图片
+&#13;
+[*]支持地理位置功能
+&#13;
+[*]支持外置编辑器，一键打开外置编辑器编辑内容
+&#13;
+https://img3.appinn.net/images/201912/80fa414800074fa56e49a.jpg!o
+&#13;
+Joplin 支持的平台：
+&#13;
+[*]Mac
+&#13;
+[*]Windows
+&#13;
+[*]Linux
+&#13;
+[*]Android
+&#13;
+[*]iOS
+&#13;
+[*]ChromeOS
+&#13;
+[*]Chrome
+&#13;
+[*]Termux
+&#13;
+[*]Firefox
+&#13;
+https://img3.appinn.net/images/201912/68d63785b427ff38a4e79.jpg!o
+&#13;
+作为功能强大的 Markdown 笔记应用，Joplin 的入手门槛很低，除了一些扩展 Markdown 语法，软件层面非常友好易用。
+&#13;
+https://img3.appinn.net/images/201912/c68a45af55918a767891c_0.jpg!o
+&#13;
+同步作为开源软件，Joplin 避免与特定公司或服务捆绑。所以提供多种网盘同步功能，如 NextCloud、Dropbox、oneDrive 和 WebDav，并且迁移数据很容易，如果你改变主意，也很容易从一种服务切换到另一种服务。
+&#13;
+https://img3.appinn.net/images/201912/ea168177c1ca4331b2027.jpg!o
+&#13;
+界面Joplin 的界面自带多种深浅两色主题配色，左侧带有可隐藏的笔记本/笔记导航栏，在纯写作状态（左侧的笔记本/笔记导航栏隐藏）界面，可以设置为纯编辑界面，纯预览界面以及“编辑+预览”双排界面。
+&#13;
+https://img3.appinn.net/images/201912/ea24111814dd2125429d4.jpg!o
+&#13;
+Markdown默认 Markdown 语法在编辑区上方有独立工具栏，可以快速设置粗体、斜体、外链、引用、图片、列表、二级标题、待办标记、隔离线，日期，标签等语法快速生成按钮。
+&#13;
+https://img3.appinn.net/images/201912/e193a6083e921e6e7ee67.jpg!o
+&#13;
+支持图片和附件
+&#13;
+https://img3.appinn.net/images/201912/eadef50b67ec8375d67e9.jpg!o
+&#13;
+可以用 Markdown 格式（支持数学符号和复选框）记笔记，可以在笔记中添加附件（使用图像预览）或在外部 Markdown 编辑器中编辑它们并在每次保存文件时自动在 Joplin 中更新它们。
+&#13;
+复选框https://img3.appinn.net/images/201912/68b8894d3acdc2d85fe4c.jpg!o
+&#13;
+数学公式https://img3.appinn.net/images/201912/bb42180a391f97d314054.jpg!o
+&#13;
+插入图表https://img3.appinn.net/images/201912/4821a068bb177dcde172f.jpg!o
+&#13;
+混合排版https://img3.appinn.net/images/201912/908dbf71e3e1aef8c531f.png!o
+&#13;
+Joplin 可以很好地处理大量笔记，它允许你将笔记组织到笔记本中、添加标签和搜索。还可以按更新日期、创建日期或标题对笔记进行排序。每个笔记本可以包含笔记、待办事项或两者，可以轻松添加其他笔记的链接（在桌面应用中右键单击笔记并选择 “Copy Markdown link”，然后在笔记中添加链接）。
+&#13;
+其他扩展功能：CSS 样式表的 Markdown 显示https://img3.appinn.net/images/201912/004a0e7f6548b602cfa86.jpg!o
+&#13;
+自动检测代码块https://img3.appinn.net/images/201912/501bd05a839add0d118fa.jpg!o
+&#13;
+本地图片资源（从 Evernote 备份导入）https://img3.appinn.net/images/201912/0c6854c9ae0b8a6597ea0.jpg!o
+&#13;
+插入地图https://img3.appinn.net/images/201912/64136d5e9bf6f7068192d.jpg!o
+&#13;
+用颜色代码代替图片以减小本地文件体积https://img3.appinn.net/images/201912/26ca6245c38e9111383a9.png!o
+&#13;
+https://img3.appinn.net/images/201912/21dad0b52c7dcf02185dc.png!o
+&#13;
+支持 Fountain支持主要用于剧本写作的轻量文本标记语言 Fountain，来代替专业且昂贵的剧本写作软件。Fountain 是电影电视广告工业领域的通用文本标记语言，与 markdown 类似，但语法完全不同。
+&#13;
+Joplin 官网在这里：https://joplinapp.org/ 应本文作者要求匿名，是一位小众软件网友。
+&#13;
+https://www.appinn.com/joplin/</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>Evernote 强力替代品：开源加密笔记本 Joplin</span><br>
+<span>由于需求的普遍性，笔记应用是个长久讨论的话题，但是由于需求的差异性，才催生无数同类服务和软件，假如有这样一个细分需求：开源、跨(全)平台、自由(免费)、云存储同步、数据自由导出、端到端加密、笔记嵌套、多层次结构、支持附件/图片、网页剪藏、Markdown，代办事项，可选择的软件和服务并不多。</span><br>
+<span>一些需求：</span><br>
+<span>[*]笔记一般是纯个人数据，开源是安全、功能扩展、自由的保证</span><br>
+<span>[*]跨平台，尤其是全平台意味着未来在平台选择上不需要再寻找替代品</span><br>
+<span>[*]Free，是人见人爱的</span><br>
+<span>[*]自由的云同步是必不可少的</span><br>
+<span>[*]自由的数据导出是避免灾难的终极保证</span><br>
+<span>[*]笔记加密和传输过程端到端加密才有安全可言</span><br>
+<span>[*]嵌入附件和多媒体文件增加了使用场景</span><br>
+<span>[*]Markdown 以及扩展其扩展语法支持应该是基础功能</span><br>
+<span>[*]其他锦上添花的扩展功能</span><br>
+<span>本文介绍的开源笔记软件 Joplin 符合上述需求，并且提供多种扩展功能，和某些独一无二的专业功能。</span><br>
+<span>https://img3.appinn.net/images/201912/76e773bd0b918ee9ce4cd.jpg!o</span><br>
+<span>Joplin 是一个自由开源的笔记和待办事项应用，可用于 Linux、Windows、macOS、Android 和 iOS。它的主要功能包括端到端加密，Markdown 支持以及通过 NextCloud、Dropbox、OneDrive 或 WebDAV 等第三方服务进行同步。</span><br>
+<span>Joplin 的特色：</span><br>
+<span>[*]桌面、移动端、命令行全平台客户端</span><br>
+<span>[*]支持网页剪藏（Firefox. chrome）</span><br>
+<span>[*]端到端加密（E2EE）</span><br>
+<span>[*]支持与 Onedrive. Nextcloud. Dropbox. Webdav 等网盘同步</span><br>
+<span>[*]导入 Enex 文件(Evernote导出文件格式)和Markdown文件</span><br>
+<span>[*]支持导出为：JEX（Joplin 导出格式）、MD、RAW、PDF、JASON 等格式</span><br>
+<span>[*]支持 to-do 模式</span><br>
+<span>[*]离线优先，数据在本地可读</span><br>
+<span>[*]Markdown 支持扩展语法如数学公式（math notation）复选框(checkboxes)、纯文本标记语言 Fountain</span><br>
+<span>[*]支持插入附件、图片</span><br>
+<span>[*]支持地理位置功能</span><br>
+<span>[*]支持外置编辑器，一键打开外置编辑器编辑内容</span><br>
+<span>https://img3.appinn.net/images/201912/80fa414800074fa56e49a.jpg!o</span><br>
+<span>Joplin 支持的平台：</span><br>
+<span>[*]Mac</span><br>
+<span>[*]Windows</span><br>
+<span>[*]Linux</span><br>
+<span>[*]Android</span><br>
+<span>[*]iOS</span><br>
+<span>[*]ChromeOS</span><br>
+<span>[*]Chrome</span><br>
+<span>[*]Termux</span><br>
+<span>[*]Firefox</span><br>
+<span>https://img3.appinn.net/images/201912/68d63785b427ff38a4e79.jpg!o</span><br>
+<span>作为功能强大的 Markdown 笔记应用，Joplin 的入手门槛很低，除了一些扩展 Markdown 语法，软件层面非常友好易用。</span><br>
+<span>https://img3.appinn.net/images/201912/c68a45af55918a767891c_0.jpg!o</span><br>
+<span>同步作为开源软件，Joplin 避免与特定公司或服务捆绑。所以提供多种网盘同步功能，如 NextCloud、Dropbox、oneDrive 和 WebDav，并且迁移数据很容易，如果你改变主意，也很容易从一种服务切换到另一种服务。</span><br>
+<span>https://img3.appinn.net/images/201912/ea168177c1ca4331b2027.jpg!o</span><br>
+<span>界面Joplin 的界面自带多种深浅两色主题配色，左侧带有可隐藏的笔记本/笔记导航栏，在纯写作状态（左侧的笔记本/笔记导航栏隐藏）界面，可以设置为纯编辑界面，纯预览界面以及“编辑+预览”双排界面。</span><br>
+<span>https://img3.appinn.net/images/201912/ea24111814dd2125429d4.jpg!o</span><br>
+<span>Markdown默认 Markdown 语法在编辑区上方有独立工具栏，可以快速设置粗体、斜体、外链、引用、图片、列表、二级标题、待办标记、隔离线，日期，标签等语法快速生成按钮。</span><br>
+<span>https://img3.appinn.net/images/201912/e193a6083e921e6e7ee67.jpg!o</span><br>
+<span>支持图片和附件</span><br>
+<span>https://img3.appinn.net/images/201912/eadef50b67ec8375d67e9.jpg!o</span><br>
+<span>可以用 Markdown 格式（支持数学符号和复选框）记笔记，可以在笔记中添加附件（使用图像预览）或在外部 Markdown 编辑器中编辑它们并在每次保存文件时自动在 Joplin 中更新它们。</span><br>
+<span>复选框https://img3.appinn.net/images/201912/68b8894d3acdc2d85fe4c.jpg!o</span><br>
+<span>数学公式https://img3.appinn.net/images/201912/bb42180a391f97d314054.jpg!o</span><br>
+<span>插入图表https://img3.appinn.net/images/201912/4821a068bb177dcde172f.jpg!o</span><br>
+<span>混合排版https://img3.appinn.net/images/201912/908dbf71e3e1aef8c531f.png!o</span><br>
+<span>Joplin 可以很好地处理大量笔记，它允许你将笔记组织到笔记本中、添加标签和搜索。还可以按更新日期、创建日期或标题对笔记进行排序。每个笔记本可以包含笔记、待办事项或两者，可以轻松添加其他笔记的链接（在桌面应用中右键单击笔记并选择 “Copy Markdown link”，然后在笔记中添加链接）。</span><br>
+<span>其他扩展功能：CSS 样式表的 Markdown 显示https://img3.appinn.net/images/201912/004a0e7f6548b602cfa86.jpg!o</span><br>
+<span>自动检测代码块https://img3.appinn.net/images/201912/501bd05a839add0d118fa.jpg!o</span><br>
+<span>本地图片资源（从 Evernote 备份导入）https://img3.appinn.net/images/201912/0c6854c9ae0b8a6597ea0.jpg!o</span><br>
+<span>插入地图https://img3.appinn.net/images/201912/64136d5e9bf6f7068192d.jpg!o</span><br>
+<span>用颜色代码代替图片以减小本地文件体积https://img3.appinn.net/images/201912/26ca6245c38e9111383a9.png!o</span><br>
+<span>https://img3.appinn.net/images/201912/21dad0b52c7dcf02185dc.png!o</span><br>
+<span>支持 Fountain支持主要用于剧本写作的轻量文本标记语言 Fountain，来代替专业且昂贵的剧本写作软件。Fountain 是电影电视广告工业领域的通用文本标记语言，与 markdown 类似，但语法完全不同。</span><br>
+<span>Joplin 官网在这里：https://joplinapp.org/ 应本文作者要求匿名，是一位小众软件网友。</span><br>
+<span>https://www.appinn.com/joplin/</span><br>
+</p><p><b>ohi: </b><br>
+<span>为什么不用one note呢</span><br>
+<span>—— 来自 Sony SO-02J, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>长末: </b><br>
+<span>mark下。onenoe还有代替品，mybase很久没见了</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>seeks1: </b><br>
+<span>ohi 发表于 2019-12-16 17:44</span><br>
+<span>为什么不用one note呢</span><br>
+<span>—— 来自 Sony SO-02J, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>国内不好用，动不动没速度无法访问。</span><br>
+</p><p><b>zievod: </b><br>
+<span>ohi 发表于 2019-12-16 17:44</span><br>
+<span> 为什么不用one note呢—— 来自 Sony SO-02J, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>不支持markdown</span><br>
+</p><p><b>kros: </b><br>
+<span>看了下我的印象笔记能兑换到2029年</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>搭车求好用的文献管理软件</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>elxy: </b><br>
+<span>gx19860411 发表于 2019-12-16 18:52</span><br>
+<span>搭车求好用的文献管理软件</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+<span>Zotero, 结合Zotfile可以使用自己的网盘同步pdf，避免Zotera的免费空间不够用</span><br>
+</p><p><b>Geminize: </b><br>
+<span>可惜EverMemo死了</span><br>
+</p><p><b>win8: </b><br>
+<span>唉再给我最喜欢的笔记软件wiz点个蜡   </span><br>
+</p><p><b>Arhjoy: </b><br>
+<span>win8 发表于 2019-12-16 19:32</span><br>
+<span>唉再给我最喜欢的笔记软件wiz点个蜡</span><br>
+<span>为知死了吗？当时不是说收费是为了更好的发展么</span><br>
+</p><p><b>马赛克: </b><br>
+<span>有没支持手写笔记的啊，带笔的板子嗷嗷待哺，大象本，onenote都可以，其他就只有三星note这种专有机型才能用的了</span><br>
+</p><p><b>LoliType: </b><br>
+<span>我一直在用这个的安卓版，差不多半年了还算顺手。主要缺点是todo功能太弱了，我不得已又另外找了个todo app。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>mark下，不过印象那边太多了，能转移过来么</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>别告诉我是存在浏览器storage里的......</span><br>
+</p><p><b>leica: </b><br>
+<span>这玩意不是看功能界面有多花里胡哨，而是看服务器能抗几年。。。。。。。。。。。。。。。。。</span><br>
+</p><p><b>natt: </b><br>
+<span>關鍵是後續長期穩定的服務器，妳半路掛了沒地兒哭啊</span><br>
+<span>— from Xiaomi MI 8, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>这不是本地软件吗，同步也是用第三方服务，为什么有人在说服务器能撑多久？</span><br>
+</p><p><b>win8: </b><br>
+<span>Arhjoy 发表于 2019-12-16 19:39</span><br>
+<span>为知死了吗？当时不是说收费是为了更好的发展么</span><br>
+<span>从用户数量看，现在免费用户完全不能同步，完全靠企业用户和收年费能怎么发展？</span><br>
+<span>从服务上看，原先论坛里不时有人提建议，分享经验，老魏也经常出没，现在论坛都没了。</span><br>
+<span>就软件本身，如果付100r以内，能够提供永久有效的100M/月的上传流量，我是愿意付费的。然而并没有这样的选项。</span><br>
+<span>今年wiz提供了私有服务的docker镜像，超重，真的不适合个人使用。</span><br>
+</p><p><b>luciffer: </b><br>
+<span>强力个屁</span><br>
+<span>joplin唯一的价值是提供了命令行下的客户端</span><br>
+</p><p><b>Hieda: </b><br>
+<span>org mode+EasyPG无所畏惧</span><br>
+</p><p><b>樱绰落: </b><br>
+<span>mark下，慢慢研究</span><br>
+</p><p><b>KarsusNeko: </b><br>
+<span>mark一下，能自建服务器吗</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>Hieda 发表于 2019-12-16 21:44</span><br>
+<span>org mode+EasyPG无所畏惧</span><br>
+<span>纯文本用orgmode没毛病，但是富文本用orgmode就有点折磨自己了。</span><br>
+</p><p><b>yaoyiqun513: </b><br>
+<span>KarsusNeko 发表于 2019-12-16 22:52</span><br>
+<span>mark一下，能自建服务器吗</span><br>
+<span>支持的nextcloud就可以自建服务器</span><br>
+</p><p><b>weakiwi: </b><br>
+<span>现在是知识整理放dokuwiki，私人日记放ediary。这两都用docker-compose，数据目录独立出来，备份到google drive</span><br>
+</p><p><b>Hieda: </b><br>
+<span>Nanachi 发表于 2019-12-16 23:05</span><br>
+<span>纯文本用orgmode没毛病，但是富文本用orgmode就有点折磨自己了。</span><br>
+<span>latex有多富文本org mode就有多富文本</span><br>
+<span>而且你列表里的事情哪个org mode不能做？</span><br>
+</p><p><b>小明神: </b><br>
+<span>感觉不错，明天去公司试试</span><br>
+</p><p><b>KarsusNeko: </b><br>
+<span>yaoyiqun513 发表于 2019-12-16 23:11</span><br>
+<span>支持的nextcloud就可以自建服务器</span><br>
+<span>感谢</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>Hieda 发表于 2019-12-16 23:48</span><br>
+<span>latex有多富文本org mode就有多富文本</span><br>
+<span>而且你列表里的事情哪个org mode不能做？ ...</span><br>
+<span>限定纯文本的原因就是因为富文本排版界面难看啊，有人说“不能做”了吗</span><br>
+</p><p><b>Hieda: </b><br>
+<img src="https://i.loli.net/2019/12/17/NZ3FOs7gkbIzHdM.jpg" title="https://i.loli.net/2019/12/17/NZ3FOs7gkbIzHdM.jpg"><br>
+<span>我们理工废宅审美就是这样子的啦</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>Hieda 发表于 2019-12-17 00:36</span><br>
+<span>我们理工废宅审美就是这样子的啦</span><br>
+<span>Windows还是Linux</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-12-17 08:56 编辑 </span><br>
+<span>不是我yygy，类似的轮子是真的多。</span><br>
+<span>这种类似的 markdown 程序/应用普遍插图片麻烦，而且很多功能都是做了一半的，比如：</span><br>
+<span>有表格，却不能计算; mathjax / latex 数学的公式支持不完全; todo 模式除了能点那个勾互动，完全没其它意义，todo 至少得有个日历或者同步到手机上有提醒吧，org-mode 是可以做到的; markdown 如果最终目的是输出 html (PDF) 格式的笔记，为什么不用 rmarkdown / org-mode / jupyter notebook去输出，这三个的可靠程度和格式都比只能那点 markdown 语法的编辑器强，并且用起来挺简单的 (对比 latex); Evernote/Onenote 笔记有附件，可以注释图片和pdf， 可以用手机端扫描，有提醒，体验至少是完整的。 这种 markdown 软件有一个标尺可以去对比，它比得上富文本的邮件嘛？你只要给自己发邮件，图、文、附件全有且可以混排，回复这封邮件还可以保留历史版本。而且全平台，找个可靠的邮箱，这个邮箱倒闭的几率肯定比这个开发者不做的几率要小得多。</span><br>
+</p><p><b>天知道: </b><br>
+<span>ekdc11 发表于 2019-12-17 04:54</span><br>
+<span>不是我yygy，类似的轮子是真的多。</span><br>
+<span>这种类似的 markdown 程序/应用普遍插图片麻烦，而且很多功能都是做了 ...</span><br>
+<span>没错，我也一直想换掉印象，主要原因是慢——在SSD上，打开速度都和以前的机械硬盘类似，经常点了笔记后要过3秒才出现文字；但用过好几个类似的开源笔记，问题都是不完整。</span><br>
+</p><p><b>zievod: </b><br>
+<span>ekdc11 发表于 2019-12-17 04:54</span><br>
+<span> 不是我yygy，类似的轮子是真的多。这种类似的 markdown 程序/应用普遍插图片麻烦，而且很多功能都是做了 ...</span><br>
+<span>搞不懂在笔记里插todo是什么思路</span><br>
+<span>印象笔记的todo也非常不好用 纯粹拿来做置顶（到现在都不搞个笔记置顶也是很服气的</span><br>
+<span>markdown就是用来保持格式语法高亮外加轻度排版的</span><br>
+<span>特别复杂的不适合笔记 上word吧</span><br>
+</p><p><b>zievod: </b><br>
+<span>不过就个人需求vscode加github都可以满足了</span><br>
+<span>反正印象笔记不会再买了 等到什么时候把md内置了 更新不用卸载老版本了再说</span><br>
+<span>每次收到更新提示都蛋疼</span><br>
+</p><p><b>chachi: </b><br>
+<span>笔记里的todo可以直接连接到相关等资源比如工作笔记，邮件等，onenote真好用</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>threefcata: </b><br>
+<span>这个带手写吗</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>Hieda 发表于 2019-12-17 00:36</span><br>
+<span>我们理工废宅审美就是这样子的啦</span><br>
+<span>而且你这个字体看起来不是等宽啊……那Emacs的mini buffer里面怎么保持格式的？</span><br>
+</p><p><b>冰痕: </b><br>
+<span>elxy 发表于 2019-12-16 19:07</span><br>
+<span>Zotero, 结合Zotfile可以使用自己的网盘同步pdf，避免Zotera的免费空间不够用</span><br>
+<span>刚开始写论文，这些文献管理怎么用？</span><br>
+<span>Zotero和endnote都装了，Zotero没办法预览PDF啊</span><br>
+</p><p><b>冰痕: </b><br>
+<span> 本帖最后由 冰痕 于 2019-12-17 11:50 编辑 </span><br>
+<span>这个怎么跟onedriver并实现手机同步？</span><br>
+</p><p><b>萌名雪: </b><br>
+<span>Nanachi 发表于 2019-12-17 10:36</span><br>
+<span>而且你这个字体看起来不是等宽啊……那Emacs的mini buffer里面怎么保持格式的？ ...</span><br>
+<span>font lock。因为org-mode是文本型写作，截图里不使用等宽字体我也能理解……</span><br>
+</p><p><b>天网: </b><br>
+<span>zievod 发表于 2019-12-17 05:44</span><br>
+<span>不过就个人需求vscode加github都可以满足了</span><br>
+<span>反正印象笔记不会再买了 等到什么时候把md内置了 更新不 ...</span><br>
+<span>现在不是有md了吗</span><br>
+</p><p><b>Mobushi0: </b><br>
+<span>手机端这也太丑了吧</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span> 本帖最后由 bad_alloc 于 2019-12-17 12:12 编辑 </span><br>
+<span>这玩意码markdown是不是没有插件的?</span><br>
+<span>vscode写数学公式自动完成实在太香了, 换成这个一时间感觉有点便秘</span><br>
+<span>高亮也不太舒服</span><br>
+</p><p><b>thyh2: </b><br>
+<span>gx19860411 发表于 2019-12-16 18:52</span><br>
+<span>搭车求好用的文献管理软件</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+<span>readcube papers</span><br>
+</p><p><b>doraemon0711: </b><br>
+<span>这个真的可以吹爆，onenote没有全平台，别的笔记软件大部分云服务要收费，或者指不定哪天就收费了，这个用自己的服务也好，用onedrive或dropbox也好，都不用依赖于服务商，可能也就手写功能会弱一些，但对程序员来说markdown就足够了</span><br>
+</p><p><b>zievod: </b><br>
+<span> 本帖最后由 zievod 于 2019-12-17 12:47 编辑 </span><br>
+<span>天网 发表于 2019-12-17 11:55</span><br>
+<span>现在不是有md了吗</span><br>
+<span>我老笔记想要加代码块你是要我新建个md文件复制进去再修改吗</span><br>
+<span>新版网页版比较符合我的要求 不知道什么时候才会成为网页版的正式版</span><br>
+<span>客户端对md的更新遥遥无期 我估计2020年都做不完</span><br>
+<span>新建md文件是邪道 之前手机端连修改都不行 是只读的</span><br>
+<span>网页版就是代码含量还没加上去 其它都可以</span><br>
+<span>可是用了网页版我为什么不直接语雀呢 还支持甘特图脑图功能很全...所以还是VScode大法好</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>萌名雪 发表于 2019-12-17 11:46</span><br>
+<span>font lock。因为org-mode是文本型写作，截图里不使用等宽字体我也能理解……</span><br>
+<span>不用等宽字体，org-agenda的界面会错位，非常难看……</span><br>
+</p><p><b>红叶: </b><br>
+<span>有没有能支持图片的</span><br>
+<span>----发送自 realme RMX1931,Android 9</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903359[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用来自制Amiibo卡的擦写NFC的设备要什么关键词吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用来自制Amiibo卡的擦写NFC的设备要什么关键词吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:39:39 +0000</lastBuildDate>
+    <item>
+      <title>用来自制Amiibo卡的擦写NFC的设备要什么关键词吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1924053-1-1.html</link>
+      <description>用来自制Amiibo卡的擦写NFC的设备要什么关键词吗&#13;
+手上的手机都不支持NFC，某宝搜了下又单频又双频又IC感觉搜索姿势错了</description>
+      <content:encoded><![CDATA[<p><b>forzen: </b><br>
+<span>用来自制Amiibo卡的擦写NFC的设备要什么关键词吗</span><br>
+<span>手上的手机都不支持NFC，某宝搜了下又单频又双频又IC感觉搜索姿势错了</span><br>
+</p><p><b>纯白花火: </b><br>
+<span>随便搞个便宜的小米手机</span><br>
+</p><p><b>星野心叶: </b><br>
+<span>买个带NFC的安卓手机，越便宜越好</span><br>
+</p><p><b>like0036: </b><br>
+<span>写的话支持NFC的安卓手机都行但要擦的话 基本没戏了</span><br>
+</p><p><b>saberserker: </b><br>
+<span>去找个修手机的给点钱让他找个能刷的现刷</span><br>
+</p><p><b>linuy: </b><br>
+<span>NFC也有不同标准，阿米波用的是NTGA215，不支持擦除，写的话随便一台带nfc的安卓手机都可以</span><br>
+</p><p><b>琴酒: </b><br>
+<span>amiiqo 最多写入200个 但是切换会切死</span><br>
+<span>而且你手机没nfc 还要另外买pc读卡器</span><br>
+</p><p><b>zero33333: </b><br>
+<span>别折腾了，直接淘宝买做好的吧</span><br>
+</p><p><b>DioxinsX: </b><br>
+<span>zero33333 发表于 2020-4-14 11:11</span><br>
+<span>别折腾了，直接淘宝买做好的吧</span><br>
+<span>这算什么折腾，教程一看谁都能做的东西，买别人做的价格至少也要翻倍，还得成套买</span><br>
+</p><p><b>caine1992: </b><br>
+<span>有新3ds或者2ds也可以</span><br>
+</p><p><b>armagemon: </b><br>
+<span>手机nfc模拟amiibo又如何呢</span><br>
+</p><p><b>琴酒: </b><br>
+<span> 本帖最后由 琴酒 于 2020-4-14 11:58 编辑 </span><br>
+<span>armagemon 发表于 2020-4-14 11:34</span><br>
+<span>手机nfc模拟amiibo又如何呢</span><br>
+<span>无解</span><br>
+<span>上古时代有人用三星模拟过但是只有视频 没有开源 没有后续</span><br>
+<span>https://www.youtube.com/watch?v=BBSQ2iVT_TY</span><br>
+</p><p><b>琴酒: </b><br>
+<span> 本帖最后由 琴酒 于 2020-4-14 12:07 编辑 </span><br>
+<span>或者你研究下这个</span><br>
+<span>https://github.com/JTalamantes/AmiiBomb-uino</span><br>
+<span>这个因该是你需要的 自己在pc上读写 ntag215白卡</span><br>
+<span>原作者很久不更新了 这个是比较新的fork</span><br>
+</p><p><b>琴酒: </b><br>
+<span> 本帖最后由 琴酒 于 2020-4-14 12:20 编辑 </span><br>
+<span>总结下来 要自己diy有下面几个方法</span><br>
+<span>1 买成品</span><br>
+<span>2 nfc手机+白卡/nfc手机+amiiqo</span><br>
+<span>3 pc+amiiqo+配套读卡器</span><br>
+<span>4 n3ds+插件+白卡/o3ds+插件+官方红外nfc读卡器+白卡</span><br>
+<span>5 pc+AmiiBomb-uino+白卡</span><br>
+<span>当然o3ds 那个官方nfc读卡器也能自己diy</span><br>
+<span>https://github.com/HubSteven/3ds_ir</span><br>
+<span>还有个类似amiiqo的东西叫Action Replay Powersaves</span><br>
+</p><p><b>forzen: </b><br>
+<span>谢谢各个回复</span><br>
+<span>本来以为会有读卡器之类的设备，没想到这么复杂</span><br>
+<span>经群友提点准备试试PJ新3了</span><br>
+</p><p><b>琴酒: </b><br>
+<span>forzen 发表于 2020-4-14 12:20</span><br>
+<span>谢谢各个回复</span><br>
+<span>本来以为会有读卡器之类的设备，没想到这么复杂</span><br>
+<span>经群友提点准备试试PJ新3了</span><br>
+<span>3DS (Homebrew → Thenaya)</span><br>
+<span>插件很好找的</span><br>
+</p><p><b>中年大叔: </b><br>
+<span>3ds！</span><br>
+</p><p><b>suhanblood: </b><br>
+<span>琴酒 发表于 2020-4-14 12:18</span><br>
+<span>总结下来 要自己diy有下面几个方法</span><br>
+<span>1 买成品</span><br>
+<span>2 nfc手机+白卡/nfc手机+amiiqo</span><br>
+<span>哎呀我有那个官方NFC读卡器这玩意居然还有写入功能？</span><br>
+</p><p><b>琴酒: </b><br>
+<span>suhanblood 发表于 2020-4-14 13:12</span><br>
+<span>哎呀我有那个官方NFC读卡器这玩意居然还有写入功能？</span><br>
+<span>大部分游戏都是读卡的</span><br>
+<span>只有大乱斗有训练ai功能 所以需要写入</span><br>
+<span>主要是让你训练自己的amiibo和友人训练的amiibo 2个ai对战</span><br>
+</p><p><b>cortexiv: </b><br>
+<span>amiiqo(n2elite)体验不错的，不会多出来不用的卡片，而且没有需要一次精准切换200个以上的使用场景吧？</span><br>
+<span>收一套以后任系主机一直都能用，我是觉得挺值</span><br>
+</p><p><b>zfz4869: </b><br>
+<span>n2elite</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>a12885084: </b><br>
+<span>话说n2elite正常价就是400一套么</span><br>
+<span>感觉略贵，不知道这个价格是不是最近炒的</span><br>
+</p><p><b>琴酒: </b><br>
+<span>a12885084 发表于 2020-4-14 15:40</span><br>
+<span>话说n2elite正常价就是400一套么</span><br>
+<span>感觉略贵，不知道这个价格是不是最近炒的</span><br>
+<span>因为现在很多人都有nfc安卓手机了</span><br>
+<span>单独的卖光了</span><br>
+<span>现在只有卖带读卡器的套装了 就是这个价格</span><br>
+<span>没读卡器的因该2xx</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1924053[0-50]</guid>
+    </item>
+  </channel>
+</rss>

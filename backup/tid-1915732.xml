@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】火狐如何让新标签紧邻在母标签右侧而不是最右</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】火狐如何让新标签紧邻在母标签右侧而不是最右</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:57:34 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】火狐如何让新标签紧邻在母标签右侧而不是最右[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915732-1-1.html</link>
+      <description>【已解决】火狐如何让新标签紧邻在母标签右侧而不是最右&#13;
+ 本帖最后由 shizitou50 于 2020-3-2 19:25 编辑 
+
+更新个新问题，鼠标中键点击或者Ctrl+左键，连续后台开新标签，最新的标签却是在这一族的最右，有什么方法能设置让它在这一族的最左，即紧邻着在母标签页的右侧吗？
+&#13;
+已解决，“树状标签页”的扩展，里面设置有个选项，“新建标签页行为”→新建标签页的插入位置→xx，选好就好啦！
+&#13;
+https://static.saraba1st.com/image/hrline/1.gif
+&#13;
+以下是原贴
+&#13;
+标题：PC和手机浏览器新全面转投Firefox，发现点小问题
+&#13;
+原来是PC_360极速+安卓Chrome。后来发现书签同步有时候不太利索（A机B机都登录360极速在线不退出的情况下，先更改A机书签不退出，再更改B机书签，然后A机退出，则A机更改会丢失），且有ZF背景不太适合轻功；但七星或原版chrome的书签同步需要轻功，我对自己的技术力不太自信怕之后轻功不到家。有几个Chrome的书签同步扩展，我用了体验不是很好，所以最后还是试试转投firefox。
+&#13;
+结果发现：
+&#13;
+1.装了个新插件“图片助手(ImageAssistant) 批量图片下载器”觉得挺好使的，竟然没有同步到新装的B机上，一看项目主页已经被下架了……结果搜了半天也找不到方法把A机上现存的导出来再装过去的办法，help……
+&#13;
+2.PC上挺吃内存的。i5-4590原配的主板挂了，换了新的板子只有两个内存槽，插满才16G，内存紧巴巴的（
+&#13;
+3.原来360极速有个F2\F3快捷键切换标签页的功能我觉得超好使，现在这firefox上我扑腾了半天也没搞出来……</description>
+      <content:encoded><![CDATA[<p><b>shizitou50: </b><br>
+<span>【已解决】火狐如何让新标签紧邻在母标签右侧而不是最右</span><br>
+<span> 本帖最后由 shizitou50 于 2020-3-2 19:25 编辑 </span><br>
+<span>更新个新问题，鼠标中键点击或者Ctrl+左键，连续后台开新标签，最新的标签却是在这一族的最右，有什么方法能设置让它在这一族的最左，即紧邻着在母标签页的右侧吗？</span><br>
+<span>已解决，“树状标签页”的扩展，里面设置有个选项，“新建标签页行为”→新建标签页的插入位置→xx，选好就好啦！</span><br>
+<img src="https://static.saraba1st.com/image/hrline/1.gif" title="https://static.saraba1st.com/image/hrline/1.gif"><br>
+<span>以下是原贴</span><br>
+<span>标题：PC和手机浏览器新全面转投Firefox，发现点小问题</span><br>
+<span>原来是PC_360极速+安卓Chrome。后来发现书签同步有时候不太利索（A机B机都登录360极速在线不退出的情况下，先更改A机书签不退出，再更改B机书签，然后A机退出，则A机更改会丢失），且有ZF背景不太适合轻功；但七星或原版chrome的书签同步需要轻功，我对自己的技术力不太自信怕之后轻功不到家。有几个Chrome的书签同步扩展，我用了体验不是很好，所以最后还是试试转投firefox。</span><br>
+<span>结果发现：</span><br>
+<span>1.装了个新插件“图片助手(ImageAssistant) 批量图片下载器”觉得挺好使的，竟然没有同步到新装的B机上，一看项目主页已经被下架了……结果搜了半天也找不到方法把A机上现存的导出来再装过去的办法，help……</span><br>
+<span>2.PC上挺吃内存的。i5-4590原配的主板挂了，换了新的板子只有两个内存槽，插满才16G，内存紧巴巴的（</span><br>
+<span>3.原来360极速有个F2\F3快捷键切换标签页的功能我觉得超好使，现在这firefox上我扑腾了半天也没搞出来……</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>下架的建议换一个，本版有个扩展推荐楼可以看看</span><br>
+<span>内存紧巴巴可以考虑装个后台标签自动睡眠的拓展，不过自从用了Linux我就再没觉得浏览器内存用太多</span><br>
+<span>默认快捷键是Ctrl+Page Up/Page down，还有很多扩展可以加快捷键</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>右键 / 查看页面信息 / 媒体，可以多选图片另存到文件夹</span><br>
+<span>别看内存占用，你根本不懂这个</span><br>
+<span>Ctrl+Tab / Ctrl+Shift+Tab 也可以切标签页</span><br>
+</p><p><b>UMN307: </b><br>
+<span>最近流行pc+手机浏览器转投微软edge</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>Firefox我就在用啊，不用轻功就能同步，pc版用着没啥大问题，主要是手机版。</span><br>
+<span>首先就是那个手机版，给人一种不太利索的感觉，卡卡的。</span><br>
+<span>还有就是ff自己出的一个密码填充软件——lockwise，问题挺多，填充不成功的几率非常大，要么就是压根在登陆界面根本就不显示填充的选项。</span><br>
+<span>我android手机上甚至配合自家的Firefox都可能出现密码无法填充的问题，简直草台。</span><br>
+</p><p><b>8492-nsk: </b><br>
+<span>老笔记本的火狐用着没问题，但是台式机的火狐不知道为啥打开就卡住，标签页面都是白的，像死机一样。但是FF自己的那些菜单还能点..........</span><br>
+</p><p><b>十二国: </b><br>
+<span>chrome 同步是最好的，前提是网络“畅通”。</span><br>
+<span>FF 国际版同步超级慢，无奈转国内版账号。</span><br>
+</p><p><b>847681220: </b><br>
+<span>8492-nsk 发表于 2020-2-26 10:22</span><br>
+<span>老笔记本的火狐用着没问题，但是台式机的火狐不知道为啥打开就卡住，标签页面都是白的，像死机一样 ...</span><br>
+<span>这是近期更新的大版本的问题再更新下就好了</span><br>
+</p><p><b>日霜衣: </b><br>
+<span>scikirbypoke 发表于 2020-2-25 23:56</span><br>
+<span>下架的建议换一个，本版有个扩展推荐楼可以看看</span><br>
+<span>内存紧巴巴可以考虑装个后台标签自动睡眠的拓展，不过自从 ...</span><br>
+<span>现在linux对淘宝这类购物网站的支付环境怎么样？</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>日霜衣 发表于 2020-2-26 15:14</span><br>
+<span>现在linux对淘宝这类购物网站的支付环境怎么样？</span><br>
+<span>平时用安卓端，不过桌面Linux应该能支付宝扫码</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>第一个问题，你看看这个能不能代替</span><br>
+<span>解决问题不一定非要插件，也可以脚本</span><br>
+<span>https://greasyfork.org/zh-CN/scripts/388066</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>火狐Android新版太弱智了，都不能搜密码</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>JasonBourne: </b><br>
+<span>那个ImageAssistant我也用过，感觉有鬼，无论什么网页占用资源都很高，不知道在后面跑什么玩意儿。</span><br>
+</p><p><b>shizitou50: </b><br>
+<span>scikirbypoke 发表于 2020-2-25 23:56</span><br>
+<span>下架的建议换一个，本版有个扩展推荐楼可以看看</span><br>
+<span>内存紧巴巴可以考虑装个后台标签自动睡眠的拓展，不过自从 ...</span><br>
+<span>默认快捷键我知道的，但很难左手单手操作，所以才觉得F2F3的操作很爽。自定义快捷键的插件请问有具体推荐的吗？</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>日霜衣: </b><br>
+<span>scikirbypoke 发表于 2020-2-26 15:41</span><br>
+<span>平时用安卓端，不过桌面Linux应该能支付宝扫码</span><br>
+<span>thx</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>shizitou50 发表于 2020-2-27 08:25</span><br>
+<span>默认快捷键我知道的，但很难左手单手操作，所以才觉得F2F3的操作很爽。自定义快捷键的插件请问有具体推荐 ...</span><br>
+<span>-Vim-</span><br>
+<span>Saka Key - 设置界面丰富(能自定义脚本)而友好的新秀，推荐。</span><br>
+<span>Vimium-FF - 老牌，界面也比较Geek。</span><br>
+<span>Surfingkeys - 在Chrome上小有名气，国/华人作品，据@dangoron说吊打同类。官方介绍</span><br>
+<span>Tridactyl - 另一款老牌回归，功能可能是目前最强？不是geek本来也不怎样用这类，就不废话了，请看链接中的具体说明。推荐 by @Hieda</span><br>
+<span>Vimium C - 真·老牌，据说有针对中文网页优化，说实在我没怎样用所以不懂哪个好……</span><br>
+<span>来自https://bbs.saraba1st.com/2b/thread-1562718-1-1.html</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>用firefox登录群晖的vm，不能进行操作</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>火狐大功能没什么问题，就是我总能遇到一些细枝末节让人不爽的地方，比如之前一直没有的全局缩放设置</span><br>
+</p><p><b>Hieda: </b><br>
+<span> 本帖最后由 Hieda 于 2020-2-28 07:29 编辑 </span><br>
+<span>题外话， 用tridactyl之类高度定制的扩展的话建议自己编译firefox， 把火狐自带的快捷键全干掉， 这样就可以绑定任意键位了</span><br>
+<span>https://github.com/glacambre/firefox-patches/blob/master/dont_reserve_keys.patch</span><br>
+</p><p><b>shizitou50: </b><br>
+<span>更新个新问题，鼠标中键点击或者Ctrl+左键，连续后台开新标签，最新的标签却是在这一族的最右，有什么方法能设置让它在这一族的最左，即紧邻着在母标签页的右侧吗？</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>看错编辑编辑</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>转自 https://bbs.saraba1st.com/2b/thread-1562718-1-1.html</span><br>
+<span>about:config设置技巧</span><br>
+<span>在地址栏输入about:config后，可对以下参数进行编辑：</span><br>
+<span>browser.urlbar.openintab = true　以新标签页打开地址栏网址</span><br>
+<span>browser.search.openintab = true　以新标签页打开搜索栏结果</span><br>
+<span>browser.tabs.loadBookmarksInTabs = true　以新标签页打开书签</span><br>
+<span>browser.tabs.closeWindowWithLastTab = false　关闭唯一标签页时不同时关闭浏览器(而是跳转到主页)</span><br>
+<span>browser.tabs.insertRelatedAfterCurrent = true　打开链接时新标签页位于当前标签页右侧</span><br>
+<span>browser.tabs.closeTabByDblclick = true　双击关闭标签页</span><br>
+<span>toolkit.tabbox.switchByScrolling = true　鼠标滚轮切换标签页</span><br>
+<span>目前仅beta版有效：</span><br>
+<span>browser.tabs.insertAfterCurrent = true　空白标签页建立于当前标签页右侧</span><br>
+</p><p><b>shizitou50: </b><br>
+<span>oscarwty 发表于 2020-3-2 19:00</span><br>
+<span>转自 https://bbs.saraba1st.com/2b/thread-1562718-1-1.html</span><br>
+<span>about:config设置技巧</span><br>
+<span>在地址栏输入about:con ...</span><br>
+<span>啊，对着你这一条条试了之后，突然想到，有个“树状标签页”的扩展，里面设置有个选项，“新建标签页行为”→新建标签页的插入位置→xx，选好就好啦！</span><br>
+<span>解决啦！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915732[0-50]</guid>
+    </item>
+  </channel>
+</rss>

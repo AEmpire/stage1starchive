@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>windows版本号怎么解读</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>windows版本号怎么解读</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:04:15 +0000</lastBuildDate>
+    <item>
+      <title>windows版本号怎么解读[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865294-1-1.html</link>
+      <description>windows版本号怎么解读&#13;
+执行systeminfo命令，回显有这样一行
+&#13;
+OS 版本:          10.0.19013 暂缺 Build 19013
+&#13;
+为什么‘19013’出现了2次
+&#13;
+‘暂缺’是什么意思，原因是什么</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>windows版本号怎么解读</span><br>
+<span>执行systeminfo命令，回显有这样一行</span><br>
+<span>OS 版本:          10.0.19013 暂缺 Build 19013</span><br>
+<span>为什么‘19013’出现了2次</span><br>
+<span>‘暂缺’是什么意思，原因是什么</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>19013是20H1快速预览通道推送的版本 最新是19018</span><br>
+</p><p><b>litel: </b><br>
+<span>打开cmd，最上面就是版本。。。</span><br>
+<span>然后要看另一个版本号，输入 winver 回车。</span><br>
+</p><p><b>auraria: </b><br>
+<span>10.0.19013</span><br>
+<span>10：大版本号，一般对应内核大版本，例如5对应NT5内核，6是NT6内核；</span><br>
+<span>0：小版本号，与大版本号一起一般决定Windows的名称，例如5.1是XP，6.0是Vista，6.1是Windows 7；</span><br>
+<span>19013则是编译号，又叫内部版本号，也即Build号，代码更新重新编译后这个号就会变，Windows从NT3开始这个号就一直延续着增长，更后的版本这个号也越大。</span><br>
+<span>注意：Windows大版本号没有7、8、9，Windows 10在早期某个测试版里从6.4直接改为10.0。</span><br>
+<span>—— 来自 samsung SM-N9760, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865294[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>想玩玩人工智能，该买什么笔记本？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>想玩玩人工智能，该买什么笔记本？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:03:23 +0000</lastBuildDate>
+    <item>
+      <title>想玩玩人工智能，该买什么笔记本？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856025-1-1.html</link>
+      <description>想玩玩人工智能，该买什么笔记本？&#13;
+跑程序是不是对显卡有要求？不同档次的显卡差距大吗？</description>
+      <content:encoded><![CDATA[<p><b>mcfly: </b><br>
+<span>想玩玩人工智能，该买什么笔记本？</span><br>
+<span>跑程序是不是对显卡有要求？不同档次的显卡差距大吗？</span><br>
+</p><p><b>muderx: </b><br>
+<span>https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>别笔记本了，性价比太低，台式吧。</span><br>
+<span>差的很多，你直接查查各种卡的单精度性能就行了</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>如果你只是想玩一玩人工智能，那不用显卡，直接用cpu的avx2算都是可以的，你要是想搞项目开发，训练点能用的网络的话，建议别用笔记本</span><br>
+</p><p><b>F4keTear: </b><br>
+<span>随便一个都行，装个cpu版tf跑跑mnist改改就行</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>之前用 CPU跑waifu2x慢的想打人，还是显卡好</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>台机装寒武纪的板卡</span><br>
+</p><p><b>enako_cosplay: </b><br>
+<span>学习的话cpu就行了（不是复现paper那种等级的学习）正经干活还是得台式    </span><br>
+</p><p><b>御坂14084: </b><br>
+<span>笔记本炼丹算了吧</span><br>
+</p><p><b>tankwang: </b><br>
+<span>去云服务商买相关服务，笔记本你买来只想打游戏</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>ada_ovo: </b><br>
+<span>muderx 发表于 2019-8-26 17:19</span><br>
+<span>https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/</span><br>
+<span>惊了，我记得之前看的时候，best GPU还是2080，现在变成2070了？那么岂不是2060s或者70s成为最合适普通玩家的选择？</span><br>
+</p><p><b>谎言: </b><br>
+<span>云服务器租用起来其实跟自己搭机器差不多。一般实验室用机器差不多要4显卡主板搭配服务器cpu再加上大内存，我估计你也用不着，搞个顶配台式机就可以了。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span>解决上网问题，然后白嫖Colab的T4/K80</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>jinyang411: </b><br>
+<span>2080，既能跑模型又能打游戏。岂不美哉</span><br>
+</p><p><b>lapisveritas: </b><br>
+<span>DTCPSS 发表于 2019-8-30 18:02</span><br>
+<span>解决上网问题，然后白嫖Colab的T4/K80</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端 ...</span><br>
+<span>colab的算力和存储是分开的，io很慢容易error，有什么解决方案吗？我现在不需要显卡的操作都是都是本地算好再打包传上去</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>御风八极: </b><br>
+<span>租个云主机</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span>lapisveritas 发表于 2019-10-1 13:46</span><br>
+<span>colab的算力和存储是分开的，io很慢容易error，有什么解决方案吗？我现在不需要显卡的操作都是都是本地算 ...</span><br>
+<span>你是用 TPU 还是 GPU ?</span><br>
+<span>GPU 的话把数据放在 /Content/ 里快一点，直接读写 Google Drive (/Content/Drive/) 比较慢。</span><br>
+<span>我是把数据放在 OneDrive 上（因为没买 Google Drive 扩容）然后生成直链，在 Colab 上下载到 /Content/，计算结果用软链接定向到 /Content/Drive/ 里。</span><br>
+</p><p><b>lvcha: </b><br>
+<span>入门学学买个1066就行了，现在价格便宜的一笔</span><br>
+<span>入门了觉得自己是这块料就出二手再买个2080ti</span><br>
+</p><p><b>lapisveritas: </b><br>
+<span>DTCPSS 发表于 2019-10-1 16:33</span><br>
+<span>你是用 TPU 还是 GPU ?</span><br>
+<span>GPU 的话把数据放在 /Content/ 里快一点，直接读写 Google Drive (/Content/Drive ...</span><br>
+<span>懂了，多谢。tpu用不来，好像不是纯keras架构的没法用来着</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>用笔记本搞深度学习？楼主你没搞错吧……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856025[0-50]</guid>
+    </item>
+  </channel>
+</rss>

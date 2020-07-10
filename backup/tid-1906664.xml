@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>帝都联通光纤能改NAT1吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>帝都联通光纤能改NAT1吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:59:40 +0000</lastBuildDate>
+    <item>
+      <title>帝都联通光纤能改NAT1吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906664-1-1.html</link>
+      <description>帝都联通光纤能改NAT1吗？&#13;
+听说nat1连外服游戏更顺畅，我家一年一千多块的联通光纤却一直是nat2，听说找运营商能给改成nat1，有操作方法么？打客服管用么？</description>
+      <content:encoded><![CDATA[<p><b>烛堡巡礼者: </b><br>
+<span>帝都联通光纤能改NAT1吗？</span><br>
+<span>听说nat1连外服游戏更顺畅，我家一年一千多块的联通光纤却一直是nat2，听说找运营商能给改成nat1，有操作方法么？打客服管用么？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-12-31 11:57 编辑 </span><br>
+<span>有公网ip就差不多了。</span><br>
+</p><p><b>无动于衷: </b><br>
+<span>NAT1代表网线直连</span><br>
+<span>你不用路由器试试</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2019-12-31 09:59 编辑 </span><br>
+<span>用了路由器/光猫拨号就至少是nat2，要nat1需要光猫桥接模式并用你打游戏的设备（电脑/游戏主机）直接拨号。然后家里其他设备都不能上网了。除非你用的是电脑打游戏，在电脑上插个无线网卡作为WiFi热点。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>烛堡巡礼者: </b><br>
+<span>看来无解了，家里的网络条件必须要用路由，主机那边甚至是双路由</span><br>
+</p><p><b>downforce: </b><br>
+<span>其实nat1没多大用，主要是能连上的人比较多。只对无服务器的p2p模式有用。比如一个玩家建立游戏房间就是用他的电脑当服务器其他玩家来连他的电脑参与游戏。</span><br>
+<span>nat1 可以连nat1、nat2、nat3</span><br>
+<span>nat2能连nat1和nat2</span><br>
+<span>nat3只能连nat1</span><br>
+<span>一般来说nat2够用了。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>烛堡巡礼者 发表于 2019-12-31 09:57</span><br>
+<span>看来无解了，家里的网络条件必须要用路由，主机那边甚至是双路由</span><br>
+<span>路由插LAN关DHCP当交换机和无线AP用呗。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>downforce 发表于 2019-12-31 09:55</span><br>
+<span>用了路由器/光猫拨号就至少是nat2，要nat1需要光猫桥接模式并用你打游戏的设备（电脑/游戏主机）直接拨号。 ...</span><br>
+<span>要P2P的话路由设DMZ就行，不用非得主机拨号……</span><br>
+</p><p><b>rentrody: </b><br>
+<span>找了下PS上NAT类型的解释</span><br>
+<span>反正最好不要是Symmetric NAT(对称型NAT)，用电信网络的话应该都是锥形NAT，把光猫开桥接路由器拨号，路由器再开启upnp或DMZ，应该就足够满足游戏和BT下载之类的P2P需求了。反正我内网IP挂BT和要了公网IP后没啥区别。</span><br>
+<span>在PlayStation上</span><br>
+<span>NAT1＝无NAT</span><br>
+<span>NAT2应该说是分为三种(Full cone NAT\Address-Restricted cone NAT\Port-Restricted cone NAT\Symmetric NAT)</span><br>
+<span>NAT3也属于Symmetric NAT</span><br>
+</p><p><b>downforce: </b><br>
+<span>rentrody 发表于 2019-12-31 11:05</span><br>
+<span>要P2P的话路由设DMZ就行，不用非得主机拨号……</span><br>
+<span>楼主问怎么获得nat1，路由拨号再开dmz也只是从Port-Restricted cone NAT变成Full cone NAT，理论上能和nat3连，但实际上经常连不上。</span><br>
+</p><p><b>真草稚京: </b><br>
+<span> 本帖最后由 真草稚京 于 2019-12-31 14:45 编辑 </span><br>
+<span>烛堡巡礼者 发表于 2019-12-31 09:57</span><br>
+<span>看来无解了，家里的网络条件必须要用路由，主机那边甚至是双路由</span><br>
+<span>只要你电脑直接拨号是nat1</span><br>
+<span>那就可以设置路由器让你电脑nat1</span><br>
+<span>路由器支持nat1即可</span><br>
+<span>但是呢</span><br>
+<span>指望nat1就能连外服更流畅我只能想多了</span><br>
+</p><p><b>downforce: </b><br>
+<span>真草稚京 发表于 2019-12-31 14:44</span><br>
+<span>只要你电脑直接拨号是nat1</span><br>
+<span>那就可以设置路由器让你电脑nat1</span><br>
+<span>怎么可能呢，nat1必须是公网IP地址。路由器拨号后下挂的设备都是私有IP地址，要发包到internet上必须做nat转换，做了转换就是nat2了。</span><br>
+</p><p><b>hui.w: </b><br>
+<span>要个公网ip，其他不用折腾</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>公网ip+开放端口后没有区别</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906664[0-50]</guid>
+    </item>
+  </channel>
+</rss>

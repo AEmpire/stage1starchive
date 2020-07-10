@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>在设计一个MATX机箱玩，大家来做产品经理吧 update0702</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>在设计一个MATX机箱玩，大家来做产品经理吧 update0702</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:04:49 +0000</lastBuildDate>
+    <item>
+      <title>在设计一个MATX机箱玩，大家来做产品经理吧 update0702[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1939818-1-1.html</link>
+      <description>在设计一个MATX机箱玩，大家来做产品经理吧 update0702&#13;
+ 本帖最后由 thegodra 于 2020-7-2 15:24 编辑 
+
+如题，
+&#13;
+兼听则明，大家都是产品经理。
+&#13;
+设计目标：
+&#13;
+MATX，4槽
+&#13;
+中端U和显卡平台
+&#13;
+风冷，兼容便宜大碗的塔式散热器
+&#13;
+外观平整
+&#13;
+左右侧透或者不测透
+&#13;
+深度优先，减少体积
+&#13;
+（限于工艺价格，手工钣金，配合必要的3D打印/CNC件，内0.8-1mm铁板白烤漆，2mm铝板原色）
+&#13;
+设计事项：（有些地方我想了好几个方案，但是没有定论）
+&#13;
+1，前置IO方向
+&#13;
+朝上，放桌下用，落灰，加盖子
+&#13;
+朝前，放桌面或者脚下用，前脸四个角落，是否要做成麻将牌，还是直接开孔
+&#13;
+做成弹出式的
+&#13;
+预留几个孔？USB3x2 USB2x2 TypeC如果有的话 音频x2 重启 开机（9个）
+&#13;
+朝前，不要TypeC，麻将牌修饰
+&#13;
+2，显卡预留长度
+&#13;
+多少比较好，中端的吧，两个风扇那种
+&#13;
+1660S，250mm长度，额外预留10mm空间
+&#13;
+3，PSU
+&#13;
+ATX电源实在太大了
+&#13;
+考虑用SFX和SFX-L，但是价格会上升很多
+&#13;
+TFX的又没有全模组的
+&#13;
+FLEX的，可以考虑两个并联，但是4cm风扇的噪音……
+&#13;
+极端一些可以考虑ATX电源拆掉外壳缩小体积
+&#13;
+SFX或者SFX-L
+&#13;
+4，提手
+&#13;
+没个提手很不方便，即便时偶尔移动一下
+&#13;
+依照中心，中间横置或者置提手会比较好
+&#13;
+做成隐藏式，或者升降式？
+&#13;
+或者像苹果那样前后一个
+&#13;
+安钛克那样左右长条
+&#13;
+或者某些品牌机那样后面上部一个隐藏式的
+&#13;
+无提手
+&#13;
+5，前脸
+&#13;
+前脸两侧进气
+&#13;
+前脸面板内缩，周围一圈进气，可以藏前置IO
+&#13;
+网格面板
+&#13;
+如果两侧进气，深度要加多10~15mm
+&#13;
+5.1，前脸与顶盖接缝
+&#13;
+直接看到
+&#13;
+加3D打印饰条
+&#13;
+隐藏到上面（上面可以看到）
+&#13;
+不接缝（会贵）
+&#13;
+增大接缝，藏前置IO
+&#13;
+6，顶盖
+&#13;
+不开孔，两侧出风
+&#13;
+开孔，上出风
+&#13;
+不开孔，两侧出风
+&#13;
+7，机箱风扇
+&#13;
+25mm的还是15mm的比较好
+&#13;
+25mm
+&#13;
+8，背线空间
+&#13;
+20mm是否足够，定制线
+&#13;
+20mm背线空间
+&#13;
+9，脚垫
+&#13;
+怎样的好看？
+&#13;
+成品电镀脚垫
+&#13;
+3D打印有细节的脚垫
+&#13;
+悬浮效果大垫板
+&#13;
+和面对称的饰板
+&#13;
+平整饰板，仅仅用于隐藏螺丝和减少表面处理
+&#13;
+10，风扇设置
+&#13;
+前
+&#13;
+120x2+80x2/80x1 或 100x3 或 140x2？
+&#13;
+后
+&#13;
+无 或 100x1 或80x2？
+&#13;
+上
+&#13;
+120x2
+&#13;
+前14025x2，后120x25
+&#13;
+设计方案：
+&#13;
+方案6：V0.2（update0702）
+&#13;
+时间飞逝，差不多过去一个月了
+&#13;
+已经试做了两版，浮现了很多问题也fixed很多问题
+&#13;
+还有很多问题需要fix
+&#13;
+V0.1：
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png
+&#13;
+V0.2
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png
+&#13;
+与mATX和ATX比较
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png
+&#13;
+现在机箱背面都是简略设计，这个部件是做什么用的？
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb50bQ.png
+&#13;
+ongoing：
+&#13;
+预计学习define 7 compact的做法，前两侧进气，顶出风
+&#13;
+顶板不可更换，前板不可开启，IO放前面板顶部剧中朝前
+&#13;
+方案5：（update0609）
+&#13;
+深360mm，高306mm，宽200mm
+&#13;
+合计22.032L
+&#13;
+削减3D打印件，增加饰板，减少外露螺丝
+&#13;
+https://s1.ax1x.com/2020/06/09/tICRm9.png
+&#13;
+方案4：
+&#13;
+深320mm，高370，宽200mm
+&#13;
+合计23.68L
+&#13;
+在渣宝咨询过了，单背板130RMB估算下
+&#13;
+所有金属件原色780
+&#13;
+3D打印件400
+&#13;
+其它杂七杂八100
+&#13;
+合计1300了
+&#13;
+不用装饰板，前面八颗螺丝
+&#13;
+顶上八颗螺丝
+&#13;
+两侧各20颗螺丝
+&#13;
+如果加上面和前部饰板，预算增加240
+&#13;
+上前无螺丝，两侧各八颗螺丝
+&#13;
+https://s1.ax1x.com/2020/06/08/thmZZQ.png
+&#13;
+方案3：
+&#13;
+深300mm，高440mm，宽200mm
+&#13;
+合计26.4L
+&#13;
+电源ATX任意长度，4 3.5HDD，160mm塔，20mm背线，27cm显卡，短风道，前140x2后120x1，上可加两风扇，下可加一风扇
+&#13;
+如果后板改单层，前饰板不要
+&#13;
+深270mm，高420mm，宽200mm
+&#13;
+合计22.68L
+&#13;
+就是感觉440mm太高了！
+&#13;
+https://s1.ax1x.com/2020/06/07/tRwtDs.png
+&#13;
+方案2：
+&#13;
+宽183，高360mm，深290mm
+&#13;
+散热高139mm，背线24mm，显卡长275mm
+&#13;
+https://s1.ax1x.com/2020/06/07/t2TiuR.png
+&#13;
+方案1：
+&#13;
+宽194mm，高380mm（不含脚垫），深317mm
+&#13;
+散热高153mm，背线20mm，显卡长259mm
+&#13;
+https://s1.ax1x.com/2020/06/07/t2HAfO.png</description>
+      <content:encoded><![CDATA[<p><b>thegodra: </b><br>
+<span>song_yl93 发表于 2020-6-8 07:14</span><br>
+<span>随口喷一句现在做小箱子的不做侧透能死嘛</span><br>
+<span>不做测透可以把背线空间省了，节约18-20mm宽度</span><br>
+</p><p><b>kvll32: </b><br>
+<span>thegodra 发表于 2020-6-9 14:28</span><br>
+<span>有听说，但还没见实物卖</span><br>
+<span>华擎的产品已经出了，Z490 Phantom Gaming 4SR</span><br>
+<span>电源是海韵家的</span><br>
+</p><p><b>czgasd: </b><br>
+<span>看了下，lz你方案五没什么意思啊，不就是银欣PS15B切掉顶风扇嘛，但一丢丢高度没什么所谓啊</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>既然是DIY那么我强烈建议弄个垂直风的FT05 MATX版</span><br>
+</p><p><b>kvll32: </b><br>
+<span>你好，有的</span><br>
+</p><p><b>thegodra: </b><br>
+<span>kvll32 发表于 2020-6-9 22:49</span><br>
+<span>华擎的产品已经出了，Z490 Phantom Gaming 4SR</span><br>
+<span>电源是海韵家的</span><br>
+<span>等降到中端价格再说吧</span><br>
+</p><p><b>thegodra: </b><br>
+<span>czgasd 发表于 2020-6-11 21:41</span><br>
+<span>看了下，lz你方案五没什么意思啊，不就是银欣PS15B切掉顶风扇嘛，但一丢丢高度没什么所谓啊 ...</span><br>
+<span>就是很普通，银欣做工好我就不做来玩了</span><br>
+<span>FD的define7 compact似乎不错，但是没太多情报</span><br>
+<span>另外我目前喜欢纯平前面板</span><br>
+</p><p><b>thegodra: </b><br>
+<span>Realplayer 发表于 2020-6-11 23:54</span><br>
+<span>既然是DIY那么我强烈建议弄个垂直风的FT05 MATX版</span><br>
+<span>转90度就是了</span><br>
+<span>我有想法做一个FT03的半开放板</span><br>
+<span>但要看我近期预算是否足够上ITX+SFX平台</span><br>
+</p><p><b>thegodra: </b><br>
+<span>时间飞逝，差不多过去一个月了</span><br>
+<span>已经试做了两版，浮现了很多问题也fixed很多问题</span><br>
+<span>还有很多问题需要fix</span><br>
+<span>V0.1：</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png"><br>
+<span>V0.2</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png"><br>
+<span>与mATX和ATX比较</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png"><br>
+<span>现在机箱背面都是简略设计，这个部件是做什么用的？</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb50bQ.png" title="https://s1.ax1x.com/2020/07/02/Nb50bQ.png"><br>
+<span>ongoing：</span><br>
+<span>预计学习define 7 compact的做法，前两侧进气，顶出风</span><br>
+<span>顶板不可更换，前板不可开启，IO放前面板顶部剧中朝前</span><br>
+</p><p><b>yirs: </b><br>
+<span>thegodra 发表于 2020-7-2 15:07</span><br>
+<span>时间飞逝，差不多过去一个月了</span><br>
+<span>已经试做了两版，浮现了很多问题也fixed很多问题</span><br>
+<span>还有很多问题需要fix</span><br>
+<span>最后那个应该是用来固定pci设备的</span><br>
+</p><p><b>czgasd: </b><br>
+<span>好奇lz花了多少？另外，电源往左侧板方向挪挪，把atx的孔位加上？lz你pcie设备不上螺丝么</span><br>
+</p><p><b>暗铁: </b><br>
+<span>Pci槽要有地方上螺丝，有IO区内凹和pci区突出一块铁皮的不同做法</span><br>
+<img src="https://img.expreview.com/review/2020/02/MB400L/DSC_5278.jpg" title="https://img.expreview.com/review/2020/02/MB400L/DSC_5278.jpg"><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1939818[50-100]</guid>
+    </item>
+    <item>
+      <title>在设计一个MATX机箱玩，大家来做产品经理吧 update0702[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1939818-1-1.html</link>
+      <description>在设计一个MATX机箱玩，大家来做产品经理吧 update0702&#13;
+ 本帖最后由 thegodra 于 2020-7-2 15:24 编辑 
+
+如题，
+&#13;
+兼听则明，大家都是产品经理。
+&#13;
+设计目标：
+&#13;
+MATX，4槽
+&#13;
+中端U和显卡平台
+&#13;
+风冷，兼容便宜大碗的塔式散热器
+&#13;
+外观平整
+&#13;
+左右侧透或者不测透
+&#13;
+深度优先，减少体积
+&#13;
+（限于工艺价格，手工钣金，配合必要的3D打印/CNC件，内0.8-1mm铁板白烤漆，2mm铝板原色）
+&#13;
+设计事项：（有些地方我想了好几个方案，但是没有定论）
+&#13;
+1，前置IO方向
+&#13;
+朝上，放桌下用，落灰，加盖子
+&#13;
+朝前，放桌面或者脚下用，前脸四个角落，是否要做成麻将牌，还是直接开孔
+&#13;
+做成弹出式的
+&#13;
+预留几个孔？USB3x2 USB2x2 TypeC如果有的话 音频x2 重启 开机（9个）
+&#13;
+朝前，不要TypeC，麻将牌修饰
+&#13;
+2，显卡预留长度
+&#13;
+多少比较好，中端的吧，两个风扇那种
+&#13;
+1660S，250mm长度，额外预留10mm空间
+&#13;
+3，PSU
+&#13;
+ATX电源实在太大了
+&#13;
+考虑用SFX和SFX-L，但是价格会上升很多
+&#13;
+TFX的又没有全模组的
+&#13;
+FLEX的，可以考虑两个并联，但是4cm风扇的噪音……
+&#13;
+极端一些可以考虑ATX电源拆掉外壳缩小体积
+&#13;
+SFX或者SFX-L
+&#13;
+4，提手
+&#13;
+没个提手很不方便，即便时偶尔移动一下
+&#13;
+依照中心，中间横置或者置提手会比较好
+&#13;
+做成隐藏式，或者升降式？
+&#13;
+或者像苹果那样前后一个
+&#13;
+安钛克那样左右长条
+&#13;
+或者某些品牌机那样后面上部一个隐藏式的
+&#13;
+无提手
+&#13;
+5，前脸
+&#13;
+前脸两侧进气
+&#13;
+前脸面板内缩，周围一圈进气，可以藏前置IO
+&#13;
+网格面板
+&#13;
+如果两侧进气，深度要加多10~15mm
+&#13;
+5.1，前脸与顶盖接缝
+&#13;
+直接看到
+&#13;
+加3D打印饰条
+&#13;
+隐藏到上面（上面可以看到）
+&#13;
+不接缝（会贵）
+&#13;
+增大接缝，藏前置IO
+&#13;
+6，顶盖
+&#13;
+不开孔，两侧出风
+&#13;
+开孔，上出风
+&#13;
+不开孔，两侧出风
+&#13;
+7，机箱风扇
+&#13;
+25mm的还是15mm的比较好
+&#13;
+25mm
+&#13;
+8，背线空间
+&#13;
+20mm是否足够，定制线
+&#13;
+20mm背线空间
+&#13;
+9，脚垫
+&#13;
+怎样的好看？
+&#13;
+成品电镀脚垫
+&#13;
+3D打印有细节的脚垫
+&#13;
+悬浮效果大垫板
+&#13;
+和面对称的饰板
+&#13;
+平整饰板，仅仅用于隐藏螺丝和减少表面处理
+&#13;
+10，风扇设置
+&#13;
+前
+&#13;
+120x2+80x2/80x1 或 100x3 或 140x2？
+&#13;
+后
+&#13;
+无 或 100x1 或80x2？
+&#13;
+上
+&#13;
+120x2
+&#13;
+前14025x2，后120x25
+&#13;
+设计方案：
+&#13;
+方案6：V0.2（update0702）
+&#13;
+时间飞逝，差不多过去一个月了
+&#13;
+已经试做了两版，浮现了很多问题也fixed很多问题
+&#13;
+还有很多问题需要fix
+&#13;
+V0.1：
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png
+&#13;
+V0.2
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png
+&#13;
+与mATX和ATX比较
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png
+&#13;
+现在机箱背面都是简略设计，这个部件是做什么用的？
+&#13;
+https://s1.ax1x.com/2020/07/02/Nb50bQ.png
+&#13;
+ongoing：
+&#13;
+预计学习define 7 compact的做法，前两侧进气，顶出风
+&#13;
+顶板不可更换，前板不可开启，IO放前面板顶部剧中朝前
+&#13;
+方案5：（update0609）
+&#13;
+深360mm，高306mm，宽200mm
+&#13;
+合计22.032L
+&#13;
+削减3D打印件，增加饰板，减少外露螺丝
+&#13;
+https://s1.ax1x.com/2020/06/09/tICRm9.png
+&#13;
+方案4：
+&#13;
+深320mm，高370，宽200mm
+&#13;
+合计23.68L
+&#13;
+在渣宝咨询过了，单背板130RMB估算下
+&#13;
+所有金属件原色780
+&#13;
+3D打印件400
+&#13;
+其它杂七杂八100
+&#13;
+合计1300了
+&#13;
+不用装饰板，前面八颗螺丝
+&#13;
+顶上八颗螺丝
+&#13;
+两侧各20颗螺丝
+&#13;
+如果加上面和前部饰板，预算增加240
+&#13;
+上前无螺丝，两侧各八颗螺丝
+&#13;
+https://s1.ax1x.com/2020/06/08/thmZZQ.png
+&#13;
+方案3：
+&#13;
+深300mm，高440mm，宽200mm
+&#13;
+合计26.4L
+&#13;
+电源ATX任意长度，4 3.5HDD，160mm塔，20mm背线，27cm显卡，短风道，前140x2后120x1，上可加两风扇，下可加一风扇
+&#13;
+如果后板改单层，前饰板不要
+&#13;
+深270mm，高420mm，宽200mm
+&#13;
+合计22.68L
+&#13;
+就是感觉440mm太高了！
+&#13;
+https://s1.ax1x.com/2020/06/07/tRwtDs.png
+&#13;
+方案2：
+&#13;
+宽183，高360mm，深290mm
+&#13;
+散热高139mm，背线24mm，显卡长275mm
+&#13;
+https://s1.ax1x.com/2020/06/07/t2TiuR.png
+&#13;
+方案1：
+&#13;
+宽194mm，高380mm（不含脚垫），深317mm
+&#13;
+散热高153mm，背线20mm，显卡长259mm
+&#13;
+https://s1.ax1x.com/2020/06/07/t2HAfO.png</description>
+      <content:encoded><![CDATA[<p><b>thegodra: </b><br>
+<span>在设计一个MATX机箱玩，大家来做产品经理吧 update0702</span><br>
+<span> 本帖最后由 thegodra 于 2020-7-2 15:24 编辑 </span><br>
+<span>如题，</span><br>
+<span>兼听则明，大家都是产品经理。</span><br>
+<span>设计目标：</span><br>
+<span>MATX，4槽</span><br>
+<span>中端U和显卡平台</span><br>
+<span>风冷，兼容便宜大碗的塔式散热器</span><br>
+<span>外观平整</span><br>
+<span>左右侧透或者不测透</span><br>
+<span>深度优先，减少体积</span><br>
+<span>（限于工艺价格，手工钣金，配合必要的3D打印/CNC件，内0.8-1mm铁板白烤漆，2mm铝板原色）</span><br>
+<span>设计事项：（有些地方我想了好几个方案，但是没有定论）</span><br>
+<span>1，前置IO方向</span><br>
+<span>朝上，放桌下用，落灰，加盖子</span><br>
+<span>朝前，放桌面或者脚下用，前脸四个角落，是否要做成麻将牌，还是直接开孔</span><br>
+<span>做成弹出式的</span><br>
+<span>预留几个孔？USB3x2 USB2x2 TypeC如果有的话 音频x2 重启 开机（9个）</span><br>
+<span>朝前，不要TypeC，麻将牌修饰</span><br>
+<span>2，显卡预留长度</span><br>
+<span>多少比较好，中端的吧，两个风扇那种</span><br>
+<span>1660S，250mm长度，额外预留10mm空间</span><br>
+<span>3，PSU</span><br>
+<span>ATX电源实在太大了</span><br>
+<span>考虑用SFX和SFX-L，但是价格会上升很多</span><br>
+<span>TFX的又没有全模组的</span><br>
+<span>FLEX的，可以考虑两个并联，但是4cm风扇的噪音……</span><br>
+<span>极端一些可以考虑ATX电源拆掉外壳缩小体积</span><br>
+<span>SFX或者SFX-L</span><br>
+<span>4，提手</span><br>
+<span>没个提手很不方便，即便时偶尔移动一下</span><br>
+<span>依照中心，中间横置或者置提手会比较好</span><br>
+<span>做成隐藏式，或者升降式？</span><br>
+<span>或者像苹果那样前后一个</span><br>
+<span>安钛克那样左右长条</span><br>
+<span>或者某些品牌机那样后面上部一个隐藏式的</span><br>
+<span>无提手</span><br>
+<span>5，前脸</span><br>
+<span>前脸两侧进气</span><br>
+<span>前脸面板内缩，周围一圈进气，可以藏前置IO</span><br>
+<span>网格面板</span><br>
+<span>如果两侧进气，深度要加多10~15mm</span><br>
+<span>5.1，前脸与顶盖接缝</span><br>
+<span>直接看到</span><br>
+<span>加3D打印饰条</span><br>
+<span>隐藏到上面（上面可以看到）</span><br>
+<span>不接缝（会贵）</span><br>
+<span>增大接缝，藏前置IO</span><br>
+<span>6，顶盖</span><br>
+<span>不开孔，两侧出风</span><br>
+<span>开孔，上出风</span><br>
+<span>不开孔，两侧出风</span><br>
+<span>7，机箱风扇</span><br>
+<span>25mm的还是15mm的比较好</span><br>
+<span>25mm</span><br>
+<span>8，背线空间</span><br>
+<span>20mm是否足够，定制线</span><br>
+<span>20mm背线空间</span><br>
+<span>9，脚垫</span><br>
+<span>怎样的好看？</span><br>
+<span>成品电镀脚垫</span><br>
+<span>3D打印有细节的脚垫</span><br>
+<span>悬浮效果大垫板</span><br>
+<span>和面对称的饰板</span><br>
+<span>平整饰板，仅仅用于隐藏螺丝和减少表面处理</span><br>
+<span>10，风扇设置</span><br>
+<span>前</span><br>
+<span>120x2+80x2/80x1 或 100x3 或 140x2？</span><br>
+<span>后</span><br>
+<span>无 或 100x1 或80x2？</span><br>
+<span>上</span><br>
+<span>120x2</span><br>
+<span>前14025x2，后120x25</span><br>
+<span>设计方案：</span><br>
+<span>方案6：V0.2（update0702）</span><br>
+<span>时间飞逝，差不多过去一个月了</span><br>
+<span>已经试做了两版，浮现了很多问题也fixed很多问题</span><br>
+<span>还有很多问题需要fix</span><br>
+<span>V0.1：</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5rUs.md.png"><br>
+<span>V0.2</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5s5n.md.png"><br>
+<span>与mATX和ATX比较</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png" title="https://s1.ax1x.com/2020/07/02/Nb5DEj.md.png"><br>
+<span>现在机箱背面都是简略设计，这个部件是做什么用的？</span><br>
+<img src="https://s1.ax1x.com/2020/07/02/Nb50bQ.png" title="https://s1.ax1x.com/2020/07/02/Nb50bQ.png"><br>
+<span>ongoing：</span><br>
+<span>预计学习define 7 compact的做法，前两侧进气，顶出风</span><br>
+<span>顶板不可更换，前板不可开启，IO放前面板顶部剧中朝前</span><br>
+<span>方案5：（update0609）</span><br>
+<span>深360mm，高306mm，宽200mm</span><br>
+<span>合计22.032L</span><br>
+<span>削减3D打印件，增加饰板，减少外露螺丝</span><br>
+<img src="https://s1.ax1x.com/2020/06/09/tICRm9.png" title="https://s1.ax1x.com/2020/06/09/tICRm9.png"><br>
+<span>方案4：</span><br>
+<span>深320mm，高370，宽200mm</span><br>
+<span>合计23.68L</span><br>
+<span>在渣宝咨询过了，单背板130RMB估算下</span><br>
+<span>所有金属件原色780</span><br>
+<span>3D打印件400</span><br>
+<span>其它杂七杂八100</span><br>
+<span>合计1300了</span><br>
+<span>不用装饰板，前面八颗螺丝</span><br>
+<span>顶上八颗螺丝</span><br>
+<span>两侧各20颗螺丝</span><br>
+<span>如果加上面和前部饰板，预算增加240</span><br>
+<span>上前无螺丝，两侧各八颗螺丝</span><br>
+<img src="https://s1.ax1x.com/2020/06/08/thmZZQ.png" title="https://s1.ax1x.com/2020/06/08/thmZZQ.png"><br>
+<span>方案3：</span><br>
+<span>深300mm，高440mm，宽200mm</span><br>
+<span>合计26.4L</span><br>
+<span>电源ATX任意长度，4 3.5HDD，160mm塔，20mm背线，27cm显卡，短风道，前140x2后120x1，上可加两风扇，下可加一风扇</span><br>
+<span>如果后板改单层，前饰板不要</span><br>
+<span>深270mm，高420mm，宽200mm</span><br>
+<span>合计22.68L</span><br>
+<span>就是感觉440mm太高了！</span><br>
+<img src="https://s1.ax1x.com/2020/06/07/tRwtDs.png" title="https://s1.ax1x.com/2020/06/07/tRwtDs.png"><br>
+<span>方案2：</span><br>
+<span>宽183，高360mm，深290mm</span><br>
+<span>散热高139mm，背线24mm，显卡长275mm</span><br>
+<img src="https://s1.ax1x.com/2020/06/07/t2TiuR.png" title="https://s1.ax1x.com/2020/06/07/t2TiuR.png"><br>
+<span>方案1：</span><br>
+<span>宽194mm，高380mm（不含脚垫），深317mm</span><br>
+<span>散热高153mm，背线20mm，显卡长259mm</span><br>
+<img src="https://s1.ax1x.com/2020/06/07/t2HAfO.png" title="https://s1.ax1x.com/2020/06/07/t2HAfO.png"><br>
+</p><p><b>史莱姆KING: </b><br>
+<span> 本帖最后由 史莱姆KING 于 2020-6-6 08:23 编辑 </span><br>
+<span>其实，我之前看的机械大师26这种的就不错，当然，我如果要买的话，选铝制带洞侧板和air带洞前面板</span><br>
+<span>如果是要设计，我感觉，基于它就行</span><br>
+<span>底部再多2cm，顶部2cm，前部2cm就好23333（感觉就是C26再稍微大一圈，Lsize- -）</span><br>
+<span>另，这个C26我看咸鱼二手的一个铝侧面板+air前面板的挂600到付，我挺心动，但是没下单的原因是————————我没有额外配件，相当于我得从头装一个整机了，价格就太高了（假如说我已经有好几个部件，比如主板U内存之类，我估计这价格我就入了）</span><br>
+</p><p><b>红叶: </b><br>
+<span>sfx跑得动中端卡</span><br>
+<span>----发送自 Lenovo Lenovo L78121,Android 9</span><br>
+</p><p><b>2stage: </b><br>
+<span>25mm风扇选择多</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>1，IO接口前置的好，然后你如果是定位中端，可能短期几年都不会有C口。带前置C口的主板基本都是高端系列了。不符合你的定位</span><br>
+<span>2，显卡预留长度，能满足公版卡就行了。C26就是卡这个长度来的。</span><br>
+<span>3，看你电源放哪，标准14CM长的ATX电源也不会很大，你如果摆放的当并不会太过影响体积，如果你的机箱定价是在中端500左右。那么最好是兼容ATX，这样给装机带来的成本优势是很大的。因为用3600配B450M的人配个SF600白金属实不合适</span><br>
+<span>4，提手这玩意你很难搞的，建议不要弄，或者是参考之前酷冷Q300L的那种做到前后角处。这样可以不占用顶部风扇位</span><br>
+<span>5，前脸最好是洞洞流，不然又要被喷闷罐了（看看乔思伯</span><br>
+<span>6，顶盖不出风其实对散热影响还是比较大的，进风效果远不如排风。</span><br>
+<span>7，尽量满足25.为此尺寸大上那么一两厘米完全无关紧要的，但是风扇选择余地上就大很多了。要静音要性能要RGB要价格都可以满足，薄扇可选余地太小了</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>如果CPU散热你考虑的是可以兼容小塔。比如利民银箭130，AK120MINI之类的。那就是135塔式。那么电源是肯定可以放下ATX的。这样散热效果和成本都能有效的降低，更加符合中端的定位</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>你可以多看看乔思伯的产品和金河田MATE。然后想怎么做差异化，需要满足啥不同的痛点这样子的。</span><br>
+<span>其实做MATX最主要是价格难做。你做低价拼不过大厂，像C26，那个价格，300块钱的做工。买了就有种上当的感觉。</span><br>
+<span>或者你看看DENG工作室那个。做个简化版，全铝CNC。如果价格能比他低那肯定也是有市场</span><br>
+</p><p><b>flymop: </b><br>
+<span> Abee AS Enclosure DX3</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>MATX结构里还有一种，先马米立方。散热极好。拓展性也不错了。可惜只有低端的，没有一款好看的高端款，TT20周年的那个看着差不多其实大挺多的。</span><br>
+</p><p><b>thegodra: </b><br>
+<span>史莱姆KING 发表于 2020-6-6 08:19</span><br>
+<span>其实，我之前看的机械大师26这种的就不错，当然，我如果要买的话，选铝制带洞侧板和air带洞前面板</span><br>
+<span>如果是 ...</span><br>
+<span>洞洞，不就约等于开放式</span><br>
+<span>C26，C34都看过，电源在前面，做出来太深了</span><br>
+</p><p><b>thegodra: </b><br>
+<span>红叶 发表于 2020-6-6 09:13</span><br>
+<span>sfx跑得动中端卡</span><br>
+<span>----发送自 Lenovo Lenovo L78121,Android 9</span><br>
+<span>great，THX</span><br>
+</p><p><b>thegodra: </b><br>
+<span>2stage 发表于 2020-6-6 09:25</span><br>
+<span>25mm风扇选择多</span><br>
+<span>— from OnePlus GM1917, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+<span>好</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-6 10:19</span><br>
+<span>1，IO接口前置的好，然后你如果是定位中端，可能短期几年都不会有C口。带前置C口的主板基本都是高端系列了 ...</span><br>
+<span>1，gotcha</span><br>
+<span>2，哪种涡轮的……话说现在中端显卡是哪种？</span><br>
+<span>3，新传统下置；我看了下放ATX，高度前板可以上三个12cm风扇；放SFX就只能两个12cm风扇再补个小的</span><br>
+<span>自己用，没有量产计划</span><br>
+<span>4，嗯，不搞了，昨晚想了下做成隐藏式的也麻烦，放二期吧</span><br>
+<span>5，特地加了上和前饰板，像银欣KL07B那种</span><br>
+<span>6，同上，或者上部简化成普通出风饰板</span><br>
+<span>7，gotcha</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-6 10:21</span><br>
+<span>如果CPU散热你考虑的是可以兼容小塔。比如利民银箭130，AK120MINI之类的。那就是135塔式。那么电源是肯定可 ...</span><br>
+<span>小塔太贵了，效果也不好</span><br>
+<span>我选择兼容百元单塔，155mm的高度</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-6 10:28</span><br>
+<span>你可以多看看乔思伯的产品和金河田MATE。然后想怎么做差异化，需要满足啥不同的痛点这样子的。</span><br>
+<span>其实做MATX ...</span><br>
+<span>破坏前脸我觉的难看</span><br>
+<span>主旨目标是，前后别那么深和一定程度静音防尘</span><br>
+<span>没有量产计划</span><br>
+<span>钣金开模会贵很多，但是可以做压凸之类的造型，家里没矿也没有认识的工厂，只能按照手工钣金的方式设计</span><br>
+<span>CNC那更是不可能，要是有钱座CNC，设计会容易超多的</span><br>
+</p><p><b>thegodra: </b><br>
+<span>flymop 发表于 2020-6-6 10:29</span><br>
+<span>Abee AS Enclosure DX3</span><br>
+<span>Abee 是妖孽，铆钉外露，怎么会有人看的入眼</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-6 10:31</span><br>
+<span>MATX结构里还有一种，先马米立方。散热极好。拓展性也不错了。可惜只有低端的，没有一款好看的高端款，TT20 ...</span><br>
+<span>左右太肥</span><br>
+<span>如果不是因为大部分显卡热管不适合垂直，</span><br>
+<span>不然我就仿FT03了</span><br>
+</p><p><b>MRhythm: </b><br>
+<span>个人心目中的几个备选方案</span><br>
+<span>SKTC Q3/Q5: </span><br>
+<span>共同特点是竖置电源, 硬件不缩水. Q5应该是支持ATX大板的最小的箱子之一了, 对散热和显卡的尺寸要求很宽松, 不闷罐; Q3更小但是对显卡的长度有要求. 这几个都提供背板走线, 比闷罐UMX强得多</span><br>
+<span>分形Node 202 slim</span><br>
+<span>这类其实有很多, 随便挑一款. 共同特点就是通过PCIE延长线水平放置显卡, 极大的降低了厚度. 缺点么也很明显, 直接跟ATX电源说拜拜了, 基本没有支持MATX主板和标准电源的, 全是ITX, 散热限制很大, 走线也麻烦. 至于闷罐问题受限于功率其实还好. 不太满足我的需求, 倒是很适合楼主.</span><br>
+<span>各种立方</span><br>
+<span>特点是横置主板, 宽度肯定是超了. 空间也很宽裕, 基本只需要关注显卡是否放得下, 硬盘更是随便放. 除了超宽超重之外没有太多缺点.</span><br>
+</p><p><b>fanisy: </b><br>
+<span>MG410是我理想中的MATX的机箱了，可惜只有侧透版。</span><br>
+<span>大小合适，不会过于追求小体积，易于更换配件</span><br>
+<span>前后进风，风道好，防尘好</span><br>
+<span>背线空间充足</span><br>
+<span>侧面IO</span><br>
+<span>电源下置，稳</span><br>
+<span>然而侧透毁了这一切！</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>NODE202正在使用。主板这边没有地方放风扇。57mm以下的下压都不会太强。不过配到96KF和3600应该是没问题的。其实不折腾这个算是很完善的机箱了。价格在活动的时候还是很划算的</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-6 12:51</span><br>
+<span>NODE202正在使用。主板这边没有地方放风扇。57mm以下的下压都不会太强。不过配到96KF和3600应该是没问题的 ...</span><br>
+<span>之前在其它帖子里看到说202这种方式……散热会很不佳</span><br>
+<span>下吹的散热器按照常规印象会比塔式的差劲</span><br>
+<span>但是，便宜大碗的下吹有那些？</span><br>
+<span>可以仿照202，但是把电源转90，增加CPU风扇高度</span><br>
+<span>缩短显卡长度，反正我只需要中端显卡</span><br>
+</p><p><b>thegodra: </b><br>
+<span>MRhythm 发表于 2020-6-6 12:43</span><br>
+<span>个人心目中的几个备选方案</span><br>
+<span>SKTC Q3/Q5: </span><br>
+<span>倾向于高，但不要胖和肥</span><br>
+</p><p><b>lockoff0131: </b><br>
+<span>前脸和顶盖如果都是侧边出风，这箱子散热性能堪忧。</span><br>
+</p><p><b>董卓: </b><br>
+<span>希望FT03多产点倒是真的，占地大小太香</span><br>
+</p><p><b>StarForceTi: </b><br>
+<span> 本帖最后由 StarForceTi 于 2020-6-6 21:56 编辑 </span><br>
+<span>我是希望有个启航者s3的上位替代，cpu散热限高160+，s3前面封死太闷，有推荐的么</span><br>
+</p><p><b>thegodra: </b><br>
+<span>董卓 发表于 2020-6-6 19:45</span><br>
+<span>希望FT03多产点倒是真的，占地大小太香</span><br>
+<span>显卡（非公）垂直安装热管散热问题有定论了吗？</span><br>
+</p><p><b>serial: </b><br>
+<span>想请问一下，PCIE槽的位置是怎么确定的？哪里可以找到主板IO、PCIE槽的尺寸规范或者标准模型？</span><br>
+</p><p><b>serial: </b><br>
+<span>想请问一下，PCIE槽的位置是怎么确定的？哪里可以找到主板IO、PCIE槽的尺寸规范或者标准模型？</span><br>
+</p><p><b>thegodra: </b><br>
+<span>serial 发表于 2020-6-7 18:18</span><br>
+<span>想请问一下，PCIE槽的位置是怎么确定的？哪里可以找到主板IO、PCIE槽的尺寸规范或者标准模型？ ...</span><br>
+<span>ATX，mATX，ITX主板规范里面有</span><br>
+<span>也有其它网友的第三方资料</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2020-6-7 21:13 编辑 </span><br>
+<span>SFX靠谱的会贵很多。我觉得电源下置就行了。</span><br>
+<span>另外，我想留一个光驱位，留着口，默认不启用。还有，千万别侧透。</span><br>
+</p><p><b>董卓: </b><br>
+<span>thegodra 发表于 2020-6-7 18:11</span><br>
+<span>显卡（非公）垂直安装热管散热问题有定论了吗？</span><br>
+<span>有影响，10前乌鸦2刚出不久chiphell就有人测过了，好像3~5度</span><br>
+<span>但这并不影响占地小、四面干净好看的香的程度</span><br>
+</p><p><b>弦梦无音: </b><br>
+<span>感觉sg10的设计好23L,可以装165mm高塔+28cm显卡+atx电源+matx主板+2.5*2+3.5*2+光驱</span><br>
+</p><p><b>thegodra: </b><br>
+<span> 本帖最后由 thegodra 于 2020-6-7 23:17 编辑 </span><br>
+<span>弦梦无音 发表于 2020-6-7 22:40</span><br>
+<span>感觉sg10的设计好23L,可以装165mm高塔+28cm显卡+atx电源+matx主板+2.5*2+3.5*2+光驱</span><br>
+<span>看了下，真是塞得很实在……</span><br>
+<span>方案3</span><br>
+<span>深300mm，高440mm，宽200mm</span><br>
+<span>合计26.4L</span><br>
+<span>电源ATX任意长度，4 3.5HDD，160mm塔，20mm背线，27cm显卡，短风道，前140x2后120x1，上可加两风扇，下可加一风扇</span><br>
+<span>如果后板改单层，前饰板不要</span><br>
+<span>深270mm，高420mm，宽200mm</span><br>
+<span>合计22.68L</span><br>
+<span>就是感觉440mm太高了！</span><br>
+<img src="https://s1.ax1x.com/2020/06/07/tRwtDs.png" title="https://s1.ax1x.com/2020/06/07/tRwtDs.png"><br>
+<span>ATX电源真大，塔式散热真大，3.5HDD真大，显卡真长Orz，现在也没什么窄的mATX了</span><br>
+<span>光驱还有人用么？非要的话笔记本光驱就可以了吧</span><br>
+</p><p><b>玄冰漪: </b><br>
+<span> 本帖最后由 玄冰漪 于 2020-6-8 00:37 编辑 </span><br>
+<span>lz有没有看过风冷快乐盒，其实我觉得第二条pci槽位如果不用的话可以参考下那款，把电源放高点挡住下面的pcie槽位，然后风冷快乐盒的竖置显卡改成横置，不过这样子显卡的风就直接糊电源上面，估计对散热影响不好，但是竖置显卡的话只能支持13cm的小塔式散热</span><br>
+<span>我现在用这个机箱，然后拿amd原装散热压2600x感觉还不错</span><br>
+<span>对了，硬盘支持的话如果用fsx电源我觉得应该可以上两个，但是原设计是只支持atx电源，上两个硬盘会卡到一些电源线，如果上fsx电源的话这个问题应该可以解决</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>我觉得P180 MINI把那几个硬盘架去掉就是完美MATX机箱了</span><br>
+</p><p><b>elflie: </b><br>
+<span>我现在用的就是matx机箱，因为手上有个鑫谷矿电所以找遍淘宝只找到款亚克力机箱，还要三百来块钱，虽然能装进去但是安装过程是真的难受（亚克力厚度比金属厚，很多螺丝长度都不够）</span><br>
+</p><p><b>freeforever: </b><br>
+<span>便宜的话，**丝伯U3，或者那个鼻屎超人的K133，前者算是大厂了后者做了几年算是有点基础</span><br>
+<span>贵的话，不如各种ITX算了选择太多</span><br>
+</p><p><b>song_yl93: </b><br>
+<span>随口喷一句现在做小箱子的不做侧透能死嘛</span><br>
+</p><p><b>madbird302: </b><br>
+<span>song_yl93 发表于 2020-6-8 07:14</span><br>
+<span>随口喷一句现在做小箱子的不做侧透能死嘛</span><br>
+<span>基本都有非TG侧板可选吧</span><br>
+</p><p><b>thegodra: </b><br>
+<span>玄冰漪 发表于 2020-6-8 00:34</span><br>
+<span>lz有没有看过风冷快乐盒，其实我觉得第二条pci槽位如果不用的话可以参考下那款，把电源放高点挡住下面的pci ...</span><br>
+<span>了解过</span><br>
+<span>百元160mm塔式它不香吗~</span><br>
+<span>—— 来自 Xiaomi Redmi K30 5G, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>thegodra: </b><br>
+<span>elflie 发表于 2020-6-8 02:42</span><br>
+<span>我现在用的就是matx机箱，因为手上有个鑫谷矿电所以找遍淘宝只找到款亚克力机箱，还要三百来块钱，虽然能装 ...</span><br>
+<span>亚克力太软所以要厚</span><br>
+<span>—— 来自 Xiaomi Redmi K30 5G, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>thegodra: </b><br>
+<span>freeforever 发表于 2020-6-8 05:35</span><br>
+<span>便宜的话，**丝伯U3，或者那个鼻屎超人的K133，前者算是大厂了后者做了几年算是有点基础</span><br>
+<span>贵的话，不如各种 ...</span><br>
+<span>k133拿板材厚度避免钣金</span><br>
+<span>会有更多的螺丝外露</span><br>
+<span>量少必然贵，做一件就更不用说了</span><br>
+<span>—— 来自 Xiaomi Redmi K30 5G, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>thegodra 发表于 2020-6-6 17:13</span><br>
+<span>之前在其它帖子里看到说202这种方式……散热会很不佳</span><br>
+<span>下吹的散热器按照常规印象会比塔式的差劲</span><br>
+<span>如果真是这样的话确实还可以。下压可以用到AXP100+正常的12CM扇。顶部再加两个9CM排风。散热效能就不错了。压个3700X或者10700K应该都行。我现在是压96KF，超5G打游戏都没问题</span><br>
+</p><p><b>freeforever: </b><br>
+<span> 本帖最后由 freeforever 于 2020-6-8 19:28 编辑 </span><br>
+<span>thegodra 发表于 2020-6-8 09:02</span><br>
+<span>k133拿板材厚度避免钣金</span><br>
+<span>会有更多的螺丝外露</span><br>
+<span>所以ITX竞争再激烈还是一堆人做ITX，平台溢价高了机箱溢价就不明显</span><br>
+<span>MATX箱子就尴尬了，便宜就是这种螺丝拼的板材纯卖结构，贵的要和大型ITX打而且偏偏MATX板基本还都是丐。</span><br>
+<span>我建议与其考虑修改结构不如弄的奇葩点，什么主板屁股前置后背基本完全透风，L形转接显卡然后侧面板挖个大洞漏出显卡与侧板平行，再加点做旧工艺贴上巨大螺钉螺母加上内部全灯条，理线槽全部路过前面板直接赛博朋克风格，这下做出来彻底没竞品了，甚至能参加各种DIY机箱show</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AxeWu 发表于 2020-6-8 19:14</span><br>
+<span>如果真是这样的话确实还可以。下压可以用到AXP100+正常的12CM扇。顶部再加两个9CM排风。散热效能就不错了 ...</span><br>
+<span>AXP100+正常12cm风扇，待机和轻负载状况怎样？</span><br>
+<span>以202为基础，</span><br>
+<span>SFX电源转90度前进上出，增加宽度，缩减深度，顶部加大一些直径的风扇排风</span><br>
+<span>显卡空间对应缩短，多出来的深度空间藏HDD</span><br>
+</p><p><b>flymop: </b><br>
+<span>thegodra 发表于 2020-6-7 23:15</span><br>
+<span>看了下，真是塞得很实在……</span><br>
+<span>方案3</span><br>
+<span>你可以参考下TT CORE G3</span><br>
+</p><p><b>kvll32: </b><br>
+<span>马上就要12vo了，到时候电源机箱结构应该有升级</span><br>
+</p><p><b>dovahkiin: </b><br>
+<span>楼主要搞matx双卡吗？如果是的话我取取经</span><br>
+</p><p><b>thegodra: </b><br>
+<span>dovahkiin 发表于 2020-6-9 10:48</span><br>
+<span>楼主要搞matx双卡吗？如果是的话我取取经</span><br>
+<span>中端平台就不上双卡了吧</span><br>
+<span>上双卡要开5 PCIE槽，还要一点空间给下面显卡风扇，整体要加高不少</span><br>
+</p><p><b>thegodra: </b><br>
+<span>kvll32 发表于 2020-6-9 10:16</span><br>
+<span>马上就要12vo了，到时候电源机箱结构应该有升级</span><br>
+<span>有听说，但还没见实物卖</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1939818[0-50]</guid>
+    </item>
+  </channel>
+</rss>

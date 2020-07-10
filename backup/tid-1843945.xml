@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>还在复制黏贴？50行Python代码，教你获取公众号全部文章</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>还在复制黏贴？50行Python代码，教你获取公众号全部文章</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:19:15 +0000</lastBuildDate>
+    <item>
+      <title>还在复制黏贴？50行Python代码，教你获取公众号全部文章[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843945-1-1.html</link>
+      <description>还在复制黏贴？50行Python代码，教你获取公众号全部文章&#13;
+ 本帖最后由 神秘男子A 于 2019-7-3 11:56 编辑 
+
+http://blog.itpub.net/69923331/viewspace-2649168/
+&#13;
+原创 Python 某培训机构 唐小强 2019-07-01 11:09:18
+&#13;
+今天的Python入门学习教程 ，主要跟大家讲怎么获取公众号的全部文章！
+&#13;
+我们平时阅读公众号的文章会遇到一个问题——阅读历史文章体验不好。
+&#13;
+我们知道爬取公众号的方式常见的有两种：通过搜狗搜索去获取，缺点是只能获取最新的十条推送文章。通过微信公众号的素材管理，获取公众号文章。缺点是需要申请自己的公众号。
+&#13;
+今天介绍一种通过抓包PC端微信的方式去获取公众号文章的方法。相比其他的方法非常方便。
+&#13;
+如上图，通过抓包工具获取微信的网络信息请求，我们发现每次下拉刷新文章的时候都会请求 mp.weixin.qq.com/mp/xxx （公众号不让添加主页链接，xxx表示profile_ext） 这个接口。
+&#13;
+经过多次测试分析，用到了以下几个参数
+&#13;
+__biz : 用户和公众号之间的唯一id
+&#13;
+uin ：用户的私密id
+&#13;
+key ：请求的秘钥，一段时候只会就会失效
+&#13;
+offset ：偏移量
+&#13;
+count ：每次请求的条数
+&#13;
+数据如下
+&#13;
+{
+&#13;
+ "ret": 0,
+&#13;
+ "errmsg": "ok", # 请求状态
+&#13;
+ "msg_count": 10, # 信息条数
+&#13;
+ "can_msg_continue": 1, # 是否还可以继续获取，1代表可以。0代表不可以，也就是最后一页
+&#13;
+ "general_msg_list": "{"list":[]}", # 公众号文本信息
+&#13;
+ "next_offset": 20, 
+&#13;
+ "video_count": 1,
+&#13;
+ "use_video_tab": 1,
+&#13;
+ "real_type": 0,
+&#13;
+ "home_page_list": []
+&#13;
+}
+&#13;
+部分代码如下
+&#13;
+ params = {
+&#13;
+ '__biz': biz,
+&#13;
+ 'uin': uin,
+&#13;
+ 'key': key,
+&#13;
+ 'offset': offset,
+&#13;
+ 'count': count,
+&#13;
+ 'action': 'getmsg',
+&#13;
+ 'f': 'json'
+&#13;
+ }
+&#13;
+ headers = {
+&#13;
+ 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+&#13;
+ }
+&#13;
+ response = requests.get(url=url, params=params, headers=headers)
+&#13;
+ resp_json = response.json()
+&#13;
+ if resp_json.get('errmsg') == 'ok':
+&#13;
+ resp_json = response.json()
+&#13;
+ # 是否还有分页数据， 用于判断return的值
+&#13;
+ can_msg_continue = resp_json['can_msg_continue']
+&#13;
+ # 当前分页文章数
+&#13;
+ msg_count = resp_json['msg_count']
+&#13;
+ general_msg_list = json.loads(resp_json['general_msg_list'])
+&#13;
+ list = general_msg_list.get('list')
+&#13;
+ print(list, "**************")
+&#13;
+最后打印的list就是公众号的文章信息详情。包括标题(titile)、摘要(digest)、文章地址(content_url)、阅读原文地址(source_url)、封面图(cover)、作者(author)等等...
+&#13;
+输出结果如下：
+&#13;
+[{
+&#13;
+ "comm_msg_info": {
+&#13;
+ "id": 1000000038,
+&#13;
+ "type": 49,
+&#13;
+ "datetime": 1560474000,
+&#13;
+ "fakeid": "3881067844",
+&#13;
+ "status": 2,
+&#13;
+ "content": ""
+&#13;
+ },
+&#13;
+ "app_msg_ext_info": {
+&#13;
+ "title": "入门爬虫，这一篇就够了！！！",
+&#13;
+ "digest": "入门爬虫，这一篇就够了！！！",
+&#13;
+ "content": "",
+&#13;
+ "fileid": 0,
+&#13;
+ "content_url": "http:XXXXXX",
+&#13;
+ "source_url": "",
+&#13;
+ "cover": "I5kME6BVXeLibZDUhsiaEYiaX7zOoibxa9sb4stIwrfuqID5ttmiaoVAFyxKF6IjOCyl22vg8n2NPv98ibow\/0?wx_fmt=jpeg",
+&#13;
+ "subtype": 9,
+&#13;
+ "is_multi": 0,
+&#13;
+ "multi_app_msg_item_list": [],
+&#13;
+ "author": "Python3X",
+&#13;
+ "copyright_stat": 11,
+&#13;
+ "duration": 0,
+&#13;
+ "del_flag": 1,
+&#13;
+ "item_show_type": 0,
+&#13;
+ "audio_fileid": 0,
+&#13;
+ "play_url": "",
+&#13;
+ "malicious_title_reason_id": 0,
+&#13;
+ "malicious_content_type": 0
+&#13;
+ }
+&#13;
+},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
+&#13;
+获取数据之后，可以保存到数据库中，也可以将文章保存在PDF中。
+&#13;
+1、保存在Mongo中
+&#13;
+# Mongo配置
+&#13;
+conn = MongoClient('127.0.0.1', 27017)
+&#13;
+db = conn.wx #连接wx数据库，没有则自动创建
+&#13;
+mongo_wx = db.article #使用article集合，没有则自动创建
+&#13;
+for i in list:
+&#13;
+ app_msg_ext_info = i['app_msg_ext_info']
+&#13;
+ # 标题
+&#13;
+ title = app_msg_ext_info['title']
+&#13;
+ # 文章地址
+&#13;
+ content_url = app_msg_ext_info['content_url']
+&#13;
+ # 封面图
+&#13;
+ cover = app_msg_ext_info['cover']
+&#13;
+ # 发布时间
+&#13;
+ datetime = i['comm_msg_info']['datetime']
+&#13;
+ datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(datetime))
+&#13;
+ mongo_wx.insert({
+&#13;
+ 'title': title,
+&#13;
+ 'content_url': content_url,
+&#13;
+ 'cover': cover,
+&#13;
+ 'datetime': datetime
+&#13;
+ })
+&#13;
+结果如下
+&#13;
+2、导入到PDF文件中
+&#13;
+Python3中常用的操作PDF的库有python-pdf和pdfkit。我用了pdfkit这个模块导出pdf文件。
+&#13;
+pdfkit是工具包Wkhtmltopdf的封装类，因此需要安装Wkhtmltopdf才能使用。
+&#13;
+可以访问 https://wkhtmltopdf.org/downloads.html 下载和操作系统匹配的工具包。
+&#13;
+实现代码也比较简单，只需要传入导入文件的url即可。
+&#13;
+安装pdfkit库
+&#13;
+pip3 install pdfkit -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+&#13;
+import pdfkit
+&#13;
+pdfkit.from_url('公众号文章地址', 'out.pdf')
+&#13;
+运行之后成功导出pdf文件。
+&#13;
+完整代码
+&#13;
+import requests
+&#13;
+import json
+&#13;
+import time
+&#13;
+from pymongo import MongoClient
+&#13;
+url = 'http://mp.weixin.qq.com/mp/xxx'（公众号不让添加主页链接，xxx表示profile_ext)
+&#13;
+# Mongo配置
+&#13;
+conn = MongoClient('127.0.0.1', 27017)
+&#13;
+db = conn.wx #连接wx数据库，没有则自动创建
+&#13;
+mongo_wx = db.article #使用article集合，没有则自动创建
+&#13;
+def get_wx_article(biz, uin, key, index=0, count=10):
+&#13;
+ offset = (index + 1) * count
+&#13;
+ params = {
+&#13;
+ '__biz': biz,
+&#13;
+ 'uin': uin,
+&#13;
+ 'key': key,
+&#13;
+ 'offset': offset,
+&#13;
+ 'count': count,
+&#13;
+ 'action': 'getmsg',
+&#13;
+ 'f': 'json'
+&#13;
+ }
+&#13;
+ headers = {
+&#13;
+ 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
+&#13;
+ }
+&#13;
+ response = requests.get(url=url, params=params, headers=headers)
+&#13;
+ resp_json = response.json()
+&#13;
+ if resp_json.get('errmsg') == 'ok':
+&#13;
+ resp_json = response.json()
+&#13;
+ # 是否还有分页数据， 用于判断return的值
+&#13;
+ can_msg_continue = resp_json['can_msg_continue']
+&#13;
+ # 当前分页文章数
+&#13;
+ msg_count = resp_json['msg_count']
+&#13;
+ general_msg_list = json.loads(resp_json['general_msg_list'])
+&#13;
+ list = general_msg_list.get('list')
+&#13;
+ print(list, "**************")
+&#13;
+ for i in list:
+&#13;
+ app_msg_ext_info = i['app_msg_ext_info']
+&#13;
+ # 标题
+&#13;
+ title = app_msg_ext_info['title']
+&#13;
+ # 文章地址
+&#13;
+ content_url = app_msg_ext_info['content_url']
+&#13;
+ # 封面图
+&#13;
+ cover = app_msg_ext_info['cover']
+&#13;
+ # 发布时间
+&#13;
+ datetime = i['comm_msg_info']['datetime']
+&#13;
+ datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(datetime))
+&#13;
+ mongo_wx.insert({
+&#13;
+ 'title': title,
+&#13;
+ 'content_url': content_url,
+&#13;
+ 'cover': cover,
+&#13;
+ 'datetime': datetime
+&#13;
+ })
+&#13;
+ if can_msg_continue == 1:
+&#13;
+ return True
+&#13;
+ return False
+&#13;
+ else:
+&#13;
+ print('获取文章异常...')
+&#13;
+ return False
+&#13;
+if __name__ == '__main__':
+&#13;
+ biz = 'Mzg4MTA2Nzg0NA=='
+&#13;
+ uin = 'NDIyMTI5NDM1'
+&#13;
+ key = '20a680e825f03f1e7f38f326772e54e7dc0fd02ffba17e92730ba3f0a0329c5ed310b0bd55b3c0b1f122e5896c6261df2eaea4036ab5a5d32dbdbcb0a638f5f3605cf1821decf486bb6eb4d92d36c620'
+&#13;
+ index = 0
+&#13;
+ while 1:
+&#13;
+ print(f'开始抓取公众号第{index + 1} 页文章.')
+&#13;
+ flag = get_wx_article(biz, uin, key, index=index)
+&#13;
+ # 防止和谐，暂停8秒
+&#13;
+ time.sleep(8)
+&#13;
+ index += 1
+&#13;
+ if not flag:
+&#13;
+ print('公众号文章已全部抓取完毕，退出程序.')
+&#13;
+ break
+&#13;
+ print(f'..........准备抓取公众号第{index + 1} 页文章.')</description>
+      <content:encoded><![CDATA[<p><b>神秘男子A: </b><br>
+<span>还在复制黏贴？50行Python代码，教你获取公众号全部文章</span><br>
+<span> 本帖最后由 神秘男子A 于 2019-7-3 11:56 编辑 </span><br>
+<span>http://blog.itpub.net/69923331/viewspace-2649168/</span><br>
+<span>原创 Python 某培训机构 唐小强 2019-07-01 11:09:18</span><br>
+<span>今天的Python入门学习教程 ，主要跟大家讲怎么获取公众号的全部文章！</span><br>
+<span>我们平时阅读公众号的文章会遇到一个问题——阅读历史文章体验不好。</span><br>
+<span>我们知道爬取公众号的方式常见的有两种：通过搜狗搜索去获取，缺点是只能获取最新的十条推送文章。通过微信公众号的素材管理，获取公众号文章。缺点是需要申请自己的公众号。</span><br>
+<span>今天介绍一种通过抓包PC端微信的方式去获取公众号文章的方法。相比其他的方法非常方便。</span><br>
+<span>如上图，通过抓包工具获取微信的网络信息请求，我们发现每次下拉刷新文章的时候都会请求 mp.weixin.qq.com/mp/xxx （公众号不让添加主页链接，xxx表示profile_ext） 这个接口。</span><br>
+<span>经过多次测试分析，用到了以下几个参数</span><br>
+<span>__biz : 用户和公众号之间的唯一id</span><br>
+<span>uin ：用户的私密id</span><br>
+<span>key ：请求的秘钥，一段时候只会就会失效</span><br>
+<span>offset ：偏移量</span><br>
+<span>count ：每次请求的条数</span><br>
+<span>数据如下</span><br>
+<span>{</span><br>
+<span> "ret": 0,</span><br>
+<span> "errmsg": "ok", # 请求状态</span><br>
+<span> "msg_count": 10, # 信息条数</span><br>
+<span> "can_msg_continue": 1, # 是否还可以继续获取，1代表可以。0代表不可以，也就是最后一页</span><br>
+<span> "general_msg_list": "{"list":[]}", # 公众号文本信息</span><br>
+<span> "next_offset": 20, </span><br>
+<span> "video_count": 1,</span><br>
+<span> "use_video_tab": 1,</span><br>
+<span> "real_type": 0,</span><br>
+<span> "home_page_list": []</span><br>
+<span>}</span><br>
+<span>部分代码如下</span><br>
+<span> params = {</span><br>
+<span> '__biz': biz,</span><br>
+<span> 'uin': uin,</span><br>
+<span> 'key': key,</span><br>
+<span> 'offset': offset,</span><br>
+<span> 'count': count,</span><br>
+<span> 'action': 'getmsg',</span><br>
+<span> 'f': 'json'</span><br>
+<span> }</span><br>
+<span> headers = {</span><br>
+<span> 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'</span><br>
+<span> }</span><br>
+<span> response = requests.get(url=url, params=params, headers=headers)</span><br>
+<span> resp_json = response.json()</span><br>
+<span> if resp_json.get('errmsg') == 'ok':</span><br>
+<span> resp_json = response.json()</span><br>
+<span> # 是否还有分页数据， 用于判断return的值</span><br>
+<span> can_msg_continue = resp_json['can_msg_continue']</span><br>
+<span> # 当前分页文章数</span><br>
+<span> msg_count = resp_json['msg_count']</span><br>
+<span> general_msg_list = json.loads(resp_json['general_msg_list'])</span><br>
+<span> list = general_msg_list.get('list')</span><br>
+<span> print(list, "**************")</span><br>
+<span>最后打印的list就是公众号的文章信息详情。包括标题(titile)、摘要(digest)、文章地址(content_url)、阅读原文地址(source_url)、封面图(cover)、作者(author)等等...</span><br>
+<span>输出结果如下：</span><br>
+<span>[{</span><br>
+<span> "comm_msg_info": {</span><br>
+<span> "id": 1000000038,</span><br>
+<span> "type": 49,</span><br>
+<span> "datetime": 1560474000,</span><br>
+<span> "fakeid": "3881067844",</span><br>
+<span> "status": 2,</span><br>
+<span> "content": ""</span><br>
+<span> },</span><br>
+<span> "app_msg_ext_info": {</span><br>
+<span> "title": "入门爬虫，这一篇就够了！！！",</span><br>
+<span> "digest": "入门爬虫，这一篇就够了！！！",</span><br>
+<span> "content": "",</span><br>
+<span> "fileid": 0,</span><br>
+<span> "content_url": "http:XXXXXX",</span><br>
+<span> "source_url": "",</span><br>
+<span> "cover": "I5kME6BVXeLibZDUhsiaEYiaX7zOoibxa9sb4stIwrfuqID5ttmiaoVAFyxKF6IjOCyl22vg8n2NPv98ibow\/0?wx_fmt=jpeg",</span><br>
+<span> "subtype": 9,</span><br>
+<span> "is_multi": 0,</span><br>
+<span> "multi_app_msg_item_list": [],</span><br>
+<span> "author": "Python3X",</span><br>
+<span> "copyright_stat": 11,</span><br>
+<span> "duration": 0,</span><br>
+<span> "del_flag": 1,</span><br>
+<span> "item_show_type": 0,</span><br>
+<span> "audio_fileid": 0,</span><br>
+<span> "play_url": "",</span><br>
+<span> "malicious_title_reason_id": 0,</span><br>
+<span> "malicious_content_type": 0</span><br>
+<span> }</span><br>
+<span>},{...},{...},{...},{...},{...},{...},{...},{...},{...}]</span><br>
+<span>获取数据之后，可以保存到数据库中，也可以将文章保存在PDF中。</span><br>
+<span>1、保存在Mongo中</span><br>
+<span># Mongo配置</span><br>
+<span>conn = MongoClient('127.0.0.1', 27017)</span><br>
+<span>db = conn.wx #连接wx数据库，没有则自动创建</span><br>
+<span>mongo_wx = db.article #使用article集合，没有则自动创建</span><br>
+<span>for i in list:</span><br>
+<span> app_msg_ext_info = i['app_msg_ext_info']</span><br>
+<span> # 标题</span><br>
+<span> title = app_msg_ext_info['title']</span><br>
+<span> # 文章地址</span><br>
+<span> content_url = app_msg_ext_info['content_url']</span><br>
+<span> # 封面图</span><br>
+<span> cover = app_msg_ext_info['cover']</span><br>
+<span> # 发布时间</span><br>
+<span> datetime = i['comm_msg_info']['datetime']</span><br>
+<span> datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(datetime))</span><br>
+<span> mongo_wx.insert({</span><br>
+<span> 'title': title,</span><br>
+<span> 'content_url': content_url,</span><br>
+<span> 'cover': cover,</span><br>
+<span> 'datetime': datetime</span><br>
+<span> })</span><br>
+<span>结果如下</span><br>
+<span>2、导入到PDF文件中</span><br>
+<span>Python3中常用的操作PDF的库有python-pdf和pdfkit。我用了pdfkit这个模块导出pdf文件。</span><br>
+<span>pdfkit是工具包Wkhtmltopdf的封装类，因此需要安装Wkhtmltopdf才能使用。</span><br>
+<span>可以访问 https://wkhtmltopdf.org/downloads.html 下载和操作系统匹配的工具包。</span><br>
+<span>实现代码也比较简单，只需要传入导入文件的url即可。</span><br>
+<span>安装pdfkit库</span><br>
+<span>pip3 install pdfkit -i http://pypi.douban.com/simple --trusted-host pypi.douban.com</span><br>
+<span>import pdfkit</span><br>
+<span>pdfkit.from_url('公众号文章地址', 'out.pdf')</span><br>
+<span>运行之后成功导出pdf文件。</span><br>
+<span>完整代码</span><br>
+<span>import requests</span><br>
+<span>import json</span><br>
+<span>import time</span><br>
+<span>from pymongo import MongoClient</span><br>
+<span>url = 'http://mp.weixin.qq.com/mp/xxx'（公众号不让添加主页链接，xxx表示profile_ext)</span><br>
+<span># Mongo配置</span><br>
+<span>conn = MongoClient('127.0.0.1', 27017)</span><br>
+<span>db = conn.wx #连接wx数据库，没有则自动创建</span><br>
+<span>mongo_wx = db.article #使用article集合，没有则自动创建</span><br>
+<span>def get_wx_article(biz, uin, key, index=0, count=10):</span><br>
+<span> offset = (index + 1) * count</span><br>
+<span> params = {</span><br>
+<span> '__biz': biz,</span><br>
+<span> 'uin': uin,</span><br>
+<span> 'key': key,</span><br>
+<span> 'offset': offset,</span><br>
+<span> 'count': count,</span><br>
+<span> 'action': 'getmsg',</span><br>
+<span> 'f': 'json'</span><br>
+<span> }</span><br>
+<span> headers = {</span><br>
+<span> 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'</span><br>
+<span> }</span><br>
+<span> response = requests.get(url=url, params=params, headers=headers)</span><br>
+<span> resp_json = response.json()</span><br>
+<span> if resp_json.get('errmsg') == 'ok':</span><br>
+<span> resp_json = response.json()</span><br>
+<span> # 是否还有分页数据， 用于判断return的值</span><br>
+<span> can_msg_continue = resp_json['can_msg_continue']</span><br>
+<span> # 当前分页文章数</span><br>
+<span> msg_count = resp_json['msg_count']</span><br>
+<span> general_msg_list = json.loads(resp_json['general_msg_list'])</span><br>
+<span> list = general_msg_list.get('list')</span><br>
+<span> print(list, "**************")</span><br>
+<span> for i in list:</span><br>
+<span> app_msg_ext_info = i['app_msg_ext_info']</span><br>
+<span> # 标题</span><br>
+<span> title = app_msg_ext_info['title']</span><br>
+<span> # 文章地址</span><br>
+<span> content_url = app_msg_ext_info['content_url']</span><br>
+<span> # 封面图</span><br>
+<span> cover = app_msg_ext_info['cover']</span><br>
+<span> # 发布时间</span><br>
+<span> datetime = i['comm_msg_info']['datetime']</span><br>
+<span> datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(datetime))</span><br>
+<span> mongo_wx.insert({</span><br>
+<span> 'title': title,</span><br>
+<span> 'content_url': content_url,</span><br>
+<span> 'cover': cover,</span><br>
+<span> 'datetime': datetime</span><br>
+<span> })</span><br>
+<span> if can_msg_continue == 1:</span><br>
+<span> return True</span><br>
+<span> return False</span><br>
+<span> else:</span><br>
+<span> print('获取文章异常...')</span><br>
+<span> return False</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span> biz = 'Mzg4MTA2Nzg0NA=='</span><br>
+<span> uin = 'NDIyMTI5NDM1'</span><br>
+<span> key = '20a680e825f03f1e7f38f326772e54e7dc0fd02ffba17e92730ba3f0a0329c5ed310b0bd55b3c0b1f122e5896c6261df2eaea4036ab5a5d32dbdbcb0a638f5f3605cf1821decf486bb6eb4d92d36c620'</span><br>
+<span> index = 0</span><br>
+<span> while 1:</span><br>
+<span> print(f'开始抓取公众号第{index + 1} 页文章.')</span><br>
+<span> flag = get_wx_article(biz, uin, key, index=index)</span><br>
+<span> # 防止和谐，暂停8秒</span><br>
+<span> time.sleep(8)</span><br>
+<span> index += 1</span><br>
+<span> if not flag:</span><br>
+<span> print('公众号文章已全部抓取完毕，退出程序.')</span><br>
+<span> break</span><br>
+<span> print(f'..........准备抓取公众号第{index + 1} 页文章.')</span><br>
+</p><p><b>炽十二翼: </b><br>
+<span>贴个python代码连缩进都没有这是拉屎不带纸啊</span><br>
+</p><p><b>Prushka: </b><br>
+<span>我知道你想召唤谁@CAMUS.net </span><br>
+</p><p><b>uswhzh: </b><br>
+<span>炽十二翼 发表于 2019-7-3 11:09</span><br>
+<span>贴个python代码连缩进都没有这是拉屎不带纸啊</span><br>
+<span>是;号，全改成全角了。</span><br>
+</p><p><b>焚梏: </b><br>
+<span>神秘男子A 发表于 2019-7-3 11:07</span><br>
+<span>http://blog.itpub.net/69923331/viewspace-2649168/</span><br>
+<span>原创 Python 千锋Python唐小强 2019-07-01 11:09:18</span><br>
+<span>千峰培训机构。。最近多个论坛社区常看到</span><br>
+</p><p><b>神秘男子A: </b><br>
+<span>焚梏 发表于 2019-7-3 11:46</span><br>
+<span>千峰培训机构。。最近多个论坛社区常看到</span><br>
+<span>千锋17年拿的战略投资，现在在做IPO冲业绩。感谢提醒，我把软广去了，之前没注意。</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>你不去看接口文档，你分析你🐴呢？</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>Prushka 发表于 2019-7-3 11:12</span><br>
+<span>我知道你想召唤谁@CAMUS.net</span><br>
+<span>“孔北海知世间有刘备耶？”</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我怀疑你在打广告</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>说吧群号多少，大家一起网赚</span><br>
+</p><p><b>zievod: </b><br>
+<span>神秘男子A 发表于 2019-7-3 11:56</span><br>
+<span>千锋17年拿的战略投资，现在在做IPO冲业绩。感谢提醒，我把软广去了，之前没注意。 ...</span><br>
+<span>然后你们回复还是带着公司名字啊</span><br>
+<span>算不算脱裤子放屁</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>阿宅醒醒: </b><br>
+<span>我不懂编程，就想问问可以用来扒某些网站的小视频么。</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>CAMUS.net 发表于 2019-7-3 14:53</span><br>
+<span>“孔北海知世间有刘备耶？”</span><br>
+<span>这俩编程带师也不知从哪冒出来的，天天发明些诺贝尔智商奖成果，都分不清是troll还是智力有问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843945[0-50]</guid>
+    </item>
+  </channel>
+</rss>

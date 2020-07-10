@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>mklink联接到OneDrive的文件夹, 更换电脑后怎么迁移?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>mklink联接到OneDrive的文件夹, 更换电脑后怎么迁移?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:01:04 +0000</lastBuildDate>
+    <item>
+      <title>mklink联接到OneDrive的文件夹, 更换电脑后怎么迁移?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856394-1-1.html</link>
+      <description>mklink联接到OneDrive的文件夹, 更换电脑后怎么迁移?&#13;
+现在旧电脑上有多个位于不同位置的文件夹, 使用mklink /J联接到了OneDrive进行同步, OneDrive里有一份, 实际的文件在其他盘, OneDrive文件夹没有存东西
+&#13;
+请问换了新电脑后, 怎么迁移可以方便地保持这样的结构?
+&#13;
+或者有没有更好的Onedrive同步方案?</description>
+      <content:encoded><![CDATA[<p><b>Lisylfn: </b><br>
+<span>mklink联接到OneDrive的文件夹, 更换电脑后怎么迁移?</span><br>
+<span>现在旧电脑上有多个位于不同位置的文件夹, 使用mklink /J联接到了OneDrive进行同步, OneDrive里有一份, 实际的文件在其他盘, OneDrive文件夹没有存东西</span><br>
+<span>请问换了新电脑后, 怎么迁移可以方便地保持这样的结构?</span><br>
+<span>或者有没有更好的Onedrive同步方案?</span><br>
+</p><p><b>两个路人: </b><br>
+<span>登录onedrive，完成同步，退出onedrive程序/暂停同步，剪切各文件夹后重新软连接回去</span><br>
+</p><p><b>starash: </b><br>
+<span>写个批处理啊... </span><br>
+</p><p><b>bodul: </b><br>
+<span>写个带mklink路径的批处理 按原来的位置放呗</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>你这是反了，应该本体文件夹在onedrive里，然后mklink映射到电脑不同地方。。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>bodul 发表于 2019-8-29 17:20</span><br>
+<span>写个带mklink路径的批处理 按原来的位置放呗</span><br>
+<span>话说咋写批量的bat呢？有教程啥的嘛？</span><br>
+<span>没系统了解过对于外行还是有点难上手</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856394[0-50]</guid>
+    </item>
+  </channel>
+</rss>

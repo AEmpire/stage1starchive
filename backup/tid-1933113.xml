@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>咨询下MMD的布料解算技术相关</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>咨询下MMD的布料解算技术相关</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:08:18 +0000</lastBuildDate>
+    <item>
+      <title>咨询下MMD的布料解算技术相关[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1933113-1-1.html</link>
+      <description>咨询下MMD的布料解算技术相关&#13;
+ 本帖最后由 妹控使徒 于 2020-5-6 21:03 编辑 
+
+某性癖略冷门然后发现通过布料解算某功能能实现   总之自己动手发电前先问些问题
+&#13;
+1.布料解算这技术是源自C4D的 而这个技术查了下不是国内首创但为什么制作C4D MMD的基本都是国人?日本那边看了下也有但极少是C4D渲染需求硬件要求太高还是说单纯那边圈子较为守旧不接受新技术?
+&#13;
+2.如这个视频0:50之后所示   这种衣服解开然后滑落的效果似乎是C4D类MMD独有的但也不是所有C4D都有这效果于是具体是通过什么操作来实现的? 以及实现这种效果是在制作这类服装模型时就设定好的还是可以通过将旧MMD模型进行改造调整来实现?</description>
+      <content:encoded><![CDATA[<p><b>妹控使徒: </b><br>
+<span>咨询下MMD的布料解算技术相关</span><br>
+<span> 本帖最后由 妹控使徒 于 2020-5-6 21:03 编辑 </span><br>
+<span>某性癖略冷门然后发现通过布料解算某功能能实现   总之自己动手发电前先问些问题</span><br>
+<span>1.布料解算这技术是源自C4D的 而这个技术查了下不是国内首创但为什么制作C4D MMD的基本都是国人?日本那边看了下也有但极少是C4D渲染需求硬件要求太高还是说单纯那边圈子较为守旧不接受新技术?</span><br>
+<span>2.如这个视频0:50之后所示   这种衣服解开然后滑落的效果似乎是C4D类MMD独有的但也不是所有C4D都有这效果于是具体是通过什么操作来实现的? 以及实现这种效果是在制作这类服装模型时就设定好的还是可以通过将旧MMD模型进行改造调整来实现?</span><br>
+</p><p><b>2的不轻: </b><br>
+<span>1.布料解算技术是cg特效的基础特效之一，不是C4D特有的技术，maya，3dsamax，c4d，blender，houdini都有自带的布料结算的解决方案。</span><br>
+<span>国内mmd的布料解算一般性流程为，使用Marvelous Designer(简称md，是一个衣服设计cg软件，也可以做布料解算)解算布料，然后把布料文件缓存（一般为abc文件）导出到C4D或者blender里面，进行渲染。</span><br>
+<span>国内用maya，3dsamax，c4d，blender，houdini这些自带的布料解算解算mmd的几乎没有，原因是这些软件的布料解算虽然精度高，可控性强（maya，houdini）但是速度非常慢，容错率极差。一般只有职业角色特效师才会使用。</span><br>
+<span>md软件相比这些虽然可控性较低，但是解算效率高，容错率强，更契合“民用市场”，成为了mmd布料解算的主流（当然职业特效师也会使用md）</span><br>
+<span>2.衣服滑落有可能是解算的时候动作幅度太大了产生的bug，做过解算就知道，滑落，爆衣都是常有的事。md里面解算可以手动拉扯布料调整形态。其他软件也可以做，不过就要麻烦点，其他软件可以通过对约束点强度，或者布料摩擦力K帧来做滑落效果。其他软件甚至可以做布料撕裂的效果（md里面做不了布料撕裂）</span><br>
+<span>关于衣服模型的制作，可以从mmd模型导入，但是需要在其他cg软件里把衣服缺失的面补上，还要画贴图，比较麻烦。也可以直接从md里面通过版型生成（md本来就是设计衣服的软件）</span><br>
+<span>根据你的需求，你要是只想看个爆衣，滑落啥的，直接学Marvelous Designer就行了。你要想输出视频的，那还得学c4d或者bldender渲染。</span><br>
+<span>至于为什么bilibili，niconico，youtobe的mmd生态差异这么大，展开讲就是非常大的话题了，几千字也打不住，所以还是不说了</span><br>
+</p><p><b>黄昏的轮回: </b><br>
+<span>2的不轻 发表于 2020-5-6 21:24</span><br>
+<span>1.布料解算技术是cg特效的基础特效之一，不是C4D特有的技术，maya，3dsamax，c4d，blender，houdini都有自 ...</span><br>
+<span>我没事就会翻翻mmd看，要是大佬不介意可以简单聊聊生态不同的原因吗，还是挺好奇的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1933113[0-50]</guid>
+    </item>
+  </channel>
+</rss>

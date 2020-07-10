@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑网速慢到不科学</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑网速慢到不科学</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:57:15 +0000</lastBuildDate>
+    <item>
+      <title>电脑网速慢到不科学[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1880464-1-1.html</link>
+      <description>电脑网速慢到不科学&#13;
+ 本帖最后由 qzy741147 于 2019-12-5 18:07 编辑 
+
+之前一直挺正常的，今天下午开始就莫名其妙变得非常慢。具体来说，连路由器管理页面加载都要好几分钟，有一种电脑被人为限速的感觉，但是ping路由器的延迟都在1ms之内。
+&#13;
+各种网页加载很慢，连纯文字的论坛加载都要几分钟，哔哩哔哩统计倒是可以跑上10M左右（100M带宽）用百度云下载只有1-2KB/S.
+&#13;
+同一个路由器下用手机测速可以跑满，也没有改过路由器配置。电脑系统是win10 1903很久没推送更新了。
+&#13;
+这种没有理由的慢真是不知道如何排查，求给点思路。
+&#13;
+资源监视器里网络速度呈现一种奇怪的波形</description>
+      <content:encoded><![CDATA[<p><b>qzy741147: </b><br>
+<span>电脑网速慢到不科学</span><br>
+<span> 本帖最后由 qzy741147 于 2019-12-5 18:07 编辑 </span><br>
+<span>之前一直挺正常的，今天下午开始就莫名其妙变得非常慢。具体来说，连路由器管理页面加载都要好几分钟，有一种电脑被人为限速的感觉，但是ping路由器的延迟都在1ms之内。</span><br>
+<span>各种网页加载很慢，连纯文字的论坛加载都要几分钟，哔哩哔哩统计倒是可以跑上10M左右（100M带宽）用百度云下载只有1-2KB/S.</span><br>
+<span>同一个路由器下用手机测速可以跑满，也没有改过路由器配置。电脑系统是win10 1903很久没推送更新了。</span><br>
+<span>这种没有理由的慢真是不知道如何排查，求给点思路。</span><br>
+<span>资源监视器里网络速度呈现一种奇怪的波形</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>重置路由器，重设密码，换个电脑</span><br>
+</p><p><b>fuochai: </b><br>
+<span>换dns 重置网络配置netsh winsock reset（慎用）</span><br>
+<span>我一般有问题会尝试用这两个</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>把有线网络断开链接WiFi就正常了，太神秘了，难道是网线的问题</span><br>
+</p><p><b>tyx776: </b><br>
+<span>就是软件bug了，你需要一次恢复默认。</span><br>
+</p><p><b>netplaying: </b><br>
+<span>你路由有线口是不接了些稀奇古怪的东西。</span><br>
+</p><p><b>phyc: </b><br>
+<span> 本帖最后由 phyc 于 2019-12-5 22:31 编辑 </span><br>
+<span>你可以看一下本地连接速率？有时候是线断了几条，不过正常也能跑到10M吧，或许是没完全断，电压跑不上去</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1880464[0-50]</guid>
+    </item>
+  </channel>
+</rss>

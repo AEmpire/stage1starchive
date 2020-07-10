@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>（已放弃）新买的网件R7000P无线跑不满500M？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>（已放弃）新买的网件R7000P无线跑不满500M？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:30:32 +0000</lastBuildDate>
+    <item>
+      <title>（已放弃）新买的网件R7000P无线跑不满500M？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901864-1-1.html</link>
+      <description>（已放弃）新买的网件R7000P无线跑不满500M？&#13;
+ 本帖最后由 interestingtj 于 2019-12-14 00:41 编辑 
+
+联通宽带速度500M，网线直连光猫测速可以达到600M，光猫拨号，R7000P路由器模式和AP模式wifi 5g都只能跑到350M，拉远距离测试会降到200M。测试设备为iphone xs, thinkpad x1c 2018
+&#13;
+R7000P到底能不能跑满500M呢，是设置问题还是路由器硬件本身的问题，还是接收设备的问题呢
+&#13;
+又入了一个AC86U速度还是跑不满
+&#13;
+经过一番折腾速度稳定在300-350M，仔细想想也够用了，不想再折腾了，准备退了AC86U留R7000P，毕竟便宜200</description>
+      <content:encoded><![CDATA[<p><b>interestingtj: </b><br>
+<span>（已放弃）新买的网件R7000P无线跑不满500M？</span><br>
+<span> 本帖最后由 interestingtj 于 2019-12-14 00:41 编辑 </span><br>
+<span>联通宽带速度500M，网线直连光猫测速可以达到600M，光猫拨号，R7000P路由器模式和AP模式wifi 5g都只能跑到350M，拉远距离测试会降到200M。测试设备为iphone xs, thinkpad x1c 2018</span><br>
+<span>R7000P到底能不能跑满500M呢，是设置问题还是路由器硬件本身的问题，还是接收设备的问题呢</span><br>
+<span>又入了一个AC86U速度还是跑不满</span><br>
+<span>经过一番折腾速度稳定在300-350M，仔细想想也够用了，不想再折腾了，准备退了AC86U留R7000P，毕竟便宜200</span><br>
+</p><p><b>baesystems: </b><br>
+<span>理论速度肯定够了，苹果手机的无线配置不清楚，电脑可能需要在无线网卡里设置成VHT模式。</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>有线你试试看能多少</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>那玩意没记错是4708+4365的吧，3x3 mim。要跑满其实条件很苛刻的，你可以先刷个梅林看看。</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> baesystems 发表于 2019-12-13 01:03 理论速度肯定够了，苹果手机的无线配置不清楚，电脑可能需要在无线网卡里设置成VHT模式。 </span><br>
+<span>看了一下，设置里没有那个选项，在网上查了一下iPhone应该是可以支持500m的</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> 伊可费斯 发表于 2019-12-13 01:41 那玩意没记错是4708 4365的吧，3x3 mim。要跑满其实条件很苛刻的，你可以先刷个梅林看看。 </span><br>
+<span>不想折腾刷固件了，另外7000p好像本来就不能刷梅林？</span><br>
+</p><p><b>wzp2853: </b><br>
+<span>已知XS是双天线</span><br>
+<span>要打破433M速度强</span><br>
+<span>需要5Gwifi 加上 80mhz 以上的带宽</span><br>
+<span>要么你设置里还是标准的20mhz或者40mhz</span><br>
+<span>要么你的路由器信号强度不够，刷固件切澳大利亚区</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> wzp2853 发表于 2019-12-13 05:48 已知XS是双天线 要打破433M速度强需要5Gwifi 加上 80mhz 以上的带宽要么你设置里还是标准的20mhz或者40mhz要么你的路由器信号强度不够，刷固件切澳大利亚区 </span><br>
+<span>频率没办法设置</span><br>
+</p><p><b>interestingtj: </b><br>
+<span>又下单了一个ac86u对比一下</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>R7000，r8500之wifi间拷贝速度可以到90mb/s</span><br>
+</p><p><b>书迷秦迷: </b><br>
+<span>路由器就有这个功能</span><br>
+<span>可以看接收设备的握手速度</span><br>
+<span>如果这个正常显示866，接收设备还是跑不到500m以上，那就是路由器乃至光猫的问题了</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> 书迷秦迷 发表于 2019-12-13 12:48 路由器就有这个功能 可以看接收设备的握手速度 如果这个正常显示866，接收设备还是跑不到500m以上，那就是路由器乃至光猫的问题了 附件： </span><br>
+<span>看了一下，也不显示可能网件的固件功能确实烂</span><br>
+</p><p><b>interestingtj: </b><br>
+<span>ac86u也到货了，测速还是最高300m到底是什么问题呢</span><br>
+</p><p><b>phyc: </b><br>
+<span> 本帖最后由 phyc 于 2019-12-13 22:34 编辑 </span><br>
+<span>看一下终端设备是不是跑在802.11n上了，跑到ac上才能跑满。理论上你的笔记本网卡应该要支持到ac的</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> phyc 发表于 2019-12-13 22:27本帖最后由 phyc 于 2019-12-13 22:34 编辑   看一下终端设备是不是跑在802.11n上了，跑到ac上才能跑满。理论上你的笔记本网卡应该要支持到ac的 </span><br>
+<span>现在变成光猫直连可以满速，连上路由器后有线和无线都变成30mbps了，r7000p和ac86u都是这样。我没改设置啊</span><br>
+</p><p><b>phyc: </b><br>
+<span>interestingtj 发表于 2019-12-13 22:38</span><br>
+<span>现在变成光猫直连可以满速，连上路由器后有线和无线都变成30mbps了，r7000p和ac86u都是这样。我没改设置 ...</span><br>
+<span>这就比较诡异了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>我想问下你猫和路由器用的什么线？换个六类成品线试下</span><br>
+</p><p><b>interestingtj: </b><br>
+<span> 伊可费斯 发表于 2019-12-13 23:50 我想问下你猫和路由器用的什么线？换个六类成品线试下 </span><br>
+<span>是六类线，有线可以跑到600m</span><br>
+</p><p><b>Hibino: </b><br>
+<span>就算几年前的路由只是桥接模式而不需要自己处理pppoe或者vlan之类在有硬件flow offloading/nat WAN<->LAN跑满千兆还是没啥大问题的。。。。。</span><br>
+<span>我用过的linksys的ea8500, ea9500, mr9000, whw03这些，除了ea9500轻轻松松千兆，其他都只有在桥接模式下能达到千兆，其他的需要自己处理pppoe+vlan时WAN<->都在600-800mbps徘徊。LZ应该看看是不是有啥设置不对。。。。特别是如果开了QoS（比如给某些机器优先权之类的）的话，性能影响超级大</span><br>
+</p><p><b>interestingtj: </b><br>
+<span>Hibino 发表于 2019-12-14 13:24</span><br>
+<span>就算几年前的路由只是桥接模式而不需要自己处理pppoe或者vlan之类在有硬件flow offloading/nat WANLAN跑满 ...</span><br>
+<span>qos没开过，我试过路由模式和ap模式，还没试过桥接。我的是光猫拨号，这个有影响吗</span><br>
+</p><p><b>Hibino: </b><br>
+<span>interestingtj 发表于 2019-12-14 22:18</span><br>
+<span>qos没开过，我试过路由模式和ap模式，还没试过桥接。我的是光猫拨号，这个有影响吗 ...</span><br>
+<span>那路由器本身就已经不需要处理pppoe了。。。。</span><br>
+<span>那两个路由器有线超不过300mbps有点不太可能。。。。找个会的人去你家帮你看看吧</span><br>
+</p><p><b>john: </b><br>
+<span>不要觉得WiFi连上了都是433，就是所有路由器都跑一样的速度，路由器性能差别就是体现在这里</span><br>
+<span>R7000、AC86U这种便宜货，433的5G平均只能跑到200不到，两根天线也破不了400的，你买R7800、R8500、AC5300这样的贵货就可以</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901864[0-50]</guid>
+    </item>
+  </channel>
+</rss>

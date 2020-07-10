@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【第三方客户端】iBiliTV V1.6.6</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【第三方客户端】iBiliTV V1.6.6</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:07:16 +0000</lastBuildDate>
+    <item>
+      <title>【第三方客户端】iBiliTV V1.6.6[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1792590-1-1.html</link>
+      <description>【第三方客户端】iBiliTV V1.6.3&#13;
+ 本帖最后由 一只优越Fa♂ 于 2019-7-1 13:34 编辑 
+
+下载地址： https://beta.bugly.qq.com/bilibili-tv
+&#13;
+网盘链接：https://pan.baidu.com/s/1eHi-lfe5BAQHnI8nfdVmFA 密码:FHKQ
+
+V1.6.3
+
+1、修复偶现的页面访问失败问题
+
+2、解决掉登录问题
+
+3、修复关注列表内容重复问题
+
+——————
+
+V1.6.2
+
+大会员的问题应该修复了
+
+——————
+
+1.6.1大会员相关有问题
+
+https://i.loli.net/2019/03/21/5c93986a328a1.jpg
+
+——————
+
+作者在S1的ID是农业银行
+
+——————
+
+直播彩蛋回来了
+
+——————
+
+建议使用软解，打开软件第一次播放视频会卡顿，第二次恢复正常
+
+v1.6.0
+
+官方更新日志
+&#13;
+稳定性优化
+
+——————
+
+你群因为涉及政治问题已被解散
+
+——————
+
+农行发话允许宣传
+&#13;
+这个贴我会持续更新，群里人满为患，非必要不用加群
+&#13;
+v1.5.9
+&#13;
+官方更新日志
+&#13;
+稳定性优化
+&#13;
+自测更新日志
+&#13;
+修复番剧页面分集倒序
+&#13;
+自测已知问题
+&#13;
+1、未修复部分分区消失问题
+&#13;
+2、全新安装 / 清除数据后，第二次打开软件才会显示某确认条目
+&#13;
+​
+&#13;
+——————
+&#13;
+更新日志：
+&#13;
+v1.5.8
+&#13;
+1、播放体验优化，支持1080p+（修复清晰度）
+&#13;
+2、搜索体验优化（可联想搜索，搜索用户等）
+&#13;
+3、分区页优化（加入多个新分区）
+&#13;
+已知问题：
+&#13;
+1、覆盖安装无法看到新分区，请清除数据
+&#13;
+2、应用直播分区与音乐分区会自动消失，解决方法为清除数据
+&#13;
+3、番剧选集倒序
+
+——————
+&#13;
+打开直播分区请请除数据
+&#13;
+——————————
+&#13;
+不介意 清晰度/无root 请直接使用网盘内1.5.6（渣画质，不可调整清晰度）
+&#13;
+需要调整请继续往下看
+&#13;
+单备份文件，适合已安装过1.5.6版本客户端用户使用，步骤1、5、6、7
+&#13;
+提示：关键在备份
+&#13;
+1、确保 电视/盒子 拥有ROOT权限
+&#13;
+2、安装 钛备份
+&#13;
+3、下载文件，拷贝至 电视/盒子 中
+&#13;
+4、安装 iBiliTV 1.5.6.apk
+&#13;
+5、解压 Titanium iBiliTV 1.5.6 ，将所得文件放入设备目录 Sdcard/TitaniumBackup 中
+&#13;
+6、打开钛备份，授予root权限，点击 备份/还原 ，找到哔哩哔哩 1.5.6 ，还原
+&#13;
+7、打开APP，完成
+&#13;
+手机也能用
+&#13;
+————————
+&#13;
+ADB
+&#13;
+1、开启 电视/盒子 ADB调试模式
+&#13;
+2、确认电脑和 电视/盒子 在同一 WiFi 下
+&#13;
+3、电脑下载 ADB工具箱 
+&#13;
+4、解压 adb.zip ，按住 shift ，文件夹空白处右键 “在此处打开Powershell”
+&#13;
+5、在 Powershell 窗口输入 cmd ，回车
+&#13;
+6、输入 adb connect XX（ 电视/盒子 IP 地址），回车
+&#13;
+7、输入 adb devices ，回车，测试是否连接成功，不成功问百度，成功进行下一步
+&#13;
+8、输入 adb install XX（APP下载到电脑后的地址，也可以直接在电视上安装APP，已安装可跳过），回车
+&#13;
+9、输入 adb shell ，回车
+&#13;
+，输入su，回车
+&#13;
+10、下载 localNew.zip
+&#13;
+11、解压 localNew.zip
+&#13;
+12、输入 adb push XX（localNew.zip 解压出来的文件夹地址，格式X:\xx\localNew\./data/data/com.bilibili.tv/files/locaNew/，回车，完成
+&#13;
+不同型号 电视/盒子 ADB开启方式不同，建议自行百度
+&#13;
+教程有错请反馈，我马上改</description>
+      <content:encoded><![CDATA[<p><b>一只优越Fa♂: </b><br>
+<span>农行发话允许宣传，以后这个贴由我持续更新</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>你群因为涉及政治问题已被解散</span><br>
+</p><p><b>平井姨夫: </b><br>
+<span>一只优越Fa♂ 发表于 2018-12-9 19:42</span><br>
+<span>你群因为涉及政治问题已被解散</span><br>
+</p><p><b>manyin1: </b><br>
+<span>原来的版本直接升没问题吧？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>manyin1 发表于 2018-12-9 22:03</span><br>
+<span>原来的版本直接升没问题吧？</span><br>
+<span>升1.5.9 没问题</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>更新v1.6.0</span><br>
+</p><p><b>队長: </b><br>
+<span> 本帖最后由 队長 于 2019-2-1 19:16 编辑 </span><br>
+<span>啊，原来我所用的是这里来的，感谢</span><br>
+<span>使用起来不方便的地方在于搜索，很多东西搜不到，要去PC上查AV号再来搜</span><br>
+<span>这仿佛是BILI的TV端通病了</span><br>
+</p><p><b>天骄山仔: </b><br>
+<span>好贴，马克</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>没有未来的未来: </b><br>
+<span>不会关弹幕… 长按ok就只是暂停…</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>没有未来的未来 发表于 2019-2-2 00:04</span><br>
+<span>不会关弹幕… 长按ok就只是暂停…</span><br>
+<span>按菜单键试试</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>遇到个问题，开硬解的话输出范围会不对，类似的在kodi里可以关掉mediacodec(surface)解决，但这里两种硬解选项结果都不对</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>华蝶风雪 发表于 2019-2-15 16:49</span><br>
+<span>遇到个问题，开硬解的话输出范围会不对，类似的在kodi里可以关掉mediacodec(surface)解决，但这里两种硬解 ...</span><br>
+<span>1.6.0的硬解有问题，推荐用软解</span><br>
+</p><p><b>Hikiyaga⑧man: </b><br>
+<span>没明白这个怎么用，要root吗？我索尼电视没root直接装了1.6好像就能用了，硬解卡但是软解正常</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>Hikiyaga⑧man 发表于 2019-3-2 14:20</span><br>
+<span> 没明白这个怎么用，要root吗？我索尼电视没root直接装了1.6好像就能用了，硬解卡但是软解正常—— 来自 X ...</span><br>
+<span>装1.6就可以了</span><br>
+</p><p><b>heyfly: </b><br>
+<span>1.61更新后看不了番剧了</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>heyfly 发表于 2019-3-21 19:52</span><br>
+<span>1.61更新后看不了番剧了</span><br>
+<span>貌似是接口问题，等下版农行修复吧</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>https://www.saraba1st.com/2b/thread-1818620-1-1.html</span><br>
+<span>漫区和破处区是两个论坛</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2019-3-21 21:56 编辑 </span><br>
+<span>伊克路西安 发表于 2019-3-21 21:46</span><br>
+<span>https://www.saraba1st.com/2b/thread-1818620-1-1.html</span><br>
+<span>漫区和破处区是两个论坛</span><br>
+<span>其实这贴本来归破处区专楼的，不过当时我权限不够进不去就跑漫区了</span><br>
+<span>现在一看那贴楼主嘴臭被塞了</span><br>
+</p><p><b>yotiop: </b><br>
+<span>用tv应用播好像没有用b站手机app投屏的清晰流畅</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yotiop: </b><br>
+<span>更新1.6.2了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>网盘已更新1.6.2</span><br>
+</p><p><b>luruiwei: </b><br>
+<span>感谢LZ，很好用！！！</span><br>
+<span>终于能用电视看了</span><br>
+</p><p><b>紫水晶: </b><br>
+<span>什么时候支持看直播呢？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>紫水晶 发表于 2019-3-26 22:00</span><br>
+<span>什么时候支持看直播呢？</span><br>
+<span>看二楼开启直播彩蛋</span><br>
+</p><p><b>紫水晶: </b><br>
+<span>话说我要先进一次视频然后退出再进才能流畅播放这是怎么回事？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>紫水晶 发表于 2019-3-27 21:52</span><br>
+<span>话说我要先进一次视频然后退出再进才能流畅播放这是怎么回事？</span><br>
+<span>1.6.0后的bug，暂时无解</span><br>
+</p><p><b>joacg: </b><br>
+<span>电影又看不了。</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>在我这里IJK解码播放会停止运行，谨慎更新</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>又有更新了？之前比较不爽的是不能开启CC字幕</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>1.6.4貌似修复了ijk解码播放问题</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>pbkings: </b><br>
+<span>大会员能看电影了吗？之前注册了大会员就是为了看电影，结果1.62不能看，又退回1.60了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>pbkings 发表于 2019-7-1 19:57</span><br>
+<span>大会员能看电影了吗？之前注册了大会员就是为了看电影，结果1.62不能看，又退回1.60了</span><br>
+<span>-- 来自 能手机投 ...</span><br>
+<span>试了几部没问题</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>eshin: </b><br>
+<span>今天更新了164，结果关注大概率出错为空，</span><br>
+<span>只有我碰到这种问题吗？</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>eshin 发表于 2019-7-6 20:55</span><br>
+<span>今天更新了164，结果关注大概率出错为空，</span><br>
+<span>只有我碰到这种问题吗？</span><br>
+<span>通病，等下一个版本</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>eshin: </b><br>
+<span>一只优越Fa♂ 发表于 2019-7-6 21:02</span><br>
+<span>通病，等下一个版本</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>想回滚到上个版本，有安装包吗？</span><br>
+<span>我只有最初从这里获得的apk，后续都是app内升级的，不知道哪里有历史版本可以下载</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>eshin: </b><br>
+<span>一只优越Fa♂ 发表于 2019-7-6 21:02</span><br>
+<span>通病，等下一个版本</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>眼瞎，原来主楼就有，谢谢</span><br>
+<span>—— 来自 LGE LGT31, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Gassnake: </b><br>
+<span>原来我不是一个人，关注消失不知道多久能修好，懒的回滚了</span><br>
+</p><p><b>邦德总管: </b><br>
+<span>安装了1.6.0还是有关注空的问题，跟版本无关吧</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>fange: </b><br>
+<span>在盒子看了这么久才知道这个版本是s1大佬做的，面子</span><br>
+<span>—— 来自 Xiaomi Redmi Note 4X, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>B站之前那个TV版也会出现关注为空的问题</span><br>
+<span>可能官方调整了接口吧……目前无解</span><br>
+</p><p><b>livelive: </b><br>
+<span>TV版app现在已经看不到【我的关注】了，奇怪的是我苹果手机上的B站app也看不到，必须刷新一次才行，咦？</span><br>
+</p><p><b>Gassnake: </b><br>
+<span>有没有办法看港澳台啊</span><br>
+</p><p><b>ljwlwd: </b><br>
+<span>现在用这个看直播的姿势是什么？直接安装上去就显示直播分区，但是点进任意直播间都无法播放，大法电视。</span><br>
+</p><p><b>紫水晶: </b><br>
+<span>这么久过去了要打开2次才能流畅的bug修复了吗</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>zerona: </b><br>
+<span> 本帖最后由 zerona 于 2019-8-15 17:32 编辑 </span><br>
+<span>追番能加上翻页吗？我看了下页面只有一页的内容，之前页面的内容就无法看到了。另外请加上追番和追剧的分支。现在追的日剧找不到了。位置是 我的订阅 -- 追番</span><br>
+<span>                        --追剧</span><br>
+</p><p><b>Gassnake: </b><br>
+<span>直播区现在全是加载失败看不到内容了</span><br>
+</p><p><b>sAviOr: </b><br>
+<span>目前还有在电视上看直播的方法吗？</span><br>
+</p><p><b>平井姨夫: </b><br>
+<span>还是不能屏蔽顶部和底部弹幕吗？</span><br>
+</p><p><b>塌方: </b><br>
+<span>最近我两台大法电视的插帧对看b站1080p清晰度都失效了，调到720p就没问题，咋回事？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1792590[50-100]</guid>
+    </item>
+    <item>
+      <title>【第三方客户端】iBiliTV V1.6.6[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1792590-1-1.html</link>
+      <description>【第三方客户端】iBiliTV V1.6.3&#13;
+ 本帖最后由 一只优越Fa♂ 于 2019-7-1 13:34 编辑 
+
+下载地址： https://beta.bugly.qq.com/bilibili-tv
+&#13;
+网盘链接：https://pan.baidu.com/s/1eHi-lfe5BAQHnI8nfdVmFA 密码:FHKQ
+
+V1.6.3
+
+1、修复偶现的页面访问失败问题
+
+2、解决掉登录问题
+
+3、修复关注列表内容重复问题
+
+——————
+
+V1.6.2
+
+大会员的问题应该修复了
+
+——————
+
+1.6.1大会员相关有问题
+
+https://i.loli.net/2019/03/21/5c93986a328a1.jpg
+
+——————
+
+作者在S1的ID是农业银行
+
+——————
+
+直播彩蛋回来了
+
+——————
+
+建议使用软解，打开软件第一次播放视频会卡顿，第二次恢复正常
+
+v1.6.0
+
+官方更新日志
+&#13;
+稳定性优化
+
+——————
+
+你群因为涉及政治问题已被解散
+
+——————
+
+农行发话允许宣传
+&#13;
+这个贴我会持续更新，群里人满为患，非必要不用加群
+&#13;
+v1.5.9
+&#13;
+官方更新日志
+&#13;
+稳定性优化
+&#13;
+自测更新日志
+&#13;
+修复番剧页面分集倒序
+&#13;
+自测已知问题
+&#13;
+1、未修复部分分区消失问题
+&#13;
+2、全新安装 / 清除数据后，第二次打开软件才会显示某确认条目
+&#13;
+​
+&#13;
+——————
+&#13;
+更新日志：
+&#13;
+v1.5.8
+&#13;
+1、播放体验优化，支持1080p+（修复清晰度）
+&#13;
+2、搜索体验优化（可联想搜索，搜索用户等）
+&#13;
+3、分区页优化（加入多个新分区）
+&#13;
+已知问题：
+&#13;
+1、覆盖安装无法看到新分区，请清除数据
+&#13;
+2、应用直播分区与音乐分区会自动消失，解决方法为清除数据
+&#13;
+3、番剧选集倒序
+
+——————
+&#13;
+打开直播分区请请除数据
+&#13;
+——————————
+&#13;
+不介意 清晰度/无root 请直接使用网盘内1.5.6（渣画质，不可调整清晰度）
+&#13;
+需要调整请继续往下看
+&#13;
+单备份文件，适合已安装过1.5.6版本客户端用户使用，步骤1、5、6、7
+&#13;
+提示：关键在备份
+&#13;
+1、确保 电视/盒子 拥有ROOT权限
+&#13;
+2、安装 钛备份
+&#13;
+3、下载文件，拷贝至 电视/盒子 中
+&#13;
+4、安装 iBiliTV 1.5.6.apk
+&#13;
+5、解压 Titanium iBiliTV 1.5.6 ，将所得文件放入设备目录 Sdcard/TitaniumBackup 中
+&#13;
+6、打开钛备份，授予root权限，点击 备份/还原 ，找到哔哩哔哩 1.5.6 ，还原
+&#13;
+7、打开APP，完成
+&#13;
+手机也能用
+&#13;
+————————
+&#13;
+ADB
+&#13;
+1、开启 电视/盒子 ADB调试模式
+&#13;
+2、确认电脑和 电视/盒子 在同一 WiFi 下
+&#13;
+3、电脑下载 ADB工具箱 
+&#13;
+4、解压 adb.zip ，按住 shift ，文件夹空白处右键 “在此处打开Powershell”
+&#13;
+5、在 Powershell 窗口输入 cmd ，回车
+&#13;
+6、输入 adb connect XX（ 电视/盒子 IP 地址），回车
+&#13;
+7、输入 adb devices ，回车，测试是否连接成功，不成功问百度，成功进行下一步
+&#13;
+8、输入 adb install XX（APP下载到电脑后的地址，也可以直接在电视上安装APP，已安装可跳过），回车
+&#13;
+9、输入 adb shell ，回车
+&#13;
+，输入su，回车
+&#13;
+10、下载 localNew.zip
+&#13;
+11、解压 localNew.zip
+&#13;
+12、输入 adb push XX（localNew.zip 解压出来的文件夹地址，格式X:\xx\localNew\./data/data/com.bilibili.tv/files/locaNew/，回车，完成
+&#13;
+不同型号 电视/盒子 ADB开启方式不同，建议自行百度
+&#13;
+教程有错请反馈，我马上改</description>
+      <content:encoded><![CDATA[<p><b>一只优越Fa♂: </b><br>
+<span>【第三方客户端】iBiliTV V1.6.3</span><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2019-7-1 13:34 编辑 </span><br>
+<span>下载地址： https://beta.bugly.qq.com/bilibili-tv</span><br>
+<span>网盘链接：https://pan.baidu.com/s/1eHi-lfe5BAQHnI8nfdVmFA 密码:FHKQ</span><br>
+<span>V1.6.3</span><br>
+<span>1、修复偶现的页面访问失败问题</span><br>
+<span>2、解决掉登录问题</span><br>
+<span>3、修复关注列表内容重复问题</span><br>
+<span>——————</span><br>
+<span>V1.6.2</span><br>
+<span>大会员的问题应该修复了</span><br>
+<span>——————</span><br>
+<span>1.6.1大会员相关有问题</span><br>
+<img src="https://i.loli.net/2019/03/21/5c93986a328a1.jpg" title="https://i.loli.net/2019/03/21/5c93986a328a1.jpg"><br>
+<span>——————</span><br>
+<span>作者在S1的ID是农业银行</span><br>
+<span>——————</span><br>
+<span>直播彩蛋回来了</span><br>
+<span>——————</span><br>
+<span>建议使用软解，打开软件第一次播放视频会卡顿，第二次恢复正常</span><br>
+<span>v1.6.0</span><br>
+<span>官方更新日志</span><br>
+<span>稳定性优化</span><br>
+<span>——————</span><br>
+<span>你群因为涉及政治问题已被解散</span><br>
+<span>——————</span><br>
+<span>农行发话允许宣传</span><br>
+<span>这个贴我会持续更新，群里人满为患，非必要不用加群</span><br>
+<span>v1.5.9</span><br>
+<span>官方更新日志</span><br>
+<span>稳定性优化</span><br>
+<span>自测更新日志</span><br>
+<span>修复番剧页面分集倒序</span><br>
+<span>自测已知问题</span><br>
+<span>1、未修复部分分区消失问题</span><br>
+<span>2、全新安装 / 清除数据后，第二次打开软件才会显示某确认条目</span><br>
+<span>​</span><br>
+<span>——————</span><br>
+<span>更新日志：</span><br>
+<span>v1.5.8</span><br>
+<span>1、播放体验优化，支持1080p+（修复清晰度）</span><br>
+<span>2、搜索体验优化（可联想搜索，搜索用户等）</span><br>
+<span>3、分区页优化（加入多个新分区）</span><br>
+<span>已知问题：</span><br>
+<span>1、覆盖安装无法看到新分区，请清除数据</span><br>
+<span>2、应用直播分区与音乐分区会自动消失，解决方法为清除数据</span><br>
+<span>3、番剧选集倒序</span><br>
+<span>——————</span><br>
+<span>打开直播分区请请除数据</span><br>
+<span>——————————</span><br>
+<span>不介意 清晰度/无root 请直接使用网盘内1.5.6（渣画质，不可调整清晰度）</span><br>
+<span>需要调整请继续往下看</span><br>
+<span>单备份文件，适合已安装过1.5.6版本客户端用户使用，步骤1、5、6、7</span><br>
+<span>提示：关键在备份</span><br>
+<span>1、确保 电视/盒子 拥有ROOT权限</span><br>
+<span>2、安装 钛备份</span><br>
+<span>3、下载文件，拷贝至 电视/盒子 中</span><br>
+<span>4、安装 iBiliTV 1.5.6.apk</span><br>
+<span>5、解压 Titanium iBiliTV 1.5.6 ，将所得文件放入设备目录 Sdcard/TitaniumBackup 中</span><br>
+<span>6、打开钛备份，授予root权限，点击 备份/还原 ，找到哔哩哔哩 1.5.6 ，还原</span><br>
+<span>7、打开APP，完成</span><br>
+<span>手机也能用</span><br>
+<span>————————</span><br>
+<span>ADB</span><br>
+<span>1、开启 电视/盒子 ADB调试模式</span><br>
+<span>2、确认电脑和 电视/盒子 在同一 WiFi 下</span><br>
+<span>3、电脑下载 ADB工具箱 </span><br>
+<span>4、解压 adb.zip ，按住 shift ，文件夹空白处右键 “在此处打开Powershell”</span><br>
+<span>5、在 Powershell 窗口输入 cmd ，回车</span><br>
+<span>6、输入 adb connect XX（ 电视/盒子 IP 地址），回车</span><br>
+<span>7、输入 adb devices ，回车，测试是否连接成功，不成功问百度，成功进行下一步</span><br>
+<span>8、输入 adb install XX（APP下载到电脑后的地址，也可以直接在电视上安装APP，已安装可跳过），回车</span><br>
+<span>9、输入 adb shell ，回车</span><br>
+<span>，输入su，回车</span><br>
+<span>10、下载 localNew.zip</span><br>
+<span>11、解压 localNew.zip</span><br>
+<span>12、输入 adb push XX（localNew.zip 解压出来的文件夹地址，格式X:\xx\localNew\./data/data/com.bilibili.tv/files/locaNew/，回车，完成</span><br>
+<span>不同型号 电视/盒子 ADB开启方式不同，建议自行百度</span><br>
+<span>教程有错请反馈，我马上改</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2019-2-1 19:19 编辑 </span><br>
+<span>直播彩蛋已开启</span><br>
+<span>——————</span><br>
+<span>哲学彩蛋可以开启新追番页面样式，但是新样式无法在追番页面打开番剧，关闭新样式请再次触发彩蛋</span><br>
+<span>——————</span><br>
+<span>隐藏彩蛋-直播分区</span><br>
+<span>连接麦克风后打开APP，</span><br>
+<span>对着麦克风大喊：</span><br>
+<span>“我于杀戮之中盛放，亦如黎明中的花朵”</span><br>
+<span>听到电视发出：</span><br>
+<span>“ 既然你诚心诚意的发问了，我们便大发慈悲的告诉你！ </span><br>
+<span>为了防止世界被破坏，为了维护世界的和平！</span><br>
+<span>贯彻爱与真实的邪恶，可爱又迷人的反派角色！</span><br>
+<span>武藏！小次郎！</span><br>
+<span>我们是穿梭在银河中的火箭队！白洞，白色的明天在等着我们！</span><br>
+<span>就是这样 喵~ ”</span><br>
+<span>则重复上一步。</span><br>
+<span>若听到：</span><br>
+<span>“既然你诚心诚意的发问了，我们就大发慈悲的告诉你吾等大名！</span><br>
+<span>花颜柳腰，羞月闭花，盛开于虚幻世界的一轮恶之花——武藏</span><br>
+<span>飞龙乘云，英姿飒爽，反抗于苦闷世界中的恶之使徒——小次郎</span><br>
+<span>一莲托生，同休共戚，山山发光的小金币也是亲密伙伴的恶之星——喵喵的喵</span><br>
+<span>火箭队参上！</span><br>
+<span>就是这样！</span><br>
+<span>即可进行下一步。</span><br>
+<span>如果没有任何声音，请联系我，51收了</span><br>
+<span>————</span><br>
+<span>下一步：遥控器按分区二字27次确认，退出重进即可获取直播分区</span><br>
+<span>——————</span><br>
+<span>管开不管养，直播无法观看请不要找我，只负责打开彩蛋​</span><br>
+</p><p><b>qwased: </b><br>
+<span>没有电视，帮顶</span><br>
+</p><p><b>LEGEND-911: </b><br>
+<span>这个版本和正常的1.5.6有什么不同？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>LEGEND-911 发表于 2018-11-23 02:43</span><br>
+<span>这个版本和正常的1.5.6有什么不同？</span><br>
+<span>没有不同，备份可以调清晰度</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>顶</span><br>
+<span>—— 来自 Google Pixel, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>IKAR1SHINJI君: </b><br>
+<span> 本帖最后由 IKAR1SHINJI君 于 2018-11-23 10:22 编辑 </span><br>
+<span>root失败，但是清晰度还可以，设置里可以更改默认清晰度，虽然不知道是否有效</span><br>
+<span>---------</span><br>
+<span>无root是只有高清还是只有渣画质？root版支持1080p+么</span><br>
+</p><p><b>chexk03: </b><br>
+<span>非官方app好用，就是除了长视频中间都会缓冲一段，就像以前的6分钟诅咒</span><br>
+</p><p><b>萨兰丁: </b><br>
+<span>马一下</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>这直播打开方式……</span><br>
+<span>中二到一定程度了</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 8.1.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>nihilxp: </b><br>
+<span>我记得原来TV版本的作者就是S1的吧，为啥以前安装的现在还可以调清晰度。</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:02 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:02 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:02 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>dark_saber: </b><br>
+<span>北岛以北 发表于 2018-11-23 09:46</span><br>
+<span>这直播打开方式……</span><br>
+<span>中二到一定程度了</span><br>
+<span>只用第二步就行</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:02 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>fat: </b><br>
+<span>一只优越Fa♂ 发表于 2018-11-23 03:05</span><br>
+<span>隐藏彩蛋-直播分区</span><br>
+<span>连接麦克风后打开APP，</span><br>
+<span>这个太欢乐了</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>赞美楼主，可就算有高清视频，也不是所有视频都可以看啊</span><br>
+<span>—— 来自 HUAWEI CLT-AL01, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:03 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:03 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:03 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>秽歌: </b><br>
+<span>两个月前装的1.5.6，某个索尼电视贴吧帖子里看下载的，能否调清晰度有没有老哥现身说法</span><br>
+<span>因为盒子扔家里用，不清楚..</span><br>
+</p><p><b>Ichthys: </b><br>
+<span>Adb是要提权才能修改data文件的，本机没root的话没有用的。现在厂家一个个鸡贼的不行，用的晨星方案的基本没有能root的。</span><br>
+</p><p><b>private: </b><br>
+<span>都是apk 电视和手机通用么?</span><br>
+<span>只有UI适配差异</span><br>
+<span>还是检测到就不给用?</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:04 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>private 发表于 2018-11-26 00:54</span><br>
+<span>都是apk 电视和手机通用么?</span><br>
+<span>只有UI适配差异</span><br>
+<span>还是检测到就不给用?</span><br>
+<span>通用，手机上排版显示可能不太好</span><br>
+</p><p><b>z7777xc: </b><br>
+<span>收下明天有空试试</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:04 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>lovebbc: </b><br>
+<span>今天发现直播不见了</span><br>
+<span>—— 来自 OPPO A37m, Android 5.1上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:04 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:01 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>chexk03: </b><br>
+<span>我还是想知道播放中总是会出现的迷之停顿修复没有，还是只有我有这个问题…</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:01 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>平井姨夫: </b><br>
+<span>一只优越Fa♂ 发表于 2018-11-30 21:05</span><br>
+<span>下午推了新版本，清除数据可看更新</span><br>
+<span>覆盖安装后不会变得不能调整清晰度吧？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:01 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>大佬……这个可以安装到盒子里吗</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:01 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>garyst: </b><br>
+<span>解析程序包时出现问题，这到底是什么毛病。</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>garyst 发表于 2018-12-1 00:53</span><br>
+<span>解析程序包时出现问题，这到底是什么毛病。</span><br>
+<span>手机上试试能不能安装，多半是安装包的问题</span><br>
+</p><p><b>heyfly: </b><br>
+<span>可否加上评论区相关功能，这是至今阻止我用电视版的唯一原因了</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:00 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>tyx776: </b><br>
+<span>这个58是直接安装就有清晰度选择了吗？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:00 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>IKAR1SHINJI君: </b><br>
+<span> 本帖最后由 IKAR1SHINJI君 于 2018-12-1 20:52 编辑 </span><br>
+<span>root失败</span><br>
+<span>又不是不能用</span><br>
+</p><p><b>默默沉睡: </b><br>
+<span>倒序播放那是真的惨</span><br>
+</p><p><b>zhaog12: </b><br>
+<span>倒序播放是为什么？！</span><br>
+</p><p><b>默默沉睡: </b><br>
+<span> 本帖最后由 默默沉睡 于 2018-12-3 18:08 编辑 </span><br>
+<span>1.5.9了</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:00 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span> 本帖最后由 一只优越Fa♂ 于 2018-12-3 22:00 编辑 </span><br>
+<span>编辑掉</span><br>
+</p><p><b>akitox: </b><br>
+<span>马克，找时间试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1792590[0-50]</guid>
+    </item>
+  </channel>
+</rss>

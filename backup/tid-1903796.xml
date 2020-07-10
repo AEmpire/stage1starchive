@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Chocolatey真是太好用了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Chocolatey真是太好用了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:57 +0000</lastBuildDate>
+    <item>
+      <title>Chocolatey真是太好用了[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903796-1-1.html</link>
+      <description>Chocolatey真是太好用了&#13;
+一开始是在少数派里看到的介绍
+&#13;
+https://sspai.com/post/55309
+&#13;
+然后自己搜了下，维护了一张表
+&#13;
+昨天新装了台机器，驱动搞好以后就两条命令行下去，洗个澡聊会天，指定软件就全装好了
+&#13;
+官网https://chocolatey.org/install，懒得研究的看下面
+&#13;
+管理员权限打开cmd窗口，运行命令安装Chocolatey本体
+&#13;
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+&#13;
+昨天用的一股脑一次性安装命令行，可以完全定制，敲回车什么都不用干等结束就行了，有报错会通知并且继续安装，完全自动化
+&#13;
+choco install --yes chocolateygui adobereader tim firefox 7zip.install notepadplusplus.install autohotkey.portable python2 filezilla itunes Bandizip steam crystaldiskinfo crystaldiskmark everything rufus cpu-z fsviewer autohotkey_l logitechgaming synologydrive mpc-hc mpc-be mp3tag handbrake fastcopy 8gadgetpack as-ssd freedownloadmanager
+&#13;
+还有个emeditor比较难搞，要多一个参数
+&#13;
+choco install --allow-empty-checksums emeditor 
+&#13;
+其中chocolateygui是一个GUI界面，以后随时打开可以检查并应用更新</description>
+      <content:encoded><![CDATA[<p><b>neotaburiss: </b><br>
+<span>下载速度太慢了 特别是主体 在线安装太慢了</span><br>
+<span>起码6分钟才能下完 本来在单位电脑部署的话也挺方便的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903796[50-100]</guid>
+    </item>
+    <item>
+      <title>Chocolatey真是太好用了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903796-1-1.html</link>
+      <description>Chocolatey真是太好用了&#13;
+一开始是在少数派里看到的介绍
+&#13;
+https://sspai.com/post/55309
+&#13;
+然后自己搜了下，维护了一张表
+&#13;
+昨天新装了台机器，驱动搞好以后就两条命令行下去，洗个澡聊会天，指定软件就全装好了
+&#13;
+官网https://chocolatey.org/install，懒得研究的看下面
+&#13;
+管理员权限打开cmd窗口，运行命令安装Chocolatey本体
+&#13;
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+&#13;
+昨天用的一股脑一次性安装命令行，可以完全定制，敲回车什么都不用干等结束就行了，有报错会通知并且继续安装，完全自动化
+&#13;
+choco install --yes chocolateygui adobereader tim firefox 7zip.install notepadplusplus.install autohotkey.portable python2 filezilla itunes Bandizip steam crystaldiskinfo crystaldiskmark everything rufus cpu-z fsviewer autohotkey_l logitechgaming synologydrive mpc-hc mpc-be mp3tag handbrake fastcopy 8gadgetpack as-ssd freedownloadmanager
+&#13;
+还有个emeditor比较难搞，要多一个参数
+&#13;
+choco install --allow-empty-checksums emeditor 
+&#13;
+其中chocolateygui是一个GUI界面，以后随时打开可以检查并应用更新</description>
+      <content:encoded><![CDATA[<p><b>john: </b><br>
+<span>Chocolatey真是太好用了</span><br>
+<span>一开始是在少数派里看到的介绍</span><br>
+<span>https://sspai.com/post/55309</span><br>
+<span>然后自己搜了下，维护了一张表</span><br>
+<span>昨天新装了台机器，驱动搞好以后就两条命令行下去，洗个澡聊会天，指定软件就全装好了</span><br>
+<span>官网https://chocolatey.org/install，懒得研究的看下面</span><br>
+<span>管理员权限打开cmd窗口，运行命令安装Chocolatey本体</span><br>
+<span>@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"</span><br>
+<span>昨天用的一股脑一次性安装命令行，可以完全定制，敲回车什么都不用干等结束就行了，有报错会通知并且继续安装，完全自动化</span><br>
+<span>choco install --yes chocolateygui adobereader tim firefox 7zip.install notepadplusplus.install autohotkey.portable python2 filezilla itunes Bandizip steam crystaldiskinfo crystaldiskmark everything rufus cpu-z fsviewer autohotkey_l logitechgaming synologydrive mpc-hc mpc-be mp3tag handbrake fastcopy 8gadgetpack as-ssd freedownloadmanager</span><br>
+<span>还有个emeditor比较难搞，要多一个参数</span><br>
+<span>choco install --allow-empty-checksums emeditor </span><br>
+<span>其中chocolateygui是一个GUI界面，以后随时打开可以检查并应用更新</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>已经安装很多软件，然后装chocolately还能用chocolately更新吗？</span><br>
+</p><p><b>john: </b><br>
+<span>四控大叔 发表于 2019-12-18 14:34</span><br>
+<span>已经安装很多软件，然后装chocolately还能用chocolately更新吗？</span><br>
+<span>你自己试试不就行了</span><br>
+</p><p><b>obiy: </b><br>
+<span>还是不稳，想卸载chrome结果steam的卸载程序弹起来了</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>Scoop</span><br>
+<span>安装不需要管理员权限，软件都在一个文件夹里，大部分都是绿色软件</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>四控大叔 发表于 2019-12-18 14:34</span><br>
+<span>已经安装很多软件，然后装chocolately还能用chocolately更新吗？</span><br>
+<span>powershell输入Get-Package</span><br>
+<span>里面列出的已安装软件理论上可以用choco更新(如果chocolatey源里有的话)</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>这种命令行在Windows下我记得会有小问题</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lvcha: </b><br>
+<span>yum apt-get？</span><br>
+</p><p><b>lvcha: </b><br>
+<span> 本帖最后由 lvcha 于 2019-12-18 15:31 编辑 </span><br>
+<span>win10我要装的软件还真不多。</span><br>
+<span>大多都是要钱的，不要钱的可以windows store</span><br>
+<span>像git ssh这类的，我都是用wsl的命令行，比windows方便</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>要不是巨硬非得要香蕉给森林, 也不会有这些东西 </span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>lvcha 发表于 2019-12-18 15:28</span><br>
+<span>win10我要装的软件还真不多。</span><br>
+<span>大多都是要钱的，不要钱的可以windows store</span><br>
+<span>像git ssh这类的，我都是用wsl的 ...</span><br>
+<span>WSL 唯一的缺点就是不能用 USB，导致我 ADB 还得下个 Windows 版的</span><br>
+</p><p><b>lvcha: </b><br>
+<span>huaxianyan 发表于 2019-12-18 15:51</span><br>
+<span>WSL 唯一的缺点就是不能用 USB，导致我 ADB 还得下个 Windows 版的</span><br>
+<span>不解。。</span><br>
+<span>u盘我常用啊，mount就行了</span><br>
+<span> mount -t drvfs E: /mnt/e</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>lvcha 发表于 2019-12-18 16:01</span><br>
+<span>不解。。</span><br>
+<span>u盘我常用啊，mount就行了</span><br>
+<span> mount -t drvfs E: /mnt/e</span><br>
+<span>挂载存储和识别手机可不是一回事</span><br>
+<span>我上面的描述不太严谨，但是我主要想表达的是这个意思</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>我的办公室电脑已经用choco维护了,很多付费软件也直接choco挺省事</span><br>
+<span>商业版看起来可以通过脚本 部署,增量部署之类</span><br>
+</p><p><b>o0typhoon0o: </b><br>
+<span>四控大叔 发表于 2019-12-18 14:34</span><br>
+<span>已经安装很多软件，然后装chocolately还能用chocolately更新吗？</span><br>
+<span>研究了一下，不是chocolatey安装的软件，需要先用sync命令</span><br>
+<span>至于这个命令，需要pro或者business editions，简单的说，打钱！！！</span><br>
+</p><p><b>四点: </b><br>
+<span>lvcha 发表于 2019-12-18 15:26</span><br>
+<span>yum apt-get？</span><br>
+<span>homebrew！</span><br>
+</p><p><b>沧粟: </b><br>
+<span>绿色软件直接复制一份就好，大型软件和很多国内软件又不支持，尴尬</span><br>
+</p><p><b>qazesz: </b><br>
+<span>为什么要安装，这些程序全都是压缩包解开即用的，吃饱了没事干？</span><br>
+</p><p><b>abc12354aa: </b><br>
+<span>Mac os优势体现出来了，又可以homebrew，又可以用QQ微信wps office。</span><br>
+<span>包管理设计天下第一！</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>我现在无论是智能手机还是pc，要装的软件就那么固定几个了。感觉我已经没救了。好怀念看大软装机的日子</span><br>
+</p><p><b>モナド: </b><br>
+<span>就是个命令行的包管理器，本质上跟软件管家之流没什么区别，因为是命令行工具，主要面向程序员，choco上开发工具软件应有尽有，绝大多数国外软件也有，国产软件比较少，毕竟国人用的少，愿意维护的也少</span><br>
+</p><p><b>john: </b><br>
+<span>モナド 发表于 2019-12-18 22:12</span><br>
+<span>就是个命令行的包管理器，本质上跟软件管家之流没什么区别，因为是命令行工具，主要面向程序员，choco上开 ...</span><br>
+<span>毕竟国产软件能不装就别装</span><br>
+<span>我现在主机里只有一个TIM是国产，然后最多带一个可装可不装的招行专业版，剩下的全扔虚拟机里去了，避之唯恐不及</span><br>
+</p><p><b>john: </b><br>
+<span>qazesz 发表于 2019-12-18 21:01</span><br>
+<span>为什么要安装，这些程序全都是压缩包解开即用的，吃饱了没事干？</span><br>
+<span>这里面撑死了只有三分之二是可以解开直接用的，而且你需要吃饱了没事干一直维护这些软件的安装包</span><br>
+<span>就算你连维护都懒得维护，本地拷一份这些“绿色”软件再解开所花的精力都大过两个命令行</span><br>
+</p><p><b>忘归然: </b><br>
+<span>Windows store太卡。。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>abc12354aa 发表于 2019-12-18 21:58</span><br>
+<span> Mac os优势体现出来了，又可以homebrew，又可以用QQ微信wps office。 包管理设计天下第一！ </span><br>
+<span>然而mac的pkg包才是耻辱</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>我用这玩意部署tf的编译环境不行，最后还是手工配环境</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>choco 的意义在于升级和免费软件里的推广是默认取消的</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>choco 的意义在于升级和免费软件里的推广是默认取消的</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>choco 的意义在于升级和免费软件里的推广是默认取消的</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>windows装机u盘里80%是破解软件的表示这个用不上</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>o0typhoon0o 发表于 2019-12-18 20:08</span><br>
+<span>研究了一下，不是chocolatey安装的软件，需要先用sync命令</span><br>
+<span>至于这个命令，需要pro或者business editions ...</span><br>
+<span>谢谢！</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>tim和微信都有，坚持用两年试试能省心不</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>zh244102987: </b><br>
+<span>网速慢……难道我装软件还要解决网络问题……</span><br>
+<span>但是很好用</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>linjia: </b><br>
+<span>和Windows store一样，多少软件愿意加入</span><br>
+</p><p><b>obiy: </b><br>
+<span>话说那种msi安装包能支持silent install吗？还是需要刻意做了才支持？</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>绿色软件，直接运行不好么，为啥非要装，既然要装这又比360之类强在哪里？</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>遇到官网安装包就带私货推广的软件怎么办？</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>john: </b><br>
+<span>猫?魔铃 发表于 2019-12-19 16:24</span><br>
+<span>绿色软件，直接运行不好么，为啥非要装，既然要装这又比360之类强在哪里？ ...</span><br>
+<span>上个论坛，回帖先看帖不好么，为啥看个主帖就跑来回，比不带脑子强在哪里，同样的话非要我说两遍那我就说</span><br>
+<span>绿色软件在新电脑上的部署的本来就比无脑直接安装麻烦，绿色软件最大的优点是配置文件也保存在安装目录，但是对于不用配置就可以直接用的软件（比如CPU-Z、DiskInfo）、一定需要配置到注册表里才能用的软件（比如各种调用右键菜单的软件）来说毫无意义，自己存绿色版自己解压还增加了更新到最新版和添加到开始菜单的时间成本</span><br>
+<span>再说了也没逼你用这个装绿色软件啊，不绿的软件怎么办，你把iTunes绿一个给我看看？</span><br>
+<span>比360强在不是360，就这么简单，想不到360居然在泥潭还有市场，失敬</span><br>
+</p><p><b>john: </b><br>
+<span>这是一个马甲 发表于 2019-12-19 17:10</span><br>
+<span>遇到官网安装包就带私货推广的软件怎么办？</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2 ...</span><br>
+<span>回帖先看帖这个忠告同样也送给你，请看前一页最后几楼</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span> 本帖最后由 猫?魔铃 于 2019-12-19 21:11 编辑 </span><br>
+<span>john 发表于 2019-12-19 20:46</span><br>
+<span>上个论坛，回帖先看帖不好么，为啥看个主帖就跑来回，比不带脑子强在哪里，同样的话非要我说两遍那我就说</span><br>
+<span> ...</span><br>
+<span>好大的火气，你爱用用呗，没人逼你，各人有人各的习惯，我爱用，我不爱用，怎么还说不得来着？推广不成功对你刺激有这么大？</span><br>
+</p><p><b>john: </b><br>
+<span>猫?魔铃 发表于 2019-12-19 21:09</span><br>
+<span>好大的火气，你爱用用呗，没人逼你，各人有人各的习惯，我爱用，我不爱用，怎么还说不得来着？推广不成功 ...</span><br>
+<span>看了泥潭十几年还是有注册了也是十几年的老会员上论坛回帖不看帖这一点对我刺激比较大</span><br>
+</p><p><b>starrlit: </b><br>
+<span>这种能自动跑脚本的工具省心是省心，但是得预先配好代理，还最好是全局的。不然遇到那种安装脚本里要从 aws 或者啥国外服务器下文件的就很吃瘪，几 KB/s 等半年。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>唔</span><br>
+<span>虽然看起来不错</span><br>
+<span>但是想想会用的其实自己都有一份自己的安装包</span><br>
+<span>也许优点就在于重装系统后的一键安装</span><br>
+<span>不过国内的特殊情况</span><br>
+<span>一大堆破解版和去广告版之类就很麻烦了</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>本想试试，这脚本跑不动</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>モナド: </b><br>
+<span>linjia 发表于 2019-12-19 16:18</span><br>
+<span>和Windows store一样，多少软件愿意加入</span><br>
+<span>社区维护的，任何人都可以创建新的软件包给别人用，不需要软件开发者去接入</span><br>
+</p><p><b>chen_null: </b><br>
+<span>abc12354aa 发表于 2019-12-18 21:58</span><br>
+<span>Mac os优势体现出来了，又可以homebrew，又可以用QQ微信wps office。</span><br>
+<span>包管理设计天下第一！</span><br>
+<span>homebrew不是苹果开发的，人家的宣传标题是the missing package manager for MACos。所以homebrew和chocolatey是一个级别的东西</span><br>
+<span>—— 来自 Sony G8341, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Geminize: </b><br>
+<span>Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.</span><br>
+<span>停在这行半天不动了</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>现在用的是 Scoop，主要是装一些命令行工具还有绿色软件。剩下像 VS Office 之类的，还是手动装的。基本也够用了。</span><br>
+<span>Chocolatey 好像用了 AutoHotkey 来静默安装一些安装过程比较复杂的软件，有点类似 brew cask</span><br>
+</p><p><b>iou90: </b><br>
+<span>从nuget到choco已经快3年了 这两年真的发展好快 </span><br>
+<span>看了lz得帖子才知道有gui了 不错</span><br>
+<span>choco真是极大得提升了windows得体验</span><br>
+<span>目前除了windows10各种垃圾得地方，ui/ux不一致啊 触控板啊等等等等不多说了</span><br>
+<span>三方软件得痛点对我来说只有qq, wechat了 这俩在高分屏有啥办法？除开显示问题，qq一坨，wechat桌面版滚动卡顿 只能uwp版凑合了 当然巨硬也基本放弃uwp了 ig得store版本都要改pwa了</span><br>
+<span>mac对于我来说最大优势就是qq wechat mac qq太好用了 windows上得qq真的能用吗</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>iou90 发表于 2019-12-21 11:40</span><br>
+<span> 从nuget到choco已经快3年了 这两年真的发展好快看了lz得帖子才知道有gui了 不错 choco真是极大得提升了wi ...</span><br>
+<span>win上tim不是和mac qq差不多的设计么，而且也是有hidpi的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903796[0-50]</guid>
+    </item>
+  </channel>
+</rss>

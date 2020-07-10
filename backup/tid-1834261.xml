@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>计算用服务器 cpu 怎么挑选（主使用 cpu）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>计算用服务器 cpu 怎么挑选（主使用 cpu）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:19:08 +0000</lastBuildDate>
+    <item>
+      <title>计算用服务器 cpu 怎么挑选（主使用 cpu）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834261-1-1.html</link>
+      <description>计算用服务器 cpu 怎么挑选（主使用 cpu）&#13;
+需要给老板配一台新的服务器用来跑 cpu 计算
+&#13;
+除了 cpu，显卡以及主板的部分，只要照抄以前的配置单就可以了
+&#13;
+因为这一台主要使用cpu，显卡不是很重要
+&#13;
+cpu 的话
+&#13;
+老板：『一百核』
+&#13;
+我：『...』
+&#13;
+cpu benchmark 看得眼花，除了看分数和多少个核一概不通
+&#13;
+求问如何在挑选服务器硬件方面获得有效信息，或者如果有什么cpu型号口碑特别好求推荐一下
+&#13;
+预算的话，cpu 加上主板 6w 以内吧，能少一些最好，再多我都不敢看了..</description>
+      <content:encoded><![CDATA[<p><b>Uranium233: </b><br>
+<span>计算用服务器 cpu 怎么挑选（主使用 cpu）</span><br>
+<span>需要给老板配一台新的服务器用来跑 cpu 计算</span><br>
+<span>除了 cpu，显卡以及主板的部分，只要照抄以前的配置单就可以了</span><br>
+<span>因为这一台主要使用cpu，显卡不是很重要</span><br>
+<span>cpu 的话</span><br>
+<span>老板：『一百核』</span><br>
+<span>我：『...』</span><br>
+<span>cpu benchmark 看得眼花，除了看分数和多少个核一概不通</span><br>
+<span>求问如何在挑选服务器硬件方面获得有效信息，或者如果有什么cpu型号口碑特别好求推荐一下</span><br>
+<span>预算的话，cpu 加上主板 6w 以内吧，能少一些最好，再多我都不敢看了..</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>是哪方面的计算？</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-5-25 12:55 编辑 </span><br>
+<span>主板都照抄了，不就限定CPU选择范围了么？想啥呢？</span><br>
+<span>另外，这种玩意儿烦在售后和维护😑</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>两个路人 发表于 2019-5-25 12:54</span><br>
+<span>主板都照抄了，不就限定CPU选择范围了么？想啥呢？</span><br>
+<span>所以说上面说的是除了cpu主板和显卡啊..</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>纯情小鸭鸭 发表于 2019-5-25 12:49</span><br>
+<span>是哪方面的计算？</span><br>
+<span>python 数据处理一类的，有些不太好用 gpu 的计算</span><br>
+</p><p><b>zyhang: </b><br>
+<span>找做服务器／工作站的销售，打电话问，会伺候好你的</span><br>
+</p><p><b>王平: </b><br>
+<span>搭车问下 2600X和9400F选哪一个啊</span><br>
+</p><p><b>startraveller: </b><br>
+<span>计算+一百核也就只有顶配四路xeon能满足了吧 有什么好选的，dell hp随便选一个打电话吧</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>https://m.cpubenchmark.net/high_end_cpus.html</span><br>
+<span>从上往下捡买得起的那个</span><br>
+</p><p><b>低端人口: </b><br>
+<span>双路AMD EPYC</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span> 本帖最后由 adrftgyh 于 2019-5-25 14:24 编辑 </span><br>
+<span>什么？服务器你打算diy？？强者啊.....售后维护什么的都打算自己弄吗~~~</span><br>
+<span>乖乖的找家集成商，需求交出去直接向服务器厂商订购.....</span><br>
+<span>另外，6万块想买100核，似乎有点想太多了，预算乘个5吧...</span><br>
+</p><p><b>cody198879: </b><br>
+<span>便宜的4路e7 v2，买dell的r920准系统，配完3w多点，60核。</span><br>
+<span>贵点的买4路8180或者买4路6150，配超微的准系统，但是价格贵，搞下来9w左右打底吧。</span><br>
+<span>e7v3 v4价格没有下来，性价比不高。</span><br>
+<span>另外4路系统的稳定性其实很好。我配了20套e7v2了，目前都很稳定，除了断电以外在线时间100%。不用太担心，集成商什么的没有100w过去，都是浪费钱</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fang帅: </b><br>
+<span>华为目前最好的是 鲲鹏 920</span><br>
+<span>然而是64核，还是arm得，还带100g的网卡，估计你根本用不到</span><br>
+<span>但是我们学校最新买的就是这个，直接买华为整套的，不为别的，只为打一个电话华为就有人来负责</span><br>
+<span>（自己搞服务器小心把自己玩死</span><br>
+</p><p><b>cody198879: </b><br>
+<span>fang帅 发表于 2019-5-25 14:31</span><br>
+<span>华为目前最好的是 鲲鹏 920</span><br>
+<span>然而是64核，还是arm得，还带100g的网卡，估计你根本用不到</span><br>
+<span>不买集群其实本质就是个大型pc，装个linux或者windows自己玩就好了。有集群自然需要系统运营商维护。6w的预算就老实自己玩，别去dell那边看人脸色了</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Uranium233: </b><br>
+<span> 本帖最后由 Uranium233 于 2019-5-25 15:20 编辑 </span><br>
+<span>运维当然不是我来做..只是叫我确认一下现在大概哪些硬件比较合适，然后去外面订</span><br>
+<span>和楼上说得一样，不是集群，买个大型 PC</span><br>
+</p><p><b>董卓: </b><br>
+<span>家里作坊都是二手双路e5搭的集群……</span><br>
+<span>性价比倒是无敌</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>EPYC2 </span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>6万预算不要想太多，要性能加钱，公司用又不能捡垃圾装机</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>DeepFishing 发表于 2019-5-25 15:54</span><br>
+<span>6万预算不要想太多，要性能加钱，公司用又不能捡垃圾装机</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅 ...</span><br>
+<span> 啊，是学校实验室..</span><br>
+</p><p><b>ArtoriaPendrago: </b><br>
+<span>学校采购不都有专门的经销商吗，基本没什么可挑的，有多少钱付多少钱就完事了。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>六万一百核，公家买又不能二手，估计只能库存老机？</span><br>
+</p><p><b>warrior: </b><br>
+<span>LZ预算那么多随便揪打一个厂家的售前就行了啊</span><br>
+<span>我们这种穷的只能去淘淘二手的服务器，双路的E5V2之类的也够用了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>六万块连64核ARM都买不起</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>爱夏 发表于 2019-5-25 21:29</span><br>
+<span>六万一百核，公家买又不能二手，估计只能库存老机？</span><br>
+<span>我对CPU价格没啥概念，</span><br>
+<span>直接按着之前别人配的共计两颗16核cpu的</span><br>
+<span>大概的价格直接乘了个 6</span><br>
+<span>查了一下发现价格也不是随核数和主频线性增长的呀，新出的 28 核 8280 公价一万刀可还行吧 </span><br>
+<span>给个预算让供应那边自己看着弄吧..</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>zatsuza 发表于 2019-5-25 21:52</span><br>
+<span>六万块连64核ARM都买不起</span><br>
+<span>64 核 arm 是做什么用的..</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>Uranium233 发表于 2019-5-25 21:54</span><br>
+<span>64 核 arm 是做什么用的..</span><br>
+<span>就是现在几个厂商在搞的arm服务器啦，菊花海思也在做的</span><br>
+</p><p><b>404489039: </b><br>
+<span>写配置给代理商报价，100核得两台双路服务器</span><br>
+</p><p><b>macos: </b><br>
+<span>多核心要专门优化，不是大量线程并行的话根本利用不完cpu</span><br>
+</p><p><b>muderx: </b><br>
+<span>老板个人使用还是单位使用？如果是需要用到高性能服务器的老板通常不需要手下配置。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>Uranium233 发表于 2019-5-25 21:53</span><br>
+<span>我对CPU价格没啥概念，</span><br>
+<span>直接按着之前别人配的共计两颗16核cpu的</span><br>
+<span>大概的价格直接乘了个 6</span><br>
+<span>核心多，芯片面积大，良品率会下降，再加上销量低，所以你懂的</span><br>
+<span>而且这种多核往往功能也增加了（更多路并行，更多内存支持等等）</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>6w，100核</span><br>
+<span>你等等epyc2说不定有机会，某宝epyc 7551 1w多32核。</span><br>
+<span>但农企嘛，可能会遇到各种坑</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>fang帅 发表于 2019-5-25 14:31</span><br>
+<span>华为目前最好的是 鲲鹏 920</span><br>
+<span>然而是64核，还是arm得，还带100g的网卡，估计你根本用不到</span><br>
+<span>这玩意真有人买 ？</span><br>
+</p><p><b>Radeon: </b><br>
+<span>czgzxc 发表于 2019-5-25 23:07</span><br>
+<span>6w，100核</span><br>
+<span>你等等epyc2说不定有机会，某宝epyc 7551 1w多32核。</span><br>
+<span>但农企嘛，可能会遇到各种坑 ...</span><br>
+<span>1万多的7551只能是拆机二手货，公家能买二手?</span><br>
+<span>能买的话8180也是一万多</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span> 本帖最后由 sblnrrk 于 2019-5-26 01:02 编辑 </span><br>
+<span>100核，目前应该只有XEON 8173 28核 *4最接近了，大概一万二一块，剩下买 主板</span><br>
+<span>不过你敢买零件，可不好说坏了找谁</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>Uranium233 发表于 2019-5-25 12:56</span><br>
+<span>python 数据处理一类的，有些不太好用 gpu 的计算</span><br>
+<span>论会cuda的重要性，100核CPU又贵，还可能依然比不过几张显卡</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>Mocilol 发表于 2019-5-26 02:19</span><br>
+<span>论会cuda的重要性，100核CPU又贵，还可能依然比不过几张显卡</span><br>
+<span>你说的显卡也便宜不了，一张两万起步。。。</span><br>
+<span>你说直接买rtx？那和淘宝组装机没区别</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>startraveller 发表于 2019-5-25 13:58</span><br>
+<span>计算+一百核也就只有顶配四路xeon能满足了吧 有什么好选的，dell hp随便选一个打电话吧</span><br>
+<span>—— 来自 HUAWEI...</span><br>
+<span>6w能打住吗？</span><br>
+</p><p><b>望月凝香: </b><br>
+<span>做什么计算的？</span><br>
+<span>要考虑多核并行效率，绝大多数计算软件在超过8核后并行效率就很难看了。比较常见的是32核心的机器跑4个8核的任务。如果你们的应用类似这种，不如上两台二手双路E5。</span><br>
+<span>当然如果是针对了多核特别优化的，那没办法，上E7吧。不过预算就飙升了。</span><br>
+</p><p><b>YoumuChan: </b><br>
+<span>为啥不租学校的超算集群而是要自己组啊...</span><br>
+</p><p><b>你的全家: </b><br>
+<span>一百核啊</span><br>
+<span>那只有EPYC了</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>还有就是楼上也有人说了 受制于许多因素，没有特别优化的并行是有上限的</span><br>
+<span>取决于你怎么做</span><br>
+<span>理想是 一个计算任务跑不太短的时间 然后刚好有逻辑核心数那么多个计算任务 特别是python</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>dennisyy: </b><br>
+<span>想多了，一般学校里1000块钱以上的设备都得走设备采购流程，采购目录和供应商都是指定的。6w块钱的都属于大设备，还需要专家论证书之类的一大堆手续，根本不是你能搞得定的。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>startraveller: </b><br>
+<span>Realplayer 发表于 2019-5-26 02:59</span><br>
+<span>6w能打住吗？</span><br>
+<span>感觉不能</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834261[0-50]</guid>
+    </item>
+  </channel>
+</rss>

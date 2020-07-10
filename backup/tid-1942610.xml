@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求科普U2 SSD入手注意事项</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求科普U2 SSD入手注意事项</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:41:50 +0000</lastBuildDate>
+    <item>
+      <title>求科普U2 SSD入手注意事项[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942610-1-1.html</link>
+      <description>求科普U2 SSD入手注意事项&#13;
+请教下用得多的大虾，U2 SSD是不是和M2的相比，容价比比较高，适合个人使用么，发热什么的如何？如果用PCIE的转接卡，是不是也会影响显卡带宽？如果要在买淘宝的话，有没有注意事项避免翻车的？</description>
+      <content:encoded><![CDATA[<p><b>testalphagogogo: </b><br>
+<span>求科普U2 SSD入手注意事项</span><br>
+<span>请教下用得多的大虾，U2 SSD是不是和M2的相比，容价比比较高，适合个人使用么，发热什么的如何？如果用PCIE的转接卡，是不是也会影响显卡带宽？如果要在买淘宝的话，有没有注意事项避免翻车的？</span><br>
+</p><p><b>john: </b><br>
+<span>你为什么会有U2适合个人使用的错觉</span><br>
+<span>根本就没有针对个人销售的产品</span><br>
+</p><p><b>騜: </b><br>
+<span>买U2的都是用一天赚一天的，翻了你也没地方闹</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>騜 发表于 2020-6-19 10:55</span><br>
+<span>买U2的都是用一天赚一天的，翻了你也没地方闹</span><br>
+<span>当年我从本地电脑城淘的垃圾SCSI盘用来挂BT，24小时连轴跑也用了3、4年，U2没这么脆弱吧，也说了是个人用...</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>john 发表于 2020-6-19 10:52</span><br>
+<span>你为什么会有U2适合个人使用的错觉</span><br>
+<span>根本就没有针对个人销售的产品</span><br>
+<span>呃我的意思，一是不是公家用不需要太考虑安全和特别稳定所以能不能用这两点来换性能和容量，二是不了解U2的特性，应该没啥会影响性能的操作吧= =</span><br>
+</p><p><b>john: </b><br>
+<span>testalphagogogo 发表于 2020-6-19 11:00</span><br>
+<span>呃我的意思，一是不是公家用不需要太考虑安全和特别稳定所以能不能用这两点来换性能和容量，二是不了解U2 ...</span><br>
+<span>喷了，公家用就是需要特别稳定所以价格昂贵，你现在能买到的都是不知道哪来的洋垃圾所以价格OK</span><br>
+<span>这两天CHH正好有个OEM盘直喷帖，OEM企业盘有固件更新还需要挂在原厂服务器上来做</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>john 发表于 2020-6-19 11:10</span><br>
+<span>喷了，公家用就是需要特别稳定所以价格昂贵，你现在能买到的都是不知道哪来的洋垃圾所以价格OK</span><br>
+<span>这两天CH ...</span><br>
+<span>只有过用古老SCSI的经验，其实就是想问U2是否也一样，负载相对不那么高的个人使用情况下工作时间和性能是否也能坚持心理预期。当然如果SSD这玩意儿具体情况完全不一样的话也就算了...</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>建议你还是不要入坑了，OEM盘卖家一手渠道负责更新固件的太少，剩下的全是ES测试版和上机几万小时的洋垃圾</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>个人用主要还是接口问题啊，搞个PCIE转接卡问题不大，发热还是有的，但是要考虑一下你显卡和这个转接卡之间的距离有多大，不然显卡非竖置的情况下散热确实比较不理想</span><br>
+<span>如果怕散热用M2转U2的转接卡也行，不出意外的话不会占用你PCIE X16的带宽</span><br>
+<span>保修这个就是看脸了（基本没有），我用的P3600系列，更新固件必须用命令行，其他没啥</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>john 发表于 2020-6-19 10:52</span><br>
+<span>你为什么会有U2适合个人使用的错觉</span><br>
+<span>根本就没有针对个人销售的产品</span><br>
+<span>905P也是消费级啊</span><br>
+</p><p><b>jestime: </b><br>
+<span>转接卡和m2转u2线是最便宜的方案，不会影响显卡速度，主板不支持拆分走南桥会和sata那些抢速度，一般一块硬盘问题也不大，我都在chh那个店家买，发热我就碰到4t的d4502热量特别大，待机60度，其他都比m2凉快</span><br>
+</p><p><b>喜欢破鞋: </b><br>
+<span>我买的u2 pm963 1.92t 900块爽的一逼</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>我寻思905p不也是消费级，也有u.2在那卖啊，太贵罢了。热不热有风扇吹还好，我那块750常年30多度，转接性能基本没啥损耗，显卡会不会跑在x8上看你啥平台，但说实话现在基本没啥船货，全是js的库存货，价格没啥优势，这类ssd合适的购买窗口已经过去了，普通家用买个sn550就行了。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>longooyue: </b><br>
+<span>发热什么的如何？ 相比m2接口好很多</span><br>
+<span>如果用PCIE的转接卡，是不是也会影响显卡带宽？能让你用上的pcie通道也是够得</span><br>
+<span>如果要在买淘宝的话，有没有注意事项避免翻车的？买前烧香</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>多谢各位回复，退烧了= =</span><br>
+</p><p><b>刘佐: </b><br>
+<span>john 发表于 2020-6-19 11:10</span><br>
+<span>喷了，公家用就是需要特别稳定所以价格昂贵，你现在能买到的都是不知道哪来的洋垃圾所以价格OK</span><br>
+<span>这两天CH ...</span><br>
+<span>有传送门么？求一个</span><br>
+</p><p><b>john: </b><br>
+<span>刘佐 发表于 2020-6-20 12:21</span><br>
+<span>有传送门么？求一个</span><br>
+<span>https://www.chiphell.com/thread-2234008-1-4.html</span><br>
+</p><p><b>flymop: </b><br>
+<span>你这是送上门的韭菜，scsi盘能清零么，scsi盘有更新固件么，scsi盘只有多少翻车的</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span> 本帖最后由 testalphagogogo 于 2020-6-20 21:32 编辑 </span><br>
+<span>flymop 发表于 2020-6-20 18:04</span><br>
+<span>你这是送上门的韭菜，scsi盘能清零么，scsi盘有更新固件么，scsi盘只有多少翻车的 ...</span><br>
+<span>你在说啥，SCSI个机械盘哪需要啥清零，而且我连着挂了4年的BT也没出问题</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>就想问下，买这些盘是因为价格有极大优势吗</span><br>
+</p><p><b>madbird302: </b><br>
+<span>外挂全家脚气 发表于 2020-6-20 23:05</span><br>
+<span>就想问下，买这些盘是因为价格有极大优势吗</span><br>
+<span>是便宜，但也是对数据不负责</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>madbird302 发表于 2020-6-20 23:06</span><br>
+<span>是便宜，但也是对数据不负责</span><br>
+<span>至今没翻车的C2KP 2T价格最好是2T 1299，这些能到什么价？</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>madbird302 发表于 2020-6-20 23:06</span><br>
+<span>是便宜，但也是对数据不负责</span><br>
+<span>拿来做系统盘和游戏盘呢，数据啥的都备份去机械盘等等</span><br>
+</p><p><b>两个路人: </b><br>
+<span>外挂全家脚气 发表于 2020-6-20 23:05</span><br>
+<span>就想问下，买这些盘是因为价格有极大优势吗</span><br>
+<span>在强国禁止电子垃圾进口之前，那是非常的便宜。你花和行货同样或者更少的钱，能得到多一倍的容量 </span><br>
+</p><p><b>madbird302: </b><br>
+<span>外挂全家脚气 发表于 2020-6-20 23:14</span><br>
+<span>至今没翻车的C2KP 2T价格最好是2T 1299，这些能到什么价？</span><br>
+<span>去年开车的时候PM983 963很便宜，现在就完了，另外对本坦禁字不做评论</span><br>
+</p><p><b>madbird302: </b><br>
+<span>testalphagogogo 发表于 2020-6-20 23:26</span><br>
+<span>拿来做系统盘和游戏盘呢，数据啥的都备份去机械盘等等</span><br>
+<span>日常运行数据做好不要用大车盘，那东西也就是搭个NAS或者PT比较好用</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span> 本帖最后由 shiraikuroko 于 2020-6-21 00:29 编辑 </span><br>
+<span>外挂全家脚气 发表于 2020-6-20 23:14</span><br>
+<span>至今没翻车的C2KP 2T价格最好是2T 1299，这些能到什么价？</span><br>
+<span>1.92t pm983最低960，3.84t pm963最低1700 ，4t pblaze5 d700最低1800</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>elflie: </b><br>
+<span>只合适拿来存游戏或者BT做种</span><br>
+</p><p><b>xiaowufeixia: </b><br>
+<span>说下我的船经吧，买了忆恒创源的PBlaze5 4T 1900入的，至今还是单价最便宜的SSD，1DWPD做传家宝还差点，写到死估计没问题。镁光9100pro AIC 3.2T 非U2，插卡式比U2款贵的多，3k6入的，图个MLC，实际规格书上的寿命还不如堆叠的TLC。星星星SM963 480G 22110款的，只能插台式机主板，图那几颗钽电容，370入的。牙膏P4600 3.2T，插公司电脑，2k7入的。</span><br>
+<span>企业级盘好处是不掉速，稳定，有可靠的写寿命(1DWPD起步，换算下就是1800PE)，掉电保护完善(不能开启操作系统级别的写缓存)。缺点就是保修麻烦，官方售后基本没戏，像我发过邮件问忆恒创源要最新固件就没有下文。找家大点的店店保吧。</span><br>
+</p><p><b>flymop: </b><br>
+<span>testalphagogogo 发表于 2020-6-20 21:29</span><br>
+<span>你在说啥，SCSI个机械盘哪需要啥清零，而且我连着挂了4年的BT也没出问题</span><br>
+<span>机械盘怎么没清0了</span><br>
+<span>你铁了心要买，就买个试试呗，也不是每个都翻车的，一大半都用着好好的</span><br>
+</p><p><b>jestime: </b><br>
+<span>外挂全家脚气 发表于 2020-6-20 23:14</span><br>
+<span>至今没翻车的C2KP 2T价格最好是2T 1299，这些能到什么价？</span><br>
+<span>c2kp这种白片，没有可比性</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942610[0-50]</guid>
+    </item>
+  </channel>
+</rss>

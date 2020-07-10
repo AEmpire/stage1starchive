@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ssd在碎片整理和删除文件恢复方面和机械硬盘完全不同？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ssd在碎片整理和删除文件恢复方面和机械硬盘完全不同？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:42:40 +0000</lastBuildDate>
+    <item>
+      <title>ssd在碎片整理和删除文件恢复方面和机械硬盘完全不同？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840202-1-1.html</link>
+      <description>ssd在碎片整理和删除文件恢复方面和机械硬盘完全不同？&#13;
+不懂就问系列</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>ssd在碎片整理和删除文件恢复方面和机械硬盘完全不同？</span><br>
+<span>不懂就问系列</span><br>
+</p><p><b>litel: </b><br>
+<span>机械寻道要时间，ssd寻道是等于直接跳转，所以ssd有碎片也不影响读取速度。。。</span><br>
+<span>磁记录读写基本不损失寿命，ssd写入损耗寿命，所以ssd做碎片整理纯粹是消耗ssd寿命。。。</span><br>
+</p><p><b>john: </b><br>
+<span>litel 发表于 2019-6-17 19:27</span><br>
+<span>机械寻道要时间，ssd寻道是等于直接跳转，所以ssd有碎片也不影响读取速度。。。</span><br>
+<span>磁记录读写基本不损失寿命 ...</span><br>
+<span>磁记录读写当然有损失寿命，业界标准一般是55TB/年，读写都算，NAS/监控/企业一般是180TB/年</span><br>
+<span>就拿泥潭政治正确的东芝桌面硬盘来说，保修两年每年55TB意味着保内只有110TB的读写寿命，而泥潭政治不正确的QLC SSD最低也是100TB起，只算写不算读</span><br>
+</p><p><b>Hieda: </b><br>
+<span>ssd不需要碎片整理，但是你可以discard/fstrim</span><br>
+</p><p><b>gaiden: </b><br>
+<span>win10自带碎片整理对ssd只是写优化而不是整理了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lhm123: </b><br>
+<span> 本帖最后由 lhm123 于 2019-6-18 00:18 编辑 </span><br>
+<span>   机械硬盘在负载范围内运作，基本不影响其可靠性。的确如2楼所说，机械盘做碎片整理基本不会损失寿命，而ssd会。 ssd工作原理也决定了可以不作碎片整理。</span><br>
+<span>另外，对于西数希捷两家的盘来说，企业级每年的负载是550TB，在5年保修范围内的总负载寿命 大致是 2750 TB（设计寿命，超出了不一定就会出故障，看几率） 平均下来每小时负载是321.4 GB，每秒读写91MB，差不多就是标准持续读写速度上限，所以一般情况下不会超过负载。 这么来看，机械盘读写慢其实也是有好处的嘛.</span><br>
+<span>相关</span><br>
+<span>希捷： 硬盘工作负载如何影响总拥有成本       作者：Andrei Khurshudov 博士，云建模与数据分析，希捷科技有限公司</span><br>
+<span>...............</span><br>
+<span>   理想状态下，我们希望台式机环境的硬盘使用时间平均是约 2400 开机小时/年，对应约 6.5 小时/天。我们对近线或关键任务环境的期望值是硬盘 100% 运行（24 小时/天），即 8760 开机小时/年。显然，我们希望近线和关键任务硬盘以更高使用时间压力运行。因此，开发和测试硬盘时，其设计和测试协议是根据预期未来操作条件（包括时间、温度和工作负载）而选择。</span><br>
+<span>   多年的研究和实验使希捷工程师了解工作负载对硬盘可靠性的复杂影响并得出以下结论：</span><br>
+<span>*每种硬盘类型都有一些现定义为工作负载评级限制 (WRL) 的安全工作负载阈值。</span><br>
+<span>*只要工作负载不超过工作负载评级限制，工作压力会极少甚至不影响产品的可靠性和故障率。</span><br>
+<span>*超出工作负载评级限制时，产品的可靠性即开始下降。</span><br>
+<span>   因此，了解实际数据中心的工作负载压力并选择相应硬盘非常重要。表 1 概括希捷对于为不同数据中心环境选择最适硬盘的建议。</span><br>
+<span>表 1. 按工作负载的硬盘选择建议</span><br>
+<span>工作负载建议的产品类别   工作负载评级限制</span><br>
+<span>轻         近线轻                  <180   TB/年</span><br>
+<span>重         近线                     <550   TB/年</span><br>
+<span>------------------------</span><br>
+<span> 西部数据 企业级 也是550TB/年</span><br>
+<span>WD Gold Ultrastar 硬盘的秘密要素是，它具有高达相当于台式硬盘10 倍的工作负载率，并应用先进技术，可实现企业级硬盘的可靠性、能效和性能。Ultrastar 硬盘秉持成为超强大存储设备的设计理念，是非常适合您企业的解决方案。</span><br>
+<span>Ultrastar 硬盘可针对任何存储环境提供可靠的性能，年工作负载率1高达 550TB，是台式硬盘的 10 倍。</span><br>
+<span>Ultrastar 硬盘拥有长达 250 万小时平均故障间隔时间 (MTBF)，提供超高的可靠性和耐用性，可在苛刻的存储环境中全年 (24×7×365) 不间断运行，并享有 5 年有限质保服务。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840202[0-50]</guid>
+    </item>
+  </channel>
+</rss>

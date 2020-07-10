@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下局域网串流播放BD的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下局域网串流播放BD的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:27:41 +0000</lastBuildDate>
+    <item>
+      <title>请教一下局域网串流播放BD的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861632-1-1.html</link>
+      <description>请教一下局域网串流播放BD的问题&#13;
+这几年混了些pt站，收集了不少BD
+&#13;
+天气转凉了，想躺在床上用平板看，就动了搞局域网串流的念头
+&#13;
+目前做了以下尝试：
+&#13;
+1、直接移动硬盘接路由器，可以播放，但是很不方便，另外还不支持外挂字幕
+&#13;
+2、移动硬盘接在电脑上，windows开文件分享，问题同上
+&#13;
+3、用kodi+plex，又出现了特别奇妙的问题，感觉是因为plex的文件识别逻辑导致的：
+&#13;
+      如果选择文件夹类型为电影，那会把每一集都单独识别为一部片子，索引起来非常麻烦；
+&#13;
+      如果设定成电视serials，有一部分BD能正常识别，另一部分就识别不了（目录里不显示）
+&#13;
+      对外挂字幕的支持也是有的能加载，有的加载不了
+&#13;
+感觉泥潭应该也有人折腾过这个，请教一下，有没有什么办法实现局域网串流播放BD并且支持外挂字幕呢？
+&#13;
+如果我双十一购入一款NAS的话，能解决吗？
+&#13;
+或者说plex/kodi还有别的什么插件设置啥的我没发现？</description>
+      <content:encoded><![CDATA[<p><b>Vicarious: </b><br>
+<span>请教一下局域网串流播放BD的问题</span><br>
+<span>这几年混了些pt站，收集了不少BD</span><br>
+<span>天气转凉了，想躺在床上用平板看，就动了搞局域网串流的念头</span><br>
+<span>目前做了以下尝试：</span><br>
+<span>1、直接移动硬盘接路由器，可以播放，但是很不方便，另外还不支持外挂字幕</span><br>
+<span>2、移动硬盘接在电脑上，windows开文件分享，问题同上</span><br>
+<span>3、用kodi+plex，又出现了特别奇妙的问题，感觉是因为plex的文件识别逻辑导致的：</span><br>
+<span>      如果选择文件夹类型为电影，那会把每一集都单独识别为一部片子，索引起来非常麻烦；</span><br>
+<span>      如果设定成电视serials，有一部分BD能正常识别，另一部分就识别不了（目录里不显示）</span><br>
+<span>      对外挂字幕的支持也是有的能加载，有的加载不了</span><br>
+<span>感觉泥潭应该也有人折腾过这个，请教一下，有没有什么办法实现局域网串流播放BD并且支持外挂字幕呢？</span><br>
+<span>如果我双十一购入一款NAS的话，能解决吗？</span><br>
+<span>或者说plex/kodi还有别的什么插件设置啥的我没发现？</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-10-27 08:22 编辑 </span><br>
+<span>2. 你播放器问题 </span><br>
+<span>nplayer可以自动识别文件夹下同名字幕</span><br>
+<span>等一下你说的bd是bdmv还是bdrip</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oskneo: </b><br>
+<span>用win直接接win也有问题，用的是无线，</span><br>
+<span>有时会突然卡住，速度大降，</span><br>
+<span>但这时候明明直接传文件速度是正常的，不解。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>试试mxplayer，我试了nplayer kmpplayer VLC，只有mxplay能正常加载ass外挂，其他全是口口口</span><br>
+<span>但是mxplayer要建立字体缓存，建立很久，烦</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>nplayer 木有这个字幕问题，文件名相同可以直接放，也可以手动添加加载字幕，同样需要字体缓存，安卓版请购买正版哦</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>伊克路西安 发表于 2019-10-27 04:01</span><br>
+<span>2. 你播放器问题 </span><br>
+<span>nplayer可以自动识别文件夹下同名字幕</span><br>
+<span>串BDMV也太暴力了吧</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>https://github.com/docblue/chfsgui</span><br>
+<span>试试看</span><br>
+</p><p><b>螺丝刀LSD: </b><br>
+<span>我家是靠NAS实现的，用Maxplayer或者（如果是群晖的话dsplayer也可以）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861632[0-50]</guid>
+    </item>
+  </channel>
+</rss>

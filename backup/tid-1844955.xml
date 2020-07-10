@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>windows terminal预览版已经可以从商店安装了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>windows terminal预览版已经可以从商店安装了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:42 +0000</lastBuildDate>
+    <item>
+      <title>windows terminal预览版已经可以从商店安装了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844955-1-1.html</link>
+      <description>windows terminal预览版已经可以从商店安装了&#13;
+ 本帖最后由 四控大叔 于 2019-7-8 10:03 编辑 
+
+警告：这是预览版
+&#13;
+进入微软商店搜索Windows Terminal 即可安装。
+&#13;
+进入以后快速修改几个基本的配置可以让它变得美观好用。配置是用json编写的。
+&#13;
+1.修改默认开启的shell（默认打开powershell）。在配置中找到名为Profiles的key，可以看到已经内置了powershell，cmd，wsl-ubuntu三个配置。你可以复制下想要默认打开的shell比如CMD对应配置的guid，然后在global的key下面修改：
+&#13;
+"defaultProfile" : "对应配置的guid"2.开启亚克力效果。在你想开启亚克力效果的终端配置中修改：
+&#13;
+"useAcrylic" : true亚克力效果还需要透明才能体现：
+&#13;
+"colorScheme" : "One Half Dark"3.已经内置了若干配色方案在scheme键中，除了上面的One Half Dark，你还可以尝试其它。
+&#13;
+截图：
+&#13;
+https://i.loli.net/2019/07/07/5d21b6238cca615125.png
+&#13;
+https://i.loli.net/2019/07/07/5d21b5c1b6bbd26817.png</description>
+      <content:encoded><![CDATA[<p><b>四控大叔: </b><br>
+<span>windows terminal预览版已经可以从商店安装了</span><br>
+<span> 本帖最后由 四控大叔 于 2019-7-8 10:03 编辑 </span><br>
+<span>警告：这是预览版</span><br>
+<span>进入微软商店搜索Windows Terminal 即可安装。</span><br>
+<span>进入以后快速修改几个基本的配置可以让它变得美观好用。配置是用json编写的。</span><br>
+<span>1.修改默认开启的shell（默认打开powershell）。在配置中找到名为Profiles的key，可以看到已经内置了powershell，cmd，wsl-ubuntu三个配置。你可以复制下想要默认打开的shell比如CMD对应配置的guid，然后在global的key下面修改：</span><br>
+<span>"defaultProfile" : "对应配置的guid"2.开启亚克力效果。在你想开启亚克力效果的终端配置中修改：</span><br>
+<span>"useAcrylic" : true亚克力效果还需要透明才能体现：</span><br>
+<span>"colorScheme" : "One Half Dark"3.已经内置了若干配色方案在scheme键中，除了上面的One Half Dark，你还可以尝试其它。</span><br>
+<span>截图：</span><br>
+<img src="https://i.loli.net/2019/07/07/5d21b6238cca615125.png" title="https://i.loli.net/2019/07/07/5d21b6238cca615125.png"><br>
+<img src="https://i.loli.net/2019/07/07/5d21b5c1b6bbd26817.png" title="https://i.loli.net/2019/07/07/5d21b5c1b6bbd26817.png"><br>
+</p><p><b>紧那罗: </b><br>
+<span>这个是微软官方做的？</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>紧那罗 发表于 2019-7-7 17:23</span><br>
+<span>这个是微软官方做的？</span><br>
+<span>是的，而且开源。你可以在GitHub找到它。</span><br>
+</p><p><b>obiy: </b><br>
+<span>这个是默认字体？终于变好看了</span><br>
+<span>macOS价值-1</span><br>
+</p><p><b>droople: </b><br>
+<span>win7可以装吗？</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>obiy 发表于 2019-7-7 17:43</span><br>
+<span>这个是默认字体？终于变好看了</span><br>
+<span>macOS价值-1</span><br>
+<span>是默认字体，叫Consolas</span><br>
+</p><p><b>cqkxywj: </b><br>
+<span>Windows上不是有那么多terminal嘛，我看mac开发者也没几个人用官方的，都是用iterm2</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>droople 发表于 2019-7-7 17:44</span><br>
+<span>win7可以装吗？</span><br>
+<span>----发送自 Xiaomi MIX 2S,Android 9</span><br>
+<span>目前还不行</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>四控大叔 发表于 2019-7-7 17:49</span><br>
+<span>目前还不行</span><br>
+<span>自己从github上拉源码编起来也许可以（？）</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Hint: </b><br>
+<span>我装上之后profile.json 里面没有wsl 的profile，自己装了wsl之后也没有。话说guid可以随便写一个吗？我这里solarized 之类的profile都没有guid</span><br>
+</p><p><b>Kobayashi: </b><br>
+<span>除了皮肤，有什么区别吗</span><br>
+<span>我还是接着用我的ConEmu </span><br>
+</p><p><b>Prushka: </b><br>
+<span>等正式版</span><br>
+</p><p><b>zanber: </b><br>
+<span> 本帖最后由 zanber 于 2019-7-7 18:46 编辑 </span><br>
+<span>这东西窗口化的时候不能移动窗口？还是说配置文件要修改？</span><br>
+<span>艹，能移动窗口的位置就那么一点，这什么UI逻辑</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>zanber 发表于 2019-7-7 18:39</span><br>
+<span>这东西窗口化的时候不能移动窗口？还是说配置文件要修改？</span><br>
+<span>移动带颜色的部分，白色的是tab</span><br>
+</p><p><b>zanber: </b><br>
+<span>すぴぱら 发表于 2019-7-7 18:44</span><br>
+<span>移动带颜色的部分，白色的是tab</span><br>
+<span>我正好两部分都是白色，shit这UI是哪个星际选手做的</span><br>
+</p><p><b>费老师: </b><br>
+<span>有包管理器吗</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>RAMDA 发表于 2019-7-7 17:54</span><br>
+<span>自己从github上拉源码编起来也许可以（？）</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>不行的。编译需求里有一条：You must be running Windows 1903 (build >= 10.0.18362.0) or above in order to run Windows Terminal.</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>费老师 发表于 2019-7-7 18:52</span><br>
+<span>有包管理器吗</span><br>
+<span>没有，推荐chocolately:https://chocolatey.org</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>LTSC枯了</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>"requestedTheme" : "dark",</span><br>
+<span>"showTabsInTitlebar" : false,</span><br>
+<span>多个标题栏，方便拖拽</span><br>
+<span>ui 太难看等正式版看看，继续用 terminus，可惜更到 1903 窗口拖拽有 bug</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>问一下尝鲜的，这个比ConEmu有什么强的地方</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>补全怎么样</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>samfs: </b><br>
+<span>这东西目前还挺糙的，还需要完善</span><br>
+</p><p><b>归蝶: </b><br>
+<span>赤色彗星SEXY 发表于 2019-7-7 21:09</span><br>
+<span>补全怎么样</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+<span>这个是终端，补全是shell的功能</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>四控大叔 发表于 2019-7-7 17:25</span><br>
+<span>是的，而且开源。你可以在GitHub找到它。</span><br>
+<span>看了下是cpp 那应该不是用xterm.js做的 值得一试xterm系的终端最烦的问题就是tab补全的时候会错位</span><br>
+<span>另外不知道对宽字符支持怎么样</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>1903才能装 妈的</span><br>
+</p><p><b>Zest: </b><br>
+<span>四控大叔 发表于 2019-7-7 19:19</span><br>
+<span>不行的。编译需求里有一条：You must be running Windows 1903 (build >= 10.0.18362.0) or above in ord ...</span><br>
+<span>傻逼阿三码农</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>Hint 发表于 2019-7-7 17:58</span><br>
+<span>我装上之后profile.json 里面没有wsl 的profile，自己装了wsl之后也没有。话说guid可以随便写一个吗？我这 ...</span><br>
+<span>可能是需要先有wsl再安装windows terminal才会自动生成配置。贴一下我的供参考：</span><br>
+<span>      {</span><br>
+<span>            "acrylicOpacity" : 0.5,</span><br>
+<span>            "closeOnExit" : true,</span><br>
+<span>            "colorScheme" : "Solarized Dark",</span><br>
+<span>            "commandline" : "wsl.exe -d Ubuntu",</span><br>
+<span>            "cursorColor" : "#FFFFFF",</span><br>
+<span>            "cursorShape" : "bar",</span><br>
+<span>            "fontFace" : "Consolas",</span><br>
+<span>            "fontSize" : 14,</span><br>
+<span>            "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}",</span><br>
+<span>            "historySize" : 9001,</span><br>
+<span>            "icon" : "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",</span><br>
+<span>            "name" : "Ubuntu",</span><br>
+<span>            "padding" : "0, 0, 0, 0",</span><br>
+<span>            "snapOnInput" : true,</span><br>
+<span>            "useAcrylic" : false</span><br>
+<span>      }</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>标签根本看不出来哪个是当前的</span><br>
+<span>标签的文字也一直不变</span><br>
+</p><p><b>trentswd: </b><br>
+<span>cqkxywj 发表于 2019-7-7 17:48</span><br>
+<span>Windows上不是有那么多terminal嘛，我看mac开发者也没几个人用官方的，都是用iterm2 ...</span><br>
+<span>windows上terminal多，但是没几个好用的</span><br>
+<span>想找个支持256色的都难</span><br>
+<span>另外这个官方terminal也忒难用了</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>当初出来的时候吹得花里胡哨,还支持emoji,下来用了几天,滚啊</span><br>
+</p><p><b>拾与拾柒: </b><br>
+<span>用了一下，感觉还行</span><br>
+</p><p><b>原装大小姐: </b><br>
+<span>build了一个出来试了下，延迟太高，我还是继续bash得了</span><br>
+</p><p><b>Hint: </b><br>
+<span>四控大叔 发表于 2019-7-8 09:10</span><br>
+<span>可能是需要先有wsl再安装windows terminal才会自动生成配置。贴一下我的供参考：</span><br>
+<span> ...</span><br>
+<span>感谢，手动添加配置就能用了</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>这个是干嘛用的？</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>只会用putty，惭愧……</span><br>
+<span>所以putty有什么缺点么？</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>Jet.Black 发表于 2019-7-8 16:08</span><br>
+<span>只会用putty，惭愧……</span><br>
+<span>所以putty有什么缺点么？</span><br>
+<span>用途不一样，putty主要是ssh远程连接用的，这个本地终端。可以当作一个功能更多更美观的CMD。</span><br>
+</p><p><b>linjia: </b><br>
+<span>四控大叔 发表于 2019-7-8 16:33</span><br>
+<span>用途不一样，putty主要是ssh远程连接用的，这个本地终端。可以当作一个功能更多更美观的CMD。 ...</span><br>
+<span>xshell不做任何连接，打开新会话也是一个本地连接</span><br>
+</p><p><b>Psyche: </b><br>
+<span>装了, 设置打不开是什么鬼</span><br>
+<span>看来还得等巨硬慢慢改进</span><br>
+<span>vscode 挺好用的, 认真起来的挺巨硬还是值得期待的</span><br>
+</p><p><b>Psyche: </b><br>
+<span>搜了一下 GitHub 打不开设置是因为 json 文件没有关联打开程序</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>用过删了，没fluent terminal好看和好用，当然fluent terminal也一堆毛病，window平台真是没一个能打的终端</span><br>
+</p><p><b>拾与拾柒: </b><br>
+<span>Psyche 发表于 2019-7-8 17:30</span><br>
+<span>装了, 设置打不开是什么鬼</span><br>
+<span>看来还得等巨硬慢慢改进</span><br>
+<span>同意，如果能像 VS Code 一样好好对待的话，未来可以期待</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>继续用 cmder</span><br>
+</p><p><b>heimu: </b><br>
+<span>除了多个tab有啥过人的亮点呢</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844955[0-50]</guid>
+    </item>
+  </channel>
+</rss>

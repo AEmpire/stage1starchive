@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>快速排序的两种写法。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>快速排序的两种写法。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:59:32 +0000</lastBuildDate>
+    <item>
+      <title>快速排序的两种写法。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847046-1-1.html</link>
+      <description>快速排序的两种写法。&#13;
+ 本帖最后由 jason_gideon 于 2019-7-16 13:09 编辑 
+
+请问这两种写法有区别吗可以处理不同的edge case?
+&#13;
+写法2 是https://www.geeksforgeeks.org/quick-sort/上的。打个比方，第一次递归的时候为什么 i 要从-1开始呢？
+&#13;
+写法1 i = low
+&#13;
+返回 low
+&#13;
+def partition(arr,low,high): 
+&#13;
+    i = low      # index of smaller element 
+&#13;
+    pivot = arr   # pivot
+&#13;
+    for j in range(low , high): 
+&#13;
+      if   arr &lt;= pivot:
+&#13;
+            arr,arr = arr,arr 
+&#13;
+            i = i+1
+&#13;
+    arr,arr = arr,arr 
+&#13;
+    return i
+&#13;
+def quickSort(arr,low,high): 
+&#13;
+    if low &lt; high: 
+&#13;
+      pi = partition(arr,low,high) 
+&#13;
+      quickSort(arr, low, pi-1) 
+&#13;
+      quickSort(arr, pi+1, high) 
+&#13;
+写法2 i = low - 1
+&#13;
+返回 i+1
+&#13;
+def partition(arr,low,high): 
+&#13;
+    i = ( low-1 )         # index of smaller element 
+&#13;
+    pivot = arr   # pivot 
+&#13;
+    for j in range(low , high): 
+&#13;
+      if   arr &lt;= pivot: 
+&#13;
+            i = i+1 
+&#13;
+            arr,arr = arr,arr 
+&#13;
+    arr,arr = arr,arr 
+&#13;
+    return ( i+1 )
+&#13;
+def quickSort(arr,low,high): 
+&#13;
+    if low &lt; high: 
+&#13;
+      pi = partition(arr,low,high) 
+&#13;
+      quickSort(arr, low, pi-1) 
+&#13;
+      quickSort(arr, pi+1, high) </description>
+      <content:encoded><![CDATA[<p><b>jason_gideon: </b><br>
+<span>快速排序的两种写法。</span><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-16 13:09 编辑 </span><br>
+<span>请问这两种写法有区别吗可以处理不同的edge case?</span><br>
+<span>写法2 是https://www.geeksforgeeks.org/quick-sort/上的。打个比方，第一次递归的时候为什么 i 要从-1开始呢？</span><br>
+<span>写法1 i = low</span><br>
+<span>返回 low</span><br>
+<span>def partition(arr,low,high): </span><br>
+<span>    i = low      # index of smaller element </span><br>
+<span>    pivot = arr   # pivot</span><br>
+<span>    for j in range(low , high): </span><br>
+<span>      if   arr <= pivot:</span><br>
+<span>            arr,arr = arr,arr </span><br>
+<span>            i = i+1</span><br>
+<span>    arr,arr = arr,arr </span><br>
+<span>    return i</span><br>
+<span>def quickSort(arr,low,high): </span><br>
+<span>    if low < high: </span><br>
+<span>      pi = partition(arr,low,high) </span><br>
+<span>      quickSort(arr, low, pi-1) </span><br>
+<span>      quickSort(arr, pi+1, high) </span><br>
+<span>写法2 i = low - 1</span><br>
+<span>返回 i+1</span><br>
+<span>def partition(arr,low,high): </span><br>
+<span>    i = ( low-1 )         # index of smaller element </span><br>
+<span>    pivot = arr   # pivot </span><br>
+<span>    for j in range(low , high): </span><br>
+<span>      if   arr <= pivot: </span><br>
+<span>            i = i+1 </span><br>
+<span>            arr,arr = arr,arr </span><br>
+<span>    arr,arr = arr,arr </span><br>
+<span>    return ( i+1 )</span><br>
+<span>def quickSort(arr,low,high): </span><br>
+<span>    if low < high: </span><br>
+<span>      pi = partition(arr,low,high) </span><br>
+<span>      quickSort(arr, low, pi-1) </span><br>
+<span>      quickSort(arr, pi+1, high) </span><br>
+</p><p><b>eskibear: </b><br>
+<span>不懂就问： arr,arr = arr,arr 是什么东西？忘写下标了还是说是python的什么高级写法？</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-16 12:52 编辑 </span><br>
+<span>eskibear 发表于 2019-7-16 12:39</span><br>
+<span>不懂就问： arr,arr = arr,arr 是什么东西？忘写下标了还是说是python的什么高级写法？ ...</span><br>
+<span>已编辑</span><br>
+</p><p><b>thq: </b><br>
+<span>快排就一个核心思想，比我大的放左边，比我小的放右边，然后区别就是我要不要移动位置。</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>thq 发表于 2019-7-16 12:59</span><br>
+<span>快排就一个核心思想，比我大的放左边，比我小的放右边，然后区别就是我要不要移动位置。 ...</span><br>
+<span>..所以为什么 i 指针要从-1开始？</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>@CAMUS.net </span><br>
+</p><p><b>RAMDA: </b><br>
+<span>看标题知楼主失败</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>RAMDA 发表于 2019-7-16 13:05</span><br>
+<span>看标题知楼主失败</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>+1，我都Python PTSD了结果是个正常潭友求助</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>没什么意义</span><br>
+<span>第一种是标准的quicksort</span><br>
+<span>请注意 2种方法 中间那段i+1的顺序 赋值之前和赋值之后的区别 这个才是重点</span><br>
+<span>还有 没公司问怎么写quicksort了 因为太简单了 </span><br>
+<span>PS：才发现楼主不是那个python侠 不过我建议这类帖子减少吧 去v2ex之类的地方发比较好</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span> 本帖最后由 jason_gideon 于 2019-7-16 13:22 编辑 </span><br>
+<span>風舞雪 发表于 2019-7-16 13:09</span><br>
+<span>没什么意义</span><br>
+<span>第一种是标准的quicksort</span><br>
+<span>请注意 2种方法 中间那段i+1的顺序 赋值之前和赋值之后的区别 这个才 ...</span><br>
+<span>方法2应该是标准写法。</span><br>
+<span>i 从-1开始。quicksort是很简单，只是个工具用来做题的。所以我想知道为什么要从-1开始。而不是方法1那种更直观的写法</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>jason_gideon 发表于 2019-7-16 13:20</span><br>
+<span>方法2应该是标准写法。</span><br>
+<span>i 从-1开始。quicksort是很简单，只是个工具用来做题的。所以我想知道为什么要从-1 ...</span><br>
+<span>你可以自己去看2种partition schema的伪代码 Lomuto和HoareHoare是/2的 他们的取pivot point不一样</span><br>
+<span>Lomuto partition scheme</span><br>
+<span>algorithm quicksort(A, lo, hi) is</span><br>
+<span>    if lo < hi then</span><br>
+<span>      p := partition(A, lo, hi)</span><br>
+<span>      quicksort(A, lo, p - 1)</span><br>
+<span>      quicksort(A, p + 1, hi)</span><br>
+<span>algorithm partition(A, lo, hi) is</span><br>
+<span>    pivot := A</span><br>
+<span>    i := lo</span><br>
+<span>    for j := lo to hi - 1 do</span><br>
+<span>      if A < pivot then</span><br>
+<span>            swap A with A</span><br>
+<span>            i := i + 1</span><br>
+<span>    swap A with A</span><br>
+<span>    return i</span><br>
+<span>你自己gogole一下吧 这段就在wiki里面</span><br>
+</p><p><b>一个好名字: </b><br>
+<span>这就类似茴字的四种写法</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>風舞雪 发表于 2019-7-16 13:27</span><br>
+<span>你可以自己去看2种partition schema的伪代码 Lomuto和HoareHoare是/2的 他们的取pivot point不一样</span><br>
+<span>Lom ...</span><br>
+<span>谢谢</span><br>
+</p><p><b>s1234y: </b><br>
+<span>我每次社招都会问的，大部分人都答不上来…</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>s1234y 发表于 2019-7-16 13:40</span><br>
+<span>我每次社招都会问的，大部分人都答不上来…</span><br>
+<span>我凑，请问公司在哪，还招人不</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>https://blog.csdn.net/baibaibai66/article/details/52503943</span><br>
+</p><p><b>拍手迅雷: </b><br>
+<span>这种问题不要发s1</span><br>
+<span>两种运行效率没什么区别，真要扣细节的话多写一个selectsort等length小于10的时候直接call selectsort比继续递归要快....</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>快排典型的写过了就忘不掉，没写过怎么都写不对。拿来刷人挺好的。</span><br>
+</p><p><b>holdson: </b><br>
+<span>ppython侠，你又来…啊不是</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>wakiki: </b><br>
+<span>三种吧，填坑，互换，顺序遍历</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>ZhongMinko 发表于 2019-7-16 13:03</span><br>
+<span>@CAMUS.net</span><br>
+<span>我以为国家已经忘记了我。</span><br>
+<span>没有分别吧。</span><br>
+<span>arr,arr = arr,arr </span><br>
+<span> i = i+1</span><br>
+<span>如果把 i = i+1放前面互换位置前面就要-1</span><br>
+<span> i = i+1</span><br>
+<span>arr,arr = arr,arr </span><br>
+</p><p><b>horacio111: </b><br>
+<span>快排问的还挺多的吧，作为小问题</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>風舞雪 发表于 2019-7-16 13:09</span><br>
+<span>没什么意义</span><br>
+<span>第一种是标准的quicksort</span><br>
+<span>请注意 2种方法 中间那段i+1的顺序 赋值之前和赋值之后的区别 这个才 ...</span><br>
+<span>为什么管理对楼主这么友好。</span><br>
+<span>我问的话，不是一句就打发。</span><br>
+<span>arr = heapq.nsmallest(len(arr), arr)</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>風舞雪 发表于 2019-7-16 13:27</span><br>
+<span>你可以自己去看2种partition schema的伪代码 Lomuto和HoareHoare是/2的 他们的取pivot point不一样</span><br>
+<span>Lom ...</span><br>
+<span>管理，这个多重递归，要怎么转为循环，我试了半天都不对，python递归到1万组数就挂掉了</span><br>
+<span>def quickSort(arr, low, high):</span><br>
+<span>    if low < high:</span><br>
+<span>      # pi is partitioning index, arr is now</span><br>
+<span>      # at right place</span><br>
+<span>      pi = partition(arr, low, high)</span><br>
+<span>      # Separately sort elements before</span><br>
+<span>      # partition and after partition</span><br>
+<span>      quickSort(arr, low, pi - 1)</span><br>
+<span>      quickSort(arr, pi + 1, high)</span><br>
+<span>用暴力从头到尾穷举，速度慢10倍</span><br>
+<span>def partition(arr, low, high):   #如果前面有数字大于后面数字，就将前面的换到后面</span><br>
+<span>    for low in range(low, high):</span><br>
+<span>      if arr > arr:</span><br>
+<span>            arr, arr = arr, arr</span><br>
+<span>def quickSort(arr, low, high):#排好最后最大，再往一位前排</span><br>
+<span>    while low < high:</span><br>
+<span>      partition(arr, low, high)</span><br>
+<span>      high = high - 1</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>CAMUS.net 发表于 2019-7-19 15:58</span><br>
+<span>管理，这个多重递归，要怎么转为循环，我试了半天都不对，python递归到1万组数就挂掉了</span><br>
+<span>https://www.geeksforgeeks.org/iterative-quick-sort/</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>python侠可能会迟到，但从不会缺席</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847046[0-50]</guid>
+    </item>
+  </channel>
+</rss>

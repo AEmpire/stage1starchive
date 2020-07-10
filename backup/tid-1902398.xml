@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[超能力相关]如何用回溯算法实现欧冠抽签模拟,然后计算</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[超能力相关]如何用回溯算法实现欧冠抽签模拟,然后计算</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:24:30 +0000</lastBuildDate>
+    <item>
+      <title>[超能力相关]如何用回溯算法实现欧冠抽签模拟,然后计算[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902398-1-1.html</link>
+      <description>[超能力相关]如何用回溯算法实现欧冠抽签模拟,然后计算&#13;
+如何用回溯算法实现欧冠抽签模拟,然后计算各种概率?
+&#13;
+https://www.v2ex.com/t/628565
+&#13;
+v2也发了一份,暂时没解决
+&#13;
+今年欧冠小组赛结束了,自己想做一个抽签模拟器,发现水平不够做不出来,有没有大佬帮忙提供一个实现思路
+&#13;
+然后还想循环100万次测试一下这几种概率
+&#13;
+每种结果集的概率,无视抽签顺序
+&#13;
+每种结果集的概率,考虑抽签顺序
+&#13;
+各支队伍对阵的概率
+&#13;
+https://github.com/eminga/cldraw
+&#13;
+https://twitter.com/2010MisterChip/status/1204879583457218564/photo/1
+&#13;
+github和twitter上有两种结果,渣渣无法判断哪种正确
+&#13;
+需求是这样的:
+&#13;
+先抽小组第二,然后抽小组第一的对手
+&#13;
+同小组回避
+&#13;
+同联赛回避
+&#13;
+不能让抽剩下的队伍无法比赛
+&#13;
+前三个都好办,写个 filter 就行,但是第四个条件要用回溯算法来判断抽签剩下的队伍是否能比赛,举个例子:
+&#13;
+最后还剩 4 支队伍
+&#13;
+1 支 西甲 小组第二
+&#13;
+1 支 英超 小组第二 
+&#13;
+1 支 德甲 小组第一 
+&#13;
+1 支 英超 小组第一
+&#13;
+抽出西甲小组第二后,就只能抽英超小组第一
+&#13;
+因为如果抽德甲小组第一会造成剩下两只队伍都是英超球队
+&#13;
+附今年欧冠小组赛战绩
+&#13;
+A 
+&#13;
+1 巴黎 法甲
+&#13;
+2 皇马 西甲
+&#13;
+B
+&#13;
+1 拜仁 德甲
+&#13;
+2 热刺 英超
+&#13;
+C
+&#13;
+1 曼城 英超
+&#13;
+2 亚特兰大 意甲
+&#13;
+D
+&#13;
+1 尤文 意甲
+&#13;
+2 马竞 西甲
+&#13;
+E
+&#13;
+1 利物浦 英超
+&#13;
+2 那不勒斯 意甲
+&#13;
+F
+&#13;
+1 巴萨 西甲
+&#13;
+2 多特 德甲
+&#13;
+G
+&#13;
+1 莱比锡 德甲
+&#13;
+2 里昂 法甲
+&#13;
+H
+&#13;
+1 瓦伦西亚 西甲
+&#13;
+2 切尔西 英超</description>
+      <content:encoded><![CDATA[<p><b>风夏: </b><br>
+<span>[超能力相关]如何用回溯算法实现欧冠抽签模拟,然后计算</span><br>
+<span>如何用回溯算法实现欧冠抽签模拟,然后计算各种概率?</span><br>
+<span>https://www.v2ex.com/t/628565</span><br>
+<span>v2也发了一份,暂时没解决</span><br>
+<span>今年欧冠小组赛结束了,自己想做一个抽签模拟器,发现水平不够做不出来,有没有大佬帮忙提供一个实现思路</span><br>
+<span>然后还想循环100万次测试一下这几种概率</span><br>
+<span>每种结果集的概率,无视抽签顺序</span><br>
+<span>每种结果集的概率,考虑抽签顺序</span><br>
+<span>各支队伍对阵的概率</span><br>
+<span>https://github.com/eminga/cldraw</span><br>
+<span>https://twitter.com/2010MisterChip/status/1204879583457218564/photo/1</span><br>
+<span>github和twitter上有两种结果,渣渣无法判断哪种正确</span><br>
+<span>需求是这样的:</span><br>
+<span>先抽小组第二,然后抽小组第一的对手</span><br>
+<span>同小组回避</span><br>
+<span>同联赛回避</span><br>
+<span>不能让抽剩下的队伍无法比赛</span><br>
+<span>前三个都好办,写个 filter 就行,但是第四个条件要用回溯算法来判断抽签剩下的队伍是否能比赛,举个例子:</span><br>
+<span>最后还剩 4 支队伍</span><br>
+<span>1 支 西甲 小组第二</span><br>
+<span>1 支 英超 小组第二 </span><br>
+<span>1 支 德甲 小组第一 </span><br>
+<span>1 支 英超 小组第一</span><br>
+<span>抽出西甲小组第二后,就只能抽英超小组第一</span><br>
+<span>因为如果抽德甲小组第一会造成剩下两只队伍都是英超球队</span><br>
+<span>附今年欧冠小组赛战绩</span><br>
+<span>A </span><br>
+<span>1 巴黎 法甲</span><br>
+<span>2 皇马 西甲</span><br>
+<span>B</span><br>
+<span>1 拜仁 德甲</span><br>
+<span>2 热刺 英超</span><br>
+<span>C</span><br>
+<span>1 曼城 英超</span><br>
+<span>2 亚特兰大 意甲</span><br>
+<span>D</span><br>
+<span>1 尤文 意甲</span><br>
+<span>2 马竞 西甲</span><br>
+<span>E</span><br>
+<span>1 利物浦 英超</span><br>
+<span>2 那不勒斯 意甲</span><br>
+<span>F</span><br>
+<span>1 巴萨 西甲</span><br>
+<span>2 多特 德甲</span><br>
+<span>G</span><br>
+<span>1 莱比锡 德甲</span><br>
+<span>2 里昂 法甲</span><br>
+<span>H</span><br>
+<span>1 瓦伦西亚 西甲</span><br>
+<span>2 切尔西 英超</span><br>
+</p><p><b>الطائر: </b><br>
+<span>所以这到底是抽签还是内定</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>不懂足球，没听懂lz意思</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>不懂足球，没听懂lz意思</span><br>
+</p><p><b>萨格诺伊: </b><br>
+<span>单看描述我觉得第一个是错的，按照抽签的规则不能保证每个可能的结果都是同分布的。</span><br>
+</p><p><b>stannislas: </b><br>
+<span>hupu上有各个队伍碰面概率的帖子啊……</span><br>
+</p><p><b>风夏: </b><br>
+<span>引用第5楼stannislas于2019-12-13 12:16发表的:</span><br>
+<span>hupu上有各个队伍碰面概率的帖子啊……</span><br>
+<span>@stannislas</span><br>
+<span>虎扑的概率和github的概率不一样啊</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 10</span><br>
+</p><p><b>风夏: </b><br>
+<span>引用第1楼الطائر于2019-12-13 11:06发表的:</span><br>
+<span>所以这到底是抽签还是内定</span><br>
+<span>@الطائر</span><br>
+<span>模拟抽签，假装程序正义</span><br>
+<span>黑箱啥的我不管</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 10</span><br>
+</p><p><b>stannislas: </b><br>
+<span>风夏 发表于 2019-12-13 12:22</span><br>
+<span>@stannislas</span><br>
+<span>虎扑的概率和github的概率不一样啊</span><br>
+<span>https://i11.hoopchina.com.cn/hupuapp/bbs/87936377271762/thread_87936377271762_20191211170638_s_193090_w_1125_h_312_84805.jpg?x-oss-process=image/resize,w_800/</span><br>
+<span>https://i11.hoopchina.com.cn/hupuapp/bbs/87936377271762/thread_87936377271762_20191211170638_s_193090_w_1125_h_312_84805.jpg?x-oss-process=image/resize,w_800/</span><br>
+<span>虎扑上的概率也不是他们算得啊……</span><br>
+</p><p><b>风夏: </b><br>
+<span>引用第2楼一百三十万颗星于2019-12-13 11:29发表的:</span><br>
+<span>不懂足球，没听懂lz意思</span><br>
+<span>@一百三十万颗星</span><br>
+<span>小组第二有8只</span><br>
+<span>小组第一有8只</span><br>
+<span>先抽小组第二，过滤选出来所有可能的对手，在剩下的第一里抽一个</span><br>
+<span>抽完不放回 再来抽小组第二和对应的小组第一</span><br>
+<span>直到全部抽完，这是整个过程，可以去github页模拟下</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 10</span><br>
+</p><p><b>风夏: </b><br>
+<span>引用第8楼stannislas于2019-12-13 12:28发表的:</span><br>
+<span>引用:风夏 发表于 2019-12-13 12:22@stannislas虎扑的概率和github的......</span><br>
+<span>@stannislas</span><br>
+<span>所以说想自己算一算嘛，保证结果正确和过程正确就能算出来基本上正确的概率了</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 10</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902398[0-50]</guid>
+    </item>
+  </channel>
+</rss>

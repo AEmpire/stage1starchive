@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【码农归外野】0后端和linux基础前端码农怎么学Docker</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【码农归外野】0后端和linux基础前端码农怎么学Docker</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:27:09 +0000</lastBuildDate>
+    <item>
+      <title>【码农归外野】0后端和linux基础前端码农怎么学Docker[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832931-1-1.html</link>
+      <description>【码农归外野】0后端和linux基础前端码农怎么学Docker&#13;
+准备基于一个开源node cms给人建个站，其他技术栈问题不大，部署这块可能顺势把当下流行的docker来学习一下比较好？
+&#13;
+百度了一些所谓入门教程，一上来就是各种天经地义的命令和linux操作，不明白来龙去脉，感觉很头大
+&#13;
+想了解下，有没有那种手把手扶着你的教程，给你从头说到尾面面俱到那种</description>
+      <content:encoded><![CDATA[<p><b>spikedingo: </b><br>
+<span>【码农归外野】0后端和linux基础前端码农怎么学Docker</span><br>
+<span>准备基于一个开源node cms给人建个站，其他技术栈问题不大，部署这块可能顺势把当下流行的docker来学习一下比较好？</span><br>
+<span>百度了一些所谓入门教程，一上来就是各种天经地义的命令和linux操作，不明白来龙去脉，感觉很头大</span><br>
+<span>想了解下，有没有那种手把手扶着你的教程，给你从头说到尾面面俱到那种</span><br>
+</p><p><b>绝种好男人: </b><br>
+<span>教程很多，windows也可以部署。一点linux都不会的话可能还是先学点linux比较好</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span> 本帖最后由 蓝翔技校 于 2019-5-20 16:32 编辑 </span><br>
+<span>??</span><br>
+<span>linux的难点在哪？grep还是awk？还是makefile？</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>dockerfile 怎么迭代调试呢，我有一个很复杂的环境想配一个开箱即用的备份，带很多大 binary，看了下教程说最好一条命令执行完，减少层数，但是要我一条条命令写出来配环境简直要命。</span><br>
+<span>还是说我从一个 ubuntu 的 image 开始，把所有操作做完测试好后，放弃所有历史 output 个 image 或 container 的 binary 就行了？</span><br>
+<span>又从别的地方看到说 docker 做好封装成单一命令，那我就是想打包个环境该怎么办（主要是应付 home 目录差异和不污染 / 吧）</span><br>
+</p><p><b>革萌: </b><br>
+<span>蓝翔技校 发表于 2019-5-20 16:30</span><br>
+<span>??</span><br>
+<span>linux的难点在哪？grep还是awk？还是makefile？</span><br>
+<span>grep还是awk？还是makefile </span><br>
+<span>这几个和linux有一毛钱关系吗</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>蓝翔技校 发表于 2019-5-20 16:30</span><br>
+<span>??</span><br>
+<span>linux的难点在哪？grep还是awk？还是makefile？</span><br>
+<span>不知道为什么，真的很抗拒 awk 这种，宁愿写 python 或者 ruby 完成相同的功能</span><br>
+</p><p><b>jctc: </b><br>
+<span>如果docker的话不如顺道kubernetes一起上了</span><br>
+<span>也算是个圆满</span><br>
+</p><p><b>kumh: </b><br>
+<span>アーシェス 发表于 2019-5-20 16:31</span><br>
+<span>dockerfile 怎么迭代调试呢，我有一个很复杂的环境想配一个开箱即用的备份，带很多大 binary，看了下教程说 ...</span><br>
+<span>考虑下vagrant？，不过这就是虚拟机了。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>jctc: </b><br>
+<span>アーシェス 发表于 2019-5-20 16:31</span><br>
+<span>dockerfile 怎么迭代调试呢，我有一个很复杂的环境想配一个开箱即用的备份，带很多大 binary，看了下教程说 ...</span><br>
+<span>完全不知道你什么意思</span><br>
+<span>dockerfile就是先把上一层给定义好，然后这一层直接构成一个image，部署的时候先把上一层下载下来，在执行dockerifle里面的run和entrypoint</span><br>
+<span>不理解你说home目录差异和不污染/，docker本来就是用cgroup和namespace形成一个虚拟的独立环境的，用namespace，docker的环境和你本机的环境可以完全隔离。</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>アーシェス 发表于 2019-5-20 16:33</span><br>
+<span>不知道为什么，真的很抗拒 awk 这种，宁愿写 python 或者 ruby 完成相同的功能 ...</span><br>
+<span> 因为真的很方便啊</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>jctc 发表于 2019-5-20 16:37</span><br>
+<span>完全不知道你什么意思</span><br>
+<span>dockerfile就是先把上一层给定义好，然后这一层直接构成一个image，部署的时候先 ...</span><br>
+<span>看网上的帖子，一个 RUN 就是一个 layer，建议 layer 最小化，所以 RUN 的命令尽可能写成一行版本。</span><br>
+<span>这倒不是问题，问题是操作太多了，一时半会根本总结不出来要执行哪些指令</span><br>
+<span>我就是想要环境隔离，所以在尝试 docker 嘛</span><br>
+</p><p><b>jctc: </b><br>
+<span>アーシェス 发表于 2019-5-20 16:45</span><br>
+<span>看网上的帖子，一个 RUN 就是一个 layer，建议 layer 最小化，所以 RUN 的命令尽可能写成一行版本。</span><br>
+<span>这倒 ...</span><br>
+<span>一开始一层一层的写run</span><br>
+<span>写完之后merge起来</span><br>
+</p><p><b>wanxx: </b><br>
+<span>想减少麻烦而用 docker 只会本末导致 </span><br>
+<span>shell + core utils 前期学习成本高点而已</span><br>
+</p><p><b>spikedingo: </b><br>
+<span>https://github.com/adrianzhang/wechat-psn-backend/blob/master/Docker%E5%92%8C...</span><br>
+<span>找到一篇不错的</span><br>
+<span>https://github.com/adrianzhang/wechat-psn-backend/blob/master/Docker%E5%92%8CDaoCloud%E7%BA%AF%E5%B0%8F%E7%99%BD%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C.md</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832931[0-50]</guid>
+    </item>
+  </channel>
+</rss>

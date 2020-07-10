@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>不要买 XPS 15 9570</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>不要买 XPS 15 9570</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:17:47 +0000</lastBuildDate>
+    <item>
+      <title>不要买 XPS 15 9570[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1824970-1-1.html</link>
+      <description>不要买 XPS 15 9570&#13;
+
+&#13;
+XPS 可以说是一个很成功的笔记本系列。最近很多年来每次推出的新型号都能获得大多数知名评测站的好评，本区求推笔记本的帖子里也经常能看到有人提到这个系列。
+&#13;
+于是我信了它的邪。去年底打折时我入了一台 XPS 15 9570，然后发现有各种问题。
+&#13;
+1. 音频爆音
+&#13;
+据分析是由于某种原因导致非常高的 DPC latency 而引起的。在去年六月份就已经有人反映：
+&#13;
+https://www.reddit.com/r/Dell/comments/8rleyj/dell_xps_15_9570_i78750h_awful_dpc_latency_very/?depth=2
+&#13;
+一贯把 XPS 15 评为最佳多媒体本的权威笔记本评测站 NBC 也一直在跟进报道：
+&#13;
+https://www.notebookcheck.net/Dell-is-also-working-on-fixing-XPS-15-9575-DPC-latency-issues.394971.0.html
+&#13;
+https://www.notebookcheck.net/The-Dell-XPS-15-9570-s-DPC-latency-issues-are-more-complicated-than-the-company-first-thought.407681.0.html
+&#13;
+https://www.notebookcheck.net/Dell-promises-to-release-a-solution-to-address-DPC-latency-issues-imminently.413231.0.html
+&#13;
+https://www.notebookcheck.net/Frank-Azor-claims-that-Dell-has-fixed-many-DPC-latency-related-issues.415861.0.html
+&#13;
+描述上虽然一直说是“影响部分用户”，但实际上很显然绝大多数的 XPS 15 9570 都存在这个问题。
+&#13;
+十个月过去了，依然没有任何解决方案。距离 Frank Azor 发推说“很快”会推出补丁已经过了一个多月，补丁至今未见；而最近一次发推说“通过升级声卡驱动可以解决大多数爆音问题”也并不算是解决了问题：新的声卡驱动会造成严重的音频失真。
+&#13;
+2. 待机掉电
+&#13;
+一开始是有人反映 XPS 15 9570 在微软的 Modern Standby 下耗电严重，但好在 BIOS 里还提供了个强制 CPU S3 的选项（虽然还有另一个 bug），结果在这人提出问题之后，戴尔选择无视问题，并干掉了能部分解决问题的可能性：升级 BIOS 把强制 S3 的选项给去掉了！
+&#13;
+详见此帖：
+&#13;
+https://www.reddit.com/r/Dell/comments/91313h/xps_15_9570_c_state_bug_after_s3_sleep_and_modern/?depth=2
+&#13;
+3. CPU 过热且温度不均
+&#13;
+这个问题我没有见到广泛报道，是我自己发现的，也许只是个例，但根据我的搜索也可能不是：
+&#13;
+https://www.reddit.com/r/Dell/comments/ardo36/high_and_uneven_cpu_core_temperatures_on_xps_15/?depth=2
+&#13;
+我从一开始入手，经历了三次返修，每次返修都更换了主板和部分其他配件，加起来姑且可以算是四台同型号 XPS 15 9570，全部可以重现上述三个问题（其中两次返修回来之后指纹识别模块直接从设备管理器中消失，虽然算是个别问题但能连着在我一个人身上出现两次也是挺奇葩的了，在此姑且按下不表）。这三个问题，出现任何一个，我觉得都是足以劝退的问题。
+&#13;
+多次和戴尔客户交涉后客户表示如果返修三次之后仍然有问题则可以申请退货，即使已经过了 30 天的退换期限。最近终于成功拿到了退款，于是写个帖子供大家参考。</description>
+      <content:encoded><![CDATA[<p><b>huzhiyangqaz: </b><br>
+<span>脚本水平 发表于 2019-4-17 20:09</span><br>
+<span>x1e刚出来的时候关注过说是双烤很弱鸡</span><br>
+<span>原来和xps15还有一定差距</span><br>
+<span>更何况xps15网上改造散热铜管随便买</span><br>
+<span>1w 左右是最难选的，选择很多，但没有一款是完美的</span><br>
+<span>加钱减钱都好选</span><br>
+</p><p><b>izthr: </b><br>
+<span>脚本水平 发表于 2019-4-17 13:12</span><br>
+<span>讲道理用了那么多本感觉还是MacBook和tp高端省事</span><br>
+<span>mac这两年各种bug和问题哪里省事？</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 20:12</span><br>
+<span>1w 左右是最难选的，选择很多，但没有一款是完美的</span><br>
+<span>加钱减钱都好选</span><br>
+<span>加到两万可以选啥啊</span><br>
+<span>我最后因为玩游戏买的雷蛇</span><br>
+<span>有点后悔</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>脚本水平 发表于 2019-4-17 20:18</span><br>
+<span>加到两万可以选啥啊</span><br>
+<span>我最后因为玩游戏买的雷蛇</span><br>
+<span>有点后悔</span><br>
+<span>Zbook15G5 600尼特8抖10 4k DC屏 100%aRGB 99%DCI-P3 </span><br>
+</p><p><b>给我加个鹅吧: </b><br>
+<span>boday 发表于 2019-4-17 13:33</span><br>
+<span>同感。经过这一番折腾，我心里仅存的笔记本品牌信仰也只剩下苹果和 tp（仅限高端型号）了，至少我用过的 ...</span><br>
+<span>t系列还不算高端吗，那岂不是只有X1C和X1E了</span><br>
+</p><p><b>法皇干政: </b><br>
+<span>爆音这是老毛病了5年前的XPS13发来贺电</span><br>
+<span>----发送自 Sony G8142,Android 9</span><br>
+</p><p><b>乔伊: </b><br>
+<span>win本的话，thinkpad t系列是坑爹概率最低的</span><br>
+</p><p><b>yang6451: </b><br>
+<span>几年前买的顶配xps13，除了看着好看以外基本没啥优点了</span><br>
+<span>散热一炮无，玩个2D页游都能卡成PPT，一直以为低压U就是这个操行，后来才发现原来是自己降频了……风扇噪音还大，你特么吹这么响也没见你不降频啊</span><br>
+<span>用了半年实在忍不了半价出了，出手的那一瞬间完全没觉得亏，只感觉整个世界都变得美好了</span><br>
+<span>然后几年过去了xps13还是这操行？</span><br>
+</p><p><b>boday: </b><br>
+<span>给我加个鹅吧 发表于 2019-7-30 19:40</span><br>
+<span>t系列还不算高端吗，那岂不是只有X1C和X1E了</span><br>
+<span>或者准确点说应该叫“旗舰”？总之我用下来觉得普通 T430 和 T450s 这样的准旗舰相比还是有差距。</span><br>
+</p><p><b>甲鱼: </b><br>
+<span>9550就有这些问题了，没想到几年过去了还没解决， xps15是我买过最傻逼的电脑了，MacBook都比它好</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>甲鱼 发表于 2019-7-31 07:07</span><br>
+<span>9550就有这些问题了，没想到几年过去了还没解决， xps15是我买过最傻逼的电脑了，MacBook都比它好 ...</span><br>
+<span>就是这样的，学 mac 四五年了硬是不换模具的结果</span><br>
+<span>今年整了个 xps15 7590 还是老模具，真是吃屎</span><br>
+</p><p><b>serial: </b><br>
+<span>Hieda 发表于 2019-4-17 14:33</span><br>
+<span>我这台9370一个都没遇上，甚至没有dell祖传电流音，捡到宝了</span><br>
+<span>我的9370充电有电流声，听了一圈发现来源是充电器，最后捡了个TP的扩展坞解决</span><br>
+</p><p><b>神知道的sjd: </b><br>
+<span>在袋鼠国花了8000软妹币买了打折的9570，6核独显</span><br>
+<span>没发现同价位有哪个能在性能做工便携度上包围这个</span><br>
+<span>美国神舟</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>试过xps的键盘就解毒了，太难用了。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>wonderful259: </b><br>
+<span>看来选半天最后还是要选T系列了。</span><br>
+<span>唉，现在用的macpro 2015，一到夏天键盘就很烫手，只能外接键盘用。</span><br>
+</p><p><b>六尺之下: </b><br>
+<span>问题1不知道哪个系统版本升级之后就消失了，一开始是挺崩溃的，2和3没有碰到过。</span><br>
+<span>这个机子综合性能还是挺OK的，别拿他当游戏本看就是了。</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>神知道的sjd 发表于 2019-7-31 17:01</span><br>
+<span>在袋鼠国花了8000软妹币买了打折的9570，6核独显</span><br>
+<span>没发现同价位有哪个能在性能做工便携度上包围这个</span><br>
+<span>实测结果怎么样？标压i7能不能压住？</span><br>
+</p><p><b>神知道的sjd: </b><br>
+<span>__爱撕衣 发表于 2019-8-1 00:20</span><br>
+<span>实测结果怎么样？标压i7能不能压住？</span><br>
+<span>单烤够用</span><br>
+<span>至今没试过极致的双烤，应该会降的很厉害就是了，不过我就拿来打打dota2和神界2而已</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1824970[50-100]</guid>
+    </item>
+    <item>
+      <title>不要买 XPS 15 9570[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1824970-1-1.html</link>
+      <description>不要买 XPS 15 9570&#13;
+
+&#13;
+XPS 可以说是一个很成功的笔记本系列。最近很多年来每次推出的新型号都能获得大多数知名评测站的好评，本区求推笔记本的帖子里也经常能看到有人提到这个系列。
+&#13;
+于是我信了它的邪。去年底打折时我入了一台 XPS 15 9570，然后发现有各种问题。
+&#13;
+1. 音频爆音
+&#13;
+据分析是由于某种原因导致非常高的 DPC latency 而引起的。在去年六月份就已经有人反映：
+&#13;
+https://www.reddit.com/r/Dell/comments/8rleyj/dell_xps_15_9570_i78750h_awful_dpc_latency_very/?depth=2
+&#13;
+一贯把 XPS 15 评为最佳多媒体本的权威笔记本评测站 NBC 也一直在跟进报道：
+&#13;
+https://www.notebookcheck.net/Dell-is-also-working-on-fixing-XPS-15-9575-DPC-latency-issues.394971.0.html
+&#13;
+https://www.notebookcheck.net/The-Dell-XPS-15-9570-s-DPC-latency-issues-are-more-complicated-than-the-company-first-thought.407681.0.html
+&#13;
+https://www.notebookcheck.net/Dell-promises-to-release-a-solution-to-address-DPC-latency-issues-imminently.413231.0.html
+&#13;
+https://www.notebookcheck.net/Frank-Azor-claims-that-Dell-has-fixed-many-DPC-latency-related-issues.415861.0.html
+&#13;
+描述上虽然一直说是“影响部分用户”，但实际上很显然绝大多数的 XPS 15 9570 都存在这个问题。
+&#13;
+十个月过去了，依然没有任何解决方案。距离 Frank Azor 发推说“很快”会推出补丁已经过了一个多月，补丁至今未见；而最近一次发推说“通过升级声卡驱动可以解决大多数爆音问题”也并不算是解决了问题：新的声卡驱动会造成严重的音频失真。
+&#13;
+2. 待机掉电
+&#13;
+一开始是有人反映 XPS 15 9570 在微软的 Modern Standby 下耗电严重，但好在 BIOS 里还提供了个强制 CPU S3 的选项（虽然还有另一个 bug），结果在这人提出问题之后，戴尔选择无视问题，并干掉了能部分解决问题的可能性：升级 BIOS 把强制 S3 的选项给去掉了！
+&#13;
+详见此帖：
+&#13;
+https://www.reddit.com/r/Dell/comments/91313h/xps_15_9570_c_state_bug_after_s3_sleep_and_modern/?depth=2
+&#13;
+3. CPU 过热且温度不均
+&#13;
+这个问题我没有见到广泛报道，是我自己发现的，也许只是个例，但根据我的搜索也可能不是：
+&#13;
+https://www.reddit.com/r/Dell/comments/ardo36/high_and_uneven_cpu_core_temperatures_on_xps_15/?depth=2
+&#13;
+我从一开始入手，经历了三次返修，每次返修都更换了主板和部分其他配件，加起来姑且可以算是四台同型号 XPS 15 9570，全部可以重现上述三个问题（其中两次返修回来之后指纹识别模块直接从设备管理器中消失，虽然算是个别问题但能连着在我一个人身上出现两次也是挺奇葩的了，在此姑且按下不表）。这三个问题，出现任何一个，我觉得都是足以劝退的问题。
+&#13;
+多次和戴尔客户交涉后客户表示如果返修三次之后仍然有问题则可以申请退货，即使已经过了 30 天的退换期限。最近终于成功拿到了退款，于是写个帖子供大家参考。</description>
+      <content:encoded><![CDATA[<p><b>boday: </b><br>
+<span>不要买 XPS 15 9570</span><br>
+<span>XPS 可以说是一个很成功的笔记本系列。最近很多年来每次推出的新型号都能获得大多数知名评测站的好评，本区求推笔记本的帖子里也经常能看到有人提到这个系列。</span><br>
+<span>于是我信了它的邪。去年底打折时我入了一台 XPS 15 9570，然后发现有各种问题。</span><br>
+<span>1. 音频爆音</span><br>
+<span>据分析是由于某种原因导致非常高的 DPC latency 而引起的。在去年六月份就已经有人反映：</span><br>
+<span>https://www.reddit.com/r/Dell/comments/8rleyj/dell_xps_15_9570_i78750h_awful_dpc_latency_very/?depth=2</span><br>
+<span>一贯把 XPS 15 评为最佳多媒体本的权威笔记本评测站 NBC 也一直在跟进报道：</span><br>
+<span>https://www.notebookcheck.net/Dell-is-also-working-on-fixing-XPS-15-9575-DPC-latency-issues.394971.0.html</span><br>
+<span>https://www.notebookcheck.net/The-Dell-XPS-15-9570-s-DPC-latency-issues-are-more-complicated-than-the-company-first-thought.407681.0.html</span><br>
+<span>https://www.notebookcheck.net/Dell-promises-to-release-a-solution-to-address-DPC-latency-issues-imminently.413231.0.html</span><br>
+<span>https://www.notebookcheck.net/Frank-Azor-claims-that-Dell-has-fixed-many-DPC-latency-related-issues.415861.0.html</span><br>
+<span>描述上虽然一直说是“影响部分用户”，但实际上很显然绝大多数的 XPS 15 9570 都存在这个问题。</span><br>
+<span>十个月过去了，依然没有任何解决方案。距离 Frank Azor 发推说“很快”会推出补丁已经过了一个多月，补丁至今未见；而最近一次发推说“通过升级声卡驱动可以解决大多数爆音问题”也并不算是解决了问题：新的声卡驱动会造成严重的音频失真。</span><br>
+<span>2. 待机掉电</span><br>
+<span>一开始是有人反映 XPS 15 9570 在微软的 Modern Standby 下耗电严重，但好在 BIOS 里还提供了个强制 CPU S3 的选项（虽然还有另一个 bug），结果在这人提出问题之后，戴尔选择无视问题，并干掉了能部分解决问题的可能性：升级 BIOS 把强制 S3 的选项给去掉了！</span><br>
+<span>详见此帖：</span><br>
+<span>https://www.reddit.com/r/Dell/comments/91313h/xps_15_9570_c_state_bug_after_s3_sleep_and_modern/?depth=2</span><br>
+<span>3. CPU 过热且温度不均</span><br>
+<span>这个问题我没有见到广泛报道，是我自己发现的，也许只是个例，但根据我的搜索也可能不是：</span><br>
+<span>https://www.reddit.com/r/Dell/comments/ardo36/high_and_uneven_cpu_core_temperatures_on_xps_15/?depth=2</span><br>
+<span>我从一开始入手，经历了三次返修，每次返修都更换了主板和部分其他配件，加起来姑且可以算是四台同型号 XPS 15 9570，全部可以重现上述三个问题（其中两次返修回来之后指纹识别模块直接从设备管理器中消失，虽然算是个别问题但能连着在我一个人身上出现两次也是挺奇葩的了，在此姑且按下不表）。这三个问题，出现任何一个，我觉得都是足以劝退的问题。</span><br>
+<span>多次和戴尔客户交涉后客户表示如果返修三次之后仍然有问题则可以申请退货，即使已经过了 30 天的退换期限。最近终于成功拿到了退款，于是写个帖子供大家参考。</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>XPS15这么多年散热还没长进？我看2kg左右稳压45W CPU的游戏本也出好几款了啊</span><br>
+</p><p><b>无念: </b><br>
+<span>巧了，我一个都没中，看来运气挺好</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>xps13每天一卡顿是怎么回事，就是什么都动不了，等5秒以上自动好？</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>其实这几年各种不好的都有爆出来…</span><br>
+</p><p><b>飓风长戟: </b><br>
+<span>七草真由美 发表于 2019-4-17 12:05</span><br>
+<span>xps13每天一卡顿是怎么回事，就是什么都动不了，等5秒以上自动好？</span><br>
+<span>几年前我我刚买的初代粗粮笔记本也有这问题，隔段时间整个卡死带耳机的话还能听到刺耳的噪音，后来就没有这个问题了，不知道问题出在哪儿也不知道咋解决的，估计哪次win10更新或者是我重装系统后好的。。。</span><br>
+</p><p><b>eden0412: </b><br>
+<span>音频爆音这个问题还在吗，我四年前买的xps13也是有这个毛病</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>我就在用 xps15 9570</span><br>
+<span>lz 说的问题前两个我都有，但对于我的日常使用影响不是很大</span><br>
+<span>至于散热说实话我挺满意的，我觉得同一档里算中上水准吧</span><br>
+</p><p><b>巨魔古拉格: </b><br>
+<span>为啥现在都不出标压i7+集显了，能买这这东西的人怎么也用不上1050</span><br>
+</p><p><b>sirlion: </b><br>
+<span>搞不懂，aero15 gs65 m15哪个不是轻薄游戏爆款，买这个xps干啥</span><br>
+</p><p><b>luffyzhou: </b><br>
+<span>9560还好没出现这个问题……</span><br>
+<span>新买的9380没有每天一卡顿，就是装不上power manager，最后重装系统之后就能装了……说起来我的word 2019现在打开文档之后即使不修改，关闭的时候也提示保存，保存之后再打开然后关闭就没提示，是2019新加了啥功能对文档有修改了么</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>sirlion 发表于 2019-4-17 12:27</span><br>
+<span>搞不懂，aero15 gs65 m15哪个不是轻薄游戏爆款，买这个xps干啥</span><br>
+<span>价格…和你列的这些比</span><br>
+<span>xps15 要便宜一半，做工反而更好，外观也商务的多</span><br>
+<span>不过 xps15 做工也是算差的那档</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 12:30</span><br>
+<span>价格…和你列的这些比</span><br>
+<span>xps15 要便宜一半，做工反而更好，外观也商务的多</span><br>
+<span>xps做工算差的话，除了MacBook还有好的吗？</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>zhongjie 发表于 2019-4-17 12:33</span><br>
+<span>xps做工算差的话，除了MacBook还有好的吗？</span><br>
+<span>xps 做工何德何能和 mbp 比了…</span><br>
+<span>别的不说，xps 这拿到手触控板装配歪按不下去，被我强行掰正的笔记本我是第一次见到</span><br>
+</p><p><b>sirlion: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 08:30</span><br>
+<span>价格…和你列的这些比</span><br>
+<span>xps15 要便宜一半，做工反而更好，外观也商务的多</span><br>
+<span>9570我看了jd价格1050ti 8750h是13999，gs65 8750 1060是10999，你确定xps便宜一半？</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 12:36</span><br>
+<span>xps 做工何德何能和 mbp 比了…</span><br>
+<span>别的不说，xps 这拿到手触控板装配歪按不下去，被我强行掰正的笔 ...</span><br>
+<span>XPS当然比不上MacBook，可是比其他笔记本还是算一流水准的吧</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>sirlion 发表于 2019-4-17 12:37</span><br>
+<span>9570我看了jd价格1050ti 8750h是13999，gs65 8750 1060是10999，你确定xps便宜一半？</span><br>
+<span>你自己也知道你列的三款笔记本里 gs65 最便宜吧，你干嘛不报报 jd 里 aero15，外星人的价格</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>爆音这段让人想起十几年前的VIA</span><br>
+</p><p><b>sirlion: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 08:40</span><br>
+<span>你自己也知道你列的三款笔记本里 gs65 最便宜吧，你干嘛不报报 jd 里 aero15，外星人的价格 ...</span><br>
+<span>aero15的价格也是11999啊，现在没货了所以原价，前两天都是这个价</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>zhongjie 发表于 2019-4-17 12:38</span><br>
+<span>XPS当然比不上MacBook，可是比其他笔记本还是算一流水准的吧</span><br>
+<span>dell 笔记本做工都不行，xps15 只是保持了 dell 的一贯水准而已</span><br>
+<span>就我个人摸摸的体验来看，华为 matebook 做工就要远强于 xps</span><br>
+<span>而且 dell 卖点就不在做工，而是设计和售后服务</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>买了这么多年的笔记本，用了一圈还是用回了联想和神舟</span><br>
+</p><p><b>rp1993: </b><br>
+<span>上周刚买，感觉良好，上面的问题还没有发现，除了打游戏的时候C面确实有点烫……</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>sirlion 发表于 2019-4-17 12:43</span><br>
+<span>aero15的价格也是11999啊，现在没货了所以原价，前两天都是这个价</span><br>
+<span>这个价格真的不错</span><br>
+<span>我之前看的 gs65 和 aero15 都是配 1070 的，价格要高很多，1060 款这价格挺值得购买的</span><br>
+<span>不过讲道理，这两款大塑料本的做工都不行，比不太行的 xps15 还差</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>讲道理用了那么多本感觉还是MacBook和tp高端省事</span><br>
+</p><p><b>boday: </b><br>
+<span>罗克萨斯 发表于 2019-4-17 11:57</span><br>
+<span>XPS15这么多年散热还没长进？我看2kg左右稳压45W CPU的游戏本也出好几款了啊 ...</span><br>
+<span>散热其实是还行的，当然前提是它不要翻车……事实是在我手里连续翻车。</span><br>
+<span>XPS 15 9570 默认的功耗墙是 25 秒 56 W，同时有其他机制会在长时间满载时偶尔跳回 45 W。不翻车的时候满载 56 W 时温度基本能维持在 90 度以下，应该属于这代轻薄笔记本的偏好的水平。</span><br>
+</p><p><b>boday: </b><br>
+<span>eden0412 发表于 2019-4-17 12:15</span><br>
+<span>音频爆音这个问题还在吗，我四年前买的xps13也是有这个毛病</span><br>
+<span>您好，在的。后来确实也发现好几个 Dell 笔记本型号都有类似问题。解决方案目前还是没有的。</span><br>
+</p><p><b>boday: </b><br>
+<span>sirlion 发表于 2019-4-17 12:27</span><br>
+<span>搞不懂，aero15 gs65 m15哪个不是轻薄游戏爆款，买这个xps干啥</span><br>
+<span>嘛，其实我前一台笔记本就是初代 aero 15，后来觉得不玩游戏了给出掉了，然后拎着个乞丐版 4g 内存苏菲破被卡得不能自理，当时看见 xps 15 打折价格讲道理确实不错，就买了……结果头疼了几个月，好在终于还是成功退款了。</span><br>
+<span>aero 15 给我的印象其实做工也不太行，细节上都有些歪啊毛糙的地方。另外保内也送修过一次，突然有一天其中一个风扇就彻底不会转了……</span><br>
+</p><p><b>boday: </b><br>
+<span>脚本水平 发表于 2019-4-17 13:12</span><br>
+<span>讲道理用了那么多本感觉还是MacBook和tp高端省事</span><br>
+<span>同感。经过这一番折腾，我心里仅存的笔记本品牌信仰也只剩下苹果和 tp（仅限高端型号）了，至少我用过的里面还没有让我太失望过。</span><br>
+<span>tp 的中档都不一定行，之前手里有过一台 t430，做工还是感觉略毛糙，半年之内键盘换新了两次……</span><br>
+<span>不过现在拿回了钱我反倒是想重新回归蓝天了，一是风扇转速能自定义，二是想要个窄边框 17 寸 1080p 屏幕（</span><br>
+</p><p><b>Fury: </b><br>
+<span>脚本水平 发表于 2019-4-17 13:12</span><br>
+<span>讲道理用了那么多本感觉还是MacBook和tp高端省事</span><br>
+<span>mbp的屏幕涂层，键盘失灵＆钢板手感，大热天烤手，也是问题啊。当然最厉害的问题是贵</span><br>
+</p><p><b>308: </b><br>
+<span>Fury 发表于 2019-04-17 13:49:58</span><br>
+<span>mbp的屏幕涂层，键盘失灵＆钢板手感，大热天烤手，也是问题啊。当然最厉害的问题是贵 ...其实标配版13寸性价比胜过其他同类高端win本，特别是2k屏和集显方面</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>qratosone: </b><br>
+<span>sirlion 发表于 2019-4-17 12:37</span><br>
+<span>9570我看了jd价格1050ti 8750h是13999，gs65 8750 1060是10999，你确定xps便宜一半？</span><br>
+<span>受物理定律限制，你列的这些都不可能有合格的超极本级续航</span><br>
+</p><p><b>qratosone: </b><br>
+<span>脚本水平 发表于 2019-4-17 13:12</span><br>
+<span>讲道理用了那么多本感觉还是MacBook和tp高端省事</span><br>
+<span>现在的MacBook还是算了吧，键盘问题修了三代都没修好</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>qratosone 发表于 2019-4-17 14:19</span><br>
+<span>现在的MacBook还是算了吧，键盘问题修了三代都没修好</span><br>
+<span>我的，忘加限定了</span><br>
+<span>新键盘手感又屑故障率又高</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>Fury 发表于 2019-4-17 13:49</span><br>
+<span>mbp的屏幕涂层，键盘失灵＆钢板手感，大热天烤手，也是问题啊。当然最厉害的问题是贵 ...</span><br>
+<span>只能说相对省心点....还有楼上说的新macbook的屑键盘我都忘了</span><br>
+<span>现在我的一大乐趣就是看Louis Rossmann喷苹果</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>boday 发表于 2019-4-17 13:33</span><br>
+<span>同感。经过这一番折腾，我心里仅存的笔记本品牌信仰也只剩下苹果和 tp（仅限高端型号）了，至少我用过的 ...</span><br>
+<span>我建议 tp p52 一步到位</span><br>
+<span>我当时买 xps15 的时候就在这和 p52 之间纠结了很久</span><br>
+<span>现在回过来感觉 p52 总体更出色些</span><br>
+</p><p><b>Hieda: </b><br>
+<span>我这台9370一个都没遇上，甚至没有dell祖传电流音，捡到宝了</span><br>
+</p><p><b>quinaeus: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 14:31</span><br>
+<span>我建议 tp p52 一步到位</span><br>
+<span>我当时买 xps15 的时候就在这和 p52 之间纠结了很久</span><br>
+<span>x1 extreme也不错吧</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 14:31</span><br>
+<span>我建议 tp p52 一步到位</span><br>
+<span>我当时买 xps15 的时候就在这和 p52 之间纠结了很久</span><br>
+<span>Precision7530/zbook15G5：？？？ P52这个廉价货有资格跟这两个比？</span><br>
+</p><p><b>qratosone: </b><br>
+<span>脚本水平 发表于 2019-4-17 14:26</span><br>
+<span>我的，忘加限定了</span><br>
+<span>新键盘手感又屑故障率又高</span><br>
+<span>MBP2015现在看来也依然很不错，傻逼苹果跑偏得厉害</span><br>
+</p><p><b>尼曼兔: </b><br>
+<span>xps13用户，如果one diver一直挂着，cpu温度就会逼近90°。</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>qratosone 发表于 2019-4-17 15:43</span><br>
+<span>MBP2015现在看来也依然很不错，傻逼苹果跑偏得厉害</span><br>
+<span>2015 +俩tb3借口 其他的例行升级下多好</span><br>
+<span>现在这touchbar 换不了ssd 键盘 没typca全是减分项</span><br>
+</p><p><b>MtnDeW: </b><br>
+<span>qratosone 发表于 2019-4-17 01:43</span><br>
+<span> MBP2015现在看来也依然很不错，傻逼苹果跑偏得厉害</span><br>
+<span>最近有冲动想去收一台高配2016年初出厂的MBP2015了，值得么</span><br>
+</p><p><b>sirlion: </b><br>
+<span>qratosone 发表于 2019-4-17 10:18</span><br>
+<span>受物理定律限制，你列的这些都不可能有合格的超极本级续航</span><br>
+<span>aero15 是94Wh的电池</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>御坂14084 发表于 2019-4-17 15:18</span><br>
+<span>Precision7530/zbook15G5：？？？ P52这个廉价货有资格跟这两个比？</span><br>
+<span>就是因为便宜才比，你不明白么</span><br>
+<span>你没看到我已经把 p52 放低身价和 xps15 比了么，因为这货只有 xps15 的档次</span><br>
+<span>E2186M + P2000 的配置，p52 1w 出头就能拿得到，你 7530 和 zbook15 要多少钱？</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>quinaeus 发表于 2019-4-17 15:17</span><br>
+<span>x1 extreme也不错吧</span><br>
+<span>散热渣，屏幕渣，续航渣</span><br>
+<span>除了轻一点，有两条 m2 槽和有信仰外，我没觉得有哪一点比 xps15 好的</span><br>
+</p><p><b>shenhequnying: </b><br>
+<span>13 9360 用了半年了。。。我用过缺点最少的笔记本 没有之一。之前用过 mac book pro（15款），t420 t430 w541 </span><br>
+</p><p><b>脚本水平: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 18:00</span><br>
+<span>散热渣，屏幕渣，续航渣</span><br>
+<span>除了轻一点，有两条 m2 槽和有信仰外，我没觉得有哪一点比 xps15 好的 ...</span><br>
+<span>Xps15散热也够渣的了吧，nbc上看屏幕感觉还行啊</span><br>
+<span>很渣吗，我说的4k版</span><br>
+</p><p><b>zhongjie: </b><br>
+<span>quinaeus 发表于 2019-4-17 15:17</span><br>
+<span> x1 extreme也不错吧</span><br>
+<span>x1e是联想抄作业的结果，连xps15的电流声也抄上了</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span> 本帖最后由 huzhiyangqaz 于 2019-4-17 19:58 编辑 </span><br>
+<span>脚本水平 发表于 2019-4-17 19:03</span><br>
+<span>Xps15散热也够渣的了吧，nbc上看屏幕感觉还行啊</span><br>
+<span>很渣吗，我说的4k版</span><br>
+<span>4k 我不清楚</span><br>
+<span>1080p 版的是真的渣</span><br>
+<span>散热和 xps15 还是有差距的，xps 算是这档里散热中上的水平</span><br>
+<span>https://www.ultrabookreview.com/23223-lenovo-x1-extreme-review/</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>huzhiyangqaz 发表于 2019-4-17 19:56</span><br>
+<span>4k 我不清楚</span><br>
+<span>1080p 版的是真的渣</span><br>
+<span>x1e刚出来的时候关注过说是双烤很弱鸡</span><br>
+<span>原来和xps15还有一定差距</span><br>
+<span>更何况xps15网上改造散热铜管随便买</span><br>
+<span>据说效果很不错</span><br>
+<span>x1e官网可以把内存弄到64g还有双m2+超小的适配器还是挺诱人的，键盘也还不错</span><br>
+<span>笔记本好难选啊.....</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1824970[0-50]</guid>
+    </item>
+  </channel>
+</rss>

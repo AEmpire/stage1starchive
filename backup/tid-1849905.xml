@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>感觉在发一个15年前的帖子：如何修电脑求救</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>感觉在发一个15年前的帖子：如何修电脑求救</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:41:31 +0000</lastBuildDate>
+    <item>
+      <title>感觉在发一个15年前的帖子：如何修电脑求救[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849905-1-1.html</link>
+      <description>感觉在发一个15年前的帖子：如何修电脑求救&#13;
+gt970 和 6600k 的二手台式老电脑。
+&#13;
+今天给电脑搬动了一下换了个位置。结果遇到了突然关机的问题。
+&#13;
+具体表现是刚开机的时候没事。但玩游戏3分钟后就会突然断电关机。
+&#13;
+目前我排除了电源线问题。也基本排除了家里供电线路的问题。
+&#13;
+那么请问一下问题是出在电源、显卡还是CPU呢？
+&#13;
+电源会突然烧坏了带不动满负荷显卡？拆开看了下是叫supernova的650w的东西。
+&#13;
+另外这台二手电脑启动的时候，一直以来，都有个按启动按钮点亮——全部灯光风扇熄灭2秒——又全部开始运作的流程。
+&#13;
+很奇怪，不知道是否跟电源有关？
+&#13;
+修电脑这种事好久没遇到过了，感觉梦回十几年前。。。</description>
+      <content:encoded><![CDATA[<p><b>ebuw: </b><br>
+<span>感觉在发一个15年前的帖子：如何修电脑求救</span><br>
+<span>gt970 和 6600k 的二手台式老电脑。</span><br>
+<span>今天给电脑搬动了一下换了个位置。结果遇到了突然关机的问题。</span><br>
+<span>具体表现是刚开机的时候没事。但玩游戏3分钟后就会突然断电关机。</span><br>
+<span>目前我排除了电源线问题。也基本排除了家里供电线路的问题。</span><br>
+<span>那么请问一下问题是出在电源、显卡还是CPU呢？</span><br>
+<span>电源会突然烧坏了带不动满负荷显卡？拆开看了下是叫supernova的650w的东西。</span><br>
+<span>另外这台二手电脑启动的时候，一直以来，都有个按启动按钮点亮——全部灯光风扇熄灭2秒——又全部开始运作的流程。</span><br>
+<span>很奇怪，不知道是否跟电源有关？</span><br>
+<span>修电脑这种事好久没遇到过了，感觉梦回十几年前。。。</span><br>
+</p><p><b>qwased: </b><br>
+<span>全部拆开吹干净灰再装上，看着像是哪里接触不良了，如果搬动之前没问题，有可能显卡/cpu散热器太重把主板拉变形了</span><br>
+<span>开机二启可以升级下主板bios看看有没有改善</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>有可能是电源，也有可能是主板供电</span><br>
+<span>你先观察下有无爆浆吧</span><br>
+</p><p><b>ebuw: </b><br>
+<span>qwased 发表于 2019-7-29 15:42</span><br>
+<span>全部拆开吹干净灰再装上，看着像是哪里接触不良了，如果搬动之前没问题，有可能显卡/cpu散热器太重把主板拉 ...</span><br>
+<span>谢谢。家里灰确实有点大。正好有气体罐子，我试试。</span><br>
+</p><p><b>violind88: </b><br>
+<span>会不会过热 用温度监控看下</span><br>
+</p><p><b>uzar: </b><br>
+<span>你看看是不是风扇被线卡住了或者风扇的小插头松了</span><br>
+</p><p><b>ebuw: </b><br>
+<span> 本帖最后由 ebuw 于 2019-7-30 11:11 编辑 </span><br>
+<span>目前的排查进度：</span><br>
+<span>打开机箱发现CPU的散热器有点松。于是干脆去买了导热膏，重新涂了一遍。并且弄了个CPU温度小软件。</span><br>
+<span>但问题仍然在。打守望先锋大概8分钟后电脑突然断电。</span><br>
+<span>这时候站起来感受了下机箱，感觉显卡很热。</span><br>
+<span>于是把显卡拆下来。并且用集显打开电脑。一边研究怎么清灰、拆开显卡、一边打开了几个网页。</span><br>
+<span>在显卡重涂导热膏到一半的时候，大概十几分钟，电脑又一次自动断电了。</span><br>
+<span>所以看起来，问题只能是主板或者电源？SSD和内存都插得很牢，而且是最新买的。</span><br>
+<span>观察了一下没有发现楼上说的爆浆现象。用手感受了下，至少启动的时候，电源、CPU以及机箱的几个风扇都是有在低速旋转的。</span><br>
+<span>会是电源风扇速度上不去过热了？</span><br>
+</p><p><b>ebuw: </b><br>
+<span>另外拔掉GTX970显卡后，电脑启动果断多了。。。一按按钮就开始转不停。不像之前，好像启动GTX970非常费力一样。。。可能真的是带不动。。。</span><br>
+</p><p><b>litel: </b><br>
+<span>ebuw 发表于 2019-7-30 11:06</span><br>
+<span>目前的排查进度：</span><br>
+<span>打开机箱发现CPU的散热器有点松。于是干脆去买了导热膏，重新涂了一遍。并且弄了个CPU温 ...</span><br>
+<span>那感觉像电源或主板。。</span><br>
+<span>SuperNOVA 是 EVGA 的啊，感觉不像会出问题。。。</span><br>
+<span>去借个主板试试吧。</span><br>
+</p><p><b>braverbt: </b><br>
+<span>听起来你的电脑好像有一块华硕主板,你说的开机运行一会重启是那个什么MEM OK 内存自适应功能(充分说明华硕挑内存)</span><br>
+<span>开机突然掉电有可能是内存和显卡的问题,但是并不像是电源带不动显卡.如果带不动显卡的话开机的时候就会提示供电不足</span><br>
+<span>我建议你先检查一下内存的问题,更换一个插槽或者之类的</span><br>
+<span>然后就是排查各个硬件温度,用hwinfo之类的烤机监测一下</span><br>
+<span>PS:华硕主板受害者,你说的现象我都遇到过</span><br>
+</p><p><b>遥照_: </b><br>
+<span>灰尘肯定不成问题的，我拆过一个几年的主机，里面灰尘都变土把主板标示完全盖住了。应该跟氧化和接触不良有关，当然很可能本身硬件也出毛病了。</span><br>
+</p><p><b>Rocinante: </b><br>
+<span>接触不良而已</span><br>
+<span>—— 来自 samsung SM-G9650, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ebuw: </b><br>
+<span>买了个翻新的corsair 850w电源代替了原来的evga 650w电源，并且把所有内部的线也都一并换了。终于没有自动断电的问题了。可能是电源坏了，也可能只是哪条线接触不良了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849905[0-50]</guid>
+    </item>
+  </channel>
+</rss>

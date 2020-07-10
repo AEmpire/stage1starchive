@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>北美新人装机求建议(86L更新一个电源\主板额外4pin的问题)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>北美新人装机求建议(86L更新一个电源\主板额外4pin的问题)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:05:17 +0000</lastBuildDate>
+    <item>
+      <title>北美新人装机求建议(86L更新一个电源\主板额外4pin的问题)[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865148-1-1.html</link>
+      <description>北美新人装机求建议&#13;
+ 本帖最后由 pateryiyi 于 2019-11-12 11:59 编辑 
+
+人生第一次装机。。毫无经验，动手能力也不咋地，也没自己装过系统，所以压力很大。。于是来泥潭求助一下。。后面我尽量写成一个北美的指南，来回报一下泥潭，如果我机器装起来了的话
+&#13;
+几个最关键的问题：1.   装机是不是a.   我只要有螺丝刀就够了！不需要其他的各种高科技装备吧？我的动手能力也就装装宜家了。。我到时候回去看看从零开始装机的视频的！现在。。还不太着急b.   安装系统的话，我OEMWin10就可以了？那他卖的是啥？CDkey？看起来我需要一个USB系统镜像？但是我没有USB怎么办啊。。放移动硬盘是不是不可以？这样的话我淘宝一个可不可靠啊？是不是usb也得足够大。。
+&#13;
+2.   保修a.   有啥要注意的不？看见大佬们说主板还是买个保修，还有其他的吗？
+&#13;
+3.   去哪里买\什么时候买a.   看起来黑五是个最好的机会？然后基本上就是newegg\Amazon\Bestbuy？我要不要冒风险等圣诞？担心万一圣诞更贵怎么办。。还有ebay咋样？
+&#13;
+几个宏观的指导思想：1.   不玩儿灯！！！a.   很重要所以提前说出来，如果有的话也不是特别排斥，不过要加钱上灯\不要灯可以省钱的话请务必告诉我如何做
+&#13;
+2.   性价比很重要。。a.   我的预算倒不是很死，1000-2000刀都可以，偏向于1500税后吧，但是主要希望性价比高一些？毕竟我也不数毛，ns的画面我也玩儿的很开心b.   不过还有一个指导思想是。。既然都花了钱，不如上点好的。。要不然不如去craglist捡垃圾。。。
+&#13;
+3.   需求。。a.   主要是游戏？加上一点ML\DL最好可以跑跑简单的？毕竟大型的就上云了，不过还是希望可以折腾折腾
+&#13;
+4.   应该不超频。。。
+&#13;
+然后目前的进度：感觉北美的话，基本就是https://www.cyberpowerpc.com/，然后白嫖王说了个https://maingear.com/，然后看reddit有人推荐https://www.letsbld.com/，我家门口的micro center也可以帮你组装。。不过一般的话，组装大概150-200，视情况可能更加糟糕。。于是我才决定自己动手，丰衣足食的。。目前的配置如下：
+&#13;
+Ver1: https://pcpartpicker.com/list/X9YK4n
+&#13;
+然后参考的帖子：https://bbs.saraba1st.com/2b/thread-1861143-1-1.htmlhttps://zhuanlan.zhihu.com/p/80748461还有其他很多就不一一列举了。。
+&#13;
+然后求各位大神分门别类解答一下疑惑
+&#13;
+CPU:Intel I9 9900K*Intel I7 9700KIntel I5 9600K三个选项，偏向I7，主要是觉得I9的话性价比太低了（毕竟牙膏厂？），I5的话。。平常会有玩儿模拟器和或许的（几乎不存在的）跑ML\DL的需求，所以感觉会不太够用？还有要不要上K？还是9700就可以了
+&#13;
+CPUCooler:bequiet! Dark Rock Pro 4 50.5 CFM CPU Cooler*NoctuaNH-L12S 55.44 CFM CPU Cooler毫无认知。。谁来告诉我散热哪个好。。一个是pcpartpicker推荐的，另一个是逛s1帖子推荐的。。两个问题：1.   有没有必要上水冷？上水冷是不是很麻烦？2.   风冷是不是就默认猫头鹰了？猫头鹰又有很多个型号。。哪些型号我能蹲的？担心BlackFriday不降价。。。3.   散热到底是干啥的？我需要一个CPU，一个GPU，再来一个机箱的散热吗？还是说GPU自带散热，我再来一个CPU的就够了？
+&#13;
+MotherBoard:ASRockZ390 Pro4 ATX LGA1151 Motherboard*AsusTUF Z390-PRO GAMING ATX LGA1151 Motherboard看了之前大佬们的讨论，1个是主板最容易出问题，1个是主板主要参考华硕技嘉微星，所以把默认换成了华硕。。几个问题：1.   主板的芯片组，有啥区别？是不是无脑Z390就可以了？还是说有省钱的余地？2.   TUF是不是灯特别多。。。。不过TUF竟然没有type-c？习惯了笔记本的type-c。。3.   华硕\微星\技嘉之间区别大吗？看了看知乎，好像无脑华硕问题不大？4.   同一个芯片组，同一个公司，好像还有高低端区别。。这个区别是啥？接口数量？特殊软件？看了看感觉很复杂。。看见有帖子（https://bbs.saraba1st.com/2b/thread-1863259-1-1.html）抱怨这个问题，还有啥要注意的？
+&#13;
+Memory:*Crucial Ballistix Sport LT 32 GB (2 x 16 GB)DDR4-3200 Memory之前强尼推荐，而且大家好像都没有什么反对意见。。问题如下：1.   还有什么其他型号的可以蹲？感觉金士顿好像不错？还有三星？2.   是不是一条16要比两个8好很多？还有32的意义大不大？主要是我的笔记本都16，我总担心16不太够。。3.   3200\2666区别大吗？主要是pcpartpicker只有3200，我其实准备2666省点的。。
+&#13;
+Storage:*Samsung 860 Evo 500 GB 2.5" Solid State Drive*SeagateBarracuda 3 TB 3.5" 7200RPM Internal Hard Drive问题同内存：1.   除了三星还有啥？三星也有很多型号？看了几个推荐都说无脑860Evo2.   HDD的话有啥注意的？感觉就希捷西数？但是什么各种颜色的盘我就很蒙逼了。。什么的比较好？3.   还有就是，打游戏的话，游戏是放在SSD还是HDD一般来讲？我要不要SSD再大一点？HDD可以小一点其实？
+&#13;
+Video Card:EVGAGeForce RTX 2080 8 GB XC2 ULTRA GAMING Video Card*GigabyteGeForce RTX 2070 SUPER 8 GB GAMING OC 3X Video Card
+&#13;
+这个。。。看似问题不大，其实问题最大。。。首先，我确定我是N卡，那基本就是2060，2070，2080三选一。。然后问题就来了。。每个人一个说法，各种公版非公版魔改版不同spec太复杂了而且屁股太多，不像其他的问题有个最优解。。所以综上：1.   第一个是pcpartpicker的默认。。第二个是我瞎选的2.   感觉美帝能买到的显卡和国内不太一样？看了看很多人推荐的影驰这边就很少。。所以美帝有啥特别推荐的？有没有多几个选项我可以黑五蹲3.   对比同一个型号的不同非公版，有啥要注意的？只会看频率。。。还有啥？感觉评测也没有各种评测正好我想要的型号。。天梯图？但我笔记本玩儿多了很担心散热。。觉得天梯图体现不出来这个的区别啊4.   感觉很多人真香2070super，弄得我也想搞一个。。
+&#13;
+Case:*Cooler Master MasterBox MB510L ATX Mid Tower Case感觉上是一个便宜的+不带灯的。。还有啥推荐的不？我就想要个便宜大碗的我知道要看一看显卡的大小和电源的大小。。还有要注意的吗？
+&#13;
+PowerSupply:EVGASuperNOVA G3 550 W 80+ Gold Certified Fully Modular ATX Power Supply*CorsairCXM 550 W 80+ Bronze Certified Semi-modular ATX Power Supply又是一个知识盲区。。感觉泥潭的建议是，什么都可以省钱，电源不要省钱。。但是国内电源感觉最贵也没多贵啊。。这个随随便便就折前100刀了。。。选择底下这个是因为便宜。。还有啥推荐的不？
+&#13;
+多谢各位大佬了先（泥潭的排版气死我了。。）</description>
+      <content:encoded><![CDATA[<p><b>tsubasa9: </b><br>
+<span>从硬件上讲是好价, 而且还带保修</span><br>
+<span>我只是说9700不太值, 除了我这种要用sgx的我没见过有人买这个u的</span><br>
+<span>当然不折腾也无所谓</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>laosai13 发表于 2019-11-14 03:07</span><br>
+<span>我刚买的整机233感觉也不贵ailenware打完折算了算跟我自己装差不多就懒得折腾了</span><br>
+<span>— from samsung SM-N970U ...</span><br>
+<span>哈哈哈我也有点这个感觉，尤其是我之前的XPS表现良好，所以现在对Dell印象相当不错。。</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-13 17:54 编辑 </span><br>
+<span>pateryiyi 发表于 2019-11-13 09:41</span><br>
+<span>https://www.reddit.com/r/buildapcsales/comments/dvud4i/prebuilt_alienware_aurora_desktop_i79700_16gb ...</span><br>
+<span>想多了，它这配置差了一个档次</span><br>
+<span>价格正好是500刀，没有什么便宜的</span><br>
+<span>别只看CPU和GPU</span><br>
+<span>其他配件也都是钱啊</span><br>
+<span>作为一个没装过机的，我知道你在担心什么，美国数码配件相对没那么多水军和雷事，自己搞东西很简单的</span><br>
+<span>美亚一月保退的体验好到天下无敌，不是国内，台式一定要自己组，在美国年轻男性个人买品牌台式和来美国男人不玩几辆车一样没有任何意思</span><br>
+</p><p><b>faight486: </b><br>
+<span>北美党不上ebay收张图卡？</span><br>
+</p><p><b>faight486: </b><br>
+<span>tsubasa9 发表于 2019-11-12 22:40</span><br>
+<span>农企cpu模拟器没啥问题, 你要不是搞特殊科研项目, intel的也没啥用</span><br>
+<span>还有win10的话, 只要你是学生, 肯定能 ...</span><br>
+<span>下镜像+淘宝激活</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>faight486 发表于 2019-11-14 07:09</span><br>
+<span>下镜像+淘宝激活</span><br>
+<span>淘宝一样是盗版, 要省钱你不如用激活工具</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>天神十三煞 发表于 2019-11-14 06:34</span><br>
+<span>想多了，它这配置差了一个档次</span><br>
+<span>价格正好是500刀，没有什么便宜的</span><br>
+<span>大佬说的在理！</span><br>
+<span>在美国都不自己动手算什么男人</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span> 本帖最后由 pateryiyi 于 2019-11-14 09:31 编辑 </span><br>
+<span>騜 发表于 2019-11-12 13:04</span><br>
+<span>几个最关键的问题：</span><br>
+<span>aifixit+1 b key，你去amazon买个8G以上的U盘就行了，U盘制 ...</span><br>
+<span>等等。。我功课做着做着突然意识到了几个问题：</span><br>
+<span>1.就算我不超频CPU，因为超频内存简单粗暴效果好，所以我需要一块Z版，是不是这个道理？？我才知道那个XMP就是内存超频。。</span><br>
+<span>2.那么我是不是其实9700K和9700的区别不是很大？</span><br>
+<span>3.Follow up, 那么内存超频\CPU超频意义有多大？</span><br>
+<span>4.（划掉）你们推荐Trident、ripjaws， 是不是我一定得买他们？？！我刚刚反应过来。。看起来Crucial Ballistix的颗粒好像不太适合超频，而三星的比较适合？</span><br>
+<span>4.刚看了CHH，说Trident 已经变成了JJR，而镁光反而是三星？？所以我应该盯着镁光？</span><br>
+<span>5.让我再研究研究主板。。。总感觉理解还不够深刻。。</span><br>
+<span>然后刚看了白嫖王的如何安装CPU。。我要单独买thermal paste吗？还是这个是和CPU Cooler一起的？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>就算不超频，9700比9700k也少了基础和turbo频率一截</span><br>
+<span>散热器一般自带散热膏，你有更高需求才另外买</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-11-14 10:42 编辑 </span><br>
+<span>1、是，买Z主板你以后还可以折腾一下1.28v@4.8Ghz这种日常使用CPU超频，XMP只是让内存达到出厂默频的一个设置，真的内存超频还要往上拉</span><br>
+<span>2、K的默认频率比不带K的还是高了一点，而且板和U一起做活动的话比单独9700和Z390是值得购入的</span><br>
+<span>3、生产力及部分垃圾优化游戏来说，超频有意义，对刷论坛看直播用户来说没什么体感提升</span><br>
+<span>4、内存是你问有没有别的选择我顺手推荐的，3200C16这点对新手来说还得基本保证的吧，然后你本来就可以买Crucial Ballistix（3200），它才是镁光EDIE颗粒啊，最省钱的玩法就是买2666的Ballistix超频到3600</span><br>
+<span>5、https://post.smzdm.com/p/ax0rlqq3/这是ROG的前2档产品线梳理，再往下TUF和PRIME和其他品牌也是大同小异</span><br>
+<span>https://post.smzdm.com/p/az503n6r/ 这是同系列主板选购，虽然是AMD的X570主板，但是选购思路大同小异，刚好这块华擎主板就是前面大佬推荐给你的AMD主板？</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>騜 发表于 2019-11-14 10:24</span><br>
+<span>1、是，买Z主板你以后还可以折腾一下1.28v@4.8Ghz这种日常使用CPU超频，XMP只是让内存达到出厂默频的一个设 ...</span><br>
+<span>好的！</span><br>
+<span>9700K主要是micro center有一个300刀的deal，我估计是不会换了。。</span><br>
+<span>现在想着尽量省省钱。。我可能等等主板+硬盘吧，本来想走micro center的bundle deal，不过看起来9700K一时半会儿也卖不完，让我再等等看看黑五能有多大惊喜</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865148[50-100]</guid>
+    </item>
+    <item>
+      <title>北美新人装机求建议(86L更新一个电源\主板额外4pin的问题)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865148-1-1.html</link>
+      <description>北美新人装机求建议&#13;
+ 本帖最后由 pateryiyi 于 2019-11-12 11:59 编辑 
+
+人生第一次装机。。毫无经验，动手能力也不咋地，也没自己装过系统，所以压力很大。。于是来泥潭求助一下。。后面我尽量写成一个北美的指南，来回报一下泥潭，如果我机器装起来了的话
+&#13;
+几个最关键的问题：1.   装机是不是a.   我只要有螺丝刀就够了！不需要其他的各种高科技装备吧？我的动手能力也就装装宜家了。。我到时候回去看看从零开始装机的视频的！现在。。还不太着急b.   安装系统的话，我OEMWin10就可以了？那他卖的是啥？CDkey？看起来我需要一个USB系统镜像？但是我没有USB怎么办啊。。放移动硬盘是不是不可以？这样的话我淘宝一个可不可靠啊？是不是usb也得足够大。。
+&#13;
+2.   保修a.   有啥要注意的不？看见大佬们说主板还是买个保修，还有其他的吗？
+&#13;
+3.   去哪里买\什么时候买a.   看起来黑五是个最好的机会？然后基本上就是newegg\Amazon\Bestbuy？我要不要冒风险等圣诞？担心万一圣诞更贵怎么办。。还有ebay咋样？
+&#13;
+几个宏观的指导思想：1.   不玩儿灯！！！a.   很重要所以提前说出来，如果有的话也不是特别排斥，不过要加钱上灯\不要灯可以省钱的话请务必告诉我如何做
+&#13;
+2.   性价比很重要。。a.   我的预算倒不是很死，1000-2000刀都可以，偏向于1500税后吧，但是主要希望性价比高一些？毕竟我也不数毛，ns的画面我也玩儿的很开心b.   不过还有一个指导思想是。。既然都花了钱，不如上点好的。。要不然不如去craglist捡垃圾。。。
+&#13;
+3.   需求。。a.   主要是游戏？加上一点ML\DL最好可以跑跑简单的？毕竟大型的就上云了，不过还是希望可以折腾折腾
+&#13;
+4.   应该不超频。。。
+&#13;
+然后目前的进度：感觉北美的话，基本就是https://www.cyberpowerpc.com/，然后白嫖王说了个https://maingear.com/，然后看reddit有人推荐https://www.letsbld.com/，我家门口的micro center也可以帮你组装。。不过一般的话，组装大概150-200，视情况可能更加糟糕。。于是我才决定自己动手，丰衣足食的。。目前的配置如下：
+&#13;
+Ver1: https://pcpartpicker.com/list/X9YK4n
+&#13;
+然后参考的帖子：https://bbs.saraba1st.com/2b/thread-1861143-1-1.htmlhttps://zhuanlan.zhihu.com/p/80748461还有其他很多就不一一列举了。。
+&#13;
+然后求各位大神分门别类解答一下疑惑
+&#13;
+CPU:Intel I9 9900K*Intel I7 9700KIntel I5 9600K三个选项，偏向I7，主要是觉得I9的话性价比太低了（毕竟牙膏厂？），I5的话。。平常会有玩儿模拟器和或许的（几乎不存在的）跑ML\DL的需求，所以感觉会不太够用？还有要不要上K？还是9700就可以了
+&#13;
+CPUCooler:bequiet! Dark Rock Pro 4 50.5 CFM CPU Cooler*NoctuaNH-L12S 55.44 CFM CPU Cooler毫无认知。。谁来告诉我散热哪个好。。一个是pcpartpicker推荐的，另一个是逛s1帖子推荐的。。两个问题：1.   有没有必要上水冷？上水冷是不是很麻烦？2.   风冷是不是就默认猫头鹰了？猫头鹰又有很多个型号。。哪些型号我能蹲的？担心BlackFriday不降价。。。3.   散热到底是干啥的？我需要一个CPU，一个GPU，再来一个机箱的散热吗？还是说GPU自带散热，我再来一个CPU的就够了？
+&#13;
+MotherBoard:ASRockZ390 Pro4 ATX LGA1151 Motherboard*AsusTUF Z390-PRO GAMING ATX LGA1151 Motherboard看了之前大佬们的讨论，1个是主板最容易出问题，1个是主板主要参考华硕技嘉微星，所以把默认换成了华硕。。几个问题：1.   主板的芯片组，有啥区别？是不是无脑Z390就可以了？还是说有省钱的余地？2.   TUF是不是灯特别多。。。。不过TUF竟然没有type-c？习惯了笔记本的type-c。。3.   华硕\微星\技嘉之间区别大吗？看了看知乎，好像无脑华硕问题不大？4.   同一个芯片组，同一个公司，好像还有高低端区别。。这个区别是啥？接口数量？特殊软件？看了看感觉很复杂。。看见有帖子（https://bbs.saraba1st.com/2b/thread-1863259-1-1.html）抱怨这个问题，还有啥要注意的？
+&#13;
+Memory:*Crucial Ballistix Sport LT 32 GB (2 x 16 GB)DDR4-3200 Memory之前强尼推荐，而且大家好像都没有什么反对意见。。问题如下：1.   还有什么其他型号的可以蹲？感觉金士顿好像不错？还有三星？2.   是不是一条16要比两个8好很多？还有32的意义大不大？主要是我的笔记本都16，我总担心16不太够。。3.   3200\2666区别大吗？主要是pcpartpicker只有3200，我其实准备2666省点的。。
+&#13;
+Storage:*Samsung 860 Evo 500 GB 2.5" Solid State Drive*SeagateBarracuda 3 TB 3.5" 7200RPM Internal Hard Drive问题同内存：1.   除了三星还有啥？三星也有很多型号？看了几个推荐都说无脑860Evo2.   HDD的话有啥注意的？感觉就希捷西数？但是什么各种颜色的盘我就很蒙逼了。。什么的比较好？3.   还有就是，打游戏的话，游戏是放在SSD还是HDD一般来讲？我要不要SSD再大一点？HDD可以小一点其实？
+&#13;
+Video Card:EVGAGeForce RTX 2080 8 GB XC2 ULTRA GAMING Video Card*GigabyteGeForce RTX 2070 SUPER 8 GB GAMING OC 3X Video Card
+&#13;
+这个。。。看似问题不大，其实问题最大。。。首先，我确定我是N卡，那基本就是2060，2070，2080三选一。。然后问题就来了。。每个人一个说法，各种公版非公版魔改版不同spec太复杂了而且屁股太多，不像其他的问题有个最优解。。所以综上：1.   第一个是pcpartpicker的默认。。第二个是我瞎选的2.   感觉美帝能买到的显卡和国内不太一样？看了看很多人推荐的影驰这边就很少。。所以美帝有啥特别推荐的？有没有多几个选项我可以黑五蹲3.   对比同一个型号的不同非公版，有啥要注意的？只会看频率。。。还有啥？感觉评测也没有各种评测正好我想要的型号。。天梯图？但我笔记本玩儿多了很担心散热。。觉得天梯图体现不出来这个的区别啊4.   感觉很多人真香2070super，弄得我也想搞一个。。
+&#13;
+Case:*Cooler Master MasterBox MB510L ATX Mid Tower Case感觉上是一个便宜的+不带灯的。。还有啥推荐的不？我就想要个便宜大碗的我知道要看一看显卡的大小和电源的大小。。还有要注意的吗？
+&#13;
+PowerSupply:EVGASuperNOVA G3 550 W 80+ Gold Certified Fully Modular ATX Power Supply*CorsairCXM 550 W 80+ Bronze Certified Semi-modular ATX Power Supply又是一个知识盲区。。感觉泥潭的建议是，什么都可以省钱，电源不要省钱。。但是国内电源感觉最贵也没多贵啊。。这个随随便便就折前100刀了。。。选择底下这个是因为便宜。。还有啥推荐的不？
+&#13;
+多谢各位大佬了先（泥潭的排版气死我了。。）</description>
+      <content:encoded><![CDATA[<p><b>pateryiyi: </b><br>
+<span>北美新人装机求建议</span><br>
+<span> 本帖最后由 pateryiyi 于 2019-11-12 11:59 编辑 </span><br>
+<span>人生第一次装机。。毫无经验，动手能力也不咋地，也没自己装过系统，所以压力很大。。于是来泥潭求助一下。。后面我尽量写成一个北美的指南，来回报一下泥潭，如果我机器装起来了的话</span><br>
+<span>几个最关键的问题：1.   装机是不是a.   我只要有螺丝刀就够了！不需要其他的各种高科技装备吧？我的动手能力也就装装宜家了。。我到时候回去看看从零开始装机的视频的！现在。。还不太着急b.   安装系统的话，我OEMWin10就可以了？那他卖的是啥？CDkey？看起来我需要一个USB系统镜像？但是我没有USB怎么办啊。。放移动硬盘是不是不可以？这样的话我淘宝一个可不可靠啊？是不是usb也得足够大。。</span><br>
+<span>2.   保修a.   有啥要注意的不？看见大佬们说主板还是买个保修，还有其他的吗？</span><br>
+<span>3.   去哪里买\什么时候买a.   看起来黑五是个最好的机会？然后基本上就是newegg\Amazon\Bestbuy？我要不要冒风险等圣诞？担心万一圣诞更贵怎么办。。还有ebay咋样？</span><br>
+<span>几个宏观的指导思想：1.   不玩儿灯！！！a.   很重要所以提前说出来，如果有的话也不是特别排斥，不过要加钱上灯\不要灯可以省钱的话请务必告诉我如何做</span><br>
+<span>2.   性价比很重要。。a.   我的预算倒不是很死，1000-2000刀都可以，偏向于1500税后吧，但是主要希望性价比高一些？毕竟我也不数毛，ns的画面我也玩儿的很开心b.   不过还有一个指导思想是。。既然都花了钱，不如上点好的。。要不然不如去craglist捡垃圾。。。</span><br>
+<span>3.   需求。。a.   主要是游戏？加上一点ML\DL最好可以跑跑简单的？毕竟大型的就上云了，不过还是希望可以折腾折腾</span><br>
+<span>4.   应该不超频。。。</span><br>
+<span>然后目前的进度：感觉北美的话，基本就是https://www.cyberpowerpc.com/，然后白嫖王说了个https://maingear.com/，然后看reddit有人推荐https://www.letsbld.com/，我家门口的micro center也可以帮你组装。。不过一般的话，组装大概150-200，视情况可能更加糟糕。。于是我才决定自己动手，丰衣足食的。。目前的配置如下：</span><br>
+<span>Ver1: https://pcpartpicker.com/list/X9YK4n</span><br>
+<span>然后参考的帖子：https://bbs.saraba1st.com/2b/thread-1861143-1-1.htmlhttps://zhuanlan.zhihu.com/p/80748461还有其他很多就不一一列举了。。</span><br>
+<span>然后求各位大神分门别类解答一下疑惑</span><br>
+<span>CPU:Intel I9 9900K*Intel I7 9700KIntel I5 9600K三个选项，偏向I7，主要是觉得I9的话性价比太低了（毕竟牙膏厂？），I5的话。。平常会有玩儿模拟器和或许的（几乎不存在的）跑ML\DL的需求，所以感觉会不太够用？还有要不要上K？还是9700就可以了</span><br>
+<span>CPUCooler:bequiet! Dark Rock Pro 4 50.5 CFM CPU Cooler*NoctuaNH-L12S 55.44 CFM CPU Cooler毫无认知。。谁来告诉我散热哪个好。。一个是pcpartpicker推荐的，另一个是逛s1帖子推荐的。。两个问题：1.   有没有必要上水冷？上水冷是不是很麻烦？2.   风冷是不是就默认猫头鹰了？猫头鹰又有很多个型号。。哪些型号我能蹲的？担心BlackFriday不降价。。。3.   散热到底是干啥的？我需要一个CPU，一个GPU，再来一个机箱的散热吗？还是说GPU自带散热，我再来一个CPU的就够了？</span><br>
+<span>MotherBoard:ASRockZ390 Pro4 ATX LGA1151 Motherboard*AsusTUF Z390-PRO GAMING ATX LGA1151 Motherboard看了之前大佬们的讨论，1个是主板最容易出问题，1个是主板主要参考华硕技嘉微星，所以把默认换成了华硕。。几个问题：1.   主板的芯片组，有啥区别？是不是无脑Z390就可以了？还是说有省钱的余地？2.   TUF是不是灯特别多。。。。不过TUF竟然没有type-c？习惯了笔记本的type-c。。3.   华硕\微星\技嘉之间区别大吗？看了看知乎，好像无脑华硕问题不大？4.   同一个芯片组，同一个公司，好像还有高低端区别。。这个区别是啥？接口数量？特殊软件？看了看感觉很复杂。。看见有帖子（https://bbs.saraba1st.com/2b/thread-1863259-1-1.html）抱怨这个问题，还有啥要注意的？</span><br>
+<span>Memory:*Crucial Ballistix Sport LT 32 GB (2 x 16 GB)DDR4-3200 Memory之前强尼推荐，而且大家好像都没有什么反对意见。。问题如下：1.   还有什么其他型号的可以蹲？感觉金士顿好像不错？还有三星？2.   是不是一条16要比两个8好很多？还有32的意义大不大？主要是我的笔记本都16，我总担心16不太够。。3.   3200\2666区别大吗？主要是pcpartpicker只有3200，我其实准备2666省点的。。</span><br>
+<span>Storage:*Samsung 860 Evo 500 GB 2.5" Solid State Drive*SeagateBarracuda 3 TB 3.5" 7200RPM Internal Hard Drive问题同内存：1.   除了三星还有啥？三星也有很多型号？看了几个推荐都说无脑860Evo2.   HDD的话有啥注意的？感觉就希捷西数？但是什么各种颜色的盘我就很蒙逼了。。什么的比较好？3.   还有就是，打游戏的话，游戏是放在SSD还是HDD一般来讲？我要不要SSD再大一点？HDD可以小一点其实？</span><br>
+<span>Video Card:EVGAGeForce RTX 2080 8 GB XC2 ULTRA GAMING Video Card*GigabyteGeForce RTX 2070 SUPER 8 GB GAMING OC 3X Video Card</span><br>
+<span>这个。。。看似问题不大，其实问题最大。。。首先，我确定我是N卡，那基本就是2060，2070，2080三选一。。然后问题就来了。。每个人一个说法，各种公版非公版魔改版不同spec太复杂了而且屁股太多，不像其他的问题有个最优解。。所以综上：1.   第一个是pcpartpicker的默认。。第二个是我瞎选的2.   感觉美帝能买到的显卡和国内不太一样？看了看很多人推荐的影驰这边就很少。。所以美帝有啥特别推荐的？有没有多几个选项我可以黑五蹲3.   对比同一个型号的不同非公版，有啥要注意的？只会看频率。。。还有啥？感觉评测也没有各种评测正好我想要的型号。。天梯图？但我笔记本玩儿多了很担心散热。。觉得天梯图体现不出来这个的区别啊4.   感觉很多人真香2070super，弄得我也想搞一个。。</span><br>
+<span>Case:*Cooler Master MasterBox MB510L ATX Mid Tower Case感觉上是一个便宜的+不带灯的。。还有啥推荐的不？我就想要个便宜大碗的我知道要看一看显卡的大小和电源的大小。。还有要注意的吗？</span><br>
+<span>PowerSupply:EVGASuperNOVA G3 550 W 80+ Gold Certified Fully Modular ATX Power Supply*CorsairCXM 550 W 80+ Bronze Certified Semi-modular ATX Power Supply又是一个知识盲区。。感觉泥潭的建议是，什么都可以省钱，电源不要省钱。。但是国内电源感觉最贵也没多贵啊。。这个随随便便就折前100刀了。。。选择底下这个是因为便宜。。还有啥推荐的不？</span><br>
+<span>多谢各位大佬了先（泥潭的排版气死我了。。）</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-11-12 11:23 编辑 </span><br>
+<span>不是我说 你们北美党都喜欢列这么多问题吗</span><br>
+<span>先去点个外卖再来回复</span><br>
+<span>顺便 @天神十三煞 </span><br>
+</p><p><b>你可以试试: </b><br>
+<span>买个整机得了</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>騜 发表于 2019-11-12 11:22</span><br>
+<span>不是我说 你们北美党都喜欢列这么多问题吗</span><br>
+<span>先去点个外卖再来回复</span><br>
+<span>顺便 @天神十三煞 </span><br>
+<span>哈哈哈哈哈哈哈主要是看了之前那个北美的帖子,就激起了我很多的问题</span><br>
+<span>外加我觉得之前那个LZ和我都是啥都不懂</span><br>
+</p><p><b>akodaM: </b><br>
+<span>个人装机你搞不定的话找你附近的大学微信群</span><br>
+<span>里面做装机生意的中国人不会少</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>你可以试试 发表于 2019-11-12 11:23</span><br>
+<span>买个整机得了</span><br>
+<span>看了看HP的整机，感觉亏了一个亿。。而且我本来想买乐高的，买了这个搭起来就当搭乐高了哈哈哈哈哈哈</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>螺丝刀弄一套ifixit repair tools，或者同类产品，google上看一眼，也就20-30刀</span><br>
+<span>然后一切从这里开始慢慢玩就是了</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>akodaM 发表于 2019-11-12 11:26</span><br>
+<span>个人装机你搞不定的话找你附近的大学微信群</span><br>
+<span>里面做装机生意的中国人不会少 ...</span><br>
+<span>卧槽？？有道理啊。。不过之前我上学的时候没看见有人做的。。也有可能是之前太村了。。</span><br>
+</p><p><b>akodaM: </b><br>
+<span>pateryiyi 发表于 2019-11-12 11:30</span><br>
+<span>卧槽？？有道理啊。。不过之前我上学的时候没看见有人做的。。也有可能是之前太村了。。 ...</span><br>
+<span>中国人稍微多点的学校都有</span><br>
+<span>你自己买好配件给钱让装就行，技术一般比老美店强（不靠谱/才开做的除外）</span><br>
+<span>泥潭不少坛友都干过这生意</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>另外你这台机器是用来干什么/玩什么的？</span><br>
+<span>偏游戏的话就买微型和华硕高端，不然没差</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>dafangwoo 发表于 2019-11-12 11:35</span><br>
+<span>另外你这台机器是用来干什么/玩什么的？</span><br>
+<span>偏游戏的话就买微型和华硕高端，不然没差 ...</span><br>
+<span>游戏，加上可能的跑跑DL。。</span><br>
+<span>我看了看整机，感觉还是会差个700刀左右。。而且也没有啥安装的乐趣了哈哈哈</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>akodaM 发表于 2019-11-12 11:32</span><br>
+<span>中国人稍微多点的学校都有</span><br>
+<span>你自己买好配件给钱让装就行，技术一般比老美店强（不靠谱/才开做的除外）</span><br>
+<span>泥 ...</span><br>
+<span>我觉得是时候加一下泥潭的北美群了</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>pateryiyi 发表于 2019-11-12 11:41</span><br>
+<span>游戏，加上可能的跑跑DL。。</span><br>
+<span>我看了看整机，感觉还是会差个700刀左右。。而且也没有啥安装的乐趣了哈哈 ...</span><br>
+<span>那有些部件就依着你的预选来好了</span><br>
+<span>cpu不喜欢99就97k，8C没毛病，能战未来，虽然97 99性价比都不高，但也没办法是吧</span><br>
+<span>散热喜欢风冷的话直接d15或者同级bequiet产品应付轻松日常、一些轻度OC尝试</span><br>
+<span>想继续OC第一步是换液金、开盖换液金，之后是一体或者分体水的天下</span><br>
+<span>主板z390没得选</span><br>
+<span>控制预算的话就在华擎extreme4和taichi里挑，不然无脑上msi/asus高端，买外观中意的就是了</span><br>
+<span>内存对部分游戏和应用很重要，另一些没差，得具体看</span><br>
+<span>给个参考，我自己的机器是要求是OW lowest fps 300 @ 1080p 240hz，所以是两条galax HOF ddr4 4000 extreme。除非用cpu同时压x264，不然永远掉不下300</span><br>
+<span>存储推860evo我不知道是图个啥</span><br>
+<span>NA市场有没有pm981a的？没的话就512-1TB的960 970 evo/pro</span><br>
+<span>HDD如果对数据安全性不敏感，或者已经有备份手段的，可以先不买</span><br>
+<span>显卡买你喜欢就好，想省钱就买丐版高端型号</span><br>
+<span>机箱便宜大碗的其实有不少，但一时也只想的起来自己用的antec p110s</span><br>
+<span>空间大风道合理，且可以无缝升级360+280水冷</span><br>
+<span>电源买你喜欢就好，北美跟台湾品牌的非低价货都不错</span><br>
+</p><p><b>Novagelion: </b><br>
+<span>想省钱么？想省钱看这个：https://www.reddit.com/r/buildapcsales/new/ 每天早晚看一眼，休息时候看一眼，帮你省个20%还是没问题的。然后黑五快到了，要做什么不用我说吧，该等就等肯定不会让你亏的。</span><br>
+<span>Microcenter是天堂，你又离得近，有条件一定要利用好，记得cpu+主板套餐都能给你抵扣个几十刀值爆了，全网你都找不到这么硬的折扣。唯一个问题是MC家主板（或者其他什么玩意儿）缺货是常态，你到了店里发现看上的性价比高的板子卖完了，逼你买贵的性价比烂的不是亏炸，所以去之前要查好库存。</span><br>
+<span>其实吧买什么配件没必要现在都决定好，到时候各种折扣扑上来你该变卦还是得变卦，特别是那些个丐版卡动不动降大几十刀你不心动吗，同样钱钱能上丐2080那肯定不买什么天花板2070了。所以说最好的list就是没有list，哪个便宜买哪个。</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>dafangwoo 发表于 2019-11-12 12:01</span><br>
+<span>那有些部件就依着你的预选来好了</span><br>
+<span>cpu不喜欢99就97k，8C没毛病，能战未来，虽然97 99性价比都不高，但也 ...</span><br>
+<span>所以基本上就是</span><br>
+<span>散热 → 上d15</span><br>
+<span>主板 → tuf还不够，得往rog走？</span><br>
+<span>硬盘 →emmm主要我也有一点松鼠。。感觉买个移动硬盘不如直接上hdd？</span><br>
+<span>显卡 → emmm。。还是有点不太懂。。所以我那个可以？</span><br>
+<span>电源 → 随便搞一个？</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span> 本帖最后由 pateryiyi 于 2019-11-12 12:41 编辑 </span><br>
+<span>Novagelion 发表于 2019-11-12 12:01</span><br>
+<span>想省钱么？想省钱看这个：https://www.reddit.com/r/buildapcsales/new/ 每天早晚看一眼，休息时候看一眼， ...</span><br>
+<span>卧槽这个帮大忙了！！！</span><br>
+<span>micro center我也觉得挺厉害的。。我之前的XPS就是mc淘的，比全网最便宜的还便宜了2,300刀。。而且只能local pick up。。</span><br>
+<span>所以我micro center盯啥？主要就是盯cpu和主板？还是啥都可以看看？</span><br>
+<span>然后就是。。黑五是不是现在已经会开始打折了？而且我记得我去年也有看见best buy有例如cyber monday之类的。。所以这个也很随机？</span><br>
+<span>修正：抬头第一个reddit就是micro center的大包。。感觉明天要翘班去买了</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>pateryiyi 发表于 2019-11-12 12:38</span><br>
+<span>卧槽这个帮大忙了！！！</span><br>
+<span>micro center我也觉得挺厉害的。。我之前的XPS就是mc淘的，比全网最便宜的还便宜 ...</span><br>
+<span>mc去盯linus吖，说不定人家又来扮猪卖20刀的9900ks嘞</span><br>
+<span>— from samsung SM-G9730, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>airy: </b><br>
+<span>自己动手装的话，昨天看到个保姆级教学视频，b站 av75370637</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-11-12 14:14 编辑 </span><br>
+<span>几个最关键的问题：1.   装机是不是a.   我只要有螺丝刀就够了！不需要其他的各种高科技装备吧？我的动手能力也就装装宜家了。。我到时候回去看看从零开始装机的视频的！现在。。还不太着急b.   安装系统的话，我OEMWin10就可以了？那他卖的是啥？CDkey？看起来我需要一个USB系统镜像？但是我没有USB怎么办啊。。放移动硬盘是不是不可以？这样的话我淘宝一个可不可靠啊？是不是usb也得足够大。。</span><br>
+<span>aifixit+1 b key，你去amazon买个8G以上的U盘就行了，U盘制作系统安装的教程网上一抓一大把 去MSDN我告诉你下载镜像</span><br>
+<span>2.   保修a.   有啥要注意的不？看见大佬们说主板还是买个保修，还有其他的吗？</span><br>
+<span>3.   去哪里买\什么时候买a.   看起来黑五是个最好的机会？然后基本上就是newegg\Amazon\Bestbuy？我要不要冒风险等圣诞？担心万一圣诞更贵怎么办。。还有ebay咋样？</span><br>
+<span>自己装的话主板本身就带保修，国内有时候会注册送延保1年 国外不清楚愿意折腾就线上线下都一起买，你门口的micro center有多近黑五就能省多少ebay不是买二手吗</span><br>
+<span>Ver1: https://pcpartpicker.com/list/X9YK4n</span><br>
+<span>CPU:Intel I9 9900K*Intel I7 9700KIntel I5 9600K三个选项，偏向I7，主要是觉得I9的话性价比太低了（毕竟牙膏厂？），I5的话。。平常会有玩儿模拟器和或许的（几乎不存在的）跑ML\DL的需求，所以感觉会不太够用？还有要不要上K？还是9700就可以了</span><br>
+<span>9700K可以了</span><br>
+<span>CPUCooler:bequiet! Dark Rock Pro 4 50.5 CFM CPU Cooler*NoctuaNH-L12S 55.44 CFM CPU Cooler毫无认知。。谁来告诉我散热哪个好。。一个是pcpartpicker推荐的，另一个是逛s1帖子推荐的。。两个问题：1.   有没有必要上水冷？上水冷是不是很麻烦？2.   风冷是不是就默认猫头鹰了？猫头鹰又有很多个型号。。哪些型号我能蹲的？担心BlackFriday不降价。。。3.   散热到底是干啥的？我需要一个CPU，一个GPU，再来一个机箱的散热吗？还是说GPU自带散热，我再来一个CPU的就够了？</span><br>
+<span>你选的L12S是下压式的 换D15或D15S ,bequiet! Dark Rock Pro 4和NoctuaNH-D15/D15S是同级别的，性能大差不差就是有的人喜欢全黑</span><br>
+<span>机箱基本上也自带一两个风扇，有的不需要加装有人觉得噪音不行风量不行就自己换风扇了，默认买一个CPU散热就行</span><br>
+<span>MotherBoard:ASRockZ390 Pro4 ATX LGA1151 Motherboard*AsusTUF Z390-PRO GAMING ATX LGA1151 Motherboard看了之前大佬们的讨论，1个是主板最容易出问题，1个是主板主要参考华硕技嘉微星，所以把默认换成了华硕。。几个问题：1.   主板的芯片组，有啥区别？是不是无脑Z390就可以了？还是说有省钱的余地？2.   TUF是不是灯特别多。。。。不过TUF竟然没有type-c？习惯了笔记本的type-c。。3.   华硕\微星\技嘉之间区别大吗？看了看知乎，好像无脑华硕问题不大？4.   同一个芯片组，同一个公司，好像还有高低端区别。。这个区别是啥？接口数量？特殊软件？看了看感觉很复杂。。看见有帖子（https://bbs.saraba1st.com/2b/thread-1863259-1-1.html）抱怨这个问题，还有啥要注意的？</span><br>
+<span>1.小白无脑选Z3902.同价位 这个有type-c，但是你要tpye-c做什么？ 笔记本的c是给拓展和外接用的，主板一般大部分在io都有了。。。MSI MPG Z390 GAMING PRO CARBON3.华硕I家一哥，微信A家一姐，不超频的人买哪家都差不多，只要能开XMP就行了4.堆料不一样，那个帖子抱怨的问题是2个不同级别的芯片组支持不一样而已，同级别的就是用料和接口不同，一般有能力的情况下买旗舰往下第三档就行了，丐版有CPU套装便宜特别多也不是不可以</span><br>
+<span>Memory:*Crucial Ballistix Sport LT 32 GB (2 x 16 GB)DDR4-3200 Memory之前强尼推荐，而且大家好像都没有什么反对意见。。问题如下：1.   还有什么其他型号的可以蹲？感觉金士顿好像不错？还有三星？2.   是不是一条16要比两个8好很多？还有32的意义大不大？主要是我的笔记本都16，我总担心16不太够。。3.   3200\2666区别大吗？主要是pcpartpicker只有3200，我其实准备2666省点的。。</span><br>
+<span>1. G.Skill Trident Z RGB 32 GB DDR4-3200      2 x 16GB2. 内存买双数 2条8或者2条16 3. 2666可以超频3200，你愿意学就可以省这笔钱，同理3200可以超4000.</span><br>
+<span>Storage:*Samsung 860 Evo 500 GB 2.5" Solid State Drive*SeagateBarracuda 3 TB 3.5" 7200RPM Internal Hard Drive问题同内存：1.   除了三星还有啥？三星也有很多型号？看了几个推荐都说无脑860Evo2.   HDD的话有啥注意的？感觉就希捷西数？但是什么各种颜色的盘我就很蒙逼了。。什么的比较好？3.   还有就是，打游戏的话，游戏是放在SSD还是HDD一般来讲？我要不要SSD再大一点？HDD可以小一点其实？</span><br>
+<span>除了三星还有WD，你这主板别买2.5寸的SATA了Western Digital Black NVMe 1 TB M.2-2280 NVME Solid State Drive 仓库盘要么3T HDD         Toshiba P300要么2T SSDSanDisk Ultra 3D</span><br>
+<span>Video Card:EVGAGeForce RTX 2080 8 GB XC2 ULTRA GAMING Video Card*GigabyteGeForce RTX 2070 SUPER 8 GB GAMING OC 3X Video Card</span><br>
+<span>这个。。。看似问题不大，其实问题最大。。。首先，我确定我是N卡，那基本就是2060，2070，2080三选一。。然后问题就来了。。每个人一个说法，各种公版非公版魔改版不同spec太复杂了而且屁股太多，不像其他的问题有个最优解。。所以综上：1.   第一个是pcpartpicker的默认。。第二个是我瞎选的2.   感觉美帝能买到的显卡和国内不太一样？看了看很多人推荐的影驰这边就很少。。所以美帝有啥特别推荐的？有没有多几个选项我可以黑五蹲3.   对比同一个型号的不同非公版，有啥要注意的？只会看频率。。。还有啥？感觉评测也没有各种评测正好我想要的型号。。天梯图？但我笔记本玩儿多了很担心散热。。觉得天梯图体现不出来这个的区别啊4.   感觉很多人真香2070super，弄得我也想搞一个。。</span><br>
+<span>教你一个最简单的，认准2070super 看那个风扇多又长 哪个样子好看又便宜就买哪个 别的参数就别操心了 几个大牌大差不差，2个风扇以下又只有2层的别买就行</span><br>
+<span>Case:*Cooler Master MasterBox MB510L ATX Mid Tower Case感觉上是一个便宜的+不带灯的。。还有啥推荐的不？我就想要个便宜大碗的我知道要看一看显卡的大小和电源的大小。。还有要注意的吗？</span><br>
+<span>Phanteks P300</span><br>
+<span>Fractal Design Focus G</span><br>
+<span>Antec P8</span><br>
+<span>PowerSupply:EVGASuperNOVA G3 550 W 80+ Gold Certified Fully Modular ATX Power Supply*CorsairCXM 550 W 80+ Bronze Certified Semi-modular ATX Power Supply又是一个知识盲区。。感觉泥潭的建议是，什么都可以省钱，电源不要省钱。。但是国内电源感觉最贵也没多贵啊。。这个随随便便就折前100刀了。。。选择底下这个是因为便宜。。还有啥推荐的不？</span><br>
+<span>Corsair RMx (2018) 80+ Gold      650 W</span><br>
+<span>EVGA SuperNOVA G3 80+ Gold      650 W</span><br>
+<span>SeaSonic FOCUS Plus Gold 80+ Gold      650 W</span><br>
+</p><p><b>Benighted: </b><br>
+<span>/r/buildapc</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>騜 发表于 2019-11-12 13:04</span><br>
+<span>几个最关键的问题：</span><br>
+<span>aifixit+1 b key，你去amazon买个8G以上的U盘就行了，U盘制 ...</span><br>
+<span>所以：</span><br>
+<span>主板。。从上往下第三个。。华硕就是prime了？</span><br>
+<span>显卡。。2层的指的是啥？风扇我还会看</span><br>
+<span>感觉现在要往税后1800刀走了</span><br>
+<span>能省钱的话。。大概是显卡\主板\不要仓库盘了\内存降成16G？emmm让我思考思考。。。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-12 01:16 编辑 </span><br>
+<span>泻药</span><br>
+<span>晚上刚到家</span><br>
+<span>好像大部分其他人都说了</span><br>
+<span>我就补充两点</span><br>
+<span>这个吧，一套的，便宜，我之前的丢了几个刀口，才买了这套，虽然一般装机用不到这么多，不过这啥电子电器基本都能应付了</span><br>
+<span>https://www.amazon.com/gp/product/B07XSDZY9F/</span><br>
+<span>准备一个U盘即可，在现在的电脑上灌好备，剩下的官网参考</span><br>
+<span>https://www.microsoft.com/en-us/software-download/windows10</span><br>
+</p><p><b>騜: </b><br>
+<span>pateryiyi 发表于 2019-11-12 13:41</span><br>
+<span>所以：</span><br>
+<span>主板。。从上往下第三个。。华硕就是prime了？</span><br>
+<span>显卡。。2层的指的是啥？风扇我还会看</span><br>
+<span>华硕是这么分的，最高级产品线是纯血ROG/TUF/ROG STRIX/丐版就是Prime </span><br>
+<span>首先最贵的ROG不看了，其他看主板后缀 简单来说A>B>C以此类推</span><br>
+<span>所以你还是得买TUF或者STRIX系列</span><br>
+<span>2层是指显卡的接口占用2层PCI挡板，如下</span><br>
+<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3573860677,2728348197&fm=26&gp=0.jpg" title="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3573860677,2728348197&fm=26&gp=0.jpg"><br>
+<span>但是如果只有2个风扇 又只有2层 又不太贵 那你默认它散热不行就行了</span><br>
+</p><p><b>yibo: </b><br>
+<span>cpu也是牙膏厂，不考虑amd yes吗？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-12 07:04 编辑 </span><br>
+<span>圣诞节网购通常是内存或外存打折，芯片和板卡折扣比较少，</span><br>
+<span>少部分combo折扣不错，亚马逊新蛋BestBuy和micro center按排序择优录取</span><br>
+<span>其他都回答差不多了</span><br>
+<span>还是直接给你个2000刀清单吧</span><br>
+<span>最便宜的小板有，小板有wifi，大机箱可以装小板反过来不行，哪天你想装进A4了不需要换板缩减成本</span><br>
+<span>https://www.amazon.com/dp/B07HYPSLLS/</span><br>
+<span>和上面幻光戟对应产品无灯版本铰尺鲨，性能相同</span><br>
+<span>https://www.amazon.com/dp/B0171GQR0C/</span><br>
+<span>9700kf就不废话了，注意f版核显不能用</span><br>
+<span>https://www.amazon.com/dp/B07MJXYX62</span><br>
+<span>CPU风冷综合最优解D15黑色版，记住散热底座可以换方向装</span><br>
+<span>https://www.amazon.com/dp/B07Y3CTQNT/</span><br>
+<span>这代好像不管哪个型号，魔龙都是最强的一款</span><br>
+<span>https://www.amazon.com/dp/B07VDMGYGZ</span><br>
+<span>大机箱可以装小电源反过来不行，性能无衰减，这功率日常也够安静，哪天你想装进A4了不需要换板缩减成本</span><br>
+<span>https://www.amazon.com/dp/B07M63H81H/</span><br>
+<span>目前来说除了牙膏905p外三棒970 pro还是独一档的系统软件盘</span><br>
+<span>https://www.amazon.com/dp/B07C8Y31G2/</span><br>
+<span>最便宜的非大船游戏盘</span><br>
+<span>https://www.amazon.com/dp/B07L31K2MK/</span><br>
+<span>感恩节盯着这些折扣买就行</span><br>
+<span>省出来的钱足够随便买个装得下的机箱和键鼠</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>騜 发表于 2019-11-12 14:09</span><br>
+<span>华硕是这么分的，最高级产品线是纯血ROG/TUF/ROG STRIX/丐版就是Prime </span><br>
+<span>首先最贵的ROG不看了，其他看主板 ...</span><br>
+<span>我当时看z390是参考的这个帖子https://zhuanlan.zhihu.com/p/62209416，所以从上往下就数到了prime。。。</span><br>
+<span>那个plus pro啥的区别大吗？还是说tuf优先，其他的不重要？</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>yibo 发表于 2019-11-12 14:11</span><br>
+<span>cpu也是牙膏厂，不考虑amd yes吗？</span><br>
+<span>我好想说一句amd yes啊！！可惜amd模拟器支持不如Intel，所以就不考虑了。。</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>农企cpu模拟器没啥问题, 你要不是搞特殊科研项目, intel的也没啥用</span><br>
+<span>还有win10的话, 只要你是学生, 肯定能在学校软件商店免费拿到key</span><br>
+<span>azure学生帐号也能拿几个</span><br>
+<span>我已经拿了6个免费key了</span><br>
+</p><p><b>騜: </b><br>
+<span>pateryiyi 发表于 2019-11-12 22:31</span><br>
+<span>我当时看z390是参考的这个帖子https://zhuanlan.zhihu.com/p/62209416，所以从上往下就数到了prime。。。 ...</span><br>
+<span>你这个帖子标题写了 ATX版型按供电划分排序 </span><br>
+<span>偏巧TUF的ATX是PLUS这个弟弟，理论上TUF-Z390M-PRO（MATX版型）堆料大于PLUS</span><br>
+<span>所以PRIME的Z390-A就比TUF好了（前面说了 A>B>C这样排序）</span><br>
+<span>再举个例子，我在19楼推荐给你的MSI MPG Z390 GAMING PRO CARBON就是MSI的供电第三档</span><br>
+<span>楼上推荐你的华擎 ASRock Z390M-ITX/AC也是个不错的入门ITX板 对拓展需求不高的话可以考虑</span><br>
+<span>如果想上好一点就ASRock Motherboard (Z390 Phantom Gaming-ITX/AC)</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-12 07:15 编辑 </span><br>
+<span>https://www.amazon.com/dp/B07SW925DR/</span><br>
+<span>https://www.amazon.com/dp/B07SXMZLPK</span><br>
+<span>农企的ITX板新出现在比较贵</span><br>
+<span>看看感恩节有没有combo吧</span><br>
+</p><p><b>yibo: </b><br>
+<span>pateryiyi 发表于 2019-11-12 22:32</span><br>
+<span>我好想说一句amd yes啊！！可惜amd模拟器支持不如Intel，所以就不考虑了。。</span><br>
+<span>— from samsung SM-G955F, ...</span><br>
+<span>ps3的话我就是拿3600玩的，没啥问题</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>pateryiyi 发表于 2019-11-12 06:32</span><br>
+<span>我好想说一句amd yes啊！！可惜amd模拟器支持不如Intel，所以就不考虑了。。</span><br>
+<span>— from samsung SM-G955F, ...</span><br>
+<span>我觉得那条回复我可以在本区引用无数回</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1859781-1-1.html</span><br>
+<span>你们能别吹TSX了好吗，搞清楚TSX干啥的没？说白了就是不需要安全系数时多核优化偷懒用的。</span><br>
+<span>牙膏自己的CPU产品线里很多都没支持这个指令，连最新的8750h这种标压本子六核CPU都没有，意思是游戏本不配玩PS3模拟器吗？</span><br>
+<span>作者还没把模拟器兼容度搞到大部分游戏支持良好，现在没时间精力优化多核而已</span><br>
+<span>显而易见的是以后要让大部分主流CPU跑得顺畅，就不能将其作为进行多核优化的主要手段</span><br>
+<span>上面说7350k我才想起来桌面U都不少没有的，双核没tsx我就不论了，太旧的也不讨论</span><br>
+<span>8350k、9350k这些新四核的也没TSX，甚至8400、9400六核也没有，我寻思也它们都被开除PS3模拟器玩家范围了</span><br>
+<span>PS2模拟器党很长一段时间都是在中低端优化中挣扎渡过的</span><br>
+<span>E系 2000 6000</span><br>
+<span>买得起Q的是少数</span><br>
+<span>大多数玩模拟器的就是舍不得钱买主机</span><br>
+<span>这是事实 买PC是也会拮据选择</span><br>
+<span>PCSX2完善的时候，Q都淘汰了</span><br>
+<span>所以你不能让所有PS3模拟器都当成你这种700k买来专门玩的</span><br>
+<span>最终结果就是作者必然舍弃TSX</span><br>
+<span>或者时代差CPU性能刚，TSX变得没卵用化，模拟器才最终成熟</span><br>
+<span>这是很有可能的</span><br>
+<span>现在的过滤网是</span><br>
+<span>玩模拟器的少</span><br>
+<span>玩PS3模拟器的更少</span><br>
+<span>舍得买了700k来玩的少之又少</span><br>
+<span>再来一个过滤网是</span><br>
+<span>需要怀旧的恰好是30%的游戏能完成的</span><br>
+<span>TSX吹实属无意义</span><br>
+<span>肯定不能指望单核大跃进</span><br>
+<span>但是可以指望多核大跃进</span><br>
+<span>这是用户数量悖论</span><br>
+<span>必然多核进化</span><br>
+<span>你多核优化差用户就少，得到捐助就少，最终就是难产</span><br>
+<span>你难产了还吹个机吧呢</span><br>
+<span>所以多核优化是必经之路</span><br>
+<span>除非他不想接着做了</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>天神十三煞 发表于 2019-11-12 23:10</span><br>
+<span>我觉得那条回复我可以在本区引用无数回</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1859781-1-1.html</span><br>
+<span>这个太专业了</span><br>
+<span>还挺怀念学生时代15帧nds模拟器打通ARPG的时代了，其实也挺有意思的</span><br>
+<span>看了看大佬给我的建议，感觉预算上去了好多我蹲蹲看吧能蹲出什么来！毕竟心理预算还是1500左右税后的，不过如果能蹲到好的加钱就加钱吧</span><br>
+<span>问个主板的问题，ITX的话会不会有散热问题啊？感觉变小了之后就会担心这个。。我觉得我一时半会儿也不会折腾a4，等我举个例子过了半年一年想折腾了，也可以换主板了？第一次装机不太懂更新换代的频率</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>yibo: </b><br>
+<span>pateryiyi 发表于 2019-11-13 00:18</span><br>
+<span>这个太专业了</span><br>
+<span>还挺怀念学生时代15帧nds模拟器打通ARPG的时代了，其实也挺有意思的</span><br>
+<span>牙膏厂每年主板都换，amd一代主板用个三年不成问题</span><br>
+<span>itx散热问题主要是散热器太小以及热源太近导致的，不追求极致体积的话性价比不高。</span><br>
+<span>我在7月装过一台，感觉除了显卡外其他部分用三四年足够了</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-12 10:23 编辑 </span><br>
+<span>pateryiyi 发表于 2019-11-12 08:18</span><br>
+<span>这个太专业了</span><br>
+<span>还挺怀念学生时代15帧nds模拟器打通ARPG的时代了，其实也挺有意思的</span><br>
+<span>前面30楼AMD这边方案可以便宜不少，顺带去掉散热器，因为自带，显卡砍成5700xt或2070s，等外存内存感恩节降价，差不多1500了，微星军工厂matx b450也是不错的选择，可以无U升级bios那款来着</span><br>
+<span>另外由于你在美国，可以买便宜的B450，先问板卡厂能不能返货帮你解决bios升级问题，不能解决就找AMD租200GE，</span><br>
+<span>具体搜索Short Term Processor Loan Boot Kit，只是需要多等些时日就是了</span><br>
+<span>A4是背夹板并没有什么散热问题的，两边敞开互不影响。A4类结构已经一统ITX浆糊的情况下，其他结构的ITX机箱没必要讨论了。就算Fractal Design Core 500 这类放个D15，能有啥散热问题</span><br>
+<span>除非是你真的确定自己要插很多额外东西或需要更多PCI口，大多数情况都是空占位置，我想下大概就是以后你真的想本地跑DL，组多卡？至于游戏SLI已经死亡，不要多想。</span><br>
+<span>我已经说了，小板和小电源是可以放在大机箱里的，你现在可以装在ATX机箱里，和一般的ATX一样的用法，大板一般也不带wifi，我给你推荐的itx板和一般atx比也不算贵</span><br>
+<span>大多数情况下用不到过800瓦或ATX卵用没有的扩展槽，那么小体积主板电源优势大的多，相反装机玩的是男性的组东西的快感。</span><br>
+<span>组高达的，组乐高的，组电脑的，喜欢改车的，总有你喜欢组的东西……大多数男性就爱搭建点东西，粗俗比喻说追求大屌塞小岤可能反而是部分人未来需求，“你要享受这个过程”。</span><br>
+<span>我的情况是年年换机，月经帮装机的，早就是遇到大多数人从来都只买八大件，用不到没有任何卵用更多扩展槽，所谓大板扩展不就是插更多外存和显卡吗？大板并不能提供额外性能。</span><br>
+<span>囤积行为也在消亡，我在u2花园PT曾经100TB上传还是斑竹，结果早四年全卖掉32块硬盘戒掉松鼠病过来人，基于此所以我才优先给人推荐ITX主板和SFX类电源。</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>天神十三煞 发表于 2019-11-13 01:18</span><br>
+<span>前面30楼AMD这边方案可以便宜不少，顺带去掉散热器，因为自带，显卡砍成5700xt或2070s，等外存内存感恩节 ...</span><br>
+<span>刚回到家，多谢大佬的指点！！</span><br>
+<span>我再问个问题，如果搬家的话装机问题大吗？我感觉问题不大？机器放车里让人家拖走就可以了？</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span> 本帖最后由 pateryiyi 于 2019-11-13 08:12 编辑 </span><br>
+<span>还有再一个问题，显卡的优先级顺序是什么？</span><br>
+<span>（删除线，感觉这个不太可能。。。）举个栗子，假设我看见了一样价钱的2080 和 2070 super，我是上丐版的2080呢还是2070s？这个要怎么判断？</span><br>
+<span>还有就是之前 @騜 说的我要是2070s就看是不是三层\三个风扇，不过感觉EVGA除了顶配，基本都是双层双风扇？然后技嘉倒是都三个风扇，不过看见有人黑技嘉说什么双散热管。。这个怎么判断？感觉国内EVGA讨论的很少，不过北美很多EVGA尤其是micro center。。我要上EVGA吗？主要是我看见白嫖王的论坛里一堆吹EVGA保修的</span><br>
+<span>还有显卡啸叫这个如何避免？查了查感觉是电源+玄学的问题？</span><br>
+<span>目前准备的是技嘉2070s Gaming....</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>搬家不都是uhaul租车走起么, 再多也能搬, 除非你要带回国</span><br>
+</p><p><b>騜: </b><br>
+<span>pateryiyi 发表于 2019-11-13 07:50</span><br>
+<span>还有再一个问题，显卡的优先级顺序是什么？</span><br>
+<span>（删除线，感觉这个不太可能。。。）举个栗子，假设我看见了一 ...</span><br>
+<span>泻药</span><br>
+<span>我说的风扇选择其实还要加上一个前提，就是相同或极限接近的价位下</span><br>
+<span>当然如果你非常喜欢某款显卡的外形设计，价格合适也可以无脑买的</span><br>
+<span>下面举个例子</span><br>
+<span>下面3个风扇哦不显卡 你看到标价一模一样，选哪个</span><br>
+<img src="https://s2.ax1x.com/2019/11/13/M8IPyT.png" title="https://s2.ax1x.com/2019/11/13/M8IPyT.png"><br>
+<img src="https://s2.ax1x.com/2019/11/13/M8IClV.png" title="https://s2.ax1x.com/2019/11/13/M8IClV.png"><br>
+<img src="https://s2.ax1x.com/2019/11/13/M8IiOU.png" title="https://s2.ax1x.com/2019/11/13/M8IiOU.png"><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-11-12 18:22 编辑 </span><br>
+<span>pateryiyi 发表于 2019-11-12 15:50</span><br>
+<span>还有再一个问题，显卡的优先级顺序是什么？</span><br>
+<span>（删除线，感觉这个不太可能。。。）举个栗子，假设我看见了一 ...</span><br>
+<span>通常同代讲数字越大越好，同数字后面有尾缀的比没有的强</span><br>
+<span>至于显卡散热，自然是鳍片大，风扇多的更好，如果看起来差不多，就看频率，所以我说综合起来魔龙才是最强的</span><br>
+<span>当然无视散热和性能点点差异，买同数字标里最便宜的用起来其实也不会有太大差距，这个都看个人，选合适自己的就行</span><br>
+<span>关于啸叫，一般情况都没这些事，你还没装不要想这么多，其他啸叫异常有问题请质保换就是，久了散热不爽风扇噪音大，自己上Raijintek Morpheus II和D15一样是祖传的</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span> 本帖最后由 pateryiyi 于 2019-11-13 10:34 编辑 </span><br>
+<span>騜 发表于 2019-11-13 09:09</span><br>
+<span>泻药</span><br>
+<span>我说的风扇选择其实还要加上一个前提，就是相同或极限接近的价位下</span><br>
+<span>当然如果你非常喜欢某款显卡的外 ...</span><br>
+<span>这个问题。。。我就很懵逼了呀！！</span><br>
+<span>如果不现场Google，根据我目前的功课程度。。同样的情况下华硕最屌？但是我之前看了一个评测有人推msi那款，说是最好的2070？</span><br>
+<span>但是。。第二个长得帅啊！</span><br>
+<span>然后我Google了一下。。正解大概是第二个？因为是技嘉的旗舰？</span><br>
+<span>求正确答案以及解题过程</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>天神十三煞 发表于 2019-11-13 10:20</span><br>
+<span>通常同代讲数字越大越好，同数字后面有尾缀的比没有的强</span><br>
+<span>至于显卡散热，自然是鳍片大，风扇多的更好，如果 ...</span><br>
+<span>原来第一个就是魔龙只能看图对照</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-11-13 11:21 编辑 </span><br>
+<span>pateryiyi 发表于 2019-11-13 10:30</span><br>
+<span>这个问题。。。我就很懵逼了呀！！</span><br>
+<span>如果不现场Google，根据我目前的功课程度。。同样的情况下华 ...</span><br>
+<span>你答对了 </span><br>
+<span>价格一样的话选第二个它是旗舰款，不做活动的话价位接近2080的</span><br>
+<span>但是一般情况下 第一个魔龙的价格和第三个华硕DUAL丐版价位接近，这种情况下选魔龙</span><br>
+<span>所以显卡你就按照这个标准挑问题不大</span><br>
+</p><p><b>obiy: </b><br>
+<span>pateryiyi 发表于 2019-11-12 22:32</span><br>
+<span>我好想说一句amd yes啊！！可惜amd模拟器支持不如Intel，所以就不考虑了。。</span><br>
+<span>— from samsung SM-G955F, ...</span><br>
+<span>intel继续爆出漏洞，这次是TSX指令集和高速缓存，性能最多下降4%</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1865388-1-1.html</span><br>
+<span>就像某人说的，缺指令集跑不好已经是过去时了，就算要搞amd没啥优化的模拟器，同样的钱买性能更强的不好吗，何况intel自己也可能砍掉tsx</span><br>
+<span>A M D Y E S</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>https://www.reddit.com/r/buildapcsales/comments/dvud4i/prebuilt_alienware_aurora_desktop_i79700_16gb/</span><br>
+<span>看了这个deal。。突然觉得我努力了半天的装电脑的功夫都白费了</span><br>
+<span>我怎么着也得1500吧。。还得冒着没有保修各种问题的可能。。人家才1000</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>这个机子主板大概是b360</span><br>
+<span>而且戴尔的整机一言难尽</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>tsubasa9 发表于 2019-11-14 01:57</span><br>
+<span>这个机子主板大概是b360</span><br>
+<span>而且戴尔的整机一言难尽</span><br>
+<span>快！大佬多说几句给我拔拔草！</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>laosai13: </b><br>
+<span>我刚买的整机233感觉也不贵ailenware打完折算了算跟我自己装差不多就懒得折腾了</span><br>
+<span>— from samsung SM-N970U1, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span> 本帖最后由 tsubasa9 于 2019-11-14 03:11 编辑 </span><br>
+<span>9700不值, 同样价格买3700x就行了, 特别是现在9700 no-k还涨价了, 而3700x时有打折, outel果然理财产品</span><br>
+<span>而且主板找不到型号, 大概率是b360没法超内存</span><br>
+<span>当然整机有保修, 这个价从配置讲没有问题</span><br>
+<span>总的来说就是, 为啥不等黑五???</span><br>
+<span>顺手贴个外星人整机的吐槽</span><br>
+<span>https://post.smzdm.com/p/a6l86mng/</span><br>
+<span>主要是主板严重缩水</span><br>
+</p><p><b>pateryiyi: </b><br>
+<span>tsubasa9 发表于 2019-11-14 03:10</span><br>
+<span>9700不值, 同样价格买3700x就行了, 特别是现在9700 no-k还涨价了, 而3700x时有打折, outel果然理财产品</span><br>
+<span>而 ...</span><br>
+<span>因为。。已经很便宜了？感觉基本史低的感觉？我来读一读那个张大妈的评测</span><br>
+<span>— from samsung SM-G955F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865148[0-50]</guid>
+    </item>
+  </channel>
+</rss>

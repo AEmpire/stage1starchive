@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑又莫名其妙蓝屏了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑又莫名其妙蓝屏了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:18:25 +0000</lastBuildDate>
+    <item>
+      <title>电脑又莫名其妙蓝屏了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844078-1-1.html</link>
+      <description>电脑又莫名其妙蓝屏了&#13;
+ 本帖最后由 暁美ほむら 于 2019-7-3 21:53 编辑 
+
+首先是dump
+&#13;
+事件查看器中检测到错误信息是DCOM 10016,根据网上修复依然无效
+&#13;
+怀疑是内存问题，但是内存检测发现没问题，使用sfc /scannow 以及chkdsk修复依然无效。目前暂时比一开始好很多，但是过一段时间依然会蓝屏
+&#13;
+如果真的是内存兼容问题，具体表现除了各种蓝屏外还会有什么现象？
+&#13;
+第一次蓝屏信息是memory mangment
+&#13;
+第二次后开始随机上面的错误代码</description>
+      <content:encoded><![CDATA[<p><b>暁美ほむら: </b><br>
+<span>电脑又莫名其妙蓝屏了</span><br>
+<span> 本帖最后由 暁美ほむら 于 2019-7-3 21:53 编辑 </span><br>
+<span>首先是dump</span><br>
+<span>事件查看器中检测到错误信息是DCOM 10016,根据网上修复依然无效</span><br>
+<span>怀疑是内存问题，但是内存检测发现没问题，使用sfc /scannow 以及chkdsk修复依然无效。目前暂时比一开始好很多，但是过一段时间依然会蓝屏</span><br>
+<span>如果真的是内存兼容问题，具体表现除了各种蓝屏外还会有什么现象？</span><br>
+<span>第一次蓝屏信息是memory mangment</span><br>
+<span>第二次后开始随机上面的错误代码</span><br>
+</p><p><b>chachi: </b><br>
+<span>怀疑是内存就用U盘跑个memtest86，一晚上就能知道结果</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>chachi 发表于 2019-7-3 21:53</span><br>
+<span>怀疑是内存就用U盘跑个memtest86，一晚上就能知道结果</span><br>
+<span>如果在跑的过程中突然蓝屏就是内存问题？</span><br>
+</p><p><b>chachi: </b><br>
+<span>要用U盘引导的，所以就抛弃了windows操作系统，也不会有蓝屏。</span><br>
+<span>本质上是重复读写内存加以校验来检验内存块稳定与正常，所以就算内存卡不稳定，也不会死机。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>chachi 发表于 2019-7-3 21:59</span><br>
+<span>要用U盘引导的，所以就抛弃了windows操作系统，也不会有蓝屏。</span><br>
+<span>本质上是重复读写内存加以校验来检验内存块 ...</span><br>
+<span>没空白U盘，有内容的可以吗？</span><br>
+</p><p><b>john: </b><br>
+<span>暁美ほむら 发表于 2019-7-3 22:00</span><br>
+<span>没空白U盘，有内容的可以吗？</span><br>
+<span>SD卡加读卡器也行啊，多大的都够，这年头还缺这个？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>john 发表于 2019-7-3 22:03</span><br>
+<span>SD卡加读卡器也行啊，多大的都够，这年头还缺这个？</span><br>
+<span>还真没有</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844078[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求分析新换的2060导致电脑一直重启是什么问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求分析新换的2060导致电脑一直重启是什么问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:44:27 +0000</lastBuildDate>
+    <item>
+      <title>求分析新换的2060导致电脑一直重启是什么问题？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839910-1-1.html</link>
+      <description>求分析新换的2060导致电脑一直重启是什么问题？&#13;
+原先电脑配置 E3V3+R280X之前购入了 索泰的2060XGaming
+&#13;
+使用时经常遇到，电脑死机无显示信号，显卡风扇满载的症状，只能重启解决。
+&#13;
+将驱动从430换成419，现象变为电脑自动重启。
+&#13;
+开始以为显卡问题，找jd换了张新卡，装上新卡症状依然不变。
+&#13;
+现在郁闷了，难道不是显卡的问题？有没有懂的分析下大概是什么地方出问题了？</description>
+      <content:encoded><![CDATA[<p><b>Sza: </b><br>
+<span>MortarHeadd 发表于 2019-6-26 18:19</span><br>
+<span>现在看来明显不是显卡功耗的问题</span><br>
+<span>问题都是集中在刚刚开机的时候，只是看看视频刷刷网页，这能有多少功耗 ...</span><br>
+<span>我没去过实体维修店，这种时候是不是要最小化系统测哪个部件出问题？cpu主板内存硬盘啥的都测一遍</span><br>
+</p><p><b>albertfu: </b><br>
+<span>MortarHeadd 发表于 2019-6-26 18:19</span><br>
+<span>现在看来明显不是显卡功耗的问题</span><br>
+<span>问题都是集中在刚刚开机的时候，只是看看视频刷刷网页，这能有多少功耗 ...</span><br>
+<span>换电源之前最近只换过显卡对不，那可能是显卡有别的问题，试试能不能走售后</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>albertfu 发表于 2019-6-26 18:29</span><br>
+<span>换电源之前最近只换过显卡对不，那可能是显卡有别的问题，试试能不能走售后 ...</span><br>
+<span>显卡前前后后换了3块了，2块索泰2060，现在是新买的七彩虹2060</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>MortarHeadd 发表于 2019-6-26 18:51</span><br>
+<span>显卡前前后后换了3块了，2块索泰2060，现在是新买的七彩虹2060</span><br>
+<span>你有没有试过拔内存啊？</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>laotoutou 发表于 2019-6-26 19:12</span><br>
+<span>你有没有试过拔内存啊？</span><br>
+<span>试过了，还换了2个通道</span><br>
+</p><p><b>露露卡: </b><br>
+<span>所以需要2台电脑啊，楼主你只要确定内存显卡电源在别的主机上没问题，就只要怀疑主板乃至硬盘（系统）了。cpu散热应该默认ok吧</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span> 本帖最后由 MortarHeadd 于 2019-7-3 08:56 编辑 </span><br>
+<span>将内存从双通道改成单通道，已经4天没有出现问题了，看来是2060显卡和1600内存双通道不兼容。草 ～ </span><br>
+</p><p><b>laotoutou: </b><br>
+<span>MortarHeadd 发表于 2019-7-3 08:52</span><br>
+<span>将内存从双通道改成单通道，已经4天没有出现问题了，看来是2060显卡和1600内存双通道不兼容。草 ～...</span><br>
+<span>你换根插上去用用看，可能只是其中一根坏了</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>laotoutou 发表于 2019-7-3 09:29</span><br>
+<span>你换根插上去用用看，可能只是其中一根坏了</span><br>
+<span>我2根都插着，只是没组双通道。</span><br>
+</p><p><b>flyinghigherair: </b><br>
+<span>电源建议直接上600w+的，我用8400+2060用的650w</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>flyinghigherair 发表于 2019-7-3 09:31</span><br>
+<span>电源建议直接上600w+的，我用8400+2060用的650w</span><br>
+<span>已经确认不是电源问题了</span><br>
+</p><p><b>北方挖掘: </b><br>
+<span>查查供电排线插好了没，前几天我的2060跟你的现象一模一样的，仔细查了查是装电脑的时候师傅没把我的显卡供电插好，额外的2pin松了自己蹦出来了</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>买的七彩虹2060 今天返了50jd券，还送了一个机械键盘 </span><br>
+</p><p><b>Sza: </b><br>
+<span>楼主查出原因了吗？</span><br>
+</p><p><b>longooyue: </b><br>
+<span>ASUS 2卡槽 DC2 280X楼主要嘛</span><br>
+<span>换7921的时候把GPU顶上的那个风扇搞歪了</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>Sza 发表于 2019-7-8 03:30</span><br>
+<span>楼主查出原因了吗？</span><br>
+<span>之前把双通道改成单通道好了，周末感觉单通道玩游戏有频繁的卡顿又换回双通道，好像也没问题了。其他之前把电源线换成了新的，具体原因不明。</span><br>
+</p><p><b>yang3350380: </b><br>
+<span>大概率电源出毛病了 要不就是内存条多拔插几次这个配置 如果以后还想升级 550都不算稳上650好点</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>就是内存脏了, 槽和内存都擦干净下</span><br>
+<span>顺便重置下bios</span><br>
+<span>说实话应该买个好电源传家宝的,否则没事就怀疑电源233</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839910[50-100]</guid>
+    </item>
+    <item>
+      <title>求分析新换的2060导致电脑一直重启是什么问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839910-1-1.html</link>
+      <description>求分析新换的2060导致电脑一直重启是什么问题？&#13;
+原先电脑配置 E3V3+R280X之前购入了 索泰的2060XGaming
+&#13;
+使用时经常遇到，电脑死机无显示信号，显卡风扇满载的症状，只能重启解决。
+&#13;
+将驱动从430换成419，现象变为电脑自动重启。
+&#13;
+开始以为显卡问题，找jd换了张新卡，装上新卡症状依然不变。
+&#13;
+现在郁闷了，难道不是显卡的问题？有没有懂的分析下大概是什么地方出问题了？</description>
+      <content:encoded><![CDATA[<p><b>MortarHeadd: </b><br>
+<span>求分析新换的2060导致电脑一直重启是什么问题？</span><br>
+<span>原先电脑配置 E3V3+R280X之前购入了 索泰的2060XGaming</span><br>
+<span>使用时经常遇到，电脑死机无显示信号，显卡风扇满载的症状，只能重启解决。</span><br>
+<span>将驱动从430换成419，现象变为电脑自动重启。</span><br>
+<span>开始以为显卡问题，找jd换了张新卡，装上新卡症状依然不变。</span><br>
+<span>现在郁闷了，难道不是显卡的问题？有没有懂的分析下大概是什么地方出问题了？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>先电源换个试试，分析也分析不出什么来。</span><br>
+</p><p><b>革萌: </b><br>
+<span>电源问题更大点</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>塔奇克马 发表于 2019-6-16 16:18</span><br>
+<span>先电源换个试试，分析也分析不出什么来。</span><br>
+<span>家里只有一个电源450w的金牌金蝶</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>主板的显卡插槽检查一下，我那块卡扣断了，如果没上紧，偶尔就会这样</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>A换N有没有ddu彻底搞干净驱动？</span><br>
+<span>或者重装试试，我机子前段时间狂暴蓝屏怎么都不知道为什么，重装就好了</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>zmw_831110 发表于 2019-6-16 16:49</span><br>
+<span>主板的显卡插槽检查一下，我那块卡扣断了，如果没上紧，偶尔就会这样</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, ...</span><br>
+<span>换过一次卡，合集来回装了不下4次了。</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>温度正常吗？所有温度。我在散热不好老爷机上玩战争雷霆遇到过同样的问题，侧板拆了从主机柜里抽出来玩温度降下来就正常了。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>NeverwinterN 发表于 2019-6-16 17:08</span><br>
+<span>温度正常吗？所有温度。我在散热不好老爷机上玩战争雷霆遇到过同样的问题，侧板拆了从主机柜里抽出来玩温度 ...</span><br>
+<span>温度很低，不如说温度低的时候容易出问题。</span><br>
+<span>一般刚开机的时候，刷网页经常出现，玩大型游戏显卡用的多反而不太会出问题。</span><br>
+<span>难道这显卡还需要预热</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>BallanceHZ 发表于 2019-6-16 16:54</span><br>
+<span>A换N有没有ddu彻底搞干净驱动？</span><br>
+<span>或者重装试试，我机子前段时间狂暴蓝屏怎么都不知道为什么，重装就好了</span><br>
+<span>拿到换来的张卡又出问题的时候我直接把系统重做了。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>因为之前用280X一直很正常，2060买来没想太多直接把280X给出掉了，这下傻了。</span><br>
+<span>晚上让朋友拿张1050装上再试试。</span><br>
+</p><p><b>wwmmx: </b><br>
+<span>送</span><br>
+<span> 本帖最后由 wwmmx 于 2019-6-16 17:38 编辑 </span><br>
+<span>内存松了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 17:33</span><br>
+<span>因为之前用280X一直很正常，2060买来没想太多直接把280X给出掉了，这下傻了。</span><br>
+<span>晚上让朋友拿张1050装 ...</span><br>
+<span>280x虽然功耗高但是对电源要求低，当然不是功率要求低，比如掉压0.75v的电源不出问题但是你换新显卡就会可能黑屏重启。</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>症状标准的电源不够问题，趁着618上个550或者650w的车吧</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>内存可能不兼容</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>bigheadnotbig 发表于 2019-6-16 18:00</span><br>
+<span>症状标准的电源不够问题，趁着618上个550或者650w的车吧</span><br>
+<span>换N卡就是看中低功耗你还要我换个大电源</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>wwmmx 发表于 2019-6-16 17:36</span><br>
+<span>内存松了</span><br>
+<span>内存我也拔过重插了</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 18:10</span><br>
+<span>换N卡就是看中低功耗你还要我换个大电源</span><br>
+<span>电源是会衰减缩水的，而且也要看单路12V输出，电源线也可能有问题。</span><br>
+<span>先抱去电脑店换个电源试试？说不定还是显卡问题。。。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>laotoutou 发表于 2019-6-16 18:01</span><br>
+<span>内存可能不兼容</span><br>
+<span>第一次听显卡和内存有不兼容的。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>找售后换一张</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 18:13</span><br>
+<span>第一次听显卡和内存有不兼容的。</span><br>
+<span>拔一条试试看吧。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>塔奇克马 发表于 2019-6-16 17:38</span><br>
+<span>280x虽然功耗高但是对电源要求低，当然不是功率要求低，比如掉压0.75v的电源不出问题但是你换新显卡就会 ...</span><br>
+<span>还有这种玄学？</span><br>
+<span>如果再买个电源 是不是应该买大点的？</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>albertfu 发表于 2019-6-16 18:14</span><br>
+<span>找售后换一张</span><br>
+<span>已经换过了</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>bigheadnotbig 发表于 2019-6-16 18:13</span><br>
+<span>电源是会衰减缩水的，而且也要看单路12V输出，电源线也可能有问题。</span><br>
+<span>先抱去电脑店换个电源试试？说不定还 ...</span><br>
+<span>2张显卡都有问题，我自己都不太相信。</span><br>
+<span>但是电源之前用280X一直好好的，也很迷。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 18:23</span><br>
+<span>2张显卡都有问题，我自己都不太相信。</span><br>
+<span>但是电源之前用280X一直好好的，也很迷。 ...</span><br>
+<span>和N卡八字不合 </span><br>
+<span>还能退的话赶紧买个别的吧</span><br>
+</p><p><b>毅转身: </b><br>
+<span>盲猜电源</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>albertfu 发表于 2019-6-16 18:27</span><br>
+<span>和N卡八字不合 </span><br>
+<span>还能退的话赶紧买个别的吧</span><br>
+<span>已经退货了，但是现在没显卡，问题找不到都不敢买新的。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>这么多人说电源就买个电源试试吧。</span><br>
+<span>是继续用450W还是上550W？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 18:35</span><br>
+<span>这么多人说电源就买个电源试试吧。</span><br>
+<span>是继续用450W还是上550W？</span><br>
+<span>如果电源都要换的话还是买大的，万一以后上2080ti之类的，顶着预算来吧</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>albertfu 发表于 2019-6-16 18:40</span><br>
+<span>如果电源都要换的话还是买大的，万一以后上2080ti之类的，顶着预算来吧</span><br>
+<span>穷人这辈子都不会用旗舰型号，以后换也是60、70系。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>MortarHeadd 发表于 2019-6-16 18:42</span><br>
+<span>穷人这辈子都不会用旗舰型号，以后换也是60、70系。</span><br>
+<span>其实2070的话就算1.5倍也就300W。。。450W电源有个400W 12V输出应该够4核平台+2070了。。。</span><br>
+<span>但既然2060都不行的话，还是留足余量</span><br>
+<span>150W CPU+主板+内存，400W 应付2070，550W 12V输出的电源，可能600-650W总输出</span><br>
+</p><p><b>峰大介: </b><br>
+<span>电源是用多少出多少功率的。换大电源并不会导致电费超支。</span><br>
+</p><p><b>不吃芹菜: </b><br>
+<span>我跟你配置差不多。为了换rx580都换了550的电源。你考虑一下。</span><br>
+</p><p><b>Sorcerian: </b><br>
+<span>有可能是主板上的显卡插槽出了问题。。不考虑换个主板测试一下吗</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>晚上用朋友的1050卡，用了一晚上还是很正常的，魔幻</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>280x不一定有2060功耗高。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>618入的七彩虹2060火神到了，上机看看到底是我的电源不行还是索泰的显卡娇贵。</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>MortarHeadd 发表于 2019-6-19 18:08</span><br>
+<span>618入的七彩虹2060火神到了，上机看看到底是我的电源不行还是索泰的显卡娇贵。 ...</span><br>
+<span>结果如何？</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>骆宾王 发表于 2019-6-19 20:37</span><br>
+<span>结果如何？</span><br>
+<span>暂时没问题，在多观察几天看看，618秒的海韵550W旗舰金还等着出库呢。</span><br>
+</p><p><b>JITAN: </b><br>
+<span>显示器用的什么线，nga看见过dp线不合格导致的卡bios，重启，黑屏，主板短路等n多问题的帖子</span><br>
+<span>—— 来自 HUAWEI BKL-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fat: </b><br>
+<span>唔，确实像电源问题。还有就是显卡太重压弯主板什么的……</span><br>
+</p><p><b>吃鸡南小鸟: </b><br>
+<span>450W电源应该是稳够的吧。</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>用了几天还是会出现之前类似的症状，只能等jd的电源了。</span><br>
+</p><p><b>大厨麦当牛: </b><br>
+<span>这明显是电源的问题啊，你不能靠计算买刚刚够的电源的，想稳定运行一般都要留150w的余量应付各种峰值，除非你人品爆发正好挑到品质超好的那一个</span><br>
+</p><p><b>Sheny: </b><br>
+<span>大厨麦当牛 发表于 2019-6-24 09:22</span><br>
+<span>这明显是电源的问题啊，你不能靠计算买刚刚够的电源的，想稳定运行一般都要留150w的余量应付各种峰值，除非 ...</span><br>
+<span>不是简单的峰值，新一代显卡，包括稍微旧一些的vega56，都有了瞬间高负债现象，2060很可能也存在类似情况。如果有，就不能按之前的经验去计算电源冗余。</span><br>
+</p><p><b>伤痛の赤: </b><br>
+<span>先重装系统试试吧，先排除系统和软件的原因</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>哈哈，悲剧了，换上新的550W海韵旗舰金问题依然没有解决，500块白花。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>MortarHeadd 发表于 2019-6-26 17:52</span><br>
+<span>哈哈，悲剧了，换上新的550W海韵旗舰金问题依然没有解决，500块白花。</span><br>
+<span>换显卡吧。。。2060功耗看来还是太高了</span><br>
+</p><p><b>Sza: </b><br>
+<span>你看看fcpowerup的那篇文章《不看可能会翻车，显卡瞬时功耗及电源重启之谜》:</span><br>
+<span>https://www.fcpowerup.com/gpu-transient-spike-shutdown-issue/</span><br>
+<span>他还没测2060的瞬时峰值功率，不过你550W都翻车是什么神仙操作？搞得我有点慌，我还想等2060s来着</span><br>
+</p><p><b>MortarHeadd: </b><br>
+<span>albertfu 发表于 2019-6-26 18:05</span><br>
+<span>换显卡吧。。。2060功耗看来还是太高了</span><br>
+<span>现在看来明显不是显卡功耗的问题</span><br>
+<span>问题都是集中在刚刚开机的时候，只是看看视频刷刷网页，这能有多少功耗。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839910[0-50]</guid>
+    </item>
+  </channel>
+</rss>

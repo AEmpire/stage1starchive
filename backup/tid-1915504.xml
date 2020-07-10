@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：怎么找出阻止关机的程序？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：怎么找出阻止关机的程序？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:59:17 +0000</lastBuildDate>
+    <item>
+      <title>求助：怎么找出阻止关机的程序？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915504-1-1.html</link>
+      <description>求助：怎么找出阻止关机的程序？&#13;
+最近电脑关机的时候会遇到某个软件阻止关机的问题，非常讨厌。如图：
+&#13;
+http://wx3.sinaimg.cn/mw690/79cec621ly1gc7phpzvjmj21hc0u0qv6.jpg
+&#13;
+最近装装卸卸比较多，想不到什么端倪。没有程序名，图标也看不出什么特征，要怎么找出这个程序？</description>
+      <content:encoded><![CDATA[<p><b>塔那: </b><br>
+<span>求助：怎么找出阻止关机的程序？</span><br>
+<span>最近电脑关机的时候会遇到某个软件阻止关机的问题，非常讨厌。如图：</span><br>
+<img src="http://wx3.sinaimg.cn/mw690/79cec621ly1gc7phpzvjmj21hc0u0qv6.jpg" title="http://wx3.sinaimg.cn/mw690/79cec621ly1gc7phpzvjmj21hc0u0qv6.jpg"><br>
+<span>最近装装卸卸比较多，想不到什么端倪。没有程序名，图标也看不出什么特征，要怎么找出这个程序？</span><br>
+</p><p><b>沧兰殇: </b><br>
+<span>不找了，直接重装系统，更快更方便</span><br>
+<span>—— 来自 motorola Moto Z (2), Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>待宵: </b><br>
+<span>不要去较劲，实在不能忍就重装系统，我已经习惯了</span><br>
+</p><p><b>404489039: </b><br>
+<span>打开你的任务管理器 慢慢找</span><br>
+</p><p><b>sorayang: </b><br>
+<span>冷启动一下，然后马上关机看看，排除随开机启动的程序；然后一个个程序的排除呗。一点想法。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>取消关机，立刻进命令行把现有进程信息打印到文件再一个个排除也行吧?</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>catxing: </b><br>
+<span>系统日志里面翻翻看？</span><br>
+</p><p><b>塔那: </b><br>
+<span>对着任务管理器一个个数了半天最后放弃了。直接改注册表一刀切了事。</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>一刀切是什么操作？我也偶尔遇到类似问题</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>糊状物: </b><br>
+<span>superchenxx01 发表于 2020-2-27 07:56</span><br>
+<span>一刀切是什么操作？我也偶尔遇到类似问题</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>应该是类似shutdown -f 之类的强制关机设置</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>塔那: </b><br>
+<span>superchenxx01 发表于 2020-2-27 07:56</span><br>
+<span>一刀切是什么操作？我也偶尔遇到类似问题</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>注册表HKEY_USERS\.DEFAULT\Control Panel\Desktop下新建字符串，重命名为AutoEndTasks，数值设为1</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915504[0-50]</guid>
+    </item>
+  </channel>
+</rss>

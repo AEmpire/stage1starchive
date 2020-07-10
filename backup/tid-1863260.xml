@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于游戏串流的一些问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于游戏串流的一些问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:17:24 +0000</lastBuildDate>
+    <item>
+      <title>关于游戏串流的一些问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863260-1-1.html</link>
+      <description>关于游戏串流的一些问题&#13;
+ 本帖最后由 muyefytte 于 2019-11-3 23:02 编辑 
+
+最近看了极客湾关于游戏串流的介绍视频，同时也更新N卡，尝试了一下发觉效果还是很不错的。
+&#13;
+但是在折腾的过程中遇到了一些问题，大家不知道有没有遇到过同样的情况。
+&#13;
+1、在串流过程中，大概每两分钟会网络丢包一次 表现为画面顿卡，性能窗口显示 网络丢包率为5%左右，不卡的时候都是0%. 用测试丢包的软件 测过 5万个包也没有丢失过一次。码率都是默认的，哪怕调低也是如此。
+&#13;
+2、另一个问题就是 我们ipag 9083s 通过 XOutput 虚拟成一个XBOX手柄，也是短时内是正常的，然后就是蓝牙的不断连上和断开。卸载 XOutput 的驱动，用directinput输出 就正常。
+&#13;
+系统：WIN10 1903
+&#13;
+显卡：RTX 2070S
+&#13;
+网卡及蓝牙：AX200 
+&#13;
+路由器：K2P
+&#13;
+手柄：ipag 9083s
+&#13;
+串流软件：moonlight
+&#13;
+虚拟手柄：XOutput
+&#13;
+距离：3米无线模式：5G</description>
+      <content:encoded><![CDATA[<p><b>muyefytte: </b><br>
+<span>关于游戏串流的一些问题</span><br>
+<span> 本帖最后由 muyefytte 于 2019-11-3 23:02 编辑 </span><br>
+<span>最近看了极客湾关于游戏串流的介绍视频，同时也更新N卡，尝试了一下发觉效果还是很不错的。</span><br>
+<span>但是在折腾的过程中遇到了一些问题，大家不知道有没有遇到过同样的情况。</span><br>
+<span>1、在串流过程中，大概每两分钟会网络丢包一次 表现为画面顿卡，性能窗口显示 网络丢包率为5%左右，不卡的时候都是0%. 用测试丢包的软件 测过 5万个包也没有丢失过一次。码率都是默认的，哪怕调低也是如此。</span><br>
+<span>2、另一个问题就是 我们ipag 9083s 通过 XOutput 虚拟成一个XBOX手柄，也是短时内是正常的，然后就是蓝牙的不断连上和断开。卸载 XOutput 的驱动，用directinput输出 就正常。</span><br>
+<span>系统：WIN10 1903</span><br>
+<span>显卡：RTX 2070S</span><br>
+<span>网卡及蓝牙：AX200 </span><br>
+<span>路由器：K2P</span><br>
+<span>手柄：ipag 9083s</span><br>
+<span>串流软件：moonlight</span><br>
+<span>虚拟手柄：XOutput</span><br>
+<span>距离：3米无线模式：5G</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>不知道问题出在何处，是不是同电脑和路由器放的太近也有关系？</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>你这个5G和蓝牙肯定有干扰</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863260[0-50]</guid>
+    </item>
+  </channel>
+</rss>

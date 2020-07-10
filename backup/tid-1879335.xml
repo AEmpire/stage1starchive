@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3770K或者1700X适合用来搭软路由吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>3770K或者1700X适合用来搭软路由吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:05:59 +0000</lastBuildDate>
+    <item>
+      <title>3770K或者1700X适合用来搭软路由吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1879335-1-1.html</link>
+      <description>3770K或者1700X适合用来搭软路由吗？&#13;
+手上现在有块1700X和开了盖的3770K，出也出不掉，这两天又得知了软路由这种东西，于是想搞一个试试看
+&#13;
+我的理解软路由本质就是一台pc跑了lede的镜像，因为我又想加一个Ubuntu跑homebridge，再搞个黑群晖弄弄下载啥的，这俩U会有合适的板子吗？</description>
+      <content:encoded><![CDATA[<p><b>torpedo: </b><br>
+<span>3770K或者1700X适合用来搭软路由吗？</span><br>
+<span>手上现在有块1700X和开了盖的3770K，出也出不掉，这两天又得知了软路由这种东西，于是想搞一个试试看</span><br>
+<span>我的理解软路由本质就是一台pc跑了lede的镜像，因为我又想加一个Ubuntu跑homebridge，再搞个黑群晖弄弄下载啥的，这俩U会有合适的板子吗？</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>1700x详细希望</span><br>
+<span>用这俩跑esxi也就算了，跑软路由功耗太高了，土豪另说</span><br>
+</p><p><b>torpedo: </b><br>
+<span>Realplayer 发表于 2019-12-4 11:46</span><br>
+<span>1700x详细希望</span><br>
+<span>用这俩跑esxi也就算了，跑软路由功耗太高了，土豪另说</span><br>
+<span>功耗其实不大所谓，因为本来就想搭一个小server，就是不知道板子咋挑</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-4 12:39 编辑 </span><br>
+<span>你不在乎功耗,在乎大小吗?不在乎大小直接ATX便宜,和PC一样配.</span><br>
+<span>找Q67 Q77板子.或者其他</span><br>
+<span>要具备远程管理</span><br>
+<span>也可以去找有ilo的HP库存板</span><br>
+<span>网口数量按照自己需求定</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-4 12:28</span><br>
+<span>你不在乎功耗,在乎大小吗?不在乎大小直接ATX便宜,和PC一样配.</span><br>
+<span>找Q67 Q77板子.或者其他</span><br>
+<span>要具备远程管理</span><br>
+<span>atx就有点太大了，我最大能接受itx，最好是鞋盒 😂</span><br>
+</p><p><b>torpedo: </b><br>
+<span>还有一个问题，是不是cpu需要支持vt-x，主板要支持vt-d才能在虚拟机里面做到硬件直通？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-4 12:51 编辑 </span><br>
+<span>torpedo 发表于 2019-12-4 12:40</span><br>
+<span>atx就有点太大了，我最大能接受itx，最好是鞋盒 😂</span><br>
+<span>Dq77kb但是这主板没好价了,车已经开走好几年了.</span><br>
+<span>不行就自己找吧,你要不要远程管理H61 B75 itx也一样,不过有些没vt-d</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-4 12:46</span><br>
+<span>还有一个问题，是不是cpu需要支持vt-x，主板要支持vt-d才能在虚拟机里面做到硬件直通？ ...</span><br>
+<span>没错,不过vt-d很普遍,虽说低端主板可能没有.</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-4 12:48</span><br>
+<span>没错,不过vt-d很普遍,虽说低端主板可能没有.</span><br>
+<span>明白，非常感谢！</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-4 12:48</span><br>
+<span>没错,不过vt-d很普遍,虽说低端主板可能没有.</span><br>
+<span>看了眼好像cpu也需要支持vt-d，好巧不巧3770k偏偏不支持，但是3770却支持，真是智障intel</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-4 15:31</span><br>
+<span>看了眼好像cpu也需要支持vt-d，好巧不巧3770k偏偏不支持，但是3770却支持，真是智障intel ...</span><br>
+<span>啊????那真是够沙雕....还是出了吧..</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>坛友在思考怎么解决不要的1700x，而我还在用着1600x的主力机</span><br>
+</p><p><b>騜: </b><br>
+<span>其实都出掉 1K多可以弄个成品入门款工控软路由玩了但LZ别的需求性能又不够 估计还得加钱搞一台all in one</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>torpedo 发表于 2019-12-4 12:40</span><br>
+<span>atx就有点太大了，我最大能接受itx，最好是鞋盒 😂</span><br>
+<span>想整黑裙，就不要鞋盒了，一步到位4u存储服务器机箱吧。</span><br>
+<span>起码也要有3个5寸位能加抽取盒，或者自带硬盘架。</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>qwased: </b><br>
+<span>lean做的openwrt打包已经集成amd补丁了，性能强很多，不怕耗电或者想当homelab可以考虑（反正能跑docker</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-4 15:32</span><br>
+<span>啊????那真是够沙雕....还是出了吧..</span><br>
+<span>大佬再问一下，我看到很多成品的软路由有很多的网口，如果我入手dq77kb，它只有两个网口，是不是还要接一个交换机？这样速率会有影响吗</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-5 17:52</span><br>
+<span>大佬再问一下，我看到很多成品的软路由有很多的网口，如果我入手dq77kb，它只有两个网口，是不是还要接一 ...</span><br>
+<span>没有vt-d你不处理掉吗?怎么还入这个了.而且这主板价格不核算</span><br>
+<span>可以接入交换机.</span><br>
+<span>也可以不接,</span><br>
+<span>因为esxi pve kvm 这种都有内部软交换机的.多个虚拟系统互相通讯.</span><br>
+<span>也可以把虚拟系统都桥接到一个网口上.</span><br>
+<span>你要网口不够你就得接了.反正最终千兆口就是对外通讯总速率,而软交换机内部通讯是10G可以视为无限制.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-5 17:52</span><br>
+<span>大佬再问一下，我看到很多成品的软路由有很多的网口，如果我入手dq77kb，它只有两个网口，是不是还要接一 ...</span><br>
+<span>当然还可以上网卡,用最廉价的网卡来交换数据</span><br>
+<span>通过修改linux(乌班图有现成改过的内核)在非服务器主板上使用vf直通.</span><br>
+<span>连软交换机都不需要了.</span><br>
+</p><p><b>tyx776: </b><br>
+<span>没有出不掉，只有不够便宜。报个价总有人要的</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-5 17:59</span><br>
+<span>没有vt-d你不处理掉吗?怎么还入这个了.而且这主板价格不核算</span><br>
+<span>可以接入交换机.</span><br>
+<span>打算出掉3770k换3770s😂</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>torpedo 发表于 2019-12-5 22:19</span><br>
+<span>打算出掉3770k换3770s😂</span><br>
+<span>你要是要求不高整个1260L/1265L完事了</span><br>
+<span>后缀带s的绝大部分是垃圾</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-5 22:19</span><br>
+<span>打算出掉3770k换3770s😂</span><br>
+<span>在乎功耗可以入1265lv2</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-5 22:32</span><br>
+<span>在乎功耗可以入1265lv2</span><br>
+<span>查了下dq77kb最高支持的就是3770s</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-5 22:34</span><br>
+<span>查了下dq77kb最高支持的就是3770s</span><br>
+<span>https://jose.scjtqs.com/zhaji/2017-07-12-1029/%E6%95%B4%E6%9C%BA%E6%90%AD%E5%BB%BA-%E8%BF%87%E6%B0%94%E5%84%BF%E9%9B%B6%E4%BB%B6%E6%8B%BC%E8%A3%85%E8%BF%B7%E4%BD%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%9Adq77kb-e3-1265l-v2%EF%BC%8C%E9%9A%90.html</span><br>
+<span>我记得有人上过，</span><br>
+<span>cpu要支持vpro才能远程</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>torpedo 发表于 2019-12-5 22:34</span><br>
+<span>查了下dq77kb最高支持的就是3770s</span><br>
+<span>amt网口的共享方式我不太了解你要自己查</span><br>
+<span>amt那个网口是远程管理和系统使用,是2选一还是能共享方式实现.</span><br>
+<span>我不太确定.</span><br>
+<span>另外还有其他可选性 IPMI主板很多种,自己找吧.</span><br>
+<span>我自己用的泰安,ATX没法给你推荐这个.</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-5 23:06</span><br>
+<span>amt网口的共享方式我不太了解你要自己查</span><br>
+<span>amt那个网口是远程管理和系统使用,是2选一还是能共享方式实现.</span><br>
+<span> ...</span><br>
+<span>ok 非常感谢，查了下3770s 支持vpro 和 vt-d 真的弱智 为啥3770k不行</span><br>
+</p><p><b>騜: </b><br>
+<span>dq77kb用户来了，管理网口公用的，软路由下做lan口，内网IP就可以用软件连接</span><br>
+<span>但是LZ你都要出掉3770k了为什么还要用q77呢…除非你有多余ddr3l内存可以用</span><br>
+<span>这块板子两种供电方式我用的是DC（Dell的笔记本电源也不便宜），自带SATA接口也就两个要拓展的话还得弄minipcie拓展卡</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>torpedo: </b><br>
+<span>騜 发表于 2019-12-6 08:28</span><br>
+<span>dq77kb用户来了，管理网口公用的，软路由下做lan口，内网IP就可以用软件连接</span><br>
+<span>但是LZ你都要出掉3770k了为什 ...</span><br>
+<span>因为 3770K不支持vd-t啊，虚拟机有点残废，我算了下我的需求至少有三个vm，一个lede跑软路由，一个黑群晖，一个Ubuntu跑跑自己的项目啥的</span><br>
+<span>如果不上dq77k的话有啥方案推荐吗？</span><br>
+</p><p><b>騜: </b><br>
+<span>torpedo 发表于 2019-12-6 10:39</span><br>
+<span>因为 3770K不支持vd-t啊，虚拟机有点残废，我算了下我的需求至少有三个vm，一个lede跑软路由，一个黑群晖 ...</span><br>
+<span>我知道不支持所以你要出掉 既然都出掉了说明U不是核心配件，那你应该列一下你现在还有什么垃圾可用于搭建的，根据核心价位来看是3/4代U还是直接上7/8代U毕竟内存支持和SSD的支持都不一样 再根据拓展要求定主板 然后才是机箱电源吧</span><br>
+<span>也有人是反着来，我只要那么大的体积，要省电要静音，那就限制了拓展（3.5硬盘位）</span><br>
+<span>以我为例 我就是只要小体积 不要NAS所以直接弄了一个thinitx机箱，放在客厅也不显眼 当时dq77kb开在开车价格合适430入了主板+电源 U是35XXS 4核4线程 16GDDR3L 挂1个msata系统盘1个2.5SSD下载 装winserver用hyperv跑lede 7*24 静音</span><br>
+<span>所以可以根据你手上的东西整理一下楼上的那位更好帮你推荐（他比我还懂的，我都是随便抄作业的）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1879335[0-50]</guid>
+    </item>
+  </channel>
+</rss>

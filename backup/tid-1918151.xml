@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【ZT】深度拆解坑爹的HP6623A三路系统直流电源</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【ZT】深度拆解坑爹的HP6623A三路系统直流电源</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:35:39 +0000</lastBuildDate>
+    <item>
+      <title>【ZT】深度拆解坑爹的HP6623A三路系统直流电源[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918151-1-1.html</link>
+      <description>【ZT】深度拆解坑爹的HP6623A三路系统直流电源&#13;
+https://weibo.com/ttarticle/p/show?id=2309404479257425346596#_0
+&#13;
+转发经过许可，请勿用作商业用途.
+&#13;
+​​本文罗老师2017-8-4发布于数码之家论坛，2020-3-5日授权我转载到微博                           图片已全部替换为原图，可以放心食用～
+&#13;
+​此次拆解的机器到手已过去一年，由于时(ben)间(ren)不(tou)多(lan)，直到现在才发帖。机器买自38度论坛，卖家是专业js。当初说是机器开机，卖出不退，天真的我就入手了，回来后才发现是大坑。不得不说，38度的确是个js扎堆的地方，在那里购买过两次，也是唯一两次设备，机器都是大件，价格不便宜，然而都有几乎无法修复的问题。所以从此之后绕道而行，再也没有去过一次。。
+&#13;
+由于当时疏忽没有拍机器后面板，只能人工说下此电源参数了。机器共有3路输出，分别为：
+&#13;
+CH1: 0-7V@5A / 0-20V@2A
+&#13;
+CH2: 0-7V@10A / 0-20V@4A
+&#13;
+CH3: 0-20V@2A / 0-50V@0.8A
+&#13;
+此外机器带有GPIB接口，可以远程控制。所以从指标来看，的确是一台不错的电源，几乎涵盖了日常用到的大部分电压，功率也够大。不过，此机器有两个版本，分别采用了不同的功率输出模块。一种是普通PCB制作，一种则是厚膜电路。前者出了问题很容易维修，后者则会是大坑。所以，买到啥只能看自己和卖家的人品了。。
+&#13;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+&#13;
+下面开始拆修过程。
+&#13;
+外观，机器是线性电源，非常大，已经拆掉外壳。里面还有一层铝质内壳。靠面板方向抠了一个洞，为了给巨大的变压器铁芯留出位置
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg2qeq9aj212w0q17wh.jpg开机，HDW ERR CH3，提示3号输出硬件错误
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2tggm0j212w0q1e81.jpg
+&#13;
+实际测试，3号通道确实无输出。这种故障，卖家既然通过电，不可能一无所知。所以卖机器时避而不谈，肯定是想坑人了。js无误，已黑名单。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg2xxb2dj212w0q1b29.jpg拆掉机芯上盖的几个螺丝，即可看见内脏。为了塞下三路输出，机器内部还是很紧凑的，上盖也有一块电源板。上盖用铰链和主体连接，维修很方便。
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2zi1s5j212w0q1npd.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg32850ej212w0q1u0x.jpg
+&#13;
+主体内部
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg35by14j212w0q1x6p.jpg
+&#13;
+功率模块和散热片，看到这个心里凉了一大截。。。机器用的是厚膜功率模块，不是分立式，这次果然中彩了
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg3a8w18j212w0q1b29.jpg巨大的变压器，用料实在
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg3cwaqcj212w0q11ky.jpg机器内部很脏。这种系统电源通常用于测试架或者机柜，很有可能需要长时间7*24不间断工作。从灰尘来看，机器应该通电很久了，又是大坑。。
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg3rh9d9j212w0q1qv5.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjg3whfmyj212w0q11ky.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjg3z82k9j212w0q1kjl.jpg拆下两块电源板，底下更多灰。。。
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg422066j212w0q1u0x.jpg好不容易清理干净。两块板子一块负责20V 2A，一块负责50V 0.8A。坏的就是50V那个
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg4d5zv5j212w0q1u0x.jpg功率模块，看样子被人改装过，并了两根飞线增大电流。也不知道是原厂干的还是什么情况
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjg4f8w3mj212w0q1npd.jpg单独看板子，还是很漂亮的
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg5f55hsj212w0q1x6p.jpghttp://wx3.sinaimg.cn/large/7406e5bcgy1gcjg5k5n6qj212w0q1qv6.jpg两个光耦，以及连接控制板的电话口。为了保证电源各路输出隔离，电源板和控制板间采用数字通讯，光耦隔离
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg6ylr8yj212w0q1b2a.jpg电源板基准，5ppm的温漂，一般般，不过在此处是够用了。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg71h3c0j212w0q1hdu.jpg
+&#13;
+输入整流桥
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg74bzzsj212w0q11ky.jpg一堆大电容
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg770e3hj212w0q11ky.jpg电源输出端臭名昭著的RIFA安规电容。这款电容材质有问题，时间长就开裂，如果进了潮气，电压高了很容易boom。不过在这里是并在直流输出上，短时间不会碍事，就先不换了。
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg7ahbm7j212w0q1x6p.jpg顶盖上拆下的电源板，提供 20V 10A输出，因此采用两块功率模块并联
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg7emma7j212w0q11ky.jpg近照，清理干净还是很漂亮的
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg7h3ba2j212w0q1npd.jpgHP
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg7joks4j212w0q11ky.jpg电容
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8167x5j212w0q1npd.jpgPCB的运放输入很多地方做了包地处理，以最大程度隔绝噪声和干扰。不得不说的确是走心的设计
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg83hm9ij212w0q1hdu.jpg下面是电源控制板。有4个电话口，应该能控制最多4路电源板。本机器用了3路。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg88g0nxj212w0q14qq.jpg5V稳压芯片
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8i60eyj212w0q1kjl.jpgCPU，摩托罗拉的8位MC6809
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg8kgxysj212w0q17wi.jpgGPIB通讯芯片，intel的8291
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8nb2vej212w0q11ky.jpg惠普的不知道是啥
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjg8qga25j212w0q14qq.jpg连接各个电源输出板的接口
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg9lcir1j212w0q11ky.jpg反面
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9o16kpj212w0q1x6p.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9qq6n2j212w0q14qq.jpg面板，也非常脏
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg9tb3gxj212w0q1u0x.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjg9wnox7j212w0q1hdt.jpg清理干净，看上去焕然一新
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9zhoyej212w0q1qv5.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjga2m6q7j212w0q1u0x.jpg键盘板
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjga5v9b1j212w0q1qv5.jpgLCD和驱动板，惠普经典的双牛屎。很多90-00年代出品的惠普仪器都用了这种模块
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjga81q6uj212w0q1hdt.jpg反面http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgaam1u4j212w0q1hdt.jpg键盘，惠普风格
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgagd0dxj212w0q17wh.jpg下面看巨型的变压器
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgajdd08j212w0q1u0x.jpg顶上的端子。为了放下多到变态的绕组，变压器有内外两层骨架
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgapctptj212w0q1u0x.jpg侧面还有一堆端子
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbby2z0j212w0q1u0x.jpg毫无疑问的纯铜线，很舍得用料
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgbhlz00j212w0q1u0x.jpg变压器有点生锈。于是乎找了瓶油漆，喷了一下铁芯，但愿能防锈吧
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbp8vv5j212w0q11ky.jpg115V交流风扇，变压器上专门做了一路给其供电
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbrv5mcj212w0q1kjl.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbx0dorj212w0q1kjl.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjgc332bdj212w0q17wh.jpg
+&#13;
+~~~~~~~~~~~~~~~~~~~~~~~~~
+&#13;
+下面开始维修过程。先找了手册和电路，初步分析了下故障。由于电源每一路用的都是一样的功率模块，首先对模块进行测量。测量结果表明坏掉的一路很可能是模块坏了。交换两路电源的模块，进一步表明，损坏的就是厚膜功率模块。(此时内心是绝望的，这模块tm怎么修。。。)
+&#13;
+拆下的模块
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgc5qevxj212w0q1u0x.jpghttp://wx3.sinaimg.cn/large/7406e5bcgy1gcjgc8qy88j212w0q1u0x.jpg拆
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgcuso95j212w0q1npd.jpg模块的纯铜底板，与散热片之间导热似乎是石墨
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgcx4bibj212w0q1x6p.jpg模块
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgczguykj212w0q1hdt.jpg坏也是坏了，干脆上刀子看看里面究竟是啥吧
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgd1ijcvj212w0q1e81.jpg成功分离，模块由两部分组成，左边靠近散热片的厚膜上有4个功率三极管，就是电源调整管了
+&#13;
+(内心:还好不是裸片，还有的修。。。)
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgd408qlj212w0q1kjl.jpg三肯的功率三极管。机器用了三个管子，分别在不同电压下导通，以连接不同的变压器绕组，实现无继电器的变压器绕组切换。另外还有一个三极管用作泄放回路。因此电源在关闭输出时，其实是一个假负载，可以从外部连接的电路上消耗与最大输出电流相当的电流。这个电路可以加快电源响应速度，即使在输出无负载情况下，仍然可以从较高的输出电压快速切换到低压。不过，吸收电流大小是不可控的，因此并不能当实际的电子负载用。
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgd7lgmrj212w0q1npd.jpg仔细看，两个三极管散热片之间的厚膜电路上有不少黑色的氧化物质，似乎是短路了。用万用表量了一下，证明确实短路。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdilclsj212w0q1x6p.jpg清理短路点。可发现，虽然氧化物质清理干净，两个三极管之间的厚膜电路上依然有不少金属残留，不太清楚是工艺问题还是什么问题导致。不过至少短路已经消除。然而，把模块装回去，装机测试表明，该路输出仍然不正常。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdpi1ctj212w0q1qv5.jpg测量四个功率三极管，的确都是好的，只好检查另一块厚膜电路了。
+&#13;
+清理硅胶，看看里面有啥
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdvhmzdj212w0q1u0x.jpg基本清理干净
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgdz3ycwj212w0q1e81.jpg这是一个可控硅，用于超压保护
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjge3wzbrj212w0q1npd.jpg一些驱动功率调整管的三极管
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgeg0ib5j212w0q1kjl.jpg这个圆的其实是大功率二极管
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgei4n34j212w0q1kjl.jpg厚膜上走个跳线也不容易，为了增大电流，跳线上镀锡
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgel41xej212w0q14qq.jpg黑色的是集成在模块上的电阻。仔细看可以看到激光校准留下的切割状痕迹。
+&#13;
+另外注意到，连接至左上角三极管基极的走线颜色明显发黑。估计是之前短路引起过流导致。经测量，该走线已经断路。
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgeor9l2j212w0q17wi.jpg弄电线搭了根桥，死马当活马医试试
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgerxw0zj212w0q1e81.jpg测试中，结果故障解决。
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgeualtxj212w0q11ky.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjgexsmwxj212w0q14qq.jpg再次拆开模块，把外置的飞线弄到模块上
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgf0rdl1j212w0q1npd.jpg组装回去。没有黑色硅胶，只好用白色硅胶密封模块了，用还是一样的
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgf3c6x1j212w0q1qv5.jpg最后清理机箱
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfi8pmdj212w0q1e81.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjgfks86pj212w0q1hdt.jpg连接变压器的电线，都做了标记，方便之后往回装
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfn4eiuj212w0q1kjl.jpg装回控制板
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgfpv3toj212w0q1npd.jpg。。。及变压器
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgft5mpwj212w0q1npd.jpg干净的感觉真好
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfw17faj212w0q1u0x.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgg7xz32j212w0q14qq.jpg最后，折腾完，把所有板子塞回去
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjggb8hjfj212w0q1qv5.jpg
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gcjggdno23j212w0q1qv5.jpg就此拆机+维修完成
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gcjggg0gi3j212w0q17wh.jpg
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjggi3tgqj212w0q17wh.jpg故障那路测试正常。(带负载测试没拍照。。。)
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gcjggkjdovj212w0q17wh.jpg最后总结：首先38度js太多，千万别碰，除非做好折腾的打算，还必须能承担折腾失败的后果(在38买的另外一个Tek 754D示波器，一路输入的前端放大器损坏，由于是定制元件，完全没法修，只能当三通道用。。。)；其次，此电源虽然质量不错，但尽量得避免买到厚膜功率模块版本，否则修起来可是相当坑爹。。。
+&#13;
+~~~全文完，谢谢关注，也希望每次拆修都能给大家带来点收获和启发~~~​​​​</description>
+      <content:encoded><![CDATA[<p><b>机吉斯卡: </b><br>
+<span>【ZT】深度拆解坑爹的HP6623A三路系统直流电源</span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404479257425346596#_0</span><br>
+<span>转发经过许可，请勿用作商业用途.</span><br>
+<span>​​本文罗老师2017-8-4发布于数码之家论坛，2020-3-5日授权我转载到微博                           图片已全部替换为原图，可以放心食用～</span><br>
+<span>​此次拆解的机器到手已过去一年，由于时(ben)间(ren)不(tou)多(lan)，直到现在才发帖。机器买自38度论坛，卖家是专业js。当初说是机器开机，卖出不退，天真的我就入手了，回来后才发现是大坑。不得不说，38度的确是个js扎堆的地方，在那里购买过两次，也是唯一两次设备，机器都是大件，价格不便宜，然而都有几乎无法修复的问题。所以从此之后绕道而行，再也没有去过一次。。</span><br>
+<span>由于当时疏忽没有拍机器后面板，只能人工说下此电源参数了。机器共有3路输出，分别为：</span><br>
+<span>CH1: 0-7V@5A / 0-20V@2A</span><br>
+<span>CH2: 0-7V@10A / 0-20V@4A</span><br>
+<span>CH3: 0-20V@2A / 0-50V@0.8A</span><br>
+<span>此外机器带有GPIB接口，可以远程控制。所以从指标来看，的确是一台不错的电源，几乎涵盖了日常用到的大部分电压，功率也够大。不过，此机器有两个版本，分别采用了不同的功率输出模块。一种是普通PCB制作，一种则是厚膜电路。前者出了问题很容易维修，后者则会是大坑。所以，买到啥只能看自己和卖家的人品了。。</span><br>
+<span>~~~~~~~~~~~~~~~~~~~~~~~~~~~</span><br>
+<span>下面开始拆修过程。</span><br>
+<span>外观，机器是线性电源，非常大，已经拆掉外壳。里面还有一层铝质内壳。靠面板方向抠了一个洞，为了给巨大的变压器铁芯留出位置</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg2qeq9aj212w0q17wh.jpg开机，HDW ERR CH3，提示3号输出硬件错误</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2tggm0j212w0q1e81.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2tggm0j212w0q1e81.jpg"><br>
+<span>实际测试，3号通道确实无输出。这种故障，卖家既然通过电，不可能一无所知。所以卖机器时避而不谈，肯定是想坑人了。js无误，已黑名单。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg2xxb2dj212w0q1b29.jpg拆掉机芯上盖的几个螺丝，即可看见内脏。为了塞下三路输出，机器内部还是很紧凑的，上盖也有一块电源板。上盖用铰链和主体连接，维修很方便。</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2zi1s5j212w0q1npd.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg2zi1s5j212w0q1npd.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg32850ej212w0q1u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg32850ej212w0q1u0x.jpg"><br>
+<span>主体内部</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg35by14j212w0q1x6p.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg35by14j212w0q1x6p.jpg"><br>
+<span>功率模块和散热片，看到这个心里凉了一大截。。。机器用的是厚膜功率模块，不是分立式，这次果然中彩了</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg3a8w18j212w0q1b29.jpg巨大的变压器，用料实在</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg3cwaqcj212w0q11ky.jpg机器内部很脏。这种系统电源通常用于测试架或者机柜，很有可能需要长时间7*24不间断工作。从灰尘来看，机器应该通电很久了，又是大坑。。</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg3rh9d9j212w0q1qv5.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjg3whfmyj212w0q11ky.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjg3z82k9j212w0q1kjl.jpg拆下两块电源板，底下更多灰。。。</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg422066j212w0q1u0x.jpg好不容易清理干净。两块板子一块负责20V 2A，一块负责50V 0.8A。坏的就是50V那个</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg4d5zv5j212w0q1u0x.jpg功率模块，看样子被人改装过，并了两根飞线增大电流。也不知道是原厂干的还是什么情况</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjg4f8w3mj212w0q1npd.jpg单独看板子，还是很漂亮的</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg5f55hsj212w0q1x6p.jpghttp://wx3.sinaimg.cn/large/7406e5bcgy1gcjg5k5n6qj212w0q1qv6.jpg两个光耦，以及连接控制板的电话口。为了保证电源各路输出隔离，电源板和控制板间采用数字通讯，光耦隔离</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg6ylr8yj212w0q1b2a.jpg电源板基准，5ppm的温漂，一般般，不过在此处是够用了。</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg71h3c0j212w0q1hdu.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg71h3c0j212w0q1hdu.jpg"><br>
+<span>输入整流桥</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg74bzzsj212w0q11ky.jpg一堆大电容</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg770e3hj212w0q11ky.jpg电源输出端臭名昭著的RIFA安规电容。这款电容材质有问题，时间长就开裂，如果进了潮气，电压高了很容易boom。不过在这里是并在直流输出上，短时间不会碍事，就先不换了。</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg7ahbm7j212w0q1x6p.jpg顶盖上拆下的电源板，提供 20V 10A输出，因此采用两块功率模块并联</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg7emma7j212w0q11ky.jpg近照，清理干净还是很漂亮的</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg7h3ba2j212w0q1npd.jpgHP</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg7joks4j212w0q11ky.jpg电容</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8167x5j212w0q1npd.jpgPCB的运放输入很多地方做了包地处理，以最大程度隔绝噪声和干扰。不得不说的确是走心的设计</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg83hm9ij212w0q1hdu.jpg下面是电源控制板。有4个电话口，应该能控制最多4路电源板。本机器用了3路。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg88g0nxj212w0q14qq.jpg5V稳压芯片</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8i60eyj212w0q1kjl.jpgCPU，摩托罗拉的8位MC6809</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg8kgxysj212w0q17wi.jpgGPIB通讯芯片，intel的8291</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg8nb2vej212w0q11ky.jpg惠普的不知道是啥</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjg8qga25j212w0q14qq.jpg连接各个电源输出板的接口</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjg9lcir1j212w0q11ky.jpg反面</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9o16kpj212w0q1x6p.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9qq6n2j212w0q14qq.jpg面板，也非常脏</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjg9tb3gxj212w0q1u0x.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjg9wnox7j212w0q1hdt.jpg清理干净，看上去焕然一新</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjg9zhoyej212w0q1qv5.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjga2m6q7j212w0q1u0x.jpg键盘板</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjga5v9b1j212w0q1qv5.jpgLCD和驱动板，惠普经典的双牛屎。很多90-00年代出品的惠普仪器都用了这种模块</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjga81q6uj212w0q1hdt.jpg反面http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgaam1u4j212w0q1hdt.jpg键盘，惠普风格</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgagd0dxj212w0q17wh.jpg下面看巨型的变压器</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgajdd08j212w0q1u0x.jpg顶上的端子。为了放下多到变态的绕组，变压器有内外两层骨架</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgapctptj212w0q1u0x.jpg侧面还有一堆端子</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbby2z0j212w0q1u0x.jpg毫无疑问的纯铜线，很舍得用料</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgbhlz00j212w0q1u0x.jpg变压器有点生锈。于是乎找了瓶油漆，喷了一下铁芯，但愿能防锈吧</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbp8vv5j212w0q11ky.jpg115V交流风扇，变压器上专门做了一路给其供电</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbrv5mcj212w0q1kjl.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbx0dorj212w0q1kjl.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjgc332bdj212w0q17wh.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbrv5mcj212w0q1kjl.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjgbx0dorj212w0q1kjl.jpghttp://wx2.sinaimg.cn/large/7406e5bcgy1gcjgc332bdj212w0q17wh.jpg"><br>
+<span>~~~~~~~~~~~~~~~~~~~~~~~~~</span><br>
+<span>下面开始维修过程。先找了手册和电路，初步分析了下故障。由于电源每一路用的都是一样的功率模块，首先对模块进行测量。测量结果表明坏掉的一路很可能是模块坏了。交换两路电源的模块，进一步表明，损坏的就是厚膜功率模块。(此时内心是绝望的，这模块tm怎么修。。。)</span><br>
+<span>拆下的模块</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgc5qevxj212w0q1u0x.jpghttp://wx3.sinaimg.cn/large/7406e5bcgy1gcjgc8qy88j212w0q1u0x.jpg拆</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgcuso95j212w0q1npd.jpg模块的纯铜底板，与散热片之间导热似乎是石墨</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgcx4bibj212w0q1x6p.jpg模块</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgczguykj212w0q1hdt.jpg坏也是坏了，干脆上刀子看看里面究竟是啥吧</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgd1ijcvj212w0q1e81.jpg成功分离，模块由两部分组成，左边靠近散热片的厚膜上有4个功率三极管，就是电源调整管了</span><br>
+<span>(内心:还好不是裸片，还有的修。。。)</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgd408qlj212w0q1kjl.jpg三肯的功率三极管。机器用了三个管子，分别在不同电压下导通，以连接不同的变压器绕组，实现无继电器的变压器绕组切换。另外还有一个三极管用作泄放回路。因此电源在关闭输出时，其实是一个假负载，可以从外部连接的电路上消耗与最大输出电流相当的电流。这个电路可以加快电源响应速度，即使在输出无负载情况下，仍然可以从较高的输出电压快速切换到低压。不过，吸收电流大小是不可控的，因此并不能当实际的电子负载用。</span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gcjgd7lgmrj212w0q1npd.jpg仔细看，两个三极管散热片之间的厚膜电路上有不少黑色的氧化物质，似乎是短路了。用万用表量了一下，证明确实短路。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdilclsj212w0q1x6p.jpg清理短路点。可发现，虽然氧化物质清理干净，两个三极管之间的厚膜电路上依然有不少金属残留，不太清楚是工艺问题还是什么问题导致。不过至少短路已经消除。然而，把模块装回去，装机测试表明，该路输出仍然不正常。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdpi1ctj212w0q1qv5.jpg测量四个功率三极管，的确都是好的，只好检查另一块厚膜电路了。</span><br>
+<span>清理硅胶，看看里面有啥</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgdvhmzdj212w0q1u0x.jpg基本清理干净</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgdz3ycwj212w0q1e81.jpg这是一个可控硅，用于超压保护</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjge3wzbrj212w0q1npd.jpg一些驱动功率调整管的三极管</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgeg0ib5j212w0q1kjl.jpg这个圆的其实是大功率二极管</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgei4n34j212w0q1kjl.jpg厚膜上走个跳线也不容易，为了增大电流，跳线上镀锡</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgel41xej212w0q14qq.jpg黑色的是集成在模块上的电阻。仔细看可以看到激光校准留下的切割状痕迹。</span><br>
+<span>另外注意到，连接至左上角三极管基极的走线颜色明显发黑。估计是之前短路引起过流导致。经测量，该走线已经断路。</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgeor9l2j212w0q17wi.jpg弄电线搭了根桥，死马当活马医试试</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgerxw0zj212w0q1e81.jpg测试中，结果故障解决。</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgeualtxj212w0q11ky.jpghttp://wx4.sinaimg.cn/large/7406e5bcgy1gcjgexsmwxj212w0q14qq.jpg再次拆开模块，把外置的飞线弄到模块上</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgf0rdl1j212w0q1npd.jpg组装回去。没有黑色硅胶，只好用白色硅胶密封模块了，用还是一样的</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgf3c6x1j212w0q1qv5.jpg最后清理机箱</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfi8pmdj212w0q1e81.jpghttp://wx1.sinaimg.cn/large/7406e5bcgy1gcjgfks86pj212w0q1hdt.jpg连接变压器的电线，都做了标记，方便之后往回装</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfn4eiuj212w0q1kjl.jpg装回控制板</span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjgfpv3toj212w0q1npd.jpg。。。及变压器</span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gcjgft5mpwj212w0q1npd.jpg干净的感觉真好</span><br>
+<img src="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfw17faj212w0q1u0x.jpg" title="http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgfw17faj212w0q1u0x.jpg"><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjgg7xz32j212w0q14qq.jpg最后，折腾完，把所有板子塞回去</span><br>
+<img src="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjggb8hjfj212w0q1qv5.jpg" title="http://wx4.sinaimg.cn/large/7406e5bcgy1gcjggb8hjfj212w0q1qv5.jpg"><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gcjggdno23j212w0q1qv5.jpg就此拆机+维修完成</span><br>
+<img src="http://wx1.sinaimg.cn/large/7406e5bcgy1gcjggg0gi3j212w0q17wh.jpg" title="http://wx1.sinaimg.cn/large/7406e5bcgy1gcjggg0gi3j212w0q17wh.jpg"><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjggi3tgqj212w0q17wh.jpg故障那路测试正常。(带负载测试没拍照。。。)</span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gcjggkjdovj212w0q17wh.jpg最后总结：首先38度js太多，千万别碰，除非做好折腾的打算，还必须能承担折腾失败的后果(在38买的另外一个Tek 754D示波器，一路输入的前端放大器损坏，由于是定制元件，完全没法修，只能当三通道用。。。)；其次，此电源虽然质量不错，但尽量得避免买到厚膜功率模块版本，否则修起来可是相当坑爹。。。</span><br>
+<span>~~~全文完，谢谢关注，也希望每次拆修都能给大家带来点收获和启发~~~​​​​</span><br>
+</p><p><b>Awensama: </b><br>
+<span>过于硬核只能仰望</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>我看完了</span><br>
+<span>我把风扇上的牌子看成了rapist</span><br>
+<span>我不知道这是个啥</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>看完了，只知道是个电源，干啥用的不知道</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>koakon: </b><br>
+<span>很有历史味道的电源。做工算很好了。</span><br>
+</p><p><b>八云萌华: </b><br>
+<span>首先6623这个产品和那些七八十年代的老古董完全不一样。你看里面那么多芯片就知道了</span><br>
+<span>这玩意儿官网上说直到2016年7月才discontinued，完全停止生产销售到今天还不到4年，而且目前还是可以得到官方技术支持</span><br>
+<span>该设备完全支持GPIB，可以说放现在任何一个实验室里用都没过时，虽然看起来确实有点儿土</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>八云萌华 发表于 2020-3-11 06:21</span><br>
+<span>首先6623这个产品和那些七八十年代的老古董完全不一样。你看里面那么多芯片就知道了</span><br>
+<span>这玩意儿官网上说直到2 ...</span><br>
+<span>这个帖2017年发布的，而且当时就到手超过一年，所以可能在买的时候还没有停产</span><br>
+</p><p><b>八云萌华: </b><br>
+<span> 本帖最后由 八云萌华 于 2020-3-11 08:28 编辑 </span><br>
+<span>qzy741147 发表于 2020-3-11 07:18</span><br>
+<span>这个帖2017年发布的，而且当时就到手超过一年，所以可能在买的时候还没有停产 ...</span><br>
+<span>看label不是这两年的东西，十几二十年还是有的</span><br>
+<span>支持SCPI规范的GPIB设备不会太老是肯定的，真正的老东西支持的是HPIB，用的指令比较奇葩</span><br>
+<span>另外十分不推荐6623A，有需要的话强烈建议6624，显示面板第四个channel都留出来了还给强行砍掉第四路成为次级产品，真的有点儿坑的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918151[0-50]</guid>
+    </item>
+  </channel>
+</rss>

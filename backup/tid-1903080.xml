@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>cz880写入多了以后会不会掉速呢？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>cz880写入多了以后会不会掉速呢？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:19:44 +0000</lastBuildDate>
+    <item>
+      <title>cz880写入多了以后会不会掉速呢？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903080-1-1.html</link>
+      <description>cz880写入多了以后会不会掉速呢？&#13;
+双12入了个山寨版的f306，结果有时候写入40多G有时候写入才几G速度就掉到平均40左右了，最低值才10几，cz880不知道有这问题没？
+&#13;
+还有个问题，之前用的cz80可以用txbench trim，为啥这个f306不能用txbench trim呢？会提示错误。</description>
+      <content:encoded><![CDATA[<p><b>lxx4869: </b><br>
+<span>cz880写入多了以后会不会掉速呢？</span><br>
+<span>双12入了个山寨版的f306，结果有时候写入40多G有时候写入才几G速度就掉到平均40左右了，最低值才10几，cz880不知道有这问题没？</span><br>
+<span>还有个问题，之前用的cz80可以用txbench trim，为啥这个f306不能用txbench trim呢？会提示错误。</span><br>
+</p><p><b>lvcha: </b><br>
+<span>随便买个sata口的ssd加个硬盘盒速度快的吓人</span><br>
+</p><p><b>lhw369: </b><br>
+<span>随便买个nvme的ssd+硬盘盒速度吓死人</span><br>
+</p><p><b>temp255: </b><br>
+<span>谢谢推荐txbench cz80终于不是鸡肋了</span><br>
+</p><p><b>chaos7: </b><br>
+<span>个人用cz880做windows to go,用久了也会掉速,用txbench的trim功能后能回复满速.</span><br>
+</p><p><b>albertfu: </b><br>
+<span>看到Txbench能对u盘进行TRIM</span><br>
+<span>兴冲冲地下了一看，它这个TRIM要清空全部数据 </span><br>
+</p><p><b>Panda付: </b><br>
+<span>理论上就没有不掉速的硬盘 掉多掉少罢了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>SLC芯片的非SSD主控普通U盘用久了都会掉速。</span><br>
+</p><p><b>temp255: </b><br>
+<span>albertfu 发表于 2019-12-17 02:10</span><br>
+<span>看到Txbench能对u盘进行TRIM</span><br>
+<span>兴冲冲地下了一看，它这个TRIM要清空全部数据...</span><br>
+<span>最右边的选项卡里有optimize的选项，就是手动trim，软件里trim的选项是抹盘</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>yksoft1 发表于 2019-12-17 08:57</span><br>
+<span>SLC芯片的非SSD主控普通U盘用久了都会掉速。</span><br>
+<span>我的意思是全新的U盘掉不掉速...</span><br>
+</p><p><b>albertfu: </b><br>
+<span>temp255 发表于 2019-12-17 09:30</span><br>
+<span>最右边的选项卡里有optimize的选项，就是手动trim，软件里trim的选项是抹盘</span><br>
+<span>回家试了下SSD optimization的TRIM需要NTFS，可惜我u盘是exFAT的</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>搭车问买个U盘买啥好，我上一个6块邮费的羊毛32G金士顿丢了</span><br>
+<span>主要要求便宜稳定，要是大量小文件能不掉速更好</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>Diabolosis 发表于 2019-12-18 01:36</span><br>
+<span>搭车问买个U盘买啥好，我上一个6块邮费的羊毛32G金士顿丢了</span><br>
+<span>主要要求便宜稳定，要是大量小文件能不掉速更好 ...</span><br>
+<span>diy u盘 ex2246en/xt      sm3350之类的？</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>lxx4869 发表于 2019-12-17 18:46</span><br>
+<span>我的意思是全新的U盘掉不掉速...</span><br>
+<span>反正现在用TLC模拟SLC的SSD主控，磁盘写满99%空间再继续写， 100% 掉速。</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>寫幾十Gsata口的都會爆緩存 cz880這老的u盤怎可能不掉</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>lxx4869 发表于 2019-12-18 08:01</span><br>
+<span>diy u盘 ex2246en/xt      sm3350之类的？</span><br>
+<span>好贵啊</span><br>
+<span>—— 来自 SHARP SHV39, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>Diabolosis 发表于 2019-12-18 11:56</span><br>
+<span>好贵啊</span><br>
+<span>—— 来自 SHARP SHV39, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>好像有数码之家的卖家，去那里看看，其实实际价格是标价的一半。</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>yksoft1 发表于 2019-12-18 08:17</span><br>
+<span>反正现在用TLC模拟SLC的SSD主控，磁盘写满99%空间再继续写， 100% 掉速。</span><br>
+<span>SLC 颗粒的呢？</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>huaxianyan 发表于 2019-12-18 15:53</span><br>
+<span>SLC 颗粒的呢？</span><br>
+<span>其实也会，因为磁盘写满了对wear leveling极其不利，而SSD主控和U盘、电子盘主控在本质上最大的不同就在于这方面。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903080[0-50]</guid>
+    </item>
+  </channel>
+</rss>

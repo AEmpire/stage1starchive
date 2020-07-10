@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>以后的PC会不会像手机一样装上NPU这类的AI芯片？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>以后的PC会不会像手机一样装上NPU这类的AI芯片？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:32:01 +0000</lastBuildDate>
+    <item>
+      <title>以后的PC会不会像手机一样装上NPU这类的AI芯片？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841928-1-1.html</link>
+      <description>以后的PC会不会像手机一样装上NPU这类的AI芯片？&#13;
+出于纯外行的好奇心
+&#13;
+刚刚用CPU跑waifu2x时想起来跑这类模型的速度似乎是NPU＞GPU＞CPU（好像NPU对内存容量的需求也大于GPU），同时之前思元270的新闻让我了解到已经有了PCI-E接口的AI芯片板卡产品。
+&#13;
+既然手机上的NPU已经可以用来处理照片、录像和语音识别，所以会不会以后有单独的板卡或者是CPU或者显卡上带有集成核心来处理PC的图片、视频后期或者是3D程序抗锯齿？说起来AI抗锯齿已经有老黄用Tensor Core跑的DLSS，听说效果一言难尽。</description>
+      <content:encoded><![CDATA[<p><b>Sza: </b><br>
+<span>以后的PC会不会像手机一样装上NPU这类的AI芯片？</span><br>
+<span>出于纯外行的好奇心</span><br>
+<span>刚刚用CPU跑waifu2x时想起来跑这类模型的速度似乎是NPU＞GPU＞CPU（好像NPU对内存容量的需求也大于GPU），同时之前思元270的新闻让我了解到已经有了PCI-E接口的AI芯片板卡产品。</span><br>
+<span>既然手机上的NPU已经可以用来处理照片、录像和语音识别，所以会不会以后有单独的板卡或者是CPU或者显卡上带有集成核心来处理PC的图片、视频后期或者是3D程序抗锯齿？说起来AI抗锯齿已经有老黄用Tensor Core跑的DLSS，听说效果一言难尽。</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>不会。厂商会让你付费云计算再把结果传回来给你。</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>NV GPU里面的Tensor单元就是类似NPU的硬逻辑，不是可编程管线跑AI软件了</span><br>
+</p><p><b>Sza: </b><br>
+<span>处男鉴黄师 发表于 2019-6-24 18:23</span><br>
+<span>不会。厂商会让你付费云计算再把结果传回来给你。</span><br>
+<span>感觉手机上那么大的SoC都能塞进去，牙膏厂yes厂塞个NPU进去也不算奇怪吧？台式机且不论，至少苏菲之类的平板也用得上。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>如果你买的是这两年的N卡，已经有Tensor core了呀</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>现在手机上是处理单元+算法打包卖</span><br>
+<span>至于你说的集成核心来处理PC的图片、视频后期或者是3D程序抗锯齿，老黄不是都有在搞吗你看rtx有个应用不就是搞8k视频的</span><br>
+</p><p><b>Liza: </b><br>
+<span>敢情炼丹师炼丹不是用PC炼的</span><br>
+</p><p><b>Sza: </b><br>
+<span>madbird302 发表于 2019-6-24 18:45</span><br>
+<span>如果你买的是这两年的N卡，已经有Tensor core了呀</span><br>
+<span>主楼写到最后一句的时候才意识到的确已经有了，但不清楚PC端上有没有使用张量核心的“真香”应用，比如说DLSS吗……</span><br>
+</p><p><b>Sza: </b><br>
+<span>Liza 发表于 2019-6-24 18:49</span><br>
+<span>敢情炼丹师炼丹不是用PC炼的</span><br>
+<span>主要还是好奇面向普通用户的产品。。毕竟手机AI拍照已经傻瓜式的便捷了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Sza 发表于 2019-6-24 18:52</span><br>
+<span>主楼写到最后一句的时候才意识到的确已经有了，但不清楚PC端上有没有使用张量核心的“真香”应用，比如说 ...</span><br>
+<span>单独的应用应该还没有，游戏也是刚开始有内部调用GPU这方面机能的使用，这东西在MiD上的推广比PC端要容易得多</span><br>
+</p><p><b>Sza: </b><br>
+<span>madbird302 发表于 2019-6-24 19:29</span><br>
+<span>单独的应用应该还没有，游戏也是刚开始有内部调用GPU这方面机能的使用，这东西在MiD上的推广比PC端要容易 ...</span><br>
+<span>好像的确是如此，移动设备上比较好实现</span><br>
+<span>画月亮NB！(小声逼逼</span><br>
+</p><p><b>obiy: </b><br>
+<span>10代的intel cpu有提到通过深度学习来调节频率，应该是cpu自己实现的逻辑。</span><br>
+<span> Intel says it focused on beefing up 10th Gen Core's artificial intelligence features so that machines powered by the processors can be more responsive. To that end, Intel's promising a 2.5x improvement in AI performance over the previous generation of chips thanks to Deep Learning (DL) Boost dynamic tuning that can predict workloads and maximize performance.你说的ai应用都是适合独立gpu计算的，那样的处理器规模都搞不好现在的应用，说明距离其他部件自己集成还有很长的路。</span><br>
+<span>现在完全应用实时光追的游戏就Quake 2 RTX，计算能力还差得远。</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2019-6-24 20:54 编辑 </span><br>
+<span>obiy 发表于 2019-6-24 20:12</span><br>
+<span>10代的intel cpu有提到通过深度学习来调节频率，应该是cpu自己实现的逻辑。</span><br>
+<span>你说的ai应用都是适合独立gpu计 ...</span><br>
+<span>其实刚才我也想起来牙膏的10nm产品，重温了一遍白嫖王的COMPUTEX2019报道：</span><br>
+<span>https://www.bilibili.com/video/av54651344</span><br>
+<span>最后一分钟的确提到了新U的“AI应用”，应该如你所说没有加入单独的推理单元（是这么称呼的吧？）。</span><br>
+<span>唔，原以为也会像手机SoC那样有个NPU来着，我还是洗洗睡吧……</span><br>
+<span>补充：对于你最后一句，我查了一下光追用的是RT Core，不是Tensor Core，光追似乎和AI没关系？</span><br>
+<span>参考：https://www.zhihu.com/question/290167656</span><br>
+</p><p><b>dkswxd: </b><br>
+<span> 本帖最后由 dkswxd 于 2019-6-24 20:34 编辑 </span><br>
+<span>有没有炼丹dalao帮我看看我的问题</span><br>
+<span>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</span><br>
+<span>需要用实验室的电脑训练模型，学长说cuda、pytorch这些环境都已经配好了</span><br>
+<span>actiavte环境，照着github上安装步骤setup.py，没有出问题，运行train.py出错，我感觉最关键的错误提示是‘Not compiled with GPU support (nms)’</span><br>
+<span>回头检查发现setup.py时CUDA_HOME=NONE，由于没有CUDA的环境变量所以没有编译GPU支持</span><br>
+<span>那我就加上环境变量呗，结果/usr/local/cuda不存在，真的有cuda吗？试了一下nvcc -V，不存在，请安装nvidia-cuda-toolkit</span><br>
+<span>拉来学长，学长说cuda有啊，打开anaconda3/pkgs/cudatoolkit-*，真的有cuda，而且torch.cuda.is_available() = ture，但是一看才500MB，nvidia官网上下下来要2.5GB</span><br>
+<span>所以想问问anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit一样吗？</span><br>
+<span>anaconda3/pkgs/cudatoolkit-*也是cuda吗？但为什么没有nvcc和环境变量？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>问题不是压根没有配合使用的应用么</span><br>
+</p><p><b>Sza: </b><br>
+<span>伊可费斯 发表于 2019-6-24 20:37</span><br>
+<span>问题不是压根没有配合使用的应用么</span><br>
+<span>就是这个问题嘛</span><br>
+</p><p><b>Sza: </b><br>
+<span>dkswxd 发表于 2019-6-24 20:32</span><br>
+<span>有没有炼丹dalao帮我看看我的问题</span><br>
+<span>求助，关于anaconda3/pkgs/cudatoolkit-*和nvidia-cuda-toolkit的区别</span><br>
+<span>等学ML的大佬帮你吧，没人回的话单开贴好了，我小白围观</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841928[0-50]</guid>
+    </item>
+  </channel>
+</rss>

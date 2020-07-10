@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么MacBook到NAS无线传输速度会这么慢？（3mb/s）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么MacBook到NAS无线传输速度会这么慢？（3mb/s）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:17:37 +0000</lastBuildDate>
+    <item>
+      <title>为什么MacBook到NAS无线传输速度会这么慢？（3mb/s）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945075-1-1.html</link>
+      <description>为什么MacBook到NAS无线传输速度会这么慢？（3mb/s）&#13;
+ 本帖最后由 a12885084 于 2020-7-1 02:08 编辑 
+
+设备是MacBook Pro 2016 和QNAP 的453Bmini，路由器是前两天买的小米路由千兆版（那个2.4g+5g一共千兆的假千兆）从MacBook无论是浏览器进系统上传还是finder直接拖文件，速度都在3mb/s左右，
+&#13;
+神奇的是
+&#13;
+只要我关一下macbook的Wi-Fi开关，再打开，重新连上Wi-Fi，速度就会变成正常的50mb/s（5g差不多是这个速度）……
+&#13;
+你要说设备有问题一直3mb/s倒也就算了，为啥我断开再重新连上Wi-Fi速度会有变化呢？
+&#13;
+不想每次传文件还要开关一次Wi-Fi啊
+&#13;
+有没有大佬遇到过这种情况或者知道原理</description>
+      <content:encoded><![CDATA[<p><b>a12885084: </b><br>
+<span>为什么MacBook到NAS无线传输速度会这么慢？（3mb/s）</span><br>
+<span> 本帖最后由 a12885084 于 2020-7-1 02:08 编辑 </span><br>
+<span>设备是MacBook Pro 2016 和QNAP 的453Bmini，路由器是前两天买的小米路由千兆版（那个2.4g+5g一共千兆的假千兆）从MacBook无论是浏览器进系统上传还是finder直接拖文件，速度都在3mb/s左右，</span><br>
+<span>神奇的是</span><br>
+<span>只要我关一下macbook的Wi-Fi开关，再打开，重新连上Wi-Fi，速度就会变成正常的50mb/s（5g差不多是这个速度）……</span><br>
+<span>你要说设备有问题一直3mb/s倒也就算了，为啥我断开再重新连上Wi-Fi速度会有变化呢？</span><br>
+<span>不想每次传文件还要开关一次Wi-Fi啊</span><br>
+<span>有没有大佬遇到过这种情况或者知道原理</span><br>
+</p><p><b>傲游: </b><br>
+<span>路由器太渣的感觉</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>试试关掉2.4g再测试一下？</span><br>
+</p><p><b>塌方: </b><br>
+<span>mac往路由器的移动硬盘里上传没啥问题。。。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>linesight: </b><br>
+<span>换个路由器试试？</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>关掉 2.4G 试试+1</span><br>
+<span>感觉像是两个信号共用一个 SSID 然后从 5G 落到 2.4G 了</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>不能把路由器2.4和5的ssid分开吗？</span><br>
+</p><p><b>a12885084: </b><br>
+<span>zhuangku556 发表于 2020-7-1 08:52</span><br>
+<span>不能把路由器2.4和5的ssid分开吗？</span><br>
+<span>是分开的，我连的是5g的orz</span><br>
+</p><p><b>a12885084: </b><br>
+<span>5g和2.4g是分开的orz</span><br>
+<span>一开始出现这个问题我也以为是走了2.4g的，结果只连5g还是这个样子</span><br>
+<span>下次出现我再注意一下orz</span><br>
+</p><p><b>mogle: </b><br>
+<span>按住opt键 然后鼠标再点击wifi状态图标 可以显示wifi连接信息 看下和正常有什么差异吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945075[0-50]</guid>
+    </item>
+  </channel>
+</rss>

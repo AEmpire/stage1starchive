@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助啊！Win10经常自动唤醒</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助啊！Win10经常自动唤醒</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:39:27 +0000</lastBuildDate>
+    <item>
+      <title>求助啊！Win10经常自动唤醒[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850240-1-1.html</link>
+      <description>求助啊！Win10经常自动唤醒&#13;
+ 本帖最后由 lurui45 于 2019-7-30 21:04 编辑 
+
+小弟自己的台式机电脑，Win10系统，因为我实测过休眠功耗也就1W多一点，关机也是1W多点，所以我就经常用休眠代替关机，毕竟休眠唤醒更快。
+&#13;
+但是近期，我经常发现电脑莫名奇妙经常自己唤醒，我检查了鼠标和键盘，全部是禁用唤醒的，不过我保留了网卡唤醒功能，有时候在外需要远程家里的电脑。
+&#13;
+我看了一下事件管理器，发现记录唤醒原因是电源按钮，真是奇妙，因为根本不可能有人按电源按钮的，难道是我的机箱有问题？
+&#13;
+我局域网中还有些机顶盒，nas什么的，但应该不是这些设备去唤醒的啊。</description>
+      <content:encoded><![CDATA[<p><b>lurui45: </b><br>
+<span>求助啊！Win10经常自动唤醒</span><br>
+<span> 本帖最后由 lurui45 于 2019-7-30 21:04 编辑 </span><br>
+<span>小弟自己的台式机电脑，Win10系统，因为我实测过休眠功耗也就1W多一点，关机也是1W多点，所以我就经常用休眠代替关机，毕竟休眠唤醒更快。</span><br>
+<span>但是近期，我经常发现电脑莫名奇妙经常自己唤醒，我检查了鼠标和键盘，全部是禁用唤醒的，不过我保留了网卡唤醒功能，有时候在外需要远程家里的电脑。</span><br>
+<span>我看了一下事件管理器，发现记录唤醒原因是电源按钮，真是奇妙，因为根本不可能有人按电源按钮的，难道是我的机箱有问题？</span><br>
+<span>我局域网中还有些机顶盒，nas什么的，但应该不是这些设备去唤醒的啊。</span><br>
+</p><p><b>真田丸: </b><br>
+<span>肯定有人来叫你升1903，对于win10用户1903包治百病。</span><br>
+</p><p><b>qwased: </b><br>
+<span>自动更新会唤醒</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sirlion: </b><br>
+<span>自动更新会唤醒，让他更新好就不会唤醒了</span><br>
+</p><p><b>Gymnopedie: </b><br>
+<span>我在1903以前还没遇到过这问题，吃屎吧纳德拉</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>1903版本有睡眠bug，微软已经确定了问题，等后续版本修复吧。</span><br>
+</p><p><b>lurui45: </b><br>
+<span>无字仓颉 发表于 2019-7-31 08:06</span><br>
+<span>1903版本有睡眠bug，微软已经确定了问题，等后续版本修复吧。</span><br>
+<span>我不是1903，好像是1809版本呢</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>lurui45 发表于 2019-7-31 09:38</span><br>
+<span>我不是1903，好像是1809版本呢</span><br>
+<span>那就不清楚了，问下机箱厂商或者微软客服吧</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>我家系统就是一直被网卡唤醒，不得以只好先关掉，也不知道能不能查到是哪里触发的</span><br>
+</p><p><b>Dox: </b><br>
+<span>台式机连网线的话会被网卡唤醒，我之前也是，后来把网卡唤醒关了就好了</span><br>
+</p><p><b>星野心叶: </b><br>
+<span>我家猫是会按电源的，说不定你家住了一些你没看到的小邻居</span><br>
+</p><p><b>lurui45: </b><br>
+<span>Dox 发表于 2019-7-31 11:10</span><br>
+<span>台式机连网线的话会被网卡唤醒，我之前也是，后来把网卡唤醒关了就好了</span><br>
+<span>但是能查到是网卡唤醒的吧，我网卡唤醒不能管，有这个需求呢</span><br>
+</p><p><b>真红之闪电: </b><br>
+<span>借贴问下win10开机自动打开关机前开着的程序设置在哪里</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>两个路人: </b><br>
+<span>看到楼上，为股沟引擎在大陆缺失感到悲哀 https://blog.csdn.net/u010243607/article/details/86062631</span><br>
+</p><p><b>Cray: </b><br>
+<span>我1809最近也有这个问题。</span><br>
+<span>睡眠秒唤醒然后点关机会说有其他用户连接什么的。。</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>我的偶尔也会。今天下班回家发现中午11点半被唤醒了，唤醒源是“设备 -ACPI Wake Alarm”，上个礼拜也有一次。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850240[0-50]</guid>
+    </item>
+  </channel>
+</rss>

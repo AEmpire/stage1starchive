@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这个笔记本BIOS到底该怎么解锁高级菜单啊</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这个笔记本BIOS到底该怎么解锁高级菜单啊</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:43:17 +0000</lastBuildDate>
+    <item>
+      <title>这个笔记本BIOS到底该怎么解锁高级菜单啊[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917594-1-1.html</link>
+      <description>这个笔记本BIOS到底该怎么解锁高级菜单啊&#13;
+ 本帖最后由 继承权 于 2020-3-7 14:33 编辑 
+
+之前给这个老本上了个45W的3820QM，但有功耗墙只能当35W的用。最近总算找到修改bios的办法，但这个奇葩BIOS折腾大半天都没法解锁隐藏菜单。
+&#13;
+Aptio4要用对应版本的AMIBCP和MMTOOLS，能打开和编辑，但是第一个问题就是这种BIOS有两套菜单，没法按照常见的方法修改Access/Use来解锁。
+&#13;
+又找了半天，发现了对于两套菜单的解决办法
+&#13;
+ https://www.win-raid.com/t3864f1 ... gs-15.html#msg62091 
+&#13;
+https://forums.mydigitallife.net ... s-msr-unlock.54523/
+&#13;
+但是这个BIOS更奇葩，两套菜单是分开的两个模块，并不能直接修改对应的字符串，Setup模块导出的IFR是有六个完整菜单，另外有个ASUSSETUP模块里是五个简化菜单，试了各种办法去替换修改都没法让六个完整菜单显示出来……
+&#13;
+又去找了其他华硕bios参考，发现只有这个型号的才有这个奇葩BIOS……
+&#13;
+实在不行就按这种方法直接修改BIOS设置值算了 https://www.cnblogs.com/XUEYEYU/archive/2018/07/27/efi_bios.html
+&#13;
+第一次用FPT刷变砖后就直接拆开拿CH341刷了，找到个能用的固件，现在不用怕变砖可以随便折腾。
+&#13;
+我用的是AsProgrammer，刷的时候要先点去写保护再擦除一遍，然后才能刷进去。
+&#13;
+另外记录一些参考价值不大的相关网页
+&#13;
+ https://octoperf.com/blog/2018/11/20/asus-g701vi-bios-unlock/ 这个里面把 Access/Use 的值设为 Supervisor，不知道跟User有啥区别
+&#13;
+https://www.win-raid.com/t3993f1 ... AMISetupWriter.html 好像是用来解BIOS写入锁的，但我用编程器了应该不需要
+&#13;
+https://www.win-raid.com/t1656f1 ... Asus-K-LX-Bios.html 不是两套菜单</description>
+      <content:encoded><![CDATA[<p><b>继承权: </b><br>
+<span>这个笔记本BIOS到底该怎么解锁高级菜单啊</span><br>
+<span> 本帖最后由 继承权 于 2020-3-7 14:33 编辑 </span><br>
+<span>之前给这个老本上了个45W的3820QM，但有功耗墙只能当35W的用。最近总算找到修改bios的办法，但这个奇葩BIOS折腾大半天都没法解锁隐藏菜单。</span><br>
+<span>Aptio4要用对应版本的AMIBCP和MMTOOLS，能打开和编辑，但是第一个问题就是这种BIOS有两套菜单，没法按照常见的方法修改Access/Use来解锁。</span><br>
+<span>又找了半天，发现了对于两套菜单的解决办法</span><br>
+<span> https://www.win-raid.com/t3864f1 ... gs-15.html#msg62091 </span><br>
+<span>https://forums.mydigitallife.net ... s-msr-unlock.54523/</span><br>
+<span>但是这个BIOS更奇葩，两套菜单是分开的两个模块，并不能直接修改对应的字符串，Setup模块导出的IFR是有六个完整菜单，另外有个ASUSSETUP模块里是五个简化菜单，试了各种办法去替换修改都没法让六个完整菜单显示出来……</span><br>
+<span>又去找了其他华硕bios参考，发现只有这个型号的才有这个奇葩BIOS……</span><br>
+<span>实在不行就按这种方法直接修改BIOS设置值算了 https://www.cnblogs.com/XUEYEYU/archive/2018/07/27/efi_bios.html</span><br>
+<span>第一次用FPT刷变砖后就直接拆开拿CH341刷了，找到个能用的固件，现在不用怕变砖可以随便折腾。</span><br>
+<span>我用的是AsProgrammer，刷的时候要先点去写保护再擦除一遍，然后才能刷进去。</span><br>
+<span>另外记录一些参考价值不大的相关网页</span><br>
+<span> https://octoperf.com/blog/2018/11/20/asus-g701vi-bios-unlock/ 这个里面把 Access/Use 的值设为 Supervisor，不知道跟User有啥区别</span><br>
+<span>https://www.win-raid.com/t3993f1 ... AMISetupWriter.html 好像是用来解BIOS写入锁的，但我用编程器了应该不需要</span><br>
+<span>https://www.win-raid.com/t1656f1 ... Asus-K-LX-Bios.html 不是两套菜单</span><br>
+</p><p><b>zjn31: </b><br>
+<span>mark一下 参考参考</span><br>
+</p><p><b>继承权: </b><br>
+<span>又折腾了半天，Throttlestop里也能看到功耗限制变成255了，但最高功率还是无法超过40W，烤机全核3.3G……估计是有EC电流墙之类，应该是搞不定了。</span><br>
+<span>虽然平时用的时候也能跑到单核3.7，但发热量也高，开机后风扇就一直全速，还是考虑换个3632QM之类的吧。</span><br>
+<span>话说3632QM跟3630QM究竟有没有实质区别？3630QM手动限频跟3632QM一个效果？</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>理论上来讲同样的频率，U型号越大电压越低，功耗也就越低，所以同样的电流/功耗下3820应该比3630/3632频率高</span><br>
+</p><p><b>cao1rui2: </b><br>
+<span>我也是考虑到散热不行，换的4712mq而没选4710mq，事后想想这他妈肯定亏了，不要发热睿频关了不就行了，基频还能高点。我觉得你这个也不用换，限个频或者关睿频就行</span><br>
+</p><p><b>Fury: </b><br>
+<span>试试看用xtu降压调电流呢？笔记本受制于散热，即使45w解锁了也不能一直跑高频率的。通过降压控制温度，尽量让cpu能稳在更高的睿频。我的8750h调了调以后能稳定在全核心3.5g。而调之前只有3.3，是不是还会掉到3.0，玩游戏的时候就会有卡顿感。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917594[0-50]</guid>
+    </item>
+  </channel>
+</rss>

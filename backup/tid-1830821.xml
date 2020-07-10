@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教各位谭友有什么java学习的书可以推荐一下。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教各位谭友有什么java学习的书可以推荐一下。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:40:06 +0000</lastBuildDate>
+    <item>
+      <title>请教各位谭友有什么java学习的书可以推荐一下。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830821-1-1.html</link>
+      <description>请教各位谭友有什么java学习的书可以推荐一下。&#13;
+主要想学习一下设计原理，JVM和GC。刚入职要写java，从来没用过瑟瑟发抖</description>
+      <content:encoded><![CDATA[<p><b>wwwwn168: </b><br>
+<span>请教各位谭友有什么java学习的书可以推荐一下。</span><br>
+<span>主要想学习一下设计原理，JVM和GC。刚入职要写java，从来没用过瑟瑟发抖</span><br>
+</p><p><b>cj2047: </b><br>
+<span>刚入职写java你看JVM和GC原理搞毛线</span><br>
+</p><p><b>Summer333: </b><br>
+<span>刚入职就上jvm这么猛的嘛</span><br>
+</p><p><b>xjy110207: </b><br>
+<span>看看doug lea的concurrent programming in java吧</span><br>
+</p><p><b>最后的法芙娜: </b><br>
+<span>java核心技术怎么样？</span><br>
+</p><p><b>pyjq: </b><br>
+<span>head first java 这个更适合你。jvm，gc这些是进阶才用到的。</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>xjy110207 发表于 2019-5-11 23:09</span><br>
+<span>看看doug lea的concurrent programming in java吧</span><br>
+<span>谢谢大佬回覆。</span><br>
+</p><p><b>xjy110207: </b><br>
+<span>wwwwn168 发表于 2019-5-11 23:25</span><br>
+<span>谢谢大佬回覆。</span><br>
+<span>觉得这本书太老的话，可以看看java concurrency in practice。作者里面也有doug lea</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>JVM和GC是大坑，如果只是想了解下，看周老师那本书，如果想深入研究，看R大的书单</span><br>
+<span>https://www.douban.com/doulist/2545443/</span><br>
+<span>写Java必看的书是Clean Code和Effective Java，前者可以慢慢看，后者内容不多但是需要花时间完全理解</span><br>
+</p><p><b>wuhhhh: </b><br>
+<span>刚入职就看jvm，gc，我很好奇你是怎么知道这两东西的</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>wuhhhh 发表于 2019-5-12 02:45</span><br>
+<span>刚入职就看jvm，gc，我很好奇你是怎么知道这两东西的</span><br>
+<span>我们组长说这是java的难点</span><br>
+</p><p><b>zh244102987: </b><br>
+<span>小白路过。</span><br>
+<span>设计原理应该是跨语言的吧。</span><br>
+<span>jvm，应该是虚拟机优化，内存划分，执行流程。</span><br>
+<span>gc，Java的自动机制，牵涉到分配内存和年代和回收算法与触发时间。</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>归蝶: </b><br>
+<span> 本帖最后由 归蝶 于 2019-5-12 08:33 编辑 </span><br>
+<span>上手的话core java第一卷就够了，可以跳着看，用不到的章节（swing awt之类）跳过就好</span><br>
+</p><p><b>deadfast: </b><br>
+<span>刚上手新人还不赶紧去学框架，你们项目用什么框架就学什么啊。</span><br>
+</p><p><b>SuspectX: </b><br>
+<span>你们组长也就装下B而已~</span><br>
+</p><p><b>rocinant1: </b><br>
+<span>我觉的很矛盾，贵司上来就要求搞懂JVM和GC的话，难道是搞虚拟机开发调优？这样的话为啥会招你这种啥都不懂的？还有一种可能，你的组长在装逼。</span><br>
+</p><p><b>穿靴子的喵: </b><br>
+<span>送你一个HashMap请查收</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>下载到了core java 1 和2 还有effective java</span><br>
+<span>京东买了周老师的深入理解jvm</span><br>
+<span>先谢谢大家了。等有空空了看看GC。</span><br>
+<span>另外我们的系统里GC很影响业务，所以我希望能了解一下这方面的情况。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>穿靴子的喵 发表于 2019-5-12 10:58</span><br>
+<span>送你一个HashMap请查收</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>？？？</span><br>
+</p><p><b>星空天神: </b><br>
+<span>wwwwn168 发表于 2019-5-12 07:02</span><br>
+<span>我们组长说这是java的难点</span><br>
+<span>你们组长就是个傻逼。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>星空天神 发表于 2019-5-12 12:31</span><br>
+<span>你们组长就是个傻逼。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>那你有什么看法</span><br>
+</p><p><b>雅久森派: </b><br>
+<span>没听说过有人看书学会编程的</span><br>
+<span>天才除外</span><br>
+</p><p><b>wuhhhh: </b><br>
+<span>wwwwn168 发表于 2019-5-12 07:02</span><br>
+<span>我们组长说这是java的难点</span><br>
+<span>这不是java的难点，这是通往高级程序的进阶壁垒，对一个刚入行java的叫他去看这个，我都说不出话了</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>wuhhhh 发表于 2019-5-12 15:57</span><br>
+<span>这不是java的难点，这是通往高级程序的进阶壁垒，对一个刚入行java的叫他去看这个，我都说不出话了 ...</span><br>
+<span>可是这java入门有什么东西呢？和c++比有什么不一样的吗？</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>都太旧了,都java 9了</span><br>
+<span>语法方面建议直接上网查查看java 9新特性.函数式编程.都不用找书.</span><br>
+<span>jvm当然要看,我们这里大学本科实习生进来先研究一下java中间代码编译,然后给大家做presentation的.</span><br>
+<span>如果头头说gc是难点,说明项目组已经在处理优化问题的阶段而不是简单功能实现的级别.</span><br>
+<span>明显是要求赶紧上手帮忙稳定性和性能调优方面的工作.</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>シャスタ 发表于 2019-5-12 16:35</span><br>
+<span>都太旧了,都java 9了</span><br>
+<span>语法方面建议直接上网查查看java 9新特性.函数式编程.都不用找书.</span><br>
+<span>对的。系统的性能和稳定性都是问题。</span><br>
+<span>不过我们是java8</span><br>
+<span>目前用的是clojure，不过数据结构用的是java的，所以不懂不行。</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>wwwwn168 发表于 2019-5-12 16:52</span><br>
+<span>对的。系统的性能和稳定性都是问题。</span><br>
+<span>不过我们是java8</span><br>
+<span>要看就全看了呗.</span><br>
+<span>java 8一堆新特性有缺陷, 不好用.都在9fix了.给我一种过渡版本的感觉.</span><br>
+<span>正好需要留意这些坑.java 8不好用,不能用的东西.</span><br>
+<span>你们用8,你作为程序员不可能一辈子用8.总要往前走.</span><br>
+<span>自己的学习目标不能总跟工作要求一样</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>シャスタ 发表于 2019-5-12 16:57</span><br>
+<span>要看就全看了呗.</span><br>
+<span>java 8一堆新特性有缺陷, 不好用.都在9fix了.给我一种过渡版本的感觉.</span><br>
+<span>正好需要留意这些 ...</span><br>
+<span>赞大佬</span><br>
+<span>。不过我觉得我需要了解得失java的数据结构的特点。版本特性再说吧。clojure可以弥补java没有函数式编程的部分。但是我是想好好学java的。</span><br>
+</p><p><b>KanaiYuu: </b><br>
+<span>大厂实习面试就要问jvm和gc了呀</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>合着你们是写clojure。。。那看java做什么。。</span><br>
+</p><p><b>zievod: </b><br>
+<span>wwwwn168 发表于 2019-5-12 15:47</span><br>
+<span>那你有什么看法</span><br>
+<span>组长让一个连字母都不认识的外国人去写新闻</span><br>
+<span>然后给萌新一个建议</span><br>
+<span>排版位置要注意 这个是保守党 这个是激进派 他们的新闻不能放一起 这些隐藏规则要注意 </span><br>
+<span>你说是不是傻逼</span><br>
+<span>应该让他学会怎么拼写好吧</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>roamer: </b><br>
+<span>我感觉jvm你懂几个启动参数差不多了</span><br>
+<span>—— 来自 samsung SM-N9600, Android 8.1.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>yanjunle: </b><br>
+<span>我猜是“组长”级别常见的起手套路，画一棵技能树，然后“会这里就入门了，会这里就能接项目了，会这里就能独当一面了，会这里就能当架构师了，会这里就能当cto/计算机科学家了”之类的职业生涯规划画饼？</span><br>
+<span>不然难以解释这么傻逼的人能带新人。</span><br>
+</p><p><b>d2loader: </b><br>
+<span>第一次见用clojure的公司</span><br>
+<span>用scala和coljure之类jvm语言的找个熟jvm的不奇怪。。。</span><br>
+<span>奇怪的是让还没入门的新人搞这个</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>zievod 发表于 2019-5-12 19:33</span><br>
+<span>组长让一个连字母都不认识的外国人去写新闻</span><br>
+<span>然后给萌新一个建议</span><br>
+<span>排版位置要注意 这个是保守党 这个是激进 ...</span><br>
+<span>没吃过猪肉还么见过猪跑吗？</span><br>
+<span>java又不是 复杂性 PL。写两天也就会了。</span><br>
+<span>或者我应该说是C++转java</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>d2loader 发表于 2019-5-12 20:14</span><br>
+<span>第一次见用clojure的公司</span><br>
+<span>clojure这个东西吧，现在线上的核心业务是这个写的。虽然老挂，但是不出错，所以一时半会肯定得维护着。</span><br>
+</p><p><b>董卓: </b><br>
+<span>wwwwn168 发表于 2019-5-12 22:15</span><br>
+<span>clojure这个东西吧，现在线上的核心业务是这个写的。虽然老挂，但是不出错，所以一时半会肯定得维护着。 ...</span><br>
+<span>老挂……</span><br>
+<span>那研究研究jvm也没啥错</span><br>
+<span>如果真研究jvm，jstack分析/heap,gclog分析先来一套</span><br>
+<span>不过这个很靠经验，工具只是工具</span><br>
+</p><p><b>Timme: </b><br>
+<span>俺学语言全靠stackoverflow，不看书</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>Timme 发表于 2019-5-13 07:51</span><br>
+<span>俺学语言全靠stackoverflow，不看书</span><br>
+<span>进阶的东西这玩意就靠不上了。</span><br>
+</p><p><b>best: </b><br>
+<span>先把代码写到bug free cicd都搭完善再琢磨jvm吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830821[0-50]</guid>
+    </item>
+  </channel>
+</rss>

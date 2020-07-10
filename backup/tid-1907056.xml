@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10有没有直接在任务栏打开一个指定文本文档的办法？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10有没有直接在任务栏打开一个指定文本文档的办法？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:34 +0000</lastBuildDate>
+    <item>
+      <title>win10有没有直接在任务栏打开一个指定文本文档的办法？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907056-1-1.html</link>
+      <description>win10有没有直接在任务栏打开一个指定文本文档的办法？&#13;
+ 本帖最后由 淘气蓝猫三千问 于 2020-1-2 08:15 编辑 
+
+win10有没有直接在任务栏打开一个指定文本文档的办法？
+&#13;
+以前是直接把文本文档拉到任务栏就行，现在是变成一个统一的文档图标要用右键选……这个自作聪明徒增麻烦的的功能在哪里能关掉？</description>
+      <content:encoded><![CDATA[<p><b>淘气蓝猫三千问: </b><br>
+<span>win10有没有直接在任务栏打开一个指定文本文档的办法？</span><br>
+<span> 本帖最后由 淘气蓝猫三千问 于 2020-1-2 08:15 编辑 </span><br>
+<span>win10有没有直接在任务栏打开一个指定文本文档的办法？</span><br>
+<span>以前是直接把文本文档拉到任务栏就行，现在是变成一个统一的文档图标要用右键选……这个自作聪明徒增麻烦的的功能在哪里能关掉？</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span> 本帖最后由 kuleisite1992 于 2020-1-1 23:59 编辑 </span><br>
+<span>创建一个快捷方式，然后把这个快捷方式拖到任务栏不就行了么哦对了，记得右键修改任务栏上吸附的快捷方式的属性，“目标”改成你要打开的文件即可</span><br>
+</p><p><b>淘气蓝猫三千问: </b><br>
+<span>kuleisite1992 发表于 2020-1-1 23:52</span><br>
+<span>创建一个快捷方式，然后把这个快捷方式拖到任务栏不就行了么哦对了，记得右键修改任务栏上吸附的快 ...</span><br>
+<span>好办法</span><br>
+<span>以前是直接把文本文档拉到任务栏就行，现在是变成一个统一的文档图标要用右键选……这个自作聪明徒增麻烦的的功能在哪里能关掉？</span><br>
+</p><p><b>mirari: </b><br>
+<span>True launch bar</span><br>
+</p><p><b>淘气蓝猫三千问: </b><br>
+<span>kuleisite1992 发表于 2020-1-1 23:52</span><br>
+<span>创建一个快捷方式，然后把这个快捷方式拖到任务栏不就行了么哦对了，记得右键修改任务栏上吸附的快 ...</span><br>
+<span>试了一下，不行。文本文档只能固定到“记事本”上，用右键选择打开</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>淘气蓝猫三千问 发表于 2020-1-2 23:27</span><br>
+<span>试了一下，不行。文本文档只能固定到“记事本”上，用右键选择打开</span><br>
+<span>你右键修改那个记事本的属性，那个本质上也是一个快捷方式。你把之前创建的快捷方式里 “目标” 给复制一份贴过去就行</span><br>
+</p><p><b>淘气蓝猫三千问: </b><br>
+<span>kuleisite1992 发表于 2020-1-2 23:59</span><br>
+<span>你右键修改那个记事本的属性，那个本质上也是一个快捷方式。你把之前创建的快捷方式里 “目标” 给复制一 ...</span><br>
+<span>成了。多谢</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>另一种方法是快捷方式中指定打开程序，就可以通过可执行文件的检测直接拖到任务栏</span><br>
+<span>比如：</span><br>
+<span>notepad "文本路径"</span><br>
+<span>或</span><br>
+<span>subl "文本路径"</span><br>
+<span>之类的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907056[0-50]</guid>
+    </item>
+  </channel>
+</rss>

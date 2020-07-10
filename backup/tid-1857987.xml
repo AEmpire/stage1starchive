@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>(摸索Python)线程池感觉得到的结果不太对</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>(摸索Python)线程池感觉得到的结果不太对</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:50:45 +0000</lastBuildDate>
+    <item>
+      <title>(摸索Python)线程池感觉得到的结果不太对[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857987-1-1.html</link>
+      <description>(摸索Python)线程池感觉得到的结果不太对&#13;
+ 本帖最后由 义亦死吾亦死 于 2019-10-5 21:09 编辑 
+
+根据我的想法，我觉得两个list里面都有值，一个是10个1一个是10个2，但是实际跑出来都为空，不太理解这是怎么回事....
+&#13;
+from concurrent.futures import ThreadPoolExecutor
+&#13;
+postResponseList = []
+&#13;
+getResponseList = []
+&#13;
+class ThreadPoolTesting:
+&#13;
+    def pressureEachTime(pressure, Func):
+&#13;
+      process = ThreadPoolExecutor(max_workers=pressure)
+&#13;
+      for i in range(pressure):
+&#13;
+            process.submit(Func)
+&#13;
+      process.shutdown(wait=True)
+&#13;
+    def Func():
+&#13;
+      postResponseList.append('1')
+&#13;
+      getResponseList.append('2')
+&#13;
+if __name__ == '__main__':
+&#13;
+    pressureEachTime(10, Func)
+&#13;
+    list1 = postResponseList
+&#13;
+    list2 = getResponseList
+&#13;
+    print(list1)
+&#13;
+    print(list2)
+&#13;
+=======================================================
+&#13;
+搞清楚怎么回事了，问题出在Self上面</description>
+      <content:encoded><![CDATA[<p><b>义亦死吾亦死: </b><br>
+<span>(摸索Python)线程池感觉得到的结果不太对</span><br>
+<span> 本帖最后由 义亦死吾亦死 于 2019-10-5 21:09 编辑 </span><br>
+<span>根据我的想法，我觉得两个list里面都有值，一个是10个1一个是10个2，但是实际跑出来都为空，不太理解这是怎么回事....</span><br>
+<span>from concurrent.futures import ThreadPoolExecutor</span><br>
+<span>postResponseList = []</span><br>
+<span>getResponseList = []</span><br>
+<span>class ThreadPoolTesting:</span><br>
+<span>    def pressureEachTime(pressure, Func):</span><br>
+<span>      process = ThreadPoolExecutor(max_workers=pressure)</span><br>
+<span>      for i in range(pressure):</span><br>
+<span>            process.submit(Func)</span><br>
+<span>      process.shutdown(wait=True)</span><br>
+<span>    def Func():</span><br>
+<span>      postResponseList.append('1')</span><br>
+<span>      getResponseList.append('2')</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    pressureEachTime(10, Func)</span><br>
+<span>    list1 = postResponseList</span><br>
+<span>    list2 = getResponseList</span><br>
+<span>    print(list1)</span><br>
+<span>    print(list2)</span><br>
+<span>=======================================================</span><br>
+<span>搞清楚怎么回事了，问题出在Self上面</span><br>
+</p><p><b>whzfjk: </b><br>
+<span> 本帖最后由 whzfjk 于 2019-10-5 18:25 编辑 </span><br>
+<span>不懂 python</span><br>
+<span>Func 里 print 一下就知道了</span><br>
+<span>从宏观角度讲，在没有对象的情况下传入了一个成员方法，感觉就不是很靠谱？</span><br>
+<span>去掉 self 后行为符合预期</span><br>
+<span>不懂为什么能不报错</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>whzfjk 发表于 2019-10-5 18:21</span><br>
+<span>不懂 python</span><br>
+<span>Func 里 print 一下就知道了</span><br>
+<span>从宏观角度讲，在没有对象的情况下传入了一个成员方法，感觉就不 ...</span><br>
+<span>self相当于this</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>whzfjk 发表于 2019-10-5 18:21</span><br>
+<span>不懂 python</span><br>
+<span>Func 里 print 一下就知道了</span><br>
+<span>从宏观角度讲，在没有对象的情况下传入了一个成员方法，感觉就不 ...</span><br>
+<span>是这样的..</span><br>
+<span>不过那个Self是Pycharm自己加的没去掉，好像相当于this</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>python的线程一点用都没，不用研究了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>因为self没有传入，虽然没有报错...恕我直言你的Func根本没有运行</span><br>
+<span>不信你在Func里写一个print试试</span><br>
+</p><p><b>相互理解: </b><br>
+<span>可以吐槽的地方实在太多，反正最后因为 Func 调用有问题没运行，所以 list 为空。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>没看懂楼主这代码，楼主难道完全不用ide，有没有用ide运行一下看看提示</span><br>
+</p><p><b>happydog: </b><br>
+<span>这个是因为python的GIL的原因吧？</span><br>
+</p><p><b>jctc: </b><br>
+<span>我是被公司逼着吃屎</span><br>
+<span>你这主动吃屎是做什么</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>糊状物 发表于 2019-10-5 18:51</span><br>
+<span>没看懂楼主这代码，楼主难道完全不用ide，有没有用ide运行一下看看提示 ...</span><br>
+<span>是我用了</span><br>
+<span>但是没有报错</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span> 本帖最后由 maxwell_goblin 于 2019-10-5 19:06 编辑 </span><br>
+<span>这方法绕的</span><br>
+<span>我猜是因为没有加global</span><br>
+<span>哦不是……</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>对 submit 返回的 future 对象调用 result()，终于出现了报错</span><br>
+</p><p><b>char1st: </b><br>
+<span>self</span><br>
+</p><p><b>DolphinAlpha: </b><br>
+<span>happydog 发表于 2019-10-5 18:56</span><br>
+<span>这个是因为python的GIL的原因吧？</span><br>
+<span>和GIL有什么关系</span><br>
+</p><p><b>DolphinAlpha: </b><br>
+<span>LZ你先把python类的静态函数和成员函数那部分看看吧</span><br>
+</p><p><b>maye9999: </b><br>
+<span>类的成员函数的第一个参数是这个object的引用，一般大家常用self，你第一个函数一上来的pressure实际上是object的引用，压根就不是int，不知道为啥没报错就是了</span><br>
+</p><p><b>hayha_ws1: </b><br>
+<span>咋写的啊大兄弟，main入口干嘛写类里啊，py不是java啊，直接放外面测试对象不就好了么</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>hayha_ws1 发表于 2019-10-5 20:25</span><br>
+<span>咋写的啊大兄弟，main入口干嘛写类里啊，py不是java啊，直接放外面测试对象不就好了么 ...</span><br>
+<span>手滑了，直接从别的地方复制粘贴来的...</span><br>
+</p><p><b>晩韶华: </b><br>
+<span>先不说class里面影响不到外部变量</span><br>
+<span>Python的进程是开一条进程就复制出一份变量，恶心的要死。</span><br>
+<span>珍爱生命，远离GIL</span><br>
+</p><p><b>shimmy1996: </b><br>
+<span>虽然不是标准写法，不过这里改一下可以得到你想要的结果：</span><br>
+<span>-   def Func(self):</span><br>
+<span>+   def Func():</span><br>
+</p><p><b>相互理解: </b><br>
+<span>我的编程水平本来比基拉大和高那么一点点，不过现在有了 GIL，就比他低了那么一点点</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857987[0-50]</guid>
+    </item>
+  </channel>
+</rss>

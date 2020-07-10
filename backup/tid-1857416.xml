@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教下PC接电视的输出设置</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教下PC接电视的输出设置</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:54:25 +0000</lastBuildDate>
+    <item>
+      <title>请教下PC接电视的输出设置[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857416-1-1.html</link>
+      <description>请教下PC接电视的输出设置&#13;
+RT，看动画的时候有没有必要把显卡输出的刷新率调成24hz？
+&#13;
+还有显卡输出颜色方面要怎么设置？RGB？YCBCR444？还是YCBCR422？
+&#13;
+动态范围是有限还是完全？
+&#13;
+电视是lg的c9p，吐槽下按照rtings的设置去设置不仅感觉发黄，还蒙了一层灰，把模式从专家调回标准顿时感觉颜色艳丽多了，是不是我眼睛有问题</description>
+      <content:encoded><![CDATA[<p><b>illyfhy: </b><br>
+<span>请教下PC接电视的输出设置</span><br>
+<span>RT，看动画的时候有没有必要把显卡输出的刷新率调成24hz？</span><br>
+<span>还有显卡输出颜色方面要怎么设置？RGB？YCBCR444？还是YCBCR422？</span><br>
+<span>动态范围是有限还是完全？</span><br>
+<span>电视是lg的c9p，吐槽下按照rtings的设置去设置不仅感觉发黄，还蒙了一层灰，把模式从专家调回标准顿时感觉颜色艳丽多了，是不是我眼睛有问题</span><br>
+</p><p><b>网银患者: </b><br>
+<span>有这么复杂吗？我记得以前就是直接插HDMI看就完事儿了呀</span><br>
+<span>—— 来自 Xiaomi MI 9 SE, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>不用MADVR之类的就直接用KODI，播放设置里改下自动给你按影片帧率改刷新率</span><br>
+<span>不过我电脑连电视+显示器双屏时候KODI貌似没法自动调刷新率，复制扩展都试过</span><br>
+</p><p><b>password: </b><br>
+<span>校准以后本来就没有默认模式那么讨喜（味精） 校准讲的是准确</span><br>
+<span>HDMI2.0的话 我显卡输出默认4k 60Hz 8bpc RGB Full Range</span><br>
+<span>10bit输出我是放弃了</span><br>
+<span>实际播放时madvr可以按照影片帧率输出 这样电视的插帧才有用</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>袄_偶滴小乔 发表于 2019-10-2 11:32</span><br>
+<span>不用MADVR之类的就直接用KODI，播放设置里改下自动给你按影片帧率改刷新率</span><br>
+<span>不过我电脑连电视+显示器双屏时 ...</span><br>
+<span>kodi很久之前试过一下，发现不习惯那界面就没用过了</span><br>
+<span>现在主要还是用mpc+madvr</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>password 发表于 2019-10-2 12:09</span><br>
+<span>校准以后本来就没有默认模式那么讨喜（味精） 校准讲的是准确</span><br>
+<span>HDMI2.0的话 我显卡输出默认4k 60Hz 8bpc RG ...</span><br>
+<span>madvr按帧率输出是可以在madvr里设置？还是要到显卡驱动里手动改？</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>illyfhy 发表于 2019-10-2 12:56</span><br>
+<span>madvr按帧率输出是可以在madvr里设置？还是要到显卡驱动里手动改？</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>1 没必要24hz</span><br>
+<span>2 8bit RGB 就行，虽说c9是hdmi 2.1但毕竟是显卡出去的，看看动画设置成8bit也够了</span><br>
+<span>3 我看rtings和vincent老哥都说c9专家模式是最准的，所以应该是你艳丽的看惯了。。。。。当然也有可能是显卡设置的锅</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>还有蒙了层灰是在pc桌面关键下看出来的还是啥？你多少要考虑win10 的hdr也是坨烂泥就是了</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>cybernetics31 发表于 2019-10-2 13:07</span><br>
+<span>还有蒙了层灰是在pc桌面关键下看出来的还是啥？你多少要考虑win10 的hdr也是坨烂泥就是了 ...</span><br>
+<span>两种模式我在电视自带的播放器放视频时切换对比，觉得专家模式灰的，和win、显卡无关，估计是我艳色看惯了吧...我现在在想是按准的来设，还是按眼睛的喜好来设</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>又不是干活，什么色彩自己喜欢就行，</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>应该能调到10BIT吧。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>illyfhy 发表于 2019-10-2 13:13</span><br>
+<span> 两种模式我在电视自带的播放器放视频时切换对比，觉得专家模式灰的，和win、显卡无关，估计是我艳色看惯 ...</span><br>
+<span>看的内容是hdr还是sdr的？记得rtings有说过c9的Automatic Brightness Limiter (ABL)功能有些激进</span><br>
+</p><p><b>password: </b><br>
+<span>illyfhy 发表于 2019-10-2 12:56</span><br>
+<span>madvr按帧率输出是可以在madvr里设置？还是要到显卡驱动里手动改？</span><br>
+<span>我用的custom modes，具体看这（冷冻库的文章，需要梯子）：</span><br>
+<span>https://lysandria1985.blogspot.com/2018/04/3reclock-madvr.html</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>cybernetics31 发表于 2019-10-2 13:32</span><br>
+<span>看的内容是hdr还是sdr的？记得rtings有说过c9的Automatic Brightness Limiter (ABL)功能有些激进 ...</span><br>
+<span>sdr的，abl是不是和那个峰值亮度的设置有关</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>shikkoku 发表于 2019-10-2 13:22</span><br>
+<span>应该能调到10BIT吧。</span><br>
+<span>不是说非原生10bit的面板开10bit也没什么意义么</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>illyfhy 发表于 2019-10-2 16:17</span><br>
+<span>sdr的，abl是不是和那个峰值亮度的设置有关</span><br>
+<span>rtings那段描述abl把我看晕了。。。。设置里头倒是有说可以调节the OLED Light来调整电视的luminosity 可以专家模式里头试试 还是灰的话就咋舒服咋来吧</span><br>
+</p><p><b>downforce: </b><br>
+<span>你把最后那个白平衡设置也输进去了吗？那个基本上是没有参考意义的，想做白平衡调节要用校色仪才行。而且现在我看不少人建议用光度计给色度仪做校正，然后用色度仪给显示设备校色，简直丧心病狂。</span><br>
+</p><p><b>illyfhy: </b><br>
+<span>downforce 发表于 2019-10-2 17:30</span><br>
+<span>你把最后那个白平衡设置也输进去了吗？那个基本上是没有参考意义的，想做白平衡调节要用校色仪才行。而且现 ...</span><br>
+<span>白平衡里只调了色温模式，其他数值没动</span><br>
+<span>也想过租个校色仪回来，但想了想太麻烦了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857416[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>iOS终究还是弱智，照片编号居然只有四位数字</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>iOS终究还是弱智，照片编号居然只有四位数字</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:43:18 +0000</lastBuildDate>
+    <item>
+      <title>iOS终究还是弱智，照片编号居然只有四位数字[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859157-1-1.html</link>
+      <description>iOS终究还是弱智，照片编号居然只有四位数字&#13;
+整理备份照片，一看一大堆IMG_2222_1 IMG_2184_1 IMG_1905_1 IMG_1995_1的“_1”。这么多年的照片如果没有时间戳完全无法实现序号顺序排序，亏我还是一直iPhone用过来的，气人。</description>
+      <content:encoded><![CDATA[<p><b>YuKin: </b><br>
+<span>iOS终究还是弱智，照片编号居然只有四位数字</span><br>
+<span>整理备份照片，一看一大堆IMG_2222_1 IMG_2184_1 IMG_1905_1 IMG_1995_1的“_1”。这么多年的照片如果没有时间戳完全无法实现序号顺序排序，亏我还是一直iPhone用过来的，气人。</span><br>
+</p><p><b>傲游: </b><br>
+<span>有些批量改名软件可以改到前面去吧</span><br>
+</p><p><b>xk1357240: </b><br>
+<span>你真的一点都不知道EXIF信息么</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>多少年下来才给看文件夹的系统当初怎么会在文件名上花心思</span><br>
+</p><p><b>利物浦: </b><br>
+<span>xk1357240 发表于 2019-10-12 19:44</span><br>
+<span>你真的一点都不知道EXIF信息么</span><br>
+<span>知道归知道，但一般用户肯定更喜欢时间日期命名法吧</span><br>
+</p><p><b>YuKin: </b><br>
+<span>利物浦 发表于 2019-10-12 19:54</span><br>
+<span>知道归知道，但一般用户肯定更喜欢时间日期命名法吧</span><br>
+<span>问题不在这吧，难道PC或者NAS上有非常好用的相册工具可以实现按照EXIF来排序，展示拍摄位置，相机型号，拍摄参数等等？就像iOS自带的相册那样。</span><br>
+<span>3,318 个文件，去掉Live Photo的视频，照片本身不算多吧。</span><br>
+</p><p><b>wuuuuuud: </b><br>
+<span>一开始是四位数，后面再改可能会有别的问题，比如很多程序里_10000比_9999小</span><br>
+<span>反正数码相机都这样，多一事不如少一事</span><br>
+</p><p><b>利物浦: </b><br>
+<span>YuKin 发表于 2019-10-12 19:57</span><br>
+<span>问题不在这吧，难道PC或者NAS上有非常好用的相册工具可以实现按照EXIF来排序，展示拍摄位置，相机型号， ...</span><br>
+<span>这点么。。Windows资源管理器本身就能做到吧</span><br>
+</p><p><b>YuKin: </b><br>
+<span>利物浦 发表于 2019-10-12 20:05</span><br>
+<span>这点么。。Windows资源管理器本身就能做到吧</span><br>
+<span>我觉的这个效果值得商榷，至少iOS的相册是丝般顺滑的对吧，没那么多loading</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>你们需要 RenameXif 或者 advanced renamer </span><br>
+<span>从EXIF中读取信息重命名到文件名</span><br>
+</p><p><b>YuKin: </b><br>
+<span>咲月露娜 发表于 2019-10-12 20:12</span><br>
+<span>你们需要 RenameXif 或者 advanced renamer </span><br>
+<span>从EXIF中读取信息重命名到文件名</span><br>
+<span>谢谢，但是我想提醒一下，iOS的live photo导出来的时候会跟一个视频文件，那玩意没有exif。</span><br>
+</p><p><b>忘归然: </b><br>
+<span>为什么不按文件日期排序？</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gnorz: </b><br>
+<span>然而，大法也这样，DSC_0001</span><br>
+</p><p><b>dogfight: </b><br>
+<span> 本帖最后由 dogfight 于 2019-10-13 08:43 编辑 </span><br>
+<span>表示日期要另外加8位数字，这样看起来文件前面一串太臃肿，对人来说一眼望去名字都一样</span><br>
+</p><p><b>银光闪耀: </b><br>
+<span>结论是正确的 可是证明方法有误</span><br>
+</p><p><b>otakuqin: </b><br>
+<span>YuKin 发表于 2019-10-12 19:57</span><br>
+<span>问题不在这吧，难道PC或者NAS上有非常好用的相册工具可以实现按照EXIF来排序，展示拍摄位置，相机型号， ...</span><br>
+<span>因为mac上的photos一直都是这么管理的，难道让ios开发组去用Windows？</span><br>
+</p><p><b>rbf1993: </b><br>
+<span>YuKin 发表于 2019-10-12 20:13</span><br>
+<span>谢谢，但是我想提醒一下，iOS的live photo导出来的时候会跟一个视频文件，那玩意没有exif。 ...</span><br>
+<span>其实live photo这玩意儿本质就是让你用iOS/macOS自带的Photos app保存的，既然导出到文件管理器了久干脆扔掉得了</span><br>
+</p><p><b>shcmzzj: </b><br>
+<span>用户就是要花钱不断买iCloud容量的，想自己买硬盘备份保存？绝对不让你好过！</span><br>
+<span>— from Xiaomi Mi MIX 2S, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>john: </b><br>
+<span>gnorz 发表于 2019-10-13 07:21</span><br>
+<span>然而，大法也这样，DSC_0001</span><br>
+<span>看了下还真是，只能说相机厂商通病，原生猴就是IMG_20131029_154734这样</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>早期8.3式文件系统命名惯性导致？</span><br>
+</p><p><b>dogfight: </b><br>
+<span> 本帖最后由 dogfight 于 2019-10-13 12:03 编辑 </span><br>
+<span>有个说法是date/time格式在相机文件命名规则DCF标准中是非法的，这样不能兼容其他设备</span><br>
+<span>https://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system</span><br>
+<span>The filesystem in a digital camera contains a DCIM (Digital Camera IMages) directory, which can contain multiple subdirectories with names such as "123ABCDE" that consist of a unique directory number (in the range 100…999) and five alphanumeric characters, which may be freely chosen and often refer to a camera maker. These directories contain files with names such as "ABCD1234.JPG" that consist of four alphanumeric characters (often "100_", "DSC0", "DSCF", "IMG_", "MOV_", or "P000"), followed by a number. DCF 2.0 adds support for DCF optional files recorded in an optional color space (that is, Adobe RGB rather than sRGB). Such files must be indicated by a leading "_" (as in "_DSC" instead of "100_" or "DSC0").</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859157[0-50]</guid>
+    </item>
+  </channel>
+</rss>

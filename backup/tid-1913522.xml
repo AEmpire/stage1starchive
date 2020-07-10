@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZT：HP3586A选频电压表拆解/清理/使用</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZT：HP3586A选频电压表拆解/清理/使用</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:14:31 +0000</lastBuildDate>
+    <item>
+      <title>ZT：HP3586A选频电压表拆解/清理/使用[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913522-1-1.html</link>
+      <description>ZT：HP3586A选频电压表拆解/清理/使用&#13;
+ 本帖最后由 机丹尼尔 于 2020-2-12 20:58 编辑 
+
+https://weibo.com/ttarticle/p/show?id=2309404471130026016956#_0
+&#13;
+本文罗老师发布于个人Blog，2020年2月11日授权我转载到微博
+&#13;
+购买记录
+&#13;
+购买日期 2019年12月11日
+&#13;
+购买渠道 
+&#13;
+闲鱼
+&#13;
+状态 完整，电源开关接触不良，编码器不可用
+&#13;
+背景介绍
+&#13;
+      在模拟电路统治世界的时代，有线电话系统普遍采用频分复用技术(FDM, Frequency Division Multiplexing)实现电话线路的复用。所谓频分复用，听上去高大上，其实和无线广播电台是一个原理。电话线路的频分复用，也是将多个通道的音频信号调制到不同频率的载波上，叠加在一起，再通过同一根线路传输。到达目的地后，再将信号解调，分配给不同的目的地。   
+&#13;
+   与无线广播不同的是，电话线路的频分复用，信道之间的间隔很小。同时为了最大限度利用信道资源，电话的音频信号也经过滤波器限制。举例而言，CCITT规范中的模拟电话标准就是把音频信号压缩到30–3400Hz范围，然后叠加在相隔4000Hz的载波上。这样，只需要1MHz的带宽，就可以传输250条不同的电话线路。当然，由于滤波器存在，音频信号质量也不会很好，毕竟人耳的感知范围在20–20000Hz。但资本家毕竟都需要考虑成本，3400Hz以下的频率范围涵盖了语音信号的大部分频谱，所以这么设计，也算是在够用的基础上，最大程度节约成本了。
+&#13;
+      为了分析模拟电话线路中的信号质量，工程师需要对线路中不同频道上的信号进行分析。本文中的HP3586系列选频电压表就是在这样的背景下诞生的。HP3586系列，其实本质上是一个频率精度很高，选择性很好的单边带调幅接收机+高性能带通滤波器+电平表。主要指标如下：    
+&#13;
+[*]接收频率范围 50Hz ~ 32.5MHz
+&#13;
+[*]频率分辨率 0.1Hz
+&#13;
+[*]测量范围 +25 ~ –120dbm
+&#13;
+[*]测量分辨率 0.01db
+&#13;
+[*]接收带宽 20Hz/400Hz/1740Hz(3586A) or 2000Hz(3586B)/3100Hz(Option 003 or 3586C)
+&#13;
+[*]带内平坦度 ±0.3db
+&#13;
+[*]内置监听扬声器及耳机接口
+&#13;
+[*]HPIB控制接口/LED数字读出/控制键盘
+&#13;
+    这样的设备，在当年价格自然也是不菲，毕竟电信大佬也是财大气粗，舍得花钱。根据1980年5月的HP Journal，3586的定价为9200USD。算上通货膨胀，今天的价格大约是28000刀，折合人民币差不多20万左右。看上去花20万买一个收音机也是挺值的呢23333   原理分析
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibbety5j212w0grk55.jpg      
+&#13;
+没什么好说的，上面就是3586的结构框图。可以看出来是个三次变频接收机。信号输入先上变频到50MHz，再下变频到15.625kHz，经过特定带宽的选频滤波器，最后再变频为音频。电平的测量则是直接测的二次中频，通过真有效值变换和对数变换后经AD采样，提供给MPU系统实现显示。      机器比较有特色的就是其一级本振采用三环PLL产生。三个环分别实现频率粗调/频率精调和频率相加，从而实现0.1Hz的调节分辨率。具体的原理可以参考HP3586的维护手册。      这里再解释下为什么3586A/B会出现1740Hz和2000Hz这么奇怪的带宽。由于人耳对于不同频率的声音敏感程度是不一样的，为了结合人耳的听觉感受，去测量音频系统的性能(如信噪比等)，不同的测试标准中定义了不同的权重曲线。在测量时，将人耳相对敏感的频率增益加大，不敏感的频率增益减小。这样，测量出的数值可以更加近似地反映人实际听觉上的感受。这个过程被称为Psophometric weighting。不同标准中，这个曲线有细微的差别。ITU(国际电信联盟)的前身CCITT采用的是CCITT 0.41曲线，而北美更喜欢采用C–message曲线。选频电压表很重要的一个用途就是测量通讯系统中的噪声。3586设计滤波器的依据就是在输入白噪声时，使用仪表读出的功率值与经过相应权重曲线得到的功率值相等。满足这样条件的滤波器带宽分别为1740Hz和2000Hz。而3586C则是通用版，带宽3100Hz。    
+&#13;
+    彩蛋
+&#13;
+      传说中HP3586系列内置一个彩蛋，按一系列按钮后会播放《欢乐颂》。其实这是机器内置自检功能的一部分，播放欢乐颂是最后一项检查，用于测试机器的音频系统。
+&#13;
+要进入测试模式，依次按机器的，[.]，，[任意数字]
+&#13;
+    拆解与维护
+&#13;
+      正面图
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtibmq0ayj212w0pvnpd.jpg      电平测量显示
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtitfb2fnj212w0pv4qp.jpg      这种表头看着就很可爱
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibvmydxj212w0pv7wh.jpg      键盘
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibykzrxj212w0pvhdt.jpg      内部(清理前)
+&#13;
+      可以看到模拟部分所有电路板都以模块形式组装，并且都加上了厚厚的屏蔽铝壳。做工非常棒(不然怎么对得起这价格呢===)
+&#13;
+   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtic17csnj212w0pv7wi.jpg      面板，还是经典且垃圾的HP热熔按键。并且HP似乎还引以为豪
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtic9qu0mj212w0pvb2a.jpg      小表头
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticd20z1j212w0pvnpd.jpg      开拆，清灰
+&#13;
+   http://wx2.sinaimg.cn/large/7406e5bcgy1gbticfopnej212w0pv4qq.jpg    
+&#13;
+    所有插件全取出来的样子，是不是很壮观
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtichrjpij212w0lv7wi.jpg      清理完成，这金属感太棒了
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticmgvetj212w0pvu0x.jpg      为防止模块装错并方便调试，每个模块均标有主要功能和测试点信息。同时还像木工由于一样划上斜线。设计师估计是木匠出身吧。。。 
+&#13;
+    http://wx1.sinaimg.cn/large/7406e5bcgy1gbticolqu6j212w0pv7wi.jpg      
+&#13;
+太漂亮了
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticrddjsj212w0pvqv5.jpg      拆掉所有的模块，需要拧一堆螺丝
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtictdx3kj212w0pv1ky.jpg      插件的样子，亮闪闪的全是金子
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbticvg9kgj212w0pvqv5.jpg      取出所有模块后的机箱。安装模块的铝槽是两个整体，不清楚是机加工还是挤压出来的，反正一定是下了血本
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbticxis1nj212w0pv4qq.jpg      机器内好几处警告度量单位的标签，说机器内包含公制单位的零件。估计曾经出过血的教训吧===
+&#13;
+      不得不说老美的单位系统是真挺乱的，这时候就体现出统一度量衡的重要性了。
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtid0e25tj212w0pvqv5.jpg      从铝槽看背板，整个镀金
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtid2h6gmj212w0pvqv5.jpg      背板反面
+&#13;
+   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtid569vdj212w0pvhdu.jpg      这台机器的散热设计也很有讲究。因为机器内的电路板密度很高，发热严重，机器采用了强制风冷并专门设计了风道。冷空气从背面的风扇吸入，进入底板下的风道，再从底板上的小孔进入铝槽，对铝槽内电路板进行散热。充分利用了每一点气流，可谓巧妙。因此机器的风扇转速也并不快，噪音很小。
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtid8bmg8j212w0pvnpe.jpg      底板上印的一些测试信息
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtidalmrdj212w0pv7wi.jpg      模块之间，重要的信号走的还是同轴线，并没有走底板。
+&#13;
+      这些线可太脏了，一擦立刻从黑的变成白的。
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtidh0umyj212w0pvu0x.jpg      同轴线的射频连接器，大的貌似是SMB，小的不清楚是什么标准
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtidj46laj212w0pvkjl.jpg      金子
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtidlau0uj212w0pv7wi.jpg      金子+金子，太好看了
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtidnb6j5j212w0pvb2a.jpg      各模块取出，下面会对每个模块单独拍照
+&#13;
+   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtidpgrdpj212w0pve82.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtie6smn6j212w0pvu0x.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtie9rytgj212w0pv7wi.jpg    
+&#13;
+输入模块 
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiec94r9j212w0pvu0x.jpg      
+&#13;
+几个大罐子是变压器和巴伦，用于阻抗变换
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtieepa1bj212w0pv4qq.jpg      输入通道/阻抗切换继电器
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtieh7bnkj212w0pv1ky.jpg   
+&#13;
+PLL之粗调环    为实现9位数的频率分辨率，3586采用了三环PLL结构，两个环(Step Loop/Fine Loop)分别产生频率粗调和细调，再由第三个环(Sum Loop)合成出最终频率。具体原理可以参考3586维护手册。
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtifrotopj212w0pvnpd.jpg   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtiwlqq6pj212w0pvb2a.jpg   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtifwe1lgj212w0pvx6p.jpg
+&#13;
+PLL之压控振荡器和分频器 
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gbtih9g2ddj212w0pvnpd.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtihduc4nj212w0pvb2a.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtihw4u3yj212w0pvb2a.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtii0vaigj212w0pv4qq.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtii5skp6j212w0pvx6p.jpg   
+&#13;
+PLL精调环鉴相器 
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gbtii9akcjj212w0pvnpd.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtiibv4hdj212w0pvb2a.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiif0982j212w0pv7wi.jpg   
+&#13;
+本振PLL累加环混频器和鉴相器 
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gbtiiyf60vj212w0pvnpd.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtij2nisij212w0pv7wi.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtij59dcsj212w0pv7wi.jpg   
+&#13;
+PLL之累加环 
+&#13;
+http://wx2.sinaimg.cn/large/7406e5bcgy1gbtijrgvorj212w0pvhdt.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtijuenncj212w0pvx6p.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtijyp5o2j212w0pv1ky.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtik3aagpj212w0pvb2a.jpg    
+&#13;
+    漂亮的元件
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtik66x96j212w0pvkjl.jpg   
+&#13;
+跟踪源输出 
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gbtikropkcj212w0pvhdt.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtikucs9vj212w0pv7wi.jpg   
+&#13;
+二级混频器 
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gbtil3r7vlj212w0pvqv5.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtil79s6dj212w0pv7wi.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtil9tjw1j212w0pv7wi.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtilcd7daj212w0pvu0x.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtilfojgaj212w0pv1ky.jpg   
+&#13;
+输入放大及衰减器 
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gbtilke30lj212w0pvqv5.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtilmkgmmj212w0pv4qq.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtilozgplj212w0pv4qq.jpg    
+&#13;
+    隐藏在PCB角落里的HP标
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtilrn21mj212w0pvx6p.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiluqnc3j212w0pvx6p.jpg   
+&#13;
+输入(一级)混频器 
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gbtim3xpy6j212w0pvkjl.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtim6hj1wj212w0pv7wi.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtim9m4wsj212w0pvhdu.jpg    
+&#13;
+    变压器-二极管”桥”-变压器，很典型的环形混频器
+&#13;
+   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtimc4b2qj212w0pvx6p.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimejdnsj212w0pv1ky.jpg   
+&#13;
+宽带功率测量电路/输入过载检测/校准信号发生器 
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimjiyv4j212w0pvkjl.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimlvcbvj212w0pvb2a.jpg    
+&#13;
+ http://wx3.sinaimg.cn/large/7406e5bcgy1gbtimo8jpqj212w0pvqv5.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtimqk02uj212w0pvb2a.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimsycqxj212w0pvu0x.jpg   
+&#13;
+二级本振，频率49.984375MHZ 
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gbtin1pjdvj212w0pvkjl.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtin4pfcxj212w0pv7wi.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtin79zd4j212w0pvx6p.jpg   
+&#13;
+AD转换器 
+&#13;
+http://wx4.sinaimg.cn/large/7406e5bcgy1gbtinae9pxj212w0pvkjl.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtind9y97j212w0pv7wi.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtinfbom0j212w0pvx6p.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtinhymgwj212w0pv4qq.jpg   
+&#13;
+中频滤波器    这是实现选频测量的关键，该滤波器可切换20Hz/400Hz和1740Hz三种带宽。带内平坦度和带外滚降特性都至关重要。
+&#13;
+机器的400Hz/1740Hz带宽用多阶LC滤波器实现，20Hz为晶体滤波。
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio3974dj212w0pvnpd.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio64q0vj212w0pv4qq.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio98w7mj212w0pv1ky.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtiobnje1j212w0pvqv5.jpg   
+&#13;
+频率基准源 
+&#13;
+http://wx1.sinaimg.cn/large/7406e5bcgy1gbtioga108j212w0pvnpd.jpg    
+&#13;
+ http://wx4.sinaimg.cn/large/7406e5bcgy1gbtioind8bj212w0pve82.jpg    
+&#13;
+    似乎就是一个比较好的晶振加上一些温度补偿
+&#13;
+如果需要更高精度还可以加钱升级恒温晶振选件
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiosv6i0j212w0pv7wi.jpg    
+&#13;
+    这里板子不小心画错了
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiow8e8bj212w0pvu0x.jpg   
+&#13;
+中频放大器/真有效值测量/对数转换 
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcgy1gbtipoehiyj212w0pvqv5.jpg    
+&#13;
+ http://wx2.sinaimg.cn/large/7406e5bcgy1gbtipr41r8j212w0pvb2a.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtipybokgj212w0pvb2a.jpg    
+&#13;
+    按摩店(雾)
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq1ux4mj212w0pv4qq.jpg   
+&#13;
+电源控制板    这块板子上带了一个保存数据用的电池，很多机器这个电池都漏了，因此最好尽快拆除
+&#13;
+   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq5hvqhj212w0pv4qq.jpg    
+&#13;
+ http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq8t6krj212w0pv1ky.jpg    
+&#13;
+    还好这机器上电池没漏
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiqc88q9j212w0pv1ky.jpg   
+&#13;
+HPIB接口卡，核心是INTEL 8035 
+&#13;
+http://wx3.sinaimg.cn/large/7406e5bcly4gbthudu6rhj218g0tl1jm.jpg   
+&#13;
+CPU卡 http://wx2.sinaimg.cn/large/7406e5bcgy1gbtireh9d5j212w0pv7wi.jpg      CPU，是颗Motorola的6800，但打上了HP自己的内部编号
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtirh4tfnj212w0pv1ky.jpg    
+&#13;
+    懒得去查是啥了
+&#13;
+   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtirjid47j212w0pvx6p.jpg    
+&#13;
+    存储程序的PROM。这么贵仪器居然不加个座，给备份固件添加麻烦
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtis0ucokj212w0pv1ky.jpg    
+&#13;
+拆解到此结束 
+&#13;
+   使用
+&#13;
+      通常而言，现在买3586主要还有以下几个用途：    
+&#13;
+[*]装逼
+&#13;
+[*]情怀
+&#13;
+[*]用来听内置的《欢乐颂》
+&#13;
+[*]用于电学测量（信号强度/THD/网络特性等都可以通过一定手段实现，甚至可以结合HPIB实现一个简单的频谱仪）
+&#13;
+[*]用作长/中/短波无线接收机
+&#13;
+    对于前三种功能，买3586的任何一个子型号都能满足要求，但对于第四/五种功能，3586A/B与C比起来就稍微次一些。首先，3586A/B的输入阻抗为75欧而不是50欧。其次3586A/B的滤波器带宽过小，对音质影响很大(糟糕的电话音质)。      对于输入阻抗的问题，3586A/B的BNC输入端可选择10kΩ或75Ω的输入阻抗。如果需要50Ω的阻抗，可以选择10kΩ档，再在输入端并一个50Ω电阻。不过机器内部的功率计算均是基于75Ω负载，因此在使用50Ω终端匹配时需要加上1.76dB的偏移量。这个工作可以直接使用机器内部的offset功能自动实现。      对于带宽问题，其实三种型号的主要差别就在于滤波器板A20。扩大带宽的最直接办法就是把1740Hz/2000Hz滤波器直接短路，如下图。实际测试，改装后音质提升显著。当然，这样一来机器的测量功能就不准了，因为不管机器选择哪个带宽，信号都会经过这个滤波器。另外接收选择性也会下降。
+&#13;
+   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtisbui2ej212w0eo7bf.jpg      简单玩了一下机器，灵敏度还是挺高的，直接拿电线绕了直径大约50cm的一个环就能收到中波。
+&#13;
+      视频如下    
+&#13;
+    ~完，感谢阅读~
+&#13;
+​​​​    </description>
+      <content:encoded><![CDATA[<p><b>机丹尼尔: </b><br>
+<span>ZT：HP3586A选频电压表拆解/清理/使用</span><br>
+<span> 本帖最后由 机丹尼尔 于 2020-2-12 20:58 编辑 </span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404471130026016956#_0</span><br>
+<span>本文罗老师发布于个人Blog，2020年2月11日授权我转载到微博</span><br>
+<span>购买记录</span><br>
+<span>购买日期 2019年12月11日</span><br>
+<span>购买渠道 </span><br>
+<span>闲鱼</span><br>
+<span>状态 完整，电源开关接触不良，编码器不可用</span><br>
+<span>背景介绍</span><br>
+<span>      在模拟电路统治世界的时代，有线电话系统普遍采用频分复用技术(FDM, Frequency Division Multiplexing)实现电话线路的复用。所谓频分复用，听上去高大上，其实和无线广播电台是一个原理。电话线路的频分复用，也是将多个通道的音频信号调制到不同频率的载波上，叠加在一起，再通过同一根线路传输。到达目的地后，再将信号解调，分配给不同的目的地。   </span><br>
+<span>   与无线广播不同的是，电话线路的频分复用，信道之间的间隔很小。同时为了最大限度利用信道资源，电话的音频信号也经过滤波器限制。举例而言，CCITT规范中的模拟电话标准就是把音频信号压缩到30–3400Hz范围，然后叠加在相隔4000Hz的载波上。这样，只需要1MHz的带宽，就可以传输250条不同的电话线路。当然，由于滤波器存在，音频信号质量也不会很好，毕竟人耳的感知范围在20–20000Hz。但资本家毕竟都需要考虑成本，3400Hz以下的频率范围涵盖了语音信号的大部分频谱，所以这么设计，也算是在够用的基础上，最大程度节约成本了。</span><br>
+<span>      为了分析模拟电话线路中的信号质量，工程师需要对线路中不同频道上的信号进行分析。本文中的HP3586系列选频电压表就是在这样的背景下诞生的。HP3586系列，其实本质上是一个频率精度很高，选择性很好的单边带调幅接收机+高性能带通滤波器+电平表。主要指标如下：    </span><br>
+<span>[*]接收频率范围 50Hz ~ 32.5MHz</span><br>
+<span>[*]频率分辨率 0.1Hz</span><br>
+<span>[*]测量范围 +25 ~ –120dbm</span><br>
+<span>[*]测量分辨率 0.01db</span><br>
+<span>[*]接收带宽 20Hz/400Hz/1740Hz(3586A) or 2000Hz(3586B)/3100Hz(Option 003 or 3586C)</span><br>
+<span>[*]带内平坦度 ±0.3db</span><br>
+<span>[*]内置监听扬声器及耳机接口</span><br>
+<span>[*]HPIB控制接口/LED数字读出/控制键盘</span><br>
+<span>    这样的设备，在当年价格自然也是不菲，毕竟电信大佬也是财大气粗，舍得花钱。根据1980年5月的HP Journal，3586的定价为9200USD。算上通货膨胀，今天的价格大约是28000刀，折合人民币差不多20万左右。看上去花20万买一个收音机也是挺值的呢23333   原理分析</span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibbety5j212w0grk55.jpg      </span><br>
+<span>没什么好说的，上面就是3586的结构框图。可以看出来是个三次变频接收机。信号输入先上变频到50MHz，再下变频到15.625kHz，经过特定带宽的选频滤波器，最后再变频为音频。电平的测量则是直接测的二次中频，通过真有效值变换和对数变换后经AD采样，提供给MPU系统实现显示。      机器比较有特色的就是其一级本振采用三环PLL产生。三个环分别实现频率粗调/频率精调和频率相加，从而实现0.1Hz的调节分辨率。具体的原理可以参考HP3586的维护手册。      这里再解释下为什么3586A/B会出现1740Hz和2000Hz这么奇怪的带宽。由于人耳对于不同频率的声音敏感程度是不一样的，为了结合人耳的听觉感受，去测量音频系统的性能(如信噪比等)，不同的测试标准中定义了不同的权重曲线。在测量时，将人耳相对敏感的频率增益加大，不敏感的频率增益减小。这样，测量出的数值可以更加近似地反映人实际听觉上的感受。这个过程被称为Psophometric weighting。不同标准中，这个曲线有细微的差别。ITU(国际电信联盟)的前身CCITT采用的是CCITT 0.41曲线，而北美更喜欢采用C–message曲线。选频电压表很重要的一个用途就是测量通讯系统中的噪声。3586设计滤波器的依据就是在输入白噪声时，使用仪表读出的功率值与经过相应权重曲线得到的功率值相等。满足这样条件的滤波器带宽分别为1740Hz和2000Hz。而3586C则是通用版，带宽3100Hz。    </span><br>
+<span>    彩蛋</span><br>
+<span>      传说中HP3586系列内置一个彩蛋，按一系列按钮后会播放《欢乐颂》。其实这是机器内置自检功能的一部分，播放欢乐颂是最后一项检查，用于测试机器的音频系统。</span><br>
+<span>要进入测试模式，依次按机器的，[.]，，[任意数字]</span><br>
+<span>    拆解与维护</span><br>
+<span>      正面图</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtibmq0ayj212w0pvnpd.jpg      电平测量显示</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtitfb2fnj212w0pv4qp.jpg      这种表头看着就很可爱</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibvmydxj212w0pv7wh.jpg      键盘</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtibykzrxj212w0pvhdt.jpg      内部(清理前)</span><br>
+<span>      可以看到模拟部分所有电路板都以模块形式组装，并且都加上了厚厚的屏蔽铝壳。做工非常棒(不然怎么对得起这价格呢===)</span><br>
+<span>   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtic17csnj212w0pv7wi.jpg      面板，还是经典且垃圾的HP热熔按键。并且HP似乎还引以为豪</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtic9qu0mj212w0pvb2a.jpg      小表头</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticd20z1j212w0pvnpd.jpg      开拆，清灰</span><br>
+<span>   http://wx2.sinaimg.cn/large/7406e5bcgy1gbticfopnej212w0pv4qq.jpg    </span><br>
+<span>    所有插件全取出来的样子，是不是很壮观</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtichrjpij212w0lv7wi.jpg      清理完成，这金属感太棒了</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticmgvetj212w0pvu0x.jpg      为防止模块装错并方便调试，每个模块均标有主要功能和测试点信息。同时还像木工由于一样划上斜线。设计师估计是木匠出身吧。。。 </span><br>
+<span>    http://wx1.sinaimg.cn/large/7406e5bcgy1gbticolqu6j212w0pv7wi.jpg      </span><br>
+<span>太漂亮了</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbticrddjsj212w0pvqv5.jpg      拆掉所有的模块，需要拧一堆螺丝</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtictdx3kj212w0pv1ky.jpg      插件的样子，亮闪闪的全是金子</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbticvg9kgj212w0pvqv5.jpg      取出所有模块后的机箱。安装模块的铝槽是两个整体，不清楚是机加工还是挤压出来的，反正一定是下了血本</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbticxis1nj212w0pv4qq.jpg      机器内好几处警告度量单位的标签，说机器内包含公制单位的零件。估计曾经出过血的教训吧===</span><br>
+<span>      不得不说老美的单位系统是真挺乱的，这时候就体现出统一度量衡的重要性了。</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtid0e25tj212w0pvqv5.jpg      从铝槽看背板，整个镀金</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtid2h6gmj212w0pvqv5.jpg      背板反面</span><br>
+<span>   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtid569vdj212w0pvhdu.jpg      这台机器的散热设计也很有讲究。因为机器内的电路板密度很高，发热严重，机器采用了强制风冷并专门设计了风道。冷空气从背面的风扇吸入，进入底板下的风道，再从底板上的小孔进入铝槽，对铝槽内电路板进行散热。充分利用了每一点气流，可谓巧妙。因此机器的风扇转速也并不快，噪音很小。</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtid8bmg8j212w0pvnpe.jpg      底板上印的一些测试信息</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtidalmrdj212w0pv7wi.jpg      模块之间，重要的信号走的还是同轴线，并没有走底板。</span><br>
+<span>      这些线可太脏了，一擦立刻从黑的变成白的。</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtidh0umyj212w0pvu0x.jpg      同轴线的射频连接器，大的貌似是SMB，小的不清楚是什么标准</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtidj46laj212w0pvkjl.jpg      金子</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtidlau0uj212w0pv7wi.jpg      金子+金子，太好看了</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtidnb6j5j212w0pvb2a.jpg      各模块取出，下面会对每个模块单独拍照</span><br>
+<span>   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtidpgrdpj212w0pve82.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtie6smn6j212w0pvu0x.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtie9rytgj212w0pv7wi.jpg    </span><br>
+<span>输入模块 </span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiec94r9j212w0pvu0x.jpg      </span><br>
+<span>几个大罐子是变压器和巴伦，用于阻抗变换</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtieepa1bj212w0pv4qq.jpg      输入通道/阻抗切换继电器</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtieh7bnkj212w0pv1ky.jpg   </span><br>
+<span>PLL之粗调环    为实现9位数的频率分辨率，3586采用了三环PLL结构，两个环(Step Loop/Fine Loop)分别产生频率粗调和细调，再由第三个环(Sum Loop)合成出最终频率。具体原理可以参考3586维护手册。</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtifrotopj212w0pvnpd.jpg   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtiwlqq6pj212w0pvb2a.jpg   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtifwe1lgj212w0pvx6p.jpg</span><br>
+<span>PLL之压控振荡器和分频器 </span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gbtih9g2ddj212w0pvnpd.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtihduc4nj212w0pvb2a.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtihw4u3yj212w0pvb2a.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtii0vaigj212w0pv4qq.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtii5skp6j212w0pvx6p.jpg   </span><br>
+<span>PLL精调环鉴相器 </span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gbtii9akcjj212w0pvnpd.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtiibv4hdj212w0pvb2a.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiif0982j212w0pv7wi.jpg   </span><br>
+<span>本振PLL累加环混频器和鉴相器 </span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gbtiiyf60vj212w0pvnpd.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtij2nisij212w0pv7wi.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtij59dcsj212w0pv7wi.jpg   </span><br>
+<span>PLL之累加环 </span><br>
+<span>http://wx2.sinaimg.cn/large/7406e5bcgy1gbtijrgvorj212w0pvhdt.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtijuenncj212w0pvx6p.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtijyp5o2j212w0pv1ky.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtik3aagpj212w0pvb2a.jpg    </span><br>
+<span>    漂亮的元件</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtik66x96j212w0pvkjl.jpg   </span><br>
+<span>跟踪源输出 </span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gbtikropkcj212w0pvhdt.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtikucs9vj212w0pv7wi.jpg   </span><br>
+<span>二级混频器 </span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gbtil3r7vlj212w0pvqv5.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtil79s6dj212w0pv7wi.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtil9tjw1j212w0pv7wi.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtilcd7daj212w0pvu0x.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtilfojgaj212w0pv1ky.jpg   </span><br>
+<span>输入放大及衰减器 </span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gbtilke30lj212w0pvqv5.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtilmkgmmj212w0pv4qq.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtilozgplj212w0pv4qq.jpg    </span><br>
+<span>    隐藏在PCB角落里的HP标</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtilrn21mj212w0pvx6p.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiluqnc3j212w0pvx6p.jpg   </span><br>
+<span>输入(一级)混频器 </span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gbtim3xpy6j212w0pvkjl.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtim6hj1wj212w0pv7wi.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtim9m4wsj212w0pvhdu.jpg    </span><br>
+<span>    变压器-二极管”桥”-变压器，很典型的环形混频器</span><br>
+<span>   http://wx2.sinaimg.cn/large/7406e5bcgy1gbtimc4b2qj212w0pvx6p.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimejdnsj212w0pv1ky.jpg   </span><br>
+<span>宽带功率测量电路/输入过载检测/校准信号发生器 </span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimjiyv4j212w0pvkjl.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimlvcbvj212w0pvb2a.jpg    </span><br>
+<span> http://wx3.sinaimg.cn/large/7406e5bcgy1gbtimo8jpqj212w0pvqv5.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtimqk02uj212w0pvb2a.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtimsycqxj212w0pvu0x.jpg   </span><br>
+<span>二级本振，频率49.984375MHZ </span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gbtin1pjdvj212w0pvkjl.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtin4pfcxj212w0pv7wi.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtin79zd4j212w0pvx6p.jpg   </span><br>
+<span>AD转换器 </span><br>
+<span>http://wx4.sinaimg.cn/large/7406e5bcgy1gbtinae9pxj212w0pvkjl.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtind9y97j212w0pv7wi.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtinfbom0j212w0pvx6p.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtinhymgwj212w0pv4qq.jpg   </span><br>
+<span>中频滤波器    这是实现选频测量的关键，该滤波器可切换20Hz/400Hz和1740Hz三种带宽。带内平坦度和带外滚降特性都至关重要。</span><br>
+<span>机器的400Hz/1740Hz带宽用多阶LC滤波器实现，20Hz为晶体滤波。</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio3974dj212w0pvnpd.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio64q0vj212w0pv4qq.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtio98w7mj212w0pv1ky.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtiobnje1j212w0pvqv5.jpg   </span><br>
+<span>频率基准源 </span><br>
+<span>http://wx1.sinaimg.cn/large/7406e5bcgy1gbtioga108j212w0pvnpd.jpg    </span><br>
+<span> http://wx4.sinaimg.cn/large/7406e5bcgy1gbtioind8bj212w0pve82.jpg    </span><br>
+<span>    似乎就是一个比较好的晶振加上一些温度补偿</span><br>
+<span>如果需要更高精度还可以加钱升级恒温晶振选件</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiosv6i0j212w0pv7wi.jpg    </span><br>
+<span>    这里板子不小心画错了</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiow8e8bj212w0pvu0x.jpg   </span><br>
+<span>中频放大器/真有效值测量/对数转换 </span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcgy1gbtipoehiyj212w0pvqv5.jpg    </span><br>
+<span> http://wx2.sinaimg.cn/large/7406e5bcgy1gbtipr41r8j212w0pvb2a.jpg   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtipybokgj212w0pvb2a.jpg    </span><br>
+<span>    按摩店(雾)</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq1ux4mj212w0pv4qq.jpg   </span><br>
+<span>电源控制板    这块板子上带了一个保存数据用的电池，很多机器这个电池都漏了，因此最好尽快拆除</span><br>
+<span>   http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq5hvqhj212w0pv4qq.jpg    </span><br>
+<span> http://wx1.sinaimg.cn/large/7406e5bcgy1gbtiq8t6krj212w0pv1ky.jpg    </span><br>
+<span>    还好这机器上电池没漏</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtiqc88q9j212w0pv1ky.jpg   </span><br>
+<span>HPIB接口卡，核心是INTEL 8035 </span><br>
+<span>http://wx3.sinaimg.cn/large/7406e5bcly4gbthudu6rhj218g0tl1jm.jpg   </span><br>
+<span>CPU卡 http://wx2.sinaimg.cn/large/7406e5bcgy1gbtireh9d5j212w0pv7wi.jpg      CPU，是颗Motorola的6800，但打上了HP自己的内部编号</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtirh4tfnj212w0pv1ky.jpg    </span><br>
+<span>    懒得去查是啥了</span><br>
+<span>   http://wx3.sinaimg.cn/large/7406e5bcgy1gbtirjid47j212w0pvx6p.jpg    </span><br>
+<span>    存储程序的PROM。这么贵仪器居然不加个座，给备份固件添加麻烦</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtis0ucokj212w0pv1ky.jpg    </span><br>
+<span>拆解到此结束 </span><br>
+<span>   使用</span><br>
+<span>      通常而言，现在买3586主要还有以下几个用途：    </span><br>
+<span>[*]装逼</span><br>
+<span>[*]情怀</span><br>
+<span>[*]用来听内置的《欢乐颂》</span><br>
+<span>[*]用于电学测量（信号强度/THD/网络特性等都可以通过一定手段实现，甚至可以结合HPIB实现一个简单的频谱仪）</span><br>
+<span>[*]用作长/中/短波无线接收机</span><br>
+<span>    对于前三种功能，买3586的任何一个子型号都能满足要求，但对于第四/五种功能，3586A/B与C比起来就稍微次一些。首先，3586A/B的输入阻抗为75欧而不是50欧。其次3586A/B的滤波器带宽过小，对音质影响很大(糟糕的电话音质)。      对于输入阻抗的问题，3586A/B的BNC输入端可选择10kΩ或75Ω的输入阻抗。如果需要50Ω的阻抗，可以选择10kΩ档，再在输入端并一个50Ω电阻。不过机器内部的功率计算均是基于75Ω负载，因此在使用50Ω终端匹配时需要加上1.76dB的偏移量。这个工作可以直接使用机器内部的offset功能自动实现。      对于带宽问题，其实三种型号的主要差别就在于滤波器板A20。扩大带宽的最直接办法就是把1740Hz/2000Hz滤波器直接短路，如下图。实际测试，改装后音质提升显著。当然，这样一来机器的测量功能就不准了，因为不管机器选择哪个带宽，信号都会经过这个滤波器。另外接收选择性也会下降。</span><br>
+<span>   http://wx4.sinaimg.cn/large/7406e5bcgy1gbtisbui2ej212w0eo7bf.jpg      简单玩了一下机器，灵敏度还是挺高的，直接拿电线绕了直径大约50cm的一个环就能收到中波。</span><br>
+<span>      视频如下    </span><br>
+<span>    ~完，感谢阅读~</span><br>
+<span>​​​​    </span><br>
+</p><p><b>poipoiz: </b><br>
+<span>不明觉厉</span><br>
+<span>电路板真美</span><br>
+</p><p><b>机丹尼尔: </b><br>
+<span>poipoiz 发表于 2020-2-12 20:55</span><br>
+<span>不明觉厉</span><br>
+<span>电路板真美</span><br>
+<span>金灿灿的地方是真的镀金……</span><br>
+<span>现在知道为啥东南喜欢进口废品了把</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>模拟电路年代的东西真有艺术感，数字电路的现代都是些赛博腊鸡</span><br>
+</p><p><b>NBY: </b><br>
+<span>心动了 好想要</span><br>
+</p><p><b>黑丝后的腿毛: </b><br>
+<span>好多直角走线。。。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>处男鉴黄师 发表于 2020-2-12 21:24</span><br>
+<span>模拟电路年代的东西真有艺术感，数字电路的现代都是些赛博腊鸡</span><br>
+<span>那是因为你看不到芯片内的layout，斜眼</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>爱夏 发表于 2020-2-12 22:36</span><br>
+<span>那是因为你看不到芯片内的layout，斜眼</span><br>
+<span>看到了又怎样，电镜下的世界灰暗没有色彩，数以万亿的晶体管密密麻麻单调死板地排列，整一个赛博朋克的画面</span><br>
+</p><p><b>apefrank: </b><br>
+<span>看见运放就蛋疼，还是模拟前端+FPGA简单粗暴，用了都说好</span><br>
+</p><p><b>爱夏: </b><br>
+<span>处男鉴黄师 发表于 2020-2-12 23:00</span><br>
+<span>看到了又怎样，电镜下的世界灰暗没有色彩，数以万亿的晶体管密密麻麻单调死板地排列，整一个赛博朋克的画 ...</span><br>
+<span>肉眼看，五颜六色。</span><br>
+<span>电感还能直接看出结构来</span><br>
+</p><p><b>天成小次郎: </b><br>
+<span>这年代感</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>安捷伦本来就是从惠普分出来的，测试仪领域安捷伦是什么水平懂的都懂</span><br>
+</p><p><b>有毒的蘑菇: </b><br>
+<span>这铝槽 </span><br>
+</p><p><b>半点孤灯: </b><br>
+<span>惠普真是硅谷之光</span><br>
+</p><p><b>车欠: </b><br>
+<span>分立器件真的很能表现电路的美</span><br>
+</p><p><b>russianbear: </b><br>
+<span>这种帖子建议发到矿石收音机论坛，那里感兴趣的人应该比较多</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913522[0-50]</guid>
+    </item>
+  </channel>
+</rss>

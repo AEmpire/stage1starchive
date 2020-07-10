@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有三个一起算的运算,或者操作?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有三个一起算的运算,或者操作?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:57:02 +0000</lastBuildDate>
+    <item>
+      <title>有没有三个一起算的运算,或者操作?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837875-1-1.html</link>
+      <description>有没有三个一起算的运算,或者操作?&#13;
+ 本帖最后由 泉玲奈 于 2019-6-8 17:25 编辑 
+
+a+b+c      这的加法是三个数相加,实际上算起来是a+b=d 再算d+c 
+&#13;
+a*b*c      乘法也这样;
+&#13;
+a+b+c+e+f.............这样的也是得两个两个一起算(避免重复,特意没用d这个字母)
+&#13;
+见识有限,想先找一个三个数一起运算,或者操作的....
+&#13;
+分人脑,和机器/电脑吧   ;人脑熟悉一点,可以避免我对答案懵bi
+&#13;
+ (如果有,三个一起运算或者操作是不是比这样两个运算操作要快.如果快有什么代价么?如果慢能给出为什么吗?)</description>
+      <content:encoded><![CDATA[<p><b>泉玲奈: </b><br>
+<span>有没有三个一起算的运算,或者操作?</span><br>
+<span> 本帖最后由 泉玲奈 于 2019-6-8 17:25 编辑 </span><br>
+<span>a+b+c      这的加法是三个数相加,实际上算起来是a+b=d 再算d+c </span><br>
+<span>a*b*c      乘法也这样;</span><br>
+<span>a+b+c+e+f.............这样的也是得两个两个一起算(避免重复,特意没用d这个字母)</span><br>
+<span>见识有限,想先找一个三个数一起运算,或者操作的....</span><br>
+<span>分人脑,和机器/电脑吧   ;人脑熟悉一点,可以避免我对答案懵bi</span><br>
+<span> (如果有,三个一起运算或者操作是不是比这样两个运算操作要快.如果快有什么代价么?如果慢能给出为什么吗?)</span><br>
+</p><p><b>الطائر: </b><br>
+<span> 本帖最后由 الطائر 于 2019-6-8 17:22 编辑 </span><br>
+<span>“今有物不知其数，​三三数之剩二，五五数之剩三，七七数之剩二。问物几何？”</span><br>
+<span>“三人同行七十希，五树梅花廿一支，七子团圆正半月，除百零五便得知。”</span><br>
+<span>实际上是求线性同余方程组的解的一种算法，这个算法比两个两个地解要快，不过本质上还是用了更基础的四则运算。</span><br>
+</p><p><b>turnxxx: </b><br>
+<span> 本帖最后由 turnxxx 于 2019-6-8 16:35 编辑 </span><br>
+<span>二元运算是最自然的代数结构，因为在二元的基础上可以通过运算的复合来进行多元运算。如果直接定义三元运算，那为了进行二元运算还得多定义一种二元运算，这样不仅繁琐，还得保证定义都是合理的，即二元运算的复合和直接进行三元运算等价，除非你完全不需要二元运算（其实你还无法很好的定义四元运算和六元运算）。那么问题来了，既然这么麻烦，你为什么要直接定义三元运算呢？</span><br>
+</p><p><b>gnail: </b><br>
+<span>好想法！这样一来所有运算的效率立刻提高了50%！</span><br>
+<span>等等，如果能找到10000个数一起运算,或者操作的，岂不是……</span><br>
+</p><p><b>董松松松: </b><br>
+<span>三元运算符</span><br>
+<span>a ? b : c</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ackroyd2: </b><br>
+<span> 本帖最后由 ackroyd2 于 2019-6-8 16:32 编辑 </span><br>
+<span>是否存在 f(x,y,z) 无法被表示成 f(x,y,z) = g(h(x,y), z) ?</span><br>
+<span>f= (x+y+z)/(x*y*z)，楼主的意思是这个也不算对吧</span><br>
+</p><p><b>greendayu: </b><br>
+<span>汇编中应该有进行两个数的比较，然后设置flag的单条指令。</span><br>
+</p><p><b>诶呦我去这是哪: </b><br>
+<span>因式分解</span><br>
+<span>x^2+(a+b)x+ab</span><br>
+<span>初中时候不用十字法拿脑袋硬算的话是直接对a、b、a+b三个数值同时在脑内运算再去和ab比较的</span><br>
+<span>比先把ab可能组合拆开一个个加去看效率高一点</span><br>
+<span>不过也就仅限初中知识，并没有什么大的意义</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>定义f(x,y,z...)你可以有任意元运算符</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-6-8 17:30 编辑 </span><br>
+<span>你只是想知道多元运算的话...</span><br>
+<span>你可以把一切运动过程都视为计算，比如任何物理公式里包含三个自变量的都可以作为这种运算</span><br>
+<span>能不能更快看计算器结构和数据的表现结构，就一个浮点数也有多种格式标准</span><br>
+<span>现有的逻辑计算最基本的单位就是与非或，没有一个是三元的，首先你需要一个三元物理运算器件</span><br>
+<span>不过我有体会了一下觉得lz的重点可能是效率，即使基本运算还是二元运算，找到一种运算器结构让特定格式的多个数的乘法比一个一个乘起来的计算量少，因为基础的运算如乘法加法都是处理器直接提供，你没法干涉底层运算步骤，把运算步骤拆开用软件模拟反而会更慢</span><br>
+<span>我只会并行优化，这种串行的不太懂，比如设计一个单指令多次运算连续计算n次就能省下n-1条指令消耗？</span><br>
+</p><p><b>الطائر: </b><br>
+<span> 本帖最后由 الطائر 于 2019-6-8 17:34 编辑 </span><br>
+<span>ackroyd2 发表于 2019-6-8 16:31</span><br>
+<span>是否存在 f(x,y,z) 无法被表示成 f(x,y,z) = g(h(x,y), z) ?</span><br>
+<span>f= (x+y+z)/(x*y*z)，楼主的意思是这个也不算 ...</span><br>
+<span>如果 x,y 都是实数，那么总能表示</span><br>
+<span>考虑函数 h(x,y) = H(X,Y), X = arctan(x)/pi +1/2, Y = arctan(y)/pi +1/2，即 X 和 Y 属于集合 (0,1)</span><br>
+<span>对于(0,1) 内的实数 X = 0.a1a2a3a4... 和 Y = 0.b1b2b3b4... 定义 H = 0.a1b1a2b2a3b3a4b4...</span><br>
+<span>显然存在函数 U((H(X,Y)) = X, V((H(X,Y)) = Y，只需要按奇数位和偶数位依次取数。</span><br>
+<span>又因为 x = tan(pi(X-1/2)), y = tan(pi(Y-1/2))，则有：</span><br>
+<span>f(x,y,z) = f(tan(pi(U(h(x,y)-1/2))), tan(pi(V(h(x,y)-1/2))),z) = g(h(x,y), z)</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>gnail 发表于 2019-6-8 16:26</span><br>
+<span>好想法！这样一来所有运算的效率立刻提高了50%！</span><br>
+<span>等等，如果能找到10000个数一起运算,或者操作的，岂不是 ...</span><br>
+<span>我其实想听听如果会快不快,甚至慢,或者有什么代价</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>放到矩阵里可以N个数一起计算。</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>gnail 发表于 2019-6-8 16:26</span><br>
+<span>好想法！这样一来所有运算的效率立刻提高了50%！</span><br>
+<span>等等，如果能找到10000个数一起运算,或者操作的，岂不是 ...</span><br>
+<span>另外我也在确认,旁边的人类的是不是也是这样二元运算</span><br>
+<span>要是贴子里一大堆:LZ,我平常遇到多元运算都是一起算的,根本不用化成二元运算......获得指点之后,说不定可以给我打开新世界的大门</span><br>
+</p><p><b>小月亮李再含: </b><br>
+<span>我觉得你的表述本身就有问题，a+b+c本身就是三个一起算的，你先算a+b，并不是两个一起算，而是把他拆成了a和b的单个元素再相加。</span><br>
+<span>你这应该叫一个一个的计算，不叫两个一起算。</span><br>
+<span>假如有种高维生物，那在他的眼里根本就没有a+b+c这个概念，只有d这个结果。</span><br>
+</p><p><b>dovahkiin: </b><br>
+<span>量子计算机啊</span><br>
+</p><p><b>ex44559: </b><br>
+<span>C语言都有这种三目运算符啊</span><br>
+<span>max = （a > b ) ? a : b </span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>UnderSilentEdge: </b><br>
+<span>这就是..最基本的二元运算啊</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>坑死律子的magi</span><br>
+</p><p><b>夏胧: </b><br>
+<span>泉玲奈 发表于 2019-6-8 16:21</span><br>
+<span>a+b+c      这的加法是三个数相加,实际上算起来是a+b=d 再算d+c </span><br>
+<span>a*b*c      乘法也这样;</span><br>
+<span>a+b+c+e+f... ...</span><br>
+<span>列方程解应用题满足你</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>skip: </b><br>
+<span>你小学开始背9x9x9乘法表就可以了</span><br>
+</p><p><b>脑洞: </b><br>
+<span>Max(.)里面放多少个都可以</span><br>
+</p><p><b>魔神赵日天: </b><br>
+<span>欢迎lz打开fp的大门，柯里化了解一下：https://www.zhihu.com/question/30097211/answer/46785556</span><br>
+</p><p><b>魔神赵日天: </b><br>
+<span>如果lz想知道有没有运算不能分拆成若干二元运算的组合子，答案是否定的，已经有人证明了。W. Sierpinski, Sur les fonctions de plusieurs variables, Fund. Math. 33 (1945), 169-173. http://matwbn.icm.edu.pl/ksiazki/fm/fm37/fm3718.pdf</span><br>
+<span>更加通俗易懂一点的讨论可以见https://math.stackexchange.com/questions/116771/are-all-n-ary-operators-simply-compositions-of-binary-operators</span><br>
+</p><p><b>xyzzy: </b><br>
+<span>多数表决器，以前见过个五选三的IC，印象挺深的。</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>不就是CPU与GPU侧重的不同么。</span><br>
+<span>CPU在一个线程上看上去就是依次执行命令做各种复杂的运算。他具备处理不同数据类型的能力，具有很强的通用性。而GPU计算能力更强，他擅长对对大数据进行简单重复的计算（处理大量的类型统一的数据）。由于是“简单”的计算，所以容易做到并行计算。确切的说GPU可以容纳上千个没有逻辑关系的数值计算线程，它的优势是无逻辑关系数据的并行计算。</span><br>
+</p><p><b>vvww: </b><br>
+<span>量子计算机，</span><br>
+<span>GPU不行，内部还是一个个二元运算</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>自定义函数不就行了吗</span><br>
+<span>代价就是时间复杂度变高了吧，不过主楼给这几个基础的例子影响忽略不计</span><br>
+</p><p><b>xpl1993: </b><br>
+<span>一一一得三，一一二得四，一二二得五，。。。。。。这样的加法口诀？</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>SIMD了解下</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>orecheng: </b><br>
+<span> 本帖最后由 orecheng 于 2019-6-8 21:01 编辑 </span><br>
+<span>化学反应式里面一堆这样的操作</span><br>
+<span>Na2CO3+H2O+CO2=2NaHCO3</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-6-9 00:09 编辑 </span><br>
+<span>الطائر 发表于 2019-6-8 17:18</span><br>
+<span>如果 x,y 都是实数，那么总能表示</span><br>
+<span>考虑函数 h(x,y) = H(X,Y), X = arctan(x)/pi +1/2, Y = arctan(y)/pi...</span><br>
+<span>跳出数学范畴，有许多相近的例子：</span><br>
+<span>我们通常把颜色分成RGB三个色彩信息，当一个色彩的R、G、B信息确定了之后，此色彩满足唯一性。</span><br>
+<span>但是人眼探知一个色彩根本不需要三者相加、也不可能把三者拆分。这就是说，人眼探知色彩是一个三者同时叠加的函数。</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>a+b+c</span><br>
+<span>多位数竖式加法</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>另外，你可以拿fpga编个3输入的加法器或者乘法器自己玩。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837875[0-50]</guid>
+    </item>
+  </channel>
+</rss>

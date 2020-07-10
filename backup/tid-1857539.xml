@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在deepfake技术的易用性进化到什么程度？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在deepfake技术的易用性进化到什么程度？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:53:38 +0000</lastBuildDate>
+    <item>
+      <title>现在deepfake技术的易用性进化到什么程度？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857539-1-1.html</link>
+      <description>现在deepfake技术的易用性进化到什么程度？&#13;
+ 本帖最后由 爵士人生 于 2019-10-2 23:06 编辑 
+
+泥潭关闭期间（9月初的时候），某个AI换脸的APP被炒得很热，但是它的用户协议比较流氓，有肖像权被滥用的可能。而且主要运算应该都是在他们的云端服务器上跑的，总给人不安全的感觉。
+&#13;
+网上看了一下，这类APP的核心算法都是那一套（GAN/CycleGAN），而且的确有不少可以本地用CUDA跑的版本，比如faceswap/DeepFaceLab。但是这两个的face来源都要求是video，貌似不能和那个APP一样直接把图片作为最初输入（也可能不是这样，我没实际用）。
+&#13;
+现在这类技术有易用性比较高的开源or编译过的代码or软件吗？能直接在本地跑的。有一个叫FakeApp的，装完显卡驱动就能用+有图形界面，但是现在官网挂了</description>
+      <content:encoded><![CDATA[<p><b>爵士人生: </b><br>
+<span>现在deepfake技术的易用性进化到什么程度？</span><br>
+<span> 本帖最后由 爵士人生 于 2019-10-2 23:06 编辑 </span><br>
+<span>泥潭关闭期间（9月初的时候），某个AI换脸的APP被炒得很热，但是它的用户协议比较流氓，有肖像权被滥用的可能。而且主要运算应该都是在他们的云端服务器上跑的，总给人不安全的感觉。</span><br>
+<span>网上看了一下，这类APP的核心算法都是那一套（GAN/CycleGAN），而且的确有不少可以本地用CUDA跑的版本，比如faceswap/DeepFaceLab。但是这两个的face来源都要求是video，貌似不能和那个APP一样直接把图片作为最初输入（也可能不是这样，我没实际用）。</span><br>
+<span>现在这类技术有易用性比较高的开源or编译过的代码or软件吗？能直接在本地跑的。有一个叫FakeApp的，装完显卡驱动就能用+有图形界面，但是现在官网挂了</span><br>
+</p><p><b>meryde: </b><br>
+<span>某app的具体实现未知，但是很大可能和deepfake不一样，没有用GAN哦，因为单张的训练结果一定不会好。我的猜测，几种可能。一是直接抠脸，用关键点morph之后用mask泊松融合（可能性较大）；二是用套了一些脸部模版，你输入自己脸后用更最接近的那个模型来用gan生成（想想还是很耗钱且缺少细节)；三是两者结合着一起做了，毕竟工程项目也不追求elegant...</span><br>
+<span>基于单张图片的带GUI的工具据我所知还没有，这篇文章的代码说不定能试一下，git上好几个实现版本了：</span><br>
+<span>Few-Shot Adversarial Learning of Realistic Neural Talking Head Models </span><br>
+</p><p><b>爵士人生: </b><br>
+<span>meryde 发表于 2019-10-3 04:20</span><br>
+<span>某app的具体实现未知，但是很大可能和deepfake不一样，没有用GAN哦，因为单张的训练结果一定不会好。我的猜 ...</span><br>
+<span>也不一定是单张图片，我手里有多张图片，而且有些图是4K的高清图。</span><br>
+<span>GAN拿video作输入也是先把video里的人脸截出来的吧。那我直接跳过这步，把多张图片当成输入，从中间过程开始是否可行呢？需要的图片数大概是多少，老哥有没有经验</span><br>
+</p><p><b>月神侠: </b><br>
+<span>有的，你试试DeepNude，傻瓜式操作</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>meryde 发表于 2019-10-3 04:20</span><br>
+<span>某app的具体实现未知，但是很大可能和deepfake不一样，没有用GAN哦，因为单张的训练结果一定不会好。我的猜 ...</span><br>
+<span>我艹，这篇论文我粗略的扫了一下，正是我想要的</span><br>
+<span>可这是19年的paper，离简单易用还有很长一段距离，而且现在也没有官方的编译版本</span><br>
+</p><p><b>爵士人生: </b><br>
+<span> 本帖最后由 爵士人生 于 2019-10-3 10:09 编辑 </span><br>
+<span>月神侠 发表于 2019-10-3 10:00</span><br>
+<span>有的，你试试DeepNude，傻瓜式操作</span><br>
+<span>这个我在网上找到过2.0的离线版本，拿照片试过。</span><br>
+<span>DeepNude生成的图片里，女人被扒衣的部分就像遭受过核辐射一样，一点也不真实</span><br>
+</p><p><b>月神侠: </b><br>
+<span>爵士人生 发表于 2019-10-3 10:08</span><br>
+<span>这个我在网上找到过2.0的离线版本，拿照片试过。</span><br>
+<span>DeepNude生成的图片里，女人被扒衣的部分就像遭受过核辐 ...</span><br>
+<span>尽量找裸露部分多点的，背景不要太花</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>月神侠 发表于 2019-10-3 10:13</span><br>
+<span>尽量找裸露部分多点的，背景不要太花</span><br>
+<span>只能出一张图没什么意思，还不如自己PS，不过拿来当玩具用用还不错。</span><br>
+<span>真正实用性强的还是上面提到的，一张图就能生成视频的那种</span><br>
+</p><p><b>十六夜pad长: </b><br>
+<span>facelab的源目标虽然是video，但是在实际操作上依然是把video按帧分解成图片，再逐张学习。而且实际上lab也是可以手动输入图片作为分析源和替换源的（也就是scr和dst都可以直接是图片）。</span><br>
+<span>目标图片的数量取决于清晰度、角度和表情的多样性、光照条件，比较好的，两千到三千张就足够了</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>meryde: </b><br>
+<span>爵士人生 发表于 2019-10-3 09:55</span><br>
+<span>也不一定是单张图片，我手里有多张图片，而且有些图是4K的高清图。</span><br>
+<span>GAN拿video作输入也是先把video里的人 ...</span><br>
+<span>图片的高清程度其实影响不大呢，能拿来训练的最多应该也就1024x1024，比较在意的是训练数据中脸部姿态的多样性，可以想象一下，训练过程中出现过哪些表情，生成的也就是那些差不多的姿态。需要的数量也取决于这个，分布的越均匀越好。</span><br>
+<span>你这种情况真心推荐我说的第一种方法呀！回头我拿电脑给你找找有没有别人实现的版本。</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>meryde 发表于 2019-10-3 10:43</span><br>
+<span>图片的高清程度其实影响不大呢，能拿来训练的最多应该也就1024x1024，比较在意的是训练数据中脸部姿态的 ...</span><br>
+<span>死鱼不够加不了鹅，先感谢一下</span><br>
+</p><p><b>雷猴雷猴: </b><br>
+<span>用过DeepFaceLab，操作很简单，每个步骤都被搞成单独的批处理文件。</span><br>
+<span>—— 来自 Xiaomi MIX, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>十六夜pad长: </b><br>
+<span>爵士人生 发表于 2019-10-3 10:23</span><br>
+<span>只能出一张图没什么意思，还不如自己PS，不过拿来当玩具用用还不错。</span><br>
+<span>真正实用性强的还是上面提到的，一 ...</span><br>
+<span>我给的数据比较保守了，足够多样表情的话，一千五百张差不多就行了。</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>edfc天天有人讨论换b片，感觉应用已经比我想象中更广了</span><br>
+</p><p><b>小修: </b><br>
+<span>估计以后电影电视可以定制演员了。</span><br>
+<span>我想让新垣结衣和石原里美讲相声，石原里美替换掉郭德纲，新垣结衣替换于谦。</span><br>
+</p><p><b>Litccc: </b><br>
+<span>马僧虔 发表于 2019-10-3 12:29</span><br>
+<span>edfc天天有人讨论换b片，感觉应用已经比我想象中更广了</span><br>
+<span>学到了新名词</span><br>
+</p><p><b>2659646573: </b><br>
+<span>个人使用感觉fakeapp不太行，那个deepfacelab效果好多了，还能自己手动识别图片，前者虽然界面友好点，但环境装得麻烦，不能自己手动识别，还时不时会崩溃。至于效果，感觉主要还是取决于源视频和目标视频的相似度吧，如果光照，角度方面都相近的话效果还是挺好的。那种主播唱歌，没什么动作的，效果挺不错</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>小修 发表于 2019-10-3 12:39</span><br>
+<span>估计以后电影电视可以定制演员了。</span><br>
+<span>我想让新垣结衣和石原里美讲相声，石原里美替换掉郭德纲，新垣结衣替换 ...</span><br>
+<span>这个只能替换面部图像，声音没有替换，用在相声上违和感会爆表的。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ztgmeteor: </b><br>
+<span>Deepfacelab能调的参数多。</span><br>
+<span>手懒点h64跟h128模型跑出来的也大概能看。关键是可以自行调节面部覆盖面积大小，算是不错的了。</span><br>
+<span>其他的都不怎么行，不要浪费时间。</span><br>
+<span>其实主要是素材的脸型要对。脸型对上了，怎么换怎么舒服。脸型对不上，换出来就是另一个人。</span><br>
+</p><p><b>pei90x: </b><br>
+<span>记得P站上有新垣结衣</span><br>
+<span>—— 来自 HUAWEI LYA-TL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>pei90x 发表于 2019-10-4 19:39</span><br>
+<span>记得P站上有新垣结衣</span><br>
+<span>—— 来自 HUAWEI LYA-TL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>deepfake的TAG已经被P站ban了</span><br>
+</p><p><b>meryde: </b><br>
+<span>爵士人生 发表于 2019-10-3 10:53</span><br>
+<span>死鱼不够加不了鹅，先感谢一下</span><br>
+<span>我来啦！刚刚去 github 上再次搜刮了一遍，还是发现了一些有意思的东西的，https://github.com/mrgloom/Face-Swap 这个库里是一个大总结，更新的还挺及时，第一部分的很多就能做单张的但是效果可能一般。最下面那些就是深度学习的方法了。</span><br>
+<span>我还找到了一个很适合(图形界面教学详解)的 tutorial, https://www.deepfakescn.com/?page_id=513 可能你会需要？</span><br>
+</p><p><b>amzonme: </b><br>
+<span>你们都扒了不少朋友圈吧</span><br>
+</p><p><b>caius: </b><br>
+<span>装过deepface，调试也忒麻烦了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857539[0-50]</guid>
+    </item>
+  </channel>
+</rss>

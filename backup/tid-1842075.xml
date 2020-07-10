@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win上面有什么pwm保护视力的软件么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win上面有什么pwm保护视力的软件么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:31:06 +0000</lastBuildDate>
+    <item>
+      <title>win上面有什么pwm保护视力的软件么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842075-1-1.html</link>
+      <description>win上面有什么pwm保护视力的软件么？&#13;
+ 本帖最后由 matthewsteel 于 2019-6-25 13:25 编辑 
+
+买了个便携屏幕。结果是pwm调光的.....千算万算，忘了这个.....请问win上有什么办法或者设置实现类似安卓上的闪烁保护 这样的功能？
+&#13;
+用手机拍摄的时候，拍不到条纹，但是晃动手的时候，定格很明显。是频率很高的pwm？</description>
+      <content:encoded><![CDATA[<p><b>matthewsteel: </b><br>
+<span>win上面有什么pwm保护视力的软件么？</span><br>
+<span> 本帖最后由 matthewsteel 于 2019-6-25 13:25 编辑 </span><br>
+<span>买了个便携屏幕。结果是pwm调光的.....千算万算，忘了这个.....请问win上有什么办法或者设置实现类似安卓上的闪烁保护 这样的功能？</span><br>
+<span>用手机拍摄的时候，拍不到条纹，但是晃动手的时候，定格很明显。是频率很高的pwm？</span><br>
+</p><p><b>Sam喵: </b><br>
+<span>开最高亮度（</span><br>
+<span>— from HUAWEI DUK-AL20, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>Sam喵 发表于 2019-6-25 13:17</span><br>
+<span>开最高亮度（</span><br>
+<span>— from HUAWEI DUK-AL20, Android 9 of S1 Next Goose v2.1.2</span><br>
+<span>嗯 现在就开的很高亮度，晃手的时候看不到定格影子</span><br>
+<span>显卡设置里面调低亮度了，也不知道怎么实现的...</span><br>
+</p><p><b>烟萝: </b><br>
+<span>什么垃圾便携屏幕还有这种的_发出来批判一下</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span> 本帖最后由 matthewsteel 于 2019-6-25 16:12 编辑 </span><br>
+<span>烟萝 发表于 2019-6-25 15:57</span><br>
+<span>什么垃圾便携屏幕还有这种的_发出来批判一下</span><br>
+<span>就之前哪个diy 帖子，买的5vusb3.0供电的带两个mini hdmi的15.6寸</span><br>
+<span>奏是没想到是pwm调光</span><br>
+<span>但是手机拍不出来是不是因为频率不低？小米笔记本的pwm是用手机能看到黑条。但是这个屏幕最低亮度，手机也拍不到，我只是用晃动手的残影来判断是pwm，不准？</span><br>
+</p><p><b>sttacm: </b><br>
+<span>试试这个？我现在用的屏幕就是pwm调光的，只要手机拍摄时没有出现屏闪就可以调节了~</span><br>
+<span>https://pan.baidu.com/s/1vbiFu3UziFumOWgjOYE4-w</span><br>
+<span>ndwa</span><br>
+</p><p><b>烟萝: </b><br>
+<span>matthewsteel 发表于 2019-6-25 16:11</span><br>
+<span>就之前哪个diy 帖子，买的5vusb3.0供电的带两个mini hdmi的15.6寸</span><br>
+<span>奏是没想到是pwm调光</span><br>
+<span>那估计不是我的帖子就是另一个人的2333。</span><br>
+<span>我试了一下，非常准！</span><br>
+<span>小米8。晃动，是个明显的像省略号一样的虚线，iPad Pro 和 笔记本晃起来就是实线。</span><br>
+<span>这个一般来说是屏幕决定的还是驱动版决定的？</span><br>
+</p><p><b>烟萝: </b><br>
+<img src="http://imgsrc.baidu.com/forum/w%3D580/sign=55044726902f07085f052a08d925b865/e4a20cf431adcbefa4db2b6fa2af2edda2cc9fe8.jpg" title="http://imgsrc.baidu.com/forum/w%3D580/sign=55044726902f07085f052a08d925b865/e4a20cf431adcbefa4db2b6fa2af2edda2cc9fe8.jpg"><br>
+<span>晃动的图</span><br>
+<span>低频PWM调光情况下，会呈现课本上虚线一样的轨迹。屏幕调亮后缺口会缩小，晃动的越快明显。老司机们考验你们手速的时候到了。</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>不应该退货吗</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>烟萝 发表于 2019-6-25 16:26</span><br>
+<span>那估计不是我的帖子就是另一个人的2333。</span><br>
+<span>我试了一下，非常准！</span><br>
+<span>这个不清楚是什么决定的~</span><br>
+<span>不清楚眼镜不太舒服是不是亮度太高了......</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>七草真由美 发表于 2019-6-25 16:29</span><br>
+<span>不应该退货吗</span><br>
+<span>过了七天了，摊手</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>matthewsteel 发表于 2019-6-25 16:39</span><br>
+<span>过了七天了，摊手</span><br>
+<span>转手卖掉止损</span><br>
+</p><p><b>muliphein: </b><br>
+<span>http://www.greenxf.com/soft/91255.html我用的是这个，不过会牺牲不少显示效果</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842075[0-50]</guid>
+    </item>
+  </channel>
+</rss>

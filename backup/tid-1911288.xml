@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>intel 5300网卡连上5G WiFi却显示802.11g</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>intel 5300网卡连上5G WiFi却显示802.11g</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:31:37 +0000</lastBuildDate>
+    <item>
+      <title>intel 5300网卡连上5G WiFi却显示802.11g[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911288-1-1.html</link>
+      <description>intel 5300网卡连上5G WiFi却显示802.11g&#13;
+是单纯的显示bug么？</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>intel 5300网卡连上5G WiFi却显示802.11g</span><br>
+<span>是单纯的显示bug么？</span><br>
+</p><p><b>kirainsky: </b><br>
+<span>5300不支持ac协议</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>不支持ac也是n，g哪来的5g频率。是不是你SSID写反了。</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>这个无线网卡好在最高支持3MIMO的450M的802.11n。不支持5G AC。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>UGDJ 发表于 2020-1-29 16:58</span><br>
+<span>不支持ac也是n，g哪来的5g频率。是不是你SSID写反了。</span><br>
+<span>SSID肯定没反，速度也超过了g的54Mbps。估计就是显示错误了。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2020-1-30 21:17 编辑 </span><br>
+<span>另外遇到个奇葩问题，windows8.1以后有个组策略选项叫“最小化到Internet 或Windows 域的同时连接数”是默认开启的，会导致连接了有线网络后开机就不会自动连接无线网络……</span><br>
+<span>也可以通过在注册表里 "HKLM\Software\Policies\Microsoft\Windows\WcmSvc\GroupPolicy" 下添加DWORD值fMinimizeConnections并设为0来解决。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911288[0-50]</guid>
+    </item>
+  </channel>
+</rss>

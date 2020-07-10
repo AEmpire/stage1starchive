@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在还有啥好用的游戏外置翻译软件吗?[游戏相关]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在还有啥好用的游戏外置翻译软件吗?[游戏相关]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:14:39 +0000</lastBuildDate>
+    <item>
+      <title>现在还有啥好用的游戏外置翻译软件吗?[游戏相关][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1938580-1-1.html</link>
+      <description>现在还有啥好用的游戏外置翻译软件吗?[游戏相关]&#13;
+ 本帖最后由 塔奇克马 于 2020-5-30 13:16 编辑 
+
+最近用深度学习OCR+深度学习翻译
+&#13;
+个人感觉这类不错,这类软件都是加个壳子,API都是在各大bat服务器.
+&#13;
+但是就算如此这类软件不适合用来游戏翻译,因为没办法区分菜单和框体还有速度慢点(毕竟要两次远程传输).至少功能上多划分几个翻译截屏区,不过好像没有这些功能毕竟本来是GAL用的..
+&#13;
+魔塔大陆1
+&#13;
+XBX
+&#13;
+附带一个
+&#13;
+通过采集卡什么的应该也是可以的?
+&#13;
+主要瓶颈还是在OCR那边,不过还是能用.
+&#13;
+那么这类软件有没有更好功能的和方案吗?</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>现在还有啥好用的游戏外置翻译软件吗?[游戏相关]</span><br>
+<span> 本帖最后由 塔奇克马 于 2020-5-30 13:16 编辑 </span><br>
+<span>最近用深度学习OCR+深度学习翻译</span><br>
+<span>个人感觉这类不错,这类软件都是加个壳子,API都是在各大bat服务器.</span><br>
+<span>但是就算如此这类软件不适合用来游戏翻译,因为没办法区分菜单和框体还有速度慢点(毕竟要两次远程传输).至少功能上多划分几个翻译截屏区,不过好像没有这些功能毕竟本来是GAL用的..</span><br>
+<span>魔塔大陆1</span><br>
+<span>XBX</span><br>
+<span>附带一个</span><br>
+<span>通过采集卡什么的应该也是可以的?</span><br>
+<span>主要瓶颈还是在OCR那边,不过还是能用.</span><br>
+<span>那么这类软件有没有更好功能的和方案吗?</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>你既然是码农那怎么会考虑ocr 方向，hook api取文本地址才是正确思路吧</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>精钢魔像 发表于 2020-5-30 13:18</span><br>
+<span>你既然是码农那怎么会考虑ocr 方向，hook api取文本地址才是正确思路吧</span><br>
+<span>我不是码农~hook api没有通用性(这个只要用图就行了,随着时间推移正确率和速度会越来越高),估计最后会被这些取代的.</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>塔奇克马 发表于 2020-5-30 13:19</span><br>
+<span>我不是码农~hook api没有通用性(这个只要用图就行了,随着时间推移正确率和速度会越来越高),估计最后会被这 ...</span><br>
+<span>通用性和效率本来就不能兼得</span><br>
+<span>钩api 在同一引擎下一般都能通用</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>精钢魔像 发表于 2020-5-30 13:21</span><br>
+<span>通用性和效率本来就不能兼得</span><br>
+<span>钩api 在同一引擎下一般都能通用</span><br>
+<span>现在游戏翻译也没什么人用...</span><br>
+<span>hook API 你看这些模拟器什么的/古老游戏什么的.没几个人弄得.</span><br>
+<span>都是在弄GAl的hook api.</span><br>
+<span>我只是想要抓更多区域的软件,现在这个不行.</span><br>
+<span>多开都不行,区域是共享的.</span><br>
+</p><p><b>Litccc: </b><br>
+<span>用unity的游戏可以考虑这个</span><br>
+<span>https://github.com/bbepis/XUnity.AutoTranslator</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>塔奇克马 发表于 2020-5-30 13:24</span><br>
+<span>现在游戏翻译也没什么人用...</span><br>
+<span>hook API 你看这些模拟器什么的/古老游戏什么的.没几个人弄得.</span><br>
+<span>都是 ...</span><br>
+<span>非要ocr 的话可能先用opencv 做图像识别和裁剪比较好</span><br>
+</p><p><b>超氪金月饼: </b><br>
+<span>模拟器从内存提取文本码表是个难题，而且图片格式文字就完全没办法提取</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2020-5-30 14:16 编辑 </span><br>
+<span>精钢魔像 发表于 2020-5-30 13:29</span><br>
+<span>非要ocr 的话可能先用opencv 做图像识别和裁剪比较好</span><br>
+<span>分割图像交给用户就完事了,干嘛写代码?(</span><br>
+<span>对于游戏界面来说多数情况下只有几个区域需要重点照顾,而且这些区域大部分是固定的.</span><br>
+<span>类似于对于这两个红框内进行翻译.或者更多划分区域</span><br>
+<span>我就想要这样的功能软件</span><br>
+<span>不过有这个功能的软件不能随便选择翻译API</span><br>
+<span>没有这个功能(只能一个红框)的软件却在翻译API上选择更多</span><br>
+<span>https://github.com/PantsuDango/Dango-Translator</span><br>
+<span>这类软件都是开源的,那么不是码农只是修改实现这个功能,难度是不是也很大?</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1938580[0-50]</guid>
+    </item>
+  </channel>
+</rss>

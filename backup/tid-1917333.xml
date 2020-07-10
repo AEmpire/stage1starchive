@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有压缩zip包里面的图片然后再打包的软件</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有压缩zip包里面的图片然后再打包的软件</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:45:27 +0000</lastBuildDate>
+    <item>
+      <title>有没有压缩zip包里面的图片然后再打包的软件[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917333-1-1.html</link>
+      <description>有没有压缩zip包里面的图片然后再打包的软件&#13;
+ 本帖最后由 aji47 于 2020-3-5 20:38 编辑 
+
+现在漫画一本500MB+，一张图片5mb。但实际阅读清晰度和一张800kb没有什么差别。为了避免重复发明车轮，问一下有没有压缩zip包里面的图片然后再打包的软件。
+&#13;
+流程类似：
+&#13;
+一个zip包解压
+&#13;
+里面图片要图片压缩算法来降低大小 一般减少百分之50以上
+&#13;
+重新打包成zip</description>
+      <content:encoded><![CDATA[<p><b>aji47: </b><br>
+<span>有没有压缩zip包里面的图片然后再打包的软件</span><br>
+<span> 本帖最后由 aji47 于 2020-3-5 20:38 编辑 </span><br>
+<span>现在漫画一本500MB+，一张图片5mb。但实际阅读清晰度和一张800kb没有什么差别。为了避免重复发明车轮，问一下有没有压缩zip包里面的图片然后再打包的软件。</span><br>
+<span>流程类似：</span><br>
+<span>一个zip包解压</span><br>
+<span>里面图片要图片压缩算法来降低大小 一般减少百分之50以上</span><br>
+<span>重新打包成zip</span><br>
+</p><p><b>望上弦: </b><br>
+<span>没看懂，你是要二次打包还是降低图片大小？降低图片大小可以用PS，二次打包不知道</span><br>
+</p><p><b>雷之: </b><br>
+<span>你是要先缩小图片再压缩？</span><br>
+<span>图片不能还原的那种？</span><br>
+</p><p><b>幽远ghofar: </b><br>
+<span>不就是批量重新转码然后自己再手动打包吗？</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>NXPowerLite，压缩格式仅支持zip，图片格式仅支持jpg，遇到png我一般是扔格式工厂再打包压缩</span><br>
+</p><p><b>boom33: </b><br>
+<span>买大硬盘啊</span><br>
+</p><p><b>aji47: </b><br>
+<span>幽远ghofar 发表于 2020-3-5 20:43</span><br>
+<span>不就是批量重新转码然后自己再手动打包吗？</span><br>
+<span>对啊 有没有现成软件 我不想自己手动啊</span><br>
+</p><p><b>幽远ghofar: </b><br>
+<span>aji47 发表于 2020-3-5 20:49</span><br>
+<span>对啊 有没有现成软件 我不想自己手动啊</span><br>
+<span>你要是想要批量转码软件那多得是，比如我用的IFRANVIEW，但你要解包转码重打包一气呵成那我真没办法了</span><br>
+</p><p><b>独钓寒江雪: </b><br>
+<span>如果是png格式的图片用PS图像处理器或格式工厂转成jpg格式体积就能小很多，如果本来就是jpg格式建议使用JPEG Optimizer批量压缩后再打包。</span><br>
+</p><p><b>玬翼: </b><br>
+<span>楼主适合去干产品经理</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>ImageMagick</span><br>
+</p><p><b>董卓: </b><br>
+<span>脚本+imagemagik</span><br>
+</p><p><b>小妻水亚美: </b><br>
+<span>试试看winzip后面推出的zipx格式 听说对jpeg压缩优化过，但是jpeg本来就是有损压缩格式，不大可能再被缩小百分之50。</span><br>
+<span>—— 来自 motorola XT1970-5, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yzb: </b><br>
+<span>楼主要的是点一下就把压缩包里面的图片减小然后自动重新压缩成原来50%大小的自动化软件。</span><br>
+</p><p><b>李可: </b><br>
+<span>压缩图片的工具太多了，我自己常用的在吾爱**下的一个小工具叫photocompress</span><br>
+</p><p><b>瓦格雷: </b><br>
+<span> 直接压缩包里看图片不好吗</span><br>
+</p><p><b>有毒的蘑菇: </b><br>
+<span>1 解压</span><br>
+<span>2 用Light Image Resizer 批处理</span><br>
+<span>3重新打包</span><br>
+</p><p><b>phorcys02: </b><br>
+<span>ratio="85%" 是压缩率，85是个质量比较好的参数，嫌大可以调整</span><br>
+<span>-gaussian-blur 0.05 是略微加一点高斯模糊，可以有效降低jpg大小，肉眼几乎不可识别</span><br>
+<span>一般比较大的图jpeg质量是100%， 85% 加 高斯0.05 大概可以把大小变为 四分之一</span><br>
+<span>用法sh reduce.sh "图包 01.zip"</span><br>
+<span>#!/bin/sh</span><br>
+<span>#压缩率</span><br>
+<span>ratio="85%"</span><br>
+<span>imgext=("jpg" "jpeg" "JPG" "JPEG" "png" "PNG" "webp" "WEBP")</span><br>
+<span>unzip -d "$1.temp" "$1"</span><br>
+<span>find "$1.temp" -type f | while read f</span><br>
+<span>do</span><br>
+<span>      ext="${f##*.}"</span><br>
+<span>      if [[ " ${imgext[@]} " =~ " ${ext} " ]]; then</span><br>
+<span>                echo "processing $f"</span><br>
+<span>                mogrify -interlace Plane -gaussian-blur 0.05 -quality $ratio "$f"</span><br>
+<span>      fi</span><br>
+<span>done</span><br>
+<span>cd "$1.temp"</span><br>
+<span>nzip="$(basename "$1" .zip).new.zip"</span><br>
+<span>zip -9 -r "../$nzip" .</span><br>
+<span>cd ..</span><br>
+<span>rm -rf "$1.temp"</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917333[0-50]</guid>
+    </item>
+  </channel>
+</rss>

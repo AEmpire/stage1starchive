@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一根网线连iptv和路由器的最简单方法？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一根网线连iptv和路由器的最简单方法？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:00:17 +0000</lastBuildDate>
+    <item>
+      <title>一根网线连iptv和路由器的最简单方法？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837340-1-1.html</link>
+      <description>一根网线连iptv和路由器的最简单方法？&#13;
+最无脑的是不是直接加个交换机了事？</description>
+      <content:encoded><![CDATA[<p><b>无印凉粉: </b><br>
+<span>一根网线连iptv和路由器的最简单方法？</span><br>
+<span>最无脑的是不是直接加个交换机了事？</span><br>
+</p><p><b>starash: </b><br>
+<span>不是四线分接么? </span><br>
+</p><p><b>烟萝: </b><br>
+<span>两头加网管交换机。</span><br>
+<span>或者8分4＋4</span><br>
+</p><p><b>烟萝: </b><br>
+<span>前者千兆，后者百兆</span><br>
+</p><p><b>robit: </b><br>
+<span>烟萝 发表于 2019-6-6 10:41</span><br>
+<span>两头加网管交换机。</span><br>
+<span>或者8分4＋4</span><br>
+<span>4+4太影响网速了，还是网管交换机吧，也没多贵。</span><br>
+</p><p><b>linuy: </b><br>
+<span>先说坐标，广东iptv不限制端口，不需要vlan交换机电力猫8分4这种</span><br>
+<span>直接插路由，机顶盒pppoe改dhcp</span><br>
+</p><p><b>无印凉粉: </b><br>
+<span>linuy 发表于 2019-6-6 10:46</span><br>
+<span>先说坐标，广东iptv不限制端口，不需要vlan交换机电力猫8分4这种</span><br>
+<span>直接插路由，机顶盒pppoe改dhcp ...</span><br>
+<span>广东中山，移动宽带和有线电视</span><br>
+</p><p><b>q8571183: </b><br>
+<span>linuy 发表于 2019-6-6 10:46</span><br>
+<span>先说坐标，广东iptv不限制端口，不需要vlan交换机电力猫8分4这种</span><br>
+<span>直接插路由，机顶盒pppoe改dhcp ...</span><br>
+<span>的确如此，但这样iptv会占带宽，原本iptv自己拨号是独立带宽的</span><br>
+</p><p><b>linuy: </b><br>
+<span>无印凉粉 发表于 2019-6-6 10:50</span><br>
+<span>广东中山，移动宽带和有线电视</span><br>
+<span>忘记说是电信iptv，移动的不太了解，你可以直接试试</span><br>
+</p><p><b>linuy: </b><br>
+<span>q8571183 发表于 2019-6-6 10:58</span><br>
+<span>的确如此，但这样iptv会占带宽，原本iptv自己拨号是独立带宽的</span><br>
+<span>现在带宽都是100，200真的不太在乎iptv那点应用带宽</span><br>
+<span>我这里的电信直接往前多走一步，办的200M宽带把iptv口的100M独立带宽跟上网口带宽合并共享了</span><br>
+</p><p><b>sirlion: </b><br>
+<span>linuy 发表于 2019-6-6 07:23</span><br>
+<span>现在带宽都是100，200真的不太在乎iptv那点应用带宽</span><br>
+<span>我这里的电信直接往前多走一步，办的200M宽带把iptv ...</span><br>
+<span>我的深圳电信100m，iptv用Wi-Fi走流量，打ow的时候如果iptv看高清直播就会卡，如果看内置的**点播就不卡，所以100m其实是不够的，带宽够，但延迟不够</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>sirlion 发表于 2019-6-6 11:53</span><br>
+<span>我的深圳电信100m，iptv用Wi-Fi走流量，打ow的时候如果iptv看高清直播就会卡，如果看内置的**点播就不卡 ...</span><br>
+<span>说到点上了，iptv走的是广播流量，有线还好，无线能直接给你阻塞到死，udpxy了解一下</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>hecas: </b><br>
+<span>两端都用网管交换机好点</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>linuy: </b><br>
+<span>sirlion 发表于 2019-6-6 11:53</span><br>
+<span>我的深圳电信100m，iptv用Wi-Fi走流量，打ow的时候如果iptv看高清直播就会卡，如果看内置的**点播就不卡 ...</span><br>
+<span>你试过不用wifi，有线直连测试过？</span><br>
+</p><p><b>neno: </b><br>
+<span>买两个4口的网管交换，总共200块钱不到</span><br>
+</p><p><b>sirlion: </b><br>
+<span>linuy 发表于 2019-6-6 08:18</span><br>
+<span>你试过不用wifi，有线直连测试过？</span><br>
+<span>网线直连的话，iptv是单独100m带宽，和宽带100m分开，可同时测速，光猫端口流量显示200m了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837340[0-50]</guid>
+    </item>
+  </channel>
+</rss>

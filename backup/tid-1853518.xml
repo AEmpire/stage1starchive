@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助S1，华硕Z97上的PCIe接口怎么用不了?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助S1，华硕Z97上的PCIe接口怎么用不了?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:19:07 +0000</lastBuildDate>
+    <item>
+      <title>求助S1，华硕Z97上的PCIe接口怎么用不了?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853518-1-1.html</link>
+      <description>求助S1，华硕Z97上的PCIe接口怎么用不了?&#13;
+如图，①④两个PCIe接口插东西都完全识别不了硬件，比如网卡之类，而且在其他主板上试过，是好的
+&#13;
+是主板上有什么设置吗？但是找了下，感觉都不像有类似的设置选项</description>
+      <content:encoded><![CDATA[<p><b>ut0: </b><br>
+<span>求助S1，华硕Z97上的PCIe接口怎么用不了?</span><br>
+<span>如图，①④两个PCIe接口插东西都完全识别不了硬件，比如网卡之类，而且在其他主板上试过，是好的</span><br>
+<span>是主板上有什么设置吗？但是找了下，感觉都不像有类似的设置选项</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>看下是否和其他接口共享带宽，以及在bios中是否开启</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>https://www.asus.com/Motherboards/Z97AR/specifications/</span><br>
+<span>Note</span><br>
+<span>*1 : The PCIe x1_1/2 slots share bandwidth with M.2 Socket 3. The M.2 Socket 3 is default disabled. </span><br>
+</p><p><b>madbird302: </b><br>
+<span>什么Z97居然还有PCI？</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>madbird302 发表于 2019-8-15 03:56</span><br>
+<span>什么Z97居然还有PCI？</span><br>
+<span>就连Z170、Z270和Z370都有特地加个额外芯片支持PCI插槽的型号。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>性欲モンスター 发表于 2019-8-15 04:06</span><br>
+<span>就连Z170、Z270和Z370都有特地加个额外芯片支持PCI插槽的型号。</span><br>
+<span>一般技嘉爱加这些东西，不过华硕还是头一次听说</span><br>
+</p><p><b>rowid_alex: </b><br>
+<span>正好上周末刚折腾完，我是M7H，不一样但是供你参考，PCI-E2.0和M2和共享PCI-E2.0x4的带宽。在BIOS里面PCI-E2.0带宽有个设置，默认是Auto，这种情况下，如果插入M2的SSD，其余PCI-E2.0的插槽都屏蔽的。M2独享x4带宽。如果想同时用PCI-E2.0和M2，需要在BIOS里把模式从AUTOg改成M2模式，这样M2和最后一条PCI-E2.0x16插槽各分x2的带宽。你这块主板一部分带宽给PCI了，估计也是类似的，具体得看说明书。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>madbird302 发表于 2019-8-15 04:40</span><br>
+<span>一般技嘉爱加这些东西，不过华硕还是头一次听说</span><br>
+<span>来弄我的商用机一堆白槽</span><br>
+</p><p><b>qwased: </b><br>
+<span>有PCI很棒的，可以买巨便宜的PCI声卡</span><br>
+</p><p><b>madbird302: </b><br>
+<span>qwased 发表于 2019-8-15 14:01</span><br>
+<span>有PCI很棒的，可以买巨便宜的PCI声卡</span><br>
+<span>A2ZS好顶赞</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Realplayer 发表于 2019-8-15 13:55</span><br>
+<span>来弄我的商用机一堆白槽</span><br>
+<span>税控机？</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>madbird302 发表于 2019-8-15 23:48</span><br>
+<span>税控机？</span><br>
+<span>不是，扬天启天</span><br>
+</p><p><b>madbird302: </b><br>
+<span>Realplayer 发表于 2019-8-15 23:51</span><br>
+<span>不是，扬天启天</span><br>
+<span>好古老的名字了，现在应该是给定向采购订制的吧</span><br>
+</p><p><b>ut0: </b><br>
+<span>rowid_alex 发表于 2019-8-15 11:55</span><br>
+<span>正好上周末刚折腾完，我是M7H，不一样但是供你参考，PCI-E2.0和M2和共享PCI-E2.0x4的带宽。在BIOS里面PCI-E ...</span><br>
+<span>确实是这两个插槽和M2接口共享带宽，可是我启用M2接口后，并没有找到调整PCIE接口的带宽的选项，所以目前一直还一直用不了这两个接口，头疼中</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853518[0-50]</guid>
+    </item>
+  </channel>
+</rss>

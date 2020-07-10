@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>记录一下我加入yes碰到的一些问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>记录一下我加入yes碰到的一些问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:35:00 +0000</lastBuildDate>
+    <item>
+      <title>记录一下我加入yes碰到的一些问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910842-1-1.html</link>
+      <description>记录一下我加入yes碰到的一些问题&#13;
+去年年中就看到各种amd yes的，正好自己的电脑也很旧了，就动了换机的心思，然后年前购入了3600x+微星b450m迫击炮max+芝奇3600频率8Gx2内存+盈通5700xt女装大佬，机箱是先马小黑洞，cpu散热器是超频三单风扇6热管垂直风道的那个（买回来才知道是竖直吹的），电源是海韵GX650，硬盘用的是旧的东芝Q300作系统盘。系统安装的win10 1909最新版，并且装好以后还更新了一下，AMD芯片组驱动、ryzen master和radeon显卡驱动都装了，接下来说问题。
+&#13;
+1、装系统前我就先进bios把内存AMP打开（它预设就是3600），国际惯例的节能和冷又静关闭，装机一切正常，进了系统后我打开radeon驱动点了GPU一键超频，然后开始双烤，此时我还没发现问题，直到我开始玩MHW冰原，我发现我打开怪猎玩十分钟左右，游戏的声音就会开始断断续续的，像是卡碟了一样，停5秒响2秒，我打开网易云音乐，发现声音卡住的时候，进度条也是停止的，也就是说是系统卡了。于是我怀疑是CPU占用高的时候就会发生这个问题，就烤FPU，同时放歌注意听声音，果然我猜的没错，然后我就抓狂了，去百度解决方法，此处省略3小时的查找排错调试时间。最后我发现是内存频率的问题，调到3533就一切正常了。
+&#13;
+2、解决了卡顿问题，我又愉快地开始狩猎，然后我就进不去游戏了。打开游戏就黑屏，后台音乐还在放，键鼠操作都没有反馈，切也切不出来，只能硬重启。后来我在坛里找到了旧版的显卡驱动，总算是解决了玩游戏会随机黑屏的问题。
+&#13;
+3、解决了黑屏问题，我又愉快地开始狩猎，然后我才发现，我游戏中的时候，屏幕上会不时地闪烁红绿蓝地光点，时间很短一闪而过，但是频率挺高，因为我只在驱动里开了一键超频，就去关了试了一下，果然正常了，但是我不甘心啊，我买的是5700xt，一点不超不是血亏？于是我手动拉，但最后结果是哪怕我拉得再少，还是会有这毛病，无奈只能默认用，可能是我不会设置吧。
+&#13;
+4、狩猎了两天没发现啥问题，今天打开dota2又不对了，在游戏中，会有肉眼可见的频闪，看起来非常难受，于是我又一次打开了radeon显卡驱动，一个一个功能去关去调试，最后发现是freesync的锅，关了就好了，但我的显示器是支持freesync的，当初决定买5700xt而不是N卡，也存了想尝尝freesync的心思，这下也不能用了。
+&#13;
+暂时就发现这些问题。</description>
+      <content:encoded><![CDATA[<p><b>sssfans: </b><br>
+<span>记录一下我加入yes碰到的一些问题</span><br>
+<span>去年年中就看到各种amd yes的，正好自己的电脑也很旧了，就动了换机的心思，然后年前购入了3600x+微星b450m迫击炮max+芝奇3600频率8Gx2内存+盈通5700xt女装大佬，机箱是先马小黑洞，cpu散热器是超频三单风扇6热管垂直风道的那个（买回来才知道是竖直吹的），电源是海韵GX650，硬盘用的是旧的东芝Q300作系统盘。系统安装的win10 1909最新版，并且装好以后还更新了一下，AMD芯片组驱动、ryzen master和radeon显卡驱动都装了，接下来说问题。</span><br>
+<span>1、装系统前我就先进bios把内存AMP打开（它预设就是3600），国际惯例的节能和冷又静关闭，装机一切正常，进了系统后我打开radeon驱动点了GPU一键超频，然后开始双烤，此时我还没发现问题，直到我开始玩MHW冰原，我发现我打开怪猎玩十分钟左右，游戏的声音就会开始断断续续的，像是卡碟了一样，停5秒响2秒，我打开网易云音乐，发现声音卡住的时候，进度条也是停止的，也就是说是系统卡了。于是我怀疑是CPU占用高的时候就会发生这个问题，就烤FPU，同时放歌注意听声音，果然我猜的没错，然后我就抓狂了，去百度解决方法，此处省略3小时的查找排错调试时间。最后我发现是内存频率的问题，调到3533就一切正常了。</span><br>
+<span>2、解决了卡顿问题，我又愉快地开始狩猎，然后我就进不去游戏了。打开游戏就黑屏，后台音乐还在放，键鼠操作都没有反馈，切也切不出来，只能硬重启。后来我在坛里找到了旧版的显卡驱动，总算是解决了玩游戏会随机黑屏的问题。</span><br>
+<span>3、解决了黑屏问题，我又愉快地开始狩猎，然后我才发现，我游戏中的时候，屏幕上会不时地闪烁红绿蓝地光点，时间很短一闪而过，但是频率挺高，因为我只在驱动里开了一键超频，就去关了试了一下，果然正常了，但是我不甘心啊，我买的是5700xt，一点不超不是血亏？于是我手动拉，但最后结果是哪怕我拉得再少，还是会有这毛病，无奈只能默认用，可能是我不会设置吧。</span><br>
+<span>4、狩猎了两天没发现啥问题，今天打开dota2又不对了，在游戏中，会有肉眼可见的频闪，看起来非常难受，于是我又一次打开了radeon显卡驱动，一个一个功能去关去调试，最后发现是freesync的锅，关了就好了，但我的显示器是支持freesync的，当初决定买5700xt而不是N卡，也存了想尝尝freesync的心思，这下也不能用了。</span><br>
+<span>暂时就发现这些问题。</span><br>
+</p><p><b>vergilpjl: </b><br>
+<span>是谁和你说AMD显卡也yes的</span><br>
+</p><p><b>qianheng: </b><br>
+<span> 是谁和你说ATI也yes的</span><br>
+</p><p><b>Ozen: </b><br>
+<span>不会真有人说过显卡yes吧</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>hebestar: </b><br>
+<span>感觉都是显卡的锅啊</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>松霖: </b><br>
+<span>今天外接的rx580打游戏掉了一次驱动，而且现在好点的freesync显示器都兼容gsync的</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>citrus: </b><br>
+<span>从牙膏2600换到yes2700，没重装系统，解决了极限竞速4地平线闪退的问题。但期间用过两块显卡都是老黄家出的</span><br>
+<span>至于内存频率问题，你应该查一查主板是否支持这个内存条。B450当初出来的时候官方支持的3200种类都少得可怜，何况3600。</span><br>
+</p><p><b>qwased: </b><br>
+<span> 本帖最后由 qwased 于 2020-1-26 04:30 编辑 </span><br>
+<span>回错贴</span><br>
+</p><p><b>66666: </b><br>
+<span>早都跟你们说过的农卡驱动都是垃圾，而且黑屏这个跟硬件有关，绝症没治</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>sssfans 发表于 2020-1-26 02:33</span><br>
+<span>去年年中就看到各种amd yes的，正好自己的电脑也很旧了，就动了换机的心思，然后年前购入了3600x+微星b450m ...</span><br>
+<span>喜欢折腾才超频</span><br>
+<span>正常而言别超频</span><br>
+<span>那点提升除了跑分毫无意义</span><br>
+</p><p><b>我很费纸: </b><br>
+<span>农卡我觉得是不是就不能折腾。</span><br>
+<span>我朋友当初也上了5700的车，玩mhw一切正常。他算是个小白，虽然会装机，但几乎什么设置都不折腾，插上就用，啥事没有</span><br>
+<span>—— 来自 Sony H8324, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>libratest: </b><br>
+<span>是谁和你说ATI也yes的</span><br>
+</p><p><b>9616777: </b><br>
+<span>是不是说明淹死的都是会游泳的（</span><br>
+<span>5700这玩意泥潭都快成月常了吧</span><br>
+</p><p><b>threefcata: </b><br>
+<span>ATI, not yes</span><br>
+</p><p><b>你的全家: </b><br>
+<span>2020年1月21号：我1500块把5700XT卖给了一个用三星手机的傻逼，我赚了</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>屏幕上有色点闪过那你看看显存频率</span><br>
+<span>显存压住就没事</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>AMD CPU可以YES</span><br>
+<span>GPU滚远一点</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>给你看看隔壁5700侠的心路历程</span><br>
+</p><p><b>sssfans: </b><br>
+<span>66666 发表于 2020-1-26 05:10</span><br>
+<span>早都跟你们说过的农卡驱动都是垃圾，而且黑屏这个跟硬件有关，绝症没治</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Andr ...</span><br>
+<span>我一开始用2020那个新驱动，会随机黑屏，现在换了2019的老驱动，目前一切正常，还没黑过</span><br>
+</p><p><b>mythichris: </b><br>
+<span>搭车问一下，5700坛友已经定性了从生草到生病的显卡，那么上一代的580 2048sp和590稳定性如何？就准备打打mhw，中高画质即可(类似环境光遮蔽，动态阴影这些从来不开)</span><br>
+<span>—— 来自 HMD Global TA-1054, Android 9上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>白头盔: </b><br>
+<span>mythichris 发表于 2020-1-26 12:54</span><br>
+<span>搭车问一下，5700坛友已经定性了从生草到生病的显卡，那么上一代的580 2048sp和590稳定性如何？就准备打打m ...</span><br>
+<span>580 590很好啊，只要别用他那些freesyc，wattman。bug几乎没有。</span><br>
+</p><p><b>mythichris: </b><br>
+<span>白头盔 发表于 2020-1-26 13:18</span><br>
+<span>580 590很好啊，只要别用他那些freesyc，wattman。bug几乎没有。</span><br>
+<span>现在5700这么拉，按摩店的上一代显卡有没可能再一步降价，弥补5700不足对抗老黄？</span><br>
+<span>查了查超白金的590价格基本赶上1660s了…有点尴尬啊</span><br>
+<span>—— 来自 HMD Global TA-1054, Android 9上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>Hibino: </b><br>
+<span>我也在烦恼。。。。。三四天前从4790换了3900x，除了显卡没换其他都换了，现在玩游戏就是一顿一顿的，试过所有方法都无解。。。。。。跑分等等什么都正常，有点见鬼的感觉。。。。。。。</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>帖子看了个标题就想到是不是显卡的问题。。。。</span><br>
+<span>AMD CPU Yes,显卡不yes哟</span><br>
+</p><p><b>JWJking: </b><br>
+<span>AMD, YES</span><br>
+<span>ATI, NO</span><br>
+</p><p><b>elflie: </b><br>
+<span>sssfans 发表于 2020-1-26 12:34</span><br>
+<span>我一开始用2020那个新驱动，会随机黑屏，现在换了2019的老驱动，目前一切正常，还没黑过 ...</span><br>
+<span>随机闪烁吧，我488也遇到，后面退回2019就好了，再后来更新2020.1.3也好了</span><br>
+</p><p><b>白头盔: </b><br>
+<span>mythichris 发表于 2020-1-26 14:03</span><br>
+<span>现在5700这么拉，按摩店的上一代显卡有没可能再一步降价，弥补5700不足对抗老黄？</span><br>
+<span>查了查超白金的590价格 ...</span><br>
+<span>然是买丐板啦。又不差这点频率。</span><br>
+</p><p><b>aruruu: </b><br>
+<span>ryzen1600刚出就买了，配合c9bjz超到3200，一点问题也没有。黑狗rx470也是刚出就买，没超频，没刷bios一星期就烧了</span><br>
+<span>—— 来自 HUAWEI BKL-AL20, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>白头盔: </b><br>
+<span>有一样东西是ati省心，就是插帧。</span><br>
+<span>拖动也快，出错也少。</span><br>
+<span>n卡，核显那几个软件怎么调也没这个综合效果好。</span><br>
+</p><p><b>江口夕: </b><br>
+<span>ati别用新卡，态度可以参考巨硬surface123</span><br>
+</p><p><b>albertfu: </b><br>
+<span>白头盔 发表于 2020-1-26 17:14</span><br>
+<span>有一样东西是ati省心，就是插帧。</span><br>
+<span>拖动也快，出错也少。</span><br>
+<span>n卡，核显那几个软件怎么调也没这个综合效果好。 ...</span><br>
+<span>只有gcn老卡才能afm插帧，navi不支持</span><br>
+<span>rocm炼丹也是，navi不支持</span><br>
+</p><p><b>fat: </b><br>
+<span>我是5700XT公办默频用着好像没啥，原来这么生草的吗</span><br>
+</p><p><b>sssfans: </b><br>
+<span>elflie 发表于 2020-1-26 17:08</span><br>
+<span>随机闪烁吧，我488也遇到，后面退回2019就好了，再后来更新2020.1.3也好了</span><br>
+<span>不敢用新驱动了，先用老的苟半年看看再说</span><br>
+</p><p><b>albertfu: </b><br>
+<span>fat 发表于 2020-1-26 18:24</span><br>
+<span>我是5700XT公办默频用着好像没啥，原来这么生草的吗</span><br>
+<span>估计和turing 20系刚出那大半年大批量花屏一样，是初期批次硬件问题，所以看运气</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>第一项是微星的问题，不是amd的</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>弯枝理树: </b><br>
+<span>freesync闪屏可以关了增强同步 我关了之后就没闪了</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1</span><br>
+</p><p><b>sssfans: </b><br>
+<span> 本帖最后由 sssfans 于 2020-1-27 01:40 编辑 </span><br>
+<span>弯枝理树 发表于 2020-1-27 01:21</span><br>
+<span>freesync闪屏可以关了增强同步 我关了之后就没闪了</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2 ...</span><br>
+<span>我找到了，但是我这边关了增强同步并没有用，只要开freesync，dota2里就是闪瞎眼</span><br>
+</p><p><b>白头盔: </b><br>
+<span>麻烦得很freesync，</span><br>
+<span>除非肉眼看到不可接受的画面撕裂，别开这东西</span><br>
+</p><p><b>datzz: </b><br>
+<span>amd yes不是说a u么。。。a卡还是算了吧</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>光宗薫: </b><br>
+<span>我买5700xt是为了便宜，所以只要还能用有点小毛病也能接受</span><br>
+<span>买回来除了绿屏三次其他都正常，当然也一次也没超过频就是了</span><br>
+</p><p><b>弯枝理树: </b><br>
+<span>sssfans 发表于 2020-1-27 01:32</span><br>
+<span>我找到了，但是我这边关了增强同步并没有用，只要开freesync，dota2里就是闪瞎眼 ...</span><br>
+<span>电脑不在手头没法试</span><br>
+<span>楼主可以分享一下设置吗</span><br>
+<span>还有就是看看设定了之后是全局还是单个游戏</span><br>
+<span>最好两边都设置一下</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1</span><br>
+</p><p><b>prsfd: </b><br>
+<span>以为是入职AMD了来爆点内幕</span><br>
+</p><p><b>sssfans: </b><br>
+<span>弯枝理树 发表于 2020-1-27 13:43</span><br>
+<span>电脑不在手头没法试</span><br>
+<span>楼主可以分享一下设置吗</span><br>
+<span>还有就是看看设定了之后是全局还是单个游戏</span><br>
+<span>我试了一下，只要我在“显示器”选项卡里把freesync打开，那么不管我在全局里开关增强同步也好，还是开启游戏单独设置后，在单独设置里开关增强同步或单独设置里的freesync也好，在游戏里都是频闪的。只要把“显示器”选项卡里的freesync关了，那随便怎么折腾其它选项，都不会闪。</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>总结：内存频率、驱动追新、超频、freesync</span><br>
+<span>全部避开不知能不能避免常见问题？</span><br>
+</p><p><b>mythichris: </b><br>
+<span>白头盔 发表于 2020-1-26 17:11</span><br>
+<span>然是买丐板啦。又不差这点频率。</span><br>
+<span>之前忘记受哪位坛友的教育了“a卡只有超白金和其他两种”</span><br>
+<span>—— 来自 HMD Global TA-1054, Android 9上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>弯枝理树: </b><br>
+<span>mythichris 发表于 2020-1-28 11:10</span><br>
+<span>之前忘记受哪位坛友的教育了“a卡只有超白金和其他两种”</span><br>
+<span>—— 来自 HMD Global TA-1054, Androi ...</span><br>
+<span>只有公版跟超白金 其他可以忽视</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1</span><br>
+</p><p><b>弯枝理树: </b><br>
+<span>忘了问下楼主用什么线的</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1</span><br>
+</p><p><b>mythichris: </b><br>
+<span>弯枝理树 发表于 2020-1-28 14:34</span><br>
+<span>只有公版跟超白金 其他可以忽视</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1 ...</span><br>
+<span>但是研究了下，不折腾的前提下590兄弟总体也不如1650s能打…这么看不降价还真不如16系了？16系甜品本身能耗低，核心新，丐中丐能损失多少？</span><br>
+<span>—— 来自 HMD Global TA-1054, Android 9上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>sssfans: </b><br>
+<span>弯枝理树 发表于 2020-1-28 14:36</span><br>
+<span>忘了问下楼主用什么线的</span><br>
+<span>—— 來自 Sony J9110, Android 10上的 S1Next-鵝版 v2.2.0.1</span><br>
+<span>dp线，显示器看了是dp1.2的。</span><br>
+</p><p><b>feelmydick: </b><br>
+<span>scikirbypoke 发表于 2020-1-28 11:01</span><br>
+<span>总结：内存频率、驱动追新、超频、freesync</span><br>
+<span>全部避开不知能不能避免常见问题？ ...</span><br>
+<span>内存颗粒烂就不要XMP开太高,</span><br>
+<span>剩余问题买老黄的卡就不会出现,super基本也没有花屏了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910842[0-50]</guid>
+    </item>
+  </channel>
+</rss>

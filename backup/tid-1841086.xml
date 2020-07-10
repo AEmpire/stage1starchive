@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>m2 ssd怎么迁移系统</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>m2 ssd怎么迁移系统</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:37:17 +0000</lastBuildDate>
+    <item>
+      <title>m2 ssd怎么迁移系统[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841086-1-1.html</link>
+      <description>m2 ssd怎么迁移系统&#13;
+现在使用的电脑xps 15 ssd有点小,是m2接口的,换了新的之后怎么ghost呢
+&#13;
+是现在ssd制作ghost文件放在hdd上,然后装新的ssd用u盘启动还原吗?</description>
+      <content:encoded><![CDATA[<p><b>nexus1: </b><br>
+<span>m2 ssd怎么迁移系统</span><br>
+<span>现在使用的电脑xps 15 ssd有点小,是m2接口的,换了新的之后怎么ghost呢</span><br>
+<span>是现在ssd制作ghost文件放在hdd上,然后装新的ssd用u盘启动还原吗?</span><br>
+</p><p><b>脚本水平: </b><br>
+<span>我用过傲梅</span><br>
+<span>前两天蓝屏过一两次</span><br>
+<span>后来就没问题了</span><br>
+</p><p><b>longooyue: </b><br>
+<span>直接复制</span><br>
+</p><p><b>bilibon: </b><br>
+<span>脚本水平 发表于 2019-6-21 09:11</span><br>
+<span>我用过傲梅</span><br>
+<span>前两天蓝屏过一两次</span><br>
+<span>后来就没问题了</span><br>
+<span>问下之前用傲梅试了下迁移发现有个空的系统分区没过去，只是把C盘的系统文件全移过去了。是我哪里设置不对么？</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>用过intel的迁移，没问题</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>dd if=/dev/nvme0n1 of=/dev/nvme0n2</span><br>
+</p><p><b>nexus1: </b><br>
+<span>失身招领处 发表于 2019-6-21 09:53</span><br>
+<span>用过intel的迁移，没问题</span><br>
+<span>辣么,怎么用呢</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>WePE进去后用ghost盘对盘搞过一次，不过那是ssd 2 ssd</span><br>
+</p><p><b>mp5: </b><br>
+<span>u盘启动，然后直接对拷不就得了</span><br>
+<span>我上次迁移固态硬盘就是用clonezilla的磁盘对拷功能</span><br>
+</p><p><b>nexus1: </b><br>
+<span>mp5 发表于 2019-6-21 10:06</span><br>
+<span>u盘启动，然后直接对拷不就得了</span><br>
+<span>我上次迁移固态硬盘就是用clonezilla的磁盘对拷功能 ...</span><br>
+<span>一台电脑没有2个m2接口啊我能同时插上2个m2ssd我也不问了</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>我的想法是买个100多的硬盘盒用傲梅对拷……</span><br>
+<span>我和LZ一样苦恼，就一个M2口，迁移系统好麻烦</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>猫溺泉君: </b><br>
+<span>intel自己的迁徙工具，傻瓜无脑操作，我之前是把我的远古mlc贼船ssd上的系统迁徙到905P上，毫无问题</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>我之前是sata协议m2的，买了个转sata的盒子接上开机，用西数官网的Acronis(是这个名字吧)一键迁移的</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sorayang: </b><br>
+<span>bilibon 发表于 2019-6-21 09:36</span><br>
+<span>问下之前用傲梅试了下迁移发现有个空的系统分区没过去，只是把C盘的系统文件全移过去了。是我哪里设置不 ...</span><br>
+<span>选全盘拷贝吧</span><br>
+<span>如果迁入的盘更大，事后再合并一下容量就可以</span><br>
+</p><p><b>bilibon: </b><br>
+<span>sorayang 发表于 2019-6-21 10:53</span><br>
+<span>选全盘拷贝吧</span><br>
+<span>如果迁入的盘更大，事后再合并一下容量就可以</span><br>
+<span>好的，谢谢</span><br>
+</p><p><b>bilibon: </b><br>
+<span>猫溺泉君 发表于 2019-6-21 10:50</span><br>
+<span>intel自己的迁徙工具，傻瓜无脑操作，我之前是把我的远古mlc贼船ssd上的系统迁徙到905P上，毫无问题 ...</span><br>
+<span>能迁移到A家的电脑里么</span><br>
+</p><p><b>nexus1: </b><br>
+<span>猫溺泉君 发表于 2019-6-21 10:50</span><br>
+<span>intel自己的迁徙工具，傻瓜无脑操作，我之前是把我的远古mlc贼船ssd上的系统迁徙到905P上，毫无问题 ...</span><br>
+<span>那是不是只支持intel自己的ssd?</span><br>
+</p><p><b>john: </b><br>
+<span>bilibon 发表于 2019-6-21 11:08</span><br>
+<span>能迁移到A家的电脑里么</span><br>
+<span>楼上那个，acronis true image</span><br>
+</p><p><b>猫溺泉君: </b><br>
+<span>nexus1 发表于 2019-6-21 11:28</span><br>
+<span>那是不是只支持intel自己的ssd?</span><br>
+<span>其实各家都有自己的迁徙软件啊，你去官网相应产品页面看看？</span><br>
+</p><p><b>bilibon: </b><br>
+<span>john 发表于 2019-6-21 11:40</span><br>
+<span>楼上那个，acronis true image</span><br>
+<span>谢</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>longooyue 发表于 2019-6-21 09:36</span><br>
+<span>直接复制</span><br>
+<span>请问是复制到esp和msr分区吗？分区不够大怎么办啊</span><br>
+</p><p><b>lhm123: </b><br>
+<span>简单的话可以试试傲梅分区助手的系统迁移功能，会自动重启到PE下进行拷贝。再开机时候如果黑屏试试热键调出任务管理器关掉傲梅自启动的进程，可恢复正常桌面。</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>U盘魔术师PE里面的系统安装工具有个分区备份还原功能，我用的那个先备份到HDD上</span><br>
+<span>然后换上新盘再恢复回去</span><br>
+</p><p><b>_47: </b><br>
+<span>顺便问问，电脑只有一个m2接口怎么迁移？OEM和恢复分区都想保留下来</span><br>
+</p><p><b>ECly: </b><br>
+<span>_47 发表于 2019-6-23 00:28</span><br>
+<span>顺便问问，电脑只有一个m2接口怎么迁移？OEM和恢复分区都想保留下来</span><br>
+<span>买个硬盘盒插USB</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>链接：https://pan.baidu.com/s/12AWZ2rPtrhfCARZQmNDBlw </span><br>
+<span>提取码：wze9安装方法见说明</span><br>
+</p><p><b>VirMoe: </b><br>
+<span>win10 1709或以上的话，可以用dism把整个硬盘捕获到一个FFU文件，包括分区。WIM vs. VHD vs. FFU: comparing image file formats</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841086[0-50]</guid>
+    </item>
+  </channel>
+</rss>

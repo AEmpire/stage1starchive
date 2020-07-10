@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>mix2s刷了原生安卓10系统，发现PS4remoteplay进不去</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>mix2s刷了原生安卓10系统，发现PS4remoteplay进不去</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:57:30 +0000</lastBuildDate>
+    <item>
+      <title>mix2s刷了原生安卓10系统，发现PS4remoteplay进不去[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915739-1-1.html</link>
+      <description>mix2s刷了原生安卓10系统，发现PS4remoteplay进不去&#13;
+ 本帖最后由 名字已被吃 于 2020-2-25 22:57 编辑 
+
+昨天发了个帖子想找台备用机玩remoteplay和手游，后来自己觉得先把手上的备机小米mix2s刷个原生系统，看看能不能解决remoteplay不用使用手柄的问题，今晚刷了原生安卓10（应该是第三方整的，不太清楚），下载ps app和remoteplay，启动remoteplay显示错误88001003，第一步就给我卡了，网上一搜都不知道怎么解决，因为结果都是几年前remoteplay不支持非xerpia手机的时候，不过有提到说是因为root或者magisk，这方面我不太懂，我mix2s只是解锁然后刷橙狐rec再刷系统，有潭友能提供个思路我能怎么解决吗？
+&#13;
+-----
+&#13;
+忘了说一点，second screen这个app我反而能用，可以和ps4联动，但是remoteplay却不行。</description>
+      <content:encoded><![CDATA[<p><b>名字已被吃: </b><br>
+<span>mix2s刷了原生安卓10系统，发现PS4remoteplay进不去</span><br>
+<span> 本帖最后由 名字已被吃 于 2020-2-25 22:57 编辑 </span><br>
+<span>昨天发了个帖子想找台备用机玩remoteplay和手游，后来自己觉得先把手上的备机小米mix2s刷个原生系统，看看能不能解决remoteplay不用使用手柄的问题，今晚刷了原生安卓10（应该是第三方整的，不太清楚），下载ps app和remoteplay，启动remoteplay显示错误88001003，第一步就给我卡了，网上一搜都不知道怎么解决，因为结果都是几年前remoteplay不支持非xerpia手机的时候，不过有提到说是因为root或者magisk，这方面我不太懂，我mix2s只是解锁然后刷橙狐rec再刷系统，有潭友能提供个思路我能怎么解决吗？</span><br>
+<span>-----</span><br>
+<span>忘了说一点，second screen这个app我反而能用，可以和ps4联动，但是remoteplay却不行。</span><br>
+</p><p><b>calvary: </b><br>
+<span>这个报错就是检测到系统root了，在脸谱设置magisk hide，并且用随机包名安装magisk manager就行了，注意上面操作完成后需要清空ps4 remote play的数据。</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>索尼开发的软件好多都带root检测，面具可破，以前还买过一个加藤惠对话闹钟，也是检测root，那时候还在用superSU，不知道有面具这种神器，费了好大心思搞了个XP框架模块可以屏蔽软件root检测的</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2020-2-26 09:50 编辑 </span><br>
+<span>解锁，刷官方twrp，刷魔趣rom或者lineageos，工具要谷歌官方驱动，adb和fastboot。要保持干净刷机才有意义。。。</span><br>
+<span>别用第三方刷机和第三方rom，都是垃圾玩意，不如不刷呢。。。</span><br>
+<span>你这样刷机，还不如解锁了直接刷个国际版MIUI。。。</span><br>
+<span>因为如果是官方原版魔趣rom或者lineageos或者国际版miui，是肯定不会自带root的。。。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>litel: </b><br>
+<span>国际版rom底包fastboot版</span><br>
+<span>http://c.mi.com/us/miuidownload/detail?guide=2</span><br>
+<span>国内rom底包fastboot版</span><br>
+<span>http://www.miui.com/shuaji-393.html</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>litel 发表于 2020-2-26 09:48</span><br>
+<span>解锁，刷官方twrp，刷魔趣rom或者lineageos，工具要谷歌官方驱动，adb和fastboot。要保持干净刷机才有意义 ...</span><br>
+<span>啥也不会，刚刚搜到一个b站视频教程还手把手教学那种，就跟着弄了</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>litel 发表于 2020-2-26 09:48</span><br>
+<span>解锁，刷官方twrp，刷魔趣rom或者lineageos，工具要谷歌官方驱动，adb和fastboot。要保持干净刷机才有意义 ...</span><br>
+<span>现在国内版miui不能ps4手柄串流玩ps4，刷国际版miui也不清楚也这样，就想着索性刷个原生系统刚好搜索结果有个刷原生安卓10的视频教程</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>litel 发表于 2020-2-26 09:53</span><br>
+<span>国际版rom底包fastboot版</span><br>
+<span>http://c.mi.com/us/miuidownload/detail?guide=2</span><br>
+<span>我现在这个橙狐rec需要换吗？如果我要做到你说的那样，https://www.52pojie.cn/thread-903485-1-1.html这里这个刷rec教程可以吗？我看也是twrp的rec，剩下就是刷入rom，刷magisk吧？</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>calvary 发表于 2020-2-26 00:56</span><br>
+<span>这个报错就是检测到系统root了，在脸谱设置magisk hide，并且用随机包名安装magisk manager就行了，注意上 ...</span><br>
+<span>按照你说的操作弄了一下，现在remote能正常进入了，中午回家再链接手柄和ps4看看，希望不会弹别的错误</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>litel 发表于 2020-2-26 09:48</span><br>
+<span>解锁，刷官方twrp，刷魔趣rom或者lineageos，工具要谷歌官方驱动，adb和fastboot。要保持干净刷机才有意义 ...</span><br>
+<span>原生教诣还是省省吧，粗粮的机子真刷过的应该知道LOS是第三方认领维护的，有的机型还是爱好者自己移植的，奇葩的bug不见得比从大陆系统魔改来的欧版MIUI少。</span><br>
+<span>LZ这个问题就是系统可能预置了root，但是不知道他有没有看过/看到过原始发布者写的说明。</span><br>
+<span>当然，不管怎么刷机，隐私的裤子是免不了要脱的，就是脱给谁看的问题。要我选，宁可当假洋鬼子，也是断然不敢脱给魔趣看的（香菜脸</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>两个路人 发表于 2020-2-26 11:53</span><br>
+<span>原生教诣还是省省吧，粗粮的机子真刷过的应该知道LOS是第三方认领维护的，有的机型还是爱好者自己移植的 ...</span><br>
+<span>我拿来当备机用的，都不打算插卡，就玩玩手游看看易恒泰下片子看腾讯视频爱奇艺，这些隐私随便了现在有个问题是，这系统有个pixel设置向导我一直完成不了，卡在准备阶段，通知栏也清楚不了，看的难受，准备路由挂个$看看能不能完成设置。</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>问题解决了，刚刚试了串流PS4，没有问题，手柄蓝牙连接手机，能控制</span><br>
+</p><p><b>findpkq: </b><br>
+<span>名字已被吃 发表于 2020-2-26 12:24</span><br>
+<span>我拿来当备机用的，都不打算插卡，就玩玩手游看看易恒泰下片子看腾讯视频爱奇艺，这些隐私随便了 ...</span><br>
+<span>这么说刷的是pixel experience吧</span><br>
+<span>省事的话直接设置-应用里显示系统进程，有个Pixel设置还是啥的能强行停止掉</span><br>
+</p><p><b>名字已被吃: </b><br>
+<span>findpkq 发表于 2020-2-26 13:39</span><br>
+<span>这么说刷的是pixel experience吧</span><br>
+<span>省事的话直接设置-应用里显示系统进程，有个Pixel设置还是啥的能强行停 ...</span><br>
+<span>刷的pixel experience，已经通过路由挂xx，连接wifi顺利完成设置向导了。</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915739[0-50]</guid>
+    </item>
+  </channel>
+</rss>

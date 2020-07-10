@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于NAS的方案</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于NAS的方案</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:46:25 +0000</lastBuildDate>
+    <item>
+      <title>关于NAS的方案[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849123-1-1.html</link>
+      <description>关于NAS的方案&#13;
+因为是海外留学狗，所以需要规避版权物，加上从高中就开始种草NAS这个东西，一直就开始研究有没有什么好的DIY方案。
+&#13;
+手上现在的设备是一台星际蜗牛C自改了电源和风扇，还有一台刚入的DS218+以及一个i7 nuc。
+&#13;
+之前是蜗牛C装黑群晖用了一段时间，但是终究对矿车的质量不放心所以后来又入了一个218+
+&#13;
+那么现在nuc上装的是WIN10，路由器做了端口转发，开了远程桌面和teamviwer用来当控制中枢。
+&#13;
+NAS的话蜗牛暂时退役，一个10T储存盘+3T下载盘插在218+上。
+&#13;
+现在的话是想问下有没有更好的方案可以把nuc替代掉。至于群晖的VM我看了，然而似乎不能直通，用迅雷的话似乎还是只能靠NUC用SMB挂载硬盘然后迅雷下载过去。
+&#13;
+另外TR和aria 2我也都试过了，tracker和DHT之类的也折腾了，然而速度和方便度真的还是没有开个会员用迅雷U享版来的简单舒服......</description>
+      <content:encoded><![CDATA[<p><b>cyp909: </b><br>
+<span>关于NAS的方案</span><br>
+<span>因为是海外留学狗，所以需要规避版权物，加上从高中就开始种草NAS这个东西，一直就开始研究有没有什么好的DIY方案。</span><br>
+<span>手上现在的设备是一台星际蜗牛C自改了电源和风扇，还有一台刚入的DS218+以及一个i7 nuc。</span><br>
+<span>之前是蜗牛C装黑群晖用了一段时间，但是终究对矿车的质量不放心所以后来又入了一个218+</span><br>
+<span>那么现在nuc上装的是WIN10，路由器做了端口转发，开了远程桌面和teamviwer用来当控制中枢。</span><br>
+<span>NAS的话蜗牛暂时退役，一个10T储存盘+3T下载盘插在218+上。</span><br>
+<span>现在的话是想问下有没有更好的方案可以把nuc替代掉。至于群晖的VM我看了，然而似乎不能直通，用迅雷的话似乎还是只能靠NUC用SMB挂载硬盘然后迅雷下载过去。</span><br>
+<span>另外TR和aria 2我也都试过了，tracker和DHT之类的也折腾了，然而速度和方便度真的还是没有开个会员用迅雷U享版来的简单舒服......</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>买个vps， 装windows， 用各种大流氓下载，开私有http服，直接在线播片。</span><br>
+</p><p><b>cyp909: </b><br>
+<span>系统杀手 发表于 2019-7-25 19:24</span><br>
+<span>买个vps， 装windows， 用各种大流氓下载，开私有http服，直接在线播片。</span><br>
+<span>这种的话成本是不是直接跟115差不多了...</span><br>
+<span>虽然我没用过但我感觉两个都不便宜啊</span><br>
+</p><p><b>qwased: </b><br>
+<span>没看懂，你都白群了直接quick connect上去控制不就完事了，为啥还要个nuc</span><br>
+</p><p><b>john: </b><br>
+<span>你既然能靠NUC用SMB挂载硬盘然后迅雷下载过去，为什么不在群晖的虚拟机里用SMB挂载硬盘然后迅雷下载过去呢</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>那么LZ的星际蜗牛C出不出？</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>不是你都白群了直接用自带的就是了</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>自带的downloadstation速度还可以啦，老种还是电脑上下好传过去。</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>迅雷离线依赖病的话，没有任何好的nas方案，请直接装个windows跑server</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>cyp909: </b><br>
+<span>qwased 发表于 2019-07-25 19:35:59</span><br>
+<span>没看懂，你都白群了直接quick connect上去控制不就完事了，为啥还要个nucwin10用迅雷，顺便用网易云</span><br>
+<span>海外网易云也有版权限制</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>cyp909: </b><br>
+<span>RPG-7 发表于 2019-07-25 19:45:26</span><br>
+<span>那么LZ的星际蜗牛C出不出？给我爸拿单位用去了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>cyp909: </b><br>
+<span>john 发表于 2019-7-25 19:39</span><br>
+<span>你既然能靠NUC用SMB挂载硬盘然后迅雷下载过去，为什么不在群晖的虚拟机里用SMB挂载硬盘然后迅雷下载过去呢 ...</span><br>
+<span>我之前用win10装虚拟机群晖的时候做过类似的事，但是好像速度受到了非常大的影响</span><br>
+</p><p><b>john: </b><br>
+<span>cyp909 发表于 2019-7-25 20:12</span><br>
+<span>我之前用win10装虚拟机群晖的时候做过类似的事，但是好像速度受到了非常大的影响 ...</span><br>
+<span>试了一下在虚拟机里把共享文件夹的内容拷到虚拟机硬盘</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>windows当服务器有何不可</span><br>
+<span>—— 来自 LGE LM-G710, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cyp909: </b><br>
+<span>秋雨灰灰 发表于 2019-7-25 22:35</span><br>
+<span>windows当服务器有何不可</span><br>
+<span>—— 来自 LGE LM-G710, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>其实是可以的，只不过更喜欢群晖上成体系的生态，感觉更方便些...</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>垃圾群晖fedoar29 自建服务器走起</span><br>
+<span>gen8 改装机箱+z37 爽到飞起</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849123[0-50]</guid>
+    </item>
+  </channel>
+</rss>

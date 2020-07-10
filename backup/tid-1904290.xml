@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>转需：“最先进最快”的开源云备份工具Duplicacy</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>转需：“最先进最快”的开源云备份工具Duplicacy</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:40 +0000</lastBuildDate>
+    <item>
+      <title>转需：“最先进最快”的开源云备份工具Duplicacy[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904290-1-1.html</link>
+      <description>转需：“最先进最快”的开源云备份工具Duplicacy&#13;
+Duplicacy 是我个人开发的开源云备份软件： https://github.com/gilbertchen/duplicacy
+&#13;
+和其它备份软件相比，Duplicacy 的去冗余(dedupulication)算法是最先进的，支持将多台机器备份到同一个云存储空间，从而最大程度上节省存储空间。
+&#13;
+这个先进的去冗余算法带来了另外一个特别的优点是去掉了保存块索引(chunk index)的数据库，架构更简单，更可靠。
+&#13;
+Duplicacy 支持绝大多数流行的云存储，而且比所有其他开源软件都要快很多： https://github.com/gilbertchen/benchmarking
+&#13;
+注意“开源”指的是源代码公开。个人用户完全免费，商业用户需要付费。我们将会对国内公司提供很大的优惠。
+&#13;
+现在已经快有 2 千 9 百个点赞，这对一个非传统的开源软件已经很不容易。希望能借 V2EXer 的支持早日突破 3 千！
+&#13;
+https://www.v2ex.com/t/630786#reply3</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>转需：“最先进最快”的开源云备份工具Duplicacy</span><br>
+<span>Duplicacy 是我个人开发的开源云备份软件： https://github.com/gilbertchen/duplicacy</span><br>
+<span>和其它备份软件相比，Duplicacy 的去冗余(dedupulication)算法是最先进的，支持将多台机器备份到同一个云存储空间，从而最大程度上节省存储空间。</span><br>
+<span>这个先进的去冗余算法带来了另外一个特别的优点是去掉了保存块索引(chunk index)的数据库，架构更简单，更可靠。</span><br>
+<span>Duplicacy 支持绝大多数流行的云存储，而且比所有其他开源软件都要快很多： https://github.com/gilbertchen/benchmarking</span><br>
+<span>注意“开源”指的是源代码公开。个人用户完全免费，商业用户需要付费。我们将会对国内公司提供很大的优惠。</span><br>
+<span>现在已经快有 2 千 9 百个点赞，这对一个非传统的开源软件已经很不容易。希望能借 V2EXer 的支持早日突破 3 千！</span><br>
+<span>https://www.v2ex.com/t/630786#reply3</span><br>
+</p><p><b>refo2613: </b><br>
+<span>没有INDEX，怎么检索？</span><br>
+</p><p><b>refo2613: </b><br>
+<span>One GUI license, Commercial or Personal, can be installed on one computer. If you need to run the GUI version on multiple computers, one license is required for each computer.</span><br>
+<span>个人用户要用GUI，20美元一台PC。</span><br>
+<span>这价格算便宜还是贵？</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>refo2613 发表于 2019-12-20 13:15</span><br>
+<span>One GUI license, Commercial or Personal, can be installed on one computer. If you need to run the GU ...</span><br>
+<span>根据作者在v2ex上的回复，“GitHub 上的是命令行(CLI)版本。那个 Personal License 是给图形界面版用的，但是我们的 License Server 架在 Google App Engine 上，墙内用不了，所以就不在这儿宣传了。”</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>多台设备的数据备在云上同一空间还开重删，要是都只有这一份备份的话……画面太美了</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>refo2613 发表于 2019-12-20 13:15</span><br>
+<span>One GUI license, Commercial or Personal, can be installed on one computer. If you need to run the GU ...</span><br>
+<span>acrosync [楼主]   1 小时 37 分钟前 via iPad</span><br>
+<span>@joshua7v 对，gui 版对个人用户也收费，cli 则对个人用户完全免费。</span><br>
+<span>建议使用CLI版本</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904290[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安装ubuntu能指定EFI分区吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安装ubuntu能指定EFI分区吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:24:19 +0000</lastBuildDate>
+    <item>
+      <title>安装ubuntu能指定EFI分区吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862166-1-1.html</link>
+      <description>安装ubuntu能指定EFI分区吗？&#13;
+双硬盘，主板UEFI启动。
+&#13;
+一块硬盘安装Win 10，已经有EFI分区了。
+&#13;
+另一块硬盘删除所有分区，Ubuntu安装时在第二块硬盘上创建efi分区，/分区和swap。
+&#13;
+引导位置选择第二块硬盘的EFI。
+&#13;
+可是安装完后发现Ubuntu的EFI文件还是安装到第一块硬盘的EFI分区，和Win10的引导并列。
+&#13;
+请问能指定Ubuntu的EFI吗？多谢！</description>
+      <content:encoded><![CDATA[<p><b>gensaya: </b><br>
+<span>安装ubuntu能指定EFI分区吗？</span><br>
+<span>双硬盘，主板UEFI启动。</span><br>
+<span>一块硬盘安装Win 10，已经有EFI分区了。</span><br>
+<span>另一块硬盘删除所有分区，Ubuntu安装时在第二块硬盘上创建efi分区，/分区和swap。</span><br>
+<span>引导位置选择第二块硬盘的EFI。</span><br>
+<span>可是安装完后发现Ubuntu的EFI文件还是安装到第一块硬盘的EFI分区，和Win10的引导并列。</span><br>
+<span>请问能指定Ubuntu的EFI吗？多谢！</span><br>
+</p><p><b>Einbert: </b><br>
+<span>可以考虑安装的时候把 Windows 的硬盘拔了，装完再插回去？</span><br>
+</p><p><b>gensaya: </b><br>
+<span>Einbert 发表于 2019-10-29 21:29</span><br>
+<span>可以考虑安装的时候把 Windows 的硬盘拔了，装完再插回去？</span><br>
+<span>可不可以安装完Ubuntu后将EFI文件移到第二块硬盘？？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>可以，选硬盘分区的时候最下面有个安装启动啥的到什么硬盘或分区</span><br>
+</p><p><b>Einbert: </b><br>
+<span>gensaya 发表于 2019-10-29 21:40</span><br>
+<span>可不可以安装完Ubuntu后将EFI文件移到第二块硬盘？？</span><br>
+<span>我没有装过 Ubuntu。根据装 Arch Linux 经验来看存在理论上的可能性。需要注意的是可能不止 EFI 要拷，一些 ESP 里的配置文件可能也要拷，可能还需要根据实际情况进行编辑才能正常启动。</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span> 本帖最后由 tsubasa9 于 2019-10-29 21:54 编辑 </span><br>
+<span>Einbert 发表于 2019-10-29 21:45</span><br>
+<span>我没有装过 Ubuntu。根据装 Arch Linux 经验来看存在理论上的可能性。需要注意的是可能不止 EFI 要拷，一 ...</span><br>
+<span>不是理论上可能</span><br>
+<span>efi系统分区就叫做esp(efi system partition)</span><br>
+<span>本身就是一个平平无奇的fat分区而已</span><br>
+<span>复制下grub相关的东西就完事儿了</span><br>
+<span>当然楼主不想重装的话就在ubuntu里面用grub-install和grub-mkconfig重新在新efi分区里生成一遍grub就行了</span><br>
+</p><p><b>Hieda: </b><br>
+<span>友情提醒，win更新可能会把你引导更没，做好准备</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>建议指定硬盘的那个，那个什么来着，不会变的ID？</span><br>
+<span>nvme0p1这种会变化</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>请用refind引导管理efi，随便指定目录，用grub过于受罪</span><br>
+</p><p><b>naiveyan: </b><br>
+<span>可以，分区的时候保留一块空的fat32区域不挂载，进系统之后再改efi就行了。refind大法也行。</span><br>
+<span>以及现在有wsl没那么大必要上双系统吧。</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862166[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>记录下618新装的黑苹果主机</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>记录下618新装的黑苹果主机</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:40:00 +0000</lastBuildDate>
+    <item>
+      <title>记录下618新装的黑苹果主机[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840634-1-1.html</link>
+      <description>记录下618新装的黑苹果主机&#13;
+几年前200入手的二手技嘉Z68前两天突然暴毙,正好觉得i5 3470玩mhw力不从心就直接换代了
+
+配置入下
+
+cpu   i5 9400f
+
+主板微星B360迫击炮
+
+内存十铨 2666 16G
+
+显卡蓝宝石 RX580 8G 超白金 (群里土豪送的)
+
+电源RA450(直接用的原来的)
+
+WiFi   BCM94360CD带蓝牙4天线版 (5年前某宝买的苹果拆机卡,没错就是当年6月WWDC公布的接力功能后的9月份入的)
+
+机箱   黑洞3(去年618买的,拒绝光污染)
+
+没错基本上和这个价位大众配置一样除了用的是A卡
+
+而且因为这个主板实在是太火了
+
+github上搜索一下就找到两个EFI分享
+
+https://github.com/SuperNG6/MSI-B360-10.14.5-EFI
+
+https://github.com/OCD0711/MSI-B360M-EFI
+
+我直接用的第一个
+
+安装方法:
+
+1. 在黑果小兵 https://blog.daliansky.net 下载最新系统
+
+2. 使用Transmac(去官网下能试用15天后用了
+
+写入到8G的U盘
+
+3. 下载github上的EFI替换U盘里EFI分区的EFI文件
+
+4. biso设置U盘UEFI启动 出现Clover引导选择U盘mac安装分区 剩下和白苹果一摸一样的安装过程
+
+5. 安装完成转移U盘的EFI到系统上的EFI
+
+这套配置不用折腾就已经非常完美
+
+把smbios改成iMac Pro就能直接实现无核显硬解 其他的睡眠驱动就不用多说了
+
+不得不说相比10多年前10.5时代黑苹果已经简单太多了,只要硬件不故意选AuN卡和特定的几个硬件就很难装不上
+
+黑苹果10年前就在用,现在除了玩FF14和mhw剩下都在mac,基本上只要库克不换成ARM就会一直用下去</description>
+      <content:encoded><![CDATA[<p><b>liuxl8964: </b><br>
+<span>记录下618新装的黑苹果主机</span><br>
+<span>几年前200入手的二手技嘉Z68前两天突然暴毙,正好觉得i5 3470玩mhw力不从心就直接换代了</span><br>
+<span>配置入下</span><br>
+<span>cpu   i5 9400f</span><br>
+<span>主板微星B360迫击炮</span><br>
+<span>内存十铨 2666 16G</span><br>
+<span>显卡蓝宝石 RX580 8G 超白金 (群里土豪送的)</span><br>
+<span>电源RA450(直接用的原来的)</span><br>
+<span>WiFi   BCM94360CD带蓝牙4天线版 (5年前某宝买的苹果拆机卡,没错就是当年6月WWDC公布的接力功能后的9月份入的)</span><br>
+<span>机箱   黑洞3(去年618买的,拒绝光污染)</span><br>
+<span>没错基本上和这个价位大众配置一样除了用的是A卡</span><br>
+<span>而且因为这个主板实在是太火了</span><br>
+<span>github上搜索一下就找到两个EFI分享</span><br>
+<span>https://github.com/SuperNG6/MSI-B360-10.14.5-EFI</span><br>
+<span>https://github.com/OCD0711/MSI-B360M-EFI</span><br>
+<span>我直接用的第一个</span><br>
+<span>安装方法:</span><br>
+<span>1. 在黑果小兵 https://blog.daliansky.net 下载最新系统</span><br>
+<span>2. 使用Transmac(去官网下能试用15天后用了</span><br>
+<span>写入到8G的U盘</span><br>
+<span>3. 下载github上的EFI替换U盘里EFI分区的EFI文件</span><br>
+<span>4. biso设置U盘UEFI启动 出现Clover引导选择U盘mac安装分区 剩下和白苹果一摸一样的安装过程</span><br>
+<span>5. 安装完成转移U盘的EFI到系统上的EFI</span><br>
+<span>这套配置不用折腾就已经非常完美</span><br>
+<span>把smbios改成iMac Pro就能直接实现无核显硬解 其他的睡眠驱动就不用多说了</span><br>
+<span>不得不说相比10多年前10.5时代黑苹果已经简单太多了,只要硬件不故意选AuN卡和特定的几个硬件就很难装不上</span><br>
+<span>黑苹果10年前就在用,现在除了玩FF14和mhw剩下都在mac,基本上只要库克不换成ARM就会一直用下去</span><br>
+</p><p><b>lzp729: </b><br>
+<span>用了10年黑MAC都舍不得买一台mac mini么。。。。。。。</span><br>
+</p><p><b>ぜかまし: </b><br>
+<span>我现在最烦的就是windows+mac双系统的时候。</span><br>
+<span>里面有一块gtx1080，macos下面明明没有用到它。风扇还在转</span><br>
+<span>win10下面就老老实实的，无负载压根不转</span><br>
+</p><p><b>ぜかまし: </b><br>
+<span>lzp729 发表于 2019-6-19 14:44</span><br>
+<span>用了10年黑MAC都舍不得买一台mac mini么。。。。。。。</span><br>
+<span>去年买的i7版mac mini用了2个月后卖了，散热降频感人</span><br>
+</p><p><b>liuxl8964: </b><br>
+<span>lzp729 发表于 2019-6-19 14:44</span><br>
+<span>用了10年黑MAC都舍不得买一台mac mini么。。。。。。。</span><br>
+<span>我这个配置秒杀mac mini啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840634[0-50]</guid>
+    </item>
+  </channel>
+</rss>

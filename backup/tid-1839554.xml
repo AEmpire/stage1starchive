@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Adobe新研究可以识别ps痕迹</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Adobe新研究可以识别ps痕迹</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:46:41 +0000</lastBuildDate>
+    <item>
+      <title>Adobe新研究可以识别ps痕迹[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839554-1-1.html</link>
+      <description>Adobe新研究可以识别ps痕迹&#13;
+https://www.theverge.com/2019/6/14/18678782/adobe-machine-learning-ai-tool-spot-fake-facial-edits-liquify-manipulations
+
+Adobe最新研究，可以通过AI来识别照片和视频里的修改痕迹。现在还处于科研阶段，并没有投入商用的意思。
+
+看样片感觉还是挺牛逼的。https://i.loli.net/2019/06/15/5d03c5d80471b45287.jpg</description>
+      <content:encoded><![CDATA[<p><b>martinium: </b><br>
+<span>Adobe新研究可以识别ps痕迹</span><br>
+<span>https://www.theverge.com/2019/6/14/18678782/adobe-machine-learning-ai-tool-spot-fake-facial-edits-liquify-manipulations</span><br>
+<span>Adobe最新研究，可以通过AI来识别照片和视频里的修改痕迹。现在还处于科研阶段，并没有投入商用的意思。</span><br>
+<span>看样片感觉还是挺牛逼的。https://i.loli.net/2019/06/15/5d03c5d80471b45287.jpg</span><br>
+</p><p><b>xyzzy: </b><br>
+<span>可能又是一个科学家和记者母亲发生亲密关系的故事，这是个用PS里的面部感知液化工具训练出来的卷积神经网络，用别的工具或别的软件P图，这个神经网络就不一定灵光了。</span><br>
+</p><p><b>诚司: </b><br>
+<span>这什么鬼新闻，火星来的？火星人都在就被E总消灭了。图像取证就是判别ps，都发展几十年了，最开始是根据cmos成长物理特征判别，后来是深度学习。</span><br>
+</p><p><b>Okumur: </b><br>
+<span>渣渣作图狗稍微按自我理解解读下，可以识别的修改痕迹主要包含三点：</span><br>
+<span>1. 拷贝周围纹理填充特定区域 （各种复制、图章、去污点、去水印、补图、内容识别的本质）。这个应该是最简单的，存在一模一样的像素区域就是了</span><br>
+<span>2.Blur（各种磨皮、美颜的本质）这就是按特定算法对像素做平滑处理，应该也有迹可循的。</span><br>
+<span>此次创新点是3. 图像变形（各种distort、liquify、reshape、morph以及它们可造成的瘦脸、大眼的本质）。没学过计算机图形学，但我脑补要检测是否处理过似乎没有什么好的切入点。这次做法是把液化过的和原图丢给机器学习来分析特征，ai怼一切</span><br>
+<span>多大仇，全都是针对美颜修图类的，照骗末日</span><br>
+</p><p><b>LouisJohnny: </b><br>
+<span>能还原才牛逼</span><br>
+</p><p><b>枫红盗版: </b><br>
+<span>什么时候有那种，拍照出来自动还原化妆的，整容的</span><br>
+<span>—— 来自 LGE VS987, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>人生如戏: </b><br>
+<span>我记得阿逗逼之前不是演示过一个马赛克去除识别工具还是插件吗？怎么这么久都声气了？</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nohope: </b><br>
+<span>PS也是你家的啊，我捅我自己？</span><br>
+</p><p><b>zyc1629: </b><br>
+<span>nohope 发表于 2019-6-15 10:22</span><br>
+<span>PS也是你家的啊，我捅我自己？</span><br>
+<span>这叫一菜两吃</span><br>
+</p><p><b>الطائر: </b><br>
+<span>把脸直接擦掉画一个就不会被还原了。</span><br>
+</p><p><b>Yeaha123: </b><br>
+<span>只改一个像素点也能识别？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839554[0-50]</guid>
+    </item>
+  </channel>
+</rss>

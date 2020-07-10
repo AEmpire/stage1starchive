@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>漫画工作室求助，电脑一到下午就变卡</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>漫画工作室求助，电脑一到下午就变卡</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:22:15 +0000</lastBuildDate>
+    <item>
+      <title>漫画工作室求助，电脑一到下午就变卡[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853013-1-1.html</link>
+      <description>漫画工作室求助，电脑一到下午就变卡&#13;
+https://i.loli.net/2019/08/12/bz31pUG2MtQxncT.png
+&#13;
+https://i.loli.net/2019/08/12/vXIoyjTbuPrg2LK.png
+&#13;
+因为是漫画工作室，所以弄了一个8盘位的硬盘仓里面插了一些大容量西数红盘放 图源。然后用插在我的电脑上面【配置如上图，USB3.0连接】
+&#13;
+然后该硬盘仓里面的硬盘局域网共享给工作室的其他人，让大家日常使用。
+&#13;
+然后我的电脑每到了下午就越来越卡，延迟大约2秒，到最后死机。重启以后速度又比较正常了。
+&#13;
+请问这是什么原因，我要如何解决。</description>
+      <content:encoded><![CDATA[<p><b>qwemiku: </b><br>
+<span>漫画工作室求助，电脑一到下午就变卡</span><br>
+<img src="https://i.loli.net/2019/08/12/bz31pUG2MtQxncT.png" title="https://i.loli.net/2019/08/12/bz31pUG2MtQxncT.png"><br>
+<img src="https://i.loli.net/2019/08/12/vXIoyjTbuPrg2LK.png" title="https://i.loli.net/2019/08/12/vXIoyjTbuPrg2LK.png"><br>
+<span>因为是漫画工作室，所以弄了一个8盘位的硬盘仓里面插了一些大容量西数红盘放 图源。然后用插在我的电脑上面【配置如上图，USB3.0连接】</span><br>
+<span>然后该硬盘仓里面的硬盘局域网共享给工作室的其他人，让大家日常使用。</span><br>
+<span>然后我的电脑每到了下午就越来越卡，延迟大约2秒，到最后死机。重启以后速度又比较正常了。</span><br>
+<span>请问这是什么原因，我要如何解决。</span><br>
+</p><p><b>catxing: </b><br>
+<span> 本帖最后由 catxing 于 2019-8-12 19:19 编辑 </span><br>
+<span>估计有杀毒或者备份的定时任务</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>卡才正常吧，按道理，磁盘io或者USB或者网络io都可以拖慢整个系统速度，几个人用啊。</span><br>
+<span>用专门机器做共享，而且不要用USB3.0的硬盘盒吧，USB带宽有点低了，搞搞pcie的扩展卡，要不直接找个能插8个SATA盘的机器</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>这种情况弄个单独主机做储存服务器不是更好？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>看到漫画才想起，如果都在访问的是零碎文件，卡爆是正常的，估计换SSD才能解</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>看一下处理器温度，过热的话会降低到最低频率，会明显感觉卡</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>USB 3.0那带宽，人多了不卡才怪</span><br>
+</p><p><b>烟萝: </b><br>
+<span>这不行的。。买个大个的机箱装win10 2016 做服务器</span><br>
+<span>没地方可以用万由810</span><br>
+</p><p><b>北海生未径: </b><br>
+<span> 本帖最后由 北海生未径 于 2019-8-13 02:42 编辑 </span><br>
+<span>自组服务器吧，最多两块硬盘钱。你们是不是有人在直接编辑云端文件啊，hdd硬盘可撑不住这么搞</span><br>
+</p><p><b>baicon: </b><br>
+<span>开个资源监视器看看什么占用系统资源了</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>百度网盘？</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>感觉是有什么进程内存溢出了</span><br>
+<span>或说是某个进程定时在搞事</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>说明上午大家都在摸鱼</span><br>
+<span>下午才开始干活</span><br>
+</p><p><b>zihexing: </b><br>
+<span>事件查看器，看下系统事件</span><br>
+</p><p><b>zzzqqqrrr: </b><br>
+<span>联合警备队 发表于 2019-8-13 09:20</span><br>
+<span>说明上午大家都在摸鱼</span><br>
+<span>下午才开始干活</span><br>
+<span>这才是最解</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>HDD那点IO性能你拿来当图片文件服务器不卡死才怪</span><br>
+</p><p><b>qwemiku: </b><br>
+<span>ramiel1 发表于 2019-8-16 20:35</span><br>
+<span>HDD那点IO性能你拿来当图片文件服务器不卡死才怪</span><br>
+<span>那有什么解决方案呢</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>建議正經點來一台nas裝置</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>qwemiku 发表于 2019-8-16 22:58</span><br>
+<span>那有什么解决方案呢</span><br>
+<span>别让造成延迟的用户任务直接在云端操作，复制回自己电脑弄</span><br>
+</p><p><b>hein: </b><br>
+<span>u3其实问题不大，我以前五个人剪pr也用过一阵，然后也遇到过每天下午卡，楼主看看是不是开了索引，建议把所有机器的索引监控文件夹全部删除，这样可以改善很多。</span><br>
+</p><p><b>hein: </b><br>
+<span>记得，必须每个人对这个共享硬盘的文件索引都删除。</span><br>
+</p><p><b>qwemiku: </b><br>
+<span>hein 发表于 2019-8-17 12:21</span><br>
+<span>记得，必须每个人对这个共享硬盘的文件索引都删除。</span><br>
+<span>好的</span><br>
+</p><p><b>hein: </b><br>
+<span>qwemiku 发表于 2019-8-17 12:25</span><br>
+<span>好的</span><br>
+<span>你看看行不行，我当初是专门一台机器单独的，usb3其实有6gb，基本满速能上600多MB了，机械硬盘做raid5也就500MB左右，我当初也没做raid，直接三块盘用windows合并容量，所以也就满速100多了，但是也跑的没问题。</span><br>
+<span>还有就是你挂自己起上性能的确是有些影响的。</span><br>
+<span>你先排查掉win10索引这个问题，不行那就再排查吧。</span><br>
+</p><p><b>litel: </b><br>
+<span>有进程/驱动在搞事。。。</span><br>
+<span>我电脑长期开着bt不关机的，家里人一直在用共享看电影。</span><br>
+<span>几天没关机也没变慢。</span><br>
+<span>我系统是win 10 1903</span><br>
+<span>如果访问共享的人低于15个那也可以1903，不然就只能server 2019了。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853013[0-50]</guid>
+    </item>
+  </channel>
+</rss>

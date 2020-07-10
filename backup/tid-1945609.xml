@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>mesh组网必须要交换机么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>mesh组网必须要交换机么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:15:03 +0000</lastBuildDate>
+    <item>
+      <title>mesh组网必须要交换机么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945609-1-1.html</link>
+      <description>mesh组网必须要交换机么&#13;
+ 本帖最后由 sakamichi 于 2020-7-3 13:21 编辑 
+
+打开弱电箱看了下 没有所谓的交换机啊 两个房间的网线口是直接从光猫lan口拉出来的 然后我其中一个接着现在的路由器
+&#13;
+手头2台ax1800 尬住 求dalao指点一二</description>
+      <content:encoded><![CDATA[<p><b>sakamichi: </b><br>
+<span>mesh组网必须要交换机么</span><br>
+<span> 本帖最后由 sakamichi 于 2020-7-3 13:21 编辑 </span><br>
+<span>打开弱电箱看了下 没有所谓的交换机啊 两个房间的网线口是直接从光猫lan口拉出来的 然后我其中一个接着现在的路由器</span><br>
+<span>手头2台ax1800 尬住 求dalao指点一二</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>你买的什么mesh路由器</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>Kyoto 发表于 2020-7-3 13:20</span><br>
+<span>你买的什么mesh路由器</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>ax1800</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>sakamichi 发表于 2020-7-3 13:21</span><br>
+<span>ax1800</span><br>
+<span>小米的好像更新固件就可以啊，火锅评测不是正好做了一起bbtime</span><br>
+<span>https://www.bilibili.com/video/BV16V411k7Uu?spm_id_from=333.5.b_6469676974616c5f696e74656c6c6967656e63655f6176.39</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>不支持ap模式的话有没有交换机无所谓猫——ax1800——ax1800</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>伊可费斯 发表于 2020-7-3 13:36</span><br>
+<span>不支持ap模式的话有没有交换机无所谓猫——ax1800——ax1800</span><br>
+<span>就是说把一台连猫 然后猫上的2条网线插到这台lan口是么</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>Kyoto 发表于 2020-7-3 13:30</span><br>
+<span>小米的好像更新固件就可以啊，火锅评测不是正好做了一起bbtime</span><br>
+<span>https://www.bilibili.com/video/BV16V411 ...</span><br>
+<span>看了下视频还是接了交换机 想知道没交换机能不能接</span><br>
+</p><p><b>sahara: </b><br>
+<span>你就当路由自带了个交换机就是了，需要再父母接几个网线路由楼不够才用到交换机扩展</span><br>
+</p><p><b>sahara: </b><br>
+<span>你就当路由自带了个交换机就是了，需要再多接几个网线路由楼不够才用到交换机扩展（该死的输入法）</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>sakamichi 发表于 2020-7-3 13:46</span><br>
+<span>就是说把一台连猫 然后猫上的2条网线插到这台lan口是么</span><br>
+<span>不是 走有线回程 子路由要接到第一个ax1800上</span><br>
+</p><p><b>AxeWu: </b><br>
+<span>猫只出一条网线，链接一个主路由，由主路由拨号，其余的为子路由，子路由可以由有线连接主路由，也可以由无线连接主路由。子母路由之间有线链接会比较好。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>AxeWu 发表于 2020-7-3 16:59</span><br>
+<span>猫只出一条网线，链接一个主路由，由主路由拨号，其余的为子路由，子路由可以由有线连接主路由，也可以由无 ...</span><br>
+<span>正解</span><br>
+</p><p><b>KyonCN: </b><br>
+<span> 本帖最后由 KyonCN 于 2020-7-3 20:38 编辑 </span><br>
+<span>主路由用软路由吧</span><br>
+</p><p><b>Sza: </b><br>
+<span>我顺路安利个公牛的插座GN-A140，弱电箱要是二孔插座不够可以用，也不用去换掉本来的拖线板。</span><br>
+</p><p><b>jestime: </b><br>
+<span>KyonCN 发表于 2020-7-3 20:36</span><br>
+<span>主路由用软路由吧</span><br>
+<span>华为和小米都不支持ap模式下的mesh，必须用他自己的当主路由</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>Sza 发表于 2020-7-3 21:15</span><br>
+<span>我顺路安利个公牛的插座GN-A140，弱电箱要是二孔插座不够可以用，也不用去换掉本来的拖线板。 ...</span><br>
+<span>巧了 我今天用的就是这玩意儿 然后顺利关不上门了</span><br>
+</p><p><b>Sza: </b><br>
+<span>sakamichi 发表于 2020-7-3 22:18</span><br>
+<span>巧了 我今天用的就是这玩意儿 然后顺利关不上门了</span><br>
+<span>你家弱电箱比我家的还浅啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945609[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>救人于水火，新换显卡又出问题了，双屏自检显示位置</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>救人于水火，新换显卡又出问题了，双屏自检显示位置</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:39:38 +0000</lastBuildDate>
+    <item>
+      <title>救人于水火，新换显卡又出问题了，双屏自检显示位置[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917860-1-1.html</link>
+      <description>救人于水火，新换显卡又出问题了，双屏自检显示位置&#13;
+如何让开机的系统自检显示在副屏幕呢？
+&#13;
+主屏是电视用的HDMI，副屏幕是平时主用的显示器用的是DP口
+&#13;
+新显卡有1个HDMI口和3个DP口，所以只能这么插
+&#13;
+平时工作用副屏幕，玩游戏用主屏幕
+&#13;
+上个烧坏的卡就没这个问题。那个主屏是电视的HDMI，副屏是显示器DVI口
+&#13;
+有说法是自检显示的屏幕，显卡默认级别最高的接口
+&#13;
+DVI&gt;HDMI&gt;DP
+&#13;
+是这样吗，这还有解吗。
+&#13;
+ 每次开机副屏幕要黑屏老半天，只能猜着屏幕差不多到密码画面了再输入。</description>
+      <content:encoded><![CDATA[<p><b>coobirufas: </b><br>
+<span>救人于水火，新换显卡又出问题了，双屏自检显示位置</span><br>
+<span>如何让开机的系统自检显示在副屏幕呢？</span><br>
+<span>主屏是电视用的HDMI，副屏幕是平时主用的显示器用的是DP口</span><br>
+<span>新显卡有1个HDMI口和3个DP口，所以只能这么插</span><br>
+<span>平时工作用副屏幕，玩游戏用主屏幕</span><br>
+<span>上个烧坏的卡就没这个问题。那个主屏是电视的HDMI，副屏是显示器DVI口</span><br>
+<span>有说法是自检显示的屏幕，显卡默认级别最高的接口</span><br>
+<span>DVI>HDMI>DP</span><br>
+<span>是这样吗，这还有解吗。</span><br>
+<span> 每次开机副屏幕要黑屏老半天，只能猜着屏幕差不多到密码画面了再输入。</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>类似问题，这么奇葩的真是....真的无解了吗？</span><br>
+<span>-----------------------------------------------------------------------------------------------------------------------------------------------------</span><br>
+<span>我是双屏 一块横着一块竖着看文档</span><br>
+<span>以前bios显示在主屏上 今天不知道为什么移到竖着的屏幕上了 我进bios整个人都要歪着看…</span><br>
+<span>有办法调整么？</span><br>
+<span>-----------------------------------------------------------------------------------------------------------------------------------------------------</span><br>
+<span>系统在开机自检时，默认将自检画面（包括主板LOGO画面）显示到显卡默认等级最高的输出接口上，用就是说若同时存在VGA，DVI，HDMI三种接口，通常等级最高的是VGA，它显示时，其他接口是不显示画面。</span><br>
+<span>只有当系统结束自检，并将电脑交由操作系统引导时，此时系统下设置的双显模式才能生效，表现为两个显示器同时显示画面。</span><br>
+<span>所以这是系统启动的硬性顺序!!</span><br>
+<span>------------------------------------------------------------------------------------------------------------------------------------------------------</span><br>
+<span>我和楼主的问题是一样的，主显示器是dp口，副显示器是hdmi口，接副显示器之后开机进bios在副显示器上而且副显示器是竖着的。</span><br>
+<span>如果这两个显示器都连接在同一块显卡上，bios里是不能设置的。</span><br>
+<span>如果两个显示器都用dp或hdmi线连接那么只要对调线就可以了，就证明了显卡的接口其实是有优先级的。</span><br>
+<span>后来我把dp线接再hdmi上方的另一个dp接口，问题就解决了。</span><br>
+<span>把两个线接在不同位置的接口调换几次就应该能解决。</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>这2070S</span><br>
+<span>好像有种奇怪的声音，不确定自己听错了。比硬盘声音低一点，不像是啸叫，风扇也没转。</span><br>
+<span>搞不懂先睡了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917860[0-50]</guid>
+    </item>
+  </channel>
+</rss>

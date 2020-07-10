@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问一下ehview的数据导入机制</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问一下ehview的数据导入机制</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:57:28 +0000</lastBuildDate>
+    <item>
+      <title>请问一下ehview的数据导入机制[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1880435-1-1.html</link>
+      <description>请问一下ehview的数据导入机制&#13;
+ 本帖最后由 不灭人形 于 2019-12-5 20:02 编辑 
+
+EHview的数据导入机制应该有两个
+&#13;
+一个下载里：恢复下载项
+&#13;
+一个是高级里：导入数据
+&#13;
+最近换了个手机，把我旧手机的内容拷贝到了新手机里，结果出现的是恢复下载项失败
+&#13;
+然后试着导入数据，恢复了一些但是条目恢复的不完全，用txt打开发现很多乱码。
+&#13;
+所以想请教一下以前恢复过的用户，这个情况该怎么处理。</description>
+      <content:encoded><![CDATA[<p><b>不灭人形: </b><br>
+<span>请问一下ehview的数据导入机制</span><br>
+<span> 本帖最后由 不灭人形 于 2019-12-5 20:02 编辑 </span><br>
+<span>EHview的数据导入机制应该有两个</span><br>
+<span>一个下载里：恢复下载项</span><br>
+<span>一个是高级里：导入数据</span><br>
+<span>最近换了个手机，把我旧手机的内容拷贝到了新手机里，结果出现的是恢复下载项失败</span><br>
+<span>然后试着导入数据，恢复了一些但是条目恢复的不完全，用txt打开发现很多乱码。</span><br>
+<span>所以想请教一下以前恢复过的用户，这个情况该怎么处理。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>导出那个.db是纯文本的可以自己看看差什么</span><br>
+</p><p><b>不灭人形: </b><br>
+<span> 本帖最后由 不灭人形 于 2019-12-5 16:19 编辑 </span><br>
+<span>typeunknown 发表于 2019-12-5 16:15</span><br>
+<span>导出那个.db是纯文本的可以自己看看差什么</span><br>
+<span>用TXT打开发现很多乱码文字....看不出来差什么</span><br>
+</p><p><b>Austaras: </b><br>
+<span>导出的目测是sqlite的数据库, 自己查怎么处理吧</span><br>
+</p><p><b>GrassSand: </b><br>
+<img src="https://i.loli.net/2019/12/05/TLYhRleKtdzsOW5.jpg" title="https://i.loli.net/2019/12/05/TLYhRleKtdzsOW5.jpg"><br>
+</p><p><b>MungBeanSoup: </b><br>
+<span>我当时也是一直恢复失败,感觉是一次性恢复太多的原因，最后是新建了一个文件夹挪一点恢复一点，挪一点恢复一点</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>TCone: </b><br>
+<span>看成Eviews……我最近应该是魔怔了</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>1、恢复下载项是需要联网重建数据库的，这个时候每一本都需要从eh网站上获取基础数据。在下载项目特别多的时候，基本上都会失败，比如上百本就不要试了。</span><br>
+<span>2、用db配置文件可以恢复下载目录，但下载目录和搜索目录的标签会打乱。db文件需要用专门的database查看器打开，打开后是类似excel的表格，有添加时间和项目标题编号这些。我没有试过修改里面的数据，用专门的db文件编辑器应该能改吧。</span><br>
+<span>3、建议直接钛备份一步到位</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>手机上一点就开了还以为那个db是纯文本，原来是mixplorer内置有查看器</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>原来mixplorer这么厉害的吗，我用MT管理器2是没有打开</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>你拷贝是怎么拷贝的，不要把整个文件夹直接拷贝到电脑，再拷贝到另一台新手机。</span><br>
+<span>先在旧手机上，直接把根目录下的ehviewer文件夹整个压缩成压缩包，然后拷贝到电脑，再拷贝到新手机后解压压缩包。</span><br>
+</p><p><b>不灭人形: </b><br>
+<span>爵士人生 发表于 2019-12-6 00:26</span><br>
+<span>你拷贝是怎么拷贝的，不要把整个文件夹直接拷贝到电脑，再拷贝到另一台新手机。</span><br>
+<span>先在旧手机上，直接把根目 ...</span><br>
+<span>明白了，可能还是本数太多了。明天用你的方法试试吧！</span><br>
+</p><p><b>不灭人形: </b><br>
+<span>pzy2222 发表于 2019-12-5 21:41</span><br>
+<span>1、恢复下载项是需要联网重建数据库的，这个时候每一本都需要从eh网站上获取基础数据。在下载项目特别多的 ...</span><br>
+<span>就是用db配置文件恢复下载目录的时候恢复的不全啊，不知道是哪里出的问题</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>不灭人形 发表于 2019-12-6 00:43</span><br>
+<span>就是用db配置文件恢复下载目录的时候恢复的不全啊，不知道是哪里出的问题 ...</span><br>
+<span>最近我也发现了这个有几率会失败，明明去年还不会的</span><br>
+<span>可以多试几次，看下总本数有没有少，用db还是有可能成功的</span><br>
+</p><p><b>鸭梨很大的路人: </b><br>
+<span>反正一键换机把所有数据换过去，没啥问题</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>钛备份确实可以直接全部复制过去，我换了3台机子都没丢ehv的数据</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1880435[0-50]</guid>
+    </item>
+  </channel>
+</rss>

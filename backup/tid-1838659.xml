@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Aria2 要怎么设置保存下载路径？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Aria2 要怎么设置保存下载路径？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:52:12 +0000</lastBuildDate>
+    <item>
+      <title>Aria2 要怎么设置保存下载路径？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838659-1-1.html</link>
+      <description>Aria2 要怎么设置保存下载路径？&#13;
+我用的是客户端 AriaNg 和浏览器拓展 Camtd ，这俩的下载路径总是会在电脑重启后自动设置成桌面，有办法固定在某一路径吗？</description>
+      <content:encoded><![CDATA[<p><b>AincradWanderer: </b><br>
+<span>Aria2 要怎么设置保存下载路径？</span><br>
+<span>我用的是客户端 AriaNg 和浏览器拓展 Camtd ，这俩的下载路径总是会在电脑重启后自动设置成桌面，有办法固定在某一路径吗？</span><br>
+</p><p><b>mhss: </b><br>
+<span>在你的ariang文件夹里找到aria2.conf这个文件，用记事本打开，里面可以改dir=X:\XXXX\</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>ariang里应该有地方可以改aria2的conf文件啊</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>解决了，谢谢楼上两位</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838659[0-50]</guid>
+    </item>
+  </channel>
+</rss>

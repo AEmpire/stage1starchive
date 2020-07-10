@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Wii-U模拟器没办法跑满60fps，和内存频率有关系吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Wii-U模拟器没办法跑满60fps，和内存频率有关系吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:04:47 +0000</lastBuildDate>
+    <item>
+      <title>Wii-U模拟器没办法跑满60fps，和内存频率有关系吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1865221-1-1.html</link>
+      <description>Wii-U模拟器没办法跑满60fps，和内存频率有关系吗&#13;
+我CPU是8700不带K，主板B360，内存2666 C15，显卡2070s
+&#13;
+跑野炊2K分辨率的时候经常掉到45fps左右，长时间在50fps左右徘徊。1080p和2K几乎没什么区别，4K平均40帧左右
+&#13;
+看了下运行时CPU占用大概50%，也没有哪个核一直吃满，GPU也是50%左右。想来想去考虑是不是吃了内存频率低的亏？
+&#13;
+现在只能限制最高45fps跑2K分辨率，虽然依旧比实机体验好不少，但是跑不到60fps还是很不爽。我的旧版NS这两天玩异界锁链烟雾场景掉帧掉吐了，不知道换长续航版会不会好一点</description>
+      <content:encoded><![CDATA[<p><b>gil: </b><br>
+<span>Wii-U模拟器没办法跑满60fps，和内存频率有关系吗</span><br>
+<span>我CPU是8700不带K，主板B360，内存2666 C15，显卡2070s</span><br>
+<span>跑野炊2K分辨率的时候经常掉到45fps左右，长时间在50fps左右徘徊。1080p和2K几乎没什么区别，4K平均40帧左右</span><br>
+<span>看了下运行时CPU占用大概50%，也没有哪个核一直吃满，GPU也是50%左右。想来想去考虑是不是吃了内存频率低的亏？</span><br>
+<span>现在只能限制最高45fps跑2K分辨率，虽然依旧比实机体验好不少，但是跑不到60fps还是很不爽。我的旧版NS这两天玩异界锁链烟雾场景掉帧掉吐了，不知道换长续航版会不会好一点</span><br>
+</p><p><b>johnie: </b><br>
+<span>不会 从老版换到新版打异界锁链没有任何区别</span><br>
+<span>而且奇怪的是这游戏掌机模式体验比主机好</span><br>
+</p><p><b>红左手: </b><br>
+<span>上油管找bsod gaming的视频参考</span><br>
+</p><p><b>gil: </b><br>
+<span>红左手 发表于 2019-11-12 17:10</span><br>
+<span>上油管找bsod gaming的视频参考</span><br>
+<span>多谢，我去看看</span><br>
+</p><p><b>gil: </b><br>
+<span>johnie 发表于 2019-11-12 17:05</span><br>
+<span>不会 从老版换到新版打异界锁链没有任何区别</span><br>
+<span>而且奇怪的是这游戏掌机模式体验比主机好 ...</span><br>
+<span>我也注意到了。。。感觉掌机模式帧数更高，可能因为只要720p输出的原因</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-11-12 17:39 编辑 </span><br>
+<span>我想应该和CPU主频有关.</span><br>
+<span>9600KF 5G DDR4@3.4g C14</span><br>
+<span>A卡不太行,弄成原分辨率才能在试炼里60帧</span><br>
+<span>而你这个显卡不是瓶颈.</span><br>
+<span>而演示里的也只是3200而已,但是CPU确是5G</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>那也不一定，我3700X只有4G，内存3800 C16，野炊和楼主情况差不多</span><br>
+<span>楼主找到了解决方案麻烦更新一下帖子。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-29 14:37 编辑 </span><br>
+<span>雪ノ下だんご 发表于 2019-12-29 14:32</span><br>
+<span>那也不一定，我3700X只有4G，内存3800 C16，野炊和楼主情况差不多</span><br>
+<span>楼主找到了解决方案麻烦更新一下 ...</span><br>
+<span>发现最近更新了vulkan,rx570,2K+各种pack打勾.可以很简单的野外跑到50左右帧数了原来opengl野外20几帧.</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2019-12-29 15:32 编辑 </span><br>
+<span>那啥，单核频率还是很重要的</span><br>
+<span>我9700K超到5G才能顺畅玩，6600K超到4.4都要到处卡一下</span><br>
+<span>内存都是3000MHz的8G DDR4两条</span><br>
+<span>GPU完全没影响不用怕，6600K上2080ti还是没救</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>gil: </b><br>
+<span>额。。。之前忘了说了，我当时照上面大佬推荐的youtuber的教程更新了下模拟器版本就能稳定60fps了</span><br>
+</p><p><b>Litccc: </b><br>
+<span>这就尴尬了</span><br>
+</p><p><b>melvin95: </b><br>
+<span>Litccc 发表于 2019-12-29 15:51</span><br>
+<span>这就尴尬了</span><br>
+<span> 最重要还是不用多花钱</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>gil: </b><br>
+<span>雪ノ下だんご 发表于 2019-12-29 14:32</span><br>
+<span>那也不一定，我3700X只有4G，内存3800 C16，野炊和楼主情况差不多</span><br>
+<span>楼主找到了解决方案麻烦更新一下 ...</span><br>
+<span>把模拟器更新到1.15试试？然后新版模拟器可以直接在内部把视频插件都更新到最新，把FPS++的4个选项都选上。我不钩的话大概50-60帧，钩了之后稳定60</span><br>
+</p><p><b>peshing: </b><br>
+<span>儒雅之巫女可以玩了吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1865221[0-50]</guid>
+    </item>
+  </channel>
+</rss>

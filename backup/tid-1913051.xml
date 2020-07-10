@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>广电宽带是用了什么黑科技？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>广电宽带是用了什么黑科技？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:18:12 +0000</lastBuildDate>
+    <item>
+      <title>广电宽带是用了什么黑科技？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913051-1-1.html</link>
+      <description>广电宽带是用了什么黑科技？&#13;
+一同事因为众所周知的病毒原因，被困在老家小山村，于是远程开发，需要访问公司在马爸爸云上的mysql和redis，这两个都是IP白名单做防护，按通常套路，先让同事访问ip查询看看出口IP地址是多少，然后加到白名单里，就ok了。然而今天这个同事用的广电宽带（小山村就只有这个）。就是不行，刚开始以为是广电的某种屏蔽，但是后来发现不对啊，能ping通目标服务器。最后折腾半天，把IP白名单设置成所有IP都能访问，结果这同事立马就能连了。于是我们立刻查他的客户端IP。然后震惊的发现：
+&#13;
+这朋友访问网页工具版的IP查询，得到的是一个IP，访问马爸爸云的mysql，mysql显示的客户端IP，是一个IP，访问马爸爸云的Redis，redis显示的客户端，又是一个IP。。。这3个IP反向查位置，也确实是同事小山村所在的县的位置。。。
+&#13;
+我以前听说过广电的宽带比较奇葩，但是没想到是这个奇葩法，这广电家的出口到底咋回事，富余IP这么多的吗？</description>
+      <content:encoded><![CDATA[<p><b>abcxiawei: </b><br>
+<span>广电宽带是用了什么黑科技？</span><br>
+<span>一同事因为众所周知的病毒原因，被困在老家小山村，于是远程开发，需要访问公司在马爸爸云上的mysql和redis，这两个都是IP白名单做防护，按通常套路，先让同事访问ip查询看看出口IP地址是多少，然后加到白名单里，就ok了。然而今天这个同事用的广电宽带（小山村就只有这个）。就是不行，刚开始以为是广电的某种屏蔽，但是后来发现不对啊，能ping通目标服务器。最后折腾半天，把IP白名单设置成所有IP都能访问，结果这同事立马就能连了。于是我们立刻查他的客户端IP。然后震惊的发现：</span><br>
+<span>这朋友访问网页工具版的IP查询，得到的是一个IP，访问马爸爸云的mysql，mysql显示的客户端IP，是一个IP，访问马爸爸云的Redis，redis显示的客户端，又是一个IP。。。这3个IP反向查位置，也确实是同事小山村所在的县的位置。。。</span><br>
+<span>我以前听说过广电的宽带比较奇葩，但是没想到是这个奇葩法，这广电家的出口到底咋回事，富余IP这么多的吗？</span><br>
+</p><p><b>モトロ: </b><br>
+<span>电信一样有nat的建议用ipv6</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>各个地区的广电本地网会买第三方的反向带宽用于跨网访问，出公网的时候走的哪条线就看第三方路由情况了</span><br>
+<span>远程不走跳板机的么233，这安全审计过不去啊（</span><br>
+</p><p><b>abcxiawei: </b><br>
+<span>モトロ 发表于 2020-2-9 23:38</span><br>
+<span>电信一样有nat的建议用ipv6</span><br>
+<span>现在有Nat的宽带很多，但是，我真没见过广电这样的，访问同一个服务商的服务能多源IP的</span><br>
+</p><p><b>hlazd: </b><br>
+<span>我印象中广电宽带就是套娃…</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>Izual: </b><br>
+<span>有次出差用旅馆的歌华宽带就类似这样，2个公网IP随机变化…</span><br>
+</p><p><b>gy6221: </b><br>
+<span>小宽带都这鸟样。。。</span><br>
+<span>其实移动偶尔也会</span><br>
+</p><p><b>overflowal: </b><br>
+<span>小宽带的流量穿透，正常操作</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>我家那边上网ip各省内各县市乱窜，这还罢了，网吧登个qq告诉我在广州登录的...</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>找电信联通买带宽的结果。移动也一样</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>以前有时候在家里登录qq，提示我享受了qq网吧特权</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>数据库都没个堡垒机的吗</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>sirlion: </b><br>
+<span>不是假ip么？你家里能查到的只是广电给你看的，实际上访问外面网站的ip每次都不同，一个村可能就一个ip做出口</span><br>
+</p><p><b>huruii7: </b><br>
+<span>上海电信也差不多，基本每个月给我换一个ip</span><br>
+</p><p><b>绝赞販売中: </b><br>
+<span>上面说移动在我这边这情况是正常的，我之前打游戏因为窜ip，被系统限制了好多次.</span><br>
+</p><p><b>雪影: </b><br>
+<span>除了电信和联通，其他宽带服务商都没自己的主干线，都是找电信联通租的，可能有一些会给公网ip，有些给不了</span><br>
+<span>另外，联通带公网ip的100M上蹄子延迟一般就60m-80ms，广电100M的基本都是破百的，中间也不知道有几层路由</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>happyliuhao: </b><br>
+<span>我移天下第一宽带运营商 不跟其他人掺搅</span><br>
+<span>----发送自 HUAWEI TAS-AN00,Android 10</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913051[0-50]</guid>
+    </item>
+  </channel>
+</rss>

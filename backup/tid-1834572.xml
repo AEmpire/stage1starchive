@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>华为已熟练掌握ARM架构修改【有业内科普下可否？】</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>华为已熟练掌握ARM架构修改【有业内科普下可否？】</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:17:04 +0000</lastBuildDate>
+    <item>
+      <title>华为已熟练掌握ARM架构修改【有业内科普下可否？】[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834572-1-1.html</link>
+      <description>华为已熟练掌握ARM架构修改【有业内科普下可否？】&#13;
+ 本帖最后由 あじ秋刀魚 于 2019-5-26 22:29 编辑 
+
+“在CPU方面，华为买的是ARM的V8永久使用权，可以消化它的东西也可以修改。”邬贺铨称，华为实际上已经很熟练的掌握ARM的设计以及架构的修改，因此也不见得非要ARM再继续提供V9，华为也可以对它进行升级。
+&#13;
+　　谈到安卓操作系统的影响，邬贺铨称，华为自己也做操作系统，希望鸿蒙能够兼容安卓，让App照样可以用，但目前还没有进入市场大规模使用，因此还有待考验。“如果不能支持这些App那么将来境外的用户就受影响了，华为将近一半的市场是在境外的。”
+&#13;
+　　邬贺铨最后表示，实体清单事件凸显了5G的重要性，既要坚持自主创新，也要坚持改革开放，政府在营造更好的网络建设环境方面有义不容辞的责任，实现5G产业化发展数字经济建设网络强国任务艰巨，使命光荣。
+&#13;
+　　全文：https://tech.sina.com.cn/it/2019 ... 99872.shtml?cref=cj
+&#13;
+按照文章的说法，那是不是意味着，随着时间越来越久，华为的麒麟竞争力越来越弱了？
+&#13;
+毕竟，和英国ARM公司去比拼软件的优化能力，有点不靠谱，
+&#13;
+1、等V9出来的时候，如果自己这边不能完全研发出全新的架构，属于慢性死亡了吧？
+&#13;
+2、如果说 V8魔改，新增加了新的指令集，那专利算自己的吗？
+&#13;
+那如果之后ARM在V9强行增加了你研发的指令集，是否允许、？</description>
+      <content:encoded><![CDATA[<p><b>あじ秋刀魚: </b><br>
+<span>华为已熟练掌握ARM架构修改【有业内科普下可否？】</span><br>
+<span> 本帖最后由 あじ秋刀魚 于 2019-5-26 22:29 编辑 </span><br>
+<span>“在CPU方面，华为买的是ARM的V8永久使用权，可以消化它的东西也可以修改。”邬贺铨称，华为实际上已经很熟练的掌握ARM的设计以及架构的修改，因此也不见得非要ARM再继续提供V9，华为也可以对它进行升级。</span><br>
+<span>　　谈到安卓操作系统的影响，邬贺铨称，华为自己也做操作系统，希望鸿蒙能够兼容安卓，让App照样可以用，但目前还没有进入市场大规模使用，因此还有待考验。“如果不能支持这些App那么将来境外的用户就受影响了，华为将近一半的市场是在境外的。”</span><br>
+<span>　　邬贺铨最后表示，实体清单事件凸显了5G的重要性，既要坚持自主创新，也要坚持改革开放，政府在营造更好的网络建设环境方面有义不容辞的责任，实现5G产业化发展数字经济建设网络强国任务艰巨，使命光荣。</span><br>
+<span>　　全文：https://tech.sina.com.cn/it/2019 ... 99872.shtml?cref=cj</span><br>
+<span>按照文章的说法，那是不是意味着，随着时间越来越久，华为的麒麟竞争力越来越弱了？</span><br>
+<span>毕竟，和英国ARM公司去比拼软件的优化能力，有点不靠谱，</span><br>
+<span>1、等V9出来的时候，如果自己这边不能完全研发出全新的架构，属于慢性死亡了吧？</span><br>
+<span>2、如果说 V8魔改，新增加了新的指令集，那专利算自己的吗？</span><br>
+<span>那如果之后ARM在V9强行增加了你研发的指令集，是否允许、？</span><br>
+</p><p><b>攻守俱其土肉狐: </b><br>
+<span>参照59/59改/59改改/59再改剁手等</span><br>
+</p><p><b>hourousha: </b><br>
+<span> 本帖最后由 hourousha 于 2019-5-26 22:26 编辑 </span><br>
+<span>改的是微架构，也就是改改Cortex，类似高通的Kyro 2xx，3xx，能不能像AMD一样搞一套不同于Intel的X86-64指令集的微架构，我看悬。</span><br>
+<span>至于因此不需要ARM再提供ARM V9，我看这砖家是没搞清楚什么叫指令集授权。</span><br>
+</p><p><b>delpin: </b><br>
+<span>全中国之力搞一个魔改v8出来就一定比不过v9？跪久了站不起来了，这几年几千亿白投资的？</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>苹果也是买了ARM指令集授权，自己搞的构架。</span><br>
+<span>当年高通也是自主构架，后来800系列被64位摆了一道，然后就不行了。</span><br>
+<span>海思开发类似于苹果a系列芯片，有人才储备，有技术储备，还在使用ARM指令集完全是为了软件生态兼容的问题。</span><br>
+<span>安卓那个本身就是一个类似于java的虚拟机，如果自研系统，把虚拟机移植了，所有安卓app照样用，性能基本没啥影响。</span><br>
+<span>这次断供也算是给华为一个机会，一旦布局开了，以后软件生态和硬件生态可就是彻底和美国脱离开了。</span><br>
+</p><p><b>响音: </b><br>
+<span>为啥不靠谱呢</span><br>
+<span>arm的人是海思零头</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>hourousha 发表于 2019-5-26 22:25</span><br>
+<span>改的是微架构，也就是改改Cortex，类似高通的Kyro 2xx，3xx，能不能像AMD一样搞一套不同于Intel的X86-64指 ...</span><br>
+<span>华为人才储备还是够的，资金也够，技术也够，现在给了充足的决心，造出一个跟苹果a系列类似的芯片还是很稳的。</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>设计修改说的是ARM的公版微架构实现吧，v8到v9应该没有v7到v8变化那么大吧</span><br>
+</p><p><b>kir909: </b><br>
+<span>arm架构只要过渡就可以了,将来还是压注新risc-v</span><br>
+<span>而且我觉得华为的技术实力,比arm强也没什么可奇怪de</span><br>
+</p><p><b>d2loader: </b><br>
+<span>得了吧</span><br>
+<span>ARM又如何，很厉害吗？ 被APPLE吊打</span><br>
+</p><p><b>slxxtanke: </b><br>
+<span>华为有款用于服务器的ARM CPU 鲲鹏920 （华为云的那些arm redis就是基于这个组的服务器吧）</span><br>
+<span>看宣传就是用的自研（基于公版改造）的架构 </span><br>
+<span>看介绍说的是基于v8.2a 但加了很多v8.4的特性？v9八字还没一撇来着？</span><br>
+</p><p><b>d2loader: </b><br>
+<span>hourousha 发表于 2019-5-26 22:25</span><br>
+<span>改的是微架构，也就是改改Cortex，类似高通的Kyro 2xx，3xx，能不能像AMD一样搞一套不同于Intel的X86-64指 ...</span><br>
+<span>你把顺序都弄反了</span><br>
+<span>是AMD先搞出来amd64,后来交叉授权给intel，指令集统一了名字改造成x86-64的</span><br>
+<span>还有买了指令集也有像Apple那样牛逼到思路完全不一样的A12</span><br>
+<span>ARM本身说他多有实力还是算了吧</span><br>
+</p><p><b>w酱: </b><br>
+<span>大部分android ndk程序还是armv7指令集的，所以华为自己魔改一个也不是不可以，兼容armv7再撑三年就是了。</span><br>
+<span>但是对于未来不好说，开发者可不一定会专门为你华为单独编译一份新的</span><br>
+</p><p><b>N.Y.H: </b><br>
+<span> 本帖最后由 N.Y.H 于 2019-5-26 22:53 编辑 </span><br>
+<span>华为厉害的地方是全球招研究人员，光天朝这辈子搞这个没希望，产品再不济也有这个大市场给你消费掉，这也是任老板的底气</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>N.Y.H 发表于 2019-5-26 22:52</span><br>
+<span>华为厉害的地方是全球招研究人员，光天朝这辈子没希望，这也是任老板的底气 ...</span><br>
+<span>美研所：......</span><br>
+</p><p><b>hourousha: </b><br>
+<span> 本帖最后由 hourousha 于 2019-5-26 22:58 编辑 </span><br>
+<span>d2loader 发表于 2019-5-26 22:48</span><br>
+<span>你把顺序都弄反了</span><br>
+<span>是AMD先搞出来amd64,后来交叉授权给intel，指令集统一了名字改造成x86-64的</span><br>
+<span>我指的是AMD和Intel在基于同指令集的微架构上的各自实现，并没特指X64指令集的产生沿革啊。和顺序有啥关系？</span><br>
+<span>此外我也没说ARM实力怎么怎么强。但话说回来，先不去比Apple，华为目前有同档的抛开Cortex自己实现的微架构了么？</span><br>
+</p><p><b>令和猛男: </b><br>
+<span>这还是往谦虚了说，实话实说又要一波制裁</span><br>
+</p><p><b>sdnoc: </b><br>
+<span>邬贺铨说的啊这可是，跟其他那些谣言骚货不一样，基本可信吧</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>ARM架构还是很有用的。</span><br>
+<span>举个比较好理解的例子，芯片指令集就类似于虚幻引擎，ARM指令集更新就类似于虚幻3到虚幻4。虚幻3进化到虚幻4，你得换显卡，ARM指令集进化你就得缩小CPU制程，优化CPU结构。</span><br>
+<span>大家都知道CPU制程现在碰到天花板了吧？正常电流可以稳定通过的晶体管制程在7纳米，现在已经做到7纳米了，就在等新材料面世才可以继续往下做。ARM架构也面临着这个问题。</span><br>
+<span>要怎么才能使得下一代架构对这一代有明显代差呢？只有一种可能，就是ARM下一代开发出了一种全新算法，使得电子在cpu中流动的效率更高了。类似于英特尔cpu的超线程技术。</span><br>
+<span>从最近几代ARM架构进化来看，不太可能出现。华为用自己的本事维护现有架构，更新现有架构让其发挥更好。还是能做得到的。要求不会特别高，蹦一蹦就行。</span><br>
+</p><p><b>d2loader: </b><br>
+<span>hourousha 发表于 2019-5-26 22:57</span><br>
+<span>我指的是AMD和Intel在基于同指令集的微架构上的各自实现，并没特指X64指令集的产生沿革啊。和顺序有啥关系 ...</span><br>
+<span>农企论实力可是一直比牙膏厂弱， x86-64是比较弱的AMD先提出然后实现的</span><br>
+<span>当然和顺序有关啊， 魔改指令集这种事情， 比较弱的公司先做出来， 历史上都有案例了。</span><br>
+<span>何况海思也不弱</span><br>
+</p><p><b>aranyakay: </b><br>
+<span>真是天真幼稚，为啥默认V9没有中国的份？</span><br>
+<span>首先，arm的并不是一个美国公司。现在不能授权V8，很可能是V8含有大于25%的美国技术。（也可能是美国太强他不敢出头）</span><br>
+<span>按照人类的利益最大化原则，V9将会是一个中美争夺战。我如果是arm公司的老总，将会用这根骨头换取最大利益，中国美国，谁能给我最好的利益（最强力的保护），我就和谁合作做V9。</span><br>
+</p><p><b>自旋: </b><br>
+<span> 本帖最后由 自旋 于 2019-5-26 23:36 编辑 </span><br>
+<span>关于楼主的后两个问题：</span><br>
+<span>增加原创指令后，原创指令的知识产权（如专利等）属于华为所有，arm如需使用，需要获得华为的授权。</span><br>
+<span>其实arm的水平并不是不可超越的，同样的指令集下，苹果和高通都能超过它的公版设计，华为未必不行。</span><br>
+</p><p><b>魔法酪饼: </b><br>
+<span>我只知道现在很多东西不自己做是因为人家做了之后买来方便事少省心。。。</span><br>
+</p><p><b>guyfawkes: </b><br>
+<span>今后几年，其他国家研发的重要事项应该就是想着怎么把美国专利的比例降低到25%以下。毕竟14亿人的大市场，总不能美国人一纸禁令，就白瞎了吧。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>别太高看老外了，除了Jim Keller这类首屈一指的大佬架构师，其他人不管I还是A都是只会靠工艺提升挤牙膏的渣渣罢了，还真未必比得上海思做研发的。</span><br>
+</p><p><b>hourousha: </b><br>
+<span> 本帖最后由 hourousha 于 2019-5-26 23:56 编辑 </span><br>
+<span>d2loader 发表于 2019-5-26 23:24</span><br>
+<span>农企论实力可是一直比牙膏厂弱， x86-64是比较弱的AMD先提出然后实现的</span><br>
+<span>当然和顺序有关啊， 魔改指令集这 ...</span><br>
+<span>你纠结的点很奇特啊。好像AMD从X64时代才开始设计CPU似的。人家从386时代就开始有不同于Intel的设计了啊。我指的是AMD有不同于Intel的微架构这一点。别往魔改指令集方向上扯啊我说。说的不是一个事。</span><br>
+<span>而且这事和魔改指令集不沾边，往现有指令集里加新指令并不新鲜也不难，换句话说，ARM肯定会公开ARM v9的指令集文档，华为能实现一部分甚至全部都实现的可能性并不太低。但没指令集授权你敢标着支持ARM v9生产销售吗？所以我说这专家到底懂不懂指令集授权怎么回事。</span><br>
+<span>当然我看下来你的意思似乎是，华为先自己添加一堆指令，然后ARM看着：‘这很不错啊’。于是就把华为这个整合到V8里顺便改名成ARM V9了，这样一来华为自然就天然支持ARM v9了，你觉得这可能吗？自己搞能搞成3d NOW!就谢天谢地了——这玩意虽然终究没什么人用但起码理论上还有些用。</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>1，ARM V9短时间内出不来，登出来了金毛可能都滚蛋了</span><br>
+<span>2，华为已经大幅度修改ARM V8架构，IPC要比公办V8的A72性能高，这个做法与高通一样</span><br>
+<span>3，就算华为拿不到未来V9架构，其他中国企业照样可以拿到，大不了建个皮包公司，买了V9全套，然后华为收购，架构授权到手</span><br>
+</p><p><b>d2loader: </b><br>
+<span>hourousha 发表于 2019-5-26 23:48</span><br>
+<span>你纠结的点很奇特啊。好像AMD从X64时代才开始设计CPU似的。人家从386时代就开始有不同于Intel的设计了啊。 ...</span><br>
+<span>得了吧我可没说华为要自己加什么指令</span><br>
+<span>一个只会设计指令集，作不出来对应微架构的Fabless公司在业界也太罕见了</span><br>
+<span>现实中只有riscv基金会或者MIPS这种破落户会干这种事。</span><br>
+</p><p><b>stedgghe: </b><br>
+<span>响音 发表于 2019-5-26 22:26</span><br>
+<span>为啥不靠谱呢</span><br>
+<span>arm的人是海思零头</span><br>
+<span>没那么多, 海思大概7000人.</span><br>
+</p><p><b>dennisyy: </b><br>
+<span>CPU业内</span><br>
+<span>v8架构和A72的架构是两回事，先搞清几个概念</span><br>
+<span>arm v7 v8指的是编程模型（或者叫指令集），你可以理解为是一种协议，本身内容是完全公开的，任何人都可以推出兼容这个编程模型的产品，只不过必须得到arm授权（华为有），不授权会有法律问题。arm的编程模型的定义权一直牢牢掌握在他自己手里，而且有全球的专利布局来保护他。设计指令集就跟其它协议一样，只需要写一个文档，只不过文档的内容需要大量经验和预判。目前除了arm，还有x86,MIPS,RISCV等开源指令集。</span><br>
+<span>cortex A73,A76这些是处理器架构，是CPU具体的设计，这些是不公开的，arm把CPU设计授权给华为用，华为就可以在芯片中使用这些CPU（根据级别和价格不同，有的能看到文档和源码，有的看不到）。海思是有能力修改和优化arm CPU的，也有能力设计基于arm指令集的全新架构的CPU（比如泰山），前提是拥有arm v8指令集的授权。没有指令集授权，你完全可以设计兼容产品，只不过会面临法律问题。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>飞侠小黑: </b><br>
+<span>arm真牛逼就不会被苹果吊打这么多年了</span><br>
+<span>更别说用惯高通的根本看不上mali的gpu</span><br>
+<span>海思转正以后比必然会加大投入，未来吊打arm那天千万别奇怪</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>高通半定制，NV慢慢换上自有架构了，现在市面在售的原味ARM公版CPU机器是不是 Nintendo Switch</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>也别小看arm公版吧，现在除了苹果哪个比公版能打了。高通自研这么久除了800那一代往后哪一代都是被吊打。同样是20nm的a57，三星的7420，n家的Tegra x1哪个做成高通810那个熊样。</span><br>
+<span>再看看三星现在自己研发的猫鼬更是整个高分低能。</span><br>
+<span>不是arm不行是苹果太强大。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>飞侠小黑 发表于 2019-5-27 00:53</span><br>
+<span>arm真牛逼就不会被苹果吊打这么多年了</span><br>
+<span>更别说用惯高通的根本看不上mali的gpu</span><br>
+<span>海思转正以后比必然会加大投入 ...</span><br>
+<span>这能不能不要这么无知啊</span><br>
+<span>ARM自己又不出CPU芯片，只是卖指令集和IP授权而已</span><br>
+<span>就算是苹果的CPU也是买了ARM的指令集授权好么</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 01:35</span><br>
+<span>这能不能不要这么无知啊</span><br>
+<span>ARM自己又不出CPU芯片，只是卖指令集和IP授权而已</span><br>
+<span>就算是苹果的CPU也是买了ARM的 ...</span><br>
+<span>他意思是如果ARM公版牛逼，安卓众早就围剿苹果或者苹果放弃完全自研了</span><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>奶绷子 发表于 2019-5-26 23:49</span><br>
+<span>1，ARM V9短时间内出不来，登出来了金毛可能都滚蛋了</span><br>
+<span>2，华为已经大幅度修改ARM V8架构，IPC要比公办V8的A7 ...</span><br>
+<span>还皮包公司，你这是存心坑死华为吧。</span><br>
+<span>想想中兴当初是怎么被美国拉黑的，不就是通过中间皮包公司出口含美国器件的产品给伊朗，结果违反了美国EAR里的再出口规定。去年还骂着中兴，今年就给华为出这种馊主意？当美国人那长达几百页的EAR条例是纸老虎啊。</span><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>dennisyy 发表于 2019-5-27 00:29</span><br>
+<span>CPU业内</span><br>
+<span>v8架构和A72的架构是两回事，先搞清几个概念</span><br>
+<span>arm v7 v8指的是编程模型（或者叫指令集），你可以理 ...</span><br>
+<span>问题来了，</span><br>
+<span>如果ARM在下一代架构中新增或优化了部分指令集，而安卓又针对新指令集的编译和runtime进行了调整，华为现有的V8架构咋办，总不能让所有APP都针对华为的老旧V8架构再一直保留一套代码吧。</span><br>
+<span>这样搞下去的话，生态圈会是一个最大的问题。</span><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>アーシェス 发表于 2019-5-27 01:39</span><br>
+<span>他意思是如果ARM公版牛逼，安卓众早就围剿苹果或者苹果放弃完全自研了</span><br>
+<span>不好这么比较吧，Apple毕竟有自己封闭的iOS，可以针对自家CPU的性能做到极高的优化</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 01:56</span><br>
+<span>问题来了，</span><br>
+<span>如果ARM在下一代架构中新增或优化了部分指令集，而安卓又针对新指令集的编译和runtime进行了 ...</span><br>
+<span>ARMv8机器那么多，会兼容很久的</span><br>
+</p><p><b>jojoaidog: </b><br>
+<span>guyfawkes 发表于 2019-5-26 23:39</span><br>
+<span>今后几年，其他国家研发的重要事项应该就是想着怎么把美国专利的比例降低到25%以下。毕竟14亿人的大市场， ...</span><br>
+<span>赞同</span><br>
+</p><p><b>startraveller: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 01:56</span><br>
+<span>问题来了，</span><br>
+<span>如果ARM在下一代架构中新增或优化了部分指令集，而安卓又针对新指令集的编译和runtime进行了 ...</span><br>
+<span>Android的代码华为自己贡献不小的</span><br>
+</p><p><b>w酱: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 01:56</span><br>
+<span> 问题来了， 如果ARM在下一代架构中新增或优化了部分指令集，而安卓又针对新指令集的编译和runtime进行了 ...</span><br>
+<span>这个兼容期至少有5年，5年后可能android都凉了</span><br>
+</p><p><b>victorzl: </b><br>
+<span>arm这块其实不用太担心,魔改应该可以撑很久.</span><br>
+<span>毕竟对于大多数用户来说,cpu的差距在整个系统层面上根本感觉不出来(对,就是内存门的说法),主要的心理落差在于跑分工具和广告上.</span><br>
+<span>实在不行了还有明日之星(备胎)riscv...</span><br>
+<span>riscv:我是谁?我在哪儿?我行我上...?</span><br>
+<span>关键在于tsmc和eda工具.</span><br>
+<span>smic只能凑活用,想要和别家拼旗舰基本上没戏.tsmc目前没卡还能坚持坚持.</span><br>
+<span>eda工具连可代替都没有,我想了好久感觉大概只有类似解散海思由假·第三方收购这种办法来搞....</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 01:49</span><br>
+<span>还皮包公司，你这是存心坑死华为吧。</span><br>
+<span>想想中兴当初是怎么被美国拉黑的，不就是通过中间皮包公司出口含美 ...</span><br>
+<span>中兴是因为出口伊朗，不适因为皮包公司</span><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>奶绷子 发表于 2019-5-27 10:56</span><br>
+<span>中兴是因为出口伊朗，不适因为皮包公司</span><br>
+<span>中兴，华为，乃至爱立信，诺基亚对伊朗出口的业务都是通过中东国家设立的第三方公司来做的，懂吗</span><br>
+<span>区别在于谁的法律合规隔断做得更好</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>Aquarius0120 发表于 2019-5-27 13:49</span><br>
+<span>中兴，华为，乃至爱立信，诺基亚对伊朗出口的业务都是通过中东国家设立的第三方公司来做的，懂吗</span><br>
+<span>区别在 ...</span><br>
+<span>那还不是因为出口问题，如果不出口伊朗，你在国内建立100个皮包公司，美国会因此鸟你么</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>参照intel搞得strongarm                  xscale</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834572[0-50]</guid>
+    </item>
+  </channel>
+</rss>

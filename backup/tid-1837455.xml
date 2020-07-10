@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>准备自己架个WEB服务器，用哪种LINUX比较好？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>准备自己架个WEB服务器，用哪种LINUX比较好？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:59:34 +0000</lastBuildDate>
+    <item>
+      <title>准备自己架个WEB服务器，用哪种LINUX比较好？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837455-1-1.html</link>
+      <description>准备自己架个WEB服务器，用哪种LINUX比较好？&#13;
+自己搭点东西玩，主要是用node.js，mongodb这些东西做API，求问哪种LINUX比较合适？不太懂LINUX的各种发行版，要求就是尽可能轻量。是不是debian比较好？</description>
+      <content:encoded><![CDATA[<p><b>chan: </b><br>
+<span>准备自己架个WEB服务器，用哪种LINUX比较好？</span><br>
+<span>自己搭点东西玩，主要是用node.js，mongodb这些东西做API，求问哪种LINUX比较合适？不太懂LINUX的各种发行版，要求就是尽可能轻量。是不是debian比较好？</span><br>
+</p><p><b>Zest: </b><br>
+<span>CENTOS</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>肥朵拉怎么样啊</span><br>
+</p><p><b>绝种好男人: </b><br>
+<span>胖友，听说过宝塔面板吗</span><br>
+</p><p><b>云梦渊泽: </b><br>
+<span>debian是信仰呀</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>主流就CentOS7/Ubuntu, 想轻量一点就装的时候只选需要的组件</span><br>
+<span>Linux太轻量的话什么功能都没有, 都要自己装自己配. 配完了基本不会去动的生产环境也就罢了, 开发的话经常要改来改去, 弄太极端就是自寻烦恼.</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>现在的趋势是随便一个发行版用docker</span><br>
+</p><p><b>lolozp: </b><br>
+<span>debian centos</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>RHEL？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>没区别 反正最后都docker</span><br>
+</p><p><b>d2loader: </b><br>
+<span>真的是不熟才会问熟了不用问的问题</span><br>
+<span>推荐docker里用alpine</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>thegodra: </b><br>
+<span>首选ubuntu，资料多，包新，还有PPA</span><br>
+</p><p><b>gdsdjcb: </b><br>
+<span>Ubuntu</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>alpine天下第一</span><br>
+</p><p><b>zyhang: </b><br>
+<span>玩又要轻量就用Arch</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>docker也要选基础镜像的</span><br>
+<span>centos吧</span><br>
+</p><p><b>chan: </b><br>
+<span> 本帖最后由 chan 于 2019-6-7 06:30 编辑 </span><br>
+<span>Realplayer 发表于 2019-6-6 17:46</span><br>
+<span>肥朵拉怎么样啊</span><br>
+<span>这个真的好用，超好用。几下就把环境搭好了。 谢谢</span><br>
+<span>fedora里面我随便输入一个npm，提示“没这个命令，你是不是要安装npm包？”，回答yes就帮我装好了…其他vue什么的全是这么装的，这个特性太让我惊喜了，试了其他七八个Linux都没这功能，简直新手福音。</span><br>
+<span>docker慢慢学习</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>现在的趋势是cloud native。架web服务器和操作系统没什么关系。。。</span><br>
+</p><p><b>treexper: </b><br>
+<span>你这些都是跨平台的东西，用你熟悉的操作系统尽快进入开发就行了。发布时再考虑用哪个linux发行版。</span><br>
+</p><p><b>citrus: </b><br>
+<span>开发练手还是ubuntu或其他debian系的。因为官方和第三方的包多，方便，文档丰富，不追求最新的用LTS稳定性也可以</span><br>
+<span>生产环境或企业IT基础设施还是上rhel或centos吧</span><br>
+<span>如果是自己拥有硬件的服务器，轻量化直接选择最小安装自己加包，或者研究一下下面两个选项</span><br>
+<span>https://help.ubuntu.com/lts/installation-guide/arm64/apds04.html</span><br>
+<span>https://wiki.centos.org/HowTos/ManualInstall</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>lxd或docker里跑alpine</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>哪个都行我习惯gentoo，htpc和nas都是</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>KataseMayoi: </b><br>
+<span>推荐Docker，Centos还不错</span><br>
+<span>Fedora有个小问题是Docker的版本永远跟不上Fedora的版本，我升29和30之后都惨遭没Docker官方支持，就改成Centos了目前感觉良好</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>liwangli1983 发表于 2019-6-7 10:02</span><br>
+<span>哪个都行我习惯gentoo，htpc和nas都是</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+<span>gentoo现在还是所有东西都要自己编译吗？</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>catazshadow 发表于 2019-6-7 11:36</span><br>
+<span>gentoo现在还是所有东西都要自己编译吗？</span><br>
+<span>基本上吧，也有firefox-bin这样预编译好的，但极少</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>liwangli1983 发表于 2019-6-8 10:34</span><br>
+<span>基本上吧，也有firefox-bin这样预编译好的，但极少</span><br>
+<span>打扰了</span><br>
+</p><p><b>conanlm: </b><br>
+<span>问一下wsl，商店里没有CentOS，怎么办</span><br>
+</p><p><b>xk1357240: </b><br>
+<span>conanlm 发表于 2019-6-8 10:59</span><br>
+<span>问一下wsl，商店里没有CentOS，怎么办</span><br>
+<span>那就ubuntu 呗，centos 不觉得自带源各种软件都很老么？</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>你的需求甚至可以用windows server</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mimighost: </b><br>
+<span>问就选ubuntu得了，你能找到的资源最多</span><br>
+</p><p><b>solaris40: </b><br>
+<span>xk1357240 发表于 2019-6-9 12:45</span><br>
+<span>那就ubuntu 呗，centos 不觉得自带源各种软件都很老么？</span><br>
+<span>Centos 7能通过yum装gcc-8.x</span><br>
+</p><p><b>Zest: </b><br>
+<span>xk1357240 发表于 2019-6-9 12:45</span><br>
+<span>那就ubuntu 呗，centos 不觉得自带源各种软件都很老么？</span><br>
+<span>自己加个新的源然后yum -y update不就得了</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>黑群其实挺好~~~~</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837455[0-50]</guid>
+    </item>
+  </channel>
+</rss>

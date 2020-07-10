@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>周末抽空写了个Chrome的视频字幕插件，俺寻思可以分享一下</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>周末抽空写了个Chrome的视频字幕插件，俺寻思可以分享一下</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:28:25 +0000</lastBuildDate>
+    <item>
+      <title>周末抽空写了个Chrome的视频字幕插件，俺寻思可以分享一下[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832719-1-1.html</link>
+      <description>周末抽空写了个Chrome的视频字幕插件，俺寻思可以分享一下&#13;
+ 本帖最后由 龟丞相 于 2019-5-19 18:59 编辑 
+
+&gt;海外党，被国内视频网站屏蔽IP；
+&#13;
+&gt;BT下载会被查水表；
+&#13;
+&gt;国外视频网站能看，但没有字幕；
+&#13;
+&gt;找不到现成的字幕插件；
+&#13;
+于是我就做自己写插件了。
+&#13;
+总共没多少行，引用个npm库，能用，搞定。
+&#13;
+当然也只是“能用”的程度而已，麻烦的地方一大堆，具体都写在介绍页面里了（顺便请不要吐槽我的英语小作文，英语就是这么渣没办法）
+&#13;
+如果有其他海外党也有这需求的话，就……勉强这个先用着吧。对我自己来说倒是够用了，其他人尤其非码农用起来大概会各种别扭，所以源代码我也扔Github上了，期待接盘侠fork优化
+&#13;
+目前都是在Amazon Prime Video上测的，其他网站高概率会有问题，看脸吧
+&#13;
+插件链接：https://chrome.google.com/webstore/detail/assloader/kgekkblldbeehilpnmlfmbkgnemcgbkl
+&#13;
+github链接：https://github.com/regsvr32/AssLoader---Chrome-extension
+&#13;
+PS：求助，在哪能下载到当季新番的中文.ass字幕？比如有没有对伸手党友好的字幕组论坛啥的…</description>
+      <content:encoded><![CDATA[<p><b>龟丞相: </b><br>
+<span>周末抽空写了个Chrome的视频字幕插件，俺寻思可以分享一下</span><br>
+<span> 本帖最后由 龟丞相 于 2019-5-19 18:59 编辑 </span><br>
+<span>>海外党，被国内视频网站屏蔽IP；</span><br>
+<span>>BT下载会被查水表；</span><br>
+<span>>国外视频网站能看，但没有字幕；</span><br>
+<span>>找不到现成的字幕插件；</span><br>
+<span>于是我就做自己写插件了。</span><br>
+<span>总共没多少行，引用个npm库，能用，搞定。</span><br>
+<span>当然也只是“能用”的程度而已，麻烦的地方一大堆，具体都写在介绍页面里了（顺便请不要吐槽我的英语小作文，英语就是这么渣没办法）</span><br>
+<span>如果有其他海外党也有这需求的话，就……勉强这个先用着吧。对我自己来说倒是够用了，其他人尤其非码农用起来大概会各种别扭，所以源代码我也扔Github上了，期待接盘侠fork优化</span><br>
+<span>目前都是在Amazon Prime Video上测的，其他网站高概率会有问题，看脸吧</span><br>
+<span>插件链接：https://chrome.google.com/webstore/detail/assloader/kgekkblldbeehilpnmlfmbkgnemcgbkl</span><br>
+<span>github链接：https://github.com/regsvr32/AssLoader---Chrome-extension</span><br>
+<span>PS：求助，在哪能下载到当季新番的中文.ass字幕？比如有没有对伸手党友好的字幕组论坛啥的…</span><br>
+</p><p><b>sekitomokazu: </b><br>
+<span>666啊。测试下</span><br>
+</p><p><b>feger: </b><br>
+<span>能翻近来么 或者照顾一下 天朝的～ 谢谢了</span><br>
+</p><p><b>StarsPlatinum: </b><br>
+<span>楼主怎么这么强</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>nb！外挂字幕建议你去漫区专门开帖问问。新番每周更新其实挺难找的，大部分都是整片下载。不知道vcbs论坛上带不带新番字幕。基本都是旧番。有时候时轴也不一定对？</span><br>
+</p><p><b>yoki42: </b><br>
+<span>射手复活？</span><br>
+</p><p><b>fanghuan27: </b><br>
+<span>翻回国下bt </span><br>
+</p><p><b>TouAmano: </b><br>
+<span>找个没有版权要求的VPS搭个离线下载服务器然后在线看</span><br>
+</p><p><b>龟丞相: </b><br>
+<span>feger 发表于 2019-5-19 19:29</span><br>
+<span>能翻近来么 或者照顾一下 天朝的～ 谢谢了</span><br>
+<span>插件链接最后面的就是应用ID，我印象墙内是有网站能根据ID抓取离线crx文件来着</span><br>
+</p><p><b>龟丞相: </b><br>
+<span>若荼泱 发表于 2019-5-19 19:50</span><br>
+<span>nb！外挂字幕建议你去漫区专门开帖问问。新番每周更新其实挺难找的，大部分都是整片下载。不知道vcbs论坛上 ...</span><br>
+<span>时间轴的问题我又另外写了个脚本直接批量修改ass文件了，毕竟做在插件上的话又要考虑UI，懒</span><br>
+</p><p><b>龟丞相: </b><br>
+<span>VPS啥的从性质上来说还是非法下载啦（虽然其实是也买了），也是因为正好订阅了Amazon的高级会员，动画片儿都是見放題，相比之下我还是倾向于合法渠道的。</span><br>
+</p><p><b>wjr89327cs: </b><br>
+<span>支持技术帝</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832719[0-50]</guid>
+    </item>
+  </channel>
+</rss>

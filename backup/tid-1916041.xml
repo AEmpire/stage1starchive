@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何在github上实现这种需求？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何在github上实现这种需求？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:55:13 +0000</lastBuildDate>
+    <item>
+      <title>如何在github上实现这种需求？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916041-1-1.html</link>
+      <description>如何在github上实现这种需求？&#13;
+感觉应该是一个挺基础的需求：
+&#13;
+A有一个仓库，B把A的仓库复制到自己的仓库，或者fork到自己的仓库；
+&#13;
+B想把里面的一个配置文件更改成适合于自己的配置，但是同时，又接收A对这个配置的最新改动；（这里是不是要用到正则表达式替换）
+&#13;
+最后就想把这个流程自动化了，最好是不要借助于V*P*S、云主机之类的，有没有现成的服务将这个流程完全自动化？</description>
+      <content:encoded><![CDATA[<p><b>大象吃西瓜: </b><br>
+<span>如何在github上实现这种需求？</span><br>
+<span>感觉应该是一个挺基础的需求：</span><br>
+<span>A有一个仓库，B把A的仓库复制到自己的仓库，或者fork到自己的仓库；</span><br>
+<span>B想把里面的一个配置文件更改成适合于自己的配置，但是同时，又接收A对这个配置的最新改动；（这里是不是要用到正则表达式替换）</span><br>
+<span>最后就想把这个流程自动化了，最好是不要借助于V*P*S、云主机之类的，有没有现成的服务将这个流程完全自动化？</span><br>
+</p><p><b>citrus: </b><br>
+<span>git merge不就是用来干这个的？A B各维护一个branch，B不断merge A的更新</span><br>
+<span>不过最好还是在设计时允许配置文件include更多文件，或者一个目录存放多个配置文件，像apache那样</span><br>
+</p><p><b>萌名雪: </b><br>
+<span>这是标准的rebase场景嘛，只是触发hook有点难弄……各路 CI 似乎都没有「别家仓库触发自己 CI 的动作」</span><br>
+</p><p><b>win8: </b><br>
+<span>建一共分支，然后收到更新之后手动merge。自动肯定会出现冲突的，早晚的事情</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>B 创建一个 repo 维护 patch 文件就行了，不用 fork A。如果应用 patch 的时候有冲突，其他自动合并的手段也会有冲突。</span><br>
+<span>一般公共的配置框架，比如 Oh My Zsh 这种，都是支持自定义目录（~/.oh-my-zsh/custom）覆盖默认配置的。</span><br>
+<span>这种情况下，只需要维护自定义配置就行了，每次先 clone A，然后把自定义部分 clone 下来。</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>github上有个pull的工具……https://wei.github.io/pull/</span><br>
+<span>可以让你fork完的仓库自动同步被fork的仓库的所有pr。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916041[0-50]</guid>
+    </item>
+  </channel>
+</rss>

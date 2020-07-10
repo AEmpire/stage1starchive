@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>笔记本插拔电源后黑屏一小会</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>笔记本插拔电源后黑屏一小会</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:34:14 +0000</lastBuildDate>
+    <item>
+      <title>笔记本插拔电源后黑屏一小会[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910939-1-1.html</link>
+      <description>笔记本插拔电源后黑屏一小会&#13;
+重装了Win10 1909后突然遇到了这个问题，摸索了下找到了解决方法。存一个解决方法在 S1吧依次打开 设置-》系统-》显示-》高级显示设置
+&#13;
+https://i.loli.net/2020/01/26/ngA5FmsEXW6KVtL.png
+&#13;
+选择显示器1的显示适配器属性-》选择英特尔 核芯显卡控制面板-》点击图形属性
+&#13;
+https://i.loli.net/2020/01/26/5UY9Z3eqz4rKEIR.png
+&#13;
+选择电源-》使用电池-》显示器刷新率切换-》禁用
+&#13;
+https://i.loli.net/2020/01/26/cCwKTmXkj5fFv4e.png
+&#13;
+https://i.loli.net/2020/01/26/2YiQoSLvwd17FBA.png
+&#13;
+其实这问题就是全新1909默认的电源计划只有平衡，没有高性能。所以插着电源时显示屏是60Hz的，而拔了电源后自动调用电源计划把显示屏改成了40Hz。
+&#13;
+而电源计划不能更改Intel核显的电源计划。
+&#13;
+这猝不及防的咖喱味</description>
+      <content:encoded><![CDATA[<p><b>yikaa: </b><br>
+<span>笔记本插拔电源后黑屏一小会</span><br>
+<span>重装了Win10 1909后突然遇到了这个问题，摸索了下找到了解决方法。存一个解决方法在 S1吧依次打开 设置-》系统-》显示-》高级显示设置</span><br>
+<img src="https://i.loli.net/2020/01/26/ngA5FmsEXW6KVtL.png" title="https://i.loli.net/2020/01/26/ngA5FmsEXW6KVtL.png"><br>
+<span>选择显示器1的显示适配器属性-》选择英特尔 核芯显卡控制面板-》点击图形属性</span><br>
+<img src="https://i.loli.net/2020/01/26/5UY9Z3eqz4rKEIR.png" title="https://i.loli.net/2020/01/26/5UY9Z3eqz4rKEIR.png"><br>
+<span>选择电源-》使用电池-》显示器刷新率切换-》禁用</span><br>
+<img src="https://i.loli.net/2020/01/26/cCwKTmXkj5fFv4e.png" title="https://i.loli.net/2020/01/26/cCwKTmXkj5fFv4e.png"><br>
+<img src="https://i.loli.net/2020/01/26/2YiQoSLvwd17FBA.png" title="https://i.loli.net/2020/01/26/2YiQoSLvwd17FBA.png"><br>
+<span>其实这问题就是全新1909默认的电源计划只有平衡，没有高性能。所以插着电源时显示屏是60Hz的，而拔了电源后自动调用电源计划把显示屏改成了40Hz。</span><br>
+<span>而电源计划不能更改Intel核显的电源计划。</span><br>
+<span>这猝不及防的咖喱味</span><br>
+</p><p><b>Baccano: </b><br>
+<span>我都是靠这个小黑屏来确认充上电了。今天才知道还能省电，这么好的功能没事为什么要禁止了？</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>Baccano 发表于 2020-1-26 23:45</span><br>
+<span>我都是靠这个小黑屏来确认充上电了。今天才知道还能省电，这么好的功能没事为什么要禁止了？ ...</span><br>
+<span>毕竟按需嘛，楼主也就分享一下。保不齐有人和他一样不喜欢这个呢~</span><br>
+</p><p><b>yikaa: </b><br>
+<span>Baccano 发表于 2020-1-26 23:45</span><br>
+<span>我都是靠这个小黑屏来确认充上电了。今天才知道还能省电，这么好的功能没事为什么要禁止了？ ...</span><br>
+<span>毕竟宿舍11点后断电，那个时候一般都在用电脑。突然断电的话我会以为自己电脑挂掉了。</span><br>
+<span>话说笔记本充电状态不是可以通过指示灯来判断么？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910939[0-50]</guid>
+    </item>
+  </channel>
+</rss>

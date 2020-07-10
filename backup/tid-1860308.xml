@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>探讨一道严肃的物理学问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>探讨一道严肃的物理学问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:36:02 +0000</lastBuildDate>
+    <item>
+      <title>探讨一道严肃的物理学问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860308-1-1.html</link>
+      <description>探讨一道严肃的物理学问题&#13;
+现有某活塞机构参数如下：圆柱体汽缸0.25m * 直径3cm，活塞行程0.18m * 直径 2.9cm，每分钟往复120次。
+&#13;
+活塞和气缸间隙以冷却水及空气混合物填充(活塞后退时吸入37摄氏度的冷却水，压缩时排除等体积升温后的冷却水，忽略温度变化对冷却水体积的影响，忽略空气温度变化)。
+&#13;
+请问需要以每分钟多少的流速排出冷却水，才能防止因为温度过高烧缸（水温&gt;50度）？</description>
+      <content:encoded><![CDATA[<p><b>hsc1986120: </b><br>
+<span>探讨一道严肃的物理学问题</span><br>
+<span>现有某活塞机构参数如下：圆柱体汽缸0.25m * 直径3cm，活塞行程0.18m * 直径 2.9cm，每分钟往复120次。</span><br>
+<span>活塞和气缸间隙以冷却水及空气混合物填充(活塞后退时吸入37摄氏度的冷却水，压缩时排除等体积升温后的冷却水，忽略温度变化对冷却水体积的影响，忽略空气温度变化)。</span><br>
+<span>请问需要以每分钟多少的流速排出冷却水，才能防止因为温度过高烧缸（水温>50度）？</span><br>
+</p><p><b>广东: </b><br>
+<span>这至少是机械专业大三的作业题级别了。</span><br>
+</p><p><b>Fukai_Rei: </b><br>
+<span>我觉得我要先从水的比热容开始复习起了……</span><br>
+<span>—— 来自 HUAWEI BND-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>脑洞: </b><br>
+<span>你给的数据让人觉得怪怪的，</span><br>
+<span>不过汽缸一般没有那么深啦，</span><br>
+</p><p><b>nexus1: </b><br>
+<span>这是热工学内容</span><br>
+<span>汽车发动机原理</span><br>
+<span>https://www.bilibili.com/video/av34141568 请</span><br>
+</p><p><b>冥河娃娃: </b><br>
+<span> 本帖最后由 冥河娃娃 于 2019-10-19 20:38 编辑 </span><br>
+<span>神TM的50度就烧缸了，你气缸里的燃烧温度上千，这题是不是逗？</span><br>
+<span>首先发动机启动后冷却系统先是在气缸周边的小循环运作的，你气缸120次那叫怠速运行，把小循环冷却液烧到80度打开节温阀就好久了。</span><br>
+<span>节温阀一开就连接水箱了，还有风扇对着散热器吹，就算风扇坏了，那么多冷却液在也开不了锅，你才120转，发动机怠速起步的级别。</span><br>
+<span>最后每次燃烧做功散发多少热量这题不给的？你这120转就是60次燃烧，喷多少油，多少热量可不是根据气缸体积来的，现在都是ECU配电喷，涡轮增压系统，变数多得很。</span><br>
+<span>如果不燃烧，那几乎没热量的，缸壁不和活塞直接接触，靠机油渗透后形成密封，德系车安全冗余留得大，大把的机油填进气缸壁一起燃烧了，这就是两箱汽油一瓶机油的由来。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Panda付: </b><br>
+<span>负载是多少这是汽油车吧？</span><br>
+</p><p><b>冥河娃娃: </b><br>
+<span> 本帖最后由 冥河娃娃 于 2019-10-19 21:04 编辑 </span><br>
+<span>对了，事实上冷却液水温不同带走的热量还不同，37度的水比95度的水带走的热量多多了，这是有很复杂的函数的。</span><br>
+<span>但是冷却液并非恒定越冷越好，燃烧温度是恒定不变的，带走热量多了，那推动气体膨胀的热量就少了，所以现在在ECU的电控下在作死的边缘跳舞，冷却液95度。</span><br>
+<span>冷却液沸腾了，烧干了，接下来才会烧缸。</span><br>
+<span>参数多点，这题能当机械系的大考题，现在这没头没尾的。</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oidoid: </b><br>
+<span>……这个奇怪的尺寸，其实你是在说另外一种开车吧？</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>37度不是很明显了吗</span><br>
+</p><p><b>瓦格雷: </b><br>
+<span>难道不是空气压缩机冷却吗</span><br>
+</p><p><b>serial: </b><br>
+<span>乱七八糟的题干，也没说活塞属于热机还是泵，也不说工作介质……大概是来钓鱼的巨魔</span><br>
+</p><p><b>RioShiina: </b><br>
+<span>建议更换活塞 ：）</span><br>
+</p><p><b>multikill: </b><br>
+<span>蒸汽朋克法器？</span><br>
+</p><p><b>z曾晓明: </b><br>
+<span>亲，这边建议您加冰块呢</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>楼主你的JJ参数错了</span><br>
+</p><p><b>ceekay: </b><br>
+<span>一秒两次，是炮机吧</span><br>
+</p><p><b>cyberpenk: </b><br>
+<span>每秒2次，楼主是兔子吧</span><br>
+<span>烧缸之前我觉得楼主首先需要维持活塞连杆的刚性</span><br>
+</p><p><b>sakura79: </b><br>
+<span>活塞喷冷却液即可</span><br>
+</p><p><b>KA0827: </b><br>
+<span>想靠摩擦把水温升到50度？</span><br>
+</p><p><b>eurydice: </b><br>
+<span>内燃机水温90度左右。37度哪来的</span><br>
+</p><p><b>火炎龙: </b><br>
+<span>引用第15楼宅闻天下于2019-10-19 23:23发表的:</span><br>
+<span>楼主你的JJ参数错了</span><br>
+<span>@宅闻天下</span><br>
+<span>不是jj是炮机</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>chia7: </b><br>
+<span>eurydice 发表于 2019-10-20 19:00</span><br>
+<span>内燃机水温90度左右。37度哪来的</span><br>
+<span>超过45度就会烫伤了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860308[0-50]</guid>
+    </item>
+  </channel>
+</rss>

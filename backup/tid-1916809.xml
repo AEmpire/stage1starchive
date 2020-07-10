@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>SQL语句中using的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>SQL语句中using的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:49:24 +0000</lastBuildDate>
+    <item>
+      <title>SQL语句中using的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916809-1-1.html</link>
+      <description>SQL语句中using的问题&#13;
+大半夜查考试资料，发现一个博客里面有这么一段
+&#13;
+因此，为了发扬自然连接的优点，同时避免不必要的相等的属性带来的危险，引入了下面的构造形式
+&#13;
+select A1,A2
+&#13;
+from r1 join r2 using (A1,A3); -- r1、r2为表名
+&#13;
+join...using与自然连接相似，但可以指定用哪些属性进行匹配连接，在t1.A1 = t2.A1并且t1.A2 = t2.A2成立的前提下(t1、t2为元组)，来自r1的元组t1和来自r2的元组t2就能匹配，即使r1和r2都具有名为A3的属性，也不需要t1.A3 = t2.A3成立
+&#13;
+既然不需要t1.A3 = t2.A3成立，那为什么要写上去呢？而且这样不是和原来想要的结果(r1.A1=r2.A1 and r1.A3=r2.A3)不同吗？
+&#13;
+附一个原文链接</description>
+      <content:encoded><![CDATA[<p><b>云之由: </b><br>
+<span>SQL语句中using的问题</span><br>
+<span>大半夜查考试资料，发现一个博客里面有这么一段</span><br>
+<span>因此，为了发扬自然连接的优点，同时避免不必要的相等的属性带来的危险，引入了下面的构造形式</span><br>
+<span>select A1,A2</span><br>
+<span>from r1 join r2 using (A1,A3); -- r1、r2为表名</span><br>
+<span>join...using与自然连接相似，但可以指定用哪些属性进行匹配连接，在t1.A1 = t2.A1并且t1.A2 = t2.A2成立的前提下(t1、t2为元组)，来自r1的元组t1和来自r2的元组t2就能匹配，即使r1和r2都具有名为A3的属性，也不需要t1.A3 = t2.A3成立</span><br>
+<span>既然不需要t1.A3 = t2.A3成立，那为什么要写上去呢？而且这样不是和原来想要的结果(r1.A1=r2.A1 and r1.A3=r2.A3)不同吗？</span><br>
+<span>附一个原文链接</span><br>
+</p><p><b>有点追求: </b><br>
+<span>意思是你可以指定哪些属性来匹配，比如r1 join r3 using（a1）那a3就不会进行匹配了。。。就这么个语文的意思。</span><br>
+</p><p><b>云之由: </b><br>
+<span>有点追求 发表于 2020-3-2 21:00</span><br>
+<span>意思是你可以指定哪些属性来匹配，比如r1 join r3 using（a1）那a3就不会进行匹配了。。。就这么个语文的意 ...</span><br>
+<span>from r1 join r2 using (A1,A3) </span><br>
+<span>是等价于</span><br>
+<span>from r1,r2</span><br>
+<span>where r1.A1 = r2.A1 and r1.A3=r1.A3 的吗</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>Natural Join/Using Clause 是输出的时候裁去了完全相同的列</span><br>
+<span>t1(a, b), t2(a, b)</span><br>
+<span>select * from t1 join t2 using(a) <=> select t1.a as a, t1.b, t2.b from t1 join t2 on t1.a=t2.a</span><br>
+<span>重点是输出的列的个数。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916809[0-50]</guid>
+    </item>
+  </channel>
+</rss>

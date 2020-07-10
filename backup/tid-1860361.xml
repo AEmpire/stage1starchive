@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>SSHD拿来做NAS存储盘合适嘛？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>SSHD拿来做NAS存储盘合适嘛？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:35:42 +0000</lastBuildDate>
+    <item>
+      <title>SSHD拿来做NAS存储盘合适嘛？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860361-1-1.html</link>
+      <description>SSHD拿来做NAS存储盘合适嘛？&#13;
+打算买个群晖或威联通的入门级NAS存电影、照片用，不知道希捷的SSHD混合硬盘合适吗？读写速度比机械硬盘快些，SSD毕竟还是太贵了，只是不知道可靠性如何，会不会有用在NAS上容易损坏丢失数据的问题</description>
+      <content:encoded><![CDATA[<p><b>皇帝雅西加: </b><br>
+<span>SSHD拿来做NAS存储盘合适嘛？</span><br>
+<span>打算买个群晖或威联通的入门级NAS存电影、照片用，不知道希捷的SSHD混合硬盘合适吗？读写速度比机械硬盘快些，SSD毕竟还是太贵了，只是不知道可靠性如何，会不会有用在NAS上容易损坏丢失数据的问题</span><br>
+</p><p><b>董卓: </b><br>
+<span>合适，而且库存SSHD超便宜，和库存HDD几乎一个价</span><br>
+</p><p><b>john: </b><br>
+<span>不合适，5×8设计工作强度死得快，SMR盘片一生黑，SSD缓存用来读多媒体数据没有任何作用</span><br>
+</p><p><b>Uranus: </b><br>
+<span>个人感觉不太合适，SSHD适合作系统盘，跑程序用的，我现在的系统盘就是SSHD，只做存储盘有点浪费……</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>发热大，不合适</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>那么做下载盘呢？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>sshd 在多次读取同一份数据上才能享受优化，可是nas和电脑之间还连着跟网线呢，再快也有网线拖后腿</span><br>
+</p><p><b>雪影: </b><br>
+<span>数据盘优先稳定吧，性能什么的其次。因为性能再强，网速才是最大的限制，现在绝大部分都是全千兆，再牛逼也就只能跑110M/S</span><br>
+</p><p><b>闪电战: </b><br>
+<span> 本帖最后由 闪电战 于 2019-10-20 12:29 编辑 </span><br>
+<span>以前买过一个1T的希捷SSHD，还不是现在的SMR垃圾货，搭配一台Q9450、P45的老775平台</span><br>
+<span>没感觉什么卵用</span><br>
+<span>反正Windows 10启动很花时间不知怎么回事</span><br>
+<span>而且C7不断地在涨，硬盘（京东返修直接换新）、电源、线、内存、主板全换过还是如此，也不知道是不是SSHD本身的原因</span><br>
+<span>话说存电影照片为什么非要SSD，HDD不就行了，加个SSD装系统，实在需要还可以把SSD划一部分出来加速HDD</span><br>
+</p><p><b>樱绰落: </b><br>
+<span>SSHD感觉只适合塞游戏机里</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>SSHD跑完缓存之后速度很差，几十G的大文件复制性能甚至不如便宜的监控盘</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>Intel的傲腾就是这个的高级版吧</span><br>
+</p><p><b>lhm123: </b><br>
+<span>做储存 SSHD意义不大吧。在乎可靠性，那可以上企业级的。</span><br>
+</p><p><b>壮岁旌旗拥万夫: </b><br>
+<span>除非你万兆网络，否则读取速度的优势体现不出来</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>怎么现在希捷和西数的2.5寸硬盘除了西数黑盘以外全都是5400转的了？晕</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860361[0-50]</guid>
+    </item>
+  </channel>
+</rss>

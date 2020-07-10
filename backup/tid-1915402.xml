@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>两台电脑共用的解决方案</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>两台电脑共用的解决方案</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:00:03 +0000</lastBuildDate>
+    <item>
+      <title>两台电脑共用的解决方案[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915402-1-1.html</link>
+      <description>两台电脑共用的解决方案&#13;
+现在在公司有一台电脑，但是我实在是用不惯Windows（已经10年没用过了），然后就装了macOS；但是我总觉得在公司的电脑上这么做，有风险（虽然我们管得不是很严，但是显然网管不会批准这种行为）。
+&#13;
+然后我现在接了2个4K@60HZ的显示器，我又实在没有办法去用Windows，适应不了。
+&#13;
+所以我打算自己再弄一台电脑，然后共用键鼠、显示器，自然而然地就想到了KVM；
+&#13;
+但是我去搜KVM Switch的时候，基本上找不到能满足我需求的；大部分都是n进1出，少数支持n进2出的，大多数也不支持4K@60HZ。
+&#13;
+现在就想找一个，支持2路输出4K@60HZ的KVM交换机，可靠一点的。
+&#13;
+然后再问一下，两台在不同局域网下的电脑，有什么稳定、可靠的文件共享方案吗？</description>
+      <content:encoded><![CDATA[<p><b>大象吃西瓜: </b><br>
+<span>两台电脑共用的解决方案</span><br>
+<span>现在在公司有一台电脑，但是我实在是用不惯Windows（已经10年没用过了），然后就装了macOS；但是我总觉得在公司的电脑上这么做，有风险（虽然我们管得不是很严，但是显然网管不会批准这种行为）。</span><br>
+<span>然后我现在接了2个4K@60HZ的显示器，我又实在没有办法去用Windows，适应不了。</span><br>
+<span>所以我打算自己再弄一台电脑，然后共用键鼠、显示器，自然而然地就想到了KVM；</span><br>
+<span>但是我去搜KVM Switch的时候，基本上找不到能满足我需求的；大部分都是n进1出，少数支持n进2出的，大多数也不支持4K@60HZ。</span><br>
+<span>现在就想找一个，支持2路输出4K@60HZ的KVM交换机，可靠一点的。</span><br>
+<span>然后再问一下，两台在不同局域网下的电脑，有什么稳定、可靠的文件共享方案吗？</span><br>
+</p><p><b>GeneralAtomics: </b><br>
+<span>买两个KVM</span><br>
+<span>USB互联线</span><br>
+<span>讲道理为什么不用虚拟机</span><br>
+</p><p><b>linuy: </b><br>
+<span>虚拟机+1</span><br>
+<span>KVM解决不了双屏需求</span><br>
+</p><p><b>大象吃西瓜: </b><br>
+<span>GeneralAtomics 发表于 2020-2-24 09:45</span><br>
+<span>买两个KVM</span><br>
+<span>USB互联线</span><br>
+<span>虚拟机是说osx-kvm吗？还是Windows下的虚拟机？</span><br>
+</p><p><b>john: </b><br>
+<span>是因为自己再弄一台电脑不能入公司的域所以必须处在两个局域网下吗？</span><br>
+<span>电脑双网卡，通起来</span><br>
+</p><p><b>GeneralAtomics: </b><br>
+<span>大象吃西瓜 发表于 2020-2-24 10:03</span><br>
+<span>虚拟机是说osx-kvm吗？还是Windows下的虚拟机？</span><br>
+<span>win下用vmware就可以跑macos吧</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>还要共用显示器的话难道用外录卡</span><br>
+</p><p><b>NarwhalC: </b><br>
+<img src="https://i.loli.net/2020/02/24/thYGSOTZn3udjq6.png" title="https://i.loli.net/2020/02/24/thYGSOTZn3udjq6.png"><br>
+<span>共享剪贴板，双屏模式下支持拖拽操作。</span><br>
+<span>什么？MacOS？那没事了</span><br>
+</p><p><b>騜: </b><br>
+<span>如果你不换显示器的话估计很难 我是显示器自带KVM 键盘鼠标接显示器USB口，2个USB数据线接到不同电脑，切换一下输入信号就可以用了（也是1个win1个macos）</span><br>
+<span>synergy用过 还是有一点切换延迟 但能接受</span><br>
+</p><p><b>大象吃西瓜: </b><br>
+<span> 本帖最后由 大象吃西瓜 于 2020-2-24 10:53 编辑 </span><br>
+<img src="https://i.loli.net/2020/02/24/NrkhfV9mBScgz12.png" title="https://i.loli.net/2020/02/24/NrkhfV9mBScgz12.png"><br>
+<span>找到这么个KVM，好像支持双屏。淘宝上搜不到，不过价格还行。</span><br>
+<span>https://www.amazon.com/Port-Dual ... Audio/dp/B003N3BU6E</span><br>
+</p><p><b>大象吃西瓜: </b><br>
+<span>騜 发表于 2020-2-24 10:48</span><br>
+<span>如果你不换显示器的话估计很难 我是显示器自带KVM 键盘鼠标接显示器USB口，2个USB数据线接到不同电脑，切换 ...</span><br>
+<span>Synergy感觉不如Sharemouse稳定和快速，不过Sharemouse价格太高了。</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>虚拟机装macos。 搞个amd显卡给虚拟机里的mac。然后把win主机的全部硬盘用虚拟机自带的映射功能映射给mac。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915402[0-50]</guid>
+    </item>
+  </channel>
+</rss>

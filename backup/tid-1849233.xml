@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>iOS的DNS解析是不是有什么特殊的设置？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>iOS的DNS解析是不是有什么特殊的设置？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:45:41 +0000</lastBuildDate>
+    <item>
+      <title>iOS的DNS解析是不是有什么特殊的设置？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849233-1-1.html</link>
+      <description>iOS的DNS解析是不是有什么特殊的设置？&#13;
+是这样的，黑群一台，自然没有QC
+&#13;
+路由器拨号，可以拿到公网IP，端口映射可以随便做，DDNS已经做好没问题，Let's Encrypt证书也在用着
+&#13;
+那么现在，手机上在内网用群晖客户端连的话就得用群晖的IP，外网连的话得写域名，要来回切，很麻烦，于是就做了以下设置
+&#13;
+首先，设置黑群的HTTPS网页端口为1234（为了安全性考虑，不开放HTTP，全程HTTPS）
+&#13;
+黑群的内网IP设置为192.168.2.2，路由器为192.168.1.1
+&#13;
+在路由器上设置端口转发，0.0.0.0:1234 -&gt; 192.168.2.2:1234
+&#13;
+假设域名为example.com
+&#13;
+先在路由器上设置DDNS，绑定到router.example.com
+&#13;
+然后再设置一个CNAME别名，从synology.example.com指向router.example.com（需要两个域名是因为路由器上有另外一些服务也要从外网访问，各自使用不同的域名，IP是一样的）
+&#13;
+在群晖设置里导入*.example.com的通配符证书
+&#13;
+路由器的dnsmasq设置里，添加
+&#13;
+address=/router.example.com/192.168.2.1
+&#13;
+address=/synology.example.com/192.168.2.2
+&#13;
+经测试
+&#13;
+在外网情况下，所有访问都没有问题
+&#13;
+电脑可以https://synology.example.com:1234，一切正常，证书也正常
+&#13;
+Android / iOS手机客户端都可以连synology.example.com:1234，启用HTTPS，可以连上，稳定使用，无任何问题
+&#13;
+说明端口转发，证书，DDNS都正常
+&#13;
+在内网情况下，电脑和Android手机均正常，iOS设备会随机报找不到服务器的问题（检查过DNS，全部均使用路由器架设的DNS）
+&#13;
+电脑可以https://synology.example.com:1234，一切正常，证书也OK
+&#13;
+Android客户端依然可以连synology.example.com:1234，启用HTTPS，可以连上，稳定使用
+&#13;
+iOS客户端连synology.example.com:1234，启用HTTPS，有时可以连上，但是用一会就断；有时根本连不上，报检查服务器域名或IP地址的错，几个客户端（DS File，DS Video等）均如此；断或者能连之间无任何修改，也没有断Wi-Fi重连
+&#13;
+iOS直接用浏览器开https://synology.example.com:1234，有时正常，大多数时候是报找不到服务器；断或者能连之间无任何修改，也没有断Wi-Fi重连
+&#13;
+在iOS设备使用Fing来ping synology.example.com，看到的IP也是192.168.2.2，说明路由器上的dnsmasq也起作用
+&#13;
+所以不知道iOS报找不到服务器是抽什么风？</description>
+      <content:encoded><![CDATA[<p><b>EraserKing: </b><br>
+<span>iOS的DNS解析是不是有什么特殊的设置？</span><br>
+<span>是这样的，黑群一台，自然没有QC</span><br>
+<span>路由器拨号，可以拿到公网IP，端口映射可以随便做，DDNS已经做好没问题，Let's Encrypt证书也在用着</span><br>
+<span>那么现在，手机上在内网用群晖客户端连的话就得用群晖的IP，外网连的话得写域名，要来回切，很麻烦，于是就做了以下设置</span><br>
+<span>首先，设置黑群的HTTPS网页端口为1234（为了安全性考虑，不开放HTTP，全程HTTPS）</span><br>
+<span>黑群的内网IP设置为192.168.2.2，路由器为192.168.1.1</span><br>
+<span>在路由器上设置端口转发，0.0.0.0:1234 -> 192.168.2.2:1234</span><br>
+<span>假设域名为example.com</span><br>
+<span>先在路由器上设置DDNS，绑定到router.example.com</span><br>
+<span>然后再设置一个CNAME别名，从synology.example.com指向router.example.com（需要两个域名是因为路由器上有另外一些服务也要从外网访问，各自使用不同的域名，IP是一样的）</span><br>
+<span>在群晖设置里导入*.example.com的通配符证书</span><br>
+<span>路由器的dnsmasq设置里，添加</span><br>
+<span>address=/router.example.com/192.168.2.1</span><br>
+<span>address=/synology.example.com/192.168.2.2</span><br>
+<span>经测试</span><br>
+<span>在外网情况下，所有访问都没有问题</span><br>
+<span>电脑可以https://synology.example.com:1234，一切正常，证书也正常</span><br>
+<span>Android / iOS手机客户端都可以连synology.example.com:1234，启用HTTPS，可以连上，稳定使用，无任何问题</span><br>
+<span>说明端口转发，证书，DDNS都正常</span><br>
+<span>在内网情况下，电脑和Android手机均正常，iOS设备会随机报找不到服务器的问题（检查过DNS，全部均使用路由器架设的DNS）</span><br>
+<span>电脑可以https://synology.example.com:1234，一切正常，证书也OK</span><br>
+<span>Android客户端依然可以连synology.example.com:1234，启用HTTPS，可以连上，稳定使用</span><br>
+<span>iOS客户端连synology.example.com:1234，启用HTTPS，有时可以连上，但是用一会就断；有时根本连不上，报检查服务器域名或IP地址的错，几个客户端（DS File，DS Video等）均如此；断或者能连之间无任何修改，也没有断Wi-Fi重连</span><br>
+<span>iOS直接用浏览器开https://synology.example.com:1234，有时正常，大多数时候是报找不到服务器；断或者能连之间无任何修改，也没有断Wi-Fi重连</span><br>
+<span>在iOS设备使用Fing来ping synology.example.com，看到的IP也是192.168.2.2，说明路由器上的dnsmasq也起作用</span><br>
+<span>所以不知道iOS报找不到服务器是抽什么风？</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>那你直接输内网ip能稳定连不</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sliverstrike 发表于 2019-7-26 11:22</span><br>
+<span>那你直接输内网ip能稳定连不</span><br>
+<span>可以</span><br>
+<span>所以我怀疑是iOS的DNS是不是有什么奇葩的地方</span><br>
+<span>而且就算dnsmasq不起作用，那应该也能连啊，只不过流量要从外面绕一圈回来，只是会慢一些而已</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>EraserKing 发表于 2019-7-26 11:30</span><br>
+<span>可以</span><br>
+<span>所以我怀疑是iOS的DNS是不是有什么奇葩的地方</span><br>
+<span>而且就算dnsmasq不起作用，那应该也能连啊，只不过流量 ...</span><br>
+<span>你去ios设置里把safari的控制台打开，再用safari开着控制台访问域名，看一下具体的报错信息</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sliverstrike 发表于 2019-7-26 11:38</span><br>
+<span>你去ios设置里把safari的控制台打开，再用safari开着控制台访问域名，看一下具体的报错信息 ...</span><br>
+<span>好 我晚上回去试试</span><br>
+<span>其实我最不能理解的就是，同局域网里的机器用的都是同一个DNS服务器</span><br>
+<span>要是dnsmasq不起作用吧，理论上照样也能用，就是慢</span><br>
+<span>但是报找不到服务器就不知道是什么鬼了</span><br>
+<span>而且还时好时坏</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sliverstrike 发表于 2019-7-26 11:38</span><br>
+<span>你去ios设置里把safari的控制台打开，再用safari开着控制台访问域名，看一下具体的报错信息 ...</span><br>
+<span>我突然想到iOS上Safari的那个调试工具是不是要连着mac才能用……</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>感觉就是从外网绕了一圈然后被路由器挡了，我记得默认设置下不许局域网里的设备这样走。你试试把dnsmasq里的host删了再用安卓访问，可能也不行。</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>EraserKing 发表于 2019-7-26 11:51</span><br>
+<span>我突然想到iOS上Safari的那个调试工具是不是要连着mac才能用……</span><br>
+<span>我记得不用，你下个插件就能在win10里用了</span><br>
+<span>大概是这个</span><br>
+<span>https://github.com/google/ios-webkit-debug-proxy</span><br>
+<span>我也没试过不确定行不行</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>Sliverstrike 发表于 2019-7-26 12:01</span><br>
+<span>我记得不用，你下个插件就能在win10里用了</span><br>
+<span>大概是这个</span><br>
+<span>https://github.com/google/ios-webkit-debug-prox ...</span><br>
+<span>OK 我试试 先谢了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>typeunknown 发表于 2019-7-26 12:00</span><br>
+<span>感觉就是从外网绕了一圈然后被路由器挡了，我记得默认设置下不许局域网里的设备这样走。你试试把dnsmasq里 ...</span><br>
+<span>感觉如果有的话也是水果瞎作</span><br>
+<span>我突然又想到是不是IPV6的锅……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849233[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于手柄转接的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于手柄转接的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:04:50 +0000</lastBuildDate>
+    <item>
+      <title>关于手柄转接的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906235-1-1.html</link>
+      <description>关于手柄转接的问题&#13;
+最近入了个微软二代精英手柄，想问一下有没有什么比较好的方案，可以把精英手柄转接到PS4和switch上呢？
+
+最好是可以像windows那样自定义按键映射，摇杆死区的那种。</description>
+      <content:encoded><![CDATA[<p><b>Nokazusa: </b><br>
+<span>关于手柄转接的问题</span><br>
+<span>最近入了个微软二代精英手柄，想问一下有没有什么比较好的方案，可以把精英手柄转接到PS4和switch上呢？</span><br>
+<span>最好是可以像windows那样自定义按键映射，摇杆死区的那种。</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>转换器啊，有得卖，大多数接上就能用</span><br>
+<span>至于调死区和映射的，可以用单片机板来做，但一定要一台树莓派或者电脑来驱动，成品非常贵，手工做麻烦</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span>竜ヶ峰桜子 发表于 2019-12-29 11:30</span><br>
+<span>转换器啊，有得卖，大多数接上就能用</span><br>
+<span>至于调死区和映射的，可以用单片机板来做，但一定要一台树莓派 ...</span><br>
+<span>能给我推荐个好用的牌子吗……最好是可以通用的（指既可以接switch又可以接PS4）</span><br>
+<span>既然调按键映射那么复杂那我就不要求了</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>Nokazusa 发表于 2019-12-29 11:39</span><br>
+<span>能给我推荐个好用的牌子吗……最好是可以通用的（指既可以接switch又可以接PS4）</span><br>
+<span>既然调按键映射那么复杂 ...</span><br>
+<span>PS4我是自己用arduino leonardo做的，NS用的八位堂，震动傻震，也没法解决</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span>竜ヶ峰桜子 发表于 2019-12-29 11:45</span><br>
+<span>PS4我是自己用arduino leonardo做的，NS用的八位堂，震动傻震，也没法解决 ...</span><br>
+<span>自己做的也太高端了，你这个对我没什么参考价值啊</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>Nokazusa 发表于 2019-12-29 11:47</span><br>
+<span>自己做的也太高端了，你这个对我没什么参考价值啊</span><br>
+<span>tb看了下，便宜的都是带线的，随便找个十几块的用用算了</span><br>
+<span>原理就是把xinput信号转成DS4然后再发，有延迟的</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span>竜ヶ峰桜子 发表于 2019-12-29 11:53</span><br>
+<span>tb看了下，便宜的都是带线的，随便找个十几块的用用算了</span><br>
+<span>原理就是把xinput信号转成DS4然后再发， ...</span><br>
+<span>我想问一下brook这个转接器你有了解过吗?</span><br>
+<span>我看不少人推荐这玩意儿，还蛮贵的，也不知道好不好用，和那种几十块的有什么区别</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>Nokazusa 发表于 2019-12-29 12:29</span><br>
+<span>我想问一下brook这个转接器你有了解过吗?</span><br>
+<span>我看不少人推荐这玩意儿，还蛮贵的，也不知道好不好用，和那种 ...</span><br>
+<span>没用过，贵的一般键鼠支持比较好吧，我用单片机也可以适配键鼠，但是每个游戏的鼠标灵敏度都不一样，贵的转换器就是卖灵敏度加速度之类的参数的</span><br>
+</p><p><b>老黑305: </b><br>
+<span>Nokazusa 发表于 2019-12-29 12:29</span><br>
+<span>我想问一下brook这个转接器你有了解过吗?</span><br>
+<span>我看不少人推荐这玩意儿，还蛮贵的，也不知道好不好用，和那种 ...</span><br>
+<span>除了震动无法还原外其他都还行</span><br>
+<span>不过最大的问题是现在brook的无线版并不支持二代精英手柄，要连二代精英手柄只能选老版有线款</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 10上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>竜ヶ峰桜子 发表于 2019-12-29 11:45</span><br>
+<span>PS4我是自己用arduino leonardo做的，NS用的八位堂，震动傻震，也没法解决 ...</span><br>
+<span>请问一下Leonardo怎么解决的无线配对问题？</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>NeverwinterN 发表于 2019-12-29 12:41</span><br>
+<span>请问一下Leonardo怎么解决的无线配对问题？</span><br>
+<span>手柄和Leonardo USB-TTL插在电脑上，另一端插PS4。。。</span><br>
+<span>用无线的话，蓝牙连接电脑就好了</span><br>
+</p><p><b>NeverwinterN: </b><br>
+<span>竜ヶ峰桜子 发表于 2019-12-29 12:45</span><br>
+<span>手柄和Leonardo USB-TTL插在电脑上，另一端插PS4。。。</span><br>
+<span>用无线的话，蓝牙连接电脑就好了 ...</span><br>
+<span>跟我的解决方法一样。只不过我没拿这玩意用在转接器上。</span><br>
+<span>延迟不高吗？</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>NeverwinterN 发表于 2019-12-29 12:50</span><br>
+<span>跟我的解决方法一样。只不过我没拿这玩意用在转接器上。</span><br>
+<span>延迟不高吗？ ...</span><br>
+<span>挺低的，我试过用键鼠插转换器，感觉不到延迟，但是手柄摇杆的加速度放在鼠标上完全没法用，摇杆加速放在鼠标上简直是灾难</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span>老黑305 发表于 2019-12-29 12:40</span><br>
+<span>除了震动无法还原外其他都还行</span><br>
+<span>不过最大的问题是现在brook的无线版并不支持二代精英手柄，要连二代精英手 ...</span><br>
+<span>那感觉还不如原版PS4手柄和Pro手柄呢...请问brook转接器会有延迟吗？如果真有延迟那就肯定不考虑了</span><br>
+</p><p><b>旋转吧，米糕: </b><br>
+<span>Nokazusa 发表于 2019-12-29 13:04</span><br>
+<span>那感觉还不如原版PS4手柄和Pro手柄呢...请问brook转接器会有延迟吗？如果真有延迟那就肯定不考虑了 ...</span><br>
+<span>看评测ps4原配直接是3-4微秒延迟，用了brook的xb手柄是15-16微秒延迟，但是实际使用没什么区别</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span> 本帖最后由 Nokazusa 于 2019-12-29 13:15 编辑 </span><br>
+<span>旋转吧，米糕 发表于 2019-12-29 13:08</span><br>
+<span>看评测ps4原配直接是3-4微秒延迟，用了brook的xb手柄是15-16微秒延迟，但是实际使用没什么区别 ...</span><br>
+<span>我连10以内的毫秒延迟都感受不出来...微秒延迟可还行，应该不是人类能感受出来的量级了。这么说来的话应该是可以无障碍使用的吧，感谢</span><br>
+<span>还有建议把xbox手柄全称说清楚，因为还有个异度之刃2联动的pro手柄</span><br>
+</p><p><b>旋转吧，米糕: </b><br>
+<span>Nokazusa 发表于 2019-12-29 13:13</span><br>
+<span>我连10以内的毫秒延迟都感受不出来...微秒延迟可还行，应该不是人类能感受出来的量级了。这么说来的话应该 ...</span><br>
+<span>也可能是我记错单位实际上是毫秒了，不过确实不算影响使用</span><br>
+</p><p><b>ybfelix: </b><br>
+<span>Brook我用在1代精英上转PS4，反正以我的感受力感觉不到延迟。最大缺点是电池续航非常堪忧。还好我坐得挺近，真打久了插个线也行。</span><br>
+<span>有一点很神奇，这转接器居然里面是有个陀螺仪的。我在PSN购物用它输码时下意识倾斜手柄，光标跟着动了。我输完才意识到用的是本来不带陀螺仪的xbox手柄</span><br>
+</p><p><b>老黑305: </b><br>
+<span>Nokazusa 发表于 2019-12-29 13:04</span><br>
+<span>那感觉还不如原版PS4手柄和Pro手柄呢...请问brook转接器会有延迟吗？如果真有延迟那就肯定不考虑了 ...</span><br>
+<span>延迟如楼上所说，其实是真的感觉不到的</span><br>
+<span>而关于比不比得过原配手柄，那的确是不如原配的方便的</span><br>
+<span>一个xone手柄一个接收器，要连三台机，即便重新连接也不过是一两分钟的事，但也挺麻烦的，反正我最后还是把pro手柄也买了，然后转接器就彻底闲置了</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 10上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>metalwill: </b><br>
+<span> 本帖最后由 metalwill 于 2019-12-29 14:40 编辑 </span><br>
+<span>昨天下单了一个酷威T100S,看官网的介绍挺不错的.买回来试试看</span><br>
+<span>http://www.mycoov.com/zh/jiaochengzhongxin/</span><br>
+<span>产品上选T100S.有介绍,还带外挂功能.https://www.bilibili.com/video/av75537659?zw</span><br>
+<span>视频教程..</span><br>
+</p><p><b>BoomerCE: </b><br>
+<span> 本帖最后由 BoomerCE 于 2019-12-29 14:40 编辑 </span><br>
+<span>刚刚出的 Cronus Zen，目前最强的可编程手柄转接器</span><br>
+<span>https://cronusmax.com/product/cronuszen/</span><br>
+</p><p><b>Nokazusa: </b><br>
+<span>metalwill 发表于 2019-12-29 14:31</span><br>
+<span>昨天下单了一个酷威T100S,看官网的介绍挺不错的.买回来试试看</span><br>
+<span>http://www.mycoov.com/zh/jiaochengzhongxin ...</span><br>
+<span>感觉这个还不错，谢谢推荐</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906235[0-50]</guid>
+    </item>
+  </channel>
+</rss>

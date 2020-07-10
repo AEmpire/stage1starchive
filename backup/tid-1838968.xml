@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>网站备案咨询</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>网站备案咨询</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:50:17 +0000</lastBuildDate>
+    <item>
+      <title>网站备案咨询[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838968-1-1.html</link>
+      <description>网站备案咨询&#13;
+S1各种大佬多，想咨询一下网站的事情。公司目前在折腾云计算相关，牵扯到网站备案。
+&#13;
+目前公司想上一些网站和APP之类的东西，有3种模式：
+&#13;
+1.数据的存储，也全部委托给软件开发公司，这个最省心省力，但是万一这个公司挂了，数据就没了。以前发生过这样的例子。所以老板觉得不好。
+&#13;
+2. 直接和云服务商（AWS/AZURE/ALIBABA）签约，然后让软件公司把软件部署到公司买的云平台上。但是公司的法务、合规要求一堆，流程现在卡在半空中，业务部门么又催的紧。
+&#13;
+3. 找个第三方去帮忙申请云平台，然后让软件公司把软件部署过去。这还仅仅是个思路阶段，因为有人说网站APP备案需要云平台开户是同一个公司
+&#13;
+所以想请教大佬：
+&#13;
+（1） 哪些情况需要备案？HTTP(S)网站？APP？
+&#13;
+（2）备案和云平台开户的账号是不是要一致？或者是要关联公司？还是需要委托书？还是根本无所谓，只要有个公司去备案即可？
+&#13;
+谢谢</description>
+      <content:encoded><![CDATA[<p><b>refo2613: </b><br>
+<span>网站备案咨询</span><br>
+<span>S1各种大佬多，想咨询一下网站的事情。公司目前在折腾云计算相关，牵扯到网站备案。</span><br>
+<span>目前公司想上一些网站和APP之类的东西，有3种模式：</span><br>
+<span>1.数据的存储，也全部委托给软件开发公司，这个最省心省力，但是万一这个公司挂了，数据就没了。以前发生过这样的例子。所以老板觉得不好。</span><br>
+<span>2. 直接和云服务商（AWS/AZURE/ALIBABA）签约，然后让软件公司把软件部署到公司买的云平台上。但是公司的法务、合规要求一堆，流程现在卡在半空中，业务部门么又催的紧。</span><br>
+<span>3. 找个第三方去帮忙申请云平台，然后让软件公司把软件部署过去。这还仅仅是个思路阶段，因为有人说网站APP备案需要云平台开户是同一个公司</span><br>
+<span>所以想请教大佬：</span><br>
+<span>（1） 哪些情况需要备案？HTTP(S)网站？APP？</span><br>
+<span>（2）备案和云平台开户的账号是不是要一致？或者是要关联公司？还是需要委托书？还是根本无所谓，只要有个公司去备案即可？</span><br>
+<span>谢谢</span><br>
+</p><p><b>pilipala: </b><br>
+<span>去腾讯云上面可以看到全部详细攻略</span><br>
+<span>或者公司有个行政专门跑这种杂事</span><br>
+</p><p><b>12057099: </b><br>
+<span>……</span><br>
+<span>走我们阿里云吧，合规性我帮你搞</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>贵公司搞得啥云计算，连备案这些杂活都搞不定。。。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>备案是绑定公司的 </span><br>
+<span>和云服务器账号关系不大用自己公司账号备案就行</span><br>
+<span>当然不能在腾讯备案跑去阿里放网站</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>还有 业务不同 备案要求也不一样的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>12057099: </b><br>
+<span>楼主我私信你了</span><br>
+</p><p><b>sshnuke: </b><br>
+<span>域名需要工信部备案 阿里云是一个账号可以给一个主体（企业）备案 被备案的主体和账号的认证主体不需要一致</span><br>
+<span>如果是上海的话网站和APP还要公安备案 这个就直接去https://gaj.sh.gov.cn/wa/ 看了</span><br>
+</p><p><b>sshnuke: </b><br>
+<span>另外比如你服务器在阿里云的你就需要在阿里云上接入备案</span><br>
+<span>不然一样会拒绝访问</span><br>
+</p><p><b>refo2613: </b><br>
+<span>sshnuke 发表于 2019-6-13 19:44</span><br>
+<span>另外比如你服务器在阿里云的你就需要在阿里云上接入备案</span><br>
+<span>不然一样会拒绝访问 ...</span><br>
+<span>谢谢，大致了解了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838968[0-50]</guid>
+    </item>
+  </channel>
+</rss>

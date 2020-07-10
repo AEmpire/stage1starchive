@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>弱问一句，主板的两个m2口性能一样吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>弱问一句，主板的两个m2口性能一样吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:28:02 +0000</lastBuildDate>
+    <item>
+      <title>弱问一句，主板的两个m2口性能一样吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861577-1-1.html</link>
+      <description>弱问一句，主板的两个m2口性能一样吗？&#13;
+是不是区别就是一个兼容sata一个不兼容sata？
+&#13;
+对于nvme的来说插哪个都一样？
+&#13;
+主板是 微星的b360m 迫击炮</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>弱问一句，主板的两个m2口性能一样吗？</span><br>
+<span>是不是区别就是一个兼容sata一个不兼容sata？</span><br>
+<span>对于nvme的来说插哪个都一样？</span><br>
+<span>主板是 微星的b360m 迫击炮</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>不一樣近cpu 的Pcie 3.0直連 遠的是走芯片組</span><br>
+</p><p><b>Cray: </b><br>
+<span>不一样的 …</span><br>
+<span>专用专插</span><br>
+<span>SATA那个要走芯片，还占用一个SATA口。</span><br>
+<span>----发送自 Sony H8296,Android 9</span><br>
+</p><p><b>lvcha: </b><br>
+<span>2 个 M.2 接口 (M 键) </span><br>
+<span>M2_1 支持高达 PCIe 3.0 x4 和 SATA 6Gb/s,2242/ 2260/ 2280/ 22110 存储设备</span><br>
+<span>M2_2 支持高达 PCIe 3.0 x4,2242/ 2260/ 2280 存储设 备</span><br>
+<span> 当在 M2_1 口中安装 SATA M.2 固态硬盘时,SATA2 端口不可用</span><br>
+<span> 当在 PCI_E4 插槽中安装 PCIe 设备时,M2_2 口不可用</span><br>
+<span>上面是说明书。m2_2是远离cpu的</span><br>
+<span>现在的那块是插在m2_1的</span><br>
+<span>我买了块新的，正为迁移发愁呢。</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>你们不要搞，B360哪来直连CPU的NVME，又不是B350</span><br>
+</p><p><b>gaiden: </b><br>
+<span>牙膏厂的都是走PCH的，没有快慢一说，是复用PCH的4条通道</span><br>
+<span>AMD的，通常近的那个是直连CPU的，剩下的走芯片组</span><br>
+</p><p><b>gaiden: </b><br>
+<span>gofbayrf 发表于 2019-10-26 18:58</span><br>
+<span>不一樣近cpu 的Pcie 3.0直連 遠的是走芯片組</span><br>
+<span>这几年的牙膏厂是没有直连M.2的</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span> 本帖最后由 Gnyueh 于 2019-10-26 19:46 编辑 </span><br>
+<span>lvcha 发表于 2019-10-26 18:40</span><br>
+<span>是不是区别就是一个兼容sata一个不兼容sata？</span><br>
+<span>对于nvme的来说插哪个都一样？</span><br>
+<span>不一样，360M上面m.2 nvme的是跟4个sata通过switch切换，后面的是和PCIe*4插槽互斥的</span><br>
+<span>(说明书上有，印象中相关部分是这样的)</span><br>
+<span>CPU</span><br>
+<span> |</span><br>
+<span>DMI3.0--PCH--active switch--m2.1</span><br>
+<span>                  |                  |</span><br>
+<span>                  |       4*sata3(m21插sata会屏蔽一个sata口)</span><br>
+<span>             select switch(两个只能用一个)--m2.2</span><br>
+<span>                           |-------- PCIe*4插槽</span><br>
+<span>如果sata口插其他盘(尤其是sata固态的话)，理论m22性能会更好，(不会有控制器层面的争用)，有其他设备插在下面的pcie槽的话就只能用m21叻</span><br>
+<span>不过牙膏PCH瓶颈在DMI小水管，其实差不多，随缘又不是不能用</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lvcha: </b><br>
+<span>gaiden 发表于 2019-10-26 19:30</span><br>
+<span>这几年的牙膏厂是没有直连M.2的</span><br>
+<span>所以就是无所谓的意思了？</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>gofbayrf 发表于 2019-10-26 18:58</span><br>
+<span>不一樣近cpu 的Pcie 3.0直連 遠的是走芯片組</span><br>
+<span>不是B450</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗铁: </b><br>
+<span>gaiden 发表于 2019-10-26 19:30</span><br>
+<span>这几年的牙膏厂是没有直连M.2的</span><br>
+<span>其实是有的，但是会把显卡挤到pcieX8</span><br>
+</p><p><b>gaiden: </b><br>
+<span>暗铁 发表于 2019-10-26 19:54</span><br>
+<span>其实是有的，但是会把显卡挤到pcieX8</span><br>
+<span>这种都是主板厂另外搞得，牙膏厂默认都是走PCH</span><br>
+</p><p><b>gaiden: </b><br>
+<span>lvcha 发表于 2019-10-26 19:42</span><br>
+<span>所以就是无所谓的意思了？</span><br>
+<span>无所谓，你单独测试都是满速，实际两个都满载可能会抢速度，但是这个几率极低</span><br>
+</p><p><b>huruii7: </b><br>
+<span>我的b450第二个m.2会占两个sata口害得我都不想加m.2固态</span><br>
+</p><p><b>9号单开道岔: </b><br>
+<span>gaiden 发表于 2019-10-26 20:07</span><br>
+<span>无所谓，你单独测试都是满速，实际两个都满载可能会抢速度，但是这个几率极低 ...</span><br>
+<span>搭车问一句，intel的B360主板，有两个m2口，原来已经有了一个m2口的ssd做系统盘，再加一个ssd做软件盘的话，是买sata口的好，还是买m2口的好</span><br>
+</p><p><b>風駿: </b><br>
+<span>9号单开道岔 发表于 2019-10-27 09:11</span><br>
+<span>搭车问一句，intel的B360主板，有两个m2口，原来已经有了一个m2口的ssd做系统盘，再加一个ssd做软件盘的 ...</span><br>
+<span>不跑分的话sata和nvme体感差别并不大，看自己钱包吧</span><br>
+</p><p><b>9号单开道岔: </b><br>
+<span>風駿 发表于 2019-10-27 09:13</span><br>
+<span>不跑分的话sata和nvme体感差别并不大，看自己钱包吧</span><br>
+<span>恩，现在nvme比sata价钱也差不多，nvme省空间好安装，还是买nvme吧</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>看说明书，我的b450迫击炮明确写着两口不一样。</span><br>
+</p><p><b>四点: </b><br>
+<span>我的z390应该是没有直连的m2的</span><br>
+<span>- 1 x Ultra M.2 Socket (M2_1), supports M Key type 2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4 (32 Gb/s)**</span><br>
+<span>- 1 x Ultra M.2 Socket (M2_2), supports M Key type 2260/2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4 (32 Gb/s)**</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861577[0-50]</guid>
+    </item>
+  </channel>
+</rss>

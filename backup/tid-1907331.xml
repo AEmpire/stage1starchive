@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于java版本的选择</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于java版本的选择</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:00:51 +0000</lastBuildDate>
+    <item>
+      <title>关于java版本的选择[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907331-1-1.html</link>
+      <description>关于java版本的选择&#13;
+小白刚开始自学java，想要转职 
+&#13;
+下了最新的java13，后来才知道目前企业基本上还是用的java8，最多少数转到java11
+&#13;
+而且一些经典的教材如java核心技术是用的java8，网上教程用的版本也是各有不同
+&#13;
+那么，从新人的角度来说，如果从方便自学和适应就业环境的目的出发，是否有必要退到java8或者java11呢？
+&#13;
+以及，从这个角度来说，应该使用OracleJDK还是OpenJDK呢？请各位指教</description>
+      <content:encoded><![CDATA[<p><b>FRED-S1: </b><br>
+<span>关于java版本的选择</span><br>
+<span>小白刚开始自学java，想要转职 </span><br>
+<span>下了最新的java13，后来才知道目前企业基本上还是用的java8，最多少数转到java11</span><br>
+<span>而且一些经典的教材如java核心技术是用的java8，网上教程用的版本也是各有不同</span><br>
+<span>那么，从新人的角度来说，如果从方便自学和适应就业环境的目的出发，是否有必要退到java8或者java11呢？</span><br>
+<span>以及，从这个角度来说，应该使用OracleJDK还是OpenJDK呢？请各位指教</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>1）JVM随便用哪个无所谓</span><br>
+<span>2）J8跟之前的版本变动比较大，所以不要学J8之前的版本。不过J8之后没加啥太有用的特性，如果已经开始用13了没必要拐回去</span><br>
+</p><p><b>黑桐未那: </b><br>
+<span>1.没必要</span><br>
+<span>2.openjdk</span><br>
+</p><p><b>anyeelog: </b><br>
+<span>生产环境基本上是JDK8，没有公司愿意自己试坑。</span><br>
+<span>用什么JDK你自学无所谓的...</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>风夏: </b><br>
+<span>jdk11是java版本放飞后的第一个lts，这几年从生产环境升级的话只会jdk8升11</span><br>
+<span>13反正你以后工作中是绝对用不到的</span><br>
+<span>----发送自 HUAWEI VOG-AL00,Android 10</span><br>
+</p><p><b>FRED-S1: </b><br>
+<span>hoaloha 发表于 2020-01-03 11:06:42</span><br>
+<span>1）JVM随便用哪个无所谓</span><br>
+<span>2）J8跟之前的版本变动比较大，所以不要学J8之前的版本。不过J8之后没加啥太有用的 ...谢谢回复</span><br>
+<span>也就是说我现在在oracle上下的13不至于造成影响教程使用和日后求职时公司使用不同版本时不适应是吗？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>mwj: </b><br>
+<span>常用的8，新潮点的11，想更新的等14，13不是lts可以不用看。</span><br>
+</p><p><b>jpcl: </b><br>
+<span>不如上Kotlin</span><br>
+</p><p><b>FRED-S1: </b><br>
+<span>黑桐未那 发表于 2020-01-03 11:08:05</span><br>
+<span>1.没必要</span><br>
+<span>2.openjdk但是我看java8以上的版本是不是有些库不能正常调用，这会影响日后的学习吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>对初学者来说 用不到那些个新特性 用JDK8就行了 稳定 资源文档也容易获得</span><br>
+</p><p><b>mwj: </b><br>
+<span>FRED-S1 发表于 2020-1-3 11:14</span><br>
+<span>但是我看java8以上的版本是不是有些库不能正常调用，这会影响日后的学习吗</span><br>
+<span>-- 来自 有消息提醒的 ...</span><br>
+<span>9以后对Unsafe的操作做了限制，一些使用了unsafe操作的库就炸了</span><br>
+</p><p><b>abcxiawei: </b><br>
+<span>FRED-S1 发表于 2020-1-3 11:14</span><br>
+<span>但是我看java8以上的版本是不是有些库不能正常调用，这会影响日后的学习吗</span><br>
+<span>-- 来自 有消息提醒的 ...</span><br>
+<span>不会，你可以在一台机器上部署多个版本的jdk，要啥用上就可以了</span><br>
+</p><p><b>naiveyan: </b><br>
+<span>最后一个向前兼容的版本应该是jdk10，11把jaxb之类的偏javaee的api删了。</span><br>
+<span>不造轮子的话无所谓，常规框架补充点依赖总是能从8兼容到13的。</span><br>
+</p><p><b>夏胧: </b><br>
+<span>企业应用一般是8</span><br>
+<span>据说9之后oracle的协议改了</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Ty_cc: </b><br>
+<span>OracleJDK 和 OpenJDK 没什么重要区别的，前者核心就是后者。8应用最广，后面的可以先了解一下就行，问题不是很大，8以前的内容就不用看了。转java的话，框架学习可能比语言学习更重要一些 。</span><br>
+</p><p><b>FRED-S1: </b><br>
+<span>大概明白了，再装个java8备用吧，谢谢楼上各位</span><br>
+</p><p><b>terraner: </b><br>
+<span>学Java么LTS就是8或者11咯，就算现在常用是8之后因为license原因也会逐渐转11的</span><br>
+<span>— from Sony J9110, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>剑起苍斓: </b><br>
+<span>为了就业还是spring全家桶吧，JDK版本无所谓，公司用啥你用啥</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yang3350380: </b><br>
+<span>现在也基本没有只依赖java做开发的,还是要看配套的环境的依赖,比如说现在的spring5.0全家桶 java8用的好好的,绝对不要没事闲的升级框架,亲身作死经验,最好一套用到离职</span><br>
+</p><p><b>ykrank: </b><br>
+<span>居然没有用7的么</span><br>
+<span>—— 来自 Xiaomi MIX 3, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907331[0-50]</guid>
+    </item>
+  </channel>
+</rss>

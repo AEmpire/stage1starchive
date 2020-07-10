@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>xb2模型导出的具体方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>xb2模型导出的具体方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:38:19 +0000</lastBuildDate>
+    <item>
+      <title>xb2模型导出的具体方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859939-1-1.html</link>
+      <description>xb2模型导出的具体方法&#13;
+虽然网上有blade的模型,但是远远不够,
+&#13;
+这里做下记录.
+&#13;
+去下xci文件,
+&#13;
+1.EZ-HACtool
+&#13;
+extract-XCI随便导出某个文件夹
+&#13;
+extract-NCA 找到导出文件夹里最大的那个*.nca文件
+&#13;
+找到 bf2.ard 和 bf2.arh
+&#13;
+2.xbtool
+&#13;
+cmd下命令类似于
+&#13;
+xbtool -g xb2 -t ExtractArchive -a D:\romfs\bf2.arh D:\romfs\bf2.ard -o xb2Resfile基本上资源文件导出完毕,模型在model下
+&#13;
+比如
+&#13;
+bl = blader
+&#13;
+en = enemy
+&#13;
+np = npc
+&#13;
+pc = player
+&#13;
+等等
+&#13;
+3 安装3dsmax(包括3ds max sdk和Visual C++ Redistributable for Visual Studio 2015) 把HavokMax.ldu 和 XenoMax.ldu 拷贝到 /3ds max安装目录/plugins/ 下 大概
+&#13;
+3dsmax中直接file-import
+&#13;
+选择 *.wimdo 文件
+&#13;
+导出选项 打勾
+&#13;
+export textures
+&#13;
+当然你还可以导入动画 *.mot文件(要先导入模型),
+&#13;
+如果你导出死机那么说明你内存不稳定,楼主就是.
+&#13;
+插件有些不是最新的只通过微软 Defender 扫描 想找的话 直接搜就有.
+&#13;
+关联
+&#13;
+https://lukascone.wordpress.com/2019/06/04/xenoblade-chronicles-3ds-max-plugin/
+&#13;
+此模型位置 obj 190501.wimdo</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>xb2模型导出的具体方法</span><br>
+<span>虽然网上有blade的模型,但是远远不够,</span><br>
+<span>这里做下记录.</span><br>
+<span>去下xci文件,</span><br>
+<span>1.EZ-HACtool</span><br>
+<span>extract-XCI随便导出某个文件夹</span><br>
+<span>extract-NCA 找到导出文件夹里最大的那个*.nca文件</span><br>
+<span>找到 bf2.ard 和 bf2.arh</span><br>
+<span>2.xbtool</span><br>
+<span>cmd下命令类似于</span><br>
+<span>xbtool -g xb2 -t ExtractArchive -a D:\romfs\bf2.arh D:\romfs\bf2.ard -o xb2Resfile基本上资源文件导出完毕,模型在model下</span><br>
+<span>比如</span><br>
+<span>bl = blader</span><br>
+<span>en = enemy</span><br>
+<span>np = npc</span><br>
+<span>pc = player</span><br>
+<span>等等</span><br>
+<span>3 安装3dsmax(包括3ds max sdk和Visual C++ Redistributable for Visual Studio 2015) 把HavokMax.ldu 和 XenoMax.ldu 拷贝到 /3ds max安装目录/plugins/ 下 大概</span><br>
+<span>3dsmax中直接file-import</span><br>
+<span>选择 *.wimdo 文件</span><br>
+<span>导出选项 打勾</span><br>
+<span>export textures</span><br>
+<span>当然你还可以导入动画 *.mot文件(要先导入模型),</span><br>
+<span>如果你导出死机那么说明你内存不稳定,楼主就是.</span><br>
+<span>插件有些不是最新的只通过微软 Defender 扫描 想找的话 直接搜就有.</span><br>
+<span>关联</span><br>
+<span>https://lukascone.wordpress.com/2019/06/04/xenoblade-chronicles-3ds-max-plugin/</span><br>
+<span>此模型位置 obj 190501.wimdo</span><br>
+</p><p><b>好好好好好好好: </b><br>
+<span>回去试试</span><br>
+</p><p><b>吉林吉林: </b><br>
+<span>你们到底想干什么！</span><br>
+</p><p><b>松川奈々: </b><br>
+<span>吉林吉林 发表于 2019-10-17 17:02</span><br>
+<span>你们到底想干什么！</span><br>
+<span>去ph站看看就知道干什么了……</span><br>
+</p><p><b>99mxw: </b><br>
+<span>吉林吉林 发表于 2019-10-17 17:02</span><br>
+<span>你们到底想干什么！</span><br>
+<span>比如mhw的xb2模型替换那个mod？</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>P-link: </b><br>
+<span>99mxw 发表于 2019-10-17 17:33</span><br>
+<span>比如mhw的xb2模型替换那个mod？</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>**跳舞MMD</span><br>
+</p><p><b>西瓜田里的飞鱼: </b><br>
+<span>这不是我们想看的模型！</span><br>
+</p><p><b>秋月孝三: </b><br>
+<span>所以说终于可以看青龙爷爷跳宅舞了？</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>99mxw 发表于 2019-10-17 17:33</span><br>
+<span>比如mhw的xb2模型替换那个mod？</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>这个系列的MOD是真的好，狩技组后面还做了异刃尼娅和花JD的模型替换MOD</span><br>
+</p><p><b>RUANHYC: </b><br>
+<span>比起看爷爷跳宅舞我更想看斯佩比亚跳宅舞</span><br>
+</p><p><b>悲叹的夜想曲: </b><br>
+<span>做好了麻烦私信一个PH站地址，谢谢</span><br>
+</p><p><b>99mxw: </b><br>
+<span>AincradWanderer 发表于 2019-10-17 17:39</span><br>
+<span>这个系列的MOD是真的好，狩技组后面还做了异刃尼娅和花JD的模型替换MOD</span><br>
+<span>我怎么记得是先做的……我可能是和记混了……</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>栗悟饭177: </b><br>
+<span>秋月孝三 发表于 2019-10-17 17:38</span><br>
+<span>所以说终于可以看青龙爷爷跳宅舞了？</span><br>
+<span>兄弟，你的xp好jb怪</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859939[0-50]</guid>
+    </item>
+  </channel>
+</rss>

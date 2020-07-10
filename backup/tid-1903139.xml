@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>红米K20 PRO尊享版刷机简略笔记 // 更新百毒资源备份</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>红米K20 PRO尊享版刷机简略笔记 // 更新百毒资源备份</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:19:24 +0000</lastBuildDate>
+    <item>
+      <title>红米K20 PRO尊享版刷机简略笔记 // 更新百毒资源备份[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903139-1-1.html</link>
+      <description>红米K20 PRO尊享版刷机简略笔记 // 更新百毒资源备份&#13;
+ 本帖最后由 两个路人 于 2019-12-22 16:00 编辑 
+
+UPDATE 1
+&#13;
+TWRP、MIUI 11.0.2稳定版底包、MIUI EU稳定版 11.0.5包，百毒网盘备份
+&#13;
+链接: https://pan.baidu.com/s/1rDb8tnoxuIphgZkmMW7E1g 提取码: k3uf 
+&#13;
+===========================
+&#13;
+因为粗粮官方把论坛给关了，可能今后也没地方好查刷机教程了，姑且先写点东西做存档吧。本主题只在记录刷机过程，关于本机的讨论可以去专楼或者论坛里搜索
+&#13;
+https://bbs.saraba1st.com/2b/sea ... chsubmit=yes&amp;kw=k20
+&#13;
+https://bbs.saraba1st.com/2b/thread-1859321-1-1.html
+&#13;
+刷机你会失去啥：
+&#13;
+1. 一个谷歌套件的手动开关
+&#13;
+2. 小爱同学
+&#13;
+3. 和NFC有关的国内支付（比如公交卡、银联），理论上Github上应该有人提取这玩意儿
+&#13;
+4. 其他（可能还有些藏在旮旯里的功能，没留意到的，等其他人补充吧）
+&#13;
+刷机/解锁BL后你能得到啥：
+&#13;
+1. 完整的古狗套件
+&#13;
+2. 完全没有广告的自带应用
+&#13;
+3. 没有商店绑架
+&#13;
+4. 装上Magisk/ROOT后能用的各种神奇小玩意儿
+&#13;
+刷机会清除手机上的所有数据，操作前请自行备份
+&#13;
+刷机前你需要准备啥
+&#13;
+1. 一张能上网的SIM卡
+&#13;
+2. 一个小米帐号
+&#13;
+因为解BL锁有一个超长的CD（一般为7天，倒霉的可能有30天），建议先把账户和手机绑了等CD。详细见下
+&#13;
+3. 一台运行在Windows 7上的Intel平台的电脑 —— 可选，如果你在RYZEN平台上遇到各种找不到设备、连接错误，建议你换过去，节约人生
+&#13;
+4. Miflash套件（驱动、刷底包系统和变砖抢救用）和MiUnlock套件（解锁BL用）
+&#13;
+http://www.miui.com/shuaji-393.html
+&#13;
+http://bigota.d.miui.com/tools/MiFlash2018-5-28-0.zip
+&#13;
+http://www.miui.com/unlock/
+&#13;
+5. 官方线刷系统底包和你想要刷的ROM。用哪个官方系统底包，请看你的ROM安装说明，因为目前都是直接覆盖的DIRTY安装模式。比如，刷欧洲EU版MIUI，MIUI10就下MIUI10的；MIUI11就下MIUI11的。如果是MIUI10的底包，刷MIUI11的欧洲EU版，可能会崩。另外，不太清楚这机子有没有硬件区域锁，可能会发生歪果仁改的系统刷到国行机上功能出错的情况。
+&#13;
+https://roms.miuier.com/
+&#13;
+MIUI 10.4.1.0.PFKCNXM http://bigota.d.miui.com/V10.4.1 ... 0_cn_b5b0ec9918.tgz
+&#13;
+MIUI 11.0.2.QFKCNXM http://bigota.d.miui.com/V11.0.2 ... 0_cn_c8e83f542f.tgz
+&#13;
+欧洲EU版 https://sourceforge.net/projects ... UI-STABLE-RELEASES/
+&#13;
+6. 第三方RECOVERY。目前流行的TWRP没有官方支持。但是和K20 PRO / MI9T PRO通用。目前XDA上有个人移植版和二次开发的OrangeFox Recovery
+&#13;
+https://forum.xda-developers.com ... aomi-redmi-t3944363
+&#13;
+https://www.androidfilehost.com/?fid=4349826312261645202
+&#13;
+如何绑账户解BL
+&#13;
+http://www.miui.com/thread-3367802-1-1.html
+&#13;
+1. 插入SIM卡，开机
+&#13;
+2. 开机后，用手机登陆你的小米帐号
+&#13;
+3. 设置 —— 我的设备 —— 全部参数 —— 狂点“MIUI版本”，直到开启测试者开发模式
+&#13;
+4. 设置 —— 更多设置 —— 开发者选项 —— 点亮OEM解锁；设备解锁状态中绑定账号和设备（会要求你用数据网络联机认证）
+&#13;
+5. 下载好MiUnlock，打开软件并用小米帐号登录。如果提示你没有解锁权限，你就要去http://www.miui.com/unlock/做申请。不过根据洋大人反馈，注册帐号默认有解锁权限。如果国区没有，也没啥好意外的。
+&#13;
+6. 手机关机，按住音量键下，再按电源键开机，直到出现个兔子焊接小绿人的画面，进入FASTBOOT模式
+&#13;
+7. 手机连接电脑，驱动在MiUnlock的drive文件夹里。如果你还是装不上，打开Windows Update联网让系统自己匹配装吧（瘟屎用户谨慎操作）
+&#13;
+8. 运行MiUnlock程序，点解锁。如果CD没到，会提示你剩下的时间
+&#13;
+9. 如果解锁过程中数据线没有断，CD也到了，但是报错无法解锁。请确认你不是农企RYZEN辣鸡USB驱动的受害者。
+&#13;
+如何刷入底包、TWRP和第三方ROM
+&#13;
+在解完BL锁后，就能准备开心地刷ROM啦。如果手机上运行着ROM要求的MIUI版本，可以跳过刷底包的步骤
+&#13;
+从线刷底包TGZ/TAR里解压出目录 —— 运行MiFlash —— 手机进入FASTBOOT模式，连接电脑 —— MiFlash里定位TAR的解包目录 —— 加载设备 —— 右下角选择“全部删除”。选成“全部删除并LOCK”的，你自个儿哭着再去解一遍BL锁吧 —— 刷机。这个过程会非常漫长，LZ刷MIUI11硬是刷了11分钟。图文教程：http://www.miui.com/shuaji-393.html底部。刷完后，可以进系统看看ADUI长啥样（笑
+&#13;
+把TWRP镜像放到MiUnlock的目录里，记下完整文件名。在MiUnlock目录空白处，按住SHIFT键，右击鼠标，开个CMD命令窗口。手机进入FASTBOOT连接电脑，敲命令fastboot flash recovery 完整TWRP文件名，等刷机完成
+&#13;
+刷好后，关机。按住音量键上，再按开机键开机，直到进入TWRP。如果设置过锁屏密码/图形，会要求输入一遍。点Select Language，选Chinese可以把界面改成中文的。
+&#13;
+清除 —— 格式化DATA分区，把系统磁盘加密的密码给清除掉。连接电脑，把ROM传进去进行，卡刷机可，不再赘述。
+&#13;
+需要注意，在没有刷入第三方ROM / 破解官方恢复脚本的情况下，进官版的MIUI系统时，RECOVERY就会被重置回官方版本（感谢股沟大神的A/B分区机制）
+&#13;
+关于谷歌相机
+&#13;
+目前不需要特意解锁ROOT也能用第三方的移植版。MIUI10（即安卓9）可以稳定运行Xcam 6.1 Beta10并加载xml设置文件；MIUI11（即安卓10）目前试下来Urnyx05的版本还算能稳定运行。当然，不管用哪个，慢动作模式必然出错。拿来拍照的话，有时候色彩比自带准确一些（自带AI判断失误的锅），切换三个镜头非常麻烦（谷歌PIXEL4辣鸡到没有跟进的锅，明明那么丑的刘海都抄了）
+&#13;
+https://forum.xda-developers.com ... mera-ports-t3991817
+&#13;
+https://www.celsoazevedo.com/files/android/google-camera/</description>
+      <content:encoded><![CDATA[<p><b>两个路人: </b><br>
+<span>红米K20 PRO尊享版刷机简略笔记 // 更新百毒资源备份</span><br>
+<span> 本帖最后由 两个路人 于 2019-12-22 16:00 编辑 </span><br>
+<span>UPDATE 1</span><br>
+<span>TWRP、MIUI 11.0.2稳定版底包、MIUI EU稳定版 11.0.5包，百毒网盘备份</span><br>
+<span>链接: https://pan.baidu.com/s/1rDb8tnoxuIphgZkmMW7E1g 提取码: k3uf </span><br>
+<span>===========================</span><br>
+<span>因为粗粮官方把论坛给关了，可能今后也没地方好查刷机教程了，姑且先写点东西做存档吧。本主题只在记录刷机过程，关于本机的讨论可以去专楼或者论坛里搜索</span><br>
+<span>https://bbs.saraba1st.com/2b/sea ... chsubmit=yes&kw=k20</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1859321-1-1.html</span><br>
+<span>刷机你会失去啥：</span><br>
+<span>1. 一个谷歌套件的手动开关</span><br>
+<span>2. 小爱同学</span><br>
+<span>3. 和NFC有关的国内支付（比如公交卡、银联），理论上Github上应该有人提取这玩意儿</span><br>
+<span>4. 其他（可能还有些藏在旮旯里的功能，没留意到的，等其他人补充吧）</span><br>
+<span>刷机/解锁BL后你能得到啥：</span><br>
+<span>1. 完整的古狗套件</span><br>
+<span>2. 完全没有广告的自带应用</span><br>
+<span>3. 没有商店绑架</span><br>
+<span>4. 装上Magisk/ROOT后能用的各种神奇小玩意儿</span><br>
+<span>刷机会清除手机上的所有数据，操作前请自行备份</span><br>
+<span>刷机前你需要准备啥</span><br>
+<span>1. 一张能上网的SIM卡</span><br>
+<span>2. 一个小米帐号</span><br>
+<span>因为解BL锁有一个超长的CD（一般为7天，倒霉的可能有30天），建议先把账户和手机绑了等CD。详细见下</span><br>
+<span>3. 一台运行在Windows 7上的Intel平台的电脑 —— 可选，如果你在RYZEN平台上遇到各种找不到设备、连接错误，建议你换过去，节约人生</span><br>
+<span>4. Miflash套件（驱动、刷底包系统和变砖抢救用）和MiUnlock套件（解锁BL用）</span><br>
+<span>http://www.miui.com/shuaji-393.html</span><br>
+<span>http://bigota.d.miui.com/tools/MiFlash2018-5-28-0.zip</span><br>
+<span>http://www.miui.com/unlock/</span><br>
+<span>5. 官方线刷系统底包和你想要刷的ROM。用哪个官方系统底包，请看你的ROM安装说明，因为目前都是直接覆盖的DIRTY安装模式。比如，刷欧洲EU版MIUI，MIUI10就下MIUI10的；MIUI11就下MIUI11的。如果是MIUI10的底包，刷MIUI11的欧洲EU版，可能会崩。另外，不太清楚这机子有没有硬件区域锁，可能会发生歪果仁改的系统刷到国行机上功能出错的情况。</span><br>
+<span>https://roms.miuier.com/</span><br>
+<span>MIUI 10.4.1.0.PFKCNXM http://bigota.d.miui.com/V10.4.1 ... 0_cn_b5b0ec9918.tgz</span><br>
+<span>MIUI 11.0.2.QFKCNXM http://bigota.d.miui.com/V11.0.2 ... 0_cn_c8e83f542f.tgz</span><br>
+<span>欧洲EU版 https://sourceforge.net/projects ... UI-STABLE-RELEASES/</span><br>
+<span>6. 第三方RECOVERY。目前流行的TWRP没有官方支持。但是和K20 PRO / MI9T PRO通用。目前XDA上有个人移植版和二次开发的OrangeFox Recovery</span><br>
+<span>https://forum.xda-developers.com ... aomi-redmi-t3944363</span><br>
+<span>https://www.androidfilehost.com/?fid=4349826312261645202</span><br>
+<span>如何绑账户解BL</span><br>
+<span>http://www.miui.com/thread-3367802-1-1.html</span><br>
+<span>1. 插入SIM卡，开机</span><br>
+<span>2. 开机后，用手机登陆你的小米帐号</span><br>
+<span>3. 设置 —— 我的设备 —— 全部参数 —— 狂点“MIUI版本”，直到开启测试者开发模式</span><br>
+<span>4. 设置 —— 更多设置 —— 开发者选项 —— 点亮OEM解锁；设备解锁状态中绑定账号和设备（会要求你用数据网络联机认证）</span><br>
+<span>5. 下载好MiUnlock，打开软件并用小米帐号登录。如果提示你没有解锁权限，你就要去http://www.miui.com/unlock/做申请。不过根据洋大人反馈，注册帐号默认有解锁权限。如果国区没有，也没啥好意外的。</span><br>
+<span>6. 手机关机，按住音量键下，再按电源键开机，直到出现个兔子焊接小绿人的画面，进入FASTBOOT模式</span><br>
+<span>7. 手机连接电脑，驱动在MiUnlock的drive文件夹里。如果你还是装不上，打开Windows Update联网让系统自己匹配装吧（瘟屎用户谨慎操作）</span><br>
+<span>8. 运行MiUnlock程序，点解锁。如果CD没到，会提示你剩下的时间</span><br>
+<span>9. 如果解锁过程中数据线没有断，CD也到了，但是报错无法解锁。请确认你不是农企RYZEN辣鸡USB驱动的受害者。</span><br>
+<span>如何刷入底包、TWRP和第三方ROM</span><br>
+<span>在解完BL锁后，就能准备开心地刷ROM啦。如果手机上运行着ROM要求的MIUI版本，可以跳过刷底包的步骤</span><br>
+<span>从线刷底包TGZ/TAR里解压出目录 —— 运行MiFlash —— 手机进入FASTBOOT模式，连接电脑 —— MiFlash里定位TAR的解包目录 —— 加载设备 —— 右下角选择“全部删除”。选成“全部删除并LOCK”的，你自个儿哭着再去解一遍BL锁吧 —— 刷机。这个过程会非常漫长，LZ刷MIUI11硬是刷了11分钟。图文教程：http://www.miui.com/shuaji-393.html底部。刷完后，可以进系统看看ADUI长啥样（笑</span><br>
+<span>把TWRP镜像放到MiUnlock的目录里，记下完整文件名。在MiUnlock目录空白处，按住SHIFT键，右击鼠标，开个CMD命令窗口。手机进入FASTBOOT连接电脑，敲命令fastboot flash recovery 完整TWRP文件名，等刷机完成</span><br>
+<span>刷好后，关机。按住音量键上，再按开机键开机，直到进入TWRP。如果设置过锁屏密码/图形，会要求输入一遍。点Select Language，选Chinese可以把界面改成中文的。</span><br>
+<span>清除 —— 格式化DATA分区，把系统磁盘加密的密码给清除掉。连接电脑，把ROM传进去进行，卡刷机可，不再赘述。</span><br>
+<span>需要注意，在没有刷入第三方ROM / 破解官方恢复脚本的情况下，进官版的MIUI系统时，RECOVERY就会被重置回官方版本（感谢股沟大神的A/B分区机制）</span><br>
+<span>关于谷歌相机</span><br>
+<span>目前不需要特意解锁ROOT也能用第三方的移植版。MIUI10（即安卓9）可以稳定运行Xcam 6.1 Beta10并加载xml设置文件；MIUI11（即安卓10）目前试下来Urnyx05的版本还算能稳定运行。当然，不管用哪个，慢动作模式必然出错。拿来拍照的话，有时候色彩比自带准确一些（自带AI判断失误的锅），切换三个镜头非常麻烦（谷歌PIXEL4辣鸡到没有跟进的锅，明明那么丑的刘海都抄了）</span><br>
+<span>https://forum.xda-developers.com ... mera-ports-t3991817</span><br>
+<span>https://www.celsoazevedo.com/files/android/google-camera/</span><br>
+</p><p><b>黎曼: </b><br>
+<span>2020年了，我在互联网上看到有人刷机</span><br>
+</p><p><b>无念: </b><br>
+<span>刷机多正常啊，折腾起来总有需求的</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>我已经放弃刷类原生ROM了，11月的LineageOS 17.0无法接听电话，12月的无法打开相机，11月的HavocOS则是无法收发短信，现在刷的MIUI mix倒是毫无问题</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>AincradWanderer 发表于 2019-12-15 21:22</span><br>
+<span>我已经放弃刷类原生ROM了，11月的LineageOS 17.0无法接听电话，12月的无法打开相机，11月的HavocOS则是无法 ...</span><br>
+<span>欧洲洋大人的EU版是保底选项，因为就是拿强国版直接改的。是真正完整带股沟框架，又没有广告的纯味MIUI </span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>两个路人 发表于 2019-12-15 21:25</span><br>
+<span>欧洲洋大人的EU版是保底选项，因为就是拿强国版直接改的。是真正完整带股沟框架，又没有广告的纯味MIUI [ ...</span><br>
+<span>MIUI mix这个第三方ROM就是基于EU版改的，除了必备的几个MIUI内置app，大概只多了个“健康”</span><br>
+</p><p><b>两个路人: </b><br>
+<span>AincradWanderer 发表于 2019-12-15 21:32</span><br>
+<span>MIUI mix这个第三方ROM就是基于EU版改的，除了必备的几个MIUI内置app，大概只多了个“健康” ...</span><br>
+<span>瞥了一眼MIUI MIX，自带软件完全师承EU版。大概的不同就是改了电源策略，内置了脸谱</span><br>
+</p><p><b>琴酒: </b><br>
+<span>因该还有个ww那边的w大的rom可选</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>两个路人 发表于 2019-12-15 21:44</span><br>
+<span>瞥了一眼MIUI MIX，自带软件完全师承EU版。大概的不同就是改了电源策略，内置了脸谱 ...</span><br>
+<span>MIUI mix内置的magisk处在薛定谔的状态，同事的红米note8刷进去提示必须更新manager，我的尊享版刷进去根本没有manager，只能手动刷了magisk包</span><br>
+</p><p><b>两个路人: </b><br>
+<span>琴酒 发表于 2019-12-15 21:48</span><br>
+<span>因该还有个ww那边的w大的rom可选</span><br>
+<span>https://band.us/@wesley</span><br>
+<span>还要申请加入，收到允许才能看贴。难度比XDA高多了 </span><br>
+</p><p><b>fallout: </b><br>
+<span>想请教一下，底包跟rom不符合的话，用备份的还原的话会把底包覆盖掉吗，现在就是担心刷错版本，希望做一个备份来一劳永逸；另外如果还原用的备份的是刚买回来那个系统，需要重新解锁刷rec吗，谢谢</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>好多年没刷过机了</span><br>
+</p><p><b>秦方: </b><br>
+<span>恨不能给lz加鹅</span><br>
+</p><p><b>marxel: </b><br>
+<span>酷安上有几个官改，我用的是星空的，既得到了楼主的1234（2比较有限）也没有失去楼主的1234</span><br>
+</p><p><b>fallout: </b><br>
+<span>marxel 发表于 2019-12-20 15:32</span><br>
+<span>酷安上有几个官改，我用的是星空的，既得到了楼主的1234（2比较有限）也没有失去楼主的1234 ...</span><br>
+<span>SkyMi-米K20P.9.12.16开发版更新 老哥，是这个吗。尊享版能用吗。底包哪里找？</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>考虑第三方不稳定，7月买到手到手后就刷了eu，支付的没试，小爱好像还有，不过我用全套谷歌的。https://i.loli.net/2019/12/20/yJVeMhNikjbv3o1.png</span><br>
+</p><p><b>marxel: </b><br>
+<span>fallout 发表于 2019-12-20 18:01</span><br>
+<span>SkyMi-米K20P.9.12.16开发版更新 老哥，是这个吗。尊享版能用吗。底包哪里找？ ...</span><br>
+<span>嗯，底包用随便一个miui11的线刷一下，然后解锁，用wszx150支持安卓10的rec，格式化一遍data，重启就可以卡刷了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>多年没刷过机了</span><br>
+</p><p><b>两个路人: </b><br>
+<span>fallout 发表于 2019-12-20 14:02</span><br>
+<span>想请教一下，底包跟rom不符合的话，用备份的还原的话会把底包覆盖掉吗，现在就是担心刷错版本，希望 ...</span><br>
+<span>这要看ROM的具体要求。EU版的底包只用安卓和MIUI两个大版本匹配，比如安卓10的MIUI11。底包MIUI11.0.2是能刷上EU版11.0.5的。</span><br>
+<span>钛备份一般就拿来迁移app（不涉及系统底层的）的话是没啥感觉</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>两个路人 发表于 2019-12-21 01:37</span><br>
+<span>这要看ROM的具体要求。EU版的底包只用安卓和MIUI两个大版本匹配，比如安卓10的MIUI11。底包MIUI11.0.2是 ...</span><br>
+<span>不能直接用miui的备份app数据再还原吗</span><br>
+</p><p><b>desu: </b><br>
+<span>昨天机子送到秒解锁刷好twrp直接上了eu</span><br>
+<span>问下刷了miui11的真的比10耗电快嘛</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>爱吃豆包 发表于 2019-12-22 09:53</span><br>
+<span>不能直接用miui的备份app数据再还原吗</span><br>
+<span>这东西有些app是扒不下来，或者还原回去就运行出错的。root后运行的钛备份依然是终极解决方案</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>marxel 发表于 2019-12-20 19:16</span><br>
+<span>嗯，底包用随便一个miui11的线刷一下，然后解锁，用wszx150支持安卓10的rec，格式化一遍data，重启就可以 ...</span><br>
+<span>这个rom耗电怎么样？我的k20p尊享版基本不用待机耗电都是10%的掉</span><br>
+</p><p><b>marxel: </b><br>
+<span>aiboers110 发表于 2019-12-23 14:53</span><br>
+<span>这个rom耗电怎么样？我的k20p尊享版基本不用待机耗电都是10%的掉</span><br>
+<span>miui11续航挺次的</span><br>
+<span>我觉得回到安卓9的miui10可能会好一些，不过没试过</span><br>
+</p><p><b>两个路人: </b><br>
+<span>aiboers110 发表于 2019-12-23 14:53</span><br>
+<span>这个rom耗电怎么样？我的k20p尊享版基本不用待机耗电都是10%的掉</span><br>
+<span>安卓谜一样的“优化”逻辑。MIUI EU 11.0.3刚装完一堆app，掉电很猛，一晚10%，核心连续唤醒。摆了一周，app列表没变，就5-8%，核心正常休眠。目前升到11.0.5没啥变化。反正855的那块大核不动，就天下太平。</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>marxel 发表于 2019-12-23 16:01</span><br>
+<span>miui11续航挺次的</span><br>
+<span>我觉得回到安卓9的miui10可能会好一些，不过没试过</span><br>
+<span>我用的miui10，待机耗电太厉害，试了下不插卡不联网出厂状态不到24小时耗电10%到20%</span><br>
+</p><p><b>marxel: </b><br>
+<span>aiboers110 发表于 2019-12-23 20:55</span><br>
+<span>我用的miui10，待机耗电太厉害，试了下不插卡不联网出厂状态不到24小时耗电10%到20% ...</span><br>
+<span>当然这个事儿本质是855太次</span><br>
+<span>米6就没这么耗电过</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>marxel 发表于 2019-12-23 21:06</span><br>
+<span>当然这个事儿本质是855太次</span><br>
+<span>米6就没这么耗电过</span><br>
+<span>果然还是855的问题？手上的米6是好很多。可能需要一个米6加强版</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>两个路人 发表于 2019-12-23 16:18</span><br>
+<span>安卓谜一样的“优化”逻辑。MIUI EU 11.0.3刚装完一堆app，掉电很猛，一晚10%，核心连续唤醒。摆了一周， ...</span><br>
+<span>也有可能是855的问题。用了几台不同厂商的，待机耗电都有点大</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903139[0-50]</guid>
+    </item>
+  </channel>
+</rss>

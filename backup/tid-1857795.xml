@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【已解决】Google的搜索栏总出来“google站内搜索“是怎么...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【已解决】Google的搜索栏总出来“google站内搜索“是怎么...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:51:59 +0000</lastBuildDate>
+    <item>
+      <title>【已解决】Google的搜索栏总出来“google站内搜索“是怎么...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857795-1-1.html</link>
+      <description>【已解决】Google的搜索栏总出来“google站内搜索“是怎么...&#13;
+ 本帖最后由 rowid_alex 于 2019-10-4 16:20 编辑 
+
+如题，macOS Mojave 10.14.6, Chrome 77.0.3865.90，无论是在搜索栏搜索，还是google.com搜索，搜索任何关键字后，都会被这几个字取代。。。
+&#13;
+删除Chrome浏览器，重新安装后问题解决，同步账号以后刚开始没问题，过了几个小时又变成这样了！！！！
+&#13;
+快疯了。。。
+&#13;
+Google账户里面已经把这个搜索历史删除了也不行。。
+&#13;
+只能上论坛求救了。。。</description>
+      <content:encoded><![CDATA[<p><b>rowid_alex: </b><br>
+<span>【已解决】Google的搜索栏总出来“google站内搜索“是怎么...</span><br>
+<span> 本帖最后由 rowid_alex 于 2019-10-4 16:20 编辑 </span><br>
+<span>如题，macOS Mojave 10.14.6, Chrome 77.0.3865.90，无论是在搜索栏搜索，还是google.com搜索，搜索任何关键字后，都会被这几个字取代。。。</span><br>
+<span>删除Chrome浏览器，重新安装后问题解决，同步账号以后刚开始没问题，过了几个小时又变成这样了！！！！</span><br>
+<span>快疯了。。。</span><br>
+<span>Google账户里面已经把这个搜索历史删除了也不行。。</span><br>
+<span>只能上论坛求救了。。。</span><br>
+</p><p><b>rowid_alex: </b><br>
+<span>经过排除大法，发现是Lastpass插件的问题！！！但这个插件我又不能不用啊！之前没问题的。。。</span><br>
+</p><p><b>VLDB: </b><br>
+<span>谢谢楼主丰富流氓插件黑名单，换个密码管理应用吧</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>rowid_alex 发表于 2019-10-4 15:57</span><br>
+<span>经过排除大法，发现是Lastpass插件的问题！！！但这个插件我又不能不用啊！之前没问题的。。。 ...</span><br>
+<span>查一下Google.com的自动填充，是不是这里出问题了？</span><br>
+</p><p><b>rowid_alex: </b><br>
+<span>若荼泱 发表于 2019-10-4 16:02</span><br>
+<span>查一下Google.com的自动填充，是不是这里出问题了？</span><br>
+<span>谢谢提醒，解决！</span><br>
+<span>原因是这样的。多年以前chiphell.com在用lastpass的自动登录时候总是提示和Google.com的账户有关联。我懒得研究就直接把chiphell.com和google.com在lastpass里面设置成等同domain了：</span><br>
+<span>这样登录chiphell.com的时候才能正常的pop-up我存储的账户。</span><br>
+<span>后来这个问题貌似网站自己解决了，我也一直没管。</span><br>
+<span>刚才发现这个“google站内搜索“不就是chiphell上面那个搜索栏的吗？！！</span><br>
+<span>回到lastpass的account setting里面，把这个等同domain的自定义删掉吗，问题解决！！</span><br>
+<span>谢谢大家！！</span><br>
+<span>另：在其他浏览器上面lastpass并没有出现这个问题，所以不知道是什么bug。。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857795[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>市面上有什么传感器可以分析特定声音波形的吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>市面上有什么传感器可以分析特定声音波形的吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:43:21 +0000</lastBuildDate>
+    <item>
+      <title>市面上有什么传感器可以分析特定声音波形的吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1830279-1-1.html</link>
+      <description>市面上有什么传感器可以分析特定声音波形的吗？&#13;
+比如 打响指 才能触发声控开关
+&#13;
+但是人怎么叫喊都不会触发
+&#13;
+市面上几块钱那种声控开关传感器
+&#13;
+尝试了一下，检测范围好小动不动浮点值就到极限大小了，而且获取速度也不快，读数也经常浮动
+&#13;
+同样的声音大小 他获取的数值可能差很多。。。</description>
+      <content:encoded><![CDATA[<p><b>guner1991: </b><br>
+<span>市面上有什么传感器可以分析特定声音波形的吗？</span><br>
+<span>比如 打响指 才能触发声控开关</span><br>
+<span>但是人怎么叫喊都不会触发</span><br>
+<span>市面上几块钱那种声控开关传感器</span><br>
+<span>尝试了一下，检测范围好小动不动浮点值就到极限大小了，而且获取速度也不快，读数也经常浮动</span><br>
+<span>同样的声音大小 他获取的数值可能差很多。。。</span><br>
+</p><p><b>ab6546541: </b><br>
+<span>@凤凰院凶真</span><br>
+</p><p><b>ab6546541: </b><br>
+<span>你可以录音，放进adobe audition 软件里看频率的分布和响度</span><br>
+</p><p><b>guner1991: </b><br>
+<span>ab6546541 发表于 2019-5-9 16:37</span><br>
+<span>你可以录音，放进adobe audition 软件里看频率的分布和响度</span><br>
+<span>那就太慢不够及时了啊</span><br>
+</p><p><b>LaZier: </b><br>
+<span>.........................用麦克风采音然后烧个程序对比声纹？好像语音识别已经有现成的模块了吧，改改应该能用...........我瞎扯的</span><br>
+</p><p><b>nexus1: </b><br>
+<span>有手机应用啊</span><br>
+</p><p><b>like0036: </b><br>
+<span>“小爱同学”</span><br>
+<span>“唉”</span><br>
+</p><p><b>山竹罐头: </b><br>
+<span>可以用daw分析出波形，剩下的部分就不会操作了，可以监控特定几个频率段的图形？</span><br>
+</p><p><b>blackll7: </b><br>
+<span>guner1991 发表于 2019-5-9 16:39</span><br>
+<span>那就太慢不够及时了啊</span><br>
+<span>那你得从sensor原理读起，会弄的话sensor如果支持usb输出什么的，接上电脑matlab或者自己写个c实时分析就好，延迟不超过0.02秒的.</span><br>
+</p><p><b>永远的访客: </b><br>
+<span>听上去这玩意和一堆吹上天的AI有点近亲，水很深</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1830279[0-50]</guid>
+    </item>
+  </channel>
+</rss>

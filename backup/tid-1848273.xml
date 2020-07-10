@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3800x 3700x 3600 内存写入带宽减半</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>3800x 3700x 3600 内存写入带宽减半</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:51:45 +0000</lastBuildDate>
+    <item>
+      <title>3800x 3700x 3600 内存写入带宽减半[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848273-1-1.html</link>
+      <description>3800x 3700x 3600 内存写入带宽减半&#13;
+RT 是农企飘了还是不得已而为之 锐龙一代segmentfault被坑之后 依然后怕</description>
+      <content:encoded><![CDATA[<p><b>snowind1989: </b><br>
+<span>3800x 3700x 3600 内存写入带宽减半</span><br>
+<span>RT 是农企飘了还是不得已而为之 锐龙一代segmentfault被坑之后 依然后怕</span><br>
+</p><p><b>qwased: </b><br>
+<span>按照农企的说法就是故意的，他们认为这么做可以节约TDP下来给计算核心用，而且有大L3对性能的影响不大</span><br>
+</p><p><b>雪影: </b><br>
+<span>另外3700X的AIDA64内存写入也有问题，原因是AMD这次把内存从CCD写入cIOD的带宽由32B/Cycle改成了16B/Cycle，而AIDA64默认的算法是32B/Cycle，所以实际上跑出来的数值只有一半，针对这个问题，AMD已经和AIDA64在沟通并改进当中。</span><br>
+<span>pceva说的</span><br>
+<span>—— 来自 Xiaomi MI PAD 4, Android 8.1.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>qwased: </b><br>
+<span>雪影 发表于 2019-7-22 00:41</span><br>
+<span>另外3700X的AIDA64内存写入也有问题，原因是AMD这次把内存从CCD写入cIOD的带宽由32B/Cycle改成了16B/Cycle ...</span><br>
+<span>“In memory bandwidth, we see something odd, the write speed of AMD's 3700X, and that's because of the CDD to IOD connection, where the writes are 16B/cycle on the 3700X, but it's double that on the 3900X. AMD said this let them conserve power, which accounts for part of the lower TDP AMD aimed for. AMD says applications rarely do pure writes, but it did hurt the 3700X's performance in one of our benchmarks on the next page. Memory latency is a bit high at stock, but you can overclock the memory quite easily”</span><br>
+<span>就是故意的，也没有什么AIDA64会改算法的说法</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>不就是数字不好看 直接香就完事儿了</span><br>
+</p><p><b>红左手: </b><br>
+<span>香就是了，数字好不好看又不影响使用</span><br>
+</p><p><b>snowind1989: </b><br>
+<span>qwased 发表于 2019-7-22 01:12</span><br>
+<span>“In memory bandwidth, we see something odd, the write speed of AMD's 3700X, and that's because of ...</span><br>
+<span>最后那句 虽然我们写入砍半但是你们可以超频啊一种何不食肉糜的意味 臭了 还是等换接口的下代锐龙和新牙膏吧</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>这种不对等在计算机界太常见了，现在看来各项生产力和游戏测试都吊打原来对等的2700x，所以不要太在意思</span><br>
+<span>纠结的话买3900x，测出来是对等的</span><br>
+<span>不过说回来，3900x的话，其实对于每个die来说依然是写比读砍半吧，只不过是两个die所以看起来对等了</span><br>
+</p><p><b>qwased: </b><br>
+<span>snowind1989 发表于 2019-7-22 08:37</span><br>
+<span>最后那句 虽然我们写入砍半但是你们可以超频啊一种何不食肉糜的意味 臭了 还是等换接口的下代锐龙 ...</span><br>
+<span>说的是延迟好吧</span><br>
+<span>反正zen2实际表现还不错，再等等挤干水分就可以下手了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848273[0-50]</guid>
+    </item>
+  </channel>
+</rss>

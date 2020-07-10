@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>江湖救急，bug10桌面假死怎么救</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>江湖救急，bug10桌面假死怎么救</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:56:17 +0000</lastBuildDate>
+    <item>
+      <title>江湖救急，bug10桌面假死怎么救[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915898-1-1.html</link>
+      <description>江湖救急，bug10桌面假死怎么救&#13;
+目前开机桌面在未知系统进程响应/未响应后（十几秒间隙），立马假死，键盘各种命令都能正常执行，但是鼠标只能移动，点击无任何效用。
+
+关键就是不是第一次了，之前认栽重装了正常了，今天又犯了，这样下去不是事啊……
+
+安全模式中一切正常，尝试过系统还原、系统卸载更新、禁AppReadiness服务、命令行DISM /Online /Cleanup-image /RestoreHealth，都没用，谁还能救救我</description>
+      <content:encoded><![CDATA[<p><b>blackchichen: </b><br>
+<span>江湖救急，bug10桌面假死怎么救</span><br>
+<span>目前开机桌面在未知系统进程响应/未响应后（十几秒间隙），立马假死，键盘各种命令都能正常执行，但是鼠标只能移动，点击无任何效用。</span><br>
+<span>关键就是不是第一次了，之前认栽重装了正常了，今天又犯了，这样下去不是事啊……</span><br>
+<span>安全模式中一切正常，尝试过系统还原、系统卸载更新、禁AppReadiness服务、命令行DISM /Online /Cleanup-image /RestoreHealth，都没用，谁还能救救我</span><br>
+</p><p><b>騜: </b><br>
+<span>你不检查硬件？</span><br>
+</p><p><b>blackchichen: </b><br>
+<span>騜 发表于 2020-2-26 20:35</span><br>
+<span>你不检查硬件？</span><br>
+<span>硬件应该没什么问题……ssd损坏也不是这反应啊</span><br>
+<span>而且我看网上有人指出这个应该是win10的锅，也不止我一人这样，主要是我想知道到底是哪儿的问题。</span><br>
+</p><p><b>404489039: </b><br>
+<span>没遇到过 请装最新版本</span><br>
+</p><p><b>sirlion: </b><br>
+<span>关闭浏览器硬件加速</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>想想卡死的时候你在干什么..</span><br>
+</p><p><b>cdyz: </b><br>
+<span>罗技鼠标？</span><br>
+</p><p><b>blackchichen: </b><br>
+<span>cdyz 发表于 2020-2-26 21:34</span><br>
+<span>罗技鼠标？</span><br>
+<span>确实是，和鼠标驱动有关？</span><br>
+<span>我昨天已经放弃并重做系统了，恢复正常，因为还是从备份的镜像恢复的不知道以后是不是继续来一糟。</span><br>
+<span>谢谢回复的各位。</span><br>
+</p><p><b>asion617: </b><br>
+<span>前几天遇到了一模一样的问题，开机后几秒正常，然后突然假死，点图标，桌面右键都没反应。然后火绒清理一下注册表之类的垃圾，重启恢复正常。</span><br>
+</p><p><b>革萌: </b><br>
+<span>我也是 重启基本就正常 ，每天开机第一次有一定概率会这样</span><br>
+<span>准备装lstc了</span><br>
+</p><p><b>jestime: </b><br>
+<span>更新最新版本系统，然后重置系统试试</span><br>
+</p><p><b>cdyz: </b><br>
+<span>blackchichen 发表于 2020-2-27 11:11</span><br>
+<span>确实是，和鼠标驱动有关？</span><br>
+<span>我昨天已经放弃并重做系统了，恢复正常，因为还是从备份的镜像恢复的不知道以 ...</span><br>
+<span>可以试试调低回报率，之前被1000回报率搞卡死过笔记本</span><br>
+</p><p><b>killyu: </b><br>
+<span>试过几次类似的，不过都是在锁屏界面，除了鼠标可以动外什么按键都没反应。一般都是用另一台电脑/手机远程进去再退出来就有反应了</span><br>
+</p><p><b>King5268: </b><br>
+<span>我去，我刚发现我的笔记本也是这个问题，换了内存，硬盘，重装系统，都白搭，照样死，但是用着用着就没事儿了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>革萌 发表于 2020-2-27 12:29</span><br>
+<span>我也是 重启基本就正常 ，每天开机第一次有一定概率会这样</span><br>
+<span>准备装lstc了</span><br>
+<span>ltsc真挺好的，我用着一直没啥问题，换回普通版上来就碰到好几个问题</span><br>
+<span>只是ltsc也太旧了，新硬件支持不是太好，看什么时候出2020版的ltsc</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915898[0-50]</guid>
+    </item>
+  </channel>
+</rss>

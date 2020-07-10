@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么业界游戏引擎还在使用落后的C#语言开发？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么业界游戏引擎还在使用落后的C#语言开发？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:12:12 +0000</lastBuildDate>
+    <item>
+      <title>为什么业界游戏引擎还在使用落后的C#语言开发？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854612-1-1.html</link>
+      <description>为什么业界游戏引擎还在使用落后的C#语言开发？&#13;
+比如广大独立游戏爱好者喜爱的U3D技术，是基于C#语言开发的，往往跨平台容易造成系统不兼容问题，移植平台需要重写一份代码。使用java语言开发移植平台的时候就不需要重写代码了，这样移植后平台也不会造成优化变差的局面。为什么现在游戏界还不大力推行java语言呢？</description>
+      <content:encoded><![CDATA[<p><b>yexuning: </b><br>
+<span>为什么业界游戏引擎还在使用落后的C#语言开发？</span><br>
+<span>比如广大独立游戏爱好者喜爱的U3D技术，是基于C#语言开发的，往往跨平台容易造成系统不兼容问题，移植平台需要重写一份代码。使用java语言开发移植平台的时候就不需要重写代码了，这样移植后平台也不会造成优化变差的局面。为什么现在游戏界还不大力推行java语言呢？</span><br>
+</p><p><b>竜破斬: </b><br>
+<span> 本帖最后由 竜破斬 于 2019-8-20 10:21 编辑 </span><br>
+<span>因为用了java之后从一开始优化就变差了而且游戏界用的多的是C++吧</span><br>
+</p><p><b>物理毒狗: </b><br>
+<span>2楼终结</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>yexuning: </b><br>
+<span>竜破斬 发表于 2019-8-20 10:18</span><br>
+<span>因为用了java之后从一开始优化就变差了</span><br>
+<span>那么有没有一种语言可以解决跨平台和优化问题呢？</span><br>
+</p><p><b>yamori: </b><br>
+<span>提醒一下楼主，Java诞生于1995年，而C#诞生于2000年</span><br>
+</p><p><b>qfqczr: </b><br>
+<span>很久以前，拿JAVA开发点游戏引包都有点麻烦，轮子都没有更别提造车了，不知道现在咋样了。</span><br>
+</p><p><b>王怡人: </b><br>
+<span>我的世界不就java开发的么,卡得一逼</span><br>
+</p><p><b>书行: </b><br>
+<span>C#跨平台有mono，谁跟你说要重写代码了？</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>王怡人 发表于 2019-8-20 10:25</span><br>
+<span>我的世界不就java开发的么,卡得一逼</span><br>
+<span>我觉得我的世界可能怪不了java，只能怪majong自己······</span><br>
+<span>这边基岩版史诗光影鸽了，让英伟达RTX入场，majong技术真的8行。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-8-20 10:42 编辑 </span><br>
+<span>谁跟你说c#是落后语言移植平台需要重写的？我看你是看不起il2cpp编译器</span><br>
+<span>java这种弟弟一个虚拟机占用2G内存的好意思当游戏脚本语言用吗</span><br>
+<img src="https://i.loli.net/2019/08/20/zaBcd7T1RbmJGFf.png" title="https://i.loli.net/2019/08/20/zaBcd7T1RbmJGFf.png"><br>
+<span>写得差怪编程语言不行，不知道是哪里的风气</span><br>
+</p><p><b>resty: </b><br>
+<span>C#不落后。Unity跨平台做得是偏好的那一档。。。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>为啥不搞开发喜欢参合开发这事情？</span><br>
+</p><p><b>厨具战士: </b><br>
+<span>用个java也能有优越感？</span><br>
+</p><p><b>melvin95: </b><br>
+<span>Java是DD谢谢</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>LZ想问的是C++吧。C#主要就是Unity在用，一般inhouse引擎的底层肯定都是Cpp写的。</span><br>
+<span>用C++一开始的原因就是高性能和方便优化，后来的原因就是路径依赖。一直有很多人在尝试让游戏开发远离C++，比如吹哥就很烦C++，自己开发了一套语言Jai。他直播了好几年在用他做的编译工具链写引擎</span><br>
+</p><p><b>竜破斬: </b><br>
+<span> 本帖最后由 竜破斬 于 2019-8-20 10:48 编辑 </span><br>
+<span>yexuning 发表于 2019-8-20 10:22</span><br>
+<span>那么有没有一种语言可以解决跨平台和优化问题呢？</span><br>
+<span>跨平台一键移植的一般都跑在虚拟机里，没法针对硬件优化。而要提高运行效率做出最好的画面效果针对游戏主机的硬件进行优化是必须的。所以大部分3A游戏用的引擎像unreal，cry engine，寒霜等都是用C++写的。</span><br>
+<span>unity就是属于一键移植的，你看官网列出来支持平台数量那是一个多，然而unity游戏的运行效率也不用我多说了吧。</span><br>
+</p><p><b>top2000: </b><br>
+<span>这些语言都是有持续更新的 又不是当年出了就一直不变了</span><br>
+</p><p><b>黑丝大野模: </b><br>
+<span>java效率多低啊……在统一硬件平台下代码执行效率越高，内存用的越精致，画面表现就越好。而且9012年了都，跨平台概念不是早就破产了吗……</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>光荣的小学生: </b><br>
+<span>我记得轮子哥在s1也是有号的</span><br>
+<span>@GeniusVczh</span><br>
+</p><p><b>zz_mps: </b><br>
+<span>qfqczr 发表于 2019-8-20 10:23</span><br>
+<span>很久以前，拿JAVA开发点游戏引包都有点麻烦，轮子都没有更别提造车了，不知道现在咋样了。 ...</span><br>
+<span>拿idea开发java引包的体验还行，游戏开发就不太了解了，到处都是unity，PC上用java开发的游戏倒很少听到</span><br>
+<span>不知道所谓的跨平台优秀是哪来的</span><br>
+</p><p><b>HMHM: </b><br>
+<span>运行效率低下，90%的锅在于你的实现，而不在于你用什么语言。</span><br>
+</p><p><b>museqsou: </b><br>
+<span>すぴぱら 发表于 2019-8-20 10:32</span><br>
+<span>谁跟你说c#是落后语言移植平台需要重写的？我看你是看不起il2cpp编译器</span><br>
+<span>java这种弟弟一个虚拟机占 ...</span><br>
+<span>其实部分重写还是要的，手柄这块就逃不过，触摸屏这块也是。</span><br>
+<span>游戏开发说说c艹艹落后java先进这能给我一早上的乐子</span><br>
+</p><p><b>museqsou: </b><br>
+<span>竜破斬 发表于 2019-8-20 10:47</span><br>
+<span>跨平台一键移植的一般都跑在虚拟机里，没法针对硬件优化。而要提高运行效率做出最好的画面效果针对游戏主 ...</span><br>
+<span>unity的底层照样是C++写的，C艹艹只是中间层。中间层这块用C艹艹或者C++的影响远没底层那么大，相反为了方便这年头中间层用C艹艹、JS、LUA的比比皆是。用开发不方便的C++反而是有多想不开。</span><br>
+<span>谈到效率问题，unity和其他商业引擎比确实有差距，但也没那么夸张的地步。unity表现的效率不行更多是开发人员的问题，开发unity效率不行的，换其他引擎也是一个样，这块unity只是吃了易上手易用的亏。</span><br>
+</p><p><b>lemore: </b><br>
+<span> 本帖最后由 lemore 于 2019-8-20 11:31 编辑 </span><br>
+<span>U3D不是C井写的，C井只是一个用于业务层的语言，用来调用U3D写好的接口，对所谓的性能以及移植影响不大。实际上为了开发敏捷这种做法在游戏界很常见，C或者C艹用来做业务开发非常不方便，通常就是C写好底层，然后用高级语言或者脚本语言去写业务。</span><br>
+<span>性能低下大部分还是游戏开发人员自己的锅，业务层实现用了撒皮算法拉低效率那游戏引擎也阻止不了，算法垃圾用C写还是python写那都一个样，去leetcode上看看统计，一样的算法C和python耗时不会差太多，这种差距在业务层上是完全可以忽略的（然后python实现四五行，C写了十几行）。</span><br>
+</p><p><b>竜破斬: </b><br>
+<span> 本帖最后由 竜破斬 于 2019-8-20 11:37 编辑 </span><br>
+<span>museqsou 发表于 2019-8-20 11:03</span><br>
+<span>unity的底层照样是C++写的，C艹艹只是中间层。中间层这块用C艹艹或者C++的影响远没底层那么大，相反为了 ...</span><br>
+<span>主机要优化好自然是要魔改底层来实现最好的效果啊。只在中间层开发天然在优化上落后魔改底层的一截。当然现在主机都x86了，估计魔改的必要性也没有以前那么大了。</span><br>
+<span>确实。unity主要还是缺少3A游戏站台，几乎都是中小规模游戏。给人一种低成本游戏专用引擎的印象。</span><br>
+</p><p><b>hourousha: </b><br>
+<span>LZ明显就一巨魔，你们还真喜欢上钩</span><br>
+</p><p><b>ChengChung: </b><br>
+<span>槽点太多，我还是扔到其他地方让大家开心一些吧</span><br>
+</p><p><b>ClamtheElder: </b><br>
+<span>引擎用的脚本语言用jvm编译更蠢一点还是在jvm上写引擎更蠢一点。</span><br>
+<span>—— 来自 Xiaomi Redmi 6, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>w30of: </b><br>
+<span>RE引擎也用C#当脚本哦</span><br>
+</p><p><b>合同工: </b><br>
+<span>黑丝大野模 发表于 2019-8-20 10:48</span><br>
+<span>java效率多低啊……在统一硬件平台下代码执行效率越高，内存用的越精致，画面表现就越好。而且9012年了都， ...</span><br>
+<span>跨平台概念不是破产，只是已经成为新的语言标配了，所以没人提了</span><br>
+</p><p><b>whzfjk: </b><br>
+<span> 本帖最后由 whzfjk 于 2019-8-20 12:40 编辑 </span><br>
+<span>java跨平台是爽啊，拿javafx随便做个小窗口app，打包成jar，换个系统装下jre就能跑了</span><br>
+<span>不过拿html和javascript写个sap是不是更方便（无视IO）</span><br>
+<span>都在托管运行时的层面上比较的话，jvm 也不虚其他的吧？</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>lemore 发表于 2019-8-20 11:15</span><br>
+<span>U3D不是C井写的，C井只是一个用于业务层的语言，用来调用U3D写好的接口，对所谓的性能以及移植影响不大。实 ...</span><br>
+<span>不 python实在是太慢了,相同的逻辑一般有10-100倍的差距</span><br>
+</p><p><b>qratosone: </b><br>
+<span>C#在语言特性方面全方位无死角吊打JAVA，在C#面前JAVA除了轮子多之外完全一无是处——然而具体到游戏开发这一块JAVA连轮子多这个优点都不复存在了。</span><br>
+<span>主流的游戏用JAVA开发的只有一个MC，然后MC以代码烂效率低无法维护著称——现在微软接手之后用C++重写了一遍</span><br>
+</p><p><b>Austaras: </b><br>
+<span>I is fishes</span><br>
+<span>当代跨平台最大的问题在于你有那么多平台要跨吗?如果真到要跨平台的时候真的不能再投入时间写一份吗</span><br>
+</p><p><b>天才援交少女: </b><br>
+<span>lemore 发表于 2019-8-20 11:15</span><br>
+<span>U3D不是C井写的，C井只是一个用于业务层的语言，用来调用U3D写好的接口，对所谓的性能以及移植影响不大。实 ...</span><br>
+<span>别逗，py和java比都有数量级的差别，更别说c/c艹了</span><br>
+<span>leetcode 3sum:</span><br>
+<img src="https://i.loli.net/2019/08/20/R7fXtSPEOoFeN9U.png" title="https://i.loli.net/2019/08/20/R7fXtSPEOoFeN9U.png"><br>
+</p><p><b>lemore: </b><br>
+<span>天才援交少女 发表于 2019-8-20 13:51</span><br>
+<span>别逗，py和java比都有数量级的差别，更别说c/c艹了</span><br>
+<span>leetcode 3sum:</span><br>
+<span>挑题目就没意思了啊，python这种脚本语言操作数组容器本身就天然劣势，写基于数组操作的算法当然吃大亏</span><br>
+<span>如果主要容器是用hash-map，那差距就没那么大：</span><br>
+<span>当然我的不是最优解，CPP时间最优解在40ms，py在100ms</span><br>
+<span>如果不是写图形渲染，网络收发之类的底层，编程语言的这些性能差距基本不构成影响。我不是想说py在性能上能和cpp五五开，我的意思是大部分用现有引擎的游戏开发者，他们接触到的场景都是逻辑业务开发，在这个场景下编程语言造成的瓶颈很小，甩锅给语言不合适。</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>用C#是因为Unity这个通用引擎用啊，而且人家是Script啊</span><br>
+<span>如果有用Java的通用引擎也行啊</span><br>
+</p><p><b>BRRM: </b><br>
+<span>天才援交少女 发表于 2019-8-20 13:51</span><br>
+<span>别逗，py和java比都有数量级的差别，更别说c/c艹了</span><br>
+<span>leetcode 3sum:</span><br>
+<span>人家是说业务层而不是底层。</span><br>
+</p><p><b>hzhh95963: </b><br>
+<span>点进来之前我还以为是想说Rust</span><br>
+</p><p><b>mimighost: </b><br>
+<span>看泥潭这些精神程序员嘴炮，真有意思</span><br>
+<span>c#作为语言挺好的，要跨平台，有需求就有方法，最多就是成本问题，虚拟机一起打包完事儿</span><br>
+</p><p><b>ohi: </b><br>
+<span>Java的性能还不去脚本语言lua吧</span><br>
+</p><p><b>cqkxywj: </b><br>
+<span>你们黑Java的其他也就算了，还有黑Java性能和JVM的，服了服了</span><br>
+</p><p><b>emu13: </b><br>
+<span>lz发这帖是钓鱼吗。。。这论坛又不是开发论坛。。。刚脱坑曾经的游戏客户端程序猿路过。。。。</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>黑c#有无数种黑法，lz偏偏用java黑，简直无法让人不怀疑是故意巨魔的</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854612[0-50]</guid>
+    </item>
+  </channel>
+</rss>

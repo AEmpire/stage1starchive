@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>试图用 Velop 3900 统一家里 SSID 失败</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>试图用 Velop 3900 统一家里 SSID 失败</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:35 +0000</lastBuildDate>
+    <item>
+      <title>试图用 Velop 3900 统一家里 SSID 失败[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907051-1-1.html</link>
+      <description>试图用 Velop 3900 统一家里 SSID 失败&#13;
+双十一的时候入了 Velop 3900，共 3 只，试图把家里的 SSID 统一成一个，然而效果实在难以恭维。
+&#13;
+主要坑点在于单只信号实在很弱，放得太密还打架，不知道换成 6600 之类的会不会好一些。对于这种小 AP 的覆盖现在有了比较客观的认识。。
+&#13;
+https://p.sda1.dev/0/19182accab80d55c45ff28a67754f908/幻灯片1.jpeg
+&#13;
+我家的结构如图，总面积也不是很大，就是中间厕所的承重墙很烦，需要覆盖的设备也不多，有线无线加起来不超过 10 个，所以对路由器的处理能力要求很低。
+&#13;
+客厅进线（Cable Modem，100M），一条网线可以拉到 次卧B，次卧B 到 次卧A 也有线。
+&#13;
+方案 A：最初方案，进线处有个书柜，柜顶放 ac86u 作为路由，SSID A，覆盖能力可以包括 客厅、主卧，主卧厕所。次卧A 也能收到信号，但是不稳定。次卧B 放 6300v2 作为 AP，SSID B，覆盖三个次卧，以及次卧侧的厕所。
+&#13;
+优点是只要大家都不动，还是稳定能用，缺点是只要一动，包括回家的时候，都要手动切一下 SSID，否则到 远处 SSID 的信号很差但是还能连。我设置了低于 -75dbm 自动断开，不过并不好使。
+&#13;
+方案 B：一开始想上 Aimesh，各方看了看评论不太好，就上了 Velop。拓扑是一样的，现有的两台设备保留，关闭 Wi-Fi，然后各接一只 AP。这时候问题来了，Velop 1300 单只的信号真的很差，次卧C 信号强度只有之前一半，Speedtest 测了一下不到 30M；次卧侧厕所信号不稳定；主卧厕所几乎没信号。
+&#13;
+OK，我也想到可能有这种情况，所以还有一只试图补救，毕竟对上网性能要求不高，信号稳定别频繁掉线重连就行，在 主卧 放了一只走无线回程，最无语的事情来了，我在 次卧A，默认会连到主卧的 AP，然后内网延迟 400ms。。。
+&#13;
+在 Velop 的桥接（AP）模式下，能调的东西并不多，改了 AP 的地域设置也没有很好的效果，放弃，把 Velop 拆了。
+&#13;
+就，虽然对家用的 “Mesh” 没太高期待，不过这也太菜了点，也许上 2 台 EA9500 能解决这个问题，但是我就 1000 块钱预算，想想还是算了。
+&#13;
+下一步在想是把 Velop 出了换个 68u 做 Aimesh，或者把主卧的 AP 上电力猫连到 86u 走有线回程。。。感觉都不是很靠谱</description>
+      <content:encoded><![CDATA[<p><b>kiddolck: </b><br>
+<span>试图用 Velop 3900 统一家里 SSID 失败</span><br>
+<span>双十一的时候入了 Velop 3900，共 3 只，试图把家里的 SSID 统一成一个，然而效果实在难以恭维。</span><br>
+<span>主要坑点在于单只信号实在很弱，放得太密还打架，不知道换成 6600 之类的会不会好一些。对于这种小 AP 的覆盖现在有了比较客观的认识。。</span><br>
+<img src="https://p.sda1.dev/0/19182accab80d55c45ff28a67754f908/幻灯片1.jpeg" title="https://p.sda1.dev/0/19182accab80d55c45ff28a67754f908/幻灯片1.jpeg"><br>
+<span>我家的结构如图，总面积也不是很大，就是中间厕所的承重墙很烦，需要覆盖的设备也不多，有线无线加起来不超过 10 个，所以对路由器的处理能力要求很低。</span><br>
+<span>客厅进线（Cable Modem，100M），一条网线可以拉到 次卧B，次卧B 到 次卧A 也有线。</span><br>
+<span>方案 A：最初方案，进线处有个书柜，柜顶放 ac86u 作为路由，SSID A，覆盖能力可以包括 客厅、主卧，主卧厕所。次卧A 也能收到信号，但是不稳定。次卧B 放 6300v2 作为 AP，SSID B，覆盖三个次卧，以及次卧侧的厕所。</span><br>
+<span>优点是只要大家都不动，还是稳定能用，缺点是只要一动，包括回家的时候，都要手动切一下 SSID，否则到 远处 SSID 的信号很差但是还能连。我设置了低于 -75dbm 自动断开，不过并不好使。</span><br>
+<span>方案 B：一开始想上 Aimesh，各方看了看评论不太好，就上了 Velop。拓扑是一样的，现有的两台设备保留，关闭 Wi-Fi，然后各接一只 AP。这时候问题来了，Velop 1300 单只的信号真的很差，次卧C 信号强度只有之前一半，Speedtest 测了一下不到 30M；次卧侧厕所信号不稳定；主卧厕所几乎没信号。</span><br>
+<span>OK，我也想到可能有这种情况，所以还有一只试图补救，毕竟对上网性能要求不高，信号稳定别频繁掉线重连就行，在 主卧 放了一只走无线回程，最无语的事情来了，我在 次卧A，默认会连到主卧的 AP，然后内网延迟 400ms。。。</span><br>
+<span>在 Velop 的桥接（AP）模式下，能调的东西并不多，改了 AP 的地域设置也没有很好的效果，放弃，把 Velop 拆了。</span><br>
+<span>就，虽然对家用的 “Mesh” 没太高期待，不过这也太菜了点，也许上 2 台 EA9500 能解决这个问题，但是我就 1000 块钱预算，想想还是算了。</span><br>
+<span>下一步在想是把 Velop 出了换个 68u 做 Aimesh，或者把主卧的 AP 上电力猫连到 86u 走有线回程。。。感觉都不是很靠谱</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>不至于啊，我去别人家帮忙，3个腾达MW3都能达到这个效果了</span><br>
+<span>你试一下摆成对称三角形试试看....</span><br>
+<span>对了，手机记得也要支持802.11r才行，反正有没有这个802.11k/v/r，对于腾达这个小方块影响是挺大的，而且据我所知，华为全系手机都不支持</span><br>
+<span>取而代之的是华为自己的弱信号剔除功能</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span> 本帖最后由 Saker_bobo 于 2020-1-2 00:30 编辑 </span><br>
+<span>你这情况 纯粹是垃圾华硕不支持kvr 你弄两mg1200ac做AP ssid用同一个 打开kvr 接在86u下面 放在原来无线的位置 86u关掉无线做有线路由 拆掉6300v2 应该就没问题了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Hibino: </b><br>
+<span>我上个月刚把ea9500换成了mr9000+whw03，位置和lz差不多mr9000为主路由在客厅，whw03在走廊，为了稳定花了半天时间墙内拉了网线走有线回程。。。。。除了mr9000和whw03的wan在pppoe下无法达到千兆，wifi方面还是非常稳定的，一个月了没掉过没重启过，不过的确有lz说的设备连上其中一个路由后走到靠近另外一个路由设备并不会很快切换到另外一个路由，但是隔一段时间再看就换过去了，没具体测试到底要多久才会切换，反正没掉过线就无所谓了。。。。。。</span><br>
+<span>lz在设置里面把无线发射区域选择美国试试。。。。中国和美国的无线功率差的还是蛮大的</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>6600可以不损失无线带宽，利用额外的一个5G频段做无线回程，不再约束3个中的2个的摆放位置，的确会好些</span><br>
+</p><p><b>hanqi7012: </b><br>
+<span>Velop的话是不是有线回程好很多？</span><br>
+<span>有线的话也不用弄6600的双频5g</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>Hibino 发表于 2020-1-2 05:18</span><br>
+<span>我上个月刚把ea9500换成了mr9000+whw03，位置和lz差不多mr9000为主路由在客厅，whw03在走廊，为了稳定花了 ...</span><br>
+<span>嗯，改到美国了，效果没有很明显的好转。。。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>kiddolck 发表于 2020-1-2 07:18</span><br>
+<span>嗯，改到美国了，效果没有很明显的好转。。。</span><br>
+<span>试着做无线回程，摆放位置调整一下，地区改澳大利亚，重启</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>zmw_831110 发表于 2020-1-2 07:23</span><br>
+<span>试着做无线回程，摆放位置调整一下，地区改澳大利亚，重启</span><br>
+<span>最大的问题是我觉得 Velop 对设备连 AP 的控制太怪了，都是穿一堵墙会选更慢的那个，具体功率啥在桥接模式下面看不到</span><br>
+<span>另外就是 1300 单台的无线回程真的不太稳。。。</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>这户型怎么这么精日……</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-1-2 08:07 编辑 </span><br>
+<span>kiddolck 发表于 2020-1-2 07:39</span><br>
+<span>最大的问题是我觉得 Velop 对设备连 AP 的控制太怪了，都是穿一堵墙会选更慢的那个，具体功率啥在桥接模 ...</span><br>
+<span>退了，试一试6600吧，我新家情况和你也许类似。。。精装房的网络分布比较迷，至今我没拿到网络布局图，说要交房后。。。</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>zmw_831110 发表于 2020-1-2 08:06</span><br>
+<span>退了，试一试6600吧，我新家情况和你也许类似。。。精装房的网络分布比较迷，至今我没拿到网络布局图，说 ...</span><br>
+<span>没预算限制上 ubnt 或者 Aruba HPE 的方案呗（</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>kiddolck 发表于 2020-1-2 08:12</span><br>
+<span>没预算限制上 ubnt 或者 Aruba HPE 的方案呗（</span><br>
+<span>6600的价格已经是我能接受的顶了</span><br>
+</p><p><b>jxyy2002: </b><br>
+<span>我记得1300最好是有线回程，要无线回程的话，最好上那个5G双频的那个更贵的。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>没有独立频段回传的mesh都是残废</span><br>
+</p><p><b>password: </b><br>
+<span>我家三室两厅Velop6600，也是无线+有线的混合3节点</span><br>
+<span>无线回程隔两墙的那个房间可以跑满200M带宽</span><br>
+<span>不过你这房型真的挺奇怪的</span><br>
+<span>你在主卧放无线节点很难加强次卧C的信号吧</span><br>
+<span>可以考虑试试次卧A有线+次卧C无线</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>password 发表于 2020-1-2 10:18</span><br>
+<span>我家三室两厅Velop6600，也是无线+有线的混合3节点</span><br>
+<span>无线回程隔两墙的那个房间可以跑满200M带宽</span><br>
+<span>是，那个走廊非常智障……放主卧主要是要满足主卧厕所的信号覆盖</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span> 本帖最后由 華蝶風雪 于 2020-1-4 00:10 编辑 </span><br>
+<span>这就看出分布式路由的好了，设置是真的方便，SSD统一，自动切换，傻瓜无脑。</span><br>
+<span>不管是带独立回程的网件orbi 还是便宜的荣耀（没有独立回程信道，但是子路由用1无线+1有线回程就基本不影响），至少能保证在屋里任何一个地方信号都是满格，而且在屋里走动几乎感觉不到信号源的切换，我甚至在电梯口和消防楼道里都能连上家里的wifi。</span><br>
+</p><p><b>Hibino: </b><br>
+<span>突然想到一个事，lz把固件降级到1.1.9.195026试试，这个是最后一个稳定的固件，再往上都有问题。月初和linksys阿三客服因为wan->lan达不到1gbps扯皮的时候他还叮嘱我千万别升级固件。。。。。</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>Hibino 发表于 2020-1-4 15:20</span><br>
+<span>突然想到一个事，lz把固件降级到1.1.9.195026试试，这个是最后一个稳定的固件，再往上都有问题。月初和link ...</span><br>
+<span>震撼，我看看怎么降级</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>Hibino 发表于 2020-1-4 15:20</span><br>
+<span>突然想到一个事，lz把固件降级到1.1.9.195026试试，这个是最后一个稳定的固件，再往上都有问题。月初和link ...</span><br>
+<span>https://downloads.linksys.com/support/assets/releasenotes/WHW01_VLP01_1.1.11.195027_Customer_Release_Notes.txt</span><br>
+<span>在 release note 上看不到这个版本啊233</span><br>
+</p><p><b>macos: </b><br>
+<span>基于无线的扩展要损耗至少一半带宽，而且必须在信号够强的位置，有条件应该用基于有线的扩展</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>macos 发表于 2020-1-4 18:01</span><br>
+<span>基于无线的扩展要损耗至少一半带宽，而且必须在信号够强的位置，有条件应该用基于有线的扩展 ...</span><br>
+<span>三频的那款有2和5G，无线回程直接用掉其中一个5G，所以相对来说不损失你所用的5G的带宽</span><br>
+</p><p><b>Hibino: </b><br>
+<span>kiddolck 发表于 2020-1-4 17:08</span><br>
+<span>https://downloads.linksys.com/support/assets/releasenotes/WHW01_VLP01_1.1.11.195027_Customer_Relea ...</span><br>
+<span>WHW03的release note我说的那个版本和WHW01最新版推出日期以及更新记录是一样的，看来WHW01最新的那个就是稳定版的。。。。。。</span><br>
+<span>https://s3.amazonaws.com/downloads.linksys.com/support/assets/releasenotes/WHW03_A03_Velop_Customer_Release_Notes_1.1.11.197735.txt</span><br>
+</p><p><b>macos: </b><br>
+<span>zmw_831110 发表于 2020-1-4 18:24</span><br>
+<span>三频的那款有2和5G，无线回程直接用掉其中一个5G，所以相对来说不损失你所用的5G的带宽 ...</span><br>
+<span>5g太短了，扩展反而是适合容易穿墙的2.4g，5g留给现场</span><br>
+</p><p><b>password: </b><br>
+<span>macos 发表于 2020-1-4 18:31</span><br>
+<span>5g太短了，扩展反而是适合容易穿墙的2.4g，5g留给现场</span><br>
+<span>国标下5G比较弱而已</span><br>
+<span>现在Velop国行都能换区调高发射功率了 美区的5G其实很能穿墙的</span><br>
+<span>我当初买Velop三频的时候还没有支持换区 所以直接买的美版</span><br>
+<span>美区下大概比国区能少一半的布点达到同等覆盖面积</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>应该是软件锁了发射功率 看了下拆解 这货5G PA有24dBm 是很大的功率了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>password 发表于 2020-1-4 19:06</span><br>
+<span>国标下5G比较弱而已</span><br>
+<span>现在Velop国行都能换区调高发射功率了 美区的5G其实很能穿墙的</span><br>
+<span>我当初买Velop三频的 ...</span><br>
+<span>我记得澳大利亚比美国还猛</span><br>
+<span>R7000我通过命令行调到最大，覆盖明显比调任何地区还大</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1844898-0-1.html</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>zmw_831110 发表于 2020-1-4 19:51</span><br>
+<span>我记得澳大利亚比美国还猛</span><br>
+<span>R7000我通过命令行调到最大，覆盖明显比调任何地区还大</span><br>
+<span>https://bbs.saraba1st ...</span><br>
+<span>澳大利亚限1000mW</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907051[0-50]</guid>
+    </item>
+  </channel>
+</rss>

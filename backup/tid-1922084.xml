@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于代码处理文件的思路</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于代码处理文件的思路</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:57:05 +0000</lastBuildDate>
+    <item>
+      <title>关于代码处理文件的思路[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1922084-1-1.html</link>
+      <description>关于代码处理文件的思路&#13;
+手上有个文件，TXT格式，想把内容读取出来，转换成excel，但没有思路，求帮忙~
+&#13;
+文件是保存指令执行结果的log，不同指令结果不一样，但主要有两种格式
+&#13;
+格式1：
+&#13;
+头部(格式固定)                                                
+&#13;
+参数1        参数2        参数3        参数4        参数5        …        参数N
+&#13;
+参数1值1        参数2值1        参数3值1        参数4值1        参数5值1        …        参数N值1
+&#13;
+.
+&#13;
+.
+&#13;
+.                                                
+&#13;
+参数1值N        参数2值N        参数3值N        参数4值N        参数5值N        …        参数N值N
+&#13;
+结尾(格式固定)        
+&#13;
+分割线=======================
+&#13;
+格式2：
+&#13;
+头部(格式固定)        
+&#13;
+参数1 =        参数1值
+&#13;
+参数2 =        参数2值
+&#13;
+参数3 =        参数3值
+&#13;
+参数4 =        参数4值
+&#13;
+参数5 =        参数5值
+&#13;
+.               .
+&#13;
+.               .
+&#13;
+.               .
+&#13;
+参数N =        参数N值
+&#13;
+结尾(格式固定)        
+&#13;
+内容就是由这两种格式混合组成的，比如这样
+&#13;
+格式1
+&#13;
+格式1
+&#13;
+格式1
+&#13;
+格式1
+&#13;
+格式2
+&#13;
+格式1</description>
+      <content:encoded><![CDATA[<p><b>腹黑眼镜: </b><br>
+<span>关于代码处理文件的思路</span><br>
+<span>手上有个文件，TXT格式，想把内容读取出来，转换成excel，但没有思路，求帮忙~</span><br>
+<span>文件是保存指令执行结果的log，不同指令结果不一样，但主要有两种格式</span><br>
+<span>格式1：</span><br>
+<span>头部(格式固定)                                                </span><br>
+<span>参数1        参数2        参数3        参数4        参数5        …        参数N</span><br>
+<span>参数1值1        参数2值1        参数3值1        参数4值1        参数5值1        …        参数N值1</span><br>
+<span>.</span><br>
+<span>.</span><br>
+<span>.                                                </span><br>
+<span>参数1值N        参数2值N        参数3值N        参数4值N        参数5值N        …        参数N值N</span><br>
+<span>结尾(格式固定)        </span><br>
+<span>分割线=======================</span><br>
+<span>格式2：</span><br>
+<span>头部(格式固定)        </span><br>
+<span>参数1 =        参数1值</span><br>
+<span>参数2 =        参数2值</span><br>
+<span>参数3 =        参数3值</span><br>
+<span>参数4 =        参数4值</span><br>
+<span>参数5 =        参数5值</span><br>
+<span>.               .</span><br>
+<span>.               .</span><br>
+<span>.               .</span><br>
+<span>参数N =        参数N值</span><br>
+<span>结尾(格式固定)        </span><br>
+<span>内容就是由这两种格式混合组成的，比如这样</span><br>
+<span>格式1</span><br>
+<span>格式1</span><br>
+<span>格式1</span><br>
+<span>格式1</span><br>
+<span>格式2</span><br>
+<span>格式1</span><br>
+</p><p><b>EiTa: </b><br>
+<span>你就不能把他变成excel?</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>模式匹配就好了</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>EiTa 发表于 2020-4-2 09:36</span><br>
+<span>你就不能把他变成excel?</span><br>
+<span>就是想把他编程excel啊！</span><br>
+<span>但是因为格式1跟格式2混用的问题，直接打开了在excel里处理也很麻烦</span><br>
+<span>所以才想用代码来处理</span><br>
+</p><p><b>yikka: </b><br>
+<span> 本帖最后由 yikka 于 2020-4-2 09:45 编辑 </span><br>
+<span>excel不是有导入数据的功能么?打开后数据->自文本</span><br>
+<span>哦 有混用啊，那确实麻烦。不清楚</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>pigbayspy 发表于 2020-4-2 09:36</span><br>
+<span>模式匹配就好了</span><br>
+<span>好，我先去了解一下~</span><br>
+</p><p><b>乐哈哈: </b><br>
+<span>格式1的数据有没有可能含有“=”？如果有，想办法处理一下，如果没有，通过判断第一个字段是否含有“=”来区分是格式1还是格式2，能区分出来数据就能处理了</span><br>
+</p><p><b>Lezardvaleth: </b><br>
+<span>用python，先读txt，然后用openpyxl 写一个excel。</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>先转成csv，逗号分隔</span><br>
+<span>在直接用excel转成其他格式</span><br>
+</p><p><b>EiTa: </b><br>
+<span>那你把数据分开转不就行了....</span><br>
+</p><p><b>nuclearg: </b><br>
+<span>亲，这边建议你自学编译原理写个递归下降的parser呢</span><br>
+</p><p><b>青龙圣者: </b><br>
+<span>直接照着格式头把两种格式分开，再分别存excel不就完事了。导出excel用poi，很简单的。</span><br>
+</p><p><b>greentie: </b><br>
+<span>每种格式的格式头尾都一样吗？不一样应该还好办 一样就像楼上所说 先把特征符号的等号先从一个格式里先去掉</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>你都会编程了，怎么会没有思路的，先写个脚本把两种分开呗</span><br>
+</p><p><b>xuzy0919: </b><br>
+<span>java的话poi啊，不麻烦的</span><br>
+</p><p><b>villsian: </b><br>
+<span>先取出中间内容，然后一行一行处理，通过是否包含＝来判断属于哪一种。后面的就是把数据保存到内存里，然后通过第三方工具给它转成excel，或者转成csv格式（excel能直接打开）。判断哪种类型，如果等号不够用可以试试学习下正则表达式。</span><br>
+</p><p><b>风吹涟漪: </b><br>
+<span>处理字符串数据要先找到分隔符</span><br>
+</p><p><b>cloverqi: </b><br>
+<span>如果分隔符不一样的话，那按照分隔符匹配处理方式不就好了</span><br>
+</p><p><b>璇瑢子R: </b><br>
+<span>log直接输出csv的格式。。。。</span><br>
+</p><p><b>玬翼: </b><br>
+<span>我歪个楼</span><br>
+<span>我感觉把这个文件导入进origin，就能变成表格</span><br>
+<span>然后copy进excel就行了</span><br>
+</p><p><b>fatesunlove: </b><br>
+<span>1.找分隔符，把文本分割成n块</span><br>
+<span>2.根据文本中是否每行都存在=把文本块分为A、B两类</span><br>
+<span>3.针对A类文本读取每一行，转换成excel</span><br>
+<span>4.针对B类文本读取每一行，转换成excel</span><br>
+</p><p><b>单流灯塔: </b><br>
+<span>用python的pandas好像也能方便地按不同分隔符读取，然后保存为excel？</span><br>
+</p><p><b>woodcoin: </b><br>
+<span> 本帖最后由 woodcoin 于 2020-4-2 12:11 编辑 </span><br>
+<span>之前没看到格式一二混着来的</span><br>
+<span>那就记下带等号的行号，每次等号从有到无从无到有，都当成一个分割线（前提是表格正文里面没等号）</span><br>
+<span>把整个文本切成一个个区域</span><br>
+<span>然后按区域处理，生成excel</span><br>
+<span>格式一用正则之类的匹配那个固定格式的结尾，处理掉</span><br>
+<span>假设正文表格N行M列</span><br>
+<span>1、逐行读出来，得到N个字符串，</span><br>
+<span>2、每个字符串按分隔符splite一下，不放心再trim一下，得到N*M个字符串</span><br>
+<span>3、一个个回填到table之类的对象里</span><br>
+<span>4、然后datatable TO CSV或者直接TO EXCEL的code，百度一下就行</span><br>
+</p><p><b>ArtoriaPendrago: </b><br>
+<span>Matlab可解。</span><br>
+</p><p><b>左撇子的猫: </b><br>
+<span>如果会python的话建议用pandas处理</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>用上下文无关文法把语法树写出来，用第三方库比如antrl解析文件。如果文法简单就自己撸一个</span><br>
+</p><p><b>guava: </b><br>
+<span>先用换行替换“=”然后就只剩格式1了吧。</span><br>
+</p><p><b>カドモン: </b><br>
+<span>看样子是本来就不会代码，会代码应该不会问 </span><br>
+<span>他们说的对，excel就有这种功能</span><br>
+</p><p><b>女神アイギス: </b><br>
+<span>感觉你这个可以直接写命令行把两种格式转存成两个不同的txt</span><br>
+<span>完事之后分别导入excel就行了</span><br>
+</p><p><b>女神アイギス: </b><br>
+<span>@Echo off</span><br>
+<span>for /f "delims=/n" %%i in (text.txt) do (</span><br>
+<span>echo %%i | findstr "=" && echo %%i >>text1.txt || echo %%i >>text2.txt</span><br>
+<span>)</span><br>
+<span>写了个小玩意可以把文本分为含有等号的和没有的，代码中指定名字的txt文件请自己建好否则报错</span><br>
+<span>不过看了下你每块是有固定文件头尾的，那这样搞还是结果不对</span><br>
+</p><p><b>轩辕夜羽: </b><br>
+<span>掐头去尾</span><br>
+<span>读每一行数据</span><br>
+<span>列数>2的筛出来做新表X，其余数据做表A</span><br>
+<span>对X进行行列转换得到Y，插回A</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>爬了下楼，发现主楼应该没说清楚。补充一下：</span><br>
+<span>1.每个指令的头部里面也有信息，需要提取出来，加入到对应指令的参数里面</span><br>
+<span>1.输出到excel，按指令分sheet，每个指令一个sheet</span><br>
+<span>2.是同一个指令，两种格式的结果都有可能</span><br>
+</p><p><b>女神アイギス: </b><br>
+<span>不涉及隐私的话最好是贴出来部分示例数据和你需要的处理结果</span><br>
+</p><p><b>chachi: </b><br>
+<span>纯文本不是基本都是正则表达式匹配处理吗</span><br>
+<span>有什么特殊的思路吗？</span><br>
+</p><p><b>归家那单车小径: </b><br>
+<span> 本帖最后由 归家那单车小径 于 2020-4-2 15:58 编辑 </span><br>
+<span>试着写了个，凑合看吧</span><br>
+<span>非职业码农，数据结构算法什么的都还给老师了，轻喷</span><br>
+<span>实验文本test.log，python module openpyxl、re</span><br>
+<span>test.log</span><br>
+<span>BEGIN cli</span><br>
+<span>a      b</span><br>
+<span>a1      b1</span><br>
+<span>a2      b2</span><br>
+<span>a3      b3</span><br>
+<span>END cli</span><br>
+<span>begin cli1</span><br>
+<span>a = 1A</span><br>
+<span>b = 1B</span><br>
+<span>end cli</span><br>
+<span>BEGIN cli</span><br>
+<span>c      d</span><br>
+<span>c1      d1</span><br>
+<span>c2      d2</span><br>
+<span>c3      d3</span><br>
+<span>c4      d4</span><br>
+<span>END cli</span><br>
+<span>begin cli1</span><br>
+<span>c = 1C</span><br>
+<span>d = 1D</span><br>
+<span>end cli</span><br>
+<span>textlog2excel.py</span><br>
+<span>import openpyxl, re</span><br>
+<span>mode1 = 'BEGIN cli'</span><br>
+<span>mode2 = 'begin cli1'</span><br>
+<span>ending = 'END cli'</span><br>
+<span>ending1 = 'end cli'</span><br>
+<span>r1 = 1</span><br>
+<span>c1 = 1</span><br>
+<span>c2 = 2</span><br>
+<span>rr1 = 1</span><br>
+<span>cc1 = 1</span><br>
+<span>cc2 = 2</span><br>
+<span>wb = openpyxl.Workbook()</span><br>
+<span>wb.create_sheet(index=0, title=mode1)</span><br>
+<span>wb.create_sheet(index=1, title=mode2)</span><br>
+<span>sheet1 = wb</span><br>
+<span>sheet2 = wb</span><br>
+<span>fil0bj = open('d:\\PythonTest\\test.log')</span><br>
+<span>while 1:</span><br>
+<span>    line = fil0bj.readline()</span><br>
+<span>    if line == '':</span><br>
+<span>      break</span><br>
+<span>    elif mode1 in line:</span><br>
+<span>      print('processing mode1')</span><br>
+<span>      if r1 != 1:</span><br>
+<span>            r1 = 1</span><br>
+<span>            c1 += 2                                 #2是列数，我的实验文本是2列，所以这里调整值就是2，根据自己需要自己改</span><br>
+<span>            c2 += 2                                 #同上</span><br>
+<span>      while 1:</span><br>
+<span>            lineblock = fil0bj.readline()</span><br>
+<span>            if ending in lineblock:</span><br>
+<span>                break</span><br>
+<span>            else:</span><br>
+<span>                sheet1.cell(row=r1, column=c1).value = lineblock.split()</span><br>
+<span>                sheet1.cell(row=r1, column=c2).value = lineblock.split()</span><br>
+<span>                r1 += 1</span><br>
+<span>    elif mode2 in line:</span><br>
+<span>      print('processing mode2')</span><br>
+<span>      while 1:</span><br>
+<span>            lineblock = fil0bj.readline()                                          #lineblock名字随手起的，没有block</span><br>
+<span>            if ending1 in lineblock:</span><br>
+<span>                break</span><br>
+<span>            else:</span><br>
+<span>                sheet2.cell(row=rr1, column=cc1).value = (re.split('=', lineblock))</span><br>
+<span>                sheet2.cell(row=rr1, column=cc2).value = re.split('=', lineblock)</span><br>
+<span>                rr1 += 1</span><br>
+<span>print('done')</span><br>
+<span>wb.save('d:\\Pythontest\\projtest.xlsx')</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>这个看起来用正则语法就够了 都不需要上下文无关语法。</span><br>
+<span>一定要用的话，antlr写一个也就几分钟的事情</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1922084[0-50]</guid>
+    </item>
+  </channel>
+</rss>

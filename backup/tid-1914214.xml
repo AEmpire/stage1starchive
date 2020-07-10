@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>用Chrome下载推特的图片后缀变成jfif了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>用Chrome下载推特的图片后缀变成jfif了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:09:13 +0000</lastBuildDate>
+    <item>
+      <title>用Chrome下载推特的图片后缀变成jfif了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914214-1-1.html</link>
+      <description>用Chrome下载推特的图片后缀变成jfif了&#13;
+怎么改回来呢？百度搜了下说是修改注册表，结果里面没有MIME那项目。
+&#13;
+win10自带的倒是没事。</description>
+      <content:encoded><![CDATA[<p><b>masokishin: </b><br>
+<span>用Chrome下载推特的图片后缀变成jfif了</span><br>
+<span>怎么改回来呢？百度搜了下说是修改注册表，结果里面没有MIME那项目。</span><br>
+<span>win10自带的倒是没事。</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-2-17 08:36 编辑 </span><br>
+<span>注册表里没有就自己加上试试，不过我看那意思也就是自动改扩展名，治个标</span><br>
+</p><p><b>temp255: </b><br>
+<span>chrome 扩展商城 TwitterImageDownloader</span><br>
+<span>请~</span><br>
+</p><p><b>mchan: </b><br>
+<span> 本帖最后由 mchan 于 2020-2-18 00:14 编辑 </span><br>
+<span>注册表两处：</span><br>
+<span>[*]HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/jpeg</span><br>
+<span>[*]HKEY_USER\<SID>_Classes\MIME\Database\Content Type\image/jpg</span><br>
+<span>把 Extension 的值改成“.jpg”。</span><br>
+<span>SID 是你的 Windows 用户 ID，如果电脑上就你一个用户，应该是“S-1-5-21-xxx-xxx-xxx-1001”的格式，三段 xxx 是三串随机数字。如果不确定，命令提示符下执行“wmic useraccount get name,sid”可以确认你的 SID，输出第一列是用户账户名，第二列是对应的 SID。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914214[0-50]</guid>
+    </item>
+  </channel>
+</rss>

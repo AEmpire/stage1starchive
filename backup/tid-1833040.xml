@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>分享下自己折腾linux虚拟机SRIOV心得</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>分享下自己折腾linux虚拟机SRIOV心得</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:26:30 +0000</lastBuildDate>
+    <item>
+      <title>分享下自己折腾linux虚拟机SRIOV心得[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833040-1-1.html</link>
+      <description>分享下自己折腾linux虚拟机SRIOV心得&#13;
+ 本帖最后由 塔奇克马 于 2019-5-22 23:13 编辑 
+
+有什么好处:
+&#13;
+                简单来说降低硬件占用
+&#13;
+                guest主机用测试网卡
+&#13;
+                宿主配置泰安c204 E1220L 硬件支持sriov 不支持acs 通过acs_patch内核实现sriov vf直通
+&#13;
+                对比的网卡
+&#13;
+                上 sriov vf 直通网卡
+&#13;
+                中 virtio 半虚拟网卡
+&#13;
+                下 E1000全虚拟网卡
+&#13;
+                鉴于全虚拟网卡已经淘汰了,那么只要关注半虚拟网卡和直通网卡对比
+&#13;
+                sy(内核占用)这部分被节省了下来 8%左右
+&#13;
+                iperf -w 64k 参数下 940Mbits/sec(E1000全虚拟网卡只能跑到900Mbits/sec,cpu占用率更高)
+&#13;
+                对于CPU越差越有用,CPU越好越没用.没有高网络需求也没用.
+&#13;
+                另外不需要弄虚拟交换机了,只要一个网口分出来的vf设备都能进行网络交换.没有了半虚拟网卡桥接不能和宿主机通信的缺点.
+&#13;
+                坏处是不能迁移,因为对应设备地址,不过很多人没这需求吧.也就无所谓了.
+&#13;
+                mac每次重启变动至少我是这样的,那么只要设置IP就行了.
+&#13;
+简单的一些定义:
+&#13;
+                sriov:可以把某个设备分成多个(7-256)虚拟设备,硬件功能和真实设备类似,降低CPU占用
+&#13;
+                acs:sriov的一个可选特性,具备这个特性,sriov 虚拟出的设备才能直通.如果你有双口网卡你想分别直通给guest主机也是需要这个特性的.
+&#13;
+                      这里涉及到一个概念:所有分配一个IommuGroup内的设备只能直通给一个guest主机,没有acs时,所有在一个pcie口上的设备都被分配到一个group,所以很不灵活
+&#13;
+硬件部分:
+&#13;
+                对于linux只要具备vt-d就可以了,这大概只对linux有效也是linux的福利,目前所有主板都具备这个功能.主板和CPU硬件支持sriov以及acs并不是必要条件
+&#13;
+                sriov 芯片组一般C2xx才可以,有人说华硕,华擎,微星有支持,但是我使用自己的MSI z270失败,必须要加强制参数才行.没有深度测试.
+&#13;
+                acs   需要 xeon-d 或者e5.
+&#13;
+                最低网卡82576 pciex4
+&#13;
+                双网口可以虚拟出 7x2 个虚拟网卡.
+&#13;
+软件部分:
+&#13;
+                以debian(openmediavault)为例子:
+&#13;
+                一般表现为拆分网卡时候出现错误.说明硬件不支持sriov
+&#13;
+                write error: Cannot allocate memory
+&#13;
+                那么需要加上参数
+&#13;
+                pci=assign-busses
+&#13;
+pci=realloc                如果硬件不支持acs则需要替换下内核,正常来说需要自己patch和编译,这里你可以用已有的内核比如:
+&#13;
+                https://queuecumber.gitlab.io/linux-acs-override/
+&#13;
+                直接命令安装.之后加上参数
+&#13;
+                pcie_acs_override=downstream,multifunction                加入内核参数方法:
+&#13;
+                nano /etc/default/grub                编辑,加上参数,参考范例,ctrl+x 保存退出
+&#13;
+                GRUB_CMDLINE_LINUX_DEFAULT="quiet"
+&#13;
+GRUB_CMDLINE_LINUX="default_hugepagesz=2m hugepagesz=2m iommu=pt intel_iommu=on pcie_acs_override=downstream,multifunction"
+&#13;
+                更新内核
+&#13;
+                update-grub
+&#13;
+                重启
+&#13;
+                如何分配网卡find /sys -name sriov_numvfs
+&#13;
+                显示这样
+&#13;
+/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/sriov_numvfs
+&#13;
+/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.1/sriov_numvfs
+&#13;
+/sys/devices/pci0000:00/0000:00:06.0/0000:04:00.0/sriov_numvfs
+&#13;
+                参考这个命令给对应设备的地址.你应该能知道哪个是哪个了.
+&#13;
+lspci -vt
+&#13;
+                你只要
+&#13;
+echo 7 &gt; /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.1/sriov_numvfs                之后直通什么的随便你,这个命令可以加入到rc.local(我觉得能放最好全都放到rc.local中,而不是去改乱七八糟的conf).
+&#13;
+附件 IommuGroup脚本,查看设备Group.</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>分享下自己折腾linux虚拟机SRIOV心得</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-5-22 23:13 编辑 </span><br>
+<span>有什么好处:</span><br>
+<span>                简单来说降低硬件占用</span><br>
+<span>                guest主机用测试网卡</span><br>
+<span>                宿主配置泰安c204 E1220L 硬件支持sriov 不支持acs 通过acs_patch内核实现sriov vf直通</span><br>
+<span>                对比的网卡</span><br>
+<span>                上 sriov vf 直通网卡</span><br>
+<span>                中 virtio 半虚拟网卡</span><br>
+<span>                下 E1000全虚拟网卡</span><br>
+<span>                鉴于全虚拟网卡已经淘汰了,那么只要关注半虚拟网卡和直通网卡对比</span><br>
+<span>                sy(内核占用)这部分被节省了下来 8%左右</span><br>
+<span>                iperf -w 64k 参数下 940Mbits/sec(E1000全虚拟网卡只能跑到900Mbits/sec,cpu占用率更高)</span><br>
+<span>                对于CPU越差越有用,CPU越好越没用.没有高网络需求也没用.</span><br>
+<span>                另外不需要弄虚拟交换机了,只要一个网口分出来的vf设备都能进行网络交换.没有了半虚拟网卡桥接不能和宿主机通信的缺点.</span><br>
+<span>                坏处是不能迁移,因为对应设备地址,不过很多人没这需求吧.也就无所谓了.</span><br>
+<span>                mac每次重启变动至少我是这样的,那么只要设置IP就行了.</span><br>
+<span>简单的一些定义:</span><br>
+<span>                sriov:可以把某个设备分成多个(7-256)虚拟设备,硬件功能和真实设备类似,降低CPU占用</span><br>
+<span>                acs:sriov的一个可选特性,具备这个特性,sriov 虚拟出的设备才能直通.如果你有双口网卡你想分别直通给guest主机也是需要这个特性的.</span><br>
+<span>                      这里涉及到一个概念:所有分配一个IommuGroup内的设备只能直通给一个guest主机,没有acs时,所有在一个pcie口上的设备都被分配到一个group,所以很不灵活</span><br>
+<span>硬件部分:</span><br>
+<span>                对于linux只要具备vt-d就可以了,这大概只对linux有效也是linux的福利,目前所有主板都具备这个功能.主板和CPU硬件支持sriov以及acs并不是必要条件</span><br>
+<span>                sriov 芯片组一般C2xx才可以,有人说华硕,华擎,微星有支持,但是我使用自己的MSI z270失败,必须要加强制参数才行.没有深度测试.</span><br>
+<span>                acs   需要 xeon-d 或者e5.</span><br>
+<span>                最低网卡82576 pciex4</span><br>
+<span>                双网口可以虚拟出 7x2 个虚拟网卡.</span><br>
+<span>软件部分:</span><br>
+<span>                以debian(openmediavault)为例子:</span><br>
+<span>                一般表现为拆分网卡时候出现错误.说明硬件不支持sriov</span><br>
+<span>                write error: Cannot allocate memory</span><br>
+<span>                那么需要加上参数</span><br>
+<span>                pci=assign-busses</span><br>
+<span>pci=realloc                如果硬件不支持acs则需要替换下内核,正常来说需要自己patch和编译,这里你可以用已有的内核比如:</span><br>
+<span>                https://queuecumber.gitlab.io/linux-acs-override/</span><br>
+<span>                直接命令安装.之后加上参数</span><br>
+<span>                pcie_acs_override=downstream,multifunction                加入内核参数方法:</span><br>
+<span>                nano /etc/default/grub                编辑,加上参数,参考范例,ctrl+x 保存退出</span><br>
+<span>                GRUB_CMDLINE_LINUX_DEFAULT="quiet"</span><br>
+<span>GRUB_CMDLINE_LINUX="default_hugepagesz=2m hugepagesz=2m iommu=pt intel_iommu=on pcie_acs_override=downstream,multifunction"</span><br>
+<span>                更新内核</span><br>
+<span>                update-grub</span><br>
+<span>                重启</span><br>
+<span>                如何分配网卡find /sys -name sriov_numvfs</span><br>
+<span>                显示这样</span><br>
+<span>/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/sriov_numvfs</span><br>
+<span>/sys/devices/pci0000:00/0000:00:01.1/0000:02:00.1/sriov_numvfs</span><br>
+<span>/sys/devices/pci0000:00/0000:00:06.0/0000:04:00.0/sriov_numvfs</span><br>
+<span>                参考这个命令给对应设备的地址.你应该能知道哪个是哪个了.</span><br>
+<span>lspci -vt</span><br>
+<span>                你只要</span><br>
+<span>echo 7 > /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.1/sriov_numvfs                之后直通什么的随便你,这个命令可以加入到rc.local(我觉得能放最好全都放到rc.local中,而不是去改乱七八糟的conf).</span><br>
+<span>附件 IommuGroup脚本,查看设备Group.</span><br>
+</p><p><b>riczxc: </b><br>
+<span>我用vfio在windows虚拟机直通到linux主机的显卡，那么多年都没有问题，用得挺好的。</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>谁能让牙膏的核显直通到hdmi就是造福人类的大佬</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833040[0-50]</guid>
+    </item>
+  </channel>
+</rss>

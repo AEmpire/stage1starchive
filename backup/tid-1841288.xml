@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小学三年级的数学题我都不会做了。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小学三年级的数学题我都不会做了。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:36:00 +0000</lastBuildDate>
+    <item>
+      <title>小学三年级的数学题我都不会做了。[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841288-1-1.html</link>
+      <description>小学三年级的数学题我都不会做了。&#13;
+题干是这样的：
+
+A B C三个人一起做旗子，A和B共做了66面，B和C共做了63面，C和A共做了93面。
+
+问：A B C各做了多少个？
+
+（我觉得这题的题干就不严谨啊，因为不是一起做且只做了一次，导致根本没有参考性，这根本做不出来呀摔！）</description>
+      <content:encoded><![CDATA[<p><b>dynasty919: </b><br>
+<span>你这个和我高考考数学时差不多，非要和那到应用题较劲觉得他叙述不对，其实就是自己审题僵住了，结果白白少了12分</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>https://www.wolframalpha.com/input/?i=solve%5B%7Ba%2Bb%3D66,b%2Bc%3D63,a%2Bc%3D93%7D,%7Ba,b,c%7D%5D</span><br>
+<span>Copyable Plaintext:</span><br>
+<span>a = 48 and b = 18 and c = 45</span><br>
+<span>Wolfram Language code:</span><br>
+<span>Reduce[{a + b == 66, b + c == 63, a + c == 93}, a]</span><br>
+<span>Continue in computable notebook</span><br>
+<span>Wolfram Language plaintext output:</span><br>
+<span>a == 48 && b == 18 && c == 45</span><br>
+</p><p><b>pepase: </b><br>
+<span>终于来了一个真小学生难度的题</span><br>
+</p><p><b>nexus1: </b><br>
+<span>这还不是杠……小学语文没毕业</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>麻生椎子 发表于 2019-6-21 23:20</span><br>
+<span>我倒是觉得这题的语文有歧义.....如果换掉其中的几个字</span><br>
+<span>A B C三个人一起做羞羞的事情，A和B共做了6 ...</span><br>
+<span>A=66+93</span><br>
+<span>B=66+63</span><br>
+<span>C=63+93</span><br>
+</p><p><b>小月亮李再含: </b><br>
+<span>别杠了，就一个小学数学题而言，就不存在不严谨的地方。</span><br>
+<span>不要为自己的低下的数学和语文水平找理由。</span><br>
+<span>所谓的数学题，题干表达的越精简越好，这样才便于小学生阅读和理解。</span><br>
+</p><p><b>哈金·罗兰: </b><br>
+<span> 本帖最后由 哈金·罗兰 于 2019-6-22 01:22 编辑 </span><br>
+<span>槽点有点多</span><br>
+<span>楼主是把自己绕进去了吧。把A和B、B和C、C和A，三个组合的旗子分开算，没有把“ABC一起做”的放进去，所以少算了“ABC共做了多少旗子”这个前提，搞得解不了这题。</span><br>
+<span>首先先把三个组合的旗子数量算进去，66+63+93=222。因为三个组合加起来是6个人，比实际人数多3，所以要除以2,等于实际人数和数量总数。222÷2=111，得出ABC三人一起做的旗子数量为111。</span><br>
+<span>然后旗子总数各自减去两人组合的旗子数量，就是剩余第三个人做的旗子数量</span><br>
+<span>总数减AB组合，111-66=45</span><br>
+<span>总数减BC组合，111-63=48</span><br>
+<span>总数减AC组合，111-93=18</span><br>
+<span>所以A做了48，B做了18，C做了45</span><br>
+<span>按照现实标准，一份工作由复数人数来完成，通常各个人的工作量不会有太大差别，A和C的量相当，B不大不如前两者。通常这种情况，B的工作效率大幅低下，大几率会引起其余两人的不满，严重时甚至可能会有工作完成不了的危机，但3人却能仍然能完成了工作，由此可以作出进一步的推测</span><br>
+<span>推测1</span><br>
+<span>B的地位比AC高，所以AC的工作量比B多。这个假设不成立，其中一个原因是因为地位高的话，完全可以不干活，让A和C全干。因此，可以暂定推测ABC3人为同一级别的人</span><br>
+<span>推测2</span><br>
+<span>基于推测1，3人的地位级别相同，那么3人的本身个人价值相不相同？</span><br>
+<span>首先，假设3人为好朋友，AC包容效率低下的C，坚持完成任务。这个假设不成立，最大的一点原因，尼玛两个人各自做了40几面旗，第三个人做的旗连20面都没有，效率再低下也有个限度啊，明摆着就是贱人偷懒。这种坑逼怎么可能会有好朋友，所以这3人不是“朋友”</span><br>
+<span>其次，假设3人为同一性别。这个假设也不成立，三个同一性别的人在干活，其中一个明摆着偷懒，其余的同性不先喷TA个臭煞笔，还干个毛活。干活？我干尼玛呢</span><br>
+<span>由此可以推测出A和C对B这么包容，是因为个人价值不同。所以可以推测A和C是同性，B是异性</span><br>
+<span>经过推测，由此可以看出，A、B、C三个同一级别的人干活，A和C是同性，B仗着自己是异性，明摆着偷懒，而A和C两人则义无反顾地把将近9成活给干完了</span><br>
+<span>所以可以得出结论，B大几率是绿茶婊（或渣男），虽然也有可能不是，但A和C一定是舔狗</span><br>
+</p><p><b>炽十二翼: </b><br>
+<span>（66+63+93）/2=111这是abc总共做的，然后</span><br>
+<span>111-63=48 这是a的</span><br>
+<span>111-93=18这是b的</span><br>
+<span>111-66=45 这是c的</span><br>
+<span>根本用不上方程，小学3年级水平无误</span><br>
+</p><p><b>Nosta: </b><br>
+<span> 本帖最后由 Nosta 于 2019-6-22 01:41 编辑 </span><br>
+<span>编辑</span><br>
+</p><p><b>Demi.Albertini: </b><br>
+<span>题干是这样的：</span><br>
+<span>A B C三个人一起做旗子，A和B共做了66面，B和C共做了63面，C和A共做了93面。</span><br>
+<span>问：A B C各做了多少个？</span><br>
+<span>（我觉得这题的题干就不严谨啊，因为不是一起做且只做了一次，导致根本没有参考性，这根本做不出来呀摔！）</span><br>
+<span>？？？？？</span><br>
+</p><p><b>pilipala: </b><br>
+<span>三数相加除以2就是三人总共做的棋子数量</span><br>
+<span>然后挨个减</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>ebuw: </b><br>
+<span>需要用代数方程组的算是小学奥数题了。</span><br>
+</p><p><b>数据库停止响应: </b><br>
+<span>A B C三个人一起钓鱼，A和B共钓了66条鱼，B和C共钓了63条鱼，C和A共钓了93条鱼。</span><br>
+<span>问：A B C各钓了多少条鱼？</span><br>
+</p><p><b>朝仓和美: </b><br>
+<span>做题多的话，在认真读题之前，公式就已经写好了。根本不可能产生楼主这样的误会。</span><br>
+</p><p><b>带翅膀的饺子: </b><br>
+<span>漫区专号 发表于 2019-06-21 22:14:23</span><br>
+<span>你是几年级？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>985论坛当然要用非齐次线性方程组解喽。</span><br>
+</p><p><b>listener: </b><br>
+<span>这的确也就三年级水平</span><br>
+</p><p><b>greentie: </b><br>
+<span>我也是想到了 容斥原理</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841288[50-100]</guid>
+    </item>
+    <item>
+      <title>小学三年级的数学题我都不会做了。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841288-1-1.html</link>
+      <description>小学三年级的数学题我都不会做了。&#13;
+题干是这样的：
+
+A B C三个人一起做旗子，A和B共做了66面，B和C共做了63面，C和A共做了93面。
+
+问：A B C各做了多少个？
+
+（我觉得这题的题干就不严谨啊，因为不是一起做且只做了一次，导致根本没有参考性，这根本做不出来呀摔！）</description>
+      <content:encoded><![CDATA[<p><b>菲鲁特: </b><br>
+<span>小学三年级的数学题我都不会做了。</span><br>
+<span>题干是这样的：</span><br>
+<span>A B C三个人一起做旗子，A和B共做了66面，B和C共做了63面，C和A共做了93面。</span><br>
+<span>问：A B C各做了多少个？</span><br>
+<span>（我觉得这题的题干就不严谨啊，因为不是一起做且只做了一次，导致根本没有参考性，这根本做不出来呀摔！）</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-6-21 22:05 编辑 </span><br>
+<span>三元一次方程组。</span><br>
+<span>1式 - 2式 = a - c = 3，与 a + c = 93 联立可得 a = 48，故 b = 18，c = 45</span><br>
+</p><p><b>神無やよい: </b><br>
+<span>C45 A48 B18</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>解出来的朋友说一下思路呀</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>neonhex: </b><br>
+<span>这题都做不出来还是说读错题了</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>这都能发一贴，小学生论坛？</span><br>
+</p><p><b>sagat.raid: </b><br>
+<span>要么三元一次房要么心算/画表格穷举呗……</span><br>
+</p><p><b>refo2613: </b><br>
+<span>A+B+C=（66+63+93）/2</span><br>
+<span>然后分别做一下减法就可以了呗</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>对不起，我傻逼了，太多年直接还给老师了，老师对不起</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>encode.x: </b><br>
+<span>三个人是一起做的 lz理解的有偏差</span><br>
+<span>66+63+93=222 三个值加起来是三个人一起做了两遍旗子 除以二变成111就是三个人一共做的旗子数量</span><br>
+<span>111-66=45 c做的</span><br>
+<span>111-63=48 b做的</span><br>
+<span>111-93=18 a做的</span><br>
+<span>— from Google Pixel 3, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>w4l17: </b><br>
+<span>加起来除以2就是3个人一共做的，再减一下答案就出来了</span><br>
+</p><p><b>namirin: </b><br>
+<span>只会用小学的方法解</span><br>
+</p><p><b>黑岩泪香: </b><br>
+<span>你需要補習的還有語文。</span><br>
+</p><p><b>弹幕: </b><br>
+<span>不愧是逸站后花园</span><br>
+</p><p><b>脑洞: </b><br>
+<span>三年级应该是加起来除二算一下总共的，再减法三次算单独的，</span><br>
+<span>解方程要大一点儿</span><br>
+</p><p><b>仔羊たちの聖夜: </b><br>
+<span>泥潭不是985论坛吗</span><br>
+</p><p><b>hecas: </b><br>
+<span>A+B = 66</span><br>
+<span>B+C =63</span><br>
+<span>A +2B + C =129</span><br>
+<span>A + C = 93</span><br>
+<span>2B =36</span><br>
+</p><p><b>扶扶老奶奶: </b><br>
+<span>三年级学解方程了？</span><br>
+</p><p><b>fatimagg01: </b><br>
+<span>泥萌居然帮助小学生幼女楼主做作业，宅男太容易上当了</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>[1,1,0;   [A      [66</span><br>
+<span>0,1,1;   X   B    =63</span><br>
+<span>1,0,1]       C]      93]</span><br>
+<span>[A      [48</span><br>
+<span>B    = 18</span><br>
+<span>C]       45]</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>不过是我脑抽了吗？</span><br>
+<span>假设A在第一组只做了一面，B在第二组也只做了一面，C在第三组也只做了一面，这样是不是就对三元一次方程的解证伪了？</span><br>
+<span>因为三个组没有交集，因为不是说 A+B等于63面，B+C等于66面 这样。</span><br>
+<span>是我太较真了？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>waox: </b><br>
+<span>凭什么不是一起做且只做了一次啊</span><br>
+<span>凭你不想做题吗</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>我明白这个方程的问题在哪了，就是根据提干描述，第一组的B和第二组的B在数值上是可以存在不等于的，所以不能用这个粗暴代换。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>orecheng: </b><br>
+<span>列行列式啊</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>你看，好好一个小学生，上了泥潭，嗷的一声，缸径了</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>???????</span><br>
+<span>現在的數學科連這樣問問題都不行了???????</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>这其实是完形崩坏吧？</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>寺川愛美 发表于 2019-06-21 22:21:52</span><br>
+<span>???????</span><br>
+<span>現在的數學科連這樣問問題都不行了???????可是，我反复看了，这个题干真的不严谨的呀。</span><br>
+<span>我晚上给妹妹补课的时候就在这里较真了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>icewolf01: </b><br>
+<span>请不要企图以杠精行为掩盖自己看不明白小学三年级数学题的问题</span><br>
+</p><p><b>mooerfoes: </b><br>
+<span>楼主你咋来问这个……难不成是给谁辅导功课吗</span><br>
+<span>你对题目的解读太偏了真的……这种问题前万不要复杂化，不然就会绕进去了</span><br>
+</p><p><b>巨木成林: </b><br>
+<span>(A+B) - (B+C) = 66 - 63 = 3, A—C= 3, A+C= 93, A = 48, C= 45, B = 18</span><br>
+</p><p><b>古屋敷由良: </b><br>
+<span>为什么要用共做这种容易歧义的词而不是“加起来做了”这样，这么轻视语文？</span><br>
+</p><p><b>soulogic: </b><br>
+<span>这题我上学的时候应该是五年级的智力题，班里我第一个做出来的，初一之前应该算超纲，但是不列方程现在想花点时间也能想出来</span><br>
+<span>就题里的，66、63、93，其实 66 + 63 - 93 就是两份 B 的量，一除就完了</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>mooerfoes 发表于 2019-06-21 22:27:32</span><br>
+<span>楼主你咋来问这个……难不成是给谁辅导功课吗</span><br>
+<span>你对题目的解读太偏了真的……这种问题前万不要复杂化，不然 ...我妹妹呀，小我16岁，今年三年级（还是四年级）</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>活久见: </b><br>
+<span>这个是最简单的应用题啊</span><br>
+<span>三个数字加起来除以2是abc做的所有的旗</span><br>
+</p><p><b>oT3To: </b><br>
+<span>一群白痴，前两句得知A比3多做了3面，再根据A和C总共93面不是一下子就算出来了吗，还搞什么方程矩阵</span><br>
+</p><p><b>菲鲁特: </b><br>
+<span>古屋敷由良 发表于 2019-06-21 22:30:17</span><br>
+<span>为什么要用共做这种容易歧义的词而不是“加起来做了”这样，这么轻视语文？ ...对啊对啊！！就是这里让我根本出不去，我真不是杠</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>SEIREIEI: </b><br>
+<span>首先想到的使用三元一次方程组解，但是小学三年级应该还没教这个吧？</span><br>
+<span>—— 来自 HUAWEI VTR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>deadog: </b><br>
+<span>依照小学三年级水平的解法，三式相加是三人做的两倍数，除以二就是三人的合，各自减去三式就是单人做的</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>oT3To 发表于 2019-6-21 22:32</span><br>
+<span>一群白痴，前两句得知A比3多做了3面，再根据A和C总共93面不是一下子就算出来了吗，还搞什么方程矩阵 ...</span><br>
+<span>你这思路跟我2楼有什么分别</span><br>
+</p><p><b>kumh: </b><br>
+<span>菲鲁特 发表于 2019-6-21 22:32</span><br>
+<span>我妹妹呀，小我16岁，今年三年级（还是四年级）</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>大概推算，妹妹年龄≈10岁，</span><br>
+<span>已知：妹妹今年三年级（可能四年级），LZ比妹妹大16岁，求LZ大概几岁。</span><br>
+<span>答：</span><br>
+<span>∵ 妹妹三年级（可能四年级）</span><br>
+<span>∴ 年龄≈10岁</span><br>
+<span>∵LZ比妹妹大16岁</span><br>
+<span>∴LZ大约26. </span><br>
+<span>礼求交。</span><br>
+</p><p><b>波卡帕马: </b><br>
+<span>古屋敷由良 发表于 2019-6-21 22:30</span><br>
+<span>为什么要用共做这种容易歧义的词而不是“加起来做了”这样，这么轻视语文？ ...</span><br>
+<span>之后评论里面还会莫名出现“成年人想的太多”“成年人思维固化”之类的东西，这个确实不严谨</span><br>
+</p><p><b>rubicon: </b><br>
+<span>主观、情绪。</span><br>
+</p><p><b>waox: </b><br>
+<span>楼里该补语文的还不止一个</span><br>
+</p><p><b>vista: </b><br>
+<span>心算都只要一分钟</span><br>
+</p><p><b>麻生椎子: </b><br>
+<span>我倒是觉得这题的语文有歧义.....如果换掉其中的几个字</span><br>
+<span>A B C三个人一起做羞羞的事情，A和B共做了66遍，B和C共做了63遍，C和A共做了93遍。</span><br>
+<span>问：A B C各做了多少遍？</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>encode.x 发表于 2019-6-21 22:07</span><br>
+<span>三个人是一起做的 lz理解的有偏差</span><br>
+<span>66+63+93=222 三个值加起来是三个人一起做了两遍旗子 除以二变成111就是 ...</span><br>
+<span>这个和楼上8楼方法是对的</span><br>
+<span>三年级还没有方程呢</span><br>
+<span>对了现在小学高年级就开始教以前初中的部分知识了</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>应用题本来就有一部分是考语文啊，你管它有没有歧义呢，和出题人想不到一块去就不行啊。这题一没说旗子必须是两个人一起做，二没说逗号之间是时间递进关系，数学题描述讲究简洁准确，没提到的信息自行脑补可还行。</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>我看了这道题后第一反应竟然是容斥原理，还以为这题和“有A人参加了活动1,B人参加了活动2,C人既参加了活动1又参加了活动2,求参加活动1,2的总人数”是一类题。</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>爱吃冻鳗的猫: </b><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841288[0-50]</guid>
+    </item>
+  </channel>
+</rss>

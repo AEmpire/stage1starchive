@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>整理了一下Switch第一方/第二方的主机模式表现</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>整理了一下Switch第一方/第二方的主机模式表现</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:26:19 +0000</lastBuildDate>
+    <item>
+      <title>整理了一下Switch第一方/第二方的主机模式表现[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1937600-1-1.html</link>
+      <description>整理了一下Switch第一方/第二方的主机模式表现&#13;
+ 本帖最后由 Pettabuz 于 2020-5-25 11:50 编辑 
+
+XBDE这次又是720P，然后仔细想了一下印象里好像Switch一开始还是努力出1080P游戏的，后来完全放弃治疗的样子
+&#13;
+然后就整理了一下数据，大部分来自Digital Foundry。注意很多都是动态分辨率，表格中的数字是常时表现，不保证完全准确
+&#13;
+Title主机模式
+&#13;
+塞尔达传说 旷野之息900P 30FPS
+&#13;
+马力欧卡丁车8 豪华版1080P 60FPS
+&#13;
+ARMS1080P 60FPS
+&#13;
+Splatoon 2900P 60FPS
+&#13;
+超级马力欧 奥德赛900P 60FPS
+&#13;
+异度神剑2720P 30FPS
+&#13;
+Bayoneta720P 60FPS
+&#13;
+Bayoneta 2720P 60FPS
+&#13;
+星之卡比 新星同盟864P 30FPS
+&#13;
+森喜刚 热带寒流1080P 60FPS
+&#13;
+马力欧网球 ACE900P 60FPS
+&#13;
+超级马力欧派对1080P 60FPS
+&#13;
+宝可梦 Let's Go1080P 30FPS
+&#13;
+任天堂明星大乱斗 特别版1080P 60FPS
+&#13;
+新超级马力欧兄弟U 豪华版1080P 60FPS
+&#13;
+耀西的手工世界576-675P 60FPS
+&#13;
+超级马力欧创作家21080P 60FPS （3D世界模式900P）
+&#13;
+Fire Emblem 风花雪月720P 30FPS
+&#13;
+异界锁链720P - 900P 30FPS
+&#13;
+塞尔达传说 织梦岛720P 60FPS
+&#13;
+路易吉洋馆31080P 30FPS
+&#13;
+宝可梦 剑/盾864P - 1080P 30FPS
+&#13;
+幻影异闻录 #FE Encore720P 30FPS
+&#13;
+集合啦！动物森友会1080P 30FPS
+&#13;
+异度神剑 终极版720P 30FPS
+&#13;
+达到1080P的一共9个，更多情况下都是为了帧数牺牲分辨率。UE4的几个作品表现都不怎么样（耀西、织梦岛）
+&#13;
+当然XB和FE几个RPG都是720P+30FPS扔上来的。。
+&#13;
+掌机模式数据不全也不是很详细就没整理
+&#13;
+可能有一些错漏，欢迎补充</description>
+      <content:encoded><![CDATA[<p><b>Pettabuz: </b><br>
+<span>整理了一下Switch第一方/第二方的主机模式表现</span><br>
+<span> 本帖最后由 Pettabuz 于 2020-5-25 11:50 编辑 </span><br>
+<span>XBDE这次又是720P，然后仔细想了一下印象里好像Switch一开始还是努力出1080P游戏的，后来完全放弃治疗的样子</span><br>
+<span>然后就整理了一下数据，大部分来自Digital Foundry。注意很多都是动态分辨率，表格中的数字是常时表现，不保证完全准确</span><br>
+<span>Title主机模式</span><br>
+<span>塞尔达传说 旷野之息900P 30FPS</span><br>
+<span>马力欧卡丁车8 豪华版1080P 60FPS</span><br>
+<span>ARMS1080P 60FPS</span><br>
+<span>Splatoon 2900P 60FPS</span><br>
+<span>超级马力欧 奥德赛900P 60FPS</span><br>
+<span>异度神剑2720P 30FPS</span><br>
+<span>Bayoneta720P 60FPS</span><br>
+<span>Bayoneta 2720P 60FPS</span><br>
+<span>星之卡比 新星同盟864P 30FPS</span><br>
+<span>森喜刚 热带寒流1080P 60FPS</span><br>
+<span>马力欧网球 ACE900P 60FPS</span><br>
+<span>超级马力欧派对1080P 60FPS</span><br>
+<span>宝可梦 Let's Go1080P 30FPS</span><br>
+<span>任天堂明星大乱斗 特别版1080P 60FPS</span><br>
+<span>新超级马力欧兄弟U 豪华版1080P 60FPS</span><br>
+<span>耀西的手工世界576-675P 60FPS</span><br>
+<span>超级马力欧创作家21080P 60FPS （3D世界模式900P）</span><br>
+<span>Fire Emblem 风花雪月720P 30FPS</span><br>
+<span>异界锁链720P - 900P 30FPS</span><br>
+<span>塞尔达传说 织梦岛720P 60FPS</span><br>
+<span>路易吉洋馆31080P 30FPS</span><br>
+<span>宝可梦 剑/盾864P - 1080P 30FPS</span><br>
+<span>幻影异闻录 #FE Encore720P 30FPS</span><br>
+<span>集合啦！动物森友会1080P 30FPS</span><br>
+<span>异度神剑 终极版720P 30FPS</span><br>
+<span>达到1080P的一共9个，更多情况下都是为了帧数牺牲分辨率。UE4的几个作品表现都不怎么样（耀西、织梦岛）</span><br>
+<span>当然XB和FE几个RPG都是720P+30FPS扔上来的。。</span><br>
+<span>掌机模式数据不全也不是很详细就没整理</span><br>
+<span>可能有一些错漏，欢迎补充</span><br>
+</p><p><b>3D烧: </b><br>
+<span>异界锁链主机也是720吧？</span><br>
+</p><p><b>嘉术2015: </b><br>
+<span>表现最好的鬼屋3和大金刚还都是欧美佬做的，想在ns上找次世代感可以期待一下密特罗德</span><br>
+</p><p><b>masterzx: </b><br>
+<span>马造2不对吧，只有3d世界是900p，其他四个版本理所当然是1080p</span><br>
+</p><p><b>医生狼多: </b><br>
+<span>织梦岛不是ue</span><br>
+</p><p><b>Chia: </b><br>
+<span>也是某种意义上的躺平了</span><br>
+</p><p><b>mjzs07: </b><br>
+<span>ps4有什么        1080P 60FPS的？</span><br>
+</p><p><b>江南映月: </b><br>
+<span>什么时候任天堂能出一个12NM或者7NM的NS就好了。</span><br>
+</p><p><b>沈经文: </b><br>
+<span>——主机的能力是有极限的，越是追求画面，就越会发现主机是有极限的...除非成为超越主机的存在。</span><br>
+<span>——你到底想说什么啊，任任？</span><br>
+<span>——（掏出3080ti）我不做主机啦，索索！！</span><br>
+</p><p><b>a-ha: </b><br>
+<span>大乱斗应该是这里面表现最好的了，整个突出一优化奇迹</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>Chia: </b><br>
+<span>a-ha 发表于 2020-5-26 00:22</span><br>
+<span>大乱斗应该是这里面表现最好的了，整个突出一优化奇迹</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端 ...</span><br>
+<span>不过这是出自BNEI之手的。</span><br>
+<span>除了大乱斗全包，1080/60的马8、ARMS也是半包给BNEI，马趴似乎也是全包</span><br>
+</p><p><b>jimclack: </b><br>
+<span>矢吹光佑nb</span><br>
+</p><p><b>wl42523: </b><br>
+<span>mjzs07 发表于 2020-5-25 23:58</span><br>
+<span>ps4有什么        1080P 60FPS的？</span><br>
+<span>呐克2?</span><br>
+</p><p><b>SFFYLTL: </b><br>
+<span>幻影异闻录 #FE Encore        720p 30fps 这高清复刻</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>在 era 喷 mono 不优先保分辨率被人拿剑盾反喷，是在下输了</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>群众应该认清NS连基本性能都放弃治疗的现实…毕竟这已经是5年前的SOC了，时代都变了好几次了啊大人。</span><br>
+</p><p><b>朝日Asahi: </b><br>
+<span> 本帖最后由 朝日Asahi 于 2020-5-26 01:20 编辑 </span><br>
+<span>mjzs07 发表于 2020-5-25 23:58</span><br>
+<span>ps4有什么        1080P 60FPS的？</span><br>
+<span>不说如龙0和极还有tlou这种，MGSV都可以做到</span><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>翼宿一: </b><br>
+<span>splatoon 2 主机不是 1080P 60 帧吗？</span><br>
+</p><p><b>绿冰: </b><br>
+<span>翼宿一 发表于 2020-5-26 01:27</span><br>
+<span>splatoon 2 主机不是 1080P 60 帧吗？</span><br>
+<span>最高1080p，但很少出现（望天空之类的）</span><br>
+<span>乌贼动森组的画面技术也是挺牛逼的</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>有一说一，莱莎的炼金工房NS画面表现值得瞩目，主机模式不知道有没有900P</span><br>
+</p><p><b>mjzs07: </b><br>
+<span>朝日Asahi 发表于 2020-5-26 01:19</span><br>
+<span>不说如龙0和极还有tlou这种，MGSV都可以做到</span><br>
+<span>—— 来自 samsung SM-N9600, Android 10上的 S1Next-鹅版...</span><br>
+<span>你说的我不确定，比较热门的战神猎人血源全都不行吧？网上很多人抱怨</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>3D烧 发表于 2020-5-25 09:47</span><br>
+<span>异界锁链主机也是720吧？</span><br>
+<span>根据DF应该是720P-900P浮动，平均810P左右 （“When docked, pixel counts typically range between 720p and 900p, hitting around 810p on average.”）</span><br>
+<span>https://www.eurogamer.net/articles/digitalfoundry-2019-astral-chain-a-new-direction-for-platinum-games</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>masterzx 发表于 2020-5-25 09:55</span><br>
+<span>马造2不对吧，只有3d世界是900p，其他四个版本理所当然是1080p</span><br>
+<span>嗯，你说得对，我改一下</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>医生狼多 发表于 2020-5-25 09:58</span><br>
+<span>织梦岛不是ue</span><br>
+<span>来源请求？印象里是UE。。。</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>SFFYLTL 发表于 2020-5-25 10:42</span><br>
+<span>幻影异闻录 #FE Encore        720p 30fps 这高清复刻</span><br>
+<span>#FE出来之前没怎么关注，打开游戏瞬间惊呆了，真就Wii U原样搬上来修都不肯修一下。。。</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>翼宿一 发表于 2020-5-25 11:27</span><br>
+<span>splatoon 2 主机不是 1080P 60 帧吗？</span><br>
+<span>动态分辨率，为了保证60FPS场景一复杂分辨率就会降，1080P基本见不着</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>mjzs07 发表于 2020-5-25 11:46</span><br>
+<span>你说的我不确定，比较热门的战神猎人血源全都不行吧？网上很多人抱怨</span><br>
+<span>战神可以选择1080P60（不能稳定）或者4K</span><br>
+<span>另外你们要比，也不看看同样30FPS下，巫师3在PS4上是什么样子，在NS上又是什么样子。</span><br>
+</p><p><b>violettor: </b><br>
+<span>DQ11S的数据有吗</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>violettor 发表于 2020-5-26 02:45</span><br>
+<span>DQ11S的数据有吗</span><br>
+<span>稳 540p / 主720p偶尔810p</span><br>
+</p><p><b>西多士: </b><br>
+<span>SFFYLTL 发表于 2020-5-26 00:42</span><br>
+<span>幻影异闻录 #FE Encore        720p 30fps 这高清复刻</span><br>
+<span>也要看谁来移植，这作就是打算蹭个硬件销量的，压根也没想花心思好好优化</span><br>
+</p><p><b>bijintian: </b><br>
+<span>正常，NS的GPU也就1030水平吧</span><br>
+</p><p><b>竜破斬: </b><br>
+<span>switch性能比WiiU强的有限，能上1080p的游戏自然也多不了什么。本社的动作游戏居多，肯定会保帧数，牺牲分辨率的。</span><br>
+</p><p><b>新世界的派蒙: </b><br>
+<span>mjzs07 发表于 2020-5-26 01:46</span><br>
+<span>你说的我不确定，比较热门的战神猎人血源全都不行吧？网上很多人抱怨</span><br>
+<span>GT赛车的棋盘4k60fps，不算第一方还有鬼泣5，歌姬计划DX也能4k60fps</span><br>
+</p><p><b>violettor: </b><br>
+<span>whzfjk 发表于 2020-5-26 02:49</span><br>
+<span>稳 540p / 主720p偶尔810p</span><br>
+<span>真没看出来，我一直以为掌机是720P</span><br>
+</p><p><b>纯白花火: </b><br>
+<span>火纹无双可以1080p</span><br>
+</p><p><b>带带阿苏卡: </b><br>
+<span>Tetris99是1080P 60FPS吧？</span><br>
+</p><p><b>3D烧: </b><br>
+<span>塞尔达无双是多少来着</span><br>
+</p><p><b>kimmmmmm: </b><br>
+<span>火纹无双开1080绝对没有30，塞尔达无双还不如锁30帧，是比30帧高，帧波动太厉害大蛇3几个更新后终于能稳定割草了，刚入手的时候有种打psp无双的感觉</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>十字骷髅高达: </b><br>
+<span>这么看火纹和异度是真的不行</span><br>
+</p><p><b>巨馍蘸酱: </b><br>
+<span>好奇为什么风花雪月很少有人撕画面，第一方第二方里可能没几个比风花雪月画质更差的，分辨率低不说优化也差，帧数不稳风扇还呼呼叫。美术也非常差，掌机更是惨不忍睹，我就不明白为什么同样是光荣做的火纹无双表现比风花雪月好那么多</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>巨馍蘸酱 发表于 2020-5-26 10:36</span><br>
+<span>好奇为什么风花雪月很少有人撕画面，第一方第二方里可能没几个比风花雪月画质更差的，分辨率低不说优化也差 ...</span><br>
+<span>没有争议，狗牙垃圾贴图，但是大部分时候是看棋盘</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>bijintian 发表于 2020-5-26 03:36</span><br>
+<span>正常，NS的GPU也就1030水平吧</span><br>
+<span>梦里的1030吧，也就和亮机卡GT730五五开的水平</span><br>
+</p><p><b>新闻联播: </b><br>
+<span>mjzs07 发表于 2020-5-26 01:46</span><br>
+<span>你说的我不确定，比较热门的战神猎人血源全都不行吧？网上很多人抱怨</span><br>
+<span>1080和60，一般都能保一个，或者说技术上保一个才是正常的设计。</span><br>
+<span>Switch的问题其实不是性能低，而是分辨率和帧数两个都不保。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>新闻联播 发表于 2020-5-26 10:59</span><br>
+<span>1080和60，一般都能保一个，或者说技术上保一个才是正常的设计。</span><br>
+<span>Switch的问题其实不是性能低，而是分辨 ...</span><br>
+<span>还不是因为性能低</span><br>
+</p><p><b>NegativeRamos: </b><br>
+<span>宝可梦果然独树一帜，</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1937600[0-50]</guid>
+    </item>
+  </channel>
+</rss>

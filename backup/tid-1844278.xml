@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10绝赞崩溃ING，SSD实际情况怎么监测？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10绝赞崩溃ING，SSD实际情况怎么监测？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:16:54 +0000</lastBuildDate>
+    <item>
+      <title>win10绝赞崩溃ING，SSD实际情况怎么监测？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844278-1-1.html</link>
+      <description>win10绝赞崩溃ING，SSD实际情况怎么监测？&#13;
+ 本帖最后由 whatd 于 2019-7-5 10:08 编辑 
+
+MD我TM 在ESR 通道，还TM关了更新了，结果刚才一开机，直接弹出窗口说请重启更新。一堆旧插件直接作废还把设置全扔了，SBTM火狐。求还原方法。真是嫌我这两天事不够多似的。
+&#13;
+直接重装了下旧版本，结果弄着弄着把系统弄得快挂了，开始菜单打不开了，UserManager开着，
+&#13;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+&#13;
+一堆应用的设置自己变了，当备胎的360极速更是直接初始化了，好像C盘整个快崩了，只要涉及C盘的都很诡异。我都怀疑是不是SSD快挂了，840pro才写入19t而已.....
+&#13;
+网上搜不到啥办法了，预定重装个ltsc，都关了更新一直留在1511了，终于扛不住了。
+&#13;
+安全模式都打不开，看来要么是WIN10的雷终于爆了，要么是ssd要挂了，配置文件都能丢....
+&#13;
+现在哪个版本稳点？
+&#13;
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+&#13;
+开始SSD无论用啥软件测都没啥大问题，但是打开HDTUNE给了个注意重分配3次
+&#13;
+本来求稳单盘就装系统，是RP不行还是SSD理论寿命真实吹得太过分。
+&#13;
+MLC要是在我手上用挂算成就么...</description>
+      <content:encoded><![CDATA[<p><b>whatd: </b><br>
+<span>win10绝赞崩溃ING，SSD实际情况怎么监测？</span><br>
+<span> 本帖最后由 whatd 于 2019-7-5 10:08 编辑 </span><br>
+<span>MD我TM 在ESR 通道，还TM关了更新了，结果刚才一开机，直接弹出窗口说请重启更新。一堆旧插件直接作废还把设置全扔了，SBTM火狐。求还原方法。真是嫌我这两天事不够多似的。</span><br>
+<span>直接重装了下旧版本，结果弄着弄着把系统弄得快挂了，开始菜单打不开了，UserManager开着，</span><br>
+<span>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span><br>
+<span>一堆应用的设置自己变了，当备胎的360极速更是直接初始化了，好像C盘整个快崩了，只要涉及C盘的都很诡异。我都怀疑是不是SSD快挂了，840pro才写入19t而已.....</span><br>
+<span>网上搜不到啥办法了，预定重装个ltsc，都关了更新一直留在1511了，终于扛不住了。</span><br>
+<span>安全模式都打不开，看来要么是WIN10的雷终于爆了，要么是ssd要挂了，配置文件都能丢....</span><br>
+<span>现在哪个版本稳点？</span><br>
+<span>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span><br>
+<span>开始SSD无论用啥软件测都没啥大问题，但是打开HDTUNE给了个注意重分配3次</span><br>
+<span>本来求稳单盘就装系统，是RP不行还是SSD理论寿命真实吹得太过分。</span><br>
+<span>MLC要是在我手上用挂算成就么...</span><br>
+</p><p><b>两个路人: </b><br>
+<span>备份profile文件，然后卸载（挖鼻</span><br>
+</p><p><b>天知道: </b><br>
+<span>似乎是只要安装时选择了静默更新，就算你在设置里面选了不更新，也会自动更新的。</span><br>
+<span>另外你是哪个版本的ESR？看起来像是V56之前的？如果还是喜欢使用V56之前的版本，建议不要用ESR了，换成Waterfox吧，至少有安全更新（比官方慢大概半个月）</span><br>
+</p><p><b>whatd: </b><br>
+<span>天知道 发表于 2019-7-4 19:28</span><br>
+<span>似乎是只要安装时选择了静默更新，就算你在设置里面选了不更新，也会自动更新的。</span><br>
+<span>另外你是哪个版本的ESR ...</span><br>
+<span>52，一年多都没问题，就今天忽然给我直接更新到60.</span><br>
+<span>我现在不知道出啥问题了，我重装了下旧版本的ff。</span><br>
+<span>现在TM win10开始菜单还原成初始安装了，所有安装的软件都不见了，开始屏幕里面所有的快捷按钮也不见了.....</span><br>
+<span>我现在根本不知道发生了什么就重启了下，然后开机WIN10卡在一个 SYSTEM32/lodctr.exe的奇怪窗口，接着再重启就变成这死样了。</span><br>
+</p><p><b>solaris40: </b><br>
+<span>现在的palemoon最新版是firefox52</span><br>
+</p><p><b>whatd: </b><br>
+<span>一个浏览器彻底让我玩儿崩了，现在win10开始菜单都打不开了</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>既然装了不稳定的新版就要有崩的觉悟。。。要么就死守稳定版</span><br>
+</p><p><b>whatd: </b><br>
+<span>ramiel1 发表于 2019-7-4 23:26</span><br>
+<span>既然装了不稳定的新版就要有崩的觉悟。。。要么就死守稳定版</span><br>
+<span>1511</span><br>
+<span>10586</span><br>
+<span>我都守到现在了...你跟我说新？</span><br>
+</p><p><b>starash: </b><br>
+<span>看样子后半截不是火狐的问题, 只是你系统盘要挂了而已, LTSC试一试吧. </span><br>
+<span>火狐的话选择Zip版的更方便些(而且不会有啥静默更新的危险). 安装不过是个噱头. </span><br>
+</p><p><b>whatd: </b><br>
+<span> 本帖最后由 whatd 于 2019-7-5 09:58 编辑 </span><br>
+<span>starash 发表于 2019-7-5 08:42</span><br>
+<span>看样子后半截不是火狐的问题, 只是你系统盘要挂了而已, LTSC试一试吧. </span><br>
+<span>火狐的话选择Zip版的更方便些(而且 ...</span><br>
+<span>我现在估计都是SSD出问题导致FF配置丢失然后自动调回初始设定自动更新出的问题，翻了一下，去年刚做好FF的时候有保存好prof文件，还好。</span><br>
+<span>现在这SSD健康度99了...不知道还能用不，扫也扫不出什么问题来。</span><br>
+<span>难道MLC我都能中奖？</span><br>
+</p><p><b>qwased: </b><br>
+<span>症状和我那块arc100 240g死前差不多，c盘一直掉文件，系统报错，做一次se能管用半年然后又开始这样</span><br>
+<span>受不了直接返修了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>我的win10也崩溃了 错误代码221 </span><br>
+</p><p><b>whatd: </b><br>
+<span>qwased 发表于 2019-7-5 10:59</span><br>
+<span>症状和我那块arc100 240g死前差不多，c盘一直掉文件，系统报错，做一次se能管用半年然后又开始这样</span><br>
+<span>受不了 ...</span><br>
+<span>我这没返修了，我在想当年号称用到你不想用的ssd，这实际寿命到底有多少？</span><br>
+</p><p><b>whatd: </b><br>
+<span>塔奇克马 发表于 2019-7-5 11:05</span><br>
+<span>我的win10也崩溃了 错误代码221</span><br>
+<span>win10崩是日常，虽说现在ssd的嫌疑比较大，但我也不能排除win10什么隐患发作，我上国外论坛也找不到啥方法，powershell命令也试过了，进安全模式也打不开开始菜单，所以说这系统肯定大概率9不回来只能重装了</span><br>
+</p><p><b>沧粟: </b><br>
+<span>SSD主控要挂可不管你是什么MLC还是SLC</span><br>
+<span>大多数SSD挂了无关寿命吧</span><br>
+</p><p><b>john: </b><br>
+<span>SSD不会坏你当三年五年保修是摆设</span><br>
+<span>终身保修的内存也不见得一定不会坏</span><br>
+</p><p><b>whatd: </b><br>
+<span>沧粟 发表于 2019-7-5 13:15</span><br>
+<span>SSD主控要挂可不管你是什么MLC还是SLC</span><br>
+<span>大多数SSD挂了无关寿命吧</span><br>
+<span>那么多软件的设置全挂了，慌了，</span><br>
+<span>折腾一宿起来，上班都迟到了，现在已经开始准备后事了</span><br>
+<span>该说刚买SN750就给我坏，该说运气好还是运气不好....</span><br>
+</p><p><b>starash: </b><br>
+<span>whatd 发表于 2019-7-5 14:24</span><br>
+<span>那么多软件的设置全挂了，慌了，</span><br>
+<span>折腾一宿起来，上班都迟到了，现在已经开始准备后事了</span><br>
+<span>尝试用这块问题盘备份一下, 能备份出来就是运气好</span><br>
+<span>备份不出来就是脸黑. </span><br>
+</p><p><b>whatd: </b><br>
+<span>starash 发表于 2019-7-5 16:44</span><br>
+<span>尝试用这块问题盘备份一下, 能备份出来就是运气好</span><br>
+<span>备份不出来就是脸黑. </span><br>
+<span>进pe直接把系统盘克隆了，然后出现的症状一样，只能重装了…</span><br>
+</p><p><b>madbird302: </b><br>
+<span>什么版本的win10？LTSC能玩成这样？</span><br>
+</p><p><b>starash: </b><br>
+<span>whatd 发表于 2019-7-5 17:15</span><br>
+<span>进pe直接把系统盘克隆了，然后出现的症状一样，只能重装了…</span><br>
+<span>南无阿弥陀佛~ 噹!</span><br>
+</p><p><b>whatd: </b><br>
+<span>madbird302 发表于 2019-7-5 17:21</span><br>
+<span>什么版本的win10？LTSC能玩成这样？</span><br>
+<span>1511还能有个蛋的LTSC，刚出来就干掉了升级然后一直1511停止支持到现在，最后还是没坚持住，现在破罐子破摔直接C盘升级到1903，试试看是BUG10的旧地雷炸了还是SSD真的快丸了。</span><br>
+<span>姑且分了一个分区直接把系统克隆扔那了，如果以后想到办法救一下试试。</span><br>
+<span>也不知道有没有能保留全部设置文件然后导入新系统的办法。</span><br>
+</p><p><b>qwased: </b><br>
+<span>你应该用三棒的工具做一次SE的，一般能管用个半年</span><br>
+</p><p><b>whatd: </b><br>
+<span>qwased 发表于 2019-7-5 22:36</span><br>
+<span>你应该用三棒的工具做一次SE的，一般能管用个半年</span><br>
+<span>直接分割100g做新系统，看看能不能吧1903更新给干掉，不怎么放心还往这盘里扔东西。扔几个游戏或者当下载盘算了。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>whatd 发表于 2019-7-4 23:54</span><br>
+<span>1511</span><br>
+<span>10586</span><br>
+<span>1511号称是最稳定的，如果是ssd导致的崩这锅阿三不背</span><br>
+</p><p><b>whatd: </b><br>
+<span>ramiel1 发表于 2019-7-5 23:54</span><br>
+<span>1511号称是最稳定的，如果是ssd导致的崩这锅阿三不背</span><br>
+<span>最稳的都试过偶尔给我把设置清空，就是试过有前例，我还是不知道是因为SSD丢文件，还是1511的问题。</span><br>
+<span>以前也试过忽然软件的设置初始化，但是就是没有这回直接崩了这么严重。而且只有软件设置发生改变这个问题，别的系统问题也没有说系统文件损坏啥的。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>whatd 发表于 2019-7-6 00:22</span><br>
+<span>最稳的都试过偶尔给我把设置清空，就是试过有前例，我还是不知道是因为SSD丢文件，还是1511的问题。</span><br>
+<span>以 ...</span><br>
+<span>估计是和啥软件更新后冲突了，重做系统吧，这么老的系统也可以扔了，守旧可以停留在1607。装完用WinUpdatesDisabler禁用更新和杀软，再崩那肯定不是系统问题了。</span><br>
+</p><p><b>whatd: </b><br>
+<span>ramiel1 发表于 2019-7-6 00:33</span><br>
+<span>估计是和啥软件更新后冲突了，重做系统吧，这么老的系统也可以扔了，守旧可以停留在1607。装完用WinUpdat ...</span><br>
+<span>直接上了1903了，目前把功能更新推到365，dism把更新改成只检查看看，慢慢对着备份的数据把软件弄回来之后再做个备份，再出问题直接换硬盘。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>whatd 发表于 2019-7-6 00:41</span><br>
+<span>直接上了1903了，目前把功能更新推到365，dism把更新改成只检查看看，慢慢对着备份的数据把软件弄回来之 ...</span><br>
+<span>反正ssd现在也是白菜了，不行就换吧</span><br>
+</p><p><b>whatd: </b><br>
+<span>ramiel1 发表于 2019-7-6 09:06</span><br>
+<span>反正ssd现在也是白菜了，不行就换吧</span><br>
+<span>重装后两天直接丢引导，SSD锅没跑了，nvme没PE，怎么重装好？</span><br>
+</p><p><b>暗铁: </b><br>
+<span>我最近也挂了一个浦科特的m5p，算起来也就5年</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>whatd 发表于 2019-7-9 18:37</span><br>
+<span>重装后两天直接丢引导，SSD锅没跑了，nvme没PE，怎么重装好？</span><br>
+<span>去下个AMPE，加个AM精简版WIN10，直接UEFI下进PE装，几分钟搞定。</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>firefox确实配置文件的处理有很大问题，昨天睡眠状态下被断电后大部分扩展配置全丢了，少部分保存方式可能另辟蹊径的都活着，</span><br>
+<span>chronium系还没遇到过这样的情况</span><br>
+</p><p><b>whatd: </b><br>
+<span>暗铁 发表于 2019-7-9 19:35</span><br>
+<span>我最近也挂了一个浦科特的m5p，算起来也就5年</span><br>
+<span>HDD见红会有个过程，数据稳固——防高，容量大——血厚，SSD这是平时高速闪避秀操作，一个失误直接被秒。</span><br>
+<span>这游戏肥肠平衡</span><br>
+</p><p><b>linjia: </b><br>
+<span>SSD-Z(固态硬盘检测工具)?</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844278[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>windows的文件名排列顺序怎么这么奇葩</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>windows的文件名排列顺序怎么这么奇葩</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:59:45 +0000</lastBuildDate>
+    <item>
+      <title>windows的文件名排列顺序怎么这么奇葩[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847011-1-1.html</link>
+      <description>windows的文件名排列顺序怎么这么奇葩&#13;
+有几个文件排列顺序是这样的：
+&#13;
+E-B-02-001 B地块图例说明 
+&#13;
+E-B-03-001 B地块材料表 
+&#13;
+E-B3-00-001~002 施工说明 
+&#13;
+E-B3-02-001 图例说明 
+&#13;
+E-B-12-000 B地块配电箱系统说明 
+&#13;
+E-B-51-001 B地块电气火灾监控系统图 
+&#13;
+E-B-52-000 B地块防火门监控系统图 
+&#13;
+E-B-53-000 B地块消防设备电源监控系统图 
+&#13;
+E-B-54-000 B地块智能疏散系统图 
+&#13;
+E-B-60-001 B地块能耗管理系统图 
+&#13;
+修改了策略组里关闭数值排序倒是有一点用，变成了这样，还得按文件名最优先排列，按类型排列的话又会变成上面那样
+&#13;
+E-B-02-001 B地块图例说明 
+&#13;
+E-B-03-001 B地块材料表 
+&#13;
+E-B-12-000 B地块配电箱系统说明 
+&#13;
+E-B3-00-001~002 施工说明 
+&#13;
+E-B3-02-001 图例说明 
+&#13;
+E-B-51-001 B地块电气火灾监控系统图 
+&#13;
+E-B-52-000 B地块防火门监控系统图 
+&#13;
+E-B-53-000 B地块消防设备电源监控系统图 
+&#13;
+E-B-54-000 B地块智能疏散系统图 
+&#13;
+E-B-60-001 B地块能耗管理系统图 
+&#13;
+真是奇葩了，就不能老老实实按照文件名字母顺序排列么，这个能改么</description>
+      <content:encoded><![CDATA[<p><b>oliverhxf: </b><br>
+<span>windows的文件名排列顺序怎么这么奇葩</span><br>
+<span>有几个文件排列顺序是这样的：</span><br>
+<span>E-B-02-001 B地块图例说明 </span><br>
+<span>E-B-03-001 B地块材料表 </span><br>
+<span>E-B3-00-001~002 施工说明 </span><br>
+<span>E-B3-02-001 图例说明 </span><br>
+<span>E-B-12-000 B地块配电箱系统说明 </span><br>
+<span>E-B-51-001 B地块电气火灾监控系统图 </span><br>
+<span>E-B-52-000 B地块防火门监控系统图 </span><br>
+<span>E-B-53-000 B地块消防设备电源监控系统图 </span><br>
+<span>E-B-54-000 B地块智能疏散系统图 </span><br>
+<span>E-B-60-001 B地块能耗管理系统图 </span><br>
+<span>修改了策略组里关闭数值排序倒是有一点用，变成了这样，还得按文件名最优先排列，按类型排列的话又会变成上面那样</span><br>
+<span>E-B-02-001 B地块图例说明 </span><br>
+<span>E-B-03-001 B地块材料表 </span><br>
+<span>E-B-12-000 B地块配电箱系统说明 </span><br>
+<span>E-B3-00-001~002 施工说明 </span><br>
+<span>E-B3-02-001 图例说明 </span><br>
+<span>E-B-51-001 B地块电气火灾监控系统图 </span><br>
+<span>E-B-52-000 B地块防火门监控系统图 </span><br>
+<span>E-B-53-000 B地块消防设备电源监控系统图 </span><br>
+<span>E-B-54-000 B地块智能疏散系统图 </span><br>
+<span>E-B-60-001 B地块能耗管理系统图 </span><br>
+<span>真是奇葩了，就不能老老实实按照文件名字母顺序排列么，这个能改么</span><br>
+</p><p><b>mu1: </b><br>
+<span>可以修改的，在文件夹选项中勾上按自然数排排序（大概是这意思）</span><br>
+</p><p><b>月影挽歌: </b><br>
+<span>排序比较重要就手动加序号</span><br>
+<span>考虑到将来会有插队的，可以把序号的步进改为10</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847011[0-50]</guid>
+    </item>
+  </channel>
+</rss>

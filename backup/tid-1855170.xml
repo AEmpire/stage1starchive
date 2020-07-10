@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问一下有人遇到雷电3接口失效的问题吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问一下有人遇到雷电3接口失效的问题吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:08:40 +0000</lastBuildDate>
+    <item>
+      <title>问一下有人遇到雷电3接口失效的问题吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855170-1-1.html</link>
+      <description>问一下有人遇到雷电3接口失效的问题吗&#13;
+买了个板子回来玩发现左侧两个带TB3的typec接口只能充电没法接设备，仔细看了看设备管理器里没有找到TB3控制器；这个问题还没解决回家打开笔记本看了看发现笔记本的TB3控制器也消失了，刚装好系统的时候绝对是有的-口-
+&#13;
+就，因为没时间深入了解解决现在还有点一头水……坛友有没有遇到过或者解决过类似问题的</description>
+      <content:encoded><![CDATA[<p><b>lucifer0607: </b><br>
+<span>问一下有人遇到雷电3接口失效的问题吗</span><br>
+<span>买了个板子回来玩发现左侧两个带TB3的typec接口只能充电没法接设备，仔细看了看设备管理器里没有找到TB3控制器；这个问题还没解决回家打开笔记本看了看发现笔记本的TB3控制器也消失了，刚装好系统的时候绝对是有的-口-</span><br>
+<span>就，因为没时间深入了解解决现在还有点一头水……坛友有没有遇到过或者解决过类似问题的</span><br>
+</p><p><b>sirlion: </b><br>
+<span>我还没用户tb3的设备，但我的电脑，如果typec口不插入设备，系统看不到tb3控制器，所以两年来我都以为是国行阉割了，暗影精灵3 plus</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>跑下速度，两个的一般都是单芯片，单口40g 双口20</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>没遇到过</span><br>
+<span>看看bios里是不是关了</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>赤色彗星SEXY 发表于 2019-8-25 12:26</span><br>
+<span>没遇到过</span><br>
+<span>看看bios里是不是关了</span><br>
+<span>没有开关选项。。</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>sirlion 发表于 2019-8-25 08:57</span><br>
+<span>我还没用户tb3的设备，但我的电脑，如果typec口不插入设备，系统看不到tb3控制器，所以两年来我都以为是国 ...</span><br>
+<span>据说是设备管理器里可以点开查看隐藏设备，也可以用那个控制器软件里的关于选项看</span><br>
+<span>反正我这是啥都看不到。。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>lucifer0607 发表于 2019-8-25 10:04</span><br>
+<span>据说是设备管理器里可以点开查看隐藏设备，也可以用那个控制器软件里的关于选项看</span><br>
+<span>反正我这是啥都看不到 ...</span><br>
+<span>点开隐藏也看不到，aida64的南北桥那里都看不到，只能看到个pcie4x的空闲位，但我插根typec线上面，就会立刻弹出来thunderbolt3控制器</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>sirlion 发表于 2019-8-25 14:16</span><br>
+<span>点开隐藏也看不到，aida64的南北桥那里都看不到，只能看到个pcie4x的空闲位，但我插根typec线上面，就会 ...</span><br>
+<span>aida64不错，我用比较新的版本看了一下能在南桥里看到一个jhl6340。。但是设备管理器和TB3管理软件还是不认，插上设备也没用</span><br>
+</p><p><b>sirlion: </b><br>
+<span>你是不是线不支持tb3？只支持充电呢</span><br>
+</p><p><b>lucifer0607: </b><br>
+<span>找了个intel nuc升级雷电3固件工具，在强制给电的情况下亮了……我怎么记得以前不是这个吊样的，干，技嘉自家的固件升级工具都没用</span><br>
+<span>还有个dell的平板是只能充电，当type-c接口用都不成，插啥都不认，同版本aida64毛都看不见，直接送店家返修算了</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>我之前 工作站dell 就出现不能充电的故障也返修换主板了</span><br>
+<span>233 </span><br>
+<span>现在好像没什么大问题了,不过dell工作站这点做的好,所有固件都由一个工具升级管理</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855170[0-50]</guid>
+    </item>
+  </channel>
+</rss>

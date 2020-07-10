@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>QT平台可以做出鼠标移动速度可调的功能么?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>QT平台可以做出鼠标移动速度可调的功能么?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:15:35 +0000</lastBuildDate>
+    <item>
+      <title>QT平台可以做出鼠标移动速度可调的功能么?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1834812-1-1.html</link>
+      <description>QT平台可以做出鼠标移动速度可调的功能么?&#13;
+QT平台可以做出鼠标移动速度可调的功能么?
+&#13;
+这个功能,卡在软件那里好几年了.
+&#13;
+我也不懂这方面的东西
+&#13;
+我们是based ARM(平台还是OMAP3530这种老玩意)的QT
+&#13;
+PS:我自己是一点都不懂QT,软件之类的,但现在我案子卡住了.
+&#13;
+软件让我换个移动慢一点鼠标,那么tm以前发出去的货,我们都给客户去换么</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>QT平台可以做出鼠标移动速度可调的功能么?</span><br>
+<span>QT平台可以做出鼠标移动速度可调的功能么?</span><br>
+<span>这个功能,卡在软件那里好几年了.</span><br>
+<span>我也不懂这方面的东西</span><br>
+<span>我们是based ARM(平台还是OMAP3530这种老玩意)的QT</span><br>
+<span>PS:我自己是一点都不懂QT,软件之类的,但现在我案子卡住了.</span><br>
+<span>软件让我换个移动慢一点鼠标,那么tm以前发出去的货,我们都给客户去换么</span><br>
+</p><p><b>rudin: </b><br>
+<span>这个不是在系统里面调鼠标灵敏度吗</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>rudin 发表于 2019-5-27 19:09</span><br>
+<span>这个不是在系统里面调鼠标灵敏度吗</span><br>
+<span>有具体点的关键词么?</span><br>
+<span>我可用丢给软件,让他们自己折腾去.</span><br>
+<span>现在关键缺一个入口点</span><br>
+<span>QT的版本也是挺旧的,整个系统是2010年研发的</span><br>
+</p><p><b>rudin: </b><br>
+<span>zmw_831110 发表于 2019-5-27 19:11</span><br>
+<span>有具体点的关键词么?</span><br>
+<span>我可用丢给软件,让他们自己折腾去.</span><br>
+<span>我搞错了，这个得自己定义鼠标光标，我没搞过这个</span><br>
+</p><p><b>BRRM: </b><br>
+<span>应该不可以吧，鼠标速度可不可调感觉跟qt没啥联系，你得先hook鼠标的移动轨迹</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>qt好像至今也没有的，改一下qt源码加个factor就好</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>zatsuza 发表于 2019-5-27 19:50</span><br>
+<span>qt好像至今也没有的，改一下qt源码加个factor就好</span><br>
+<span>有具体点的学习资料么？谢谢指路</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>zmw_831110 发表于 2019-5-27 19:58</span><br>
+<span>有具体点的学习资料么？谢谢指路</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v ...</span><br>
+<span>我不知道你们用的什么版本，大体上就是找到打开鼠标设备后读事件的地方加个factor，改一下它的class暴露这个变量</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>zatsuza 发表于 2019-5-27 20:27</span><br>
+<span>我不知道你们用的什么版本，大体上就是找到打开鼠标设备后读事件的地方加个factor，改一下它的class暴露 ...</span><br>
+<span>谢谢</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>rudin: </b><br>
+<span>拿光标试了下，可以了</span><br>
+<span>MainWindow::MainWindow(QWidget *parent)</span><br>
+<span>        : QWidget(parent)</span><br>
+<span>{</span><br>
+<span>        position_.setX(-1);</span><br>
+<span>        position_.setY(-1);</span><br>
+<span>        this->setCursor(cursor_);</span><br>
+<span>        this->setMouseTracking(true);</span><br>
+<span>}</span><br>
+<span>void MainWindow::mouseMoveEvent(QMouseEvent *e)</span><br>
+<span>{</span><br>
+<span>        if (position_.x() < 0)</span><br>
+<span>        {</span><br>
+<span>                position_.setX(cursor_.pos().x());</span><br>
+<span>                position_.setY(cursor_.pos().y());</span><br>
+<span>        }</span><br>
+<span>        else</span><br>
+<span>        {</span><br>
+<span>                QPoint p(position_.x() + (cursor_.pos().x() - position_.x())*alpha, position_.y() + (cursor_.pos().y() - position_.y())*alpha);</span><br>
+<span>                cursor_.setPos(p);</span><br>
+<span>                position_.setX(cursor_.pos().x());</span><br>
+<span>                position_.setY(cursor_.pos().y());</span><br>
+<span>        }</span><br>
+<span>}</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1834812[0-50]</guid>
+    </item>
+  </channel>
+</rss>

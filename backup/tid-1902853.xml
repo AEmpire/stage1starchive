@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>生化2RE这亮度怎么调都有问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>生化2RE这亮度怎么调都有问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:21:10 +0000</lastBuildDate>
+    <item>
+      <title>生化2RE这亮度怎么调都有问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902853-1-1.html</link>
+      <description>生化2RE这亮度怎么调都有问题&#13;
+http://wx1.sinaimg.cn/large/88b66d28gy1g9wqmtl9y9j21zo0u07wj.jpg
+&#13;
+http://wx2.sinaimg.cn/large/88b66d28gy1g9wqmwgrf2j21zo0u0tti.jpg
+&#13;
+http://wx3.sinaimg.cn/large/88b66d28gy1g9wqmzddh7j21zo0u0b2b.jpg
+&#13;
+第一张是根据感觉调的，在光线比较明亮的地方还勉强看得见（比其他人游戏视频里亮度低得多），但是到了第二张图片进了小巷子里光线比较暗的地方就基本看不到东西了。第三张根据游戏内的指示调，完全黑乎乎的一片看不到东西了。9700K+2080TI，基本上画质拉满。</description>
+      <content:encoded><![CDATA[<p><b>baesystems: </b><br>
+<span>生化2RE这亮度怎么调都有问题</span><br>
+<img src="http://wx1.sinaimg.cn/large/88b66d28gy1g9wqmtl9y9j21zo0u07wj.jpg" title="http://wx1.sinaimg.cn/large/88b66d28gy1g9wqmtl9y9j21zo0u07wj.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/88b66d28gy1g9wqmwgrf2j21zo0u0tti.jpg" title="http://wx2.sinaimg.cn/large/88b66d28gy1g9wqmwgrf2j21zo0u0tti.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/88b66d28gy1g9wqmzddh7j21zo0u0b2b.jpg" title="http://wx3.sinaimg.cn/large/88b66d28gy1g9wqmzddh7j21zo0u0b2b.jpg"><br>
+<span>第一张是根据感觉调的，在光线比较明亮的地方还勉强看得见（比其他人游戏视频里亮度低得多），但是到了第二张图片进了小巷子里光线比较暗的地方就基本看不到东西了。第三张根据游戏内的指示调，完全黑乎乎的一片看不到东西了。9700K+2080TI，基本上画质拉满。</span><br>
+</p><p><b>GameTheory: </b><br>
+<span>bug... 需要更新什么东西来着</span><br>
+<span>1、进入RE2的资料夹里找这个文件re2_config.ini</span><br>
+<span>Capability=DirectX12</span><br>
+<span>TargetPlatform=DirectX11</span><br>
+<span>PCDXver=DirectX11</span><br>
+<span>看看这几个配置项</span><br>
+<span>大概</span><br>
+</p><p><b>baesystems: </b><br>
+<span>GameTheory 发表于 2019-12-15 01:15</span><br>
+<span>bug... 需要更新什么东西来着</span><br>
+<span>1、进入RE2的资料夹里找这个文件re2_config.ini</span><br>
+<span>Capability=DirectX12</span><br>
+<span>我搜了一下这个方法，但是改了之后还是黑乎乎一片，后来灵机一动在图形里面改了DX12（先前好像没有？），亮度总算正常了。</span><br>
+</p><p><b>Geminize: </b><br>
+<span>黄老板显卡驱动的问题，换成老版本的</span><br>
+</p><p><b>雪城穗乃香: </b><br>
+<span>HDR</span><br>
+</p><p><b>钢铁侠: </b><br>
+<span>换了1660S成功了</span><br>
+</p><p><b>paladin7: </b><br>
+<span>钢铁侠 发表于 2019-12-15 11:46</span><br>
+<span>换了1660S成功了</span><br>
+<span>我现在就是1660s显示的很不正常，请问驱动是哪个版本的？</span><br>
+<span>— from samsung SM-G9500, Android 8.0.0 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>钢铁侠: </b><br>
+<span>paladin7 发表于 2019-12-15 11:52</span><br>
+<span>我现在就是1660s显示的很不正常，请问驱动是哪个版本的？</span><br>
+<span>— from samsung SM-G9500, Android 8.0.0 o ...</span><br>
+<span>我是1660ti_super，用最新驱动没问题，之前用650ti就暗屏</span><br>
+</p><p><b>baesystems: </b><br>
+<span>钢铁侠 发表于 2019-12-15 12:39</span><br>
+<span>我是1660ti_super，用最新驱动没问题，之前用650ti就暗屏</span><br>
+<span>我没换驱动，就是把DX11改成了DX12 </span><br>
+</p><p><b>paladin7: </b><br>
+<span>GameTheory 发表于 2019-12-15 01:15</span><br>
+<span>bug... 需要更新什么东西来着</span><br>
+<span>1、进入RE2的资料夹里找这个文件re2_config.ini</span><br>
+<span>Capability=DirectX12</span><br>
+<span>感谢 按这个办法改了好多了</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>第一玩这游戏感觉也是颜色光线很怪，后来第二次开了HDR才明白HDR模式才是这游戏本来的样子。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902853[0-50]</guid>
+    </item>
+  </channel>
+</rss>

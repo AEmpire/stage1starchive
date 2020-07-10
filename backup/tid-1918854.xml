@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>我这硬盘还有救么？（更新）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>我这硬盘还有救么？（更新）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:25:59 +0000</lastBuildDate>
+    <item>
+      <title>我这硬盘还有救么？（更新）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918854-1-1.html</link>
+      <description>我这硬盘还有救么？&#13;
+刚才运行文件发现巨卡
+&#13;
+拿hdtune扫了2个小时，扫出61个损坏
+&#13;
+健康里面
+&#13;
+ID                                 Current   Worst    Threshold Data             Status
+&#13;
+(05) Reallocated Sector Count    100      100      36         11               warning
+&#13;
+(C5) Current Pending Sector      100      100      0         61               warning
+&#13;
+05那个我不知道是什么
+&#13;
+c5那个查了一下好像就是坏道
+&#13;
+有软件可以修复吗？谢谢</description>
+      <content:encoded><![CDATA[<p><b>佐塚間桐: </b><br>
+<span>我这硬盘还有救么？</span><br>
+<span>刚才运行文件发现巨卡</span><br>
+<span>拿hdtune扫了2个小时，扫出61个损坏</span><br>
+<span>健康里面</span><br>
+<span>ID                                 Current   Worst    Threshold Data             Status</span><br>
+<span>(05) Reallocated Sector Count    100      100      36         11               warning</span><br>
+<span>(C5) Current Pending Sector      100      100      0         61               warning</span><br>
+<span>05那个我不知道是什么</span><br>
+<span>c5那个查了一下好像就是坏道</span><br>
+<span>有软件可以修复吗？谢谢</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>修不好的</span><br>
+<span>我之前尝试了好多次屏蔽/修复坏道</span><br>
+<span>正常使用中都会有问题</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>转移数据，之后当下载盘用到死吧</span><br>
+</p><p><b>jestime: </b><br>
+<span>赶紧fastcopy转移数据，这盘有保就换新，无保可以扔了</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>这个本子用了10年了，硬盘通电超过五万个小时，我就想以后当备用机，如果能用软件修补修补用一用也好，不行也就算了</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>先把坏块隔离掉，之后听天由命</span><br>
+<span>我的那块隔离后当下载盘用了几年了还没坏。。。。</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>boyguyue 发表于 2020-3-15 17:43</span><br>
+<span>先把坏块隔离掉，之后听天由命</span><br>
+<span>我的那块隔离后当下载盘用了几年了还没坏。。。。 ...</span><br>
+<span>请问是用的什么软件？</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>我26000小时的hgst 还不是咋样坏道，你用5万小时已经够好的了，可以换新了 </span><br>
+</p><p><b>boyguyue: </b><br>
+<span>佐塚間桐 发表于 2020-3-15 17:58</span><br>
+<span>请问是用的什么软件？</span><br>
+<span>我就是用DiskGenius扫出坏道位置，然后直接重新分区，分区不包含坏的那部分</span><br>
+<span>不知道这样对不对</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>boyguyue 发表于 2020-3-15 20:43</span><br>
+<span>我就是用DiskGenius扫出坏道位置，然后直接重新分区，分区不包含坏的那部分</span><br>
+<span>不知道这样对不对 ...</span><br>
+<span>不不不，让DiskGenius尝试修复坏道，DG会自行标记并屏蔽。但问题在于，只要出现坏道的硬盘继续使用，不管怎样，坏道会出现得越来越多的，根本屏蔽不过来</span><br>
+<span>至于重新分区是需要估算扇面位置，一般人玩不来，所以坏道盘真的尽快换新处理</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>shinjiikari 发表于 2020-3-15 21:15</span><br>
+<span>不不不，让DiskGenius尝试修复坏道，DG会自行标记并屏蔽。但问题在于，只要出现坏道的硬盘继续使用，不管 ...</span><br>
+<span>一般而言是这个道理，不过我以前试过DG自动屏蔽一个盘的坏道反而挂掉了</span><br>
+<span>另一个已经濒死的盘跳过坏道位置（周围留一段过渡区）重新分区之后，当高强度下载盘用了三年了，健康度一直没跌</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>boyguyue 发表于 2020-3-15 21:54</span><br>
+<span>一般而言是这个道理，不过我以前试过DG自动屏蔽一个盘的坏道反而挂掉了</span><br>
+<span>另一个已经濒死的盘跳过坏道位置 ...</span><br>
+<span>我看了一下，我的坏道出现在383677MB到402921MB之间，换算成GB就是374G到393GB之间，我下次格式化分区可以把一个盘符划分到0到370GB，然后下一个从400GB到500GB。这样就跳过去了坏道区间</span><br>
+<span>但是win7重装的分区可以设置起始值吗？我记得好像是只能设某个分区多大</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>到底是有多缺钱所以说</span><br>
+</p><p><b>madbird302: </b><br>
+<span>shinjiikari 发表于 2020-3-15 21:15</span><br>
+<span>不不不，让DiskGenius尝试修复坏道，DG会自行标记并屏蔽。但问题在于，只要出现坏道的硬盘继续使用，不管 ...</span><br>
+<span>看是什么样的坏道了，如果是连续集中的那种用分区隔离一下是有救的，无规律扩散那种就无解了</span><br>
+</p><p><b>BRRM: </b><br>
+<span>赶紧买新硬盘备份，数据丢了哭死你</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>上星期我们人事主管的电脑 硬盘大概52000小时就是这么挂掉的 建议立刻更换硬盘 不然到时候 全盘变位raw格式 很难恢复</span><br>
+</p><p><b>汤圆です: </b><br>
+<span>05c5前面两项开始比100少说明硬盘要嗝屁，只有最后一项比0大说明还能抢救，救完之后还能继续用，不过要天天关注最后一项，如果长期都没涨说明坏道是那个扇区的磁介质出了问题，这种情况后备扇区已经帮你屏蔽替换（不过坏扇区上原本有数据的话，那数据就没了），还能用不少时间，这时你全盘慢扫一次会发现虽然05c5有数据，但一个坏道都扫不出来；如果短期内还在不断增加的话，一般是盘面上已经出现了物理上的损伤，这种后备扇区也救不了了，还是砸了吧</span><br>
+</p><p><b>madbird302: </b><br>
+<span>我之前一块1T的RE4，C5C6黄了2年多也没什么异常的，前些天突然出现坏道而且系统会掉盘，赶紧弄了个HC310替下来，那块盘也是差不多5W小时的，现在机器里还有两块6W多小时的始祖蓝盘在稳定工作</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918854[0-50]</guid>
+    </item>
+  </channel>
+</rss>

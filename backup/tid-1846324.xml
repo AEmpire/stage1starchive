@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Golang 到底姓什么？开发者想移除谷歌 logo</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Golang 到底姓什么？开发者想移除谷歌 logo</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:04:07 +0000</lastBuildDate>
+    <item>
+      <title>Golang 到底姓什么？开发者想移除谷歌 logo[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846324-1-1.html</link>
+      <description>Golang 到底姓什么？开发者想移除谷歌 logo&#13;
+Golang 到底姓什么？开发者想移除谷歌 logo0开源中国   2019-07-13 08:58:44
+&#13;
+摘要：前阵子有个 Golang 相关的话题引起了许多人的讨论，那就是“Go 是谷歌的语言，而不是社区的”，该观点认为谷歌作为整个 Go 社区的掌门人，它独自决定了什么东西可以被 Go 语言接受，什么不能被接受。而最近有人就想让谷歌从 Go 官网上移除它自家 logo，以此来稳住军心。
+&#13;
+https://oscimg.oschina.net/oscnet/5e83bac8388cd00b31051a56be24fcf7bf6.jpg关于 Golang 姓谷歌这一观点，一方面是由于 Go 核心团队的大部分成员都是谷歌的员工，如果他们不离开谷歌，不去积极确立 Go 语言未来的发展方向，那很难说 Go 不是谷歌的；另一方面，谷歌公司真的为 Go 付出了一些东西，比如提供了大量的基础设施和资源，如域名 golang.org。
+&#13;
+想想 Go 泛型，开发者一直在苦等谷歌添加这一特性，于是有人就想像 Java 社区一样，新建一个 OpenJDK 之类的项目，自己去实现泛型，然而这个想法并没有实现，最大的原因就在于 Go 本身是属于谷歌一家的，而不是社区的项目，谷歌在 Golang 上是一言堂。
+&#13;
+该观点还以一个明显的例子说明这一情况：谷歌 Go 语言核心团队的一名成员拒绝由外部 Go 社区开发的一个模块系统，因为它使用了另一种不同的模型，所以该模块系统被放弃。
+&#13;
+这个观点引起了许多人的讨论，而最近有人就针对这个问题，在 Go 项目上提交了一个 issue，希望从 Go 官网（https://golang.org）上移除谷歌的 logo。
+&#13;
+他的观点是谷歌并不是唯一一家投资 Go 的公司，应当把该项目的主要利益相关者都单独放到另一个地方，将谷歌 logo 也移过去。
+&#13;
+Go 的核心团队成员以 TypeScript 项目为例回复道：“……同样重要的是要明确表示谷歌支持 Go，谷歌付费托管着 golang.org 运行的基础设施，我们希望目前非常小的 logo 露出是一种体面的妥协。”
+&#13;
+https://oscimg.oschina.net/oscnet/0cc9c21f631439184466b147a739c24b675.jpg随后针对一些认为谷歌既然支持 Go，那就应该有 logo 露出的说法，提交 issue 的人反驳 Google 同样托管并支持 Android 和 Dart，但没有在每个官网页面上都露出 logo，而另一边，作为商业产品的 google.com 和谷歌文档，则都非常突出 logo，Golang 的做法跟这些商业产品的性质是一样的。
+&#13;
+issue 下还有其他人发表了观点，比如 Golang 使用“Supported by Google.”之类的表述会更合适。详情查看：
+&#13;
+[*]https://github.com/golang/go/issues/33021
+&#13;
+Golang 到底姓 G（oogle） 还是姓社（区）？移除 Golang 官网上谷歌的 logo 这做法意义又如何？你怎么看？
+&#13;
+https://m.cnbeta.com/view/867281.htm</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>Golang 到底姓什么？开发者想移除谷歌 logo</span><br>
+<span>Golang 到底姓什么？开发者想移除谷歌 logo0开源中国   2019-07-13 08:58:44</span><br>
+<span>摘要：前阵子有个 Golang 相关的话题引起了许多人的讨论，那就是“Go 是谷歌的语言，而不是社区的”，该观点认为谷歌作为整个 Go 社区的掌门人，它独自决定了什么东西可以被 Go 语言接受，什么不能被接受。而最近有人就想让谷歌从 Go 官网上移除它自家 logo，以此来稳住军心。</span><br>
+<span>https://oscimg.oschina.net/oscnet/5e83bac8388cd00b31051a56be24fcf7bf6.jpg关于 Golang 姓谷歌这一观点，一方面是由于 Go 核心团队的大部分成员都是谷歌的员工，如果他们不离开谷歌，不去积极确立 Go 语言未来的发展方向，那很难说 Go 不是谷歌的；另一方面，谷歌公司真的为 Go 付出了一些东西，比如提供了大量的基础设施和资源，如域名 golang.org。</span><br>
+<span>想想 Go 泛型，开发者一直在苦等谷歌添加这一特性，于是有人就想像 Java 社区一样，新建一个 OpenJDK 之类的项目，自己去实现泛型，然而这个想法并没有实现，最大的原因就在于 Go 本身是属于谷歌一家的，而不是社区的项目，谷歌在 Golang 上是一言堂。</span><br>
+<span>该观点还以一个明显的例子说明这一情况：谷歌 Go 语言核心团队的一名成员拒绝由外部 Go 社区开发的一个模块系统，因为它使用了另一种不同的模型，所以该模块系统被放弃。</span><br>
+<span>这个观点引起了许多人的讨论，而最近有人就针对这个问题，在 Go 项目上提交了一个 issue，希望从 Go 官网（https://golang.org）上移除谷歌的 logo。</span><br>
+<span>他的观点是谷歌并不是唯一一家投资 Go 的公司，应当把该项目的主要利益相关者都单独放到另一个地方，将谷歌 logo 也移过去。</span><br>
+<span>Go 的核心团队成员以 TypeScript 项目为例回复道：“……同样重要的是要明确表示谷歌支持 Go，谷歌付费托管着 golang.org 运行的基础设施，我们希望目前非常小的 logo 露出是一种体面的妥协。”</span><br>
+<span>https://oscimg.oschina.net/oscnet/0cc9c21f631439184466b147a739c24b675.jpg随后针对一些认为谷歌既然支持 Go，那就应该有 logo 露出的说法，提交 issue 的人反驳 Google 同样托管并支持 Android 和 Dart，但没有在每个官网页面上都露出 logo，而另一边，作为商业产品的 google.com 和谷歌文档，则都非常突出 logo，Golang 的做法跟这些商业产品的性质是一样的。</span><br>
+<span>issue 下还有其他人发表了观点，比如 Golang 使用“Supported by Google.”之类的表述会更合适。详情查看：</span><br>
+<span>[*]https://github.com/golang/go/issues/33021</span><br>
+<span>Golang 到底姓 G（oogle） 还是姓社（区）？移除 Golang 官网上谷歌的 logo 这做法意义又如何？你怎么看？</span><br>
+<span>https://m.cnbeta.com/view/867281.htm</span><br>
+</p><p><b>hguawolo: </b><br>
+<span>只希望能换个logo, 现在logo让人感到不适</span><br>
+</p><p><b>zyhang: </b><br>
+<span>感觉任何跟一个公司绑定的语言都是不可信的，因为维护团队一言堂，并且还会背着公司kpi，这会导致未来的不确定性太多。</span><br>
+</p><p><b>mimighost: </b><br>
+<span>这人傻逼么，你把Google从里面剃掉了，不代表Google就不掌握Go之后的发展了</span><br>
+<span>不是掩耳盗铃么</span><br>
+</p><p><b>yy77: </b><br>
+<span>Golang必然是谷歌的。java好歹还有个jcp，python还有pep，go完全就是google生活了算。所谓社区，只是用来修修bug，主要feature完全不会听社区的。</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>是时候效仿隔壁.NET Foundation了</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>SICP: </b><br>
+<span>拿起碗吃饭，放下碗骂娘</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846324[0-50]</guid>
+    </item>
+  </channel>
+</rss>

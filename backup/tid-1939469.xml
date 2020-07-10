@@ -1,0 +1,795 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>LG 27GL850小测 update3：获取最佳对比度的校色建议</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>LG 27GL850小测 update3：获取最佳对比度的校色建议</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:07:34 +0000</lastBuildDate>
+    <item>
+      <title>LG 27GL850小测 update3：获取最佳对比度的校色建议[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1939469-1-1.html</link>
+      <description>LG 27GL850小测 update3：获取最佳对比度的校色建议&#13;
+ 本帖最后由 waldo 于 2020-6-23 12:19 编辑 
+
+前情提要：PAG272QR2踩坑
+&#13;
+因为PAG272QR2左右边缘蓝得无法接受，直接退货了。正好6.1 27GL850降价，那就试试这个27寸目前的战斗力单位吧。
+&#13;
+显卡同样不支持dp1.4和hdmi2.0，刷新率先锁120hz，8bit输出，hdr关闭。
+&#13;
+没有同屏对比，但120hz下的ufo感觉比之前的友达6.6要稍微模糊一点，不知道是不是错觉。
+&#13;
+出厂玩家默认100%亮度漏光表现：
+&#13;
+整体漏光比之前的PAG272QR2要好，不过明显黑场亮度有点高。
+&#13;
+色准测试，设备同样是colormunki/i1 studio
+&#13;
+左：出厂全默认sRGB模式未校准；右：出厂全默认玩家1模式未校准
+&#13;
+网传的900多的对比度和rting测出来的700多的对比度都是对的，这台机器只有在全亮度或者特定设置（见update2和update3）下才能测出来900+的对比，低亮度的时候对比度不太理想，而且sRGB模式下的黑场亮度是在有点太高了。
+&#13;
+sRGB模式默认gamma和2.2差得有点远，不过玩家模式倒是挺接近2.4，这台机器在玩家1模式下可以调gamma响应曲线，玩家1模式默认的是gamma mode2，后面在选择玩家1模式校色时会使用gamma mode1校色。
+&#13;
+背光光谱：
+&#13;
+出厂全默认玩家1模式：
+&#13;
+出厂全默认sRGB模式：
+&#13;
+有了上次的经验，这次也一并测试了sRGB模式下的三色坐标，看上去手上这台在sRGB模式下绿点调得不是太好，覆盖率大概到不了100%。
+&#13;
+出厂全默认sRGB模式校准：
+&#13;
+sRGB模式的三原色分量无法调整，默认情况下绿色分量不足，覆盖果然只能到95%，考虑 sRGB模式大部分都是在程序不支持ICC的时候使用，检测方式直接选择模拟sRGB profile，而不选择加载校正profile后的。
+&#13;
+不加载icc的时候sRGB模式在一般情况下还算堪用。
+&#13;
+玩家1模式下27gl850同样也可以调整RGB三色增益，我手上这台在31亮度(160cd/m^2)，gamma mode设置为1，RGB分别设为R49G46B49可以匹配
+&#13;
+D65白点
+&#13;
+玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49校准：
+&#13;
+手上这台，DCI-P3的覆盖也没有特别好，除了惯例的黄橙色彩区域，还有低亮度下的覆盖表现也一般。
+&#13;
+因为原生色域非常接近DCI-P3，所以也尝试模拟DCI-P3 D65 gamma 2.2 的profile做一次检测：
+&#13;
+和模拟sRGB模式时比较类似，红绿色系由于基点本来就比较偏，所以普遍偏差比较大，蓝色系表现良好。
+&#13;
+色亮度均匀性：
+&#13;
+这台机色亮度均匀性其实也不咋的，左边红右边绿，不过胜在过渡比较平滑，比之前微星屏幕两侧突然变蓝的观感好多了。
+&#13;
+结论：基本问题之前其他很多评测也说了，优点是sRGB和DCI-P3匹配度高，不挂ICC也堪用，缺点就是对比度低。不过这个对比度至少在gamma2.2下也不至于会导致黑场一片模糊，见下图（图里面的边缘发白是ips的祖传斜向45度发白，不是漏光），纠结这个的可以调整下显示器的gamma（亮度色标）。
+&#13;
+测试时显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，加载对应的校准icc profile。
+&#13;
+另外这台机器gamma mode 设置为1，3，4的时候白点坐标基本一致，要更偏绿；而设置成出厂默认值2的时候绿色分量明显偏低，要更偏红蓝，这倒是和sRGB模式下的情况一致，不知道是不是有意为之的。
+&#13;
+在我这里这个设置直接导致了gamma-mode2和sRGB mode要比在gamma-mode1、3、4的对比度低50~100。详细对比可以具体看后面的update2。
+&#13;
+这台机的ICC应该没有人需要吧，我就不放了。
+&#13;
+最后缅怀一下PAG272QR2，微星后面如果能处理好边缘发蓝问题和控制好品控，加几个正常可用的sRGB/ARGB/DCI-P3 mode，那么至少可以卖贵1.5倍，不知道能不能看到这个如果。
+&#13;
+后续更新分页：[#2]update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证
+&#13;
+[#3]update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异
+&#13;
+[#4]update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响
+&#13;update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证
+&#13;
+昨天这台机器上的显卡从老黄换成了苏妈的，这边顺便验证以下不同厂的卡加载同一个icc时的实际输出差异
+&#13;
+显示器参数还是之前的：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49
+&#13;
+在这个参数下，加载用N卡跑出来的icc，对插着A卡的机器进行验证（注：所有没标注的较准和验证都是在使用dp口，RGB444模式下得出的）：
+&#13;
+白点比之前稍微偏蓝，色温在全亮度范围内高了100k，整体色彩偏移基本没有太大差异。
+&#13;
+因为无法保证两次测试的位置是一样的，而且时隔两天也有可能存在因为开机时长导致的机器本身的色温飘移，所以这个差异基本可以看作误差。所以如果要求不是很高，换显卡后原有的icc可以直接用。
+&#13;
+补测了使用HDMI线缆时的表现，显示器参数设置和使用的icc均和上面相同，刷新率均为60hz，驱动分别为446.14和20.4.2：
+&#13;
+AMD HDMI RGB444：
+&#13;
+NVIDIA HDMI RGB444 完全输出：
+&#13;
+NVIDIA HDMI RGB444 有限输出：
+&#13;
+NVIDIA HDMI YCbCr444：
+&#13;
+从结果来看无论是哪家都必须选择RGB444完全输出。顺便确认了100k的色温差异确实是显示器白点漂移导致的，换显卡不需要更换icc。
+&#13;update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异
+&#13;
+因为前面测试时，发现LG菜单内的gamma曲线设置在修改后存在一些奇怪的现象，这边做了一些验证，做验证时显示器已重新较准。所以设置会与前面的有少许差异。
+&#13;
+测试设计：依次选择4个gamma-mode设置，每次针对当前gamma-mode在保证RGB三通道增益尽量接近50的情况下把白点尽量调成D65，亮度统一设置为160cd/m^2。调整完成后在displaycal中使用模拟sRGB色域跑验证测试的的方式，验证当前设置下的gamma值与sRGB色域的gamma值之间的差异，和查看实际的对比度。
+&#13;
+玩家1模式，gamma-mode设置为1，对比度默认，亮度29 R50G47B48：
+&#13;
+玩家1模式，gamma-mode设置为2，对比度默认，亮度34 R49G50B45：
+&#13;
+玩家1模式，gamma-mode设置为3，对比度默认，亮度30 R50G47B48（此模式下白点无法精确调至6500K）：
+&#13;
+玩家1模式，gamma-mode设置为4，对比度默认，亮度31 R49G46B48：
+&#13;
+可以看到，gamma-mode 1比较贴合sRGB色域的gamma曲线，gamma-mode 3 和 gamma-mode 4 则是在保持sRGB色域的gamma曲线走向的同时，尽量向gamma2.6和gamma2.4绝对曲线靠拢。
+&#13;
+而gamma-mode 2似乎是LG想通过压低白场的绿色通道增益，从而把原生gamma改成gamma2.2绝对曲线的产物，但是实际效果感人，而且还导致了对比度明显降低的副作用。不过因为光谱计会有黑场温漂，相同参数两次不同时间设置黑场有可能会差0.1cd/m^2，所以实际对比度差异或许没有这么大。
+&#13;
+不过就算是贴合sRGB gamma曲线的gamma-mode 1，其暗部（5%以下）的gamma值也要比标准值来得更高，出厂默认的gamma-mode 2就更不用说了。
+&#13;
+这里借用一下CHH那边猫大在这贴里面S2718D的gamma曲线图
+&#13;
+https://static.chiphell.com/forum/201907/11/130628enzugnupgngv1ogw.png
+&#13;
+这直接导致了27gl850在和上图这种暗部gamma值更低的机器对比时，在没有加载校正文件的时候，显示现在sRGB资源为基础的一大票对比度测试图暗部会更难分辨。
+&#13;
+27gl850在选择gamma-mode 1没有加载校正文件时的灰阶表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，禁用显卡较准gamma曲线，不加载icc profile）
+&#13;
+加载icc时正确映射暗场灰阶时的表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，启用显卡较准gamma曲线，加载icc profile）
+&#13;
+https://img.saraba1st.com/forum/202006/03/235036df3ymuu3m3cfbf0c.jpg
+&#13;update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响
+&#13;
+因为总觉得osd里面的RGB三色增益调整精度不太高，上周日找了一下进工厂模式的方法，尝试以调整工厂模式里面的6500K色温下的RGB增益值，再在OSD中选择自定义色温到6500的方式来调整白点，结果发现对比度又提高了。
+&#13;
+为了验证这个不是因为温飘和测量位置造成的差异，多做了几次测试。
+&#13;
+对比度提高的根本原因其实就是因为工厂模式下的RGB调节精确度更高，绿色通道可以衰减更少，在保证白点准确的同时，相同cd/m^2下的亮度设置可以比使用用osd调整再降低1格。
+&#13;
+校正后多次测量的对比度误差基本确定是由测量点位置的选取引起的，上图中图选的是实测的最大最小值和一个稍微偏高的典型值，实际会更偏向集中在880~900之间。
+&#13;
+顺便试了一下所谓的黑色稳定器：
+&#13;
+没事最好别动这个</description>
+      <content:encoded><![CDATA[<p><b>waldo: </b><br>
+<span>allies 发表于 2020-6-5 23:29</span><br>
+<span>可否试试HDMI线有没有区别？我看很多人说黄老板的驱动把HDMI显示器认电视，造成颜色有问题，改0-255也没用 ...</span><br>
+<span>更新了HDMI线的测试，显卡在HDMI下跑不120hz，统一用60hz测的，应该对结果没有影响。</span><br>
+</p><p><b>waldo: </b><br>
+<span>kerorokun 发表于 2020-6-6 11:15</span><br>
+<span>再过几个月gn950系列就出了</span><br>
+<span>参考那两家在售4K144hz产品的价格，LG这个怕不是会开个杀猪价</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>GN950我觉得如果还是DP1.4+HDMI2.0，用DSC，价格会直接对标XG27UQ……</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>https://www.rtings.com/monitor/reviews/lg/34gn850-b</span><br>
+<span>这款rtings对比度测试都有960了，最高亮度下对比度是不是更好？</span><br>
+<span>还有38gn950有人到手测试说漏光表现很好，比uc99强</span><br>
+</p><p><b>waldo: </b><br>
+<span>lxx4869 发表于 2020-6-18 20:55</span><br>
+<span>https://www.rtings.com/monitor/reviews/lg/34gn850-b</span><br>
+<span>这款rtings对比度测试都有960了，最高亮度下对比度 ...</span><br>
+<span>按我在27gl850上面的实测，相同设置时，最高亮度下对比度比120cd/m^2大概能高30~40，这样的话确实应该能到1000了。rting上面34gn850的黑场实拍确实也要比我手上这台要好，也许LG今年的补偿膜真的改进了。另外似乎子像素有变化，不知道响应时间的进一步提升是不是和这个有关</span><br>
+<span>另外今天顺便验证了一下某个想法：</span><br>
+<span>27GL850的对比度问题基本都是来自于lg在这个驱动板上面的**。在某个设置下面是可以在120cd/m^2下实现900~930左右的对比度的，晚点放测试图。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>waldo 发表于 2020-6-18 22:02</span><br>
+<span>按我在27gl850上面的实测，相同设置时，最高亮度下对比度比120cd/m^2大概能高30~40，这样的话确实应该能到 ...</span><br>
+<span>**是啥。。。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-19 08:07</span><br>
+<span>**是啥。。。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+<span>调*教*</span><br>
+<span>数据还要验证一下，暂时还不能确认是不是热机时间不足。</span><br>
+<span>另外就算我的想法是正确，也只能保证在我的设置下校准后的对比度能尽量达到这块屏幕的原生对比度上限，并不能从本质上改变目前nano-ips与其他面板的差距。</span><br>
+</p><p><b>waldo: </b><br>
+<span>重看TFTcentral的评测，发现那边早就测过gamma设置的影响，早知道就不用费那么多功夫确认了</span><br>
+<span>另外排除i1pro+i1display pro的测量设备配置会比rtings和我这里用的光谱仪有更好的黑场稳定性这个影响，TFT的机器也堪称欧皇级别的，gamma1模式下最大接近1000真是可遇不可求。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-6-21 01:26 编辑 </span><br>
+<span>waldo 发表于 2020-6-19 21:01</span><br>
+<span>重看TFTcentral的评测，发现那边早就测过gamma设置的影响，早知道就不用费那么多功夫确认了</span><br>
+<span>结论就是说还是安安稳稳用mode2就好</span><br>
+<span>其他mode默认的对比度高，但校准后依然回到和mode2差不多的对比度水平</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-20 18:57</span><br>
+<span>结论就是说还是安安稳稳用mdeo2就好</span><br>
+<span>其他mode默认的对比度高，但校准后依然回到和mode2差不多的对比度水 ...</span><br>
+<span>TFT的不同gamma设置下的实测值和我这边是相近的，但是结论我无法苟同。</span><br>
+<span>在TFT那边mode2下的gamma和2.2偏差并不大，而rtings和我这里测出来的都和2.2差很远</span><br>
+<span>而且如果要保证白点调整至D65的话，相同亮度设置下，gamma mode 2下的实测亮度实在太低了，见下图</span><br>
+<span>这样校正出来的对比度不可能一样的。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>waldo 发表于 2020-6-20 23:04</span><br>
+<span>TFT的不同gamma设置下的实测值和我这边是相近的，但是结论我无法苟同。</span><br>
+<span>在TFT那边mode2下的gamma和2.2偏 ...</span><br>
+<span>这玩意个体差异是挺大的，早期批次好，20年1月那台我开srgb都泛红，后来直接用了tft的设置和文件，没那么红了，但还是不如家里那台白色白。而且1月那台上冷下黄，家里那台19年10月份的，就没这个问题。</span><br>
+<span>显示屏依旧无法避免抽奖啊。。。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-21 01:30</span><br>
+<span>这玩意个体差异是挺大的，早期批次好，20年1月那台我开srgb都泛红，后来直接用了tft的设置和文件，没那么 ...</span><br>
+<span>最近好像都反映偏红，结合我这台默认配置下绿色通道衰减严重，我严重怀疑LG根本没有对每台机器校色，而只是跑了一次check来验证dalta E不大于5。</span><br>
+<span>另外TFT那个设置我觉得也有点问题。在不降低对比度的情况下，OSD里面的RGB三色增益设置为大于50的值时，实际对白点的影响和设置成50的时候应该是一样的。我不太明白TFT什么要在保持对比度在默认70的同时，把R通道增益调成58。</span><br>
+</p><p><b>jestime: </b><br>
+<span>rtings的拖影评价文字特别奇葩，ips是被tn吊打的，结果得分还能比tn高，图片也是ips模糊tn清晰</span><br>
+</p><p><b>Unlight: </b><br>
+<span>其实我总觉得都IPS了，就别太纠结对比度了（小声）</span><br>
+<span>不过nanoIPS确实是得关注一下就是了</span><br>
+</p><p><b>恋妖壶: </b><br>
+<span>刚买了这台显示器，但是完全看不懂楼里在说什么……</span><br>
+</p><p><b>乌鸦的皇冠: </b><br>
+<span>拥挤的屋顶 发表于 2020-6-4 15:16</span><br>
+<span>突然想起来那种号称可以4K144Hz+10bit+HDR的线，是什么原理？</span><br>
+<span>光纤？</span><br>
+</p><p><b>waldo: </b><br>
+<span>jestime 发表于 2020-6-21 22:34</span><br>
+<span>rtings的拖影评价文字特别奇葩，ips是被tn吊打的，结果得分还能比tn高，图片也是ips模糊tn清晰 ...</span><br>
+<span>我是觉得rtings电视以外的评测的分数和评价都挺奇怪的，但是测试数据都没啥问题</span><br>
+</p><p><b>waldo: </b><br>
+<span>Unlight 发表于 2020-6-21 23:13</span><br>
+<span>其实我总觉得都IPS了，就别太纠结对比度了（小声）</span><br>
+<span>不过nanoIPS确实是得关注一下就是了 ...</span><br>
+<span>纠结这个就不会能忍受只有不到700对比的U2410这么多年了</span><br>
+<span>顶楼纯粹是因为手上有设备打算最大化收益瞎折腾</span><br>
+</p><p><b>Unlight: </b><br>
+<span>waldo 发表于 2020-6-22 11:54</span><br>
+<span>纠结这个就不会能忍受只有不到700对比的U2410这么多年了</span><br>
+<span>顶楼纯粹是因为手上有设备打算最大化收 ...</span><br>
+<span>2410不是还不错的IPS吗，应该有1000：1吧？</span><br>
+<span>习惯3000：1（当然，校色以后就2850：1左右了）以后现在就不是很能接受IPS了…</span><br>
+<span>主要是我喜欢在电脑上用暗色模式，即使是白天…</span><br>
+<span>所以现在我就在等子像素切割的VA</span><br>
+</p><p><b>waldo: </b><br>
+<span> 本帖最后由 waldo 于 2020-6-22 20:56 编辑 </span><br>
+<span>Unlight 发表于 2020-6-22 19:36</span><br>
+<span>2410不是还不错的IPS吗，应该有1000：1吧？</span><br>
+<span>习惯3000：1（当然，校色以后就2850：1左右了）以后现在就不 ...</span><br>
+<span>U2410在当年主要是第一代8抖10的广色域IPS，较准后在当年那个价位色准算很不错，但对比度是真的不行</span><br>
+<span>tftcentral review dell_u2410</span><br>
+<span>不过当年VA的对比度也没有高到哪里去就是了</span><br>
+</p><p><b>Unlight: </b><br>
+<span>waldo 发表于 2020-6-22 20:54</span><br>
+<span>U2410在当年主要是第一代8抖10的广色域IPS，较准后在当年那个价位色准算很不错，但对比度是真的不行</span><br>
+<span>当年VA居然也那么惨啊</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>咨询一下楼主，同款显示器，打算用校色仪校色一下，测量模式一般选哪种？</span><br>
+<span>软件也是 DisplayCAL</span><br>
+</p><p><b>waldo: </b><br>
+<span>huaxianyan 发表于 2020-7-4 20:03</span><br>
+<span>咨询一下楼主，同款显示器，打算用校色仪校色一下，测量模式一般选哪种？</span><br>
+<span>软件也是 DisplayCAL ...</span><br>
+<span>测量模式和你使用的校色仪有一定关系，特别是光谱仪和色度计是完全不同的，DisplayCAL给的选项也会不一样</span><br>
+<span>色度计需要选择相应的校正文件。光谱仪的话一般直接默认就可以了，不过需要选上黑电平飘逸补偿，然后可以考虑在高级选项里面跳过校色仪自较准。</span><br>
+<span>另外校色相关其实可以看隔壁楼</span><br>
+<span>简明屏幕校色及色彩管理</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>waldo 发表于 2020-7-4 21:18</span><br>
+<span>测量模式和你使用的校色仪有一定关系，特别是光谱仪和色度计是完全不同的，DisplayCAL给的选项也会不一样 ...</span><br>
+<span>我就是参考了这篇</span><br>
+<span>用的是蜘蛛，最后选的是液晶常规，勾上了黑白电平</span><br>
+</p><p><b>waldo: </b><br>
+<span>huaxianyan 发表于 2020-7-4 21:53</span><br>
+<span>我就是参考了这篇</span><br>
+<span>用的是蜘蛛，最后选的是液晶常规，勾上了黑白电平</span><br>
+<span>液晶常规就可以了，反正最重要的是校正文件和你手上设备的匹配程度。</span><br>
+<span>色度计不需要选黑电平飘移补偿。</span><br>
+<span>白电平飘移补偿如果热机充分，整个校正时间不长也不需要选</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>waldo 发表于 2020-7-4 22:12</span><br>
+<span>液晶常规就可以了，反正最重要的是校正文件和你手上设备的匹配程度。</span><br>
+<span>色度计不需要选黑电平飘移补偿。</span><br>
+<span>白 ...</span><br>
+<span>我校正文件都选自动的……难道还要选什么合适的校正文件吗</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>我试着你文章中的一些不加载 icc 的配置，但是发现好像都比我以往校色的设备要更冷，我已经开始怀疑我以往的校色方式了，整个人都比较迷茫……</span><br>
+</p><p><b>waldo: </b><br>
+<span>huaxianyan 发表于 2020-7-5 22:01</span><br>
+<span>我校正文件都选自动的……难道还要选什么合适的校正文件吗</span><br>
+<span>校正文件其实就是别人用光谱仪对当前显示器测量出来的光谱信息。</span><br>
+<span>这是隔壁帖子里的操作步骤，按这个操作实际可以选择两种校正文件：1.光谱数据文件，2.用光谱仪和你当前使用型号的色度计生成的专有转换矩阵</span><br>
+<span>这两种文件理论上是第二种精度更高，但是因为色度计也有个体差异，然后内部的标准光源也会飘移，所以实际不见得结果会更好。</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span> 本帖最后由 huaxianyan 于 2020-7-5 23:19 编辑 </span><br>
+<span>waldo 发表于 2020-7-5 22:39</span><br>
+<span>校正文件其实就是别人用光谱仪对当前显示器测量出来的光谱信息。</span><br>
+<span>那如果不选任何文件，就是第二种自动生成吗？</span><br>
+<span>不知道为啥，我明显感觉出 27GL850 校正完之后和别的设备有明显的差别，达不到我让所有设备同一观感的目的，校准的方法都是一样操作的</span><br>
+<span>至于色准精度的需求不是那么高</span><br>
+<span>玩家1，亮度32，亮度色标1，R 48 G 39 B 40</span><br>
+</p><p><b>waldo: </b><br>
+<span>huaxianyan 发表于 2020-7-5 23:01</span><br>
+<span>那如果不选任何文件，就是第二种自动生成吗？</span><br>
+<span>不知道为啥，我明显感觉出 27GL850 校正完之后和别的设备 ...</span><br>
+<span>第二种是需要同时持有光谱仪和色度计，针对当前色度计生成专门的转换矩阵。</span><br>
+<span>色度计在不加载校正文件的情况下，应该只能按你选择的背光类型来判断当前显示器的背光波长分布，不会太精确。</span><br>
+<span>不过我不太清楚既不在上述选项里面选择加载针对当前显示器的校正文件，又不在全局选项里面导入厂家的校正文件的时候，displaycal会做什么操作。</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>waldo 发表于 2020-7-5 23:23</span><br>
+<span>第二种是需要同时持有光谱仪和色度计，针对当前色度计生成专门的转换矩阵。</span><br>
+<span>色度计在不加载校正文件的情 ...</span><br>
+<span>我才注意可以搜索在线的文件作为校正文件，看来是我以前的方法都错了，感觉指正</span><br>
+</p><p><b>梦魇: </b><br>
+<span>你们这么在意校色，是有专业用途？</span><br>
+</p><p><b>稻高一尺: </b><br>
+<span>请教两个问题：</span><br>
+<span>1.背光光谱应该怎么查看？</span><br>
+<span>2.为什么“出厂全默认srgb模式”和“玩家模式1”，测得的色域覆盖、色域容积不同？</span><br>
+</p><p><b>waldo: </b><br>
+<span> 本帖最后由 waldo 于 2020-7-9 18:31 编辑 </span><br>
+<span>稻高一尺 发表于 2020-7-9 12:10</span><br>
+<span>请教两个问题：</span><br>
+<span>1.背光光谱应该怎么查看？</span><br>
+<span>2.为什么“出厂全默认srgb模式”和“玩家模式1”，测得的色域覆 ...</span><br>
+<span>1.首先要有光谱仪。</span><br>
+<span>如果用displaycal，可以选择 “工具->校正文件->创建色度仪校正文件” 这个选项，选择之后出来一个对话框，里面有个测量选项可以测量当前屏幕的光谱，能直接看到测量结果、白点和三色通道坐标（就是顶楼那些）。</span><br>
+<span>如果你还能搞到basiccolor，那正常的校色过程中就直接可以看测量到的光谱。</span><br>
+<span>2.一台显示器的原生色域是由背光模组决定的。比如对于一台ips显示器，背光模组通过R、G、B三色滤光片后的光谱成分，决定了这台显示器在RGB三通道最大偏转时在色度坐标上的值，就是对应顶楼色度坐标图那三个点。这三个点之间连线形成的三角形就是这台显示器的最大能覆盖的色域范围。</span><br>
+<span>除此之外，厂家一般会按目标客户使用需求搞一些实际色域覆盖范围尽量贴合srgb、dci-p3、argb这些色彩空间色域覆盖范围的模式，原理一般就是通过驱动板，在输出某个颜色通道时（比如G），调整RB通道的偏转角度，实际G通道输出的饱和度，从而调整G通道的最大偏转时的坐标位置。在这些模式下，色域覆盖范围和色域容积都会比原生低，但是会更贴合使用者需求。</span><br>
+<span>一般来说显示器的标准模式都是驱动板无限制的原生色域，特定色彩空间模式还有“电影”模式这种都是限制过色域的，不过因为这个需要在驱动板和调校上花很多功夫，所以不见得所有显示器都是如此。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1939469[50-100]</guid>
+    </item>
+    <item>
+      <title>LG 27GL850小测 update3：获取最佳对比度的校色建议[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1939469-1-1.html</link>
+      <description>LG 27GL850小测 update3：获取最佳对比度的校色建议&#13;
+ 本帖最后由 waldo 于 2020-6-23 12:19 编辑 
+
+前情提要：PAG272QR2踩坑
+&#13;
+因为PAG272QR2左右边缘蓝得无法接受，直接退货了。正好6.1 27GL850降价，那就试试这个27寸目前的战斗力单位吧。
+&#13;
+显卡同样不支持dp1.4和hdmi2.0，刷新率先锁120hz，8bit输出，hdr关闭。
+&#13;
+没有同屏对比，但120hz下的ufo感觉比之前的友达6.6要稍微模糊一点，不知道是不是错觉。
+&#13;
+出厂玩家默认100%亮度漏光表现：
+&#13;
+整体漏光比之前的PAG272QR2要好，不过明显黑场亮度有点高。
+&#13;
+色准测试，设备同样是colormunki/i1 studio
+&#13;
+左：出厂全默认sRGB模式未校准；右：出厂全默认玩家1模式未校准
+&#13;
+网传的900多的对比度和rting测出来的700多的对比度都是对的，这台机器只有在全亮度或者特定设置（见update2和update3）下才能测出来900+的对比，低亮度的时候对比度不太理想，而且sRGB模式下的黑场亮度是在有点太高了。
+&#13;
+sRGB模式默认gamma和2.2差得有点远，不过玩家模式倒是挺接近2.4，这台机器在玩家1模式下可以调gamma响应曲线，玩家1模式默认的是gamma mode2，后面在选择玩家1模式校色时会使用gamma mode1校色。
+&#13;
+背光光谱：
+&#13;
+出厂全默认玩家1模式：
+&#13;
+出厂全默认sRGB模式：
+&#13;
+有了上次的经验，这次也一并测试了sRGB模式下的三色坐标，看上去手上这台在sRGB模式下绿点调得不是太好，覆盖率大概到不了100%。
+&#13;
+出厂全默认sRGB模式校准：
+&#13;
+sRGB模式的三原色分量无法调整，默认情况下绿色分量不足，覆盖果然只能到95%，考虑 sRGB模式大部分都是在程序不支持ICC的时候使用，检测方式直接选择模拟sRGB profile，而不选择加载校正profile后的。
+&#13;
+不加载icc的时候sRGB模式在一般情况下还算堪用。
+&#13;
+玩家1模式下27gl850同样也可以调整RGB三色增益，我手上这台在31亮度(160cd/m^2)，gamma mode设置为1，RGB分别设为R49G46B49可以匹配
+&#13;
+D65白点
+&#13;
+玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49校准：
+&#13;
+手上这台，DCI-P3的覆盖也没有特别好，除了惯例的黄橙色彩区域，还有低亮度下的覆盖表现也一般。
+&#13;
+因为原生色域非常接近DCI-P3，所以也尝试模拟DCI-P3 D65 gamma 2.2 的profile做一次检测：
+&#13;
+和模拟sRGB模式时比较类似，红绿色系由于基点本来就比较偏，所以普遍偏差比较大，蓝色系表现良好。
+&#13;
+色亮度均匀性：
+&#13;
+这台机色亮度均匀性其实也不咋的，左边红右边绿，不过胜在过渡比较平滑，比之前微星屏幕两侧突然变蓝的观感好多了。
+&#13;
+结论：基本问题之前其他很多评测也说了，优点是sRGB和DCI-P3匹配度高，不挂ICC也堪用，缺点就是对比度低。不过这个对比度至少在gamma2.2下也不至于会导致黑场一片模糊，见下图（图里面的边缘发白是ips的祖传斜向45度发白，不是漏光），纠结这个的可以调整下显示器的gamma（亮度色标）。
+&#13;
+测试时显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，加载对应的校准icc profile。
+&#13;
+另外这台机器gamma mode 设置为1，3，4的时候白点坐标基本一致，要更偏绿；而设置成出厂默认值2的时候绿色分量明显偏低，要更偏红蓝，这倒是和sRGB模式下的情况一致，不知道是不是有意为之的。
+&#13;
+在我这里这个设置直接导致了gamma-mode2和sRGB mode要比在gamma-mode1、3、4的对比度低50~100。详细对比可以具体看后面的update2。
+&#13;
+这台机的ICC应该没有人需要吧，我就不放了。
+&#13;
+最后缅怀一下PAG272QR2，微星后面如果能处理好边缘发蓝问题和控制好品控，加几个正常可用的sRGB/ARGB/DCI-P3 mode，那么至少可以卖贵1.5倍，不知道能不能看到这个如果。
+&#13;
+后续更新分页：[#2]update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证
+&#13;
+[#3]update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异
+&#13;
+[#4]update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响
+&#13;update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证
+&#13;
+昨天这台机器上的显卡从老黄换成了苏妈的，这边顺便验证以下不同厂的卡加载同一个icc时的实际输出差异
+&#13;
+显示器参数还是之前的：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49
+&#13;
+在这个参数下，加载用N卡跑出来的icc，对插着A卡的机器进行验证（注：所有没标注的较准和验证都是在使用dp口，RGB444模式下得出的）：
+&#13;
+白点比之前稍微偏蓝，色温在全亮度范围内高了100k，整体色彩偏移基本没有太大差异。
+&#13;
+因为无法保证两次测试的位置是一样的，而且时隔两天也有可能存在因为开机时长导致的机器本身的色温飘移，所以这个差异基本可以看作误差。所以如果要求不是很高，换显卡后原有的icc可以直接用。
+&#13;
+补测了使用HDMI线缆时的表现，显示器参数设置和使用的icc均和上面相同，刷新率均为60hz，驱动分别为446.14和20.4.2：
+&#13;
+AMD HDMI RGB444：
+&#13;
+NVIDIA HDMI RGB444 完全输出：
+&#13;
+NVIDIA HDMI RGB444 有限输出：
+&#13;
+NVIDIA HDMI YCbCr444：
+&#13;
+从结果来看无论是哪家都必须选择RGB444完全输出。顺便确认了100k的色温差异确实是显示器白点漂移导致的，换显卡不需要更换icc。
+&#13;update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异
+&#13;
+因为前面测试时，发现LG菜单内的gamma曲线设置在修改后存在一些奇怪的现象，这边做了一些验证，做验证时显示器已重新较准。所以设置会与前面的有少许差异。
+&#13;
+测试设计：依次选择4个gamma-mode设置，每次针对当前gamma-mode在保证RGB三通道增益尽量接近50的情况下把白点尽量调成D65，亮度统一设置为160cd/m^2。调整完成后在displaycal中使用模拟sRGB色域跑验证测试的的方式，验证当前设置下的gamma值与sRGB色域的gamma值之间的差异，和查看实际的对比度。
+&#13;
+玩家1模式，gamma-mode设置为1，对比度默认，亮度29 R50G47B48：
+&#13;
+玩家1模式，gamma-mode设置为2，对比度默认，亮度34 R49G50B45：
+&#13;
+玩家1模式，gamma-mode设置为3，对比度默认，亮度30 R50G47B48（此模式下白点无法精确调至6500K）：
+&#13;
+玩家1模式，gamma-mode设置为4，对比度默认，亮度31 R49G46B48：
+&#13;
+可以看到，gamma-mode 1比较贴合sRGB色域的gamma曲线，gamma-mode 3 和 gamma-mode 4 则是在保持sRGB色域的gamma曲线走向的同时，尽量向gamma2.6和gamma2.4绝对曲线靠拢。
+&#13;
+而gamma-mode 2似乎是LG想通过压低白场的绿色通道增益，从而把原生gamma改成gamma2.2绝对曲线的产物，但是实际效果感人，而且还导致了对比度明显降低的副作用。不过因为光谱计会有黑场温漂，相同参数两次不同时间设置黑场有可能会差0.1cd/m^2，所以实际对比度差异或许没有这么大。
+&#13;
+不过就算是贴合sRGB gamma曲线的gamma-mode 1，其暗部（5%以下）的gamma值也要比标准值来得更高，出厂默认的gamma-mode 2就更不用说了。
+&#13;
+这里借用一下CHH那边猫大在这贴里面S2718D的gamma曲线图
+&#13;
+https://static.chiphell.com/forum/201907/11/130628enzugnupgngv1ogw.png
+&#13;
+这直接导致了27gl850在和上图这种暗部gamma值更低的机器对比时，在没有加载校正文件的时候，显示现在sRGB资源为基础的一大票对比度测试图暗部会更难分辨。
+&#13;
+27gl850在选择gamma-mode 1没有加载校正文件时的灰阶表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，禁用显卡较准gamma曲线，不加载icc profile）
+&#13;
+加载icc时正确映射暗场灰阶时的表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，启用显卡较准gamma曲线，加载icc profile）
+&#13;
+https://img.saraba1st.com/forum/202006/03/235036df3ymuu3m3cfbf0c.jpg
+&#13;update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响
+&#13;
+因为总觉得osd里面的RGB三色增益调整精度不太高，上周日找了一下进工厂模式的方法，尝试以调整工厂模式里面的6500K色温下的RGB增益值，再在OSD中选择自定义色温到6500的方式来调整白点，结果发现对比度又提高了。
+&#13;
+为了验证这个不是因为温飘和测量位置造成的差异，多做了几次测试。
+&#13;
+对比度提高的根本原因其实就是因为工厂模式下的RGB调节精确度更高，绿色通道可以衰减更少，在保证白点准确的同时，相同cd/m^2下的亮度设置可以比使用用osd调整再降低1格。
+&#13;
+校正后多次测量的对比度误差基本确定是由测量点位置的选取引起的，上图中图选的是实测的最大最小值和一个稍微偏高的典型值，实际会更偏向集中在880~900之间。
+&#13;
+顺便试了一下所谓的黑色稳定器：
+&#13;
+没事最好别动这个</description>
+      <content:encoded><![CDATA[<p><b>waldo: </b><br>
+<span>LG 27GL850小测 update3：获取最佳对比度的校色建议</span><br>
+<span> 本帖最后由 waldo 于 2020-6-23 12:19 编辑 </span><br>
+<span>前情提要：PAG272QR2踩坑</span><br>
+<span>因为PAG272QR2左右边缘蓝得无法接受，直接退货了。正好6.1 27GL850降价，那就试试这个27寸目前的战斗力单位吧。</span><br>
+<span>显卡同样不支持dp1.4和hdmi2.0，刷新率先锁120hz，8bit输出，hdr关闭。</span><br>
+<span>没有同屏对比，但120hz下的ufo感觉比之前的友达6.6要稍微模糊一点，不知道是不是错觉。</span><br>
+<span>出厂玩家默认100%亮度漏光表现：</span><br>
+<span>整体漏光比之前的PAG272QR2要好，不过明显黑场亮度有点高。</span><br>
+<span>色准测试，设备同样是colormunki/i1 studio</span><br>
+<span>左：出厂全默认sRGB模式未校准；右：出厂全默认玩家1模式未校准</span><br>
+<span>网传的900多的对比度和rting测出来的700多的对比度都是对的，这台机器只有在全亮度或者特定设置（见update2和update3）下才能测出来900+的对比，低亮度的时候对比度不太理想，而且sRGB模式下的黑场亮度是在有点太高了。</span><br>
+<span>sRGB模式默认gamma和2.2差得有点远，不过玩家模式倒是挺接近2.4，这台机器在玩家1模式下可以调gamma响应曲线，玩家1模式默认的是gamma mode2，后面在选择玩家1模式校色时会使用gamma mode1校色。</span><br>
+<span>背光光谱：</span><br>
+<span>出厂全默认玩家1模式：</span><br>
+<span>出厂全默认sRGB模式：</span><br>
+<span>有了上次的经验，这次也一并测试了sRGB模式下的三色坐标，看上去手上这台在sRGB模式下绿点调得不是太好，覆盖率大概到不了100%。</span><br>
+<span>出厂全默认sRGB模式校准：</span><br>
+<span>sRGB模式的三原色分量无法调整，默认情况下绿色分量不足，覆盖果然只能到95%，考虑 sRGB模式大部分都是在程序不支持ICC的时候使用，检测方式直接选择模拟sRGB profile，而不选择加载校正profile后的。</span><br>
+<span>不加载icc的时候sRGB模式在一般情况下还算堪用。</span><br>
+<span>玩家1模式下27gl850同样也可以调整RGB三色增益，我手上这台在31亮度(160cd/m^2)，gamma mode设置为1，RGB分别设为R49G46B49可以匹配</span><br>
+<span>D65白点</span><br>
+<span>玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49校准：</span><br>
+<span>手上这台，DCI-P3的覆盖也没有特别好，除了惯例的黄橙色彩区域，还有低亮度下的覆盖表现也一般。</span><br>
+<span>因为原生色域非常接近DCI-P3，所以也尝试模拟DCI-P3 D65 gamma 2.2 的profile做一次检测：</span><br>
+<span>和模拟sRGB模式时比较类似，红绿色系由于基点本来就比较偏，所以普遍偏差比较大，蓝色系表现良好。</span><br>
+<span>色亮度均匀性：</span><br>
+<span>这台机色亮度均匀性其实也不咋的，左边红右边绿，不过胜在过渡比较平滑，比之前微星屏幕两侧突然变蓝的观感好多了。</span><br>
+<span>结论：基本问题之前其他很多评测也说了，优点是sRGB和DCI-P3匹配度高，不挂ICC也堪用，缺点就是对比度低。不过这个对比度至少在gamma2.2下也不至于会导致黑场一片模糊，见下图（图里面的边缘发白是ips的祖传斜向45度发白，不是漏光），纠结这个的可以调整下显示器的gamma（亮度色标）。</span><br>
+<span>测试时显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，加载对应的校准icc profile。</span><br>
+<span>另外这台机器gamma mode 设置为1，3，4的时候白点坐标基本一致，要更偏绿；而设置成出厂默认值2的时候绿色分量明显偏低，要更偏红蓝，这倒是和sRGB模式下的情况一致，不知道是不是有意为之的。</span><br>
+<span>在我这里这个设置直接导致了gamma-mode2和sRGB mode要比在gamma-mode1、3、4的对比度低50~100。详细对比可以具体看后面的update2。</span><br>
+<span>这台机的ICC应该没有人需要吧，我就不放了。</span><br>
+<span>最后缅怀一下PAG272QR2，微星后面如果能处理好边缘发蓝问题和控制好品控，加几个正常可用的sRGB/ARGB/DCI-P3 mode，那么至少可以卖贵1.5倍，不知道能不能看到这个如果。</span><br>
+<span>后续更新分页：[#2]update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证</span><br>
+<span>[#3]update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异</span><br>
+<span>[#4]update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响</span><br>
+<span>update1: A/N卡、DP/HDMI、RGB/YCbCr之间的色彩差异验证</span><br>
+<span>昨天这台机器上的显卡从老黄换成了苏妈的，这边顺便验证以下不同厂的卡加载同一个icc时的实际输出差异</span><br>
+<span>显示器参数还是之前的：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49</span><br>
+<span>在这个参数下，加载用N卡跑出来的icc，对插着A卡的机器进行验证（注：所有没标注的较准和验证都是在使用dp口，RGB444模式下得出的）：</span><br>
+<span>白点比之前稍微偏蓝，色温在全亮度范围内高了100k，整体色彩偏移基本没有太大差异。</span><br>
+<span>因为无法保证两次测试的位置是一样的，而且时隔两天也有可能存在因为开机时长导致的机器本身的色温飘移，所以这个差异基本可以看作误差。所以如果要求不是很高，换显卡后原有的icc可以直接用。</span><br>
+<span>补测了使用HDMI线缆时的表现，显示器参数设置和使用的icc均和上面相同，刷新率均为60hz，驱动分别为446.14和20.4.2：</span><br>
+<span>AMD HDMI RGB444：</span><br>
+<span>NVIDIA HDMI RGB444 完全输出：</span><br>
+<span>NVIDIA HDMI RGB444 有限输出：</span><br>
+<span>NVIDIA HDMI YCbCr444：</span><br>
+<span>从结果来看无论是哪家都必须选择RGB444完全输出。顺便确认了100k的色温差异确实是显示器白点漂移导致的，换显卡不需要更换icc。</span><br>
+<span>update2: 不同gamma mode（亮度色标）设置下的实际gamma曲线和对比度差异</span><br>
+<span>因为前面测试时，发现LG菜单内的gamma曲线设置在修改后存在一些奇怪的现象，这边做了一些验证，做验证时显示器已重新较准。所以设置会与前面的有少许差异。</span><br>
+<span>测试设计：依次选择4个gamma-mode设置，每次针对当前gamma-mode在保证RGB三通道增益尽量接近50的情况下把白点尽量调成D65，亮度统一设置为160cd/m^2。调整完成后在displaycal中使用模拟sRGB色域跑验证测试的的方式，验证当前设置下的gamma值与sRGB色域的gamma值之间的差异，和查看实际的对比度。</span><br>
+<span>玩家1模式，gamma-mode设置为1，对比度默认，亮度29 R50G47B48：</span><br>
+<span>玩家1模式，gamma-mode设置为2，对比度默认，亮度34 R49G50B45：</span><br>
+<span>玩家1模式，gamma-mode设置为3，对比度默认，亮度30 R50G47B48（此模式下白点无法精确调至6500K）：</span><br>
+<span>玩家1模式，gamma-mode设置为4，对比度默认，亮度31 R49G46B48：</span><br>
+<span>可以看到，gamma-mode 1比较贴合sRGB色域的gamma曲线，gamma-mode 3 和 gamma-mode 4 则是在保持sRGB色域的gamma曲线走向的同时，尽量向gamma2.6和gamma2.4绝对曲线靠拢。</span><br>
+<span>而gamma-mode 2似乎是LG想通过压低白场的绿色通道增益，从而把原生gamma改成gamma2.2绝对曲线的产物，但是实际效果感人，而且还导致了对比度明显降低的副作用。不过因为光谱计会有黑场温漂，相同参数两次不同时间设置黑场有可能会差0.1cd/m^2，所以实际对比度差异或许没有这么大。</span><br>
+<span>不过就算是贴合sRGB gamma曲线的gamma-mode 1，其暗部（5%以下）的gamma值也要比标准值来得更高，出厂默认的gamma-mode 2就更不用说了。</span><br>
+<span>这里借用一下CHH那边猫大在这贴里面S2718D的gamma曲线图</span><br>
+<img src="https://static.chiphell.com/forum/201907/11/130628enzugnupgngv1ogw.png" title="https://static.chiphell.com/forum/201907/11/130628enzugnupgngv1ogw.png"><br>
+<span>这直接导致了27gl850在和上图这种暗部gamma值更低的机器对比时，在没有加载校正文件的时候，显示现在sRGB资源为基础的一大票对比度测试图暗部会更难分辨。</span><br>
+<span>27gl850在选择gamma-mode 1没有加载校正文件时的灰阶表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，禁用显卡较准gamma曲线，不加载icc profile）</span><br>
+<span>加载icc时正确映射暗场灰阶时的表现：（显示器设置：玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，启用显卡较准gamma曲线，加载icc profile）</span><br>
+<img src="https://img.saraba1st.com/forum/202006/03/235036df3ymuu3m3cfbf0c.jpg" title="https://img.saraba1st.com/forum/202006/03/235036df3ymuu3m3cfbf0c.jpg"><br>
+<span>update3: 最大化对比度的校色设置建议 以及 “黑色稳定器”设置项的影响</span><br>
+<span>因为总觉得osd里面的RGB三色增益调整精度不太高，上周日找了一下进工厂模式的方法，尝试以调整工厂模式里面的6500K色温下的RGB增益值，再在OSD中选择自定义色温到6500的方式来调整白点，结果发现对比度又提高了。</span><br>
+<span>为了验证这个不是因为温飘和测量位置造成的差异，多做了几次测试。</span><br>
+<span>对比度提高的根本原因其实就是因为工厂模式下的RGB调节精确度更高，绿色通道可以衰减更少，在保证白点准确的同时，相同cd/m^2下的亮度设置可以比使用用osd调整再降低1格。</span><br>
+<span>校正后多次测量的对比度误差基本确定是由测量点位置的选取引起的，上图中图选的是实测的最大最小值和一个稍微偏高的典型值，实际会更偏向集中在880~900之间。</span><br>
+<span>顺便试了一下所谓的黑色稳定器：</span><br>
+<span>没事最好别动这个</span><br>
+</p><p><b>muderx: </b><br>
+<span>5000以下，有没有比这个明显高一档的游戏显示器？</span><br>
+</p><p><b>waldo: </b><br>
+<span>muderx 发表于 2020-6-3 23:58</span><br>
+<span>5000以下，有没有比这个明显高一档的游戏显示器？</span><br>
+<span>如果硬G-sync能算高一档的话，那就硬G-sync那几个。</span><br>
+<span>如果不算，那除非微星能出个PAG272QR2的完美版，要不暂时没有。</span><br>
+<span>个人见解</span><br>
+</p><p><b>muderx: </b><br>
+<span>waldo 发表于 2020-6-4 00:01</span><br>
+<span>如果硬G-sync能算高一档的话，那就硬G-sync那几个。</span><br>
+<span>如果不算，那除非微星能出个PAG272QR2的完美版，要不 ...</span><br>
+<span>ASUS XG279Q也比这个强不了多少吧？</span><br>
+</p><p><b>waldo: </b><br>
+<span>muderx 发表于 2020-6-4 00:13</span><br>
+<span>ASUS XG279Q也比这个强不了多少吧？</span><br>
+<span>没用过，我暂时也没看见多少评测，不好说</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>这显示器dp1.2就可以2k 144 10bit了，无需1.4</span><br>
+<span>hdmi的话，我记得看说明书是有限制的</span><br>
+<span>很好奇楼主是啥显卡？随便一个dp口就可以满血啊</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-4 01:07</span><br>
+<span>这显示器dp1.2就可以2k 144 10bit了，无需1.4</span><br>
+<span>hdmi的话，我记得看说明书是有限制的</span><br>
+<span>老黄的kepler，过几天塞块polaris上去播片专用</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>waldo 发表于 2020-6-4 01:09</span><br>
+<span>老黄的kepler，过几天塞块polaris上去播片专用</span><br>
+<span>公司电脑之前也是因为显卡没dp口，后来</span><br>
+<span>泥潭垃圾群200元的rx550还挺好用的，不开madvr的话</span><br>
+<span>话说，这显示器的屏幕色温均匀度撞rp，19年那台几乎完美，20年那台就差了，上冷下暖，不过真用起来，也感觉不到</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>百合豚: </b><br>
+<span>前几天都支付了想想还是退了，请问这对比度影响日常使用吗？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>pepase: </b><br>
+<span>所以现在比较推荐的2k 144hz 27’’的显示器有哪些呢</span><br>
+</p><p><b>稻高一尺: </b><br>
+<span>waldo 发表于 2020-6-4 00:01</span><br>
+<span>如果硬G-sync能算高一档的话，那就硬G-sync那几个。</span><br>
+<span>如果不算，那除非微星能出个PAG272QR2的完美版，要不 ...</span><br>
+<span>三星的量子点va怎么样？不玩fps所以对拖影没有要求，但希望屏幕鲜艳亮丽。</span><br>
+</p><p><b>RandomCurvature: </b><br>
+<span>前段时间到的GL850侧边泛红很明显，超级不爽，甚至想因为这个退掉，但是购买时商家的确认收货红包是通过淘宝退款退运费的方式发放的，商品就没有二次退款的选项了，而且查了不少帖子，貌似现在的显示器也就做成这样，想想算了。</span><br>
+<span>以及发现一个非常神奇的问题，USB扩展我接了鼠标键盘，结果用蓝牙耳机的时候时不时会断连，我还检查了很久到底是什么原因，甚至把键盘送修，结果换了键盘才发现是扩展口的问题，并且只有在我用蓝牙耳机的时候会出现·····</span><br>
+</p><p><b>waldo: </b><br>
+<span>百合豚 发表于 2020-6-4 01:39</span><br>
+<span>前几天都支付了想想还是退了，请问这对比度影响日常使用吗？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android ...</span><br>
+<span>对比度低其实就是黑场亮度过高，具体就是纯黑画面的时候感觉不够黑，会发灰，如果和对比度高的机器放在一起对比，那应该是一眼就能看出来这点。</span><br>
+<span>但要说能不能影响日常使用，那看顶楼那两个灰阶图就好，屏摄时对应的显示器设置是玩家1模式，gamma-mode设置为1，对比度默认，亮度31，自定义R49G46B49，加载对应的校准icc profile。</span><br>
+<span>另外就我测过的这两台显示器来说，在使用距离比较近的时候(0.3m)，斜向45度观看时（例如双眼中点正对屏幕中心同时观看屏幕的四个角），屏幕发白造成的对比度下降对实际观感的影响比这个原生对比度的影响要更严重。这方面的表现，这两台显示器都要比我原来在用的U2410要差，所以有条件建议还是看看实机。</span><br>
+</p><p><b>waldo: </b><br>
+<span>pepase 发表于 2020-6-4 07:06</span><br>
+<span>所以现在比较推荐的2k 144hz 27’’的显示器有哪些呢</span><br>
+<span>每个人的需求都不一样，这个真不好说。</span><br>
+<span>国内的评测普遍一塌糊涂，很多测试连测试机器的设置都不给，毫无参考价值。国外的测得最多的基本也就顶楼这台。只针对新的这批nano-ips和6.6面板的话还看到过XG270QG的测试，感觉还行。</span><br>
+<span>不推荐的倒是有，只能说没有欧皇的命就别买微星PAG272QR2。</span><br>
+</p><p><b>waldo: </b><br>
+<span>稻高一尺 发表于 2020-6-4 07:52</span><br>
+<span>三星的量子点va怎么样？不玩fps所以对拖影没有要求，但希望屏幕鲜艳亮丽。 ...</span><br>
+<span>这个需求建议去找原生色域足够广的，还有翻一下jd的显示器屏摄，看看黑场白场均匀度做得比较好的就可以了。</span><br>
+<span>要不看看明基那些摄影后期专用的？</span><br>
+</p><p><b>百合豚: </b><br>
+<span>waldo 发表于 2020-06-04 09:36:50</span><br>
+<span>对比度低其实就是黑场亮度过高，具体就是纯黑画面的时候感觉不够黑，会发灰，如果和对比度高的机器放在一 ...我现在还是纠结于这款和这价位的2k va带鱼屏，看rtings上三星va面板实际延迟好像做到5以下了，不知道现在的va面板实际延迟怎么样，然后就是拖影问题，如果我玩Valorant这种比较明亮风格的游戏是不是就能一定程度抵消拖影问题呢？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>百合豚 发表于 2020-6-4 11:30</span><br>
+<span>我现在还是纠结于这款和这价位的2k va带鱼屏，看rtings上三星va面板实际延迟好像做到5以下了，不知道现在的 ...</span><br>
+<span>延迟测试,tft的可读性更强,rtings老就给个平均值,详细的,你得去看它给的图</span><br>
+<span>tft就实在多了,各种灰阶的变化所需时间都给出了数据,并且讲的话也不像rtings那样恰饭</span><br>
+<span>宣称4ms G2G的VA</span><br>
+<span>https://www.tftcentral.co.uk/reviews/samsung_c27rg50.htm</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfg4ypo9fcj20qm0s0mzu.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfg4ypo9fcj20qm0s0mzu.jpg"><br>
+<span>宣称3ms G2G的VA</span><br>
+<span>https://www.tftcentral.co.uk/reviews/coolermaster_gm27-cf.htm</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfg509j5i6j20qn0zhgrp.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfg509j5i6j20qn0zhgrp.jpg"><br>
+</p><p><b>pepase: </b><br>
+<span>waldo 发表于 2020-6-4 09:56</span><br>
+<span>每个人的需求都不一样，这个真不好说。</span><br>
+<span>国内的评测普遍一塌糊涂，很多测试连测试机器的设置都不给，毫无 ...</span><br>
+<span>FPS用的话呢</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>muderx 发表于 2020-6-3 23:58</span><br>
+<span>5000以下，有没有比这个明显高一档的游戏显示器？</span><br>
+<span>xv273k，就是对显卡不友好</span><br>
+</p><p><b>百合豚: </b><br>
+<span>zmw_831110 发表于 2020-6-4 12:20</span><br>
+<span>延迟测试,tft的可读性更强,rtings老就给个平均值,详细的,你得去看它给的图</span><br>
+<span>tft就实在多了,各种灰阶的变化 ...</span><br>
+<span>所以说VA的实际延迟就是不行是吗，那我还是买850去了，折腾研究半天还不如一开始下的决心</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>百合豚 发表于 2020-6-4 12:26</span><br>
+<span>所以说VA的实际延迟就是不行是吗，那我还是买850去了，折腾研究半天还不如一开始下的决心 ...</span><br>
+<span>每个人需求都不太一样.</span><br>
+<span>自己看着舒服就好了</span><br>
+<span>其实nanoips给我最大的受益还是B站的弹幕....这个应该是最明显的.</span><br>
+<span>其他的,我觉得人沉浸进去后,影响不会非常大</span><br>
+</p><p><b>百合豚: </b><br>
+<span>zmw_831110 发表于 2020-6-4 12:33</span><br>
+<span>每个人需求都不太一样.</span><br>
+<span>自己看着舒服就好了</span><br>
+<span>唉，主要是VA太便宜了，1999就能分24期买到2K带鱼，还有对比度优势，我还寻思着明亮游戏能救回拖影来着</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-4 12:20</span><br>
+<span>延迟测试,tft的可读性更强,rtings老就给个平均值,详细的,你得去看它给的图</span><br>
+<span>tft就实在多了,各种灰阶的变化 ...</span><br>
+<span>rting的图其实更多，测试的灰阶也更多，不过就是要自己点。</span><br>
+<span>国外很多隐形恰饭的，很多评测看的时候都要看明细自己判断，直接看结论很容易掉坑。</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>百合豚 发表于 2020-6-4 12:26</span><br>
+<span>所以说VA的实际延迟就是不行是吗，那我还是买850去了，折腾研究半天还不如一开始下的决心 ...</span><br>
+<span>三星又出了1ms GtG的VA，还没看见评测，可以等等tft</span><br>
+</p><p><b>waldo: </b><br>
+<span>pepase 发表于 2020-6-4 12:26</span><br>
+<span>FPS用的话呢</span><br>
+<span>我买这个显示器是为了解决24fps和30/60fps的素材同画面显示时的judder问题，还有smoth motion不可用时的judder问题，所以我最常用的刷新率是120hz。</span><br>
+<span>144以上对我来说无关紧要，我也不打FPS游戏，这方面我给不了太多建议。</span><br>
+</p><p><b>waldo: </b><br>
+<span>BallanceHZ 发表于 2020-6-4 12:26</span><br>
+<span>xv273k，就是对显卡不友好</span><br>
+<span>这是两年前出的那个双DP才能4k@120的嘛，双DP的确反人类。</span><br>
+<span>新出的dp1.4的那个我也看过，就是太贵了，下不了决心买。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>waldo 发表于 2020-6-4 13:02</span><br>
+<span>这是两年前出的那个双DP才能4k@120的嘛，双DP的确反人类。</span><br>
+<span>新出的dp1.4的那个我也看过，就是太贵了，下不 ...</span><br>
+<span>我看tft上讲4K 120Hz的话,单DP就可以了</span><br>
+<span>https://www.tftcentral.co.uk/reviews/acer_nitro_xv273k.htm</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfg7h1i6b7j20la09vt8z.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfg7h1i6b7j20la09vt8z.jpg"><br>
+</p><p><b>lxx4869: </b><br>
+<span>zmw_831110 发表于 2020-6-4 13:47</span><br>
+<span>我看tft上讲4K 120Hz的话,单DP就可以了</span><br>
+<span>https://www.tftcentral.co.uk/reviews/acer_nitro_xv273k.htm</span><br>
+<span>120hz只能8bit吧，10bit只能98hz</span><br>
+</p><p><b>defer: </b><br>
+<span>我个人是觉得yuv420的影响并没有那么大，带宽不够用我第一反应就是yuv420</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>突然想起来那种号称可以4K144Hz+10bit+HDR的线，是什么原理？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>defer 发表于 2020-6-4 15:03</span><br>
+<span>我个人是觉得yuv420的影响并没有那么大，带宽不够用我第一反应就是yuv420</span><br>
+<span>实际情况应该是对于8抖10的屏来说</span><br>
+<span>10bit改8bit,几乎不影响体验</span><br>
+<span>XV273K的评测里,正好有提到这部分</span><br>
+<span>https://www.tftcentral.co.uk/reviews/acer_nitro_xv273k.htm</span><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6ibug1j20qg07e75f.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6ibug1j20qg07e75f.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6inmi4j20ob0yi416.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6inmi4j20ob0yi416.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6l9vvaj20qh0lhha7.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6l9vvaj20qh0lhha7.jpg"><br>
+<img src="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6m0l6oj20qj0lj4mq.jpg" title="http://ww1.sinaimg.cn/large/46a42788gy1gfgb6m0l6oj20qj0lj4mq.jpg"><br>
+</p><p><b>cloudskate: </b><br>
+<span> 本帖最后由 cloudskate 于 2020-6-4 16:27 编辑 </span><br>
+<span>我买了磐石的VG27AQ，rtings给了最佳的那款。开hdr看网页会有白色拖影，hdr不能和ELMB同时开启</span><br>
+<span>跑了几个游戏发现基本没有能上165hz的。。。</span><br>
+<span>另外漏光下面这样算严重吗</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>cloudskate 发表于 2020-6-4 16:22</span><br>
+<span>我买了磐石的VG27AQ，rtings给了最佳的那款。开hdr看网页会有白色拖影，hdr不能和ELMB同时开启</span><br>
+<span>跑了几个游 ...</span><br>
+<span>边角glow，我之前用的pg279q也这样，离显示器近了看黑暗的场景边角挺难受的</span><br>
+</p><p><b>waldo: </b><br>
+<span>拥挤的屋顶 发表于 2020-6-4 15:16</span><br>
+<span>突然想起来那种号称可以4K144Hz+10bit+HDR的线，是什么原理？</span><br>
+<span>可以跑UHBR的dp2.0线吧？要么就是hdmi2.1</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-4 15:53</span><br>
+<span>实际情况应该是对于8抖10的屏来说</span><br>
+<span>10bit改8bit,几乎不影响体验</span><br>
+<span>XV273K的评测里,正好有提到这部分</span><br>
+<span>几年前有用U2410试过，全屏10bit独占模式+madVR dithering关闭稍差于8bit+madVR ordered dithering，刚才试了一把，在27gl850下这两个设置看起来差不多，说它没用也行</span><br>
+<span>不过有10bit不能开、要压缩才能开或者要接2条线才能开总是会不爽的</span><br>
+</p><p><b>waldo: </b><br>
+<span>cloudskate 发表于 2020-6-4 16:22</span><br>
+<span>我买了磐石的VG27AQ，rtings给了最佳的那款。开hdr看网页会有白色拖影，hdr不能和ELMB同时开启</span><br>
+<span>跑了几个游 ...</span><br>
+<span>就是前面提到的IPS祖传45度斜视下的发白问题，屏幕越大视距越近这个越厉害，无解。一般意义上的黑场漏光不是指这个。</span><br>
+<span>感觉这个问题在现在的显示器上要比当年CCFL时代的要更严重了。</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>waldo 发表于 2020-6-4 21:34</span><br>
+<span>可以跑UHBR的dp2.0线吧？要么就是hdmi2.1</span><br>
+<span>DP1.4的</span><br>
+</p><p><b>waldo: </b><br>
+<span>拥挤的屋顶 发表于 2020-6-4 22:11</span><br>
+<span>DP1.4的</span><br>
+<span>那就应该是用DSC跑出来的吧</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>waldo 发表于 2020-6-4 21:45</span><br>
+<span>就是前面提到的IPS祖传45度斜视下的发白问题，屏幕越大视距越近这个越厉害，无解。一般意义上的黑场漏光 ...</span><br>
+<span>补偿膜的补偿原理，是将各种显示模式下(TN/STN/TFT(VA/IPS/OCB))液晶在各视角产生的相位差做修正,简言之，即是让液晶分子的双折射性质得到对称性的补偿。若要从其功能目的来区分则可略为分单纯改变相位的相位差膜、色差补偿膜及视角扩大膜。补偿膜能降低液晶显示器暗态时的漏光量，并且在一定视角内能大幅提高影像之对比、色度与克服部分灰阶反转问题。</span><br>
+<span>有解的</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>waldo 发表于 2020-6-4 22:24</span><br>
+<span>那就应该是用DSC跑出来的吧</span><br>
+<span>问了一下,要驱动板支持DSC,这下成本就推高了</span><br>
+</p><p><b>waldo: </b><br>
+<span>lxx4869 发表于 2020-6-4 22:47</span><br>
+<span>补偿膜的补偿原理，是将各种显示模式下(TN/STN/TFT(VA/IPS/OCB))液晶在各视角产生的相位差做修正,简言之 ...</span><br>
+<span>如此说来，现在这些3k以下的屏应该是在这个的成本控制上面下功夫了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-6-4 22:59 编辑 </span><br>
+<span>waldo 发表于 2020-6-4 21:40</span><br>
+<span>几年前有用U2410试过，全屏10bit独占模式+madVR dithering关闭稍差于8bit+madVR ordered dithering，刚才 ...</span><br>
+<span>对了，你选的是rgb还是ycbcr</span><br>
+<span>ycbcr444在我A卡上黑色都算是灰色的了，看tft的解释，他们用作范例的就是ycbcr</span><br>
+<img src="https://p.sda1.dev/0/d6ef01c7a062b96801af52addd723f9a/IMG_BA1070CFA2F120E97E26469D68E67294.png" title="https://p.sda1.dev/0/d6ef01c7a062b96801af52addd723f9a/IMG_BA1070CFA2F120E97E26469D68E67294.png"><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span> 本帖最后由 waldo 于 2020-6-4 23:03 编辑 </span><br>
+<span>zmw_831110 发表于 2020-6-4 22:58</span><br>
+<span>对了，你选的是rgb还是ycbcr</span><br>
+<span>ycbcr444在我A卡上黑色都算是灰色的了，看tft的解释，他们用作范例的就是ycb ...</span><br>
+<span>今天换A卡了，现在是RGB444 10bit，我用的DP，没用HDMI</span><br>
+<span>我这边不管是kepler的RGB444@8bit还是polaris的RGB444@10bit都没出现灰屏的问题，用的都是DP</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-6-4 23:43 编辑 </span><br>
+<span>waldo 发表于 2020-6-4 23:00</span><br>
+<span>今天换A卡了，现在是RGB444 10bit，我用的DP，没用HDMI</span><br>
+<span>我这边不管是kepler的RGB444@8bit还是polaris的RGB ...</span><br>
+<span>不得不说，不玩游戏还是A卡颜色舒服，之前主板显卡插槽不好，拿intel集显测试，一下子感觉灰蒙蒙的，不通透，更古早以前用N卡，就感觉差了点味道，调数字振动，怎么调都到不了A卡那效果</span><br>
+<span>不过你有校色，不清楚是否可以解决这个问题</span><br>
+<span>换显卡后，又得重校了吧，成绩会有区别么</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-4 23:34</span><br>
+<span>不得不说，不玩游戏还是A卡颜色舒服，之前主板显卡插槽不好，拿intel集显测试，一下子感觉灰蒙蒙的，不通 ...</span><br>
+<span>暂时先用着吧，观感不会差很远的，</span><br>
+<span>周末再跑多一次对比一下，</span><br>
+</p><p><b>waldo: </b><br>
+<span>zmw_831110 发表于 2020-6-4 23:34</span><br>
+<span>不得不说，不玩游戏还是A卡颜色舒服，之前主板显卡插槽不好，拿intel集显测试，一下子感觉灰蒙蒙的，不通 ...</span><br>
+<span>你点的菜来了</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>我怎么觉着换显卡的差别还不如校色器换个屏幕位置测差别大</span><br>
+</p><p><b>waldo: </b><br>
+<span>lxx4869 发表于 2020-6-5 23:16</span><br>
+<span>我怎么觉着换显卡的差别还不如校色器换个屏幕位置测差别大</span><br>
+<span>其实就是这么回事</span><br>
+</p><p><b>allies: </b><br>
+<span>waldo 发表于 2020-6-5 22:25</span><br>
+<span>你点的菜来了</span><br>
+<span>可否试试HDMI线有没有区别？我看很多人说黄老板的驱动把HDMI显示器认电视，造成颜色有问题，改0-255也没用。</span><br>
+<span>253</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>再过几个月gn950系列就出了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1939469[0-50]</guid>
+    </item>
+  </channel>
+</rss>

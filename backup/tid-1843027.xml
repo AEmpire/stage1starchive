@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>泥潭程序员多。LEETCODE问题。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>泥潭程序员多。LEETCODE问题。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:25:11 +0000</lastBuildDate>
+    <item>
+      <title>泥潭程序员多。LEETCODE问题。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843027-1-1.html</link>
+      <description>泥潭程序员多。LEETCODE问题。&#13;
+ 本帖最后由 jason_gideon 于 2019-6-29 09:02 编辑 
+
+123. Best Time to Buy and Sell Stock III
+&#13;
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+&#13;
+class Solution:
+&#13;
+    def maxProfit(self, prices: List) -&gt; int:
+&#13;
+      buy1,buy2 = -sys.maxsize,-sys.maxsize
+&#13;
+      profit1,profit2 = 0,0
+&#13;
+      for price in prices:
+&#13;
+            buy1 = max(buy1, -price)
+&#13;
+            profit1 = max(profit1, buy1 + price)
+&#13;
+            buy2 = max(buy2, profit1 - price)
+&#13;
+            profit2 = max(profit2, buy2 + price)
+&#13;
+      return profit2
+&#13;
+请问以上这个解法，是如何防止multiple transactions发生的？</description>
+      <content:encoded><![CDATA[<p><b>jason_gideon: </b><br>
+<span>泥潭程序员多。LEETCODE问题。</span><br>
+<span> 本帖最后由 jason_gideon 于 2019-6-29 09:02 编辑 </span><br>
+<span>123. Best Time to Buy and Sell Stock III</span><br>
+<span>https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/</span><br>
+<span>class Solution:</span><br>
+<span>    def maxProfit(self, prices: List) -> int:</span><br>
+<span>      buy1,buy2 = -sys.maxsize,-sys.maxsize</span><br>
+<span>      profit1,profit2 = 0,0</span><br>
+<span>      for price in prices:</span><br>
+<span>            buy1 = max(buy1, -price)</span><br>
+<span>            profit1 = max(profit1, buy1 + price)</span><br>
+<span>            buy2 = max(buy2, profit1 - price)</span><br>
+<span>            profit2 = max(profit2, buy2 + price)</span><br>
+<span>      return profit2</span><br>
+<span>请问以上这个解法，是如何防止multiple transactions发生的？</span><br>
+</p><p><b>riczxc: </b><br>
+<span>https://www.youtube.com/watch?v=8pVhUpF1INw</span><br>
+<span>dp的题目看看花花的合集吧：</span><br>
+<span>https://www.youtube.com/watch?v=3mY5W0yojtA</span><br>
+<span>https://www.youtube.com/watch?v=eLlZEYzZVyQ</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span> 本帖最后由 jason_gideon 于 2019-6-29 09:03 编辑 </span><br>
+<span>riczxc 发表于 2019-6-29 08:57</span><br>
+<span>https://www.youtube.com/watch?v=8pVhUpF1INw</span><br>
+<span>dp的题目看看花花的合集吧：</span><br>
+<span>这道题，DP我知道也明白怎么做。而且你贴的第一个链接是这题的简单版。。</span><br>
+<span>但是我贴出来的这个解法。我没有明白。</span><br>
+</p><p><b>Hieda: </b><br>
+<span>每次buy2更新发生在使用的profit1更新之后，无论是不是当前这个iteration</span><br>
+</p><p><b>Tuxr: </b><br>
+<span>这个solution里 (b1 = buy1, p1 = profit1, b2 = buy2, p2 = profit2)</span><br>
+<span>b1=截止当前最低可买入价格</span><br>
+<span>p1=截至当前如果只进行1个transaction，可以获得的最大profit</span><br>
+<span>b2=截至目前进行第二次买入时的最大profit，也就是第一次transaction的profit减去第二次买入的价格；如果当前的比较小那就是在这之前进行第二次买入</span><br>
+<span>p2=截止当前两次transaction的最大profit</span><br>
+<span>可以拿这个例子试一试，看看为什么不是buy，sell，buy，sell，buy，sell</span><br>
+</p><p><b>jason_gideon: </b><br>
+<span>Tuxr 发表于 2019-6-29 10:12</span><br>
+<span>这个solution里 (b1 = buy1, p1 = profit1, b2 = buy2, p2 = profit2)</span><br>
+<span>b1=截止当前最低可买入价格</span><br>
+<span>p1=截至 ...</span><br>
+<span>是不是第二次更新的BUY1可以作为second transaction? 第一次更新的BUY2作为first transaction?</span><br>
+</p><p><b>Tuxr: </b><br>
+<span>jason_gideon 发表于 2019-6-29 18:14</span><br>
+<span>是不是第二次更新的BUY1可以作为second transaction? 第一次更新的BUY2作为first transaction? ...</span><br>
+<span>你是说第二个iteration的buy1？我理解的是不管哪个iteration，buy1都不会是2nd tranx。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843027[0-50]</guid>
+    </item>
+  </channel>
+</rss>

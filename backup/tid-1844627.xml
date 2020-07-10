@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python的交叉引用太搞了吧</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python的交叉引用太搞了吧</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:14:45 +0000</lastBuildDate>
+    <item>
+      <title>python的交叉引用太搞了吧[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844627-1-1.html</link>
+      <description>python的交叉引用太搞了吧&#13;
+# foo1.py
+&#13;
+from foo2 import Foo2
+&#13;
+class Foo1(Foo2):
+&#13;
+    foo1 = ""
+&#13;
+# foo2.py
+&#13;
+class Foo2():
+&#13;
+    foo2 = ""
+&#13;
+def test():
+&#13;
+    from foo1 import Foo1
+&#13;
+    a = Foo1()
+&#13;
+    print(isinstance(a, Foo2))
+&#13;
+if __name__ == '__main__':
+&#13;
+    test()
+&#13;
+结果居然是False，求大佬给个解释</description>
+      <content:encoded><![CDATA[<p><b>真田丸: </b><br>
+<span>python的交叉引用太搞了吧</span><br>
+<span># foo1.py</span><br>
+<span>from foo2 import Foo2</span><br>
+<span>class Foo1(Foo2):</span><br>
+<span>    foo1 = ""</span><br>
+<span># foo2.py</span><br>
+<span>class Foo2():</span><br>
+<span>    foo2 = ""</span><br>
+<span>def test():</span><br>
+<span>    from foo1 import Foo1</span><br>
+<span>    a = Foo1()</span><br>
+<span>    print(isinstance(a, Foo2))</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    test()</span><br>
+<span>结果居然是False，求大佬给个解释</span><br>
+</p><p><b>blueshift: </b><br>
+<span> 本帖最后由 blueshift 于 2019-7-6 02:04 编辑 </span><br>
+<span>在foo2内运行的type(a)命令应该会返回"foo1.Foo1"，在python看来，foo1.Foo1和Foo1是两个class object，它并不在乎这两个object实际上是不是同一个文件。这应该也是isinstance的结果不如你预料的原因。如果两个class都在一个文件里，就不牵扯到import导致的namespace变化，你的isinstance会返回true。</span><br>
+<span>但是好好写两边__init__（尤其是subclass里的super().__init__()）和self.xxx属性的话你会发现这时a看起来像是一只狗(可以访问属于Foo1的属性)，也能像狗一样叫（可以使用Foo1的方法），那我觉得它就是一只狗，实务上使用是没问题的。</span><br>
+</p><p><b>starrlit: </b><br>
+<span>test 函数如果不在 foo2.py 里执行的话结果是对的，真的好奇怪哦</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>blueshift: </b><br>
+<span>顺带帮你找了一个issue page：https://bugs.python.org/issue1249615</span><br>
+</p><p><b>Einbert: </b><br>
+<span> 本帖最后由 Einbert 于 2019-7-6 02:22 编辑 </span><br>
+<span>插两个 print 就很容易看出来了</span><br>
+<span># foo2.py</span><br>
+<span>class Foo2():</span><br>
+<span>    foo2 = ""</span><br>
+<span>def test():</span><br>
+<span>    from foo1 import Foo1</span><br>
+<span>    a = Foo1()</span><br>
+<span>    print(Foo2) # <class '__main__.Foo2'></span><br>
+<span>    print(a.__class__.__bases__) # (<class 'foo2.Foo2'>,)</span><br>
+<span>    print(isinstance(a, Foo2))</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    test()</span><br>
+<span>python foo2.py 的时候，Foo2 实际上是 __main__.Foo2，a 是 foo1.Foo1，继承 foo2.Foo2</span><br>
+<span>简单来说，foo2.py 被载入了两次，第一次作为 __main__ 包，第二次作为 foo2 包</span><br>
+<span>顺便吐槽一下这个编辑器，加一个文件名注释在前面结果把我之前编辑的代码内容都清空了，只能退回纯文本模式重新编辑  </span><br>
+</p><p><b>アーシェス: </b><br>
+<span>看来不能把入口同时当库用</span><br>
+</p><p><b>清十狼: </b><br>
+<span>说到底，原则上不是本来就该避免互相引用吗</span><br>
+</p><p><b>一个好名字: </b><br>
+<span>所以解决方案是：派生类和基类最好定义在一个文件里？</span><br>
+</p><p><b>mkx: </b><br>
+<span>一个好名字 发表于 2019-7-6 02:54</span><br>
+<span>所以解决方案是：派生类和基类最好定义在一个文件里？</span><br>
+<span>是不要把入口文件当引用的包</span><br>
+<span>实际开发中我是没见过把入口文件import到其它文件的。。。</span><br>
+</p><p><b>sayano: </b><br>
+<span>为啥要交叉引用 会死人的</span><br>
+</p><p><b>hguawolo: </b><br>
+<span>打开 jupyter notebook 把 import 的变量打印出来看看呗</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>真田丸: </b><br>
+<span> 本帖最后由 真田丸 于 2019-7-7 11:52 编辑 </span><br>
+<span>blueshift 发表于 2019-7-6 01:44</span><br>
+<span>在foo2内运行的type(a)命令应该会返回"foo1.Foo1"，在python看来，foo1.Foo1和Foo1是两个class object，它 ...</span><br>
+<span>我明白了，这就是懒癌的锅吧。</span><br>
+<span>实际使用没问题，但就是在检测类型时有问题啊，isinstance直接报错，这python编译器实在太懒了，只看namespace异同，而且只追溯到import那一层是闹哪样，不是应该递归着追溯到最顶端的引用吗。</span><br>
+<span>我找到了一个比较（一点也不）简单的解决方法，就是把foo2.py改为以下：</span><br>
+<span># foo2.py</span><br>
+<span>class Foo2():</span><br>
+<span>    foo2 = ""</span><br>
+<span>def test():</span><br>
+<span>    from foo1 import Foo1, Foo2</span><br>
+<span>    a = Foo1()</span><br>
+<span>    print(isinstance(a, Foo2))</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    test()</span><br>
+<span>这样检测就通过了，我也是醉了，这一点也不Pythonic，而且为什么这样能通过检测我也还是没想明白。</span><br>
+</p><p><b>真田丸: </b><br>
+<span> 本帖最后由 真田丸 于 2019-7-7 11:40 编辑 </span><br>
+<span>清十狼 发表于 2019-7-6 02:54</span><br>
+<span>说到底，原则上不是本来就该避免互相引用吗</span><br>
+<span>原则上，但实际使用中不可能避免吧。原则上，这编译器就不应该这样构造继承链</span><br>
+</p><p><b>真田丸: </b><br>
+<span>mkx 发表于 2019-7-6 07:29</span><br>
+<span>是不要把入口文件当引用的包</span><br>
+<span>实际开发中我是没见过把入口文件import到其它文件的。。。 ...</span><br>
+<span>你意思是比如我构造一个Vector类，一个继承自Vector的Direction类，但Vector的方法里又要使用到Direction，是需要我再单独写个geometry.py引用这两个vector.py和direction.py做入口文件吗？</span><br>
+</p><p><b>starrlit: </b><br>
+<span> 本帖最后由 starrlit 于 2019-7-7 12:19 编辑 </span><br>
+<span>真田丸 发表于 2019-7-7 11:37</span><br>
+<span>我明白了，这就是懒癌的锅吧。</span><br>
+<span>实际使用没问题，但就是在检测类型时有问题啊，isinstance直接报错，这pyt ...</span><br>
+<span>就跟 5 楼说的一样，你在执行 python foo2.py 的时候，foo2.py 被载入两次，第一次是执行的时候作为 __main__ 包，第二次是在 import foo1 的时候根据一般的加载规则作为 foo2 包。你可以在 foo2.py 顶层放个 print 验证这一点。还可以在 foo1.py 和 foo2.py 的import 语句前后打印 sys.modules 来查看。</span><br>
+<span>你在 test 里 import 的 Foo2 是 foo2.Foo2, 把外面的 __main__.Foo2 覆盖掉了，所以可以通过检查。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>真田丸: </b><br>
+<span>starrlit 发表于 2019-7-7 12:15</span><br>
+<span>就跟 5 楼说的一样，你在执行 python foo2.py 的时候，foo2.py 被载入两次，第一次是执行的时候作为 __mai ...</span><br>
+<span>你说的没错，但我不明白为什么import进来的Foo2成了foo2.Foo2，为什么不是foo1.Foo2？明明是从foo1里import进来的啊。</span><br>
+<span>比如test里实例a的类型打印出来就是foo1.Foo1，而如果在test()内部再创建个Foo2的实例就成了foo2.Foo2类型：</span><br>
+<span>b = Foo2()</span><br>
+<span>print(type(b))</span><br>
+<span>>></span><br>
+<span><class 'foo2.Foo2'></span><br>
+<span>make no sense</span><br>
+</p><p><b>starrlit: </b><br>
+<span>真田丸 发表于 2019-7-7 12:37</span><br>
+<span>你说的没错，但我不明白为什么import进来的Foo2成了foo2.Foo2，为什么不是foo1.Foo2？明明是从foo1里impor ...</span><br>
+<span>这个是每个类的 __module__ 属性，在类被定义的时候由解释器赋值。由于 foo2.py 被加载了两次，因此 Foo2 也被定义了两次。</span><br>
+</p><p><b>starrlit: </b><br>
+<span>我觉得本来就不应该在父类的方法里涉及具体的子类，你用交叉引用就是设计有问题，你可以去看看其他的数学库是怎么设计的嘛。话说一般 vector 不就加法和数乘嘛，direction 完全可以用一个 unit vector 表示啊。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844627[0-50]</guid>
+    </item>
+  </channel>
+</rss>

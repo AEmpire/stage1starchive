@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>局域网内建立的Meidawiki站点响应很奇怪....</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>局域网内建立的Meidawiki站点响应很奇怪....</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:32:41 +0000</lastBuildDate>
+    <item>
+      <title>局域网内建立的Meidawiki站点响应很奇怪....[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918369-1-1.html</link>
+      <description>局域网内建立的Meidawiki站点响应很奇怪....&#13;
+ 本帖最后由 冰箱研会长 于 2020-3-12 09:22 编辑 
+
+如题
+&#13;
+很久之前为了写CUDA买了英伟达出的Jetson nano, 后来导师给配了一高配电脑, Jetson nano就吃灰了.
+&#13;
+大概一个月之前左右吧, 我在家里的老机箱里面翻出来一块1T硬盘, 于是给Jetson装了Aria2, AriaNG, Apache, PHP 等等, 24小时下载做种.
+&#13;
+一周之前, 我写了几个萌娘wiki得条目, 感觉自己平常学习的各学科, 也可以通过写wiki的方式加以整理.
+&#13;
+于是在apache目录下面新建了一个
+&#13;
+$apache目录/wiki/ 用于存放 mediawiki 的 index 文件
+&#13;
+另在$apache目录/tiddly/ 下面放了一个轻量级的wiki (Tiddlywiki, 强烈推荐, 单一html组成的wiki, 便携性就是牛逼)
+&#13;
+我是习惯这样组织收藏网页的:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091340.png
+&#13;
+直接在收藏夹里面打开mediawiki的时候, 往往会这样:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312090625.png
+&#13;
+需要我重新再点击一遍 "mediawiki", 不然就会一直卡在这里.
+&#13;
+类似的情况在wiki站内也有出现:
+&#13;
+我打开一个条目的时候经常会这样一直在加载:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091649.png
+&#13;
+需要我刷新或者在地址栏敲击enter, 这样就能一瞬间载入页面:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091735.png
+&#13;
+-----
+&#13;
+我通过mobaxterm监视服务器, 也没有发现性能上吃紧的地方. 家里wifi可能烂一点, 但对Tiddlywiki的响应就很好(这个玩意每访问一次会把整个html发过来, 网络要求比meidawiki高吧).AriaNG也是秒开.
+&#13;
+想不明白为什么会这样.
+&#13;
+求帮分析一下可能原因.</description>
+      <content:encoded><![CDATA[<p><b>冰箱研会长: </b><br>
+<span>局域网内建立的Meidawiki站点响应很奇怪....</span><br>
+<span> 本帖最后由 冰箱研会长 于 2020-3-12 09:22 编辑 </span><br>
+<span>如题</span><br>
+<span>很久之前为了写CUDA买了英伟达出的Jetson nano, 后来导师给配了一高配电脑, Jetson nano就吃灰了.</span><br>
+<span>大概一个月之前左右吧, 我在家里的老机箱里面翻出来一块1T硬盘, 于是给Jetson装了Aria2, AriaNG, Apache, PHP 等等, 24小时下载做种.</span><br>
+<span>一周之前, 我写了几个萌娘wiki得条目, 感觉自己平常学习的各学科, 也可以通过写wiki的方式加以整理.</span><br>
+<span>于是在apache目录下面新建了一个</span><br>
+<span>$apache目录/wiki/ 用于存放 mediawiki 的 index 文件</span><br>
+<span>另在$apache目录/tiddly/ 下面放了一个轻量级的wiki (Tiddlywiki, 强烈推荐, 单一html组成的wiki, 便携性就是牛逼)</span><br>
+<span>我是习惯这样组织收藏网页的:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091340.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091340.png"><br>
+<span>直接在收藏夹里面打开mediawiki的时候, 往往会这样:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312090625.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312090625.png"><br>
+<span>需要我重新再点击一遍 "mediawiki", 不然就会一直卡在这里.</span><br>
+<span>类似的情况在wiki站内也有出现:</span><br>
+<span>我打开一个条目的时候经常会这样一直在加载:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091649.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091649.png"><br>
+<span>需要我刷新或者在地址栏敲击enter, 这样就能一瞬间载入页面:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091735.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312091735.png"><br>
+<span>-----</span><br>
+<span>我通过mobaxterm监视服务器, 也没有发现性能上吃紧的地方. 家里wifi可能烂一点, 但对Tiddlywiki的响应就很好(这个玩意每访问一次会把整个html发过来, 网络要求比meidawiki高吧).AriaNG也是秒开.</span><br>
+<span>想不明白为什么会这样.</span><br>
+<span>求帮分析一下可能原因.</span><br>
+</p><p><b>Benighted: </b><br>
+<span>用开发者工具看看网络请求，是不是需要调用什么外网的资源</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>Benighted 发表于 2020-3-12 11:13</span><br>
+<span>用开发者工具看看网络请求，是不是需要调用什么外网的资源</span><br>
+<span>好像没有向外网的网络请求, 我怀疑也许是firefox的问题, 我用EDGE试试.</span><br>
+<span>---更新---</span><br>
+<span>edge也一样...</span><br>
+</p><p><b>starrlit: </b><br>
+<span>看看 js console 有没有报错？</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>starrlit 发表于 2020-3-12 13:10</span><br>
+<span>看看 js console 有没有报错？</span><br>
+<span>发现了</span><br>
+<span>---控制台警告</span><br>
+<span>This page is using the deprecated ResourceLoader module "jquery.tabIndex".</span><br>
+<span>---控制台警告</span><br>
+<span>这个东西....</span><br>
+</p><p><b>starrlit: </b><br>
+<span>冰箱研会长 发表于 2020-3-12 13:17</span><br>
+<span>发现了</span><br>
+<span>---控制台警告</span><br>
+<span>This page is using the deprecated ResourceLoader module "jquery.tabIndex".</span><br>
+<span>更新一下 mediawiki 版本试试呗</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>警告的话感觉不会卡住，最好还是看看network里的连接什么情况</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> starrlit 发表于 2020-3-12 13:37 引用:冰箱研会长 发表于 2020-3-12 13:17 发现了 ---控制台警告 This page is using the deprecated ResourceLoader module "jquery.tabIndex". 更新一下 mediawiki 版本试试呗 </span><br>
+<span>latest build</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>seducer0719 发表于 2020-3-12 14:46</span><br>
+<span>警告的话感觉不会卡住，最好还是看看network里的连接什么情况</span><br>
+<span>卡顿的时候是这样的:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312151302.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/img/20200312151302.png"><br>
+</p><p><b>seducer0719: </b><br>
+<span>请求没响应回来…… 建议看看mediawiki的log……</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>看这帖之后去配置了一个tiddlywiki on nodejs，自动保存感觉还行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918369[0-50]</guid>
+    </item>
+  </channel>
+</rss>

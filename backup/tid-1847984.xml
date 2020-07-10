@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>登月源码开源 issue(议题)区被中国程序员“玩坏”了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>登月源码开源 issue(议题)区被中国程序员“玩坏”了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:53:33 +0000</lastBuildDate>
+    <item>
+      <title>登月源码开源 issue(议题)区被中国程序员“玩坏”了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847984-1-1.html</link>
+      <description>登月源码开源 issue(议题)区被中国程序员“玩坏”了&#13;
+登月源码开源 被中国程序员“玩坏”了
+&#13;
+0快科技   2019-07-20 09:00:43
+&#13;
+摘要：
+&#13;
+这几天适逢人类登月50周年，1969年的今天美国阿波罗11号飞船成功在月球着陆，正如首个登月的宇航员阿姆斯特朗所说——这是个人的一小步，但是人类的一大步。面对阿波罗11号登月50周年这个大热点，不少公司、组织、个人也从多个角度来纪念这一伟大的日子，NVIDIA发布了一段使用光线追踪技术渲染的登月Demo，不仅效果出色，还从光线渲染的角度证明了登月不是骗局。
+&#13;
+此外，虚拟AGC和麻省理工科学博物馆将阿波罗导航计算机(AGC)中的指令模块Comanche055、登月模块Luminary099的原始代码公布在了GitHub上，任何人均可自由查阅、编译。
+&#13;
+考虑到阿波罗工程的庞大及复杂，阿波罗11号的源代码开源更多地是象征意义，其他人或者组织也不可能根据这个源码搞自己的登月飞船。
+&#13;
+也许正是因为这样，阿波罗11号开源之后很快就有了许多issue（可以看做对源码的提问或者评论，虽然本质上不是这个作用），而且中文占了绝大多数，中文程序员们把阿波利11号源码issue当作了一个评论区。
+&#13;
+这些评论大多不是恶意的，主要是调侃、跟风、吐槽、灌水，但总的来说这些评论更多地是国内微博、贴吧的风格，完全看不出与阿波罗11号源码有什么关系。
+&#13;
+Github作为全球最主要的代码托管平台，一直被程序员自嘲为最大同**友社区，如今里面不严肃不正经的东西越来越多，这也是很多人对Github不满的地方。
+&#13;
+前两天还有国外的程序员发文表示Github上有太多中文项目，GitHub Trending几乎被被思中国人霸榜了，这些项目有的连注释都是中文的，国外程序员大部分看不懂，所以这事导致一些国外程序员很无奈。
+&#13;
+当然，这位小哥的文章态度OK，不是为了喷中文程序员，而是提出了Github上的一个管理问题，确实值得官方思考和改进。
+&#13;
+https://static.cnbetacdn.com/article/2019/0720/c332191c09f7b25.jpg
+&#13;
+https://static.cnbetacdn.com/article/2019/0720/b8a5a7247d217a6.jpg</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>登月源码开源 issue(议题)区被中国程序员“玩坏”了</span><br>
+<span>登月源码开源 被中国程序员“玩坏”了</span><br>
+<span>0快科技   2019-07-20 09:00:43</span><br>
+<span>摘要：</span><br>
+<span>这几天适逢人类登月50周年，1969年的今天美国阿波罗11号飞船成功在月球着陆，正如首个登月的宇航员阿姆斯特朗所说——这是个人的一小步，但是人类的一大步。面对阿波罗11号登月50周年这个大热点，不少公司、组织、个人也从多个角度来纪念这一伟大的日子，NVIDIA发布了一段使用光线追踪技术渲染的登月Demo，不仅效果出色，还从光线渲染的角度证明了登月不是骗局。</span><br>
+<span>此外，虚拟AGC和麻省理工科学博物馆将阿波罗导航计算机(AGC)中的指令模块Comanche055、登月模块Luminary099的原始代码公布在了GitHub上，任何人均可自由查阅、编译。</span><br>
+<span>考虑到阿波罗工程的庞大及复杂，阿波罗11号的源代码开源更多地是象征意义，其他人或者组织也不可能根据这个源码搞自己的登月飞船。</span><br>
+<span>也许正是因为这样，阿波罗11号开源之后很快就有了许多issue（可以看做对源码的提问或者评论，虽然本质上不是这个作用），而且中文占了绝大多数，中文程序员们把阿波利11号源码issue当作了一个评论区。</span><br>
+<span>这些评论大多不是恶意的，主要是调侃、跟风、吐槽、灌水，但总的来说这些评论更多地是国内微博、贴吧的风格，完全看不出与阿波罗11号源码有什么关系。</span><br>
+<span>Github作为全球最主要的代码托管平台，一直被程序员自嘲为最大同**友社区，如今里面不严肃不正经的东西越来越多，这也是很多人对Github不满的地方。</span><br>
+<span>前两天还有国外的程序员发文表示Github上有太多中文项目，GitHub Trending几乎被被思中国人霸榜了，这些项目有的连注释都是中文的，国外程序员大部分看不懂，所以这事导致一些国外程序员很无奈。</span><br>
+<span>当然，这位小哥的文章态度OK，不是为了喷中文程序员，而是提出了Github上的一个管理问题，确实值得官方思考和改进。</span><br>
+<img src="https://static.cnbetacdn.com/article/2019/0720/c332191c09f7b25.jpg" title="https://static.cnbetacdn.com/article/2019/0720/c332191c09f7b25.jpg"><br>
+<img src="https://static.cnbetacdn.com/article/2019/0720/b8a5a7247d217a6.jpg" title="https://static.cnbetacdn.com/article/2019/0720/b8a5a7247d217a6.jpg"><br>
+</p><p><b>thq: </b><br>
+<span>没有墙就这样啦</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>这还不是恶意？</span><br>
+</p><p><b>北卡厨王: </b><br>
+<span>issue不是用来搞这个的啊。。。</span><br>
+</p><p><b>redfea2: </b><br>
+<span>拿GitHub当贴吧玩被喷不是活该？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>dogfight: </b><br>
+<span>有病吧，这算到此一游？</span><br>
+</p><p><b>j5g27: </b><br>
+<span>issue里面一堆中文玩梗交友的看到就烦。这些人脑子有病吧，真的跟天灾军团一样</span><br>
+</p><p><b>71888675: </b><br>
+<span>人多了sb也就跟着多了。</span><br>
+<span>就跟公交车站总有几个sb插队一样。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>bl0ck: </b><br>
+<span>绝大部分问题都是靠closed issues解决的，甚至没事也得看看防雷，这种污染issue区的就是纯粹坏逼行为</span><br>
+</p><p><b>doki: </b><br>
+<span>微软上线两个懂中文的管理员直接封号呗</span><br>
+<span>按规矩来就完事了，</span><br>
+</p><p><b>εRemastered: </b><br>
+<span>github现在还不能删这些无帮助的issue吗</span><br>
+</p><p><b>双面人: </b><br>
+<span>redfea2 发表于 2019-7-20 11:14</span><br>
+<span>拿GitHub当贴吧玩被喷不是活该？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+<span>连热狗人都没有，算什么贴吧</span><br>
+</p><p><b>Zepp: </b><br>
+<span>所以说墙有一个好处就是避免sb出去丢人现眼</span><br>
+</p><p><b>metaphias: </b><br>
+<span>做这种事意义何在</span><br>
+</p><p><b>冰。莫: </b><br>
+<span>跟stackoverflow一样只准用英文就好啦</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>上次这样的“狂欢”是在deno还是996.icu上面来着</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Thermo: </b><br>
+<span>还有外国人捣乱你们没截，恨国媒体举报了</span><br>
+</p><p><b>final_wave: </b><br>
+<span>RAMDA 发表于 2019-7-20 11:45</span><br>
+<span>上次这样的“狂欢”是在deno还是996.icu上面来着</span><br>
+<span>一群傻逼在deno发“别再出新的了，学不动了”吧</span><br>
+<span>996icu本来就是国产项目</span><br>
+</p><p><b>the_ripples: </b><br>
+<span>很多是心性不成熟的大学生，跟他们在微博贴吧上的表现一样</span><br>
+</p><p><b>zzzqqqrrr: </b><br>
+<span>doki 发表于 2019-7-20 11:22</span><br>
+<span>微软上线两个懂中文的管理员直接封号呗</span><br>
+<span>按规矩来就完事了，</span><br>
+<span>上2个台巴子和民运加港独管理员？</span><br>
+</p><p><b>剑起苍斓: </b><br>
+<span>上次看有人创建个项目是收集中国互联网傻屌图片，好像还一堆人star，md真是服了这批人，传一堆面试资料就算了，传这玩意干啥</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lysh_233: </b><br>
+<span>zzzqqqrrr 发表于 2019-7-20 12:52</span><br>
+<span>上2个台巴子和民运加港独管理员？</span><br>
+<span>你跟微软有多大的仇？</span><br>
+</p><p><b>有点追求: </b><br>
+<span>按理应该是一代比一代素质高，看样子这代和他们玩的弱智表情包没两样</span><br>
+</p><p><b>julia黑: </b><br>
+<span>这是真的傻逼</span><br>
+</p><p><b>裏世界: </b><br>
+<span>GitHub trending 也挺烦的，一堆中文面试找工作资料大全</span><br>
+</p><p><b>RAMDA: </b><br>
+<span> 本帖最后由 RAMDA 于 2019-7-20 15:21 编辑 </span><br>
+<span>final_wave 发表于 2019-7-20 12:26</span><br>
+<span>一群傻逼在deno发“别再出新的了，学不动了”吧</span><br>
+<span>996icu本来就是国产项目</span><br>
+<span>我只说大量与项目本身无关的issue爆发的问题，与是不是国产项目无关</span><br>
+<span>甚至听说有人在简历里面写“Linux内核贡献者”，但实际上只是提了几个完全没有营养的isshe而已</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>明月闲窗: </b><br>
+<span>里面有几成是v2ex跟coolapk的傻逼？</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>颇有三哥棒子风范……</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>前两天还有国外的程序员发文表示Github上有太多中文项目，GitHub Trending几乎被被思中国人霸榜了，这些项目有的连注释都是中文的，国外程序员大部分看不懂，所以这事导致一些国外程序员很无奈。</span><br>
+</p><p><b>logiccat: </b><br>
+<span>metaphias 发表于 2019-7-20 11:36</span><br>
+<span>做这种事意义何在</span><br>
+<span>凑热闹啊，很多人不就喜欢这样吗……</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>すぴぱら 发表于 2019-7-20 15:26</span><br>
+<span>前两天还有国外的程序员发文表示Github上有太多中文项目，GitHub Trending几乎被被思中国人霸榜了，这些项 ...</span><br>
+<span>合着外国佬写的注释都是外语怎么不说</span><br>
+</p><p><b>大江户战士: </b><br>
+<span>这个项目公开一年了，几个营销号突然发现之后开始蹭登月周年热度</span><br>
+</p><p><b>绿茶与猫: </b><br>
+<span>禁止中文？</span><br>
+</p><p><b>Kokutou_: </b><br>
+<span>这事又不是第一次了</span><br>
+<span>之前 Ryan Dahl 开了deno的新坑，一堆炮灰码农不也跑到人家的issue里</span><br>
+<span>用中文发诸如“老子学不动了”之类的垃圾评论</span><br>
+<span>把整个issue区都灌满了</span><br>
+</p><p><b>真田丸: </b><br>
+<span>冰。莫 发表于 2019-7-20 11:42</span><br>
+<span>跟stackoverflow一样只准用英文就好啦</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>一帮巨魔换用拼音？</span><br>
+</p><p><b>Sza: </b><br>
+<span>github有论坛或者讨论的版块吗？对于这种没素质的用户堵不如疏吧……</span><br>
+</p><p><b>纸片有霞: </b><br>
+<span>这个有段时间里吧？之前在某个漫画里还看到过作者用了agc的编程语言，应该算致敬吧。</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>closed issue最后几页都是英文的灌水怎么不说</span><br>
+<span>大家都是垃圾 谁也别高看谁或者看不起谁</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zyhang: </b><br>
+<span>the_ripples 发表于 2019-7-20 12:48</span><br>
+<span>很多是心性不成熟的大学生，跟他们在微博贴吧上的表现一样</span><br>
+<span>不是学生。是傻逼切图仔工作不饱和</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847984[0-50]</guid>
+    </item>
+  </channel>
+</rss>

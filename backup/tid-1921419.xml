@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ps3的处理器到底有多坑</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ps3的处理器到底有多坑</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:02:12 +0000</lastBuildDate>
+    <item>
+      <title>ps3的处理器到底有多坑[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1921419-1-1.html</link>
+      <description>ps3的处理器到底有多坑&#13;
+vgtime最近几期电台聊新主机的时候又把ps3的cell拿出来鞭尸了，这处理当时据说宣传语是模拟地球？结果第一方也是后面才开始用利索，这得多坑啊。</description>
+      <content:encoded><![CDATA[<p><b>Standpronder: </b><br>
+<span>ps3的处理器到底有多坑</span><br>
+<span>vgtime最近几期电台聊新主机的时候又把ps3的cell拿出来鞭尸了，这处理当时据说宣传语是模拟地球？结果第一方也是后面才开始用利索，这得多坑啊。</span><br>
+</p><p><b>Zest: </b><br>
+<span>媒体没文化瞎翻译，原话是无数台PS3算力加起来可以超过当时11区最快的超级计算机地球模拟器，这是事实，当年PS3在Folding@home项目上贡献的算力超过所有PC，平均算力是PC的14倍</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>Narrative: </b><br>
+<span> 本帖最后由 Narrative 于 2020-3-29 06:37 编辑 </span><br>
+<span>这东西网上有一大堆的解析，B站就有一大堆视频。</span><br>
+<span>https://b23.tv/BV1wb411p7f9</span><br>
+<span>https://b23.tv/BV1kt411P7nF</span><br>
+<span>ps3上的那块cell是阉割版，初版成本功耗什么的太高了，不适合用在游戏机上。模拟地球也是传讹了，就像楼上说的一样，当初索尼吹的是多少块cell相当于NEC的那个超算“地球模拟器”。另外美国军队还真用过PS3组过超算。</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Zest: </b><br>
+<span>那几年世界第一的超算几乎都是IBM用CELL的型号，从蓝色基因到ROAD RUNNER，后来有了GPU加速才落后，CELL保持了5年第一已经很NB了</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>红左手: </b><br>
+<span>Zest 发表于 2020-3-29 06:50</span><br>
+<span>那几年世界第一的超算几乎都是IBM用CELL的型号，从蓝色基因到ROAD RUNNER，后来有了GPU加速才落后，CELL保 ...</span><br>
+<span>Roadrunner跑的是PowerXCell 8i，又不是PS3上面那块</span><br>
+</p><p><b>Zest: </b><br>
+<span>蓝色基因是CELL BE，也不是PS3那块啊</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>红左手: </b><br>
+<span>Cell的单精度浮点性能比当时的CPU确实有不少强化，但是如果算整数性能或者双精度性能并没有同等的优势，或者说未必有优势</span><br>
+<span>上面有人提到的Roadrunner上的PowerXCell 8i是双精度加强过的版本，和PS3上的不是一回事</span><br>
+<span>不太准确的说，Cell类似于一个单核 CPU+显卡的融合，看浮点数很漂亮但是跑起通用处理的任务就是另一回事，那几个SPE要发挥性能高度依赖于程序——必须是能够高度并行化的专门优化过的</span><br>
+</p><p><b>66666: </b><br>
+<span>中国超威超算构架跟CELL就很类似，讲道理SPE灵活性可远比当时的DX9.0C的shader强多了，PC显卡直到DX11才在功能性上达到CELL的程度</span><br>
+<span>所以当时美军拿来玩集群通用计算也无可厚非，只不过这种构架跑光栅化运算实在能效比太烂</span><br>
+</p><p><b>unbalanced: </b><br>
+<span>记得当年一个开发ps3游戏的同学给了我一段java程序问我为啥会crash，看了半天没看出问题，后来那哥们自己发现原来一用double变量就crash。</span><br>
+<span>看来cell的双精度浮点性能差到官方开发工具都屏蔽了</span><br>
+</p><p><b>66666: </b><br>
+<span>红左手 发表于 2020-3-29 07:46</span><br>
+<span>Cell的单精度浮点性能比当时的CPU确实有不少强化，但是如果算整数性能或者双精度性能并没有同等的优势，或 ...</span><br>
+<span>Cell的PPE是in order执行，整数性能比奔腾4还烂，1.2Ghz的Core m可以吊打3Ghz的CELL</span><br>
+</p><p><b>navarra: </b><br>
+<span>ps3那cell就是干啥啥不行的典型，本来ps3 gpu也想用cell，后面发现实在差的无法接受就紧急向黄老板定制了一个……</span><br>
+<span>—— 来自 samsung SM-G9650, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>leystage: </b><br>
+<span>因为模拟地球是传错了。当时应该是久多还是谁对媒体提了一句PS3的性能和日本一个叫地球模拟器的气象计算机性能相当，日文好像是地球simulator之类的。然后国内媒体也不会Google，就把PS3吹成可以模拟地球了… 然后就莫名被黑了十几年…</span><br>
+</p><p><b>leystage: </b><br>
+<span>等等，二楼就说了啊…只看主楼就回帖是我不好</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>同样的钱可以请两个大学教授写论文，也可以请一百个小学生擦地板。你请了一个泥潭985带八个牛国安中专生，你想擦地板还是写论文？</span><br>
+</p><p><b>zhangqq_010: </b><br>
+<span>navarra 发表于 2020-3-29 09:04</span><br>
+<span>ps3那cell就是干啥啥不行的典型，本来ps3 gpu也想用cell，后面发现实在差的无法接受就紧急向黄老板定制了一 ...</span><br>
+<span>然后就被老黄的刀法坑了</span><br>
+</p><p><b>笔仁SaSaSa: </b><br>
+<span>倒不是坑……主要是设计架构奇葩导致不够友好，再加上索尼被ps2惯坏了还以为自己有制定标准的能力不过确立了蓝光标准这件事上ps3确实功不可没。</span><br>
+<span>ps3最大的问题不是宣传欺诈吗</span><br>
+</p><p><b>yuanico: </b><br>
+<span>性能多坑都是当年的事情了，最坑的是tm到ps5都没法比较简单的模拟。ps3手柄都坏了，游戏彻底没法玩了。</span><br>
+</p><p><b>navarra: </b><br>
+<span> 本帖最后由 navarra 于 2020-3-30 10:58 编辑 </span><br>
+<span>笔仁SaSaSa 发表于 2020-3-29 14:57</span><br>
+<span>倒不是坑……主要是设计架构奇葩导致不够友好，再加上索尼被ps2惯坏了还以为自己有制定标准的能力不 ...</span><br>
+<span>蓝光标准能笑到最后主要是蓝光联盟里面各大厂商和影业给力，hddvd联盟有微软一份，但是连微软都不看好这玩意，只给xbox360加了个外置光驱配件.......</span><br>
+</p><p><b>syndrome2032: </b><br>
+<span>别说了。我怨念了多少年北斗无双没移植了。无双全家桶就剩他了。</span><br>
+<span>ps3这事上sony最成功的就是推bd。推成功了</span><br>
+</p><p><b>clover293: </b><br>
+<span>索尼自己都不会用的东西能不坑么</span><br>
+</p><p><b>lazior: </b><br>
+<span>Zest 发表于 2020-03-29 06:50:51</span><br>
+<span>那几年世界第一的超算几乎都是IBM用CELL的型号，从蓝色基因到ROAD RUNNER，后来有了GPU加速才落后，CELL保 ...roadrunner单个节点主cpu是amd双核Opteron……powerxcell是拿来当计算加速卡的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>RookieTnT: </b><br>
+<span>坑到索尼要临时找老黄定制GPU 导致售价高达499. </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1921419[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教华为自制os能否不得到谷歌允许就兼容安卓app?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教华为自制os能否不得到谷歌允许就兼容安卓app?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:26:49 +0000</lastBuildDate>
+    <item>
+      <title>请教华为自制os能否不得到谷歌允许就兼容安卓app?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832987-1-1.html</link>
+      <description>请教华为自制os能否不得到谷歌允许就兼容安卓app?&#13;
+如果可以国内手机市场还能保住吧</description>
+      <content:encoded><![CDATA[<p><b>chenluwolf: </b><br>
+<span>请教华为自制os能否不得到谷歌允许就兼容安卓app?</span><br>
+<span>如果可以国内手机市场还能保住吧</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>微软干过，跪了</span><br>
+</p><p><b>chenluwolf: </b><br>
+<span>アーシェス 发表于 2019-5-20 19:35</span><br>
+<span>微软干过，跪了</span><br>
+<span>微软被不作恶告了?</span><br>
+</p><p><b>MARCO.BLANCA: </b><br>
+<span>可以，只是不能使用谷歌的各项服务</span><br>
+</p><p><b>tillnight: </b><br>
+<span> 本帖最后由 tillnight 于 2019-5-20 19:43 编辑 </span><br>
+<span>可以。别问了。一天说过几百遍了。谷歌禁止安卓联盟厂商出类安卓系统，否则处罚方式是取消gms授权。原因就是aosp太容易让各家自己做类安卓导致分支过多安卓碎片化。现在既然没有gms，当然是随便做类安卓。</span><br>
+<span>再说一遍，魅族用过yunos，确实很辣鸡，但是大部分用户在装app时候没有太多问题，当年的魅蓝用户如果没有上网了解基本都不知道自己用的是假安卓。要不是mtk不给力说不定yunos还活下来了。你完全可以期待对安卓的理解不低于谷歌自己的华为做出的类安卓比yunos好一万倍。而由于魅族犯忌讳，所以至今没有谷歌授权，不过奇怪的是也一直能装谷歌框架。</span><br>
+<span>所以还是那句今天说了不知道多少遍的话，安卓不是win，系统不是问题，软件生态更不是问题。问题只有gms。</span><br>
+</p><p><b>神龙斗士: </b><br>
+<span>从来没人说华为国内市场有危险吧，都是在说海外市场可能要丢了</span><br>
+</p><p><b>zxlice: </b><br>
+<span>似乎芒果也干过，挂了</span><br>
+</p><p><b>帕蕾莉亚: </b><br>
+<span>借贴问问，之前不作恶还偷偷摸摸要回来国内市场，这么一搞是不是要彻底滚蛋了？</span><br>
+</p><p><b>zanber: </b><br>
+<span>帕蕾莉亚 发表于 2019-5-20 19:57</span><br>
+<span>借贴问问，之前不作恶还偷偷摸摸要回来国内市场，这么一搞是不是要彻底滚蛋了？ ...</span><br>
+<span>本来就回不来，无所谓了，就看什么时候广告和地图业务也被赶出去</span><br>
+</p><p><b>SGM: </b><br>
+<span>安卓本身是开源的，关键也就是GMS而已，谷歌不让你用，法律上你就不能用，但是技术上无法限制。华为真想玩，搞个包皮公司，专门提供已售机型的gms破解安装服务就行了，毕竟卖出去的手机属于个人财产，谷歌管不了。</span><br>
+</p><p><b>wzk3232: </b><br>
+<span>SGM 发表于 2019-5-20 22:49</span><br>
+<span>安卓本身是开源的，关键也就是GMS而已，谷歌不让你用，法律上你就不能用，但是技术上无法限制。华为真想玩 ...</span><br>
+<span>包皮公司</span><br>
+</p><p><b>假面骑士decade: </b><br>
+<span>wzk3232 发表于 2019-5-20 21:15</span><br>
+<span>包皮公司</span><br>
+<span>楼陡然一歪</span><br>
+</p><p><b>mimighost: </b><br>
+<span>兼容这个问题不大，毕竟大部分开源</span><br>
+<span>但是注意开发者是默认用Google的工具链，也就是不会假设gms缺失的。如果要去模拟gms那就比较棘手了，毕竟私有api，吃力不讨好。</span><br>
+</p><p><b>天知道: </b><br>
+<span>上面都是在说GMS；那工信部推的那个推送消息联盟是不是算是国内的GMS？</span><br>
+</p><p><b>itzpapalotl: </b><br>
+<span>tillnight 发表于 2019-5-20 19:39</span><br>
+<span>可以。别问了。一天说过几百遍了。谷歌禁止安卓联盟厂商出类安卓系统，否则处罚方式是取消gms授权。原因就 ...</span><br>
+<span>架不住谷歌穿小鞋</span><br>
+<span>过几天谷歌要求所有在play store上架的app必须过滤假安卓，否则不给上架，除了国内厂商有多少会跳反？当然如果能反向拖垮谷歌那当然是最好的了</span><br>
+</p><p><b>tillnight: </b><br>
+<span>天知道 发表于 2019-5-20 21:54</span><br>
+<span>上面都是在说GMS；那工信部推的那个推送消息联盟是不是算是国内的GMS？</span><br>
+<span>没有关系，目前离开gms的谷歌在国外大概相当于去掉Appstore的ios。而国内根本也不需要这个应用生态，国内什么都不影响。国内应用商城本来就是极度碎片化，国外会有很**烦，但其实也是双刃剑，时间久了对华为未必是坏事。而谷歌在国外没有竞品的谷歌地图应用国内数的上就有百度地图高德地图腾讯地图，其实海外谷歌地图问题真想解决感觉并没有技术上的阻碍。与合作伙伴针对核心市场（欧洲大陆）研发并逐步完善其实也不是不行。至于谷歌套件里的邮件应用，对国内无意义，国外则应该可以曲线救国。反倒是YouTube，国内自然不用说根本不在乎，但是在国外是必备应用，但是这个就不是研发软件就能解决的问题了。</span><br>
+</p><p><b>soulburner: </b><br>
+<span>以我的一知半解，谷歌把太多内容，包括基础功能做进闭源的gms里去，开源的aosp部分不去更新，就越来越只剩个骨架，可以说安卓已经不怎么开源了。而且很多第三方软件用gms开发的，你自己做一套类似gms的出来也运行不了用gms开发的软件，而你的软件也得不到多少用户。</span><br>
+</p><p><b>masakahaha: </b><br>
+<span>soulburner 发表于 2019-5-20 22:20</span><br>
+<span>以我的一知半解，谷歌把太多内容，包括基础功能做进闭源的gms里去，开源的aosp部分不去更新，就越来越只剩 ...</span><br>
+<span>未来的系统补丁安全也要通过Google play来更新，虽然方便了不少，但越来越像ios</span><br>
+<span>—— 来自 Xiaomi MI 5, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>w酱: </b><br>
+<span>soulburner 发表于 2019-5-20 22:20</span><br>
+<span> 以我的一知半解，谷歌把太多内容，包括基础功能做进闭源的gms里去，开源的aosp部分不去更新，就越来越只剩 ...</span><br>
+<span>哪些基础功能非要用gms？</span><br>
+<span>推送和支付反正也连不上国内都没人用</span><br>
+</p><p><b>帕凡: </b><br>
+<span>亚马逊fire平板不就这样，还假模假样拒绝一下从APKpure下载的程序</span><br>
+</p><p><b>mimighost: </b><br>
+<span>w酱 发表于 2019-5-20 22:32</span><br>
+<span>哪些基础功能非要用gms？</span><br>
+<span>推送和支付反正也连不上国内都没人用</span><br>
+<span>gms的几个王牌：Google Play/YouTube/Maps</span><br>
+<span>剩下的比较重要的几个：Chrome/Gmail/Photos</span><br>
+<span>这些其实都不好替代。Google Play首先就没法替代，内购氪金都默认走这个通道。国外的Apps和国内不一样，国内还有apk链接，国外世界Google Play的url了事。首先这个就是不可替代的地方了，它是标准。还有一个垄断的地方在于，大量应用开发者基于Google的广告平台获取用户，想要获得好的展示位置，接入Play是必需的，而Google的广告平台比搜索本身还要垄断。</span><br>
+<span>YouTube不说了，墙内人民最期盼的网站第一名，墙外唯一指定视频网站。</span><br>
+<span>Maps是国外应用默认集成的地图接口，没maps那些地图什么的全部失效。</span><br>
+<span>Chrome/Gmail/Photos这些，都不是没替代品，但是替代成本相当高。比如我现在的密码管理都走Chrome。Gmail是公司制定要用的，Photos因为免费是国外分享大量照片的最佳选项，用户都快7-8亿了。</span><br>
+<span>总结来说，西方市场，脱离Google生态还能获得市场竞争力的可能性基本不存在。亚马逊试过，也没成功，最后变成fire tv这些东西的嵌入式系统，本身没有生态。</span><br>
+</p><p><b>qhlixpfh: </b><br>
+<span>itzpapalotl 发表于 2019-5-20 21:56</span><br>
+<span>架不住谷歌穿小鞋</span><br>
+<span>过几天谷歌要求所有在play store上架的app必须过滤假安卓，否则不给上架，除了国内厂 ...</span><br>
+<span>play store上架的APP不都是特供版吗</span><br>
+<span>本来国内也没几个人用的</span><br>
+</p><p><b>cat1230: </b><br>
+<span>问题从来都是海外市场，偏偏华为手机海外市场还挺大，被搞一下非常非常难受啊，而且反制也困难。</span><br>
+</p><p><b>w酱: </b><br>
+<span>mimighost 发表于 2019-5-20 22:53</span><br>
+<span> gms的几个王牌：Google Play/YouTube/Maps 剩下的比较重要的几个：Chrome/Gmail/Photos</span><br>
+<span>可是gms的几大王牌在国内都是不存在，国内安卓开发根本都没人会去吃饱了引用gms的包，所以我在问什么基础功能是aosp做不到一定要gms的，你说的那些属于谷歌生态的应用，不是安卓系统的基础功能</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>tillnight 发表于 2019-5-20 19:39</span><br>
+<span>可以。别问了。一天说过几百遍了。谷歌禁止安卓联盟厂商出类安卓系统，否则处罚方式是取消gms授权。原因就 ...</span><br>
+<span>yunos 在超低端机里面一直活着。中国移动 自有品牌的超低端机至今还是YunOS.</span><br>
+</p><p><b>mimighost: </b><br>
+<span>w酱 发表于 2019-5-20 23:05</span><br>
+<span>可是gms的几大王牌在国内都是不存在，国内安卓开发根本都没人会去吃饱了引用gms的包，所以我在问什么基础 ...</span><br>
+<span>国内开发者开发国内的应用是这样的。然而国内也有相当多的开发者赚海外市场的钱。</span><br>
+<span>其他楼也说了，华为国内海外五五分，国内是基本盘，华为没了Google也能活，但是要是禁令短期内不解除，拖个一年半载，华为在海外会被市场给淘汰掉。看政府怎么和川皇讨价还价了。</span><br>
+</p><p><b>赤字大王: </b><br>
+<span>谷歌是软件，华为是硬件，其实非要说，谷歌得求着华为才对</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>没有gms 海外肯定混不下去的 国内没关系 本来就没有</span><br>
+</p><p><b>新账户: </b><br>
+<span>华为没请楼主去996真是瞎了眼</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>chenluwolf 发表于 2019-5-20 19:36</span><br>
+<span>微软被不作恶告了?</span><br>
+<span>安卓厂商交的专利费太多了，所以放弃了。</span><br>
+</p><p><b>chenluwolf: </b><br>
+<span>奇怪大家讨论的好好的，怎么冒出一条弱智美分狗阿</span><br>
+</p><p><b>itzpapalotl: </b><br>
+<span>qhlixpfh 发表于 2019-5-20 22:56</span><br>
+<span>play store上架的APP不都是特供版吗</span><br>
+<span>本来国内也没几个人用的</span><br>
+<span>本来就不是国内，国内几个用谷歌全家桶的？</span><br>
+<span>华为在海外，尤其是欧洲有很大市场的，要不mate x怎么会这么热。现在让白皮不用play store学习成本太高了。</span><br>
+</p><p><b>玄衣: </b><br>
+<span>中国市场是没问题的，但是这样搞华为可能要失去海外市场了</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>SGM 发表于 2019-5-20 04:49</span><br>
+<span>安卓本身是开源的，关键也就是GMS而已，谷歌不让你用，法律上你就不能用，但是技术上无法限制。华为真想玩 ...</span><br>
+<span>开源不代表就不受美国政府管控</span><br>
+<span>http://www.apache.org/licenses/exports/</span><br>
+</p><p><b>turnxxx: </b><br>
+<span>看来还好当时没让谷歌进来，现在这样就算谷歌嗷一声彻底禁止对国内手机公司授权，还是能有国内这个基本盘，13亿市场起码饿不死</span><br>
+</p><p><b>SEIREIEI: </b><br>
+<span>wzk3232 发表于 2019-5-20 21:15</span><br>
+<span>包皮公司</span><br>
+<span>—— 来自 HUAWEI VTR-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zuga: </b><br>
+<span>有个问题，现在是美国政府强制美国企业屏蔽华为，这个政策对美国企业本身是没有任何好处的对吧？那么Google只是发表声明不在官方层面支持华为产品，但是私下华为安装破解版Google桶，只要Google装死不去告华为，那就没问题？</span><br>
+</p><p><b>tillnight: </b><br>
+<span>zuga 发表于 2019-5-21 14:06</span><br>
+<span>有个问题，现在是美国政府强制美国企业屏蔽华为，这个政策对美国企业本身是没有任何好处的对吧？那么Google ...</span><br>
+<span>如果是微软大概率是这样。如果能解决因特尔cpu芯片问题，华为笔记本卖近带未激活的win10系统没什么问题（降价100刀补贴）。但是这是谷歌，情况不太一样。</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>其实如果往外面卖也不是不可能，就像当初我们国内买日本产的那些奇形怪状的手机一样。现在手机基本通讯功能都是通用的，都是全网通，旗舰级手机的频段基本上全覆盖，当初买小日本机器最大的通讯难关已经不存在了，条件比当初好很多。华为自己搞一套安卓系统就算没有gms，想办法装上去也不是不可能。问题是华为现在自己不让别人破解他的系统。</span><br>
+</p><p><b>ok041094: </b><br>
+<span>Google就是下一個apple, android就是下一個ios,也是時候出另一個新而且真正開源的os出來，否則永遠都在受壓之下</span><br>
+</p><p><b>一个再一个: </b><br>
+<span>zuga 发表于 2019-5-21 14:06</span><br>
+<span>有个问题，现在是美国政府强制美国企业屏蔽华为，这个政策对美国企业本身是没有任何好处的对吧？那么Google ...</span><br>
+<span>装死就不是不作恶了</span><br>
+</p><p><b>某浩: </b><br>
+<span>w酱 发表于 2019-5-20 23:05</span><br>
+<span>可是gms的几大王牌在国内都是不存在，国内安卓开发根本都没人会去吃饱了引用gms的包，所以我在问什么基础 ...</span><br>
+<span>国外的很多app默认使用gms的，facebook，twitter，CNN、BBC，outlook之类，你没有，连国外的软件都安装不了，你怎么卖出去</span><br>
+</p><p><b>hairen: </b><br>
+<span>这次不作恶首先跳出来的影响还真不好说, 今天在外网转了一圈, 普通人对不作恶的行为多是负面的评价, 美国人也不例外, 只不过多说几个借口, 都是政府强迫的blablabla, 欧洲那边则是一水的评论要有自主的os.</span><br>
+</p><p><b>h20020901: </b><br>
+<span>yunos</span><br>
+<span>—— 来自 Xiaomi Redmi 3, Android 7.1.2上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>d2loader: </b><br>
+<span>现在果然刷rom不流行了</span><br>
+<span>opengapps 了解一下， 法律上公司预装是不对</span><br>
+<span>用户自己刷机谷歌根本管不了</span><br>
+</p><p><b>sepit: </b><br>
+<span>d2loader 发表于 2019-5-21 20:23</span><br>
+<span>现在果然刷rom不流行了</span><br>
+<span>opengapps 了解一下， 法律上公司预装是不对</span><br>
+<span>只要华为现在开始不锁BL，总归有办法刷进去Google服务，或者其他支持的rom</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>娃哈哈123: </b><br>
+<span>d2loader 发表于 2019-5-21 20:23</span><br>
+<span>现在果然刷rom不流行了</span><br>
+<span>opengapps 了解一下， 法律上公司预装是不对</span><br>
+<span>华为不让刷机，现在刷机的确不流行了啊，不然一加怎么这么红火。。厂商卡得很死</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832987[0-50]</guid>
+    </item>
+  </channel>
+</rss>

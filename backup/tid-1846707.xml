@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>物联网系统是啥？和传统意义上的操作系统有什么区别？？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>物联网系统是啥？和传统意义上的操作系统有什么区别？？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:01:42 +0000</lastBuildDate>
+    <item>
+      <title>物联网系统是啥？和传统意义上的操作系统有什么区别？？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846707-1-1.html</link>
+      <description>物联网系统是啥？和传统意义上的操作系统有什么区别？？&#13;
+ 本帖最后由 staar 于 2019-7-14 21:06 编辑 
+&#13;
+之前把我忽悠蒙了的鸿蒙系统。说是物联网系统？？和操作系统有啥区别？个人终端不能用的？？？？？</description>
+      <content:encoded><![CDATA[<p><b>staar: </b><br>
+<span>物联网系统是啥？和传统意义上的操作系统有什么区别？？</span><br>
+<span> 本帖最后由 staar 于 2019-7-14 21:06 编辑 </span><br>
+<span>之前把我忽悠蒙了的鸿蒙系统。说是物联网系统？？和操作系统有啥区别？个人终端不能用的？？？？？</span><br>
+</p><p><b>联合警备队: </b><br>
+<span>一般用RTOS</span><br>
+</p><p><b>尺上四: </b><br>
+<span>rtos，比如vxworks这类。实时，更靠近硬件，更简单</span><br>
+</p><p><b>traburiss: </b><br>
+<span>实时和非实时的区别吧，一般我们用的操作系统都是非实时的，嵌入式的操作系统一般都是实时的（大学专业内容，毕业后没有从事相关行业，不确定是否正确）</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>staar: </b><br>
+<span>尺上四 发表于 2019-7-14 20:52</span><br>
+<span>rtos，比如vxworks这类。实时，更靠近硬件，更简单</span><br>
+<span>   意思就是华为那个什么鸿蒙操作系统。根本不能代替安卓了。</span><br>
+<span>    这下囧了</span><br>
+</p><p><b>staar: </b><br>
+<span>当初还真以为短期内华为有能替代安卓的系统。我还摇旗呐喊。结果倍华为狠狠一巴掌打蒙了。这太伤了</span><br>
+</p><p><b>real_zyf: </b><br>
+<span> 本帖最后由 real_zyf 于 2019-7-14 21:07 编辑 </span><br>
+<span>一般诉求是轻量化，省电，硬实时不是必须项</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>人家不说要万物互联么 鸿蒙要用在各种设备 从白电到电视到门锁手机 将来还要联合华为汽车</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>还有，物联网系统是个框，Linux也可以是，所以这个说法本身不代表什么</span><br>
+</p><p><b>startraveller: </b><br>
+<span>其实也没有那么大的距离，加个android兼容层就行</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>谷歌的那个什么fuchsia，我记得也是物联网操作系统来着吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>古代人皮克: </b><br>
+<span>staar 发表于 2019-7-14 20:55</span><br>
+<span>意思就是华为那个什么鸿蒙操作系统。根本不能代替安卓了。</span><br>
+<span>    这下囧了 ...</span><br>
+<span>退一万步实装了，谁给他做开发，哪个开发商会愿意给这种装机量极少，开发条件不明的系统做适配？毕竟是民用产品。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>上回公交车卡机重启，我看得清清楚楚是跑的安卓</span><br>
+</p><p><b>雪豹: </b><br>
+<span>比方说一个商用洗碗机，在各处装上传感器再实时传回公司，公司后台随时监控每一台机器，这个就叫物联网</span><br>
+</p><p><b>startraveller: </b><br>
+<span>Windows 10砍掉一堆东西还能搞成Windows 10 IoT呢，用在手机上没什么不可能的</span><br>
+</p><p><b>革萌: </b><br>
+<span>staar 发表于 2019-7-14 20:55</span><br>
+<span>意思就是华为那个什么鸿蒙操作系统。根本不能代替安卓了。</span><br>
+<span>    这下囧了 ...</span><br>
+<span>谁说不能？黑莓就在RTOS系统上坚持了很久，用的QNX。</span><br>
+</p><p><b>酒精发酵: </b><br>
+<span>跟看门狗里的那个CTOS系统差不多吧。</span><br>
+</p><p><b>sykeash: </b><br>
+<span>你需要先知道一般意义上操作系统是干啥的，比如管理软硬件资源，分配CPU时间、分配内存、换页，分配网络端口等等。</span><br>
+<span>物联网（Internet of Things）依其字面意思是比internet更广泛，让诸如家电、卡车甚至快递箱子连入网络，服务于这套网络的整个系统，从我来看这俩本来就不在一个层面的东西</span><br>
+</p><p><b>尺上四: </b><br>
+<span>staar 发表于 2019-7-14 20:55</span><br>
+<span>意思就是华为那个什么鸿蒙操作系统。根本不能代替安卓了。</span><br>
+<span>    这下囧了 ...</span><br>
+<span>驴头不对马嘴</span><br>
+<span>都叫飞机，玩具飞机和A380不是一码事。</span><br>
+<span>win10是A380或者747，手机用的安卓或者鸿蒙是A320，物联网……是大疆。51是纸飞机的八样折法。</span><br>
+<span>安卓和鸿蒙都是linux的分支，非实时内核。但是理论上也可以魔改成freebsd实现，或者探索一下rt-linux内核，虽然这两样在这方面都非常不能打。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846707[0-50]</guid>
+    </item>
+  </channel>
+</rss>

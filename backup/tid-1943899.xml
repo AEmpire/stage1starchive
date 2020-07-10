@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>刘姥姥初尝黑苹果（hackintosh）思路体验</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>刘姥姥初尝黑苹果（hackintosh）思路体验</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:25:28 +0000</lastBuildDate>
+    <item>
+      <title>刘姥姥初尝黑苹果（hackintosh）思路体验[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943899-1-1.html</link>
+      <description>刘姥姥初尝黑苹果（hackintosh）思路体验&#13;
+ 本帖最后由 zhuangku556 于 2020-6-24 20:52 编辑 
+
+可以去我的博客获取参考文章的链接和我使用的黑苹果文件下载链接（对其他人来说几乎没用）：https://wp.me/pbpDXg-1u
+&#13;
+本文最早写于去年，10.15刚出，所以安装的仍然是10.14.6，而且这样的老机子能吃到10.14.6也已经让我觉得很不可思议了。
+&#13;
+最近看完wwdc2020后的感想就是，估计以后再也没有黑苹果了吧……且玩且珍惜。
+&#13;
+以下正文：
+&#13;
+有一台大学时闲置的笔记本电脑，放着也是浪费，便想到整个黑苹果玩玩。在做了些必要的功课后，开始了我的黑苹果体验。
+&#13;
+制作启动盘
+&#13;
+首先在 Google 上搜索了我的笔记本的黑苹果的教程，非常幸运的找到了现成的 Clover引导文件（超链接已失效），而且版本也很新是 macOS 10.14 。注册后下载，里面已经打包了一些驱动。
+&#13;
+我先是自己在网上下载了一个 Mojave 10.14.6 的 dmg，然后参考知乎一篇教程（超链接），一步步的安装，但是却卡在了制作原版 Mojave 的 USB 镜像上。
+&#13;
+问题出在，靠终端写入安装镜像后，没办法创建引导文件，即使使用了第三方 USB 烧录程序也一样，为此我还重新测试好几遍，甚至还换了 U 盘，最后发现原来是下的 dmg 有问题。
+&#13;
+随后放弃自己一步步创建 USB 安装盘的想法，去黑果小兵下载了 Mojave with clover 的镜像（超链接），一次制作成功。
+&#13;
+接着便是把论坛现成的 efi 引导文件，一股脑的全部替换掉黑果小兵的镜像里的 efi 文件。
+&#13;
+上机测试，正确进入clover的引导。
+&#13;
+安装系统
+&#13;
+做完系统镜像以后，接着便是安装了。
+&#13;
+在格式化笔记本电脑的 128G SSD 作为安装盘时，Mac的磁盘工具却提示“
+&#13;
+Mediakit报告设备商的空间不足以执行此操作”，导致无法抹盘安装。
+&#13;
+问题还真多啊……
+&#13;
+遂又上网Google，结果查到的都是用 Windows 的 DiskGenius 来创建一个 200MB 大小的 efi 分区。
+&#13;
+搞笑吗？我手头已经没有 Windows 系统的电脑了。
+&#13;
+好不容翻到了一篇纯 Mac 下的解决方案（超链接），按照操作了一通，成功抹盘格式化。
+&#13;
+然而问题还有……
+&#13;
+选择安装，提示“应用程序副本损坏”，太棒了，真的是一路都是问题，Google 后发现是由于目前最新系统 10.15，10.14 已经通不过验证了（这套路熟悉），但是这是电脑啊！断网后修改系统时间（超链接），然后便进入安装程序。
+&#13;
+看着进度条跑完了安装，期间重启2次，这次没有问题。
+&#13;
+进入macOS ，一路 skip 激活，成功安装。
+&#13;
+尾声
+&#13;
+本来这一步应该是折腾驱动的，但无奈水平实在不行，看着教程也没弄好声卡驱动，什么改ID？什么装插件？大脑要爆炸了……
+&#13;
+最后测试下来，独立显卡没用（无所谓），声卡相关的没用，蓝牙时好时坏，连个鼠标没问题，但是蓝牙音箱却不行，无线网卡铁没用，有线网卡倒是没问题。
+&#13;
+睡眠也没用，一睡就死，叫不醒，遂关闭了睡眠。
+&#13;
+解决方案：
+&#13;
+十几块买了个 USB 声卡小尾巴，直接连个小喇叭，声音问题解决。
+&#13;
+无线 Wi-Fi 买了个 ComFast 的 USB 网卡，安装了附送的驱动，能上网。
+&#13;
+Airdrop 和 Handoff，别想了。登陆了App Store下载了iWork套件，完美运行。
+&#13;
+最后的心得：
+&#13;
+黑苹果真折腾，千人千面，可以说每个机型的解决方案都不同，而且睡眠问题无法解决，以后还是折腾台式机吧。
+&#13;
+https://neetchatroomhome.files.wordpress.com/2020/06/photo_2020-06-24-20.30.41.jpeg当时光顾着折腾了也没心思拍照，就放一张成功运行系统的照片吧。</description>
+      <content:encoded><![CDATA[<p><b>zhuangku556: </b><br>
+<span>刘姥姥初尝黑苹果（hackintosh）思路体验</span><br>
+<span> 本帖最后由 zhuangku556 于 2020-6-24 20:52 编辑 </span><br>
+<span>可以去我的博客获取参考文章的链接和我使用的黑苹果文件下载链接（对其他人来说几乎没用）：https://wp.me/pbpDXg-1u</span><br>
+<span>本文最早写于去年，10.15刚出，所以安装的仍然是10.14.6，而且这样的老机子能吃到10.14.6也已经让我觉得很不可思议了。</span><br>
+<span>最近看完wwdc2020后的感想就是，估计以后再也没有黑苹果了吧……且玩且珍惜。</span><br>
+<span>以下正文：</span><br>
+<span>有一台大学时闲置的笔记本电脑，放着也是浪费，便想到整个黑苹果玩玩。在做了些必要的功课后，开始了我的黑苹果体验。</span><br>
+<span>制作启动盘</span><br>
+<span>首先在 Google 上搜索了我的笔记本的黑苹果的教程，非常幸运的找到了现成的 Clover引导文件（超链接已失效），而且版本也很新是 macOS 10.14 。注册后下载，里面已经打包了一些驱动。</span><br>
+<span>我先是自己在网上下载了一个 Mojave 10.14.6 的 dmg，然后参考知乎一篇教程（超链接），一步步的安装，但是却卡在了制作原版 Mojave 的 USB 镜像上。</span><br>
+<span>问题出在，靠终端写入安装镜像后，没办法创建引导文件，即使使用了第三方 USB 烧录程序也一样，为此我还重新测试好几遍，甚至还换了 U 盘，最后发现原来是下的 dmg 有问题。</span><br>
+<span>随后放弃自己一步步创建 USB 安装盘的想法，去黑果小兵下载了 Mojave with clover 的镜像（超链接），一次制作成功。</span><br>
+<span>接着便是把论坛现成的 efi 引导文件，一股脑的全部替换掉黑果小兵的镜像里的 efi 文件。</span><br>
+<span>上机测试，正确进入clover的引导。</span><br>
+<span>安装系统</span><br>
+<span>做完系统镜像以后，接着便是安装了。</span><br>
+<span>在格式化笔记本电脑的 128G SSD 作为安装盘时，Mac的磁盘工具却提示“</span><br>
+<span>Mediakit报告设备商的空间不足以执行此操作”，导致无法抹盘安装。</span><br>
+<span>问题还真多啊……</span><br>
+<span>遂又上网Google，结果查到的都是用 Windows 的 DiskGenius 来创建一个 200MB 大小的 efi 分区。</span><br>
+<span>搞笑吗？我手头已经没有 Windows 系统的电脑了。</span><br>
+<span>好不容翻到了一篇纯 Mac 下的解决方案（超链接），按照操作了一通，成功抹盘格式化。</span><br>
+<span>然而问题还有……</span><br>
+<span>选择安装，提示“应用程序副本损坏”，太棒了，真的是一路都是问题，Google 后发现是由于目前最新系统 10.15，10.14 已经通不过验证了（这套路熟悉），但是这是电脑啊！断网后修改系统时间（超链接），然后便进入安装程序。</span><br>
+<span>看着进度条跑完了安装，期间重启2次，这次没有问题。</span><br>
+<span>进入macOS ，一路 skip 激活，成功安装。</span><br>
+<span>尾声</span><br>
+<span>本来这一步应该是折腾驱动的，但无奈水平实在不行，看着教程也没弄好声卡驱动，什么改ID？什么装插件？大脑要爆炸了……</span><br>
+<span>最后测试下来，独立显卡没用（无所谓），声卡相关的没用，蓝牙时好时坏，连个鼠标没问题，但是蓝牙音箱却不行，无线网卡铁没用，有线网卡倒是没问题。</span><br>
+<span>睡眠也没用，一睡就死，叫不醒，遂关闭了睡眠。</span><br>
+<span>解决方案：</span><br>
+<span>十几块买了个 USB 声卡小尾巴，直接连个小喇叭，声音问题解决。</span><br>
+<span>无线 Wi-Fi 买了个 ComFast 的 USB 网卡，安装了附送的驱动，能上网。</span><br>
+<span>Airdrop 和 Handoff，别想了。登陆了App Store下载了iWork套件，完美运行。</span><br>
+<span>最后的心得：</span><br>
+<span>黑苹果真折腾，千人千面，可以说每个机型的解决方案都不同，而且睡眠问题无法解决，以后还是折腾台式机吧。</span><br>
+<span>https://neetchatroomhome.files.wordpress.com/2020/06/photo_2020-06-24-20.30.41.jpeg当时光顾着折腾了也没心思拍照，就放一张成功运行系统的照片吧。</span><br>
+</p><p><b>台球论坛网友: </b><br>
+<span>为毛非要用这种乐色系统</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>台球论坛网友 发表于 2020-6-24 21:19</span><br>
+<span>为毛非要用这种乐色系统</span><br>
+<span>因为是脑残果粉</span><br>
+</p><p><b>Benighted: </b><br>
+<span>折腾黑苹果还不如去折腾linux桌面</span><br>
+</p><p><b>台球论坛网友: </b><br>
+<span>zhuangku556 发表于 2020-6-24 21:20</span><br>
+<span>因为是脑残果粉</span><br>
+<span>可以折腾chromebook</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>Benighted 发表于 2020-6-24 21:27</span><br>
+<span>折腾黑苹果还不如去折腾linux桌面</span><br>
+<span>折腾gnome，发现不光和mac一样驱动不齐，而且还没日常软件用，最后又格了。</span><br>
+<span>倒是这个黑苹果，我丢着有时候家人拿起来上个网看个文档。</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>台球论坛网友 发表于 2020-6-24 21:33</span><br>
+<span>可以折腾chromebook</span><br>
+<span>这个系统暂时没有吸引我的地方，宁愿去折腾Android</span><br>
+</p><p><b>linux40: </b><br>
+<span>台球论坛网友 发表于 2020-6-24 21:19</span><br>
+<span>为毛非要用这种乐色系统</span><br>
+<span>Just For Fun</span><br>
+<span>最近我也想在虚拟机里尝试一个，有空的话。思路是qemu+whqx+RemoteFX。</span><br>
+</p><p><b>linux40: </b><br>
+<span>zhuangku556 发表于 2020-6-24 21:36</span><br>
+<span>折腾gnome，发现不光和mac一样驱动不齐，而且还没日常软件用，最后又格了。</span><br>
+<span>倒是这个黑苹果，我丢着有时 ...</span><br>
+<span>驱动其实比苹果齐多了，不过可能要折腾。</span><br>
+</p><p><b>kcordnas: </b><br>
+<span> 我超级讨厌MACOS，当年家里买了台powermac G4，垃圾，游戏都玩不了</span><br>
+</p><p><b>Benighted: </b><br>
+<span>zhuangku556 发表于 2020-6-24 21:36</span><br>
+<span>折腾gnome，发现不光和mac一样驱动不齐，而且还没日常软件用，最后又格了。</span><br>
+<span>倒是这个黑苹果，我丢着有时 ...</span><br>
+<span>gnome也就只是个桌面，驱动齐不齐跟它没关系...主要看distro</span><br>
+<span>要软件齐去装manjaro，linux上能运行的开源/闭源的软件基本全都有</span><br>
+<span>要外观高逼格可以去试试elementaryOS</span><br>
+<span>想简单方便开箱即用还能玩点游戏就PopOS</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>kcordnas 发表于 2020-6-24 22:29</span><br>
+<span>我超级讨厌MACOS，当年家里买了台powermac G4，垃圾，游戏都玩不了</span><br>
+<span>还好我的童年是在Windows玩pc游戏度过的</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>Benighted 发表于 2020-6-24 22:50</span><br>
+<span>gnome也就只是个桌面，驱动齐不齐跟它没关系...主要看distro</span><br>
+<span>要软件齐去装manjaro，linux上能运行的开源/ ...</span><br>
+<span>玩过ubuntu和debian，连个wine都配置不好。也装过深度的Linux，日常软件倒是又了，结果操作各种的生硬对高分屏的支持也很差。</span><br>
+<span>而且我不是开发者，折腾系统就是为了日常用或者just for fun。</span><br>
+<span>最后用下来的感觉就是Mac用来生产力，Windows用来玩游戏。</span><br>
+</p><p><b>radar: </b><br>
+<span>十年前在当时的笔记本上折腾过雪豹，只能说这个系统对于非目标用户真是非常鸡肋…</span><br>
+<span>后来也买过macbook pro和mac mini，用下来真的除了外观没啥特别吸引我的，最后实在没用还是出掉了</span><br>
+</p><p><b>linux40: </b><br>
+<span>zhuangku556 发表于 2020-6-24 23:14</span><br>
+<span>玩过ubuntu和debian，连个wine都配置不好。也装过深度的Linux，日常软件倒是又了，结果操作各种的 ...</span><br>
+<span>Linux的生产力主要在keyboard driven的东西。要是喜欢快捷键，linux会用得很舒服。</span><br>
+</p><p><b>Benighted: </b><br>
+<span>zhuangku556 发表于 2020-6-24 23:14</span><br>
+<span>玩过ubuntu和debian，连个wine都配置不好。也装过深度的Linux，日常软件倒是又了，结果操作各种的 ...</span><br>
+<span>我就从不在linux上折腾wine，在家是双屏synergy解决</span><br>
+<span>平时主要是搞home server，有用的东西太多了</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>国内黑苹果社区热度比linux社区高多了</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>すぴぱら 发表于 2020-6-25 08:15</span><br>
+<span> 国内黑苹果社区热度比linux社区高多了</span><br>
+<span>对苹果系统抱有憧憬。但macOS和Mac分开用，都很烂。要Mac+macOS一块用才能体验到苹果生态。</span><br>
+</p><p><b>Haier: </b><br>
+<span>能看视频文件吗，或者能看网页的在线视频吗？如果能的话才算是驱动显卡成功了。</span><br>
+<span>ps lz你没写机器配置。</span><br>
+</p><p><b>诶哟卧草: </b><br>
+<span>主力台式机双系统1年多了，直接把渣渣mac mini给卖了，8700的散热根本压不住</span><br>
+<span>现在win10+gtx1080打打游戏</span><br>
+<span>mac+rx580用用fcpx，舒服的一逼</span><br>
+</p><p><b>ganeid: </b><br>
+<span>kcordnas 发表于 2020-6-24 22:29</span><br>
+<span>我超级讨厌MACOS，当年家里买了台powermac G4，垃圾，游戏都玩不了</span><br>
+<span>当年能买得起PowerMac G4的也算是大户人家了吧</span><br>
+<span>那时候还是OS9，的确是啥游戏都玩不了</span><br>
+</p><p><b>yaoyiqun513: </b><br>
+<span>苹果的系统和硬件结合的太紧密了，而且会越来越紧密，其他的硬件发挥不出mac的优势，黑苹果的意义越来越小了。</span><br>
+</p><p><b>红都剧院24排4号: </b><br>
+<span>美国人有客厅文化，当年的Mac能不能玩游戏确实不是非常重要，哪个玩游戏的家里还没台游戏机呢</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>Haier 发表于 2020-6-25 09:46</span><br>
+<span>能看视频文件吗，或者能看网页的在线视频吗？如果能的话才算是驱动显卡成功了。</span><br>
+<span>ps lz你没写机器配置。 ...</span><br>
+<span>可以，hd4000的核显，我已经丢给家人用了，装个wps看看文档，上个网没问题。</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>诶哟卧草 发表于 2020-6-24 20:50</span><br>
+<span>主力台式机双系统1年多了，直接把渣渣mac mini给卖了，8700的散热根本压不住</span><br>
+<span>现在win10+gtx1080打打 ...</span><br>
+<span>双系统自动选择gpu吗</span><br>
+</p><p><b>kll85757: </b><br>
+<span>黑果的意义就是可以用上高性能的macos而不用交苹果税</span><br>
+<span>macos在影视制作方面还是有很高的价值的，我们一些爱好者跟小工作室没有好莱坞那样的条件买30w的new mac pro来耍，只能自己多动动手了</span><br>
+</p><p><b>disrupt: </b><br>
+<span>台式机黑果可用性还是很高的，可以自选各种兼容的硬件，以及比白果更牛逼的硬件。没有触摸板的问题，无线网卡也非必需。配的好了吊打iMac不难</span><br>
+<span>笔记本就全是问题了，大多机器都可以装上但是</span><br>
+<span> 1 独显没戏，2 无线网卡需要换博通的，3 触摸板可能无解，4 声卡可能有坑，5 休眠可能有坑，6 显示输出可能有坑，7 就算功能大体正常，1080p的体验也明显不如白果的1600/1800p</span><br>
+<span>我前后折腾过七八台，现在算是退坑了，小新pro13（极少数可以准完美黑果的笔记本）装了三系统日常用</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>Litccc: </b><br>
+<span>小新pro13装黑苹果算是1+1大于2了</span><br>
+</p><p><b>lonexx: </b><br>
+<span>黑果小兵有长期维护efi引导文件，具体有很多品牌和型号，简书上也有，你可以找一下，一般老本都差不多有完美驱动。找到后替换一下就可以了。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>诶哟卧草: </b><br>
+<span>Uranium233 发表于 2020-6-26 01:08</span><br>
+<span>双系统自动选择gpu吗</span><br>
+<span>mac只能认a卡并且免驱</span><br>
+<span>win里面我把a卡给禁用了</span><br>
+</p><p><b>zhuangku556: </b><br>
+<span>lonexx 发表于 2020-6-26 06:23</span><br>
+<span>黑果小兵有长期维护efi引导文件，具体有很多品牌和型号，简书上也有，你可以找一下，一般老本都差不多有完 ...</span><br>
+<span>折腾了几个月了，这文章是去年写的，总之声卡怎么都驱动不起来。</span><br>
+<span>网卡是绝对没戏的，触摸板停留在能用的水平，没有多指手势。</span><br>
+</p><p><b>yst234: </b><br>
+<span>kcordnas 发表于 2020-6-24 22:29</span><br>
+<span>我超级讨厌MACOS，当年家里买了台powermac G4，垃圾，游戏都玩不了</span><br>
+<span> 其实英文游戏还是有不少的。。Macintosh Repository 这里就有一大堆</span><br>
+<span>只是在那个 PowerPC 的年代，国内可以说完全没有 Mac 生态。。简中游戏想都不要想  这个就很伤了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943899[0-50]</guid>
+    </item>
+  </channel>
+</rss>

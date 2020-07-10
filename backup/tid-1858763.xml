@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>跑虚拟机是选IU还是AU</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>跑虚拟机是选IU还是AU</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:45:48 +0000</lastBuildDate>
+    <item>
+      <title>跑虚拟机是选IU还是AU[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858763-1-1.html</link>
+      <description>跑虚拟机是选IU还是AU&#13;
+因为工作需要和个人兴趣，需要多开三到四个虚拟机，是选IU还是AU?</description>
+      <content:encoded><![CDATA[<p><b>八八八云紫: </b><br>
+<span>跑虚拟机是选IU还是AU</span><br>
+<span>因为工作需要和个人兴趣，需要多开三到四个虚拟机，是选IU还是AU?</span><br>
+</p><p><b>Radeon: </b><br>
+<span>都可以，选核心数多的</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>都没问题，选核多的</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>个人研究没区别，反正你都要研究的，生产力还是iu，网上虚拟化相关的资料方面intel的远超amd，出问题intel解决容易一点。</span><br>
+</p><p><b>银光闪耀: </b><br>
+<span>phi 7210打骨折只要400块</span><br>
+<span>就是板子贵 不知道还有没有</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>主要3600着实是性价比高，但是没用过AU就怕出乱七八糟的问题</span><br>
+<span>还是9600kf吧</span><br>
+</p><p><b>cxc666: </b><br>
+<span>加钱i9-9900不带K</span><br>
+</p><p><b>macos: </b><br>
+<span>核心数够用就行，实际vcpu是线程，并不是真实核心，esxi5.5下，体现的是频率*核数的总频率，分配是照总数分的</span><br>
+<span>超线程也照计算了，但测试倍数达不到，只有原生30%左右增幅</span><br>
+</p><p><b>404489039: </b><br>
+<span>没所谓，比较吃内存。</span><br>
+</p><p><b>qwased: </b><br>
+<span>负载如何，如果都是轻载那随便一个都行</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>macos: </b><br>
+<span>404489039 发表于 2019-10-10 14:47</span><br>
+<span>没所谓，比较吃内存。</span><br>
+<span>实际上，是要上的业务本身就需要大量内存，虚拟机只是把这些单个服务器总合了</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>生产力还是i好一点，毕竟服务器领域从扣肉开始就压制a了，a只是这两年才缓过来。个人用的话，amd，yes。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>暗影翔 发表于 2019-10-10 14:51</span><br>
+<span>生产力还是i好一点，毕竟服务器领域从扣肉开始就压制a了，a只是这两年才缓过来。个人用的话，amd，yes。</span><br>
+<span>- ...</span><br>
+<span>可是64核的epyc和28核的xeon一个价钱</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>坛友这么一说我又开始摇摆了，毕竟主要还是家用。。。。而且还有两三个笔记本可用</span><br>
+</p><p><b>董卓: </b><br>
+<span>我也摇摆了很久，但最终：7x24还是iu吧</span><br>
+</p><p><b>螺纹: </b><br>
+<span>nga有人3600，vmware workstation装不了ubuntu新版</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>OiCkilL: </b><br>
+<span>那么用220ge搭软路由+nas是不是好选择呢</span><br>
+</p><p><b>sekaiL: </b><br>
+<span>选核多的，只用过vm跑</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>银光闪耀: </b><br>
+<span>commanderyuri 发表于 2019-10-10 15:01</span><br>
+<span>可是64核的epyc和28核的xeon一个价钱</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>qs之前有5000的8180车</span><br>
+</p><p><b>albertfu: </b><br>
+<span>个人要求再高高不过云服务商吧。。。</span><br>
+<span>aws azure gcp都敢用lz有啥不敢的</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>三四个虚拟机又不是三四十......随便用,我3600同时开四个手游模拟器还开个win7虚拟机都木有任何问题</span><br>
+</p><p><b>tclm: </b><br>
+<span>s1广告弹出来说京东云主机才几十块钱一年……</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>跑linux内容的话，还是上docker吧</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>commanderyuri 发表于 2019-10-10 15:01</span><br>
+<span>可是64核的epyc和28核的xeon一个价钱</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>生产力需要的不光是性能，还有服务和稳定。</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>iu，目前阶段一旦出现问题能找到解决方案的可能性比au大太多</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>limon: </b><br>
+<span>我自己linux用kvm，游戏都是显卡直通虚拟机里玩的，3700x没什么问题 。不过推荐别人都是 IU，主要不想担责任。</span><br>
+</p><p><b>gensaya: </b><br>
+<span>楼主没说预算呐</span><br>
+</p><p><b>八八八云紫: </b><br>
+<span>gensaya 发表于 2019-10-11 00:52</span><br>
+<span>楼主没说预算呐</span><br>
+<span>都3600了还能有啥预算</span><br>
+</p><p><b>macos: </b><br>
+<span>limon 发表于 2019-10-10 23:58</span><br>
+<span>我自己linux用kvm，游戏都是显卡直通虚拟机里玩的，3700x没什么问题 。不过推荐别人都是 IU，主要不 ...</span><br>
+<span>在宿主机玩吗，同样要传屏幕更新到窗口吧</span><br>
+</p><p><b>serial: </b><br>
+<span>limon 发表于 2019-10-10 23:58</span><br>
+<span>我自己linux用kvm，游戏都是显卡直通虚拟机里玩的，3700x没什么问题 。不过推荐别人都是 IU，主要不 ...</span><br>
+<span>你用几张显卡？能否介绍一下？</span><br>
+</p><p><b>limon: </b><br>
+<span>macos 发表于 2019-10-11 12:03</span><br>
+<span>在宿主机玩吗，同样要传屏幕更新到窗口吧</span><br>
+<span>客户机里玩，两个屏幕，linux一个，windows虚拟机显卡直通接一个，使用上和单独一台主机跑windows没什么区别</span><br>
+</p><p><b>limon: </b><br>
+<span> 本帖最后由 limon 于 2019-10-11 13:04 编辑 </span><br>
+<span>serial 发表于 2019-10-11 12:51</span><br>
+<span>你用几张显卡？能否介绍一下？</span><br>
+<span>3700x + b450m mortar，主机一块 hd7750，客户机里直通 1060</span><br>
+<span>我的启动参数</span><br>
+<span>https://gist.github.com/limon/3ae644eb1e182ea4f4763ec68cd840e0</span><br>
+<span>参考：</span><br>
+<span>https://www.reddit.com/r/Amd/com ... _linux_support_and/</span><br>
+<span>https://heiko-sieger.info/runnin ... th-vga-passthrough/</span><br>
+<span>https://github.com/Matoking/NVIDIA-vBIOS-VFIO-Patcher (显卡 bios patch)</span><br>
+<span>https://github.com/furkanmustafa/forcefully-remove-bootfb (清除显卡启动 fb，可能需要)</span><br>
+<span>弄起来还是挺折腾的。</span><br>
+</p><p><b>serial: </b><br>
+<span>limon 发表于 2019-10-11 13:03</span><br>
+<span>3700x + b450m mortar，主机一块 hd7750，客户机里直通 1060</span><br>
+<span>我的启动参数</span><br>
+<span>https://gist.github.com/limon ...</span><br>
+<span>唉，早知道不上itx了……</span><br>
+</p><p><b>yuxiao: </b><br>
+<span> 本帖最后由 yuxiao 于 2019-10-15 18:18 编辑 </span><br>
+<span>albertfu 发表于 2019-10-10 20:08</span><br>
+<span> 个人要求再高高不过云服务商吧。。。aws azure gcp都敢用lz有啥不敢的</span><br>
+<span>不能这么类比的。aws这种都有一大堆工程师在看着的，一旦某个系统有问题马上就有人去调优了，而且他们各种硬件平台都有，万一发生不兼容的情况，那就把这应用签放到另一个平台去跑。个人用的可不行，一毕竟咱们只有一台机器，只有自己一个人，出了怪问题就完蛋.</span><br>
+</p><p><b>albertfu: </b><br>
+<span>yuxiao 发表于 2019-10-15 18:16</span><br>
+<span>不能这么类比的。aws这种都有一大堆工程师在看着的，一旦某个系统有问题马上就有人去调优了，而且他们各种 ...</span><br>
+<span>有道理，这方面积累还是需要时间</span><br>
+</p><p><b>gensaya: </b><br>
+<span> 本帖最后由 gensaya 于 2019-10-16 17:17 编辑 </span><br>
+<span>虚拟机还是买核心多的吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858763[0-50]</guid>
+    </item>
+  </channel>
+</rss>

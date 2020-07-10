@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于远程桌面的一个问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于远程桌面的一个问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:24:15 +0000</lastBuildDate>
+    <item>
+      <title>关于远程桌面的一个问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1877394-1-1.html</link>
+      <description>关于远程桌面的一个问题&#13;
+我在办公室远程家里的电脑，有时候挺顺畅，有时候又很卡。我都检查过两边的网络都无问题。</description>
+      <content:encoded><![CDATA[<p><b>醒酒老顽童: </b><br>
+<span>关于远程桌面的一个问题</span><br>
+<span>我在办公室远程家里的电脑，有时候挺顺畅，有时候又很卡。我都检查过两边的网络都无问题。</span><br>
+</p><p><b>主舵者: </b><br>
+<span>可能是运营商QoS，换非标准端口试试</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>主舵者 发表于 2019-12-4 00:17</span><br>
+<span>可能是运营商QoS，换非标准端口试试</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>请问QoS是啥意思啊</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>怎么这次木有神马大侠来帮忙了捏</span><br>
+</p><p><b>SYJMagician: </b><br>
+<span>倒是先说说用的啥远程啊</span><br>
+<span>自带rdp的话可能的原因是某些程序占用了带宽,或者偶尔的网络波动</span><br>
+</p><p><b>主舵者: </b><br>
+<span>醒酒老顽童 发表于 2019-12-4 00:46</span><br>
+<span>请问QoS是啥意思啊</span><br>
+<span>简单说就是针对特定程序的限速</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>两边分别是什么运营商，上下行带宽分别多少，丢包率多少，用的什么远程方式</span><br>
+<span>什么信息都没有怎么判断啊。。。</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>SYJMagician 发表于 2019-12-4 17:00</span><br>
+<span>倒是先说说用的啥远程啊</span><br>
+<span>自带rdp的话可能的原因是某些程序占用了带宽,或者偶尔的网络波动 ...</span><br>
+<span>可能</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>主舵者 发表于 2019-12-4 20:17</span><br>
+<span>简单说就是针对特定程序的限速</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>哦，thanks</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span> 本帖最后由 醒酒老顽童 于 2019-12-4 23:18 编辑 </span><br>
+<span>这是一个马甲 发表于 2019-12-4 20:56</span><br>
+<span>两边分别是什么运营商，上下行带宽分别多少，丢包率多少，用的什么远程方式</span><br>
+<span>什么信息都没有怎么判断啊。。 ...</span><br>
+<span>办公室是电信的单位内网，上下行2Mb/10M，家里是联通的光纤20M/100M，丢包率不知道。。。系统自带的远程桌面。</span><br>
+<span>大侠，关键可能还不是这些，而是同样的网络环境，同样的两边电脑，居然会出现不同的情况：有时候很顺畅，有时候又会很卡。。。</span><br>
+<span>对了，卡的时候我看了两边的网络都木有问题（speedtest网站测速），然后两边电脑的cpu和内存也都足够的空余。</span><br>
+</p><p><b>SYJMagician: </b><br>
+<span>原来下行才10M,能不卡吗这点带宽窗口最大化滚动网页或者看视频都会卡吧,调小点分辨率试试</span><br>
+</p><p><b>linjia: </b><br>
+<span>有可能运营商问题，比如公司出口路由器可能同时连接多个运营商，平时都是a最快，今天a挂了，路由器自动选运营商b，虽然能通，但是运营商b带宽小，大家这时候又都挤在b上</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>linjia 发表于 2019-12-4 23:27</span><br>
+<span>有可能运营商问题，比如公司出口路由器可能同时连接多个运营商，平时都是a最快，今天a挂了，路由器自动选运 ...</span><br>
+<span>挤在b上^o^</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>SYJMagician 发表于 2019-12-4 23:20</span><br>
+<span>原来下行才10M,能不卡吗这点带宽窗口最大化滚动网页或者看视频都会卡吧,调小点分辨率试试 ...</span><br>
+<span>我一般不会用远程来看视频。嗯，确实，如果1920的全屏幕窗口滚动网页，就是好的时候也会有刷屏感觉。</span><br>
+<span>不过问题不是这里哈~我在远程不会做那种高速刷屏的应用。一般也就是下下棋，开十几个窗口看网页，再开个微信什么的。。。</span><br>
+<span>在办公室用远程来做这些事的最大好处，就是不会留下丝毫痕迹！当然了，对工作的电脑几乎也不会有任何影响。</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>linjia 发表于 2019-12-4 23:27</span><br>
+<span>有可能运营商问题，比如公司出口路由器可能同时连接多个运营商，平时都是a最快，今天a挂了，路由器自动选运 ...</span><br>
+<span>谢回复，但是卡的时候我也有测过两边的网络，都木有问题啊</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>醒酒老顽童 发表于 2019-12-5 00:26</span><br>
+<span>谢回复，但是卡的时候我也有测过两边的网络，都木有问题啊</span><br>
+<span>你这一边是电信，一边是联通，涉及到跨网互联的时候确实比较看脸</span><br>
+<span>可以持续ping家里的外网ip看看丢包率先</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>这是一个马甲 发表于 2019-12-5 00:33</span><br>
+<span>你这一边是电信，一边是联通，涉及到跨网互联的时候确实比较看脸</span><br>
+<span>可以持续ping家里的外网ip看看丢包率先 ...</span><br>
+<span>请教一下啊，我现在可以远程桌面，但却ping不通家里，不知道是哪里的问题呢？</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>醒酒老顽童 发表于 2019-12-5 09:18</span><br>
+<span>请教一下啊，我现在可以远程桌面，但却ping不通家里，不知道是哪里的问题呢？ ...</span><br>
+<span>路由器开一下允许来自wan口的ping</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>醒酒老顽童: </b><br>
+<span>这是一个马甲 发表于 2019-12-5 11:05</span><br>
+<span>路由器开一下允许来自wan口的ping</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>找到了^0^</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1877394[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何找出PC各组件哪个是性能短板？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何找出PC各组件哪个是性能短板？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:59 +0000</lastBuildDate>
+    <item>
+      <title>如何找出PC各组件哪个是性能短板？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857639-1-1.html</link>
+      <description>如何找出PC各组件哪个是性能短板？&#13;
+ 本帖最后由 thegodra 于 2019-10-3 18:32 编辑 
+
+许久不DIY电脑了，不清楚现在应该用什么跑分软件来测试……
+&#13;
+以前Win7自带有一个，感觉很容易找出哪里是短板，虽然是5分制的（大约如此）。
+&#13;
+起因是因为随着sw设计越来越大，以至于大型装配体模式下拖动组件十分缓慢
+&#13;
+以至于难以使用。但是其它操作又十分正常。观察各个资源占用率也都十分低。
+&#13;
+使用sw自己性能测试软件如下：看样子短板是CPU和IO
+&#13;
+https://s2.ax1x.com/2019/10/03/u0ZJns.png
+&#13;
+上图电脑是M5510 I7 六代/M1000M/16G/SATAIII SSD，
+&#13;
+另外一台是四代U I5/P620/16G/SATAIII SSD，
+&#13;
+还有一台是二代U I5/firepro 3400/8G/HDD
+&#13;
+旧主板如果想加装NVME SSD，有没有问题？据说需要
+&#13;
+更新BIOS甚至需要自改BIOS。
+&#13;
+1，当下流行的性能测试软件
+&#13;
+2，旧芯片组主板加装nvme ssd可能性（系统盘）
+&#13;
+THX
+&#13;
+changelog，=&gt;加装，=&gt;系统盘</description>
+      <content:encoded><![CDATA[<p><b>thegodra: </b><br>
+<span>如何找出PC各组件哪个是性能短板？</span><br>
+<span> 本帖最后由 thegodra 于 2019-10-3 18:32 编辑 </span><br>
+<span>许久不DIY电脑了，不清楚现在应该用什么跑分软件来测试……</span><br>
+<span>以前Win7自带有一个，感觉很容易找出哪里是短板，虽然是5分制的（大约如此）。</span><br>
+<span>起因是因为随着sw设计越来越大，以至于大型装配体模式下拖动组件十分缓慢</span><br>
+<span>以至于难以使用。但是其它操作又十分正常。观察各个资源占用率也都十分低。</span><br>
+<span>使用sw自己性能测试软件如下：看样子短板是CPU和IO</span><br>
+<img src="https://s2.ax1x.com/2019/10/03/u0ZJns.png" title="https://s2.ax1x.com/2019/10/03/u0ZJns.png"><br>
+<span>上图电脑是M5510 I7 六代/M1000M/16G/SATAIII SSD，</span><br>
+<span>另外一台是四代U I5/P620/16G/SATAIII SSD，</span><br>
+<span>还有一台是二代U I5/firepro 3400/8G/HDD</span><br>
+<span>旧主板如果想加装NVME SSD，有没有问题？据说需要</span><br>
+<span>更新BIOS甚至需要自改BIOS。</span><br>
+<span>1，当下流行的性能测试软件</span><br>
+<span>2，旧芯片组主板加装nvme ssd可能性（系统盘）</span><br>
+<span>THX</span><br>
+<span>changelog，=>加装，=>系统盘</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>何谓“假装”？</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>用pcie ssd或者pcie转接m2，不当系统盘用的话是不需要修改bios的。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>thegodra: </b><br>
+<span>纯情小鸭鸭 发表于 2019-10-3 17:05</span><br>
+<span>何谓“假装”？</span><br>
+<span>笔误，加装</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857639[0-50]</guid>
+    </item>
+  </channel>
+</rss>

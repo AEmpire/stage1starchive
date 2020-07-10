@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>pycharm和VS对比</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>pycharm和VS对比</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:51:06 +0000</lastBuildDate>
+    <item>
+      <title>pycharm和VS对比[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908661-1-1.html</link>
+      <description>pycharm和VS对比&#13;
+对于python程序，哪个ide对跳转，调用关系、自动补齐支持更好？
+&#13;
+达到类似source insight slick edit对c/cpp语言易用程度的</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>pycharm和VS对比</span><br>
+<span>对于python程序，哪个ide对跳转，调用关系、自动补齐支持更好？</span><br>
+<span>达到类似source insight slick edit对c/cpp语言易用程度的</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>肯定是pycharm啊，但vscode 免费</span><br>
+<span>python程序一般也写不长，还没到要ide辅助的程度吧</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>vs code不算IDE吧，还是说的visual studio，炼丹我还习惯spyder瞎调，然后工程vs code写写</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>DeepFishing 发表于 2020-1-9 22:47</span><br>
+<span>vs code不算IDE吧，还是说的visual studio，炼丹我还习惯spyder瞎调，然后工程vs code写写</span><br>
+<span>—— 来自 Sony ...</span><br>
+<span>vs的python，起码在2017版还不算能用</span><br>
+<span>2019我根本懒得去试</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>pycharm 社区版挺好了，除非是 python web 开发的，可能需要专业版。另外专业版内置 Jupyter。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>我只用vscode写c++</span><br>
+<span>python还是pycharm</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>lvcha3: </b><br>
+<span>两个ide都是长年累月的用，然而vs只用来写cpp和c#。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>vscode这种高可扩展的编辑器可以直接通过扩展来建立符号索引吗？依赖外部 server 自然是好办了。</span><br>
+<span>Python / Ruby 这种动态语言写函数的时候如果没有标注参数类型就会不知道参数有那些可选方法了，记得好像可以从 callsite 里猜参数的类型，不知道现在 IDE 这方面发展得怎么样了。</span><br>
+</p><p><b>子犴: </b><br>
+<span>写python的话 sublime也挺好用的啊 也有各种插件</span><br>
+</p><p><b>青年A: </b><br>
+<span>pycharm可以生成工程，vscode顺手而且对git集成好</span><br>
+<span>只写py还是pycharm吧，毕竟是专业特化，我们老师也推荐的。</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>我又忘了用户名: </b><br>
+<span>楼主你说的是vscode 还就是vs</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>vs和code对pythom的支持都非常一般</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>VS和VS code 完全两码事 不要搞混了讨论啊..</span><br>
+</p><p><b>libratest: </b><br>
+<span>一直用spyder</span><br>
+</p><p><b>chan: </b><br>
+<span>https://kite.com/</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>pycharm付费版和免费版几乎没啥差别，免费版该有的都有了，而付费版该不好用的还是不好用</span><br>
+</p><p><b>Redis: </b><br>
+<span>pycharm</span><br>
+<span>年费用户飘过</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>除非你本来就是专业开发又爱折腾vs, 否则老老实实pycharm</span><br>
+<span>宇宙第一对python的支持一堆bug,宇宙第一老老实实写c#就行了</span><br>
+</p><p><b>treexper: </b><br>
+<span>hoaloha 发表于 2020-1-10 11:12</span><br>
+<span>pycharm付费版和免费版几乎没啥差别，免费版该有的都有了，而付费版该不好用的还是不好用 ...</span><br>
+<span>最重要的就是remote interpreter，coding环境和运行环境的解绑。当然你可以自己开发个小工具实现这个，因为它本质上也是通过ssh和sftp实现的，归根到底没官方的那么方便。</span><br>
+</p><p><b>ada_ovo: </b><br>
+<span>青年A 发表于 2020-1-10 05:10</span><br>
+<span>pycharm可以生成工程，vscode顺手而且对git集成好</span><br>
+<span>只写py还是pycharm吧，毕竟是专业特化，我们老师也推荐的 ...</span><br>
+<span>用了好久的vscode，感觉也还行，pycharm会好多少吗？</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>pycharm 以前用着太卡。配置上来了又看着一堆配置不知所措。最后还是 vscode 适合老子</span><br>
+</p><p><b>scstriker: </b><br>
+<span>借楼问下，pycharm在Pixelbook下好用吗？</span><br>
+</p><p><b>青年A: </b><br>
+<span>ada_ovo 发表于 2020-1-10 15:27</span><br>
+<span>用了好久的vscode，感觉也还行，pycharm会好多少吗？</span><br>
+<span>pycharm可以生成工程什么的，对标的是vs</span><br>
+<span>vscode不加插件就只是个py文本编辑器不是吗</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>vscode可以加插件 基本你需要生成的东西都可以考插件完成 有运行和debug</span><br>
+<span>还有vscode也可以远程开发的 又server段你可以丢在虚拟机或者linux上 所有插件都会装在server端 包括lint</span><br>
+<span>vscode主要是 不是自动的给你一个直接都有的 因为毕竟他还有别的语言要支持</span><br>
+<span>但是本身你要弄成全IDE是完全可以的 现在除了很多人用惯的都可以代替</span><br>
+<span>缺点是 像我这种 不止写一门语言的 上来要load一堆插件和服务 那启动速度简直感人</span><br>
+</p><p><b>linux40: </b><br>
+<span>用了 language server protocol 后大家差不多。</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>一直用notepad++和cmd的路过</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>StarForceTi: </b><br>
+<span>那么远程intepreter除了pycharm商业版有什么现成的方案么</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>gx19860411 发表于 2020-1-11 13:13</span><br>
+<span>一直用notepad++和cmd的路过</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+<span>同notepad++，有个插件，可以运行cmd，不用单独开cmd</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>StarForceTi 发表于 2020-1-11 16:13</span><br>
+<span>那么远程intepreter除了pycharm商业版有什么现成的方案么</span><br>
+<span>vscode 装远程开发插件</span><br>
+</p><p><b>happydog: </b><br>
+<span>StarForceTi 发表于 2020-1-11 16:13</span><br>
+<span>那么远程intepreter除了pycharm商业版有什么现成的方案么</span><br>
+<span>vscode就可以啊，直接装个插件就可以通过ssh来远程编辑。</span><br>
+<span>另外，我的开发涉及服务器用python，前端用html+css+javascript，这种多语言开发几乎只有vscode才会比较好。</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>vscode有了lsp还可以用 不过pycharm功能上还是强一点 习惯intellij全家桶就用pycharm</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>StarForceTi: </b><br>
+<span>vscode有段时间不用就不会用了</span><br>
+</p><p><b>vista852: </b><br>
+<span>pycharm除了付费和配置需求高也没啥缺点了吧，远程调试功能对我是刚需。</span><br>
+<span>vscode的远程功能试了下是直接改服务器上的代码的，我还是喜欢本地改随时同步上服务器。</span><br>
+<span>不过那个container好像可以远程调试然后本地gui实现，pycharm上就只能xming之类的麻烦了许多</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>モナド: </b><br>
+<span>vista852 发表于 2020-1-12 17:25</span><br>
+<span>pycharm除了付费和配置需求高也没啥缺点了吧，远程调试功能对我是刚需。</span><br>
+<span>vscode的远程功能试了下是直接改服 ...</span><br>
+<span>vscode的远程功能是它现在的杀手级功能，多机环境都不需要重复配环境</span><br>
+<span>想要传统的文件同步方案可以用sftp插件</span><br>
+</p><p><b>d2loader: </b><br>
+<span>都装啊， 省这点空间干吗</span><br>
+</p><p><b>ada_ovo: </b><br>
+<span>青年A 发表于 2020-1-11 01:25</span><br>
+<span>pycharm可以生成工程什么的，对标的是vs</span><br>
+<span>vscode不加插件就只是个py文本编辑器不是吗</span><br>
+<span>没有，请原谅我见识少，脚本语言也有工程这一说法的吗？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>ada_ovo 发表于 2020-1-13 21:55</span><br>
+<span>没有，请原谅我见识少，脚本语言也有工程这一说法的吗？</span><br>
+<span>工程其实就是把一堆文件按某种配置集合的存档</span><br>
+<span>加了版本管理后，就是一堆readme，也能说是一个工程</span><br>
+</p><p><b>青年A: </b><br>
+<span>ada_ovo 发表于 2020-1-13 21:55</span><br>
+<span>没有，请原谅我见识少，脚本语言也有工程这一说法的吗？</span><br>
+<span>看你写什么了，比如我接触的一个小项目几万行业务逻辑，JSON save文件的破译转换输入输出，后续拓展功能模块，中英日翻译配置，这结构总不能靠新建个py文件解决。</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>归蝶: </b><br>
+<span> 本帖最后由 归蝶 于 2020-1-14 03:51 编辑 </span><br>
+<span>青年A 发表于 2020-1-14 03:08</span><br>
+<span>看你写什么了，比如我接触的一个小项目几万行业务逻辑，JSON save文件的破译转换输入输出，后续拓展功能 ...</span><br>
+<span>VSCODE可以把项目配置保存成workspace，差不多也就是工程的意思了。</span><br>
+<span>VSCODE算是介乎于编辑器和IDE之间的定位，而且因为语言中立，特别适合我现在手上这种缝合怪项目（dosbatch+Bash+Groovy+SQL+祖传DSL+各种配置文件）</span><br>
+</p><p><b>青年A: </b><br>
+<span>归蝶 发表于 2020-1-14 03:50</span><br>
+<span>VSCODE可以把项目配置保存成workspace，差不多也就是工程的意思了。</span><br>
+<span>VSCODE算是介乎于编辑器和IDE之间的 ...</span><br>
+<span>我只是举例子，pycharm可以生成一些初始配置，对新人来说有帮助</span><br>
+<span>vscode我很喜欢啊，工作和在家都主vscode的，我司开发工具从sublime2转为vscode也是我推广的。</span><br>
+<span>而且是15年就开始用的，当初被一个微软信徒合作搞mc mod时安利的。</span><br>
+<span>反正根据我的经验，对新人来说，难就难在一个起步，用pycharm系统点。</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>antisamael: </b><br>
+<span>主要写c++，公司推的vsc，用习惯了，写py也就配一下的事，不折腾了…pycharm有一次装了，老笔记本风扇狂转…也没觉得和vsc比起来好在哪里…应该是我只用py写些小工具用不到那些高大上的吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908661[0-50]</guid>
+    </item>
+  </channel>
+</rss>

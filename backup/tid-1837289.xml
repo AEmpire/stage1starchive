@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个冷僻js问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个冷僻js问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:00:36 +0000</lastBuildDate>
+    <item>
+      <title>问个冷僻js问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837289-1-1.html</link>
+      <description>问个冷僻js问题&#13;
+ 本帖最后由 氪金萌新 于 2019-6-6 04:47 编辑 
+
+在WSH下跑js脚本，怎么实现alert，confirm，prompt等弹出对话框功能
+&#13;
+似乎是调用activeX组件实现的，但是忘了哪一个了</description>
+      <content:encoded><![CDATA[<p><b>氪金萌新: </b><br>
+<span>问个冷僻js问题</span><br>
+<span> 本帖最后由 氪金萌新 于 2019-6-6 04:47 编辑 </span><br>
+<span>在WSH下跑js脚本，怎么实现alert，confirm，prompt等弹出对话框功能</span><br>
+<span>似乎是调用activeX组件实现的，但是忘了哪一个了</span><br>
+</p><p><b>jctc: </b><br>
+<span>WSH的那个是JScript不是JavaScript吧？</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span> 本帖最后由 氪金萌新 于 2019-6-6 05:13 编辑 </span><br>
+<span>jctc 发表于 2019-6-6 05:03</span><br>
+<span>WSH的那个是JScript不是JavaScript吧？</span><br>
+<span>jscript就是微软自己山寨的javascript，语法几乎一样的，javascript也没有内置alert，alert是window的方法</span><br>
+<span>wsh是windows的脚本运行环境，支持多种脚本，jscript，javascript，vbs都支持，实际使用中，jscript和javascript几乎没区别</span><br>
+<span>wsh里javascript实现类似alert的弹出对话框肯定可以，以前用过</span><br>
+</p><p><b>董卓: </b><br>
+<span>vbscript有</span><br>
+<span>然后可以在jscript里面混合vbscript多年不写了，让我找找</span><br>
+<span>好像还有套路是用office的activex</span><br>
+<span>更更复杂配置更改类一般还有用fso+wsshell notepad+adodb stream读取之类的套路</span><br>
+</p><p><b>董卓: </b><br>
+<span>https://stackoverflow.com/questions/532138/prompt-dialog-in-wsh-using-jscript</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>还以为要问女小学生的问题搞得我突然兴奋</span><br>
+</p><p><b>tiancaiyisi: </b><br>
+<span>我也以为你要问女子小学生，激动满满点进来</span><br>
+<span>—— 来自 Xiaomi Mi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>董卓 发表于 2019-6-6 06:41</span><br>
+<span>https://stackoverflow.com/questions/532138/prompt-dialog-in-wsh-using-jscript</span><br>
+<span>混合vbs的总感觉变扭，找了下alert和confirm有纯js的解法</span><br>
+<span>function alert(msg) { </span><br>
+<span>    var wss = new ActiveXObject("WScript.Shell"); </span><br>
+<span>    wss.Popup(msg, 0, "提示", 64);</span><br>
+<span>} </span><br>
+<span>function confirm(msg) {</span><br>
+<span>    var wss = new ActiveXObject("WScript.Shell"); </span><br>
+<span>    return wss.Popup(msg, 0, "确认", 1|32) == 1; </span><br>
+<span>} </span><br>
+<span>alert("hello world");</span><br>
+<span>confirm("ok?");</span><br>
+<span>prompt和inputbox好像只能混合vbs，32位系统有个在js里调用vbs的Script.Control组件，64位系统里没了</span><br>
+</p><p><b>imosuke: </b><br>
+<span>js在泥潭有四种意思，你知道几种？</span><br>
+</p><p><b>auirerx: </b><br>
+<span>我还以为是那个js，告辞</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>毅转身: </b><br>
+<span>我兴冲冲地点进来，你让我看这个？</span><br>
+</p><p><b>swanon: </b><br>
+<span>imosuke 发表于 2019-06-06 10:09:29</span><br>
+<span>js在泥潭有四种意思，你知道几种？技师 奸商 小学生 脚本</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>跃渊: </b><br>
+<span>es6可以用async/await模拟</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837289[0-50]</guid>
+    </item>
+  </channel>
+</rss>

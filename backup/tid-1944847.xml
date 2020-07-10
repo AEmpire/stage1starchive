@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何给同人本批量重命名</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何给同人本批量重命名</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:54 +0000</lastBuildDate>
+    <item>
+      <title>如何给同人本批量重命名[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944847-1-1.html</link>
+      <description>如何给同人本批量重命名&#13;
+ 本帖最后由 koureirousseau 于 2020-6-29 22:55 编辑 
+
+如题目所示，我用utorrent+RSS从nyaa站上下了不少同人本（压缩包），但是大部分命名都是罗马字。现在的目标是想把所有文件统一用日文原名批量重命名，便于查找。现在能想到的最好的metadata来源就是ex站。无奈非超能力者（只写过MATLAB），不知道如何解决，求一个思路或者解决方案，十分感谢。</description>
+      <content:encoded><![CDATA[<p><b>koureirousseau: </b><br>
+<span>如何给同人本批量重命名</span><br>
+<span> 本帖最后由 koureirousseau 于 2020-6-29 22:55 编辑 </span><br>
+<span>如题目所示，我用utorrent+RSS从nyaa站上下了不少同人本（压缩包），但是大部分命名都是罗马字。现在的目标是想把所有文件统一用日文原名批量重命名，便于查找。现在能想到的最好的metadata来源就是ex站。无奈非超能力者（只写过MATLAB），不知道如何解决，求一个思路或者解决方案，十分感谢。</span><br>
+</p><p><b>luoyianwu: </b><br>
+<span>selenium之类的就可以吧</span><br>
+</p><p><b>luoyianwu: </b><br>
+<span>selenium之类的就可以吧</span><br>
+</p><p><b>fuochai: </b><br>
+<span>分享出来让大家帮你</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>happypandax记得有这个功能，不记得是从ex/nh源导入时匹配还是任意导入都可以匹配，批处理能力不明</span><br>
+</p><p><b>kyonkoism二号机: </b><br>
+<span> 本帖最后由 kyonkoism二号机 于 2020-6-29 23:22 编辑 </span><br>
+<span>竟然有人和5年前的我有一样的问题</span><br>
+<span>我的解决方式是上网搜了一圈，最后找到了这个</span><br>
+<span>链接：https://pan.baidu.com/s/1etN_T_uykqZbdF8bE1NEJg </span><br>
+<span>提取码：9ien</span><br>
+<span>超级方便的批量改名，当时整每届CM的本整的我累死了，要把前缀改成统一的Cxx如果不用这个软件只能手动改那也太地狱了</span><br>
+</p><p><b>mty1111: </b><br>
+<span>metadata可以试试https://chmog.com/</span><br>
+</p><p><b>爱吃冻鳗的猫: </b><br>
+<span>答案是一开始就下带日文的。。话说EX不是有种子文件下载吗？我都是直接下种子拖到qitbit上下的，很少遇到罗马名的情况</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>kyonkoism二号机 发表于 2020-6-29 23:20</span><br>
+<span>竟然有人和5年前的我有一样的问题</span><br>
+<span>我的解决方式是上网搜了一圈，最后找到了这个</span><br>
+<span>非常感谢分享！</span><br>
+<span>另外问一下，这个应该只是批量改名的软件吧，想问一下是否有批量解决罗马字转化为日文的方法？</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>luoyianwu 发表于 2020-6-29 23:13</span><br>
+<span>selenium之类的就可以吧</span><br>
+<span>以前没写过爬虫，估计研究起来会需要一段时间吧；另外ex这种站点应该是不欢迎别人来爬的吧，不知道去爬一遍是否合适</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>fuochai 发表于 2020-6-29 23:17</span><br>
+<span>分享出来让大家帮你</span><br>
+<span>且不说会不会被带走，光是容量我看了一下有21000本左右，估计分享起来会非常麻烦吧</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>kyonkoism二号机 发表于 2020-6-29 23:20</span><br>
+<span>竟然有人和5年前的我有一样的问题</span><br>
+<span>我的解决方式是上网搜了一圈，最后找到了这个</span><br>
+<span>Advanced Renamer</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>whzfjk 发表于 2020-6-29 23:19</span><br>
+<span>happypandax记得有这个功能，不记得是从ex/nh源导入时匹配还是任意导入都可以匹配，批处理能力不明 ...</span><br>
+<span>能不能批处理我先研究一下文档</span><br>
+</p><p><b>luoyianwu: </b><br>
+<span>koureirousseau 发表于 2020-6-30 00:04</span><br>
+<span>以前没写过爬虫，估计研究起来会需要一段时间吧；另外ex这种站点应该是不欢迎别人来爬的吧，不知道去爬一 ...</span><br>
+<span>慢点应该还好不能说是爬，只是自动化了搜索标题的步骤</span><br>
+</p><p><b>Ruby的披风: </b><br>
+<span>文件批量改名我直接用everything，不过改之前一定要确认好没有问题。罗马字批量转化为日文感觉只能编程了，不知道网上有没有成品。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>这个问题看你要实现到什么程度...</span><br>
+<span>罗马字转日文的话, 我第一个想到的MeCab, MeCab我记得是由Python Api的, </span><br>
+<span>那在windows上流程就应该是:</span><br>
+<span>████1████.用powershell获取目录下所有文件夹的文件名 </span><br>
+<span>████2████.文件名依次传递给py文件(sys.aug)</span><br>
+<span>████3████.用返回的日文重命名文件夹</span><br>
+<span>大概是这么个思路吧</span><br>
+</p><p><b>mchan: </b><br>
+<span>如果你用的是 Windows 10，可以试试看用一些 Linux 的批量改名方案，在 WSL 下面跑。譬如 for each in *.cb?; do mv "$each" "$(./doujin.py "$each")"; done</span><br>
+</p><p><b>高斯与格林: </b><br>
+<span>试试everything</span><br>
+<span>先把文件搜出来，然后就可以批量重命名</span><br>
+</p><p><b>aji47: </b><br>
+<span>这种要写爬虫，还要去一一去匹对。正确率和代码难度感人。</span><br>
+<span>建议一开始就下日文名。</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>纯meta站 doujinshi.org 应该对爬虫友好吧</span><br>
+</p><p><b>macos: </b><br>
+<span>冰箱研会长 发表于 2020-6-30 09:24</span><br>
+<span>这个问题看你要实现到什么程度...</span><br>
+<span>罗马字转日文的话, 我第一个想到的MeCab, MeCab我记得是由Python Api的,...</span><br>
+<span>正反向都不是一一对应的，俺不止一次见过ex的标题罗马字写错</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>冰箱研会长 发表于 2020-6-30 09:24</span><br>
+<span>这个问题看你要实现到什么程度...</span><br>
+<span>罗马字转日文的话, 我第一个想到的MeCab, MeCab我记得是由Python Api的,...</span><br>
+<span>谢谢思路提供，已经开始自学python爬虫了（</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>macos 发表于 2020-7-1 14:05</span><br>
+<span>正反向都不是一一对应的，俺不止一次见过ex的标题罗马字写错</span><br>
+<span>这个我也有了解，所以更希望是参考用ex的命名作为依据而非罗马字转换</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>爱吃冻鳗的猫 发表于 2020-6-29 23:59</span><br>
+<span>答案是一开始就下带日文的。。话说EX不是有种子文件下载吗？我都是直接下种子拖到qitbit上下的，很少遇到罗 ...</span><br>
+<span>道理是这样的没错，另外想请问有没有什么可以订阅ex的rss方法，这样下载起来也好控制</span><br>
+</p><p><b>koureirousseau: </b><br>
+<span>高斯与格林 发表于 2020-6-30 18:39</span><br>
+<span>试试everything</span><br>
+<span>先把文件搜出来，然后就可以批量重命名</span><br>
+<span>谢谢，everything我是有的。主要是这个批量并非有很大的重复规律性，关键在于如何简化检索ex→复制日文名→重命名罗马字命名文件这个过程</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944847[0-50]</guid>
+    </item>
+  </channel>
+</rss>

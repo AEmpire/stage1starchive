@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何科学地处理扫描文件？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何科学地处理扫描文件？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:21:10 +0000</lastBuildDate>
+    <item>
+      <title>如何科学地处理扫描文件？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853186-1-1.html</link>
+      <description>如何科学地处理扫描文件？&#13;
+文件内容是文字和乐谱，扫描用的是彩色模式，最后保存只需要1bit黑白即可，希望不要损失分辨率且提高质量，体积越小越好，标准大概是35mp像素1MB以内。
+&#13;
+现在我用Acrobat抽出原始扫描PDF中的全部图片，输出为灰度TIFF，然后在DXO Optics pro里面旋转裁切加对比度，输出8位TIFF，再用Acrobat打包拆包转成1bit PNG。
+&#13;
+效果不算太差，不过感觉对比度和细节还是不算太好，不知道大佬们有没有更好的方法，特别是转1bit黑白这一步。谢谢。
+&#13;
+附一下前后对比，可以看出最后的黑白图片音符质量明显下降。</description>
+      <content:encoded><![CDATA[<p><b>lixianfyss: </b><br>
+<span>如何科学地处理扫描文件？</span><br>
+<span>文件内容是文字和乐谱，扫描用的是彩色模式，最后保存只需要1bit黑白即可，希望不要损失分辨率且提高质量，体积越小越好，标准大概是35mp像素1MB以内。</span><br>
+<span>现在我用Acrobat抽出原始扫描PDF中的全部图片，输出为灰度TIFF，然后在DXO Optics pro里面旋转裁切加对比度，输出8位TIFF，再用Acrobat打包拆包转成1bit PNG。</span><br>
+<span>效果不算太差，不过感觉对比度和细节还是不算太好，不知道大佬们有没有更好的方法，特别是转1bit黑白这一步。谢谢。</span><br>
+<span>附一下前后对比，可以看出最后的黑白图片音符质量明显下降。</span><br>
+</p><p><b>uhunters: </b><br>
+<span>你可以试试ABBYY FineReader Enterprise 14，直接用它打开pdf，图像编辑中矫正倾斜，而后保存为tif ccit group4 黑白模式</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>学python</span><br>
+</p><p><b>xing7673: </b><br>
+<span>你可以先ps黑白二值化试试看，1bit黑白不一定效果好</span><br>
+</p><p><b>solaris40: </b><br>
+<span>研究下ghostscript试试？或者GIMP？</span><br>
+</p><p><b>dvd6: </b><br>
+<span> 本帖最后由 dvd6 于 2019-8-13 21:22 编辑 </span><br>
+<span>转黑白前调灰阶，转黑白这一步貌似就只能调阈值。感觉换着几个软件的操作是多余的，就用ps就行了吧</span><br>
+</p><p><b>纯洁7号: </b><br>
+<span>老马的博客上有不少有用的软件和技术文章，感兴趣可以看一下</span><br>
+<span>https://www.cnblogs.com/stronghorse/</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>可以自己看看简单的Python图像处理方面的东西，直接阈值分割效果应该会不好，先降噪滤波去掉细小噪点，再搞搞类似分水岭分割，和开闭操作的算法吧，把不需求的噪音去掉留下关键信息。</span><br>
+<span>为啥要在保留那么大分辨率的情况下每个像素就给个1bit的信息，其实分辨率可以适当降一降，要文件体积小的话</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>谎称: </b><br>
+<span>纯洁7号 发表于 2019-8-13 21:21</span><br>
+<span>老马的博客上有不少有用的软件和技术文章，感兴趣可以看一下</span><br>
+<span>https://www.cnblogs.com/stronghorse/ ...</span><br>
+<span>马大佬写的软件真是强无敌，一个TXTforever我用了好多年。。</span><br>
+</p><p><b>子犴: </b><br>
+<span>python Pillow包 找个或者自己写个图像处理的小程序 二值化一下应该就可以了</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>DeepFishing 发表于 2019-8-13 21:24</span><br>
+<span>可以自己看看简单的Python图像处理方面的东西，直接阈值分割效果应该会不好，先降噪滤波去掉细小噪点，再搞 ...</span><br>
+<span>细小噪点还能忍，但是原本实心的音符最后里面出来很多白点就很奇怪且非常影响观感。</span><br>
+<span>转1bit是在减小体积的同时提高锐度方便打印，不然有时候会很浅。</span><br>
+</p><p><b>win8: </b><br>
+<span>我觉得这效果已经很好了</span><br>
+<span>另外为什么非要1bit png，完全不考虑有损压缩嘛</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>dvd6 发表于 2019-8-13 21:14</span><br>
+<span>转黑白前调灰阶，转黑白这一步貌似就只能调阈值。感觉换着几个软件的操作是多余的，就用ps就行了吧 ...</span><br>
+<span>是多余，只是我觉得PS处理起来比较慢，手头又没有lightroom。</span><br>
+</p><p><b>傲游: </b><br>
+<span>webp估计比较符合要求</span><br>
+<span>以及heic可以试试</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-8-14 02:53 编辑 </span><br>
+<span>扫描问题一律 NAPS2 设置好 profile 然后 batch 模式</span><br>
+<span>扫描得对齐才好切啊，你这样歪来歪去的不如再扫一次吧。如果半页半页地扫，选好纸张大小。建议用 WIA 驱动</span><br>
+<span>黑白应该很省空间的建议看看黑白搭配1200DPI vs 300-600DPI灰度 你喜欢哪个</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span> 本帖最后由 lixianfyss 于 2019-8-14 02:59 编辑 </span><br>
+<span>ekdc11 发表于 2019-8-14 02:48</span><br>
+<span>扫描问题一律 NAPS2 设置好 profile 然后 batch 模式</span><br>
+<span>扫描得对齐才好切啊，你这样歪来歪去的不如再扫一次 ...</span><br>
+<span>这种谱子尺寸很诡异，大概是B4或者A3左右，一般家用扫描仪搞起来非常麻烦。我这还是拜托朋友帮我借的谱，用那种大号一体机扫描出来，根本不指望对齐。这次失策就在于没有叮嘱用黑白扫描，不然后续只需要旋转裁切就行。</span><br>
+</p><p><b>BRRM: </b><br>
+<span>我觉得问怎么处理之前应该说说为什么要处理，要处理多少，根据情况我甚至可以认为不处理是最好的选择。</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>提供个思路</span><br>
+<span>如果有时间有精力</span><br>
+<span>弄个西贝柳斯自己打谱如何？</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>BRRM 发表于 2019-8-14 04:27</span><br>
+<span>我觉得问怎么处理之前应该说说为什么要处理，要处理多少，根据情况我甚至可以认为不处理是最好的选择。 ...</span><br>
+<span>因为我要打印出来自己用，这个谱子有三十多页。不处理的话效果很差。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>SimonOpera 发表于 2019-8-14 06:28</span><br>
+<span>提供个思路</span><br>
+<span>如果有时间有精力</span><br>
+<span>谢谢，我不经常干这个事，如果是亲手操作的话我在扫描的时候就一步到位。这次是特事特办。</span><br>
+</p><p><b>zievod: </b><br>
+<span>irfan试试看？</span><br>
+<span>可以指定压缩后尺寸 也有锐化加粗的选项</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>GMJ: </b><br>
+<span>lixianfyss 发表于 2019-8-14 00:06</span><br>
+<span>是多余，只是我觉得PS处理起来比较慢，手头又没有lightroom。</span><br>
+<span>ps的自动动作和批处理了解下？</span><br>
+</p><p><b>沧粟: </b><br>
+<span>1bit黑白实在没必要，直接扫黑白和转黑白都试过，太难看了，边缘太锋利各种毛刺噪点，直接用灰度调高对比度就好</span><br>
+</p><p><b>dvd6: </b><br>
+<span>如果不是必须限制大小，保留灰度比较靠谱，纯黑白处理得再好，也得靠高分辨率才能模仿出细节吧，感觉lz那个附件看起来已经挺不错了</span><br>
+</p><p><b>BRRM: </b><br>
+<span> 本帖最后由 BRRM 于 2019-8-14 13:15 编辑 </span><br>
+<span>lixianfyss 发表于 2019-8-14 07:45</span><br>
+<span>谢谢，我不经常干这个事，如果是亲手操作的话我在扫描的时候就一步到位。这次是特事特办。 ...</span><br>
+<span>那就裁剪下、转个方向、拉个对比度，再稍微锐化下就好了呀，没事压缩它干啥。我还以为几十万、几百万张呢....</span><br>
+<span>你使劲拉对比度的同时，也是一个二值化的过程。</span><br>
+<span>分辨率不够会造成边缘模糊，锐化下能改善这个问题，但毛刺就没法避免了</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>avid家的photoscore支持乐谱识别omr</span><br>
+<span>要不要试试看，只需要改一点点错误而已~</span><br>
+</p><p><b>是音sama: </b><br>
+<span>西贝柳斯可以乐谱识别，pdf怼进去直接重新生成一份就好了</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>SimonOpera 发表于 2019-8-14 13:39</span><br>
+<span>avid家的photoscore支持乐谱识别omr</span><br>
+<span>要不要试试看，只需要改一点点错误而已~</span><br>
+<span>谢谢大佬，这个我用来抽分谱应该可以吧？</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>是音sama 发表于 2019-8-14 19:13</span><br>
+<span>西贝柳斯可以乐谱识别，pdf怼进去直接重新生成一份就好了</span><br>
+<span>谢谢，先进技术真是好。</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>lixianfyss 发表于 2019-8-15 00:54</span><br>
+<span>谢谢大佬，这个我用来抽分谱应该可以吧？</span><br>
+<span>扫描识别的时候photoscore是不支持识别tremolo的，需要进西贝柳斯添加；识别后如果一个小节内音符的时值与节拍号不符时，会显示为红色，这时候只需要手动修改音符或休止符的时值即可，一般就是符点不容易识别出而已；带括号的Fermata只能用文本工具加括号，比较麻烦。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853186[0-50]</guid>
+    </item>
+  </channel>
+</rss>

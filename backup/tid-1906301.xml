@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>4个多月了，冷水机终于到手了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>4个多月了，冷水机终于到手了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:04:33 +0000</lastBuildDate>
+    <item>
+      <title>4个多月了，冷水机终于到手了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906301-1-1.html</link>
+      <description>我的10980xe常规散热超不到5G,另外性能计数器的驱动哪里找?&#13;
+ 本帖最后由 downforce 于 2019-12-29 15:58 编辑 
+
+订购的冷水机卖家一直在推迟发货。11月11日下的单一开始让我等到12月底，现在又推到新年前。我倒是也等的起，但要是生产不出来就退款呗，不明白这么等下去有什么意义。
+&#13;
+既然CPU先到了，就拿现有的360一体水试试吧。说在前面，以下测试我把超线程关闭了。因为开着超线程，4.7G下xtu自己的cpu测试就温度过百了。
+&#13;
+第一步拆机就累了，为了装ax200无线网卡要把主板整个拿出来，几乎等于全部配件卸了重装。卸CPU时也要非常小心，因为7900x去了顶盖，拿掉散热就看见液金了，而且绝缘漆把CPU和裸压保护器粘一起了。
+&#13;
+具体模样可以看我以前的帖子。https://bbs.saraba1st.com/2b/thread-1782220-1-1.html小心翼翼的拿出CPU来，然后那一晚剩下的时间都在清理液金了。这还是没有把液金撒了，仅仅处理散热铜底、CPU表面和裸压保护器上面的液金的情况下。
+&#13;
+最后装起来的时候还发生了因为偷懒而事倍功半的事，卸主板时没把接头全移走，仅仅断开连接。全装好以后接线时发现显卡水冷的测温接头不见了，结果是压在了主板下面，于是又卸了一遍主板螺丝。还把一颗螺丝掉主板上找不到了，晃了好久的机箱结果找到了两颗散落的螺丝！ 
+&#13;
+幸好换的ax200效果令人满意。
+&#13;
+不过ax88u没有万兆lan口，从nas传东西还是只有90MB/s左右，这两千多的路由器反而成瓶颈了。
+&#13;
+说说超频的结果吧。先是麻烦的内存，因为128G跑mt200%要7个小时，找了个差不多的时序就这样吧。
+&#13;
+单条32G、599元的大S降级片这结果已经满足了。
+&#13;
+装CPU时发现手里只有液金和买液金送的硅脂以及追风者机箱送的硅脂。这次散热和cpu之间不是密封的不敢上液金了，随便拿了些硅脂涂了，并且下单了信越7868-2D。
+&#13;
+CPU散热是海盗船的360一体水冷h150i，关闭了超线程。室温26℃，未盖机箱盖。
+&#13;
+空闲时
+&#13;
+4.9G@1.23v、mesh3.2G@1.1G可稳定过R20 20圈，其他压力测试没做等更强力的散热再说。
+&#13;
+然而5G@1.28v下仍然不能过测R20，2到3圈就自动跳出了，而温度已经破百了。没有继续加电压测试了，等更强力的散热。。。
+&#13;
+PS：卖家实在拿不出货的话，买个工业冷水机？我看了一下特域机电的CW-5200AI好像不错，不过没有自动露点控制和随电脑自动启动。拿鱼缸冷水机DIY就算了，太丑。
+&#13;
+最后再问个问题，这个性能计数器是个啥？华硕和英特尔网站上能装的驱动都装过了没有和它有关的，没办法360驱动大师也试过了没提示相关驱动。驱动精灵没敢用。</description>
+      <content:encoded><![CDATA[<p><b>downforce: </b><br>
+<span>我的10980xe常规散热超不到5G,另外性能计数器的驱动哪里找?</span><br>
+<span> 本帖最后由 downforce 于 2019-12-29 15:58 编辑 </span><br>
+<span>订购的冷水机卖家一直在推迟发货。11月11日下的单一开始让我等到12月底，现在又推到新年前。我倒是也等的起，但要是生产不出来就退款呗，不明白这么等下去有什么意义。</span><br>
+<span>既然CPU先到了，就拿现有的360一体水试试吧。说在前面，以下测试我把超线程关闭了。因为开着超线程，4.7G下xtu自己的cpu测试就温度过百了。</span><br>
+<span>第一步拆机就累了，为了装ax200无线网卡要把主板整个拿出来，几乎等于全部配件卸了重装。卸CPU时也要非常小心，因为7900x去了顶盖，拿掉散热就看见液金了，而且绝缘漆把CPU和裸压保护器粘一起了。</span><br>
+<span>具体模样可以看我以前的帖子。https://bbs.saraba1st.com/2b/thread-1782220-1-1.html小心翼翼的拿出CPU来，然后那一晚剩下的时间都在清理液金了。这还是没有把液金撒了，仅仅处理散热铜底、CPU表面和裸压保护器上面的液金的情况下。</span><br>
+<span>最后装起来的时候还发生了因为偷懒而事倍功半的事，卸主板时没把接头全移走，仅仅断开连接。全装好以后接线时发现显卡水冷的测温接头不见了，结果是压在了主板下面，于是又卸了一遍主板螺丝。还把一颗螺丝掉主板上找不到了，晃了好久的机箱结果找到了两颗散落的螺丝！ </span><br>
+<span>幸好换的ax200效果令人满意。</span><br>
+<span>不过ax88u没有万兆lan口，从nas传东西还是只有90MB/s左右，这两千多的路由器反而成瓶颈了。</span><br>
+<span>说说超频的结果吧。先是麻烦的内存，因为128G跑mt200%要7个小时，找了个差不多的时序就这样吧。</span><br>
+<span>单条32G、599元的大S降级片这结果已经满足了。</span><br>
+<span>装CPU时发现手里只有液金和买液金送的硅脂以及追风者机箱送的硅脂。这次散热和cpu之间不是密封的不敢上液金了，随便拿了些硅脂涂了，并且下单了信越7868-2D。</span><br>
+<span>CPU散热是海盗船的360一体水冷h150i，关闭了超线程。室温26℃，未盖机箱盖。</span><br>
+<span>空闲时</span><br>
+<span>4.9G@1.23v、mesh3.2G@1.1G可稳定过R20 20圈，其他压力测试没做等更强力的散热再说。</span><br>
+<span>然而5G@1.28v下仍然不能过测R20，2到3圈就自动跳出了，而温度已经破百了。没有继续加电压测试了，等更强力的散热。。。</span><br>
+<span>PS：卖家实在拿不出货的话，买个工业冷水机？我看了一下特域机电的CW-5200AI好像不错，不过没有自动露点控制和随电脑自动启动。拿鱼缸冷水机DIY就算了，太丑。</span><br>
+<span>最后再问个问题，这个性能计数器是个啥？华硕和英特尔网站上能装的驱动都装过了没有和它有关的，没办法360驱动大师也试过了没提示相关驱动。驱动精灵没敢用。</span><br>
+</p><p><b>Radeon: </b><br>
+<span> 本帖最后由 Radeon 于 2019-12-29 16:04 编辑 </span><br>
+<span>这分数。。。。你确定没有降频？</span><br>
+</p><p><b>downforce: </b><br>
+<span>Radeon 发表于 2019-12-29 15:59</span><br>
+<span>这分数。。。。你确定没有降频？</span><br>
+<span>我关了超线程。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>性能计数器应该是这个：https://downloadcenter.intel.com/download/29227/Chipset-INF-Utility?product=53</span><br>
+</p><p><b>albertfu: </b><br>
+<span>360冷排压10980XE真的是想太多。。。。。。</span><br>
+<span>建议1080冷排走起，配8个18cm扇子简约实用</span><br>
+</p><p><b>downforce: </b><br>
+<span>Radeon 发表于 2019-12-29 16:05</span><br>
+<span>性能计数器应该是这个：https://downloadcenter.intel.com/download/29227/Chipset-INF-Utility?product=53 ...</span><br>
+<span>果然是，谢谢。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>downforce: </b><br>
+<span>albertfu 发表于 2019-12-29 16:21</span><br>
+<span>360冷排压10980XE真的是想太多。。。。。。</span><br>
+<span>建议1080冷排走起，配8个18cm扇子简约实用 ...</span><br>
+<span>这不是等冷水机嘛。闲着也是闲着，不开超线程倒也能用。用冷水机感觉机箱里管路会简化很多，也没有冷排占用空间。1080排也外置但感觉组装起来更麻烦。实在不行就工业冷水机了。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>downforce 发表于 2019-12-29 16:34</span><br>
+<span>这不是等冷水机嘛。闲着也是闲着，不开超线程倒也能用。用冷水机感觉机箱里管路会简化很多，也没有冷排占 ...</span><br>
+<span>冷水机看你的描述，那个商家可能要鸽。。。</span><br>
+<span>还是先工业冷水机走起吧，比传统冷排强多了。手算露点也不是不行，反正温度湿度不会老是变</span><br>
+<span>羡慕10980xe，1950x开smt也只有8k分出头 </span><br>
+</p><p><b>downforce: </b><br>
+<span>albertfu 发表于 2019-12-29 16:37</span><br>
+<span>冷水机看你的描述，那个商家可能要鸽。。。</span><br>
+<span>还是先工业冷水机走起吧，比传统冷排强多了。手算露点也不是 ...</span><br>
+<span>哪天开了电脑忘开冷水机电源就好玩了。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-12-29 01:24 编辑 </span><br>
+<span>我7980xe 4.8ghz都用了双240</span><br>
+<span>你一个360够个蛋蛋啊</span><br>
+<span>等不到压缩机我给你个方案</span><br>
+<span>Thermaltake Level 20 XT</span><br>
+<span>4个480 厚排</span><br>
+<span>对称又好看</span><br>
+<span>可以平放主板</span><br>
+<span>就能放心液金了</span><br>
+<span>如果嫌大，就用Thermaltake Level 20 VT</span><br>
+<span>冷排数足够，也和你加额外压缩机差不多大</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 人家360拿来压5G的8核都有压力</span><br>
+</p><p><b>downforce: </b><br>
+<span>天神十三煞 发表于 2019-12-29 17:05</span><br>
+<span>我7980xe 4.8ghz都用了双240</span><br>
+<span>你一个360够个蛋蛋啊</span><br>
+<span>闲着瞎搞嘛。</span><br>
+<span>TT这个是机箱啊，还以为外置散热器。</span><br>
+<span>不要了，装这么多冷排太累，接口有多容易出问题。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span> 本帖最后由 DeepFishing 于 2019-12-30 19:38 编辑 </span><br>
+<span>明天我用3950关超线程跑跑看，我就只有破烂散热了</span><br>
+<span>更新：</span><br>
+<span>r20关闭超线程只有7000多，超频超不上去</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>downforce 发表于 2019-12-29 16:40</span><br>
+<span>哪天开了电脑忘开冷水机电源就好玩了。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版...</span><br>
+<span>联动开关可以解决</span><br>
+<span>嫌冷排多还是1080排能简化线路，我现在2个560排就嫌烦了，还有闲置的冷排也懒得加上去，因为瓶颈不在散热规模而在冷头的热交换效率上</span><br>
+</p><p><b>苏三: </b><br>
+<span>在？看看我的垃圾山itx。散热是2路分体，4个泵（其中2个DDC 18W，1个ocool 6W，一个国产10W），240排X3（其中一个加厚排），12cm风扇X8（其中2个220V带调速寨扇，6个12V贼船）。</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>苏三 发表于 2020-2-19 18:58</span><br>
+<span>在？看看我的垃圾山itx。散热是2路分体，4个泵（其中2个DDC 18W，1个ocool 6W，一个国产10W），240排X3（ ...</span><br>
+<span>…………</span><br>
+<span>你这个让我想起来用旅行箱供电的手表那个段子</span><br>
+</p><p><b>遗尿: </b><br>
+<span>苏三 发表于 2020-2-19 18:58</span><br>
+<span>在？看看我的垃圾山itx。散热是2路分体，4个泵（其中2个DDC 18W，1个ocool 6W，一个国产10W），240排X3（ ...</span><br>
+<span>宏基的固态？用起来怎么样？</span><br>
+</p><p><b>downforce: </b><br>
+<span>苏三 发表于 2020-2-19 18:58</span><br>
+<span>在？看看我的垃圾山itx。散热是2路分体，4个泵（其中2个DDC 18W，1个ocool 6W，一个国产10W），240排X3（ ...</span><br>
+<span>我决定继续等冷水机，价格不变压缩机功率提升到1000w。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>苏三: </b><br>
+<span>遗尿 发表于 2020-2-19 19:05</span><br>
+<span>宏基的固态？用起来怎么样？</span><br>
+<span>意外的不错，主要性价比无敌，做仓库盘</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906301[0-50]</guid>
+    </item>
+  </channel>
+</rss>

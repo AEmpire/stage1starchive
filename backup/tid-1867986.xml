@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>瞎折腾了几天超频，好像也没啥用？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>瞎折腾了几天超频，好像也没啥用？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:44:32 +0000</lastBuildDate>
+    <item>
+      <title>瞎折腾了几天超频，好像也没啥用？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1867986-1-1.html</link>
+      <description>瞎折腾了几天超频，好像也没啥用？&#13;
+ 本帖最后由 伊克路西安 于 2019-11-26 15:43 编辑 
+
+目前CPU和内存策略已经定下来了
+&#13;
+cpu: 3600 1.325v锁4.1ghz
+&#13;
+内存：科赋2666单16g双面cjr颗粒普条x2 超 3600mhz 1.36v 16-20-18-20-36-56 cr1 延迟71.5ns （刚超的时候还是70.5ns，重启几次就变成71.5了）
+&#13;
+因为主要用来打游戏，所以拿3dmark当考核标准了（1-5 gpu默频1910mhz，实际工作频率在1850mhz波动）：
+&#13;
+1. cpu pbo开启，内存默频：
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zvv5gyj31r10wxago.jpg
+&#13;
+cpu分6875，23.1 fps
+&#13;
+2. cpu 1.325v锁4.1，内存默频：
+&#13;
+https://tvax3.sinaimg.cn/large/005N28QLly1g9b9zw1kmrj31qv0yd448.jpg
+&#13;
+cpu分7012，23.56 fps。 虽然提升了137分，但是也就0.46fps
+&#13;
+3.cpu 1.325v锁4.1，内存超3600 cl16，延迟大概70ns，没有测稳定性：
+&#13;
+https://tva2.sinaimg.cn/large/005N28QLly1g9b9zw741dj31r30xltf8.jpg
+&#13;
+分倒是飙升到7713，fps25.91，提了2.35，差不多10%的提升，算是非常可观
+&#13;
+4.cpu 1.325v锁4.1 内存超3800 c16 延迟大概66.6ns，没测稳定性：
+&#13;
+这个测试结果被我误删了，分大概是7895，fps应该是26.4fps左右，虽然分数拉了接近两百分，但是fps只提了0.5fps，1.8%，没啥用
+&#13;
+5.cpu 1.325v锁4.1 内存按计算器填的3600 safe策略，延迟大概71.5ns。1.35v跑RMTP，会在60-80%中，有一个线程连出5个错误，但是过了之后又什么都没有，而且不知道为啥我有些线程是另一些线程速度的两倍，图个安心就加了0.01v
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9bacocs05j32f71hdavc.jpg
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zwck1dj31k10yvthx.jpg
+&#13;
+实际上cpu下降了200分，25.21fps，这0.7帧倒是降挺多的，2.6%
+&#13;
+6.cpu 内存同5，gpu拉到2050mhz 1.15v（实际工作频率在2000波动）（拉到2100mhz，1.15v会掉驱动，驱动版本是19.11.3 非whql）
+&#13;
+https://tva1.sinaimg.cn/large/005N28QLly1g9b9zwk23pj31kl0zm141.jpg
+&#13;
+gpu分提升442分（5700xt平均是8900），总分提升364分，算是都超过平均水平了，但是实际上帧数提升3.14fps、2.37fps，百分比约为5.3% 5%
+&#13;
+考虑到我用的就是4k60hz显示器，也不玩fps，玩游戏注重画质应该会把fps控制在60-80左右为宜，那么超频带来的提升大概也就几帧之差，感觉有点瞎折腾的意思 
+&#13;
+目前考虑的就是
+&#13;
+1. 怎么保证稳定性的情况下内存延迟再压低一点了，感觉压到69.7-70.2之间是比较理想的状态，再压低好像提升不大，稳定性损失倒不小，但是到底是调时序还是升频率呢？
+&#13;
+2. 还有就是盈通5700xt女装大佬这张卡的风扇策略了，我在全局wattman里调了之后这货好像还是满载就上2100转，感觉它的风扇转速判断标准是按照功率来的而不是温度
+&#13;
+实际上gpu默频满载温度 61-65度，风扇2100转，超频满载温度60-63度，风扇2300转，明明我的风扇曲线是80度以上才会转到50%，也就是1800。还是说驱动里这个风扇转速是根据热点来的 ？
+&#13;
+3. 我的热点温度倒是挺高的，超频时温度60-63度，这时热点大概在80-89度，默频的时候因为转速低一点热点温度反而会更高，听说热点115度以上才会自动降频，似乎没什么大不了？
+&#13;
+4. A卡掉驱动是真的，不过我目前只有在超频且电压没拉够的情况下才会掉驱动
+&#13;
+5. RMTP，60线程，线程速度一些是另一些两倍，是线程开的太多了吗？而且两个小时才全部达到100%，有点慢
+&#13;
+6. 我感觉我cpu gpu温度都好低。。cpu 1.325v 单拷fpu10分钟才67度，这个电压好像也不算低了，我C12风扇在60-70也就50%转速
+&#13;
+GPU的话更是才60度出头，但是风扇转速太激进所以很吵，可以的话希望牺牲一点温度换来噪音小点</description>
+      <content:encoded><![CDATA[<p><b>暗影翔: </b><br>
+<span>8400gs 发表于 2019-12-7 00:32</span><br>
+<span>Silicon Lottery的binning结果里面，3800x也只有20%可以1.3V跑4.3G过FPU</span><br>
+<span>3700x要是能这个频率和电压可以 ...</span><br>
+<span>原来只有这样啊，还好没换。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1867986[50-100]</guid>
+    </item>
+    <item>
+      <title>瞎折腾了几天超频，好像也没啥用？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1867986-1-1.html</link>
+      <description>瞎折腾了几天超频，好像也没啥用？&#13;
+ 本帖最后由 伊克路西安 于 2019-11-26 15:43 编辑 
+
+目前CPU和内存策略已经定下来了
+&#13;
+cpu: 3600 1.325v锁4.1ghz
+&#13;
+内存：科赋2666单16g双面cjr颗粒普条x2 超 3600mhz 1.36v 16-20-18-20-36-56 cr1 延迟71.5ns （刚超的时候还是70.5ns，重启几次就变成71.5了）
+&#13;
+因为主要用来打游戏，所以拿3dmark当考核标准了（1-5 gpu默频1910mhz，实际工作频率在1850mhz波动）：
+&#13;
+1. cpu pbo开启，内存默频：
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zvv5gyj31r10wxago.jpg
+&#13;
+cpu分6875，23.1 fps
+&#13;
+2. cpu 1.325v锁4.1，内存默频：
+&#13;
+https://tvax3.sinaimg.cn/large/005N28QLly1g9b9zw1kmrj31qv0yd448.jpg
+&#13;
+cpu分7012，23.56 fps。 虽然提升了137分，但是也就0.46fps
+&#13;
+3.cpu 1.325v锁4.1，内存超3600 cl16，延迟大概70ns，没有测稳定性：
+&#13;
+https://tva2.sinaimg.cn/large/005N28QLly1g9b9zw741dj31r30xltf8.jpg
+&#13;
+分倒是飙升到7713，fps25.91，提了2.35，差不多10%的提升，算是非常可观
+&#13;
+4.cpu 1.325v锁4.1 内存超3800 c16 延迟大概66.6ns，没测稳定性：
+&#13;
+这个测试结果被我误删了，分大概是7895，fps应该是26.4fps左右，虽然分数拉了接近两百分，但是fps只提了0.5fps，1.8%，没啥用
+&#13;
+5.cpu 1.325v锁4.1 内存按计算器填的3600 safe策略，延迟大概71.5ns。1.35v跑RMTP，会在60-80%中，有一个线程连出5个错误，但是过了之后又什么都没有，而且不知道为啥我有些线程是另一些线程速度的两倍，图个安心就加了0.01v
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9bacocs05j32f71hdavc.jpg
+&#13;
+https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zwck1dj31k10yvthx.jpg
+&#13;
+实际上cpu下降了200分，25.21fps，这0.7帧倒是降挺多的，2.6%
+&#13;
+6.cpu 内存同5，gpu拉到2050mhz 1.15v（实际工作频率在2000波动）（拉到2100mhz，1.15v会掉驱动，驱动版本是19.11.3 非whql）
+&#13;
+https://tva1.sinaimg.cn/large/005N28QLly1g9b9zwk23pj31kl0zm141.jpg
+&#13;
+gpu分提升442分（5700xt平均是8900），总分提升364分，算是都超过平均水平了，但是实际上帧数提升3.14fps、2.37fps，百分比约为5.3% 5%
+&#13;
+考虑到我用的就是4k60hz显示器，也不玩fps，玩游戏注重画质应该会把fps控制在60-80左右为宜，那么超频带来的提升大概也就几帧之差，感觉有点瞎折腾的意思 
+&#13;
+目前考虑的就是
+&#13;
+1. 怎么保证稳定性的情况下内存延迟再压低一点了，感觉压到69.7-70.2之间是比较理想的状态，再压低好像提升不大，稳定性损失倒不小，但是到底是调时序还是升频率呢？
+&#13;
+2. 还有就是盈通5700xt女装大佬这张卡的风扇策略了，我在全局wattman里调了之后这货好像还是满载就上2100转，感觉它的风扇转速判断标准是按照功率来的而不是温度
+&#13;
+实际上gpu默频满载温度 61-65度，风扇2100转，超频满载温度60-63度，风扇2300转，明明我的风扇曲线是80度以上才会转到50%，也就是1800。还是说驱动里这个风扇转速是根据热点来的 ？
+&#13;
+3. 我的热点温度倒是挺高的，超频时温度60-63度，这时热点大概在80-89度，默频的时候因为转速低一点热点温度反而会更高，听说热点115度以上才会自动降频，似乎没什么大不了？
+&#13;
+4. A卡掉驱动是真的，不过我目前只有在超频且电压没拉够的情况下才会掉驱动
+&#13;
+5. RMTP，60线程，线程速度一些是另一些两倍，是线程开的太多了吗？而且两个小时才全部达到100%，有点慢
+&#13;
+6. 我感觉我cpu gpu温度都好低。。cpu 1.325v 单拷fpu10分钟才67度，这个电压好像也不算低了，我C12风扇在60-70也就50%转速
+&#13;
+GPU的话更是才60度出头，但是风扇转速太激进所以很吵，可以的话希望牺牲一点温度换来噪音小点</description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>瞎折腾了几天超频，好像也没啥用？</span><br>
+<span> 本帖最后由 伊克路西安 于 2019-11-26 15:43 编辑 </span><br>
+<span>目前CPU和内存策略已经定下来了</span><br>
+<span>cpu: 3600 1.325v锁4.1ghz</span><br>
+<span>内存：科赋2666单16g双面cjr颗粒普条x2 超 3600mhz 1.36v 16-20-18-20-36-56 cr1 延迟71.5ns （刚超的时候还是70.5ns，重启几次就变成71.5了）</span><br>
+<span>因为主要用来打游戏，所以拿3dmark当考核标准了（1-5 gpu默频1910mhz，实际工作频率在1850mhz波动）：</span><br>
+<span>1. cpu pbo开启，内存默频：</span><br>
+<img src="https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zvv5gyj31r10wxago.jpg" title="https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zvv5gyj31r10wxago.jpg"><br>
+<span>cpu分6875，23.1 fps</span><br>
+<span>2. cpu 1.325v锁4.1，内存默频：</span><br>
+<img src="https://tvax3.sinaimg.cn/large/005N28QLly1g9b9zw1kmrj31qv0yd448.jpg" title="https://tvax3.sinaimg.cn/large/005N28QLly1g9b9zw1kmrj31qv0yd448.jpg"><br>
+<span>cpu分7012，23.56 fps。 虽然提升了137分，但是也就0.46fps</span><br>
+<span>3.cpu 1.325v锁4.1，内存超3600 cl16，延迟大概70ns，没有测稳定性：</span><br>
+<img src="https://tva2.sinaimg.cn/large/005N28QLly1g9b9zw741dj31r30xltf8.jpg" title="https://tva2.sinaimg.cn/large/005N28QLly1g9b9zw741dj31r30xltf8.jpg"><br>
+<span>分倒是飙升到7713，fps25.91，提了2.35，差不多10%的提升，算是非常可观</span><br>
+<span>4.cpu 1.325v锁4.1 内存超3800 c16 延迟大概66.6ns，没测稳定性：</span><br>
+<span>这个测试结果被我误删了，分大概是7895，fps应该是26.4fps左右，虽然分数拉了接近两百分，但是fps只提了0.5fps，1.8%，没啥用</span><br>
+<span>5.cpu 1.325v锁4.1 内存按计算器填的3600 safe策略，延迟大概71.5ns。1.35v跑RMTP，会在60-80%中，有一个线程连出5个错误，但是过了之后又什么都没有，而且不知道为啥我有些线程是另一些线程速度的两倍，图个安心就加了0.01v</span><br>
+<img src="https://tvax1.sinaimg.cn/large/005N28QLly1g9bacocs05j32f71hdavc.jpg" title="https://tvax1.sinaimg.cn/large/005N28QLly1g9bacocs05j32f71hdavc.jpg"><br>
+<img src="https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zwck1dj31k10yvthx.jpg" title="https://tvax1.sinaimg.cn/large/005N28QLly1g9b9zwck1dj31k10yvthx.jpg"><br>
+<span>实际上cpu下降了200分，25.21fps，这0.7帧倒是降挺多的，2.6%</span><br>
+<span>6.cpu 内存同5，gpu拉到2050mhz 1.15v（实际工作频率在2000波动）（拉到2100mhz，1.15v会掉驱动，驱动版本是19.11.3 非whql）</span><br>
+<img src="https://tva1.sinaimg.cn/large/005N28QLly1g9b9zwk23pj31kl0zm141.jpg" title="https://tva1.sinaimg.cn/large/005N28QLly1g9b9zwk23pj31kl0zm141.jpg"><br>
+<span>gpu分提升442分（5700xt平均是8900），总分提升364分，算是都超过平均水平了，但是实际上帧数提升3.14fps、2.37fps，百分比约为5.3% 5%</span><br>
+<span>考虑到我用的就是4k60hz显示器，也不玩fps，玩游戏注重画质应该会把fps控制在60-80左右为宜，那么超频带来的提升大概也就几帧之差，感觉有点瞎折腾的意思 </span><br>
+<span>目前考虑的就是</span><br>
+<span>1. 怎么保证稳定性的情况下内存延迟再压低一点了，感觉压到69.7-70.2之间是比较理想的状态，再压低好像提升不大，稳定性损失倒不小，但是到底是调时序还是升频率呢？</span><br>
+<span>2. 还有就是盈通5700xt女装大佬这张卡的风扇策略了，我在全局wattman里调了之后这货好像还是满载就上2100转，感觉它的风扇转速判断标准是按照功率来的而不是温度</span><br>
+<span>实际上gpu默频满载温度 61-65度，风扇2100转，超频满载温度60-63度，风扇2300转，明明我的风扇曲线是80度以上才会转到50%，也就是1800。还是说驱动里这个风扇转速是根据热点来的 ？</span><br>
+<span>3. 我的热点温度倒是挺高的，超频时温度60-63度，这时热点大概在80-89度，默频的时候因为转速低一点热点温度反而会更高，听说热点115度以上才会自动降频，似乎没什么大不了？</span><br>
+<span>4. A卡掉驱动是真的，不过我目前只有在超频且电压没拉够的情况下才会掉驱动</span><br>
+<span>5. RMTP，60线程，线程速度一些是另一些两倍，是线程开的太多了吗？而且两个小时才全部达到100%，有点慢</span><br>
+<span>6. 我感觉我cpu gpu温度都好低。。cpu 1.325v 单拷fpu10分钟才67度，这个电压好像也不算低了，我C12风扇在60-70也就50%转速</span><br>
+<span>GPU的话更是才60度出头，但是风扇转速太激进所以很吵，可以的话希望牺牲一点温度换来噪音小点</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>我也是4k60hz党想问问楼主用5700xt跑3a 4k分辨率下帧数表现怎么样，cpu内存都和你一样</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>LZ你游戏玩上了没有？</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>拉内存更大的意义在于帧数稳定性和最低帧，这个跑分的时候往往是看不出来的</span><br>
+</p><p><b>johnie: </b><br>
+<span>跑游戏最直观 超cpu和内存对高帧数下游戏提升挺大的</span><br>
+</p><p><b>albertfu: </b><br>
+<span>4k的话除非旗舰卡多卡，否则大概率gpu瓶颈，折腾cpu和内存适可为止，对打游戏收益有限 </span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-11-26 12:21 编辑 </span><br>
+<span>faithlifer 发表于 2019-11-26 12:00</span><br>
+<span>我也是4k60hz党想问问楼主用5700xt跑3a 4k分辨率下帧数表现怎么样，cpu内存都和你一样 ...</span><br>
+<span>我双11买的 大概16-18号到齐 除了固态20号才到 折腾到现在还没有打开过游戏</span><br>
+<span>你显卡是啥啊 cpu内存频率怎么定的</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>宅男的爱 发表于 2019-11-26 12:07</span><br>
+<span>LZ你游戏玩上了没有？</span><br>
+<span>不要再说了。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>johnie 发表于 2019-11-26 12:10</span><br>
+<span>跑游戏最直观 超cpu和内存对高帧数下游戏提升挺大的</span><br>
+<span>我在网上看到有说法是 网游对内存频率变化比较敏感 单机似乎影响不大</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>albertfu 发表于 2019-11-26 12:11</span><br>
+<span>4k的话除非旗舰卡多卡，否则大概率gpu瓶颈，折腾cpu和内存适可为止，对打游戏收益有限...</span><br>
+<span>是的 感觉这几天瞎折腾了 </span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>试制甲炮 发表于 2019-11-26 12:10</span><br>
+<span>拉内存更大的意义在于帧数稳定性和最低帧，这个跑分的时候往往是看不出来的 ...</span><br>
+<span>我有看到有人说拉内存频率可以显著提高网游最低帧 </span><br>
+<span>在高帧数下稳最低帧也比较好</span><br>
+<span>但是单机游戏和60hz显示器也对最低帧有不小帮助吗</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>johnie: </b><br>
+<span>伊克路西安 发表于 2019-11-26 12:13</span><br>
+<span>我在网上看到有说法是 网游对内存频率变化比较敏感 单机似乎影响不大</span><br>
+<span>—— 来自 Sony G8142, And ...</span><br>
+<span>我玩的里 bfv和吃鸡感觉很吃平台</span><br>
+<span>吃鸡我内存从3200换到4133 最低帧最少提高了10</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-11-26 15:30 编辑 </span><br>
+<span>显卡整的差不多了，频率超到2000mhz @1100mV ，风扇拉低 实际频率差不多1870-1930</span><br>
+<span>现在跑ts和FSE只有60度左右，风扇1600-1750转，又安静又凉快fse显卡分12611 </span><br>
+<span>ts显卡分8930</span><br>
+<span>fse压力测试20圈峰值温度差不多70度，风扇基本上1800转，峰值会上2100，稳定性99%</span><br>
+<span>感觉我超频折腾的全是控温控噪</span><br>
+<span>不过有个问题，不知道是否CPU电压给低了，有极小部分时间会感到卡顿 但是1.325v 4.1ghz感觉挺保守的啊</span><br>
+<img src="https://tvax2.sinaimg.cn/large/005N28QLly1g9bgy6ddefj31s71iu14o.jpg" title="https://tvax2.sinaimg.cn/large/005N28QLly1g9bgy6ddefj31s71iu14o.jpg"><br>
+<img src="https://tvax1.sinaimg.cn/large/005N28QLly1g9bgy6we9oj31r30xptd3.jpg" title="https://tvax1.sinaimg.cn/large/005N28QLly1g9bgy6we9oj31r30xptd3.jpg"><br>
+<img src="https://tva1.sinaimg.cn/large/005N28QLly1g9bgy74gd8j32yo1fg7wh.jpg" title="https://tva1.sinaimg.cn/large/005N28QLly1g9bgy74gd8j32yo1fg7wh.jpg"><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>觉得cpu温度低加压上更高频啊……</span><br>
+<span>遇到个跟我一样雷的，3900x 1.35v只能分ccd 4.375+4.275，跑个fpu 90度。效果嘛，单核比默认（pbo）低1%，多核高了8%，温度高了不到20度，你说值不值</span><br>
+</p><p><b>你可以试试: </b><br>
+<span>当然有用了，数据多好看，获得的乐趣远胜于玩游戏</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>dongjuanyong 发表于 2019-11-26 15:31</span><br>
+<span>觉得cpu温度低加压上更高频啊……</span><br>
+<span>遇到个跟我一样雷的，3900x 1.35v只能分ccd 4.375+4.275，跑个fpu 90度。 ...</span><br>
+<span>我加到1.375v跑4.2 单拷FPU还是一秒蓝屏</span><br>
+<span>感觉起码要加到1.4v，还不一定能跑。。0.75v换0.1ghz提升不需要。。</span><br>
+<span>我是比较在意温度和噪音的那种选手</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>你可以试试 发表于 2019-11-26 15:31</span><br>
+<span>当然有用了，数据多好看，获得的乐趣远胜于玩游戏</span><br>
+<span>果然3dmark才是全世界最好玩的游戏</span><br>
+</p><p><b>猫溺泉君: </b><br>
+<span>不知道amd怎么样，但是我的7900 全核心4.8GHz@1.21V，2080ti 2.1Ghz，内存C14 4333</span><br>
+<span>总体感觉就是跑分更高，风扇拉满，傻逼intel用硅脂活该被摁在地上打</span><br>
+<span>单核游戏总归是cpu频率越高约好，打SC2的时候显卡占用才40%不到，跟逛街似的、、、、</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>我感觉高分辨率没啥CPU瓶颈吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>LZ你还在折腾啊……</span><br>
+<span>结论如下：</span><br>
+<span>有的游戏吃内存频率，比如吃鸡，3600肯定比2666强得多，有的不吃，众生平等奥德赛，你超到冒烟也强不了多少</span><br>
+<span>MT你开那么多线程做什么……6C12T就开12个线程结束了</span><br>
+</p><p><b>johnie: </b><br>
+<span>EraserKing 发表于 2019-11-26 16:00</span><br>
+<span>LZ你还在折腾啊……</span><br>
+<span>结论如下：</span><br>
+<span>有的游戏吃内存频率，比如吃鸡，3600肯定比2666强得多，有的不吃，众生平等 ...</span><br>
+<span>众生平等奥德赛 9900k 5g一样给我cpu占用率95%+ 分分钟觉得自己电脑配置不行</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>EraserKing 发表于 2019-11-26 16:00</span><br>
+<span>LZ你还在折腾啊……</span><br>
+<span>结论如下：</span><br>
+<span>有的游戏吃内存频率，比如吃鸡，3600肯定比2666强得多，有的不吃，众生平等 ...</span><br>
+<span>折腾完了=，= 差不多可以打游戏了</span><br>
+<span>MT我下载下来默认60，如果开12，单个线程只能2048g，内存只能跑24G，还有8G空的不知道有没有影响。。</span><br>
+</p><p><b>8400gs: </b><br>
+<span>伊克路西安 发表于 2019-11-26 15:35</span><br>
+<span>我加到1.375v跑4.2 单拷FPU还是一秒蓝屏</span><br>
+<span>感觉起码要加到1.4v，还不一定能跑。。0.75v换0.1ghz提升不需要 ...</span><br>
+<span>是0.075V吧……</span><br>
+<span>这代有人说1.325V安全的有说1.5V安全的也不知道哪个靠谱</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>8400gs 发表于 2019-11-26 16:11</span><br>
+<span>是0.075V吧……</span><br>
+<span>这代有人说1.325V安全的有说1.5V安全的也不知道哪个靠谱</span><br>
+<span>肯定1.5V啊，要是1.325V safe的话出厂估计就要死掉不少了，毕竟AUTO下1.4V+是正常现象</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>伊克路西安 发表于 2019-11-26 16:04</span><br>
+<span>折腾完了=，= 差不多可以打游戏了</span><br>
+<span>MT我下载下来默认60，如果开12，单个线程只能2048g，内存只能跑24G，还 ...</span><br>
+<span>那就16吧……我8C16T跑32G，16线程正好，没想过这个问题</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>johnie 发表于 2019-11-26 16:04</span><br>
+<span>众生平等奥德赛 9900k 5g一样给我cpu占用率95%+ 分分钟觉得自己电脑配置不行 ...</span><br>
+<span>隔壁NGA不是说9900K 5.3基本盘么，往死里超</span><br>
+</p><p><b>albertfu: </b><br>
+<span>EraserKing 发表于 2019-11-26 16:19</span><br>
+<span>隔壁NGA不是说9900K 5.3基本盘么，往死里超</span><br>
+<span>9900K超死掉点不亮的还少吗。。。</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>伊克路西安 发表于 2019-11-26 12:11</span><br>
+<span>我双11买的 大概16-18号到齐 除了固态20号才到 折腾到现在还没有打开过游戏</span><br>
+<span>你显卡是啥啊 cpu内存频率怎 ...</span><br>
+<span>我是1070，cpu 1.3v嗦4.1g，内存直接用的try it设置成3800</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>albertfu 发表于 2019-11-26 16:23</span><br>
+<span>9900K超死掉点不亮的还少吗。。。</span><br>
+<span>NGA可不是这么说的</span><br>
+</p><p><b>騜: </b><br>
+<span>我可以预言 你的下一个帖子就是来骂A卡驱动了</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>騜 发表于 2019-11-26 16:34</span><br>
+<span>我可以预言 你的下一个帖子就是来骂A卡驱动了</span><br>
+<span>想了一下CPU和内存好像脸都挺黑的，显卡翻车也不奇怪了</span><br>
+</p><p><b>johnie: </b><br>
+<span>EraserKing 发表于 2019-11-26 16:19</span><br>
+<span>隔壁NGA不是说9900K 5.3基本盘么，往死里超</span><br>
+<span>nga硬件区不是人均拿着3600说99k 5.5g基本盘么</span><br>
+<span>我所接触的社区里 nga应该是最穷的了 印象里7年前我在太平洋做电商客服的时候 来问装机的预算平均就3500-4000…我们店根本懒得做这种生意 直接推一个plu合作款主机给他们了事</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>johnie 发表于 2019-11-26 16:44</span><br>
+<span>nga硬件区不是人均拿着3600说99k 5.5g基本盘么</span><br>
+<span>我所接触的社区里 nga应该是最穷的了 印象里7年前 ...</span><br>
+<span>我就这么一说啊，调侃一下哪能当真 </span><br>
+<span>5.5基本盘还要KS做啥 </span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>感觉还好吧，一般3600的CPU都不会是啥瓶颈吧，我之前跑的tshttps://i.loli.net/2019/11/26/6f2tkNGmZOB9YSr.png</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>orca: </b><br>
+<span>MT的高级里可以设置单线程最大值的，改大一点就可以12线程跑满32G了。线程多了各线程进度差距大超蛋疼，有的都300%多了，有的才100%出头</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>我把CPU电压从 1.3250V 加到 1.3375 v，频率还是4.1ghz，感觉丝滑好多</span><br>
+<span>玄学还是科学？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>伊克路西安 发表于 2019-11-26 20:24</span><br>
+<span>我把CPU电压从 1.3250V 加到 1.3375 v，频率还是4.1ghz，感觉丝滑好多</span><br>
+<span>玄学还是科学？ ...</span><br>
+<span>玄学吧，直接开pbo用吧，虽然自动电压很高。</span><br>
+<span>任务管理器里的频率和ryzen master里看到的不一样吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>莱莎工作室这游戏是a黑还是优化太烂？</span><br>
+<span>区区一个萌豚游戏堂堂5700xt开4k玩才30-40帧</span><br>
+<span>过场动画48帧 奇葩</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>johnie: </b><br>
+<span>伊克路西安 发表于 2019-11-26 23:02</span><br>
+<span>莱莎工作室这游戏是a黑还是优化太烂？</span><br>
+<span>区区一个萌豚游戏堂堂5700xt开4k玩才30-40帧</span><br>
+<span>过场动画48帧 奇葩</span><br>
+<span>萌豚游戏大多a黑 习惯就好</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>阶段性总结一下，这段时间玩了莱莎和只狼</span><br>
+<span>1. 莱莎4K，全最高的话，5700xt在村里只有40帧左右，关了高光之后基本能55-60帧，但是有时候还是会掉帧，玩了一会之后觉得回合制实在不适合我，哪怕有肥猪肉腿也不行，不玩了</span><br>
+<span>2. 只狼，4K全最高的话，源之宫这种场景基本上是50帧左右，但是帧生成时间很平滑，感觉不到卡顿。苇名大火之后帧数大概45-60波动比较大，这时候反而能感觉比较卡。有些场景GPU利用率会暴跌，频率也会暴跌，也会有点顿卡。</span><br>
+<span>尝试降一档，4K全高，利用率上不去的情况比反而全最高更多，感觉更卡一点，掉帧攻击的时候更多，但是利用率不掉，不降频的时候60帧算是比较稳的</span><br>
+<span>总体来说，5700xt的性能应该是可以满足只狼4k全高60，但是不能一直很好的调动起来GPU，所以不是太让人满意。不知道N卡是不是好一点</span><br>
+<span>我的5700xt在驱动里频率拉到2000mhz/1100mV，显存默频，风扇曲线调的保守了一点，玩只狼的时候大概是67-71度，风扇1600转，在分形R5静音棉缓冲下，不开声音还是能听到一些轻微的啸叫，但是玩游戏的时候BGM一响，风扇和啸叫就注意不到了（BGM停下来还是能注意到，但是不大）</span><br>
+<span>目前打完一周目，用SL大法打了四结局全BOSS全佛珠，没有遇到一次蓝屏一次黑屏一次掉驱动一次跳出，感觉还可以 </span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>我人傻了，中午刚阶段性总结完，开始玩鬼泣5，然后只狼那种GPU调用不起来的问题没了</span><br>
+<span>玩鬼泣5GPU常年最高频，啸叫来了 原来之前是因为只狼太温柔所以它叫的不厉害</span><br>
+<span>也不是多大，但是BGM停下来很难不注意到，就很烦，看有人说换电源有改善，可是我的HCG750还是滤波电容线，应该没问题吧</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>你这3600体质一般啊。我的1700x，1.3v都能锁全核3.8g，到了7nm要1.3v能4g以上还差不多。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>暗影翔 发表于 2019-12-6 21:21</span><br>
+<span>你这3600体质一般啊。我的1700x，1.3v都能锁全核3.8g，到了7nm要1.3v能4g以上还差不多。</span><br>
+<span>----发送自 Sony...</span><br>
+<span>明明就是雷。。哪是一般啊</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>kvll32: </b><br>
+<span> 本帖最后由 kvll32 于 2019-12-6 22:39 编辑 </span><br>
+<span>9102年了还有人玩超频</span><br>
+<span>目前的两家的架构设计殊途同归，IPC提升来源于L2缓存命中率提升而非频率提升加上工艺天花板，AI两家的旗舰U都是官方灰烬版了，3600这种你手里的已经是大雕了，我的36000超0.2G都蓝屏给你看。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>kvll32 发表于 2019-12-6 22:37</span><br>
+<span>9102年了还有人玩超频</span><br>
+<span>目前的两家的架构设计殊途同归，IPC提升来源于L2缓存命中率提升而非频率提升加上工艺 ...</span><br>
+<span>官方标称4.2 我降频用的。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>暗影翔: </b><br>
+<span> 本帖最后由 暗影翔 于 2019-12-6 23:15 编辑 </span><br>
+<span>伊克路西安 发表于 2019-12-6 22:30</span><br>
+<span>明明就是雷。。哪是一般啊</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha ...</span><br>
+<span>没怎么关注zen2的体制，但是感觉要到我说的才能算合格，稍微好点要1.3v@4.3。</span><br>
+<span>不过zen的默认电压太高了，降压略降频功耗和发热减少很多。</span><br>
+</p><p><b>8400gs: </b><br>
+<span>暗影翔 发表于 2019-12-6 23:14</span><br>
+<span>没怎么关注zen2的体制，但是感觉要到我说的才能算合格，稍微好点要1.3v@4.3。</span><br>
+<span>不过zen的默认电压太高了， ...</span><br>
+<span>Silicon Lottery的binning结果里面，3800x也只有20%可以1.3V跑4.3G过FPU</span><br>
+<span>3700x要是能这个频率和电压可以算大雕了</span><br>
+<span>3600就更难了</span><br>
+</p><p><b>Sorastlos: </b><br>
+<span>我也是4K60Hz的玩家…</span><br>
+<span>我是锁3.7g的1700+3000MHz的金士顿掠夺者内存+铭瑄的2080s</span><br>
+<span>跑过3Dmark的稳定性测试没什么问题。</span><br>
+<span>玩下来今年的COD现代战争很稳，4k全高一直是60+，命运2 4k全高PVE就会掉帧，掉到50这样</span><br>
+<span>星战就很惨，勉强在60，经常掉。</span><br>
+<span>反正就是比较稳，用afterburner看满载cpu60℃，gpu80℃，3个月下来就中间cod莫名死机了一次，后面也没再遇到。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-12-7 16:01 编辑 </span><br>
+<span>Sorastlos 发表于 2019-12-7 01:26</span><br>
+<span>我也是4K60Hz的玩家…</span><br>
+<span>我是锁3.7g的1700+3000MHz的金士顿掠夺者内存+铭瑄的2080s</span><br>
+<span>跑过3Dmark的稳定 ...</span><br>
+<span>星战和猛汉世界好像必须在win10里打开hdr才能识别hdr</span><br>
+<span>不像只狼和生化2重制可以直接在游戏里单独开关hdr</span><br>
+<span>鬼泣5可以直接启用hdr 但是没有开关设置，如果alt+tab切出去了就必须要重开一遍游戏才有HDR</span><br>
+<span>很迷</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>kvll32: </b><br>
+<span>伊克路西安 发表于 2019-12-6 22:41</span><br>
+<span>官方标称4.2 我降频用的。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha ...</span><br>
+<span>没关系你仔细观察一下就会发现反正也跑不到官方宣称的4.2G……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1867986[0-50]</guid>
+    </item>
+  </channel>
+</rss>

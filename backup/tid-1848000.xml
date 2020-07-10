@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>手机QQ记录要怎么迁移？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>手机QQ记录要怎么迁移？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:53:26 +0000</lastBuildDate>
+    <item>
+      <title>手机QQ记录要怎么迁移？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848000-1-1.html</link>
+      <description>手机QQ记录要怎么迁移？&#13;
+同品牌好像可以用自带换机助手转移，不同品牌的话是不是只能两边都root才能实现了？</description>
+      <content:encoded><![CDATA[<p><b>席瑞·基顿: </b><br>
+<span>手机QQ记录要怎么迁移？</span><br>
+<span>同品牌好像可以用自带换机助手转移，不同品牌的话是不是只能两边都root才能实现了？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>qq这功能腾讯是卖会员的功能，不会轻易给你迁移的啊</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>年费会员</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>试了下华为自带备份可以把QQ的应用数据备份出来，再试试怎么恢复到小米手机上吧</span><br>
+</p><p><b>Geminize: </b><br>
+<span>root后钛备份</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>钛备份外加手动转移 /sdcard/tencent</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span> 本帖最后由 席瑞·基顿 于 2019-7-20 17:23 编辑 </span><br>
+<span>下午折腾半天，算是能把小米的备份文件拆出来替换数据后恢复进去了，但打开QQ还是无效……</span><br>
+<span>主要原因应该是两边备份文件结构差别太大，</span><br>
+<span>小米给分了一堆文件夹，华为的看起来就是把数据文件夹整个复制出来，具体文件也不太一样，没法手动分清楚。</span><br>
+<span>还是刷个开发版试试看第三方备份行不行吧</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>华为怎么用钛备份</span><br>
+<span>三星也不一定敢用</span><br>
+<span>以前是可以导出的，后来没了我就放弃了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>Diabolosis 发表于 2019-7-20 16:33</span><br>
+<span>华为怎么用钛备份</span><br>
+<span>三星也不一定敢用</span><br>
+<span>以前是可以导出的，后来没了我就放弃了</span><br>
+<span>已经用华为自带备份导出来了嘛，能恢复到小米上面就行。</span><br>
+<span>我寻思钛备份这样的第三方备份工具的文件结构应该不会太奇葩，或者我可以手动把数据文件放进data目录？</span><br>
+</p><p><b>LuYang1: </b><br>
+<span>开QQ会员</span><br>
+</p><p><b>两个路人: </b><br>
+<span>粗粮那个是很直白的data/data目录，菊花那个大概是包装过的</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span> 本帖最后由 席瑞·基顿 于 2019-7-20 17:22 编辑 </span><br>
+<span>两个路人 发表于 2019-7-20 16:57</span><br>
+<span>粗粮那个是很直白的data/data目录，菊花那个大概是包装过的我的截图里左边是小米右边是华为……</span><br>
+</p><p><b>momoooo: </b><br>
+<span>root钛备份</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-7-20 17:29 编辑 </span><br>
+<span>因为LZ截图上没标注，所以默认了左菊花右粗粮（白眼</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>钛备份吧…</span><br>
+<span>我感觉安卓跨品牌备份只有这个靠谱</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span> 本帖最后由 席瑞·基顿 于 2019-7-20 22:31 编辑 </span><br>
+<span>root还要等7天……</span><br>
+<span>另外进Bootloader时发现屏幕上有个红点，开机进测试看不到，只有黑屏才能看到……</span><br>
+<span>旧手机都清理得差不多了，现在退换好蛋疼啊，想将就用了</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>同问</span><br>
+<span>楼主怎么把小米备份数据拆出来的？要root吗？</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span> 本帖最后由 席瑞·基顿 于 2019-7-24 01:02 编辑 </span><br>
+<span>一百三十万颗星 发表于 2019-7-23 23:32</span><br>
+<span>同问</span><br>
+<span>楼主怎么把小米备份数据拆出来的？要root吗？</span><br>
+<span>随便搜一下就有教程了，先用hxd之类的十六进制编辑器把备份文件的MIUI文件头去掉，再用abe解包成tar文件就可以用常见的压缩软件打开了，不过打开后因为小米备份的文件结构挺奇怪我也不知道要怎么用。所以我现在放弃了，等BL解锁后直接root，手动或用第三方工具恢复进去。</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>终于能解锁BL了</span><br>
+<span>先试了手动把文件放进data目录，不能识别；用钛备份把华为的备份数据恢复进去了，但只能按日期查看到群聊记录，不能搜索，私聊记录看不到，而且很多功能也不正常。</span><br>
+<span>估计是华为备份时还是有做别的处理，不同备份工具的处理方式不太相同，要正常恢复应该还是得用钛备份在华为手机上备份才行，但华为又不好弄root……</span><br>
+<span>另外发现小米自带备份恢复出的微信聊天记录会缺失图片，很难说第三方备份工具在QQ上不会出毛病，手机QQ上的聊天记录体积也很臃肿没法精简，所以还是放弃了，想要保存的聊天记录尽量在电脑上同步一下算了。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>席瑞·基顿 发表于 2019-7-28 04:31</span><br>
+<span>终于能解锁BL了</span><br>
+<span>先试了手动把文件放进data目录，不能识别；用钛备份把华为的备份数据恢复进去了，但 ...</span><br>
+<span>我用钛备份在三棒上面做的微信备份恢复到小米MIUI，会丢失图片，恢复到三棒不同型号手机就没这个问题</span><br>
+<span>有空试试lineageOS能不能避免MIUI这个问题</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>albertfu 发表于 2019-7-28 17:02</span><br>
+<span>我用钛备份在三棒上面做的微信备份恢复到小米MIUI，会丢失图片，恢复到三棒不同型号手机就没这个问题</span><br>
+<span>有 ...</span><br>
+<span>用第三方备份工具系统应该没必要动手脚吧……感觉可能是腾讯针对MIUI的某种安全策略？</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>席瑞·基顿 发表于 2019-7-24 00:59</span><br>
+<span>随便搜一下就有教程了，先用hxd之类的十六进制编辑器把备份文件的MIUI文件头去掉，再用abe解包成tar文件就 ...</span><br>
+<span>我今天搞出来看了下 就是一级目录名字改了 下面内容都没改 你对应还原下应该就行了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848000[0-50]</guid>
+    </item>
+  </channel>
+</rss>

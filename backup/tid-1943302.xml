@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在WIN7应该怎么装？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在WIN7应该怎么装？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:32:59 +0000</lastBuildDate>
+    <item>
+      <title>现在WIN7应该怎么装？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943302-1-1.html</link>
+      <description>现在WIN7应该怎么装？&#13;
+单位有台比较老的电脑，H61主板，打算装个WIN7 在msdn上下了镜像，用rufus刻录到U盘上，选GPT模式无法安装，选MBR模式安装倒是可以安装，但是安装时候一直会报错。
+&#13;
+安装的硬盘是一块SSD，不管是AHCI模式还是IDE模式都有这样的毛病
+&#13;
+我记得以前装win7没那么多幺蛾子啊，难道是U盘安装的问题？</description>
+      <content:encoded><![CDATA[<p><b>常一真: </b><br>
+<span>现在WIN7应该怎么装？</span><br>
+<span>单位有台比较老的电脑，H61主板，打算装个WIN7 在msdn上下了镜像，用rufus刻录到U盘上，选GPT模式无法安装，选MBR模式安装倒是可以安装，但是安装时候一直会报错。</span><br>
+<span>安装的硬盘是一块SSD，不管是AHCI模式还是IDE模式都有这样的毛病</span><br>
+<span>我记得以前装win7没那么多幺蛾子啊，难道是U盘安装的问题？</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>躺好交给各种pe配套的一键安装试试</span><br>
+</p><p><b>hecas: </b><br>
+<span>额</span><br>
+<span>我还是习惯进wepe装win7</span><br>
+<span>用winsetup装而且win7还是用mbr来</span><br>
+</p><p><b>cosx: </b><br>
+<span>不能先装在ssd再把它插旧机器上吗</span><br>
+</p><p><b>sirlion: </b><br>
+<span>win7你在刻录的时候就必须选择是mbr模式还是gpt模式，gpt模式引导win7必须修改系统文件，否则一直报错，mbr安装必须mbr格式写入的u盘镜像，否则下一步那里不给选硬盘</span><br>
+</p><p><b>gdx9900: </b><br>
+<span>刻盘，用光驱装。BIOS里设置好legacy模式。</span><br>
+</p><p><b>hxy8241: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1818890-0-1.html</span><br>
+<span>这个链接应该是最方便的win7了，uefi直接装没问题。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>bodul: </b><br>
+<span>老机器就ultraiso写镜像到U盘legacy+mbr装 uefi+gpt得改东西</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>下一个esd镜像，用wepe。先用dg把硬盘转为gpt，然后分区，注意分出两个隐藏分区。接着用安装器安装就行了</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>WIN7不要用GPT格式也就是UEFI模式来安装系统......</span><br>
+<span>当然X64你高兴你可以折腾UEFI模式</span><br>
+<span>但是X86请别这么折腾</span><br>
+<span>另外报错是什么报错这才是关键啊</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>刻录机，烧录DVD，录入CDKEY，最原始的安装，不会少任何组件，也不会带任何广告，缺点就是光驱的读取速度就是安装的上限速度。</span><br>
+</p><p><b>alexwu: </b><br>
+<span>其实老电脑装win8.1呗，uefi就完美支持了，再加个第三方开始菜单就好了</span><br>
+</p><p><b>sirlion: </b><br>
+<span>alexwu 发表于 2020-6-22 14:49</span><br>
+<span>其实老电脑装win8.1呗，uefi就完美支持了，再加个第三方开始菜单就好了</span><br>
+<span>win8.1没有了aero，和win10有啥区别，那开始菜单还不如win10好用呢</span><br>
+</p><p><b>rahicis: </b><br>
+<span>hxy8241 发表于 2020-6-22 13:42</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1818890-0-1.html</span><br>
+<span>这个链接应该是最方便的win7了，uefi直接装没问题 ...</span><br>
+<span>这玩意儿有administrator账号的问题就别推了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943302[0-50]</guid>
+    </item>
+  </channel>
+</rss>

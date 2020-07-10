@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>遇到奇怪的解压问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>遇到奇怪的解压问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:10:48 +0000</lastBuildDate>
+    <item>
+      <title>遇到奇怪的解压问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946515-1-1.html</link>
+      <description>遇到奇怪的解压问题&#13;
+ 本帖最后由 nanoka1021 于 2020-7-8 07:36 编辑 
+
+请问有没有人遇到过我的这种问题，用解压缩软件打开带有mds、mdf光盘镜像格式的压缩文件后，解压缩程序就会死住。压缩格式不限，解压缩软件不限，只要带有mds和mdf文件就会这样。
+&#13;
+这种问题印象中以前从未出现过，只有用Windows 10到最近一两年才发现这种问题，而且在我装Windows 10的两台电脑上都出现过。
+&#13;
+网上搜索了一圈找不到任何解决方案，因为以前用XP的时候有过必须关闭图片预览来规避某个bug问题，我怀疑这或许也是触发了某个Windows内置的服务给卡住而出的问题，但现在还找不到问题所在。
+&#13;
+补充说明一下，不进入文件列表直接解压是可以的，但是一旦查看文件列表就会死住。</description>
+      <content:encoded><![CDATA[<p><b>nanoka1021: </b><br>
+<span>遇到奇怪的解压问题</span><br>
+<span> 本帖最后由 nanoka1021 于 2020-7-8 07:36 编辑 </span><br>
+<span>请问有没有人遇到过我的这种问题，用解压缩软件打开带有mds、mdf光盘镜像格式的压缩文件后，解压缩程序就会死住。压缩格式不限，解压缩软件不限，只要带有mds和mdf文件就会这样。</span><br>
+<span>这种问题印象中以前从未出现过，只有用Windows 10到最近一两年才发现这种问题，而且在我装Windows 10的两台电脑上都出现过。</span><br>
+<span>网上搜索了一圈找不到任何解决方案，因为以前用XP的时候有过必须关闭图片预览来规避某个bug问题，我怀疑这或许也是触发了某个Windows内置的服务给卡住而出的问题，但现在还找不到问题所在。</span><br>
+<span>补充说明一下，不进入文件列表直接解压是可以的，但是一旦查看文件列表就会死住。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>用虚拟光驱加载呢？</span><br>
+</p><p><b>nanoka1021: </b><br>
+<span>纯情小鸭鸭 发表于 2020-7-8 07:37</span><br>
+<span>用虚拟光驱加载呢？</span><br>
+<span>虚拟光驱加载能正常使用。只有用解压软件查看文件列表会出问题，直接解压没有问题，而且解压出的文件是完全能正常使用的。</span><br>
+<span>另外你可能理解成解压mdf文件了，我这里说的是包含mds和mdf的压缩文件（zip、rar、7z等），查看这样的压缩文件程序会死住。</span><br>
+</p><p><b>faked_uid: </b><br>
+<span> 本帖最后由 faked_uid 于 2020-7-8 09:49 编辑 </span><br>
+<span>没碰到过这种问题……</span><br>
+<span>无脑推荐试试ShellExView、Autoruns，把Explorer插件禁掉试试看，也许是context menu handler之类的东西有问题？（说不定就是你用的那个虚拟光驱软件本身搞的？）禁用完，最好注销或重启一下，确保explorer等进程都重启。</span><br>
+</p><p><b>macos: </b><br>
+<span>关联mdf的软件有很大嫌疑，可能是图标的定义，解压缩软件应该不会遍历内容，换图标或清图标缓存</span><br>
+</p><p><b>nanoka1021: </b><br>
+<span>faked_uid 发表于 2020-7-8 09:16</span><br>
+<span>没碰到过这种问题……</span><br>
+<span>无脑推荐试试ShellExView、Autoruns，把Explorer插件禁掉试试看，也许是context menu ...</span><br>
+<span>谢谢了，检查了一下的确是虚拟光驱软件出的问题，试着把虚拟光驱软件卸载后正常了。</span><br>
+<span>后来试了一下用ShellExView改设置去掉了该虚拟光驱的文件关联后正常了。</span><br>
+<span>当初因为Daemon Tools的堕落让我转而使用Alcohol 52%，没想到这个虚拟光驱软件存在这个问题。</span><br>
+</p><p><b>faked_uid: </b><br>
+<span> 本帖最后由 faked_uid 于 2020-7-8 10:24 编辑 </span><br>
+<span>nanoka1021 发表于 2020-7-8 09:58</span><br>
+<span>谢谢了，检查了一下的确是虚拟光驱软件出的问题，试着把虚拟光驱软件卸载后正常了。</span><br>
+<span>后来试了一下用Shell ...</span><br>
+<span>恭喜破案……</span><br>
+<span>我又搜了一下，稍微修正了一下我的二把刀知识库。</span><br>
+<span>这大概不是什么context menu handler（弹右键时会被执行的插件），而是COM组件，可以做到显示缩略图、鼠标浮在上面时显示详细信息等功能。</span><br>
+<span>比如，有人做了RomHover这个插件，可以显示EFI文件的信息，它就是注册了一个COM组件：https://zhuanlan.zhihu.com/p/30106517</span><br>
+<span>微软的Raymond Chen也有篇博客，说的应该就是这个梗：https://devblogs.microsoft.com/oldnewthing/20090212-00/?p=19173</span><br>
+<span>说白了这就是一个dll，本来是要被explorer等进程加载的，然后在需要显示缩略图标时，explorer（先查注册表，就可以知道该调用哪个dll）就会调用、执行这个dll里面的代码，让这个dll把缩略图搞出来，然后explorer再把缩略图显示出来。如果这个dll的代码写得很渣渣，就会把explorer进程也连带干掉，于是就会出现“任务栏和桌面图标消失、只剩鼠标指针和打开的软件窗口”这种典型症状。</span><br>
+<span>微软为了规避这种问题，（貌似很早就有了？并不是老版本Windows就没有dllhost）就搞了dllhost来当替死鬼，这样就可以避免explorer进程本身死掉导致用户懵逼了。但是这样仍然不能完全解决问题，如果某个COM组件为了显示缩略图这种无关紧要的小事，把文件给锁了，那还是会出现“COM surrogate占用了文件”之类的问题——楼主碰到的问题估计就和这种情况类似。</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>win10不是可以直接加载光盘镜像的吗，直接加载镜像把需要的文件复制出来</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>faked_uid: </b><br>
+<span>superchenxx01 发表于 2020-7-8 18:16</span><br>
+<span>win10不是可以直接加载光盘镜像的吗，直接加载镜像把需要的文件复制出来</span><br>
+<span>—— 来自 OPPO R11, Android 8.1 ...</span><br>
+<span>MDF/MDS这种不行吧。貌似只有ISO、VHD(X)可以。</span><br>
+</p><p><b>faked_uid: </b><br>
+<span> 本帖最后由 faked_uid 于 2020-7-8 19:28 编辑 </span><br>
+<span>说到虚拟光驱……我还能想到一个Win10 bug：各种虚拟盘，无论是虚拟光驱、虚拟网盘还是RamDisk内存盘，如果把盘符设置在C盘之前，比如B盘，Windows更新和微软商店都可能会无法正常下载内容，报错80070057。</span><br>
+<span>很早以前Win10（应该是1703）就开始有这个bug了，貌似最近仍然没有修正。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946515[0-50]</guid>
+    </item>
+  </channel>
+</rss>

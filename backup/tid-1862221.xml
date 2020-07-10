@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>RIPE NIC即将耗尽IPv4地址空间</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>RIPE NIC即将耗尽IPv4地址空间</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:23:58 +0000</lastBuildDate>
+    <item>
+      <title>RIPE NIC即将耗尽IPv4地址空间[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862221-1-1.html</link>
+      <description>RIPE NIC即将耗尽IPv4地址空间&#13;
+负责英国、欧洲、中东和部分中亚地区互联网资源分配的欧洲网络协调中心（RIPE NCC）宣布它最后的 IPv4 地址空间储备池将在 11 月内完全耗尽。IPv4 地址空间枯竭早就“狼来了”许多年，大部分 ISP 和设备都已经做好了准备，逐步加入了对 IPv6 的支持。
+&#13;
+http://static.cnbetacdn.com/thumb/article/2019/1029/c23ed56a8ee0754.png
+&#13;
+http://static.cnbetacdn.com/article/2019/1029/ea9db4cd1510479.png
+&#13;
+中国最大 ISP 中国电信最近也加快了 IPv6 的部署，最新数据显示它的IPv6 普及率已经超过了 10%，比一年前不到 1% 要好得多。RIPE NCC 发言人建议网络运营商估算下手中的 IP 资源，确保 IPv6 部署取得进展。大部分网络资源协调中心的 IPv4 地址空间都已枯竭，但很多运营商手中还有很多 IPv4 地址空间可用，所以协调中心的 IPv4 资源没有了，并不意味着没有了可分配的IPv4 地址。此外，无类别域间路由、网络地址转换（NAT）、运营级 NAT 等都在延长 IPv4 的寿命。</description>
+      <content:encoded><![CDATA[<p><b>Bondrewd: </b><br>
+<span>RIPE NIC即将耗尽IPv4地址空间</span><br>
+<span>负责英国、欧洲、中东和部分中亚地区互联网资源分配的欧洲网络协调中心（RIPE NCC）宣布它最后的 IPv4 地址空间储备池将在 11 月内完全耗尽。IPv4 地址空间枯竭早就“狼来了”许多年，大部分 ISP 和设备都已经做好了准备，逐步加入了对 IPv6 的支持。</span><br>
+<img src="http://static.cnbetacdn.com/thumb/article/2019/1029/c23ed56a8ee0754.png" title="http://static.cnbetacdn.com/thumb/article/2019/1029/c23ed56a8ee0754.png"><br>
+<img src="http://static.cnbetacdn.com/article/2019/1029/ea9db4cd1510479.png" title="http://static.cnbetacdn.com/article/2019/1029/ea9db4cd1510479.png"><br>
+<span>中国最大 ISP 中国电信最近也加快了 IPv6 的部署，最新数据显示它的IPv6 普及率已经超过了 10%，比一年前不到 1% 要好得多。RIPE NCC 发言人建议网络运营商估算下手中的 IP 资源，确保 IPv6 部署取得进展。大部分网络资源协调中心的 IPv4 地址空间都已枯竭，但很多运营商手中还有很多 IPv4 地址空间可用，所以协调中心的 IPv4 资源没有了，并不意味着没有了可分配的IPv4 地址。此外，无类别域间路由、网络地址转换（NAT）、运营级 NAT 等都在延长 IPv4 的寿命。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>ipv4与ipv6不能互相兼容是什么原因呢？</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>新西兰仗着人口少，v6就只有1家小公司提供，2家大型isp根本不给v6（家用）</span><br>
+</p><p><b>董卓: </b><br>
+<span>其实isp开个有偿端口nat服务不是挺好的</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>如果不是安防需要，我们根本不需要ipv6，NAT套NAT子子孙孙无穷尽也</span><br>
+</p><p><b>overflowal: </b><br>
+<span>拥抱Nat大法啊</span><br>
+<span>—— 来自 vivo V1911A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elflie: </b><br>
+<span>赶紧来吧</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>咲月露娜 发表于 2019-10-30 12:07</span><br>
+<span>如果不是安防需要，我们根本不需要ipv6，NAT套NAT子子孙孙无穷尽也</span><br>
+<span>不是说NAT加强了安全性么，内网套内网天然就是防火墙。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span> 本帖最后由 咲月露娜 于 2019-10-30 15:32 编辑 </span><br>
+<span>lixianfyss 发表于 2019-10-30 14:35</span><br>
+<span>不是说NAT加强了安全性么，内网套内网天然就是防火墙。</span><br>
+<span>我说的安防是国家战略层面的安防，内网套内网不便于维稳增加了不安全因素，必须淘汰。</span><br>
+</p><p><b>roamer: </b><br>
+<span>ipv6能让我的ps4联机变成type a吗</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>只要我家nas还有外网IP就行</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>咲月露娜 发表于 2019-10-30 15:29</span><br>
+<span>我说的安防是国家战略层面的安防，内网套内网不便于维稳增加了不安全因素，必须淘汰。 ...</span><br>
+<span>一看就是老阴阳人了，祝你网络永远是nat strict</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862221[0-50]</guid>
+    </item>
+  </channel>
+</rss>

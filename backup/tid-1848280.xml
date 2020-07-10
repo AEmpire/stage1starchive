@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农入：你们公司有管你们代码风格这块么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农入：你们公司有管你们代码风格这块么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:51:42 +0000</lastBuildDate>
+    <item>
+      <title>码农入：你们公司有管你们代码风格这块么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848280-1-1.html</link>
+      <description>码农入：你们公司有管你们代码风格这块么&#13;
+比如python的pep8, c的K&amp;R风格
+&#13;
+1.没bug就行，代码风格是啥, 能吃么
+&#13;
+2.不符合公司规范不让提交，或者批评或者扣钱</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>码农入：你们公司有管你们代码风格这块么</span><br>
+<span>比如python的pep8, c的K&R风格</span><br>
+<span>1.没bug就行，代码风格是啥, 能吃么</span><br>
+<span>2.不符合公司规范不让提交，或者批评或者扣钱</span><br>
+</p><p><b>tianyagk: </b><br>
+<span>没有管，但是自己会注意下，不然回头看自己的代码会很难受。</span><br>
+</p><p><b>biye: </b><br>
+<span>有规范但不管</span><br>
+<span>但要不自己能全部搞定 要不听别人骂CNM</span><br>
+</p><p><b>记忆消失: </b><br>
+<span>有统一的 eslint 规则检查，狠一点的部门有 commit hook 阻止提交</span><br>
+</p><p><b>Objective-C: </b><br>
+<span> 有 lint，但是不管代码风格</span><br>
+</p><p><b>蓳白: </b><br>
+<span>review的时候会被骂</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>本身有precommit merge之前有sonarqube 但是这并不阻碍我写垃圾代码充数</span><br>
+</p><p><b>yenvy: </b><br>
+<span>lint通不过jenkins拒收啊</span><br>
+</p><p><b>jctc: </b><br>
+<span>本来是没有</span><br>
+<span>互相骂的人多了</span><br>
+<span>也就有了</span><br>
+</p><p><b>charlie32690: </b><br>
+<span>有lint，lint不过就算fail。PR Review的时候同事会礼貌提出风格问题并且给你approve，基本都是很中肯的建议。可以选择修了，也可以选择礼貌感谢然后直接merge</span><br>
+</p><p><b>Timme: </b><br>
+<span>gofmt表示完全没有这个问题</span><br>
+</p><p><b>ranranking: </b><br>
+<span>一般大公司都有吧？不按风格写根本不会用你的代码。</span><br>
+<span>— from HUAWEI MHA-AL00, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p><p><b>marine_01: </b><br>
+<span>只要好阅读就是好风格</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>有，我们CR撕逼主要就撕这个</span><br>
+</p><p><b>normanzb: </b><br>
+<span> 本帖最后由 normanzb 于 2019-7-22 01:50 编辑 </span><br>
+<span>code review 70%都是在吵鸡毛蒜皮的代码风格，然而实际上代码整体架构有问题，或者真正的bug却没人说。因为了解整个架构以及仔细分析分析bug太难了，需要花一整天时间去理解背后的逻辑和业务，而看看代码不符合自己习惯的地方挑出来喷一下却很容易，又显得自己经验老道，于是乎：</span><br>
+<span>* 结束分号写不写</span><br>
+<span>* 文件末尾要不要有空白行</span><br>
+<span>* 是用普通function还是用arrow function</span><br>
+<span>* 单引号字符串还是双引号字符串</span><br>
+<span>* early return还是不early return</span><br>
+<span>* 该不该使用else</span><br>
+<span>* 两三句类似或者重复的代码要不要提出来变成utility function，代码够不够dry</span><br>
+<span>* 成员命名是m_打头还是_打头</span><br>
+<span>* jsx里头能不能直接call一个包装了特定逻辑的function还是必须把表达式写进当前jsx里头，又或者是应该写成一个component？</span><br>
+<span>* 用let还是var* 是不是只要变量在当前实现中不需要改变就必须定义成const</span><br>
+<span>* Object在当前实现中不需要改变的话要不要Object.freeze</span><br>
+<span>* 一个扁长型的可点击控件是叫做VanityPlate还是PromotionButton</span><br>
+<span>* endpoint controller 继承自某一基类，那么写基类功能相应的unit test的时候，是不是也弄一个test suite基类，别的test suite集成自它</span><br>
+<span>* ……</span><br>
+<span>以上每个问题一吵都可以吵几个小时，然后实际上多数初创项目这些代码风格细节根本就不是重点，快速实现快速迭代move fast learn fast才是重要的。facebook刚起来的时候鼓励程序员break things不是没有道理的，东西只有赶快出来才有价值，项目稳定了才逐渐对代码质量有要求。</span><br>
+<span>结果就是我们项目一做做一年半，大老板耐心耗尽，直接把项目砍掉所有东西换一个平台推翻重做。</span><br>
+<span>有些devs说什么tdd说的头头是道，甚至要搞bdd，脑洞大到想让PO一起来写测试，尽整一些花拳绣腿，我说你项目不release，代码质量再好再工整有个屌用，最后还不是全部删掉丢垃圾堆</span><br>
+</p><p><b>ikonon: </b><br>
+<span>没有</span><br>
+</p><p><b>巨魔古拉格: </b><br>
+<span>管啊，不管等着可读性爆炸被同事打死嘛？或者三年后代码无法维护被迫跑路？</span><br>
+</p><p><b>bronzitro: </b><br>
+<span>写的时候开心，过几年跑路的跑路，剩下的人只能干瞪眼</span><br>
+</p><p><b>kumh: </b><br>
+<span>想到上次我说有个变量我不懂什么意思。</span><br>
+<span>然后领导说：你全局搜一下。</span><br>
+<span>我一搜，有好多。</span><br>
+<span>然后领导指着一个常量，说就是这个。</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>统一ide插件，存盘的时候自动改…</span><br>
+</p><p><b>tgzeror: </b><br>
+<span>代码缩进是用tab还是4个空格</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>tgzeror 发表于 2019-7-22 08:19</span><br>
+<span>代码缩进是用tab还是4个空格</span><br>
+<span>不要开战吗？我喜欢用一个tab</span><br>
+</p><p><b>美人希: </b><br>
+<span>一切听sonar的</span><br>
+<span>— from OPPO PAAM00, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>須田さいり: </b><br>
+<span>有规范，但开发任务重，很难准确执行，最后还是看个人操守了</span><br>
+</p><p><b>天地猫: </b><br>
+<span>能吃么，看着我那么多垃圾代码，完全没法处理，任务重的时候谁在意这些啊.</span><br>
+</p><p><b>widder: </b><br>
+<span>看项目进度吃紧程度，进度吃紧管你什么风格，能及时交货就行，还有闲时间管代码风格，说明日子还不错。</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>我会给出配置文件，不能自动化的就不管了</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lpc2103: </b><br>
+<span>有规范，但没人严格遵守</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>东方烂苹果: </b><br>
+<span>我就是定规范的。。。</span><br>
+</p><p><b>嗜睡者: </b><br>
+<span>normanzb 发表于 2019-7-22 01:33</span><br>
+<span>code review 70%都是在吵鸡毛蒜皮的代码风格，然而实际上代码整体架构有问题，或者真正的bug却没人说。因为 ...</span><br>
+<span>规定好了不就不用吵了</span><br>
+</p><p><b>枫紫: </b><br>
+<span>有规范，但不会像楼主这样不符合就不给提交</span><br>
+</p><p><b>ntrntr1: </b><br>
+<span>不符合规范不让提交</span><br>
+<span>然而为了绕过规范，大家学会了各种神奇的写法。。。导致代码其实更奇葩了</span><br>
+</p><p><b>碎月: </b><br>
+<span>没规范没review，现在已经练废了找不到工作</span><br>
+</p><p><b>yang3350380: </b><br>
+<span>java的说下 就是按阿里那个java规范来就可以了</span><br>
+</p><p><b>RuneKnight: </b><br>
+<span>引用第6楼風舞雪于2019-07-22 00:38发表的:</span><br>
+<span>本身有precommit merge之前有sonarqube 但是这并不阻碍我写垃圾代码充数</span><br>
+<span>@風舞雪</span><br>
+<span>为啥要写垃圾代码充数？你们公司还要求代码行数？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>以前的公司有专职 review 人员。在测试、上线之后出现的 bug 要复盘，如果属于代码 review 能够发现但是没有发现的 bug，就算 review 人员遗漏，影响 kpi。</span><br>
+<span>现在的公司推过好几次代码 review，但是一直没推动。</span><br>
+</p><p><b>normanzb: </b><br>
+<span>嗜睡者 发表于 2019-7-22 10:01</span><br>
+<span>规定好了不就不用吵了</span><br>
+<span>规定好首先要吵一遍，新人来了觉得自己老道的，又要挑几个吵一遍</span><br>
+</p><p><b>青年A: </b><br>
+<span> 本帖最后由 青年A 于 2019-7-23 01:34 编辑 </span><br>
+<span>我就是标准，经常检查卡别人的</span><br>
+<span>最多一次卡了人3天，重写5遍，最后他要拖着我加班，我就让他过了</span><br>
+<span>但是我是被绑定核心业务的，他们换项目我还是要维护啊</span><br>
+<span>— from samsung SM-G930F, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>解体诸因: </b><br>
+<span>build pipeline的一部分，不会太奇葩，但是如果有问题会告诉是什么问题，可以选择ignore pattern或者自己改。code review一般没这么闲看这些东西。主要看逻辑，error case和test case</span><br>
+</p><p><b>自旋: </b><br>
+<span>只对变量及函数等的命名有强制规范，其它属于建议规范。</span><br>
+<span>实际没人管。</span><br>
+</p><p><b>詹姆斯哈登: </b><br>
+<span>google那个100 colunm limit 和2 spaces太恶心了，intellij自带的就很好啊</span><br>
+</p><p><b>keenkiller: </b><br>
+<span>除了cpp和js，其他的都有官方规范吧</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>redbuck: </b><br>
+<span>prettier了解一下，提交时格式化代码。</span><br>
+<span>代码风格是很个性化的，很难强制要求，而且编辑器不一样，有一些细节很难设置一样。保证仓库的代码风格一致就好</span><br>
+</p><p><b>treexper: </b><br>
+<span>这种代码规范管起来不难，你甚至可以写个格式化工具。不过在大家的代码都符合规范的条件下，有几种写法的代码仍然被统一到一种上，这种pep8/google style又不管，要自己管。包括命名的规范都要一致（最近我们组就发生过比如位置有人写pos有人写position有人写localization），这个管理好了可以省略大量注释。</span><br>
+</p><p><b>车欠: </b><br>
+<span>连svn/git提交日志都没人写，更何况代码风格呢</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>normanzb: </b><br>
+<span> 本帖最后由 normanzb 于 2019-7-24 02:42 编辑 </span><br>
+<span>redbuck 发表于 2019-7-23 08:20</span><br>
+<span>prettier了解一下，提交时格式化代码。</span><br>
+<span>代码风格是很个性化的，很难强制要求，而且编辑器不一样，有一些细 ...</span><br>
+<span>prettier这种东西用起来前就要先吵几天，更何况很多风格类的东西prettier也管不了。</span><br>
+<span>比如成员函数定义在constructor里头还是在constructor里头重新bind一下，又或者是用未标准化的class properties？</span><br>
+<span>比如reactjs里面不需要触发render的状态信息是存放进state里头还是instance上面。</span><br>
+<span>今天就这两问题又抓着我的代码逼逼一整天。</span><br>
+<span>非特么要我重新bind一次成员函数，非特么所有状态写state里头美其名曰好理解，自己不习惯的就是不好理解的。</span><br>
+<span>实际上代码实现的bug找不到，最后还是我自己发现有遗漏的情况</span><br>
+</p><p><b>sakuranosibe: </b><br>
+<span>我们禁止！bool 必须用bool ==false(/ω＼)</span><br>
+</p><p><b>redbuck: </b><br>
+<span>normanzb 发表于 2019-7-24 02:32</span><br>
+<span>prettier这种东西用起来前就要先吵几天，更何况很多风格类的东西prettier也管不了。</span><br>
+<span>比如成员函数定义在co ...</span><br>
+<span>js的风气就是用新的啊，方法直接=就完了，脚手架搭好用新语法多爽</span><br>
+<span>至于其他的，上eslint，不够就写插件</span><br>
+</p><p><b>万恶淫猥手: </b><br>
+<span>你们这些码农就是屁事多</span><br>
+</p><p><b>zag: </b><br>
+<span>以前看过一个google uk的哥们，第一次pr前后改了十多次才让他提交，长时间维护的项目做下规范比较好，而且一开始就要详细列出来</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848280[0-50]</guid>
+    </item>
+  </channel>
+</rss>

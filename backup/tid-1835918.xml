@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>N卡造成DPC延迟过高这个BUG老黄究竟修好没有</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>N卡造成DPC延迟过高这个BUG老黄究竟修好没有</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:08:52 +0000</lastBuildDate>
+    <item>
+      <title>N卡造成DPC延迟过高这个BUG老黄究竟修好没有[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835918-1-1.html</link>
+      <description>N卡造成DPC延迟过高这个BUG老黄究竟修好没有&#13;
+ 本帖最后由 迷路的 于 2019-5-31 20:38 编辑 
+
+之前一直在和音箱爆音问题搏斗，各种设置声卡输出参数，安装驱动，替换设备，交替前后接口,放狗搜资料的时候无意发现DPC延迟这个概念
+&#13;
+https://www.chiphell.com/thread-1615931-1-1.html
+&#13;
+我自己用的是1070，不过这都是6102的事情了，离现在9102年都过去3000年了，心想老黄也应该修好了没关系吧，不过以防万一还是下了个latencymon看下
+&#13;
+https://i.loli.net/2019/05/31/5cf0fa783b5ac59348.png
+&#13;
+emmm，nvlddmkm.sys……所以这个问题该怎么办，已经是最新驱动了啊，难道只能投A了？
+&#13;
+其他配置 i7 4770+华硕Z87 PRO
+&#13;
+系统是WIN 10 1803</description>
+      <content:encoded><![CDATA[<p><b>迷路的: </b><br>
+<span>N卡造成DPC延迟过高这个BUG老黄究竟修好没有</span><br>
+<span> 本帖最后由 迷路的 于 2019-5-31 20:38 编辑 </span><br>
+<span>之前一直在和音箱爆音问题搏斗，各种设置声卡输出参数，安装驱动，替换设备，交替前后接口,放狗搜资料的时候无意发现DPC延迟这个概念</span><br>
+<span>https://www.chiphell.com/thread-1615931-1-1.html</span><br>
+<span>我自己用的是1070，不过这都是6102的事情了，离现在9102年都过去3000年了，心想老黄也应该修好了没关系吧，不过以防万一还是下了个latencymon看下</span><br>
+<img src="https://i.loli.net/2019/05/31/5cf0fa783b5ac59348.png" title="https://i.loli.net/2019/05/31/5cf0fa783b5ac59348.png"><br>
+<span>emmm，nvlddmkm.sys……所以这个问题该怎么办，已经是最新驱动了啊，难道只能投A了？</span><br>
+<span>其他配置 i7 4770+华硕Z87 PRO</span><br>
+<span>系统是WIN 10 1803</span><br>
+</p><p><b>ft5555: </b><br>
+<span>当年就修好了。。。。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-5-31 18:20 编辑 </span><br>
+<span>我1070如果显卡没干活光放音乐肯定是到不了这么高的，开个安卓模拟器就在1000左右了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>為嘛不弄個專門聲卡？</span><br>
+</p><p><b>einhorn: </b><br>
+<span>有些N卡一直不好，有些一直都没问题</span><br>
+</p><p><b>wfm: </b><br>
+<span>我之前也遇到过类似问题，买了张nec芯片的pcie转usb卡解决了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>这点延迟根本造成不了声卡爆音啊，只是满足不了极低延迟的工作室环境</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>pc区也有讨论帖的，反正我也搞不清，都赖英伟达了，再不济就赖微软。</span><br>
+</p><p><b>netplaying: </b><br>
+<span>自从我擦从N卡换成A卡就出现了DLC问题，而且数值比楼主的严重的得多。。。。。。</span><br>
+</p><p><b>迷路的: </b><br>
+<span>zatsuza 发表于 2019-5-31 18:31</span><br>
+<span>这点延迟根本造成不了声卡爆音啊，只是满足不了极低延迟的工作室环境</span><br>
+<span>—— 来自 Realme RMX1901, Android...</span><br>
+<span>难道我错怪他了？</span><br>
+</p><p><b>淼霆: </b><br>
+<span>我第一项数值是你的十分之一不到，期间用过1070、1080ti、2080，都很低，你的其他硬件是啥</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>迷路的 发表于 2019-5-31 19:06</span><br>
+<span>难道我错怪他了？</span><br>
+<span>我想原因应该不是显卡驱动</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-5-31 20:33 编辑 </span><br>
+<span>这bug应该早就修了。。。</span><br>
+<span>看红字是说cpu电源或者驱动啥啥啥的问题。</span><br>
+<span>你cpu是不是太差了。。</span><br>
+</p><p><b>迷路的: </b><br>
+<span>litel 发表于 2019-5-31 20:31</span><br>
+<span>这bug应该早就修了。。。</span><br>
+<span>看红字是说cpu电源或者驱动啥啥啥的问题。</span><br>
+<span>i7 4770+华硕Z87 PRO</span><br>
+<span>系统是WIN 10 1803</span><br>
+</p><p><b>迷路的: </b><br>
+<span>淼霆 发表于 2019-5-31 19:29</span><br>
+<span>我第一项数值是你的十分之一不到，期间用过1070、1080ti、2080，都很低，你的其他硬件是啥 ...</span><br>
+<span>其他配置更新放顶楼了</span><br>
+</p><p><b>litel: </b><br>
+<span>迷路的 发表于 2019-5-31 20:38</span><br>
+<span>i7 4770+华硕Z87 PRO</span><br>
+<span>系统是WIN 10 1803</span><br>
+<span>我是6700k@4.5g ring@4.5g，内存3200c14</span><br>
+<span>系统win10 1903</span><br>
+<span>我感觉你这个可能cpu和内存不行了。</span><br>
+</p><p><b>迷路的: </b><br>
+<span>litel 发表于 2019-5-31 20:39</span><br>
+<span>我是 ，内存3200c14</span><br>
+<span>系统win10 1903</span><br>
+<span>这是老黄和阿三友情提示我应该更新硬件了是吗</span><br>
+</p><p><b>litel: </b><br>
+<span>迷路的 发表于 2019-5-31 20:42</span><br>
+<span>这是老黄和阿三友情提示我应该更新硬件了是吗</span><br>
+<span>你看那个软件里，上面driver和cpu里面，按dpc count排序，看看下是啥最高</span><br>
+<span>再看看怎么处理</span><br>
+<span>我这配置打dota2仍然是1000以内</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>跟配置没什么关系，bios里面把节能状态关掉，电源计划选高性能再测一遍试试</span><br>
+</p><p><b>qwased: </b><br>
+<span>这个问题我知道，你把系统重装一下就好了</span><br>
+<span>神奇的win10</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>迷路的: </b><br>
+<span> 本帖最后由 迷路的 于 2019-5-31 21:24 编辑 </span><br>
+<span>litel 发表于 2019-5-31 20:47</span><br>
+<span>你看那个软件里，上面driver和cpu里面，按dpc count排序，看看下是啥最高</span><br>
+<span>再看看怎么处理</span><br>
+<img src="https://i.loli.net/2019/05/31/5cf124d2d60a892321.png" title="https://i.loli.net/2019/05/31/5cf124d2d60a892321.png"><br>
+<img src="https://i.loli.net/2019/05/31/5cf12b0ca81b580581.png" title="https://i.loli.net/2019/05/31/5cf12b0ca81b580581.png"><br>
+<img src="https://i.loli.net/2019/05/31/5cf125002eb6a32210.png" title="https://i.loli.net/2019/05/31/5cf125002eb6a32210.png"><br>
+<span>看来确实不单是显卡，现在网卡驱动也来凑热闹了，而且勇夺头筹</span><br>
+</p><p><b>midearth: </b><br>
+<span>A卡音质好原来是真的？</span><br>
+</p><p><b>litel: </b><br>
+<span>迷路的 发表于 2019-5-31 20:59</span><br>
+<span>看来确实不单是显卡，现在网卡驱动也来凑热闹了，而且勇夺头筹 ...</span><br>
+<span>关闭intel的那个微码漏洞修复</span><br>
+<span>reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 3 /f</span><br>
+<span>reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f</span><br>
+<span>关闭内存压缩：powershell里运行Disable-MMAgent -mc</span><br>
+<span>然后关闭tcp窗口自动调节</span><br>
+<span>netsh int tcp set global autotuninglevel=disabled</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span> 本帖最后由 lotsbiss 于 2019-5-31 23:03 编辑 </span><br>
+<span>下载软件看了下自己的</span><br>
+<span>显卡1066</span><br>
+</p><p><b>chachi: </b><br>
+<span>看看是不是有监控软件</span><br>
+<span>我开着 harddisk sentinel 这软件，ntoskrnl.exe 延时就能上2.0ms</span><br>
+<span>关了延时不超过700us</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>我记得win10用户不少碰过这个问题.</span><br>
+</p><p><b>ak123: </b><br>
+<span> 本帖最后由 ak123 于 2019-6-1 05:38 编辑 </span><br>
+<span>这个是win10的锅不是显卡，前两年某个版本更新后我的外置dac直接变鞭炮，一看latencymon直接1k+，退回了才150</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>来来来 请看此贴</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1835244-1-1.html</span><br>
+</p><p><b>迷路的: </b><br>
+<span>观铃の使魔 发表于 2019-6-1 07:18</span><br>
+<span>来来来 请看此贴</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1835244-1-1.html</span><br>
+<span>结果是巨硬的传统艺能吗</span><br>
+</p><p><b>eroneko: </b><br>
+<span>笔记本常年 acpi.sys 3k多</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>马克 马的渣渣微软</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>lhm123: </b><br>
+<span>A卡禁用音频输出后，外接DAC直出。</span><br>
+<span>   以前用黄卡确实高。 不过实际影响不明显。 爆音的话，可能是驱动出问题了。</span><br>
+</p><p><b>迷路的: </b><br>
+<span>lhm123 发表于 2019-6-1 14:36</span><br>
+<span>A卡禁用音频输出后，外接DAC直出。</span><br>
+<span>   以前用黄卡确实高。 不过实际影响不明显。 爆音的话，可能是驱动 ...</span><br>
+<span>你的系统是win7吧，我看文章普遍都说win10延迟比win7高了一个数量级</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>100以上谈什么音质，都一样能用就行</span><br>
+</p><p><b>lhm123: </b><br>
+<span>迷路的 发表于 2019-6-1 15:53</span><br>
+<span>你的系统是win7吧，我看文章普遍都说win10延迟比win7高了一个数量级</span><br>
+<span> 是 win7 + 570卡。 win10延迟的问题听说过，实际上连固态盘的性能在 win10下面也要降低，不知道阿三们怎么搞的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835918[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[bug10] chrome和新edge都惨遭黑屏，firefox无事发生</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[bug10] chrome和新edge都惨遭黑屏，firefox无事发生</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:28:32 +0000</lastBuildDate>
+    <item>
+      <title>[bug10] chrome和新edge都惨遭黑屏，firefox无事发生[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861499-1-1.html</link>
+      <description>[bug10] chrome和新edge都惨遭黑屏，firefox无事发生&#13;
+winver 18362.418 估计bug10对显示部分下刀了，两个浏览器还能正常响应点击操作，就是黑屏。firefox yes!</description>
+      <content:encoded><![CDATA[<p><b>yibo: </b><br>
+<span>[bug10] chrome和新edge都惨遭黑屏，firefox无事发生</span><br>
+<span>winver 18362.418 估计bug10对显示部分下刀了，两个浏览器还能正常响应点击操作，就是黑屏。firefox yes!</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>ff昨天刚更新还换了图标，难道因为这个</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>infinte: </b><br>
+<span>显卡驱动挂了？</span><br>
+<span>我 PC 相同版本无法复现</span><br>
+</p><p><b>yibo: </b><br>
+<span> 本帖最后由 yibo 于 2019-10-26 12:14 编辑 </span><br>
+<span>infinte 发表于 2019-10-26 11:05</span><br>
+<span>显卡驱动挂了？</span><br>
+<span>我 PC 相同版本无法复现</span><br>
+<span>怎么判断是显卡驱动挂没挂？目前其他应用包括玩mhw也没问题。</span><br>
+<span>显卡驱动更新到440.97（老黄），重启之后还是这样。或者有什么方法或工具查看日志？</span><br>
+</p><p><b>装个逼就跑: </b><br>
+<span>Firefox大法就是好！！！</span><br>
+</p><p><b>elflie: </b><br>
+<span>chrome隔三差五就这样，我还以为是我的问题</span><br>
+</p><p><b>长谷川昴: </b><br>
+<span>Chrome以后大概是IE的命运了。</span><br>
+<span>IE当系统浏览器，被拖累后输给新世代浏览器。现在轮到Blink内核系列的系统浏览器被巨硬搞了。</span><br>
+</p><p><b>yibo: </b><br>
+<span>卸载咋俩玩意还得进安全模式</span><br>
+<span>可能是显卡驱动的问题，安全模式没有黑屏，不过重装应用后就暂时没有黑屏现象了</span><br>
+<span>firefox yes</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>我刚firefox遇到了一次 全黑，chrome正常，强制杀掉进程后还是黑，过了几分钟好了</span><br>
+</p><p><b>elflie: </b><br>
+<span>我发现了，是色彩管理的问题</span><br>
+</p><p><b>yibo: </b><br>
+<span>elflie 发表于 2019-11-4 19:43</span><br>
+<span>我发现了，是色彩管理的问题</span><br>
+<span>emm，我是在台式机搬动，重新接线开机后出现，也是色彩管理引起的？</span><br>
+</p><p><b>elflie: </b><br>
+<span>yibo 发表于 2019-11-4 20:26</span><br>
+<span>emm，我是在台式机搬动，重新接线开机后出现，也是色彩管理引起的？</span><br>
+<span>是不是DP？好像DP有这个问题。</span><br>
+<span>我是打着打着游戏突然一卡，然后恢复后一看颜色都不对了，点出去chrome肯定也是黑了</span><br>
+<span>当然也有可能是驱动的问题</span><br>
+</p><p><b>GrassSand: </b><br>
+<span>最近 chrome 也是这个问题，最新 beta，没更新过驱动，可能是某个系统补丁？</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>关键词 ：Chrome清理ShaderCache</span><br>
+</p><p><b>yibo: </b><br>
+<span>elflie 发表于 2019-11-4 23:59</span><br>
+<span>是不是DP？好像DP有这个问题。</span><br>
+<span>我是打着打着游戏突然一卡，然后恢复后一看颜色都不对了，点出去chrome肯定 ...</span><br>
+<span>是DP，所以是DP触发了色彩管理的bug？</span><br>
+</p><p><b>yibo: </b><br>
+<span>之前steam用1080P玩游戏的时候（显示器是4k），也容易出现steam客户端部分黑屏（例如好友列表）</span><br>
+<span>不知道是触发了什么win32的迷惑行为</span><br>
+</p><p><b>ryans233: </b><br>
+<span>dongjuanyong 发表于 2019-11-5 10:06</span><br>
+<span>关键词 ：Chrome清理ShaderCache</span><br>
+<span>正解</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span>yibo 发表于 2019-10-26 12:11</span><br>
+<span>怎么判断是显卡驱动挂没挂？目前其他应用包括玩mhw也没问题。</span><br>
+<span>显卡驱动更新到440.97（老黄），重启之后还 ...</span><br>
+<span>你什么显卡？非2xxx系最好保持436.02，新驱动兼容性问题很大，我1070装新驱动后一半游戏都直接黑屏闪退。</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>不用dp该用什么线来维持我的4k60帧4:4:4的rgb(虽然是抖的)</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>Nanachi 发表于 2019-12-10 10:23</span><br>
+<span>不用dp该用什么线来维持我的4k60帧4:4:4的rgb(虽然是抖的)</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1N ...</span><br>
+<span>HDMI 1.4？</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>ff没事 Chrome的都有事 不该把锅扣在Chrome头上么</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861499[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有什么软件可以复制(剪切)后保持复制的文件创建时间不变</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有什么软件可以复制(剪切)后保持复制的文件创建时间不变</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:58 +0000</lastBuildDate>
+    <item>
+      <title>有什么软件可以复制(剪切)后保持复制的文件创建时间不变[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857643-1-1.html</link>
+      <description>有什么软件可以复制(剪切)后保持复制的文件创建时间不变&#13;
+要求有点奇特，但我习惯了按照创建时间排序，现在硬盘快满了需要移到另一块硬盘上。想要问一下有没有这样的软件可以实现</description>
+      <content:encoded><![CDATA[<p><b>bilibon: </b><br>
+<span>有什么软件可以复制(剪切)后保持复制的文件创建时间不变</span><br>
+<span>要求有点奇特，但我习惯了按照创建时间排序，现在硬盘快满了需要移到另一块硬盘上。想要问一下有没有这样的软件可以实现</span><br>
+</p><p><b>Neozero: </b><br>
+<span>rsync？</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>win7之后自带的robocopy</span><br>
+<span>robocopy ........ /COPY:DT /DCOPY:T</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>FreeFileSync</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>其实win10剪切创建时间不会变，复制会变。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>cxf5102 发表于 2019-10-3 13:50</span><br>
+<span>其实win10剪切创建时间不会变，复制会变。</span><br>
+<span>剪切一次后可以复制无数次吧</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>sirlion 发表于 2019-10-3 18:20</span><br>
+<span>剪切一次后可以复制无数次吧</span><br>
+<span>我也记得是这样的，但是实际上我这里不行了（1903），只让我粘贴一次</span><br>
+</p><p><b>Saikou: </b><br>
+<span> lwa190212 发表于 2019-10-3 17:35 win7之后自带的robocopy robocopy ........ /COPY:DT /DCOPY:T </span><br>
+<span>测试了一下，win10也能用</span><br>
+</p><p><b>rentrody: </b><br>
+<span>自带剪切主要是会变文件夹创建时间，我一般是用fastcopy，复制剪切时间都不变</span><br>
+</p><p><b>bilibon: </b><br>
+<span>感谢楼上回复，等会试一下</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857643[0-50]</guid>
+    </item>
+  </channel>
+</rss>

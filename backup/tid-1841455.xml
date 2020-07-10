@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>端口映射突然没法用了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>端口映射突然没法用了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:34:57 +0000</lastBuildDate>
+    <item>
+      <title>端口映射突然没法用了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841455-1-1.html</link>
+      <description>端口映射突然没法用了&#13;
+ 本帖最后由 kukimao 于 2019-6-23 13:15 编辑 
+
+魔都电信，用的电信送的光猫+k2p路由器，以前在路由器里设了端口映射，80和21端口，一直用的好好的。前天突然网络抽风连不上网，后来恢复正常以后，端口映射却都不好用了。用UPnP的电驴也不行了。无论设置什么端口，在外网都看不到了。请问这有可能是啥原因？
+&#13;
+路由器重新启动过，光猫也重新启动过。还是没有用
+&#13;
+我发现以前装宽带的师傅给我的光猫超级管理员密码，现在没法用了。不知道是不是有关系？
+&#13;
+后续：今早给电信打电话，5分钟后重启了一下路由器，恢复公网IP了。</description>
+      <content:encoded><![CDATA[<p><b>kukimao: </b><br>
+<span>端口映射突然没法用了</span><br>
+<span> 本帖最后由 kukimao 于 2019-6-23 13:15 编辑 </span><br>
+<span>魔都电信，用的电信送的光猫+k2p路由器，以前在路由器里设了端口映射，80和21端口，一直用的好好的。前天突然网络抽风连不上网，后来恢复正常以后，端口映射却都不好用了。用UPnP的电驴也不行了。无论设置什么端口，在外网都看不到了。请问这有可能是啥原因？</span><br>
+<span>路由器重新启动过，光猫也重新启动过。还是没有用</span><br>
+<span>我发现以前装宽带的师傅给我的光猫超级管理员密码，现在没法用了。不知道是不是有关系？</span><br>
+<span>后续：今早给电信打电话，5分钟后重启了一下路由器，恢复公网IP了。</span><br>
+</p><p><b>violind88: </b><br>
+<span>看下IP是不是公网IP没了 </span><br>
+</p><p><b>EraserKing: </b><br>
+<span>可能是光猫设置被重置了 说不定桥接变路由了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>macos: </b><br>
+<span>yougetsignal，查一下ip，端口，通常80很可能被国内营运商屏蔽，要映射尽量选些奇怪的</span><br>
+</p><p><b>kukimao: </b><br>
+<span>violind88 发表于 2019-6-22 17:52</span><br>
+<span>看下IP是不是公网IP没了</span><br>
+<span>还是公网ip</span><br>
+</p><p><b>kukimao: </b><br>
+<span>EraserKing 发表于 2019-6-22 17:57</span><br>
+<span>可能是光猫设置被重置了 说不定桥接变路由了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0- ...</span><br>
+<span>应该没有桥接变路由</span><br>
+<span>因为我用电脑直接接网线到光猫上，连不上网</span><br>
+<span>另外k2p里面还是设置的ppoe连接方式，还能正常上网</span><br>
+</p><p><b>bbn: </b><br>
+<span>电信封了吧</span><br>
+</p><p><b>w酱: </b><br>
+<span>是不是被内网了，看一下公网ip和pppoe的ip是不是一致的</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>80 443这种端口没被封才奇怪</span><br>
+</p><p><b>kukimao: </b><br>
+<span>w酱 发表于 2019-6-22 22:03</span><br>
+<span>是不是被内网了，看一下公网ip和pppoe的ip是不是一致的</span><br>
+<span>谢谢提醒啊。我看了一下，ppoe和公网的ip还真是不一样! </span><br>
+<span>请教这种情况有啥办法啊</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>你能映射80出去本身就是个意外，请去运营商备案</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>80口一般是封的吧，你能用这么久才怪吧</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>kukimao 发表于 2019-6-22 23:27</span><br>
+<span>谢谢提醒啊。我看了一下，ppoe和公网的ip还真是不一样! </span><br>
+<span>请教这种情况有啥办法啊 ...</span><br>
+<span>打10000找客服换。</span><br>
+<span>不过家里用端口映射一般都是映一万以上号吧</span><br>
+</p><p><b>kukimao: </b><br>
+<span>袄_偶滴小乔 发表于 2019-6-23 00:30</span><br>
+<span>打10000找客服换。</span><br>
+<span>不过家里用端口映射一般都是映一万以上号吧</span><br>
+<span>我电脑上开了个ftp，映射的21啊</span><br>
+</p><p><b>Fury: </b><br>
+<span>楼主开的80和21，主要是内网用还是外网用的？内网的话用外网域名访问80和21是通的哦</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span> 本帖最后由 bonbonfox 于 2019-6-23 09:33 编辑 </span><br>
+<span>我也问一下，以前都要自己做端口映射，在联通光猫的虚拟服务器下，最近发现它会自动添加设置了，电脑的utorrent端口，名称都自动设置是utorrent，电视或者电视盒也会添加相应的端口，好像也是p2p或者某个加速源的，名称是tvbus，hcdn，怎么会这样呢？</span><br>
+</p><p><b>ccen3020: </b><br>
+<span>bonbonfox 发表于 2019-6-23 09:27</span><br>
+<span>我也问一下，以前都要自己做端口映射，在联通光猫的虚拟服务器下，最近发现它会自动添加设置了，电脑的utor ...</span><br>
+<span>UPNP啊</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span>ccen3020 发表于 2019-6-23 09:41</span><br>
+<span>UPNP啊</span><br>
+<span>这样啊，以前都要自己添加设置，是因为在二级路由下吗，原来如此。。。</span><br>
+</p><p><b>kukimao: </b><br>
+<span>今早给电信打电话，5分钟后重启了一下路由器，恢复公网IP了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841455[0-50]</guid>
+    </item>
+  </channel>
+</rss>

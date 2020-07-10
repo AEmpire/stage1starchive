@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>你们懂得多，有没有内存欺骗软件?(已解决）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>你们懂得多，有没有内存欺骗软件?(已解决）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:27:51 +0000</lastBuildDate>
+    <item>
+      <title>你们懂得多，有没有内存欺骗软件?(已解决）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852099-1-1.html</link>
+      <description>你们懂得多，有没有内存欺骗软件?(已解决）&#13;
+ 本帖最后由 godzillaqqq 于 2019-8-12 10:55 编辑 
+
+一些软件强制要求8G内存，其实你只要他能打开就行了， 不要说加内存，垃圾苹果AIR 人穷装逼买了4G的你懂的</description>
+      <content:encoded><![CDATA[<p><b>godzillaqqq: </b><br>
+<span>你们懂得多，有没有内存欺骗软件?(已解决）</span><br>
+<span> 本帖最后由 godzillaqqq 于 2019-8-12 10:55 编辑 </span><br>
+<span>一些软件强制要求8G内存，其实你只要他能打开就行了， 不要说加内存，垃圾苹果AIR 人穷装逼买了4G的你懂的</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span>什么情况，这是没戏了吗？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>sirlion: </b><br>
+<span>要求8g基本是的确有这个需求吧，把页面文件弄大点不行么</span><br>
+</p><p><b>Geminize: </b><br>
+<span>当年WIN98有类似的，MAC没听说过</span><br>
+</p><p><b>烟萝: </b><br>
+<span>换设备，换16g</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>mac还是砸了吧，用户都不差钱，估计没其他人有这么奇怪的需求</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span>Geminize 发表于 2019-08-08 11:42:42</span><br>
+<span>当年WIN98有类似的，MAC没听说过忘记说就是要win系统下的，是什么软件</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>qwased: </b><br>
+<span>是不是7zip？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>Air不能换内存么</span><br>
+</p><p><b>奥尔斯蒂德: </b><br>
+<span>内存条是焊死的吧</span><br>
+</p><p><b>violind88: </b><br>
+<span>应该可以吧以前看过32位可以显示可用超过4G内存的（实际还是用不到）</span><br>
+</p><p><b>braverbt: </b><br>
+<span>如果软件是检查内存总量的话(包括页面分区内存),你可以试试把页面内存增大到总量8G+,说不定就行了</span><br>
+<span>如果是检查物理内存的话好像也有办法,但是应该是每个程序都不同的?</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>4G伪装有啥用，单条8G内存都两百多了，台式已经插上32G内存，能卖的掉还不赶紧卖掉，倒腾这些花里胡哨的</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span>感谢大家热情帮助，大概说一下解决方法，以方便日后有这需求的S1er</span><br>
+<span>先说解决工具，CE6.7 也就是内存修改器，反编辑软件 ollydbg </span><br>
+<span>思路 大概是这样，ollydbg 找到检测内存关键跳点，(因为不涉及到sn 注册码之类的，这关键点都简单的要死，很容易找到）记下内存位置，再用ce生成内存修改器 ，然后就像你玩游戏修改一样，启动程序后加载 ，一切就这么简单</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>godzillaqqq 发表于 2019-8-12 11:08</span><br>
+<span>感谢大家热情帮助，大概说一下解决方法，以方便日后有这需求的S1er</span><br>
+<span>先说解决工具，CE6.7 也就是内存修改器 ...</span><br>
+<span>喷了……这也行……</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>godzillaqqq 发表于 2019-8-12 11:08</span><br>
+<span>感谢大家热情帮助，大概说一下解决方法，以方便日后有这需求的S1er</span><br>
+<span>先说解决工具，CE6.7 也就是内存修改器 ...</span><br>
+<span>大佬厉害，点赞</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>dvd6: </b><br>
+<span>godzillaqqq 发表于 2019-8-12 11:08</span><br>
+<span>感谢大家热情帮助，大概说一下解决方法，以方便日后有这需求的S1er</span><br>
+<span>先说解决工具，CE6.7 也就是内存修改器 ...</span><br>
+<span>这样可以改显卡么……有个软件要求rx560以上，我的290它不认……</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>想起了被 windows phone 商店卡 spec 的恐怖日子</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>喷了，你这方法……xswl</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>dvd6 发表于 2019-8-12 15:18</span><br>
+<span>这样可以改显卡么……有个软件要求rx560以上，我的290它不认……</span><br>
+<span>改显卡直接改显卡——就是二手骗子电脑那种改法</span><br>
+</p><p><b>Geminize: </b><br>
+<span>引用第16楼dvd6于2019-08-12 15:18发表的:</span><br>
+<span>引用:godzillaqqq 发表于 2019-8-12 11:08感谢大家热情帮助，大概说一下解决......</span><br>
+<span>Windows可以改注册表里的硬件型号，当然游戏不一定根据这个读取就是了，胆大的可以改显卡BIOS里的型号再刷进去</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>dvd6: </b><br>
+<span>Geminize 发表于 2019-8-12 19:19</span><br>
+<span>Windows可以改注册表里的硬件型号，当然游戏不一定根据这个读取就是了，胆大的可以改显卡BIOS里的型号再刷 ...</span><br>
+<span>改bios会不会有副作用？比如影响驱动识别之类的</span><br>
+</p><p><b>Geminize: </b><br>
+<span>会，所以不少华强北山寨卡只能装改过的驱动，一装官方驱动就露馅</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span>dvd6 发表于 2019-8-12 15:18</span><br>
+<span>这样可以改显卡么……有个软件要求rx560以上，我的290它不认……</span><br>
+<span>显卡的话应该会要调用到驱动，单纯改识别应该没用 只能改ID 我以前所用过的rivatuner   keta biosmod应该都过时了， nvrom这种传级的软件没见到过下载</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852099[0-50]</guid>
+    </item>
+  </channel>
+</rss>

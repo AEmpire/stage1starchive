@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为了使python做的性能测试软件体验好一点,我们想做一个突破</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为了使python做的性能测试软件体验好一点,我们想做一个突破</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:08:59 +0000</lastBuildDate>
+    <item>
+      <title>为了使python做的性能测试软件体验好一点,我们想做一个突破[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845543-1-1.html</link>
+      <description>为了使python做的性能测试软件体验好一点,我们想做一个突破&#13;
+ 本帖最后由 CAMUS.net 于 2019-7-10 03:13 编辑 
+
+为了使python做的计算机性能测试软件体验再好一点，我们想做一个突破。
+&#13;
+from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication,QLabel
+&#13;
+from PyQt5.QtWidgets import QWidget, QProgressBar, QTextEdit, QLineEdit,QPushButton
+&#13;
+from PyQt5.QtCore import QBasicTimer
+&#13;
+import os
+&#13;
+import time
+&#13;
+import sys
+&#13;
+from multiprocessing import Pool
+&#13;
+class x2gui(QMainWindow):
+&#13;
+    def __init__(self):
+&#13;
+      super().__init__()
+&#13;
+      self.initUI()
+&#13;
+    def initUI(self):
+&#13;
+      #菜单
+&#13;
+      exitAct = QAction('&amp;退出', self)
+&#13;
+      exitAct.setShortcut('Ctrl+Q')
+&#13;
+      exitAct.setStatusTip('退出程序')
+&#13;
+      exitAct.triggered.connect(qApp.quit)
+&#13;
+      self.statusBar()
+&#13;
+      menubar = self.menuBar()
+&#13;
+      fileMenu = menubar.addMenu('&amp;文件')
+&#13;
+      fileMenu.addAction(exitAct)
+&#13;
+      #输入
+&#13;
+      #self.lb1 = QLabel('线程数量：', self)
+&#13;
+      #self.lb1.move(20, 20)
+&#13;
+      #self.textbox = QLineEdit('1', self)
+&#13;
+      #self.textbox.setGeometry(80, 25, 50, 20)
+&#13;
+      #进度条
+&#13;
+      self.pbar = QProgressBar(self)
+&#13;
+      self.pbar.setGeometry(20, 60, 480, 20)
+&#13;
+      # 按钮
+&#13;
+      self.startbtn = QPushButton('开始', self)# 按钮
+&#13;
+      self.startbtn.move(40, 90)
+&#13;
+      self.startbtn.clicked.connect(self.startrunx)
+&#13;
+      self.exitbtn = QPushButton('退出', self)# 按钮
+&#13;
+      self.exitbtn.move(160, 90)
+&#13;
+      self.exitbtn.clicked.connect(self.exitrunx)
+&#13;
+      #输出
+&#13;
+      self.textEdit = QTextEdit(self)
+&#13;
+      self.textEdit.document().setMaximumBlockCount(2)
+&#13;
+      self.textEdit.setGeometry(0, 150, 500, 130)
+&#13;
+      #主窗口
+&#13;
+      self.setGeometry(300, 300, 500, 300)
+&#13;
+      self.setWindowTitle('计算机性能测试——2开方精确到小数点后1万位')
+&#13;
+      self.show()
+&#13;
+    def runx(self):
+&#13;
+      self.textEdit.setPlainText("正在计算……")
+&#13;
+      t = time.time()
+&#13;
+      thread = 1
+&#13;
+      while thread &lt;= 1:
+&#13;
+            x2 = '2'
+&#13;
+            zero = 0
+&#13;
+            while zero &lt; 100:
+&#13;
+                x2 = x2 + '00'
+&#13;
+                zero = zero + 1
+&#13;
+            x = ""# 开方结果
+&#13;
+            digits = len(x2)# 统计位数
+&#13;
+            digits_pbars = digits
+&#13;
+            if digits % 2 == 1:# 判断单双位数
+&#13;
+                x2_1 = int(x2)# 取第一个数
+&#13;
+                digit = 1# 从第一位后开始取数
+&#13;
+                digits = digits - 1
+&#13;
+            else:
+&#13;
+                x2_1 = int(x2)# 取第一个数
+&#13;
+                digit = 2# 从第二位后开始取数
+&#13;
+                digits = digits - 2
+&#13;
+            for x in range(9, -1, -1):
+&#13;
+                if x2_1 &gt;= x * x:# 判断a*a是否合适，并减出余数
+&#13;
+                  x2_2 = x2_1 - x * x# 得出余数
+&#13;
+                  x = str(x)
+&#13;
+                  break
+&#13;
+            while digits &gt;= 2:# 数字每两位取数
+&#13;
+                x2_2 = int(str(x2_2) + x2)# 余数补上后面两位数字
+&#13;
+                for a2bb in range(9, -1, -1):
+&#13;
+                  if x2_2 &gt;= (2 * int(x) * 10 + a2bb) * a2bb:# 判断b是否适合(2a+b)b
+&#13;
+                        x2_2 = x2_2 - (2 * int(x) * 10 + a2bb) * a2bb# 减出余数
+&#13;
+                        a2bb = str(a2bb)
+&#13;
+                        break
+&#13;
+                x = x + a2bb# 将得到的数字连串起来
+&#13;
+                digit = digit + 2
+&#13;
+                digits = digits - 2
+&#13;
+                self.pbar.setValue((digit / digits_pbars) * 100)
+&#13;
+                QApplication.processEvents()# 解决进程卡死
+&#13;
+            thread = thread + 1
+&#13;
+            x = x + "." + x
+&#13;
+            print(x)
+&#13;
+      if len(sys.argv) == 1:
+&#13;
+            results = 'results.txt'
+&#13;
+      else:
+&#13;
+            results = 'results' + sys.argv + '.txt'
+&#13;
+      with open(results, 'w') as f:
+&#13;
+            f.write(x)
+&#13;
+      t1 = time.time()
+&#13;
+      t2 = '运算时间:' + str(t1 - t) + '秒'
+&#13;
+      self.textEdit.append(t2)
+&#13;
+    def startrunx(self):
+&#13;
+      self.startbtn.setEnabled(False)
+&#13;
+      self.exitbtn.setEnabled(True)
+&#13;
+      self.runx()
+&#13;
+    def exitrunx(self):
+&#13;
+      sys.exit()
+&#13;
+      self.textEdit.clear()
+&#13;
+      self.startbtn.setEnabled(True)
+&#13;
+      self.exitbtn.setEnabled(False)
+&#13;
+if __name__ == '__main__':
+&#13;
+    app = QApplication(sys.argv)
+&#13;
+    ex = x2gui()
+&#13;
+    sys.exit(app.exec_())
+&#13;
+下载：
+&#13;
+https://github.com/i80686/Test/raw/master/x2-10000-gui.7z</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>为了使python做的性能测试软件体验好一点,我们想做一个突破</span><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-10 03:13 编辑 </span><br>
+<span>为了使python做的计算机性能测试软件体验再好一点，我们想做一个突破。</span><br>
+<span>from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication,QLabel</span><br>
+<span>from PyQt5.QtWidgets import QWidget, QProgressBar, QTextEdit, QLineEdit,QPushButton</span><br>
+<span>from PyQt5.QtCore import QBasicTimer</span><br>
+<span>import os</span><br>
+<span>import time</span><br>
+<span>import sys</span><br>
+<span>from multiprocessing import Pool</span><br>
+<span>class x2gui(QMainWindow):</span><br>
+<span>    def __init__(self):</span><br>
+<span>      super().__init__()</span><br>
+<span>      self.initUI()</span><br>
+<span>    def initUI(self):</span><br>
+<span>      #菜单</span><br>
+<span>      exitAct = QAction('&退出', self)</span><br>
+<span>      exitAct.setShortcut('Ctrl+Q')</span><br>
+<span>      exitAct.setStatusTip('退出程序')</span><br>
+<span>      exitAct.triggered.connect(qApp.quit)</span><br>
+<span>      self.statusBar()</span><br>
+<span>      menubar = self.menuBar()</span><br>
+<span>      fileMenu = menubar.addMenu('&文件')</span><br>
+<span>      fileMenu.addAction(exitAct)</span><br>
+<span>      #输入</span><br>
+<span>      #self.lb1 = QLabel('线程数量：', self)</span><br>
+<span>      #self.lb1.move(20, 20)</span><br>
+<span>      #self.textbox = QLineEdit('1', self)</span><br>
+<span>      #self.textbox.setGeometry(80, 25, 50, 20)</span><br>
+<span>      #进度条</span><br>
+<span>      self.pbar = QProgressBar(self)</span><br>
+<span>      self.pbar.setGeometry(20, 60, 480, 20)</span><br>
+<span>      # 按钮</span><br>
+<span>      self.startbtn = QPushButton('开始', self)# 按钮</span><br>
+<span>      self.startbtn.move(40, 90)</span><br>
+<span>      self.startbtn.clicked.connect(self.startrunx)</span><br>
+<span>      self.exitbtn = QPushButton('退出', self)# 按钮</span><br>
+<span>      self.exitbtn.move(160, 90)</span><br>
+<span>      self.exitbtn.clicked.connect(self.exitrunx)</span><br>
+<span>      #输出</span><br>
+<span>      self.textEdit = QTextEdit(self)</span><br>
+<span>      self.textEdit.document().setMaximumBlockCount(2)</span><br>
+<span>      self.textEdit.setGeometry(0, 150, 500, 130)</span><br>
+<span>      #主窗口</span><br>
+<span>      self.setGeometry(300, 300, 500, 300)</span><br>
+<span>      self.setWindowTitle('计算机性能测试——2开方精确到小数点后1万位')</span><br>
+<span>      self.show()</span><br>
+<span>    def runx(self):</span><br>
+<span>      self.textEdit.setPlainText("正在计算……")</span><br>
+<span>      t = time.time()</span><br>
+<span>      thread = 1</span><br>
+<span>      while thread <= 1:</span><br>
+<span>            x2 = '2'</span><br>
+<span>            zero = 0</span><br>
+<span>            while zero < 100:</span><br>
+<span>                x2 = x2 + '00'</span><br>
+<span>                zero = zero + 1</span><br>
+<span>            x = ""# 开方结果</span><br>
+<span>            digits = len(x2)# 统计位数</span><br>
+<span>            digits_pbars = digits</span><br>
+<span>            if digits % 2 == 1:# 判断单双位数</span><br>
+<span>                x2_1 = int(x2)# 取第一个数</span><br>
+<span>                digit = 1# 从第一位后开始取数</span><br>
+<span>                digits = digits - 1</span><br>
+<span>            else:</span><br>
+<span>                x2_1 = int(x2)# 取第一个数</span><br>
+<span>                digit = 2# 从第二位后开始取数</span><br>
+<span>                digits = digits - 2</span><br>
+<span>            for x in range(9, -1, -1):</span><br>
+<span>                if x2_1 >= x * x:# 判断a*a是否合适，并减出余数</span><br>
+<span>                  x2_2 = x2_1 - x * x# 得出余数</span><br>
+<span>                  x = str(x)</span><br>
+<span>                  break</span><br>
+<span>            while digits >= 2:# 数字每两位取数</span><br>
+<span>                x2_2 = int(str(x2_2) + x2)# 余数补上后面两位数字</span><br>
+<span>                for a2bb in range(9, -1, -1):</span><br>
+<span>                  if x2_2 >= (2 * int(x) * 10 + a2bb) * a2bb:# 判断b是否适合(2a+b)b</span><br>
+<span>                        x2_2 = x2_2 - (2 * int(x) * 10 + a2bb) * a2bb# 减出余数</span><br>
+<span>                        a2bb = str(a2bb)</span><br>
+<span>                        break</span><br>
+<span>                x = x + a2bb# 将得到的数字连串起来</span><br>
+<span>                digit = digit + 2</span><br>
+<span>                digits = digits - 2</span><br>
+<span>                self.pbar.setValue((digit / digits_pbars) * 100)</span><br>
+<span>                QApplication.processEvents()# 解决进程卡死</span><br>
+<span>            thread = thread + 1</span><br>
+<span>            x = x + "." + x</span><br>
+<span>            print(x)</span><br>
+<span>      if len(sys.argv) == 1:</span><br>
+<span>            results = 'results.txt'</span><br>
+<span>      else:</span><br>
+<span>            results = 'results' + sys.argv + '.txt'</span><br>
+<span>      with open(results, 'w') as f:</span><br>
+<span>            f.write(x)</span><br>
+<span>      t1 = time.time()</span><br>
+<span>      t2 = '运算时间:' + str(t1 - t) + '秒'</span><br>
+<span>      self.textEdit.append(t2)</span><br>
+<span>    def startrunx(self):</span><br>
+<span>      self.startbtn.setEnabled(False)</span><br>
+<span>      self.exitbtn.setEnabled(True)</span><br>
+<span>      self.runx()</span><br>
+<span>    def exitrunx(self):</span><br>
+<span>      sys.exit()</span><br>
+<span>      self.textEdit.clear()</span><br>
+<span>      self.startbtn.setEnabled(True)</span><br>
+<span>      self.exitbtn.setEnabled(False)</span><br>
+<span>if __name__ == '__main__':</span><br>
+<span>    app = QApplication(sys.argv)</span><br>
+<span>    ex = x2gui()</span><br>
+<span>    sys.exit(app.exec_())</span><br>
+<span>下载：</span><br>
+<span>https://github.com/i80686/Test/raw/master/x2-10000-gui.7z</span><br>
+</p><p><b>jctc: </b><br>
+<span>请允许我们叫你一声大哥哥！</span><br>
+</p><p><b>無想の風: </b><br>
+<span>为什么还是“我们”？</span><br>
+</p><p><b>UncleCat: </b><br>
+<span>我开始有点佩服python 侠了</span><br>
+</p><p><b>2517君: </b><br>
+<span>当年我学python就只是为了一个galgame引擎。我因此很佩服lz的无用的劳动</span><br>
+</p><p><b>jjyycy: </b><br>
+<span>python侠</span><br>
+</p><p><b>waox: </b><br>
+<span>python侠已经用上royal we了吗</span><br>
+<span>果然python可以实现阶级上升</span><br>
+</p><p><b>晴空怜: </b><br>
+<span>突然间就进化了？但是核心算法根本没变啊</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>Python侠每天都在进步</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>朱卉菲: </b><br>
+<span>我是绝对不信</span><br>
+<span>用原生python进行数值计算，而没有借助任何外部库</span><br>
+<span>其效率能比C\C++\Fortran快，不可能的</span><br>
+</p><p><b>观自在: </b><br>
+<span>2517君 发表于 2019-7-10 04:50</span><br>
+<span>当年我学python就只是为了一个galgame引擎。我因此很佩服lz的无用的劳动</span><br>
+<span>轮子哥教导我们:学习编程最好的练习项目就是把windows附件目录里的软件再写一遍</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>a2532521: </b><br>
+<span>想起来了...是你!一堆if 开平方根</span><br>
+</p><p><b>Prushka: </b><br>
+<span>我们？原来不是一个人傻逼是集体傻逼，还是说臆症幻想出了其他人？</span><br>
+</p><p><b>pyjq: </b><br>
+<span>其实我想知道lz到底多大。编程上做出一点东西就想往论坛发么</span><br>
+<span>—— 来自 OnePlus GM1900, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>高中生育成计画</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845543[0-50]</guid>
+    </item>
+  </channel>
+</rss>

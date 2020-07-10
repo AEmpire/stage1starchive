@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>马造2主播是如何做到实时更新地图信息的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>马造2主播是如何做到实时更新地图信息的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:51:17 +0000</lastBuildDate>
+    <item>
+      <title>马造2主播是如何做到实时更新地图信息的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1867058-1-1.html</link>
+      <description>马造2主播是如何做到实时更新地图信息的？&#13;
+有的马造2主播会在屏幕角落标明当前在玩的地图名称、作者信息和搜索代码，这些东西好像是可以实时更新的，比如对战模式搜索到人之后载入时游戏先有个展示地图信息的界面，然后开始游戏，就在这几秒钟内屏幕左上角的所有信息便会更新完成，甚至还会将外语机翻出来。这是怎么做到的？</description>
+      <content:encoded><![CDATA[<p><b>贾科梅蒂: </b><br>
+<span>马造2主播是如何做到实时更新地图信息的？</span><br>
+<span>有的马造2主播会在屏幕角落标明当前在玩的地图名称、作者信息和搜索代码，这些东西好像是可以实时更新的，比如对战模式搜索到人之后载入时游戏先有个展示地图信息的界面，然后开始游戏，就在这几秒钟内屏幕左上角的所有信息便会更新完成，甚至还会将外语机翻出来。这是怎么做到的？</span><br>
+</p><p><b>天狐: </b><br>
+<span>那是主播自己做的小程序</span><br>
+<span>用抓包软件截取封包提取信息</span><br>
+</p><p><b>slime7: </b><br>
+<span>可以抓包，也可以用图像识别做。</span><br>
+</p><p><b>han110022: </b><br>
+<span>小桀那个应该是图像识别</span><br>
+<span>有次直播他自己说HDMI线出了点问题，关卡信息今天都出不来了</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>段东桀的那个就是很简单的图像识别，死亡计数是音效识别，没有抓包那么玄乎</span><br>
+</p><p><b>RedPig: </b><br>
+<span>图像识别，github上就有简单的开源项目</span><br>
+<span>网络抓包目前ns上还做不到</span><br>
+</p><p><b>ouhloo: </b><br>
+<span>还有速通的那种计时是什么原理？</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>任天堂的网络包，肯定是加过密的</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>小桀是技术宅，和观众互动做的挺好</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1867058[0-50]</guid>
+    </item>
+  </channel>
+</rss>

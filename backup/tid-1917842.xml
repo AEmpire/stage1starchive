@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求问一个最近遇到的lightroom相关的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求问一个最近遇到的lightroom相关的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:39:52 +0000</lastBuildDate>
+    <item>
+      <title>求问一个最近遇到的lightroom相关的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917842-1-1.html</link>
+      <description>求问一个最近遇到的lightroom相关的问题&#13;
+问题：lightroom导入照片时，无法保留机内修改的状态（RAW格式）
+&#13;
+机器是LX100
+&#13;
+运用了机身自带滤镜，有一张非常满意。但是由于保存的是raw格式，导入后又恢复成了原片。
+&#13;
+最弱智的是机身自带的raw转jpg没这个滤镜（拍摄状态下有，raw处理选项里面没有），所以也没法把把修改后的作照片转成jpg再考出来。
+&#13;
+现在就是：机器上能看到修改好的照片，lightroom上导入预览也能看到，但是导出来就是原片了。
+&#13;
+求解。</description>
+      <content:encoded><![CDATA[<p><b>wuzhou6058: </b><br>
+<span>求问一个最近遇到的lightroom相关的问题</span><br>
+<span>问题：lightroom导入照片时，无法保留机内修改的状态（RAW格式）</span><br>
+<span>机器是LX100</span><br>
+<span>运用了机身自带滤镜，有一张非常满意。但是由于保存的是raw格式，导入后又恢复成了原片。</span><br>
+<span>最弱智的是机身自带的raw转jpg没这个滤镜（拍摄状态下有，raw处理选项里面没有），所以也没法把把修改后的作照片转成jpg再考出来。</span><br>
+<span>现在就是：机器上能看到修改好的照片，lightroom上导入预览也能看到，但是导出来就是原片了。</span><br>
+<span>求解。</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>另外我是后期渣，没本事对着调回去...</span><br>
+</p><p><b>wxagdp: </b><br>
+<span>就是只套了个机身自带的滤镜么？一般在LR的 基本 - 配置文件 选项里可以看到一些相机自带的滤镜，给RAW套上再导出就可以了</span><br>
+</p><p><b>ulysses: </b><br>
+<span>用其他的软件解一下试试，比如松下随机送的那个</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span> wxagdp 发表于 2020-3-8 22:46 就是只套了个机身自带的滤镜么？一般在LR的 基本 - 配置文件 选项里可以看到一些相机自带的滤镜，给RAW套上再导出就可以了 </span><br>
+<span>试过了，没有这个滤镜</span><br>
+</p><p><b>rrpw777: </b><br>
+<span>导入前能看到预览说明是存在同名jpg或者是raw内嵌jpg?没有jpg的话用exiftool从raw里提取一下，但估计只能分辨率很低的预览图。</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>rrpw777 发表于 2020-3-9 10:35</span><br>
+<span>导入前能看到预览说明是存在同名jpg或者是raw内嵌jpg?没有jpg的话用exiftool从raw里提取一下，但估计只能分 ...</span><br>
+<span>相机上设置是仅raw，但是在导入前预览的时候放大也很清晰。应该是套用了相机raw调整，但是导入后把调整抹掉了。</span><br>
+<span>现在看来问题就是：如何保留相机自带raw调整</span><br>
+</p><p><b>就烦起名字: </b><br>
+<span>相机上的滤镜只对直出JPG生效 不是常识吗......</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>就烦起名字 发表于 2020-3-9 11:29</span><br>
+<span>相机上的滤镜只对直出JPG生效 不是常识吗......</span><br>
+<span>是的，所以就很迷惑，一般相机即使是选择“仅raw”，设置滤镜后自动变jpg。</span><br>
+<span>但是松下这设置就很迷惑...应该是套用机器内部raw修改对原片进行修改，但是Lr导入后没有保留（但是为什么导入界面又能看到修改后效果...）</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>配置文件，一般没有动过的话导入时候是adobe standard</span><br>
+<span>自己选Camera Standard，当然你也可以做一个只是调了配置文件的预设在导入时候套上去，就不用一个一个套</span><br>
+</p><p><b>holywind: </b><br>
+<span>不能设置为保留raw和jpeg两种格式吗</span><br>
+<span>然后jpeg应该有滤镜效果，导入jpeg，在jpeg有滤镜效果的图上继续修</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span> holywind 发表于 2020-3-9 11:53 不能设置为保留raw和jpeg两种格式吗 然后jpeg应该有滤镜效果，导入jpeg，在jpeg有滤镜效果的图上继续修 </span><br>
+<span>经过这件事后我现在设置的都是raw jpg</span><br>
+<span>但是这片子已经拍出来了，改不了了</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span> 二丁目拓也 发表于 2020-3-9 11:50 配置文件，一般没有动过的话导入时候是adobe standard 自己选Camera Standard，当然你也可以做一个只是调了配置文件的预设在导入时候套上去，就不用一个一个套 </span><br>
+<span>是的，但是没有camera standard这个选项，就很迷惑</span><br>
+</p><p><b>sroodz: </b><br>
+<span>在导入界面放大截个图吧。。</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>sroodz 发表于 2020-3-9 13:06</span><br>
+<span>在导入界面放大截个图吧。。</span><br>
+<span>跟我想法完全一致</span><br>
+</p><p><b>YuKin: </b><br>
+<span>你得用松下本家的软件SILKYPIX。</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>wuzhou6058 发表于 2020-3-9 12:16</span><br>
+<span>是的，但是没有camera standard这个选项，就很迷惑</span><br>
+<span>LR版本号？</span><br>
+<span>顺便给我个RAW</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>二丁目拓也 发表于 2020-3-9 14:32</span><br>
+<span>LR版本号？</span><br>
+<span>顺便给我个RAW</span><br>
+<span>记不得了，好像是八国联军清朝预付费版的2019cc</span><br>
+<span>现在在上班，晚上回去还是搞不定的话就有劳大神了。</span><br>
+</p><p><b>是音sama: </b><br>
+<span>想问下修图你们是用raw重修还是在jpg上面改的？</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>是音sama 发表于 2020-3-9 15:53</span><br>
+<span>想问下修图你们是用raw重修还是在jpg上面改的？</span><br>
+<span>肯定是raw啊，jpg曝光度都拉不了...</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>RAW上带滤镜优先用厂商自带的软件</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>我试了一下，Lightroom8.1配置文件——浏览</span><br>
+<span>然后就有相机对应的配置文件，18年的时候买过LX100所以直接拿以前的图示范了一下</span><br>
+<span>所谓机内滤镜就这样</span><br>
+<span>至于JPG还有些饱和度啊，什么高光阴影的自定义的话，那个肯定是需要手动的</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>二丁目拓也 发表于 2020-3-9 18:28</span><br>
+<span>我试了一下，Lightroom8.1配置文件——浏览</span><br>
+<span>然后就有相机对应的配置文件，18年的时候买过LX100所以直接拿以 ...</span><br>
+<span>看了一下，确实没有camera standard</span><br>
+<span>迷惑</span><br>
+<span>我是902版本</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>二丁目拓也 发表于 2020-3-9 18:28</span><br>
+<span>我试了一下，Lightroom8.1配置文件——浏览</span><br>
+<span>然后就有相机对应的配置文件，18年的时候买过LX100所以直接拿以 ...</span><br>
+<span>不纠结了，下次直接RAW+jpg直出吧。</span><br>
+<span>顺便问下有没有什么系统性Lr相关的教程，大不了自己调。</span><br>
+<span>谢谢大佬</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>wuzhou6058 发表于 2020-3-9 18:40</span><br>
+<span>不纠结了，下次直接RAW+jpg直出吧。</span><br>
+<span>顺便问下有没有什么系统性Lr相关的教程，大不了自己调。</span><br>
+<span>谢谢大佬 ...</span><br>
+<span>建议重装ACR</span><br>
+<span>不是LR，是PS调用的那个ACR插件</span><br>
+<span>LR教程我没看过，建议B站自行搜索</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>二丁目拓也 发表于 2020-3-9 19:09</span><br>
+<span>建议重装ACR</span><br>
+<span>不是LR，是PS调用的那个ACR插件</span><br>
+<span>LR教程我没看过，建议B站自行搜索 ...</span><br>
+<span>啊，我电脑没装PS</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>wuzhou6058 发表于 2020-3-9 19:14</span><br>
+<span>啊，我电脑没装PS</span><br>
+<span>两个软件一起装</span><br>
+<span>LR的修改照片部分跟PS的ACR是一样的</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>现在lr能完美**么？好久都不敢升级了……</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span> 二丁目拓也 发表于 2020-3-9 19:46 引用:wuzhou6058 发表于 2020-3-9 19:14 啊，我电脑没装PS 两个软件一起装 LR的修改照片部分跟PS的ACR是一样的 </span><br>
+<span>get，我去淘宝整一个虎门销烟预付费版本的谢谢大佬</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917842[0-50]</guid>
+    </item>
+  </channel>
+</rss>

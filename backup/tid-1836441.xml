@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于交换机的一个不专业问题…</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于交换机的一个不专业问题…</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:05:43 +0000</lastBuildDate>
+    <item>
+      <title>关于交换机的一个不专业问题…[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836441-1-1.html</link>
+      <description>关于交换机的一个不专业问题…&#13;
+ 本帖最后由 traburiss 于 2019-6-2 21:21 编辑 
+
+千兆交换机的这个千兆，是指两个网口之间的速度是千兆的，还是指整个交换机能过的流量是千兆？
+
+最近这两天测一个性能指标有点头疼，所有设备连在一台千兆交换机上，我无论怎么测，增加各种压力也好，增加被测试的机器数量或者测试机的数量都好，速度就是卡在128MB/S这个点上。
+
+我一直觉得千兆交换机应该是任意一个口和另外一个口的速度是千兆，插多少个口，大家都是千兆……不过这两天的测试感觉好像不是这样………还是说我测试哪里出问题了………
+
+有点迷………加了两天班……感觉要死………</description>
+      <content:encoded><![CDATA[<p><b>traburiss: </b><br>
+<span>关于交换机的一个不专业问题…</span><br>
+<span> 本帖最后由 traburiss 于 2019-6-2 21:21 编辑 </span><br>
+<span>千兆交换机的这个千兆，是指两个网口之间的速度是千兆的，还是指整个交换机能过的流量是千兆？</span><br>
+<span>最近这两天测一个性能指标有点头疼，所有设备连在一台千兆交换机上，我无论怎么测，增加各种压力也好，增加被测试的机器数量或者测试机的数量都好，速度就是卡在128MB/S这个点上。</span><br>
+<span>我一直觉得千兆交换机应该是任意一个口和另外一个口的速度是千兆，插多少个口，大家都是千兆……不过这两天的测试感觉好像不是这样………还是说我测试哪里出问题了………</span><br>
+<span>有点迷………加了两天班……感觉要死………</span><br>
+</p><p><b>迷路的石头: </b><br>
+<span>千兆是1000Mbit/s，也就是125MByte/s</span><br>
+<span>所以这个速度没问题</span><br>
+</p><p><b>traburiss: </b><br>
+<span>迷路的石头 发表于 2019-6-2 21:21</span><br>
+<span>千兆是1000Mbit/s，也就是125MByte/s</span><br>
+<span>所以这个速度没问题</span><br>
+<span>我是两台测试机发请求测6台机器组成的集群……感觉怎么也应该是256MB/S吧……</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>囚徒: </b><br>
+<span>口是千兆</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>你说的总共能过的流量那叫背板带宽，现在的交换机一般能做到双向线速转发</span><br>
+<span>也就是说8个口的交换机一般有16Gbps背板带宽</span><br>
+<span>至于你遇到的问题。。。那应该是别的原因引起</span><br>
+</p><p><b>大阿吉: </b><br>
+<span>工作中遇到过的交换机性能问题一般有两个原因，供参考：</span><br>
+<span>1. pause帧的问题。</span><br>
+<span>2. 架构相关，各种形式的port confliction</span><br>
+</p><p><b>traburiss: </b><br>
+<span>这是一个马甲 发表于 2019-6-2 21:25</span><br>
+<span>你说的总共能过的流量那叫背板带宽，现在的交换机一般能做到双向线速转发</span><br>
+<span>也就是说8个口的交换机一般有16Gb ...</span><br>
+<span>我觉得也是…………</span><br>
+</p><p><b>迷路的石头: </b><br>
+<span>traburiss 发表于 2019-6-2 21:22</span><br>
+<span>我是两台测试机发请求测6台机器组成的集群……感觉怎么也应该是256MB/S吧……</span><br>
+<span>—— 来自 Xiaomi Mi Note ...</span><br>
+<span>你是指两个测试机速度相加是128MB/s</span><br>
+<span>6台集群是怎么个设置？主备还是负载均衡？负载均衡是怎样的设置法？</span><br>
+</p><p><b>traburiss: </b><br>
+<span>迷路的石头 发表于 2019-6-2 21:48</span><br>
+<span>你是指两个测试机速度相加是128MB/s</span><br>
+<span>6台集群是怎么个设置？主备还是负载均衡？负载均衡是怎样的设置法？ ...</span><br>
+<span>两台测试机用jmeter做集群测试，合起来速度是128。</span><br>
+<span>6台机是六个节点，每个节点jmeter都会有一个单独的请求去访问这个节点的http服务。</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>迷路的石头: </b><br>
+<span>traburiss 发表于 2019-6-2 21:55</span><br>
+<span>两台测试机用jmeter做集群测试，合起来速度是128。</span><br>
+<span>6台机是六个节点，每个节点jmeter都会有一个单独的请 ...</span><br>
+<span>那你单台测试机是多少速度？</span><br>
+</p><p><b>迷路的石头: </b><br>
+<span>啥品牌的交换机？</span><br>
+<span>思科/锐捷/juniper这种在测试的时候可以用 show interface 端口名 来看端口速率</span><br>
+<span>华为/华三是display interface 端口名</span><br>
+</p><p><b>traburiss: </b><br>
+<span>迷路的石头 发表于 2019-6-2 21:56</span><br>
+<span>那你单台测试机是多少速度？</span><br>
+<span>80多，两台到128……头疼啊……我是iftop看的实时速率，jmeter会自动统计整个测试的速率………</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>モトロ: </b><br>
+<span>网线口是1000M自适应的吧 最多1000M</span><br>
+</p><p><b>Astroneer: </b><br>
+<span> 本帖最后由 Astroneer 于 2019-6-2 22:19 编辑 </span><br>
+<span>单个千兆口传输速率理论是上下行同时128M/s, 实际使用中因为tcp ack, 如果传输的数据包非常小, ack报文占据的带宽比例会增大, 不过也不会低于110M/s</span><br>
+<span>最简单的, 先看看交换机的品牌, 相关配置, 手头是否有替换</span><br>
+<span>重置交换机的设置, 排除配置导致的各种冲突. 很多退役下来用来测试的交换机都被配了奇怪的玩意, 什么单臂路由, 端口克隆之类. 做测试直接拿了用经常会被搞得不明就里.</span><br>
+<span>再terminal上去看看相关端口的速率, 不要看软件统计的</span><br>
+<span>用抓包软件看看有没有大量pause帧</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>@xxad 终于拿到第一个鹅了</span><br>
+<span>虽然感谢你的鹅但是评分没法回的啊。。。</span><br>
+<span>一个正常的全双工千兆口就是可以上下行同时跑1Gbps的，8口双向线速转发就是16Gbps背板带宽，不需要链路聚合</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836441[0-50]</guid>
+    </item>
+  </channel>
+</rss>

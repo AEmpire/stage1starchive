@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助 安装</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助 安装</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:55:22 +0000</lastBuildDate>
+    <item>
+      <title>求助 安装[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1866510-1-1.html</link>
+      <description>求助 安装&#13;
+ 本帖最后由 solasaya 于 2019-11-18 21:49 编辑 
+
+从oldman上下载的PSVCH018 – 苍翼默示录 刻之幻影扩展版[港版][中文]这个解压完怎么和网上说的安装方式的文件不一样，请问该把哪些文件放到哪些目录里去？</description>
+      <content:encoded><![CDATA[<p><b>solasaya: </b><br>
+<span>求助 安装</span><br>
+<span> 本帖最后由 solasaya 于 2019-11-18 21:49 编辑 </span><br>
+<span>从oldman上下载的PSVCH018 – 苍翼默示录 刻之幻影扩展版[港版][中文]这个解压完怎么和网上说的安装方式的文件不一样，请问该把哪些文件放到哪些目录里去？</span><br>
+</p><p><b>avill: </b><br>
+<span>@Zest @你好s1</span><br>
+</p><p><b>膝盖君: </b><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-11-19 12:49 编辑 </span><br>
+<span>前提是你机器安装了NONPDRM解密插件并且能正常开机加载，先下载nonpdrm.skprx，传到ux0:/tai下</span><br>
+<span>编辑ux0:/tai/config.txt，在*KERNEL后添加nonpdrm的路径，类似以下，保存退出后重启机器</span><br>
+<span>*KERNEL</span><br>
+<span>ux0:tai/nonpdrm.skprx</span><br>
+<span>PCSH00161传到ux0:/app下</span><br>
+<span>addcont直接传到ux0:/根目录下</span><br>
+<span>传完断开USB连接，VitaShell按三角选刷新LIVE AREA，退出后游戏气泡就出来了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1866510[0-50]</guid>
+    </item>
+  </channel>
+</rss>

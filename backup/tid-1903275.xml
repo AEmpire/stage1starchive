@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【数据恢复】恢复的照片无法显示，有什么办法修复吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【数据恢复】恢复的照片无法显示，有什么办法修复吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:38 +0000</lastBuildDate>
+    <item>
+      <title>【数据恢复】恢复的照片无法显示，有什么办法修复吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903275-1-1.html</link>
+      <description>【数据恢复】恢复的照片无法显示，有什么办法修复吗？&#13;
+ 本帖最后由 liaojings1 于 2019-12-16 11:38 编辑 
+
+【数据恢复】恢复的照片无法显示，有什么办法修复吗？
+&#13;
+就我这么多年恢复的经验，照片大都恢复出来无法正常显示，或者只显示部分，真正能完整恢复的机会很少...
+&#13;
+最近给公司弄双系统时候，用傲梅无损分区，没有脱离现有系统，给mbr的硬盘D区割空间出来，
+&#13;
+结果进行到100%软件一直卡那里不动了...
+&#13;
+无奈只好点取消任务，虽然恢复原本分区的样子，我也没注意看，可能这个时候D盘文件全飞了...
+&#13;
+https://s2.ax1x.com/2019/12/16/QhLu7R.png
+&#13;
+文件能恢复，容量、大小、甚至修改日期都对，但是图片却无法正常显示...
+&#13;
+看说明可能是文件偏移造成的吗，并没有恢复对，不知道有类似经验的人提供解决办法没？
+&#13;
+https://s2.ax1x.com/2019/12/16/QhLnB9.png
+&#13;
+虽然科室领导说没了就没了吧，也没啥的...
+&#13;
+但自己总过意不去，尝试能恢复照片最好了。
+&#13;
+以后分区还是脱离现有系统比较好...
+&#13;
+估计问题出在mbr硬盘扩展分区的逻辑分区，分割空间出来后建立主分区造成了啥问题，导致卡100%结束不了...</description>
+      <content:encoded><![CDATA[<p><b>liaojings1: </b><br>
+<span>【数据恢复】恢复的照片无法显示，有什么办法修复吗？</span><br>
+<span> 本帖最后由 liaojings1 于 2019-12-16 11:38 编辑 </span><br>
+<span>【数据恢复】恢复的照片无法显示，有什么办法修复吗？</span><br>
+<span>就我这么多年恢复的经验，照片大都恢复出来无法正常显示，或者只显示部分，真正能完整恢复的机会很少...</span><br>
+<span>最近给公司弄双系统时候，用傲梅无损分区，没有脱离现有系统，给mbr的硬盘D区割空间出来，</span><br>
+<span>结果进行到100%软件一直卡那里不动了...</span><br>
+<span>无奈只好点取消任务，虽然恢复原本分区的样子，我也没注意看，可能这个时候D盘文件全飞了...</span><br>
+<img src="https://s2.ax1x.com/2019/12/16/QhLu7R.png" title="https://s2.ax1x.com/2019/12/16/QhLu7R.png"><br>
+<span>文件能恢复，容量、大小、甚至修改日期都对，但是图片却无法正常显示...</span><br>
+<span>看说明可能是文件偏移造成的吗，并没有恢复对，不知道有类似经验的人提供解决办法没？</span><br>
+<img src="https://s2.ax1x.com/2019/12/16/QhLnB9.png" title="https://s2.ax1x.com/2019/12/16/QhLnB9.png"><br>
+<span>虽然科室领导说没了就没了吧，也没啥的...</span><br>
+<span>但自己总过意不去，尝试能恢复照片最好了。</span><br>
+<span>以后分区还是脱离现有系统比较好...</span><br>
+<span>估计问题出在mbr硬盘扩展分区的逻辑分区，分割空间出来后建立主分区造成了啥问题，导致卡100%结束不了...</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>文件头都不是正确的JPEG，没有真正恢复吧。记得有一些恢复工具是直接按文件头来恢复，不过文件名什么的信息就别指望了。</span><br>
+</p><p><b>曾经很纯良: </b><br>
+<span>你这个恢复软件应该是按分区表里面的文件位置信息恢复了一部分文件，实际文件并不在那个位置，你可以用diskgenius 3.7.1(后面的高版本收费)或者winhex破解版遍历磁盘，根据文件的头信息判断来恢复</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>对硬盘进行这种操作前都不备份的？</span><br>
+</p><p><b>superwza: </b><br>
+<span>winhex真的很好用</span><br>
+<span>—— 来自 HTC 2Q4D200, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903275[0-50]</guid>
+    </item>
+  </channel>
+</rss>

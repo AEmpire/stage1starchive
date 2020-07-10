@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌在泥潭投放的诈骗广告</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌在泥潭投放的诈骗广告</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:16:42 +0000</lastBuildDate>
+    <item>
+      <title>谷歌在泥潭投放的诈骗广告[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844311-1-1.html</link>
+      <description>谷歌在泥潭投放的诈骗广告&#13;
+ 本帖最后由 四控大叔 于 2019-7-4 20:33 编辑 
+
+在泥潭，近期时不时出现头图是这样的广告：
+&#13;
+https://i.loli.net/2019/07/04/5d1dd06ecbb8276811.png
+&#13;
+因为自己也有张信用卡，就好奇点进去了。初看好像是个像模像样的论坛，然后点开最醒目的一个帖子：
+&#13;
+https://i.loli.net/2019/07/04/5d1dd0fa3d65312728.png
+&#13;
+帖子里先是装模作样地教你银行卡怎么套现，然后话锋一转，说可以利用概率论知识到菠菜网站骗钱，这个数学原理是什么呢？很好奇会怎么编。他是这样说的：
+&#13;
+https://i.loli.net/2019/07/04/5d1dd28f91d8e14382.png
+&#13;
+可真是个小机灵鬼，我试着验证了一下，可以看出这个游戏里要赢一次需要玩的次数服从一个几何分布，期望是1/p。假设赢了能获得的筹码是赌注的a倍，那么按照他的玩法玩家的期望收入就是：
+&#13;
+- + 100*a*(1/p)，用等比数列求和公式化简一下就是100*/(a-1)，假如这个所谓的骰子猜单双游戏真的按照1/2的概率来玩的话，可以得到结果是100*(a^2-a)，由于a大于1，期望真的大于0耶。
+&#13;
+这种菠菜站广告其实屡见不鲜了，大家看到过很多次所谓天才少年通过数学从菠菜站赚多少钱的新闻本质上其实就是广告。我猜这骗钱套路应该是类似于“首家澳门菠菜“那种套路，钱进去买了筹码就无法真正提现了。总之大家如果看到这个广告请点x然后向谷歌举报广告内容不当。我已经向网信办举报了该网站。</description>
+      <content:encoded><![CDATA[<p><b>四控大叔: </b><br>
+<span>谷歌在泥潭投放的诈骗广告</span><br>
+<span> 本帖最后由 四控大叔 于 2019-7-4 20:33 编辑 </span><br>
+<span>在泥潭，近期时不时出现头图是这样的广告：</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1dd06ecbb8276811.png" title="https://i.loli.net/2019/07/04/5d1dd06ecbb8276811.png"><br>
+<span>因为自己也有张信用卡，就好奇点进去了。初看好像是个像模像样的论坛，然后点开最醒目的一个帖子：</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1dd0fa3d65312728.png" title="https://i.loli.net/2019/07/04/5d1dd0fa3d65312728.png"><br>
+<span>帖子里先是装模作样地教你银行卡怎么套现，然后话锋一转，说可以利用概率论知识到菠菜网站骗钱，这个数学原理是什么呢？很好奇会怎么编。他是这样说的：</span><br>
+<img src="https://i.loli.net/2019/07/04/5d1dd28f91d8e14382.png" title="https://i.loli.net/2019/07/04/5d1dd28f91d8e14382.png"><br>
+<span>可真是个小机灵鬼，我试着验证了一下，可以看出这个游戏里要赢一次需要玩的次数服从一个几何分布，期望是1/p。假设赢了能获得的筹码是赌注的a倍，那么按照他的玩法玩家的期望收入就是：</span><br>
+<span>- + 100*a*(1/p)，用等比数列求和公式化简一下就是100*/(a-1)，假如这个所谓的骰子猜单双游戏真的按照1/2的概率来玩的话，可以得到结果是100*(a^2-a)，由于a大于1，期望真的大于0耶。</span><br>
+<span>这种菠菜站广告其实屡见不鲜了，大家看到过很多次所谓天才少年通过数学从菠菜站赚多少钱的新闻本质上其实就是广告。我猜这骗钱套路应该是类似于“首家澳门菠菜“那种套路，钱进去买了筹码就无法真正提现了。总之大家如果看到这个广告请点x然后向谷歌举报广告内容不当。我已经向网信办举报了该网站。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844311[0-50]</guid>
+    </item>
+  </channel>
+</rss>

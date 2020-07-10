@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有一批办公电脑戴尔vostro 3470要加120G的固态硬盘不知道咋搞</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有一批办公电脑戴尔vostro 3470要加120G的固态硬盘不知道咋搞</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:20:02 +0000</lastBuildDate>
+    <item>
+      <title>有一批办公电脑戴尔vostro 3470要加120G的固态硬盘不知道咋搞[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853371-1-1.html</link>
+      <description>有一批办公电脑戴尔vostro 3470要加120G的固态硬盘不知道咋搞&#13;
+ 本帖最后由 gouchaoer 于 2019-8-14 13:00 编辑 
+
+这批电脑只有1T的机械硬盘很慢很卡，需要加SSD固态硬盘，遇到2个问题：
+&#13;
+1、我拆开机箱，发现没有多余的插固态硬盘用的电源线（sata3的线没有我可以买），然后还发现有一个M.2的口不知道能插啥ssd硬盘，有大神能帮忙选个方案么？如下图：
+&#13;
+http://wx3.sinaimg.cn/mw690/63a9e398gy1g5z3yas94kj20u01404qt.jpg
+&#13;
+http://wx2.sinaimg.cn/mw690/63a9e398gy1g5z3ybgb2sj21400u0x6t.jpg
+&#13;
+2、由于这批电脑是戴尔OEM机器自带了win10家庭正版，如果我加了SSD肯定要重新把系统装在ssd硬盘上，听说oem的win10正版信息是在主板上的，我是不是随便找一个家庭版的镜像装上它自己就激活了呢？</description>
+      <content:encoded><![CDATA[<p><b>gouchaoer: </b><br>
+<span>有一批办公电脑戴尔vostro 3470要加120G的固态硬盘不知道咋搞</span><br>
+<span> 本帖最后由 gouchaoer 于 2019-8-14 13:00 编辑 </span><br>
+<span>这批电脑只有1T的机械硬盘很慢很卡，需要加SSD固态硬盘，遇到2个问题：</span><br>
+<span>1、我拆开机箱，发现没有多余的插固态硬盘用的电源线（sata3的线没有我可以买），然后还发现有一个M.2的口不知道能插啥ssd硬盘，有大神能帮忙选个方案么？如下图：</span><br>
+<img src="http://wx3.sinaimg.cn/mw690/63a9e398gy1g5z3yas94kj20u01404qt.jpg" title="http://wx3.sinaimg.cn/mw690/63a9e398gy1g5z3yas94kj20u01404qt.jpg"><br>
+<img src="http://wx2.sinaimg.cn/mw690/63a9e398gy1g5z3ybgb2sj21400u0x6t.jpg" title="http://wx2.sinaimg.cn/mw690/63a9e398gy1g5z3ybgb2sj21400u0x6t.jpg"><br>
+<span>2、由于这批电脑是戴尔OEM机器自带了win10家庭正版，如果我加了SSD肯定要重新把系统装在ssd硬盘上，听说oem的win10正版信息是在主板上的，我是不是随便找一个家庭版的镜像装上它自己就激活了呢？</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>新浪外链图片要用http</span><br>
+</p><p><b>zanber: </b><br>
+<span> 本帖最后由 zanber 于 2019-8-14 13:12 编辑 </span><br>
+<span>PCB上面不是写了支持到2280，不过应该不支持nvme，只能用M.2的sata协议的。windows直接重装自动激活但是要版本相同</span><br>
+<span>https://item.jd.com/100000753580.html</span><br>
+<span>https://item.jd.com/5935503.html#crumb-wrap</span><br>
+<span>西数的绿盘和蓝盘都行</span><br>
+</p><p><b>gouchaoer: </b><br>
+<span>zanber 发表于 2019-8-14 13:07</span><br>
+<span>PCB上面不是写了支持到2280，不过应该不支持nvme，只能用M.2的sata协议的。windows直接重装自动激活但是要 ...</span><br>
+<span>这个行么：https://item.m.jd.com/product/100002595651.html</span><br>
+<span>我咋感觉这个SSD有点长，插进那个主板会不稳啊。。。</span><br>
+</p><p><b>macos: </b><br>
+<span>不是，oem版可能不登记在硬件认证里，拷贝过去应该不影响，不能裸装，而且一定要查清楚，是不是中国单语言版，这系列只能同系列授权，装家庭版不认</span><br>
+</p><p><b>gouchaoer: </b><br>
+<span>zanber 发表于 2019-8-14 13:07</span><br>
+<span>PCB上面不是写了支持到2280，不过应该不支持nvme，只能用M.2的sata协议的。windows直接重装自动激活但是要 ...</span><br>
+<span>我在msdn我告诉你这个网站没发现有家庭版的win10下载诶，你知道哪里可以下载吗？</span><br>
+</p><p><b>zanber: </b><br>
+<span>gouchaoer 发表于 2019-8-14 13:13</span><br>
+<span>这个行么：https://item.m.jd.com/product/100002595651.html</span><br>
+<span>我咋感觉这个SSD有点长，插进那个主板会不 ...</span><br>
+<span>可以，你主板PCB上就两个螺丝位，一个2230一个2280，你2280那个孔上有个蓝色的不知道啥玩意的你要确认一下是什么东西能不能拆下来</span><br>
+</p><p><b>zanber: </b><br>
+<span>gouchaoer 发表于 2019-8-14 13:15</span><br>
+<span>我在msdn我告诉你这个网站没发现有家庭版的win10下载诶，你知道哪里可以下载吗？ ...</span><br>
+<span>有啊，消费者版里应该就有，或者你去dell官网输入服务编号也可以下载，不过dell下的东西里面预装了一堆辣鸡，只要是普通的home china版本都可以激活，实在不行你也可以去pcbeta找打包好的多版本镜像</span><br>
+</p><p><b>zanber: </b><br>
+<span>macos 发表于 2019-8-14 13:14</span><br>
+<span>不是，oem版可能不登记在硬件认证里，拷贝过去应该不影响，不能裸装，而且一定要查清楚，是不是中国单语言 ...</span><br>
+<span>dell的都在bios里而且肯定是home china单语言版</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>能买240G的就别买120G的，找说明书看看m2支持啥协议</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gouchaoer: </b><br>
+<span>感谢各位，我已经下单了</span><br>
+</p><p><b>大普罗托斯: </b><br>
+<span>gouchaoer 发表于 2019-8-14 13:15</span><br>
+<span>我在msdn我告诉你这个网站没发现有家庭版的win10下载诶，你知道哪里可以下载吗？ ...</span><br>
+<span>现在好像都是多合一…安装的时候再选</span><br>
+</p><p><b>風駿: </b><br>
+<span>蓝色那个就是固定固态硬盘用的，省了螺丝，可以自己调节到短的那个孔上</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>gouchaoer 发表于 2019-8-14 13:15</span><br>
+<span>我在msdn我告诉你这个网站没发现有家庭版的win10下载诶，你知道哪里可以下载吗？ ...</span><br>
+<span>现在win10的安装包只分消费者版和商业版两个了。</span><br>
+</p><p><b>evooil: </b><br>
+<span>以前公司也用的dell的品牌机回来想自己加内存硬盘好像都不认</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>不需要重装，装上SSD之后直接做系统迁移就行了</span><br>
+<span>如果是办公电脑建议直接联系经销商购买SSD并安装系统，一是自己省事二是方便报账</span><br>
+</p><p><b>serial: </b><br>
+<span>就是m2 nvme ssd，我刚自费买了条1t的c2000pro装公司电脑上，开虚拟机体验提升200%</span><br>
+</p><p><b>serial: </b><br>
+<span>不过dell的缩水主板貌似是pcie2.0，速度完全跑不满</span><br>
+</p><p><b>starash: </b><br>
+<span>清清楚楚的NGFF2+2280印在上面嘛....</span><br>
+</p><p><b>litel: </b><br>
+<span> 本帖最后由 litel 于 2019-8-15 12:02 编辑 </span><br>
+<span>丝印有，m2 sata，2280标准长度。。。</span><br>
+<span>楼上那个西数就挺好。</span><br>
+<span>nvme的用不了。只能sata协议。</span><br>
+<span>记得让老板送个螺丝，不然你还要另外找螺丝，或者就用透明胶贴上。。。。</span><br>
+<span>上螺丝记得轻轻拧，转不动后有一点点就行。别拧的死紧，会把pcb拧爆的。</span><br>
+</p><p><b>gouchaoer: </b><br>
+<span>买回来装上了，那个蓝色的扣子扣上就ok了，然后用一个分区软件执行“把系统盘搬到SSD硬盘”上，然后在bios里修改一下启动项就ok了</span><br>
+<span>谢谢大侠</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>serial 发表于 2019-8-14 21:57</span><br>
+<span>就是m2 nvme ssd，我刚自费买了条1t的c2000pro装公司电脑上，开虚拟机体验提升200% ...</span><br>
+<span>可他主板上面写着M.2 SATA1……</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>我装过，这个不支持NVME，明明是H370主板……</span><br>
+<span>直球sata罢</span><br>
+</p><p><b>serial: </b><br>
+<span>shikkoku 发表于 2019-8-20 18:32</span><br>
+<span>可他主板上面写着M.2 SATA1……</span><br>
+<span>不对呀，看那个一道杠插座，只能说插座是给nvme的……看走眼了。</span><br>
+</p><p><b>Sheny: </b><br>
+<span>serial 发表于 2019-8-21 06:32</span><br>
+<span>不对呀，看那个一道杠插座，只能说插座是给nvme的……看走眼了。</span><br>
+<span>m.2接口是和协议分离的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853371[0-50]</guid>
+    </item>
+  </channel>
+</rss>

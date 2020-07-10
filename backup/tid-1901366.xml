@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>继续问一下软路由/homelab相关的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>继续问一下软路由/homelab相关的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:36:51 +0000</lastBuildDate>
+    <item>
+      <title>继续问一下软路由/homelab相关的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901366-1-1.html</link>
+      <description>继续问一下软路由/homelab相关的问题&#13;
+上次在https://bbs.saraba1st.com/2b/thread-1879335-1-1.html这贴问了之后，
+&#13;
+我发现我自己的需求不单单于是一个软路由，而且我也没功耗和静音的问题，所以打算重新买配件用1700X搞homelab了
+&#13;
+装ESXI跑3个虚拟机，一个LEDE跑软路由，一个Ubuntu跑自己的项目，一个黑群晖，
+&#13;
+现在确定的配置是
+&#13;
+CPU：1700X
+&#13;
+RAM：真香条
+&#13;
+硬盘：西部数据紫盘4T
+&#13;
+SSD：hp 120G nvme
+&#13;
+亮机卡：Rx550
+&#13;
+由于是第一次搞虚拟机+黑群晖这种，于是多了很多问题：
+&#13;
+1，内存8G就好还是要16G？我自己跑的项目都是轻量级的，群晖和lede吃内存吗？
+&#13;
+2，主板选啥？亮机卡+网卡的配置是不是就必须要有两根8x的pcie条？
+&#13;
+3，然后是求推网卡，对这块是一点都不懂，是不是买那种多网口的，到时候lede装好后就是直接局域网里面的设备都插在这个上面就行了？
+&#13;
+4，NAS本质就是一台存储设备对吗？如果要播放存在里面的影片解码什么的还是在观看的设备上面运行的是吧。那我亮机卡是不是不用买550这么好的了？</description>
+      <content:encoded><![CDATA[<p><b>torpedo: </b><br>
+<span>继续问一下软路由/homelab相关的问题</span><br>
+<span>上次在https://bbs.saraba1st.com/2b/thread-1879335-1-1.html这贴问了之后，</span><br>
+<span>我发现我自己的需求不单单于是一个软路由，而且我也没功耗和静音的问题，所以打算重新买配件用1700X搞homelab了</span><br>
+<span>装ESXI跑3个虚拟机，一个LEDE跑软路由，一个Ubuntu跑自己的项目，一个黑群晖，</span><br>
+<span>现在确定的配置是</span><br>
+<span>CPU：1700X</span><br>
+<span>RAM：真香条</span><br>
+<span>硬盘：西部数据紫盘4T</span><br>
+<span>SSD：hp 120G nvme</span><br>
+<span>亮机卡：Rx550</span><br>
+<span>由于是第一次搞虚拟机+黑群晖这种，于是多了很多问题：</span><br>
+<span>1，内存8G就好还是要16G？我自己跑的项目都是轻量级的，群晖和lede吃内存吗？</span><br>
+<span>2，主板选啥？亮机卡+网卡的配置是不是就必须要有两根8x的pcie条？</span><br>
+<span>3，然后是求推网卡，对这块是一点都不懂，是不是买那种多网口的，到时候lede装好后就是直接局域网里面的设备都插在这个上面就行了？</span><br>
+<span>4，NAS本质就是一台存储设备对吗？如果要播放存在里面的影片解码什么的还是在观看的设备上面运行的是吧。那我亮机卡是不是不用买550这么好的了？</span><br>
+</p><p><b>騜: </b><br>
+<span>1 不够再加</span><br>
+<span>2 如果对功耗、和面积都没要求的话，省钱的方案就是ATX版 亮机卡是X16 网卡是X8</span><br>
+<span>3 网卡要选的，首先是ESXI能直通的有驱动的那些 好像是intel的一些服务器拆机卡价格还行一百多四网口比较合适</span><br>
+<span>4 解码我没研究，按我的理解在线解码是在NAS上完成的，需要什么显卡就不确定了</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>exsi 挑驱动    PVE或者直接win还是很香的</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>1 真香条指的是32G那款,其他频率超频不行.如果不装消耗内存app的话,群晖对内存要求很低512M就够,lede 你自己用256M就够了.如果自己编译把没用的删掉128M也够的.</span><br>
+<span>2 主板,扩展最重要,反正你用的1700了,其他也考虑不到了.x4以上pcie越多越好.</span><br>
+<span>3 记住,如果你的宿主机没有改造过内核(只有linux可以改造内核,可以把一个组的PCIE强行拆分为多个比如四个网口分给不同的虚拟机,或者在不支持sriov的设备上使用sr-iov直通[网卡本身要支持]),那么你直通只能把整个网卡直通给一个虚拟机,因为整个pcie设备是一个组的,不能拆分.这一点你考虑下.在我看来3口其实足够了吧,1条 wan口也就主板上直接直通,另外一个nas一个走其他数据做lan口.</span><br>
+<span>4 不是必要的啊,没有解码一样,只要能传输数据就行了.我记得linux可以加参数无显卡启动的.其他esxi啥的不清楚.</span><br>
+<span>如果你对乌班图比较熟悉,用乌班图做宿主机就可以,直接装虚拟机就完事,修改后的内核有现成的.另外其他项目放到docker里就行.</span><br>
+<span>如果喜欢直接用的那种还是装pve或者esxi吧.</span><br>
+</p><p><b>torpedo: </b><br>
+<span>塔奇克马 发表于 2019-12-11 17:39</span><br>
+<span>1 真香条指的是32G那款,其他频率超频不行.如果不装消耗内存app的话,群晖对内存要求很低512M就够,lede 你自 ...</span><br>
+<span>我以为189 8G就算真香了😂</span><br>
+<span>第三点你说的我有点不太明白，如果只有主板一个网口，直通给lede，其他虚拟机是没有网卡的对吗？ 这时我再加一张pcie网卡，当虚拟网卡分配给另外两台虚拟机，这样就大家都有网卡了对吗？黑群晖不用直通网卡，会影响性能吗？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-11 18:04 编辑 </span><br>
+<span>torpedo 发表于 2019-12-11 17:50</span><br>
+<span>我以为189 8G就算真香了😂</span><br>
+<span>第三点你说的我有点不太明白，如果只有主板一个网口，直通给lede，其他虚拟机 ...</span><br>
+<span>直通给一个guest,那么就是完全独占了,包括你宿主你的其他虚拟机想用也用不了.</span><br>
+<span>如果你的PCIE设备上不是一个网口而是四个网口那么直通后这四个口别的都用不了[只是对于不支持直通sriov来说的,Linux可以突破限制].</span><br>
+<span>你是的没错就是不能用了.</span><br>
+<span>直通你要了解IOMMU group这种东西</span><br>
+<span>正常情况下普通主板会把一个网卡上的所有网口归为一个IOMMU group</span><br>
+<span>直通不是必要的,你可以用半虚拟网卡+vswitch,但是非实体网卡性能会差点.占用会高.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901366[0-50]</guid>
+    </item>
+  </channel>
+</rss>

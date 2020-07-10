@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下微星和华硕的灯控问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下微星和华硕的灯控问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:21:24 +0000</lastBuildDate>
+    <item>
+      <title>请教一下微星和华硕的灯控问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853148-1-1.html</link>
+      <description>请教一下微星和华硕的灯控问题&#13;
+我的主板是B450M迫击炮，配置GTX960+2400G，内存暂时是幻光戟3000单条8G。
+&#13;
+最近玩PC版的堡垒之夜和看门狗2的时候，经常会报ledkeeper.exe的反作弊问题，这个问题是仅仅微星主板灯控软件才有的吗？
+&#13;
+听说华硕主板灯控比微星的强，不太清楚强多少，华硕的主板会不会出现这个问题呢？
+&#13;
+还有从epic games打开堡垒之夜的时候，点击运行很多次都不运行，搞不清楚是怎么回事。（关掉了Steam的情况下也是很难打开程序）</description>
+      <content:encoded><![CDATA[<p><b>Jai用机玩家: </b><br>
+<span>请教一下微星和华硕的灯控问题</span><br>
+<span>我的主板是B450M迫击炮，配置GTX960+2400G，内存暂时是幻光戟3000单条8G。</span><br>
+<span>最近玩PC版的堡垒之夜和看门狗2的时候，经常会报ledkeeper.exe的反作弊问题，这个问题是仅仅微星主板灯控软件才有的吗？</span><br>
+<span>听说华硕主板灯控比微星的强，不太清楚强多少，华硕的主板会不会出现这个问题呢？</span><br>
+<span>还有从epic games打开堡垒之夜的时候，点击运行很多次都不运行，搞不清楚是怎么回事。（关掉了Steam的情况下也是很难打开程序）</span><br>
+</p><p><b>clover9017: </b><br>
+<span>我的是微星B450I</span><br>
+<span>主板提供2个12V的灯控，然而风扇和机箱都标配5V</span><br>
+<span>用转换器还有损失</span><br>
+<span>总结微星灯控等于没有，玩灯还给败家</span><br>
+</p><p><b>john: </b><br>
+<span>微星有第三方RGB软件MSIRGB，原厂的卸掉试试</span><br>
+<span>https://github.com/ixjf/MSIRGB</span><br>
+</p><p><b>obiy: </b><br>
+<span>我的情况是装了灯控后时不时来个弹窗：</span><br>
+<span>我也借楼问一下好了：</span><br>
+<span>我也是迫击炮，而主板bios并没有关闭灯光的选项。而我想要的效果是，只要开机了就能按照预设好的RGB效果进行显示；目前的效果是只有windows登录后才能按照预设显示。这点打人硕的灯效全家桶能做到吗？有的机箱具有RGB灯控键，这和主板的同步又是什么关系？</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>obiy 发表于 2019-8-13 20:30</span><br>
+<span>我的情况是装了灯控后时不时来个弹窗：</span><br>
+<span>你讲的那个什么硕，进系统前能保持原来的状态，但是并不能保持原来的效果</span><br>
+<span>比如说你设置成彩虹特效，重启前正好变到了红色，那就一直是红色不变了，直到你再次进了系统，然后就从红色接着变</span><br>
+<span>灯控键基本都拔掉了吧，用主板控制，我是打算把灯控键换到RESET上</span><br>
+<span>主板控制的情况下，按灯控键要么没用，要么就和主板的冲突（强行覆盖主板的设置啥的）</span><br>
+</p><p><b>obiy: </b><br>
+<span>john 发表于 2019-8-13 15:52</span><br>
+<span>微星有第三方RGB软件MSIRGB，原厂的卸掉试试</span><br>
+<span>https://github.com/ixjf/MSIRGB</span><br>
+<span>支持的板子不多，b450迫击炮刚好不在列</span><br>
+</p><p><b>obiy: </b><br>
+<span>EraserKing 发表于 2019-8-13 20:59</span><br>
+<span>你讲的那个什么硕，进系统前能保持原来的状态，但是并不能保持原来的效果</span><br>
+<span>比如说你设置成彩虹特效，重启 ...</span><br>
+<span>看来微星也是一样的，等换块微星显卡就能全部同步了</span><br>
+</p><p><b>猫溺泉君: </b><br>
+<span>如果是华硕aura的话，跳反作弊请关掉一个叫lighting service.exe的进程，太他妈智障了，当初玩apex的时候这傻逼玩意折磨了我两个晚上</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853148[0-50]</guid>
+    </item>
+  </channel>
+</rss>

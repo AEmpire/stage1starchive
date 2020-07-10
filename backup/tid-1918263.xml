@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问下9750H平台的PCIE通道数</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问下9750H平台的PCIE通道数</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:34:08 +0000</lastBuildDate>
+    <item>
+      <title>问下9750H平台的PCIE通道数[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918263-1-1.html</link>
+      <description>问下9750H平台的PCIE通道数&#13;
+9750H+1660TI    CPU多少条南桥多少条   总是拍扩展多了 通道爆掉
+&#13;
+1660TI就占用了16条PCIE3.0吧
+&#13;
+两个M2插槽 全部支持PCIE3.0X4      一个只支持PCIE（直连CPU） 一个支持PCIE/SATA(这个PCIE是南桥PCIE吧)
+&#13;
+如果插满两条PCIE3.0X4   这就用掉了 24条PCIE3.0
+&#13;
+SATA3 和有线无线网卡USB3.1 又会占用南桥PCIE通道吧    听说南桥也就是DMI3.0X4    一个NVME SSD带宽不就用完了 囧谁来解释下</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>问下9750H平台的PCIE通道数</span><br>
+<span>9750H+1660TI    CPU多少条南桥多少条   总是拍扩展多了 通道爆掉</span><br>
+<span>1660TI就占用了16条PCIE3.0吧</span><br>
+<span>两个M2插槽 全部支持PCIE3.0X4      一个只支持PCIE（直连CPU） 一个支持PCIE/SATA(这个PCIE是南桥PCIE吧)</span><br>
+<span>如果插满两条PCIE3.0X4   这就用掉了 24条PCIE3.0</span><br>
+<span>SATA3 和有线无线网卡USB3.1 又会占用南桥PCIE通道吧    听说南桥也就是DMI3.0X4    一个NVME SSD带宽不就用完了 囧谁来解释下</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>实际上就只有显卡16+南桥X4</span><br>
+<span>两个M2都是复用的南桥X4</span><br>
+</p><p><b>huzhiyangqaz: </b><br>
+<span>你这些通道日常使用又不可能全部同时满载的</span><br>
+<span>通道复用对正常使用基本没有影响</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>RPG-7 发表于 2020-3-11 14:42</span><br>
+<span>实际上就只有显卡16+南桥X4</span><br>
+<span>两个M2都是复用的南桥X4</span><br>
+<span>哈？两个M2 PCIE3.0X4都是南桥的？</span><br>
+<span>那为啥一个只支持PCIE 一个支持PCIE/SATA</span><br>
+<span>我还以为只支持PCIE是直连CPU呢   我用傲腾测试过 确实是只支持PCIE的M2 速度更快</span><br>
+<span>但是两条M2插满 也没见显卡减速   正纳闷呢</span><br>
+</p><p><b>MixRadio: </b><br>
+<span>显卡也可能跑在x8上，我的1650就是x8的带宽。不过再高端点的就不知道了。可以下个GPUZ来看看</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>MixRadio 发表于 2020-3-11 14:56</span><br>
+<span>显卡也可能跑在x8上，我的1650就是x8的带宽。不过再高端点的就不知道了。可以下个GPUZ来看看</span><br>
+<span>—— 来自 So ...</span><br>
+<span>所有插槽插满了gpuz也显示gtx1660ti 工作在x16</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>看了intel 官方文档   9750h 只有16条3.0通道应该是全给显卡了 没见显卡减速</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>观铃の使魔 发表于 2020-3-11 15:04</span><br>
+<span>看了intel 官方文档   9750h 只有16条3.0通道应该是全给显卡了 没见显卡减速</span><br>
+<span>那就是全挤牙签总线</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>DeepFishing 发表于 2020-3-11 15:16</span><br>
+<span>那就是全挤牙签总线</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>DMI2.0都用了好些年了   好不容易DMI3.0X4 又落伍了 23333</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>观铃の使魔 发表于 2020-3-11 14:50</span><br>
+<span>哈？两个M2 PCIE3.0X4都是南桥的？</span><br>
+<span>那为啥一个只支持PCIE 一个支持PCIE/SATA</span><br>
+<span>这就是具体看主板的设计，南桥相当于一个HUB，3.0X4进来，扩展出一堆接口</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918263[0-50]</guid>
+    </item>
+  </channel>
+</rss>

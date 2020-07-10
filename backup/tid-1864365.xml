@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>原来iostream可以引入这么多外部依赖项</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>原来iostream可以引入这么多外部依赖项</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:10:15 +0000</lastBuildDate>
+    <item>
+      <title>原来iostream可以引入这么多外部依赖项[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864365-1-1.html</link>
+      <description>原来iostream可以引入这么多外部依赖项&#13;
+ 本帖最后由 plusSharp 于 2019-11-8 20:30 编辑 
+
+今天新建了一个空项目，头文件只包含了iostream,结果在解决方案资源管理器里看到了这一场景
+&#13;
+试一下onedrive生成的链接
+&#13;
+https://iqjujw.dm.files.1drv.com/y4mcaGEdsx4ESdvT2dlPPGlG4WszY0F31hjflbciK_r7Y3kD9W1drxrZgyAJnXB7ZYwBg_byxZ_shLaN8DJSzb4XV7N14dLpE3_iFFZbjDAynUtszJx3CrwGe8kIhya8O42rJ8BT59sFMwJrxNx1wlLU9-O27LBvx1m1WKqSPoKlp8R1kEB_TXD5Mqa5YiNTFWj0OO0CdXDI21QBK4NwOhxgg?width=1918&amp;height=2574&amp;cropmode=none
+&#13;
+微博相册链接
+&#13;
+https://wx3.sinaimg.cn/large/005HNbuPly1g8qvwq73hnj30u014978b.jpg
+&#13;
+看不到图的话可以直接点这个链接
+&#13;
+https://onedrive.live.com/?authkey=%21ABKFIfO5GgQj6DQ&amp;cid=D1202914F615FE9C&amp;id=D1202914F615FE9C%2126699&amp;parId=D1202914F615FE9C%2126696&amp;o=OneUp</description>
+      <content:encoded><![CDATA[<p><b>plusSharp: </b><br>
+<span>原来iostream可以引入这么多外部依赖项</span><br>
+<span> 本帖最后由 plusSharp 于 2019-11-8 20:30 编辑 </span><br>
+<span>今天新建了一个空项目，头文件只包含了iostream,结果在解决方案资源管理器里看到了这一场景</span><br>
+<span>试一下onedrive生成的链接</span><br>
+<span>https://iqjujw.dm.files.1drv.com/y4mcaGEdsx4ESdvT2dlPPGlG4WszY0F31hjflbciK_r7Y3kD9W1drxrZgyAJnXB7ZYwBg_byxZ_shLaN8DJSzb4XV7N14dLpE3_iFFZbjDAynUtszJx3CrwGe8kIhya8O42rJ8BT59sFMwJrxNx1wlLU9-O27LBvx1m1WKqSPoKlp8R1kEB_TXD5Mqa5YiNTFWj0OO0CdXDI21QBK4NwOhxgg?width=1918&height=2574&cropmode=none</span><br>
+<span>微博相册链接</span><br>
+<img src="https://wx3.sinaimg.cn/large/005HNbuPly1g8qvwq73hnj30u014978b.jpg" title="https://wx3.sinaimg.cn/large/005HNbuPly1g8qvwq73hnj30u014978b.jpg"><br>
+<span>看不到图的话可以直接点这个链接</span><br>
+<span>https://onedrive.live.com/?authkey=%21ABKFIfO5GgQj6DQ&cid=D1202914F615FE9C&id=D1202914F615FE9C%2126699&parId=D1202914F615FE9C%2126696&o=OneUp</span><br>
+</p><p><b>jctc: </b><br>
+<span>叫你不用iosfwd</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>谭我不CPLUS</span><br>
+</p><p><b>cishta: </b><br>
+<span>c➕➕归外野</span><br>
+</p><p><b>redbuck: </b><br>
+<span>node_modules有话说</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>finallyeva 发表于 2019-11-8 14:37</span><br>
+<span>谭我不CPLUS</span><br>
+<span>CGrass</span><br>
+<span>—— 来自 SHARP SHV34, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yamori: </b><br>
+<span>要说依赖多那还是boost强，编译的时候那酸爽</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>记得以前看到说c++的流设计的过于复杂</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>原装大小姐: </b><br>
+<span>iostream是核心库，肯定是一堆东西的</span><br>
+<span>— from HUAWEI LYA-AL00, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>硬盘跑分器 npm 了解下 </span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>原装大小姐 发表于 2019-11-8 18:49</span><br>
+<span>iostream是核心库，肯定是一堆东西的</span><br>
+<span>— from HUAWEI LYA-AL00, Android 9 of S1 Next Goose v2.1.0-play ...</span><br>
+<span>最可怕的地方是有很多.h,没想到都2019年了C++还要用到这么多C语言的文件</span><br>
+</p><p><b>ikonon: </b><br>
+<span>看不了图</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>ikonon 发表于 2019-11-8 19:45</span><br>
+<span>看不了图</span><br>
+<span>用微博相册重传了图，不过比较模糊，原图单独放了链接</span><br>
+</p><p><b>大哼哼: </b><br>
+<span>只会用g++ -o 和写cmake的飘过</span><br>
+</p><p><b>balthasar: </b><br>
+<span>说起来llvm的coding standards禁止include iostream</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864365[0-50]</guid>
+    </item>
+  </channel>
+</rss>

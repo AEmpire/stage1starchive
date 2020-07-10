@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>真有你的啊2K  新增xcom2无法启动解决方法一则</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>真有你的啊2K  新增xcom2无法启动解决方法一则</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:54:02 +0000</lastBuildDate>
+    <item>
+      <title>真有你的啊2K  新增xcom2无法启动解决方法一则[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1934988-1-1.html</link>
+      <description>真有你的啊2K  新增xcom2无法启动解决方法一则&#13;
+ 本帖最后由 水边井 于 2020-5-14 19:37 编辑 
+
+xcom2突然搞的蜜汁更新，结果现在所有人连游戏都进不去了，steam讨论区已经爆炸了。
+&#13;
+天知道2k又在折腾什么。
+&#13;
+目前的解决方法是新建
+&#13;
+..\steamapps\common\XCOM 2\XCom2-WarOfTheChosen\Binaries\Win64\Launcher\ModLauncherWPF.exe
+&#13;
+的快捷方式
+&#13;
+然后属性目标后面加上
+&#13;
+-noRedScreens -review即可
+&#13;
+Here's a temporary way to play the game.
+&#13;
+-Create a shortcut for ModLauncherWPF.exe
+&#13;
+-Right-click the shortcut, go to Properties.
+&#13;
+-Under Shortcut, Target, add in "-noRedScreens -review" behind "...\Launcher\ModLauncherWPF.exe"
+&#13;
+-it should look something like this, "...\steamapps\common\XCOM 2\Binaries\Win64\Launcher\ModLauncherWPF.exe" -noRedScreens -review
+&#13;
+Modlauncher should launch fine and you should be able to play the game with mods normally.
+&#13;
+-noRedScreens
+&#13;
+starting the game via the shortcut will cause it to launch in debug mode. debug mode will have this annoying red screen thingy that will distract you from game play. this line helps to prevent that.
+&#13;
+-review
+&#13;
+如前所述，通过快捷方式启动游戏将导致其以调试模式启动。这将使游戏正常启动。
+&#13;
+https://tieba.baidu.com/p/6680433284
+&#13;
+目前没遇到什么问题</description>
+      <content:encoded><![CDATA[<p><b>水边井: </b><br>
+<span>真有你的啊2K  新增xcom2无法启动解决方法一则</span><br>
+<span> 本帖最后由 水边井 于 2020-5-14 19:37 编辑 </span><br>
+<span>xcom2突然搞的蜜汁更新，结果现在所有人连游戏都进不去了，steam讨论区已经爆炸了。</span><br>
+<span>天知道2k又在折腾什么。</span><br>
+<span>目前的解决方法是新建</span><br>
+<span>..\steamapps\common\XCOM 2\XCom2-WarOfTheChosen\Binaries\Win64\Launcher\ModLauncherWPF.exe</span><br>
+<span>的快捷方式</span><br>
+<span>然后属性目标后面加上</span><br>
+<span>-noRedScreens -review即可</span><br>
+<span>Here's a temporary way to play the game.</span><br>
+<span>-Create a shortcut for ModLauncherWPF.exe</span><br>
+<span>-Right-click the shortcut, go to Properties.</span><br>
+<span>-Under Shortcut, Target, add in "-noRedScreens -review" behind "...\Launcher\ModLauncherWPF.exe"</span><br>
+<span>-it should look something like this, "...\steamapps\common\XCOM 2\Binaries\Win64\Launcher\ModLauncherWPF.exe" -noRedScreens -review</span><br>
+<span>Modlauncher should launch fine and you should be able to play the game with mods normally.</span><br>
+<span>-noRedScreens</span><br>
+<span>starting the game via the shortcut will cause it to launch in debug mode. debug mode will have this annoying red screen thingy that will distract you from game play. this line helps to prevent that.</span><br>
+<span>-review</span><br>
+<span>如前所述，通过快捷方式启动游戏将导致其以调试模式启动。这将使游戏正常启动。</span><br>
+<span>https://tieba.baidu.com/p/6680433284</span><br>
+<span>目前没遇到什么问题</span><br>
+</p><p><b>bwsusaga: </b><br>
+<span>原来是官方问题么？我还TM把游戏全删了重新装，70多个G日哦</span><br>
+</p><p><b>Chia: </b><br>
+<span>想想隔壁RGL常年抽风，也不算什么了</span><br>
+</p><p><b>shoes: </b><br>
+<span>他大爷的，我重新下载了两遍。google也没搜出什么有用信息。</span><br>
+<span>后来上steam社区一看，全是这毛病。</span><br>
+</p><p><b>Kazepollar: </b><br>
+<span>啊?是官方问题吗?我刚刚删了打算重装</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>大老虎: </b><br>
+<span>喷了，还有这种操作，看来奇美拉小队的bug没越修越多就不错了</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>M82: </b><br>
+<span>顶一下，加班回来看老外mod社区也在说这事。今天还没开LWOTC2，等会下载补丁去</span><br>
+</p><p><b>zongrumk2: </b><br>
+<span>怕不是2k把文明6的补丁打给xcom了</span><br>
+</p><p><b>Edgefield: </b><br>
+<span>……从下午2点玩到现在，幸亏刚才休息的时候没关游戏</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1934988[0-50]</guid>
+    </item>
+  </channel>
+</rss>

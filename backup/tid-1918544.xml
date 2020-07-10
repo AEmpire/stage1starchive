@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>牙膏漏洞新攻击方式LVI，对应修复可导致性能缩至19分之一</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>牙膏漏洞新攻击方式LVI，对应修复可导致性能缩至19分之一</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:30:16 +0000</lastBuildDate>
+    <item>
+      <title>牙膏漏洞新攻击方式LVI，对应修复可导致性能缩至19分之一[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918544-1-1.html</link>
+      <description>牙膏漏洞新攻击方式LVI，对应修复可导致性能缩至19分之一&#13;
+Computer security researchers involved in the discovery of the Meltdown and Spectre vulnerabilities affecting many modern processors have developed a related attack technique called Load Value Injection (LVI).
+&#13;
+This time the problem is called 'LVI-LFB', which stands for Load Value Injection in the Line Fill Buffers. It has the CVE-2020-0551 attribute and, like many of the previously discovered issues, uses speculative execution.
+&#13;
+The problem likely occurs towards Intel chips from Ivy Bridge generation up to and including Comet Lake, the researchers do not exclude that chips from other brands are not susceptible either as all processors that are susceptible to Meltdown could potentially be at risk. In addition, updates in the microcode, which Intel is likely to have in the works,could cause calculations to be performed 2 to 19 times slower on certain workloads, so this is a big one. The expectation is that these software updates simply will not get installed by many due to that performance hit.
+&#13;
+The attack relies on microarchitectural data leakage to inject and execute malicious code in a way that breaks the confidentiality of modern Intel systems. Intel's processors, already weighed down by defenses deployed against side-channel attacks over the past two years, could get slower still if they try to thwart this latest vulnerability: prototype compiler changes, for full mitigation, have produced performance reductions ranging from 2x to 19x. That's because LVI protection involves compiler and assembler updates that insert extra x86 instructions (lfence) and replace problematic instructions (such as ret) with functionally equivalent but more verbose instruction sequences. In a paper scheduled to be published today, March 10, in a coordinated disclosure announcement with Intel, boffins from KU Leuven, Worcester Polytechnic Institute, Graz University of Technology, University of Michigan, and University of Adelaide, describe LVI as a reverse-Meltdown attack. Instead of leaking data from memory, it injects transient load values during a faulting or assisted load operation to perform some malicious action.
+&#13;
+The threat scenario involves a local adversary trying to obtain secrets (like passwords or encryption keys) from an operating system kernel, an OS process, or an SGX enclave. For SGX, root OS privileges are assumed – SGX was designed to protect against root-level attacks. With such secrets, more extensive compromise becomes possible.
+&#13;
+It turns out that Meltdown, a technique for pulling data from a computer's memory, can be turned around to put data back in, thereby poisoning data stored in memory during brief, speculative operations. Though the data gets thrown away after these short-lived tasks, it can still cause trouble.
+&#13;
+如题，之前漏洞可以导致内存数据泄露，这次LVI则可以把数据注入进去。
+&#13;
+最新的comet lake 10代core尚未上市但也在受影响之列。</description>
+      <content:encoded><![CDATA[<p><b>albertfu: </b><br>
+<span>牙膏漏洞新攻击方式LVI，对应修复可导致性能缩至19分之一</span><br>
+<span>Computer security researchers involved in the discovery of the Meltdown and Spectre vulnerabilities affecting many modern processors have developed a related attack technique called Load Value Injection (LVI).</span><br>
+<span>This time the problem is called 'LVI-LFB', which stands for Load Value Injection in the Line Fill Buffers. It has the CVE-2020-0551 attribute and, like many of the previously discovered issues, uses speculative execution.</span><br>
+<span>The problem likely occurs towards Intel chips from Ivy Bridge generation up to and including Comet Lake, the researchers do not exclude that chips from other brands are not susceptible either as all processors that are susceptible to Meltdown could potentially be at risk. In addition, updates in the microcode, which Intel is likely to have in the works,could cause calculations to be performed 2 to 19 times slower on certain workloads, so this is a big one. The expectation is that these software updates simply will not get installed by many due to that performance hit.</span><br>
+<span>The attack relies on microarchitectural data leakage to inject and execute malicious code in a way that breaks the confidentiality of modern Intel systems. Intel's processors, already weighed down by defenses deployed against side-channel attacks over the past two years, could get slower still if they try to thwart this latest vulnerability: prototype compiler changes, for full mitigation, have produced performance reductions ranging from 2x to 19x. That's because LVI protection involves compiler and assembler updates that insert extra x86 instructions (lfence) and replace problematic instructions (such as ret) with functionally equivalent but more verbose instruction sequences. In a paper scheduled to be published today, March 10, in a coordinated disclosure announcement with Intel, boffins from KU Leuven, Worcester Polytechnic Institute, Graz University of Technology, University of Michigan, and University of Adelaide, describe LVI as a reverse-Meltdown attack. Instead of leaking data from memory, it injects transient load values during a faulting or assisted load operation to perform some malicious action.</span><br>
+<span>The threat scenario involves a local adversary trying to obtain secrets (like passwords or encryption keys) from an operating system kernel, an OS process, or an SGX enclave. For SGX, root OS privileges are assumed – SGX was designed to protect against root-level attacks. With such secrets, more extensive compromise becomes possible.</span><br>
+<span>It turns out that Meltdown, a technique for pulling data from a computer's memory, can be turned around to put data back in, thereby poisoning data stored in memory during brief, speculative operations. Though the data gets thrown away after these short-lived tasks, it can still cause trouble.</span><br>
+<span>如题，之前漏洞可以导致内存数据泄露，这次LVI则可以把数据注入进去。</span><br>
+<span>最新的comet lake 10代core尚未上市但也在受影响之列。</span><br>
+</p><p><b>qwased: </b><br>
+<span>利用难度高吗</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>mintpie: </b><br>
+<span>怎么隔三岔五就来个新漏洞？</span><br>
+</p><p><b>逆袭的黑月: </b><br>
+<span>至?</span><br>
+</p><p><b>madnesshare: </b><br>
+<span>至？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>qwased 发表于 2020-3-13 01:58</span><br>
+<span>利用难度高吗</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+<span>和之前的meltdown利用难度差不多，最惨的还是企业和云服务商</span><br>
+</p><p><b>albertfu: </b><br>
+<span>mintpie 发表于 2020-3-13 02:00</span><br>
+<span>怎么隔三岔五就来个新漏洞？</span><br>
+<span>是18年踢爆那波牙膏漏洞的后续，这次是发现了新的攻击方式</span><br>
+</p><p><b>albertfu: </b><br>
+<span>逆袭的黑月 发表于 2020-3-13 02:41</span><br>
+<span>至?</span><br>
+<span>恩，性能损失在某些负载下高达95%</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>财源滚滚!</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>内存泄露是对服务器的吧，臭打游戏的可以不打吗</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>hecas: </b><br>
+<span>一个月一次</span><br>
+<span>牙膏厂疯了</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>怎么又来，感觉可以重新设计CPU，这个性能补丁有点多啊</span><br>
+</p><p><b>whatd: </b><br>
+<span>牙膏变抽水泵了</span><br>
+</p><p><b>yst234: </b><br>
+<span>看了下 Anandtech 的报道 Load Value Injection: A New Intel Attack Bypasses SGX with Significant Performance Mitigation Concerns</span><br>
+<span>这个漏洞主要攻击的是Intel SGX，应该在 SGX 保护下的 Secure Enclave 基本上直接失效了</span><br>
+<span>好在这个漏洞对于没有用到 SGX 的大多数应用来说没什么影响</span><br>
+</p><p><b>flymop: </b><br>
+<span>其实，就让他性能下降95%好了，甚至不用真的攻击</span><br>
+</p><p><b>两弹元勋: </b><br>
+<span>这也算企业文化了吧</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>零下五度猫 发表于 2020-3-13 03:30</span><br>
+<span>内存泄露是对服务器的吧，臭打游戏的可以不打吗</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2 ...</span><br>
+<span>当然可以，只要别让煞笔WIN10自动更新就行</span><br>
+</p><p><b>Finsty: </b><br>
+<span>是不是有点像内存厂大火</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>家用不用管，这些玩意需要本地运行程序 ，你不运行，就不会中招，放一万个心</span><br>
+<span>云服务器不行啊，有一个傻比就能搞死全部。。。云服务器商要骂娘</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span> 本帖最后由 Gnyueh 于 2020-3-13 14:06 编辑 </span><br>
+<span>icelake yes，当了几年主力的老架构是这样子的什么幺蛾子都出来了</span><br>
+<span>前言作废，ICELAKE也中招了，祖传漏洞</span><br>
+<span>再次翻转，最新的大(icelake)，小核(tremont)不受影响</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>sblnrrk 发表于 2020-3-13 13:55</span><br>
+<span>家用不用管，这些玩意需要本地运行程序 ，你不运行，就不会中招，放一万个心</span><br>
+<span>云服务器不行啊，有一个傻比 ...</span><br>
+<span>这个漏洞主要是可以注入，玩法太多了，ROME YES!</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>粉色猛男 发表于 2020-3-13 11:27</span><br>
+<span>当然可以，只要别让煞笔WIN10自动更新就行</span><br>
+<span>打开个网页javascript注入一下帮你改个密码好不好啊</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tg45: </b><br>
+<span>intel大利好！销量提升18倍！</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>两个路人: </b><br>
+<span>粉色猛男 发表于 2020-3-13 11:27</span><br>
+<span>当然可以，只要别让煞笔WIN10自动更新就行</span><br>
+<span>Win7大胜利，不打2018年的补丁就不会有性能损失（震声</span><br>
+</p><p><b>脱氧核糖核酸: </b><br>
+<span>挤了10年的牙膏，一下就吸回去了，Intel做梦都要笑醒。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>tg45 发表于 2020-3-13 14:04</span><br>
+<span>intel大利好！销量提升18倍！</span><br>
+<span>—— 来自 HUAWEI TAS-AL00, Android 10上的 S1Next-鹅版 v2.0.4-play ...</span><br>
+<span>暗黑商法的精髓你get到了！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918544[0-50]</guid>
+    </item>
+  </channel>
+</rss>

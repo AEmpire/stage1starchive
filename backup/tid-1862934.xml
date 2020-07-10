@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>esxi直通扩展卡测试（更新完成，11楼神展开）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>esxi直通扩展卡测试（更新完成，11楼神展开）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:19:28 +0000</lastBuildDate>
+    <item>
+      <title>esxi直通扩展卡测试（更新完成，11楼神展开）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862934-1-1.html</link>
+      <description>esxi直通扩展卡测试（更新完成，11楼神展开）&#13;
+ 本帖最后由 高卢鸡 于 2019-11-10 15:01 编辑 
+
+前情提要
+&#13;
+[软件] 生命在于折腾（误），家用娱乐中心（误）esxi折腾记 一更
+&#13;
+[硬件] 求推主板，要求内附
+&#13;
+起因就是这两个帖子，第一个帖子是折腾esxi搭建homelab，但是还是有遗留问题，比如无法hba卡和多口网卡都直通，显卡无法直通的问题。所以后来又问了第二个帖子，求推主板可以满足多pcie卡直通，但是最终各种原因没有换主板。
+&#13;
+本贴就是我尝试解决多pcie卡直通的记录。
+&#13;
+round1，时间2019.11.01
+&#13;
+根据第一个帖子里有网友提出的cpu里出来的pci槽可以直通，pch出来的pcie槽不能直通。
+&#13;
+目前我手里可以使用的资源是：
+&#13;
+大奶： 1700x    c6h   r9 380
+&#13;
+homelab： 2200g   b350m mortar
+&#13;
+在b350m的pcie1上插hba卡和网卡均可以直通，pcie4上插两卡均无法直通。
+&#13;
+https://s2.ax1x.com/2019/11/02/KqeaQK.png
+&#13;
+可以看出pci1是来自cpu，pcie4是来自pch
+&#13;
+这是c6h的规格表
+&#13;
+https://s2.ax1x.com/2019/11/02/Kqu5wD.png
+&#13;
+两个pcie槽式从u出来的，剩下的是pch出来的。
+&#13;
+上网搜到一个x370的图，这个应该是接ryzen 1代cpu的
+&#13;
+https://www.techpowerup.com/forums/proxy.php?image=https%3A%2F%2Fimages.bit-tech.net%2Fcontent_images%2F2017%2F03%2Famd-ryzen-1800x-and-am4-platform-review%2Fcrosshair-diagram-1280x1024.jpg&amp;hash=c4375017c7e3273064c03aaeb2dcb8c3这张图丢了，换一张
+&#13;
+https://s2.ax1x.com/2019/11/10/MnrDu4.jpg
+&#13;
+根据wikichip的数据，2200g有12条pcie lanes，8条给显卡，4条给nvme；1700x是20条pcie lanes，16条给显卡，4条给nvme。这里wikichip是没有计算给芯片组的4条pcie lanes。
+&#13;
+这是c6h的主板布置图。
+&#13;
+https://s2.ax1x.com/2019/11/02/KqVX90.png
+&#13;
+因为是测试，所以没有制作任何虚拟系统，只在esxi里查看直通是否成功。
+&#13;
+第一次测试，显卡在pcie2，网卡在pcie4，hba卡在pcie6。显卡、网卡直通显示active，hba卡显示需要重新引导启动（即使在重新引导之后）。可以判断hba卡直通失败。只直通pcie4的网卡和pcie6的hba卡，不直通pcie1的显卡，依然是hba卡无法直通。
+&#13;
+第二次测试，拔下显卡，网卡在pcie2，hba卡在pcie4。主板未报错，可以正常启动进入esxi。网卡和显卡均显示active。判断直通成功。
+&#13;
+结论，pcie2、pcie4是可以直通，pcie6无法直通。
+&#13;
+若按照上面提到的网友的想法，cpu出来的可以直通，pch的无法直通。
+&#13;
+在anandtech上找到一张图
+&#13;
+https://images.anandtech.com/doci/10705/APU%20TB3%20PLX%20Option.png
+&#13;
+判断如果使用plx可以将apu出来的8条lanes拆分，是否就可以达成两个槽同时直通呢？
+&#13;
+下面将测试2200g搭配c6h的情况，待更新。
+&#13;
+--------------------------------------------更新分割线---------------------------------
+&#13;
+round2，时间2019.11.10
+&#13;
+这次把cpu对调一下。
+&#13;
+1700x+b350m
+&#13;
+pcie1、pcie4都可以识别，但是依然只有pcie1可以直通。
+&#13;
+2200g+c6h
+&#13;
+插pcie4上的卡在esxi里不显示，完全找不到。看来apu只有一个x8出来，然后c6h无法拆分，所以pcie4失效。看网上说c7h增加了qs芯片，可以把cpu出来的pcie通道拆分，不知道可不可以像上面anandtech上画的那样。
+&#13;
+把卡插在pcie3，也就是pch出来的x1槽，可以识别了，但是无法直通。
+&#13;
+------------------------分割线-----------------------
+&#13;
+昨晚太晚了就简单写了结果，其实还有很多情况。
+&#13;
+主测试以外的东西记录如下：
+&#13;
+round1的时候，用homelab的esxi系统盘，无法在1700x+c6h上正常启动，卡在nfs4client loaded successfully，放狗搜只找到一个说卡没插紧的，试了一下也不行，然后就用新u盘做了个新的esxi系统盘。
+&#13;
+round2的时候，1700x+b350m用homelab的esxi盘（悲剧的开始），sb.v00 error 33，之后我用上次做的新u盘启动正常。
+&#13;
+2200g+c6h，用老esxi盘启动还是sb.v00错误，用新esxi盘sb.v00错误，之后我在老盘启动时shift+r用备份的版本启动，错误。新esxi盘没有自动备份的版本。所以之后重新做esxi系统盘。
+&#13;
+但是因为老的esxi盘坏掉了，在2200g+b350m的配置下也无法使用了，只好重新做这个正常环境下用的esxi盘，然后重新注册虚拟机，重新配置网络。下次再也不敢用准生产环境的系统盘瞎操作了。
+&#13;
+刚才上网搜了一下，文件坏掉可以用安装盘里的原文件替换，下次可以试一下。主要测试只花了不到1小时，恢复原状用了3个小时。
+&#13;
+测试结果就是esxi直通pcie卡应该是需要cpu直连的pcie插槽才可以，pch出来的是不可以的。昨天找到一个dq77kb直通sata控制器的，原来安装时也看到教程写的不要轻易直通sata控制器（如果esxi系统盘挂在这个sata控制器下就只好重来了），找到dq77kb的说明书中的架构图，sata控制器是从pch出来的，为啥就能直通成功呢？
+&#13;
+所以多lanes还是有用的，大船真香（主板太贵）。zen系列都有一个直连cpu的m2槽，不知道有没有可以m2转pcie槽的东东呢。
+&#13;
+11楼神展开</description>
+      <content:encoded><![CDATA[<p><b>高卢鸡: </b><br>
+<span>esxi直通扩展卡测试（更新完成，11楼神展开）</span><br>
+<span> 本帖最后由 高卢鸡 于 2019-11-10 15:01 编辑 </span><br>
+<span>前情提要</span><br>
+<span>[软件] 生命在于折腾（误），家用娱乐中心（误）esxi折腾记 一更</span><br>
+<span>[硬件] 求推主板，要求内附</span><br>
+<span>起因就是这两个帖子，第一个帖子是折腾esxi搭建homelab，但是还是有遗留问题，比如无法hba卡和多口网卡都直通，显卡无法直通的问题。所以后来又问了第二个帖子，求推主板可以满足多pcie卡直通，但是最终各种原因没有换主板。</span><br>
+<span>本贴就是我尝试解决多pcie卡直通的记录。</span><br>
+<span>round1，时间2019.11.01</span><br>
+<span>根据第一个帖子里有网友提出的cpu里出来的pci槽可以直通，pch出来的pcie槽不能直通。</span><br>
+<span>目前我手里可以使用的资源是：</span><br>
+<span>大奶： 1700x    c6h   r9 380</span><br>
+<span>homelab： 2200g   b350m mortar</span><br>
+<span>在b350m的pcie1上插hba卡和网卡均可以直通，pcie4上插两卡均无法直通。</span><br>
+<img src="https://s2.ax1x.com/2019/11/02/KqeaQK.png" title="https://s2.ax1x.com/2019/11/02/KqeaQK.png"><br>
+<span>可以看出pci1是来自cpu，pcie4是来自pch</span><br>
+<span>这是c6h的规格表</span><br>
+<img src="https://s2.ax1x.com/2019/11/02/Kqu5wD.png" title="https://s2.ax1x.com/2019/11/02/Kqu5wD.png"><br>
+<span>两个pcie槽式从u出来的，剩下的是pch出来的。</span><br>
+<span>上网搜到一个x370的图，这个应该是接ryzen 1代cpu的</span><br>
+<span>https://www.techpowerup.com/forums/proxy.php?image=https%3A%2F%2Fimages.bit-tech.net%2Fcontent_images%2F2017%2F03%2Famd-ryzen-1800x-and-am4-platform-review%2Fcrosshair-diagram-1280x1024.jpg&hash=c4375017c7e3273064c03aaeb2dcb8c3这张图丢了，换一张</span><br>
+<img src="https://s2.ax1x.com/2019/11/10/MnrDu4.jpg" title="https://s2.ax1x.com/2019/11/10/MnrDu4.jpg"><br>
+<span>根据wikichip的数据，2200g有12条pcie lanes，8条给显卡，4条给nvme；1700x是20条pcie lanes，16条给显卡，4条给nvme。这里wikichip是没有计算给芯片组的4条pcie lanes。</span><br>
+<span>这是c6h的主板布置图。</span><br>
+<img src="https://s2.ax1x.com/2019/11/02/KqVX90.png" title="https://s2.ax1x.com/2019/11/02/KqVX90.png"><br>
+<span>因为是测试，所以没有制作任何虚拟系统，只在esxi里查看直通是否成功。</span><br>
+<span>第一次测试，显卡在pcie2，网卡在pcie4，hba卡在pcie6。显卡、网卡直通显示active，hba卡显示需要重新引导启动（即使在重新引导之后）。可以判断hba卡直通失败。只直通pcie4的网卡和pcie6的hba卡，不直通pcie1的显卡，依然是hba卡无法直通。</span><br>
+<span>第二次测试，拔下显卡，网卡在pcie2，hba卡在pcie4。主板未报错，可以正常启动进入esxi。网卡和显卡均显示active。判断直通成功。</span><br>
+<span>结论，pcie2、pcie4是可以直通，pcie6无法直通。</span><br>
+<span>若按照上面提到的网友的想法，cpu出来的可以直通，pch的无法直通。</span><br>
+<span>在anandtech上找到一张图</span><br>
+<img src="https://images.anandtech.com/doci/10705/APU%20TB3%20PLX%20Option.png" title="https://images.anandtech.com/doci/10705/APU%20TB3%20PLX%20Option.png"><br>
+<span>判断如果使用plx可以将apu出来的8条lanes拆分，是否就可以达成两个槽同时直通呢？</span><br>
+<span>下面将测试2200g搭配c6h的情况，待更新。</span><br>
+<span>--------------------------------------------更新分割线---------------------------------</span><br>
+<span>round2，时间2019.11.10</span><br>
+<span>这次把cpu对调一下。</span><br>
+<span>1700x+b350m</span><br>
+<span>pcie1、pcie4都可以识别，但是依然只有pcie1可以直通。</span><br>
+<span>2200g+c6h</span><br>
+<span>插pcie4上的卡在esxi里不显示，完全找不到。看来apu只有一个x8出来，然后c6h无法拆分，所以pcie4失效。看网上说c7h增加了qs芯片，可以把cpu出来的pcie通道拆分，不知道可不可以像上面anandtech上画的那样。</span><br>
+<span>把卡插在pcie3，也就是pch出来的x1槽，可以识别了，但是无法直通。</span><br>
+<span>------------------------分割线-----------------------</span><br>
+<span>昨晚太晚了就简单写了结果，其实还有很多情况。</span><br>
+<span>主测试以外的东西记录如下：</span><br>
+<span>round1的时候，用homelab的esxi系统盘，无法在1700x+c6h上正常启动，卡在nfs4client loaded successfully，放狗搜只找到一个说卡没插紧的，试了一下也不行，然后就用新u盘做了个新的esxi系统盘。</span><br>
+<span>round2的时候，1700x+b350m用homelab的esxi盘（悲剧的开始），sb.v00 error 33，之后我用上次做的新u盘启动正常。</span><br>
+<span>2200g+c6h，用老esxi盘启动还是sb.v00错误，用新esxi盘sb.v00错误，之后我在老盘启动时shift+r用备份的版本启动，错误。新esxi盘没有自动备份的版本。所以之后重新做esxi系统盘。</span><br>
+<span>但是因为老的esxi盘坏掉了，在2200g+b350m的配置下也无法使用了，只好重新做这个正常环境下用的esxi盘，然后重新注册虚拟机，重新配置网络。下次再也不敢用准生产环境的系统盘瞎操作了。</span><br>
+<span>刚才上网搜了一下，文件坏掉可以用安装盘里的原文件替换，下次可以试一下。主要测试只花了不到1小时，恢复原状用了3个小时。</span><br>
+<span>测试结果就是esxi直通pcie卡应该是需要cpu直连的pcie插槽才可以，pch出来的是不可以的。昨天找到一个dq77kb直通sata控制器的，原来安装时也看到教程写的不要轻易直通sata控制器（如果esxi系统盘挂在这个sata控制器下就只好重来了），找到dq77kb的说明书中的架构图，sata控制器是从pch出来的，为啥就能直通成功呢？</span><br>
+<span>所以多lanes还是有用的，大船真香（主板太贵）。zen系列都有一个直连cpu的m2槽，不知道有没有可以m2转pcie槽的东东呢。</span><br>
+<span>11楼神展开</span><br>
+</p><p><b>refo2613: </b><br>
+<span>hba卡为啥要直通？lun可以直接给vm用就可以了呀</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>明白你的意思了。</span><br>
+<span>我原来是想到黑裙里组raid，所以要直通整个卡。只是后来没有建raid，也就是可以直接裸盘映射了。</span><br>
+</p><p><b>macos: </b><br>
+<span>网卡直通好像是很有意义，其他设备直通好像意义不大，虚拟机大多跑服务，有半虚拟化后虚拟机性能已经基本等同宿主没啥必要专门独占设备了</span><br>
+</p><p><b>oskneo: </b><br>
+<span>refo2613 发表于 2019-11-2 13:42</span><br>
+<span>hba卡为啥要直通？lun可以直接给vm用就可以了呀</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>这样无法直接看smart表，组的raid不能直接报问题，不太安全</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>refo2613: </b><br>
+<span>oskneo 发表于 2019-11-4 14:22</span><br>
+<span>这样无法直接看smart表，组的raid不能直接报问题，不太安全</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上 ...</span><br>
+<span>额，我只能说，在生产环境中，不需要VM来看硬盘健康</span><br>
+<span>能上HBA卡了，一般都是中高端存储了，配个ALARM的SMTP服务根本不是问题</span><br>
+<span>而且商用硬盘都有指示灯，只要有定期的巡检，不论是现场的还是远程用工具的，都能及时发现并置换黄灯的硬盘</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>oskneo 发表于 2019-11-4 14:22</span><br>
+<span>这样无法直接看smart表，组的raid不能直接报问题，不太安全</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上 ...</span><br>
+<span>我现在直通了hba卡，黑裙里还是无法看smart。</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>多谢</span><br>
+<span>这帖子先收藏了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>今天买了个7500u工控机，还在路上，先学习一下。成品工控机应该比lz这种拼搭的硬件简单些吧？</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>yuuu 发表于 2019-11-10 02:32</span><br>
+<span>今天买了个7500u工控机，还在路上，先学习一下。成品工控机应该比lz这种拼搭的硬件简单些吧？</span><br>
+<span>—— 来自 H ...</span><br>
+<span>我认为，工控机的问题是专门的工作目标，所以有可能定制，可能无法用通用驱动，尤其是esxi这种linux系统。另外工控机的质量也是问题，如何确定用的都是大厂/质量优良的配件。我用的都是大厂产品，甚至配了完全超过这套配置等级的电源。</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span> 本帖最后由 高卢鸡 于 2019-11-10 15:02 编辑 </span><br>
+<span>杯具了，注册的黑裙无法启动。</span><br>
+<span>    模块“DevicePowerOn”打开电源失败。</span><br>
+<span>    配置文件中缺少 pciPassthru0.id 条目。</span><br>
+<span>    无法启动虚拟机。</span><br>
+<span>然后我删除了原有的引导盘，重新添加，之后可以启动，但是web页面打不开，助手找不到，通过http://find.synology.com/#进入，显示dsm未安装。</span><br>
+<span>------------------------------</span><br>
+<span>网上搜了一圈，安装黑裙、推荐套件和玩法的帖子一堆，然而如何修复的很少。尝试了黑群晖修复、黑群晖导入旧数据等关键字，搜到的白裙修复or导入旧数据方法都是用一个新的迁移，不愧是资本家出的东西。</span><br>
+<span>我在上面删除原引导盘的时候断开了直通的hba卡，所以当时不怕东西丢。助手找不到，find页面提示没有系统。</span><br>
+<span>简单翻了nasyun也没找到，搜到下面两个帖子</span><br>
+<span>黑群晖(XPEnology)无法启动&重建系统并保留数据经验总结</span><br>
+<span>新司机的黑裙战斗机 篇三：群晖【番外篇】群晖系统崩溃后的数据抢救</span><br>
+<span>发现都挺麻烦，而且启动群晖看不到XPEnology这个界面，用的jun大神的固件，不知道这俩啥关系，这时候我想起来前段时间导出了ovf文件，想试试能不能导入esxi，然后又是一通放狗搜。这时候一通神操作，删除注册原有黑裙，重新注册，这时候其实就是刚才没有系统，没直通hba卡的黑裙，然后直通hba卡，启动，find页面找不到，打开助手竟然找到黑裙了，神马破玩意。</span><br>
+<span>搞了半天对修复重建dsm系统还是一头雾水，看来还是要有备无患的先研究一下了。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>高卢鸡 发表于 2019-11-10 10:24</span><br>
+<span>我认为，工控机的问题是专门的工作目标，所以有可能定制，可能无法用通用驱动，尤其是esxi这种linux系统 ...</span><br>
+<span>我买的那种淘宝批量用来刷软路由的六口工控机，兼容性应该没大问题吧？再说整块主板都是Intel公模，能偷工减料的也只有外壳和电源了吧？内存和ssd走jd了。</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>yuuu 发表于 2019-11-10 17:43</span><br>
+<span>我买的那种淘宝批量用来刷软路由的六口工控机，兼容性应该没大问题吧？再说整块主板都是Intel公模，能偷 ...</span><br>
+<span>那应该没问题，买之前问好卖家各种配置就可以。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>高卢鸡 发表于 2019-11-10 19:21</span><br>
+<span>那应该没问题，买之前问好卖家各种配置就可以。</span><br>
+<span>软路由太难了，我就装最常见的esxi+ikuai+lede，折腾两天才把ikuai和lede互通，有线插lede能上网。现在准备虚拟一个win10，请问一下大佬，7500u的核显能显卡直通吗？显卡直通有什么好处和坏处吗？</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>yuuu 发表于 2019-11-14 13:08</span><br>
+<span>软路由太难了，我就装最常见的esxi+ikuai+lede，折腾两天才把ikuai和lede互通，有线插lede能上网。现在准 ...</span><br>
+<span>核显什么时候能直通了？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>Realplayer 发表于 2019-11-14 13:12</span><br>
+<span>核显什么时候能直通了？</span><br>
+<span>不知道，esxi里显示支持直通</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>macos: </b><br>
+<span>Realplayer 发表于 2019-11-14 13:12</span><br>
+<span>核显什么时候能直通了？</span><br>
+<span>核显不能支持吗，hyperv里核显是默认remotefx设备啊</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>macos 发表于 2019-11-14 14:16</span><br>
+<span>核显不能支持吗，hyperv里核显是默认remotefx设备啊</span><br>
+<span>海破威不清楚，Esxi要做显卡直通需要两张独立显卡(https://blog.csdn.net/zhanxix/article/details/71516316/)直通卡配置时集显需要禁用</span><br>
+<span>我在接核显准备直通独显的时候看不到PCI设备里有显卡</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>高卢鸡 发表于 2019-11-10 14:33</span><br>
+<span>杯具了，注册的黑裙无法启动。</span><br>
+<span>然后我删除了原有的引导盘，重新添加，之后可以启动，但是web页面打不开， ...</span><br>
+<span>没毛病，黑群挂就迁移，我搞挂过好几回了</span><br>
+<span>黑群是用一个U盘或者小的硬盘作引导，这个是永远不用动的，除非升级了系统需要升引导</span><br>
+<span>系统本身是在每个盘上（是的，每一块硬盘上，除了那个引导用的）都有一个分区存放系统，硬盘上存储的数据是另外的分区，和这个系统分区是独立的，所以群晖搞挂了也不用担心数据没了，直接把系统重装下就行了，重装完了会自动认出你原来的存储空间</span><br>
+<span>重装系统也很简单，用DG把每个盘上的第一个分区（很小，几G来着的我忘了）清空（引导不需要重写，完全不要动它），然后启动时在引导菜单那选第二项，好像是写了Reinstall还是Recovery啥的，然后就可以去用Synology Assistant或者网页界面重装系统了。重装时上面的提示说什么清除数据之类的都没关系，清掉的是系统和设置（反正本来也没有了）。</span><br>
+<span>装完重启就进系统了，存储空间直接就挂上了，好像都不用手动做什么。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862934[0-50]</guid>
+    </item>
+  </channel>
+</rss>

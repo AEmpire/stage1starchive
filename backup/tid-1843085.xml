@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>最近在使用火狐浏览器，求个视频窗口弹出能顶置前端的插件。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>最近在使用火狐浏览器，求个视频窗口弹出能顶置前端的插件。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:24:49 +0000</lastBuildDate>
+    <item>
+      <title>最近在使用火狐浏览器，求个视频窗口弹出能顶置前端的插件。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843085-1-1.html</link>
+      <description>最近在使用火狐浏览器，求个视频窗口弹出能顶置前端的插件。&#13;
+一边游戏，一边看视频。</description>
+      <content:encoded><![CDATA[<p><b>susan28: </b><br>
+<span>最近在使用火狐浏览器，求个视频窗口弹出能顶置前端的插件。</span><br>
+<span>一边游戏，一边看视频。</span><br>
+</p><p><b>弯枝理树: </b><br>
+<span>兩個顯示器可以解決</span><br>
+<span>—— 來自 Sony G8142, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>萱时令: </b><br>
+<span>换chrome可破</span><br>
+<span>自带画中画</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>我惊讶的发现firefox稳定版（67）还没有这个功能，查了一下说68开始实装。CHROME稳定版已经有了这个功能。</span><br>
+<span>总之，如果你的游览器有这个功能，在视频上点右键，应该就会出现画中画选项。不过大多数视频网站都会自定义右键菜单，所以要么你找个拓展，要么打开控制台输入</span><br>
+<span>document.querySelector('video').requestPictureInPicture()</span><br>
+<span>顺面一说这个功能只对基于H5的播放器有效。</span><br>
+<span>另外，如果是使用autohotkey的话，下面的代码可以让你顶置一个窗口（ctrl+win+w切换）</span><br>
+<span>^#w::</span><br>
+<span>;将当前激活窗口存入变量w</span><br>
+<span>WinGetActiveTitle, w</span><br>
+<span>;对w窗口置顶，Toggle表示在on 与 off 中切换</span><br>
+<span>Winset, AlwaysOnTop, Toggle, %w%</span><br>
+<span>;返回执行</span><br>
+<span>return</span><br>
+</p><p><b>迷路的: </b><br>
+<span> 本帖最后由 迷路的 于 2019-6-29 18:37 编辑 </span><br>
+<span>到config:about里把【media.videocontrols.picture-in-picture.enabled】改成true试试</span><br>
+<img src="https://i.bmp.ovh/imgs/2019/06/1d28527bd6ae753a.png" title="https://i.bmp.ovh/imgs/2019/06/1d28527bd6ae753a.png"><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843085[0-50]</guid>
+    </item>
+  </channel>
+</rss>

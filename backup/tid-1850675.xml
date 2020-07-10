@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>蓝牙手柄延迟极高的问题要怎么排查</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>蓝牙手柄延迟极高的问题要怎么排查</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:36:46 +0000</lastBuildDate>
+    <item>
+      <title>蓝牙手柄延迟极高的问题要怎么排查[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850675-1-1.html</link>
+      <description>蓝牙手柄延迟极高的问题要怎么排查&#13;
+DS4和PRO手柄蓝牙连接PC，能连上，能用，但是一开始正常，用了大概10分钟左右延迟就会明显飙高，最后延迟超过1秒
+&#13;
+DS4连PS4是OK的，PRO手柄连NS也是OK的，但是连PC就有这个问题，说是2.4Gwifi干扰，但是这个干扰有点夸张，现在哪里还有无2.4Gwifi的环境，，
+&#13;
+我怀疑是淘宝买的USB蓝牙连接器有毛病，但是又不确定，所以有什么办法能检查这个蓝牙连接器的延迟？</description>
+      <content:encoded><![CDATA[<p><b>不会武术: </b><br>
+<span>蓝牙手柄延迟极高的问题要怎么排查</span><br>
+<span>DS4和PRO手柄蓝牙连接PC，能连上，能用，但是一开始正常，用了大概10分钟左右延迟就会明显飙高，最后延迟超过1秒</span><br>
+<span>DS4连PS4是OK的，PRO手柄连NS也是OK的，但是连PC就有这个问题，说是2.4Gwifi干扰，但是这个干扰有点夸张，现在哪里还有无2.4Gwifi的环境，，</span><br>
+<span>我怀疑是淘宝买的USB蓝牙连接器有毛病，但是又不确定，所以有什么办法能检查这个蓝牙连接器的延迟？</span><br>
+</p><p><b>mogle: </b><br>
+<span>1.买仪器（x W）抓蓝牙空中包，分析问题，改设备固件；</span><br>
+<span>2.买n个5G路由，送给你的邻居；</span><br>
+<span>3.关掉自己家的2.4G设备，蓝牙外设与接收器在1-2米左右应该影响不大，邻居家的信号正常到你那里应该很弱了，如果是2.4G影响的话，应该是自己家的设备问题；</span><br>
+<span>4.换有线，换别家接收器；</span><br>
+</p><p><b>sorayang: </b><br>
+<span>换XBONE+专用接收器</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>sorayang 发表于 2019-8-2 08:35</span><br>
+<span>换XBONE+专用接收器</span><br>
+<span>那个也是2.4g的。。。</span><br>
+</p><p><b>john: </b><br>
+<span>土豆麻辣人 发表于 2019-8-2 22:54</span><br>
+<span>那个也是2.4g的。。。</span><br>
+<span>私有协议受到干扰的可能小得多，正如你自己所说，游戏机手柄连游戏机都是没问题的</span><br>
+</p><p><b>sorayang: </b><br>
+<span>土豆麻辣人 发表于 2019-8-2 22:54</span><br>
+<span>那个也是2.4g的。。。</span><br>
+<span>但我就没见过有人说专用连接器不稳定</span><br>
+<span>这跟采用的信道没关系。</span><br>
+</p><p><b>oskneo: </b><br>
+<span>你说的原因是正确的，偶也遇到这情况。</span><br>
+<span>有几个方法可解决，最便宜的是买个延长的usb hub。</span><br>
+<span>为啥能解决偶也不懂，貌似直接插机箱会干扰？</span><br>
+<span>然后就是买pcie级别的蓝牙，如ac9260那种。</span><br>
+<span>最后是直接买ps4 wireless usb adaptor。</span><br>
+<span>以上全部都实际测试过。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>北通阿修罗，请</span><br>
+</p><p><b>orecheng: </b><br>
+<span>换有线咯</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>我试过usb bt连音箱也是这样越来越延迟，笔记本的pcie bt就不会</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>铅笔: </b><br>
+<span>我记得usb3.0接口有干扰</span><br>
+</p><p><b>cosx: </b><br>
+<span>好像是2.4有干扰</span><br>
+</p><p><b>shinjico: </b><br>
+<span>买个xboxones手柄，买个微软手柄接收器2代，完美，我就是这么搞的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>不会武术: </b><br>
+<span>从机箱后面的插口挪到桌子上的USBHUD，居然就好了，中间不能有任何遮挡物，包括大腿都不行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850675[0-50]</guid>
+    </item>
+  </channel>
+</rss>

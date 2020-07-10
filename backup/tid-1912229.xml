@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于retroarch成就 怎么确认这个rom是符合要求的</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于retroarch成就 怎么确认这个rom是符合要求的</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:24:23 +0000</lastBuildDate>
+    <item>
+      <title>关于retroarch成就 怎么确认这个rom是符合要求的[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912229-1-1.html</link>
+      <description>关于retroarch成就 怎么确认这个rom是符合要求的&#13;
+这串像md5好像又不是md5的东西
+&#13;
+怎么知道自己的rom是不是符合标准
+&#13;
+或者说去哪搞得到符合标准的rom？
+&#13;
+难道都是下一堆一个个试过去吗</description>
+      <content:encoded><![CDATA[<p><b>sakamichi: </b><br>
+<span>关于retroarch成就 怎么确认这个rom是符合要求的</span><br>
+<span>这串像md5好像又不是md5的东西</span><br>
+<span>怎么知道自己的rom是不是符合标准</span><br>
+<span>或者说去哪搞得到符合标准的rom？</span><br>
+<span>难道都是下一堆一个个试过去吗</span><br>
+</p><p><b>neptunehs: </b><br>
+<span> 本帖最后由 neptunehs 于 2020-2-4 20:28 编辑 </span><br>
+<span>RA checksum 好像就是MD5</span><br>
+<span>虽然retroarch成就我没玩过 但romhacking的类似问题 一般是通过在谷歌把文件名一字不差打进去加双引号解决</span><br>
+<span>像这样"final fantasy VII (USA) (Disc 1)"</span><br>
+<span>但那也只对gba啊sfc啊有效 对涉及虚拟光驱格式问题的ps游戏无效</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>neptunehs 发表于 2020-2-4 20:27</span><br>
+<span>RA checksum 好像就是MD5</span><br>
+<span>虽然retroarch成就我没玩过 但romhacking的类似问题 一般是通过在谷歌把文件名一 ...</span><br>
+<span>应该不是md5 对于有些同时标出crc32的rom， crc32符合的同时 md5却不是那个值 应该是ra自己的散列算法然而绝大多数rom没有crc32值 只有一个这个ra checksum 并不知道怎么确认</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912229[0-50]</guid>
+    </item>
+  </channel>
+</rss>

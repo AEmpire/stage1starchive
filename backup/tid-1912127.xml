@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请大家看看我这个excel公式哪里出问题了？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请大家看看我这个excel公式哪里出问题了？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:25:09 +0000</lastBuildDate>
+    <item>
+      <title>请大家看看我这个excel公式哪里出问题了？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912127-1-1.html</link>
+      <description>请大家看看我这个excel公式哪里出问题了？&#13;
+ 本帖最后由 Mr.5 于 2020-2-4 09:37 编辑 
+
+事情是这样的公司做的考核方案按照任务完成率的70%、85%、100%、110%分了5档
+&#13;
+具体情况就是下图这样
+&#13;
+http://wx1.sinaimg.cn/mw690/64bc7681ly1gbk3rltscqj21400u07wi.jpg
+&#13;
+然后我就做了个表，如下
+&#13;
+http://wx3.sinaimg.cn/mw690/64bc7681ly1gbk3rjmsp8j213o064ae7.jpg
+&#13;
+U这一列打算用公式算出具体的提取金额（不含基数奖部分）
+&#13;
+用if套娃套了半天，觉得没啥问题了
+&#13;
+结果咧，第四行，标黄的那一行，完成率正好卡在70%的时候，算出来的数不对
+&#13;
+我自己又看不出来哪里有问题，口口各位帮帮我
+&#13;
+图看不清楚，公式是这样的
+&#13;
+【code】=IF(70&lt;=Q2&lt;85%,(P2-R2)*2%*T2,(IF(Q2&lt;70%,0,(IF(Q2&lt;100%,(P2-R2)*3%*T2,(IF(Q2&lt;110%,(P2-R2)*4%*T2,((P2-I2*1.1)*5%+(I2*1.1-R2)*4%))))))))【/code】</description>
+      <content:encoded><![CDATA[<p><b>Mr.5: </b><br>
+<span>请大家看看我这个excel公式哪里出问题了？</span><br>
+<span> 本帖最后由 Mr.5 于 2020-2-4 09:37 编辑 </span><br>
+<span>事情是这样的公司做的考核方案按照任务完成率的70%、85%、100%、110%分了5档</span><br>
+<span>具体情况就是下图这样</span><br>
+<img src="http://wx1.sinaimg.cn/mw690/64bc7681ly1gbk3rltscqj21400u07wi.jpg" title="http://wx1.sinaimg.cn/mw690/64bc7681ly1gbk3rltscqj21400u07wi.jpg"><br>
+<span>然后我就做了个表，如下</span><br>
+<img src="http://wx3.sinaimg.cn/mw690/64bc7681ly1gbk3rjmsp8j213o064ae7.jpg" title="http://wx3.sinaimg.cn/mw690/64bc7681ly1gbk3rjmsp8j213o064ae7.jpg"><br>
+<span>U这一列打算用公式算出具体的提取金额（不含基数奖部分）</span><br>
+<span>用if套娃套了半天，觉得没啥问题了</span><br>
+<span>结果咧，第四行，标黄的那一行，完成率正好卡在70%的时候，算出来的数不对</span><br>
+<span>我自己又看不出来哪里有问题，口口各位帮帮我</span><br>
+<span>图看不清楚，公式是这样的</span><br>
+<span>【code】=IF(70<=Q2<85%,(P2-R2)*2%*T2,(IF(Q2<70%,0,(IF(Q2<100%,(P2-R2)*3%*T2,(IF(Q2<110%,(P2-R2)*4%*T2,((P2-I2*1.1)*5%+(I2*1.1-R2)*4%))))))))【/code】</span><br>
+</p><p><b>lawsherman: </b><br>
+<span> 本帖最后由 lawsherman 于 2020-2-4 09:46 编辑 </span><br>
+<span>第一个if就错了，这种写法是错的</span><br>
+<span>if要有逻辑顺序，不要一会儿大一会儿小</span><br>
+<span>另外不要用%，最好写0.0X</span><br>
+<span>=if(Q4<0.7,0,if(Q4<0.85,(P2-R2)*0.02*T2,if(Q4<1,(P2-R2)*0.03*T2,if(Q4<1.1,(P2-R2)*0.04*T2,((P2-I2*1.1)*0.05+(I2*1.1-R2)*0.04))))</span><br>
+<span>另外最后(P2-I2*1.1)*0.05+(I2*1.1-R2)*0.04)这里也有问题</span><br>
+<span>应该是(季度任务-基数)*0.04*T2+(季度回款数-季度任务)*0.05*T2</span><br>
+</p><p><b>Mr.5: </b><br>
+<span>lawsherman 发表于 2020-2-4 09:31</span><br>
+<span>看不清楚，你把公式发出来看看，用【code】【/code】框住</span><br>
+<span>我把公式加上啦</span><br>
+</p><p><b>Mr.5: </b><br>
+<span>lawsherman 发表于 2020-2-4 09:31</span><br>
+<span>第一个if就错了，这种写法是错的</span><br>
+<span>if要有逻辑顺序，不要一会儿大一会儿小</span><br>
+<span>谢谢大佬！</span><br>
+<span>一哈就捋的明明白白</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912127[0-50]</guid>
+    </item>
+  </channel>
+</rss>

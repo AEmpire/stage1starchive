@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WIN7简体中文64位集成“方便使用汇总更新”系统镜像</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>WIN7简体中文64位集成“方便使用汇总更新”系统镜像</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:55:07 +0000</lastBuildDate>
+    <item>
+      <title>WIN7简体中文64位集成“方便使用汇总更新”系统镜像[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857309-1-1.html</link>
+      <description>WIN7简体中文64位集成“方便使用汇总更新”系统镜像&#13;
+ 本帖最后由 两个路人 于 2019-10-1 18:48 编辑 
+
+WINDOWS 7将在2020年1月14日正式结束技术支持，基于原SP1的ISO文件cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408整合了“方便使用汇总更新”，额外增加了IE11、WDDM1.1、EFI和USB 3.0的支持。仅仅作为方便打每月增量补丁和安装使用。不含XXX或者其他非正常手段激活补丁，应该不会被老爷砍头吧ry
+&#13;
+magnet:?xt=urn:btih:067c806ffc90d6b300c15b8060e4240e757d082f&amp;tr=http%3a%2f%2fanidex.moe%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce
+&#13;
+具体事项写在NOTE.TXT里了，这里简单写个Q&amp;A
+&#13;
+1. 什么是“方便使用汇总更新”？
+&#13;
+请看微软网站的解释（机翻），链接如下
+&#13;
+https://support.microsoft.com/zh-cn/help/3125574/convenience-rollup-update-for-windows-7-sp1-and-windows-server-2008-r2
+&#13;
+2. 这个镜像里包含哪些补丁？
+&#13;
+请看文末截图
+&#13;
+3. 支持UEFI启动电脑吗？
+&#13;
+可，但仍然必须开启CSM支持，否则启动会卡住。
+&#13;
+4. 可以直接在新硬件上安装吗？
+&#13;
+支持到目前为止存在官方USB 3.0驱动的硬件平台（如Intel 200系列主板，Ryzen 1代和2代于300和400系列主板上），任意姿势皆可（刻碟、写U盘、WIM直接部署、全自动脚本）。NVme驱动出于系统稳定性和兼容性原因，不予集成，请在安装时自行加载。其他硬件驱动请自行动手解决。
+&#13;
+5. 有没有万能驱动，或者类似驱动包？
+&#13;
+没有。因为空间上放不下，做不了DVD 5的容量。也不能判定集成的驱动有没有兼容问题或者重大BUG。
+&#13;
+6. 该如何激活操作系统？
+&#13;
+请使用购买系统或电脑时，随机附带的序列号，按系统提示输入后激活。或者致电微软客服。非企业版没有KMS激活机制，你们非要装B弄成GPT的死心吧
+&#13;
+7. 运行WINDOWS UPDATE安装更新后，弹出“不兼容的硬件”提示框，该如何处理？
+&#13;
+无视之，或者安装爱好者制作的wufuc补丁，进行屏蔽。链接：https://github.com/zeffy/wufuc
+&#13;
+8. 这个镜像里有木马或者恶意程序吗？
+&#13;
+没有，但是微软偷偷藏进去的除外
+&#13;
+9. 我还有其他问题！
+&#13;
+请自行Google处理。闲暇时间，我不是微软的客服工作人员 </description>
+      <content:encoded><![CDATA[<p><b>两个路人: </b><br>
+<span>WIN7简体中文64位集成“方便使用汇总更新”系统镜像</span><br>
+<span> 本帖最后由 两个路人 于 2019-10-1 18:48 编辑 </span><br>
+<span>WINDOWS 7将在2020年1月14日正式结束技术支持，基于原SP1的ISO文件cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408整合了“方便使用汇总更新”，额外增加了IE11、WDDM1.1、EFI和USB 3.0的支持。仅仅作为方便打每月增量补丁和安装使用。不含XXX或者其他非正常手段激活补丁，应该不会被老爷砍头吧ry</span><br>
+<span>magnet:?xt=urn:btih:067c806ffc90d6b300c15b8060e4240e757d082f&tr=http%3a%2f%2fanidex.moe%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce</span><br>
+<span>具体事项写在NOTE.TXT里了，这里简单写个Q&A</span><br>
+<span>1. 什么是“方便使用汇总更新”？</span><br>
+<span>请看微软网站的解释（机翻），链接如下</span><br>
+<span>https://support.microsoft.com/zh-cn/help/3125574/convenience-rollup-update-for-windows-7-sp1-and-windows-server-2008-r2</span><br>
+<span>2. 这个镜像里包含哪些补丁？</span><br>
+<span>请看文末截图</span><br>
+<span>3. 支持UEFI启动电脑吗？</span><br>
+<span>可，但仍然必须开启CSM支持，否则启动会卡住。</span><br>
+<span>4. 可以直接在新硬件上安装吗？</span><br>
+<span>支持到目前为止存在官方USB 3.0驱动的硬件平台（如Intel 200系列主板，Ryzen 1代和2代于300和400系列主板上），任意姿势皆可（刻碟、写U盘、WIM直接部署、全自动脚本）。NVme驱动出于系统稳定性和兼容性原因，不予集成，请在安装时自行加载。其他硬件驱动请自行动手解决。</span><br>
+<span>5. 有没有万能驱动，或者类似驱动包？</span><br>
+<span>没有。因为空间上放不下，做不了DVD 5的容量。也不能判定集成的驱动有没有兼容问题或者重大BUG。</span><br>
+<span>6. 该如何激活操作系统？</span><br>
+<span>请使用购买系统或电脑时，随机附带的序列号，按系统提示输入后激活。或者致电微软客服。非企业版没有KMS激活机制，你们非要装B弄成GPT的死心吧</span><br>
+<span>7. 运行WINDOWS UPDATE安装更新后，弹出“不兼容的硬件”提示框，该如何处理？</span><br>
+<span>无视之，或者安装爱好者制作的wufuc补丁，进行屏蔽。链接：https://github.com/zeffy/wufuc</span><br>
+<span>8. 这个镜像里有木马或者恶意程序吗？</span><br>
+<span>没有，但是微软偷偷藏进去的除外</span><br>
+<span>9. 我还有其他问题！</span><br>
+<span>请自行Google处理。闲暇时间，我不是微软的客服工作人员 </span><br>
+</p><p><b>qazesz: </b><br>
+<span>kb3021917</span><br>
+<span>kb3068708</span><br>
+<span>kb3080149</span><br>
+<span>kb2952664</span><br>
+<span>kb3150513</span><br>
+<span>kb3184143</span><br>
+<span>这个方便更新肯定含有以上多数间谍更新吧</span><br>
+</p><p><b>feger: </b><br>
+<span>不是为了希望过大选 又续了一点？</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-10-2 14:46 编辑 </span><br>
+<span>qazesz 发表于 2019-10-1 19:37</span><br>
+<span>kb3021917</span><br>
+<span>kb3068708</span><br>
+<span>kb3080149</span><br>
+<span>巨硬也没遮掩，10M大的文件LIST就挂在网站上，兄台有特殊需求自行对比就是了。况且，从用瘟都死的那一刻起，你的JJ就被握在阿妹你看的白皮手里，大家只是没戳穿罢了。反正主流杀软又不报毒，将就用了  </span><br>
+</p><p><b>朽木: </b><br>
+<span>这个是官方出的吗？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>记得之前官方泄漏过一个OEM镜像，是打过补丁了，后来找不到了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857309[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>预分配磁盘空间时写0的目的是什么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>预分配磁盘空间时写0的目的是什么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:47:17 +0000</lastBuildDate>
+    <item>
+      <title>预分配磁盘空间时写0的目的是什么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1909191-1-1.html</link>
+      <description>预分配磁盘空间时写0的目的是什么？&#13;
+包含下载功能的软件很多在预分配磁盘空间时都采用或默认采用写0的策略，包括但不限于steam和一众bt下载软件。总量一大，文件写0就要写很久，硬盘还卡死。这样到底有什么好处呢？</description>
+      <content:encoded><![CDATA[<p><b>99mxw: </b><br>
+<span>预分配磁盘空间时写0的目的是什么？</span><br>
+<span>包含下载功能的软件很多在预分配磁盘空间时都采用或默认采用写0的策略，包括但不限于steam和一众bt下载软件。总量一大，文件写0就要写很久，硬盘还卡死。这样到底有什么好处呢？</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>多线程 or p2p下载？</span><br>
+<span>下载的文件不是连续的，而是分散的，就像拼图那样吗...</span><br>
+</p><p><b>计算机组成原理: </b><br>
+<span>没有好处。写0是因为安全问题。预分配的空间上可能含有之前删除过的其他文件，而这些删掉的文件可能是当前没有权限读取的。所以OS会写0防止软件读到这些数据。</span><br>
+<span>有种东西叫“稀疏文件”，可以避免写0，建议在BT软件中打开。</span><br>
+</p><p><b>qwased: </b><br>
+<span>这玩意迫害ssd很久了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>aria2设置file-allocation=trunc可以创建目的大小的空文件，而不预先写数据</span><br>
+</p><p><b>樱绰落: </b><br>
+<span>现在qBittorrent和彗星之类印象里都是秒预分配磁盘</span><br>
+</p><p><b>xtwangqu: </b><br>
+<span>樱绰落 发表于 2020-1-12 23:20</span><br>
+<span>现在qBittorrent和彗星之类印象里都是秒预分配磁盘</span><br>
+<span>表扬一下qbittorrent的写入策略，同时下十多个文件在单盘上，速度几乎没影响，能跑出30多兆下载</span><br>
+<span>以前那些都是什么垃圾啊，同时超过3个以上的种子，写入速度才几兆，硬盘就被写卡死了</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>呼和浩特: </b><br>
+<span>xtwangqu 发表于 2020-01-13 09:12:41</span><br>
+<span>表扬一下qbittorrent的写入策略，同时下十多个文件在单盘上，速度几乎没影响，能跑出30多兆下载</span><br>
+<span>以前那些 ...40mb每秒，下UHD比看得快。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1909191[0-50]</guid>
+    </item>
+  </channel>
+</rss>

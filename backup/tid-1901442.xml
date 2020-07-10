@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>笔记本不定时自动重启 有办法监控原因嘛</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>笔记本不定时自动重启 有办法监控原因嘛</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:35:53 +0000</lastBuildDate>
+    <item>
+      <title>笔记本不定时自动重启 有办法监控原因嘛[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901442-1-1.html</link>
+      <description>笔记本不定时自动重启 有办法监控原因嘛&#13;
+笔记本最近开始不定时自动重启，可能几个小时，可能刚重启又自动重启，也可能十几个小时都好好的。没有蓝屏，也没有其他错误，就像是直接断电了。但是电源和电池都好好的。比较怀疑：1.电源键/电源键软排线接触不好，自己偶尔短路，触发了长按关机2.主板快挂了3.cpu接触不好
+&#13;
+但是现在没有证据，我只能祈求问题是第一个。
+&#13;
+有没有什么软件能够记录异常关机的信息，甚至记录长按按键触发强制关机这种信息？</description>
+      <content:encoded><![CDATA[<p><b>win8: </b><br>
+<span>笔记本不定时自动重启 有办法监控原因嘛</span><br>
+<span>笔记本最近开始不定时自动重启，可能几个小时，可能刚重启又自动重启，也可能十几个小时都好好的。没有蓝屏，也没有其他错误，就像是直接断电了。但是电源和电池都好好的。比较怀疑：1.电源键/电源键软排线接触不好，自己偶尔短路，触发了长按关机2.主板快挂了3.cpu接触不好</span><br>
+<span>但是现在没有证据，我只能祈求问题是第一个。</span><br>
+<span>有没有什么软件能够记录异常关机的信息，甚至记录长按按键触发强制关机这种信息？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>先来一波拆机清灰？</span><br>
+</p><p><b>宏: </b><br>
+<span>硅脂干了CPU过热保护吧，找个温度记录软件看看</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>是叫“事件查看器”吧…Windows自带就有</span><br>
+</p><p><b>win8: </b><br>
+<span>纯情小鸭鸭 发表于 2019-12-11 22:21</span><br>
+<span>先来一波拆机清灰？</span><br>
+<span>10月底清过看过没有太多的灰</span><br>
+</p><p><b>win8: </b><br>
+<span>宏 发表于 2019-12-11 22:27</span><br>
+<span>硅脂干了CPU过热保护吧，找个温度记录软件看看</span><br>
+<span>10月清灰重新涂过硅脂的自动重启也前也没有风扇狂叫 手感温度上升的问题</span><br>
+</p><p><b>win8: </b><br>
+<span>若荼泱 发表于 2019-12-11 22:38</span><br>
+<span>是叫“事件查看器”吧…Windows自带就有</span><br>
+<span>然而并没用找到像是强制关机之类的信息。只有“上一次关机的成功状态为“false”。上一次引导的成功状态为“true”。“这种记录</span><br>
+</p><p><b>yikaa: </b><br>
+<span>我也是，玩游戏的时候有时候会断电。外接电源的时候也断过。打算明天先清下灰</span><br>
+</p><p><b>tooktang: </b><br>
+<span>我家 NAS 也这样，拿 iso 更新了最新系统好了不少，极偶尔还是会自动重启</span><br>
+</p><p><b>win8: </b><br>
+<span>真的是 按键坏了</span><br>
+<span>不过按键换得一波三折……</span><br>
+<span>刚换了按键并没有马上变好，而是反应极慢，打开任务管理器cpu占用100%但是每个程序占用都是0%，任务管理器不能做任何操作并且很快会自己死掉。随机死机，蓝屏代码driver power state failure （之前并没蓝屏）</span><br>
+<span>我尝试了bios放电/cpu重新安装/驱动重新安装/拔出网卡按键板等外设/去除多余硬盘/关闭混合睡眠等等手段没有效果</span><br>
+<span>甚至怀疑cpu调度有问题，把性能调到最低，仍然没有改善</span><br>
+<span>最后发现1个电容的脚可能是拆机时碰断了，补焊之后恢复正常。</span><br>
+<span>万幸又为穷人省了一笔小钱钱</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901442[0-50]</guid>
+    </item>
+  </channel>
+</rss>

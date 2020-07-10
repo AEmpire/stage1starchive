@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>异机还原有没有什么好的解决方案？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>异机还原有没有什么好的解决方案？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:20:02 +0000</lastBuildDate>
+    <item>
+      <title>异机还原有没有什么好的解决方案？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843823-1-1.html</link>
+      <description>异机还原有没有什么好的解决方案？&#13;
+RT，需求是把A电脑的系统备份，在B电脑上还原系统并成功开机。（A电脑是Asus牌，B电脑是Thinkpad。）目前试过两款软件：
+&#13;
+[*]Acronis True Image 2018，找的破解版，异机还原功能非常难用。官方的使用指南也没写清楚，连张图都没有。直接放弃了。
+&#13;
+[*]傲梅轻松备份，免费软件、官方提供专业版下载，虽然说支持异机还原并且使用起来很简单，但是备份A电脑系统在B电脑还原以后，无法进入系统（开机就提示修复系统）。
+&#13;
+目前还打算尝试两台电脑的系统盘直接对拷，但是两块系统盘大小不一样，猜测异机还原的成功率极低。
+&#13;
+A电脑的系统是win10 1903最新版。</description>
+      <content:encoded><![CDATA[<p><b>爵士人生: </b><br>
+<span>异机还原有没有什么好的解决方案？</span><br>
+<span>RT，需求是把A电脑的系统备份，在B电脑上还原系统并成功开机。（A电脑是Asus牌，B电脑是Thinkpad。）目前试过两款软件：</span><br>
+<span>[*]Acronis True Image 2018，找的破解版，异机还原功能非常难用。官方的使用指南也没写清楚，连张图都没有。直接放弃了。</span><br>
+<span>[*]傲梅轻松备份，免费软件、官方提供专业版下载，虽然说支持异机还原并且使用起来很简单，但是备份A电脑系统在B电脑还原以后，无法进入系统（开机就提示修复系统）。</span><br>
+<span>目前还打算尝试两台电脑的系统盘直接对拷，但是两块系统盘大小不一样，猜测异机还原的成功率极低。</span><br>
+<span>A电脑的系统是win10 1903最新版。</span><br>
+</p><p><b>az715254199: </b><br>
+<span>可以试下用MiniTool Partition Wizard Free 11，migrate os to ssd迁移系统很方便</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>sysprep</span><br>
+</p><p><b>john: </b><br>
+<span>今天误把一台台式机的硬盘装到笔记本上，直接无痛开机进去了，我还想半天什么时候在这台笔记本上装过系统</span><br>
+</p><p><b>changeek: </b><br>
+<span>下载skyIAR，傲梅分区助手在B电脑还原后，B电脑用U盘进PE，运行skyIAR修复驱动。AMD和Intel互迁都可以用此软件</span><br>
+<span>—— 来自 360 1809-A01, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>直接PE下的ghost盘对盘复制，异机还原的成功率极高，驱动开机后他自己会联网帮你搞</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>把b电脑的硬盘塞到a电脑里，用acronis</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>A机器建立一个系统自带的备份，B机器装一个1903的系统，然后把备份文件从A拷到B上再还原</span><br>
+</p><p><b>gochri: </b><br>
+<span>个人经验Acronis True Image 2018-工具-复制磁盘在自动模式下也是直接重启就到新盘启动非常好用的，找个有双m2插槽的电脑搞下就行应该</span><br>
+</p><p><b>Cobbine: </b><br>
+<span>同意楼上的说法 现在Windows驱动挺完善的了 完全可以复制完全盘数据 直接插上启动</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>昨天本来打算试试硬盘对拷，结果B电脑的硬盘拆出来发现接口和手里的硬盘盒配不上。A电脑是两个SATA接口，B电脑是单m.2接口，所以硬盘对拷也行不通。</span><br>
+<span>2楼、7楼、9楼提到的方法都是一样的 ，虽然我无法做个测试，但我认为可行。</span><br>
+<span>3楼提到的sysprep，使用场景是一块硬盘拆下来在另一台电脑上用。</span><br>
+<span>5楼、6楼提到PE，我从来没用过，也不会用，因为我装系统都是直接拿原版镜像装的。</span><br>
+<span>8楼提到的系统自带备份是指控制面板里的“备份和还原(Windows 7)”吗？这个还能用来异机还原？@adslnet0519 </span><br>
+</p><p><b>ganeid: </b><br>
+<span>A机：安装dism++ → 工具箱 → 系统备份 → 生成一个xxxxxx.wim备份文件</span><br>
+<span>B机：全新安装一个win10 → 安装dism++ →工具箱 → 系统还原 → 把xxxxxx.wim文件怼回去</span><br>
+<span>原理就是用wim备份还原，在pe下操作效果更好，win下凑合也能用</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>爵士人生 发表于 2019-7-3 13:21</span><br>
+<span>昨天本来打算试试硬盘对拷，结果B电脑的硬盘拆出来发现接口和手里的硬盘盒配不上。A电脑是两个SATA接口，B ...</span><br>
+<span>官方的说法是“可以还原在另一台运行 Windows Vista 或 Windows 7 的计算机上创建的备份中的文件。”</span><br>
+<span>但我也没这样试过，不知道bug10有没有砍掉这个feature…</span><br>
+<span>想要靠谱一点的话建议还是参考一下其他的方案</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843823[0-50]</guid>
+    </item>
+  </channel>
+</rss>

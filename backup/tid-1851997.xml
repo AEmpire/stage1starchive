@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:28:33 +0000</lastBuildDate>
+    <item>
+      <title>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851997-1-1.html</link>
+      <description>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容&#13;
+ 本帖最后由 朱卉菲 于 2019-8-7 21:13 编辑 
+
+求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容
+&#13;
+好像everything和total commander都不支持这种功能</description>
+      <content:encoded><![CDATA[<p><b>朱卉菲: </b><br>
+<span>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容</span><br>
+<span> 本帖最后由 朱卉菲 于 2019-8-7 21:13 编辑 </span><br>
+<span>求 文件搜索 工具，在多个word-docx文件内部搜寻字符串内容</span><br>
+<span>好像everything和total commander都不支持这种功能</span><br>
+</p><p><b>litel: </b><br>
+<span>Windows自带。。。</span><br>
+<span>开启索引就行。然后搜索设置里开启搜索文件内容。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Geminize: </b><br>
+<span>File Locator Pro</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>Lisylfn: </b><br>
+<span>docfetcher</span><br>
+</p><p><b>归蝶: </b><br>
+<span>上传到onedrive里面搜</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>想起了python侠</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>uhunters: </b><br>
+<span>File Locator Pro</span><br>
+</p><p><b>烟萝: </b><br>
+<span>把所有doc后缀的文件拉出来，一起放固态里。</span><br>
+<span>用docfetcher建立索引。然后检索。</span><br>
+<span>实测30G纯doc，2700 建立索引用时半个小时。</span><br>
+<span>之后就是随便查了。</span><br>
+<span>注意索引和文件夹的匹配和备份</span><br>
+</p><p><b>烟萝: </b><br>
+<span>上G的数据别用win10,卡不死你，也别用笔记本等级的u，会直接卡到假死。。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>天气姐姐 发表于 2019-8-8 10:10</span><br>
+<span>想起了python侠</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>Python读docx还好，读doc好像没现成的轮子是好用的吧。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>linjia: </b><br>
+<span>糊状物 发表于 2019-8-8 12:19</span><br>
+<span>Python读docx还好，读doc好像没现成的轮子是好用的吧。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next- ...</span><br>
+<span>读docx用py-docx</span><br>
+<span>读doc用pywin32, 局限于windows</span><br>
+<span>antiword可以读取doc格式内容</span><br>
+</p><p><b>糊状物: </b><br>
+<span>linjia 发表于 2019-8-9 00:02</span><br>
+<span>读docx用py-docx</span><br>
+<span>读doc用pywin32, 局限于windows</span><br>
+<span>antiword可以读取doc格式内容</span><br>
+<span>我都是用pywin32调用word转TXT再读的。。。只是这个大批量就不好用了，不转TXT直接读以前时不时会出现一些奇怪的乱码</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>legendlink: </b><br>
+<span> 本帖最后由 legendlink 于 2019-8-9 11:02 编辑 </span><br>
+<span>不使用正则表达式情况下, everthing中这样做:</span><br>
+<span>.docx content:"搜索内容"</span><br>
+</p><p><b>朱卉菲: </b><br>
+<span>legendlink 发表于 2019-8-9 10:58</span><br>
+<span>不使用正则表达式情况下, everthing中这样做:</span><br>
+<span>.docx content:"搜索内容"</span><br>
+<span>谢谢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851997[0-50]</guid>
+    </item>
+  </channel>
+</rss>

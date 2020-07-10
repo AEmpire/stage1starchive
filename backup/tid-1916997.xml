@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教手机有没有app可以把使用数据流量伪装成已连接wifi的？？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教手机有没有app可以把使用数据流量伪装成已连接wifi的？？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:48:01 +0000</lastBuildDate>
+    <item>
+      <title>求教手机有没有app可以把使用数据流量伪装成已连接wifi的？？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916997-1-1.html</link>
+      <description>求教手机有没有app可以把使用数据流量伪装成已连接wifi的？？&#13;
+用途是remote play遥控家里PS4玩 但是这app必须连wifi才能用 
+
+工作原因在要长期驻外地 住处这里wifi是移动的网 app里显示nat3 总是连接不上 不是报错误代码就是说我网速太慢 
+
+试过办公室里的电信网络 测的上下行网速都不如住处 连接却很顺畅 我手机也是电信卡 想用流量玩 不知道怎么操作啊</description>
+      <content:encoded><![CDATA[<p><b>Yui_hirasawa: </b><br>
+<span>求教手机有没有app可以把使用数据流量伪装成已连接wifi的？？</span><br>
+<span>用途是remote play遥控家里PS4玩 但是这app必须连wifi才能用 </span><br>
+<span>工作原因在要长期驻外地 住处这里wifi是移动的网 app里显示nat3 总是连接不上 不是报错误代码就是说我网速太慢 </span><br>
+<span>试过办公室里的电信网络 测的上下行网速都不如住处 连接却很顺畅 我手机也是电信卡 想用流量玩 不知道怎么操作啊</span><br>
+</p><p><b>lawsherman: </b><br>
+<span> 本帖最后由 lawsherman 于 2020-3-3 21:20 编辑 </span><br>
+<span>手机能root吗</span><br>
+<span>简单的办法就是再弄个手机开热点</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>2L+1，只要能开热点的手机都行，多便宜都无所谓，以前倒是有个Xposed模块是可以伪装WIFI的，但是没适配新系统应该就用不了</span><br>
+<span>我记得以前在哪里看到的，就是wifi环境下打开remote play，再用4G网去玩就没问题，总之还是绕不过连wifi这个步骤</span><br>
+</p><p><b>Yui_hirasawa: </b><br>
+<span>内森德雷克 发表于 2020-3-3 21:34</span><br>
+<span>2L+1，只要能开热点的手机都行，多便宜都无所谓，以前倒是有个Xposed模块是可以伪装WIFI的，但是没适配新系 ...</span><br>
+<span>那看来是没办法了 只好回去把尘封多年的PSV翻出来重新启用了</span><br>
+</p><p><b>继承权: </b><br>
+<span>住处的光猫和路由器是分开的么？可以先看光猫是不是路由模式，是的话就把路由器当做AP用，插LAN口关DHCP，再试试远程连接能不能用。</span><br>
+</p><p><b>Yui_hirasawa: </b><br>
+<span>继承权 发表于 2020-3-4 17:23</span><br>
+<span>住处的光猫和路由器是分开的么？可以先看光猫是不是路由模式，是的话就把路由器当做AP用，插LAN口关DHCP， ...</span><br>
+<span>租住的民房 这房间里就一台路由器 能进管理页面是DHCP模式 不知道猫在哪里 </span><br>
+<span>根据我的经验 我们这边移动宽带都是nat3 应该没解了</span><br>
+</p><p><b>继承权: </b><br>
+<span>Yui_hirasawa 发表于 2020-3-4 19:22</span><br>
+<span>租住的民房 这房间里就一台路由器 能进管理页面是DHCP模式 不知道猫在哪里 </span><br>
+<span>根据我的经验 我们这边移动宽 ...</span><br>
+<span>先试试嘛，移动也应该大范围部署CGN了，直接连光猫可能就是NAT2了</span><br>
+</p><p><b>Yui_hirasawa: </b><br>
+<span>继承权 发表于 2020-3-4 19:31</span><br>
+<span>先试试嘛，移动也应该大范围部署CGN了，直接连光猫可能就是NAT2了</span><br>
+<span>今天跟房东问了下 已经改成AP模式了 还是NAT3 无解了 我们这小地方的移动可能还没那么快跟进吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916997[0-50]</guid>
+    </item>
+  </channel>
+</rss>

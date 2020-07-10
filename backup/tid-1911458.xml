@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>G3258+MS7826玩超频</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>G3258+MS7826玩超频</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:30:15 +0000</lastBuildDate>
+    <item>
+      <title>G3258+MS7826玩超频[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911458-1-1.html</link>
+      <description>G3258+MS7826玩超频&#13;
+ 本帖最后由 rentrody 于 2020-1-30 20:36 编辑 
+
+一百块的CPU和一百六的主板折腾玩玩挺有意思。
+&#13;
+主板要刷魔改bios才能解锁完整超频选项
+&#13;
+https://www.chiphell.com/thread-1971322-1-1.html
+&#13;
+https://github.com/lunzima/hp2b36_bios_mod
+&#13;
+超到4.8G进系统就蓝屏，之前在z97a上试的也差不多，4.7G就挺稳了。用了个破四热管散热器，烤了几分钟温度最高也就60度。
+&#13;
+不过G3258用B85什么的也能超频，双核双线程搁到现在也不太够用，主要还是测试一下，之后准备上个两百块的魔改i5-5675R，或许也能超频。
+&#13;
+另外这个主板因为是惠普定制，USB3.0的接口定义不是通用的，不过找到有人弄了个定义对比图，就买了根19pin延长线，到时候试试看能不能转接成正常定义。
+&#13;
+https://h30434.www3.hp.com/t5/De ... w-Case/td-p/6015295</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>G3258+MS7826玩超频</span><br>
+<span> 本帖最后由 rentrody 于 2020-1-30 20:36 编辑 </span><br>
+<span>一百块的CPU和一百六的主板折腾玩玩挺有意思。</span><br>
+<span>主板要刷魔改bios才能解锁完整超频选项</span><br>
+<span>https://www.chiphell.com/thread-1971322-1-1.html</span><br>
+<span>https://github.com/lunzima/hp2b36_bios_mod</span><br>
+<span>超到4.8G进系统就蓝屏，之前在z97a上试的也差不多，4.7G就挺稳了。用了个破四热管散热器，烤了几分钟温度最高也就60度。</span><br>
+<span>不过G3258用B85什么的也能超频，双核双线程搁到现在也不太够用，主要还是测试一下，之后准备上个两百块的魔改i5-5675R，或许也能超频。</span><br>
+<span>另外这个主板因为是惠普定制，USB3.0的接口定义不是通用的，不过找到有人弄了个定义对比图，就买了根19pin延长线，到时候试试看能不能转接成正常定义。</span><br>
+<span>https://h30434.www3.hp.com/t5/De ... w-Case/td-p/6015295</span><br>
+</p><p><b>rentrody: </b><br>
+<span>刚到的5675r点不了，刷回原厂bios也不行，晚上回去用z97a再试试</span><br>
+</p><p><b>natt: </b><br>
+<span>6，最近也在研究打算搞个X99玩玩超频</span><br>
+<span>— from Xiaomi MI 6, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>u96: </b><br>
+<span>我的3258还没4790k体质好呢。</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span>不过重新刷魔改bios发现刷me刷不进去，再进bios一看已经是魔改版了，搞不好之前刷回原厂bios并没有成功？</span><br>
+</p><p><b>8aa8aa8aa: </b><br>
+<span>5代超频不乐观，初代14nm性能差</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2020-1-31 21:22 编辑 </span><br>
+<span>又发现个问题是主板接显卡不亮，折腾bios半天也没用。</span><br>
+<span>本来还想着可以组一套替代主力机，结果坑太多，内存也只能1600，魔改bios里的xmp选项没用……</span><br>
+<span>感觉可以考虑退货了，要么就当个办公机用算了，双核CPU超到4.7Ghz这两天用下来感觉也不差。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>5675r在z97a上成功点亮，不过并不能超频，内存也只能上到1866。</span><br>
+<span>4870hq在ms7826上能点亮，能超频。</span><br>
+<span>看别人刷魔改bios也能用独显，感觉还是主板有问题。但也不想折腾退换了，就当办公机用吧。</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>曾经幻想3258超频跑大型游戏，结果发现艹到冒烟都只有两个线程，跑看门狗1都一卡一卡的，遂加钱换了e3</span><br>
+</p><p><b>8aa8aa8aa: </b><br>
+<span>雪ノ下だんご 发表于 2020-2-1 15:19</span><br>
+<span>曾经幻想3258超频跑大型游戏，结果发现艹到冒烟都只有两个线程，跑看门狗1都一卡一卡的，遂加钱换了e3</span><br>
+<span>看评测超到冒烟战i7结果是完全不可能的</span><br>
+</p><p><b>0007h: </b><br>
+<span>玩游戏的话，G3258超到冒烟和G4560比起来怎么样</span><br>
+<span>想看菜鸡互啄</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2020-2-3 21:30 编辑 </span><br>
+<span>0007h 发表于 2020-2-3 21:00</span><br>
+<span>玩游戏的话，G3258超到冒烟和G4560比起来怎么样</span><br>
+<span>想看菜鸡互啄</span><br>
+<span>旁边正好有两台去年配的G4560，不过电源没带6pin，要测试的话还是有点麻烦。</span><br>
+<span>这几天快递都还停着，想再买一块MS7826来测试也没办法，找卖家要BIOS文件也一直没回……刚发现卖家发来时就是魔改过的BIOS，可能要刷回这个上得了5代CPU，显卡的问题说不定也能搞好。</span><br>
+</p><p><b>Lacsiess: </b><br>
+<span>农企的200GE不香吗</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-17 04:52 编辑 </span><br>
+<span>蛋疼地又去买了块另一家的，这次直接上了5675r，成功点亮，估计还是之前那块的bios被我刷坏了……</span><br>
+<span>问这个卖家要到了bios文件，等会儿先再刷一次之前那块试试。不行的话就准备上编程器刷，上个月买了个ch341刷路由器用，可惜没顺便买个烧录夹，还得再去买……昨天下单买了今天才知道可以直接用SPI接口来刷主板BIOS……正好有一把杜邦线，找找定义自己接上刷一下试试。</span><br>
+<span>这个应该跟MS-7826的定义一样 https://vdhout.nl/2018/02/hp-pav ... 0-0xx-bios-recovery</span><br>
+<span>之前买的杜邦线是2.54mm间距的，而主板SPI接口是2.0mm间距……反正烧录夹到货了就还是用夹子刷了。刷bios时有点奇怪的现象是要先拔掉bios电池，夹上后再装上bios电池才能识别到芯片。</span><br>
+<span>把原版，魔改版，另外卖家的修改版都刷了一遍，都还是用不了显卡和5675r，只能是主板本身有问题了，检查了半天发现CPU插槽背面好像掉了颗电容……已经过了一个多月了跟卖家扯起来也麻烦，要么折价卖掉要么自己用来做NAS算了。</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-20 01:02 编辑 </span><br>
+<span>USB 19pin 延长线到了，按照顶楼图里的改了一下没用……又到处找，总算翻到另一个定义图。</span><br>
+<span>按这个来做了转接线，成功用上了前面板3.0 接口。</span><br>
+<span>https://h30434.www3.hp.com/t5/De ... pinout/td-p/7444672</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-20 10:57 编辑 </span><br>
+<span>还搞了个P106 90矿卡来玩，跟转接线一块儿到货了。本来想直接装魔改驱动，但发现已经有直接用原版老驱动改注册表的方式了。</span><br>
+<span>最新更新，我在逛国外论坛的时候一个日本玩家从注册表的角度去**了P106的东西，思路清晰，比改驱动简单。</span><br>
+<span>驱动版本限于417.22及以前的驱动。</span><br>
+<span>分享如下：在win10下面P106也可以这样操作，而且可以打开nvidia控制面板！</span><br>
+<span>找到adapter type这个键，键值改4或者0 ，再把另一个键EnableMsHybrid的值改为1，然后刷新注册表，设备管理器里，把P106禁用，然后再启用，之后 NVIDIA驱动面板就可以像笔记本那样打开了并且全局设置里，可以切换集成显卡和高性能显卡。</span><br>
+<span>这样就可以做到一劳永逸，不再需要借助WIN10的DX12设置，也不需要借笔记本/部分XEON类似的U去搭配硬件，随便一个有核显的U都能去完成。</span><br>
+<span>by: 853335006 步伐稳健</span><br>
+<span>http://www.smxdiy.com/forum.php? ... uthorid=7052&page=2</span><br>
+<span>找了一下对应版本驱动下载安装，照着改好注册表禁用再启用后就直接能打开Nvidia控制面板了，不过好像没啥作用，不管怎么设置Nvidia面板选项和系统图形设置，进游戏都是直接调用P106。</span><br>
+<span>https://us.download.nvidia.cn/Wi ... ernational-whql.exe</span><br>
+<span>实际性能确实只有750ti的水平，低画质100%渲染训练靶场95fps，60hz显示器上也算够用了</span><br>
+</p><p><b>继承权: </b><br>
+<span>又碰到一个坑……Intel的漏洞补丁会导致 Haswell 和 Broadwell 平台死机蓝屏。</span><br>
+<span>之前把5675r装到z97a上烤机一整天没问题，还以为是主板兼容性问题，实际应该是因为我之前为了给四代魔改超频把z97a机器上的补丁文件 mcupdate_genuineintel.dll 给删掉了。</span><br>
+<span>出现已更正的硬件错误。</span><br>
+<span>由以下组件报告: 处理器核心</span><br>
+<span>错误源: Corrected Machine Check</span><br>
+<span>错误类型: Internal parity error</span><br>
+<span>处理器 APIC ID: 0</span><br>
+<span>该项的详细信息视图包含进一步的信息。</span><br>
+<span> Re: WHEA-Logger Processor Core Internal Parity Error on 9020</span><br>
+<span>Same Issue.Dell Precision Workstations.All 10 of them.Blue Screen on one.</span><br>
+<span>Cause:Microsoft Meltdown and Spectre Mitigations </span><br>
+<span>Here is the Workaround - </span><br>
+<span>First make a Windows System Restore Point.</span><br>
+<span>https://www.computerhope.com/issues/ch001334.htm</span><br>
+<span>Run this script (as administrator) to disable the Meltdown and Spectre Mitigations by Microsoft - reboot required.Save as a .batfile:</span><br>
+<span>https://www.manageengine.com/products/desktop-central/script-templates/others/disable-mitigations-fo...</span><br>
+<span>First Determinate if you are at risk if you disable the mitigations.Opinion:The risk is very low for the vast majority of users.</span><br>
+<span>https://www.networkworld.com/article/3245813/security/meltdown-and-spectre-exploits-cutting-through-...</span><br>
+<span>Also determine if you only need to disable only one of the two mitigations:</span><br>
+<span>https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T/KB4056892-multiple-problems-on-T440s/m-p...</span><br>
+<span>0 = Both CVE-2017-5715 and CVE-2017-5754 enabled (WHEA Errors)</span><br>
+<span>1 = CVE-2017-5754 Enabled Only (No WHEA Errors)</span><br>
+<span>2 = CVE-2017-5715 Enabled Only (WHEA Errors)</span><br>
+<span>3 =Both Disabled (No WHEA Errors)</span><br>
+<span>Note:I have not yet tested downgrading the bios and leaving the Microsoft mitigation enabled.</span><br>
+<span>To Turn it Back On, see:https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-spec...</span><br>
+<span>Also Read Carefully: https://support.microsoft.com/en-us/help/4072699/january-3-2018-windows-security-updates-and-antivir...</span><br>
+<span>-----------------------</span><br>
+<span>Intel says new firmware patches trigger reboots in Haswell and Broadwell systems:</span><br>
+<span>https://www.computerworld.com/article/3247788/computer-hardware/intel-says-new-firmware-patches-trig...</span><br>
+<span>Issue:Thousands of Event ID 19 -random blue screens.</span><br>
+<span>Event ID 19      WHEA-Logger</span><br>
+<span>A corrected hardware error has occurred.</span><br>
+<span>Reported by component: Processor Core</span><br>
+<span>Error Source: Corrected Machine Check</span><br>
+<span>Error Type: Internal parity error</span><br>
+<span>Processor APIC ID: 0</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-24 16:11 编辑 </span><br>
+<span>顺便把4代魔改CPU无限拉倍频的方法发一下吧 http://tieba.baidu.com/p/5954105282?see_lz=1</span><br>
+<span>30661(5200核显)的方法就是把系统文件里的mcupdate_genuineintel.dll删除，在Throttlestop的FIVR面板里将4 Cores Active拉到最大，然后点OK退出，再重新进入FIVR后Overclock就会+2，重复这个步骤就能无限拉倍频。我的z97a加4870hq实际使用时需要先睡眠再唤醒一次才能拉，不知道啥原理。</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>据说5200核显只能用Z97？</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-2-25 13:00 编辑 </span><br>
+<span>二丁目拓也 发表于 2020-2-25 02:58</span><br>
+<span>据说5200核显只能用Z97？</span><br>
+<span>应该是6200核显(五代CPU)只能z97，5200是四代U，从H81到Z87都能上，只是不能用技嘉的主板。</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>顺便楼主3258出吗</span><br>
+</p><p><b>继承权: </b><br>
+<span>二丁目拓也 发表于 2020-2-25 21:48</span><br>
+<span>顺便楼主3258出吗</span><br>
+<span>今天刚挂上闲鱼 https://market.m.taobao.com/app/idleFish-F2e/widle-taobao-rax/page-detail?wh_weex=true&wx_navbar_transparent=true&id=613061567146</span><br>
+</p><p><b>正义大朋友: </b><br>
+<span>200ge好像也可以超到3.9吧</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>继承权 发表于 2020-2-26 00:54</span><br>
+<span>今天刚挂上闲鱼 https://market.m.taobao.com/app/idleFish-F2e/widle-taobao-rax/page-detail?wh_weex=t ...</span><br>
+<span>我不要主板，单出么</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911458[0-50]</guid>
+    </item>
+  </channel>
+</rss>

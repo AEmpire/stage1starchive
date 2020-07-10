@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现国内都有哪些应用真的支持IPv6？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现国内都有哪些应用真的支持IPv6？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:11:53 +0000</lastBuildDate>
+    <item>
+      <title>现国内都有哪些应用真的支持IPv6？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904675-1-1.html</link>
+      <description>现国内都有哪些应用真的支持IPv6？&#13;
+找不到禁用手机IPv4的方法，就直接把地址改成了0.0.0.1，试了手机上装的各种应用，结果只有京东和移动营业厅能用，淘宝携程启动界面标着IPv6却完全用不了，不知是强行改地址的影响还是确实不支持IPv6。</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>现国内都有哪些应用真的支持IPv6？</span><br>
+<span>找不到禁用手机IPv4的方法，就直接把地址改成了0.0.0.1，试了手机上装的各种应用，结果只有京东和移动营业厅能用，淘宝携程启动界面标着IPv6却完全用不了，不知是强行改地址的影响还是确实不支持IPv6。</span><br>
+</p><p><b>chmiao: </b><br>
+<span>百度支持ipv6了。不过也挺鸡肋，搜索出来的结果大多不支持</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>搭个便车问一下，ipconfig里有ipv6地址、临时ipv6地址和本地链接ipv6地址，唯一一个ipv4地址是192.168.1.2，应该是光猫下的，但ipv6test网站说我用的还是v4，这是什么意思</span><br>
+</p><p><b>rentrody: </b><br>
+<span>零下五度猫 发表于 2019-12-22 17:27</span><br>
+<span>搭个便车问一下，ipconfig里有ipv6地址、临时ipv6地址和本地链接ipv6地址，唯一一个ipv4地址是192.168.1.2 ...</span><br>
+<span>有没有开代理？ping一下 240C::6666 试试，看能不能打开ipv6.baidu.com，还有换别的浏览器试试</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span> 本帖最后由 零下五度猫 于 2019-12-22 18:00 编辑 </span><br>
+<span>rentrody 发表于 2019-12-22 17:35</span><br>
+<span>有没有开代理？ping一下 240C::6666 试试，看能不能打开ipv6.baidu.com，还有换别的浏览器试试 ...</span><br>
+<span>确实是开了代理</span><br>
+<span>开关代理都试过了，ping不通，打不开，百度提示正在使用V4地址。https://p.sda1.dev/0/6c4b36238ea057ad22921593bd4efe2f/捕获.PNG</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>ipv6test有十多个项目，看下具体是哪些不行</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-12-22 23:50 编辑 </span><br>
+<span>零下五度猫 发表于 2019-12-22 17:27</span><br>
+<span>搭个便车问一下，ipconfig里有ipv6地址、临时ipv6地址和本地链接ipv6地址，唯一一个ipv4地址是192.168.1.2 ...</span><br>
+<span>请把ipv6test的图贴出来。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-22 18:54 编辑 </span><br>
+<span>零下五度猫 发表于 2019-12-22 17:52</span><br>
+<span>确实是开了代理</span><br>
+<span>开关代理都试过了，ping不通，打不开，百度提示正在使用V4地址。</span><br>
+<span> ...</span><br>
+<span>关闭防火墙再ping呢？</span><br>
+<span>你这已经获取到公网IPv6地址了，感觉是默认网关有点问题，直接登录192.168.1.1是进的光猫界面对吧？看能不能把光猫改桥接直接用电脑拨号。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>淘宝和移动客户端？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>依然荏苒 发表于 2019-12-22 18:55</span><br>
+<span>淘宝和移动客户端？</span><br>
+<span>淘宝我试了用不了啊，或者用其他禁用Android系统IPv4的方法再试试</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-12-22 20:10 编辑 </span><br>
+<span>想简单了好像不行</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>祖国的保护措施都搞了怎么多年，咋还不分配IPv6地址呢..... </span><br>
+</p><p><b>rentrody: </b><br>
+<span>shinjiikari 发表于 2019-12-22 23:15</span><br>
+<span>祖国的保护措施都搞了怎么多年，咋还不分配IPv6地址呢.....</span><br>
+<span>我这西南边远地区都已经能了啊，你试试用电脑接光猫拨号看能不能获取IPv6地址</span><br>
+</p><p><b>Litccc: </b><br>
+<span>shinjiikari 发表于 2019-12-22 23:15</span><br>
+<span>祖国的保护措施都搞了怎么多年，咋还不分配IPv6地址呢.....</span><br>
+<span>要自己把光猫里的v6打开才有</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>rentrody 发表于 2019-12-22 23:20</span><br>
+<span>我这西南边远地区都已经能了啊，你试试用电脑接光猫拨号看能不能获取IPv6地址 ...</span><br>
+<span>测试的结果只能浏览IPv4网站，无原生IPv6，但DNS似乎支持。ipconfig 明显就比5楼少了一大截 </span><br>
+<span>地点是湖北武汉，电信网络 </span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>Litccc 发表于 2019-12-22 23:36</span><br>
+<span>要自己把光猫里的v6打开才有</span><br>
+<span>光猫保存为“IPv4&IPv6”不行么？或者说非得要保存为“IPv6”？ </span><br>
+</p><p><b>rentrody: </b><br>
+<span>shinjiikari 发表于 2019-12-22 23:37</span><br>
+<span>测试的结果只能浏览IPv4网站，无原生IPv6，但DNS似乎支持。ipconfig 明显就比5楼少了一大截 </span><br>
+<span>地点是湖北 ...</span><br>
+<span>5楼那一大截只是其中一个有用，只要不是fe80开头的地址就行</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-12-22 23:57 编辑 </span><br>
+<span>shinjiikari 发表于 2019-12-22 23:44</span><br>
+<span>光猫保存为“IPv4&IPv6”不行么？或者说非得要保存为“IPv6”？</span><br>
+<span>保存为“ipv4&ipv6”就行。</span><br>
+<span>光猫拨号光猫能获得ipv6地址吗？</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-23 00:08 编辑 </span><br>
+<span>shinjiikari 发表于 2019-12-22 23:44</span><br>
+<span>光猫保存为“IPv4&IPv6”不行么？或者说非得要保存为“IPv6”？</span><br>
+<span>先改桥接，用电脑直接连光猫后用电脑拨号试试，光猫路由的IPv6地址下发不一定能正常使用。看这个帖子湖北电信的IPv6应该是能用的 http://www.guanggoo.com/t/41263</span><br>
+<span>我估计是目前IPv6访问国内网站还不算太流畅，很多人说开了IPv6上网变卡，所以运营商可能远程把光猫路由的IPv6功能暂时关了，但桥接拨号就不会受限了。</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>谢楼上几位大佬指点</span><br>
+<span>我捣腾了一下：电信光猫改了桥接连无线路由器newifi，路由器是开了IPv6的（native, DHCP-PD打开），我还进了光猫也改了（都桥接了，应该没用）。本机给了个没用的fe80。我想我这里是真的没分配IPv6 </span><br>
+<span>PS：打过10000，结果接线生说话毫不客气且一问三不知，只管能用就行，被我狠狠地怼了一顿</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-23 00:33 编辑 </span><br>
+<span>shinjiikari 发表于 2019-12-23 00:16</span><br>
+<span>谢楼上几位大佬指点</span><br>
+<span>我捣腾了一下：电信光猫改了桥接连无线路由器newifi，路由器是开了IPv6的（native, DH ...</span><br>
+<span>路由固件也可能有bug，还是连电脑拨号试一下比较好。你跟上面帖子里的都是武汉电信，不太可能一边有一边没。</span><br>
+<span>那帖里说用ac88u的native不行，要用passthrough，老毛子固件里好像没对应选项……</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-23 01:00 编辑 </span><br>
+<span>shinjiikari 发表于 2019-12-23 00:16</span><br>
+<span>谢楼上几位大佬指点</span><br>
+<span>我捣腾了一下：电信光猫改了桥接连无线路由器newifi，路由器是开了IPv6的（native, DH ...</span><br>
+<span>找到老毛子固件的方法了，不过这个方法是针对光猫路由的，光猫桥接的话接口可能要改成ppp0或者别的方法。</span><br>
+<span>又找到个贴子，按这里的说法老毛子固件确实不能在PPPoE拨号下实现passthough……</span><br>
+<span>https://www.right.com.cn/FORUM/thread-417967-1-1.html</span><br>
+<span>https://lowb.ren/archives/ipv6-telecom-router.html</span><br>
+<span>ipv6 passthough</span><br>
+<span>其实就是穿透的意思，在 padavan 需要添加转发。因为上面我们已经选了 PrefixDelegation （PD 模式），所以没必要用工具中继流量。上 SSH 直接输入以下命令即可。</span><br>
+<span>具体实现原理是参考这篇文章：https://qydw.blogspot.com/2016/11/padavanipv6ipv6.html</span><br>
+<span>modprobe ip6table_mangle</span><br>
+<span>ebtables -t broute -A BROUTING -p ! ipv6 -j DROP -i eth2.2</span><br>
+<span>brctl addif br0 eth2.2 </span><br>
+<span>eth2.2 是 WAN 口的网卡，需要打开 ifconfig 确认一下哪个网卡的 IP 网段属于 WAN 口的地址再改。</span><br>
+</p><p><b>qwased: </b><br>
+<span>我禁用ipv6了，不然dns污染很麻烦</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>rentrody 发表于 2019-12-23 00:37</span><br>
+<span>找到老毛子固件的方法了，不过这个方法是针对光猫路由的，光猫桥接的话接口可能要改成ppp0或者别的方法。h ...</span><br>
+<span>谢谢大佬，虽然我一时搞不定，早上问问懂得同事。</span><br>
+<span>深夜还真的麻烦您了 </span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-23 01:09 编辑 </span><br>
+<span>shinjiikari 发表于 2019-12-23 00:58</span><br>
+<span>谢谢大佬，虽然我一时搞不定，早上问问懂得同事。</span><br>
+<span>深夜还真的麻烦您了...</span><br>
+<span>总之先用电脑直连光猫试一下，台式不好连也没有笔记本的话就把光猫连在newifi路由LAN口上，电脑上应该也能拨号成功。另外我才意识到你的newifi好像不是老毛子固件？</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span> 本帖最后由 零下五度猫 于 2019-12-23 23:50 编辑 </span><br>
+<span>我傻逼了之前查教程岔到隧道适配器上去了，多谢上面的几位提醒 </span><br>
+<span>https://p.sda1.dev/0/025ec82773561cf077a4f48ce9bd8bc7/未改动设置.PNG</span><br>
+<span>https://p.sda1.dev/0/6368f3694ed92dd41cf015cb130c760b/改动后的设置.PNG</span><br>
+</p><p><b>RobinEatCorn: </b><br>
+<span>零下五度猫 发表于 2019-12-23 01:47</span><br>
+<span>我傻逼了之前查教程岔到隧道适配器上去了，多谢上面的几位提醒 </span><br>
+<span>别把ip露出来啊 </span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>RobinEatCorn 发表于 2019-12-23 21:25</span><br>
+<span>别把ip露出来啊</span><br>
+<span>多谢提醒</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904675[0-50]</guid>
+    </item>
+  </channel>
+</rss>

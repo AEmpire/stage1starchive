@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求救，寻找支持解开bitlocker的PE</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求救，寻找支持解开bitlocker的PE</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:01 +0000</lastBuildDate>
+    <item>
+      <title>求救，寻找支持解开bitlocker的PE[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903386-1-1.html</link>
+      <description>求救，寻找支持解开bitlocker的PE&#13;
+被阿三喂屎，前天更新后蓝屏。各种恢复无果之后，想着把资料拷出来直接重装系统。
+
+搞了一个优启通的pe，但是发现c盘被锁，有一个锁住的标志，貌似是bitlocker锁住的。
+
+电脑只有一个分区，我没分盘，现在好后悔。。。
+
+manage-bde 命令试过了，用-off命令显示bitlocker已关闭，我自己确实也没开启过，但是现在还是无法访问原盘。。。
+
+我对pe也不熟，问一下有没有能对付这种原盘被锁情况的pe呢？</description>
+      <content:encoded><![CDATA[<p><b>lightingstar: </b><br>
+<span>求救，寻找支持解开bitlocker的PE</span><br>
+<span>被阿三喂屎，前天更新后蓝屏。各种恢复无果之后，想着把资料拷出来直接重装系统。</span><br>
+<span>搞了一个优启通的pe，但是发现c盘被锁，有一个锁住的标志，貌似是bitlocker锁住的。</span><br>
+<span>电脑只有一个分区，我没分盘，现在好后悔。。。</span><br>
+<span>manage-bde 命令试过了，用-off命令显示bitlocker已关闭，我自己确实也没开启过，但是现在还是无法访问原盘。。。</span><br>
+<span>我对pe也不熟，问一下有没有能对付这种原盘被锁情况的pe呢？</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>这个应该是无解了 bitlock你必须用系统管理员账户登录才能解锁 或者你有那张打印密码纸吗</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>zhenniuren 发表于 2019-12-16 20:24</span><br>
+<span>这个应该是无解了 bitlock你必须用系统管理员账户登录才能解锁 或者你有那张打印密码纸吗 ...</span><br>
+<span>我在windows官网上能找到一个恢复id对应的恢复密码，超长数字的那种，不知道是不是你说的密码纸。。。</span><br>
+<span>蓝屏进高级选项运行诸如命令行或者还原点之类的操作的时候都需要输入这个的</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>也不知道为啥，没法用还原点，没法删除更新，错误日志放在文件里让你自己去看，简直智障。。。都蓝屏了，我要是能进入系统看错误日志还至于困在这里吗。。。。</span><br>
+<span>结果现在都不知道错误代码是什么。。。</span><br>
+</p><p><b>騜: </b><br>
+<span>你有密码纸的话，把硬盘转移到别的机器上做从盘然后输入密码解锁拷出资料？ 或者给你自己电脑加个别的硬盘做系统不就行了 不一定非得PE吧</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>騜 发表于 2019-12-16 20:40</span><br>
+<span>你有密码纸的话，把硬盘转移到别的机器上做从盘然后输入密码解锁拷出资料？ 或者给你自己电脑加个别的硬盘 ...</span><br>
+<span>超薄本，硬盘焊死的。。。</span><br>
+<span>不过感觉你说的第二个方法挺有意思的。</span><br>
+<span>你是说我在一个外接硬盘上做一个系统的话，就直接能在新系统里看到之前被锁的c盘上的内容了吗？</span><br>
+<span>其实我挺纳闷的，我没开bitlocker，为啥c盘被锁了呢？每次输的那串数字是为了解开什么锁呢？</span><br>
+</p><p><b>john: </b><br>
+<span>外接硬盘其实就是Windows to Go</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>john 发表于 2019-12-16 20:47</span><br>
+<span>外接硬盘其实就是Windows to Go</span><br>
+<span>搜了一下Windows to go，感觉跟pe很像啊，不知道能不能解决锁住的c盘的问题。。。</span><br>
+</p><p><b>騜: </b><br>
+<span>pe偏向轻量化维护用，是个U盘基本上都能用</span><br>
+<span>wintogo硬件要求高点而且基本上等于完整系统了</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>用管理员输入manage-bde -unlock试试？</span><br>
+</p><p><b>qazesz: </b><br>
+<span>lightingstar 发表于 2019-12-16 20:45</span><br>
+<span>超薄本，硬盘焊死的。。。</span><br>
+<span>不过感觉你说的第二个方法挺有意思的。</span><br>
+<span>你是说我在一个外接硬盘上做一个系统的 ...</span><br>
+<span>BitLocker是出厂默认打开的，密钥存在tpm里</span><br>
+</p><p><b>tokimon: </b><br>
+<span>试试刷一遍Ubuntu，再刷Windows</span><br>
+</p><p><b>asaki: </b><br>
+<span>如果你有密码纸，有U盘的话，下面这个是可以解开BitLocker的PE，直接解开放在U盘，设置U盘启动就可以了。</span><br>
+<span>进去PE之后双击硬盘就会要求输入密码。</span><br>
+<span>链接：https://pan.baidu.com/s/1UFWdO3RlyS91-5muAlBTSw </span><br>
+<span>提取码：pb22</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>asaki 发表于 2019-12-16 22:32</span><br>
+<span>如果你有密码纸，有U盘的话，下面这个是可以解开BitLocker的PE，直接解开放在U盘，设置U盘启动就可以了。</span><br>
+<span> ...</span><br>
+<span>非常感谢，我尝试一下</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>qazesz 发表于 2019-12-16 22:13</span><br>
+<span>BitLocker是出厂默认打开的，密钥存在tpm里</span><br>
+<span>正解</span><br>
+</p><p><b>http: </b><br>
+<span>有48位恢复密钥，进PE就能解</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>asaki 发表于 2019-12-16 22:32</span><br>
+<span>如果你有密码纸，有U盘的话，下面这个是可以解开BitLocker的PE，直接解开放在U盘，设置U盘启动就可以了。</span><br>
+<span> ...</span><br>
+<span>你好，不太清楚你这个pe该如何安装。。。解开之后是两个ISO文件，不论是直接继续解压缩放到u盘上，还是直接ISO放到u盘上，都没法用u盘启动。</span><br>
+<span>感觉没有用过这种pe，pe不应该是运行文件安装到u盘上的吗？</span><br>
+</p><p><b>King5268: </b><br>
+<span>lightingstar 发表于 2019-12-17 20:18</span><br>
+<span>你好，不太清楚你这个pe该如何安装。。。解开之后是两个ISO文件，不论是直接继续解压缩放到u盘上，还是直 ...</span><br>
+<span>我是来蹭PE的，顺路教你一下，你需要用 Ultraiso 之类的工具把ISO映像文件写入U盘，运行文件安装的都是把这一步集成到软件里了，其实还是得这样做。</span><br>
+</p><p><b>lightingstar: </b><br>
+<span> 本帖最后由 lightingstar 于 2019-12-18 14:22 编辑 </span><br>
+<span>King5268 发表于 2019-12-18 13:58</span><br>
+<span>我是来蹭PE的，顺路教你一下，你需要用 Ultraiso 之类的工具把ISO映像文件写入U盘，运行文件安装 ...</span><br>
+<span>好的，谢谢啦</span><br>
+<span>不过bitlocker貌似已经被我玩坏。。。我已经打算去送修了</span><br>
+</p><p><b>lollxxox: </b><br>
+<span>你关联微软账户了吗？微软账户下能找到BitLocker密码的。</span><br>
+</p><p><b>lightingstar: </b><br>
+<span>lollxxox 发表于 2019-12-19 10:55</span><br>
+<span>你关联微软账户了吗？微软账户下能找到BitLocker密码的。</span><br>
+<span>恩恩，我的密码是可以找到的，但是就是无法解开bitlocker。。。</span><br>
+<span>反正明天拿去送修，不管了</span><br>
+<span>最后骂一句</span><br>
+<span>阿三傻逼，强制更新傻逼</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>也是前几天领导联想Win10一体机更新后无法进入系统...</span><br>
+<span>尝试进入上一次正确模式，进入失败...</span><br>
+<span>那就重置系统并保存用户文件吧，进行到某个百分比不动...</span><br>
+<span>艹 艹 艹</span><br>
+</p><p><b>浔箐: </b><br>
+<span> 本帖最后由 浔箐 于 2019-12-19 12:10 编辑 </span><br>
+<span>有密钥用manage-bde -off关闭，运行完命令不显示状态，你要用manage-bde -status查看。里面有个已加密百分比，关闭之后那个数字逐渐降低，等变成0%就完全解密了。不要在解密时候关机什么的。如果意外关机了，用-resume参数试试另外用windows安装盘启动，用那个修复计算机进命令行也可以用manage-bde</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>前几天我联想的ssd换到戴尔的本子里，提示bitlocker，然后直接去微软官网登录后get到码，输入即可</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903386[0-50]</guid>
+    </item>
+  </channel>
+</rss>

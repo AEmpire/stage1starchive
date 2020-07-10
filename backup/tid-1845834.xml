@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AI学会诊断心律失常</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AI学会诊断心律失常</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:07:09 +0000</lastBuildDate>
+    <item>
+      <title>AI学会诊断心律失常[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845834-1-1.html</link>
+      <description>AI学会诊断心律失常&#13;
+近日，中国科学院深圳先进技术研究院数字所生物医学信息技术研究中心研究员李烨及其团队成员姚启航、王如心、樊小毛和刘记奎等针对可穿戴心电信号提出了一种基于时空特征融合的深度神经网络，实现了9类心律失常的自动分析诊断，有效提升了疾病自动分析的准确率。该成果以Multi-class Arrhythmia detection from 12-lead varied-length ECG using Attention-based Time-Incremental Convolutional Neural Network 为题发表在计算机人工智能期刊Information Fusion上。第一作者姚启航为东北大学中荷生物医学与信息工程学院与深圳先进院联合培养本科生，本科毕业即将进入美国佐治亚理工大学生物医学工程学院进一步深造，论文通讯作者为李烨。
+&#13;
+　　据世界卫生组织（WHO）统计，每年全球约1800万人死于心脑血管疾病，占死亡总数的31%，其中绝大多数的急性心血管事件发生在医院外，心血管事件的医院外预警十分关键。通过可穿戴心电信号自动监测分析对急性心血管事件早期预防和诊断具有重要意义。传统分析方法在处理可穿戴心电信号时通常以特征点检测为基础进行分析，其缺点是易受噪声与人体行为的干扰，分析精度低，同时忽略了不同体表位置采集的心电信号表现出的时空相关性。
+&#13;
+　　针对上述问题，研究人员提出了一种基于时空特征融合的深度网络架构，有效提取了信号的空间和时间特征，突破了传统方法对心电信号时间空间特性同时描述的不足。研究人员进一步在网络架构中引入注意力机制，对分段信号的重要性进行自适应评估，有效提高了模型对异常状态的感知，降低了其它信息的干扰。上述方法实现了以房颤、传导阻滞、早搏等为代表的9类心律失常疾病的有效判别，在2018中国生理信号挑战赛公开的9831条心电信号上（约609,522个心搏），心律失常识别精度达到82.6%（如图）。
+&#13;
+　　该研究工作得到健康大数据智能分析技术国家地方联合工程研究中心以及广东省、深圳市等的资助。
+&#13;
+http://www.cas.cn/syky/201907/W020190710539069808068.jpg 　　图：提出的方法示意图及9类心律失常识别准确率。（注：N:窦性信号；AF：房颤信号；I-AVB：1度房室传导阻滞；LBBB：左束支传导阻滞；RBBB：右束支传导阻滞；PAC：房性早搏；PVC：室性早搏；STD：ST段压低；STE：ST段抬高）</description>
+      <content:encoded><![CDATA[<p><b>ydd-319: </b><br>
+<span>AI学会诊断心律失常</span><br>
+<span>近日，中国科学院深圳先进技术研究院数字所生物医学信息技术研究中心研究员李烨及其团队成员姚启航、王如心、樊小毛和刘记奎等针对可穿戴心电信号提出了一种基于时空特征融合的深度神经网络，实现了9类心律失常的自动分析诊断，有效提升了疾病自动分析的准确率。该成果以Multi-class Arrhythmia detection from 12-lead varied-length ECG using Attention-based Time-Incremental Convolutional Neural Network 为题发表在计算机人工智能期刊Information Fusion上。第一作者姚启航为东北大学中荷生物医学与信息工程学院与深圳先进院联合培养本科生，本科毕业即将进入美国佐治亚理工大学生物医学工程学院进一步深造，论文通讯作者为李烨。</span><br>
+<span>　　据世界卫生组织（WHO）统计，每年全球约1800万人死于心脑血管疾病，占死亡总数的31%，其中绝大多数的急性心血管事件发生在医院外，心血管事件的医院外预警十分关键。通过可穿戴心电信号自动监测分析对急性心血管事件早期预防和诊断具有重要意义。传统分析方法在处理可穿戴心电信号时通常以特征点检测为基础进行分析，其缺点是易受噪声与人体行为的干扰，分析精度低，同时忽略了不同体表位置采集的心电信号表现出的时空相关性。</span><br>
+<span>　　针对上述问题，研究人员提出了一种基于时空特征融合的深度网络架构，有效提取了信号的空间和时间特征，突破了传统方法对心电信号时间空间特性同时描述的不足。研究人员进一步在网络架构中引入注意力机制，对分段信号的重要性进行自适应评估，有效提高了模型对异常状态的感知，降低了其它信息的干扰。上述方法实现了以房颤、传导阻滞、早搏等为代表的9类心律失常疾病的有效判别，在2018中国生理信号挑战赛公开的9831条心电信号上（约609,522个心搏），心律失常识别精度达到82.6%（如图）。</span><br>
+<span>　　该研究工作得到健康大数据智能分析技术国家地方联合工程研究中心以及广东省、深圳市等的资助。</span><br>
+<span>http://www.cas.cn/syky/201907/W020190710539069808068.jpg 　　图：提出的方法示意图及9类心律失常识别准确率。（注：N:窦性信号；AF：房颤信号；I-AVB：1度房室传导阻滞；LBBB：左束支传导阻滞；RBBB：右束支传导阻滞；PAC：房性早搏；PVC：室性早搏；STD：ST段压低；STE：ST段抬高）</span><br>
+</p><p><b>寻找无双: </b><br>
+<span>太好了，以后安在智能手表上，可以肆无忌惮使用超能力了</span><br>
+<span>最好智能手表可以加装除颤器功能，佩戴者猝死后可以自动启动，就像海贼王里面的艾尼路一样。</span><br>
+</p><p><b>windrarara: </b><br>
+<span>寻找无双 发表于 2019-7-11 11:16</span><br>
+<span>太好了，以后安在智能手表上，可以肆无忌惮使用超能力了</span><br>
+<span>最好智能手表可以加装除颤器功能，佩戴者猝死后可 ...</span><br>
+<span>如果出bug就画美不看了</span><br>
+</p><p><b>水山: </b><br>
+<span>寻找无双 发表于 2019-7-11 11:16</span><br>
+<span>太好了，以后安在智能手表上，可以肆无忌惮使用超能力了</span><br>
+<span>最好智能手表可以加装除颤器功能，佩戴者猝死后可 ...</span><br>
+<span>自带提醒“xxx福报已修行圆满，自动保存文件”</span><br>
+</p><p><b>谜の宝箱: </b><br>
+<span>心灵测量者世界线</span><br>
+</p><p><b>寻找无双: </b><br>
+<span>windrarara 发表于 2019-7-11 11:38</span><br>
+<span>如果出bug就画美不看了</span><br>
+<span>还有黑客。</span><br>
+</p><p><b>xvid: </b><br>
+<span>现在的心电图都是自动报告了，准确度凑合。这个也许提高了一些准确性，但82%也还是到不了基本离开人的程度</span><br>
+</p><p><b>新账户: </b><br>
+<span>ai笑话段子是怎么说来的？</span><br>
+</p><p><b>zongrumk2: </b><br>
+<span>卫健委又可以继续喊那句口号了：“你不干有的是（机器）人替你干！”</span><br>
+</p><p><b>nohope: </b><br>
+<span>想起上次那个ai钻空子贴了，不放心</span><br>
+</p><p><b>ziyo: </b><br>
+<span>炼丹炉什么整出灵魂判断只是时间问题</span><br>
+<span>—— 来自 Sony SGP771, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xiong0500: </b><br>
+<span>可是心电图机本来自己也会出报告啊</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>chronicle: </b><br>
+<span>我们医院糖尿病眼底的片子已经是AI在读了，准确率80%左右</span><br>
+<span>影像科这边很多AI公司已经过来商谈了</span><br>
+<span>所以，这块比大家想的可能更快一些</span><br>
+</p><p><b>zongrumk2: </b><br>
+<span>chronicle 发表于 2019-7-11 12:34</span><br>
+<span>我们医院糖尿病眼底的片子已经是AI在读了，准确率80%左右</span><br>
+<span>影像科这边很多AI公司已经过来商谈了</span><br>
+<span>所以，这块 ...</span><br>
+<span>贵院的影像医生怎么看这一件事？</span><br>
+</p><p><b>chronicle: </b><br>
+<span>zongrumk2 发表于 2019-7-11 12:35</span><br>
+<span>贵院的影像医生怎么看这一件事？</span><br>
+<span>我是搞临床，所以不管我们吊事</span><br>
+<span>而且如果能瞬间出报告，急诊CT就不需要半吊子水平去读了，超爽</span><br>
+<span>要说影像科的医生，一时半会儿淘汰不了，AI无非就是给你一个预判的结果，最后还是要靠人审核</span><br>
+</p><p><b>zongrumk2: </b><br>
+<span>chronicle 发表于 2019-7-11 12:40</span><br>
+<span>我是搞临床，所以不管我们吊事</span><br>
+<span>而且如果能瞬间出报告，急诊CT就不需要半吊子水平去读了，超爽</span><br>
+<span>有道理我们院估计也快了，到时候建议领导先放在急诊使用吧，看看效果。</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>zongrumk2 发表于 2019-7-11 12:35</span><br>
+<span>贵院的影像医生怎么看这一件事？</span><br>
+<span>不少医技科室阅片的只会九字真言</span><br>
+<span>如图所示，请结合临床</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845834[0-50]</guid>
+    </item>
+  </channel>
+</rss>

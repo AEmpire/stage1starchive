@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>VA解决拖影的方式——子像素切割，可以说是一目了然了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>VA解决拖影的方式——子像素切割，可以说是一目了然了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:46:47 +0000</lastBuildDate>
+    <item>
+      <title>VA解决拖影的方式——子像素切割，可以说是一目了然了[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942142-1-1.html</link>
+      <description>VA解决拖影的方式——子像素切割，可以说是一目了然了&#13;
+ 本帖最后由 Unlight 于 2020-7-9 02:19 编辑 
+
+其实一看像素结构就能大概搞明白是怎么回事了
+&#13;
+实质上就是把单个子像素给切成多（这里是6）份，一定程度上牺牲了一点亮度
+&#13;
+好吧，我自打脸了，三星G7/G9用的不是子像素切割，而是快速VA，怪不得原生对比度才1700（靠分区背光勉强救了回来）。我想当然了，看见低响应时间就以为是子像素切割，忘了还有别的技术途径。三星也确实不太可能现在还往液晶面板投新技术了。快速VA虽然也比传统VA快，但代价是跌对比度+过冲。以及一些灰阶的表现还是不如IPS。不过这也算是VA一大进步了，毕竟最高控制在了5以内。传统VA最高响应时间肯定干不到5以内…
+&#13;
+我现在对G7、G9的评价就是不玩FPS完全足够（平均3.6，最高4.5ms，普通高刷ips也就这样），但玩FPS的话建议先看看。性价比不高，可以尝鲜。</description>
+      <content:encoded><![CDATA[<p><b>Unlight: </b><br>
+<span>justevil 发表于 2020-6-18 01:07</span><br>
+<span>但是我看三星的va 4k的只有60hz， 4ms gtg是不是必须240hz才行那样还要双dp线吧，会不会又有好多兼容性问 ...</span><br>
+<span>现在三星那个4K60Hz的VA显示器都不是自家面板…</span><br>
+<span>老老实实等明年吧</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>justevil 发表于 2020-6-17 18:14</span><br>
+<span>oled不是还有个黑色拖影和暗部细节的问题吗?第二个问题我用8pro体会很深，虽然对比度无穷大，但是看暗色 ...</span><br>
+<span>对，用OLED打那些很多暗场景的游戏或者电影非常的烦，比如生化危机</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>TSST 发表于 2020-6-17 16:51</span><br>
+<span>高亮度我觉得是伪需求，在良好的使用条件下，400nits已经吊打绝大多数影厅了，如果觉得不够亮那么应该调节 ...</span><br>
+<span>高亮度对HDR是刚性需求，最好是亮度高又能暗下去的电视机，OLED暗的下去因为就是纯黑但是峰值亮度不行，VA峰值亮度够高但是绝对暗度比OLED差</span><br>
+</p><p><b>lhw369: </b><br>
+<span>liwangli1983 发表于 2020-6-17 10:26</span><br>
+<span>oled亮度上不来，也暗不下去（全黑到是没问题），还有烧屏风险，还贵的要死。而且这些硬伤是看不到解决的希 ...</span><br>
+<span>可以等qd-OLED</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>datzz 发表于 2020-6-18 01:18</span><br>
+<span>在手机上为了功耗和寿命进行了无数妥协 和那个理想中的oled完全不是一回事</span><br>
+<span>—— 来自 HUAWEI OXF ...</span><br>
+<span>手机上拖影，电视一样拖，oled的黑色底拖影比lcd还离谱</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>8400gs: </b><br>
+<span>datzz 发表于 2020-6-18 01:18</span><br>
+<span>在手机上为了功耗和寿命进行了无数妥协 和那个理想中的oled完全不是一回事</span><br>
+<span>—— 来自 HUAWEI OXF ...</span><br>
+<span>那电视上的WOLED离所谓理想中的更远了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>lhw369 发表于 2020-6-18 07:39</span><br>
+<span>可以等qd-OLED</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>qd也解决不了亮度和暗部细节的问题吧</span><br>
+</p><p><b>bruch: </b><br>
+<span>电视oled的亮度主要是为了寿命妥协，还有非要设计的贼薄。像松下那样做厚了还是能上1000尼特的。黑色低亮度的灰阶问题主要由dc调光引起，但是低亮度的pwm肯定有人受不了。</span><br>
+<span>—— 来自 blackshark SKW-A0, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>justevil: </b><br>
+<span>bruch 发表于 2020-6-18 12:45</span><br>
+<span>电视oled的亮度主要是为了寿命妥协，还有非要设计的贼薄。像松下那样做厚了还是能上1000尼特的。黑色低亮度 ...</span><br>
+<span>手机默认不就是pwm吗？我没开dc也有问题啊</span><br>
+</p><p><b>datzz: </b><br>
+<span>justevil 发表于 2020-6-18 13:16</span><br>
+<span>手机默认不就是pwm吗？我没开dc也有问题啊</span><br>
+<span>所以有很多人觉得难受强烈要求厂商出dc模式或者只买lcd手机啊 </span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>starash: </b><br>
+<span>liwangli1983 发表于 2020-6-18 09:38</span><br>
+<span>qd也解决不了亮度和暗部细节的问题吧</span><br>
+<span>QD能解决的问题有两个：因为不同颜色OLED子像素寿命不一致造成的色偏；P排。</span><br>
+<span>其他烧屏，暗部细节，OLED拖影（原理和LCD不同但更瞎眼），DC抹布屏，都解决不了。</span><br>
+<span>还会带来一些视角减弱，不过这个不太有所谓。</span><br>
+</p><p><b>Unlight: </b><br>
+<span>starash 发表于 2020-6-18 15:18</span><br>
+<span>QD能解决的问题有两个：因为不同颜色OLED子像素寿命不一致造成的色偏；P排。</span><br>
+<span>其他烧屏，暗部细节，OLED拖 ...</span><br>
+<span>对了，为什么当年CRT和等离子没什么暗部细节问题啊</span><br>
+<span>年代太久远没印象了</span><br>
+</p><p><b>starash: </b><br>
+<span>Unlight 发表于 2020-6-18 15:22</span><br>
+<span>对了，为什么当年CRT和等离子没什么暗部细节问题啊</span><br>
+<span>年代太久远没印象了 ...</span><br>
+<span>等离子和CRT的黑色都是灰底的，没有关断到开启这么一个启动电压的门槛在，低亮度灰阶自然不是问题（也不存在漏光)。</span><br>
+<span>而OLED最大的优势就是像素全关时的黑场，这个优势带来的苦果也只能全盘接受不是。</span><br>
+</p><p><b>百合豚: </b><br>
+<span>今天找显示器，发现宏碁那个et322QK C似乎是带分区控光的，应该是比明基那个ew3270u好些的吧，价格也便宜</span><br>
+</p><p><b>Unlight: </b><br>
+<span>百合豚 发表于 2020-6-23 18:58</span><br>
+<span>今天找显示器，发现宏碁那个et322QK C似乎是带分区控光的，应该是比明基那个ew3270u好些的吧，价格也便宜 ...</span><br>
+<span>都带，但这种分区背光没什么意义，分区不会多于16个，意义有限。</span><br>
+<span>如果确实便宜不少的话可以考虑，那块31.5的VA，综合最好还是3270</span><br>
+<span>宏碁这个看上去比三星那个好</span><br>
+</p><p><b>百合豚: </b><br>
+<span>Unlight 发表于 2020-6-23 19:36</span><br>
+<span>都带，但这种分区背光没什么意义，分区不会多于16个，意义有限。</span><br>
+<span>如果确实便宜不少的话可以考虑，那块31. ...</span><br>
+<span>明基那个具体好在哪里呢？宏碁确实是16个分区，但是对于32寸的显示器来说应该也算有点作用吧，而且还有我需要的USB扩展，明基那个贵一些具体贵在哪里呢？</span><br>
+</p><p><b>Unlight: </b><br>
+<span>百合豚 发表于 2020-6-23 19:38</span><br>
+<span>明基那个具体好在哪里呢？宏碁确实是16个分区，但是对于32寸的显示器来说应该也算有点作用吧，而且还有我 ...</span><br>
+<span>明基对VA屏的调校经验相对要丰富很多</span><br>
+<span>还有就是自动亮度（这个我比较喜欢，但有不少人不感冒）</span><br>
+<span>还有个不确定的就是据说宏碁那个可能没给10bit输入</span><br>
+</p><p><b>百合豚: </b><br>
+<span>Unlight 发表于 2020-06-23 20:01:56</span><br>
+<span>明基对VA屏的调校经验相对要丰富很多</span><br>
+<span>还有就是自动亮度（这个我比较喜欢，但有不少人不感冒）</span><br>
+<span>还有个不确 ...10bit应该给了，但是只有dp1.2没法HDR和10bit同时打开</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>Unlight: </b><br>
+<span>百合豚 发表于 2020-6-23 20:23</span><br>
+<span>10bit应该给了，但是只有dp1.2没法HDR和10bit同时打开</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>对，就是这个</span><br>
+<span>不过我觉得HDR意义没那么大就是了</span><br>
+</p><p><b>百合豚: </b><br>
+<span>Unlight 发表于 2020-6-23 20:56</span><br>
+<span>对，就是这个</span><br>
+<span>不过我觉得HDR意义没那么大就是了</span><br>
+<span>那感觉还行啊，看了一下低价2600，明基那个要2800还多了usb，我就蹲这个了</span><br>
+</p><p><b>Unlight: </b><br>
+<span>百合豚 发表于 2020-6-23 21:07</span><br>
+<span>那感觉还行啊，看了一下低价2600，明基那个要2800还多了usb，我就蹲这个了 ...</span><br>
+<span>如果就差200还是推荐明基的（</span><br>
+<span>不过差别都不大就是了</span><br>
+</p><p><b>uroko: </b><br>
+<span>zyhang 发表于 2020-6-16 20:45</span><br>
+<span>行吧，也没别的优点了。我只能祝落后产能早日淘汰，早日获得新生</span><br>
+<span>不是，一个显示屏，优点是显示好。</span><br>
+<span>然后你嫌弃它也没有别的优点了，祝早淘汰。</span><br>
+<span>这...你是希望显示屏能帮你洗衣服？？？</span><br>
+</p><p><b>uroko: </b><br>
+<span>zyhang 发表于 2020-6-16 20:30</span><br>
+<span>除了这个还有别的优点嘛，OLED对比度还能做到无穷大：1呢。</span><br>
+<span>你主楼里的图这种奇技淫巧都用上了，费这么 ...</span><br>
+<span>没错，对比度高就是**。</span><br>
+<span>所以oled屏幕一眼就能看出比lcd好太多。</span><br>
+<span>如果它能卖lcd差不多的价钱，那当然是支持lcd原地去世。</span><br>
+<span>还不是因为太贵+容易烧么。</span><br>
+</p><p><b>lxx4869: </b><br>
+<img src="https://p.sda1.dev/0/6b40d902d277fd6c14843e5dc25d1c3e/Screenshot_20200704-140230.jpg" title="https://p.sda1.dev/0/6b40d902d277fd6c14843e5dc25d1c3e/Screenshot_20200704-140230.jpg"><br>
+<span>号称1ms gtg还是有拖影么</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-7-9 02:21 编辑 </span><br>
+<span>lxx4869 发表于 2020-7-8 21:07</span><br>
+<span>号称1ms gtg还是有拖影么</span><br>
+<span>好吧，我自打脸了，G7/G9用的不是子像素切割，而是快速VA，怪不得原生对比度才1700（靠分区背光勉强救了回来）。我想当然了，看见低响应时间就以为是子像素切割，忘了还有别的技术途径。三星也确实不太可能现在还往液晶面板投新技术了。快速VA虽然也比传统VA快，但代价是跌对比度+过冲。以及一些灰阶的表现还是不如IPS。不过这也算是VA一大进步了，毕竟最高控制在了5以内。传统VA最高响应时间肯定干不到5以内…我现在对G7、G9的评价就是不玩FPS完全足够（平均3.6，最高4.5ms，普通高刷ips也就这样），但玩FPS的话建议先看看。性价比不高，但可以尝鲜。</span><br>
+<span>以下原文：</span><br>
+<span>VA拖影明显不是这样的，拖影的重点是“拖”…这更像是重影，而且是很清晰那种。VA拖影是黑色的，大概这样：</span><br>
+<img src="https://www.overclock.net/photopost/data/1670248/0/03/0306b89b_ufo2.jpeg" title="https://www.overclock.net/photopost/data/1670248/0/03/0306b89b_ufo2.jpeg"><br>
+<span>G9不清楚，G7实测最高响应时间大概是4ms左右，AMA开不开区别不大。这还是国内业余测评给出的数据（这家主要还是卖IPS显示器的）</span><br>
+<span>当然了，国内有些测评看看就可以了，详细数据最好看看国外的一些测评如rtings</span><br>
+</p><p><b>打不打死都不说: </b><br>
+<span>OLED出来那么多年了成本还是降不下去，而且偏色瞎眼的缺点比LCD严重，手机厂商一窝蜂搞OLED真是太艹了。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>Unlight 发表于 2020-7-8 21:16</span><br>
+<span>VA拖影明显不是这样的，拖影的重点是“拖”…这更像是重影，而且是很清晰那种。VA拖影是黑色的，大概这样 ...</span><br>
+<span>其实最实用的就是看B站高速弹幕，开个阴暗场景动画的，看白色弹幕横向高速飞过有无拖影就好了，旁边有条件的话放台27GL850做对比。</span><br>
+<span>我用下来，感觉这是最爽的实际应用到的部分</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Unlight: </b><br>
+<span>zmw_831110 发表于 2020-7-8 22:19</span><br>
+<span>其实最实用的就是看B站高速弹幕，开个阴暗场景动画的，看白色弹幕横向高速飞过有无拖影就好了，旁边有条 ...</span><br>
+<span>还有就是上下翻动网页，高刷确实爽</span><br>
+<span>GL850主要问题是nanoIPS看阴暗场景画面表现不是很好（</span><br>
+<span>（对比度原因，800：1）</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-7-8 23:26 编辑 </span><br>
+<span>Unlight 发表于 2020-7-8 22:24</span><br>
+<span>还有就是上下翻动网页，高刷确实爽</span><br>
+<span>GL850主要问题是nanoIPS看阴暗场景画面表现不是很好（</span><br>
+<span>上下其实不怎么影响，因为毕竟不是用来看的，弹幕是真的用来看的啊，所以也很实际</span><br>
+<span>对比度我是真没感觉有啥影响，否则我也不会买2台了，背光柔和，看着不累，舒服</span><br>
+<span>之前也有人在850和三星VA之间来回横跳的，850买了退，退了又买，这个级别的综合素质，响应速度完全满足需求，除了fast ips也就这款了，fast ips，华硕那款也看到有人入，然后觉得屏幕不舒服，退了，换nano ips的。</span><br>
+<span>但是，LCD嘛，总难免抽奖，我家里这台就比公司那台一致性要强</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>TSST 发表于 2020-6-16 20:23</span><br>
+<span>LCD还有什么好折腾的，甭管IPS还是VA，都请早日去世。</span><br>
+<span>想起VR反过来，OLED被LCD淘汰，因为OLED分辨率没做上去</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>https://p.sda1.dev/0/d71d061ae1dd10303e99fe7d358dc7c1/5.JPG这是Samsung CHG70延迟测试。你觉得这个标称1ms的量子点va会不会拖影？</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-7-9 02:20 编辑 </span><br>
+<span>ペチャパイ 发表于 2020-7-9 00:34</span><br>
+<span>这是Samsung CHG70延迟测试。你觉得这个标称1ms的量子点va会不会拖影？</span><br>
+<span>好吧，我自打脸了，G7/G9用的不是子像素切割，而是快速VA，怪不得原生对比度才1700（靠分区背光勉强救了回来）。我想当然了，看见低响应时间就以为是子像素切割，忘了还有别的技术途径。三星也确实不太可能现在还往液晶面板投新技术了。快速VA虽然也比传统VA快，但代价是跌对比度+过冲。以及一些灰阶的表现还是不如IPS。不过这也算是VA一大进步了，毕竟最高控制在了5以内。传统VA最高响应时间肯定干不到5以内…我现在对G7、G9的评价就是不玩FPS完全足够（平均3.6，最高4.5ms，普通高刷ips也就这样），但玩FPS的话建议先看看。性价比不高，但可以尝鲜。</span><br>
+<span>以下原文：</span><br>
+<span>240Hz大概4.16ms以内就不太会有拖影了，这次看数据基本上是合格了。（这家测评肯定不会偏向三星）就事论事，这次的G7和G9用上了不同的技术，像素点结构变动很大，表现出不一样的结果不奇怪。目前应该只有三星这三款（G7俩大小）产品用上了，下半年友达也有希望出。</span><br>
+</p><p><b>Unlight: </b><br>
+<span>zmw_831110 发表于 2020-7-8 23:21</span><br>
+<span>上下其实不怎么影响，因为毕竟不是用来看的，弹幕是真的用来看的啊，所以也很实际</span><br>
+<span>对比度我是真没感觉有 ...</span><br>
+<span>乐金感觉这两年品控下降严重，可能是不怎么在液晶上用心了。乐金大概今年下半年就推出W-OLED的显示器了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942142[50-100]</guid>
+    </item>
+    <item>
+      <title>VA解决拖影的方式——子像素切割，可以说是一目了然了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942142-1-1.html</link>
+      <description>VA解决拖影的方式——子像素切割，可以说是一目了然了&#13;
+ 本帖最后由 Unlight 于 2020-7-9 02:19 编辑 
+
+其实一看像素结构就能大概搞明白是怎么回事了
+&#13;
+实质上就是把单个子像素给切成多（这里是6）份，一定程度上牺牲了一点亮度
+&#13;
+好吧，我自打脸了，三星G7/G9用的不是子像素切割，而是快速VA，怪不得原生对比度才1700（靠分区背光勉强救了回来）。我想当然了，看见低响应时间就以为是子像素切割，忘了还有别的技术途径。三星也确实不太可能现在还往液晶面板投新技术了。快速VA虽然也比传统VA快，但代价是跌对比度+过冲。以及一些灰阶的表现还是不如IPS。不过这也算是VA一大进步了，毕竟最高控制在了5以内。传统VA最高响应时间肯定干不到5以内…
+&#13;
+我现在对G7、G9的评价就是不玩FPS完全足够（平均3.6，最高4.5ms，普通高刷ips也就这样），但玩FPS的话建议先看看。性价比不高，可以尝鲜。</description>
+      <content:encoded><![CDATA[<p><b>Unlight: </b><br>
+<span>VA解决拖影的方式——子像素切割，可以说是一目了然了</span><br>
+<span> 本帖最后由 Unlight 于 2020-7-9 02:19 编辑 </span><br>
+<span>其实一看像素结构就能大概搞明白是怎么回事了</span><br>
+<span>实质上就是把单个子像素给切成多（这里是6）份，一定程度上牺牲了一点亮度</span><br>
+<span>好吧，我自打脸了，三星G7/G9用的不是子像素切割，而是快速VA，怪不得原生对比度才1700（靠分区背光勉强救了回来）。我想当然了，看见低响应时间就以为是子像素切割，忘了还有别的技术途径。三星也确实不太可能现在还往液晶面板投新技术了。快速VA虽然也比传统VA快，但代价是跌对比度+过冲。以及一些灰阶的表现还是不如IPS。不过这也算是VA一大进步了，毕竟最高控制在了5以内。传统VA最高响应时间肯定干不到5以内…</span><br>
+<span>我现在对G7、G9的评价就是不玩FPS完全足够（平均3.6，最高4.5ms，普通高刷ips也就这样），但玩FPS的话建议先看看。性价比不高，可以尝鲜。</span><br>
+</p><p><b>zyhang: </b><br>
+<span>va屏到底好在哪？为什么还不被淘汰啊</span><br>
+</p><p><b>Unlight: </b><br>
+<span>zyhang 发表于 2020-6-16 20:17</span><br>
+<span>va屏到底好在哪？为什么还不被淘汰啊</span><br>
+<span>淘汰？电视领域都快把IPS打死了…</span><br>
+<span>VA的优点是液晶屏中最高的对比度,原生对比度可以到7000：1以上</span><br>
+</p><p><b>TSST: </b><br>
+<span>LCD还有什么好折腾的，甭管IPS还是VA，都请早日去世。</span><br>
+</p><p><b>zyhang: </b><br>
+<span>Unlight 发表于 2020-6-16 20:22</span><br>
+<span>淘汰？电视领域都快把IPS打死了…</span><br>
+<span>VA的优点是液晶屏中最高的对比度,原生对比度可以到7000：1以上 ...</span><br>
+<span>除了这个还有别的优点嘛，OLED对比度还能做到无穷大：1呢。</span><br>
+<span>你主楼里的图这种奇技淫巧都用上了，费这么大劲，把生产线卖了换新的不好</span><br>
+</p><p><b>Unlight: </b><br>
+<span>zyhang 发表于 2020-6-16 20:30</span><br>
+<span>除了这个还有别的优点嘛，OLED对比度还能做到无穷大：1呢。</span><br>
+<span>你主楼里的图这种奇技淫巧都用上了，费这么 ...</span><br>
+<span>便宜…最低端的智慧屏X1这种1699的货都能用上这种技术</span><br>
+<span>55寸4K OLED电视最便宜也要七八千了</span><br>
+</p><p><b>zyhang: </b><br>
+<span>Unlight 发表于 2020-6-16 20:37</span><br>
+<span>便宜…最低端的智慧屏X1这种1699的货都能用上这种技术</span><br>
+<span>55寸4K OLED电视最便宜也要七八千了 ...</span><br>
+<span>行吧，也没别的优点了。我只能祝落后产能早日淘汰，早日获得新生</span><br>
+</p><p><b>twy_2000: </b><br>
+<span>mva的优势是漏光少于IPS。</span><br>
+<span>dell有几个用mva的屏幕观感比ips的好多了。</span><br>
+<span>ips那漏光真的是五彩斑斓。</span><br>
+</p><p><b>macos: </b><br>
+<span>原理是什么，把像素数变多，但应该还是成组转变吧，怎么提高响应</span><br>
+</p><p><b>66666: </b><br>
+<span>zyhang 发表于 2020-6-16 20:30</span><br>
+<span>除了这个还有别的优点嘛，OLED对比度还能做到无穷大：1呢。</span><br>
+<span>你主楼里的图这种奇技淫巧都用上了，费这么 ...</span><br>
+<span>主要是现在电视热门卖点是HDR，VA高对比度比较适合HDR场合，OLED成本比VA高的太多而且还有烧屏问题</span><br>
+</p><p><b>Unlight: </b><br>
+<span>zyhang 发表于 2020-6-16 20:45</span><br>
+<span>行吧，也没别的优点了。我只能祝落后产能早日淘汰，早日获得新生</span><br>
+<span>我也希望啊，OLED肯定要比什么杂鱼LCD好得多</span><br>
+</p><p><b>yuuu: </b><br>
+<span>zyhang 发表于 2020-6-16 20:17</span><br>
+<span>va屏到底好在哪？为什么还不被淘汰啊</span><br>
+<span>要是你能号召全世界一起来抵制LCD电视，那么va才有淘汰的可能</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>肥肚肚: </b><br>
+<span>抵制有啥用 啥时候OLED卖的跟LCD一样便宜才行</span><br>
+</p><p><b>内森德雷克: </b><br>
+<span>等OLED成本降到LCD水平的时候micro led应该也来了吧</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>LCD這動不動擊穿底價的成本優勢   怕不是要再用幾十年</span><br>
+</p><p><b>bruch: </b><br>
+<span>Va有亮度和成本优势 和oled不在一个价位 不是直接竞争的</span><br>
+<span>—— 来自 blackshark SKW-A0, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>oled亮度上不来，也暗不下去（全黑到是没问题），还有烧屏风险，还贵的要死。而且这些硬伤是看不到解决的希望，未来还是指望micro led吧</span><br>
+</p><p><b>kikka: </b><br>
+<span>亮度低一点对显示器来说不是问题，反而对眼睛友好</span><br>
+<span>VA的对比度和漏光在视频播放上优势实在太大，IPS其实也过得去，只是对比过就不舒服了</span><br>
+<span>现在高刷VA的拖影是很严重，这个技术可以在显示器上实现吗？</span><br>
+</p><p><b>Unlight: </b><br>
+<span>kikka 发表于 2020-6-17 10:36</span><br>
+<span>亮度低一点对显示器来说不是问题，反而对眼睛友好</span><br>
+<span>VA的对比度和漏光在视频播放上优势实在太大，IPS其实也过 ...</span><br>
+<span>我展示那个子像素切割，就是解决拖影的技术</span><br>
+<span>现在几乎只在电视上应用，但明年应该就能在显示器上看到了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>gofbayrf 发表于 2020-6-17 10:25</span><br>
+<span>LCD這動不動擊穿底價的成本優勢   怕不是要再用幾十年</span><br>
+<span>lcd怕不是能熬死一两代oled</span><br>
+<span>—— 来自 Hisense HLTE203T, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>kikka: </b><br>
+<span>Unlight 发表于 2020-6-17 10:44</span><br>
+<span>我展示那个子像素切割，就是解决拖影的技术</span><br>
+<span>现在几乎只在电视上应用，但明年应该就能在显示器上看到了 ...</span><br>
+<span>新出的三星G7显示器水军很多，有的在吹第四代MVA拖影表现好，也有飞碟图。不知道是不是这个技术，还要等评测</span><br>
+</p><p><b>8400gs: </b><br>
+<span>zyhang 发表于 2020-6-16 20:45</span><br>
+<span>行吧，也没别的优点了。我只能祝落后产能早日淘汰，早日获得新生</span><br>
+<span>OLED这种亮度低会烧屏黑位乱七八糟的落后产能也请原地去世</span><br>
+</p><p><b>bruch: </b><br>
+<span>像素子切割对面板大小要求高 目前上市的显示器至少是43寸的才有</span><br>
+<span>—— 来自 blackshark SKW-A0, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>Unlight 发表于 2020-6-17 10:44</span><br>
+<span>我展示那个子像素切割，就是解决拖影的技术</span><br>
+<span>现在几乎只在电视上应用，但明年应该就能在显示器上看到了 ...</span><br>
+<span>电视面积大，像素大才能这么干吧，显示器30以下的，工艺上很难实现吧</span><br>
+</p><p><b>百合豚: </b><br>
+<span>那么，什么时候才能买到呢</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>真的要成va侠了</span><br>
+</p><p><b>datzz: </b><br>
+<span>搞的oled没一点问题似的</span><br>
+<span>手机a屏从偏色p排低频pwm绿屏再到后来黑不下去可视角度还不行</span><br>
+<span>a屏 伟大 下次我肯定用</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-6-17 14:52 编辑 </span><br>
+<span>liwangli1983 发表于 2020-6-17 11:05</span><br>
+<span>电视面积大，像素大才能这么干吧，显示器30以下的，工艺上很难实现吧</span><br>
+<span>目前少，应该是就三星G7安排上了。32寸2K，像素也不算太小了</span><br>
+<span>看上去还不错</span><br>
+</p><p><b>Unlight: </b><br>
+<span>kikka 发表于 2020-6-17 10:53</span><br>
+<span>新出的三星G7显示器水军很多，有的在吹第四代MVA拖影表现好，也有飞碟图。不知道是不是这个技术，还要等 ...</span><br>
+<span>国内一家的测试，如果没问题的话，传统VA干到4MS我觉得可能性不大，应该是上了子像素切割了</span><br>
+</p><p><b>Unlight: </b><br>
+<span>bruch 发表于 2020-6-17 11:00</span><br>
+<span>像素子切割对面板大小要求高 目前上市的显示器至少是43寸的才有</span><br>
+<span>—— 来自 blackshark SKW-A0, Android 10 ...</span><br>
+<span>三星那个32的应该是，楼下给了个国内测试数据。VA不上切割的话我觉得想干到4ms几乎不太可能了</span><br>
+</p><p><b>重巡羊舰: </b><br>
+<span>zyhang 发表于 2020-6-16 20:30</span><br>
+<span>除了这个还有别的优点嘛，OLED对比度还能做到无穷大：1呢。</span><br>
+<span>你主楼里的图这种奇技淫巧都用上了，费这么 ...</span><br>
+<span>主要就是……相同尺寸比ips成本低……别的都是假的，就和隔壁上smr一个道理……你用户吃屎管我厂家什么事，食屎啦！</span><br>
+</p><p><b>kikka: </b><br>
+<span>Unlight 发表于 2020-6-17 14:51</span><br>
+<span>国内一家的测试，如果没问题的话，传统VA干到4MS我觉得可能性不大，应该是上了子像素切割了</span><br>
+<span> ...</span><br>
+<span>三星G7这个贴吧上有测试实拍了，肉眼看上去是有改进的，不过不是专业测试，继续观望一下</span><br>
+<span>现在价格也是虚高，不急等个双十一</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>twy_2000 发表于 2020-6-16 20:50</span><br>
+<span>mva的优势是漏光少于IPS。</span><br>
+<span>dell有几个用mva的屏幕观感比ips的好多了。</span><br>
+<span>那几个型号？我特喜欢mva</span><br>
+</p><p><b>iuykjh222: </b><br>
+<span>OLED也请原地去世，LCD永不为奴！</span><br>
+<span>—— 來自 samsung SM-N976N, Android 10上的 S1Next-鵝版 v2.2.2.1</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-6-17 19:47 编辑 </span><br>
+<span>重巡羊舰 发表于 2020-6-17 15:13</span><br>
+<span>主要就是……相同尺寸比ips成本低……别的都是假的，就和隔壁上smr一个道理……你用户吃屎管我厂家什么事 ...</span><br>
+<span>对比度（上了子像素以后静态对比度可以达到7000：1）</span><br>
+<span>漏光控制</span><br>
+<span>而且，VA电视普遍比IPS贵</span><br>
+</p><p><b>重巡羊舰: </b><br>
+<span>Unlight 发表于 2020-6-17 19:43</span><br>
+<span>对比度（上了子像素以后静态对比度可以达到7000：1）</span><br>
+<span>漏光控制</span><br>
+<span>而且，VA电视普遍比IPS贵</span><br>
+<span>ips亡了啊！亡了啊！</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-6-17 21:08 编辑 </span><br>
+<span>重巡羊舰 发表于 2020-6-17 19:48</span><br>
+<span>ips亡了啊！亡了啊！</span><br>
+<span>ips是被活活打出市场的…十年前市场份额还在20%</span><br>
+<span>而且以LG为首的IPS电视还不是被低价产品打垮的，是被三星索尼的中高端产品打垮的，所以不能说劣币驱逐良币</span><br>
+<span>主要是IPS实在是无法满足HDR高亮度、分区背光、高对比度的需求才被淘汰的</span><br>
+<span>成本高也有一定因素，但成本高不代表性能好…反而带来了无法控制的漏光、天生低对比度的问题</span><br>
+<span>几张图就能说明白：</span><br>
+<span>LG SM9000 乐金液晶次旗舰 </span><br>
+<span>原生对比度942：1</span><br>
+<span>配合分区背光968：1</span><br>
+<img src="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-contrast-large.jpg" title="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-contrast-large.jpg"><br>
+<img src="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-uniformity-large.jpg" title="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-uniformity-large.jpg"><br>
+<img src="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-uniformity-local-dimming-large.jpg" title="https://i.rtings.com/images/reviews/tv/lg/sm9000/sm9000-uniformity-local-dimming-large.jpg"><br>
+<span>反观VA</span><br>
+<span>三星 Q70 友达面板 4K次次旗舰 </span><br>
+<span>    原生对比度7250 : 1</span><br>
+<span>            配合分区背光8056 : 1</span><br>
+<img src="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-contrast-large.jpg" title="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-contrast-large.jpg"><br>
+<img src="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-uniformity-large.jpg" title="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-uniformity-large.jpg"><br>
+<img src="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-uniformity-local-dimming-large.jpg" title="https://i.rtings.com/images/reviews/tv/samsung/q70r/q70r-uniformity-local-dimming-large.jpg"><br>
+<span>第一个级别的Q60，分区背光都没有</span><br>
+<span>对比度6292：1</span><br>
+<img src="https://i.rtings.com/images/reviews/tv/samsung/q60r/q60r-contrast-large.jpg" title="https://i.rtings.com/images/reviews/tv/samsung/q60r/q60r-contrast-large.jpg"><br>
+<img src="https://i.rtings.com/images/reviews/tv/samsung/q60r/q60r-uniformity-large.jpg" title="https://i.rtings.com/images/reviews/tv/samsung/q60r/q60r-uniformity-large.jpg"><br>
+</p><p><b>justevil: </b><br>
+<span>Unlight 发表于 2020-6-17 20:50</span><br>
+<span>ips是被活活打出市场的…十年前市场份额还在20%</span><br>
+<span>而且以LG为首的IPS电视还不是被低价产品打垮的，是被三星 ...</span><br>
+<span>那用va和oled屏是不是应该屋内关灯用呢？这样才能体现优势吧，记着rtings评测都说屋内光线暗推荐va显示器和oled电视</span><br>
+</p><p><b>waldo: </b><br>
+<span>justevil 发表于 2020-6-17 22:47</span><br>
+<span>那用va和oled屏是不是应该屋内关灯用呢？这样才能体现优势吧，记着rtings评测都说屋内光线暗推荐va显示器 ...</span><br>
+<span>不需要关灯都能看出来的，只是关灯会更明显。</span><br>
+<span>电视这种有高亮度需求的设备上，对比度的优势会比在显示器上面放大得更加彻底。</span><br>
+</p><p><b>Unlight: </b><br>
+<span>justevil 发表于 2020-6-17 22:47</span><br>
+<span>那用va和oled屏是不是应该屋内关灯用呢？这样才能体现优势吧，记着rtings评测都说屋内光线暗推荐va显示器 ...</span><br>
+<span>桌面VA显示器普遍亮度低了一点，但电视不一样</span><br>
+<span>800nits对于VA电视跟玩一样……1200也不难做到</span><br>
+<span>oled电视就低一点了，只有松下上了1000nits</span><br>
+</p><p><b>TSST: </b><br>
+<span>高亮度我觉得是伪需求，在良好的使用条件下，400nits已经吊打绝大多数影厅了，如果觉得不够亮那么应该调节环境光，而屏幕不需要这么亮。</span><br>
+</p><p><b>Unlight: </b><br>
+<span> 本帖最后由 Unlight 于 2020-6-18 00:05 编辑 </span><br>
+<span>TSST 发表于 2020-6-17 23:51</span><br>
+<span>高亮度我觉得是伪需求，在良好的使用条件下，400nits已经吊打绝大多数影厅了，如果觉得不够亮那么应该调节 ...</span><br>
+<span>400nits明显是不够…OLED的600nit、VA的800nit甚至1200nits都是有意义的</span><br>
+<span>因为距离远，而且不可能纯黑</span><br>
+<span>2D电影标准亮度14fL，折合约48nits；3D电影标准亮度7fL，折合约24nits</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>TSST 发表于 2020-6-16 20:23</span><br>
+<span>LCD还有什么好折腾的，甭管IPS还是VA，都请早日去世。</span><br>
+<span>怀疑你用没用过oled，烧屏两年就想吐</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>shiraikuroko: </b><br>
+<span>重巡羊舰 发表于 2020-6-17 15:13</span><br>
+<span>主要就是……相同尺寸比ips成本低……别的都是假的，就和隔壁上smr一个道理……你用户吃屎管我厂家什么事 ...</span><br>
+<span>va成本和ips没区别，一毛区别都没有</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>shiraikuroko 发表于 2020-6-17 23:57</span><br>
+<span>va成本和ips没区别，一毛区别都没有</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>UV2A的成本有很大的区别，但还是一坨屎</span><br>
+</p><p><b>justevil: </b><br>
+<span> 本帖最后由 justevil 于 2020-6-18 00:55 编辑 </span><br>
+<span>TSST 发表于 2020-6-17 23:51</span><br>
+<span>高亮度我觉得是伪需求，在良好的使用条件下，400nits已经吊打绝大多数影厅了，如果觉得不够亮那么应该调节 ...</span><br>
+<span>全屏长时间白色400nits已经超过hdr600标准了，能长时间全屏稳定600nits已经是hdr1000标准了。能超过50nits就吊打高端电影院了，不过西单那类三星的电影院除外。</span><br>
+</p><p><b>Unlight: </b><br>
+<span>justevil 发表于 2020-6-18 00:52</span><br>
+<span>全屏长时间白色400nits已经超过hdr600标准了，能长时间全屏稳定600nits已经是hdr1000标准了。能超过50nits ...</span><br>
+<span>三星Onyx好像是500吧，太强了</span><br>
+</p><p><b>justevil: </b><br>
+<span>Unlight 发表于 2020-6-17 23:19</span><br>
+<span>桌面VA显示器普遍亮度低了一点，但电视不一样</span><br>
+<span>800nits对于VA电视跟玩一样……1200也不难做到</span><br>
+<span>oled电视就 ...</span><br>
+<span>但是我看三星的va 4k的只有60hz， 4ms gtg是不是必须240hz才行那样还要双dp线吧，会不会又有好多兼容性问题，带鱼屏曲率又有点大，平时不玩游戏会不会很难受，比如分不清直线是不是直，而且竖向分辨率就没有能到1600的没法看电影点对点，亮度倒是有很多hdr1000的va显示器了，就是分区背光有点惨</span><br>
+</p><p><b>justevil: </b><br>
+<span>oled不是还有个黑色拖影和暗部细节的问题吗?第二个问题我用8pro体会很深，虽然对比度无穷大，但是看暗色图片体验还不如我600多对比度的ccfl的10年前的u2311h，一是亮度不调高的话暗部细节少，二是暗部总感觉不干净，过度不平滑，三是镜面屏反光太厉害，对比度无穷大也不如雾面屏加上好的环境光。看了下18年也有人说oled电视的这两个问题，不知道最新的lg cx系列解决的如何？</span><br>
+</p><p><b>datzz: </b><br>
+<span>justevil 发表于 2020-6-18 01:14</span><br>
+<span>oled不是还有个黑色拖影和暗部细节的问题吗?第二个问题我用8pro体会很深，虽然对比度无穷大，但是看暗色 ...</span><br>
+<span>在手机上为了功耗和寿命进行了无数妥协 和那个理想中的oled完全不是一回事</span><br>
+<span>—— 来自 HUAWEI OXF-AN10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942142[0-50]</guid>
+    </item>
+  </channel>
+</rss>

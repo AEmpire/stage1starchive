@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谈谈怎么藏D盘和来不及删掉D盘的做法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谈谈怎么藏D盘和来不及删掉D盘的做法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:03:50 +0000</lastBuildDate>
+    <item>
+      <title>谈谈怎么藏D盘和来不及删掉D盘的做法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1885852-1-1.html</link>
+      <description>谈谈怎么藏D盘和来不及删掉D盘的做法&#13;
+好吧，外野发这帖还算跨版了……那就老实发在PC区吧
+&#13;
+其实需求有两个：
+&#13;
+1、怎么藏D盘
+&#13;
+2、怎么及时删D盘
+&#13;
+关于1，藏D盘的办法，我的想法是：
+&#13;
+&gt; 磁盘管理里面不把硬盘挂上来，用个cmd特殊脚本在需要的时候再挂载到系统里一个临时目录里。重启之后临时目录就消失了，再要看到得再用cmd重新挂
+&#13;
+* 不过这个问题是万一走开了没有锁机器，一阵猛操作，还是会被发现？不过有真的能够藏得对付得了这种，忘记锁定，又被人操作的情况吗？
+&#13;
+关于2，怎么及时删D盘的办法，我的想法是：
+&#13;
+&gt; 写个计划任务删D盘，然后和上面1的cmd特殊脚本相关联。比如1个月里面都没有cmd特殊脚本触发，那么就彻底格掉D盘；如果有触发，那么格D盘时间继续延到下个月
+&#13;
+* 不过这个首先是，通过不挂载，已经是一定程度的隐藏了。还需要这样的格盘操作么？真有后人闲的有空把一个没挂载的盘给再挂会系统？要翘了直接遗嘱烧了硬盘（硬盘能不能烧？必须铝热剂烧？）、管他洪水滔天了？
+&#13;
+大家有什么想法思路？</description>
+      <content:encoded><![CDATA[<p><b>董卓: </b><br>
+<span>谈谈怎么藏D盘和来不及删掉D盘的做法</span><br>
+<span>好吧，外野发这帖还算跨版了……那就老实发在PC区吧</span><br>
+<span>其实需求有两个：</span><br>
+<span>1、怎么藏D盘</span><br>
+<span>2、怎么及时删D盘</span><br>
+<span>关于1，藏D盘的办法，我的想法是：</span><br>
+<span>> 磁盘管理里面不把硬盘挂上来，用个cmd特殊脚本在需要的时候再挂载到系统里一个临时目录里。重启之后临时目录就消失了，再要看到得再用cmd重新挂</span><br>
+<span>* 不过这个问题是万一走开了没有锁机器，一阵猛操作，还是会被发现？不过有真的能够藏得对付得了这种，忘记锁定，又被人操作的情况吗？</span><br>
+<span>关于2，怎么及时删D盘的办法，我的想法是：</span><br>
+<span>> 写个计划任务删D盘，然后和上面1的cmd特殊脚本相关联。比如1个月里面都没有cmd特殊脚本触发，那么就彻底格掉D盘；如果有触发，那么格D盘时间继续延到下个月</span><br>
+<span>* 不过这个首先是，通过不挂载，已经是一定程度的隐藏了。还需要这样的格盘操作么？真有后人闲的有空把一个没挂载的盘给再挂会系统？要翘了直接遗嘱烧了硬盘（硬盘能不能烧？必须铝热剂烧？）、管他洪水滔天了？</span><br>
+<span>大家有什么想法思路？</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>BitLocker</span><br>
+</p><p><b>董卓: </b><br>
+<span>gofbayrf 发表于 2019-12-6 16:33</span><br>
+<span>BitLocker</span><br>
+<span>BitLocker的解锁和锁定行为方便吗？</span><br>
+<span>在可能共用电脑的情况下逻辑是怎么样的？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>计划任务里，注销账户时/计算机闲置超过X分钟执行某批处理；登录某账户时再执行某批处理。放Linux底下就是单纯地挂载操作。Windows底下只有这么个想法，就缺一个写脚本的了.jpg</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>楼主你的问题其实很不明确。你是想防止什么样的检查？也就是说，你的目标是在哪些场景下看不到D盘的内容？</span><br>
+</p><p><b>騜: </b><br>
+<span>董卓 发表于 2019-12-6 16:37</span><br>
+<span>BitLocker的解锁和锁定行为方便吗？</span><br>
+<span>在可能共用电脑的情况下逻辑是怎么样的？ ...</span><br>
+<span>我司数据专员在用BitLocker</span><br>
+<span>我没仔细研究过，以下都是看他用过几次以后的直观体验</span><br>
+<span>逻辑就是磁盘和里面复制出来的数据都加密了，非当前账户（软件层面）无法访问 硬件层面数据安全性我不能确定，至少相对安全吧</span><br>
+<span>锁定是整个分区行为，解锁好像根据文件内容来然后有一个密匙可以打印云端多地备份</span><br>
+</p><p><b>BT有理: </b><br>
+<span>你是想做一些商业泄密的事吗</span><br>
+</p><p><b>董卓: </b><br>
+<span>騜 发表于 2019-12-6 16:44</span><br>
+<span>我司数据专员在用BitLocker</span><br>
+<span>我没仔细研究过，以下都是看他用过几次以后的直观体验</span><br>
+<span>逻辑就是磁盘和里面复 ...</span><br>
+<span>不是指数据的保密性，只是家用……操作行为方便么？</span><br>
+</p><p><b>董卓: </b><br>
+<span>卿卿雅儿 发表于 2019-12-6 16:44</span><br>
+<span>楼主你的问题其实很不明确。你是想防止什么样的检查？也就是说，你的目标是在哪些场景下看不到D盘的内容？ ...</span><br>
+<span>家里电脑不能给后人看到某些不该看到的东西而已……</span><br>
+</p><p><b>mhss: </b><br>
+<span> 本帖最后由 mhss 于 2019-12-6 17:05 编辑 </span><br>
+<span>买个移动硬盘，设为D盘，用的时候插上去，不用的时候拔下来藏起来咯越小越好藏，所以就是M2 SSD+硬盘盒</span><br>
+</p><p><b>董卓: </b><br>
+<span>mhss 发表于 2019-12-6 17:04</span><br>
+<span>买个移动硬盘，设为D盘，用的时候插上去，不用的时候拔下来藏起来咯越小越好藏，所以就是M2 SSD+硬 ...</span><br>
+<span>要插还需要弯腰动手，对懒惰肥宅来说，不如软件+键盘命令行操作</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>董卓 发表于 2019-12-6 16:51</span><br>
+<span>家里电脑不能给后人看到某些不该看到的东西而已……</span><br>
+<span>没人要看的，放心吧……</span><br>
+</p><p><b>o0typhoon0o: </b><br>
+<span>一定要磁盘么？</span><br>
+<span>cmd命令可以隐藏文件夹</span><br>
+<span>attrib +s +a +h +r e:\bak</span><br>
+<span>隐藏e盘bak目录，但可以通过路径访问</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>南小鸭: </b><br>
+<span>硬盘供电线上做个开关，物理隐藏</span><br>
+</p><p><b>albertfu: </b><br>
+<span>给小孩一台机器，管理员密码自己管，小孩用guest</span><br>
+<span>自己机器密码不告诉小孩</span><br>
+</p><p><b>Anoneko: </b><br>
+<span> 本帖最后由 Anoneko 于 2019-12-6 17:41 编辑 </span><br>
+<span>看来是好几把怪的性癖了</span><br>
+<span>只是防家人应该不难，bitlocker在安全上其实足够了，但是它不关机就不重锁，所以不太合适。所以可以考虑veracrypt，可以设置闲置重锁，还有加密卷中卷和诱饵系统这些功能，最大化保持你在家人心中形象</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>懒惰肥宅有后人么？</span><br>
+<span>反正我是全盘Bitlocker了，防查水表</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>其实可以改分区类型id，改完再改回来</span><br>
+</p><p><b>404489039: </b><br>
+<span>不分配盘符就能解决了</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>有个叫做隔离卡的东西很适合楼主</span><br>
+</p><p><b>旧游时节: </b><br>
+<span> 本帖最后由 旧游时节 于 2019-12-6 20:09 编辑 </span><br>
+<span>防小孩乱翻么，感觉还是算了吧。</span><br>
+<span>小孩子学习能力不知道高到哪里去了，你怎么藏都能给翻出来。</span><br>
+<span>还是弄个移动硬盘加密放包里吧。</span><br>
+<span>再买个USB扩展坞放桌上，插的时候也方便。</span><br>
+<span>或者租个远程服务器，东西放里面，用的时候挂上，不用的时候卸掉。不过这开支比较大，对网速要求也比较高。</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>win8: </b><br>
+<span>格式化为Windows不支持的特殊分区（比如ex2），然后用专用工具读盘</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>我是直接把盘符删掉，要用的时候再进磁盘管理添加盘符（分区只有资料没有软件适用）</span><br>
+</p><p><b>mirari: </b><br>
+<span>bitlocker万一系统挂了可得哭了</span><br>
+<span>对付看一眼的问题何须用牛刀，写个两个快捷方式一个删除驱动器号一个恢复驱动器号</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>bitlocker加密钥云同步</span><br>
+</p><p><b>7776169: </b><br>
+<span>董卓 发表于 2019-12-6 16:51</span><br>
+<span>家里电脑不能给后人看到某些不该看到的东西而已……</span><br>
+<span>放心，大家都是唯物主义者，死了就死了</span><br>
+</p><p><b>hein: </b><br>
+<span>win8 发表于 2019-12-6 20:43</span><br>
+<span>格式化为Windows不支持的特殊分区（比如ex2），然后用专用工具读盘</span><br>
+<span>我记得，貌似还能用虚拟机挂载？</span><br>
+</p><p><b>MOOMBA: </b><br>
+<span>一般不是删掉盘符或者丢进虚拟机么。。。。</span><br>
+<span>随手搭一个VM把材料全部丢进去需要的时候再启动即可</span><br>
+</p><p><b>托米: </b><br>
+<span>首先我根本没有d盘</span><br>
+<span>其次即使有 你用windows改个盘符成z盘 或者拔掉硬盘线不也是2分钟的事么?</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>mirari 发表于 2019-12-7 09:18</span><br>
+<span>bitlocker万一系统挂了可得哭了</span><br>
+<span>对付看一眼的问题何须用牛刀，写个两个快捷方式一个删除驱动器号一个恢复 ...</span><br>
+<span>bitlocker密钥登录微软账户就可以同步，你非要像传统开机密码一样每次手输也不是不行，基于TPM和fTPM的bitlocker只是免去了手输的步骤，数据都是可恢复的</span><br>
+</p><p><b>YoumuChan: </b><br>
+<span>首先把卷名改成"Recovery"，分区转成recovery分区</span><br>
+<span>管理员运行cmd->diskpart</span><br>
+<span>list disk</span><br>
+<span>sel disk 0 (数字换成对应硬盘编号)</span><br>
+<span>list par</span><br>
+<span>sel par 0 (数字换成对应分区编号)</span><br>
+<span>set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"</span><br>
+<span>gpt attributes=0x8000000000000001</span><br>
+<span>这样就变成了Recovery分区</span><br>
+<span>然后存两个txt</span><br>
+<span>select disk 0</span><br>
+<span>select partition 0</span><br>
+<span>assign letter="Z"</span><br>
+<span>exit</span><br>
+<span>select disk 0</span><br>
+<span>select partition 0</span><br>
+<span>remove letter="Z"</span><br>
+<span>exit</span><br>
+<span>要挂载就diskpart /s 前面那个文件，不然就diskpart /s 后面那个</span><br>
+</p><p><b>mirari: </b><br>
+<span>强尼高达 发表于 2019-12-7 11:23</span><br>
+<span>bitlocker密钥登录微软账户就可以同步，你非要像传统开机密码一样每次手输也不是不行，基于TPM和fTPM的bi ...</span><br>
+<span>PE里就访问不到啊，本地账户开的bitlocker系统重装后咋办</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>mirari 发表于 2019-12-7 13:23</span><br>
+<span>PE里就访问不到啊，本地账户开的bitlocker系统重装后咋办</span><br>
+<span>本地账户用bitlocker也有密钥，自己存自己备份</span><br>
+<span>数据丢不了，想恢复用WinToGo</span><br>
+</p><p><b>phyc: </b><br>
+<span>把分区删掉，要用时重建分区表</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>King5268: </b><br>
+<span>新建一个VHD虚拟硬盘文件，然后把需要保存的文件都塞VHD里，还不放心还可以用Bitlocker加密</span><br>
+</p><p><b>fireandstar: </b><br>
+<span>o0typhoon0o 发表于 2019-12-6 17:31</span><br>
+<span>一定要磁盘么？</span><br>
+<span>cmd命令可以隐藏文件夹</span><br>
+<span>attrib +s +a +h +r e:\bak</span><br>
+<span>文件夹选项-隐藏系统文件的勾去掉，再打开显示隐藏文件夹一样能看到，和直接隐藏文件夹没多大区别这个命令里对隐藏有效的也就s和h两个选项</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>董卓 发表于 2019-12-6 16:51</span><br>
+<span>家里电脑不能给后人看到某些不该看到的东西而已……</span><br>
+<span>移动硬盘搞定一切，我连C盘都不想给人看，C盘都装在移动硬盘里。</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>King5268 发表于 2019-12-7 23:21</span><br>
+<span>新建一个VHD虚拟硬盘文件，然后把需要保存的文件都塞VHD里，还不放心还可以用Bitlocker加密 ...</span><br>
+<span>可是DG可以打开VHD啊</span><br>
+</p><p><b>stmule: </b><br>
+<span>买个移动硬盘</span><br>
+<span>设个密码</span><br>
+<span>job is done</span><br>
+</p><p><b>mirari: </b><br>
+<span>强尼高达 发表于 2019-12-7 16:10</span><br>
+<span>本地账户用bitlocker也有密钥，自己存自己备份</span><br>
+<span>数据丢不了，想恢复用WinToGo</span><br>
+<span>没有备份不就是完蛋了么</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>mirari 发表于 2019-12-9 21:35</span><br>
+<span>没有备份不就是完蛋了么</span><br>
+<span>是的，完蛋了，就是不想用微软账户也就是不备份的情况下，当然你用微软账户然后账户被盗了或者密码忘记了也是一样的</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>感觉完全用不到但是收藏下……</span><br>
+</p><p><b>GMJ: </b><br>
+<span>董卓 发表于 2019-12-6 16:51</span><br>
+<span>家里电脑不能给后人看到某些不该看到的东西而已……</span><br>
+<span>我觉得你需要一个移动硬盘。。插上就有，拔下就无</span><br>
+</p><p><b>GMJ: </b><br>
+<span>买个nas吧，多建立几个账号，根据需要给不同账号设立不同权限，看到不同内容，你需要看不能给人看的东西时换个账号登录就好，</span><br>
+<span>保密账号设置不保持登录，那关掉浏览器自动退出，打开默认登录你保存的一般账号，</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1885852[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于win10的深色/浅色模式切换问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于win10的深色/浅色模式切换问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:10:05 +0000</lastBuildDate>
+    <item>
+      <title>关于win10的深色/浅色模式切换问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1946673-1-1.html</link>
+      <description>关于win10的深色/浅色模式切换问题&#13;
+ 本帖最后由 天网 于 2020-7-8 19:36 编辑 
+
+我希望切换的时候，除了改变系统界面浅色。还能记住其他外观设置
+&#13;
+深色：除了界面色变深后，顺便：切换到自定义主题色A + 标题/任务栏跟随主题色
+&#13;
+浅色：除了界面色变浅后，顺便：切换到自定义主题色.B + 标题/任务栏不跟随主题色
+&#13;
+深浅模式切换后，先前合适当前模式的主题色和任务栏颜色会在另一种模式下辣眼睛，简直打开瞎眼模式。每次一键切完深浅色，还要来来回回点再一堆其他设置才来匹配深浅色，心态要爆炸。你软怎么老是这样，什么功能囫囵吞枣做个大概，细节和可用性令人抓狂
+&#13;
+或者有没有什么其他思路能一键切换，减少重复操作</description>
+      <content:encoded><![CDATA[<p><b>天网: </b><br>
+<span>关于win10的深色/浅色模式切换问题</span><br>
+<span> 本帖最后由 天网 于 2020-7-8 19:36 编辑 </span><br>
+<span>我希望切换的时候，除了改变系统界面浅色。还能记住其他外观设置</span><br>
+<span>深色：除了界面色变深后，顺便：切换到自定义主题色A + 标题/任务栏跟随主题色</span><br>
+<span>浅色：除了界面色变浅后，顺便：切换到自定义主题色.B + 标题/任务栏不跟随主题色</span><br>
+<span>深浅模式切换后，先前合适当前模式的主题色和任务栏颜色会在另一种模式下辣眼睛，简直打开瞎眼模式。每次一键切完深浅色，还要来来回回点再一堆其他设置才来匹配深浅色，心态要爆炸。你软怎么老是这样，什么功能囫囵吞枣做个大概，细节和可用性令人抓狂</span><br>
+<span>或者有没有什么其他思路能一键切换，减少重复操作</span><br>
+</p><p><b>yst234: </b><br>
+<span>注册表里应该是有对应配置的。。可以搜一下</span><br>
+<span>或者用软件监控注册表变动也可以。。</span><br>
+</p><p><b>lzp729: </b><br>
+<span>保存成主题不行吗</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>保存两套.theme主题。</span><br>
+<span>用这东西切换。</span><br>
+<span>https://github.com/adrianmteo/Luna</span><br>
+<span>不过这东西的原本功能是利用计划任务切换深浅模式，换言之是在指定时段里进行“自动”切换，你要手动切的话，需要进软件点，一键是做不到了，需要两键。</span><br>
+<span>任务栏装个这个，把色条改成透明/模糊/fluent特效，永远告别主题颜色匹配的问题。</span><br>
+<span>https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9</span><br>
+</p><p><b>天网: </b><br>
+<span>lzp729 发表于 2020-7-8 20:59</span><br>
+<span>保存成主题不行吗</span><br>
+<span>草，妹想到、妹想到。</span><br>
+<span>主题色的问题解决了。就是还差一点，“窗口任务栏颜色是否跟随主题色”这个设置不跟随主题...不过也算少点一步了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1946673[0-50]</guid>
+    </item>
+  </channel>
+</rss>

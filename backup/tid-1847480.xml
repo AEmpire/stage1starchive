@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求win10安装完后应该做的优化推荐</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求win10安装完后应该做的优化推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:56:48 +0000</lastBuildDate>
+    <item>
+      <title>求win10安装完后应该做的优化推荐[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847480-1-1.html</link>
+      <description>求win10安装完后应该做的优化推荐&#13;
+我只知道关掉休眠省C盘容量，请问还有其他对性能更好的选择吗？
+&#13;
+主要是机子性能不强，能优则优</description>
+      <content:encoded><![CDATA[<p><b>22174559: </b><br>
+<span>求win10安装完后应该做的优化推荐</span><br>
+<span>我只知道关掉休眠省C盘容量，请问还有其他对性能更好的选择吗？</span><br>
+<span>主要是机子性能不强，能优则优</span><br>
+</p><p><b>夜语: </b><br>
+<span>下个DISM++有系统优化选项。基本上全选不会出现什么问题。</span><br>
+</p><p><b>clover9017: </b><br>
+<span>说到这个我也想问win10有可靠的指定ctrl+space输入法切换的方法吗？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>机子不强主要是关服务，把和硬盘扫描有关系的全关。有ssd可以不关</span><br>
+<span>台式机的话，再把电源管理拉到性能那档就可以了</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-7-18 00:42 编辑 </span><br>
+<span>Dism++ </span><br>
+<span>Winaero Tweaker</span><br>
+<span>Geek Uninstaller</span><br>
+<span>==</span><br>
+<span>* 禁止自动更新，改成提示下载</span><br>
+<span>* 禁止 Windows 更新传递 (Delivery Optimization->allow downloads from other pcs->off)</span><br>
+<span>* 服务 -> disable</span><br>
+<span>- Diagnostic Execution Service</span><br>
+<span>- Diagnostic Policy Service</span><br>
+<span>- Diagnostic Service Host</span><br>
+<span>- Diagnostic System Host</span><br>
+<span>* 用 Geek 把 OneDrive 卸载了，如果还是挺卡的话。一些触屏、3D UWP，windows 新闻都可以卸载，因为 UWP 应用有后台。</span><br>
+<span>* 切换输入法建议习惯 Alt+shift 或者 start+space</span><br>
+<span>* 睡眠反而有莫名其妙的唤醒，如果储存空间够，还是可以试试休眠的。* 如果习惯用 win7 的类功能，可以在文件夹选项里面开启。</span><br>
+</p><p><b>disrupt: </b><br>
+<span>clover9017 发表于 2019-7-17 20:05</span><br>
+<span>说到这个我也想问win10有可靠的指定ctrl+space输入法切换的方法吗？</span><br>
+<span>没有。。</span><br>
+<span>—— 来自 HUAWEI SEA-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xsummer: </b><br>
+<span>最好什么都不做</span><br>
+</p><p><b>macos: </b><br>
+<span>ekdc11 发表于 2019-7-18 00:33</span><br>
+<span>Dism++ </span><br>
+<span>Winaero Tweaker</span><br>
+<span>Geek Uninstaller</span><br>
+<span>后台应用有开关，关了总开关的话，从此连推送都不再有，越早关越好</span><br>
+</p><p><b>mirari: </b><br>
+<span>关休眠喷了，20年前的“优化”攻略吧，放着三室一厅不住，要躲地下室啃应急食品，挺可悲的</span><br>
+</p><p><b>zwdx: </b><br>
+<span>什么都不优化就是最好的优化</span><br>
+</p><p><b>CleanestELM2790: </b><br>
+<span>win10没啥好优化的吧，如果用的固态更不用管，管家卫士啥的看着办……最多关掉快速启动免得出莫名其妙的问题</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>j0n2: </b><br>
+<span>通过升级硬件优化</span><br>
+</p><p><b>SYJMagician: </b><br>
+<span>优化x</span><br>
+<span>负优化√</span><br>
+</p><p><b>sirlion: </b><br>
+<span>win10除了调整下打开资源管理是我的电脑而不是我的收藏，其他全部默认了，性能足够的情况下本身没有任何优化的意义</span><br>
+</p><p><b>Geminize: </b><br>
+<span>1 升级硬件</span><br>
+<span>2 升级到Win7</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>关闭快速启动，以前笔记本固态开机二十多秒，觉得不对劲，关了快了不少，最近换了个sn750，开机还是二十多秒，关了这个崽种，立刻个位数了。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>dism++不能叫优化，叫客制化，我就不喜欢添加快捷方式的时候前面给我加 快捷方式 四个字，，，用dism++可以进行诸如此类的设置</span><br>
+</p><p><b>Wuyi无疑: </b><br>
+<span>说几个工具,有没有用是不是玄学我也不知道,权当参考</span><br>
+<span>优化定制类</span><br>
+<span>Advanced SystemCare</span><br>
+<span>Cacheman</span><br>
+<span>Dism++</span><br>
+<span>Process Lasso</span><br>
+<span>MacType</span><br>
+<span>Smart Defrag</span><br>
+<span>工具类</span><br>
+<span>sspacesniffer-v1.3.0.2</span><br>
+<span>Autoruns64</span><br>
+<span>procexp64</span><br>
+<span>QTTabBar</span><br>
+</p><p><b>qwased: </b><br>
+<span>mirari 发表于 2019-7-20 09:52</span><br>
+<span>关休眠喷了，20年前的“优化”攻略吧，放着三室一厅不住，要躲地下室啃应急食品，挺可悲的 ...</span><br>
+<span>win10的休眠要么睡死要么自动唤醒，还不如关了算了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>某数字流氓(*￣m￣)</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>你选的win10版本号决定了能用多久，不需要优化</span><br>
+</p><p><b>topgamer: </b><br>
+<span>我也就是关了还原，关了自动碎片整理，改一改我的文档之类的位置</span><br>
+</p><p><b>无字仓颉: </b><br>
+<span>性能不强就升级性能</span><br>
+</p><p><b>風駿: </b><br>
+<span>先说说配置差到什么地步吧</span><br>
+<span>据我观察刚装完的系统不用优化都很快，用着用着自然会损失点</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>想办法关掉自动更新。</span><br>
+<span>你要是老电脑最好别升级WIN10，各种毛病到时候还怪你电脑老</span><br>
+</p><p><b>22174559: </b><br>
+<span>風駿 发表于 2019-7-21 16:49</span><br>
+<span>先说说配置差到什么地步吧</span><br>
+<span>据我观察刚装完的系统不用优化都很快，用着用着自然会损失点 ...</span><br>
+<span>我发现可能因为ssd的缘故，使用下来还是很舒服的，看来不用怎么搞了</span><br>
+</p><p><b>風駿: </b><br>
+<span> 本帖最后由 風駿 于 2019-7-21 18:03 编辑 </span><br>
+<span>zlzhcqblf 发表于 2019-7-21 17:19</span><br>
+<span>想办法关掉自动更新。</span><br>
+<span>你要是老电脑最好别升级WIN10，各种毛病到时候还怪你电脑老 ...</span><br>
+<span>实际上关键还是看机械硬盘还是固态硬盘，只要是固态实际体验并不会差</span><br>
+<span>如果是机械硬盘然后内存又少那体验肯定不会好</span><br>
+<span>我以前二代i5配机械硬盘，win10开机5分钟读盘都不带停，甚至15分钟后才能正常速度，怎么重装都没用，换成固态瞬间变成20秒进系统，效果拔群</span><br>
+</p><p><b>duperbigd: </b><br>
+<span>搞个ramdisk 把浏览器下载软件缓存 temp 放里面</span><br>
+</p><p><b>暗影将军爱德华: </b><br>
+<span> 本帖最后由 暗影将军爱德华 于 2019-7-23 11:21 编辑 </span><br>
+<span>以个人的老笔记本为例，台式机可以参考，安装系统版本为1803</span><br>
+<span>A.进入系统桌面前的设置</span><br>
+<span>   重装系统或者新购入电脑，在开机前会进入引导设置界面。</span><br>
+<span>   基本选择-区域中国-微软拼音-美式键盘</span><br>
+<span>一般不建议在开机引导设置界面设置互联网连接及登陆微软账号，所以这两部跳过就好。</span><br>
+<span>不连接互联网的原因是：因为联网后win10会自动更新驱动等，为了避免这种情况，所以等设置后再设置连接互联网。</span><br>
+<span>不登录微软账号的原因的是：需要进入设置后，有一些同步的选项需要在登录时候选择，如果这时候登录了就不方便进行选择。</span><br>
+<span>计算机名字更名为XXX（简单英文数字都可），不登陆账号，跳过。</span><br>
+<span>进入系统后，计算机改名为XXXX-XXPC。这种设置可以在路由器显示的时候，电脑设备名称直观，然后就是一开始的名字XXX，这样可以避免一些软件有中文字体目录下无法运行，登录微软账号以后，这时候登录又会显示账户的中文名字，增加个人电脑的辨识度。</span><br>
+<span>B.进入系统桌面未联网的设置1.显示桌面图标鼠标右键桌面空白处-个性化-主题-桌面图标设置这步操作是为了方便后续设置，如果不喜欢可以等设置后取消。2.磁盘分区-关闭系统分区保护此电脑右键-属性-系统保护-配置-关闭系统保护这步操作是为了方便使用系统自带的分区工具进行分区，使用自带分区工具此电脑右键-管理-磁盘管理3.显示设置Win101803开启了，高级缩放设置，请务必勾选。关于win10的缩放还有软件“Windows10_DPI_FIX”，具体请自行搜索。4.组策略关闭驱动更新组策略为win10专业版所有，预装win10家庭版的用户，请右键此电脑-属性-高级系统设置-硬件-设备安装设置-否-保存更改-确定。等换成专业版后再进行组策略操作。组策略关闭驱动更新以win101703为例，其他win10版本也应通用。win+r键盘组合键打开“运行”，运行框中输入“gpedit.msc ”，回车。组策略--》计算机配置--》管理模板--》win组件--》win更新----》win更新不包括驱动程序5.设置切换输入法按键Win10的1803版本中，控制面板中的”时钟、语言和区域“选项被修改为了”时钟和区域“。在“设置-时间和语言-区域和语言-高级键盘设置”里找到了“桌面语言栏”选项中依旧可以达到修改切换按键作用。6.更改新内存的保存位置-优化C盘空间a.开始-设置(齿轮)-系统-存储-更改新内容的保存位置-一个个选择后点击应用。一般应用建议装到D盘，其他请根据个人需要自行设置。b.打开此电脑(我的电脑)-在快速访问一栏-依次右键视频、图片、文档、下载、音乐五个选项的属性-位置-将其更改到非C盘即C:\Users替换为X:\。7.仔细筛选开始菜单，将自己不需要的应用请一一取消卸载，msn体育，msn财经因为不支持中国地区，所以卸载。这步主要是防止联网后加载一大批没用的商店应用。C.联网后的操作1.安装win10专业版基本操作：开始-设置-更新和安全-激活-更改密钥情况a:不允许更改密钥   一般家庭中文版会说不支持更改这时候就要使用密钥卸载命令，点击小娜-搜索cmd-右键管理员运行-复制命令slmgr.vbs/upk-回车，这时候重复上面基本操作就可以。情况b:密钥错误无法安装专业版一般默认win10专业版安装密钥为VK7JG-NPHTM-C97JM-9MPGT-3V66T，此密钥只作为安装win10专业版需要，不作为激活需要，激活操作需要自己自行找到密钥或者采取电话激活，已经登录微软账户的激活，疑难解答等 等方法。2.等待更新Win101803的更新可以说win10更新之最，判断是需要下载整个镜像后再进行安装操作，所以1803的更新花费近10个小时都不是稀奇事情。3.关闭睡眠控制面板-右上角选择类别-硬件和声音-电源选项-更改计算机睡眠时间或者选定的计划-更改计划设置-将其中的使计算机进入睡眠状态改为从不-点击下面更改高级电源设置-睡眠-在此事件后睡眠-在此事件后休眠-时间都设置为0-确定-退出。D.安装微软软件 1.登录OneDrive，并更改同步位置右键任务栏OneDrive图标-设置-账户-取消链接此电脑。然后执行重新登录设定，在输入密码后可以更改文件同步的位置。2.安装office开始-打开-我的office软件-没有此软件请去商店搜索“我的office”下载安装-点击我的账户-转到安装页面-一般直接点击安装即可。上面操作是为了已经绑定过的微软账户的自带office的安装操作，如果是刚开始买来的新笔记本电脑请参照下面第三条3.正版office2016家庭版激活教程a.在激活office之前，请确认你的win10为已经激活状态，这部操作建议在开机设置联网后系统更新升级前进行操作。开始-设置-更新和安全-激活可以查看激活状态。b.开启计算机office软件，随便在开始菜单点击word、excel、powerpoint，实在不行右键新建也可以。c.开启office组件后会弹出激活窗口-联机兑换-这台电脑包括office现在兑换密钥-向某个账户添加密钥-按操作-登录或者创建微软账号。E.简单美化替换声音：我们选择微软win10娘主题，因为是主题文件直接安装就可以了，安装后我们可以检查，右键-个性化-主题-看声音目录那里有没有变成新主题的声音。替换鼠标光标：选择《Win10Style》鼠标指针，下载压缩包，解压，右键运行文件安装，同样可以右键-个性化-主题-鼠标光标 设置使用win10Style鼠标光标。F.自带软件调教-电影电视请注意这部分的两个商店应用自能安装在系统盘刚重装完系统，还没有安装视频播放器，那么我们可以通过微软商店安装两个视频扩展插件来增加win10的电影和电视的支持格式。MPEG-2 视频扩展：MPEG-2 视频扩展增强了 Windows10，使你可以在所有的设备上播放更多类型的文件 - 无需离开你喜爱的应用。如果你有无法播放的 MP4 或 MKV视频文件，这一扩展可能将帮到你。具体来说，这一扩展使得 Windows 10 的媒体应用(如 Microsoft 电影和电视)能够播放 MPEG-1 和MPEG-2 视频。包括的编码解码器:• MPEG-1 视频编码解码器• MPEG-2 视频编码解码器MPEG-2 用于DVD，自二十一世纪初期就是数码相机的标准。如果你有扩展名为 .mpeg, .mpg, .ts, .m2ts, .mkv, 及 .avi等无法播放的视频文件，这或许能使你播放它们。请注意，这一扩展本身并不能使 DVD 在光驱播放。HEVC视频扩展这个扩展收费，这时候搜素来自设备制造商的HEVC 视频扩展，安装这个就可以了。设备制造商的 HEVC视频扩展商店地址为：https://www.microsoft.com/store/productId/9N4WGH0Z6VHQ</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>mirari 发表于 2019-7-20 09:52</span><br>
+<span>关休眠喷了，20年前的“优化”攻略吧，放着三室一厅不住，要躲地下室啃应急食品，挺可悲的 ...</span><br>
+<span>看内存大小，以及系统盘大小（SSD）</span><br>
+<span>64G内存</span><br>
+<span>系统盘512G的</span><br>
+<span>我觉得被吃掉64G作为所谓的休眠，还是非常肉疼的</span><br>
+</p><p><b>macos: </b><br>
+<span>史莱姆KING 发表于 2019-7-23 11:24</span><br>
+<span>看内存大小，以及系统盘大小（SSD）</span><br>
+<span>64G内存</span><br>
+<span>早就不会占整份内存了，以前根据设置记得是40%最低，但自动时会低于40</span><br>
+</p><p><b>沧粟: </b><br>
+<span>Intel的老平台要注意熔断和幽灵补丁导致的性能下降</span><br>
+</p><p><b>mirari: </b><br>
+<span>qwased 发表于 2019-7-20 22:35</span><br>
+<span>win10的休眠要么睡死要么自动唤醒，还不如关了算了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S ...</span><br>
+<span>睡死我还没遇到过，自动唤醒多半是设置问题。</span><br>
+<span>最容易被误操作唤醒的是网络、鼠标、计划任务。</span><br>
+<span>到设备管理器里面把网卡设置仅魔包唤醒，鼠标设置禁用唤醒，电源管理里面禁止使用唤醒定时器</span><br>
+</p><p><b>mirari: </b><br>
+<span>史莱姆KING 发表于 2019-7-23 11:24</span><br>
+<span>看内存大小，以及系统盘大小（SSD）</span><br>
+<span>64G内存</span><br>
+<span>只要空间没被占满，纠结这几十G毫无意义。</span><br>
+<span>另外，如果你真的把64G内存全占满了才休眠，这时候休眠开机立刻回到工作状态的体验明显远好于重新开机把所有程序重新开一遍。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>反正我每次给别人装系统都是先删onedrive</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>macos: </b><br>
+<span>cybernetics31 发表于 2019-7-23 16:05</span><br>
+<span>反正我每次给别人装系统都是先删onedrive</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>你可以在oobe状态没完结前，用dism++关掉runonce项或干脆删除掉安装程序</span><br>
+</p><p><b>qwased: </b><br>
+<span>mirari 发表于 2019-7-23 15:38</span><br>
+<span>睡死我还没遇到过，自动唤醒多半是设置问题。</span><br>
+<span>最容易被误操作唤醒的是网络、鼠标、计划任务。</span><br>
+<span>到设备管理 ...</span><br>
+<span>还有个唤醒之后卡顿的问题</span><br>
+<span>WIN7用休眠就很好，WIN10用了两次之后就再也不用了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847480[0-50]</guid>
+    </item>
+  </channel>
+</rss>

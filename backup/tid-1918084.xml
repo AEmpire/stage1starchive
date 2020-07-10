@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PVE能不能添加新VM然后从已经安装了镜像的一块硬盘引导？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PVE能不能添加新VM然后从已经安装了镜像的一块硬盘引导？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:36:36 +0000</lastBuildDate>
+    <item>
+      <title>PVE能不能添加新VM然后从已经安装了镜像的一块硬盘引导？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918084-1-1.html</link>
+      <description>PVE能不能添加新VM然后从已经安装了镜像的一块硬盘引导？&#13;
+手上有台机器，但是上面跑了Ubuntu，东西都在硬盘里不太能动，
+&#13;
+能不能保留原来的系统，再加一块硬盘上面跑pve，然后在pve里面部署一个新的vm 引导原来Ubuntu到PVE里面去？</description>
+      <content:encoded><![CDATA[<p><b>torpedo: </b><br>
+<span>PVE能不能添加新VM然后从已经安装了镜像的一块硬盘引导？</span><br>
+<span>手上有台机器，但是上面跑了Ubuntu，东西都在硬盘里不太能动，</span><br>
+<span>能不能保留原来的系统，再加一块硬盘上面跑pve，然后在pve里面部署一个新的vm 引导原来Ubuntu到PVE里面去？</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>把原来的系统 DD成一个镜像   </span><br>
+<span>然后PVE里面开一台新虚拟机   然后再DD回去</span><br>
+<span>第一个想到的就是这样</span><br>
+</p><p><b>不要叫水狗做主人: </b><br>
+<span>PVE可以passthrough硬盘的。我之前的Windows VM系统盘就是直接传进去的：</span><br>
+<span>scsi0: /dev/disk/by-id/ata-NT-1TB_978062290144,iothread=1,size=1000204632K,ssd=1</span><br>
+<span>参数不懂自己看文档，都有解释</span><br>
+</p><p><b>torpedo: </b><br>
+<span>不要叫水狗做主人 发表于 2020-3-11 00:17</span><br>
+<span>PVE可以passthrough硬盘的。我之前的Windows VM系统盘就是直接传进去的：</span><br>
+<span>scsi0: /dev/disk/by-id/ata-NT-1 ...</span><br>
+<span>OK，我自己的黑裙就是直通的硬盘，但是不知道能不能引导，实在不行我找块空硬盘装个系统试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918084[0-50]</guid>
+    </item>
+  </channel>
+</rss>

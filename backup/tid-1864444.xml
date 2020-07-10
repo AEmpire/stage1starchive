@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小白咨询Arctic F14风扇问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小白咨询Arctic F14风扇问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:09:44 +0000</lastBuildDate>
+    <item>
+      <title>小白咨询Arctic F14风扇问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864444-1-1.html</link>
+      <description>小白咨询Arctic F14风扇问题&#13;
+ 本帖最后由 伊克路西安 于 2019-11-8 21:26 编辑 
+
+发帖之后，我突然意识到我可以直接在微星官网和FD官网上找说明书看 
+&#13;
+看完说明书有点清楚了，FD R5的机箱前面板应该是有个风扇集线器可以接SATA供电然后一拖三的，但还是有疑问：
+&#13;
+1. F14 京东有两种 
+&#13;
+https://item.jd.com/3274964.html 
+&#13;
+https://item.jd.com/8461525.html
+&#13;
+我看了一下，一种是4PIN-4PIN线，一种是串联线，那么PWM PST这种串联线的，就是直接接主板，然后再串联一个4PIN的风扇了？
+&#13;
+AS120P送了一条1分二的线，也是主板接1分2的线，再接两个C12咯？
+&#13;
+2. 那么一个主板4pin口，通过集线器的方式，最多能给几个风扇供电呢？什么时候才需要SATA/大4D外接供电呢？ 主板是B450M 迫击炮 MAX
+&#13;
+大概懂了，要看主板4PIN接口的允许电流，可是B450M说明书正好不写
+&#13;
+https://i.loli.net/2019/11/08/vtIuEUJNanm3qRi.png
+&#13;
+看了pt12025 v3、C12、F14，额定电流在0.11A-0.2A之间，如果主板4PIN口电流是1A的话，那么感觉一分四也不需要外接供电啊 </description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>小白咨询Arctic F14风扇问题</span><br>
+<span> 本帖最后由 伊克路西安 于 2019-11-8 21:26 编辑 </span><br>
+<span>发帖之后，我突然意识到我可以直接在微星官网和FD官网上找说明书看 </span><br>
+<span>看完说明书有点清楚了，FD R5的机箱前面板应该是有个风扇集线器可以接SATA供电然后一拖三的，但还是有疑问：</span><br>
+<span>1. F14 京东有两种 </span><br>
+<span>https://item.jd.com/3274964.html </span><br>
+<span>https://item.jd.com/8461525.html</span><br>
+<span>我看了一下，一种是4PIN-4PIN线，一种是串联线，那么PWM PST这种串联线的，就是直接接主板，然后再串联一个4PIN的风扇了？</span><br>
+<span>AS120P送了一条1分二的线，也是主板接1分2的线，再接两个C12咯？</span><br>
+<span>2. 那么一个主板4pin口，通过集线器的方式，最多能给几个风扇供电呢？什么时候才需要SATA/大4D外接供电呢？ 主板是B450M 迫击炮 MAX</span><br>
+<span>大概懂了，要看主板4PIN接口的允许电流，可是B450M说明书正好不写</span><br>
+<img src="https://i.loli.net/2019/11/08/vtIuEUJNanm3qRi.png" title="https://i.loli.net/2019/11/08/vtIuEUJNanm3qRi.png"><br>
+<span>看了pt12025 v3、C12、F14，额定电流在0.11A-0.2A之间，如果主板4PIN口电流是1A的话，那么感觉一分四也不需要外接供电啊 </span><br>
+</p><p><b>baesystems: </b><br>
+<span>Arctic的风扇，除了便宜感觉毫无亮点，保修长也没什么用，几十块钱的东西。</span><br>
+</p><p><b>騜: </b><br>
+<span>AS120是一拖二接cpufan接口的</span><br>
+<span>systemfan分2种情况</span><br>
+<span>一种是机箱前面板和后面自带的几个风扇，普通一点的就是自带调速器（在机箱上）然后你只需要接sata或大4pin供电 开机就匀速转，不需要接systemfan</span><br>
+<span>还有一种高级一点的就是机箱带一个PWM的集线器（或者自备，买一个），sata只供电，有一条线专门接到主板的systemfan小4pin上面调速用，这时候主板的电流只调速不供电</span><br>
+<span>水冷方案同第二种，基本上都是串联集线然后接主板PWM</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>baesystems 发表于 2019-11-8 22:06</span><br>
+<span>Arctic的风扇，除了便宜感觉毫无亮点，保修长也没什么用，几十块钱的东西。 ...</span><br>
+<span>主要是fdb轴承最便宜的就他了。。</span><br>
+<span>听说液压容易漏油 滚珠轴噪大</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>騜 发表于 2019-11-8 22:16</span><br>
+<span>AS120是一拖二接cpufan接口的</span><br>
+<span>systemfan分2种情况</span><br>
+<span>一种是机箱前面板和后面自带的几个风扇，普通一点的就 ...</span><br>
+<span>那如果主板sysfan一分二直接接两风扇，或者像f14 pst这样串联 无外接供电能稳定用吗</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>騜: </b><br>
+<span>伊克路西安 发表于 2019-11-8 22:26</span><br>
+<span>那如果主板sysfan一分二直接接两风扇，或者像f14 pst这样串联 无外接供电能稳定用吗</span><br>
+<span>—— 来自 Sony G81 ...</span><br>
+<span>能啊 但是一分二的线或延长线也都要钱不是标配啊，而且相当于机箱内走明线了 难看</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>騜 发表于 2019-11-8 22:28</span><br>
+<span>能啊 但是一分二的线或延长线也都要钱不是标配啊，而且相当于机箱内走明线了 难看 ...</span><br>
+<span>as120p送一个 再买个f14 串联版就省下来线的钱了！</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>騜 发表于 2019-11-8 22:28</span><br>
+<span>能啊 但是一分二的线或延长线也都要钱不是标配啊，而且相当于机箱内走明线了 难看 ...</span><br>
+<span>难看这个倒是。。那买个集线器是不是还得备好多风扇延长线。。</span><br>
+<span>你用的是啥风扇啊</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>kikka: </b><br>
+<span>试试F140XP，风量大价格实惠</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>kikka 发表于 2019-11-8 22:59</span><br>
+<span>试试F140XP，风量大价格实惠</span><br>
+<span>看上去风量风压都很强 可惜是个液压轴。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>我买了，微星迫击炮，我只找到了三个接口，按了一个f14一个p14</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>lanyikt 发表于 2019-11-9 14:32</span><br>
+<span>我买了，微星迫击炮，我只找到了三个接口，按了一个f14一个p14</span><br>
+<span>要用集线器 或者买f14 pwm pst</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>伊克路西安 发表于 2019-11-9 14:41</span><br>
+<span>要用集线器 或者买f14 pwm pst</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.0-alpha ...</span><br>
+<span>小机箱安不下了，说好可以四个结果只能三个，自带的渣渣扇正好扔了。</span><br>
+</p><p><b>gaiden: </b><br>
+<span>我一般只接两个，华硕主板接三个好像启动会有点问题，可能是我错觉</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>騜 发表于 2019-11-8 22:28</span><br>
+<span>能啊 但是一分二的线或延长线也都要钱不是标配啊，而且相当于机箱内走明线了 难看 ...</span><br>
+<span>现在evga g3 650w只要494就能拿下 振华leadex g二代方案，就是风扇曲线好垃圾。。。听说噪音很大</span><br>
+<span>我自己前几天锁的hcg 750已经到了。。629，还没拆。。纠结要不要退了换evga。。</span><br>
+<span>毕竟135块钱</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>lanyikt 发表于 2019-11-9 14:42</span><br>
+<span>小机箱安不下了，说好可以四个结果只能三个，自带的渣渣扇正好扔了。</span><br>
+<span>噪音怎么样</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>伊克路西安 发表于 2019-11-9 14:45</span><br>
+<span>噪音怎么样</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.0-alpha ...</span><br>
+<span>刚开始装好没什么声音，走线不舒服又拆了重装，结果不知道哪个地方有噪声，怀疑是散热器或者f14，也可能是显卡，懒得再拆了，转速1200-1400左右，作品看起来有些廉价。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>装了三个温柔台风，感觉双滚珠轴承感觉还好吧，买了追风者的风扇集线器，机箱一起3个14，3个12。</span><br>
+<span>涡轮卡超爆感觉其他声音就还好了，不知道14厘米有没高转风扇</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sza: </b><br>
+<span> 本帖最后由 Sza 于 2019-11-9 22:35 编辑 </span><br>
+<span>lanyikt 发表于 2019-11-9 14:48</span><br>
+<span>刚开始装好没什么声音，走线不舒服又拆了重装，结果不知道哪个地方有噪声，怀疑是散热器或者f14，也可能 ...</span><br>
+<span>软件把风扇调速调低之后还有声音的话，可以看一下是不是电源风扇或是机械硬盘的声音。</span><br>
+<span>我用微星的Command Center把三把F14和一把P14调到室温200转后，深夜时的声音不可闻。转速也能在bios里设定的吧。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>打车问下功耗不高的m-atx机箱</span><br>
+<span>（9400f + 1660s，追风者mg410，尺寸190*410*385）</span><br>
+<span>机箱标配一个12cm风扇，装后面出风的话散热够吗？</span><br>
+<span>顺便求推荐几十块性价比静音风扇，不要rgb</span><br>
+</p><p><b>lanyikt: </b><br>
+<span>Sza 发表于 2019-11-9 22:32</span><br>
+<span>软件把风扇调速调低之后还有声音的话，可以看一下是不是电源风扇或是机械硬盘的声音。</span><br>
+<span>我用微星的Command...</span><br>
+<span>没有机械盘，可能是电源，毕竟用的是海啸。电脑好久没开了，以后试试。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>连楼主的主帖都看不太懂的飘过。。。</span><br>
+<span>我也看到了这款风扇，不过只能选12CM的</span><br>
+<span>另外在考虑的一个是乔思铂的日食PLUS，一个是追风者MG RGB。。。</span><br>
+<span>纠结中</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864444[0-50]</guid>
+    </item>
+  </channel>
+</rss>

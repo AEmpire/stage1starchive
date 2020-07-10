@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：新问题又来了，xbox和win10商店的下载速度几乎为零</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：新问题又来了，xbox和win10商店的下载速度几乎为零</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:48:56 +0000</lastBuildDate>
+    <item>
+      <title>求助：新问题又来了，xbox和win10商店的下载速度几乎为零[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848716-1-1.html</link>
+      <description>求助：新问题又来了，xbox和win10商店的下载速度几乎为零&#13;
+ 本帖最后由 Keynes 于 2019-7-24 10:43 编辑 
+
+rt，切换成了港服，订阅了首月十港币的xgp for pc服务
+&#13;
+成功的下好了腐烂国度2和盗贼之海，ruiner和夜勤人
+&#13;
+但是在ban掉两款游戏后想下新的游戏的时候遇到了困难，win10商店安装按钮无法点击，
+&#13;
+选择“在我的设备安装”这个选项会提示请“挑选安装位置”，
+&#13;
+而与此同时，如ori和其它部分游戏仍然能下载
+&#13;
+求问这种情况该怎么解决呀
+&#13;
+更新完1903之后问题就解决了，谢谢楼下的大大
+&#13;
+新问题又来了
+&#13;
+更新后下了xbox（beta），但是下载游戏的速度跟蜗牛一样
+&#13;
+软软这国内本土化做的也太糟糕了吧，有点难顶</description>
+      <content:encoded><![CDATA[<p><b>Keynes: </b><br>
+<span>求助：新问题又来了，xbox和win10商店的下载速度几乎为零</span><br>
+<span> 本帖最后由 Keynes 于 2019-7-24 10:43 编辑 </span><br>
+<span>rt，切换成了港服，订阅了首月十港币的xgp for pc服务</span><br>
+<span>成功的下好了腐烂国度2和盗贼之海，ruiner和夜勤人</span><br>
+<span>但是在ban掉两款游戏后想下新的游戏的时候遇到了困难，win10商店安装按钮无法点击，</span><br>
+<span>选择“在我的设备安装”这个选项会提示请“挑选安装位置”，</span><br>
+<span>而与此同时，如ori和其它部分游戏仍然能下载</span><br>
+<span>求问这种情况该怎么解决呀</span><br>
+<span>更新完1903之后问题就解决了，谢谢楼下的大大</span><br>
+<span>新问题又来了</span><br>
+<span>更新后下了xbox（beta），但是下载游戏的速度跟蜗牛一样</span><br>
+<span>软软这国内本土化做的也太糟糕了吧，有点难顶</span><br>
+</p><p><b>njjwl2005: </b><br>
+<span>可能是windows版本的问题？</span><br>
+</p><p><b>niuniugood: </b><br>
+<span>应该是版本问题。可以点进系统要求查看。建议升级到最新版一步到位。</span><br>
+</p><p><b>redsibyl: </b><br>
+<span>。。。。建议用xbox（beta）。。。。</span><br>
+</p><p><b>qianoooo: </b><br>
+<span>升到新版windows一步到位</span><br>
+</p><p><b>honjow: </b><br>
+<span>意思是这个游戏还没提供pc的xgp？选位置其实意思是选设备</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>大江户战士: </b><br>
+<span>看描述是设备未绑定Microsoft账号，可以在设置>更新和安全>激活 里查看并关联Microsoft账号</span><br>
+</p><p><b>潘金榴莲: </b><br>
+<span>不过确实很多游戏只有Xbox版没有pc版</span><br>
+</p><p><b>丹德里恩: </b><br>
+<span>系统升到1903试试？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>ouhloo: </b><br>
+<span>@维克多_Yip:经过晚上多次测试，是微软验证服务器packages.xboxlive.com出了问题，每次下载请求得到的反馈域名都是.com，导致无法下载。需要总部那边配置，中国IP段的用户直接从.cn获取下载内容。还是@窓辺十子 的建议实在，在系统里加一个“住在中国”的选项直接[允悲]//@Satou君：白天拿站长助手的超级ping，ping了下下载的网址asset1.xboxlive.com，发现好像被投毒了，部分地区这个域名已经被解析到了Facebook或者twitter之类的服务器上，症状和steam社区类似，然后我ping了下asset1.xboxlive.cn，显示能ping通，解析出来69个ip，我拿之前的xboxdltest工具测了下，所有国内的服务器ip地址，都gg都没下载速度，发现个日本Akamai节点23.219.39.75，速度最好，能到1M/S。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>ouhloo 发表于 2019-7-24 08:37</span><br>
+<span>@维克多_Yip:经过晚上多次测试，是微软验证服务器packages.xboxlive.com出了问题，每次下载请求得到的反馈 ...</span><br>
+<span>巨硬也如此草台班子</span><br>
+</p><p><b>melvin95: </b><br>
+<span>巨硬本地化就是差骚尼十个任地狱</span><br>
+<span>gkd</span><br>
+</p><p><b>overmindoyj: </b><br>
+<span>下游戏从xbox beta这个APP里下比较好，古墓丽影崛起已剧情通关。可惜还有3天就到期了</span><br>
+</p><p><b>Keynes: </b><br>
+<span>ouhloo 发表于 2019-7-24 08:37</span><br>
+<span>@维克多_Yip:经过晚上多次测试，是微软验证服务器packages.xboxlive.com出了问题，每次下载请求得到的反馈 ...</span><br>
+<span>这个问题除了换节点还有什么解决办法吗。。。</span><br>
+</p><p><b>深海鱼男: </b><br>
+<span> 本帖最后由 深海鱼男 于 2019-7-24 12:40 编辑 </span><br>
+<span>原来是pc的，没用过主机下载慢还能挂加速器</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848716[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>9代iU的B和Z系主板里御三家布线到底是Ttype还是DaisyChain</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>9代iU的B和Z系主板里御三家布线到底是Ttype还是DaisyChain</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:33:18 +0000</lastBuildDate>
+    <item>
+      <title>9代iU的B和Z系主板里御三家布线到底是Ttype还是DaisyChain[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943274-1-1.html</link>
+      <description>9代iU的B和Z系主板里御三家布线到底是Ttype还是DaisyChain&#13;
+RT
+&#13;
+10代按林大的说法应该是全员daisy chain了
+&#13;
+9代呢？微星应该是daisy chain，剩下两家呢 </description>
+      <content:encoded><![CDATA[<p><b>我就再氪一单: </b><br>
+<span>9代iU的B和Z系主板里御三家布线到底是Ttype还是DaisyChain</span><br>
+<span>RT</span><br>
+<span>10代按林大的说法应该是全员daisy chain了</span><br>
+<span>9代呢？微星应该是daisy chain，剩下两家呢 </span><br>
+</p><p><b>EraserKing: </b><br>
+<span>从QVL上去推啊</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>这两个哪种好？我查了下我的x570标明的T型</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>9代除了菌龟的4槽和各家的2槽 其他4槽基本都是t-topology</span><br>
+<span>也没什么好不好的 首先你超不超内存 不超的话无所谓 </span><br>
+<span>超的话4条t好超 2条d好超</span><br>
+</p><p><b>我就再氪一单: </b><br>
+<span> 本帖最后由 我就再氪一单 于 2020-6-22 15:07 编辑 </span><br>
+<span>liwangli1983 发表于 2020-6-22 10:33</span><br>
+<span>这两个哪种好？我查了下我的x570标明的T型</span><br>
+<span>你用的啥x570板子？</span><br>
+<span>我可能也要买x570+4700G或者3800XT，先问问</span><br>
+<span>一共两条内存插槽的双通道就没区别</span><br>
+<span>Ttype就是每一个通道两条内存的电路是并联，daisy chain是串联</span><br>
+<span>并联只用一根内存就会导致另一根一直空着，无论插哪一根都有一个固定长度的电路空着没有接东西也没有接地，在主板上像天线一样接收电信号干扰</span><br>
+<span>串联插远的那一根的位子，干扰天线就只有近的那一根插槽的物理插槽部分；插近的那一根，那远的那一根到近的那一根的串联部分电路就全是接收干扰的天线，可以简单理解为并联方式那个长度的两倍，干扰就会更加大；</span><br>
+<span>每个通道插两根，，主板内存插满的情况。想象一个两个电阻的电路，并联每个电阻到电源同一极的电路长度都是一样的，串联就会导致不一样，导致需要板厂的微调，因为内存四根要运行在相同频率</span><br>
+<span>用林大的话来说就是</span><br>
+<span>T-type不是四根强，而是两根烂；</span><br>
+<span>daisy chain不是四根弱，而是不好调</span><br>
+</p><p><b>我就再氪一单: </b><br>
+<span> 本帖最后由 我就再氪一单 于 2020-6-22 15:01 编辑 </span><br>
+<span>风怒编辑</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我就再氪一单 发表于 2020-6-22 15:00</span><br>
+<span>你用的啥x570板子？</span><br>
+<span>我可能也要买x570+4700G或者3800XT，先问问</span><br>
+<span>华硕x570 prmer pro，这个京东页面内存部分写明了T型连接，要不我还不知道。</span><br>
+<span>不过实际感受是好像插了4条和2条时比，参数确实能稍微好点，但差别很小的感觉</span><br>
+</p><p><b>我就再氪一单: </b><br>
+<span>liwangli1983 发表于 2020-6-22 15:09</span><br>
+<span>华硕x570 prmer pro，这个京东页面内存部分写明了T型连接，要不我还不知道。</span><br>
+<span>不过实际感受是好像插了4条 ...</span><br>
+<span>看CHH那边x570默默加电的问题好像问题最大的就是阿苏斯了啊</span><br>
+<span>应该串并联的内存布线方式影响都是高频内存超频极限</span><br>
+<span>老哥你要不hwinfo看一下电压？</span><br>
+<span>我反正是打算买塔玛霍克或者一步到位嘎的莱克了</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我就再氪一单 发表于 2020-6-22 15:16</span><br>
+<span>看CHH那边x570默默加电的问题好像问题最大的就是阿苏斯了啊</span><br>
+<span>应该串并联的内存布线方式影响都是高 ...</span><br>
+<span>这个事我听说了，但没反应过来有啥影响……我就超了下内存到3600，cpu的话就靠PBO，也会受影响吗？</span><br>
+<span>hwifo在我机器上一开就有一定概率机器直接蓝屏，所以不是太敢碰……</span><br>
+</p><p><b>我就再氪一单: </b><br>
+<span>liwangli1983 发表于 2020-6-22 17:17</span><br>
+<span>这个事我听说了，但没反应过来有啥影响……我就超了下内存到3600，cpu的话就靠PBO，也会受影响吗？</span><br>
+<span>hwifo ...</span><br>
+<span>草</span><br>
+<span>我也是hwinfo某些特定版本开了就有问题。我是卡在某块硬盘的smart检测</span><br>
+<span>林大讲加点压的视频和文章还没详细研读容我看完再给结论吧</span><br>
+<span>—— 来自 Xiaomi Redmi Note 8 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>x570unify超的头痛，这个是什么走线</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我就再氪一单 发表于 2020-6-22 15:16</span><br>
+<span>看CHH那边x570默默加电的问题好像问题最大的就是阿苏斯了啊</span><br>
+<span>应该串并联的内存布线方式影响都是高 ...</span><br>
+<span>新的那个report值满载（r20）时只有86%，我看文章都说低于95%就是加了……</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我就再氪一单 发表于 2020-6-22 15:00</span><br>
+<span>你用的啥x570板子？</span><br>
+<span>我可能也要买x570+4700G或者3800XT，先问问</span><br>
+<span>有意思的是今天看到有人讨论，发现asus官网英文页面并未标注T type，而且tom's hardware对于此主板明确标注daisy chain。</span><br>
+<span>所以是华硕中文官网搞错了？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943274[0-50]</guid>
+    </item>
+  </channel>
+</rss>

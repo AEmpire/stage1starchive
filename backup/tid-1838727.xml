@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Z370等少数主板在7 8代I条件下安装WIN7的详细情况求教</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Z370等少数主板在7 8代I条件下安装WIN7的详细情况求教</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:51:47 +0000</lastBuildDate>
+    <item>
+      <title>Z370等少数主板在7 8代I条件下安装WIN7的详细情况求教[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838727-1-1.html</link>
+      <description>Z370等少数主板在7 8代I条件下安装WIN7的详细情况求教&#13;
+规劝WIN10的就免了    这儿的重点是如何做 能做到多少而不是为什么要做   不想偏题
+&#13;
+目前知道的情况是因为7代I左右开始INTEL进行了芯片组更新 放弃了EHCI等的支持    而一般主板安装系统时则会遇到各种驱动不支持无法安装导致失败            
+&#13;
+那么少数主板比如Z370 H310的可以安装WIN7是他们解决了什么问题?亦或是所谓的能安装也是不完全的?
+&#13;
+关于EHCI 这个的不支持似乎主要影响的是U盘安装期间无法使用键鼠而换用PS/2接口的键鼠后就能执行安装   但是安装完成之后USB驱动是否能启用? 亦或是依旧是禁止状态?
+&#13;
+以及如果这少部分主板能够让WIN7正常安装且让所有硬件驱动安装成功激活使用   那么是否还会有什么硬件支持方面的限制    比如说SSD或者部分硬盘格式之类?</description>
+      <content:encoded><![CDATA[<p><b>妹控使徒: </b><br>
+<span>Z370等少数主板在7 8代I条件下安装WIN7的详细情况求教</span><br>
+<span>规劝WIN10的就免了    这儿的重点是如何做 能做到多少而不是为什么要做   不想偏题</span><br>
+<span>目前知道的情况是因为7代I左右开始INTEL进行了芯片组更新 放弃了EHCI等的支持    而一般主板安装系统时则会遇到各种驱动不支持无法安装导致失败            </span><br>
+<span>那么少数主板比如Z370 H310的可以安装WIN7是他们解决了什么问题?亦或是所谓的能安装也是不完全的?</span><br>
+<span>关于EHCI 这个的不支持似乎主要影响的是U盘安装期间无法使用键鼠而换用PS/2接口的键鼠后就能执行安装   但是安装完成之后USB驱动是否能启用? 亦或是依旧是禁止状态?</span><br>
+<span>以及如果这少部分主板能够让WIN7正常安装且让所有硬件驱动安装成功激活使用   那么是否还会有什么硬件支持方面的限制    比如说SSD或者部分硬盘格式之类?</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>http://www.smxdiy.com/thread-1518-1-1.html</span><br>
+<span>http://www.smxdiy.com/thread-1489-1-1.html</span><br>
+<span>自己注入自己安装~请~</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>7代8代cpu装win7在更新了任意月度补丁的情况下，更新服务会强制下线，并且提示你的硬件不兼容。</span><br>
+<span>现在我已经改用自己封装的win10 ltsc 2019了，不然勒索病毒开始的那几个变种很难防的住</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>mhss: </b><br>
+<span>ASUS EZ Installer了解下？</span><br>
+<span>https://dlsvr04.asus.com/pub/ASUS/mb/Utility/SW_ASUS_EZ_Installer_W10_64_W7_64_VER10401_20190401R.zip</span><br>
+<span>非asus主板应该也是能用的</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-6-12 01:36 编辑 </span><br>
+<span>100SHIKI 发表于 2019-6-11 22:55</span><br>
+<span>7代8代cpu装win7在更新了任意月度补丁的情况下，更新服务会强制下线，并且提示你的硬件不兼容。</span><br>
+<span>现在我已经 ...</span><br>
+<span>https://github.com/zeffy/wufuc/blob/micro/README.md</span><br>
+<span>请先打一个非官补丁解忧愁</span><br>
+<span>这些板子就是马甲板，z370=z270/h310c=h110/b365=h270，支持瘟妻无可厚非，老驱动随便改一下的事儿。但是，核显驱动不在此列。</span><br>
+</p><p><b>qtk9599: </b><br>
+<span>刚刚网上下单了intel七代G4560加昂达h310C的板子，听老板说是能不用独立显卡装win7的，等到货了听我汇报。。。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>我这边有个收费的论坛在搞7系8系u集成显卡驱动装win7，理论这个改硬件id就可以了啊...</span><br>
+<span>但实际情况是，有的人改了行，有的人改了不行，貌似是cpu批次不同造成的？</span><br>
+<span>不知道这个收费论坛搞的是改了啥，看起来是改良好几版了，</span><br>
+<span>谁有7系8系U只有集成显卡装win7的想试试吗？</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>liaojings1 发表于 2019-6-12 08:31</span><br>
+<span>我这边有个收费的论坛在搞7系8系u集成显卡驱动装win7，理论这个改硬件id就可以了啊...</span><br>
+<span>但实际情况是，有的 ...</span><br>
+<span>要个鬼的收费,目前已经有完美的HD630显卡win7核显驱动,但是HD610目前暂时无解,USB3驱动也已经完美了</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>两个路人 发表于 2019-06-12 01:30:52</span><br>
+<span>https://github.com/zeffy/wufuc/blob/micro/README.md</span><br>
+<span>请先打一个非官补丁解忧愁</span><br>
+<span>这些板子就是马甲板 ...这个方案对个人用户可行，但是我这里是内网的好几百台用户，而且明年微软就正式放弃win7系统了，只好换了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-6-12 09:26 编辑 </span><br>
+<span>KOGmk2 发表于 2019-6-12 08:35</span><br>
+<span>要个鬼的收费,目前已经有完美的HD630显卡win7核显驱动,但是HD610目前暂时无解,USB3驱动也已经完美了 ...</span><br>
+<span>哦 能提供下驱动吗，啥时候试试啊。</span><br>
+<span>这是我说收费论坛的改的集成显卡驱动介绍：</span><br>
+<img src="https://i.loli.net/2019/06/12/5d004fcc6b31d40890.png" title="https://i.loli.net/2019/06/12/5d004fcc6b31d40890.png"><br>
+<span>关于楼主装usb问题，新芯片组换了主控，只要集成了驱动问题不大。</span><br>
+<span>我给公司装的win7就是找了个集成usb3.0 nvme .net比较纯净的镜像，一直用着还好。</span><br>
+<span>上面我说的论坛也有专门做这个，你实在装不上也可以试试：</span><br>
+<img src="https://i.loli.net/2019/06/12/5d0053595fa5a15305.png" title="https://i.loli.net/2019/06/12/5d0053595fa5a15305.png"><br>
+</p><p><b>小白无机酸: </b><br>
+<span>等等，内网好几百台？那就是企事业单位了？明年巨硬正式放弃win7，你们打算怎么对付勒索病 独和漏洞？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>装win10呗，以后再有什么重大补丁就用域控发下去，win10以外的系统干脆就封端口</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>liaojings1 发表于 2019-6-12 08:52</span><br>
+<span>哦 能提供下驱动吗，啥时候试试啊。</span><br>
+<span>这是我说收费论坛的改的集成显卡驱动介绍：</span><br>
+<span>CHH 论坛直接搜索win7 usb即可解决USB问题</span><br>
+<span>核显不建议折腾,随便一片亮机卡都比HD630性能好,而且xiaofeng的这个一样有出问题的,怀疑是新步进U的支持问题</span><br>
+<span>另外除非有不可抗拒因素~~~比如某些工控软件非要win7且虚拟机无法支持以外,还是转win10比较好</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>pe里的windows安装器里可以外挂usb3.0的驱动，算是最简单解决装系统时usb3.0无效的方法。有些机型用这个方法无效，也可以使用封装好usb3.0驱动和nvme驱动的win7镜像安装来解决，我好像是从无约而来的博客上还是从it天空下载的忘记了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>KOGmk2 发表于 2019-6-12 09:25</span><br>
+<span>CHH 论坛直接搜索win7 usb即可解决USB问题</span><br>
+<span>核显不建议折腾,随便一片亮机卡都比HD630性能好,而且xiaofeng ...</span><br>
+<span>当初我7700装win7就是chh找的，一个华硕、一个intel的beta版。</span><br>
+<span>很多教程都是叫自己修改，我们群也有人自己改，有的就是不行...</span><br>
+<span>网上说和cpu批次有关？</span><br>
+<span>(比如早期8100其实就是7系马甲，不用屏蔽阵脚就可以刷bios上，后面出的新批次就必须屏蔽阵脚，以上只是举例)</span><br>
+<span>核显这个问题...</span><br>
+<span>我主要是玩笔记本的，笔记本双显卡屏幕信号是直连集成显卡的，所以集成显卡工作不正常，笔记本就没法用win7了...</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>liaojings1 发表于 2019-6-12 09:29</span><br>
+<span>当初我7700装win7就是chh找的，一个华硕、一个intel的beta版。</span><br>
+<span>很多教程都是叫自己修改，我们群也有人自 ...</span><br>
+<span>如果是自己改的话,我记得HD630直接inf加入自己显卡的硬件ID就可以安装,但是要取消驱动强制签名</span><br>
+<span>笔记本为啥不用win10......在台式机还两说,笔记本上无论是更好的DPi缩放还是更好的WDDM支持都是win10压倒性优势</span><br>
+</p><p><b>Sheny: </b><br>
+<span>100SHIKI 发表于 2019-6-11 22:55</span><br>
+<span>7代8代cpu装win7在更新了任意月度补丁的情况下，更新服务会强制下线，并且提示你的硬件不兼容。</span><br>
+<span>现在我已经 ...</span><br>
+<span>装9900k就没这限制233</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-6-12 10:05 编辑 </span><br>
+<span>KOGmk2 发表于 2019-6-12 09:32</span><br>
+<span>如果是自己改的话,我记得HD630直接inf加入自己显卡的硬件ID就可以安装,但是要取消驱动强制签名</span><br>
+<span>笔记本为 ...不习惯扁平界面，bug问题多，我不想明天忙事，还的解决系统问题，这个之前还和群里面喷过很久...</span><br>
+<span>我说bug多，他强说我用测试版，正式版根本没问题...</span><br>
+<span>这么多年过来，影响使用不使用看看论坛就知道，我反正win7用的顺心，啥问题都没。</span><br>
+<span>dpi支持是好，但是字体、还是界面渲染问题，某些界面(包括字体)是糊的(高斯模糊一样)观感很差，不知道如何能调成win7字体渲染那种感觉。</span><br>
+<span>我这里拿PS做了个大概示意：</span><br>
+<img src="https://i.loli.net/2019/06/12/5d005d851abbf82890.png" title="https://i.loli.net/2019/06/12/5d005d851abbf82890.png"><br>
+<span>类似这样吧，不知道你们在使用软件中有碰到这种情况没？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838727[0-50]</guid>
+    </item>
+  </channel>
+</rss>

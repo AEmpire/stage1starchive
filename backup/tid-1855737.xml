@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>火狐这个问题怎么破？？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>火狐这个问题怎么破？？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:05:07 +0000</lastBuildDate>
+    <item>
+      <title>火狐这个问题怎么破？？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855737-1-1.html</link>
+      <description>火狐这个问题怎么破？？&#13;
+今天开始突然无法用火狐正常访问所有网站，注意是所有网站
+&#13;
+均显示：
+&#13;
+警告：面临潜在的安全风险。Firefox 检测到潜在的安全威胁，因此没有继续访问
+&#13;
+可能有人试图冒充该网站，您不应该继续访问。
+&#13;
+各个网站通过证书证明自己的身份。Firefox 不信任，因其证书颁发者未知，证书是自签名的，或者服务器未发送正确的中间证书。
+&#13;
+错误代码：SEC_ERROR_UNKNOWN_ISSUER
+&#13;
+唯一想到的就是最近升级了杀毒软件，但卸载后问题依旧</description>
+      <content:encoded><![CDATA[<p><b>healeveryone: </b><br>
+<span>火狐这个问题怎么破？？</span><br>
+<span>今天开始突然无法用火狐正常访问所有网站，注意是所有网站</span><br>
+<span>均显示：</span><br>
+<span>警告：面临潜在的安全风险。Firefox 检测到潜在的安全威胁，因此没有继续访问</span><br>
+<span>可能有人试图冒充该网站，您不应该继续访问。</span><br>
+<span>各个网站通过证书证明自己的身份。Firefox 不信任，因其证书颁发者未知，证书是自签名的，或者服务器未发送正确的中间证书。</span><br>
+<span>错误代码：SEC_ERROR_UNKNOWN_ISSUER</span><br>
+<span>唯一想到的就是最近升级了杀毒软件，但卸载后问题依旧</span><br>
+</p><p><b>john: </b><br>
+<span>有些杀毒软件是会这样的，你肯定没卸干净，看看Firefox里是不是还残留着杀毒软件的插件</span><br>
+</p><p><b>EP2: </b><br>
+<span>换个profile试试</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>macos: </b><br>
+<span>你如果没挂代理，那可能受中间人攻击，自签名是不可信的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855737[0-50]</guid>
+    </item>
+  </channel>
+</rss>

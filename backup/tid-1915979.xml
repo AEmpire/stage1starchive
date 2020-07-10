@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教vmware虚拟机复制文件速度奇慢的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教vmware虚拟机复制文件速度奇慢的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:55:40 +0000</lastBuildDate>
+    <item>
+      <title>请教vmware虚拟机复制文件速度奇慢的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915979-1-1.html</link>
+      <description>请教vmware虚拟机复制文件速度奇慢的问题&#13;
+新买的Y9000X，系统装的WIN10v1909最新update，vmware15.5。虚拟机win2016，网卡是桥接模式，应该桥接的是无线网卡。测试几天下来发现个奇怪的问题。从主机或其它电脑通过局域网访问时，从虚拟机复制文件下来速度挺正常，往虚拟机复制文件奇慢无比，大概只有几十K的速度。
+&#13;
+然后试了下把桥接模式的复制主机的物理机网络状态勾上，发现虚拟机刚启动时往里复制文件速度正常，很快速度又掉到几十K。
+&#13;
+现在不知道从哪里开始排查原因了。也先留个帖，接下来慢慢试吧。</description>
+      <content:encoded><![CDATA[<p><b>superchenxx01: </b><br>
+<span>请教vmware虚拟机复制文件速度奇慢的问题</span><br>
+<span>新买的Y9000X，系统装的WIN10v1909最新update，vmware15.5。虚拟机win2016，网卡是桥接模式，应该桥接的是无线网卡。测试几天下来发现个奇怪的问题。从主机或其它电脑通过局域网访问时，从虚拟机复制文件下来速度挺正常，往虚拟机复制文件奇慢无比，大概只有几十K的速度。</span><br>
+<span>然后试了下把桥接模式的复制主机的物理机网络状态勾上，发现虚拟机刚启动时往里复制文件速度正常，很快速度又掉到几十K。</span><br>
+<span>现在不知道从哪里开始排查原因了。也先留个帖，接下来慢慢试吧。</span><br>
+</p><p><b>yst234: </b><br>
+<span>单独开个主机和虚拟机的虚拟网络适配器</span><br>
+<span>然后走 SMB（文件共享）试试</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>yst234 发表于 2020-2-27 11:25</span><br>
+<span>单独开个主机和虚拟机的虚拟网络适配器</span><br>
+<span>然后走 SMB（文件共享）试试</span><br>
+<span>使用NAT和仅主机模式是没问题的，这个我测试过，但是测试虚拟机是为了尽量接近实际生产环境，所以才用桥接模式的。</span><br>
+</p><p><b>wave14: </b><br>
+<span>有可能网卡问题</span><br>
+<span>2012时代的hyperv就有和博通网卡的rdma兼容问题，症状和你描述的差不多</span><br>
+<span>解决方法是在网卡属性里把rdma的一个开关关掉。具体忘了你自己研究下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915979[0-50]</guid>
+    </item>
+  </channel>
+</rss>

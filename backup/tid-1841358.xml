@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>吐槽个2060丐版显卡的风扇问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>吐槽个2060丐版显卡的风扇问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:35:33 +0000</lastBuildDate>
+    <item>
+      <title>吐槽个2060丐版显卡的风扇问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841358-1-1.html</link>
+      <description>吐槽个2060丐版显卡的风扇问题&#13;
+前段时间看到有人说1999的2060。就想着把矿卡 588 超白金换了好了。
+&#13;
+于是在秋名山买了1999 的影驰骁将。
+&#13;
+回来测试，满负载声音比超白金大不少，显卡体积居然小很多。想着凑活用就行。
+&#13;
+然后慢慢发现在低负载的时候有稳定的噪音，开始以为是电流噪音，可能是说的2X系列显卡啸叫，也就没在意。
+&#13;
+今天有空慢慢研究了一下，噪音来源是显卡的风扇，在低负载的情况下。
+&#13;
+先低速，再提速，然后降速……接着再提速造成的。
+&#13;
+突然整个人都不好了，居然这年头还有这么睿智的类似PWM调光的风扇管理策略的吗？（还是我比较蠢本来就是这样的）
+&#13;
+去官网整了个管理软件，发现拉高风扇以后也是这么操作的。
+&#13;
+只是提速的上限变高了罢了，最后整体拉到40%转速噪音就基本稳定了。其实声音不大就是循环噪音很吵。
+&#13;
+——————
+&#13;
+人肉风扇温控管理系统Get</description>
+      <content:encoded><![CDATA[<p><b>烟萝: </b><br>
+<span>吐槽个2060丐版显卡的风扇问题</span><br>
+<span>前段时间看到有人说1999的2060。就想着把矿卡 588 超白金换了好了。</span><br>
+<span>于是在秋名山买了1999 的影驰骁将。</span><br>
+<span>回来测试，满负载声音比超白金大不少，显卡体积居然小很多。想着凑活用就行。</span><br>
+<span>然后慢慢发现在低负载的时候有稳定的噪音，开始以为是电流噪音，可能是说的2X系列显卡啸叫，也就没在意。</span><br>
+<span>今天有空慢慢研究了一下，噪音来源是显卡的风扇，在低负载的情况下。</span><br>
+<span>先低速，再提速，然后降速……接着再提速造成的。</span><br>
+<span>突然整个人都不好了，居然这年头还有这么睿智的类似PWM调光的风扇管理策略的吗？（还是我比较蠢本来就是这样的）</span><br>
+<span>去官网整了个管理软件，发现拉高风扇以后也是这么操作的。</span><br>
+<span>只是提速的上限变高了罢了，最后整体拉到40%转速噪音就基本稳定了。其实声音不大就是循环噪音很吵。</span><br>
+<span>——————</span><br>
+<span>人肉风扇温控管理系统Get</span><br>
+</p><p><b>银色永生: </b><br>
+<span>这种高温启动本来就搞，所以热天最好是随机开启风扇调速软件。另外还要看显卡用的是几厘米的扇子，8厘米那种肯定吵，大点的9和10厘米基本只有风声。不过现在显卡一堆小三风扇的显卡，也真是烦</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>588白金换2060丐，感觉提升不够大啊。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>风扇pwm策略不能自己定吗？那不如干脆接到其他的pwm控制器上面操控算了</span><br>
+</p><p><b>烟萝: </b><br>
+<span>laotoutou 发表于 2019-6-22 09:43</span><br>
+<span>588白金换2060丐，感觉提升不够大啊。</span><br>
+<span>我感觉挺大的啊。。我双4K。</span><br>
+<span>以前玩大型单机都得主屏幕切成1080P。（现在只需要切成2K了）</span><br>
+<span>DOTA2 可以4K畅玩，FF14可以在4K分辨率下用2K游戏分辨率全屏窗口玩（很神奇）。</span><br>
+<span>大部分游戏可以用高配置，不需要调成中配</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841358[0-50]</guid>
+    </item>
+  </channel>
+</rss>

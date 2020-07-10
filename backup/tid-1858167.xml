@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求解】mix2解锁卡【正在认证设备信息】</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求解】mix2解锁卡【正在认证设备信息】</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:49:35 +0000</lastBuildDate>
+    <item>
+      <title>【求解】mix2解锁卡【正在认证设备信息】[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858167-1-1.html</link>
+      <description>【求解】mix2解锁卡【正在认证设备信息】&#13;
+用的1+3t的线
+&#13;
+win10ltsb2015
+&#13;
+一开始手机重启到fastboot后，链接电脑，解锁软件都识别不出来，后来插着手机把电脑重启后才到了这一步
+&#13;
+然后就卡这里了，一直失败
+&#13;
+https://s2.ax1x.com/2019/10/06/ug1Mr9.png</description>
+      <content:encoded><![CDATA[<p><b>天堂懵懂人: </b><br>
+<span>【求解】mix2解锁卡【正在认证设备信息】</span><br>
+<span>用的1+3t的线</span><br>
+<span>win10ltsb2015</span><br>
+<span>一开始手机重启到fastboot后，链接电脑，解锁软件都识别不出来，后来插着手机把电脑重启后才到了这一步</span><br>
+<span>然后就卡这里了，一直失败</span><br>
+<img src="https://s2.ax1x.com/2019/10/06/ug1Mr9.png" title="https://s2.ax1x.com/2019/10/06/ug1Mr9.png"><br>
+</p><p><b>youta: </b><br>
+<span>要登录小米账号，小米账号绑定的手机号必须插手机里使用72小时</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>youta 发表于 2019-10-6 21:18</span><br>
+<span>要登录小米账号，小米账号绑定的手机号必须插手机里使用72小时</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1 ...</span><br>
+<span>今天准备解锁才把小米账号登上去，原来还有这种潜规则的么</span><br>
+</p><p><b>benjin: </b><br>
+<span>天堂懵懂人 发表于 2019-10-6 21:41</span><br>
+<span>今天准备解锁才把小米账号登上去，原来还有这种潜规则的么</span><br>
+<span>为发骚而生的小米就是搞出了这样的骚操作</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>完蛋今天还是卡这里 </span><br>
+<span>会和我换了个第三方电池有关系么</span><br>
+<span>手机是国际版的 系统也是国际版的</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>是硬件的锅</span><br>
+<span>家里一个b350迫击炮+2200g，一个B350-F+1600，都不行。到朋友家用H61+G550，一次成功</span><br>
+<span>刷REC也是一样，能检测到设备，但是发送img的时候就卡住了</span><br>
+<span>以前搞LG G2的时候有遇到过USB3.0不行，2.0才可以的情况，感觉可能类似</span><br>
+<span>买个免驱的pcie的usb扩展卡能接近问题么？</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>买了个pcie转usb 解决了，以后不用跑别人家刷机了</span><br>
+</p><p><b>主舵者: </b><br>
+<span>是农企的问题，我以前用B350M Mortar也是死活解锁不了，换笔记本就一次成功。</span><br>
+<span>值得一提的是那块主板半年返修了三次，最后京东给全额退款了</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>benjin: </b><br>
+<span>楼主你这板子没USB2.0? 机箱前置呢？</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>benjin 发表于 2019-10-16 22:23</span><br>
+<span>楼主你这板子没USB2.0? 机箱前置呢？</span><br>
+<span>2.0是之前玩G2的时候遇到的</span><br>
+<span>这次是3.0 ，2.0都没用</span><br>
+<span>而且这次问题比较奇怪，能识别，MTP模式可以传输刷机包，但是就是在fastboot模式下，已经读取到设备了，然后下一步，发送img文件到手机，就一直卡在这一步</span><br>
+<span>买的PCIE转USB也是3.0的</span><br>
+</p><p><b>benjin: </b><br>
+<span>天堂懵懂人 发表于 2019-10-16 23:03</span><br>
+<span>2.0是之前玩G2的时候遇到的</span><br>
+<span>这次是3.0 ，2.0都没用</span><br>
+<span>而且这次问题比较奇怪，能识别，MTP模式可以传输刷机 ...</span><br>
+<span>那这个问题的确奇怪</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>Mix2和mi6一样一代神机，开发板MIUI11很好用</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858167[0-50]</guid>
+    </item>
+  </channel>
+</rss>

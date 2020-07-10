@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>给AMD 3700x选主板有什么需要注意的么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>给AMD 3700x选主板有什么需要注意的么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:07:10 +0000</lastBuildDate>
+    <item>
+      <title>给AMD 3700x选主板有什么需要注意的么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914483-1-1.html</link>
+      <description>给AMD 3700x选主板有什么需要注意的么？&#13;
+ 本帖最后由 兰开夏 于 2020-2-18 12:38 编辑 
+
+构筑主机配置的核心其实是主板？
+&#13;
+现在按摩店到处yes，自己的e3v2感觉，emm...
+&#13;
+然后目标预定是3700x系列，主板看到有450和570？这些都能支持3系除了价格有什么本质区别么...还有人说pcie4其实现在用不到，内存ddr5也没啥现货？所以450就可以了？
+&#13;
+求解惑，谢谢。。。
+&#13;
+顺带再问下，3700x和3800x其实也就是主频和额定功率的不同？两个实际上是一个cpu？</description>
+      <content:encoded><![CDATA[<p><b>兰开夏: </b><br>
+<span>给AMD 3700x选主板有什么需要注意的么？</span><br>
+<span> 本帖最后由 兰开夏 于 2020-2-18 12:38 编辑 </span><br>
+<span>构筑主机配置的核心其实是主板？</span><br>
+<span>现在按摩店到处yes，自己的e3v2感觉，emm...</span><br>
+<span>然后目标预定是3700x系列，主板看到有450和570？这些都能支持3系除了价格有什么本质区别么...还有人说pcie4其实现在用不到，内存ddr5也没啥现货？所以450就可以了？</span><br>
+<span>求解惑，谢谢。。。</span><br>
+<span>顺带再问下，3700x和3800x其实也就是主频和额定功率的不同？两个实际上是一个cpu？</span><br>
+</p><p><b>雪影: </b><br>
+<span>B450M Mortar Max</span><br>
+<span>3800X就是3700X体质特挑</span><br>
+<span>3000的3900X不香么</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>随便买，默认37x烤鸡就90w……</span><br>
+</p><p><b>ft5555: </b><br>
+<span> 本帖最后由 ft5555 于 2020-2-18 13:02 编辑 </span><br>
+<span>CPU不超频450就够了，而且内存能拉3600~3800</span><br>
+<span>3800x=体质好一点 功耗上限更高的3700x，不过介于现在两者价格差距不大，俩者性价比差不多。</span><br>
+<span>最关键的450别买华硕的，4系主板bios更新速度各家里最慢，最少。而且官方ROG论坛N久没有官方人员现身了。别想着有技术支持了。</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>建议等等，550芯片组的主板要上了，PCIE4.0通道无非就两个东西，显卡和M2固态。</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>550？？</span><br>
+<span>那570是啥子...</span><br>
+</p><p><b>litel: </b><br>
+<span>注意好像有马甲550了，不支持pcie4.0的。</span><br>
+<span>3800x就是体制略好的3700x</span><br>
+<span>现在供电最强性价比最高的就是 微星b450m迫击炮max</span><br>
+<span>带37 38绰绰有余。甚至能带3900x</span><br>
+<span>570价格太高，平均1000以上。但对CPU性能不会有任何提升。</span><br>
+<span>除非你要pcie4，否则450m就行。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>按需求挑主板就行，像我需要多硬盘的，x570能装10个硬盘才满足</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2020-2-18 14:35 编辑 </span><br>
+<span>这种问题感觉是周经了</span><br>
+<span>Zen2出厂官灰，基本上都超到位了，3700X和3800X比的话，就是3800X是官方特挑，超的话频率更高</span><br>
+<span>B450和X570的区别……说大不大说小不小</span><br>
+<span>B450么（假定都是最新BIOS），直联CPU是20条PCIE3，PCH拉出来的是PCIE2</span><br>
+<span>X570，直联CPU是20条PCIE4，PCH拉出来的是PCIE3，以及PCH提供了比450多了很多的PCIE通道，SATA和USB之类的，以及附赠PCH风扇一个</span><br>
+<span>回到具体主板上来说，主流那几款B450带3700X，从能力上来说都够了</span><br>
+<span>如果没有对扩展性或者PCIE4的要求，B450够了，不然你就X570</span><br>
+</p><p><b>弹幕: </b><br>
+<span>那么550板子出来后价位还和450差不多吗，毕竟pcie4.0对我来说没多大用</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>弹幕 发表于 2020-2-18 16:22</span><br>
+<span>那么550板子出来后价位还和450差不多吗，毕竟pcie4.0对我来说没多大用</span><br>
+<span>那就去买x470啊</span><br>
+</p><p><b>madbird302: </b><br>
+<span>B450的话主要是不支持PCI-E4，连带GEN4X4的M.2也没了，但B450胜在便宜</span><br>
+<span>X570emmm   太贵了</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>加钱X570太极，下一代继续用4700X</span><br>
+<span>不超频的话，等B550买个好一点，下一代继续用</span><br>
+<span>下下代就要换接口了</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>粉色猛男 发表于 2020-2-18 17:23</span><br>
+<span>加钱X570太极，下一代继续用4700X</span><br>
+<span>不超频的话，等B550买个好一点，下一代继续用</span><br>
+<span>接口一般用几代？2代？</span><br>
+</p><p><b>waldo: </b><br>
+<span>zen4换接口</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>兰开夏 发表于 2020-2-18 17:50</span><br>
+<span>接口一般用几代？2代？</span><br>
+<span>Intel的话是每一代换一次，RYZEN的AM4接口的话，AMD承诺用4代</span><br>
+<span>zen，zen+，zen2，目前zen2是第三代</span><br>
+<span>下一代zen3还能继续用，zen4就换了</span><br>
+<span>至于zen4的新接口用几代，要看到时候AMD的算盘</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>不超频随便买，想用nvme 最新款就买带PCIe 4.0的，想超频就买供电带倍相的</span><br>
+</p><p><b>jestime: </b><br>
+<span>x570南桥是pcie4x4，b450只有pcie2x4，4倍的带宽，硬盘多的话最好买x570</span><br>
+</p><p><b>胸口有毛: </b><br>
+<span>睿频就相当于超频，供电差的板子睿频都上不去</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>微星不是号称自检星么</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>额。。。应为不会去干重活，所以还是更期待稳定性这种东西。。。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>兰开夏 发表于 2020-2-18 22:51</span><br>
+<span>额。。。应为不会去干重活，所以还是更期待稳定性这种东西。。。</span><br>
+<span>那X570太极吧，无论干什么用，至少还有一代AM4可以升级</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>570没必要，3700配570被3900配450吊打</span><br>
+<span>现在有几个人的电脑超过两个m2硬盘的？而且次m2半速也无所谓 ，慢不到哪去</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>搏击俱乐部: </b><br>
+<span>雪影 发表于 2020-2-18 12:59</span><br>
+<span>B450M Mortar Max</span><br>
+<span>3800X就是3700X体质特挑</span><br>
+<span>3000的3900X不香么</span><br>
+<span>3000的3900x哪里有啊。刚看了下京东3699</span><br>
+</p><p><b>忽克連: </b><br>
+<span>搏击俱乐部 发表于 2020-2-19 07:30</span><br>
+<span>3000的3900x哪里有啊。刚看了下京东3699</span><br>
+<span>淘宝不就有3000出头的3900x吗</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>搏击俱乐部 发表于 2020-2-19 07:30</span><br>
+<span>3000的3900x哪里有啊。刚看了下京东3699</span><br>
+<span>过完疫情吧，闲鱼美行盒装3900大概是3000-3100的</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>雪影: </b><br>
+<span>搏击俱乐部 发表于 2020-2-19 07:30</span><br>
+<span>3000的3900x哪里有啊。刚看了下京东3699</span><br>
+<span>淘宝和咸鱼</span><br>
+<span>还是疫情涨价了，不然节前2999顺丰到付的</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>买3900x</span><br>
+<span>—— 来自 smartisan OS105, Android 7.1.1上的 S1Next-鹅版 v2.1.0-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914483[0-50]</guid>
+    </item>
+  </channel>
+</rss>

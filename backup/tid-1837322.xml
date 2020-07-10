@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求助】请问电脑如何跨路由器发现上级网络打印机【已...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求助】请问电脑如何跨路由器发现上级网络打印机【已...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:00:24 +0000</lastBuildDate>
+    <item>
+      <title>【求助】请问电脑如何跨路由器发现上级网络打印机【已...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837322-1-1.html</link>
+      <description>【求助】请问电脑如何跨路由器发现上级网络打印机【已...&#13;
+ 本帖最后由 smishe 于 2019-6-6 14:35 编辑 
+
+网络结构如图，PC2和PC3怎样才能在“添加打印机”里发现网络打印机？端口映射？具体怎么做呢？一堆端口实在搞不明白</description>
+      <content:encoded><![CDATA[<p><b>smishe: </b><br>
+<span>【求助】请问电脑如何跨路由器发现上级网络打印机【已...</span><br>
+<span> 本帖最后由 smishe 于 2019-6-6 14:35 编辑 </span><br>
+<span>网络结构如图，PC2和PC3怎样才能在“添加打印机”里发现网络打印机？端口映射？具体怎么做呢？一堆端口实在搞不明白</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>我需要的打印机不在列表中，按tcpip添加打印机，直接输ip</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>直接输IP访问目标电脑，能访问就能添加，不能就不行</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>无线路由关dhcp当纯AP？</span><br>
+</p><p><b>linuy: </b><br>
+<span>理论上，下级是可以直接访问上级的，反过来不行</span><br>
+</p><p><b>bell: </b><br>
+<span>无线路由器关dhcp，全部网线插lan口，pc2 3ip是192.168.1.*就能随意连上。</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>华为家用路由器下级禁止访问上级</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>orecheng: </b><br>
+<span> 本帖最后由 orecheng 于 2019-6-6 14:22 编辑 </span><br>
+<span>那windows下有没有跨网络打印的软件？</span><br>
+<span>查了下，好像teamviewer可以</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>你自动获取的IP肯定不是192.168.1.0/24</span><br>
+<span>所以访问不了192.168.1.3</span><br>
+<span>要在无线路由器上面加路由规则</span><br>
+</p><p><b>smishe: </b><br>
+<span>偶滴小乔 发表于 2019-6-6 09:55</span><br>
+<span>我需要的打印机不在列表中，按tcpip添加打印机，直接输ip</span><br>
+<span>额，原来这么简单就好了，谢谢</span><br>
+<span>也谢谢大家</span><br>
+</p><p><b>萃香吃西瓜: </b><br>
+<span>smishe 发表于 2019-6-6 14:34</span><br>
+<span>额，原来这么简单就好了，谢谢</span><br>
+<span>也谢谢大家</span><br>
+<span>那你这是在同一个网段啊，那还是比较简单</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>萃香吃西瓜 发表于 2019-6-6 16:12</span><br>
+<span>那你这是在同一个网段啊，那还是比较简单</span><br>
+<span>跨了也可以用，地址无冲突，路由表正常就行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837322[0-50]</guid>
+    </item>
+  </channel>
+</rss>

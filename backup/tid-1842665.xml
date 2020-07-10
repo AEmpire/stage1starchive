@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教下拖youtube视频最方便的办法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教下拖youtube视频最方便的办法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:27:26 +0000</lastBuildDate>
+    <item>
+      <title>请教下拖youtube视频最方便的办法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842665-1-1.html</link>
+      <description>请教下拖youtube视频最方便的办法&#13;
+记得以前是有网站可以通过url读取视频源文件地址，刚发现那些网站都打不开了。现在有什么比较方便的办法吗？</description>
+      <content:encoded><![CDATA[<p><b>西多夫: </b><br>
+<span>请教下拖youtube视频最方便的办法</span><br>
+<span>记得以前是有网站可以通过url读取视频源文件地址，刚发现那些网站都打不开了。现在有什么比较方便的办法吗？</span><br>
+</p><p><b>bilibon: </b><br>
+<span>遨游自带的嗅探不知道能不能取得油管的，至少Ph可以</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>4K Video Downloader</span><br>
+</p><p><b>二月十日: </b><br>
+<span>youtube-dl，请</span><br>
+</p><p><b>albertfu: </b><br>
+<span>youtube_dl +1</span><br>
+<span>IDM也可以，就是时不时那个条会消失</span><br>
+</p><p><b>ぜかまし: </b><br>
+<span>youtube_dl 现在出来的视频选项太多了。同一个分辨率还存在各种标准，选哪个好</span><br>
+</p><p><b>albertfu: </b><br>
+<span>ぜかまし 发表于 2019-6-27 15:55</span><br>
+<span>youtube_dl 现在出来的视频选项太多了。同一个分辨率还存在各种标准，选哪个好 ...</span><br>
+<span>bestvideo+bestaudio，自动选码率最高的</span><br>
+</p><p><b>ftu: </b><br>
+<span> 本帖最后由 ftu 于 2019-6-27 16:40 编辑 </span><br>
+<span>https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader</span><br>
+<span>用这个就行 直接在网页上下载</span><br>
+</p><p><b>tokimon: </b><br>
+<span>youtube dl</span><br>
+<span>满足任何下载要求</span><br>
+</p><p><b>myron_cloud: </b><br>
+<span>you-get</span><br>
+</p><p><b>TR4835: </b><br>
+<span>清一色的youtube-dl...</span><br>
+<span>很多时候懒起来我就用FDM==</span><br>
+</p><p><b>keures: </b><br>
+<span>Download manager</span><br>
+</p><p><b>BankA: </b><br>
+<span>Youtube-dl如果用那个gui的话要怎么配置代理？开了全局好像都没用</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>BankA 发表于 2019-6-27 17:16</span><br>
+<span>Youtube-dl如果用那个gui的话要怎么配置代理？开了全局好像都没用</span><br>
+<span>https://extremegtr.github.io/2017/10/06/Use_youtube-dl_download-Youtube-video/</span><br>
+</p><p><b>西多夫: </b><br>
+<span>感谢各位大佬</span><br>
+<span>YOUTUBE-DL是指这个吗？</span><br>
+<span>http://youtube-dl.org/</span><br>
+<span>下了个EXE版本直接打开卡了很久吓尿了</span><br>
+<span>最后发现要在CMD模式下运行</span><br>
+</p><p><b>lzrtwilight: </b><br>
+<span>idm自带的挺好用</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zihexing: </b><br>
+<span>VideoProc 可下4K</span><br>
+</p><p><b>ylns1314: </b><br>
+<span>youtuble-dl 得配合ffmpeg一起用吧，现在高分辨率的都是音画分开的..</span><br>
+</p><p><b>trentswd: </b><br>
+<span>ylns1314 发表于 2019-6-27 22:53</span><br>
+<span>youtuble-dl 得配合ffmpeg一起用吧，现在高分辨率的都是音画分开的..</span><br>
+<span>放一起就行了，youtubedl会自己调用</span><br>
+</p><p><b>masokishin: </b><br>
+<span> 本帖最后由 masokishin 于 2019-7-13 16:16 编辑 </span><br>
+<span>jdownloader不知道为什么不能下YouTube了</span><br>
+<span>尝试下折腾youtube-dl。</span><br>
+</p><p><b>dangoron: </b><br>
+<span>推荐一个videoder，自动反块多线程下载，比youtube-dl快不少</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>电脑用IDM，手机用vidmate</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span> 本帖最后由 bonbonfox 于 2019-7-13 19:33 编辑 </span><br>
+<span>youtube-dl跟you-get什么关系？后面那个不更新Windows版后就只用idm了，两个好像差不多用法。。。</span><br>
+<span>另外，idm打包mkv不知道什么用意。。。</span><br>
+<span>以前也喜欢下土鳖的视频，除了怕被删以外好像毫无意义，现在基本不下了，就好像av一样，永远都有新花样新面孔，下到硬盘里的真正会拿出来看的有1成么，白白占用空间。。。</span><br>
+</p><p><b>kyouko: </b><br>
+<span>youtube-dl -F先选格式，如果是1080p以上的得把音视频分别下好后封装。再youtube-dl -f 数字，习惯用-f 22 720p+128kaac</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>把这个和youtube-dl.exe、ffmpeg\丢进同一目录，编辑一下代理地址就完事了</span><br>
+</p><p><b>spiece: </b><br>
+<span>https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader</span><br>
+<span>这个脚本可以直接把不同设置的视频和音频地址列出来。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>话说有没有在网页上直接看144p超低画质或干脆不要画面+最高音质的办法</span><br>
+<span>不想下载下载完以后永远不记得点赞</span><br>
+</p><p><b>allofee: </b><br>
+<span>硕鼠有个ytb的分支版本</span><br>
+<span>— from samsung SM-G965F, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>rachesushi: </b><br>
+<span>you-get可以下很多网站</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-7-14 22:38 编辑 </span><br>
+<span>老早以前折腾过youtube-dl，比较麻烦，不过那个时候其他工具也嗅探不到更高规格的视频...</span><br>
+<span>后来各大工具都更新了，连在线网页都能嗅探到更高规格的视频了，就没在用了。</span><br>
+<span>最近看很老的视频，不知道有啥隐藏的视频编码没，折腾又把youtube-dl装上...</span><br>
+<span>然后那个下载速度啊，真jb慢(20-30kb/s)...</span><br>
+<span>idm单线程也没这么慢啊...</span><br>
+<span>换idm多线程下，速度直接跑4-10MB/S...</span><br>
+<span>推荐各位还是用idm吗，简单方便还支持多线程下载。</span><br>
+<span>(至于有时候没出现idm嗅探窗口，可能是插件有啥问题关闭了，从新开关浏览器即可，我极少数情况下会碰到)</span><br>
+<span>恩，记得我以前用youtube-dl下过优土爱奇？</span><br>
+<span>这个不知道对国内视频网下载支持好不...</span><br>
+</p><p><b>嘲哳的声音: </b><br>
+<span>youtube-dl总是下着下着卡住不动然后报错，不知道为什么</span><br>
+</p><p><b>计算机组成原理: </b><br>
+<span>albertfu 发表于 2019-6-27 16:34</span><br>
+<span>bestvideo+bestaudio，自动选码率最高的</span><br>
+<span>全best并不好，因为youtube有好几种编码，不是best能解决的</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>之前找到一个网站还算好使，但是没保存</span><br>
+</p><p><b>albertfu: </b><br>
+<span>计算机组成原理 发表于 2019-7-15 13:36</span><br>
+<span>全best并不好，因为youtube有好几种编码，不是best能解决的</span><br>
+<span>单一个best经常会下到只有1080p的甚至720p的视频，那个在-F出来的列表里面是单独一栏的</span><br>
+<span>但是bestvideo+bestaudio就是无脑下载码率最高的，不管是什么编码、分辨率、帧率、是否HDR。</span><br>
+<span>比如一个8k@60fps视频，有可能二压出来的4k@60fps的码率是最高的，8k因为不支持60fps反倒二压压小了，码率还不如4k@60fps</span><br>
+</p><p><b>计算机组成原理: </b><br>
+<span>albertfu 发表于 2019-7-15 15:06</span><br>
+<span>单一个best经常会下到只有1080p的甚至720p的视频，那个在-F出来的列表里面是单独一栏的</span><br>
+<span>但是bestvideo+b ...</span><br>
+<span>对，bestvideo+bestaudio只看码率有时候选的并不好，还是得手动</span><br>
+</p><p><b>dhuo: </b><br>
+<span>youtube-dl支持的网站挺多的</span><br>
+</p><p><b>albertfu: </b><br>
+<span>计算机组成原理 发表于 2019-7-15 22:54</span><br>
+<span>对，bestvideo+bestaudio只看码率有时候选的并不好，还是得手动</span><br>
+<span>所以不放心可以-F看一下然后自己选</span><br>
+<span>实践中发现一个是4k@60fps一般比8k@30fps要大，HDR视频倒是一般都是码率最大的</span><br>
+<span> 说得跟youtube 8k和HDR满天飞一样</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842665[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何将开机启动的软件设置为UAC信任？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何将开机启动的软件设置为UAC信任？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:05:57 +0000</lastBuildDate>
+    <item>
+      <title>如何将开机启动的软件设置为UAC信任？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836400-1-1.html</link>
+      <description>如何将开机启动的软件设置为UAC信任？&#13;
+每次开机都要点2个UAC确认。能不能自己设置UAC的信任列表？</description>
+      <content:encoded><![CDATA[<p><b>失身招领处: </b><br>
+<span>如何将开机启动的软件设置为UAC信任？</span><br>
+<span>每次开机都要点2个UAC确认。能不能自己设置UAC的信任列表？</span><br>
+</p><p><b>xmcp: </b><br>
+<span>在计划任务里添加，选择登录时运行，勾上以管理员权限运行</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>失身招领处: </b><br>
+<span> 本帖最后由 失身招领处 于 2019-6-2 19:41 编辑 </span><br>
+<span>xmcp 发表于 2019-6-2 19:25</span><br>
+<span>在计划任务里添加，选择登录时运行，勾上以管理员权限运行</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端 ...</span><br>
+<span>老大，这办法不行阿。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>你搜一下，我记得可以，需要下一个微软官方出的调试工具，对着目标软件操作一顿，然后就可以了</span><br>
+<span>因为有点麻烦，我当时直接放弃了</span><br>
+</p><p><b>灰色的夏天: </b><br>
+<span>这个前几天刚遇到过，软件快捷方式右击，在兼容性里把特权等级下以管理员运行方式的勾去掉就行了</span><br>
+</p><p><b>litel: </b><br>
+<span>换个软件，或者关掉uac。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>我记得好像有设置manifest文件的办法来着</span><br>
+</p><p><b>macos: </b><br>
+<span>RAMDA 发表于 2019-6-3 18:45</span><br>
+<span>我记得好像有设置manifest文件的办法来着</span><br>
+<span>那是去掉程序的强制要求，假如程序运行必须修改hklm反而会出问题</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>用2楼的方法，但是如果没有manifest要在资源里加上，manifest要写admin权限</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>jie2000: </b><br>
+<span>把程序作为服务自启动？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836400[0-50]</guid>
+    </item>
+  </channel>
+</rss>

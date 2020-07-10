@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>挤出来的牙膏又又塞回去了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>挤出来的牙膏又又塞回去了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:34:51 +0000</lastBuildDate>
+    <item>
+      <title>挤出来的牙膏又又塞回去了[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831681-1-1.html</link>
+      <description>挤出来的牙膏又又塞回去了&#13;
+代号ZombieLoad
+&#13;
+“英特尔公司和安全研究人员周二称，他们在英特尔处理器中发现了一组新的安全漏洞。这些漏洞很难修复，与去年发现的问题有关。英特尔称，今年发布的芯片包含了漏洞修复程序，但是前几代芯片仍需要打补丁，有些情况下修复可能会让芯片性能最多减速19%。这一名为ZombieLoad的漏洞使得英特尔自2011年以来生产的几乎所有芯片都易于遭到攻击”
+&#13;
+加上 幽灵（Spectre）和熔断（Meltdown）补丁可能会带来高达30%的性能损失
+&#13;
+性能直接砍一半，农企翻身指日可待。
+&#13;
+poc : https://github.com/IAIK/ZombieLoad</description>
+      <content:encoded><![CDATA[<p><b>Gnyueh: </b><br>
+<span>starash 发表于 2019-5-15 14:52</span><br>
+<span>喂喂, 我可不可以认为intel酷睿2对AMD实现的反超其本质是用漏洞换性能?</span><br>
+<span>其实牙膏厂从P4后就已经在快速丧失 ...</span><br>
+<span>农企收购ATI导致处理器开发进度减慢，三发射处理器打四发射当然死的很惨，当然农机系列CMT走错路让自己死的更惨就是另一个故事了</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>话说,现在能不能把"高频低能"的"帽子"给intel扣上去?还是在等几个补丁?</span><br>
+<span>反正linux内核某个更新后HT是废了.</span><br>
+</p><p><b>Sheny: </b><br>
+<span>塔奇克马 发表于 2019-5-16 09:25</span><br>
+<span>话说,现在能不能把"高频低能"的"帽子"给intel扣上去?还是在等几个补丁?</span><br>
+<span>反正linux内核某个更新后HT ...</span><br>
+<span>时钟周期永远是越快越好，“高频低能”批判的是只追求高主频。</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>acalephs 发表于 2019-5-16 09:00</span><br>
+<span>软件上旁路攻防研究了很久了，只是一直没想到CPU里还有这种能利用的漏洞</span><br>
+<span>UNIX输错密码要卡半天就是最早的 ...</span><br>
+<span>我记得火的时候是因为美密会的那个用软件方法的找灰盒加密的秘钥。</span><br>
+<span>虽然说原理一样，但是具体手段测试方法才算是半个标准化了。</span><br>
+<span>总体来说，就是intel当时在设计算法的时候根本没考虑这些事。</span><br>
+<span>现在再改估计也来不及了，因为整体设计要大改，改了之后也要测试，而我估计intel根本就没这方面的人才储备，intel做安全的主要都去搞pt之类的软件分析技术去了。而且每次做报告，intel这帮p在装逼这方面是拉满了的，傲慢+缺人最终导致出现了现在问题，而且较长时间内Intel根本修复不了。</span><br>
+</p><p><b>top2000: </b><br>
+<span>razen3不是要出了么</span><br>
+</p><p><b>橋白: </b><br>
+<span>所以zen2 yes吗...想买9700k 要换阵营吗</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>acalephs 发表于 2019-5-16 09:00</span><br>
+<span>软件上旁路攻防研究了很久了，只是一直没想到CPU里还有这种能利用的漏洞</span><br>
+<span>UNIX输错密码要卡半天就是最早的 ...</span><br>
+<span>UNIX输错密码这个很感兴趣，有资料吗</span><br>
+<span>—— 来自 Sony F5122, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sheny: </b><br>
+<span>橋白 发表于 2019-5-16 12:34</span><br>
+<span>所以zen2 yes吗...想买9700k 要换阵营吗</span><br>
+<span>除了线程多，还是追不上9700k的。以至于outel安心的把9700定成了4.3全核…</span><br>
+</p><p><b>bill基: </b><br>
+<span>Sheny 发表于 2019-5-16 15:26</span><br>
+<span>除了线程多，还是追不上9700k的。以至于outel安心的把9700定成了4.3全核…</span><br>
+<span>真不把转帖机吴舅妈zoo当一回事</span><br>
+<span>zen2同频ipc秒杀9900k，风冷5G不是问题，还要加核，怕一下子用力过猛把INTEL干死了还特意延后了新TR的发售。A粉都已经光明正大打出2020年拆分INTEL的口号了，优势大得不行好不</span><br>
+</p><p><b>qwased: </b><br>
+<span>bill基 发表于 2019-5-16 16:52</span><br>
+<span>真不把转帖机吴舅妈zoo当一回事</span><br>
+<span>zen2同频ipc秒杀9900k，风冷5G不是问题，还要加核，怕一下子用力过猛把IN ...</span><br>
+<span>牙膏厂再来几个补丁就真不好说了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>にまぴ 发表于 2019-5-16 02:58</span><br>
+<span>搭车问问，amd cpu + 黄老板显卡会有啥问题么</span><br>
+<span>从来没有过问题，即使是AMD最强的ATHLON 64，也是搭配老黄显卡最好用</span><br>
+</p><p><b>橋白: </b><br>
+<span>bill基 发表于 2019-5-16 16:52</span><br>
+<span>真不把转帖机吴舅妈zoo当一回事</span><br>
+<span>zen2同频ipc秒杀9900k，风冷5G不是问题，还要加核，怕一下子用力过猛把IN ...</span><br>
+<span>其实还有个考虑就是618 好像x570赶不上？</span><br>
+<span>攒个机真麻烦</span><br>
+</p><p><b>6030sylar: </b><br>
+<span>吸回去了惹</span><br>
+<span>—— 来自 Xiaomi Redmi Note 4X, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>橋白 发表于 2019-5-16 18:01</span><br>
+<span>其实还有个考虑就是618 好像x570赶不上？</span><br>
+<span>攒个机真麻烦</span><br>
+<span>77才开卖，amd称3季度开售</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>にまぴ: </b><br>
+<span>sblnrrk 发表于 2019-5-16 17:31</span><br>
+<span>从来没有过问题，即使是AMD最强的ATHLON 64，也是搭配老黄显卡最好用</span><br>
+<span>原来如此，谢</span><br>
+<span>下次买ryzen了</span><br>
+</p><p><b>acalephs: </b><br>
+<span>commanderyuri 发表于 2019-5-16 13:33</span><br>
+<span>UNIX输错密码这个很感兴趣，有资料吗</span><br>
+<span>—— 来自 Sony F5122, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>最早还没有哈希算法的时候检验密码就是直接比对字符串。</span><br>
+<span>然而比对字符串是逐位比对的，如果第一位不同就直接返回不同，如果第一位相同就再比对第二位，也就是说猜对的位数越多，比对时间越长。</span><br>
+<span>这导致了可以通过系统返回密码错误的时间来判断密码猜对了几位，很快的破解密码。</span><br>
+<span>所以最早的系统在密码比对错误之后会额外加一段延迟再返回密码错误的结果，防范这种旁路攻击。</span><br>
+<span>当然有了哈希之后比对时间就不是那么关键了，加延迟也变成纯粹的降低暴力破解效率的手段了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831681[50-100]</guid>
+    </item>
+    <item>
+      <title>挤出来的牙膏又又塞回去了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831681-1-1.html</link>
+      <description>挤出来的牙膏又又塞回去了&#13;
+代号ZombieLoad
+&#13;
+“英特尔公司和安全研究人员周二称，他们在英特尔处理器中发现了一组新的安全漏洞。这些漏洞很难修复，与去年发现的问题有关。英特尔称，今年发布的芯片包含了漏洞修复程序，但是前几代芯片仍需要打补丁，有些情况下修复可能会让芯片性能最多减速19%。这一名为ZombieLoad的漏洞使得英特尔自2011年以来生产的几乎所有芯片都易于遭到攻击”
+&#13;
+加上 幽灵（Spectre）和熔断（Meltdown）补丁可能会带来高达30%的性能损失
+&#13;
+性能直接砍一半，农企翻身指日可待。
+&#13;
+poc : https://github.com/IAIK/ZombieLoad</description>
+      <content:encoded><![CDATA[<p><b>yeah20002: </b><br>
+<span>挤出来的牙膏又又塞回去了</span><br>
+<span>代号ZombieLoad</span><br>
+<span>“英特尔公司和安全研究人员周二称，他们在英特尔处理器中发现了一组新的安全漏洞。这些漏洞很难修复，与去年发现的问题有关。英特尔称，今年发布的芯片包含了漏洞修复程序，但是前几代芯片仍需要打补丁，有些情况下修复可能会让芯片性能最多减速19%。这一名为ZombieLoad的漏洞使得英特尔自2011年以来生产的几乎所有芯片都易于遭到攻击”</span><br>
+<span>加上 幽灵（Spectre）和熔断（Meltdown）补丁可能会带来高达30%的性能损失</span><br>
+<span>性能直接砍一半，农企翻身指日可待。</span><br>
+<span>poc : https://github.com/IAIK/ZombieLoad</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>AMD YES!</span><br>
+</p><p><b>downforce: </b><br>
+<span>今年发布的芯片有哪些？</span><br>
+<span>----发送自 samsung SM-G9350,Android 8.0.0</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>。。。4790k在用三年</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>AMD，YES！！！</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>偶尔想放松: </b><br>
+<span>2700X笑而不语</span><br>
+</p><p><b>starash: </b><br>
+<span> 本帖最后由 starash 于 2019-5-15 14:54 编辑 </span><br>
+<span>喂喂, 我可不可以认为intel酷睿2对AMD实现的反超其本质是用漏洞换性能?</span><br>
+<span>其实牙膏厂从P4后就已经在快速丧失技术能力了? 所以近年来搞啥啥不成才是真正的intel实力? </span><br>
+</p><p><b>bilibon: </b><br>
+<span>AMD有这漏洞么</span><br>
+</p><p><b>lotwhite: </b><br>
+<span>拉出去的屎又吸回去了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>真感觉农企有点冤了</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>这漏洞一个接一个啊</span><br>
+<span>—— 来自 samsung SM-G9500, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>melvin117: </b><br>
+<span>不是yes变强了，是牙膏又变弱了</span><br>
+<span>🐴的价好就把9700K整套出掉算了，看着牙膏厂真是眼障</span><br>
+<span>— from Essential Products PH-1, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>zyhang: </b><br>
+<span>有没有可能是Intel的暗黑商法？其实设计之初就已经知道漏洞存在，现在暴露出来，只不过是最后利用一把，降低老处理器性能，逼你买新的而已</span><br>
+</p><p><b>qwased: </b><br>
+<span>bilibon 发表于 2019-5-15 14:58</span><br>
+<span>AMD有这漏洞么</span><br>
+<span>Affected CPUs:</span><br>
+<span>Intel Core and Xeon CPUs</span><br>
+<span>CPUs with Meltdown/L1TF mitigations are affected by fewer variants of this attack.</span><br>
+<span>We were unable to reproduce this behavior on non-Intel CPUs and consider it likely that this is an implementation issue affecting only Intel CPUs.</span><br>
+</p><p><b>johnie: </b><br>
+<span>zyhang 发表于 2019-5-15 15:17</span><br>
+<span>有没有可能是Intel的暗黑商法？其实设计之初就已经知道漏洞存在，现在暴露出来，只不过是最后利用一把，降 ...</span><br>
+<span>不成立 性能降低最多的是新u</span><br>
+</p><p><b>bilibon: </b><br>
+<span>qwased 发表于 2019-5-15 15:42</span><br>
+<span>Affected CPUs:</span><br>
+<span>Intel Core and Xeon CPUs</span><br>
+<span>CPUs with Meltdown/L1TF mitigations are affected by fewer...</span><br>
+<span>A,Y!</span><br>
+</p><p><b>qwased: </b><br>
+<span>bilibon 发表于 2019-5-15 15:46</span><br>
+<span>A,Y!</span><br>
+<span>这个漏洞和前面几个叠加起来最多可以损失30%性能</span><br>
+<span>XEON凉了</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>求你们了，让我漏着洞跑吧，我要性能（</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>johnie 发表于 2019-5-15 15:46</span><br>
+<span>不成立 性能降低最多的是新u</span><br>
+<span>可是舊主板沒BIOS可更新這漏洞不就高危了</span><br>
+</p><p><b>newise: </b><br>
+<span>你们不老是说什么性能过剩啊还能再战多少年啊的么，这下好遂了你们心愿</span><br>
+</p><p><b>johnie: </b><br>
+<span>gofbayrf 发表于 2019-5-15 15:57</span><br>
+<span>可是舊主板沒BIOS可更新這漏洞不就高危了</span><br>
+<span>不更新才不会降低性能呀</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>johnie 发表于 2019-5-15 16:02</span><br>
+<span>不更新才不会降低性能呀</span><br>
+<span>可是WINDOWS會....這就是既高危 又享受不到性能</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>美军痛心疾首，又要退役一批武器了。网络战用武器级电子病毒。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elflie: </b><br>
+<span>你也用小无相功练少林寺72绝技？</span><br>
+</p><p><b>bm7号: </b><br>
+<span> 本帖最后由 bm7号 于 2019-5-15 16:44 编辑 </span><br>
+<span>那么就打个游戏的话幽灵和熔断补丁是不是只应响硬盘跑分？</span><br>
+</p><p><b>雪影: </b><br>
+<span>另一个新闻，说的是关HT的</span><br>
+<span>你以为你买的是8700？</span><br>
+<span>intel：不，你买的还是8500</span><br>
+</p><p><b>xxren: </b><br>
+<span>アーシェス 发表于 2019-5-15 15:56</span><br>
+<span>求你们了，让我漏着洞跑吧，我要性能（</span><br>
+<span>我在想漏着洞跑是什么姿势</span><br>
+<span>—— 来自 HUAWEI NXT-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>家用环境下影响不大，你的应用和网页都是可控的，主要问题在云服务器商那里，一台电脑 上几百个小鸡，要是一个小鸡就能访问不属于他的其它机器 里面的内容，那就完蛋 了</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>这个漏洞不算是intel的锅。</span><br>
+<span>intel酷睿核心构架是10年前开发的，当时设计规范并没有对侧信道攻击方法的防御，因为侧信道攻击方法差不多是10年左右才有人提出来的。</span><br>
+<span>侧信道攻击最开始是用在3G sim卡，猜密码用的。后来有人给intel芯片也用了一样的方法，然后就开始有了熔断漏洞。</span><br>
+<span>这个漏洞影响大，主要是发现了侧信道攻击这个攻击方法，只要intel不把自己的构架大改，intel的漏洞会源源不断地被发现。</span><br>
+<span>而ryzen的开发时间正好碰上了侧信道攻击方法，所以在设计开始的时候ryzen就已经考虑的安全问题。</span><br>
+<span>而最近的路线图看来，Intel并没有plan B，所有的芯片还是lake构架，估计这个芯片漏洞还会大量出现。</span><br>
+<span>毕竟发现一个洞基本上这个实验室两年温饱有希望了。</span><br>
+</p><p><b>火烧云: </b><br>
+<span>AMD年年翻身，这咸鱼双面煎得金黄喷香</span><br>
+<span>前两天看到新闻说在德国市占率超过intel了？可是看全球市占还是很低啊，应该不及奔腾双核时代吧</span><br>
+</p><p><b>macos: </b><br>
+<span>mds，intel连续发了几个文，然后说8部分9全部已经无效，更早的等厂家补丁（然而基本不鸟他</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>kumquat_cc 发表于 2019-5-15 20:22</span><br>
+<span>这个漏洞不算是intel的锅。</span><br>
+<span>intel酷睿核心构架是10年前开发的，当时设计规范并没有对侧信道攻击方法的防御 ...</span><br>
+<span>我想问一下那个所谓的高精度计时器是啥场景下用的 如果关闭这个功能 比如降低点精度 不就判断不出来哪些是分支预测失败暂存的数据了吗</span><br>
+</p><p><b>flymop: </b><br>
+<span>starash 发表于 2019-5-15 14:52</span><br>
+<span>喂喂, 我可不可以认为intel酷睿2对AMD实现的反超其本质是用漏洞换性能?</span><br>
+<span>其实牙膏厂从P4后就已经在快速丧失 ...</span><br>
+<span>不是，是4发射对3发射</span><br>
+</p><p><b>albertfu: </b><br>
+<span>今天云服务商也来信说正在修复MDS漏洞了，上次类似信件还是去年初meltdown/spectre那波</span><br>
+</p><p><b>starash: </b><br>
+<span>flymop 发表于 2019-5-15 21:14</span><br>
+<span> 不是，是4发射对3发射</span><br>
+<span>其实我就是口胡下... 当然没这么好康。</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>fengmenglong 发表于 2019-5-15 21:10</span><br>
+<span>我想问一下那个所谓的高精度计时器是啥场景下用的 如果关闭这个功能 比如降低点精度 不就判断不出来哪些 ...</span><br>
+<span>起码profiling, benchmark要用到吧。</span><br>
+<span>没了计时器，跑分以后怎么跑?</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>已经开始上补丁了，晚上win10就更新了下台机子打算直接3A了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>御坂14084: </b><br>
+<span>AMD SMT天然免疫幽灵和熔断 intel只能通过关HT来补救</span><br>
+</p><p><b>jonz: </b><br>
+<span>下台笔记本想买ryzen，可是3:2的好像没有啊</span><br>
+</p><p><b>heimu: </b><br>
+<span>melvin117 发表于 2019-5-15 15:12</span><br>
+<span>不是yes变强了，是牙膏又变弱了</span><br>
+<span>出啥出，9700K恐成最大赢家了。这个漏洞是针对超线程的。</span><br>
+</p><p><b>threefcata: </b><br>
+<span>kumquat_cc 发表于 2019-5-15 20:22</span><br>
+<span>这个漏洞不算是intel的锅。</span><br>
+<span>intel酷睿核心构架是10年前开发的，当时设计规范并没有对侧信道攻击方法的防御 ...</span><br>
+<span>还是算intel的锅，做性能优化的时候没有考虑权限问题。</span><br>
+<span>另外侧信道不是什么新概念，安全领域已经知道这个概念几十年了。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>bios不更新了，win10下这个补丁会降低多少性能</span><br>
+</p><p><b>melvin117: </b><br>
+<span>heimu 发表于 2019-5-15 23:53</span><br>
+<span>出啥出，9700K恐成最大赢家了。这个漏洞是针对超线程的。</span><br>
+<span>想上zen2</span><br>
+</p><p><b>acalephs: </b><br>
+<span>kumquat_cc 发表于 2019-5-15 20:22</span><br>
+<span>这个漏洞不算是intel的锅。</span><br>
+<span>intel酷睿核心构架是10年前开发的，当时设计规范并没有对侧信道攻击方法的防御 ...</span><br>
+<span>旁路攻击的概念几十年前就有了，只不过以前没人想到真的可以应用在CPU内部而已</span><br>
+</p><p><b>Sheny: </b><br>
+<span>melvin117 发表于 2019-5-16 00:29</span><br>
+<span>想上zen2</span><br>
+<span>zen2提升有，但相对intel劣势项目上肯定还有不小差距。优点是内存控制器从新做了，应该会有比较大的内存效能提升。pcie4现阶段意义不大，而且肯定无法拆分，不用去想它。然后价格很微妙，到处是捧杀和主板厂商封口令，感觉amd和主板商对于zen2平台理念上有分歧。amd偏向继续走之前的低调核心数优势策略，主板上则想赚一波高大上x570。</span><br>
+</p><p><b>melvin117: </b><br>
+<span>Sheny 发表于 2019-5-16 01:31</span><br>
+<span>zen2提升有，但相对intel劣势项目上肯定还有不小差距。优点是内存控制器从新做了，应该会有比较大的内存 ...</span><br>
+<span>等有B板主频能过4.5就yes一轮，看到牙膏就是不顺眼</span><br>
+</p><p><b>にまぴ: </b><br>
+<span>搭车问问，amd cpu + 黄老板显卡会有啥问题么</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>threefcata 发表于 2019-5-16 00:00</span><br>
+<span>还是算intel的锅，做性能优化的时候没有考虑权限问题。</span><br>
+<span>另外侧信道不是什么新概念，安全领域已经知道这 ...</span><br>
+<span>概念确实很早就出了。</span><br>
+<span>但真正流行起来是1几年那会上交做的针对3G芯片的侧信道硬件攻击。</span><br>
+<span>然后不到一年，就有基于灰盒加密算法的侧信道攻击，软件层面上的。</span><br>
+<span>这次搞的intel起源在硬件，但是落脚点在软件。</span><br>
+<span>酷睿构架刚开始做的时候，那会连二进制插桩工具都没几个，全球会写gdb脚本的人都不算多，那会你要是谈基于软件的侧信道攻击，大家都会觉得你在开玩笑</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>acalephs 发表于 2019-5-16 01:21</span><br>
+<span>旁路攻击的概念几十年前就有了，只不过以前没人想到真的可以应用在CPU内部而已 ...</span><br>
+<span>这个算是软件层面上的，只不过算法是固化在硬件上的。</span><br>
+<span>攻击手段和测试方法和通常理解那个旁路攻击有点差别</span><br>
+</p><p><b>acalephs: </b><br>
+<span>kumquat_cc 发表于 2019-5-16 08:56</span><br>
+<span>这个算是软件层面上的，只不过算法是固化在硬件上的。</span><br>
+<span>攻击手段和测试方法和通常理解那个旁路攻击有点差 ...</span><br>
+<span>软件上旁路攻防研究了很久了，只是一直没想到CPU里还有这种能利用的漏洞</span><br>
+<span>UNIX输错密码要卡半天就是最早的反旁路攻击手段之一</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831681[0-50]</guid>
+    </item>
+  </channel>
+</rss>

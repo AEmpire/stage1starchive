@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>笔电接2K显示器出问题了。。。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>笔电接2K显示器出问题了。。。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:36:31 +0000</lastBuildDate>
+    <item>
+      <title>笔电接2K显示器出问题了。。。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860229-1-1.html</link>
+      <description>笔电接2K显示器出问题了。。。&#13;
+新的笔记本，用HDMI接戴尔U2713HM，只能1080P，一查是显示器HDMI就支持到1080P，换了条HDMI-DP线，结果插上去黑屏，检测不到显示器
+&#13;
+还能咋办？</description>
+      <content:encoded><![CDATA[<p><b>psi: </b><br>
+<span>笔电接2K显示器出问题了。。。</span><br>
+<span>新的笔记本，用HDMI接戴尔U2713HM，只能1080P，一查是显示器HDMI就支持到1080P，换了条HDMI-DP线，结果插上去黑屏，检测不到显示器</span><br>
+<span>还能咋办？</span><br>
+</p><p><b>downforce: </b><br>
+<span>你是要笔记本的hdmi接口接显示器的dp接口吗？好像没见过这样的转接线，在京东和亚马逊上查到的都是dp2dhmi线，这是单向的不能反过来用。</span><br>
+<img src="https://img30.360buyimg.com/sku/jfs/t1/29737/21/8168/91521/5c73ae84Ede17f608/f9754cb041a5ae14.jpg" title="https://img30.360buyimg.com/sku/jfs/t1/29737/21/8168/91521/5c73ae84Ede17f608/f9754cb041a5ae14.jpg"><br>
+</p><p><b>downforce: </b><br>
+<span>hdmi2dvi是可以双向互转的。dell社区上有同样问题就是这么解决的。</span><br>
+<span>https://www.dell.com/community/Monitors/Cannot-display-2560x1440-on-U2713HM-by-hdmi/td-p/4136515</span><br>
+</p><p><b>psi: </b><br>
+<span>谢谢楼上，原来是这样</span><br>
+</p><p><b>psi: </b><br>
+<span>查了下hdmi-dvi支持高分辨率也不好搞，算了，放弃</span><br>
+</p><p><b>bad_alloc: </b><br>
+<span>笔记本有雷电3吗？试试雷电3转dp线？</span><br>
+</p><p><b>psi: </b><br>
+<span>bad_alloc 发表于 2019-10-19 09:21</span><br>
+<span>笔记本有雷电3吗？试试雷电3转dp线？</span><br>
+<span>莫有，只有USB3</span><br>
+</p><p><b>downforce: </b><br>
+<span>psi 发表于 2019-10-19 09:14</span><br>
+<span>查了下hdmi-dvi支持高分辨率也不好搞，算了，放弃</span><br>
+<span>不会吧，我看京东才20元，甚至还有13元的，不过没见的牌子。</span><br>
+<span>https://item.m.jd.com/product/1299583.html?wxa_abtest=o&utm_user=plusmember&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>psi 发表于 2019-10-19 09:14</span><br>
+<span>查了下hdmi-dvi支持高分辨率也不好搞，算了，放弃</span><br>
+<span>dvi和hdmi的接口定义完全一致，区别只是hdmi在消隐期插入了音频数据(本身消隐期的设定也是为了古早的显像管设计的，现在多很多降低消隐期占比，降低数据率的设计)</span><br>
+<span>所以我觉得不需要担心，在某种程度上，两者的兼容性比你想象的好的多，根本不需要额外的芯片做桥接，就是直接连连线。</span><br>
+<span>反而接收端DVI的电路如何，才是关键</span><br>
+</p><p><b>yewenchi: </b><br>
+<span>为什么我买的绿联HDMI转DVI只有480P😂</span><br>
+</p><p><b>psi: </b><br>
+<span>downforce 发表于 2019-10-19 10:16</span><br>
+<span>不会吧，我看京东才20元，甚至还有13元的，不过没见的牌子。</span><br>
+<span>https://item.m.jd.com/product/1299583.htm ...</span><br>
+<span>我看很多也只能上到1080p啊</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>zmw_831110 发表于 2019-10-19 10:45</span><br>
+<span>dvi和hdmi的接口定义完全一致，区别只是hdmi在消隐期插入了音频数据(本身消隐期的设定也是为了古早的显像 ...</span><br>
+<span>hdmi只能和dvi sl等效，和dvi dl不一样转不出来</span><br>
+</p><p><b>碳.: </b><br>
+<span>psi 发表于 2019-10-19 09:24</span><br>
+<span>莫有，只有USB3</span><br>
+<span>usb可以转dp啊，4k 60hz都能跑，几十块钱</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>你能买到的所有dvi到hdmi的转换都只支持1080p，因为dvi接口上1440p需要dual-link，25（24+1）针接口，而19（18+1）的single-link是只能到1080p的</span><br>
+<span>你也许会问，我看转换线dvi口那边是25针接口的，难道不能用么？不能用，因为另一边hdmi口只有19针，dvi口多的6针是空接的，所以只能按19针的single-link走，也就是1080p</span><br>
+<span>想当初hdmi制定标准的时候，因为和dvi同用tmds，所以其实是有跟dual-link dvi相对应的29针type b口的，可惜根本没有应用……</span><br>
+</p><p><b>无念: </b><br>
+<span>所以你笔记本只有HDMI么？</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>psi: </b><br>
+<span>碳. 发表于 2019-10-19 10:53</span><br>
+<span>usb可以转dp啊，4k 60hz都能跑，几十块钱</span><br>
+<span>是转接头还是一根线？</span><br>
+</p><p><b>downforce: </b><br>
+<span>psi 发表于 2019-10-19 10:48</span><br>
+<span>我看很多也只能上到1080p啊</span><br>
+<span>了解了，这种线只有独立显卡的dvi接口接显示器的hdmi接口可以做到4k@60hz，反过来接就只能1080p了。因为独立显卡的dvi接口内部实际就是hdmi。</span><br>
+</p><p><b>碳.: </b><br>
+<span>psi 发表于 2019-10-19 11:53</span><br>
+<span>是转接头还是一根线？</span><br>
+<span>就是一根线，USB-C输出DP信号本来就是支持的</span><br>
+</p><p><b>password: </b><br>
+<span>downforce 发表于 2019-10-19 07:53</span><br>
+<span>你是要笔记本的hdmi接口接显示器的dp接口吗？好像没见过这样的转接线，在京东和亚马逊上查到的都是dp2dhmi ...</span><br>
+<span>有的啦</span><br>
+<span>https://item.jd.com/10393189817.html</span><br>
+<span>LZ买一个这个就行了</span><br>
+</p><p><b>downforce: </b><br>
+<span>碳. 发表于 2019-10-19 12:58</span><br>
+<span>就是一根线，USB-C输出DP信号本来就是支持的</span><br>
+<span>不一定的，而且大部分都不能。</span><br>
+<span>https://www.zhihu.com/question/54732832</span><br>
+</p><p><b>碳.: </b><br>
+<span>downforce 发表于 2019-10-19 13:19</span><br>
+<span>不一定的，而且大部分都不能。</span><br>
+<span>https://www.zhihu.com/question/54732832</span><br>
+<span>USB和雷电又不是一回事，一般不带HDMI的USB口都可以输出DP</span><br>
+<span>不如楼主直接报型号然后查说明书</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2019-10-19 15:44 编辑 </span><br>
+<span>碳. 发表于 2019-10-19 14:24</span><br>
+<span>USB和雷电又不是一回事，一般不带HDMI的USB口都可以输出DP</span><br>
+<span>不如楼主直接报型号然后查说明书 ...楼主的笔记本带HDMI接口。</span><br>
+<span>雷电3接口外型也是usb-c。说白了usb-c只是物理接口，实际用的啥传输协议都有可能。</span><br>
+</p><p><b>fukc: </b><br>
+<span>笔记本只有hdmi输出么？</span><br>
+</p><p><b>shadowm: </b><br>
+<span> 本帖最后由 shadowm 于 2019-10-19 16:58 编辑 </span><br>
+<span>2K显示器的HDMI接口不支持2K？？？ 不应该吧</span><br>
+<span>好吧...搜了下还真是..</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860229[0-50]</guid>
+    </item>
+  </channel>
+</rss>

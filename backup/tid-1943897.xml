@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>显示器使用切屏器后PC输出会随机黑屏</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>显示器使用切屏器后PC输出会随机黑屏</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:25:30 +0000</lastBuildDate>
+    <item>
+      <title>显示器使用切屏器后PC输出会随机黑屏[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943897-1-1.html</link>
+      <description>显示器使用切屏器后PC输出会随机黑屏&#13;
+租的房子只有一台27寸的2k分辨率显示器， 为了避免hdmi接口反复插拔，买了一个5进1出的切屏器。switch以1080p分辨率输出问题倒不大（观感上真是三步抗锯齿），但切换到pc端时就不怎么稳定了。如果电脑本身在工作状态，用遥控切换倒没啥问题。但电脑刚开机或者重启时，哪怕switch底座没插着主机，屏幕也会时常显示黑屏无信号，正常进入显示桌面反而挺看人品。这时如果switch底座插上主机，信号切过去，画面又有了。而且最奇葩的是，哪怕这时把切屏器拔了，hdmi线直连电脑和显示器，甚至重启电脑电源，也是显示无信号。这属于啥问题，怎么解决？我PC桌面分辨率是2560x1440p</description>
+      <content:encoded><![CDATA[<p><b>飞奔的拓拓: </b><br>
+<span>显示器使用切屏器后PC输出会随机黑屏</span><br>
+<span>租的房子只有一台27寸的2k分辨率显示器， 为了避免hdmi接口反复插拔，买了一个5进1出的切屏器。switch以1080p分辨率输出问题倒不大（观感上真是三步抗锯齿），但切换到pc端时就不怎么稳定了。如果电脑本身在工作状态，用遥控切换倒没啥问题。但电脑刚开机或者重启时，哪怕switch底座没插着主机，屏幕也会时常显示黑屏无信号，正常进入显示桌面反而挺看人品。这时如果switch底座插上主机，信号切过去，画面又有了。而且最奇葩的是，哪怕这时把切屏器拔了，hdmi线直连电脑和显示器，甚至重启电脑电源，也是显示无信号。这属于啥问题，怎么解决？我PC桌面分辨率是2560x1440p</span><br>
+</p><p><b>snaked: </b><br>
+<span>有可能是线材问题，建议使用切换器时两段线缆总长度不要超过3米</span><br>
+<span>个人遇到过类似的情况，使用DP KVM接2K@165Hz的显示器（同时开启G-Sync），开机黑屏，进系统后恢复显示，然后使用过程中偶尔会黑一下</span><br>
+<span>考虑到一般的切换器没有信号放大功能，反而还会损失一部分信号质量，就把2米+1.8米的DP 1.2线材换成1.8米DP1.2+1米DP1.4，故障排除至今无复发</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>snaked 发表于 2020-6-24 21:19</span><br>
+<span>有可能是线材问题，建议使用切换器时两段线缆总长度不要超过3米</span><br>
+<span>个人遇到过类似的情况，使用DP KVM接2K@165 ...</span><br>
+<span>我是黑屏后一直没反应，得多次重启看人品才能进系统。而且我switch的hdmi线和PC的线看长度差距也不大，没理由switch的切换一点问题都没有啊。</span><br>
+</p><p><b>snaked: </b><br>
+<span> 本帖最后由 snaked 于 2020-6-24 23:15 编辑 </span><br>
+<span>飞奔的拓拓 发表于 2020-6-24 22:23</span><br>
+<span>我是黑屏后一直没反应，得多次重启看人品才能进系统。而且我switch的hdmi线和PC的线看长度差距也不大，没 ...</span><br>
+<span>还是建议考虑线材跟端口问题，分辨率上到2K后线材对信号的影响远比想象中要大</span><br>
+<span>switch毕竟只到1080p，带宽要求比2K小很多</span><br>
+<span>补充下我这边的具体情况与排雷过程供参考：</span><br>
+<span>DP切换器输入1接的是PC上的1070，输入2接烂脑娃的USB-C扩展坞上的DP口</span><br>
+<span>这个扩展坞接过各种各样的笔记本，同样是1.8米+1米的线缆，PC很稳定，扩展坞就很挑线，开机必黑屏，进系统看人品，如果没显示则要关闭一次扩展坞才有显示，系统下偶尔还是会黑屏</span><br>
+<span>某天突然间反应过来，应该要把笔记本到扩展坞这段type-c的线长也算进去</span><br>
+<span>最终输入2这端换成1米（type-c到扩展坞）+0.7米(到切换器)+1米（到显示器）才最终解决问题</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>snaked 发表于 2020-6-24 22:53</span><br>
+<span>还是建议考虑线材跟端口问题，分辨率上到2K后线材对信号的影响远比想象中要大</span><br>
+<span>switch毕竟只到1080p，带宽 ...</span><br>
+<span>有没有可能是PC和switch输出分辨率不同，造成一开始显示适配出问题？因为我以为是切屏器本身有问题，又买了一根1米dp1.4的线让PC直接走dp接口，switch则直接接hdmi口。结果switch关了后，开电脑还是会黑屏。</span><br>
+</p><p><b>cao1rui2: </b><br>
+<span>你转换器接电源没有？</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>cao1rui2 发表于 2020-6-24 23:40</span><br>
+<span>你转换器接电源没有？</span><br>
+<span>我这个转换器不需要接电源的。切换信号源时，不管是switch还是电视盒子都没问题，只有PC端的在开机时会黑屏。</span><br>
+</p><p><b>cao1rui2: </b><br>
+<span>飞奔的拓拓 发表于 2020-6-24 23:42</span><br>
+<span>我这个转换器不需要接电源的。切换信号源时，不管是switch还是电视盒子都没问题，只有PC端的在开机时会黑 ...</span><br>
+<span>我也是5进1的，不接电源切换就有问题，接了电源就没问题。</span><br>
+</p><p><b>midearth: </b><br>
+<span>我的也是，有个micro USB的电源输入，不插电源偶尔会间歇黑屏，插上就好了</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>藤原亮政: </b><br>
+<span>不用接電源是靠HDMI供電的</span><br>
+<span>如果HDMI供電不足就會出現黑屏/閃屏狀況</span><br>
+<span>最好還是買能接USB電源的款</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>snaked 发表于 2020-6-24 22:53</span><br>
+<span>还是建议考虑线材跟端口问题，分辨率上到2K后线材对信号的影响远比想象中要大</span><br>
+<span>switch毕竟只到1080p，带宽 ...</span><br>
+<span>哪里有卖DP切换口的，我找了很长时间都没买到……</span><br>
+<span>—— 来自 vivo V1986A, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>信号完整性有问题了吧，这些切换器很多都不是带retimer的结果就是有的时候链接训练时间很长，还对线的移动很敏感，如果source输出信号强度品质不够就可能出各种问题</span><br>
+<span>—— 来自 vivo V1986A, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>snaked: </b><br>
+<span>飞奔的拓拓 发表于 2020-6-24 23:36</span><br>
+<span>有没有可能是PC和switch输出分辨率不同，造成一开始显示适配出问题？因为我以为是切屏器本身有问题，又买 ...</span><br>
+<span>应该不会是这个问题，除非分辨率超出显示器支持范围了，遇到过部分主板的POST画面分辨率确实奇葩，接HDMI或DP输出时显示器OSD一直提示out of range ，POST完毕后才正常</span><br>
+<span>听你描述，是说PC单独走DP开机依然会黑屏，还是在切换到PC时，关闭switch的一瞬间显示器会黑屏一下？</span><br>
+<span>如果是前者，也许是DP的兼容性问题，使用替换法在PC跟显示器上找原因</span><br>
+<span>如果是后者，估计时显示器自身的策略，设备插拔时会重置一下显示</span><br>
+<span>其实如果初衷只是觉得插拔显示器HDMI端口不方便，那最省事的方法就是买一根HDMI2.0延长线接显示器上，这样插拔起来很方便，也不会有兼容性问题，而且损耗的只是延长线的端口寿命</span><br>
+</p><p><b>snaked: </b><br>
+<span>Gnyueh 发表于 2020-6-25 05:54</span><br>
+<span>哪里有卖DP切换口的，我找了很长时间都没买到……</span><br>
+<span>—— 来自 vivo V1986A, Android 10上的 S1Next-鹅版...</span><br>
+<span>狗东上搜DisplayPort切换器，第一页就有，当前带线材的五百多，不带线材499，建议不带线材的，原装线材质量很一般</span><br>
+</p><p><b>飞奔的拓拓: </b><br>
+<span>snaked 发表于 2020-6-25 18:49</span><br>
+<span>应该不会是这个问题，除非分辨率超出显示器支持范围了，遇到过部分主板的POST画面分辨率确实奇葩，接HDMI ...</span><br>
+<span>dp线后来有开机正常的，应该不是线材的问题。hdmi的线我也换过，并没有不同。感觉可能还是显示器的问题？解码芯片暂时因为分辨率不适应宕机没反应的可能性有没有？</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>snaked 发表于 2020-6-25 18:55</span><br>
+<span>狗东上搜DisplayPort切换器，第一页就有，当前带线材的五百多，不带线材499，建议不带线材的，原装线材质 ...</span><br>
+<span>HDMI切换器一般都是100不到的，不知道DP为什么这么贵，我去年看的时候还都是700多……最后海淘了一个，180的，除了信号切换训练时间有点长之外差不多能用</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943897[0-50]</guid>
+    </item>
+  </channel>
+</rss>

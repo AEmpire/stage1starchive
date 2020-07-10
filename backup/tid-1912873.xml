@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>大佬们，提一个关于如何在校园网下搭建无线网络的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>大佬们，提一个关于如何在校园网下搭建无线网络的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:19:31 +0000</lastBuildDate>
+    <item>
+      <title>大佬们，提一个关于如何在校园网下搭建无线网络的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1912873-1-1.html</link>
+      <description>大佬们，提一个关于如何在校园网下搭建无线网络的问题&#13;
+学校宿舍的网络条件是这样，接入互联网方式有两种。一种是有线网，网页或客户端认证。另一种是无线网，802.1x认证。现在希望用无线路由器搭个无线局域网，主要是用于笔记本和台式机间文件共享，另外由于ns和ps4都不支持802.1x认证，所以要给这两个设备提供网络。
+
+由于学校的网页认证似乎是自己弄的而不是常见的锐捷闪讯之类，所以暂时断了从有线网下手的念头。那么用路由器中继这个802.1x无线网的思路是否可行？查了查似乎有人尝试过这么做但也没查出个具体说法，如果可行的话应该买什么样的设备来操作呢。
+
+先谢过各位了</description>
+      <content:encoded><![CDATA[<p><b>aegisfate: </b><br>
+<span>大佬们，提一个关于如何在校园网下搭建无线网络的问题</span><br>
+<span>学校宿舍的网络条件是这样，接入互联网方式有两种。一种是有线网，网页或客户端认证。另一种是无线网，802.1x认证。现在希望用无线路由器搭个无线局域网，主要是用于笔记本和台式机间文件共享，另外由于ns和ps4都不支持802.1x认证，所以要给这两个设备提供网络。</span><br>
+<span>由于学校的网页认证似乎是自己弄的而不是常见的锐捷闪讯之类，所以暂时断了从有线网下手的念头。那么用路由器中继这个802.1x无线网的思路是否可行？查了查似乎有人尝试过这么做但也没查出个具体说法，如果可行的话应该买什么样的设备来操作呢。</span><br>
+<span>先谢过各位了</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>我们学校也是自己搞的网页登录</span><br>
+<span>线接到路由器再接到电脑上，登录一次，路由器就一直保持登录状态，然后其他设备连接这个路由器的有线或者无线都可以用了</span><br>
+<span>不知道你们的是不是这样</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>KnightHart: </b><br>
+<span>我是没怎么折腾，直接连在路由器wan口</span><br>
+<span>PC连到lan口，登陆后自动把路由器识别成一个客户端了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>阴摩罗鬼之眼: </b><br>
+<span>有个比较合理的办法就是找一个支持802.1x无线认证的AP/无线网桥，用这玩意做client，然后这玩意后面的LAN口接一个路由器，路由器后面接PS4/NS</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>当年我嫌学校里的校园网慢，出去联通营业厅办了adsl</span><br>
+</p><p><b>sunny_am: </b><br>
+<span>搞个openwrt 然后用curl之类的模拟网页登陆</span><br>
+</p><p><b>qazesz: </b><br>
+<span>网页认证还能限制共享吗？路由器下面登录一次就接通了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1912873[0-50]</guid>
+    </item>
+  </channel>
+</rss>

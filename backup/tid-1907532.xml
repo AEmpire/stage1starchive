@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>基于腾讯云对象存储的 S1 图片流量不靠谱统计 × 图床推荐</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>基于腾讯云对象存储的 S1 图片流量不靠谱统计 × 图床推荐</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:59:22 +0000</lastBuildDate>
+    <item>
+      <title>基于腾讯云对象存储的 S1 图片流量不靠谱统计 × 图床推荐[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907532-1-1.html</link>
+      <description>基于腾讯云对象存储的 S1 图片流量不靠谱统计 × 图床推荐&#13;
+ 本帖最后由 碳酸锂缓释片 于 2020-1-4 14:38 编辑 
+
+由于 S1 附件功能经常抽风，我此前发贴一直用外链图床，最常用的是 SM.MS。然而，12 月 3 日某贴（现已被删除）中，底下回贴坛友纷纷表示看不到图，最后换成了微博图床才解决。
+&#13;
+考虑到 SM.MS 毕竟是私人网站，部分地区访问不稳定；微博也开始限制外链，去掉 HTTPS 的方法也不知道能活多久，我之后开始用腾讯云对象存储作为图床使用，并迎来了自注册腾讯云以来的流量最高峰。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_10-49-50.png
+&#13;
+截至 2020 年 1 月 1 日，我共上传了 131 张图片，当月下行流量 112.81140193 GB，外部读请求 383131 次，平均每张图片请求 2925 次，总费用为 53.193755 元。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.24.46%402x.png
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.21.30%402x.png
+&#13;
+很遗憾的是，腾讯云不支持查看单个对象的请求次数，而我 12 月 27 日只发了一贴：《Fami通》总编：虽然听上去有点假，但是确实是不卖分的，且之后 3 天内都没有上传新图片。原贴阅读量只有 6694 次，但搜索关键词在Google 和百度都排名第一，比腾讯新闻和 VGtime 还高，权重惊人。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E3%80%8AFami%E9%80%9A%E3%80%8B%E6%80%BB%E7%BC%96%EF%BC%9A%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20%E6%B8%B8%E6%88%8F%E8%AE%BA%E5%9D%9B%20-%20Stage1st%20-%20stage1%20s1%20%E6%B8%B8%E6%88%8F%E5%8A%A8%E6%BC%AB%E8%AE%BA%E5%9D%9B.png
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20Google%20%E6%90%9C%E7%B4%A2.png
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%2C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84_%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2.png
+&#13;
+如果假定 27-29 日的流量都来自那贴主楼 5 张图的话，那除了 6694 次的坛友贡献，其它请求应该都来自搜索引擎爬虫、外站转载等。这 3 天的流量是 3.05198499+1.64899933+0.81988967=5.52087399 GB，图片总大小为 501.65 KB，也就是说本贴 3 天内大约被爬了 4846 次。当然，由于 S1 点击量肯定大于图片实际加载次数，搜索引擎也不一定每次都重新抓取图片，这个数字是远小于实际次数的。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.45.41%402x.png
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_09-47-17.png
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.38.58%402x.png
+&#13;
+下面是不靠谱统计学时间，假设泥潭每贴平均附 1 张图片，每张大小 1 MB，每贴每月平均被爬 3000 次。2019 年 1 月 1 日 第一贴 TID 为 1801516，12 月 31 日 最后一贴 TID 为 1906864，去年共发了 105349 贴，图片总读请求数就是 3.16 亿次，下行流量 301 TB。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2012.01.26%402x.png
+&#13;
+全部开启 CDN 加速的话，按照腾讯云对象存储计费规则，大约需支出 196 万元，三年亏魔都一套房。当然，由于估算用的数据非常非常不精确，最终结果只能图一乐。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E5%AE%9A%E4%BB%B7%E4%B8%AD%E5%BF%83%20-%20%E8%85%BE%E8%AE%AF%E4%BA%91.png
+&#13;
+个人感想：图床也太费钱了，照现在趋势，我一年为泥潭贡献的钱都够每天吃鸡蛋灌饼多加俩蛋，吃一口吐一口了。难怪个人图床倒闭一个比一个快，Flickr 被转手两次，每年亏损几千万美元，CEO 亲自发文卖情怀，求用户开会员。开 SM.MS 的大佬不愧家里有矿，简直是在做慈善。视频网站烧钱估计更惊人，爱优腾 VVVIP 都发明出来了也没止损，每年几十亿砸下去都不见底啊。
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20Flickr%20owner%20SmugMug%20says%20it%20needs%20more%20money%20to%20%E2%80%98keep%20the%20Flickr%20dream%20alive%E2%80%99.png
+&#13;
+最后做个图床小测试，请问你在国内不点击原链接的情况话能正常查看以下图床的图片么？
+&#13;
+微博-带 HTTPS（可能是国内最稳定快速的图床服务，但最近开始限制外链）
+&#13;
+https://ww1.sinaimg.cn/large/006ajUXPly1gakfg9r4cyj30l40b43yr.jpg
+&#13;
+微博-不带 HTTPS（把微博图片链接前面的 S 去掉就可以查看，不保证今后始终有效）
+&#13;
+http://ww1.sinaimg.cn/large/006ajUXPly1gakey4au2oj30l40b43yo.jpg
+&#13;
+流浪图床（S1 坛友开发，基于 Google Drive + Cloudflare，单文件大小 5 MB，原贴在此）
+&#13;
+https://p.sda1.dev/0/c2a3f885233a5fbb500870a384c52a18/%E5%9B%BE%E7%89%87.png
+&#13;
+SM.MS（国内知名图床服务，免费空间 5 GB，单文件大小 5 MB，由 V2EX 大佬开发，访问可能不稳定）
+&#13;
+https://i.loli.net/2020/01/04/qCjsylW8OVcF75v.png
+&#13;
+路过图床（国内老牌图床服务，单文件大小 5 MB，访问可能不稳定）
+&#13;
+https://s2.ax1x.com/2020/01/04/ldOQAO.png
+&#13;
+贴图库（国内老牌图床服务，单文件大小 10 MB，之前出过删除免费用户图片的事件）
+&#13;
+https://i1.fuimg.com/707293/575df92c5860ebc4.png
+&#13;
+Imgur（国外最流行的图床服务，单文件大小 20 MB，在国内大部分地区被墙）
+&#13;
+https://i.imgur.com/zkTGTKB.png
+&#13;
+Notion（近几年诞生的文档服务，采用 AWS，免费用户限制 1000 文件，单文件大小 5 MB，国内访问较慢）
+&#13;
+https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa684b7e4-bd9f-481d-a3c0-7eae29e5f491%2FUntitled.png?table=block&amp;id=7ae0b2e9-e023-4735-8493-4efcdd21fafd&amp;width=3150&amp;cache=v2
+&#13;
+语雀（阿里刚出的文档服务，抄 Notion 但没学到精髓，采用阿里云 CDN，免费流量 10 GB，单文件大小 10 MB）
+&#13;
+https://cdn.nlark.com/yuque/0/2020/png/700932/1578108886574-b838af7c-8967-460f-9622-97b206420aba.png</description>
+      <content:encoded><![CDATA[<p><b>碳酸锂缓释片: </b><br>
+<span>基于腾讯云对象存储的 S1 图片流量不靠谱统计 × 图床推荐</span><br>
+<span> 本帖最后由 碳酸锂缓释片 于 2020-1-4 14:38 编辑 </span><br>
+<span>由于 S1 附件功能经常抽风，我此前发贴一直用外链图床，最常用的是 SM.MS。然而，12 月 3 日某贴（现已被删除）中，底下回贴坛友纷纷表示看不到图，最后换成了微博图床才解决。</span><br>
+<span>考虑到 SM.MS 毕竟是私人网站，部分地区访问不稳定；微博也开始限制外链，去掉 HTTPS 的方法也不知道能活多久，我之后开始用腾讯云对象存储作为图床使用，并迎来了自注册腾讯云以来的流量最高峰。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_10-49-50.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_10-49-50.png"><br>
+<span>截至 2020 年 1 月 1 日，我共上传了 131 张图片，当月下行流量 112.81140193 GB，外部读请求 383131 次，平均每张图片请求 2925 次，总费用为 53.193755 元。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.24.46%402x.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.24.46%402x.png"><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.21.30%402x.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.21.30%402x.png"><br>
+<span>很遗憾的是，腾讯云不支持查看单个对象的请求次数，而我 12 月 27 日只发了一贴：《Fami通》总编：虽然听上去有点假，但是确实是不卖分的，且之后 3 天内都没有上传新图片。原贴阅读量只有 6694 次，但搜索关键词在Google 和百度都排名第一，比腾讯新闻和 VGtime 还高，权重惊人。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E3%80%8AFami%E9%80%9A%E3%80%8B%E6%80%BB%E7%BC%96%EF%BC%9A%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20%E6%B8%B8%E6%88%8F%E8%AE%BA%E5%9D%9B%20-%20Stage1st%20-%20stage1%20s1%20%E6%B8%B8%E6%88%8F%E5%8A%A8%E6%BC%AB%E8%AE%BA%E5%9D%9B.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E3%80%8AFami%E9%80%9A%E3%80%8B%E6%80%BB%E7%BC%96%EF%BC%9A%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20%E6%B8%B8%E6%88%8F%E8%AE%BA%E5%9D%9B%20-%20Stage1st%20-%20stage1%20s1%20%E6%B8%B8%E6%88%8F%E5%8A%A8%E6%BC%AB%E8%AE%BA%E5%9D%9B.png"><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20Google%20%E6%90%9C%E7%B4%A2.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%EF%BC%8C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84%20-%20Google%20%E6%90%9C%E7%B4%A2.png"><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%2C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84_%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E8%99%BD%E7%84%B6%E5%90%AC%E4%B8%8A%E5%8E%BB%E6%9C%89%E7%82%B9%E5%81%87%2C%E4%BD%86%E6%98%AF%E7%A1%AE%E5%AE%9E%E6%98%AF%E4%B8%8D%E5%8D%96%E5%88%86%E7%9A%84_%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2.png"><br>
+<span>如果假定 27-29 日的流量都来自那贴主楼 5 张图的话，那除了 6694 次的坛友贡献，其它请求应该都来自搜索引擎爬虫、外站转载等。这 3 天的流量是 3.05198499+1.64899933+0.81988967=5.52087399 GB，图片总大小为 501.65 KB，也就是说本贴 3 天内大约被爬了 4846 次。当然，由于 S1 点击量肯定大于图片实际加载次数，搜索引擎也不一定每次都重新抓取图片，这个数字是远小于实际次数的。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.45.41%402x.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.45.41%402x.png"><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_09-47-17.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Snipaste_2020-01-04_09-47-17.png"><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.38.58%402x.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2009.38.58%402x.png"><br>
+<span>下面是不靠谱统计学时间，假设泥潭每贴平均附 1 张图片，每张大小 1 MB，每贴每月平均被爬 3000 次。2019 年 1 月 1 日 第一贴 TID 为 1801516，12 月 31 日 最后一贴 TID 为 1906864，去年共发了 105349 贴，图片总读请求数就是 3.16 亿次，下行流量 301 TB。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2012.01.26%402x.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/CleanShot%202020-01-04%20at%2012.01.26%402x.png"><br>
+<span>全部开启 CDN 加速的话，按照腾讯云对象存储计费规则，大约需支出 196 万元，三年亏魔都一套房。当然，由于估算用的数据非常非常不精确，最终结果只能图一乐。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E5%AE%9A%E4%BB%B7%E4%B8%AD%E5%BF%83%20-%20%E8%85%BE%E8%AE%AF%E4%BA%91.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20%E5%AE%9A%E4%BB%B7%E4%B8%AD%E5%BF%83%20-%20%E8%85%BE%E8%AE%AF%E4%BA%91.png"><br>
+<span>个人感想：图床也太费钱了，照现在趋势，我一年为泥潭贡献的钱都够每天吃鸡蛋灌饼多加俩蛋，吃一口吐一口了。难怪个人图床倒闭一个比一个快，Flickr 被转手两次，每年亏损几千万美元，CEO 亲自发文卖情怀，求用户开会员。开 SM.MS 的大佬不愧家里有矿，简直是在做慈善。视频网站烧钱估计更惊人，爱优腾 VVVIP 都发明出来了也没止损，每年几十亿砸下去都不见底啊。</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20Flickr%20owner%20SmugMug%20says%20it%20needs%20more%20money%20to%20%E2%80%98keep%20the%20Flickr%20dream%20alive%E2%80%99.png" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/Screenshot_2020-01-04%20Flickr%20owner%20SmugMug%20says%20it%20needs%20more%20money%20to%20%E2%80%98keep%20the%20Flickr%20dream%20alive%E2%80%99.png"><br>
+<span>最后做个图床小测试，请问你在国内不点击原链接的情况话能正常查看以下图床的图片么？</span><br>
+<span>微博-带 HTTPS（可能是国内最稳定快速的图床服务，但最近开始限制外链）</span><br>
+<img src="https://ww1.sinaimg.cn/large/006ajUXPly1gakfg9r4cyj30l40b43yr.jpg" title="https://ww1.sinaimg.cn/large/006ajUXPly1gakfg9r4cyj30l40b43yr.jpg"><br>
+<span>微博-不带 HTTPS（把微博图片链接前面的 S 去掉就可以查看，不保证今后始终有效）</span><br>
+<img src="http://ww1.sinaimg.cn/large/006ajUXPly1gakey4au2oj30l40b43yo.jpg" title="http://ww1.sinaimg.cn/large/006ajUXPly1gakey4au2oj30l40b43yo.jpg"><br>
+<span>流浪图床（S1 坛友开发，基于 Google Drive + Cloudflare，单文件大小 5 MB，原贴在此）</span><br>
+<img src="https://p.sda1.dev/0/c2a3f885233a5fbb500870a384c52a18/%E5%9B%BE%E7%89%87.png" title="https://p.sda1.dev/0/c2a3f885233a5fbb500870a384c52a18/%E5%9B%BE%E7%89%87.png"><br>
+<span>SM.MS（国内知名图床服务，免费空间 5 GB，单文件大小 5 MB，由 V2EX 大佬开发，访问可能不稳定）</span><br>
+<img src="https://i.loli.net/2020/01/04/qCjsylW8OVcF75v.png" title="https://i.loli.net/2020/01/04/qCjsylW8OVcF75v.png"><br>
+<span>路过图床（国内老牌图床服务，单文件大小 5 MB，访问可能不稳定）</span><br>
+<img src="https://s2.ax1x.com/2020/01/04/ldOQAO.png" title="https://s2.ax1x.com/2020/01/04/ldOQAO.png"><br>
+<span>贴图库（国内老牌图床服务，单文件大小 10 MB，之前出过删除免费用户图片的事件）</span><br>
+<img src="https://i1.fuimg.com/707293/575df92c5860ebc4.png" title="https://i1.fuimg.com/707293/575df92c5860ebc4.png"><br>
+<span>Imgur（国外最流行的图床服务，单文件大小 20 MB，在国内大部分地区被墙）</span><br>
+<img src="https://i.imgur.com/zkTGTKB.png" title="https://i.imgur.com/zkTGTKB.png"><br>
+<span>Notion（近几年诞生的文档服务，采用 AWS，免费用户限制 1000 文件，单文件大小 5 MB，国内访问较慢）</span><br>
+<span>https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa684b7e4-bd9f-481d-a3c0-7eae29e5f491%2FUntitled.png?table=block&id=7ae0b2e9-e023-4735-8493-4efcdd21fafd&width=3150&cache=v2</span><br>
+<span>语雀（阿里刚出的文档服务，抄 Notion 但没学到精髓，采用阿里云 CDN，免费流量 10 GB，单文件大小 10 MB）</span><br>
+<img src="https://cdn.nlark.com/yuque/0/2020/png/700932/1578108886574-b838af7c-8967-460f-9622-97b206420aba.png" title="https://cdn.nlark.com/yuque/0/2020/png/700932/1578108886574-b838af7c-8967-460f-9622-97b206420aba.png"><br>
+</p><p><b>Nanachi: </b><br>
+<span>开 SM.MS 的大佬不愧家里有矿，简直是在做慈善。</span><br>
+<span>然而我用鹅球巨难刷出sm.ms的图，只能选择用浏览器打开然后慢慢等加载</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>Nanachi 发表于 2020-1-4 13:06</span><br>
+<span>然而我用鹅球巨难刷出sm.ms的图，只能选择用浏览器打开然后慢慢等加载 ...</span><br>
+<span>你要知道，V2EX 平均每个月都会有人发贴说他开发了一个免费图床，但坚持到现在不倒闭的只有 SM.MS 一家而已</span><br>
+</p><p><b>DiabloGundam: </b><br>
+<span> 本帖最后由 DiabloGundam 于 2020-1-4 13:09 编辑 </span><br>
+<span>如果只是单纯贴个图不涉及储存的话可以利用大网站的图片接口上传，比如这种：</span><br>
+<span>https://img.xcnte.com/</span><br>
+<span>其他的我倒也收集了一大堆...</span><br>
+</p><p><b>DiabloGundam: </b><br>
+<span>碳酸锂缓释片 发表于 2020-1-4 13:08</span><br>
+<span>你要知道，V2EX 平均每个月都会有人发贴说他开发了一个免费图床，但坚持到现在不倒闭的只有 SM.MS 一家而 ...</span><br>
+<span>听说这个站是一个真正的土豪搞的，如果他也搞不下去那更不用说其他的了.....</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>DiabloGundam 发表于 2020-1-4 13:13</span><br>
+<span>听说这个站是一个真正的土豪搞的，如果他也搞不下去那更不用说其他的了..... ...</span><br>
+<span>资深域名玩家，云服务商 xTom 创始人，锤子的 t.tt 域名就是从他那买的</span><br>
+</p><p><b>R.I.P: </b><br>
+<span> 本帖最后由 R.I.P 于 2020-1-4 14:17 编辑 </span><br>
+<span>直接用国内OSS服务作为图床对策的baseline可能不太合适，不论是大佬自建CDN还是mjj集薅羊毛之大成，量上来以后的成本应该都比用现成OSS便宜出至少一个数量级</span><br>
+<span>另外图片被访问的频率随时间流逝还是衰减的很快的，这么估计会大上很多很多</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>R.I.P 发表于 2020-1-4 14:14</span><br>
+<span>直接用国内OSS服务作为图床对策的baseline可能不太合适，不论是大佬自建CDN还是mjj集薅羊毛之大成，量上来 ...</span><br>
+<span>所以标题就写了不靠谱统计，其实估算时就是按每张图只被访问一个月算的</span><br>
+<span>顺便请问一下，你那边能正常看到语雀的外链图片么，少数派有一篇文章推荐的，上周腾讯云电话通知我个人备案不能开评论和涉及具体产品的评测，所以我打算把博客和图床都迁移过去</span><br>
+<span>快速拥有自己的博客，语雀或许是不错的选择</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>碳酸锂缓释片 发表于 2020-1-4 14:32</span><br>
+<span>所以标题就写了不靠谱统计，其实估算时就是按每张图只被访问一个月算的</span><br>
+<span>顺便请问一下，你那边能正常看到语 ...</span><br>
+<span>可以看到</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>‮agur4kI: </b><br>
+<span>把图像转字符画插html代码</span><br>
+<span>不用图床</span><br>
+<span>这是不是一个很馊的主意？</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>你直接网页买，当然贵了</span><br>
+<span>找代理，面对面谈价格，会便宜不少</span><br>
+<span>我会告诉你良心上下100M专线，一年最低能做到99？</span><br>
+</p><p><b>帕林马哲理: </b><br>
+<span>这贴里所有的图我都看得到，然而很多时候坛友的微博图都会爆炸，现在应该有些更高效的图片格式了，可惜论坛用不上。</span><br>
+</p><p><b>freeandwind: </b><br>
+<span>主要是流量贵</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>mozilla: </b><br>
+<span>看来有些图床没有经过为期一个月的时间考验</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>mozilla 发表于 2020-2-25 17:58</span><br>
+<span>看来有些图床没有经过为期一个月的时间考验</span><br>
+<span>目前挂掉的几张图都是我自己删除的</span><br>
+</p><p><b>mozilla: </b><br>
+<span>氯氮平片 发表于 2020-2-25 18:37</span><br>
+<span>目前挂掉的几张图都是我自己删除的</span><br>
+<span>你确定全部都是吗</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>mozilla 发表于 2020-2-25 18:44</span><br>
+<span>你确定全部都是吗</span><br>
+<span>确定，因为腾讯云对象存储有点费钱，我前几天被封号时把大部分在泥潭贴的图都删了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>我一直用upload可惜是香港的 最近被墙了</span><br>
+</p><p><b>mozilla: </b><br>
+<span>氯氮平片 发表于 2020-2-25 18:59</span><br>
+<span>确定，因为腾讯云对象存储有点费钱，我前几天被封号时把大部分在泥潭贴的图都删了 ...</span><br>
+<span>你误解了，我说的是“最后做个图床小测试，”以下的叉图。</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>mozilla 发表于 2020-2-25 19:02</span><br>
+<span>你误解了，我说的是“最后做个图床小测试，”以下的叉图。</span><br>
+<span>Imgur 和语雀的测试图也是我自删的</span><br>
+<span>因为 Imgur 被墙了，语雀 HTTPS 图片限制外链</span><br>
+</p><p><b>mozilla: </b><br>
+<span>氯氮平片 发表于 2020-2-25 19:19</span><br>
+<span>Imgur 和语雀的测试图也是我自删的</span><br>
+<span>因为 Imgur 被墙了，语雀 HTTPS 图片限制外链 ...</span><br>
+<span>我这边看不到的图有：</span><br>
+<span>微博-带 HTTPS</span><br>
+<span>流浪图床</span><br>
+<span>贴图库</span><br>
+<span>Notion</span><br>
+<span>这些也是？</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>mozilla 发表于 2020-2-25 19:21</span><br>
+<span>我这边看不到的图有：</span><br>
+<span>微博-带 HTTPS</span><br>
+<span>流浪图床</span><br>
+<span>微博 HTTPS 限制外链，需要手动复制链接查看</span><br>
+<span>其它几张图我都能看到</span><br>
+</p><p><b>mozilla: </b><br>
+<span> 本帖最后由 mozilla 于 2020-2-25 19:54 编辑 </span><br>
+<span>氯氮平片 发表于 2020-2-25 19:38</span><br>
+<span>微博 HTTPS 限制外链，需要手动复制链接查看</span><br>
+<span>其它几张图我都能看到</span><br>
+<span>那就很奇怪。</span><br>
+<span>你的贴图库图我这里是显示：</span><br>
+<span>流浪图床响应时间过长。不知道问题在哪里。</span><br>
+<span>http://tool.chinaz.com/speedtest/https://p.sda1.dev/</span><br>
+<span>https://img.saraba1st.com/forum/202002/25/181932gv4zased61zdsg1e.png 会不会是链接搞错了？</span><br>
+<span>Notion采用AWS的话应该是被墙，这个就不查了。</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>mozilla 发表于 2020-2-25 19:50</span><br>
+<span>那就很奇怪。</span><br>
+<span>你的贴图库图我这里是显示：</span><br>
+<span>不会啊，我直接进的。</span><br>
+<span>http://ping.chinaz.com/p.sda1.dev</span><br>
+<span>用那东西测应该把杂七杂八的https全去掉……我记得输入是自动去的，你的怎么还在</span><br>
+</p><p><b>mozilla: </b><br>
+<span>TheDoctor 发表于 2020-2-25 19:55</span><br>
+<span>不会啊，我直接进的。</span><br>
+<span>http://ping.chinaz.com/p.sda1.dev</span><br>
+<span>用那东西测应该把杂七杂八的https全去掉……我 ...</span><br>
+<span>你这个链接就好使多了……</span><br>
+<span>还是不好使，不过可以看见CDN提供商: Cloudflare，那大概是墙中墙，我这地方就是连不上，没辙。</span><br>
+</p><p><b>水上由崎: </b><br>
+<span>因为博客就在github上，所以也一直拿github当图床用……</span><br>
+<span>然而却时常会有上得了github的博客却看不到github的图的情况，怪哉怪哉……</span><br>
+</p><p><b>3Psm: </b><br>
+<span>有很多看不到：（</span><br>
+<span>留一个图床记录</span><br>
+</p><p><b>AmberWu: </b><br>
+<span>我想问下您觉得notion精髓是啥</span><br>
+</p><p><b>氯氮平片: </b><br>
+<span>AmberWu 发表于 2020-2-26 01:22</span><br>
+<span>我想问下您觉得notion精髓是啥</span><br>
+<span>发贴时语雀知识库是分成文档、表格和专栏三种，无法切换，非常死板，前几天更新 2.0 整合知识库后好用多了。</span><br>
+<span>不过语雀编辑器现阶段的功能还是不如 Notion，比如不支持嵌入网页、思维导图，块不支持无限嵌套，也不能灵活排版。</span><br>
+<span>另外，语雀暂时没有客户端，只有网页和微信小程序，比较不方便，当然国内访问速度肯定是完胜 Notion 的。</span><br>
+</p><p><b>万恶淫猥手: </b><br>
+<span>爬虫不爬图吧…</span><br>
+</p><p><b>infinitesimal7: </b><br>
+<span>在国外。imgur显示图片不存在，notion不显示，其他图都能看见。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907532[0-50]</guid>
+    </item>
+  </channel>
+</rss>

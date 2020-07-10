@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问有什么办法自动替换点击链接的网址</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问有什么办法自动替换点击链接的网址</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:37:53 +0000</lastBuildDate>
+    <item>
+      <title>请问有什么办法自动替换点击链接的网址[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901284-1-1.html</link>
+      <description>请问有什么办法自动替换点击链接的网址&#13;
+ 本帖最后由 03e7 于 2019-12-11 11:04 编辑 
+
+比如某网站，原本里面的网页地址都是www.abc.com/123/a/xxx.html，后面改版，全部改成了www.abc.com/123/b/xxx.html，但因为内容直接照搬，网页里的链接还是指向旧地址，直接点链接就全部404，需要手动改网址跳转，有没有什么办法自动替换？</description>
+      <content:encoded><![CDATA[<p><b>03e7: </b><br>
+<span>请问有什么办法自动替换点击链接的网址</span><br>
+<span> 本帖最后由 03e7 于 2019-12-11 11:04 编辑 </span><br>
+<span>比如某网站，原本里面的网页地址都是www.abc.com/123/a/xxx.html，后面改版，全部改成了www.abc.com/123/b/xxx.html，但因为内容直接照搬，网页里的链接还是指向旧地址，直接点链接就全部404，需要手动改网址跳转，有没有什么办法自动替换？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>不是应该直接联系网站管理员么？</span><br>
+</p><p><b>like0036: </b><br>
+<span>油猴脚本自己写一下应该不难吧</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>改host，把abc指向localhost，然后在nginx里面做转发到原地址</span><br>
+</p><p><b>net13p: </b><br>
+<span>CHROME 有插件Redirector</span><br>
+<span>说明</span><br>
+<span>任意重定向URL／修改HTTP头</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>同问下有没有自动把新浪图床的HTTPS改成HTTP的</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>Redirector +1</span><br>
+<img src="https://s2.ax1x.com/2019/12/11/Qs3joT.png" title="https://s2.ax1x.com/2019/12/11/Qs3joT.png"><br>
+</p><p><b>pgain2004: </b><br>
+<span>testalphagogogo 发表于 2019-12-11 17:32</span><br>
+<span>同问下有没有自动把新浪图床的HTTPS改成HTTP的</span><br>
+<span>https://greasyfork.org/zh-CN/scripts/393513</span><br>
+<span>“简单解决v2新浪图床显示问题”</span><br>
+<span>rua</span><br>
+</p><p><b>激光飞侠: </b><br>
+<span>火狐 Referer Control</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>pgain2004 发表于 2019-12-11 17:44</span><br>
+<span>https://greasyfork.org/zh-CN/scripts/393513</span><br>
+<span>“简单解决v2新浪图床显示问题”</span><br>
+<span>多谢～</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>我用 gooreplacer</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>03e7: </b><br>
+<span>小野賢章 发表于 2019-12-11 17:42</span><br>
+<span>Redirector +1</span><br>
+<span>谢谢，原来通配符是这么填的，我之前搞了半个钟都没捣鼓明白。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901284[0-50]</guid>
+    </item>
+  </channel>
+</rss>

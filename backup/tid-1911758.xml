@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【紧急抢救】S1专楼下载器（V0.22已更新）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【紧急抢救】S1专楼下载器（V0.22已更新）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:27:59 +0000</lastBuildDate>
+    <item>
+      <title>【紧急抢救】S1专楼下载器（V0.22已更新）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911758-1-1.html</link>
+      <description>写了个S1专楼下载器&#13;
+ 本帖最后由 霜落xss 于 2020-2-1 19:28 编辑 
+
+S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价值的专楼备份一下
+&#13;
+最开始想用selenium一页页的下载成mht，但是发现这样下载的网页不支持离线翻页，而且很多帖子里图片没加载完就下载了。于是一怒之下用python搓了个轮子，用requests下载帖子每页的html，然后将其中所有css、script和图片保存至本地。
+&#13;
+这样下载后的帖子可以离线翻页，方便阅读，而且不同帖子共用css、图片等资源，节约硬盘空间。缺点是删除下载的帖子时无法删除其中图片，而且下载速度比较慢，不过个人感觉还可以接受。（关爱服务器，拒绝多线程）
+&#13;
+程序非常简单，源代码扔到github了。然后用PyQt5做了一个简陋的GUI打包了成exe，自己测试了下64位win10和64位win7都能正常使用，其他系统就不确定了。
+&#13;
+用法也很简单，看界面直接操作就行。github上写了个简单的说明，需要的话可以去看看，这里就不细讲了。
+&#13;
+使用建议：
+&#13;
+[*]由于下载速度主要由论坛响应速度决定，建议在论坛流量较小时使用，比如睡前开个下载转天起来再看之类。尽量不要多开，以免对服务器造成过大压力
+&#13;
+[*]由于论坛帖子有大量共用素材（样式表、麻将脸等），当这部分素材下载完毕后，帖子下载速度会得到显著提升。比如我昨天下载漫区那个196页的WA2直播贴花了40分钟左右，这是因为里面图片很多，以文字为主的楼会更快一些。
+&#13;
+[*]由于作者水平所限，程序大概会有很多bug，如果大家使用中遇到问题欢迎在论坛或github上反馈，有希望添加的功能也欢迎提出（如果有大佬愿意接手优化就更好了）
+&#13;
+下载地址：
+&#13;
+github：https://github.com/shuangluoxss/Stage1st-downloader/releases
+&#13;
+百度网盘：链接：https://pan.baidu.com/s/1Xu0DyTYu5KVQV0YkyzWzmw提取码：fi43
+&#13;
+运行界面
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=639911&amp;size=300x300&amp;key=abde79dc931c503c&amp;nocache=yes&amp;type=fixnone&amp;ramdom=W5SSZ
+&#13;
+页面和资源文件会下载到程序运行路径的data文件夹下，全楼下载完之后会在程序运行路径同级目录生成一个 帖子标题.html，指向下载好的页面。只要保证html、data文件夹、source文件夹的相对位置不变，网页就可以正常打开。
+&#13;
+另外需要提到的是，下载器在下载时会自动跳过已经存在的文件，所以下载中断基本没有影响，重新开始后很很快就能达到之前的进度</description>
+      <content:encoded><![CDATA[<p><b>霜落xss: </b><br>
+<span>爵士人生 发表于 2020-2-2 00:12</span><br>
+<span>我记得美国大选楼有人备份成单一离线网页，就一个单html文件的这种，还可以翻页。</span><br>
+<span>这种是怎么实现的？ ...</span><br>
+<span>如果是单一网页+文件夹的话其实和我这个是一样的，原理就是把html里翻页用到的链接都下载到本地，那个单一网页相当于一个入口</span><br>
+<span>更具体地说，网站翻页的本质是从服务器上读取其它文件，只要把需要的文件都下载到本地，就可以在本地翻了</span><br>
+<span>（如果是纯单一网页没有文件夹，类似mht那种的话，我就不知道是怎么弄的了……</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>二狗还我五块钱 发表于 2020-2-2 00:14</span><br>
+<span>会有收藏的帖子批量备份功能吗</span><br>
+<span>打算做，应该下版就会加上。这个代码实现很简单，就是gui的布局没想好该怎么弄，现在已经这么丑了，再加按钮感觉要丑破天际</span><br>
+</p><p><b>adonai: </b><br>
+<span>又试了试，2.0好很多，下载速度快很多，下完chrome也能正常打开了，但是所有图片都是X，只有默认头像是正常的，但所有头像都变成了默认头像</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>霜落xss 发表于 2020-2-2 00:19</span><br>
+<span>如果是单一网页+文件夹的话其实和我这个是一样的，原理就是把html里翻页用到的链接都下载到本地，那个单 ...</span><br>
+<span>没有文件夹的，就一个五六百兆的html文件，不是mhtml。</span><br>
+<span>chrome也有把网页存为单html文件的扩展应用，但不支持论坛翻页。</span><br>
+<span>那个美国大选的离线文件却可以翻页，我觉得很神奇</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>霜落xss 发表于 2020-2-2 00:22</span><br>
+<span>打算做，应该下版就会加上。这个代码实现很简单，就是gui的布局没想好该怎么弄，现在已经这么丑了，再加 ...</span><br>
+<span>可以扩大一点，读取收藏显示在下面。批量输入链接也可以显示帖子标题在同一个位置</span><br>
+</p><p><b>细雨湿流光: </b><br>
+<span>专楼下载完成，几个九头巨魔和圣母婊整天在那占据道德高地满地打滚，冲水了也不怕这群傻逼不认账</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>adonai 发表于 2020-2-2 00:37</span><br>
+<span>又试了试，2.0好很多，下载速度快很多，下完chrome也能正常打开了，但是所有图片都是X，只有默认头像是正常 ...</span><br>
+<span>多谢捉虫~</span><br>
+<span>试了下发现是线程多了之后有时图片下载会404，我把线程数改小到4，然后加了个是否下载成功的判断，现在应该好了</span><br>
+</p><p><b>deadpeople: </b><br>
+<span> 本帖最后由 deadpeople 于 2020-2-2 03:51 编辑 </span><br>
+<span>请问 No Such file or directory:（帖子名称）.html是什么问题呢</span><br>
+<span>草，我自己发现什么问题了，那个帖子标题里有/这个符号，但是文件名是不能带/的，所以无法创建</span><br>
+</p><p><b>adonai: </b><br>
+<span>霜落xss 发表于 2020-2-2 01:42</span><br>
+<span>多谢捉虫~</span><br>
+<span>试了下发现是线程多了之后有时图片下载会404，我把线程数改小到4，然后加了个是否下载成功的判 ...</span><br>
+<span>0.2用时3分多钟的帖子，0.21用时8分多钟，下完chrome能顺利打开，但打开速度很慢，至少1分钟，开始我还以为和0.1版那样打不开，结果等了下打开了，图片全部正常，但页面打开后图片加载又用了不少时间，翻页也很慢，不过我觉得这不是下载的问题，总之，还不错，作为存档工具的话，够用了</span><br>
+<span>我用的这个贴测试的，https://bbs.saraba1st.com/2b/thread-1861288-1-1.html</span><br>
+</p><p><b>可知歌者也奈何: </b><br>
+<span>感谢大佬</span><br>
+<span>—— 来自 Sony G8232, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>朝仓型美羽: </b><br>
+<span>霜落xss 发表于 2020-2-1 22:55</span><br>
+<span>大概是权限的问题，别放在C盘再跑下试试？</span><br>
+<span>电脑小白问一下，电脑只有一个C盘怎么办</span><br>
+</p><p><b>rahicis: </b><br>
+<span>马克一下，感谢楼主。</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>朝仓型美羽 发表于 2020-2-2 09:10</span><br>
+<span>电脑小白问一下，电脑只有一个C盘怎么办</span><br>
+<span>只要别放在系统文件夹里（Windows、Program Files等）就行，比如自己在C盘根目录创建的文件夹里都没问题</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>adonai 发表于 2020-2-2 03:51</span><br>
+<span>0.2用时3分多钟的帖子，0.21用时8分多钟，下完chrome能顺利打开，但打开速度很慢，至少1分钟，开始我还以 ...</span><br>
+<span>感谢测试。chrome加载慢的问题我这里也一样，firefox和edge都是秒开，chrome就卡得不行，暂时没弄明白原因……</span><br>
+</p><p><b>deadpeople: </b><br>
+<span>请问楼主能解决一下帖子标题里含有特殊字符（\ / ? * |）这样的符号导致文件名不能创建的问题吗</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>deadpeople 发表于 2020-2-2 10:50</span><br>
+<span>请问楼主能解决一下帖子标题里含有特殊字符（\ / ? * |）这样的符号导致文件名不能创建的问题吗 ...</span><br>
+<span>多谢捉虫，其实下载资源文件时做了类似特殊字符替换，结果最后写标题网页时忘了，马上就更新上去</span><br>
+</p><p><b>饿梦: </b><br>
+<span>是不是下载完了以后就不能随便移动，移动了就打不开了？</span><br>
+</p><p><b>Ozen: </b><br>
+<span>想了想，有没有可能不下载图片，然后部署在服务器上当作帖子备份。</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>饿梦 发表于 2020-2-2 11:48</span><br>
+<span>是不是下载完了以后就不能随便移动，移动了就打不开了？</span><br>
+<span>可以移动，但必须整体移动，保持网页文件和data文件夹的相对位置不变</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>Ozen 发表于 2020-2-2 12:21</span><br>
+<span>想了想，有没有可能不下载图片，然后部署在服务器上当作帖子备份。</span><br>
+<span>可以，而且其实比下载更简单。但这样备份相当于只保留文本，图片能存多久完全就听天由命了</span><br>
+</p><p><b>yst234: </b><br>
+<span>感谢楼主无私奉献的工具和代码！</span><br>
+<span>我在原有程序的基础上加了命令行界面，如果自己有服务器的话可以用自己的服务器挂机下载了～</span><br>
+<span>使用方法：先将代码 clone 下来（Github: https://github.com/PvtTony/Stage1st-downloader）</span><br>
+<span>然后 先安装依赖</span><br>
+<span> pip3 install -r requirements.txt</span><br>
+<span>之后运行</span><br>
+<span>python3 ./S1_downloader_cli.py 帖子地址 -u 用户名 -p 密码 </span><br>
+<span>就可以了</span><br>
+<span>帖子地址可以同时输入多个 比如</span><br>
+<span> python3 ./S1_downloader_cli.py ”https://bbs.saraba1st.com/2b/thread-1911758-3-1.html“ ”https://bbs.saraba1st.com/2b/thread-1911763-0-1.html“</span><br>
+<span>可以一起下载两个帖子</span><br>
+<span>原有程序的特点在这里也一并保留</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>yst234 发表于 2020-2-2 20:52</span><br>
+<span>感谢楼主无私奉献的工具和代码！</span><br>
+<span>我在原有程序的基础上加了命令行界面，如果自己有服务器的话可以用自己的 ...</span><br>
+<span>出手优化的大佬出现了，赞！</span><br>
+<span>我写代码属于野路子出身，没有任何代码结构、运行日志、异常处理的概念，所有函数都糊成一坨，能跑就行。这样自己用的时候还能修修补补的凑合，拿给别人用的时候就很蛋疼了，而且后续修改也是越来越麻烦。</span><br>
+<span>之前也试过去看一些成熟的py源码学习里面的写法，但收效一直不大。直到这次看了自己写的一坨东西解耦前后的对比，好多地方终于开始理解了，真的是非常感谢！</span><br>
+</p><p><b>Ozen: </b><br>
+<span>我走了个歪路子，利用GitHub的markdown解析器整了个小品级的帖子备份存档，不如楼主的实用但是在线临时看看也还可以。</span><br>
+<span>https://github.com/TomoeMami/S1PlainTextBackup</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>Ozen 发表于 2020-2-2 21:38</span><br>
+<span>我走了个歪路子，利用GitHub的markdown解析器整了个小品级的帖子备份存档，不如楼主的实用但是在线临时看看 ...</span><br>
+<span>这个赞，纯文本的md排版更紧凑，甚至感觉比在论坛翻页看着方便，<strike>而且没了屎黄色背景摸起鱼来毫无痕迹，</strike>就是时间长了里面的图片可能会失效</span><br>
+<span>介意我把链接编辑到主楼吗？</span><br>
+</p><p><b>Ozen: </b><br>
+<span>霜落xss 发表于 2020-2-2 21:52</span><br>
+<span>这个赞，纯文本的md排版更紧凑，甚至感觉比在论坛翻页看着方便，而且没了屎黄色背景摸起鱼来毫无痕迹，就 ...</span><br>
+<span>可以的，不过国内访问GitHub速度可能不理想。</span><br>
+</p><p><b>yst234: </b><br>
+<span>霜落xss 发表于 2020-2-2 21:31</span><br>
+<span>出手优化的大佬出现了，赞！</span><br>
+<span>我写代码属于野路子出身，没有任何代码结构、运行日志、异常处理的概念，所 ...</span><br>
+<span>大佬不敢当只是正好需求一样就顺便改了下</span><br>
+</p><p><b>gjsg666: </b><br>
+<span>感谢楼主分享！顺便问一句。。有大佬备份专楼四的内容吗。。。</span><br>
+</p><p><b>Sanguine: </b><br>
+<span>感谢楼主分享，不过想问一下下载外野的帖子都需要先登陆吗，老是登陆失败是不是因为有设安全问题的原因</span><br>
+</p><p><b>Ozen: </b><br>
+<span>Sanguine 发表于 2020-2-3 17:57</span><br>
+<span>感谢楼主分享，不过想问一下下载外野的帖子都需要先登陆吗，老是登陆失败是不是因为有设安全问题的原因</span><br>
+<span>外野前几天刚加了护城河，需要登录</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Sanguine: </b><br>
+<span> 本帖最后由 Sanguine 于 2020-2-3 18:17 编辑 </span><br>
+<span>Ozen 发表于 2020-2-3 18:09</span><br>
+<span>外野前几天刚加了护城河，需要登录</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>试了下把安全问题取消，能登上去了 下载成功</span><br>
+<span>顺带同求专楼三四的备份，两栋都没爬完</span><br>
+</p><p><b>Ozen: </b><br>
+<span>Sanguine 发表于 2020-2-3 18:13</span><br>
+<span>试了下把安全问题取消，能登上去了 下载成功</span><br>
+<span>顺带同求专楼三四的备份，两栋都没爬完 ...</span><br>
+<span>我也没爬完，2还是我初期测试脚本的时候爬的</span><br>
+<span>—— 来自 HUAWEI WLZ-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>特殊情况挖个坟，大家各自努力吧</span><br>
+</p><p><b>Bondrewd: </b><br>
+</p><p><b>foreversmiles: </b><br>
+<span>建议先搜索欧金金，把他的所有帖子都收藏</span><br>
+</p><p><b>卢比扬卡大饭店: </b><br>
+<span>捞一把</span><br>
+</p><p><b>不二家: </b><br>
+<span>好起来了</span><br>
+</p><p><b>Tissuesea: </b><br>
+<span> 本帖最后由 Tissuesea 于 2020-7-9 15:33 编辑 </span><br>
+<span>发生什么，是要大清洗吗</span><br>
+<span>--------------------------</span><br>
+<span>看到置顶了，互联网真就没有记忆吗，明明我就是讨厌nga冲水机制才来泥潭的</span><br>
+<span>—— 来自 HUAWEI AUM-AL20, Android 8.0.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>焚舟: </b><br>
+<span>感谢楼主</span><br>
+</p><p><b>cleaner: </b><br>
+<span>应该只是清洗军事类时政类帖子吧，大概……</span><br>
+</p><p><b>多余的动作: </b><br>
+<span>捞</span><br>
+</p><p><b>cleaner: </b><br>
+<span>@霜落xss </span><br>
+<span>local variable‘filename' referenced before assignment</span><br>
+<span>这个？</span><br>
+</p><p><b>居尔一拳: </b><br>
+<span>没想到有在S1看到古腾堡计划的一天</span><br>
+<span>—— 来自 samsung SM-G9708, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>旺旺牛奶: </b><br>
+<span>已经下载好的专楼可以存网盘分享下，减轻S1服务器压力</span><br>
+<span>—— 來自 OPPO PCCM00, Android 10上的 S1Next-鵝版 v2.2.2.1</span><br>
+</p><p><b>朔方原的星MK.2: </b><br>
+<span>废土时代来了</span><br>
+</p><p><b>天成小次郎: </b><br>
+<span>泥潭又要完了？</span><br>
+</p><p><b>丘萤之光: </b><br>
+<span>大佬们下好的专楼能不能找个地方放出来共享下啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911758[50-100]</guid>
+    </item>
+    <item>
+      <title>【紧急抢救】S1专楼下载器（V0.22已更新）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911758-1-1.html</link>
+      <description>写了个S1专楼下载器&#13;
+ 本帖最后由 霜落xss 于 2020-2-1 19:28 编辑 
+
+S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价值的专楼备份一下
+&#13;
+最开始想用selenium一页页的下载成mht，但是发现这样下载的网页不支持离线翻页，而且很多帖子里图片没加载完就下载了。于是一怒之下用python搓了个轮子，用requests下载帖子每页的html，然后将其中所有css、script和图片保存至本地。
+&#13;
+这样下载后的帖子可以离线翻页，方便阅读，而且不同帖子共用css、图片等资源，节约硬盘空间。缺点是删除下载的帖子时无法删除其中图片，而且下载速度比较慢，不过个人感觉还可以接受。（关爱服务器，拒绝多线程）
+&#13;
+程序非常简单，源代码扔到github了。然后用PyQt5做了一个简陋的GUI打包了成exe，自己测试了下64位win10和64位win7都能正常使用，其他系统就不确定了。
+&#13;
+用法也很简单，看界面直接操作就行。github上写了个简单的说明，需要的话可以去看看，这里就不细讲了。
+&#13;
+使用建议：
+&#13;
+[*]由于下载速度主要由论坛响应速度决定，建议在论坛流量较小时使用，比如睡前开个下载转天起来再看之类。尽量不要多开，以免对服务器造成过大压力
+&#13;
+[*]由于论坛帖子有大量共用素材（样式表、麻将脸等），当这部分素材下载完毕后，帖子下载速度会得到显著提升。比如我昨天下载漫区那个196页的WA2直播贴花了40分钟左右，这是因为里面图片很多，以文字为主的楼会更快一些。
+&#13;
+[*]由于作者水平所限，程序大概会有很多bug，如果大家使用中遇到问题欢迎在论坛或github上反馈，有希望添加的功能也欢迎提出（如果有大佬愿意接手优化就更好了）
+&#13;
+下载地址：
+&#13;
+github：https://github.com/shuangluoxss/Stage1st-downloader/releases
+&#13;
+百度网盘：链接：https://pan.baidu.com/s/1Xu0DyTYu5KVQV0YkyzWzmw提取码：fi43
+&#13;
+运行界面
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=639911&amp;size=300x300&amp;key=abde79dc931c503c&amp;nocache=yes&amp;type=fixnone&amp;ramdom=W5SSZ
+&#13;
+页面和资源文件会下载到程序运行路径的data文件夹下，全楼下载完之后会在程序运行路径同级目录生成一个 帖子标题.html，指向下载好的页面。只要保证html、data文件夹、source文件夹的相对位置不变，网页就可以正常打开。
+&#13;
+另外需要提到的是，下载器在下载时会自动跳过已经存在的文件，所以下载中断基本没有影响，重新开始后很很快就能达到之前的进度</description>
+      <content:encoded><![CDATA[<p><b>霜落xss: </b><br>
+<span>写了个S1专楼下载器</span><br>
+<span> 本帖最后由 霜落xss 于 2020-2-1 19:28 编辑 </span><br>
+<span>S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价值的专楼备份一下</span><br>
+<span>最开始想用selenium一页页的下载成mht，但是发现这样下载的网页不支持离线翻页，而且很多帖子里图片没加载完就下载了。于是一怒之下用python搓了个轮子，用requests下载帖子每页的html，然后将其中所有css、script和图片保存至本地。</span><br>
+<span>这样下载后的帖子可以离线翻页，方便阅读，而且不同帖子共用css、图片等资源，节约硬盘空间。缺点是删除下载的帖子时无法删除其中图片，而且下载速度比较慢，不过个人感觉还可以接受。（关爱服务器，拒绝多线程）</span><br>
+<span>程序非常简单，源代码扔到github了。然后用PyQt5做了一个简陋的GUI打包了成exe，自己测试了下64位win10和64位win7都能正常使用，其他系统就不确定了。</span><br>
+<span>用法也很简单，看界面直接操作就行。github上写了个简单的说明，需要的话可以去看看，这里就不细讲了。</span><br>
+<span>使用建议：</span><br>
+<span>[*]由于下载速度主要由论坛响应速度决定，建议在论坛流量较小时使用，比如睡前开个下载转天起来再看之类。尽量不要多开，以免对服务器造成过大压力</span><br>
+<span>[*]由于论坛帖子有大量共用素材（样式表、麻将脸等），当这部分素材下载完毕后，帖子下载速度会得到显著提升。比如我昨天下载漫区那个196页的WA2直播贴花了40分钟左右，这是因为里面图片很多，以文字为主的楼会更快一些。</span><br>
+<span>[*]由于作者水平所限，程序大概会有很多bug，如果大家使用中遇到问题欢迎在论坛或github上反馈，有希望添加的功能也欢迎提出（如果有大佬愿意接手优化就更好了）</span><br>
+<span>下载地址：</span><br>
+<span>github：https://github.com/shuangluoxss/Stage1st-downloader/releases</span><br>
+<span>百度网盘：链接：https://pan.baidu.com/s/1Xu0DyTYu5KVQV0YkyzWzmw提取码：fi43</span><br>
+<span>运行界面</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=639911&size=300x300&key=abde79dc931c503c&nocache=yes&type=fixnone&ramdom=W5SSZ</span><br>
+<span>页面和资源文件会下载到程序运行路径的data文件夹下，全楼下载完之后会在程序运行路径同级目录生成一个 帖子标题.html，指向下载好的页面。只要保证html、data文件夹、source文件夹的相对位置不变，网页就可以正常打开。</span><br>
+<span>另外需要提到的是，下载器在下载时会自动跳过已经存在的文件，所以下载中断基本没有影响，重新开始后很很快就能达到之前的进度</span><br>
+</p><p><b>czs13: </b><br>
+<span>翻旧账神器TA来啦~</span><br>
+</p><p><b>胡桃丶: </b><br>
+<span>第一个下载的就选大叉叉专楼了</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>你好强大！</span><br>
+</p><p><b>PENTAX-DA: </b><br>
+<span>我今天躺床上还在想这东西</span><br>
+</p><p><b>GreenBird: </b><br>
+<span>前排！</span><br>
+</p><p><b>gnail: </b><br>
+<span>松鼠党的噩梦</span><br>
+</p><p><b>ghsakv: </b><br>
+<span>消磨时间的神器</span><br>
+</p><p><b>cleaner: </b><br>
+<span>现在有些专楼都没了吧？比如J20专楼？</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>adonai: </b><br>
+<span>cleaner 发表于 2020-2-1 19:14</span><br>
+<span>现在有些专楼都没了吧？比如J20专楼？</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>J-20专楼存下来怕是得上G了</span><br>
+</p><p><b>adonai: </b><br>
+<span> 本帖最后由 adonai 于 2020-2-1 19:27 编辑 </span><br>
+<span>速度还有有点慢，如果可以做到浏览器载入的速度就不错</span><br>
+<span>还有，那个icon怎么是马赛克版的，应该能找到大的吧</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>adonai 发表于 2020-2-1 19:17</span><br>
+<span>J-20专楼存下来怕是得上G了</span><br>
+<span>大概不止……我昨天随便存了几栋200来页的楼就快700M了</span><br>
+</p><p><b>xwr: </b><br>
+<span>可不可以在漫区也发一下？</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>adonai 发表于 2020-2-1 19:20</span><br>
+<span>速度还有有点慢，如果可以做到浏览器载入的速度就不错</span><br>
+<span>还有，那个icon怎么是马赛克版的，应该能找到大的吧 ...</span><br>
+<span>浏览器载入应该是异步的，我怕服务器压力太大没敢开多线程，结果发现下一个麻将脸都要3秒多之后我看看怎么优化下吧</span><br>
+<span>icon是扒了页面左上角那个小图标，下版换成50*50的就清楚了</span><br>
+</p><p><b>杜微: </b><br>
+<span>多谢楼主</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>xwr 发表于 2020-2-1 19:32</span><br>
+<span>可不可以在漫区也发一下？</span><br>
+<span>S1不忌讳一贴多发的话我就去发一个，感觉漫区需要保存的专楼可能更多23333</span><br>
+</p><p><b>大巴车司机: </b><br>
+<span>guuuuuuuud</span><br>
+</p><p><b>luoy: </b><br>
+<span>请问一点开始下载就消失了是哪出了问题</span><br>
+</p><p><b>亚瑟邓特: </b><br>
+<span>先下个国家队</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>luoy 发表于 2020-2-1 19:41</span><br>
+<span>请问一点开始下载就消失了是哪出了问题</span><br>
+<span>+1</span><br>
+</p><p><b>luoy: </b><br>
+<span>luoy 发表于 2020-2-1 19:41</span><br>
+<span>请问一点开始下载就消失了是哪出了问题</span><br>
+<span>草换了个楼少的就行了，这下载有页数上限吗</span><br>
+</p><p><b>stannislas: </b><br>
+<span>j-20专楼封了真可惜。</span><br>
+<span>不过顺便问问 python编译exe有什么比较轻松可行的方法缩小体积啊？ 难不成真要一个包一个包的exclude或者是每次都弄个空的environment开始？ 太折腾了都</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>让我的黑历史消失掉</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>RyuguRena 发表于 2020-2-1 20:00</span><br>
+<span>+1</span><br>
+<span>我这里也复现了这个bug，有的楼触发有的楼正常，目前还在排查</span><br>
+</p><p><b>yayoi801: </b><br>
+<span>说到这个有人有川皇大选楼吗</span><br>
+</p><p><b>蜷守惠理: </b><br>
+<span>仓库里的楼能不能找一天大赦天下，全都放出来啊，好些还想看都没了...刚好用这个下载</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>@RyuguRena @luoy </span><br>
+<span>我蠢爆了……</span><br>
+<span>测试发现下载只有1页的楼会直接退出，因为没法读取到总页数</span><br>
+<span>还有就是未登录下载需要阅读权限的楼也会直接退出，登陆之后就好了</span><br>
+<span>待我好好写下异常处理</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2020-2-1 20:59 编辑 </span><br>
+<img src="https://p.sda1.dev/0/58d923ec2de27b5491881eba5766b617/chrome_2vL34IkbNC.png" title="https://p.sda1.dev/0/58d923ec2de27b5491881eba5766b617/chrome_2vL34IkbNC.png"><br>
+<span>问一下为什么chrome渲染出来不太对，ff就是好的</span><br>
+<span>头像好像所有浏览器加载出来都是默认头像……图片没成功</span><br>
+<span>希望加个删除，只删了根目录下那玩意肯定没用</span><br>
+<span>登陆的话退出之后再开不知道有没有保存登陆状态。</span><br>
+<span>总之，感谢楼主！</span><br>
+</p><p><b>novem: </b><br>
+<span>天国的J20楼。。</span><br>
+</p><p><b>贝贝熊: </b><br>
+<span>好东西</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>若荼泱 发表于 2020-2-1 20:50</span><br>
+<span>问一下为什么chrome渲染出来不太对，ff就是好的</span><br>
+<span>头像好像所有浏览器加载出来都是默认头像……图片 ...</span><br>
+<span>chrome渲染应该是样式表后缀名的问题，论坛html里样式表的后缀是‘.css?R6I’，我爬的时候没有把‘?’后面去掉，firefox和edge都能识别，但是chrome好像不支持，我试了下改掉对应的后缀就好了，下个版本就把这个问题处理下</span><br>
+<span>头像的问题我这里不能复现，所以暂时不知道怎么处理。</span><br>
+<span>目前登录退出的话是不会保存登陆状态的，如果需要的话我可以考虑加一个存cookie或者存用户名密码自动登录的功能，不过担心不**全</span><br>
+<span>删除的问题比较复杂。其实单纯删除很简单，遍历一遍要删的html里的资源文件统统删掉就ok了，但问题在于各帖子的资源是共用的，比如这个帖子删掉了一堆麻将脸，就会导致其他贴子的麻将脸也刷不出来。</span><br>
+<span>解决方法的话我想到一个类似智能指针的处理方法：维护一个 文件和网页对应关系 的数据库，删除网页时去数据库里删除相应记录，如果删完之后文件对应网页数为0则删除文件。这种方法应该能比较好的解决这个问题，但工作量有点大，我考虑下要不要加进去</span><br>
+</p><p><b>shimotsuki14: </b><br>
+<span>哦！有意思</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>霜落xss 发表于 2020-2-1 21:19</span><br>
+<span>chrome渲染应该是样式表后缀名的问题，论坛html里样式表的后缀是‘.css?R6I’，我爬的时候没有把‘?’后 ...</span><br>
+<span>头像的话换了个楼好了，就是不知道第一个楼怎么处理了在爬第一个楼的时候我的网络环境有变化/路径太长导致图片元素全都没出来，再重下大概因为文件已经存在所以还是提示100%，大概唯一解决办法就是删了重来</span><br>
+</p><p><b>绿萝: </b><br>
+<span>好东西</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>若荼泱 发表于 2020-2-1 21:26</span><br>
+<span>头像的话换了个楼好了，就是不知道第一个楼怎么处理了在爬第一个楼的时候我的网络环境有变化/路径 ...</span><br>
+<span>这种情况直接删html然后重下就行，里面别的资源都是现成的，只需要重下头像，速度会比第一遍快很多</span><br>
+</p><p><b>极北魔狼: </b><br>
+<span>好东西啊</span><br>
+</p><p><b>zhaijiadehuiye: </b><br>
+<span>霜落xss 发表于 2020-2-1 18:58</span><br>
+<span>S1的很多专楼是很有保存意义的，但是网络上的资源总是不如自己硬盘上的可靠，所以决定想办法把自己觉得有价 ...</span><br>
+<span>winerror5拒绝访问咋解决？</span><br>
+<span>—— 来自 HUAWEI HLK-AL00, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>zhaijiadehuiye 发表于 2020-2-1 22:35</span><br>
+<span>winerror5拒绝访问咋解决？</span><br>
+<span>—— 来自 HUAWEI HLK-AL00, Android 9上的 S1Next-鹅版 v2.2.1-alpha ...</span><br>
+<span>大概是权限的问题，别放在C盘再跑下试试？</span><br>
+</p><p><b>WalkingAlive: </b><br>
+<span>提个吹毛求疵的建议：没法下只有一页的帖子（一页你不会自己存吗）</span><br>
+<span>114行    total_page = int(re.findall('<span title="共 (\d+) 页">', page))</span><br>
+</p><p><b>takami: </b><br>
+<span>想问问如果只是想下某个超高楼中大于一定尺寸的图片，有什么现成的解决方案吗？</span><br>
+</p><p><b>Mi-24: </b><br>
+<span>只可惜一些专楼里的图片都么了</span><br>
+<span>感谢LZ</span><br>
+</p><p><b>zhaijiadehuiye: </b><br>
+<span>这咋搞？</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>zhaijiadehuiye 发表于 2020-2-1 23:14</span><br>
+<span>这咋搞？</span><br>
+<span>程序不要放在C盘，在D盘新建一个文件夹放进去再运行就行了</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>takami 发表于 2020-2-1 23:04</span><br>
+<span>想问问如果只是想下某个超高楼中大于一定尺寸的图片，有什么现成的解决方案吗？ ...</span><br>
+<span>现成的解决方案大概没有，不过这个需求不难。写个爬虫遍历每一页，用BeautifulSoup筛出里面所有<img>标签，按标签的height和width属性筛选然后保存就行。全部代码应该不超过30行</span><br>
+</p><p><b>霜落xss: </b><br>
+<span>WalkingAlive 发表于 2020-2-1 23:00</span><br>
+<span>提个吹毛求疵的建议：没法下只有一页的帖子（一页你不会自己存吗）</span><br>
+<span>114行    total_page = int(re.f ...</span><br>
+<span>多谢捉虫~我还是完全没有异常处理的意识啊</span><br>
+<span>我决定改成</span><br>
+<span>total_page = int((re.findall(r'<span title="共 (\d+) 页">', page) + ))</span><br>
+<span>（这个人为了少写个if已经丧心病狂了</span><br>
+</p><p><b>薛定谔的小猫: </b><br>
+<span>好东西！我有好几个番的专楼想保存了，国家队，佐贺，终将，爬下来比看小说还好玩</span><br>
+</p><p><b>takami: </b><br>
+<span>霜落xss 发表于 2020-2-1 23:22</span><br>
+<span>现成的解决方案大概没有，不过这个需求不难。写个爬虫遍历每一页，用BeautifulSoup筛出里面所有标签，按 ...</span><br>
+<span>感谢解答</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>马克明天下载</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>我记得美国大选楼有人备份成单一离线网页，就一个单html文件的这种，还可以翻页。</span><br>
+<span>这种是怎么实现的？</span><br>
+</p><p><b>二狗还我五块钱: </b><br>
+<span>会有收藏的帖子批量备份功能吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911758[0-50]</guid>
+    </item>
+  </channel>
+</rss>

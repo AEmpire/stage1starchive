@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10升了1903 玩游戏有碰到帧数异常的嘛  -已解决 牙膏厂的锅</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10升了1903 玩游戏有碰到帧数异常的嘛  -已解决 牙膏厂的锅</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:03:55 +0000</lastBuildDate>
+    <item>
+      <title>win10升了1903 玩游戏有碰到帧数异常的嘛  -已解决 牙膏厂的锅[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846359-1-1.html</link>
+      <description>win10升了1903 玩游戏有碰到帧数异常的嘛  -已解决 牙膏厂的锅&#13;
+ 本帖最后由 会玩熊孩子 于 2019-7-18 19:30 编辑 
+
+重玩魂3 发现运行很不正常 虽然显示60帧 但跑动起来有种迷之迟钝的感觉 有时候直接卡死 卡了几秒才恢复 一开始以为是魂3的问题 后来试了下只狼 一样的问题 1个月前还好好的 想到区别也就升了1903 配置是E3V2+1070
+&#13;
+解决了 是1903把熔断和幽灵补丁打上导致性能下降 关闭之后恢复 牙膏厂罪大恶极
+&#13;
+具体方法可以看这里：blog.csdn.net/asdf8968/article/details/83273507</description>
+      <content:encoded><![CDATA[<p><b>会玩熊孩子: </b><br>
+<span>win10升了1903 玩游戏有碰到帧数异常的嘛  -已解决 牙膏厂的锅</span><br>
+<span> 本帖最后由 会玩熊孩子 于 2019-7-18 19:30 编辑 </span><br>
+<span>重玩魂3 发现运行很不正常 虽然显示60帧 但跑动起来有种迷之迟钝的感觉 有时候直接卡死 卡了几秒才恢复 一开始以为是魂3的问题 后来试了下只狼 一样的问题 1个月前还好好的 想到区别也就升了1903 配置是E3V2+1070</span><br>
+<span>解决了 是1903把熔断和幽灵补丁打上导致性能下降 关闭之后恢复 牙膏厂罪大恶极</span><br>
+<span>具体方法可以看这里：blog.csdn.net/asdf8968/article/details/83273507</span><br>
+</p><p><b>qwased: </b><br>
+<span>遇事不决重装系统，win10就是这样的啦</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>infinte: </b><br>
+<span> 本帖最后由 infinte 于 2019-7-13 13:27 编辑 </span><br>
+<span>WPT，请</span><br>
+<span>相关说明：https://serverfault.com/questions/104131/how-can-i-find-out-what-is-causing-interrupts-on-windows</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>为了这破事 系统盘都格了彻底重装了回 E3真老了 损失点性能就带不动</span><br>
+</p><p><b>两个路人: </b><br>
+<span>瘟妻笑嘻嘻？ 😏</span><br>
+</p><p><b>albertfu: </b><br>
+<span>spectre和meltdown补丁打上，SSD的4k q32t1性能几乎腰斩，就这牙膏还好意思说对性能影响不大</span><br>
+</p><p><b>ggxx同好: </b><br>
+<span>下了InSpectre.exe打开看， 前两个都是yes的</span><br>
+<span>然后打了那个注册表，重启后再看，前两个都变成no</span><br>
+<span>这是不是就行了？</span><br>
+<span>熔断幽灵这两个传说中的大漏洞，打个注册表改一下就能关了？</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>ggxx同好 发表于 2019-7-19 09:27</span><br>
+<span>下了InSpectre.exe打开看， 前两个都是yes的</span><br>
+<span>然后打了那个注册表，重启后再看，前两个都变成no</span><br>
+<span>这是不是就 ...</span><br>
+<span>关的不是漏洞 是把补漏的补丁给关了 要安全就打补丁 要性能（说是三四代影响比较大）就关补丁</span><br>
+</p><p><b>灰色骑士: </b><br>
+<span>两个路人 发表于 2019-7-18 19:47</span><br>
+<span>瘟妻笑嘻嘻？ 😏</span><br>
+<span>怪物猎人世界win10 60帧中配流畅，换成win7卡出翔···没办法只好又换了回去。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>会玩熊孩子 发表于 2019-7-19 09:43</span><br>
+<span>关的不是漏洞 是把补漏的补丁给关了 要安全就打补丁 要性能（说是三四代影响比较大）就关补丁 ...</span><br>
+<span>主要对IO密集的操作影响非常大，最新的xxlake架构（6代~9代）SSD 4K Q32T1也是近乎腰斩的性能损失</span><br>
+<span>跑渲染啥的看不出性能损失</span><br>
+</p><p><b>红色稻妻: </b><br>
+<span>关闭会有风险么？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846359[0-50]</guid>
+    </item>
+  </channel>
+</rss>

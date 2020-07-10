@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有type-c转type-c支持PD的hub?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有type-c转type-c支持PD的hub?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:07:53 +0000</lastBuildDate>
+    <item>
+      <title>有没有type-c转type-c支持PD的hub?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845718-1-1.html</link>
+      <description>有没有type-c转type-c支持PD的hub?&#13;
+不知道usb规范上支不支持type-c转多type-c并且可以进行PD供电或者有独立PD供电接口的hub？市面上见到的好像都是typc-c转A的，或者有些DIY的c转c只能进行pd供电没有数据传输功能的。</description>
+      <content:encoded><![CDATA[<p><b>锟斤拷: </b><br>
+<span>有没有type-c转type-c支持PD的hub?</span><br>
+<span>不知道usb规范上支不支持type-c转多type-c并且可以进行PD供电或者有独立PD供电接口的hub？市面上见到的好像都是typc-c转A的，或者有些DIY的c转c只能进行pd供电没有数据传输功能的。</span><br>
+</p><p><b>schneehertz: </b><br>
+<span> 本帖最后由 schneehertz 于 2019-7-10 20:09 编辑 </span><br>
+<span>一般笔记本配套的Hub的可以吧，比如小米Pro的</span><br>
+<span>看错了，c转多个c的hub没见过</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>我买的绿联的c转hdmi vga是有独立PD充电口的。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>zmw_831110 发表于 2019-7-10 21:14</span><br>
+<span>我买的绿联的c转hdmi vga是有独立PD充电口的。</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next ...</span><br>
+<span>那个我也有，不过它只有host是c口。</span><br>
+<span>现在似乎没有数据和供电都能按照新标准分配的hub。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>type c的usb功能设计上支持，不过因为兼容pd/dp/tb的缘故，所以一般来说都是做成菊花链模式的，一个扩展设备上只需要两个tb3.0的type-c接口，一个接上行一个接下行</span><br>
+<span>你如果要pd供电给电脑，那么可以考虑dell的tb扩展坞，如果要扩展坞也用pd供电，并且再供电给电脑，那可选的真的好像没看过。多个pd接口同时使用，逻辑上可能得把一个供电的设置成交流电源模式，一个受电的设置成电脑模式。两个接口中间还得额外做电压电路，保证hub上usb5v和 pd供电5/9/12/20v的切换。</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-10 23:09</span><br>
+<span>type c的usb功能设计上支持，不过因为兼容pd/dp/tb的缘故，所以一般来说都是做成菊花链模式的，一个扩展设 ...</span><br>
+<span>我也感觉是hub上的电力转换部分会比较复杂，需要给每个接口配一个dc-dc模块，同时对于电压/功率的分配会比较复杂。但是不知道标准上对pd的电力分配有没有相关的规定。</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span> 本帖最后由 外挂全家脚气 于 2019-7-11 01:33 编辑 </span><br>
+<span>有点没看懂，你的需求是什么？</span><br>
+<span>HUB上留有PD供电接口，然后可以通过自带C公头线缆连接对电脑/手机供电的不要太多，而且都是供电数据一体，HUB一根线插电脑上，同时解决数据/显示/供电毫无压力</span><br>
+<span>比如这个https://post.smzdm.com/p/a07medq9/</span><br>
+<span>甚至还有再多一个数据C口，虽然说纯粹只是一个usb3.1的接口方便你直接连些C口的硬盘U盘之类</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>外挂全家脚气 发表于 2019-7-11 01:31</span><br>
+<span>有点没看懂，你的需求是什么？</span><br>
+<span>HUB上留有PD供电接口，然后可以通过自带C公头线缆连接对电脑/手机供电的不 ...</span><br>
+<span>这些hub只能对host设备进行pd供电，对client设备就只能普通供电。有没有能同时对host和client设备进行pd供电的hub。</span><br>
+<span>比如一个使用c口充电的笔记本和c口充电的手机通过hub连接，那么有没有可能它们在传数据的同时都可以进行快充？</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>锟斤拷 发表于 2019-7-11 07:04</span><br>
+<span>这些hub只能对host设备进行pd供电，对client设备就只能普通供电。有没有能同时对host和client设备进行pd ...</span><br>
+<span>如果只有两个pd接口，那么可以，如果有3个或以上pd没做p2mp，就得多个芯片单独做p2p协商了</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-11 08:31</span><br>
+<span>如果只有两个pd接口，那么可以，如果有3个或以上pd没做p2mp，就得多个芯片单独做p2p协商了 ...</span><br>
+<span>感觉市场上还没有类似的产品。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>锟斤拷 发表于 2019-7-11 08:51</span><br>
+<span>感觉市场上还没有类似的产品。</span><br>
+<span>因为这种需求的换成菊花链了，国外大厂做的tb扩展设备基本上都是这样的，两个tb口带pd，从上级取电，供电给下一个设备</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-11 08:57</span><br>
+<span>因为这种需求的换成菊花链了，国外大厂做的tb扩展设备基本上都是这样的，两个tb口带pd，从上级取电，供电 ...</span><br>
+<span>也就是说实际上pd摒弃了传统usb的树型拓扑？</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>锟斤拷 发表于 2019-7-11 09:32</span><br>
+<span>也就是说实际上pd摒弃了传统usb的树型拓扑？</span><br>
+<span>电压不一样且供电方向可能转换的，怎么想也没办法用生成树拓扑把，毕竟根随时都能变。</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-11 16:28</span><br>
+<span>电压不一样且供电方向可能转换的，怎么想也没办法用生成树拓扑把，毕竟根随时都能变。 ...</span><br>
+<span>根就追随传统的usb标准，与host一样，或者像带外置供电的usb hub一样另外设置一个供电根。</span><br>
+<span>我猜想可能主要的原因是电压转换比较麻烦吧，毕竟最大100w来做dc-dc变换，这玩意儿可没法做太小，而且要是级联的话转换效率堪忧。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>锟斤拷 发表于 2019-7-11 16:43</span><br>
+<span>根就追随传统的usb标准，与host一样，或者像带外置供电的usb hub一样另外设置一个供电根。</span><br>
+<span>我猜想可能主 ...</span><br>
+<span>如果设置了供电根，那供电根这里就不是pd了，现在的tb扩展坞就可以这样， 供电是20v dc，其他pd输出。</span><br>
+<span>但是下一级设备没法设置本地供电根啊，你不能让笔记本的一个type c只能pd in，不能pd out把</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-11 17:41</span><br>
+<span>如果设置了供电根，那供电根这里就不是pd了，现在的tb扩展坞就可以这样， 供电是20v dc，其他pd输出。</span><br>
+<span>但 ...</span><br>
+<span>比如这样，让外置供电根也是一个符合pd规范的type-c接口电源（pd充电器），如果外置供电根悬空，那么host作为供电根，如果外置供电根接入，它就是供电根。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>锟斤拷 发表于 2019-7-11 20:14</span><br>
+<span>比如这样，让外置供电根也是一个符合pd规范的type-c接口电源（pd充电器），如果外置供电根悬空，那么host ...</span><br>
+<span>你想的是单个设备，这么做是无所谓的，如果是一个树，有多个设备可以连接外置供电，比如扩展坞和笔记本。是不是得跨设备选举，pd本质是p2p协议，根本没做拓扑和转发的。</span><br>
+</p><p><b>锟斤拷: </b><br>
+<span>好多大象啊 发表于 2019-7-12 09:05</span><br>
+<span>你想的是单个设备，这么做是无所谓的，如果是一个树，有多个设备可以连接外置供电，比如扩展坞和笔记本。 ...</span><br>
+<span>不需要做枚举和转发，电力信息和一般信息不同，电力信息是可以加和的，具体来说就是功率和。</span><br>
+<span>任何hub只需要向它的pd上游设备报告自己的功率和就够了，根本没必要报告子设备单独的电力信息。</span><br>
+<span>一个hub里的peers都可以直接加和，它的表现和单个peer是等价的，所以p2p的协议就足够了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845718[0-50]</guid>
+    </item>
+  </channel>
+</rss>

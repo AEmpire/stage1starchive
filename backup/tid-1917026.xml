@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>两道git有关的试题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>两道git有关的试题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:47:49 +0000</lastBuildDate>
+    <item>
+      <title>两道git有关的试题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917026-1-1.html</link>
+      <description>两道git有关的试题&#13;
+两道都是多选题，
+&#13;
+1. 关于 git clone下面说法正确的是：
+&#13;
+A 为克隆的存储库中的每个分支创建远程跟踪分支，并从克隆检出的存储库作为当前活动分支的初始分支。
+&#13;
+B 可通过 git clone --single-branch 命令实现只克隆一个分支
+&#13;
+C 克隆出的工作区中执行 git log 、 git status、 git commit 等操作不会去访问远程版本库。
+&#13;
+D 克隆时只有远程版本库HEAD指向的分支被克隆。
+&#13;
+2. 下面哪一个命令会改变提交历史？
+&#13;
+A git reset --hard HEAD~1
+&#13;
+B git checkout HEAD^^ .
+&#13;
+C git rebase -i HEAD^^
+&#13;
+D git commit –amend</description>
+      <content:encoded><![CDATA[<p><b>ohi: </b><br>
+<span>两道git有关的试题</span><br>
+<span>两道都是多选题，</span><br>
+<span>1. 关于 git clone下面说法正确的是：</span><br>
+<span>A 为克隆的存储库中的每个分支创建远程跟踪分支，并从克隆检出的存储库作为当前活动分支的初始分支。</span><br>
+<span>B 可通过 git clone --single-branch 命令实现只克隆一个分支</span><br>
+<span>C 克隆出的工作区中执行 git log 、 git status、 git commit 等操作不会去访问远程版本库。</span><br>
+<span>D 克隆时只有远程版本库HEAD指向的分支被克隆。</span><br>
+<span>2. 下面哪一个命令会改变提交历史？</span><br>
+<span>A git reset --hard HEAD~1</span><br>
+<span>B git checkout HEAD^^ .</span><br>
+<span>C git rebase -i HEAD^^</span><br>
+<span>D git commit –amend</span><br>
+</p><p><b>stackoverflow: </b><br>
+<span>第二题选cd吧，我经常用，开发的时候经常会小粒度的提交，最后merge到库上会有一大堆commit</span><br>
+</p><p><b>ohi: </b><br>
+<span>stackoverflow 发表于 2020-3-3 23:40</span><br>
+<span>第二题选cd吧，我经常用，开发的时候经常会小粒度的提交，最后merge到库上会有一大堆commit ...</span><br>
+<span>我一开始也是选CD，不过我觉得错了</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>stackoverflow 发表于 2020-3-3 23:40</span><br>
+<span>第二题选cd吧，我经常用，开发的时候经常会小粒度的提交，最后merge到库上会有一大堆commit ...</span><br>
+<span>所以我们强制使用</span><br>
+<span>git merge —squash</span><br>
+</p><p><b>玬翼: </b><br>
+<span> 本帖最后由 玬翼 于 2020-3-4 00:47 编辑 </span><br>
+<span>第一题 BCD ABC</span><br>
+<span>我搞错了orz..</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>第一题的A是为了出题把机翻改得中文失格了吗</span><br>
+</p><p><b>ohi: </b><br>
+<span>whzfjk 发表于 2020-3-4 00:07</span><br>
+<span>第一题的A是为了出题把机翻改得中文失格了吗将存储库克隆到新创建的目录中，为克隆的存储库中的每个分支创建远程跟踪分支(使用git branch -r可见)，并从克隆检出的存储库作为当前活动分支的初始分支。//原文出自：https://www.yiibai.com/git/git_clone.html</span><br>
+<span>这里有一段类似的描述，虽然没看懂</span><br>
+</p><p><b>martinium: </b><br>
+<span>ohi 发表于 2020-3-4 00:30</span><br>
+<span>这里有一段类似的描述，虽然没看懂</span><br>
+<span>https://git-scm.com/docs/git-clone</span><br>
+<span>和机翻水平差不多。</span><br>
+<span>— from Google Pixel 2, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>玬翼: </b><br>
+<span>ohi 发表于 2020-3-4 00:30</span><br>
+<span>这里有一段类似的描述，虽然没看懂</span><br>
+<span>找个有分支的库试一下就OK</span><br>
+<span>大意是git clone后，会把库中所有分支都clone下来，但默认用的是HEAD指向的分支</span><br>
+<span>像这样</span><br>
+<span>$ git branch -r</span><br>
+<span>origin/master1</span><br>
+<span>origin/HEAD -> origin/master2</span><br>
+<span>origin/master3</span><br>
+<span>origin/master</span><br>
+<span>$ git branch</span><br>
+<span>* master2</span><br>
+<span>我一开始搞错了..orz</span><br>
+</p><p><b>玬翼: </b><br>
+<span>martinium 发表于 2020-3-4 00:54</span><br>
+<span>https://git-scm.com/docs/git-clone</span><br>
+<span>和机翻水平差不多。</span><br>
+<span>谷歌翻译，几乎完全一致</span><br>
+<span>说起来我前两天在github上看到一本书的中译本，越看越像机翻</span><br>
+<span>拿谷歌一试..一模一样...</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>clone的时候会把所有分支都clone下来，但是都是远程分支，本地分支只有head对应的那个</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>ohi: </b><br>
+<span>玬翼 发表于 2020-3-4 00:54</span><br>
+<span>找个有分支的库试一下就OK</span><br>
+<span>大意是git clone后，会把库中所有分支都clone下来，但默认用的是HEAD指向的分 ...</span><br>
+<span>实际上其他分支需要通过fetch等手段拉取，最初clone的只有master分支，那是不是说这里应该ABCD都选？</span><br>
+</p><p><b>ohi: </b><br>
+<span>玬翼 发表于 2020-3-4 00:02</span><br>
+<span>第一题 BCD ABC</span><br>
+<span>我搞错了orz..</span><br>
+<span>貌似ABC也是错的</span><br>
+</p><p><b>starrlit: </b><br>
+<span> 本帖最后由 starrlit 于 2020-3-4 13:17 编辑 </span><br>
+<span>第一题的 A 选项翻译太 sb 了。</span><br>
+<span>git-scm 原文：</span><br>
+<span>Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch --remotes), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.</span><br>
+<span>A 没提 fork 所以应该是错的？</span><br>
+<span>话说这种抠字眼的选项有什么意义啊</span><br>
+<span>第一题我选 BC, 第二题我选 ACD。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tiancailin: </b><br>
+<span>https://item.jd.com/1722984431.html</span><br>
+<span>自从我知道如何使用github是美国亚马逊上的一本畅销书</span><br>
+<span>而中文版厚达122页的时候</span><br>
+<span>我觉得会clone会commit就够了</span><br>
+</p><p><b>Redis: </b><br>
+<span>第一题AC？</span><br>
+</p><p><b>可防可控: </b><br>
+<span>技术贴马</span><br>
+</p><p><b>soulogic: </b><br>
+<span>其实只要能真正明白 rebase（都不需要记住 rebase 的每一个参数，只要明白 rebase 都干了些什么就可以了），其他都是小事</span><br>
+<span>楼主碰到的这种题基本就是回字几种写法，我对出这种题的人、职位 表示不乐观</span><br>
+</p><p><b>ohi: </b><br>
+<span>soulogic 发表于 2020-3-4 15:27</span><br>
+<span>其实只要能真正明白 rebase（都不需要记住 rebase 的每一个参数，只要明白 rebase 都干了些什么就可以了） ...</span><br>
+<span>这就是抠字眼的题，这种题发出来就是看看大家的解，正常的题我自己能解就没讨论的必要了。（答题次数有限，没办法用试错法）</span><br>
+</p><p><b>奥古斯都: </b><br>
+<span>第二题只有c吧，--amend修改commit不会产生新的吧</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>奥古斯都 发表于 2020-3-4 17:38</span><br>
+<span>第二题只有c吧，--amend修改commit不会产生新的吧</span><br>
+<span>这要看怎么定义提交历史了</span><br>
+<span>1. hard reset 退一个commit，git log看是时光倒流了，算改变吧</span><br>
+<span>2. 显然不是，不说了</span><br>
+<span>3. 这个大家都没疑问</span><br>
+<span>4. --amend的话最新的那个commit的message可以不变，但是SHA1变了，也算改变吧</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2020-3-4 17:58 编辑 </span><br>
+<span>ohi 发表于 2020-3-4 00:30</span><br>
+<span>这里有一段类似的描述，虽然没看懂</span><br>
+<span>就是说远程库（默认叫origin）里比方有三个分支</span><br>
+<span>master, develop, testing</span><br>
+<span>clone下来之后在你的本地库里会有三个远程跟踪分支</span><br>
+<span>origin/master, origin/develop, origin/testing</span><br>
+<span>然后远程库里的默认分支比方说是master，那就会默认checkout到本地库的本地分支master，这个master的upstream branch就是origin/master</span><br>
+<span>develop和testing分支不会自动帮你建</span><br>
+<span>你checkout origin/develop或者origin/testing的时候才会自动给你的这个远程跟踪分支建一个本地分支develop/testing，并且设置上upstream branch</span><br>
+<span>（哦不对，命令行下直接checkout不会自动建，我用小乌龟默认是勾上的）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917026[0-50]</guid>
+    </item>
+  </channel>
+</rss>

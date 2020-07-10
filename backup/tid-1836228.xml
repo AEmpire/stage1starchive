@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【码农归外野】 java 高性能compareTo的实现</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【码农归外野】 java 高性能compareTo的实现</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:06:59 +0000</lastBuildDate>
+    <item>
+      <title>【码农归外野】 java 高性能compareTo的实现[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836228-1-1.html</link>
+      <description>【码农归外野】 java 高性能compareTo的实现&#13;
+假设有一个java class 每个对象包含两个 bigdecimal类型 .
+&#13;
+ 现在想实现一个排序用的compareTo函数。有没有知道最佳写法是什么。
+&#13;
+规则是if(A.x &lt; B.x) return -1
+&#13;
+          else if (A.x&gt; B.x) return 1
+&#13;
+                else if (A.y&lt; B.y) return -1
+&#13;
+                      else if (A.y &gt; B.y) return 1
+&#13;
+                           else return 0
+&#13;
+我当然知道这么写性能很挫。有没有人知道怎么写性能更好。 </description>
+      <content:encoded><![CDATA[<p><b>wwwwn168: </b><br>
+<span>【码农归外野】 java 高性能compareTo的实现</span><br>
+<span>假设有一个java class 每个对象包含两个 bigdecimal类型 .</span><br>
+<span> 现在想实现一个排序用的compareTo函数。有没有知道最佳写法是什么。</span><br>
+<span>规则是if(A.x < B.x) return -1</span><br>
+<span>          else if (A.x> B.x) return 1</span><br>
+<span>                else if (A.y< B.y) return -1</span><br>
+<span>                      else if (A.y > B.y) return 1</span><br>
+<span>                           else return 0</span><br>
+<span>我当然知道这么写性能很挫。有没有人知道怎么写性能更好。 </span><br>
+</p><p><b>pyjq: </b><br>
+<span>if (A.x > B.x || A.y > B.y) return 1;</span><br>
+<span>else if (A.x < B.x || A.y < B.y) return -1;</span><br>
+<span>else return 0;</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。</span><br>
+</p><p><b>误中副車: </b><br>
+<span>while… case 语法？</span><br>
+</p><p><b>pigbayspy: </b><br>
+<span>pyjq 发表于 2019-6-1 23:42</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。 ...</span><br>
+<span>应该就这么写</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>pyjq 发表于 2019-6-1 23:42</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。 ...</span><br>
+</p><p><b>御坂MKII: </b><br>
+<span>如果只是排序的话，偏序不就够了吗</span><br>
+<span>if （A.x == B.x) {</span><br>
+<span>        return A.y < B.y</span><br>
+<span>}</span><br>
+<span>return A.x < B.x;</span><br>
+<span>为啥要等于0的情况？</span><br>
+</p><p><b>方舟: </b><br>
+<span>连这个的性能都需要去扣的场景，为什么还用java</span><br>
+</p><p><b>litel: </b><br>
+<span>如果没什么特别的，分开比较好，然后让编译器自己优化。。。</span><br>
+<span>if (A.x < B.x) return -1</span><br>
+<span>    else if (A.x > B.x) return 1</span><br>
+<span>if (A.y < B.y) return -1</span><br>
+<span>    else if (A.y > B.y) return 1</span><br>
+<span>return 0</span><br>
+</p><p><b>naihs: </b><br>
+<span>pyjq 发表于 2019-6-1 23:42</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。 ...</span><br>
+<span>是这个理</span><br>
+</p><p><b>keenkiller: </b><br>
+<span>我怎么感觉2楼写的是错的，这代码意思是优先比较x，如果x相同则比较y吧…</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>试了几次以后现在是这么写的</span><br>
+<span>if(A.x < B.x) return -1</span><br>
+<span>else if (A.x < B.x ) return 1</span><br>
+<span>       else (return A.y.compareTo(B.y))</span><br>
+<span>只是不知道这算不是best practice。 </span><br>
+</p><p><b>wuuuuuud: </b><br>
+<span>return (A.x.CompareTo(B.x)*2+ A.y.CompareTo(B.y)).CompareTo(0);</span><br>
+<span>别这么写就行。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>pyjq 发表于 2019-6-1 23:42</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。 ...</span><br>
+<span>你这么写是不对的。</span><br>
+<span>而且大部分时候用不到y，比较y的值会带来额外的性能损失</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>litel 发表于 2019-6-1 23:53</span><br>
+<span>如果没什么特别的，分开比较好，然后让编译器自己优化。。。</span><br>
+<span>我们组用clojure不知道能不能支持多返回。</span><br>
+</p><p><b>ohi: </b><br>
+<span>代码长不代表性能糟，直接写100条相同语句的性能比执行100遍的for循环还要高呢。</span><br>
+</p><p><b>wangh: </b><br>
+<span>    if （A.x == B.x) {</span><br>
+<span>            return A.y - B.y;</span><br>
+<span>    }</span><br>
+<span>    return A.x - B.x;</span><br>
+<span>这样就可以了。compareTo只要符号对就行了，又不是非要1和-1</span><br>
+</p><p><b>keenkiller: </b><br>
+<span> 本帖最后由 keenkiller 于 2019-6-2 00:24 编辑 </span><br>
+<span>看错了 编辑掉 好久没写java都忘了 应该是</span><br>
+<span>var s=lhs.x.compareTo(rhs.x)；</span><br>
+<span>return s==0?lhs.y.compareTo(rhs.y):s；</span><br>
+<span>应该是这意思吧</span><br>
+</p><p><b>mwj: </b><br>
+<span>wangh 发表于 2019-6-2 00:12</span><br>
+<span>这样就可以了。compareTo只要符号对就行了，又不是非要1和-1</span><br>
+<span>bigdecimal还好点，普通数字类型会有溢出问题的。所以jdk实现都是返回1，0和-1。</span><br>
+</p><p><b>Zepp: </b><br>
+<span>八楼正解。二楼的算法，如果A.x < B.x && A.y > B.y时会返回错误的结果。</span><br>
+</p><p><b>calmer: </b><br>
+<span>这个时候你需要if(likely(cond))。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>best: </b><br>
+<span>pyjq 发表于 2019-6-1 23:42</span><br>
+<span>不要动不动就谈性能，你先代码写清楚。代码写清楚了，性能不会差到哪里去。 ...</span><br>
+<span>你这不对的啊 </span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>java高性能</span><br>
+<span>是不是有哪里不对</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>best: </b><br>
+<span>用lambda可以吗？a.x.compareTo(b.x)==0? a.y.compareTo(b.y) : a.x.comparetob.x</span><br>
+</p><p><b>qiandai: </b><br>
+<span>牛批牛批多一个比较的指令的性能都要扣。从业近十年没听说过这种场景，我孤陋寡闻了。</span><br>
+<span>不过如果让我去做这种场景，我肯定不会选择java</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>聚散浮云: </b><br>
+<span>qiandai 发表于 2019-6-2 01:08</span><br>
+<span>牛批牛批多一个比较的指令的性能都要扣。从业近十年没听说过这种场景，我孤陋寡闻了。</span><br>
+<span>不过如果让我去做 ...</span><br>
+<span>你的库给别人用，你也不知道场景是什么啊，当然能省则省</span><br>
+</p><p><b>Hieda: </b><br>
+<span>O(1)的性能也要扣，为什么不用C呢</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>if (A.x != B.x) {</span><br>
+<span>return A.x > B.x ? 1 : -1;</span><br>
+<span>}</span><br>
+<span>if (y再来一遍)</span><br>
+<span>}</span><br>
+<span>return 0;</span><br>
+<span>应该是这样吧</span><br>
+<span>这种不设计线程，不涉及io的代码，谈优化没意义</span><br>
+<span>满足功能再美化下可读性就可以了</span><br>
+</p><p><b>jctc: </b><br>
+<span>ohi 发表于 2019-6-2 00:10</span><br>
+<span>代码长不代表性能糟，直接写100条相同语句的性能比执行100遍的for循环还要高呢。 ...</span><br>
+<span>你是不是觉得gcc的-funroll-loop的作者是个丈育</span><br>
+</p><p><b>jctc: </b><br>
+<span>聚散浮云 发表于 2019-6-2 02:05</span><br>
+<span>你的库给别人用，你也不知道场景是什么啊，当然能省则省</span><br>
+<span>你都用垃圾语言java了</span><br>
+<span>还在乎什么性能啊</span><br>
+</p><p><b>Endle: </b><br>
+<span>calmer 发表于 2019-6-2 00:21</span><br>
+<span>这个时候你需要if(likely(cond))。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play ...</span><br>
+<span>手动给likely点赞</span><br>
+</p><p><b>Endle: </b><br>
+<span>commanderyuri 发表于 2019-6-2 00:27</span><br>
+<span>java高性能</span><br>
+<span>是不是有哪里不对</span><br>
+<span>java早就甩掉低性能的帽子了</span><br>
+<span>各种层面的优化加上去，虽然跟（写的好）的C/C++比不了，但已经可以应用在很多性能敏感领域了</span><br>
+<span>多少高级语言看着jvm的效率眼馋，想着搞一个jvm runtime</span><br>
+</p><p><b>Endle: </b><br>
+<span>LZ为什么不使用标准库里的java.math.BigDecimal.compareTo 呢？</span><br>
+<span>int res = (A.x).compareTo(B.x);</span><br>
+<span>if (res == 0) {....}</span><br>
+<span>这样可以避免对两个 BigDecimal 进行重复的比较</span><br>
+<span>ref </span><br>
+<span>https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html#compareTo(java.math.BigDecimal)</span><br>
+<span>https://www.geeksforgeeks.org/bigdecimal-compareto-function-in-java/</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>Endle 发表于 2019-6-2 05:53</span><br>
+<span>LZ为什么不使用标准库里的java.math.BigDecimal.compareTo 呢？</span><br>
+<span>int res = (A.x).compareTo(B.x);</span><br>
+<span>　我试一下。好行</span><br>
+</p><p><b>BRRM: </b><br>
+<span>不觉得java哪里低性能，c++的循环性能大约也就java的20倍这样，20倍的差距感觉不算啥。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span> 本帖最后由 wwwwn168 于 2019-6-2 07:16 编辑 </span><br>
+<span>不知道你们这些CPP巨魔在这里嚷嚷个啥。</span><br>
+<span>你们写过BLAS吗。看过GOTO的论文吗？</span><br>
+<span>有人能告诉我这个场景和CPP的强有一分钱关系吗？</span><br>
+</p><p><b>dulun59: </b><br>
+<span>来了 开始了 开始了 </span><br>
+</p><p><b>seducer0719: </b><br>
+<span>又到了我第二喜欢的世界上哪种编程语言最好的环节了</span><br>
+</p><p><b>2659646573: </b><br>
+<span>果然又回到了这个问题</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>来人，上FPGA!</span><br>
+</p><p><b>低端人口: </b><br>
+<img src="https://img.doutugou.net/2019/05/005ArDJbly1fu89qcklvuj30fd0cemyh.jpg" title="https://img.doutugou.net/2019/05/005ArDJbly1fu89qcklvuj30fd0cemyh.jpg"><br>
+</p><p><b>歹匕禾呈: </b><br>
+<span>_x = a.x.compare(b.x)</span><br>
+<span>_y = a.y.compare(b.y)</span><br>
+<span>return _x!=0? _x : _y</span><br>
+<span>并发得飞起</span><br>
+</p><p><b>一个再一个: </b><br>
+<span>seducer0719 发表于 2019-6-2 07:19</span><br>
+<span>又到了我第二喜欢的世界上哪种编程语言最好的环节了</span><br>
+<span>php天下第一</span><br>
+</p><p><b>Lion@s1: </b><br>
+<span>这贴要是在爆栈上面发…</span><br>
+<span>首先lz被标重复提问</span><br>
+<span>然后二楼大概要被downvote到哭</span><br>
+</p><p><b>yanjunle: </b><br>
+<span>一个再一个 发表于 2019-6-2 10:43</span><br>
+<span>php天下第一</span><br>
+<span>不玩梗的话，听说php7.几吊锤nodejs了？</span><br>
+</p><p><b>田多宇光: </b><br>
+<span> 本帖最后由 田多宇光 于 2019-6-2 11:59 编辑 </span><br>
+<span>public class YouClass implements Comparable<YouClass>{</span><br>
+<span>    BigDecimal x;</span><br>
+<span>    BigDecimal y;</span><br>
+<span>    @Override</span><br>
+<span>    public int compareTo(YouClass other) {</span><br>
+<span>      int res = x.compareTo(other.x);</span><br>
+<span>      return res == 0? y.compareTo(other.y): res;</span><br>
+<span>    }</span><br>
+<span>}或者这样</span><br>
+<span>static public class YouClass {</span><br>
+<span>    public BigDecimal x;</span><br>
+<span>    public BigDecimal y;</span><br>
+<span>    public BigDecimal getX() {</span><br>
+<span>      return x;</span><br>
+<span>    }</span><br>
+<span>    public BigDecimal getY() {</span><br>
+<span>      return y;</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+<span>public static void main(String[] args) {</span><br>
+<span>    List<YouClass> youClasses = new ArrayList<>();</span><br>
+<span>    youClasses.add(new YouClass());</span><br>
+<span>    youClasses.sort(Comparator.comparing(YouClass::getX).thenComparing(YouClass::getY));</span><br>
+<span>}</span><br>
+<span>附赠BigDecimal 的 compareTopublic int compareTo(BigDecimal val) {</span><br>
+<span>    // Quick path for equal scale and non-inflated case.</span><br>
+<span>    if (scale == val.scale) {</span><br>
+<span>      long xs = intCompact;</span><br>
+<span>      long ys = val.intCompact;</span><br>
+<span>      if (xs != INFLATED && ys != INFLATED)</span><br>
+<span>            return xs != ys ? ((xs > ys) ? 1 : -1) : 0;</span><br>
+<span>    }</span><br>
+<span>    int xsign = this.signum();</span><br>
+<span>    int ysign = val.signum();</span><br>
+<span>    if (xsign != ysign)</span><br>
+<span>      return (xsign > ysign) ? 1 : -1;</span><br>
+<span>    if (xsign == 0)</span><br>
+<span>      return 0;</span><br>
+<span>    int cmp = compareMagnitude(val);</span><br>
+<span>    return (xsign > 0) ? cmp : -cmp;</span><br>
+<span>}Comparator.thenComparingdefault Comparator<T> thenComparing(Comparator<? super T> other) {</span><br>
+<span>    Objects.requireNonNull(other);</span><br>
+<span>    return (Comparator<T> & Serializable) (c1, c2) -> {</span><br>
+<span>      int res = compare(c1, c2);</span><br>
+<span>      return (res != 0) ? res : other.compare(c1, c2);</span><br>
+<span>    };</span><br>
+<span>}</span><br>
+</p><p><b>有点追求: </b><br>
+<span>一个比较指令要抠性能，就算是汇编也省不了多少，不如到别的地方看看能不能省个θ（n）出来</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>wangh 发表于 2019-6-2 00:12</span><br>
+<span>这样就可以了。compareTo只要符号对就行了，又不是非要1和-1</span><br>
+<span>会溢出</span><br>
+</p><p><b>Litccc: </b><br>
+<span>catazshadow 发表于 2019-6-2 09:31</span><br>
+<span> 来人，上FPGA!</span><br>
+<span>为什么要上FPGA</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>有点追求 发表于 2019-6-2 11:42</span><br>
+<span>一个比较指令要抠性能，就算是汇编也省不了多少，不如到别的地方看看能不能省个θ（n）出来 ...</span><br>
+<span>treemap 插入comparator可以省nlogn</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836228[0-50]</guid>
+    </item>
+  </channel>
+</rss>

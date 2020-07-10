@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求科普下主板直接集成的第三方芯片和扩展卡插PCIE有啥区别</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求科普下主板直接集成的第三方芯片和扩展卡插PCIE有啥区别</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:08:57 +0000</lastBuildDate>
+    <item>
+      <title>求科普下主板直接集成的第三方芯片和扩展卡插PCIE有啥区别[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914248-1-1.html</link>
+      <description>求科普下主板直接集成的第三方芯片和扩展卡插PCIE有啥区别&#13;
+如果不是芯片组原生支持 而是通过第三方芯片扩展的比如网卡 SATAUSB之类的   
+&#13;
+和自己买扩展卡插PCIE有啥差异么性能上有影响么</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>求科普下主板直接集成的第三方芯片和扩展卡插PCIE有啥区别</span><br>
+<span>如果不是芯片组原生支持 而是通过第三方芯片扩展的比如网卡 SATAUSB之类的   </span><br>
+<span>和自己买扩展卡插PCIE有啥差异么性能上有影响么</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>没区别，没影响</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ft5555: </b><br>
+<span>usb的话推荐asm3142芯片那种pci-e 4x接口的</span><br>
+<span>1x接口那些芯片都太老了。。。</span><br>
+<span>sata那种转接卡在随机读写上都降低磁盘性能的。当然我用的是最便宜那档的。。。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>集成第三方会占用一个pcie通道吧</span><br>
+</p><p><b>elflie: </b><br>
+<span>没区别，一般主板除了第一个PCIE插槽是直达CPU，其他都是通向南桥的，当然板载的网卡USBSATA声卡也是</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>elflie 发表于 2020-2-17 12:51</span><br>
+<span>没区别，一般主板除了第一个PCIE插槽是直达CPU，其他都是通向南桥的，当然板载的网卡USBSATA声卡也是 ...</span><br>
+<span>这个怎么判断是否可以认为全速PCIE3.0X16的都是直连CPU的</span><br>
+</p><p><b>FMIC: </b><br>
+<span>观铃の使魔 发表于 2020-2-17 15:46</span><br>
+<span>这个怎么判断是否可以认为全速PCIE3.0X16的都是直连CPU的</span><br>
+<span>不同芯片组数量不一样，不过再少再少一条x16总是有的</span><br>
+</p><p><b>elflie: </b><br>
+<span>观铃の使魔 发表于 2020-2-17 15:46</span><br>
+<span>这个怎么判断是否可以认为全速PCIE3.0X16的都是直连CPU的</span><br>
+<span>最直接的办法是看主板说明书</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>观铃の使魔 发表于 2020-2-17 15:46</span><br>
+<span>这个怎么判断是否可以认为全速PCIE3.0X16的都是直连CPU的</span><br>
+<span>看主板说明书</span><br>
+<span>不看的话，intel家用平台除了千元级以上z370390，其它第一条外都不是直连，x299至少两条直连</span><br>
+<span>amd同理，不过有一个m2是直连的</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>第三方拓展卡不会集成驱动进BIOS，无法做启动盘，效率上网卡没有区别（本质都是PCIe转接，如果是外界USB转接效率低一截（外带USB吃U debuff），除了很少数的，比如最新的renoir可能集成了了以太网控制器，和Intel的CNVio无线网卡（这个主要降低了CPU占用）)，Sata和USB一般原生兼容性、开销和速度都优于转接，但也有例外（比如Intel第一代集成USB3.1速度不如祥硕之类的）</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>观铃の使魔 发表于 2020-2-17 15:46</span><br>
+<span>这个怎么判断是否可以认为全速PCIE3.0X16的都是直连CPU的</span><br>
+<span>这个看主板说明书把，第一条肯定是x16 直连</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914248[0-50]</guid>
+    </item>
+  </channel>
+</rss>

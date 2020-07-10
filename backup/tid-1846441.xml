@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[模拟器相关]我又来安利这个CRT滤镜了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[模拟器相关]我又来安利这个CRT滤镜了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:03:26 +0000</lastBuildDate>
+    <item>
+      <title>[模拟器相关]我又来安利这个CRT滤镜了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846441-1-1.html</link>
+      <description>[模拟器相关]我又来安利这个CRT滤镜了&#13;
+ 本帖最后由 Lunamos 于 2019-7-13 18:47 编辑 
+
+上次安利过一回，然而并没有详细说明各种设置相关联的东西是什么，而且新浪图床惨剧了。
+&#13;
+https://www.saraba1st.com/2b/thread-1795355-1-1.html
+&#13;
+这次还是主要介绍CRT_Royale这个滤镜，以及为何这是目前模拟CRT的几乎唯一选择，并且较为详细地介绍了各种参数的调整会造成的影响。泥潭编辑多图有点麻烦不知为何经常失败，文章发在TG和Bilibili上了，有兴趣可以看一下：《[多图]介绍游戏模拟器里各种常用滤镜的原理和效果，以及9102年了该如何正确模拟CRT!》
+&#13;
+TG: https://club.tgfcer.com/thread-7657428-1-2.html
+&#13;
+Bilibili: https://www.bilibili.com/read/cv3065212
+&#13;
+忘记当时用了外链图床……那么原文也直接放在这里吧（只关于CRT滤镜的部分）：
+&#13;
+CRT滤镜
+&#13;
+首先请把所有其它CRT滤镜扔掉，只留下一个：CRT-Royale（除非硬件跑不了，再考虑其他）。该滤镜使用了大量pass进行了CRT的模拟。如果PC性能够强的话，延时方面的影响也很小。CRT－Royale十分复杂和强大，对GPU有一定的要求。如果用intel的GPU的话（集显）需要进行修改，改版也在RetroArch里提供了。用来显示CRT_royale滤镜的屏幕至少需要2K以上的分辨率，4K甚至8K屏幕的模拟效果更加真实。是的你没看错，要模拟CRT，最低要求是2K分辨率，4K更佳。
+&#13;
+我们知道CRT中的磷光体（或荧光体）是产生冷发光现象的物质，受到阴极射线（电子束）激活发光。它发出的光线具有一定的特征，与现代LED的像素光线有较大的区别。CRT滤镜的关键就是通过大量现代LED像素去模拟磷光体的发光特征，从而模拟CRT的显示效果。而在这方面做得最好的就是此滤镜了。（CRT虽然没有直接的像素的概念，只有荧光粉或者荧光条。不过电子束的信息改变是离散的，因此我们可以将离散电子束信息改变周期内扫过的空间等价为像素的概念）。
+&#13;
+在RetroArch的桌面UI里打开CRT－royale的设置界面，我们可以看到很多相关设置，涉及到一些重要的调整项。如果你对Shader语言略有了解，也可以直接打开Shader文件进行调整，只是没有界面中方便。根据每个人接触到的不同型号和不同厂家生产的CRT，你所喜爱的CRT参数必然有所不同，玩家可以自行调整到喜欢的设置选项。
+&#13;
+首先看看效果（网络图片有压缩，要观看大体效果还是自己4K全屏运行模拟器比较靠谱。看图片也要看大图，小图自带AA，把所有特征都抹掉了）：
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmym2xbfj30y50u0kjp.jpg
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmyehwq7j314m0u04qv.jpg
+&#13;
+对比没开滤镜的游戏：
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dumpnl8bj318n0su0z4.jpg
+&#13;
+影响最终效果的选项很多。下面我们来解释一些影响较大的参数：
+&#13;
+Halation and Diffusion
+&#13;
+Halation是被荧光体直接反射的光线，而Diffusion是光线穿过CRT玻璃时产生的散射荧光。这两项参数的权重可以进行调整。
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3e3gs8j30f70c5tl9.jpg
+&#13;
+Bloom
+&#13;
+如果点亮的荧光体发光过强影响到了电视上的其他面积，使整个画面变得过亮，就是一种bloom的效果。特别好的CRT会控制bloom，但由于这是大量中低端电视可能产生的效果，因此也需要忠实模拟。
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3dcijlj30eu0cbdpn.jpg
+&#13;
+Beam
+&#13;
+这项参数控制了实际进行扫描的电子束的各项维度。不知为何一直有人认为scanline是黑线：scanline是扫描到的线，而没扫描到的地方才是黑线。除了可以调整Beam本身的大小以外，这里也可以调整高斯模糊函数的各个参数。根据不同的参数选择可能产生不同型号电视或街机的效果：
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn0g45hvj30ho0cp166.jpg
+&#13;
+Convergence
+&#13;
+彩色电视电子枪发射的三束射线对荧光粉的轰击是否足够整齐：好的CRT比如彩监是非常整齐的，但许多消费者级别的CRT这方面的表现就很一般了，根据每个人童年不同质量的CRT可以仔细微调。
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4b2cmuj30fm0cpwuu.jpg
+&#13;
+MASK
+&#13;
+这项控制的是荧光体的排列方式。滤镜提供了三种排列：0.0 (Aperture Grille), 1.0 (Slot Mask), 和 2.0 (Dot Mask)。这三种排列如下：
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4sl211j30qy0n44qp.jpg
+&#13;
+每一种排列都对应不同厂家的电视效果，可以分别予以调整。同时，MASK也有大量参数可以进行调整。比如使用的荧光体个数可以调整CRT显示的粒度。
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn6987h2j30fg0blnb6.jpg
+&#13;
+和其它滤镜相比也是高下立判。如果你觉得没有高下立判，就调整参数让它高下立判！
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4easx1rz8j30gw0fzgzm.jpg
+&#13;
+不同的制式和不同的输入会有一定程度的图像失真，没关系，这些失真可以用额外的pass来模拟。比如电视机的composite输入导致的色彩失真效果，加NTSC的色彩映射的效果如下：
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn9s5rigj30mv0b5kcz.jpg
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn8arq09j30rs0ife81.jpg
+&#13;
+再传两个其他游戏的图，还是那句话，要在自己的屏幕上运行模拟器动态才能比较明显看到效果。
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw2745l2j30u00ynhdv.jpg
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw17lrasj30qt0l9hdt.jpg
+&#13;
+http://tva1.sinaimg.cn/large/0060lm7Tly1g4dvzxwjqkj30vq0lrqv5.jpg
+&#13;
+Q&amp;A
+&#13;
+Q：我在用xxx模拟器（比如PS2……），这个模拟器好像不支持CRT_Royale，怎么办呢？或我不喜欢RetroArch，不用这个的话怎么自由使用滤镜？
+&#13;
+首先当然是看RetroArch能否支持你使用的模拟器后端（也就是是否包含在Libretro里）。一般来说只要使用RetroArch，事情就解决了。
+&#13;
+如果RetroArch不支持，或者不喜欢使用这个前端，另一个办法是用ReShade，但需要改写一下Shader的源文件。只能有志者去改了。其他一些可用的滤镜见这里：
+&#13;
+https://github.com/Matsilagi/reshade-retroarch-shaders
+&#13;
+再有就是通过OBS之类录屏软件间接执行shader，可以参考这里：
+&#13;
+https://obsproject.com/forum/res ... er-v1-0-update.775/
+&#13;
+具体我就没时间研究了，有愿意尝试的可以试着跳坑。
+&#13;
+一个典型例子是PS2，现在只能采取上面这些间接的办法。要直接使用，要么改一下CRT_Royale让PCSX2能编译（应该不算特别难但暂时没人去做），要么等PCSX2的Core做出来，或者看Play！的Core什么时候发布。
+&#13;
+制作PCSX2的Libretro Core的悬赏：
+&#13;
+https://github.com/libretro/RetroArch/issues/6867
+&#13;
+libretro近期会发布Play！的Core，有兴趣也可以关注一下：
+&#13;
+https://www.libretro.com/index.p ... ng-a-libretro-core/
+&#13;
+Q：使用这些滤镜延时大不大？
+&#13;
+一般来说这类滤镜由于只是处理一遍图像，因此所需的性能不多，Lag很小。CRT-Royale因为有14个pass，如果增加其他效果的话pass更高，对性能还是有一定需求的，但很多人的测试是GTX750以上性能方面就基本不是问题了。如果明显感觉到Lag当然还是关掉滤镜比较好。
+&#13;
+Q: LZ能不能提供你使用的滤镜？
+&#13;
+因为每个人的显示设备不同，所以还是自行调整比较好（至少gamma要调好）。
+&#13;
+RetroArch已经有一些多pass的预设，比如crt-royale-tvout+image-adjustment等等，直接用效果也不错。如果对扫描线很执着，也可以直接用cgp/crt-royale-kurozumi（国外论坛很多人喜欢这个滤镜，有兴趣不妨试试看效果）。
+&#13;
+Q：为什么我加载一些滤镜没有效果？
+&#13;
+可能是RetroArch的bug，有些后端运行的时候不支持编译某种类型的shader。试试其他语言（比如CG、GLSL换着试试）的相应滤镜。
+&#13;
+Q：球面效果和CRT皮肤是怎么弄的？
+&#13;
+球面效果在CRT_Royale的geom选项那里设置，可以设置球面的半径，以及设置观众距离球面的距离等等参数。
+&#13;
+至于那个CRT皮肤，是我直接放在OBS里的一张边框图片而已，营造一些怀旧氛围。模拟器设置里也有一些边框可以选择。
+&#13;
+Q：搞这个干啥反正比不上CRT
+&#13;
+手机照相或许被单反秒杀，不代表手机照相没意义。至少有一定怀旧需求的朋友还是需要一些利用现代硬件模拟古旧硬件的简单方法。虽然总体应该不如成色好的CRT，但如果使用的4KLED显示器质量还行的话，效果也不赖，具体可以自行实验一下。</description>
+      <content:encoded><![CDATA[<p><b>Lunamos: </b><br>
+<span>[模拟器相关]我又来安利这个CRT滤镜了</span><br>
+<span> 本帖最后由 Lunamos 于 2019-7-13 18:47 编辑 </span><br>
+<span>上次安利过一回，然而并没有详细说明各种设置相关联的东西是什么，而且新浪图床惨剧了。</span><br>
+<span>https://www.saraba1st.com/2b/thread-1795355-1-1.html</span><br>
+<span>这次还是主要介绍CRT_Royale这个滤镜，以及为何这是目前模拟CRT的几乎唯一选择，并且较为详细地介绍了各种参数的调整会造成的影响。泥潭编辑多图有点麻烦不知为何经常失败，文章发在TG和Bilibili上了，有兴趣可以看一下：《[多图]介绍游戏模拟器里各种常用滤镜的原理和效果，以及9102年了该如何正确模拟CRT!》</span><br>
+<span>TG: https://club.tgfcer.com/thread-7657428-1-2.html</span><br>
+<span>Bilibili: https://www.bilibili.com/read/cv3065212</span><br>
+<span>忘记当时用了外链图床……那么原文也直接放在这里吧（只关于CRT滤镜的部分）：</span><br>
+<span>CRT滤镜</span><br>
+<span>首先请把所有其它CRT滤镜扔掉，只留下一个：CRT-Royale（除非硬件跑不了，再考虑其他）。该滤镜使用了大量pass进行了CRT的模拟。如果PC性能够强的话，延时方面的影响也很小。CRT－Royale十分复杂和强大，对GPU有一定的要求。如果用intel的GPU的话（集显）需要进行修改，改版也在RetroArch里提供了。用来显示CRT_royale滤镜的屏幕至少需要2K以上的分辨率，4K甚至8K屏幕的模拟效果更加真实。是的你没看错，要模拟CRT，最低要求是2K分辨率，4K更佳。</span><br>
+<span>我们知道CRT中的磷光体（或荧光体）是产生冷发光现象的物质，受到阴极射线（电子束）激活发光。它发出的光线具有一定的特征，与现代LED的像素光线有较大的区别。CRT滤镜的关键就是通过大量现代LED像素去模拟磷光体的发光特征，从而模拟CRT的显示效果。而在这方面做得最好的就是此滤镜了。（CRT虽然没有直接的像素的概念，只有荧光粉或者荧光条。不过电子束的信息改变是离散的，因此我们可以将离散电子束信息改变周期内扫过的空间等价为像素的概念）。</span><br>
+<span>在RetroArch的桌面UI里打开CRT－royale的设置界面，我们可以看到很多相关设置，涉及到一些重要的调整项。如果你对Shader语言略有了解，也可以直接打开Shader文件进行调整，只是没有界面中方便。根据每个人接触到的不同型号和不同厂家生产的CRT，你所喜爱的CRT参数必然有所不同，玩家可以自行调整到喜欢的设置选项。</span><br>
+<span>首先看看效果（网络图片有压缩，要观看大体效果还是自己4K全屏运行模拟器比较靠谱。看图片也要看大图，小图自带AA，把所有特征都抹掉了）：</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmym2xbfj30y50u0kjp.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmym2xbfj30y50u0kjp.jpg"><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmyehwq7j314m0u04qv.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dmyehwq7j314m0u04qv.jpg"><br>
+<span>对比没开滤镜的游戏：</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dumpnl8bj318n0su0z4.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dumpnl8bj318n0su0z4.jpg"><br>
+<span>影响最终效果的选项很多。下面我们来解释一些影响较大的参数：</span><br>
+<span>Halation and Diffusion</span><br>
+<span>Halation是被荧光体直接反射的光线，而Diffusion是光线穿过CRT玻璃时产生的散射荧光。这两项参数的权重可以进行调整。</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3e3gs8j30f70c5tl9.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3e3gs8j30f70c5tl9.jpg"><br>
+<span>Bloom</span><br>
+<span>如果点亮的荧光体发光过强影响到了电视上的其他面积，使整个画面变得过亮，就是一种bloom的效果。特别好的CRT会控制bloom，但由于这是大量中低端电视可能产生的效果，因此也需要忠实模拟。</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3dcijlj30eu0cbdpn.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn3dcijlj30eu0cbdpn.jpg"><br>
+<span>Beam</span><br>
+<span>这项参数控制了实际进行扫描的电子束的各项维度。不知为何一直有人认为scanline是黑线：scanline是扫描到的线，而没扫描到的地方才是黑线。除了可以调整Beam本身的大小以外，这里也可以调整高斯模糊函数的各个参数。根据不同的参数选择可能产生不同型号电视或街机的效果：</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn0g45hvj30ho0cp166.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn0g45hvj30ho0cp166.jpg"><br>
+<span>Convergence</span><br>
+<span>彩色电视电子枪发射的三束射线对荧光粉的轰击是否足够整齐：好的CRT比如彩监是非常整齐的，但许多消费者级别的CRT这方面的表现就很一般了，根据每个人童年不同质量的CRT可以仔细微调。</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4b2cmuj30fm0cpwuu.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4b2cmuj30fm0cpwuu.jpg"><br>
+<span>MASK</span><br>
+<span>这项控制的是荧光体的排列方式。滤镜提供了三种排列：0.0 (Aperture Grille), 1.0 (Slot Mask), 和 2.0 (Dot Mask)。这三种排列如下：</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4sl211j30qy0n44qp.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn4sl211j30qy0n44qp.jpg"><br>
+<span>每一种排列都对应不同厂家的电视效果，可以分别予以调整。同时，MASK也有大量参数可以进行调整。比如使用的荧光体个数可以调整CRT显示的粒度。</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn6987h2j30fg0blnb6.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn6987h2j30fg0blnb6.jpg"><br>
+<span>和其它滤镜相比也是高下立判。如果你觉得没有高下立判，就调整参数让它高下立判！</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4easx1rz8j30gw0fzgzm.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4easx1rz8j30gw0fzgzm.jpg"><br>
+<span>不同的制式和不同的输入会有一定程度的图像失真，没关系，这些失真可以用额外的pass来模拟。比如电视机的composite输入导致的色彩失真效果，加NTSC的色彩映射的效果如下：</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn9s5rigj30mv0b5kcz.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn9s5rigj30mv0b5kcz.jpg"><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn8arq09j30rs0ife81.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dn8arq09j30rs0ife81.jpg"><br>
+<span>再传两个其他游戏的图，还是那句话，要在自己的屏幕上运行模拟器动态才能比较明显看到效果。</span><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw2745l2j30u00ynhdv.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw2745l2j30u00ynhdv.jpg"><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw17lrasj30qt0l9hdt.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dw17lrasj30qt0l9hdt.jpg"><br>
+<img src="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dvzxwjqkj30vq0lrqv5.jpg" title="http://tva1.sinaimg.cn/large/0060lm7Tly1g4dvzxwjqkj30vq0lrqv5.jpg"><br>
+<span>Q&A</span><br>
+<span>Q：我在用xxx模拟器（比如PS2……），这个模拟器好像不支持CRT_Royale，怎么办呢？或我不喜欢RetroArch，不用这个的话怎么自由使用滤镜？</span><br>
+<span>首先当然是看RetroArch能否支持你使用的模拟器后端（也就是是否包含在Libretro里）。一般来说只要使用RetroArch，事情就解决了。</span><br>
+<span>如果RetroArch不支持，或者不喜欢使用这个前端，另一个办法是用ReShade，但需要改写一下Shader的源文件。只能有志者去改了。其他一些可用的滤镜见这里：</span><br>
+<span>https://github.com/Matsilagi/reshade-retroarch-shaders</span><br>
+<span>再有就是通过OBS之类录屏软件间接执行shader，可以参考这里：</span><br>
+<span>https://obsproject.com/forum/res ... er-v1-0-update.775/</span><br>
+<span>具体我就没时间研究了，有愿意尝试的可以试着跳坑。</span><br>
+<span>一个典型例子是PS2，现在只能采取上面这些间接的办法。要直接使用，要么改一下CRT_Royale让PCSX2能编译（应该不算特别难但暂时没人去做），要么等PCSX2的Core做出来，或者看Play！的Core什么时候发布。</span><br>
+<span>制作PCSX2的Libretro Core的悬赏：</span><br>
+<span>https://github.com/libretro/RetroArch/issues/6867</span><br>
+<span>libretro近期会发布Play！的Core，有兴趣也可以关注一下：</span><br>
+<span>https://www.libretro.com/index.p ... ng-a-libretro-core/</span><br>
+<span>Q：使用这些滤镜延时大不大？</span><br>
+<span>一般来说这类滤镜由于只是处理一遍图像，因此所需的性能不多，Lag很小。CRT-Royale因为有14个pass，如果增加其他效果的话pass更高，对性能还是有一定需求的，但很多人的测试是GTX750以上性能方面就基本不是问题了。如果明显感觉到Lag当然还是关掉滤镜比较好。</span><br>
+<span>Q: LZ能不能提供你使用的滤镜？</span><br>
+<span>因为每个人的显示设备不同，所以还是自行调整比较好（至少gamma要调好）。</span><br>
+<span>RetroArch已经有一些多pass的预设，比如crt-royale-tvout+image-adjustment等等，直接用效果也不错。如果对扫描线很执着，也可以直接用cgp/crt-royale-kurozumi（国外论坛很多人喜欢这个滤镜，有兴趣不妨试试看效果）。</span><br>
+<span>Q：为什么我加载一些滤镜没有效果？</span><br>
+<span>可能是RetroArch的bug，有些后端运行的时候不支持编译某种类型的shader。试试其他语言（比如CG、GLSL换着试试）的相应滤镜。</span><br>
+<span>Q：球面效果和CRT皮肤是怎么弄的？</span><br>
+<span>球面效果在CRT_Royale的geom选项那里设置，可以设置球面的半径，以及设置观众距离球面的距离等等参数。</span><br>
+<span>至于那个CRT皮肤，是我直接放在OBS里的一张边框图片而已，营造一些怀旧氛围。模拟器设置里也有一些边框可以选择。</span><br>
+<span>Q：搞这个干啥反正比不上CRT</span><br>
+<span>手机照相或许被单反秒杀，不代表手机照相没意义。至少有一定怀旧需求的朋友还是需要一些利用现代硬件模拟古旧硬件的简单方法。虽然总体应该不如成色好的CRT，但如果使用的4KLED显示器质量还行的话，效果也不赖，具体可以自行实验一下。</span><br>
+</p><p><b>空罐子: </b><br>
+<span>效果很好，可惜我不用RetroArch，现在在用的模拟器是PCSX2,Dolphin，ePSXe</span><br>
+</p><p><b>sorayang: </b><br>
+<span>我讨厌CRT滤镜的一大原因是把真机PS2接到一台彩电上后那个效果让我惊呆了，怎么能那么屎。</span><br>
+<span>虽然我也是在家里CRT纯平上玩过MD、SFC、PS的，但这个古我是复不来了，没有这种情怀。</span><br>
+</p><p><b>melvin95: </b><br>
+<span>真实中年养老论坛</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>sorayang 发表于 2019-7-13 18:54</span><br>
+<span>我讨厌CRT滤镜的一大原因是把真机PS2接到一台彩电上后那个效果让我惊呆了，怎么能那么屎。</span><br>
+<span>虽然我也是在家 ...</span><br>
+<span>PS2当然还是CRT的画面最漂亮，之前有人翻译My Life for Gaming的PS2最佳方案的视频可以看看：</span><br>
+<span>https://www.bilibili.com/video/av39493057</span><br>
+</p><p><b>月黑杀人夜: </b><br>
+<span>sorayang 发表于 2019-07-13 17:54:37</span><br>
+<span>我讨厌CRT滤镜的一大原因是把真机PS2接到一台彩电上后那个效果让我惊呆了，怎么能那么屎。</span><br>
+<span>虽然我也是在家 ...那是因为旧彩电技术落伍了分辨率跟不上</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>厨具战士: </b><br>
+<span>显像管那种鲜艳独特的发色液晶电视永远也模拟不出来吧。液晶没有红光蓝光绿光，只有背光，什么都发白。</span><br>
+</p><p><b>sorayang: </b><br>
+<span>月黑杀人夜 发表于 2019-7-13 18:20</span><br>
+<span>那是因为旧彩电技术落伍了分辨率跟不上</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端 ...</span><br>
+<span>应该不是这个原因。</span><br>
+<span>因为我最开始看到PS2实机画面就是在外面的机房，也是大尺寸CRT，当时觉得画面很好的，</span><br>
+<span>后来我自己买了台PS2实机是很久以后了。</span><br>
+</p><p><b>Lunamos: </b><br>
+<span> 本帖最后由 Lunamos 于 2019-7-13 19:31 编辑 </span><br>
+<span>厨具战士 发表于 2019-7-13 19:23</span><br>
+<span>显像管那种鲜艳独特的发色液晶电视永远也模拟不出来吧。液晶没有红光蓝光绿光，只有背光，什么都发白。 ...</span><br>
+<span>背光LCD（CCFL）的确比较吃力，但也有自发光的LED，质量好点的4K LED多个像素模拟一个CRT像素能做到惟妙惟肖。</span><br>
+</p><p><b>sorayang: </b><br>
+<span>厨具战士 发表于 2019-7-13 18:23</span><br>
+<span>显像管那种鲜艳独特的发色液晶电视永远也模拟不出来吧。液晶没有红光蓝光绿光，只有背光，什么都发白。 ...</span><br>
+<span>CRT的荧光也是白光，显示色彩也是靠的三原色滤光片。你不会以为荧光就直接发三原色了吧...</span><br>
+</p><p><b>v13: </b><br>
+<span>有空试试</span><br>
+</p><p><b>厨具战士: </b><br>
+<span> 本帖最后由 厨具战士 于 2019-7-13 20:15 编辑 </span><br>
+<span>sorayang 发表于 2019-7-13 18:35</span><br>
+<span>CRT的荧光也是白光，显示色彩也是靠的三原色滤光片。你不会以为荧光就直接发三原色了吧... ...</span><br>
+<span>显像管靠的不是三色荧光粉吗？</span><br>
+<span>度娘：</span><br>
+<span>彩色显像管荧光屏上的三种荧光粉在电子束轰击下分别发出红、绿、蓝三种基色光。</span><br>
+<span>荧光屏由涂有近100万组由R、G、B三基色组成的荧光粉点(色素)的球面状屏面和距离它15mm，上有近似1/3荧光点数量小孔的球面薄金属钢板(荫罩板)组成。电子束经过会聚才能通过小孔打到相应的各自荧光点上，不会出现染色和混色现象，使我们看到的是一幅彩**像。</span><br>
+</p><p><b>sorayang: </b><br>
+<span>厨具战士 发表于 2019-7-13 20:12</span><br>
+<span>显像管靠的不是三色荧光粉吗？</span><br>
+<span>度娘：</span><br>
+<span>对，我记错了。</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>N1怕是用不上，纯顶不下。</span><br>
+<span>最近折腾模拟器，蛋蛋一个蓝牙连接PS4手柄就白费我半个月功夫。因为今天终于发现就算在retroarch设置好了能正常玩但只要在emulationstation这个烂前端一连接就会完全错乱。罢了罢了接个usbhub拿出PS2手柄和蓝三角转接器用着吧。</span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>说起来有人收集现阶段最好的模拟器（pc端）吗？</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>彩虹肥宅 发表于 2019-07-13 23:06:04</span><br>
+<span>说起来有人收集现阶段最好的模拟器（pc端）吗？lakka？我记得windows也能用</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>safelzy: </b><br>
+<span>有没有高清滤镜？这个人物画面不错，整体构图感觉雾蒙蒙的</span><br>
+</p><p><b>厨具战士: </b><br>
+<span>请教，我已经安装好了retroarch模拟器，在哪里开启这个CRT-Royale呢？我在desktop menu的option里找到了一个视频滤镜选项，但是打开一看里面都是后缀filt的文件，不是shader文件夹里的内容。</span><br>
+</p><p><b>汪达: </b><br>
+<span>safelzy 发表于 2019-7-14 16:48</span><br>
+<span>有没有高清滤镜？这个人物画面不错，整体构图感觉雾蒙蒙的</span><br>
+<span>那你应该用模拟器的抗锯齿功能</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>厨具战士 发表于 2019-7-14 19:48</span><br>
+<span>请教，我已经安装好了retroarch模拟器，在哪里开启这个CRT-Royale呢？我在desktop menu的option里找到了一 ...</span><br>
+<span>Win版的话，Show Desktop Menu->加载Core和游戏->View->Shaders->Load->Load Shader Preset</span><br>
+<span>打开RetroArch/shaders/shaders_XXX/crt/crt-royale.XXX</span><br>
+<span>RetroArch支持CG\GLSL\slang三种shader语言。</span><br>
+<span>如果没有shaders文件夹，就update一下，或者在这里下载(CG的）：</span><br>
+<span>https://github.com/libretro/common-shaders</span><br>
+</p><p><b>atomicink: </b><br>
+<span> 本帖最后由 atomicink 于 2019-7-15 13:56 编辑 </span><br>
+<span>木有4k显示器，有心无力1080p显示器用哪个crt滤镜呢</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>已经没有精力折腾模拟器了，开始慢慢理解蓝色宇宙的用户了…</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>那由: </b><br>
+<span>现在比较看好Lakka L4T在NS上面的表现，甚至有点心动想搞一台专门跑lakka</span><br>
+</p><p><b>牙晓: </b><br>
+<span>Retroarch一直用的crt-nes mini这个shader，占用小，加上街机overlay边框可以找回点感觉，现在换这个试试。会不会很吃显卡。psmini破解我也用的crt nes mini没有拖慢，其它的都卡菜单，游戏成幻灯片</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>Inquisitor 发表于 2019-7-15 14:01</span><br>
+<span>已经没有精力折腾模拟器了，开始慢慢理解蓝色宇宙的用户了…</span><br>
+<span>----发送自 STAGE1 App for Android. ...</span><br>
+<span> 研究一下模拟器的启动选项，做个快捷方式，指定默认游戏，关闭模拟器菜单界面，假装自己在玩原生游戏（</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>atomicink 发表于 2019-7-15 14:54</span><br>
+<span>木有4k显示器，有心无力1080p显示器用哪个crt滤镜呢</span><br>
+<span>1080P也可以用这个，只是效果会差些。另外就是可以用一些单PASS的CRT滤镜，比如CRT_Apertures, CRT_Lottes，效果已经比一般粗暴75%扫描线之类滤镜好一个档次了。</span><br>
+</p><p><b>stmule: </b><br>
+<span>厨具战士 发表于 2019-7-13 18:23</span><br>
+<span>显像管那种鲜艳独特的发色液晶电视永远也模拟不出来吧。液晶没有红光蓝光绿光，只有背光，什么都发白。 ...</span><br>
+<span>amoled了解一下？</span><br>
+</p><p><b>atomicink: </b><br>
+<span>用了下感觉不错，就是这retroarch不稳定，全屏切换都容易闪退</span><br>
+</p><p><b>GOUKI1981: </b><br>
+<span>Lunamos 发表于 2019-7-14 19:31</span><br>
+<span>Win版的话，Show Desktop Menu->加载Core和游戏->View->Shaders->Load->Load Shader Preset</span><br>
+<span>打开RetroArc ...</span><br>
+<span>安卓端除了ra其他模拟器似乎不能用这个滤镜？滤镜文件能否转换？</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>GOUKI1981 发表于 2019-7-16 23:20</span><br>
+<span>安卓端除了ra其他模拟器似乎不能用这个滤镜？滤镜文件能否转换？</span><br>
+<span>转换有一定难度。其他应该也有能用的模拟器，只是RetroArch用起来最方便。另外Android机器用这个可能机能方面比较捉襟见肘，可以考虑退而求其次用之前提到的CRT_Apertures, CRT_Lottes。</span><br>
+</p><p><b>波卡帕马: </b><br>
+<span> 本帖最后由 波卡帕马 于 2019-10-1 20:29 编辑 </span><br>
+<span>还是喜欢这种，好像叫lotte，你说的那个也试过了，但是觉得PS之后的才合适</span><br>
+</p><p><b>bivbiv: </b><br>
+<span>简直非常合我胃口，丢个染色球，下班回家再慢慢看</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846441[0-50]</guid>
+    </item>
+  </channel>
+</rss>

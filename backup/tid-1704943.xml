@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[更新] 已证实win10支持并默认开启aptX</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[更新] 已证实win10支持并默认开启aptX</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 22:50:55 +0000</lastBuildDate>
+    <item>
+      <title>[更新] 已证实win10支持并默认开启aptX[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1704943-1-1.html</link>
+      <description>[更新] 已证实win10支持并默认开启aptX&#13;
+ 本帖最后由 伊克路西安 于 2018-6-4 16:10 编辑 
+
+之前一直被
+&#13;
+aptx 数码多的评测里提出“win10支持aptx并默认开启"
+&#13;
+http://www.soomal.com/doc/10100006268.htm
+&#13;
+但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC
+&#13;
+http://club.tgfcer.com/viewthread.php?tid=7380581&amp;highlight=%C0%B6%D1%C0
+&#13;
+两种说法所迷惑 
+&#13;
+今天在@shikkoku 的指点下 通过sony headphone connect证实了win10 确实支持并默认开启aptX
+&#13;
+具体方法：
+&#13;
+1. android 设备安装 sony headphone connect 
+&#13;
+（根据索尼提供的wi-1000x说明书 ios无法进行此测试 但是ios在此说明书推出之后的版本是否可以暂未知）
+&#13;
+（索尼wi-1000x 说明书片段：
+&#13;
+连接耳机与智能手机时，通常会自动连接音乐播放功能和通话功能。如果要使用Android智能手机和iPhone建立一个多点连接，分别来听音乐和打电话，则请更改Android智能手机的设置，确保只连接一个功能。先连接Android智能手机，然后连接iPhone。
+&#13;
+iPhone无法设置为只连接一个功能。
+&#13;
+2. android 8.0以上设备（8.0以下设备无法在开发者选项里观察蓝牙音频编码器 但也可以自己用catlog之类的app监听）连接wi-1000x 设置里只勾选用于通话
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d723d3.png
+&#13;
+3. windows10 （最低版本未知 我使用的版本是1709） 并集成蓝牙或通过usb连接蓝牙接收器的设备上连接wi-1000x 成功之后会仅连接wi-1000x的音频播放
+&#13;
+https://i.loli.net/2018/06/04/5b14f10c5333a.png
+&#13;
+4. 此时观察开发者选项里的蓝牙音频编码器 确认为SBC （仅连接通话功能时无法选择aac/aptx/aptx-hd/ldac等其他编码器）
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d277ce.png
+&#13;
+5. 进入sony headphone connect app 确认wi-1000x 编码器为apt-X
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d24c0b.png
+&#13;
+题外话：本来我还在纠结是不是要换qc30所以一直没拆wi-1000x 搞清楚这件事之后我决定不上在win10上只能用sbc的qc30了。。还是要骂一句阿三sb 为什么aptx都支持了还不支持aac 我记得aac是开源的而aptx还是高通授权的
+&#13;
+另外wi-1000x戴着还蛮舒服的 
+&#13;
+===========================原帖分割线====================================================
+&#13;
+原标题：
+&#13;
+killer无线网卡的集成蓝牙有办法支持aptx么？
+&#13;
+买了个wi-1000x还没拆 一直在纠结要不要换QC30
+&#13;
+但是早上突然想起来win10不支持aac 那我QC30买来如果接电脑就只能听sbc了。。
+&#13;
+aptx 数码多的评测里提出“win10支持aptx并默认开启"
+&#13;
+http://www.soomal.com/doc/10100006268.htm
+&#13;
+但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC
+&#13;
+http://club.tgfcer.com/viewthrea ... hlight=%C0%B6%D1%C0
+&#13;
+并且提供了intel集成蓝牙模块安装APTX驱动的办法
+&#13;
+我的设备是微星笔记本GT72 无线网卡是killer n1535
+&#13;
+查了一下实际上生产killer的bigfoot早在11年就已经被高通收购了 
+&#13;
+那么既然intel的集成蓝牙模块都可以支持aptx 高通本家的蓝牙模块能不能做到呢。。？
+&#13;
+https://i.loli.net/2018/06/03/5b1391b296e97.png</description>
+      <content:encoded><![CDATA[<p><b>蓝色的风之精灵: </b><br>
+<span>是不是耳机不支持aptx-ll，win10也不会显示aptx低延迟的选项？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>谢lz！</span><br>
+<span>Win10 1709+多年前买的CSR8510，耳机通话连手机，媒体连电脑，通过sony app查看可见aptX</span><br>
+<span>如果app里选“声音质量模式”=“稳定连接优先”，则会重连蓝牙，app显示SBC+DSEE HX</span><br>
+<span>VPT和均衡器这俩功能，和aptX和DSEE HX都冲突</span><br>
+<span>Windows播放设备属性里看不到aptX有关tab，默认格式也一直是灰的不可选的44.1khz</span><br>
+<span>那么问题来了，有什么USB蓝牙dongle能让windows支持aptX HD甚至LDAC？</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>win 10能输出aptx吗？</span><br>
+</p><p><b>Dox: </b><br>
+<span>蔷薇落白 发表于 2018-8-30 10:33</span><br>
+<span>根据多方汇总 对主楼进行补充</span><br>
+<span>win10的内置aptx会对部分耳机启用APTX连接</span><br>
+<span>也就是耳机支持aptx的情况下win10 ...</span><br>
+<span>现在还这样？系统默认都是44.1khz吧</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>现在是支持aptx ll，默认优先选择</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1704943[50-100]</guid>
+    </item>
+    <item>
+      <title>[更新] 已证实win10支持并默认开启aptX[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1704943-1-1.html</link>
+      <description>[更新] 已证实win10支持并默认开启aptX&#13;
+ 本帖最后由 伊克路西安 于 2018-6-4 16:10 编辑 
+
+之前一直被
+&#13;
+aptx 数码多的评测里提出“win10支持aptx并默认开启"
+&#13;
+http://www.soomal.com/doc/10100006268.htm
+&#13;
+但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC
+&#13;
+http://club.tgfcer.com/viewthread.php?tid=7380581&amp;highlight=%C0%B6%D1%C0
+&#13;
+两种说法所迷惑 
+&#13;
+今天在@shikkoku 的指点下 通过sony headphone connect证实了win10 确实支持并默认开启aptX
+&#13;
+具体方法：
+&#13;
+1. android 设备安装 sony headphone connect 
+&#13;
+（根据索尼提供的wi-1000x说明书 ios无法进行此测试 但是ios在此说明书推出之后的版本是否可以暂未知）
+&#13;
+（索尼wi-1000x 说明书片段：
+&#13;
+连接耳机与智能手机时，通常会自动连接音乐播放功能和通话功能。如果要使用Android智能手机和iPhone建立一个多点连接，分别来听音乐和打电话，则请更改Android智能手机的设置，确保只连接一个功能。先连接Android智能手机，然后连接iPhone。
+&#13;
+iPhone无法设置为只连接一个功能。
+&#13;
+2. android 8.0以上设备（8.0以下设备无法在开发者选项里观察蓝牙音频编码器 但也可以自己用catlog之类的app监听）连接wi-1000x 设置里只勾选用于通话
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d723d3.png
+&#13;
+3. windows10 （最低版本未知 我使用的版本是1709） 并集成蓝牙或通过usb连接蓝牙接收器的设备上连接wi-1000x 成功之后会仅连接wi-1000x的音频播放
+&#13;
+https://i.loli.net/2018/06/04/5b14f10c5333a.png
+&#13;
+4. 此时观察开发者选项里的蓝牙音频编码器 确认为SBC （仅连接通话功能时无法选择aac/aptx/aptx-hd/ldac等其他编码器）
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d277ce.png
+&#13;
+5. 进入sony headphone connect app 确认wi-1000x 编码器为apt-X
+&#13;
+https://i.loli.net/2018/06/04/5b14f10d24c0b.png
+&#13;
+题外话：本来我还在纠结是不是要换qc30所以一直没拆wi-1000x 搞清楚这件事之后我决定不上在win10上只能用sbc的qc30了。。还是要骂一句阿三sb 为什么aptx都支持了还不支持aac 我记得aac是开源的而aptx还是高通授权的
+&#13;
+另外wi-1000x戴着还蛮舒服的 
+&#13;
+===========================原帖分割线====================================================
+&#13;
+原标题：
+&#13;
+killer无线网卡的集成蓝牙有办法支持aptx么？
+&#13;
+买了个wi-1000x还没拆 一直在纠结要不要换QC30
+&#13;
+但是早上突然想起来win10不支持aac 那我QC30买来如果接电脑就只能听sbc了。。
+&#13;
+aptx 数码多的评测里提出“win10支持aptx并默认开启"
+&#13;
+http://www.soomal.com/doc/10100006268.htm
+&#13;
+但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC
+&#13;
+http://club.tgfcer.com/viewthrea ... hlight=%C0%B6%D1%C0
+&#13;
+并且提供了intel集成蓝牙模块安装APTX驱动的办法
+&#13;
+我的设备是微星笔记本GT72 无线网卡是killer n1535
+&#13;
+查了一下实际上生产killer的bigfoot早在11年就已经被高通收购了 
+&#13;
+那么既然intel的集成蓝牙模块都可以支持aptx 高通本家的蓝牙模块能不能做到呢。。？
+&#13;
+https://i.loli.net/2018/06/03/5b1391b296e97.png</description>
+      <content:encoded><![CDATA[<p><b>伊克路西安: </b><br>
+<span>[更新] 已证实win10支持并默认开启aptX</span><br>
+<span> 本帖最后由 伊克路西安 于 2018-6-4 16:10 编辑 </span><br>
+<span>之前一直被</span><br>
+<span>aptx 数码多的评测里提出“win10支持aptx并默认开启"</span><br>
+<span>http://www.soomal.com/doc/10100006268.htm</span><br>
+<span>但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC</span><br>
+<span>http://club.tgfcer.com/viewthread.php?tid=7380581&highlight=%C0%B6%D1%C0</span><br>
+<span>两种说法所迷惑 </span><br>
+<span>今天在@shikkoku 的指点下 通过sony headphone connect证实了win10 确实支持并默认开启aptX</span><br>
+<span>具体方法：</span><br>
+<span>1. android 设备安装 sony headphone connect </span><br>
+<span>（根据索尼提供的wi-1000x说明书 ios无法进行此测试 但是ios在此说明书推出之后的版本是否可以暂未知）</span><br>
+<span>（索尼wi-1000x 说明书片段：</span><br>
+<span>连接耳机与智能手机时，通常会自动连接音乐播放功能和通话功能。如果要使用Android智能手机和iPhone建立一个多点连接，分别来听音乐和打电话，则请更改Android智能手机的设置，确保只连接一个功能。先连接Android智能手机，然后连接iPhone。</span><br>
+<span>iPhone无法设置为只连接一个功能。</span><br>
+<span>2. android 8.0以上设备（8.0以下设备无法在开发者选项里观察蓝牙音频编码器 但也可以自己用catlog之类的app监听）连接wi-1000x 设置里只勾选用于通话</span><br>
+<img src="https://i.loli.net/2018/06/04/5b14f10d723d3.png" title="https://i.loli.net/2018/06/04/5b14f10d723d3.png"><br>
+<span>3. windows10 （最低版本未知 我使用的版本是1709） 并集成蓝牙或通过usb连接蓝牙接收器的设备上连接wi-1000x 成功之后会仅连接wi-1000x的音频播放</span><br>
+<img src="https://i.loli.net/2018/06/04/5b14f10c5333a.png" title="https://i.loli.net/2018/06/04/5b14f10c5333a.png"><br>
+<span>4. 此时观察开发者选项里的蓝牙音频编码器 确认为SBC （仅连接通话功能时无法选择aac/aptx/aptx-hd/ldac等其他编码器）</span><br>
+<img src="https://i.loli.net/2018/06/04/5b14f10d277ce.png" title="https://i.loli.net/2018/06/04/5b14f10d277ce.png"><br>
+<span>5. 进入sony headphone connect app 确认wi-1000x 编码器为apt-X</span><br>
+<img src="https://i.loli.net/2018/06/04/5b14f10d24c0b.png" title="https://i.loli.net/2018/06/04/5b14f10d24c0b.png"><br>
+<span>题外话：本来我还在纠结是不是要换qc30所以一直没拆wi-1000x 搞清楚这件事之后我决定不上在win10上只能用sbc的qc30了。。还是要骂一句阿三sb 为什么aptx都支持了还不支持aac 我记得aac是开源的而aptx还是高通授权的</span><br>
+<span>另外wi-1000x戴着还蛮舒服的 </span><br>
+<span>===========================原帖分割线====================================================</span><br>
+<span>原标题：</span><br>
+<span>killer无线网卡的集成蓝牙有办法支持aptx么？</span><br>
+<span>买了个wi-1000x还没拆 一直在纠结要不要换QC30</span><br>
+<span>但是早上突然想起来win10不支持aac 那我QC30买来如果接电脑就只能听sbc了。。</span><br>
+<span>aptx 数码多的评测里提出“win10支持aptx并默认开启"</span><br>
+<span>http://www.soomal.com/doc/10100006268.htm</span><br>
+<span>但是edfc的帖子里面指出win10默认支持aptx而不开启 数码多的频谱实际上是高码SBC</span><br>
+<span>http://club.tgfcer.com/viewthrea ... hlight=%C0%B6%D1%C0</span><br>
+<span>并且提供了intel集成蓝牙模块安装APTX驱动的办法</span><br>
+<span>我的设备是微星笔记本GT72 无线网卡是killer n1535</span><br>
+<span>查了一下实际上生产killer的bigfoot早在11年就已经被高通收购了 </span><br>
+<span>那么既然intel的集成蓝牙模块都可以支持aptx 高通本家的蓝牙模块能不能做到呢。。？</span><br>
+<img src="https://i.loli.net/2018/06/03/5b1391b296e97.png" title="https://i.loli.net/2018/06/03/5b1391b296e97.png"><br>
+</p><p><b>伊克路西安: </b><br>
+<span>话说谷歌都在8.0之后的AOSP里添加了aac支持了 win10怎么就不行啊</span><br>
+</p><p><b>midearth: </b><br>
+<span>怎么看自己的电脑走的是什么编码</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>midearth 发表于 2018-6-3 15:27</span><br>
+<span>怎么看自己的电脑走的是什么编码</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+<img src="http://club.tgfcer.com/attachments/day_171110/20171110_6283_0d28611a845f9e8941f5cgVvd3rzPZzj.png" title="http://club.tgfcer.com/attachments/day_171110/20171110_6283_0d28611a845f9e8941f5cgVvd3rzPZzj.png"><br>
+</p><p><b>midearth: </b><br>
+<span>引用第3楼伊克路西安于2018-06-03 15:33发表的:</span><br>
+<span>引用:midearth 发表于 2018-6-3 15:27怎么看自己的电脑走的是什么编码----发......</span><br>
+<span>谢谢.</span><br>
+<span>既然tgfc那贴也是dell提供的应用，那找找用**卡的厂家有没有发布相应应用？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>shikkoku: </b><br>
+<span> 本帖最后由 shikkoku 于 2018-6-3 20:20 编辑 </span><br>
+<span>我试过高通的ngff无线网卡和intel的9650不安装特殊驱动，windows 10直接就是aptx。我用大法的Headphones Connect看过了，确定默认驱动就能支持。而安装戴尔那个Intel蓝牙老驱动，勾上aptx就是aptx，不勾上会切回SBC。那个贴我以前看过，并且就是看完才测试的。你大可以找个大法的支持Headphones Connect的蓝牙耳机实验。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:17</span><br>
+<span>我试过高通的ngff无线网卡和intel的9650不安装特殊驱动，windows 10直接就是aptx。我用大法的Headphones Co ...</span><br>
+<span>大法的headphones connect也有win版么</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-3 20:19</span><br>
+<span>大法的headphones connect也有win版么</span><br>
+<span>没有啊，你耳机连电脑了，手机上的app也能看到连线状态的。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:21</span><br>
+<span>没有啊，你耳机连电脑了，手机上的app也能看到连线状态的。</span><br>
+<span>这么腻害 怎么检测到的。。。</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>不过若是你买了BOSE的东西，就真的只能以SBC传输了。</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-3 20:22</span><br>
+<span>这么腻害 怎么检测到的。。。</span><br>
+<span>耳机蓝牙还连着手机，多点链接。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:24</span><br>
+<span>耳机蓝牙还连着手机，多点链接。</span><br>
+<span>那是同时显示两个连接各自的协议么</span><br>
+<span>手头倒是有wi1000x可惜就是拆了不能退 小纠结</span><br>
+<span>高通的NGFF网卡是哪款？</span><br>
+<span>亲儿子支持不知道干儿子支不支持= =</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-3 20:27</span><br>
+<span>那是同时显示两个连接各自的协议么</span><br>
+<span>手头倒是有wi1000x可惜就是拆了不能退 小纠结</span><br>
+<span>高通的NGFF网卡 ...</span><br>
+<span>你切换了主设备后只会显示主设备的连接状态，不会显示各自的协议。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:29</span><br>
+<span>你切换了主设备后只会显示主设备的连接状态，不会显示各自的协议。</span><br>
+<span>比如你手机ldac连wi1000x</span><br>
+<span>电脑为主设备 </span><br>
+<span>app里面只显示aptx？</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>我之前的网卡是QCA6174A</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-3 20:31</span><br>
+<span>比如你手机ldac连wi1000x</span><br>
+<span>电脑为主设备 </span><br>
+<span>app里面只显示aptx？</span><br>
+<span>我试过是这样。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:36</span><br>
+<span>我试过是这样。</span><br>
+<span>谢谢茄子</span><br>
+</p><p><b>learest1: </b><br>
+<span>同型号网卡，看了一下没这个选项</span><br>
+<img src="https://i.loli.net/2018/06/04/5b1425b976c5e.png" title="https://i.loli.net/2018/06/04/5b1425b976c5e.png"><br>
+</p><p><b>伊克路西安: </b><br>
+<span>learest1 发表于 2018-6-4 01:30</span><br>
+<span>同型号网卡，看了一下没这个选项</span><br>
+<span>这个是那些intel网卡的人装了驱动才有的</span><br>
+<span> 你可以试试像楼上说的那样 手机用aac/ldac/sbc连接1000x 然后电脑连接wi1000x作为主设备 </span><br>
+<span>然后看看那个APP上面是不是显示的APTX</span><br>
+</p><p><b>learest1: </b><br>
+<span> 本帖最后由 learest1 于 2018-6-4 02:06 编辑 </span><br>
+<span>伊克路西安 发表于 2018-6-4 01:36</span><br>
+<span>这个是那些intel网卡的人装了驱动才有的</span><br>
+<span> 你可以试试像楼上说的那样 手机用aac/ldac/sbc连接1000x 然后电 ...</span><br>
+<span>显示的是APTX</span><br>
+<span>而且试了一下蓝牙音质要比插线好感觉可以把那根线扔掉了，还不是typec的，插起来贼蠢</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>learest1 发表于 2018-6-4 01:59</span><br>
+<span>显示的是APTX</span><br>
+<span>而且试了一下蓝牙音质要比插线好感觉可以把那根线扔掉了，还不是typec的，插起来贼蠢 ...</span><br>
+<span>。。。看了你的回复我决定不考虑qc30了 毕竟连win10只有sbc了。。</span><br>
+<span>是挺蠢的。。不过我还是觉得放盒子里比较好。。以后出二手也什么的会方便些</span><br>
+<span>—— 来自 OnePlus A0001, Android 8.1.0上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>learest1: </b><br>
+<span>伊克路西安 发表于 2018-6-4 02:16</span><br>
+<span>。。。看了你的回复我决定不考虑qc30了 毕竟连win10只有sbc了。。</span><br>
+<span>是挺蠢的。。不过我还是觉得放盒子里比 ...</span><br>
+<span>耳机这东西挺难出二手的...</span><br>
+<span>不过感觉这玩意比买大耳划算，能长时间戴，戴着出门也很方便</span><br>
+<span>如果是大耳的话即使是冬天我最多也就撑一小时</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>learest1 发表于 2018-6-4 02:26</span><br>
+<span>耳机这东西挺难出二手的...</span><br>
+<span>不过感觉这玩意比买大耳划算，能长时间戴，戴着出门也很方便</span><br>
+<span>如果是大耳的话 ...</span><br>
+<span>恩。。其实我的意思是放盒子里面又不会多占地方 也没必要扔来着 当然你盒子都不想要就当我没说。。</span><br>
+<span>我是异位性皮炎患者 最近几年脸部受创比较严重 像大耳戴着10分钟基本上耳周皮肤就开始破损了 所以就只能用耳塞了</span><br>
+<span>不过就算没皮肤病我大概也不会喜欢大耳 戴着热 压耳朵 压脸 压眼镜腿 垂坠。。。</span><br>
+<span>不过这种入耳式耳机长时间戴应该还是对耳朵不好</span><br>
+<span>—— 来自 OnePlus A0001, Android 8.1.0上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-4 02:34</span><br>
+<span>恩。。其实我的意思是放盒子里面又不会多占地方 也没必要扔来着 当然你盒子都不想要就当我没说。。</span><br>
+<span>我觉得大法短期内搞不定LDAC降噪豆。因为高通的芯片没那么给力。</span><br>
+</p><p><b>星空天神: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:17</span><br>
+<span>我试过高通的ngff无线网卡和intel的9650不安装特殊驱动，windows 10直接就是aptx。我用大法的Headphones Co ...</span><br>
+<span>你确定那个显示的aptx不是手机的？</span><br>
+</p><p><b>激光2000: </b><br>
+<span>伊克路西安 发表于 2018-6-4 01:36</span><br>
+<span>这个是那些intel网卡的人装了驱动才有的</span><br>
+<span> 你可以试试像楼上说的那样 手机用aac/ldac/sbc连接1000x 然后电 ...</span><br>
+<span>这个具体怎么操作？电脑蓝牙连接1000x。然后从手机app查看？感觉不太靠谱啊，手机没连上耳机，app立面怎么查看什么类型的连接？</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>激光2000 发表于 2018-6-4 09:41</span><br>
+<span>这个具体怎么操作？电脑蓝牙连接1000x。然后从手机app查看？感觉不太靠谱啊，手机没连上耳机，app立面怎 ...</span><br>
+<span>耳机还连着手机的</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-4 12:53</span><br>
+<span>耳机还连着手机的</span><br>
+<span>@shikkoku </span><br>
+<span>主楼点你没亮 = =</span><br>
+<span>感谢指点！</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>伊克路西安 发表于 2018-6-4 16:04</span><br>
+<span>@shikkoku </span><br>
+<span>主楼点你没亮 = =</span><br>
+<span>感谢指点！</span><br>
+<span>killer 1535实际上也是QCA6174A芯片。killer的1550是Intel的9260芯片。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>shikkoku 发表于 2018-6-4 17:12</span><br>
+<span>killer 1535实际上也是QCA6174A芯片。killer的1550是Intel的9260芯片。</span><br>
+<span>惊了 原来是贴牌公司= =</span><br>
+<span>不过我只用千兆有线</span><br>
+</p><p><b>MudohSetsuna: </b><br>
+<span>支持不支持，玄学家不是应该用耳朵就能测出来了吗？怎么还要写论文？玄学差评！</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>learest1 发表于 2018-6-4 01:59</span><br>
+<span>显示的是APTX</span><br>
+<span>而且试了一下蓝牙音质要比插线好感觉可以把那根线扔掉了，还不是typec的，插起来贼蠢 ...</span><br>
+<span>插线音质还可以的（没记错的话要开电源和降噪之后才会好）...也许是笔记本自带声卡太差...</span><br>
+</p><p><b>admidi: </b><br>
+<span>https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/bluetooth</span><br>
+<span>巨硬文档里写了有的</span><br>
+</p><p><b>King5268: </b><br>
+<span>哇！感谢感谢！CSR的蓝牙驱动无法添加xbox one手柄，原生驱动手柄能用但是蓝牙音质像屎一样，我正犯愁呢！</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.0</span><br>
+</p><p><b>ひふみ: </b><br>
+<span>完了，开不开aptx都听不出区别耳机是mdr 1000x</span><br>
+</p><p><b>星空天神: </b><br>
+<span>King5268 发表于 2018-6-5 07:44</span><br>
+<span>哇！感谢感谢！CSR的蓝牙驱动无法添加xbox one手柄，原生驱动手柄能用但是蓝牙音质像屎一样，我正犯愁呢！[ ...</span><br>
+<span>已经像屎了。知道是aptx就不屎了?</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 8.1.0上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>koakon: </b><br>
+<span>淘宝上最便宜的csr8675</span><br>
+<span>一样能开。但是木耳听不出有啥区别。</span><br>
+</p><p><b>miniconmax: </b><br>
+<span>SP4没办法确认是不是支持APTX，悲剧。。。。。</span><br>
+</p><p><b>learest1: </b><br>
+<span>ひふみ 发表于 2018-6-6 13:48</span><br>
+<span>完了，开不开aptx都听不出区别耳机是mdr 1000x</span><br>
+<span>心诚则灵说不定试试ldac就能有区别了呢</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>learest1 发表于 2018-6-6 19:54</span><br>
+<span>心诚则灵说不定试试ldac就能有区别了呢</span><br>
+<span>那当然是DSEE大法弥补了SBC和apt X之间的差距，不对，是提升到类似高度啦</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.0</span><br>
+</p><p><b>萱时令: </b><br>
+<span>哇 真不错 手头设备是微星ge72 ac3165的网卡</span><br>
+<span>装了tgfc贴子里的驱动 有了自定义选项</span><br>
+</p><p><b>shikkoku: </b><br>
+<span>居然还有人看完帖子后还在win10上装那个老驱动。那是给win8用的。win8、win7默驱可不支持aptX。</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>ひふみ 发表于 2018-6-6 13:48</span><br>
+<span>完了，开不开aptx都听不出区别耳机是mdr 1000x</span><br>
+<span>你关掉DSEE再试试？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>开不开aptx lg730都可以听出区别的</span><br>
+<span>win10默认支持aptx 我记得差不多一年前我买蓝牙适配器的时候就测过了</span><br>
+<span>如果插线不如aptx，就是板载声卡还不如耳机自带dac。这种情况也出现在我u2414自带dac比我的板载好。</span><br>
+<span>用创新t30对比过，aptx会明显损失低音部分，还是不如插线u2414</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span> 本帖最后由 Xerxes_2 于 2018-6-20 17:50 编辑 </span><br>
+<span>Win10 1803，创新Outlier Sports，装了之后确实听出了一耳朵区别。但是免提模式没有了，麦克风用不了，谁来告诉我为什么</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>BCM20720</span><br>
+<span>Windows 10 1804</span><br>
+<span>MDR-1000X</span><br>
+<span>自带驱动是</span><br>
+<span>断联，随机打不开蓝牙，单声道立体声分开，打电话要切设备</span><br>
+<span>装了BCM自己的老驱动，解决了所有问题</span><br>
+<span>声音么…没听出来区别…</span><br>
+<span>— from Xiaomi polaris, Android P of S1 Next Goose v2.0-play</span><br>
+</p><p><b>cybermonster: </b><br>
+<span>今天入了wh1000xm2，连上自己的笔电暗影精灵3 pro，没有装那个老驱动，就是去hp官网更新了intel最新的蓝牙驱动，连上耳机后看手机显示是aptx。。。</span><br>
+</p><p><b>蔷薇落白: </b><br>
+<span> 本帖最后由 蔷薇落白 于 2018-8-30 11:29 编辑 </span><br>
+<span>根据多方汇总 对主楼进行补充</span><br>
+<span>win10的内置aptx会对部分耳机启用APTX连接</span><br>
+<span>也就是耳机支持aptx的情况下win10不一定用aptx连接</span><br>
+<span>具体看你默认驱动下采样率是44.1k还是48k</span><br>
+<span>44.1k为sbc</span><br>
+<span>48k为aptx</span><br>
+<span>默认44.1k且不可更改请装dell驱动</span><br>
+</p><p><b>蔷薇落白: </b><br>
+<span>shikkoku 发表于 2018-6-3 20:17</span><br>
+<span>我试过高通的ngff无线网卡和intel的9650不安装特殊驱动，windows 10直接就是aptx。我用大法的Headphones Co ...</span><br>
+<span>默认驱动下采样频率是44100还是48000能看一下吗</span><br>
+</p><p><b>scad: </b><br>
+<span>koakon 发表于 2018-6-6 19:27</span><br>
+<span>淘宝上最便宜的csr8675</span><br>
+<span>一样能开。但是木耳听不出有啥区别。</span><br>
+<span>这是什么耳机</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1704943[0-50]</guid>
+    </item>
+  </channel>
+</rss>

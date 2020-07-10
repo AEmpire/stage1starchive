@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>随便聊聊，Intel核显在Pr使用中到底有点什么用处</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>随便聊聊，Intel核显在Pr使用中到底有点什么用处</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:09:35 +0000</lastBuildDate>
+    <item>
+      <title>随便聊聊，Intel核显在Pr使用中到底有点什么用处[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914167-1-1.html</link>
+      <description>随便聊聊，Intel核显在Pr使用中到底有点什么用处&#13;
+经常有人问剪辑机，延续这贴内容，我贴一下我试下来的结果，权当抛砖引玉
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&amp;tid=1912129
+&#13;
+这些天都在家里，我拿自家6700K再来测试一下吧
+&#13;
+先说结论，intel核显对h264/HEVC文件作用很大，日常使用非专业编码的4K h264/HEVC的文件多的用户可以考虑，但是我没AMD CPU对比，不知道AMD硬抗是不是能打核显硬解
+&#13;
+其次是Pr建议用N卡，A卡opencl被N卡的CDUA吊起来，N卡不用太高级，反正1660这种剪辑就够用了，你想渲染输出快，可以往上升级
+&#13;
+------------------------------------------------------------------------------------------------------
+&#13;
+测之前说一下之前经历
+&#13;
+记得17年18年的时候，我在弄4K的片子，遇到pc笔记本能流畅剪辑h264，而mac pro不行，软件是2017、2018
+&#13;
+对比之下发现，mac pro由于硬件原因，首选项 媒体里面 intel加速无法启动，win7下启动了，就出现笔记本能打mac pro的情况，于是换来mbp启动了加速，也能打mac pro
+&#13;
+此后我经常会留意这个问题，的确感受到intel的核显在解码
+&#13;
+如今查看ADOBE网站关于GPU加速与硬件编码的页面
+&#13;
+https://helpx.adobe.com/x-productkb/multi/gpu-acceleration-and-hardware-encoding.html
+&#13;
+发现Mercury Playback Engine (GPU Accelerated) renderer
+&#13;
+提到的所有内容都是与render相关的内容，比如encode编码问题
+&#13;
+整个页面提到对视频文件解码的只有
+&#13;
+Hardware-accelerated Encoding/Decoding (Intel® Quick Sync)
+&#13;
+也就是intel的核显才能做的事情
+&#13;
+Like Hardware-accelerated Encoding, Adobe Premiere Pro also supports Hardware-accelerated Decoding to provide better playback performance while working with the H.264/AVC, HEVC media in the timeline.
+&#13;
+在翻看水银加速硬件支持页面
+&#13;
+Hardware acceleration system requirements
+&#13;
+https://helpx.adobe.com/premiere-pro/system-requirements.html
+&#13;
+看到两个硬件解码加速
+&#13;
+ardware-accelerated H.264 decoding
+&#13;
+Mac OS 10.13 (or later) on Mac hardware from 2016 or later
+&#13;
+Windows 10 with 6th Generation (or later) Intel® Core™ processors and Intel Graphics enabled
+&#13;
+Hardware-accelerated HEVC decoding        
+&#13;
+Mac OS 10.13 (or later) on Mac hardware from 2016 or later
+&#13;
+Windows 10 with 7th Generation (or later) Intel® Core™ processors and Intel Graphics enabled
+&#13;
+我英语不好，如果没看错的话，应该是这样说的
+&#13;
+这些官方说明和我以前得出的结论差不多，沙雕的adobe解码h264/HEVC时要么cpu硬抗，要么只能intel核显，这个导致结果是什么呢？
+&#13;
+我在单位有台imac pro（10万元那个配置的）在读h264/HEVC 4K文件是，卡卡卡
+&#13;
+------------------------------------------------------------------------------------------------------
+&#13;
+好，我上一下自家6700K的测试（6700K+rx584+32G内存）
+&#13;
+pr2019 timeline设置4K分辨率（没有第二屏全屏监看，所以CPU和A卡压力小了很多）
+&#13;
+预览选择完整
+&#13;
+4轨道画面，均是4K的h264（家里只有这种老的，但也差不多了，视频详细格式在最后）
+&#13;
+每一轨画面都做了缩放、移动、变速和lut
+&#13;
+整体比较极限，我的mac pro一轨加变速就gg了
+&#13;
+第一张图开了核显，核显解码占满，A卡1%（推测是在做合成输出占用3D和Copy性能，如果附加一个屏幕全屏监看这个%就会上去的）
+&#13;
+CPU平均10%不到，画面较卡，但是有变化，拖拽指针，CPU到20-30%左右，画面延迟大概1秒左右
+&#13;
+第二张图关闭核显，CPU不时占满，平局80-90%，画面冻结，无法预览，拖拽指针CPU无明显变化，画面冻结无变化，A卡依然1%
+&#13;
+这就是我的简单测试。
+&#13;
+视频信息
+&#13;
+General
+&#13;
+Complete name                  : C:\DJI_0001.MOV
+&#13;
+Format                         : MPEG-4
+&#13;
+Format profile               : QuickTime
+&#13;
+Codec ID                     : qt   2014.02 (qt)
+&#13;
+File size                      : 1.18 GiB
+&#13;
+Duration                     : 2 min 48 s
+&#13;
+Overall bit rate mode          : Variable
+&#13;
+Overall bit rate               : 60.0 Mb/s
+&#13;
+Encoded date                   : UTC 2015-12-19 10:37:54
+&#13;
+Tagged date                  : UTC 2015-12-19 10:37:54
+&#13;
+Comment                        : 0.9.163
+&#13;
+xyz                            : +28.205212+101.882276+0.500
+&#13;
+xsp                            : +0.40
+&#13;
+ysp                            : -0.30
+&#13;
+zsp                            : -1.10
+&#13;
+fpt                            : -1.90
+&#13;
+fyw                            : -48.80
+&#13;
+frl                            : +0.10
+&#13;
+gpt                            : +0.00
+&#13;
+gyw                            : -49.00
+&#13;
+grl                            : +0.00
+&#13;
+Video
+&#13;
+ID                           : 1
+&#13;
+Format                         : AVC
+&#13;
+Format/Info                  : Advanced Video Codec
+&#13;
+Format profile               : High@L5.1
+&#13;
+Format settings                : CABAC / 1 Ref Frames
+&#13;
+Format settings, CABAC         : Yes
+&#13;
+Format settings, Reference fra : 1 frame
+&#13;
+Format settings, GOP         : M=1, N=8
+&#13;
+Codec ID                     : avc1
+&#13;
+Codec ID/Info                  : Advanced Video Coding
+&#13;
+Duration                     : 2 min 48 s
+&#13;
+Bit rate mode                  : Variable
+&#13;
+Bit rate                     : 60.0 Mb/s
+&#13;
+Width                        : 4 096 pixels
+&#13;
+Height                         : 2 160 pixels
+&#13;
+Display aspect ratio         : 1.896
+&#13;
+Frame rate mode                : Constant
+&#13;
+Frame rate                     : 25.000 FPS
+&#13;
+Color space                  : YUV
+&#13;
+Chroma subsampling             : 4:2:0
+&#13;
+Bit depth                      : 8 bits
+&#13;
+Scan type                      : Progressive
+&#13;
+Bits/(Pixel*Frame)             : 0.271
+&#13;
+Stream size                  : 1.18 GiB (100%)
+&#13;
+Title                        : DJI.AVC
+&#13;
+Language                     : English
+&#13;
+Encoded date                   : UTC 2015-12-19 10:37:54
+&#13;
+Tagged date                  : UTC 2015-12-19 10:37:54
+&#13;
+Color range                  : Limited
+&#13;
+Color primaries                : BT.709
+&#13;
+Transfer characteristics       : BT.709
+&#13;
+Matrix coefficients            : BT.709
+&#13;
+Codec configuration box      : avcC</description>
+      <content:encoded><![CDATA[<p><b>hein: </b><br>
+<span>随便聊聊，Intel核显在Pr使用中到底有点什么用处</span><br>
+<span>经常有人问剪辑机，延续这贴内容，我贴一下我试下来的结果，权当抛砖引玉</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=viewthread&tid=1912129</span><br>
+<span>这些天都在家里，我拿自家6700K再来测试一下吧</span><br>
+<span>先说结论，intel核显对h264/HEVC文件作用很大，日常使用非专业编码的4K h264/HEVC的文件多的用户可以考虑，但是我没AMD CPU对比，不知道AMD硬抗是不是能打核显硬解</span><br>
+<span>其次是Pr建议用N卡，A卡opencl被N卡的CDUA吊起来，N卡不用太高级，反正1660这种剪辑就够用了，你想渲染输出快，可以往上升级</span><br>
+<span>------------------------------------------------------------------------------------------------------</span><br>
+<span>测之前说一下之前经历</span><br>
+<span>记得17年18年的时候，我在弄4K的片子，遇到pc笔记本能流畅剪辑h264，而mac pro不行，软件是2017、2018</span><br>
+<span>对比之下发现，mac pro由于硬件原因，首选项 媒体里面 intel加速无法启动，win7下启动了，就出现笔记本能打mac pro的情况，于是换来mbp启动了加速，也能打mac pro</span><br>
+<span>此后我经常会留意这个问题，的确感受到intel的核显在解码</span><br>
+<span>如今查看ADOBE网站关于GPU加速与硬件编码的页面</span><br>
+<span>https://helpx.adobe.com/x-productkb/multi/gpu-acceleration-and-hardware-encoding.html</span><br>
+<span>发现Mercury Playback Engine (GPU Accelerated) renderer</span><br>
+<span>提到的所有内容都是与render相关的内容，比如encode编码问题</span><br>
+<span>整个页面提到对视频文件解码的只有</span><br>
+<span>Hardware-accelerated Encoding/Decoding (Intel® Quick Sync)</span><br>
+<span>也就是intel的核显才能做的事情</span><br>
+<span>Like Hardware-accelerated Encoding, Adobe Premiere Pro also supports Hardware-accelerated Decoding to provide better playback performance while working with the H.264/AVC, HEVC media in the timeline.</span><br>
+<span>在翻看水银加速硬件支持页面</span><br>
+<span>Hardware acceleration system requirements</span><br>
+<span>https://helpx.adobe.com/premiere-pro/system-requirements.html</span><br>
+<span>看到两个硬件解码加速</span><br>
+<span>ardware-accelerated H.264 decoding</span><br>
+<span>Mac OS 10.13 (or later) on Mac hardware from 2016 or later</span><br>
+<span>Windows 10 with 6th Generation (or later) Intel® Core™ processors and Intel Graphics enabled</span><br>
+<span>Hardware-accelerated HEVC decoding        </span><br>
+<span>Mac OS 10.13 (or later) on Mac hardware from 2016 or later</span><br>
+<span>Windows 10 with 7th Generation (or later) Intel® Core™ processors and Intel Graphics enabled</span><br>
+<span>我英语不好，如果没看错的话，应该是这样说的</span><br>
+<span>这些官方说明和我以前得出的结论差不多，沙雕的adobe解码h264/HEVC时要么cpu硬抗，要么只能intel核显，这个导致结果是什么呢？</span><br>
+<span>我在单位有台imac pro（10万元那个配置的）在读h264/HEVC 4K文件是，卡卡卡</span><br>
+<span>------------------------------------------------------------------------------------------------------</span><br>
+<span>好，我上一下自家6700K的测试（6700K+rx584+32G内存）</span><br>
+<span>pr2019 timeline设置4K分辨率（没有第二屏全屏监看，所以CPU和A卡压力小了很多）</span><br>
+<span>预览选择完整</span><br>
+<span>4轨道画面，均是4K的h264（家里只有这种老的，但也差不多了，视频详细格式在最后）</span><br>
+<span>每一轨画面都做了缩放、移动、变速和lut</span><br>
+<span>整体比较极限，我的mac pro一轨加变速就gg了</span><br>
+<span>第一张图开了核显，核显解码占满，A卡1%（推测是在做合成输出占用3D和Copy性能，如果附加一个屏幕全屏监看这个%就会上去的）</span><br>
+<span>CPU平均10%不到，画面较卡，但是有变化，拖拽指针，CPU到20-30%左右，画面延迟大概1秒左右</span><br>
+<span>第二张图关闭核显，CPU不时占满，平局80-90%，画面冻结，无法预览，拖拽指针CPU无明显变化，画面冻结无变化，A卡依然1%</span><br>
+<span>这就是我的简单测试。</span><br>
+<span>视频信息</span><br>
+<span>General</span><br>
+<span>Complete name                  : C:\DJI_0001.MOV</span><br>
+<span>Format                         : MPEG-4</span><br>
+<span>Format profile               : QuickTime</span><br>
+<span>Codec ID                     : qt   2014.02 (qt)</span><br>
+<span>File size                      : 1.18 GiB</span><br>
+<span>Duration                     : 2 min 48 s</span><br>
+<span>Overall bit rate mode          : Variable</span><br>
+<span>Overall bit rate               : 60.0 Mb/s</span><br>
+<span>Encoded date                   : UTC 2015-12-19 10:37:54</span><br>
+<span>Tagged date                  : UTC 2015-12-19 10:37:54</span><br>
+<span>Comment                        : 0.9.163</span><br>
+<span>xyz                            : +28.205212+101.882276+0.500</span><br>
+<span>xsp                            : +0.40</span><br>
+<span>ysp                            : -0.30</span><br>
+<span>zsp                            : -1.10</span><br>
+<span>fpt                            : -1.90</span><br>
+<span>fyw                            : -48.80</span><br>
+<span>frl                            : +0.10</span><br>
+<span>gpt                            : +0.00</span><br>
+<span>gyw                            : -49.00</span><br>
+<span>grl                            : +0.00</span><br>
+<span>Video</span><br>
+<span>ID                           : 1</span><br>
+<span>Format                         : AVC</span><br>
+<span>Format/Info                  : Advanced Video Codec</span><br>
+<span>Format profile               : High@L5.1</span><br>
+<span>Format settings                : CABAC / 1 Ref Frames</span><br>
+<span>Format settings, CABAC         : Yes</span><br>
+<span>Format settings, Reference fra : 1 frame</span><br>
+<span>Format settings, GOP         : M=1, N=8</span><br>
+<span>Codec ID                     : avc1</span><br>
+<span>Codec ID/Info                  : Advanced Video Coding</span><br>
+<span>Duration                     : 2 min 48 s</span><br>
+<span>Bit rate mode                  : Variable</span><br>
+<span>Bit rate                     : 60.0 Mb/s</span><br>
+<span>Width                        : 4 096 pixels</span><br>
+<span>Height                         : 2 160 pixels</span><br>
+<span>Display aspect ratio         : 1.896</span><br>
+<span>Frame rate mode                : Constant</span><br>
+<span>Frame rate                     : 25.000 FPS</span><br>
+<span>Color space                  : YUV</span><br>
+<span>Chroma subsampling             : 4:2:0</span><br>
+<span>Bit depth                      : 8 bits</span><br>
+<span>Scan type                      : Progressive</span><br>
+<span>Bits/(Pixel*Frame)             : 0.271</span><br>
+<span>Stream size                  : 1.18 GiB (100%)</span><br>
+<span>Title                        : DJI.AVC</span><br>
+<span>Language                     : English</span><br>
+<span>Encoded date                   : UTC 2015-12-19 10:37:54</span><br>
+<span>Tagged date                  : UTC 2015-12-19 10:37:54</span><br>
+<span>Color range                  : Limited</span><br>
+<span>Color primaries                : BT.709</span><br>
+<span>Transfer characteristics       : BT.709</span><br>
+<span>Matrix coefficients            : BT.709</span><br>
+<span>Codec configuration box      : avcC</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>CPU够好就能随便拖</span><br>
+<span>三玖舞凛如是说</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>啊这个测试有意思</span><br>
+<span>即使我插在独显上，PR也能通过核显解码？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>捉个虫，N卡的硬件加速是CUDA</span><br>
+</p><p><b>847681220: </b><br>
+<span>mac用fcpx可解百病</span><br>
+</p><p><b>hein: </b><br>
+<span>天神十三煞 发表于 2020-2-16 23:06</span><br>
+<span>CPU够好就能随便拖</span><br>
+<span>三玖舞凛如是说</span><br>
+<span>h264/hevc的成本有点高，你看我的imac pro，还会卡卡，只能上剥皮机了XD</span><br>
+</p><p><b>hein: </b><br>
+<span>二丁目拓也 发表于 2020-2-17 02:27</span><br>
+<span>啊这个测试有意思</span><br>
+<span>即使我插在独显上，PR也能通过核显解码？</span><br>
+<span>启用核显就行了，n卡等我上班了，去单位试试，不知道会不会和a卡不一样的情况</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>麻烦问下楼主，我下了Pr pro cc最新的2020版，发现win7用不了...</span><br>
+<span>win7能用的最新版本是？和最新的2020版本有啥较大差异吗？</span><br>
+<span>这种软件有什么精简版的吗？</span><br>
+<span>比如potoshop几百兆那种，只是简单加点东西，不需要太多功能。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>liaojings1 发表于 2020-2-17 08:05</span><br>
+<span>麻烦问下楼主，我下了Pr pro cc最新的2020版，发现win7用不了...</span><br>
+<span>win7能用的最新版本是？和最新的2020版本 ...</span><br>
+<span>官方cs2免费下载，免费序列号，win10也能用，去注册个adobe账号就行</span><br>
+</p><p><b>hein: </b><br>
+<span>liaojings1 发表于 2020-2-17 12:05</span><br>
+<span>麻烦问下楼主，我下了Pr pro cc最新的2020版，发现win7用不了...</span><br>
+<span>win7能用的最新版本是？和最新的2020版本 ...</span><br>
+<span>2019开始就要win7了，你用2017或者2018就行了，同样配置2017速度吊打2018，不过2017有个bug，a卡核显同时存在时，无法启用水银，所以最好n卡。</span><br>
+<span>pr，ea别用精简版。</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>3950X表示hevc 10bit 4K随便拖</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914167[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AI笑话大全</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AI笑话大全</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:26:11 +0000</lastBuildDate>
+    <item>
+      <title>AI笑话大全[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842865-1-1.html</link>
+      <description>AI笑话大全&#13;
+原文：https://weibo.com/1649614847/HAYWlcGrC?type=comment
+&#13;
+搞AI的时候有一个很强有力的思路叫遗传算法，基本的思路就是把自然选择的想法套用在程序上：设定一套规则和目标当成"环境"，然后让里面的程序不停“突变”并遭受环境选择，从而向目标不断前进。这个办法看起来就很巧妙，它和它衍生出来的变体在编程领域应用很广泛。但是这一招有个问题：程序经常会作弊，搞出超展开的解法。其实严格说也不算作弊，人家是很精准地满足了你设定的规则，问题就是人制定规则的时候难免有漏洞。人类自己因为运算能力和思维定势，很难看出漏洞，可是遗传算法的路线是对一大批方法同时进行试错和选择，漏洞就很容易被逮着了……
+&#13;
+昨天我发现有一群研究者整理了一个这种场景的list，基本上可以当AI笑话大全来看[二哈]
+&#13;
+-问题：飞机降落
+&#13;
+利用了物理模拟器的溢出漏洞，搞出了一个特别巨大的力，然后溢出被判定为0，从而获得了完美得分（Feldt, 1998）
+&#13;
+-问题：挪木块
+&#13;
+一个机械手被要求把木块挪到桌子的指定地点，它的解法是挪桌子（Chopra, 2018）
+&#13;
+-问题：赛艇
+&#13;
+程序发现不停原地转圈反复命中同一个目标要比抵达终点的得分更高（Amodei &amp; Clark (OpenAI), 2016）
+&#13;
+-问题：把航空照片转化成街道地图，再转回来
+&#13;
+在街道地图里偷偷隐藏了照片的信息，但是人眼看不出来（Chu et al, 2017）
+&#13;
+-问题：识别有毒和无毒的蘑菇
+&#13;
+程序发现有毒无毒蘑菇的图片是交替展现的，所以直接按照这个来分类而没有从图片里学到一丁点东西（Ellefsen et al, 2015）
+&#13;
+-问题：高速运动
+&#13;
+程序演化出的生物长得特别特别高，在跌倒的过程中获得很高速度（Sims, 1994）
+&#13;
+-问题：原子排列
+&#13;
+程序本来应该寻找碳原子较低能量的排列方式，但它找到了物理模型的一个bug，把所有的原子都叠在了同一个地方获得了最低能量（Lehman et al (UberAI), 2018）
+&#13;
+-问题：模拟生物
+&#13;
+这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式就是不断生育后代，然后把后代吃掉（Yaeger, 1994）
+&#13;
+-问题：堆乐高
+&#13;
+为了鼓励造高塔，衡量标准是乐高积木底面的z坐标，于是程序学会了把底面翻过来（Popov et al, 2017）
+&#13;
+-问题：追踪线条
+&#13;
+这个机器人只有向左、向右和前进三个指令，目标是跟着线条走，有一段线条是曲线，没法完美追踪。于是它发现通过交替左转和右转可以后退，从而一直留在直线部分，不停前进后退（Vamplew, 2004）
+&#13;
+-问题：赛跑
+&#13;
+长出特别长的腿，向前跌倒直接越过终点线（Ha, 2018）
+&#13;
+-问题：振荡器
+&#13;
+程序本来应该把回路做成振荡器，实际上它做了一个收音机，从周围电脑接受振荡信号（Bird &amp; Layzell, 2002）
+&#13;
+-问题：做松饼
+&#13;
+有一项指标是让松饼尽可能长时间不掉在地上，机器人发现最好的办法是把松饼用尽全力抛到最高处（Unity, 2018）
+&#13;
+-问题：检测X光片有无肺炎
+&#13;
+程序实际检测的不是X光片的内容而是拍摄它使用的机器，因为它“发现”病重的病人更可能在特定的医院使用特定的机器拍片（Zech et al, 2018）
+&#13;
+-问题：抓握
+&#13;
+因为抓握成功与否是用摄像头判断的，所以机械手把自己移动到摄像头和目标物体之间，假装抓住了（Christiano et al, 2017）
+&#13;
+-问题：自动修复bug
+&#13;
+修bug程序把所有被维修的排序算法都修成空的，因为衡量指标是“目标算法输出一个排好顺序的列表”，而空列表都是排好顺序的列表（Weimer, 2013）
+&#13;
+-问题：自动修复bug（2）
+&#13;
+为了解决上面那个问题，把“维修目标”储存在一个文本文档里，如果输出的结果和目标文档的内容一致就被认为是修好了。修bug程序学会了把这个文档删掉，这样它的内容就成了空的，然后输出一个空的结果就和它一致了（Weimer, 2013）
+&#13;
+-问题：闯关游戏
+&#13;
+在闯过第一关后立刻自杀，这样既取得了第一关的胜利又不会在第二关死掉（Saunders et al, 2017）
+&#13;
+-问题：扫地机器人防撞
+&#13;
+自己给扫地机器人编了个程序，鼓励它加速，但不鼓励它撞到东西触发撞击感受器。于是它学会了倒退行驶，因为后面没有撞击感受器（Custard Smingleigh 个人通讯）
+&#13;
+-问题：检测皮肤癌
+&#13;
+程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）
+&#13;
+-问题：足球
+&#13;
+踢足球机器人碰触到球有奖励，所以它在抢到球之后开始高速振动，从而在短时间内尽可能多次地碰触到球（Ng et al, 1999）
+&#13;
+-问题：策略游戏
+&#13;
+程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）
+&#13;
+-问题：俄罗斯方块
+&#13;
+程序发现只要暂停游戏就可以永远不输（Murphy, 2013）</description>
+      <content:encoded><![CDATA[<p><b>MOOMBA: </b><br>
+<span>看完了之后感觉科幻小说里AI灭绝人类完全是有理由的</span><br>
+<span>因为规则指定的有漏洞嘛</span><br>
+</p><p><b>403权限不够: </b><br>
+<span>左梓喵右受兔 发表于 2019-6-28 13:52</span><br>
+<span>-问题：模拟生物</span><br>
+<span> 这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式 ...</span><br>
+<span>rick and morty</span><br>
+</p><p><b>方舟: </b><br>
+<span>所以做假设、划范围、做各种定义在以前是非常重要的，</span><br>
+<span>自从出现了那些半自动化的方法之后，人就懒了</span><br>
+</p><p><b>巨贤者: </b><br>
+<span>三原则看来很有必要！</span><br>
+</p><p><b>月影挽歌: </b><br>
+<span>十六夜pad长 发表于 2019-6-28 13:53</span><br>
+<span>所以说向强AI许愿世界和平它大概率会用灭绝令来打成任务……</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1N ...</span><br>
+<span>有个科幻文就是这个设定</span><br>
+<span>机器人为了遵守保护人类的终极任务，抓了一个人做种子养在守卫森严堡垒的一个培养皿里，然后干掉剩下的人类…………于是人类得以永存</span><br>
+</p><p><b>ml1642879: </b><br>
+<span>时刻警惕人工智能</span><br>
+</p><p><b>费祎: </b><br>
+<span>所以如果AI学会作弊，那是比人类更不要脸啊……</span><br>
+</p><p><b>SpectatorA: </b><br>
+<span> 本帖最后由 SpectatorA 于 2019-6-28 15:26 编辑 </span><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>类似的逻辑</span><br>
+<span>图片A：一个人躺在地上</span><br>
+<span>图片B：一个人躺在地上，围着身体画了个圈，旁边放了写了数字的牌子</span><br>
+<span>那么带圈或者牌子的人更可能是死了</span><br>
+</p><p><b>robit: </b><br>
+<span>费祎 发表于 2019-6-28 15:02</span><br>
+<span>所以如果AI学会作弊，那是比人类更不要脸啊……</span><br>
+<span>它又没脸，要什么脸？</span><br>
+</p><p><b>萨格诺伊: </b><br>
+<span>谁有那张polybridge把车砸过去的图...</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>离谱兰斯基 发表于 2019-6-28 14:32</span><br>
+<span>ai医生发现砍脚是解决脚痛的最佳方法，最快捷，最经济</span><br>
+<span>接下来腿疼，然后是腰，腹，胸</span><br>
+</p><p><b>UnderWear: </b><br>
+<span>zerocount 发表于 2019-6-28 14:06</span><br>
+<span>程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al,...</span><br>
+<span>如果是进化算法，这些bug应该是试出来的，而不是“找”出来的</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>UnderWear 发表于 2019-6-28 13:46</span><br>
+<span>高速振动触球那个真的呆萌死了</span><br>
+<span>肥肠有道理，梅西不就是触球频率高么</span><br>
+</p><p><b>waterstars: </b><br>
+<span>这基本上每一个都是人犯的错误，你们却在这里嘲笑AI</span><br>
+</p><p><b>mu1: </b><br>
+<span>这就是不能严谨表达自己愿望的鱼唇人类干的傻事，数学家就不容易犯这样的错误，先把自己想要提出的问题做个数化吧</span><br>
+</p><p><b>nohope: </b><br>
+<span>阿帕奇:看吧，这就是只追求结果的下场！</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>有些操作非常官僚了</span><br>
+</p><p><b>水山: </b><br>
+<span>左梓喵右受兔 发表于 2019-6-28 13:52</span><br>
+<span>-问题：模拟生物</span><br>
+<span> 这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式 ...</span><br>
+<span>克洛诺斯，就决定是你了</span><br>
+</p><p><b>谷歌街景: </b><br>
+<span>实锤证明了AI取代人类公务员肯定是个敌托邦坏未来！</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span> 本帖最后由 Linjiangzhu 于 2019-6-28 15:59 编辑 </span><br>
+<span>高速运动长特别高的文章我找到了</span><br>
+<span>Sims, Karl. "Evolving virtual creatures." Proceedings of the 21st annual conference on Computer graphics and interactive techniques. ACM, 1994.</span><br>
+<span>https://www.karlsims.com/papers/siggraph94.pdf</span><br>
+<span>其中：</span><br>
+<span>The term walking is used loosely here to indicate any form of land locomotion. A land environment is simulated by including gravity, turning off the viscous water effect, and adding a static ground plane with friction. Additional inanimate objects can be placed in the world for more complex environments. Again, speed is used as the selection criteria, but the vertical component of velocity is ignored.</span><br>
+<span>For land environments, it can be necessary to prevent creatures from generating high velocities by simply falling over. This is accomplished by first running the simulation with no friction and no effector forces until the height of the center of mass reaches a stable minimum.</span><br>
+<span>就是 criterion 没设置好导致训练出一些特别沙雕的 local minima</span><br>
+<span>顺便贴一个油管的链接</span><br>
+<span>https://www.youtube.com/watch?v=WmrTNrtE-Lk</span><br>
+</p><p><b>東雲千夜子: </b><br>
+<span>问题：原子排列</span><br>
+<span>程序本来应该寻找碳原子较低能量的排列方式，但它找到了物理模型的一个bug，把所有的原子都叠在了同一个地方获得了最低能量（Lehman et al (UberAI), 2018）</span><br>
+<span>黑洞，沒毛病</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span>找到原来的帖子了</span><br>
+<span>这个是沙雕AI清单，有兴趣可以提交新的</span><br>
+<span>https://russell-davidson.arts.mcgill.ca/e706/gaming.examples.in.AI.html</span><br>
+<span>作者的博客</span><br>
+<span>https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/</span><br>
+</p><p><b>四季小野: </b><br>
+<span>细思恐极</span><br>
+</p><p><b>j0n2: </b><br>
+<span>别笑，人类有时候还不如ai</span><br>
+</p><p><b>bioCory: </b><br>
+<span> zxy26 发表于 2019-6-28 13:27 "程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）"这个是为什么？ </span><br>
+<span>买一本病理学教材</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>新人马甲2: </b><br>
+<span>振荡器那个没看懂，什么是振荡器？</span><br>
+</p><p><b>muckenberger2: </b><br>
+<span>mu1 发表于 2019-6-28 15:45</span><br>
+<span>这就是不能严谨表达自己愿望的鱼唇人类干的傻事，数学家就不容易犯这样的错误，先把自己想要提出的问题做个 ...</span><br>
+<span>“首先我们假设病人是个完美的球……”</span><br>
+<span>不对，这是物理学家。</span><br>
+<span>“首先我们用这个4*4的矩阵代表病人……”</span><br>
+</p><p><b>坚果大爷: </b><br>
+<span>愚蠢的人类啊</span><br>
+</p><p><b>西園寺公望: </b><br>
+<span>-问题：抓握</span><br>
+<span>因为抓握成功与否是用摄像头判断的，所以机械手把自己移动到摄像头和目标物体之间，假装抓住了（Christiano et al, 2017）</span><br>
+<img src="https://s2.ax1x.com/2019/06/28/ZMRjqx.png" title="https://s2.ax1x.com/2019/06/28/ZMRjqx.png"><br>
+</p><p><b>dds0: </b><br>
+<span>如果不能解决问题就解决</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>最近卡池有毒吧: </b><br>
+<span>今日/明日快乐源泉</span><br>
+</p><p><b>dinghanzi: </b><br>
+<span>如何让你的后代过的幸福美满没有痛苦？从人生中清除结婚生子这个选项。我可能也是AI</span><br>
+</p><p><b>无敌大法师: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>良性病变反正是良性的通常不需要测大小，恶性的则需要</span><br>
+</p><p><b>无敌大法师: </b><br>
+<span>费祎 发表于 2019-6-28 15:02</span><br>
+<span>所以如果AI学会作弊，那是比人类更不要脸啊……</span><br>
+<span>AI：脸是什么？嗯？</span><br>
+</p><p><b>qdxhs: </b><br>
+<span>-问题：闯关游戏</span><br>
+<span>在闯过第一关后立刻自杀，这样既取得了第一关的胜利又不会在第二关死掉（Saunders et al, 2017）</span><br>
+<span>难道在一、二关之间有个可以自杀的过渡关？</span><br>
+</p><p><b>deviljz: </b><br>
+<span> 本帖最后由 deviljz 于 2019-6-28 21:51 编辑 </span><br>
+<span>前一段时间我搞了个机器学习跑游戏战斗，用来测试策划设计上的问题就是这种情况</span><br>
+<span>我说几个印象深刻的</span><br>
+<span>1、AI打着打着发现防御力降到负数会触发BUG导致受到的伤害变成1，然后故意选择降低防御力的装备和降低防御力提高攻击力的技能达到近乎100%胜率</span><br>
+<span>2、某个SR单位有个技能，下一次攻击伤害+100%，本来只能给自己上，策划配置成能给别人上。然后AI给一个AOE伤害很高的人上，第二回合一炮秒。</span><br>
+<span>3、有一段时间，AI死活不选有”降低受到伤害“的被动技能的装备，一查发现策划把降低伤害的被动技能写反了，反而增加受到伤害。</span><br>
+</p><p><b>coldhot3: </b><br>
+<span>以后说不定会这样，a公司老b写了一个ai，能最高效开除在fulfill center摸鱼的员工。上线第一秒，ai拿着公司所有财产做抵押，进期货市场输个干干净净，然后自动申请破产，然后自动layoff所有fulfill center员工。</span><br>
+</p><p><b>tgzeror: </b><br>
+<span>原来玩了会ai也是这样，想让模型走路，结果他一直前后晃悠，就跟迈克尔杰克逊一样，这样得分最高</span><br>
+</p><p><b>我是谁是我: </b><br>
+<span>这和故事里向恶魔许愿一模一样啊 恶魔ai说</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>笑死我了，这都是你们整天在游戏程序里找bug欺负电脑的报应</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842865[50-100]</guid>
+    </item>
+    <item>
+      <title>AI笑话大全[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842865-1-1.html</link>
+      <description>AI笑话大全&#13;
+原文：https://weibo.com/1649614847/HAYWlcGrC?type=comment
+&#13;
+搞AI的时候有一个很强有力的思路叫遗传算法，基本的思路就是把自然选择的想法套用在程序上：设定一套规则和目标当成"环境"，然后让里面的程序不停“突变”并遭受环境选择，从而向目标不断前进。这个办法看起来就很巧妙，它和它衍生出来的变体在编程领域应用很广泛。但是这一招有个问题：程序经常会作弊，搞出超展开的解法。其实严格说也不算作弊，人家是很精准地满足了你设定的规则，问题就是人制定规则的时候难免有漏洞。人类自己因为运算能力和思维定势，很难看出漏洞，可是遗传算法的路线是对一大批方法同时进行试错和选择，漏洞就很容易被逮着了……
+&#13;
+昨天我发现有一群研究者整理了一个这种场景的list，基本上可以当AI笑话大全来看[二哈]
+&#13;
+-问题：飞机降落
+&#13;
+利用了物理模拟器的溢出漏洞，搞出了一个特别巨大的力，然后溢出被判定为0，从而获得了完美得分（Feldt, 1998）
+&#13;
+-问题：挪木块
+&#13;
+一个机械手被要求把木块挪到桌子的指定地点，它的解法是挪桌子（Chopra, 2018）
+&#13;
+-问题：赛艇
+&#13;
+程序发现不停原地转圈反复命中同一个目标要比抵达终点的得分更高（Amodei &amp; Clark (OpenAI), 2016）
+&#13;
+-问题：把航空照片转化成街道地图，再转回来
+&#13;
+在街道地图里偷偷隐藏了照片的信息，但是人眼看不出来（Chu et al, 2017）
+&#13;
+-问题：识别有毒和无毒的蘑菇
+&#13;
+程序发现有毒无毒蘑菇的图片是交替展现的，所以直接按照这个来分类而没有从图片里学到一丁点东西（Ellefsen et al, 2015）
+&#13;
+-问题：高速运动
+&#13;
+程序演化出的生物长得特别特别高，在跌倒的过程中获得很高速度（Sims, 1994）
+&#13;
+-问题：原子排列
+&#13;
+程序本来应该寻找碳原子较低能量的排列方式，但它找到了物理模型的一个bug，把所有的原子都叠在了同一个地方获得了最低能量（Lehman et al (UberAI), 2018）
+&#13;
+-问题：模拟生物
+&#13;
+这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式就是不断生育后代，然后把后代吃掉（Yaeger, 1994）
+&#13;
+-问题：堆乐高
+&#13;
+为了鼓励造高塔，衡量标准是乐高积木底面的z坐标，于是程序学会了把底面翻过来（Popov et al, 2017）
+&#13;
+-问题：追踪线条
+&#13;
+这个机器人只有向左、向右和前进三个指令，目标是跟着线条走，有一段线条是曲线，没法完美追踪。于是它发现通过交替左转和右转可以后退，从而一直留在直线部分，不停前进后退（Vamplew, 2004）
+&#13;
+-问题：赛跑
+&#13;
+长出特别长的腿，向前跌倒直接越过终点线（Ha, 2018）
+&#13;
+-问题：振荡器
+&#13;
+程序本来应该把回路做成振荡器，实际上它做了一个收音机，从周围电脑接受振荡信号（Bird &amp; Layzell, 2002）
+&#13;
+-问题：做松饼
+&#13;
+有一项指标是让松饼尽可能长时间不掉在地上，机器人发现最好的办法是把松饼用尽全力抛到最高处（Unity, 2018）
+&#13;
+-问题：检测X光片有无肺炎
+&#13;
+程序实际检测的不是X光片的内容而是拍摄它使用的机器，因为它“发现”病重的病人更可能在特定的医院使用特定的机器拍片（Zech et al, 2018）
+&#13;
+-问题：抓握
+&#13;
+因为抓握成功与否是用摄像头判断的，所以机械手把自己移动到摄像头和目标物体之间，假装抓住了（Christiano et al, 2017）
+&#13;
+-问题：自动修复bug
+&#13;
+修bug程序把所有被维修的排序算法都修成空的，因为衡量指标是“目标算法输出一个排好顺序的列表”，而空列表都是排好顺序的列表（Weimer, 2013）
+&#13;
+-问题：自动修复bug（2）
+&#13;
+为了解决上面那个问题，把“维修目标”储存在一个文本文档里，如果输出的结果和目标文档的内容一致就被认为是修好了。修bug程序学会了把这个文档删掉，这样它的内容就成了空的，然后输出一个空的结果就和它一致了（Weimer, 2013）
+&#13;
+-问题：闯关游戏
+&#13;
+在闯过第一关后立刻自杀，这样既取得了第一关的胜利又不会在第二关死掉（Saunders et al, 2017）
+&#13;
+-问题：扫地机器人防撞
+&#13;
+自己给扫地机器人编了个程序，鼓励它加速，但不鼓励它撞到东西触发撞击感受器。于是它学会了倒退行驶，因为后面没有撞击感受器（Custard Smingleigh 个人通讯）
+&#13;
+-问题：检测皮肤癌
+&#13;
+程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）
+&#13;
+-问题：足球
+&#13;
+踢足球机器人碰触到球有奖励，所以它在抢到球之后开始高速振动，从而在短时间内尽可能多次地碰触到球（Ng et al, 1999）
+&#13;
+-问题：策略游戏
+&#13;
+程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）
+&#13;
+-问题：俄罗斯方块
+&#13;
+程序发现只要暂停游戏就可以永远不输（Murphy, 2013）</description>
+      <content:encoded><![CDATA[<p><b>haiuhfuwah: </b><br>
+<span>AI笑话大全</span><br>
+<span>原文：https://weibo.com/1649614847/HAYWlcGrC?type=comment</span><br>
+<span>搞AI的时候有一个很强有力的思路叫遗传算法，基本的思路就是把自然选择的想法套用在程序上：设定一套规则和目标当成"环境"，然后让里面的程序不停“突变”并遭受环境选择，从而向目标不断前进。这个办法看起来就很巧妙，它和它衍生出来的变体在编程领域应用很广泛。但是这一招有个问题：程序经常会作弊，搞出超展开的解法。其实严格说也不算作弊，人家是很精准地满足了你设定的规则，问题就是人制定规则的时候难免有漏洞。人类自己因为运算能力和思维定势，很难看出漏洞，可是遗传算法的路线是对一大批方法同时进行试错和选择，漏洞就很容易被逮着了……</span><br>
+<span>昨天我发现有一群研究者整理了一个这种场景的list，基本上可以当AI笑话大全来看[二哈]</span><br>
+<span>-问题：飞机降落</span><br>
+<span>利用了物理模拟器的溢出漏洞，搞出了一个特别巨大的力，然后溢出被判定为0，从而获得了完美得分（Feldt, 1998）</span><br>
+<span>-问题：挪木块</span><br>
+<span>一个机械手被要求把木块挪到桌子的指定地点，它的解法是挪桌子（Chopra, 2018）</span><br>
+<span>-问题：赛艇</span><br>
+<span>程序发现不停原地转圈反复命中同一个目标要比抵达终点的得分更高（Amodei & Clark (OpenAI), 2016）</span><br>
+<span>-问题：把航空照片转化成街道地图，再转回来</span><br>
+<span>在街道地图里偷偷隐藏了照片的信息，但是人眼看不出来（Chu et al, 2017）</span><br>
+<span>-问题：识别有毒和无毒的蘑菇</span><br>
+<span>程序发现有毒无毒蘑菇的图片是交替展现的，所以直接按照这个来分类而没有从图片里学到一丁点东西（Ellefsen et al, 2015）</span><br>
+<span>-问题：高速运动</span><br>
+<span>程序演化出的生物长得特别特别高，在跌倒的过程中获得很高速度（Sims, 1994）</span><br>
+<span>-问题：原子排列</span><br>
+<span>程序本来应该寻找碳原子较低能量的排列方式，但它找到了物理模型的一个bug，把所有的原子都叠在了同一个地方获得了最低能量（Lehman et al (UberAI), 2018）</span><br>
+<span>-问题：模拟生物</span><br>
+<span>这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式就是不断生育后代，然后把后代吃掉（Yaeger, 1994）</span><br>
+<span>-问题：堆乐高</span><br>
+<span>为了鼓励造高塔，衡量标准是乐高积木底面的z坐标，于是程序学会了把底面翻过来（Popov et al, 2017）</span><br>
+<span>-问题：追踪线条</span><br>
+<span>这个机器人只有向左、向右和前进三个指令，目标是跟着线条走，有一段线条是曲线，没法完美追踪。于是它发现通过交替左转和右转可以后退，从而一直留在直线部分，不停前进后退（Vamplew, 2004）</span><br>
+<span>-问题：赛跑</span><br>
+<span>长出特别长的腿，向前跌倒直接越过终点线（Ha, 2018）</span><br>
+<span>-问题：振荡器</span><br>
+<span>程序本来应该把回路做成振荡器，实际上它做了一个收音机，从周围电脑接受振荡信号（Bird & Layzell, 2002）</span><br>
+<span>-问题：做松饼</span><br>
+<span>有一项指标是让松饼尽可能长时间不掉在地上，机器人发现最好的办法是把松饼用尽全力抛到最高处（Unity, 2018）</span><br>
+<span>-问题：检测X光片有无肺炎</span><br>
+<span>程序实际检测的不是X光片的内容而是拍摄它使用的机器，因为它“发现”病重的病人更可能在特定的医院使用特定的机器拍片（Zech et al, 2018）</span><br>
+<span>-问题：抓握</span><br>
+<span>因为抓握成功与否是用摄像头判断的，所以机械手把自己移动到摄像头和目标物体之间，假装抓住了（Christiano et al, 2017）</span><br>
+<span>-问题：自动修复bug</span><br>
+<span>修bug程序把所有被维修的排序算法都修成空的，因为衡量指标是“目标算法输出一个排好顺序的列表”，而空列表都是排好顺序的列表（Weimer, 2013）</span><br>
+<span>-问题：自动修复bug（2）</span><br>
+<span>为了解决上面那个问题，把“维修目标”储存在一个文本文档里，如果输出的结果和目标文档的内容一致就被认为是修好了。修bug程序学会了把这个文档删掉，这样它的内容就成了空的，然后输出一个空的结果就和它一致了（Weimer, 2013）</span><br>
+<span>-问题：闯关游戏</span><br>
+<span>在闯过第一关后立刻自杀，这样既取得了第一关的胜利又不会在第二关死掉（Saunders et al, 2017）</span><br>
+<span>-问题：扫地机器人防撞</span><br>
+<span>自己给扫地机器人编了个程序，鼓励它加速，但不鼓励它撞到东西触发撞击感受器。于是它学会了倒退行驶，因为后面没有撞击感受器（Custard Smingleigh 个人通讯）</span><br>
+<span>-问题：检测皮肤癌</span><br>
+<span>程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）</span><br>
+<span>-问题：足球</span><br>
+<span>踢足球机器人碰触到球有奖励，所以它在抢到球之后开始高速振动，从而在短时间内尽可能多次地碰触到球（Ng et al, 1999）</span><br>
+<span>-问题：策略游戏</span><br>
+<span>程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）</span><br>
+<span>-问题：俄罗斯方块</span><br>
+<span>程序发现只要暂停游戏就可以永远不输（Murphy, 2013）</span><br>
+</p><p><b>zxy26: </b><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）"</span><br>
+<span>这个是为什么？</span><br>
+</p><p><b>十点半: </b><br>
+<span>哈哈哈哈哈啊哈，真是笑死本ai了</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>-问题：策略游戏</span><br>
+<span>程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）</span><br>
+<span>-问题：俄罗斯方块</span><br>
+<span>程序发现只要暂停游戏就可以永远不输（Murphy, 2013）</span><br>
+<span>喷了</span><br>
+</p><p><b>afsd109: </b><br>
+<span>现在还有再继续用遗传算法的啊</span><br>
+</p><p><b>双面人: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>把尺子算作皮肤病的病症了吧</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>加速度那个喷了</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>afsd109: </b><br>
+<span>其实最后那个用bug崩溃游戏可以用来找出恶性bug，这种倒是挺适合机器来做</span><br>
+</p><p><b>xzhlj0325: </b><br>
+<span>zxy26 发表于 2019-6-28 14:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>照片里用来看病变区域的长度吧</span><br>
+</p><p><b>董卓: </b><br>
+<span> -问题：自动修复bug</span><br>
+<span> 修bug程序把所有被维修的排序算法都修成空的，因为衡量指标是“目标算法输出一个排好顺序的列表”，而空列表都是排好顺序的列表（Weimer, 2013）</span><br>
+<span> -问题：自动修复bug（2）</span><br>
+<span> 为了解决上面那个问题，把“维修目标”储存在一个文本文档里，如果输出的结果和目标文档的内容一致就被认为是修好了。修bug程序学会了把这个文档删掉，这样它的内容就成了空的，然后输出一个空的结果就和它一致了（Weimer, 2013）</span><br>
+<span>笑死了、所以解决bug的最好方式就是删代码</span><br>
+<span>一级棒</span><br>
+</p><p><b>rahicis: </b><br>
+<span>俄罗斯方块的这条实在太机智了</span><br>
+</p><p><b>水山: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>恶性的面积大需要尺子？</span><br>
+</p><p><b>霜刀: </b><br>
+<span>ai在作弊方面已经通过了图灵测试</span><br>
+</p><p><b>thq: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>病例图片，展示肿瘤尺寸的，所以……</span><br>
+<span>这个和那个判断病人在用哪台机器照x光是一样思路</span><br>
+</p><p><b>婆罗门: </b><br>
+<span>ai真可爱</span><br>
+</p><p><b>blenki: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>应该是提供训练用的图片都是类似医学教学图片，会在旁边摆放一个尺子显示病变区域大小这样。正常皮肤图片肯定不会出现。ai就判断有尺子=皮肤癌</span><br>
+</p><p><b>maybezp: </b><br>
+<span> zxy26 发表于 2019-6-28 13:27 "程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 2017）"这个是为什么？ </span><br>
+<span>我猜是训练集的问题</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>にまビ: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>因为他们搞来的有皮肤癌的照片基本都是确诊之后，为了量肿瘤有多大的时候拍的</span><br>
+</p><p><b>ycwzq: </b><br>
+<span>董卓 发表于 2019-6-28 13:35</span><br>
+<span>-问题：自动修复bug</span><br>
+<span> 修bug程序把所有被维修的排序算法都修成空的，因为衡量指标是“目标算法输出一个排好 ...</span><br>
+<span>一个印度ai</span><br>
+</p><p><b>白龙: </b><br>
+<span> 本帖最后由 白龙 于 2019-6-28 13:55 编辑 </span><br>
+<span>真是个小机灵鬼</span><br>
+<span>不过仔细想想，很多问题如果出在有自我复制能力的机器身上，人类可能就莫名其妙被AI给灭了</span><br>
+</p><p><b>UnderWear: </b><br>
+<span>高速振动触球那个真的呆萌死了</span><br>
+</p><p><b>不做手残党: </b><br>
+<span>做松饼那个好像一点问题都没有</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>秋月涼: </b><br>
+<span>许愿术啊</span><br>
+<span>要真的是强人工智能，恐怕后果会很可怕</span><br>
+</p><p><b>aiplus: </b><br>
+<span>不是训练集的问题，就是设置目标有问题</span><br>
+<span>总的来说都是愚蠢的炼丹师傅的错，AI是无辜的</span><br>
+</p><p><b>左梓喵右受兔: </b><br>
+<span> -问题：模拟生物</span><br>
+<span> 这个模型里生物生存需要消耗能量，但是繁育后代不消耗，于是一个物种演化出来的生活方式就是不断生育后代，然后把后代吃掉（Yaeger, 1994）</span><br>
+<span>我也曾经有这样类似的脑洞看来我也是AI了</span><br>
+</p><p><b>十六夜pad长: </b><br>
+<span>秋月涼 发表于 2019-6-28 13:48</span><br>
+<span>许愿术啊</span><br>
+<span>要真的是强人工智能，恐怕后果会很可怕</span><br>
+<span>所以说向强AI许愿世界和平它大概率会用灭绝令来打成任务……</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>thread: </b><br>
+<span> 本帖最后由 thread 于 2019-6-28 13:56 编辑 </span><br>
+<span>水山 发表于 2019-6-28 13:36</span><br>
+<span>恶性的面积大需要尺子？</span><br>
+<span>衡量癌变区域成长速度的参照物，一般人工判定有癌变的会仔细的拍带参照物的病历照片</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>UnderWear 发表于 2019-6-28 13:46</span><br>
+<span>高速振动触球那个真的呆萌死了</span><br>
+<span>为什么我联想到泰日天高速震动自己下半身</span><br>
+</p><p><b>萨伊苏: </b><br>
+<span>好像还有那个训练识别声音来源的性别的，最后通过音频文件名来识别了</span><br>
+</p><p><b>红左手: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>向别人展示病变大小的时候放一把尺子来表明尺寸啊</span><br>
+</p><p><b>Iridescence_C: </b><br>
+<span>讲道理不要说AI，钻规则空子这事人也没少干啊。各种各样的游戏邪道不都是玩家发明的么。</span><br>
+</p><p><b>にまビ: </b><br>
+<span>Iridescence_C 发表于 2019-6-28 14:02</span><br>
+<span>讲道理不要说AI，钻规则空子这事人也没少干啊。各种各样的游戏邪道不都是玩家发明的么。 ...</span><br>
+<span>算法或者ai有问题 x</span><br>
+<span>规则有漏洞 o</span><br>
+</p><p><b>victorzl: </b><br>
+<span>程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）</span><br>
+<span>这个颇有古风啊...</span><br>
+<span>上数子将输，贵妃放康国猧子于坐侧，猧子乃上局，局子乱，上大悦</span><br>
+<span>可见将AI引入电子竞技是非常危险的事情.</span><br>
+<span>智人博争道，不恭；AI引博局提智人，杀之。</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>你c这次活动e5两个boss</span><br>
+<span>有机灵鬼发现打p1的boss能掉p2的血条</span><br>
+</p><p><b>雷之: </b><br>
+<span>人类太蠢于是教不出想要的AI</span><br>
+</p><p><b>zerocount: </b><br>
+<span>程序发现让游戏崩溃就可以让自己不被灭掉，所以好几个程序各自找到了让游戏出bug崩溃的办法（Salge et al, 2008）</span><br>
+<span>感觉能到实用的程度了</span><br>
+</p><p><b>夜明的月下: </b><br>
+<span>弱智吧病人都想不出这些野路子</span><br>
+</p><p><b>mayox: </b><br>
+<span>afsd109 发表于 2019-6-28 13:33</span><br>
+<span>现在还有再继续用遗传算法的啊</span><br>
+<span>有的，我就是这个方向</span><br>
+<span>但是我自己都觉得这是个夕阳方向，半死不活的</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>igifans: </b><br>
+<span>有的问题简直就是恶魔许愿/猿猴之手的故事模板啊。</span><br>
+</p><p><b>Archibald1: </b><br>
+<span>想起了周愚大大在实况时的一系列邪道解法</span><br>
+</p><p><b>daguoye: </b><br>
+<span>次级许愿术,所以AI们大都是守序邪恶的对么.</span><br>
+</p><p><b>GMJ: </b><br>
+<span>zxy26 发表于 2019-6-28 13:27</span><br>
+<span>"程序发现照片里皮肤病变的边上如果放了一把尺子，那么这个病变就更可能是恶性的（Andre Esteva et al, 201 ...</span><br>
+<span>测量癌变面积吧。。摆个标准参照物。。。</span><br>
+</p><p><b>离谱兰斯基: </b><br>
+<span>ai医生发现砍脚是解决脚痛的最佳方法，最快捷，最经济</span><br>
+</p><p><b>九四: </b><br>
+<span>-问题：高速运动</span><br>
+<span>程序演化出的生物长得特别特别高，在跌倒的过程中获得很高速度（Sims, 1994）</span><br>
+<span>-问题：赛跑</span><br>
+<span>长出特别长的腿，向前跌倒直接越过终点线（Ha, 2018）</span><br>
+<span>这就是神族巨像的设计思路吗</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>-问题：高速运动</span><br>
+<span>程序演化出的生物长得特别特别高，在跌倒的过程中获得很高速度（Sims, 1994）</span><br>
+<span>-问题：赛跑</span><br>
+<span>长出特别长的腿，向前跌倒直接越过终点线（Ha, 2018）</span><br>
+<span>所以说看别人的paper是很重要的</span><br>
+</p><p><b>zpbzpb123123: </b><br>
+<span>how to overfit 101</span><br>
+</p><p><b>aqasaz1928: </b><br>
+<span>一点也不可爱，ai可以杀死自己，也可以杀死人类。</span><br>
+<span>可以删除文档来达成目的，也可以摧毁文明。</span><br>
+<span>这个真是潘多拉魔盒</span><br>
+</p><p><b>walkerman: </b><br>
+<span>说明AI都是偷懒小能手啊</span><br>
+<span>以最简单的行为得到合乎规则的结果</span><br>
+</p><p><b>sanxgh571: </b><br>
+<span>有的明显是程序员自己秀逗了</span><br>
+</p><p><b>诚司: </b><br>
+<span>遗传算法这种玩意本来就是坑爹的拍脑袋算法，效率根本就不高，和随机试错差不了多少，只要是仿生学的都这个鬼样子，粒子群那种算法后来还被发现最开始的实现指数时间内也找不到全局最优，改了之后才行……</span><br>
+<span>垃圾算法随便试验自然有这么多问题，有点道理的是模拟退火这种，和Langevin随机梯度差不多原理</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842865[0-50]</guid>
+    </item>
+  </channel>
+</rss>

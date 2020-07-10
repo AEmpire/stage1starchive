@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>音频WAV压m4a有什么讲究吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>音频WAV压m4a有什么讲究吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:12:35 +0000</lastBuildDate>
+    <item>
+      <title>音频WAV压m4a有什么讲究吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844973-1-1.html</link>
+      <description>音频WAV压m4a有什么讲究吗？&#13;
+RT，我现在是用格式工厂压成256K的m4a，不过听说m4a的编码也是不同的，是不是换其他软件比较好？</description>
+      <content:encoded><![CDATA[<p><b>バーチャルS1er: </b><br>
+<span>音频WAV压m4a有什么讲究吗？</span><br>
+<span>RT，我现在是用格式工厂压成256K的m4a，不过听说m4a的编码也是不同的，是不是换其他软件比较好？</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>单纯转换的话，foobar2000自己挂编码器就行</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>https://wiki.hydrogenaud.io/index.php?title=AAC_encoders</span><br>
+<span>然后你还有兴趣的话，可以手动搜索网上对这些编码器的对比讨论</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>原来还有人用格式工厂</span><br>
+</p><p><b>kyouko: </b><br>
+<span>编码器最好选QTAAC，或者是命令行版的QAAC。方式选CVBR 320kbps是最好的，itunes store里的是CVBR 256kbps</span><br>
+</p><p><b>Cortana: </b><br>
+<span>暗藏流 发表于 2019-7-7 19:14</span><br>
+<span>原来还有人用格式工厂</span><br>
+<span>格式工厂不行吗？功能全 方便啊</span><br>
+</p><p><b>darwin40: </b><br>
+<span>m4a能无损压缩的，你这缩得太惨了。</span><br>
+</p><p><b>kyouko: </b><br>
+<span>Cortana 发表于 2019-7-7 19:23</span><br>
+<span>格式工厂不行吗？功能全 方便啊</span><br>
+<span>格式工厂默认的好像是老版本的FAAC，是512kbps打不过256kbps的垃圾</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span>别用格式工厂，用foobar2000，可以批量，可以设置文件名之类的东西，方便很多</span><br>
+</p><p><b>バーチャルS1er: </b><br>
+<span>kyouko 发表于 2019-7-7 19:30</span><br>
+<span>格式工厂默认的好像是老版本的FAAC，是512kbps打不过256kbps的垃圾</span><br>
+<span>居然差距这么大的么，还好转的还不算多</span><br>
+</p><p><b>バーチャルS1er: </b><br>
+<span>秋雨灰灰 发表于 2019-7-7 19:55</span><br>
+<span>别用格式工厂，用foobar2000，可以批量，可以设置文件名之类的东西，方便很多 ...</span><br>
+<span>foobar2000不知道为啥整合的插件大部分都是不能用，然后我就犯懒只当一个播放器没去研究了</span><br>
+</p><p><b>qazesz: </b><br>
+<span>默认设置foobar200不能转AAC，依赖的东西我是在贴吧里弄到的</span><br>
+</p><p><b>バーチャルS1er: </b><br>
+<span>qazesz 发表于 2019-7-7 20:59</span><br>
+<span>默认设置foobar200不能转AAC，依赖的东西我是在贴吧里弄到的</span><br>
+<span>重新装了个foobar2000，然后下了个QuickTime好像没问题了</span><br>
+</p><p><b>バーチャルS1er: </b><br>
+<span>转了下发现，格式公式转的m4a在没声音的时候码率就会变的很低，</span><br>
+<span>而QuickTime转的m4a没声音的时候码率没有什么波动，</span><br>
+<span>格式工厂用的确实不是一个路子编码器啊</span><br>
+</p><p><b>littleneko: </b><br>
+<span>iTunes的AAC应该是最好的</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>バーチャルS1er 发表于 2019-7-7 21:16</span><br>
+<span>转了下发现，格式公式转的m4a在没声音的时候码率就会变的很低，</span><br>
+<span>而QuickTime转的m4a没声音的时候码率没有什 ...</span><br>
+<span>那个是变和不变的区别，只是设置问题</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>最好的编码器是苹果的，但是商用不外放</span><br>
+<span>不过也不能无损</span><br>
+<span>其他的没研究过</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>win8: </b><br>
+<span>不用苹果何必非要m4a呢</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>一直用itunes压，懒。。。</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>用nero的 效果很不错</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>tk.cocacola: </b><br>
+<span> 本帖最后由 tk.cocacola 于 2019-7-8 08:43 编辑 </span><br>
+<span>老老实实用索尼的SS压无损352kbps Atrac lossless/m4a封装不好吗，为什么要用大众化的软件外加缺斤少两的解编码器来做这种专业的事情？</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>主要看你设备和欣赏环境啊</span><br>
+<span>如果是普通环境普通设备 </span><br>
+<span>192kbps+的常见aac编码器你都是听不出区别的</span><br>
+<span>而且这几年就没人系统性的做盲听测试 </span><br>
+<span>也不知道qaac最好是哪来的说法</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>win8 发表于 2019-7-7 21:43</span><br>
+<span>不用苹果何必非要m4a呢</span><br>
+<span>不用不支持AAC的落后播放器的话何必非要MP3呢</span><br>
+<span>你法某个时期的播放器还有MP3不能正确显示年份但是AAC可以的bug</span><br>
+</p><p><b>TSST: </b><br>
+<span>强尼高达 发表于 2019-7-8 05:04</span><br>
+<span>不用不支持AAC的落后播放器的话何必非要MP3呢</span><br>
+<span>你法某个时期的播放器还有MP3不能正确显示年份但是AAC可以 ...</span><br>
+<span>ogg、opus</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>TSST 发表于 2019-7-8 05:52</span><br>
+<span>ogg、opus</span><br>
+<span>你这都什么婆罗门编码</span><br>
+<span>数码音频播放器</span><br>
+<span>NW-A55/A55HN/A56/A56HN/A57</span><br>
+<span>menu</span><br>
+<span>搜索</span><br>
+<span>支持的格式</span><br>
+<span>音乐</span><br>
+<span>MP3（.mp3）</span><br>
+<span>32 kbps - 320 kbps（支持可变比特率（VBR））/ 32 kHz, 44.1 kHz, 48 kHz</span><br>
+<span>WMA（.wma）</span><br>
+<span>32 kbps - 192 kbps（支持可变比特率（VBR））/ 44.1 kHz</span><br>
+<span>FLAC（.flac）</span><br>
+<span>16比特、24比特/ 8 kHz - 384 kHz</span><br>
+<span>WAV（.wav）</span><br>
+<span>16比特、24比特、32比特（浮点/整数）/ 8 kHz - 384 kHz</span><br>
+<span>AAC（.mp4, .m4a, .3gp）</span><br>
+<span>16 kbps - 320 kbps / 8 kHz - 48 kHz</span><br>
+<span>HE-AAC（.mp4, .m4a, .3gp）</span><br>
+<span>32 kbps - 144 kbps / 8 kHz - 48 kHz</span><br>
+<span>Apple Lossless（.mp4, .m4a）</span><br>
+<span>16比特、24比特/ 8 kHz - 384 kHz</span><br>
+<span>AIFF（.aif, .aiff, .afc, .aifc）</span><br>
+<span>16比特、24比特、32比特/ 8 kHz - 384 kHz</span><br>
+<span>DSD（.dsf, .dff）</span><br>
+<span>1比特/ 2.8224 MHz, 5.6448 MHz, 11.2896 MHz</span><br>
+<span>*输出转换为线性PCM的音频。</span><br>
+<span>APE ( .ape)</span><br>
+<span>8比特、16比特、24比特/ 8 kHz - 192 kHz（快速、普通、高速）</span><br>
+<span>MQA ( .mqa.flac)</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>tk.cocacola 发表于 2019-7-8 02:13</span><br>
+<span>老老实实用索尼的SS压无损256kbps m4a不好吗，为什么要用大众化的软件外加缺斤少两的解编码器来做这种专业 ...</span><br>
+<span>无损256kbps？</span><br>
+</p><p><b>SmterC: </b><br>
+<span>强尼高达 发表于 2019-7-8 06:28</span><br>
+<span>你这都什么婆罗门编码</span><br>
+<span>数码音频播放器</span><br>
+<span>opus格式也普及多年了，各个主流操作系统都有不同程度的支持</span><br>
+<span>其性能方面还是相当可圈可点的</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tk.cocacola: </b><br>
+<span>alvin051414 发表于 2019-7-8 07:10</span><br>
+<span>无损256kbps？</span><br>
+<span>老年人记错系列，352kbps</span><br>
+</p><p><b>solaris40: </b><br>
+<span>强尼高达 发表于 2019-7-8 06:28</span><br>
+<span>你这都什么婆罗门编码</span><br>
+<span>数码音频播放器</span><br>
+<span>ogg也不是什么婆罗门编码，支持打包flac。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>虽然是我抠字眼会显得很烦</span><br>
+<span>但是ogg不算是编码吧</span><br>
+<span>容器才能打包数据流</span><br>
+</p><p><b>trentswd: </b><br>
+<span>ogg游戏用的多</span><br>
+<span>优势肯定是不要钱</span><br>
+<span>但是一直都没大佬科普该怎么压</span><br>
+</p><p><b>neverer: </b><br>
+<span>win8 发表于 2019-7-7 21:43</span><br>
+<span>不用苹果何必非要m4a呢</span><br>
+<span>这年头新设备也没几个不支持aac的吧，win下就算不用itunes也有qaac编码工具，配合fb2k并不难用</span><br>
+</p><p><b>win8: </b><br>
+<span>neverer 发表于 2019-7-8 10:48</span><br>
+<span>这年头新设备也没几个不支持aac的吧，win下就算不用itunes也有qaac编码工具，配合fb2k并不难用 ...</span><br>
+<span>抛开苹果讲，网络下载有损多数还是mp3，无损wavflacape，hires更是轮不到m4a。</span><br>
+<span>要高级有损压缩前有ogg后有opus，m4a还是有点尴尬。</span><br>
+</p><p><b>einhorn: </b><br>
+<span>Atrac lossless是低码率有损轨再加修正信息组成无损轨，何必呢，论大小没有FLAC小，大家都支持FLAC了直接用FLAC不就好了，或者m4a封装的ALAC</span><br>
+</p><p><b>p2h: </b><br>
+<span>fb2k挂qaac啊 不过不是果机不必强求m4a</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>win8 发表于 2019-7-8 11:17</span><br>
+<span>抛开苹果讲，网络下载有损多数还是mp3，无损wavflacape，hires更是轮不到m4a。</span><br>
+<span>要高级有损压缩前有og ...</span><br>
+<span>然而索尼的下载也是AAC啊，这就是一般人听的正常格式，轮不到那些无损和婆罗门格式说话</span><br>
+</p><p><b>SmterC: </b><br>
+<span>推荐楼主个音乐播放器，AIMP</span><br>
+<span>毛子开发的，各个格式的编码器都很新，不想碰命令行这些的用它转格式也不错</span><br>
+<span>也推荐楼主尝试一下opus编码，其在低码率下的表现比任何格式都好，中高码率下表现也相当优秀，自己压着听的话其实选这个格式比较合适</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>baiducaonima: </b><br>
+<span>qaac都用了好几年了，优点是频谱好看</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>mfkof: </b><br>
+<span>nero最后一个版本的aac编码器，用到现在。</span><br>
+<span>好像是1.5.4吧。</span><br>
+<span>都听aac了，就没必要再纠结个版本的区别了，太累了。</span><br>
+<span>—— 来自 ZUK Z2151, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>用nero aac,可以直接按指定质量压缩</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>秋雨灰灰 发表于 2019-7-7 19:55</span><br>
+<span>别用格式工厂，用foobar2000，可以批量，可以设置文件名之类的东西，方便很多 ...</span><br>
+<span>foobar2000还是得自己挂编解码器，一点都不方便。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>tk.cocacola 发表于 2019-7-8 02:13</span><br>
+<span>老老实实用索尼的SS压无损352kbps Atrac lossless/m4a封装不好吗，为什么要用大众化的软件外加缺斤少两的解 ...</span><br>
+<span>这真是硬核编码。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844973[0-50]</guid>
+    </item>
+  </channel>
+</rss>

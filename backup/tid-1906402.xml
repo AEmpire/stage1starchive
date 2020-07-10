@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有公网IP的情况如何直接远程连接没有公网IP的电脑？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有公网IP的情况如何直接远程连接没有公网IP的电脑？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:04:06 +0000</lastBuildDate>
+    <item>
+      <title>有公网IP的情况如何直接远程连接没有公网IP的电脑？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906402-1-1.html</link>
+      <description>有公网IP的情况如何直接远程连接没有公网IP的电脑？&#13;
+ 本帖最后由 rentrody 于 2019-12-30 04:26 编辑 
+
+不想走服务器中转，查到可以用frp的xtcp来实现NAT打洞，公网电脑装服务端非公网电脑装客户端就行，但公网IP不是固定的，所以得弄个DDNS，或者连接之前先用免费远程工具连上非公网电脑，把服务器IP配置改成这边的公网IP才行。这样的方法是否可行？还有没有更简单直接的办法？
+&#13;
+另外teamviewer是不是就是自带NAT打洞才比anydesk这类流畅？</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>有公网IP的情况如何直接远程连接没有公网IP的电脑？</span><br>
+<span> 本帖最后由 rentrody 于 2019-12-30 04:26 编辑 </span><br>
+<span>不想走服务器中转，查到可以用frp的xtcp来实现NAT打洞，公网电脑装服务端非公网电脑装客户端就行，但公网IP不是固定的，所以得弄个DDNS，或者连接之前先用免费远程工具连上非公网电脑，把服务器IP配置改成这边的公网IP才行。这样的方法是否可行？还有没有更简单直接的办法？</span><br>
+<span>另外teamviewer是不是就是自带NAT打洞才比anydesk这类流畅？</span><br>
+</p><p><b>qwased: </b><br>
+<span>zerotier</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>rentrody: </b><br>
+<span>qwased 发表于 2019-12-30 04:32</span><br>
+<span>zerotier</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>n2n、zerotier、tinc这些好像都是VPN形式，而我要远程连接是为了登录那台电脑上的内网系统（电脑同时接了外网和内网），用这类的话想同时连内网感觉会有些麻烦。</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>其实在你公网电脑上让frpc和frps跑在不同端口上就行了，地址变动就用DDNS。</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>v2ray万能</span><br>
+</p><p><b>rentrody: </b><br>
+<span>哈哈，成功手动打洞</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-31 08:26 编辑 </span><br>
+<span>看来我的思路还是对的，既然这边有公网IP就可以直接让另一边的非公网主机连上来，得到其公网地址和端口，在端口映射关系失效前就可以直接用公网地址连回去，不需要再弄个frp这样的本地服务来转发。</span><br>
+<span>然后问题就是如何方便地让非公网主机连上来，写个批处理当后台任务挂在两边？有没有什么现成的简易工具？</span><br>
+<span>不过感觉也没必要折腾这些了，anydesk其实是可以打洞的，我之前连接时没成功应该是同时接内外网的路由表没设置好导致的。windows不能同时设两个网关，得把内网网卡设置里的网关删除才能正常上网，不然就算在路由表里删掉，重新联网后路由表又会出现两个0.0.0.0的默认路由。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>其实还有个方式，这边电信已经支持IPv6了，也正好想把另外一边的路由器换掉，直接用IPv6连接就完美了。</span><br>
+<span>收了一个全新的y1s才五十块，不过是阿里版，不能直接刷固件，得拆开用TTL刷才行，等折腾好再说。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>路过说一下，ipv4是不能连接ipv6的。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>纯情小鸭鸭 发表于 2019-12-31 08:59</span><br>
+<span>路过说一下，ipv4是不能连接ipv6的。</span><br>
+<span>我这边已经有IPv6了，是要把另一边也换成支持IPv6的路由。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906402[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Dialogue.moe 动画对白全文检索工具</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Dialogue.moe 动画对白全文检索工具</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:24:41 +0000</lastBuildDate>
+    <item>
+      <title>Dialogue.moe 动画对白全文检索工具[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843106-1-1.html</link>
+      <description>Dialogue.moe 动画对白全文检索工具&#13;
+https://dialogue.moe
+&#13;
+http://wx3.sinaimg.cn/mw690/0062shohly1g4gxxt7z6mj30w90m0wf4.jpg
+&#13;
+原帖发在https://bgm.tv/group/topic/351313，这里也打个广告
+&#13;
+简单来说就是查找对白的出处，与saucenao和whatanime类似，不过这个是检索对白的
+&#13;
+能检索到具体的动画、集数和具体时间戳（由于没有人力去一个个确认，所以匹配出的动画和集数仅供参考，具体以下面的字幕文件名为准）
+&#13;
+支持在特定动画中进行检索，支持去重
+&#13;
+字幕文件都是从网上爬取的，目前数据库里有7700多个动画是有字幕的，有6500W多条对白
+&#13;
+全文检索是用es实现的，服务器很烂，所以有点慢 求不要把服务姬弄疼了</description>
+      <content:encoded><![CDATA[<p><b>windrises: </b><br>
+<span>Dialogue.moe 动画对白全文检索工具</span><br>
+<span>https://dialogue.moe</span><br>
+<img src="http://wx3.sinaimg.cn/mw690/0062shohly1g4gxxt7z6mj30w90m0wf4.jpg" title="http://wx3.sinaimg.cn/mw690/0062shohly1g4gxxt7z6mj30w90m0wf4.jpg"><br>
+<span>原帖发在https://bgm.tv/group/topic/351313，这里也打个广告</span><br>
+<span>简单来说就是查找对白的出处，与saucenao和whatanime类似，不过这个是检索对白的</span><br>
+<span>能检索到具体的动画、集数和具体时间戳（由于没有人力去一个个确认，所以匹配出的动画和集数仅供参考，具体以下面的字幕文件名为准）</span><br>
+<span>支持在特定动画中进行检索，支持去重</span><br>
+<span>字幕文件都是从网上爬取的，目前数据库里有7700多个动画是有字幕的，有6500W多条对白</span><br>
+<span>全文检索是用es实现的，服务器很烂，所以有点慢 求不要把服务姬弄疼了</span><br>
+</p><p><b>silversor: </b><br>
+<span>怎么一堆加鹅的缺没个回复，虽然我也加了</span><br>
+</p><p><b>いつかの自分: </b><br>
+<span>233333搜了个“不要停下来啊”结果第一页全是里....</span><br>
+</p><p><b>BankA: </b><br>
+<span>联系楼上，里和非里结果能不能分开</span><br>
+</p><p><b>骑驴的歌顿: </b><br>
+<span>试了几个有外挂字幕的，</span><br>
+<span>√动画的识别挺准的</span><br>
+<span>×特摄两部</span><br>
+<span>×水野朝阳×波多</span><br>
+<span>看来果真只扒了动画</span><br>
+<span>—— 来自 vivo X9Plus, Android 7.1.2上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fuochai: </b><br>
+<img src="https://i.loli.net/2019/06/29/5d173765dad4e57010.png" title="https://i.loli.net/2019/06/29/5d173765dad4e57010.png"><br>
+<span>一句话里出现多次，results只记录一次吗？</span><br>
+</p><p><b>icewolf01: </b><br>
+<span>原来只有中文台词吗</span><br>
+<span>搜“止まるんじゃねぇぞ”没有有效信息</span><br>
+</p><p><b>jdd46820: </b><br>
+<span>随便搜了下，不错。</span><br>
+</p><p><b>Eugeo0: </b><br>
+<span>哈哈哈哈哈</span><br>
+</p><p><b>windrises: </b><br>
+<span> 本帖最后由 windrises 于 2019-6-29 18:39 编辑 </span><br>
+<span>fuochai 发表于 2019-6-29 18:03</span><br>
+<span>一句话里出现多次，results只记录一次吗？</span><br>
+<span>是的</span><br>
+<span>不过即使勾选了去重，那个results计数也是去重之前的计数，因为一个动画会收集多种版本的字幕，所以才会出现有500多个的“宫姐”</span><br>
+</p><p><b>windrises: </b><br>
+<span>icewolf01 发表于 2019-6-29 18:10</span><br>
+<span>原来只有中文台词吗</span><br>
+<span>搜“止まるんじゃねぇぞ”没有有效信息</span><br>
+<span>没有专门去收集日语字幕，而且字幕组一般很少会做双语字幕</span><br>
+<span>另外只支持搜索简体中文，繁体字幕已经被转成简体了</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>有段时间想起某个台词，但就是想不起来是哪里的</span><br>
+<span>现在台词我也忘了</span><br>
+</p><p><b>fuochai: </b><br>
+<span>windrises 发表于 2019-6-29 18:32</span><br>
+<span>是的</span><br>
+<span>不过即使勾选了去重，那个results计数也是去重之前的计数，因为一个动画会收集多种版本的字幕，所以 ...</span><br>
+<span>看你bgm那边说可以统计出现次数，怎么操作呢</span><br>
+</p><p><b>windrises: </b><br>
+<span>fuochai 发表于 2019-6-29 19:31</span><br>
+<span>看你bgm那边说可以统计出现次数，怎么操作呢</span><br>
+<span>手动数数吧 捂脸</span><br>
+</p><p><b>reficul: </b><br>
+<span>没有日文…翻译这种东西各家都不一样啊，支持模糊搜索吗？貌似不行</span><br>
+</p><p><b>windrises: </b><br>
+<span>建议楼上了解一下什么叫全文检索</span><br>
+</p><p><b>eternal12: </b><br>
+<span>不合格</span><br>
+</p><p><b>二狗还我五块钱: </b><br>
+<span>楼主有兴趣搞个字幕站吗</span><br>
+</p><p><b>宇佐见NUTSHELL: </b><br>
+<span>hhhh，竟然发现了迫害ORG兄贵的新方法</span><br>
+</p><p><b>朔方原的星: </b><br>
+<span>二狗还我五块钱 发表于 2019-06-30 07:51:23</span><br>
+<span>楼主有兴趣搞个字幕站吗本来就是字幕站爬下来的吧……</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>payboy: </b><br>
+<span>windrises 发表于 2019-6-29 21:18</span><br>
+<span>建议楼上了解一下什么叫全文检索</span><br>
+<span>Elasticsearch可以实现模糊搜索</span><br>
+</p><p><b>Ollie: </b><br>
+<span>好评点赞！</span><br>
+</p><p><b>无尽的牙刷: </b><br>
+<span>windrises 发表于 2019-6-29 18:35</span><br>
+<span>没有专门去收集日语字幕，而且字幕组一般很少会做双语字幕</span><br>
+<span>另外只支持搜索简体中文，繁体字幕已经被转成 ...</span><br>
+<span>https://kitsunekko.net/</span><br>
+<span>日文字幕可以在这里扒到不少</span><br>
+</p><p><b>fig3: </b><br>
+<span>reficul 发表于 2019-6-29 21:08</span><br>
+<span>没有日文…翻译这种东西各家都不一样啊，支持模糊搜索吗？貌似不行</span><br>
+<span>https://sp.b-ch.com/</span><br>
+<span>找到一个检索日文对白的网站，万代的</span><br>
+</p><p><b>saya1892: </b><br>
+<span>日文台词我一般直接搜XX作品 名台词</span><br>
+</p><p><b>reficul: </b><br>
+<span>fig3 发表于 2020-6-22 08:28</span><br>
+<span>https://sp.b-ch.com/</span><br>
+<span>找到一个检索日文对白的网站，万代的</span><br>
+<span>谢谢分享，再过几天这都是一年前的回复了23333</span><br>
+</p><p><b>稻高一尺: </b><br>
+</p><p><b>wangandh: </b><br>
+<span>好东西</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843106[0-50]</guid>
+    </item>
+  </channel>
+</rss>

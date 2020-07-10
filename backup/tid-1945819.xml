@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>外野万能，求助个excel使用方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>外野万能，求助个excel使用方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:04 +0000</lastBuildDate>
+    <item>
+      <title>外野万能，求助个excel使用方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945819-1-1.html</link>
+      <description>外野万能，求助个excel使用方法&#13;
+
+&#13;
+如图所示
+&#13;
+想要整理一份数据，以name列的项目为列标签，列出该项目所有的value。
+&#13;
+现在尝试用透视表的方法整理数据，
+&#13;
+但是如果不把date列作为列3放入行标签的话就只能显示在一个格里显示value的计算结果，合计、最大、最小之类，
+&#13;
+如果把date列放入行标签的话又会有空格，而且我目前还不想增加行标签，就只是想把a项目，b项目value列出来而已，
+&#13;
+excel自动整理的功能能不能做到这个？</description>
+      <content:encoded><![CDATA[<p><b>macrosszhao: </b><br>
+<span>外野万能，求助个excel使用方法</span><br>
+<span>如图所示</span><br>
+<span>想要整理一份数据，以name列的项目为列标签，列出该项目所有的value。</span><br>
+<span>现在尝试用透视表的方法整理数据，</span><br>
+<span>但是如果不把date列作为列3放入行标签的话就只能显示在一个格里显示value的计算结果，合计、最大、最小之类，</span><br>
+<span>如果把date列放入行标签的话又会有空格，而且我目前还不想增加行标签，就只是想把a项目，b项目value列出来而已，</span><br>
+<span>excel自动整理的功能能不能做到这个？</span><br>
+</p><p><b>朝仓型美羽: </b><br>
+<span>把name和value都放到列标签？</span><br>
+</p><p><b>SummerRain: </b><br>
+<span>按照你自己的透视把AB列的内容单独复制出来，全选AB列，ctrl+g 区域选择空值，删除不就可以满足你的需求了？</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>朝仓型美羽 发表于 2020-7-4 15:07</span><br>
+<span>把name和value都放到列标签？</span><br>
+<span>value放列标签的话会造成有多少个value就有多少列的</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>lz 想要的是 </span><br>
+<span>Project A    1,2,3,4,5</span><br>
+<span>Project B    3,4,5,6,7</span><br>
+<span>这种么？</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>SummerRain 发表于 2020-7-4 15:08</span><br>
+<span>按照你自己的透视把AB列的内容单独复制出来，全选AB列，ctrl+g 区域选择空值，删除不就可以满足你的需求了 ...</span><br>
+<span>哦对，删除空值，这是个办法，多谢~</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>kiddolck 发表于 2020-7-4 15:12</span><br>
+<span>lz 想要的是 </span><br>
+<span>Project A    1,2,3,4,5</span><br>
+<span>Project B    3,4,5,6,7</span><br>
+<span>正是，因为长期有很多这种格式的表要处理，</span><br>
+<span>所以我想问问excel里最效率的处理方式是什么</span><br>
+</p><p><b>fat: </b><br>
+<span>好像只能上vba？</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>macrosszhao 发表于 2020-7-4 15:19</span><br>
+<span>正是，因为长期有很多这种格式的表要处理，</span><br>
+<span>所以我想问问excel里最效率的处理方式是什么 ...</span><br>
+<span>我的话会用傻办法，数据透视行 Project > Value</span><br>
+<span>然后找个格子加个逗点啥的，用公式往下拉</span><br>
+<span>C2 = C1 & ',' </span><br>
+<span>这样。。</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>fat 发表于 2020-7-4 15:19</span><br>
+<span>好像只能上vba？</span><br>
+<span>VBA自然是最好的选择，</span><br>
+<span>虽然客户方允不允许开宏这事我还没问过</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>kiddolck 发表于 2020-7-4 15:22</span><br>
+<span>我的话会用傻办法，数据透视行 Project > Value</span><br>
+<span>然后找个格子加个逗点啥的，用公式往下拉</span><br>
+<span>啊，抱歉不是这个意思，</span><br>
+<span>我这还没到把所有数据汇总到一行的阶段，</span><br>
+<span>只是想按照name把所有的值列出来就够了</span><br>
+</p><p><b>kenney: </b><br>
+<span>透视表，重复所有标签</span><br>
+<span>—— 来自 HUAWEI RVL-AL09, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>iriyano: </b><br>
+<span>不是很懂直接删除重复不就行了吗</span><br>
+</p><p><b>awflu: </b><br>
+<span>pandas直接有个unstack是做你这件事的..</span><br>
+<span>一定要用公式拉的话就是在公式里面把这玩意实现一次，索引取值来来回回要套几次，做一个列标签项目行号的序列，再取值</span><br>
+<span>你参考下，如果列标签也要直接生成的话在表头也套一次</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>kenney 发表于 2020-7-5 00:40</span><br>
+<span>透视表，重复所有标签</span><br>
+<span>—— 来自 HUAWEI RVL-AL09, Android 9上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>能说的详细一些吗？</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>awflu 发表于 2020-7-5 04:33</span><br>
+<span>pandas直接有个unstack是做你这件事的..</span><br>
+<span>一定要用公式拉的话就是在公式里面把这玩意实现一次，索引取值来来 ...</span><br>
+<span>谢谢，</span><br>
+<span>看来要靠公式实现的话套好几层公式是避免不了的呢，</span><br>
+</p><p><b>ulysses: </b><br>
+<span>https://support.microsoft.com/zh-cn/office/filter-%E5%87%BD%E6%95%B0-f4f7cb66-82eb-4767-8f7c-4877ad80c759</span><br>
+<span>新公式， =FILTER(b2:b30,a2:a30=h1,"0")</span><br>
+</p><p><b>pkwopawho: </b><br>
+<span>https://mp.weixin.qq.com/s/QD-TA4JXyMOQZ3qRM4iNLA</span><br>
+<span>正好看到</span><br>
+</p><p><b>cxn: </b><br>
+<span>再截图的基础上再多弄1个透视图，原有透视图的列标签筛选a，新透视图的列标签筛选b</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>pkwopawho 发表于 2020-7-7 09:59</span><br>
+<span>https://mp.weixin.qq.com/s/QD-TA4JXyMOQZ3qRM4iNLA</span><br>
+<span>正好看到</span><br>
+<span>我想做到的效果正好和他相反</span><br>
+<span>想从右图到左图</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>cxn 发表于 2020-7-7 10:41</span><br>
+<span>再截图的基础上再多弄1个透视图，原有透视图的列标签筛选a，新透视图的列标签筛选b ...</span><br>
+<span>这样需要建两个标签页然后分别筛选然后把结果再映射到一个新的标签页里，感觉操作步骤有点多……</span><br>
+</p><p><b>cxn: </b><br>
+<span> 本帖最后由 cxn 于 2020-7-7 19:38 编辑 </span><br>
+<span>macrosszhao 发表于 2020-7-7 18:57</span><br>
+<span>这样需要建两个标签页然后分别筛选然后把结果再映射到一个新的标签页里，感觉操作步骤有点多…… ...</span><br>
+<span>试了一下，很简洁啊，如图，优化了一下把name放筛选器里去了，并且隐藏了行标签所在的第一列</span><br>
+<span>你弄两个sheet干嘛，都放一个sheet里不就完事了，映射也多此一举嘛</span><br>
+</p><p><b>zievod: </b><br>
+<span> 本帖最后由 zievod 于 2020-7-7 19:50 编辑 </span><br>
+<span>最简单粗暴就直接上公式</span><br>
+<span>h2</span><br>
+<span>=IF(A2=$H$1,B2,"")</span><br>
+<span>然后清除公式清除空格...</span><br>
+<span>// 忽略</span><br>
+<span>透视表的话</span><br>
+<span>你直接把name和value都放行标签也行 就是数据量大的话复制起来麻烦</span><br>
+<span>这方法不行 这么搞的话不如直接复制源数据 然后按照name排序了</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>cxn 发表于 2020-7-7 19:26</span><br>
+<span>试了一下，很简洁啊，如图，优化了一下把name放筛选器里去了，并且隐藏了行标签所在的第一列</span><br>
+<span>你弄两个shee ...</span><br>
+<span>原来如此，透视表的筛选是不会隐藏整行的，学到了</span><br>
+</p><p><b>macrosszhao: </b><br>
+<span>zievod 发表于 2020-7-7 19:39</span><br>
+<span>最简单粗暴就直接上公式</span><br>
+<span>h2</span><br>
+<span>公式的方法我知道的</span><br>
+<span>我只是觉得excel应该有办法直接搜索出我想要的结果的</span><br>
+<span>也许用数组结合公式能做到？但是我不会用数组</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945819[0-50]</guid>
+    </item>
+  </channel>
+</rss>

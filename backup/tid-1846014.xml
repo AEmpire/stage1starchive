@@ -1,0 +1,656 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【概率题又来了】猜硬币序列“正反反、反反正”的胜率</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【概率题又来了】猜硬币序列“正反反、反反正”的胜率</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:05:59 +0000</lastBuildDate>
+    <item>
+      <title>【概率题又来了】猜硬币序列“正反反、反反正”的胜率[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846014-1-1.html</link>
+      <description>【概率题又来了】猜硬币序列“正反反、反反正”的胜率&#13;
+ 本帖最后由 HYNDコン 于 2019-7-12 00:53 编辑 
+
+https://i.loli.net/2019/07/11/5d275b4122a6794509.jpg
+&#13;
+https://i.loli.net/2019/07/11/5d275be3230fb80628.jpg
+&#13;
+第一眼看上去确实胜率应该是五五开，然而实际模拟出来却不是这样，该如何理解这个结果呢？
+&#13;
+如果你是乙，该怎么调整自己的方案，让自己的胜率和甲持平，或是比甲高呢？求 甲:乙 = 1:3 的方案！
+&#13;
+分页附代码→
+
+Randomize
+&#13;
+Function RndNum(MinNum,MaxNum)
+&#13;
+RndNum=Int((MaxNum-MinNum+1)*Rnd()+MinNum)
+&#13;
+End Function
+&#13;
+//以上是随机函数，别管它。
+&#13;
+Function 来一局，看谁赢()
+&#13;
+上上轮 = 0
+&#13;
+上一轮 = 0
+&#13;
+这一轮 = 0
+&#13;
+谁赢了 = 0                                                                                                                //定义“1”表示甲赢，“2”表示乙赢
+&#13;
+      For 20000      
+&#13;
+                If 上上轮 = 1 and 上一轮 = 2 and 这一轮 = 2 Then                        //正反反甲赢
+&#13;
+                        谁赢了 = 1
+&#13;
+                        Exit For 
+&#13;
+                End If
+&#13;
+                If 上上轮 = 2 and 上一轮 = 2 and 这一轮 = 1 Then                         //反反正乙赢
+&#13;
+                        谁赢了 = 2
+&#13;
+                        Exit For 
+&#13;
+                End If
+&#13;
+                随机数 = RndNum(1, 2)                //定义“1”表示正，“2”表示反
+&#13;
+                上上轮 = 上一轮
+&#13;
+                上一轮 = 这一轮
+&#13;
+                这一轮 = 随机数
+&#13;
+      Next
+&#13;
+      来一局，看谁赢 = 谁赢了
+&#13;
+End Function
+&#13;
+甲累计胜利 = 0
+&#13;
+乙累计胜利 = 0
+&#13;
+平局 = 0
+&#13;
+For 10000
+&#13;
+      看谁赢 = 来一局，看谁赢()
+&#13;
+      If 看谁赢 = 0 Then 
+&#13;
+                平局 = 平局 + 1
+&#13;
+      End If
+&#13;
+      If 看谁赢 = 1 Then 
+&#13;
+                甲累计胜利 = 甲累计胜利 + 1
+&#13;
+      End If
+&#13;
+      If 看谁赢 = 2 Then 
+&#13;
+                乙累计胜利 = 乙累计胜利 + 1
+&#13;
+      End If
+&#13;
+Next
+&#13;
+TracePrint 甲累计胜利
+&#13;
+TracePrint 乙累计胜利
+&#13;
+TracePrint 平局</description>
+      <content:encoded><![CDATA[<p><b>Igarashi: </b><br>
+<span>ebuw 发表于 2019-7-12 01:41</span><br>
+<span>如果是投掷两万次然后记录，每次都比较之前三次是否有“正反反”“反反正”这个组合出现，然后记录下来， ...</span><br>
+<span>只要有这个组合出现，那这一局的投掷就停止了，那个Exit For就是跳出For循环，然后输出这一局的胜方，这一局不就结束了么</span><br>
+</p><p><b>ebuw: </b><br>
+<span>Igarashi 发表于 2019-7-12 01:43</span><br>
+<span>只要有这个组合出现，那这一局的投掷就停止了，那个Exit For就是跳出For循环，然后输出这一局的胜方，这 ...</span><br>
+<span>哦对。我被楼主的问法绕进去了。</span><br>
+<span>他这个就和我之前说的一样，就是看谁先赢呗。那概率明显就是3：1啊。</span><br>
+<span>楼主问法说是不是直觉是1：1，我被绕进去了。确实投无限次的话，最终哪一方赢得多的比例接近1：1</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>ebuw 发表于 2019-7-12 01:45</span><br>
+<span>哦对。我被楼主的问法绕进去了。</span><br>
+<span>他这个就和我之前说的一样，就是看谁先赢呗。那概率明显就是3：1啊。</span><br>
+<span>楼 ...</span><br>
+<span>楼主的1：1直觉来自于古典概型的1/8和1/8，不过这里是序列问题，是投到一方获胜为止</span><br>
+<span>如果是每三个一组那的确是古典概型的1：1，所谓反直觉就在古典概型和序列问题的不同上</span><br>
+</p><p><b>一只优越Fa♂: </b><br>
+<span>可是硬币是一面重一面轻的啊</span><br>
+<span>—— 来自 HUAWEI NOVA CAN-L11, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>楼主傻逼: </b><br>
+<span>光看正反反和反反正当然是五五开，问题就是乙要赢自带隐藏条件是前面不能出正，甲要赢只需要前面不连着三个反就行，这先验概率就差了老远了。。。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>究极巨魔: </b><br>
+<span>如果是每次都重新扔三次，就是一样的啊</span><br>
+</p><p><b>martinium: </b><br>
+<span>题目换成正正反和反反正就是一样了，或者把最近3次变成只有3次</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>cfdxiaobai: </b><br>
+<span>乙要赢只能是 反反正，反反反正，反*n正，加起来1/4。剩余都是甲赢</span><br>
+</p><p><b>cfdxiaobai: </b><br>
+<span>乙要赢只能是 反反正，反反反正，反*n正，加起来1/4。剩余都是甲赢</span><br>
+</p><p><b>cfdxiaobai: </b><br>
+<span>乙要赢只能是 反反正，反反反正，反*n正，加起来1/4。剩余都是甲赢</span><br>
+</p><p><b>cfdxiaobai: </b><br>
+<span>乙要赢只能是 反反正，反反反正，反*n正，加起来1/4。剩余都是甲赢</span><br>
+</p><p><b>PNK: </b><br>
+<span>无论最后出结果时扔了多少次，胜负只和最开始的两枚有关</span><br>
+<span>两个人任何一个要赢必须出现负负</span><br>
+<span>如果第一枚是正，那么后面第一次出现负负时前面一定有一个正，形成了正负负，甲赢</span><br>
+<span>如果第一枚是负，第二枚是正，与上面一样，第一次出现负负时前面一定有一个正，甲赢</span><br>
+<span>如果前两枚是负，后面是正，则乙赢，是负则继续扔直到扔出正，乙赢</span><br>
+<span>也就是说乙获胜等价于扔两枚硬币全为负，概率为四分之一，和楼主模拟结果是一样的</span><br>
+</p><p><b>antiultima: </b><br>
+<span>HYNDコン 发表于 2019-7-12 01:34</span><br>
+<span>100优势很大啊，遏制100的只有110，胜率是100的一倍。其他的都不如110。</span><br>
+<span>反正反也不如正反反？</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>antiultima 发表于 2019-7-12 11:25</span><br>
+<span>反正反也不如正反反？</span><br>
+<span>跑了一下正反反:反正反，结果为4988:5012。</span><br>
+</p><p><b>观测型冰糕菌: </b><br>
+<span>我懂了 原来是不分顺序的阿</span><br>
+<span>告辞</span><br>
+</p><p><b>traburiss: </b><br>
+<span> 本帖最后由 traburiss 于 2019-7-12 13:55 编辑 </span><br>
+<span>我写了个pyrhon脚本，结果是甲乙胜率一样高。</span><br>
+<span>import random</span><br>
+<span>class PlayGame:</span><br>
+<span>    a_win = 0</span><br>
+<span>    b_wim = 0</span><br>
+<span>    no_win = 0</span><br>
+<span>    res1 = -1</span><br>
+<span>    res2 = -1</span><br>
+<span>    res3 = -1</span><br>
+<span>    def __init__(self):</span><br>
+<span>      self.res1 = random.randint(0, 1)</span><br>
+<span>      self.res2 = random.randint(0, 1)</span><br>
+<span>      self.res3 = random.randint(0, 1)</span><br>
+<span>    def play(self):</span><br>
+<span>      self.res1 = self.res2</span><br>
+<span>      self.res2 = self.res3</span><br>
+<span>      self.res3 = random.randint(0, 1)</span><br>
+<span>    def check_win(self):</span><br>
+<span>      self.print_this()</span><br>
+<span>      if self.res1 == 1 and self.res2 == 0 and self.res3 == 0:</span><br>
+<span>            self.a_win = self.a_win + 1</span><br>
+<span>            print('a win')</span><br>
+<span>      elif self.res1 == 0 and self.res2 == 0 and self.res3 == 1:</span><br>
+<span>            self.b_wim = self.b_wim + 1</span><br>
+<span>            print('b win')</span><br>
+<span>      else:</span><br>
+<span>            print('no win')</span><br>
+<span>            self.no_win = self.no_win + 1</span><br>
+<span>    def print_this(self):</span><br>
+<span>      print(str(self.res1) + ':' + str(self.res2) + ':' + str(self.res3))</span><br>
+<span>    def print_all(self):</span><br>
+<span>      print('no win:' + str(self.no_win) + '\na win:' + str(self.a_win) + '\nb win:' + str(self.b_wim))</span><br>
+<span>play_game = PlayGame()</span><br>
+<span>for i in range(1000000):</span><br>
+<span>    play_game.check_win()</span><br>
+<span>    play_game.play()</span><br>
+<span>play_game.print_all()</span><br>
+<span>发现一个细节，那就是每次胜负后是否需要重开游戏，这影响了游戏的结果，上面的代码是每次决出胜负之后都不重开游戏。我重写了一下，确实胜负是一方比较多的，等下贴上来。</span><br>
+<span>import random</span><br>
+<span>class PlayGame:</span><br>
+<span>    a_win = 0</span><br>
+<span>    b_wim = 0</span><br>
+<span>    no_win = 0</span><br>
+<span>    res1 = -1</span><br>
+<span>    res2 = -1</span><br>
+<span>    res3 = -1</span><br>
+<span>    def __init__(self):</span><br>
+<span>      self.init()</span><br>
+<span>    def init(self):</span><br>
+<span>      self.res1 = random.randint(0, 1)</span><br>
+<span>      self.res2 = random.randint(0, 1)</span><br>
+<span>      self.res3 = random.randint(0, 1)</span><br>
+<span>    def play(self):</span><br>
+<span>      self.res1 = self.res2</span><br>
+<span>      self.res2 = self.res3</span><br>
+<span>      self.res3 = random.randint(0, 1)</span><br>
+<span>    def check_win(self):</span><br>
+<span>      self.print_this()</span><br>
+<span>      if self.res1 == 1 and self.res2 == 0 and self.res3 == 0:</span><br>
+<span>            self.a_win = self.a_win + 1</span><br>
+<span>            self.init()</span><br>
+<span>            print('a win')</span><br>
+<span>      elif self.res1 == 0 and self.res2 == 0 and self.res3 == 1:</span><br>
+<span>            self.b_wim = self.b_wim + 1</span><br>
+<span>            self.init()</span><br>
+<span>            print('b win')</span><br>
+<span>      else:</span><br>
+<span>            print('no win')</span><br>
+<span>            self.no_win = self.no_win + 1</span><br>
+<span>    def print_this(self):</span><br>
+<span>      print(str(self.res1) + ':' + str(self.res2) + ':' + str(self.res3))</span><br>
+<span>    def print_all(self):</span><br>
+<span>      print('no win:' + str(self.no_win) + '\na win:' + str(self.a_win) + '\nb win:' + str(self.b_wim))</span><br>
+<span>play_game = PlayGame()</span><br>
+<span>for i in range(1000000):</span><br>
+<span>    play_game.check_win()</span><br>
+<span>    play_game.play()</span><br>
+<span>play_game.print_all()</span><br>
+<span>—— 来自 Xiaomi Mi Note 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>发财就手: </b><br>
+<span>这种情况的现实与理论差距在于能不能保证抛硬币的力度，方向高度等多次都是一样的</span><br>
+</p><p><b>轩辕夜羽: </b><br>
+<span>最近3次，和3次的概念是不同的，所以造成了差异。</span><br>
+<span>可以想象一个无限的随机正反序列（意味着分出胜负仍然继续抛），然后又有无限多个此序列。</span><br>
+<span>如果是序列的最开始3次出现了决胜，那么此时的甲乙胜率的确是相同的。</span><br>
+<span>一旦不是最开始的三次，则：甲获胜条件为正反反，乙获胜条件为反反正，在上述无限序列中，获胜时刻，序列中一定有一个“反反”：</span><br>
+<span>假设这个“反反”的位置是第n和n+1项，则甲获胜时，序列长度n+1，乙获胜时序列长度n+2.</span><br>
+<span>则对此n+2长度的序列有天生制约：n-1不为正。</span><br>
+<span>于是看起来是五五开，实际甲获胜的场景是1（n+1长度）+1/2（n+2长度并且n-1为正），乙获胜的场景只有1/2（n+2长度并且n-1不为正）</span><br>
+</p><p><b>vinnia: </b><br>
+<span> 本帖最后由 vinnia 于 2019-7-12 21:34 编辑 </span><br>
+<span>这个问题被油管数学科普者matt parker在一次报告会上详细的讨论过，并且用一对现场所有人的方式做了实验：油管视频地址 （从26分钟处开始）（其实这整个视频也很值得一看）</span><br>
+<span>具体的策略是，甲和乙，在乙先选甲后选的情况下，甲可以针对性的做到概率上地稳赢：</span><br>
+<span>甲 > 乙：</span><br>
+<span>正反反 > 反反反</span><br>
+<span>正反反 > 反反正</span><br>
+<span>反反正 > 反正反</span><br>
+<span>正正反 > 正反反</span><br>
+<span>反反正 > 反正正</span><br>
+<span>正正反 > 正反正</span><br>
+<span>反正正 > 正正反</span><br>
+<span>反正正 > 正正正</span><br>
+<span>规律其实是：甲的后两个==乙的前两个</span><br>
+<span>一句话解释就是：甲用自己的胜利条件覆盖了一部分乙的胜利条件，从而达到截胡的效果</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846014[50-100]</guid>
+    </item>
+    <item>
+      <title>【概率题又来了】猜硬币序列“正反反、反反正”的胜率[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846014-1-1.html</link>
+      <description>【概率题又来了】猜硬币序列“正反反、反反正”的胜率&#13;
+ 本帖最后由 HYNDコン 于 2019-7-12 00:53 编辑 
+
+https://i.loli.net/2019/07/11/5d275b4122a6794509.jpg
+&#13;
+https://i.loli.net/2019/07/11/5d275be3230fb80628.jpg
+&#13;
+第一眼看上去确实胜率应该是五五开，然而实际模拟出来却不是这样，该如何理解这个结果呢？
+&#13;
+如果你是乙，该怎么调整自己的方案，让自己的胜率和甲持平，或是比甲高呢？求 甲:乙 = 1:3 的方案！
+&#13;
+分页附代码→
+
+Randomize
+&#13;
+Function RndNum(MinNum,MaxNum)
+&#13;
+RndNum=Int((MaxNum-MinNum+1)*Rnd()+MinNum)
+&#13;
+End Function
+&#13;
+//以上是随机函数，别管它。
+&#13;
+Function 来一局，看谁赢()
+&#13;
+上上轮 = 0
+&#13;
+上一轮 = 0
+&#13;
+这一轮 = 0
+&#13;
+谁赢了 = 0                                                                                                                //定义“1”表示甲赢，“2”表示乙赢
+&#13;
+      For 20000      
+&#13;
+                If 上上轮 = 1 and 上一轮 = 2 and 这一轮 = 2 Then                        //正反反甲赢
+&#13;
+                        谁赢了 = 1
+&#13;
+                        Exit For 
+&#13;
+                End If
+&#13;
+                If 上上轮 = 2 and 上一轮 = 2 and 这一轮 = 1 Then                         //反反正乙赢
+&#13;
+                        谁赢了 = 2
+&#13;
+                        Exit For 
+&#13;
+                End If
+&#13;
+                随机数 = RndNum(1, 2)                //定义“1”表示正，“2”表示反
+&#13;
+                上上轮 = 上一轮
+&#13;
+                上一轮 = 这一轮
+&#13;
+                这一轮 = 随机数
+&#13;
+      Next
+&#13;
+      来一局，看谁赢 = 谁赢了
+&#13;
+End Function
+&#13;
+甲累计胜利 = 0
+&#13;
+乙累计胜利 = 0
+&#13;
+平局 = 0
+&#13;
+For 10000
+&#13;
+      看谁赢 = 来一局，看谁赢()
+&#13;
+      If 看谁赢 = 0 Then 
+&#13;
+                平局 = 平局 + 1
+&#13;
+      End If
+&#13;
+      If 看谁赢 = 1 Then 
+&#13;
+                甲累计胜利 = 甲累计胜利 + 1
+&#13;
+      End If
+&#13;
+      If 看谁赢 = 2 Then 
+&#13;
+                乙累计胜利 = 乙累计胜利 + 1
+&#13;
+      End If
+&#13;
+Next
+&#13;
+TracePrint 甲累计胜利
+&#13;
+TracePrint 乙累计胜利
+&#13;
+TracePrint 平局</description>
+      <content:encoded><![CDATA[<p><b>HYNDコン: </b><br>
+<span>【概率题又来了】猜硬币序列“正反反、反反正”的胜率</span><br>
+<span> 本帖最后由 HYNDコン 于 2019-7-12 00:53 编辑 </span><br>
+<img src="https://i.loli.net/2019/07/11/5d275b4122a6794509.jpg" title="https://i.loli.net/2019/07/11/5d275b4122a6794509.jpg"><br>
+<img src="https://i.loli.net/2019/07/11/5d275be3230fb80628.jpg" title="https://i.loli.net/2019/07/11/5d275be3230fb80628.jpg"><br>
+<span>第一眼看上去确实胜率应该是五五开，然而实际模拟出来却不是这样，该如何理解这个结果呢？</span><br>
+<span>如果你是乙，该怎么调整自己的方案，让自己的胜率和甲持平，或是比甲高呢？求 甲:乙 = 1:3 的方案！</span><br>
+<span>分页附代码→</span><br>
+<span>Randomize</span><br>
+<span>Function RndNum(MinNum,MaxNum)</span><br>
+<span>RndNum=Int((MaxNum-MinNum+1)*Rnd()+MinNum)</span><br>
+<span>End Function</span><br>
+<span>//以上是随机函数，别管它。</span><br>
+<span>Function 来一局，看谁赢()</span><br>
+<span>上上轮 = 0</span><br>
+<span>上一轮 = 0</span><br>
+<span>这一轮 = 0</span><br>
+<span>谁赢了 = 0                                                                                                                //定义“1”表示甲赢，“2”表示乙赢</span><br>
+<span>      For 20000      </span><br>
+<span>                If 上上轮 = 1 and 上一轮 = 2 and 这一轮 = 2 Then                        //正反反甲赢</span><br>
+<span>                        谁赢了 = 1</span><br>
+<span>                        Exit For </span><br>
+<span>                End If</span><br>
+<span>                If 上上轮 = 2 and 上一轮 = 2 and 这一轮 = 1 Then                         //反反正乙赢</span><br>
+<span>                        谁赢了 = 2</span><br>
+<span>                        Exit For </span><br>
+<span>                End If</span><br>
+<span>                随机数 = RndNum(1, 2)                //定义“1”表示正，“2”表示反</span><br>
+<span>                上上轮 = 上一轮</span><br>
+<span>                上一轮 = 这一轮</span><br>
+<span>                这一轮 = 随机数</span><br>
+<span>      Next</span><br>
+<span>      来一局，看谁赢 = 谁赢了</span><br>
+<span>End Function</span><br>
+<span>甲累计胜利 = 0</span><br>
+<span>乙累计胜利 = 0</span><br>
+<span>平局 = 0</span><br>
+<span>For 10000</span><br>
+<span>      看谁赢 = 来一局，看谁赢()</span><br>
+<span>      If 看谁赢 = 0 Then </span><br>
+<span>                平局 = 平局 + 1</span><br>
+<span>      End If</span><br>
+<span>      If 看谁赢 = 1 Then </span><br>
+<span>                甲累计胜利 = 甲累计胜利 + 1</span><br>
+<span>      End If</span><br>
+<span>      If 看谁赢 = 2 Then </span><br>
+<span>                乙累计胜利 = 乙累计胜利 + 1</span><br>
+<span>      End If</span><br>
+<span>Next</span><br>
+<span>TracePrint 甲累计胜利</span><br>
+<span>TracePrint 乙累计胜利</span><br>
+<span>TracePrint 平局</span><br>
+</p><p><b>Prushka: </b><br>
+<span>这是传说中的易语言？</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>Prushka 发表于 2019-7-12 00:02</span><br>
+<span>这是传说中的易语言？</span><br>
+<span>普通的按键精灵脚本。至于按键精灵是不是抄的易语言，我就不清楚了。</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>看着像vb，还有next</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fuochai: </b><br>
+<span>你模拟的结果是7k多和4k多？</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>fuochai 发表于 2019-7-12 00:06</span><br>
+<span>你模拟的结果是7k多和4k多？</span><br>
+<span>7505：2495，一共赌了10000局。</span><br>
+<span>每局进行多少轮（掷1次硬币算作为进行1轮）没统计，觉得没必要。</span><br>
+</p><p><b>银河爆碎: </b><br>
+<span>粗看起来应该是甲胜率高</span><br>
+</p><p><b>fuochai: </b><br>
+<span>HYNDコン 发表于 2019-7-12 00:09</span><br>
+<span>7505：2495，一共赌了10000局。</span><br>
+<span>每局进行多少轮（掷1次硬币算作为进行1轮）没统计，觉得没必要。 ...</span><br>
+<span>所以7505、2495、0这三个是输出？对应脚本最后三行？还是别的怎样</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>fuochai 发表于 2019-7-12 00:12</span><br>
+<span>所以7505、2495、0这三个是输出？对应脚本最后三行？还是别的怎样</span><br>
+<span>你的理解是对的。</span><br>
+</p><p><b>Endle: </b><br>
+<span>题目至少读了10遍，没看懂</span><br>
+<span>我的理解是这样的：</span><br>
+<span>甲乙两个人扔硬币，扔了n次(n>3)，得到了一个扔硬币的序列 S1...Sn</span><br>
+<span>Sn-2, Sn-1 Sn 三次的结果为正反反/反反正</span><br>
+<span>然后呢？输赢怎么看？</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>代码倒是看明白了，没想明白结果……</span><br>
+</p><p><b>fuochai: </b><br>
+<span> 本帖最后由 fuochai 于 2019-7-12 00:19 编辑 </span><br>
+<span>HYNDコン 发表于 2019-7-12 00:14</span><br>
+<span>你的理解是对的。</span><br>
+<span>其实不用设置平局了把……</span><br>
+</p><p><b>scrolli: </b><br>
+<span>记得以前见过个比较直观的解释：正反反出了个正正之后，但因为他本来就要从正开始的，所以可以直接在第二次的位置重来；反反正的话，出了个反正就只能从头再来</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>我似乎有点想明白了</span><br>
+<span>乙要赢，在掷出反反正的第二个“反”时，可能甲就已经达成了胜利</span><br>
+</p><p><b>sorroaq: </b><br>
+<span>？这还用模拟算吗？乙只有开局第一第二发都是反的情况，也就是1/4的概率赢，剩下情况都必然是甲胜啊</span><br>
+</p><p><b>ebuw: </b><br>
+<span>代码有问题吧。</span><br>
+<span>你问谁的胜率高，但最后如果模拟是甲在20000次里只比乙多赢了一次，最后都算甲全赢。</span><br>
+</p><p><b>矢吹奈子: </b><br>
+<span>胜率是0，因为参与赌博就输了。</span><br>
+<span>不做赌狗，从你我做起。</span><br>
+</p><p><b>sese199: </b><br>
+<span>考虑扔五次硬币，两边都不赢的情况不计算，甲赢的组合比乙赢的组合要多吧</span><br>
+</p><p><b>Mocilol: </b><br>
+<span>因为这是连续扔的，甲只要出了正，接下来2个出啥都不会输，乙不行</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-7-12 00:23 编辑 </span><br>
+<span>fuochai 发表于 2019-7-12 00:15</span><br>
+<span>其实不用设置平局了把……</span><br>
+<span>每一局上限20000轮，平局的概率很小，但是我喜欢严谨。</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>甲胜 正反反。 乙胜 反反反正 (不严谨) 显然甲胜率高</span><br>
+</p><p><b>银河爆碎: </b><br>
+<span>我的思路很简单：</span><br>
+<span>如果某一轮投出了“正”，那么甲可以从这一轮开始赌跟着投出第二个“反”，乙只能寄希望于下一轮投出“反”</span><br>
+<span>下一轮就算是“正”，甲达不到第二个“反”，但可以把这个又视为第一个“正”，继续重复上一步骤，乙仍然无法达成第一个“反”，无法开始</span><br>
+<span>反之，如果某一轮投出“反”，乙可以开始计数，那么下一轮如果投出“正”，乙就只能从头开始，而甲却可以把这个视为第一个“正”</span><br>
+<span>怎么看都是甲占便宜</span><br>
+<span>简单的说，甲就算第二轮失败了，也不给乙机会，但乙如果第二轮失败了，就给了甲机会</span><br>
+</p><p><b>sorroaq: </b><br>
+<span>只要整个序列中出现过正了，那么接下来只有两种情形:一，正反正或者正正，无关胜负，当前值为正不变；二，正反反，甲胜。</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>ebuw 发表于 2019-7-12 00:19</span><br>
+<span>代码有问题吧。</span><br>
+<span>你问谁的胜率高，但最后如果模拟是甲在20000次里只比乙多赢了一次，最后都算甲全赢。 ...</span><br>
+<span>感谢提出异议。请问你认为哪一行有问题，我看看。</span><br>
+</p><p><b>Igarashi: </b><br>
+<span> 本帖最后由 Igarashi 于 2019-7-12 00:30 编辑 </span><br>
+<span>每次出现“反反”时，看序列前一个结果和后一个结果，一共四种情况：</span><br>
+<span>正+反反+正：甲胜</span><br>
+<span>正+反反+反：甲胜</span><br>
+<span>反+反反+正：乙胜</span><br>
+<span>反+反反+反：右移得到新的“反反”，且为“反+反反+？”</span><br>
+<span>这样大概能看出来甲胜率高，但为什么是3：1还要想想</span><br>
+<span>还是不对，出现“反反反”时乙就必胜了</span><br>
+</p><p><b>中二少年爽歪歪: </b><br>
+<span>感觉上是画二叉图，然后数，感觉可能会用到等比数列求和</span><br>
+</p><p><b>dola321: </b><br>
+<span>其实算字符串里有多少个211和多少个112更直接吧。</span><br>
+</p><p><b>fuochai: </b><br>
+<span>原来是最近三次，一开始你看成每次投三次了 既然是最近三次 乙胜的话必须前面全是反 否则没有机会 因此乙的单局胜率为\frac{1}{2^2}\sum_{\substack{1\leq i\\}}\frac{1}{2^i} 楼主算的是对的</span><br>
+</p><p><b>Igarashi: </b><br>
+<span> 本帖最后由 Igarashi 于 2019-7-12 00:38 编辑 </span><br>
+<span>我搞懂了</span><br>
+<span>只取决于前两次结果，前两次结果确定了，只要次数足够，那么最终结果已经确定</span><br>
+<span>如果前两次是“反反”，则乙必胜</span><br>
+<span>如果是其他三种结果，则甲必胜</span><br>
+<span>如果想不明白可以画个有限状态机</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-7-12 00:50 编辑 </span><br>
+<span>搞懂的看下主楼红字？甲方案是不是最优了？</span><br>
+<span>我测试下来乙方案改成“正正反”可使胜率变为1:2反超甲(原3:1)</span><br>
+<span>求 甲:乙= 1:3 的方案</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>HYNDコン 发表于 2019-7-12 00:36</span><br>
+<span>搞懂的看下主楼红字？甲方案是不是最优了？</span><br>
+<span>前两次结果能决定最终结果</span><br>
+<span>序列问题可以画个有限状态机</span><br>
+<span>你这个方案正好把8个状态分成了两个不连通的部分</span><br>
+</p><p><b>daidasday: </b><br>
+<span> 本帖最后由 daidasday 于 2019-7-12 00:48 编辑 </span><br>
+<span>scrolli 发表于 2019-7-12 00:15</span><br>
+<span>记得以前见过个比较直观的解释：正反反出了个正正之后，但因为他本来就要从正开始的，所以可以直接在第二次 ...</span><br>
+<span>这道题还真的很有意思</span><br>
+<span>不过我觉得可以数学证明</span><br>
+<span>首先开三次来看</span><br>
+<span>一共有8种结果，分开计算概率</span><br>
+<span>假设1正0反</span><br>
+<span>111后续出现甲的概率是1/4</span><br>
+<span>110 后续出现甲的概率是1/2</span><br>
+<span>101 后续甲胜1/4</span><br>
+<span>100 这种就是甲胜</span><br>
+<span>011 后续甲胜1/4</span><br>
+<span>010 后续甲概率1/2</span><br>
+<span>001 乙胜</span><br>
+<span>000 后续乙胜1/2</span><br>
+<span>上面结果加一起</span><br>
+<span>甲胜概率，11/32</span><br>
+<span>乙胜概率，6/32</span><br>
+<span>甲的胜率比乙的，11比6这是丢5次的结果</span><br>
+<span>其实很明显了，理论上，丢的次数越多，甲胜率越高，甲综合胜率多少，好像挺难算的</span><br>
+</p><p><b>daidasday: </b><br>
+<span>精确概率好像要用微积分</span><br>
+</p><p><b>liujn6: </b><br>
+<span>狂赌之渊的漫画你们有谁看过吗，里面就有和这题一模一样的赌博</span><br>
+</p><p><b>lvoicem: </b><br>
+<span> 本帖最后由 lvoicem 于 2019-7-12 00:50 编辑 </span><br>
+<span>上面也算了...</span><br>
+<span>印象里高中的时候很多这种难度的练习题啊</span><br>
+<span>虽然确实经常错</span><br>
+<span>仔细想了下好像不是这样做的...</span><br>
+</p><p><b>thorlay: </b><br>
+<span> 本帖最后由 thorlay 于 2019-7-12 00:51 编辑 </span><br>
+<span>无限序列中，这两种出现几率相同。但是正反反正 甲赢，反反正反反 还是有几率甲赢。</span><br>
+</p><p><b>yugure: </b><br>
+<span>想了下确实是前两次状态决定结果</span><br>
+<span>正正出反则指向正反</span><br>
+<span>正反出反则甲胜，出正则指向反正</span><br>
+<span>反正出正参考正正，出反参考正反</span><br>
+<span>因此前三种只可能是甲胜</span><br>
+<span>反反那就只有乙胜一种情况</span><br>
+<span>排除全甲全乙极端情况，那就是甲：乙=3：1</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>画图之后感觉乙高啊</span><br>
+<span>但是一算就发现以前的知识忘光了</span><br>
+</p><p><b>重新做人: </b><br>
+<span>第一次扔出正，甲就肯定赢了，后面怎么扔都一样</span><br>
+<span>第一次扔出反，取决于第二次扔，还是出反就乙赢，正的话还是甲赢</span><br>
+<span>胜率甲3/4，乙1/4，这样解释最简单点吧</span><br>
+</p><p><b>Igarashi: </b><br>
+<span> 本帖最后由 Igarashi 于 2019-7-12 01:05 编辑 </span><br>
+<span>画了一下有限状态机</span><br>
+<span>当100和001代表获胜时，这两个状态就不会有次状态了，移除对应箭头</span><br>
+<span>结果显而易见</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span> 本帖最后由 HYNDコン 于 2019-7-12 01:11 编辑 </span><br>
+<span>有误编辑</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>HYNDコン 发表于 2019-7-12 01:08</span><br>
+<span>乙反超甲的1:3方案是“正正反“。很意外，我第一感觉是乙想要1:3大比分反超，第一个必须选择反，然而“正正 ...</span><br>
+<span>你照着楼上的有限状态机，把你要设为获胜的状态的两个次状态箭头删掉</span><br>
+</p><p><b>ebuw: </b><br>
+<span>HYNDコン 发表于 2019-7-12 00:25</span><br>
+<span>感谢提出异议。请问你认为哪一行有问题，我看看。</span><br>
+<span>你如果测量20000次投掷里，甲乙双方各自获胜的次数，其实应该是近乎相等的。</span><br>
+<span>但你代码的意思是，20000次投掷，谁获胜多，谁就判定全胜。然后这样比较10000次。</span><br>
+<span>于是你这个结果其实是跟“20000次投掷里，谁最先获胜几率大”更加相关。而不是原题的意思了。</span><br>
+<span>谁最先获胜几率大呢？无论前两次是抛出正正、正反、反正，甲都在概率上领先，而乙领先只有反反。</span><br>
+<span>所以是3：1</span><br>
+</p><p><b>hunterkiller: </b><br>
+<span>HYNDコン 发表于 2019-7-12 01:08</span><br>
+<span>有误编辑</span><br>
+<span>正正反 对 正反反 只有2:1</span><br>
+</p><p><b>忧郁的lc: </b><br>
+<span>搜了下，这里有详解：</span><br>
+<span>http://www.matrix67.com/blog/archives/6015</span><br>
+<span>简单贴下结论</span><br>
+<span>如果 A 选的是        那么 B 应该选        两人的胜率之比</span><br>
+<span>000        100        1:7</span><br>
+<span>001        100        1:3</span><br>
+<span>010        001        1:2</span><br>
+<span>011        001        1:2</span><br>
+<span>100        110        1:2</span><br>
+<span>101        110        1:2</span><br>
+<span>110        011        1:3</span><br>
+<span>111        011        1:7</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>Igarashi 发表于 2019-7-12 01:10</span><br>
+<span>你照着楼上的有限状态机，把你要设为获胜的状态的两个次状态箭头删掉</span><br>
+<span>100优势很大啊，遏制100的只有110，胜率是100的一倍。其他的都不如110。</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>ebuw 发表于 2019-7-12 01:30</span><br>
+<span>你如果测量20000次投掷里，甲乙双方各自获胜的次数，其实应该是近乎相等的。</span><br>
+<span>但你代码的意思是，20000次 ...</span><br>
+<span>你没看懂代码，20000次投掷是为了保证次数多，尽量避免出现平局，只要达成了某个获胜条件，那么Exit For就退出那个两万次的循环</span><br>
+<span>下面那个10000次的循环才是主函数的，每次调用函数是独立的</span><br>
+</p><p><b>ebuw: </b><br>
+<span>Igarashi 发表于 2019-7-12 01:35</span><br>
+<span>你没看懂代码，20000次投掷是为了保证次数多，尽量避免出现平局，只要达成了某个获胜条件，那么Exit For ...</span><br>
+<span>不是吧。他一局就是20000次投掷看谁赢啊。赢一次也是赢啊。</span><br>
+</p><p><b>Igarashi: </b><br>
+<span>ebuw 发表于 2019-7-12 01:39</span><br>
+<span>不是吧。他一局就是20000次投掷看谁赢啊。赢一次也是赢啊。</span><br>
+<span>他是一局最多进行两万次投掷，只要达成了一方胜利条件这局就结束啊</span><br>
+</p><p><b>ebuw: </b><br>
+<span>Igarashi 发表于 2019-7-12 01:35</span><br>
+<span>你没看懂代码，20000次投掷是为了保证次数多，尽量避免出现平局，只要达成了某个获胜条件，那么Exit For ...</span><br>
+<span>如果是投掷两万次然后记录，每次都比较之前三次是否有“正反反”“反反正”这个组合出现，然后记录下来，</span><br>
+<span>这才是原题意思的代码吧。肯定不是这么写的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846014[0-50]</guid>
+    </item>
+  </channel>
+</rss>

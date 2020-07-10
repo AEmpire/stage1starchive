@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>微星B450主板重启后就进不了系统？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>微星B450主板重启后就进不了系统？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:26:09 +0000</lastBuildDate>
+    <item>
+      <title>微星B450主板重启后就进不了系统？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861876-1-1.html</link>
+      <description>微星B450主板重启后就进不了系统？&#13;
+上的PDD的车，装机后正常点亮，就是不能重启。
+&#13;
+一重启就进不了系统，主板上CPU灯常亮。
+&#13;
+应该不是翻车，好像是微星这个板的常见问题。百度了一下有好多人提出，但搜不到解决办法。
+&#13;
+硬件目前就装了微星B450M PRO +3600
+&#13;
+海康的M2 硬盘
+&#13;
+威刚8G普条 2666
+&#13;
+外加一张可以正常使用的老显卡。
+&#13;
+系统也装好了，可以正常开机，BISO已更新到最新。
+&#13;
+就是没法重启，如果要重启只能完全断电一段时间再开。
+&#13;
+请教下坛友是否有解决办法？</description>
+      <content:encoded><![CDATA[<p><b>麦迪是条狗: </b><br>
+<span>微星B450主板重启后就进不了系统？</span><br>
+<span>上的PDD的车，装机后正常点亮，就是不能重启。</span><br>
+<span>一重启就进不了系统，主板上CPU灯常亮。</span><br>
+<span>应该不是翻车，好像是微星这个板的常见问题。百度了一下有好多人提出，但搜不到解决办法。</span><br>
+<span>硬件目前就装了微星B450M PRO +3600</span><br>
+<span>海康的M2 硬盘</span><br>
+<span>威刚8G普条 2666</span><br>
+<span>外加一张可以正常使用的老显卡。</span><br>
+<span>系统也装好了，可以正常开机，BISO已更新到最新。</span><br>
+<span>就是没法重启，如果要重启只能完全断电一段时间再开。</span><br>
+<span>请教下坛友是否有解决办法？</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> 本帖最后由 gofbayrf 于 2019-10-28 14:49 编辑 </span><br>
+<span> 不要用最近ABBA的BIOS 用7月第一版支持ZEN2的BIOS   應該是休眠也會睡死的</span><br>
+</p><p><b>两个路人: </b><br>
+<span>https://forums.tomshardware.com/threads/ryzen-5-3600-wont-restart-with-msi-b450-gaming-plus-change-the-mobo-to-newer-x570.3517900/你说这种重启直接CPU自检就不过的？</span><br>
+</p><p><b>麦迪是条狗: </b><br>
+<span>两个路人 发表于 2019-10-28 14:52</span><br>
+<span>https://forums.tomshardware.com/threads/ryzen-5-3600-wont-restart-with-msi-b450-gaming-plus-change-t ...</span><br>
+<span>开机后没反应，显示器黑屏。</span><br>
+<span>主板上CPU故障灯一直常亮，就是CPU自检不过的意思吗？</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>老实讲，微星这款吹爆了 BUG很多，我怀疑很多人恰了饭...</span><br>
+<span>开机起飞，对SSD的兼容性问题之类的。</span><br>
+<span>之前用SN750睡眠居然会掉盘，网上查了 只有微星的会这样</span><br>
+</p><p><b>麦迪是条狗: </b><br>
+<span>gofbayrf 发表于 2019-10-28 14:45</span><br>
+<span>不要用最近ABBA的BIOS 用7月第一版支持ZEN2的BIOS   應該是休眠也會睡死的 ...</span><br>
+<span>哭了，已经升级了，没法降级吧。</span><br>
+<span>而且出厂的biso也已经是八月份的版本的了。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>麦迪是条狗 发表于 2019-10-28 15:05</span><br>
+<span>开机后没反应，显示器黑屏。</span><br>
+<span>主板上CPU故障灯一直常亮，就是CPU自检不过的意思吗？ ...</span><br>
+<span>翻说明书，看简易debug灯指示信息意义</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>cpu灯亮就是内存过不了，你这个考虑内存兼容性问题吧，刷旧的bios一般都是可以的</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> 本帖最后由 gofbayrf 于 2019-10-28 16:23 编辑 </span><br>
+<span>麦迪是条狗 发表于 2019-10-28 15:45</span><br>
+<span>哭了，已经升级了，没法降级吧。</span><br>
+<span>而且出厂的biso也已经是八月份的版本的了。 ...</span><br>
+<span>隨便升降的 我買的戰斧MAX問題體現在 第一第二版BIOS (7月)屁事沒有 就是待機SOC功耗稍高25~30W   主頻不達標(低載 4.1高載3.975)9月后的BIOS (ABB,ABBA) 開機沒聲卡要等小概率隨機黑屏   睡必死 重啟必死   待機SOC功耗15~25   低載主頻4.2高載3.975</span><br>
+<span>微星已經進了我的黑名單了(放棄折騰等11月的1.0.04)</span><br>
+</p><p><b>你可以试试: </b><br>
+<span>我也被微星坑怕了，主板有问题基本等于整部机重新组一次</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>muyefytte 发表于 2019-10-28 15:31</span><br>
+<span>老实讲，微星这款吹爆了 BUG很多，我怀疑很多人恰了饭...</span><br>
+<span>开机起飞，对SSD的兼容性问题之类的。</span><br>
+<span>你确定么，PRO我就没见到有什么人选</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>麦迪是条狗 发表于 2019-10-28 15:45</span><br>
+<span>哭了，已经升级了，没法降级吧。</span><br>
+<span>而且出厂的biso也已经是八月份的版本的了。 ...</span><br>
+<span>这个主板为森么不能降级，没有M-Flash吗</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>更新完BIOS 重置主板，重装amd chipset</span><br>
+</p><p><b>midearth: </b><br>
+<span>这个3代刚上市时隔壁nga微星林总有发过帖，是3代U的问题，无法热重启，开机自检不过。不知道楼主是不是这个原因。（反正我的也是重启不了）</span><br>
+</p><p><b>j0n2: </b><br>
+<span>为什么不买迫击炮要买pro</span><br>
+</p><p><b>muyefytte: </b><br>
+<span>EraserKing 发表于 2019-10-28 16:56</span><br>
+<span>你确定么，PRO我就没见到有什么人选</span><br>
+<span>看差，我的是迫击炮 max,不过 问题就是客观存在</span><br>
+</p><p><b>thegodra: </b><br>
+<span>现在主板只有四间大厂，这么一搞，MSI都不敢用了</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>常用的迫击炮b360m有没有什么隐患啊</span><br>
+<span>准备用十全火神。。</span><br>
+</p><p><b>麦迪是条狗: </b><br>
+<span>感谢各位指导。</span><br>
+<span>滚回了7月份的BIOS，暂时没问题了。</span><br>
+<span>我也是眼挫，贪便宜选了这块板，先用着吧。</span><br>
+</p><p><b>midearth: </b><br>
+<span>所以b450还有什么推荐的？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>汝者: </b><br>
+<span>麦迪是条狗 发表于 2019-10-28 15:45</span><br>
+<span>哭了，已经升级了，没法降级吧。</span><br>
+<span>而且出厂的biso也已经是八月份的版本的了。 ...</span><br>
+<span>msi bios随便升降</span><br>
+<span>我的b450 max倒是没啥问题 除了内存超频出错不能3次复位必须清电</span><br>
+</p><p><b>evooil: </b><br>
+<span>我也是3600x 加微星b450m迫击炮</span><br>
+<span>开机起飞 频繁蓝屏 dota2闪退 </span><br>
+</p><p><b>两个路人: </b><br>
+<span>说随便升降的大概是忘了Zen2刚出来那一阵刷黑屏的了</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>遇到过一次，我把nvme硬盘拔了就好了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>midearth 发表于 2019-10-28 20:24</span><br>
+<span>所以b450还有什么推荐的？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+<span>打人硕 tuf pro</span><br>
+<span>不过接口丐中丐了</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>我的b450f自从到了1003abba之后就只有开机显卡满速几秒和待机温度高的缺点了（这俩还是amd的锅），感觉打人的b450其实还行？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861876[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>记一次奇怪的蓝牙故障</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>记一次奇怪的蓝牙故障</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:11:04 +0000</lastBuildDate>
+    <item>
+      <title>记一次奇怪的蓝牙故障[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913979-1-1.html</link>
+      <description>记一次奇怪的蓝牙故障&#13;
+新买的华擎z370m-itx/ac的主板，自带wifi和蓝牙，集成在主板上，需要接天线。装了win10 1909后，能自动驱动蓝牙。配对了switch pro手柄，接电视打游戏，用了一个星期好好的。但昨天一次重启后，switch pro的蓝灯是一直亮的，可是游戏里不能识别手柄，再按了下手柄home键后蓝灯关闭，win10的蓝牙图标也消失了，设备管理器里蓝牙也不见了，多了个无法识别的usb设备。重装驱动也没用，重启也没用。后来有一次引导到linux命令行，发现不断提示udev error，看来是硬件故障了？
+
+死马当活马医，我把机箱电源和网线拔了，搬到书桌上，重新拧下天线，再拧上，重启系统后，蓝牙又正常了！
+
+重新搬回电视机旁，接上网线后，一切又正常了。
+
+这是什么奇怪的事情？</description>
+      <content:encoded><![CDATA[<p><b>蓝色的风之精灵: </b><br>
+<span>记一次奇怪的蓝牙故障</span><br>
+<span>新买的华擎z370m-itx/ac的主板，自带wifi和蓝牙，集成在主板上，需要接天线。装了win10 1909后，能自动驱动蓝牙。配对了switch pro手柄，接电视打游戏，用了一个星期好好的。但昨天一次重启后，switch pro的蓝灯是一直亮的，可是游戏里不能识别手柄，再按了下手柄home键后蓝灯关闭，win10的蓝牙图标也消失了，设备管理器里蓝牙也不见了，多了个无法识别的usb设备。重装驱动也没用，重启也没用。后来有一次引导到linux命令行，发现不断提示udev error，看来是硬件故障了？</span><br>
+<span>死马当活马医，我把机箱电源和网线拔了，搬到书桌上，重新拧下天线，再拧上，重启系统后，蓝牙又正常了！</span><br>
+<span>重新搬回电视机旁，接上网线后，一切又正常了。</span><br>
+<span>这是什么奇怪的事情？</span><br>
+</p><p><b>ECly: </b><br>
+<span>我也是昨天更了系统蓝牙设备直接就没了，看了你的帖子拔了再插就好了。</span><br>
+<span>阿三真有你的啊，阿三</span><br>
+<span>— from Xiaomi MI 8 Lite, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>wuliaozheX: </b><br>
+<span>win10每次版本更新我都去设备管理器把蓝牙设备卸载重新安装</span><br>
+<span>笔记本则是犯过更新后报硬件供电异常蓝屏，同样重装网卡解决</span><br>
+</p><p><b>ECly: </b><br>
+<span>wuliaozheX 发表于 2020-2-15 22:31</span><br>
+<span>win10每次版本更新我都去设备管理器把蓝牙设备卸载重新安装</span><br>
+<span>笔记本则是犯过更新后报硬件供电异常蓝屏，同样 ...</span><br>
+<span>这次比较牛逼的是设备管理器里直接没了蓝牙，任何手段都搜不到设备…就很厉害</span><br>
+<span>— from Xiaomi MI 8 Lite, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>ECly 发表于 2020-2-15 22:05</span><br>
+<span>我也是昨天更了系统蓝牙设备直接就没了，看了你的帖子拔了再插就好了。</span><br>
+<span>阿三真有你的啊，阿三</span><br>
+<span>其实这个有可能不是微软的锅，我的灵感来源也是看了有人在网上说，可能是静电引起的，把笔记本拿去水管处放电就能修复。但是台式机没那么容易搬动，只能尝试拆天线了</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ECly: </b><br>
+<span>蓝色的风之精灵 发表于 2020-2-16 09:29</span><br>
+<span>其实这个有可能不是微软的锅，我的灵感来源也是看了有人在网上说，可能是静电引起的，把笔记本拿去水管处 ...</span><br>
+<span>主要是这是我新买两天的电脑，到货没几个小时更晚系统蓝牙就没了，不大应该是静电的问题</span><br>
+<span>— from Xiaomi MI 8 Lite, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>Hibino: </b><br>
+<span>bios里面电源管理有没有打开erp？我主板上的intel无线+蓝牙如果开了erp的话会不见，非常令人难以理解。。。。。。。</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>Hibino 发表于 2020-2-16 11:08</span><br>
+<span>bios里面电源管理有没有打开erp？我主板上的intel无线+蓝牙如果开了erp的话会不见，非常令人难以理解。。。 ...</span><br>
+<span>erp是啥？我bios什么都没改，重启前好好的，更新重启后蓝牙就没了。</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>miniconmax: </b><br>
+<span>艹，这问题5天前我也遇到了。蓝牙耳机突然就连不上了。</span><br>
+<span>把无线网卡插拔了一下还不恢复。</span><br>
+<span>换了一块其他网卡，蓝牙回来了，导致我一度以为时网卡坏了。</span><br>
+<span>结果再次装回去后恢复了。</span><br>
+</p><p><b>脱氧核糖核酸: </b><br>
+<span>你们用的是 Win10 Pro 版么，Win 10 还是用 LTSC 版比较稳定。</span><br>
+</p><p><b>wuliaozheX: </b><br>
+<span>今天苏菲的AX201蓝牙没了，巨硬你可以的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913979[0-50]</guid>
+    </item>
+  </channel>
+</rss>

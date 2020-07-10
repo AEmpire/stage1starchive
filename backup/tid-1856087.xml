@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10是怎么统计文件和文件夹的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10是怎么统计文件和文件夹的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:03:00 +0000</lastBuildDate>
+    <item>
+      <title>win10是怎么统计文件和文件夹的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856087-1-1.html</link>
+      <description>win10是怎么统计文件和文件夹的？&#13;
+我有看过的动画不删的习惯，所以会定期移动文件。这几天发现移动后文件夹大小统计的错误，像图片里这样。一张是直接右击文件夹查看属性，另一张是在文件夹里全选右击查看属性。大小和包含文件数目都不一样。https://i.loli.net/2019/08/26/QktTW8KrHXyfjxe.jpghttps://i.loli.net/2019/08/26/NC935L62bnJdjqG.jpg然后我重命名了文件夹，文件数和大小还是不对，但是大概确定是路径过长的问题。https://i.loli.net/2019/08/26/d52sIoKky3VnDcp.jpg之后我把文件夹名称改成了一个字符，像下面这张图这样。https://i.loli.net/2019/08/26/gVZWSfBtkKFNyjQ.jpg我以为这只是路径过长的部分文件没有统计，路径长度没有超长的文件被统计，所以会出现文件数量和大小统计错误。但是事情好像并不是这样的。这是另一个文件夹，现在显示的大小是325GB，文件名如图，为了方便称它为文件夹X。https://i.loli.net/2019/08/26/TqAcnvdwXplPbJ4.jpg我找了一个文件夹名与文件名很长的文件夹，姑且称为文件夹A。文件夹A里文件的总大小约11.9GB。现在把这个文件夹A放到了上图的文件夹X里，再右击查看文件夹X的属性，变成了下面这样。https://i.loli.net/2019/08/26/esgP9jcICOXYH3h.jpg与此同时，文件夹A右击属性的统计大小变成了5.69GB。 现在我有两个疑问：1.如果路径过长的文件不被统计，那么文件夹A统计数据变小我能理解，为什么原本325GB的文件夹X放入文件夹A后统计出来大小会变成91.5GB？文件夹X原先被统计的文件应该还被统计才对，文件夹大小为什么会变小？2.如果出错的原因是路径过长，为什么在我移动和重命名文件夹的时候，系统不会阻止我的操作？ </description>
+      <content:encoded><![CDATA[<p><b>99mxw: </b><br>
+<span>win10是怎么统计文件和文件夹的？</span><br>
+<span>我有看过的动画不删的习惯，所以会定期移动文件。这几天发现移动后文件夹大小统计的错误，像图片里这样。一张是直接右击文件夹查看属性，另一张是在文件夹里全选右击查看属性。大小和包含文件数目都不一样。https://i.loli.net/2019/08/26/QktTW8KrHXyfjxe.jpghttps://i.loli.net/2019/08/26/NC935L62bnJdjqG.jpg然后我重命名了文件夹，文件数和大小还是不对，但是大概确定是路径过长的问题。https://i.loli.net/2019/08/26/d52sIoKky3VnDcp.jpg之后我把文件夹名称改成了一个字符，像下面这张图这样。https://i.loli.net/2019/08/26/gVZWSfBtkKFNyjQ.jpg我以为这只是路径过长的部分文件没有统计，路径长度没有超长的文件被统计，所以会出现文件数量和大小统计错误。但是事情好像并不是这样的。这是另一个文件夹，现在显示的大小是325GB，文件名如图，为了方便称它为文件夹X。https://i.loli.net/2019/08/26/TqAcnvdwXplPbJ4.jpg我找了一个文件夹名与文件名很长的文件夹，姑且称为文件夹A。文件夹A里文件的总大小约11.9GB。现在把这个文件夹A放到了上图的文件夹X里，再右击查看文件夹X的属性，变成了下面这样。https://i.loli.net/2019/08/26/esgP9jcICOXYH3h.jpg与此同时，文件夹A右击属性的统计大小变成了5.69GB。 现在我有两个疑问：1.如果路径过长的文件不被统计，那么文件夹A统计数据变小我能理解，为什么原本325GB的文件夹X放入文件夹A后统计出来大小会变成91.5GB？文件夹X原先被统计的文件应该还被统计才对，文件夹大小为什么会变小？2.如果出错的原因是路径过长，为什么在我移动和重命名文件夹的时候，系统不会阻止我的操作？ </span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>变成91.5G后有没有文件不见了？</span><br>
+</p><p><b>99mxw: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-26 22:39</span><br>
+<span>变成91.5G后有没有文件不见了？</span><br>
+<span>没有，把文件挪出来又会变回325G</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>你先试试查下磁盘错误吧</span><br>
+</p><p><b>99mxw: </b><br>
+<span>精钢魔像 发表于 2019-8-26 23:43</span><br>
+<span>你先试试查下磁盘错误吧</span><br>
+<span>我是两张硬盘互拷的，两边显示一致，应该不是硬盘错误吧</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>Windows的文件夹属性里的这个统计是异步的, 证据就是你点开一个很大的文件夹属性, 上面的数字会往慢慢往上跳.</span><br>
+<span>基于这个已知事实, 再根据你说的现象, 我猜测这个bug的成因是这个遍历求和的过程会在某一个文件或文件夹上崩溃, (然后这里大概有一个暴力异常处理导致你不知道它崩了), 统计过程中止, 于是显示出的个数和大小都只是到此为止的值.</span><br>
+<span>看这个文件夹的属性和看它的所有子的属性会不同, 我猜测是因为这两种方式遍历的顺序不同.</span><br>
+<span>我建议你chkdsk一次, 附带磁盘表面检查的那种.</span><br>
+</p><p><b>99mxw: </b><br>
+<span>決戦型美羽 发表于 2019-8-26 23:50</span><br>
+<span>Windows的文件夹属性里的这个统计是异步的, 证据就是你点开一个很大的文件夹属性, 上面的数字会往慢慢往上 ...</span><br>
+<span>我又试了一下，在根目录建了文件夹，内容如下图</span><br>
+<img src="https://i.loli.net/2019/08/27/2qFocfzpsuTAJNn.jpg" title="https://i.loli.net/2019/08/27/2qFocfzpsuTAJNn.jpg"><br>
+<span>图里两个文件夹的名字都是128个a，三个txt大小都是1字节</span><br>
+<span>再查看最外层的文件夹，结果是这样</span><br>
+<img src="https://i.loli.net/2019/08/27/klNcsYdfmuLvFDW.jpg" title="https://i.loli.net/2019/08/27/klNcsYdfmuLvFDW.jpg"><br>
+<span>为什么都建议检查磁盘呢，难道会对磁盘造成损伤吗</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>你是说你只建了两个文件夹三个文件就显示257个文件和257个文件夹?</span><br>
+<span>不是"会对磁盘造成损伤", 而是这可能是"磁盘有损伤了的表现".</span><br>
+</p><p><b>99mxw: </b><br>
+<span> 本帖最后由 99mxw 于 2019-8-27 00:26 编辑 </span><br>
+<span>決戦型美羽 发表于 2019-8-27 00:15</span><br>
+<span>你是说你只建了两个文件夹三个文件就显示257个文件和257个文件夹?</span><br>
+<span>不是"会对磁盘造成损伤", 而是这可能是" ...</span><br>
+<span>是的，而且进到文件夹里面再看属相是正常的。</span><br>
+<span>第二个文件夹可以在资源管理器里进入，cd会报错。</span><br>
+<span>顶楼在两张硬盘上都出现而且文件一样时情况一样，上上楼是我刚在另一张硬盘上试出来的。</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>我这样建了三层之后, 属性也是257个文件夹, 逗, 不过并没有不能cd进去的问题.</span><br>
+<span>检查磁盘没问题的话, 你找个第三方工具来统计吧, 比如windirstat.</span><br>
+</p><p><b>starash: </b><br>
+<span>LTSC可重现, 看来是个feature了. </span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>你要小心了，windows有路径长度限制，路径过长甚至无法删除子文件</span><br>
+</p><p><b>starash: </b><br>
+<span>すぴぱら 发表于 2019-8-27 10:38</span><br>
+<span>你要小心了，windows有路径长度限制，路径过长甚至无法删除子文件</span><br>
+<span>目录映射为卷啊. 有啥不能删的. </span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>starash 发表于 2019-8-27 10:50</span><br>
+<span>目录映射为卷啊. 有啥不能删的.</span><br>
+<span>可以做一个实验，用explorer建一个目录："aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"，差不多有255个字就行</span><br>
+<span>然后用explorer进到最深层，右键建一个 新建文本文档.txt，按下ctrl+c复制一个。回到盘符根目录，用shift+del删这个目录，你会发现提示找不到文件，用win32 api删除，会提示error 206文件名过长。</span><br>
+<span>阿三程序员出了名的管杀不管埋</span><br>
+</p><p><b>starash: </b><br>
+<span>すぴぱら 发表于 2019-8-27 11:31</span><br>
+<span>可以做一个实验，用explorer建一个目录："aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ...</span><br>
+<span>我前面提了有目录映射为卷的方法, subst命令</span><br>
+<span>把浅一点可以访问的目录映射为卷, 下面的子目录就可以顺利删除了. </span><br>
+<span>当然你说的直接不能删是存在的. 而且从win nt直到现在... </span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>すぴぱら 发表于 2019-8-27 11:31</span><br>
+<span>可以做一个实验，用explorer建一个目录："aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ...</span><br>
+<span>从最内层改名删掉开始。</span><br>
+<span>屎更新之后会有个windows.old文件夹，最深层是个文件名最后是.的空文件夹，tc都删不掉。改名之后就可以了。</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>99mxw: </b><br>
+<span>決戦型美羽 发表于 2019-8-27 00:36</span><br>
+<span>我这样建了三层之后, 属性也是257个文件夹, 逗, 不过并没有不能cd进去的问题.</span><br>
+<span>检查磁盘没问题的话, 你找 ...</span><br>
+<img src="https://i.loli.net/2019/08/27/8Z2ow71cgXrF9az.jpg" title="https://i.loli.net/2019/08/27/8Z2ow71cgXrF9az.jpg"><br>
+<span>会不会是因为你没有建文件，所以能cd进去呢？</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>すぴぱら 发表于 2019-8-27 11:31</span><br>
+<span>可以做一个实验，用explorer建一个目录："aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ...</span><br>
+<span>用api报文件名过长是因为你用法不对</span><br>
+<span>https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file#maximum-path-length-limitation</span><br>
+</p><p><b>決戦型美羽: </b><br>
+<span>99mxw 发表于 2019-8-27 13:47</span><br>
+<span>会不会是因为你没有建文件，所以能cd进去呢？</span><br>
+<span>没问题, 在每层目录内都建了两个新文件, cd正常.</span><br>
+<span>但是第二层目录内右键新建里面只剩文件夹一项了, copy过去也出错, 我是用命令行创建的文件.</span><br>
+<span>https://betanews.com/2016/05/29/long-paths-windows-10/</span><br>
+<span>你试试这个呢.</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 決戦型美羽 发表于 2019-8-27 14:05 引用:すぴぱら 发表于 2019-8-27 11:31 可以做一个实验，用explorer建一个目录："aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ... 用api报文件名过长是因为你用法不对https://docs.microsoft.com/en-us ... h-length-limitation </span><br>
+<span>阿三写explorer就是那么写的</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856087[0-50]</guid>
+    </item>
+  </channel>
+</rss>

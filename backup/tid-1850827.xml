@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10待机一段时间就没反应了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10待机一段时间就没反应了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:35:49 +0000</lastBuildDate>
+    <item>
+      <title>win10待机一段时间就没反应了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850827-1-1.html</link>
+      <description>win10待机一段时间就没反应了&#13;
+你们有没有遇到过？睡一觉起来，显示器灯就红了， 数字键盘灯写也没反应，主机电源灯亮着，没辙，只好重启
+&#13;
+我查了下，显示器是设置成20分钟后关闭，硬盘设置成永不关闭，是不是硬件问题，还是win10的锅
+&#13;
+win10的锅，我最近重新win10后被这bug折腾惨了，试了网上各种方法，貌似有改善，但好像间歇性还是死机
+&#13;
+目前遇到一个类似，泥潭有人也遇到过吗，怎么解决</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>win10待机一段时间就没反应了</span><br>
+<span>你们有没有遇到过？睡一觉起来，显示器灯就红了， 数字键盘灯写也没反应，主机电源灯亮着，没辙，只好重启</span><br>
+<span>我查了下，显示器是设置成20分钟后关闭，硬盘设置成永不关闭，是不是硬件问题，还是win10的锅</span><br>
+<span>win10的锅，我最近重新win10后被这bug折腾惨了，试了网上各种方法，貌似有改善，但好像间歇性还是死机</span><br>
+<span>目前遇到一个类似，泥潭有人也遇到过吗，怎么解决</span><br>
+</p><p><b>john: </b><br>
+<span>遇到过，内存问题，换内存/加压/降频都能解决，虽然Win10很屎但不要把什么屎盆子都扣上去</span><br>
+</p><p><b>F4keTear: </b><br>
+<span>我没遇见过你这种，但是个人经验是大多数电源问题都可以通过关闭“快速启动”解决</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>遇到过，内存加了点电压解决了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>面子破怎么加电压？我是1803之前的老版BUG10有这问题，不知道哪次更新忽然好了</span><br>
+</p><p><b>linjia: </b><br>
+<span>看了这个帖子，https://www.chiphell.com/thread-1876788-1-1.html</span><br>
+<span>好像2个可能性</span><br>
+<span>电压 bios， 莫非是我前几天更新bios的锅</span><br>
+<span>发表于 2018-7-4 08:37 | 只看该作者</span><br>
+<span>待机久了soc电压自动下调了，跑高频内存会导致自检失败。soc手动1.1-1.15</span><br>
+<span> 2018-7-4 09:39 | 只看该作者</span><br>
+<span>BIOS和电源管理里面的快速启动</span><br>
+</p><p><b>john: </b><br>
+<span>linjia 发表于 2019-8-2 17:29</span><br>
+<span>看了这个帖子，https://www.chiphell.com/thread-1876788-1-1.html</span><br>
+<span>好像2个可能性</span><br>
+<span>我反正每次都跟BIOS有关，感觉内存稳定性越更新BIOS越低，讲起来每次都写增强内存兼容性</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>john 发表于 2019-8-2 17:54</span><br>
+<span>我反正每次都跟BIOS有关，感觉内存稳定性越更新BIOS越低，讲起来每次都写增强内存兼容性 ...</span><br>
+<span>我猜测是一种老化, 如果是更新BIOS导致, 退回去就能验证了.</span><br>
+</p><p><b>linjia: </b><br>
+<span>JimmyZ 发表于 2019-8-2 17:58</span><br>
+<span>我猜测是一种老化, 如果是更新BIOS导致, 退回去就能验证了.</span><br>
+<span>bios还能往回刷的吗， 我回去试试</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>linjia 发表于 2019-8-2 18:13</span><br>
+<span>bios还能往回刷的吗， 我回去试试</span><br>
+<span>很少有做这种限制的, 又不是PS还怕你降级破解.</span><br>
+</p><p><b>linjia: </b><br>
+<span> 本帖最后由 linjia 于 2019-8-2 20:25 编辑 </span><br>
+<span>今晚下班回来故障又出现了， 锁屏界面卡在下午15：02分， 然后鼠标不动，只能重启</span><br>
+<span>去官网下载个较早版本驱动</span><br>
+<span>https://downloadcenter.intel.com/zh-cn/download/28801/BIOS-BECFL357-86A-</span><br>
+</p><p><b>linjia: </b><br>
+<span>JimmyZ 发表于 2019-8-2 18:17</span><br>
+<span>很少有做这种限制的, 又不是PS还怕你降级破解.</span><br>
+<span>真被你说对了</span><br>
+</p><p><b>Cray: </b><br>
+<span>华擎特定版本后就不能降级BIOS，</span><br>
+<span>----发送自 Sony H8296,Android 9</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>linjia 发表于 2019-8-2 20:23</span><br>
+<span>真被你说对了</span><br>
+<span>我这是给自己立了一个旗吗... 还可以不用Windows工具, 解开放在根目录然后用UEFI内置的升级工具, 也许能绕开.</span><br>
+</p><p><b>linjia: </b><br>
+<img src="https://imgsa.baidu.com/forum/w%3D580/sign=0ec7d7481bce36d3a20483380af23a24/955ec2eb15ce36d3804ba8a234f33a87eb50b1c5.jpg" title="https://imgsa.baidu.com/forum/w%3D580/sign=0ec7d7481bce36d3a20483380af23a24/955ec2eb15ce36d3804ba8a234f33a87eb50b1c5.jpg"><br>
+</p><p><b>catxing: </b><br>
+<span>试试看把最近那个微软补丁卸了，据说很妖</span><br>
+</p><p><b>linjia: </b><br>
+<span>catxing 发表于 2019-8-2 21:07</span><br>
+<span>试试看把最近那个微软补丁卸了，据说很妖</span><br>
+<span>2019 年 7 月 26 日—KB4505903（操作系统内部版本 18362.267）</span><br>
+<span>是这个吗，这个我今晚才安装上去</span><br>
+</p><p><b>linjia: </b><br>
+<span>昨晚做了2个操作，然后到今天为止还未复现故障</span><br>
+<span>1. 打开windows10的超级性能模式</span><br>
+<span>2. 下载了一个鼠标自动移动软件，不使用鼠标时候，定时自己随机移动鼠标，即使锁屏也有效</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>linjia 发表于 2019-8-5 20:25</span><br>
+<span>昨晚做了2个操作，然后到今天为止还未复现故障</span><br>
+<span>1. 打开windows10的超级性能模式</span><br>
+<span>2. 下载了一个鼠标自动移动 ...</span><br>
+<span>你干嘛不禁用待机...</span><br>
+</p><p><b>linjia: </b><br>
+<span>JimmyZ 发表于 2019-8-8 01:14</span><br>
+<span>你干嘛不禁用待机...</span><br>
+<span>禁用了，还是会一段时间静置后死机</span><br>
+<span>今天去intel论坛搜索了下，好像有类似情况，也是怀疑bios的锅</span><br>
+<span>https://forums.intel.com/s/question/0D50P00004PmbXVSAZ/nuc8i3beh-sleep-awakening-problems-again?language=zh_CN</span><br>
+<span>It seems to me like the issue mentioned above, is actually a bios bug.</span><br>
+</p><p><b>qazesz: </b><br>
+<span>nuc很挑内存，如果是新机子考虑换内存</span><br>
+</p><p><b>linjia: </b><br>
+<span>qazesz 发表于 2019-8-11 14:25</span><br>
+<span>nuc很挑内存，如果是新机子考虑换内存</span><br>
+<span>买来2个月没问题，好像是更新了一次bios出现的，真该剁手</span><br>
+</p><p><b>linjia: </b><br>
+<span>之前放在那一天，什么也不干，晚上回来死机，桌面有显示，但无法移动鼠标键盘</span><br>
+<span>昨晚写了一个脚本，定时写硬盘，刺激cpu，跑了一天，今晚回来看，没死机，喷了</span><br>
+<span>import time</span><br>
+<span>from time import strftime, localtime</span><br>
+<span>def fabonaci(n):</span><br>
+<span>    if n == 1 or n == 0:</span><br>
+<span>      return 1</span><br>
+<span>    return fabonaci(n-1)+fabonaci(n-2)</span><br>
+<span>while True:</span><br>
+<span>    time.sleep(30)</span><br>
+<span>    res = fabonaci(40)</span><br>
+<span>    fd = open('C:\\Data\\python\\writeharddisk.txt','w')</span><br>
+<span>    fd.write('%d\r\n'%res)</span><br>
+<span>    fd.write(strftime("%Y-%m-%d %H:%M:%S", localtime()))</span><br>
+<span>    fd.close()</span><br>
+</p><p><b>litel: </b><br>
+<span>cpu核心加一点电压吧。</span><br>
+<span>典型的待机自动降压然后挂了</span><br>
+<span>BIOS不可以调可以试试throttlestop，可以软件调。</span><br>
+<span>一般offset模式先加个0.05就够了。或者cpu体质实在太差，static模式固定电压。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>Dell的optiplex 7040 上碰到几个这样的CPU了，空载待机死机，最后Dell换了CPU解决。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>NarwhalC: </b><br>
+<span>一个月关一次机</span><br>
+</p><p><b>linjia: </b><br>
+<span>用客服的方法，拔了跳线帽，bios回退版本，目前暂未发现异常，希望这个问题就此结束</span><br>
+<span>系统启动时间:   2019/8/20, 21:00:11</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850827[0-50]</guid>
+    </item>
+  </channel>
+</rss>

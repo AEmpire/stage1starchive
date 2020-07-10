@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>下个世代奇怪的隔墙反射光照会消失吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>下个世代奇怪的隔墙反射光照会消失吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:23:34 +0000</lastBuildDate>
+    <item>
+      <title>下个世代奇怪的隔墙反射光照会消失吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944134-1-1.html</link>
+      <description>下个世代奇怪的隔墙反射光照会消失吗？&#13;
+看赛博朋克2077的演示，啥都好。就是进入酒吧的时候，地板奇怪的反射了明明被桌子遮挡住的灯发出的光线很出戏。COD的多人图有时候也会出现这种隔空反光的现象。下个世代光追普及的话这种bug会消失吗，还是得等光栅渲染被光追彻底取代时候才会消失</description>
+      <content:encoded><![CDATA[<p><b>泰坦失足: </b><br>
+<span>下个世代奇怪的隔墙反射光照会消失吗？</span><br>
+<span>看赛博朋克2077的演示，啥都好。就是进入酒吧的时候，地板奇怪的反射了明明被桌子遮挡住的灯发出的光线很出戏。COD的多人图有时候也会出现这种隔空反光的现象。下个世代光追普及的话这种bug会消失吗，还是得等光栅渲染被光追彻底取代时候才会消失</span><br>
+</p><p><b>Lunamos: </b><br>
+<span>不知道你具体指的哪部分，不过一般都是因为做屏幕空间反射的结果，属于光栅化的一种hack。如果反射都用光追计算的话这种artifact会消失。</span><br>
+</p><p><b>lostz1991: </b><br>
+<span>Lunamos 发表于 2020-6-26 09:55</span><br>
+<span>不知道你具体指的哪部分，不过一般都是因为做屏幕空间反射的结果，属于光栅化的一种hack。如果反射都用光追 ...</span><br>
+<span>楼主说的明显是直接采样环境贴图做反射的锅啊</span><br>
+<span>SSR只是屏幕没有的就突然消失外加一些薄的物件比较黏着</span><br>
+</p><p><b>66666: </b><br>
+<span>RTAO会减少这种问题，实际上还是光栅化光照计算是2D原因所导致，要想彻底解决只有普及光线追踪</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944134[0-50]</guid>
+    </item>
+  </channel>
+</rss>

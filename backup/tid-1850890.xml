@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教新房网络布置问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教新房网络布置问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:35:26 +0000</lastBuildDate>
+    <item>
+      <title>请教新房网络布置问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850890-1-1.html</link>
+      <description>请教新房网络布置问题&#13;
+家里毛坯三房，客厅留了两根线，三个房间分别留了一根线，简单学习了一下几个帖子，想采用ac+ap方案，我的需求是全屋5g跑满带宽，未来可能上nas，但不知道怎么组网😂
+
+看了两种1tp全家桶，一个啥带ac功能和poe功能的路由器，房间装三个面板。
+
+二是:路由器加千兆交换机加ac控制器加ap面板
+
+请问大家这两个有啥区别啊，我到时候网线的顺序应该是啥样的😂😂才比较科学。</description>
+      <content:encoded><![CDATA[<p><b>什么南北: </b><br>
+<span>请教新房网络布置问题</span><br>
+<span>家里毛坯三房，客厅留了两根线，三个房间分别留了一根线，简单学习了一下几个帖子，想采用ac+ap方案，我的需求是全屋5g跑满带宽，未来可能上nas，但不知道怎么组网😂</span><br>
+<span>看了两种1tp全家桶，一个啥带ac功能和poe功能的路由器，房间装三个面板。</span><br>
+<span>二是:路由器加千兆交换机加ac控制器加ap面板</span><br>
+<span>请问大家这两个有啥区别啊，我到时候网线的顺序应该是啥样的😂😂才比较科学。</span><br>
+</p><p><b>randyyy: </b><br>
+<span>acwifi 上有评测 tp家的ac路由一体机wifi漫游效果没ac和单独路由器好。不过我觉得还是velop更省心点，价格也跟tp家的ac一套差不多</span><br>
+</p><p><b>绯樱月姬: </b><br>
+<span>看你各个设备打算怎么摆了，但光猫接拨号路由器接千兆交换机然后接到各个房子是最基本的，然后各个房间看终端需求放接入层设备</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>绯樱月姬: </b><br>
+<span>前者那设备使用强度一高妥妥扑街，因为就那一个核心设备处理内外网所有负载</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>外挂的纯ac性能好，一般来说支持漫游的协议更多，效果更好，支持跨网段漫游之类的，</span><br>
+<span>一体的一般来说都是最基础的ac，漫游切换甚至都可能是被动的信号切换，L2重上线，不过家用漫游要求也不高，没什么ac性能的需求，主要是一体式的交换性能和路由性能一般都不太行，建议单独外挂poe交换机</span><br>
+</p><p><b>什么南北: </b><br>
+<span>我客厅如果不放ap面板的话在客厅用无线不会受影响吧，如果我路由器在客厅的话😂😂</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>如果需要ss的话，最好还是独立路由，甚至软路由最好。ac可以选交换机一体的，路由一体到没必要，</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>先不要考虑无线，先把网线搞好，有线搞好了无线就好办了。</span><br>
+</p><p><b>什么南北: </b><br>
+<span>纯情小鸭鸭 发表于 2019-8-2 20:30</span><br>
+<span>先不要考虑无线，先把网线搞好，有线搞好了无线就好办了。</span><br>
+<span>已经布完了，就是不知道要买些什么设备，</span><br>
+<span>客厅两根线，三个房间各一根线。客厅买了个双头的传统面板，没用ap面板，应该不影响无线速度吧？</span><br>
+<span>—— 来自 HTC 2Q4D200, Android 8.0.0上的 S1Next-鹅版 v1.3.3.2-play</span><br>
+</p><p><b>bell: </b><br>
+<span>ac poe控制器+3个千兆5G面板要上千了，正常好点路由器5G完全可以覆盖3个房间吧。还不用那么麻烦。</span><br>
+<span>当然你这样路由器只能放客厅，不确定效果如何。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850890[0-50]</guid>
+    </item>
+  </channel>
+</rss>

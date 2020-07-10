@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OBS直播推流如何只输出游戏本身的声音？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>OBS直播推流如何只输出游戏本身的声音？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:06:38 +0000</lastBuildDate>
+    <item>
+      <title>OBS直播推流如何只输出游戏本身的声音？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855490-1-1.html</link>
+      <description>OBS直播推流如何只输出游戏本身的声音？&#13;
+比如同时在听歌，但是不想让歌声在直播中出现</description>
+      <content:encoded><![CDATA[<p><b>Dox: </b><br>
+<span>OBS直播推流如何只输出游戏本身的声音？</span><br>
+<span>比如同时在听歌，但是不想让歌声在直播中出现</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>音乐播放器走asio通道就可以和其他声音隔开了</span><br>
+</p><p><b>Dox: </b><br>
+<span>系统杀手 发表于 2019-8-23 20:05</span><br>
+<span>音乐播放器走asio通道就可以和其他声音隔开了</span><br>
+<span>我说音乐播放器只是举个例子，包括除游戏本身声音之外的所有的其它声音</span><br>
+<span>现在直播输出的画面虽然仅限游戏的，但是声音却是全部也就是我自己能听到的声音，这不合理啊，但是我又没找到菜单里要怎么设置</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>设置音频设备</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>使用asio link pro做虚拟调音台即可</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>紧那罗: </b><br>
+<span>我是装voice meter banana 把游戏声音单独做一路分出来</span><br>
+</p><p><b>Dox: </b><br>
+<span>依然荏苒 发表于 2019-8-23 20:29</span><br>
+<span>设置音频设备</span><br>
+<span>这个要怎么设呢？https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=605577&size=300x300&key=ef60d389895821fa&nocache=yes&type=fixnone</span><br>
+</p><p><b>Dox: </b><br>
+<span>有没有不用第三方软件能做到的办法呢，感觉obs这么多年了应该发展很成熟了啊，不应该还有这样的缺陷吧</span><br>
+</p><p><b>qwased: </b><br>
+<span>不能，系统里面输出direct sound都是混一起了的，当然没法分别捕获</span><br>
+</p><p><b>拍不到脑袋: </b><br>
+<span>realtek声卡设置里面有一项，可以把前后音频插孔分开播放不同的音频流，然后你在游戏里面选用新的2nd output输出音频就行了，obs也改成这个</span><br>
+</p><p><b>Dox: </b><br>
+<span>拍不到脑袋 发表于 2019-8-23 21:41</span><br>
+<span>realtek声卡设置里面有一项，可以把前后音频插孔分开播放不同的音频流，然后你在游戏里面选用新的2nd outpu ...</span><br>
+<span>我现在用的是显卡音频输出，连的hdmi，是不是切换成realtek声卡输出我就听不到游戏声音了？</span><br>
+</p><p><b>拍不到脑袋: </b><br>
+<span>Dox 发表于 2019-8-23 22:35</span><br>
+<span>我现在用的是显卡音频输出，连的hdmi，是不是切换成realtek声卡输出我就听不到游戏声音了？ ...</span><br>
+<span>切换以后你把realtek声卡输出设为默认设备就行，只有默认设备会播放正常状态的系统声音</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855490[0-50]</guid>
+    </item>
+  </channel>
+</rss>

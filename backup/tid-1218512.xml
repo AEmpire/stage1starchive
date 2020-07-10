@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>神经网络解决多年前本科入门教材中介绍的那些困难了么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>神经网络解决多年前本科入门教材中介绍的那些困难了么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:50:08 +0000</lastBuildDate>
+    <item>
+      <title>神经网络解决多年前本科入门教材中介绍的那些困难了么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1218512-1-1.html</link>
+      <description>神经网络解决多年前本科入门教材中介绍的那些困难了么&#13;
+当年就上过一门选修课 毕业后从来没接触过
+&#13;
+似乎存在无法从其算法分析其给出的结果是正确还是错误; 算法的稳定性分析不能给出 ; 好像还有些什么重大困难限制其在生产环境汇总使用
+&#13;
+现在已经解决了这些问题了么 
+&#13;
+会不会出现本来训练的好好的程序 在接收新的训练集后 性能反倒变差的情况 
+&#13;
+如果也没有其他方法验证结果的可靠性 能无条件相信它给出的起码是个局部最优解这种程度么
+&#13;
+说白了 就是它可靠么 </description>
+      <content:encoded><![CDATA[<p><b>wangjinwu: </b><br>
+<span>神经网络解决多年前本科入门教材中介绍的那些困难了么</span><br>
+<span>当年就上过一门选修课 毕业后从来没接触过</span><br>
+<span>似乎存在无法从其算法分析其给出的结果是正确还是错误; 算法的稳定性分析不能给出 ; 好像还有些什么重大困难限制其在生产环境汇总使用</span><br>
+<span>现在已经解决了这些问题了么 </span><br>
+<span>会不会出现本来训练的好好的程序 在接收新的训练集后 性能反倒变差的情况 </span><br>
+<span>如果也没有其他方法验证结果的可靠性 能无条件相信它给出的起码是个局部最优解这种程度么</span><br>
+<span>说白了 就是它可靠么 </span><br>
+</p><p><b>holdson: </b><br>
+<span>同问</span><br>
+</p><p><b>wxcabc: </b><br>
+<span>没有，但这不重要，以上结论对你的脑子不也是适用的么</span><br>
+</p><p><b>exia00raiser: </b><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>反正旧版本还留着，变差了就退回去</span><br>
+</p><p><b>pf67: </b><br>
+<span>你说的这些根本就不是问题。。。建议还是多了解一下神经网络再来发问</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span> 本帖最后由 伊迪潘喵森 于 2020-1-31 13:39 编辑 </span><br>
+<span>https://www.zhihu.com/question/360303367/answer/931727429</span><br>
+<span>之前我在知乎写过一个答案，凑活看吧，里面有点小错的</span><br>
+<span>我觉得很多人对NN的复杂度没有一个基本的认识…………高度非凸，而且高维的这么一个玩意，可不是LR或者SVM那种东西……做理论保证几乎是不可能的，这件事的根本问题是输入分布和任务的理解是调出来的，现在没人知道。这种情况能取得一个小进展就不错了，也完全不可能变成n年前的CV那样大家都能证定理来评估自己的模型的程度，也许永远也没法在所有的结构上解释为什么BN好，为什么Xavier好（Xavier只能对NTK来解释）……（不过为什么dropout好倒是有人解释了…………只不过和基于泛化的解释相反，Ge Rong他们的文章说dropout stable的nn更容易落到全局极小值，这是优化的问题…………）</span><br>
+<span>传统机器学习的年代，很多人能证bound，但是那些工作绝大多数没什么难度也没什么启发性，因为这些绝大多数都是凸的而已。PAC学习，VC维数这些经典理论对NN没有任何作用……</span><br>
+<span>似乎存在无法从其算法分析其给出的结果是正确还是错误</span><br>
+<span>简单地说，SVM或者一般的核学习的kernel也是拍脑袋定的，这件事显然没法通过算法给出。一旦你把kernel的参数也变成可变的，用GD去练，这也是个非凸问题，非凸导致的根本问题是，GD收敛到的点取决于初始化，而且loss landscape取决于input的分布。因为输入分布是人类不知道的，取决于自然地，这个问题实际上没有办法真正地分析——————我说的真正的分析指的是实验家用的那些网络…………</span><br>
+<span>现在DL的理论分析基本处于baby steps，但我也不太相信未来能真的达到“指导”神经网络设计的程度…………</span><br>
+<span>凭借现在的工具能分析的主要是这么几种情况：</span><br>
+<span>1.single-node network</span><br>
+<span>杜少雷和田渊栋做的，考虑的是无限样本数+teacher netowrk的Recovery Guarantees</span><br>
+<span>这种情况，优化、泛化都考虑了，是最优良的情况，但是除了单节点的relu nn，或者weight sharing的cnn之外没有再做下去了，这个方向基本做到头了，因为Shamir的文章证明了多个hidden nodes的情况会有bad local minima，问题是如果node number 很大的情况，这些bad local minima又会消失，问题是赵本山的话“多少是多啊，要什么自行车啊”……</span><br>
+<span>不过一个例外是二次激活函数的工作，只要hidden nodes数目大于输入维数就可以保证没有bad local minima，saddle points只有strict的，问题是二次激活函数作为多项式激活函数，根据Hahn-Banach定理，表达能力是不行的……</span><br>
+<span>2是d>n的Overparameterized Neural Network</span><br>
+<span>d是神经网络宽度，n是样本数，这种其实存在顶层过拟合……所以顶层可变的情况下分析landscape的工作都是标准的垃圾…………但是毕竟ICML作为实验会议，理论也就那样，ICML上很多这方面的工作。</span><br>
+<span>但是Simon Du、Allen-Zhu和Yuanzhi Li的NTK动力学的工作不是这样的，他们主要考虑NN的一阶泰勒展开范围的lazy learning，如果加上数据可分假设（Polylogarithmic width suffices for gradient descent to achieve arbitrarily small test error with shallow ReLU networks），d就只依赖n的对数……不过这个可分性还是太强了</span><br>
+<span>3是energy gap的d很大的情况的landscape</span><br>
+<span>这个是 Topology and Geometry of Half-Rectified Network Optimization 里的工作，这个虽然d很大，但是和样本数无关，和分布也无关。直接构造曲线去证明landscape的sublevel sets的连通性，因为非线性，基本不是连通的，但是能估计局部极小值的深度。但这这个工作最多做到两层Relu，而且估计出来的深度也太深了，连langevin gd都没法在多项式时间内跑出去</span><br>
+<span>4是Shamir的Resnet分析</span><br>
+<span>这个主要是考虑skip connection对landscape的作用，证明Resnet至少比线性的要好，所有的局部极小值都比线性的全局极小值要好，但是网络的结构限制太死了，非常依赖顶层的凸结构（其实我有改进的办法，不过文章还在投就不说了…………）</span><br>
+<span>5是mean field </span><br>
+<span>这个是非常早就开始有人做的，但是应该说考虑的情况太不现实，d趋于无穷的平均场…………N年前我做过agent based modeling的时候做过MFT，但是我一直也没想做NN的MFT，太不现实了…………</span><br>
+<span>————————————————</span><br>
+<span>当然这大部分都是优化的问题，但是有这些工具能做泛化的bound，当然我是不信未来能做到找个网络就能分析的…………</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1218512[0-50]</guid>
+    </item>
+  </channel>
+</rss>

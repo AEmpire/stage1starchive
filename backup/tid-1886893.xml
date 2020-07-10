@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>电脑装机一键点亮，但是显卡连接显示器没信号</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>电脑装机一键点亮，但是显卡连接显示器没信号</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:55:54 +0000</lastBuildDate>
+    <item>
+      <title>电脑装机一键点亮，但是显卡连接显示器没信号[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886893-1-1.html</link>
+      <description>电脑装机一键点亮，但是显卡连接显示器没信号&#13;
+ 本帖最后由 waox 于 2019-12-8 17:51 编辑 
+
+4根内存条都没压进去，我真是太温柔了 
+&#13;
+PCIE插上了，电源也插上了，显卡LED是亮的
+&#13;
+LED debug是DRAM长时间，闪烁CPU，然后循环
+&#13;
+后背板上没有HDMI，想试试核显也不行了
+&#13;
+也不应该独显需要驱动吧，不都说亮机用张显卡吗
+&#13;
+我是meg z390 超神，我印象插内存的时候没听见自动扣合的声音，不太确定是不是就这理由
+&#13;
+我是个傻子，键盘放桌上也没插，他和主机没什么主动性
+&#13;
+蓝牙鼠标罪大恶极
+&#13;
+我更新下问题，昨天我可能没吃饭，4根内存条4根没压下去
+&#13;
+但是现在好了，自检到A2，4个LED灯没一个亮的，但是还是没信号
+&#13;
+开机自动重启了一次，至少显示了点东西
+&#13;
+要是这个图床看不见麻烦推荐我个别的
+&#13;
+https://i.imgur.com/hOwCE9t.jpg</description>
+      <content:encoded><![CDATA[<p><b>waox: </b><br>
+<span>电脑装机一键点亮，但是显卡连接显示器没信号</span><br>
+<span> 本帖最后由 waox 于 2019-12-8 17:51 编辑 </span><br>
+<span>4根内存条都没压进去，我真是太温柔了 </span><br>
+<span>PCIE插上了，电源也插上了，显卡LED是亮的</span><br>
+<span>LED debug是DRAM长时间，闪烁CPU，然后循环</span><br>
+<span>后背板上没有HDMI，想试试核显也不行了</span><br>
+<span>也不应该独显需要驱动吧，不都说亮机用张显卡吗</span><br>
+<span>我是meg z390 超神，我印象插内存的时候没听见自动扣合的声音，不太确定是不是就这理由</span><br>
+<span>我是个傻子，键盘放桌上也没插，他和主机没什么主动性</span><br>
+<span>蓝牙鼠标罪大恶极</span><br>
+<span>我更新下问题，昨天我可能没吃饭，4根内存条4根没压下去</span><br>
+<span>但是现在好了，自检到A2，4个LED灯没一个亮的，但是还是没信号</span><br>
+<span>开机自动重启了一次，至少显示了点东西</span><br>
+<span>要是这个图床看不见麻烦推荐我个别的</span><br>
+<img src="https://i.imgur.com/hOwCE9t.jpg" title="https://i.imgur.com/hOwCE9t.jpg"><br>
+</p><p><b>madbird302: </b><br>
+<span>先看看Bios能不能认出来，如果有的话基本没问题，显示器不亮就换根线试试吧</span><br>
+</p><p><b>游戏无用: </b><br>
+<span>我双十一装机的时候遇到类似的情况，不过我估计是个例没什么参考性，我是全模组电源，最后发现主板电源线插电源那头有一缕没插，真是盲区，我检查了大半天其他硬件。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>你这个不是CPU内存自检没过吗</span><br>
+<span>不过应该是先检CPU再检内存</span><br>
+<span>看了下你这主板LED灯挺多的，还有自检码，看看显示的多少</span><br>
+<span>https://download.msi.com/archive/mnu_exe/mb/M7B10v1.1_ASIA.pdf</span><br>
+<span>44页-52页</span><br>
+</p><p><b>waox: </b><br>
+<span> 本帖最后由 waox 于 2019-12-10 13:21 编辑 </span><br>
+<span>我更新下问题，昨天我可能没吃饭，4根内存条4根没压下去</span><br>
+<span>但是现在好了，自检到A2，4个LED灯没一个亮的，但是还是没信号</span><br>
+<span>进bios了！</span><br>
+<span>我只有蓝牙鼠标怎么办</span><br>
+<span>我都傻了，扣我分的蛆也不发帖了，这扣鹅为什么不能直接对着人扣啊</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>这个就完事了啊，F1进BIOS，F2加载启动盘</span><br>
+<span>你没有键盘吗，那你装个啥机</span><br>
+</p><p><b>waox: </b><br>
+<span>伊克路西安 发表于 2019-12-8 17:32</span><br>
+<span>这个就完事了啊，F1进BIOS，F2加载启动盘</span><br>
+<span>你没有键盘吗，那你装个啥机</span><br>
+<span>我好了，键盘忘插了</span><br>
+<span>鼠标翻出来当年的有线鼠标</span><br>
+</p><p><b>waox: </b><br>
+<span>伊克路西安 发表于 2019-12-8 17:32</span><br>
+<span>这个就完事了啊，F1进BIOS，F2加载启动盘</span><br>
+<span>你没有键盘吗，那你装个啥机</span><br>
+<span>再问几个很蠢的问题啊</span><br>
+<span>1. CPU内存的超频是装机以后再弄吗</span><br>
+<span>2. 装好系统以前，我如果想关机重启，除了长按电源还能怎么做啊</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>waox 发表于 2019-12-8 17:40</span><br>
+<span>再问几个很蠢的问题啊</span><br>
+<span>1. CPU内存的超频是装机以后再弄吗</span><br>
+<span>1. 可以现在就弄，但是稳定性测试要有系统才能做，你现在超频顶多也只能判断能不能进系统，建议是先装系统再做</span><br>
+<span>2. 就长按机箱电源键不就好了吗。。或者按reset键呗，只要你机箱IO线都插了</span><br>
+</p><p><b>waox: </b><br>
+<span>伊克路西安 发表于 2019-12-8 17:42</span><br>
+<span>1. 可以现在就弄，但是稳定性测试要有系统才能做，你现在超频顶多也只能判断能不能进系统，建议是先装系 ...</span><br>
+<span>也是，我可能只是怕第一天就玩坏了</span><br>
+</p><p><b>waox: </b><br>
+<span>开始装系统了，从这里开始我就不至于像是傻子了</span><br>
+<span>虽然很多东西还是要调整，CPU风扇觉得36度是不转的</span><br>
+<span>怎么会有这么懒的风扇</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>waox 发表于 2019-12-8 18:06</span><br>
+<span>开始装系统了，从这里开始我就不至于像是傻子了</span><br>
+<span>虽然很多东西还是要调整，CPU风扇觉得36度是不转的</span><br>
+<span>bios里调</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>waox: </b><br>
+<span>伊克路西安 发表于 2019-12-8 18:11</span><br>
+<span>bios里调</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+<span>对，我看见了，就是想抱怨一下</span><br>
+</p><p><b>madbird302: </b><br>
+<span>waox 发表于 2019-12-8 17:40</span><br>
+<span>再问几个很蠢的问题啊</span><br>
+<span>1. CPU内存的超频是装机以后再弄吗</span><br>
+<span>1.能进BIOS就可以操了，但无法进行软件测试无法保证稳定</span><br>
+<span>2.直接关接线板也可以关机</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>你系统弄好了再弄超频啊，急啥</span><br>
+<span>bios可以重启啊</span><br>
+<span>马上就系统装掉，很快的</span><br>
+</p><p><b>waox: </b><br>
+<span> 本帖最后由 waox 于 2019-12-9 09:53 编辑 </span><br>
+<span>想请教下JBLK和JRATIO下面有一个LED红灯在闪烁是正常的吗？</span><br>
+<span>我已经开始跑PCMark 和3DMark了所以感觉一切正常，闪来闪去搞得人很慌</span><br>
+<span>好吧我输了，海军不发帖只扣分也算是很厉害的防身术了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886893[0-50]</guid>
+    </item>
+  </channel>
+</rss>

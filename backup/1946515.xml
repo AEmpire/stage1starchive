@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 遇到奇怪的解压问题]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1946515.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1946515.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 遇到奇怪的解压问题 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 08:52:59 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #10]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 faked_uid 于 2020-7-8 19:28 编辑 </i><br>
+<br>
+说到虚拟光驱……我还能想到一个Win10 bug：各种虚拟盘，无论是虚拟光驱、虚拟网盘还是RamDisk内存盘，如果把盘符设置在C盘之前，比如B盘，Windows更新和微软商店都可能会无法正常下载内容，报错80070057。<br>
+很早以前Win10（应该是1703）就开始有这个bug了，貌似最近仍然没有修正。]]></description>
+            <pubDate>Wed, 08 Jul 2020 11:20:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119690</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119690</link>
+            
+            
+            
+            <author><![CDATA[faked_uid]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #9]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48119001&ptid=1946515" target="_blank"><font color="#999999">superchenxx01 发表于 2020-7-8 18:16</font></a></font><br>
+win10不是可以直接加载光盘镜像的吗，直接加载镜像把需要的文件复制出来<br>
+<br>
+—— 来自 OPPO R11, Android 8.1 ...</blockquote></div><br>
+MDF/MDS这种不行吧。貌似只有ISO、VHD(X)可以。]]></description>
+            <pubDate>Wed, 08 Jul 2020 11:00:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119490</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119490</link>
+            
+            
+            
+            <author><![CDATA[faked_uid]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #8]]></title>
+            <description><![CDATA[win10不是可以直接加载光盘镜像的吗，直接加载镜像把需要的文件复制出来<br>
+<br>
+—— 来自 OPPO R11, Android 8.1.0上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.2.1]]></description>
+            <pubDate>Wed, 08 Jul 2020 10:16:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119001</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48119001</link>
+            
+            
+            
+            <author><![CDATA[superchenxx01]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #7]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 faked_uid 于 2020-7-8 10:24 编辑 </i><br>
+<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48113027&ptid=1946515" target="_blank"><font color="#999999">nanoka1021 发表于 2020-7-8 09:58</font></a></font><br>
+谢谢了，检查了一下的确是虚拟光驱软件出的问题，试着把虚拟光驱软件卸载后正常了。<br>
+后来试了一下用Shell ...</blockquote></div><br>
+恭喜破案……<br>
+<br>
+我又搜了一下，稍微修正了一下我的二把刀知识库。<br>
+这大概不是什么context menu handler（弹右键时会被执行的插件），而是COM组件，可以做到显示缩略图、鼠标浮在上面时显示详细信息等功能。<br>
+<br>
+比如，有人做了RomHover这个插件，可以显示EFI文件的信息，它就是注册了一个COM组件：<a href="https://zhuanlan.zhihu.com/p/30106517" target="_blank">https://zhuanlan.zhihu.com/p/30106517</a><br>
+<br>
+微软的Raymond Chen也有篇博客，说的应该就是这个梗：<a href="https://devblogs.microsoft.com/oldnewthing/20090212-00/?p=19173" target="_blank">https://devblogs.microsoft.com/oldnewthing/20090212-00/?p=19173</a><br>
+说白了这就是一个dll，本来是要被explorer等进程加载的，然后在需要显示缩略图标时，explorer（先查注册表，就可以知道该调用哪个dll）就会调用、执行这个dll里面的代码，让这个dll把缩略图搞出来，然后explorer再把缩略图显示出来。如果这个dll的代码写得很渣渣，就会把explorer进程也连带干掉，于是就会出现“任务栏和桌面图标消失、只剩鼠标指针和打开的软件窗口”这种典型症状。<br>
+微软为了规避这种问题，（貌似很早就有了？并不是老版本Windows就没有dllhost）就搞了dllhost来当替死鬼，这样就可以避免explorer进程本身死掉导致用户懵逼了。但是这样仍然不能完全解决问题，如果某个COM组件为了显示缩略图这种无关紧要的小事，把文件给锁了，那还是会出现“COM surrogate占用了文件”之类的问题——楼主碰到的问题估计就和这种情况类似。<br>
+]]></description>
+            <pubDate>Wed, 08 Jul 2020 02:15:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48113256</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48113256</link>
+            
+            
+            
+            <author><![CDATA[faked_uid]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #6]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48112529&ptid=1946515" target="_blank"><font color="#999999">faked_uid 发表于 2020-7-8 09:16</font></a></font><br>
+没碰到过这种问题……<br>
+无脑推荐试试ShellExView、Autoruns，把Explorer插件禁掉试试看，也许是context menu ...</blockquote></div><br>
+谢谢了，检查了一下的确是虚拟光驱软件出的问题，试着把虚拟光驱软件卸载后正常了。<br>
+后来试了一下用ShellExView改设置去掉了该虚拟光驱的文件关联后正常了。<br>
+当初因为Daemon Tools的堕落让我转而使用Alcohol 52%，没想到这个虚拟光驱软件存在这个问题。]]></description>
+            <pubDate>Wed, 08 Jul 2020 01:58:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48113027</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48113027</link>
+            
+            
+            
+            <author><![CDATA[nanoka1021]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #5]]></title>
+            <description><![CDATA[关联mdf的软件有很大嫌疑，可能是图标的定义，解压缩软件应该不会遍历内容，换图标或清图标缓存]]></description>
+            <pubDate>Wed, 08 Jul 2020 01:53:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48112970</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48112970</link>
+            
+            
+            
+            <author><![CDATA[macos]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #4]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 faked_uid 于 2020-7-8 09:49 编辑 </i><br>
+<br>
+没碰到过这种问题……<br>
+无脑推荐试试ShellExView、Autoruns，把Explorer插件禁掉试试看，也许是context menu handler之类的东西有问题？（说不定就是你用的那个虚拟光驱软件本身搞的？）禁用完，最好注销或重启一下，确保explorer等进程都重启。<br>
+]]></description>
+            <pubDate>Wed, 08 Jul 2020 01:16:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48112529</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48112529</link>
+            
+            
+            
+            <author><![CDATA[faked_uid]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #3]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=48111826&ptid=1946515" target="_blank"><font color="#999999">纯情小鸭鸭 发表于 2020-7-8 07:37</font></a></font><br>
+用虚拟光驱加载呢？</blockquote></div><br>
+虚拟光驱加载能正常使用。只有用解压软件查看文件列表会出问题，直接解压没有问题，而且解压出的文件是完全能正常使用的。<br>
+另外你可能理解成解压mdf文件了，我这里说的是包含mds和mdf的压缩文件（zip、rar、7z等），查看这样的压缩文件程序会死住。]]></description>
+            <pubDate>Tue, 07 Jul 2020 23:41:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48111846</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48111846</link>
+            
+            
+            
+            <author><![CDATA[nanoka1021]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[遇到奇怪的解压问题 #2]]></title>
+            <description><![CDATA[用虚拟光驱加载呢？]]></description>
+            <pubDate>Tue, 07 Jul 2020 23:37:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48111826</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1946515&#38;pid=48111826</link>
+            
+            
+            
+            <author><![CDATA[纯情小鸭鸭]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

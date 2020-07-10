@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>大量文件如何打包储存且方便读取</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>大量文件如何打包储存且方便读取</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:13:01 +0000</lastBuildDate>
+    <item>
+      <title>大量文件如何打包储存且方便读取[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854476-1-1.html</link>
+      <description>大量文件如何打包储存且方便读取&#13;
+ 本帖最后由 二狗还我五块钱 于 2019-8-19 18:43 编辑 
+
+20G图片文档源码目标文件要塞存档盘里，之后只读
+&#13;
+iso,vhd压缩率成迷，但可以成熟稳定地在资源管理器映射为本地磁盘
+&#13;
+rar,zip倒也可以用winmount映射，不过稳定性欠佳
+&#13;
+各位有什么经验吗，哪种方法读取性能更好，打包参数又有什么讲究</description>
+      <content:encoded><![CDATA[<p><b>二狗还我五块钱: </b><br>
+<span>大量文件如何打包储存且方便读取</span><br>
+<span> 本帖最后由 二狗还我五块钱 于 2019-8-19 18:43 编辑 </span><br>
+<span>20G图片文档源码目标文件要塞存档盘里，之后只读</span><br>
+<span>iso,vhd压缩率成迷，但可以成熟稳定地在资源管理器映射为本地磁盘</span><br>
+<span>rar,zip倒也可以用winmount映射，不过稳定性欠佳</span><br>
+<span>各位有什么经验吗，哪种方法读取性能更好，打包参数又有什么讲究</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>区区20G考虑什么压缩率</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>jpg本来就是压缩过的，bmp压缩率才好看点</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>如果是嫌大量小文件浪费空间，直接NTFS分区选压缩内容不就行了</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-8-19 17:42 编辑 </span><br>
+<span>图片本身有些格式带压缩，和纯文本不可一概而论。对文档而言，zip的资源开销很划算（硬件运算要求低，压缩比高），但是读取包里的内容需要完整解压。相对来说，rar（非固实）不需要完整解包就能读取包里的内容，gui里看图很方便。NTFS的压缩文本，本质上就是个最高50%压缩率的zip压缩，在机械硬盘上磁盘性能会对折</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>20G有啥必要压缩 吗？浪费CPU算力，直接VHD扔硬盘，需要就挂载</span><br>
+</p><p><b>二狗还我五块钱: </b><br>
+<span>各位别纠结压缩率了，只想求一种方便读取的打包方式</span><br>
+<span>比方说打包了一批视频、压缩包etc，一般来说想要再查看其中内容，要先解压到临时目录再调用相关软件，而直接把打包后文件映射为本地驱动器的话就省去了解压这一步骤</span><br>
+</p><p><b>macos: </b><br>
+<span>rar只适合整存整取，没有toc，每次打开都要遍历，这是他最大缺点</span><br>
+<span>不考虑压缩时各种磁盘格式挂载的便利性高，但两层文件系统还是会有点折扣，一般不在里层用ntfs之类的日志型</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>ji蹭楼主贴请教一个问题</span><br>
+<span>8T碎片文件，每个文件大小在100KB，要怎样做备份.........</span><br>
+</p><p><b>oskneo: </b><br>
+<span>不需要压缩的话，所有虚拟机用的虚拟硬盘都可以啊，什么vhd，vhdx，vmdk啥的</span><br>
+<span>— from Sony G8142, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>oskneo: </b><br>
+<span>ambivalence 发表于 2019-8-19 20:22</span><br>
+<span>ji蹭楼主贴请教一个问题</span><br>
+<span>8T碎片文件，每个文件大小在100KB，要怎样做备份......... ...</span><br>
+<span>raid1</span><br>
+<span>— from Sony G8142, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>oskneo 发表于 2019-8-19 23:07</span><br>
+<span>raid1</span><br>
+<span>— from Sony G8142, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+<span>冗余现在是有的，但是备份有点没法做······</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>ambivalence 发表于 2019-8-20 00:01</span><br>
+<span>冗余现在是有的，但是备份有点没法做······</span><br>
+<span>递归列目录，每xxx个打tarball</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>直接放nas里，然后只读共享啊。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>tape archive</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>mozilla: </b><br>
+<span>二狗还我五块钱 发表于 2019-8-19 18:33</span><br>
+<span>各位别纠结压缩率了，只想求一种方便读取的打包方式</span><br>
+<span>比方说打包了一批视频、压缩包etc，一般来说想 ...</span><br>
+<span>方便读取的打包方式，我的理解是你需要打成一个文件以后随时可读，那就选虚拟硬盘文件。</span><br>
+<span>图片除非是bmp就不用考虑压缩率，也就不需要考虑压缩格式，楼上的其实是这个意思。</span><br>
+</p><p><b>01046: </b><br>
+<span>压缩率。。。。</span><br>
+</p><p><b>acalephs: </b><br>
+<span> 本帖最后由 acalephs 于 2019-8-19 12:34 编辑 </span><br>
+<span>二狗还我五块钱 发表于 2019-8-19 02:33</span><br>
+<span>各位别纠结压缩率了，只想求一种方便读取的打包方式</span><br>
+<span>比方说打包了一批视频、压缩包etc，一般来说想 ...</span><br>
+<span>打包zip，选择不压缩，windows资源管理器直接读</span><br>
+</p><p><b>BRRM: </b><br>
+<span>不考虑就你说的iso也可以啊。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>vhdx最靠谱吧，可以往里塞压缩包，先挂载虚拟硬盘后再用winmount挂载压缩包什么的。</span><br>
+</p><p><b>xy2401: </b><br>
+<span>压缩包 也 有一个选项 是可以 方便读取 单个文件。而不是 全部解压</span><br>
+<span>固实压缩?</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854476[0-50]</guid>
+    </item>
+  </channel>
+</rss>

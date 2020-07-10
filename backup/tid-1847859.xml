@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>据说EDA软件也是卡脖子的领域之一？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>据说EDA软件也是卡脖子的领域之一？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:54:20 +0000</lastBuildDate>
+    <item>
+      <title>据说EDA软件也是卡脖子的领域之一？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847859-1-1.html</link>
+      <description>据说EDA软件也是卡脖子的领域之一？&#13;
+一亩三分地上的EDA从业人员谈经历
+&#13;
+https://www.1point3acres.com/bbs/forum.php?mod=viewthread&amp;tid=520031&amp;extra=page%3D1&amp;mobile=2
+&#13;
+这个帖子我看下来的总体感受：
+&#13;
+EDA行业形成三家垄断的主要原因是本小利薄，没油水，没有资本看得上眼
+&#13;
+或许等这个行业生态崩溃，国产EDA软件就有希望上来了？
+&#13;
+毕竟我看这里面的从业人员都喊着要转码农，用脚投票钱途光明
+&#13;
+我来试着稍微解释下 如有不到位处请同行指正 
+&#13;
+硬件大厂的芯片从设计到制造的每一个步骤都需要专门的软件工具 并且要保证可以由加工厂(比如TSMC)制造出来 不光制造出来 还要保证芯片性能功耗都满足设计要求
+&#13;
+这就不是随便网上找个开源软件跑一跑这么简单 因为（1）design太大跑不了（2）需要完整的一套工具（3）根据摩尔定律每代新工艺会有新的design rule 开源工具根本没这能力去同步跟进
+&#13;
+那些有几十年技术积累（拥有无数legacy codes）和业界口碑的老公司就在这个没啥油水的行业里稳稳当当地活着 默默跟着硬件厂家蹭口汤喝 几乎不会有后来者想来这个市场抢食</description>
+      <content:encoded><![CDATA[<p><b>aiplus: </b><br>
+<span>据说EDA软件也是卡脖子的领域之一？</span><br>
+<span>一亩三分地上的EDA从业人员谈经历</span><br>
+<span>https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=520031&extra=page%3D1&mobile=2</span><br>
+<span>这个帖子我看下来的总体感受：</span><br>
+<span>EDA行业形成三家垄断的主要原因是本小利薄，没油水，没有资本看得上眼</span><br>
+<span>或许等这个行业生态崩溃，国产EDA软件就有希望上来了？</span><br>
+<span>毕竟我看这里面的从业人员都喊着要转码农，用脚投票钱途光明</span><br>
+<span>我来试着稍微解释下 如有不到位处请同行指正 </span><br>
+<span>硬件大厂的芯片从设计到制造的每一个步骤都需要专门的软件工具 并且要保证可以由加工厂(比如TSMC)制造出来 不光制造出来 还要保证芯片性能功耗都满足设计要求</span><br>
+<span>这就不是随便网上找个开源软件跑一跑这么简单 因为（1）design太大跑不了（2）需要完整的一套工具（3）根据摩尔定律每代新工艺会有新的design rule 开源工具根本没这能力去同步跟进</span><br>
+<span>那些有几十年技术积累（拥有无数legacy codes）和业界口碑的老公司就在这个没啥油水的行业里稳稳当当地活着 默默跟着硬件厂家蹭口汤喝 几乎不会有后来者想来这个市场抢食</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>半导体制造不也一样嘛，利润高资本早就来了。</span><br>
+</p><p><b>qwxbtgb: </b><br>
+<span>科技袁人有一期讲这个的，可以看看</span><br>
+<span>https://b23.tv/av30704833</span><br>
+</p><p><b>liaowangww: </b><br>
+<span>EDA厂不只做EDA，顺着EDA推广自己的IP也是顺理成章的事。我就是在S厂做IP，原来EDA同事这么惨的吗</span><br>
+</p><p><b>kts1mg: </b><br>
+<span>liaowangww 发表于 2019-7-19 15:46</span><br>
+<span>EDA厂不只做EDA，顺着EDA推广自己的IP也是顺理成章的事。我就是在S厂做IP，原来EDA同事这么惨的吗 ...</span><br>
+<span>讲道理，比一般龟农好点。但和同样写代码的互联网比起来就很惨了。</span><br>
+</p><p><b>yigua: </b><br>
+<span>liaowangww 发表于 2019-7-19 15:46</span><br>
+<span>EDA厂不只做EDA，顺着EDA推广自己的IP也是顺理成章的事。我就是在S厂做IP，原来EDA同事这么惨的吗 ...</span><br>
+<span>但是贵司IP嘛……</span><br>
+</p><p><b>ccen3020: </b><br>
+<span>不只是芯片设计</span><br>
+<span>ANSYS MATLAB之类科学计算也是美国的</span><br>
+<span>PCB设计有国产的么</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+</p><p><b>battleship64: </b><br>
+<span>都找代理送给你大学盗版鸡和马了还要怎么样啦</span><br>
+</p><p><b>nicebody: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>你这怕不是中英混杂ptsd了，主楼的英文基本都是专业术语，有些专业术语翻译成中文就是会有语义损失</span><br>
+</p><p><b>nicebody: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>啊，我没点进去看，原文确实傻逼</span><br>
+</p><p><b>yigua: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>外企呆多了就这种腔调，所有关键字是英文，切换为纯英语交流比较方便</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>所有的工具都需要certificate才行，bar又出奇的高，不是个把牛人拍拍脑袋带着一群amateur就能搞定的。现在TSMC给每个customer都定制process，每个process都需要工具qualification。</span><br>
+<span>这里面几个直接写中文有语义损失的？customer, amateur 都来了</span><br>
+</p><p><b>1694295955: </b><br>
+<span>ccen3020 发表于 2019-7-21 08:25</span><br>
+<span>不只是芯片设计</span><br>
+<span>ANSYS MATLAB之类科学计算也是美国的</span><br>
+<span>PCB设计有国产的么</span><br>
+<span>easypcb可以算一个嘛</span><br>
+<span>胜在灵活，没试过做大工程</span><br>
+<span>现在国内大学生集成电路设计比赛好像是用华大的EDA</span><br>
+<span>聊胜于无咯</span><br>
+</p><p><b>Ni月: </b><br>
+<span>美国确实有一些专业的CAE软件对大陆是封锁的，但是国内的大学和研究院所每年都能用上最新版</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>tonyshijie: </b><br>
+<span>不是原来也卡脖子。EDA本来就是整个半导体芯片产业链上，中国差距最大的一环。</span><br>
+<span>设计啊 制造啊 封装啊 材料啊 设备啊，中国基本上都有相应的企业，有些落后有些已经不落后了，但EDA国内几乎一个能打的都没有，国家在扶持华大九天，但实在差距太大，基本上不敢用。</span><br>
+<span>而且EDA是个各种工具的大集合，设计端一大堆，制造端也有一大堆，每年中芯和华力光是OPC这块的支出也是超过千万美元。另外还有TCAD，SMO，PDK和版图相关的一堆东西。</span><br>
+</p><p><b>Litccc: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>一亩三分地的文风是这样的</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tonyshijie: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>原文也不算故意的。主要是业内大家几乎都这么说话。</span><br>
+<span>我每天跟国内的EDA厂商交流也基本是这个模式。业内大家都习惯了</span><br>
+</p><p><b>aiplus: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 09:41</span><br>
+<span>这里面几个直接写中文有语义损失的？customer, amateur 都来了</span><br>
+<span>我寻思这里头也就qualification不太容易翻译准确吧 </span><br>
+</p><p><b>P.C.: </b><br>
+<span>国内设计公司有几个用正版的？</span><br>
+</p><p><b>yigua: </b><br>
+<span>P.C. 发表于 2019-7-21 11:25</span><br>
+<span>国内设计公司有几个用正版的？</span><br>
+<span>只要正式流片的，都用正版的</span><br>
+</p><p><b>P.C.: </b><br>
+<span>yigua 发表于 2019-7-21 11:30</span><br>
+<span>只要正式流片的，都用正版的</span><br>
+<span>tapeout的时候用一次正版</span><br>
+</p><p><b>aiplus: </b><br>
+<span>日前，美国再次对华为的临时许可延期了90天。徐直军则认为无意义，“华为员工已经习惯了在实体清单下工作和生活，我们认识到和准备好在继续这种环境下工作和生活的准备。”当被问及华为和Synopsys、Cadence、Mentor三家EDA公司（提供芯片设计的工具）的合作时，徐直军也坦言：“大家都很清楚，这些公司都不能和我们合作了，但天下也不是只有他们。历史上，即使没有工具，也可以生产出芯片，当然对我们有挑战，效率不会那么高了，也不会那么轻松了。英特尔70年代就生产CPU了，这些公司都还没有成立。”</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>aiplus 发表于 2019-8-26 09:36</span><br>
+<span>日前，美国再次对华为的临时许可延期了90天。徐直军则认为无意义，“华为员工已经习惯了在实体清单下工作和 ...</span><br>
+<span>70年代的芯片和现在的芯片能比嘛？现在的芯片设计不用eda难道用手画？</span><br>
+</p><p><b>dllplayer: </b><br>
+<span>说个大家都知道就是都无视了的领域..</span><br>
+<span>CAD(计算机辅助设计)</span><br>
+<span>国产没好用的软件.实际文件格式开放的DXF没人交付用...交付用的DWG和DGN实际上版本超多,整个格式规范全在洋人手里...</span><br>
+<span>而且这还是二维</span><br>
+<span>加上三维二字那就直接是没国产软件了</span><br>
+</p><p><b>TuzDoDez: </b><br>
+<span>处男鉴黄师 发表于 2019-8-26 09:57</span><br>
+<span>70年代的芯片和现在的芯片能比嘛？现在的芯片设计不用eda难道用手画？</span><br>
+<span>那要徐直军怎么回复，没有美国的EDA软件了海思就地解散？</span><br>
+<span>具体要怎么干是何庭波的事，当然问了她回不回答就是另一回事了。</span><br>
+</p><p><b>TuzDoDez: </b><br>
+<span>dllplayer 发表于 2019-8-26 10:00</span><br>
+<span>说个大家都知道就是都无视了的领域..</span><br>
+<span>CAD(计算机辅助设计)</span><br>
+<span>国产没好用的软件.实际文件格式开放的DXF没人交 ...</span><br>
+<span>EDA卡脖子比CAD、CAE都严重，EDA只有美国，CAD还有西门子的UG，仿真还有COMSOL，达索旗下的Solidworks和Abaqus也有机会绕过美国禁令。EDA美国一禁用就直接没有了。</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span>喷了，送去foundry那儿tapeout不用正版你看人家会给你做吗？各大foundry和cadence，synopsys直接对接紧密合作，用盗版是不可能给你流片的。</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span>最近国内EDA的动向可以关注福州大学的Jianli Chen，福州大学这两年异军突起，在ICCAD contest和Cadence的EDAthon中都取得了非常不错的成绩，老实说前几年是无法想象的。Jianli Chen貌似也要往工业界发展了。</span><br>
+</p><p><b>大韩李明博: </b><br>
+<span>TuzDoDez 发表于 2019-8-26 10:10</span><br>
+<span>EDA卡脖子比CAD、CAE都严重，EDA只有美国，CAD还有西门子的UG，仿真还有COMSOL，达索旗下的Solidworks和A ...</span><br>
+<span>EDA也有一家日本的zuken</span><br>
+</p><p><b>dllplayer: </b><br>
+<span>TuzDoDez 发表于 2019-8-26 10:10</span><br>
+<span>EDA卡脖子比CAD、CAE都严重，EDA只有美国，CAD还有西门子的UG，仿真还有COMSOL，达索旗下的Solidworks和A ...</span><br>
+<span>这方面我一直是觉得世界上只有两个国家的.</span><br>
+<span>然后达索析统还好..达索飞机还是哪个达索的..大概去年才搞了个挺反华的事</span><br>
+<span>而这些达索实际上都是是达索集团的下属企业.所以不得不考虑整个集团对中国的态度的</span><br>
+<span>最后ABAQUS.comsol是FEM软件..不是cad软件</span><br>
+</p><p><b>千本blur: </b><br>
+<span> 本帖最后由 千本blur 于 2019-8-26 10:46 编辑 </span><br>
+<span>EDA就是集成电路的轮子，就不应该被重新发明。</span><br>
+<span>https://mmbiz.qpic.cn/mmbiz_png/jpgzUxz3iccBoEr5WY8EjfQib0WMhC7pyeCxcwQNkjgLdnRibnDgjCpajvhJHUpus7pSUxmmRS1ibCDRVoanUT7SSA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1</span><br>
+<span>人类只有全变成橙汁才能停止争斗啊。</span><br>
+</p><p><b>TuzDoDez: </b><br>
+<span> 本帖最后由 TuzDoDez 于 2019-8-26 10:42 编辑 </span><br>
+<span>dllplayer 发表于 2019-8-26 10:31</span><br>
+<span>这方面我一直是觉得世界上只有两个国家的.</span><br>
+<span>然后达索析统还好..达索飞机还是哪个达索的..大概去年才搞了个 ...</span><br>
+<span>都说了comsol是仿真了，我当然知道abaqus和comsol是FEM。</span><br>
+<span>EDA软件能卡脖子的关键点在Fab那里，Fab不认可盗版，不认可新的EDA软件，Fabless就只能用这些EDA软件，这是最关键的地方。所以主楼的链接里也说了EDA软件商跪舔TSMC。</span><br>
+<span>CAD就不同了，能阻止你用盗版CAD的是知识产权法，如果所有的CAD软件都被禁止向中国所有企业授权，我相信法院不会管这些公司用盗版的，而如果是一部分中国企业被全部CAD软件禁止，那也好解决，涉军的高校研究所和企业被禁了几十年了，也没影响人家通过层层代理买设备和软件。</span><br>
+</p><p><b>千本blur: </b><br>
+<span> 本帖最后由 千本blur 于 2019-8-26 10:42 编辑 </span><br>
+<span>唐边叶介 发表于 2019-8-26 10:24</span><br>
+<span>最近国内EDA的动向可以关注福州大学的Jianli Chen，福州大学这两年异军突起，在ICCAD contest和Cadence的ED ...</span><br>
+<span>陈建利的工作获得了很多奖项，成绩在国内也是首屈一指的，但是福州大学就注定了他招不到人才。</span><br>
+</p><p><b>唐边叶介: </b><br>
+<span>千本blur 发表于 2019-8-26 10:40</span><br>
+<span>陈建利的工作获得了很多奖项，成绩在国内也是首屈一指的，但是福州大学就注定了他招不到人才。 ...</span><br>
+<span>他貌似在复旦找到工作了。</span><br>
+</p><p><b>yzyz121: </b><br>
+<span>TuzDoDez 发表于 2019-8-26 10:10</span><br>
+<span>EDA卡脖子比CAD、CAE都严重，EDA只有美国，CAD还有西门子的UG，仿真还有COMSOL，达索旗下的Solidworks和A ...</span><br>
+<span>破解版用的美滋滋，何况还有老版本可以用。</span><br>
+</p><p><b>yzyz121: </b><br>
+<span>TuzDoDez 发表于 2019-8-26 10:39</span><br>
+<span>都说了comsol是仿真了，我当然知道abaqus和comsol是FEM。</span><br>
+<span>EDA软件能卡脖子的关键点在Fab那里，Fab不认可盗 ...</span><br>
+<span>大到华为这种客户台积电也要妥协。拒绝华为台积电损失一年就十多</span><br>
+<span>亿美元都不止。把这些eda厂加一起一年都提供不了这个营收。何况华为现在当红炸子鸡牵扯中美争斗，这么急着站队嫌钱赚太多？</span><br>
+</p><p><b>overflowal: </b><br>
+<span>听说海思内部有自制eda，就是效率用起来不如业界三大巨头</span><br>
+<span>—— 来自 vivo V1911A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mimighost: </b><br>
+<span>一百三十万颗星 发表于 2019-7-21 08:55</span><br>
+<span>这人的中英混杂真恶心。很多表达是中英都有的常用语，硬要用英语。</span><br>
+<span>这也要ptsd，本来就是人在国外的习惯性表达</span><br>
+<span>除非你觉得在国外工作有啥稀奇的，否则夹杂一些用语有啥奇怪的</span><br>
+</p><p><b>Kakaru: </b><br>
+<span>mimighost 发表于 2019-8-26 12:00</span><br>
+<span>这也要ptsd，本来就是人在国外的习惯性表达</span><br>
+<span>除非你觉得在国外工作有啥稀奇的，否则夹杂一些用语有啥奇怪 ...</span><br>
+<span>请看完13楼或者原文再发表意见……这真不是ptsd</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847859[0-50]</guid>
+    </item>
+  </channel>
+</rss>

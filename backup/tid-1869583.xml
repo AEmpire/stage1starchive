@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>咋回事，新装机之后诡异的没声音问题。。。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>咋回事，新装机之后诡异的没声音问题。。。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:32:25 +0000</lastBuildDate>
+    <item>
+      <title>咋回事，新装机之后诡异的没声音问题。。。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1869583-1-1.html</link>
+      <description>咋回事，新装机之后诡异的没声音问题。。。&#13;
+新装的机，最新win10系统，本来啥问题都没有的，最近陆陆续续发现奇怪的没声音问题，主要又以下几种
+&#13;
+网页有声音，进游戏没声音(好几次了）
+&#13;
+都没声音（一两次)
+&#13;
+网页放着视频，暂停之后没声了（一次)
+&#13;
+以上随机发生的，这两天感觉比较多
+&#13;
+有人知道啥原因吗？？感觉像是哪里接触不良似的
+&#13;
+用的是显示器自带的喇叭，接的DP线，线接好应该没有问题才对
+&#13;
+然后音频驱动的话装的微星官网下的最新驱动：realtek_hd_audio（解压目录Rtklegacy-Realtek-6.0.1.8703）
+&#13;
+同时还有另外一个驱动，安装的时候提示会覆盖已有的就没装了：realtek_hd_UAD_audio （解压目录Realtek-6.0.8794.1）
+&#13;
+这种情况有人遇到过吗?网页是win10自带浏览器，几个游戏都遇到过
+&#13;
+通常重启或者注销后会好，有时候重开浏览器也行，游戏没声就得重启
+&#13;
+另外还遇到B站放视频放一段时间网络断流了居然，一直卡着，刷新没有用，得新开一个页面马上就好了，有点烦得
+&#13;
+以上，感觉很诡异啊，有人遇到过吗？</description>
+      <content:encoded><![CDATA[<p><b>wwdzcjsmxx: </b><br>
+<span>咋回事，新装机之后诡异的没声音问题。。。</span><br>
+<span>新装的机，最新win10系统，本来啥问题都没有的，最近陆陆续续发现奇怪的没声音问题，主要又以下几种</span><br>
+<span>网页有声音，进游戏没声音(好几次了）</span><br>
+<span>都没声音（一两次)</span><br>
+<span>网页放着视频，暂停之后没声了（一次)</span><br>
+<span>以上随机发生的，这两天感觉比较多</span><br>
+<span>有人知道啥原因吗？？感觉像是哪里接触不良似的</span><br>
+<span>用的是显示器自带的喇叭，接的DP线，线接好应该没有问题才对</span><br>
+<span>然后音频驱动的话装的微星官网下的最新驱动：realtek_hd_audio（解压目录Rtklegacy-Realtek-6.0.1.8703）</span><br>
+<span>同时还有另外一个驱动，安装的时候提示会覆盖已有的就没装了：realtek_hd_UAD_audio （解压目录Realtek-6.0.8794.1）</span><br>
+<span>这种情况有人遇到过吗?网页是win10自带浏览器，几个游戏都遇到过</span><br>
+<span>通常重启或者注销后会好，有时候重开浏览器也行，游戏没声就得重启</span><br>
+<span>另外还遇到B站放视频放一段时间网络断流了居然，一直卡着，刷新没有用，得新开一个页面马上就好了，有点烦得</span><br>
+<span>以上，感觉很诡异啊，有人遇到过吗？</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>这个不是应该找显卡驱动吗</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>lawsherman 发表于 2019-11-30 15:32</span><br>
+<span>这个不是应该找显卡驱动吗</span><br>
+<span>声音跟显卡也有关系吗。。。</span><br>
+<span>装得最新的N卡驱动</span><br>
+</p><p><b>Geminize: </b><br>
+<span>黄老板驱动里带HDMI驱动的</span><br>
+<span>----发送自 STAGE1 Mobile</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>感觉是程序找的音频设备不固定</span><br>
+<span>其实如果你只用显示器的音箱可以把板载声卡禁了试试</span><br>
+</p><p><b>litel: </b><br>
+<span>显示器或者显卡的声音驱动问题。。。声音输出还是插电脑上吧。。。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>typeunknown 发表于 2019-11-30 21:31</span><br>
+<span>感觉是程序找的音频设备不固定</span><br>
+<span>其实如果你只用显示器的音箱可以把板载声卡禁了试试 ...</span><br>
+<span>你这个可能是对的</span><br>
+<span>因为没有什么设备驱动异常</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>litel 发表于 2019-11-30 22:29</span><br>
+<span>显示器或者显卡的声音驱动问题。。。声音输出还是插电脑上吧。。。</span><br>
+<span>声音输出我只有DP线接主机。。。其他没设备了</span><br>
+<span>我下次试试没声的时候机箱前后音频口如何</span><br>
+</p><p><b>madbird302: </b><br>
+<span>八成是软件问题，你把音频设备里的HDMI声卡卸载掉看看，然后软件把系统音量全都开到最大</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>madbird302 发表于 2019-11-30 23:45</span><br>
+<span>八成是软件问题，你把音频设备里的HDMI声卡卸载掉看看，然后软件把系统音量全都开到最大 ...</span><br>
+<span>在哪删啊?</span><br>
+<span>现在不知道什么情况会出现。。。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>wwdzcjsmxx 发表于 2019-11-30 23:49</span><br>
+<span>在哪删啊?</span><br>
+<span>现在不知道什么情况会出现。。。</span><br>
+<span>设备管理器里的音频设备那块</span><br>
+</p><p><b>geminixxf: </b><br>
+<span>装的系统是否纯净？不是的话容易出问题</span><br>
+</p><p><b>macos: </b><br>
+<span>pd的声音不走声卡，显卡处理的，禁用自带声卡都不影响</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>geminixxf 发表于 2019-12-1 10:52</span><br>
+<span>装的系统是否纯净？不是的话容易出问题</span><br>
+<span>MSDN下的最新Win10，应该没啥问题</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>macos 发表于 2019-12-1 10:57</span><br>
+<span>pd的声音不走声卡，显卡处理的，禁用自带声卡都不影响</span><br>
+<span>是说DP线嘛？</span><br>
+<span>所以我可以把声卡驱动删了或者把声卡禁用了？</span><br>
+<span>那这样应该会影响主机前后的音频输出吧？</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>madbird302 发表于 2019-12-1 00:36</span><br>
+<span>设备管理器里的音频设备那块</span><br>
+<span>有三个：</span><br>
+<span>NVIDIA High Definition Audio</span><br>
+<span>NVIDIA Virtual Audio Device (Wave Extensible) (WDM)</span><br>
+<span>Realtek High Definition Audio</span><br>
+<span>嗯。。。</span><br>
+<span>应该不会是机箱里面接线的问题吧？</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>typeunknown 发表于 2019-11-30 21:31</span><br>
+<span>感觉是程序找的音频设备不固定</span><br>
+<span>其实如果你只用显示器的音箱可以把板载声卡禁了试试 ...</span><br>
+<span>显示器上也有音频接口</span><br>
+<span>那如果我不管音箱还是外接设备，都走显示器的接口的话</span><br>
+<span>按楼下说的只跟显卡驱动有关，那是不是把声卡禁用了也没关系</span><br>
+</p><p><b>macos: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-1 11:01</span><br>
+<span>是说DP线嘛？</span><br>
+<span>所以我可以把声卡驱动删了或者把声卡禁用了？</span><br>
+<span>那这样应该会影响主机前后的音频输出吧？ ...</span><br>
+<span>正常情况下，你在pd出声时，不能同时在自带声卡听到同步的声音</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-1 11:04</span><br>
+<span>显示器上也有音频接口</span><br>
+<span>那如果我不管音箱还是外接设备，都走显示器的接口的话</span><br>
+<span>按楼下说的只跟显卡驱动有关 ...</span><br>
+<span>就是现在显卡里都带了个声卡，用dp和hdmi传输音频的时候是从这里走。</span><br>
+<span>如果问题是我猜测的这样，禁了板载全插显示器应该能解决，就是音质有点亏，而且视觉效果会很糟心吧...如果不是特别频繁还是每次自己动手改默认设备好了。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>macos 发表于 2019-12-1 11:07</span><br>
+<span>正常情况下，你在pd出声时，不能同时在自带声卡听到同步的声音</span><br>
+<span>PD是啥?显示器的音频?就是如果显示器出声的话，声卡那边是不出声的</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>typeunknown 发表于 2019-12-1 12:01</span><br>
+<span>就是现在显卡里都带了个声卡，用dp和hdmi传输音频的时候是从这里走。</span><br>
+<span>如果问题是我猜测的这样，禁了板载 ...</span><br>
+<span>我现在就是显示器出声，板载的没有什么设备连着的</span><br>
+<span>音质的话还行啊，视觉效果？这个显卡不影响吧，那为啥会影响到画面</span><br>
+<span>手动哪里改呢</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-1 12:20</span><br>
+<span>我现在就是显示器出声，板载的没有什么设备连着的</span><br>
+<span>音质的话还行啊，视觉效果？这个显卡不影响吧，那为啥 ...</span><br>
+<span>是说显示器拖着几根线在眼前看着烦</span><br>
+<span>https://wap.zol.com.cn/ask/details_8322270_1799186_3.html</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>typeunknown 发表于 2019-12-1 12:25</span><br>
+<span>是说显示器拖着几根线在眼前看着烦</span><br>
+<span>https://wap.zol.com.cn/ask/details_8322270_1799186_3.html ...</span><br>
+<span>你不说我也。。。嘛，1根DP，一根电源，1根USB连接线</span><br>
+</p><p><b>madbird302: </b><br>
+<span>wwdzcjsmxx 发表于 2019-12-1 11:02</span><br>
+<span>有三个：</span><br>
+<span>NVIDIA High Definition Audio</span><br>
+<span>NVIDIA Virtual Audio Device (Wave Extensible) (WDM)</span><br>
+<span>把瑞昱那个卸载掉吧，既然你现在用的显示器音箱</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>madbird302 发表于 2019-12-1 19:48</span><br>
+<span>把瑞昱那个卸载掉吧，既然你现在用的显示器音箱</span><br>
+<span>好，我试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1869583[0-50]</guid>
+    </item>
+  </channel>
+</rss>

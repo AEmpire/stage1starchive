@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>打开文件夹或程序，机箱风扇会有几下奇怪的吱吱响</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>打开文件夹或程序，机箱风扇会有几下奇怪的吱吱响</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:25:12 +0000</lastBuildDate>
+    <item>
+      <title>打开文件夹或程序，机箱风扇会有几下奇怪的吱吱响[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1877327-1-1.html</link>
+      <description>打开文件夹或程序，机箱风扇会有几下奇怪的吱吱响&#13;
+这一阵换了风扇，前后折腾了好几周，真绝望，现在用的是利民的RGB款
+&#13;
+前面一堆事不提，现在的症状表现为浏览网页打开新页面拖动滑动条，或者打开文件夹就会有几下吱吱嗡嗡的响，然后恢复正常
+&#13;
+原来考虑半天是希捷混合硬盘的毛病，这块用了1万多小时有老化之类
+&#13;
+这奇葩问题，网上也有人说是主板啸叫，要关闭节能之类。我关闭了BIOS里的AMD Cool什么的，并没有效果
+&#13;
+原来CPU风扇智能调速PWM为在20 40 60 80度以10% 20% 30% 40%速度运行，现在CPU是38度左右
+&#13;
+这样就会出现上面的问题，吱吱响
+&#13;
+现在设置为80度以下都以10%速度运行，症状好像消失了啊</description>
+      <content:encoded><![CDATA[<p><b>coobirufas: </b><br>
+<span>打开文件夹或程序，机箱风扇会有几下奇怪的吱吱响</span><br>
+<span>这一阵换了风扇，前后折腾了好几周，真绝望，现在用的是利民的RGB款</span><br>
+<span>前面一堆事不提，现在的症状表现为浏览网页打开新页面拖动滑动条，或者打开文件夹就会有几下吱吱嗡嗡的响，然后恢复正常</span><br>
+<span>原来考虑半天是希捷混合硬盘的毛病，这块用了1万多小时有老化之类</span><br>
+<span>这奇葩问题，网上也有人说是主板啸叫，要关闭节能之类。我关闭了BIOS里的AMD Cool什么的，并没有效果</span><br>
+<span>原来CPU风扇智能调速PWM为在20 40 60 80度以10% 20% 30% 40%速度运行，现在CPU是38度左右</span><br>
+<span>这样就会出现上面的问题，吱吱响</span><br>
+<span>现在设置为80度以下都以10%速度运行，症状好像消失了啊</span><br>
+</p><p><b>烟萝: </b><br>
+<span>我的经验这个声音多半来自于pwm调速的启动阶段。</span><br>
+</p><p><b>烟萝: </b><br>
+<span>就是20%加速到30%然后降速到20%循环的这个过程。</span><br>
+<span>你试试dc调速或者固定速度试试</span><br>
+</p><p><b>madbird302: </b><br>
+<span>应该是那瞬间触发什么会占CPU资源的程序了吧</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>烟萝 发表于 2019-12-3 18:07</span><br>
+<span>就是20%加速到30%然后降速到20%循环的这个过程。</span><br>
+<span>你试试dc调速或者固定速度试试 ...</span><br>
+<span>因为CPU现在是38度，打开网页就上升1到2度，就是正好转速是10%到20%，发动特技左右横跳</span><br>
+<span>差点就要一气之下换硬盘了</span><br>
+<span>所以真的很奇怪</span><br>
+<span>谢了啊</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>顺便还有个老爷机，平时不怎么开机，老风扇也是破锣一样，前几天换了个ARCTIC牌子的9CM风扇（我都没听过这牌子但目前只有这个了），接口3针好像还能调速，我老主板BIOS还是大蓝屏的那种，设置了自动，好像并没有效果。</span><br>
+<span>顺便说一下原来的方案B是硬盘有毛病的话</span><br>
+<span>就把Firefox或者Chrome安装在移动硬盘上，浏览网页就不用受这声音刺激神经了</span><br>
+<span>这弄好了也没试试也不知道可行吗，USB口24小时插个120G移动硬盘（话说这个是从PS3拆下来的，PS3顺便换上PS4拆下来的500G）</span><br>
+</p><p><b>烟萝: </b><br>
+<span>这些都是经验之谈了天知道我以前被这种声音折腾的有多痛苦。</span><br>
+<span>我最后是改了4p dc调速。</span><br>
+<span>完全放弃pwm和低速灯效，风扇用多分器接主板，50度之下直接拉平。</span><br>
+<span>我一直没理解为什么风扇要用pwm调速。想了想好处是不是只有灯不会灭</span><br>
+</p><p><b>沙恩: </b><br>
+<span>打人的板子 调一下风扇的加速时间</span><br>
+<span>MSI好像也可以调</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>coobirufas 发表于 2019-12-3 18:39</span><br>
+<span>顺便还有个老爷机，平时不怎么开机，老风扇也是破锣一样，前几天换了个ARCTIC牌子的9CM风扇（我都没听过这 ...</span><br>
+<span>这是mx4硅脂的牌子</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>cloudskate: </b><br>
+<span>求教lz怎么设置的80度以下都以10%速度运行？我是msi的450M迫击炮，明明温度才38左右，但是cpu风扇智能控制一直在1000以上转速。。。</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>cloudskate 发表于 2019-12-4 10:04</span><br>
+<span>求教lz怎么设置的80度以下都以10%速度运行？我是msi的450M迫击炮，明明温度才38左右，但是cpu风扇智能控制 ...</span><br>
+<span>CPU风扇控制啊，拖动那4个点，仔细对比下就知道了。还有角上的那个选项要打上勾</span><br>
+<span>好像是左右移动控制监控温度，上下移动控制风扇转速，前3个点拖到最下面就是0%，再往上来那么一点就是10%</span><br>
+<span>是不是主板BIOS哪里没设置对？</span><br>
+<span>我是几年前的微星B350主板了，可能BIOS不大一样</span><br>
+<span>总之折腾半天。现在唯一的噪音就是系统盘所在的混合硬盘，无法自动停转，除了换固态无解，过一阵再说</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1877327[0-50]</guid>
+    </item>
+  </channel>
+</rss>

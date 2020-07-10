@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>双显卡双屏在windows下遇到个问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>双显卡双屏在windows下遇到个问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:36:49 +0000</lastBuildDate>
+    <item>
+      <title>双显卡双屏在windows下遇到个问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831367-1-1.html</link>
+      <description>双显卡双屏在windows下遇到个问题&#13;
+ 本帖最后由 诶哟卧草 于 2019-5-14 12:17 编辑 
+
+主板上两张显卡
+&#13;
+GTX1080 2个DP口分别连接显示器A和B
+&#13;
+RX580 2个HDMI口分别连接同样显示器A和B
+&#13;
+在黑苹果系统下，由于mojave不能识别GTX1080，所以双屏正常(2个HDMI)
+&#13;
+而在Windows10下面，现在显示我有3个屏幕，分别是显示器A(DP)，显示器B(DP)，显示器B(HDMI)
+&#13;
+明明我已经在Windows设备管理器里面，把RX580给禁用了。为何还会发生这种情况。有没有办法把显示器B(HDMI)给单独屏蔽了，只保留2个DP源
+&#13;
+如果不禁用a卡的话，windows直接显示我连了4台显示，更加酸爽。。。。</description>
+      <content:encoded><![CDATA[<p><b>诶哟卧草: </b><br>
+<span>双显卡双屏在windows下遇到个问题</span><br>
+<span> 本帖最后由 诶哟卧草 于 2019-5-14 12:17 编辑 </span><br>
+<span>主板上两张显卡</span><br>
+<span>GTX1080 2个DP口分别连接显示器A和B</span><br>
+<span>RX580 2个HDMI口分别连接同样显示器A和B</span><br>
+<span>在黑苹果系统下，由于mojave不能识别GTX1080，所以双屏正常(2个HDMI)</span><br>
+<span>而在Windows10下面，现在显示我有3个屏幕，分别是显示器A(DP)，显示器B(DP)，显示器B(HDMI)</span><br>
+<span>明明我已经在Windows设备管理器里面，把RX580给禁用了。为何还会发生这种情况。有没有办法把显示器B(HDMI)给单独屏蔽了，只保留2个DP源</span><br>
+<span>如果不禁用a卡的话，windows直接显示我连了4台显示，更加酸爽。。。。</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>windows的显示输出就是垃圾，我也是双显卡加核显，没视频输出就不给驱动这毛病真恶心。</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>nvidia控制面板里的设置多个显示器可以勾选</span><br>
+</p><p><b>litel: </b><br>
+<span>win10显示设置里可以设置某个屏幕不输出信号啊。。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>或者两张卡卖掉，买个radeon vii</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831367[0-50]</guid>
+    </item>
+  </channel>
+</rss>

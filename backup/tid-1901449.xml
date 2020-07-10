@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>貌似成月经了？Intel CPU 又被发现存在新漏洞 Plundervolt</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>貌似成月经了？Intel CPU 又被发现存在新漏洞 Plundervolt</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:35:47 +0000</lastBuildDate>
+    <item>
+      <title>貌似成月经了？Intel CPU 又被发现存在新漏洞 Plundervolt[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901449-1-1.html</link>
+      <description>貌似成月经了？Intel CPU 又被发现存在新漏洞 Plundervolt&#13;
+https://www.techpowerup.com/2620 ... teal-protected-data
+&#13;
+A group of cybersecurity researchers have discovered a new security vulnerability affecting Intel processors, which they've craftily named "Plundervolt," a portmanteau of the words "plunder" and "undervolt." Chronicled under CVE-2019-11157, it was first reported to Intel in June 2019 under its security bug-bounty programme, so it could secretly develop a mitigation. With the 6-month NDA lapsing, the researchers released their findings to the public. Plundervolt is described by researchers as a way to compromise SGX (software guard extensions) protected memory by undervolting the processor when executing protected computations, to a level where SGX memory-encryption no longer protects data. The researchers have also published proof-of-concept code.
+&#13;
+ Plundervolt is different from "Rowhammer," in that it flips bits inside the processor, before they're written to the memory, so SGX doesn't protect them. Rowhammer doesn't work with SGX-protected memory. Plundervolt requires root privileges as software that let you tweak vCore require ring-0 access. You don't need direct physical access to the target machine, as tweaking software can also be remotely run. Intel put out security advisory SA-00298 and is working with motherboard vendors and OEMs to release BIOS updates that pack a new microcode with a mitigation against this vulnerability. The research paper can be read here.</description>
+      <content:encoded><![CDATA[<p><b>Radeon: </b><br>
+<span>貌似成月经了？Intel CPU 又被发现存在新漏洞 Plundervolt</span><br>
+<span>https://www.techpowerup.com/2620 ... teal-protected-data</span><br>
+<span>A group of cybersecurity researchers have discovered a new security vulnerability affecting Intel processors, which they've craftily named "Plundervolt," a portmanteau of the words "plunder" and "undervolt." Chronicled under CVE-2019-11157, it was first reported to Intel in June 2019 under its security bug-bounty programme, so it could secretly develop a mitigation. With the 6-month NDA lapsing, the researchers released their findings to the public. Plundervolt is described by researchers as a way to compromise SGX (software guard extensions) protected memory by undervolting the processor when executing protected computations, to a level where SGX memory-encryption no longer protects data. The researchers have also published proof-of-concept code.</span><br>
+<span> Plundervolt is different from "Rowhammer," in that it flips bits inside the processor, before they're written to the memory, so SGX doesn't protect them. Rowhammer doesn't work with SGX-protected memory. Plundervolt requires root privileges as software that let you tweak vCore require ring-0 access. You don't need direct physical access to the target machine, as tweaking software can also be remotely run. Intel put out security advisory SA-00298 and is working with motherboard vendors and OEMs to release BIOS updates that pack a new microcode with a mitigation against this vulnerability. The research paper can be read here.</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>能把7700K削到3770的水平不？</span><br>
+</p><p><b>manu88wh: </b><br>
+</p><p><b>塔奇克马: </b><br>
+<span>5.2G不行了,牙膏加把劲.</span><br>
+</p><p><b>九耳: </b><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>是不是还可以再等等</span><br>
+<span>外面说win7快不行了啊</span><br>
+</p><p><b>chronicle: </b><br>
+<span>嘻嘻嘻嘻嘻嘻</span><br>
+</p><p><b>hein: </b><br>
+<span>奶绷子 发表于 2019-12-11 22:06</span><br>
+<span>能把7700K削到3770的水平不？</span><br>
+<span>3770削吗，不削的话，我家里破台机正好3770</span><br>
+</p><p><b>DTCPSS: </b><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>404489039: </b><br>
+<span>AMD yes 下下带要推到重做吗</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>不是我在这杠给outel洗地，你们看懂这漏洞了么</span><br>
+<span>sgx这东西没有bios会默认开的，而且除了学术研究我没看到有软件用的</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>tsubasa9 发表于 2019-12-11 23:14</span><br>
+<span>不是我在这杠给outel洗地，你们看懂这漏洞了么</span><br>
+<span>sgx这东西没有bios会默认开的，而且除了学术研究我没看到有 ...</span><br>
+<span>问题是漏洞公布出来outel得修啊，一打补丁性能又得降</span><br>
+</p><p><b>albertfu: </b><br>
+<span>这波新的漏洞不影响skylake之前的CPU，和之前暴露的一长串漏洞不同</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-12-11 08:47 编辑 </span><br>
+<span>tsubasa9 发表于 2019-12-11 07:14</span><br>
+<span>不是我在这杠给outel洗地，你们看懂这漏洞了么</span><br>
+<span>sgx这东西没有bios会默认开的，而且除了学术研究我没看到有 ...</span><br>
+<span>uhdbd和netfilx的uwp版</span><br>
+<span>貌似都用的是SGX协助加密</span><br>
+<span>前几天PC数码群还在说这个事</span><br>
+<span>当时我就说了搞不好漏洞又给补了</span><br>
+</p><p><b>汤大鸡: </b><br>
+<span>前几年学术界灌了多少sgx的水，要是当时出来</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>我老婆呢: </b><br>
+<span>求求高抬贵手放过intel，现在内部低价采购都不供应了</span><br>
+</p><p><b>datzz: </b><br>
+<span>4790k是不是变i3了？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>datzz 发表于 2019-12-12 01:24</span><br>
+<span>4790k是不是变i3了？</span><br>
+<span>haswell没有sgx, 变个屁啊</span><br>
+</p><p><b>半点孤灯: </b><br>
+<span>Intel太牛批了</span><br>
+</p><p><b>disrupt: </b><br>
+<span>tsubasa9 发表于 2019-12-11 23:14</span><br>
+<span>不是我在这杠给outel洗地，你们看懂这漏洞了么</span><br>
+<span>sgx这东西没有bios会默认开的，而且除了学术研究我没看到有 ...</span><br>
+<span>微杠一下，默认一般都是Software Controlled吧</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>albertfu 发表于 2019-12-12 00:31</span><br>
+<span>这波新的漏洞不影响skylake之前的CPU，和之前暴露的一长串漏洞不同</span><br>
+<span>8700k是这段时间的漏洞都占了？</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>搜了下新闻，sgx出漏洞好像很多次了。</span><br>
+</p><p><b>litel: </b><br>
+<span>tsubasa9 发表于 2019-12-11 23:14</span><br>
+<span>不是我在这杠给outel洗地，你们看懂这漏洞了么</span><br>
+<span>sgx这东西没有bios会默认开的，而且除了学术研究我没看到有 ...</span><br>
+<span>联想，Dell，惠普商务机全部都是sgx默认打开。。。</span><br>
+</p><p><b>sheepx86: </b><br>
+<span>这补丁就是把Voltage offset MSR禁用了…对笔记本用户影响还是挺大的，打了补丁就告别XTU了</span><br>
+<span>— from OnePlus ONEPLUS A6013, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第23楼sheepx86于2019-12-12 08:57发表的:</span><br>
+<span>这补丁就是把Voltage offset MSR禁用了…对笔记本用户影响还是挺大的，打了补丁就告别X......</span><br>
+<span>@sheepx86</span><br>
+<span>打了补丁是不是台式机CPU也不能用XTU了？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>albertfu: </b><br>
+<span>琉璃苑軒風 发表于 2019-12-12 07:03</span><br>
+<span>8700k是这段时间的漏洞都占了？</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.1.0 ...</span><br>
+<span>8700k就是skylake啊，当然是一个不拉</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第25楼albertfu于2019-12-12 10:39发表的:</span><br>
+<span>引用:琉璃苑軒風 发表于 2019-12-12 07:038700k是这段时间的漏洞都占了？—— 来......</span><br>
+<span>@albertfu</span><br>
+<span>9700k受影响吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>卡洛德: </b><br>
+<span>墙倒众人推？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>droople 发表于 2019-12-12 10:59</span><br>
+<span>@albertfu</span><br>
+<span>9700k受影响吗？</span><br>
+<span>9700k还是skylake，受影响</span><br>
+<span>但讲真个人用户基本无所谓打不打补丁。。。都是企业用户和云厂商倒霉</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>总的来说678最厉害吧，之前一些bug功能还没有，之后9代前后就硬补过两次bug。</span><br>
+</p><p><b>droople: </b><br>
+<span>引用第28楼albertfu于2019-12-12 11:02发表的:</span><br>
+<span>引用:droople 发表于 2019-12-12 10:59@albertfu9700k受影响吗？......</span><br>
+<span>@albertfu</span><br>
+<span>补丁是打在BIOS里面？个人用户其实也没法选择</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>albertfu: </b><br>
+<span>droople 发表于 2019-12-12 13:35</span><br>
+<span>@albertfu</span><br>
+<span>补丁是打在BIOS里面？个人用户其实也没法选择</span><br>
+<span>现在windows/linux更新内置微码更新，不升级bios也能打上补丁</span><br>
+<span>不要在意这个事就好，讲真都是个位数百分比的性能损失，除了SSD 4k那种测试可能会减半，但不跑分也基本看不出来。</span><br>
+<span>反倒是企业用户和云厂商不得不为了安全时时跟进，三天两头发个公告我们要scheduled downtime了</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>albertfu 发表于 2019-12-12 10:39</span><br>
+<span>8700k就是skylake啊，当然是一个不拉</span><br>
+<span>再爆下去ipc同频性能要挤回去到4790k了</span><br>
+<span>牙膏挤出来还能憋回去的么</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>琉璃苑軒風 发表于 2019-12-12 14:17</span><br>
+<span>再爆下去ipc同频性能要挤回去到4790k了</span><br>
+<span>牙膏挤出来还能憋回去的么</span><br>
+<span>没事,到时候发点枪文吹5.4g基本盘完事了(</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>每次intel cpu出了漏洞总有人洗地跟个人用户无关。跟个人用户无关 桌面版和移动版cpu打什么补丁？intel已经被amd按在地上摩擦了 这公关费省了给用户多点实惠不好吗</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>塔奇克马 发表于 2019-12-12 14:21</span><br>
+<span>没事,到时候发点枪文吹5.4g基本盘完事了(</span><br>
+<span>赶紧吹，让我把4790k和8700k都出了买3950x去</span><br>
+<span>AMD！yes！</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>不行啊，tmd，AMD也应该和intel一样，找n个大学合作，主动check漏洞并上报啊啊啊啊</span><br>
+<span>我不信，小aa一定也浑身都是bug</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>琉璃苑軒風 发表于 2019-12-12 14:17</span><br>
+<span>再爆下去ipc同频性能要挤回去到4790k了</span><br>
+<span>牙膏挤出来还能憋回去的么</span><br>
+<span>既然是一个4代没有的指令，那自然因为这个指令漏洞的关系性能降到比4代低不可能。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>下个大奶看起来真的要组amd了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>马春葛: </b><br>
+<span>KAG！！！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901449[0-50]</guid>
+    </item>
+  </channel>
+</rss>

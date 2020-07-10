@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个ubuntu迁移的方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个ubuntu迁移的方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:00:10 +0000</lastBuildDate>
+    <item>
+      <title>问个ubuntu迁移的方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907425-1-1.html</link>
+      <description>问个ubuntu迁移的方法&#13;
+某台旧pc上安装了
+&#13;
+Linux OptiPlex-390 4.15.0-60-generic #67-Ubuntu SMP Thu Aug 22 16:55:30 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+&#13;
+现在旧pc要退掉，但是里面安装的软件，数据，一些代码，逐个导出好麻烦
+&#13;
+想把这个系统整体迁移到某个win10上的wsl环境里面，可以做到吗？</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>问个ubuntu迁移的方法</span><br>
+<span>某台旧pc上安装了</span><br>
+<span>Linux OptiPlex-390 4.15.0-60-generic #67-Ubuntu SMP Thu Aug 22 16:55:30 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux</span><br>
+<span>现在旧pc要退掉，但是里面安装的软件，数据，一些代码，逐个导出好麻烦</span><br>
+<span>想把这个系统整体迁移到某个win10上的wsl环境里面，可以做到吗？</span><br>
+</p><p><b>ardin: </b><br>
+<span>tar/dd...</span><br>
+<span>哦，您往w...迁？bye。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>solaris40: </b><br>
+<span>git</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>wsl并不是存粹的linux,有点难吧?等大佬支招</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>我也问一下一个虚拟机的UBUNTU安在VBOX里</span><br>
+<span>要变成实机怎么弄</span><br>
+</p><p><b>solaris40: </b><br>
+<span>泉玲奈 发表于 2020-1-3 18:41</span><br>
+<span>我也问一下一个虚拟机的UBUNTU安在VBOX里</span><br>
+<span>要变成实机怎么弄</span><br>
+<span>https://askubuntu.com/questions/32499/migrate-from-a-virtual-machine-vm-to-a-physical-system</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>把所有分区备份下来，wsl这侧建个目录作root mountpoint按原来的结构把所有分区mount上，然后chroot进去用的话，大多数和WSL内核相性还过得去的程序应该都能直接跑</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>solaris40 发表于 2020-1-3 18:54</span><br>
+<span>https://askubuntu.com/questions/32499/migrate-from-a-virtual-machine-vm-to-a-physical-system</span><br>
+<span>谢谢</span><br>
+</p><p><b>defer: </b><br>
+<span>做成vhdx然后挂到hyper-v上是不是更简单一点。</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>不是说 WSL2 是完整的 Linux 了吗？</span><br>
+<span>话说楼主这情况，我更建议用迁到虚拟机里，如果要和宿主机互通就把硬盘都 mount 上好了</span><br>
+</p><p><b>linjia: </b><br>
+<span>huaxianyan 发表于 2020-1-7 20:06</span><br>
+<span>不是说 WSL2 是完整的 Linux 了吗？</span><br>
+<span>话说楼主这情况，我更建议用迁到虚拟机里，如果要和宿主机互通就把硬 ...</span><br>
+<span>是不是用Systemback</span><br>
+<span>https://blog.csdn.net/github_34965845/article/details/80734400</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907425[0-50]</guid>
+    </item>
+  </channel>
+</rss>

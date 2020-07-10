@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有snapraid灾难恢复的例子吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有snapraid灾难恢复的例子吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:59:58 +0000</lastBuildDate>
+    <item>
+      <title>有snapraid灾难恢复的例子吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915413-1-1.html</link>
+      <description>有snapraid灾难恢复的例子吗？&#13;
+snapraid一直是家用nas一种存储方案，配合池化挺好的（raidz在线扩容好久了都没发布，btrfs都没什么人谈论了）
+&#13;
+但没见过有人提及灾难恢复相关问题，普通raid5偶有听闻恢复过程中gg
+&#13;
+snapraid既然也有校验，相关失败概率是不是类似？
+&#13;
+另外win上有合适的池化方案吗，不太想跑到Linux去（Linux下面西数盘有休眠问题，也不知道是不是老黄历了）</description>
+      <content:encoded><![CDATA[<p><b>thegodra: </b><br>
+<span>有snapraid灾难恢复的例子吗？</span><br>
+<span>snapraid一直是家用nas一种存储方案，配合池化挺好的（raidz在线扩容好久了都没发布，btrfs都没什么人谈论了）</span><br>
+<span>但没见过有人提及灾难恢复相关问题，普通raid5偶有听闻恢复过程中gg</span><br>
+<span>snapraid既然也有校验，相关失败概率是不是类似？</span><br>
+<span>另外win上有合适的池化方案吗，不太想跑到Linux去（Linux下面西数盘有休眠问题，也不知道是不是老黄历了）</span><br>
+</p><p><b>password: </b><br>
+<span>snapraid在windows下的池化一般搭配的都是StableBit DrivePool</span><br>
+<span>不过这是个收费软件</span><br>
+</p><p><b>yst234: </b><br>
+<span>SnapRAID 工作于文件系统之上，它不会把数据条带化，这就保证了阵列里挂了哪块盘只会损失那一块盘的数据，其他的都好好的</span><br>
+<span>（RAID5 阵列挂两个盘整个阵列直接 gg）</span><br>
+<span>以及校验盘没挂的话还可以把挂掉了的那块盘的数据恢复出来</span><br>
+<span>还有就是 SnapRAID 读取的的时候不是整个阵列都会被调动起来，而是只读有相应数据的盘，校验盘更是只会在生成校验的时候有操作</span><br>
+<span>所以一般来说在根据校验恢复的时候不至于会把校验盘也搞炸了。。(除非运气实在太坏。。）</span><br>
+</p><p><b>不要叫水狗做主人: </b><br>
+<span> 本帖最后由 不要叫水狗做主人 于 2020-2-23 22:53 编辑 </span><br>
+<span>最近在研究Btrfs，目前自己的结论是：</span><br>
+<span>扩容方便，不用向ZFS一样一次加一个vdev，可以一次加一块磁盘。</span><br>
+<span>raid1/10可以用，属于production ready。</span><br>
+<span>raid5/6可以在用于数据，不能用于metadata。Btrfs支持为数据和metadata应用不同的raid等级。writehole的问题还是存在，但是目前看起来是非正常终止导致校验块没写入，但是数据还是存在的，所以只要scrub一次就好。总的来说需要多个条件同时达成才会导致数据丢失。</span><br>
+<span>现在就等Linux出一个好点的Android模拟器玩游戏，然后我就可以迁移到Btrfs raid10了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915413[0-50]</guid>
+    </item>
+  </channel>
+</rss>

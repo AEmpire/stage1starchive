@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>旧电脑改NAS求指点</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>旧电脑改NAS求指点</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:04:25 +0000</lastBuildDate>
+    <item>
+      <title>旧电脑改NAS求指点[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846274-1-1.html</link>
+      <description>旧电脑改NAS求指点&#13;
+手头有G4560+B150，还有一块120G SSD，想改成NAS+下载/做种机。功耗什么的暂且忽略，用起来再说...
+&#13;
+于是想问装什么系统好？有没有什么成熟的解决方案？求潭友推荐</description>
+      <content:encoded><![CDATA[<p><b>Montana: </b><br>
+<span>旧电脑改NAS求指点</span><br>
+<span>手头有G4560+B150，还有一块120G SSD，想改成NAS+下载/做种机。功耗什么的暂且忽略，用起来再说...</span><br>
+<span>于是想问装什么系统好？有没有什么成熟的解决方案？求潭友推荐</span><br>
+</p><p><b>youta: </b><br>
+<span>ESXi+黑裙？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>主舵者: </b><br>
+<span>ESXi+黑群晖还是折腾，OMV最傻瓜。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tyx776: </b><br>
+<span>win的下载还是最好的，你要有外网查内网资料的需求才安装nas系统。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>琴酒: </b><br>
+<span>看你对pt下载 aria2使用 baidupan需求</span><br>
+</p><p><b>samfs: </b><br>
+<span> 本帖最后由 samfs 于 2019-7-12 23:04 编辑 </span><br>
+<span>要是想下载做种</span><br>
+<span>不如装个 Windows 10</span><br>
+<span>openmediavault 上的 bt 客户端怎么调速度都比不上 windows 10 上的 qbittorrent enhanced</span><br>
+<span>而且还能结合 rdp 使用迅雷而且 omv 还没有 web 端文件管理器，带来不便，虽然我还是在用</span><br>
+</p><p><b>Montana: </b><br>
+<span>samfs 发表于 2019-7-12 23:03</span><br>
+<span>要是想下载做种</span><br>
+<span>不如装个 Windows 10</span><br>
+<span>担心windows的稳定性</span><br>
+<span>我想装完之后就放在那里不用怎么管了，不知道windows能不能做到</span><br>
+</p><p><b>JITAN: </b><br>
+<span>win service 开远程桌面</span><br>
+<span>—— 来自 HUAWEI BKL-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hecas: </b><br>
+<span>winservice 加远程桌面</span><br>
+<span>装好 然后QBITORRENT开远程桌面也差不多了</span><br>
+<span>要下电驴我也不了解</span><br>
+</p><p><b>Montana: </b><br>
+<span>hecas 发表于 2019-7-12 23:42</span><br>
+<span>winservice 加远程桌面</span><br>
+<span>装好 然后QBITORRENT开远程桌面也差不多了</span><br>
+<span>要下电驴我也不了解 ...</span><br>
+<span>电驴倒不需要</span><br>
+<span>就决定装windows了想问一下装哪个版本的比较好?</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>Montana 发表于 2019-7-12 23:48</span><br>
+<span>电驴倒不需要</span><br>
+<span>就决定装windows了想问一下装哪个版本的比较好?</span><br>
+<span>当然是server 2008r2啦。 不需要域就能使用remoteapp。 在别的win机器上可以像运行本地应用一般使用nas上的应用。</span><br>
+</p><p><b>thegodra: </b><br>
+<span>就普通win10就行，家用要求又不高</span><br>
+<span>存储方面也需要烦恼</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>win的稳定性没啥问题。我原来的下载机就是跑的2003和8.1，陆陆续续升级换件，总共用了近10年。只是最近重装才换到了esxi+黑裙，主要是esxi还可以再跑个软路由+win。nas系统主要是资源要求低，分2个核，2g内存就能跑。win的话内存要求高。</span><br>
+</p><p><b>呼和浩特: </b><br>
+<span>最近发现QB比UT222版本好，40MB/s下载持续，ut很容易缓存爆掉</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>下载设置smb啥的直接win就行，反正这配置当nas都是性能过剩，怕不稳就装ltsb，反正当nas也不需要uwp啥的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>主舵者: </b><br>
+<span>samfs 发表于 2019-7-12 23:03</span><br>
+<span>要是想下载做种</span><br>
+<span>不如装个 Windows 10</span><br>
+<span>OMV还用啥Transmission，当然是docker装deluge啦</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>就烦起名字: </b><br>
+<span>ESXi宿主</span><br>
+<span>1黑裙+1Win(x86推荐 下载没必要上x64)上两块2.5硬盘分别直通给黑裙和Win</span><br>
+<span>完美</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>黑群你也可以docker啊…跑个qb还不是轻轻松松</span><br>
+<span>跑windows那就server 16好了，19太新了，再等等</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>糊状物: </b><br>
+<span>只是下普通bt的话像bitcomet就自带web管理吧，其他BT软件难道没有？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846274[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>怎样让win10的chrome窗口栏毛玻璃特效？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>怎样让win10的chrome窗口栏毛玻璃特效？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:37:38 +0000</lastBuildDate>
+    <item>
+      <title>怎样让win10的chrome窗口栏毛玻璃特效？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1763656-1-1.html</link>
+      <description>怎样让win10的chrome窗口栏毛玻璃特效？&#13;
+ 本帖最后由 fuochai 于 2018-9-20 15:09 编辑 
+
+更新，解决了。只要把 chrome://flags/#windows10-custom-titlebar 调成disable即可
+&#13;
+但是要配合http://www.glass8.eu/
+&#13;
+但是和下面那个方法整的效果有点不同，这样弄出来的右上角用户名是这样https://i.loli.net/2018/09/20/5ba3472437ea8.png
+&#13;
+而从优动漫里打开的话 是有3D效果的https://i.loli.net/2018/09/20/5ba3476a95f2c.png
+&#13;
+个人感觉下面的略好康，目前在研究调出来的方法
+&#13;
+-----------------------------------
+&#13;
+首先说明一下肯定是可以实现的，虽然这个方法是我无意中捣鼓出来的需要配合插件http://www.glass8.eu/（我原本就装了的）
+&#13;
+有个叫优动漫的软件，在里面点打开主页
+&#13;
+https://i.loli.net/2018/09/20/5ba30b03a1b93.bmp
+&#13;
+就会使用默认浏览器chrome打开
+&#13;
+这个时候神奇地出现了毛玻璃特效（一般打开chrome是没有的）
+&#13;
+https://i.loli.net/2018/09/20/5ba30a710e9b5.png
+&#13;
+然后这个窗口新开网页也能保持特效
+&#13;
+https://i.loli.net/2018/09/20/5ba30a70f0854.png
+&#13;
+我目前的推测就是，chrome://flags里会不会有相关的设置？
+&#13;
+谢谢大家了</description>
+      <content:encoded><![CDATA[<p><b>fuochai: </b><br>
+<span>怎样让win10的chrome窗口栏毛玻璃特效？</span><br>
+<span> 本帖最后由 fuochai 于 2018-9-20 15:09 编辑 </span><br>
+<span>更新，解决了。只要把 chrome://flags/#windows10-custom-titlebar 调成disable即可</span><br>
+<span>但是要配合http://www.glass8.eu/</span><br>
+<span>但是和下面那个方法整的效果有点不同，这样弄出来的右上角用户名是这样https://i.loli.net/2018/09/20/5ba3472437ea8.png</span><br>
+<span>而从优动漫里打开的话 是有3D效果的https://i.loli.net/2018/09/20/5ba3476a95f2c.png</span><br>
+<span>个人感觉下面的略好康，目前在研究调出来的方法</span><br>
+<span>-----------------------------------</span><br>
+<span>首先说明一下肯定是可以实现的，虽然这个方法是我无意中捣鼓出来的需要配合插件http://www.glass8.eu/（我原本就装了的）</span><br>
+<span>有个叫优动漫的软件，在里面点打开主页</span><br>
+<span>https://i.loli.net/2018/09/20/5ba30b03a1b93.bmp</span><br>
+<span>就会使用默认浏览器chrome打开</span><br>
+<span>这个时候神奇地出现了毛玻璃特效（一般打开chrome是没有的）</span><br>
+<img src="https://i.loli.net/2018/09/20/5ba30a710e9b5.png" title="https://i.loli.net/2018/09/20/5ba30a710e9b5.png"><br>
+<span>然后这个窗口新开网页也能保持特效</span><br>
+<img src="https://i.loli.net/2018/09/20/5ba30a70f0854.png" title="https://i.loli.net/2018/09/20/5ba30a70f0854.png"><br>
+<span>我目前的推测就是，chrome://flags里会不会有相关的设置？</span><br>
+<span>谢谢大家了</span><br>
+</p><p><b>illuminati: </b><br>
+<span>大概是启动参数问题</span><br>
+<span>用process explorer看一下那个chrome窗口的启动参数，自己做一个chrome快捷方式</span><br>
+</p><p><b>Zest: </b><br>
+<span>chrome.exe --enable-aero-peek-tabs</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>所以win10为什么取消毛玻璃特效呢。。</span><br>
+<span>—— 来自 HUAWEI CLT-AL01, Android 8.1.0上的 S1Next-鹅版 v2.0.3</span><br>
+</p><p><b>Zest: </b><br>
+<span>dcatzz 发表于 2018-9-20 13:23</span><br>
+<span>所以win10为什么取消毛玻璃特效呢。。</span><br>
+<span>—— 来自 HUAWEI CLT-AL01, Android 8.1.0上的 S1Next-鹅版 ...</span><br>
+<span>大概是因为Win8的Metro瓷砖，Bug10本来就是Win8.2</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>Zest 发表于 2018-9-20 13:29</span><br>
+<span>大概是因为Win8的Metro瓷砖，Bug10本来就是Win8.2</span><br>
+<span>naruhodo！</span><br>
+<span>—— 来自 HUAWEI CLT-AL01, Android 8.1.0上的 S1Next-鹅版 v2.0.3</span><br>
+</p><p><b>TRI_KING: </b><br>
+<span>dcatzz 发表于 2018-9-20 13:23</span><br>
+<span>所以win10为什么取消毛玻璃特效呢。。</span><br>
+<span>—— 来自 HUAWEI CLT-AL01, Android 8.1.0上的 S1Next-鹅版 ...</span><br>
+<span>因为整个 Metro 设计语言就是追求最扁平化，不过最近提出 Fluent Design 后毛玻璃特效又慢慢回来了</span><br>
+</p><p><b>fuochai: </b><br>
+<span>Zest 发表于 2018-9-20 13:13</span><br>
+<span>chrome.exe --enable-aero-peek-tabs</span><br>
+<span>亲测不行可能是我这边的问题</span><br>
+</p><p><b>lolozp: </b><br>
+<span>我的chorme今天自动更新了。。。变成矩圆风格了</span><br>
+</p><p><b>fuochai: </b><br>
+<span>lolozp 发表于 2018-9-20 15:16</span><br>
+<span>我的chorme今天自动更新了。。。变成矩圆风格了</span><br>
+<span>chrome://flags/#top-chrome-md</span><br>
+<span>不想要的话可以在这里修改，手机电脑都行</span><br>
+</p><p><b>lolozp: </b><br>
+<span>fuochai 发表于 2018-9-20 15:31</span><br>
+<span>chrome://flags/#top-chrome-md</span><br>
+<span>不想要的话可以在这里修改，手机电脑都行</span><br>
+<span>改好了</span><br>
+</p><p><b>fuochai: </b><br>
+<span>捞一下，新版失效了，还有人知道咋整吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1763656[0-50]</guid>
+    </item>
+  </channel>
+</rss>

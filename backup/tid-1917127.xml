@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有NAS+自动手机备份+软路由三合一的解决方案？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有NAS+自动手机备份+软路由三合一的解决方案？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:47:04 +0000</lastBuildDate>
+    <item>
+      <title>有没有NAS+自动手机备份+软路由三合一的解决方案？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917127-1-1.html</link>
+      <description>有没有NAS+自动手机备份+软路由三合一的解决方案？&#13;
+打算搞一个x86机器做软路由+简单NAS+手机自动备份。
+&#13;
+NAS方面，能在win上挂载为硬盘并跑满千兆就行。不需要外网服务也不需要流媒体啥的。
+&#13;
+能在手机（jiphone）连接wifi的时候像icloud自动备份手机内容最好。不济能自动备份照片也行。
+&#13;
+软路由就普通的lede啊lean啊啥的就好。
+&#13;
+请问大佬们有什么系统上的解决方案么？机器预订是星际蜗牛。
+&#13;
+感谢感谢</description>
+      <content:encoded><![CDATA[<p><b>Tr火药味: </b><br>
+<span>有没有NAS+自动手机备份+软路由三合一的解决方案？</span><br>
+<span>打算搞一个x86机器做软路由+简单NAS+手机自动备份。</span><br>
+<span>NAS方面，能在win上挂载为硬盘并跑满千兆就行。不需要外网服务也不需要流媒体啥的。</span><br>
+<span>能在手机（jiphone）连接wifi的时候像icloud自动备份手机内容最好。不济能自动备份照片也行。</span><br>
+<span>软路由就普通的lede啊lean啊啥的就好。</span><br>
+<span>请问大佬们有什么系统上的解决方案么？机器预订是星际蜗牛。</span><br>
+<span>感谢感谢</span><br>
+</p><p><b>天降物语: </b><br>
+<span>有啥难的，做虚拟化要啥功能都有，但是J1900的性能怕是不够</span><br>
+</p><p><b>koakon: </b><br>
+<span>omv上安装docker ，docker中安装nextcloud，使用nextcloud 里面的文件存储功能或者手机同步功能。</span><br>
+<span>也可以安装docker syncthing等同步软件。</span><br>
+</p><p><b>fallenevil: </b><br>
+<span>你这要求只能虚拟化，但是J1900虚拟化吸能够呛，而且不支持硬盘直通</span><br>
+</p><p><b>mickoo: </b><br>
+<span>双千兆口的星际蜗牛，win10+虚拟机LEDE+虚拟机群晖，完事</span><br>
+</p><p><b>騜: </b><br>
+<span>winserver2019=hyperv虚拟lede+黑裙</span><br>
+</p><p><b>sc流亡湿人: </b><br>
+<span>小马软路由V5 I3版 </span><br>
+<span>Esxi+爱快+lede+黑群晖</span><br>
+</p><p><b>yst234: </b><br>
+<span>Windows Server 本身做 NAS</span><br>
+<span>Hyper-V 下装一个软路由系统</span><br>
+<span>再单独装一个 iMazing 局域网下 iPhone 数据自动备份</span><br>
+<span>搞定</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>all in one这种东西 折腾折腾就算了 竟然还想蜗牛J1900这种来一波全套使用。。。。。。还把路由功能加进去</span><br>
+<span>这就和下午我看到有人想用蜗牛在win上组raid5一样好笑 就好像数据不要紧似的</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>有人有双网口的主板搭建LEDE allinone的教程吗? 双网口 一个做wan接光猫一个lan接交换机,然后接mesh 覆盖全屋这个方案是否可行?</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2020-3-4 19:16 编辑 </span><br>
+<span>neotaburiss 发表于 2020-3-4 18:31</span><br>
+<span>有人有双网口的主板搭建LEDE allinone的教程吗? 双网口 一个做wan接光猫一个lan接交换机,然后接mesh 覆盖 ...</span><br>
+<span>交换机接一个AP再mesh吧</span><br>
+<span>半年前折腾软路由的记录 不一定全但是了解一下没问题</span><br>
+<span>但是折腾这个核心在于你要清楚自己的需求 再来准备硬件</span><br>
+<span>HyperV</span><br>
+<span>https://3mile.github.io/archives/105/</span><br>
+<span>https://koolshare.cn/thread-153952-1-1.html</span><br>
+<span>https://www.zhiin.net/105a7cc2/</span><br>
+<span>http://www.360doc.com/content/18/0402/16/36925391_742295710.shtml</span><br>
+<span>ESXI</span><br>
+<span>https://www.cnblogs.com/yunweis/p/7878049.html</span><br>
+<span>https://www.cnblogs.com/yufusec/p/9181422.html</span><br>
+<span>https://blog.csdn.net/shida_csdn/article/details/82863169</span><br>
+<span>https://www.xgboke.com/1928.html</span><br>
+<span>https://koolshare.cn/thread-160574-1-1.html</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>所以all in one最少需要个有vtd的u嘛？</span><br>
+<span>是不是要上个i3 i5才行？</span><br>
+</p><p><b>騜: </b><br>
+<span>仅供参考</span><br>
+<span>我的U是i5-3570S 反正500M以下宽带都足够用 </span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>騜 发表于 2020-3-4 19:28</span><br>
+<span>仅供参考</span><br>
+<span>我的U是i5-3570S 反正500M以下宽带都足够用</span><br>
+<span>作为软路由，带宽我倒是不担心。担心开了两个虚拟机之后nas那边速度行不行 </span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2020-3-4 20:25 编辑 </span><br>
+<span>美亚J4105支持直邮大陆，我只能帮到这里了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>keytomylife: </b><br>
+<span>我倒是有一套L5420想要用来ALL IN ONE</span><br>
+<span>但MAXT不好找机箱</span><br>
+</p><p><b>killyu: </b><br>
+<span>https://post.smzdm.com/p/aoow25g6/</span><br>
+<span>我也搞过类似的，不过现在是拆开了，晚上还是嫌嘈倾向于关机</span><br>
+<span>现在的方案是k3做主路由，n1做旁路由，蜗牛挂机和nas</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>看我的帖子，e31235lv5</span><br>
+<span>只有你想不到的，没有干不了的</span><br>
+</p><p><b>neotaburiss: </b><br>
+<span>其实我想问下做软路由的话,cpu占用如何</span><br>
+<span>我现在的机器是G4400T 昨天用了下Jellyfin(系统是unraid)发现一般H264 大概50%的cpu占用 4k H265直接就100%卡顿了....</span><br>
+</p><p><b>琴酒: </b><br>
+<span>yeah20002 发表于 2020-3-5 00:15</span><br>
+<span>看我的帖子，e31235lv5</span><br>
+<span>只有你想不到的，没有干不了的</span><br>
+<span>求帖子地址</span><br>
+<span>順便問下你的e31235lv5配的什麽主板</span><br>
+<span>我看到有人配ASRock C236 WSI 因爲不是SAS控制器 配某些機箱 背板不能用 要另外買hba卡</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>其实我觉得如果没有复杂的多拨啦上网行为管理啦的需求也不用专门的软路由，服务在NAS上跑起来，其他设备设好代理就结了</span><br>
+</p><p><b>kingwood1: </b><br>
+<span>我准备用退休的办公小电脑搞一个，现在正在研究pve虚拟黑裙和LEDE或者黑裙虚拟LEDE哪个比较好</span><br>
+</p><p><b>yeah20002: </b><br>
+<span>琴酒 发表于 2020-3-5 11:02</span><br>
+<span>求帖子地址</span><br>
+<span>順便問下你的e31235lv5配的什麽主板</span><br>
+<span>我看到有人配ASRock C236 WSI 因爲不是SAS控制器 配某些 ...</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1901782-1-1.html</span><br>
+<span>H110T   </span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>看我的折腾贴，还有某个大佬的回复。上面回复也有人说了，只有你想不到，没有做不到。</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917127[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>笔记本连家里WiFi总是显示无网络连接</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>笔记本连家里WiFi总是显示无网络连接</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:33:45 +0000</lastBuildDate>
+    <item>
+      <title>笔记本连家里WiFi总是显示无网络连接[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918292-1-1.html</link>
+      <description>笔记本连家里WiFi总是显示无网络连接&#13;
+ 本帖最后由 vedacode 于 2020-3-11 17:16 编辑 
+
+笔记本连接家里的WiFi，一直显示“无网络连接”；有时候会偶然变成“网络连接”然后连通一次网络，过一会又会变成“无网络连接”。
+&#13;
+可是家里别人的电脑连WiFi上网没有问题；手机连上去也没有问题。
+&#13;
+然后，笔记本连别人电脑开的热点或是自己手机的热点上网，就正常了。
+&#13;
+我试过重置网络的所有设置；乃至于重新安装系统。问题依然存在。
+&#13;
+求各位大神指点迷津。
+&#13;
+补充：
+&#13;
+家里路由器是Mecury 150R, TPLINK WR842N；网卡则是Intel AC9560</description>
+      <content:encoded><![CDATA[<p><b>vedacode: </b><br>
+<span>笔记本连家里WiFi总是显示无网络连接</span><br>
+<span> 本帖最后由 vedacode 于 2020-3-11 17:16 编辑 </span><br>
+<span>笔记本连接家里的WiFi，一直显示“无网络连接”；有时候会偶然变成“网络连接”然后连通一次网络，过一会又会变成“无网络连接”。</span><br>
+<span>可是家里别人的电脑连WiFi上网没有问题；手机连上去也没有问题。</span><br>
+<span>然后，笔记本连别人电脑开的热点或是自己手机的热点上网，就正常了。</span><br>
+<span>我试过重置网络的所有设置；乃至于重新安装系统。问题依然存在。</span><br>
+<span>求各位大神指点迷津。</span><br>
+<span>补充：</span><br>
+<span>家里路由器是Mecury 150R, TPLINK WR842N；网卡则是Intel AC9560</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>兼容性问题，路由和笔记本网卡分别是？</span><br>
+</p><p><b>nexus1: </b><br>
+<span>我能不能问下，老笔记本换新网卡提升带宽可行吗</span><br>
+</p><p><b>vedacode: </b><br>
+<span>依然荏苒 发表于 2020-3-11 17:12</span><br>
+<span>兼容性问题，路由和笔记本网卡分别是？</span><br>
+<span>家里路由器是Mecury 150R, TPLINK WR842N；网卡则是Intel AC9560</span><br>
+</p><p><b>vedacode: </b><br>
+<span>nexus1 发表于 2020-3-11 17:15</span><br>
+<span>我能不能问下，老笔记本换新网卡提升带宽可行吗</span><br>
+<span>额，那得是多老的笔记本？</span><br>
+</p><p><b>john: </b><br>
+<span>vedacode 发表于 2020-3-11 17:15</span><br>
+<span>家里路由器是Mecury 150R, TPLINK WR842N；网卡则是Intel AC9560</span><br>
+<span>……都买新笔记本了，家里的古董路由器换一个吧</span><br>
+</p><p><b>vedacode: </b><br>
+<span>john 发表于 2020-3-11 17:21</span><br>
+<span>……都买新笔记本了，家里的古董路由器换一个吧</span><br>
+<span>可是另一台也算新的电脑可以上网啊。</span><br>
+<span>我苦恼啊。</span><br>
+</p><p><b>radar: </b><br>
+<span>既然不想换路由，那就买根长网线吧，最小成本解决你的苦恼</span><br>
+</p><p><b>UGDJ: </b><br>
+<span> 本帖最后由 UGDJ 于 2020-3-11 18:56 编辑 </span><br>
+<span>亲身体会，wifi这东西就是会有兼容性问题，刚巧我那个也是个老水星</span><br>
+<span>搜图看了下好像就是你这个型号，当时掐架的无线网卡应该是牙膏家的7260</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>nexus1 发表于 2020-3-11 17:15</span><br>
+<span>我能不能问下，老笔记本换新网卡提升带宽可行吗</span><br>
+<span>可行 不过得看机器多老的 如果是minipcie那顶天了也就94360 如果是ngff的话就能上AX200</span><br>
+</p><p><b>继承权: </b><br>
+<span>上intel官网找最新驱动安装试试</span><br>
+</p><p><b>猫熊爱: </b><br>
+<span>2个方案：1.换路由，水星这种低端垃圾牌子你用200换个好点信号强的就行。</span><br>
+<span>2.换笔记本的WIFI模块，需要最基础的动手能力。风险就是新买的WIFI模块与笔记本原装WIFI天线可能适配不好导致信号更糟糕。好处是便宜。</span><br>
+<span>我笔记本的模块是换最新的，比以前的速度和信号稳定性都好了很多。</span><br>
+</p><p><b>nexus1: </b><br>
+<span>Saker_bobo 发表于 2020-3-11 17:49</span><br>
+<span>可行 不过得看机器多老的 如果是minipcie那顶天了也就94360 如果是ngff的话就能上AX200 ...</span><br>
+<span>前年的笔记本，不知道支持什么型号的新网卡</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>nexus1 发表于 2020-3-11 18:26</span><br>
+<span>前年的笔记本，不知道支持什么型号的新网卡</span><br>
+<span>前年的话大概率NGFF 查型号拆机确认吧</span><br>
+</p><p><b>nexus1: </b><br>
+<span>Saker_bobo 发表于 2020-3-11 18:33</span><br>
+<span>前年的话大概率NGFF 查型号拆机确认吧</span><br>
+<span>只要接口一致就能用了？</span><br>
+</p><p><b>killyu: </b><br>
+<span>试试改下信道或者频率？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>要不然你买个USB无线网卡吧，我觉得这样还比较实际</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>nexus1 发表于 2020-3-11 18:40</span><br>
+<span>只要接口一致就能用了？</span><br>
+<span>先看看是不是狗屎CNVI接口 能不能插普通NGFF(M.2)网卡 再看看你的笔记本有没有硬件白名单之类的东西 只能换特定的网卡 都没问题的话 直接买一块AX200换上去应该没问题</span><br>
+<span>最简单的方法是笔记本型号+换无线网卡搜索一下</span><br>
+</p><p><b>str007: </b><br>
+<span>路由器信道</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>想起来了 楼主试下把自家wifi的信道固定到1或者6或者11 国内2.4G开放到1-13信道 如果设备是美版标准就只支持到11</span><br>
+</p><p><b>vedacode: </b><br>
+<span>Saker_bobo 发表于 2020-3-12 01:07</span><br>
+<span>想起来了 楼主试下把自家wifi的信道固定到1或者6或者11 国内2.4G开放到1-13信道 如果设备是美版标准就只支 ...</span><br>
+<span>我检查了，路由器的信道是1</span><br>
+</p><p><b>KULA: </b><br>
+<span>应该是信道问题，以前我遇到过5G路由器自动设了某些信道，然后较老且支持5G的设备就不能连了，</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>看起来像是拦截了啊...</span><br>
+<span>去路由设置界面看看，是不是误开了黑白名单、限速啥的功能？</span><br>
+</p><p><b>vedacode: </b><br>
+<span>liaojings1 发表于 2020-3-12 17:05</span><br>
+<span>看起来像是拦截了啊...</span><br>
+<span>去路由设置界面看看，是不是误开了黑白名单、限速啥的功能？ ...</span><br>
+<span>并没有黑名单设置什么的。</span><br>
+</p><p><b>damien: </b><br>
+<span>供参考：我的工作用的笔记本只要是电池供电就连不上wifi 插电源才行 说是win10的毛病 省电模式会关网卡 然而我把关网卡省电的选项关了依然不行 只能一直接电源了</span><br>
+</p><p><b>vedacode: </b><br>
+<span>damien 发表于 2020-3-12 23:01</span><br>
+<span>供参考：我的工作用的笔记本只要是电池供电就连不上wifi 插电源才行 说是win10的毛病 省电模式会关网卡 然 ...</span><br>
+<span>谢谢。不过，我连接WiFi倒是没什么问题，就是连上之后没网</span><br>
+</p><p><b>螺纹: </b><br>
+<span>我用的斐讯K2路由器，有时候重启路由器之后，我的PC用的intel 9260网卡连上wifi却一直无网络，得我禁用网卡和再次重启路由器后重新启用网卡才能连上，感觉就是兼容问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918292[0-50]</guid>
+    </item>
+  </channel>
+</rss>

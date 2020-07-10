@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PC端S1网页刷着刷着突然就崩了的只有我一个人吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PC端S1网页刷着刷着突然就崩了的只有我一个人吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:45:15 +0000</lastBuildDate>
+    <item>
+      <title>PC端S1网页刷着刷着突然就崩了的只有我一个人吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917359-1-1.html</link>
+      <description>PC端S1网页刷着刷着突然就崩了的只有我一个人吗？&#13;
+老网民用不惯移动端，平时每天还是抱着个笔记本上网，所以刷S1也是在PC端进行的。
+&#13;
+然后大约半个小时之前，这PC端的网页突然莫名其妙就崩了，网页框架显示不正常，大量图标无法显示。麻将脸崩了百分之八十啊这能忍？？？
+&#13;
+刷新多次未能恢复正常，浏览器清缓存仍然无效，重启电脑仍然无效。
+&#13;
+求教各路方家，这种情况是我自己的硬件问题，网络问题，还是S1服务器端的问题呢？要怎么解决呢？多谢了。</description>
+      <content:encoded><![CDATA[<p><b>我是大鲨鱼1979: </b><br>
+<span>PC端S1网页刷着刷着突然就崩了的只有我一个人吗？</span><br>
+<span>老网民用不惯移动端，平时每天还是抱着个笔记本上网，所以刷S1也是在PC端进行的。</span><br>
+<span>然后大约半个小时之前，这PC端的网页突然莫名其妙就崩了，网页框架显示不正常，大量图标无法显示。麻将脸崩了百分之八十啊这能忍？？？</span><br>
+<span>刷新多次未能恢复正常，浏览器清缓存仍然无效，重启电脑仍然无效。</span><br>
+<span>求教各路方家，这种情况是我自己的硬件问题，网络问题，还是S1服务器端的问题呢？要怎么解决呢？多谢了。</span><br>
+</p><p><b>sevra: </b><br>
+<span>就没考虑过换个浏览器试试？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>我是大鲨鱼1979: </b><br>
+<span>sevra 发表于 2020-3-7 21:36</span><br>
+<span>就没考虑过换个浏览器试试？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+<span>当时换了傲游和360，都没解决问题。不过现在已经解决了。</span><br>
+<span>追溯起来，貌似S1的图库用了百度云的某些服务；而最近可能因为我用了pandownload，百度把我的IP列入可疑名单了，导致访问这些服务器时必须要手动输验证码，如果是浏览器直接访问图库服务器，就会被拒绝，所以S1界面上的图标啊图片啊这些统统都刷不出来了。</span><br>
+<span>解决的办法是点某个图标占位符，选择在新窗口里打开，这等于是开了一个直接访问图库所在服务器的窗口；这个新窗口里会提供输入验证码的功能，输入一次证明不是机器访问之后，似乎对我这个IP的封锁就自动解除了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917359[0-50]</guid>
+    </item>
+  </channel>
+</rss>

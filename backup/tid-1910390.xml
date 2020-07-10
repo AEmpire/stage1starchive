@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD PBO设置心得</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD PBO设置心得</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:38:31 +0000</lastBuildDate>
+    <item>
+      <title>AMD PBO设置心得[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910390-1-1.html</link>
+      <description>AMD PBO设置心得&#13;
+ 本帖最后由 magpte 于 2020-1-22 22:06 编辑 
+
+自用3600，用b450 mortar max
+
+PBO ENHANCED mode4
+
+降压-0.1(reddit有人说可以到-0.125)平时1.45v，全核1.33v，温度最高就73，室温18
+
+我的u体质还可以吧，1.4v可以4.3，还是自动适合我
+
+终于cb r20 可以3500了，测试的时候尽量cpu占用率低于10才正常</description>
+      <content:encoded><![CDATA[<p><b>magpte: </b><br>
+<span>AMD PBO设置心得</span><br>
+<span> 本帖最后由 magpte 于 2020-1-22 22:06 编辑 </span><br>
+<span>自用3600，用b450 mortar max</span><br>
+<span>PBO ENHANCED mode4</span><br>
+<span>降压-0.1(reddit有人说可以到-0.125)平时1.45v，全核1.33v，温度最高就73，室温18</span><br>
+<span>我的u体质还可以吧，1.4v可以4.3，还是自动适合我</span><br>
+<span>终于cb r20 可以3500了，测试的时候尽量cpu占用率低于10才正常</span><br>
+</p><p><b>albertfu: </b><br>
+<span>既然有hwinfo，试试开个温度曲线图和频率曲线图？</span><br>
+<span>可能是散热没装好降频了</span><br>
+</p><p><b>magpte: </b><br>
+<span> 本帖最后由 magpte 于 2020-1-22 16:22 编辑 </span><br>
+<span>albertfu 发表于 2020-1-22 15:51</span><br>
+<span>既然有hwinfo，试试开个温度曲线图和频率曲线图？</span><br>
+<span>可能是散热没装好降频了 ...</span><br>
+<span>温度很漂亮，70都没有。。。。。温度一直上不去</span><br>
+<span>如果分数有2900，那么温度会有70多一点，但无奈除了锁ryzen master，都很难上</span><br>
+<span>待机平常使用一般是40-55左右</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>albertfu: </b><br>
+<span>magpte 发表于 2020-1-22 16:18</span><br>
+<span>温度很漂亮，70都没有。。。。。一直上不去</span><br>
+<span>如果分数有2900，那么温度会有70多一点，但无奈除了锁ryzen m ...</span><br>
+<span> 肯定是bios或者windows哪里抽风了，试试清空cmos吧，最方便最快</span><br>
+</p><p><b>magpte: </b><br>
+<span>albertfu 发表于 2020-1-22 16:22</span><br>
+<span>肯定是bios或者windows哪里抽风了，试试清空cmos吧，最方便最快</span><br>
+<span>晚上重装吧。。。。。cmos也清空一下，就是谷歌备份重装之后要重新同步就很痛苦</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>我刚买的时候跑过R20，PBO，频率应该是3997mhz，分数应该是3500-3600，反正比平均水平低个100-200</span><br>
+</p><p><b>magpte: </b><br>
+<span>伊克路西安 发表于 2020-1-22 16:28</span><br>
+<span>我刚买的时候跑过R20，PBO，频率应该是3997mhz，分数应该是3500-3600，反正比平均水平低个100-200 ...</span><br>
+<span>卧槽。。。。为什么我的低到这个样子。。。。。您内存是只调节了fclk 1800嘛</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<img src="https://tvax4.sinaimg.cn/large/005N28QLly1gb5fu9r4i2j32yj1mce83.jpg" title="https://tvax4.sinaimg.cn/large/005N28QLly1gb5fu9r4i2j32yj1mce83.jpg"><br>
+<span>刚才下载下来又跑了一遍</span><br>
+<span>我现在是1.3375v 锁 4.1</span><br>
+<span>内存 科赋 CJR 16g*21.37v 时序频率如图，正1T</span><br>
+<span>主板b450 迫击炮max</span><br>
+</p><p><b>magpte: </b><br>
+<span>伊克路西安 发表于 2020-1-22 16:53</span><br>
+<span>刚才下载下来又跑了一遍</span><br>
+<span>我现在是1.3375v 锁 4.1</span><br>
+<span>内存 科赋 CJR 16g*21.37v 时序频率如图，正1T</span><br>
+<span>回家清cmos重装好了卧槽，直接性能砍了三分一</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>magpte: </b><br>
+<span>伊克路西安 发表于 2020-1-22 16:53</span><br>
+<span>刚才下载下来又跑了一遍</span><br>
+<span>我现在是1.3375v 锁 4.1</span><br>
+<span>内存 科赋 CJR 16g*21.37v 时序频率如图，正1T</span><br>
+<span>对了PBO是Enable还是Enhance mode X</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>magpte 发表于 2020-1-22 17:58</span><br>
+<span>对了PBO是Enable还是Enhance mode X</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>pbo不太了解。。反正我开pbo全核频率上不去后来就降压锁频用了</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>magpte: </b><br>
+<span>伊克路西安 发表于 2020-1-22 18:01</span><br>
+<span>pbo不太了解。。反正我开pbo全核频率上不去后来就降压锁频用了</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1 ...</span><br>
+<span>好吧，尝试一下，感觉可能还要拆了重新安装一下cpu</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>magpte 发表于 2020-1-22 19:11</span><br>
+<span>好吧，尝试一下，感觉可能还要拆了重新安装一下cpu</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v ...</span><br>
+<span>你不是分正常了吗 咋还要折腾</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> 本帖最后由 gofbayrf 于 2020-1-22 19:25 编辑 </span><br>
+<span> 也跑了一下   鎖4.13695    3200@C16</span><br>
+</p><p><b>magpte: </b><br>
+<span>伊克路西安 发表于 2020-1-22 19:21</span><br>
+<span>你不是分正常了吗 咋还要折腾</span><br>
+<span>还没到家哈哈哈，分不正常啊，我没试过3000pts以上</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>我的3950x超频全关，3.5G，内存也不超，r20都有8000分</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>magpte: </b><br>
+<span>搞了个windows to go分数就好起来了，会不会我开机之后程序太多。。。。。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>magpte 发表于 2020-1-22 17:58</span><br>
+<span>对了PBO是Enable还是Enhance mode X</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>PBO开Enable就行，开mode X只会傻乎乎地提高电压然后撞温度墙</span><br>
+</p><p><b>magpte: </b><br>
+<span>试制甲炮 发表于 2020-1-22 20:59</span><br>
+<span>PBO开Enable就行，开mode X只会傻乎乎地提高电压然后撞温度墙</span><br>
+<span>有办法设置不撞嘛？鼓捣了一大轮还是不会</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>magpte 发表于 2020-1-22 21:18</span><br>
+<span>有办法设置不撞嘛？鼓捣了一大轮还是不会</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>那老老实实定频定压，直接设个4.1G 1.3V试试。跑分看看怎样</span><br>
+</p><p><b>magpte: </b><br>
+<span>试制甲炮 发表于 2020-1-22 21:20</span><br>
+<span>那老老实实定频定压，直接设个4.1G 1.3V试试。跑分看看怎样</span><br>
+<span>那算了，现在3700也可以了，之前只有2900真的无语</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>騜: </b><br>
+<span>1.275@4.1Ghz</span><br>
+<span>3688pt</span><br>
+<span>3600C18</span><br>
+</p><p><b>各种浪: </b><br>
+<span>1.35v，一个CCX4.2，一个4.3可以跑3871</span><br>
+<span>如果是1.4@4.3，可以3935</span><br>
+</p><p><b>韶华白首: </b><br>
+<span> 本帖最后由 韶华白首 于 2020-1-22 23:01 编辑 </span><br>
+<span>1.375 锁4.1 温度很舒服 关了PBO内存超到 3600 16 19 19 39</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>1.22v 全核4.0ghz 3800c16</span><br>
+<span>分数是3651 虽然感觉这点差异没什么用就是了...</span><br>
+</p><p><b>sssfans: </b><br>
+<span>借楼问一下，微星bios里那个game boost，开启之后锁4.25GHZ好用吗？</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>sssfans 发表于 2020-1-23 12:16</span><br>
+<span>借楼问一下，微星bios里那个game boost，开启之后锁4.25GHZ好用吗？</span><br>
+<span>不好風扇全功率 電壓爆炸   cpu本身體質也未必能全核4.2接下來就是黑屏地獄</span><br>
+</p><p><b>听雷而起: </b><br>
+<span>体质不好，u 1.3375v 4.2</span><br>
+<span>c9，3800c16 参数就没得bdie好看 便宜</span><br>
+</p><p><b>magpte: </b><br>
+<span>听雷而起 发表于 2020-1-23 13:14</span><br>
+<span>体质不好，u 1.3375v 4.2</span><br>
+<span>c9，3800c16 参数就没得bdie好看 便宜</span><br>
+<span>大佬时序电压怎么样？小参如何哦？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lixkang: </b><br>
+<span>其实降压会损失一点性能的，对比降和没降时的跑分就看出来了。</span><br>
+<span>----发送自 Xiaomi Redmi K20 Pro Premium Edition,Android 10</span><br>
+</p><p><b>Ozen: </b><br>
+<span>这种超频能带来多少钱的性能提升啊？</span><br>
+</p><p><b>‭‭‭: </b><br>
+<span>3700X，1.275V，锁4.2GHZ</span><br>
+<span>内存3466C16</span><br>
+</p><p><b>magpte: </b><br>
+<span> 本帖最后由 magpte 于 2020-1-23 20:04 编辑 </span><br>
+<span>‭‭‭ 发表于 2020-1-23 13:56</span><br>
+<span>3700X，1.275V，锁4.2GHZ</span><br>
+<span>内存3466C16</span><br>
+<span>3700好吧！！</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>magpte: </b><br>
+<span>Ozen 发表于 2020-1-23 13:35</span><br>
+<span>这种超频能带来多少钱的性能提升啊？</span><br>
+<span>唔，按照比例来说，赚了150到300软妹币</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910390[0-50]</guid>
+    </item>
+  </channel>
+</rss>

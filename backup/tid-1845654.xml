@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[码农论坛]循环使用一个数组是不是会受到引擎啊机制等影响</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[码农论坛]循环使用一个数组是不是会受到引擎啊机制等影响</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:08:18 +0000</lastBuildDate>
+    <item>
+      <title>[码农论坛]循环使用一个数组是不是会受到引擎啊机制等影响[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845654-1-1.html</link>
+      <description>[码农论坛]循环使用一个数组是不是会受到引擎啊机制等影响&#13;
+ 本帖最后由 mhfdt 于 2019-7-11 09:43 编辑 
+
+#Unity开发 #网络功能
+&#13;
+简单的说，同步位置信息
+&#13;
+旧方法：
+&#13;
+new一个float[]，然后把位置信息（transform.position）转进去，打包同步
+&#13;
+新方法：
+&#13;
+在外面定义一个私有的float[]，然后把位置信息写到这个float[]里，打包同步。以后所有的数据都用这个数组转写打包同步。
+&#13;
+然后就不灵了，位置信息完全没有同步的样子，A机上走动B机上观察是看不到A移动的。
+&#13;
+数据本身是有的，网络同步部分也正常。用控制变量法把位置，角度，速度三个一起同步的值用新旧方法混搭测试，确认就是新方法循环使用一个数组有问题。
+&#13;
+换新方法原因很简单，防止内存泄露。
+&#13;
+但是百思不得其解。数值，类型都是一样的，为什么换了个指定的数组循环用就出问题了呢？
+&#13;
+简化版代码：
+&#13;
+public void SyncNetwork()
+&#13;
+{
+&#13;
+    //人物数据 update
+&#13;
+    //_outUpdateSignificant 判断是否有位移发生
+&#13;
+    if (_outUpdateSignificant)
+&#13;
+    {
+&#13;
+            update.Position = transform.position.ToFloatArrayEfficient(tempPos);
+&#13;
+            update.Rotation = transform.rotation.ToFloatArrayEfficient(tempRot);
+&#13;
+            update.Velocity = Velocity.ToFloatArrayEfficient(tempVel);
+&#13;
+            _outUpdate = update;
+&#13;
+}
+&#13;
+//tempPos, tempRot, tempVel是在外面定义的三个float[]，用于循环使用。
+&#13;
+//之后update里发送_outUpdate的数据出去
+&#13;
+//旧方法
+&#13;
+public static float[] ToFloatArray(this Vector3 v)
+&#13;
+    {
+&#13;
+      return new[] {v.x, v.y, v.z};
+&#13;
+    }
+&#13;
+//新方法
+&#13;
+public static float[] ToFloatArrayEfficient(this Vector3 v, float[] array)
+&#13;
+    {
+&#13;
+      array = v.x;
+&#13;
+      array = v.y;
+&#13;
+      array = v.z;
+&#13;
+      return array;
+&#13;
+    }
+&#13;
+请注意这是已经正式上线的项目，目前在进行优化，其他一切正常，只有在把旧方法换成新方法的这里会出现问题。不用去考虑其他什么同步是不是有问题的什么，都测过了。</description>
+      <content:encoded><![CDATA[<p><b>mhfdt: </b><br>
+<span>[码农论坛]循环使用一个数组是不是会受到引擎啊机制等影响</span><br>
+<span> 本帖最后由 mhfdt 于 2019-7-11 09:43 编辑 </span><br>
+<span>#Unity开发 #网络功能</span><br>
+<span>简单的说，同步位置信息</span><br>
+<span>旧方法：</span><br>
+<span>new一个float[]，然后把位置信息（transform.position）转进去，打包同步</span><br>
+<span>新方法：</span><br>
+<span>在外面定义一个私有的float[]，然后把位置信息写到这个float[]里，打包同步。以后所有的数据都用这个数组转写打包同步。</span><br>
+<span>然后就不灵了，位置信息完全没有同步的样子，A机上走动B机上观察是看不到A移动的。</span><br>
+<span>数据本身是有的，网络同步部分也正常。用控制变量法把位置，角度，速度三个一起同步的值用新旧方法混搭测试，确认就是新方法循环使用一个数组有问题。</span><br>
+<span>换新方法原因很简单，防止内存泄露。</span><br>
+<span>但是百思不得其解。数值，类型都是一样的，为什么换了个指定的数组循环用就出问题了呢？</span><br>
+<span>简化版代码：</span><br>
+<span>public void SyncNetwork()</span><br>
+<span>{</span><br>
+<span>    //人物数据 update</span><br>
+<span>    //_outUpdateSignificant 判断是否有位移发生</span><br>
+<span>    if (_outUpdateSignificant)</span><br>
+<span>    {</span><br>
+<span>            update.Position = transform.position.ToFloatArrayEfficient(tempPos);</span><br>
+<span>            update.Rotation = transform.rotation.ToFloatArrayEfficient(tempRot);</span><br>
+<span>            update.Velocity = Velocity.ToFloatArrayEfficient(tempVel);</span><br>
+<span>            _outUpdate = update;</span><br>
+<span>}</span><br>
+<span>//tempPos, tempRot, tempVel是在外面定义的三个float[]，用于循环使用。</span><br>
+<span>//之后update里发送_outUpdate的数据出去</span><br>
+<span>//旧方法</span><br>
+<span>public static float[] ToFloatArray(this Vector3 v)</span><br>
+<span>    {</span><br>
+<span>      return new[] {v.x, v.y, v.z};</span><br>
+<span>    }</span><br>
+<span>//新方法</span><br>
+<span>public static float[] ToFloatArrayEfficient(this Vector3 v, float[] array)</span><br>
+<span>    {</span><br>
+<span>      array = v.x;</span><br>
+<span>      array = v.y;</span><br>
+<span>      array = v.z;</span><br>
+<span>      return array;</span><br>
+<span>    }</span><br>
+<span>请注意这是已经正式上线的项目，目前在进行优化，其他一切正常，只有在把旧方法换成新方法的这里会出现问题。不用去考虑其他什么同步是不是有问题的什么，都测过了。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>你要在一个循环里防止内存泄漏，new完了自己null掉不就好了，后面gc会帮你做，重复引用一个引用类型，谁知道会不会在别的地方把这个引用又重复赋上其他值</span><br>
+</p><p><b>HMHM: </b><br>
+<span>复用buffer没有问题，有问题的是你的逻辑</span><br>
+</p><p><b>暗铁: </b><br>
+<span>首先你这样会有线程安全问题</span><br>
+<span>其次C#默认是传值的，你更新这个数组的姿势不对是会没有效果的</span><br>
+</p><p><b>mhfdt: </b><br>
+<span>问题是，这个是要在update中调用的，即使new了再清也是负担吧</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-7-10 19:25 编辑 </span><br>
+<span>mhfdt 发表于 2019-7-10 18:23</span><br>
+<span> 问题是，这个是要在update中调用的，即使new了再清也是负担吧</span><br>
+<span>update是不能new</span><br>
+</p><p><b>dazzle: </b><br>
+<span>就这么说两句能看出来啥，自己开debugger或者写log看哪步出了问题呗</span><br>
+</p><p><b>tgzeror: </b><br>
+<span>不行就上代码，把updatd里的贴出来给大家看看</span><br>
+</p><p><b>シャスタ: </b><br>
+<span> 本帖最后由 シャスタ 于 2019-7-10 21:10 编辑 </span><br>
+<span>c# pass array by reference </span><br>
+<span>关键字放狗.</span><br>
+<span>其实自己写俩测试的事情吧,不费劲吧.</span><br>
+<span>基本上你把数组名扔到方法里,之后要去改通过数组名指到的最终对象上面,不能修改数组名本身,因为外面方法把数组地址扔进去而已,并不关心你把这个指针本身改成啥样子.</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>C#内置的托管类型直接用就是了，哪有那么容易泄露</span><br>
+</p><p><b>龟丞相: </b><br>
+<span>开盘喽开盘喽，猜猜楼主是把struct当class用了还是把property当field用了</span><br>
+<span>（好啦说正经的，新手不先了解C#这俩特性直接上手撸的话确实容易造成迷惑，所以我猜原因是其中之一，要不然就是别的更低级的错误）</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>龟丞相 发表于 2019-7-10 21:40</span><br>
+<span>开盘喽开盘喽，猜猜楼主是把struct当class用了还是把property当field用了</span><br>
+<span>（好啦说正经的，新手不 ...</span><br>
+<span>property 相当于不能获得 field 的引用只能经过对象对 field 进行访问？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>我估计是深拷贝浅拷贝之类的问题，你试试clone之类的方法</span><br>
+<span>另说，数组怎么可能会泄露呢，长度不是固定的吗</span><br>
+</p><p><b>龟丞相: </b><br>
+<span>アーシェス 发表于 2019-7-10 21:53</span><br>
+<span>property 相当于不能获得 field 的引用只能经过对象对 field 进行访问？</span><br>
+<span>property是对getter和setter这种模板函数简化成像变量一样取值赋值的语法糖，函数具体什么行为没有说固定是什么，而要看提供者的文档说明。可能直接return一个私有变量，也可能是用几个变量现场计算一个值然后返回（即惰性求值风格），甚至有可能在远程服务器上执行rm -rf /然后发一个邮件叫开发者跑路最后返回你一个null</span><br>
+<span>像LZ的情况，就有可能取了一个float[] xxx { get; set; }，而返回的其实不是实际的buffer而是一个拷贝而已</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>龟丞相 发表于 2019-7-10 22:19</span><br>
+<span>property是对getter和setter这种模板函数简化成像变量一样取值赋值的语法糖，函数具体什么行为没有说固定 ...</span><br>
+<span>噢，往临时拷贝里更新数据</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>精钢魔像 发表于 2019-7-10 22:07</span><br>
+<span> 我估计是深拷贝浅拷贝之类的问题，你试试clone之类的方法 另说，数组怎么可能会泄露呢，长度不是固定的吗 ...</span><br>
+<span>每帧都在new一大堆数组的话，会把mono的managed heap撑的很大，然后一个GC下来游戏开始跳帧，最后清掉多少垃圾看缘分，有的版本可能有一大部分都清不掉</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>すぴぱら 发表于 2019-7-10 22:33</span><br>
+<span>每帧都在new一大堆数组的话，会把mono的managed heap撑的很大，然后一个GC下来游戏开始跳帧，最后清掉多 ...</span><br>
+<span>没有必要每帧都new吧。我没做过游戏，我猜可以按场景的最大角色数在加载时new好，用不到置0就可以了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>当然是fixed unsafe 指针走起啦</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>薛素姐: </b><br>
+<span>数据同步正常就有鬼了。b 机器收到数据包了吗？收到了还不动那就是b机的问题了。</span><br>
+</p><p><b>HMHM: </b><br>
+<span>楼主代码都不贴，打空气靶打得出个什么鬼。</span><br>
+</p><p><b>mhfdt: </b><br>
+<span>代码贴了，诸位再看看吧</span><br>
+</p><p><b>HMHM: </b><br>
+<span>额，你写完buffer后的赋值操作需要保证同步的把数据从buffer中读走啊，不然下一个写buffer操作马上就来了，把上一次写的数据覆盖掉了。 而每次new一个新buffer就不会有这个问题。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845654[0-50]</guid>
+    </item>
+  </channel>
+</rss>

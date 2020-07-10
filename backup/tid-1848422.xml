@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Android手机的闪存掉速完全无法挽救吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Android手机的闪存掉速完全无法挽救吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:50:47 +0000</lastBuildDate>
+    <item>
+      <title>Android手机的闪存掉速完全无法挽救吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848422-1-1.html</link>
+      <description>Android手机的闪存掉速完全无法挽救吗？&#13;
+ 本帖最后由 席瑞·基顿 于 2019-7-22 17:32 编辑 
+
+U盘是能通过写0来挽回一些性能的，手机就不行吗？除非换闪存芯片？</description>
+      <content:encoded><![CDATA[<p><b>席瑞·基顿: </b><br>
+<span>Android手机的闪存掉速完全无法挽救吗？</span><br>
+<span> 本帖最后由 席瑞·基顿 于 2019-7-22 17:32 编辑 </span><br>
+<span>U盘是能通过写0来挽回一些性能的，手机就不行吗？除非换闪存芯片？</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>全盘写0可以，但是手机不让全盘写。。</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>twy_2000: </b><br>
+<span>恢复出厂设置就行了啊。</span><br>
+<span>系统recovery都是直接mkfs重建分区的。</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>twy_2000 发表于 2019-7-22 18:06</span><br>
+<span>恢复出厂设置就行了啊。</span><br>
+<span>系统recovery都是直接mkfs重建分区的。</span><br>
+<span>但flash脏块都还在啊</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>sblnrrk 发表于 2019-7-22 17:57</span><br>
+<span>全盘写0可以，但是手机不让全盘写。。</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>哪怕root也不行吗</span><br>
+</p><p><b>twy_2000: </b><br>
+<span> 本帖最后由 twy_2000 于 2019-7-22 18:14 编辑 </span><br>
+<span>席瑞·基顿 发表于 2019-7-22 18:11</span><br>
+<span>但flash脏块都还在啊</span><br>
+<span>先清空，然后下个trim软件，手动trim。</span><br>
+<span>不过，我很好奇，格式化之后的ssd为什么会被flash脏块影响。</span><br>
+<span>在文件系统层级，这些flash脏块已经不存在了啊。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>https://superuser.com/questions/1242000/can-i-emulate-trim-by-writing-all-zeros</span><br>
+<span>对于ssd来说写0才是迷惑行为</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>席瑞·基顿: </b><br>
+<span>zatsuza 发表于 2019-7-22 18:15</span><br>
+<span>https://superuser.com/questions/1242000/can-i-emulate-trim-by-writing-all-zeros</span><br>
+<span>对于ssd来说写0才是 ...</span><br>
+<span>那么现在的Android系统的trim机制是什么？如果能自动触发的话我就不去折腾root了。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>我上上周线刷了9.0后，突然流畅了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>席瑞·基顿 发表于 2019-7-22 18:20</span><br>
+<span>那么现在的Android系统的trim机制是什么？如果能自动触发的话我就不去折腾root了。 ...</span><br>
+<span>这个我找不到确切信息，但是个人体验双清重置能恢复</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>啥机子？三棒老手机基本没救，闪存不行了怎么弄都是卡卡的</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>calmer: </b><br>
+<span>席瑞·基顿 发表于 2019-7-22 18:20</span><br>
+<span>那么现在的Android系统的trim机制是什么？如果能自动触发的话我就不去折腾root了。 ...</span><br>
+<span>vold自动管理了。而且linux内核也有一些机制自动触发trim。不要拿七八年前的事情往现在的东西上套。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Korlorn: </b><br>
+<span>重点是别塞太满，留足剩余空间，现在系统都有闲时trim和gc的。</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848422[0-50]</guid>
+    </item>
+  </channel>
+</rss>

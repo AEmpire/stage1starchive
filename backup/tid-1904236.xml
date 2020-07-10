@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>开发人员谈为什么选择Firefox而不是Chromium上创建分支</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>开发人员谈为什么选择Firefox而不是Chromium上创建分支</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:55 +0000</lastBuildDate>
+    <item>
+      <title>开发人员谈为什么选择Firefox而不是Chromium上创建分支[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904236-1-1.html</link>
+      <description>开发人员谈为什么选择Firefox而不是Chromium上创建分支&#13;
+今天绝大多数浏览器都是基于 Chromium—— Google Chrome 的开源版本，但也有少数选择了另一个开源浏览器 Firefox，其中一位就是 Cliqz。Cliqz 于 2015 年在 Firefox 基础上发布了自己的桌面浏览器，它发表博文解释为什么在 Firefox 而不是 Chromium 上创建分支：
+&#13;
+      从技术角度谈，Firefox 的所有浏览器功能都有 open API，而 Chromium 保留了对 Google 业务敏感的地方，一个典型例子就是地址栏，Google 无意让其他人更容易的控制地址栏，默认搜索引擎的流向也受到保护，创建新 API 可以解决这些问题，但维护这些 API 就成为了另一个难题。
+&#13;
+http://static.cnbetacdn.com/thumb/article/2019/1219/ec34b3c0b54330e.png
+&#13;
+Google 对旧 API 的支持既不连贯也不一致，Chrome 的新 API Manifest v3 就以隐私、安全和性能等理由替换了旧的更强大更有用的 API。
+&#13;
+Chrome 捆绑的 Google 服务也不容易移除，为了剥离这些服务微软和 Brave 都投入了大量资源。                              
+&#13;
+http://static.cnbetacdn.com/thumb/article/2019/1219/f1b4bbb70fd208a.jpg</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>开发人员谈为什么选择Firefox而不是Chromium上创建分支</span><br>
+<span>今天绝大多数浏览器都是基于 Chromium—— Google Chrome 的开源版本，但也有少数选择了另一个开源浏览器 Firefox，其中一位就是 Cliqz。Cliqz 于 2015 年在 Firefox 基础上发布了自己的桌面浏览器，它发表博文解释为什么在 Firefox 而不是 Chromium 上创建分支：</span><br>
+<span>      从技术角度谈，Firefox 的所有浏览器功能都有 open API，而 Chromium 保留了对 Google 业务敏感的地方，一个典型例子就是地址栏，Google 无意让其他人更容易的控制地址栏，默认搜索引擎的流向也受到保护，创建新 API 可以解决这些问题，但维护这些 API 就成为了另一个难题。</span><br>
+<img src="http://static.cnbetacdn.com/thumb/article/2019/1219/ec34b3c0b54330e.png" title="http://static.cnbetacdn.com/thumb/article/2019/1219/ec34b3c0b54330e.png"><br>
+<span>Google 对旧 API 的支持既不连贯也不一致，Chrome 的新 API Manifest v3 就以隐私、安全和性能等理由替换了旧的更强大更有用的 API。</span><br>
+<span>Chrome 捆绑的 Google 服务也不容易移除，为了剥离这些服务微软和 Brave 都投入了大量资源。                              </span><br>
+<img src="http://static.cnbetacdn.com/thumb/article/2019/1219/f1b4bbb70fd208a.jpg" title="http://static.cnbetacdn.com/thumb/article/2019/1219/f1b4bbb70fd208a.jpg"><br>
+</p><p><b>zyhang: </b><br>
+<span>谷歌开源出来的东西就像瘟疫公司，chromium，Android，tensorflow，golang，大规模传播，然后任其摆布</span><br>
+</p><p><b>hecas: </b><br>
+<span>以后摆脱这些蠕虫越来越难了</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>windbms: </b><br>
+<span>那么，自己定制firefox该如何入手呢，求大佬指点</span><br>
+</p><p><b>linux40: </b><br>
+<span>windbms 发表于 2019-12-20 12:23</span><br>
+<span>那么，自己定制firefox该如何入手呢，求大佬指点</span><br>
+<span>当然可以看某著名编程博主的firefox定制文，中文还没比他详细的。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>linux40 发表于 2019-12-20 17:17</span><br>
+<span>当然可以看某著名编程博主的firefox定制文，中文还没比他详细的。</span><br>
+<span>所以某著名编程博主的名字有什么不能说的吗？</span><br>
+</p><p><b>windbms: </b><br>
+<span>runningcheese</span><br>
+<span>我知道这个，但是没用过</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>制作pcxfirefox的xunxun1982，之前在卡饭论坛一直发布编译教程？</span><br>
+<span>___________</span><br>
+<span>我似乎记得有个编译中文firefox的得了绝症？</span><br>
+</p><p><b>LoliType: </b><br>
+<span>网上有删除了谷歌业务相关代码的去谷歌化chrome，不过就是不知道具体效果怎么样。</span><br>
+<span>地址是 https://ungoogled-software.github.io/ungoogled-chromium-binaries/ </span><br>
+<span>火狐改用量子引擎后好像还没有第三方跟进，不过老引擎拖累太重，也算是断臂重生吧。</span><br>
+</p><p><b>linux40: </b><br>
+<span>若荼泱 发表于 2019-12-20 17:23</span><br>
+<span>所以某著名编程博主的名字有什么不能说的吗？</span><br>
+<span>blogspot的著名编程博主，中文。</span><br>
+</p><p><b>沙漏: </b><br>
+<span>我是两个都装了，平时主用Firefox</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>移除了谷歌服务的chromium， vivaldi和brave？</span><br>
+</p><p><b>defer: </b><br>
+<span>若荼泱 发表于 2019-12-20 17:23</span><br>
+<span>所以某著名编程博主的名字有什么不能说的吗？</span><br>
+<span>我猜他指的是编程随想</span><br>
+<span>但我觉得4#需要的不是编程随想主打的这种定制</span><br>
+</p><p><b>风吹涟漪: </b><br>
+<span>windbms 发表于 2019-12-20 12:23</span><br>
+<span>那么，自己定制firefox该如何入手呢，求大佬指点</span><br>
+<span>区里不是有个Firefox专楼吗？下载一个国际版的Firefox，然后按需安装扩展就好了</span><br>
+<span>Firefox57后在废弃XUL和XCOMP引入webextensions以后，自由度大不如前了，用不着使劲折腾了</span><br>
+</p><p><b>LoliType: </b><br>
+<span>すぴぱら 发表于 2019-12-20 23:10</span><br>
+<span>移除了谷歌服务的chromium， vivaldi和brave？</span><br>
+<span>brave差不多是这个目的，不过它的商业模式是卖它的专门广告，所以有疑虑的人不少。</span><br>
+<span>vivaldi的目的是在chromium基础上重建opera，在隐私保护方面做得不如brave所宣称那么多，这不是最重点。</span><br>
+<span>由于chromium由谷歌把控，当今大量浏览器标准也由谷歌制定，所以浏览器的去谷歌化只能正处于并将长期处于初级阶段。</span><br>
+<span>— from Xiaomi Redmi Note 5, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>移除了 Google 服务依赖的 ungoogled-chromium</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>一直用的第三方Fx，感觉良好</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>kumh: </b><br>
+<span>zyhang 发表于 2019-12-20 12:08</span><br>
+<span>谷歌开源出来的东西就像瘟疫公司，chromium，Android，tensorflow，golang，大规模传播，然后任其摆布 ...</span><br>
+<span>对于golang，深表赞同。</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>Brave 装过一次就不再用了。这是用浏览器，还是在做任务？tab 页竟然能乱成这样。这样的浏览标榜自己重视隐私，实在说服不了我。FF 最近速度也没问题了，实在有个别兼容问题还不如开 Cent 或者 Chrome。</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>用FF刷S1总是有图片刷不出来，包括并且不限于麻将脸和头像</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904236[0-50]</guid>
+    </item>
+  </channel>
+</rss>

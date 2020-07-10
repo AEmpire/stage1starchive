@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在windows的内存管理策略到底是怎样的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在windows的内存管理策略到底是怎样的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:31:32 +0000</lastBuildDate>
+    <item>
+      <title>现在windows的内存管理策略到底是怎样的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861021-1-1.html</link>
+      <description>现在windows的内存管理策略到底是怎样的？&#13;
+16g内存，物理内存除了跑memtest之外，永远用不到50%，同时有十来G进虚拟内存，所以系统是为什么不把剩下的物理内存拿来用？</description>
+      <content:encoded><![CDATA[<p><b>midearth: </b><br>
+<span>现在windows的内存管理策略到底是怎样的？</span><br>
+<span>16g内存，物理内存除了跑memtest之外，永远用不到50%，同时有十来G进虚拟内存，所以系统是为什么不把剩下的物理内存拿来用？</span><br>
+</p><p><b>macos: </b><br>
+<span>和你运行的历史有关，已创建的页面不会收缩，同一账号下运行的也不回收，想回收就退出账户，要收缩就重启系统</span><br>
+</p><p><b>welcom: </b><br>
+<span>不久以前还有喷为啥WIN10一开机就占掉一大块内存去备用的，还有千方百计想剪掉这块的消耗的，就为了那数字好看一点</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>同时有十来G进虚拟内存</span><br>
+<span>这个虚拟内存不等于页面文件吧</span><br>
+<span>还是说windows10真的那么坑，</span><br>
+</p><p><b>咲月露娜: </b><br>
+<img src="https://i.loli.net/2019/10/23/UeJh8V4yEIkY7am.jpg" title="https://i.loli.net/2019/10/23/UeJh8V4yEIkY7am.jpg"><br>
+<span>多开点东西，就用到了</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>用着不卡就行。嫌虚拟内存占了硬盘空间就缩小或换个地方。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>nb33: </b><br>
+<span>只有一个原因：Chrome标签页开得太少</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>凛凛233 发表于 2019-10-23 19:36</span><br>
+<span>这个虚拟内存不等于页面文件吧</span><br>
+<span>还是说windows10真的那么坑，</span><br>
+<span>就是那么坑</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>任务管理器里显示的空闲不是真的空闲，要去资源管理器看</span><br>
+<span>—— 来自 samsung SM-A6060, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>epilogue: </b><br>
+<span>chrome开的标签太少+10086</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>Realplayer 发表于 2019-10-23 21:25</span><br>
+<span>就是那么坑</span><br>
+<span>我不信</span><br>
+</p><p><b>disrupt: </b><br>
+<span>分配了十来G虚拟内存 ≠ 十来G进虚拟内存</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>我只知道昨天瘟十的“照片”吃了我4G内存</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>midearth: </b><br>
+<span>plusSharp 发表于 2019-10-23 21:55</span><br>
+<span>任务管理器里显示的空闲不是真的空闲，要去资源管理器看</span><br>
+<span>—— 来自 samsung SM-A6060, Android 9上的 S1Ne ...</span><br>
+<span>资源管理器里面物理内存的备用和可用是什么意思？</span><br>
+<span>其实是最近偶而会报内存不足，把chrome重启一下就能解决。但是这时候任务显示器里chrome也才占了20+%的内存，物理内存也显示有一半空闲，只是已提交里两个数字几乎一样。所以到底是哪里的问题？</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>midearth 发表于 2019-10-26 20:18</span><br>
+<span>资源管理器里面物理内存的备用和可用是什么意思？</span><br>
+<span>其实是最近偶而会报内存不足，把chrome重启一下就能解 ...</span><br>
+<span>可用：可以直接拿来用的内存，是空闲部分。备用：已经在用的内存，可用不够的话就把里面的内容换掉强行用。至于chrome 导致内存不足的情况我从没遇到过，我换win10以后只有玩正当防卫3的时候报过内存不足，这种情况下一般都是memory compression 占用的特别高</span><br>
+</p><p><b>Cray: </b><br>
+<span>笑死，明明最吃内存的是edge，开个100个就10g内存了</span><br>
+<span>Chrome算个蛋蛋。 </span><br>
+<span>----发送自 Sony H8296,Android 9</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>上了pdd的车，用微星Z370I整了个9600KF+32G内存的P社专用机，CPU干到了5.2G,内存也干到了4000 CL19</span><br>
+<span>出去一看内存还没占满，但是天际线还是卡</span><br>
+</p><p><b>midearth: </b><br>
+<span>plusSharp 发表于 2019-10-26 20:47</span><br>
+<span>可用：可以直接拿来用的内存，是空闲部分。备用：已经在用的内存，可用不够的话就把里面的内容换掉强行用 ...</span><br>
+<span>强行换掉的话会导致程序出错？我的物理内存大半都是备用的，可用只有一点点，所以实际内存其实是占满了？</span><br>
+</p><p><b>Cray: </b><br>
+<span>kuleisite1992 发表于 2019-10-26 21:36</span><br>
+<span>上了pdd的车，用微星Z370I整了个9600KF+32G内存的P社专用机，CPU干到了5.2G,内存也干到了4000 CL19</span><br>
+<span>出去一 ...</span><br>
+<span>我开天际线 直接16g内存</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>一句话概括就是有内存就会用，但也会尽量在你硬盘空闲的时候在硬盘里做备份，所以系统默认会用超出1:1的比例做页面文件</span><br>
+</p><p><b>macos: </b><br>
+<span>midearth 发表于 2019-10-26 21:58</span><br>
+<span>强行换掉的话会导致程序出错？我的物理内存大半都是备用的，可用只有一点点，所以实际内存其 ...</span><br>
+<span>备用是曾用空间，不影响分配，看提交量，大于使用内存，多出来的部分被压进虚拟内存了</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>midearth 发表于 2019-10-26 21:58</span><br>
+<span>强行换掉的话会导致程序出错？我的物理内存大半都是备用的，可用只有一点点，所以实际内存其 ...</span><br>
+<span>备用存的是缓存数据和代码，换掉不会让程序出错</span><br>
+</p><p><b>midearth: </b><br>
+<span>所以这内存不足是什么原因？内存条不稳定吗？</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>启航PRC: </b><br>
+<span>把虚拟内存关了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>evooil: </b><br>
+<span>为啥我的资源管理器看不到内存频率？</span><br>
+<span>3600x b450m买的3200的内存才跑在2400玩dota2老是闪退 显示更新同步然后重开又能玩了今天把系统重置了还这样 有人知道什么原因吗？ </span><br>
+</p><p><b>yibo: </b><br>
+<span>evooil 发表于 2019-10-27 22:59</span><br>
+<span>为啥我的资源管理器看不到内存频率？</span><br>
+<span>3600x b450m买的3200的内存才跑在2400玩dota2老是闪退 显示更新同步 ...</span><br>
+<span>我是3600+b450迫击炮，重装系统也看不到内存频率</span><br>
+<span>既然第三方软件能读取，那就是ms的锅</span><br>
+</p><p><b>litel: </b><br>
+<span>evooil 发表于 2019-10-27 22:59</span><br>
+<span>为啥我的资源管理器看不到内存频率？</span><br>
+<span>3600x b450m买的3200的内存才跑在2400玩dota2老是闪退 显示更新同步 ...</span><br>
+<span>cpu或内存不稳。。。</span><br>
+<span>cpu用p95最新第二项测试，20分钟不掉线程就稳了。</span><br>
+<span>内存用aida64单钩内存项，30分钟不红就稳了。</span><br>
+</p><p><b>evooil: </b><br>
+<span>litel 发表于 2019-10-28 00:03</span><br>
+<span>cpu或内存不稳。。。</span><br>
+<span>cpu用p95最新第二项测试，20分钟不掉线程就稳了。</span><br>
+<span>内存用aida64单钩内存项，30分钟 ...</span><br>
+<span>我还有台老电脑2条内存一条跑的1866一条1600   还能这样？</span><br>
+<span>都是Kingston的hyperX 不过中间差不多隔了一年才上的第二条</span><br>
+</p><p><b>litel: </b><br>
+<span>evooil 发表于 2019-10-28 08:17</span><br>
+<span>我还有台老电脑2条内存一条跑的1866一条1600   还能这样？</span><br>
+<span>都是Kingston的hyperX 不过中间差不多隔了一年 ...</span><br>
+<span>一般会自动降到1600</span><br>
+<span>频率不会不同的。</span><br>
+<span>内存现在只要世代是一样的，一般随便混插都没事，兼容性很好了。</span><br>
+<span>有问题降频就行了。</span><br>
+</p><p><b>nonononono: </b><br>
+<span>9102年了还有人折腾虚拟内存的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861021[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>群晖ARP问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>群晖ARP问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:55:43 +0000</lastBuildDate>
+    <item>
+      <title>群晖ARP问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838088-1-1.html</link>
+      <description>群晖ARP问题&#13;
+群晖做了聚合，4条网线到交换机，路由器经常提示ARP欺诈，IP都是群晖的，有办法搞搞吗？
+&#13;
+群晖-设置-网络-高级-开启ARP响应的那个选项都没用，路由器一样提示欺诈</description>
+      <content:encoded><![CDATA[<p><b>mickoo: </b><br>
+<span>群晖ARP问题</span><br>
+<span>群晖做了聚合，4条网线到交换机，路由器经常提示ARP欺诈，IP都是群晖的，有办法搞搞吗？</span><br>
+<span>群晖-设置-网络-高级-开启ARP响应的那个选项都没用，路由器一样提示欺诈</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>没看懂，你群晖是接在交换机上的，为什么是路由器提示？你网络怎么接的？</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mickoo: </b><br>
+<span>小白无机酸 发表于 2019-6-9 15:28</span><br>
+<span>没看懂，你群晖是接在交换机上的，为什么是路由器提示？你网络怎么接的？</span><br>
+<span>—— 来自 Realme RMX1901, Andr ...</span><br>
+<span>群晖4网口接交换机，交换机接路由器啊</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>是l3聚合口接到交换机的l2聚合口？</span><br>
+</p><p><b>mickoo: </b><br>
+<span>好多大象啊 发表于 2019-6-9 15:56</span><br>
+<span>是l3聚合口接到交换机的l2聚合口？</span><br>
+<span>动态聚合，不知道L3，L2</span><br>
+</p><p><b>mickoo: </b><br>
+<span>没人知道？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>robit: </b><br>
+<span>如果只是自己用，ARP欺诈可以关了。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>mickoo 发表于 2019-6-9 16:08</span><br>
+<span>动态聚合，不知道L3，L2</span><br>
+<span>就是交换机这边的配置发一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838088[0-50]</guid>
+    </item>
+  </channel>
+</rss>

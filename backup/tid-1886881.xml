@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Xbox模拟器-失落的奥德赛[6小时,因为bug无法继续]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Xbox模拟器-失落的奥德赛[6小时,因为bug无法继续]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:55:59 +0000</lastBuildDate>
+    <item>
+      <title>Xbox模拟器-失落的奥德赛[6小时,因为bug无法继续][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886881-1-1.html</link>
+      <description>Xbox模拟器-失落的奥德赛[6小时,因为bug无法继续]&#13;
+ 本帖最后由 塔奇克马 于 2019-12-10 13:57 编辑 
+
+6小时,魔杖塔战斗中有段剧情会导致声音丢失,之后就无法跳过了.体验到此为止.等待解决办法
+&#13;
+---------------------------------
+&#13;
+贴图花的次数很少,只有遇到海贼女两次花
+&#13;
+不过主城帧数挺低的25左右.
+&#13;
+背景音乐丢失是常态,但是人声不丢失不卡顿
+&#13;
+------------------
+&#13;
+去徐锦江家和杨森会面
+&#13;
+这部分过场出现了丢失声音问题,结束后存档,存档结束后按下暂停出现了假死现象.
+&#13;
+这个应该是固定触发.不过还好能存档.
+&#13;
+-------------------------------------
+&#13;
+所用版本
+&#13;
+https://github.com/xenia-canary/xenia-canary/releases所用镜像
+&#13;
+https://pan.baidu.com/s/1bnjJyRd首先打开
+&#13;
+65975F33B848FC1188CC生成下配置文件,接着
+&#13;
+File-show content .....向上几层找到
+&#13;
+xenia-canary-config.toml最后几行
+&#13;
+修改为 20 和 10 类似如下
+&#13;
+user_country = 20                               # User country ID. 1=AE / 2=AL / 3=AM / 4=AR / 5=AT / 6=AU / 7=AZ / 8=BE / 9=BG / 10=BH / 11=BN / 12=BO / 13=BR / 14=BY / 15=BZ / 16=CA / 18=CH / 19=CL / 20=CN / 21=CO / 22=CR / 23=CZ / 24=DE / 25=DK / 26=DO / 27=DZ / 28=EC / 29=EE / 30=EG / 31=ES / 32=FI / 33=FO / 34=FR / 35=GB / 36=GE / 37=GR / 38=GT / 39=HK / 40=HN / 41=HR / 42=HU / 43=ID / 44=IE / 45=IL / 46=IN / 47=IQ / 48=IR / 49=IS / 50=IT / 51=JM / 52=JO / 53=JP / 54=KE / 55=KG / 56=KR / 57=KW / 58=KZ / 59=LB / 60=LI / 61=LT / 62=LU / 63=LV / 64=LY / 65=MA / 66=MC / 67=MK / 68=MN / 69=MO / 70=MV / 71=MX / 72=MY / 73=NI / 74=NL / 75=NO / 76=NZ / 77=OM / 78=PA / 79=PE / 80=PH / 81=PK / 82=PL / 83=PR / 84=PT / 85=PY / 86=QA / 87=RO / 88=RU / 89=SA / 90=SE / 91=SG / 92=SI / 93=SK / 95=SV / 96=SY / 97=TH / 98=TN / 99=TR / 100=TT / 101=TW / 102=UA / 103=US / 104=UY / 105=UZ / 106=VE / 107=VN / 108=YE / 109=ZA
+&#13;
+user_language = 10                              # User language ID. 1=en / 2=ja / 3=de / 4=fr / 5=es / 6=it / 7=ko / 8=zh / 9=pt / 11=pl / 12=ru / 13=sv / 14=tr / 15=nb / 16=nl / 17=zh再次进入 中文
+&#13;
+开始CG-序章[标题]-议会过场徐锦江登场结束,短暂测试结果
+&#13;
+9600kf oc 4.95g 
+&#13;
+rx474
+&#13;
+cpu整体占用60%左右
+&#13;
+显卡占用100%但是占用并不平滑,断断续续
+&#13;
+过场动画全程没有跳过没有跳出,声音断断续续
+&#13;
+过场动画贴图错误
+&#13;
+战斗部分,第一场战斗帧数较低,因为场景太复杂,后面正常
+&#13;
+这个场景帧数较低,可能是显卡不够也可能别的原因.
+&#13;
+其他场景正常
+&#13;
+--------------------------
+&#13;
+其他人的报告帖子
+&#13;
+https://tieba.baidu.com/p/6333356571?red_tag=0684603460</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>Xbox模拟器-失落的奥德赛[6小时,因为bug无法继续]</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-12-10 13:57 编辑 </span><br>
+<span>6小时,魔杖塔战斗中有段剧情会导致声音丢失,之后就无法跳过了.体验到此为止.等待解决办法</span><br>
+<span>---------------------------------</span><br>
+<span>贴图花的次数很少,只有遇到海贼女两次花</span><br>
+<span>不过主城帧数挺低的25左右.</span><br>
+<span>背景音乐丢失是常态,但是人声不丢失不卡顿</span><br>
+<span>------------------</span><br>
+<span>去徐锦江家和杨森会面</span><br>
+<span>这部分过场出现了丢失声音问题,结束后存档,存档结束后按下暂停出现了假死现象.</span><br>
+<span>这个应该是固定触发.不过还好能存档.</span><br>
+<span>-------------------------------------</span><br>
+<span>所用版本</span><br>
+<span>https://github.com/xenia-canary/xenia-canary/releases所用镜像</span><br>
+<span>https://pan.baidu.com/s/1bnjJyRd首先打开</span><br>
+<span>65975F33B848FC1188CC生成下配置文件,接着</span><br>
+<span>File-show content .....向上几层找到</span><br>
+<span>xenia-canary-config.toml最后几行</span><br>
+<span>修改为 20 和 10 类似如下</span><br>
+<span>user_country = 20                               # User country ID. 1=AE / 2=AL / 3=AM / 4=AR / 5=AT / 6=AU / 7=AZ / 8=BE / 9=BG / 10=BH / 11=BN / 12=BO / 13=BR / 14=BY / 15=BZ / 16=CA / 18=CH / 19=CL / 20=CN / 21=CO / 22=CR / 23=CZ / 24=DE / 25=DK / 26=DO / 27=DZ / 28=EC / 29=EE / 30=EG / 31=ES / 32=FI / 33=FO / 34=FR / 35=GB / 36=GE / 37=GR / 38=GT / 39=HK / 40=HN / 41=HR / 42=HU / 43=ID / 44=IE / 45=IL / 46=IN / 47=IQ / 48=IR / 49=IS / 50=IT / 51=JM / 52=JO / 53=JP / 54=KE / 55=KG / 56=KR / 57=KW / 58=KZ / 59=LB / 60=LI / 61=LT / 62=LU / 63=LV / 64=LY / 65=MA / 66=MC / 67=MK / 68=MN / 69=MO / 70=MV / 71=MX / 72=MY / 73=NI / 74=NL / 75=NO / 76=NZ / 77=OM / 78=PA / 79=PE / 80=PH / 81=PK / 82=PL / 83=PR / 84=PT / 85=PY / 86=QA / 87=RO / 88=RU / 89=SA / 90=SE / 91=SG / 92=SI / 93=SK / 95=SV / 96=SY / 97=TH / 98=TN / 99=TR / 100=TT / 101=TW / 102=UA / 103=US / 104=UY / 105=UZ / 106=VE / 107=VN / 108=YE / 109=ZA</span><br>
+<span>user_language = 10                              # User language ID. 1=en / 2=ja / 3=de / 4=fr / 5=es / 6=it / 7=ko / 8=zh / 9=pt / 11=pl / 12=ru / 13=sv / 14=tr / 15=nb / 16=nl / 17=zh再次进入 中文</span><br>
+<span>开始CG-序章[标题]-议会过场徐锦江登场结束,短暂测试结果</span><br>
+<span>9600kf oc 4.95g </span><br>
+<span>rx474</span><br>
+<span>cpu整体占用60%左右</span><br>
+<span>显卡占用100%但是占用并不平滑,断断续续</span><br>
+<span>过场动画全程没有跳过没有跳出,声音断断续续</span><br>
+<span>过场动画贴图错误</span><br>
+<span>战斗部分,第一场战斗帧数较低,因为场景太复杂,后面正常</span><br>
+<span>这个场景帧数较低,可能是显卡不够也可能别的原因.</span><br>
+<span>其他场景正常</span><br>
+<span>--------------------------</span><br>
+<span>其他人的报告帖子</span><br>
+<span>https://tieba.baidu.com/p/6333356571?red_tag=0684603460</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>看来游戏机还是要留着</span><br>
+</p><p><b>spyps: </b><br>
+<span>模拟器还需努力</span><br>
+</p><p><b>2659646573: </b><br>
+<span>这么惨啊，现在有哪些模拟器达到了ppsspp这个级别的吗？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>2659646573 发表于 2019-12-8 15:48</span><br>
+<span>这么惨啊，现在有哪些模拟器达到了ppsspp这个级别的吗？</span><br>
+<span>过场比较惨,能玩.</span><br>
+</p><p><b>hein: </b><br>
+<span>XBOX模拟器完美了么</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>还是x1x 划算（趁着pdd 开车）</span><br>
+<span>cpu和显卡可比游戏机贵多了</span><br>
+</p><p><b>lbzlxx: </b><br>
+<span>主要还是xbox系太冷门了，开发人员主要就这几个人，更新太慢了，xenia有了dx12后速度已经快了太多了</span><br>
+<span>还有，360dvd容量太小了，一个游戏还要分几张碟，下载和储存太麻烦了</span><br>
+</p><p><b>时空之旅: </b><br>
+<span>楼主能不能试试街头涂鸦，我还满想尝试一下</span><br>
+</p><p><b>zhangqq_010: </b><br>
+<span>坂口博信现在干嘛去了？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>更新三小时测试报告</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>zhangqq_010 发表于 2019-12-8 19:20</span><br>
+<span>坂口博信现在干嘛去了？</span><br>
+<span>两年前在做手游来着</span><br>
+</p><p><b>信长的呕吐: </b><br>
+<span>试了试偶像大师1还是会跳出 机器还是不能扔</span><br>
+</p><p><b>KET: </b><br>
+<span>想起来自己有个几乎全新的xb360薄机，不知道现在能卖多少？要是不值钱那就继续留着好了……虽然有7、8年没开过机了</span><br>
+</p><p><b>慕容断月: </b><br>
+<span>时空之旅 发表于 2019-12-8 18:24</span><br>
+<span>楼主能不能试试街头涂鸦，我还满想尝试一下</span><br>
+<span>街头涂鸦有pc版，未来版360没有</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>还是x1x做得好，可惜失落的奥德赛没有做4k强化</span><br>
+</p><p><b>NF17: </b><br>
+<span>又不是没兼容</span><br>
+</p><p><b>演员的修养: </b><br>
+<span>虽然多年前已经通关。。。。但实在不知道哪里好玩</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>演员的修养 发表于 2019-12-9 09:01</span><br>
+<span>虽然多年前已经通关。。。。但实在不知道哪里好玩</span><br>
+<span>问下，王子入队？！后流程还剩下多久？记得当初剧情到这里就断了.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886881[0-50]</guid>
+    </item>
+  </channel>
+</rss>

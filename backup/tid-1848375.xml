@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GBA卡带求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>GBA卡带求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:51:05 +0000</lastBuildDate>
+    <item>
+      <title>GBA卡带求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848375-1-1.html</link>
+      <description>GBA卡带求助&#13;
+ 本帖最后由 PaulT 于 2019-7-22 14:32 编辑 
+
+最近在力所能及地收集GBA正版卡带 但是遇到了卡带内部是否使用电池作为存档的问题 EEPROM和Flash是没问题的 问题就出在SRAM上
+&#13;
+根据GBAtemp论坛一个大佬Kuwanger的说法(https://gbatemp.net/threads/save-game-death.503816/#post-7981238)， 除了大前期的部分GBA卡带外 剩下标示SRAM存储的其实都用的是FRAM，所以如果游戏里没有RTC计时功能却有一个电池的话就很有可能是盗版卡带
+&#13;
+根据 http://offlinelistgba.free.fr/index.php 的查询结果，瓦里奥大陆美版 日版存储类型是Sram_v112，已确认日版是真SRAM存档。稍晚出来的国行瓦力欧大陆，存储类型是Sram_v113，实际采用的是FRAM存储器。有人反映“ROM内部有SRAM V103之类的标记的话，估计也都是fram。”(http://bbs.a9vg.com/thread-4186272-1-78.html) 根据 https://www.akkit.org/info/gbatek.htm 的数据分析，FRAM和SRAM是相互兼容的，向FRAM里写入存档不需要额外的指令/停等， 这就为Kuwanger的说法提供了技术基础。
+&#13;
+除此之外，网上没有找到更多的信息，发帖是想问问有没有哪位大佬知道或者听说过比较确切的消息，关于GBA卡带从什么时候开始（或者从存储类型具体编号？）全面更换成FRAM类型，或者有哪些具体的游戏是使用SRAM存档的？谢过各位了</description>
+      <content:encoded><![CDATA[<p><b>PaulT: </b><br>
+<span>GBA卡带求助</span><br>
+<span> 本帖最后由 PaulT 于 2019-7-22 14:32 编辑 </span><br>
+<span>最近在力所能及地收集GBA正版卡带 但是遇到了卡带内部是否使用电池作为存档的问题 EEPROM和Flash是没问题的 问题就出在SRAM上</span><br>
+<span>根据GBAtemp论坛一个大佬Kuwanger的说法(https://gbatemp.net/threads/save-game-death.503816/#post-7981238)， 除了大前期的部分GBA卡带外 剩下标示SRAM存储的其实都用的是FRAM，所以如果游戏里没有RTC计时功能却有一个电池的话就很有可能是盗版卡带</span><br>
+<span>根据 http://offlinelistgba.free.fr/index.php 的查询结果，瓦里奥大陆美版 日版存储类型是Sram_v112，已确认日版是真SRAM存档。稍晚出来的国行瓦力欧大陆，存储类型是Sram_v113，实际采用的是FRAM存储器。有人反映“ROM内部有SRAM V103之类的标记的话，估计也都是fram。”(http://bbs.a9vg.com/thread-4186272-1-78.html) 根据 https://www.akkit.org/info/gbatek.htm 的数据分析，FRAM和SRAM是相互兼容的，向FRAM里写入存档不需要额外的指令/停等， 这就为Kuwanger的说法提供了技术基础。</span><br>
+<span>除此之外，网上没有找到更多的信息，发帖是想问问有没有哪位大佬知道或者听说过比较确切的消息，关于GBA卡带从什么时候开始（或者从存储类型具体编号？）全面更换成FRAM类型，或者有哪些具体的游戏是使用SRAM存档的？谢过各位了</span><br>
+</p><p><b>yuuu: </b><br>
+<span>收集来干什么？花钱占地方，等哪天自己幡然悔悟了扔不是不扔也不是</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>无限未来: </b><br>
+<span>看卡带底部的Nintendo-AGB-XXX的编号就能判断用了什么存档芯片,很多游戏都同时有早期的SRAM版和后期出货的FRAM版，比如烈火之剑</span><br>
+<span>02是FLASH</span><br>
+<span>03是EEPROM</span><br>
+<span>05是时钟需要电池的</span><br>
+<span>06是SRAM</span><br>
+<span>11是FRAM</span><br>
+</p><p><b>bigraymond: </b><br>
+<span>yuuu 发表于 2019-7-22 16:09</span><br>
+<span>收集来干什么？花钱占地方，等哪天自己幡然悔悟了扔不是不扔也不是</span><br>
+<span>—— 来自 Hisense HLTE700T, Android...</span><br>
+<span>对买来玩的我都劝电子版，收藏就没问题了呀，跟收钱币邮票没区别</span><br>
+</p><p><b>JimmyZ: </b><br>
+<span>我甚至没见过卡带LOGO细节能战正版的盗版, 更不要说拆开还能冒充正版的盗版, 你要真有怀疑的不如发上来让大家开开眼.</span><br>
+</p><p><b>PaulT: </b><br>
+<span>JimmyZ 发表于 2019-7-22 21:46</span><br>
+<span>我甚至没见过卡带LOGO细节能战正版的盗版, 更不要说拆开还能冒充正版的盗版, 你要真有怀疑的不如发上来让大 ...</span><br>
+<span>我不是怀疑盗版正版 我是想买非电池存档的游戏 存档类型SRAM的不一定是真的电池存档 也可以是铁电存档</span><br>
+</p><p><b>PaulT: </b><br>
+<span>无限未来 发表于 2019-7-22 19:07</span><br>
+<span>看卡带底部的Nintendo-AGB-XXX的编号就能判断用了什么存档芯片,很多游戏都同时有早期的SRAM版和后期出货的F ...</span><br>
+<span>感谢 这个方法是第一次见到</span><br>
+</p><p><b>牧濑紅莉栖: </b><br>
+<span>上面那个看编号就是一种方法，不过只限于自己能拿到手或者卖家主动展示的，但是实际上大部分gba卡带都是芯片记忆，具体wiki上应该搜的到。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848375[0-50]</guid>
+    </item>
+  </channel>
+</rss>

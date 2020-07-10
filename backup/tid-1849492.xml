@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，K2P B1版，wan口偶尔获取不到IP</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，K2P B1版，wan口偶尔获取不到IP</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:44:05 +0000</lastBuildDate>
+    <item>
+      <title>求助，K2P B1版，wan口偶尔获取不到IP[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849492-1-1.html</link>
+      <description>求助，K2P B1版，wan口偶尔获取不到IP&#13;
+以前刷的官改V1.6，改路由器拨号之后有时候一觉起来就发现连不上网，进后台才发现IP获取不到，全都是0.0.0.0，点重播也没用，要重启路由才恢复正常，想问一下这种情况该怎么解决？本来我是想刷个其他固件试试看，但是听人说这个又有小毛病那个又有小毛病，不想乱折腾</description>
+      <content:encoded><![CDATA[<p><b>kuglv: </b><br>
+<span>求助，K2P B1版，wan口偶尔获取不到IP</span><br>
+<span>以前刷的官改V1.6，改路由器拨号之后有时候一觉起来就发现连不上网，进后台才发现IP获取不到，全都是0.0.0.0，点重播也没用，要重启路由才恢复正常，想问一下这种情况该怎么解决？本来我是想刷个其他固件试试看，但是听人说这个又有小毛病那个又有小毛病，不想乱折腾</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>貌似是固件不稳定，刷另一个试试？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>如果每次重启都好使而且能管足一天，设个计划任务每天重启得了。</span><br>
+<span>记得reboot前面加个sleep让时间能更新一下，不然会无限重启。</span><br>
+</p><p><b>kuglv: </b><br>
+<span>typeunknown 发表于 2019-7-27 13:33</span><br>
+<span>如果每次重启都好使而且能管足一天，设个计划任务每天重启得了。</span><br>
+<span>记得reboot前面加个sleep让时间能更新一下 ...</span><br>
+<span>不，应该是出现了问题之后重启才有用，提前重启是没用的...</span><br>
+</p><p><b>kuglv: </b><br>
+<span>纯情小鸭鸭 发表于 2019-7-27 13:31</span><br>
+<span>貌似是固件不稳定，刷另一个试试？</span><br>
+<span>但是也不知道刷哪个好，查了一下华硕固件好像也有这个问题，openwrt则是没什么功能，B1也不能刷高恪</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849492[0-50]</guid>
+    </item>
+  </channel>
+</rss>

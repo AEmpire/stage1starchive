@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助高手！6sp充着电早上醒来就开不了机了，itunes恢复不了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助高手！6sp充着电早上醒来就开不了机了，itunes恢复不了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:30:16 +0000</lastBuildDate>
+    <item>
+      <title>求助高手！6sp充着电早上醒来就开不了机了，itunes恢复不了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911456-1-1.html</link>
+      <description>求助高手！6sp充着电早上醒来就开不了机了，itunes恢复不了&#13;
+如图这个样子
+&#13;
+连电脑itunes上恢复模式shift恢复（用的爱思下的12.4的固件)，出错提示错误代码3194，改了host也没用。。。
+&#13;
+求解，应该怎么搞？现在itunes是不能用了吗？</description>
+      <content:encoded><![CDATA[<p><b>wwdzcjsmxx: </b><br>
+<span>求助高手！6sp充着电早上醒来就开不了机了，itunes恢复不了</span><br>
+<span>如图这个样子</span><br>
+<span>连电脑itunes上恢复模式shift恢复（用的爱思下的12.4的固件)，出错提示错误代码3194，改了host也没用。。。</span><br>
+<span>求解，应该怎么搞？现在itunes是不能用了吗？</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span> 本帖最后由 wwdzcjsmxx 于 2020-1-31 12:06 编辑 </span><br>
+<span>高手还没出现吗。。。</span><br>
+<span>手机点亮得画面应该是恢复模式，接i4助手也是显示恢复模式</span><br>
+<span>但是无论恢复模式还是DFU模式，用这个软件刷最新系统都刷不成功了</span><br>
+<span>进专业模式DFU刷，有具体的日志了：</span><br>
+<span>正在检查电脑硬盘空间............................... 成功! </span><br>
+<span>设备需要连接到DFU模式，等待您的操作................ 成功! </span><br>
+<span>正在读取设备信息................................... 成功! </span><br>
+<span>产品类型: iPhone8,2主处理器：8003固件名称：iPhone_5.5_13.3.1_17D50_Restore.ipsww</span><br>
+<span>固件版本: 13.3.1</span><br>
+<span>编译版本：17D50, 17</span><br>
+<span>Image4 支持：TRUE</span><br>
+<span>从固件中解压文件系统............................... 成功! </span><br>
+<span>读取 ECID.......................................... 成功! </span><br>
+<span>读取随机种子NONCE.................................. 成功! </span><br>
+<span>正在从苹果服务器查询SHSH........................... 成功! </span><br>
+<span>苹果设备将自动连接到DFU模式(win7最久5分钟)......... 成功! </span><br>
+<span>正在加载iBSS....................................... 成功! </span><br>
+<span>读取随机种子NONCE.................................. 成功! </span><br>
+<span>加载 iBEC.......................................... 成功! </span><br>
+<span>苹果设备将自动连接到恢复模式(win7最久5分钟)........ 成功! </span><br>
+<span>加载 RestoreRamdisk................................ 成功! </span><br>
+<span>苹果设备将自动连接到正常模式(win7最久5分钟)........ 成功! </span><br>
+<span>初始化'FDR Trust'网络.............................. 成功! </span><br>
+<span>正在发送Restore配置文件............................ 成功! </span><br>
+<span>正在发送 RootTicket................................ 成功! </span><br>
+<span>检测到设备可能已断开，取消刷机!</span><br>
+<span>检测到设备可能已断开，取消刷机!</span><br>
+<span>产品类型: iPhone8,2产品名称: iPhone 6s Plus保资料刷机失败！苹果设备刷机和越狱，请访问爱思官网：www.i4.cn</span><br>
+<span>用时：00小时03分15秒</span><br>
+<span>====</span><br>
+<span>请问这样还有救吗？设备之前网上找淘宝卖家升级过容量，不知道是不是因为这个原因导致哪里坏了</span><br>
+<span>上门检测到断开的时候，屏幕也是切换回恢复模式的画面了，囧。。。</span><br>
+</p><p><b>starash: </b><br>
+<span>换根线且直接连接机箱后面的u口，用针挑一下iPhone上的l口，清理一下里面的针头线脑。还不行就是彻底挂了。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>12.4早就不能恢复了，6sp请直接升级最新版</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>sirlion 发表于 2020-1-31 14:04</span><br>
+<span>12.4早就不能恢复了，6sp请直接升级最新版</span><br>
+<span>现在都是13.3.1了。。。然并卵。。。</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>请问还有除爱思跟itunes以外其他靠谱的刷机软件尝试吗？</span><br>
+<span>还是说这俩不行基本就完蛋了</span><br>
+</p><p><b>弹幕: </b><br>
+<span>基本没了，一个官方的一个口碑良好的</span><br>
+</p><p><b>nilren: </b><br>
+<span>我能想到的办法比较奇葩</span><br>
+<span>让咸鱼买家去搞，卧虎藏龙</span><br>
+<span>之前我有两个机器，一个进水的，一个也是莫名其妙不开机的，横竖折腾不了，家旁边找维修店也说没戏。</span><br>
+<span>我白送价格咸鱼出了，结果买家（二手贩子）过几天给全修好了，让我帮忙解除苹果密码。。。。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>nilren 发表于 2020-1-31 21:48</span><br>
+<span>我能想到的办法比较奇葩</span><br>
+<span>让咸鱼买家去搞，卧虎藏龙</span><br>
+<span>之前我有两个机器，一个进水的，一个也是莫名其妙不开机 ...</span><br>
+<span>后续呢你回收回来了？</span><br>
+</p><p><b>nilren: </b><br>
+<span>若荼泱 发表于 2020-1-31 23:38</span><br>
+<span>后续呢你回收回来了？</span><br>
+<span>回收回来干嘛，我自己搞不定，它就是废物，眼不见心不烦，别人凭本事搞定了，我觉得废物能利用了还挺高兴的。</span><br>
+<span>40元包顺丰卖了俩iPhone，我还挺高兴，我是不是有病。。。</span><br>
+</p><p><b>子不语人渐离: </b><br>
+<span>nilren 发表于 2020-2-1 10:48</span><br>
+<span>回收回来干嘛，我自己搞不定，它就是废物，眼不见心不烦，别人凭本事搞定了，我觉得废物能利用了还挺高兴 ...</span><br>
+<span>老哥心态好啊。</span><br>
+<span>话说“设备之前网上找淘宝卖家升级过容量”估计是这个原因？</span><br>
+</p><p><b>nilren: </b><br>
+<span>子不语人渐离 发表于 2020-2-1 22:25</span><br>
+<span>老哥心态好啊。</span><br>
+<span>话说“设备之前网上找淘宝卖家升级过容量”估计是这个原因？ ...</span><br>
+<span>我不懂，感觉有可能，但不一定，我之前机器也没有改动过，照样过保后就无法开机</span><br>
+<span>但是还有一个6sP还在正常使用</span><br>
+<span>看运气吧，我觉得过保了坏了就买新的就是了。。。</span><br>
+</p><p><b>oo111oo: </b><br>
+<span>感觉大概率是硬盘问题，要继续用的话还是找人修吧</span><br>
+</p><p><b>马台街48: </b><br>
+<span>我6sp换了新电池之后会间歇性黑屏看来真是年限到了</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>等着用，那个给升容量的淘宝卖家要等开工，现在是换了个iphone11。。。</span><br>
+<span>感觉也是扩容导致的吧？因为头一天晚上就只是放着充电而已。。。欸</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911456[0-50]</guid>
+    </item>
+  </channel>
+</rss>

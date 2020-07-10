@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助一个excel问题，关于字符串缩写</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助一个excel问题，关于字符串缩写</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:08:52 +0000</lastBuildDate>
+    <item>
+      <title>求助一个excel问题，关于字符串缩写[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855139-1-1.html</link>
+      <description>求助一个excel问题，关于字符串缩写&#13;
+就是现在有一堆变量名，长度都太长所以想把它们缩写一下。比如OffBalanceSheetAssetValue这样的想缩减成
+
+OffBalaSheeAsseValu，主要规律就是遇到每个单词保留4个字符，以大写来区分单词，不到4个字符的单词全部保留。目前自己只能实现提取出所有的大写字母，特来求助&gt;</description>
+      <content:encoded><![CDATA[<p><b>reyato: </b><br>
+<span>求助一个excel问题，关于字符串缩写</span><br>
+<span>就是现在有一堆变量名，长度都太长所以想把它们缩写一下。比如OffBalanceSheetAssetValue这样的想缩减成</span><br>
+<span>OffBalaSheeAsseValu，主要规律就是遇到每个单词保留4个字符，以大写来区分单词，不到4个字符的单词全部保留。目前自己只能实现提取出所有的大写字母，特来求助></span><br>
+</p><p><b>远野四季: </b><br>
+<span>Python</span><br>
+</p><p><b>孙红雷: </b><br>
+<span>code() 可以查字母的值 其他的看你会什么技能了(vba) 或者 python里excel的库也很多比如xlwings 还有openpyxl </span><br>
+</p><p><b>卢浮临时宫: </b><br>
+<span>所以怎么提取大写字母的？</span><br>
+</p><p><b>reyato: </b><br>
+<span>已解决</span><br>
+<span>=TEXTJOIN("",1,MID(A1,1,3),IF(ISNUMBER(MATCH(CODE(MID(A1,ROW(INDIRECT("1:"&LEN(A1))),1)),ROW(INDIRECT("63:90")),0)),MID(A1,ROW(INDIRECT("1:"&LEN(A1))),3),""))</span><br>
+</p><p><b>reyato: </b><br>
+<span>卢浮临时宫 发表于 2019-8-22 13:01</span><br>
+<span>所以怎么提取大写字母的？</span><br>
+<span>=TEXTJOIN("",1,IF(ISNUMBER(MATCH(CODE(MID(A1,ROW(INDIRECT("1:"&LEN(A1))),1)),ROW(INDIRECT("63:90")),0)),MID(A1,ROW(INDIRECT("1:"&LEN(A1))),1),""))</span><br>
+<span>然后</span><br>
+<span>ctrl+shift+enter</span><br>
+</p><p><b>卢浮临时宫: </b><br>
+<span>reyato 发表于 2019-8-23 00:24</span><br>
+<span>=TEXTJOIN("",1,IF(ISNUMBER(MATCH(CODE(MID(A1,ROW(INDIRECT("1:"&LEN(A1))),1)),ROW(INDIRECT("63:90") ...</span><br>
+<span>感谢，学习了</span><br>
+</p><p><b>radium: </b><br>
+<span>我还以为必须用宏 原来还真可以用公式啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855139[0-50]</guid>
+    </item>
+  </channel>
+</rss>

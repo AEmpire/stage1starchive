@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>虚拟机QQ问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>虚拟机QQ问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:47:26 +0000</lastBuildDate>
+    <item>
+      <title>虚拟机QQ问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858506-1-1.html</link>
+      <description>虚拟机QQ问题&#13;
+ 本帖最后由 museqsou 于 2019-10-10 10:15 编辑 
+
+受不了扫硬盘把QQ迁到hyper-V 2代虚拟机里，宿主机Win10虚拟机也是Win10。
+&#13;
+QQ群聊收到的gif动图几乎都是精图，右下标gif。
+&#13;
+虚拟机里已经安装了全球版的ppapi flash并在host里屏蔽了国内的那几个站点。
+&#13;
+自己发的gif动图是能动的，别人也能正常收到。
+&#13;
+求可能导致故障的原因？
+&#13;
+----------------------------------------------------------------------------------------------------------
+&#13;
+虚拟机GPU加速导致，8.9版QQ不会默认加载动图，但是双击仍能查看原图。9.x版本QQ直接替用户做了“艰难的决定”，双击也没法查看原图。</description>
+      <content:encoded><![CDATA[<p><b>museqsou: </b><br>
+<span>虚拟机QQ问题</span><br>
+<span> 本帖最后由 museqsou 于 2019-10-10 10:15 编辑 </span><br>
+<span>受不了扫硬盘把QQ迁到hyper-V 2代虚拟机里，宿主机Win10虚拟机也是Win10。</span><br>
+<span>QQ群聊收到的gif动图几乎都是精图，右下标gif。</span><br>
+<span>虚拟机里已经安装了全球版的ppapi flash并在host里屏蔽了国内的那几个站点。</span><br>
+<span>自己发的gif动图是能动的，别人也能正常收到。</span><br>
+<span>求可能导致故障的原因？</span><br>
+<span>----------------------------------------------------------------------------------------------------------</span><br>
+<span>虚拟机GPU加速导致，8.9版QQ不会默认加载动图，但是双击仍能查看原图。9.x版本QQ直接替用户做了“艰难的决定”，双击也没法查看原图。</span><br>
+</p><p><b>gensaya: </b><br>
+<span>虚拟机里已经安装了全球版的ppapi flash</span><br>
+<span>既然是虚拟机，那么安装国内版flash也无所谓啊</span><br>
+</p><p><b>litel: </b><br>
+<span>gif和flash没关系。。。我怀疑是显卡加速的问题。。。你找个qq8.9试试。。。</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>何不用TIM</span><br>
+</p><p><b>museqsou: </b><br>
+<span>litel 发表于 2019-10-9 19:15</span><br>
+<span>gif和flash没关系。。。我怀疑是显卡加速的问题。。。你找个qq8.9试试。。。</span><br>
+<span>确实是GPU加速的问题，换成8.9虽然不会自动加载动图，但是双击后还是会下载原图。9.x版本是直接帮用户做了一个艰难的决定</span><br>
+</p><p><b>museqsou: </b><br>
+<span>处男鉴黄师 发表于 2019-10-9 22:09</span><br>
+<span>何不用TIM</span><br>
+<span>TIM我不喜欢单窗口的设计，尤其是侧边把所有联系人都显示出来。不清楚现在改了没有。</span><br>
+</p><p><b>macos: </b><br>
+<span>加速的话，因为1809后砍了remotefx，没直接的3d加速了，不知道改增强模式能不能识别，另外好像有加装remotfx的技巧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858506[0-50]</guid>
+    </item>
+  </channel>
+</rss>

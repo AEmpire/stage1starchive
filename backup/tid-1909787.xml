@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>两年挂了4块硬盘，求分析。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>两年挂了4块硬盘，求分析。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:42:58 +0000</lastBuildDate>
+    <item>
+      <title>两年挂了4块硬盘，求分析。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1909787-1-1.html</link>
+      <description>两年挂了4块硬盘，求分析。&#13;
+两年时间，硬盘一直在坏
+&#13;
+但是不太明白为啥，电源当初选得比较严格
+&#13;
+介绍下情况 损坏的是 比较老的wd500g 比较老的希捷1t 14年初的希捷3t 14年末的东芝3t
+&#13;
+最早是老wd 500g 不过这个太老了，坏了也正常，没太在意。
+&#13;
+之后是坏掉的是希捷3t 似乎是电机或者磁头坏了，前几天还很正常之后读取速度变得贼慢，赶紧备份数据，可是备份不到一半整个就读不出来了。
+&#13;
+接着是 希捷1t逐渐出现坏道，这个也把数据备份出来了。因为用的时间比较长了所以也没太在意。
+&#13;
+今天这块东芝3t坏了比较急了，虽然买的早但是这块硬盘直接一直作为备份收在抽屉里，偶尔用用orico的硬盘座备份数据，我知道o记的口碑不好，但是这是知道这事之前买的。至少在希捷3t挂了之后用把这块放进机箱时候还没啥问题。
+&#13;
+看了眼 严重坏道，正在抢救数据。不过通电时间142天这个就比较麻烦了，应该不是自然死亡。
+&#13;
+其他相关 电源是 全汉蓝暴450w jd买的。
+&#13;
+机箱是个先马的便宜薄机箱因为是跟着别的一起买，当时商家店里都是光污染机箱，我不喜欢光污染所以就买了不起眼的。之后遇到一个问题就是硬盘共振，所以买了个硬盘减震架。故障硬盘是在减震架上的。不知道和这个有没有关系</description>
+      <content:encoded><![CDATA[<p><b>vaststars: </b><br>
+<span>两年挂了4块硬盘，求分析。</span><br>
+<span>两年时间，硬盘一直在坏</span><br>
+<span>但是不太明白为啥，电源当初选得比较严格</span><br>
+<span>介绍下情况 损坏的是 比较老的wd500g 比较老的希捷1t 14年初的希捷3t 14年末的东芝3t</span><br>
+<span>最早是老wd 500g 不过这个太老了，坏了也正常，没太在意。</span><br>
+<span>之后是坏掉的是希捷3t 似乎是电机或者磁头坏了，前几天还很正常之后读取速度变得贼慢，赶紧备份数据，可是备份不到一半整个就读不出来了。</span><br>
+<span>接着是 希捷1t逐渐出现坏道，这个也把数据备份出来了。因为用的时间比较长了所以也没太在意。</span><br>
+<span>今天这块东芝3t坏了比较急了，虽然买的早但是这块硬盘直接一直作为备份收在抽屉里，偶尔用用orico的硬盘座备份数据，我知道o记的口碑不好，但是这是知道这事之前买的。至少在希捷3t挂了之后用把这块放进机箱时候还没啥问题。</span><br>
+<span>看了眼 严重坏道，正在抢救数据。不过通电时间142天这个就比较麻烦了，应该不是自然死亡。</span><br>
+<span>其他相关 电源是 全汉蓝暴450w jd买的。</span><br>
+<span>机箱是个先马的便宜薄机箱因为是跟着别的一起买，当时商家店里都是光污染机箱，我不喜欢光污染所以就买了不起眼的。之后遇到一个问题就是硬盘共振，所以买了个硬盘减震架。故障硬盘是在减震架上的。不知道和这个有没有关系</span><br>
+</p><p><b>downforce: </b><br>
+<span>这个电源算选的比较严格吗？一般说法不是要至少1W1元的吗？</span><br>
+</p><p><b>九耳: </b><br>
+<span>不是硬盘自身问题的话，检查下供电线呗</span><br>
+</p><p><b>a8610853: </b><br>
+<span>供电线、SATA线都有可能……S.M.A.R.T看看C7有没有问题</span><br>
+<span>有问题就很有可能是SATA线得换了。</span><br>
+</p><p><b>騜: </b><br>
+<span>看C7数据 排查一下线然后回忆一下日常使用情况 是分开写入读取 还是频繁同时读取写入</span><br>
+<span>我手上一块1TWD蓝 下载盘使用了6年一点问题都没有 然后挂的仓库盘只写入</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>希捷3T</span><br>
+<span>东芝3T</span><br>
+<span>全汉蓝暴</span><br>
+<span>槽不知道该从哪里吐起</span><br>
+<span>—— 来自 HMD Global TA-1041, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>vaststars: </b><br>
+<span>强尼高达 发表于 2020-1-15 19:30</span><br>
+<span>希捷3T</span><br>
+<span>东芝3T</span><br>
+<span>全汉蓝暴</span><br>
+<span>不认为这里槽点很多，直接说吧</span><br>
+</p><p><b>bbn: </b><br>
+<span>感觉是电源的可能性较大。</span><br>
+<span>是蓝暴经典版吧，这个很差吗，还是个例</span><br>
+</p><p><b>vaststars: </b><br>
+<span>a8610853 发表于 2020-1-15 19:29</span><br>
+<span>供电线、SATA线都有可能……S.M.A.R.T看看C7有没有问题</span><br>
+<span>有问题就很有可能是SATA线得换了。 ...</span><br>
+<span>看了眼 04红 c4黄 其他的都没问题</span><br>
+</p><p><b>ogma: </b><br>
+<span>这电源，我小白也知道不好</span><br>
+</p><p><b>vaststars: </b><br>
+<span>ogma 发表于 2020-1-15 19:56</span><br>
+<span>这电源，我小白也知道不好</span><br>
+<span>啥 这电源不是很多人推荐的么？有什么炸了的记录么？</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span> 本帖最后由 Gnyueh 于 2020-1-15 19:59 编辑 </span><br>
+<span>vaststars 发表于 2020-1-15 19:51</span><br>
+<span>不认为这里槽点很多，直接说吧</span><br>
+<span>还有一个奥瑞科硬盘盒，如果3.5硬盘是竖置的震动会很严重，</span><br>
+</p><p><b>vaststars: </b><br>
+<span>Gnyueh 发表于 2020-1-15 19:57</span><br>
+<span>还有一个奥瑞科硬盘盒，如果3.5硬盘是竖置的震动会很严重，</span><br>
+<span>这个许久不用了，至少放进机箱的时候不记得有啥问题</span><br>
+</p><p><b>uroko: </b><br>
+<span>经验告诉我，3. 5寸盘正确使用方法是塞在机箱或固定硬盘盒里永远不去碰它。什么外置当备份盘偶尔用底座连接什么的分分钟就会死。我有好几块盘躺机箱里好几年啥事没有，当外置备份没用几次半年内去了。</span><br>
+</p><p><b>baicon: </b><br>
+<span>一般买盘都是2的倍数的吧，那个全是汗的大名gz还在就有所耳闻了，对了还有个绿爆</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>如果坏的外插的硬盘，那就是外插的供电和散热不行。我也搞坏过两块</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>希捷3T DM001，著名大雷，不坏不正常，当然你不见得是中这个对不对</span><br>
+<span>东芝3T，泥潭部分人士的信仰，看你信仰往哪边拐</span><br>
+<span>全汉电源，蓝暴同期的绿宝是一代雷神，帮板卡厂商贡献了不知道多少额外的销售额，泥潭五柴战队一条柴买过一个蓝暴发现12V万用表量出来15还是多少V赶紧扔了,买全汉包你全身冒汗</span><br>
+<span>orico的美名是通电的都不能买</span><br>
+<span>硬盘厂电源厂外设厂，海峡两岸日本海两边太平洋两头你全占了，自己想想吧</span><br>
+<span>—— 来自 HMD Global TA-1041, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span> 本帖最后由 madbird302 于 2020-1-15 20:26 编辑 </span><br>
+<span>首先机箱共振应该问题不是很大，另外ST坏掉是正常情况，东芝不了解，WD老蓝盘的话，我这还有两个160GAAJS都到了6W小时了，目前一切正常，总结下来，就是RPWT吧，老盘随缘，新盘尽量买服务器盘和监控盘</span><br>
+<span>蓝爆绿宝第一代似乎没什么问题，第二批都是大雷，从那开始基本没人买全汉民用电源了吧</span><br>
+</p><p><b>nopaina: </b><br>
+<span>有点吓人啊 我也是蓝暴经典plus</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>madbird302 发表于 2020-1-15 20:25</span><br>
+<span>首先机箱共振应该问题不是很大，另外ST坏掉是正常情况，东芝不了解，WD老蓝盘的话，我这还有两个160GAAJS都 ...</span><br>
+<span>能科普下硬盘共振吗？另外企业盘太贵，监控盘以前嫌弃速度慢也没买过，买的几块7200转的当储存盘</span><br>
+</p><p><b>游戏列表: </b><br>
+<span>希捷st3000dm001这个绝世天雷…我挂了3块   有个机构的记录不是说这个系列故障率高到爆表嘛</span><br>
+</p><p><b>madbird302: </b><br>
+<span>爱吃豆包 发表于 2020-1-15 20:36</span><br>
+<span>能科普下硬盘共振吗？另外企业盘太贵，监控盘以前嫌弃速度慢也没买过，买的几块7200转的当储存盘 ...</span><br>
+<span>就是单纯硬盘马达引起的震动不会对硬盘健康有大的影响，我现在健康状况最好的除了那两个1代蓝盘外就是一个4W多小时的RE4，不过噪音和热量都不小</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>orico是垃圾。尤其是那个硬盘座。</span><br>
+</p><p><b>kkndcdr: </b><br>
+<span>mcq_2 发表于 2020-1-15 21:21</span><br>
+<span>orico是垃圾。尤其是那个硬盘座。</span><br>
+<span>光驱位硬盘抽屉盒我觉得还算能用</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>madbird302 发表于 2020-1-15 20:58</span><br>
+<span>就是单纯硬盘马达引起的震动不会对硬盘健康有大的影响，我现在健康状况最好的除了那两个1代蓝盘外就是一 ...</span><br>
+<span>我看国外的储存阵列4u机箱都是几十个磁盘一起插</span><br>
+</p><p><b>404489039: </b><br>
+<span>我的希捷DM001 05 c5 c6都黄了多久，我都没换也没见坏。（就拿移动硬盘备份下一直没换</span><br>
+<span>LZ平常怎样草硬盘的</span><br>
+</p><p><b>madbird302: </b><br>
+<span>爱吃豆包 发表于 2020-1-15 23:05</span><br>
+<span>我看国外的储存阵列4u机箱都是几十个磁盘一起插</span><br>
+<span>是啊，所以相对于震动可能散热更重要点</span><br>
+</p><p><b>vaststars: </b><br>
+<span>介于太多人说是电源问题 斗争2个小时后下单振华450w金牌了 这个总没问题了吧</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>青年A: </b><br>
+<span>为了摈弃风险我第一台组装是750w白金全模，硬盘是m.2 nvme 1T，这总不会坏</span><br>
+<span>机械硬盘全都是当移动盘，最长5年一换</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>ftqwer: </b><br>
+<span> 本帖最后由 ftqwer 于 2020-1-16 06:42 编辑 </span><br>
+<span>vaststars 发表于 2020-1-16 04:15</span><br>
+<span>介于太多人说是电源问题 斗争2个小时后下单振华450w金牌了 这个总没问题了吧</span><br>
+<span>—— 来自 OnePlus ONEPLUS A ...</span><br>
+<span>你算过你机箱各个配件总用电的功率没有？余量留够了没。要不一样是这种问题。还有家里的用电环境怎么样，电压稳不稳。</span><br>
+</p><p><b>litel: </b><br>
+<span>还有散热。。</span><br>
+<span>两个3t的我记得温度很高。。</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lixkang: </b><br>
+<span>仔细看了下，不都是14年或更早以前的盘了吗？</span><br>
+<span>----发送自 Xiaomi Redmi K20 Pro Premium Edition,Android 10</span><br>
+</p><p><b>vista: </b><br>
+<span>奥睿科这么垃圾？那么泥潭能推荐一下什么硬盘盒好的嘛</span><br>
+</p><p><b>King5268: </b><br>
+<span>硬盘这东西真的玄学，之前一年挂了3块，其中一块还是西数企业级，搞的我怀疑人生，后来干脆直接买 最便宜的 来路不明的 不到300块的 HGST 3T结果一点毛病没有，从14年用到现在</span><br>
+</p><p><b>幻夜未央: </b><br>
+<span>我倒是很奇怪你们为什么都坏硬盘，我wd和希捷的3.5寸十几个，2.5寸也有7，8个，无论是系统盘，挂机盘，仓库盘，移动盘，没有一个坏掉的，至少还没发现</span><br>
+</p><p><b>幻夜未央: </b><br>
+<span>vista 发表于 2020-1-16 08:03</span><br>
+<span>奥睿科这么垃圾？那么泥潭能推荐一下什么硬盘盒好的嘛</span><br>
+<span>我买过优越者一个3.5硬盘盒，还有一个usb转ide/sata转换器用来接老硬盘，用着没发现什么问题</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>我坏过上古的大脚1.2g还是2g忘了，是有坏道。然后就是st2t企业级，09年左右买的，5年出保就开始不定期开机找不到，赶紧替换。当时用的是直插式电源，下载机用。后来的下载机直接啸叫牌金牌了，1w1.5元。</span><br>
+<span>原来用过的40g，160g都是跟旧电脑一起处理了。目前手上12块hdd，最老的10年左右的绿盘，冷备份用，挂机使用的是wd re4 2t×1,wd hc310 4t×1,wd red 2t。使用温索尼克的光驱位硬盘盒。</span><br>
+<span>有块st2tdm001去年换下来当冷备份了。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>全汗 倒贴十万我都不要</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>面包机应该都有振动问题吧</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>全汉</span><br>
+<span>奥瑞科</span><br>
+<span>坏了没太在意</span><br>
+<span>我用安泰克的电源硬盘还是照样坏</span><br>
+</p><p><b>vaststars: </b><br>
+<span>ftqwer 发表于 2020-1-16 06:40</span><br>
+<span>你算过你机箱各个配件总用电的功率没有？余量留够了没。要不一样是这种问题。还有家里的用电环境怎么样， ...</span><br>
+<span>1231v3 1660s</span><br>
+<span>这套加起来300w都不到</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>moondigi: </b><br>
+<span>我手上的东芝过保后半年内坏的几率100%，现在都是淘宝上买那些库存sas盘了，便宜量足就是噪音大</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>我挂的是希捷+奥睿科的组合，两个雷……还带上刚买的东芝3T</span><br>
+<span>用过很多硬盘，以前都是笔记本/台式机内置的从来没听说挂盘，所以我觉得问题八成出在硬盘盒身上</span><br>
+</p><p><b>Saphir: </b><br>
+<span>建议外挂UPS</span><br>
+</p><p><b>带翅膀的饺子: </b><br>
+<span>有块全新希捷3t，要不要？</span><br>
+<span>我在闲鱼发布了【希捷3T，全新未拆，400不包邮，走顺丰。不接刀。】 复制这条消息后，打开闲鱼€gDlo12FUXkB€后打开👉闲鱼👈</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>风声雨声炒菜声: </b><br>
+<span>你不说型号和个人使用频率，谁能给你分析出来呀</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1909787[0-50]</guid>
+    </item>
+  </channel>
+</rss>

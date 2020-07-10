@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>微信备份问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>微信备份问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:49:04 +0000</lastBuildDate>
+    <item>
+      <title>微信备份问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1941847-1-1.html</link>
+      <description>微信备份问题&#13;
+ 本帖最后由 paladin7 于 2020-6-18 22:35 编辑 
+
+某N$ML的产品经理做的毒瘤软件每次换设备都要吐槽
+&#13;
+前一段换手机，迁移微信记录实在太痛苦，不能本地直接对机传输，貌似是还要走服务器中转才行
+&#13;
+因为莫名原因微信判定登录有风险，无奈之下申诉后才能登录新手机。
+&#13;
+在其他帖子有坛友推荐用play版以规避magisk检测封号风险
+&#13;
+卸载了之前官方商店下载的版本，想要去tencent对应的文件夹下删除之前同步的文件
+&#13;
+无奈容量近4G，且零碎文件过多，机器卡到无法执行此操作
+&#13;
+抱着死马当活马医的心态安装了play版微信登录后一切正常
+&#13;
+痛苦的本地同步过程X2
+&#13;
+以防万一打算用钛备份做一个本地备份
+&#13;
+请问大家
+&#13;
+1恢复后微信使用是否有影响
+&#13;
+2前后两次安装文件夹位置应该不变，但文件大小增加了50%左右，如何删除冗余文件</description>
+      <content:encoded><![CDATA[<p><b>paladin7: </b><br>
+<span>微信备份问题</span><br>
+<span> 本帖最后由 paladin7 于 2020-6-18 22:35 编辑 </span><br>
+<span>某N$ML的产品经理做的毒瘤软件每次换设备都要吐槽</span><br>
+<span>前一段换手机，迁移微信记录实在太痛苦，不能本地直接对机传输，貌似是还要走服务器中转才行</span><br>
+<span>因为莫名原因微信判定登录有风险，无奈之下申诉后才能登录新手机。</span><br>
+<span>在其他帖子有坛友推荐用play版以规避magisk检测封号风险</span><br>
+<span>卸载了之前官方商店下载的版本，想要去tencent对应的文件夹下删除之前同步的文件</span><br>
+<span>无奈容量近4G，且零碎文件过多，机器卡到无法执行此操作</span><br>
+<span>抱着死马当活马医的心态安装了play版微信登录后一切正常</span><br>
+<span>痛苦的本地同步过程X2</span><br>
+<span>以防万一打算用钛备份做一个本地备份</span><br>
+<span>请问大家</span><br>
+<span>1恢复后微信使用是否有影响</span><br>
+<span>2前后两次安装文件夹位置应该不变，但文件大小增加了50%左右，如何删除冗余文件</span><br>
+</p><p><b>paladin7: </b><br>
+<span>之前因为为知笔记转印象笔记的问题卡住了，后来自己解决了，最近正好有其他问题重写了一楼的内容求助</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>我也要苹果转安卓了 看看楼下有没有教安卓怎么转东西和避免毒瘤的</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>不是设置里直接可以迁移的吗？同个wifi就行</span><br>
+<span>上周刚把修好的手机旧记录传到新手机。。</span><br>
+<span>顺便还可以通过pc客户端备份和同步记录</span><br>
+</p><p><b>kelveen: </b><br>
+<span>一个wifi下可以机对机传输，细碎文件没啥好的办法，要么针对性的传关键联系人和群的记录，要么在原手机上先清理一次之后再备份。本质上你要保存的东西越多，这些稀稀拉拉的文件就会越多，张小龙做的东西就这样，没办法。</span><br>
+<span>—— 来自 samsung SM-G9750, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>可以备份到pc版，然后切换登陆后从pc还原。 pc也能备份多个版本的历史，不一定需要钛备份。 最后我已经两次风险了，第三次再风险就要永久ban号了。保险起见还是把微信装到不越狱的ios备机上去了。</span><br>
+</p><p><b>paladin7: </b><br>
+<span>系统杀手 发表于 2020-6-19 02:09</span><br>
+<span>可以备份到pc版，然后切换登陆后从pc还原。 pc也能备份多个版本的历史，不一定需要钛备份。 最后我已经两次 ...</span><br>
+<span>这出门要装俩手机太烦了</span><br>
+<span>算了我对微信聊天历史也没那么大执念</span><br>
+<span>你这风险也是因为magisk引起吗</span><br>
+</p><p><b>两个路人: </b><br>
+<span>股沟playstore上有个叫wecathelper的软件，能列出企鹅app底下的缓存图片、接收文件和语音文件。自个儿慢慢删大头文件吧。</span><br>
+</p><p><b>jestime: </b><br>
+<span>两个路人 发表于 2020-6-19 20:28</span><br>
+<span>股沟playstore上有个叫wecathelper的软件，能列出企鹅app底下的缓存图片、接收文件和语音文件。自个儿慢慢 ...</span><br>
+<span>华为手机管家的清理功能里面能识别微信 qq的图、视频、文件，分类清理，其他牌子的有么</span><br>
+</p><p><b>paladin7: </b><br>
+<span>两个路人 发表于 2020-6-19 20:28</span><br>
+<span>股沟playstore上有个叫wecathelper的软件，能列出企鹅app底下的缓存图片、接收文件和语音文件。自个儿慢慢 ...</span><br>
+<span>之前有个微痕迹 现在改名叫微拾 也可以 @jestime</span><br>
+</p><p><b>夏影: </b><br>
+<span> 本帖最后由 夏影 于 2020-6-19 23:02 编辑 </span><br>
+<span>数据库国产机不都有备份功能么，图片附件什么的都在/sdcard/tencent/MicroMsg路径下可以手动保存</span><br>
+<span>华为小米还有vivo备份出来的数据都是一个tar文件，只不过里面路径和文件头稍有不同，自己会编程可以修改一下通用的</span><br>
+<span>sdcard下的手动一下复制就行</span><br>
+</p><p><b>paladin7: </b><br>
+<span>夏影 发表于 2020-6-19 22:57</span><br>
+<span>数据库国产机不都有备份功能么，图片附件什么的都在/sdcard/tencent/MicroMsg路径下 ...</span><br>
+<span>我主楼的问题是这文件夹太大文件太多 有什么什么好办法删除 点了系统卡</span><br>
+</p><p><b>夏影: </b><br>
+<span> 本帖最后由 夏影 于 2020-6-19 23:11 编辑 </span><br>
+<span>paladin7 发表于 2020-6-19 22:59</span><br>
+<span>我主楼的问题是这文件夹太大文件太多 有什么什么好办法删除 点了系统卡</span><br>
+<span>下个TotalCommand，可以指定目录按大小，时间排序，手动删除就是了</span><br>
+<span>比如说图片是下面的image2目录，右上的放大镜可以遍历搜索，下面右二是个排序图标，剩下你看着删就是了</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=689677&size=300x300&key=b15577a4b26adc51&nocache=yes&type=fixnonehttps://bbs.saraba1st.com/2b/forum.php?mod=image&aid=689678&size=300x300&key=d098bdda565173ca&nocache=yes&type=fixnone</span><br>
+</p><p><b>paladin7: </b><br>
+<span>夏影 发表于 2020-6-19 23:03</span><br>
+<span>下个TotalCommand，可以指定目录按大小，时间排序，手动删除就是了</span><br>
+<span>比如说图片是下面的image2目录，右上的 ...</span><br>
+<span>感谢 主楼的第二个问题中</span><br>
+<span>安装文件夹位置不变，同步了两次，请问是否会有大量冗余文件？</span><br>
+<span>貌似用TC可以试试</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>遇事不决用 TC </span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>夏影: </b><br>
+<span>我不太清楚微信自己的同步机制，但是我觉得你看下sdcard/tencent/MicroMsg目录下是不是有多个长32位的类似hash目录，并且里面的内容比如说图片是重复的</span><br>
+<span>原先微信同一个账号，这些hash都是一样的，后来机制改了，每次登录都会生成一个hash，可能同步到不同的hash目录下了</span><br>
+</p><p><b>人生如戏: </b><br>
+<span>微信一直用PLAY版,没遇到过风险提示啊</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>paladin7 发表于 2020-6-19 15:35</span><br>
+<span>这出门要装俩手机太烦了</span><br>
+<span>算了我对微信聊天历史也没那么大执念</span><br>
+<span>magisk ，xposed相关 ，虚拟安卓环境，root。主要是这些会引发微信风险。一个号就三条命，前两次可以找实名绑卡的人扫码辅助解封，第三次就是永久禁用了。</span><br>
+</p><p><b>benjin: </b><br>
+<span>微信记录其实可以用PC版备份，我记得貌似是通过WIFI局域网传输的？反正挺快的</span><br>
+</p><p><b>benjin: </b><br>
+<span>系统杀手 发表于 2020-6-20 01:49</span><br>
+<span>magisk ，xposed相关 ，虚拟安卓环境，root。主要是这些会引发微信风险。一个号就三条命，前两次可以找实 ...</span><br>
+<span>啊？还会这样？我倒是因为PLAY版的原本支持FCM功能所以一直用PLAY版本（虽然现在腾讯下阴手导致PLAY版也不走FCM通道，除非全局科学上网）</span><br>
+<span>那估计要针对微信隐藏/MAGISK了？</span><br>
+</p><p><b>ziyuan008: </b><br>
+<span>说实话，备份还是苹果舒服，安卓下没有太好的办法，只能备份到pc，再到手机，这样速度最快，我20多G的微信聊天记录就是这么导的，就是每次换手机导一遍太痛苦。。</span><br>
+</p><p><b>神之领域: </b><br>
+<span>之前以为水果的itunes备份没有将微信的也备份，自己在PC上备份了一次微信记录，想不到恢复itunes的备份之后，记录竟然能还原，我记得之前说过不能备份app里面的记录，难道改了？</span><br>
+</p><p><b>paladin7: </b><br>
+<span>系统杀手 发表于 2020-6-20 01:49</span><br>
+<span>magisk ，xposed相关 ，虚拟安卓环境，root。主要是这些会引发微信风险。一个号就三条命，前两次可以找实 ...</span><br>
+<span>原来就三条命啊 瑟瑟发抖</span><br>
+</p><p><b>paladin7: </b><br>
+<span>benjin 发表于 2020-6-20 04:18</span><br>
+<span>微信记录其实可以用PC版备份，我记得貌似是通过WIFI局域网传输的？反正挺快的 ...</span><br>
+<span>没用 貌似要经过腾讯的路由器中转</span><br>
+<span>用官方的搬家软件转移图片文档app都很快</span><br>
+<span>只有腾讯速度像乌龟</span><br>
+<span>而且PC版备份到一半失效很常见</span><br>
+</p><p><b>paladin7: </b><br>
+<span>benjin 发表于 2020-6-20 04:21</span><br>
+<span>啊？还会这样？我倒是因为PLAY版的原本支持FCM功能所以一直用PLAY版本（虽然现在腾讯下阴手导致PLAY版也不 ...</span><br>
+<span>貌似有一个com.tencent.mm:hotpot...的选项不成功，其他都可以勾选，暂时没大问题我就不敢折腾了</span><br>
+</p><p><b>烟萝: </b><br>
+<span>PC那个破备份我就没完成过。</span><br>
+</p><p><b>henry8848: </b><br>
+<span>登录PC客户端后，客户端会自动同步手机的部分聊天记录到电脑。</span><br>
+<span>哪位知道怎么将这些记录同步回手机吗</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>用 储存空间隔离 之后 https://play.google.com/store/apps/details?id=moe.shizuku.redirectstorage</span><br>
+<span>再用钛备份，换机之后恢复，微信和QQ都能行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1941847[0-50]</guid>
+    </item>
+  </channel>
+</rss>

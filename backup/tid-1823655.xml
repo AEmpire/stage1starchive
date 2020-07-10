@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NVIDIA发布了几个可以自己跑的光追Demo</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NVIDIA发布了几个可以自己跑的光追Demo</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:25:58 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA发布了几个可以自己跑的光追Demo[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1823655-1-1.html</link>
+      <description>NVIDIA发布了几个可以自己跑的光追Demo&#13;
+ 本帖最后由 FirstSnow 于 2019-4-12 09:31 编辑 
+
+https://www.nvidia.com/en-us/gef ... ech-demo-downloads/
+&#13;
+我刚点进去的时候很难相信这是显卡实时渲染出来的，太电影了，几乎以假乱真，特别是星战demo Reflections。
+&#13;
+在2018年初，ILMxLAB，Epic Games和NVIDIA展示了一个名为Reflections的电影。然后我们发现这实际上是使用光线跟踪反射，区域光阴影和环境遮挡实时渲染的，价格在70,000美元的四GPU Volta架构NVIDIA DGX工作站上。这是一个引起全球关注的重大进步，因为以前在这种保真度水平上的实时光线跟踪是不可能的，所有光线跟踪都在巨大的服务器场上完成离线。
+&#13;
+油管下面评论说see you in 2040，没想到19年消费级显卡就可以跑起来了。</description>
+      <content:encoded><![CDATA[<p><b>FirstSnow: </b><br>
+<span>NVIDIA发布了几个可以自己跑的光追Demo</span><br>
+<span> 本帖最后由 FirstSnow 于 2019-4-12 09:31 编辑 </span><br>
+<span>https://www.nvidia.com/en-us/gef ... ech-demo-downloads/</span><br>
+<span>我刚点进去的时候很难相信这是显卡实时渲染出来的，太电影了，几乎以假乱真，特别是星战demo Reflections。</span><br>
+<span>在2018年初，ILMxLAB，Epic Games和NVIDIA展示了一个名为Reflections的电影。然后我们发现这实际上是使用光线跟踪反射，区域光阴影和环境遮挡实时渲染的，价格在70,000美元的四GPU Volta架构NVIDIA DGX工作站上。这是一个引起全球关注的重大进步，因为以前在这种保真度水平上的实时光线跟踪是不可能的，所有光线跟踪都在巨大的服务器场上完成离线。</span><br>
+<span>油管下面评论说see you in 2040，没想到19年消费级显卡就可以跑起来了。</span><br>
+</p><p><b>EP2: </b><br>
+<span>10几年前不知道是dx8还是dx10发布的demo就已经以假乱真了，然则并没有什么卵用</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>EP2 发表于 2019-4-12 04:59</span><br>
+<span>10几年前不知道是dx8还是dx10发布的demo就已经以假乱真了，然则并没有什么卵用</span><br>
+<span>—— 来自 Xiaomi MIX 2S,...</span><br>
+<span>应该是DX10出来的时候8的贴图还是太简陋了，10是更高效的用贴图去“造光”，光追已经变成直接发光了，不需要贴图给GPU带来那么大压力</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>是不是RTX显卡限定</span><br>
+</p><p><b>卡片魔法师: </b><br>
+<span>madbird302 发表于 2019-04-12 07:31:52</span><br>
+<span>应该是DX10出来的时候8的贴图还是太简陋了，10是更高效的用贴图去“造光”，光追已经变成直接发光了，不 ...我记得以前贴图造光是因为计算光路太耗了，现在反过来了？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Yalbsd: </b><br>
+<span>manu88wh 发表于 2019-4-12 08:40</span><br>
+<span>是不是RTX显卡限定</span><br>
+<span>10系应该也能跑了吧</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>Yalbsd 发表于 2019-4-12 08:53</span><br>
+<span>10系应该也能跑了吧</span><br>
+<span>N卡今天更新了425.31驱动，添加了对10系光追的支持，但是实际表现被20系吊起来抽，1080ti打不过20系甜品卡，就算是2060表现也远胜1080ti。</span><br>
+</p><p><b>final007: </b><br>
+<span>没有20卡，有视频看看效果有多炸裂吗</span><br>
+</p><p><b>arikado: </b><br>
+<span> 本帖最后由 arikado 于 2019-4-12 11:10 编辑 </span><br>
+<span>我下了个那个中国游戏的demo。为什么RT和DLSS都不能打开？难道因为屏幕分辨率只到1080p？</span><br>
+<span>显卡是2070，驱动425，应该没问题啊？</span><br>
+<span>更新：可能是没更新1809的原因……</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>arikado 发表于 2019-4-12 11:02</span><br>
+<span>我下了个那个中国游戏的demo。为什么RT和DLSS都不能打开？难道因为屏幕分辨率只到1080p？</span><br>
+<span>显卡是2070，驱动 ...</span><br>
+<span>100%不缩放试试，还有这是逆水寒啊。</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>FirstSnow 发表于 2019-4-12 09:13</span><br>
+<span>N卡今天更新了425.31驱动，添加了对10系光追的支持，但是实际表现被20系吊起来抽，1080ti打不过20系甜品 ...</span><br>
+<span>为了卖新卡，黄仁勋真是卜折手断 </span><br>
+</p><p><b>melvin117: </b><br>
+<span>额。。。游戏呢</span><br>
+<span>厂商快跟进啊草</span><br>
+</p><p><b>qumkml423: </b><br>
+<span> 本帖最后由 qumkml423 于 2019-4-12 11:45 编辑 </span><br>
+<span>ea倒是蛮热衷光追的，奈何bfv，anthem扑街了，metro不知道是不是epic独占的因素，感觉热度也不行。还有古墓丽影暗影的光追更新没？</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>qumkml423 发表于 2019-4-12 11:42</span><br>
+<span>ea倒是蛮热衷光追的，奈何bfv，anthem扑街了，metro不知道是不是epic独占的因素，感觉热度也不行。还有古墓 ...</span><br>
+<span>更了，但是比较菜，现在地铁离乡的表现是最好的，详情见这个视频</span><br>
+<span>https://www.bilibili.com/video/av43973545/</span><br>
+</p><p><b>FirstSnow: </b><br>
+<span>melvin117 发表于 2019-4-12 11:39</span><br>
+<span>额。。。游戏呢</span><br>
+<span>厂商快跟进啊草</span><br>
+<span>不要急，还有一年我们就能玩上地铁离乡了。</span><br>
+</p><p><b>serial: </b><br>
+<span>草，逆水寒niubi</span><br>
+</p><p><b>melvin117: </b><br>
+<span>FirstSnow 发表于 2019-4-12 11:54</span><br>
+<span>不要急，还有一年我们就能玩上地铁离乡了。</span><br>
+<span>草生</span><br>
+</p><p><b>362356859: </b><br>
+<span>说到光追我就想到战地v，我就想到我是预购豪华玩家，就想到我是一个傻b。</span><br>
+</p><p><b>madbird302: </b><br>
+<span>卡片魔法师 发表于 2019-4-12 08:45</span><br>
+<span>我记得以前贴图造光是因为计算光路太耗了，现在反过来了？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>以前的光线效果全部是由阴影贴图实现的啊，再加上AA，那个贴图计算量简直是，现在确实是反过来由真正的光源来照了，但还没几家用，慢慢等吧</span><br>
+</p><p><b>xing7673: </b><br>
+<span>卡片魔法师 发表于 2019-4-12 08:45</span><br>
+<span>我记得以前贴图造光是因为计算光路太耗了，现在反过来了？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>贴图造光是AO烘焙，这是为了实时场景中节省计算量。</span><br>
+<span>现在可以实时计算光路了，使得即使场景被破坏了依然能够显示得很真实。</span><br>
+</p><p><b>王境泽: </b><br>
+<span>【官方双语】RTX是场大骗局？性能&画面质量分析#linus谈科技</span><br>
+<span>正好讲这个事</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1823655[0-50]</guid>
+    </item>
+  </channel>
+</rss>

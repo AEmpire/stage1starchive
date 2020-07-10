@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>家庭组网又遇奇葩问题，求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>家庭组网又遇奇葩问题，求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:43:25 +0000</lastBuildDate>
+    <item>
+      <title>家庭组网又遇奇葩问题，求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1849597-1-1.html</link>
+      <description>家庭组网又遇奇葩问题，求助&#13;
+1.主干结构是光猫→路由器A，光猫拨号，路由器A动态获取ip。
+
+2.路由器A lan口分出一根线接到路由器B wan口，路由器B同样动态获取ip。
+
+一个多月以来一切正常，设备连接A和B都可以正常上网。但最近突然出现一种情况：设备连到路由器B可以正常上网，但连到A会显示没有连接到因特网。但查看A的后台界面，又显示A正常连接到了网络。
+
+重启A无法解决问题，只有重启光猫才行，但过个一天左右又会旧病复发。
+
+麻烦诸位分析一下问题可能出在哪？</description>
+      <content:encoded><![CDATA[<p><b>马僧虔: </b><br>
+<span>家庭组网又遇奇葩问题，求助</span><br>
+<span>1.主干结构是光猫→路由器A，光猫拨号，路由器A动态获取ip。</span><br>
+<span>2.路由器A lan口分出一根线接到路由器B wan口，路由器B同样动态获取ip。</span><br>
+<span>一个多月以来一切正常，设备连接A和B都可以正常上网。但最近突然出现一种情况：设备连到路由器B可以正常上网，但连到A会显示没有连接到因特网。但查看A的后台界面，又显示A正常连接到了网络。</span><br>
+<span>重启A无法解决问题，只有重启光猫才行，但过个一天左右又会旧病复发。</span><br>
+<span>麻烦诸位分析一下问题可能出在哪？</span><br>
+</p><p><b>duperbigd: </b><br>
+<span>客户端数量限制？</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>duperbigd 发表于 2019-7-27 23:33</span><br>
+<span>客户端数量限制？</span><br>
+<span>我可以排除这个原因……</span><br>
+</p><p><b>qwased: </b><br>
+<span>网段设置有问题吧，你把光猫 A B的网段都分开别设置在一起</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>不是IP问题？</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>谢谢楼上几位的建议，重新设置了下网段貌似有效。这些东西最恶心的就是你根本没动过，一直正常使用突然就出问题，故障排查都无从下手</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>DHCP？</span><br>
+<span>其实我觉得吧…你不如把A到B的线插B的LAN口上，把B当交换机用，有效降低你的网络复杂性</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>EraserKing 发表于 2019-7-28 00:00</span><br>
+<span>DHCP？</span><br>
+<span>其实我觉得吧…你不如把A到B的线插B的LAN口上，把B当交换机用，有效降低你的网络复杂性</span><br>
+<span>主要是光猫到A这个结构我不能改动，而A是老旧型号，有时候我需要几台设备都接到B网才能使用某些功能</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>a上设置dhcp server，b上dhcp relay</span><br>
+</p><p><b>kingjob: </b><br>
+<span>请问，光猫拨号》8口千兆交换机分路到1NAS，2电视机，3卧室路由器广播，4电视机</span><br>
+<span>这样可行吗</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>kingjob 发表于 2019-7-28 00:18</span><br>
+<span>请问，光猫拨号》8口千兆交换机分路到1NAS，2电视机，3卧室路由器广播，4电视机</span><br>
+<span>这样可行吗</span><br>
+<span>没看出啥问题</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>马僧虔 发表于 2019-7-28 00:04</span><br>
+<span>主要是光猫到A这个结构我不能改动，而A是老旧型号，有时候我需要几台设备都接到B网才能使用某些功能 ...</span><br>
+<span>那ab为什么不交换</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1849597[0-50]</guid>
+    </item>
+  </channel>
+</rss>

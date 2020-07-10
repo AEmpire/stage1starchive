@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个mp3播放的怪问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个mp3播放的怪问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:11:09 +0000</lastBuildDate>
+    <item>
+      <title>问个mp3播放的怪问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854773-1-1.html</link>
+      <description>问个mp3播放的怪问题&#13;
+用goldwave截取了一个mp3文件（1）的片段，先存为wav（2），再另存为mp3（3）（1）（2）（3）在pc上使用winamp, potplayer, mediaplayer播放都正常
+&#13;
+pc通过samba共享，手机1上播放文件（1）正常，播放（2），（3）夹杂着刺耳噪音， 更换手机2，情形和手机1相同
+&#13;
+和手机上播放器（自带播放器，vlc，nplayer）无关，有杂音的都有杂音
+&#13;
+谁能帮忙看看啥原因</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>问个mp3播放的怪问题</span><br>
+<span>用goldwave截取了一个mp3文件（1）的片段，先存为wav（2），再另存为mp3（3）（1）（2）（3）在pc上使用winamp, potplayer, mediaplayer播放都正常</span><br>
+<span>pc通过samba共享，手机1上播放文件（1）正常，播放（2），（3）夹杂着刺耳噪音， 更换手机2，情形和手机1相同</span><br>
+<span>和手机上播放器（自带播放器，vlc，nplayer）无关，有杂音的都有杂音</span><br>
+<span>谁能帮忙看看啥原因</span><br>
+</p><p><b>atomicink: </b><br>
+<span>我也是截了半天铃声然后放手机一听怎么这么嘈杂</span><br>
+</p><p><b>windbms: </b><br>
+<span>看看1和3的采样率，编码方式</span><br>
+</p><p><b>linjia: </b><br>
+<span>windbms 发表于 2019-8-20 22:54</span><br>
+<span>看看1和3的采样率，编码方式</span><br>
+<span>原始的</span><br>
+<span>Input #0, mp3, from 'original.mp3':</span><br>
+<span>Metadata:</span><br>
+<span>    CT_GAPLESS_DATA : 0</span><br>
+<span>    album         : ACT49</span><br>
+<span>    genre         : (脦脼)</span><br>
+<span>    artist          : <脦麓脰陋></span><br>
+<span>    title         : 脟煤脛驴 12</span><br>
+<span>    track         : 12</span><br>
+<span>Duration: 00:05:06.82, start: 0.000000, bitrate: 320 kb/s</span><br>
+<span>    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16p, 320 kb/s</span><br>
+<span>有杂音的</span><br>
+<span>Input #0, mp3, from 'strip.mp3':</span><br>
+<span>Duration: 00:01:06.73, start: 0.000000, bitrate: 127 kb/s</span><br>
+<span>    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16p, 128 kb/s</span><br>
+</p><p><b>adslnet0519: </b><br>
+<span>这样看大概就是mp3码率大小的缘故，但是wav也有杂音就有点奇怪了</span><br>
+</p><p><b>windbms: </b><br>
+<span>用foobar之类的重新转一次，上次遇到这种还是用的mp4</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-8-21 12:55 编辑 </span><br>
+<span>看看三段音频在这些操作下有没有杂音：</span><br>
+<span>1.用usb拷到手机上，再在手机上放</span><br>
+<span>2.通过samba复制到手机上，再在手机上放</span><br>
+<span>3.通过samba复制到手机上，再用usb拷回电脑上，再在电脑上放拷回的文件</span><br>
+<span>或者你把文件传个网盘……</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>等等我以前碰到过差不多的问题，用goldwave切割mp3放手机上后有刺啦刺啦的声音。</span><br>
+</p><p><b>nanoka111: </b><br>
+<span>我觉得有可能是软件对MP3格式解码的问题，有些软件在解析某些特定的经过压缩后的音频文件后就有可能将其转换成“噪音版”。</span><br>
+<span>所以我现在大多是先用ffmpeg等工具将其转成wav文件后再用Audition读取来进行音频剪辑操作，我觉得这样比让软件直接读取压缩格式的音频文件保险。</span><br>
+<span>不过这种情况我都是直接在电脑上就能发现了，像这种电脑上发现不了手机上才发现的情况我还没遇到过。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>那不就是mp3解码到wav存储的过程当中出现了兼容问题嘛</span><br>
+</p><p><b>linjia: </b><br>
+<span>换个一个新版本的goldwave还是有杂音，看来要Adobe Audition 或者cool edit pr什么的了。。。</span><br>
+</p><p><b>linjia: </b><br>
+<span>服了， 用cooledit编辑出来的mp3，还是相同的问题。。。。。</span><br>
+</p><p><b>linjia: </b><br>
+<span>alvin051414 发表于 2019-8-21 12:48</span><br>
+<span>看看三段音频在这些操作下有没有杂音：</span><br>
+<span>1.用usb拷到手机上，再在手机上放</span><br>
+<span>2.通过samba复制到手机上，再在手 ...</span><br>
+<span>文件3 通过usb拷到手机上也是有杂音的</span><br>
+<span>文件3拷贝到sony mp3上听，正常</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-8-22 06:28 编辑 </span><br>
+<span>linjia 发表于 2019-8-21 23:09</span><br>
+<span>文件3 通过usb拷到手机上也是有杂音的</span><br>
+<span>文件3拷贝到sony mp3上听，正常</span><br>
+<span>那感觉像codec方面的问题。看你4楼贴的东西还有GBK/UTF-8造成的乱码。可能性有点多，需要点补充信息:把三段音频的文件都传上来，顺便报下两台手机的型号，最好再录一段文件3的手机外放。这都2019年了，就别单靠文字来交流多媒体问题了。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-8-22 06:33 编辑 </span><br>
+<span>想起很多年以前一张专辑的mp3放着放着出现了专辑里绝对不该有的片段的灵异事件</span><br>
+</p><p><b>linjia: </b><br>
+<span>alvin051414 发表于 2019-8-22 05:59</span><br>
+<span>那感觉像codec方面的问题。看你4楼贴的东西还有GBK/UTF-8造成的乱码。可能性有点多，需要点补充信息:把三 ...</span><br>
+<span>今天到了公司，突发奇想，用samba把手机上文件3传到公司pc上，然后手机播放，居然正常了</span><br>
+<span>然后在通过samba拷回手机，播放，也正常，灵异事件</span><br>
+<span>服了，算了，不折腾它了，哈哈</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854773[0-50]</guid>
+    </item>
+  </channel>
+</rss>

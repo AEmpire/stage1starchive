@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安装了VC++2015，还是启动不了王国风云2</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安装了VC++2015，还是启动不了王国风云2</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:34:00 +0000</lastBuildDate>
+    <item>
+      <title>安装了VC++2015，还是启动不了王国风云2[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1924461-1-1.html</link>
+      <description>安装了VC++2015，还是启动不了王国风云2&#13;
+一直都没能玩上王国风云2，就是因为那个“缺少MSVCP140.dll”的问题。据说安装M VC++2015能解，最近好不容易找到个能用的安装了，问题依然如故，还是提示“缺少MSVCP140.DLL”。
+&#13;
+所以这是什么地方的问题？</description>
+      <content:encoded><![CDATA[<p><b>ww-stl: </b><br>
+<span>安装了VC++2015，还是启动不了王国风云2</span><br>
+<span>一直都没能玩上王国风云2，就是因为那个“缺少MSVCP140.dll”的问题。据说安装M VC++2015能解，最近好不容易找到个能用的安装了，问题依然如故，还是提示“缺少MSVCP140.DLL”。</span><br>
+<span>所以这是什么地方的问题？</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>可能是32位/64位的问题，把两个都装上</span><br>
+<span>还有可能是需要vc++2015 哪个sp版本，这个一般去微软下载最新的能解决</span><br>
+<span>你既然说“好不容易找到”，我推测你不是在微软那里下载的</span><br>
+</p><p><b>enye: </b><br>
+<span>建议先去steam下免费原版，steam游戏安装的时候会自动安装组件</span><br>
+<span>还是不行那就用奥义重装系统重装系统能解决99%的组件缺失问题</span><br>
+</p><p><b>qianoooo: </b><br>
+<span>2020了 下个steam免费版然后搞学习补丁多方便</span><br>
+</p><p><b>myuanb: </b><br>
+<span>网上下载一个MSVCP140.dll 然后注册一下试试……</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>vcredist分32/64位版。如果是正版，steam会帮你处理好这个问题。盗版的话，建议两个都装。</span><br>
+</p><p><b>爱护动物抓根宝: </b><br>
+<span>我记得这种问题32/64位好像都得装</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>说明你的VC安装目标文件夹权限有问题</span><br>
+<span>需要手工注册这个组件</span><br>
+</p><p><b>鷹書たかしょ: </b><br>
+<span>本体都免费了直接steam启动啊</span><br>
+</p><p><b>优秀: </b><br>
+<span>你不会装了那啥开发工具套件vs2015吧，装运行库即可。</span><br>
+<span>https://www.microsoft.com/zh-cn/download/details.aspx?id=48145，巨硬官网下载，x64和x86都装了吧</span><br>
+</p><p><b>boom33: </b><br>
+<span>.</span><br>
+<span>去steam买个打折本体（有时候甚至免费），然后去52论坛搜破 解dlc装上，游戏体验好的一逼，甚至可以解锁成就。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>jianghaofan: </b><br>
+<span>boom33 发表于 2020-4-16 15:56</span><br>
+<span>去steam买个打折本体（有时候甚至免费），然后去52论坛搜破 解dlc装上，游戏体验好的一逼，甚至可以解锁成 ...</span><br>
+<span>本体不是永久免费了吗</span><br>
+</p><p><b>ww-stl: </b><br>
+<span>优秀 发表于 2020-4-16 15:39</span><br>
+<span>你不会装了那啥开发工具套件vs2015吧，装运行库即可。</span><br>
+<span>https://www.microsoft.com/zh-cn/download/details. ...</span><br>
+<span>我就是在这里下的啊。</span><br>
+<span>原来是两个都要装，上次是只装了X64的。</span><br>
+<span>把X86的也装上，又出现了开始读取后闪退的问题。MD还是去STEAM找免费正吧。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1924461[0-50]</guid>
+    </item>
+  </channel>
+</rss>

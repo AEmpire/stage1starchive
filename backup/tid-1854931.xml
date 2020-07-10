@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>软路由搞得一头雾水，怎样用双网卡接AP呀</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>软路由搞得一头雾水，怎样用双网卡接AP呀</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:10:10 +0000</lastBuildDate>
+    <item>
+      <title>软路由搞得一头雾水，怎样用双网卡接AP呀[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854931-1-1.html</link>
+      <description>软路由搞得一头雾水，怎样用双网卡接AP呀&#13;
+我现在光猫接网卡1，lede里拨号上网没问题
+&#13;
+网卡2也添加进虚拟机了，网线连接AC68U想当AP用，可是这一步完全不知道该怎么设置，有大哥可以远程教教我的吗
+&#13;
+这个口完全不知道该选啥协议</description>
+      <content:encoded><![CDATA[<p><b>01046: </b><br>
+<span>软路由搞得一头雾水，怎样用双网卡接AP呀</span><br>
+<span>我现在光猫接网卡1，lede里拨号上网没问题</span><br>
+<span>网卡2也添加进虚拟机了，网线连接AC68U想当AP用，可是这一步完全不知道该怎么设置，有大哥可以远程教教我的吗</span><br>
+<span>这个口完全不知道该选啥协议</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>静态</span><br>
+</p><p><b>flmu: </b><br>
+<span>ac68开ap模式，插上网线用就行。没AP模式那就先改为和软路由同一网段的IP，再把DHCP关了，lan口插上网线用。</span><br>
+<span>—— 来自 vivo V1829A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>01046: </b><br>
+<span>flmu 发表于 2019-8-21 16:29</span><br>
+<span>ac68开ap模式，插上网线用就行。没AP模式那就先改为和软路由同一网段的IP，再把DHCP关了，lan口插上网线用 ...</span><br>
+<span>开了AP模式，连接wifi无法分配IP，lede里默认也没有我网卡2的接口，折腾了一下午快崩溃了</span><br>
+</p><p><b>qwased: </b><br>
+<span>网卡1默认是lan，添加网卡2做wan就行了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>騜: </b><br>
+<span>exsi还是hyperv？先把你虚拟网卡的名字整理清楚，哪个口做lan哪个做wan，然后分开配置</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>静态。多lan口就桥接，地址都是一个。</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>01046: </b><br>
+<span>搞定了，原来要在系统进阶设定里设置为普通模式</span><br>
+<span>默认好像是NUC单网口模式</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854931[0-50]</guid>
+    </item>
+  </channel>
+</rss>

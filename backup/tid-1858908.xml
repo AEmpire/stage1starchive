@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小白问题，在MPC-BE和Potplayer中如何正确配置LAV和madVR</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小白问题，在MPC-BE和Potplayer中如何正确配置LAV和madVR</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:44:52 +0000</lastBuildDate>
+    <item>
+      <title>小白问题，在MPC-BE和Potplayer中如何正确配置LAV和madVR[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858908-1-1.html</link>
+      <description>小白问题，在MPC-BE和Potplayer中如何正确配置LAV和madVR&#13;
+昨天下的，查了一下有关文章，基本都是说加Video Decoder滤镜，但是我想音频也通过LAV那么是要选LAV spliter还是LAV spliter source ？在设置里对每个格式单独选择解码器那里又要选哪个呢？
+
+顺便求madvr合适的设置昨天按着某文章设置的，笔记本断电以后一放片占用就双双50％</description>
+      <content:encoded><![CDATA[<p><b>Diabolosis: </b><br>
+<span>小白问题，在MPC-BE和Potplayer中如何正确配置LAV和madVR</span><br>
+<span>昨天下的，查了一下有关文章，基本都是说加Video Decoder滤镜，但是我想音频也通过LAV那么是要选LAV spliter还是LAV spliter source ？在设置里对每个格式单独选择解码器那里又要选哪个呢？</span><br>
+<span>顺便求madvr合适的设置昨天按着某文章设置的，笔记本断电以后一放片占用就双双50％</span><br>
+</p><p><b>jcyxxx: </b><br>
+<span>https://vcb-s.com/archives/category/kb</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>finallysqull01: </b><br>
+<span>madvr本身就比较吃配置，笔记本可以把参数往下调</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-10-11 11:23 编辑 </span><br>
+<span>工作流程是source导入文件→splitter分离媒体流→decoder解码→render输出，</span><br>
+<span>想用lav解音频就设lav audio decoder。lav splitter source好像是把前两步都干了了。</span><br>
+</p><p><b>goranger: </b><br>
+<span>我昨天也研究了这个，我看贴吧有评测be+madvr就够用了。弄了半天确实比我直接用射手播放器画面有提升，屁股上的细节红润了</span><br>
+</p><p><b>买表大户: </b><br>
+<span>madVR我开1.5倍速就开始卡顿了</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>goranger 发表于 2019-10-11 11:24</span><br>
+<span>我昨天也研究了这个，我看贴吧有评测be+madvr就够用了。弄了半天确实比我直接用射手播放器画面有提升，屁股 ...</span><br>
+<span>屁股还行</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858908[0-50]</guid>
+    </item>
+  </channel>
+</rss>

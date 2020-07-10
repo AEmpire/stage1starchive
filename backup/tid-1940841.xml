@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>旧平台加装nvme问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>旧平台加装nvme问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:56:52 +0000</lastBuildDate>
+    <item>
+      <title>旧平台加装nvme问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1940841-1-1.html</link>
+      <description>旧平台加装nvme问题&#13;
+ 本帖最后由 thegodra 于 2020-6-10 17:09 编辑 
+
+六代B150M
+&#13;
+四代B85M
+&#13;
+都没有m.2口
+&#13;
+通过pcie转接卡，是否可行
+&#13;
+以及是否有足够意义？（应该会损失速度，但这应该是花费比较少的提升了，未来也可以拿到新平台用）
+&#13;
+忘了说，希望能做系统盘
+&#13;
+THX</description>
+      <content:encoded><![CDATA[<p><b>thegodra: </b><br>
+<span>旧平台加装nvme问题</span><br>
+<span> 本帖最后由 thegodra 于 2020-6-10 17:09 编辑 </span><br>
+<span>六代B150M</span><br>
+<span>四代B85M</span><br>
+<span>都没有m.2口</span><br>
+<span>通过pcie转接卡，是否可行</span><br>
+<span>以及是否有足够意义？（应该会损失速度，但这应该是花费比较少的提升了，未来也可以拿到新平台用）</span><br>
+<span>忘了说，希望能做系统盘</span><br>
+<span>THX</span><br>
+</p><p><b>parnppp: </b><br>
+<span> 本帖最后由 parnppp 于 2020-6-10 17:06 编辑 </span><br>
+<span>我H77 ， 用PCIE转m2接西数黑盘，全盘速度1.3GB/S，系统显示是降速到pcie2.0x4。</span><br>
+<span>pcie2.0基础速率是500MB/S，不计算损耗，理论上还是有2GB/S的速度空间。</span><br>
+<span>反正都比sata快就是了。</span><br>
+<span>趁618买一块M2先用着，等以后装新机直接拔掉给新机用。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>nvme就是走的pcie，弄个转接卡就是了。速度完全取决于你的接口有多少条lane可用，以及lane的速率。</span><br>
+<span>比如你机器有两条来自cpu的pcie16x（实际拆分成8+8)通道，那么买个4x的卡插上去，那速率和最新系统不会有差别。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>做系统盘可能需要刷bios</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>可行，做系统盘b85可能要修改bios增加模块。教程都是现成的</span><br>
+</p><p><b>starash: </b><br>
+<span>thegodra 发表于 2020-6-10 16:52</span><br>
+<span>六代B150M</span><br>
+<span>四代B85M</span><br>
+<span>都没有m.2口</span><br>
+<span>150可以，85要找改版bios，没有就没戏，我是指做系统盘。</span><br>
+<span>pcie转接都是可识别的。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>9代以后的（比如Z97）主板只要厂商不是铁废物，一般BIOS都会加nvme启动</span><br>
+<span>甚至有些8代都有</span><br>
+<span>B150加nvme转PCIe的转接卡应该可以，B85就够呛了</span><br>
+</p><p><b>沃特·马龙: </b><br>
+<span>B85改bios是没问题的</span><br>
+<span>不过兼容性还得看主板和ssd</span><br>
+</p><p><b>feelmydick: </b><br>
+<span>B85是可以,但实际操作上不好说</span><br>
+<span>上次办公室有台老电脑主板坏了,我上马云家买了块华南金牌190块的B85寨板换上,发现自带M2槽,bios里也有nvme启动</span><br>
+</p><p><b>str007: </b><br>
+<span>我2代i7的机器都上了nvme，大胆一点</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>我在h77上弄过，当然bios是不支持nvme启动的，也不愿意改bios，解决的办法是用bios启动一个u盘里的bootloader，这个bl可以认出nvme盘并启动上面的系统。</span><br>
+<span>当然没过多久就yes了，就没再折腾</span><br>
+</p><p><b>hengs: </b><br>
+<span>老实用SATA就行了，两者使用上根本看不出区别。</span><br>
+</p><p><b>dvd6: </b><br>
+<span>搭车提问，我四代b85，主板有m2的pcie接口，虽然不支持nvme协议但插nvme盘还是能用的。</span><br>
+<span>据说这情况不能从nvme盘启动系统，是这样吗？那我能不能把引导分区放在sata盘，系统安装到nvme盘，前者引导后者来启动呢？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>dvd6 发表于 2020-6-11 12:29</span><br>
+<span>搭车提问，我四代b85，主板有m2的pcie接口，虽然不支持nvme协议但插nvme盘还是能用的。</span><br>
+<span>据说这情况不能从n ...</span><br>
+<span>刷改版bios</span><br>
+<span>或跟楼上某楼一样搞个启动u盘。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>我在p67上都弄过，自己编辑下bios</span><br>
+<span>—— 来自 Realme RMX1901, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>dvd6: </b><br>
+<span>纯情小鸭鸭 发表于 2020-6-11 12:59</span><br>
+<span>刷改版bios</span><br>
+<span>或跟楼上某楼一样搞个启动u盘。</span><br>
+<span>把u盘换成sata硬盘应该也一个道理？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>dvd6 发表于 2020-6-11 13:25</span><br>
+<span>把u盘换成sata硬盘应该也一个道理？</span><br>
+<span>不清楚，这个没试过。</span><br>
+</p><p><b>thegodra: </b><br>
+<span>sn550买回来了，pcie nvme x4卡也买回来了</span><br>
+<span>然后</span><br>
+<span>主板只剩两条pcie 3.0 x1的槽插不上去</span><br>
+<span>N年diy玩家折戟于此</span><br>
+<span>x1的槽没有意义了吧</span><br>
+<span>—— 来自 Xiaomi Redmi K30 5G, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>john: </b><br>
+<span>N年DIY都白玩了，换这个吧</span><br>
+<span>https://item.taobao.com/item.htm?spm=a230r.1.14.23.10de25e1kC5cYl&id=617899565023&ns=1&abbucket=12#detail</span><br>
+<span>x1至少相当于个SATA盘，x4的盘比较吃亏（25折），x2的盘性能只打对折</span><br>
+</p><p><b>linux40: </b><br>
+<span>thegodra 发表于 2020-6-28 07:12</span><br>
+<span>sn550买回来了，pcie nvme x4卡也买回来了</span><br>
+<span>然后</span><br>
+<span>主板只剩两条pcie 3.0 x1的槽插不上去</span><br>
+<span>放声卡和USB，主板上的芯片坏了的话可以继续续命。</span><br>
+</p><p><b>cat339: </b><br>
+<span>dvd6 发表于 2020-6-11 13:25</span><br>
+<span>把u盘换成sata硬盘应该也一个道理？</span><br>
+<span>SATA盘做个FAT32分区可以在UEFI shell下代替U盘</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1940841[0-50]</guid>
+    </item>
+  </channel>
+</rss>

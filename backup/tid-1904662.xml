@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谁能告诉我，这内存去哪了？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谁能告诉我，这内存去哪了？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:11:57 +0000</lastBuildDate>
+    <item>
+      <title>谁能告诉我，这内存去哪了？[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904662-1-1.html</link>
+      <description>谁能告诉我，这内存去哪了？&#13;
+ 本帖最后由 猫?魔铃 于 2019-12-22 13:08 编辑 
+
+8G内存是比较落后，可也不算小吧，每天就开个浏览器，内存就没了，就算关了这个浏览器，感觉也没少多少，这内存去哪了？
+&#13;
+看看进程表，根本就没有什么高内存占用的玩意啊，WIN10真是神一般的牛B</description>
+      <content:encoded><![CDATA[<p><b>killsx: </b><br>
+<span>虚拟内存真的有用，我以前觉得没用就设置了2g左右，结果电脑开久了偶尔还是会爆内存，后来设置成200g再没出过问题了</span><br>
+</p><p><b>macos: </b><br>
+<span>killsx 发表于 2019-12-23 17:13</span><br>
+<span>虚拟内存真的有用，我以前觉得没用就设置了2g左右，结果电脑开久了偶尔还是会爆内存，后来设置成200g再没出 ...</span><br>
+<span>200浪费了，给个上限就行，一般下限给2，上限给10都用不满</span><br>
+</p><p><b>江口夕: </b><br>
+<span>什么年代了8g玩win10开adobe，还敢关虚拟内存。开几个ai,ps。16g我都小心翼翼怕一下午东西白做</span><br>
+</p><p><b>csfantasy: </b><br>
+<span>10年前就关虚拟内存原来这10年间你用的软件从来没更新过？还用的都是10年前的版本？</span><br>
+<span>这种逻辑思维简直了...还讨论了4页...拉低泥潭水平</span><br>
+</p><p><b>404489039: </b><br>
+<span>macos 发表于 2019-12-23 17:16</span><br>
+<span>200浪费了，给个上限就行，一般下限给2，上限给10都用不满</span><br>
+<span>你确定这货不是阴阳人？</span><br>
+</p><p><b>linjia: </b><br>
+<span>Windows内存小结（有好多图，比较清楚）</span><br>
+<span>以前写过一篇理解程序内存， 当时主要是针对用户态，下面再稍微深入一点：</span><br>
+<img src="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001750218-1736339567.png" title="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001750218-1736339567.png"><br>
+<span>我们以32位程序为例（不启用AWE）， 总共4G虚拟空间，其中低2G属于用户态， 高2G属于操作系统内核， 每个程序都有自己的低2G用户空间， 高2G内核空间是所有程序共享的。高2G内核空间中， 属于同一Session的程序又共享相同的session空间：</span><br>
+<img src="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001756156-1767304231.png" title="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001756156-1767304231.png"><br>
+<span>x86系统所有的内存以64K边界粒度， 4K页面大小分配。</span><br>
+<span>用户态的内存空间，按用途分可以分为： image, mapped file, heap, stack, free等</span><br>
+<span>按状态分可以分为：Free， reserved, commit;</span><br>
+<span>Commit的内存，在被访问时又可能以不同的状态存在， 可能是已经提交到物理内存(RAM)，也可能是已页文件的形式存在后台， 如果是页文件形式，访问时会触发换页操作。</span><br>
+<span>我们平时以任务管理器或者Process Explorer, 经常会看到一些不同内存术语：</span><br>
+<span>virtual size: reserve和commit的虚拟内存</span><br>
+<span>Private bytes: 已经commit的私有虚拟内存</span><br>
+<span>working set: commit的虚拟内存中已经被加载到物理内存中的部分</span><br>
+<span>WS private / 内存(专用工作集): 不能和其他程序共享的working set</span><br>
+<span>这些内存的大小关系怎么样？</span><br>
+<span>virtual size 肯定是最大的； WS private肯定是最小的；working set和private bytes大小不好定， 因为working set虽然是表示物理内存， 但它包含共享和非共享两部分， 而private bytes虽然是虚拟内存，却只包含私有部分。</span><br>
+<span>另外我们平时看程序的内存泄漏，主要可以看private bytes 和 WS private.</span><br>
+<span>我们程序里使用的虚拟地址， 它在访问时是如何别转成真正的物理地址的？</span><br>
+<span>https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001803765-86776322.png1. 我们的虚拟地址被分为页目录索引，页表索引，字节偏移三部分</span><br>
+<span>2. 根据CR3寄存器得到当前进程的页目录表地址， 根据页目录索引得到页目录表项目(PDE)， 然后就可以得到该页表的地址</span><br>
+<span>3. 根据页表索引，得到页表项目(PTE)的地址， 然后即可定位到该页面， 根据偏移字节即可访问真正的物理内存</span><br>
+<span>操作系统采用按需换页的算法来实现内存的访问， 也就是说系统会在真正访问一个地址的时候才会把该地址转成有效的物理地址， 如果访问失败， 会触发换页异常， 再真正加载该页面换到物理内存。系统用虚拟地址描述符(VAD, virtual address descriptor)组成的平衡二叉树来跟踪所有的虚拟内存，以确定所有虚拟内存的状态(free, reserver, commit)和属性。</span><br>
+<span>下面说下应用层对程序内存的访问， 按照内存的用途就可以大概划分：</span><br>
+<span>Image: 主要是指二进制模块在内存中存在方式， 比如Exe和Dll， 对应的API比如LoadLibrary。</span><br>
+<span>Mapped file: 主要是指内存映射文件， 可以用来快速的加载大文件 ，或者跨进程共享内存， 对应的API比如 CreateFileMapping.</span><br>
+<span>Stack: 每个线程都有自己的堆栈， 包括用户态堆栈和内核堆栈，虽然堆栈内存分配有大小限制， 但是非常高效，函数的局部变量都存在里面，程序的运行过程(函数的调用过程)实际上是不停的压栈和出栈的过程，大小一般默认保留1M(参见线程堆栈是如何增长的)</span><br>
+<span>Heap: 系统有自己的堆管理器， 虽然效率堆内存分配效率低， 但是没有大小限制， 对应的API比如new, malloc, HeapAlloc</span><br>
+<span>操作系统为我们访问内存提供了各种渠道，我们可以根据需要自己选择， 由下往上可以分为：</span><br>
+<span>虚拟内存： 对应的API如VirtualAlloc(Ex), VirtualFree(Ex), VirtualLock, VirtualProtect, 通过这些API，我们可以直接分配(reserver, commit)大块内存( 4K页面大小)， 同时定义修改页面属性， 这是最高效的大内存分配方式。</span><br>
+<span>Win32 堆内存： 对应的API如HeapCreate, HeapAlloc, 堆内存建立在虚拟内存之上，很多时候我们不需要虚拟内存的大块内存，只需要小块内存，操作系统通过堆管理器帮我们解决了这个问题。每个进程启动时系统都会创建一个默认堆，同时我们也可以创建自己的私有堆， 不同模块之间是否共享同一个CRT堆取决于模块的编译选项，（参见基于WinDbg的内存泄漏分析）</span><br>
+<span>CRT 堆内存：C/C++代码中我们最常用的内存分配方式是malloc和new, 通常情况下malloc只负责内存分配， 而new在调用malloc分配内存的同时还有在分配的内存上构造对象的功能。至于malloc的实现方式， 不同的编译器厂商会有不同的实现， 有些可能是通过Win32堆实现，也可能是通过虚拟内存API直接实现。</span><br>
+<img src="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001811734-1798521627.png" title="https://images2015.cnblogs.com/blog/341522/201608/341522-20160820001811734-1798521627.png"><br>
+<span>思考为什么有了虚拟内存API和Win32堆API，还要有CRT堆API？</span><br>
+<span>软件工程里一条比较经典的话是： 任何问题都可以加一个间接层加以解决。操作系统提供的API都是平台相关的， 通过CRT这个间接层实现了平台无关， 同时我们可以在这个间接层上做很多事情， 比如内存泄漏跟踪， 实现自己的内存池等。</span><br>
+<span>如果我们直接调用虚拟内存API分配内存， 这种内存属于那种类型？</span><br>
+<span>实际上按照VMMap的说法， 内存类型还有更多： Image， Mapped File， Shareable, Heap, Managed Heap, Stack, Private Data, Page Table, Unusable, Free.</span><br>
+<span>直接通过VirtualAlloc分配的内存不属于Heap， 应该属于Private Data.</span><br>
+</p><p><b>cosx: </b><br>
+<span>专家会诊：砍腿</span><br>
+</p><p><b>killsx: </b><br>
+<span>macos 发表于 2019-12-23 17:16</span><br>
+<span>200浪费了，给个上限就行，一般下限给2，上限给10都用不满</span><br>
+<span>我后来试过内存的两倍这种早年流传的做法，后来还是莫名其妙满了。索性直接弄了200，搞不懂</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>killsx 发表于 2019-12-23 20:26</span><br>
+<span>我后来试过内存的两倍这种早年流传的做法，后来还是莫名其妙满了。索性直接弄了200，搞不懂 ...</span><br>
+<span>系统托管就行了，整那么多没用的。</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>虚拟内存不能关，跟你多大内存没关系</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>（看任务管理器瞟了一眼）</span><br>
+<span>进程页那里显示浏览器用了1G不到，VSCode和Sourcetree等七七八八的加起来没有2G，性能页那里，8.7G占用了</span><br>
+<span>嘛~</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>反正我是一直没搞懂这个内存怎么看，，，不管看哪个（进程 详细信息 还是processExplorer），都找不到我那两个8G内存的虚拟机的进程</span><br>
+<span>性能页面的内存占用倒是能看到</span><br>
+</p><p><b>doki: </b><br>
+<span>你电脑卡吗？</span><br>
+<span>不卡那你管内存去哪里了，不用还能理财？</span><br>
+</p><p><b>duperbigd: </b><br>
+<span>win10 之前关了虚拟内存，开个chrome系统就弹窗报错，给它设置个几百m就完全不会，别太经验主义了，win10可能在巨硬那都可能成了一个黑盒了</span><br>
+</p><p><b>reichelite: </b><br>
+<span>讨论了半天，楼主到底解决问题没有倒是回个话啊……</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>多半是解决了呗，不然早该出来打脸了</span><br>
+</p><p><b>faithlifer: </b><br>
+<span>duperbigd 发表于 2019-12-24 17:02</span><br>
+<span>win10 之前关了虚拟内存，开个chrome系统就弹窗报错，给它设置个几百m就完全不会，别太经验主义了，win10可 ...</span><br>
+<span>阿三黑盒</span><br>
+<span>—— 来自 samsung SM-N9600, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>棺材叔叔: </b><br>
+<span>工作电脑没特殊需求还是老实用win7吧，老提示升级也很烦人的</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>火沙: </b><br>
+<span>我前几天也这样，咨询百度说是系统的某个服务吃内存。</span><br>
+<span>然后下了一段神秘代码，执行了一下就好了。</span><br>
+<span>不过我没保存，你可以尝试搜索win10内存占用高</span><br>
+</p><p><b>cj2047: </b><br>
+<span>所以LZ试了下开启虚拟内存没问题了所以不回帖了?</span><br>
+</p><p><b>wifi王道: </b><br>
+<span>没有定论么。不就是要么加内存。要么滚回克用win7</span><br>
+</p><p><b>pyd68tc: </b><br>
+<span>typeunknown 发表于 2019-12-24 19:32</span><br>
+<span>多半是解决了呗，不然早该出来打脸了</span><br>
+<span>打人不打脸啊大兄弟</span><br>
+</p><p><b>zjn31: </b><br>
+<span>已无力吐槽 唯有把内存管够</span><br>
+<span>另外CPU长年30%以上也已经习惯了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>zjn31 发表于 2019-12-25 21:29</span><br>
+<span>已无力吐槽 唯有把内存管够</span><br>
+<span>另外CPU长年30%以上也已经习惯了</span><br>
+<span>大哥 你这4+16不别扭吗</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>zjn31: </b><br>
+<span>EraserKing 发表于 2019-12-25 22:53</span><br>
+<span>大哥 你这4+16不别扭吗</span><br>
+<span>— from Xiaomi MIX 2S, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+<span>还行标配是4 后加的16</span><br>
+<span>4丢了也可惜啊 装上就装上吧 </span><br>
+<span>还好我没有强迫症</span><br>
+</p><p><b>JWJking: </b><br>
+<span>我有一台win10还经常内存溢出bug，内存会挤爆16g占99%系统直接卡死，至今还没发现问题根源。。</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>想保留旧习惯就别升级系统、软件了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904662[100-150]</guid>
+    </item>
+    <item>
+      <title>谁能告诉我，这内存去哪了？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904662-1-1.html</link>
+      <description>谁能告诉我，这内存去哪了？&#13;
+ 本帖最后由 猫?魔铃 于 2019-12-22 13:08 编辑 
+
+8G内存是比较落后，可也不算小吧，每天就开个浏览器，内存就没了，就算关了这个浏览器，感觉也没少多少，这内存去哪了？
+&#13;
+看看进程表，根本就没有什么高内存占用的玩意啊，WIN10真是神一般的牛B</description>
+      <content:encoded><![CDATA[<p><b>我很费纸: </b><br>
+<span>纠结这么多……打开虚拟内存试试呗</span><br>
+<span>打开没用，继续喷bug10然后再找办法。</span><br>
+<span>打开有用，老老实实开着别怪bug10。</span><br>
+<span>别老是说什么“老老实实用了10年都没用”云云，时代变了，像bug10这种不知道咋回事就在后台偷偷更个新的，你啥都不做都有可能有变化，既然不去关停各种服务让本子变成“离线机”那为什么不老老实实按照官方的建议去做？</span><br>
+<span>刚好上周也有人问我内存爆满怎么办？也是开个chrome就爆满卡死，远程也不知道具体啥原因，就让她更新一下。第二天，好了</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>eroneko: </b><br>
+<span>以前我也跟楼主一样第一件事就把虚拟内存关了，但是后来发现就算20G内存，系统也经常提示内存不足或者应用直接崩了，所以做了点调查，下面是个人结论：</span><br>
+<span>因为应用需要使用到多少内存是不能够预先确定的，所以一般都会先申请一个固定大小的坑位，这个坑位在以后运行的过程中可能还会要得更大。虚拟内存（或者物理内存够大）让系统能够保证应用一定能拿到要的这个大小的坑位（就算实际上没有用到），做不了这个保证那么应用申请内存就会失败。</span><br>
+<span>于是关掉虚拟内存就可能出现物理内存还有大把可用但是应用却经常崩掉，而且系统还提示内存不足（实际上是 commit charge 不足）的问题。</span><br>
+<span>比如说你剩下1.9G的物理内存，应用说我必须要2G，即使刚开始的时候实际上只会用到0.5G，没开虚拟内存的结果就是系统提示内存不足和/或应用直接崩了。</span><br>
+<span>这张图里已使用的物理内存只有60%，但是 commit charge 已经将近100%了，因为所有应用申请的内存大小加起来已经到了物理内存的大小（关闭虚拟内存 ，commit charge就是物理内存的总大小）</span><br>
+<span>这样你随便开什么东西都会崩掉</span><br>
+<span>说回主楼的问题，我电脑开久了也经常内存莫名其妙不知所踪，目前我的解决办法只有重启。</span><br>
+</p><p><b>linkin9999: </b><br>
+<span>win10bug</span><br>
+<span>上周也遇到了。1803，16g内存，突然开机就占到80%以上，cpu60%以上。不用chrome，用的Firefox。</span><br>
+<span>一气之下更新到1909，自己好了。</span><br>
+<span>阿三牛逼。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>macos: </b><br>
+<span>eroneko 发表于 2019-12-22 15:26</span><br>
+<span>以前我也跟楼主一样第一件事就把虚拟内存关了，但是后来发现就算20G内存，系统也经常提示内存不足或者应用 ...</span><br>
+<span>大多数情况是用户层的占用，注销一下就好了，系统层的问题没那么多</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:29</span><br>
+<span>我也说了，十几年就这么过的，从XP关到WIn10，事实证明，在我这里，它就是P用没有。</span><br>
+<span>至于什么软件必须要开 ...</span><br>
+<span>秘制自信</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>不如去CHH问问插满4条真香条的有没有人关掉</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>帝国2决定版，不开虚拟内存根本玩不了</span><br>
+</p><p><b>elflie: </b><br>
+<span>喷了8G关虚拟内存，开机都差不多一般没有了</span><br>
+</p><p><b>johnie: </b><br>
+<span>被你们一提我才想起还能关虚拟内存 vista之后就没关过了</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>感觉锅是sysmain啊 反正这玩意我每次装机都是关的 不管有没有装机械硬盘</span><br>
+</p><p><b>linjia: </b><br>
+<span>感觉楼主问的是这个问题</span><br>
+<span>https://www.zhihu.com/question/356459621</span><br>
+<span>至于为啥内存相加不等于总数<img src="https://pic4.zhimg.com/50/v2-32659f63281a35cae4894729e56c64b7_hd.jpg" data-caption="" data-size="normal" data-rawwidth="1182" data-rawheight="743" data-default-watermark-src="https://pic1.zhimg.com/50/v2-fa54f0e9b8486397d166810f37485d70_hd.jpg" class="origin_image zh-lightbox-thumb" width="1182" data-original="https://pic4.zhimg.com/v2-32659f63281a35cae4894729e56c64b7_r.jpg"/>因为 内存 又是踏马 工作集 又是共享集 还有提交大小 这玩意===进程与进程之间有共享内存 也有自己的内存（私有字节）物理内存就是内存条内物理内存使用率提交大小=物理内存+页面文件（pagefile.sys）</span><br>
+<span>作者：Ytqing</span><br>
+<span>链接：https://www.zhihu.com/question/356459621/answer/899417623</span><br>
+<span>来源：知乎</span><br>
+<span>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br>
+</p><p><b>零下五度猫: </b><br>
+<span>啥事没干cpu就占用100可能是电源选项的锅，新装的电脑选择AMD芯片组自带的电源选项中的高性能及其他几个模式都会占用100，选win10自带的反而不会</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span>对于lz这种坚持不开虚拟内存试一下还要一根筋的怪系统的，我建议让他继续崩溃下去比较好</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-12-22 20:26 编辑 </span><br>
+<span>我装16G内存的时候也关闭虚拟内存，觉得自己内存够了，实际使用开东西多直接报内存不够，在继续用软件就开始全面崩溃...</span><br>
+<span>虽然在关之前我就知道提交大小、硬盘虚拟内存，觉得16G内存已经够大了，还是太自信了...</span><br>
+<span>你自己打开任务管理器，很多软件提交大小都超大的，360那些软件你看着占用物理内存30-50mb，提交大小可能吃到你300MB去。</span><br>
+<span>所以你还是把虚拟内存打开吧...</span><br>
+<span>另外，我还碰到战锤40k II - Retribution这种老游戏，你关闭虚拟内存游戏会直接报错无法启动...</span><br>
+<img src="https://s2.ax1x.com/2019/12/22/Qzs30e.png" title="https://s2.ax1x.com/2019/12/22/Qzs30e.png"><br>
+</p><p><b>rhotov: </b><br>
+<span>32g就可以关虚拟内存吗？那一定是还没玩过帝国时代2决定版……</span><br>
+</p><p><b>overflowal: </b><br>
+<span>就算是服务器都要开swap呢</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ballban: </b><br>
+<span>遇到过这个问题 关掉快速启动之后好了</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>G</span><br>
+<span> 本帖最后由 ❃✽✾✶✻✼ 于 2019-12-22 22:00 编辑 </span><br>
+<span>不知道我4G没虚拟内存也没问题啊    虽然是win7</span><br>
+</p><p><b>reichelite: </b><br>
+<span>根据知乎回答，楼主应该再去任务管理器里把工作集大小截图放上来</span><br>
+</p><p><b>czgzxc: </b><br>
+<span>跑下rammap看看？前提是你还能开得了。关虚拟内存是什么骚操作啊？就没遇到过神奇的报错么？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>凛凛233: </b><br>
+<span> 本帖最后由 凛凛233 于 2019-12-23 04:31 编辑 </span><br>
+<span>楼主不如打开页面文件功能，然后试一下是否有效。</span><br>
+<span>如果无效（大概率会是这样），再截图打他们的脸不是很爽嘛</span><br>
+<span>在win7上，不管把页面文件设置多大，一般物理内存用尽时，页面文件也顶多提交300多m</span><br>
+<span>直到系统死机也不会增加，微软就是这么…不可思议</span><br>
+<span>另外页面文件≠虚拟内存。很多人都搞不清这个问题，甚至微软网站上的中文帮助文档对这两个概念都存在混淆（是翻译问题？还是临时工问题？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>感觉有点类似虚拟机占用了部分内存的情况，可以试试把电脑上虚拟机模拟器之类的东西卸载一下？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>关闭页面文件是也不是什么隐藏很深不让用户直接修改的选项，既然windows给了这个选项，那么也就应该保证正常使用才对。</span><br>
+<span>不过我也不认为这个问题就确定是系统的锅了，也可能是某些软件不兼容导致的。</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>凛凛233 发表于 2019-12-23 04:19</span><br>
+<span>楼主不如打开页面文件功能，然后试一下是否有效。</span><br>
+<span>如果无效（大概率会是这样），再截图打他们的脸不是很爽 ...</span><br>
+<span>英文就是virtual memory</span><br>
+<span>paging file的翻译是分页文件</span><br>
+</p><p><b>菠萝蛋散: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:30</span><br>
+<span>WIN10一年前装的，装的时候就关掉了，我用的正常的很，就是这两周忽然高了，难道你让我去找一年前的锅？ ...</span><br>
+<span>win10更新出一两个新bug又不是什么奇怪的事情……要么尝试虚拟，要么回滚试试？</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>momoooo: </b><br>
+<span>lz太逗了 还暴躁</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>yygundam: </b><br>
+<span>你这个是开机后直接变成这么多占用还是逐渐变成这样的，如果是后者的话可以考虑下是不是什么驱动导致内存泄漏了。</span><br>
+<span>我的老台机碰到过开机后过一阵就内存占用逐渐爬升到90%多的情况，也是任务管理器里看不到高占用的进程。我一直怀疑是内存泄漏的问题，最后排查下来果然是主板自带的垃圾Killer网卡旧版驱动导致内存泄漏，把网卡驱动卸了重装新版就好了。。。</span><br>
+</p><p><b>dogfight: </b><br>
+<span>我也8g内存，开个wow，Chrome开多了肯定卡，8g太少了</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>8G内存，win10开机用掉40%，开浏览器看视频再用掉40%很正常。只要不报错就行。超过90%会拖慢运行速度。8g现在就是个弟弟，只能轻度办公。</span><br>
+</p><p><b>alpha.h: </b><br>
+<img src="https://i.niupic.com/images/2019/12/23/6aAc.jpg" title="https://i.niupic.com/images/2019/12/23/6aAc.jpg"><br>
+</p><p><b>RyuguRena: </b><br>
+<span>试试关掉win10的快速启动，我之前一开机就内存就占用60以上 ，现在好了</span><br>
+</p><p><b>kraxia: </b><br>
+<span>win10的内存管理比起win8退步了，如果是win8的话8g内存是能用的。你回忆一下系统或者chrome最近有没有更新过吧。不过你能一直用到最近才出问题，不知是运气好还是之前给系统减过肥？正常来讲应该是从一开始就不够用才对。不过楼上的各位没必要跟lz杠虚拟内存的事，关虚拟内存是从win98时代过来的人一般都会做的优化操作，而且在比较旧的平台上虚拟内存带来的问题是远比它能解决的那几个错误多得多啊。lz自己也不要太头铁，chrome是个很吃内存的浏览器，用老电脑就应该乖乖做好极限优化，从换浏览器开始。qq也应该换成国际版或者减肥版，杀毒都卸载掉，启动项做好优化。当然其实根本问题是8g不应该装win10，这个没办法了</span><br>
+</p><p><b>disrupt: </b><br>
+<span>kraxia 发表于 2019-12-23 09:02</span><br>
+<span>win10的内存管理比起win8退步了，如果是win8的话8g内存是能用的。你回忆一下系统或者chrome最近有没有更新 ...</span><br>
+<span>为什么没有必要杠？关虚拟内存在旧平台（32位，98/XP）好处比坏处多是事实，win 8/10上面坏处比好处多也是事实。</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>disrupt: </b><br>
+<span>disrupt 发表于 2019-12-23 09:13</span><br>
+<span>为什么没有必要杠？关虚拟内存在旧平台（32位，98/XP）好处比坏处多是事实，win 8/10上面坏处比好处多也 ...</span><br>
+<span>严格来说也不是好/坏处多少的问题。</span><br>
+<span>旧系统上关虚拟内存只有一个主要原因：Windows的内存策略过于swappy，在物理内存有富余的情况下，闲置足够久的进程也会被swap. 加上机械硬盘龟速，造成系统闲置之后卡顿（印象中放置一夜就足够触发了）。次要原因是自动管理的swapfile尺寸只增不减，占用硬盘</span><br>
+<span>现在的系统早没有以上的缺陷了，但是软件的commit size往往大于实际working set，所以关虚存会导致更早遇到out of memory error.</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>kraxia: </b><br>
+<span>disrupt 发表于 2019-12-23 09:13</span><br>
+<span>为什么没有必要杠？关虚拟内存在旧平台（32位，98/XP）好处比坏处多是事实，win 8/10上面坏处比好处多也 ...</span><br>
+<span>因为人家是在问，系统一切设置没改过，以前好好的为啥现在突然不行了，他问的是原因，不是问怎么让电脑不卡啊。就算你告诉他别管这个问题，开了虚拟内存就好了，但这个问题依然在那啊，没得到正面的解答，就算稀里糊涂的解决了也不开心对吧。不过我也没法正面回答，我以前8g开win8也是用着用着就不行了，但重装系统就能好，明明软件啥的都没怎么变。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>阿三编程的时候，可是写死了要求页面文件的，不考虑关掉虚拟内存的情况</span><br>
+</p><p><b>jzsgtx: </b><br>
+<span>sysmain服务不要关，1809后微软把superfetch改名叫sysmain，顺便把系统内存压缩也扔给这个服务管了，想关superfetch去注册表改直接关这个服务会让内存占用暴涨</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>navarra: </b><br>
+<span>kraxia 发表于 2019-12-23 09:30</span><br>
+<span>因为人家是在问，系统一切设置没改过，以前好好的为啥现在突然不行了，他问的是原因，不是问怎么让电脑不 ...</span><br>
+<span>关闭虚拟内存都能叫“啥设置没改过”，鬼知道他还改过啥= =</span><br>
+</p><p><b>咕咕咕9527: </b><br>
+<span>我也是内存占用高,我把硬盘的写入缓存关了就好了,好像对性能会有点影响</span><br>
+</p><p><b>魂命: </b><br>
+<span>或许可以试试楼上说的，更新下系统版本，再不行试着重装下系统吧，有条件还是建议加一根</span><br>
+</p><p><b>kraxia: </b><br>
+<span>navarra 发表于 2019-12-23 10:17</span><br>
+<span>关闭虚拟内存都能叫“啥设置没改过”，鬼知道他还改过啥= =</span><br>
+<span>N年前就关了啊？但出问题是前不久的吧。就算一通乱改，但之前没出问题嘛，除非你能证明他的那些改动造成的后果潜伏期长达10年，刚好在前一阵爆了</span><br>
+</p><p><b>杉田悠一: </b><br>
+<span>kraxia 发表于 2019-12-23 10:37</span><br>
+<span>N年前就关了啊？但出问题是前不久的吧。就算一通乱改，但之前没出问题嘛，除非你能证明他的那些改动造成 ...</span><br>
+<span>其他软件包括系统在更新都是变量，不好说这个n年前能证明什么</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>之前客户电脑把虚拟内存关了，代码排查错误排查了一个星期，没事别自作聪明优化系统，真是坑到爆炸</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>年代不同了win10，ssd，虚拟内存给系统自动托管，别去看什么内存占用了，不卡就完事了</span><br>
+</p><p><b>kraxia: </b><br>
+<span>杉田悠一 发表于 2019-12-23 10:43</span><br>
+<span>其他软件包括系统在更新都是变量，不好说这个n年前能证明什么</span><br>
+<span>是的，所以lz的问题确实不容易直接回答。也许本来关闭虚拟内存这个单一变量没啥毛病，但与其他环境的变化一块组成了一个预料不到的坑。只能怀疑最近还是有什么东西变了，要么是系统和chrome升级，要么是硬件不行了</span><br>
+</p><p><b>disrupt: </b><br>
+<span>kraxia 发表于 2019-12-23 11:35</span><br>
+<span>是的，所以lz的问题确实不容易直接回答。也许本来关闭虚拟内存这个单一变量没啥毛病，但与其他环境的变化 ...</span><br>
+<span>如果他不关虚拟内存的话，这个坑根本不存在。</span><br>
+<span>截图里面：4.1G in use, 7G committed</span><br>
+<span>如果没关，已用内存会是4.1G而不是7G</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>disrupt: </b><br>
+<span>disrupt 发表于 2019-12-23 12:33</span><br>
+<span>如果他不关虚拟内存的话，这个坑根本不存在。</span><br>
+<span>截图里面：4.1G in use, 7G committed</span><br>
+<span>BTW, 7G的commit size可能是某个驱动写的烂</span><br>
+<span>但是如果不关虚拟内存的话哪怕27G也不碍事。。。</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>phyc: </b><br>
+<span> 本帖最后由 phyc 于 2019-12-23 13:58 编辑 </span><br>
+<span>我上次虚拟机开了一个晚上，第二天内存就满了，而且关掉虚拟机也没用。内存还是占用很多，机器卡得要死，后来关机重启一下就正常了</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>程序要使用内存，必需先commit</span><br>
+<span>有的程序commit了10G的内存，但是只用到了100M，那么任务管理器里的“工作集”就只显示100M，但它确实导致了10G内存无法被其它进程所使用</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>melvin95: </b><br>
+<span>俺16G开个FF，挂个outlook, discord和whatsapp就10G了</span><br>
+<span>8G只能拿来开片吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904662[50-100]</guid>
+    </item>
+    <item>
+      <title>谁能告诉我，这内存去哪了？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904662-1-1.html</link>
+      <description>谁能告诉我，这内存去哪了？&#13;
+ 本帖最后由 猫?魔铃 于 2019-12-22 13:08 编辑 
+
+8G内存是比较落后，可也不算小吧，每天就开个浏览器，内存就没了，就算关了这个浏览器，感觉也没少多少，这内存去哪了？
+&#13;
+看看进程表，根本就没有什么高内存占用的玩意啊，WIN10真是神一般的牛B</description>
+      <content:encoded><![CDATA[<p><b>猫?魔铃: </b><br>
+<span>谁能告诉我，这内存去哪了？</span><br>
+<span> 本帖最后由 猫?魔铃 于 2019-12-22 13:08 编辑 </span><br>
+<span>8G内存是比较落后，可也不算小吧，每天就开个浏览器，内存就没了，就算关了这个浏览器，感觉也没少多少，这内存去哪了？</span><br>
+<span>看看进程表，根本就没有什么高内存占用的玩意啊，WIN10真是神一般的牛B</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>是集显吗?</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>你看，如果是独显不就有2G空闲了吗</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>塔奇克马 发表于 2019-12-22 13:03</span><br>
+<span>是集显吗?</span><br>
+<span>笔记本有独显，但不都是自带集显不可放弃么</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 13:06</span><br>
+<span>笔记本有独显，但不都是自带集显不可放弃么</span><br>
+<span>你把chrome全关了,会腾出多少内存?</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>塔奇克马 发表于 2019-12-22 13:08</span><br>
+<span>你把chrome全关了,会腾出多少内存?</span><br>
+<span>了了无几，没有质变</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>虚拟内存开了吗</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>32g内存 日常使用只有20%占用 我还发愁他平时不给我多用点 懒得开ramdisk</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>WIN10总有奇怪的问题，我领导的电脑，是CPU100%…………和我一样，进程和服务里完全找不到高CPU占用的东西，但是CPU就是100，也不知道哪只狗吃掉了。最后只好重装了事</span><br>
+</p><p><b>粉刷月季: </b><br>
+<span>正常，系统是根据可用的内存来决定占用多少</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>粉刷月季 发表于 2019-12-22 13:13</span><br>
+<span>正常，系统是根据可用的内存来决定占用多少</span><br>
+<span>- 发自忧郁深沉的 Stage1st UWP 非官方客户端 ...</span><br>
+<span>并不正常，如果我告诉你我就开个浏览器，再开个播放器就大家全崩溃了呢？是实实在在的内存就是用光了</span><br>
+</p><p><b>defer: </b><br>
+<span>看这个没用，看详细信息那个标签。</span><br>
+</p><p><b>chust: </b><br>
+<span>看一下详细信息的已提交大小那一列</span><br>
+<span>— from Xiaomi MI 8 UD, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>defer 发表于 2019-12-22 13:21</span><br>
+<span>看这个没用，看详细信息那个标签。</span><br>
+<span>如你所愿。</span><br>
+<span>现在8g内存什么也干不了了，同时只能干一件事，开着浏览器我都不敢开QQ，或者说开也没用，一开，要么QQ死，要么浏览器死……</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer</span><br>
+<span>你也可以用这个看.</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>塔奇克马 发表于 2019-12-22 13:30</span><br>
+<span>https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer</span><br>
+<span>你也可以用这个看.</span><br>
+<span>常用工具之一，能看出来早看出来了</span><br>
+</p><p><b>litel: </b><br>
+<span>如果你开多软件就崩溃。。。</span><br>
+<span>你把虚拟内存关了？？？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 13:40</span><br>
+<span>常用工具之一，能看出来早看出来了</span><br>
+<span>那还折腾什么啊,趁早吧</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>litel 发表于 2019-12-22 13:41</span><br>
+<span>如果你开多软件就崩溃。。。</span><br>
+<span>你把虚拟内存关了？？？</span><br>
+<span>早就关了，整完系统第一天就关了，并无问题啊。那都是一年前的事了。内存满是最近的事。</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>塔奇克马 发表于 2019-12-22 13:45</span><br>
+<span>那还折腾什么啊,趁早吧</span><br>
+<span>不甘心啊。工作用到的一堆奇怪软件、插件又要重新装起，比装系统累</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-12-22 13:55 编辑 </span><br>
+<span>猫?魔铃 发表于 2019-12-22 13:52</span><br>
+<span>早就关了，整完系统第一天就关了，并无问题啊。那都是一年前的事了。内存满是最近的事。 ...</span><br>
+<span>不说bug10，一年时间chrome都刷多少版本号了，有变化不是很正常</span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>win10更新一下？</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>macos: </b><br>
+<span>在页面缓冲中，有2.8的数据要倒腾，虽然不一定全要读出，但从硬盘取速度都不高</span><br>
+</p><p><b>404489039: </b><br>
+<span>8g还关虚拟内存</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>404489039 发表于 2019-12-22 14:11</span><br>
+<span>8g还关虚拟内存</span><br>
+<span>快十年了，虽然电脑换过几荐，内存也在升级，但都一直是关的，很奇怪么？</span><br>
+<span>你们是不是对内存和虚拟内存有什么错误理解……</span><br>
+<span>并没有什么是关掉虚拟内存不能活的，真没有。除了这两周，也并没有什么是关掉虚拟内存会导致内存战满的，真没有</span><br>
+</p><p><b>baicon: </b><br>
+<span>同意楼上关虚拟内存是32g及以上做的事</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>404489039 发表于 2019-12-22 00:11</span><br>
+<span>8g还关虚拟内存</span><br>
+<span>破案了</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>baicon 发表于 2019-12-22 14:16</span><br>
+<span>同意楼上关虚拟内存是32g及以上做的事</span><br>
+<span>早在XP时代，我同学512内存就关掉了，那东西真P用没有</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>土豆麻辣人 发表于 2019-12-22 14:16</span><br>
+<span>破案了</span><br>
+<span>破毛啊，十几年都这么过的，从来没开过</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 00:18</span><br>
+<span>早在XP时代，我同学512内存就关掉了，那东西真P用没有</span><br>
+<span>有啊，不至于开到8g爆掉的时候让你浏览器和QQ全部崩掉，而是倒腾到虚拟内存里</span><br>
+</p><p><b>淼霆: </b><br>
+<span>2020年了，还折腾什么虚拟内存</span><br>
+</p><p><b>騜: </b><br>
+<span>先想想你是不是更新了系统 快速启动关掉 虚拟内存打开 重启两次看看</span><br>
+</p><p><b>baicon: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:18</span><br>
+<span>早在XP时代，我同学512内存就关掉了，那东西真P用没有</span><br>
+<span>扯吧以前不开虚拟内存Photoshop都开不起来，我本本32g开个65个标签chrome就显示5.6g内存了，实际不够虚拟来凑有什么问题？</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>淼霆 发表于 2019-12-22 00:21</span><br>
+<span>2020年了，还折腾什么虚拟内存</span><br>
+<span>32G ram当然不用折腾</span><br>
+<span>现在Android都8g+，你觉得pc用8g ram不加虚拟内存能凑活吗？</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span> 本帖最后由 猫?魔铃 于 2019-12-22 14:27 编辑 </span><br>
+<span>baicon 发表于 2019-12-22 14:22</span><br>
+<span>扯吧以前不开虚拟内存Photoshop都开不起来，我本本32g开个65个标签chrome就显示5.6g内存了，实际不够虚拟 ...</span><br>
+<span>65个标签的大佬我当然比不了，我10个标签都开不了。按你的比例也就够占1G。</span><br>
+<span>另……做为一个老本使用者，内存小了我当然知道，所以时不时看看内存占用是我比你们这些大内存用户更在意的事啊。什么正常什么不正常我还是看的出来的。这点用量，放两周前顶多到3G……它要占缓冲我并不在意。只是这两周啥也不干就占过多了</span><br>
+</p><p><b>navarra: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:18</span><br>
+<span>早在XP时代，我同学512内存就关掉了，那东西真P用没有</span><br>
+<span>现在不是那时候了，chrome就是个吃内存的玩意，赶紧打开，再说都nvme ssd时代了你还怕啥</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>咋还有关虚拟内存信者，这东西很久之前Windows官方解释过关了坏处更多.当初这东西就吵得不可开交.</span><br>
+</p><p><b>navarra: </b><br>
+<span>自己瞎折腾系统，然后发现出问题了就甩锅给win10，好棒棒哦</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span> 本帖最后由 猫?魔铃 于 2019-12-22 14:31 编辑 </span><br>
+<span>塔奇克马 发表于 2019-12-22 14:27</span><br>
+<span>咋还有关虚拟内存信者，这东西很久之前Windows官方解释过关了坏处更多.当初这东西就吵得不可开交. ...</span><br>
+<span>我也说了，十几年就这么过的，从XP关到WIn10，事实证明，在我这里，它就是P用没有。</span><br>
+<span>至于什么软件必须要开这个，反正我没见过。</span><br>
+<span>PS我也用啊，可能我不是画图大佬，占不了那么多？</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>navarra 发表于 2019-12-22 14:28</span><br>
+<span>自己瞎折腾系统，然后发现出问题了就甩锅给win10，好棒棒哦</span><br>
+<span>WIN10一年前装的，装的时候就关掉了，我用的正常的很，就是这两周忽然高了，难道你让我去找一年前的锅？</span><br>
+</p><p><b>淼霆: </b><br>
+<span>土豆麻辣人 发表于 2019-12-22 14:25</span><br>
+<span>32G ram当然不用折腾</span><br>
+<span>现在Android都8g+，你觉得pc用8g ram不加虚拟内存能凑活吗？ ...</span><br>
+<span>装好系统，win10自动就给你分配虚拟内存了，8G也不用折腾</span><br>
+</p><p><b>navarra: </b><br>
+<span>淼霆 发表于 2019-12-22 14:31</span><br>
+<span>装好系统，win10自动就给你分配虚拟内存了，8G也不用折腾</span><br>
+<span>谁叫某些人就觉得关了好，关了还得怪win10</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>内存96G我都开，为了处理30亿像素的图，不开虚拟内存，内存不够不就崩了，尤其集显也要吃内存</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>淼霆 发表于 2019-12-22 00:31</span><br>
+<span>装好系统，win10自动就给你分配虚拟内存了，8G也不用折腾</span><br>
+<span>你指这个意思啊，我以为物理内存过大完全关闭虚拟内存呢。</span><br>
+</p><p><b>baicon: </b><br>
+<span>最近刚出现那么就想想最近装了什么软件或者什么软件又升级了，慢慢排除就是了</span><br>
+</p><p><b>傲游: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:30</span><br>
+<span>WIN10一年前装的，装的时候就关掉了，我用的正常的很，就是这两周忽然高了，难道你让我去找一年前的锅？ ...</span><br>
+<span>你就打开之后测试一下呗 说不定就好了呢</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-12-22 14:54 编辑 </span><br>
+<span>Chrome都不是32位版的，还敢不开虚拟内存的，是真的强者。Chrome可是奉行着“既然你有空余资源不用，先借我用用，但是当你想用的时候我会不会还给你就要看我脸色了”原则的大神。也可能你是Chrome内存侧漏的受害者</span><br>
+<span>所以，你还是要开虚拟内存，机械硬盘封顶可以设置到2G；傲腾这种越高越好，如果你出不起内存钱</span><br>
+</p><p><b>disrupt: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:18</span><br>
+<span>早在XP时代，我同学512内存就关掉了，那东西真P用没有</span><br>
+<span>古代是那样的，正常软件不会瞎jb申请内存。但今时不同往日，现在Chrome之类软件的实现都是假设虚存空间给够</span><br>
+<span>当然你也可以说，一直这么用只到两周前都没问题，开心就好</span><br>
+<span>— from OnePlus GM1910, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>猫?魔铃 发表于 2019-12-22 14:29</span><br>
+<span>我也说了，十几年就这么过的，从XP关到WIn10，事实证明，在我这里，它就是P用没有。</span><br>
+<span>至于什么软件必须要开 ...</span><br>
+<span>问题会变复杂,加深查错难度.很多东西最好还原</span><br>
+</p><p><b>404489039: </b><br>
+<span>如果心里作用觉得开了虚拟内存电脑变慢。我觉得应该先考虑升级电脑</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904662[0-50]</guid>
+    </item>
+  </channel>
+</rss>

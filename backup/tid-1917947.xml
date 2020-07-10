@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>换了新路由以后出现诡异的情况</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>换了新路由以后出现诡异的情况</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:38:25 +0000</lastBuildDate>
+    <item>
+      <title>换了新路由以后出现诡异的情况[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917947-1-1.html</link>
+      <description>换了新路由以后出现诡异的情况&#13;
+小米新出的wifi6路由器，最新固件，除了wifi密码和ppoe用户密码外没有做任何其它设置。
+&#13;
+一共四个手机，小米mix 1代，max2，mi6x，华为p10plus，均用wifi 2.4ghz
+&#13;
+一个台式机用网线，一个笔记本用wifi 5ghz
+&#13;
+奇怪的现象如下：
+&#13;
+1. 小米手机的应用商店。mi6x一切正常。mix和max2都能看到应用列表但无非打开应用详细，错误是超时。
+&#13;
+2. 京东app，mi6x和华为p10p一切正常（打开略慢也有可能是心理作用）。mix和max2可以显示首页，但是打不开商品列表，错误是超时，通过浏览器可以访问www.jd.com并浏览购物。
+&#13;
+以上两个问题，各个手机使用的app和操作系统都是最新稳定版。切换成使用4g流量就不会有上述问题。
+&#13;
+3. 台式机周五可以用mstsc访问阿里云的服务器，换路由器后就会在“正在配置远程会话”后出错。关防火墙什么的也不起作用。而笔记本却可以正常访问。
+&#13;
+以上问题都是换路由器后出现的。
+&#13;
+晚上得空我把路由器换回旧的再看看。</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>换了新路由以后出现诡异的情况</span><br>
+<span>小米新出的wifi6路由器，最新固件，除了wifi密码和ppoe用户密码外没有做任何其它设置。</span><br>
+<span>一共四个手机，小米mix 1代，max2，mi6x，华为p10plus，均用wifi 2.4ghz</span><br>
+<span>一个台式机用网线，一个笔记本用wifi 5ghz</span><br>
+<span>奇怪的现象如下：</span><br>
+<span>1. 小米手机的应用商店。mi6x一切正常。mix和max2都能看到应用列表但无非打开应用详细，错误是超时。</span><br>
+<span>2. 京东app，mi6x和华为p10p一切正常（打开略慢也有可能是心理作用）。mix和max2可以显示首页，但是打不开商品列表，错误是超时，通过浏览器可以访问www.jd.com并浏览购物。</span><br>
+<span>以上两个问题，各个手机使用的app和操作系统都是最新稳定版。切换成使用4g流量就不会有上述问题。</span><br>
+<span>3. 台式机周五可以用mstsc访问阿里云的服务器，换路由器后就会在“正在配置远程会话”后出错。关防火墙什么的也不起作用。而笔记本却可以正常访问。</span><br>
+<span>以上问题都是换路由器后出现的。</span><br>
+<span>晚上得空我把路由器换回旧的再看看。</span><br>
+</p><p><b>mggr: </b><br>
+<span>把智能QoS打开就OK了。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>楼主不也在nga发的贴</span><br>
+</p><p><b>qwased: </b><br>
+<span>换个dns</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>lvcha: </b><br>
+<span>依然荏苒 发表于 2020-3-10 15:06</span><br>
+<span>楼主不也在nga发的贴</span><br>
+<span>是，解决了，打开qos就行了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917947[0-50]</guid>
+    </item>
+  </channel>
+</rss>

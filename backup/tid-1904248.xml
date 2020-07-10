@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>linux下控制台有没有延时输出的功能</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>linux下控制台有没有延时输出的功能</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:51 +0000</lastBuildDate>
+    <item>
+      <title>linux下控制台有没有延时输出的功能[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904248-1-1.html</link>
+      <description>linux下控制台有没有延时输出的功能&#13;
+类似xxx | more          xxx | less这种效果，区别在于不是分页输出，而是把控制台输出的内容延迟下，比如一秒只输出一行，避免太快就刷屏，还要回滚去看输出</description>
+      <content:encoded><![CDATA[<p><b>linjia: </b><br>
+<span>linux下控制台有没有延时输出的功能</span><br>
+<span>类似xxx | more          xxx | less这种效果，区别在于不是分页输出，而是把控制台输出的内容延迟下，比如一秒只输出一行，避免太快就刷屏，还要回滚去看输出</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>这个功能自己写一个只要分分钟吧</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span> 本帖最后由 tsubasa9 于 2019-12-20 10:56 编辑 </span><br>
+<span>意义何在, 为什么不重定向到文件里自己慢慢看</span><br>
+<span>真有需求就用awk好了:</span><br>
+<span>$ command | awk '{system("sleep 1");print}'</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-12-20 11:08 编辑 </span><br>
+<span>xxx | while read i; do sleep 1; echo $i; done</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>如果输入内容大于输出内容</span><br>
+<span>当管道缓冲区写满的时候就会有问题哦</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>有个工具叫pv，可以对管道限速，一般的发行版都可以直接安装。</span><br>
+<span> <fast input> | pv -qL <rate> | <rate-limited output></span><br>
+<span>参考：https://stackoverflow.com/questions/242697/do-stdout-output-with-specific-speed</span><br>
+</p><p><b>KarsusNeko: </b><br>
+<span>这种东西懂C的话随手就写出来了吧</span><br>
+</p><p><b>归蝶: </b><br>
+<span>Tee到一个文件里另开终端慢慢看就是了啊</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>写到文件里，然后定时跑tail也行，不要阻塞管道，缓冲满了会卡的</span><br>
+</p><p><b>你的全家: </b><br>
+<span>不要搞自己buffer 重定向文件然后tail定期刷新安全</span><br>
+<span>buffer满了好情况是程序卡死</span><br>
+<span>炸了才有意思</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904248[0-50]</guid>
+    </item>
+  </channel>
+</rss>

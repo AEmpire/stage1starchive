@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>两个设备的MAC地址或者IMEI如果相同了，会怎么样？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>两个设备的MAC地址或者IMEI如果相同了，会怎么样？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:32:00 +0000</lastBuildDate>
+    <item>
+      <title>两个设备的MAC地址或者IMEI如果相同了，会怎么样？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851440-1-1.html</link>
+      <description>两个设备的MAC地址或者IMEI如果相同了，会怎么样？&#13;
+记得之前看过文章，理论上IMEI和mac地址都应该是唯一的
+&#13;
+可有人遇到过两部相同的mac地址的设备。那这种类似的mac相同设备如果在同一个子网络里，会不会造成网络混乱；手机IMEI相同的话，会不会造成运营商计费错误，或者接电话收短信出错误？</description>
+      <content:encoded><![CDATA[<p><b>Haier: </b><br>
+<span>两个设备的MAC地址或者IMEI如果相同了，会怎么样？</span><br>
+<span>记得之前看过文章，理论上IMEI和mac地址都应该是唯一的</span><br>
+<span>可有人遇到过两部相同的mac地址的设备。那这种类似的mac相同设备如果在同一个子网络里，会不会造成网络混乱；手机IMEI相同的话，会不会造成运营商计费错误，或者接电话收短信出错误？</span><br>
+</p><p><b>linjia: </b><br>
+<span>一、    现象：MAC地址飘移</span><br>
+<span>关于mac地址飘移，在网上查找并总结后，归纳可能为以下七种情况：</span><br>
+<span> 1、可能存在环路；</span><br>
+<span> 2、可能VRRP、HSRP等协议不正常引起。比如设备主备频繁切换，导致交换机学习同一mac地址飘移；</span><br>
+<span> 3、可能至少两台终端MAC地址相同，这样的情况不影响其他用户端；</span><br>
+<span> 4、是用户端换了网线，而两个网线接口不在同一台交换机上，mac会记忆一段时间，之后一切恢复正常；</span><br>
+<span> 5、H3C交换机开启STP功能后，CISCO设备可能出现报告MAC地址移动的现象，如果网络中不存在环路，该现象不影响业务。</span><br>
+<span> 6、再多加一种：可能arp欺诈、攻击，导致不同端口学习到同一真实或欺诈的mac地址，此结论未验证。</span><br>
+<span> 7、因为无线用户漫游，导致的MAC地址漂移告警。正常现象，对业务无影响。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>IMEI的重复率比二代身份证还低，而且运营商统计是靠ICCID和其他手段，IMEI重复了也没影响</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>运营商计费看ICCID，是通过SIM卡硬件上的认证，普通人是没办法伪造、模拟、修改的</span><br>
+<span>IMEI可以该，曾经把几个手机的IMEI都改成23333333333333333333333了，也没有发现什么异常</span><br>
+</p><p><b>Haier: </b><br>
+<span>すぴぱら 发表于 2019-8-5 15:58</span><br>
+<span>IMEI的重复率比二代身份证还低，而且运营商统计是靠ICCID和其他手段，IMEI重复了也没影响</span><br>
+<span>发自我的iPhone...</span><br>
+<span>既然统计是靠iccid和其他手段，那么厂商为什么还要生成这么一个IMEI和meid呢，如果是给机器做标示用，那么有序列号不就行了。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>Haier 发表于 2019-8-5 16:04</span><br>
+<span>既然统计是靠iccid和其他手段，那么厂商为什么还要生成这么一个IMEI和meid呢，如果是给机器做标示用，那 ...</span><br>
+<span>厂商序列号你没法保证全世界厂商都用一致的序号规则吧</span><br>
+<span>所以IMEI出现了，品牌+产地+序列号+校验码，是不是和身份证很像？</span><br>
+</p><p><b>Haier: </b><br>
+<span>すぴぱら 发表于 2019-8-5 16:08</span><br>
+<span>厂商序列号你没法保证全世界厂商都用一致的序号规则吧</span><br>
+<span>所以IMEI出现了，品牌+产地+序列号+校验码，是不是 ...</span><br>
+<span>可全世界厂商都用一致的序列号规则没啥鸟用啊。</span><br>
+<span>每个厂商只要保证能用自己的序列号识别自己出厂的每一台设备就好了啊。</span><br>
+</p><p><b>Haier: </b><br>
+<span>咲月露娜 发表于 2019-8-5 16:03</span><br>
+<span>运营商计费看ICCID，是通过SIM卡硬件上的认证，普通人是没办法伪造、模拟、修改的</span><br>
+<span>IMEI可以该，曾经把几个 ...</span><br>
+<span>厂商靠自己的序列号就可以查询自己的机器是否过保等信息。</span><br>
+<span>但这IMEI还存在了这么久，所以说这IMEI应该是还有别的用途，虽然像你所说，貌似重复了，也没啥影响。</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>Haier 发表于 2019-8-5 16:13</span><br>
+<span>可全世界厂商都用一致的序列号规则没啥鸟用啊。</span><br>
+<span>每个厂商只要保证能用自己的序列号识别自己出厂的每一台 ...</span><br>
+<span>通讯网使用imei与iccid加时间因子计算后的设备标示码来标示手机号所对应手机，网络上不出现imei、iccid 、手机号码等原始码。</span><br>
+<span>06年移动通信书说的，现在变没变不知道</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>至于mac码，不在同一dhcp 网段内重复就没事，nat后不传mac码。</span><br>
+<span>同一网段内指定ip也没问题，当年美商联想150台00000002的笔记本也只让单位it 忙了1周而已。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-8-5 16:30 编辑 </span><br>
+<span>Haier 发表于 2019-8-5 16:13</span><br>
+<span>可全世界厂商都用一致的序列号规则没啥鸟用啊。</span><br>
+<span>每个厂商只要保证能用自己的序列号识别自己出厂的每一台 ...</span><br>
+<span>你说全世界规则不重要，去美国被警察抓了，然后跟他说自己没带护照，只有中国驾照，美国警察会放人吗？这东西不是给生产厂商售后部门追溯的，IMEI可以简单查值到几乎独一无二的机器信息，这对第三方机构包括运营商统计都非常有意义，你也可以刻一段guid，md5，crc32录入厂商数据库做识别码，但是有统计价值吗？机型数据的时候每一家电话问候一遍他们序列号是多少位开头？</span><br>
+<span>一个罪犯，天天用同一台手机换着卡打电话，ICCID每天都在变，怎么在基站上查询并且抓到他，IMEI</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>mac这个问题，交换机在一个端口接收到package时会更新mac table</span><br>
+<span>所以如果有两个相同的mac，那mac就会在两个port间来回跳，至于最新的数据，当然是送往最后一次接受到这个mac地址的port</span><br>
+</p><p><b>villy_yang: </b><br>
+<span>MAC地址根本没办法保证不重复，写ENC28J60的驱动，MAC就是程序里一个变量。</span><br>
+</p><p><b>Haier: </b><br>
+<span>すぴぱら 发表于 2019-8-5 16:28</span><br>
+<span>你说全世界规则不重要，去美国被警察抓了，然后跟他说自己没带护照，只有中国驾照，美国警察会放人吗？这 ...</span><br>
+<span>这东西就像楼上所说，是可以自己改成2333333333333的。还抓罪犯，多么傻逼的罪犯会换n张卡，不换手机等着你来抓？</span><br>
+<span>查了一下，现阶段也就是运营商靠IMEI来绑定合约机用户不让他们在合约期换卡的。再者就是app靠这个来识别是否为同一个用户的，有些游戏如果要封禁某些用户不止封账户，还会连同该设备一起封。有些app的优惠限定同一用户只能一次也是靠IMEI。</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-8-5 17:00 编辑 </span><br>
+<span>Haier 发表于 2019-8-5 16:50</span><br>
+<span>这东西就像楼上所说，是可以自己改成2333333333333的。还抓罪犯，多么傻逼的罪犯会换n张卡，不换手机等着 ...</span><br>
+<span>我就问一句：去美国被警察抓了，然后跟他说自己没带护照，只有中国驾照，美国警察会放人吗？</span><br>
+<span>你就是ETC？到你理解第三方统计信息就只有抓罪犯一个作用？</span><br>
+<span>顺便ios这种设备应用层都取不到IMEI的还统计优惠哈哈哈哈，你们安卓用户都这么钢的吗</span><br>
+</p><p><b>Haier: </b><br>
+<span>咲月露娜 发表于 2019-8-5 16:03</span><br>
+<span>运营商计费看ICCID，是通过SIM卡硬件上的认证，普通人是没办法伪造、模拟、修改的</span><br>
+<span>IMEI可以该，曾经把几个 ...</span><br>
+<span>下回你试试两个不同的云闪付app账号登录在这些手机上，可能他会识别你是同一用户，限制你只能参与一次优惠活动。</span><br>
+</p><p><b>Haier: </b><br>
+<span>すぴぱら 发表于 2019-8-5 16:54</span><br>
+<span>我就问一句：去美国被警察抓了，然后跟他说自己没带护照，只有中国驾照，美国警察会放人吗？</span><br>
+<span>你就是ETC？ ...</span><br>
+<span>你这个类比有些让人看不懂。</span><br>
+<span>第三方统计信息的作用不止一个啊，上面我都列出来啦</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>Haier 发表于 2019-8-5 17:00</span><br>
+<span>你这个类比有些让人看不懂。</span><br>
+<span>第三方统计信息的作用不止一个啊，上面我都列出来啦 ...</span><br>
+<span>我跟你说，非刚，现在app层取IMEI的，在google商店和APP store直接下架不商量，几乎不会用这东西去作为用户唯一识别码的，别云闪付了</span><br>
+</p><p><b>Haier: </b><br>
+<span>すぴぱら 发表于 2019-8-5 17:02</span><br>
+<span>我跟你说，非刚，现在app层取IMEI的，在google商店和APP store直接下架不商量，几乎不会用这东西去作为用 ...</span><br>
+<span>那你来说说国内这些app是怎么识别同一设备的？</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>Haier 发表于 2019-8-5 17:07</span><br>
+<span>那你来说说国内这些app是怎么识别同一设备的？</span><br>
+<span>在SD卡目录上直接放一个用户id。。。然后大家都去访问。。。。</span><br>
+</p><p><b>Haier: </b><br>
+<span> 本帖最后由 Haier 于 2019-8-5 17:19 编辑 </span><br>
+<span>すぴぱら 发表于 2019-8-5 17:02</span><br>
+<span>我跟你说，非刚，现在app层取IMEI的，在google商店和APP store直接下架不商量，几乎不会用这东西去作为用 ...</span><br>
+<span>你这是不是刚不知道，但你这话说的也太满了，现在有些APP还真就是靠IMEI直接来识别用户的，之前只要在一个授权可以读取IMEI的设备上登录过，之后在这个设备上都不需要密码，直接就默认可以登录。</span><br>
+<span>反之，如果不授权读取IMEI识别码，每次在同一个设备上登录都需要密码。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>すぴぱら 发表于 2019-8-5 17:02</span><br>
+<span>我跟你说，非刚，现在app层取IMEI的，在google商店和APP store直接下架不商量，几乎不会用这东西去作为用 ...</span><br>
+<span>https://play.google.com/store/apps/details?id=onemlab.deviceid</span><br>
+<span>这个可以读 IMEI ....</span><br>
+<span>我就是用这个来检测修改成功没有的。。。。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>咲月露娜 发表于 2019-8-5 17:16</span><br>
+<span>https://play.google.com/store/apps/details?id=onemlab.deviceid</span><br>
+<span>这个可以读 IMEI ....</span><br>
+<span>Q上什么app都没权利读IMEI了，所以云闪付打不开</span><br>
+<span>点名垃圾app哈罗出行，非要读IMEI</span><br>
+</p><p><b>Haier: </b><br>
+<span>咲月露娜 发表于 2019-8-5 17:11</span><br>
+<span>在SD卡目录上直接放一个用户id。。。然后大家都去访问。。。。</span><br>
+<span>那如果目录里的这个用户ID被用户删除了呢</span><br>
+</p><p><b>macos: </b><br>
+<span>すぴぱら 发表于 2019-8-5 15:58</span><br>
+<span>IMEI的重复率比二代身份证还低，而且运营商统计是靠ICCID和其他手段，IMEI重复了也没影响</span><br>
+<span>发自我的iPhone...</span><br>
+<span>局域网下才有影响，已知富士施乐s2010确实是相同mac</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>若荼泱 发表于 2019-8-5 17:20</span><br>
+<span>Q上什么app都没权利读IMEI了，所以云闪付打不开</span><br>
+<span>点名垃圾app哈罗出行，非要读IMEI ...</span><br>
+<span>伪造一个喂他(斜眼</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span> 本帖最后由 咲月露娜 于 2019-8-5 18:01 编辑 </span><br>
+<span>Haier 发表于 2019-8-5 17:20</span><br>
+<span>那如果目录里的这个用户ID被用户删除了呢</span><br>
+<span>把用户id从软件私有目录恢复出来，再放一次。。。当然用户可以每次都去删（或者上xposed、magisk治疗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851440[0-50]</guid>
+    </item>
+  </channel>
+</rss>

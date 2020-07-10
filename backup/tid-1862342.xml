@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[已解决]Envy X360 13 锐龙版 win10 1903显示器校准无任何作用</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[已解决]Envy X360 13 锐龙版 win10 1903显示器校准无任何作用</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:23:14 +0000</lastBuildDate>
+    <item>
+      <title>[已解决]Envy X360 13 锐龙版 win10 1903显示器校准无任何作用[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862342-1-1.html</link>
+      <description>Envy X360 13 锐龙版 win10 1903显示器校准无任何作用&#13;
+ 本帖最后由 zmw_831110 于 2019-11-6 08:07 编辑 
+
+笔记本的，无论是icc还是系统自带校准，拉滑块，没有任何变化，搜了一下，装了据说解决问题的补丁的后续累积更新，没用，设置计划任务管理器关闭2个玩意，也没用。
+
+剩下
+
+是不是只有重装了
+
+另外一台主机1903正常。</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>Envy X360 13 锐龙版 win10 1903显示器校准无任何作用</span><br>
+<span> 本帖最后由 zmw_831110 于 2019-11-6 08:07 编辑 </span><br>
+<span>笔记本的，无论是icc还是系统自带校准，拉滑块，没有任何变化，搜了一下，装了据说解决问题的补丁的后续累积更新，没用，设置计划任务管理器关闭2个玩意，也没用。</span><br>
+<span>剩下</span><br>
+<span>是不是只有重装了</span><br>
+<span>另外一台主机1903正常。</span><br>
+</p><p><b>无责任死猫: </b><br>
+<span>1903还好，1909连显示器都找不到了。</span><br>
+</p><p><b>计算机组成原理: </b><br>
+<span>我遇到过。排查一下显卡驱动的问题。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>计算机组成原理 发表于 2019-10-30 20:35</span><br>
+<span>我遇到过。排查一下显卡驱动的问题。</span><br>
+<span>是笔记本，只有原厂驱动。。。</span><br>
+<span>已经打了最新的了</span><br>
+<span>envy x360 13</span><br>
+<span>2500U款的</span><br>
+</p><p><b>bt4ever: </b><br>
+<span>用8.1吧</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>1903的bug，应该已经修复了才是，你更新下？至少我的修复了。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>Bondrewd 发表于 2019-10-31 11:34</span><br>
+<span>1903的bug，应该已经修复了才是，你更新下？至少我的修复了。</span><br>
+<span>我怀疑是不是和我强刷bios有关系，反正强刷后，我原本本子自己显示屏从大黄屏变成正常色彩了，感觉把硬件屏幕校准文件给干掉了</span><br>
+</p><p><b>白武男: </b><br>
+<span>我显示器还经常丢失呢。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-11-6 08:06 编辑 </span><br>
+<span>计算机组成原理 发表于 2019-10-30 20:35</span><br>
+<span>我遇到过。排查一下显卡驱动的问题。</span><br>
+<span>的确是显卡驱动问题。</span><br>
+<span>HP官方宣称的1903 A卡驱动不行，得用AMD官方的最新驱动才可以。</span><br>
+<span>我是重装系统，并且是home版后，A卡控制面板提醒更新，根据提醒去了网页下载驱动，手动更新后才好的。(面板自带的推荐直接更新跟我报错，只能手工更新)</span><br>
+<span>和我线刷降级Bios，把序列号刷没了没关系。。</span><br>
+<span>昨晚我重装了3次系统，2次专业版都没提醒驱动更新，拆本子线刷回带序列号的新版Bios，线刷回旧版Bios，折腾到快3点</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862342[0-50]</guid>
+    </item>
+  </channel>
+</rss>

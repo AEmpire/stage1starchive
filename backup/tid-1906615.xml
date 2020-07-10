@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>N卡开freesync帧率波动大的时候黑屏</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>N卡开freesync帧率波动大的时候黑屏</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:59:48 +0000</lastBuildDate>
+    <item>
+      <title>N卡开freesync帧率波动大的时候黑屏[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906615-1-1.html</link>
+      <description>N卡开freesync帧率波动大的时候黑屏&#13;
+显示器非gsync认证,在用显卡1070ti,帧率波动时有几率黑屏,效果类似拔插信号线,使用老黄家的钟摆gsync测试在把最低帧拉低之后非常容易复现
+&#13;
+能搜到类似案例基本是通过关闭gsync解决的,但是这玩意效果不错不太想关
+&#13;
+于是有没有也是用n卡在没有兼容认证的freesync显示器上开gsync的,会不会出现类似情况,用的DP线还是HDMI线
+&#13;
+这年头硬件硬件的提升越来越小,奇怪的兼容问题反而越来越多,真是见鬼了</description>
+      <content:encoded><![CDATA[<p><b>炸了个毛: </b><br>
+<span>N卡开freesync帧率波动大的时候黑屏</span><br>
+<span>显示器非gsync认证,在用显卡1070ti,帧率波动时有几率黑屏,效果类似拔插信号线,使用老黄家的钟摆gsync测试在把最低帧拉低之后非常容易复现</span><br>
+<span>能搜到类似案例基本是通过关闭gsync解决的,但是这玩意效果不错不太想关</span><br>
+<span>于是有没有也是用n卡在没有兼容认证的freesync显示器上开gsync的,会不会出现类似情况,用的DP线还是HDMI线</span><br>
+<span>这年头硬件硬件的提升越来越小,奇怪的兼容问题反而越来越多,真是见鬼了</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>给个参考：</span><br>
+<span>显示器ew3270u fs区间40-60</span><br>
+<span>显卡5700xt</span><br>
+<span>rtss锁帧率在40-43时，fs实际无效，刷新率回到60</span><br>
+<span>rtss锁帧率在40时，同时使用cru将显示器fs下限调整到35，进游戏会黑屏，alt+tab恢复。</span><br>
+<span>我倾向于你的gs变频超过了显示器vrr区间的原因。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>qwased: </b><br>
+<span>便宜货的可变范围很小，自己用rtss锁一下帧率</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ryans233: </b><br>
+<span>之前我的准系统（蓝天P775DM3-G，Z170+GTX1080）接上老黄认证过的AOC 27G2（G-Sync Compatible）也会有这种现象，后来为了上9400F更新了BIOS和VBIOS后很神奇的正常了……</span><br>
+<span>虽然没什么参考意义但还是顺便说一下（</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>伊克路西安 发表于 2019-12-31 00:33</span><br>
+<span>给个参考：</span><br>
+<span>显示器ew3270u fs区间40-60</span><br>
+<span>显卡5700xt</span><br>
+<span>应该是你和楼下的思路没错了，这显示器的帧率根本到不了那个数，结果一到这个区间就可能会黑，晚点我用cru把最低拉到45或者48去试试看</span><br>
+<span>看到一个一样情况的，笨球那个32寸2k144，就是这么解决的</span><br>
+<span>一开始我还没怀疑显示器，总是在显卡数据线老黄之类的地方找原因，结果找到明确有一样症状的都是笨球，真是</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>ryans233 发表于 2019-12-31 02:28</span><br>
+<span>之前我的准系统（蓝天P775DM3-G，Z170+GTX1080）接上老黄认证过的AOC 27G2（G-Sync Compatible）也会有这种 ...</span><br>
+<span>这好像和我这个问题不太一样...估计你这是其他什么原因导致的</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>哦 你也是ew3270u啊 我感觉最难受的是拖影。。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>伊克路西安 发表于 2019-12-31 09:10</span><br>
+<span>哦 你也是ew3270u啊 我感觉最难受的是拖影。。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅 ...</span><br>
+<span>哦，拖影这个主要是灯光移动这种特别明显，其他时候还是不那么明显的，我只能告诉自己这是什么奇怪的特效不在用意.....</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>炸了个毛 发表于 2019-12-31 10:17</span><br>
+<span>哦，拖影这个主要是灯光移动这种特别明显，其他时候还是不那么明显的，我只能告诉自己这是什么奇怪的特效 ...</span><br>
+<span>主要还是刷网页特别明显。。黑色——图片滑动的时候，难受</span><br>
+<span>https://testufo.com/ghosting</span><br>
+<span>https://testufo.com/chase</span><br>
+<span>你这个测出来啥样的</span><br>
+</p><p><b>白头盔: </b><br>
+<span>你画面有撕裂吗，觉得难受吗？</span><br>
+<span>没事别开这东西</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>还有楼主能帮我看看GPU-Z---advanced---monitor 里面的</span><br>
+<span>link rate(current)和link rate(max) 吗</span><br>
+<span>你用的线是DP1.2还是DP1.4？</span><br>
+</p><p><b>炸了个毛: </b><br>
+<span>伊克路西安 发表于 2019-12-31 12:54</span><br>
+<span>还有楼主能帮我看看GPU-Z---advanced---monitor 里面的</span><br>
+<span>link rate(current)和link rate(max) 吗</span><br>
+<img src="https://p.sda1.dev/0/6513027b7b2e4a63c488da37b859ea3f/10086.jpg" title="https://p.sda1.dev/0/6513027b7b2e4a63c488da37b859ea3f/10086.jpg"><br>
+<img src="https://p.sda1.dev/0/183cc141a30ad78c162a525e5313475b/12306.png" title="https://p.sda1.dev/0/183cc141a30ad78c162a525e5313475b/12306.png"><br>
+<span>应该是1.2的dp线吧 不知道从哪个角落翻出来的....</span><br>
+<span>测试图是ama开到高的拖影,不过我感觉没开也没多少区别</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>炸了个毛 发表于 2019-12-31 21:37</span><br>
+<span>应该是1.2的dp线吧 不知道从哪个角落翻出来的....</span><br>
+<span>测试图是ama开到高的拖影,不过我感觉没开也没多少区 ...</span><br>
+<span>之前老怀疑我中奖 现在消停了 就这样。。</span><br>
+<span>我的也是开高和关没区别</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906615[0-50]</guid>
+    </item>
+  </channel>
+</rss>

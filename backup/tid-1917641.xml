@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>淘汰下来的无线路由器一个，可以改成无线网卡吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>淘汰下来的无线路由器一个，可以改成无线网卡吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:42:40 +0000</lastBuildDate>
+    <item>
+      <title>淘汰下来的无线路由器一个，可以改成无线网卡吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917641-1-1.html</link>
+      <description>淘汰下来的无线路由器一个，可以改成无线网卡吗？&#13;
+现有淘汰台式机一台，淘汰无线路由器一个，想改成HTPC用，今天连接电视播放720P和1080P都还正常。现在想把无线路由器改成无线网卡使得台式机播放局域网上视频使用。网线倒是有很多根
+&#13;
+我好像记得以前无线路由器改成桥接模式可以拓展WIFI区域。。。所以理论上是不是可行的？</description>
+      <content:encoded><![CDATA[<p><b>牙晓: </b><br>
+<span>淘汰下来的无线路由器一个，可以改成无线网卡吗？</span><br>
+<span>现有淘汰台式机一台，淘汰无线路由器一个，想改成HTPC用，今天连接电视播放720P和1080P都还正常。现在想把无线路由器改成无线网卡使得台式机播放局域网上视频使用。网线倒是有很多根</span><br>
+<span>我好像记得以前无线路由器改成桥接模式可以拓展WIFI区域。。。所以理论上是不是可行的？</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-3-7 19:22 编辑 </span><br>
+<span>可以，但不一定稳定，我之前用一个WNDR3400v2做中继桥接刷了几个固件都总是会断线，最后送人了。</span><br>
+<span>大致上有三种模式：WISP、Client+AP、WDS，WISP是二级路由连不了上层局域网，WDS需要同厂家芯片，Client+AP一般最合适，不过我也遇到过连到下级设备的MAC地址主路由识别不对的情况。</span><br>
+<span>我现在正在用Y1S做5G WDS，主路由是newifi3，但也不能稳定连接，过段时间就会出现断连，需要重启5G开关或者直接重开路由。2.4G WDS 好像能稳定但跑不满200M宽带。</span><br>
+<span>还好找到了断开自动重启5G的脚本，现在用了一个多星期，感觉也算稳定使用了。</span><br>
+<span>#!/bin/sh</span><br>
+<span>while true</span><br>
+<span>do</span><br>
+<span>ping -c 1 -w 1 192.168.1.2 >/dev/null 2>&1</span><br>
+<span>if [[ $? != 0 ]]</span><br>
+<span>then</span><br>
+<span>sleep 2</span><br>
+<span>ping -c 1 -w 1 192.168.1.2 >/dev/null 2>&1</span><br>
+<span>if [[ $? != 0 ]]</span><br>
+<span>then</span><br>
+<span>radio5_restart</span><br>
+<span>logger -t "【WDS挂掉了】" "5G重启完成"</span><br>
+<span>sleep 60</span><br>
+<span>else</span><br>
+<span>sleep 10</span><br>
+<span>fi</span><br>
+<span>else</span><br>
+<span>sleep 5</span><br>
+<span>fi</span><br>
+<span>done</span><br>
+<span>将上面的内容写个sh脚本放到/etc/storage/</span><br>
+<span>再把这个脚本添加到开机启动就行了,比如</span><br>
+<span>/etc/storage/testwds.sh &</span><br>
+<span>5秒ping一次,断开之后实测会在20秒之内恢复</span><br>
+<span>https://www.right.com.cn/forum/thread-843028-1-1.html</span><br>
+</p><p><b>牙晓: </b><br>
+<span>哇，你写的好专业，我百度了一下也是无线桥接加CLIENT模式，明天试一下，关键路由器不像无线网卡要外接供电不方便而且其实我也不是随时要用HTPC，总之谢谢了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917641[0-50]</guid>
+    </item>
+  </channel>
+</rss>

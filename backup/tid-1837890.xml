@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[求助]电脑出现莫名的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[求助]电脑出现莫名的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:56:56 +0000</lastBuildDate>
+    <item>
+      <title>[求助]电脑出现莫名的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837890-1-1.html</link>
+      <description>[求助]电脑出现莫名的问题&#13;
+我的电脑前几天开始出现浏览器崩溃/蓝屏等一系列的错误，还有应用程序突然崩溃等，在查看系统日志后发现，它们都是在读取系统C盘某个文件是发生存储错误，导致突然崩溃(浏览器，QQ等)，而蓝屏的错误代码则是Memory management
+
+今天刚换了新的系统盘SSD，结果系统会直接卡死(CPU风扇拉满)，旧的两个硬盘在设备管理器中可见但系统中没有这俩盘符，机子是1700+B350，求问各位有没有类似经验，有的话不吝指教下，非常感谢</description>
+      <content:encoded><![CDATA[<p><b>北岛以北: </b><br>
+<span>[求助]电脑出现莫名的问题</span><br>
+<span>我的电脑前几天开始出现浏览器崩溃/蓝屏等一系列的错误，还有应用程序突然崩溃等，在查看系统日志后发现，它们都是在读取系统C盘某个文件是发生存储错误，导致突然崩溃(浏览器，QQ等)，而蓝屏的错误代码则是Memory management</span><br>
+<span>今天刚换了新的系统盘SSD，结果系统会直接卡死(CPU风扇拉满)，旧的两个硬盘在设备管理器中可见但系统中没有这俩盘符，机子是1700+B350，求问各位有没有类似经验，有的话不吝指教下，非常感谢</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>把2个旧的硬盘拔掉试试？</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>纯情小鸭鸭 发表于 2019-6-8 18:05</span><br>
+<span>把2个旧的硬盘拔掉试试？</span><br>
+<span>蓝屏会和旧的硬盘有关系吗？</span><br>
+</p><p><b>暁美ほむら: </b><br>
+<span>打开cmd窗口，输入chkdsk i: /你的系统盘符 修复下看看</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>北岛以北 发表于 2019-6-8 18:10</span><br>
+<span>蓝屏会和旧的硬盘有关系吗？</span><br>
+<span>有，所有有问题的硬件都可能导致蓝屏。</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>暁美ほむら 发表于 2019-6-8 18:25</span><br>
+<span>打开cmd窗口，输入chkdsk i: /你的系统盘符 修复下看看</span><br>
+<span>是修复新的还是旧的？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>纯情小鸭鸭 发表于 2019-6-8 18:28</span><br>
+<span>有，所有有问题的硬件都可能导致蓝屏。</span><br>
+<span>但我一开始猜的是旧盘不行了 因为各种浏览器崩溃，查看日志也是读取C盘数据出问题</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>你是读取哪个文件出问题了呢？</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>Sliverstrike 发表于 2019-6-8 19:16</span><br>
+<span>你是读取哪个文件出问题了呢？</span><br>
+<span>看了一下，有QQ的几个dll文件，浏览器的WebDAV啥的缓存，然后游戏莫名出错显示显卡不支持dx11</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sliverstrike: </b><br>
+<span>北岛以北 发表于 2019-6-8 19:44</span><br>
+<span>看了一下，有QQ的几个dll文件，浏览器的WebDAV啥的缓存，然后游戏莫名出错显示显卡不支持dx11</span><br>
+<span>—— 来自 ...</span><br>
+<span>从你描述的问题来看，</span><br>
+<span>大概不是软件问题，你可以试着把这些出错的文件删掉或移到别的地方看是否问题依旧。</span><br>
+<span>另外我倾向于是你的内存条出了故障而不是硬盘，如果你有超过一条内存，可以挨个拔下来试试问题是否依旧</span><br>
+<span>如果只有一根你试试找别人借一根换上去看看</span><br>
+</p><p><b>中川夏纪: </b><br>
+<span>Memory management，你这是内存出问题了吧，重新插拔一下试试，有条件的话换新的看看能不能解决，控制变量解决问题就行。</span><br>
+</p><p><b>litel: </b><br>
+<span>这个提示一般大概率就是内存问题，插拔下吧。。。</span><br>
+<span>估计安装时碰到内存了。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>硬盘问题可能性大用系统工具检查硬盘</span><br>
+</p><p><b>北岛以北: </b><br>
+<span>zmj1316 发表于 2019-6-9 09:09</span><br>
+<span>硬盘问题可能性大用系统工具检查硬盘</span><br>
+<span>检查硬盘是健康的……但是我也觉得可能是硬盘问题，所以先换了个SSD看看</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837890[0-50]</guid>
+    </item>
+  </channel>
+</rss>

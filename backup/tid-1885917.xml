@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有谁还在用技嘉 P67A 么</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有谁还在用技嘉 P67A 么</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:03:21 +0000</lastBuildDate>
+    <item>
+      <title>有谁还在用技嘉 P67A 么[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1885917-1-1.html</link>
+      <description>有谁还在用技嘉 P67A 么&#13;
+今天在折腾台式机，准备把一块 Intel 的 SATA2 SSD 换成 NVMe 的 SN750，现在系统引导起来了，看 Crystaldiskinfo 说 NVMe 跑在 PCIe 2.0x4 上。。。很怪，看技嘉官网说这款主板是支持 3.0 的啊
+&#13;
+有没有还在用这块古董的大佬讲讲怎么强制 PCIe 跑在 3.0 上。。bios 里找了一圈没找到，已经升级到最新的 F7
+&#13;
+主板：P67A-D3-B3
+&#13;
+CPU：E3-1230v2
+&#13;
+技嘉官网信息：https://www.gigabyte.com/tw/Motherboard/GA-P67A-D3-B3-rev-10#ov</description>
+      <content:encoded><![CDATA[<p><b>kiddolck: </b><br>
+<span>有谁还在用技嘉 P67A 么</span><br>
+<span>今天在折腾台式机，准备把一块 Intel 的 SATA2 SSD 换成 NVMe 的 SN750，现在系统引导起来了，看 Crystaldiskinfo 说 NVMe 跑在 PCIe 2.0x4 上。。。很怪，看技嘉官网说这款主板是支持 3.0 的啊</span><br>
+<span>有没有还在用这块古董的大佬讲讲怎么强制 PCIe 跑在 3.0 上。。bios 里找了一圈没找到，已经升级到最新的 F7</span><br>
+<span>主板：P67A-D3-B3</span><br>
+<span>CPU：E3-1230v2</span><br>
+<span>技嘉官网信息：https://www.gigabyte.com/tw/Motherboard/GA-P67A-D3-B3-rev-10#ov</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>P67/Z68只有DMI2.0，除非你接在直连CPU的x16插槽，否则无法获得3.0的速度，然而E3-1230v2没有集显</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>zatsuza 发表于 2019-12-6 21:16</span><br>
+<span>P67/Z68只有DMI2.0，除非你接在直连CPU的x16插槽，否则无法获得3.0的速度，然而E3-1230v2没有集显 ...</span><br>
+<span>果然是这样么。。。哎，该收块二手 Z77 了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>kiddolck 发表于 2019-12-6 21:32</span><br>
+<span>果然是这样么。。。哎，该收块二手 Z77 了</span><br>
+<span>你这个U买消费级主板应该是无法获得额外的3.0速度了</span><br>
+<span>没必要纠结那点持续性能，SSD是看4K的</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>zatsuza 发表于 2019-12-6 21:35</span><br>
+<span>你这个U买消费级主板应该是无法获得额外的3.0速度了</span><br>
+<span>没必要纠结那点持续性能，SSD是看4K的 ...</span><br>
+<span>也是233，SATA 2.0 的系统盘都这么多年了也不在这点差了</span><br>
+</p><p><b>llions: </b><br>
+<span>同E31230+H77老平台折腾不动了，准备明年618三大件全换算球</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>風駿: </b><br>
+<span>我的华硕P8Z77-V LX，两根PCI-E X16槽一根插显卡一根插转接卡，nvme也是跑在PCIe 2.0x4上，又不影响使用</span><br>
+</p><p><b>各种浪: </b><br>
+<span>所以说为什么你们要买最丐的版？稍微好一点的z主板就能16拆成8+8，nvme跑3.0毫无困难</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1885917[0-50]</guid>
+    </item>
+  </channel>
+</rss>

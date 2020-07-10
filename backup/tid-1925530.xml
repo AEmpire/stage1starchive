@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>非RTX N卡音质一样好！外国网友发布GTX Voice语音免费软件</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>非RTX N卡音质一样好！外国网友发布GTX Voice语音免费软件</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:19:23 +0000</lastBuildDate>
+    <item>
+      <title>非RTX N卡音质一样好！外国网友发布GTX Voice语音免费软件[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1925530-1-1.html</link>
+      <description>非RTX N卡音质一样好！外国网友发布GTX Voice语音免费软件&#13;
+ 本帖最后由 ft5555 于 2020-4-24 10:52 编辑 
+
+Reddit和Twitter上找到数十个用户声称该模块使RTX Voice可以在其上工作时为止GTX 16系列，“ Pascal”，“ Maxwell”，甚至是较旧的“ Fermi”硬件。因此，RTX Voice很有可能使用基于CUDA的GPGPU代码路径，而不是利用张量核心的幻想。在此处的Guru3D论坛线程中找到有关如何修改RTX语音安装程序的说明。
+&#13;
+Made everyone a pre-modded executable.
+&#13;
+Simple run the executable and off to the horses.
+&#13;
+SHA-1: B532042D6243E7CC8F51082AAB964C350D46C7B3
+&#13;
+Size: 398040580 bytes (379 MiB)
+&#13;
+VirusTotal: RESULT
+&#13;
+Download: https://mega.nz/file/CJ0xDYTB#LP ... NfRmxt6iw6KdkHodz1M
+&#13;
+=============================================
+&#13;
+老黄js的本质有一次被揭露了。
+&#13;
+======================================================
+&#13;
+https://img.saraba1st.com/forum/202004/24/105105werwmonmnnhiniz2.png 1.png (58.75 KB, 下载次数: 0)
+&#13;
+下载附件
+&#13;
+2020-4-24 10:51 上传
+&#13;
+https://img.saraba1st.com/forum/202004/24/105106mn8n71yf847r1byy.png
+&#13;
+tensor core 没有用到实锤，1060跟2060都有明显fps下跌，我用1070跑吃鸡fps也下跌了14%</description>
+      <content:encoded><![CDATA[<p><b>ft5555: </b><br>
+<span>非RTX N卡音质一样好！外国网友发布GTX Voice语音免费软件</span><br>
+<span> 本帖最后由 ft5555 于 2020-4-24 10:52 编辑 </span><br>
+<span>Reddit和Twitter上找到数十个用户声称该模块使RTX Voice可以在其上工作时为止GTX 16系列，“ Pascal”，“ Maxwell”，甚至是较旧的“ Fermi”硬件。因此，RTX Voice很有可能使用基于CUDA的GPGPU代码路径，而不是利用张量核心的幻想。在此处的Guru3D论坛线程中找到有关如何修改RTX语音安装程序的说明。</span><br>
+<span>Made everyone a pre-modded executable.</span><br>
+<span>Simple run the executable and off to the horses.</span><br>
+<span>SHA-1: B532042D6243E7CC8F51082AAB964C350D46C7B3</span><br>
+<span>Size: 398040580 bytes (379 MiB)</span><br>
+<span>VirusTotal: RESULT</span><br>
+<span>Download: https://mega.nz/file/CJ0xDYTB#LP ... NfRmxt6iw6KdkHodz1M</span><br>
+<span>=============================================</span><br>
+<span>老黄js的本质有一次被揭露了。</span><br>
+<span>======================================================</span><br>
+<span>https://img.saraba1st.com/forum/202004/24/105105werwmonmnnhiniz2.png 1.png (58.75 KB, 下载次数: 0)</span><br>
+<span>下载附件</span><br>
+<span>2020-4-24 10:51 上传</span><br>
+<img src="https://img.saraba1st.com/forum/202004/24/105106mn8n71yf847r1byy.png" title="https://img.saraba1st.com/forum/202004/24/105106mn8n71yf847r1byy.png"><br>
+<span>tensor core 没有用到实锤，1060跟2060都有明显fps下跌，我用1070跑吃鸡fps也下跌了14%</span><br>
+</p><p><b>qwased: </b><br>
+<span>这就让电流麦小伙伴装一个试试</span><br>
+</p><p><b>wx40217: </b><br>
+<span>这mega盘免费的还有下载额度限制</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>整数缩放不就这么干了，a卡基本全线支持，老黄只给图灵开放</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>Guru3D论坛的David Lake研究后发现，其实这是NVIDIA人为设置的限制，RTX Voice技术完全可以用于其他型号的显卡(当然必须是N卡)，**方法也简单得不可思议。</span><br>
+<span>下载安装包后，使用WinRAR、7-Zip等工具将其解压缩(安装包本质上就是个压缩包)，然后进入NvAFX目录，找到RTXVoice.nvi文件，使用任何文本编辑器打开它(需要管理员权限)，找到如下三行代码并删除：</span><br>
+<span><constraints></span><br>
+<span><property name="Feature.RTXVoice" level="silent" text="${{InstallBlockedMessage}}"/></span><br>
+<span></constraints></span><br>
+<span>然后保存文件，运行setup.exe文件，正常安装即可。</span><br>
+<span>贴一下楼主那个Guru3D的帖子内容</span><br>
+</p><p><b>yikka: </b><br>
+<span>js大刀客老黄</span><br>
+</p><p><b>Ruby的披风: </b><br>
+<span> 本帖最后由 Ruby的披风 于 2020-4-22 22:49 编辑 </span><br>
+<span>这去就试试</span><br>
+<span>草，这楼几个荡漾头像</span><br>
+</p><p><b>potenzh: </b><br>
+<span>笔记本1050ti 效果感觉还挺不错的 </span><br>
+</p><p><b>septer: </b><br>
+<span>wx40217 发表于 2020-4-22 17:32</span><br>
+<span>这mega盘免费的还有下载额度限制</span><br>
+<span>如果mega盘提示额度受限，就换个梯子节点</span><br>
+</p><p><b>营业收入: </b><br>
+<span>tensor core在消费市场的应用还是只有DLSS咯？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>营业收入 发表于 2020-4-23 04:45</span><br>
+<span>tensor core在消费市场的应用还是只有DLSS咯？</span><br>
+<span>之前吹tensor core战未来的还是性子太急了 </span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>刚好我是电流卖，但是是1066，现在可以拿这个试试了</span><br>
+</p><p><b>kyouko: </b><br>
+<span>不需要下载mega的那个，直接去老黄家下载rtx voice app，用7z或rar解压，进去nvafx目录，打开rtxvoice.nvi，搜constrains，把两个constrains中间的代码删掉。完美安装。</span><br>
+</p><p><b>朔方原的星: </b><br>
+<span>我已经爽到了，老黄牛逼！</span><br>
+</p><p><b>Buke: </b><br>
+<span>太草了</span><br>
+</p><p><b>FMIC: </b><br>
+<span>草，皮衣人这个骗子</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>这个怎么用？</span><br>
+</p><p><b>ping117: </b><br>
+<span>还能这样玩</span><br>
+<span>老黄真有你的</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>试了 超绝好用</span><br>
+<span>队友纷纷表示不习惯</span><br>
+<span>我还可以手动开关降噪发动音波打击</span><br>
+<span>—— 来自 Google Pixel 3, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>847681220: </b><br>
+<span>搞不好还能移植到rocm上</span><br>
+</p><p><b>66666: </b><br>
+<span>847681220 发表于 2020-4-24 09:38</span><br>
+<span>搞不好还能移植到rocm上</span><br>
+<span>CPU执行还更可能一些，目前Cuda大部分都能在CPU上正常运行</span><br>
+<span>以目前PC8核CPU性能跑这个AI语音降噪足够了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>tensor core 没有用到实锤，1060跟2060都有明显fps下跌</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>营业收入 发表于 2020-4-23 04:45</span><br>
+<span>tensor core在消费市场的应用还是只有DLSS咯？</span><br>
+<span>6神还有十五秒抵达战场</span><br>
+</p><p><b>paladin7: </b><br>
+<span>不懂就问，1660s 平时音箱接b450主板上，用这个软件区别大吗</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>测试了一下，降噪效果确实很好很突出</span><br>
+</p><p><b>chust: </b><br>
+<span>占用的内存好高</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>chust 发表于 2020-6-20 19:36</span><br>
+<span>占用的内存好高</span><br>
+<span>20m也高吗</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>显卡占用高了爆音，草</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>screeper: </b><br>
+<span>Bondrewd 发表于 2020-6-20 20:32</span><br>
+<span>20m也高吗</span><br>
+<span>那是实际占用，提交大小差不多1.6G了</span><br>
+</p><p><b>chust: </b><br>
+<span>Bondrewd 发表于 2020-6-20 20:32</span><br>
+<span>20m也高吗</span><br>
+<span>总占用1.6G。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1925530[0-50]</guid>
+    </item>
+  </channel>
+</rss>

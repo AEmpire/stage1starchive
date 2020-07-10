@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>bug10的USB驱动管理也太任性了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>bug10的USB驱动管理也太任性了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:28:13 +0000</lastBuildDate>
+    <item>
+      <title>bug10的USB驱动管理也太任性了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911727-1-1.html</link>
+      <description>bug10的USB驱动管理也太任性了&#13;
+我主板有个Asmedia的USB3.0扩展芯片，另外还插了个PCIE的USB3.0扩展卡，平常都是用Asmedia官方的驱动非常稳，然而Win10每次大更新都会把这两个设备的驱动换成微软签名的驱动，导致其在设备管理器显示黄色叹号，手动换回Asmedia的驱动就一切正常，阿三这蜜汁操作。。。。。。。</description>
+      <content:encoded><![CDATA[<p><b>netplaying: </b><br>
+<span>bug10的USB驱动管理也太任性了</span><br>
+<span>我主板有个Asmedia的USB3.0扩展芯片，另外还插了个PCIE的USB3.0扩展卡，平常都是用Asmedia官方的驱动非常稳，然而Win10每次大更新都会把这两个设备的驱动换成微软签名的驱动，导致其在设备管理器显示黄色叹号，手动换回Asmedia的驱动就一切正常，阿三这蜜汁操作。。。。。。。</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>有个更新不包括驱动程序的选项，网上搜搜看。</span><br>
+</p><p><b>http: </b><br>
+<span> 本帖最后由 http 于 2020-2-1 16:11 编辑 </span><br>
+<span>Win+R</span><br>
+<span>gpedit.msc</span><br>
+</p><p><b>GJ05: </b><br>
+<span>我电脑主板上有个VIA的USB3.0芯片，Win10一直自动下载的VIA驱动，看来是你的Win10日常抽风了</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>我想买个asm1042a的3.0扩展卡不知道性能如何</span><br>
+<span>一般主流的还是nec主控的vli和fl比较垃圾</span><br>
+<span>另外win10自带usb3.0驱动要比厂商驱动速度快你可以对比测试下</span><br>
+</p><p><b>netplaying: </b><br>
+<span>观铃の使魔 发表于 2020-2-1 21:40</span><br>
+<span>我想买个asm1042a的3.0扩展卡不知道性能如何</span><br>
+<span>一般主流的还是nec主控的vli和fl比较垃圾</span><br>
+<span>我倒是想试下，但是win10自带驱动一装所有连在hub和扩展卡上的设备都掉了啊。。。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911727[0-50]</guid>
+    </item>
+  </channel>
+</rss>

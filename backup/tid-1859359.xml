@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>阿里巴巴开发的某网课app被曝含超级用户权限后门</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>阿里巴巴开发的某网课app被曝含超级用户权限后门</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:42:00 +0000</lastBuildDate>
+    <item>
+      <title>阿里巴巴开发的某网课app被曝含超级用户权限后门[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859359-1-1.html</link>
+      <description>阿里巴巴开发的某网课app被曝含超级用户权限后门&#13;
+ 本帖最后由 四控大叔 于 2019-10-14 09:33 编辑 
+
+这里是PC区，因此本帖仅限技术讨论，请勿回复任何技术以外有争议内容，谢谢配合
+&#13;
+根据华盛顿邮报的报道，由网络媒体RFA旗下的野鸡组织开放科技基金会(the Open Technology Fund)将这款阿里巴巴开发的网课app交由德国的安全科技公司Cure53调查（根据我的搜索，关于这家安全公司的上一条新闻是指出了韩国政府一款帮助家长监控儿童的app代码含有巨大的安全隐患，因此韩国政府立马下架了该app），Cure35的技术人员在分析代码时（根据报道原文，他们没能获悉app代码的全部功能。你们也知道即使成功反编译，加上代码混淆，要做到完全理解代码是非常困难的），发现这款APP尝试获取用户root权限并执行shell代码。由于报道提供了Cure35公司的报告，我们可以深入看看这些代码：
+&#13;
+关于判断用户是否获取root权限的代码：
+&#13;
+/*包含在com/alibaba/lightapp/runtime/plugin/device/Base.java*/
+&#13;
+public static boolean isRoot() {
+&#13;
+    try {
+&#13;
+      if (new File("/system/bin/su").exists() || new File("/system/xbin/su").exists()) {      
+&#13;
+            return true;            
+&#13;
+      ｝
+&#13;
+/*包含在com/alipay/mobile/nebulacore/Nebula.java*/
+&#13;
+public static boolean isRooted() {
+&#13;
+[...]
+&#13;
+   try {
+&#13;
+   value = 
+&#13;
+      Class.forName("android.os.SystemProperties").getMethod("get", new Class[]{String.class}).invoke(null, new Object[]{"ro.secure"});      }
+&#13;
+      ...
+&#13;
+if (value != null &amp;&amp; "0".equals(value)) { 
+&#13;
+ret = true;      
+&#13;
+}
+&#13;
+..
+&#13;
+if (!ret) {            
+&#13;
+if (new File("/system/bin/su").exists()) {                
+&#13;
+    ret = true;            
+&#13;
+} else if (new File("/system/xbin/su").exists()) {                
+&#13;
+    ret = true;            }      
+&#13;
+}
+&#13;
+/*包含在com/aliyun/security/yunceng/android/sdk/umid/c.java*/
+&#13;
+private boolean b() { 
+&#13;
+    dex2jar9.b(dex2jar9.a() ? 1 : 0);      
+&#13;
+ String[] arr$ = {"/system/app/Superuser.apk", "/sbin/su", 
+&#13;
+"/system/bin/su", "/system/xbin/su", "/data/local/xbin/su", 
+&#13;
+"/data/local/bin/su", "/system/sd/xbin/su", "/system/bin/failsafe/su", 
+&#13;
+"/data/local/su", "/su/bin/su"};      
+&#13;
+    for (int i$ = 0; i$ &lt; 10; i$++) {            
+&#13;
+      if (new File(arr$).exists()) {                
+&#13;
+         return true;            } 
+&#13;
+      }      return false; 
+&#13;
+   }关于获取用户root权限并执行shell的代码：
+&#13;
+public class b {    
+&#13;
+    public C0160b f14354a = new C0160 b("sh"); 
+&#13;
+    public C0160b b = new C0160 b("su");
+&#13;
+....       
+&#13;
+      public Process a(String str) {            
+&#13;
+            dex2jar5.b(dex2jar5.a() ? 1 : 0);            
+&#13;
+            try {
+&#13;
+                /*The following operation assumes superuser privileges for commands to be executed.*/                
+&#13;
+               Process exec = Runtime.getRuntime().exec(this.b);
+&#13;
+                DataOutputStream dataOutputStream = new DataOutputStream(exec.getOutputStream());
+&#13;
+                new DataOutputStream(exec.getOutputStream());
+&#13;
+                /*The following operation appears to insert a string that should be executed on the filesystem.*/
+&#13;
+                dataOutputStream.writeBytes("exec " + str + "\n");
+&#13;
+                dataOutputStream.flush(); 
+&#13;
+                  return exec; 
+&#13;
+                } catch (Exception e) { 
+&#13;
+                  return null;            } 
+&#13;
+       }总结：
+&#13;
+[*]问：有石锤了没有？ 答：两个石锤，一是尝试得知用户是否获得了root权限，二是尝试执行代码"su"获取用户root权限并执行shell代码。
+&#13;
+[*]问：好像没有看到利用安卓漏洞来获取root权限的代码，我的手机又没有root，是不是安全的？ 答：我觉得很可能不，考虑到安卓用户主动root过后，软件尝试获取超级用户权限时是会弹提示的，阿里不可能直接向已root用户要权限。因此应该是有没发现的代码先利用安卓系统漏洞获取root权限。然后执行"su"命令。
+&#13;
+[*]问：苹果用户是不是没问题？ 答：没有组织分析过苹果的该app的package。苹果官方的说法是，在苹果商店上架的app是不可能包含有获取超级用户权限的代码的。但是这里始终建议越狱用户和低版本iOS用户保持警惕。
+&#13;
+[*]问：应该怎么做？ 答：安卓用户可以换pixel手机并始终保持系统最新，或者把这款网课软件安装在电脑虚拟机里。苹果用户应当始终保持系统最新。
+&#13;
+[*]问：这款app和钉钉这么像，钉钉会不会也。。。 答：钉钉相关人事否定了这种说法。我想应该交由用户自己判断。
+&#13;
+[*]问：原文please? 答：自己找吧
+&#13;
+[*]问：说了半天，到底是啥app？ 答：。。。。。。</description>
+      <content:encoded><![CDATA[<p><b>四控大叔: </b><br>
+<span>阿里巴巴开发的某网课app被曝含超级用户权限后门</span><br>
+<span> 本帖最后由 四控大叔 于 2019-10-14 09:33 编辑 </span><br>
+<span>这里是PC区，因此本帖仅限技术讨论，请勿回复任何技术以外有争议内容，谢谢配合</span><br>
+<span>根据华盛顿邮报的报道，由网络媒体RFA旗下的野鸡组织开放科技基金会(the Open Technology Fund)将这款阿里巴巴开发的网课app交由德国的安全科技公司Cure53调查（根据我的搜索，关于这家安全公司的上一条新闻是指出了韩国政府一款帮助家长监控儿童的app代码含有巨大的安全隐患，因此韩国政府立马下架了该app），Cure35的技术人员在分析代码时（根据报道原文，他们没能获悉app代码的全部功能。你们也知道即使成功反编译，加上代码混淆，要做到完全理解代码是非常困难的），发现这款APP尝试获取用户root权限并执行shell代码。由于报道提供了Cure35公司的报告，我们可以深入看看这些代码：</span><br>
+<span>关于判断用户是否获取root权限的代码：</span><br>
+<span>/*包含在com/alibaba/lightapp/runtime/plugin/device/Base.java*/</span><br>
+<span>public static boolean isRoot() {</span><br>
+<span>    try {</span><br>
+<span>      if (new File("/system/bin/su").exists() || new File("/system/xbin/su").exists()) {      </span><br>
+<span>            return true;            </span><br>
+<span>      ｝</span><br>
+<span>/*包含在com/alipay/mobile/nebulacore/Nebula.java*/</span><br>
+<span>public static boolean isRooted() {</span><br>
+<span>[...]</span><br>
+<span>   try {</span><br>
+<span>   value = </span><br>
+<span>      Class.forName("android.os.SystemProperties").getMethod("get", new Class[]{String.class}).invoke(null, new Object[]{"ro.secure"});      }</span><br>
+<span>      ...</span><br>
+<span>if (value != null && "0".equals(value)) { </span><br>
+<span>ret = true;      </span><br>
+<span>}</span><br>
+<span>..</span><br>
+<span>if (!ret) {            </span><br>
+<span>if (new File("/system/bin/su").exists()) {                </span><br>
+<span>    ret = true;            </span><br>
+<span>} else if (new File("/system/xbin/su").exists()) {                </span><br>
+<span>    ret = true;            }      </span><br>
+<span>}</span><br>
+<span>/*包含在com/aliyun/security/yunceng/android/sdk/umid/c.java*/</span><br>
+<span>private boolean b() { </span><br>
+<span>    dex2jar9.b(dex2jar9.a() ? 1 : 0);      </span><br>
+<span> String[] arr$ = {"/system/app/Superuser.apk", "/sbin/su", </span><br>
+<span>"/system/bin/su", "/system/xbin/su", "/data/local/xbin/su", </span><br>
+<span>"/data/local/bin/su", "/system/sd/xbin/su", "/system/bin/failsafe/su", </span><br>
+<span>"/data/local/su", "/su/bin/su"};      </span><br>
+<span>    for (int i$ = 0; i$ < 10; i$++) {            </span><br>
+<span>      if (new File(arr$).exists()) {                </span><br>
+<span>         return true;            } </span><br>
+<span>      }      return false; </span><br>
+<span>   }关于获取用户root权限并执行shell的代码：</span><br>
+<span>public class b {    </span><br>
+<span>    public C0160b f14354a = new C0160 b("sh"); </span><br>
+<span>    public C0160b b = new C0160 b("su");</span><br>
+<span>....       </span><br>
+<span>      public Process a(String str) {            </span><br>
+<span>            dex2jar5.b(dex2jar5.a() ? 1 : 0);            </span><br>
+<span>            try {</span><br>
+<span>                /*The following operation assumes superuser privileges for commands to be executed.*/                </span><br>
+<span>               Process exec = Runtime.getRuntime().exec(this.b);</span><br>
+<span>                DataOutputStream dataOutputStream = new DataOutputStream(exec.getOutputStream());</span><br>
+<span>                new DataOutputStream(exec.getOutputStream());</span><br>
+<span>                /*The following operation appears to insert a string that should be executed on the filesystem.*/</span><br>
+<span>                dataOutputStream.writeBytes("exec " + str + "\n");</span><br>
+<span>                dataOutputStream.flush(); </span><br>
+<span>                  return exec; </span><br>
+<span>                } catch (Exception e) { </span><br>
+<span>                  return null;            } </span><br>
+<span>       }总结：</span><br>
+<span>[*]问：有石锤了没有？ 答：两个石锤，一是尝试得知用户是否获得了root权限，二是尝试执行代码"su"获取用户root权限并执行shell代码。</span><br>
+<span>[*]问：好像没有看到利用安卓漏洞来获取root权限的代码，我的手机又没有root，是不是安全的？ 答：我觉得很可能不，考虑到安卓用户主动root过后，软件尝试获取超级用户权限时是会弹提示的，阿里不可能直接向已root用户要权限。因此应该是有没发现的代码先利用安卓系统漏洞获取root权限。然后执行"su"命令。</span><br>
+<span>[*]问：苹果用户是不是没问题？ 答：没有组织分析过苹果的该app的package。苹果官方的说法是，在苹果商店上架的app是不可能包含有获取超级用户权限的代码的。但是这里始终建议越狱用户和低版本iOS用户保持警惕。</span><br>
+<span>[*]问：应该怎么做？ 答：安卓用户可以换pixel手机并始终保持系统最新，或者把这款网课软件安装在电脑虚拟机里。苹果用户应当始终保持系统最新。</span><br>
+<span>[*]问：这款app和钉钉这么像，钉钉会不会也。。。 答：钉钉相关人事否定了这种说法。我想应该交由用户自己判断。</span><br>
+<span>[*]问：原文please? 答：自己找吧</span><br>
+<span>[*]问：说了半天，到底是啥app？ 答：。。。。。。</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>所以，root了的手机，装这个，会弹框要root权限么</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>咲月露娜 发表于 2019-10-14 09:32</span><br>
+<span>所以，root了的手机，装这个，会弹框要root权限么</span><br>
+<span>不可能这么蠢吧，所以很可能是有什么利用安卓漏洞的后门没有被发现</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>说了半天，到底是啥app？</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>呵呵，流氓软件嘛。。</span><br>
+</p><p><b>lhm123: </b><br>
+<span>我这边已经不需要登录考核也不刷分啦。   就像一阵风，眨眨眼，也就过去了。</span><br>
+</p><p><b>hecas: </b><br>
+<span>自己藏了一个root的办法</span><br>
+<span>牛啊</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>lhm123 发表于 2019-10-14 09:38</span><br>
+<span>我这边已经不需要登录考核也不刷分啦。   就像一阵风，眨眨眼，也就过去了。 ...</span><br>
+<span>恭喜恭喜呀，有空时候给可以手机刷个机，毕竟不确定那玩意儿给你手机留下了什么。</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>hecas 发表于 2019-10-14 09:40</span><br>
+<span>自己藏了一个root的办法</span><br>
+<span>牛啊</span><br>
+<span>安卓手机版本分裂严重，利用老版本的已知漏洞写一段root代码，凭阿里巴巴的实力应该是做得到的</span><br>
+</p><p><b>银光闪耀: </b><br>
+<span>阿里一直是国内流氓top1吧</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>四控大叔 发表于 2019-10-14 09:34</span><br>
+<span>不可能这么蠢吧，所以很可能是有什么利用安卓漏洞的后门没有被发现</span><br>
+<span>安卓0day漏洞用到几百万人身上太浪费了点哟，直接在国产ROM里放后门更划算吧</span><br>
+</p><p><b>whatd: </b><br>
+<span> 本帖最后由 whatd 于 2019-10-14 10:09 编辑 </span><br>
+<span>四控大叔 发表于 2019-10-14 09:42</span><br>
+<span>恭喜恭喜呀，有空时候给可以手机刷个机，毕竟不确定那玩意儿给你手机留下了什么。 ...</span><br>
+<span>昨天看报道的时候还没注意看这货还要root，还以为是流氓一贯的各种权限，说执行了什么？</span><br>
+<span>话说那么多人想ROOT都没成功的那些系统是不是没问题。</span><br>
+<span>还是真像LS说的这货里面藏了谁都不知道的root方法。</span><br>
+</p><p><b>fukc: </b><br>
+<span> 本帖最后由 fukc 于 2019-10-14 10:10 编辑 </span><br>
+<span>我就说一点吧，昨天发现地理位置是不能选择关闭的，选了也会跳回询问，其他的app没有发现有这个问题</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>咲月露娜 发表于 2019-10-14 09:47</span><br>
+<span>安卓0day漏洞用到几百万人身上太浪费了点哟，直接在国产ROM里放后门更划算吧 ...</span><br>
+<span>那这些手机厂商在国外还卖不卖了，哪怕只针对国内版的rom，被发现了的话对商誉也是毁灭性的</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>咲月露娜 发表于 2019-10-14 09:47</span><br>
+<span>安卓0day漏洞用到几百万人身上太浪费了点哟，直接在国产ROM里放后门更划算吧 ...</span><br>
+<span>而且不一定要0day啊，利用已知漏洞对付大部分老版本安卓完全够了。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>换pixel是什么东西…</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859359[0-50]</guid>
+    </item>
+  </channel>
+</rss>

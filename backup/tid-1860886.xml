@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>那些分区助手到系统迁徙功能靠谱吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>那些分区助手到系统迁徙功能靠谱吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:32:22 +0000</lastBuildDate>
+    <item>
+      <title>那些分区助手到系统迁徙功能靠谱吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860886-1-1.html</link>
+      <description>那些分区助手到系统迁徙功能靠谱吗？&#13;
+打算换个固态，然后搜了一下系统迁徙，好像不是很靠谱啊……很多人都迁徙完了之后新的固态上启动不了系统，是不是还是在固态上直接装新系统是唯一靠谱的手段？
+&#13;
+另外……970pro靠谱吗？准备直接上1t的</description>
+      <content:encoded><![CDATA[<p><b>武蔵: </b><br>
+<span>那些分区助手到系统迁徙功能靠谱吗？</span><br>
+<span>打算换个固态，然后搜了一下系统迁徙，好像不是很靠谱啊……很多人都迁徙完了之后新的固态上启动不了系统，是不是还是在固态上直接装新系统是唯一靠谱的手段？</span><br>
+<span>另外……970pro靠谱吗？准备直接上1t的</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>两手准备，你先迁移一下试试，不行就重装。另外我只用过一次，一切正常</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>用过傲梅轻松备份</span><br>
+<span>可以</span><br>
+<span>当然要是有原厂软件，那就更好了</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>我用过几次，有一次启动分区迁移出错了，其他几次还好</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>今年用过两次pe版傲梅都成功了，一次往西数蓝盘迁，一次往mx500迁</span><br>
+</p><p><b>冰凌火焰: </b><br>
+<span>两手准备呗，反正我用这些助手迁移了几次还都没失败过，往上翻车的案例也挺多的。</span><br>
+</p><p><b>libratest: </b><br>
+<span>用过2次，都成功了</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>三星家的就行，虽然我是每次都直接重装</span><br>
+</p><p><b>騜: </b><br>
+<span>傲梅的迁移过两次</span><br>
+<span>启动不了基本上都是分区表和启动模式的问题，对小白来说当然是翻车了</span><br>
+</p><p><b>武蔵: </b><br>
+<span>騜 发表于 2019-10-23 11:00</span><br>
+<span>傲梅的迁移过两次</span><br>
+<span>启动不了基本上都是分区表和启动模式的问题，对小白来说当然是翻车了 ...</span><br>
+<span>能说一说吗？</span><br>
+</p><p><b>yjmy705: </b><br>
+<span>靠谱，笔记本和台式机都用过，hdd到sata ssd到pcie ssd都成功了。启动不了可以作一个老毛桃u盘进pe，里面有个引导修复点一下就好了。</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-10-23 11:19 编辑 </span><br>
+<span>武蔵 发表于 2019-10-23 11:06</span><br>
+<span>能说一说吗？</span><br>
+<span>根据主板新旧来看的，UEFI启动的设置一下启动顺序就行了，但是很多老主板还是legacy启动的，不改模式就翻车了</span><br>
+<span>https://www.disktool.cn/jiaocheng/ssd-system-migrtation.html</span><br>
+<span>这是教程，最后一句话</span><br>
+<span>需要设置电脑的引导顺序：你可以将固态硬盘做作第一个启动盘，通常您可以查看主板说明书或电脑的说明找到怎么在BIOS设置电脑硬盘引导顺序。</span><br>
+<span>至于怎么设置 我记得B站UP 90后科技说还是说科技做过一期系统启动的详解，适合新手看</span><br>
+</p><p><b>nb33: </b><br>
+<span>可以用，UEFI启动的基本不会出问题，最多开PE修复一下启动项</span><br>
+</p><p><b>hein: </b><br>
+<span>我比较蠢，用的Paragon Hard Disk Manager，直接复制的硬盘，然后关机把原来系统盘的线插到新盘上收工。</span><br>
+<span>问问傲梅的操作是什么样的，我记得很久以前用过一次傲梅，选好了重启它自己进了一个dos界面，跑了很久然后报错，不知道哪里选错了。</span><br>
+</p><p><b>zqcawzs: </b><br>
+<span>用过几次傲梅，都没什么问题。不过没有跑过benchmark看性能有没有降低。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>武蔵: </b><br>
+<span>騜 发表于 2019-10-23 11:15</span><br>
+<span>根据主板新旧来看的，UEFI启动的设置一下启动顺序就行了，但是很多老主板还是legacy启动的，不改模式就翻 ...</span><br>
+<span>我现在老机械盘上是cd两个盘符，我如果用分区助手迁徙系统，固态是不是全部空间都选中，完成后新的固态上就只有一个盘符，里面是原来机械盘c盘的内容</span><br>
+<span>我这样理解对吗？</span><br>
+</p><p><b>lhm123: </b><br>
+<span>几个月前，用分区助手将系统从sata盘迁移到pcie接口的900p，还顺带调整了C分区大小。目前使用正常。</span><br>
+</p><p><b>騜: </b><br>
+<span>武蔵 发表于 2019-10-23 11:58</span><br>
+<span>我现在老机械盘上是cd两个盘符，我如果用分区助手迁徙系统，固态是不是全部空间都选中，完成后新的固态上 ...</span><br>
+<span>对的</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>citrus: </b><br>
+<span>gparted + clonezilla，随便弄个ubuntu live cd，apt-get一下就有，迁windows和linux都从未翻车</span><br>
+<span>如果新盘空间大于等于旧盘，直接disk to disk克隆，然后重启进系统，把分区扩张到整盘大小就行了</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>买三星就用三星的好了</span><br>
+</p><p><b>武蔵: </b><br>
+<span>typeunknown 发表于 2019-10-23 13:33</span><br>
+<span>买三星就用三星的好了</span><br>
+<span>samsung date migration</span><br>
+<span>是叫这个吗</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-10-22 22:51 编辑 </span><br>
+<span>Acronis True Image</span><br>
+<span>数码区应该人手一份</span><br>
+<span>https://pan.baidu.com/s/11Kqg-GZK2NFrAGLgxcvNkQ</span><br>
+<span>安装见文本说明，可以在启动时备份或迁移，好的SSD两分钟搞定</span><br>
+<span>现在PE没什么卵用了，系统自带RE，而且有AcronisTrueImage这类，工具箱都直接可以作类似PE的启动盘</span><br>
+<span>去用户文件夹把文图音视下游云桌等八大文件夹全部右键属性挪到非系统盘，所有软件缓存目录和你的数据都按这八大目录归类，</span><br>
+<span>然后所有软件装到系统盘，用系统自带清理勾上清理系统文件弄一遍在用上面这类软件备份，可在当前系统下备份，再搜教程做一个双分区U盘启动即可</span><br>
+<span>这样出问题直接重装也不用折腾，一般病毒不会感染数据，有病毒要去动数据而非系统软件文件的，你用PE也救不了</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-10-22 22:48 编辑 </span><br>
+<span>启动不了还是没搞对底层基本引导概念造成的</span><br>
+<span>第一 要看固件是legacy启动还是UEFI</span><br>
+<span>第二 要区分GPT或MBR分区表</span><br>
+<span>第三 如果是MBR，系统所在盘区要设为活动分区</span><br>
+<span>第四 备份或迁移打包分区分区时没有正确的选择包含项目，如源头有分开若干启动扇区没一起带入等</span><br>
+<span>通常备份或转移系统推荐基于文件的Dism打包WIM或Acronis等，基于部分扇区或克隆整个逻辑扇区的出错几率要高一些</span><br>
+</p><p><b>macos: </b><br>
+<span>天神十三煞 发表于 2019-10-23 14:46</span><br>
+<span>启动不了还是没搞对底层基本引导概念造成的</span><br>
+<span>第一 要看固件是legacy启动还是UEFI</span><br>
+<span>第二 要区分GPT或MBR分区表 ...</span><br>
+<span>旧式才需要启动扇区，包括mbr和pbr，uefi后不需要，纯文件</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span> 本帖最后由 天神十三煞 于 2019-10-22 23:00 编辑 </span><br>
+<span>macos 发表于 2019-10-22 22:56</span><br>
+<span>旧式才需要启动扇区，包括mbr和pbr，uefi后不需要，纯文件</span><br>
+<span>我当然知道</span><br>
+<span>我说的可能情况就指旧式的，注意1234是逐渐项目排除的，并不是全概指</span><br>
+</p><p><b>macos: </b><br>
+<span>对于4k对齐来说，不建议使用旧技术，例如win7，例如逻辑分区，这些都很可能阻碍对齐甚至原生，哪一代的技术都是用于他的时代更好</span><br>
+</p><p><b>mhss: </b><br>
+<span>如果盘下只有一个分区基本没问题，但若是有多个分区可能会有点麻烦</span><br>
+<span>我的SSD本来分了2个区，返修将数据迁移到机械硬盘后系统分区没问题，软件分区里的东西用还是能用，但是很多关联和设置全毁了，所以等到双十一买块新SSD重装系统时就不打算分区了</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>武蔵: </b><br>
+<span>固态肯定不分了呀，主要我老的机械是分了，如果直接硬盘对拷会把固态也变成有分区的吧？</span><br>
+</p><p><b>mhss: </b><br>
+<span>武蔵 发表于 2019-10-23 15:48</span><br>
+<span>固态肯定不分了呀，主要我老的机械是分了，如果直接硬盘对拷会把固态也变成有分区的吧？ ...</span><br>
+<span>原硬盘多分区还是建议备份数据后在新硬盘直接重装算了，出了问题麻烦（除非你不在意非系统分区里的东西）。</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860886[0-50]</guid>
+    </item>
+  </channel>
+</rss>

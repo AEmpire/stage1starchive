@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一个找不到引导盘的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一个找不到引导盘的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:41:56 +0000</lastBuildDate>
+    <item>
+      <title>请教一个找不到引导盘的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868345-1-1.html</link>
+      <description>请教一个找不到引导盘的问题&#13;
+平时用完电脑关机后会关掉插线板的开关，一直运行正常；
+&#13;
+最近因为要挂着笔记本下载，笔记本电源连着同一个插线板上，所以会一直不关开关，然后就发现电脑关机后几个小时再开机会找不到引导盘，具体表现是开机自检后黑屏一段时间，然后自动开启bios界面，其中列举的启动顺序里首位本应该是我的系统盘但是看不见，可以主动选择系统盘引导但是会继续黑屏回到bios界面。临时方案是直接按机箱电源键关机，然后重开就正常开机了。
+&#13;
+现在比较担心是电源/系统盘有问题，所以问一下后续要怎么排查问题？
+&#13;
+主板 华硕B150PROGAME
+&#13;
+电源 海韵M12II-520W
+&#13;
+系统盘 西数的500G NVMe黑盘</description>
+      <content:encoded><![CDATA[<p><b>xzk0916: </b><br>
+<span>请教一个找不到引导盘的问题</span><br>
+<span>平时用完电脑关机后会关掉插线板的开关，一直运行正常；</span><br>
+<span>最近因为要挂着笔记本下载，笔记本电源连着同一个插线板上，所以会一直不关开关，然后就发现电脑关机后几个小时再开机会找不到引导盘，具体表现是开机自检后黑屏一段时间，然后自动开启bios界面，其中列举的启动顺序里首位本应该是我的系统盘但是看不见，可以主动选择系统盘引导但是会继续黑屏回到bios界面。临时方案是直接按机箱电源键关机，然后重开就正常开机了。</span><br>
+<span>现在比较担心是电源/系统盘有问题，所以问一下后续要怎么排查问题？</span><br>
+<span>主板 华硕B150PROGAME</span><br>
+<span>电源 海韵M12II-520W</span><br>
+<span>系统盘 西数的500G NVMe黑盘</span><br>
+</p><p><b>沙恩: </b><br>
+<span>快速启动？</span><br>
+<span>不是快速启动的话冷启动不认盘一般都无解的</span><br>
+</p><p><b>gaiden: </b><br>
+<span>盘问题居多吧，我之前有个盘是过热蓝屏掉盘一段时间，质保后好了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>braverbt: </b><br>
+<span>不认盘可能要走质保了...</span><br>
+<span>建议还是尽快保修/替换比较好.</span><br>
+<span>当然也可以把盘拆了擦擦金手指假装维修一下(谁知道有没有用呢</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>braverbt 发表于 2019-11-28 14:23</span><br>
+<span>不认盘可能要走质保了...</span><br>
+<span>建议还是尽快保修/替换比较好.</span><br>
+<span>是系统盘需要质保吗，因为我感觉只要断电就没问题会比较像电源问题</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>braverbt: </b><br>
+<span>xzk0916 发表于 2019-11-28 15:00</span><br>
+<span>是系统盘需要质保吗，因为我感觉只要断电就没问题会比较像电源问题</span><br>
+<span>—— 来自 Sony J9110, Andro ...</span><br>
+<span>对,因为你提到了开机黑屏一大会,并且bios都不认盘.</span><br>
+<span>nvme的盘这个情况还挺高发的,具体和型号有关.</span><br>
+<span>总之质保内一般是只换不修,应该尽快更换.</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我这暗影精灵也有类似问题，蓝屏后不认</span><br>
+<span>给出的解决方法是拔掉所有usb设备</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>总之先申请硬盘质保了，打算先把系统盘备份到HDD里，同时把所有数据镜像到一块老旧的 常年通电下载的 500g笔记本硬盘临时当系统盘用来避免分区问题，有什么好用的工具可以介绍一下吗</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>克隆用西数自带的管理工具吧</span><br>
+</p><p><b>xzk0916: </b><br>
+<span>madbird302 发表于 2019-11-28 19:20</span><br>
+<span>克隆用西数自带的管理工具吧</span><br>
+<span>是Western Digital SSD Dashboard吗</span><br>
+<span>里面有个Acronis，点了是另外下载一个软件</span><br>
+</p><p><b>madbird302: </b><br>
+<span>xzk0916 发表于 2019-11-29 00:05</span><br>
+<span>是Western Digital SSD Dashboard吗</span><br>
+<span>里面有个Acronis，点了是另外下载一个软件</span><br>
+<span>就是acronis true image</span><br>
+</p><p><b>xzk0916: </b><br>
+<span> 本帖最后由 xzk0916 于 2019-12-3 22:15 编辑 </span><br>
+<span>madbird302 发表于 2019-11-29 00:52</span><br>
+<span>就是acronis true image</span><br>
+<span>jd换新了一个SN750，但是acronis true image不认他是西数盘不启动</span><br>
+<span>——————</span><br>
+<span>妥了，一开始启动不起来，进了安全模式才不认，再次重启后能正常进桌面就可以恢复备份了，感谢指路</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868345[0-50]</guid>
+    </item>
+  </channel>
+</rss>

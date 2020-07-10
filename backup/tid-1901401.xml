@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>怎么写好代码</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>怎么写好代码</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:36:24 +0000</lastBuildDate>
+    <item>
+      <title>怎么写好代码[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901401-1-1.html</link>
+      <description>怎么写好代码&#13;
+楼主非码农，只是工作原因，在学习python，写了一个小工具(快好了！)
+&#13;
+但是写完回去看代码，感觉很糟糕，主要是流程很乱，
+&#13;
+所以，有没有书，可以教人怎么把代码写好，求推荐~</description>
+      <content:encoded><![CDATA[<p><b>碎月: </b><br>
+<span>想太多写太少，都是空中楼阁 竹篮打水</span><br>
+</p><p><b>jctc: </b><br>
+<span>python这坨屎怎么写都是垃圾</span><br>
+<span>kotlin多好</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>多看好代码的确帮助最大，因为不看你根本不知道还能这么写。另外脚本语言的确很容易诱拐人犯罪，因为可以随便写所以真的很多人随便写写。JS，lua都是这样。建议学一门强类型语言领会下设计精神。</span><br>
+</p><p><b>maximdx: </b><br>
+<span>《代码整洁之道》一定要读，最好是边实践边读，这样你会发现你平时代码中的不良习惯，然后加以改正，这样印象深刻。</span><br>
+</p><p><b>有点追求: </b><br>
+<span>没什么经验基本上不可能第一遍就写出好代码，就算是有经验基本上也就那样。</span><br>
+<span>第一遍现面向结果编程，以完成功能为主。完成功能之后写几个单元测试和集成测试，接下来就是重构。变量名，注释，重用，能改全改了。然后回顾整个项目，有通用逻辑的封装一遍。至于什么拓展接口之类除非是像支付之类肯定会改动的别管他。等需要的时候再动。</span><br>
+</p><p><b>ColdHumour: </b><br>
+<span>上量，多想，反复重构，学习先进写法，当你写到十万行二十万行的时候很多东西就不言自明了</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>糊状物 发表于 2019-12-11 21:56</span><br>
+<span>个人写工作小工具的经验就是....需求多了，就明白工具间有没有共性，有共性就抽空整理一个工具包，没有就 ...</span><br>
+<span>从零写能写的很好看，最大的难处是在给屎山上改造和做插件，点名虚幻四</span><br>
+</p><p><b>腹黑眼镜: </b><br>
+<span>早上摸鱼终于把工具完成了！</span><br>
+<span>虽然有两个莫名奇妙的bug，但不影响功能所以暂时不管了</span><br>
+<span>谢谢大家的建议，我先从注释开始吧，</span><br>
+<span>因为写这个工具的时候一句注释也没有。到后来要知道输出什么的时候全靠print</span><br>
+</p><p><b>DolphinAlpha: </b><br>
+<span>学习写得好的代码。可以先从数据结构算法开始看</span><br>
+</p><p><b>KafuuEriri: </b><br>
+<span>自己写怎么都好整理，帮别人擦屁股就知道这么写要维护多么糟糕。所以多看看一些现有开源项目的源代码，想想别人为什么要用这些的结构，顺便搜下代码规范</span><br>
+</p><p><b>夏胧: </b><br>
+<span>写完都这样，有时间就改一遍</span><br>
+<span>没时间就由他去吧</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>看不透的人生: </b><br>
+<span>可以先理清楚怎么写，其次就是多看写的好的代码</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901401[50-100]</guid>
+    </item>
+    <item>
+      <title>怎么写好代码[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901401-1-1.html</link>
+      <description>怎么写好代码&#13;
+楼主非码农，只是工作原因，在学习python，写了一个小工具(快好了！)
+&#13;
+但是写完回去看代码，感觉很糟糕，主要是流程很乱，
+&#13;
+所以，有没有书，可以教人怎么把代码写好，求推荐~</description>
+      <content:encoded><![CDATA[<p><b>腹黑眼镜: </b><br>
+<span>怎么写好代码</span><br>
+<span>楼主非码农，只是工作原因，在学习python，写了一个小工具(快好了！)</span><br>
+<span>但是写完回去看代码，感觉很糟糕，主要是流程很乱，</span><br>
+<span>所以，有没有书，可以教人怎么把代码写好，求推荐~</span><br>
+</p><p><b>naihs: </b><br>
+<span>多看高手写的，模仿写法，多想想人家为什么这么写。</span><br>
+</p><p><b>nuclearg: </b><br>
+<span>你都不是码农为什么要追求代码整洁好看，能做到这点的已经超越了码农的领域，可以被尊称为程序员了</span><br>
+</p><p><b>dola321: </b><br>
+<span>多看，多写</span><br>
+</p><p><b>野生菌: </b><br>
+<span>nuclearg 发表于 2019-12-11 18:39</span><br>
+<span>你都不是码农为什么要追求代码整洁好看，能做到这点的已经超越了码农的领域，可以被尊称为程序员了 ...</span><br>
+<span>是这样的</span><br>
+</p><p><b>naihs: </b><br>
+<span>多看看语言自带的基础类，工具类的实现，很多实现都是简单而牛逼</span><br>
+</p><p><b>费老师: </b><br>
+<span>贴个照片</span><br>
+</p><p><b>pyjq: </b><br>
+<span>就跟写文章一样多写多看</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>有时候写出来乱只是因为不知道有更简洁的写法</span><br>
+<span>譬如泥潭用 Py 解初中数学题的 Python 侠，只会写一堆 if ... elif ...</span><br>
+</p><p><b>冬眠的龙凰: </b><br>
+<span>码农并不是把代码流程都写的很清楚</span><br>
+<span>而是我们都习惯了</span><br>
+</p><p><b>ieahgiergn: </b><br>
+<span>写注释是好文明</span><br>
+</p><p><b>记忆消失: </b><br>
+<span>没必要。码农要把代码写清楚是因为项目需要维护，是因为自己某一天可能要帮自己（或者别人）的工作擦屁股。你不是码农当然怎么爽怎么来。</span><br>
+</p><p><b>東京急行: </b><br>
+<span>可以把代码贴出来一起讨论吖</span><br>
+</p><p><b>starrlit: </b><br>
+<span>可以看看Google代码风格指南</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>guoe: </b><br>
+<span>多写吧，尽量用简单的语句写出来，太高深的方法普通人看不懂 </span><br>
+</p><p><b>aithinkso: </b><br>
+<span>编程风格：好代码的逻辑</span><br>
+<span>这本书正好是以python为例的，可以看看</span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>treexper: </b><br>
+<span>你自己写小工具何必管这些。不参与协作的工程就自由一点。装个pycharm，把里面的所有黄线解决了基本上基础的规约就遵守了。</span><br>
+</p><p><b>zxlice: </b><br>
+<span> 本帖最后由 zxlice 于 2019-12-11 19:02 编辑 </span><br>
+<span>design pattern</span><br>
+<span>refactor</span><br>
+<span>clean code</span><br>
+<span>有点设计就不会很乱，随便翻翻呗</span><br>
+<span>再来点什么AOP DI的框架，也可以让你代码组织得更好</span><br>
+<span>python写小工具的话，注释认真写就差不多了</span><br>
+</p><p><b>kumh: </b><br>
+<span>就赌下一个维护的不是我，随便怎么写，跑的正常就OK。</span><br>
+</p><p><b>naiveyan: </b><br>
+<span>google的各种指南有pycharm插件么？java有个福报的，python我就知道个原生的pep8</span><br>
+</p><p><b>metaphias: </b><br>
+<span>泥潭标配 SICP</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>既然你自己都看出问题 了，下一次规避就是了，千万另信学什么就能一步到位好起来，不存在的。</span><br>
+<span>亏得自己吃，坑得自己跳</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>没什么高深的，装个美化器，按提示改</span><br>
+<span>我个人用的是flake8</span><br>
+</p><p><b>Hieda: </b><br>
+<span>多看，多学，多写</span><br>
+<span>还有就是换个语言</span><br>
+</p><p><b>佐塚間桐: </b><br>
+<span>把所有功能放在一个函数里面。简洁，快捷</span><br>
+</p><p><b>当光停止: </b><br>
+<span>google ctrl c+v（我认真的）</span><br>
+</p><p><b>nexus1: </b><br>
+<span>初学时曾经把30行改成5行的循环了,爽爆</span><br>
+</p><p><b>soulogic: </b><br>
+<span>有本书叫《代码大全》，不要被厚度吓到，里面讲的问题都特别基本</span><br>
+<span>我觉得这辈子要写超过一千行代码的人都应该看看</span><br>
+<span>当然了，我也见过有好多年经验的职业码农也没看过这书，代码一眼望去全是书里的反面教材</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>我觉得要写好看还需要两个前置条件：代码的业务逻辑复杂到一定程度（共性特性得到充分表达以便区分），需求开始稳定（不然施展一套工程化样板戏马上又要拆了）</span><br>
+<span>临时写的个人小工具总是处于一个很尴尬的状态。</span><br>
+</p><p><b>糊状物: </b><br>
+<span>whzfjk 发表于 2019-12-11 21:44</span><br>
+<span>我觉得要写好看还需要两个前置条件：代码的业务逻辑复杂到一定程度（共性特性得到充分表达以便区分），需求 ...</span><br>
+<span>个人写工作小工具的经验就是....需求多了，就明白工具间有没有共性，有共性就抽空整理一个工具包，没有就共性就继续随便写就行了，偶然写点注释就行了。</span><br>
+<span>重要的是多看点python语法，以及多上网找好用的轮子，毕竟轮子多才是python的优势。</span><br>
+</p><p><b>剑起苍斓: </b><br>
+<span>说起来阿里的那个Java规范也是一言难尽，拿去扫git上阿里开源的项目也是扫出来一堆</span><br>
+</p><p><b>zhao25: </b><br>
+<span>我最近也是在自己写一点小工具。然后看自己函数，类什么的，也是怎么看怎么变扭。应该怎么划分他们好，怎么才可以以后复用方便，一头雾水</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.0</span><br>
+</p><p><b>小修: </b><br>
+<span>一个人写写成茄味都无所谓，人多了。花括号能打起来。</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>随缘，缘分到了自然就好了</span><br>
+<span>毕竟能跑通就不错了</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>Timme: </b><br>
+<span>python写出来就是很乱的，自己的代码自己看不下去。</span><br>
+</p><p><b>cloverqi: </b><br>
+<span>关键地方写上注释</span><br>
+<span>只要代码能跑起来，整洁不整洁都无所谓了，反正又不会有人审查</span><br>
+</p><p><b>zfz4869: </b><br>
+<span>经验的积累决定一切</span><br>
+</p><p><b>糊状物: </b><br>
+<span>zhao25 发表于 2019-12-11 21:58</span><br>
+<span>我最近也是在自己写一点小工具。然后看自己函数，类什么的，也是怎么看怎么变扭。应该怎么划分他们好，怎么 ...</span><br>
+<span>开始时别写类，就写一个一个小函数就好了，重要的是函数名你能记得分别是什么用途，而现在python现在支持中文函数名.....</span><br>
+</p><p><b>Dreamophobia: </b><br>
+<span>先面向deadline编程，干不完活说什么都没用</span><br>
+<span>有空的时候不要上S1摸鱼，看看名气大的轮子的源码，学点好习惯</span><br>
+<span>然后检查一下自己赶工写了多少脱裤子放屁的代码，想想怎么抽象，多重构</span><br>
+</p><p><b>keenkiller: </b><br>
+<span>没人说我先来：女留微信男自强，噗</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>写小工具就别研究设计模式了，设计来设计去徒增行数没什么卵用</span><br>
+</p><p><b>噂の船: </b><br>
+<span>我想问一个更细节的问题，怎么写好规范的注释？kotlin&java</span><br>
+<span>我很羡慕别人一块一块干净的注释，我一来英语不好，二来也不知道哪里可以看类似的guide教你怎么写</span><br>
+</p><p><b>nuclearg: </b><br>
+<span>噂の船 发表于 2019-12-11 23:31</span><br>
+<span>我想问一个更细节的问题，怎么写好规范的注释？kotlin&java</span><br>
+<span>我很羡慕别人一块一块干净的注释，我一来英语不 ...</span><br>
+<span>先把自动生成的javadoc补全了就会有人说你注释写的好了</span><br>
+<span>另外为什么要用英语</span><br>
+</p><p><b>zhao25: </b><br>
+<span>糊状物 发表于 2019-12-11 22:33</span><br>
+<span>开始时别写类，就写一个一个小函数就好了，重要的是函数名你能记得分别是什么用途，而现在python现在支持 ...</span><br>
+<span>喷了，是几开始的我要去看看。。。。</span><br>
+<span>我有起名困难症。。。</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.1.0</span><br>
+</p><p><b>fat: </b><br>
+<span>能用就行！</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>术业有专攻</span><br>
+<span>业余写程序本来也就是为了提高生产效率，又不是专门干这个</span><br>
+<span>真的业务规模大到那个程度的时候招两个码农推倒重写就好了</span><br>
+<span>既然能写出能跑的代码，和他们沟通逻辑应该没啥大问题</span><br>
+</p><p><b>VLDB: </b><br>
+<span>多看多学多码</span><br>
+<span>自己的toycase完全无所谓</span><br>
+</p><p><b>糊状物: </b><br>
+<span>zhao25 发表于 2019-12-11 23:53</span><br>
+<span>喷了，是几开始的我要去看看。。。。</span><br>
+<span>我有起名困难症。。。</span><br>
+<span>好像python3都支持吧？我的是py3.7</span><br>
+</p><p><b>SICP: </b><br>
+<span>metaphias 发表于 2019-12-11 19:10</span><br>
+<span>泥潭标配 SICP</span><br>
+<span>谢谢你</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>怎么写好代码 X</span><br>
+<span>怎么做好设计 O</span><br>
+<span>从软件工程开始学吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901401[0-50]</guid>
+    </item>
+  </channel>
+</rss>

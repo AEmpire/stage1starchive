@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>绿联PD充电器给LG GRAM充电【经常断连】是怎么回事</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>绿联PD充电器给LG GRAM充电【经常断连】是怎么回事</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:35:20 +0000</lastBuildDate>
+    <item>
+      <title>绿联PD充电器给LG GRAM充电【经常断连】是怎么回事[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822174-1-1.html</link>
+      <description>绿联PD充电器给LG GRAM充电【经常断连】是怎么回事&#13;
+办公地点比较多，手头几个PD充电器就直接分散放不同办公室
+&#13;
+小米65w直接导致LG GRAM降频，这个关注GRAM的估计都知道了，没辙
+&#13;
+然后另外一个24w的充起来，也行，就是慢
+&#13;
+然后翻到一个绿联30w的PD充电器，充电速度还成，但是隔几分钟断一次，然后自动继续充，然后隔几分钟再断。
+&#13;
+观察了一下，貌似是40%电量以上，就会频繁出现。
+&#13;
+这些充电器充手机是没问题的
+&#13;
+那是PD充电器也有什么兼容性之类的说法吗？？？是本子的锅还是充电器的锅？？
+&#13;
+请教，感谢。</description>
+      <content:encoded><![CDATA[<p><b>哼哈二将: </b><br>
+<span>绿联PD充电器给LG GRAM充电【经常断连】是怎么回事</span><br>
+<span>办公地点比较多，手头几个PD充电器就直接分散放不同办公室</span><br>
+<span>小米65w直接导致LG GRAM降频，这个关注GRAM的估计都知道了，没辙</span><br>
+<span>然后另外一个24w的充起来，也行，就是慢</span><br>
+<span>然后翻到一个绿联30w的PD充电器，充电速度还成，但是隔几分钟断一次，然后自动继续充，然后隔几分钟再断。</span><br>
+<span>观察了一下，貌似是40%电量以上，就会频繁出现。</span><br>
+<span>这些充电器充手机是没问题的</span><br>
+<span>那是PD充电器也有什么兼容性之类的说法吗？？？是本子的锅还是充电器的锅？？</span><br>
+<span>请教，感谢。</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>功率不够吧</span><br>
+<span>我用的PD充电器上还有几个USB可以给手机充电</span><br>
+<span>我单独充笔记本没事， 但是插个手机一起充电，笔记本充电就有可能会断……</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>功率太小被取电设备拉保护了，取电方的问题</span><br>
+</p><p><b>哼哈二将: </b><br>
+<span>zatsuza 发表于 2019-4-5 22:37</span><br>
+<span>功率太小被取电设备拉保护了，取电方的问题</span><br>
+<span>但是比这个PD头功率更小的22w那只也没有出现过断连问题啊。。。</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>我猜一下原因，PD也分不同电压档位的，所以你检查一下是不是绿联这个电压档位没有20V1.5A，笔记本用这个档位的不少。</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>卡片魔法师: </b><br>
+<span>pd要2.0才能接笔记本</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>真不知道LG 怎么多事，我的TP测下来 5V3A的供电就可以了，随便什么电压/功率档位都吃</span><br>
+</p><p><b>金戈画角: </b><br>
+<span>借楼问下口红电源会降频吗，也是65W的</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>pd的各种协议握手出问题</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>LG屁事真多，会不会做电脑</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>哼哈二将 发表于 2019-4-5 22:49</span><br>
+<span>但是比这个PD头功率更小的22w那只也没有出现过断连问题啊。。。</span><br>
+<span>识别max current有问题吧大概</span><br>
+<span>— from Essential Products PH-1, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>国产pd充电器很多都有兼容性问题，因为只有几个特定电压，很多都缺20v/15v，也有缺9v的，要是5v 9v 12v 15v 20v全覆盖的pd充电器，大概率就不会出兼容性问题了。</span><br>
+<span>lg gram 作为pd laptop，受电其实要20v 2.25a-3.25a才正常，输出时倒是可以5v9v输出，可能内部设计时用料不支持高电流，温度高了之后就自动降档了</span><br>
+</p><p><b>哼哈二将: </b><br>
+<span>我决定先凑合用着手头的这几个</span><br>
+<span>先不买新的PD充电器了</span><br>
+</p><p><b>sirlion: </b><br>
+<span>pd 30w那个单c的好像没有12v，只有5 9 15 20v，可能正好是切换到12v的时候发现没有这个协议所以断开重新从高功率的15v开始充？</span><br>
+</p><p><b>哼哈二将: </b><br>
+<span>sirlion 发表于 2019-4-7 17:11</span><br>
+<span>pd 30w那个单c的好像没有12v，只有5 9 15 20v，可能正好是切换到12v的时候发现没有这个协议所以断开重新从 ...</span><br>
+<span>你说的没错，没有12v</span><br>
+<span>这个充电器神奇的地方在于40%之前是没问题的，充满后也是没问题的</span><br>
+<span>但是40~60%的时候几乎是几秒钟断连一次，然后几秒钟后再次连上</span><br>
+<span>如果屏幕亮度设置不一样的话，充电与否就会频繁在变暗变亮之间反复切换，好烦人。</span><br>
+</p><p><b>紫吹兰: </b><br>
+<span> 本帖最后由 紫吹兰 于 2019-5-30 11:42 编辑 </span><br>
+<span>https://www.chiphell.com/thread-1964523-1-1.html</span><br>
+<span>CHH有从韩国官网找的新bios，支持65w dp了，lz可以试试65w下性能释放是不是可以好一些</span><br>
+</p><p><b>哼哈二将: </b><br>
+<span>紫吹兰 发表于 2019-5-30 11:22</span><br>
+<span>https://www.chiphell.com/thread-1964523-1-1.html</span><br>
+<span>CHH有从韩国官网找的新bios，支持65w dp了，lz可以试试 ...</span><br>
+<span>非常非常感谢。</span><br>
+</p><p><b>尼曼兔: </b><br>
+<span>外挂全家脚气 发表于 2019-4-6 00:15</span><br>
+<span>真不知道LG 怎么多事，我的TP测下来 5V3A的供电就可以了，随便什么电压/功率档位都吃 ...</span><br>
+<span>DELL更多事</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822174[0-50]</guid>
+    </item>
+  </channel>
+</rss>

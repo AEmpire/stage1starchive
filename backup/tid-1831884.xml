@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Mac上的office竟然是一个软件配一套字体库...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Mac上的office竟然是一个软件配一套字体库...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:33:35 +0000</lastBuildDate>
+    <item>
+      <title>Mac上的office竟然是一个软件配一套字体库...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831884-1-1.html</link>
+      <description>Mac上的office竟然是一个软件配一套字体库...&#13;
+https://blog.csdn.net/weixin_34357267/article/details/87630598
+&#13;
+通过执行脚本抽取出来接近3g大小的字体文件
+&#13;
+https://upload-images.jianshu.io/upload_images/2006017-bbe1a34561b6710d.jpg</description>
+      <content:encoded><![CDATA[<p><b>308: </b><br>
+<span>Mac上的office竟然是一个软件配一套字体库...</span><br>
+<span>https://blog.csdn.net/weixin_34357267/article/details/87630598</span><br>
+<span>通过执行脚本抽取出来接近3g大小的字体文件</span><br>
+<img src="https://upload-images.jianshu.io/upload_images/2006017-bbe1a34561b6710d.jpg" title="https://upload-images.jianshu.io/upload_images/2006017-bbe1a34561b6710d.jpg"><br>
+</p><p><b>飞裤头里: </b><br>
+<span>还好我只要MarkDown就足够了.....最多上个keynote</span><br>
+</p><p><b>Zest: </b><br>
+<span>阿三这是什么智障设计</span><br>
+</p><p><b>qratosone: </b><br>
+<span>Zest 发表于 2019-5-16 13:36</span><br>
+<span>阿三这是什么智障设计</span><br>
+<span>这个你要问苹果</span><br>
+<span>因为Office 上应用商店了，所以必须每个App单独配一套资源</span><br>
+</p><p><b>308: </b><br>
+<span>qratosone 发表于 2019-05-16 13:39:13</span><br>
+<span>这个你要问苹果</span><br>
+<span>因为Office 上应用商店了，所以必须每个App单独配一套资源 ...这个是16年pkg直装的office</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>qratosone: </b><br>
+<span>308 发表于 2019-5-16 13:48</span><br>
+<span>这个是16年pkg直装的office</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+<span>Office 2016从一开始就是按上架Store准备的，微软的产品经理解释过</span><br>
+</p><p><b>obiy: </b><br>
+<span>就算字体不能共享，卡顿总没得洗吧</span><br>
+</p><p><b>atomicink: </b><br>
+<span>不错，清理了2g多</span><br>
+</p><p><b>螺纹: </b><br>
+<span>惊了，赶紧发给朋友</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>沙盒机制嘛。。。</span><br>
+<span>app互相不能访问的。。。</span><br>
+</p><p><b>Zest: </b><br>
+<span>字体就不能放共用的/usr下？</span><br>
+</p><p><b>qratosone: </b><br>
+<span>Zest 发表于 2019-5-16 15:38</span><br>
+<span>字体就不能放共用的/usr下？</span><br>
+<span>苹果不允许沙盒App往外写东西，Office 2016从开发的时候就是沙盒App，跟没有第一时间上App Store无关</span><br>
+</p><p><b>Zest: </b><br>
+<span>Office还做成沙盒纯属阿三智障</span><br>
+</p><p><b>qratosone: </b><br>
+<span> 本帖最后由 qratosone 于 2019-5-16 15:48 编辑 </span><br>
+<span>https://github.com/goodbest/OfficeThinner/issues/7</span><br>
+<span>In Office 2011, we did used a shared resource architecture which is why the apps were much smaller. With the 2016 release, we've changed to sandboxed apps, which is Apple's mandated architecture for the Mac App Store. Unfortunately, sandboxed apps must have all their resources self-contained within the app bundle. The suite installer already uses a technique similar to @goodbest's that allows us to remove the duplicates from the download pkg, but because of code signature constraints, the installer duplicates the resources at install time.</span><br>
+</p><p><b>qratosone: </b><br>
+<span>Zest 发表于 2019-5-16 15:45</span><br>
+<span>Office还做成沙盒纯属阿三智障</span><br>
+<span>继续嘴硬吧233333</span><br>
+</p><p><b>真田丸: </b><br>
+<span>既然字体不能共享，那么删掉字体后这app还能用吗</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>莫名想到ipad pro</span><br>
+</p><p><b>Zest: </b><br>
+<span>真田丸 发表于 2019-5-16 16:11</span><br>
+<span>既然字体不能共享，那么删掉字体后这app还能用吗</span><br>
+<span>这脚本是用软链接把其他app的字体目录指向到Word的字体目录下</span><br>
+</p><p><b>真田丸: </b><br>
+<span>Zest 发表于 2019-5-16 16:21</span><br>
+<span>这脚本是用软链接把其他app的字体目录指向到Word的字体目录下</span><br>
+<span>纳入或多</span><br>
+</p><p><b>EP2: </b><br>
+<span>沙箱这是苹果的锅吧</span><br>
+<span>听说安卓也要上沙箱了，不寒而栗</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>硬盘不够？买大的呀。安全值8000</span><br>
+</p><p><b>sirlion: </b><br>
+<span>臃肿换取安全哦，和intel现在漏洞打补丁降低性能是一样的哦</span><br>
+</p><p><b>catxing: </b><br>
+<span>高贵的Mac是不会有硬盘不足的问题的</span><br>
+</p><p><b>w酱: </b><br>
+<span>讲道理，你们真觉得windows那种什么东西都往系统目录写，而且写都不知道写在哪里的模式更好？苹果可是提倡拖垃圾桶删除app的，写个拷贝到usr，到时候删除app怎么办，留着不删？</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>沙箱是趋势，文件重复的问题应该从文件系统层面解决。</span><br>
+<span>MacOS 的问题是安装入口没有 iOS 那么严，还是避免不了要安装 PKG 格式的软件，卸载时清理工具还是必须的。</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-5-16 18:44 编辑 </span><br>
+<span>w酱 发表于 2019-5-16 18:01</span><br>
+<span>讲道理，你们真觉得windows那种什么东西都往系统目录写，而且写都不知道写在哪里的模式更好？苹果可是提倡 ...</span><br>
+<span>类UNIX系统有区分的，比如系统自己的放/usr/bin，第三方软件放/usr/local/bin，共用的放/usr/share，删除时根据包管理工具设置决定删不删</span><br>
+</p><p><b>淼霆: </b><br>
+<span>同样的字体算不同的文件吗？苹果不是有apfs吗，不知道不同沙盒间能起作用不</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2019-5-16 19:02 编辑 </span><br>
+<span>淼霆 发表于 2019-5-16 18:46</span><br>
+<span>同样的字体算不同的文件吗？苹果不是有apfs吗，不知道不同沙盒间能起作用不 ...</span><br>
+<span>算，根据path决定哪个优先，顺便安卓也有类似的设计，软件自己的lib库在/data/app/包名/lib/arm下，优先于/system/lib，比如在Play上升级了最新版的WebView浏览器内核，就可以把/data/app/com.android.webview/lib/arm/webviewchromium.so移动到/system/lib下覆盖，然后在应用管理里把更新的WebView删了节省空间，第三方浏览器一样能调用最新的WebView内核，同样原理可以用/data/app下新版的系统自带APP覆盖/system/app出厂版本，再删掉相应APP的更新</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>淼霆 发表于 2019-5-16 18:46</span><br>
+<span>同样的字体算不同的文件吗？苹果不是有apfs吗，不知道不同沙盒间能起作用不 ...</span><br>
+<span>用 APFS 的复制接口才会有 Copy-on-write 的效果，比如在访达里复制。分别写入两个完全一样的文件，并不会当做彼此的副本。</span><br>
+</p><p><b>w酱: </b><br>
+<span>Zest 发表于 2019-5-16 18:41</span><br>
+<span> 类UNIX系统有区分的，比如系统自己的放/usr/bin，第三方软件放/usr/local/bin，共用的放/usr/share，删除 ...</span><br>
+<span>关键是mac哪来的包管理，大部分软件都是绿色文件夹打个包......brew这种第三方的不算，按照mac的ui逻辑，从/Application删除文件夹就认为删除应用，本身就是弱化了/usr和/library的，一个面向普通用户的应用软件不涉及驱动，往公有目录写东西应该属于耍流氓行为</span><br>
+</p><p><b>Zest: </b><br>
+<span>但Office应该属于和系统结合的比较紧密的软件吧，巨硬为什么不把Office几大件做成一同个APP非要分开做？顺便手机版他也这么搞，之前有个三大件合在一起的老版本停止更新了，而且新版三大件每个都比一体的老版本还大……</span><br>
+</p><p><b>qratosone: </b><br>
+<span>Zest 发表于 2019-5-16 19:18</span><br>
+<span>但Office应该属于和系统结合的比较紧密的软件吧，巨硬为什么不把Office几大件做成一同个APP非要分开做？顺 ...</span><br>
+<span>那个老版本基本上就是个玩具，近似于不能用</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>烙馍卷菜 发表于 2019-5-16 19:50</span><br>
+<span>把字体库作为类似驱动程序的软件包让用户单独安装应该可行吧</span><br>
+<span>这样就不知要挡掉多少用户了，还是让用户的硬盘（和钱包）受点苦吧</span><br>
+</p><p><b>posion: </b><br>
+<span>道理我都懂，那为何不直接出一个整合版的office app呢？</span><br>
+</p><p><b>Zest: </b><br>
+<span>qratosone 发表于 2019-5-16 19:39</span><br>
+<span>那个老版本基本上就是个玩具，近似于不能用</span><br>
+<span>起码有简单的编辑功能，平时改个文档表格PPT还是可以的</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>w酱 发表于 2019-5-16 18:01</span><br>
+<span>讲道理，你们真觉得windows那种什么东西都往系统目录写，而且写都不知道写在哪里的模式更好？苹果可是提倡 ...</span><br>
+<span>我觉得应该允许一个开发商搞一个自家app共用的文件存储目录，专门解决类似这样的问题</span><br>
+</p><p><b>Sam喵: </b><br>
+<span>Scrummble 发表于 2019-5-16 23:50</span><br>
+<span>我觉得应该允许一个开发商搞一个自家app共用的文件存储目录，专门解决类似这样的问题 ...</span><br>
+<span>想想就不可能，现在权限越来越收紧，手机那边都不给随便读UDID和IMEI这种唯一识别码了，开个共享文件夹，到时候各个软件引入的广告SDK都要求写入特定目录，里面就能存他家的识别ID。</span><br>
+<span>像安卓上各种.开头的隐藏文件大部分都是各个SDK的存储文件</span><br>
+<span>— from samsung SM-N9100, Android 6.0.1 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Scrummble: </b><br>
+<span> 本帖最后由 Scrummble 于 2019-5-17 08:13 编辑 </span><br>
+<span>Sam喵 发表于 2019-5-17 00:52</span><br>
+<span>想想就不可能，现在权限越来越收紧，手机那边都不给随便读UDID和IMEI这种唯一识别码了，开个共享文件夹， ...</span><br>
+<span>我记得苹果现在还是有对同一手机上同一开发者的不同app提供一个相同的设备识别码的吧？</span><br>
+<span>每个开发商一个专有目录，不允许跨开发商读取，其实就是和现行政策一样的效果了</span><br>
+</p><p><b>catxing: </b><br>
+<span>小野賢章 发表于 2019-5-16 18:30</span><br>
+<span>沙箱是趋势，文件重复的问题应该从文件系统层面解决。</span><br>
+<span>MacOS 的问题是安装入口没有 iOS 那么严，还是避免 ...</span><br>
+<span>文件系统去重解决不了安装包大的问题，安装包总要做好你是个裸系统的准备。</span><br>
+<span>要么就玩linux的安装包依赖那一套，嘿嘿</span><br>
+</p><p><b>红左手: </b><br>
+<span>Scrummble 发表于 2019-5-16 23:50</span><br>
+<span>我觉得应该允许一个开发商搞一个自家app共用的文件存储目录，专门解决类似这样的问题 ...</span><br>
+<span>win上不是有common files么</span><br>
+</p><p><b>macos: </b><br>
+<span>小野賢章 发表于 2019-5-16 18:30</span><br>
+<span>沙箱是趋势，文件重复的问题应该从文件系统层面解决。</span><br>
+<span>MacOS 的问题是安装入口没有 iOS 那么严，还是避免 ...</span><br>
+<span>apfs后，ios可用空间极其玄幻，可能随时多少几g</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>红左手 发表于 2019-5-17 11:22</span><br>
+<span>win上不是有common files么</span><br>
+<span>win的office直接往系统装字体，我们很明显是在讨论osx</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>electron做的软件每个都要带一套chromium内核</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>bioCory: </b><br>
+<span>苹果就是好，什么问题都可以交给微软背锅</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>dvd6: </b><br>
+<span> 本帖最后由 dvd6 于 2019-5-17 18:36 编辑 </span><br>
+<span>想问个问题：我借网盘账号给朋友，他用iphone装了网盘app，下载了一个视频，然后用第三方播放器打开视频，ios貌似显示要把视频拷一份到播放器文件夹，这是真的完整的文件复制了一份吗？占用了两倍空间？</span><br>
+<span>我很久没用过ios，体验停留在ip4时代，当时是真的要复制一份，现在还是吗</span><br>
+</p><p><b>心二: </b><br>
+<span>整合成一个app啊</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Lacsiess: </b><br>
+<span>dvd6 发表于 2019-5-17 18:35</span><br>
+<span>想问个问题：我借网盘账号给朋友，他用iphone装了网盘app，下载了一个视频，然后用第三方播放器打开视频，i ...</span><br>
+<span>据说AP FS文件系统已经不是了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Godducker: </b><br>
+<span>我现在是越来越不待见微软了。windows phone和windows 8，失败的metro design</span><br>
+<span>然后是xamarin体验极差，微软最近正式放弃了uwp，在跨平台开发上被rn和flutter吊打，看看flutter一年内热度增了多少，再看看xamarin那吊样。</span><br>
+<span>c#还不错，就看.net 5了 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831884[0-50]</guid>
+    </item>
+  </channel>
+</rss>

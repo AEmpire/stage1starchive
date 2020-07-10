@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>apu 2200G的核显VP9解码无法工作了？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>apu 2200G的核显VP9解码无法工作了？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:06:51 +0000</lastBuildDate>
+    <item>
+      <title>apu 2200G的核显VP9解码无法工作了？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836250-1-1.html</link>
+      <description>apu 2200G的核显VP9解码无法工作了？&#13;
+最近发现YTB的H264编码明显比vp9同分辨率要糊一点，就想着切回vp9看
+&#13;
+然后发现2200G的vega8不知道为什么死活无法硬解vp9了
+&#13;
+开始以为是浏览器的问题，咨询了下cent浏览器的开发者，答复说已经支持vp9硬解了
+&#13;
+然后试了下本地硬解，发现MPC BE+LAV也无法硬解vp9
+&#13;
+问题是dxva checker里面显示vp9是支持的，而且我记得刚买到的时候测试过确实可以本地硬解vp9
+&#13;
+而H264可以正常硬解
+&#13;
+那么问题到底出在哪？系统是WIN10 LTSC，驱动19.5.1和19.1.1都测试过</description>
+      <content:encoded><![CDATA[<p><b>qwased: </b><br>
+<span>apu 2200G的核显VP9解码无法工作了？</span><br>
+<span>最近发现YTB的H264编码明显比vp9同分辨率要糊一点，就想着切回vp9看</span><br>
+<span>然后发现2200G的vega8不知道为什么死活无法硬解vp9了</span><br>
+<span>开始以为是浏览器的问题，咨询了下cent浏览器的开发者，答复说已经支持vp9硬解了</span><br>
+<span>然后试了下本地硬解，发现MPC BE+LAV也无法硬解vp9</span><br>
+<span>问题是dxva checker里面显示vp9是支持的，而且我记得刚买到的时候测试过确实可以本地硬解vp9</span><br>
+<span>而H264可以正常硬解</span><br>
+<span>那么问题到底出在哪？系统是WIN10 LTSC，驱动19.5.1和19.1.1都测试过</span><br>
+</p><p><b>qwased: </b><br>
+<span>真是奇了怪了，H264 H265都可以正常硬解，就vp9没法硬解</span><br>
+</p><p><b>qwased: </b><br>
+<span>我操，搜了下发现WIN10的vp9解码器是在WIN10 STORE里面的，LTSC没有store所以没有VP9解码器</span><br>
+</p><p><b>qwased: </b><br>
+<span>安装了商店和以上几个扩展，cent浏览器成功硬解vp9</span><br>
+<span>但是本地硬解依然失败，估计还是缺了哪个解码器，不过没这个需求，懒得弄了巨硬必须死</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>200ge在linux下用kodi解vp9正常</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>低端人口: </b><br>
+<span>用 LTSC还不如装1903关掉自动更新呢</span><br>
+</p><p><b>SmterC: </b><br>
+<span>qwased 发表于 2019-6-2 04:56</span><br>
+<span>安装了商店和以上几个扩展，cent浏览器成功硬解vp9</span><br>
+<span>但是本地硬解依然失败，估计还是缺了哪个解码器，不过 ...</span><br>
+<span>原来安装这几个扩展就可以硬解vp9了吗</span><br>
+<span>我这就去装</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>以前是说lav的vp9解码器不支持a卡硬解，改成系统默认解码器试试？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-6-2 13:04 编辑 </span><br>
+<span>近期我打开我好久没玩的台机，发现madvr的时候内存频率一直处在动态调节的状态，核心频率一直保持最高，怎么破？ RX470</span><br>
+<span>搭车问</span><br>
+<span>还在1803下，显卡驱动最新</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>typeunknown 发表于 2019-6-2 11:14</span><br>
+<span>以前是说lav的vp9解码器不支持a卡硬解，改成系统默认解码器试试？</span><br>
+<span>之前用1803的时候是支持的，lav里面选的dx11而不是dxva</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qwased: </b><br>
+<span>zmw_831110 发表于 2019-6-2 11:47</span><br>
+<span>近期我打开我好久没玩的台机，发现madvr的时候内存频率一直处在动态调节的状态，核心频率一直保持最高，怎 ...</span><br>
+<span>老a卡不要用最新驱动，往回装</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>弹幕: </b><br>
+<span>求教台式机怎么同时启用核显与独显</span><br>
+</p><p><b>qwased: </b><br>
+<span>弹幕 发表于 2019-6-2 15:08</span><br>
+<span>求教台式机怎么同时启用核显与独显</span><br>
+<span>bios里面把核显设置成强制打开就行了，I/A都是这样</span><br>
+<span>在桌面右键 显示设置 图形设置里面添加浏览器然后设置为节能就可以指定核显运行来调用解码器</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Litccc: </b><br>
+<span>才发现我用cent也无法硬解，看了下五代u应该是可以硬解vp9的啊</span><br>
+</p><p><b>baiducaonima: </b><br>
+<span>我原来买rx480不支持vp9，后来卖掉，换的1050ti，解码还是n卡好点</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>qwased: </b><br>
+<span>Litccc 发表于 2019-6-2 15:17</span><br>
+<span>才发现我用cent也无法硬解，看了下五代u应该是可以硬解vp9的啊</span><br>
+<span>vp9要八代才开始有的</span><br>
+</p><p><b>qwased: </b><br>
+<span>baiducaonima 发表于 2019-6-2 15:25</span><br>
+<span>我原来买rx480不支持vp9，后来卖掉，换的1050ti，解码还是n卡好点</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9 ...</span><br>
+<span>480可以开混合解码，能少用一点cpu</span><br>
+</p><p><b>Litccc: </b><br>
+<span>qwased 发表于 2019-6-2 15:32</span><br>
+<span>vp9要八代才开始有的</span><br>
+<span>刚才试了下，5代其实是混合解码</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836250[0-50]</guid>
+    </item>
+  </channel>
+</rss>

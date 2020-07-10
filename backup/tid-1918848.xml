@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个奇怪的系统安装问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个奇怪的系统安装问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:26:04 +0000</lastBuildDate>
+    <item>
+      <title>问个奇怪的系统安装问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918848-1-1.html</link>
+      <description>问个奇怪的系统安装问题&#13;
+最近玩虚拟机
+&#13;
+VMware15.5，然后系统是msdn上下的win10 x64 ltsc版
+&#13;
+安装过程也是直接加载iso装的
+&#13;
+但是进去后打开ie主页直接是360搜索的，我就想问问这个360搜索是哪来的？
+&#13;
+我知道一般pe装系统都会带一堆私货，但是我感觉我这个流程很干净啊，很费解</description>
+      <content:encoded><![CDATA[<p><b>橙七七: </b><br>
+<span>问个奇怪的系统安装问题</span><br>
+<span>最近玩虚拟机</span><br>
+<span>VMware15.5，然后系统是msdn上下的win10 x64 ltsc版</span><br>
+<span>安装过程也是直接加载iso装的</span><br>
+<span>但是进去后打开ie主页直接是360搜索的，我就想问问这个360搜索是哪来的？</span><br>
+<span>我知道一般pe装系统都会带一堆私货，但是我感觉我这个流程很干净啊，很费解</span><br>
+</p><p><b>madbird302: </b><br>
+<span>MSDN那个LTSC是干净的啊</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-3-14 22:15 编辑 </span><br>
+<span>Internet选项里的主页链接确定是360么？下载下来的ISO文件Hash信息跟MSDN上一致吗</span><br>
+</p><p><b>橙七七: </b><br>
+<span>继承权 发表于 2020-3-14 22:12</span><br>
+<span>Internet选项里的主页链接确定是360么？下载下来的ISO文件Hash信息跟MSDN上一致吗</span><br>
+<span> ...</span><br>
+<span>主页链接确实是360，iso我刚才校验了一遍，值是一致的</span><br>
+<span>指向的hao.360.com这个网址，系统也是没装任何软件的</span><br>
+<span>但好像也没啥影响，手动改了就没了，也没有流氓行为</span><br>
+</p><p><b>ryuonegz: </b><br>
+<span>可能是路由被劫持或者运营商的原因？ie的默认主页应该是微软那个引导页，可能那个网页地址的解析被搞了</span><br>
+</p><p><b>继承权: </b><br>
+<span>对了，虚拟机硬盘是新建的吗？如果用的是以前装过系统的虚拟硬盘可能MBR被改过。</span><br>
+<span>如果也不是就得怀疑虚拟机本身了，安装程序是不是官网的，用了什么**程序</span><br>
+</p><p><b>hecas: </b><br>
+<span>从结果反推</span><br>
+<span>过程和源头 过程是vm自带安装没问题</span><br>
+<span>那就是源头</span><br>
+<span>看看md5</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>superchenxx01: </b><br>
+<span>难道上了个假的MSDN?</span><br>
+<span>—— 来自 OPPO R11, Android 8.1.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918848[0-50]</guid>
+    </item>
+  </channel>
+</rss>

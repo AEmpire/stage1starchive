@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于设置中的代理服务器总是自动勾选的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于设置中的代理服务器总是自动勾选的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:41:09 +0000</lastBuildDate>
+    <item>
+      <title>关于设置中的代理服务器总是自动勾选的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859492-1-1.html</link>
+      <description>关于设置中的代理服务器总是自动勾选的问题&#13;
+系统win10, 有在用小火箭
+&#13;
+记不清楚是什么时候开始的了, internet属性中连接那一栏--lan设置里的代理服务器选项总是会自动勾选, 地址为127.0.0.1, port 10080
+&#13;
+每当自动勾选上时, 就会发生断网现象, 网络浏览器无法联网, 游戏网络丢失, 但是微信qq不受影响
+&#13;
+解决方法就是手动去重新取消"代理服务器"的勾选
+&#13;
+查了一圈都没办法解决...应该是小火箭的问题?但关键是我退出小火箭, 取消随开机启动, 重启之后还是会有自动勾选的情况发生
+&#13;
+大型崩溃, 请问各位有谁遇到过这种问题吗?</description>
+      <content:encoded><![CDATA[<p><b>vorastrix: </b><br>
+<span>关于设置中的代理服务器总是自动勾选的问题</span><br>
+<span>系统win10, 有在用小火箭</span><br>
+<span>记不清楚是什么时候开始的了, internet属性中连接那一栏--lan设置里的代理服务器选项总是会自动勾选, 地址为127.0.0.1, port 10080</span><br>
+<span>每当自动勾选上时, 就会发生断网现象, 网络浏览器无法联网, 游戏网络丢失, 但是微信qq不受影响</span><br>
+<span>解决方法就是手动去重新取消"代理服务器"的勾选</span><br>
+<span>查了一圈都没办法解决...应该是小火箭的问题?但关键是我退出小火箭, 取消随开机启动, 重启之后还是会有自动勾选的情况发生</span><br>
+<span>大型崩溃, 请问各位有谁遇到过这种问题吗?</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2019-10-14 20:16 编辑 </span><br>
+<span>你是不是长期运行小火箭，关机的时候也没有手动退出直接就关了</span><br>
+<span>我遇过没有手动退出程序直接重启（例如停电等意外情况）就要手动去把auto关闭才能正常上网或者运行的时候不要给超级管理员权限</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>等删除</span><br>
+</p><p><b>モナド: </b><br>
+<span>小飞机的系统代理选项作用就是帮你勾上ie的代理服务器选项</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859492[0-50]</guid>
+    </item>
+  </channel>
+</rss>

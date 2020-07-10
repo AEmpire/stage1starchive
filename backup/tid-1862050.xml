@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>各种敌人尸体突然摔到地图上是咋回事.</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>各种敌人尸体突然摔到地图上是咋回事.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:25:03 +0000</lastBuildDate>
+    <item>
+      <title>各种敌人尸体突然摔到地图上是咋回事.[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862050-1-1.html</link>
+      <description>各种敌人尸体突然摔到地图上是咋回事.&#13;
+不少3D游戏都有这个问题.就是本来死透了的敌人.或者伪装成尸体的敌人.在你刚跑到场地第一次看到的一瞬间,是摔到那里的.有一个非常短距离的下坠,甚至模型还有一部分抽搐一下.
+&#13;
+看起来是初始化的bug?因为就第一次出现会这样,之后就一动不动了.
+&#13;
+这背后到底啥原理.</description>
+      <content:encoded><![CDATA[<p><b>シャスタ: </b><br>
+<span>各种敌人尸体突然摔到地图上是咋回事.</span><br>
+<span>不少3D游戏都有这个问题.就是本来死透了的敌人.或者伪装成尸体的敌人.在你刚跑到场地第一次看到的一瞬间,是摔到那里的.有一个非常短距离的下坠,甚至模型还有一部分抽搐一下.</span><br>
+<span>看起来是初始化的bug?因为就第一次出现会这样,之后就一动不动了.</span><br>
+<span>这背后到底啥原理.</span><br>
+</p><p><b>古代人皮克: </b><br>
+<span>优化没做好啊 本来应该在你看到之前就刷新的模型不巧在你看到的时候刷新了而已</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>boom33: </b><br>
+<span>你没看到时就隐藏掉节省资源，你看到时就赶紧刷新出来糊弄一下。。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>那为啥要抖一下</span><br>
+</p><p><b>woodcoin: </b><br>
+<span>你看到了博士在部署干员</span><br>
+</p><p><b>widder: </b><br>
+<span>现在游戏普及物理引擎，角色加载的时候为了防止卡地里，都会故意放高点，然后通过物理引擎自然落地，另外加载进来的角色是默认状态，加载完还要摆成死亡状态，如果没做特别处理的话，就会出现楼主说的情况。</span><br>
+</p><p><b>Herreimu: </b><br>
+<span>重力+布娃娃系统?</span><br>
+</p><p><b>ybfelix: </b><br>
+<span>进入视野时才启动rag doll物理吧。现在新的游戏好像已经比较少这种情况了？</span><br>
+</p><p><b>ssd: </b><br>
+<span>魂3 转头一个tpose 你敢信</span><br>
+</p><p><b>A2014720: </b><br>
+<span>当然是看见你来了赶紧演戏</span><br>
+</p><p><b>千古奇冤施密特: </b><br>
+<span>打黑魂从别的世界回来的时候就会这样</span><br>
+</p><p><b>nukejoker: </b><br>
+<span>大多是虚幻引擎+havok引擎的锅？</span><br>
+<span>记得战争机器1开始这种破布娃娃行云流水牛皮糖一样的敌人尸体就开始大肆泛滥了。</span><br>
+</p><p><b>neunundneunzig: </b><br>
+<span>シャスタ 发表于 2019-10-29 12:43</span><br>
+<span>那为啥要抖一下</span><br>
+<span>还有一个原因就是渲染管线上的时序</span><br>
+<span>虽然程序里多半都会说，先加载尸体，摆好造型，然后等黑屏结束，亮起来恢复操控这一套</span><br>
+<span>但实际上因为多线程和其它各种各样底部代码打架的原因</span><br>
+<span>这些逼玩意儿总喜欢攒的最后一帧一股脑儿给你弄出来</span><br>
+</p><p><b>北卡厨王: </b><br>
+<span>你离开场景之后，系统会释放这个场景的资源，且系统只会记录尸体的大致位置，不会记录尸体的具体姿势，因为记录姿势太麻烦，等你回来，系统在大致位置再刷一个一样的尸体，然后物理引擎接管尸体，尸体下落躺好，这个下落躺好的过程被你看到</span><br>
+</p><p><b>shellingnie: </b><br>
+<span>不只尸体，其它场景元素也会这样</span><br>
+<span>最有印象是魂2废渊第一个篝火，第一次来到这个位置时是从上面踩塌木板掉下来的。从其他篝火传送过来时，每次都能见到几块木板从半空落下</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>欠损: </b><br>
+<span>你觉得刷高点掉下来和刷低了被卡住跳promise哪个更草?</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-10-30 14:16 编辑 </span><br>
+<span>几种优化方式，检测距离外就把死亡npc移动到看不到的位置或者只保留坐标信息销毁掉，当player接近时或者load 场景到附近就移动回去.而移动回去不可能到掉落位置保持原样的，所以要移动到平面上一定距离重新计算碰撞，因为player看到的敌人是有限的所以也可以用相同的敌人(尸体)不同的位置放置，障眼法。</span><br>
+<span>和物理引擎无关，物理碰撞检测一般是穿墙。</span><br>
+<span>但是事实上应该避免销毁对象,最好的就办法就是存储在列表中里.</span><br>
+<span>场景内的敌人类型是有限的,所以无论状态是生是死都可以重复利用.</span><br>
+</p><p><b>ohi: </b><br>
+<span>只狼也是这样，仙峰寺那上山路上的和尚就是这么刷的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862050[0-50]</guid>
+    </item>
+  </channel>
+</rss>

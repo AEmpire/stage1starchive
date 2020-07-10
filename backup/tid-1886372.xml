@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD Ryzen Threadripper 2990wx问题求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD Ryzen Threadripper 2990wx问题求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:59:51 +0000</lastBuildDate>
+    <item>
+      <title>AMD Ryzen Threadripper 2990wx问题求助[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886372-1-1.html</link>
+      <description>AMD Ryzen Threadripper 2990wx问题求助&#13;
+ 本帖最后由 deviljz 于 2019-12-8 12:47 编辑 
+
+前一段时间公司配了台2990wx的电脑，用来跑一些需要多进程长时间计算的事情
+&#13;
+配这台电脑之前经验不足，对于水冷、超频、发热等完全没有概念，现在想仔细咨询一下。
+&#13;
+配置：
+&#13;
+cpu AMD Ryzen Threadripper 2990wx
+&#13;
+内存 16G*4 3000 Mhz的
+&#13;
+风扇 利民（Thermalright ）Silver Arrow TR4 CPU散热器
+&#13;
+遇到的情况：我把内存开到2900多Mhz，然后开64个进程cpu跑满，cpu温度飙升到87度，然后我怂了把内存降到2400Mhz，现在70度左右。看官网写的最佳工作温度68度以下。
+&#13;
+我用i7-7700开8个进程和这台2900wx跑同样的事情，算了下时间发现i7 1个进程跑一个周期要4秒，这台2900wx 1个进程跑1个周期要12秒，这差距有点大
+&#13;
+现在我想问的是：怎么调整才能尽可能更高效的让这个cpu运行
+&#13;
+1、要不要上水冷，上什么样的水冷，大概会比现在降几度
+&#13;
+2、机箱风扇要不要，对散热有多大帮助。
+&#13;
+3、要不要超频，超频的话大概超到多少合适，超频都会带来哪些影响
+&#13;
+4、在AMD RYZEN MASTER里面要不要调整一些设置，比如关闭同步多线程，32个核只开32个线程然后超频会不会效果更好？
+&#13;
+5、还有没有其他建议，能够尽可能充分发挥出cpu性能的
+&#13;
+6、补充个之前忘记说的事情，BIOS里我看到有风扇策略，之前70度好像是8x%功率，我给改成68度就100%功率了，这个调整是对的吧？</description>
+      <content:encoded><![CDATA[<p><b>albertfu: </b><br>
+<span>你的全家 发表于 2019-12-9 14:01</span><br>
+<span>嗯 4ccx 两组内存控制器</span><br>
+<span>所以算起来的话其实是两个 双ccx算一个节点</span><br>
+<span>互联大多用在socket内了，导致最多就2 socket（不过也128C了还要啥自行车，牙膏28C*4还没这个多</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-9 16:13</span><br>
+<span>SoC Power降了12W，和预估的差不多</span><br>
+<span>package power不变估计是core power上去了，吃掉了SoC部分节约的功耗 ...</span><br>
+<span>https://item.jd.com/100003803069.html</span><br>
+<span>这机箱能装9个机箱风扇，我打算装满试试</span><br>
+</p><p><b>deviljz: </b><br>
+<span>我用hwinfo看了下我i7-7700的温度……99度，快能烧开水了。而且我在这个状态下断断续续跑了几个月</span><br>
+</p><p><b>宏: </b><br>
+<span> 本帖最后由 宏 于 2019-12-9 19:17 编辑 </span><br>
+<span>albertfu 发表于 2019-12-9 16:13</span><br>
+<span>SoC Power降了12W，和预估的差不多</span><br>
+<span>package power不变估计是core power上去了，吃掉了SoC部分节约的功耗 ...</span><br>
+<span>一体水也就比风冷高40w，300出头，到不了400w的</span><br>
+<span>https://www.tomshardware.com/reviews/amd-ryzen-threadripper-2-2990wx-2950x,5725-12.html</span><br>
+<span>还是那话，不要上水</span><br>
+</p><p><b>宏: </b><br>
+<span> 本帖最后由 宏 于 2019-12-9 19:20 编辑 </span><br>
+<span>deviljz 发表于 2019-12-9 18:09</span><br>
+<span>https://item.jd.com/100003803069.html</span><br>
+<span>这机箱能装9个机箱风扇，我打算装满试试</span><br>
+<span>你要是侧板打开都没用，这机箱效果快也好不到哪去，超微的平地起飞工作站机箱也都是前进后出，上出反而效率不高</span><br>
+<span>90度根本没事</span><br>
+</p><p><b>albertfu: </b><br>
+<span>宏 发表于 2019-12-9 19:07</span><br>
+<span>一体水也就比风冷高40w，300出头，到不了400w的</span><br>
+<span>https://www.tomshardware.com/reviews/amd-ryzen-threa ...</span><br>
+<span>32C讲真现成卖的散热方案都是渣渣，除了个别420冷排的一体水，没什么方案压得住440W的</span><br>
+<span>一体水就自由多了，上手先怼个1080排 </span><br>
+<span>lz这个又是工作用机不好上水，只能尽量挖掘风冷潜力了</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>deviljz 发表于 2019-12-8 23:50</span><br>
+<span>这个不是很懂，我有什么办法确认是不是带宽压力大吗？</span><br>
+<span>没办法，就是看性能出力</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>deviljz 发表于 2019-12-9 19:03</span><br>
+<span>我用hwinfo看了下我i7-7700的温度……99度，快能烧开水了。而且我在这个状态下断断续续跑了几个月 ...</span><br>
+<span>牙膏干了吧，换换散热，不嫌吵，加加暴力风扇</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>deviljz: </b><br>
+<span>今天装了3个机箱风扇，温度基本没变化，峰值87.5，功率峰值234</span><br>
+<span>我自己的i7换了个风扇倒是降了30度</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886372[50-100]</guid>
+    </item>
+    <item>
+      <title>AMD Ryzen Threadripper 2990wx问题求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1886372-1-1.html</link>
+      <description>AMD Ryzen Threadripper 2990wx问题求助&#13;
+ 本帖最后由 deviljz 于 2019-12-8 12:47 编辑 
+
+前一段时间公司配了台2990wx的电脑，用来跑一些需要多进程长时间计算的事情
+&#13;
+配这台电脑之前经验不足，对于水冷、超频、发热等完全没有概念，现在想仔细咨询一下。
+&#13;
+配置：
+&#13;
+cpu AMD Ryzen Threadripper 2990wx
+&#13;
+内存 16G*4 3000 Mhz的
+&#13;
+风扇 利民（Thermalright ）Silver Arrow TR4 CPU散热器
+&#13;
+遇到的情况：我把内存开到2900多Mhz，然后开64个进程cpu跑满，cpu温度飙升到87度，然后我怂了把内存降到2400Mhz，现在70度左右。看官网写的最佳工作温度68度以下。
+&#13;
+我用i7-7700开8个进程和这台2900wx跑同样的事情，算了下时间发现i7 1个进程跑一个周期要4秒，这台2900wx 1个进程跑1个周期要12秒，这差距有点大
+&#13;
+现在我想问的是：怎么调整才能尽可能更高效的让这个cpu运行
+&#13;
+1、要不要上水冷，上什么样的水冷，大概会比现在降几度
+&#13;
+2、机箱风扇要不要，对散热有多大帮助。
+&#13;
+3、要不要超频，超频的话大概超到多少合适，超频都会带来哪些影响
+&#13;
+4、在AMD RYZEN MASTER里面要不要调整一些设置，比如关闭同步多线程，32个核只开32个线程然后超频会不会效果更好？
+&#13;
+5、还有没有其他建议，能够尽可能充分发挥出cpu性能的
+&#13;
+6、补充个之前忘记说的事情，BIOS里我看到有风扇策略，之前70度好像是8x%功率，我给改成68度就100%功率了，这个调整是对的吧？</description>
+      <content:encoded><![CDATA[<p><b>deviljz: </b><br>
+<span>AMD Ryzen Threadripper 2990wx问题求助</span><br>
+<span> 本帖最后由 deviljz 于 2019-12-8 12:47 编辑 </span><br>
+<span>前一段时间公司配了台2990wx的电脑，用来跑一些需要多进程长时间计算的事情</span><br>
+<span>配这台电脑之前经验不足，对于水冷、超频、发热等完全没有概念，现在想仔细咨询一下。</span><br>
+<span>配置：</span><br>
+<span>cpu AMD Ryzen Threadripper 2990wx</span><br>
+<span>内存 16G*4 3000 Mhz的</span><br>
+<span>风扇 利民（Thermalright ）Silver Arrow TR4 CPU散热器</span><br>
+<span>遇到的情况：我把内存开到2900多Mhz，然后开64个进程cpu跑满，cpu温度飙升到87度，然后我怂了把内存降到2400Mhz，现在70度左右。看官网写的最佳工作温度68度以下。</span><br>
+<span>我用i7-7700开8个进程和这台2900wx跑同样的事情，算了下时间发现i7 1个进程跑一个周期要4秒，这台2900wx 1个进程跑1个周期要12秒，这差距有点大</span><br>
+<span>现在我想问的是：怎么调整才能尽可能更高效的让这个cpu运行</span><br>
+<span>1、要不要上水冷，上什么样的水冷，大概会比现在降几度</span><br>
+<span>2、机箱风扇要不要，对散热有多大帮助。</span><br>
+<span>3、要不要超频，超频的话大概超到多少合适，超频都会带来哪些影响</span><br>
+<span>4、在AMD RYZEN MASTER里面要不要调整一些设置，比如关闭同步多线程，32个核只开32个线程然后超频会不会效果更好？</span><br>
+<span>5、还有没有其他建议，能够尽可能充分发挥出cpu性能的</span><br>
+<span>6、补充个之前忘记说的事情，BIOS里我看到有风扇策略，之前70度好像是8x%功率，我给改成68度就100%功率了，这个调整是对的吧？</span><br>
+</p><p><b>宏: </b><br>
+<span> 本帖最后由 宏 于 2019-12-8 01:54 编辑 </span><br>
+<span>别上水，工作机上水就是作死，换猫头鹰U14S-TR4，这是各种测试下对线程撕裂者效果最好的风冷。也不用超频，功耗影响散热，没意义。开启PBO自动就行了。内存条按顺序插对了吗？</span><br>
+</p><p><b>deviljz: </b><br>
+<span>对了，还有个问题忘记说</span><br>
+<span>AMD RYZEN MASTER的控制模式里有3种：自动、精准频率提升、手动</span><br>
+<span>PBO是第二个？</span><br>
+<span>我发现如果这里开自动，超过68度就会降频，有时候甚至会降到原本的一半，所以我现在调成手动让它不降频</span><br>
+</p><p><b>deviljz: </b><br>
+<span>宏 发表于 2019-12-8 01:52</span><br>
+<span>别上水，工作机上水就是作死，换猫头鹰U14S-TR4，这是各种测试下对线程撕裂者效果最好的风冷。也不用超频， ...</span><br>
+<span>内存插对的，8个内存位置插的1368，插的不对开机主板会有提示</span><br>
+</p><p><b>404489039: </b><br>
+<span>请丢空调房，上水冷是自找麻烦</span><br>
+</p><p><b>albertfu: </b><br>
+<span>温度问题不要怂</span><br>
+<span>zen+ TR不清楚，zen TR的话写着68度以下，实际90度都屁事没有的。此时算上amd智障给的27C软件温差，某些软件会报告110多度（90C+27C），建议用hwinfo看一下实际温度多少</span><br>
+<span>风冷的话不要折腾换noctua的，银箭TR4就是最强之一，再换别的风冷也没意义，3风扇+银箭双塔算是风冷顶级了，硅脂涂抹和散热器压力带来的影响更大。工作机也不建议上水，就靠改善风道吧，比如机箱侧板打开最省事了</span><br>
+<span>不过说实在的32C用风冷压确实勉强，超频也别折腾了，嫌PBO自动降频可以考虑换个68C不降频的模式，比如定压定频锁个3.6GHz之类的，太高风冷也压不住，到95C不管什么模式都会降频的</span><br>
+<span>内存zen+ TR应该和zen TR没啥区别，插四根双面条的极限就是3000左右了，你开2933能稳定跑那是最好，别折腾再高了</span><br>
+<span>至于和7700的效能差异，你要看跑的时候7700和2990wx具体频率多少，应该就是频率差异，zen/zen+的ipc和xxlake一个水平的。频率同样建议用hwinfo看</span><br>
+</p><p><b>citrus: </b><br>
+<span> 本帖最后由 citrus 于 2019-12-8 10:12 编辑 </span><br>
+<span>既然是做计算，首先要保证结果是正确的，否则再快也没用。首先把内存换成带ECC的吧。2666就行了。</span><br>
+<span>怎么会不要机箱风扇？没了合适的机箱气流，就是用散热器出来的热风再吹回去。</span><br>
+<span>以及你这个东西是不是有GPU版？可能效率比CPU版快很多。不过GPU最好也买显存带ECC的，TitanV，P100，V100之流，价格爆炸。</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 04:06</span><br>
+<span>温度问题不要怂</span><br>
+<span>zen+ TR不清楚，zen TR的话写着68度以下，实际90度都屁事没有的。此时算上amd智障给的27C软 ...</span><br>
+<span>因为之前对这方面了解不多，有些地方希望能说详细一点</span><br>
+<span>“比0如定压定频锁个3.6GHz之类的”</span><br>
+<span>现在默认是3.0GHz，这个是指我去调高cpu电压，然后设置所有cpu3.6GHz？</span><br>
+<span>“至于和7700的效能差异，你要看跑的时候7700和2990wx具体频率多少”</span><br>
+<span>从资源管理器看，i7-7700当时速度是4GHz，2900wx是2.97GHz，明天我去找个hwinfo仔细看看</span><br>
+</p><p><b>deviljz: </b><br>
+<span>citrus 发表于 2019-12-8 10:11</span><br>
+<span>既然是做计算，首先要保证结果是正确的，否则再快也没用。首先把内存换成带ECC的吧。2666就行了。</span><br>
+<span>怎么会 ...</span><br>
+<span>没有GPU版，程序基本上是自己写的，需要在python里调lua运行，只能cpu跑。显卡配了个2060S，不过基本没用上。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>工作机不要水冷，不要超频，机箱风扇是一定要的。</span><br>
+<span>CPU温度不超过95度都不要怕。</span><br>
+<span>内存插的对不对，4通道有没有跑起来。</span><br>
+<span>2990有两个die没有内存控制器，要走其他的die取内存数据，速度会受到很大影响，也就是瓶颈不一定在CPU这边</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>deviljz: </b><br>
+<span>DeepFishing 发表于 2019-12-8 11:54</span><br>
+<span>工作机不要水冷，不要超频，机箱风扇是一定要的。</span><br>
+<span>CPU温度不超过95度都不要怕。</span><br>
+<span>内存插的对不对，4通道有没 ...</span><br>
+<span>内存是对的，8个位置插的1368，之前插错过一次，开机主板给我个提示要按照这样插</span><br>
+</p><p><b>霖曦: </b><br>
+<span>是不是你的程序用了avx，那个zen是只有二分一速度</span><br>
+</p><p><b>deviljz: </b><br>
+<span> 本帖最后由 deviljz 于 2019-12-8 12:44 编辑 </span><br>
+<span>霖曦 发表于 2019-12-8 12:33</span><br>
+<span>是不是你的程序用了avx，那个zen是只有二分一速度</span><br>
+<span>没用到，tensorflow用的GPU版本</span><br>
+<span>我这里分成客户端和服务端，只有1个服务端用到tensorflow，客户端就是python+lua跑一些计算。</span><br>
+<span>为了尽量排除服务端导致的影响，服务端现在是开在i7-7700的电脑上的，2990wx用来跑64个客户端。</span><br>
+</p><p><b>deviljz: </b><br>
+<span>还想起个忘记说的事情，BIOS里我看到有风扇策略，之前70度好像是8x%功率，我给改成68度就100%功率了，这个调整是对的吧？</span><br>
+</p><p><b>宏: </b><br>
+<span> 本帖最后由 宏 于 2019-12-8 12:54 编辑 </span><br>
+<span>deviljz 发表于 2019-12-8 01:58</span><br>
+<span>对了，还有个问题忘记说</span><br>
+<span>AMD RYZEN MASTER的控制模式里有3种：自动、精准频率提升、手动</span><br>
+<span>精准频率提升就是PBO。上面调风扇没错。机箱把风扇插满，至少3进1出，开全速</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 11:41</span><br>
+<span>因为之前对这方面了解不多，有些地方希望能说详细一点</span><br>
+<span>搜了一下2990wx的全核工况，你可以试试锁1.15V 3.4GHz，这样CPU功耗应该很低，而且不会68C就降频了</span><br>
+<span>不过这样就牺牲单核性能了（4.2ghz降到3.4ghz）</span><br>
+<span>最好还是找个boost能起作用，但又不会68C就降频的模式</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 15:45</span><br>
+<span>搜了一下2990wx的全核工况，你可以试试锁1.15V 3.4GHz，这样CPU功耗应该很低，而且不会68C就降频了</span><br>
+<span>不过 ...</span><br>
+<span>我明天试试，感觉这样会上90度……</span><br>
+<span>现在我电压设置1v没动，频率3GHz没动，开64个进程温度最高能到85度以上</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 16:08</span><br>
+<span>我明天试试，感觉这样会上90度……</span><br>
+<span>现在我电压设置1v没动，频率3GHz没动，开64个进程温度最高能到85度以 ...</span><br>
+<span>是Tdie 85C而不是Tctl吗 </span><br>
+<span>锁1V就温度这么高真是。。。</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 16:11</span><br>
+<span>是Tdie 85C而不是Tctl吗 </span><br>
+<span>锁1V就温度这么高真是。。。</span><br>
+<span>AMD RYZEN MASTER里显示的温度，我不确定这个显示的是哪里的温度</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 16:30</span><br>
+<span>AMD RYZEN MASTER里显示的温度，我不确定这个显示的是哪里的温度</span><br>
+<span>ryzen master显示的应该是Tctl，实际的Tdie要85C-27C只有58C</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 16:34</span><br>
+<span>ryzen master显示的应该是Tctl，实际的Tdie要85C-27C只有58C</span><br>
+<span>顺便问下安全的温度范围大概是多少，64个进程的程序要长时间跑，可以认为每次都在10小时以上</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 17:03</span><br>
+<span>顺便问下安全的温度范围大概是多少，64个进程的程序要长时间跑，可以认为每次都在10小时以上 ...</span><br>
+<span>7*24的话一般建议不要超过Tjmax-15，也就是Tdie不要超过80C，Tctl不要超过107C</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 17:16</span><br>
+<span>7*24的话一般建议不要超过Tjmax-15，也就是Tdie不要超过80C，Tctl不要超过107C</span><br>
+<span>https://www.amd.com/zh-hans/products/cpu/amd-ryzen-threadripper-2990wx</span><br>
+<span>官网写的最高温度68，这个是指适合工作的温度吧，这个是Tdie温度还是Tctl温度？</span><br>
+<span>我看ryzen master如果开成自动，显示温度到68度就开始降频</span><br>
+</p><p><b>madbird302: </b><br>
+<span>工作用上双路至强不好么</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 17:37</span><br>
+<span>https://www.amd.com/zh-hans/products/cpu/amd-ryzen-threadripper-2990wx</span><br>
+<span>官网写的最高温度68，这个是 ...</span><br>
+<span>ryzen master讲真建议卸载，它能改的设置BIOS都能改，而且它改设置也要重启才能生效</span><br>
+<span>官网那个68C很令人迷惑，我查到68C指的是Tdie达到68C之后所有boost机制都失效</span><br>
+<span>降频的话，Tdie超过85C的话我这里直接降到0.55GHz的</span><br>
+<span>而68C的降频只是boost失效，降到具体多少没试过，应该不会低于base clock。而手动设定电压和频率的话就不受68C的限制了</span><br>
+</p><p><b>宏: </b><br>
+<span>madbird302 发表于 2019-12-8 17:46</span><br>
+<span>工作用上双路至强不好么</span><br>
+<span>这年代了，主板贵一大截，CPU贵一大截，何苦</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 17:37</span><br>
+<span>https://www.amd.com/zh-hans/products/cpu/amd-ryzen-threadripper-2990wx</span><br>
+<span>官网写的最高温度68，这个是 ...</span><br>
+<span>我装了个ryzen master看了下，显示的是Tdie而不是Tctl </span><br>
+<span>lz还是考虑一下怎么加强散热吧，Tdie超过85C降频可狠了。。。</span><br>
+<span>银箭TR4搜了下标320W，2990WX默认250W，照理说不至于这样</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 21:13</span><br>
+<span>我装了个ryzen master看了下，显示的是Tdie而不是Tctl </span><br>
+<span>lz还是考虑一下怎么加强散热吧，Tdie超过 ...</span><br>
+<span>温度这事是有点怪</span><br>
+<span>我把内存开到29xxMhz，温度85+</span><br>
+<span>内存降到2400Mhz，温度70左右</span><br>
+<span>为什么能差这么多我没想明白，感觉还要排除其他干扰多做一些测试看看</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 21:28</span><br>
+<span>温度这事是有点怪</span><br>
+<span>我把内存开到29xxMhz，温度85+</span><br>
+<span>2990WX这么多核对内存带宽非常饥渴，降到2400可能是因为喂不饱，所以CPU占用不充分，虽然表面上看都是100%占用</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 21:32</span><br>
+<span>2990WX这么多核对内存带宽非常饥渴，降到2400可能是因为喂不饱，所以CPU占用不充分，虽然表面上看都是100 ...</span><br>
+<span>内存带宽压力大不大应该怎么看，我感觉我这里应该压力不大</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 22:08</span><br>
+<span>内存带宽压力大不大应该怎么看，我感觉我这里应该压力不大</span><br>
+<span>不知道什么专门的软件可以看</span><br>
+<span>你可以试试hwinfo记录一下，跑同样测试，只有内存频率不同，CPU的SoC、CPU Core、CPU Package功耗差多少。温度差这么多，估计这几个功耗也有差</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>deviljz 发表于 2019-12-8 22:08</span><br>
+<span>内存带宽压力大不大应该怎么看，我感觉我这里应该压力不大</span><br>
+<span>ryzen的内存频率绑定总线频率，本来大运算就超吃总线，你砍总线速度所有核心都变慢</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>deviljz: </b><br>
+<span>sblnrrk 发表于 2019-12-8 23:38</span><br>
+<span>ryzen的内存频率绑定总线频率，本来大运算就超吃总线，你砍总线速度所有核心都变慢</span><br>
+<span>—— 来自 HUAWEI CO ...</span><br>
+<span>这个不是很懂，我有什么办法确认是不是带宽压力大吗？</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>考虑之前matlab的那个帖提到的情况，会不会也是对zen架构负优化了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-8 23:50</span><br>
+<span>这个不是很懂，我有什么办法确认是不是带宽压力大吗？</span><br>
+<span>没啥好办法，只有控制变量法：CPU频率固定，看提高内存频率会不会带来性能提高</span><br>
+<span>zen/zen+的弱智设计是CPU IF总线频率和IMC频率绑定，调高内存频率时，IF总线频率也提高了（类似于牙膏平台的超mesh）</span><br>
+<span>zen2才把IF总线和IMC解绑（默认还是绑定，但可以选择解绑，谢天谢地</span><br>
+</p><p><b>你的全家: </b><br>
+<span>我用i7-7700开8个进程和这台2900wx跑同样的事情，算了下时间发现i7 1个进程跑一个周期要4秒，这台2900wx 1个进程跑1个周期要12秒，这差距有点大</span><br>
+<span>============</span><br>
+<span>用matlab或者anaconda或者其他线性代数玩意的话要开个mkl变量</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>然后2990wx和zen2不一样，这玩意应当视作双路系统看待</span><br>
+<span>如果有跨numa节点就会有传统艺能发生</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>albertfu: </b><br>
+<span>你的全家 发表于 2019-12-9 01:53</span><br>
+<span>然后2990wx和zen2不一样，这玩意应当视作双路系统看待</span><br>
+<span>如果有跨numa节点就会有传统艺能发生</span><br>
+<span>2950X已经是双路了，2990WX其实是四路，而且两个NUMA节点没法直接访问内存 </span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-9 01:14</span><br>
+<span>没啥好办法，只有控制变量法：CPU频率固定，看提高内存频率会不会带来性能提高</span><br>
+<span>zen/zen+的弱智设计是CPU ...</span><br>
+<span>提高内存频率性能会提高，但是发热太厉害，我又给降回来了</span><br>
+</p><p><b>deviljz: </b><br>
+<span>real_zyf 发表于 2019-12-9 01:04</span><br>
+<span>考虑之前matlab的那个帖提到的情况，会不会也是对zen架构负优化了</span><br>
+<span>有帖子地址吗，我去仔细看看</span><br>
+</p><p><b>FMIC: </b><br>
+<span>deviljz 发表于 2019-12-9 11:04</span><br>
+<span>提高内存频率性能会提高，但是发热太厉害，我又给降回来了</span><br>
+<span>先改善散热吧，这个肯定是最大的瓶颈，然后把内存频率尽可能加高</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-9 11:04</span><br>
+<span>有帖子地址吗，我去仔细看看</span><br>
+<span>https://www.extremetech.com/computing/302650-how-to-bypass-matlab-cripple-amd-ryzen-threadripper-cpus</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1866511-1-1.html</span><br>
+<span>https://www.pugetsystems.com/labs/hpc/How-To-Use-MKL-with-AMD-Ryzen-and-Threadripper-CPU-s-Effectively-for-Python-Numpy-And-Other-Applications-1637/</span><br>
+<span>https://www.reddit.com/r/matlab/comments/dxn38s/howto_force_matlab_to_use_a_fast_codepath_on_amd/</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-8 22:28</span><br>
+<span>不知道什么专门的软件可以看</span><br>
+<span>你可以试试hwinfo记录一下，跑同样测试，只有内存频率不同，CPU的SoC、CPU...</span><br>
+<span>2400</span><br>
+<span>2934</span><br>
+<span>我仔细观察了下，这个87度不是上来就87度，是一点点升上去的，一开始70多</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-9 12:18</span><br>
+<span>2400</span><br>
+<span>2934</span><br>
+<span>看了下你发的图，2933时SoC电压可以适当调低些</span><br>
+<span>默认给了1.1V以上，实际1V~1.05V比较合适，高了并不有利于内存上高频。SoC电压调低也能减少10W左右功耗，210W降到200W也是好的</span><br>
+</p><p><b>你的全家: </b><br>
+<span>albertfu 发表于 2019-12-9 03:07</span><br>
+<span>2950X已经是双路了，2990WX其实是四路，而且两个NUMA节点没法直接访问内存...</span><br>
+<span>嗯 4ccx 两组内存控制器</span><br>
+<span>所以算起来的话其实是两个 双ccx算一个节点</span><br>
+<span>说起来amd至今没做出多路系统</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-9 13:30</span><br>
+<span>看了下你发的图，2933时SoC电压可以适当调低些</span><br>
+<span>默认给了1.1V以上，实际1V~1.05V比较合适，高了并不有利 ...</span><br>
+<span>选了xmp1档，自动就这样，我去找找在哪改</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>你的全家 发表于 2019-12-9 14:01</span><br>
+<span>嗯 4ccx 两组内存控制器</span><br>
+<span>所以算起来的话其实是两个 双ccx算一个节点</span><br>
+<span>是4路，4个die互联，其中两个没有插内存，需要走远端</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>deviljz: </b><br>
+<span>albertfu 发表于 2019-12-9 13:30</span><br>
+<span>看了下你发的图，2933时SoC电压可以适当调低些</span><br>
+<span>默认给了1.1V以上，实际1V~1.05V比较合适，高了并不有利 ...</span><br>
+<span>soc电压改成1.075v，降了一点点</span><br>
+</p><p><b>deviljz: </b><br>
+<span>看了下这机箱能装9个机箱风扇，我打算装满</span><br>
+</p><p><b>albertfu: </b><br>
+<span>deviljz 发表于 2019-12-9 15:25</span><br>
+<span>soc电压改成1.075v，降了一点点</span><br>
+<span>SoC Power降了12W，和预估的差不多</span><br>
+<span>package power不变估计是core power上去了，吃掉了SoC部分节约的功耗，而package power受制于散热规模上不去</span><br>
+<span>搜了一下hardocp做过2990WX配合银箭TR4的评测，可惜这人跳槽outel之后把hardocp网站关掉了，现在只能看google cache，看不到图：</span><br>
+<span>The delta between the Thermalright and the Cooler Master on this run is a minimal ~50MHz. Even with our 2990WX it can still edge out a tiny lead, which I find somewhat impressive. Of course the standout here is our XSPC cooler which allows our 2990WX to run a full ~666MHz faster than the Silver Arrow TR4...devilish. If you look however, both our air cooler systems are running clocks lower than they were with Precision Boost 2. Certainly that is not good. PBO is penalizing us on air compared to PB2.</span><br>
+<span>Keep in mind, that our 2990WX has a specified TDP of 250 watts. The Silver Arrow TR4 run shows to be using 283 watts package power. The Wraith Ripper system package power is 42 watts lower. I think this spread between the two air coolers does not seem quite "correct." Surely as the 2990WX get hotter, its power usage becomes exponential and certainly does not ramp linearly, but it still seemed like a big bump to me. If you look, the Cooler Master cooler is actually below TDP. Certainly the water cooled 2990WX is rolling through the power. While 442 watts might seem excessive, we have seen package power above 650 watts doing hand overclocking here recently. No matter how you look it, PBO is an issue for our air coolers in terms of clocks and power.</span><br>
+<span>水冷能比银箭快666MHz，package power能压到442W，银箭能压制283W package power</span><br>
+<span>你这里只有210W的话，可能是机箱温度比hardocp的测试环境温度要高</span><br>
+<span>先试试银箭上挂满3风扇吧，高马甲条的话竖直机箱没法固定风扇，我的做法是主板平放，用胶带把TY-143扇子固定住</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1886372[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>chrome部分网页图标显示方块咋办【已解决】</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>chrome部分网页图标显示方块咋办【已解决】</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:24 +0000</lastBuildDate>
+    <item>
+      <title>chrome部分网页图标显示方块咋办【已解决】[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904131-1-1.html</link>
+      <description>chrome部分网页图标显示方块咋办【已解决】&#13;
+ 本帖最后由 mado 于 2019-12-19 19:56 编辑 
+
+另一台电脑上谷歌浏览器打开网页显示的好好的，换台电脑，账号同步过来，部分icon显示为方块。比如淘宝和虾米。
+&#13;
+也没像网上说的安装了“Force Microsoft Yahei Font”扩展程序。
+&#13;
+手动F12删掉“font-family: "微软雅黑"!important;”后半句，网页icon倒是能正常显示了。
+&#13;
+长期这样也挺烦人的，s1老哥们有没有能一次性解决问题的办法？</description>
+      <content:encoded><![CDATA[<p><b>mado: </b><br>
+<span>chrome部分网页图标显示方块咋办【已解决】</span><br>
+<span> 本帖最后由 mado 于 2019-12-19 19:56 编辑 </span><br>
+<span>另一台电脑上谷歌浏览器打开网页显示的好好的，换台电脑，账号同步过来，部分icon显示为方块。比如淘宝和虾米。</span><br>
+<span>也没像网上说的安装了“Force Microsoft Yahei Font”扩展程序。</span><br>
+<span>手动F12删掉“font-family: "微软雅黑"!important;”后半句，网页icon倒是能正常显示了。</span><br>
+<span>长期这样也挺烦人的，s1老哥们有没有能一次性解决问题的办法？</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>字体问题，强制设置的字体没有一些特殊的符号导致无法显示。</span><br>
+<span>建议安装stylus然后上stylish网站找“全局雅黑”</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>看起来是你有什么扩展改了原本 icon 字体</span><br>
+</p><p><b>mado: </b><br>
+<span>huaxianyan 发表于 2019-12-19 19:08</span><br>
+<span>看起来是你有什么扩展改了原本 icon 字体</span><br>
+<span>翻了下扩展应用列表，找到了个“强制网页使用自定义字体”，关掉问题就解决了。明明记得这个问题在安装这个扩展应用之前就有了……可能是我记错了。</span><br>
+<span>谢谢温暖的s1，谢谢楼上各位</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904131[0-50]</guid>
+    </item>
+  </channel>
+</rss>

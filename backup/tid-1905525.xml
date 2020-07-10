@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>壁纸分享：素数螺旋</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>壁纸分享：素数螺旋</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:08:00 +0000</lastBuildDate>
+    <item>
+      <title>壁纸分享：素数螺旋[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905525-1-1.html</link>
+      <description>壁纸分享：素数螺旋&#13;
+ 本帖最后由 smy20011 于 2019-12-25 21:51 编辑 
+
+如果把小于N的所有素数P，以(p, p)的坐标画到极坐标系中，会形成怎么样的图案？在看3B1B的视频(bilibili.com/video/av73773499) 的时候，就被那个超级漂亮的素数螺旋震撼了，可惜视频只有1080p，不能当壁纸使用。
+&#13;
+所以我就写了一个小程序，重现了极坐标的绘制过程，生成了几张4k的壁纸，供大家使用：）
+&#13;
+N = 100000
+&#13;
+https://i.loli.net/2019/12/25/t8z96JKNEdHVelS.png
+&#13;
+N = 500000
+&#13;
+https://i.loli.net/2019/12/25/aUi8yjwebK3hEdB.png
+&#13;
+N = 1000000
+&#13;
+https://i.loli.net/2019/12/25/JKHEIXg2c57ALdD.png
+&#13;
+N = 2000000
+&#13;
+https://i.loli.net/2019/12/25/nqbSrhGWjickFsZ.png
+&#13;
+代码：
+&#13;
+#!/usr/bin/python3
+&#13;
+import math
+&#13;
+import argparse
+&#13;
+from PIL import Image, ImageDraw
+&#13;
+def get_all_primes(n):
+&#13;
+    mask =  * n
+&#13;
+    for num in range(3, int(math.sqrt(n)) + 1, 2):
+&#13;
+      if mask:
+&#13;
+            for i in range(num * num, n, num):
+&#13;
+                mask = False
+&#13;
+    return  + ]
+&#13;
+parser = argparse.ArgumentParser(description='Prime number in polar axis')
+&#13;
+parser.add_argument('--width', type=int, default=3840, help='image width (in pixel)')
+&#13;
+parser.add_argument('--height', type=int, default=2160, help='image height (in pixel)')
+&#13;
+parser.add_argument('--filename', type=str, default='primes.png', help='output file name')
+&#13;
+parser.add_argument('--radius', type=int, default=2, help='radius of circle')
+&#13;
+parser.add_argument('N', type=int, default=100000, help='all prime numbers should smaller than N')
+&#13;
+args = parser.parse_args()
+&#13;
+img = Image.new('RGB', (args.width, args.height))
+&#13;
+draw = ImageDraw.Draw(img)
+&#13;
+scale = math.sqrt(args.width ** 2 + args.height ** 2) / 2 / args.N
+&#13;
+for p in get_all_primes(args.N):
+&#13;
+    x = p * scale * math.cos(p) + args.width / 2
+&#13;
+    y = p * scale * math.sin(p) + args.height / 2
+&#13;
+    r = args.radius
+&#13;
+    draw.ellipse(, fill='aquamarine')
+&#13;
+img.save(args.filename)</description>
+      <content:encoded><![CDATA[<p><b>smy20011: </b><br>
+<span>壁纸分享：素数螺旋</span><br>
+<span> 本帖最后由 smy20011 于 2019-12-25 21:51 编辑 </span><br>
+<span>如果把小于N的所有素数P，以(p, p)的坐标画到极坐标系中，会形成怎么样的图案？在看3B1B的视频(bilibili.com/video/av73773499) 的时候，就被那个超级漂亮的素数螺旋震撼了，可惜视频只有1080p，不能当壁纸使用。</span><br>
+<span>所以我就写了一个小程序，重现了极坐标的绘制过程，生成了几张4k的壁纸，供大家使用：）</span><br>
+<span>N = 100000</span><br>
+<img src="https://i.loli.net/2019/12/25/t8z96JKNEdHVelS.png" title="https://i.loli.net/2019/12/25/t8z96JKNEdHVelS.png"><br>
+<span>N = 500000</span><br>
+<img src="https://i.loli.net/2019/12/25/aUi8yjwebK3hEdB.png" title="https://i.loli.net/2019/12/25/aUi8yjwebK3hEdB.png"><br>
+<span>N = 1000000</span><br>
+<img src="https://i.loli.net/2019/12/25/JKHEIXg2c57ALdD.png" title="https://i.loli.net/2019/12/25/JKHEIXg2c57ALdD.png"><br>
+<span>N = 2000000</span><br>
+<img src="https://i.loli.net/2019/12/25/nqbSrhGWjickFsZ.png" title="https://i.loli.net/2019/12/25/nqbSrhGWjickFsZ.png"><br>
+<span>代码：</span><br>
+<span>#!/usr/bin/python3</span><br>
+<span>import math</span><br>
+<span>import argparse</span><br>
+<span>from PIL import Image, ImageDraw</span><br>
+<span>def get_all_primes(n):</span><br>
+<span>    mask =  * n</span><br>
+<span>    for num in range(3, int(math.sqrt(n)) + 1, 2):</span><br>
+<span>      if mask:</span><br>
+<span>            for i in range(num * num, n, num):</span><br>
+<span>                mask = False</span><br>
+<span>    return  + ]</span><br>
+<span>parser = argparse.ArgumentParser(description='Prime number in polar axis')</span><br>
+<span>parser.add_argument('--width', type=int, default=3840, help='image width (in pixel)')</span><br>
+<span>parser.add_argument('--height', type=int, default=2160, help='image height (in pixel)')</span><br>
+<span>parser.add_argument('--filename', type=str, default='primes.png', help='output file name')</span><br>
+<span>parser.add_argument('--radius', type=int, default=2, help='radius of circle')</span><br>
+<span>parser.add_argument('N', type=int, default=100000, help='all prime numbers should smaller than N')</span><br>
+<span>args = parser.parse_args()</span><br>
+<span>img = Image.new('RGB', (args.width, args.height))</span><br>
+<span>draw = ImageDraw.Draw(img)</span><br>
+<span>scale = math.sqrt(args.width ** 2 + args.height ** 2) / 2 / args.N</span><br>
+<span>for p in get_all_primes(args.N):</span><br>
+<span>    x = p * scale * math.cos(p) + args.width / 2</span><br>
+<span>    y = p * scale * math.sin(p) + args.height / 2</span><br>
+<span>    r = args.radius</span><br>
+<span>    draw.ellipse(, fill='aquamarine')</span><br>
+<span>img.save(args.filename)</span><br>
+</p><p><b>poiuhgfdwq: </b><br>
+<span>我看过这一期的布朗先生!(我干嘛要看这个....</span><br>
+</p><p><b>ebuw: </b><br>
+<span>所以素数为啥是螺旋状的？</span><br>
+</p><p><b>麦克斯韦: </b><br>
+<span>“以(p, p)的坐标画到极坐标系中”，这句话是什么意思？</span><br>
+</p><p><b>kros: </b><br>
+<span>求分享源码</span><br>
+</p><p><b>584520184: </b><br>
+<span>哦哦 这个牛批</span><br>
+</p><p><b>violind88: </b><br>
+<span>突然发现B站上这期之后到现在没有新的了 这期真的又容易理解又好看</span><br>
+</p><p><b>ebuw: </b><br>
+<span>楼主能不能用更小的像素来显示素数当前位置。在27寸屏幕上看绿点有点大。</span><br>
+</p><p><b>a4ac7: </b><br>
+<span> 本帖最后由 a4ac7 于 2019-12-25 21:50 编辑 </span><br>
+<span>麦克斯韦 发表于 2019-12-25 21:42</span><br>
+<span>“以(p, p)的坐标画到极坐标系中”，这句话是什么意思？</span><br>
+<span>到原点距离为p，与x轴夹角是p，极坐标系就是（r，θ）</span><br>
+<span>这期挺容易理解，好像是被2π取模同余的素数分布是均匀的，但每个会稍微偏一点</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>我也是看3B1B的视频看到这个的，他们的视频很好看，能把高深的数学问题讲的很直观</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>引用第2楼ebuw于2019-12-25 21:38发表的:</span><br>
+<span>所以素数为啥是螺旋状的？</span><br>
+<span>@ebuw</span><br>
+<span>主楼视频里有讲</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>smy20011: </b><br>
+<span>kros 发表于 2019-12-25 21:43</span><br>
+<span>求分享源码</span><br>
+<span>我贴上了，代码依赖于Pillow</span><br>
+<span>https://pillow.readthedocs.io/en/3.1.x/index.html</span><br>
+</p><p><b>fallout: </b><br>
+<span>不是我ky 我看到类似图就深空恐惧发作</span><br>
+</p><p><b>Feena: </b><br>
+<span>哇，厉害了大佬！</span><br>
+</p><p><b>暗蓝光: </b><br>
+<span>先画个n＝10的啊，看看起源</span><br>
+</p><p><b>红区骑士: </b><br>
+<span>赞美大佬</span><br>
+</p><p><b>审讯牧师: </b><br>
+<span>请问有BMP或其他版本的马？webp用不来</span><br>
+</p><p><b>smy20011: </b><br>
+<span>审讯牧师 发表于 2019-12-25 23:18</span><br>
+<span>请问有BMP或其他版本的马？webp用不来</span><br>
+<span> 不知道为什么sm.ms二压了</span><br>
+</p><p><b>魔铁潜水艇: </b><br>
+<span>单从视觉效果上来说……你随便找一个密度大约符合x/ln x的随机数都差不多………………</span><br>
+</p><p><b>smy20011: </b><br>
+<span>ebuw 发表于 2019-12-25 21:47</span><br>
+<span>楼主能不能用更小的像素来显示素数当前位置。在27寸屏幕上看绿点有点大。 ...</span><br>
+<span>r = 1</span><br>
+</p><p><b>攻守俱其土肉狐: </b><br>
+</p><p><b>othergay: </b><br>
+<span>居然看完了这个视频</span><br>
+</p><p><b>红色福音: </b><br>
+<span>数学之美</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span>挑个刺，素数部分可以写个欧拉筛，能处理更多的数据。</span><br>
+</p><p><b>蓝鸥之魂: </b><br>
+<span>不行，这个会密恐发作</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>N=50000000</span><br>
+<span>想起了伊藤润二的《漩涡》</span><br>
+</p><p><b>sign34789: </b><br>
+<span>哎，我还以为发现素数规律了</span><br>
+</p><p><b>白龙: </b><br>
+<span>好有趣</span><br>
+<span>感觉这玩法会带来一些惊喜</span><br>
+<span>期待更多有意思的形状</span><br>
+<span>等一下更多不同N的图</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>于是你就用了smms做图床smms是不是会压图。可以用百度云或者Cowtransfer什么的分享个原档吗？</span><br>
+</p><p><b>fore_long: </b><br>
+<span>N＝100000 内圈居然是太极么，真不可思议啊</span><br>
+</p><p><b>smy20011: </b><br>
+<span>若荼泱 发表于 2019-12-26 06:50</span><br>
+<span>于是你就用了smms做图床smms是不是会压图。可以用百度云或者Cowtransfer什么的分享个原档吗？ ...</span><br>
+<span>下面我传的是用的泥潭附件，泥潭要是再压缩我就没办法了</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>nogi: </b><br>
+<span>这个点能改成近大远小么</span><br>
+</p><p><b>扶扶老奶奶: </b><br>
+<span>其实自然数也是螺旋，素数螺旋只是少了一些悬臂</span><br>
+</p><p><b>烤烤鱼ω: </b><br>
+<span>这样玩很多画法都能出螺旋吧，比如用n＊e试试，e是2.17828…那个</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>cleaner: </b><br>
+<span>人均程序员</span><br>
+<span>—— 来自 Sony J9110, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>aiiaib: </b><br>
+<span>有人搬运4π的视频啦，好事儿啊</span><br>
+<span>唯一的问题是主持人语音轻柔，困了的情况下极易睡着</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905525[0-50]</guid>
+    </item>
+  </channel>
+</rss>

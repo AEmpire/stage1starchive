@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，有没有玩pt的坛友或者懂utorrent的坛友？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，有没有玩pt的坛友或者懂utorrent的坛友？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:43:21 +0000</lastBuildDate>
+    <item>
+      <title>求助，有没有玩pt的坛友或者懂utorrent的坛友？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859150-1-1.html</link>
+      <description>求助，有没有玩pt的坛友或者懂utorrent的坛友？&#13;
+ 本帖最后由 被雨困住的城市 于 2019-10-12 18:17 编辑 
+
+我本来从外网下载一个游戏的资源，在两个pt站点辅种，都文件校验没有问题，之后我换硬盘，把文件剪切到另外一个硬盘里，又重校验一遍，一个pt站100%没问题，另外一个pt站校验就卡99.9%啦，请问这是什么问题呢？
+&#13;
+还有一个问题，就是我从pt站下载的游戏，这次换硬盘之后重校验，有的就卡99.9%啦，也不明白为什么呢……谢谢啦！</description>
+      <content:encoded><![CDATA[<p><b>被雨困住的城市: </b><br>
+<span>求助，有没有玩pt的坛友或者懂utorrent的坛友？</span><br>
+<span> 本帖最后由 被雨困住的城市 于 2019-10-12 18:17 编辑 </span><br>
+<span>我本来从外网下载一个游戏的资源，在两个pt站点辅种，都文件校验没有问题，之后我换硬盘，把文件剪切到另外一个硬盘里，又重校验一遍，一个pt站100%没问题，另外一个pt站校验就卡99.9%啦，请问这是什么问题呢？</span><br>
+<span>还有一个问题，就是我从pt站下载的游戏，这次换硬盘之后重校验，有的就卡99.9%啦，也不明白为什么呢……谢谢啦！</span><br>
+</p><p><b>naok: </b><br>
+<span>隐藏文件？用beyondcompara比较一下两个文件夹</span><br>
+</p><p><b>六尺之下: </b><br>
+<span>首先，移动文件路径之后不需要重新校验，从pt站重新下载种子打开，选择文件路径，utorrent上勾选“禁用强制校验”就能直接做种了。</span><br>
+<span>99.9%可能是因为这两个站虽然是同一个文件资源，种子文件却是两个人分别创建的，导致文件分块上有点区别（比如一个种子是4MB分块，一个是8MB，或者文件的排序不一样），剩下的0.01%其实是空白文件不相干的。卡在99.9%你直接让他下载完剩下的空白内容就行了，不会影响资源本身。</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span> 本帖最后由 被雨困住的城市 于 2019-10-12 18:24 编辑 </span><br>
+<span>六尺之下 发表于 2019-10-12 18:10</span><br>
+<span>首先，移动文件路径之后不需要重新校验，从pt站重新下载种子打开，选择文件路径，utorrent上勾选“禁用强制 ...</span><br>
+<span>谢谢您的回复~</span><br>
+<span>我不明白的就是，这次换硬盘，好几个我之前校验100%的资源，都变成99.9%啦，真的搞不懂为什么？</span><br>
+<span>而且有的种就我一个上传的啊，卡99.9%也没法下载啊……</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>naok 发表于 2019-10-12 18:07</span><br>
+<span>隐藏文件？用beyondcompara比较一下两个文件夹</span><br>
+<span>谢谢您的回复，我确定不是这个原因啦</span><br>
+</p><p><b>无聊者X: </b><br>
+<span>感觉是文件有坏块，原来的硬盘有的文件块读不出来了</span><br>
+</p><p><b>六尺之下: </b><br>
+<span>被雨困住的城市 发表于 2019-10-12 18:22</span><br>
+<span>谢谢您的回复~</span><br>
+<span>我不明白的就是，这次换硬盘，好几个我之前校验100%的资源，都变成99.9%啦，真的搞不懂为什 ...</span><br>
+<span>原因我也是猜的，反正用跳过校验的方法就行了，因为这个过程只会检测文件名（包括文件的路径）和文件大小，只要这两者跟torrent文件里的描述一致就能通过</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>六尺之下 发表于 2019-10-12 18:31</span><br>
+<span>原因我也是猜的，反正用跳过校验的方法就行了，因为这个过程只会检测文件名（包括文件的路径）和文件大小 ...</span><br>
+<span>第一个问题里的文件我又校验一遍，他就100%啦，服，后面的可能是有损坏吧</span><br>
+<span>谢谢啦</span><br>
+</p><p><b>被雨困住的城市: </b><br>
+<span>无聊者X 发表于 2019-10-12 18:31</span><br>
+<span>感觉是文件有坏块，原来的硬盘有的文件块读不出来了</span><br>
+<span>有这样的可能</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>有个 跳过散列校验 的选项，试试呢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859150[0-50]</guid>
+    </item>
+  </channel>
+</rss>

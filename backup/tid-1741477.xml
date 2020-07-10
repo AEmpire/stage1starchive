@@ -1,0 +1,897 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Python炒股（138楼更新）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Python炒股（138楼更新）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:02:22 +0000</lastBuildDate>
+    <item>
+      <title>Python炒股（138楼更新）[200-250]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1741477-1-1.html</link>
+      <description>Python炒股（138楼更新）&#13;
+ 本帖最后由 Timme 于 2018-9-22 09:27 编辑 
+
+步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。
+&#13;
+步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。
+&#13;
+步骤3：如验证结果良好，投入实盘，如上图。</description>
+      <content:encoded><![CDATA[<p><b>奋斗男: </b><br>
+<span>厄贝沙坦 发表于 2018-9-28 17:58</span><br>
+<span>你们太闲了吧</span><br>
+<span>非要较真人家的策略和收益率干嘛呢</span><br>
+<span>准吹逼 那麻烦吹得像那么回事点，连我三板斧都接不下来，还在那吹？更何况我连三板都没用上，就已经让楼主没法自己圆自己了</span><br>
+</p><p><b>jonz: </b><br>
+<span>楼主能推荐怎么学习入门交易策略</span><br>
+</p><p><b>afrozan: </b><br>
+<span>厄贝沙坦 发表于 2018-9-28 17:58</span><br>
+<span>你们太闲了吧</span><br>
+<span>非要较真人家的策略和收益率干嘛呢</span><br>
+<span>他就是在试水，泼冷水的太多，就不方便公开群号了，说不定背地里已经私信开卖了</span><br>
+</p><p><b>斯文老狗: </b><br>
+<span>时间序列预测嘛 蓝鹅炒股的是博弈 不是预测</span><br>
+</p><p><b>Timme: </b><br>
+<span>奋斗男 发表于 2018-9-28 17:46</span><br>
+<span>我看你是怕暴露自己是虚拟操盘，永远报喜不报忧的系列</span><br>
+<span>键盘上随便悄悄几百万的收益，不就那么简单吗</span><br>
+<span>社保基金亏了所以我也一定要亏，这是哪门子道理？</span><br>
+<span>我上的都是招商证券app截图，是实盘。当然你可以说我是P的。我上个点开app的视频你也可以说我做的CG对不对？</span><br>
+</p><p><b>奋斗男: </b><br>
+<span>Timme 发表于 2018-9-29 09:49</span><br>
+<span>社保基金亏了所以我也一定要亏，这是哪门子道理？</span><br>
+<span>我上的都是招商证券app截图，是实盘。当然你可以说我 ...</span><br>
+<span>一点毛病都没有，社保那边操盘无论是操盘工具还是量化工具哪个比你差？ 人家亏了40~70%你那程序100%成功？闹笑呢？</span><br>
+<span>最后 麻烦别截个这种不痛不痒的东西来糊弄群众</span><br>
+</p><p><b>liuxl8964: </b><br>
+<span>可惜LZ被封了</span><br>
+</p><p><b>回锅牛肉: </b><br>
+<span>怎么样了？</span><br>
+</p><p><b>xqterry: </b><br>
+<span>楼主牛逼 赚封了</span><br>
+</p><p><b>烤脑花: </b><br>
+<span>楼主怎么被封了？</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>，</span><br>
+</p><p><b>Alkarlindil: </b><br>
+<span>楼主也放出来了,如何啊近来?之前说更新也没信了</span><br>
+</p><p><b>烦啦烦啦561: </b><br>
+<span>lstm</span><br>
+<span>ltcm</span><br>
+<span>。。</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>18年结束，lz最近怎么样</span><br>
+</p><p><b>奋斗男: </b><br>
+<span>楼主出来吧今天2018年收关了</span><br>
+</p><p><b>宏亮: </b><br>
+<span>**已经有这功能了，叫预测未来走</span><br>
+</p><p><b>shinjiwy: </b><br>
+<span>一群键盘侠就别冷嘲热讽了 100%的盈利率 楼主已经被华尔街请去当人生赢家了</span><br>
+</p><p><b>伊尔衫诗舞: </b><br>
+<span>好好奇呀 lz最近收益率怎么样啦？</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>最近应该不错吧</span><br>
+</p><p><b>Timme: </b><br>
+<span>龙娘777 发表于 2019-3-6 18:44</span><br>
+<span>最近应该不错吧</span><br>
+<span>很多人不懂得计算炒股是否盈利，以为牛市大家都赚钱熊市大家都亏钱，这个很明显是不对的，因为炒股是零和游戏。在这里可以公开两种土办法：</span><br>
+<span>1. 熊市，还能一直稳定赚钱的，说明在盈利（绝对准确）</span><br>
+<span>2. 大盘经过一个峰/谷之后回到相同点位时，计算一下赚了还是亏了，可以知道是否在盈利（基本准确）</span><br>
+</p><p><b>慕蓉雪姬: </b><br>
+<span>Timme 发表于 2019-03-06 18:54:24</span><br>
+<span>很多人不懂得计算炒股是否盈利，以为牛市大家都赚钱熊市大家都亏钱，这个很明显是不对的，因为炒股是零和 ...噗 楼主出现了感觉你公布个打脸收益图多好</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Timme: </b><br>
+<span>慕蓉雪姬 发表于 2019-3-6 19:11</span><br>
+<span>噗 楼主出现了感觉你公布个打脸收益图多好</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端 ...</span><br>
+<span>牛市人人都是股神，就不班门弄斧了。</span><br>
+</p><p><b>慕蓉雪姬: </b><br>
+<span>Timme 发表于 2019-3-6 19:23</span><br>
+<span>牛市人人都是股神，就不班门弄斧了。</span><br>
+<span>这都过了快一年了吧 泥潭看戏的多</span><br>
+<span>像我这种几千块钱自娱自乐的也不会搞这个 还不如看个乐子</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>19年结束，lz最近怎么样</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>一直保持盈利有、难度吧，不然lz早应该把收益放出来了</span><br>
+<span>lz还是说说去年破了多少14岁caoser的处吧</span><br>
+</p><p><b>mrlunzer: </b><br>
+<span>楼主策略贴出来老哥们帮你跑一下</span><br>
+</p><p><b>jctc: </b><br>
+<span>我已经发现了</span><br>
+<span>帝纳波利交易法</span><br>
+<span>只要股票在涨</span><br>
+<span>肯定能挣钱</span><br>
+<span>我现在就差1000万启动资金</span><br>
+<span>楼里有钱人借我啊</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>装死，没意思</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1741477[200-250]</guid>
+    </item>
+    <item>
+      <title>Python炒股（138楼更新）[150-200]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1741477-1-1.html</link>
+      <description>Python炒股（138楼更新）&#13;
+ 本帖最后由 Timme 于 2018-9-22 09:27 编辑 
+
+步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。
+&#13;
+步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。
+&#13;
+步骤3：如验证结果良好，投入实盘，如上图。</description>
+      <content:encoded><![CDATA[<p><b>奋斗男: </b><br>
+<span>Timme 发表于 2018-9-22 11:16</span><br>
+<span>不卖软件，就是抛砖引玉。隔壁已经被我炸出一个三个月1000%的来了，交流的很开心。。。 ...</span><br>
+<span>你这个牛逼的吹得真大3个月1000%</span><br>
+<span>实盘还是虚拟，后者免谈，前者出来走几步</span><br>
+<span>趋势看不对就不要谈什么选股，熊市选票10次错9，我就不信你能次次都中</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>你以为我是经济学？其实我是博弈论哒！</span><br>
+</p><p><b>wardenlym: </b><br>
+<span>我头一次见到头这么铁的大佬。期待后续</span><br>
+</p><p><b>燕游徒: </b><br>
+<span>膜拜大佬</span><br>
+</p><p><b>Timme: </b><br>
+<span> 本帖最后由 Timme 于 2018-9-25 22:50 编辑 </span><br>
+<span>奋斗男 发表于 2018-9-25 00:27</span><br>
+<span>你这个牛逼的吹得真大3个月1000%</span><br>
+<span>实盘还是虚拟，后者免谈，前者出来走几步</span><br>
+<span>虚拟和实盘没区别是散户得天独厚的优势，比如我常用的操作就这几个：开盘或尾盘3分钟竞价时买卖，开盘前挂涨停卖，中午挂涨停卖。这些对散户虚拟和实盘都没区别，比如尾盘竞价时你填跌停价卖出，它就以收盘价卖出了。</span><br>
+<span>当然我上面的图都是实盘，是招商证券app截图。</span><br>
+<span>正因为熊市十次选股九次错，所以才是策略测试的天堂。我回测也都是把历史上的熊市截出来跑的。在牛市我是计划测试如何实现稳定的亏损，这个比熊市赚钱还难一点。</span><br>
+</p><p><b>奋斗男: </b><br>
+<span> 本帖最后由 奋斗男 于 2018-9-26 00:08 编辑 </span><br>
+<span>Timme 发表于 2018-9-25 22:34</span><br>
+<span>虚拟和实盘没区别是散户得天独厚的优势，比如我常用的操作就这几个：开盘或尾盘3分钟竞价时买卖，开盘前挂 ...</span><br>
+<span>对不起 这不是交割单 少跟我混淆概念， 你这张图说明什么？</span><br>
+<span> 15分开出来涨停卖出或者其他价格买进 都可能不成交，然后你那理想状态也可能没法实现，连续竞价阶段你可以这么操作</span><br>
+<span>熊市最好的方式就是不做，下跌途中任何上涨都是反弹，反弹皆为逃命，如果连这个都不懂，我劝你赶紧退市吧</span><br>
+<span>牛市傻子丢个飞镖都能赚，还需要你那量化交易干嘛？ </span><br>
+<span>最后麻烦你给我上点干货（比如交割单），别在那丢那些模棱两可的东西出来，股市里跳大神的可真不少，什么赚了上亿，操作及其炸裂，满嘴玄学连kdj都解释不明白，我见得多了，希望你拿出的干货，s1可都看好你</span><br>
+</p><p><b>dodyang: </b><br>
+<span>LZ你的图是普通的账户总市值吗？看起来好像是几单短持仓的脉冲型交易</span><br>
+</p><p><b>Uaral: </b><br>
+<span>支持上交割单，想不通为啥版主不塞，广告哥还交保护费呢</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Timme: </b><br>
+<span>dodyang 发表于 2018-9-26 00:41</span><br>
+<span>LZ你的图是普通的账户总市值吗？看起来好像是几单短持仓的脉冲型交易</span><br>
+<span>熊市空仓时间需要占70%左右，没事就满仓的策略都需要回炉重炼。</span><br>
+<span>持仓时间虽短，但要么一个板要么两个板，少数没击中板的也没亏，总体下来也是可以的。</span><br>
+</p><p><b>MakeLaugh: </b><br>
+<span>大佬，有没有建个韭菜收割群，讨论下经验</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>交易策略我也有，配合某些特定参数下，我可以在模拟盘也跑到年化200%</span><br>
+<span>问题是，当我尝试实盘的时候，发现一切都不同了，只要超过100手或者是20万人民币左右，就一定会出现亏损，回撤3%都是运气好，前几天吃了把大的一把就把今年赚的亏进去了。</span><br>
+<span>人工干预？死的更惨，相信策略只会亏一丢丢，而且慢慢搬砖正收益20%还是有的。</span><br>
+<span>但是人工一干预么，呵呵，最近还在光环新网里关着出不来。</span><br>
+<span>A股有毒，邪。</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>大大们都不要再争论了，我都信你们的，求求你们给点代码救救我这样的无助韭菜吧，大大们厉害，佩服大大们，6666，小韭菜360度冰天雪地裸体跪求大大带</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+</p><p><b>Timme: </b><br>
+<span>kuleisite1992 发表于 2018-9-26 06:01</span><br>
+<span>交易策略我也有，配合某些特定参数下，我可以在模拟盘也跑到年化200%</span><br>
+<span>问题是，当我尝试实盘的时候，发现一 ...</span><br>
+<span>人工干预死的惨深同意，但虚拟和实盘的差异没有遇到过。想请教下，你是策略是你“设计”出来的，还是靠历史数据调参数“调”出来的？我的策略只是拿历史数据验证，基本不会用它来调参数，所有变化量基本在策略设计时已经定好了。</span><br>
+</p><p><b>潜水艇君: </b><br>
+<span>你们都不用mt4的吗……</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span>kuleisite1992 发表于 2018-9-26 06:01</span><br>
+<span>交易策略我也有，配合某些特定参数下，我可以在模拟盘也跑到年化200%</span><br>
+<span>问题是，当我尝试实盘的时候，发现一 ...</span><br>
+<span>虽然我完全不玩策略，但你这说法我完全相信....</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span>coffinzh 发表于 2018-9-26 06:14</span><br>
+<span>大大们都不要再争论了，我都信你们的，求求你们给点代码救救我这样的无助韭菜吧，大大们厉害，佩服大大们， ...</span><br>
+<span>趁早劝你上岸吧.....这真的就是被收割的命啊.....</span><br>
+</p><p><b>你猜你猜你猜: </b><br>
+<span>coffinzh 发表于 2018-9-26 06:14</span><br>
+<span>大大们都不要再争论了，我都信你们的，求求你们给点代码救救我这样的无助韭菜吧，大大们厉害，佩服大大们， ...</span><br>
+<span>这才9月底还没下雪，大佬你先换句台词</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>rewqxswzaq 发表于 2018-9-26 09:38</span><br>
+<span>趁早劝你上岸吧.....这真的就是被收割的命啊.....</span><br>
+<span>不，我心有信仰，这个论坛有那么多牛人，一定会有行善的大大带我走向自由</span><br>
+</p><p><b>P.C.: </b><br>
+<span>我觉得很多人都没仔细看楼主写了什么，楼主只是用历史数据来找规律判断第二天会涨停。一旦发现有明确信号第二天会涨停的股票就做一手。</span><br>
+<span>并不是完全的量化交易。</span><br>
+<span>核心就是如何判断股票第二天会涨停，准确率多少。</span><br>
+<span>好多人曾经都觉得自己找到了这个规律，后来。。。</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span>coffinzh 发表于 2018-9-26 11:04</span><br>
+<span>不，我心有信仰，这个论坛有那么多牛人，一定会有行善的大大带我走向自由 ...</span><br>
+<span>我相信你说的，但问题是怎么判断啊.....</span><br>
+<span>原则第一算是我相信的，但他跟我的路子完全不合适啊</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>rewqxswzaq 发表于 2018-9-26 11:46static/image/common/back.gif</span><br>
+<span>引用:coffinzh 发表于 2018-9-26 11:04 不，我心有信仰，这个论坛有那么多牛人，一定会有行善的大大带我走向自由 ... 我相信你说的，但问题是怎么判断啊.....原则第一算是我相信的，但他跟我的路子完全不合适啊</span><br>
+<span>大大只要你给代码，我一定信你，立马满仓</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>coffinzh 发表于 2018-9-26 11:56</span><br>
+<span>大大只要你给代码，我一定信你，立马满仓</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+<span>整天扮白痴有意思？</span><br>
+</p><p><b>dodyang: </b><br>
+<span>Timme 发表于 2018-9-26 01:02</span><br>
+<span>熊市空仓时间需要占70%左右，没事就满仓的策略都需要回炉重炼。</span><br>
+<span>持仓时间虽短，但要么一个板要么两个板 ...</span><br>
+<span>但看收益曲线，抓板的时候很像是个股满仓啊，所以说LZ你调教的策略在全A股范围100天只出了十几个信号吗www，还是策略选股+人工执行的？</span><br>
+</p><p><b>dodyang: </b><br>
+<span>潜水艇君 发表于 2018-9-26 08:16</span><br>
+<span>你们都不用mt4的吗……</span><br>
+<span>mt4的话，菜如我直接交钱抄作业就行了，强如LZ又陷入不亮底裤就被喷的境地</span><br>
+<span>而且韭菜不喜欢、发帖没有满足感</span><br>
+</p><p><b>宅你妹: </b><br>
+<span>龙娘777 发表于 2018-9-26 11:58</span><br>
+<span>整天扮白痴有意思？</span><br>
+<span>我记得这位股神大大15年股灾那时候还能正常交流，估计今年这市场精神压力太大，天天上论坛不是跳大神就是装疯卖傻</span><br>
+<span>当然，也可能是在筛粉儿吧，能留下的都是将来铁杆轿夫了</span><br>
+</p><p><b>Lezardvaleth: </b><br>
+<span>这个时间太短了，先继续走5年，然后再看看。</span><br>
+</p><p><b>SaltyGhoti: </b><br>
+<span>时间太短了……虽然你说三个月运气成分很低了，但我是觉得远远不够长，更不用说你经常空仓而且重仓持股，样本量相比起那些时刻满仓持股分散的策略就更少了。</span><br>
+<span>你不看小市值策略之前风光了得有两年，现在又是什么样子</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>宅你妹 发表于 2018-9-26 12:47static/image/common/back.gif</span><br>
+<span>引用:龙娘777 发表于 2018-9-26 11:58 整天扮白痴有意思？ 我记得这位股神大大15年股灾那时候还能正常交流，估计今年这市场精神压力太大，天天上论坛不是跳大神就是装疯卖傻当然，也可能是在筛粉儿吧，能留下的都是将来铁杆轿夫了</span><br>
+<span>因为在我看来，大部分人夏虫不可语冰，15年后我被某个id连续骚扰，今年3月因为推荐过19块的300498涉嫌涉政被封，年初因为回了一句两市杠杠不高而被某位列为乱说，不高怎么会3300跌倒2700，所以为什么要认真说认真谈呢，凡事鼓励各位股神就是了</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+</p><p><b>Timme: </b><br>
+<span>SaltyGhoti 发表于 2018-9-26 14:37</span><br>
+<span>时间太短了……虽然你说三个月运气成分很低了，但我是觉得远远不够长，更不用说你经常空仓而且重仓持股，样 ...</span><br>
+<span>熊市时刻满仓还分散持股那百分百是找死。</span><br>
+</p><p><b>Vega2017: </b><br>
+<span>coffinzh 发表于 2018-9-26 14:50</span><br>
+<span>因为在我看来，大部分人夏虫不可语冰，15年后我被某个id连续骚扰，今年3月因为推荐过19块的300498涉嫌涉 ...</span><br>
+<span>聚聚，最近我又进步了，好想再听聚聚教导</span><br>
+</p><p><b>SaltyGhoti: </b><br>
+<span>Timme 发表于 2018-9-26 15:24</span><br>
+<span>熊市时刻满仓还分散持股那百分百是找死。</span><br>
+<span>实际上指数类和偏股型基金都是这样做的，毕竟要求90%以上的持仓，就连混合型基金都有持仓要求……资金量小和可以空仓是散户的先天优势，在合适的时候跑赢基金公司的专业人士并不是不可能的。</span><br>
+<span>我只是说样本量还太少时间太短，一般来说至少得看一年才算稳定</span><br>
+</p><p><b>restlin1: </b><br>
+<span>这时候需要做的事是@原则第一 吧</span><br>
+<span>—— 来自 ZTE BA601, Android 5.1上的 S1Next-鹅版 v2.0-play</span><br>
+</p><p><b>http: </b><br>
+<span>记得以前在哪看过一个说法。每年量化的收益是有限的，你赚了，那就代表另一个做量化的赚不到了。</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span>coffinzh 发表于 2018-9-26 11:56</span><br>
+<span>大大只要你给代码，我一定信你，立马满仓</span><br>
+<span>发自我的iPhone via Saralin 2.1.1</span><br>
+<span>看了你楼下才发现你是神经病。滚</span><br>
+</p><p><b>Vega2017: </b><br>
+<span>rewqxswzaq 发表于 2018-9-26 16:47</span><br>
+<span>看了你楼下才发现你是神经病。滚</span><br>
+<span>你一定是误解了什么，我超佩服c大的</span><br>
+</p><p><b>鬼岛誉: </b><br>
+<span>这不就是对特定图形进行套利嘛，也不是没有理论依据。就和打德州一样，aq、qq以上的牌无脑all in，其他的任何手牌无脑弃牌，在韭菜局长期打下去是可以赢的。</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span>Vega2017 发表于 2018-9-26 16:54</span><br>
+<span>你一定是误解了什么，我超佩服c大的</span><br>
+<span>最讨厌阴阳怪气的人了</span><br>
+</p><p><b>cen_54: </b><br>
+<span>还是没有交割单呀。策略也看不到，就一张收益图。要做的话，这种图也不是不可以做。</span><br>
+<span>不是针对楼上的同志们呀</span><br>
+<span>我的经验是，网上的言论，如果没有长期公开透明的实盘验证做支撑，一律当是神棍就好了。</span><br>
+<span>大体上来说，这是一个避免上当受骗的好方法，虽然也会错过很多有效资讯就是了。</span><br>
+<span>机械策略最难的地方，不是做一个策略然后回测无敌强，这个其实不难做。最简单的macd，低市盈率，高股息等策略都可以。</span><br>
+<span>我觉得最难的是怎么判断是，这个策略在什么时候是失效的，怎么判断，怎么终止。怎么判断是市场失效还是策略失效？这两个判断的结果完全不同，市场暂时失效，加仓，等市场回归；策略失效，终止，继续搞其他的。</span><br>
+<span>如果是长期有效的策略，又必然会被资本市场拉低超额收益。总之我觉得，蛮难的。当然，资金量越小肯定有效性越强。</span><br>
+<span>想想，量化+策略搞到极致，和ltcm比如何？一次错判就全没了。</span><br>
+<span>希望有一天楼主能用交割单、持仓、净值曲线来打我们的脸</span><br>
+</p><p><b>斯达克篮: </b><br>
+<span>rewqxswzaq 发表于 2018-9-26 17:23</span><br>
+<span>最讨厌阴阳怪气的人了</span><br>
+<span>农行大大这位是八年一万倍的真·聚聚</span><br>
+</p><p><b>rewqxswzaq: </b><br>
+<span> 本帖最后由 rewqxswzaq 于 2018-9-26 17:40 编辑 </span><br>
+<span>斯达克篮 发表于 2018-9-26 17:33</span><br>
+<span>农行大大这位是八年一万倍的真·聚聚</span><br>
+<span>别人是别人，我是我，原则第一我也是佩服，但跟我说实话，没有关系</span><br>
+<span>只要对我认真的回复阴阳怪气的人都是傻逼</span><br>
+<span>=====</span><br>
+<span>顺便再补充一个好了，因为之前毕竟也在这里的游戏区混过大概4年左右，我倒是能理解见过的事多了以后各种冷淡然后都没有兴趣认真说话的老油条心态，但在我看来，作为挣钱的方法，推广炒股，荐股，这根本就是跟自己过不去嘛，然后因为这种心态遇到人都这么流里流气的说话，这不是傻逼什么是傻逼？！不会说话或不愿说话可以不说，没人在乎你是不是哑巴</span><br>
+</p><p><b>TalesYuki: </b><br>
+<span>coffinzh 发表于 2018-9-26 14:50</span><br>
+<span>因为在我看来，大部分人夏虫不可语冰，15年后我被某个id连续骚扰，今年3月因为推荐过19块的300498涉嫌涉 ...</span><br>
+<span>我最喜欢看c大的帖子了，默默学习</span><br>
+</p><p><b>奋斗男: </b><br>
+<span>9月最后一天了说好的交割单呢   我可等了3天了</span><br>
+</p><p><b>Alkarlindil: </b><br>
+<span>炒股的都是报喜不报忧</span><br>
+</p><p><b>Timme: </b><br>
+<span>奋斗男 发表于 2018-9-28 12:56</span><br>
+<span>9月最后一天了说好的交割单呢   我可等了3天了</span><br>
+<span>把买卖记录给你策略就全暴露了，我的策略资金超过两千万基本不灵光，公布了就失效了。</span><br>
+<span>等深证掉回八千点以下再更新收益率。</span><br>
+</p><p><b>鬼岛誉: </b><br>
+<span>Timme 发表于 2018-9-28 15:12</span><br>
+<span>把买卖记录给你策略就全暴露了，我的策略资金超过两千万基本不灵光，公布了就失效了。</span><br>
+<span>等深证掉回八千点 ...</span><br>
+<span>你也太高估韭菜的智商了，大牛市无脑买的时候都有人亏钱，很多机构连指数都跑不赢，技术分析上似乎是而非的东西太多，你给他交割单也会胡乱理解，靠几笔交易就能反编译出交易系统让策略失效，那码农人人都是巴菲特了。</span><br>
+</p><p><b>奋斗男: </b><br>
+<span> 本帖最后由 奋斗男 于 2018-9-28 17:48 编辑 </span><br>
+<span>Timme 发表于 2018-9-28 15:12</span><br>
+<span>把买卖记录给你策略就全暴露了，我的策略资金超过两千万基本不灵光，公布了就失效了。</span><br>
+<span>等深证掉回八千点 ...</span><br>
+<span>我看你是怕暴露自己是虚拟操盘，永远报喜不报忧的系列</span><br>
+<span>键盘上随便悄悄几百万的收益，不就那么简单吗</span><br>
+<span>华尔街的投资精英也需要有真人操盘手，即便他们有最厉害的量化模型交易系统</span><br>
+<span>国内基金经理动不动就收益率一律的废话，反正让你听不懂就对了；详细单子一拉出来可能都是亏得？</span><br>
+<span>楼主可能不服，给国家社保操盘的水平不比你低吧？程序不必你的差吧？人家照样亏40~70%后面半句还需要我在说的太明白吗？</span><br>
+</p><p><b>奋斗男: </b><br>
+<span>鬼岛誉 发表于 2018-9-28 15:40</span><br>
+<span>你也太高估韭菜的智商了，大牛市无脑买的时候都有人亏钱，很多机构连指数都跑不赢，技术分析上似乎是而非 ...</span><br>
+<span>你太低估韭菜了，我这级别的韭菜都觉得楼主拿不出交割单就是在吹牛逼，技术分析分析你不服可以，随便拉一张图来，K线 macd kdj expma cci bbi rsiwr你要哪个？哪个韭菜没学过技术？ </span><br>
+<span>我前面讲过牛市丢飞镖随便中，熊市买啥啥都不中，连这个简单的逻辑都不明白，还在哪鼓吹一个程序要你随便玩，这还外面卖LV2软件有什么区别？我觉得忽略股市种种因素单单用一个程序就能保证让人赚钱，说这话的人不是坏就是蠢</span><br>
+</p><p><b>厄贝沙坦: </b><br>
+<span>http 发表于 2018-9-26 16:19</span><br>
+<span>记得以前在哪看过一个说法。每年量化的收益是有限的，你赚了，那就代表另一个做量化的赚不到了。 ...</span><br>
+<span>股市本身不是零和游戏</span><br>
+<span>但想获得高于平均水平的超额收益，那绝对是零和游戏</span><br>
+</p><p><b>厄贝沙坦: </b><br>
+<span>你们太闲了吧</span><br>
+<span>非要较真人家的策略和收益率干嘛呢</span><br>
+<span>一没收费二没骗你入群</span><br>
+<span>要给人吹逼的自由</span><br>
+</p><p><b>Tricky: </b><br>
+<span>coffinzh 发表于 2018-9-26 14:50</span><br>
+<span>因为在我看来，大部分人夏虫不可语冰，15年后我被某个id连续骚扰，今年3月因为推荐过19块的300498涉嫌涉 ...</span><br>
+<span>再发一个贴让我评分啊！时间过了没法评分了很着急在线等好吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1741477[150-200]</guid>
+    </item>
+    <item>
+      <title>Python炒股（138楼更新）[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1741477-1-1.html</link>
+      <description>Python炒股（138楼更新）&#13;
+ 本帖最后由 Timme 于 2018-9-22 09:27 编辑 
+
+步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。
+&#13;
+步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。
+&#13;
+步骤3：如验证结果良好，投入实盘，如上图。</description>
+      <content:encoded><![CDATA[<p><b>发条蜗牛: </b><br>
+<span>迦南打酱油 发表于 2018-8-29 11:57</span><br>
+<span>请教一个问题 ，哪里能找到实时股东信息的数据？网上找了一圈不知道哪儿有扒的，聚聚你知道吗</span><br>
+<span>-- 来自...</span><br>
+<span>wind</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>wasdf 发表于 2018-8-29 11:14static/image/common/back.gif</span><br>
+<span>LZ本来发帖是想得到大家的膜拜：大大你好厉害哦，求指点，求交友。结果被泥潭码农肥宅喷了</span><br>
+<span>瞎说，我就是最佩服lz这样的厉害的人了，你不要污蔑我这样的s1网友，我希望lz大大能带带我，我也想翻本，我也想财务自由，lz大大你不要听这些人乱说，他们应该是嫉妒你，lz大大务必告诉我代码，下午一点我一定满仓</span><br>
+<span>发自我的iPhone via Saralin 2.0.1</span><br>
+</p><p><b>Tossy: </b><br>
+<span>大数据人工智能神经卷积……炒股</span><br>
+</p><p><b>Gnnjew: </b><br>
+<span>lz就是做了个自动化工具而已 没说做量化啊</span><br>
+<span>看把你们急的</span><br>
+<span>—— 来自 Meizu PRO 5, Android 7.0上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>Timme: </b><br>
+<span>coffinzh 发表于 2018-8-29 12:21</span><br>
+<span>瞎说，我就是最佩服lz这样的厉害的人了，你不要污蔑我这样的s1网友，我希望lz大大能带带我，我也想翻本， ...</span><br>
+<span>走势我预测不了(虽然也会拿60m线做周期分析)，你拿一只股票问我明天的走势，那我99.9%会告诉你：不知道。反正我是策略筛出来就买，筛不出来就不买，不买又不亏钱。比如今天：又是屁都筛不出来的一天。</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>Timme 发表于 2018-8-29 12:42</span><br>
+<span>走势我预测不了(虽然也会拿60m线做周期分析)，你拿一只股票问我明天的走势，那我99.9%会告诉你：不知道。 ...</span><br>
+<span>谢谢大大，学习了</span><br>
+</p><p><b>myuanb: </b><br>
+<span>没那么容易但也不是不可能 而且我一直认为既然量化了 为什么做T+1的A股而不去做T+0的期货？曾经不是有俄罗斯大佬 做量化股指期货大赚的么</span><br>
+</p><p><b>mcfly: </b><br>
+<span>Timme 发表于 2018-8-29 12:42</span><br>
+<span>走势我预测不了(虽然也会拿60m线做周期分析)，你拿一只股票问我明天的走势，那我99.9%会告诉你：不知道。 ...</span><br>
+<span>那么，你还是认为筛出来的，带有某种特性的股票会涨。</span><br>
+</p><p><b>oyss1225: </b><br>
+<span>股票量化交易.比较典型的骗局是这样的.</span><br>
+<span>1.引入一套自动监控行情的系统.</span><br>
+<span>2.突发暴涨的时候,回溯事件,捏造报警信号.例如今天10点发生行情,去伪造系统9:50的交易执行记录.反正别人也没得查.</span><br>
+<span>3.截图,自称是自己XX模型算出来的,然后去各种股票论坛宣传.卖产品.</span><br>
+<span>4.等傻子上当.</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>有点意思</span><br>
+<span>— from Sony G8441, Android 8.0.0 of S1 Next Goose v1.3.1.0-play</span><br>
+</p><p><b>影子都没有了: </b><br>
+<span>贵在真实，比参加过的那些藏着掖着的培训讲座明白得多</span><br>
+</p><p><b>P.C.: </b><br>
+<span>中国股市的自动化交易思路应该是根据人日报、LD讲话、微博热点来自动选出相关概念股，各投资一手，第二天卖掉。</span><br>
+</p><p><b>生鸡蛋: </b><br>
+<span>收益跑赢巴菲特不是梦</span><br>
+</p><p><b>Vega2017: </b><br>
+<span>coffinzh 发表于 2018-8-29 12:54</span><br>
+<span>谢谢大大，学习了</span><br>
+<span>巨巨，这几天赚了么</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>Vega2017 发表于 2018-8-29 15:36static/image/common/back.gif</span><br>
+<span>引用:coffinzh 发表于 2018-8-29 12:54 谢谢大大，学习了 巨巨，这几天赚了么</span><br>
+<span>我只是希望能跟着lz大大炒股的股海一粟，你一定是认错人了，不过一听大大你的语气就知道是熟悉市场的交易人士，大大你能带我吗，求带，跪求，我也想财务自由</span><br>
+<span>发自我的iPhone via Saralin 2.0.1</span><br>
+</p><p><b>偏微分: </b><br>
+<span>看着像jqdata的软文</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>croix: </b><br>
+<span>是广告，标题和内容都是seo优化的，建议狗叔向楼主收费</span><br>
+</p><p><b>zy450: </b><br>
+<span>croix 发表于 2018-8-29 18:20</span><br>
+<span>是广告，标题和内容都是seo优化的，建议狗叔向楼主收费</span><br>
+<span>外野不是有墙吗？</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>空当接龙: </b><br>
+<span>bibibi 发表于 2018-8-29 02:21</span><br>
+<span>我不明白啊 到底判断买入的理由或者说特征是啥啊</span><br>
+<span>特征是运气好，赔了就不发帖了</span><br>
+</p><p><b>左在存: </b><br>
+<span>开具一张图，就算是吹水也要给点细节吧</span><br>
+</p><p><b>宫泽理惠: </b><br>
+<span>S1不是早就有个程序猿聚聚写了自动炒股资产过亿了么</span><br>
+</p><p><b>中途半端: </b><br>
+<span>支持！！！</span><br>
+</p><p><b>sayano: </b><br>
+<span>看到Python进来的，结果满楼都是炒股</span><br>
+</p><p><b>jonz: </b><br>
+<span>聚聚求带，怎么选股啊</span><br>
+</p><p><b>变态: </b><br>
+<span> 本帖最后由 变态 于 2018-9-17 18:54 编辑 </span><br>
+<span>楼主大大离财务自由还差几步？</span><br>
+</p><p><b>stonedeus: </b><br>
+<span>感谢楼主提供思路，最近正为本科毕设题目头疼的，突然发现搞这个就挺不错，赚钱不想了，糊弄老师大概是够了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.0.3</span><br>
+</p><p><b>Holie: </b><br>
+<span>这不就是一种选股策略吗？随便打开一个炒股客户端都能提供一堆策略……共同点是哪个都不管用……</span><br>
+</p><p><b>都柏林: </b><br>
+<span>很多人不信有效的策略就是逻辑上非常简单，坚信大公司的quant们多么出神入化</span><br>
+<span>楼主加油，持续关注，哐哐打他们脸</span><br>
+</p><p><b>聚散浮云: </b><br>
+<span>都柏林 发表于 2018-9-18 00:52</span><br>
+<span>很多人不信有效的策略就是逻辑上非常简单，坚信大公司的quant们多么出神入化</span><br>
+<span>楼主加油，持续关注，哐哐打 ...</span><br>
+<span>很多人不信有效的永动机就是逻辑上非常简单，坚信热力学第二定律多么出神入化</span><br>
+<span>都柏林加油，持续关注，哐哐打玻尔兹曼脸</span><br>
+</p><p><b>奔马: </b><br>
+<span>10年前的股神骗人卖软件的套路了</span><br>
+</p><p><b>gearh: </b><br>
+<span>闭门造车</span><br>
+</p><p><b>radar: </b><br>
+<span>怎么影响中泥潭前几年就有个大佬号称通过自动化炒股财务自由了？</span><br>
+<span>只是这几年没啥消息了…</span><br>
+</p><p><b>zy450: </b><br>
+<span>radar 发表于 2018-9-18 07:49</span><br>
+<span>怎么影响中泥潭前几年就有个大佬号称通过自动化炒股财务自由了？</span><br>
+<span>只是这几年没啥消息了… ...</span><br>
+<span>一直在泥塘啊</span><br>
+</p><p><b>dulun59: </b><br>
+<span>书生造反 十年不成</span><br>
+<span>Python炒股 十年不成</span><br>
+</p><p><b>扎昆: </b><br>
+<span>这么简单的代码你们都不会写？一个循环加两个if不就完了</span><br>
+</p><p><b>扎昆: </b><br>
+<span>for it in 走势:   if 明天涨停(it):          买入(it)   if 持有(it) and 明天跌(it):         卖出(it)</span><br>
+</p><p><b>Santiago: </b><br>
+<span>上实盘。 就卒。</span><br>
+<span>被各路资金盘玩死。</span><br>
+<span>你真以为全自动收割机这么好弄的啊。</span><br>
+</p><p><b>Timme: </b><br>
+<span> 本帖最后由 Timme 于 2018-9-22 06:51 编辑 </span><br>
+<span>又完成一轮收割，上来更新一下。亏损股票纪录保持为零。</span><br>
+<span>个人已不觉得这里含有多少运气成分了。</span><br>
+</p><p><b>ななひら: </b><br>
+<span>这就是量化交易啊，至于盈亏和市场、算法、资金量包括网速都有关系，讨论这个的宽客论坛应该挺多的吧，在这里没人讨论技术问题，建议去优矿米筐之类的网站</span><br>
+</p><p><b>afrozan: </b><br>
+<span>年化300%收益啊，各位韭菜还不快上</span><br>
+</p><p><b>bonnwang: </b><br>
+<span>然而文科生并不会用Python</span><br>
+</p><p><b>蹭蹭: </b><br>
+<span>庄家也是电脑操盘，专吃这种不会改变策略的程序</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>宅你妹: </b><br>
+<span>@活久见</span><br>
+<span>这种贴是不是应该收个广告费，或者加个免责声明啥的？</span><br>
+<span>N年前的卖软件套路，我看楼里已经有不少蠢蠢欲动的了</span><br>
+</p><p><b>RX_0: </b><br>
+<span>关键是算法，代码实现不难。</span><br>
+<span>高端点我还能接入流式实时计算和机器学习呢</span><br>
+</p><p><b>酒酿西瓜: </b><br>
+<span>大大有没有交易群啊</span><br>
+<span>可以把自己交易完了的股票分享一下</span><br>
+<span>想财务自由</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Timme: </b><br>
+<span>宅你妹 发表于 2018-9-22 11:02</span><br>
+<span>@活久见</span><br>
+<span>这种贴是不是应该收个广告费，或者加个免责声明啥的？</span><br>
+<span>不卖软件，就是抛砖引玉。隔壁已经被我炸出一个三个月1000%的来了，交流的很开心。。。</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>厉害，佩服，66666</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>rmzxe: </b><br>
+<span>Timme 发表于 2018-9-22 11:16</span><br>
+<span>不卖软件，就是抛砖引玉。隔壁已经被我炸出一个三个月1000%的来了，交流的很开心。。。 ...</span><br>
+<span>求地址</span><br>
+</p><p><b>MinamiTiaki: </b><br>
+<span>等1000点喊我接盘</span><br>
+</p><p><b>deviljz: </b><br>
+<span>用32楼代码试了下，发现聚宽帐号不止要开通权限才能用sdk，每天拉取的数据条数还有限制</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1741477[100-150]</guid>
+    </item>
+    <item>
+      <title>Python炒股（138楼更新）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1741477-1-1.html</link>
+      <description>Python炒股（138楼更新）&#13;
+ 本帖最后由 Timme 于 2018-9-22 09:27 编辑 
+
+步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。
+&#13;
+步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。
+&#13;
+步骤3：如验证结果良好，投入实盘，如上图。</description>
+      <content:encoded><![CDATA[<p><b>trentswd: </b><br>
+<span>其他我不懂，看见调用mkdir笑出声</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>blackeyed 发表于 2018-8-29 03:18</span><br>
+<span>炒股这事情, 自己赚钱就好了, 你没法和别人讨论, 尤其是网上, 戾气特别重</span><br>
+<span>我觉得原因可能有以下几点</span><br>
+<span>圈叔过来人说的中肯，但lz这样的明显是相较于赚钱更想证明自己，所以他抑制不住自己发声的冲动</span><br>
+</p><p><b>塞斯克法: </b><br>
+<span>nukacolamania 发表于 2018-8-29 03:17</span><br>
+<span>能跑赢指数的那些还放上来给人分享的话只能说是傻逼了……</span><br>
+<span>我看过有的paper是号称跑赢指数的，当然复现就是另外一回事了</span><br>
+<span>而且一般做实验的时候都会有两个理想化假设：1. 自己总可以以当前最低/最高成交价格买到/卖掉 2. 自己的交易不会对市场造成影响。那些民科连在这两个假设甚至0手续费的前提下都跑不赢指数就只能</span><br>
+</p><p><b>败毒: </b><br>
+<span> 本帖最后由 败毒 于 2018-8-29 04:14 编辑 </span><br>
+<span>那有没有人受累指导一下编程小白这程序应该怎么写...</span><br>
+</p><p><b>你的全家: </b><br>
+<span>大雄妈妈你可不要学隔壁做heuristic optimization.jpg</span><br>
+<span>图文无关</span><br>
+<span>楼主加油</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.0.2-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>啊看了看jqdata原来是聚宽，我老板师弟做的。。。</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.0.2-play</span><br>
+</p><p><b>diablost: </b><br>
+<span>楼主可真是有趣</span><br>
+</p><p><b>ShadowK: </b><br>
+<span>欢迎来到黎明酒馆 群内气氛优良，群主不定期砍头，拒绝神秘推荐代码，非常好的讨论地点</span><br>
+<span>860074524</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>ShadowK: </b><br>
+<span>其实还行。癌股还是存在特定环境炒特定图形的偏好的。而且赚钱效应也能保证一定程度上的延续不一定走不通</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>conanlm: </b><br>
+<span>有时接到股票投资的电话，我就问他们既然能保证挣钱，那你怎么还在做打电话推销的工作</span><br>
+</p><p><b>coffinzh: </b><br>
+<span>厉害，佩服，66666</span><br>
+<span>发自我的iPhone via Saralin 2.0.1</span><br>
+</p><p><b>斯达克篮: </b><br>
+<span>楼主不是钓鱼的话应该是个新手</span><br>
+</p><p><b>zievod: </b><br>
+<span>滚雪球吧还是那个网站有专门卖策略的 </span><br>
+<span>那还有一群小白鼠花钱测试 你有空可以先观察观察那几个</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.0.2-play</span><br>
+</p><p><b>matrixtheory: </b><br>
+<span>上次有一个大佬说过，他们有人专门负责做空这些用大数据和机器学习炒股的韭菜。</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>Vega2017: </b><br>
+<span>666请持续更新</span><br>
+</p><p><b>gzwind: </b><br>
+<span>看了下楼主8月份收益突然暴涨，这是买对了那支股票吧还是打新股中了？</span><br>
+</p><p><b>发条蜗牛: </b><br>
+<span>野生量化交易员？</span><br>
+</p><p><b>ykrank: </b><br>
+<span>你们不觉得楼主的发言像个几年前水平的AI？前言不搭后语，就只有个关键词提取。</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 7.1.1上的 S1Next-鹅版 v2.0.2</span><br>
+</p><p><b>箱入少女: </b><br>
+<span>楼主为什么要发到s1自找嘲讽，不服气就一年后发个收益率高的要死的结果打脸回帖的</span><br>
+</p><p><b>d-scher: </b><br>
+<span>楼主刚学量化投资几天啊，就来得瑟了。回测区间有多长？几轮牛熊了？回测没问题再实盘个3年再来贴收益率不迟</span><br>
+</p><p><b>Timme: </b><br>
+<span> 本帖最后由 Timme 于 2018-8-29 08:58 编辑 </span><br>
+<span>gzwind 发表于 2018-8-29 08:13</span><br>
+<span>看了下楼主8月份收益突然暴涨，这是买对了那支股票吧还是打新股中了？</span><br>
+<span>第一个是早期太保守，第一个涨停就卖了</span><br>
+<span>第二个完全没击中，属于Miss掉的15%</span><br>
+<span>7月份还有策略筛中了自己不敢出手反倒推荐给别人的，反正比较逗逼。</span><br>
+<span>不打新</span><br>
+</p><p><b>liu1306930: </b><br>
+<span>没关系 不支持不反对 就当经验交流了 希望楼主保持更新</span><br>
+</p><p><b>rmzxe: </b><br>
+<span>看到金融口的人经常说机器学习不行，别用数据拟合。lz的经验是？</span><br>
+</p><p><b>cfeng123: </b><br>
+<span>1.去看量化交易的教材 补充些基础知识 不过如果你不是数学天才的话，这个模你建不出来</span><br>
+<span>2.对A股不是很有用，A股很多时候不讲道理</span><br>
+<span>3.港股，美股都不错</span><br>
+</p><p><b>Timme: </b><br>
+<span>rmzxe 发表于 2018-8-29 09:10</span><br>
+<span>看到金融口的人经常说机器学习不行，别用数据拟合。lz的经验是？</span><br>
+<span>我也对这个没兴趣，见第一页回复的faq</span><br>
+</p><p><b>cen_54: </b><br>
+<span>塞斯克法 发表于 2018-8-29 03:48</span><br>
+<span>我看过有的paper是号称跑赢指数的，当然复现就是另外一回事了</span><br>
+<span>而且一般做实验的时候都会有两个理 ...</span><br>
+<span>如果有简单清晰容量大又能跑赢宽基指数的策略</span><br>
+<span>就会被恶狗一样的基金公司编制成另一个指数和产品捞钱</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>只要我不了解的, 就是因为我没兴趣</span><br>
+<span>大概是苹果爱好者了</span><br>
+</p><p><b>厄贝沙坦: </b><br>
+<span>又一个找到了投资圣杯的人</span><br>
+<span>恭喜！</span><br>
+</p><p><b>厄贝沙坦: </b><br>
+<span>yolu 发表于 2018-8-29 02:43</span><br>
+<span>06年老号，以前没发过贴，嗷的一声疯了，泥潭真可怕</span><br>
+<span>去传统的淘股吧，或者新兴的一些量化交易讨论社区，到处都是</span><br>
+<span>LZ还在蜜月期</span><br>
+</p><p><b>雨萧扬: </b><br>
+<span>我是做量化的</span><br>
+<span>这张图 基本上属于想多了~~（我猜是打板策略~~）</span><br>
+<span>要么就是股票池选的好~~ 算了我不说话了·~~</span><br>
+</p><p><b>vista852: </b><br>
+<span>感觉自己这么多年量化白做了</span><br>
+</p><p><b>Timme: </b><br>
+<span>雨萧扬 发表于 2018-8-29 09:44</span><br>
+<span>我是做量化的</span><br>
+<span>这张图 基本上属于想多了~~（我猜是打板策略~~）</span><br>
+<span>要么就是股票池选的好~~ 算了我不说话了·~~ ...</span><br>
+<span>没有股票池，几千个全丢进去筛。然而日常是一只都筛不出来</span><br>
+</p><p><b>kula01: </b><br>
+<span>跳楼之前请持续更新</span><br>
+</p><p><b>hein: </b><br>
+<span>聚散浮云 发表于 2018-8-29 01:39</span><br>
+<span>为什么觉得自己随便写的策略会强于大公司的顶级quant们，为什么觉得自己随便写的系统会强于大公司的顶级工 ...</span><br>
+<span>因为我坛有圈叔呀</span><br>
+</p><p><b>坚果大爷: </b><br>
+<span>楼主好厉害，支持你</span><br>
+</p><p><b>jxst991694: </b><br>
+<span>这不就是AI炒股吗，长期坚持的话收益率会比活期宝高，还不如直接买优秀的基金</span><br>
+</p><p><b>yhaony: </b><br>
+<span>lz持续更新，长期保持关注</span><br>
+</p><p><b>cat1230: </b><br>
+<span>加油，看好楼主实现财务自由。</span><br>
+<span>----发送自 Xiaomi Redmi Note 3,Android 6.0.1</span><br>
+</p><p><b>zyhang: </b><br>
+<span>我之前在私募实习，认识了两拨人，他们都对机器学习啥的嗤之以鼻，说好的策略都是人工设计的。不过他们的出身比较乱，只有一个是学数学的博士</span><br>
+</p><p><b>Elrcat: </b><br>
+<span>你忘了这里是伪程序猿论坛了</span><br>
+</p><p><b>花椒: </b><br>
+<span>这事我也做过，扒数据什么的都容易，不过做到后来我发现最大的问题是我并不懂什么样的策略能让我赚到钱…</span><br>
+</p><p><b>wasdf: </b><br>
+<span>LZ本来发帖是想得到大家的膜拜：大大你好厉害哦，求指点，求交友。结果被泥潭码农肥宅喷了</span><br>
+</p><p><b>钢琴男: </b><br>
+<span> 成功的人也有的……不过很低调</span><br>
+</p><p><b>icer: </b><br>
+<span>加油，规模再扩大一些就可以财务自由了</span><br>
+</p><p><b>rmzxe: </b><br>
+<span>愿意尝试就挺好的 不过这一块交流的人不多 我反正没找到圈子 停留在爬数据</span><br>
+</p><p><b>青菜子: </b><br>
+<span>问几个问题:</span><br>
+<span>1、有加杠杆吗?</span><br>
+<span>2、资金量多少?</span><br>
+<span>剩下的不好说啥,楼主多跑几个月再来打我们的脸.这样本量实在是太少了.</span><br>
+</p><p><b>minamitsubasa: </b><br>
+<span>又一种劝人买黄金贴？</span><br>
+</p><p><b>男子汉: </b><br>
+<span>我现在看见这种贴就感觉是骗子来钓鱼融资的。</span><br>
+<span>大家不要把钱拿给任何网络股神。</span><br>
+</p><p><b>迦南打酱油: </b><br>
+<span>请教一个问题 ，哪里能找到实时股东信息的数据？网上找了一圈不知道哪儿有扒的，聚聚你知道吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>OrianaThomson: </b><br>
+<span>这代码……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1741477[50-100]</guid>
+    </item>
+    <item>
+      <title>Python炒股（138楼更新）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1741477-1-1.html</link>
+      <description>Python炒股（138楼更新）&#13;
+ 本帖最后由 Timme 于 2018-9-22 09:27 编辑 
+
+步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。
+&#13;
+步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。
+&#13;
+步骤3：如验证结果良好，投入实盘，如上图。</description>
+      <content:encoded><![CDATA[<p><b>Timme: </b><br>
+<span>Python炒股（138楼更新）</span><br>
+<span> 本帖最后由 Timme 于 2018-9-22 09:27 编辑 </span><br>
+<span>步骤1：把所有股票的日线（或者60m线，etc）以文本的形式扒拉到本地。有很多平台免费提供Python接口（我用的是jqdata），十几行代码搞定。</span><br>
+<span>步骤2：观察走势，发挥脑洞，提出猜想（怎么怎么样的走势之后很大概率会出现涨停，etc.）。把“怎么怎么样的走势”写成Python代码，用历史数据对脑洞进行验证。</span><br>
+<span>步骤3：如验证结果良好，投入实盘，如上图。</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>量化交易大佬？</span><br>
+</p><p><b>tianyagk: </b><br>
+<span> 那不就是量化交易吗。</span><br>
+</p><p><b>HMHM: </b><br>
+<span>求助贴还是海豹贴？</span><br>
+<span>只能说钱没有真正落入口袋前都还不算赚，做短期不如先把营利的部分先拿到手里。</span><br>
+</p><p><b>Ra_Cailum: </b><br>
+<span>能分享一下『怎么怎么样的走势之后很大概率会出现涨停』吗</span><br>
+</p><p><b>wave14: </b><br>
+<span>又tm一个把大象装进冰箱里</span><br>
+</p><p><b>聚散浮云: </b><br>
+<span>为什么觉得自己随便写的策略会强于大公司的顶级quant们，为什么觉得自己随便写的系统会强于大公司的顶级工程师们</span><br>
+</p><p><b>shaoniu1: </b><br>
+<span>我也有过类似想法，大佬求详细</span><br>
+</p><p><b>龙娘777: </b><br>
+<span> 本帖最后由 龙娘777 于 2018-8-29 01:42 编辑 </span><br>
+<span>我说没卵用拉长时间线你收益曲线会坐电梯你是不会信的，格局不够，沉浸在自以为找到圣杯的狂喜中吧</span><br>
+<span>欢迎你半年后一年后再来更新下收益曲线打我脸，不更新我就当你狂喜后被套装死咯</span><br>
+</p><p><b>708: </b><br>
+<span>提供一个公式y=ax+b</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>启发式……不幸存就不回来发贴了吧</span><br>
+</p><p><b>Timme: </b><br>
+<span> 本帖最后由 Timme 于 2018-8-29 01:57 编辑 </span><br>
+<span>Ra_Cailum 发表于 2018-8-29 01:34</span><br>
+<span>能分享一下『怎么怎么样的走势之后很大概率会出现涨停』吗</span><br>
+<span>一般每天涨停的就那么几个，点开看一下</span><br>
+<span>btw：</span><br>
+<span>FAQ1：是否自动交易？</span><br>
+<span>---- 一般一天就花一分钟盘前或者中午挂一下，更多的是一天什么都不干。实在看不出有什么必要去调试自动交易的代码。</span><br>
+<span>FAQ2：是否实时？</span><br>
+<span>---- 不需要，完全可以每天收盘后再跑分析。对此我有个很难听的形容：吃shi不需要赶上热乎。</span><br>
+<span>FAQ3：是否需要机器学习？</span><br>
+<span>---- 不需要，策略需要人来设计。</span><br>
+</p><p><b>wyjbnb: </b><br>
+<span>楼主，我支持你，干脆你直接加杠杆，然后玩一年ff14就可以财务自由了</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>特征都提取不到, 写个鸡巴自动化啊</span><br>
+<span>别看两天股票就以为是股神了好伐</span><br>
+</p><p><b>Timme: </b><br>
+<span>龙娘777 发表于 2018-8-29 01:40</span><br>
+<span>我说没卵用拉长时间线你收益曲线会坐电梯你是不会信的，格局不够，沉浸在自以为找到圣杯的狂喜中吧</span><br>
+<span>欢迎你 ...</span><br>
+<span>什么叫套死？会套牢的策略叫做策略不收敛（参考Spice仿真不收敛）。如果它一天不涨回去你就一天不卖，你要是指望炒股吃饭那你3 Sigma会被饿死。再nb的策略也不可能100%预测正确（暂时我最早的策略准确率在85%左右），万一栽了就套？这是完全不能接受的。</span><br>
+<span>另外，止损的防套牢方法也是非常糟糕的。对此我有个形容：不跌不卖，一跌就卖。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>你们也别喷楼主了。</span><br>
+<span>另外不要对quant有过高的期待。</span><br>
+<span>反正我研究了一下，都是瞎子摸象。</span><br>
+<span>大投行的优势就是人多算力足吧</span><br>
+</p><p><b>bibibi: </b><br>
+<span>讲下特征呗 </span><br>
+</p><p><b>龙娘777: </b><br>
+<span>Timme 发表于 2018-8-29 01:43</span><br>
+<span>一般每天涨停的就那么几个，点开看一下</span><br>
+<span>btw：</span><br>
+<span>我也是量化交易过来人，没必要废话，全都靠收益曲线来表达，记得定期更新打脸就行</span><br>
+</p><p><b>TalesYuki: </b><br>
+<span>所以截图是你的实盘成绩？这三段话到底是结论还是问题？如果是你的结论想和大家分享那为什么要用求助的tag。。。</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>Timme 发表于 2018-8-29 01:48</span><br>
+<span>什么叫套死？会套牢的策略叫做策略不收敛（参考Spice仿真不收敛）。如果它一天不涨回去你就一天不卖，你 ...</span><br>
+<span>85％的准确率厉害，记得持续更新收益曲线</span><br>
+</p><p><b>塞斯克法: </b><br>
+<span>有这种天真幻想的程序员全世界少说也有几百万，我在medium或者github已经看到过几十个类似的贴子了。手工规则，决策树，SVM，LSTM，或者是大型神经网络的都有，结果嘛，呵呵，反正没看到一个人敢用自己的代码去炒股的。一个个在训练集都跑的咋呼咋呼的，要么是代码有漏洞，要么是在在牛市训练，在电梯里跑步硬说自己跑上楼的，统计意义上能显著跑赢指数的都没看着。</span><br>
+</p><p><b>HMHM: </b><br>
+<span>在没有长期数据之前并不能证明策略的长期有效性，不如老实把短期营利兑现不是更好。</span><br>
+</p><p><b>jpcl: </b><br>
+<span>楼主你不如加上个几十层神经网络,挂上GPU,白天机器学习炒股,晚上挖矿,月入几十狗,迎娶白富美,走上人生巅峰怎么样?</span><br>
+</p><p><b>Timme: </b><br>
+<span>jpcl 发表于 2018-8-29 02:00</span><br>
+<span>楼主你不如加上个几十层神经网络,挂上GPU,白天机器学习炒股,晚上挖矿,月入几十狗,迎娶白富美,走上人生巅峰 ...</span><br>
+<span>没有用，我对这样的做法毫无兴趣。当然，为了Python能多跑几个进程，我买了个2990WX。</span><br>
+</p><p><b>iluso: </b><br>
+<span>这帖子一大半都是"曾经"幻想着用量化交易来实现财富自由的</span><br>
+<span>当然，结果都失败了</span><br>
+<span>真正成功的才不会这么跳，闷声发大财</span><br>
+</p><p><b>Timme: </b><br>
+<span>HMHM 发表于 2018-8-29 01:57</span><br>
+<span>在没有长期数据之前并不能证明策略的长期有效性，不如老实把短期营利兑现不是更好。 ...</span><br>
+<span>说实话，我对赚钱没什么兴趣。应上面某楼的话，我如果只把这50%作为本金，那岂不是这辈子都不会亏损永不打脸？No，我就是为了证明自己的技术没问题，一定要投更多的钱投进去，死了是自己技术不到家，认栽。</span><br>
+</p><p><b>失业十年: </b><br>
+<span>证监会爱你</span><br>
+</p><p><b>龙娘777: </b><br>
+<span> 本帖最后由 龙娘777 于 2018-8-29 02:17 编辑 </span><br>
+<span>Timme 发表于 2018-8-29 02:08</span><br>
+<span>说实话，我对赚钱没什么兴趣。应上面某楼的话，我如果只把这50%作为本金，那岂不是这辈子都不会亏损永不 ...</span><br>
+<span>冒昧问一句除了量化交易你自己炒股吗</span><br>
+<span>不过不管怎么说你的程序或你做我的对手盘我还是很高兴的，市场需要增量资金</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>说起来这个技术有屁关系, 写个python看把你能耐的</span><br>
+</p><p><b>HMHM: </b><br>
+<span>中国炒股有什么技术因素在里面吗？</span><br>
+</p><p><b>bibibi: </b><br>
+<span>楼主什么出生？ 要是不是数据分析也不是有大量经验的炒股老手我觉得可以散了 </span><br>
+</p><p><b>Timme: </b><br>
+<span>tsubasa9 发表于 2018-8-29 02:12</span><br>
+<span>说起来这个技术有屁关系, 写个python看把你能耐的</span><br>
+<span>技术是策略设计啊，难道你以为技术是把日线扒拉下来的那十几行代码。。。</span><br>
+<span>（付从jqdata免费扒拉日线到本地的代码）</span><br>
+<span>import os, glob, datetime, jqdatasdk</span><br>
+<span>jqdatasdk.auth( '你的用户名', '你的密码' )</span><br>
+<span>if not glob.glob( 'stockDBLite' ):</span><br>
+<span>    os.system( 'mkdir stockDBLite' )</span><br>
+<span>for code in ['000001.XSHG', '399001.XSHE', '399005.XSHE', '399006.XSHE'] + jqdatasdk.get_all_securities().get('name').to_string().split('\n'):</span><br>
+<span>    code = code.split()</span><br>
+<span>    print( code )</span><br>
+<span>    txt_file = 'stockDBLite\\' + code + '.txt'</span><br>
+<span>    go = False</span><br>
+<span>    if not os.path.exists( txt_file ):</span><br>
+<span>      go = True</span><br>
+<span>    elif not os.path.getsize( txt_file ):</span><br>
+<span>      go = True</span><br>
+<span>    if go:</span><br>
+<span>      with open ( txt_file, 'w' ) as txt:</span><br>
+<span>            txt.writelines( jqdatasdk.get_price( code, start_date='2015-01-01', end_date=datetime.date.today().isoformat(), frequency='daily', fq='pre', skip_paused=True ).to_string() )</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>策略设计是什么鬼东西, 连个feature都提不出来策略个鸡毛?</span><br>
+<span>如果说你那种heuristic的东西算策略的话, 那跟用个rand()生成随机数有卵区别?</span><br>
+<span>纯粹heuristic且无法reasoning的玩意儿无论是学术界还是工业界都是没有一毛钱价值的东西</span><br>
+</p><p><b>bibibi: </b><br>
+<span>我不明白啊 到底判断买入的理由或者说特征是啥啊</span><br>
+</p><p><b>Timme: </b><br>
+<span>tsubasa9 发表于 2018-8-29 02:20</span><br>
+<span>策略设计是什么鬼东西, 连个feature都提不出来策略个鸡毛?</span><br>
+<span>如果说你那种heuristic的东西算策略的话, 那跟用 ...</span><br>
+<span>给你举个例子，一张ISO25600的照片，丢给一个画师，可以给你重现一个通透无任何噪点的高画质图像。但丢给世界上最好的降噪算法，出来也是一坨shi。</span><br>
+<span>为什么楼上会有人觉得A股没有技术因素，就是因为A股Noise非常大，很多东西都归因于随机。</span><br>
+</p><p><b>bibibi: </b><br>
+<span>Timme 发表于 2018-8-29 02:24</span><br>
+<span>给你举个例子，一张ISO25600的照片，丢给一个画师，可以给你重现一个通透无任何噪点的高画质图像。但丢给 ...</span><br>
+<span>所以特征到底是什么啊 大半夜我病都犯了</span><br>
+</p><p><b>HMHM: </b><br>
+<span>就是不明白啊，随机性因素那么多，技术的发力点在哪？依据什么做为判断条件？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>你举个降噪的例子是想干啥, 人比机器精确?</span><br>
+<span>搞半天你这系统是人眼看走势手动买卖的?</span><br>
+</p><p><b>jpcl: </b><br>
+<span>老哥,说真的,您这个代码写的...</span><br>
+<span>01行,一般都不会把import写成一行,不然你修改起来很麻烦,都是写成</span><br>
+<span>import datetime</span><br>
+<span>import os</span><br>
+<span>import jqdatasdk</span><br>
+<span>用空行分开系统库和第三方库</span><br>
+<span>第五行和第六行,可以用os.path.exists和os.mkdir,不用glob库,不用os.system,本来就有安全隐患</span><br>
+<span>12到16行,完全可以写成</span><br>
+<span>if not (os.path.exists(txt_file) and os.path.getsize(txt_file)):</span><br>
+<span>    continue</span><br>
+<span>而且你这个就不考虑增量添加吗?如果昨天下载了,今天的数据就不要了?</span><br>
+<span>最后大佬啊,我说你就不考虑用个数据库?不上个pandas?</span><br>
+</p><p><b>龙娘777: </b><br>
+<span> 本帖最后由 龙娘777 于 2018-8-29 02:32 编辑 </span><br>
+<span>Timme 发表于 2018-8-29 02:24</span><br>
+<span>给你举个例子，一张ISO25600的照片，丢给一个画师，可以给你重现一个通透无任何噪点的高画质图像。但丢给 ...</span><br>
+<span>突然感觉还行，你自己炒股吗，水平比其他bb的强</span><br>
+</p><p><b>zealotcat: </b><br>
+<span>楼主-> 泥潭美股韭菜群了解下，快来救救韭菜们</span><br>
+</p><p><b>橋白: </b><br>
+<span>这代码写得比我这个三脚猫还难看...</span><br>
+</p><p><b>小妖虫: </b><br>
+<span>做等楼主每日实盘，供大神了</span><br>
+</p><p><b>龙娘777: </b><br>
+<span>A股的噪声的确大，但不如说所有金融市场的噪声都很大，但市场本身会给出明确的有效的信号，信号在那里但绝大多数市场参与者看不到，看到了又理解不了，理解了又执行不了，格局水平所困</span><br>
+</p><p><b>yolu: </b><br>
+<span>06年老号，以前没发过贴，嗷的一声疯了，泥潭真可怕</span><br>
+</p><p><b>加拿大: </b><br>
+<span>self driving cars ain't even hard to make, just program it not to hit stuff:</span><br>
+<span>if(goingToHitStuff){</span><br>
+<span>    dont();</span><br>
+<span>}</span><br>
+</p><p><b>jpcl: </b><br>
+<span>yolu 发表于 2018-8-29 02:43</span><br>
+<span>06年老号，以前没发过贴，嗷的一声疯了，泥潭真可怕</span><br>
+<span>我还记得他搞民科的一个帖子呢,钱两年的</span><br>
+</p><p><b>jjyycy: </b><br>
+<span>直接用quantopian写策略不就得了</span><br>
+</p><p><b>nukacolamania: </b><br>
+<span>塞斯克法 发表于 2018-8-29 01:55</span><br>
+<span>有这种天真幻想的程序员全世界少说也有几百万，我在medium或者github已经看到过几十个类似的贴子了。手工规 ...</span><br>
+<span>能跑赢指数的那些还放上来给人分享的话只能说是傻逼了……</span><br>
+</p><p><b>blackeyed: </b><br>
+<span> 本帖最后由 blackeyed 于 2018-8-29 03:20 编辑 </span><br>
+<span>炒股这事情, 自己赚钱就好了, 你没法和别人讨论, 尤其是网上, 戾气特别重</span><br>
+<span>我觉得原因可能有以下几点</span><br>
+<span>1 嫉妒你赚钱, 自己却要辛苦上班, 或者不敢尝试炒股 (普通的仇富)</span><br>
+<span>2 自知你赚的钱就是我们这些韭菜亏的钱, 那肯定相当愤怒的了 (抢我钱的仇)</span><br>
+<span>3 我用自己认同的方法却不赚钱, 然后把错归结为市场的错来安抚麻痹我自己, 认为(除了暗箱操作,利益输送外)没有方法可以赚钱! 你的方法赚钱等于说你在否定我的能力和认知 (钱没赚到, 现在连想法(三观)都被你否定了, 这根本就是血海深仇......) </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1741477[0-50]</guid>
+    </item>
+  </channel>
+</rss>

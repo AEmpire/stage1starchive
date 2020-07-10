@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于蜗牛+黑群的疑问</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于蜗牛+黑群的疑问</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:28:23 +0000</lastBuildDate>
+    <item>
+      <title>关于蜗牛+黑群的疑问[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832725-1-1.html</link>
+      <description>关于蜗牛+黑群的疑问&#13;
+ 本帖最后由 雪影 于 2019-5-19 19:33 编辑 
+
+238包邮搞了个单C，装的3617 6.1.7 U盘引导，已经DDSM
+&#13;
+做3T Basic和500G*3 Raid5
+&#13;
+但是无论Basic还是Raid5，smb跟win的对拷速度都只有40m/s，是哪里有问题么？</description>
+      <content:encoded><![CDATA[<p><b>雪影: </b><br>
+<span>关于蜗牛+黑群的疑问</span><br>
+<span> 本帖最后由 雪影 于 2019-5-19 19:33 编辑 </span><br>
+<span>238包邮搞了个单C，装的3617 6.1.7 U盘引导，已经DDSM</span><br>
+<span>做3T Basic和500G*3 Raid5</span><br>
+<span>但是无论Basic还是Raid5，smb跟win的对拷速度都只有40m/s，是哪里有问题么？</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>检查网线？</span><br>
+</p><p><b>雪影: </b><br>
+<span>早已看穿一切 发表于 2019-5-19 21:35</span><br>
+<span>检查网线？</span><br>
+<span>换了条CAT6的，还是不行</span><br>
+<span>把SMB签名关掉了，提升了10M/S，依然然并卵。。。</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>雪影 发表于 2019-5-19 21:37</span><br>
+<span>换了条CAT6的，还是不行</span><br>
+<span>把SMB签名关掉了，提升了10M/S，依然然并卵。。。</span><br>
+<span>路由器？</span><br>
+<span>正常速度是这样</span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2019-5-19 21:45 编辑 </span><br>
+<span>早已看穿一切 发表于 2019-5-19 21:43</span><br>
+<span>路由器？</span><br>
+<span>正常速度是这样</span><br>
+<span>R6400，路由肯定没问题</span><br>
+<span>之前用下载宝基本能跑90M/S</span><br>
+<span>我在怀疑是不是WIN10的锅，倒是有一点，我PC跑的866的WIFI（但是并不影响之前下载宝的速度），还开了HyperV的网络桥接</span><br>
+<span>对了，你这台是黑群还是白群</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>雪影 发表于 2019-5-19 21:44</span><br>
+<span>R6400，路由肯定没问题</span><br>
+<span>之前用下载宝基本能跑90M/S</span><br>
+<span>我在怀疑是不是WIN10的锅，倒是有一点，我PC跑的866的W ...</span><br>
+<span>我在泥潭开箱晒图翻车的星际蜗牛</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>pc用无线那就检查干扰，我这是有线千兆</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>早已看穿一切 发表于 2019-5-19 21:55</span><br>
+<span>pc用无线那就检查干扰，我这是有线千兆</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>PC离路由就3米左右距离，中间基本都是桌子之类的，没有墙之类的</span><br>
+<span>你WIN有做什么设置没，比如Defender有开没</span><br>
+<span>还有就是黑群怎么设置的，我照抄下</span><br>
+</p><p><b>常一真: </b><br>
+<span>雪影 发表于 2019-5-19 22:13</span><br>
+<span>PC离路由就3米左右距离，中间基本都是桌子之类的，没有墙之类的</span><br>
+<span>你WIN有做什么设置没，比如Defender有开 ...</span><br>
+<span>无线连接速度多少？433？877？</span><br>
+<span>除16大概就是copy的速度了</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>雪影 发表于 2019-5-19 22:13</span><br>
+<span>PC离路由就3米左右距离，中间基本都是桌子之类的，没有墙之类的</span><br>
+<span>你WIN有做什么设置没，比如Defender有开 ...</span><br>
+<span>没有做啥设置啊，保证线路都是千兆就这速度了，你这个只能依次检查哪里有瓶颈，目前看来最大可能就是无线</span><br>
+</p><p><b>雪影: </b><br>
+<span>常一真 发表于 2019-5-19 22:17</span><br>
+<span>无线连接速度多少？433？877？</span><br>
+<span>除16大概就是copy的速度了</span><br>
+<span>最高能到866，一般560~780之间在跳</span><br>
+<span>一般不是除以10左右么</span><br>
+</p><p><b>雪影: </b><br>
+<span>早已看穿一切 发表于 2019-5-19 22:20</span><br>
+<span>没有做啥设置啊，保证线路都是千兆就这速度了，你这个只能依次检查哪里有瓶颈，目前看来最大可能就是无线 ...</span><br>
+<span>抽空试一试有线吧</span><br>
+<span>得搬机子，太懒了。。。</span><br>
+</p><p><b>benjin: </b><br>
+<span>我也是差不多情况。NAS直接用网线连接路由的千兆口，电脑的话是用5G网络扩展到房间然后再转成有线连接</span><br>
+</p><p><b>烟萝: </b><br>
+<span> 本帖最后由 烟萝 于 2019-5-21 08:01 编辑 </span><br>
+<span>肯定是无线瓶颈</span><br>
+</p><p><b>鸡毛当令箭: </b><br>
+<span>借路问下楼主238包邮哪买的，我看了下闲鱼都是250左右还不包邮啊</span><br>
+</p><p><b>九耳: </b><br>
+<span>同求购买地址。</span><br>
+</p><p><b>雪影: </b><br>
+<span>鸡毛当令箭 发表于 2019-5-20 09:07</span><br>
+<span>借路问下楼主238包邮哪买的，我看了下闲鱼都是250左右还不包邮啊</span><br>
+<span>说实话，不太推荐上蜗牛，做工糙，内存、msata和电源还都是杂牌，换这些又要花不少</span><br>
+<span>我买是因为我手上刚好有多出来的内存、msata和电源。。。</span><br>
+<span>如果还要我再看下</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>九耳 发表于 2019-5-20 10:02</span><br>
+<span>同求购买地址。</span><br>
+<span>看我17L回复。。。</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>九耳: </b><br>
+<span>雪影 发表于 2019-5-20 10:57</span><br>
+<span>看我17L回复。。。</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>主要打算拿来当下载机-。-求一个，买来玩玩</span><br>
+</p><p><b>雪影: </b><br>
+<span>九耳 发表于 2019-5-20 11:06</span><br>
+<span>主要打算拿来当下载机-。-求一个，买来玩玩</span><br>
+<span>只当下载机，我个人推荐，买个二手下载宝或者玩客云。。。更便宜。。。</span><br>
+<span>刚去卖家咸鱼看了下，卖完了，所以id我直接打出来了，应该不算广告了吧</span><br>
+<span> wodeaiccc33</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>九耳: </b><br>
+<span>雪影 发表于 2019-5-20 11:09</span><br>
+<span>只当下载机，我个人推荐，买个二手下载宝或者玩客云。。。更便宜。。。</span><br>
+<span>刚去卖家咸鱼看了下，卖完了，所 ...</span><br>
+<span>非常感谢。</span><br>
+</p><p><b>zievod: </b><br>
+<span>310买的c单 标了6.x收到5.x 简直想骂人（。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>雪影: </b><br>
+<span>zievod 发表于 2019-5-20 18:53</span><br>
+<span>310买的c单 标了6.x收到5.x 简直想骂人（。</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v ...</span><br>
+<span>DSM系统版本无所谓，升上来很简单，只要HDD还没做校验就行</span><br>
+<span>如果还没弄，不推荐二合一，推荐是搞个U盘做引导，只要大于64M就够了，没看错，64M</span><br>
+<span>msata位可以给HDD做SSD缓存用</span><br>
+</p><p><b>雪影: </b><br>
+<span>早已看穿一切 发表于 2019-5-19 22:20</span><br>
+<span>没有做啥设置啊，保证线路都是千兆就这速度了，你这个只能依次检查哪里有瓶颈，目前看来最大可能就是无线 ...</span><br>
+<span>破案了，WIFI问题，用有线110M/S轻松愉快。。。</span><br>
+</p><p><b>早已看穿一切: </b><br>
+<span>雪影 发表于 2019-5-20 19:39</span><br>
+<span>破案了，WIFI问题，用有线110M/S轻松愉快。。。</span><br>
+<span>所以wifi始终都只是理论，不过我觉得也够了</span><br>
+</p><p><b>雪影: </b><br>
+<span>benjin 发表于 2019-5-20 05:07</span><br>
+<span>我也是差不多情况。NAS直接用网线连接路由的千兆口，电脑的话是用5G网络扩展到房间然后再转成有线连接 ...</span><br>
+<span>破案了，WIFI问题，用有线110M/S轻松愉快。。。</span><br>
+</p><p><b>zievod: </b><br>
+<span>雪影 发表于 2019-5-20 19:37</span><br>
+<span>DSM系统版本无所谓，升上来很简单，只要HDD还没做校验就行</span><br>
+<span>如果还没弄，不推荐二合一，推荐是搞个U盘做引 ...</span><br>
+<span>他家就是u盘引导的 图省事花钱买方便 结果拿到个5X</span><br>
+<span>这两天搞文件备份的时候就有遇到兼容问题了</span><br>
+<span>5X版要备份其他电脑的文件，有什么办法么</span><br>
+<span>drive要6.X才能用</span><br>
+<span>不太想重新做引导盘 麻烦</span><br>
+</p><p><b>雪影: </b><br>
+<span>zievod 发表于 2019-5-20 19:47</span><br>
+<span>他家就是u盘引导的 图省事花钱买方便 结果拿到个5X</span><br>
+<span>这两天搞文件备份的时候就有遇到兼容问题了</span><br>
+<span>开smb拷不就行了？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zievod: </b><br>
+<span>雪影 发表于 2019-5-20 22:16</span><br>
+<span>开smb拷不就行了？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>是要定时把电脑的传到nas上面</span><br>
+<span>nas下到电脑是很方便啦</span><br>
+<span>但是电脑上传都要手动操作吧</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>烟萝: </b><br>
+<span>前排出一个蜗牛A双，改双千，换风扇，换350W电源。300包江浙沪</span><br>
+<span>不过要你自己装系统</span><br>
+</p><p><b>xxren: </b><br>
+<span>烟萝 发表于 2019-5-21 08:01</span><br>
+<span>前排出一个蜗牛A双，改双千，换风扇，换350W电源。300包江浙沪</span><br>
+<span>不过要你自己装系统 ...</span><br>
+<span>有意，怎么联系？</span><br>
+<span>—— 来自 HUAWEI NXT-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>烟萝: </b><br>
+<span>xxren 发表于 2019-5-21 08:07</span><br>
+<span>有意，怎么联系？</span><br>
+<span>—— 来自 HUAWEI NXT-AL10, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>看看私信。</span><br>
+</p><p><b>鸡毛当令箭: </b><br>
+<span>烟萝 发表于 2019-5-21 08:01</span><br>
+<span>前排出一个蜗牛A双，改双千，换风扇，换350W电源。300包江浙沪</span><br>
+<span>不过要你自己装系统 ...</span><br>
+<span>排队</span><br>
+</p><p><b>琉璃苑軒風: </b><br>
+<span>烟萝 发表于 2019-5-21 08:01</span><br>
+<span>前排出一个蜗牛A双，改双千，换风扇，换350W电源。300包江浙沪</span><br>
+<span>不过要你自己装系统 ...</span><br>
+<span>如果楼上的鸽了排队</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>xy2401: </b><br>
+<span>如果楼上鸽了鸽了。我也想要。其实一直想要一个。去年好了好久的 工控机。想笔记本淘汰的 4G内存条 还可以利用上。</span><br>
+<span>不满意的这个用料不好？ 以及噪音。我就是因为台式机吵 所以想要一个静音的</span><br>
+</p><p><b>内裤假面: </b><br>
+<span>蜗牛B双已经翻车。黑群系统崩溃，摆灰中。</span><br>
+<span>—— 来自 Meizu PRO 6 Plus, Android 7.0.0上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>雪影: </b><br>
+<span>内裤假面 发表于 2019-5-21 16:59</span><br>
+<span>蜗牛B双已经翻车。黑群系统崩溃，摆灰中。</span><br>
+<span>—— 来自 Meizu PRO 6 Plus, Android 7.0.0上的 S1Next-鹅版 v ...</span><br>
+<span>UNAS或者LTSC啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832725[0-50]</guid>
+    </item>
+  </channel>
+</rss>

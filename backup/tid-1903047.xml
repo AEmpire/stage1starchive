@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[META] 五等分的花嫁，旧病栋数据统计（这能发专楼外面吧...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[META] 五等分的花嫁，旧病栋数据统计（这能发专楼外面吧...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:19:57 +0000</lastBuildDate>
+    <item>
+      <title>[META] 五等分的花嫁，旧病栋数据统计（这能发专楼外面吧...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903047-1-1.html</link>
+      <description>[META] 五等分的花嫁，旧病栋数据统计（这能发专楼外面吧...&#13;
+ 本帖最后由 papapapadopoulo 于 2019-12-15 13:49 编辑 
+
+闲着没事用Python把整个老病栋给扒走了，搞了点统计 https://bbs.saraba1st.com/2b/thread-1552818-1-1.html
+&#13;
+csv格式的帖子数据，以及两张原图可在此下载https://github.com/yequsun/5ToubanStats
+&#13;
+全部帖子数量 13872
+&#13;
+https://s2.ax1x.com/2019/12/15/QfSmP1.jpg
+&#13;
+每日发帖统计
+&#13;
+重要节点：
+&#13;
+最高峰： 2019-05-13 753
+&#13;
+第一次破300：2019-03-11 317 
+&#13;
+第一次破50：2018-11-08 79 
+&#13;
+第一次破20：2018-10-16 29， 从此稳定20+
+&#13;
+稳定20应该是60话左右之后
+&#13;
+没记错的话，第一次破300应该是京都篇五月大零身份暴露，从此热度高居不下
+&#13;
+偶尔的峰值有时候是神回，更多的情况是楼里两个病人杠起来了
+&#13;
+平均每天23.67贴
+&#13;
+中位数 1帖
+&#13;
+五子被提及次数：
+&#13;
+一花 2459 二乃 2485 三玖 1910 四叶 2416 五月 2978
+&#13;
+由于伪五月的存在，五月的数据有些水分
+&#13;
+病人发帖数 Top 10:
+&#13;
+('万歌祭', 944)('kamarus', 583)('zjoi', 522)('巴尔干炮', 459)('comeshiper', 431)('skives', 365)('akasier', 359)('woeiqp00', 352)('ゴロー', 345)('lyjssj', 337)
+&#13;
+今天先到这里吧，有空把代码和数据好好整理一下。大家还想看什么统计呢？我打算有空看看哪两个姐妹最常被同一个帖子提及</description>
+      <content:encoded><![CDATA[<p><b>papapapadopoulo: </b><br>
+<span>[META] 五等分的花嫁，旧病栋数据统计（这能发专楼外面吧...</span><br>
+<span> 本帖最后由 papapapadopoulo 于 2019-12-15 13:49 编辑 </span><br>
+<span>闲着没事用Python把整个老病栋给扒走了，搞了点统计 https://bbs.saraba1st.com/2b/thread-1552818-1-1.html</span><br>
+<span>csv格式的帖子数据，以及两张原图可在此下载https://github.com/yequsun/5ToubanStats</span><br>
+<span>全部帖子数量 13872</span><br>
+<img src="https://s2.ax1x.com/2019/12/15/QfSmP1.jpg" title="https://s2.ax1x.com/2019/12/15/QfSmP1.jpg"><br>
+<span>每日发帖统计</span><br>
+<span>重要节点：</span><br>
+<span>最高峰： 2019-05-13 753</span><br>
+<span>第一次破300：2019-03-11 317 </span><br>
+<span>第一次破50：2018-11-08 79 </span><br>
+<span>第一次破20：2018-10-16 29， 从此稳定20+</span><br>
+<span>稳定20应该是60话左右之后</span><br>
+<span>没记错的话，第一次破300应该是京都篇五月大零身份暴露，从此热度高居不下</span><br>
+<span>偶尔的峰值有时候是神回，更多的情况是楼里两个病人杠起来了</span><br>
+<span>平均每天23.67贴</span><br>
+<span>中位数 1帖</span><br>
+<span>五子被提及次数：</span><br>
+<span>一花 2459 二乃 2485 三玖 1910 四叶 2416 五月 2978</span><br>
+<span>由于伪五月的存在，五月的数据有些水分</span><br>
+<span>病人发帖数 Top 10:</span><br>
+<span>('万歌祭', 944)('kamarus', 583)('zjoi', 522)('巴尔干炮', 459)('comeshiper', 431)('skives', 365)('akasier', 359)('woeiqp00', 352)('ゴロー', 345)('lyjssj', 337)</span><br>
+<span>今天先到这里吧，有空把代码和数据好好整理一下。大家还想看什么统计呢？我打算有空看看哪两个姐妹最常被同一个帖子提及</span><br>
+</p><p><b>memo2: </b><br>
+<span>居然有整理了！五月不愧是撑起病栋的女人……</span><br>
+</p><p><b>kamarus: </b><br>
+<span>yamero</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>伪五月也是五月实力的一部分。可以说是肖像权。</span><br>
+</p><p><b>千里夜雨: </b><br>
+<span>这贴看了真让人犯ptsd</span><br>
+</p><p><b>papapapadopoulo: </b><br>
+<span>漫区专号 发表于 2019-12-15 13:51</span><br>
+<span>伪五月也是五月实力的一部分。可以说是肖像权。</span><br>
+<span>下次打算把伪五月单独算出来，再加上大小零奈</span><br>
+<span>风哥没统计是因为叫法太tm多了</span><br>
+<span>话说我是真没想到三玖有这么惨 </span><br>
+</p><p><b>timepro: </b><br>
+<span>各种简称太多了</span><br>
+</p><p><b>LennyWallUp: </b><br>
+<span>风太郎的别称太多了，比较难统计</span><br>
+<span>可以把“春场”“ccgg”（不区分大小写）的出现情况统计一下，看看众怒是什么时候爆发的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>papapapadopoulo: </b><br>
+<span>LennyWallUp 发表于 2019-12-15 13:58</span><br>
+<span>风太郎的别称太多了，比较难统计</span><br>
+<span>可以把“春场”“ccgg”（不区分大小写）的出现情况统计一下，看看 ...</span><br>
+<span>一花好像没有别称？</span><br>
+<span>二乃： 奶奶， 乃乃， 二奶</span><br>
+<span>三玖：玖玖， 三九</span><br>
+<span>四叶的别称我还真没想到</span><br>
+<span>五月：may，肉包， ？五岳？</span><br>
+<span>男主：风太郎，fg，阿风，上杉</span><br>
+<span>作者：春场，cc，ccgg，ccc</span><br>
+<span>刚想起来大小零的简称好像更tm多……</span><br>
+</p><p><b>LennyWallUp: </b><br>
+<span>papapapadopoulo 发表于 2019-12-15 14:03:16</span><br>
+<span>一花好像没有别称？</span><br>
+<span>二乃： 奶奶， 乃乃， 二奶</span><br>
+<span>三玖：玖玖， 三九</span><br>
+<span>四叶的别称我还真没想到</span><br>
+<span>五月：ma ...这个你别太指望，有时候提起角色直接就数字12345了，甚至角色间也可以啥13、24连起来。中文就差不多行了。风太郎的叫法倒是比较平均，有些蔑称估计要到二栋才用得上了…</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>azq123wsx: </b><br>
+<span>期待新病栋的数据</span><br>
+<span>小吧功不可没</span><br>
+</p><p><b>kamarus: </b><br>
+<span>不知道为什么你们都不喜欢用毛人风这个称呼</span><br>
+</p><p><b>asdhai: </b><br>
+<span>笑死</span><br>
+<span>5月13日那一波是啥来着？</span><br>
+</p><p><b>futamn: </b><br>
+<span>86话京都篇，三九告白，一花退场宣言，四零初揭晓。85话姐妹协助三九告白，一花二乃相互理解：“我们不是敌人”“这种斗争没有意义”（b漫翻译）之前就是一花（ccgg）那一系列毁灭性的骚操作了。想起来了吗，那是一切的开始。</span><br>
+</p><p><b>Aria丶煙火: </b><br>
+<span>哈哈哈公开处刑</span><br>
+<span>—— 来自 HUAWEI FRD-AL10, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>中野四葉: </b><br>
+<span> 本帖最后由 中野四葉 于 2019-12-15 18:19 编辑 </span><br>
+<span>之后估计就是平稳收场了，看不到大规模发病现场了</span><br>
+</p><p><b>rar1536770: </b><br>
+<span>现在想想，一切都已经索然无味了</span><br>
+</p><p><b>lili1990218: </b><br>
+<span>不愧是王道女主</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903047[0-50]</guid>
+    </item>
+  </channel>
+</rss>

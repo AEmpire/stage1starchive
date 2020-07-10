@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Moto) 改了build.prop, volte还是用不了。你们原生系统怎么开Vol...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Moto) 改了build.prop, volte还是用不了。你们原生系统怎么开Vol...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:25:09 +0000</lastBuildDate>
+    <item>
+      <title>Moto) 改了build.prop, volte还是用不了。你们原生系统怎么开Vol...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852541-1-1.html</link>
+      <description>Moto) 改了build.prop, volte还是用不了。你们原生系统怎么开Vol...&#13;
+手机是美版老moto x，stock rom, 已root，联通卡已开通VoLTE
+&#13;
+http://www.txrjy.com/forum.php?mod=viewthread&amp;tid=1079276&amp;mobile=no
+&#13;
+看到VoLTE已经能在同网内实现视频通话了，就想试下。而美版机设置里连个VoLTE开关都没有，*#4636进去之后虽然有个开关，但是开不了。
+&#13;
+于是按照下面这个，在build.prop里添加了指令，重启出现了VoLTE和vowifi开关。然而LTE环境下拨打电话还是回落到H。
+&#13;
+文中提到是v版开通电信VoLTE的办法，不知道是指令不适于联通，还是缺少联通的VoLTE配置文件导致的？
+&#13;
+https://bbs.ihei5.com/thread-971906-1-1.html
+&#13;
+persist.dbg.ims_volte_enable=1 
+&#13;
+persist.dbg.volte_avail_ovr=1 
+&#13;
+persist.dbg.vt_avail_ovr=1 
+&#13;
+persist.dbg.wfc_avail_ovr=1 
+&#13;
+persist.radio.rat_on=combine 
+&#13;
+persist.radio.data_ltd_sys_ind=1 
+&#13;
+persist.radio.data_con_rprt=1 
+&#13;
+persist.radio.calls.on.ims=1
+&#13;
+用原生系统/非国行moto的，你们VoLTE都是怎么整的</description>
+      <content:encoded><![CDATA[<p><b>零度可乐: </b><br>
+<span>Moto) 改了build.prop, volte还是用不了。你们原生系统怎么开Vol...</span><br>
+<span>手机是美版老moto x，stock rom, 已root，联通卡已开通VoLTE</span><br>
+<span>http://www.txrjy.com/forum.php?mod=viewthread&tid=1079276&mobile=no</span><br>
+<span>看到VoLTE已经能在同网内实现视频通话了，就想试下。而美版机设置里连个VoLTE开关都没有，*#4636进去之后虽然有个开关，但是开不了。</span><br>
+<span>于是按照下面这个，在build.prop里添加了指令，重启出现了VoLTE和vowifi开关。然而LTE环境下拨打电话还是回落到H。</span><br>
+<span>文中提到是v版开通电信VoLTE的办法，不知道是指令不适于联通，还是缺少联通的VoLTE配置文件导致的？</span><br>
+<span>https://bbs.ihei5.com/thread-971906-1-1.html</span><br>
+<span>persist.dbg.ims_volte_enable=1 </span><br>
+<span>persist.dbg.volte_avail_ovr=1 </span><br>
+<span>persist.dbg.vt_avail_ovr=1 </span><br>
+<span>persist.dbg.wfc_avail_ovr=1 </span><br>
+<span>persist.radio.rat_on=combine </span><br>
+<span>persist.radio.data_ltd_sys_ind=1 </span><br>
+<span>persist.radio.data_con_rprt=1 </span><br>
+<span>persist.radio.calls.on.ims=1</span><br>
+<span>用原生系统/非国行moto的，你们VoLTE都是怎么整的</span><br>
+</p><p><b>零度可乐: </b><br>
+<span>外行不太懂，问都不知道从何问起</span><br>
+<span>https://bbs.ixmoe.com/t/topic/20385/2</span><br>
+<span>注册ims还要通过指定的某个4G频段吗</span><br>
+</p><p><b>qwased: </b><br>
+<span>搜了一下，国内的volte协议不一样，不支持</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>elflie: </b><br>
+<span>需要配置文件，具体要看机型而定</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852541[0-50]</guid>
+    </item>
+  </channel>
+</rss>

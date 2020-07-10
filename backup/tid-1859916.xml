@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教，电脑同时连接电视和电脑显示器出现黑屏问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教，电脑同时连接电视和电脑显示器出现黑屏问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:38:27 +0000</lastBuildDate>
+    <item>
+      <title>求教，电脑同时连接电视和电脑显示器出现黑屏问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859916-1-1.html</link>
+      <description>求教，电脑同时连接电视和电脑显示器出现黑屏问题&#13;
+真的搞不定了，原来老SONY电视这么连接没有问题，现在老电视坏了，这新换的东芝电视启动电视时候，旁边的电脑显示器会黑屏1秒钟
+&#13;
+我是电脑显卡同时连接显示器和电视，用的是扩展模式
+&#13;
+开始怀疑是电压问题，拔了HDMI线再启动电视，一切正常
+&#13;
+黑屏前后我又看了下双屏各自的分辨率，也是原样并没有变化
+&#13;
+这么一直黑屏会不会弄坏显卡啊，主要是不明白黑屏原理</description>
+      <content:encoded><![CDATA[<p><b>coobirufas: </b><br>
+<span>求教，电脑同时连接电视和电脑显示器出现黑屏问题</span><br>
+<span>真的搞不定了，原来老SONY电视这么连接没有问题，现在老电视坏了，这新换的东芝电视启动电视时候，旁边的电脑显示器会黑屏1秒钟</span><br>
+<span>我是电脑显卡同时连接显示器和电视，用的是扩展模式</span><br>
+<span>开始怀疑是电压问题，拔了HDMI线再启动电视，一切正常</span><br>
+<span>黑屏前后我又看了下双屏各自的分辨率，也是原样并没有变化</span><br>
+<span>这么一直黑屏会不会弄坏显卡啊，主要是不明白黑屏原理</span><br>
+</p><p><b>zihexing: </b><br>
+<span>看下是不是RGB变YUV了或者8bit变10bit了</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-10-17 13:32 编辑 </span><br>
+<span>可能是屏幕或显卡要干某种事需要黑屏一下。</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>谢回答我再研究一下，但我很确定用了4年的老电视没有这个问题，可惜它坏了</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span> 本帖最后由 華蝶風雪 于 2019-10-17 13:56 编辑 </span><br>
+<span>没啥问题，就是显卡侦测到多了一个输出设备，自动切换一下模式，虽然分辨率不会变，但其实输出信号应该是有自动调整的，因为显示器和电视的输入原理、色彩模式等等并不一样。如果你接的不是电视而是另一个显示器，一般就不会黑下屏。</span><br>
+<span>最简单的例子，都是4K分辨率，复制模式，我开着显示器接电视，显示器和电视显示的桌面完全一样，但如果关了显示器只用电视显示，桌面的图标大小、排布间距就会和显示器上有一点区别。</span><br>
+<span>老电视没这问题说明这几年电视的信号和图像技术变了而已，变得和显示器差别更大了</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>華蝶風雪 发表于 2019-10-17 13:55</span><br>
+<span>没啥问题，就是显卡侦测到多了一个输出设备，自动切换一下模式，虽然分辨率不会变，但其实输出信号应该是有 ...</span><br>
+<span>专业！！</span><br>
+<span>但是对显卡没坏处吗，只能这样让它就黑一下啊？</span><br>
+</p><p><b>華蝶風雪: </b><br>
+<span>coobirufas 发表于 2019-10-17 14:03</span><br>
+<span>专业！！</span><br>
+<span>但是对显卡没坏处吗，只能这样让它就黑一下啊？</span><br>
+<span>没啥坏处，本质上其实和你打开/切换全屏游戏时的那一下黑屏一样啊</span><br>
+</p><p><b>coobirufas: </b><br>
+<span>華蝶風雪 发表于 2019-10-17 14:09</span><br>
+<span>没啥坏处，本质上其实和你打开/切换全屏游戏时的那一下黑屏一样啊</span><br>
+<span>刚回来，这问题确实很奇怪~~多谢了啊</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>coobirufas 发表于 2019-10-17 17:26</span><br>
+<span>刚回来，这问题确实很奇怪~~多谢了啊</span><br>
+<span>我猜是你的旧大法电视就算关机了，hdmi也还能检测得到</span><br>
+<span>现在这台关机了，在显卡那端看来就跟拔线了一样，完全没这设备。于是开机时相当于插入了一个新显示设备，闪一下屏很正常</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859916[0-50]</guid>
+    </item>
+  </channel>
+</rss>

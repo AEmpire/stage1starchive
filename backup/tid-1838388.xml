@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>MAC外接硬盘分区做win to go问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>MAC外接硬盘分区做win to go问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:53:52 +0000</lastBuildDate>
+    <item>
+      <title>MAC外接硬盘分区做win to go问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838388-1-1.html</link>
+      <description>MAC外接硬盘分区做win to go问题&#13;
+ 本帖最后由 fumeflow 于 2019-6-10 17:38 编辑 
+
+由于618期间 苏宁imac特价 所以买了个电商卖的不能改配置的那种所谓顶配imac（其实远没到顶 是i5 9600k+580x+2T融合硬盘 官网17700苏宁15000）
+&#13;
+但是这个融合硬盘只有128G的NVME SSD 其余2T都是机械盘 只是跑系统和软件没问题 4k剪辑就别想了
+&#13;
+所以我就又额外买了1TB的三星PM981+USB-C支持gen2的硬盘盒（分别是800多和200多）
+&#13;
+这个组合测试数据大概是读写在900M/S左右（实际用会再慢一些） （主要是雷电3接口硬盘盒天价 不想买）
+&#13;
+我是不会把1TB的硬盘都给win to go的 大概给200G就够了
+&#13;
+剩下800G要给mac 买这东西的目的就是fcp剪辑都放里面 加速剪辑速度的
+&#13;
+以上是背景提要的废话 可以不看
+&#13;
+那么问题来了 我要怎么分区才能同时支持200G的win to go和800G的苹果分区？
+&#13;
+分区小白特此求助 比方说我必须先在苹果电脑上分区 再去win上分区么 还是必须反过来 MBR啊GPT啊不懂 怎么弄 多谢啦！</description>
+      <content:encoded><![CDATA[<p><b>fumeflow: </b><br>
+<span>MAC外接硬盘分区做win to go问题</span><br>
+<span> 本帖最后由 fumeflow 于 2019-6-10 17:38 编辑 </span><br>
+<span>由于618期间 苏宁imac特价 所以买了个电商卖的不能改配置的那种所谓顶配imac（其实远没到顶 是i5 9600k+580x+2T融合硬盘 官网17700苏宁15000）</span><br>
+<span>但是这个融合硬盘只有128G的NVME SSD 其余2T都是机械盘 只是跑系统和软件没问题 4k剪辑就别想了</span><br>
+<span>所以我就又额外买了1TB的三星PM981+USB-C支持gen2的硬盘盒（分别是800多和200多）</span><br>
+<span>这个组合测试数据大概是读写在900M/S左右（实际用会再慢一些） （主要是雷电3接口硬盘盒天价 不想买）</span><br>
+<span>我是不会把1TB的硬盘都给win to go的 大概给200G就够了</span><br>
+<span>剩下800G要给mac 买这东西的目的就是fcp剪辑都放里面 加速剪辑速度的</span><br>
+<span>以上是背景提要的废话 可以不看</span><br>
+<span>那么问题来了 我要怎么分区才能同时支持200G的win to go和800G的苹果分区？</span><br>
+<span>分区小白特此求助 比方说我必须先在苹果电脑上分区 再去win上分区么 还是必须反过来 MBR啊GPT啊不懂 怎么弄 多谢啦！</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>e还以为是分区问题，wintogo就不了解了，mac用windows？分区跨系统我用的exfat，当然肯定有人说这个容易崩，不过我用了几年也没事，大概是运气好吧。</span><br>
+</p><p><b>fumeflow: </b><br>
+<span> 本帖最后由 fumeflow 于 2019-6-10 17:50 编辑 </span><br>
+<span>伊可费斯 发表于 2019-6-10 17:43</span><br>
+<span>e还以为是分区问题，wintogo就不了解了，mac用windows？分区跨系统我用的exfat，当然肯定有人说这个容易崩 ...</span><br>
+<span>mac内置硬盘上肯定是mac系统啦 但是偶尔需要在win下面做事情 所以还是想装个win 以备不测</span><br>
+<span>不用exfat 我有支持ntfs的软件</span><br>
+<span>其实就是分区问题 我刚刚想了下 好像我在win上分好区 只分其中的200G 剩下部分未分区、未分区</span><br>
+<span>然后直接装win to go 因为未分区的部分 对于软件来说 相当于不存在 所以照常装win to go即可</span><br>
+<span>剩下的部分我接imac再分苹果分区即可了</span><br>
+<span>感觉好像这样就行？</span><br>
+<span>或者其实我的mac支持读写ntfs 我直接把移动盘分成俩ntfs分区更好？</span><br>
+<span>但是担心800G那个分区不是苹果分区 性能上会有损失 因为一旦分区下去 我可能长期这么用了（数据蛮多不好迁移）</span><br>
+</p><p><b>qratosone: </b><br>
+<span> 本帖最后由 qratosone 于 2019-6-10 18:40 编辑 </span><br>
+<span>最好别折腾WTG，现在在Win10大版本更新的背景下WTG很容易出问题。这种情况下最好直接把内置硬盘的SSD部分全都装Win，然后macOS只装在外挂硬盘上，机械硬盘用作资料盘</span><br>
+</p><p><b>lemon鱿鱼: </b><br>
+<span>两个硬盘，请</span><br>
+<span>我现在用的一个hp的硬盘 外表看似500g 其实是两个250g组合的 然后我就一个用来wtg一个time machine了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>lemon鱿鱼 发表于 2019-6-10 19:11</span><br>
+<span>两个硬盘，请</span><br>
+<span>我现在用的一个hp的硬盘 外表看似500g 其实是两个250g组合的 然后我就一个用来wtg一个time ma ...</span><br>
+<span>两个硬盘的话 成本有点高 虽然也不是不行 我有个sata的ssd（好像是256g）</span><br>
+<span>其实我是想省事 一个硬盘解决俩问题 那个sata盘里面也是有资料的 还需要折腾</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>qratosone 发表于 2019-6-10 18:38</span><br>
+<span>最好别折腾WTG，现在在Win10大版本更新的背景下WTG很容易出问题。这种情况下最好直接把内置硬盘的SSD部分全 ...</span><br>
+<span>不不 这种肯定不行 因为win10是不时之需 不是刚需 不可能放在内置盘的</span><br>
+</p><p><b>qratosone: </b><br>
+<span> 本帖最后由 qratosone 于 2019-6-10 20:20 编辑 </span><br>
+<span>fumeflow 发表于 2019-6-10 19:52</span><br>
+<span>不不 这种肯定不行 因为win10是不时之需 不是刚需 不可能放在内置盘的</span><br>
+<span>那你不如直接Parallel 虚拟机了，而且你这个内置盘性能不上不下的，跑MacOS多半比不上外置盘。</span><br>
+</p><p><b>fumeflow: </b><br>
+<span>qratosone 发表于 2019-6-10 20:17</span><br>
+<span>那你不如直接Parallel 虚拟机了，而且你这个内置盘性能不上不下的，跑MacOS多半比不上外置盘。 ...</span><br>
+<span>700M的读写速度 可以了 要那么快干嘛 主要还是图个便宜嘛</span><br>
+<span>你去官网定制个256G固态盘 + 580x 比我的价格还贵的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838388[0-50]</guid>
+    </item>
+  </channel>
+</rss>

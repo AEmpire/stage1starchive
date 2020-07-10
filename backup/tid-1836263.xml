@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>超能力归外野， 裸写hash, sort, set算是码农基本功吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>超能力归外野， 裸写hash, sort, set算是码农基本功吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:06:47 +0000</lastBuildDate>
+    <item>
+      <title>超能力归外野， 裸写hash, sort, set算是码农基本功吗？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836263-1-1.html</link>
+      <description>超能力归外野， 裸写hash, sort, set算是码农基本功吗？&#13;
+现在各种库函数都可以方便调用，真有人把这些东西烂熟于心吗？</description>
+      <content:encoded><![CDATA[<p><b>随风来去: </b><br>
+<span>写了将近20年代码（Java C++ ） 每次写排序代码都要翻书的，很惭愧啊</span><br>
+</p><p><b>hanyuwei70: </b><br>
+<span>我告诉你为啥会考手写快排，hash和set，因为以前OI都是要考这些的，所以用这些东西可以筛出来搞过OI的那批人。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>Psyche: </b><br>
+<span>红黑树这种左旋右旋细节一大堆的记不住, 快排, 二分这么简单的, 知道原理现场编码有什么难度?</span><br>
+<span>讲道理红黑树你把原理的全部细节用文字描述给我, 照着编个码有什么问题?</span><br>
+</p><p><b>九八式衍射弹: </b><br>
+<span>这都手写不了，别说面试，你上学考试都考不过啊....</span><br>
+</p><p><b>marine_01: </b><br>
+<span>不是</span><br>
+</p><p><b>mimighost: </b><br>
+<span>首先说个事实，Java自带的timsort实现都有bug，你们手写哪里来的自信这个实现就是对的？也就是意思意思，还不如直接写快排的unittest来的有用。</span><br>
+<span>反正我是不会手写快排了，面试之前复习一下。</span><br>
+<span>这些东西知道原理是必要的，但是实际的实现都是高度复杂的，不信可以看看Java的hashmap，各种rehash的场景可以看得你吐血。</span><br>
+</p><p><b>sakamichi: </b><br>
+<span>半路出家狗瑟瑟发抖 还好面试没碰到过</span><br>
+</p><p><b>都柏林: </b><br>
+<span>wwwwn168 发表于 2019-6-2 09:18</span><br>
+<span>原来let可以绑匿名函数了。学习了</span><br>
+<span>ml系语言都可以</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836263[50-100]</guid>
+    </item>
+    <item>
+      <title>超能力归外野， 裸写hash, sort, set算是码农基本功吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836263-1-1.html</link>
+      <description>超能力归外野， 裸写hash, sort, set算是码农基本功吗？&#13;
+现在各种库函数都可以方便调用，真有人把这些东西烂熟于心吗？</description>
+      <content:encoded><![CDATA[<p><b>寿命不过一岁: </b><br>
+<span>超能力归外野， 裸写hash, sort, set算是码农基本功吗？</span><br>
+<span>现在各种库函数都可以方便调用，真有人把这些东西烂熟于心吗？</span><br>
+</p><p><b>kumh: </b><br>
+<span>hash,set被问过，sort是真手写过。</span><br>
+<span>— from Xiaomi MI 8, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>dulun59: </b><br>
+<span>要看技术面的面试官是否认为是“基本功”</span><br>
+</p><p><b>enako_cosplay: </b><br>
+<span>反正我不会写红黑树   </span><br>
+</p><p><b>nuclearg: </b><br>
+<span>手写冒泡是基本功，手写快排是神经病</span><br>
+</p><p><b>greentie: </b><br>
+<span>总不能考手写依赖注入吧</span><br>
+</p><p><b>kumh: </b><br>
+<span>nuclearg 发表于 2019-6-2 08:09</span><br>
+<span>手写冒泡是基本功，手写快排是神经病</span><br>
+<span>不写快排，何必考排序啊。</span><br>
+<span>— from Xiaomi MI 8, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>七七见: </b><br>
+<span>nuclearg 发表于 2019-6-2 08:09</span><br>
+<span>手写冒泡是基本功，手写快排是神经病</span><br>
+<span>客官 您点的快排</span><br>
+<span>(defn qsort []</span><br>
+<span>(when pivot</span><br>
+<span>    (let </span><br>
+<span>      (lazy-cat (qsort (filter smaller xs))</span><br>
+<span>                   (qsort (remove smaller xs))))))</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>不能手写timsort不配当码农</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>的确是基本功...</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>一个再一个: </b><br>
+<span>只会ctrl c ctrl v</span><br>
+</p><p><b>一个再一个: </b><br>
+<span>只会ctrl c ctrl v</span><br>
+</p><p><b>a656418zz: </b><br>
+<span>首先你总得知道原理吧，知道了原理总得自己敲一遍熟悉一下吧，原理和过程能熟记于心虽然不是说闭着眼睛写快排，但至少能自己较快地磨出来吧</span><br>
+<span>— from samsung SM-G9550, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>kts1mg: </b><br>
+<span>nuclearg 发表于 2019-6-2 08:09</span><br>
+<span>手写冒泡是基本功，手写快排是神经病</span><br>
+<span>美帝面试手写快排是基本功</span><br>
+</p><p><b>脑洞: </b><br>
+<span>赞美log2n，虽然不写程序，但我记得快排是对数复杂度，二分法所以用递归，，大概是考察有没有学过一点算法知识</span><br>
+</p><p><b>AraTurambar: </b><br>
+<span>手写快排很基础吧...</span><br>
+</p><p><b>伊卡尔迪: </b><br>
+<span>手写hash qsort都是考研专业课经常考的</span><br>
+</p><p><b>Hieda: </b><br>
+<span>手写快排不至于，能讲清楚思路就行了</span><br>
+</p><p><b>加拿大: </b><br>
+<span>很简单，这是一种智力测试。 就跟初中升高中，高中升大学的考试一样，大部分没有用。 你这辈子可能不会手写快排，或者balance一个二叉树，或者stack实现queue，queue实现stack，更别提更难的算法题了。 更多的是作为一种选拔制度。</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>手写快排一般都不会问你 因为太简单了...遍历二叉树是最基本的 二叉树其实也是被问得最多的</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>不是有号称面试裸写八皇后的吗</span><br>
+</p><p><b>seducer0719: </b><br>
+<span>只会手写快排……还是刚开始的时候强背下来的</span><br>
+</p><p><b>根正苗红: </b><br>
+<span>面试前看一看，坐班久了早忘记了。</span><br>
+<span>— from vivo NEX S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>你们说的手写hash是哪种hash，md5?</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>七七见 发表于 2019-6-2 08:18</span><br>
+<span>客官 您点的快排</span><br>
+<span>(defn qsort []</span><br>
+<span>(when pivot</span><br>
+<span>原来let可以绑匿名函数了。学习了</span><br>
+</p><p><b>limbo.null: </b><br>
+<span>这tm难道不是基本功，qsort不管哪种语言就那么几句，c艹我都能写进30行，set的话有点麻烦，但当初练过15分钟撸平衡树</span><br>
+</p><p><b>yt5wt2c: </b><br>
+<span>这些几十行记一记不就行了吗,那种裸写各种splay,avl,才是痛苦</span><br>
+</p><p><b>pepase: </b><br>
+<span>算是鸡本宫，但是很多面试也不一定考，算法题多一些</span><br>
+</p><p><b>112zero: </b><br>
+<span>这不全是算法课考的玩意么，课上过了这些东西都手写了五六遍了</span><br>
+</p><p><b>灰狼: </b><br>
+<span>因为历史原因，我觉得有三样东西是我一辈子都忘不了可以带到坟里的东西</span><br>
+<span>1 孙子兵法第一篇</span><br>
+<span>2新概念英语2的第一篇</span><br>
+<span>3 手写快排</span><br>
+<span>不过平衡树就没办法了，，前面三个都是初高中就学了的</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>Sort这种东西笔试面试都会涉及吧，基本上临时去看看代码记一下就完事。</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>Phoenix_0592: </b><br>
+<span>基本功？Leetcode前100题都是</span><br>
+</p><p><b>novem: </b><br>
+<span>手写hash太难了吧</span><br>
+</p><p><b>夏胧: </b><br>
+<span>手写快排看的是基本功，还有态度</span><br>
+<span>就看你是否认真看过</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Tree洞: </b><br>
+<span>手写hash没调查过，手写快排你找个学过信竞的高中生都会，平衡树倒是小部分可以手写还有一部分大概了解原理。</span><br>
+<span>这不算基本功都说不过去吧？</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>每次找工作之前复习下就行，排序肯定要背，哈希没手写过，都是问复杂度</span><br>
+</p><p><b>Chw6951: </b><br>
+<span>这个难道不是基本功？随便找个大二计科学生都能裸写，如果你要保证效率跟库函数完全一样又是另一回事了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>我 LowB 前端能找到个语法写得别跟二十年前一样的就谢天谢地了 </span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>不是，逻辑推演才是基本功</span><br>
+<span>你读代码，重构，考查使用哪种解方法，都是靠推演后选择一个平衡的方案</span><br>
+</p><p><b>斜阳: </b><br>
+<span>排序初学的时候都写烂了吧</span><br>
+</p><p><b>记忆消失: </b><br>
+<span>现在可是前端都要刷算法题的年代，排序当然是基本功</span><br>
+</p><p><b>proted2401: </b><br>
+<span>这不是基本功吗？楼主学基础语言时没碰到过自己写个类实现hash，set等功能吗？</span><br>
+</p><p><b>美人希: </b><br>
+<span>手写遍历树很重要，可以看出来你是不是真的适合写代码。相比之下hash就弱上很多了</span><br>
+<span>— from OPPO PAAM00, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>sandro: </b><br>
+<span>麻痹，码农要求那么高，我半路出家的一个都不会</span><br>
+</p><p><b>Lion@s1: </b><br>
+<span>nuclearg 发表于 2019-6-2 08:09</span><br>
+<span>手写冒泡是基本功，手写快排是神经病</span><br>
+<span>io赛事倒是要背快排</span><br>
+<span>中学时候能一分钟默写快排</span><br>
+</p><p><b>KissMoon: </b><br>
+<span>我一个都不会</span><br>
+</p><p><b>Hieda: </b><br>
+<span>Lion@s1 发表于 2019-6-2 13:42</span><br>
+<span>io赛事倒是要背快排</span><br>
+<span>中学时候能一分钟默写快排</span><br>
+<span>我们Pascal都是从doc里ctrl-c ctrl-v的</span><br>
+</p><p><b>w酱: </b><br>
+<span>麻痹你们c++玩家真高端上档次</span><br>
+<span>我这种转行写码的都没听过hash还手写的</span><br>
+</p><p><b>jctc: </b><br>
+<span>不是一开始先推导一遍Roothan方程吗？</span><br>
+</p><p><b>obiy: </b><br>
+<span>意义在于筛选啊，日后转cs的更多，要求也会更加高</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836263[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>更新：AMD的软件就尼玛垃圾---显存异常</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>更新：AMD的软件就尼玛垃圾---显存异常</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:59:12 +0000</lastBuildDate>
+    <item>
+      <title>更新：AMD的软件就尼玛垃圾---显存异常[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915515-1-1.html</link>
+      <description>更新：AMD的软件就尼玛垃圾---显存异常&#13;
+ 本帖最后由 serial 于 2020-2-26 19:21 编辑 
+
+最近开始莫名其妙的黑屏死机重启，推断要么是瘟屎更新，要么是amd显卡驱动的锅（r7，一开始用radeon驱动，频率设定总是在重启以后被重置），后来换成enterprise pro驱动，设置没问题了但是偶尔会黑屏重启（刚刚开机的时候）
+&#13;
+今天开机连续黑了两次，忍不住了打算换个驱动试试
+&#13;
+打开官网，200M宽带下载速度20kB/s
+&#13;
+复制链接到fdm，结果fdm解析的文件是 download-incomplete.html 
+&#13;
+百度云离线也失败
+&#13;
+这驱动，这网站，做的什么**玩意？
+&#13;
+226更新：
+&#13;
+装了19.11.2驱动，结果还是偶尔黑屏/卡死，然后我打开超频界面，发现显存频率异常的高，而且和卡死的时机重合
+&#13;
+所以推断就是显存频率飞了导致的死机
+&#13;
+于是尝试换成手动，再降点频率电压，设为手动显存频率，然而：
+&#13;
+wdnmd，什么几把玩意
+&#13;
+看到贴吧http://tieba.baidu.com/p/6327073314 提到，19.5.2没这个问题，不过考虑到有个滑稽表情，还是不信了罢
+&#13;
+打算去售后问问了</description>
+      <content:encoded><![CDATA[<p><b>serial: </b><br>
+<span>更新：AMD的软件就尼玛垃圾---显存异常</span><br>
+<span> 本帖最后由 serial 于 2020-2-26 19:21 编辑 </span><br>
+<span>最近开始莫名其妙的黑屏死机重启，推断要么是瘟屎更新，要么是amd显卡驱动的锅（r7，一开始用radeon驱动，频率设定总是在重启以后被重置），后来换成enterprise pro驱动，设置没问题了但是偶尔会黑屏重启（刚刚开机的时候）</span><br>
+<span>今天开机连续黑了两次，忍不住了打算换个驱动试试</span><br>
+<span>打开官网，200M宽带下载速度20kB/s</span><br>
+<span>复制链接到fdm，结果fdm解析的文件是 download-incomplete.html </span><br>
+<span>百度云离线也失败</span><br>
+<span>这驱动，这网站，做的什么**玩意？</span><br>
+<span>226更新：</span><br>
+<span>装了19.11.2驱动，结果还是偶尔黑屏/卡死，然后我打开超频界面，发现显存频率异常的高，而且和卡死的时机重合</span><br>
+<span>所以推断就是显存频率飞了导致的死机</span><br>
+<span>于是尝试换成手动，再降点频率电压，设为手动显存频率，然而：</span><br>
+<span>wdnmd，什么几把玩意</span><br>
+<span>看到贴吧http://tieba.baidu.com/p/6327073314 提到，19.5.2没这个问题，不过考虑到有个滑稽表情，还是不信了罢</span><br>
+<span>打算去售后问问了</span><br>
+</p><p><b>bilibon: </b><br>
+<span>我一般都直接放迅雷里下载。。。</span><br>
+</p><p><b>玄冰漪: </b><br>
+<span>我也是，过年回来一直莫名其妙蓝屏，查了下应该是显卡驱动的问题，zmd这破官网下东西又贼难受，话说我挂迅雷也不行，下载已经放弃了，而且我觉得最奇怪的是玩游戏这类对显卡要求比较高的不会蓝盘，反倒经常网页看一半，或就开个qq吹水，反而蓝屏了，莫名其妙</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>NyanMisaka: </b><br>
+<span>VII不要用2020驱动，包括换皮的所谓专业驱动。AMD官网防止盗链，手动下载器下载需要refer下载页面。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>的确有不少bug，比如我电视之前插了个分频器，所以显示器被认成分频器型号，也无可厚非。后来去掉分频器，结果还是无法识别成我的电视型号，直到我手工强制卸载显卡驱动(因为电视可以10bit，分频器只能8bit)</span><br>
+<span>另外，还有今天调饱和度，后来莫名其妙不起作用了，打开关闭整数缩放，就好了，很莫名其妙</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>serial: </b><br>
+<span>玄冰漪 发表于 2020-2-24 20:26</span><br>
+<span>我也是，过年回来一直莫名其妙蓝屏，查了下应该是显卡驱动的问题，zmd这破官网下东西又贼难受，话说我挂迅 ...</span><br>
+<span>找到一个网站</span><br>
+<span>https://videocardz.com/driver?tdsourcetag=s_pcqq_aiomsg</span><br>
+<span>挂上fdm，速度还行</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span> 本帖最后由 DeepFishing 于 2020-2-24 20:53 编辑 </span><br>
+<span>玄冰漪 发表于 2020-2-24 20:26</span><br>
+<span>我也是，过年回来一直莫名其妙蓝屏，查了下应该是显卡驱动的问题，zmd这破官网下东西又贼难受，话说我挂迅 ...</span><br>
+<span>浏览器开硬件加速容易出问题吧，牙膏黄卡偶尔也会出现问题，关掉硬件加速就好了，农企驱动我都用工具下载</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>serial: </b><br>
+<span> 本帖最后由 serial 于 2020-2-24 22:49 编辑 </span><br>
+<span>我操，卸载驱动准备重装，然后就开始无限死机重启……现在在尝试用工具完全卸载驱动，amd我淦淋粮</span><br>
+<span>-------------</span><br>
+<span>用DDU完全卸载之后，终于在死机之前把驱动装上了</span><br>
+<span>A卡口碑差真tm活该</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>AMD的弱智驱动下载，网页下不支持多连接和断点续传，让它自己更新更是200%报错，唯一的办法是浏览器挂梯子下四五百M的完整版，偶尔还需要全新安装</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>有害垃圾</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>戰場原黑儀: </b><br>
+<span>我以为我是一个人 原来真是显卡驱动的锅啊 各种莫名蓝屏</span><br>
+</p><p><b>戰場原黑儀: </b><br>
+<span>玄冰漪 发表于 2020-2-24 20:26</span><br>
+<span>我也是，过年回来一直莫名其妙蓝屏，查了下应该是显卡驱动的问题，zmd这破官网下东西又贼难受，话说我挂迅 ...</span><br>
+<span>一模一样 打游戏一点事情没有 有时候关游戏立马蓝屏 有时候看youtube蓝屏 简直了</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>NyanMisaka 发表于 2020-2-24 20:30</span><br>
+<span>VII不要用2020驱动，包括换皮的所谓专业驱动。AMD官网防止盗链，手动下载器下载需要refer下载页面。 ...</span><br>
+<span>一个驱动防锤子盗链啊</span><br>
+</p><p><b>fc666: </b><br>
+<span>19.11.3，就这个版本，后续都有黑屏问题</span><br>
+</p><p><b>sola_gaigaigai: </b><br>
+<span>迅雷下载解决一切烦恼</span><br>
+<span>另外，5700驱动从垃圾2020更换成1911版本后，再也没出现过掉驱动，死机，dx报错的问题了。（以前FF14，MHWI频繁出问题）</span><br>
+<span>虽然说2020帧数确实比19版本的驱动高了不少（平均10）</span><br>
+<span>但是只有稳定才能用啊！</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>我用的是19.12.1 这个才是2019最后一版</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>显卡驱动可以去驱家下</span><br>
+</p><p><b>serial: </b><br>
+<span>hgfdsa 发表于 2020-2-25 10:37</span><br>
+<span>显卡驱动可以去驱家下</span><br>
+<span>在驱动之家的索引界面没找到vega系列的驱动···还不如我上边发的哪个网站</span><br>
+<span>amd的驱动貌似是完整版包含了很多型号的卡，不需要按照硬件型号选择···</span><br>
+</p><p><b>qazesz: </b><br>
+<span>咖喱的香气</span><br>
+</p><p><b>村上恒一: </b><br>
+<span>你好，是有害垃圾</span><br>
+</p><p><b>defer: </b><br>
+<span>R7没用过，官网下了个驱动，chrome自带下载6.3Mb/s，北方联通。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>驱动去显卡官网下</span><br>
+</p><p><b>refo2613: </b><br>
+<span>serial 发表于 2020-2-25 11:05</span><br>
+<span>在驱动之家的索引界面没找到vega系列的驱动···还不如我上边发的哪个网站</span><br>
+<span>amd的驱动貌似是完整 ...</span><br>
+<span>nv也是这样的</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Cray: </b><br>
+<span>你半夜下啊   半夜都是几m的速度。。。</span><br>
+</p><p><b>serial: </b><br>
+<span>不知道这种情况售后能不能处理</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>serial 发表于 2020-2-26 19:27</span><br>
+<span>不知道这种情况售后能不能处理</span><br>
+<span>你要是京东plus的话，可以退掉</span><br>
+<span>之前我也是连续黑屏，投诉了一个月全额退款了</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1867817-1-1.html</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>话说AMD 连续23天没更新驱动了，准备憋个大的吗，还是那边也因为疫情停工了？</span><br>
+</p><p><b>ping117: </b><br>
+<span>AMD官网的驱动都有毒，都是叫客户用回厂牌给的</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>d2loader: </b><br>
+<span>迅雷里面https去掉s</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>以用了1个多月的r7经验来说 </span><br>
+<span>建议不要用wattman搞这些电压和频率方面的操作 直接用afterburner</span><br>
+<span>20系列的驱动印象里也没啥黑屏的问题</span><br>
+</p><p><b>可防可控: </b><br>
+<span>qazesz 发表于 2020-2-25 12:08</span><br>
+<span>咖喱的香气</span><br>
+<span>AMD里面的印度叉很多吗？</span><br>
+<span>感觉显卡这块都是加拿大那边在搞</span><br>
+<span>原来的ATI</span><br>
+</p><p><b>-lilipeipei-: </b><br>
+<span>同r7，也是重启掉配置，之前2019没这毛病</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>反正我就一直2019接着用下去，这20新驱动就是屎</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915515[0-50]</guid>
+    </item>
+  </channel>
+</rss>

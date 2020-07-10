@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 为什么不能直接把直流电接到住宅？]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1944376.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1944376.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 为什么不能直接把直流电接到住宅？ - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 10:41:14 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #44]]></title>
+            <description><![CDATA[爱迪生狂喜]]></description>
+            <pubDate>Sat, 27 Jun 2020 13:10:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47976234</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47976234</link>
+            
+            
+            
+            <author><![CDATA[kvll32]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #43]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=47972144&ptid=1944376" target="_blank"><font color="#999999">古屋敷由良 发表于 2020-6-27 16:06</font></a></font><br>
+刚去看了，说反了吧</blockquote></div><br>
+https://b23.tv/ntG6sW 还真记反了 <br>
+<br>
+—— 来自 HUAWEI LIO-AN00, Android 10上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.2.1]]></description>
+            <pubDate>Sat, 27 Jun 2020 12:58:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47976038</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47976038</link>
+            
+            
+            
+            <author><![CDATA[泣儿]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #42]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 appllee 于 2020-6-27 19:31 编辑 </i><br>
+<br>
+交直流之争的来龙去脉挺长的。<br>
+<br>
+100多年前爱迪生发明了直流电 ，通过直流发电机直接给用户供电。用户端的用电电压不能太高，所以直流发电机的电压也不会很高，传输半径也就在2千米左右，损耗也比较大。<br>
+<br>
+后面给爱迪生打工的特斯拉，发明了三项交流发电机，变压器和电动机。对用户，交流电并不一定比直流电有什么优势，但是交流电可以通过变压器转换成高压电，使得电能可以大规模远距离（数百千米）传输。借助于交流电网和变压器的电能传输能力，发电机可以远离城区，同时容量可以做大，降低了成本。交直流之争，最终以三项交流电胜出，特斯拉建立的三项交流系统一直用到今天。<br>
+<br>
+所以到目前为止，从发电输电到用电，所有的设计标准都是以三项交流为基础的。<br>
+<br>
+近几十年，直流输电又有所发展。当年直流电失败的核心原因是没有直流电的变压器（并不是断路器），直流电压上不去，无法远距离传输。近几十年随着芯片技术发展，创造了电力电子器件，通过芯片控制，可以实现交流/直流变换。现在的直流输电建立在交流电网之上，通过电力电子设备将交流电转化为高压直流电（800kV），通过直流线路传输，最后再转回交流电接入交流电网。<br>
+<br>
+用户侧则是通过电源适配器，将交流电转化成低压稳定的直流（5V,19V等），供给用电设备。<br>
+<br>
+给用户提供直流的思路，也有人考虑过。但是现在所有的设备都是按交流来设计的，擅自改动代价太大。另外即使你给用户一个直流电（200V），用户还是需要电源适配器将其转化到5伏或19伏等，也没有很节约。更何况手机的快充还需要协议，没有协议的话，充电功率也就在5瓦10瓦。因为没有什么太显著的好处，所以也没有人改。<br>
+<br>
+结论就是，给用户直接接直流电不是技术上不能，而是在现有交流电网的基础上，修改太大，划不来。<br>
+<br>
+对于楼主所说的，直接将输电网的直流接到用户，这是不太可能的。输电网的直流输电电压很多在800千伏，居民即使提供直流电，也就在200伏左右。这是有几个数量级差距的，即使是输电网直流供电 ，也需要做直流转直流，而且转好几次。反正都是要转好几次，直流转交流，交流转直流，一样是转，很难说到底差多少。<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.2.1]]></description>
+            <pubDate>Sat, 27 Jun 2020 11:25:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47974597</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47974597</link>
+            
+            
+            
+            <author><![CDATA[appllee]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #41]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=47972550&ptid=1944376" target="_blank"><font color="#999999">purplelake 发表于 2020-6-27 16:49</font></a></font><br>
+为什么所有电器都不能做成无线充电？或者无线（定向）传输能量？？？ 现在你的iphone或者华为不是已经可以 ...</blockquote></div><br>
+因为损耗大啊，光无线传输过程中就要出现大量的损耗。就相当于你有一杯水，为了要远程喝水就用一个能在空气中收集水分的奶嘴，假定当前房间空气中并不含有水分，你就必须得把这杯水蒸发了才喝得到，有可能嘬了十几口终于凑够了能咽下去的量，虽然逼格很高，但是剩下的水蒸气还是被浪费掉了。]]></description>
+            <pubDate>Sat, 27 Jun 2020 09:04:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972753</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972753</link>
+            
+            
+            
+            <author><![CDATA[八方美人]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #40]]></title>
+            <description><![CDATA[<img src="https://static.saraba1st.com/image/smiley/face2017/001.png" smilieid="758" border="0" alt referrerpolicy="no-referrer">因为比较原始的发电技术都是只能直接发交流电吧<br>
+所以基础电网都是以交流电为基准设计的<br>
+虽然现在有了特高压直流输电<br>
+但是送到用户里面还是要靠低压的交流配网]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:55:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972628</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972628</link>
+            
+            
+            
+            <author><![CDATA[hypnossz86]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #39]]></title>
+            <description><![CDATA[为什么所有电器都不能做成无线充电？或者无线（定向）传输能量？？？ 现在你的iphone或者华为不是已经可以无线充电了么？ ]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:49:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972550</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972550</link>
+            
+            
+            
+            <author><![CDATA[purplelake]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #38]]></title>
+            <description><![CDATA[<img src="https://static.saraba1st.com/image/smiley/face2017/034.png" smilieid="751" border="0" alt referrerpolicy="no-referrer"> 直流是未来，现在普遍使用的地方主要是发电厂，变电所的直流控制屏。]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:24:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972292</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972292</link>
+            
+            
+            
+            <author><![CDATA[avfun酱子]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #37]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 伊可费斯 于 2020-6-27 16:24 编辑 </i><br>
+<br>
+因为爱迪生（通用）输给了特斯拉（）其实分布式能源是现在的热点]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:20:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972264</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972264</link>
+            
+            
+            
+            <author><![CDATA[伊可费斯]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #36]]></title>
+            <description><![CDATA[楼主的问题是最后入户为什么不能直流。其实全部是成本问题，如果你想，现在就可以装一个入户电源模块，把直流电分批到各个插座。但是更经济的做法是换插座，有些插座面板已经集成了USB口，直接输出5V 直流电，可以**提高生活体验。 ]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:19:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972254</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972254</link>
+            
+            
+            
+            <author><![CDATA[P.C.]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[为什么不能直接把直流电接到住宅？ #35]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=47971866&ptid=1944376" target="_blank"><font color="#999999">泣儿 发表于 2020-6-27 15:32</font></a></font><br>
+我就记得伊朗作死小能手说的直流电人比交流电痛<br>
+<br>
+—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版  ...</blockquote></div><br>
+刚去看了，说反了吧]]></description>
+            <pubDate>Sat, 27 Jun 2020 08:06:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972144</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944376&#38;pid=47972144</link>
+            
+            
+            
+            <author><![CDATA[古屋敷由良]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

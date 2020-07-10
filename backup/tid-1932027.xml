@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>手头一台华硕N61Jq，受困于古怪的死机问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>手头一台华硕N61Jq，受困于古怪的死机问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 13:16:27 +0000</lastBuildDate>
+    <item>
+      <title>手头一台华硕N61Jq，受困于古怪的死机问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1932027-1-1.html</link>
+      <description>手头一台华硕N61Jq，受困于古怪的死机问题&#13;
+虽然N61Jq已经是很老的本本的，但因为没有买新笔记本的需求，外加挺喜欢这个系列，还是希望能把这个问题解决，让本本再苟几年。
+&#13;
+这台N61Jq是前段时间基友给我的，接手时的配置i7-720QM、HM55、AMD 5730M、8G DDR3、Intel 545s 256G，内存和SSD是我手头别的本本。
+&#13;
+当年从他买回来过了一年左右就开始出现偶尔死机的问题，再过一两年问题越来越严重，现在是几乎每天都要出现（但偶尔运气好又可以连着几天正常）。
+&#13;
+死机基本上总是发生在刚开机的时候，登录时或者进系统后几分钟之类，突然就卡死了，偶尔会蓝屏报MACHINE CHECK EXCEPTION蓝屏，只能长按电源键关机或者拔电源（电池早就坏了）。但有个奇怪的现象是，如果只是长按电源键关机，再开机后有极大概率启动Windows过程中立即再次死机；如果是拔掉电源，再开机一般就没事了。如果刚开机时没有死机，往后一直用一天也没什么问题，玩游戏、AIDA64烤机、3D Mark、Memtest86都可以通过，直到下次关机或重启再看脸。
+&#13;
+但是完全断电似乎又不是必要条件，我换了一块正常的电池装上，然后发现如果拔掉电源再长按关机，再开机似乎也可以恢复正常。拔掉电源、电池供电开机一样有几率死机。
+&#13;
+如果只是开机死机，还可以将就着用，反正只要开机没问题后面可以放心用。但我发现还有一个更恶劣的现象，装好系统过一周会出现开机就蓝屏的问题，蓝屏提示SYSTEM THREAD EXCEPTION NOT HANDLED，导致完全无法使用。而且一周这个时间目测还挺准的，周六装好下周日蓝屏，再重装又是再下周一蓝屏。这个现象出现前也是毫无征兆，重启前什么特别的活动都没做，重启后就蓝屏了，然后陷入死循环。上次试了下拔掉一根内存，居然正常启动了两次，但再重启又蓝了。
+&#13;
+基友把本本给我前已经折腾了好久，我拿到手也都尝试了一下。更新驱动、清灰、换CPU、换内存、换硬盘、换主板电池、重刷BIOS、升级MEI Firmware。现在用的Windows 10专业版，试过在Linux下也存在这个问题。
+&#13;
+基本上个人用户能想到的排查手段都试过还是毫无头绪。
+&#13;
+不知S1er能不能推测一下故障原因，给点意见？
+&#13;
+其他部件都排除了一通，看起来是主板的问题了，但愿是主板上某个可替换元件的问题，这样还有希望抢救一下。</description>
+      <content:encoded><![CDATA[<p><b>闪电战: </b><br>
+<span>手头一台华硕N61Jq，受困于古怪的死机问题</span><br>
+<span>虽然N61Jq已经是很老的本本的，但因为没有买新笔记本的需求，外加挺喜欢这个系列，还是希望能把这个问题解决，让本本再苟几年。</span><br>
+<span>这台N61Jq是前段时间基友给我的，接手时的配置i7-720QM、HM55、AMD 5730M、8G DDR3、Intel 545s 256G，内存和SSD是我手头别的本本。</span><br>
+<span>当年从他买回来过了一年左右就开始出现偶尔死机的问题，再过一两年问题越来越严重，现在是几乎每天都要出现（但偶尔运气好又可以连着几天正常）。</span><br>
+<span>死机基本上总是发生在刚开机的时候，登录时或者进系统后几分钟之类，突然就卡死了，偶尔会蓝屏报MACHINE CHECK EXCEPTION蓝屏，只能长按电源键关机或者拔电源（电池早就坏了）。但有个奇怪的现象是，如果只是长按电源键关机，再开机后有极大概率启动Windows过程中立即再次死机；如果是拔掉电源，再开机一般就没事了。如果刚开机时没有死机，往后一直用一天也没什么问题，玩游戏、AIDA64烤机、3D Mark、Memtest86都可以通过，直到下次关机或重启再看脸。</span><br>
+<span>但是完全断电似乎又不是必要条件，我换了一块正常的电池装上，然后发现如果拔掉电源再长按关机，再开机似乎也可以恢复正常。拔掉电源、电池供电开机一样有几率死机。</span><br>
+<span>如果只是开机死机，还可以将就着用，反正只要开机没问题后面可以放心用。但我发现还有一个更恶劣的现象，装好系统过一周会出现开机就蓝屏的问题，蓝屏提示SYSTEM THREAD EXCEPTION NOT HANDLED，导致完全无法使用。而且一周这个时间目测还挺准的，周六装好下周日蓝屏，再重装又是再下周一蓝屏。这个现象出现前也是毫无征兆，重启前什么特别的活动都没做，重启后就蓝屏了，然后陷入死循环。上次试了下拔掉一根内存，居然正常启动了两次，但再重启又蓝了。</span><br>
+<span>基友把本本给我前已经折腾了好久，我拿到手也都尝试了一下。更新驱动、清灰、换CPU、换内存、换硬盘、换主板电池、重刷BIOS、升级MEI Firmware。现在用的Windows 10专业版，试过在Linux下也存在这个问题。</span><br>
+<span>基本上个人用户能想到的排查手段都试过还是毫无头绪。</span><br>
+<span>不知S1er能不能推测一下故障原因，给点意见？</span><br>
+<span>其他部件都排除了一通，看起来是主板的问题了，但愿是主板上某个可替换元件的问题，这样还有希望抢救一下。</span><br>
+</p><p><b>遗尿: </b><br>
+<span>遇事不决干南桥</span><br>
+</p><p><b>我真的很變態: </b><br>
+<span>换电脑吧，十年前的电脑还留着干啥</span><br>
+</p><p><b>feger: </b><br>
+<span>感觉是 板子问题 电压不行 有些台式机也这样 一般是老化</span><br>
+</p><p><b>闪电战: </b><br>
+<span>feger 发表于 2020-5-2 17:28</span><br>
+<span>感觉是 板子问题 电压不行 有些台式机也这样 一般是老化</span><br>
+<span>能换的都换了，估计毛病也在主板上了……</span><br>
+<span>扔在电脑城一家看起来开了十多年的维修店</span><br>
+<span>老板非说先试试重刷 BIOS和换系统，我说这我们早试过了，他说按他的思路来……</span><br>
+<span>但愿他能定位出具体损坏的元件</span><br>
+</p><p><b>madbird302: </b><br>
+<span>这种会死机但没事有很稳定的故障是最烦人的</span><br>
+</p><p><b>闪电战: </b><br>
+<span>madbird302 发表于 2020-5-2 17:40</span><br>
+<span>这种会死机但没事有很稳定的故障是最烦人的</span><br>
+<span>而且纯粹看脸，运气不好送到维修那里连着几天都没事，甚至就算别人鼓捣一下说修好了，都没法当场检验</span><br>
+<span>如果只是开机容易死还可以苟一下</span><br>
+<span>这个装好系统过一个星期就蓝屏太要命了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>大概是主板供电不稳</span><br>
+</p><p><b>madbird302: </b><br>
+<span>闪电战 发表于 2020-5-2 18:24</span><br>
+<span>而且纯粹看脸，运气不好送到维修那里连着几天都没事，甚至就算别人鼓捣一下说修好了，都没法当场检验</span><br>
+<span>如 ...</span><br>
+<span>是啊，经常送修以后在那边稳得不行，在自己手里想死的心都有，不过这机器也够老的了，换了吧</span><br>
+</p><p><b>闪电战: </b><br>
+<span>madbird302 发表于 2020-5-2 18:39</span><br>
+<span>是啊，经常送修以后在那边稳得不行，在自己手里想死的心都有，不过这机器也够老的了，换了吧 ...</span><br>
+<span>主要是现在不出差，没有换笔记本的需求</span><br>
+</p><p><b>madbird302: </b><br>
+<span>闪电战 发表于 2020-5-2 18:45</span><br>
+<span>主要是现在不出差，没有换笔记本的需求</span><br>
+<span>那就先积灰吧</span><br>
+</p><p><b>闪电战: </b><br>
+<span>madbird302 发表于 2020-5-2 18:51</span><br>
+<span>那就先积灰吧</span><br>
+<span>要是维修店也定位不到原因，那就只能作为笔记本in being了</span><br>
+</p><p><b>あかつき: </b><br>
+<span>同款 </span><br>
+<span>我的目前能凑合挂点小程序</span><br>
+<span>24h x7 大概一个月死机一次</span><br>
+<span>换过硬盘和电源适配器 这2项 10年了肯定坏了 换个把</span><br>
+</p><p><b>闪电战: </b><br>
+<span>あかつき 发表于 2020-5-3 14:10</span><br>
+<span>同款 </span><br>
+<span>我的目前能凑合挂点小程序</span><br>
+<span>24h x7 大概一个月死机一次</span><br>
+<span>一个月死一次还行</span><br>
+<span>硬盘早就换过了，电源适配器虽然没换过，但电池供电一样会死机</span><br>
+</p><p><b>ywydsd: </b><br>
+<span>换主板</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>闪电战: </b><br>
+<span>ywydsd 发表于 2020-5-3 19:44</span><br>
+<span>换主板</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+<span>将就用了一个多月，这次倒没有装好系统后一周蓝屏的，不过时不时死机还是跑不了（如果每天不是多次开关机，倒是可以3、4天才碰到一次死机）</span><br>
+<span>还是不死心，淘宝上买了块N61Jq的主板准备换，结果寄来一看是N61Ja的，MMP，准备退货。</span><br>
+<span>—— 来自 HUAWEI ELS-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>闪电战: </b><br>
+<span>怀疑这种系统不稳定还影响到了软件层面，这一个多月内，遇到过一次系统文件损坏引起的蓝屏，最后靠SFC /SCANNOW修复</span><br>
+<span>前几天貌似Windows网络组件也出现了严重损坏，Windows防火墙无法使用了，一些使用网络的应用程序也不正常，但Edge开网页又是好的</span><br>
+<span>—— 来自 HUAWEI ELS-AN00, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>老柴斯基: </b><br>
+<span>电脑确实老了啊。。。硅脂加了吗，影响到软件的话或许测试一下硬盘？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>老柴斯基: </b><br>
+<span>sorry木有看到已经更换测试过了。。。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>闪电战: </b><br>
+<span>南桥有毛病会是这个症状吗？</span><br>
+</p><p><b>Cityrat: </b><br>
+<span>可能就是某个电容什么的元器件不行了</span><br>
+<span>—— 来自 vivo V1924A, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>搜了二手本价格后，我建议直接入土</span><br>
+<span>花的精力根本不值，不过如果权当娱乐，那就没关系了</span><br>
+<img src="https://p.sda1.dev/0/96c16e842874bc7b194e2c8d935758f1/IMG_0698D5D7F1B7A7A7D14BC4F950BC6A12.png" title="https://p.sda1.dev/0/96c16e842874bc7b194e2c8d935758f1/IMG_0698D5D7F1B7A7A7D14BC4F950BC6A12.png"><br>
+<span>我前两年连06年的T5600的本子都折腾过，花的钱都超过二手本的价格</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>我以前碰到同类的问题，是intel的SSD特有的一个休眠功能和主板不兼容，导致运行时SSD自行休眠然后当机，最后intel还专门出了一个固件，把这个功能去掉才得救。楼主有换过硬盘嘛？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>闪电战: </b><br>
+<span>liu_tianyi 发表于 2020-6-26 21:01</span><br>
+<span>我以前碰到同类的问题，是intel的SSD特有的一个休眠功能和主板不兼容，导致运行时SSD自行休眠然后当机，最 ...</span><br>
+<span>不是这个症状</span><br>
+<span>而且这个问题在本本买回来一年多就开始出现，那是还没用SSD</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>闪电战 发表于 2020-6-26 22:42</span><br>
+<span>不是这个症状</span><br>
+<span>而且这个问题在本本买回来一年多就开始出现，那是还没用SSD ...</span><br>
+<span>或者哪里脱焊、虚焊、接插件氧化接触不良等等...不过我觉得这些你肯定也已经排查过了再深究就是电源模块那里哪里有问题了...</span><br>
+</p><p><b>闪电战: </b><br>
+<span>liu_tianyi 发表于 2020-6-27 11:00</span><br>
+<span>或者哪里脱焊、虚焊、接插件氧化接触不良等等...不过我觉得这些你肯定也已经排查过了再深究就是电源模块 ...</span><br>
+<span>原因应该是在主板上，其他部件都换了</span><br>
+<span>不过具体哪个地方就排查不出来了</span><br>
+<span>也许真就是某个电容或者IC芯片有问题</span><br>
+<span>看着症状又不像南桥的原因</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1932027[0-50]</guid>
+    </item>
+  </channel>
+</rss>

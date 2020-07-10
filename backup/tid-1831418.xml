@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安卓在外接声卡时还是会产生SRC问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安卓在外接声卡时还是会产生SRC问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:36:32 +0000</lastBuildDate>
+    <item>
+      <title>安卓在外接声卡时还是会产生SRC问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831418-1-1.html</link>
+      <description>安卓在外接声卡时还是会产生SRC问题&#13;
+ 本帖最后由 四控大叔 于 2019-5-14 14:59 编辑 
+
+买了飞傲的q1 markii，连接到一加5t听音乐，用poweramp发现采样被固定到48k,16bit（可以切换至24bit）。用手机自带的高通hires通道好歹还能用poweramp在44.1到384之间切换。尽管如此，用poweramp的Sox算法来软件重采样依旧会比系统的劣质重采样好些。
+&#13;
+海贝的独占模式倒是可以解决SRC问题。听说安桥的hfplayer也行。不过海贝的UI体验没有poweramp好，不太想用。
+&#13;
+其实我的音源主要是apple music，SRC一定是不可避了，叹气。
+&#13;
+总结：为了避免SRC，安卓当转盘适合听本地音源+海贝等支持独占模式的app，不适合网易云等流媒体播放器。比较不怕折腾可以root更改系统配置。实在想用网易云的话可以买安卓国砖，一般也在系统层面解决了SRC问题。
+&#13;
+update：根据3楼的描述，USB DAC的SRC问题取决于机型，小米9不存在该问题。</description>
+      <content:encoded><![CDATA[<p><b>四控大叔: </b><br>
+<span>安卓在外接声卡时还是会产生SRC问题</span><br>
+<span> 本帖最后由 四控大叔 于 2019-5-14 14:59 编辑 </span><br>
+<span>买了飞傲的q1 markii，连接到一加5t听音乐，用poweramp发现采样被固定到48k,16bit（可以切换至24bit）。用手机自带的高通hires通道好歹还能用poweramp在44.1到384之间切换。尽管如此，用poweramp的Sox算法来软件重采样依旧会比系统的劣质重采样好些。</span><br>
+<span>海贝的独占模式倒是可以解决SRC问题。听说安桥的hfplayer也行。不过海贝的UI体验没有poweramp好，不太想用。</span><br>
+<span>其实我的音源主要是apple music，SRC一定是不可避了，叹气。</span><br>
+<span>总结：为了避免SRC，安卓当转盘适合听本地音源+海贝等支持独占模式的app，不适合网易云等流媒体播放器。比较不怕折腾可以root更改系统配置。实在想用网易云的话可以买安卓国砖，一般也在系统层面解决了SRC问题。</span><br>
+<span>update：根据3楼的描述，USB DAC的SRC问题取决于机型，小米9不存在该问题。</span><br>
+</p><p><b>samfs: </b><br>
+<span>据说现在安卓系统的 SRC 算法改善了，音质好了很多，不知道是不是这样</span><br>
+</p><p><b>汝者: </b><br>
+<span>看机型的 soomal有测试</span><br>
+<span>http://www.soomal.com/doc/10100008418.htm</span><br>
+</p><p><b>四控大叔: </b><br>
+<span>汝者 发表于 2019-5-14 14:54</span><br>
+<span>看机型的 soomal有测试</span><br>
+<span>http://www.soomal.com/doc/10100008418.htm</span><br>
+<span>有意思，不知道刷MIUI能不能解决。。</span><br>
+</p><p><b>赛璐珞: </b><br>
+<span>我决定换hwa放弃有线了</span><br>
+</p><p><b>dcatzz: </b><br>
+<span>不用独占模式 大多数机型都会有src</span><br>
+<span>买根线除了费电就是折磨自己</span><br>
+<span>快用蓝牙耳机啦</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>defer: </b><br>
+<span>和设备有关吧，同样连手机。肠线只有48一种输出，pha2就有多种。</span><br>
+<span>onkyo那个播放器可以看。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>根本不用在意，poweramp的src质量已经足够好了.</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>海贝固定采样率没SRC，系统SRC过也没不堪到没法听，反正手机就听个响</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>src这东西，从intel到谷歌到高通到三星别的不提了好像都没怎么当回事吧，真有那么严重的影响吗？</span><br>
+<span>苹果倒是挺重视的？</span><br>
+</p><p><b>ft5555: </b><br>
+<span> 本帖最后由 ft5555 于 2019-5-15 21:59 编辑 </span><br>
+<span>借楼把在poweramp吧发的内容转过来，那边基本没人看。</span><br>
+<span>使用穷邦 03plus声卡 ，对Direct HD跟 ，s1 安卓6.0下的Hi-Res 做比较。 </span><br>
+<span>安卓6----酷派s1</span><br>
+<span>安卓7----360n6貌似Direct HD绕开了 usb dac安卓全局模式下的SRC.</span><br>
+<span>说明：</span><br>
+<span>安卓6.0 的s1上 usb dac会强制工作在最高采样率模式。对于03plus 就是192khz。</span><br>
+<span>96->192是使用poweramp内置的SOX算法重采样功能，将96khz信号升频至192khz，来跟被android系统升频到192khz的src算法做个比较。</span><br>
+<span>图片是插坦克线时截的，不要在意细节。</span><br>
+<span>poweramp里显示 Direct HD输出设定24/96时，usb dac实际工作在24/96模式下。</span><br>
+<span>==========================</span><br>
+<span>这里看到Direct HD 96khz跟Direct HD 96->192 质量都不错 只有微小差异。</span><br>
+<span>而s1的高通 hi-res输出，96khz跟Direct HD 96->192区别就明显了，明显96khz频响被SRC影响了</span><br>
+<span>====================================================</span><br>
+<span>可以得出一个结论：</span><br>
+<span>要不Direct HD +usb dac 绕开了系统SRC,</span><br>
+<span>要不安卓7.0开始，系统SRC质量，已经不输给SOX重采样这个高质量算法。</span><br>
+<span>=============================================</span><br>
+<span>原帖在这里http://tieba.baidu.com/p/5699329 ... &cid=0#119716729228   内放Direct HD绕不开系统SRC</span><br>
+</p><p><b>ft5555: </b><br>
+<span>typeunknown 发表于 2019-5-14 21:05</span><br>
+<span>src这东西，从intel到谷歌到高通到三星别的不提了好像都没怎么当回事吧，真有那么严重的影响吗？</span><br>
+<span>苹果倒是 ...</span><br>
+<span>其实没那么可怕，只要21KHZ以内质量够好基本就没问题。</span><br>
+<span>很多时候利用软件SRC升频，可以让DAC内部少做升频，减少失真，降低时钟Jitter的影响，降低了SDM的负担，减少了DAC内部的失真。 </span><br>
+</p><p><b>四控大叔: </b><br>
+<span>ft5555 发表于 2019-5-15 21:57</span><br>
+<span>借楼把在poweramp吧发的内容转过来，那边基本没人看。</span><br>
+<span>使用穷邦 03plus声卡 ，对Direct HD跟 ，s1 安卓6.0 ...</span><br>
+<span>谢了。那我也懒得折腾了，直接用吧。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>四控大叔 发表于 2019-5-15 22:36</span><br>
+<span>谢了。那我也懒得折腾了，直接用吧。</span><br>
+<span>安卓的独占模式设计太纱布，win的asio wasapi 起码我关掉占用的应用就可以用另一个。</span><br>
+<span>安卓就非得插拔一下设备。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831418[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>显卡直通后没开虚拟机怎么控制风扇？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>显卡直通后没开虚拟机怎么控制风扇？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:05:57 +0000</lastBuildDate>
+    <item>
+      <title>显卡直通后没开虚拟机怎么控制风扇？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836399-1-1.html</link>
+      <description>显卡直通后没开虚拟机怎么控制风扇？&#13;
+ 本帖最后由 catazshadow 于 2019-6-2 19:26 编辑 
+
+给win10直通了显卡，但是问题是虚拟机不开的时候风扇似乎声音比开着的时候大。主机里驱动是没加载的，没法自动控制。
+&#13;
+有什么方法能让风扇声音小点？对了，我主机是linux</description>
+      <content:encoded><![CDATA[<p><b>catazshadow: </b><br>
+<span>显卡直通后没开虚拟机怎么控制风扇？</span><br>
+<span> 本帖最后由 catazshadow 于 2019-6-2 19:26 编辑 </span><br>
+<span>给win10直通了显卡，但是问题是虚拟机不开的时候风扇似乎声音比开着的时候大。主机里驱动是没加载的，没法自动控制。</span><br>
+<span>有什么方法能让风扇声音小点？对了，我主机是linux</span><br>
+</p><p><b>madbird302: </b><br>
+<span>大品牌一般有自己的温控程序可以设置转速</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>都直通了,当然是guest控制.</span><br>
+<span>guest关闭后,驱动没加载上去就不清楚喽,</span><br>
+<span>要不你做个脚本?关闭虚拟机时候顺便加载驱动模块?</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>塔奇克马 发表于 2019-6-2 19:34</span><br>
+<span>都直通了,当然是guest控制.</span><br>
+<span>guest关闭后,驱动没加载上去就不清楚喽,</span><br>
+<span>要不你做个脚本?关闭虚拟机时候 ...</span><br>
+<span>驱动被blacklist了，能手动加载么？</span><br>
+<span>怎么加载？modprobe吗？</span><br>
+<span>加载了能再卸载吗？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>catazshadow 发表于 2019-6-2 19:41</span><br>
+<span>驱动被blacklist了，能手动加载么？</span><br>
+<span>怎么加载？modprobe吗？</span><br>
+<span>加载了能再卸载吗？ ...</span><br>
+<span>啊?为啥要blacklist?不需要的.</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>塔奇克马 发表于 2019-6-2 19:41</span><br>
+<span>啊?为啥要blacklist?不需要的.</span><br>
+<span>啊？不用blacklist的？？？？直通不用在modprobe.d里blacklist radeon的？？？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>catazshadow 发表于 2019-6-2 19:46</span><br>
+<span>啊？不用blacklist的？？？？直通不用在modprobe.d里blacklist radeon的？？？</span><br>
+<span>不用.我测试过不需要的,用的debian9 KVM vir-manager.</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>搭车问下宿主用的是什么，我正在考虑把主力win10放在虚拟机里，像是amd 2600的性能在虚拟机里会有肉眼可见的损失吗？</span><br>
+<span>以及只有一块显卡的话，直通win10后宿主没有显卡会有问题吗</span><br>
+<span>以前只用过桌面版的vitualbox对这方面完全不了解</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>lwa190212 发表于 2019-6-2 19:52</span><br>
+<span>搭车问下宿主用的是什么，我正在考虑把主力win10放在虚拟机里，像是amd 2600的性能在虚拟机里会有肉眼可见 ...</span><br>
+<span>没有,几乎没有.肉眼察觉不到.损失大概1-5%.</span><br>
+<span>没有显卡的话,没测试过.但是linux没有显卡又如何?</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>塔奇克马 发表于 2019-6-2 19:51</span><br>
+<span>不用.我测试过不需要的,用的debian9 KVM vir-manager.</span><br>
+<span>待会试试。</span><br>
+<span>隐约记得上次换了显卡之后虚拟机一退出就panic了，好像是blacklist之后好的。不知道碰到什么问题</span><br>
+</p><p><b>catazshadow: </b><br>
+<span> 本帖最后由 catazshadow 于 2019-6-2 20:03 编辑 </span><br>
+<span>lwa190212 发表于 2019-6-2 19:52</span><br>
+<span>搭车问下宿主用的是什么，我正在考虑把主力win10放在虚拟机里，像是amd 2600的性能在虚拟机里会有肉眼可见 ...</span><br>
+<span>我用的Arch Linux但这方面各发行版都差不多，搞个UBUNTU就可以开干了</span><br>
+<span>性能方面CPU内存完全没有肉眼可见的损失，虽然理论性能会慢一丢丢。</span><br>
+<span>不过磁盘IO可能会差点。</span><br>
+<span>宿主还是要块显卡的。换句话说现在的状况下，直通的那块显卡虚拟机不启动的时候宿主是没法用的，前提是你宿主还是要用显卡，不用的话搞成headless的应该也没问题吧。。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>塔奇克马 发表于 2019-6-2 19:53</span><br>
+<span>没有,几乎没有.肉眼察觉不到.损失大概1-5%.</span><br>
+<span>没有显卡的话,没测试过.但是linux没有显卡又如何?</span><br>
+<span>可能是因为我没有尝试过没有显卡的linux，比如安装宿主的时候是有显卡的，配置完直通后这卡没了，不知道现代的linux在启动过程中会不会有什么意外，只要能正常启动开启虚拟机就可以了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>catazshadow 发表于 2019-6-2 19:59</span><br>
+<span>我用的Arch Linux但这方面各发行版都差不多，搞个UBUNTU就可以开干了</span><br>
+<span>性能方面CPU内存完全没有肉眼可见 ...</span><br>
+<span>准备manjaro了，还得买块亮机卡给宿主用的吗？可以插南桥转接出来的pci上吗？直连cpu的pcie槽太珍贵了</span><br>
+<span>磁盘的话只有块西数nvme黑盘不知道会有多少影响，算了这个应该不要紧</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>lwa190212 发表于 2019-6-2 20:06</span><br>
+<span>准备manjaro了，还得买块亮机卡给宿主用的吗？可以插南桥转接出来的pci上吗？直连cpu的pcie槽太珍 ...</span><br>
+<span>应该可以吧，只要linux能认就行。。win10不是对机械盘很不友好么</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>catazshadow 发表于 2019-6-2 20:11</span><br>
+<span>应该可以吧，只要linux能认就行。。win10不是对机械盘很不友好么</span><br>
+<span>多谢</span><br>
+<span>黑盘是ssd的那个wd sn750 nvme，不是机械盘</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>lwa190212 发表于 2019-6-2 20:13</span><br>
+<span>多谢</span><br>
+<span>黑盘是ssd的那个wd sn750 nvme，不是机械盘</span><br>
+<span>virtio 使用blk用整个磁盘 xml命令自己查吧</span><br>
+<span>不过装驱动方式比较特别.</span><br>
+<span>磁盘性能不会太差.</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>lwa190212 发表于 2019-6-2 20:13</span><br>
+<span>多谢</span><br>
+<span>黑盘是ssd的那个wd sn750 nvme，不是机械盘</span><br>
+<span>一看黑盘脑子里就是嗡嗡嗡咔咔咔</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>塔奇克马 发表于 2019-6-2 20:16</span><br>
+<span>virtio 使用blk用整个磁盘 xml命令自己查吧</span><br>
+<span>不过装驱动方式比较特别.</span><br>
+<span>磁盘性能不会太差. ...</span><br>
+<span>学习了！</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>lwa190212 发表于 2019-6-2 20:28</span><br>
+<span>学习了！</span><br>
+<span>用这个的话虚拟机开着宿主最好别访问那块磁盘。。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>catazshadow 发表于 2019-6-2 20:38</span><br>
+<span>用这个的话虚拟机开着宿主最好别访问那块磁盘。。</span><br>
+<span>得好好研究下，不行的话再买块硬盘...?</span><br>
+<span>我这就下单去</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>塔奇克马 发表于 2019-6-2 19:51</span><br>
+<span>不用.我测试过不需要的,用的debian9 KVM vir-manager.</span><br>
+<span>的确不需要，lsmod看到amdgpu了。但是日了狗了，card0下没有hwmon，昨天才更新过系统的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836399[0-50]</guid>
+    </item>
+  </channel>
+</rss>

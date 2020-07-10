@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在用AMD的CPU搭建ESXI平台兼容性怎么样？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在用AMD的CPU搭建ESXI平台兼容性怎么样？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:27:55 +0000</lastBuildDate>
+    <item>
+      <title>现在用AMD的CPU搭建ESXI平台兼容性怎么样？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842586-1-1.html</link>
+      <description>现在用AMD的CPU搭建ESXI平台兼容性怎么样？&#13;
+如题，主要是在ESXI下跑一跑LINUX的虚拟机，现在手头有一块闲置的R5 2600，买点零件拼个虚拟机会不会遇到各种奇怪的兼容问题。</description>
+      <content:encoded><![CDATA[<p><b>baesystems: </b><br>
+<span>现在用AMD的CPU搭建ESXI平台兼容性怎么样？</span><br>
+<span>如题，主要是在ESXI下跑一跑LINUX的虚拟机，现在手头有一块闲置的R5 2600，买点零件拼个虚拟机会不会遇到各种奇怪的兼容问题。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>论坛有人发过，搜一下不就知道了</span><br>
+</p><p><b>lzp729: </b><br>
+<span>这种问题也要问的话，还是劝你退吧，别遇到点小问题又成了AMD背锅</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>vmware官网不就有兼容性列表可以查</span><br>
+<span>https://www.vmware.com/resources/compatibility/search.php</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>搜我发的帖子</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>友情提醒一下把</span><br>
+<span>我折腾了两天esxi在1950x上跑, 问题很多, 我不确定是不是个例, 能谷歌的我也都谷歌了, 不好解决</span><br>
+<span>换x99以后, 啥问题都没有了……真是可惜了amd的多核优势</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>blackeyed 发表于 2019-7-14 13:02</span><br>
+<span>友情提醒一下把</span><br>
+<span>我折腾了两天esxi在1950x上跑, 问题很多, 我不确定是不是个例, 能谷歌的我也都谷歌了, 不 ...</span><br>
+<span>真的那么麻烦？难道tr平台1年多了还是这么不成熟么？</span><br>
+<span>我反正我这里的双pcie插槽直通还是没搞定。打算等双11换大奶时试试用1700x试一下要不就换主板试试。msi论坛也发帖询问了，有工程师回复反馈，但是更新了好几版bios还是不行。</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>高卢鸡 发表于 2019-7-14 13:30</span><br>
+<span>真的那么麻烦？难道tr平台1年多了还是这么不成熟么？</span><br>
+<span>我反正我这里的双pcie插槽直通还是没搞定。打算等双 ...</span><br>
+<span>什么叫双pcie插槽直通?</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>blackeyed 发表于 2019-7-14 13:31</span><br>
+<span>什么叫双pcie插槽直通?</span><br>
+<span>就是两个pcie插槽都可以直通。我那个帖子施工时发现只有靠近cpu插槽的pcie x16槽可以直通，远端的pcie x16槽无法直通。hba卡和网卡都试过了，只能有一个卡直通。</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>高卢鸡 发表于 2019-7-14 13:34</span><br>
+<span>就是两个pcie插槽都可以直通。我那个帖子施工时发现只有靠近cpu插槽的pcie x16槽可以直通，远端的pcie x1 ...</span><br>
+<span>这是主板的问题, 有一种非常大 的可能就是你不能直通的槽是PCH的, 非CPU直连的无法直通的</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>blackeyed 发表于 2019-7-14 13:35</span><br>
+<span>这是主板的问题, 有一种非常大 的可能就是你不能直通的槽是PCH的, 非CPU直连的无法直通的 ...</span><br>
+<span>是这样么？</span><br>
+<span>要不我用x370试试？</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>高卢鸡 发表于 2019-7-14 13:41</span><br>
+<span>是这样么？</span><br>
+<span>要不我用x370试试？</span><br>
+<span>你自己查主板的说明书, 确定下哪些pcie是直通cpu的哪些不是, 要么你把主板型号给我我去看看</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>blackeyed 发表于 2019-7-14 13:44</span><br>
+<span>你自己查主板的说明书, 确定下哪些pcie是直通cpu的哪些不是, 要么你把主板型号给我我去看看 ...</span><br>
+<span>msi b350 mortar</span><br>
+<span>刚才已经查了，只有pcie_e1是cpu出来的，其他的pcie都是b350提供的。</span><br>
+<span>下面我去查查是不是b350芯片组都是这样设计的，450是怎样设计的。</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>高卢鸡 发表于 2019-7-14 13:47</span><br>
+<span>msi b350 mortar</span><br>
+<span>刚才已经查了，只有pcie_e1是cpu出来的，其他的pcie都是b350提供的。</span><br>
+<span>下面我去查查是不 ...</span><br>
+<span>低端主板都是这样的, 高端主板很重要的就是高端的pcie lanes的分法上……</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>blackeyed 发表于 2019-7-14 13:48</span><br>
+<span>低端主板都是这样的, 高端主板很重要的就是高端的pcie lanes的分法上…… ...</span><br>
+<span>翻了一下应该是最高端的350，败家之眼的strix b-350-f gaming，specifications写的是ryzen cpu提供2个pcie x16，ryzen apu提供1个pcie x16，但是manual不管是中文还是英文都改为了ryzen处理器提供2个x16，7代a系列提供1个x8，也就是按照manual，这块板使用ryzen apu时可以把第一个插槽拆分成两个</span><br>
+<span>看pcie中断要求我没看懂</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842586[0-50]</guid>
+    </item>
+  </channel>
+</rss>

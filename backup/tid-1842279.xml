@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[洋垃圾]如何删除lg g7自带的系统应用？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[洋垃圾]如何删除lg g7自带的系统应用？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:29:48 +0000</lastBuildDate>
+    <item>
+      <title>[洋垃圾]如何删除lg g7自带的系统应用？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842279-1-1.html</link>
+      <description>[洋垃圾]如何删除lg g7自带的系统应用？&#13;
+root了，也装了magiskManager
+&#13;
+想把系统自带的韩语键盘删除
+&#13;
+用文件管理器找到app，但试了几次都是删除失败
+&#13;
+有没有老哥推荐个好用的方法</description>
+      <content:encoded><![CDATA[<p><b>MakeLaugh: </b><br>
+<span>[洋垃圾]如何删除lg g7自带的系统应用？</span><br>
+<span>root了，也装了magiskManager</span><br>
+<span>想把系统自带的韩语键盘删除</span><br>
+<span>用文件管理器找到app，但试了几次都是删除失败</span><br>
+<span>有没有老哥推荐个好用的方法</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>adb uninstall命令试试看？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>adb shell pm uninstall</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>data/app</span><br>
+<span>system/app</span><br>
+<span>system/privapp</span><br>
+<span>我记得预装的一般在这几个文件夹，记得先给写权限</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842279[0-50]</guid>
+    </item>
+  </channel>
+</rss>

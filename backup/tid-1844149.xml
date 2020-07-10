@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ESXi环境下黑群DSM如何使用USB存储设备？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ESXi环境下黑群DSM如何使用USB存储设备？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:17:57 +0000</lastBuildDate>
+    <item>
+      <title>ESXi环境下黑群DSM如何使用USB存储设备？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844149-1-1.html</link>
+      <description>ESXi环境下黑群DSM如何使用USB存储设备？&#13;
+硬件环境是3205U软路由，8G内存，2个USB2.0，2个USB3.0
+&#13;
+软件环境是ESXi主系统，下面虚拟化黑群DSM6.2.1，做系统的时候选的Linux 2.6.x （x64）环境，分配了USB2.0和USB3.0控制器
+&#13;
+目前DSM里无法识别USB设备，插上以后没反应，如何解决？</description>
+      <content:encoded><![CDATA[<p><b>rhotov: </b><br>
+<span>ESXi环境下黑群DSM如何使用USB存储设备？</span><br>
+<span>硬件环境是3205U软路由，8G内存，2个USB2.0，2个USB3.0</span><br>
+<span>软件环境是ESXi主系统，下面虚拟化黑群DSM6.2.1，做系统的时候选的Linux 2.6.x （x64）环境，分配了USB2.0和USB3.0控制器</span><br>
+<span>目前DSM里无法识别USB设备，插上以后没反应，如何解决？</span><br>
+</p><p><b>robit: </b><br>
+<span> ESXi版本？</span><br>
+</p><p><b>kumoriko: </b><br>
+<span>直通usb控制器或者rdm直通usb设备</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>rhotov: </b><br>
+<span>robit 发表于 2019-7-4 08:47</span><br>
+<span>ESXi版本？</span><br>
+<span>ESXi 6.7版</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>这是一个马甲: </b><br>
+<span>esxi的虚拟机设置，添加其他设备里我记得能加usb设备</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>光添加控制器有毛用，添加主机usb设备啊，当然得先把usb设备插到实体机上。</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>反正我是把USB直通了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844149[0-50]</guid>
+    </item>
+  </channel>
+</rss>

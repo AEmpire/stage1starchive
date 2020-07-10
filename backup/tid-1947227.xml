@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>MacOS和Windows和Linux一起用的文件共享选啥协议?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>MacOS和Windows和Linux一起用的文件共享选啥协议?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:07:33 +0000</lastBuildDate>
+    <item>
+      <title>MacOS和Windows和Linux一起用的文件共享选啥协议?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1947227-1-1.html</link>
+      <description>MacOS和Windows和Linux一起用的文件共享选啥协议?&#13;
+匿名文件共享,之前在Windows上开SMB共享 某次系统更新之后苹果那边突然不能匿名访问了
+&#13;
+正好最近要换服务器 想看看有没有啥更合适的文件共享办法</description>
+      <content:encoded><![CDATA[<p><b>zouyun147: </b><br>
+<span>MacOS和Windows和Linux一起用的文件共享选啥协议?</span><br>
+<span>匿名文件共享,之前在Windows上开SMB共享 某次系统更新之后苹果那边突然不能匿名访问了</span><br>
+<span>正好最近要换服务器 想看看有没有啥更合适的文件共享办法</span><br>
+</p><p><b>linux40: </b><br>
+<span>sftp</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>windows程序与功能里去手动开启smb1.0</span><br>
+</p><p><b>starrlit: </b><br>
+<span>python -m http.server</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>linekm: </b><br>
+<span>scp</span><br>
+</p><p><b>litel: </b><br>
+<span>搞什么匿名。。。建个带密码的账号啊</span><br>
+</p><p><b>xinfly: </b><br>
+<span>nfs</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>为什么一定要匿名？</span><br>
+</p><p><b>革萌: </b><br>
+<span>webdav</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1947227[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:09:49 +0000</lastBuildDate>
+    <item>
+      <title>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835761-1-1.html</link>
+      <description>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行...&#13;
+请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行起来的 好在哪里?</description>
+      <content:encoded><![CDATA[<p><b>我是谁是我: </b><br>
+<span>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行...</span><br>
+<span>请问git这种目录权限都控制不了的弱鸡是怎么代替svn流行起来的 好在哪里?</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>建议你直接发邮件问Linus</span><br>
+</p><p><b>waox: </b><br>
+<span>不懂就问，不能控制吗？听说谷歌就是一个repo到底的，要是所有人都有全部权限早就删库了吧</span><br>
+</p><p><b>黑风大侠: </b><br>
+<span>waox 发表于 2019-5-31 04:01</span><br>
+<span>不懂就问，不能控制吗？听说谷歌就是一个repo到底的，要是所有人都有全部权限早就删库了吧 ...</span><br>
+<span>然而谷歌不用git</span><br>
+</p><p><b>waox: </b><br>
+<span>黑风大侠 发表于 2019-5-31 04:15</span><br>
+<span>然而谷歌不用git</span><br>
+<span>原来如此，一时傻了</span><br>
+</p><p><b>riczxc: </b><br>
+<span> 本帖最后由 riczxc 于 2019-5-31 04:47 编辑 </span><br>
+<span>建branch commit 和merge都快，不会因此打乱思维。</span><br>
+<span>一个快字就足以改变你的使用习惯了。</span><br>
+</p><p><b>nicebody: </b><br>
+<span>我司用git</span><br>
+<span>我司有Acl</span><br>
+<span>我觉得是你司水平不行</span><br>
+</p><p><b>weakiwi: </b><br>
+<span>gitlab有branch protect的，不能向master分支直接commit</span><br>
+<span>—— 来自 Xiaomi Redmi 4, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span>默认还不区分路径大小写呢。。。昨天才知道，给我好一个坑</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yueyue2002: </b><br>
+<span>git 是不容易做到细粒度的管理，但 svn 也很难实现分布式开发和 pull request，这些才是开源协作最看重的。</span><br>
+</p><p><b>luciffer: </b><br>
+<span>黑名单+1</span><br>
+</p><p><b>^棉花糖^: </b><br>
+<span> git一个库一般是一个程序，不存在某个目录不能让人看的情况，不然你怎么编译，如果有目录不让人看这种需求说明没有强关联性应该开一个新库</span><br>
+<span>svn一般一个库对应一个服务器，程序是以目录分的</span><br>
+<span>git分支新建是固定时间空间占用的，不像svn要把文件复制一遍</span><br>
+<span>切换合并删除也快的多</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Hieda: </b><br>
+<span>这种弱智问题能不能去v2ex问？</span><br>
+</p><p><b>waox: </b><br>
+<span>说起来我还有一个git的事没搞明白</span><br>
+<span>git pull的时候能把unstaged change也下载下来吗？也就是我git pull以后什么都没做就已经有一个modified了，去github看的在线版本是为修改以前的，但是修改的版本没commit，这是怎么弄出来的？</span><br>
+</p><p><b>Summer333: </b><br>
+<span>branch protect，然后你的提交都只能直接提交到自己的branch，然后pull request，有别人review&accept才可以提交到master，而且可以回溯，用起来不觉得有问题啊。</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>tsubasa9 发表于 2019-5-31 04:00</span><br>
+<span>建议你直接发邮件问Linus</span><br>
+<span>要是linus抽空回邮件给LZ骂了一顿,会怎么样?</span><br>
+</p><p><b>calmer: </b><br>
+<span>担心楼主脑容量。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>moekyo: </b><br>
+<span>泉玲奈 发表于 2019-5-31 10:31</span><br>
+<span> 要是linus抽空回邮件给LZ骂了一顿,会怎么样?</span><br>
+<span>蹦面子，“我也是被大神骂过的人了”</span><br>
+</p><p><b>SICP: </b><br>
+<span>Hieda 发表于 2019-5-31 09:06</span><br>
+<span>这种弱智问题能不能去v2ex问？</span><br>
+<span>+65535，毕竟V2EX是创意工作者们的社区</span><br>
+</p><p><b>abcbuzhiming: </b><br>
+<span>Git最大的优势点在于分支，SVN开个分支，或者切换个分支要死要活的，但是Git就很容易。这对于互联网协作是福音，其它方面，我认为Git做的并不优秀</span><br>
+</p><p><b>w酱: </b><br>
+<span>branch和submodule不就是干这个的？</span><br>
+</p><p><b>ustslayer: </b><br>
+<span>你说的对，这确实是一个问题，我以前一直没有仔细想过..</span><br>
+<span>git 是把权限控制分开来做（准确的说是分开来，但是没有做）的，也就是需要额外的权限层。像 gerrit 就是用 folder based ACL，来控制写的权限。但是细粒度的读权限确实不好控制..</span><br>
+</p><p><b>kumh: </b><br>
+<span>泉玲奈 发表于 2019-5-31 10:31</span><br>
+<span>要是linus抽空回邮件给LZ骂了一顿,会怎么样?</span><br>
+<span>别担心，他的邮件过滤器已经好了。</span><br>
+<span>— from Xiaomi MI 8, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>费老师: </b><br>
+<span>不上cc都是业余</span><br>
+</p><p><b>acg_s1: </b><br>
+<span>waox 发表于 2019-5-31 09:34</span><br>
+<span>说起来我还有一个git的事没搞明白</span><br>
+<span>git pull的时候能把unstaged change也下载下来吗？也就是我git pull以后 ...</span><br>
+<span>一般是因为冲突，不stage->commit->push就没法pull</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>git remote set-url </span><br>
+<span>把远程分支的推送给关闭</span><br>
+</p><p><b>fsz1987: </b><br>
+<span>建个submodule不就得了?</span><br>
+</p><p><b>bioCory: </b><br>
+<span>泉玲奈 发表于 2019-5-31 10:31</span><br>
+<span>要是linus抽空回邮件给LZ骂了一顿,会怎么样?</span><br>
+<span>linus：“啥子哦?你吼那么大声干什么嘛?诶你态度能不能好一点哦？那你去用svn啊！你再骂？！”</span><br>
+</p><p><b>bioCory: </b><br>
+<span>我就想不通了，为什么你们这些人这么喜欢形而上学软件工程最佳实践？</span><br>
+<span>有权限控制，多媒体文件版本控制的需求就用svn，有分布式开发的需求就用git</span><br>
+</p><p><b>waox: </b><br>
+<span>acg_s1 发表于 2019-5-31 13:41</span><br>
+<span>一般是因为冲突，不stage->commit->push就没法pull</span><br>
+<span>没有提示冲突，而且那是老师新push上去的文件夹，所以在线的文本和下载以后文本都是不一样的</span><br>
+</p><p><b>waox: </b><br>
+<span>acg_s1 发表于 2019-5-31 13:41</span><br>
+<span>一般是因为冲突，不stage->commit->push就没法pull</span><br>
+<span>等等，重新clone了一次看</span><br>
+<span>warning: the following paths have collided (e.g. case-sensitive paths</span><br>
+<span>on a case-insensitive filesystem) and only one from the same</span><br>
+<span>colliding group is in the working tree:</span><br>
+<span>看来出现了写莫名其妙的东西Lab.cpp和lab.cpp</span><br>
+</p><p><b>ardin: </b><br>
+<span>gitolite 行不？</span><br>
+</p><p><b>ices: </b><br>
+<span>Sacnussem 发表于 2019-5-31 08:46</span><br>
+<span>默认还不区分路径大小写呢。。。昨天才知道，给我好一个坑</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Ne ...</span><br>
+<span>你可以试着把磁盘弄成区分大小写的格式</span><br>
+<span>mac 需要重新格式化，apfs/hfs+都成，格式要是分大小写</span><br>
+<span>Windows上面可以用 fsutil.exe file setCaseSensitiveInfo <path> enable 开启一个目录的区分大小，但是下级目录不会继承</span><br>
+<span>然后你就会发现很多坑爹的东西了 </span><br>
+</p><p><b>karloku: </b><br>
+<span>1.你可以把不同目录做成不同项目</span><br>
+<span>2.你可以不同项目配制不同的权限</span><br>
+<span>3.你可以把相关项目用submodule组合起来</span><br>
+<span>A. 每个人可以在自己电脑上维护一个完整副本 自己控制分支开发 直到完成后通过pr到主干</span><br>
+<span>B. 每个人, 每个电脑, 每个目录, 都可以自己的副本, 本地开发,commit,根据自己需要开合分支, 反正代码仓库里的主干分支关心的就只是最后那个pr</span><br>
+<span>强大灵活的ACL有代价. 就像现在大家服务器上比起NTFS的ACL还是更喜欢unix风格的modes一样, 简单好用而且够用. </span><br>
+<span>代码仓库中设置merge pr权限能解决写问题, 剩下的就是读了. 如果你的项目真的到了这种同一个代码仓库里的内容, 在无法划分模块的基础上, 也要做到部分代码只对部分人可见......... 那就用SVN吧. 虽然我觉得这种就是很少啊...</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835761[0-50]</guid>
+    </item>
+  </channel>
+</rss>

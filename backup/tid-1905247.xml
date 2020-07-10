@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安卓版本低导致app里某些页面加载不出来怎么办？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安卓版本低导致app里某些页面加载不出来怎么办？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:09:16 +0000</lastBuildDate>
+    <item>
+      <title>安卓版本低导致app里某些页面加载不出来怎么办？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905247-1-1.html</link>
+      <description>安卓版本低导致app里某些页面加载不出来怎么办？&#13;
+某些个老爷机还都停留在安卓4.4或者5.1上，但厂商根本就不曾推送升级过。
+&#13;
+很多app用起来也都还算正常。但在某些app的某些页面会加载不出来或者页面排版不正常，总之就是不能正常显示。
+&#13;
+我以为应该是和安卓系统里面Android system webview版本过老有关系吧，不知道说的对不对。
+&#13;
+那么有什么办法可以让这些页面显示正常呢？</description>
+      <content:encoded><![CDATA[<p><b>Haier: </b><br>
+<span>安卓版本低导致app里某些页面加载不出来怎么办？</span><br>
+<span>某些个老爷机还都停留在安卓4.4或者5.1上，但厂商根本就不曾推送升级过。</span><br>
+<span>很多app用起来也都还算正常。但在某些app的某些页面会加载不出来或者页面排版不正常，总之就是不能正常显示。</span><br>
+<span>我以为应该是和安卓系统里面Android system webview版本过老有关系吧，不知道说的对不对。</span><br>
+<span>那么有什么办法可以让这些页面显示正常呢？</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>Android system webview貌似可以手动升级来着，不记得是安卓几开始的，如果不行的话最好的建议是换个手机</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>UCXCU 发表于 2019-12-24 17:16</span><br>
+<span>Android system webview貌似可以手动升级来着，不记得是安卓几开始的，如果不行的话最好的建议是换个手机 ...</span><br>
+<span>5.0开始</span><br>
+</p><p><b>月神侠: </b><br>
+<span>我跟你相反，版本过高（Android9，10）导致旧的APP不能运行，关键是有的游戏就没再更新了，只能在Android6以下版本运行</span><br>
+</p><p><b>Haier: </b><br>
+<span>UCXCU 发表于 2019-12-24 17:16</span><br>
+<span>Android system webview貌似可以手动升级来着，不记得是安卓几开始的，如果不行的话最好的建议是换个手机 ...</span><br>
+<span>手动升级后，会有什么不良反应么？</span><br>
+</p><p><b>Haier: </b><br>
+<span>zlzhcqblf 发表于 2019-12-24 17:31</span><br>
+<span>5.0开始</span><br>
+<span>请问去哪里可以弄到各个版本的webview呢？正规一点的官方webview。</span><br>
+<span>如果升级了，出现bug还可以回滚吗？</span><br>
+</p><p><b>Haier: </b><br>
+<span>月神侠 发表于 2019-12-24 17:40</span><br>
+<span>我跟你相反，版本过高（Android9，10）导致旧的APP不能运行，关键是有的游戏就没再更新了，只能在An ...</span><br>
+<span>所以说，现在最佳兼容的安卓版本还是6，7，8吧。</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>Haier 发表于 2019-12-26 20:05</span><br>
+<span>请问去哪里可以弄到各个版本的webview呢？正规一点的官方webview。</span><br>
+<span>如果升级了，出现bug还可以回滚吗？ ...</span><br>
+<span>酷安有个停在72版很久没更新了，要正规直接Google play/Apkpure直接下咯</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>Haier 发表于 2019-12-26 20:05</span><br>
+<span>请问去哪里可以弄到各个版本的webview呢？正规一点的官方webview。</span><br>
+<span>如果升级了，出现bug还可以回滚吗？ ...</span><br>
+<span>apkmirror，出bug后卸载更新重新装</span><br>
+</p><p><b>zexal5ds: </b><br>
+<span> 本帖最后由 zexal5ds 于 2019-12-28 00:59 编辑 </span><br>
+<span>Haier 发表于 2019-12-26 20:05</span><br>
+<span>请问去哪里可以弄到各个版本的webview呢？正规一点的官方webview。</span><br>
+<span>如果升级了，出现bug还可以回滚吗？ ...</span><br>
+<span>https://coolapk.com/apk/com.google.android.webview</span><br>
+<span>https://www.apkmirror.com/apk/google-inc/android-system-webview</span><br>
+<span>现在最新的WebView是80.0，APP升级是装在/data/app里的，设置里随时可以删除更新，还原到/system/priv-app下的出厂版本，除非你root了自己整合到/system里</span><br>
+<span>顺便提醒一下，如果你机器是64位SOC，更新WebView时最好先检查一下apk是不是32位/64位通用版，有没有32位lib库，就是用压缩软件打开apk后有没有/lib/armeabi-v7a这样的目录，如果只有/lib/arm64-v8a，不少内嵌套壳浏览器的天朝APP只会调用32位lib库，比如工商银行，100%会出问题</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>app运行不了可能是native lib的问题, 和安卓本身关系不大</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905247[0-50]</guid>
+    </item>
+  </channel>
+</rss>

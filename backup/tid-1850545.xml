@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下路由老毛子固件问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下路由老毛子固件问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:37:35 +0000</lastBuildDate>
+    <item>
+      <title>请教一下路由老毛子固件问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850545-1-1.html</link>
+      <description>请教一下路由老毛子固件问题&#13;
+问一下各位高手，路由是新无线3，老毛子的固件，安卓的油管app刷不出，web板刷的出，安卓的smart油管app电视版刷得出，iOS的油管app就正常，求解</description>
+      <content:encoded><![CDATA[<p><b>SimonOpera: </b><br>
+<span>请教一下路由老毛子固件问题</span><br>
+<span>问一下各位高手，路由是新无线3，老毛子的固件，安卓的油管app刷不出，web板刷的出，安卓的smart油管app电视版刷得出，iOS的油管app就正常，求解</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>什么模式</span><br>
+</p><p><b>Litccc: </b><br>
+<span>老毛子的酸酸一直用不来，而且性能好像也是最差的</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>小白问一下u盘安装了opt环境有什么作用？k2p没usb那些功能不也照常？</span><br>
+</p><p><b>qwased: </b><br>
+<span>ladiesman217 发表于 2019-8-1 13:35</span><br>
+<span>小白问一下u盘安装了opt环境有什么作用？k2p没usb那些功能不也照常？</span><br>
+<span>可以直接跑openwrt的ipk</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>伊可费斯 发表于 2019-8-1 12:10</span><br>
+<span>什么模式</span><br>
+<span>各种模式均是如此，全局和绕过，和墙模式，都不行</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>貌似找到了临时的解决办法，打开ytb的app后，开一下本地代理app，播放开始后，关掉，就能继续用了。我猜是dns查找的问题。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>qwased 发表于 2019-8-1 13:38</span><br>
+<span>可以直接跑openwrt的ipk</span><br>
+<span>那我只用padavan上的功能是不是不插u盘也没影响？目前用到的酸酸，softether，frp，smb和aria。</span><br>
+</p><p><b>qwased: </b><br>
+<span>ladiesman217 发表于 2019-8-1 18:17</span><br>
+<span>那我只用padavan上的功能是不是不插u盘也没影响？目前用到的酸酸，softether，frp，smb和aria。 ...</span><br>
+<span>是的</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>ladiesman217 发表于 2019-8-1 18:17</span><br>
+<span>那我只用padavan上的功能是不是不插u盘也没影响？目前用到的酸酸，softether，frp，smb和aria。 ...</span><br>
+<span>内存分出来一点做临时储存 不过断电重启就得重下</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>你如果只用看视频就开gfwlist吧 开重定向DNS 指向本机 开dnsmasq 走代理解析 关了多线程负载均衡(这几天这玩意有问题) 然后把chinadns开了(三个开关都开了) 删掉下面dns服务器里的四个8</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>Saker_bobo 发表于 2019-8-1 19:48</span><br>
+<span>你如果只用看视频就开gfwlist吧 开重定向DNS 指向本机 开dnsmasq 走代理解析 关了多线程负载均衡(这几天这 ...</span><br>
+<span>感谢 我试试看 安卓不能用iOS能用我没想通</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850545[0-50]</guid>
+    </item>
+  </channel>
+</rss>

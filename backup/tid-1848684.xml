@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Video caption竞赛用Python/OpenCV/FFmpeg如何速成</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Video caption竞赛用Python/OpenCV/FFmpeg如何速成</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:49:08 +0000</lastBuildDate>
+    <item>
+      <title>Video caption竞赛用Python/OpenCV/FFmpeg如何速成[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848684-1-1.html</link>
+      <description>Video caption竞赛用Python/OpenCV/FFmpeg如何速成&#13;
+本人只会C，知识储备就是大一的那点知识。
+&#13;
+实习地方的小组参加了个video caption的比赛把我拉了进去，说让我负责编解码这一块（大概？）。
+&#13;
+大佬都开始测试模型了，我还在学怎么造轮子。。。
+&#13;
+目前的状况是跟着Python编程从入门到实践把习题和第一个作业做了，看了西瓜书的前九章，看了机器学习实战到分类树的那章。
+&#13;
+现在在看 https://blog.csdn.net/leixiaohua1020/article/details/15811977 中与视频有关的章节（其中代码均为C)，并以Jpeg2000 Image Compression Fundamentals, Standards, and Practice中的理论为辅。
+&#13;
+比赛使用Py，我现在应该看些什么来学习，求超能力者建议。</description>
+      <content:encoded><![CDATA[<p><b>ZhongMinko: </b><br>
+<span>Video caption竞赛用Python/OpenCV/FFmpeg如何速成</span><br>
+<span>本人只会C，知识储备就是大一的那点知识。</span><br>
+<span>实习地方的小组参加了个video caption的比赛把我拉了进去，说让我负责编解码这一块（大概？）。</span><br>
+<span>大佬都开始测试模型了，我还在学怎么造轮子。。。</span><br>
+<span>目前的状况是跟着Python编程从入门到实践把习题和第一个作业做了，看了西瓜书的前九章，看了机器学习实战到分类树的那章。</span><br>
+<span>现在在看 https://blog.csdn.net/leixiaohua1020/article/details/15811977 中与视频有关的章节（其中代码均为C)，并以Jpeg2000 Image Compression Fundamentals, Standards, and Practice中的理论为辅。</span><br>
+<span>比赛使用Py，我现在应该看些什么来学习，求超能力者建议。</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>有点变动，基本确定不用管FFmpeg了。</span><br>
+<span>泥潭超能力者快显身啊</span><br>
+</p><p><b>Sacnussem: </b><br>
+<span>建议你去v2ex问这个。。。</span><br>
+<span>或者找找python有没有现成的轮子？</span><br>
+<span>—— 来自 Sony G8142, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>我记得opencv可以直接解码摄像头的数据到jpeg吧</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-7-24 00:06 编辑 </span><br>
+<span>你下一本《学习opencv》</span><br>
+<span>第二章就是教你读avi视频</span><br>
+<span>如果视频不是avi的，转成avi就行了……</span><br>
+<span>VideoCapture cap;</span><br>
+<span>cap.open("xxx");</span><br>
+<span>这个函数我记得不止能读avi，别的也行，但是有的格式没有解码器，但是都不是问题</span><br>
+<span>随便百度就百度到了</span><br>
+<span>#include<opencv2/opencv.hpp></span><br>
+<span>using namespace cv;</span><br>
+<span>void main(){</span><br>
+<span>    VideoCapture cap;</span><br>
+<span>    cap.open("E://2.avi"); //打开视频,以上两句等价于VideoCapture cap("E://2.avi");</span><br>
+<span>    //cap.open("http://www.laganiere.name/bike.avi");//也可以直接从网页中获取图片，前提是网页有视频，以及网速够快</span><br>
+<span>    if(!cap.isOpened())//如果视频不能正常打开则返回</span><br>
+<span>      return;</span><br>
+<span>    Mat frame;</span><br>
+<span>    while(1)</span><br>
+<span>    {</span><br>
+<span>      cap>>frame;//等价于cap.read(frame);</span><br>
+<span>      if(frame.empty())//如果某帧为空则退出循环</span><br>
+<span>            break;</span><br>
+<span>      imshow("video", frame);</span><br>
+<span>      waitKey(20);//每帧延时20毫秒</span><br>
+<span>    }</span><br>
+<span>    cap.release();//释放资源</span><br>
+<span>}</span><br>
+</p><p><b>宵待草: </b><br>
+<span>直接用python的opencv就好，一般的webcam直接就能连，如果是海康或者大华的那么可以用rtsp，不过可能会有延迟</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>真田源次郎信繁 发表于 2019-7-23 23:59</span><br>
+<span>你下一本《学习opencv》</span><br>
+<span>第二章就是教你读avi视频</span><br>
+<span>如果视频不是avi的，转成avi就行了……</span><br>
+<span>这书是教C++的，，</span><br>
+<span>能用C/C++我也很乐意。</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>宵待草 发表于 2019-7-24 00:00</span><br>
+<span>直接用python的opencv就好，一般的webcam直接就能连，如果是海康或者大华的那么可以用rtsp，不过可能会有延 ...</span><br>
+<span>这个比赛是给视频，分析视频。</span><br>
+<span>Py确实有接口，但是Py相关的书太少了，就算有，也不是那种很经典的书。</span><br>
+</p><p><b>viasnow: </b><br>
+<span>都在测模型了你还在拆帧嘛……ffmpeg写批处理脚本好啦</span><br>
+<span>拆出来jpg就上模型跑啊，caption其实普遍做得都不算特别好所以机会挺大的……</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>你直接去查opencv的api 文档就完了</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-7-24 00:31 编辑 </span><br>
+<span>ZhongMinko 发表于 2019-7-24 00:23</span><br>
+<span>这书是教C++的，，</span><br>
+<span>能用C/C++我也很乐意。</span><br>
+<span>你这是一句代码还没写呢？用过python的opencv就不会说这句话了……</span><br>
+<span>opencv的python api和c++的是几乎一一对应的，这书的api python都能用转一下就是了</span><br>
+<span>python的opencv教程也有的是啊</span><br>
+<span>再说你负责解码，这还用学吗，拆出来图像矩阵就行了，根本不用opencv的操作，opencv里只有卷积，查找连通分支那些基本的图形学操作，虽然有机器学习的，但是9102年了，不是它那老掉牙的harr特征和adboost的时候了</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>Sacnussem 发表于 2019-7-23 23:43</span><br>
+<span>建议你去v2ex问这个。。。</span><br>
+<span>或者找找python有没有现成的轮子？</span><br>
+<span>我试下，谢谢</span><br>
+</p><p><b>zounry: </b><br>
+<span>求自学java和py的书，大大们推荐下呀</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>真田源次郎信繁 发表于 2019-7-24 00:27</span><br>
+<span>你这是一句代码还没写呢？用过python的opencv就不会说这句话了……</span><br>
+<span>opencv的python api和c++的是几 ...</span><br>
+<span>谢谢，我确实没用过Py</span><br>
+</p><p><b>ZhongMinko: </b><br>
+<span>viasnow 发表于 2019-7-24 00:26</span><br>
+<span>都在测模型了你还在拆帧嘛……ffmpeg写批处理脚本好啦</span><br>
+<span>拆出来jpg就上模型跑啊，caption其实普遍做得都不算 ...</span><br>
+<span>貌似是在复现去年的模型，去年的数据连标注都在数据集里。</span><br>
+<span>我就是打酱油的，，</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848684[0-50]</guid>
+    </item>
+  </channel>
+</rss>

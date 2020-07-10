@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZT：空客 A320 航空时钟 GMT 4200 拆解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZT：空客 A320 航空时钟 GMT 4200 拆解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:03:56 +0000</lastBuildDate>
+    <item>
+      <title>ZT：空客 A320 航空时钟 GMT 4200 拆解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914899-1-1.html</link>
+      <description>ZT：空客 A320 航空时钟 GMT 4200 拆解&#13;
+https://weibo.com/ttarticle/p/show?id=2309404474078424596841#_0
+&#13;
+转载经过许可，请勿用作商业用途https://weibo.com/ttarticle/p/show?id=2309404474078424596841#_0
+&#13;
+转载经过许可，请勿用作商业用途
+&#13;
+​又到了固定的养眼时间, 这次我们来拆一个空客A320上的航空时钟. 型号是 GMT-4200-1. 生产厂商是 Air Precision. 这是其官网的介绍
+&#13;
+PDF:   
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gc2xn0wm42j20lr0v0k0c.jpg       
+&#13;
+根据上面描述, 这个型号的航空时钟被用到了 AIRBUS A320, A321, A330, A340 型号上. (这里有个搞笑的情况, 注意看官网这个手册上的图, 左下角应该是ET按钮, 右上是UTC按钮, 它装反了...)
+&#13;
+时钟的前面板是这样的:   
+&#13;
+   http://wx1.sinaimg.cn/large/8148ebddly1gc2xn227ijj212w0pxu0x.jpg       
+&#13;
+左上是SET按钮, 按住可以显示当前日期, 当右上的UTC按钮调整到设置时, 旋转会向前调节时间, 按一下会向后调节时间. 这玩意极其不友好, 默认初始日期是1987年, 所以想要调节到2020年, 需要转33下.
+&#13;
+右上是UTC调节选项, 选择调节月份还是日期或时间. 为了防止误触, 必须按下然后才能向上旋转, 这点波音的某些型号的航空时钟没有. 
+&#13;
+左下时 ET (Elapsed Time, 经过时间) 计时按钮, 拨动到RUN即开始计时, 最大99小时59分. 拨动到RST即重置.
+&#13;
+右下是CHR (Chronometer, 秒表) 计时按钮, 按下指针计时开始, 再按下是停止计时, 然后再按下是重置. 同时上面写着CHR的液晶屏是显示转了几圈的, 最大99圈, 即99分钟. 
+&#13;
+我们再来看后面:    
+&#13;
+    http://wx3.sinaimg.cn/large/8148ebddly1gc2xn1m2d9j212w0pxu0x.jpg    
+&#13;
+同样写着这个钟需要28V和5V供电. 
+&#13;
+四个螺丝拧掉直接拆开:
+&#13;
+      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn2gs47j212w0px7wi.jpg    
+&#13;
+   说实话拆开前我以为里面大部分都是空的, 毕竟一个电子表能多复杂, 拆开后我还是吃了一惊.
+&#13;
+      http://wx2.sinaimg.cn/large/8148ebddly1gc2xn3u99ej212w0pxx6p.jpg      http://wx2.sinaimg.cn/large/8148ebddly1gc2xn50uhxj212w0pxx6p.jpg    
+&#13;
+   可以看到大概分三个部分, 从左至右是 LCD 和驱动部分, 中间是电位器和开关以及驱动 Chronometer 计时的电机. 右边是背板和驱动电路.
+&#13;
+拆掉尾部的航插面板, 这个插头做的还挺精致的, 标记了线序:    
+&#13;
+    http://wx2.sinaimg.cn/large/8148ebddly1gc2xnh6s2pj212w0pxx6p.jpg    
+&#13;
+内部:    
+&#13;
+    http://wx1.sinaimg.cn/large/8148ebddly1gc2xn5co92j20m80xcb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn5p57vj20m80xchdt.jpg    
+&#13;
+可以看到有6块子板, 我大致查了下资料, 这里简单描述下功能, 可能有误:       
+&#13;
+首先时电池, 用来保证断电后维持计时的. 其实就是个大电容, 这个大电容是法国 SIC-SAFCO 生产的, 我搜了下貌似发烧圈还挺喜欢的 ... 正宗法国音?【手动滑稽】:    
+&#13;
+    http://wx1.sinaimg.cn/large/8148ebddly1gc2xn9yzcij20m80xchdt.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnb70wrj20m80xckjl.jpg    
+&#13;
+然后是 Chronometer 计时的电机的驱动电路:    
+&#13;
+    http://wx1.sinaimg.cn/large/8148ebddly1gc2xnbi2cdj20m80xcnpd.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnbrytfj20m80xcnpd.jpg    
+&#13;
+可以看到这里有个巨大的DC-DC转换器. 由于是屏蔽的, 所以体积巨大.       不像现在的DC-DC转换能在指甲盖大小的IC上实现60W+的功率.
+&#13;
+同时还能看到两个 ST 98835(互补功率达林顿晶体管).      于是猜测这个板子应该是驱动电机的.
+&#13;
+然后就是核心部分:    
+&#13;
+    http://wx4.sinaimg.cn/large/8148ebddly1gc2xndm8uqj20m80xcnpd.jpg      http://wx4.sinaimg.cn/large/8148ebddly1gc2xndxn6zj20m80xcnpd.jpg    
+&#13;
+应该是时钟的主驱动, 板子上有个 MC146805E2CP 是个摩托罗拉的 6800单片机,      同时还能看到 DE27C256-45, 陶瓷封装CMOS. 里面应该是程序, 上面还有 AIR PRECISION 公司的程序型号贴纸, 62-A, 生产日期 1988-10.      贴纸是因为这个 DIP28 封装的CMOS是紫外线可擦除的, 揭开贴纸程序就没了.       然后还能看到一个 PHILIPS 的 4.194304MHz 晶振.
+&#13;
+剩下的IC是一些位移寄存器, 解码器等, 都是用来处理信号的.       
+&#13;
+最后几块板子都是将CPU输出的信号处理成最终LCD显示屏需要展示的时间的信号处理板:
+&#13;
+      http://wx2.sinaimg.cn/large/8148ebddly1gc2xnc40amj20m80xcqv5.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xncen5nj20m80xcnpd.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xncql9mj20m80xcnpd.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnd8achj20m80xcqv5.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnefe1fj20m80xcnpd.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xnevpazj20m80xcnpd.jpg    
+&#13;
+   这里还有空焊, 不知道是不是可选的ACARS或GPS (ARINC429 input) 的选用功能电路.       
+&#13;
+全家福:    
+&#13;
+    http://wx3.sinaimg.cn/large/8148ebddly1gc2xnfcgd2j20m80xcu0x.jpg    
+&#13;
+   然后是主板和电位器, 开关部分:    
+&#13;
+    http://wx1.sinaimg.cn/large/8148ebddly1gc2xnfoy1gj20m80xce81.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xng21zuj212w0px4qq.jpg    
+&#13;
+   可以看到这个驱动电机还是瑞士生产的, 味道正宗.    
+&#13;
+    http://wx1.sinaimg.cn/large/8148ebddly1gc2xngizubj212w0pxb2a.jpg    
+&#13;
+   这个开关比较有意思, 里面有个齿轮和金属组件, 按下后金属组件联动弹**触发微动开关, 旋转则会由齿轮会触发另一个微动开关.       
+&#13;
+然后是LCD和驱动部分, 这个是LCD的驱动:
+&#13;
+      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn6owihj212w0px4qq.jpg    
+&#13;
+   可以看到这个IC还是金封的, 型号是HI-8010S-27, 查了下是 Holt Integrated Circuits 生产的航空和军事专用高压LCD驱动IC.       
+&#13;
+液晶屏拆掉是这样的:
+&#13;
+      http://wx4.sinaimg.cn/large/8148ebddly1gc2xn67h7mj212w0pxe82.jpg    
+&#13;
+   这个液晶烧屏了, 估计也是这个表退役的原因, 有些液晶已经不工作了. 可以看到后面有橙色的滤光片, 这也是为什么点亮背景灯后是成色的原因.       
+&#13;
+背景灯是这样的灯条, 上面还是需要5V 400Hz才能点亮的灯泡(实际上高频一点的5VAC就行):
+&#13;
+      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn72o4ij212w0pxu0x.jpg    
+&#13;
+   玻璃面板, 双层玻璃+镀膜:
+&#13;
+      http://wx4.sinaimg.cn/large/8148ebddly1gc2xngurv0j212w0leb29.jpg    
+&#13;
+   点亮又复杂了一些, 这个时钟需要两组+28VDC才能驱动, 另外还需要5V 400Hz AC 来点亮背景灯, 线序是这样的:
+&#13;
+Clock StandbyY (28VDC), C (GND)       Clock Normal   V (28VDC), D (GND)       Integral Light K, L (5V 400Hz AC)       Annunciator light Test J       
+&#13;
+(感谢这篇文章, 让我省去了测试线序的时间https://soarbywire.com/2017/04/18/a320-gmt-4200-electronic-clock/)       
+&#13;
+照例还是用我的直流电源提供28V, 然后降压后给L298N, 最后搞个刺激的10KHz 5V给灯泡. 10KHz有好处的, 好处就是用相机拍视频适当调整一下快门速度就看不到灯光抖动了, 哈哈.    
+&#13;
+    http://wx2.sinaimg.cn/large/8148ebddly1gc2xn7kpj8j212w0px7wi.jpg    
+&#13;
+   最后照例是放毒时间, 想要无水印壁纸的同学可以到这里       https://unsplash.com/@karminski      6000x4000的**等你下载:
+&#13;
+    http://wx2.sinaimg.cn/large/8148ebddly1gc2xn9n3bnj212w0pxkjl.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn9021kj212w0pxtxq.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn8pmfaj212w0pxb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn8bs7rj212w0pxb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn7xq1ij212w0pxe81.jpg    
+&#13;
+   顺便, 这期还有拆解和点亮视频, 感兴趣的同学可以到这里观看:       
+&#13;
+https://www.bilibili.com/video/av88934270 
+&#13;
+以上, 我们下期再见~.​​​​    </description>
+      <content:encoded><![CDATA[<p><b>机丹尼尔: </b><br>
+<span>ZT：空客 A320 航空时钟 GMT 4200 拆解</span><br>
+<span>https://weibo.com/ttarticle/p/show?id=2309404474078424596841#_0</span><br>
+<span>转载经过许可，请勿用作商业用途https://weibo.com/ttarticle/p/show?id=2309404474078424596841#_0</span><br>
+<span>转载经过许可，请勿用作商业用途</span><br>
+<span>​又到了固定的养眼时间, 这次我们来拆一个空客A320上的航空时钟. 型号是 GMT-4200-1. 生产厂商是 Air Precision. 这是其官网的介绍</span><br>
+<span>PDF:   </span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gc2xn0wm42j20lr0v0k0c.jpg       </span><br>
+<span>根据上面描述, 这个型号的航空时钟被用到了 AIRBUS A320, A321, A330, A340 型号上. (这里有个搞笑的情况, 注意看官网这个手册上的图, 左下角应该是ET按钮, 右上是UTC按钮, 它装反了...)</span><br>
+<span>时钟的前面板是这样的:   </span><br>
+<span>   http://wx1.sinaimg.cn/large/8148ebddly1gc2xn227ijj212w0pxu0x.jpg       </span><br>
+<span>左上是SET按钮, 按住可以显示当前日期, 当右上的UTC按钮调整到设置时, 旋转会向前调节时间, 按一下会向后调节时间. 这玩意极其不友好, 默认初始日期是1987年, 所以想要调节到2020年, 需要转33下.</span><br>
+<span>右上是UTC调节选项, 选择调节月份还是日期或时间. 为了防止误触, 必须按下然后才能向上旋转, 这点波音的某些型号的航空时钟没有. </span><br>
+<span>左下时 ET (Elapsed Time, 经过时间) 计时按钮, 拨动到RUN即开始计时, 最大99小时59分. 拨动到RST即重置.</span><br>
+<span>右下是CHR (Chronometer, 秒表) 计时按钮, 按下指针计时开始, 再按下是停止计时, 然后再按下是重置. 同时上面写着CHR的液晶屏是显示转了几圈的, 最大99圈, 即99分钟. </span><br>
+<span>我们再来看后面:    </span><br>
+<span>    http://wx3.sinaimg.cn/large/8148ebddly1gc2xn1m2d9j212w0pxu0x.jpg    </span><br>
+<span>同样写着这个钟需要28V和5V供电. </span><br>
+<span>四个螺丝拧掉直接拆开:</span><br>
+<span>      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn2gs47j212w0px7wi.jpg    </span><br>
+<span>   说实话拆开前我以为里面大部分都是空的, 毕竟一个电子表能多复杂, 拆开后我还是吃了一惊.</span><br>
+<span>      http://wx2.sinaimg.cn/large/8148ebddly1gc2xn3u99ej212w0pxx6p.jpg      http://wx2.sinaimg.cn/large/8148ebddly1gc2xn50uhxj212w0pxx6p.jpg    </span><br>
+<span>   可以看到大概分三个部分, 从左至右是 LCD 和驱动部分, 中间是电位器和开关以及驱动 Chronometer 计时的电机. 右边是背板和驱动电路.</span><br>
+<span>拆掉尾部的航插面板, 这个插头做的还挺精致的, 标记了线序:    </span><br>
+<span>    http://wx2.sinaimg.cn/large/8148ebddly1gc2xnh6s2pj212w0pxx6p.jpg    </span><br>
+<span>内部:    </span><br>
+<span>    http://wx1.sinaimg.cn/large/8148ebddly1gc2xn5co92j20m80xcb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn5p57vj20m80xchdt.jpg    </span><br>
+<span>可以看到有6块子板, 我大致查了下资料, 这里简单描述下功能, 可能有误:       </span><br>
+<span>首先时电池, 用来保证断电后维持计时的. 其实就是个大电容, 这个大电容是法国 SIC-SAFCO 生产的, 我搜了下貌似发烧圈还挺喜欢的 ... 正宗法国音?【手动滑稽】:    </span><br>
+<span>    http://wx1.sinaimg.cn/large/8148ebddly1gc2xn9yzcij20m80xchdt.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnb70wrj20m80xckjl.jpg    </span><br>
+<span>然后是 Chronometer 计时的电机的驱动电路:    </span><br>
+<span>    http://wx1.sinaimg.cn/large/8148ebddly1gc2xnbi2cdj20m80xcnpd.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnbrytfj20m80xcnpd.jpg    </span><br>
+<span>可以看到这里有个巨大的DC-DC转换器. 由于是屏蔽的, 所以体积巨大.       不像现在的DC-DC转换能在指甲盖大小的IC上实现60W+的功率.</span><br>
+<span>同时还能看到两个 ST 98835(互补功率达林顿晶体管).      于是猜测这个板子应该是驱动电机的.</span><br>
+<span>然后就是核心部分:    </span><br>
+<span>    http://wx4.sinaimg.cn/large/8148ebddly1gc2xndm8uqj20m80xcnpd.jpg      http://wx4.sinaimg.cn/large/8148ebddly1gc2xndxn6zj20m80xcnpd.jpg    </span><br>
+<span>应该是时钟的主驱动, 板子上有个 MC146805E2CP 是个摩托罗拉的 6800单片机,      同时还能看到 DE27C256-45, 陶瓷封装CMOS. 里面应该是程序, 上面还有 AIR PRECISION 公司的程序型号贴纸, 62-A, 生产日期 1988-10.      贴纸是因为这个 DIP28 封装的CMOS是紫外线可擦除的, 揭开贴纸程序就没了.       然后还能看到一个 PHILIPS 的 4.194304MHz 晶振.</span><br>
+<span>剩下的IC是一些位移寄存器, 解码器等, 都是用来处理信号的.       </span><br>
+<span>最后几块板子都是将CPU输出的信号处理成最终LCD显示屏需要展示的时间的信号处理板:</span><br>
+<span>      http://wx2.sinaimg.cn/large/8148ebddly1gc2xnc40amj20m80xcqv5.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xncen5nj20m80xcnpd.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xncql9mj20m80xcnpd.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnd8achj20m80xcqv5.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xnefe1fj20m80xcnpd.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xnevpazj20m80xcnpd.jpg    </span><br>
+<span>   这里还有空焊, 不知道是不是可选的ACARS或GPS (ARINC429 input) 的选用功能电路.       </span><br>
+<span>全家福:    </span><br>
+<span>    http://wx3.sinaimg.cn/large/8148ebddly1gc2xnfcgd2j20m80xcu0x.jpg    </span><br>
+<span>   然后是主板和电位器, 开关部分:    </span><br>
+<span>    http://wx1.sinaimg.cn/large/8148ebddly1gc2xnfoy1gj20m80xce81.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xng21zuj212w0px4qq.jpg    </span><br>
+<span>   可以看到这个驱动电机还是瑞士生产的, 味道正宗.    </span><br>
+<span>    http://wx1.sinaimg.cn/large/8148ebddly1gc2xngizubj212w0pxb2a.jpg    </span><br>
+<span>   这个开关比较有意思, 里面有个齿轮和金属组件, 按下后金属组件联动弹**触发微动开关, 旋转则会由齿轮会触发另一个微动开关.       </span><br>
+<span>然后是LCD和驱动部分, 这个是LCD的驱动:</span><br>
+<span>      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn6owihj212w0px4qq.jpg    </span><br>
+<span>   可以看到这个IC还是金封的, 型号是HI-8010S-27, 查了下是 Holt Integrated Circuits 生产的航空和军事专用高压LCD驱动IC.       </span><br>
+<span>液晶屏拆掉是这样的:</span><br>
+<span>      http://wx4.sinaimg.cn/large/8148ebddly1gc2xn67h7mj212w0pxe82.jpg    </span><br>
+<span>   这个液晶烧屏了, 估计也是这个表退役的原因, 有些液晶已经不工作了. 可以看到后面有橙色的滤光片, 这也是为什么点亮背景灯后是成色的原因.       </span><br>
+<span>背景灯是这样的灯条, 上面还是需要5V 400Hz才能点亮的灯泡(实际上高频一点的5VAC就行):</span><br>
+<span>      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn72o4ij212w0pxu0x.jpg    </span><br>
+<span>   玻璃面板, 双层玻璃+镀膜:</span><br>
+<span>      http://wx4.sinaimg.cn/large/8148ebddly1gc2xngurv0j212w0leb29.jpg    </span><br>
+<span>   点亮又复杂了一些, 这个时钟需要两组+28VDC才能驱动, 另外还需要5V 400Hz AC 来点亮背景灯, 线序是这样的:</span><br>
+<span>Clock StandbyY (28VDC), C (GND)       Clock Normal   V (28VDC), D (GND)       Integral Light K, L (5V 400Hz AC)       Annunciator light Test J       </span><br>
+<span>(感谢这篇文章, 让我省去了测试线序的时间https://soarbywire.com/2017/04/18/a320-gmt-4200-electronic-clock/)       </span><br>
+<span>照例还是用我的直流电源提供28V, 然后降压后给L298N, 最后搞个刺激的10KHz 5V给灯泡. 10KHz有好处的, 好处就是用相机拍视频适当调整一下快门速度就看不到灯光抖动了, 哈哈.    </span><br>
+<span>    http://wx2.sinaimg.cn/large/8148ebddly1gc2xn7kpj8j212w0px7wi.jpg    </span><br>
+<span>   最后照例是放毒时间, 想要无水印壁纸的同学可以到这里       https://unsplash.com/@karminski      6000x4000的**等你下载:</span><br>
+<span>    http://wx2.sinaimg.cn/large/8148ebddly1gc2xn9n3bnj212w0pxkjl.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn9021kj212w0pxtxq.jpg      http://wx1.sinaimg.cn/large/8148ebddly1gc2xn8pmfaj212w0pxb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn8bs7rj212w0pxb29.jpg      http://wx3.sinaimg.cn/large/8148ebddly1gc2xn7xq1ij212w0pxe81.jpg    </span><br>
+<span>   顺便, 这期还有拆解和点亮视频, 感兴趣的同学可以到这里观看:       </span><br>
+<span>https://www.bilibili.com/video/av88934270 </span><br>
+<span>以上, 我们下期再见~.​​​​    </span><br>
+</p><p><b>magpte: </b><br>
+<span>是不是我想太多，以为是铷钟才能上飞机了</span><br>
+</p><p><b>机丹尼尔: </b><br>
+<span>magpte 发表于 2020-2-20 20:40</span><br>
+<span>是不是我想太多，以为是铷钟才能上飞机了</span><br>
+<span>老哥，飞机不是卫星……</span><br>
+</p><p><b>广东: </b><br>
+<span>恍然回到大学里上数字电路课的时代，没想到航空工业这么高端的场合还在用这么粗糙的电路板，和这么多的74芯片</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>弄些8086辈的集成电路是图什么？，石英（晶振）钟它不好么</span><br>
+</p><p><b>felixcat: </b><br>
+<span>现在的时钟都是液晶显示屏了……这种航空时钟的320应该都还是最老的批次的……</span><br>
+</p><p><b>广东: </b><br>
+<span>Realplayer 发表于 2020-2-20 21:20</span><br>
+<span>弄些8086辈的集成电路是图什么？，石英（晶振）钟它不好么6805里面就集成了时钟的。</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>如果能把这个塞到车里就好了，太性感了</span><br>
+</p><p><b>windrarara: </b><br>
+<span>这种东西应该都是很久之前设计的，一直用着不改了，又不是不能用</span><br>
+</p><p><b>guoe: </b><br>
+<span>这种物件都怎么淘换来的</span><br>
+</p><p><b>机丹尼尔: </b><br>
+<span>guoe 发表于 2020-2-20 21:32</span><br>
+<span>这种物件都怎么淘换来的</span><br>
+<span>进口洋垃圾等等，前段时间我转发的那个拆F4敌我识别也是那里搞来的</span><br>
+</p><p><b>日了狗了: </b><br>
+<span>一个钟要这么复杂的吗</span><br>
+</p><p><b>STIGGY: </b><br>
+<span>零件全是欧洲出的 当时也就发达国家能出这些东西吧</span><br>
+</p><p><b>雷诺4000: </b><br>
+<span>不知这个耗电如何，若是能塞个锂电池进去，魔改后当座钟用就好了，逼格拉满。不过我估计小点的电池扛不了三天，还是得外接电源，拖个线就不美了</span><br>
+</p><p><b>广东: </b><br>
+<span>雷诺4000 发表于 2020-2-20 22:17</span><br>
+<span>不知这个耗电如何，若是能塞个锂电池进去，魔改后当座钟用就好了，逼格拉满。不过我估计小点的电池扛不了三 ...</span><br>
+<span>你看看顶楼，这东西要2组28V直流电源+1组5V电源的。</span><br>
+<span>看工艺就是30年前的东西，功耗不小。不过元器件质量肯定是杠杠的，用的当时最好的东西。</span><br>
+</p><p><b>NBY: </b><br>
+<span>心动 想买</span><br>
+</p><p><b>非喵碳: </b><br>
+<span>那么，在哪儿才买得到呢</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>vampiar: </b><br>
+<span>广东 发表于 2020-2-20 21:15</span><br>
+<span>恍然回到大学里上数字电路课的时代，没想到航空工业这么高端的场合还在用这么粗糙的电路板，和这么多的74芯 ...</span><br>
+<span>飞机上很多东西都是落后时代的，改动太麻烦</span><br>
+</p><p><b>coldhot3: </b><br>
+<span>真棒，想给车里整一个</span><br>
+</p><p><b>alexhxr: </b><br>
+<span>vampiar 发表于 2020-2-20 23:02</span><br>
+<span>飞机上很多东西都是落后时代的，改动太麻烦</span><br>
+<span>改动重新拿适航许可太麻烦，又不是不能用！</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>不错 楼主平时哪里淘的洋垃圾？ 有能淘到军品吗</span><br>
+</p><p><b>村上恒一: </b><br>
+<span>a320本身就是30多年前的产物，零部件过时才是正常的吧</span><br>
+</p><p><b>机丹尼尔: </b><br>
+<span>雪映风影 发表于 2020-2-20 23:29</span><br>
+<span>不错 楼主平时哪里淘的洋垃圾？ 有能淘到军品吗</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1904163-1-1.html</span><br>
+<span>F4战斗机的计算机</span><br>
+</p><p><b>触手皇帝: </b><br>
+<span>这个要能用来做座钟就太美了</span><br>
+</p><p><b>nvis: </b><br>
+<span>猜年份的没仔细看文，主楼文里有提到，程序体陶封cmos生产日期是1988-10</span><br>
+</p><p><b>vampiar: </b><br>
+<span>alexhxr 发表于 2020-2-20 23:13</span><br>
+<span>改动重新拿适航许可太麻烦，又不是不能用！</span><br>
+<span>能用就行是民航的共识运五这样的空中拖拉机还飞着呢</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914899[0-50]</guid>
+    </item>
+  </channel>
+</rss>

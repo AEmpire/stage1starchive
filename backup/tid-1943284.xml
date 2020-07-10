@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>加了块ssd，换了水冷，瞬间显卡帧数爆降30帧。什么原因？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>加了块ssd，换了水冷，瞬间显卡帧数爆降30帧。什么原因？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:33:11 +0000</lastBuildDate>
+    <item>
+      <title>加了块ssd，换了水冷，瞬间显卡帧数爆降30帧。什么原因？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1943284-1-1.html</link>
+      <description>加了块ssd，换了水冷，瞬间显卡帧数爆降30帧。什么原因？&#13;
+也不知道是什么问题，Z390-a
+&#13;
+第二块SN550 SSD当游戏盘，放在离CPU近的m.2口，系统盘970evo
+&#13;
+原来用HDD玩游戏都没这么卡，有几个游戏直接70帧降到30帧。游戏是直接移盘过去的。也不知道是啥问题
+&#13;
+可能1、系统盘可能x16被降到x8速了。
+&#13;
+可能2、显卡被降频了
+&#13;
+可能3、游戏是移盘过去导致
+&#13;
+看显卡温度和CPU温度基本和之前差不多，60-70，在满载的时候。</description>
+      <content:encoded><![CDATA[<p><b>我是快乐小马甲: </b><br>
+<span>加了块ssd，换了水冷，瞬间显卡帧数爆降30帧。什么原因？</span><br>
+<span>也不知道是什么问题，Z390-a</span><br>
+<span>第二块SN550 SSD当游戏盘，放在离CPU近的m.2口，系统盘970evo</span><br>
+<span>原来用HDD玩游戏都没这么卡，有几个游戏直接70帧降到30帧。游戏是直接移盘过去的。也不知道是啥问题</span><br>
+<span>可能1、系统盘可能x16被降到x8速了。</span><br>
+<span>可能2、显卡被降频了</span><br>
+<span>可能3、游戏是移盘过去导致</span><br>
+<span>看显卡温度和CPU温度基本和之前差不多，60-70，在满载的时候。</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>x8/x16的区别估计就几帧，最多不真超过10，肯定不是这个原因。</span><br>
+<span>装个osd软件实时看下游戏过程中cpu/gpu还有显存内存点用率，频率，温度啥的，有没有异常</span><br>
+</p><p><b>bm7号: </b><br>
+<span>可能按的时候碰了内存少识别了一根？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>什么游戏呢？我之前遇到过一次240降低到180的情况，玩的ow画质低，百思不得其解，结果低画质中的那个渲染百分比，之前都是100%不知怎么默认配置变成了141%，导致帧数掉了60，设置是一模一样的，但是却渲染百分比却变了</span><br>
+</p><p><b>starash: </b><br>
+<span>即便移到机械盘上去也不会暴降30f。</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span>30帧也太多了，该不是切核显了吧</span><br>
+</p><p><b>elflie: </b><br>
+<span>即使是2080ti，3.0*8通道也几乎没有损失的</span><br>
+<span>—— 来自 Xiaomi Redmi K30 Pro Zoom Edition, Android 10上的 S1Next-鹅版 v2.3.0-alpha</span><br>
+</p><p><b>lucky95: </b><br>
+<span>有点厉害</span><br>
+</p><p><b>我是快乐小马甲: </b><br>
+<span>有结论了，主板三极管炸了，没法启动。</span><br>
+<span>两种可能性，</span><br>
+<span>1.机箱内温度过高导致三极管爆炸</span><br>
+<span>2.电源瞬时断电导致三极管爆炸</span><br>
+<span>主板返修狗东，不过狗东维修工程师说给asus维修，修好之后也可能炸主板其他东西，建议再买新的</span><br>
+</p><p><b>404489039: </b><br>
+<span>漏水了</span><br>
+</p><p><b>Cray: </b><br>
+<span>显示器接到核显了</span><br>
+<span>----发送自 Sony H8296,Android 9</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1943284[0-50]</guid>
+    </item>
+  </channel>
+</rss>

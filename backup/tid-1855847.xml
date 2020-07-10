@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有没有在老机器上装过黑苹果？我这个clover一直进不去</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有没有在老机器上装过黑苹果？我这个clover一直进不去</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:04:27 +0000</lastBuildDate>
+    <item>
+      <title>有没有在老机器上装过黑苹果？我这个clover一直进不去[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855847-1-1.html</link>
+      <description>有没有在老机器上装过黑苹果？我这个clover一直进不去&#13;
+坛友大家好，小弟初来乍到。
+&#13;
+家中有个破电脑，要给别人用。考虑windows上广告多。其实就是看网页而已。但是windows装个输入法都弹广告，更别说别的了。浏览器更是疯狂
+&#13;
+所以想装个黑苹果。我本人有macbook air使用经验。我觉得教别人不是问题。
+&#13;
+现在问题是，我这个主板华硕P8H61-M PLUS V2,   cpu i52320 显卡 nv gtx750。用了各种版本clover，都引导不了，只有左上角闪光标。
+&#13;
+这个主板支持uefi。
+&#13;
+用别人做好的各种版本mac installer with clover也是引导不了clover。
+&#13;
+但是用国产启动盘，立马能通过uefi方式启动winpe。
+&#13;
+同样的u盘，移动硬盘（ssd），在别的电脑上加上就能引导clover。
+&#13;
+所以求助各位，能否指点一点。
+&#13;
+如果能赏个pcbeta邀请码就更好了。</description>
+      <content:encoded><![CDATA[<p><b>zktz: </b><br>
+<span>有没有在老机器上装过黑苹果？我这个clover一直进不去</span><br>
+<span>坛友大家好，小弟初来乍到。</span><br>
+<span>家中有个破电脑，要给别人用。考虑windows上广告多。其实就是看网页而已。但是windows装个输入法都弹广告，更别说别的了。浏览器更是疯狂</span><br>
+<span>所以想装个黑苹果。我本人有macbook air使用经验。我觉得教别人不是问题。</span><br>
+<span>现在问题是，我这个主板华硕P8H61-M PLUS V2,   cpu i52320 显卡 nv gtx750。用了各种版本clover，都引导不了，只有左上角闪光标。</span><br>
+<span>这个主板支持uefi。</span><br>
+<span>用别人做好的各种版本mac installer with clover也是引导不了clover。</span><br>
+<span>但是用国产启动盘，立马能通过uefi方式启动winpe。</span><br>
+<span>同样的u盘，移动硬盘（ssd），在别的电脑上加上就能引导clover。</span><br>
+<span>所以求助各位，能否指点一点。</span><br>
+<span>如果能赏个pcbeta邀请码就更好了。</span><br>
+</p><p><b>longooyue: </b><br>
+<span>几个方向：</span><br>
+<span>模拟efi 后的各种驱动文件</span><br>
+<span>ACPI SATA ACHI</span><br>
+<span>要我说，insanelymac找不大同配置的放弃黑苹果吧</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span> 本帖最后由 tsubasa9 于 2019-8-26 01:06 编辑 </span><br>
+<span>Linux请</span><br>
+<span>黑苹果装好了用也有一堆问题</span><br>
+<span>你还给别人用？？？</span><br>
+</p><p><b>丸京: </b><br>
+<span>longooyue 发表于 2019-8-25 21:31</span><br>
+<span>几个方向：</span><br>
+<span>模拟efi 后的各种驱动文件</span><br>
+<span>ACPI SATA ACHI</span><br>
+<span>补充一个，N卡装不了最新MAC系统。</span><br>
+<span>苹果不更新驱动，最高只能装10.13，然后如果对方手误更新，系统还是会炸。</span><br>
+<span>可以考虑下Ubuntu、deepin。</span><br>
+</p><p><b>生年不满百: </b><br>
+<span>大学时折腾黑苹果了一两年，总结就是，不如买个mac</span><br>
+</p><p><b>黒桐幹也: </b><br>
+<span>我可以给你个群，时不时会发码</span><br>
+</p><p><b>hecas: </b><br>
+<span>广告多装个去广告的软件吧</span><br>
+<span>你换苹果 广告是没了</span><br>
+<span>软件也没了啊</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>mac os说实话还不如Windows，没特殊需要装win10吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855847[0-50]</guid>
+    </item>
+  </channel>
+</rss>

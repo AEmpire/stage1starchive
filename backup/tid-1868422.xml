@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>给我的diy nas选个文件系统，ext4还是xfs？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>给我的diy nas选个文件系统，ext4还是xfs？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:41:23 +0000</lastBuildDate>
+    <item>
+      <title>给我的diy nas选个文件系统，ext4还是xfs？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868422-1-1.html</link>
+      <description>给我的diy nas选个文件系统，ext4还是xfs？&#13;
+操作系统是centos
+&#13;
+是不是都差不多？
+&#13;
+zfs估计不行，我的内存才4g
+&#13;
+xfs现在支持查重了吗？我发现以前习惯不好，重复的太多了。
+&#13;
+windows下一查重十几万个重复文件</description>
+      <content:encoded><![CDATA[<p><b>linux40: </b><br>
+<span>编辑</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-11-29 19:48</span><br>
+<span>https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=819703</span><br>
+<span>是这个事，不是bug</span><br>
+<span>所以一个推荐人debian的有脸说centos的包？</span><br>
+<span>archlinux只要不是testing源，都是第一时间推送的正式版。</span><br>
+<span>通过google 搜 fedora unstable 其论坛上是真的有人崩，比如</span><br>
+<span>Is Fedora Unstable?</span><br>
+<span>f27 Seems unstable</span><br>
+<span>Fedora 21 very unstable</span><br>
+<span>Unstable</span><br>
+<span>Fedora unstable </span><br>
+<span>Repair unstable Fedora 25</span><br>
+<span>通过google 搜 archlinux unstable 其论坛除了有两个 newbie 问(得到的答复也是not so)</span><br>
+<span>外都是无线网卡和显卡的问题，要不是包名含 unstable。</span><br>
+</p><p><b>Austaras: </b><br>
+<span> 本帖最后由 Austaras 于 2019-11-29 21:40 编辑 </span><br>
+<span>linux40 发表于 2019-11-29 20:40</span><br>
+<span>所以一个推荐人debian的有脸说centos的包？</span><br>
+<span>archlinux只要不是testing源，都是第一时间推送的正式版。</span><br>
+<span>你有没有考虑到fedora用的人比archlinux多得多，而且power user含量低？就算是fedora linux和archlinux的搜索结果对比，也是前者多</span><br>
+<span>而且archlinux的update policy基本上就是除了少数包（linux，gnome等）会在testing待一会之外其他都是直接release，相比之下fedora是更不激进一些</span><br>
+<span>https://fedoraproject.org/wiki/Updates_Policy#Stable_Releases</span><br>
+<span>至于centos和debian哪个包新，别脑补好么。。。</span><br>
+<span>nginx</span><br>
+<span>http://mirror.centos.org/centos/ ... e34fea82.x86_64.rpm</span><br>
+<span>https://packages.debian.org/buster/nginx 1.14.2</span><br>
+<span>gcc</span><br>
+<span>http://mirror.centos.org/centos/ ... -3.5.el8.x86_64.rpm</span><br>
+<span>https://packages.debian.org/buster/gcc 8.3.0</span><br>
+<span>python3</span><br>
+<span>http://mirror.centos.org/centos/ ... -4.el8_0.x86_64.rpm</span><br>
+<span>https://packages.debian.org/buster/python3 3.7.3</span><br>
+<span>但是debian包数量压倒性地多（当然这和打包习惯也有很大关系）</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-11-29 21:29</span><br>
+<span>你有没有考虑到fedora用的人比archlinux多得多，而且power user含量低？就算是fedora linux和archlinux的 ...</span><br>
+<span>那作为fedora和archlinux都用过的人，我在fedora上用kde时一会这不对会儿那不对，不久之后就换掉了，而archlinux则可以持续很久。fedora也可以用aur，pacman也不比别的包管理器先进，fedora也可以从minimal开始安装，为什么你口中的 power user更偏爱archlinux？</span><br>
+<span>至于centos和debian的包谁更旧，我只想说都挺垃圾的。</span><br>
+</p><p><b>Austaras: </b><br>
+<span> 本帖最后由 Austaras 于 2019-11-30 01:30 编辑 </span><br>
+<span>linux40 发表于 2019-11-29 22:19</span><br>
+<span>那作为fedora和archlinux都用过的人，我在fedora上用kde时一会这不对会儿那不对，不久之后就换掉了，而ar ...</span><br>
+<span>因为没有GUI安装程序天然劝退不想学东西的小白，而abs使用起来非常方便</span><br>
+<span>archlinux是好东西，我的PC一直在用，但也不要神话它的稳定性</span><br>
+<span>所以决定性的优势就是centos包少，你上面提到的xscreensaver除了一个个人repo之外就只有epel有，都epel了不如fedora</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-11-30 01:22 编辑 </span><br>
+<span>Austaras 发表于 2019-11-29 22:42</span><br>
+<span>因为没有GUI安装程序天然劝退不想学东西的小白，而abs使用起来非常方便</span><br>
+<span>archlinux是好东西，我的PC一直 ...</span><br>
+<span>我当然没神话它的稳定性，我是说比fedora不知道高到哪里去了。</span><br>
+<span>centos包少，但缺的多少是服务器很需要的？</span><br>
+<span>我反驳的是什么？你说epel不如fedora？得了吧。</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-11-30 01:18</span><br>
+<span>我当然没神话它的稳定性，我是说比fedora不知道高到哪里去了。</span><br>
+<span>centos包少，但缺的多少是服务器很需要的 ...</span><br>
+<span>所以说fedora稳定性哪有这么差这根本就是江湖传言，虽然稳定性肯定比不上redhat，但和滚动更新的发行版比起来应该还是好一些。不过反正都是空口无凭，你要是觉得fedora哪里不对开bug去好了</span><br>
+<span>很多啊，随便举个例子，yarn就没有，erlang在epel里</span><br>
+<span>你装centos再启用epel是还不如直接用fedora呢，反正epel的更新策略和维护者更fedora是一样的</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>我还以为国内一堆用centos的是因为历史惯性呢, 一堆老教材全是红帽的</span><br>
+</p><p><b>遗尿: </b><br>
+<span>说起来万兆ISCSI和本地硬盘对比性能会有问题吗？比如延迟啥的？</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-11-30 10:38 编辑 </span><br>
+<span>Austaras 发表于 2019-11-30 02:10</span><br>
+<span>所以说fedora稳定性哪有这么差这根本就是江湖传言，虽然稳定性肯定比不上redhat，但和滚动更新的发行版比 ...</span><br>
+<span>我打那么大堆不就是说"应该还是好些"完全是错的。</span><br>
+<span>滚动更新也不带表更新的快，Void linux就更新得没那么快。</span><br>
+<span>yarn没有不代表装起来很麻烦，ubuntu等很多发行版本还没有caddy，装的时候也几下就搞定了。</span><br>
+<span>当然你要只信任发行版本官方源我也没办法。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>自己不用fedora的少这里扯ok</span><br>
+<span>Fedora支持周期才多久？推荐服务器上fedora还说用centos的是小白？</span><br>
+<span>Fedora 13同期的centos 6现在还有支持</span><br>
+<span>你去哪找fedroa 13的支持</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>没用gentoo的吗？现在还坚持不用systemd的发行版不多了</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>遗尿 发表于 2019-11-30 08:53:15</span><br>
+<span>说起来万兆ISCSI和本地硬盘对比性能会有问题吗？比如延迟啥的？当然有 快不过本地的</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>liwangli1983 发表于 2019-11-30 11:25:29</span><br>
+<span>没用gentoo的吗？现在还坚持不用systemd的发行版不多了不用systemd才是遗老</span><br>
+<span>稍微熟悉下syatemd你就再也不想写以前的shell服务脚本了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-30 11:27</span><br>
+<span>不用systemd才是遗老</span><br>
+<span>稍微熟悉下syatemd你就再也不想写以前的shell服务脚本了</span><br>
+<span>嘛，主要是习惯了懒得换。shell脚本我到是很熟悉</span><br>
+<span>systemd只是原因之一，另外就是gentoo的USE标记太好用了</span><br>
+</p><p><b>你的全家: </b><br>
+<span>braverbt 发表于 2019-11-28 14:02</span><br>
+<span>fedora除了repo"激进"一点点外和centos没啥特别本质区别.生产用也没什么特别大问题.</span><br>
+<span>我这边几台生产服务 ...</span><br>
+<span>我f27那年因为dnf update搞出了kernel panic，从此就开除了fedora……</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>linux40: </b><br>
+<span>liwangli1983 发表于 2019-11-30 11:25</span><br>
+<span>没用gentoo的吗？现在还坚持不用systemd的发行版不多了</span><br>
+<span>有个void linux不用systemd，比较适合不想编译、喜欢滚动更新的个人用户。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>简单来说</span><br>
+<span>楼主自用的话我推荐是debian jessie/群晖+docker，前者是我司的做法，后者是我家的nas</span><br>
+<span>体验稳定debian，同时可以随意使用任意系统上各种最新最炫的包支持</span><br>
+<span>我家的40Tnas就这么干的，黑群晖求都没有，但是有docker 所以想要啥都是一个docker拉下来</span><br>
+<span>aria一个docker拉下来跑起来就完事儿了 怎么跑也有说明的 都不难</span><br>
+<span>把docker当软件包管理器用！</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>楼主你直接openmediavault 4得了.就是debian9.</span><br>
+<span>装完第三方插件直接可以docker.</span><br>
+<span>心情好了,自己集成个KVM完事.</span><br>
+<span>一个nas系统,你们吵半天.</span><br>
+</p><p><b>Austaras: </b><br>
+<span> 本帖最后由 Austaras 于 2019-11-30 19:40 编辑 </span><br>
+<span>linux40 发表于 2019-11-30 10:36</span><br>
+<span>我打那么大堆不就是说"应该还是好些"完全是错的。</span><br>
+<span>滚动更新也不带表更新的快，Void linux就更新得没那么 ...</span><br>
+<span>所以说拿出fedora不稳定的证据出来...</span><br>
+<span>是的我一开始就说只信任官方源你翻回去看看, 毕竟干掉整个系统也就一行命令的事情, 几下就搞定了</span><br>
+<span>void确实不错, 可惜镜像太少</span><br>
+</p><p><b>Austaras: </b><br>
+<span>明确一下我的观点, 商业用途有钱上红帽, 没钱就debian, 非要在yum体系里玩泥巴就fedora</span><br>
+<span>自己用的话开心就好, debian也不错</span><br>
+<span>用centos的要么是被抠门老板坑了的老人, 大部分是被前者写的过期教程坑了的小白</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-11-30 19:36</span><br>
+<span>所以说拿出fedora不稳定的证据出来...</span><br>
+<span>是的我一开始就说只信任官方源你翻回去看看, 毕竟干掉整个系统也就 ...</span><br>
+<span>别人说了好多例子你不是不以为然？</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-12-1 01:19</span><br>
+<span>别人说了好多例子你不是不以为然？</span><br>
+<span>一个人没头没尾的说他kernel panic了, 我哪知道是谁的责任. fedora支持时间短, 这倒是真的</span><br>
+<span>顺带简单的算术题</span><br>
+<span>https://www.google.com/search?q=site%3Aforums.fedoraforum.org+unstable 1820</span><br>
+<span>https://www.google.com/search?q=site%3Abbs.archlinux.org+unstable 3790</span><br>
+<span>https://www.google.com/search?q=site%3Aubuntuforums.org+unstable 18500</span><br>
+<span>https://www.google.com/search?q=site%3Aforums.opensuse.org+unstable 1930</span><br>
+<span>自己算比例去吧</span><br>
+</p><p><b>ekdc11: </b><br>
+<span> 本帖最后由 ekdc11 于 2019-12-1 04:28 编辑 </span><br>
+<span>CentOS 成小白。。。。推荐 Fedora 。。。</span><br>
+</p><p><b>Damenly: </b><br>
+<span>Austaras 发表于 2019-11-28 15:56</span><br>
+<span>IT圈本来就一大堆鄙视链鄙视环鄙视图啊?</span><br>
+<span>顺带推荐一下这个</span><br>
+<span>看笑了，还看知乎，这人谁啊，还发一个不知名博客</span><br>
+</p><p><b>citrus: </b><br>
+<span>前面链接那个知乎答主真是我即世界。请先把操作系统和应用软件区分开。除非纯做企业IT，有几个Linux系统能做到只用官方源（EPEL都不算）里有的软件包？大部分应用还是用到非官方源，或自己编译。</span><br>
+<span>我见识过美帝几个超算系统还真就用CentOS，而且到前年底还在用6的。他们系统里有大量非官方源的应用软件，还提供不同版本，并且不断添加新的。当然那些系统工程师水平高，拿的钱比红帽服务贵多了。</span><br>
+<span>CentOS的确没一定基础不要去折腾。但如果有十年不重装系统的需求。例如上面超算，基础系统之上，重装一次要重新配置几千上万个乱七八糟的应用软件。那CentOS的模式，操作系统层面的软件包经过充分测试，无需增加新功能，API稳定，提供十年的及时安全更新，还真是最好使的，减少了操作系统更新后应用软件歇菜的情况</span><br>
+<span>家庭用户还是Ubuntu最方便，官方源里包多，很多官方源里没有的软件也提供ppa或deb包，LTS版支持5年也挺长的，桌面也打磨的比较光滑。</span><br>
+<span>推Fedora还不如Arch。Arch起码文档丰富，还有个教学的作用，而用Fedora也学不到啥东西，就是给红帽当免费小白鼠。红帽这公司还特爱喂你，没事乱砍乱改破坏你的工作流程</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-12-1 02:23</span><br>
+<span>一个人没头没尾的说他kernel panic了, 我哪知道是谁的责任. fedora支持时间短, 这倒是真的</span><br>
+<span>顺带简单的算 ...</span><br>
+<span>看着光看统计条数有什么用？archlinux那个我前面不是说了？另外ubuntu得减掉unity。</span><br>
+</p><p><b>香港记者巴拉森: </b><br>
+<span>Centos真的不好使，但是有些人自用机都只会无脑装centos7甚至6，基本上就是被坑惯了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-12-1 11:20</span><br>
+<span>看着光看统计条数有什么用？archlinux那个我前面不是说了？另外ubuntu得减掉unity。 ...</span><br>
+<span>那你看内容的话这几个发行版论坛里提到unstable大部分都是wifi问题啊</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-12-1 12:46</span><br>
+<span>那你看内容的话这几个发行版论坛里提到unstable大部分都是wifi问题啊</span><br>
+<span>我之前回复的从搜索结果第一页列的几个，里面的内容大部分都不是驱动问题，而archlinux第一页不稳定的除了wifi连接不稳定之外，就没别的了。</span><br>
+<span>你要说你翻了好几页，大部分是wifi问题，然后得出结论fedora基本就wifi不稳定，那你开心就好。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868422[50-100]</guid>
+    </item>
+    <item>
+      <title>给我的diy nas选个文件系统，ext4还是xfs？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1868422-1-1.html</link>
+      <description>给我的diy nas选个文件系统，ext4还是xfs？&#13;
+操作系统是centos
+&#13;
+是不是都差不多？
+&#13;
+zfs估计不行，我的内存才4g
+&#13;
+xfs现在支持查重了吗？我发现以前习惯不好，重复的太多了。
+&#13;
+windows下一查重十几万个重复文件</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>给我的diy nas选个文件系统，ext4还是xfs？</span><br>
+<span>操作系统是centos</span><br>
+<span>是不是都差不多？</span><br>
+<span>zfs估计不行，我的内存才4g</span><br>
+<span>xfs现在支持查重了吗？我发现以前习惯不好，重复的太多了。</span><br>
+<span>windows下一查重十几万个重复文件</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>lvcha 发表于 2019-11-28 10:19:10</span><br>
+<span>操作系统是centos</span><br>
+<span>是不是都差不多？</span><br>
+<span>zfs估计不行，我的内存才4g</span><br>
+<span>xfs现在支持查重了吗？我发现以前习惯不好 ...不要用centos 太老了</span><br>
+<span>用Fedora</span><br>
+<span>pg跑xfs上有优势</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>lvcha: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-28 10:30</span><br>
+<span>不要用centos 太老了</span><br>
+<span>用Fedora</span><br>
+<span>centos怎么会古老呢？</span><br>
+<span>利益相关。我单位全都是redhat和centos。</span><br>
+<span>Fedora我都没接触过。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>centos8还没多少库</span><br>
+<span>7很肯能识别不了硬件</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>lvcha: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-28 10:40</span><br>
+<span>centos8还没多少库</span><br>
+<span>7很肯能识别不了硬件</span><br>
+<span>打算跑docker，我先试试啦，反正重装快</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>反正我用openmediavault最后全用ext4</span><br>
+</p><p><b>ogma: </b><br>
+<span>群晖也是EXT4吧，那就EXT4吧，方便转移硬盘</span><br>
+</p><p><b>braverbt: </b><br>
+<span>ext4 , 至少数据跪了只有还有抢救的可能性~</span><br>
+<span>xfs删除后如果碎片严重恢复的成功率几乎为0%</span><br>
+</p><p><b>aladeen: </b><br>
+<span>一台openmediavault，一台黑裙用的都是ext4</span><br>
+</p><p><b>Pinchbeck: </b><br>
+<span>centos8的内存要求是不是比前两代大幅提高？官方推荐最低2G，建议4G</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>lvcha 发表于 2019-11-28 10:35:54</span><br>
+<span>centos怎么会古老呢？</span><br>
+<span>利益相关。我单位全都是redhat和centos。</span><br>
+<span>Fedora我都没接触过。 ...centos8就是Fedora28啊</span><br>
+<span>我还以为都知道Fedora和RedHat的关系捏</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>yst234: </b><br>
+<span> 赤色彗星SEXY replied on 2019-11-28 12:28 引用:lvcha 发表于 2019-11-28 10:35:54 centos怎么会古老呢？利益相关。我单位全都是redhat和centos。Fedora我都没接触过。 ...centos8就是Fedora28啊我还以为都知道Fedora和RedHat的关系捏  -- 来自 有消息提醒的 Stage1官方 Android客户端 </span><br>
+<span>红帽对 Fedora 的定位就是新版本试验田吧，NAS 这种场景用追新的发行版是不是不太合适 不应该求稳么</span><br>
+</p><p><b>braverbt: </b><br>
+<span>yst234 发表于 2019-11-28 12:34</span><br>
+<span>红帽对 Fedora 的定位就是新版本试验田吧，NAS 这种场景用追新的发行版是不是不太合适 不应该求稳 ...</span><br>
+<span>fedora除了repo"激进"一点点外和centos没啥特别本质区别.生产用也没什么特别大问题.</span><br>
+<span>我这边几台生产服务器都是fedora,几乎不执行release更新.</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>ext4 电脑坏了方便倒腾数据出来</span><br>
+</p><p><b>lvcha: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-28 12:28</span><br>
+<span>centos8就是Fedora28啊</span><br>
+<span>我还以为都知道Fedora和RedHat的关系捏</span><br>
+<span>真的是我无知了。。</span><br>
+</p><p><b>Austaras: </b><br>
+<span> 本帖最后由 Austaras 于 2019-11-28 15:40 编辑 </span><br>
+<span>lvcha 发表于 2019-11-28 14:52</span><br>
+<span>真的是我无知了。。</span><br>
+<span>centos就是redhat的社区版, 基本就是既没有售后(不敢自己打包)官方包也不够用</span><br>
+<span>只有小白才用centos(直球)</span><br>
+</p><p><b>lvcha: </b><br>
+<span>Austaras 发表于 2019-11-28 15:26</span><br>
+<span>centos就是redhat的社区版, 基本就是既没有售后(不敢自己打包)官方包也不够用</span><br>
+<span>只有小白采用centos(直球) ...</span><br>
+<span>那用Ubuntu吧，反正不会用fedora的，这个词我都不会拼。。。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>用个centos还用成小白了,哎呀鄙视链到处都有</span><br>
+</p><p><b>Austaras: </b><br>
+<span>lvcha 发表于 2019-11-28 15:31</span><br>
+<span>那用Ubuntu吧，反正不会用fedora的，这个词我都不会拼。。。</span><br>
+<span>3U也不是不能用吧...</span><br>
+<span>哦对主楼里说的dedup, Linux文件系统支持的只有zfs和btrfs(基本上是现代版的前者, 但还不稳定)</span><br>
+<span>其实找个Linux也能用的工具手动清一下问题也不大...</span><br>
+</p><p><b>lvcha: </b><br>
+<span>Austaras 发表于 2019-11-28 15:40</span><br>
+<span>3U也不是不能用吧...</span><br>
+<span>哦对主楼里说的dedup, Linux文件系统支持的只有zfs和btrfs(基本上是现代版的前者,...</span><br>
+<span>4g内存跑zfs不现实吧。我还要起一堆服务呢。</span><br>
+</p><p><b>Austaras: </b><br>
+<span>lvcha 发表于 2019-11-28 15:42</span><br>
+<span>4g内存跑zfs不现实吧。我还要起一堆服务呢。</span><br>
+<span>zfs基本上是1g对应1t, 自己算吧, 其实个人用的话没GUI其实没什么东西占内存</span><br>
+<span>不够的话还是ext4吧毕竟新一点....</span><br>
+</p><p><b>Austaras: </b><br>
+<span>22</span><br>
+<span>赤色彗星SEXY 发表于 2019-11-28 15:38</span><br>
+<span>用个centos还用成小白了,哎呀鄙视链到处都有</span><br>
+<span>IT圈本来就一大堆鄙视链鄙视环鄙视图啊?</span><br>
+<span>顺带推荐一下这个</span><br>
+<span>服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？ - 叶剑飞的回答 - 知乎</span><br>
+<span>https://www.zhihu.com/question/19599986/answer/756269444</span><br>
+<span>讲的比我清除</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-11-28 16:14 编辑 </span><br>
+<span>linux不用ext4，多留点时间干别的不好吗？</span><br>
+<span>另外centos在维护的版本只是内核老。</span><br>
+</p><p><b>defer: </b><br>
+<span>有钱rhel，没钱fedora，debian系做server是开发妄图篡位的阴谋。</span><br>
+</p><p><b>lvcha: </b><br>
+<span>defer 发表于 2019-11-28 16:54</span><br>
+<span>有钱rhel，没钱fedora，debian系做server是开发妄图篡位的阴谋。</span><br>
+<span>喷了。我不跟你们再聊了。</span><br>
+<span>刚格式化玩正在装ubuntu</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>这种傻吊知乎回答也拿来用</span><br>
+<span>你要是开发就算了,被忽悠可以理解</span><br>
+<span>你要是运维,对红帽包管理体系有多熟悉,打过多少包,写过多少spec文件,给包过多少补丁？</span><br>
+<span>还有上fedora的也是搞笑,fedora生命周期那么短转头就没得人管,自己用还好,上服务器？</span><br>
+<span>我nas的fedora29里openstack的oslo库就一个版本,后面版本都得到fedora31里找,规范点还得从fc31的包重新打</span><br>
+<span>centos是没技术支持不堪,当然比不了红帽,但是无限放大小几率的缺陷来黑就过分了</span><br>
+</p><p><b>lvcha: </b><br>
+<span>你们赢了，最后装的debian</span><br>
+<span>ubuntu，装上以后不知怎么某次重启黑屏无提示。</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>一堆云跑的都是ubuntu, 哪来那么多破讲究</span><br>
+<span>就跟三流码农才争语言好坏一个道理</span><br>
+</p><p><b>shahito: </b><br>
+<span>如果按照 Centos 的话，记得选择安装 8。</span><br>
+<span>选 ext4 和 xfs 都没什么区别。喜欢新的东西的话安装 xfs 好了。boot 分区选 ext4（如果 boot 分区和 efi 都在一块分区的话，就只能选 fat32 了）。</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-11-29 12:02 编辑 </span><br>
+<span>Austaras 发表于 2019-11-28 15:56</span><br>
+<span>IT圈本来就一大堆鄙视链鄙视环鄙视图啊?</span><br>
+<span>顺带推荐一下这个</span><br>
+<span>一条条反驳</span><br>
+<span>首先能用性。CentOS不能用？我看是用不来吧，说谁小白呢。</span><br>
+<span>epel源不能用？我看fedora源里面的包才不能用呢？和二进制一起发布的checksum是干啥的？包稳不稳定最终还是落到版本上去，关谁编译的啥事？</span><br>
+<span>后面的都是屁话。</span><br>
+<span>还拿逼乎用户的回答作为依据，弱得不行。</span><br>
+<span>CentOS唯一可以黑的就是内核不但老，而且不是某个稳定的维护版，有什么漏洞要打补丁的话打不上。</span><br>
+<span>对了，内核版本这问题就没几个发行版本做好了的，ubuntu也是，debian也是。</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-11-29 12:01</span><br>
+<span>一条条反驳</span><br>
+<span>首先能用性。CentOS不能用？我看是用不来吧，说谁小白呢。</span><br>
+<span>打包者不重要?那你愿意随便引第三方源你开心就好,反正出了问题怎么办只有你知道,建议你顺道关注所有的CVE修复情况以便第一时间自己打patch修哦</span><br>
+<span>发布checksum不是很正常吗?不知道这有什么好大惊小怪的</span><br>
+<span>发zhihu链接是方便留档,换成博客你开心了吗?</span><br>
+<span>https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider</span><br>
+<span>你只觉得内核有问题是这个修起来最不方便, centos就算加上epel也缺一大堆包但反正你随手导个仓库就解决了是吧</span><br>
+</p><p><b>Austaras: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-28 18:01</span><br>
+<span>这种傻吊知乎回答也拿来用</span><br>
+<span>你要是开发就算了,被忽悠可以理解</span><br>
+<span>那你dist upgrade呀谁拦着你了...</span><br>
+</p><p><b>linux40: </b><br>
+<span> 本帖最后由 linux40 于 2019-11-29 16:22 编辑 </span><br>
+<span>Austaras 发表于 2019-11-29 13:24</span><br>
+<span>打包者不重要?那你愿意随便引第三方源你开心就好,反正出了问题怎么办只有你知道,建议你顺道关注所有的CVE ...</span><br>
+<span>导入公钥本来就是要你信任打包者，checksum就是要你相信这个二进制确实是打包者打包的。</span><br>
+<span>我不知道这个过程哪来的不稳定？难道一个打包者会用着ubuntu给centos打包？</span><br>
+<span>至于博客，和水平高低有啥关系？</span><br>
+<span>epel加上也缺包怎么了？不就是叫你自己编译吗？epel的工具链还是很齐全的，在工具链搞定了的情况下，搞不定其它环境的就是个弟弟。不相信其它打包者不是正好自己编译？</span><br>
+</p><p><b>Austaras: </b><br>
+<span> 本帖最后由 Austaras 于 2019-11-29 17:07 编辑 </span><br>
+<span>linux40 发表于 2019-11-29 16:17</span><br>
+<span>导入公钥本来就是要你信任打包者，checksum就是要你相信这个二进制确实是打包者打包的。</span><br>
+<span>我不知道这个过 ...</span><br>
+<span>我觉得基础上的一个问题是一个包即使经过了长时间的生产环境考验,也是会爆出严重bug的(比如heartbleed),这个时候只有信任打包者能及时认识到这样的bug并且施加正确的patch,我觉得把这个任务交给第三方或者是自己都是很危险的</span><br>
+<span>什么体系的工具链当然都很齐全我还想吹arch的abs呢...</span><br>
+<span>另外checksum到底怎么碍着你了...</span><br>
+</p><p><b>lvcha: </b><br>
+<span>不要战不要战以和为贵。</span><br>
+<span>我已经装了debian，配好lvm，文件系统是ext4.</span><br>
+<span>目前没啥事挺好的。</span><br>
+<span>不过apt install装的有些软件够旧啊，</span><br>
+<span>aria2居然是1.34</span><br>
+<span>差了几年。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>Austaras 发表于 2019-11-29 17:02:59</span><br>
+<span>我觉得基础上的一个问题是一个包即使经过了长时间的生产环境考验,也是会爆出严重bug的(比如heartbleed), ...车扯那么多废话</span><br>
+<span>没钱买红帽用centos怎么了</span><br>
+<span>搞个少人用的系统还谈毛线稳定性 </span><br>
+<span>你贴那傻逼文章还推fedroa好吗</span><br>
+<span>跳出来说用centos的小白又给不出好选择</span><br>
+<span>车鸡巴蛋呢没钱买服务我还不能用三分包了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>lvcha: </b><br>
+<span>lvcha 发表于 2019-11-29 17:19</span><br>
+<span>不要战不要战以和为贵。</span><br>
+<span>我已经装了debian，配好lvm，文件系统是ext4.</span><br>
+<span>会不会是因为我用了猪场的mirror问题？</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>lvcha 发表于 2019-11-29 17:19:04</span><br>
+<span>不要战不要战以和为贵。</span><br>
+<span>我已经装了debian，配好lvm，文件系统是ext4.</span><br>
+<span>目前没啥事挺好的。</span><br>
+<span>不过apt instal ...不要用lvm啊 可以坏的东西又多一层</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>lvcha: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-29 17:22</span><br>
+<span>不要用lvm啊 可以坏的东西又多一层</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>不用lvm怎么把一堆硬盘整到一个目录里呢？</span><br>
+<span>没事就放点电影。</span><br>
+<span>我打算写个脚本每天check一下smart，有问题发邮件。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>lvcha 发表于 2019-11-29 17:19</span><br>
+<span>不要战不要战以和为贵。</span><br>
+<span>我已经装了debian，配好lvm，文件系统是ext4.</span><br>
+<span>Debian的软件仓库一直就是旧啊，都是各种能忍受的stable版，又不像Ubuntu各种激进。Debian8还可以用Debian9的backport凑合</span><br>
+</p><p><b>Austaras: </b><br>
+<span>lvcha 发表于 2019-11-29 17:20</span><br>
+<span>会不会是因为我用了猪场的mirror问题？</span><br>
+<span>不是, 就是这个版本</span><br>
+<span>https://packages.debian.org/buster/aria2</span><br>
+</p><p><b>lvcha: </b><br>
+<span>Austaras 发表于 2019-11-29 17:26</span><br>
+<span>不是, 就是这个版本</span><br>
+<span>https://packages.debian.org/buster/aria2</span><br>
+<span>那是我看错了。没差多久</span><br>
+</p><p><b>Austaras: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-29 17:20</span><br>
+<span>车扯那么多废话</span><br>
+<span>没钱买红帽用centos怎么了</span><br>
+<span>你要给建议的话fedora挺好的(虽然我不用),当然我推荐debian,我回帖的时候楼主已经ubuntu那也不是不能用</span><br>
+<span>少人用? 云世界里debian系才是主流好么</span><br>
+<span>https://thecloudmarket.com/stats#/by_platform_definition</span><br>
+</p><p><b>yst234: </b><br>
+<span>lvcha 发表于 2019-11-29 17:23</span><br>
+<span>不用lvm怎么把一堆硬盘整到一个目录里呢？</span><br>
+<span>没事就放点电影。</span><br>
+<span>我打算写个脚本每天check一下smart，有问题 ...</span><br>
+<span>mergerfs</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-11-29 17:02</span><br>
+<span>我觉得基础上的一个问题是一个包即使经过了长时间的生产环境考验,也是会爆出严重bug的(比如heartbleed),这 ...</span><br>
+<span>不打patch等着被攻击呗，这种现象普遍不代表它是对的。</span><br>
+</p><p><b>linux40: </b><br>
+<span>Austaras 发表于 2019-11-29 17:31</span><br>
+<span>你要给建议的话fedora挺好的(虽然我不用),当然我推荐debian,我回帖的时候楼主已经ubuntu那也不是不能用</span><br>
+<span> ...</span><br>
+<span>Fedora才是个人用可以，服务器找死的典型。更新比archlinux快的我就知道fedora。自己不用推荐个屁。</span><br>
+</p><p><b>linux40: </b><br>
+<span>lvcha 发表于 2019-11-29 17:19</span><br>
+<span>不要战不要战以和为贵。</span><br>
+<span>我已经装了debian，配好lvm，文件系统是ext4.</span><br>
+<span>debian stable不但旧，还旧的没道理，甚至有开发者抱怨老有debian用户给他报告他老早就修复的bug。我记得是xscreensaver。</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-11-29 19:30</span><br>
+<span>debian stable不但旧，还旧的没道理，甚至有开发者抱怨老有debian用户给他报告他老早就修复的bug。我记得 ...</span><br>
+<span>https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=819703</span><br>
+<span>是这个事，不是bug</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-11-29 19:28</span><br>
+<span>Fedora才是个人用可以，服务器找死的典型。更新比archlinux快的我就知道fedora。自己不用推荐个屁。 ...</span><br>
+<span>根本没有这回事，arch的更新策略是一般发行版里最激进的，只不过他们倾向于不给包自己打patch，而且除非必要不给同一个包开多版本，随便找几个包对比一下不就知道了</span><br>
+</p><p><b>Austaras: </b><br>
+<span>linux40 发表于 2019-11-29 19:25</span><br>
+<span>不打patch等着被攻击呗，这种现象普遍不代表它是对的。</span><br>
+<span>所以说尽量少用第三方源，除非绝对必要不要自己打包啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1868422[0-50]</guid>
+    </item>
+  </channel>
+</rss>

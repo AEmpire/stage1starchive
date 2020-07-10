@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>内网地址用BT时是只能连上公网用户吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>内网地址用BT时是只能连上公网用户吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:01 +0000</lastBuildDate>
+    <item>
+      <title>内网地址用BT时是只能连上公网用户吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904427-1-1.html</link>
+      <description>内网地址用BT时是只能连上公网用户吗？&#13;
+ 本帖最后由 rentrody 于 2019-12-21 00:16 编辑 
+
+我的理解是只能内网主动去连接公网IP，所以我只能给这些公网IP上传。
+&#13;
+但国内公网BT用户真的有这么多吗？40M上传带宽都满了，你们用内网下BT时会有这么高的上传吗？会不会是运营商额外搞了穿透什么的？</description>
+      <content:encoded><![CDATA[<p><b>rentrody: </b><br>
+<span>内网地址用BT时是只能连上公网用户吗？</span><br>
+<span> 本帖最后由 rentrody 于 2019-12-21 00:16 编辑 </span><br>
+<span>我的理解是只能内网主动去连接公网IP，所以我只能给这些公网IP上传。</span><br>
+<span>但国内公网BT用户真的有这么多吗？40M上传带宽都满了，你们用内网下BT时会有这么高的上传吗？会不会是运营商额外搞了穿透什么的？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>理解反了，内网用户除了通过local peer discovery给内网用户上传，其他时候只能问公网IP拿资源而已，除非运营商给你端口映射了。40M上传又不算啥，机房1G网口放流能跑到raid上限的不要太容易</span><br>
+</p><p><b>rentrody: </b><br>
+<span>两个路人 发表于 2019-12-21 00:39</span><br>
+<span>理解反了，内网用户除了通过local peer discovery给内网用户上传，其他时候只能问公网IP拿资源而已，除非运 ...</span><br>
+<span>但我确实能给外网用户上传啊 </span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>这堆xl0012和xunlei可以屏蔽了，他们永远进度为0，并且不会给你上传</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>该用qbitorrent-enhanced版了，一键屏蔽迅雷用户</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-21 00:51 编辑 </span><br>
+<span>偶滴小乔 发表于 2019-12-21 00:47</span><br>
+<span>这堆xl0012和xunlei可以屏蔽了，他们永远进度为0，并且不会给你上传</span><br>
+<span>我是用迅雷下载下来然后放到utorrent做种</span><br>
+<span>开启强制加密基本就没有上传流量了，只剩老外的几十KB上传</span><br>
+</p><p><b>rentrody: </b><br>
+<span>找到一些说法，看起来公网IP确实不是必须的？运营商做好NAT配置也还是能满足P2P需要的。</span><br>
+<span>据说还有个PCP能帮助穿透内网，但我测试时连PCP server都找不到，看起来是没戏了。</span><br>
+<span>Reply    5</span><br>
+<span>feast   192 天前</span><br>
+<span>1.首先是个人都会嫉妒人家有公网 V4 的，人家有，我花一样钱为什么我没有，眼红攀比心态很正常</span><br>
+<span>2.电信的 CGN-NAT 100.64 段的内网 IP，NAT 类型基本都是 Restricted Cone，对 P2P 来讲甚至对方是对称 NAT 都能连上，跟公网 IP 的 Full-Cone 根本区别不大，你感觉 P2P 变差纯粹是因为你自己的心理暗示（内网 IP 一定比公网 IP 差）</span><br>
+<span>3.P2P 你自己连不上看是不是没做 DMZ 暴露，很多家庭的 P2P 你以为有公网 IP 就行了？很多自己做的私网的 NAT 类型就导致 P2P 报废</span><br>
+<span>4.100.64/10 CGN-NAT 以后会是新开宽带的常态，环境是你去适应不是要求去改变，如果你不能适应，那只能说你是个 lazy Дебил，就连免费的 Zerotier 能轻松的打穿电信网内两个 100.64 的宽带，而且还是在一端没做 DMZ 的私网下测试的</span><br>
+<span>5.IPv6 目前的普及程度不低，身在魔都我不信你没有 IPv6,如果还是觉得麻烦只能说你是一个不愿动脑袋的家伙</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>迅雷是不是他家服务器会帮着找人的</span><br>
+</p><p><b>rentrody: </b><br>
+<span>你们别光盯着迅雷啊，迅雷人多下载快是客观事实，现在百兆光纤都普及了，到这个点就基本没迅雷了</span><br>
+</p><p><b>qwased: </b><br>
+<span>热门种子和冷门种子是两个世界</span><br>
+<span>下冷门种子没公网ip是真的很难下动</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>hecas: </b><br>
+<span>移动内网下bt还是要对方有v6或者公网的</span><br>
+<span>不然看都看不到</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span>rentrody 发表于 2019-12-21 05:33</span><br>
+<span>你们别光盯着迅雷啊，迅雷人多下载快是客观事实，现在百兆光纤都普及了，到这个点就基本没迅雷了</span><br>
+<span> ...</span><br>
+<span>X雷的服务器都会伪装客户端名字了，好不好～～ </span><br>
+<span>我大移不动超级NAT里出种一周，只有X雷的服务器能连进来 xsk</span><br>
+</p><p><b>rentrody: </b><br>
+<span>qwased 发表于 2019-12-21 06:07</span><br>
+<span>热门种子和冷门种子是两个世界</span><br>
+<span>下冷门种子没公网ip是真的很难下动</span><br>
+<span>我用另一个地方的电脑下我自己做种的冷门种确实很难连上。</span><br>
+<span>有哪些办法能搞个临时公网IP环境呢？我想自己测试一下看看，只能弄个VPS自己搭VPN吗？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>rentrody 发表于 2019-12-21 14:15</span><br>
+<span>我用另一个地方的电脑下我自己做种的冷门种确实很难连上。</span><br>
+<span>有哪些办法能搞个临时公网IP环境呢？我想自己 ...</span><br>
+<span>打电话给运营商客服要换成公网ip最快。说不给换，就换其他宽带商了，影响工作</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>有个想法，大规模NAT以后绝大多数用户蒙在鼓里不明白，运营商手里资源富余了，少部分难伺候的客户拿公网ip会比以前容易</span><br>
+</p><p><b>两个路人: </b><br>
+<span>typeunknown 发表于 2019-12-21 16:47</span><br>
+<span>有个想法，大规模NAT以后绝大多数用户蒙在鼓里不明白，运营商手里资源富余了，少部分难伺候的客户拿公网ip ...</span><br>
+<span>把IPv6继续深入推下去，精准到终端的查水表是发展趋势 </span><br>
+</p><p><b>rentrody: </b><br>
+<span>zmw_831110 发表于 2019-12-21 16:38</span><br>
+<span>打电话给运营商客服要换成公网ip最快。说不给换，就换其他宽带商了，影响工作 ...</span><br>
+<span>我这是蹭房东的网，主路由和整栋楼的布线都是我帮忙弄的，所以让我直接拉了根线进屋，不太好再要公网IP……</span><br>
+<span>而且现在打电话给电信还会直接给公网IP吗？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-12-21 17:29 编辑 </span><br>
+<span>rentrody 发表于 2019-12-21 17:27</span><br>
+<span>我这是蹭房东的网，主路由和整栋楼的布线都是我帮忙弄的，所以让我直接拉了根线进屋，不太好再要 ...</span><br>
+<span>试了可能有，不试肯定没。</span><br>
+<span>给了公网ip房东又不吃亏，你做个转发也不用抢他的，没什么不好意思的。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>typeunknown 发表于 2019-12-21 16:47</span><br>
+<span>有个想法，大规模NAT以后绝大多数用户蒙在鼓里不明白，运营商手里资源富余了，少部分难伺候的客户拿公网ip ...</span><br>
+<span>我这边原本是能获取到公网IP的，后来才改成CGN，大概是运营商手头也紧。上个月全球IPv4地址也正式耗尽了，以后想要公网IP只会更难，看微博上说上海电信想申请公网IP还得要摄像头照片和应用截图来证明……</span><br>
+<span>长远来看还是早日普及IPv6地址比较好，我这边已经能获取到IPv6了，把主路由换成老毛子固件的Newifi3后直连内网设备也都能获取IPv6，不过整栋楼其他人是接到另一个硬改磊科9口路由上来流控还是只能IPv4。现在也好像还没有支持IPv6流控的廉价路由和固件，OpenWRT之类大概也能实现但转发性能有限。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-21 18:03 编辑 </span><br>
+<span>typeunknown 发表于 2019-12-21 17:27</span><br>
+<span>试了可能有，不试肯定没。</span><br>
+<span>给了公网ip房东又不吃亏，你做个转发也不用抢他的，没什么不好意思的。 ...</span><br>
+<span>以前没试过，大概是个什么流程？打电话给10000报一下账号名就行？</span><br>
+<span>不过据说用了公网IP会影响网速，NAT下有冗余所以普遍快一些，这边200M光纤实测下载时带宽230M左右，还是有点纠结……</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>rentrody 发表于 2019-12-21 17:50</span><br>
+<span>以前没试过，大概是个什么流程？打电话给10000报一下账号名就行？</span><br>
+<span>不过据说用了公网IP会影响网速，NAT下 ...</span><br>
+<span>我是北京联通，这月初偷摸系统升级给我改内网了。</span><br>
+<span>我就打人工客服说了一下，没过几分钟管片的维护工程师电话打过来，一说都懂，没几个小时他就让上头改好了。</span><br>
+<span>网速我是没问题，拖祖国后腿的50M带宽，现在speedtest测速连北京联通的服务器杠杠的跑满30%冗余有65Mbps下载。</span><br>
+</p><p><b>Nagasaki: </b><br>
+<span>迅雷真是遗毒不浅</span><br>
+</p><p><b>litel: </b><br>
+<span>内网ip很有可能是下不动的。。。</span><br>
+<span>反正我开了公网ip，几乎80%以上的种子都有速度，但是我连接发给群里，其他人就是怎么都0kb。。。</span><br>
+<span>反正都是电信，我开了公网ip，别人没开，似乎就这点区别。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>内网的话，经常下几个BT维护本地dht表的健康会很有用，尤其是tracker服务器被墙的时候。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-21 21:13 编辑 </span><br>
+<span>typeunknown 发表于 2019-12-21 18:11</span><br>
+<span>我是北京联通，这月初偷摸系统升级给我改内网了。</span><br>
+<span>我就打人工客服说了一下，没过几分钟管片的维护工程师 ...</span><br>
+<span>好吧成功了，直接给客服宽带账号和自己的手机，之后本地的安装师傅就来打了电话，一开始说是只能给公司开公网IP还要营业执照，然后我提了一下要用监控就说去问问，过了一会儿打电话过来说已经开了。不过这个公网IP是固定的，感觉是方便差水表……</span><br>
+</p><p><b>rentrody: </b><br>
+<span>试了下用另外的电脑下BT连家里挂的冷门种子，在用户里添加家里IP端口直接就连上了开始下载了。删掉重新下，把Tracker都删掉，只用DHT，半天都没反应，复制了用户列表里也没有家里的IP。等会儿找个能用的Tracker再试试。</span><br>
+</p><p><b>カドモン: </b><br>
+<span>迅雷吸血了</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-22 03:47 编辑 </span><br>
+<span>感觉确实区别不大，冷门种还是没人连上来，估计就是没人下而已。</span><br>
+<span>以后要是电信把公网IP收回去也不必再去要了。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-22 04:26 编辑 </span><br>
+<span>litel 发表于 2019-12-21 19:22</span><br>
+<span>内网ip很有可能是下不动的。。。</span><br>
+<span>反正我开了公网ip，几乎80%以上的种子都有速度，但是我连接发给群里，其 ...</span><br>
+<span>估计更可能是Tracker和本地DHT大小的原因，可能你因为能连上Tracker或本地DHT够大，所以能很快连上种源，而其他人连不上Tracker且本地DHT小，要等好久才能连上种源。</span><br>
+<span>当然也可能是运营商没把NAT做好，参照上面那张NAT组合打通表，对称性(Symmetric)NAT确实没法P2P。以前移动好像普遍使用这种对称型，大概是对资源消耗更少，而现在电信则都是正经的运营商级NAT(CGN)，有更正规的100.64地址和锥形NAT，移动联通应该也有跟进。就按上面V2EX帖子里说的，以后其实不用跟客服要公网IP，要求客服尽快部署PCP更靠谱些，有了PCP后不止P2P，其他需要公网端口的在线游戏、远程监控也都能正常使用了。当然未来还是属于IPv6，让各种设备和应用尽快支持IPv6才是最紧要的。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>北海生未径 发表于 2019-12-21 19:57</span><br>
+<span>内网的话，经常下几个BT维护本地dht表的健康会很有用，尤其是tracker服务器被墙的时候。 ...</span><br>
+<span>这点对于公网也应该一样的，没有足够大的本地DHT或连不上Tracker，就算有公网IP也会下载得慢。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>我感觉比起之前用鹏博士主要差别有三个，一是磁链完全不用靠迅雷了，二是外国货也能很快搞定，三是确实更容易飙到以M记的速度。</span><br>
+<span>变成内网那两天磁链就又很糟糕。</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-22 06:31 编辑 </span><br>
+<span>typeunknown 发表于 2019-12-22 05:41</span><br>
+<span>我感觉比起之前用鹏博士主要差别有三个，一是磁链完全不用靠迅雷了，二是外国货也能很快搞定，三是确实更容 ...</span><br>
+<span>二级运营商估计都是对称型NAT了，很可能还有针对BT协议的封锁。联通估计是没部署正规CGN，你当时获取的内网IP是什么开头的？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>rentrody 发表于 2019-12-22 06:27</span><br>
+<span>二级运营商估计都是对称型NAT了，很可能还有针对BT协议的封锁。联通估计是没部署正规CGN，你当时获取的内 ...</span><br>
+<span>记得是10.0</span><br>
+</p><p><b>rentrody: </b><br>
+<span>typeunknown 发表于 2019-12-22 06:51</span><br>
+<span>记得是10.0</span><br>
+<span>普通A类私有地址，应该就是对称型NAT了</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>rentrody 发表于 2019-12-22 03:38</span><br>
+<span>感觉确实区别不大，冷门种还是没人连上来，估计就是没人下而已。</span><br>
+<span>以后要是电信把公网IP收回去也不必再去要 ...</span><br>
+<span>端口映射做了么？upnp还是不如端口映射。</span><br>
+</p><p><b>rentrody: </b><br>
+<span>zmw_831110 发表于 2019-12-22 10:36</span><br>
+<span>端口映射做了么？upnp还是不如端口映射。</span><br>
+<span>直接DMZ……</span><br>
+</p><p><b>rentrody: </b><br>
+<span>rentrody 发表于 2019-12-21 21:11</span><br>
+<span>好吧成功了，直接给客服宽带账号和自己的手机，之后本地的安装师傅就来打了电话，一开始说是只能给公司开 ...</span><br>
+<span>等会儿好像不对啊，还是在某个网段内随机获取IP……</span><br>
+<span>另外随机IP对BT做种的影响有多大？变动一次IP就要在DHT网络重新遍历一遍？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904427[0-50]</guid>
+    </item>
+  </channel>
+</rss>

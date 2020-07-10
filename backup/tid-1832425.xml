@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何让windows定时执行上传任务</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何让windows定时执行上传任务</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:30:15 +0000</lastBuildDate>
+    <item>
+      <title>如何让windows定时执行上传任务[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832425-1-1.html</link>
+      <description>如何让windows定时执行上传任务&#13;
+win10系统，电脑24小时开着
+&#13;
+有ftp服务器的账号和密码
+&#13;
+目前是手动上传，每周一次
+&#13;
+能不能每周定时自动上传
+&#13;
+知道windows有计划任务，但是看了半天不知道怎么把上传任务放进去
+&#13;
+求泥潭大佬指点</description>
+      <content:encoded><![CDATA[<p><b>氪金萌新: </b><br>
+<span>如何让windows定时执行上传任务</span><br>
+<span>win10系统，电脑24小时开着</span><br>
+<span>有ftp服务器的账号和密码</span><br>
+<span>目前是手动上传，每周一次</span><br>
+<span>能不能每周定时自动上传</span><br>
+<span>知道windows有计划任务，但是看了半天不知道怎么把上传任务放进去</span><br>
+<span>求泥潭大佬指点</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>https://jingyan.baidu.com/article/925f8cb8f7fd29c0dce05653.html 可行吗</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>RyuguRena 发表于 2019-5-18 11:08</span><br>
+<span>https://jingyan.baidu.com/article/925f8cb8f7fd29c0dce05653.html 可行吗</span><br>
+<span>感谢大佬，我试试</span><br>
+</p><p><b>爵士人生: </b><br>
+<span>开wsl用crontab</span><br>
+</p><p><b>fescn3: </b><br>
+<span>vbs taskchd</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>goodsync 巨好用 很值得买正版的软件</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>毛线小球: </b><br>
+<span>写个bat文件，放进计划任务。</span><br>
+<span>这个脚本可以是Windows的shell，也可以再去调用python、java等任何你会的语言</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>SimonOpera 发表于 2019-5-18 12:38</span><br>
+<span>goodsync 巨好用 很值得买正版的软件</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play ...</span><br>
+<span>当然要免费了</span><br>
+<span>实在不行，自己写个bat文件放进计划任务，这是我最后的打算，因为很久没写bat了，要花不少时间查语法命令啥的</span><br>
+</p><p><b>SimonOpera: </b><br>
+<span>花钱解决问题是最简单的。。。</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>septer: </b><br>
+<span>氪金萌新 发表于 2019-5-18 12:42</span><br>
+<span>当然要免费了</span><br>
+<span>实在不行，自己写个bat文件放进计划任务，这是我最后的打算，因为很久没写bat了，要花不少 ...</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1831398-1-1.html</span><br>
+<span>有限免，可嫖一个</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>bat写起来就太鬼畜了</span><br>
+<span>如果会python就用ftplib，计划任务用win自带或python的schedule：</span><br>
+<span>schedule.every().sunday.do(your_ftp_task)</span><br>
+<span>几句话的事，算上搜索应该费不了几分钟</span><br>
+<span>当然前提是你确实稍微有些熟悉某种有大量轮子的编程语言，如果你预计将来还可能会有类似需求，建议轻度学习一下，人均常春藤脚本语言任选一门入个门几小时肯定够了吧</span><br>
+<span>因为这种基础需求，比起有时间找到合适的软件加上付费的时间，不如自己搞一搞快</span><br>
+</p><p><b>terraner: </b><br>
+<span>PowerShell脚本丢进去完事，比起bat还是好不少的</span><br>
+<span>—— 來自 Essential Products PH-1, Android 9上的 S1Next-鵝版 v2.1.0-play</span><br>
+</p><p><b>カドモン: </b><br>
+<span>跑个 python 脚本， apschedule </span><br>
+<span>或者win10wslcrontab</span><br>
+</p><p><b>novem: </b><br>
+<span>用python其实是最方便的，前提是你会一点点编程语言</span><br>
+</p><p><b>kenxin1984: </b><br>
+<span>写个bat 建立一个定时任务</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>革萌: </b><br>
+<span>Windows本身就是POXIS系统，所以有at命令。</span><br>
+<span>然后如果没有at命令的话，比如9x以后的系统，可以用</span><br>
+<span>schtasks</span><br>
+</p><p><b>saisi: </b><br>
+<span>zzzzzzzzzzz</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>混乱中立搅屎棍 发表于 2019-5-18 13:08</span><br>
+<span>bat写起来就太鬼畜了</span><br>
+<span>如果会python就用ftplib，计划任务用win自带或python的schedule：</span><br>
+<span>schedule.ev ...</span><br>
+<span>我对js最熟，因为太熟以至于能用js的时候都用js，我写vba都是用js……</span><br>
+<span>python也接触过，但是用的很少</span><br>
+</p><p><b>董松松松: </b><br>
+<span>熟js更简单了，node搞起</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832425[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>SS恶魔城优化版(2020.05.15更新)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>SS恶魔城优化版(2020.05.15更新)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:50:48 +0000</lastBuildDate>
+    <item>
+      <title>SS恶魔城优化版(2020.05.15更新)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1935411-1-1.html</link>
+      <description>SS恶魔城优化版(2020.05.15更新)&#13;
+S1也发一个混下熟脸
+&#13;
+## 恶魔城X yzb优化版（依赖4M RAM加速卡）
+&#13;
+### 概要：
+&#13;
+    * 此版是在日版的基础上优化而来，如想在非日版主机上运行请自行给镜像打区码补丁
+&#13;
+    * 此版只针对读盘优化，声音、画面、操作以及其他内容同原版**改
+&#13;
+    * 此版需要32Mbit（4MByte）扩展加速卡才可以运行（模拟器请自行进设置选择好扩展卡带，主机请
+&#13;
+    插好扩展加速卡)，如未设置或者未插好，在启动后的Sega授权标志过后会有错误提示界面
+&#13;
+    * 修改前源镜像符合以下数据校验：
+&#13;
+      http://redump.org/disc/3849/
+&#13;
+      Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M)
+&#13;
+    * 发布用镜像使用Clone CD格式
+&#13;
+      如需使用Clone CD以外的软件刻盘，请直接在刻录软件中选择后缀名为CUE的文件。
+&#13;
+      如需用于Rhea/Phoebe之类的光驱虚拟硬件，无需转换格式。
+&#13;
+### 修改说明：
+&#13;
+#### 2020.05.14 22:00
+&#13;
+* 修正实机上未检测到加速卡警告画面上下滚动问题。
+&#13;
+* 修正实机上第二次开机随机黑屏问题。
+&#13;
+* 修正重启以后加速卡文件验证算法。
+&#13;
+* 修改说明文档排版（UTF-8编码化，适配80字符边界，适配MarkDown语法）
+&#13;
+#### 2020.05.09 22:00
+&#13;
+* 压缩文件，优化读取。
+&#13;
+* 大幅加快三个角色调出以及退出地图的响应时间。
+&#13;
+* 大幅加快阿鲁卡多按开始键进入菜单以及退出菜单的响应时间，在存档房间效果非常明显（其他地方退出菜
+&#13;
+单的黑屏时间视当前关卡复杂程度略有不同）。
+&#13;
+* 游戏中按快捷键可以直接调出地图：
+&#13;
+    1. 里希特和玛丽亚按L键可直接调出地图，在地图界面按L或B都可直接退出地图回到游戏，不会暂停。
+&#13;
+    2. 因为阿鲁卡多的L键为使用第三只手道具，所以改成按B(跳）+R（后退）键调出地图。
+&#13;
+    3. 阿鲁卡多在地图显示界面，按B将返回到游戏，按L则转到菜单界面。
+&#13;
+* 优化角色动作流畅度（避免频繁重复解压角色动作序列帧）
+&#13;
+* 其他修改优化：
+&#13;
+    1. 可以按开始键跳过所有剧情以及cg动画（默认通关一次）
+&#13;
+    2. 优化光盘文件排列
+&#13;
+    3. 镜像最内侧填充100m的dummy文件
+&#13;
+    4. 镜像最外侧填充100m的dummy文件
+&#13;
+### 读取数据的补充说明：
+&#13;
+* 开机第一次进入游戏，在第一个Now Loading画面（可以手柄控制Now Loading方向的那个界面)，游戏
+&#13;
+将会读取大概3MB的文件进加速卡，加载时间一般15-20秒，甚至更短。这是一次性的，如果不关机的话，下
+&#13;
+次不会再读取。请不要在这个时候复位或者关机。之后再到此画面时，加载时间会比未优化的原版更快。
+&#13;
+* 游戏进行中除关卡切换以及进boss房间和通关，其他时间不读数据（包括去图书馆，传送点，以及角色死
+&#13;
+亡后返回的标题画面，但是声音以及动画AVI文件数据依然会读取）
+&#13;
+* 游戏进行中的关卡以及boss房间读取速度略快于原版
+&#13;
+* 感谢以下人员对我的帮助，没有他们也不会有这个优化版（排名不分先后）
+&#13;
+    glf999, Ken, megavolt85, SONIC3D, sky0611
+&#13;
+* 感谢以下人员辛苦在实机上测试（排名不分先后）
+&#13;
+    chie, dtxyy, SONIC3D, TZM, WALL-E 52Hz, 阿珂, 龙, 土星哥, 幸福, む蓶獨嗳袮お,
+&#13;
+    バイオハザード
+&#13;
+链接:https://pan.baidu.com/s/1tiIkEYINEoJYOaTRqtxjFw 
+&#13;
+提取码:chin 
+&#13;
+* SS光驱板直接可用
+&#13;
+* 刻录的话，可以用酒精、Alcohol 120%打开其中的ccd刻录，或者Nero可以打开其中的cue文件刻录,只要支持ccd或者cue格式的刻录软件就都能刻录。
+&#13;
+* 模拟器玩的话推荐用ssf，在设置界面的程序4里，把网格半透明打开效果会好点
+&#13;
+* 游戏过程中如发现死机 黑屏等问题，请到下列任意一个网站地址留言
+&#13;
+    * http://bbs.chinaemu.org/read-htm-tid-128698.html
+&#13;
+    * https://club.tgfcer.com/thread-8306201-1-1.html
+&#13;
+    * https://www.ppxclub.com/forum.php?mod=viewthread&amp;tid=698535
+&#13;
+by yzb
+&#13;
+2020.05.14 22:30</description>
+      <content:encoded><![CDATA[<p><b>yzb: </b><br>
+<span>SS恶魔城优化版(2020.05.15更新)</span><br>
+<span>S1也发一个混下熟脸</span><br>
+<span>## 恶魔城X yzb优化版（依赖4M RAM加速卡）</span><br>
+<span>### 概要：</span><br>
+<span>    * 此版是在日版的基础上优化而来，如想在非日版主机上运行请自行给镜像打区码补丁</span><br>
+<span>    * 此版只针对读盘优化，声音、画面、操作以及其他内容同原版**改</span><br>
+<span>    * 此版需要32Mbit（4MByte）扩展加速卡才可以运行（模拟器请自行进设置选择好扩展卡带，主机请</span><br>
+<span>    插好扩展加速卡)，如未设置或者未插好，在启动后的Sega授权标志过后会有错误提示界面</span><br>
+<span>    * 修改前源镜像符合以下数据校验：</span><br>
+<span>      http://redump.org/disc/3849/</span><br>
+<span>      Akumajou Dracula X - Gekka no Yasoukyoku (Japan) (2M)</span><br>
+<span>    * 发布用镜像使用Clone CD格式</span><br>
+<span>      如需使用Clone CD以外的软件刻盘，请直接在刻录软件中选择后缀名为CUE的文件。</span><br>
+<span>      如需用于Rhea/Phoebe之类的光驱虚拟硬件，无需转换格式。</span><br>
+<span>### 修改说明：</span><br>
+<span>#### 2020.05.14 22:00</span><br>
+<span>* 修正实机上未检测到加速卡警告画面上下滚动问题。</span><br>
+<span>* 修正实机上第二次开机随机黑屏问题。</span><br>
+<span>* 修正重启以后加速卡文件验证算法。</span><br>
+<span>* 修改说明文档排版（UTF-8编码化，适配80字符边界，适配MarkDown语法）</span><br>
+<span>#### 2020.05.09 22:00</span><br>
+<span>* 压缩文件，优化读取。</span><br>
+<span>* 大幅加快三个角色调出以及退出地图的响应时间。</span><br>
+<span>* 大幅加快阿鲁卡多按开始键进入菜单以及退出菜单的响应时间，在存档房间效果非常明显（其他地方退出菜</span><br>
+<span>单的黑屏时间视当前关卡复杂程度略有不同）。</span><br>
+<span>* 游戏中按快捷键可以直接调出地图：</span><br>
+<span>    1. 里希特和玛丽亚按L键可直接调出地图，在地图界面按L或B都可直接退出地图回到游戏，不会暂停。</span><br>
+<span>    2. 因为阿鲁卡多的L键为使用第三只手道具，所以改成按B(跳）+R（后退）键调出地图。</span><br>
+<span>    3. 阿鲁卡多在地图显示界面，按B将返回到游戏，按L则转到菜单界面。</span><br>
+<span>* 优化角色动作流畅度（避免频繁重复解压角色动作序列帧）</span><br>
+<span>* 其他修改优化：</span><br>
+<span>    1. 可以按开始键跳过所有剧情以及cg动画（默认通关一次）</span><br>
+<span>    2. 优化光盘文件排列</span><br>
+<span>    3. 镜像最内侧填充100m的dummy文件</span><br>
+<span>    4. 镜像最外侧填充100m的dummy文件</span><br>
+<span>### 读取数据的补充说明：</span><br>
+<span>* 开机第一次进入游戏，在第一个Now Loading画面（可以手柄控制Now Loading方向的那个界面)，游戏</span><br>
+<span>将会读取大概3MB的文件进加速卡，加载时间一般15-20秒，甚至更短。这是一次性的，如果不关机的话，下</span><br>
+<span>次不会再读取。请不要在这个时候复位或者关机。之后再到此画面时，加载时间会比未优化的原版更快。</span><br>
+<span>* 游戏进行中除关卡切换以及进boss房间和通关，其他时间不读数据（包括去图书馆，传送点，以及角色死</span><br>
+<span>亡后返回的标题画面，但是声音以及动画AVI文件数据依然会读取）</span><br>
+<span>* 游戏进行中的关卡以及boss房间读取速度略快于原版</span><br>
+<span>* 感谢以下人员对我的帮助，没有他们也不会有这个优化版（排名不分先后）</span><br>
+<span>    glf999, Ken, megavolt85, SONIC3D, sky0611</span><br>
+<span>* 感谢以下人员辛苦在实机上测试（排名不分先后）</span><br>
+<span>    chie, dtxyy, SONIC3D, TZM, WALL-E 52Hz, 阿珂, 龙, 土星哥, 幸福, む蓶獨嗳袮お,</span><br>
+<span>    バイオハザード</span><br>
+<span>链接:https://pan.baidu.com/s/1tiIkEYINEoJYOaTRqtxjFw </span><br>
+<span>提取码:chin </span><br>
+<span>* SS光驱板直接可用</span><br>
+<span>* 刻录的话，可以用酒精、Alcohol 120%打开其中的ccd刻录，或者Nero可以打开其中的cue文件刻录,只要支持ccd或者cue格式的刻录软件就都能刻录。</span><br>
+<span>* 模拟器玩的话推荐用ssf，在设置界面的程序4里，把网格半透明打开效果会好点</span><br>
+<span>* 游戏过程中如发现死机 黑屏等问题，请到下列任意一个网站地址留言</span><br>
+<span>    * http://bbs.chinaemu.org/read-htm-tid-128698.html</span><br>
+<span>    * https://club.tgfcer.com/thread-8306201-1-1.html</span><br>
+<span>    * https://www.ppxclub.com/forum.php?mod=viewthread&tid=698535</span><br>
+<span>by yzb</span><br>
+<span>2020.05.14 22:30</span><br>
+</p><p><b>超人越神: </b><br>
+<span>所以这个主要就是提高一下读盘速度？</span><br>
+</p><p><b>yzb: </b><br>
+<span>是的，还有可以一键看地图</span><br>
+</p><p><b>超人越神: </b><br>
+<span>我还以为能魔改一下增加新技能/新怪物/新物品什么的</span><br>
+</p><p><b>yuandi42: </b><br>
+<span>优化版又不是改版，当然不会有新物品。。</span><br>
+</p><p><b>hyakusiki: </b><br>
+<span>能不能给R/M模式补全那几个剧情boss。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1935411[0-50]</guid>
+    </item>
+  </channel>
+</rss>

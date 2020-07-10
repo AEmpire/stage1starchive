@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>SD formatter格卡工具的原理是什么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>SD formatter格卡工具的原理是什么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:21:47 +0000</lastBuildDate>
+    <item>
+      <title>SD formatter格卡工具的原理是什么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1944386-1-1.html</link>
+      <description>SD formatter格卡工具的原理是什么？&#13;
+ 本帖最后由 yjmy705 于 2020-6-27 15:11 编辑 
+
+整了张闪迪高速tf卡，用播放器的机内格卡功能格卡后，测得读写速度只有40m，但卡本身正常使用也可以写满。用windows自带的磁盘格卡后，速度还是40上下。用sd formatter 格卡后，读写速度恢复为177 82接近标称值。为什么会出现这种情况？</description>
+      <content:encoded><![CDATA[<p><b>yjmy705: </b><br>
+<span>SD formatter格卡工具的原理是什么？</span><br>
+<span> 本帖最后由 yjmy705 于 2020-6-27 15:11 编辑 </span><br>
+<span>整了张闪迪高速tf卡，用播放器的机内格卡功能格卡后，测得读写速度只有40m，但卡本身正常使用也可以写满。用windows自带的磁盘格卡后，速度还是40上下。用sd formatter 格卡后，读写速度恢复为177 82接近标称值。为什么会出现这种情况？</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>格式没变吗？exfat似乎比fat32就快挺多的了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5 Pro, Android 8.1.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yjmy705: </b><br>
+<span>注册者资格 发表于 2020-6-27 16:44</span><br>
+<span>格式没变吗？exfat似乎比fat32就快挺多的了</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5 Pro, Android 8.1.0上的 S1Nex ...</span><br>
+<span>都是exfat啊，windows自带的格式化没得选fat32</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>那就不清楚了，可能是块大小设置？我以为一般用软件格的话是对格式有什么特别要求</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5 Pro, Android 8.1.0上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>hxy8241: </b><br>
+<span>其实用Windows自带的只要点掉快速格式化也会恢复速度。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>sirlion: </b><br>
+<span>掉速了？这个软件算是优化了一下吧，闪存类可能也和ssd一样，数据删除后没有实际擦写，所以掉速了，实际清零擦写后恢复原始空盘速率，但这个速率并不是真实的</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>这个是SD标准组织的官方工具吧，各种奇奇怪怪的问题都能救回来。</span><br>
+</p><p><b>yjmy705: </b><br>
+<span>sirlion 发表于 2020-6-27 17:40</span><br>
+<span>掉速了？这个软件算是优化了一下吧，闪存类可能也和ssd一样，数据删除后没有实际擦写，所以掉速了，实际清 ...</span><br>
+<span>我这张卡刚买不久，256g的，最多也就写了不到300g数据，这么快掉速的吗</span><br>
+</p><p><b>yjmy705: </b><br>
+<span>Jet.Black 发表于 2020-6-27 17:55</span><br>
+<span>这个是SD标准组织的官方工具吧，各种奇奇怪怪的问题都能救回来。</span><br>
+<span>对，标准官网下的，我只是好奇它起到了什么作用。</span><br>
+</p><p><b>yjmy705: </b><br>
+<span>hxy8241 发表于 2020-6-27 17:15</span><br>
+<span>其实用Windows自带的只要点掉快速格式化也会恢复速度。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅 ...</span><br>
+<span>原来是这样吗？因为它默认快速是勾选的，不过我卡已经恢复速度塞够数据了就先不测了。</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>win10 慢格一样的效果</span><br>
+</p><p><b>madbird302: </b><br>
+<span>快速格式化只是简单的擦除，并没有这真正使它回到初始状态</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>现在标准SD卡越来越少了</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>yjmy705 发表于 2020-6-27 18:27</span><br>
+<span>对，标准官网下的，我只是好奇它起到了什么作用。</span><br>
+<span>厂里刷机用的sd卡有特殊的文件格式，操作系统不认，想恢复成普通SD卡只能用官方工具。</span><br>
+</p><p><b>calmer: </b><br>
+<span>Jet.Black 发表于 2020-6-27 23:34</span><br>
+<span>厂里刷机用的sd卡有特殊的文件格式，操作系统不认，想恢复成普通SD卡只能用官方工具。 ...</span><br>
+<span>好奇什么厂这么喜欢自己做轮子</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>calmer 发表于 2020-6-28 00:29</span><br>
+<span>好奇什么厂这么喜欢自己做轮子</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.2. ...</span><br>
+<span>也可能是rtos的生成的bootloader呢</span><br>
+</p><p><b>calmer: </b><br>
+<span>Jet.Black 发表于 2020-6-28 07:12</span><br>
+<span>也可能是rtos的生成的bootloader呢</span><br>
+<span>那你们的bootrom决定从sd卡启动的时候怎么校验要启动的东西是你们的人</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>calmer 发表于 2020-6-29 00:03</span><br>
+<span>那你们的bootrom决定从sd卡启动的时候怎么校验要启动的东西是你们的人</span><br>
+<span>—— 来自 HUAWEI LYA-AL1 ...</span><br>
+<span>而且还是加密的，简直有病，麻烦死了</span><br>
+</p><p><b>linux40: </b><br>
+<span>U盘也有一样的效果吗？</span><br>
+</p><p><b>karlmao: </b><br>
+<span>观铃の使魔 发表于 2020-6-27 18:37</span><br>
+<span>win10 慢格一样的效果</span><br>
+<span>256g慢歌的时间简直要老命</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>karlmao: </b><br>
+<span>观铃の使魔 发表于 2020-6-27 18:37</span><br>
+<span>win10 慢格一样的效果</span><br>
+<span>256g慢歌的时间简直要老命</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>hxy8241: </b><br>
+<span>linux40 发表于 2020-6-29 12:08</span><br>
+<span>U盘也有一样的效果吗？</span><br>
+<span>一样的，cz80速度慢了，慢速格式化就恢复了，应该就是flash没trim导致的掉速。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>SD卡老生常谈的簇大小问题，播放器瞎几把设簇大小结果SD卡小主控吃不消了，如果是NTFS格式会更糟（日志太多）重新调整簇大小之后就没问题了，另外这种播放器给个DDR 4bit的SD卡就差不多，UFS II 200MB/s的卡放进去就是白糟蹋</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>windows的exfat格式大点的盘都是1M簇,SD卡主控根本吃不消</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1944386[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请教一下几个相同网段但IP有冲突的局域网如何互通</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请教一下几个相同网段但IP有冲突的局域网如何互通</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:28:44 +0000</lastBuildDate>
+    <item>
+      <title>请教一下几个相同网段但IP有冲突的局域网如何互通[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1832669-1-1.html</link>
+      <description>请教一下几个相同网段但IP有冲突的局域网如何互通&#13;
+现在有几个局域网，其中几个网段相同，而且有互相重复的IP地址。现在有一台电脑需要可以访问到所有设备，包括网段不同的，但是不可以更改设备本身的Ip地址，请教一下这种情况需要增加什么网络设备。
+&#13;
+先谢谢大家。</description>
+      <content:encoded><![CDATA[<p><b>伪风: </b><br>
+<span>请教一下几个相同网段但IP有冲突的局域网如何互通</span><br>
+<span>现在有几个局域网，其中几个网段相同，而且有互相重复的IP地址。现在有一台电脑需要可以访问到所有设备，包括网段不同的，但是不可以更改设备本身的Ip地址，请教一下这种情况需要增加什么网络设备。</span><br>
+<span>先谢谢大家。</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>做nat</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>全部设备升级为ipv4/6双栈，通过ipv6访问</span><br>
+<span>—— 来自 Xiaomi MI PAD 4 PLUS, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伪风: </b><br>
+<span>不好意思，忘记说了，因为要用到特殊别的通讯协议和软件，所以只能用IPV4。另外</span><br>
+</p><p><b>伪风: </b><br>
+<span>另外请问有可以转换多个地址的NAT设备吗，可不可以给个品牌型号，谢谢</span><br>
+</p><p><b>Astroneer: </b><br>
+<span>nat是在路由器上配置的, 目的是把来自路由器外部的链接映射到内部地址. 不需要额外加设备, 但是需要路由器的配置权限.</span><br>
+<span>你要访问某个内网的设备, 就必须配置那个内网对外的路由器. 有几个内网就要配几个.</span><br>
+</p><p><b>北海生未径: </b><br>
+<span>编辑每个网段网关的路由表，自己设定端口映射</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>伪风 发表于 2019-5-19 15:06</span><br>
+<span>不好意思，忘记说了，因为要用到特殊别的通讯协议和软件，所以只能用IPV4。另外 ...</span><br>
+<span>开通ipv6不会影响ipv4的使用吧？</span><br>
+</p><p><b>伪风: </b><br>
+<span>纯情小鸭鸭 发表于 2019-5-19 15:52</span><br>
+<span>开通ipv6不会影响ipv4的使用吧？</span><br>
+<span>用软件做通讯的时候只能使用IPV4的地址，最终目的是这个通讯</span><br>
+</p><p><b>两个路人: </b><br>
+<span>“现在有一台电脑需要可以访问到所有设备”，我只能想到在根部放一台能被其他所有client访问的server。而且基于域名比基于IP好做</span><br>
+</p><p><b>refo2613: </b><br>
+<span>先把ip重新规划一下</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伪风: </b><br>
+<span>refo2613 发表于 2019-5-19 19:04</span><br>
+<span>先把ip重新规划一下</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>然而并不可以</span><br>
+</p><p><b>lotsbiss: </b><br>
+<span>nat做1对1映射。</span><br>
+<span>比如A段的 192.168.x.x在A网关的路由器上映射为10.1.x.x，</span><br>
+<span>B段的 192.168.x.x在B网关的路由器上映射为10.2.x.x，</span><br>
+<span>A访问B的设备，直接访问10.2.x.x，相关的路由表在各自的网关上配置好就行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1832669[0-50]</guid>
+    </item>
+  </channel>
+</rss>

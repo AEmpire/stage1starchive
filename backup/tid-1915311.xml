@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一加7pro升级系统后电脑无法识别手机了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一加7pro升级系统后电脑无法识别手机了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:00:45 +0000</lastBuildDate>
+    <item>
+      <title>一加7pro升级系统后电脑无法识别手机了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915311-1-1.html</link>
+      <description>一加7pro升级系统后电脑无法识别手机了&#13;
+就是插上电脑后只显示充电，没有其他选项，开关USB调试、选择仅充电还是MTP的选项都没有。
+&#13;
+其实上一版升级后就出现问题了，确认数据线没问题，电脑其他设备可读后通过恢复出场设置解决了这一切，当时以为只是这一版的系统问题。结果昨天升级了氢b8后，插上电脑准备刷magisk时发现又被不能被电脑识别了。有人知道这种情况该怎么解吗。在一加坛子看了圈没有类似的问题。</description>
+      <content:encoded><![CDATA[<p><b>可乐杜: </b><br>
+<span>一加7pro升级系统后电脑无法识别手机了</span><br>
+<span>就是插上电脑后只显示充电，没有其他选项，开关USB调试、选择仅充电还是MTP的选项都没有。</span><br>
+<span>其实上一版升级后就出现问题了，确认数据线没问题，电脑其他设备可读后通过恢复出场设置解决了这一切，当时以为只是这一版的系统问题。结果昨天升级了氢b8后，插上电脑准备刷magisk时发现又被不能被电脑识别了。有人知道这种情况该怎么解吗。在一加坛子看了圈没有类似的问题。</span><br>
+</p><p><b>行星减速器mk4: </b><br>
+<span>开发者选项，或者“设置”-”系统“选项里开启“otg数据交换”</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>行星减速器mk4 发表于 2020-2-23 18:43</span><br>
+<span>开发者选项，或者“设置”-”系统“选项里开启“otg数据交换”</span><br>
+<span>打开试过了，没有变化</span><br>
+</p><p><b>行星减速器mk4: </b><br>
+<span>可乐杜 发表于 2020-2-23 18:51</span><br>
+<span>打开试过了，没有变化</span><br>
+<span>那你试试看回滚版本，如果不行那我也不清楚了</span><br>
+</p><p><b>downforce: </b><br>
+<span>为了验证你的问题试了下我的，第一次也是只显示充电无其他选项。拔了数据线重插又好了，之后无法复现问题。</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>行星减速器mk4 发表于 2020-2-23 23:27</span><br>
+<span>那你试试看回滚版本，如果不行那我也不清楚了</span><br>
+<span>不能连接电脑连回滚都做不到。手机自带的升级是不能回滚的...</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>又试了下上次格式化设备后就能读取的操作，失败了</span><br>
+</p><p><b>行星减速器mk4: </b><br>
+<span>可乐杜 发表于 2020-2-24 02:43</span><br>
+<span>不能连接电脑连回滚都做不到。手机自带的升级是不能回滚的...</span><br>
+<span>怎么可能，fastboot线刷啊，除非你USB坏了，不然不可能连接fb都不识别</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>行星减速器mk4 发表于 2020-2-24 03:45</span><br>
+<span>怎么可能，fastboot线刷啊，除非你USB坏了，不然不可能连接fb都不识别</span><br>
+<span>返修了，说是主板坏了。还好还在保</span><br>
+</p><p><b>行星减速器mk4: </b><br>
+<span>可乐杜 发表于 2020-2-25 13:49</span><br>
+<span>返修了，说是主板坏了。还好还在保</span><br>
+<span>绝了</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>返厂到手后，升级解锁一走完USB就又不能读了</span><br>
+</p><p><b>义亦死吾亦死: </b><br>
+<span>我怎么感觉一加的最近的更新Bug都比较多，感觉他们好像没有测试。</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>义亦死吾亦死 发表于 2020-2-26 16:38</span><br>
+<span>我怎么感觉一加的最近的更新Bug都比较多，感觉他们好像没有测试。</span><br>
+<span>我这个问题b7就开始出现了，但是应该没有大面积出现，不然也不至于我找了半天都没找到相同的人。</span><br>
+</p><p><b>望上弦: </b><br>
+<span>经常能看到7pro出问题的帖子，是我的错觉吗？</span><br>
+</p><p><b>可乐杜: </b><br>
+<span>又返修回来了，这次回滚旧版本都没反应了。前面两次出问题都是解锁前后，这次连解锁的机会没有了。</span><br>
+<span>也懒得再返修了，售后估计是处理不了这个问题了</span><br>
+</p><p><b>脱氧核糖核酸: </b><br>
+<span>恭喜你可以换新了。</span><br>
+<span>在三包有效期内，修理两次，仍不能正常使用的产品，凭修理者提供的修理记录和证明，由销售者负责为消费者免费调换同型号同规格的产品或者退货</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915311[0-50]</guid>
+    </item>
+  </channel>
+</rss>

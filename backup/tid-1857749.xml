@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD yes！r3600折腾经验</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD yes！r3600折腾经验</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:17 +0000</lastBuildDate>
+    <item>
+      <title>AMD yes！r3600折腾经验[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857749-1-1.html</link>
+      <description>AMD yes！r3600折腾经验&#13;
+原平台6600k加无保嘉z170ud3加十全2800 嫖了一套3600+msi b450m max+贼船lpx 3200 8*2 开干
+
+1、原系统win10 1903 直接换主版能用 路由做kms所以压根不用重激活 装主板驱动之后一切正常 这次不黑阿3
+
+2、amd官方和msipbo对应是散热器级别，1原装4顶配水冷依次递进，所以其实没啥必要选4 反人类400as120之流auto或者2就行 如果选off要手动设置各种TDP限制
+
+3、最新BIOS虽然屏蔽了PCIE4但是内存性能很好，条子是3200 cl16镁光d die，刷了后直接cl16 3733过测试，刷之前开不了机
+
+4.3600好体质都变成3600x，所以别折腾超频了，准备可以用ryzen master找到一个4.0至4.1全核定压平衡点，我经手两个3600 一个可以1.28v 4.1（不过针歪了不能双通道gg），一个只能1.3v 4.0 。因为boost基本都不上去 更建议定频定压使用 另外4.2全核基本划不来 有这个需求建议买3600x或者一步到位3700x
+
+5.zen2对电压是有基础要求的，电压低能开机但是性能会大幅下降 所以调电压要注意 测试也简单CPU z跑个分就行
+
+6.b450的扩展真的是勉强够用，仓鼠党请准备好扩展卡
+
+大概这样 最后说下 as120的风扇扣具一样是屎 早知道买反人类400还便宜</description>
+      <content:encoded><![CDATA[<p><b>汝者: </b><br>
+<span>AMD yes！r3600折腾经验</span><br>
+<span>原平台6600k加无保嘉z170ud3加十全2800 嫖了一套3600+msi b450m max+贼船lpx 3200 8*2 开干</span><br>
+<span>1、原系统win10 1903 直接换主版能用 路由做kms所以压根不用重激活 装主板驱动之后一切正常 这次不黑阿3</span><br>
+<span>2、amd官方和msipbo对应是散热器级别，1原装4顶配水冷依次递进，所以其实没啥必要选4 反人类400as120之流auto或者2就行 如果选off要手动设置各种TDP限制</span><br>
+<span>3、最新BIOS虽然屏蔽了PCIE4但是内存性能很好，条子是3200 cl16镁光d die，刷了后直接cl16 3733过测试，刷之前开不了机</span><br>
+<span>4.3600好体质都变成3600x，所以别折腾超频了，准备可以用ryzen master找到一个4.0至4.1全核定压平衡点，我经手两个3600 一个可以1.28v 4.1（不过针歪了不能双通道gg），一个只能1.3v 4.0 。因为boost基本都不上去 更建议定频定压使用 另外4.2全核基本划不来 有这个需求建议买3600x或者一步到位3700x</span><br>
+<span>5.zen2对电压是有基础要求的，电压低能开机但是性能会大幅下降 所以调电压要注意 测试也简单CPU z跑个分就行</span><br>
+<span>6.b450的扩展真的是勉强够用，仓鼠党请准备好扩展卡</span><br>
+<span>大概这样 最后说下 as120的风扇扣具一样是屎 早知道买反人类400还便宜</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>我一直说反人类400那个扣具在AM4上毫无问题~~~压力足够安装方便......结果还有人和我杠说塑料环容易坏,我直接喷他是不是没见过AMX接口的主板,那个转接环是牙膏家专用的</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>i换a，不重装还是会有时不时假死的问题，我哥的是这样，我自己的也是这样，最后都重装了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>bilibon: </b><br>
+<span>sunyiren 发表于 2019-10-4 11:45</span><br>
+<span>i换a，不重装还是会有时不时假死的问题，我哥的是这样，我自己的也是这样，最后都重装了</span><br>
+<span>—— 来自 HUAWEI ...</span><br>
+<span>我是从一代E3换成2600没碰到假死，看来运气不错</span><br>
+</p><p><b>中村隆太郎: </b><br>
+<span>我也是E3 1231换3600，大概2个月了，印象里从来没死过机</span><br>
+</p><p><b>老弗爷的菜刀: </b><br>
+<span>我也没有重装就从I换到了A，总之是没什么问题现在。该夸巨硬还是小AA呢。</span><br>
+</p><p><b>红左手: </b><br>
+<span>3700x表示原装散热转速抽风温度沙雕b450扩展性实在是不怎么样</span><br>
+<span>忽略这几点还算可以</span><br>
+<span>当然要弥补这些问题的话，价格上就yes不起来了</span><br>
+</p><p><b>汝者: </b><br>
+<span>红左手 发表于 2019-10-5 17:21</span><br>
+<span>3700x表示原装散热转速抽风温度沙雕b450扩展性实在是不怎么样</span><br>
+<span>忽略这几点还算可以</span><br>
+<span>3700x原装散热ok的 反正除了36那个都众生平等</span><br>
+<span>b450的通道数真的不行 尤其我这种z170过来 不过价格便宜就那样吧</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>3600+阿苏斯ws x570，追风者6热管下压。</span><br>
+<span>全自动拷机4G都上不了，阿苏斯的超频软件超到4.3G然后CPU拷机温度直接上105然后跳掉，然后调到4.15G，3600就别折腾了</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857749[0-50]</guid>
+    </item>
+  </channel>
+</rss>

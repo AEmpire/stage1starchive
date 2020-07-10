@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>抛砖引玉，关于如何将妮可妮可静画的图片保存至本地</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>抛砖引玉，关于如何将妮可妮可静画的图片保存至本地</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:11:08 +0000</lastBuildDate>
+    <item>
+      <title>抛砖引玉，关于如何将妮可妮可静画的图片保存至本地[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904841-1-1.html</link>
+      <description>抛砖引玉，关于如何将妮可妮可静画的图片保存至本地&#13;
+一、思路
+&#13;
+        1.首先用Chrome的开发者工具找到网页加载的图片，直接保存发现并不是图片文件。查看Request，发现Request内容为"data:image/jpg;base64"开头，所以后面的内容是base64编码后的图片。
+&#13;
+        2.目前的解决思路是用save all resources保存网页所有静态资源，然后用脚本将base64编码的图片重新解码为图片。
+&#13;
+二、缺陷
+&#13;
+        1.图片顺序未知，分析网页元素后发现图片由drm.妮可妮可静画.jp发出，可能是加密的，暂时没有解决的思路。
+&#13;
+        2.操作过程除了批量解码之外，依赖手动操作，"save all resources"插件后续可以用脚本代替。
+&#13;
+三、方法
+&#13;
+        1.下载安装chrome插件"save all resources"
+&#13;
+        2.打开图片所在页并下拉至底让所有图片加载出来。。
+&#13;
+        3.按"F12"打开开发者工具，切换到"ResourceSaver"标签页，按"Save All Resources"。
+&#13;
+        4.打开下载的文件，其中有一个文件夹为"_DataURI"，将其中所有文件名含有"data.image.jpg"的文件复制到"original_file"文件夹。脚本所在文件结构类似下图。
+&#13;
+border=0
+&#13;
+        5.运行脚本"decode.py"。
+&#13;
+import base64
+&#13;
+import os
+&#13;
+path='original_file'
+&#13;
+for i in os.walk(path):
+&#13;
+    file_name=i
+&#13;
+n=1
+&#13;
+for i in file_name:
+&#13;
+    with open(path+'/'+i) as file:
+&#13;
+      data=file.read()
+&#13;
+      data1=base64.b64decode(data)
+&#13;
+    with open('processed_file/file'+str(n)+'.jpg','wb') as f:
+&#13;
+      f.write(data1)
+&#13;
+    n+=1        6.解码后的文件在"processed_file"文件夹内，请将文件拷出，并清空"original_file"、"processed_file"两个文件夹。</description>
+      <content:encoded><![CDATA[<p><b>拯救节操希灵宅: </b><br>
+<span>抛砖引玉，关于如何将妮可妮可静画的图片保存至本地</span><br>
+<span>一、思路</span><br>
+<span>        1.首先用Chrome的开发者工具找到网页加载的图片，直接保存发现并不是图片文件。查看Request，发现Request内容为"data:image/jpg;base64"开头，所以后面的内容是base64编码后的图片。</span><br>
+<span>        2.目前的解决思路是用save all resources保存网页所有静态资源，然后用脚本将base64编码的图片重新解码为图片。</span><br>
+<span>二、缺陷</span><br>
+<span>        1.图片顺序未知，分析网页元素后发现图片由drm.妮可妮可静画.jp发出，可能是加密的，暂时没有解决的思路。</span><br>
+<span>        2.操作过程除了批量解码之外，依赖手动操作，"save all resources"插件后续可以用脚本代替。</span><br>
+<span>三、方法</span><br>
+<span>        1.下载安装chrome插件"save all resources"</span><br>
+<span>        2.打开图片所在页并下拉至底让所有图片加载出来。。</span><br>
+<span>        3.按"F12"打开开发者工具，切换到"ResourceSaver"标签页，按"Save All Resources"。</span><br>
+<span>        4.打开下载的文件，其中有一个文件夹为"_DataURI"，将其中所有文件名含有"data.image.jpg"的文件复制到"original_file"文件夹。脚本所在文件结构类似下图。</span><br>
+<span>border=0</span><br>
+<span>        5.运行脚本"decode.py"。</span><br>
+<span>import base64</span><br>
+<span>import os</span><br>
+<span>path='original_file'</span><br>
+<span>for i in os.walk(path):</span><br>
+<span>    file_name=i</span><br>
+<span>n=1</span><br>
+<span>for i in file_name:</span><br>
+<span>    with open(path+'/'+i) as file:</span><br>
+<span>      data=file.read()</span><br>
+<span>      data1=base64.b64decode(data)</span><br>
+<span>    with open('processed_file/file'+str(n)+'.jpg','wb') as f:</span><br>
+<span>      f.write(data1)</span><br>
+<span>    n+=1        6.解码后的文件在"processed_file"文件夹内，请将文件拷出，并清空"original_file"、"processed_file"两个文件夹。</span><br>
+</p><p><b>董卓: </b><br>
+<span>噶复杂？</span><br>
+<span>一般这种不是直接console里一句js搞定的事情</span><br>
+<span>后面就是直接chrome插件化了</span><br>
+<span>或者还是要无界面批量下载？</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>董卓 发表于 2019-12-23 11:23</span><br>
+<span>噶复杂？</span><br>
+<span>一般这种不是直接console里一句js搞定的事情</span><br>
+<span>后面就是直接chrome插件化了</span><br>
+<span>我不怎么懂js，但妮可静画的网页使用script绘制canvas的方式显示图片的，恐怕没办法简单地获取图片地址。</span><br>
+</p><p><b>TR4835: </b><br>
+<span>你登录就好了.......</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>TR4835 发表于 2019-12-23 12:57</span><br>
+<span>你登录就好了.......</span><br>
+<span>已经是登录了的状态了，妮可静画不是要登录才能看吗？</span><br>
+<span>—— 来自 asus ASUS_P00J, Android 7.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-12-23 13:43 编辑 </span><br>
+<span>拯救节操希灵宅 发表于 2019-12-23 13:21</span><br>
+<span>已经是登录了的状态了，妮可静画不是要登录才能看吗？</span><br>
+<span>—— 来自 asus ASUS_P00J, Android 7.0上 ...</span><br>
+<span># coding: UTF-8</span><br>
+<span>import urllib.request</span><br>
+<span>import re</span><br>
+<span>def decrypt_xor(key, fname):</span><br>
+<span>    kb = bytearray.fromhex(key)</span><br>
+<span>    print(key, kb)</span><br>
+<span>    with open(fname, "rb") as infile, open(fname + ".jpg", 'wb') as out_file:</span><br>
+<span>      encdata = bytearray(infile.read())</span><br>
+<span>      for index in range(len(encdata)):</span><br>
+<span>            encdata = encdata ^ kb</span><br>
+<span>      out_file.write(encdata)</span><br>
+<span>    pass</span><br>
+<span>url = "https://drm.nicoseiga.jp/image/e58164d09d8ce3b12546fdab4af9dcef80f08ba0_18253/6903866p?1565699880"</span><br>
+<span>fname = "6903866p"</span><br>
+<span>pattern = re.compile("{16}")</span><br>
+<span>rkey = pattern.search(url).group()[:16]</span><br>
+<span>decrypt_xor(rkey, fname)</span><br>
+<span>简单看了一下那个drm加密算法，就是个最菜的异或而已，别想太多，剩下怎么爬虫自己搞一下</span><br>
+<span>首页随便找了个漫画</span><br>
+<span>view-source:https://seiga.nicovideo.jp/watch/mg243155?track=ct_episode</span><br>
+<span>搜关键词data-original拿到，后面正则搞一下</span><br>
+</p><p><b>古屋敷由良: </b><br>
+<span>我怎么能直接右键</span><br>
+<span>以及静画有什么不可代替内容吗</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>すぴぱら 发表于 2019-12-23 13:33</span><br>
+<span>简单看了一下那个drm加密算法，就是个最菜的异或而已，别想太多，剩下怎么爬虫自己搞一下</span><br>
+<span>首页随便找了 ...</span><br>
+<span>自己写了一下跑通了，求解一下加密算法具体是在网页的那个部分看到的？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>拯救节操希灵宅 发表于 2019-12-23 16:19</span><br>
+<span>自己写了一下跑通了，求解一下加密算法具体是在网页的那个部分看到的？ ...</span><br>
+<span>this.decrypt = function(t, e) {</span><br>
+<span>      var r, n = [], a = 8;</span><br>
+<span>      for (r = 0; r < a; r++)</span><br>
+<span>            n.push(parseInt(e.substr(2 * r, 2), 16));</span><br>
+<span>      for (r = 0; r < t.length; r++)</span><br>
+<span>            t = t ^ n;</span><br>
+<span>      return t</span><br>
+<span>    }https://seiga.nicovideo.jp/js/manga/common.min.js?c11yvi</span><br>
+<span>在这里，不过我写的时候没看那么多，直接比对了一下header就猜到是异或了，日本人挺喜欢异或加密的</span><br>
+</p><p><b>HibikiGo: </b><br>
+<span>借楼提问</span><br>
+<span>推的图片视频可以批量保存吗</span><br>
+</p><p><b>拯救节操希灵宅: </b><br>
+<span>HibikiGo 发表于 2019-12-23 19:36</span><br>
+<span>借楼提问</span><br>
+<span>推的图片视频可以批量保存吗</span><br>
+<span>chrome/firefox的插件twitter media downloader，刚才试了一下依然可用。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904841[0-50]</guid>
+    </item>
+  </channel>
+</rss>

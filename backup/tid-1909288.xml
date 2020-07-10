@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ProcessExplorer和任务管理器看CPU占用哪个更准确?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ProcessExplorer和任务管理器看CPU占用哪个更准确?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:46:34 +0000</lastBuildDate>
+    <item>
+      <title>ProcessExplorer和任务管理器看CPU占用哪个更准确?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1909288-1-1.html</link>
+      <description>ProcessExplorer和任务管理器看CPU占用哪个更准确?&#13;
+这两个看同一进程占用完全不一样,有的多了有的少了,那么谁更准?
+&#13;
+我感觉是任务管理器可以确认不准了,那么ProcessExplorer呢?</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>ProcessExplorer和任务管理器看CPU占用哪个更准确?</span><br>
+<span>这两个看同一进程占用完全不一样,有的多了有的少了,那么谁更准?</span><br>
+<span>我感觉是任务管理器可以确认不准了,那么ProcessExplorer呢?</span><br>
+</p><p><b>netplaying: </b><br>
+<span>这两个我都长期用，没感觉有很大的区别啊。</span><br>
+</p><p><b>yikaa: </b><br>
+<span> 本帖最后由 yikaa 于 2020-1-13 15:49 编辑 </span><br>
+<span>期末才做了个任务管理器的说下</span><br>
+<span>CPU使用率=（核心时间+用户时间）/空闲时间</span><br>
+<span>通过</span><br>
+<span>GetSystemTimes(</span><br>
+<span>    _Out_opt_ PFILETIME lpIdleTime,</span><br>
+<span>    _Out_opt_ PFILETIME lpKernelTime,</span><br>
+<span>    _Out_opt_ PFILETIME lpUserTime</span><br>
+<span>    );</span><br>
+<span>函数获取当前时刻的时间</span><br>
+<span>在Sleep（）一段时间后，再次读取。</span><br>
+<span>将两者之差作为核心时间，用户时间，空闲时间。这样求得占用率</span><br>
+<span>关键就是Sleep的这个时间选取多少区别。可能粒度大也可能粒度小。两个程序执行的时间也有区别。</span><br>
+<span>所以它们只是反映的对该程序而言获取信息这段时间中的使用率。两个都是准的</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>yikaa 发表于 2020-1-13 15:48</span><br>
+<span>期末才做了个任务管理器的说下</span><br>
+<span>CPU使用率=（核心时间+用户时间）/空闲时间</span><br>
+<span>那我再问下:任务管理器里进程栏和详细信息栏的占用是一回事吗?为啥不一样啊.</span><br>
+</p><p><b>yikaa: </b><br>
+<span>塔奇克马 发表于 2020-1-13 17:10</span><br>
+<span>那我再问下:任务管理器里进程栏和详细信息栏的占用是一回事吗?为啥不一样啊. ...</span><br>
+<span>获取使用信息的函数是分别写的吧。</span><br>
+<span>两个窗口只是调用了同一个函数而没有共用数据？</span><br>
+<span>我就是这么写的，毕竟拿个函数改改就能用了，比起传数据方便多了。</span><br>
+<span>可能巨硬写这个的也是这么想的？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1909288[0-50]</guid>
+    </item>
+  </channel>
+</rss>

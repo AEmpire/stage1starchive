@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌框架手机恢复出厂成砖的解决办法，泥潭老哥都是好人</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌框架手机恢复出厂成砖的解决办法，泥潭老哥都是好人</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:45:45 +0000</lastBuildDate>
+    <item>
+      <title>谷歌框架手机恢复出厂成砖的解决办法，泥潭老哥都是好人[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839703-1-1.html</link>
+      <description>谷歌框架手机恢复出厂成砖的解决办法，泥潭老哥都是好人&#13;
+ 本帖最后由 ツナシ·タクト 于 2019-6-16 15:16 编辑 
+
+现在情况这样我听说恢复出厂能升级系统就点了，但是结果手机开机非要连WiFi要不然就用不了，这手机是默认显示连了WiFi但用不了，系统就卡在这了
+&#13;
+手机没解BL锁所以貌似没法线刷，用电脑爬墙做代理Wifi也试过了没用，我没签证也出不了国
+&#13;
+折腾了一个下午也没用，我看人说刷机能解决但我也不知道怎么用
+&#13;
+你们帮帮我吧，等弄好以后我再也不钓鱼了</description>
+      <content:encoded><![CDATA[<p><b>ツナシ·タクト: </b><br>
+<span>谷歌框架手机恢复出厂成砖的解决办法，泥潭老哥都是好人</span><br>
+<span> 本帖最后由 ツナシ·タクト 于 2019-6-16 15:16 编辑 </span><br>
+<span>现在情况这样我听说恢复出厂能升级系统就点了，但是结果手机开机非要连WiFi要不然就用不了，这手机是默认显示连了WiFi但用不了，系统就卡在这了</span><br>
+<span>手机没解BL锁所以貌似没法线刷，用电脑爬墙做代理Wifi也试过了没用，我没签证也出不了国</span><br>
+<span>折腾了一个下午也没用，我看人说刷机能解决但我也不知道怎么用</span><br>
+<span>你们帮帮我吧，等弄好以后我再也不钓鱼了</span><br>
+</p><p><b>TSST: </b><br>
+<span>你钓过鱼？把罪证交代了我考虑一下</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>TSST 发表于 2019-6-15 18:37</span><br>
+<span>你钓过鱼？把罪证交代了我考虑一下</span><br>
+<span>都还在策划阶段</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span> 本帖最后由 scikirbypoke 于 2019-6-15 18:44 编辑 </span><br>
+<span>https://developers.google.com/android/images</span><br>
+<span>下载对应机型最新factory image，重启到bootloader接电脑，运行flash-all即可</span><br>
+<span>pixel系切记重置前退出账号……</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span> 本帖最后由 ツナシ·タクト 于 2019-6-15 18:48 编辑 </span><br>
+<span>scikirbypoke 发表于 2019-6-15 18:41</span><br>
+<span>https://developers.google.com/android/images</span><br>
+<span>下载对应机型最新刷机包，重启到bootloader接电脑，运行fla ...</span><br>
+<span>flash-all能详细说下吗？这就试试</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>下好打开里面有个flash-all.bat，可以刷成全新，然后就能跳过初始设置，这时候再开adb改联网认证为google.cn就行了</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>先退账号就是想不明白么……</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>Diabolosis 发表于 2019-6-15 19:01</span><br>
+<span>先退账号就是想不明白么……</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4 ...</span><br>
+<span>我错了。。。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>Diabolosis 发表于 2019-6-15 19:01</span><br>
+<span>先退账号就是想不明白么……</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4 ...</span><br>
+<span>大部分墙内菜13都不知道古狗有这种神奇改进。</span><br>
+<span>所以早说了，墙里用儿子机，上来解锁刷twrp是起手式，毕竟没售后。</span><br>
+<span>给LZ一个或许可行的方案：买旅游用的越南/日本等等的流量卡，要能用网络连古狗地图的那种，塞进去激活</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>scikirbypoke 发表于 2019-6-15 18:41</span><br>
+<span>https://developers.google.com/android/images</span><br>
+<span>下载对应机型最新factory image，重启到bootloader接电脑， ...</span><br>
+<span>Checking product                                 OKAY </span><br>
+<span>Checking version-bootloader                        FAILED</span><br>
+<span>Device version-bootloader is 'TMZ10n'.</span><br>
+<span>Update requires 'TMZ20r'.</span><br>
+<span>fastboot: error: requirements not met!</span><br>
+<span>Press any key to exit...</span><br>
+<span>不行啊</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>搞个手机全局爬梯子后共享wifi给亲儿子连就行了。</span><br>
+<span>或者路由器爬也行</span><br>
+</p><p><b>flymop: </b><br>
+<span> 本帖最后由 flymop 于 2019-6-15 19:54 编辑 </span><br>
+<span>顺时钟点方向点四个角</span><br>
+<span>那个刷底包报错的，自动的不行就手工啊，再不行，你刷旧版本的</span><br>
+<span>还是搞不定，只能淘宝了，几十块钱他们帮你远程弄好</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>系统杀手 发表于 2019-6-15 19:45</span><br>
+<span>搞个手机全局爬梯子后共享wifi给亲儿子连就行了。</span><br>
+<span>或者路由器爬也行</span><br>
+<span>这个也是不行QAQ</span><br>
+</p><p><b>zievod: </b><br>
+<span> 本帖最后由 zievod 于 2019-6-15 19:57 编辑 </span><br>
+<span>，用电脑爬墙做代理Wifi也试过了没用，</span><br>
+<span>不是没用是你做错了</span><br>
+<span>重置之后就要连WiFi激活账号才能用 记得是Nexus7的时候就这样了 后来也遇到过两次 搞个代理就行了 </span><br>
+<span>你的代理肯定没有弄好</span><br>
+<span>笔记本挂全局ss开热点并不能爬墙</span><br>
+<span>要用路由器挂ss或者那种随身WiFi来共享网络</span><br>
+<span>我是很久以前的9.9包邮的小度WiFi 你买个类似的就行</span><br>
+<span>我去年激活安卓板刚试过 </span><br>
+<span>你说不行你说下你怎么开的热点</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>两个路人 发表于 2019-6-15 19:14</span><br>
+<span>大部分墙内菜13都不知道古狗有这种神奇改进。</span><br>
+<span>所以早说了，墙里用儿子机，上来解锁刷twrp是起手式，毕竟 ...</span><br>
+<span>实在不行就只能这样办了</span><br>
+</p><p><b>quinaeus: </b><br>
+<span>zievod 发表于 2019-6-15 19:56</span><br>
+<span>，用电脑爬墙做代理Wifi也试过了没用，</span><br>
+<span>搜一下ss的反向代理再开WiFi</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>zievod 发表于 2019-6-15 19:56</span><br>
+<span>，用电脑爬墙做代理Wifi也试过了没用，</span><br>
+<span>我是用一个手机开得热点给笔记本，再用笔记本系统自带的功能开得热点，我这边没有网线要是买移动热点也可能是这样转三手的网络</span><br>
+</p><p><b>passgan: </b><br>
+<span>你父母或者弟弟妹妹有没有手机啊，让他们给你开个移动热点呗</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>passgan 发表于 2019-6-15 20:15</span><br>
+<span>你父母或者弟弟妹妹有没有手机啊，让他们给你开个移动热点呗</span><br>
+<span>热点的方法刚刚试过了不好使啊</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>flymop 发表于 2019-6-15 19:53</span><br>
+<span>顺时钟点方向点四个角</span><br>
+<span>那个刷底包报错的，自动的不行就手工啊，再不行，你刷旧版本的</span><br>
+<span>手动和淘宝求详细QAQ</span><br>
+</p><p><b>中途半端: </b><br>
+<span>问下大佬们 路由已经科学了 还会遇到这种问题不？ 重置必须先退账号？</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>ツナシ·タクト 发表于 2019-6-15 19:41</span><br>
+<span>Checking product                                 OKAY </span><br>
+<span>Checking version-bootloader      ...</span><br>
+<span>需要 unlock_critical</span><br>
+<span>详细操作见https://forum.xda-developers.com/pixel-2-xl/help/fastboot-unlcok-vs-fastboot-unlock-t3704406</span><br>
+</p><p><b>两个路人: </b><br>
+<span>中途半端 发表于 2019-6-15 20:20</span><br>
+<span>问下大佬们 路由已经科学了 还会遇到这种问题不？ 重置必须先退账号？</span><br>
+<span>源自股沟爸爸安卓5.0对开机验证的改动。不退账号重置，开机强制要求验证</span><br>
+</p><p><b>h20020901: </b><br>
+<span>买个路由器刷带酸酸乳的固件</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>eden0412: </b><br>
+<span>我以前三爽美版的板子出现过Wi-Fi验证不了，后来是找了一个很歪门的方法解决的，你看看行不行——</span><br>
+<span>在WiFi那里随便找个能用的网络打开，先不要连接，选择高级选项出现代理地址和通道，这个地方需要在网上查找一个美国高匿或透明的ip地址然后填进去，如果一个不行就换另外的，连上后就可以进入下一步Google的更新，更新等待一段时间后网络错误但是都可以跳过了，都跳过后就可以直接进入桌面了</span><br>
+<span>我的板子就是这么解决的，不知道有没有用你可以试试</span><br>
+</p><p><b>人生如戏: </b><br>
+<span>你现在重置全没退帐号，然后现在路由翻不了墙？还是忘记了帐号？</span><br>
+<span>我这台也试过这样，买的二手，特么没退帐号就重置。最后在油管上找到方法，我也忘了是哪个视频了，你两个视频看看，照做吧。</span><br>
+<span>https://youtu.be/iV01xiMpcoQ</span><br>
+<span>https://youtu.be/ROIfUN5AJig</span><br>
+<span>或者试试这个好像也行https://youtu.be/2LqFLco46Qw</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>人生如戏: </b><br>
+<span>中途半端 发表于 2019-6-15 20:20</span><br>
+<span>问下大佬们 路由已经科学了 还会遇到这种问题不？ 重置必须先退账号？</span><br>
+<span>除非你忘记帐号和密码，科学能通就没问题</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ツナシ·タクト: </b><br>
+<span>谢谢大家，解决了</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>ツナシ·タクト 发表于 2019-6-16 15:13</span><br>
+<span>谢谢大家，解决了</span><br>
+<span>请问你是怎么解决的</span><br>
+<span>我之前刷国行系统时也忘记退了，现在想用回港版系统却无能为力</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>月夜凝雪 发表于 2019-6-21 21:05</span><br>
+<span>请问你是怎么解决的</span><br>
+<span>我之前刷国行系统时也忘记退了，现在想用回港版系统却无能为力</span><br>
+<span>电脑开酸酸乳，设置勾选上接受来自局域网的连接，手机上设置http代理</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>commanderyuri 发表于 2019-6-22 00:00</span><br>
+<span>电脑开酸酸乳，设置勾选上接受来自局域网的连接，手机上设置http代理</span><br>
+<span>—— 来自 Sony G8342, Android 9 ...</span><br>
+<span>我之前用的不行，求私信推荐</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>月夜凝雪 发表于 2019-6-22 09:35</span><br>
+<span>我之前用的不行，求私信推荐</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.0.4-play ...</span><br>
+<span>我自己在azure建服务器搭的</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>commanderyuri 发表于 2019-6-22 15:15</span><br>
+<span>我自己在azure建服务器搭的</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>哪里的机房</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>酸酸乳不是已经不在维护了吗？是不是微图睿更好？</span><br>
+</p><p><b>q8f13: </b><br>
+<span>路由翻墙或者之前几楼说的那种全局梯子共享热点是可以的。</span><br>
+<span>半个月前刚弄过。据说是因为自某个版本开始一直没修复的bug，即开机激活阶段wifi里设置的http代理不生效，激活步骤后就正常。从现象来看的确是这样</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>月夜凝雪 发表于 2019-6-22 18:41</span><br>
+<span>哪里的机房</span><br>
+<span>southeast aisa，应该是新加坡</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>某猫头软件普及刻不容缓</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839703[0-50]</guid>
+    </item>
+  </channel>
+</rss>

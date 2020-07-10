@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>这两天突然变得很难连上某个视频网站了，咋回事</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>这两天突然变得很难连上某个视频网站了，咋回事</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:45:09 +0000</lastBuildDate>
+    <item>
+      <title>这两天突然变得很难连上某个视频网站了，咋回事[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1858865-1-1.html</link>
+      <description>这两天突然变得很难连上某个视频网站了，咋回事&#13;
+一直以来都用的好好的，这两天突然难以连接，转圈转半天，图片视频都刷不出来，上其他网站正常
+&#13;
+南方电信，试过换DNS，重启路由，均无效
+&#13;
+现在每天看不到视频浑身难受
+&#13;
+没错，我说的就是泥潭前宫B站</description>
+      <content:encoded><![CDATA[<p><b>粉色猛男: </b><br>
+<span>这两天突然变得很难连上某个视频网站了，咋回事</span><br>
+<span>一直以来都用的好好的，这两天突然难以连接，转圈转半天，图片视频都刷不出来，上其他网站正常</span><br>
+<span>南方电信，试过换DNS，重启路由，均无效</span><br>
+<span>现在每天看不到视频浑身难受</span><br>
+<span>没错，我说的就是泥潭前宫B站</span><br>
+</p><p><b>JamieD: </b><br>
+<span>https://tieba.baidu.com/p/6291297025</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>JamieD 发表于 2019-10-11 00:06</span><br>
+<span>https://tieba.baidu.com/p/6291297025</span><br>
+<span>我人傻了，这是什么操作。</span><br>
+<span>电信想挤压竞争对手？还是B站的服务器问题？</span><br>
+</p><p><b>某浩: </b><br>
+<span>我还以为是我的路由出问题了。难怪卡得一B。</span><br>
+<span>感觉可能B用的CDN电信线路出问题了</span><br>
+</p><p><b>yizi: </b><br>
+<span>抬眼一看标题还以为是上P站或者是某不存在的网站。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>深圳电信的宽带就看b站贼难受，有些能看有些死活看不了，但是换电信4g流量都能看，fuck</span><br>
+</p><p><b>宅迷心窍: </b><br>
+<span>我说呢，最近看B站怎么这么卡，不知道电信这是什么操作。。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cnwind042: </b><br>
+<span>我也是，电信看B站卡成狗</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我最近校园网电信倒是淘宝上不了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>app有问题，网页版没问题，感觉还是破站的问题</span><br>
+</p><p><b>罐子: </b><br>
+<span>原来不是我一个人卡啊</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xiaose123: </b><br>
+<span>原来我不是一个人。</span><br>
+</p><p><b>wangsanc: </b><br>
+<span>直接贴过来好了（专对广东电信，其他省/其他运营商不要用）</span><br>
+<span>https://tieba.baidu.com/p/6291297025?pn=11</span><br>
+<span>337楼</span><br>
+<span>                                                      大佬们找到了办法 卡得受不了，自己动手排查了一下。</span><br>
+<span>发现是b站dns负载出现了问题，自动分配外省ip给广东访问。</span><br>
+<span>临时解决办法如下：</span><br>
+<span>打开C:\Windows\System32\drivers\etc\hosts</span><br>
+<span>在末尾加上</span><br>
+<span>113.96.181.216 s1.hdslb.com</span><br>
+<span>113.96.181.215 s2.hdslb.com</span><br>
+<span>183.232.215.136 i0.hdslb.com</span><br>
+<span>113.96.140.113 i1.hdslb.com</span><br>
+<span>183.236.60.130 i2.hdslb.com</span><br>
+<span>14.215.83.243 static.hdslb.com</span><br>
+<span>保存，重新打开浏览器。</span><br>
+<span>一切都恢复如初。</span><br>
+<span>移动设备（手机/平板）：</span><br>
+<span>登录到路由器web管理页面找到自定义HOST，同样粘贴上面内容保存即可。</span><br>
+<span>然后DNS改成阿里的dns就可以了</span><br>
+<span>    收起回复</span><br>
+<span>337楼2019-10-11 18:57</span><br>
+</p><p><b>无责任死猫: </b><br>
+<span>好评点赞，终于正常了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1858865[0-50]</guid>
+    </item>
+  </channel>
+</rss>

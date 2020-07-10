@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>口袋妖怪源码泄露系列——火红，绿毛虫进化为裂空座</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>口袋妖怪源码泄露系列——火红，绿毛虫进化为裂空座</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:39:10 +0000</lastBuildDate>
+    <item>
+      <title>口袋妖怪源码泄露系列——火红，绿毛虫进化为裂空座[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1936651-1-1.html</link>
+      <description>口袋妖怪源码泄露系列——火红，绿毛虫进化为裂空座&#13;
+这段时间任天堂的泄露实在是太劲爆了，口袋的1-3世代都没落下，据说今天初代绿的源码也要被放出来了。
+&#13;
+火红叶绿Debug模式。当初IS的GBA SDK用的居然是gcc2.9来编译，而不是想象中的CodeWarrior之类。
+&#13;
+Debug功能测试视频
+&#13;
+https://www.bilibili.com/video/BV1Jt4y11768/
+&#13;
+绿毛虫进化为裂空座：</description>
+      <content:encoded><![CDATA[<p><b>yksoft1: </b><br>
+<span>口袋妖怪源码泄露系列——火红，绿毛虫进化为裂空座</span><br>
+<span>这段时间任天堂的泄露实在是太劲爆了，口袋的1-3世代都没落下，据说今天初代绿的源码也要被放出来了。</span><br>
+<span>火红叶绿Debug模式。当初IS的GBA SDK用的居然是gcc2.9来编译，而不是想象中的CodeWarrior之类。</span><br>
+<span>Debug功能测试视频</span><br>
+<span>https://www.bilibili.com/video/BV1Jt4y11768/</span><br>
+<span>绿毛虫进化为裂空座：</span><br>
+</p><p><b>hu794: </b><br>
+<span>艹</span><br>
+</p><p><b>mjzs07: </b><br>
+<span>有金银吗，想看聪哥的部分</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>mjzs07 发表于 2020-5-21 08:44</span><br>
+<span>有金银吗，想看聪哥的部分</span><br>
+<span>金银里就看到一个压缩怪兽图像文件的工具是岩田聪写的。贴一点点吧</span><br>
+<span>/*</span><br>
+<span> *        ポケモングラフィックデータの圧縮・バンク詰めコンバータ</span><br>
+<span> *                Created by S.Iwata / HAL Laboragtory, Inc.</span><br>
+<span> */</span><br>
+<span>#include<stdio.h></span><br>
+<span>#include<stdlib.h></span><br>
+<span>typedef        unsigned char        BYTE;</span><br>
+<span>typedef        unsigned int        WORD;</span><br>
+<span>typedef unsigned long        DWORD;</span><br>
+<span>/* ファイルに１バイト出力 */</span><br>
+<span>void putByte(BYTE, FILE*);</span><br>
+<span>/* ファイルfpiの内容を圧縮してfpoに出力し圧縮後のサイズを返す */</span><br>
+<span>int vpack(FILE *fpi, FILE *fpo);</span><br>
+<span>/* 圧縮用データバッファ（データ出力に使用） */</span><br>
+<span>extern BYTE data[];</span><br>
+<span>/* データ種別定義 */</span><br>
+<span>typedef enum {</span><br>
+<span>MonsFront = 0,        /* モンスター正面 */</span><br>
+<span>MonsBack,                /* モンスター背面 */</span><br>
+<span>UnknownFront,                /* アンノーン正面 */</span><br>
+<span>UnknownBack,                /* アンノーン背面 */</span><br>
+<span>Trainer                /* トレーナー */</span><br>
+<span>} DKind;</span><br>
+<span>/* データ断片 */</span><br>
+<span>typedef struct {</span><br>
+<span>DKind        kind;                /* データ種別 */</span><br>
+<span>int        idno;                /* データID（モンスター番号） */</span><br>
+<span>int        bank;                /* バンク番号 */</span><br>
+<span>long        bpoint;                /* バンク内のポインタ */</span><br>
+<span>int        size;                /* この情報のサイズ */</span><br>
+<span>} BLOCKREC;/*</span><br>
+<span> *        データ圧縮ユーティリティー</span><br>
+<span> *                Written by S.Iwata</span><br>
+<span> *                        on April,1989</span><br>
+<span> *                revised by M.Kanai</span><br>
+<span> *                        on Aug., 1989</span><br>
+<span> *                revised by T.Gunji</span><br>
+<span> *                        on May., 1994</span><br>
+<span> *                revised by S.Iwata</span><br>
+<span> *                        on September, 1996</span><br>
+<span> *                revised by S.Iwata</span><br>
+<span> *                        on September, 1998</span><br>
+<span> *</span><br>
+<span> */</span><br>
+<span>#include<stdio.h></span><br>
+<span>#include<stdlib.h></span><br>
+<span>typedef        unsigned char        BYTE;</span><br>
+<span>typedef        unsigned int        WORD;</span><br>
+<span>typedef unsigned long        DWORD;</span><br>
+<span>#define        TRUE        1</span><br>
+<span>#define        FALSE        0</span><br>
+<span>#define        FILENAMELENGTH        64                /* ファイル名用バッファの大きさ */</span><br>
+<span>#define        DATASIZELIMIT        65536                /* 扱えるデータの最大値 64KB */</span><br>
+<span>#define        EMPTY        (WORD)DATASIZELIMIT        /* ハッシュテーブル内で空きを示す */</span><br>
+<span>#define        HASHTABLESIZE        131111                /* 素数 524287 512KB */</span><br>
+<span>                                        /* (old-version 131111) */</span><br>
+<span>BYTE        data;        /* 圧縮データバッファ */</span><br>
+<span>BYTE        algorythm;        /* 圧縮アルゴリズム */</span><br>
+<span>WORD        compLength;        /* 圧縮対象データ長 */</span><br>
+<span>WORD        reference;        /* 参照インデックス */</span><br>
+<span>WORD        originalSize = 0;                /* 圧縮前のデータ長 */</span><br>
+<span>WORD        packedSize = 0;                        /* 圧縮後のデータ長 */</span><br>
+<span>WORD        nrefHash;</span><br>
+<span>WORD        vrefHash;</span><br>
+<span>BYTE        invertTable;                /* 左右反転用テーブル */</span><br>
+<span>#define        Invert(n)        (invertTable) /* 左右反転データを得る */</span><br>
+<span>#define NORMAL                (BYTE)0                /* 非圧縮通常データ */</span><br>
+<span>#define RUNLENGTH        (BYTE)1                /* １データ連続 */</span><br>
+<span>#define RUNLENGTH2        (BYTE)2                /* ２データ交互連続 */</span><br>
+<span>#define INCRUNLEN        (BYTE)3                /* インクリメンタルデータ連続 */</span><br>
+<span>#define REFERENCE        (BYTE)4                /* 通常データ参照 */</span><br>
+<span>#define REFERLR                (BYTE)5                /* 左右反転データ参照 */</span><br>
+<span>#define REFERUD                (BYTE)6                /* 上下反転データ参照 */</span><br>
+<span>#define        SPECIAL                (BYTE)7                /* 特殊データ */</span><br>
+<span>#define        ENDMARK                (BYTE)0xff        /* データ終端 */</span><br>
+</p><p><b>MungBeanSoup: </b><br>
+<span>原来这个进化只是自己改了源码重新编译的结果。。。</span><br>
+<span>还以为GF真会玩系列</span><br>
+</p><p><b>riin: </b><br>
+<span>民间大量mod在路上了</span><br>
+</p><p><b>一个陆仁贾: </b><br>
+<span>草，欢乐多，绿毛虫真的可以进化成裂空座了</span><br>
+<span>—— 来自 HUAWEI SPN-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>丹德里恩: </b><br>
+<span>草</span><br>
+</p><p><b>人生オワタ: </b><br>
+<span>初代的开发时长还真的是长</span><br>
+</p><p><b>不可避免: </b><br>
+<span>有这个源码后，GBA上的改版能有什么新活？</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>不可避免 发表于 2020-5-21 10:53</span><br>
+<span>有这个源码后，GBA上的改版能有什么新活？</span><br>
+<span>基本不会有，gba的rom都被人家反汇编个遍了。加新东西倒是可以，只不过一大堆数据文件要修改。</span><br>
+</p><p><b>woodcoin: </b><br>
+<span>看看注释也是很有趣的..</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>woodcoin 发表于 2020-5-21 11:46</span><br>
+<span>看看注释也是很有趣的..</span><br>
+<span>反正觉得三世代很多代码就是把二世代的汇编给移植了。。</span><br>
+</p><p><b>坛子漆黑: </b><br>
+<span>什么,裂空座真的是绿毛虫进化来的</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>坛子漆黑 发表于 2020-5-21 13:27</span><br>
+<span>什么,裂空座真的是绿毛虫进化来的</span><br>
+<span>只是改了一下代码玩梗。不过至少这一世代的非法精灵判定不包括裂空座，进化了还能控制。</span><br>
+</p><p><b>harry3: </b><br>
+<span>如何评价这些c的代码水平</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>harry3 发表于 2020-5-21 16:49</span><br>
+<span>如何评价这些c的代码水平</span><br>
+<span>个人觉得其实还可以。就是很多源文件像是汇编直接改回来的</span><br>
+</p><p><b>Gandalf: </b><br>
+<span>烈空座幼崽在路上了</span><br>
+</p><p><b>谷恒条野: </b><br>
+<span>看到暴鲤龙飞天想起特别篇漫画里的飞天暴鲤龙</span><br>
+</p><p><b>Cylap: </b><br>
+<span>https://p.sda1.dev/0/af5d14994c48543e5ee978e02a3b09f8/-cd2dba11668d290.jpg这个跟以前那些改版有什么不一样吗</span><br>
+<span>—— 来自 HUAWEI COR-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>Cylap 发表于 2020-5-21 21:13</span><br>
+<span>这个跟以前那些改版有什么不一样吗</span><br>
+<span>—— 来自 HUAWEI COR-AL00, Android 9上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>这不是改版，这是官方当年的源码泄露，我稍微修改了三行编译了一下。。</span><br>
+</p><p><b>mjzs07: </b><br>
+<span>yksoft1 发表于 2020-5-21 08:53</span><br>
+<span>金银里就看到一个压缩怪兽图像文件的工具是岩田聪写的。贴一点点吧</span><br>
+<span>感谢，这段炸裂啊，没有这压缩，金银做出不来</span><br>
+</p><p><b>黑星逆: </b><br>
+<span>这个源码能分享吗？</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>mjzs07 发表于 2020-5-22 00:53</span><br>
+<span>感谢，这段炸裂啊，没有这压缩，金银做出不来</span><br>
+<span>金银的所有怪兽/训练师图像加起来在ROM里只占用224KB。</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>黑星逆 发表于 2020-5-22 02:08</span><br>
+<span>这个源码能分享吗？</span><br>
+<span>这玩意4chan很容易找吧，找/ppg/。</span><br>
+<span>不会fq下载的话，我可以打个包。。</span><br>
+</p><p><b>黑星逆: </b><br>
+<span>yksoft1 发表于 2020-5-22 09:38</span><br>
+<span>这玩意4chan很容易找吧，找/ppg/。</span><br>
+<span>不会fq下载的话，我可以打个包。。</span><br>
+<span>感谢指路，已经拿到了！</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>//---------------------------------------------------------------------------------------------</span><br>
+<span>/**</span><br>
+<span> *        改造で作られたポケモンかどうかチェック</span><br>
+<span> *</span><br>
+<span> * @param        client_no        チェックするクライアント</span><br>
+<span> *</span><br>
+<span> * @return        1:不正ではない        0:不正</span><br>
+<span> *</span><br>
+<span> */</span><br>
+<span>//---------------------------------------------------------------------------------------------</span><br>
+<span>int        HuseiPokemonCheck(u8 client_no)</span><br>
+<span>{</span><br>
+<span>        int        ret;</span><br>
+<span>        //相手側のチェックは不要</span><br>
+<span>        if(MineEnemyCheck(client_no)==SIDE_ENEMY){</span><br>
+<span>                return 1;</span><br>
+<span>        }</span><br>
+<span>        //デオキシス、ミュウ以外のチェックは不要</span><br>
+<span>        if(((PokeParaGet(&PokeParaMine],ID_monsno,0))!=MONSNO_DEOKISISU)&&</span><br>
+<span>           ((PokeParaGet(&PokeParaMine],ID_monsno,0))!=MONSNO_MYUU)){</span><br>
+<span>                return 1;</span><br>
+<span>        }</span><br>
+<span>        ret=PokeParaGet(&PokeParaMine],ID_event_get_flag,0);</span><br>
+<span>        return ret;</span><br>
+<span>}</span><br>
+<span>火叶里检查配信怪是否合法的代码。不过这两个配信怪本身都来自配信道具船票，那个可没有任何特殊检查。</span><br>
+</p><p><b>里村紅葉: </b><br>
+<span>生物学奇迹</span><br>
+</p><p><b>yksoft1: </b><br>
+<span>黑星逆 发表于 2020-5-22 23:18</span><br>
+<span>感谢指路，已经拿到了！</span><br>
+<span>今晚珍钻的也泄露了。就是看makefile，估计依赖的开发工具链有点复杂。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1936651[0-50]</guid>
+    </item>
+  </channel>
+</rss>

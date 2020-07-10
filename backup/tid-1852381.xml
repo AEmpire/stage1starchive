@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NVME和SATA差距这么大吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NVME和SATA差距这么大吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:26:08 +0000</lastBuildDate>
+    <item>
+      <title>NVME和SATA差距这么大吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852381-1-1.html</link>
+      <description>NVME和SATA差距这么大吗&#13;
+我有一块1T的NVME的西数黑盘，读写两千多M， 一块2T的SATA西数蓝盘，读写才五百多。以前从来没用过NVME的SSD，这速度差距有点恐怖啊。以前我用三星的SATA SSD当启动盘，WIN10启动6秒左右，换了这块黑盘，过了BIOS自检几乎就是秒开。</description>
+      <content:encoded><![CDATA[<p><b>chan: </b><br>
+<span>NVME和SATA差距这么大吗</span><br>
+<span>我有一块1T的NVME的西数黑盘，读写两千多M， 一块2T的SATA西数蓝盘，读写才五百多。以前从来没用过NVME的SSD，这速度差距有点恐怖啊。以前我用三星的SATA SSD当启动盘，WIN10启动6秒左右，换了这块黑盘，过了BIOS自检几乎就是秒开。</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>可你一般也用不到500M的速度。不过开机差距这么大的吗？测测4k随机读取对比下</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>汝者: </b><br>
+<span>跑分大 日常用起来基本没区别</span><br>
+</p><p><b>两个路人: </b><br>
+<span>瘟屎带来的挫败感可能比提升更明显（噗</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>玩游戏加载速度SATA SSD有NVME SSD的9成以上，日常更是毫无差距，当然SSD间的互拷除外</span><br>
+<span>不过NVME体积小，不用接线，装机方便太多了</span><br>
+</p><p><b>cdyz: </b><br>
+<span>同sn750系统盘，现在捡回来十年前按下开机键后倒杯水的习惯</span><br>
+</p><p><b>chan: </b><br>
+<span>罗克萨斯 发表于 2019-8-9 15:20</span><br>
+<span>玩游戏加载速度SATA SSD有NVME SSD的9成以上，日常更是毫无差距，当然SSD间的互拷除外</span><br>
+<span>不过NVME体积小，不 ...</span><br>
+<span>实际使用差距不大的话，买NVME的不太划算啊，价钱差这么多。就算是M.2接口方便，也有m.2用SATA协议的盘吧？</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>nvme互拷大文件的时候还是舒服的，其他的想不到比sata强的使用场景了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>ft5555: </b><br>
+<span> 本帖最后由 ft5555 于 2019-8-9 15:37 编辑 </span><br>
+<img src="https://img.saraba1st.com/forum/201908/01/105317aeciulccsiloli23.png" title="https://img.saraba1st.com/forum/201908/01/105317aeciulccsiloli23.png"><br>
+<span>是时候上这张图了</span><br>
+<span>cpu用e3v2， 860evo在1803下18s   ocz 460 解禁23s</span><br>
+<span>cpu换了3700x 带来的提升远比nvme明显</span><br>
+</p><p><b>sirlion: </b><br>
+<span>nvme速度快温度也高，还要加散热</span><br>
+</p><p><b>魂命: </b><br>
+<span>有差距，但是你不拷贝大文件，装游戏。单纯打游戏的角度区别不大。</span><br>
+</p><p><b>闪电战: </b><br>
+<span>我用浦科特M8PeG（M2 NVME）相比之前的M6e（M2 AHCI）</span><br>
+<span>没感觉明显区别</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>随口补充下</span><br>
+<span>作为一个没事就要处理近GB级PSD，P社玩家来说，NVME真能用出理论值上的差别</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>SAT速度封顶500，nvme至少800起</span><br>
+</p><p><b>baesystems: </b><br>
+<span>有些新游戏NVME和SATA SSD的差距已经出来了，之前看YTB上一个测试战地5里面两者的速度差了十几秒。</span><br>
+</p><p><b>aurraro: </b><br>
+<span>反正主板预留了可以用nvme的m2口，等啥时候价格合适了买来装上</span><br>
+</p><p><b>chan: </b><br>
+<span>niyikaowo 发表于 2019-8-9 15:06</span><br>
+<span>可你一般也用不到500M的速度。不过开机差距这么大的吗？测测4k随机读取对比下</span><br>
+<span>—— 来自 samsung SM-G9500 ...</span><br>
+<span>不好说，也可能是我的三星SSD太老了，毕竟好几年前的产品了</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>我是反正没用出970evo和860evo的区别</span><br>
+<span>不过sata垃圾4k个位数的ssd我倒是用出区别了。</span><br>
+</p><p><b>fate99: </b><br>
+<span>但太热了，高速到来高温，没啥特别需求我还是用sata，至少sata接口不少</span><br>
+</p><p><b>風駿: </b><br>
+<span>罗克萨斯 发表于 2019-8-9 15:20</span><br>
+<span>玩游戏加载速度SATA SSD有NVME SSD的9成以上，日常更是毫无差距，当然SSD间的互拷除外</span><br>
+<span>不过NVME体积小，不 ...</span><br>
+<span>不是，M.2也有SATA的，有些M.2是可以同时用SATA和NVME的</span><br>
+</p><p><b>chan: </b><br>
+<span>fate99 发表于 2019-8-9 16:21</span><br>
+<span>但太热了，高速到来高温，没啥特别需求我还是用sata，至少sata接口不少</span><br>
+<span>nvme不拿来当游戏盘的话温度应该还行吧？我看带马甲的要贵200就买了个普通的，用作系统和软件盘，温度45度左右不知道算不算正常范围</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>嫌m.2热的可以上u.2接口啊。本来高速就带来高热量，还减小了尺寸当然不好散热了，还是上大船吧</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>上班族: </b><br>
+<span>ft5555 发表于 2019-8-9 15:36</span><br>
+<span>是时候上这张图了</span><br>
+<span>cpu用e3v2， 860evo在1803下18s   ocz 460 解禁23s</span><br>
+<span>ff14的读图速度快一点意义很大，O5S的ssd战士打法我用sata就没法实现</span><br>
+</p><p><b>longooyue: </b><br>
+<span>体验区别不大，毕竟io也就那样</span><br>
+</p><p><b>wifi王道: </b><br>
+<span>完全没感觉。少跟电源线和stata线</span><br>
+</p><p><b>u96: </b><br>
+<span>数据库、有限元才能用出差别，我算对存储性能要求高的了。</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>青年A: </b><br>
+<span>最大的好处是不用接sata电线啊</span><br>
+<span>我反正之后就不接sata了移动盘三星t5走typec</span><br>
+<span>— from samsung SM-G930F, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>cdyz 发表于 2019-8-9 15:20</span><br>
+<span>同sn750系统盘，现在捡回来十年前按下开机键后倒杯水的习惯</span><br>
+<span>意思是更慢了？为什么？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>chan 发表于 2019-8-9 15:31</span><br>
+<span>实际使用差距不大的话，买NVME的不太划算啊，价钱差这么多。就算是M.2接口方便，也有m.2用SATA协议的盘吧 ...</span><br>
+<span>有的，不过不是NVME损失还是不小的，开历史的倒车没什么意义</span><br>
+</p><p><b>cdyz: </b><br>
+<span>__爱撕衣 发表于 2019-8-10 05:05</span><br>
+<span>意思是更慢了？为什么？</span><br>
+<span>主板BIOS自检慢，用860eve也在十五秒左右，换sn750直奔二十多秒去了。</span><br>
+<span>话说五年前win8那会儿开个机也就六七秒</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>cdyz 发表于 2019-8-10 09:54</span><br>
+<span>主板BIOS自检慢，用860eve也在十五秒左右，换sn750直奔二十多秒去了。</span><br>
+<span>话说五年前win8那会儿开个机也就六 ...</span><br>
+<span>确实慢，我这次换了x570，装了760p和ex900，自检20秒，win10启动5秒</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852381[0-50]</guid>
+    </item>
+  </channel>
+</rss>

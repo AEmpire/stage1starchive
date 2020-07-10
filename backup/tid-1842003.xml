@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[沙雕]如何写出让同事无法维护的代码？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[沙雕]如何写出让同事无法维护的代码？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:31:33 +0000</lastBuildDate>
+    <item>
+      <title>[沙雕]如何写出让同事无法维护的代码？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842003-1-1.html</link>
+      <description>[沙雕]如何写出让同事无法维护的代码？&#13;
+原文地址https://coolshell.cn/articles/4758.html
+&#13;
+程序命名
+&#13;
+[*]容易输入的名字。比如：Fred，asdf
+&#13;
+[*]单字母的变量名。比如：a,b,c, x,y,z（陈皓注：如果不够用，可以考虑a1,a2,a3,a4,….）
+&#13;
+[*]有创意地拼写错误。比如：SetPintleOpening， SetPintalClosing。这样可以让人很难搜索代码。
+&#13;
+[*]抽象。比如：ProcessData, DoIt, GetData… 抽象到就跟什么都没说一样。
+&#13;
+[*]缩写。比如：WTF，RTFSC …… （陈皓注：使用拼音缩写也同样给力，比如： BT，TMD，TJJTDS）
+&#13;
+[*]随机大写字母。比如：gEtnuMbER..
+&#13;
+[*]重用命名。在内嵌的语句块中使用相同的变量名有奇效。
+&#13;
+[*]使用重音字母。比如：intínt（注：第二个 ínt不是int）
+&#13;
+[*]使用下划线。比如：_, __, ___。
+&#13;
+[*]使用不同的语言。比如混用英语，德语，或是中文拼音。
+&#13;
+[*]使用字符命名。比如：slash, asterix, comma…
+&#13;
+[*]使用无关的单词。比如：god, superman, iloveu….
+&#13;
+[*]混淆l和1。字母l和数字1有时候是看不出来的。
+&#13;
+伪装欺诈
+&#13;
+[*]把注释和代码交织在一起。
+&#13;
+for(j=0; j&lt;array_len; j+ =8){    total += array;    total += array;    total += array; /* Main body of    total += array; * loop is unrolled    total += array; * for greater speed.    total += array; */    total += array;    total += array;}
+&#13;
+[*]隐藏宏定义。如：#define a=b a=0-b，当人们看到a=b时，谁也想不到那是一个宏。
+&#13;
+[*]换行。如下所示，下面的示例使用搜索xy_z变得困难。
+&#13;
+#define local_var xy\_z // local_var OK
+&#13;
+[*]代码和显示不一致。比如，你的界面显示叫postal code，但是代码里确叫 zipcode.
+&#13;
+[*]隐藏全局变量。把使用全局变量以函数参数的方式传递给函数，这样可以让人觉得那个变量不是全局变量。
+&#13;
+[*]使用同意词。如：
+&#13;
+#define xxx global_var // in file std.h #define xy_z xxx // in file ..\other\substd.h #define local_var xy_z // in file ..\codestd\inst.h
+&#13;
+[*]使用相似的变量名。如：单词相似，swimmer 和 swimner，字母相似：ilI1| 或 oO08。parselnt 和 parseInt， D0Calc 和 DOCalc。还有这一组：xy_Z, xy__z, _xy_z, _xyz, XY_Z, xY_z, Xy_z。
+&#13;
+[*]重载函数。使用相同的函数名，但是其功能和具体实现完全没有关系。
+&#13;
+[*]操作符重载。重载操作符可以让你的代码变得诡异，感谢CCTV，感谢C++。这个东西是可以把混乱代码提高到一种艺术的形式。比如：重载一个类的 ! 操作符，但实际功能并不是取反，让其返回一个整数。于是，如果你使用 ! ! 操作符，那么，有意思的事就发生了—— 先是调用类的重载 ! 操作符，然后把其返回的整数给 ! 成了 布尔变量，如果是 !!! 呢？呵呵。
+&#13;
+[*]#define。看过本站那些混乱代码的文章，你都会知道宏定义和预编译对于写出不可读的代码的重大意义。不过，一个具有想像力的东西是——在头文件中使用预编译来查看这个头文件被include了几次，而被include不同的次数时，其中的函数定义完全不一样。
+&#13;
+#ifndef DONE#ifdef TWICE// put stuff here to declare 3rd time aroundvoid g(char* str);#define DONE#else // TWICE#ifdef ONCE// put stuff here to declare 2nd time around&lt;void g(void* str);#define TWICE#else // ONCE// put stuff here to declare 1st time aroundvoid g(std::string str);#define ONCE#endif // ONCE#endif // TWICE#endif // DONE文档和注释
+&#13;
+[*]在注释中撒谎。你不用真的去撒谎，只需在改代码的时候不要更新注释就可以了。
+&#13;
+[*]注释明显的东西。比如：/* add 1 to i */。（参看本站的“五种应该避免的注释”）
+&#13;
+[*]只注释是什么，而不是为什么。
+&#13;
+[*]不要注释秘密。如果你开发一个航班系统，请你一定要保证每有一个新的航班被加入，就得要修改25个以上的位置的程序。千万别把这个事写在文档中。
+&#13;
+[*]注重细节。当你设计一个很复杂的算法的时候，你一定要把所有的详细细设计都写下来，没有100页不能罢休，段落要有5级以上，段落编号要有500个以上，例如：1.2.4.6.3.13 – Display all impacts for activity where selected mitigations can apply (short pseudocode omitted). 这样，当你写代码的时候，你就可以让你的代码和文档一致，如：Act1_2_4_6_3_13()
+&#13;
+[*]千万不要注释度衡单位。比如时间用的是秒还是毫秒，尺寸用的是像素还是英寸，大小是MB还是KB。等等。另外，在你的代码里，你可以混用不同的度衡单位，但也不要注释。
+&#13;
+[*]Gotchas。陷阱，千万不要注释代码中的陷阱。
+&#13;
+[*]在注释和文档中发泄不满。（参看本站的“五种应该避免的注释”）
+&#13;
+程序设计
+&#13;
+[*]Java Casts。Java的类型转型是天赐之物。每一次当你从Collection里取到一个object的时候，你都需要把其转回原来的类型。因些，这些转型操作会出现在N多的地方。如果你改变了类型，那么你不一定能改变所有的地方。而编译器可能能检查到，也可能检查不到。
+&#13;
+[*]利用Java的冗余。比如：Bubblegum b = new Bubblegom(); 和 swimmer = swimner + 1; 注意变量间的细微差别。
+&#13;
+[*]从不验证。从不验证输入的数据，从不验证函数的返回值。这样做可以向大家展示你是多么的信任公司的设备和其它程序员。
+&#13;
+[*]不要封装。调用者需要知道被调用的所有的细节。
+&#13;
+[*]克隆和拷贝。为了效率，你要学会使用copy + paste。你几乎都不用理解别人的代码，你就可以高效地编程了。（陈皓注：Copy + Paste出来的代码bug多得不能再多）
+&#13;
+[*]巨大的listener。写一个listener，然后让你的所有的button类都使用这个listener，这样你可以在这个listener中整出一大堆if…else…语句，相当的刺激。
+&#13;
+[*]使用三维数组。如果你觉得三维还不足够，你可以试试四维。
+&#13;
+[*]混用。同时使用类的get/set方法和直接访问那个public变量。这样做的好处是可以极大的挫败维护人员。
+&#13;
+[*]包装，包装，包装。把你所有的API都包装上6到8遍，包装深度多达4层以上。然后包装出相似的功能。
+&#13;
+[*]没有秘密。把所有的成员都声明成public的。这样，你以后就很难限制其被人使用，而且这样可以和别的代码造成更多的耦合度，可以让你的代码存活得更久。
+&#13;
+[*]排列和阻碍。把drawRectangle(height, width) 改成 drawRectangle(width, height)，等release了几个版本后，再把其改回去。这样维护程序的程序员们将不能很快地明白哪一个是对的。
+&#13;
+[*]把变量改在名字上。例如，把setAlignment(int alignment)改成，setLeftAlignment, setRightAlignment, setCenterAlignment。
+&#13;
+[*]Packratting。保留你所有的没有使用的和陈旧的变量，方法和代码。
+&#13;
+[*]That’s Final。Final你所有的子结点的类，这样，当你做完这个项目后，没有人可以通过继承来扩展你的类。java.lang.String不也是这样吗？
+&#13;
+[*]避免使用接口。在java中，BS接口，在C++中BS使用虚函数。
+&#13;
+[*]避免使用layout。这样就使得我们只能使用绝对坐标。如果你的老大强制你使用layout，你可以考虑使用GridBagLayout，然后把grid坐标hard code.
+&#13;
+[*]环境变量。如果你的代码需要使用环境变量。(getenv() – C++ / System.getProperty() – Java )，那么，你应该把你的类的成员的初始化使用环境变量，而不是构造函数。
+&#13;
+[*]使用Magic number。参看《Linux一个插曲》。
+&#13;
+[*]使用全局变量。1）把全局变量的初始化放在不同的函数中，就算这个函数和这个变量没有任何关系，这样能够让我们的维护人员就像做侦探工作一样。2）使用全局变量可以让你的函数的参数变得少一些。
+&#13;
+[*]配置文件。配置文件主要用于一些参数的初始化。在编程中，我们可以让配置文件中的参数名和实际程序中的名字不一样。
+&#13;
+[*]膨胀你的类。让你的类尽可能地拥有各种臃肿和晦涩的方法。比如，你的类只实现一种可能性，但是你要提供所有可能性的方法。不要定义其它的类，把所有的功能都放在一个类中。
+&#13;
+[*]使用子类。面向对象是写出无法维护代码的天赐之物。如果你有一个类有十个成为（变量和方法）你可以考虑写10个层次的继承，然后把这十个属性分别放在这十个层次中。如果可能的话，把这十个类分别放在十个不同的文件中。
+&#13;
+混乱你的代码
+&#13;
+[*]使用XML。XML的强大是无人能及的。使用XML你可以把本来只要10行的代码变成100行。而且，还要逼着别人也有XML。（参看，信XML得永生，信XML得自信）
+&#13;
+[*]混乱C代码。在《如何加密源代码》中已经说过一些方法了，这里再补充一些。
+&#13;
+[*]使用不同的进制。比如：10 和010不是一样的。再比如：array = new int[]{   111,   120,   013,   121,};
+&#13;
+[*]尽量使用void*。然后把其转成各种类型
+&#13;
+[*]使用隐式的转型。C++的构造函数可以让你神不知鬼不觉得完成转型。
+&#13;
+[*]分解条件表达式。如：把 a==100分解成，a&gt;99 &amp;&amp; a&lt;101
+&#13;
+[*]学会利用分号。如：if ( a );else;{   int d;   d = c;}
+&#13;
+[*]间接转型。如：把double转string，写成new Double(d).toString() 而不是 Double.toString(d)
+&#13;
+[*]大量使用嵌套。一个NB的程序员可以在一行代码上使用超过10层的小括号（），或是在一个函数里使用超过20层的语句嵌套{}，把嵌套的if else 转成 [? :] 也是一件很NB的事。
+&#13;
+[*]使用C的变种数组。myArray 可以变成*(myArray + i) 也可以变成 *(i + myArray) 其等价于 i。再看一个函数调用的示例，函数声明：int myfunc(int q, int p) { return p%q; } 函数调用myfunc(6291, 8);
+&#13;
+[*]长代码行。一行的代码越长越好。这样别人阅读时就需要来来回回的
+&#13;
+[*]不要较早的return。不要使用goto，不要使用break，这样，你就需要至少5层以上的if-else来处理错误。
+&#13;
+[*]不要使用{}。不要在if else使用{}，尤其是在你重量地使用if-else嵌套时，你甚至可以在其中乱缩进代码，这样一来，就算是最有经验的程序员也会踩上陷阱。
+&#13;
+[*]使用宏定义。宏定义绝对是混乱C/C++代码的最佳利器。参看 老手是这样教新手编程的。
+&#13;
+[*]琐碎的封装。比较封装一个bool类，类里面什么都做，就是一个bool.
+&#13;
+[*]循环。千万不可用for(int i=0; i&lt;n; i++)使用while代替for，交换n和i，把&lt;改成&lt;=，使用 i–调整步伐 。
+&#13;
+测试
+&#13;
+[*]从不测试。千万不要测试任何的出错处理，从来也不检测系统调用的返回值。
+&#13;
+[*]永远不做性能测试。如果不够快就告诉用户换一个更快的机器。如果你一做测试，那么就可能会要改你的算法，甚至重设计，重新架构。
+&#13;
+[*]不要写测试案例。不要做什么代码覆盖率测试，自动化测试。
+&#13;
+[*]测试是懦夫行为。一个勇敢的程序员是根本不需要这一步的。太多的程序太害怕他们的老板，害怕失去工作，害怕用户抱怨，甚至被起诉。这种担心害怕直接影响了生产力。如果你对你的代码有强大的信心，那还要什么测试呢？真正的程序员是不需要测试自己的代码的。
+&#13;
+其它
+&#13;
+[*]你的老板什么都知道。无论你的老板有多SB，你都要严格地遵照他的旨意办事，这样一来，你会学到更多的知识如何写出无法维护的代码来的。
+&#13;
+[*]颠覆Help Desk。你要确保你那满是bug的程序永远不要被维护团队知道。当用户打电话和写邮件给你的时候，你就不要理会，就算要理会，让用户重做系统或是告诉用户其帐号有问题，是标准的回答。
+&#13;
+[*]闭嘴。对于一些像y2k这样的大bug，你要学会守口如瓶，不要告诉任何人，包括你的亲人好友以及公司的同事和管理层，这样当到那一天的时候，你就可以用这个bug挣钱了。
+&#13;
+[*]忽悠。你会学会忽悠，就算你的代码写得很烂，你也要为其挂上GoF设计模式的标签，就算你的项目做得再烂，你也要为其挂上敏捷的标签，只有学会像中国Thoughtworks的咨询师那样去忽悠，你才能学会更炫更酷的方法，让整个团队和公司，甚至整个业界都开始躁动，这样才能真正为难维护的代码铺平道路。
+&#13;
+这个文档中还有很多很多，实在是太TMD强大了，大家自己去看看吧。有精力有能力的朋友不妨把其翻译成中文。总之，我们的口号是——Write Everywhere, Read Nowhere（全文完）</description>
+      <content:encoded><![CDATA[<p><b>zqc53: </b><br>
+<span>https://coderlmn.github.io/frontEndCourse/unmaintainable.html来个威力加强版</span><br>
+</p><p><b>好蓝啊: </b><br>
+<span>上半年接过一套接口，里面有一系列字段diyixxx, dierxxxx, disanxxxx, 是的，不用数组</span><br>
+</p><p><b>cloverqi: </b><br>
+<span>除非马上准备跑路，否则过几个月我都看不懂我写的是什么了</span><br>
+</p><p><b>河水: </b><br>
+<span>すぴぱら 发表于 2019-6-25 09:58</span><br>
+<span>我们之前工作嘲笑过日本人是靠毅力写代码</span><br>
+<span>这帮人尤其是小公司是这么开发的</span><br>
+<span>Assets - 五十音或者汉字，SHIF ...</span><br>
+<span>没错，有一本叫《奋斗吧，系统工程师》的小说就展示了这点</span><br>
+</p><p><b>best: </b><br>
+<span>UnderWear 发表于 2019-6-25 09:45</span><br>
+<span>注释量是代码量三倍的代码就是好代码</span><br>
+</p><p><b>afsd109: </b><br>
+<span>学会用perl就好了，你还能用代码来拼个图</span><br>
+</p><p><b>KafuuEriri: </b><br>
+<span>用排列组合让所有的类都互相调一遍，改一处整个项目全部红叉，看着就头大（我目前就是这个状态）</span><br>
+</p><p><b>SoungEarlf: </b><br>
+<span>上大学时好像看过类似的版本，好像还要再多一些trick和其他语言的内容。</span><br>
+<span>这明显是反向指导代码规范。当时觉得沙雕，仔细一想自己所作所为还是冒了很多汗，我想应该没有人会特意效仿这么作死的</span><br>
+<span>— from Sony E6533, Android 7.1.1 of S1 Next Goose v1.3.3</span><br>
+</p><p><b>董卓: </b><br>
+<span>在单边利用hash替换掉equals，然后不留hash原值的测试代码和注释</span><br>
+<span>坑死后面的人，但就是能跑</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>すぴぱら 发表于 2019-6-25 01:37</span><br>
+<span>我们招过5k一个月的，别说写垃圾代码，根本写不出来</span><br>
+<span>那是你们HR的锅，我老家一个老工业小城市，2015年的时候租我家房子住的工控设备写嵌入式的小哥一个月也就三四千，不敢说水平多好，绝对合格</span><br>
+</p><p><b>埃罗芒阿: </b><br>
+<span>不按规范写代码是等着被开吗？</span><br>
+</p><p><b>kraxia: </b><br>
+<span>一直觉得给各种用一次就扔的中间变量起名真是费劲</span><br>
+</p><p><b>zhshr: </b><br>
+<span>每次看到这个我都想问，普通软件公司都是没有code review的吗？？什么粪都能这么朝里扔？</span><br>
+<span>— from Google Pixel 3 XL, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>千影: </b><br>
+<span>埃罗芒阿 发表于 2019-6-25 19:34</span><br>
+<span>不按规范写代码是等着被开吗？</span><br>
+<span>如果你是主程 那么就没人会把你开了 因为开了你就真没人维护了，到时候可就233了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842003[50-100]</guid>
+    </item>
+    <item>
+      <title>[沙雕]如何写出让同事无法维护的代码？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842003-1-1.html</link>
+      <description>[沙雕]如何写出让同事无法维护的代码？&#13;
+原文地址https://coolshell.cn/articles/4758.html
+&#13;
+程序命名
+&#13;
+[*]容易输入的名字。比如：Fred，asdf
+&#13;
+[*]单字母的变量名。比如：a,b,c, x,y,z（陈皓注：如果不够用，可以考虑a1,a2,a3,a4,….）
+&#13;
+[*]有创意地拼写错误。比如：SetPintleOpening， SetPintalClosing。这样可以让人很难搜索代码。
+&#13;
+[*]抽象。比如：ProcessData, DoIt, GetData… 抽象到就跟什么都没说一样。
+&#13;
+[*]缩写。比如：WTF，RTFSC …… （陈皓注：使用拼音缩写也同样给力，比如： BT，TMD，TJJTDS）
+&#13;
+[*]随机大写字母。比如：gEtnuMbER..
+&#13;
+[*]重用命名。在内嵌的语句块中使用相同的变量名有奇效。
+&#13;
+[*]使用重音字母。比如：intínt（注：第二个 ínt不是int）
+&#13;
+[*]使用下划线。比如：_, __, ___。
+&#13;
+[*]使用不同的语言。比如混用英语，德语，或是中文拼音。
+&#13;
+[*]使用字符命名。比如：slash, asterix, comma…
+&#13;
+[*]使用无关的单词。比如：god, superman, iloveu….
+&#13;
+[*]混淆l和1。字母l和数字1有时候是看不出来的。
+&#13;
+伪装欺诈
+&#13;
+[*]把注释和代码交织在一起。
+&#13;
+for(j=0; j&lt;array_len; j+ =8){    total += array;    total += array;    total += array; /* Main body of    total += array; * loop is unrolled    total += array; * for greater speed.    total += array; */    total += array;    total += array;}
+&#13;
+[*]隐藏宏定义。如：#define a=b a=0-b，当人们看到a=b时，谁也想不到那是一个宏。
+&#13;
+[*]换行。如下所示，下面的示例使用搜索xy_z变得困难。
+&#13;
+#define local_var xy\_z // local_var OK
+&#13;
+[*]代码和显示不一致。比如，你的界面显示叫postal code，但是代码里确叫 zipcode.
+&#13;
+[*]隐藏全局变量。把使用全局变量以函数参数的方式传递给函数，这样可以让人觉得那个变量不是全局变量。
+&#13;
+[*]使用同意词。如：
+&#13;
+#define xxx global_var // in file std.h #define xy_z xxx // in file ..\other\substd.h #define local_var xy_z // in file ..\codestd\inst.h
+&#13;
+[*]使用相似的变量名。如：单词相似，swimmer 和 swimner，字母相似：ilI1| 或 oO08。parselnt 和 parseInt， D0Calc 和 DOCalc。还有这一组：xy_Z, xy__z, _xy_z, _xyz, XY_Z, xY_z, Xy_z。
+&#13;
+[*]重载函数。使用相同的函数名，但是其功能和具体实现完全没有关系。
+&#13;
+[*]操作符重载。重载操作符可以让你的代码变得诡异，感谢CCTV，感谢C++。这个东西是可以把混乱代码提高到一种艺术的形式。比如：重载一个类的 ! 操作符，但实际功能并不是取反，让其返回一个整数。于是，如果你使用 ! ! 操作符，那么，有意思的事就发生了—— 先是调用类的重载 ! 操作符，然后把其返回的整数给 ! 成了 布尔变量，如果是 !!! 呢？呵呵。
+&#13;
+[*]#define。看过本站那些混乱代码的文章，你都会知道宏定义和预编译对于写出不可读的代码的重大意义。不过，一个具有想像力的东西是——在头文件中使用预编译来查看这个头文件被include了几次，而被include不同的次数时，其中的函数定义完全不一样。
+&#13;
+#ifndef DONE#ifdef TWICE// put stuff here to declare 3rd time aroundvoid g(char* str);#define DONE#else // TWICE#ifdef ONCE// put stuff here to declare 2nd time around&lt;void g(void* str);#define TWICE#else // ONCE// put stuff here to declare 1st time aroundvoid g(std::string str);#define ONCE#endif // ONCE#endif // TWICE#endif // DONE文档和注释
+&#13;
+[*]在注释中撒谎。你不用真的去撒谎，只需在改代码的时候不要更新注释就可以了。
+&#13;
+[*]注释明显的东西。比如：/* add 1 to i */。（参看本站的“五种应该避免的注释”）
+&#13;
+[*]只注释是什么，而不是为什么。
+&#13;
+[*]不要注释秘密。如果你开发一个航班系统，请你一定要保证每有一个新的航班被加入，就得要修改25个以上的位置的程序。千万别把这个事写在文档中。
+&#13;
+[*]注重细节。当你设计一个很复杂的算法的时候，你一定要把所有的详细细设计都写下来，没有100页不能罢休，段落要有5级以上，段落编号要有500个以上，例如：1.2.4.6.3.13 – Display all impacts for activity where selected mitigations can apply (short pseudocode omitted). 这样，当你写代码的时候，你就可以让你的代码和文档一致，如：Act1_2_4_6_3_13()
+&#13;
+[*]千万不要注释度衡单位。比如时间用的是秒还是毫秒，尺寸用的是像素还是英寸，大小是MB还是KB。等等。另外，在你的代码里，你可以混用不同的度衡单位，但也不要注释。
+&#13;
+[*]Gotchas。陷阱，千万不要注释代码中的陷阱。
+&#13;
+[*]在注释和文档中发泄不满。（参看本站的“五种应该避免的注释”）
+&#13;
+程序设计
+&#13;
+[*]Java Casts。Java的类型转型是天赐之物。每一次当你从Collection里取到一个object的时候，你都需要把其转回原来的类型。因些，这些转型操作会出现在N多的地方。如果你改变了类型，那么你不一定能改变所有的地方。而编译器可能能检查到，也可能检查不到。
+&#13;
+[*]利用Java的冗余。比如：Bubblegum b = new Bubblegom(); 和 swimmer = swimner + 1; 注意变量间的细微差别。
+&#13;
+[*]从不验证。从不验证输入的数据，从不验证函数的返回值。这样做可以向大家展示你是多么的信任公司的设备和其它程序员。
+&#13;
+[*]不要封装。调用者需要知道被调用的所有的细节。
+&#13;
+[*]克隆和拷贝。为了效率，你要学会使用copy + paste。你几乎都不用理解别人的代码，你就可以高效地编程了。（陈皓注：Copy + Paste出来的代码bug多得不能再多）
+&#13;
+[*]巨大的listener。写一个listener，然后让你的所有的button类都使用这个listener，这样你可以在这个listener中整出一大堆if…else…语句，相当的刺激。
+&#13;
+[*]使用三维数组。如果你觉得三维还不足够，你可以试试四维。
+&#13;
+[*]混用。同时使用类的get/set方法和直接访问那个public变量。这样做的好处是可以极大的挫败维护人员。
+&#13;
+[*]包装，包装，包装。把你所有的API都包装上6到8遍，包装深度多达4层以上。然后包装出相似的功能。
+&#13;
+[*]没有秘密。把所有的成员都声明成public的。这样，你以后就很难限制其被人使用，而且这样可以和别的代码造成更多的耦合度，可以让你的代码存活得更久。
+&#13;
+[*]排列和阻碍。把drawRectangle(height, width) 改成 drawRectangle(width, height)，等release了几个版本后，再把其改回去。这样维护程序的程序员们将不能很快地明白哪一个是对的。
+&#13;
+[*]把变量改在名字上。例如，把setAlignment(int alignment)改成，setLeftAlignment, setRightAlignment, setCenterAlignment。
+&#13;
+[*]Packratting。保留你所有的没有使用的和陈旧的变量，方法和代码。
+&#13;
+[*]That’s Final。Final你所有的子结点的类，这样，当你做完这个项目后，没有人可以通过继承来扩展你的类。java.lang.String不也是这样吗？
+&#13;
+[*]避免使用接口。在java中，BS接口，在C++中BS使用虚函数。
+&#13;
+[*]避免使用layout。这样就使得我们只能使用绝对坐标。如果你的老大强制你使用layout，你可以考虑使用GridBagLayout，然后把grid坐标hard code.
+&#13;
+[*]环境变量。如果你的代码需要使用环境变量。(getenv() – C++ / System.getProperty() – Java )，那么，你应该把你的类的成员的初始化使用环境变量，而不是构造函数。
+&#13;
+[*]使用Magic number。参看《Linux一个插曲》。
+&#13;
+[*]使用全局变量。1）把全局变量的初始化放在不同的函数中，就算这个函数和这个变量没有任何关系，这样能够让我们的维护人员就像做侦探工作一样。2）使用全局变量可以让你的函数的参数变得少一些。
+&#13;
+[*]配置文件。配置文件主要用于一些参数的初始化。在编程中，我们可以让配置文件中的参数名和实际程序中的名字不一样。
+&#13;
+[*]膨胀你的类。让你的类尽可能地拥有各种臃肿和晦涩的方法。比如，你的类只实现一种可能性，但是你要提供所有可能性的方法。不要定义其它的类，把所有的功能都放在一个类中。
+&#13;
+[*]使用子类。面向对象是写出无法维护代码的天赐之物。如果你有一个类有十个成为（变量和方法）你可以考虑写10个层次的继承，然后把这十个属性分别放在这十个层次中。如果可能的话，把这十个类分别放在十个不同的文件中。
+&#13;
+混乱你的代码
+&#13;
+[*]使用XML。XML的强大是无人能及的。使用XML你可以把本来只要10行的代码变成100行。而且，还要逼着别人也有XML。（参看，信XML得永生，信XML得自信）
+&#13;
+[*]混乱C代码。在《如何加密源代码》中已经说过一些方法了，这里再补充一些。
+&#13;
+[*]使用不同的进制。比如：10 和010不是一样的。再比如：array = new int[]{   111,   120,   013,   121,};
+&#13;
+[*]尽量使用void*。然后把其转成各种类型
+&#13;
+[*]使用隐式的转型。C++的构造函数可以让你神不知鬼不觉得完成转型。
+&#13;
+[*]分解条件表达式。如：把 a==100分解成，a&gt;99 &amp;&amp; a&lt;101
+&#13;
+[*]学会利用分号。如：if ( a );else;{   int d;   d = c;}
+&#13;
+[*]间接转型。如：把double转string，写成new Double(d).toString() 而不是 Double.toString(d)
+&#13;
+[*]大量使用嵌套。一个NB的程序员可以在一行代码上使用超过10层的小括号（），或是在一个函数里使用超过20层的语句嵌套{}，把嵌套的if else 转成 [? :] 也是一件很NB的事。
+&#13;
+[*]使用C的变种数组。myArray 可以变成*(myArray + i) 也可以变成 *(i + myArray) 其等价于 i。再看一个函数调用的示例，函数声明：int myfunc(int q, int p) { return p%q; } 函数调用myfunc(6291, 8);
+&#13;
+[*]长代码行。一行的代码越长越好。这样别人阅读时就需要来来回回的
+&#13;
+[*]不要较早的return。不要使用goto，不要使用break，这样，你就需要至少5层以上的if-else来处理错误。
+&#13;
+[*]不要使用{}。不要在if else使用{}，尤其是在你重量地使用if-else嵌套时，你甚至可以在其中乱缩进代码，这样一来，就算是最有经验的程序员也会踩上陷阱。
+&#13;
+[*]使用宏定义。宏定义绝对是混乱C/C++代码的最佳利器。参看 老手是这样教新手编程的。
+&#13;
+[*]琐碎的封装。比较封装一个bool类，类里面什么都做，就是一个bool.
+&#13;
+[*]循环。千万不可用for(int i=0; i&lt;n; i++)使用while代替for，交换n和i，把&lt;改成&lt;=，使用 i–调整步伐 。
+&#13;
+测试
+&#13;
+[*]从不测试。千万不要测试任何的出错处理，从来也不检测系统调用的返回值。
+&#13;
+[*]永远不做性能测试。如果不够快就告诉用户换一个更快的机器。如果你一做测试，那么就可能会要改你的算法，甚至重设计，重新架构。
+&#13;
+[*]不要写测试案例。不要做什么代码覆盖率测试，自动化测试。
+&#13;
+[*]测试是懦夫行为。一个勇敢的程序员是根本不需要这一步的。太多的程序太害怕他们的老板，害怕失去工作，害怕用户抱怨，甚至被起诉。这种担心害怕直接影响了生产力。如果你对你的代码有强大的信心，那还要什么测试呢？真正的程序员是不需要测试自己的代码的。
+&#13;
+其它
+&#13;
+[*]你的老板什么都知道。无论你的老板有多SB，你都要严格地遵照他的旨意办事，这样一来，你会学到更多的知识如何写出无法维护的代码来的。
+&#13;
+[*]颠覆Help Desk。你要确保你那满是bug的程序永远不要被维护团队知道。当用户打电话和写邮件给你的时候，你就不要理会，就算要理会，让用户重做系统或是告诉用户其帐号有问题，是标准的回答。
+&#13;
+[*]闭嘴。对于一些像y2k这样的大bug，你要学会守口如瓶，不要告诉任何人，包括你的亲人好友以及公司的同事和管理层，这样当到那一天的时候，你就可以用这个bug挣钱了。
+&#13;
+[*]忽悠。你会学会忽悠，就算你的代码写得很烂，你也要为其挂上GoF设计模式的标签，就算你的项目做得再烂，你也要为其挂上敏捷的标签，只有学会像中国Thoughtworks的咨询师那样去忽悠，你才能学会更炫更酷的方法，让整个团队和公司，甚至整个业界都开始躁动，这样才能真正为难维护的代码铺平道路。
+&#13;
+这个文档中还有很多很多，实在是太TMD强大了，大家自己去看看吧。有精力有能力的朋友不妨把其翻译成中文。总之，我们的口号是——Write Everywhere, Read Nowhere（全文完）</description>
+      <content:encoded><![CDATA[<p><b>神秘男子A: </b><br>
+<span>[沙雕]如何写出让同事无法维护的代码？</span><br>
+<span>原文地址https://coolshell.cn/articles/4758.html</span><br>
+<span>程序命名</span><br>
+<span>[*]容易输入的名字。比如：Fred，asdf</span><br>
+<span>[*]单字母的变量名。比如：a,b,c, x,y,z（陈皓注：如果不够用，可以考虑a1,a2,a3,a4,….）</span><br>
+<span>[*]有创意地拼写错误。比如：SetPintleOpening， SetPintalClosing。这样可以让人很难搜索代码。</span><br>
+<span>[*]抽象。比如：ProcessData, DoIt, GetData… 抽象到就跟什么都没说一样。</span><br>
+<span>[*]缩写。比如：WTF，RTFSC …… （陈皓注：使用拼音缩写也同样给力，比如： BT，TMD，TJJTDS）</span><br>
+<span>[*]随机大写字母。比如：gEtnuMbER..</span><br>
+<span>[*]重用命名。在内嵌的语句块中使用相同的变量名有奇效。</span><br>
+<span>[*]使用重音字母。比如：intínt（注：第二个 ínt不是int）</span><br>
+<span>[*]使用下划线。比如：_, __, ___。</span><br>
+<span>[*]使用不同的语言。比如混用英语，德语，或是中文拼音。</span><br>
+<span>[*]使用字符命名。比如：slash, asterix, comma…</span><br>
+<span>[*]使用无关的单词。比如：god, superman, iloveu….</span><br>
+<span>[*]混淆l和1。字母l和数字1有时候是看不出来的。</span><br>
+<span>伪装欺诈</span><br>
+<span>[*]把注释和代码交织在一起。</span><br>
+<span>for(j=0; j<array_len; j+ =8){    total += array;    total += array;    total += array; /* Main body of    total += array; * loop is unrolled    total += array; * for greater speed.    total += array; */    total += array;    total += array;}</span><br>
+<span>[*]隐藏宏定义。如：#define a=b a=0-b，当人们看到a=b时，谁也想不到那是一个宏。</span><br>
+<span>[*]换行。如下所示，下面的示例使用搜索xy_z变得困难。</span><br>
+<span>#define local_var xy\_z // local_var OK</span><br>
+<span>[*]代码和显示不一致。比如，你的界面显示叫postal code，但是代码里确叫 zipcode.</span><br>
+<span>[*]隐藏全局变量。把使用全局变量以函数参数的方式传递给函数，这样可以让人觉得那个变量不是全局变量。</span><br>
+<span>[*]使用同意词。如：</span><br>
+<span>#define xxx global_var // in file std.h #define xy_z xxx // in file ..\other\substd.h #define local_var xy_z // in file ..\codestd\inst.h</span><br>
+<span>[*]使用相似的变量名。如：单词相似，swimmer 和 swimner，字母相似：ilI1| 或 oO08。parselnt 和 parseInt， D0Calc 和 DOCalc。还有这一组：xy_Z, xy__z, _xy_z, _xyz, XY_Z, xY_z, Xy_z。</span><br>
+<span>[*]重载函数。使用相同的函数名，但是其功能和具体实现完全没有关系。</span><br>
+<span>[*]操作符重载。重载操作符可以让你的代码变得诡异，感谢CCTV，感谢C++。这个东西是可以把混乱代码提高到一种艺术的形式。比如：重载一个类的 ! 操作符，但实际功能并不是取反，让其返回一个整数。于是，如果你使用 ! ! 操作符，那么，有意思的事就发生了—— 先是调用类的重载 ! 操作符，然后把其返回的整数给 ! 成了 布尔变量，如果是 !!! 呢？呵呵。</span><br>
+<span>[*]#define。看过本站那些混乱代码的文章，你都会知道宏定义和预编译对于写出不可读的代码的重大意义。不过，一个具有想像力的东西是——在头文件中使用预编译来查看这个头文件被include了几次，而被include不同的次数时，其中的函数定义完全不一样。</span><br>
+<span>#ifndef DONE#ifdef TWICE// put stuff here to declare 3rd time aroundvoid g(char* str);#define DONE#else // TWICE#ifdef ONCE// put stuff here to declare 2nd time around<void g(void* str);#define TWICE#else // ONCE// put stuff here to declare 1st time aroundvoid g(std::string str);#define ONCE#endif // ONCE#endif // TWICE#endif // DONE文档和注释</span><br>
+<span>[*]在注释中撒谎。你不用真的去撒谎，只需在改代码的时候不要更新注释就可以了。</span><br>
+<span>[*]注释明显的东西。比如：/* add 1 to i */。（参看本站的“五种应该避免的注释”）</span><br>
+<span>[*]只注释是什么，而不是为什么。</span><br>
+<span>[*]不要注释秘密。如果你开发一个航班系统，请你一定要保证每有一个新的航班被加入，就得要修改25个以上的位置的程序。千万别把这个事写在文档中。</span><br>
+<span>[*]注重细节。当你设计一个很复杂的算法的时候，你一定要把所有的详细细设计都写下来，没有100页不能罢休，段落要有5级以上，段落编号要有500个以上，例如：1.2.4.6.3.13 – Display all impacts for activity where selected mitigations can apply (short pseudocode omitted). 这样，当你写代码的时候，你就可以让你的代码和文档一致，如：Act1_2_4_6_3_13()</span><br>
+<span>[*]千万不要注释度衡单位。比如时间用的是秒还是毫秒，尺寸用的是像素还是英寸，大小是MB还是KB。等等。另外，在你的代码里，你可以混用不同的度衡单位，但也不要注释。</span><br>
+<span>[*]Gotchas。陷阱，千万不要注释代码中的陷阱。</span><br>
+<span>[*]在注释和文档中发泄不满。（参看本站的“五种应该避免的注释”）</span><br>
+<span>程序设计</span><br>
+<span>[*]Java Casts。Java的类型转型是天赐之物。每一次当你从Collection里取到一个object的时候，你都需要把其转回原来的类型。因些，这些转型操作会出现在N多的地方。如果你改变了类型，那么你不一定能改变所有的地方。而编译器可能能检查到，也可能检查不到。</span><br>
+<span>[*]利用Java的冗余。比如：Bubblegum b = new Bubblegom(); 和 swimmer = swimner + 1; 注意变量间的细微差别。</span><br>
+<span>[*]从不验证。从不验证输入的数据，从不验证函数的返回值。这样做可以向大家展示你是多么的信任公司的设备和其它程序员。</span><br>
+<span>[*]不要封装。调用者需要知道被调用的所有的细节。</span><br>
+<span>[*]克隆和拷贝。为了效率，你要学会使用copy + paste。你几乎都不用理解别人的代码，你就可以高效地编程了。（陈皓注：Copy + Paste出来的代码bug多得不能再多）</span><br>
+<span>[*]巨大的listener。写一个listener，然后让你的所有的button类都使用这个listener，这样你可以在这个listener中整出一大堆if…else…语句，相当的刺激。</span><br>
+<span>[*]使用三维数组。如果你觉得三维还不足够，你可以试试四维。</span><br>
+<span>[*]混用。同时使用类的get/set方法和直接访问那个public变量。这样做的好处是可以极大的挫败维护人员。</span><br>
+<span>[*]包装，包装，包装。把你所有的API都包装上6到8遍，包装深度多达4层以上。然后包装出相似的功能。</span><br>
+<span>[*]没有秘密。把所有的成员都声明成public的。这样，你以后就很难限制其被人使用，而且这样可以和别的代码造成更多的耦合度，可以让你的代码存活得更久。</span><br>
+<span>[*]排列和阻碍。把drawRectangle(height, width) 改成 drawRectangle(width, height)，等release了几个版本后，再把其改回去。这样维护程序的程序员们将不能很快地明白哪一个是对的。</span><br>
+<span>[*]把变量改在名字上。例如，把setAlignment(int alignment)改成，setLeftAlignment, setRightAlignment, setCenterAlignment。</span><br>
+<span>[*]Packratting。保留你所有的没有使用的和陈旧的变量，方法和代码。</span><br>
+<span>[*]That’s Final。Final你所有的子结点的类，这样，当你做完这个项目后，没有人可以通过继承来扩展你的类。java.lang.String不也是这样吗？</span><br>
+<span>[*]避免使用接口。在java中，BS接口，在C++中BS使用虚函数。</span><br>
+<span>[*]避免使用layout。这样就使得我们只能使用绝对坐标。如果你的老大强制你使用layout，你可以考虑使用GridBagLayout，然后把grid坐标hard code.</span><br>
+<span>[*]环境变量。如果你的代码需要使用环境变量。(getenv() – C++ / System.getProperty() – Java )，那么，你应该把你的类的成员的初始化使用环境变量，而不是构造函数。</span><br>
+<span>[*]使用Magic number。参看《Linux一个插曲》。</span><br>
+<span>[*]使用全局变量。1）把全局变量的初始化放在不同的函数中，就算这个函数和这个变量没有任何关系，这样能够让我们的维护人员就像做侦探工作一样。2）使用全局变量可以让你的函数的参数变得少一些。</span><br>
+<span>[*]配置文件。配置文件主要用于一些参数的初始化。在编程中，我们可以让配置文件中的参数名和实际程序中的名字不一样。</span><br>
+<span>[*]膨胀你的类。让你的类尽可能地拥有各种臃肿和晦涩的方法。比如，你的类只实现一种可能性，但是你要提供所有可能性的方法。不要定义其它的类，把所有的功能都放在一个类中。</span><br>
+<span>[*]使用子类。面向对象是写出无法维护代码的天赐之物。如果你有一个类有十个成为（变量和方法）你可以考虑写10个层次的继承，然后把这十个属性分别放在这十个层次中。如果可能的话，把这十个类分别放在十个不同的文件中。</span><br>
+<span>混乱你的代码</span><br>
+<span>[*]使用XML。XML的强大是无人能及的。使用XML你可以把本来只要10行的代码变成100行。而且，还要逼着别人也有XML。（参看，信XML得永生，信XML得自信）</span><br>
+<span>[*]混乱C代码。在《如何加密源代码》中已经说过一些方法了，这里再补充一些。</span><br>
+<span>[*]使用不同的进制。比如：10 和010不是一样的。再比如：array = new int[]{   111,   120,   013,   121,};</span><br>
+<span>[*]尽量使用void*。然后把其转成各种类型</span><br>
+<span>[*]使用隐式的转型。C++的构造函数可以让你神不知鬼不觉得完成转型。</span><br>
+<span>[*]分解条件表达式。如：把 a==100分解成，a>99 && a<101</span><br>
+<span>[*]学会利用分号。如：if ( a );else;{   int d;   d = c;}</span><br>
+<span>[*]间接转型。如：把double转string，写成new Double(d).toString() 而不是 Double.toString(d)</span><br>
+<span>[*]大量使用嵌套。一个NB的程序员可以在一行代码上使用超过10层的小括号（），或是在一个函数里使用超过20层的语句嵌套{}，把嵌套的if else 转成 [? :] 也是一件很NB的事。</span><br>
+<span>[*]使用C的变种数组。myArray 可以变成*(myArray + i) 也可以变成 *(i + myArray) 其等价于 i。再看一个函数调用的示例，函数声明：int myfunc(int q, int p) { return p%q; } 函数调用myfunc(6291, 8);</span><br>
+<span>[*]长代码行。一行的代码越长越好。这样别人阅读时就需要来来回回的</span><br>
+<span>[*]不要较早的return。不要使用goto，不要使用break，这样，你就需要至少5层以上的if-else来处理错误。</span><br>
+<span>[*]不要使用{}。不要在if else使用{}，尤其是在你重量地使用if-else嵌套时，你甚至可以在其中乱缩进代码，这样一来，就算是最有经验的程序员也会踩上陷阱。</span><br>
+<span>[*]使用宏定义。宏定义绝对是混乱C/C++代码的最佳利器。参看 老手是这样教新手编程的。</span><br>
+<span>[*]琐碎的封装。比较封装一个bool类，类里面什么都做，就是一个bool.</span><br>
+<span>[*]循环。千万不可用for(int i=0; i<n; i++)使用while代替for，交换n和i，把<改成<=，使用 i–调整步伐 。</span><br>
+<span>测试</span><br>
+<span>[*]从不测试。千万不要测试任何的出错处理，从来也不检测系统调用的返回值。</span><br>
+<span>[*]永远不做性能测试。如果不够快就告诉用户换一个更快的机器。如果你一做测试，那么就可能会要改你的算法，甚至重设计，重新架构。</span><br>
+<span>[*]不要写测试案例。不要做什么代码覆盖率测试，自动化测试。</span><br>
+<span>[*]测试是懦夫行为。一个勇敢的程序员是根本不需要这一步的。太多的程序太害怕他们的老板，害怕失去工作，害怕用户抱怨，甚至被起诉。这种担心害怕直接影响了生产力。如果你对你的代码有强大的信心，那还要什么测试呢？真正的程序员是不需要测试自己的代码的。</span><br>
+<span>其它</span><br>
+<span>[*]你的老板什么都知道。无论你的老板有多SB，你都要严格地遵照他的旨意办事，这样一来，你会学到更多的知识如何写出无法维护的代码来的。</span><br>
+<span>[*]颠覆Help Desk。你要确保你那满是bug的程序永远不要被维护团队知道。当用户打电话和写邮件给你的时候，你就不要理会，就算要理会，让用户重做系统或是告诉用户其帐号有问题，是标准的回答。</span><br>
+<span>[*]闭嘴。对于一些像y2k这样的大bug，你要学会守口如瓶，不要告诉任何人，包括你的亲人好友以及公司的同事和管理层，这样当到那一天的时候，你就可以用这个bug挣钱了。</span><br>
+<span>[*]忽悠。你会学会忽悠，就算你的代码写得很烂，你也要为其挂上GoF设计模式的标签，就算你的项目做得再烂，你也要为其挂上敏捷的标签，只有学会像中国Thoughtworks的咨询师那样去忽悠，你才能学会更炫更酷的方法，让整个团队和公司，甚至整个业界都开始躁动，这样才能真正为难维护的代码铺平道路。</span><br>
+<span>这个文档中还有很多很多，实在是太TMD强大了，大家自己去看看吧。有精力有能力的朋友不妨把其翻译成中文。总之，我们的口号是——Write Everywhere, Read Nowhere（全文完）</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>这些东西要么过时了，要么是拍脑袋出来的</span><br>
+<span>有调试器帮你，没什么代码是读不懂的。读不懂主要还是不懂业务</span><br>
+</p><p><b>sese199: </b><br>
+<span>发生在我身上的故事</span><br>
+<span>我接手离职同事的代码，什么abcd zzz我都见怪不怪了</span><br>
+<span>有个布尔值变量叫yestoday，我看了半天才明白是yesterday</span><br>
+</p><p><b>神秘男子A: </b><br>
+<span> 本帖最后由 神秘男子A 于 2019-6-24 22:53 编辑 </span><br>
+<span>精钢魔像 发表于 2019-6-24 22:46</span><br>
+<span>这些东西要么过时了，要么是拍脑袋出来的</span><br>
+<span>有调试器帮你，没什么代码是读不懂的。读不懂主要还是不懂业务 ...</span><br>
+<span>原文是11年的，最新版本是这个：</span><br>
+<span>https://coolshell.cn/articles/19464.html</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>其中有50%以上在idea里面是不存在的，java伟大</span><br>
+</p><p><b>wddely: </b><br>
+<span>你随便写 我也随便维护 大家都是来骗老板钱的</span><br>
+</p><p><b>guava: </b><br>
+<span>宏里用##就不好读了。</span><br>
+</p><p><b>沉默之声: </b><br>
+<span>招3000块钱一个月的不用刻意也能写成这样</span><br>
+</p><p><b>BarricadeMKXX: </b><br>
+<span>最难懂的代码提名mathematica</span><br>
+<span>@ /@ /@@ @@@的区别</span><br>
+<span>#0 #1 ##1的区别</span><br>
+<span>还有什么./ ->以及x_ y_ x__</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>你真的写过的代码吗 这种代码 等几个月后自己回来都维护不了 除非你一辈子就做这一个项目</span><br>
+</p><p><b>不够水准: </b><br>
+<span>用不着费那么大劲，代码写完放几年。别说同事了自己都看不懂。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span> 本帖最后由 洗刷刷 于 2019-6-24 23:13 编辑 </span><br>
+<span>巨大的listener。写一个listener，然后让你的所有的button类都使用这个listener，这样你可以在这个listener中整出一大堆if…else…语句，相当的刺激。</span><br>
+<span>刚工作时我接手的第一个项目就是这么干的，那阵子真是惨不忍睹，天天加班</span><br>
+</p><p><b>moeful: </b><br>
+<span>田多宇光 发表于 2019-6-24 22:52</span><br>
+<span>其中有50%以上在idea里面是不存在的，java伟大</span><br>
+<span>赞颂java！</span><br>
+</p><p><b>费老师: </b><br>
+<span>C++ 写几个virtual一路套过去</span><br>
+</p><p><b>best: </b><br>
+<span>java是最适合teamwork的语言了吧</span><br>
+</p><p><b>狂徒lucifer: </b><br>
+<span>别闹了，你这样搞自己过一年就自己都维护不了了。。。</span><br>
+<span>这已经不是给同事添乱是给自己添乱了</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span>I和1和l和|分不清纯粹是自己不懂换字体</span><br>
+</p><p><b>tnt13: </b><br>
+<span>论如何自己折腾自己</span><br>
+</p><p><b>yenvy: </b><br>
+<span>直接拿perl玩杂技就行了</span><br>
+</p><p><b>晩韶华: </b><br>
+<span>这个老文里面很多方法都可以用ide解决了，vscode，伟大！idea，伟大！</span><br>
+</p><p><b>tokimon: </b><br>
+<span>重载操作符和计引用次数挺tricky，mark以备不时之需</span><br>
+</p><p><b>tokimon: </b><br>
+<span>神秘男子A 发表于 2019-6-24 22:51</span><br>
+<span>原文是11年的，最新版本是这个：</span><br>
+<span>https://coolshell.cn/articles/19464.html</span><br>
+<span>砂仁猪心这就是外野存在的理由么</span><br>
+</p><p><b>alaya: </b><br>
+<span> 本帖最后由 alaya 于 2019-6-25 07:37 编辑 </span><br>
+<span>对不起楼里的各位了，阿三牛逼</span><br>
+</p><p><b>VictorWJ: </b><br>
+<span>我寻思着不写注释不就行了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>alaya 发表于 2019-6-24 22:10</span><br>
+<span>你同事是阿三吧</span><br>
+<span>不要笑话三哥，华人码农上限很高，下限也可以深不可测</span><br>
+</p><p><b>jctc: </b><br>
+<span>当年写了一个程序，装逼用德语命名变量，后来自己改的时候一边抽自己嘴巴一边查德英词典</span><br>
+</p><p><b>大哼哼: </b><br>
+<span>拼命用模板</span><br>
+</p><p><b>imosuke: </b><br>
+<span>原来不是我一个人维护不了自己X年前写的代码，安心了</span><br>
+</p><p><b>隰有苌楚: </b><br>
+<span>泥潭谭友可以用罗马音写变量名啊</span><br>
+<span>—— 来自 HUAWEI NEM-AL10, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>best: </b><br>
+<span>alaya 发表于 2019-6-25 05:10</span><br>
+<span>你同事是阿三吧</span><br>
+<span>钢针三哥代码命名还蛮规范的</span><br>
+</p><p><b>ヒイロ: </b><br>
+<span>我几年前的代码看一下基本都能想起来，别人的思路确实有的很难理解</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>kumh: </b><br>
+<span>看来我就是那个让同事无法维护的人。</span><br>
+<span>另外整个项目代码中，到处都是magic number。</span><br>
+</p><p><b>aiiaib: </b><br>
+<span>所以我们美术前同事命名逻辑混乱，拼写错误，一套资源不同文件名字没规律是他也是想让人觉得不易维护？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zz_mps: </b><br>
+<span> 本帖最后由 zz_mps 于 2019-6-25 08:29 编辑 </span><br>
+<span>洗刷刷 发表于 2019-6-24 23:12</span><br>
+<span>巨大的listener。写一个listener，然后让你的所有的button类都使用这个listener，这样你可以在这个listener ...</span><br>
+<span>setonclicklistener(this)</span><br>
+<span>还有php各个文件夹下都有接收action跳转控制器的文件，名字代码一模一样</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>沉默之声 发表于 2019-6-24 22:58</span><br>
+<span> 招3000块钱一个月的不用刻意也能写成这样</span><br>
+<span>我们招过5k一个月的，别说写垃圾代码，根本写不出来</span><br>
+</p><p><b>moekyo: </b><br>
+<span>技术网红</span><br>
+</p><p><b>xenox: </b><br>
+<span>我会一手拿五十音做变量名</span><br>
+</p><p><b>Scrummble: </b><br>
+<span>sese199 发表于 2019-6-24 22:50</span><br>
+<span>发生在我身上的故事</span><br>
+<span>我接手离职同事的代码，什么abcd zzz我都见怪不怪了</span><br>
+<span>有个布尔值变量叫yestoday，我看了 ...</span><br>
+<span>可能是韩国男团NCT的粉丝</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>精钢魔像 发表于 2019-6-24 22:46</span><br>
+<span>这些东西要么过时了，要么是拍脑袋出来的</span><br>
+<span>有调试器帮你，没什么代码是读不懂的。读不懂主要还是不懂业务 ...</span><br>
+<span>内核代码用调试器，请</span><br>
+</p><p><b>dstar: </b><br>
+<span>sese199 发表于 2019-6-24 22:50</span><br>
+<span>发生在我身上的故事</span><br>
+<span>我接手离职同事的代码，什么abcd zzz我都见怪不怪了</span><br>
+<span>有个布尔值变量叫yestoday，我看了 ...</span><br>
+<span>这个布尔值是判断是否是今天吗？</span><br>
+<span>那你同事的本意可能是yes(or no)today，类似is_today，虽然糙了点，但是也不是什么天怒人怨的事情啊233</span><br>
+</p><p><b>greendayu: </b><br>
+<span>xenox 发表于 2019-6-25 08:49</span><br>
+<span>我会一手拿五十音做变量名</span><br>
+<span>看到日本人在正式项目这么干过。。</span><br>
+<span>还好我负责的模块和这部分关系不大。</span><br>
+</p><p><b>sese199: </b><br>
+<span>dstar 发表于 2019-6-25 09:32</span><br>
+<span>这个布尔值是判断是否是今天吗？</span><br>
+<span>那你同事的本意可能是yes(or no)today，类似is_today，虽然糙了点，但是 ...</span><br>
+<span>并不是，是表示昨天</span><br>
+</p><p><b>widder: </b><br>
+<span>精钢魔像 发表于 2019-6-24 22:46</span><br>
+<span>这些东西要么过时了，要么是拍脑袋出来的</span><br>
+<span>有调试器帮你，没什么代码是读不懂的。读不懂主要还是不懂业务 ...</span><br>
+<span>不是读不懂，而是要读懂花的时间比重写一个还多</span><br>
+</p><p><b>UnderWear: </b><br>
+<span>注释量是代码量三倍的代码就是好代码</span><br>
+</p><p><b>Inquisitor: </b><br>
+<span>写成这样你自己能维护吗</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span> 本帖最后由 すぴぱら 于 2019-6-25 10:03 编辑 </span><br>
+<span>xenox 发表于 2019-6-25 08:49</span><br>
+<span>我会一手拿五十音做变量名</span><br>
+<span>我们之前工作嘲笑过日本人是靠毅力写代码</span><br>
+<span>这帮人尤其是小公司是这么开发的</span><br>
+<span>Assets - 五十音或者汉字，SHIFT-JIS 码，五十音还用单字节，经常喜欢用zip打包，简体系统打开了资源路径都是乱码的</span><br>
+<span>Source - 满屏幕罗马音，GUI元素能在UI编辑器上写死绑定绝对不用代码动态绑定，还经常写</span><br>
+<span>if (button.text == "アイテム１") runItem1();这种像魔法一样的东西。文档自然是没有的，跟日本开发组沟通基本要靠英语邮件，两边全是蹩脚英语互相脑补</span><br>
+<span>据说无编程经验也可入职，入职包技术培训，还给发工钱，因为缺人</span><br>
+<span>我在这种工作状态下干了两年后来跑路了，担心被日本人传染手癌</span><br>
+</p><p><b>xenox: </b><br>
+<span>すぴぱら 发表于 2019-6-25 09:58</span><br>
+<span>我们之前工作嘲笑过日本人是靠毅力写代码</span><br>
+<span>这帮人尤其是小公司是这么开发的</span><br>
+<span>Assets - 五十音或者汉字，SHI ...</span><br>
+<span>甭说小公司，一部上场的企业里也有这种的。无非是重点项目好些，边边角角的项目就成这鬼样了。</span><br>
+<span>我见过日本准天顶星某个配套系统，还剩两周就要上线 了，结果测试跑了一下最简单的搜索功能都能做成该搜到的都没显示出来，不该搜到的数据全都显示出来了，这还是测试两天内提出的500多个BUG里明显的一个</span><br>
+</p><p><b>Pbynessseri: </b><br>
+<span>无论你的老板有多SB，你都要严格地遵照他的旨意办事，这样一来，你会学到更多的知识如何写出无法维护的代码来的。别的不用学坚持这一点就行了</span><br>
+</p><p><b>研究僧: </b><br>
+<span>すぴぱら 发表于 2019-6-25 08:37</span><br>
+<span>我们招过5k一个月的，别说写垃圾代码，根本写不出来</span><br>
+<span>我也写不出代码，一月5k我觉得行。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>我记得不是有专门的代码扰乱器啊，自动生成看不懂的代码吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842003[0-50]</guid>
+    </item>
+  </channel>
+</rss>

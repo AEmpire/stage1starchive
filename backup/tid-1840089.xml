@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农归外野，有什么可以记录窗口位置的ssh连接工具？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农归外野，有什么可以记录窗口位置的ssh连接工具？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:43:21 +0000</lastBuildDate>
+    <item>
+      <title>码农归外野，有什么可以记录窗口位置的ssh连接工具？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840089-1-1.html</link>
+      <description>码农归外野，有什么可以记录窗口位置的ssh连接工具？&#13;
+如题，因为某些原因电脑关掉了，重启后要开三个xshell，一个要开8个窗口，一个要开18个窗口，一个要开24个窗口。感觉自己要死，有没有可以记录开过那些窗口以及窗口位置的ssh连接工具吗，windows上面的…………
+&#13;
+谢谢…………
+&#13;
+免费的更好…………
+&#13;
+谢谢…………</description>
+      <content:encoded><![CDATA[<p><b>traburiss: </b><br>
+<span>码农归外野，有什么可以记录窗口位置的ssh连接工具？</span><br>
+<span>如题，因为某些原因电脑关掉了，重启后要开三个xshell，一个要开8个窗口，一个要开18个窗口，一个要开24个窗口。感觉自己要死，有没有可以记录开过那些窗口以及窗口位置的ssh连接工具吗，windows上面的…………</span><br>
+<span>谢谢…………</span><br>
+<span>免费的更好…………</span><br>
+<span>谢谢…………</span><br>
+</p><p><b>witness-s1: </b><br>
+<span>screen & tmux</span><br>
+</p><p><b>traburiss: </b><br>
+<span>witness-s1 发表于 2019-6-17 12:27</span><br>
+<span>screen & tmux</span><br>
+<span>我那些服务器都连不了外网的…………要装东西还要下载离线包装…………各种依赖太多了所以我是尽量能不装东西就不装…………</span><br>
+</p><p><b>wardenlym: </b><br>
+<span> 本帖最后由 wardenlym 于 2019-6-17 13:44 编辑 </span><br>
+<span>如果不想用tmux，xshell其实也可以，需要做一点配置，不过总体上是我用过最好的win下的ssh工具了，</span><br>
+<span>你现在的这个需求可保存为session组，然后建议弄一个私钥来链接，配以一些自动化的脚本，基本可以一键恢复多个会话了</span><br>
+<span>另外建议比较科学的一个方案是，你搞一台作为跳板机的linux，有外网的，上面配置好tmux和脚本，登录在这台机器上去再ssh其他的。一般我遇到的搞服务器运维的都这么干</span><br>
+<span>直接从windows往上面楞搞是野路子，吃力不讨好，你没法利用上linux生态帮你自动化的一切组件。好好考虑考虑</span><br>
+</p><p><b>Hieda: </b><br>
+<span>traburiss 发表于 2019-6-17 13:14</span><br>
+<span>我那些服务器都连不了外网的…………要装东西还要下载离线包装…………各种依赖太多了所以我是尽量能不装 ...</span><br>
+<span>musl编译好直接扔上去</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840089[0-50]</guid>
+    </item>
+  </channel>
+</rss>

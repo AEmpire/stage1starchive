@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>洋垃圾平板还原出厂以后卡在登录谷歌账号那个界面</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>洋垃圾平板还原出厂以后卡在登录谷歌账号那个界面</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:29:57 +0000</lastBuildDate>
+    <item>
+      <title>洋垃圾平板还原出厂以后卡在登录谷歌账号那个界面[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911498-1-1.html</link>
+      <description>洋垃圾平板还原出厂以后卡在登录谷歌账号那个界面&#13;
+可能由于平板本身的原因无法跳过这个步骤，没有翻X路由器，只有一台笔记本电脑和手机，都有梯子，该怎么让这个平板过这一步</description>
+      <content:encoded><![CDATA[<p><b>cxc666: </b><br>
+<span>洋垃圾平板还原出厂以后卡在登录谷歌账号那个界面</span><br>
+<span>可能由于平板本身的原因无法跳过这个步骤，没有翻X路由器，只有一台笔记本电脑和手机，都有梯子，该怎么让这个平板过这一步</span><br>
+</p><p><b>torpedo: </b><br>
+<span>再还原一次，并且不要开Wi-Fi</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>我记得说还原以前没有登出谷歌账号的话会卡这里</span><br>
+<span>你电脑有梯子的话，可以给平板的wifi设置添加代理的吧</span><br>
+</p><p><b>jszjy110: </b><br>
+<span>如果不是因为账号锁的话，在初始界面顺时针触摸屏幕角落重复若干次应该就能跳过登陆</span><br>
+</p><p><b>会玩熊孩子: </b><br>
+<span>** 后门什么的都试过 没用 就刷机解决了</span><br>
+</p><p><b>koakon: </b><br>
+<span>手机开梯子，然后共享wifi给平板。</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>谷歌设备的账号锁可线刷覆盖</span><br>
+<span>没线刷包就只有尝试路由器梯子了</span><br>
+<span>—— 来自 Google Pixel 2, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>营业收入: </b><br>
+<span>jszjy110 发表于 2020-1-31 08:23</span><br>
+<span>如果不是因为账号锁的话，在初始界面顺时针触摸屏幕角落重复若干次应该就能跳过登陆 ...</span><br>
+<span>这个是OpenGapps添加的功能</span><br>
+<span>Google和设备制造商预装的标准谷歌全家桶是不支持的</span><br>
+</p><p><b>营业收入: </b><br>
+<span>贴条关注一下解决方法</span><br>
+</p><p><b>Gotu: </b><br>
+<span>真正推荐的方法，是往frp或config分区写入全零数据。如果能使用第三方recovery，命令如下：</span><br>
+<span>dd if=/dev/zero of=/dev/block/bootdevice/by-name/frp</span><br>
+<span>或</span><br>
+<span>dd if=/dev/zero of=/dev/block/bootdevice/by-name/config</span><br>
+<span>如果不能使用，你还可以借助底层刷机模式（例如高通 EDL / 9008 模式和联发科的 Preloader 端口特性）往 frp 或 config 分区写入全零数据。</span><br>
+<span>跳过类原生</span><br>
+</p><p><b>翼宿一: </b><br>
+<span>笔电开梯子并打开允许其他设备连接，然后平板连同一个 Wi-Fi 并在代理中输入电脑的 ip 然后选择 1080 端口，这样就能局域网爬墙了。</span><br>
+<span>本来我是没想过这个用法的，但后面发现 Switch 这种设备想要爬墙只能用这种方法。</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>提醒一下爱讨论内容</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911498[0-50]</guid>
+    </item>
+  </channel>
+</rss>

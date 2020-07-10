@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小道消息NS后继者芯片开始设计了（不是加强版）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小道消息NS后继者芯片开始设计了（不是加强版）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:50:47 +0000</lastBuildDate>
+    <item>
+      <title>小道消息NS后继者芯片开始设计了（不是加强版）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908705-1-1.html</link>
+      <description>小道消息NS后继者芯片开始设计了（不是加强版）&#13;
+7nm EUV，流处理器构架为安培（实际上按安培就是图灵1.5，想想maxwell和帕斯卡关系就知道），带硬件光追和tensor core，主机功耗上限15瓦
+&#13;
+设计目标在主机模式下达到1080P光追30帧，猜测应该是在DLSS下达成，估计应该在2022年发售</description>
+      <content:encoded><![CDATA[<p><b>mirrorside: </b><br>
+<span>消息来源都没都能战起来 你们闲得慌？</span><br>
+<span>—— 来自 samsung SC-02J, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>000000: </b><br>
+<span>1080p30帧</span><br>
+</p><p><b>jd8888: </b><br>
+<span>哇哦，2022年任饭终于可以玩上1080p的游戏了，真不容易啊</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>lxzxhzwzyy 发表于 2020-1-10 11:38</span><br>
+<span>这个性能很好吗？</span><br>
+<span>对于任地狱来讲，应该是太高了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>s32244153: </b><br>
+<span>mirrorside 发表于 2020-1-10 11:46</span><br>
+<span>消息来源都没都能战起来 你们闲得慌？</span><br>
+<span>任地狱就是任地狱，在性能方面从不让(想黑的)人失望</span><br>
+</p><p><b>lxzxhzwzyy: </b><br>
+<span>共谍常凯申 发表于 2020-1-10 12:16</span><br>
+<span>对于任地狱来讲，应该是太高了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>这性能在2023年看来不就是2017年看NS悄好一点水平吗？？？</span><br>
+<span>还是你觉得NS对于任天堂来说也很高？</span><br>
+</p><p><b>mcq_2: </b><br>
+<span>ns发售前一堆人怎么幻想的？</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>以前吹dx12会大幅提高提高帧数，现在吹dlss能解决帧数问题。有那点地方好好放处理单元不好吗，非得塞进去只为特定功能服务的电路。</span><br>
+</p><p><b>ギナ: </b><br>
+<span>uswhzh 发表于 2020-1-10 12:28</span><br>
+<span>以前吹dx12会大幅提高提高帧数，现在吹dlss能解决帧数问题。有那点地方好好放处理单元不好吗，非得塞进去只 ...</span><br>
+<span>dx12帧数确实比dx11高一些啊……</span><br>
+</p><p><b>back57992: </b><br>
+<span>玩任天堂硬件啥的就不指望了</span><br>
+</p><p><b>morale: </b><br>
+<span>消息来源？</span><br>
+</p><p><b>pf67: </b><br>
+<span>jd8888居然有队友了！！！</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>在7nm加持下cpu/gpu接近ps4不难，但最大问题不是显存带宽在移动掌机上很难堆出来吗</span><br>
+</p><p><b>神威奏乱: </b><br>
+<span> 本帖最后由 神威奏乱 于 2020-1-10 16:22 编辑 </span><br>
+<span>移动端1080p下跑光追过于异想天开，掌机这么大块地方想塞进去能应付光追的soc、散热还有电源，成本必然几何倍数上升。7nm往上的芯片又不是什么便宜货，起码比TegraX1这过时几年的东西贵多了，就nslite还使劲给零售商施压缩售价，老任不可能疯了上这个级别的芯片。退一万步真捣鼓出这台机器，售价飙升破千美元远超其他两家次世代，谁买？拜托，游戏机又不是什么发烧友DIY硬件。</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>求老黄了，给我1080p+60帧，掌机模式不要那么阉割画面的720p45帧以上就可以了光追效果对于目前的掌机来说感觉意义不大</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>Jooohnny 发表于 2020-1-10 09:05</span><br>
+<span>7nm euv这个铁憨憨线明年是要变5nm euv的，台积电三年不接单给任天堂留生产线是不是疯了。 ...</span><br>
+<span>我觉得7nm可能是，euv不一定，甚至不一定是台积电，隔壁三星也是有“7nm”的嘛</span><br>
+</p><p><b>exia00raiser: </b><br>
+<span>一个没来源的小道消息你们也能撕起来，属实是牛逼</span><br>
+</p><p><b>巨馍蘸酱: </b><br>
+<span>来源呢？你编的？</span><br>
+</p><p><b>帝蓝: </b><br>
+<span>UCXCU 发表于 2020-1-10 15:53</span><br>
+<span>求老黄了，给我1080p+60帧，掌机模式不要那么阉割画面的720p45帧以上就可以了光追效果对于目前的掌 ...</span><br>
+<span>你去买外星人那个 也就1.2kg而已</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>帝蓝 发表于 2020-1-10 16:07</span><br>
+<span>你去买外星人那个 也就1.2kg而已</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0. ...</span><br>
+<span>1080p+60帧不是所有游戏都要，tv模式给点盼头也好呀，这样的性能才能保证掌机模式的性能足够吧，另外外星人那个太大太重了，而且我觉得好丑</span><br>
+</p><p><b>ssd: </b><br>
+<span>老任上光追？笑出猪叫</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>反正我不敢开dlss</span><br>
+</p><p><b>棺材叔叔: </b><br>
+<span>玩这些花里胡哨的搞毛呢，敢不敢给60帧！？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>zxz1994: </b><br>
+<span>提前两年设计芯片还是挺正常的，都排到2022年了光追哪有那么高贵？</span><br>
+<span>不过22年感觉早了点，下一代感觉23或者24年出。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>pf67 发表于 2020-1-10 13:53</span><br>
+<span>jd8888居然有队友了！！！</span><br>
+<span>抱歉我点错了</span><br>
+</p><p><b>zxlice: </b><br>
+<span>来个翻盖的</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>新版dlss这么猛了吗我进去看看</span><br>
+</p><p><b>zdejiju: </b><br>
+<span>ssd 发表于 2020-1-10 16:28</span><br>
+<span>老任上光追？笑出猪叫</span><br>
+<span>任天堂是业界最早应用动作捕捉的游戏厂商之一。。</span><br>
+</p><p><b>紫苑寺友子: </b><br>
+<span>你信了吗，我信了</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>66666: </b><br>
+<span>kkk9233 发表于 2020-1-10 17:36</span><br>
+<span>新版dlss这么猛了吗我进去看看</span><br>
+<span>德军总部，去试试，保证你惊掉眼球</span><br>
+</p><p><b>66666: </b><br>
+<span>囧囧囧 发表于 2020-1-10 16:50</span><br>
+<span>反正我不敢开dlss</span><br>
+<span>老黄历了，新版DLSS全新开发的，画质跟老版完全不是一个等级</span><br>
+</p><p><b>lxzxhzwzyy: </b><br>
+<span>神威奏乱 发表于 2020-1-10 15:51</span><br>
+<span>移动端1080p下跑光追过于异想天开，掌机这么大块地方想塞进去能应付光追的soc、散热还有电源，成本必然几何 ...</span><br>
+<span>2023年了还用TegraX1？</span><br>
+<span>玩家要求都这么低看来任天堂的确是没有出下世代机器的必要了。</span><br>
+</p><p><b>ssd: </b><br>
+<span>zdejiju 发表于 2020-1-10 17:44</span><br>
+<span>任天堂是业界最早应用动作捕捉的游戏厂商之一。。</span><br>
+<span>是么？是多久的老黄历了</span><br>
+</p><p><b>JudgmentEye: </b><br>
+<span>宛若青空 发表于 2020-1-10 11:10</span><br>
+<span>只关心后继者能不能向下兼容数字版和卡带，反正出就买</span><br>
+<span>老任哪代不向下兼容</span><br>
+</p><p><b>灰尘山: </b><br>
+<span>JudgmentEye 发表于 2020-1-10 22:38</span><br>
+<span>老任哪代不向下兼容</span><br>
+<span>就现在的switch啊……</span><br>
+</p><p><b>tillnight: </b><br>
+<span>66666 发表于 2020-1-10 10:31</span><br>
+<span>喷了，5nm EUV是14层光刻，7nm Euv/6nm是3层光刻，你说谁成本更低？</span><br>
+<span>台漏电自己都说6nm成本要远低于5nm ...</span><br>
+<span>喷了你个头 ，自己都不知道自己在扯淡什么。</span><br>
+<span>谁告诉你的？7nm euv=6nm，是台漏电下一代主打制程，每百万晶体管成本比5nm便宜很多，类似于12nm</span><br>
+<span>这是你自己扯淡的，我什么时候告诉你任天堂用5NM了，我说的是你扯淡7NM EUV=6NM，6NM是7NM DUV的演进，属于廉价工艺。</span><br>
+<span>谁告诉你的？这里不是pc区就张口就来了？7nm euv确定是过度工艺，后期会全部转5nm euv，6nm是7nm duv马甲作为长期工艺存在（因为便宜成熟，euv你还便宜个头）</span><br>
+<span>这是我说的，哪句话告诉你任天堂用5NM了？哪句话说6NM比5NM贵了？自己扯淡就到处乱扯，再告诉你一遍，6NM是7NM DUV的马甲，所以便宜，根本不存在什么7NM EUV改的6NM。</span><br>
+</p><p><b>morale: </b><br>
+<span>66666 发表于 2020-1-10 17:53</span><br>
+<span>老黄历了，新版DLSS全新开发的，画质跟老版完全不是一个等级</span><br>
+<span>不说别的，你能不能把消息来源贴出来？</span><br>
+</p><p><b>acalephs: </b><br>
+<span> 本帖最后由 acalephs 于 2020-1-10 10:14 编辑 </span><br>
+<span>Jooohnny 发表于 2020-1-9 17:05</span><br>
+<span>7nm euv这个铁憨憨线明年是要变5nm euv的，台积电三年不接单给任天堂留生产线是不是疯了。 ...</span><br>
+<span>谁说的？N7+要变也是变N6，怎么会变N5，N5和N7+完全不兼容的呀</span><br>
+<span>而且N6在路线图里本来就是类似16/12FFC的长期支持节点，支持个三五年很正常。</span><br>
+</p><p><b>acalephs: </b><br>
+<span>tillnight 发表于 2020-1-10 07:15</span><br>
+<span>喷了你个头 ，自己都不知道自己在扯淡什么。</span><br>
+<span>6NM确实是7NM DUV结合5NM的技术改出来的，但是6NM也是用了5层EUV的，是EUV工艺，没你想的那么便宜</span><br>
+</p><p><b>acalephs: </b><br>
+<span> 本帖最后由 acalephs 于 2020-1-10 10:12 编辑 </span><br>
+<span>台积电7nm节点目前有四个工艺：</span><br>
+<span>原版N7，第一代DUV。</span><br>
+<span>改进版N7P，第二代DUV。</span><br>
+<span>测试版EUV工艺N7+，初代EUV，4层EUV光刻。</span><br>
+<span>N6，结合了5nm的底层规则改进的终极版7nm，5层EUV光刻。</span><br>
+<span>N7已经基本停产全部转去了N7P和N7+，N7P和N7+将来会被转去N6。</span><br>
+<span>N5那是另外一回事了，7nm这四个工艺设计规则基本是完全兼容的，所以可以低成本互转。但是N5和它们是不兼容的，后端全得重做。强行把7nm的项目转去N5客户是要骂娘的。</span><br>
+</p><p><b>山竹罐头: </b><br>
+<span>我对现在的ns性能还是很满意的，希望新机器手感能够再好一些</span><br>
+</p><p><b>noirfermion: </b><br>
+<span>NF17 发表于 2020-1-10 09:50</span><br>
+<span>麦克斯韦和帕斯卡本质一个架构</span><br>
+<span>后者能耗比大概提高了1.5</span><br>
+<span>这么算的话，满打满算新NS的性能按照现在30W的GPU ...</span><br>
+<span>现役30W的N家笔记本是1650Max Q，就算锁30也强于RX460（存疑，可能差不多），后者又略强于ps4。如果15w应该不至于勉强赶上，算上降频估计主机模式第三方另存为NS的移植有ps4水平，精心优化的话掌机模式也有。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908705[50-100]</guid>
+    </item>
+    <item>
+      <title>小道消息NS后继者芯片开始设计了（不是加强版）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1908705-1-1.html</link>
+      <description>小道消息NS后继者芯片开始设计了（不是加强版）&#13;
+7nm EUV，流处理器构架为安培（实际上按安培就是图灵1.5，想想maxwell和帕斯卡关系就知道），带硬件光追和tensor core，主机功耗上限15瓦
+&#13;
+设计目标在主机模式下达到1080P光追30帧，猜测应该是在DLSS下达成，估计应该在2022年发售</description>
+      <content:encoded><![CDATA[<p><b>66666: </b><br>
+<span>小道消息NS后继者芯片开始设计了（不是加强版）</span><br>
+<span>7nm EUV，流处理器构架为安培（实际上按安培就是图灵1.5，想想maxwell和帕斯卡关系就知道），带硬件光追和tensor core，主机功耗上限15瓦</span><br>
+<span>设计目标在主机模式下达到1080P光追30帧，猜测应该是在DLSS下达成，估计应该在2022年发售</span><br>
+</p><p><b>obiy: </b><br>
+<span>1080P dlss</span><br>
+</p><p><b>紫毛母猩猩: </b><br>
+<span>1080p30帧，我不要光追行不行</span><br>
+</p><p><b>Jooohnny: </b><br>
+<span>7nm euv这个铁憨憨线明年是要变5nm euv的，台积电三年不接单给任天堂留生产线是不是疯了。</span><br>
+</p><p><b>firimp-L: </b><br>
+<span>丢，说好的枯萎技术呢，任家要光追干啥</span><br>
+</p><p><b>thez: </b><br>
+<span>不要光追给我60帧行不行？</span><br>
+<span>—— 来自 OPPO PCLM10, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>66666: </b><br>
+<span>obiy 发表于 2020-1-10 09:03</span><br>
+<span>1080P dlss</span><br>
+<span>现在新版DLSS在1080P下画质超猛的好吧，已经秒杀源生TAA了，而且速度比老版DLSS还要快的多，猜测可能就是专门为任天堂专门研发</span><br>
+<span>之前DLSS支持1080P的游戏都没2个</span><br>
+</p><p><b>EdSheeran: </b><br>
+<span>讲真，更期待掌机模式么的表现。</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v1.3.1.0</span><br>
+</p><p><b>Niko_83c: </b><br>
+<span>懂了，还差一个石村炮出来吹逼</span><br>
+</p><p><b>66666: </b><br>
+<span>Jooohnny 发表于 2020-1-10 09:05</span><br>
+<span>7nm euv这个铁憨憨线明年是要变5nm euv的，台积电三年不接单给任天堂留生产线是不是疯了。 ...</span><br>
+<span>谁告诉你的？7nm euv=6nm，是台漏电下一代主打制程，每百万晶体管成本比5nm便宜很多，类似于12nm</span><br>
+</p><p><b>绿冰: </b><br>
+<span>光追就是未来的趋势，本来老黄厂就有优势，和另外两家又可以拉点时间差用更成熟的</span><br>
+<span>上是肯定要上的，最后用得上的有多少是另一回事</span><br>
+</p><p><b>obiy: </b><br>
+<span>66666 发表于 2020-1-10 09:06</span><br>
+<span>现在新版DLSS在1080P下画质超猛的好吧，已经秒杀源生TAA了，而且速度比老版DLSS还要快的多，猜测可能 ...</span><br>
+<span>猛汉王的dlss有提升吗</span><br>
+</p><p><b>66666: </b><br>
+<span>obiy 发表于 2020-1-10 09:09</span><br>
+<span>猛汉王的dlss有提升吗</span><br>
+<span>MHW还是用老版DLSS，不过增加了锐化新算法，比之前稍微好一点</span><br>
+<span>当然还是比较糊，要想新版DLSS需要重新训练，后面的新游戏DLSS完全可以取代源生画质</span><br>
+</p><p><b>66666: </b><br>
+<span>thez 发表于 2020-1-10 09:06</span><br>
+<span>不要光追给我60帧行不行？</span><br>
+<span>—— 来自 OPPO PCLM10, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>可以啊，不开光追跑60帧应该是没有太大问题，加光追只是未来能蹭点次世代冷饭罢了</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>我不要光追给我60帧好不好</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>不是pro机型是后继者......</span><br>
+<span>那么virtual console还出么...我还等着玩马里奥银河来</span><br>
+</p><p><b>mintpie: </b><br>
+<span>一直没觉得光追那么重要。PS5也在重点宣传硬件光追。你们这些不争气的能不能先把60帧搞出来啊？</span><br>
+</p><p><b>最爱大萌德: </b><br>
+<span>听着就不像真的</span><br>
+</p><p><b>zhouaa: </b><br>
+<span>2022年还在玩30帧，电子游戏业怕是比电影业更晚进入全面60帧</span><br>
+</p><p><b>传说中的天才: </b><br>
+<span>zhouaa 发表于 2020-1-10 09:33</span><br>
+<span>2022年还在玩30帧，电子游戏业怕是比电影业更晚进入全面60帧</span><br>
+<span>CES ROG新的显示器已经到360Hz了，身边玩FPS的朋友都是120Hz起了。</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>什么了色，还玩dlss 30 1080p 光追呢？</span><br>
+</p><p><b>轨迹秒了: </b><br>
+<span>mintpie 发表于 2020-1-10 09:30</span><br>
+<span>一直没觉得光追那么重要。PS5也在重点宣传硬件光追。你们这些不争气的能不能先把60帧搞出来啊？ ...</span><br>
+<span>PS5不是说标配260帧，部分120帧吗</span><br>
+</p><p><b>zdejiju: </b><br>
+<span>zhouaa 发表于 2020-1-10 09:33</span><br>
+<span>2022年还在玩30帧，电子游戏业怕是比电影业更晚进入全面60帧</span><br>
+<span>隔壁还在战画面呢，在厂商看起来30帧把画面做好点不比做60帧有卖相多了，60帧还没那么容易逃课。</span><br>
+</p><p><b>66666: </b><br>
+<span>zhouaa 发表于 2020-1-10 09:33</span><br>
+<span>2022年还在玩30帧，电子游戏业怕是比电影业更晚进入全面60帧</span><br>
+<span>这有什么好奇怪的，游戏机更重视画面效果和游戏本身可玩性，一般玩家谁搞的清楚什么30还是60帧</span><br>
+<span>剑盾那卡的一逼估计连20帧都不到的游戏还能大卖千万套</span><br>
+</p><p><b>roamer: </b><br>
+<span>喜欢60帧或更高买ps5/pc/xb不就得了,何苦来任天堂这找不痛快</span><br>
+</p><p><b>zpsw00000: </b><br>
+<span>所以说有些论坛玩家就是傻逼，现在一个小道消息说会有光追，先骂一遍，等真的出来没有，你是扇自己两巴掌还是再骂一遍？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>风行骓: </b><br>
+<span>物理加速、曲面细分、光线追踪......都是些花里胡哨的玩意儿。美术风格决定游戏画面，而不是靠这些</span><br>
+</p><p><b>捧读小见川: </b><br>
+<span>主机机能提升的宣传已经到了瓶颈，之前吹4K，现在吹光追，根本就是找不到地方吹只能吹这些东西了。</span><br>
+<span>吹帧数？不好意思PC帧数你要多高有多高。</span><br>
+</p><p><b>NF17: </b><br>
+<span>麦克斯韦和帕斯卡本质一个架构</span><br>
+<span>后者能耗比大概提高了1.5</span><br>
+<span>这么算的话，满打满算新NS的性能按照现在30W的GPU来看</span><br>
+<span>浮点应该是不超过1.2T的，算上架构加成大概等同PS4的1.8T</span><br>
+<span>还行吧，虽然隔了将近十年，但毕竟是移动设备</span><br>
+<span>不过15W手持的话，散热压力略大</span><br>
+</p><p><b>NF17: </b><br>
+<span>风行骓 发表于 2020-1-10 09:46</span><br>
+<span>物理加速、曲面细分、光线追踪......都是些花里胡哨的玩意儿。美术风格决定游戏画面，而不是靠这些 ...</span><br>
+<span>没有物理加速的话连BOTW都做不出来</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>捧读小见川 发表于 2020-1-10 09:48</span><br>
+<span>主机机能提升的宣传已经到了瓶颈，之前吹4K，现在吹光追，根本就是找不到地方吹只能吹这些东西了。</span><br>
+<span>吹帧数 ...</span><br>
+<span>主机还是价格为王，不考虑成本当然要多高有多高</span><br>
+</p><p><b>捧读小见川: </b><br>
+<span>whzfjk 发表于 2020-1-10 09:53</span><br>
+<span>主机还是价格为王，不考虑成本当然要多高有多高</span><br>
+<span>那换句话说帧数这种老词无法刺激轻度玩家，4K、光追这种新词可能会让轻度玩家觉得好屌</span><br>
+</p><p><b>fantuanxiaoyi: </b><br>
+<span>30帧60帧问题不是太大，最要紧的是帧数稳定，别稍微复杂点的场景就掉成狗了，卡得玩都玩不爽，这个15W可太秀了，不用入耳或者降噪耳机能玩？</span><br>
+</p><p><b>clover293: </b><br>
+<span>光追，好叼</span><br>
+</p><p><b>hyypia: </b><br>
+<span>2022年上说实话有点晚，2021下半年是个比较合适的时间</span><br>
+</p><p><b>lingtian2876: </b><br>
+<span>2022年……</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>tillnight: </b><br>
+<span> 本帖最后由 tillnight 于 2020-1-10 10:23 编辑 </span><br>
+<span>66666 发表于 2020-1-10 09:07</span><br>
+<span>谁告诉你的？7nm euv=6nm，是台漏电下一代主打制程，每百万晶体管成本比5nm便宜很多，类似于12nm</span><br>
+<span> ...</span><br>
+<span>谁告诉你的？这里不是pc区就张口就来了？7nm euv确定是过度工艺，后期会全部转5nm euv，6nm是7nm duv马甲作为长期工艺存在（因为便宜成熟，euv你还便宜个头）</span><br>
+</p><p><b>66666: </b><br>
+<span>tillnight 发表于 2020-1-10 10:22</span><br>
+<span>谁告诉你的？这里不是pc区就张口就来了？7nm euv确定是过度工艺，后期会全部转5nm euv，6nm是7nm duv马甲 ...</span><br>
+<span>喷了，5nm EUV是14层光刻，7nm Euv/6nm是3层光刻，你说谁成本更低？</span><br>
+<span>台漏电自己都说6nm成本要远低于5nm，游戏机怎么会用5nm这么贵的玩意</span><br>
+</p><p><b>撒撒: </b><br>
+<span> 本帖最后由 撒撒 于 2020-1-10 10:59 编辑 </span><br>
+<span>15w是指主机模式，掌机模式下芯片可能没有那么高功耗。</span><br>
+</p><p><b>elsd: </b><br>
+<span>楼主最起码说下消息源哪里把，是舅舅党，还是朋友党，还是海外新闻转载。</span><br>
+</p><p><b>绿冰: </b><br>
+<span>之所以说光追是未来趋势可不是因为效果多好，而是因为会大幅降低大型游戏开发的美工成本</span><br>
+<span>就和虚幻4铺展开后，二线厂商纷纷抛弃自研引擎一样</span><br>
+<span>哪怕实际光追的效果并不如现在的分辨率、帧数好，一旦成规模了成本可以大降，厂商们就不跟你吹4k、8k了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2020-1-10 10:52 编辑 </span><br>
+<span>绿冰 发表于 2020-1-10 10:35</span><br>
+<span>之所以说光追是未来趋势可不是因为效果多好，而是因为会大幅降低大型游戏开发的美工成本</span><br>
+<span>就和虚幻4铺展开后 ...</span><br>
+<span>那么现在游戏开发中具体怎么降低的呢？</span><br>
+</p><p><b>胶袋几百个教授: </b><br>
+<span>2022年发售太早了吧，ns才卖5年？wiiu都卖了四年多啊。还有加强版到底有没有，今年出加强版，后年就出下一代？</span><br>
+</p><p><b>h82258652: </b><br>
+<span>2022，想太多了。初版 3DS 2011 年发售的，NS 则是 2017 年发售，也就是 3DS 等了 6 年才出后继机，更别说 NS 出来那一两年 3DS 还龙精虎猛的。现在 NS 势头比 3DS 还好，而且掌机方面也没有竞争对手，生命周期只会更长。我觉得 NS 苟到 2023 甚至 2024 都不是问题。</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>消息来源是哪啊</span><br>
+</p><p><b>宛若青空: </b><br>
+<span>只关心后继者能不能向下兼容数字版和卡带，反正出就买</span><br>
+</p><p><b>lolozp: </b><br>
+<span>其实别搞pro半代升级，2023出一个接近ps4性能的新形态Switch也可以啊</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>别做梦了，任地狱就是任地狱，在性能方面从不让人失望</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>原来如此: </b><br>
+<span>消息来源都没，你们还战</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>lxzxhzwzyy: </b><br>
+<span>共谍常凯申 发表于 2020-1-10 11:24</span><br>
+<span>别做梦了，任地狱就是任地狱，在性能方面从不让人失望</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S ...</span><br>
+<span>这个性能很好吗？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1908705[0-50]</guid>
+    </item>
+  </channel>
+</rss>

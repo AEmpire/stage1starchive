@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[华语第一码农论坛]问一个matlab数据写入Excel的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[华语第一码农论坛]问一个matlab数据写入Excel的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:36:11 +0000</lastBuildDate>
+    <item>
+      <title>[华语第一码农论坛]问一个matlab数据写入Excel的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850769-1-1.html</link>
+      <description>[华语第一码农论坛]问一个matlab数据写入Excel的问题&#13;
+虽然好像有人说MATLAB不算编程语言，但是请让我姑且问一个相关问题。
+
+具体问题大概是，MATLAB先读取一张表，因为表里面数据类型很杂，我是整个导入为cell类型进行处理的，一番筛选后生成一个新的元胞矩阵，写入Excel，其中身份证那一行的纯数字元素全部变成科学计数法（即xxE＋oo），转成文本格式后，后5位全部是0。
+
+我直接在MATLAB工作区查看矩阵，这里面的数据倒是没有改我的精确度，问题应该出在xlswrite这一步，试了一百种方法，实在解决不了了。
+
+有没有好哥哥有好办法狗狗孩子啊</description>
+      <content:encoded><![CDATA[<p><b>茶卡特尔: </b><br>
+<span>[华语第一码农论坛]问一个matlab数据写入Excel的问题</span><br>
+<span>虽然好像有人说MATLAB不算编程语言，但是请让我姑且问一个相关问题。</span><br>
+<span>具体问题大概是，MATLAB先读取一张表，因为表里面数据类型很杂，我是整个导入为cell类型进行处理的，一番筛选后生成一个新的元胞矩阵，写入Excel，其中身份证那一行的纯数字元素全部变成科学计数法（即xxE＋oo），转成文本格式后，后5位全部是0。</span><br>
+<span>我直接在MATLAB工作区查看矩阵，这里面的数据倒是没有改我的精确度，问题应该出在xlswrite这一步，试了一百种方法，实在解决不了了。</span><br>
+<span>有没有好哥哥有好办法狗狗孩子啊</span><br>
+</p><p><b>frosta: </b><br>
+<span>身份证用数字超精度了，matlab不熟，不能转成字符串么</span><br>
+<span>— from samsung SM-G975U, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>顺便一问，查了很多，难道MATLAB没有直接把cell矩阵转化成string的公式吗，这一点稍微有点坑吧</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>https://stackoverflow.com/questions/13258508/how-to-convert-a-cell-to-string-in-matlab</span><br>
+<span>我去帮楼主试试看</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>mathwork社区里面有一个用户上传的cell2str函数，能转单个的数据，矩阵不行，我这几万个数据一个个读取怕不是要一年</span><br>
+<span>不过就算转成字符串格式，写到Excel表里面还是科学计数法，就很不晓得是为什么</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>matlab不能指定一个单元格的数据格式吗？</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>试了一下，double好像会丢身份证最后两位，所以要身份证要保存为int64类型</span><br>
+<span>然后用</span><br>
+<span>vcell(cellfun(@isinteger, vcell)) =cellfun(@(x) sprintf('%d', x), vcell(cellfun(@isinteger, vcell)), 'UniformOutput', false)</span><br>
+<span>可以把vcell中所有int类型的转换为str，但是也是一个个读取数据的，也很慢</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>すぴぱら 发表于 2019-8-2 09:12</span><br>
+<span>matlab不能指定一个单元格的数据格式吗？</span><br>
+<span>一般来讲，生成矩阵都是先生成一个double格式的矩阵，然后转化成string或者cell格式，cell转成string规矩死多</span><br>
+</p><p><b>nsevit: </b><br>
+<span>非要用matlab吗？用python应该挺容易做的</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>有试了试，这大概不是matlab的问题，应该是excel的锅</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>nsevit 发表于 2019-8-2 09:21</span><br>
+<span>非要用matlab吗？用python应该挺容易做的</span><br>
+<span>转化数据类型吗？</span><br>
+<span>可是现在主要问题出在excel上面，不管什么格式的数据，只要是很纯很大数字，只要导入里面它就自作聪明的给你弄成科学计数</span><br>
+</p><p><b>阿斯特雷: </b><br>
+<span>你matlab版本高的话，试试读成table型不要读成cell型</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 09:33</span><br>
+<span>转化数据类型吗？</span><br>
+<span>可是现在主要问题出在excel上面，不管什么格式的数据，只要是很纯很大数字，只要导入里 ...</span><br>
+<span>写成csv再另存为xlsx格式？</span><br>
+</p><p><b>maxsch: </b><br>
+<span>变通的办法，先输出到文本，比如TXT，然后手动把数据处理进excel</span><br>
+<span>可以使用特定的分隔符，比如 | 或者 $ 之类的，然后再在excel里面分割数据。</span><br>
+<span>数据是完整的，再进excel怎么折腾都可以</span><br>
+<span>相信我，我是工程师.JPG</span><br>
+</p><p><b>鲭saba: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 09:33</span><br>
+<span>转化数据类型吗？</span><br>
+<span>可是现在主要问题出在excel上面，不管什么格式的数据，只要是很纯很大数字，只要导入里 ...</span><br>
+<span>别的编程语言，包括直接复制进去的，基本都是写入excel的时候要把单元格格式设成文本型。不知道matlab有没有这种操作</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dkswxd: </b><br>
+<span> 本帖最后由 dkswxd 于 2019-8-2 09:48 编辑 </span><br>
+<span>茶卡特尔 发表于 2019-8-2 09:33</span><br>
+<span>转化数据类型吗？</span><br>
+<span>可是现在主要问题出在excel上面，不管什么格式的数据，只要是很纯很大数字，只要导入里 ...</span><br>
+<span>matlab数据类型里面没有科学计数，只有整型或者浮点，但是会显示成科学计数，你用class函数看一下身份证那个cell是不是int64或者uint64还是double，比如说class(x{2,3})</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 09:31</span><br>
+<span>有试了试，这大概不是matlab的问题，应该是excel的锅</span><br>
+<span>肯定不是excel的问题，我平时用c#写，可以任意指定excel单元格的类型和样式</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>maxsch 发表于 2019-8-2 09:41</span><br>
+<span>变通的办法，先输出到文本，比如TXT，然后手动把数据处理进excel</span><br>
+<span>可以使用特定的分隔符，比如 | 或者 $ 之 ...</span><br>
+<span>和直接把工作区的矩阵直接ctrl c+v有啥区别吗？</span><br>
+<span>我这样弄的话是直接识别为字符串了，但是每个数据上都有单引号，我这边有几万条数据，手动处理的话工作量太大了</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>https://www.mathworks.com/matlabcentral/answers/92746-why-is-there-loss-of-precision-when-writing-values-using-csvwrite-in-matlab-7-0-r14</span><br>
+<span>谷歌一下不难吧</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>Excel用的不多，我记得Excel不会改数值，只不过会默认数值高了会显示为科学记数法。所以改一下单元格式，常规改成数值，小数位设为0应该就可以了？</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>execl的数字字符串请在开头加一个斜引号</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>如果没有小数点应该不会损失精度。如果有小数点，LS链接里给出解决方法了：</span><br>
+<span>dlmwrite('filename.csv', , 'delimiter', ',', 'precision', 9);</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>漫区专号 发表于 2019-8-2 10:01</span><br>
+<span>如果没有小数点应该不会损失精度。如果有小数点，LS链接里给出解决方法了：</span><br>
+<span>dlmwrite('filename.csv', </span><br>
+<span>没有小数点也会损失精度，可以试试，前不加单引号，把自己的身份证输进一个单元格，在你打出回车的那一瞬间，excel就把你最后几位数据吞掉了</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>说了在Excel里改一下单元格格式</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 10:10</span><br>
+<span>没有小数点也会损失精度，可以试试，前不加单引号，把自己的身份证输进一个单元格，在你打出回车的那一瞬 ...</span><br>
+<span>默认的单元格格式是常规，那么超过12位就会显示为科学记数。</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>漫区专号 发表于 2019-8-2 10:12</span><br>
+<span>说了在Excel里改一下单元格格式</span><br>
+<span>说了没用，你前一个表格式设计的再花哨，matlab创建新表格的时候还是默认格式</span><br>
+</p><p><b>無想の風: </b><br>
+<span>身份证最后几位会变动，应该是机器浮点数保存精度导致的</span><br>
+<span>eps(123456789012345678)</span><br>
+<span>ans =    16</span><br>
+<span>这么大的数在机器里面用默认精度计数的话已经做不到附近的相邻整数差值为1了</span><br>
+</p><p><b>漫区专号: </b><br>
+<span> 本帖最后由 漫区专号 于 2019-8-2 10:41 编辑 </span><br>
+<span>茶卡特尔 发表于 2019-8-2 10:14</span><br>
+<span>说了没用，你前一个表格式设计的再花哨，matlab创建新表格的时候还是默认格式 ...</span><br>
+<span>理论上matlab输出的数值并未改变，只是在Excel里不显示，只要在Excel里改单元格格式就会显示。另Excel输出的是显示的数据。</span><br>
+<span>在就是除非是文本过大的数值Excel的单个单元里根本就不能储存，这个是无解的。</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>漫区专号 发表于 2019-8-2 10:20</span><br>
+<span>理论上matlab输出的数值并未改变，只是在Excel里不显示，只要在Excel里改单元格格式就会显示。另Excel输 ...</span><br>
+<span>我大概能确定这么直接转是无解的了</span><br>
+<span>要么直接从MATLAB工作区复制过去，要么恶补一下SQL的知识用SQL做</span><br>
+</p><p><b>無想の風: </b><br>
+<span>试试</span><br>
+<span>C = cell(2,1);</span><br>
+<span>C{1} = 1.23456789012345678E+17;</span><br>
+<span>C{2} = 1.32456789012345687E+17;</span><br>
+<span>T = string( ,), num2str( cell2mat(C), '%18.0f' )] );</span><br>
+<span>xlswrite('test.xls', T);</span><br>
+</p><p><b>nsevit: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 09:47</span><br>
+<span>和直接把工作区的矩阵直接ctrl c+v有啥区别吗？</span><br>
+<span>我这样弄的话是直接识别为字符串了，但是每个数据上都有 ...</span><br>
+<span>上面也有人说了，存成CSV格式，然后用excel导入的时候这列选择文本格式就行了</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>nsevit 发表于 2019-8-2 10:33</span><br>
+<span>上面也有人说了，存成CSV格式，然后用excel导入的时候这列选择文本格式就行了 ...</span><br>
+<span>我试试</span><br>
+</p><p><b>dkswxd: </b><br>
+<span> 本帖最后由 dkswxd 于 2019-8-2 11:01 编辑 </span><br>
+<span>怎么就不行了呢。。。我还能每人身份证加1呢</span><br>
+<span>原文件'1.xlsx'</span><br>
+<span>铟镓砷      '333333333333333333      男      汉族      2333</span><br>
+<span>碲镉汞      '333333333333333333      男      汉族      2333</span><br>
+<span>脚本</span><br>
+<span> = xlsread('1.xlsx');</span><br>
+<span> = size(raw);</span><br>
+<span>for i = 1:height</span><br>
+<span>    raw{i,2} = sscanf(raw{i,2},'%ld');</span><br>
+<span>    raw{i,2} =raw{i,2} + 1;</span><br>
+<span>end</span><br>
+<span>raw(cellfun(@isinteger, raw)) =cellfun(@(x) sprintf('''%d', x), raw(cellfun(@isinteger, raw)), 'UniformOutput', false);</span><br>
+<span>xlswrite('1.xlsx', raw);</span><br>
+<span>新文件'1.xlsx'</span><br>
+<span>铟镓砷      '333333333333333334      男      汉族      2333</span><br>
+<span>碲镉汞      '333333333333333334      男      汉族      2333</span><br>
+<span>妈个鸡，为什么我感觉我就像一条舔不到楼主的舔狗，楼主你至少回一下这个脚本行不行，出错了的时候报了什么错啊</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>dkswxd 发表于 2019-8-2 10:45</span><br>
+<span>怎么就不行了呢。。。我还能每人身份证加1呢</span><br>
+<span>原文件'1.xlsx'</span><br>
+<span>不是，我这边的文档里面的身份证号格式就不是‘3333333333333333333333格式的，上面给我表就是一串文本格式的数字，怎么读取读不到前面的单引号我有什么办法啊</span><br>
+</p><p><b>dkswxd: </b><br>
+<span> 本帖最后由 dkswxd 于 2019-8-2 11:17 编辑 </span><br>
+<span>茶卡特尔 发表于 2019-8-2 11:11</span><br>
+<span>不是，我这边的文档里面的身份证号格式就不是‘3333333333333333333333格式的，上面给我表就是一串文本格 ...</span><br>
+<span>能不能不要上来就是一个不是啊。。。。。。</span><br>
+<span> '333333333333333333读进matlab就是char字符格式的</span><br>
+<span>所以要用sscanf转成int64格式的数字</span><br>
+<span>不要试都不试一下，就在那边不是啊</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>dkswxd 发表于 2019-8-2 11:15</span><br>
+<span>能不能不要上来就是一个不是啊。。。。。。</span><br>
+<span> '333333333333333333读进matlab就是char字符格式的</span><br>
+<span>所以要用 ...</span><br>
+<span>我都试了一个上午了，真的不行</span><br>
+<span>我这边的拿到的文档身份证那一列的格式就没有格式，前面没有单引号，读到matlab里面还是没有单引号</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 11:18</span><br>
+<span>我都试了一个上午了，真的不行</span><br>
+<span>我这边的拿到的文档身份证那一列的格式就没有格式，前面没有单引号，读到m ...</span><br>
+<span>那和我这个不是一样吗？？？</span><br>
+<span>我这个读到matlab也是没有单引号的char格式字符串啊，你还有什么要求一起说好吧</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>dkswxd 发表于 2019-8-2 11:20</span><br>
+<span>那和我这个不是一样吗？？？</span><br>
+<span>我这个读到matlab也是没有单引号的char格式字符串啊，你还有什么要求一起说 ...</span><br>
+<span>我现在就是将就一下把那一列直接从工作区的矩阵里复制过去，在excel里面就是‘333333333333’的格式，真的没啥要求了，反正实习摸摸鱼得了</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>茶卡特尔 发表于 2019-8-2 11:18</span><br>
+<span>我都试了一个上午了，真的不行</span><br>
+<span>我这边的拿到的文档身份证那一列的格式就没有格式，前面没有单引号，读到m ...</span><br>
+<img src="https://i.loli.net/2019/08/02/5d43aca274afc29526.png" title="https://i.loli.net/2019/08/02/5d43aca274afc29526.png"><br>
+<span>传了一张i.loli.net的截图，我这个脚本里面，matlab读到的就是字符，333333333333333333就是读到的内容，前面也没有额外的引号（那个是和后面配对的）</span><br>
+</p><p><b>dkswxd: </b><br>
+<span> 本帖最后由 dkswxd 于 2019-8-2 11:29 编辑 </span><br>
+<span>茶卡特尔 发表于 2019-8-2 11:24</span><br>
+<span>我现在就是将就一下把那一列直接从工作区的矩阵里复制过去，在excel里面就是‘333333333333’的格式，真 ...</span><br>
+<span>算了算了，反正没人愿意听正经事，s1还是拿来吹牛钓鱼吧</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>dkswxd 发表于 2019-8-2 11:26</span><br>
+<span>传了一张i.loli.net的截图，我这个脚本里面，matlab读到的就是字符，333333333333333333就是读到的内容 ...</span><br>
+<span>对，我cell数组也是这样</span><br>
+<span>好吧，我再看看你的脚本</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>dkswxd 发表于 2019-8-2 11:27</span><br>
+<span>算了算了，反正没人愿意听正经事，s1还是拿来吹牛钓鱼吧</span><br>
+<span>别别别，是我睿智了，想当然觉得自己肯定尝试过了就没仔细看，s1缺的就是老哥你这样认真的人啊</span><br>
+</p><p><b>無想の風: </b><br>
+<span>我前面30楼就发脚本了啊，感觉楼主真是，就抱怨“都试了一百种方法了”，别人正经跟你讨论，你反而不搭理了，算了，爱咋咋地吧</span><br>
+</p><p><b>茶卡特尔: </b><br>
+<span>無想の風 发表于 2019-8-2 11:46</span><br>
+<span>我前面30楼就发脚本了啊，感觉楼主真是，就抱怨“都试了一百种方法了”，别人正经跟你讨论，你反而不搭理了 ...</span><br>
+<span>您说的对</span><br>
+</p><p><b>icerhe: </b><br>
+<span>写成csv不好吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850769[0-50]</guid>
+    </item>
+  </channel>
+</rss>

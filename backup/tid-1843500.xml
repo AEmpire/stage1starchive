@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GitHub中文帮助文档上线：统一术语翻译 Fork成“分叉”</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>GitHub中文帮助文档上线：统一术语翻译 Fork成“分叉”</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:22:08 +0000</lastBuildDate>
+    <item>
+      <title>GitHub中文帮助文档上线：统一术语翻译 Fork成“分叉”[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843500-1-1.html</link>
+      <description>GitHub中文帮助文档上线：统一术语翻译 Fork成“分叉”&#13;
+新智元   2019-07-01 14:39:02摘要：GitHub刚刚推出官方中文帮助文档，这是继日文版之后第二个非英语语种的帮助文档。GitHub希望借此能够帮助中文开发者更好的理解GitHub操作规范，降低学习门槛。曾经，为了能畅通的浏览/使用GitHub而努力学习英语；现在，那股动力眼看就要被浇灭了。
+&#13;
+GitHub刚刚推出了官方中文帮助文档，这是继日文帮助文档之后，第二个非英语语种的帮助文档。GitHub希望借此来帮助中文开发者更好的理解GitHub操作规范，降低学习门槛。https://static.cnbetacdn.com/thumb/article/2019/0701/dd345c02b335648.jpeg虽然之前也有不少第三方的汉化文档，但相比而言，微软官方推出的汉化文档无论在汉化程度还是标准程度方面，都是最佳的。https://static.cnbetacdn.com/thumb/article/2019/0701/81c468f1fc60c58.jpeg
+&#13;
+Repository：此前有人称其为仓库，有人翻译为版本库，有人则翻译成项目。现在统一称为“仓库”
+&#13;
+Fork：翻译一直很有争议，因此通常不翻译。有翻译成分叉、也有翻译成分支的。Linux中国翻译组（LCTT）的译者dongfengweixiao曾提议将Fork译作“复刻”，词义和读音两方面都比较契合。现在官方将其翻译成“分叉”Issue：通常情况下选择不翻译，现在统一称作“议题”Blame：考虑了中外的文化差异导致的理解偏差，被翻译成“追溯”，Fetch：翻译成“获取”Pull：翻译成“拉取”https://static.cnbetacdn.com/thumb/article/2019/0701/d30bdcff9767b9d.jpeghttps://static.cnbetacdn.com/thumb/article/2019/0701/f033095b54a6e4b.jpeg自微软宣布75亿美元（约480亿人民币）收购GitHub开始，已经过去了一年时间。该交易一开始就受到开发者的质疑，部分原因源自鲍尔默时代微软对开源软件的排斥态度。GitHub的对手GitLab趁机推出代码迁移教程，同时以2.5折的新用户优惠拉拢了不少用户，据称在此期间抛弃GitHub转投GitLab的用户增长了10倍。但微软现在的掌舵人已经换成纳德拉，微软的态度发生了180度大转变。纳德拉看到了开源背后的广阔市场，从而促使微软从2014年开始，成为GitHub上非常活跃且重要的开源贡献者。为了打消开发者的疑虑，微软还特意发公开信表示不打算在GitHub上做太多改变，不会改变“以开发者为中心”的初心，依旧会积极地拥抱开源。新任CEO Nat Friedman也在博客里重申，微软对GitHub的收购不会改变GitHub的独立运营及其产品理念，并给出了3个承诺：
+&#13;
+确保GitHub是社区和团队生长的最佳场所
+&#13;
+使GitHub可以被全世界更多的开发者使用可靠性、安全性、性能
+&#13;
+不过这一年时间里微软也没闲着，收购GitHub后不到2个月时间就对GitHub进行了一次改版。Github前端工程师Mislav Marohnić发推解释为什么此次改版，在网站重构过程中放弃了jQuery，且没有使用其他框架去替代jQuery，而是选择使用原生JS，并列举了具体实现：[使用querySelectorAll来查询DOM节点
+&#13;
+使用fetch来代替ajax事件处理使用了事件代理使用DOM标准化写了polyfill使用了自定义元素随后，GitHub又推出了GitHub Sponsors的“打赏”功能，用户可以通过一种新方式给日常使用的开源项目的开发者提供资金支持。目前官方帮助文档中，已将其汉化为“GitHub 赞助者”。https://static.cnbetacdn.com/article/2019/0701/8a187603d2ca16f.jpeg该计划显示，开发者参与的第一年里，GitHub将提供高达5000美元的捐助。在接下来的12个月里，GitHub也不会收取任何支付处理费用(但这段时间结束后可能就会收取费用了)。https://static.cnbetacdn.com/thumb/article/2019/0701/a7f1ed087b824e6.jpeg虽然网友对此大多持积极态度，但同时也指出了潜在的问题：wtf42：棒！GitHub甚至可以改变公司处理开源开发的方式（就像Uber改变出租车市场一样）。相比雇用（并保持）全职开发人员（需要支付保险，税收等），公司可以滥用这个系统并“说服”员工赞助开源项目，成功后给奖金。在劳工保障薄弱的国家可能发生
+&#13;
+ladon86：这是一个好主意，但随着该功能的引入，可能导致维护者会在README中提供标识或者链接以获取每月赞助。我打赌很可能看到“星钻/黄金/白银/青铜”等级制度的出现如今，微软不仅推出了汉化版的帮助文档，还声称未来会加入更多语言的支持。那么我们有理由推测，GitHub网站的中文版未来也可能会出现。</description>
+      <content:encoded><![CDATA[<p><b>Prushka: </b><br>
+<span>GitHub中文帮助文档上线：统一术语翻译 Fork成“分叉”</span><br>
+<span>新智元   2019-07-01 14:39:02摘要：GitHub刚刚推出官方中文帮助文档，这是继日文版之后第二个非英语语种的帮助文档。GitHub希望借此能够帮助中文开发者更好的理解GitHub操作规范，降低学习门槛。曾经，为了能畅通的浏览/使用GitHub而努力学习英语；现在，那股动力眼看就要被浇灭了。</span><br>
+<span>GitHub刚刚推出了官方中文帮助文档，这是继日文帮助文档之后，第二个非英语语种的帮助文档。GitHub希望借此来帮助中文开发者更好的理解GitHub操作规范，降低学习门槛。https://static.cnbetacdn.com/thumb/article/2019/0701/dd345c02b335648.jpeg虽然之前也有不少第三方的汉化文档，但相比而言，微软官方推出的汉化文档无论在汉化程度还是标准程度方面，都是最佳的。https://static.cnbetacdn.com/thumb/article/2019/0701/81c468f1fc60c58.jpeg</span><br>
+<span>Repository：此前有人称其为仓库，有人翻译为版本库，有人则翻译成项目。现在统一称为“仓库”</span><br>
+<span>Fork：翻译一直很有争议，因此通常不翻译。有翻译成分叉、也有翻译成分支的。Linux中国翻译组（LCTT）的译者dongfengweixiao曾提议将Fork译作“复刻”，词义和读音两方面都比较契合。现在官方将其翻译成“分叉”Issue：通常情况下选择不翻译，现在统一称作“议题”Blame：考虑了中外的文化差异导致的理解偏差，被翻译成“追溯”，Fetch：翻译成“获取”Pull：翻译成“拉取”https://static.cnbetacdn.com/thumb/article/2019/0701/d30bdcff9767b9d.jpeghttps://static.cnbetacdn.com/thumb/article/2019/0701/f033095b54a6e4b.jpeg自微软宣布75亿美元（约480亿人民币）收购GitHub开始，已经过去了一年时间。该交易一开始就受到开发者的质疑，部分原因源自鲍尔默时代微软对开源软件的排斥态度。GitHub的对手GitLab趁机推出代码迁移教程，同时以2.5折的新用户优惠拉拢了不少用户，据称在此期间抛弃GitHub转投GitLab的用户增长了10倍。但微软现在的掌舵人已经换成纳德拉，微软的态度发生了180度大转变。纳德拉看到了开源背后的广阔市场，从而促使微软从2014年开始，成为GitHub上非常活跃且重要的开源贡献者。为了打消开发者的疑虑，微软还特意发公开信表示不打算在GitHub上做太多改变，不会改变“以开发者为中心”的初心，依旧会积极地拥抱开源。新任CEO Nat Friedman也在博客里重申，微软对GitHub的收购不会改变GitHub的独立运营及其产品理念，并给出了3个承诺：</span><br>
+<span>确保GitHub是社区和团队生长的最佳场所</span><br>
+<span>使GitHub可以被全世界更多的开发者使用可靠性、安全性、性能</span><br>
+<span>不过这一年时间里微软也没闲着，收购GitHub后不到2个月时间就对GitHub进行了一次改版。Github前端工程师Mislav Marohnić发推解释为什么此次改版，在网站重构过程中放弃了jQuery，且没有使用其他框架去替代jQuery，而是选择使用原生JS，并列举了具体实现：[使用querySelectorAll来查询DOM节点</span><br>
+<span>使用fetch来代替ajax事件处理使用了事件代理使用DOM标准化写了polyfill使用了自定义元素随后，GitHub又推出了GitHub Sponsors的“打赏”功能，用户可以通过一种新方式给日常使用的开源项目的开发者提供资金支持。目前官方帮助文档中，已将其汉化为“GitHub 赞助者”。https://static.cnbetacdn.com/article/2019/0701/8a187603d2ca16f.jpeg该计划显示，开发者参与的第一年里，GitHub将提供高达5000美元的捐助。在接下来的12个月里，GitHub也不会收取任何支付处理费用(但这段时间结束后可能就会收取费用了)。https://static.cnbetacdn.com/thumb/article/2019/0701/a7f1ed087b824e6.jpeg虽然网友对此大多持积极态度，但同时也指出了潜在的问题：wtf42：棒！GitHub甚至可以改变公司处理开源开发的方式（就像Uber改变出租车市场一样）。相比雇用（并保持）全职开发人员（需要支付保险，税收等），公司可以滥用这个系统并“说服”员工赞助开源项目，成功后给奖金。在劳工保障薄弱的国家可能发生</span><br>
+<span>ladon86：这是一个好主意，但随着该功能的引入，可能导致维护者会在README中提供标识或者链接以获取每月赞助。我打赌很可能看到“星钻/黄金/白银/青铜”等级制度的出现如今，微软不仅推出了汉化版的帮助文档，还声称未来会加入更多语言的支持。那么我们有理由推测，GitHub网站的中文版未来也可能会出现。</span><br>
+</p><p><b>mozilla: </b><br>
+<span>我很可爱，请给我钱。</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>ms改名办，开始工作啦</span><br>
+</p><p><b>trentswd: </b><br>
+<span>提个issue我觉得很普通</span><br>
+<span>提个议题会不会太正式了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>那branch叫啥？</span><br>
+</p><p><b>tokimon: </b><br>
+<span>Github fanbox </span><br>
+</p><p><b>samfs: </b><br>
+<span>Github 要是全都汉化的话，怕是要…… </span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>分叉好难听，分支不好吗~~~</span><br>
+</p><p><b>lbzlxx: </b><br>
+<span>但是分支不是有branch吗，所以我觉得分叉还是可以的</span><br>
+<span>那pr应该叫什么？拉取请求？</span><br>
+</p><p><b>luoyianwu: </b><br>
+<span>git blame被和谐了，不满</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>jQuery换原生js是什么操作？来回折腾员工玩？</span><br>
+</p><p><b>Hieda: </b><br>
+<span>fork译成分叉，那branch翻译成什么？</span><br>
+<span>分支分叉这么近的词义给这么不同的两个功能用，也不怕乱</span><br>
+</p><p><b>mimighost: </b><br>
+<span>Hieda 发表于 2019-7-1 18:34</span><br>
+<span>fork译成分叉，那branch翻译成什么？</span><br>
+<span>分支分叉这么近的词义给这么不同的两个功能用，也不怕乱 ...</span><br>
+<span>分枝</span><br>
+</p><p><b>SICP: </b><br>
+<span>rebase还叫变基</span><br>
+</p><p><b>moondigi: </b><br>
+<span>不知道说啥好，劈个叉吧</span><br>
+</p><p><b>win8: </b><br>
+<span>fork分叉没有什么问题吧</span><br>
+<span>fork本来就有叉子的意思，另外区块链已经规范用分叉这个词了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>【把XX项目分叉下来然后开个分支】</span><br>
+<span>……谁爱念谁去念……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843500[0-50]</guid>
+    </item>
+  </channel>
+</rss>

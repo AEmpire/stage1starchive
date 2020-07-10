@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【路由器】配置静态IP还有设备兼容性问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【路由器】配置静态IP还有设备兼容性问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:07:23 +0000</lastBuildDate>
+    <item>
+      <title>【路由器】配置静态IP还有设备兼容性问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905662-1-1.html</link>
+      <description>【路由器】配置静态IP还有设备兼容性问题？&#13;
+ 本帖最后由 liaojings1 于 2019-12-26 14:31 编辑 
+
+路由器配置静态IP还有设备兼容性问题？
+&#13;
+公司业务专线，固定IP 10.xxx.xxx.xxx
+&#13;
+现只有一条线直连电脑，配置专网IP可以正常使用。
+&#13;
+但是加路由器，在路由里面配置wan口静态IP位专网的地址，却怎么都不行...
+&#13;
+排查线路后发现，光纤盒子上层还挂了个TP-Link路由器：
+&#13;
+TP-Link路由器(wan口空的，应该是插在lan口)&gt;&gt;&gt;&gt;&gt;光纤盒子&gt;&gt;&gt;&gt;&gt;交换机&gt;&gt;&gt;&gt;&gt;办公室电脑
+&#13;
+虽然上面那个TP-Link没插wan口，但是开着路由器模式(DHCP)，想着是不是套两层会有问题...
+&#13;
+(后来我关闭路由模式也不行)
+&#13;
+随后我就想找这个TP-Link路由器，因为不知道光纤怎么走的，联系铺设线路的公司，但他们一口咬定光纤上去就到机房，不会过啥路由...
+&#13;
+我就笔记本直连光纤盒子，展示这就是有个TP-Link路由器，里面还有pppoe拨号保留的座机，不过打过去是停机的号...
+&#13;
+线路公司人员一时语塞，但继续问关于这个路由什么情况，还是说应该直达机房，没过啥东西...
+&#13;
+然后拿我 极.路由 在光纤盒子接网线出来连wan口，笔记本插 极.路由 lan口，专网依然不通...
+&#13;
+没撤，线路公司人员叫换个路由看看，我拿了个网件路由一接，通了...
+&#13;
+神了，这个 极.路由 在家里、公司、几个科室都长久用过，也配过wan口公司静态内网ip，然后路由连多台机器，完全没有问题啊...
+&#13;
+但 极.路由接 在这里，路由模式怎么都无法正常工作...
+&#13;
+最后，线路公司人员说可能是设备兼容性问题吧，他们以前碰到过迅捷的啥路由器也有问题...
+&#13;
+不知道有没有在电信等运营公司的，是否有这样的硬件兼容性问题？
+&#13;
+害我排查了几天，结果就是一个路由器兼容性问题吗...</description>
+      <content:encoded><![CDATA[<p><b>liaojings1: </b><br>
+<span>【路由器】配置静态IP还有设备兼容性问题？</span><br>
+<span> 本帖最后由 liaojings1 于 2019-12-26 14:31 编辑 </span><br>
+<span>路由器配置静态IP还有设备兼容性问题？</span><br>
+<span>公司业务专线，固定IP 10.xxx.xxx.xxx</span><br>
+<span>现只有一条线直连电脑，配置专网IP可以正常使用。</span><br>
+<span>但是加路由器，在路由里面配置wan口静态IP位专网的地址，却怎么都不行...</span><br>
+<span>排查线路后发现，光纤盒子上层还挂了个TP-Link路由器：</span><br>
+<span>TP-Link路由器(wan口空的，应该是插在lan口)>>>>>光纤盒子>>>>>交换机>>>>>办公室电脑</span><br>
+<span>虽然上面那个TP-Link没插wan口，但是开着路由器模式(DHCP)，想着是不是套两层会有问题...</span><br>
+<span>(后来我关闭路由模式也不行)</span><br>
+<span>随后我就想找这个TP-Link路由器，因为不知道光纤怎么走的，联系铺设线路的公司，但他们一口咬定光纤上去就到机房，不会过啥路由...</span><br>
+<span>我就笔记本直连光纤盒子，展示这就是有个TP-Link路由器，里面还有pppoe拨号保留的座机，不过打过去是停机的号...</span><br>
+<span>线路公司人员一时语塞，但继续问关于这个路由什么情况，还是说应该直达机房，没过啥东西...</span><br>
+<span>然后拿我 极.路由 在光纤盒子接网线出来连wan口，笔记本插 极.路由 lan口，专网依然不通...</span><br>
+<span>没撤，线路公司人员叫换个路由看看，我拿了个网件路由一接，通了...</span><br>
+<span>神了，这个 极.路由 在家里、公司、几个科室都长久用过，也配过wan口公司静态内网ip，然后路由连多台机器，完全没有问题啊...</span><br>
+<span>但 极.路由接 在这里，路由模式怎么都无法正常工作...</span><br>
+<span>最后，线路公司人员说可能是设备兼容性问题吧，他们以前碰到过迅捷的啥路由器也有问题...</span><br>
+<span>不知道有没有在电信等运营公司的，是否有这样的硬件兼容性问题？</span><br>
+<span>害我排查了几天，结果就是一个路由器兼容性问题吗...</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>你的描述太乱了啊....</span><br>
+<span>说了这么多</span><br>
+<span>实际上很多关键都没表达出来</span><br>
+<span>我大概说一个可能的事</span><br>
+<span>网线质量不太好的时候</span><br>
+<span>有可能会出现线距离比较远接电脑可以识别</span><br>
+<span>但是路由器WAN口无法识别的情况</span><br>
+<span>剩下的情况因为你表达的太不清楚</span><br>
+<span>无法做下一步判断</span><br>
+<span>然后拿我 极.路由 在光纤盒子接网线出来连wan口，笔记本插 极.路由 lan口，专网依然不通...</span><br>
+<span>没撤，线路公司人员叫换个路由看看，我拿了个网件路由一接，通了...</span><br>
+<span>神了，这个 极.路由 在家里、公司、几个科室都长久用过，也配过wan口公司静态内网ip，然后路由连多台机器，完全没有问题啊...</span><br>
+<span>但 极.路由接 在这里，路由模式怎么都无法正常工作...</span><br>
+<span>你这个是想表达**WAN口接进线设置IP正常了?</span><br>
+<span>你又怎么判断正常了</span><br>
+<span>路由模式无法正常工作又是什么鬼</span><br>
+<span>画个线路图吧</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>光线盒子是啥？</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-12-27 08:58 编辑 </span><br>
+<span>真草稚京 发表于 2019-12-27 00:09</span><br>
+<span>你的描述太乱了啊....</span><br>
+<span>说了这么多</span><br>
+<span>恩，用文字简单画了下，还是不够直观，我画下图：</span><br>
+<span>(虚线是我没实际看到的，只是推测)</span><br>
+<img src="https://s2.ax1x.com/2019/12/27/lET29g.png" title="https://s2.ax1x.com/2019/12/27/lET29g.png"><br>
+<span>然后我开始接路由器就不通了：</span><br>
+<img src="https://s2.ax1x.com/2019/12/27/lETc4S.png" title="https://s2.ax1x.com/2019/12/27/lETc4S.png"><br>
+<span>这里我仅仅把极.路由替换成网件路由器就通了...</span><br>
+<span>现在极.路由丢在办公室我们上网用(wan口插外网，lan插多台电脑)，一切正常啊...</span><br>
+<span>极.路由也丢在过其他科室，wan口配置公司内网静态ip，lan口接多台电脑自动获取192.168.xxx.xxx使用半年多正常，为啥插在上面那种环境就不通...</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>那个光纤收发器的作用是啥？连接上一级用光纤？连接下一级用网线？光电转换？</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-12-27 09:27 编辑 </span><br>
+<span>纯情小鸭鸭 发表于 2019-12-27 09:01</span><br>
+<span>那个光纤收发器的作用是啥？连接上一级用光纤？连接下一级用网线？光电转换？ ...光收发是直接拉倒周围线路运营的箱子里面吧，因为距离远(几百米?)所以用的光纤。</span><br>
+<span>理论中间应该不在过东西了吧，问题我笔记本直接插光收发器，发现会自动获取ip....</span><br>
+<span>然后登陆192.168.1.1，发现有个TP-Link R860的路由器在...</span><br>
+<span>我就猜想是不是这个路由器有啥问题，但我不知道这光纤怎么走的，</span><br>
+<span>随后就联系铺设线路的公司过来找线向那边走。</span><br>
+<span>线路公司人来了，一口咬定光收发直达机房，不过东西...</span><br>
+<span>然后我给他展示自动获取IP，还能登陆一个路由器管理界面，他就沉默了...</span><br>
+<img src="https://s2.ax1x.com/2019/12/27/lEHHl4.png" title="https://s2.ax1x.com/2019/12/27/lEHHl4.png"><br>
+<span>之后就尝试用网件路由替换极.路由器，一换就好了...</span><br>
+<span>但是我极.路由并没有故障啊，丢办公室用了1天了，下载东西等也都正常。</span><br>
+<span>铺设线路的人说可能是兼容性问题，他们也碰到过迅捷?的设备会有问题，提醒我们不要买。</span><br>
+</p><p><b>NeverFar: </b><br>
+<span>感觉运营商可能把这个 R860 当作交换机在用</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>也就是说你现在不知道tp路由器在哪儿么</span><br>
+<span>不过你现在肯定要替换掉这个tp才对</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>真草稚京 发表于 2019-12-27 12:56</span><br>
+<span>也就是说你现在不知道tp路由器在哪儿么</span><br>
+<span>不过你现在肯定要替换掉这个tp才对 ...</span><br>
+<span>是的，起初我就是想找到这个R860，换掉啥的...</span><br>
+<span>只是没想到出现问题的，是我用来测试组路由的——极.路由...</span><br>
+<span>我看线路公司人也一脸懵逼，咋问都是说直达机房，对于R860这个路由也说不清...</span><br>
+<span>线路比较久远，他也说不清楚，好在简单替换了路由器就ok了...</span><br>
+<span>看样子R860也没造成啥影响，就没管了...</span><br>
+<span>回想起来，以前家里给邻居分网，也是路由套路由，并没有什么问题...</span><br>
+<span>这次极.路由怎么会这样，到底那个环节出问题，造成所谓兼容性问题，所以来论坛问问看...</span><br>
+</p><p><b>君往何处: </b><br>
+<span>不知道是不是和网关、掩码的配置相关，可以比较网件和之前路由器里的配置和状态看看吧</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>君往何处 发表于 2019-12-27 13:49</span><br>
+<span>不知道是不是和网关、掩码的配置相关，可以比较网件和之前路由器里的配置和状态看看吧 ...</span><br>
+<span>专网的信息子网掩码、网关、dns都是固定的，两个路由每次配置都是一样的。</span><br>
+<span>10.xxx.103.xxx</span><br>
+<span>255.255.255.128</span><br>
+<span>10.xxx.103.1</span><br>
+<span>dns:</span><br>
+<span>10.xxx.1.102</span><br>
+<span>10.xxx.1.100</span><br>
+</p><p><b>君往何处: </b><br>
+<span>liaojings1 发表于 2019-12-27 14:02</span><br>
+<span>专网的信息子网掩码、网关、dns都是固定的，两个路由每次配置都是一样的。</span><br>
+<span>10.xxx.103.xxx</span><br>
+<span>255.255.255.1 ...</span><br>
+<span>下一层子网的笔记本上看到也是一样的？那就比较奇怪了……</span><br>
+</p><p><b>liaojings1: </b><br>
+<span> 本帖最后由 liaojings1 于 2019-12-27 14:57 编辑 </span><br>
+<span>君往何处 发表于 2019-12-27 14:17</span><br>
+<span>下一层子网的笔记本上看到也是一样的？那就比较奇怪了……恩 配置好极.路由后，笔记本接极.路由lan口访问管理界面，一个字一个字的对，大家围着发愣...</span><br>
+<span>这个极.路由以前还丢在别的科室用公司内网静态ip，然后开DHCP用过半年，没啥问题啊...</span><br>
+<span>现在极.路由丢我办公室wan口插外网，自动获取ip，开DHCP一起正常，现在用了2天了...</span><br>
+<span>补个光收发的型号图：</span><br>
+<img src="https://s2.ax1x.com/2019/12/27/lVd4QH.jpg" title="https://s2.ax1x.com/2019/12/27/lVd4QH.jpg"><br>
+</p><p><b>zap: </b><br>
+<span>极.路由是不是千兆WAN口的？</span><br>
+<span>感觉是wan口没法降速到百兆</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905662[0-50]</guid>
+    </item>
+  </channel>
+</rss>

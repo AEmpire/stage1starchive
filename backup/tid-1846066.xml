@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>万能的S1 问个数学问题 关于氪金的概率问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>万能的S1 问个数学问题 关于氪金的概率问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:05:40 +0000</lastBuildDate>
+    <item>
+      <title>万能的S1 问个数学问题 关于氪金的概率问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846066-1-1.html</link>
+      <description>万能的S1 问个数学问题 关于氪金的概率问题&#13;
+ 本帖最后由 nmnmyang 于 2019-7-12 10:03 编辑 
+
+ 万能的S1 问个数学问题 如果某游戏氪金开箱 出率是50% 那么氪金2000次正好出1000个的概率是多少？ 
+&#13;
+【忘记说了，是要证明方法</description>
+      <content:encoded><![CDATA[<p><b>nmnmyang: </b><br>
+<span>万能的S1 问个数学问题 关于氪金的概率问题</span><br>
+<span> 本帖最后由 nmnmyang 于 2019-7-12 10:03 编辑 </span><br>
+<span> 万能的S1 问个数学问题 如果某游戏氪金开箱 出率是50% 那么氪金2000次正好出1000个的概率是多少？ </span><br>
+<span>【忘记说了，是要证明方法</span><br>
+</p><p><b>pzk: </b><br>
+<span>正好出2000个那不就是C（2000，1000）吗</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>https://en.wikipedia.org/wiki/Binomial_distribution</span><br>
+</p><p><b>moonsin: </b><br>
+<span>二项分布</span><br>
+</p><p><b>nmnmyang: </b><br>
+<span>pzk 发表于 2019-7-12 10:11</span><br>
+<span>正好出2000个那不就是C（2000，1000）吗</span><br>
+<span>但是这只是排列啊，不是概率。</span><br>
+</p><p><b>脑洞: </b><br>
+<span>结合游戏情况还要个条件：</span><br>
+<span>A，这人有1000就停</span><br>
+<span>B，这人非要抽满2000次</span><br>
+</p><p><b>nmnmyang: </b><br>
+<span>脑洞 发表于 2019-7-12 10:32</span><br>
+<span>结合游戏情况还要个条件：</span><br>
+<span>A，这人有1000就停</span><br>
+<span>B，这人非要抽满2000次</span><br>
+<span>抽到不会停</span><br>
+</p><p><b>moonsin: </b><br>
+<span>nmnmyang 发表于 2019-7-12 10:30</span><br>
+<span>但是这只是排列啊，不是概率。</span><br>
+<span>C(2000,1000)是找出了所有的可能排列。</span><br>
+<span>其中每种排列的可能性都是P^1000 * (1-P) ^1000</span><br>
+<span>P = 0.5</span><br>
+<span>所以概率应该是 C(2000,1000) * 0.5^2000</span><br>
+</p><p><b>royp: </b><br>
+<span>nmnmyang 发表于 2019-7-12 10:30</span><br>
+<span>但是这只是排列啊，不是概率。</span><br>
+<span>假设每一次开箱相互独立，则开箱满足分布为X~B(2000.0.5)的二项分布，则2000次开箱恰好有1000个出货的概率p(X=1000)可以由其pmf给出。</span><br>
+<span>于是我们有p(X=1000)=2000C1000*(0.5)^1000*(1-0.5)^1000</span><br>
+</p><p><b>偏微分: </b><br>
+<span>c(1000,2000)/2^2000</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>脑洞: </b><br>
+<span>那不是就是C(1000,2000)/2^2000</span><br>
+</p><p><b>nmnmyang: </b><br>
+<span>计算公式都有了，但是百度说都是数据太大算不出来，哭死</span><br>
+</p><p><b>橋白: </b><br>
+<span>2000次...</span><br>
+<span>直接正态近似不就好了 0.5-phi（999/2000）</span><br>
+</p><p><b>daidasday: </b><br>
+<span>废话，这肯定算不出，算出来也没有任何意义，小的可怜得一个概率</span><br>
+</p><p><b>新账户: </b><br>
+<span>但氪金游戏不都是用动态概率钓母猪的吗？宏观时间下这个概率没任何意义</span><br>
+</p><p><b>シャスタ: </b><br>
+<span> 本帖最后由 シャスタ 于 2019-7-12 11:02 编辑 </span><br>
+<span>新账户 发表于 2019-7-12 10:56</span><br>
+<span>但氪金游戏不都是用动态概率钓母猪的吗？宏观时间下这个概率没任何意义</span><br>
+<span>加个群,几百人挑几个不同时间,每人免费抽一发就能验出来概率对不对劲.</span><br>
+<span>不对就弃坑/我有钱不怕,就是了.</span><br>
+<span>实际上运营暗改概率很大概率被玩家验出来裱的,尤其这年头抽一把大的不容易,不少人还喜欢直播大家一起看.</span><br>
+<span>社交游戏社交游戏,一个人玩个冷门的游戏不交流直接无脑抽,那中套概率才大.</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span> 本帖最后由 Linjiangzhu 于 2019-7-12 11:33 编辑 </span><br>
+<span>这不是Binomial Distribution吗</span><br>
+<span>通用公式</span><br>
+<img src="https://i.loli.net/2019/07/12/5d27fb63c8a6977840.png" title="https://i.loli.net/2019/07/12/5d27fb63c8a6977840.png"><br>
+<span>其中 j 为成功次数，n 为总实验次数，p 为成功概率</span><br>
+<span>然后公式算出来是0.017839</span><br>
+<img src="https://i.loli.net/2019/07/12/5d27fcbbdcc2f89969.png" title="https://i.loli.net/2019/07/12/5d27fcbbdcc2f89969.png"><br>
+<span>python模拟</span><br>
+<img src="https://i.loli.net/2019/07/12/5d27fd1b3491740370.png" title="https://i.loli.net/2019/07/12/5d27fd1b3491740370.png"><br>
+<span>最后是写的垃圾代码</span><br>
+<span>import random</span><br>
+<span>import time</span><br>
+<span>def main():</span><br>
+<span>      overall_trial = 2000</span><br>
+<span>      overall_round = 100000</span><br>
+<span>      success_round = 0</span><br>
+<span>      for r in range(overall_round):</span><br>
+<span>                success_trial = 0</span><br>
+<span>                for trail in range(overall_trial):</span><br>
+<span>                        if(random.randint(1,2) == 1):</span><br>
+<span>                              success_trial += 1</span><br>
+<span>                if r %100 == 0:</span><br>
+<span>                        print(f"\rround[{r}]: success {success_trial}", end = "")</span><br>
+<span>                if success_trial == 1000:</span><br>
+<span>                        success_round += 1</span><br>
+<span>      print(f"\nOverall {overall_round} round, success {success_round}")</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>      main()还要推导过程的话，建议读一读大学的统计学入门课的课本，内容挺简单的。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846066[0-50]</guid>
+    </item>
+  </channel>
+</rss>

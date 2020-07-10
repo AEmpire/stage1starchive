@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:06:16 +0000</lastBuildDate>
+    <item>
+      <title>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864993-1-1.html</link>
+      <description>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭&#13;
+AMD的7nm处理器中，锐龙3000、霄龙7002系列已经在桌面、服务器市场应用，现在就剩下锐龙APU产品线还没升级到7nm了，此前AMD CEO苏姿丰已经确认锐龙4000系列APU会在明年初发布。
+&#13;
+我们已经知道7nm的锐龙APU代号Renoir雷阿诺，它的重点目标会是笔记本电脑市场，所以处理器设计跟现在的CPU、IO核心分离可能会有所不同，应该还是会整合CPU、GPU核心。
+&#13;
+7nm锐龙APU的CPU核心没啥意外，7nm Zen2架构没跑，但GPU规格一直有些谜。来自Komachi的爆料称笔记本版的锐龙处理器会有锐龙3/5/7/9不同型号，TDP功耗最大45W，最低15W，意味着会覆盖轻薄本到游戏本全阵容。
+&#13;
+http://static.cnbetacdn.com/article/2019/1111/c1e6a1080f39a10.png
+&#13;
+伴随TDP增长的还有GPU规格，除了现在已经有的Vega 8、Vega 10级别之外，还首次出现了B12，意味着是12组CU单元，那就是Vega 12核显——不过实际架构应该不是Vega了，而是最新的Navi，这里使用的Vega XX是为了与目前的核显对比。
+&#13;
+http://static.cnbetacdn.com/article/2019/1111/eb25ab362cb2445.png
+&#13;
+Vega 12级别的核显还不是最终态，发烧友Locuza推测新一代APU还会有Vega 13、Vega 14甚至Vega 15级别的GPU单元，每组CU单元会配备32KB L1指令缓存、16KB L1内容缓存。
+&#13;
+考虑到下一代APU会使用7nm工艺，晶体管密度相比14/12nm大幅提升，AMD提升核显单元的规模是正常操作，目前APU核显最高的是Vega 11核显，提升到Vega 15之后性能还会再上一个台阶，届时不论是Intel的Gen11核显还是NVIDIA的MX250独显，势必都会面临极大的压力。
+&#13;
+当然，对消费者来说这是好事，锐龙4000系列的APU不仅CPU性能强大了，GPU也可以取代中低端独显，一举多得。</description>
+      <content:encoded><![CDATA[<p><b>皇帝雅西加: </b><br>
+<span>本来想买THINKPAD T495S的，反正也不急，就等明年7纳米锐龙吧</span><br>
+</p><p><b>Tackstone: </b><br>
+<span>等桌面版了，刚组的3400g，明年出新的u和内存一起换了。</span><br>
+</p><p><b>66666: </b><br>
+<span>noirfermion 发表于 2019-11-14 04:23</span><br>
+<span>内存带宽其实不一定那么紧张，农企肯拉高定位的话把Zen 2的大三缓给gpu用上会好不少，就是这代要还是低端定 ...</span><br>
+<span>不定位低端卖给谁？小霸王那个SOC性能够强，可哪个笔记本用上了？</span><br>
+<span>要GPU性能买集成类CPU就是给自己找罪受，在PC这种复杂多变环境下，光抢TDP两个打架都打不过来</span><br>
+</p><p><b>stmule: </b><br>
+<span>我觉得核显的完全形态应该是8705和8809这样的，2个die分开，另外gpu自带hbm</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>noirfermion 发表于 2019-11-14 04:23</span><br>
+<span>内存带宽其实不一定那么紧张，农企肯拉高定位的话把Zen 2的大三缓给gpu用上会好不少，就是这代要还是低端定 ...</span><br>
+<span>农企三缓是CCX独占的，其他CCX的都不能用，IF的带宽延迟读内存勉强够用，互联数据一致同步也行，但频繁读写远端CCX缓存就比较吃力了。</span><br>
+<span>只有intel核显可以共用挂在RING上的三缓。</span><br>
+<span>vega11的缓存已经比独显版本的vega大很多叻，虽然vega架构吃带宽这点还是没有改善</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>ZEN3就8核共用32MB了不過L3那容量不夠GPU干啥吧</span><br>
+</p><p><b>sodr: </b><br>
+<span>皇帝雅西加 发表于 2019-11-14 04:49</span><br>
+<span>本来想买THINKPAD T495S的，反正也不急，就等明年7纳米锐龙吧</span><br>
+<span>同等，明年TP怎么命名？X3105没有16G内存继续黑美国良心</span><br>
+</p><p><b>albertfu: </b><br>
+<span>马赛克 发表于 2019-11-13 17:56</span><br>
+<span>哦，那就没念想了</span><br>
+<span>楼上有回：现在的APU打10年前的次旗舰独显没问题</span><br>
+<span>但是硅材料快到头了，下一个10年不乐观</span><br>
+</p><p><b>albertfu: </b><br>
+<span>laotoutou 发表于 2019-11-13 22:52</span><br>
+<span>我还奇怪，明明7nm，笔记本方案为什么还是比intel续航差</span><br>
+<span>笔记本方案明年才能上zen2（7nm）</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>albertfu 发表于 2019-11-14 11:07</span><br>
+<span>楼上有回：现在的APU打10年前的次旗舰独显没问题</span><br>
+<span>但是硅材料快到头了，下一个10年不乐观 ...</span><br>
+<span>某种意义上我比较乐观，现在的APU性能不行主要是带宽到顶，提升规模不提升性能</span><br>
+<span>下一个10年，可预见的内存带宽提升很大，无论是HBM低成本，还是低功耗 版内存，摸到5700级别真不难了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>sblnrrk 发表于 2019-11-14 12:04</span><br>
+<span>某种意义上我比较乐观，现在的APU性能不行主要是带宽到顶，提升规模不提升性能</span><br>
+<span>下一个10年，可预见的内 ...</span><br>
+<span>内存带宽提升可能很大，但是制程停滞，GPU本身的晶体管数堆不上去了啊。。。</span><br>
+<span>10年前的显卡还在用55nm和40nm，现在都7nm了，但10年后说不定也就3nm</span><br>
+</p><p><b>7776169: </b><br>
+<span>我只想问一下，多少钱，然后配套的东西贵不</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864993[50-100]</guid>
+    </item>
+    <item>
+      <title>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864993-1-1.html</link>
+      <description>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭&#13;
+AMD的7nm处理器中，锐龙3000、霄龙7002系列已经在桌面、服务器市场应用，现在就剩下锐龙APU产品线还没升级到7nm了，此前AMD CEO苏姿丰已经确认锐龙4000系列APU会在明年初发布。
+&#13;
+我们已经知道7nm的锐龙APU代号Renoir雷阿诺，它的重点目标会是笔记本电脑市场，所以处理器设计跟现在的CPU、IO核心分离可能会有所不同，应该还是会整合CPU、GPU核心。
+&#13;
+7nm锐龙APU的CPU核心没啥意外，7nm Zen2架构没跑，但GPU规格一直有些谜。来自Komachi的爆料称笔记本版的锐龙处理器会有锐龙3/5/7/9不同型号，TDP功耗最大45W，最低15W，意味着会覆盖轻薄本到游戏本全阵容。
+&#13;
+http://static.cnbetacdn.com/article/2019/1111/c1e6a1080f39a10.png
+&#13;
+伴随TDP增长的还有GPU规格，除了现在已经有的Vega 8、Vega 10级别之外，还首次出现了B12，意味着是12组CU单元，那就是Vega 12核显——不过实际架构应该不是Vega了，而是最新的Navi，这里使用的Vega XX是为了与目前的核显对比。
+&#13;
+http://static.cnbetacdn.com/article/2019/1111/eb25ab362cb2445.png
+&#13;
+Vega 12级别的核显还不是最终态，发烧友Locuza推测新一代APU还会有Vega 13、Vega 14甚至Vega 15级别的GPU单元，每组CU单元会配备32KB L1指令缓存、16KB L1内容缓存。
+&#13;
+考虑到下一代APU会使用7nm工艺，晶体管密度相比14/12nm大幅提升，AMD提升核显单元的规模是正常操作，目前APU核显最高的是Vega 11核显，提升到Vega 15之后性能还会再上一个台阶，届时不论是Intel的Gen11核显还是NVIDIA的MX250独显，势必都会面临极大的压力。
+&#13;
+当然，对消费者来说这是好事，锐龙4000系列的APU不仅CPU性能强大了，GPU也可以取代中低端独显，一举多得。</description>
+      <content:encoded><![CDATA[<p><b>Bondrewd: </b><br>
+<span>AMD的7nm锐龙APU核显飞跃：最多15组CU单元 笔记本核显团灭</span><br>
+<span>AMD的7nm处理器中，锐龙3000、霄龙7002系列已经在桌面、服务器市场应用，现在就剩下锐龙APU产品线还没升级到7nm了，此前AMD CEO苏姿丰已经确认锐龙4000系列APU会在明年初发布。</span><br>
+<span>我们已经知道7nm的锐龙APU代号Renoir雷阿诺，它的重点目标会是笔记本电脑市场，所以处理器设计跟现在的CPU、IO核心分离可能会有所不同，应该还是会整合CPU、GPU核心。</span><br>
+<span>7nm锐龙APU的CPU核心没啥意外，7nm Zen2架构没跑，但GPU规格一直有些谜。来自Komachi的爆料称笔记本版的锐龙处理器会有锐龙3/5/7/9不同型号，TDP功耗最大45W，最低15W，意味着会覆盖轻薄本到游戏本全阵容。</span><br>
+<img src="http://static.cnbetacdn.com/article/2019/1111/c1e6a1080f39a10.png" title="http://static.cnbetacdn.com/article/2019/1111/c1e6a1080f39a10.png"><br>
+<span>伴随TDP增长的还有GPU规格，除了现在已经有的Vega 8、Vega 10级别之外，还首次出现了B12，意味着是12组CU单元，那就是Vega 12核显——不过实际架构应该不是Vega了，而是最新的Navi，这里使用的Vega XX是为了与目前的核显对比。</span><br>
+<img src="http://static.cnbetacdn.com/article/2019/1111/eb25ab362cb2445.png" title="http://static.cnbetacdn.com/article/2019/1111/eb25ab362cb2445.png"><br>
+<span>Vega 12级别的核显还不是最终态，发烧友Locuza推测新一代APU还会有Vega 13、Vega 14甚至Vega 15级别的GPU单元，每组CU单元会配备32KB L1指令缓存、16KB L1内容缓存。</span><br>
+<span>考虑到下一代APU会使用7nm工艺，晶体管密度相比14/12nm大幅提升，AMD提升核显单元的规模是正常操作，目前APU核显最高的是Vega 11核显，提升到Vega 15之后性能还会再上一个台阶，届时不论是Intel的Gen11核显还是NVIDIA的MX250独显，势必都会面临极大的压力。</span><br>
+<span>当然，对消费者来说这是好事，锐龙4000系列的APU不仅CPU性能强大了，GPU也可以取代中低端独显，一举多得。</span><br>
+</p><p><b>那由: </b><br>
+<span>咬咬牙再等等</span><br>
+</p><p><b>j0n2: </b><br>
+<span>等等党赢了</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>15组CU如果有双通3200加持......那已经可以战一下1050ti甚至1060 3G了</span><br>
+</p><p><b>无念: </b><br>
+<span>KOGmk2 发表于 2019-11-11 16:45</span><br>
+<span>15组CU如果有双通3200加持......那已经可以战一下1050ti甚至1060 3G了</span><br>
+<span>要求不高，2666跑过1050就行</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>无念 发表于 2019-11-11 16:48</span><br>
+<span>要求不高，2666跑过1050就行</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0 ...</span><br>
+<span>LPDDR4抢在DDR4之前引入了JEDEC3200,农企的核显也吃到了这个福利</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>KOGmk2 发表于 2019-11-11 16:45</span><br>
+<span>15组CU如果有双通3200加持......那已经可以战一下1050ti甚至1060 3G了</span><br>
+<span>過熱/跟CPU搶供電7nm下戰1050TI 不現實</span><br>
+</p><p><b>yikaa: </b><br>
+<span>打不过英伟达还打不过你这个弟弟</span><br>
+</p><p><b>大肥兔: </b><br>
+<span>KOGmk2 发表于 2019-11-11 16:45</span><br>
+<span>15组CU如果有双通3200加持......那已经可以战一下1050ti甚至1060 3G了</span><br>
+<span>这两个之间差别巨大，不能放在一起。</span><br>
+</p><p><b>雪影: </b><br>
+<span>低功耗不看好两个pu同die，抢TDP</span><br>
+<span>甚至同pcb都抢散热</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>zen2的ipc不差了，7nm功耗表现也会更好看，和桌面一样可以和intel一战了吧</span><br>
+<span>主要问题是不是没有雷电口？扩展性会差些？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>yikaa 发表于 2019-11-11 17:28</span><br>
+<span>打不过英伟达还打不过你这个弟弟</span><br>
+<span>牙膏厂：你能续航7小时算我输</span><br>
+</p><p><b>马赛克: </b><br>
+<span>能打1660吗，刚买1660独显的笔记本</span><br>
+</p><p><b>无念: </b><br>
+<span>马赛克 发表于 2019-11-11 18:46</span><br>
+<span>能打1660吗，刚买1660独显的笔记本</span><br>
+<span>再过10年都不一定行</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>guohei: </b><br>
+<span>現在的處理器性能太強感覺用不著，等一個桌面版APU</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>（这篇转载文缝合怪气息过于严重</span><br>
+<span>Renoir应该还是Vega(gfx 9xx), Navi (gfx 10xx)估计还得等一代，楼主您引用的那位远坂小町大佬都已经明确说了Renoir会用vega，支持LPDDR4x 4266带宽更大.</span><br>
+<span>Renior据说满血会有8核，只要农企管理好功耗，橄榄低端独显+intel标压U不成问题，，，</span><br>
+</p><p><b>llions: </b><br>
+<span>看看桌面版APU吧</span><br>
+</p><p><b>Radeon: </b><br>
+<span>无念 发表于 2019-11-11 18:51</span><br>
+<span>再过10年都不一定行</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+<span>别逗。。。你拿现在的3700U对比一下10年前的看看</span><br>
+</p><p><b>无念: </b><br>
+<span>Radeon 发表于 2019-11-11 23:46</span><br>
+<span>别逗。。。你拿现在的3700U对比一下10年前的看看</span><br>
+<span>行啊，2009年，amd中端是5770/4770，请继续</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>无念 发表于 2019-11-11 23:56</span><br>
+<span>行啊，2009年，amd中端是5770/4770，请继续</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2 ...</span><br>
+<span>满血apu能干5770了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>无念: </b><br>
+<span>sblnrrk 发表于 2019-11-11 23:59</span><br>
+<span>满血apu能干5770了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>所以我说的是不一定行，没说不行啊</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>qwased: </b><br>
+<span>无念 发表于 2019-11-12 00:01</span><br>
+<span>所以我说的是不一定行，没说不行啊</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0 ...</span><br>
+<span>只要农企舍得整合个hbm 4g显存进去，今年就能打1660</span><br>
+<span>牙膏厂买的gpu加个hbm显存都能干1060了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>螺丝刀LSD: </b><br>
+<span>无念 发表于 2019-11-11 23:56:28</span><br>
+<span>行啊，2009年，amd中端是5770/4770，请继续</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的v2.2.0 ...现在的3400g的1400mhz vega11的性能相当于十年前的5850。已经是当年次旗舰的水平了。</span><br>
+<span>https://topic.expreview.com/GPU/超能网的显卡天梯可以对比。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>gambleed: </b><br>
+<span>sblnrrk 发表于 2019-11-11 23:59:32</span><br>
+<span>满血apu能干5770了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的v2.1.2能干有什么用，满血3700u win10就是负有化啊，整体响应速度就是比i3-3110m hd4000的win7卡啊</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>无念: </b><br>
+<span>螺丝刀LSD 发表于 2019-11-12 09:45</span><br>
+<span>现在的3400g的1400mhz vega11的性能相当于十年前的5850。已经是当年次旗舰的水平了。</span><br>
+<span>https://topic.exprev ...</span><br>
+<span>能跑到这么高么，那是我小看农企了</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>qwased 发表于 2019-11-12 02:23</span><br>
+<span>只要农企舍得整合个hbm 4g显存进去，今年就能打1660</span><br>
+<span>牙膏厂买的gpu加个hbm显存都能干1060了</span><br>
+<span>hbm不要钱的啊。。。apu本来就是便宜，你加100刀去搞个hbm本末倒置</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>gambleed 发表于 2019-11-12 09:49</span><br>
+<span>能干有什么用，满血3700u win10就是负有化啊，整体响应速度就是比i3-3110m hd4000的win7卡啊</span><br>
+<span>--...</span><br>
+<span>我和你体验相反，hd630多好的cpu都比2200g响应慢</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>无念: </b><br>
+<span>等等，怎么只有Vega11，我还想看看10和8啊</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>续航还是个弟弟</span><br>
+</p><p><b>Radeon: </b><br>
+<span>gambleed 发表于 2019-11-12 09:49</span><br>
+<span>能干有什么用，满血3700u win10就是负有化啊，整体响应速度就是比i3-3110m hd4000的win7卡啊</span><br>
+<span>--...</span><br>
+<span>你说8代就算了，i3-3110m这种双核还没睿频的古董。。zen+vega随便辗压了好吧</span><br>
+</p><p><b>Radeon: </b><br>
+<span>gambleed 发表于 2019-11-12 09:49</span><br>
+<span>能干有什么用，满血3700u win10就是负有化啊，整体响应速度就是比i3-3110m hd4000的win7卡啊</span><br>
+<span>--...</span><br>
+<span>你说8代就算了，i3-3110m这种双核还没睿频的古董。。zen+vega随便辗压了好吧</span><br>
+</p><p><b>鸡毛当令箭: </b><br>
+<span>能打赢 mx250不？能打赢就amd ues</span><br>
+</p><p><b>Radeon: </b><br>
+<span>鸡毛当令箭 发表于 2019-11-12 10:28</span><br>
+<span>能打赢 mx250不？能打赢就amd ues</span><br>
+<span>敬请期待～</span><br>
+</p><p><b>鸡毛当令箭: </b><br>
+<span>螺丝刀LSD 发表于 2019-11-12 09:45</span><br>
+<span>现在的3400g的1400mhz vega11的性能相当于十年前的5850。已经是当年次旗舰的水平了。</span><br>
+<span>https://topic.exprev ...</span><br>
+<span>也我看了下超能网，vega13=5850=11.3分，mx250=gt1030=10分。如果笔记本就这水平就只是持平啊。那只能靠价格低了。</span><br>
+</p><p><b>66666: </b><br>
+<span>DDR3000双通道带宽跟MX250一样，CPU还要分流还要吃整体TDP，实际游戏性能能干的过MX250表示怀疑</span><br>
+<span>3700U吹的乌拉乌拉响，实际游戏帧数被跑35瓦模式被同功耗低电压I5+MX250干的落花流水</span><br>
+</p><p><b>Radeon: </b><br>
+<span>66666 发表于 2019-11-12 10:53</span><br>
+<span>DDR3000双通道带宽跟MX250一样，CPU还要分流还要吃整体TDP，实际游戏性能能干的过MX250表示怀疑</span><br>
+<span>3700U吹的 ...</span><br>
+<span>7nm apu支持lpddr4x 4266</span><br>
+</p><p><b>66666: </b><br>
+<span>Radeon 发表于 2019-11-12 10:56</span><br>
+<span>7nm apu支持lpddr4x 4266</span><br>
+<span>能用的起这种内存笔记本售价也高的一逼，功耗又不如intel，不知道要面对什么消费阶层</span><br>
+</p><p><b>螺丝刀LSD: </b><br>
+<span>鸡毛当令箭 发表于 2019-11-12 10:41</span><br>
+<span>也我看了下超能网，vega13=5850=11.3分，mx250=gt1030=10分。如果笔记本就这水平就只是持平啊。那只能靠 ...</span><br>
+<span>超能网的那个3400g是vega11 制程是12nm的，cpu也是基于上一带的zen+。7nm的产品amd还没有出。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>66666 发表于 2019-11-12 11:03</span><br>
+<span>能用的起这种内存笔记本售价也高的一逼，功耗又不如intel，不知道要面对什么消费阶层 ...</span><br>
+<span>还没出你就知道功耗不如intel了？</span><br>
+<span>至少等评测吧？</span><br>
+<span>顺便lpddr4x 4266其实也没有比普通ddr4内存贵多少←_←</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>鸡毛当令箭 发表于 2019-11-12 10:41</span><br>
+<span>也我看了下超能网，vega13=5850=11.3分，mx250=gt1030=10分。如果笔记本就这水平就只是持平啊。那只能靠 ...</span><br>
+<span>vega11是14nm，14-10-7，制程进了两代，省电一半有余</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>66666 发表于 2019-11-12 10:53</span><br>
+<span>DDR3000双通道带宽跟MX250一样，CPU还要分流还要吃整体TDP，实际游戏性能能干的过MX250表示怀疑</span><br>
+<span>3700U吹的 ...</span><br>
+<span>干老黄不定行，干intel行就够了</span><br>
+<span>10nm+lpddr4 3733，干不过amd标称12nm+ddr4 2400的vega11</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>marxel: </b><br>
+<span> 本帖最后由 marxel 于 2019-11-12 14:10 编辑 </span><br>
+<span>intel：我要出独显，干不过老黄还干不过你？</span><br>
+<span>amd：我要出集显，干不过老黄还干不过你？</span><br>
+<span>老黄：我要出CPU……给游戏机用</span><br>
+</p><p><b>马赛克: </b><br>
+<span>无念 发表于 2019-11-11 19:51</span><br>
+<span>再过10年都不一定行</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0</span><br>
+<span>哦，那就没念想了</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>sblnrrk 发表于 2019-11-12 13:48</span><br>
+<span>vega11是14nm，14-10-7，制程进了两代，省电一半有余</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next ...</span><br>
+<span>就一代吧gf的14等效三星14tsmc的16</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>刚帮人装了台2200g的麻将机，凑合用吧</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>gofbayrf 发表于 2019-11-13 18:04</span><br>
+<span>就一代吧gf的14等效三星14tsmc的16</span><br>
+<span>14-10-7不是两代？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>sblnrrk 发表于 2019-11-13 21:58</span><br>
+<span>14-10-7不是两代？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span> INTELTSMC7nm 只相當於我家10nm</span><br>
+<span>NV/AMD 用的12沒用TSMC的10 </span><br>
+</p><p><b>laotoutou: </b><br>
+<span>我还奇怪，明明7nm，笔记本方案为什么还是比intel续航差</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>sblnrrk 发表于 2019-11-13 21:58</span><br>
+<span>14-10-7不是两代？</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>对比自家的apu，第一代14nm，下 代是7</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>noirfermion: </b><br>
+<span>内存带宽其实不一定那么紧张，农企肯拉高定位的话把Zen 2的大三缓给gpu用上会好不少，就是这代要还是低端定位可就等于把这市场拱手送人了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864993[0-50]</guid>
+    </item>
+  </channel>
+</rss>

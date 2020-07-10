@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10 1903  也许会造成USB 声卡爆音--7月29日已解决</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10 1903  也许会造成USB 声卡爆音--7月29日已解决</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:28:48 +0000</lastBuildDate>
+    <item>
+      <title>win10 1903  也许会造成USB 声卡爆音--7月29日已解决[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842443-1-1.html</link>
+      <description>win10 1903  也许会造成USB 声卡爆音--7月29日已解决&#13;
+ 本帖最后由 ft5555 于 2019-7-30 15:47 编辑 
+
+用win to go 安装了1903 体验时发现声卡有爆音现象。排渣不出原因，就用另一块硬盘将win10 1803 升级上来看看是否有同样情况。
+&#13;
+结果依然是wdf01000.sys跟ntoskrnl.exe造成的dpc延迟大增。
+&#13;
+================================================
+&#13;
+ps：延迟顶到头很容易见到，只是我截图时 没去等。
+&#13;
+      我的硬件遇到这问题 ，不等于人人都会遇到。没问题的别急着否定
+&#13;
+      如果一套硬件在1703 1709 1803下一直都没问题，偏偏1903下有问题了。你觉得是谁的问题呢？
+&#13;
+================================================================
+&#13;
+29日微软推送kb4505903补丁，系统版本号更新为 18362.267.
+&#13;
+DPC延迟正常了，国外论坛反馈结果也是这样
+&#13;
+ntoskrnl.exe进程的延迟跟1809 1803比还是高了，但已经控制在正常范围之内了</description>
+      <content:encoded><![CDATA[<p><b>ft5555: </b><br>
+<span>win10 1903  也许会造成USB 声卡爆音--7月29日已解决</span><br>
+<span> 本帖最后由 ft5555 于 2019-7-30 15:47 编辑 </span><br>
+<span>用win to go 安装了1903 体验时发现声卡有爆音现象。排渣不出原因，就用另一块硬盘将win10 1803 升级上来看看是否有同样情况。</span><br>
+<span>结果依然是wdf01000.sys跟ntoskrnl.exe造成的dpc延迟大增。</span><br>
+<span>================================================</span><br>
+<span>ps：延迟顶到头很容易见到，只是我截图时 没去等。</span><br>
+<span>      我的硬件遇到这问题 ，不等于人人都会遇到。没问题的别急着否定</span><br>
+<span>      如果一套硬件在1703 1709 1803下一直都没问题，偏偏1903下有问题了。你觉得是谁的问题呢？</span><br>
+<span>================================================================</span><br>
+<span>29日微软推送kb4505903补丁，系统版本号更新为 18362.267.</span><br>
+<span>DPC延迟正常了，国外论坛反馈结果也是这样</span><br>
+<span>ntoskrnl.exe进程的延迟跟1809 1803比还是高了，但已经控制在正常范围之内了</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>这么点执行时间跟爆音完全联系不上（UAC走ISO传输一个buffer长度10ms），那两个文件都是驱动和系统必然调用的基础模块，也没有任何参考价值</span><br>
+<span>爆音有可能还是用户层的混音器audiodg有问题，或者你可以试试独占模式</span><br>
+</p><p><b>sirlion: </b><br>
+<span>ltsc也是，我的笔记本没低于1500的</span><br>
+</p><p><b>404489039: </b><br>
+<span>接了个飞傲k3没问题</span><br>
+</p><p><b>ft5555: </b><br>
+<span>zatsuza 发表于 2019-6-26 18:54</span><br>
+<span>这么点执行时间跟爆音完全联系不上（UAC走ISO传输一个buffer长度10ms），那两个文件都是驱动和系统必然调用 ...</span><br>
+<span>但是win 1803下 这两个模块时间都很短。 1903下时间顶到头的图我没截而已。</span><br>
+</p><p><b>squallx: </b><br>
+<span>艹 又来？还好没更新</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>我的1903最近确实偶有爆音，但我是板载声卡啊……alc1220</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>404489039 发表于 2019-6-26 18:59</span><br>
+<span>接了个飞傲k3没问题</span><br>
+<span>飞傲k3用起来如何？有点想搞个声卡</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>ft5555 发表于 2019-6-26 19:01</span><br>
+<span>但是win 1803下 这两个模块时间都很短。 1903下时间顶到头的图我没截而已。</span><br>
+<span> ...</span><br>
+<span>总之非专业人士看这个软件自己猜是没有用的，这个软件本身也做的不是很专业……</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>ASIO呢？</span><br>
+</p><p><b>kensai_wang: </b><br>
+<span>接的山灵M0，无论蓝牙还是耳机都有轻微爆音。</span><br>
+</p><p><b>lyz1196: </b><br>
+<span>有兴趣的话可以看这里：</span><br>
+<span>https://www.gearslutz.com/board/music-computers/1266677-huge-latency-issues-latest-1903-windows-release.html</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>请看此贴</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1835244-1-1.html</span><br>
+</p><p><b>404489039: </b><br>
+<span>BallanceHZ 发表于 2019-6-26 19:08</span><br>
+<span>飞傲k3用起来如何？有点想搞个声卡</span><br>
+<span>我用来推大手办还行能出声，配合fb2k听dsd也不错</span><br>
+</p><p><b>ft5555: </b><br>
+<span>lyz1196 发表于 2019-6-26 19:37</span><br>
+<span>有兴趣的话可以看这里：</span><br>
+<span>https://www.gearslutz.com/board/music-computers/1266677-huge-latency-issues-l ...</span><br>
+<span>确实 使用usb 声卡现象明显 跟我观察结果一致</span><br>
+</p><p><b>两弹元勋: </b><br>
+<span>BallanceHZ 发表于 2019-6-26 19:07</span><br>
+<span>我的1903最近确实偶有爆音，但我是板载声卡啊……alc1220</span><br>
+<span>我的是每次开机爆音 </span><br>
+<span>整的我家一岁娃娃在我每次开机的时候都会学 啪的一声</span><br>
+<span>从小就患上win10pstd</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>穷邦古董外置要自己装驱动的，不爆</span><br>
+<span>拿这软件测的最大值大约有1200</span><br>
+</p><p><b>Asukalangley33: </b><br>
+<span>SB X7表示确实会爆音，之前还以为是别的问题</span><br>
+</p><p><b>prsfd: </b><br>
+<span>我声卡爆音都几个月了</span><br>
+</p><p><b>平井姨夫: </b><br>
+<span>我1903根本没法用，隔一段时间就报错卡死</span><br>
+</p><p><b>beckuse: </b><br>
+<span>ltsc2019有很强的低噪，音量为零就没有，烦的一笔</span><br>
+</p><p><b>wfm: </b><br>
+<span>买张nec芯片的pcie转usb卡吧，我就是这么解决的</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>十点半: </b><br>
+<span>我还以为我耳朵坏了。</span><br>
+<span>但我并不是1903啊？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>_47: </b><br>
+<span>一直接着的创新e5没问题</span><br>
+</p><p><b>netplaying: </b><br>
+<span>win10上一个版本开始我的aes16卡就卡爆没法用了，从winxp vista到win7 win8都没这问题，新的1903也是一样卡，已经转投火线界面了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>lyz1196 发表于 2019-6-26 19:37</span><br>
+<span>有兴趣的话可以看这里：</span><br>
+<span>https://www.gearslutz.com/board/music-computers/1266677-huge-latency-issues-l ...</span><br>
+<span>29日微软推送kb4505903补丁，系统版本号更新为 18362.267.</span><br>
+<span>DPC延迟正常了</span><br>
+</p><p><b>ft5555: </b><br>
+<span>观铃の使魔 发表于 2019-6-26 20:13</span><br>
+<span>请看此贴</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1835244-1-1.html</span><br>
+<span>29日微软推送kb4505903补丁，系统版本号更新为 18362.267.</span><br>
+<span>DPC延迟正常了</span><br>
+</p><p><b>qwased: </b><br>
+<span>ltsc没收到这个补丁</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>ft5555 发表于 2019-7-30 15:44</span><br>
+<span>29日微软推送kb4505903补丁，系统版本号更新为 18362.267.</span><br>
+<span>DPC延迟正常了</span><br>
+<span>擦 又要重装系统感谢告知</span><br>
+</p><p><b>迷路的: </b><br>
+<span>ft5555 发表于 2019-7-30 15:44</span><br>
+<span>29日微软推送kb4505903补丁，系统版本号更新为 18362.267.</span><br>
+<span>DPC延迟正常了</span><br>
+<span>没收到这个补丁，sad</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span> 本帖最后由 huaxianyan 于 2019-7-31 10:56 编辑 </span><br>
+<span>借地问个问题</span><br>
+<span>我有个 USB 的声卡，但是会出现几个问题：</span><br>
+<span>1. 偶尔突然就没有声音，现在看视频发现视频有缓冲但是不播放就知道是声卡出问题了，去音频里把扬声器禁用再启用就恢复了</span><br>
+<span>2. 开机或重启后，大概率 USB 声卡的麦克风是爆的，表现为音量全绿，收音全是爆音，无解，只能再重启，重启到正常的时候，只要不重启都可以正常使用</span><br>
+<span>都是在 Win 10 后出现了，以前 Win 7 没这个问题，目前系统 1809，是从 1803 开始在 Win 10 上用 USB 声卡的。</span><br>
+<span>声卡是下面这款：</span><br>
+<img src="http://8e5aac4bc793d119543e-a784f0287de17aca81e7ecc053e60785.r69.cf2.rackcdn.com/840/images/m-track_angle_web_hero_00.jpg" title="http://8e5aac4bc793d119543e-a784f0287de17aca81e7ecc053e60785.r69.cf2.rackcdn.com/840/images/m-track_angle_web_hero_00.jpg"><br>
+</p><p><b>squallx: </b><br>
+<span>XMOS U8 1093直接无法识别 重装驱动也无效 阿三WCNM</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>自从kb4505903，这贴更新后1个月体验，我的cas-1再也不会延迟了，之前几乎每天运行一段时间，都会达到300ms以上延迟，必须来回切换输入源才能恢复，问过技术客服，答windows10的问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842443[0-50]</guid>
+    </item>
+  </channel>
+</rss>

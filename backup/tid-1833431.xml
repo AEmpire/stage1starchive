@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>谷歌明文存储用户密码</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>谷歌明文存储用户密码</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:24:08 +0000</lastBuildDate>
+    <item>
+      <title>谷歌明文存储用户密码[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833431-1-1.html</link>
+      <description>谷歌明文存储用户密码&#13;
+https://www.theverge.com/2019/5/21/18634842/google-passwords-plain-text-g-suite-fourteen-years</description>
+      <content:encoded><![CDATA[<p><b>丨丨: </b><br>
+<span>谷歌明文存储用户密码</span><br>
+<span>https://www.theverge.com/2019/5/21/18634842/google-passwords-plain-text-g-suite-fourteen-years</span><br>
+</p><p><b>Van夫膜开: </b><br>
+<span>明文存储是为了不作恶，让大家透明监督。</span><br>
+<span>MAGA！</span><br>
+</p><p><b>mimighost: </b><br>
+<span>Only affects some G Suite customers</span><br>
+<span>这不是谷歌套件么</span><br>
+</p><p><b>INDIASH: </b><br>
+<span>之前Facebook是不是也明文来着</span><br>
+<span>草台 草台.jpg</span><br>
+</p><p><b>暗藏流: </b><br>
+<span>大家都脱光，就会发现其实不穿衣服也没什么大不了的嘛</span><br>
+</p><p><b>Okumur: </b><br>
+<span>14年前的，那就不给推给三哥程序员了啊，太草了</span><br>
+</p><p><b>semerita: </b><br>
+<span>泥潭这么喜欢钓鱼啊</span><br>
+<span>不看原文，只看钓鱼标题，这样是不行的</span><br>
+</p><p><b>LoliType: </b><br>
+<span>G Suite is the corporate version of Gmail and Google’s other apps, and apparently the bug came about in this product because of a feature designed specifically for companies. Early on, it was possible for your company administrator for G Suite apps to set user passwords manually — say, before a new employee came on board — and if they did, the admin console would store those passwords in plain text instead of hashing them. Google has since removed that capability from administrators.</span><br>
+<span>我来洗一下，目前看起来还行，不是google直接把个人用户的密码明文储存。这是一个feature，商业公司的G suit管理员账户可以人工设置名下的普通用户的账号密码，这种操作方式会将设置好的账号信息明文储存。</span><br>
+<span>google这是学到了apple的精髓啊。</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>mimighost 发表于 2019-5-22 14:48</span><br>
+<span>这不是谷歌套件么</span><br>
+<span>当然不是谷歌套件</span><br>
+</p><p><b>董卓: </b><br>
+<span>LoliType 发表于 2019-5-22 15:32</span><br>
+<span>G Suite is the corporate version of Gmail and Google’s other apps, and apparently the bug came abou ...</span><br>
+<span>也就是说对大企业服务的情况下，大企业管理员有权设置普通用户的账号密码</span><br>
+<span>这种管理员设置手段的密码是明文储存的？</span><br>
+<span>这不是更泛滥性的漏洞么…不好洗不好洗…</span><br>
+<span>其实Google这种大公司玩法上更可能是：</span><br>
+<span>G Suite和G other apps分属于两个产品部门，后者不给前者加盐/加密方法，只给设置密码的api。导致不能直接相同密文直接输入到后者的库里。部门割裂后么就是这个白痴设计了。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833431[0-50]</guid>
+    </item>
+  </channel>
+</rss>

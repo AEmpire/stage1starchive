@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>现在最具性价比的X86软路由硬件方案是什么（ITX尺寸）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>现在最具性价比的X86软路由硬件方案是什么（ITX尺寸）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:44:33 +0000</lastBuildDate>
+    <item>
+      <title>现在最具性价比的X86软路由硬件方案是什么（ITX尺寸）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917451-1-1.html</link>
+      <description>现在最具性价比的X86软路由硬件方案是什么（ITX尺寸）&#13;
+前两天一个朋友问我软路由的问题，我逛了一圈淘宝发现目前成品软路由涨的离谱，3865U（2C2T@1.9G）+4G+128G都要卖1300+了，去年我买的7100U成品也才这个价格。
+&#13;
+刚才研究了一下，发现了一个比较有性价比的方案：B85 ITX工控板（双网口）+魔改i7-4700HQ，板U大约1150，内存用自己闲置的不要钱，散热器咸鱼收一个50，DC电源+DC-ATX转换模块大约120，SSD大约100，亚克力软路由机箱120，全套大约1500块钱，但是CPU有4C8T@3.4G，比用7XXX带U的各种成品强多了。
+&#13;
+如果能上MATX主板估计还能省个大几百，但是因为尺寸限制不能。</description>
+      <content:encoded><![CDATA[<p><b>baesystems: </b><br>
+<span>现在最具性价比的X86软路由硬件方案是什么（ITX尺寸）</span><br>
+<span>前两天一个朋友问我软路由的问题，我逛了一圈淘宝发现目前成品软路由涨的离谱，3865U（2C2T@1.9G）+4G+128G都要卖1300+了，去年我买的7100U成品也才这个价格。</span><br>
+<span>刚才研究了一下，发现了一个比较有性价比的方案：B85 ITX工控板（双网口）+魔改i7-4700HQ，板U大约1150，内存用自己闲置的不要钱，散热器咸鱼收一个50，DC电源+DC-ATX转换模块大约120，SSD大约100，亚克力软路由机箱120，全套大约1500块钱，但是CPU有4C8T@3.4G，比用7XXX带U的各种成品强多了。</span><br>
+<span>如果能上MATX主板估计还能省个大几百，但是因为尺寸限制不能。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>扑哧</span><br>
+<span>G1840+2G内存不够你浪的？H81的双千兆板也就两三百块吧</span><br>
+<span>还SSD，整个32G的mSATA不好么</span><br>
+<span>DC-ATX 50块钱，适配器12v 5a的也就二三十</span><br>
+<span>不清楚你这1K5都花哪去了</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2020-3-6 15:44 编辑 </span><br>
+<span>H110吧你说内存闲置不要钱不对 现在内存涨价了 如果16G双通道全部捡的话你这套预算突破1700了（8G1600多）</span><br>
+<span>我之前末班车上了DQ77KB 400</span><br>
+<span>128msata系统盘 100</span><br>
+<span>256SSD下载盘 160</span><br>
+<span>16G笔记本内存 240</span><br>
+<span>无PCIE拓展的卧式ITX机箱 80</span><br>
+<span>外星人DC电源 80</span><br>
+<span>3570S 3004C4T@3.1Ghz </span><br>
+<span>散热L9i 100</span><br>
+<span>1400多 除了机箱全部捡垃圾 </span><br>
+</p><p><b>john: </b><br>
+<span>华硕H110T捡垃圾400不到，i5-6400T正式版700不到，不比双垃圾组合强</span><br>
+</p><p><b>baesystems: </b><br>
+<span> 本帖最后由 baesystems 于 2020-3-6 15:33 编辑 </span><br>
+<span>Realplayer 发表于 2020-3-6 15:21</span><br>
+<span>扑哧</span><br>
+<span>G1840+2G内存不够你浪的？H81的双千兆板也就两三百块吧</span><br>
+<span>还SSD，整个32G的mSATA不好么</span><br>
+<span>真不够，2G内存连虚拟机都装不上。MATX应该能有两三百的价，ITX可能没有。</span><br>
+</p><p><b>killer0079: </b><br>
+<span>软路由4X24开机，需要低功耗而不是高性能。你省的钱最终还是要当成电费花出去</span><br>
+</p><p><b>Realplayer: </b><br>
+<span> 本帖最后由 Realplayer 于 2020-3-6 15:41 编辑 </span><br>
+<span>baesystems 发表于 2020-3-6 15:31</span><br>
+<span>真不够，2G内存连虚拟机都装不上。MATX应该能有两三百的价，ITX可能没有。</span><br>
+<span> ...</span><br>
+<span>虚拟机是虚拟机，软路由是软路由</span><br>
+<span>想整All in One去搞个Esxi</span><br>
+</p><p><b>cosx: </b><br>
+<span>功耗上天了</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>难道不是T48E？</span><br>
+</p><p><b>继承权: </b><br>
+<span>之前看到有用m92p改软路由的</span><br>
+</p><p><b>baesystems: </b><br>
+<span>Realplayer 发表于 2020-3-6 15:39</span><br>
+<span>虚拟机是虚拟机，软路由是软路由</span><br>
+<span>想整All in One去搞个Esxi</span><br>
+<span>只装OPENWRT不如买个PI，简单且便宜，用X86当然是想装虚拟机搞点别的啊。</span><br>
+</p><p><b>littleneko: </b><br>
+<span>baesystems 发表于 2020-3-6 15:49</span><br>
+<span>只装OPENWRT不如买个PI，简单且便宜，用X86当然是想装虚拟机搞点别的啊。 ...</span><br>
+<span>Pi 的IO不够做软路由</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>那你扯什么软路由呢</span><br>
+<span>建议EPYC走起</span><br>
+</p><p><b>littleneko: </b><br>
+<span>其实我不喜欢搞all in one，个人觉得把软路由分开比较好，因为可以随便折腾NAS等东西，不用担心折腾的时候家里断网</span><br>
+<span>所以借楼同求性价比高的非all in one的软路由方案，现在用的k3刷的梅林过一段时间就死了得重启</span><br>
+</p><p><b>baesystems: </b><br>
+<span>littleneko 发表于 2020-3-6 15:54</span><br>
+<span>Pi 的IO不够做软路由</span><br>
+<span>R2S</span><br>
+</p><p><b>騜: </b><br>
+<span> 本帖最后由 騜 于 2020-3-6 16:05 编辑 </span><br>
+<span>littleneko 发表于 2020-3-6 15:57</span><br>
+<span>其实我不喜欢搞all in one，个人觉得把软路由分开比较好，因为可以随便折腾NAS等东西，不用担心折腾的时候 ...</span><br>
+<span>去捡别人淘汰的J1900被动散热小盒子全部配齐了 350~500左右 上家给你刷好到手就用</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>littleneko 发表于 2020-3-6 15:57</span><br>
+<span>其实我不喜欢搞all in one，个人觉得把软路由分开比较好，因为可以随便折腾NAS等东西，不用担心折腾的时候 ...</span><br>
+<span>+1，我也认为即使搞软路由也要把nas放在后面，不要直接暴露在公网上。而且pc系统的软路由功能大（atom也比mips/arm功能大），系统集成度低，除非对性能有要求否则没必要。</span><br>
+<span>我现在用mikrotik的路由，后端有nas有htpc</span><br>
+</p><p><b>baesystems: </b><br>
+<span>Realplayer 发表于 2020-3-6 15:54</span><br>
+<span>那你扯什么软路由呢</span><br>
+<span>建议EPYC走起</span><br>
+<span>不想吵架，各人有各人的需求，G1840就算只装个OPENWRT也不够我用。</span><br>
+</p><p><b>JWJking: </b><br>
+<span> 本帖最后由 JWJking 于 2020-3-6 16:43 编辑 </span><br>
+<span>双路x79服务器，咸鱼只要800，请。</span><br>
+<span>没看到itx尺寸</span><br>
+</p><p><b>koakon: </b><br>
+<span>看菜吃饭。得看用到怎样的功能才能推荐产品吧。</span><br>
+<span>假如单纯当个主路由，不搞虚拟化。N2600、、N2800的工控主板（mini-itx），12V供电。再加个内存和u盘就是软路由了。千兆网络没问题。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>baesystems 发表于 2020-3-6 16:04</span><br>
+<span>不想吵架，各人有各人的需求，G1840就算只装个OPENWRT也不够我用。</span><br>
+<span>你不会上HBA吗</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>koakon 发表于 2020-3-6 17:03</span><br>
+<span>看菜吃饭。得看用到怎样的功能才能推荐产品吧。</span><br>
+<span>假如单纯当个主路由，不搞虚拟化。N2600、、N2800的工控主 ...</span><br>
+<span>n2800这种性能真不一定比高端路由的arm强……</span><br>
+</p><p><b>继承权: </b><br>
+<span>koakon 发表于 2020-3-6 17:03</span><br>
+<span>看菜吃饭。得看用到怎样的功能才能推荐产品吧。</span><br>
+<span>假如单纯当个主路由，不搞虚拟化。N2600、、N2800的工控主 ...</span><br>
+<span>mt7621a单纯跑千兆网络也没问题呀</span><br>
+</p><p><b>torpedo: </b><br>
+<span>现在成品硬件大概多少钱，现在有台all in one的home lab 但是功耗太高了，我就想跑个nas+软路由，需要什么样的硬件？</span><br>
+</p><p><b>sorayang: </b><br>
+<span>谁推荐我用亚克力机箱我会先把箱子砸过去</span><br>
+</p><p><b>atomone: </b><br>
+<span>所以软路由为啥会涨呢，看来看去入门款都不知道买啥了</span><br>
+</p><p><b>littleneko: </b><br>
+<span>liwangli1983 发表于 2020-3-6 16:01</span><br>
+<span>+1，我也认为即使搞软路由也要把nas放在后面，不要直接暴露在公网上。而且pc系统的软路由功能大（atom也 ...</span><br>
+<span>mikrotik 不太好挂梯子啊</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>纯软路由真没必要整，找个能刷固件的路由就可以了。</span><br>
+<span>x86功耗不行，转发效率也不行。</span><br>
+<span>所以谈不上性价比。要谈性价比，请弄allinone</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>torpedo 发表于 2020-3-7 02:30</span><br>
+<span>现在成品硬件大概多少钱，现在有台all in one的home lab 但是功耗太高了，我就想跑个nas+软路由，需要什么 ...</span><br>
+<span>我的2200g好像典型功耗也就不到50w吧，忘了。</span><br>
+<span>黑群+lede+win10</span><br>
+</p><p><b>koakon: </b><br>
+<span>liwangli1983 发表于 2020-3-6 17:27</span><br>
+<span>n2800这种性能真不一定比高端路由的arm强……</span><br>
+<span>看价钱啊，高端的arm要多少钱。N2600/N2800便宜的时候只要120左右一块。能闲鱼蹲到就值。</span><br>
+</p><p><b>继承权: </b><br>
+<span>koakon 发表于 2020-3-7 15:13</span><br>
+<span>看价钱啊，高端的arm要多少钱。N2600/N2800便宜的时候只要120左右一块。能闲鱼蹲到就值。 ...</span><br>
+<span>BCM4906KFEBG 也是120</span><br>
+</p><p><b>继承权: </b><br>
+<span>https://post.smzdm.com/p/503875/</span><br>
+<span>找到了，一套下来六七百吧</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span> koakon 发表于 2020-3-7 15:13 引用:liwangli1983 发表于 2020-3-6 17:27 n2800这种性能真不一定比高端路由的arm强…… 看价钱啊，高端的arm要多少钱。N2600/N2800便宜的时候只要120左右一块。能闲鱼蹲到就值。 </span><br>
+<span>嘛我的意思是别一听x86软路由就觉得比正常路由强很多的感觉</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917451[0-50]</guid>
+    </item>
+  </channel>
+</rss>

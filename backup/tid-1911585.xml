@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农问题，有啥软件能抓到本机发出的http请求</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农问题，有啥软件能抓到本机发出的http请求</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:29:18 +0000</lastBuildDate>
+    <item>
+      <title>码农问题，有啥软件能抓到本机发出的http请求[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911585-1-1.html</link>
+      <description>码农问题，有啥软件能抓到本机发出的http请求&#13;
+软件或者库都行。
+&#13;
+调用服务器端的rest接口
+&#13;
+java代码发出的http就返回404，而在同一个客户端用firefox的rest client发的就没问题。
+&#13;
+我已经尽量把请求做到一致了。
+&#13;
+有没有类似代理的软件能把实际发出去的两个http 请求都抓住然后让我分析分析？</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>码农问题，有啥软件能抓到本机发出的http请求</span><br>
+<span>软件或者库都行。</span><br>
+<span>调用服务器端的rest接口</span><br>
+<span>java代码发出的http就返回404，而在同一个客户端用firefox的rest client发的就没问题。</span><br>
+<span>我已经尽量把请求做到一致了。</span><br>
+<span>有没有类似代理的软件能把实际发出去的两个http 请求都抓住然后让我分析分析？</span><br>
+</p><p><b>zmj1316: </b><br>
+<span>wireshark</span><br>
+</p><p><b>田多宇光: </b><br>
+<span>Wireshark</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>劫持流量修改再转发用哪个软件？</span><br>
+</p><p><b>伊迪潘喵森: </b><br>
+<span>wireshark可以，但是有的时候很难调……</span><br>
+<span>之前拿来调winpcap写的raw socket挺好的</span><br>
+<span>结果拿来写手机和电脑upd就不好使了……还是要学一学功能的…………</span><br>
+</p><p><b>布拉维坎的屠夫: </b><br>
+<span>fiddler</span><br>
+</p><p><b>kumh: </b><br>
+<span>charles</span><br>
+</p><p><b>卿卿雅儿: </b><br>
+<span>wireshark，或者你开个代理服务器</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>Burp Suite？</span><br>
+<span>要调试的话这个抓包重放还是很好用的</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span>如果是浏览器发出的可以直接f12看，要修改重放的话可以设代理的然后用fiddler、charles、Burp Suite抓，不是浏览器的话只有wireshark好使了</span><br>
+</p><p><b>hoaloha: </b><br>
+<span>Mac上用Charles，支持HTTPS</span><br>
+</p><p><b>acefighter: </b><br>
+<span>HTTP直接用WIRESHARK 就行，（LINUX下用 TCPDUMP命令）</span><br>
+<span>HTTPS的话不太清楚了，你就是有双方的证书也不好搞吧，每个会话的对称密码都是重新算过的，</span><br>
+</p><p><b>littleli: </b><br>
+<span>能设置代理的话，fiddler whistle mitmproxy charles都可以</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>Wireshark （</span><br>
+</p><p><b>amazinglife: </b><br>
+<span>wireshark</span><br>
+</p><p><b>jctc: </b><br>
+<span>https://time.geekbang.org/column/article/97822</span><br>
+<span>讲的还行</span><br>
+<span>就是贵了点</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911585[0-50]</guid>
+    </item>
+  </channel>
+</rss>

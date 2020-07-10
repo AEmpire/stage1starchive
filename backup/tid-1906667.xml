@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZEN 3 IPC</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZEN 3 IPC</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:59:39 +0000</lastBuildDate>
+    <item>
+      <title>ZEN 3 IPC[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1906667-1-1.html</link>
+      <description>ZEN 3 IPC&#13;
+https://www.anandtech.com/show/15268/an-interview-with-amds-cto-mark-papermaster-theres-more-room-at-the-top
+&#13;
+IC: Everyone’s favorite topic when discussing new hardware is about increases in IPC. For Zen 2, we saw a very good 15% increase in IPC over the previous generation. Recently we heard about Forrest Norrod (SVP of Datacenter) talk about Zen 3, in that we should expect to see a very typical increase in IPC again, making another step-function improvement over Zen 2. Do you expect AMD to continue with these sorts of improvements?
+&#13;
+MP: So with our roadmap, and as you know I won’t go into specifics about IPC gains for future generations, but we are driving a model of high-performance compute, and there will be performance gains with each new generation. It’s all about picking the right set of IPC improvements, and the right process nodes and design rules for our core designs. There’s always a balance when we design our cores, so match power with efficiency, and at AMD we still expect to exceed the industry standard. We’ve stated before that the industry has been on a slow 7% annual growth rate in single threaded performance, and our goal is to beat that with every generation of our products. We’ve executed better than the industry with our recent products and we exceeded industry expectations.
+&#13;
+(It’s worth noting that at a 7% annual improvement needs to be met, if a new product comes out every 18 months, then to stay on the same trend each product needs a +10.7% improvement.)</description>
+      <content:encoded><![CDATA[<p><b>Radeon: </b><br>
+<span>ZEN 3 IPC</span><br>
+<span>https://www.anandtech.com/show/15268/an-interview-with-amds-cto-mark-papermaster-theres-more-room-at-the-top</span><br>
+<span>IC: Everyone’s favorite topic when discussing new hardware is about increases in IPC. For Zen 2, we saw a very good 15% increase in IPC over the previous generation. Recently we heard about Forrest Norrod (SVP of Datacenter) talk about Zen 3, in that we should expect to see a very typical increase in IPC again, making another step-function improvement over Zen 2. Do you expect AMD to continue with these sorts of improvements?</span><br>
+<span>MP: So with our roadmap, and as you know I won’t go into specifics about IPC gains for future generations, but we are driving a model of high-performance compute, and there will be performance gains with each new generation. It’s all about picking the right set of IPC improvements, and the right process nodes and design rules for our core designs. There’s always a balance when we design our cores, so match power with efficiency, and at AMD we still expect to exceed the industry standard. We’ve stated before that the industry has been on a slow 7% annual growth rate in single threaded performance, and our goal is to beat that with every generation of our products. We’ve executed better than the industry with our recent products and we exceeded industry expectations.</span><br>
+<span>(It’s worth noting that at a 7% annual improvement needs to be met, if a new product comes out every 18 months, then to stay on the same trend each product needs a +10.7% improvement.)</span><br>
+</p><p><b>albertfu: </b><br>
+<span>We’ve stated before that the industry has been on a slow 7% annual growth rate in single threaded performance</span><br>
+<span>sandy以来有年化7%的单线程性能增长？？？8年可就是1.72倍的2600K啊</span><br>
+</p><p><b>白头盔: </b><br>
+<span>每年有7%那么多吗？感觉没有啊</span><br>
+</p><p><b>白头盔: </b><br>
+<span>passmark得分</span><br>
+<span>9900 5.02807 每G得分 561.4</span><br>
+<span>2600 3.8 1922每G得分 505.7</span><br>
+<span>差不多每年IPC提升1.5%。</span><br>
+</p><p><b>Radeon: </b><br>
+<span>白头盔 发表于 2019-12-31 12:06</span><br>
+<span>passmark得分</span><br>
+<span>9900 5.02807 每G得分 561.4</span><br>
+<span>2600 3.8 1922每G得分 505.7</span><br>
+<span>9900k的架构是2015的←_←</span><br>
+<span>正常来说</span><br>
+<span>cnl是2016的</span><br>
+<span>icl是2017的</span><br>
+</p><p><b>Radeon: </b><br>
+<span>albertfu 发表于 2019-12-31 11:27</span><br>
+<span>We’ve stated before that the industry has been on a slow 7% annual growth rate in single threaded p ...</span><br>
+<span>snb到skl差不多就是这个数了</span><br>
+<span>本来2017就该上icl了。。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Radeon 发表于 2019-12-31 12:11</span><br>
+<span>snb到skl差不多就是这个数了</span><br>
+<span>本来2017就该上icl了。。</span><br>
+<span>看了下9900KS单核是2600K的1.65倍，还真的接近1.72 </span><br>
+<span>但2600K默认boost只有3.8GHz，谁拿来不超个5GHz用。。。</span><br>
+<span>牙膏IPC（桌面）从2011到2019（=2015）提升了25%</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>albertfu 发表于 2019-12-31 12:27</span><br>
+<span>看了下9900KS单核是2600K的1.65倍，还真的接近1.72 </span><br>
+<span>但2600K默认boost只有3.8GHz，谁拿来不超个5G ...</span><br>
+<span>其实牙膏从Core2到Nehelem到SNB到haswell再到skl，IPC都有不少提升，只是15年后就没更新了。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>hgfdsa 发表于 2019-12-31 12:34</span><br>
+<span>其实牙膏从Core2到Nehelem到SNB到haswell再到skl，IPC都有不少提升，只是15年后就没更新了。 ...</span><br>
+<span>penryn到nehalem，nehalem到sandy这两步都跨得很大</span><br>
+<span>sandy-ivy-haswell-broadwell-skylake这一串，年化6%的IPC增长也不慢</span><br>
+<span>但是后面的事大家都知道了。。。</span><br>
+<span>要不是有竞争压力，恐怕今天hedt以下的市场还是4C8T skylake横着走</span><br>
+</p><p><b>高卢鸡: </b><br>
+<span>albertfu 发表于 2019-12-31 13:13</span><br>
+<span>penryn到nehalem，nehalem到sandy这两步都跨得很大</span><br>
+<span>sandy-ivy-haswell-broadwell-skylake这一串，年化6% ...</span><br>
+<span>有了竞争压力，淫特尔的对策就是出bug，打补丁降性能。</span><br>
+<span>只能说躺着赚钱久了，突然站不起来了，一站就摊地上了</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>starash: </b><br>
+<span>https://www.anandtech.com/show/9483/intel-skylake-review-6700k-6600k-ddr4-ddr3-ipc-6th-generation</span><br>
+<span>这是之前的ipc提升。</span><br>
+</p><p><b>雪影: </b><br>
+<span>所以，意思是至少7%，可能10%？</span><br>
+<span>刚659上了3500X的车，坐等4700X或者APU了</span><br>
+</p><p><b>白头盔: </b><br>
+<span>ipc指的是同频性能。</span><br>
+<span>你们说的很多是单核性能。</span><br>
+<span>单核性能还有频率提升加成</span><br>
+<span>What is IPC and how is it calculated?</span><br>
+<span>IPC (Instructions per cycle) refers to the number of calculations a CPU can perform per clock cycle. If two CPUs have the same IPC they will have the same performance at the same frequency</span><br>
+</p><p><b>hguawolo: </b><br>
+<span>白头盔 发表于 2019-12-31 21:12</span><br>
+<span>ipc指的是同频性能。</span><br>
+<span>你们说的很多是单核性能。</span><br>
+<span>IPC就是每周期指令数，频率是另算的。</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>白头盔 发表于 2019-12-31 21:12</span><br>
+<span>ipc指的是同频性能。</span><br>
+<span>你们说的很多是单核性能。</span><br>
+<span>频率还是不要指望能提升太多；按照台积电5nm的试产报告，频率上限比7nm提升的很有限；ZEN3估计整体也就能提个200Mhz。</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>试制甲炮 发表于 2020-1-1 01:10</span><br>
+<span>频率还是不要指望能提升太多；按照台积电5nm的试产报告，频率上限比7nm提升的很有限；ZEN3估计整体也就能 ...</span><br>
+<span>zen3压根用不上5nm</span><br>
+</p><p><b>雪影: </b><br>
+<span>试制甲炮 发表于 2020-1-1 01:10</span><br>
+<span>频率还是不要指望能提升太多；按照台积电5nm的试产报告，频率上限比7nm提升的很有限；ZEN3估计整体也就能 ...</span><br>
+<span>zen3 7nm euv</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>雪影 发表于 2020-1-1 10:25</span><br>
+<span>zen3 7nm euv</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>举重以明轻，7nm EUV性能不可能比下一个世代的5nm要好。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1906667[0-50]</guid>
+    </item>
+  </channel>
+</rss>

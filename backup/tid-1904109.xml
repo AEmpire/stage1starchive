@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>火狐71.0右键菜单抽风的恢复办法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>火狐71.0右键菜单抽风的恢复办法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:30 +0000</lastBuildDate>
+    <item>
+      <title>火狐71.0右键菜单抽风的恢复办法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904109-1-1.html</link>
+      <description>火狐71.0右键菜单抽风的恢复办法&#13;
+最近更新FF到71.0后发现右键菜单又抽风了，在网页任何地方任何情形点右键都会弹出默认的右键菜单，导致很多视频站（油管B站网飞等等）、在线编辑器自带的右键控制菜单被系统右键菜单给覆盖了，而且右键鼠标手势也会弹菜单出来。
+&#13;
+搜了办法，找到解决办法：about:config里，dom.event.contextmenu.enabled改成true，就行了。
+&#13;
+在办公室没升级的FF看了下70.0里面这个值默认是true的，更新到71.0变成默认false了，简直有病。</description>
+      <content:encoded><![CDATA[<p><b>華蝶風雪: </b><br>
+<span>火狐71.0右键菜单抽风的恢复办法</span><br>
+<span>最近更新FF到71.0后发现右键菜单又抽风了，在网页任何地方任何情形点右键都会弹出默认的右键菜单，导致很多视频站（油管B站网飞等等）、在线编辑器自带的右键控制菜单被系统右键菜单给覆盖了，而且右键鼠标手势也会弹菜单出来。</span><br>
+<span>搜了办法，找到解决办法：about:config里，dom.event.contextmenu.enabled改成true，就行了。</span><br>
+<span>在办公室没升级的FF看了下70.0里面这个值默认是true的，更新到71.0变成默认false了，简直有病。</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>马克</span><br>
+</p><p><b>n2z: </b><br>
+<span>看了一下，我这边的值还是true，没有手动改过</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904109[0-50]</guid>
+    </item>
+  </channel>
+</rss>

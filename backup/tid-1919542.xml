@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>steam现在不能多重登录了？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>steam现在不能多重登录了？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:16:42 +0000</lastBuildDate>
+    <item>
+      <title>steam现在不能多重登录了？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1919542-1-1.html</link>
+      <description>steam现在不能多重登录了？&#13;
+我记得原来两台机器一起开steam，虽然不能同时开游戏但是还是可以下载什么的，现在只要一台机器开steam，另一台已经打开的客户端下方下载那一块马上变成无连接，然后不能使用任何需要帐号验证的游戏，这是什么时候改的……</description>
+      <content:encoded><![CDATA[<p><b>farland: </b><br>
+<span>steam现在不能多重登录了？</span><br>
+<span>我记得原来两台机器一起开steam，虽然不能同时开游戏但是还是可以下载什么的，现在只要一台机器开steam，另一台已经打开的客户端下方下载那一块马上变成无连接，然后不能使用任何需要帐号验证的游戏，这是什么时候改的……</span><br>
+</p><p><b>不努: </b><br>
+<span>怀疑不是普遍现象</span><br>
+<span>双机，一个玩游戏一个下载是可以的</span><br>
+</p><p><b>注册一个: </b><br>
+<span>印象中一直不行，包括家庭共享也需要主帐号离线</span><br>
+</p><p><b>farland: </b><br>
+<span>不努 发表于 2020-3-18 16:21</span><br>
+<span>怀疑不是普遍现象</span><br>
+<span>双机，一个玩游戏一个下载是可以的</span><br>
+<span>我测试了多次，如果玩游戏那个需要帐号验证或者在线验证是不行的。</span><br>
+<span>反正只要一台登录，另一台正下方下载游戏/更新那个地方马上变成无连接，只能玩本地游戏。</span><br>
+</p><p><b>不努: </b><br>
+<span>farland 发表于 2020-3-18 16:55</span><br>
+<span>我测试了多次，如果玩游戏那个需要帐号验证或者在线验证是不行的。</span><br>
+<span>反正只要一台登录，另一台正下方下载 ...</span><br>
+<span>你说是多账号吗？可能我理解错了你的意思，我刚才描述的是一个账号两个机器。你想问的是账号A在线账号B就没连接了？</span><br>
+</p><p><b>farland: </b><br>
+<span>不努 发表于 2020-3-18 17:01</span><br>
+<span>你说是多账号吗？可能我理解错了你的意思，我刚才描述的是一个账号两个机器。你想问的是账号A在线账号B就 ...</span><br>
+<span>不不，是同一帐号。</span><br>
+<span>首先在机器A登录，可以进行正常操作；</span><br>
+<span>然后在机器B登录，机器A的下载块马上变成无连接，不能玩需要网络验证的游戏，可以进入本地游戏；</span><br>
+<span>再把机器A退出重新上线，机器B马上变无连接，和第二步一样。</span><br>
+<span>但是在这过程中流式传输还是可以照常进行。</span><br>
+</p><p><b>不努: </b><br>
+<span>farland 发表于 2020-3-18 17:08</span><br>
+<span>不不，是同一帐号。</span><br>
+<span>首先在机器A登录，可以进行正常操作；</span><br>
+<span>哦……联网验证的游戏不清楚，我一个Ubuntu一个mac，都在线，Ubuntu启动玩一个游戏然后在mac上开始下一个没装过的游戏，是可以的</span><br>
+</p><p><b>farland: </b><br>
+<span>不努 发表于 2020-3-18 17:17</span><br>
+<span>哦……联网验证的游戏不清楚，我一个Ubuntu一个mac，都在线，Ubuntu启动玩一个游戏然后在mac上开始下一个 ...</span><br>
+<span>试试这时候再看ubuntu上的steam下载那一栏是不是无连接，能不能下载内容？</span><br>
+</p><p><b>不努: </b><br>
+<span>farland 发表于 2020-3-18 17:41</span><br>
+<span>试试这时候再看ubuntu上的steam下载那一栏是不是无连接，能不能下载内容？</span><br>
+<span>嗯也是可以的，启动的游戏也没有关</span><br>
+</p><p><b>Ketestrait: </b><br>
+<span>下载没注意过但我这里的问题是自从某次更新之后，同一个账号在电脑A上steam上线，就会把电脑B上的steam好友列表顶掉线；</span><br>
+<span>并且B这个好友列表掉线的方式是直接灰掉，除了右上角的最小化最大化和X之外什么都点不了，也没法重新登录，只能重启steam；</span><br>
+<span>导致我现在只好把非主力游戏那台电脑的steam设置成启动时不自动登录好友列表，避免把主力电脑顶下去</span><br>
+</p><p><b>farland: </b><br>
+<span>不努 发表于 2020-3-18 17:54</span><br>
+<span>嗯也是可以的，启动的游戏也没有关</span><br>
+<span> 这个就真是有趣了……</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>两台win，局域网，可以同时登陆steam</span><br>
+<span>默认开启串流，两台电脑可以同时开游戏，但不能开一样的游戏</span><br>
+<span>比如不能两边都开mhw，但可以一个mhw一个csgo</span><br>
+</p><p><b>ozymandias: </b><br>
+<span>可以两台电脑同时登，还有个流式传输的功能吗，可以玩另一台电脑上安装的游戏</span><br>
+<span>—— 来自 HUAWEI EML-AL00, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>farland: </b><br>
+<span>竜ヶ峰桜子 发表于 2020-3-18 20:21</span><br>
+<span>两台win，局域网，可以同时登陆steam</span><br>
+<span>默认开启串流，两台电脑可以同时开游戏，但不能开一样的游戏</span><br>
+<span>比如不能 ...</span><br>
+<span>我回家试了试，可以做到两台同时开，单位死活不行。</span><br>
+<span>楼上说的串流倒是没问题，真是奇哉怪也。</span><br>
+</p><p><b>伍佰: </b><br>
+<span>一直不行啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1919542[0-50]</guid>
+    </item>
+  </channel>
+</rss>

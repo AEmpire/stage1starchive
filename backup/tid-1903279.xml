@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>以色列研究发现：植物被伤害时会用超声波表达痛苦</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>以色列研究发现：植物被伤害时会用超声波表达痛苦</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:18:37 +0000</lastBuildDate>
+    <item>
+      <title>以色列研究发现：植物被伤害时会用超声波表达痛苦[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903279-1-1.html</link>
+      <description>以色列研究发现：植物被伤害时会用超声波表达痛苦&#13;
+12 月 2 日，一项发表在 bioRxiv 上的研究（尚未进行周全的同行评审）发现：植物在缺水或者遭受身体伤害时可以发声表达自己的痛苦。
+&#13;
+科学界早就发现植物可以在被昆虫触碰时作出反应，会转向光源，能 “闻” 出其他植物的存在，有个别的甚至对麻醉剂敏感，暗示着它们有可能会体验到类似于痛苦的感觉。但它们痛苦了之后会叫可是完全的 “next level shit”。由以色列特拉维夫大学植物科学家 Itzhak Khait 领导的团队在距番茄和烟草植物十厘米处，放置了能够检测超声波频率的麦克风，然后停止给它们浇水，剥去它们的茎干。
+&#13;
+声波的测量范围在 20 至 150 赫兹之间。探究者们发现，即使是快乐、健康的植物也会偶尔发出声音。但当被切割时，烟草植物在一个小时内平均发出 15 次声音，番茄植物发出 25 次。10 天不浇水会让烟草植物每小时发出 11 次声音，而番茄植物会叫 35 次。
+&#13;
+这些 “尖叫” 都在人耳能听到的范围之外，但是可以听到超声波的生物（例如老鼠，蝙蝠或其他植物）可以从四五米远的地方听到植物的悲惨呻吟。植物在不同刺激下发出的叫声次数不一样，这也让科学家怀疑它们存在某种类似语言的系统。
+&#13;
+论文摘要：
+&#13;
+Stressed plants show altered phenotypes, including changes in color, smell, and shape. Yet, the possibility that plants emit airborne sounds when stressed – similarly to many animals – has not been investigated. Here we show, to our knowledge for the first time, that stressed plants emit airborne sounds that can be recorded remotely, both in acoustic chambers and in greenhouses. We recorded ∼65 dBSPL ultrasonic sounds 10 cm from tomato and tobacco plants, implying that these sounds could be detected by some organisms from up to several meters away. We developed machine learning models that were capable of distinguishing between plant sounds and general noises, and identifying the condition of the plants – dry, cut, or intact – based solely on the emitted sounds. Our results suggest that animals, humans, and possibly even other plants, could use sounds emitted by a plant to gain information about the plant’s condition. More investigation on plant bioacoustics in general and on sound emission in plants in particular may open new avenues for understanding plants and their interactions with the environment, and it may also have a significant impact on agriculture.
+&#13;
+附图：
+&#13;
+https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F1.large.jpg
+&#13;
+Plants emit remotely-detectable ultrasounds under stress.(a) Acoustic box setup. In each recording, three plants are placed inside an acoustic box with two directional microphones oriented at each plant. Using two microphones helps eliminating false detections resulting from electrical noise clicks of the recording system and cross-plant interference. (b) Mean number of sounds emitted during 60 minutes of recording by tomato and tobacco plants under two treatments, drought stress and cutting. Three control groups were used – empty pots, and two groups of untreated plants: self-control – the same plant before treatment, and neighbor-control – untreated plants that shared the acoustic box with treated plants. All treatment groups emitted significantly more sounds (p&lt;e-6, Wilcoxon test with Bonferroni correction) than all control groups: self-control (Meanself−control &lt; 1 for all plant-treatment combinations) and neighbor control (Meanneighbor−control &lt; 1 for all plant-treatment combinations). The system did not record any sound from pots without plants during the experiments (Meanpots = 0). 20 ≤ n ≤ 30 plants for each group. (c) Examples of time signals of sounds emitted by: a drought-stressed tomato, a drought-stressed tobacco, a cut tomato, and a cut tobacco. (d) The spectra of the sounds from (c).https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F2.large.jpgPlant condition and species can be detected from a distance by listening to its sound emissions.(a) The recorded sounds intensity peak and the max energy frequency for the four groups – drought stressed tomato plants, cut tomato plants, drought stressed tobacco plants and cut tobacco plants. (b) The accuracy of sound classification achieved by different feature extraction methods, with an SVM classifier. The best results were obtained using the scattering network method for feature extraction (red line, p &lt; e-12 for each pair). Using MFCC for feature extraction the results were also highly significant (black dashed line, p&lt;e-4 for each pair) and even basic methods for feature extraction allowed for better-than-random classification (gray line, p&lt;e-6 for each pair apart from one case: Tobacco dry vs. Tobacco cut, which was bot significant with the basic method). The comparisons Tomato vs Elect. Noise and Tobacco vs Elect. Noise related to electrical noise of the system. Training set size of the two groups in each pair was equal (400 &lt; sounds for each pair, see Table S2), and significance levels for each pair were calculated using Wilcoxon rank sum test with Holm–Bonferroni correction for multiple comparisons.https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F3.large.jpgAcoustic detection of plant condition in the greenhouse. (a) Illustration of the procedure used to train a classifier that distinguishes between tomato sounds and greenhouse noises.A greenhouse noises library was first generated, by recording inside an empty greenhouse for several days. Using this library and the library of tomato sounds recorded in an acoustic box, we trained a convolution neural network (CNN) classifier to distinguish between tomato sounds and greenhouse noises. (b) Illustration of the recordings in the greenhouse. Tomato plants were recorded in the greenhouse. The recorded sounds were filtered using the trained CNN classifier, leaving only the tomato-classified sounds. (c) Confusion matrix showing the success of the trained CNN classifier in distinguishing between tomato sounds and greenhouse noises. Balanced accuracy score of ∼99.7%. (d) Confusion matrix showing the success in distinguishing between dry tomato plants and irrigated tomato plants, based on one hour of recording inside a greenhouse. The condition of the plant (dry / irrigated) was here decided based on the number of recorded tomato-classified sounds: if above three the plant was classified as “dry”, and otherwise as “irrigated”. Balanced accuracy score of ∼84% (p&lt;e-5; Fisher exact test). (e) The number of tomato-classified sounds per day during dehydration. Tomato plants (N = 21) were recorded in the greenhouse for ten consecutive days without watering (starting one day after watering). The recorded sounds were then filtered using the trained CNN classifier, leaving only the tomato-classified sounds. We find significant difference in the amount of sounds between the following consecutive days: 1-2 and 2-3 (Wilcoxon signed-ranks tests, corrected for 9 comparisons between pairs of consecutive days using Holm-Bonferroni method; The ‘*’ markings in the figure represent adjusted p-values &lt; 0.05).
+&#13;
+论文链接：https://www.biorxiv.org/content/10.1101/507590v4.full</description>
+      <content:encoded><![CDATA[<p><b>碳酸锂缓释片: </b><br>
+<span>以色列研究发现：植物被伤害时会用超声波表达痛苦</span><br>
+<span>12 月 2 日，一项发表在 bioRxiv 上的研究（尚未进行周全的同行评审）发现：植物在缺水或者遭受身体伤害时可以发声表达自己的痛苦。</span><br>
+<span>科学界早就发现植物可以在被昆虫触碰时作出反应，会转向光源，能 “闻” 出其他植物的存在，有个别的甚至对麻醉剂敏感，暗示着它们有可能会体验到类似于痛苦的感觉。但它们痛苦了之后会叫可是完全的 “next level shit”。由以色列特拉维夫大学植物科学家 Itzhak Khait 领导的团队在距番茄和烟草植物十厘米处，放置了能够检测超声波频率的麦克风，然后停止给它们浇水，剥去它们的茎干。</span><br>
+<span>声波的测量范围在 20 至 150 赫兹之间。探究者们发现，即使是快乐、健康的植物也会偶尔发出声音。但当被切割时，烟草植物在一个小时内平均发出 15 次声音，番茄植物发出 25 次。10 天不浇水会让烟草植物每小时发出 11 次声音，而番茄植物会叫 35 次。</span><br>
+<span>这些 “尖叫” 都在人耳能听到的范围之外，但是可以听到超声波的生物（例如老鼠，蝙蝠或其他植物）可以从四五米远的地方听到植物的悲惨呻吟。植物在不同刺激下发出的叫声次数不一样，这也让科学家怀疑它们存在某种类似语言的系统。</span><br>
+<span>论文摘要：</span><br>
+<span>Stressed plants show altered phenotypes, including changes in color, smell, and shape. Yet, the possibility that plants emit airborne sounds when stressed – similarly to many animals – has not been investigated. Here we show, to our knowledge for the first time, that stressed plants emit airborne sounds that can be recorded remotely, both in acoustic chambers and in greenhouses. We recorded ∼65 dBSPL ultrasonic sounds 10 cm from tomato and tobacco plants, implying that these sounds could be detected by some organisms from up to several meters away. We developed machine learning models that were capable of distinguishing between plant sounds and general noises, and identifying the condition of the plants – dry, cut, or intact – based solely on the emitted sounds. Our results suggest that animals, humans, and possibly even other plants, could use sounds emitted by a plant to gain information about the plant’s condition. More investigation on plant bioacoustics in general and on sound emission in plants in particular may open new avenues for understanding plants and their interactions with the environment, and it may also have a significant impact on agriculture.</span><br>
+<span>附图：</span><br>
+<img src="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F1.large.jpg" title="https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F1.large.jpg"><br>
+<span>Plants emit remotely-detectable ultrasounds under stress.(a) Acoustic box setup. In each recording, three plants are placed inside an acoustic box with two directional microphones oriented at each plant. Using two microphones helps eliminating false detections resulting from electrical noise clicks of the recording system and cross-plant interference. (b) Mean number of sounds emitted during 60 minutes of recording by tomato and tobacco plants under two treatments, drought stress and cutting. Three control groups were used – empty pots, and two groups of untreated plants: self-control – the same plant before treatment, and neighbor-control – untreated plants that shared the acoustic box with treated plants. All treatment groups emitted significantly more sounds (p<e-6, Wilcoxon test with Bonferroni correction) than all control groups: self-control (Meanself−control < 1 for all plant-treatment combinations) and neighbor control (Meanneighbor−control < 1 for all plant-treatment combinations). The system did not record any sound from pots without plants during the experiments (Meanpots = 0). 20 ≤ n ≤ 30 plants for each group. (c) Examples of time signals of sounds emitted by: a drought-stressed tomato, a drought-stressed tobacco, a cut tomato, and a cut tobacco. (d) The spectra of the sounds from (c).https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F2.large.jpgPlant condition and species can be detected from a distance by listening to its sound emissions.(a) The recorded sounds intensity peak and the max energy frequency for the four groups – drought stressed tomato plants, cut tomato plants, drought stressed tobacco plants and cut tobacco plants. (b) The accuracy of sound classification achieved by different feature extraction methods, with an SVM classifier. The best results were obtained using the scattering network method for feature extraction (red line, p < e-12 for each pair). Using MFCC for feature extraction the results were also highly significant (black dashed line, p<e-4 for each pair) and even basic methods for feature extraction allowed for better-than-random classification (gray line, p<e-6 for each pair apart from one case: Tobacco dry vs. Tobacco cut, which was bot significant with the basic method). The comparisons Tomato vs Elect. Noise and Tobacco vs Elect. Noise related to electrical noise of the system. Training set size of the two groups in each pair was equal (400 < sounds for each pair, see Table S2), and significance levels for each pair were calculated using Wilcoxon rank sum test with Holm–Bonferroni correction for multiple comparisons.https://pic-1251685093.cos.ap-guangzhou.myqcloud.com/Bed/F3.large.jpgAcoustic detection of plant condition in the greenhouse. (a) Illustration of the procedure used to train a classifier that distinguishes between tomato sounds and greenhouse noises.A greenhouse noises library was first generated, by recording inside an empty greenhouse for several days. Using this library and the library of tomato sounds recorded in an acoustic box, we trained a convolution neural network (CNN) classifier to distinguish between tomato sounds and greenhouse noises. (b) Illustration of the recordings in the greenhouse. Tomato plants were recorded in the greenhouse. The recorded sounds were filtered using the trained CNN classifier, leaving only the tomato-classified sounds. (c) Confusion matrix showing the success of the trained CNN classifier in distinguishing between tomato sounds and greenhouse noises. Balanced accuracy score of ∼99.7%. (d) Confusion matrix showing the success in distinguishing between dry tomato plants and irrigated tomato plants, based on one hour of recording inside a greenhouse. The condition of the plant (dry / irrigated) was here decided based on the number of recorded tomato-classified sounds: if above three the plant was classified as “dry”, and otherwise as “irrigated”. Balanced accuracy score of ∼84% (p<e-5; Fisher exact test). (e) The number of tomato-classified sounds per day during dehydration. Tomato plants (N = 21) were recorded in the greenhouse for ten consecutive days without watering (starting one day after watering). The recorded sounds were then filtered using the trained CNN classifier, leaving only the tomato-classified sounds. We find significant difference in the amount of sounds between the following consecutive days: 1-2 and 2-3 (Wilcoxon signed-ranks tests, corrected for 9 comparisons between pairs of consecutive days using Holm-Bonferroni method; The ‘*’ markings in the figure represent adjusted p-values < 0.05).</span><br>
+<span>论文链接：https://www.biorxiv.org/content/10.1101/507590v4.full</span><br>
+</p><p><b>屡败屡战阿巴顿: </b><br>
+<span>素食主义者（应当）如 遭 雷 击</span><br>
+</p><p><b>玉依椎名: </b><br>
+<span>人死了才是最有爱心最环保的</span><br>
+</p><p><b>valand: </b><br>
+<span>那么老鼠蝙蝠和其他植物听到了又能做什么呢？</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>屡败屡战阿巴顿 发表于 2019-12-16 11:47</span><br>
+<span>素食主义者（应当）如 遭 雷 击</span><br>
+<span>果食主义了解一下</span><br>
+<span>Fruitarianism 是素食主义的一种，主张植物同样具有不可践踏的生命，因此主义实践者只吃植物的果实。果食主义者只吃会从植物上自然掉落的食物，也就是不用伤害植物就能收割的食物。</span><br>
+</p><p><b>毒青藤: </b><br>
+<span>valand 发表于 2019-12-16 11:48</span><br>
+<span>那么老鼠蝙蝠和其他植物听到了又能做什么呢？</span><br>
+<span>老鼠不知道</span><br>
+<span>但蝙蝠听到我叫估计会跑来送我回阿克汉姆</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>valand 发表于 2019-12-16 11:48</span><br>
+<span>那么老鼠蝙蝠和其他植物听到了又能做什么呢？</span><br>
+<span>西红柿植株在受到切根虫的攻击时，就会向空气中释放出一种特殊的挥发性物质，告诉同伴们「敌袭!敌袭」，「听到」警报的附近的西红柿们就会释放糖苷，合成对害虫有毒的核苷生物硷，防止害虫对西红柿的进一步伤害。大豆植株受到蚜虫的攻击，会释放某种特殊的化学物质，大喊「救命!救命!」援军——瓢虫听到后，便立即赶来，拯救大豆于水火之中。</span><br>
+</p><p><b>jctc: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-16 11:50</span><br>
+<span>果食主义了解一下</span><br>
+<span>Fruitarianism 是素食主义的一种，主张植物同样具有不可践踏的生命，因此主义实 ...</span><br>
+<span>太过分了</span><br>
+<span>不能杀死成年的植物</span><br>
+<span>就去伤害它们的孩子</span><br>
+<span>这是多么懦弱的行为</span><br>
+</p><p><b>断空光牙剑: </b><br>
+<span>http://scp-wiki-cn.wikidot.com/scp-3171</span><br>
+</p><p><b>隐形术的隐形书: </b><br>
+<span>光吃掉下来的果子，果子本身就没有反应了？</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>隐形术的隐形书 发表于 2019-12-16 11:58</span><br>
+<span>光吃掉下来的果子，果子本身就没有反应了？</span><br>
+<span>https://www.reddit.com/r/Fruitarian/</span><br>
+<span>欢迎去这里问，我又不是素食主义</span><br>
+</p><p><b>离谱兰斯基: </b><br>
+<span>完了，改吃蘑菇吧</span><br>
+</p><p><b>Pinchbeck: </b><br>
+<span>痛苦尖叫？</span><br>
+</p><p><b>幽远ghofar: </b><br>
+<span>碳酸锂缓释片 发表于 2019-12-16 11:50</span><br>
+<span>果食主义了解一下</span><br>
+<span>Fruitarianism 是素食主义的一种，主张植物同样具有不可践踏的生命，因此主义实 ...</span><br>
+<span>原教旨主义和修正主义该来一场战争了</span><br>
+</p><p><b>naoh891108: </b><br>
+<span>拿噪音当信号瞎jb拟合做科研不就是这样的么</span><br>
+<span>蹭一个动保的热点文章就走出去了，还能开拓新领域，后来的研究者谁测不出来就是谁的实验装置有问题，反正我的数据是正确的</span><br>
+</p><p><b>redfea2: </b><br>
+<span>那么授粉的时候会发出快乐的声音吗？</span><br>
+</p><p><b>tokimon: </b><br>
+<span>离谱兰斯基 发表于 2019-12-16 12:09</span><br>
+<span>完了，改吃蘑菇吧</span><br>
+<span>マリオ:ん？</span><br>
+</p><p><b>WarriorOfLight: </b><br>
+<span>离谱兰斯基 发表于 2019-12-16 12:09</span><br>
+<span>完了，改吃蘑菇吧</span><br>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576480894986&di=aa65696302be1d6da00d86acaa3a9a7c&imgtype=0&src=http%3A%2F%2Fp3.ssl.cdn.btime.com%2Ft014db0b156359d47d2.gif" title="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576480894986&di=aa65696302be1d6da00d86acaa3a9a7c&imgtype=0&src=http%3A%2F%2Fp3.ssl.cdn.btime.com%2Ft014db0b156359d47d2.gif"><br>
+</p><p><b>脑洞: </b><br>
+<span>可能在说鼠语的草泥马</span><br>
+</p><p><b>qazesz: </b><br>
+<span>redfea2 发表于 2019-12-16 12:29</span><br>
+<span>那么授粉的时候会发出快乐的声音吗？</span><br>
+<span>沙~~（致死量</span><br>
+</p><p><b>天网: </b><br>
+<span> 本帖最后由 天网 于 2019-12-16 12:45 编辑 </span><br>
+<span>离谱兰斯基 发表于 2019-12-16 12:09</span><br>
+<span>完了，改吃蘑菇吧</span><br>
+<span>你收了植物界多少钱，我真菌界给你双倍</span><br>
+</p><p><b>Yerish: </b><br>
+<span>那么拟南芥呢？既然这么相信系统是没问题的，那为什么不接着做个ems screen呢？找到基因那可是cns级别的文字</span><br>
+<span>这种文章大概率要在bioRxiv上待个半年一年的。。。</span><br>
+</p><p><b>厄神之息: </b><br>
+<span>如果你有良心，就去死吧！.jpg</span><br>
+</p><p><b>spf54321: </b><br>
+<span>我记得小学时看杂志就有研究说土豆被削皮时会“惨叫”，我兴冲冲地当新闻给我妈讲，我妈反呛我“那你今晚晚饭啥都别吃就好了”</span><br>
+</p><p><b>mashino: </b><br>
+<span>草：草</span><br>
+</p><p><b>天网: </b><br>
+<span> 本帖最后由 天网 于 2019-12-16 13:04 编辑 </span><br>
+<span>人要是听得见这些超声波，甭管是噪音还是信号都是一种反应，对植物的食用文化应该会和现在很不一样，很多民族可能会从超声反应出发，诞生出源于植物形象的神灵、恶魔、灵魂类传说文化。崇尚不杀生类的宗教，教义该改了吧。君子远庖厨的庖厨，可能连切菜剁萝卜捣蒜也算三远离、三不闻了</span><br>
+<span>这一切只是因为人的生理结构变化了，观念和认知都会变，越发说明什么宗教、不杀生一套套的学说，也是局限于人的认知能力编造出的自我产物，唬人能力降一降</span><br>
+</p><p><b>lonelyleaf: </b><br>
+<span> 本帖最后由 lonelyleaf 于 2019-12-16 23:51 编辑 </span><br>
+<span>原来还有bioRxiv，也就是说这文章还没发出去呢，说不定压根都过不了审呢。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>p2h: </b><br>
+<span>看来只剩下能喝水喘气了</span><br>
+</p><p><b>嵐色羽空: </b><br>
+<span>p2h 发表于 2019-12-17 00:03:47</span><br>
+<span>看来只剩下能喝水喘气了人类呼吸都是错，增加二氧化碳，罪大恶极</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>白龙: </b><br>
+<span>简单的条件反射？</span><br>
+<span>还是带有自主意识的交流？</span><br>
+<span>如果真是条件反射，课本又要修改了</span><br>
+</p><p><b>蔷薇下: </b><br>
+<span>天网 发表于 2019-12-16 12:56</span><br>
+<span>人要是听得见这些超声波，甭管是噪音还是信号都是一种反应，对植物的食用文化应该会和现在很不一样，很多民 ...</span><br>
+<span>动物死前惨状更千奇百怪人类也没因此停止狩猎发展出啥原始信仰啊，顶多过了几万年吃饱了撑得（相比原始社会）一拍脑子想出来了素食搞各种意义。</span><br>
+</p><p><b>jam0207: </b><br>
+<span>白龙 发表于 2019-12-17 01:29</span><br>
+<span>简单的条件反射？</span><br>
+<span>还是带有自主意识的交流？</span><br>
+<span>是脚本</span><br>
+</p><p><b>mqm: </b><br>
+<span>植物哪个器官能震动？想不明白</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903279[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【安卓用】复古游戏+前端整合包</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【安卓用】复古游戏+前端整合包</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:35:44 +0000</lastBuildDate>
+    <item>
+      <title>【安卓用】复古游戏+前端整合包[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850841-1-1.html</link>
+      <description>【安卓用】复古游戏+前端整合包&#13;
+ 本帖最后由 Gilgamesh 于 2019-8-2 13:52 编辑 
+
+写在前面对于模拟器和前端而言，所涵盖的信息面非常广，本文不是一个详细的模拟器及前端的教程，只是一个简易的上手手册，你按照本文介绍的内容一步步操作后，可以非常快速的上手游玩，但对于更深入的内容，还是需要自己摸索和学习的，笔者水平有限，也不会在这篇文章里深入展开这些信息。
+&#13;
+整合包的包含的游戏：FC/NES：304个官方游戏，其中255个为汉化（应该是涵盖了99%的汉化FC游戏），另外49个为IGN评选出的Top100 NES游戏（这49个游戏没有汉化，所以保留美版原版，另外51个有汉化，包含在前面的255个中）；FC/NES Hack：405个非官方游戏（外星科技或其他厂家自制或魔改的游戏，所有中文的非官方游戏，应该覆盖率也超过99%）SFC/SNES：65个官方游戏的中文/汉化（覆盖率同样应该有99%），IGN评选的Top100的游戏（总计87个，没有中文的，保留了美版的原版，另外13个是有中文的，包括在前面的65个中文里）GBA：307个官方游戏，其中256个为汉化（同样99%），另外51个为MetaCritic里，GBA评分前100的游戏（IGN没有评选过GBA的Top10，只有Top25，同样的51个为原版，另外49个包含在汉化中）GBA Hack：37个非官方改版游戏，包括三绕传奇，圣邪的意志，大量宝可梦改版等PS1：154个PS1游戏，其中66个为汉化（99%，你已经懂了），另外88个是我挑选的没有中文的精选游戏，包括GT赛车，铁拳，刀魂，合金装备，恐龙危机，前线任务，女神异闻录等。PGM：31个IGS-PGM的街机游戏，三国战纪、西游记之类的游戏在这个机种里CPS：74个CPS1-CPS3的游戏，街霸3.3，乔乔的奇妙冒险，龙与地下城，异形对铁血战士等NeoGeo：84个NeoGeo游戏，拳皇，合金弹头，侍魂，饿狼，你懂的。
+&#13;
+所有游戏有封面和截图，80%左右带视频预览一些预览图：
+&#13;
+什么是模拟器前端Android有很多非常优秀的模拟器，比如RetroARCh，DraStic，EPSXE，PPSSPP，Dolphin，Redream等，但这些模拟器都是各自独立的，没有一个统一的入口，有些模拟器有较为优秀的rom管理和显示功能（比如EPSXE，Redream等），而有些模拟器在这些方面就比较薄弱，一旦游戏多了，你要找游戏，启动游戏就非常困难。模拟器的前端就是一个统一管理所有模拟器和rom的入口，让你能更方便得浏览和启动你的模拟器游戏。在这里，你可以统一浏览你的游戏，并且可以给这些rom加入附加的信息，比如封面、视频、游戏类型等，便于你更为快捷得查找和浏览这些内容。而不同模拟器的兼容性也各有不同，比如模拟器A对游戏X的兼容性很好，但游戏Y则更适合用模拟器B来跑（这类问题在街机游戏中特别常见），在没有前端的时候，你只能在启动器中选择适合的模拟器，然后再加载对应的rom，每次启动都需要如此，但在模拟器前端中，你设置好了rom以及与其对应的模拟器关系后，下次点击这个rom，适合的模拟器就会自动启动，使得整个过程都更加顺畅
+&#13;
+为什么要用ARC Browser当前端笔者试过不少的模拟器前端，由于Android的模拟器前端的发展起步较晚，无论是付费的还是免费的安卓前端软件，从绝对的完成度来说，和其他平台成熟的前端软件相比，差距还是比较大的，所以现阶段也无法要求前端具有非常复杂的功能。       笔者对前端的需求大致如下：1.   可以调用第三方模拟器启动游戏，小鸡、悟饭游戏厅之类显然不符合这个需求2.   可以脱离触控，直接用手柄操作，DIG等前端还是无法完全脱离触控，比如界面的双指缩放，菜单按键等，都是需要使用到触控或者导航键。为Android TV设计的软件，由于使用遥控器操作，其操作逻辑更接近手柄，所以更为适合3.   可以为独立的机型/游戏设置不同的模拟器关联（比如有些模拟器更适合跑hack rom，兼容性更好；而有些模拟器更适合跑官方rom，准确性更好，希望能针对不同的游戏设置不同的模拟器关联4.   支持游戏的分目录/分类型的展示，由于笔者机型中的游戏较多，需要根据游戏的不同类型分目录，或者分Tag来展现，不然几百个游戏，只按文件名排列，光翻页就需要翻很久，展示还可以，真的用起来就太累了。基于以上几点需求，ARC Browser是笔者试用过的Android前端中最符合需求的。支持调用近百种第三方模拟器，笔者常用的模拟器都可以覆盖到
+&#13;
+由于最初是为Shield TV设计，无需触摸，所有操作都可以通过手柄完成
+&#13;
+可以为单独游戏设置独立的模拟器关联
+&#13;
+支持按Tag对游戏进行分类的筛选和展示，且同一个游戏支持多个Tag
+&#13;
+基本上，ARC Browser符合了笔者对模拟器前端最主要的四个功能需求，而笔者使用过的其它前端，如DIG，Pegasus等，都或多或少，在1-2个地方不满足需求。如果你知道别的更好，且符合以上需求的Android前端，请一定要告诉我。
+&#13;
+安装前的准备工作ARC Browser是个付费软件，我不会在这个整合包中包含这个软件，如果你希望使用，还请去谷歌市场中付费购买，软件的原价是11.99美金，打折的时候也会有7.99这样的价格，是否值得还请自行考量。笔者没有收取这个软件作者的任何宣传费用，只是觉得这个软件确实好用，所以推荐给大家。可能会有人说分享rom本来就是侵权，你又何必装清高。但从我的看法来说，我们现在玩的这些rom，开发者早就不靠这些软件来获取收益和谋生，我们这种分享行为固然侵权，但对作者造成的伤害并不会太大。但目前使用的这些模拟器软件，前端软件等工具，作者依然在销售这些软体，并且也希望能靠这些软件为自己带来收益，如果你觉得这些软件好用，可能的话，还请尽量支持作者。
+&#13;
+安装前需要准备的软件和资料：1.   网盘中共享的游戏rom包2.   网盘中共享的ARC Browser恢复文件：ARCBrowser-restore.tar3.   可以操作手机的手柄（可以是GPD XD之类的自带手柄，也可以使用外接的蓝牙手柄），因为RetroARCh使用过程中会用到手柄操作
+&#13;
+安装过程：一、文件复制a)   将所有rom包解压，复制到内置存储的roms目录下，目录结构应该是下面这个样子roms²nesØrom1Ørom2Ø……²nes-hackØrom1Ørom2Ø……²……b)   把ARC Browser的恢复文件也复制到roms目录备用二、软件安装a)   从谷歌市场购买和安装ARC Brower，谷歌市场需要特殊的方法才可以登陆，这里就不过多展开。b)   安装RetroARCh（这个软件包目前所使用的所有模拟器核心都是RetroARCh核心，当然你也可以自己更改为其它你熟悉的模拟器）。RetroARCh可以直接在谷歌市场中安装，也可以去RetroARCh官网下载APK来进行安装，请安装普通版本，不要安装64位版本，因为笔者这个软件包都是使用普通版本来设置的，你使用64位版本，路径会无法对应，需要自己再另行修改三、RetroARCh配置a)   打开RetroARCh，首先进入到settings/input/user 1 binds/user 1 bind all，会进入到手柄按键的配置程序，按照屏幕提示，将你的手柄配置完毕。b)   回到RetroARCh主界面，进入到main menu/online updater/core updater，选择下载以下核心：                i.         Arcade (FB Alpha 2012)               ii.         Nintendo – Game Boy Advance(mGBA)            iii.         Nintendo – NES / Famicom(Nestopia UE)            iv.         Nintendo- SNES / Famicom(Snes9x)               v.         Sony – PlayStation (PCSXReARMed)四、ARC Browser配置a)   打开ARC Browser，选择Database Tasks/Backup or Restoreb)   点击Restore，选择Select file to restore，选中你放在roms目录下那个恢复文件c)   点击Restore开始恢复，恢复成功后，ARC Browser会自动重启。
+&#13;
+至此，所有整合包配置完毕。你可以选择从ARCBrower中启动游戏。不玩的的时候，一定要彻底退出RetroARCh（Main Menu- Quit RetroARCh），这样下次启动别的游戏，模拟器才能被正确调用。
+&#13;
+如何添加游戏：一、把游戏复制到roms目录下的特定机种目录，机种目录的对应关系如下：a)   cps：ARCadecps1-3，所有cps的游戏都放在这里，zip格式b)   gba：任天堂GBA掌机游戏，官方的游戏都放在这里，zip格式c)   gba-hack：任天堂GBA掌机游戏，破解，改版的游戏都放在这里，zip格式d)   neogeo：SNK的主机游戏，拳皇，侍魂等，zip格式e)   nes：任天堂FC，SNES，红白机游戏，官方的游戏都放在这里，zip格式f)      nes-hack：任天堂FC，SNES，红白机游戏，破解，改版的游戏都放在这里，zip格式g)   pgm：IGS的街机游戏，三国战纪，西游释厄传等，放在这里，zip格式h)   psx：索尼的PS1游戏，由于PS1的格式较多，包括cue，bin，iso，pbp，chd等诸多镜像格式，我在机型设置中并没有包含所有类型，所有建议你放进游戏后，在psx的机型设置里，加入你放入的文件格式的扫描（在新加机种的教程中会有介绍，方法是一样的）i)      snes：任天堂SNES，SFC游戏，zip格式二、加入封面/截图/视频（非必要操作）a)   如果你希望新加的游戏像其他游戏一样也有封面、截图和视频，就需要自己手动把这些媒体内容放进去。b)   这些文件需要和rom的文件名同名，放置位置如下：                i.         游戏封面：机种的同目录下，media/box               ii.         游戏截图：机种的同目录下，media/background            iii.         游戏视频：机种的同目录下，media/videoc)   除了上述三个外，ARC Browser还支持其它的媒体内容，具体你可以看他们的官网介绍：https://nvidiashieldzone.com/ARC-browser-support-site/ARC-browser-artwork-customization/三、重新扫描数据库a)   在ARC Browser软件中，选择Tools / Database tasks / Rescan without scrapingb)   然后在菜单中，选择你想重新扫描的系统c)   扫描完成后，建议重新启动下ARC Browser软件以刷新缓存，Tools / Settings / Restart ARC Browser
+&#13;
+如何修改机种默认的模拟器：笔者这里所有的模拟器都适用的RA，如果你希望适用别的模拟器，也完全可以自己修改。下面是以PSX为例，教你把默认模拟器从RA改成ePSXe，具体步骤如下：1、 打开ARC Browser，选择Tools / Settings / Systems / SonyPSX2、 在Sony PSX这个机种的详细设置中，把滚动条拖动到最底部，选择 Use different template3、 然后在模拟器选择界面，往下拖动，选中ePSXe4、 一路返回到主界面，选择Tools / Settings / Restart ARC Browser，以刷新缓存只要你机器上安装了ePSXe，则你下一次启动PS游戏时，就不会再调用RA模拟，而是调用ePSXe来模拟。其他机种的修改方式也类似，只要选择对应的模拟器软件即可。
+&#13;
+如何新增模拟器机种：笔者的整合包中，仅包含了少数一些的机种，如果你希望加入其他机种的支持，也完全可以自己操作，下面就是一个自己操作，加入DC，调用Redream模拟器的整个过程。1、 打开ARC Browser，选择Tools / Settings / Systems2、 点击Add..添加一个新机种支持3、 在模拟器选择列表中，找到redream，点击添加4、 这个时候，你会回到Systems菜单，且这里多了一个DreamCast的选择，点击DreamCast进行配置5、 首先需要设置的是ROM directory，就是你DC游戏的存放目录6、 其次要设置的是ROM extension，就是需要扫描的rom的扩展名，根据你实际的需要来进行设置，可以是iso，cue，bin，chd等，用半角的逗号隔开7、 参考“如何添加游戏”部分的教程，给DC添加游戏，游戏目录就是你设置在ROM directory的那个目录。
+&#13;
+教程内容基本是这些，大家可以先试试，有什么问题留言给我。
+&#13;
+下载地址： Arc Browser Roms Pack: https://u4925862.ctfile.com/dir/4925862-34934109-7e5ce4/
+&#13;
+解压密码：no-intro</description>
+      <content:encoded><![CDATA[<p><b>PYY: </b><br>
+<span>LZ你用的什么盒子？</span><br>
+<span>或者推荐一种盒子吧，我用电视和自己两个华为荣耀盒子都有延迟。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>viperasi: </b><br>
+<span> 本帖最后由 viperasi 于 2019-8-5 15:05 编辑 </span><br>
+<span>天气姐姐 发表于 2019-8-5 14:25</span><br>
+<span>我很早之前买的wee一代，打gba上的恶魔城没问题，手感比psv略差</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的...</span><br>
+<span>查了一下，只有wee 2t，黑武士x8pro 能用吗?</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>viperasi 发表于 2019-8-5 14:52</span><br>
+<span>查了一下，只有wee 2t，黑武士x8pro 能用吗?</span><br>
+<span>我的经验是拉伸的比夹子的稳定很多，以前用过ps3手柄配一个手柄夹，体验很不好</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>viperasi: </b><br>
+<span>天气姐姐 发表于 2019-8-5 16:03</span><br>
+<span>我的经验是拉伸的比夹子的稳定很多，以前用过ps3手柄配一个手柄夹，体验很不好</span><br>
+<span>—— 来自 OPPO PCCM00,...</span><br>
+<span> 如果无线连接方便的话 就不用夹子了 </span><br>
+</p><p><b>李小狼: </b><br>
+<span>手头有个初代的英伟达sheild掌机，用这个合适吗</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>大暴死: </b><br>
+<span>支持一下，虽然基本还是小鸡下rom+原生模拟器app+飞智手柄</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>viperasi: </b><br>
+<span>天气姐姐 发表于 2019-8-5 16:03</span><br>
+<span>我的经验是拉伸的比夹子的稳定很多，以前用过ps3手柄配一个手柄夹，体验很不好</span><br>
+<span>—— 来自 OPPO PCCM00,...</span><br>
+<span>x8pro中午玩了一中午，感觉良好，基本满意，比北通那个好多了。</span><br>
+<span>优点： 材质摸起来挺舒服，整体没有刺手的边缘，分量也不错比xbox轻，夹子可以取下来当支架，蓝牙连接简单，retroarch里配置一下就能用，摇杆、方向键、ABXY的效果也不错</span><br>
+<span>缺点： LB,RB 按下感觉略生硬，RT,LT 没有键程，而是微动，独独左摇杆蓝色，不好看。</span><br>
+<span>感谢推荐飞智</span><br>
+</p><p><b>gz0552: </b><br>
+<span>感谢感谢，非常感谢楼主的无私奉献！</span><br>
+</p><p><b>焚心雨: </b><br>
+<span>先mark，暂时没买配手机的手柄，有些类型搓玻璃实在没法玩。</span><br>
+</p><p><b>xigua: </b><br>
+<span>真实造福大家了</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>有人帮忙上传百度网盘了，下不动城通的可以试试这个 链接:https://pan.baidu.com/s/1t7G06XiOQfckyak_Eh-pIw 提取码:bted</span><br>
+</p><p><b>mjfans1234: </b><br>
+</p><p><b>牙晓: </b><br>
+<span>viperasi 发表于 2019-8-5 11:21</span><br>
+<span>谁推荐个200以内的专玩模拟器的手柄吧。</span><br>
+<span>之前有个北通阿修罗，必须要线，手感差，玩EPSXE还有时候按键没反 ...</span><br>
+<span>PSC自带两个原装手柄一共才300，可以接电脑，接PSC更是原汁原味</span><br>
+</p><p><b>演员的修养: </b><br>
+<span>电视机没地方下ARC Browser这玩意吗</span><br>
+</p><p><b>safelzy: </b><br>
+<span>ARC Browser有下载地址没</span><br>
+</p><p><b>ArthurFyc: </b><br>
+<span>度盘里的psx文件夹里的压缩包为啥解压不了</span><br>
+</p><p><b>itsmyrailgun: </b><br>
+<span>viperasi 发表于 2019-8-5 11:21</span><br>
+<span>谁推荐个200以内的专玩模拟器的手柄吧。</span><br>
+<span>之前有个北通阿修罗，必须要线，手感差，玩EPSXE还有时候按键没反 ...</span><br>
+<span>XBOX ONE S手柄，除了重一切都非常美好对不起没看到价格</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>ArthurFyc 发表于 2019-8-24 01:52</span><br>
+<span>度盘里的psx文件夹里的压缩包为啥解压不了</span><br>
+<span>网盘里的压缩包都测试过的，可以解压，密码是no-intro，如果哪个包出错，就重下这个包。</span><br>
+</p><p><b>StevenZeng: </b><br>
+<span>有点厉害，插个眼</span><br>
+</p><p><b>拉沃契金: </b><br>
+<span>想问下支持把游戏放NAS吗？shield空间有点不够</span><br>
+</p><p><b>viperasi: </b><br>
+<span>itsmyrailgun 发表于 2019-8-24 03:16</span><br>
+<span>XBOX ONE S手柄，除了重一切都非常美好对不起没看到价格</span><br>
+<span>太重了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850841[50-100]</guid>
+    </item>
+    <item>
+      <title>【安卓用】复古游戏+前端整合包[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850841-1-1.html</link>
+      <description>【安卓用】复古游戏+前端整合包&#13;
+ 本帖最后由 Gilgamesh 于 2019-8-2 13:52 编辑 
+
+写在前面对于模拟器和前端而言，所涵盖的信息面非常广，本文不是一个详细的模拟器及前端的教程，只是一个简易的上手手册，你按照本文介绍的内容一步步操作后，可以非常快速的上手游玩，但对于更深入的内容，还是需要自己摸索和学习的，笔者水平有限，也不会在这篇文章里深入展开这些信息。
+&#13;
+整合包的包含的游戏：FC/NES：304个官方游戏，其中255个为汉化（应该是涵盖了99%的汉化FC游戏），另外49个为IGN评选出的Top100 NES游戏（这49个游戏没有汉化，所以保留美版原版，另外51个有汉化，包含在前面的255个中）；FC/NES Hack：405个非官方游戏（外星科技或其他厂家自制或魔改的游戏，所有中文的非官方游戏，应该覆盖率也超过99%）SFC/SNES：65个官方游戏的中文/汉化（覆盖率同样应该有99%），IGN评选的Top100的游戏（总计87个，没有中文的，保留了美版的原版，另外13个是有中文的，包括在前面的65个中文里）GBA：307个官方游戏，其中256个为汉化（同样99%），另外51个为MetaCritic里，GBA评分前100的游戏（IGN没有评选过GBA的Top10，只有Top25，同样的51个为原版，另外49个包含在汉化中）GBA Hack：37个非官方改版游戏，包括三绕传奇，圣邪的意志，大量宝可梦改版等PS1：154个PS1游戏，其中66个为汉化（99%，你已经懂了），另外88个是我挑选的没有中文的精选游戏，包括GT赛车，铁拳，刀魂，合金装备，恐龙危机，前线任务，女神异闻录等。PGM：31个IGS-PGM的街机游戏，三国战纪、西游记之类的游戏在这个机种里CPS：74个CPS1-CPS3的游戏，街霸3.3，乔乔的奇妙冒险，龙与地下城，异形对铁血战士等NeoGeo：84个NeoGeo游戏，拳皇，合金弹头，侍魂，饿狼，你懂的。
+&#13;
+所有游戏有封面和截图，80%左右带视频预览一些预览图：
+&#13;
+什么是模拟器前端Android有很多非常优秀的模拟器，比如RetroARCh，DraStic，EPSXE，PPSSPP，Dolphin，Redream等，但这些模拟器都是各自独立的，没有一个统一的入口，有些模拟器有较为优秀的rom管理和显示功能（比如EPSXE，Redream等），而有些模拟器在这些方面就比较薄弱，一旦游戏多了，你要找游戏，启动游戏就非常困难。模拟器的前端就是一个统一管理所有模拟器和rom的入口，让你能更方便得浏览和启动你的模拟器游戏。在这里，你可以统一浏览你的游戏，并且可以给这些rom加入附加的信息，比如封面、视频、游戏类型等，便于你更为快捷得查找和浏览这些内容。而不同模拟器的兼容性也各有不同，比如模拟器A对游戏X的兼容性很好，但游戏Y则更适合用模拟器B来跑（这类问题在街机游戏中特别常见），在没有前端的时候，你只能在启动器中选择适合的模拟器，然后再加载对应的rom，每次启动都需要如此，但在模拟器前端中，你设置好了rom以及与其对应的模拟器关系后，下次点击这个rom，适合的模拟器就会自动启动，使得整个过程都更加顺畅
+&#13;
+为什么要用ARC Browser当前端笔者试过不少的模拟器前端，由于Android的模拟器前端的发展起步较晚，无论是付费的还是免费的安卓前端软件，从绝对的完成度来说，和其他平台成熟的前端软件相比，差距还是比较大的，所以现阶段也无法要求前端具有非常复杂的功能。       笔者对前端的需求大致如下：1.   可以调用第三方模拟器启动游戏，小鸡、悟饭游戏厅之类显然不符合这个需求2.   可以脱离触控，直接用手柄操作，DIG等前端还是无法完全脱离触控，比如界面的双指缩放，菜单按键等，都是需要使用到触控或者导航键。为Android TV设计的软件，由于使用遥控器操作，其操作逻辑更接近手柄，所以更为适合3.   可以为独立的机型/游戏设置不同的模拟器关联（比如有些模拟器更适合跑hack rom，兼容性更好；而有些模拟器更适合跑官方rom，准确性更好，希望能针对不同的游戏设置不同的模拟器关联4.   支持游戏的分目录/分类型的展示，由于笔者机型中的游戏较多，需要根据游戏的不同类型分目录，或者分Tag来展现，不然几百个游戏，只按文件名排列，光翻页就需要翻很久，展示还可以，真的用起来就太累了。基于以上几点需求，ARC Browser是笔者试用过的Android前端中最符合需求的。支持调用近百种第三方模拟器，笔者常用的模拟器都可以覆盖到
+&#13;
+由于最初是为Shield TV设计，无需触摸，所有操作都可以通过手柄完成
+&#13;
+可以为单独游戏设置独立的模拟器关联
+&#13;
+支持按Tag对游戏进行分类的筛选和展示，且同一个游戏支持多个Tag
+&#13;
+基本上，ARC Browser符合了笔者对模拟器前端最主要的四个功能需求，而笔者使用过的其它前端，如DIG，Pegasus等，都或多或少，在1-2个地方不满足需求。如果你知道别的更好，且符合以上需求的Android前端，请一定要告诉我。
+&#13;
+安装前的准备工作ARC Browser是个付费软件，我不会在这个整合包中包含这个软件，如果你希望使用，还请去谷歌市场中付费购买，软件的原价是11.99美金，打折的时候也会有7.99这样的价格，是否值得还请自行考量。笔者没有收取这个软件作者的任何宣传费用，只是觉得这个软件确实好用，所以推荐给大家。可能会有人说分享rom本来就是侵权，你又何必装清高。但从我的看法来说，我们现在玩的这些rom，开发者早就不靠这些软件来获取收益和谋生，我们这种分享行为固然侵权，但对作者造成的伤害并不会太大。但目前使用的这些模拟器软件，前端软件等工具，作者依然在销售这些软体，并且也希望能靠这些软件为自己带来收益，如果你觉得这些软件好用，可能的话，还请尽量支持作者。
+&#13;
+安装前需要准备的软件和资料：1.   网盘中共享的游戏rom包2.   网盘中共享的ARC Browser恢复文件：ARCBrowser-restore.tar3.   可以操作手机的手柄（可以是GPD XD之类的自带手柄，也可以使用外接的蓝牙手柄），因为RetroARCh使用过程中会用到手柄操作
+&#13;
+安装过程：一、文件复制a)   将所有rom包解压，复制到内置存储的roms目录下，目录结构应该是下面这个样子roms²nesØrom1Ørom2Ø……²nes-hackØrom1Ørom2Ø……²……b)   把ARC Browser的恢复文件也复制到roms目录备用二、软件安装a)   从谷歌市场购买和安装ARC Brower，谷歌市场需要特殊的方法才可以登陆，这里就不过多展开。b)   安装RetroARCh（这个软件包目前所使用的所有模拟器核心都是RetroARCh核心，当然你也可以自己更改为其它你熟悉的模拟器）。RetroARCh可以直接在谷歌市场中安装，也可以去RetroARCh官网下载APK来进行安装，请安装普通版本，不要安装64位版本，因为笔者这个软件包都是使用普通版本来设置的，你使用64位版本，路径会无法对应，需要自己再另行修改三、RetroARCh配置a)   打开RetroARCh，首先进入到settings/input/user 1 binds/user 1 bind all，会进入到手柄按键的配置程序，按照屏幕提示，将你的手柄配置完毕。b)   回到RetroARCh主界面，进入到main menu/online updater/core updater，选择下载以下核心：                i.         Arcade (FB Alpha 2012)               ii.         Nintendo – Game Boy Advance(mGBA)            iii.         Nintendo – NES / Famicom(Nestopia UE)            iv.         Nintendo- SNES / Famicom(Snes9x)               v.         Sony – PlayStation (PCSXReARMed)四、ARC Browser配置a)   打开ARC Browser，选择Database Tasks/Backup or Restoreb)   点击Restore，选择Select file to restore，选中你放在roms目录下那个恢复文件c)   点击Restore开始恢复，恢复成功后，ARC Browser会自动重启。
+&#13;
+至此，所有整合包配置完毕。你可以选择从ARCBrower中启动游戏。不玩的的时候，一定要彻底退出RetroARCh（Main Menu- Quit RetroARCh），这样下次启动别的游戏，模拟器才能被正确调用。
+&#13;
+如何添加游戏：一、把游戏复制到roms目录下的特定机种目录，机种目录的对应关系如下：a)   cps：ARCadecps1-3，所有cps的游戏都放在这里，zip格式b)   gba：任天堂GBA掌机游戏，官方的游戏都放在这里，zip格式c)   gba-hack：任天堂GBA掌机游戏，破解，改版的游戏都放在这里，zip格式d)   neogeo：SNK的主机游戏，拳皇，侍魂等，zip格式e)   nes：任天堂FC，SNES，红白机游戏，官方的游戏都放在这里，zip格式f)      nes-hack：任天堂FC，SNES，红白机游戏，破解，改版的游戏都放在这里，zip格式g)   pgm：IGS的街机游戏，三国战纪，西游释厄传等，放在这里，zip格式h)   psx：索尼的PS1游戏，由于PS1的格式较多，包括cue，bin，iso，pbp，chd等诸多镜像格式，我在机型设置中并没有包含所有类型，所有建议你放进游戏后，在psx的机型设置里，加入你放入的文件格式的扫描（在新加机种的教程中会有介绍，方法是一样的）i)      snes：任天堂SNES，SFC游戏，zip格式二、加入封面/截图/视频（非必要操作）a)   如果你希望新加的游戏像其他游戏一样也有封面、截图和视频，就需要自己手动把这些媒体内容放进去。b)   这些文件需要和rom的文件名同名，放置位置如下：                i.         游戏封面：机种的同目录下，media/box               ii.         游戏截图：机种的同目录下，media/background            iii.         游戏视频：机种的同目录下，media/videoc)   除了上述三个外，ARC Browser还支持其它的媒体内容，具体你可以看他们的官网介绍：https://nvidiashieldzone.com/ARC-browser-support-site/ARC-browser-artwork-customization/三、重新扫描数据库a)   在ARC Browser软件中，选择Tools / Database tasks / Rescan without scrapingb)   然后在菜单中，选择你想重新扫描的系统c)   扫描完成后，建议重新启动下ARC Browser软件以刷新缓存，Tools / Settings / Restart ARC Browser
+&#13;
+如何修改机种默认的模拟器：笔者这里所有的模拟器都适用的RA，如果你希望适用别的模拟器，也完全可以自己修改。下面是以PSX为例，教你把默认模拟器从RA改成ePSXe，具体步骤如下：1、 打开ARC Browser，选择Tools / Settings / Systems / SonyPSX2、 在Sony PSX这个机种的详细设置中，把滚动条拖动到最底部，选择 Use different template3、 然后在模拟器选择界面，往下拖动，选中ePSXe4、 一路返回到主界面，选择Tools / Settings / Restart ARC Browser，以刷新缓存只要你机器上安装了ePSXe，则你下一次启动PS游戏时，就不会再调用RA模拟，而是调用ePSXe来模拟。其他机种的修改方式也类似，只要选择对应的模拟器软件即可。
+&#13;
+如何新增模拟器机种：笔者的整合包中，仅包含了少数一些的机种，如果你希望加入其他机种的支持，也完全可以自己操作，下面就是一个自己操作，加入DC，调用Redream模拟器的整个过程。1、 打开ARC Browser，选择Tools / Settings / Systems2、 点击Add..添加一个新机种支持3、 在模拟器选择列表中，找到redream，点击添加4、 这个时候，你会回到Systems菜单，且这里多了一个DreamCast的选择，点击DreamCast进行配置5、 首先需要设置的是ROM directory，就是你DC游戏的存放目录6、 其次要设置的是ROM extension，就是需要扫描的rom的扩展名，根据你实际的需要来进行设置，可以是iso，cue，bin，chd等，用半角的逗号隔开7、 参考“如何添加游戏”部分的教程，给DC添加游戏，游戏目录就是你设置在ROM directory的那个目录。
+&#13;
+教程内容基本是这些，大家可以先试试，有什么问题留言给我。
+&#13;
+下载地址： Arc Browser Roms Pack: https://u4925862.ctfile.com/dir/4925862-34934109-7e5ce4/
+&#13;
+解压密码：no-intro</description>
+      <content:encoded><![CDATA[<p><b>Gilgamesh: </b><br>
+<span>【安卓用】复古游戏+前端整合包</span><br>
+<span> 本帖最后由 Gilgamesh 于 2019-8-2 13:52 编辑 </span><br>
+<span>写在前面对于模拟器和前端而言，所涵盖的信息面非常广，本文不是一个详细的模拟器及前端的教程，只是一个简易的上手手册，你按照本文介绍的内容一步步操作后，可以非常快速的上手游玩，但对于更深入的内容，还是需要自己摸索和学习的，笔者水平有限，也不会在这篇文章里深入展开这些信息。</span><br>
+<span>整合包的包含的游戏：FC/NES：304个官方游戏，其中255个为汉化（应该是涵盖了99%的汉化FC游戏），另外49个为IGN评选出的Top100 NES游戏（这49个游戏没有汉化，所以保留美版原版，另外51个有汉化，包含在前面的255个中）；FC/NES Hack：405个非官方游戏（外星科技或其他厂家自制或魔改的游戏，所有中文的非官方游戏，应该覆盖率也超过99%）SFC/SNES：65个官方游戏的中文/汉化（覆盖率同样应该有99%），IGN评选的Top100的游戏（总计87个，没有中文的，保留了美版的原版，另外13个是有中文的，包括在前面的65个中文里）GBA：307个官方游戏，其中256个为汉化（同样99%），另外51个为MetaCritic里，GBA评分前100的游戏（IGN没有评选过GBA的Top10，只有Top25，同样的51个为原版，另外49个包含在汉化中）GBA Hack：37个非官方改版游戏，包括三绕传奇，圣邪的意志，大量宝可梦改版等PS1：154个PS1游戏，其中66个为汉化（99%，你已经懂了），另外88个是我挑选的没有中文的精选游戏，包括GT赛车，铁拳，刀魂，合金装备，恐龙危机，前线任务，女神异闻录等。PGM：31个IGS-PGM的街机游戏，三国战纪、西游记之类的游戏在这个机种里CPS：74个CPS1-CPS3的游戏，街霸3.3，乔乔的奇妙冒险，龙与地下城，异形对铁血战士等NeoGeo：84个NeoGeo游戏，拳皇，合金弹头，侍魂，饿狼，你懂的。</span><br>
+<span>所有游戏有封面和截图，80%左右带视频预览一些预览图：</span><br>
+<span>什么是模拟器前端Android有很多非常优秀的模拟器，比如RetroARCh，DraStic，EPSXE，PPSSPP，Dolphin，Redream等，但这些模拟器都是各自独立的，没有一个统一的入口，有些模拟器有较为优秀的rom管理和显示功能（比如EPSXE，Redream等），而有些模拟器在这些方面就比较薄弱，一旦游戏多了，你要找游戏，启动游戏就非常困难。模拟器的前端就是一个统一管理所有模拟器和rom的入口，让你能更方便得浏览和启动你的模拟器游戏。在这里，你可以统一浏览你的游戏，并且可以给这些rom加入附加的信息，比如封面、视频、游戏类型等，便于你更为快捷得查找和浏览这些内容。而不同模拟器的兼容性也各有不同，比如模拟器A对游戏X的兼容性很好，但游戏Y则更适合用模拟器B来跑（这类问题在街机游戏中特别常见），在没有前端的时候，你只能在启动器中选择适合的模拟器，然后再加载对应的rom，每次启动都需要如此，但在模拟器前端中，你设置好了rom以及与其对应的模拟器关系后，下次点击这个rom，适合的模拟器就会自动启动，使得整个过程都更加顺畅</span><br>
+<span>为什么要用ARC Browser当前端笔者试过不少的模拟器前端，由于Android的模拟器前端的发展起步较晚，无论是付费的还是免费的安卓前端软件，从绝对的完成度来说，和其他平台成熟的前端软件相比，差距还是比较大的，所以现阶段也无法要求前端具有非常复杂的功能。       笔者对前端的需求大致如下：1.   可以调用第三方模拟器启动游戏，小鸡、悟饭游戏厅之类显然不符合这个需求2.   可以脱离触控，直接用手柄操作，DIG等前端还是无法完全脱离触控，比如界面的双指缩放，菜单按键等，都是需要使用到触控或者导航键。为Android TV设计的软件，由于使用遥控器操作，其操作逻辑更接近手柄，所以更为适合3.   可以为独立的机型/游戏设置不同的模拟器关联（比如有些模拟器更适合跑hack rom，兼容性更好；而有些模拟器更适合跑官方rom，准确性更好，希望能针对不同的游戏设置不同的模拟器关联4.   支持游戏的分目录/分类型的展示，由于笔者机型中的游戏较多，需要根据游戏的不同类型分目录，或者分Tag来展现，不然几百个游戏，只按文件名排列，光翻页就需要翻很久，展示还可以，真的用起来就太累了。基于以上几点需求，ARC Browser是笔者试用过的Android前端中最符合需求的。支持调用近百种第三方模拟器，笔者常用的模拟器都可以覆盖到</span><br>
+<span>由于最初是为Shield TV设计，无需触摸，所有操作都可以通过手柄完成</span><br>
+<span>可以为单独游戏设置独立的模拟器关联</span><br>
+<span>支持按Tag对游戏进行分类的筛选和展示，且同一个游戏支持多个Tag</span><br>
+<span>基本上，ARC Browser符合了笔者对模拟器前端最主要的四个功能需求，而笔者使用过的其它前端，如DIG，Pegasus等，都或多或少，在1-2个地方不满足需求。如果你知道别的更好，且符合以上需求的Android前端，请一定要告诉我。</span><br>
+<span>安装前的准备工作ARC Browser是个付费软件，我不会在这个整合包中包含这个软件，如果你希望使用，还请去谷歌市场中付费购买，软件的原价是11.99美金，打折的时候也会有7.99这样的价格，是否值得还请自行考量。笔者没有收取这个软件作者的任何宣传费用，只是觉得这个软件确实好用，所以推荐给大家。可能会有人说分享rom本来就是侵权，你又何必装清高。但从我的看法来说，我们现在玩的这些rom，开发者早就不靠这些软件来获取收益和谋生，我们这种分享行为固然侵权，但对作者造成的伤害并不会太大。但目前使用的这些模拟器软件，前端软件等工具，作者依然在销售这些软体，并且也希望能靠这些软件为自己带来收益，如果你觉得这些软件好用，可能的话，还请尽量支持作者。</span><br>
+<span>安装前需要准备的软件和资料：1.   网盘中共享的游戏rom包2.   网盘中共享的ARC Browser恢复文件：ARCBrowser-restore.tar3.   可以操作手机的手柄（可以是GPD XD之类的自带手柄，也可以使用外接的蓝牙手柄），因为RetroARCh使用过程中会用到手柄操作</span><br>
+<span>安装过程：一、文件复制a)   将所有rom包解压，复制到内置存储的roms目录下，目录结构应该是下面这个样子roms²nesØrom1Ørom2Ø……²nes-hackØrom1Ørom2Ø……²……b)   把ARC Browser的恢复文件也复制到roms目录备用二、软件安装a)   从谷歌市场购买和安装ARC Brower，谷歌市场需要特殊的方法才可以登陆，这里就不过多展开。b)   安装RetroARCh（这个软件包目前所使用的所有模拟器核心都是RetroARCh核心，当然你也可以自己更改为其它你熟悉的模拟器）。RetroARCh可以直接在谷歌市场中安装，也可以去RetroARCh官网下载APK来进行安装，请安装普通版本，不要安装64位版本，因为笔者这个软件包都是使用普通版本来设置的，你使用64位版本，路径会无法对应，需要自己再另行修改三、RetroARCh配置a)   打开RetroARCh，首先进入到settings/input/user 1 binds/user 1 bind all，会进入到手柄按键的配置程序，按照屏幕提示，将你的手柄配置完毕。b)   回到RetroARCh主界面，进入到main menu/online updater/core updater，选择下载以下核心：                i.         Arcade (FB Alpha 2012)               ii.         Nintendo – Game Boy Advance(mGBA)            iii.         Nintendo – NES / Famicom(Nestopia UE)            iv.         Nintendo- SNES / Famicom(Snes9x)               v.         Sony – PlayStation (PCSXReARMed)四、ARC Browser配置a)   打开ARC Browser，选择Database Tasks/Backup or Restoreb)   点击Restore，选择Select file to restore，选中你放在roms目录下那个恢复文件c)   点击Restore开始恢复，恢复成功后，ARC Browser会自动重启。</span><br>
+<span>至此，所有整合包配置完毕。你可以选择从ARCBrower中启动游戏。不玩的的时候，一定要彻底退出RetroARCh（Main Menu- Quit RetroARCh），这样下次启动别的游戏，模拟器才能被正确调用。</span><br>
+<span>如何添加游戏：一、把游戏复制到roms目录下的特定机种目录，机种目录的对应关系如下：a)   cps：ARCadecps1-3，所有cps的游戏都放在这里，zip格式b)   gba：任天堂GBA掌机游戏，官方的游戏都放在这里，zip格式c)   gba-hack：任天堂GBA掌机游戏，破解，改版的游戏都放在这里，zip格式d)   neogeo：SNK的主机游戏，拳皇，侍魂等，zip格式e)   nes：任天堂FC，SNES，红白机游戏，官方的游戏都放在这里，zip格式f)      nes-hack：任天堂FC，SNES，红白机游戏，破解，改版的游戏都放在这里，zip格式g)   pgm：IGS的街机游戏，三国战纪，西游释厄传等，放在这里，zip格式h)   psx：索尼的PS1游戏，由于PS1的格式较多，包括cue，bin，iso，pbp，chd等诸多镜像格式，我在机型设置中并没有包含所有类型，所有建议你放进游戏后，在psx的机型设置里，加入你放入的文件格式的扫描（在新加机种的教程中会有介绍，方法是一样的）i)      snes：任天堂SNES，SFC游戏，zip格式二、加入封面/截图/视频（非必要操作）a)   如果你希望新加的游戏像其他游戏一样也有封面、截图和视频，就需要自己手动把这些媒体内容放进去。b)   这些文件需要和rom的文件名同名，放置位置如下：                i.         游戏封面：机种的同目录下，media/box               ii.         游戏截图：机种的同目录下，media/background            iii.         游戏视频：机种的同目录下，media/videoc)   除了上述三个外，ARC Browser还支持其它的媒体内容，具体你可以看他们的官网介绍：https://nvidiashieldzone.com/ARC-browser-support-site/ARC-browser-artwork-customization/三、重新扫描数据库a)   在ARC Browser软件中，选择Tools / Database tasks / Rescan without scrapingb)   然后在菜单中，选择你想重新扫描的系统c)   扫描完成后，建议重新启动下ARC Browser软件以刷新缓存，Tools / Settings / Restart ARC Browser</span><br>
+<span>如何修改机种默认的模拟器：笔者这里所有的模拟器都适用的RA，如果你希望适用别的模拟器，也完全可以自己修改。下面是以PSX为例，教你把默认模拟器从RA改成ePSXe，具体步骤如下：1、 打开ARC Browser，选择Tools / Settings / Systems / SonyPSX2、 在Sony PSX这个机种的详细设置中，把滚动条拖动到最底部，选择 Use different template3、 然后在模拟器选择界面，往下拖动，选中ePSXe4、 一路返回到主界面，选择Tools / Settings / Restart ARC Browser，以刷新缓存只要你机器上安装了ePSXe，则你下一次启动PS游戏时，就不会再调用RA模拟，而是调用ePSXe来模拟。其他机种的修改方式也类似，只要选择对应的模拟器软件即可。</span><br>
+<span>如何新增模拟器机种：笔者的整合包中，仅包含了少数一些的机种，如果你希望加入其他机种的支持，也完全可以自己操作，下面就是一个自己操作，加入DC，调用Redream模拟器的整个过程。1、 打开ARC Browser，选择Tools / Settings / Systems2、 点击Add..添加一个新机种支持3、 在模拟器选择列表中，找到redream，点击添加4、 这个时候，你会回到Systems菜单，且这里多了一个DreamCast的选择，点击DreamCast进行配置5、 首先需要设置的是ROM directory，就是你DC游戏的存放目录6、 其次要设置的是ROM extension，就是需要扫描的rom的扩展名，根据你实际的需要来进行设置，可以是iso，cue，bin，chd等，用半角的逗号隔开7、 参考“如何添加游戏”部分的教程，给DC添加游戏，游戏目录就是你设置在ROM directory的那个目录。</span><br>
+<span>教程内容基本是这些，大家可以先试试，有什么问题留言给我。</span><br>
+<span>下载地址： Arc Browser Roms Pack: https://u4925862.ctfile.com/dir/4925862-34934109-7e5ce4/</span><br>
+<span>解压密码：no-intro</span><br>
+</p><p><b>Geminize: </b><br>
+<span>ARC Browser的GBA分类能改成MyBoy吗</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>城通网盘啊，下起来真头大</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>Geminize 发表于 2019-8-2 13:30</span><br>
+<span>ARC Browser的GBA分类能改成MyBoy吗</span><br>
+<span>可以改，名称，模拟器都可以自己修改，教程的后半段有。</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>猫不萌 发表于 2019-8-2 13:34</span><br>
+<span>城通网盘啊，下起来真头大</span><br>
+<span>我是百度的付费会员，然后这个包我传百度，传了2个整天，只有2.9%，限速太严重，城通一个下午传完了，我也没啥办法。</span><br>
+</p><p><b>Geminize: </b><br>
+<span> 本帖最后由 Geminize 于 2019-8-2 13:41 编辑 </span><br>
+<span>Gilgamesh 发表于 2019-8-2 13:35</span><br>
+<span>可以改，名称，模拟器都可以自己修改，教程的后半段有。</span><br>
+<span>假如某个模拟器我自己重新编译过，包名和原版不一样能不能加入，或者说自带的模拟器数据库列表里没有，能不能扫描出机器上安装的所有应用列表（不光是模拟器，可能把文件管理器微信支付婊等等都扫描出来了）凭空添加</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>Geminize 发表于 2019-8-2 13:39</span><br>
+<span>假如某个模拟器我自己重新编译过，包名和原版不一样能不能加入，或者说自带的模拟器数据库列表里没有，能 ...</span><br>
+<span>支持参数修改，你把包名改为你自己编译的就可以。</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>Gilgamesh 发表于 2019-8-2 13:36</span><br>
+<span>我是百度的付费会员，然后这个包我传百度，传了2个整天，只有2.9%，限速太严重，城通一个下午传完了，我 ...</span><br>
+<span>要不做做成种子下，城通100k实在太慢了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>Gilgamesh 发表于 2019-8-2 13:41</span><br>
+<span>支持参数修改，你把包名改为你自己编译的就可以。</span><br>
+<span>这功能不错，谢谢</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>最近在搞树莓派，lz有没有兴趣来个树莓派版本的？或者指条路我也动手自己搞一个试下。</span><br>
+<span>a9以前有个百炼成钢，一直在用，可惜很久不更新了。</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>莫夜戎 发表于 2019-8-2 14:16</span><br>
+<span>最近在搞树莓派，lz有没有兴趣来个树莓派版本的？或者指条路我也动手自己搞一个试下。</span><br>
+<span>a9以前有个百炼成钢 ...</span><br>
+<span>有树莓派版本：</span><br>
+<span>链接：https://pan.baidu.com/s/1nyddxbXXEAOpRAkiFuRA-w </span><br>
+<span>提取码：lr1a 游戏资源解压密码：no-intro</span><br>
+<span>直接丢rom目录即可需要注意的是PS部分都用了chd格式，只有最新版本的lr-pcsx-rearmed核心才能支持，你需要自己去更新下，百炼成钢那个不能用。</span><br>
+</p><p><b>莫夜戎: </b><br>
+<span>Gilgamesh 发表于 2019-8-2 14:20</span><br>
+<span>有树莓派版本：</span><br>
+<span>链接：https://pan.baidu.com/s/1nyddxbXXEAOpRAkiFuRA-w </span><br>
+<span>提取码：lr1a 游戏资源解压密码 ...</span><br>
+<span>多谢啦！ARC Browser这个前端应该是单独为安卓设计的，树莓派的话用什么前端比较好呢？大佬有推荐吗？</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>莫夜戎 发表于 2019-8-2 14:25</span><br>
+<span>多谢啦！ARC Browser这个前端应该是单独为安卓设计的，树莓派的话用什么前端比较好呢？大佬有推荐吗？ ...</span><br>
+<span>用ES就行啊，ES作为前端还是挺好用的。</span><br>
+</p><p><b>小明神: </b><br>
+<span>下载种，最近买了个ipega的小摇杆正在纠结怎么用刚好看到LZ这个 完美</span><br>
+</p><p><b>frost134: </b><br>
+<span>这个装到电视里还是不错的</span><br>
+</p><p><b>yuuu: </b><br>
+<span>一直梦想着如果有个WIN10用的前端，能调用SS，PS2，WII模拟器，还能像STEAM大屏幕那样有适合手柄操作的UI，怀旧生涯就完美了</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>yuuu 发表于 2019-8-2 15:35</span><br>
+<span>一直梦想着如果有个WIN10用的前端，能调用SS，PS2，WII模拟器，还能像STEAM大屏幕那样有适合手柄操作的UI， ...</span><br>
+<span>搜Launch Box</span><br>
+</p><p><b>dark_saber: </b><br>
+<span>Gilgamesh 发表于 2019-8-2 15:36</span><br>
+<span>搜Launch Box</span><br>
+<span>launchbox的大屏幕模式要收费吧？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>dark_saber 发表于 2019-8-2 15:36</span><br>
+<span>launchbox的大屏幕模式要收费吧？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>是的，50刀，但确实很好用。</span><br>
+</p><p><b>yuuu: </b><br>
+<span>Gilgamesh 发表于 2019-8-2 15:36</span><br>
+<span>搜Launch Box</span><br>
+<span>感谢，去研究一下</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>机顶盒可以直接用？</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>暗夜明岚 发表于 2019-8-2 15:58</span><br>
+<span>机顶盒可以直接用？</span><br>
+<span>理论上4.4及以上的安卓手机、平板、电视盒，都可以使用。</span><br>
+</p><p><b>GALLADE: </b><br>
+<span>电视上用不错，不过问题就是电视的盒子通常机能都不足，还是要买个shield之类的</span><br>
+</p><p><b>emuegg: </b><br>
+<span>好奇为啥没有MD</span><br>
+</p><p><b>luffyzhou: </b><br>
+<span>等出差完事回家下一下</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>emuegg 发表于 2019-8-2 17:01</span><br>
+<span>好奇为啥没有MD</span><br>
+<span>被你发现了，我不玩MD……</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>有没有人能给个度盘分流,诚通这个速度是真不通啊</span><br>
+</p><p><b>首领: </b><br>
+<span>上次收rom就像在昨天，谢了老铁。</span><br>
+</p><p><b>rvunholy: </b><br>
+<span>盒子上空间不够 插个U盘可以么？</span><br>
+</p><p><b>hagenda4: </b><br>
+<span>插个眼 感谢楼主</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>rvunholy 发表于 2019-8-2 17:31</span><br>
+<span>盒子上空间不够 插个U盘可以么？</span><br>
+<span>可以用U盘，但你需要自己改所有系统的rom目录地址，教程里有。</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>我下了这么久了，还剩78g，我家宽好歹100M啊</span><br>
+</p><p><b>李小狼: </b><br>
+<span>城通我也快挂崩溃了，算了算还要开10天机才能拖完</span><br>
+</p><p><b>ssd: </b><br>
+<span>先收藏下 虽然没安卓机</span><br>
+</p><p><b>john: </b><br>
+<span>你们只要ROM的话我放个地址……16位以下下全还是很容易的，但是没有PC-E</span><br>
+<span>https://wing088.ctfile.com/dir/9495720-26674909-17abca/</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>不是啊，怎么又来了一个城通</span><br>
+</p><p><b>迪门修斯: </b><br>
+<span>说集大成者有点夸张了，但是说整合运动好像没什么问题</span><br>
+</p><p><b>424143883: </b><br>
+<span>ps游戏太大了根本下不动。。。</span><br>
+<span>话说pc上有类似的软件吗</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>不错不错，谢谢分享</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yourSwaTer: </b><br>
+<span>马克下</span><br>
+</p><p><b>GunnQuayleTse: </b><br>
+<span>先马克了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>杉田悠一: </b><br>
+<span>rom有渠道，安卓没设备</span><br>
+</p><p><b>Flysword124960: </b><br>
+<span>大佬牛逼</span><br>
+</p><p><b>viperasi: </b><br>
+<span>这个前端时必须的吗？ 直接用retroarch可行不？</span><br>
+</p><p><b>boom33: </b><br>
+<span>安装前的准备工作ARC Browser是个付费软件，我不会在这个整合包中包含这个软件，如果你希望使用，还请去谷歌市场中付费购买，软件的原价是11.99美金，打折的时候也会有7.99这样的价格，是否值得还请自行考量。</span><br>
+<span>谢发片纯推不下</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>Gilgamesh: </b><br>
+<span>viperasi 发表于 2019-8-5 08:46</span><br>
+<span>这个前端时必须的吗？ 直接用retroarch可行不？</span><br>
+<span>直接用retroarch也是可以的，但你需要自己做列表。</span><br>
+<span>我包里包含了封面和截图，这两个资源你是直接可以用的，图片名称是和rom名匹配的，做起来应该是比较方便的。</span><br>
+</p><p><b>凉宫绿豆沙: </b><br>
+<span>Gilgamesh 发表于 2019-8-5 09:18</span><br>
+<span>直接用retroarch也是可以的，但你需要自己做列表。</span><br>
+<span>我包里包含了封面和截图，这两个资源你是直接可以用的 ...</span><br>
+<span>折腾了一下retro Arch，进啥啥闪退，还是老实用单独模拟器了，本来玩模拟就折腾</span><br>
+</p><p><b>morment: </b><br>
+<span>马克</span><br>
+</p><p><b>viperasi: </b><br>
+<span>谁推荐个200以内的专玩模拟器的手柄吧。</span><br>
+<span>之前有个北通阿修罗，必须要线，手感差，玩EPSXE还有时候按键没反应。</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>viperasi 发表于 2019-8-5 11:21</span><br>
+<span>谁推荐个200以内的专玩模拟器的手柄吧。</span><br>
+<span>之前有个北通阿修罗，必须要线，手感差，玩EPSXE还有时候按键没反 ...</span><br>
+<span>我很早之前买的wee一代，打gba上的恶魔城没问题，手感比psv略差</span><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850841[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>office2013安装老是失败，回滚，提示这个，有人知道咋弄么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>office2013安装老是失败，回滚，提示这个，有人知道咋弄么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:13:36 +0000</lastBuildDate>
+    <item>
+      <title>office2013安装老是失败，回滚，提示这个，有人知道咋弄么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854382-1-1.html</link>
+      <description>office2013安装老是失败，回滚，提示这个，有人知道咋弄么？&#13;
+
+&#13;
+砍了重装老是提示这个，注册表删了几个也不管用，不知咋弄了，有出现过这问题的么</description>
+      <content:encoded><![CDATA[<p><b>xeseed: </b><br>
+<span>office2013安装老是失败，回滚，提示这个，有人知道咋弄么？</span><br>
+<span>砍了重装老是提示这个，注册表删了几个也不管用，不知咋弄了，有出现过这问题的么</span><br>
+</p><p><b>Neho: </b><br>
+<span>解決方法:1:執行o15-ctrremove清除OFFICE http://go.microsoft.com/?linkid=98159352.執行NetFxRepairTool修復.NET https://www.microsoft.com/en-us/download/details.aspx?id=30135在安裝即可</span><br>
+</p><p><b>Neho: </b><br>
+<span>来源http://wulalawula.blogspot.com/2018/08/windows-10-1803-office-2013.html?m=1</span><br>
+</p><p><b>litel: </b><br>
+<span>卸载的时候是怎么卸载的？</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xeseed: </b><br>
+<span>litel 发表于 2019-8-19 13:47</span><br>
+<span>卸载的时候是怎么卸载的？</span><br>
+<span>—— 来自 Xiaomi MI 9, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>就用微软自带的卸载</span><br>
+</p><p><b>营业收入: </b><br>
+<span>office每一代都有巨硬出的官方卸载工具，可以跑一次卸载工具再尝试安装</span><br>
+</p><p><b>mirari: </b><br>
+<span>https://otp.landian.vip/zh-cn/</span><br>
+<span>用这个清理并安装</span><br>
+<span>建议清理安装激活配置全部用这个工具搞定，不折腾</span><br>
+</p><p><b>xeseed: </b><br>
+<span>营业收入 发表于 2019-8-21 06:44</span><br>
+<span>office每一代都有巨硬出的官方卸载工具，可以跑一次卸载工具再尝试安装</span><br>
+<span>你说的是SetupProd_OffScrub吧？</span><br>
+<span>MicrosoftProgram_Install_and_Uninstall.meta 这个也是官方的吧？我用卸载或更改弄完以后用这个就看不到office了不过安装继续失败</span><br>
+<span>windows Installer clean up 微软是不是不给用了？这玩意是不是就是 MicrosoftProgram_Install_and_Uninstall.meta 啊？</span><br>
+</p><p><b>xeseed: </b><br>
+<span>mirari 发表于 2019-8-21 08:01</span><br>
+<span>https://otp.landian.vip/zh-cn/</span><br>
+<span>用这个清理并安装</span><br>
+<span>这个是第3方的       我下了看看</span><br>
+</p><p><b>readmetxt: </b><br>
+<span>左下角Windows徽标-右键-Windows Powershell（管理员）</span><br>
+<span>输入：</span><br>
+<span>fsutil resource setautoreset true c:\</span><br>
+<span>回车</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854382[0-50]</guid>
+    </item>
+  </channel>
+</rss>

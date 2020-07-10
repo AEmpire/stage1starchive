@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 下个世代奇怪的隔墙反射光照会消失吗？]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1944134.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1944134.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 下个世代奇怪的隔墙反射光照会消失吗？ - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 10:51:33 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[下个世代奇怪的隔墙反射光照会消失吗？ #4]]></title>
+            <description><![CDATA[RTAO会减少这种问题，实际上还是光栅化光照计算是2D原因所导致，要想彻底解决只有普及光线追踪]]></description>
+            <pubDate>Sat, 27 Jun 2020 04:35:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47970085</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47970085</link>
+            
+            
+            
+            <author><![CDATA[66666]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[下个世代奇怪的隔墙反射光照会消失吗？ #3]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=47956843&ptid=1944134" target="_blank"><font color="#999999">Lunamos 发表于 2020-6-26 09:55</font></a></font><br>
+不知道你具体指的哪部分，不过一般都是因为做屏幕空间反射的结果，属于光栅化的一种hack。如果反射都用光追 ...</blockquote></div><br>
+楼主说的明显是直接采样环境贴图做反射的锅啊<img src="https://static.saraba1st.com/image/smiley/face2017/067.png" smilieid="708" border="0" alt referrerpolicy="no-referrer"><br>
+SSR只是屏幕没有的就突然消失外加一些薄的物件比较黏着]]></description>
+            <pubDate>Sat, 27 Jun 2020 04:29:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47970023</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47970023</link>
+            
+            
+            
+            <author><![CDATA[lostz1991]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[下个世代奇怪的隔墙反射光照会消失吗？ #2]]></title>
+            <description><![CDATA[不知道你具体指的哪部分，不过一般都是因为做屏幕空间反射的结果，属于光栅化的一种hack。如果反射都用光追计算的话这种artifact会消失。]]></description>
+            <pubDate>Fri, 26 Jun 2020 01:55:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47956843</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1944134&#38;pid=47956843</link>
+            
+            
+            
+            <author><![CDATA[Lunamos]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

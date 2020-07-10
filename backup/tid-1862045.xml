@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求教一道统计学的题目</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求教一道统计学的题目</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:25:05 +0000</lastBuildDate>
+    <item>
+      <title>求教一道统计学的题目[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1862045-1-1.html</link>
+      <description>求教一道统计学的题目&#13;
+https://i.loli.net/2019/10/29/4HAOlgNvojzUmb5.png
+&#13;
+为啥答案是0.1啊？
+&#13;
+推导了下，也查了卡方分布分位数表，怎么看都不是0.1啊……
+&#13;
+https://i.loli.net/2019/10/29/UPVZXc1SCefKI2G.png</description>
+      <content:encoded><![CDATA[<p><b>kodo: </b><br>
+<span>求教一道统计学的题目</span><br>
+<img src="https://i.loli.net/2019/10/29/4HAOlgNvojzUmb5.png" title="https://i.loli.net/2019/10/29/4HAOlgNvojzUmb5.png"><br>
+<span>为啥答案是0.1啊？</span><br>
+<span>推导了下，也查了卡方分布分位数表，怎么看都不是0.1啊……</span><br>
+<img src="https://i.loli.net/2019/10/29/UPVZXc1SCefKI2G.png" title="https://i.loli.net/2019/10/29/UPVZXc1SCefKI2G.png"><br>
+</p><p><b>索尔之怒: </b><br>
+<span> 本帖最后由 索尔之怒 于 2019-10-29 12:18 编辑 </span><br>
+<span>卡方分布不是这么用的……</span><br>
+<span>X2(n)表示n个相互独立的标准正态分布随机变量的平方之和</span><br>
+<span>这里面“相互独立”意味着没有限制，或者说限制条件数=0</span><br>
+<span>每有一个限制条件，比如均值或方差，n就要减1</span><br>
+<span>S^2的计算过程里有均值，所以要减1</span><br>
+<span>但你这里的Xi可都是独立的</span><br>
+<span>所以应该是X2(9)＞16</span><br>
+<span>你再想想是不是这样？</span><br>
+<span>======================================</span><br>
+<span>补一句</span><br>
+<span>式中第二项不等于第三项，这是错误根源</span><br>
+<span>很简单的，Σ[(Xi-μ)^2]≠Σ[(Xi)^2]，μ=Σ(Xi)/n</span><br>
+</p><p><b>kodo: </b><br>
+<span>索尔之怒 发表于 2019-10-29 12:05</span><br>
+<span>卡方分布不是这么用的……</span><br>
+<span>X2(n)表示n个相互独立的标准正态分布随机变量的平方之和</span><br>
+<span>N(0,0.3^2)</span><br>
+<span>均值应该是0啊</span><br>
+</p><p><b>索尔之怒: </b><br>
+<span>kodo 发表于 2019-10-29 12:59</span><br>
+<span>N(0,0.3^2)</span><br>
+<span>均值应该是0啊</span><br>
+<span>这和是不是0没关系</span><br>
+<span>多个随机变量的均值，还是个随机变量，不是被我们称为“期望”的那个定值</span><br>
+<span>既然S^2里面有这个变量，那自由度自然少一个</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>正经的统计学有“自由度”这个说法么？9个iid标准正太的和就是卡方9吧。0.1是卡方10？lz认为是卡方8？</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>kodo 发表于 2019-10-29 12:59</span><br>
+<span>N(0,0.3^2)</span><br>
+<span>均值应该是0啊</span><br>
+<span>S2减的是样本均值，不是期望。</span><br>
+</p><p><b>kodo: </b><br>
+<span>索尔之怒 发表于 2019-10-29 13:02</span><br>
+<span>这和是不是0没关系</span><br>
+<span>多个随机变量的均值，还是个随机变量，不是被我们称为“期望”的那个定值</span><br>
+<span>既然S^2里面 ...</span><br>
+<span>嗯，看明白了。</span><br>
+<span>但果然题目有误，求和应该是10项，不是9项，这样才对得上卡方分布表</span><br>
+</p><p><b>SeleucusBN: </b><br>
+<span>标准化(Xi-0)/0.3~N(0,1)，根据定义有[（Xi-0)/0.3]^2~X^2(1)，故∑[（Xi-0)/0.3]^2~X^2(9)</span><br>
+<span>0.1的化应该是卡方10吧，但这不才一共9个么</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1862045[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ES的U的核显无法被识别开启jellyfin硬解么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ES的U的核显无法被识别开启jellyfin硬解么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:48:11 +0000</lastBuildDate>
+    <item>
+      <title>ES的U的核显无法被识别开启jellyfin硬解么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916974-1-1.html</link>
+      <description>ES的U的核显无法被识别开启jellyfin硬解么？&#13;
+ 本帖最后由 bilibon 于 2020-3-3 17:57 编辑 
+
+日常用一台win server做NAS，8700T的ES，今天闲着没事想要试试jellyfin，安装完成后却发现无法开启硬解，不管设置哪个勾上硬解后看个视频回去就回发现勾自动去了。甚至选择intel的硬解选项根本打不开视频只能选择VAAPI
+&#13;
+尝试在虚拟机做了个群晖装了jellyfin也是一样。。</description>
+      <content:encoded><![CDATA[<p><b>bilibon: </b><br>
+<span>ES的U的核显无法被识别开启jellyfin硬解么？</span><br>
+<span> 本帖最后由 bilibon 于 2020-3-3 17:57 编辑 </span><br>
+<span>日常用一台win server做NAS，8700T的ES，今天闲着没事想要试试jellyfin，安装完成后却发现无法开启硬解，不管设置哪个勾上硬解后看个视频回去就回发现勾自动去了。甚至选择intel的硬解选项根本打不开视频只能选择VAAPI</span><br>
+<span>尝试在虚拟机做了个群晖装了jellyfin也是一样。。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>所以为啥要nas硬解呢？局域网内全交给终端设备解码就是了，至于没被识别：1、es的u；2、虚拟机加黑群，木的核显直通；3、Jellyfin自身bug。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>cybernetics31 发表于 2020-3-3 19:07</span><br>
+<span>所以为啥要nas硬解呢？局域网内全交给终端设备解码就是了，至于没被识别：1、es的u；2、虚拟机加黑群，木的 ...</span><br>
+<span>就是想要穿透出去在外网看才折腾这个，不然本地直接映射磁盘potplayer</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>bilibon 发表于 2020-3-3 19:28</span><br>
+<span>就是想要穿透出去在外网看才折腾这个，不然本地直接映射磁盘potplayer ...</span><br>
+<span>那要么等Jellyfin更新 要么换u</span><br>
+</p><p><b>bilibon: </b><br>
+<span>cybernetics31 发表于 2020-3-3 19:39</span><br>
+<span>那要么等Jellyfin更新 要么换u</span><br>
+</p><p><b>pluser: </b><br>
+<span>8700T做NAS，土豪的世界我是看不懂了~~~</span><br>
+<span>J1900飘过，。，，，</span><br>
+</p><p><b>天降物语: </b><br>
+<span>我i5 3470一开硬解直接系统崩溃重启，不知道是什么bug，等后续更新吧。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>pluser 发表于 2020-3-4 09:05</span><br>
+<span>8700T做NAS，土豪的世界我是看不懂了~~~</span><br>
+<span>J1900飘过，。，，，</span><br>
+<span>也是从J1900，J3455这么过来的。。。本来是打算做ALL IN ONE而且还要上万兆光纤的，最后因为穷+懒只搭了这个NAS</span><br>
+</p><p><b>tooktang: </b><br>
+<span>bilibon 发表于 2020-3-3 17:47</span><br>
+<span>日常用一台win server做NAS，8700T的ES，今天闲着没事想要试试jellyfin，安装完成后却发现无法开启硬解，不 ...</span><br>
+<span>本身的 bug 应该，我的 n 卡硬解也总是自己去掉√，而且实测还是在 cpu 转码。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916974[0-50]</guid>
+    </item>
+  </channel>
+</rss>

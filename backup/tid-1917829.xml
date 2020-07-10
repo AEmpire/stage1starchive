@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>minipcie能上到什么水平的显卡？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>minipcie能上到什么水平的显卡？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:40:03 +0000</lastBuildDate>
+    <item>
+      <title>minipcie能上到什么水平的显卡？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1917829-1-1.html</link>
+      <description>minipcie能上到什么水平的显卡？&#13;
+搞了块HM76的小主板折腾玩，只有一个minipcie，想试试看上个独显，上个什么显卡不至于浪费呢？750？1030？</description>
+      <content:encoded><![CDATA[<p><b>继承权: </b><br>
+<span>minipcie能上到什么水平的显卡？</span><br>
+<span>搞了块HM76的小主板折腾玩，只有一个minipcie，想试试看上个独显，上个什么显卡不至于浪费呢？750？1030？</span><br>
+</p><p><b>继承权: </b><br>
+<span> 本帖最后由 继承权 于 2020-3-8 21:55 编辑 </span><br>
+<span>对了，我准备用一个120W的外接电源，CPU是45W，显卡估计只能带50W以下，只能选1030了。</span><br>
+<span>又去查了下，好像限制PCIE接口其实就相当于限制功耗了？我之前刚出了一片P160 90矿卡，应该正好可以用上的，感觉好亏……</span><br>
+<span>等等好像也不对，用了minipcie再走核显输出的话好像性能会再打折扣，还是用正常显卡好，RX550好像挺合适？</span><br>
+</p><p><b>雪影: </b><br>
+<span>pcie2.0x1或者x2的速度，别折腾了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>继承权: </b><br>
+<span>雪影 发表于 2020-3-8 21:58</span><br>
+<span>pcie2.0x1或者x2的速度，别折腾了</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>看别人折腾的达到750ti水平，不过750ti的tdp略高了，整个rx550应该正好</span><br>
+</p><p><b>killer0079: </b><br>
+<span>几年前用express card搞过显卡，750ti用起来还是很爽的</span><br>
+</p><p><b>madbird302: </b><br>
+<span>楼主要用mini pci-e转X16接显卡吗？</span><br>
+</p><p><b>继承权: </b><br>
+<span>madbird302 发表于 2020-3-9 00:58</span><br>
+<span>楼主要用mini pci-e转X16接显卡吗？</span><br>
+<span>是啊，难道还有别的方法？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>继承权 发表于 2020-3-9 01:01</span><br>
+<span>是啊，难道还有别的方法？</span><br>
+<span>emm，工控机还是按照工控机的用法去用吧，你就算转了X16也是只有X1的带宽，大概率不如核显</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>说到HM76我还有块B950闲置...楼主要么，送了</span><br>
+</p><p><b>继承权: </b><br>
+<span>二丁目拓也 发表于 2020-3-9 01:38</span><br>
+<span>说到HM76我还有块B950闲置...楼主要么，送了</span><br>
+<span>正好我之前也在考虑收个赛扬什么的</span><br>
+<span>我是准备先试试看这个主板能不能解锁功耗墙什么的，能让我现在这块4820qm满血运行的话就直接这样装个小主机，不行的话就正好要了。</span><br>
+</p><p><b>bilibon: </b><br>
+<span>minipcie原来速度这么慢的么，之前还想着淘宝上买那些个minipc外接显卡用的</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro Premium Edition, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>继承权: </b><br>
+<span>翻车了，3820qm点不亮，换了块2520m能点亮。</span><br>
+<span>主板BIOS显示的型号是VC60DGT，找不到相关信息，还不能直接刷VC60的BIOS，上编程器刷了最新BIOS后还是点不亮，又刷了好几个版本的都不行。要么是这个VC60DGT有特殊限制，要么是这块主板有问题，跟之前折腾ms7826点不亮5代CPU类似。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1917829[0-50]</guid>
+    </item>
+  </channel>
+</rss>

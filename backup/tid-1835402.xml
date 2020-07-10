@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【后花园】B站有没有显示被删除收藏的脚本？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【后花园】B站有没有显示被删除收藏的脚本？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:12:01 +0000</lastBuildDate>
+    <item>
+      <title>【后花园】B站有没有显示被删除收藏的脚本？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835402-1-1.html</link>
+      <description>【后花园】B站有没有显示被删除收藏的脚本？&#13;
+ 本帖最后由 acejoe 于 2019-5-29 18:43 编辑 
+
+原来有一个脚本可以显示，但是现在失效了，每次看到收藏里有“已删除”但是不知道是哪个很烦</description>
+      <content:encoded><![CDATA[<p><b>acejoe: </b><br>
+<span>【后花园】B站有没有显示被删除收藏的脚本？</span><br>
+<span> 本帖最后由 acejoe 于 2019-5-29 18:43 编辑 </span><br>
+<span>原来有一个脚本可以显示，但是现在失效了，每次看到收藏里有“已删除”但是不知道是哪个很烦</span><br>
+</p><p><b>若荼泱: </b><br>
+<span> 本帖最后由 若荼泱 于 2019-5-29 20:17 编辑 </span><br>
+<span>试试看对着失效视频检查元素找到av号然后上biliplus？不管用了，失算了。至于吗？善用稍后再看吧，不想污染就专门开个小号？稍后再看不会删。</span><br>
+<span>http://wx3.sinaimg.cn/large/006w4CtTly1g3ifihzll1j30m104uaav.jpg看到楼下了，下个老板app专门看吧。不用多老，最新版没试过，我5.33完美显示，点进去就是av号和谁投稿的。有av号就不怕了。进hd.biliplus.comav号输进去，想要的都有了</span><br>
+</p><p><b>acejoe: </b><br>
+<span>若荼泱 发表于 2019-5-29 19:34</span><br>
+<span>试试看对着失效视频检查元素找到av号然后上biliplus？不管用了，失算了。至于吗？善用稍后再看吧， ...</span><br>
+<span>搜不出啊，显示该视频仅限会员或不存在</span><br>
+</p><p><b>ssd: </b><br>
+<span>app上还显示 </span><br>
+</p><p><b>奥林匹克铁牌: </b><br>
+<span>反正陈睿司马就完事了，收藏这么多，说都不说一声就没了，都不知道哪个是哪个</span><br>
+</p><p><b>alucardcz: </b><br>
+<span>ssd 发表于 2019-5-29 20:05</span><br>
+<span>app上还显示</span><br>
+<span>以前是显示　但是不知道哪次更新后也不显示了</span><br>
+<span>我现在用ａｐｐ看收藏只能看到ｕｐ主名字　播放数　弹幕数。。。</span><br>
+</p><p><b>acejoe: </b><br>
+<span>若荼泱 发表于 2019-5-29 19:34</span><br>
+<span>试试看对着失效视频检查元素找到av号然后上biliplus？不管用了，失算了。至于吗？善用稍后再看吧 ...</span><br>
+<span>你搜搜番剧试试，我就是番剧的搜不出了</span><br>
+</p><p><b>Megumiillusion: </b><br>
+<span>UWP端还能看简介、投稿UP和评论</span><br>
+</p><p><b>jdd4682: </b><br>
+<span> 本帖最后由 jdd4682 于 2019-5-29 21:59 编辑 </span><br>
+<span>若荼泱 发表于 2019-5-29 19:34</span><br>
+<span>试试看对着失效视频检查元素找到av号然后上biliplus？不管用了，失算了。至于吗？善用稍后再看吧 ...</span><br>
+<span>因为没用过hd.biliplus.com，没太看懂你的意思。</span><br>
+<span>先确认一下，hd.biliplus.com是用来在线或下载被删除收藏的吧？</span><br>
+<span>现在还可以用吗？我试了一下，找到被删除的收藏av号后，也没看到任何在线或下载的按钮。</span><br>
+<span>另外，你说的稍后再看怎么用？</span><br>
+</p><p><b>霜落xss: </b><br>
+<span> 本帖最后由 霜落xss 于 2019-5-29 22:05 编辑 </span><br>
+<span>用这个接口：https://api.bilibili.com/medialist/gateway/base/spaceDetail?media_id={fid}&pn={pn}&ps=20</span><br>
+<span>可以看到被删除视频的一部分信息，包括av号、分P标题（单P稿件默认为上传时的文件名）、视频简介、up主、投稿时间等。</span><br>
+<span>其中{fid}是收藏夹的编号，在个人主页浏览收藏夹时网址里会显示；{pn}是页码</span><br>
+<span>用我自己的收藏夹举个例子：</span><br>
+<span>收藏夹的地址是https://space.bilibili.com/6994862/favlist?fid=68357762，可以看到第一页有一个已失效视频，此时访问</span><br>
+<span>https://api.bilibili.com/mediali ... 68357762&pn=1&ps=20</span><br>
+<span>在对应的位置可以看到</span><br>
+<span>虽然title变成了"已失效视频"，但pages里还保留了up投稿时各分P的标题。这个稿件的标题比较清楚，还有些视频投稿时文件名比较随意，可以从intro也就是简介里获得更多信息。</span><br>
+<span>如果简介内容不足的话，还可以用https://www.biliplus.com/搜索av号看看，不过我试了下好像有一些视频是搜不出来的</span><br>
+<span>另外我个人维护了一个b站视频信息的数据库，从18年7月15号之后每天更新，所以如果视频删除时间在这之后而biliplus上又搜不到的话，可以把av号发给我试一下，至少标题和up主应该是可以搜到的。</span><br>
+<span>最后说一下，以上方法仅能获取被删稿件标题、简介等信息，也即“死个明白”，下载还是没法下载的</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>jdd4682 发表于 2019-5-29 21:57</span><br>
+<span>因为没用过hd.biliplus.com，没太看懂你的意思。</span><br>
+<span>先确认一下，hd.biliplus.com是用来在线或下载被删除 ...</span><br>
+<span>hd.biliplus,com就是楼下说的www.biliplus.com。原来这个网站确实可以下载部分极早期下架视频我去年就在上面下过千本幼女。包括没下架的视频，但是自从前段时间被律师函警告后。这些功能都没了，打开网站时候没看到右边弹框吗？我的意思是你可以通过biliplus找到这个失效视频的信息。从而帮助你从其他途径再找到同样的视频。有些视频找不到的话，我是没遇到过。</span><br>
+<img src="https://www.biliplus.com/tmp_home/abuse-cut.jpg" title="https://www.biliplus.com/tmp_home/abuse-cut.jpg"><br>
+<span>稍后再看就是一个b官方的mark功能，有些视频你只想看一遍，但是你一下子看不了。加入稍后再看方便查找，这些视频又不值得收藏。你看我ls那张截图，就是一个被我稍后再看的视频。这个视频如你所见已经失效。但是你看，标题+封面全都在，这样我就可以去比如说YouTube上面再找这个视频。为什么说开个小号呢？因为你主要使用的号，如果稍后再看里塞了大量视频，那就有可能无法使用得很好。算了这个可能是个馊主意。也是下下策。好办法还是楼上这位用api的。</span><br>
+<img src="http://ws1.sinaimg.cn/large/006w4CtTly1g3ijrjkikaj30y302wgmn.jpg" title="http://ws1.sinaimg.cn/large/006w4CtTly1g3ijrjkikaj30y302wgmn.jpg"><br>
+</p><p><b>jdd4682: </b><br>
+<span>若荼泱 发表于 2019-5-29 22:22</span><br>
+<span>hd.biliplus,com就是楼下说的www.biliplus.com。原来这个网站确实可以下载部分极早期下架视频我去年就在 ...</span><br>
+<span>额，明白了，谢谢。</span><br>
+</p><p><b>cangyuyao: </b><br>
+<span>审查元素还能找到av号，data-aid就是，meta-info也有</span><br>
+<span>随便扔个搜索引擎就能查到视频名，除非是秒删</span><br>
+<span>不过印象中相关代码改过好几次了</span><br>
+</p><p><b>独钓寒江雪: </b><br>
+<span>手机客户端**号，然后用搜索引擎搜索，基本上都能找到标题信息或者网页快照，有了标题就可以直接搜索标题了，热度高的视频会被人上传到其它网站，可以下载下来。</span><br>
+</p><p><b>yingu377: </b><br>
+<span>所以吃过一次亏以后我把收藏列表先截个图保存了</span><br>
+</p><p><b>王境泽: </b><br>
+<span>若荼泱 发表于 2019-5-29 22:22</span><br>
+<span>hd.biliplus,com就是楼下说的www.biliplus.com。原来这个网站确实可以下载部分极早期下架视频我去年就在 ...</span><br>
+<span>这个用途不大，稍后再看最多100而且一个月定期清除</span><br>
+<span>我999个收藏呢！</span><br>
+</p><p><b>fengzijiang: </b><br>
+<span>借楼问一下，有没有整理所有番剧弹幕文件的网站/番剧区弹幕文件的资源</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>发现个更简单的方法 直接f12 选择元素 定位到对应代码 把 disabled删掉再点击稍后观看就行了</span><br>
+</p><p><b>RedBaby: </b><br>
+<span>我用的是UWP版b站客户端，似乎在收藏视频页面可以看到仅剩的一些信息</span><br>
+</p><p><b>青窃苍谋: </b><br>
+<span>松鼠症🐴个</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>chen_null: </b><br>
+<span>借着楼上老哥的 API 手撸了个 py 脚本来提取失效 id 并自动查询 biliplus 获得视频名字和UP主，但是这个 biliplus 的服务器是某法国著名游戏公司进口的吗？？</span><br>
+<span>https://gist.github.com/chenx6/0faa7e46eaebec600409c86e3120b3db</span><br>
+<span>https://pastebin.com/QShZeH2d</span><br>
+</p><p><b>zhangqq_010: </b><br>
+<span>fengzijiang 发表于 2019-6-2 16:35</span><br>
+<span>借楼问一下，有没有整理所有番剧弹幕文件的网站/番剧区弹幕文件的资源</span><br>
+<span>bilibiliplus上有一部分</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zhangqq_010: </b><br>
+<span>zhangqq_010 发表于 2019-6-13 00:05</span><br>
+<span>bilibiliplus上有一部分</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>https://www.biliplus.com/video/av6/</span><br>
+</p><p><b>那迦: </b><br>
+<span>zhangqq_010 发表于 2019-6-13 14:14</span><br>
+<span>https://www.biliplus.com/video/av6/</span><br>
+<span>那请问在这个网站上也搜不到的视频是否就彻底找不到了？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835402[0-50]</guid>
+    </item>
+  </channel>
+</rss>

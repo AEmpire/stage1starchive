@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>想对通俗文学做一点分析，请教一下有什么工具</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>想对通俗文学做一点分析，请教一下有什么工具</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:46:06 +0000</lastBuildDate>
+    <item>
+      <title>想对通俗文学做一点分析，请教一下有什么工具[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839647-1-1.html</link>
+      <description>想对通俗文学做一点分析，请教一下有什么工具&#13;
+1.对“读者阅读过程”这一行为的分析
+
+想借助眼球追踪系统对读者的阅读过程进行一些分析，比如特定用词，特定修辞手法对阅读时间的影响，以及这种影响与读者质量评价的相关性，最后得出一个读者对文本质量的评价模型。这种工作有什么工具可以推荐么？
+
+2.对特定作家行文结构与用词风格的分析
+
+想借助分析工具对特定作家的用词习惯，修辞习惯，镜头使用进行统计。大概类似于电影人所谓的“拉片子”。这种工作有什么工具可以推荐么？</description>
+      <content:encoded><![CDATA[<p><b>胸自潮1: </b><br>
+<span>想对通俗文学做一点分析，请教一下有什么工具</span><br>
+<span>1.对“读者阅读过程”这一行为的分析</span><br>
+<span>想借助眼球追踪系统对读者的阅读过程进行一些分析，比如特定用词，特定修辞手法对阅读时间的影响，以及这种影响与读者质量评价的相关性，最后得出一个读者对文本质量的评价模型。这种工作有什么工具可以推荐么？</span><br>
+<span>2.对特定作家行文结构与用词风格的分析</span><br>
+<span>想借助分析工具对特定作家的用词习惯，修辞习惯，镜头使用进行统计。大概类似于电影人所谓的“拉片子”。这种工作有什么工具可以推荐么？</span><br>
+</p><p><b>NF17: </b><br>
+<span>这，只能堆砌人力吧</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>第一个可以搜一下“网页热力图”，但是最多对鼠标在网页元素上停留时间的统计，要统计眼睛的话恐怕要买眼动仪请人实验。</span><br>
+<span>第二个就是“词频统计”嘛，这个在人工智能领域做得挺多的，可以输出假冒的文字，效果不错。</span><br>
+</p><p><b>Saltychtao: </b><br>
+<span>目前大部分技术还是停留在句子级别的，对于篇章结构分析的好像很难做到</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span> 本帖最后由 胸自潮1 于 2019-6-15 14:54 编辑 </span><br>
+<span>洗刷刷 发表于 2019-6-15 14:41</span><br>
+<span>第一个可以搜一下“网页热力图”，但是最多对鼠标在网页元素上停留时间的统计，要统计眼睛的话恐怕要买眼动 ...</span><br>
+<span>词频统计是比较好做的，已经在做了。但是对修辞手法的统计，对文本中存在的场景转换(类似电影中切镜头)的统计，就似乎没有那么现成的工具。</span><br>
+<span>眼动仪的确有现成硬件，但是我想得到更直观的结果，不是说：甲某某的视线在屏幕a1格中停留了3.5秒……而是：对甲某某本次阅读时间影响最大的是用词a与修辞b，这样的。</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span>Saltychtao 发表于 2019-6-15 14:49</span><br>
+<span>目前大部分技术还是停留在句子级别的，对于篇章结构分析的好像很难做到</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, ...</span><br>
+<span>请问能说一下现有工具的名字吗？我现在很想找一个能识别修辞的工具。至少能识别比喻，分辨出本体和喻体。</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>胸自潮1 发表于 2019-6-15 14:51</span><br>
+<span>词频统计是比较好做的，已经在做了。但是对修辞手法的统计，对文本中存在的场景转换(类似电影中切镜头)的 ...</span><br>
+<span>那你得自己写代码找出文本中的比喻修辞句了，没听说过这种轮子。另外如果知道注意的屏幕位置和当前页数，不就知道读者究竟在看哪个词了吗？</span><br>
+</p><p><b>Saltychtao: </b><br>
+<span>胸自潮1 发表于 2019-6-15 16:55</span><br>
+<span>请问能说一下现有工具的名字吗？我现在很想找一个能识别修辞的工具。至少能识别比喻，分辨出本体和喻体。 ...</span><br>
+<span>你这个我感觉用依存分析就能做吧。先用规则找出比喻句，再识别依存关系。</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839647[0-50]</guid>
+    </item>
+  </channel>
+</rss>

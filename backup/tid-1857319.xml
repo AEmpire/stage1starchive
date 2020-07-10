@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>zen2新bios AGESA 1003ABBA的cppc功能到底是个啥？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>zen2新bios AGESA 1003ABBA的cppc功能到底是个啥？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:55:03 +0000</lastBuildDate>
+    <item>
+      <title>zen2新bios AGESA 1003ABBA的cppc功能到底是个啥？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857319-1-1.html</link>
+      <description>zen2新bios AGESA 1003ABBA的cppc功能到底是个啥？&#13;
+ 本帖最后由 ft5555 于 2019-10-1 19:37 编辑 
+
+ 我的华硕X470主板从AGESA 1002 BIOS升级了AGESA 1003ABBA鸡血BIOS后，发现BIOS CPU设置部分多了一个CPPC设置项。
+&#13;
+CPPC : Collaborative Power Performance Control 
+&#13;
+ZEN2 宣传PPT里介绍它支持UEFI CPPC2 ,是个让处理器升频更迅速的功能。
+&#13;
+但在华硕x470上，它还影响着系统是否优先调用第一个CCX
+&#13;
+CPPC = OFF 
+&#13;
+CPPC = ON
+&#13;
+跑4个烤内存线程，CPPC = OFF 时明显线程没有被集中到第一个CCX上。
+&#13;
+在使用AGESA 1002 BIOS时也是这个现象。说明早期的AGESA还不能支持这个功能。
+&#13;
+至于AGESA 1003AB 或 ABB是否支持我就不清楚了。谁有条件可以跑这个测试试试。
+&#13;
+MSI 也是1003ABB鸡血BIOS 出现CPPC开关项。并且特别注明该项只对X570有效。 
+&#13;
+手头没有MSI 的4系列主板，不知道是否能跟ASUS的板子一样优先使用第一个CCX了。
+&#13;
+======================================================
+&#13;
+能证明的就是 AMD并未在首发时，实现它PPT里宣传的优先使用第一个CCX的特性。
+&#13;
+然后PPT也没有提到这个特性是跟CPPC整合到一起的.
+&#13;
+因为新功能的开关是 AGESA 1003ABBA带来的，主板厂家无法修改。
+&#13;
+所以MSI提到只有X570支持CPPC是指非X570只能支持一部分特性？还是故意没有去实现该功能呢？</description>
+      <content:encoded><![CDATA[<p><b>ft5555: </b><br>
+<span>zen2新bios AGESA 1003ABBA的cppc功能到底是个啥？</span><br>
+<span> 本帖最后由 ft5555 于 2019-10-1 19:37 编辑 </span><br>
+<span> 我的华硕X470主板从AGESA 1002 BIOS升级了AGESA 1003ABBA鸡血BIOS后，发现BIOS CPU设置部分多了一个CPPC设置项。</span><br>
+<span>CPPC : Collaborative Power Performance Control </span><br>
+<span>ZEN2 宣传PPT里介绍它支持UEFI CPPC2 ,是个让处理器升频更迅速的功能。</span><br>
+<span>但在华硕x470上，它还影响着系统是否优先调用第一个CCX</span><br>
+<span>CPPC = OFF </span><br>
+<span>CPPC = ON</span><br>
+<span>跑4个烤内存线程，CPPC = OFF 时明显线程没有被集中到第一个CCX上。</span><br>
+<span>在使用AGESA 1002 BIOS时也是这个现象。说明早期的AGESA还不能支持这个功能。</span><br>
+<span>至于AGESA 1003AB 或 ABB是否支持我就不清楚了。谁有条件可以跑这个测试试试。</span><br>
+<span>MSI 也是1003ABB鸡血BIOS 出现CPPC开关项。并且特别注明该项只对X570有效。 </span><br>
+<span>手头没有MSI 的4系列主板，不知道是否能跟ASUS的板子一样优先使用第一个CCX了。</span><br>
+<span>======================================================</span><br>
+<span>能证明的就是 AMD并未在首发时，实现它PPT里宣传的优先使用第一个CCX的特性。</span><br>
+<span>然后PPT也没有提到这个特性是跟CPPC整合到一起的.</span><br>
+<span>因为新功能的开关是 AGESA 1003ABBA带来的，主板厂家无法修改。</span><br>
+<span>所以MSI提到只有X570支持CPPC是指非X570只能支持一部分特性？还是故意没有去实现该功能呢？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857319[0-50]</guid>
+    </item>
+  </channel>
+</rss>

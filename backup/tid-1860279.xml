@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:36:12 +0000</lastBuildDate>
+    <item>
+      <title>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860279-1-1.html</link>
+      <description>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法&#13;
+我觉得根源在于970时代，因为那时候SOC性能不足，为了让麒麟970有卖点能喝845打一打，研发了他们自行研发的AI算法。
+&#13;
+就是让荣耀PLAY大卖特卖GPU Turbo
+&#13;
+这套算法应该有个作用就是调整游戏分辨率，AI自行调配SOC的资源，让游戏时总体保持一个功耗，减少大幅降频，让970为980争取了很长的时间。
+&#13;
+但是这个调整对于没有列入最初调整名单的游戏就开始有点乱来了，明明没有必要下降分辨率的地方，AI依旧判断要降。
+&#13;
+然后没想到980牛了，可以基本玩大型游戏也不会出什么幺蛾子。
+&#13;
+但是当初为970调教的AI却依旧在发挥作用，而且可能比较底层的东西，改了那么久依然无法解决。
+&#13;
+因为连你关了也不代表AI就被关掉了，可见是多么底层的算法。
+&#13;
+热衷玩游戏真的不能选华为，爵士不打你们精日喜欢的崩崩崩，FGO（逃</description>
+      <content:encoded><![CDATA[<p><b>飞侠小黑: </b><br>
+<span>新固件推送修复这个bug了</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span>迫于舆情改了吧，啥时候改emui9和之前的？另外我还是不认可这是个bug，chh那边有人做了实验伪装包名就会被降分辨率</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>车欠: </b><br>
+<span>从强制降分辨率的feature，不给用户选择权，hw真的是为所欲为</span><br>
+<span>—— 来自 OnePlus A0001, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>飞侠小黑: </b><br>
+<span>苏沃雷生 发表于 2019-10-23 23:29</span><br>
+<span>迫于舆情改了吧，啥时候改emui9和之前的？另外我还是不认可这是个bug，chh那边有人做了实验伪装包名就会被 ...</span><br>
+<span>970到990游戏性能提高几倍了吧，虽然菊花有降分辨率的优良传统，但是，与其相信设计师脑子进水了把970时代都没降分辨率的游戏到了990时代给降了分辨率，还是程序员手滑了出bug更可信一些，官方说法是bug问题，不然也很难解释970时代也就是特定游戏降分辨率，到了990反而所有游戏都降分辨率了。</span><br>
+<span>—— 来自 HUAWEI VOG-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>飞侠小黑 发表于 2019-10-23 23:51</span><br>
+<span>970到990游戏性能提高几倍了吧，虽然菊花有降分辨率的优良传统，但是，与其相信设计师脑子进水了把970时 ...</span><br>
+<span>你看看知乎那个测试贴？很有意思的。被骂了之后，FGO的不降了，明日方舟的不降了。</span><br>
+<span>但是明日之后接着降……</span><br>
+</p><p><b>RE-OIL_Hen!!: </b><br>
+<span>突出华为素质</span><br>
+</p><p><b>泪指环: </b><br>
+<span>我记得地图APP都会降分辨率</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span> 本帖最后由 苏沃雷生 于 2019-10-24 06:35 编辑 </span><br>
+<span>飞侠小黑 发表于 2019-10-23 23:51</span><br>
+<span>970到990游戏性能提高几倍了吧，虽然菊花有降分辨率的优良传统，但是，与其相信设计师脑子进水了把970时 ...</span><br>
+<span>不是，那9.1和之前一票游戏也不是就应该被降分辨率啊，之前反映了两年，这次炎上才改。我看chh还有个实验伪装包名证明这个机制就是针对指定的app，根本就不应该存在用户选了自定义分辨率你还限制分辨率的机制</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>daidasday: </b><br>
+<span>一个补丁就解决的问题，还不成熟的看法，至于吗？</span><br>
+</p><p><b>pap: </b><br>
+<span>这个功能不是能关的吗？</span><br>
+<span>我小米用户是挺喜欢华为这个功能。</span><br>
+</p><p><b>卡普空: </b><br>
+<span>苏沃雷生 发表于 2019-10-24 06:33</span><br>
+<span>不是，那9.1和之前一票游戏也不是就应该被降分辨率啊，之前反映了两年，这次炎上才改。我看chh还有个实验 ...</span><br>
+<span>我来帮你们捋一捋历史</span><br>
+<span>最早时候的emui是只针对华为市场的游戏客户端降分辨率，官方客户端是不降的，机能不够降分辨率来凑</span><br>
+<span>第二个阶段大概是emui8开始，可能华为程序猿觉得上面的做法太麻烦，直接针对指定名的客户端降分辨率，不管你是哪来的，这就是你说的改包名会降分辨率，一直延续了下来</span><br>
+<span>第三个阶段就是最近emui9的某个更新之后，几乎所有的游戏全部自动降了分辨率，然后网上舆论翻了，李小龙出来官方说明是bug会修正</span><br>
+<span>你们说的不是一个事情，都没有毛病，菊花在使用机制上确实不应该有选了固定分辨率还给降分辨率的行为，华为之前降分辨率的恶习也不影响这次问题是bug的原因。</span><br>
+</p><p><b>megumi01: </b><br>
+<span>pap 发表于 2019-10-24 08:42</span><br>
+<span>这个功能不是能关的吗？</span><br>
+<span>关了依旧降。。。。</span><br>
+</p><p><b>黎恩: </b><br>
+<span>daidasday 发表于 2019-10-24 07:48</span><br>
+<span>一个补丁就解决的问题，还不成熟的看法，至于吗？</span><br>
+<span>我不发这贴社区反映了2年都没改，我一发就改了，花粉都得感谢我呀。</span><br>
+</p><p><b>mono: </b><br>
+<span>apk包名都给挖出来了 别AI了</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>刚打算双十一给丈母娘换个华为荣耀20或者p20，又给我整出这出，我不知道买啥好了，好了，还有啥能推荐吗？</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>perfaceNext 发表于 2019-10-25 19:04</span><br>
+<span>刚打算双十一给丈母娘换个华为荣耀20或者p20，又给我整出这出，我不知道买啥好了，好了，还有啥能推荐吗？ ...</span><br>
+<span>老人家对这些不敏感，说不定还会夸华为续航好</span><br>
+</p><p><b>perfaceNext: </b><br>
+<span>pzy2222 发表于 2019-10-25 19:12</span><br>
+<span>老人家对这些不敏感，说不定还会夸华为续航好</span><br>
+<span>有道理，找个能撑最长时间不卡的</span><br>
+</p><p><b>黎恩: </b><br>
+<span>perfaceNext 发表于 2019-10-25 19:21</span><br>
+<span>有道理，找个能撑最长时间不卡的</span><br>
+<span>P20不错，小巧，好看，适合老人</span><br>
+</p><p><b>九耳: </b><br>
+<span>perfaceNext 发表于 2019-10-25 19:04</span><br>
+<span>刚打算双十一给丈母娘换个华为荣耀20或者p20，又给我整出这出，我不知道买啥好了，好了，还有啥能推荐吗？ ...</span><br>
+<span>你丈母娘不玩儿fgo吧。说不定还夸续航好呢</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>827288988: </b><br>
+<span>九耳 发表于 2019-10-26 11:33</span><br>
+<span>你丈母娘不玩儿fgo吧。说不定还夸续航好呢</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1 ...</span><br>
+<span>p20算了，970的性能估计华为不会推送分辨率升级，荣耀20的980性能足够，有可能推送分辨率补丁</span><br>
+</p><p><b>螺纹: </b><br>
+<span>mate30好像发补丁了，等我装个fgo看看</span><br>
+</p><p><b>mingminlun: </b><br>
+<span>反正华为现在一家独大，国内也没有更多的选择了</span><br>
+<span>—— 来自 samsung SM-G970N, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>蓝色的风之精灵: </b><br>
+<span>比起游戏降分辨率，我更讨厌播放视频时动态调整亮度。本来黑暗画面已经看不清了，还再降亮度</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>yxch: </b><br>
+<span>perfaceNext 发表于 2019-10-25 19:21</span><br>
+<span>有道理，找个能撑最长时间不卡的</span><br>
+<span>现在970不要买了，810都比970强。</span><br>
+<span>—— 来自 HUAWEI LIO-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nalanchen: </b><br>
+<span>mingminlun 发表于 2019-10-26 12:41</span><br>
+<span>反正华为现在一家独大，国内也没有更多的选择了</span><br>
+<span>—— 来自 samsung SM-G970N, Android 9上的 S1Next-鹅版...</span><br>
+<span>还有蓝绿在，花为是做不到一家独大的，而且今年的占有率上涨肯定会带来更多的风险</span><br>
+</p><p><b>梦飘零: </b><br>
+<span>貌似新版本这问题已经修复了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860279[100-150]</guid>
+    </item>
+    <item>
+      <title>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860279-1-1.html</link>
+      <description>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法&#13;
+我觉得根源在于970时代，因为那时候SOC性能不足，为了让麒麟970有卖点能喝845打一打，研发了他们自行研发的AI算法。
+&#13;
+就是让荣耀PLAY大卖特卖GPU Turbo
+&#13;
+这套算法应该有个作用就是调整游戏分辨率，AI自行调配SOC的资源，让游戏时总体保持一个功耗，减少大幅降频，让970为980争取了很长的时间。
+&#13;
+但是这个调整对于没有列入最初调整名单的游戏就开始有点乱来了，明明没有必要下降分辨率的地方，AI依旧判断要降。
+&#13;
+然后没想到980牛了，可以基本玩大型游戏也不会出什么幺蛾子。
+&#13;
+但是当初为970调教的AI却依旧在发挥作用，而且可能比较底层的东西，改了那么久依然无法解决。
+&#13;
+因为连你关了也不代表AI就被关掉了，可见是多么底层的算法。
+&#13;
+热衷玩游戏真的不能选华为，爵士不打你们精日喜欢的崩崩崩，FGO（逃</description>
+      <content:encoded><![CDATA[<p><b>樱绰落: </b><br>
+<span>那以前降地图app分辨率</span><br>
+<span>是为了测试亮屏续航成绩好看？</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>原来分辨率对续航影响这么大？那我必A屏用黑色模式开720p分辨率</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>Bondrewd 发表于 2019-10-19 23:58</span><br>
+<span>原来分辨率对续航影响这么大？那我必A屏用黑色模式开720p分辨率</span><br>
+<span>这么明显的事，比如DELL的XPS,同配置情况下，4K笔记本的续航跟1080P比就是掉成渣啊，从12小时掉到8小时，差了50%</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>kuleisite1992 发表于 2019-10-20 00:04</span><br>
+<span>这么明显的事，比如DELL的XPS,同配置情况下，4K笔记本的续航跟1080P比就是掉成渣啊，从12小时掉到8小时， ...</span><br>
+<span>你这个是物理分辨率不同，之前讨论的是系统渲染分辨率呀。</span><br>
+<span>屏幕还是那块屏幕，不过系统用的低分辨率进行的渲染导致模糊。</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span> 本帖最后由 糟糕的魔女 于 2019-10-20 00:27 编辑 </span><br>
+<span>youta 发表于 2019-10-19 21:07</span><br>
+<span>看测试，崩崩崩并不是全程降分辨率，也不是全局降分辨率，把人物拉近，就会回到高分辨率</span><br>
+<span>—— 来自 Xiao ...</span><br>
+<span>正式版是这样吗？那可真……差评。</span><br>
+<span>店里的测试版崩崩崩我看得出来是全程高分辨率的，没啥狗牙，远景画面没有问题，大招特写非常清晰。正式版就降分辨率，那不是非常恶劣的欺诈消费者行为？</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>moekyo: </b><br>
+</p><p><b>Aquarius0120: </b><br>
+<span>moekyo 发表于 2019-10-20 00:31</span><br>
+<span>现在还可以再加上一条：</span><br>
+<span>手机厂商有责任和义务告诉消费者，他们最近购买的5G手机在“现在和未来，国内和国外”是否都能够使用Google的GMS？是局部中国大陆通还是全球通？这个问题不应回避，更不能刻意混淆，应该把知情权还给用户，很多人花了几千块钱购买的5G手机，最后连基本的Google框架都装不了，安全认证都过不了，这就有欺骗消费者的嫌疑了。</span><br>
+</p><p><b>nalanchen: </b><br>
+<span>什么，980不AI了吗？990还在AI啊</span><br>
+</p><p><b>壮岁旌旗拥万夫: </b><br>
+<span>糟糕的魔女 发表于 2019-10-19 19:34</span><br>
+<span>但是跑去店里试玩了一下演示机里的崩崩崩，华为倒是没降分辨率啊，甚至是特效全开的演示</span><br>
+<span>不是只有f ...</span><br>
+<span>可能是演示机没更新到emui10的原因……</span><br>
+</p><p><b>melvin95: </b><br>
+<span>太丢AI的脸了，充其量就是写得不精明的码，整天也只会用AI5G区块链这些字眼来糊弄大众</span><br>
+<span>这种狗改不了吃屎的态度还是停不下来的，真是low穿地心，下一个丑闻只能说是倒数中</span><br>
+</p><p><b>培根芝士蛋堡XD: </b><br>
+<span>可是连地图都将分辨率了哦</span><br>
+</p><p><b>starash: </b><br>
+<span>因为续航输给了iPhone上面下死命令了吧，所有点都扣，emui10的后台斩法也是愈发严厉了。</span><br>
+</p><p><b>rbf1993: </b><br>
+<span>本质就是为了打续航牌作弊而已，续航、信号、拍照就是现在海军攻击其他家最好用的三张牌，一切都是为了作弊吹牛逼，恶臭的企业文化。</span><br>
+</p><p><b>macos: </b><br>
+<span>降分辨率这么大胆的吗，说明人还真看不出高分屏了</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>壮岁旌旗拥万夫 发表于 2019-10-20 00:56</span><br>
+<span>可能是演示机没更新到emui10的原因……</span><br>
+<span>那也是欺骗……</span><br>
+<span>想像一下肥宅欢天喜地去店里试机，点开测试版游戏，画质全开流畅不卡顿不掉帧不发热，老婆舔得贼开心，立马下单买回家。回家新机升级下载正式版游戏客户端，就发现变成HD狗牙老婆，大热天的，冷，发抖，能不能好？</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>dogfight: </b><br>
+<span>展示台上是插电的，也许把省电功能关了？</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>苏沃雷生 发表于 2019-10-19 20:29</span><br>
+<span>算了吧，最早被针对的fgo是什么级别的游戏，660都该跑满的玩意</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 ...</span><br>
+<span>660真的跑不满，放个EA就成幻灯片。</span><br>
+</p><p><b>绿巨人杨过: </b><br>
+<span>好久没来，怎么感觉华为在你坛风向不对啊</span><br>
+<span>以前随便吐槽一下，基本就被喷成傻逼</span><br>
+</p><p><b>红都剧院24排4号: </b><br>
+<span>绿巨人杨过 发表于 2019-10-20 09:50</span><br>
+<span>好久没来，怎么感觉华为在你坛风向不对啊</span><br>
+<span>以前随便吐槽一下，基本就被喷成傻逼 ...</span><br>
+<span>外野不能讨论ZZ以后，很多人干脆不来了</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>绿巨人杨过 发表于 2019-10-20 09:50</span><br>
+<span>好久没来，怎么感觉华为在你坛风向不对啊</span><br>
+<span>以前随便吐槽一下，基本就被喷成傻逼 ...</span><br>
+<span>也有可能人家真买了华为，然后面对事实脸红的不敢说话</span><br>
+</p><p><b>827288988: </b><br>
+<span>绿巨人杨过 发表于 2019-10-20 09:50</span><br>
+<span>好久没来，怎么感觉华为在你坛风向不对啊</span><br>
+<span>以前随便吐槽一下，基本就被喷成傻逼 ...</span><br>
+<span>华为sb的事还做少了？何况还是高中低端全部抢食，哦，还是唯一站稳了国产高端的</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span>糟糕的魔女 发表于 2019-10-20 00:15</span><br>
+<span>正式版是这样吗？那可真……差评。</span><br>
+<span>店里的测试版崩崩崩我看得出来是全程高分辨率的，没啥狗牙，远景画面 ...</span><br>
+<span>你下个fgo，明显得很</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fantuanhtr: </b><br>
+<span>Jai用机玩家 发表于 2019-10-19 17:46</span><br>
+<span>崩3好歹是个3D游戏，FGO不就纸片人游戏吗，这玩意很吃性能？</span><br>
+<span>fgo是unity。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>这次居然没人洗地了？不正常啊</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>红都剧院24排4号 发表于 2019-10-20 09:52</span><br>
+<span>外野不能讨论ZZ以后，很多人干脆不来了</span><br>
+<span>是这样吗</span><br>
+</p><p><b>apple222: </b><br>
+<span>rbf1993 发表于 2019-10-20 08:22</span><br>
+<span>本质就是为了打续航牌作弊而已，续航、信号、拍照就是现在海军攻击其他家最好用的三张牌，一切都是为了作弊 ...</span><br>
+<span>续航水分很大。。。。其他两个相对实在点。。。但是一样搞事情，有的乱说还会被删id</span><br>
+</p><p><b>apple222: </b><br>
+<span>红都剧院24排4号 发表于 2019-10-20 09:52</span><br>
+<span>外野不能讨论ZZ以后，很多人干脆不来了</span><br>
+<span>大实话，应该如此。。。就是政治狂人闭着眼睛瞎说</span><br>
+</p><p><b>古畑任三郎2015: </b><br>
+<span>话说麒麟芯片解码是不是有问题</span><br>
+<span>我用m6看720p的剧都掉电飞快</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>古畑任三郎2015 发表于 2019-10-20 13:46</span><br>
+<span>话说麒麟芯片解码是不是有问题</span><br>
+<span>我用m6看720p的剧都掉电飞快</span><br>
+<span>麒麟系列的硬解……MTK都吊着打。准确的说mate系列一开始就是一块要求大电池大屏幕长续航信号好声音大的商务机，或者说高端功能机。</span><br>
+<span>其他的一切打游戏看视频录像录音都是不重要或者说为了功能机可以舍弃的。</span><br>
+<span>华为的真旗舰D系列早死了多少年了。</span><br>
+<span>没有配秘书，一天接打几十个电话的人，买个头的华为。</span><br>
+</p><p><b>angel13th: </b><br>
+<span>kuleisite1992 发表于 2019-10-20 14:05</span><br>
+<span>麒麟系列的硬解……MTK都吊着打。准确的说mate系列一开始就是一块要求大电池大屏幕长续航信号好声音大的 ...</span><br>
+<span>买过Ascend D1的表示</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>华为旗舰挺好的，也没必要黑那么惨吧，毕竟人家续航拍照好。虽然我是不会再买华为手机了，冤大头。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>伊可费斯 发表于 2019-10-19 19:31</span><br>
+<span>那么这个bug什么时候修复呢</span><br>
+<span>这是feature，不是bug</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>听起来和大众尾气门差不多性质</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>小野賢章 发表于 2019-10-20 18:57</span><br>
+<span>听起来和大众尾气门差不多性质</span><br>
+<span>尾气门顶多污染大一点。这个是1080P P排OLED=720P LCD，再打6.666折。等效480P的RGB排列LCD。800*480的游戏画质，PSP啊，赞。</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>kuleisite1992 发表于 2019-10-20 21:30</span><br>
+<span>尾气门顶多污染大一点。这个是1080P P排OLED=720P LCD，再打6.666折。等效480P的RGB排列LCD。800*480的游 ...</span><br>
+<span>那个gpu turbo就是降分辨率？</span><br>
+</p><p><b>kuleisite1992: </b><br>
+<span>激萌的萝莉 发表于 2019-10-20 21:33</span><br>
+<span>那个gpu turbo就是降分辨率？</span><br>
+<span>即使GPU Turbo有提升，也不会有这么大，顶天10%。而降分辨率带来的性能提升是论倍的。</span><br>
+</p><p><b>leystage: </b><br>
+<span>小野賢章 发表于 2019-10-20 18:57</span><br>
+<span>听起来和大众尾气门差不多性质</span><br>
+<span>尾气门是为了应付政府法规，用户开起来还是发动机应有的性能。华为这个是为了不知道谁的利益让用户用起来比买的时候标称的画面要差很多，用户受损了。。。</span><br>
+</p><p><b>auraria: </b><br>
+<span>苏沃雷生 发表于 2019-10-19 20:29</span><br>
+<span>算了吧，最早被针对的fgo是什么级别的游戏，660都该跑满的玩意</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 ...</span><br>
+<span>fgo的垃圾优化几乎所有安卓机在宝具时都有不同程度的掉帧</span><br>
+<span>—— 来自 samsung SM-N9760, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>kuleisite1992 发表于 2019-10-20 21:39</span><br>
+<span>即使GPU Turbo有提升，也不会有这么大，顶天10%。而降分辨率带来的性能提升是论倍的。 ...</span><br>
+<span>和以前在电脑上用400x800的分辨率打战地4一个道理？</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span>激萌的萝莉 发表于 2019-10-20 21:48</span><br>
+<span>和以前在电脑上用400x800的分辨率打战地4一个道理？</span><br>
+<span>差不多是这样，对比图懒得上了https://i.loli.net/2019/10/21/7kReBJ5QDmaFISA.jpg</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>黎恩 发表于 2019-10-19 17:21</span><br>
+<span>对，还有那可怕的省电精灵也是有可能影响分辨率的元凶。现在好像没啥人说过要关哪个。</span><br>
+<span>低分辨率带来了相当 ...</span><br>
+<span>并不是省电精灵的锅，名单内app降分辨率。</span><br>
+<span>其实除了某些游戏，降分辨率并不能显著提升续航，菊花的设计师脑子进水了。</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>苏沃雷生 发表于 2019-10-21 09:04</span><br>
+<span>差不多是这样，对比图懒得上了</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>真·psp</span><br>
+</p><p><b>无敌神猪: </b><br>
+<span>hgfdsa 发表于 2019-10-21 09:09</span><br>
+<span>并不是省电精灵的锅，名单内app降分辨率。</span><br>
+<span>其实除了某些游戏，降分辨率并不能显著提升续航，菊花的设计 ...</span><br>
+<span>不管真的能不能降，有这个设定给心理上的安慰也可以，不过不带开关无条件降真是脑子里有巨坑。</span><br>
+</p><p><b>由莉亚100式: </b><br>
+<span>都是精日游戏，完全没问题，本来爵士就不会玩</span><br>
+</p><p><b>AlfredXC: </b><br>
+<span>反正不改的话肯定不会再买华为了</span><br>
+</p><p><b>松霖: </b><br>
+<span>emui10正式版不改，以后再也不会买这个牌子了直接全转果子的</span><br>
+<span>—— 来自 HUAWEI ELE-AL00, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>x-rei: </b><br>
+<span>ramiel1 发表于 2019-10-20 12:50:26</span><br>
+<span>这次居然没人洗地了？不正常啊这怎么洗 是屎也只有硬咽下去</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>megumi01: </b><br>
+<span>急功近利的表现被。。。系统一直被诟病 就走歪门邪道了撒。年底就把P30P卖了。</span><br>
+</p><p><b>YuKin: </b><br>
+<span>这个不一定能洗，但是隔壁指纹贴抬手就是一顶工读生帽子，一点依然没变啊。</span><br>
+</p><p><b>雨季朦胧了: </b><br>
+<span>华为研发的ai程序已经失去控制，二次元的末日总算到了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860279[50-100]</guid>
+    </item>
+    <item>
+      <title>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1860279-1-1.html</link>
+      <description>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法&#13;
+我觉得根源在于970时代，因为那时候SOC性能不足，为了让麒麟970有卖点能喝845打一打，研发了他们自行研发的AI算法。
+&#13;
+就是让荣耀PLAY大卖特卖GPU Turbo
+&#13;
+这套算法应该有个作用就是调整游戏分辨率，AI自行调配SOC的资源，让游戏时总体保持一个功耗，减少大幅降频，让970为980争取了很长的时间。
+&#13;
+但是这个调整对于没有列入最初调整名单的游戏就开始有点乱来了，明明没有必要下降分辨率的地方，AI依旧判断要降。
+&#13;
+然后没想到980牛了，可以基本玩大型游戏也不会出什么幺蛾子。
+&#13;
+但是当初为970调教的AI却依旧在发挥作用，而且可能比较底层的东西，改了那么久依然无法解决。
+&#13;
+因为连你关了也不代表AI就被关掉了，可见是多么底层的算法。
+&#13;
+热衷玩游戏真的不能选华为，爵士不打你们精日喜欢的崩崩崩，FGO（逃</description>
+      <content:encoded><![CDATA[<p><b>黎恩: </b><br>
+<span>对华为旗舰降分辨率还改不掉这个情况我有个不成熟的看法</span><br>
+<span>我觉得根源在于970时代，因为那时候SOC性能不足，为了让麒麟970有卖点能喝845打一打，研发了他们自行研发的AI算法。</span><br>
+<span>就是让荣耀PLAY大卖特卖GPU Turbo</span><br>
+<span>这套算法应该有个作用就是调整游戏分辨率，AI自行调配SOC的资源，让游戏时总体保持一个功耗，减少大幅降频，让970为980争取了很长的时间。</span><br>
+<span>但是这个调整对于没有列入最初调整名单的游戏就开始有点乱来了，明明没有必要下降分辨率的地方，AI依旧判断要降。</span><br>
+<span>然后没想到980牛了，可以基本玩大型游戏也不会出什么幺蛾子。</span><br>
+<span>但是当初为970调教的AI却依旧在发挥作用，而且可能比较底层的东西，改了那么久依然无法解决。</span><br>
+<span>因为连你关了也不代表AI就被关掉了，可见是多么底层的算法。</span><br>
+<span>热衷玩游戏真的不能选华为，爵士不打你们精日喜欢的崩崩崩，FGO（逃</span><br>
+</p><p><b>YuKin: </b><br>
+<span>我要ptsd了，建议使用人工智障替换AI。</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>AI洗地，牛逼，服气～</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>手机游戏到底好玩在哪儿，我看最近很火的那个明日方舟视频云了半天没找到乐趣。</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>记得以前还有删除省电精灵的攻略，不知道现在有没有？</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>这个降分辨率可不止局限于游戏啊，而且也不是那么智能的AI的效果。之前wp7吧有人专门找到了降分辨率的配置文件，都在系统目录里面以xml的形式保存的好好的。</span><br>
+<span>一般它会给软件的渲染分辨率乘一个0.667，把1080P渲染变成720P，其他的比例好像也有，不过主要是0.667。受影响的不止游戏，地图京东淘宝都会降分辨率。</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>pzy2222 发表于 2019-10-19 17:18</span><br>
+<span>这个降分辨率可不止局限于游戏啊，而且也不是那么智能的AI的效果。之前wp7吧有人专门找到了降分辨率的配置 ...</span><br>
+<span>再加上OLED的分辨率不足標稱問題不就糊成一坨</span><br>
+</p><p><b>Xerxes_2: </b><br>
+<span>华为=AI？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>黎恩: </b><br>
+<span> 本帖最后由 黎恩 于 2019-10-19 17:22 编辑 </span><br>
+<span>对，还有那可怕的省电精灵也是有可能影响分辨率的元凶。现在好像没啥人说过要关哪个。</span><br>
+<span>低分辨率带来了相当不错的续航，确实和省电有直接关系。</span><br>
+<span>这个短期修不好的，因为华为论坛那边去年MATE20P就开始反应这个问题了。</span><br>
+<span>如果很好改早就改了。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>pzy2222 发表于 2019-10-19 17:18</span><br>
+<span>这个降分辨率可不止局限于游戏啊，而且也不是那么智能的AI的效果。之前wp7吧有人专门找到了降分辨率的配置 ...</span><br>
+<span>关了智能调节分辨率还会有效果吗</span><br>
+</p><p><b>黎恩: </b><br>
+<span>Bondrewd 发表于 2019-10-19 17:22</span><br>
+<span>关了智能调节分辨率还会有效果吗</span><br>
+<span>还是会有，就是因为改不掉才会现在闹大了，以前刚出来也以为很快就修复的BUG</span><br>
+<span>现在修不了</span><br>
+</p><p><b>7七麦: </b><br>
+<span>Bondrewd 发表于 2019-10-19 17:17</span><br>
+<span>手机游戏到底好玩在哪儿，我看最近很火的那个明日方舟视频云了半天没找到乐趣。 ...</span><br>
+<span>https://music.163.com/#/song?id=566212</span><br>
+<span>互相理解</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>最近是海军经费不足了吗，以前那股找菊花一点毛病就逮着你往死里喷的劲去哪了</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>四点: </b><br>
+<span>改个分辨率还要AI？不就是性能作弊的手段吗。</span><br>
+</p><p><b>令和猛男: </b><br>
+<span>这样跑分和续航都没问题了，一举两得（</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>崩3好歹是个3D游戏，FGO不就纸片人游戏吗，这玩意很吃性能？</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>gofbayrf 发表于 2019-10-19 17:20</span><br>
+<span>再加上OLED的分辨率不足標稱問題不就糊成一坨</span><br>
+<span>这倒是还好，用打折1080P渲染720P可谓是恰如其分</span><br>
+</p><p><b>bubuyu: </b><br>
+<span>AI已经失控了吗</span><br>
+</p><p><b>鸳鸳相抱: </b><br>
+<span>你们以为是AI，其实是天网啦！</span><br>
+</p><p><b>红都剧院24排4号: </b><br>
+<span>不管性能高低一律降分辨率的AI到底AI在哪？</span><br>
+</p><p><b>黎恩: </b><br>
+<span>如果只是单纯的跑分手段，早就就修复了。在白名单的游戏也是没问题的</span><br>
+</p><p><b>gugu135: </b><br>
+<span>不用想太多就是为了省电，跑分时性能全开，等测续航时就降分辨率啦</span><br>
+</p><p><b>tillnight: </b><br>
+<span>然而gpu turbo并没有抓到降分辨率，不然当时就锤死了。</span><br>
+</p><p><b>tillnight: </b><br>
+<span>而且现在是在980性能已经够用了的情况下，990机器把黑名单变成了白名单，扩大了降低分辨率的影响面。</span><br>
+</p><p><b>snowind1989: </b><br>
+<span>AI嘛 人工智能 人工就是那个人工啦 没什么智能啦 还不是被内部一堆硬性KPI逼的 还有杀伐果断的后台机制</span><br>
+</p><p><b>gil: </b><br>
+<span>Jai用机玩家 发表于 2019-10-19 17:46</span><br>
+<span>崩3好歹是个3D游戏，FGO不就纸片人游戏吗，这玩意很吃性能？</span><br>
+<span>FGO是华为渠道服不降分辨率，B站官服降分辨率</span><br>
+<span>这样用户只能用华为帐号上渠道服玩，充值华为有分帐。同时用户换手机的时候基本上也只能换华为，如果他还想继续玩FGO的话</span><br>
+<span>说白了都是生意</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>那么这个bug什么时候修复呢</span><br>
+</p><p><b>tillnight: </b><br>
+<span>gil 发表于 2019-10-19 19:28</span><br>
+<span>FGO是华为渠道服不降分辨率，B站官服降分辨率</span><br>
+<span>这样用户只能用华为帐号上渠道服玩，充值华为有分帐。同时 ...</span><br>
+<span>以前你可以这么说（实际也不准确，之前除了fgo外，都是华为商店版本降分辨率，官服正常），但现在这轮是和渠道没关系的，哪都降。</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>华为玩吃鸡游戏挺傻逼的，明明很流畅但就是时不时卡一下。说来mate20x吃鸡好像看不出降分辨率？莫非匹配P排了。</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span> 本帖最后由 糟糕的魔女 于 2019-10-19 19:35 编辑 </span><br>
+<span>但是跑去店里试玩了一下演示机里的崩崩崩，华为倒是没降分辨率啊，甚至是特效全开的演示</span><br>
+<span>不是只有fgo才惨遭毒手吗？舔个纸片人都得舔马赛克。难道崩崩崩正式服务器会被debuff吗？那我可以把P30丢出购物车了</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tillnight: </b><br>
+<span>9-11-2001 发表于 2019-10-19 19:33</span><br>
+<span>华为玩吃鸡游戏挺傻逼的，明明很流畅但就是是不是卡一下。说来mate20x吃鸡好像看不出降分辨率？莫非匹配P排 ...</span><br>
+<span>第一，mate20系列只有少数游戏降低分辨率，和现在的大面积降低分辨率不是一回事（除非你升级了emui10）。第二，吃鸡是现在那个极少数在白名单里的游戏。。</span><br>
+</p><p><b>gil: </b><br>
+<span>另外之前不是传闻说省电精灵有续航KPI吗，等到新机的各种媒体续航测试都结束了，应该就会有补丁修复了</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>Bondrewd 发表于 2019-10-19 17:17</span><br>
+<span>手机游戏到底好玩在哪儿，我看最近很火的那个明日方舟视频云了半天没找到乐趣。 ...</span><br>
+<span>一開始我覺得那個塔防模式還挺好玩，玩了2個月後棄了</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>据说家国梦也降，这是降低梦的标准啊</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>AI (x)</span><br>
+<span>Algorithm (o)</span><br>
+</p><p><b>404489039: </b><br>
+<span>AI×</span><br>
+<span>写死的逻辑√</span><br>
+</p><p><b>leystage: </b><br>
+<span>这也太不成熟了… 我觉得这种设计非常不好，没有用户自己的选择权</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>tillnight 发表于 2019-10-19 19:35</span><br>
+<span>第一，mate20系列只有少数游戏降低分辨率，和现在的大面积降低分辨率不是一回事（除非你升级了emui10）。 ...</span><br>
+<span>看来我屏蔽升级是正确的。。。</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span>算了吧，最早被针对的fgo是什么级别的游戏，660都该跑满的玩意</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>苏沃雷生: </b><br>
+<span>9-11-2001 发表于 2019-10-19 19:33</span><br>
+<span>华为玩吃鸡游戏挺傻逼的，明明很流畅但就是时不时卡一下。说来mate20x吃鸡好像看不出降分辨率？莫非匹配P排 ...</span><br>
+<span>mate20x是仅有的没有降分辨率机制的机器，另外原来是黑名单机制（吃鸡农药不在内），更新emui10后变为白名单机制（吃鸡农药在内），所以没影响到你</span><br>
+<span>—— 来自 HUAWEI LON-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>shadowm: </b><br>
+<span>苏沃雷生 发表于 2019-10-19 20:33</span><br>
+<span>mate20x是仅有的没有降分辨率机制的机器，另外原来是黑名单机制（吃鸡农药不在内），更新emui10后变为白 ...</span><br>
+<span>看来企鹅家给的钱太多了</span><br>
+</p><p><b>youta: </b><br>
+<span>糟糕的魔女 发表于 2019-10-19 19:34</span><br>
+<span>但是跑去店里试玩了一下演示机里的崩崩崩，华为倒是没降分辨率啊，甚至是特效全开的演示</span><br>
+<span>不是只有f ...</span><br>
+<span>看测试，崩崩崩并不是全程降分辨率，也不是全局降分辨率，把人物拉近，就会回到高分辨率</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>苏沃雷生 发表于 2019-10-19 20:33</span><br>
+<span>mate20x是仅有的没有降分辨率机制的机器，另外原来是黑名单机制（吃鸡农药不在内），更新emui10后变为白 ...</span><br>
+<span>只有mate20x不降分辨率？我是该高兴还是日狗呢_(:з」∠)_</span><br>
+</p><p><b>黎恩: </b><br>
+<span>youta 发表于 2019-10-19 21:07</span><br>
+<span>看测试，崩崩崩并不是全程降分辨率，也不是全局降分辨率，把人物拉近，就会回到高分辨率</span><br>
+<span>—— 来自 Xiao ...</span><br>
+<span>是的，那么说来就跟看片时智能对比度差不多，华为的SOC是强行想制造高对比度，模拟HDR效果么？</span><br>
+</p><p><b>LoliType: </b><br>
+<span>技术落后的情况下又要在指标上对位自然就会搞一些小动作，商业公司的标准操作。这年头买产品就买产品，不要当厂商脑残粉就好，不然和饭圈女孩有什么区别。</span><br>
+</p><p><b>dstar: </b><br>
+<span>那只能用死保续航来解释了？</span><br>
+<span>今年的mate和p都用了1080p屏幕，再加上a屏p排自带的问题，再来这么降分辨率，那真是劝退游戏玩家咯</span><br>
+<span>不过话说回来，华为一直这么做一直不改，不就是说明m和p的用户里手游玩家本来就不多咩</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>黎恩: </b><br>
+<span>dstar 发表于 2019-10-19 21:32</span><br>
+<span>那只能用死保续航来解释了？</span><br>
+<span>今年的mate和p都用了1080p屏幕，再加上a屏p排自带的问题，再来这么降分辨率， ...</span><br>
+<span>现在分析下来，我也觉得是为了保续航的底层措施，而且很难靠软件修改。</span><br>
+<span>那就加白名单啊，FGO和崩3也不是什么冷门游戏。</span><br>
+<span>也许降不是华为本意，但是他们对于玩家的不重视确实是脱不掉的。</span><br>
+<span>玩家不买华为是应该。</span><br>
+</p><p><b>liaojings1: </b><br>
+<span>可能是大众要求不高吧，比如amoled的P排，经常给人说字体边缘色渗，颗粒感也强，某些方面比1080P lcd还倒退...</span><br>
+<span>但是你群里面问问，很多人不在意表示看不出，说你们买手机一个个都是写轮眼...</span><br>
+<span>这种降低又能提高帧率、续航，不在意的情况下只会是体验更好吧...</span><br>
+<span>像我这边有同事打王者都是改30fps，他觉得和60fps没太大区别，30fps明显省电何乐而不为那...</span><br>
+</p><p><b>利物浦: </b><br>
+<span>liaojings1 发表于 2019-10-19 22:37</span><br>
+<span>可能是大众要求不高吧，比如amoled的P排，经常给人说字体边缘色渗，颗粒感也强，某些方面比1080P lcd还倒退 ...</span><br>
+<span>大家在意的并不是大多数人看得出看不出，而是华为一边吹性能一边吹续航，但实际续航强靠的却是降分辨率，这就。。</span><br>
+</p><p><b>sirius0714: </b><br>
+<span>不是说菊花软件开发地位最低吗？</span><br>
+<span>那个张小龙被人锤崩三高德地图淘宝降分辨率说是bug</span><br>
+<span>—— 來自 Sony F8131, Android 7.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1860279[0-50]</guid>
+    </item>
+  </channel>
+</rss>

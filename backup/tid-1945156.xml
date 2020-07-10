@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小新Pro13热键问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小新Pro13热键问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:17:11 +0000</lastBuildDate>
+    <item>
+      <title>小新Pro13热键问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945156-1-1.html</link>
+      <description>小新Pro13热键问题&#13;
+版本是小新Pro 13 4800U的版本，Lenovo Utility安装没啥问题，版本比官网版本还要新一点。Windows是随机版本，只是卸载了lenovo杀毒、wps什么的，lenovo电脑管家没有删。
+&#13;
+用Fn+空格调整键盘背光、Fn+Q切换模式就没问题，像Fn+F1/F2/F3这样的调整音量就不好用。
+&#13;
+研究了半天没找出问题原因，有没有有经验的大佬指点一下</description>
+      <content:encoded><![CDATA[<p><b>fantastical: </b><br>
+<span>小新Pro13热键问题</span><br>
+<span>版本是小新Pro 13 4800U的版本，Lenovo Utility安装没啥问题，版本比官网版本还要新一点。Windows是随机版本，只是卸载了lenovo杀毒、wps什么的，lenovo电脑管家没有删。</span><br>
+<span>用Fn+空格调整键盘背光、Fn+Q切换模式就没问题，像Fn+F1/F2/F3这样的调整音量就不好用。</span><br>
+<span>研究了半天没找出问题原因，有没有有经验的大佬指点一下</span><br>
+</p><p><b>Aval0nT_T: </b><br>
+<span>调节音量好像是不用按Fn？</span><br>
+</p><p><b>starash: </b><br>
+<span>fantastical 发表于 2020-7-1 13:20</span><br>
+<span> 版本是小新Pro 13 4800U的版本，Lenovo Utility安装没啥问题，版本比官网版本还要新一点。Windows是随机版 ...</span><br>
+<span>你确定你的键盘默认是设置在f功能而不是多媒体功能上？</span><br>
+</p><p><b>全面深化改革: </b><br>
+<span>我的是air14，默认不用按Fn直接按f1 f2就是音量调节那些</span><br>
+<span>之前问客服怎么进bios关掉开盖自动开机，客服说Fn+F2，试了几次发现直接按f2就行</span><br>
+<span>—— 来自 vivo V1813BT, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>fantastical: </b><br>
+<span>全面深化改革 发表于 2020-7-1 13:37</span><br>
+<span>我的是air14，默认不用按Fn直接按f1 f2就是音量调节那些</span><br>
+<span>之前问客服怎么进bios关掉开盖自动开机，客 ...</span><br>
+<span>啊对我蠢了，居然是默认是多媒体键</span><br>
+<span>那么能不能改回来</span><br>
+</p><p><b>wlgdc: </b><br>
+<span>fn加esc可以改 esc上面有fnlock的字</span><br>
+</p><p><b>fantastical: </b><br>
+<span>wlgdc 发表于 2020-7-1 15:16</span><br>
+<span>fn加esc可以改 esc上面有fnlock的字</span><br>
+<span>pro13上没看到，fn+esc按了好像也没反应</span><br>
+<span>这样改不了岂不是dota都没法玩了</span><br>
+</p><p><b>hecas: </b><br>
+<span>FN键模式确认下</span><br>
+<span>一种是要同时按才是另外的功能一种是F键主功能和副功能中切换</span><br>
+</p><p><b>中年油腻肥宅: </b><br>
+<span>设置里找找，肯定可以改</span><br>
+</p><p><b>starrlit: </b><br>
+<span>进 BIOS 关掉 hot mode</span><br>
+</p><p><b>lobsteru: </b><br>
+<span>建议把预装的联想电脑管家删了，去商店装UWP的lenovo vantage，改FN热键什么的就不用去BIOS了</span><br>
+</p><p><b>fantastical: </b><br>
+<span>谢各位，进bios改hotkey mode搞定了</span><br>
+</p><p><b>禽兽公爵: </b><br>
+<span>开机过程中按F2进入BIOS设置。</span><br>
+<span>1、在此界面可看到Information、Configuration、Security、Boot、Exit五个菜单，我们进入第二个菜单"Configuration"（按键盘“→”进入）。</span><br>
+<span>2、按键盘“↓”选择 hotkey mode（译为：热键模式）。</span><br>
+<span>3、选择：Disabled</span><br>
+<span>4、按Fn+F10或者F10保存退出</span><br>
+<span>视频教程：https://www.bilibili.com/video/av47563568</span><br>
+</p><p><b>chronicle: </b><br>
+<span>这种设计太弱智了，我都是第一时间改bios</span><br>
+</p><p><b>萨兰丁: </b><br>
+<span>这种f1f2自带的功能反而要按下fn键的设置十分弱智…而且ctrl和fn位置还换了…</span><br>
+<span>昨天用小新修改文件名用得想打人</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>grantliu: </b><br>
+<span>艹，原来是这个沙雕设计，bios能关掉真好，太沙雕了，反着来</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945156[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Win7用户福音：微软集成更新的新版Windows 7镜像泄露</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Win7用户福音：微软集成更新的新版Windows 7镜像泄露</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:55:41 +0000</lastBuildDate>
+    <item>
+      <title>Win7用户福音：微软集成更新的新版Windows 7镜像泄露[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1818890-1-1.html</link>
+      <description>Win7用户福音：微软集成更新的新版Windows 7镜像泄露&#13;
+虽然Windows 10日臻完善和普及，可依然有很多用户在使用Windows 7，微软也在听取用户意见，前几天微软宣布DirectX 12下放到Windows 7，而微软也在准备Windows 7的新镜像。著名爆料WalkingCat在Twitter上爆料了微软新的Windows 7镜像的下载链接。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154228xw7rw5a5rrr63rrf.jpg从文件名上看，它们分别是2018年8月1日编译的旗舰版、专业版、家庭高级版的64位和32位镜像，版本号Build 7601.24214，目前只有英文版。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154320azflnupzzp2ou8lf.jpg系统镜像下载地址64位旗舰版：
+&#13;
+http://download.microsoft.com/download/5/1/9/5195A765-3A41-4A72-87D8-200D897CBE21/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x64FRE_en-us.iso
+&#13;
+SHA1: 7CC76B0015220DE956328FB934D61B710A94293D专业版：
+&#13;
+http://download.microsoft.com/download/0/6/3/06365375-C346-4D65-87C7-EE41F55F736B/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x64FRE_en-us.iso
+&#13;
+SHA1: B3260CE8C339E13C4E6D327E1310B06C8E1402B0家庭高级版：
+&#13;
+http://download.microsoft.com/download/E/A/8/EA804D86-C3DF-4719-9966-6A66C9306598/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x64FRE_en-us.iso
+&#13;
+SHA1: C15BB9873548BD4A69371BC7966560C13162128C32位旗舰版：
+&#13;
+http://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso
+&#13;
+SHA1：6F8791FBB4E883FF96B7FFC202640B0A8053D122专业版：
+&#13;
+https://download.microsoft.com/download/C/0/6/C067D0CD-3785-4727-898E-60DC3120BB14/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x86FRE_en-us.iso
+&#13;
+SHA1：F1B6B81C6F6C7BAB91DCAF711502706468B3D09A家庭高级版：
+&#13;
+http://download.microsoft.com/download/E/D/A/EDA6B508-7663-4E30-86F9-949932F443D0/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x86FRE_en-us.iso
+&#13;
+SHA1：110674427B27F7216A95C4D659AE9F211C91FEFD简体中文语言包下载地址（萝卜注：亲测可用，系统安装好之后，再安装语言包，然后在控制面板里切换语言、地区，注销之后即可显示简体中文系统界面）64位：http://download.windowsupdate.com/msdownload/update/software/updt/2011/02/windows6.1-kb2483139-x64-zh-cn_2c1884b4fdf6c8e91986369d88bbcaae01c6f187.exe32位：http://download.windowsupdate.com/msdownload/update/software/updt/2009/08/windows6.1-kb972813-x86-zh-cn_ab024143b556395e6638e26712b1e0f3bc031fcf.exe测评我下载了其中的64位专业版，用虚拟机进行测试。下载完毕发现镜像大小为5.49G，卷标为DVD_ROM，install.wim的修改日期为2018年11月16日。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154437a7xsuaz6wablu66r.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154445qngzno8zxqn4n2bb.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154504kis4f3pddn3kwf4h.png用虚拟机进行测试，安装完毕后，默认集成了IE11浏览器，好评！
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154634ulevn4yuep4y4uee.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154654wp1m01ykape1zmke.png再看控制面板的程序和功能，居然集成最新的.net Framework框架.net Framework 4.7.2！好评！
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154727ic9sxi0elcnlbciq.png注册表里面显示系统版本号为7601.24291，编译于2018年11月10日。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154816d0tzxu6brfhwt0ut.png在命令行里面可以看到集成了186个更新。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154848y1hflcisamskplsb.png最后检查更新，发现只有6个重要更新和6个可选更新，6个重要更新都是2018年12月后的，看样子微软把11月前的Windows 7更新全部集成进去了。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154927m1gomr2aq0qe0a2h.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154940i11r16r996qzz6x9.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/155001hlwf4hn0wjg0jxbd.png总结一下微软做的这个新镜像很赞，集成到2018年11月的所有更新，适合于想要长期继续使用Windows 7的用户。毕竟微软上一次发布Windows 7的镜像还是在SP1那时候，在遥远的2011年5月12日，安装那版镜像后要装很多更新，非常不便。现在微软做了集成更新的Windows 7镜像，对广大Windows 7用户以及企业IT管理员无疑是个福音。最后还是希望微软能发布全语言版的新Windows 7镜像。</description>
+      <content:encoded><![CDATA[<p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-8-25 18:27 编辑 </span><br>
+<span>100SHIKI 发表于 2019-8-24 16:47</span><br>
+<span>我在年初自己用虚拟机封装过WIN7，打满了补丁，常用软件，万能驱动；</span><br>
+<span>但是装入intel 7代以上的cpu的电脑里, ...</span><br>
+<span>你这IT水平姿势不行啊，你不会查巨硬的资料库，最大同性社区GitHub里总该会找轮子吧（摊手</span><br>
+<span>https://github.com/zeffy/wufuc</span><br>
+<span>https://skanthak.homepage.t-online.de/slipstream.html</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>两个路人 发表于 2019-8-25 18:17</span><br>
+<span>你这IT水平姿势不行啊，你不会查巨硬的资料库，最大同性社区GitHub里总该会找轮子吧（摊手</span><br>
+<span>https://githu ...</span><br>
+<span>600台计算机，无互联网环境，有一半没加入域，操作系统从XP到WIN10都有</span><br>
+<span>你这个方法我不是没搜到，而是嫌太麻烦，我们的IT安全管理员都没吭声，我就不想往自己身上揽事了，新机统一装LTSC2019</span><br>
+</p><p><b>hellsing: </b><br>
+<span>有激活邀吗，如何激活</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>这个镜像的administrator带密码</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-10-1 14:27 编辑 </span><br>
+<span>星月肥纪 发表于 2019-8-24 14:02</span><br>
+<span>还有好使的win7版本吗</span><br>
+<span>—— 來自 Google Pixel 2, Android 10上的 S1Next-鵝版 v2.1.2 ...</span><br>
+<span>我司IT友情支援的简体中文版。装完自行选装monthly rollup就完事儿了，具体看NOTE.TXT</span><br>
+<span>magnet:?xt=urn:btih:067c806ffc90d6b300c15b8060e4240e757d082f&tr=http%3a%2f%2fanidex.moe%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce</span><br>
+<span>安装效果图</span><br>
+<img src="https://i.imgur.com/WXx01bs.jpg" title="https://i.imgur.com/WXx01bs.jpg"><br>
+<span>或</span><br>
+<img src="https://i.ibb.co/JRxPj0m/PATCHES.jpg" title="https://i.ibb.co/JRxPj0m/PATCHES.jpg"><br>
+<span>can a salvage title be insured</span><br>
+</p><p><b>seeks1: </b><br>
+<span>两个路人 发表于 2019-10-1 14:24</span><br>
+<span>我司IT友情支援的简体中文版。装完自行选装monthly rollup就完事儿了，具体看NOTE.TXT</span><br>
+<span>magnet:?xt=urn:bt ...</span><br>
+<span>有百度网盘分享么，迅雷速度1Xk/s...</span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>等完美版本收藏。。。Win10最新版似乎也还好</span><br>
+</p><p><b>Geminize: </b><br>
+<span>下载不能</span><br>
+</p><p><b>不努: </b><br>
+<span>Realplayer 发表于 2019-8-26 08:42</span><br>
+<span>这个镜像的administrator带密码</span><br>
+<span>那么密码是什么呢？alpine ?</span><br>
+</p><p><b>Realplayer: </b><br>
+<span> 本帖最后由 Realplayer 于 2019-12-3 14:16 编辑 </span><br>
+<span>不努 发表于 2019-12-3 13:49</span><br>
+<span>那么密码是什么呢？alpine ?</span><br>
+<span>布吉岛</span><br>
+<span>怀疑这个windows是sysprep来的（重置不会清除admin密码吗</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span>啊三真是乱搞，WIN10屎一样</span><br>
+</p><p><b>不努: </b><br>
+<span>今天重装了Win7系统，没用这个包，因为有像坛友提到的Admin密码问题、语言支持问题等等</span><br>
+<span>就用Win 7 SP1的官方盘（想用中文的，比如Win 7 Pro的X17-24269.iso），然后用simplix补丁包（ https://blog.simplix.info/update7/ ，俄文我也看不懂，从majorgeeks下的，https://www.majorgeeks.com/files/details/simplix_updatepack.html ），最新的这个，Simplix UpdatePack 7 19.11.18，整合了到上个月所有的补丁，接下来也会继续更新</span><br>
+<span>打上补丁包，再装一个 .NET Framework 4.8，用Windows Update打上.NET Framework的安全补丁，完事儿了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1818890[50-100]</guid>
+    </item>
+    <item>
+      <title>Win7用户福音：微软集成更新的新版Windows 7镜像泄露[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1818890-1-1.html</link>
+      <description>Win7用户福音：微软集成更新的新版Windows 7镜像泄露&#13;
+虽然Windows 10日臻完善和普及，可依然有很多用户在使用Windows 7，微软也在听取用户意见，前几天微软宣布DirectX 12下放到Windows 7，而微软也在准备Windows 7的新镜像。著名爆料WalkingCat在Twitter上爆料了微软新的Windows 7镜像的下载链接。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154228xw7rw5a5rrr63rrf.jpg从文件名上看，它们分别是2018年8月1日编译的旗舰版、专业版、家庭高级版的64位和32位镜像，版本号Build 7601.24214，目前只有英文版。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154320azflnupzzp2ou8lf.jpg系统镜像下载地址64位旗舰版：
+&#13;
+http://download.microsoft.com/download/5/1/9/5195A765-3A41-4A72-87D8-200D897CBE21/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x64FRE_en-us.iso
+&#13;
+SHA1: 7CC76B0015220DE956328FB934D61B710A94293D专业版：
+&#13;
+http://download.microsoft.com/download/0/6/3/06365375-C346-4D65-87C7-EE41F55F736B/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x64FRE_en-us.iso
+&#13;
+SHA1: B3260CE8C339E13C4E6D327E1310B06C8E1402B0家庭高级版：
+&#13;
+http://download.microsoft.com/download/E/A/8/EA804D86-C3DF-4719-9966-6A66C9306598/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x64FRE_en-us.iso
+&#13;
+SHA1: C15BB9873548BD4A69371BC7966560C13162128C32位旗舰版：
+&#13;
+http://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso
+&#13;
+SHA1：6F8791FBB4E883FF96B7FFC202640B0A8053D122专业版：
+&#13;
+https://download.microsoft.com/download/C/0/6/C067D0CD-3785-4727-898E-60DC3120BB14/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x86FRE_en-us.iso
+&#13;
+SHA1：F1B6B81C6F6C7BAB91DCAF711502706468B3D09A家庭高级版：
+&#13;
+http://download.microsoft.com/download/E/D/A/EDA6B508-7663-4E30-86F9-949932F443D0/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x86FRE_en-us.iso
+&#13;
+SHA1：110674427B27F7216A95C4D659AE9F211C91FEFD简体中文语言包下载地址（萝卜注：亲测可用，系统安装好之后，再安装语言包，然后在控制面板里切换语言、地区，注销之后即可显示简体中文系统界面）64位：http://download.windowsupdate.com/msdownload/update/software/updt/2011/02/windows6.1-kb2483139-x64-zh-cn_2c1884b4fdf6c8e91986369d88bbcaae01c6f187.exe32位：http://download.windowsupdate.com/msdownload/update/software/updt/2009/08/windows6.1-kb972813-x86-zh-cn_ab024143b556395e6638e26712b1e0f3bc031fcf.exe测评我下载了其中的64位专业版，用虚拟机进行测试。下载完毕发现镜像大小为5.49G，卷标为DVD_ROM，install.wim的修改日期为2018年11月16日。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154437a7xsuaz6wablu66r.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154445qngzno8zxqn4n2bb.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154504kis4f3pddn3kwf4h.png用虚拟机进行测试，安装完毕后，默认集成了IE11浏览器，好评！
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154634ulevn4yuep4y4uee.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154654wp1m01ykape1zmke.png再看控制面板的程序和功能，居然集成最新的.net Framework框架.net Framework 4.7.2！好评！
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154727ic9sxi0elcnlbciq.png注册表里面显示系统版本号为7601.24291，编译于2018年11月10日。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154816d0tzxu6brfhwt0ut.png在命令行里面可以看到集成了186个更新。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154848y1hflcisamskplsb.png最后检查更新，发现只有6个重要更新和6个可选更新，6个重要更新都是2018年12月后的，看样子微软把11月前的Windows 7更新全部集成进去了。
+&#13;
+http://bbs.pcbeta.com/data/attachment/forum/201903/16/154927m1gomr2aq0qe0a2h.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154940i11r16r996qzz6x9.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/155001hlwf4hn0wjg0jxbd.png总结一下微软做的这个新镜像很赞，集成到2018年11月的所有更新，适合于想要长期继续使用Windows 7的用户。毕竟微软上一次发布Windows 7的镜像还是在SP1那时候，在遥远的2011年5月12日，安装那版镜像后要装很多更新，非常不便。现在微软做了集成更新的Windows 7镜像，对广大Windows 7用户以及企业IT管理员无疑是个福音。最后还是希望微软能发布全语言版的新Windows 7镜像。</description>
+      <content:encoded><![CDATA[<p><b>月神侠: </b><br>
+<span>Win7用户福音：微软集成更新的新版Windows 7镜像泄露</span><br>
+<span>虽然Windows 10日臻完善和普及，可依然有很多用户在使用Windows 7，微软也在听取用户意见，前几天微软宣布DirectX 12下放到Windows 7，而微软也在准备Windows 7的新镜像。著名爆料WalkingCat在Twitter上爆料了微软新的Windows 7镜像的下载链接。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154228xw7rw5a5rrr63rrf.jpg从文件名上看，它们分别是2018年8月1日编译的旗舰版、专业版、家庭高级版的64位和32位镜像，版本号Build 7601.24214，目前只有英文版。http://bbs.pcbeta.com/data/attachment/forum/201903/16/154320azflnupzzp2ou8lf.jpg系统镜像下载地址64位旗舰版：</span><br>
+<span>http://download.microsoft.com/download/5/1/9/5195A765-3A41-4A72-87D8-200D897CBE21/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x64FRE_en-us.iso</span><br>
+<span>SHA1: 7CC76B0015220DE956328FB934D61B710A94293D专业版：</span><br>
+<span>http://download.microsoft.com/download/0/6/3/06365375-C346-4D65-87C7-EE41F55F736B/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x64FRE_en-us.iso</span><br>
+<span>SHA1: B3260CE8C339E13C4E6D327E1310B06C8E1402B0家庭高级版：</span><br>
+<span>http://download.microsoft.com/download/E/A/8/EA804D86-C3DF-4719-9966-6A66C9306598/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x64FRE_en-us.iso</span><br>
+<span>SHA1: C15BB9873548BD4A69371BC7966560C13162128C32位旗舰版：</span><br>
+<span>http://download.microsoft.com/download/1/E/6/1E6B4803-DD2A-49DF-8468-69C0E6E36218/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_ULTIMATE_x86FRE_en-us.iso</span><br>
+<span>SHA1：6F8791FBB4E883FF96B7FFC202640B0A8053D122专业版：</span><br>
+<span>https://download.microsoft.com/download/C/0/6/C067D0CD-3785-4727-898E-60DC3120BB14/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_PROFESSIONAL_x86FRE_en-us.iso</span><br>
+<span>SHA1：F1B6B81C6F6C7BAB91DCAF711502706468B3D09A家庭高级版：</span><br>
+<span>http://download.microsoft.com/download/E/D/A/EDA6B508-7663-4E30-86F9-949932F443D0/7601.24214.180801-1700.win7sp1_ldr_escrow_CLIENT_HOMEPREMIUM_x86FRE_en-us.iso</span><br>
+<span>SHA1：110674427B27F7216A95C4D659AE9F211C91FEFD简体中文语言包下载地址（萝卜注：亲测可用，系统安装好之后，再安装语言包，然后在控制面板里切换语言、地区，注销之后即可显示简体中文系统界面）64位：http://download.windowsupdate.com/msdownload/update/software/updt/2011/02/windows6.1-kb2483139-x64-zh-cn_2c1884b4fdf6c8e91986369d88bbcaae01c6f187.exe32位：http://download.windowsupdate.com/msdownload/update/software/updt/2009/08/windows6.1-kb972813-x86-zh-cn_ab024143b556395e6638e26712b1e0f3bc031fcf.exe测评我下载了其中的64位专业版，用虚拟机进行测试。下载完毕发现镜像大小为5.49G，卷标为DVD_ROM，install.wim的修改日期为2018年11月16日。</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154437a7xsuaz6wablu66r.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154445qngzno8zxqn4n2bb.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154504kis4f3pddn3kwf4h.png用虚拟机进行测试，安装完毕后，默认集成了IE11浏览器，好评！</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154634ulevn4yuep4y4uee.jpghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154654wp1m01ykape1zmke.png再看控制面板的程序和功能，居然集成最新的.net Framework框架.net Framework 4.7.2！好评！</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154727ic9sxi0elcnlbciq.png注册表里面显示系统版本号为7601.24291，编译于2018年11月10日。</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154816d0tzxu6brfhwt0ut.png在命令行里面可以看到集成了186个更新。</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154848y1hflcisamskplsb.png最后检查更新，发现只有6个重要更新和6个可选更新，6个重要更新都是2018年12月后的，看样子微软把11月前的Windows 7更新全部集成进去了。</span><br>
+<span>http://bbs.pcbeta.com/data/attachment/forum/201903/16/154927m1gomr2aq0qe0a2h.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/154940i11r16r996qzz6x9.pnghttp://bbs.pcbeta.com/data/attachment/forum/201903/16/155001hlwf4hn0wjg0jxbd.png总结一下微软做的这个新镜像很赞，集成到2018年11月的所有更新，适合于想要长期继续使用Windows 7的用户。毕竟微软上一次发布Windows 7的镜像还是在SP1那时候，在遥远的2011年5月12日，安装那版镜像后要装很多更新，非常不便。现在微软做了集成更新的Windows 7镜像，对广大Windows 7用户以及企业IT管理员无疑是个福音。最后还是希望微软能发布全语言版的新Windows 7镜像。</span><br>
+</p><p><b>secgao: </b><br>
+<span>马一下睡醒了后搞下来试试。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>solanus: </b><br>
+<span>收藏下，老版的win7装完后用系统自带更新得更一个晚上。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>我记得前两天pc区有人发了</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>有人说是给大客户定制的版本而已</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1817455-0-1.html</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>still_doll: </b><br>
+<span>等一波注入nvme的版本再把u盘里的更新</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Old_Pussy: </b><br>
+<span>still_doll 发表于 2019-3-23 04:31</span><br>
+<span>等一波注入nvme的版本再把u盘里的更新</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端 ...</span><br>
+<span>不用等，原生支持nvme和UEFI</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>普朗克: </b><br>
+<span>所以说微软想好好做系统还是可以好好做出很好的东西，bug10那样恶心人完全是故意的</span><br>
+<span>—— 来自 samsung SM-G9500, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>RAMDA 发表于 2019-3-23 01:30</span><br>
+<span>有人说是给大客户定制的版本而已</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1817455-0-1.html</span><br>
+<span>你这汉语和阿斯基摩人学的吧</span><br>
+</p><p><b>KanoWu: </b><br>
+<span>就等正式版出现就重装电脑</span><br>
+<span>—— 来自 Xiaomi MI MAX 2, Android 7.1.1上的 S1Next-鹅版 v2.0.2-play</span><br>
+</p><p><b>mickoo: </b><br>
+<span>听说打了中文补丁，导致补丁失效，要重新下载</span><br>
+</p><p><b>两个路人: </b><br>
+<span>mickoo 发表于 2019-3-23 08:26</span><br>
+<span>听说打了中文补丁，导致补丁失效，要重新下载</span><br>
+<span>瘟妻的convenience roll-up packs的注意事项上就写过了：在该补丁安装后，加装任意语言包，将导致该补丁失效。所以dism集成补丁都是先写入语言包。</span><br>
+</p><p><b>525560709: </b><br>
+<span>win7还能再战10年？</span><br>
+</p><p><b>liuxl8964: </b><br>
+<span>Old_Pussy 发表于 2019-3-23 05:48</span><br>
+<span>不用等，原生支持nvme和UEFI</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>那bios可以关闭csm那了吗</span><br>
+<span>我需要纯UEFI模式</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span>支持DX12了没</span><br>
+</p><p><b>didapick: </b><br>
+<span>好东西啊</span><br>
+</p><p><b>paladin7: </b><br>
+<span>我之前都是英文版加中文语言包</span><br>
+<span>有些程序英文版下会冲突</span><br>
+<span>— from samsung SM-G9300, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>still_doll: </b><br>
+<span>Old_Pussy 发表于 2019-03-23 05:48:01</span><br>
+<span>不用等，原生支持nvme和UEFI</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的v2.1.2如此带感？我下个试试</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>恶意一下咖喱味的win7</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>apple222: </b><br>
+<span>这个不错。。。微软良心一把</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>refo2613: </b><br>
+<span>只是集成了补丁？是否支持新硬件？</span><br>
+<span>—— 来自 vivo NEX A, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>308: </b><br>
+<span>话说操作系统语言不是英文能用？方块字默认大小太小了。。。隔个50cm以上的距离就是模难辨（不缩放）</span><br>
+</p><p><b>caibing: </b><br>
+<span>308 发表于 2019-3-23 19:15</span><br>
+<span>话说操作系统语言不是英文能用？方块字默认大小太小了。。。隔个50cm以上的距离就是模难辨（不缩放）</span><br>
+<span>你是在说bug10吗？那是印度人不懂东亚字体。。。知乎有注册表解决办法</span><br>
+<span>—— 来自 Xiaomi MI 8 SE, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>玛德，家里的电脑全都升到WIN8以上了你才来WIN7新版。</span><br>
+</p><p><b>VirMoe: </b><br>
+<span> 本帖最后由 VirMoe 于 2019-3-23 22:17 编辑 </span><br>
+<span>问下，windows7升级windows10的那些补丁，包括遥测和易升之类的，是哪几个？</span><br>
+<span>搜了下</span><br>
+<span>kb2952664( 开启遥测数据功能，用于改进Win7系统升级时的兼容性 )</span><br>
+<span>kb3021917( 诊断和遥测系统升级到Windows10 )</span><br>
+<span>kb3035583( 一直提醒升级Windows10 )</span><br>
+<span>kb3068708( 更新可提高诊断和遥测的质量 )</span><br>
+<span>kb3080149( CEIP计划和诊断遥测更新 )</span><br>
+<span>kb3123862( Windows10推广相关 )</span><br>
+<span>KB3150513( Windows10推广相关 )</span><br>
+</p><p><b>Xenor: </b><br>
+<span>win7还是更适合台式机一些，笔记本用win8.1感觉更好</span><br>
+<span>要不是win10是预装正版，我早就给换成win8.1了，用段时间再换…</span><br>
+</p><p><b>sakuraNTET: </b><br>
+<span>wddm版本还是1.3？</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>鹿斗典善: </b><br>
+<span>Old_Pussy 发表于 2019-3-23 05:48</span><br>
+<span>不用等，原生支持nvme和UEFI</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>XHCI呢</span><br>
+</p><p><b>loli炮: </b><br>
+<span>现在的微软行径真不让人放心，等小白鼠试试的看有没有什么恶心设置再说，</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>Old_Pussy 发表于 2019-3-22 16:48</span><br>
+<span>不用等，原生支持nvme和UEFI</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>PCBETA的发帖人说测试了不支持NVME和USB3.0</span><br>
+</p><p><b>22174559: </b><br>
+<span>是不是新电脑都可以装 新的几代cpu</span><br>
+</p><p><b>dinclas: </b><br>
+<span>忘了自己是否下载过，再马一下</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>那么官方简体中文版还没有？</span><br>
+</p><p><b>闪电战: </b><br>
+<span>看样子不打算出中文版了？</span><br>
+<span>虽然早已全面迁移到Windows 10，有新镜像收藏一个最好</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>中文补丁装不上</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>这东西本来也没有多"官方"</span><br>
+</p><p><b>皇帝雅西加: </b><br>
+<span>符里宮亜 发表于 2019-8-24 00:27</span><br>
+<span>这东西本来也没有多"官方"</span><br>
+<span>下载地址是微软官网</span><br>
+</p><p><b>符里宮亜: </b><br>
+<span>皇帝雅西加 发表于 2019-8-24 09:03</span><br>
+<span>下载地址是微软官网</span><br>
+<span>下载地址是官网也不代表很官方啊</span><br>
+<span>带ldr escrow这种tag基本也就是个rc的水平</span><br>
+<span>什么时候放上msdn了成了rtm就差不多了</span><br>
+</p><p><b>zn231: </b><br>
+<span>22174559 发表于 2019-8-23 02:21</span><br>
+<span>是不是新电脑都可以装 新的几代cpu</span><br>
+<span>没有新支持 NVMe USB3.0也没有 仅仅是打补丁而已，所以之前才会怀疑是定制大客户包罢了</span><br>
+</p><p><b>好大一只绅士: </b><br>
+<span>可以装中文包吗</span><br>
+</p><p><b>zn231: </b><br>
+<span>好大一只绅士 发表于 2019-8-24 11:28</span><br>
+<span>可以装中文包吗</span><br>
+<span>装了中文包，补丁就会失效，需要重新打</span><br>
+</p><p><b>Ruby的披风: </b><br>
+<span>皇帝雅西加 发表于 2019-8-24 07:14</span><br>
+<span>中文补丁装不上</span><br>
+<span>旗舰版装上了中文包，但kms工具激活失败</span><br>
+<span>换了专业版，激活成功了，但中文包装不上，Vistalizator也不好使</span><br>
+</p><p><b>paladin7: </b><br>
+<span>借贴问一下，这样的英文原版系统，玩中文游戏的时候会有乱码显示的可能吗？我之前都是中文原版系统打英文语言包。</span><br>
+<span>— from samsung SM-G9500, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>通过updata升级的中文语言包非常不全面</span><br>
+<span>有些地方仍然是英文</span><br>
+</p><p><b>星月肥纪: </b><br>
+<span>还有好使的win7版本吗</span><br>
+<span>—— 來自 Google Pixel 2, Android 10上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>阿米巴原虫: </b><br>
+<span>太棒了，就等这个了，win10 一直就没有升级。坚定的win7用户</span><br>
+</p><p><b>100SHIKI: </b><br>
+<span>我在年初自己用虚拟机封装过WIN7，打满了补丁，常用软件，万能驱动；</span><br>
+<span>但是装入intel 7代以上的cpu的电脑里,补丁会强行失效，WINDOWSUPDATE开启时会提示不支持的硬件，明显是微软为了推广WIN10搞的计量。</span><br>
+<span>网上有一些方法可以解决这个问题，但是对于有大批量电脑要管理的IT狗来说太麻烦了。</span><br>
+</p><p><b>BRRM: </b><br>
+<span>paladin7 发表于 2019-8-24 13:13</span><br>
+<span>借贴问一下，这样的英文原版系统，玩中文游戏的时候会有乱码显示的可能吗？我之前都是中文原版系统打英文语 ...</span><br>
+<span>有可能，如果你那个游戏不支持unicode，只支持双字节字符的话，那就会出现这种问题。</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>那还有没有打好补丁又有中文值得收藏的镜像</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>凛凛233: </b><br>
+<span>还是把正在用的系统备份一个镜像最方便</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1818890[0-50]</guid>
+    </item>
+  </channel>
+</rss>

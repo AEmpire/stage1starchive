@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD NVME SSD性能是不是比INTEL差点？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD NVME SSD性能是不是比INTEL差点？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:58:16 +0000</lastBuildDate>
+    <item>
+      <title>AMD NVME SSD性能是不是比INTEL差点？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907682-1-1.html</link>
+      <description>AMD NVME SSD性能是不是比INTEL差点？&#13;
+我看别人C2000PRO 读写都是3000以上，我这写入却只有2600。网上查了下发现有几个同样的情况的好像也是用AMD的，所以才有这个疑问。
+&#13;
+配置是3800X C8F SSD是插在连芯片组的M2-2口上。</description>
+      <content:encoded><![CDATA[<p><b>遗尿: </b><br>
+<span>AMD NVME SSD性能是不是比INTEL差点？</span><br>
+<span>我看别人C2000PRO 读写都是3000以上，我这写入却只有2600。网上查了下发现有几个同样的情况的好像也是用AMD的，所以才有这个疑问。</span><br>
+<span>配置是3800X C8F SSD是插在连芯片组的M2-2口上。</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>主板是什么</span><br>
+</p><p><b>遗尿: </b><br>
+<span>lawsherman 发表于 2020-1-5 10:40</span><br>
+<span>主板是什么</span><br>
+<span>C8F</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>AMD这代连续写入受到内存写入砍半拖累了，不过4K性能由于牙膏漏洞还有ZEN2单核性能提升反而赶上来了</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Radeon: </b><br>
+<span> 本帖最后由 Radeon 于 2020-1-5 11:16 编辑 </span><br>
+<span>Gnyueh 发表于 2020-1-5 10:54</span><br>
+<span>AMD这代连续写入受到内存写入砍半拖累了，不过4K性能由于牙膏漏洞还有ZEN2单核性能提升反而赶上来了</span><br>
+<span>——...</span><br>
+<span>和内存写入砍半有毛关系啊</span><br>
+<span>https://item.jd.com/50002498733.html#none</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>挂CPU直连的试试，电源策略对吗，CPU主频低跑分也会低</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Radeon: </b><br>
+<span> 本帖最后由 Radeon 于 2020-1-5 11:26 编辑 </span><br>
+<span>Gnyueh 发表于 2020-1-5 10:54</span><br>
+<span>AMD这代连续写入受到内存写入砍半拖累了，不过4K性能由于牙膏漏洞还有ZEN2单核性能提升反而赶上来了</span><br>
+<span>——...</span><br>
+<span>3800X+X570上PCIE4和PCIE3的对比</span><br>
+<span>你告诉我内存写入砍半拖累了？真不是在逗我？</span><br>
+<span>https://new.qq.com/omn/20191223/20191223A0DA8X00.html</span><br>
+</p><p><b>遗尿: </b><br>
+<span>DeepFishing 发表于 2020-1-5 11:21</span><br>
+<span>挂CPU直连的试试，电源策略对吗，CPU主频低跑分也会低</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版...</span><br>
+<span>电源策略用的是AMD驱动的那个高性能，CPU没手动超频不过PBO开到最高了，插槽的话按理说本身应该没到瓶颈才对，不过也有可能就是了。</span><br>
+</p><p><b>雪影: </b><br>
+<span>有所谓么？我SN500 PCIE3.0*2的速度，在M6I上只能跑PCIE2.0*1，甚至还不如SATA的MX300，也没感觉怎么样</span><br>
+</p><p><b>qwased: </b><br>
+<span>把cpu节能关了就好了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>记得是跟cpu有关？</span><br>
+<span>我rd500空盘用ass跑1g和10g分别是7200和6500分</span><br>
+<span>u是3800x</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>遗尿: </b><br>
+<span>月見里時雨 发表于 2020-1-5 17:50</span><br>
+<span>记得是跟cpu有关？</span><br>
+<span>我rd500空盘用ass跑1g和10g分别是7200和6500分</span><br>
+<span>我也是3800X啊，你是固定频率还是PBO？</span><br>
+</p><p><b>月見里時雨: </b><br>
+<span>遗尿 发表于 2020-1-5 18:21</span><br>
+<span>我也是3800X啊，你是固定频率还是PBO？</span><br>
+<span>关PBO再OFFSET-0.1受不了温度</span><br>
+<span>C2000PRO我当时也测试过了，跟你的差不多，不过我的是1T的</span><br>
+<span>现在已经写了90%左右就不测了</span><br>
+<span>只有我的RD500 1T才达到3000+（贵400啊）</span><br>
+<span>以下是空盘时测的截图</span><br>
+<span>百度了下，大部份人都是差不多的成绩，虽然不知道他们什么U</span><br>
+</p><p><b>黑夜守望者: </b><br>
+<span>我测的没问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907682[0-50]</guid>
+    </item>
+  </channel>
+</rss>

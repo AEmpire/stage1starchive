@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求推荐无线ap方案和型号</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求推荐无线ap方案和型号</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:15:39 +0000</lastBuildDate>
+    <item>
+      <title>求推荐无线ap方案和型号[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854066-1-1.html</link>
+      <description>求推荐无线ap方案和型号&#13;
+房子正在装修，三层楼，大概要装7个面板ap，请问有没有推荐的面板ap和配套的poe路由器型号。还有装7个的话是不是要装ap控制器？
+&#13;
+顺便问下看一些测评说面板ap的覆盖范围和穿透性一般，很难实现漫游，是不是真的啊，求指教！</description>
+      <content:encoded><![CDATA[<p><b>恒山掌门风二中: </b><br>
+<span>求推荐无线ap方案和型号</span><br>
+<span>房子正在装修，三层楼，大概要装7个面板ap，请问有没有推荐的面板ap和配套的poe路由器型号。还有装7个的话是不是要装ap控制器？</span><br>
+<span>顺便问下看一些测评说面板ap的覆盖范围和穿透性一般，很难实现漫游，是不是真的啊，求指教！</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>一切取决钱包，面板覆盖肯定是不如吸顶的，ub全家桶了解下？</span><br>
+</p><p><b>恒山掌门风二中: </b><br>
+<span>依然荏苒 发表于 2019-8-17 19:26</span><br>
+<span>一切取决钱包，面板覆盖肯定是不如吸顶的，ub全家桶了解下？</span><br>
+<span>求关键词！</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2019-8-17 23:50 编辑 </span><br>
+<span>恒山掌门风二中 发表于 2019-8-17 23:32</span><br>
+<span>求关键词！</span><br>
+<span>unifi 我家里用的ac pro因为自带软ac就没买key 交换机用的us8 路由是斐讯n1做旁路 你要面板的话看下新出的in wall系列 现在unifi支持标准poe了其他牌子便宜交换机的也可以</span><br>
+<span>https://www.ui.com.cn/products/#unifi 绝对不便宜 但是质量杠杠滴</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span> 本帖最后由 adrftgyh 于 2019-8-18 13:08 编辑 </span><br>
+<span>歌华链路由器，淘宝上大概78块钱，刷个老毛子或者其他固件当主路由，磊科mg1200ac，68一个，买n个改成ap模式当ap，成本贼低。</span><br>
+</p><p><b>StarP: </b><br>
+<span>主路由TL-R489GP-AC，AP看着TP家的配吧，如果能做吸顶建议用吸顶</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>三层乖乖找UBNT吧 面板覆盖扑街的别想太多 吸顶好顶赞</span><br>
+</p><p><b>fifmanyc: </b><br>
+<span>不是很懂，为啥要用ap不用路由？</span><br>
+</p><p><b>lionheart: </b><br>
+<span>fifmanyc 发表于 2019-08-18 14:48:57</span><br>
+<span>不是很懂，为啥要用ap不用路由？大范围覆盖，有ap控制器的可以自动切换接入点和减少网络层级，配置局域网网共享以及拿着手机上下楼这种都方便。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>fifmanyc 发表于 2019-8-18 14:48</span><br>
+<span>不是很懂，为啥要用ap不用路由？</span><br>
+<span>分布式ap相当于普通无线路由器的无线射频部分，ac相当于路由soc和系统（这么说肯定不对，举例而已不要杠）你就把他想像成一个有非常多天线的路由器就ok了，不过ac一般没有路由功能所以要额外加一个。</span><br>
+<span>常见的拓扑</span><br>
+<span>公网→光猫→路由器→ac控制器/ac交换一体机→poe交换机→ap</span><br>
+</p><p><b>恒山掌门风二中: </b><br>
+<span>谢谢各位的推荐，研究了下还是上unifi的吸顶好了，不知道一个吸顶覆盖80平左右有没有问题？</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>恒山掌门风二中 发表于 2019-8-18 22:34</span><br>
+<span>谢谢各位的推荐，研究了下还是上unifi的吸顶好了，不知道一个吸顶覆盖80平左右有没有问题？ ...</span><br>
+<span>80平无遮挡没问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854066[0-50]</guid>
+    </item>
+  </channel>
+</rss>

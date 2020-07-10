@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>office激活求助。。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>office激活求助。。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:20:36 +0000</lastBuildDate>
+    <item>
+      <title>office激活求助。。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843733-1-1.html</link>
+      <description>office激活求助。。&#13;
+office版本 2010 vol版
+&#13;
+在学校的时候一直用的 heu这个kms激活，半年点一次轻轻松松。
+&#13;
+最近激活的时候就开始不行了，试试论坛给的其他方法，比如那啥固定到某个服务器，用那个服务器给授权也不行，错误代码都相同，内容如下
+&#13;
+---Processing--------------------------
+&#13;
+---------------------------------------
+&#13;
+Installed product key detected - attempting to activate the following product:
+&#13;
+SKU ID: 6f327760-8c5c-417c-9b61-836a98287e0c
+&#13;
+LICENSE NAME: Office 14, OfficeProPlus-KMS_Client edition
+&#13;
+LICENSE DESCRIPTION: Office 14, VOLUME_KMSCLIENT channel
+&#13;
+Last 5 characters of installed product key: H3GVB
+&#13;
+ERROR CODE: 0xC004F074
+&#13;
+ERROR DESCRIPTION: The Software Licensing Service reported that the computer could not be activated. No Key Management Service (KMS) could be contacted. Please see the Application Event Log for additional information.
+&#13;
+To view the activation event history run: cscript ospp.vbs /dhistorykms
+&#13;
+---------------------------------------
+&#13;
+---------------------------------------
+&#13;
+---Exiting-----------------------------
+&#13;
+那么这个有什么办法搞定么？
+&#13;
+我也清理了一遍注册表，office里有个东西删不掉，重装了都还是同样激活失败。。</description>
+      <content:encoded><![CDATA[<p><b>cishta: </b><br>
+<span>office激活求助。。</span><br>
+<span>office版本 2010 vol版</span><br>
+<span>在学校的时候一直用的 heu这个kms激活，半年点一次轻轻松松。</span><br>
+<span>最近激活的时候就开始不行了，试试论坛给的其他方法，比如那啥固定到某个服务器，用那个服务器给授权也不行，错误代码都相同，内容如下</span><br>
+<span>---Processing--------------------------</span><br>
+<span>---------------------------------------</span><br>
+<span>Installed product key detected - attempting to activate the following product:</span><br>
+<span>SKU ID: 6f327760-8c5c-417c-9b61-836a98287e0c</span><br>
+<span>LICENSE NAME: Office 14, OfficeProPlus-KMS_Client edition</span><br>
+<span>LICENSE DESCRIPTION: Office 14, VOLUME_KMSCLIENT channel</span><br>
+<span>Last 5 characters of installed product key: H3GVB</span><br>
+<span>ERROR CODE: 0xC004F074</span><br>
+<span>ERROR DESCRIPTION: The Software Licensing Service reported that the computer could not be activated. No Key Management Service (KMS) could be contacted. Please see the Application Event Log for additional information.</span><br>
+<span>To view the activation event history run: cscript ospp.vbs /dhistorykms</span><br>
+<span>---------------------------------------</span><br>
+<span>---------------------------------------</span><br>
+<span>---Exiting-----------------------------</span><br>
+<span>那么这个有什么办法搞定么？</span><br>
+<span>我也清理了一遍注册表，office里有个东西删不掉，重装了都还是同样激活失败。。</span><br>
+</p><p><b>yewenchi: </b><br>
+<span>淘宝10块钱买个激活码...</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>我这里有个激活工具结果百度禁止分享……不是kms。现在手头没电脑，要等晚上</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>https://share.weiyun.com/5F8Ixcs</span><br>
+</p><p><b>jcyxxx: </b><br>
+<span>Kms神龙版，我前几天刚用这个激活了Office 2019。。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cishta: </b><br>
+<span>4楼给的工具</span><br>
+<span>还是这个错误</span><br>
+<span>Remove KMS host name (sets port to default).</span><br>
+<span>      status: OK</span><br>
+<span>Old KMS Server data deleted from the registry.</span><br>
+<span>      status: OK</span><br>
+<span>Key Management Service machine name set to Localhost successfully.</span><br>
+<span>      status: OK</span><br>
+<span>Activation Office 2010 products...</span><br>
+<span>Error 0xC004F074. Probably, KMService is not running. Install or start service.</span><br>
+</p><p><b>光荣的小学生: </b><br>
+<span>我一直用着一套标志是快龙的kms套件，功能好多</span><br>
+</p><p><b>marxel: </b><br>
+<span>我觉得是你装的证书不对</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>遇過好幾個自建kms搞壞了。重新安2013也沒法激活。最後扔個2007算了</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>This error can occur with a support version mismatch between the KMS client and the KMS host machine. </span><br>
+<span>https://support.microsoft.com/en-us/help/974998/when-trying-to-activate-you-get-0xc004f074-with-description-the-key-ma</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-7-2 16:09 编辑 </span><br>
+<span>好像heu改了什么信息，vlmcsd（自建服务器大概都是用这个）就不认它了。干脆装个新版本呗。</span><br>
+</p><p><b>cishta: </b><br>
+<span>哎不管了，淘宝10元买了个office 2016 pro +</span><br>
+</p><p><b>Uranus: </b><br>
+<span>cishta 发表于 2019-7-2 16:31</span><br>
+<span>哎不管了，淘宝10元买了个office 2016 pro +</span><br>
+<span>楼主你买的这个是要电话激活的吗？还是联网激活就可以了？</span><br>
+</p><p><b>cishta: </b><br>
+<span>Uranus 发表于 2019-7-2 21:01</span><br>
+<span>楼主你买的这个是要电话激活的吗？还是联网激活就可以了？</span><br>
+<span>电话，10元的，装一个cn打头安装名的iso，然后选电话激活，把你的数字发过去，店家发回一串码，填上去，就ok，但是这种激活只能限定那一台电脑</span><br>
+</p><p><b>Uranus: </b><br>
+<span>cishta 发表于 2019-7-2 21:21</span><br>
+<span>电话，10元的，装一个cn打头安装名的iso，然后选电话激活，把你的数字发过去，店家发回一串码，填上去， ...</span><br>
+<span>哦，是淘宝店家发回串码的呀，那还行~~~还以为真要打电话到微软去呢</span><br>
+</p><p><b>gushijie20: </b><br>
+<span>5月份的时候在隔壁看到帖子白嫖了半年的E3 MSDN试用...（然而还没用我就花180买了个E3 MSDN注册链接）</span><br>
+</p><p><b>daqi: </b><br>
+<span>Uranus 发表于 2019-7-2 21:36</span><br>
+<span>哦，是淘宝店家发回串码的呀，那还行~~~还以为真要打电话到微软去呢</span><br>
+<span>我买那家比较神奇，把码发过去之后一会儿就能联网激活了，开始直接输就不行</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843733[0-50]</guid>
+    </item>
+  </channel>
+</rss>

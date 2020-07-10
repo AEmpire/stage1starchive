@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Z390系列 二次重启问题 （已经解决）内有方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Z390系列 二次重启问题 （已经解决）内有方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:32:07 +0000</lastBuildDate>
+    <item>
+      <title>Z390系列 二次重启问题 （已经解决）内有方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851422-1-1.html</link>
+      <description>Z390系列 二次重启问题 （已经解决）内有方法&#13;
+ 本帖最后由 以色列空军 于 2019-8-6 11:32 编辑 
+
+开机没几分钟，听见啪一声，然后黑屏重启。
+&#13;
+硬件测试倒是没问题。都是发生在打开FIFAONLIN4以后。   
+&#13;
+软件问题？
+&#13;
+Z390 二次重启，更新BIOSF7版本的中国区19年3月14日的那个 就可以解决二次重启问题！</description>
+      <content:encoded><![CDATA[<p><b>以色列空军: </b><br>
+<span>Z390系列 二次重启问题 （已经解决）内有方法</span><br>
+<span> 本帖最后由 以色列空军 于 2019-8-6 11:32 编辑 </span><br>
+<span>开机没几分钟，听见啪一声，然后黑屏重启。</span><br>
+<span>硬件测试倒是没问题。都是发生在打开FIFAONLIN4以后。   </span><br>
+<span>软件问题？</span><br>
+<span>Z390 二次重启，更新BIOSF7版本的中国区19年3月14日的那个 就可以解决二次重启问题！</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>内存拔一根试试</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>laotoutou 发表于 2019-8-5 14:57</span><br>
+<span>内存拔一根试试</span><br>
+<span>啊？</span><br>
+<span>这个测试过，没问题。</span><br>
+</p><p><b>robit: </b><br>
+<span>我猜是电源。你配置贴一下呢。</span><br>
+</p><p><b>騜: </b><br>
+<span>你的硬件测试具体做了哪些烤机跑了多久</span><br>
+<span>FIFAOL运行就重启按道理先排查显卡驱动和电源吧</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>robit 发表于 2019-8-5 15:19</span><br>
+<span>我猜是电源。你配置贴一下呢。</span><br>
+<span>图穿不上，只能复制配置。</span><br>
+<span>电脑型号        技嘉 Z390 AORUS ELITE 台式电脑(扫描时间：2019年08月05日)</span><br>
+<span>操作系统        Windows 10 专业版 64位 ( DirectX 12 )</span><br>
+<span>处理器        英特尔 Core i7-8700 @ 3.20GHz 六核</span><br>
+<span>主板        技嘉 Z390 AORUS ELITE-CF ( 300 Series 芯片组 Family - A305 )</span><br>
+<span>内存        16 GB ( 海盗船 DDR4 3000MHz )</span><br>
+<span>主硬盘        三星 SSD 860 EVO 500GB ( 500 GB / 固态硬盘 )</span><br>
+<span>显卡        Nvidia GeForce GTX 1070 ( 8 GB / 微星 )</span><br>
+<span>显示器        冠捷 AOC2491 2491W ( 23.4 英寸)</span><br>
+<span>声卡        瑞昱@ 英特尔 High Definition Audio 控制器</span><br>
+<span>网卡        英特尔 Ethernet ConnectionI219-V / 技嘉</span><br>
+<span>========================</span><br>
+<span>就是有两次启动后，突然黑屏，机器重启。 通常都没问题，高温下也能持续稳定工作</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>騜 发表于 2019-8-5 15:23</span><br>
+<span>你的硬件测试具体做了哪些烤机跑了多久</span><br>
+<span>FIFAOL运行就重启按道理先排查显卡驱动和电源吧 ...</span><br>
+<span>显卡驱动没有更新。1070我看到有个兼容版本的是19年1月的最新更新，能用吗？</span><br>
+</p><p><b>混乱中立搅屎棍: </b><br>
+<span>robit猜是电源，以色列空军在回复robit的帖子里把配置贴了个遍就是没有电源</span><br>
+<span>鬼才</span><br>
+</p><p><b>真田丸: </b><br>
+<span>不要问，问就是1903</span><br>
+</p><p><b>mirari: </b><br>
+<span>多半是电源问题。我以前的坑电源，开机直接启大型游戏必挂，玩一阵小游戏或者上会网以后再开就没事</span><br>
+</p><p><b>ggxx同好: </b><br>
+<span>我想问下楼主的主板会二启吗</span><br>
+<span>我z390 gaming x 断电久了开机就会二启</span><br>
+<span>问商家 说华硕 技嘉都有着问题 是正常现象</span><br>
+</p><p><b>以色列空军: </b><br>
+<span> 本帖最后由 以色列空军 于 2019-8-5 20:20 编辑 </span><br>
+<span>ggxx同好 发表于 2019-8-5 20:09</span><br>
+<span>我想问下楼主的主板会二启吗</span><br>
+<span>我z390 gaming x 断电久了开机就会二启</span><br>
+<span>问商家 说华硕 技嘉都有着问题 是正常 ...</span><br>
+<span>不对，我看了下，你那问题好像有解决办法https://www.chiphell.com/thread-1801593-1-1.html</span><br>
+<span>我这个貌似不一样。</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>mirari 发表于 2019-8-5 19:51</span><br>
+<span>多半是电源问题。我以前的坑电源，开机直接启大型游戏必挂，玩一阵小游戏或者上会网以后再开就没事 ...</span><br>
+<span>额，我电源是啥牌子。。。反正不是杂牌。。。。。。。</span><br>
+</p><p><b>mirari: </b><br>
+<span>以色列空军 发表于 2019-8-5 20:21</span><br>
+<span>额，我电源是啥牌子。。。反正不是杂牌。。。。。。。</span><br>
+<span>先换电源，嫌疑最大</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>多半是电源，你烤一下系统稳定性或gpu稳定性应该就能重现</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>精钢魔像 发表于 2019-8-5 21:28</span><br>
+<span>多半是电源，你烤一下系统稳定性或gpu稳定性应该就能重现</span><br>
+<span>装机后烤了一个多小时，没问题啊</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>以色列空军 发表于 2019-8-5 21:38</span><br>
+<span>装机后烤了一个多小时，没问题啊</span><br>
+<span>烤甜甜圈。不要1小时，2-3分钟就可以</span><br>
+<span>如果没问题你试试ddu删除显卡驱动再装个最新的</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>精钢魔像 发表于 2019-8-5 22:48</span><br>
+<span>烤甜甜圈。不要1小时，2-3分钟就可以</span><br>
+<span>如果没问题你试试ddu删除显卡驱动再装个最新的 ...</span><br>
+<span>OK，试试</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>精钢魔像 发表于 2019-8-5 22:48</span><br>
+<span>烤甜甜圈。不要1小时，2-3分钟就可以</span><br>
+<span>如果没问题你试试ddu删除显卡驱动再装个最新的 ...</span><br>
+<span>现在换了显卡驱动，但愿没事。</span><br>
+</p><p><b>sniffer: </b><br>
+<span>我最近电脑也经常自动关机，不知道是电源还是主板的问题。后来看主板时发现以前给内存加过电压，调回来同时把cpu和内存的频率都降到最低，就能稳定运行了。刚开始系统反应有点慢，用了一段时间后速度提高了一些，不过我不玩游戏影响不大。</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>ggxx同好 发表于 2019-8-5 20:09</span><br>
+<span>我想问下楼主的主板会二启吗</span><br>
+<span>我z390 gaming x 断电久了开机就会二启</span><br>
+<span>问商家 说华硕 技嘉都有着问题 是正常 ...</span><br>
+<span>这位 https://www.gigabyte.cn/Motherboard/Z390-GAMING-X-rev-10/support#support-dl-bios</span><br>
+<span>升级bios就可以解决。我这个升级了就可以了！</span><br>
+<span>找到个同样问题的，他就是升级bios解决的， 你这个也一样。升级很简单！</span><br>
+</p><p><b>ggxx同好: </b><br>
+<span>以色列空军 发表于 2019-8-6 11:29</span><br>
+<span>这位 https://www.gigabyte.cn/Motherboard/Z390-GAMING-X-rev-10/support#support-dl-bios</span><br>
+<span>升级bios就 ...</span><br>
+<span>并不能，我买回来不久就升了，开始以为问题解决</span><br>
+<span>结果有次我关机四天后，重新开机又二启了</span><br>
+<span>没办法，只好每天开机</span><br>
+</p><p><b>以色列空军: </b><br>
+<span>ggxx同好 发表于 2019-8-6 19:30</span><br>
+<span>并不能，我买回来不久就升了，开始以为问题解决</span><br>
+<span>结果有次我关机四天后，重新开机又二启了</span><br>
+<span>没办法，只好每 ...</span><br>
+<span>还有个办法 ，你进BIOS里，把电源管理里第一个选项设置成打开，默认好像是关闭的，再试试！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851422[0-50]</guid>
+    </item>
+  </channel>
+</rss>

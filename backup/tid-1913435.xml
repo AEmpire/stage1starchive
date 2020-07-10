@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>安卓机里的解锁码是可以被更改的吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>安卓机里的解锁码是可以被更改的吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:15:11 +0000</lastBuildDate>
+    <item>
+      <title>安卓机里的解锁码是可以被更改的吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913435-1-1.html</link>
+      <description>安卓机里的解锁码是可以被更改的吗？&#13;
+如果说bootloader解锁码是存在手机里的一串数字，无论你怎么升级系统都不会被改变。只要是同一部手机的那个主板不变，这个解锁码依然有效。
+&#13;
+那么他能不能像imei串号一样可以被更改呢？
+&#13;
+而且安卓的wifi平板呢 ，他们没有通常都没有imei，厂家是怎么提供解锁码呢，那么这种wifi平板还能有解锁码吗？
+&#13;
+虽然说现在很多厂商都不在官方提供解锁码了</description>
+      <content:encoded><![CDATA[<p><b>Haier: </b><br>
+<span>安卓机里的解锁码是可以被更改的吗？</span><br>
+<span>如果说bootloader解锁码是存在手机里的一串数字，无论你怎么升级系统都不会被改变。只要是同一部手机的那个主板不变，这个解锁码依然有效。</span><br>
+<span>那么他能不能像imei串号一样可以被更改呢？</span><br>
+<span>而且安卓的wifi平板呢 ，他们没有通常都没有imei，厂家是怎么提供解锁码呢，那么这种wifi平板还能有解锁码吗？</span><br>
+<span>虽然说现在很多厂商都不在官方提供解锁码了</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>早期小米设备有软件可以**bootload锁，所以说只要有漏洞就可以解决，不过6.0引入fbe后就没啥意义了。</span><br>
+</p><p><b>calmer: </b><br>
+<span>Haier 发表于 2020-2-12 11:38</span><br>
+<span>如果说bootloader解锁码是存在手机里的一串数字，无论你怎么升级系统都不会被改变。只要是同一部手机的那个 ...</span><br>
+<span>华为是固化在厂家分区的预制数字，具体计算方法未知，临时root可以读可以改</span><br>
+<span>小米是fuse里面的设备序列号的hash，解锁用数字则是hash的rsa加密结果</span><br>
+<span>其他厂家或多或少机制类似</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Haier: </b><br>
+<span>伊可费斯 发表于 2020-2-12 15:12</span><br>
+<span>早期小米设备有软件可以**bootload锁，所以说只要有漏洞就可以解决，不过6.0引入fbe后就没啥意义了。 ...</span><br>
+<span>星星是什么？</span><br>
+<span>安卓6引入fbe没什么意义了，你这话一点也看不懂。</span><br>
+</p><p><b>TheDoctor: </b><br>
+<span>Haier 发表于 2020-2-13 20:36</span><br>
+<span>星星是什么？</span><br>
+<span>安卓6引入fbe没什么意义了，你这话一点也看不懂。</span><br>
+<span>皮角</span><br>
+</p><p><b>Haier: </b><br>
+<span> 本帖最后由 Haier 于 2020-2-14 08:59 编辑 </span><br>
+<span>calmer 发表于 2020-2-12 17:42</span><br>
+<span>华为是固化在厂家分区的预制数字，具体计算方法未知，临时root可以读可以改</span><br>
+<span>小米是fuse里面的设备序列号 ...</span><br>
+<span>请问临时root这个怎么理解？</span><br>
+<span>是root之后 再重启机器，root就失效了吗？ 谢谢。</span><br>
+<span>请推荐几个好用的可以临时root的app或者电脑上用的软件。 想试着改改这个解锁码或者查看解锁码。</span><br>
+</p><p><b>Haier: </b><br>
+<span>calmer 发表于 2020-2-12 17:42</span><br>
+<span>华为是固化在厂家分区的预制数字，具体计算方法未知，临时root可以读可以改</span><br>
+<span>小米是fuse里面的设备序列号 ...</span><br>
+<span>华为的我试了几个app和pc端的软件，都没能临时root成功。而且还是用的老安卓机试的。</span><br>
+<span>求指点用啥能临时root成功</span><br>
+</p><p><b>calmer: </b><br>
+<span>私信的问题：</span><br>
+<span>dc据说是用某种方式搞到了华为的rsa密钥，使用华为bl自带能力认证之后为所欲为。</span><br>
+<span>其他的华为我猜是和dc类似或者和dc有业务来往。</span><br>
+<span>淘宝一般给你用网络usb方式远程操作手机。</span><br>
+<span>关于root：</span><br>
+<span>现代安卓设备不解锁的root很难了，所以还是很值钱的，没有哪个傻子公司会做成软件给你免费用，图啥？</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Haier: </b><br>
+<span> 本帖最后由 Haier 于 2020-2-21 09:24 编辑 </span><br>
+<span>calmer 发表于 2020-2-20 23:58</span><br>
+<span>私信的问题：</span><br>
+<span>dc据说是用某种方式搞到了华为的rsa密钥，使用华为bl自带能力认证之后为所欲为。</span><br>
+<span>其他的华为 ...</span><br>
+<span>谢大佬解答。</span><br>
+<span>那其原理是靠算法算出bl锁，还是靠安卓的漏洞来直接读出机器里面的bl解锁码？以前听人说淘宝上卖解锁码的是软件利用安卓系统的漏洞直接读机器里面的解锁码读出来的。软件也会不断升级来支持更多的机型和更高的安卓版本。</span><br>
+<span>另外如果是靠算法算出来的，是不是也要通过华为的服务器才能算出来，解锁后再回锁也会在服务器里留下记录而失去保修呢？</span><br>
+</p><p><b>Haier: </b><br>
+<span> 本帖最后由 Haier 于 2020-2-21 09:42 编辑 </span><br>
+<span>不论是国内还是国际的bbs里和华为有关bl锁的话题都是各种骂，有人骂它关闭解锁通道是为了私下卖解锁码挣钱。显然这么大的公司应该不会靠这个挣钱。</span><br>
+<span>与其让人这么骂，还不如放开了换个好名声。而且自己的那个什么密钥都被人知道了，这不也就侧面说明了他的产品不是那么安全吗，给人更没啥好印象了。看他们的客服不论是国内还是国外的回复都是为了客户的安全不再提供解锁码，可淘宝或者dc等等之类的网站一付费立马就给提供解锁码。这不是让注重客户安全和隐私的形象很打脸吗？华为肯定也是知道的呀，就这么放任不管吗？这多打脸啊。</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>Haier 发表于 2020-02-21 09:33:09</span><br>
+<span>不论是国内还是国际的bbs里和华为有关bl锁的话题都是各种骂，有人骂它关闭解锁通道是为了私下卖解锁码挣 ...卖手机不太赚钱，还累。赚钱的是手机上的广告、预置app，还有自己的应用商店…开放BL刷机，不就等于把肥肉都给别人吃，自己做最苦最累的活嘛？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Haier: </b><br>
+<span>liu_tianyi 发表于 2020-2-22 17:37</span><br>
+<span>卖手机不太赚钱，还累。赚钱的是手机上的广告、预置app，还有自己的应用商店…开放BL刷机，不就等于把肥肉 ...</span><br>
+<span>这我懂。</span><br>
+<span> 但是你没懂我的意思，确实官方暂停了解bl服务，但是网上非官方却提供付费解bl，这多打脸。</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>Haier 发表于 2020-2-22 22:50</span><br>
+<span>这我懂。</span><br>
+<span> 但是你没懂我的意思，确实官方暂停了解bl服务，但是网上非官方却提供付费解bl，这多打脸。</span><br>
+<span>你也说了是非官方了...</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913435[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农论坛，爬虫为什么获取不到table值</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农论坛，爬虫为什么获取不到table值</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:07:03 +0000</lastBuildDate>
+    <item>
+      <title>码农论坛，爬虫为什么获取不到table值[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845849-1-1.html</link>
+      <description>码农论坛，爬虫为什么获取不到table值&#13;
+刚接触爬虫，拿eh练手我先把网页保存到本地后写代码测试成功运行，实操就获取不了table，是因为反爬虫机制？header设置过了，不过cookie没有https://i.loli.net/2019/07/11/5d26ab9f32d4621884.png</description>
+      <content:encoded><![CDATA[<p><b>SAROWANANI: </b><br>
+<span>码农论坛，爬虫为什么获取不到table值</span><br>
+<span>刚接触爬虫，拿eh练手我先把网页保存到本地后写代码测试成功运行，实操就获取不了table，是因为反爬虫机制？header设置过了，不过cookie没有https://i.loli.net/2019/07/11/5d26ab9f32d4621884.png</span><br>
+</p><p><b>Benighted: </b><br>
+<span> 看看ehviewer的代码？</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>Benighted 发表于 2019-7-11 11:33</span><br>
+<span>看看ehviewer的代码？</span><br>
+<span>有想法</span><br>
+</p><p><b>blueshift: </b><br>
+<span>动态网页？多frame？有的内容是加载完毕之后才生成的，你直接request最多得到个空架子和一堆代码。</span><br>
+</p><p><b>革萌: </b><br>
+<span> 本帖最后由 革萌 于 2019-7-11 11:43 编辑 </span><br>
+<span>eh的反爬是第一流的........你再玩几次就是暂封一天了而且你不一样的访问方式得到的网页代码结构是不一样的</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>blueshift 发表于 2019-7-11 11:40</span><br>
+<span>动态网页？多frame？有的内容是加载完毕之后才生成的，你直接request最多得到个空架子和一堆代码。 ...</span><br>
+<span>我直接打印整个html是可以看到所有代码的，但是一查找table里的东西就不见</span><br>
+</p><p><b>blueshift: </b><br>
+<span>SAROWANANI 发表于 2019-7-11 11:43</span><br>
+<span>我直接打印整个html是可以看到所有代码的，但是一查找table里的东西就不见 ...</span><br>
+<span>先明确一下打印整个html用的是啥，浏览器打开f12吗？然后查找table用的是爬虫对吗？</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>本来还想把收藏过千的本子都自动收藏下的，那么有什么第三方app可以做到根据收藏量筛选吗</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>blueshift 发表于 2019-7-11 11:44</span><br>
+<span>先明确一下打印整个html用的是啥，浏览器打开f12吗？然后查找table用的是爬虫对吗？ ...</span><br>
+<span>不用浏览器，直接request然后打印html.text可以看到</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>大流量最好不要用爬虫，浪费服务器流量还伤和气。你找找API，存标签，url还算合理，拉图太狠了。不如你讲讲为啥非要把人服务器上的东西拉到自己本地？</span><br>
+</p><p><b>粘土火星: </b><br>
+<span>用哪个选择器先在油猴或者F12 console试试</span><br>
+<span>然后到py还要看你用的什么库爬，bs4还是pyquery？</span><br>
+<span>这两个东西的css选择器和chrome直接取的略有区别，比方说chrome提取出来的tbody就不需要。</span><br>
+<span>eh我记得是要cookie，或者挂梯子，不然会熊猫。</span><br>
+<span>慢慢折腾吧</span><br>
+</p><p><b>blueshift: </b><br>
+<span>SAROWANANI 发表于 2019-7-11 11:46</span><br>
+<span>不用浏览器，直接request然后打印html.text可以看到</span><br>
+<span>如果你说的是指，打印html能看到html代码，但是查找内容却不在代码里面，这是动态内容还未生成的问题，这类内容无法靠request获取。你得用 selenium。</span><br>
+<span>如果你是说打印html用text editor能看到代码还能看到内容，爬虫却获取不到内容，那就成了鬼故事了。</span><br>
+</p><p><b>zievod: </b><br>
+<span>说起来ehentai </span><br>
+<span>以前好像因为爬虫太厉害还ban过亚洲部分ip吧</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>洗刷刷 发表于 2019-7-11 11:50</span><br>
+<span>大流量最好不要用爬虫，浪费服务器流量还伤和气。你找找API，存标签，url还算合理，拉图太狠了。不如你讲讲 ...</span><br>
+<span>我没说我要爬图吧我就是准备把一些本子点下收藏按钮</span><br>
+</p><p><b>SAROWANANI: </b><br>
+<span>blueshift 发表于 2019-7-11 11:52</span><br>
+<span>如果你说的是指，打印html能看到html代码，但是查找内容却不在代码里面，这是动态内容还未生成的问题，这 ...</span><br>
+<span>好的谢谢我再研究研究</span><br>
+</p><p><b>アーシェス: </b><br>
+<span>eh有做反爬的功夫能不能学学nh把预载之类的搞一下？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>bs不灵就直接正则</span><br>
+</p><p><b>jctc: </b><br>
+<span>改改user-agent，很多网站检查 user-agent是python就不给爬</span><br>
+</p><p><b>Wanderers: </b><br>
+<span>bs和正则总有一个能取到</span><br>
+</p><p><b>御众师: </b><br>
+<span>curl了解一下，没有爬不了的</span><br>
+</p><p><b>涂鸦恶魔: </b><br>
+<span>你肯定是哪里写错了，之前我也试过爬eh，但是跑一会很快就被ban ip。还不如去爬asmhentai,hitomi这些防爬机制没那么强的网站。</span><br>
+</p><p><b>小野賢章: </b><br>
+<span>你没有设置cookie，直接访问 eh 只能看到sad panda，当然什么都没有啊</span><br>
+<span>对于反爬很强的网站可以用 selenium+phantomjs。</span><br>
+<span>像你这种找到本子并且收藏的需求，可以直接在浏览器里面用 js 写爬虫，比如用 greasemonkey。</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>SAROWANANI 发表于 2019-7-11 11:56</span><br>
+<span>我没说我要爬图吧我就是准备把一些本子点下收藏按钮</span><br>
+<span>那你不需要使用爬虫干这件事，你可以使用官方提供的API只请求json，过滤出你想要的那些，再通过收藏API收藏。你可以在github参阅ehviewer EhUrl.java这个文件，里面列出了你可能会用到的API网址，比如获取热门和添加收藏。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845849[0-50]</guid>
+    </item>
+  </channel>
+</rss>

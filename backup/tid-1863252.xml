@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>新入的漫步者S880音箱 说下我是怎么折腾的</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>新入的漫步者S880音箱 说下我是怎么折腾的</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:17:27 +0000</lastBuildDate>
+    <item>
+      <title>新入的漫步者S880音箱 说下我是怎么折腾的[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1863252-1-1.html</link>
+      <description>新入的漫步者S880音箱 说下我是怎么折腾的&#13;
+ 本帖最后由 观铃の使魔 于 2019-11-3 22:18 编辑 
+
+目前在用s2000mkii、s301 对漫步者的音质和性价比都还满意    之前关注过S880并且只打算配个电脑小音箱所以没犹豫直接下手
+&#13;
+数码多的评测估计很多人看过了   算是漫步者友军吧 不过里面很多评论很有启发性 
+&#13;
+比如要用高品质的模拟输入才能发挥音箱的功效    
+&#13;
+我的s2000mkii和s301也是按这样的配置弄的外置高品质解码、专业音频线、音箱底座、线性电源、USB音频处理器等当然这样弄感觉投入较大 一个外置解码和音箱价格差不多了
+&#13;
+当然效果个人还是很满意的   不大幅升级设备的前提下可以退烧了
+&#13;
+这次买桌面箱子初衷就是体积要小 第二就是少花钱小桌子实在不适合放s2000mkii这种箱子   980的车价第一天就看到了也无动于衷- -
+&#13;
+s880内置xmos界面最佳的方案就是走全套数字路线当然你要按高品质模拟输入方案来弄 音质肯定更好 但是花的钱就不成正比了
+&#13;
+几个折腾要点
+&#13;
+1.qms声荟 桌面音箱底座 成本100+    音箱避震很重要 听感一耳朵差别之前用的Auralex mopad 成本太高s880毕竟小箱子要求不高
+&#13;
+2.贝尔金黄金版USB2.0打印线    这个是之前购入一直闲置 成本40+   听感也是一耳朵差别性价比最高的入门线材   880的机线压根没拆更换更贵的USB线 听感肯定还能提升但是对S880这种档次的箱子还是算了 性价比第一
+&#13;
+3.bufflao 大水牛PCIE独立USB3.0扩展卡高品质的独立扩展卡明显提升界面音质对比主板集成U口听感一耳朵差别1.高品质滤波电容 2.有源贴片晶振 3.独立供电 成本75    很容易听出来 AB一遍你就不想听集成口
+&#13;
+4.TDK磁环x2成本6元   外置变压器DC输出端加了一个   USB2.0线加了一个   在低端系统上磁环可以增加背景黑度   我这套系统上加了比不加好
+&#13;
+5.XMOS驱动    漫步者这个授权驱动XMOS Stereo Driver只是基础版还是4.11版本最新的4.13版本不支持Thesycon Driver也不支持 不知道数码多是咋写的    少了很多高级功能ASIO缓冲区不可调强制SAFE mode
+&#13;
+希望有高手能破解Thesycon Driver   推荐ASIO输出第一是独占模式兼容性好 很多APP不支持wasapi独占模式 支持也有bug比如qq音乐第二明显声压比wasapi大 听口水歌更有快感
+&#13;
+6.音效模式 选择dynamic模式这种小音箱天生动态不行 选择动态音效模式弥补下
+&#13;
+总之s880集成了xmos可以少了很多折腾dac不用要了、高品质模拟线材不用要了、线性电源不用要了、usb处理器也不呢么重要了（这种档次随便玩玩了）
+&#13;
+折腾下来成本不高个人感觉提升很多要是你直接接个主板RCA或者光纤就已经很满足的话当我没说23333333</description>
+      <content:encoded><![CDATA[<p><b>观铃の使魔: </b><br>
+<span>新入的漫步者S880音箱 说下我是怎么折腾的</span><br>
+<span> 本帖最后由 观铃の使魔 于 2019-11-3 22:18 编辑 </span><br>
+<span>目前在用s2000mkii、s301 对漫步者的音质和性价比都还满意    之前关注过S880并且只打算配个电脑小音箱所以没犹豫直接下手</span><br>
+<span>数码多的评测估计很多人看过了   算是漫步者友军吧 不过里面很多评论很有启发性 </span><br>
+<span>比如要用高品质的模拟输入才能发挥音箱的功效    </span><br>
+<span>我的s2000mkii和s301也是按这样的配置弄的外置高品质解码、专业音频线、音箱底座、线性电源、USB音频处理器等当然这样弄感觉投入较大 一个外置解码和音箱价格差不多了</span><br>
+<span>当然效果个人还是很满意的   不大幅升级设备的前提下可以退烧了</span><br>
+<span>这次买桌面箱子初衷就是体积要小 第二就是少花钱小桌子实在不适合放s2000mkii这种箱子   980的车价第一天就看到了也无动于衷- -</span><br>
+<span>s880内置xmos界面最佳的方案就是走全套数字路线当然你要按高品质模拟输入方案来弄 音质肯定更好 但是花的钱就不成正比了</span><br>
+<span>几个折腾要点</span><br>
+<span>1.qms声荟 桌面音箱底座 成本100+    音箱避震很重要 听感一耳朵差别之前用的Auralex mopad 成本太高s880毕竟小箱子要求不高</span><br>
+<span>2.贝尔金黄金版USB2.0打印线    这个是之前购入一直闲置 成本40+   听感也是一耳朵差别性价比最高的入门线材   880的机线压根没拆更换更贵的USB线 听感肯定还能提升但是对S880这种档次的箱子还是算了 性价比第一</span><br>
+<span>3.bufflao 大水牛PCIE独立USB3.0扩展卡高品质的独立扩展卡明显提升界面音质对比主板集成U口听感一耳朵差别1.高品质滤波电容 2.有源贴片晶振 3.独立供电 成本75    很容易听出来 AB一遍你就不想听集成口</span><br>
+<span>4.TDK磁环x2成本6元   外置变压器DC输出端加了一个   USB2.0线加了一个   在低端系统上磁环可以增加背景黑度   我这套系统上加了比不加好</span><br>
+<span>5.XMOS驱动    漫步者这个授权驱动XMOS Stereo Driver只是基础版还是4.11版本最新的4.13版本不支持Thesycon Driver也不支持 不知道数码多是咋写的    少了很多高级功能ASIO缓冲区不可调强制SAFE mode</span><br>
+<span>希望有高手能破解Thesycon Driver   推荐ASIO输出第一是独占模式兼容性好 很多APP不支持wasapi独占模式 支持也有bug比如qq音乐第二明显声压比wasapi大 听口水歌更有快感</span><br>
+<span>6.音效模式 选择dynamic模式这种小音箱天生动态不行 选择动态音效模式弥补下</span><br>
+<span>总之s880集成了xmos可以少了很多折腾dac不用要了、高品质模拟线材不用要了、线性电源不用要了、usb处理器也不呢么重要了（这种档次随便玩玩了）</span><br>
+<span>折腾下来成本不高个人感觉提升很多要是你直接接个主板RCA或者光纤就已经很满足的话当我没说23333333</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>卧槽 数字输入玄学还有这么多</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>伊克路西安 发表于 2019-11-3 22:43</span><br>
+<span>卧槽 数字输入玄学还有这么多</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>主要都是围绕USB界面光纤和同轴貌似不怎么折腾</span><br>
+<span>独立的USB扩展卡有3K多的所谓HIFI USB扩展卡</span><br>
+<span>USB处理器 泰坦鸟之类的 很神 我就在用</span><br>
+<span>USB数据线最好线电分离 我用的单晶铜线芯</span><br>
+<span>每一个都是一耳朵差别</span><br>
+</p><p><b>ASDZKL: </b><br>
+<span>观铃の使魔 发表于 2019-11-3 22:50</span><br>
+<span>主要都是围绕USB界面光纤和同轴貌似不怎么折腾</span><br>
+<span>独立的USB扩展卡有3K多的所谓HIFI USB扩展卡</span><br>
+<span>真是善变的耳朵啊</span><br>
+</p><p><b>laaaaaaag: </b><br>
+<span>s880我也观望好久了 请问大概什么价格比较合适？</span><br>
+<span>我机箱是itx所以声卡啥的就算了，配件的话有强烈推荐入手的么</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>laaaaaaag 发表于 2019-11-3 23:03</span><br>
+<span>s880我也观望好久了 请问大概什么价格比较合适？</span><br>
+<span>我机箱是itx所以声卡啥的就算了，配件的话有强烈推 ...</span><br>
+<span>历史最低679好像我是798 信用卡-49入的</span><br>
+<span>配件的话第一是独立USB3.0扩展卡 大水牛这卡不错</span><br>
+<span>第二音箱底座</span><br>
+<span>第三 USB线 </span><br>
+</p><p><b>wwdzcjsmxx: </b><br>
+<span>装机果断显示器自带音箱。。。</span><br>
+</p><p><b>melvin95: </b><br>
+<span>好多玄学</span><br>
+<span>我不搞了，s2000mk2直接用到坏退烧</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>melvin95 发表于 2019-11-3 23:46</span><br>
+<span>好多玄学</span><br>
+<span>我不搞了，s2000mk2直接用到坏退烧</span><br>
+<span>你是放桌面用的吧 不会觉得太大了吗</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>今天狗东808+12期免息到底买不买呢</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2019-11-4 00:52 编辑 </span><br>
+<span>伊克路西安 发表于 2019-11-4 00:10</span><br>
+<span>你是放桌面用的吧 不会觉得太大了吗</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>完全大丈夫，觉得塞更大的也没问题</span><br>
+<span>5.5寸的单元当桌面音响完全没问题</span><br>
+<img src="https://i.loli.net/2019/11/04/NYfeVDQECr521IM.jpg" title="https://i.loli.net/2019/11/04/NYfeVDQECr521IM.jpg"><br>
+<span>买之前看到有人这样放过就觉得没问题了</span><br>
+<img src="https://i.loli.net/2019/11/04/Shyv6QutmZViLTE.jpg" title="https://i.loli.net/2019/11/04/Shyv6QutmZViLTE.jpg"><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-11-4 00:55 编辑 </span><br>
+<span>melvin95 发表于 2019-11-4 00:42</span><br>
+<span>完全大丈夫，觉得塞更大的也没问题</span><br>
+<span>5.5寸的单元当桌面音响完全没问题</span><br>
+<span>那你音量都开多少?一共多少档位</span><br>
+<span>不用考虑离墙和减震吗</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2019-11-4 01:24 编辑 </span><br>
+<span>伊克路西安 发表于 2019-11-4 00:54</span><br>
+<span>那你音量都开多少?一共多少档位</span><br>
+<span>不用考虑离墙和减震吗</span><br>
+<span>大概三四成？没过半，这箱子的音量扭是那种无限转的，没标多少档</span><br>
+<span>那两样我就没有理了</span><br>
+<span>耳朵已经收货了，不想再去想烧</span><br>
+<span>发烧最重要还是开心，不然折腾无极限（不过箱子真的要开烧几天才可以用）</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>ASIO用起来真不方便，fb2k经常用完了不释放资源，还是wasapi安逸。</span><br>
+<span>现在也要买个数字界面接音箱，之前在pc区发帖问没有懂行大佬回帖。只好淘宝随便找个山寨用用，不知道楼主觉xmos和amanero相比哪个比较稳定？</span><br>
+<span>另外我音箱放在单独的音箱架子上，还需要避震么？</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>看到usb线一耳朵差别，抬头一看id果然是台妹，就不往下看了</span><br>
+</p><p><b>xyhero: </b><br>
+<span>羡慕能听出usb线差别的，我只能听出来有没有电流声。</span><br>
+<span>—— 来自 Sony J9210, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>静哮苍穹: </b><br>
+<span>羡慕楼主，倒腾一下就能听出四五耳朵差别，感觉四舍五入音箱就是白送的</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>伊克路西安 发表于 2019-11-4 00:10</span><br>
+<span>今天狗东808+12期免息到底买不买呢</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>啥型号808啊</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>lixianfyss 发表于 2019-11-4 02:06</span><br>
+<span>ASIO用起来真不方便，fb2k经常用完了不释放资源，还是wasapi安逸。</span><br>
+<span>现在也要买个数字界面接音箱，之前在pc ...</span><br>
+<span>没用过意大利一直xmos比较稳定</span><br>
+<span>音箱架不就是避震的？</span><br>
+<span>出了避震还有个作用就是调整摆位俯仰角   总之单元最好对着耳朵</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>偶滴小乔 发表于 2019-11-4 02:14</span><br>
+<span>看到usb线一耳朵差别，抬头一看id果然是台妹，就不往下看了</span><br>
+<span>台妹是谁？认错人了吧</span><br>
+</p><p><b>Mae: </b><br>
+<span>我就用20多块钱把4面贴了吸音棉，低音确实改善不少。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Mae 发表于 2019-11-4 09:11</span><br>
+<span>我就用20多块钱把4面贴了吸音棉，低音确实改善不少。</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next- ...</span><br>
+<span>对啊数字听不出来</span><br>
+<span>避震肯定要搞   最不济平整的缓冲海绵 垫一块也好不少</span><br>
+</p><p><b>8400gs: </b><br>
+<span>USB线一耳朵差别</span><br>
+<span>线里面塞了处理器么</span><br>
+<span>这就是纯银HDMI线的目标用户吧</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>8400gs 发表于 2019-11-4 09:15</span><br>
+<span>USB线一耳朵差别</span><br>
+<span>线里面塞了处理器么</span><br>
+<span>这就是纯银HDMI线的目标用户吧</span><br>
+<span>卧槽 真被你说中了我的HDMI线 全是开博尔T当然纯银搞不起 全是镀银的也不贵</span><br>
+<span>稍微折腾下也很好镀银线就是亮度高</span><br>
+<span>别的差异感觉没USB线大</span><br>
+</p><p><b>Mae: </b><br>
+<span>观铃の使魔 发表于 2019-11-4 09:14</span><br>
+<span>对啊数字听不出来</span><br>
+<span>避震肯定要搞   最不济平整的缓冲海绵 垫一块也好不少 ...</span><br>
+<span>有20多的海绵垫吗，超过50块钱不会再折腾了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>Mae 发表于 2019-11-4 09:38</span><br>
+<span>有20多的海绵垫吗，超过50块钱不会再折腾了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next- ...</span><br>
+<span>拿商品包装海绵垫啊我屯了好多   最好那种黑色平整有一定硬度的高密度海绵</span><br>
+<span>比如小爱同学我就垫了一个 低频好多了</span><br>
+</p><p><b>kikka: </b><br>
+<span>S1000考虑过，量了下尺寸实在太太太大了，最后还是买了880，挺顺眼的。至于音质?傻傻听不出来</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>观铃の使魔 发表于 2019-11-4 09:03</span><br>
+<span>啥型号808啊</span><br>
+<span>就S880啊</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>kikka 发表于 2019-11-4 09:53</span><br>
+<span>S1000考虑过，量了下尺寸实在太太太大了，最后还是买了880，挺顺眼的。至于音质?傻傻听不出来</span><br>
+<span>你这路由器摆放 不怕干扰么</span><br>
+</p><p><b>csfantasy: </b><br>
+<span>前提是合格线材的话</span><br>
+<span>数字传输质量受线材影响的理论支点在哪呢？</span><br>
+<span>脑放？</span><br>
+</p><p><b>kikka: </b><br>
+<span>观铃の使魔 发表于 2019-11-4 10:47</span><br>
+<span>你这路由器摆放 不怕干扰么</span><br>
+<span>没问题，从来没杂音，好一点的电子产品都应该做好屏蔽啊</span><br>
+</p><p><b>卡片魔法师: </b><br>
+<span>xswl</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>卡片魔法师: </b><br>
+<span>观铃の使魔 发表于 2019-11-04 10:47:34</span><br>
+<span>你这路由器摆放 不怕干扰么你不问他倒相管贴墙放，不问他音箱放显示器后面，不问他音箱朝向，居然问路由器…</span><br>
+<span>果然是烧usb线的大神</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>卡片魔法师 发表于 2019-11-4 12:10</span><br>
+<span>你不问他倒相管贴墙放，不问他音箱放显示器后面，不问他音箱朝向，居然问路由器…</span><br>
+<span>果然是烧usb线的大神</span><br>
+<span>他这桌子没法摆啊说了也白说 </span><br>
+<span>我的是音箱底座抬高角度   单元正对人耳</span><br>
+<span>左右向内倾向   尽量成正三角形    </span><br>
+<span>后置导向孔尽量离墙远吧    条件有限那也没办法</span><br>
+</p><p><b>无念: </b><br>
+<span>这么多一耳朵，建议找个人做盲测呢</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>s1用户平均水平是一两百和一两千的无线降噪和国产作坊耳机，插个手机</span><br>
+<span>所以讲这种是要被喷的</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>无念 发表于 2019-11-4 14:50</span><br>
+<span>这么多一耳朵，建议找个人做盲测呢</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2. ...</span><br>
+<span>嘛   耳朵收货   觉得换了好 那就换</span><br>
+<span>觉得没区别 可以无视</span><br>
+<span>我说的东西都很平民   喜欢折腾就倒腾下   几千几万的玄学物 我也折腾不起</span><br>
+<span>不过不要抱成见    没必要说谁对谁错</span><br>
+</p><p><b>mhss: </b><br>
+<span>无念 发表于 2019-11-4 14:50</span><br>
+<span>这么多一耳朵，建议找个人做盲测呢</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2. ...</span><br>
+<span>脑子里突然蹦出六耳猕猴</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>无念: </b><br>
+<span>观铃の使魔 发表于 2019-11-4 15:38</span><br>
+<span>嘛   耳朵收货   觉得换了好 那就换</span><br>
+<span>觉得没区别 可以无视</span><br>
+<span>我也不是嘲讽，只是建议，毕竟我也理解一耳朵的提升有多明显，但是动不动就能一耳朵我觉得不是你有金耳朵就是心理因素了</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 10上的 S1Next-鹅版 v2.2.0-alpha</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>USB2.0 还嫩听出差别，那还真是神了</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>另外楼主，你多少钱入的？现在jd拿券到手808元，是否合适</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>坏掉了 发表于 2019-11-4 15:54</span><br>
+<span>另外楼主，你多少钱入的？现在jd拿券到手808元，是否合适</span><br>
+<span>双十一预售   11.1号付尾款   到手798</span><br>
+<span>我用xyk优惠又减了50   算是748吧</span><br>
+</p><p><b>观铃の使魔: </b><br>
+<span>反正现在京东两个节点要么11.1号最低 要么11.11当天最低</span><br>
+</p><p><b>大暴死: </b><br>
+<span>前年999买的表示就当普通电脑音箱用呢，啥都没折腾过</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>niyikaowo: </b><br>
+<span>看不懂</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1863252[0-50]</guid>
+    </item>
+  </channel>
+</rss>

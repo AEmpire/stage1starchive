@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>office2019装上去变成2016</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>office2019装上去变成2016</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:36:47 +0000</lastBuildDate>
+    <item>
+      <title>office2019装上去变成2016[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1850671-1-1.html</link>
+      <description>office2019装上去变成2016&#13;
+有解决办法么。很莫名。</description>
+      <content:encoded><![CDATA[<p><b>铅笔: </b><br>
+<span>office2019装上去变成2016</span><br>
+<span>有解决办法么。很莫名。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>下错了？</span><br>
+</p><p><b>mmmzq: </b><br>
+<span>KMS工具的锅</span><br>
+<span>换新的</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>datzz: </b><br>
+<span>装反了吧</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hecas: </b><br>
+<span>怎么会有这种事情的</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>rhotov: </b><br>
+<span>不建议用kms工具，推荐kms脚本。</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>qazesz: </b><br>
+<span>下错了</span><br>
+</p><p><b>铅笔: </b><br>
+<span>hecas 发表于 2019-8-1 19:26</span><br>
+<span>怎么会有这种事情的</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>不知道。反正是搞定了，装完2019发现是2016，2019不动，直接再装2016。再打开发现2019正常了。再卸掉2016。好了。</span><br>
+</p><p><b>铅笔: </b><br>
+<span>rhotov 发表于 2019-8-1 19:35</span><br>
+<span>不建议用kms工具，推荐kms脚本。</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>还没kms激活。</span><br>
+</p><p><b>hecas: </b><br>
+<span>.......</span><br>
+<span>神奇的事件</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>2019有vl版了？</span><br>
+</p><p><b>ryuki: </b><br>
+<span>我的365订阅桌面图标都还是2016点</span><br>
+<span>—— 来自 Xiaomi Redmi Note 5, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>404489039: </b><br>
+<span>淘宝买个key可以反复激活</span><br>
+</p><p><b>男子汉: </b><br>
+<span>实锤2019就是2016换皮</span><br>
+</p><p><b>orecheng: </b><br>
+<span>kms的锅，2019还是强一点的，支持latex公式输入了</span><br>
+</p><p><b>zihexing: </b><br>
+<span>@Echo off</span><br>
+<span>title Activate Microsoft Office 2019 ALL versions for FREE!&cls&echo ============================================================================&echo #Project: Activating Microsoft software products for FREE without software&echo ============================================================================&echo.&echo #Supported products:&echo - Microsoft Office Standard 2019&echo - Microsoft Office Professional Plus 2019&echo.&echo.&(if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86)%\Microsoft Office\Office16")&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&echo.&echo ============================================================================&echo Activating your Office...&cscript //nologo ospp.vbs /unpkey:6MWKP >nul&cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP >nul&set i=1</span><br>
+<span>:server</span><br>
+<span>if %i%==1 set KMS_Sev=kms7.MSGuides.com</span><br>
+<span>if %i%==2 set KMS_Sev=kms8.MSGuides.com</span><br>
+<span>if %i%==3 set KMS_Sev=kms9.MSGuides.com</span><br>
+<span>if %i%==4 goto notsupported</span><br>
+<span>cscript //nologo ospp.vbs /sethst:%KMS_Sev% >nul&echo ============================================================================&echo.&echo.</span><br>
+<span>cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo ============================================================================&echo.&echo #My official blog: MSGuides.com&echo.&echo #How it works: bit.ly/kms-server&echo.&echo #Please feel free to contact me at msguides.com@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: donate.msguides.com&echo #Your support is helping me keep my servers running everyday!&echo.&echo ============================================================================&choice /n /c YN /m "Would you like to visit my blog ?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto server)</span><br>
+<span>explorer "http://MSGuides.com"&goto halt</span><br>
+<span>:notsupported</span><br>
+<span>echo.&echo ============================================================================&echo Sorry! Your version is not supported.&echo Please try installing the latest version here: bit.ly/aiomsp</span><br>
+<span>:halt</span><br>
+<span>pause >nul另存CMD请</span><br>
+</p><p><b>dorasir: </b><br>
+<span>支持latex公式了？那可太有用了，之前那个半吊子有的格式有用有的格式没用的公式输入太蛋疼了</span><br>
+</p><p><b>tt173: </b><br>
+<span>马克一下</span><br>
+</p><p><b>regalia: </b><br>
+<span>论文还是得latex搞，真是反人类的编辑软件。希望word继续努力。</span><br>
+</p><p><b>mirari: </b><br>
+<span> 本帖最后由 mirari 于 2019-8-3 20:23 编辑 </span><br>
+<span>证书装错了</span><br>
+<span>https://otp.landian.vip/zh-cn/</span><br>
+<span>用这个到证书管理里面把证书清空然后重新安装2019的证书即可，程序本身不用重装。系统里同时存在16和19的证书时启动19也会变成16。</span><br>
+<span>建议安装激活和管理全部用这个工具搞定，告别杂牌kms</span><br>
+</p><p><b>st212000: </b><br>
+<span>我遇到过！</span><br>
+<span>就是kms激活的问题</span><br>
+<span>我是这样的，一开始电脑装的2016，想试试2019，就下载了，结果打开发现不用激活，然后看到还是2016版本的界面等，应该不是我下载的2019的安装包有问题，然后搜索最新的激活软件，激活就搞定了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>宏: </b><br>
+<span>淘宝才12块钱，还用kms啊</span><br>
+</p><p><b>07通用作训服: </b><br>
+<span>zihexing 发表于 2019-08-02 21:42:46</span><br>
+<span>另存CMD请留存!</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>grantliu: </b><br>
+<span>马克一下</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>GreenBird: </b><br>
+<span>淘宝搜什么关键词啊？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1850671[0-50]</guid>
+    </item>
+  </channel>
+</rss>

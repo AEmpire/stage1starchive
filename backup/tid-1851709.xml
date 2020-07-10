@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>8chan倒了。以及其他</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>8chan倒了。以及其他</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:30:19 +0000</lastBuildDate>
+    <item>
+      <title>8chan倒了。以及其他[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851709-1-1.html</link>
+      <description>8chan倒了。以及其他&#13;
+翻了一下似乎没人讨论这个事情
+&#13;
+要详细说的话可能需要大量背景知识，我尽量短话短说
+&#13;
+如果对这个网站没印象的话，8chan是2013年4chan政治光谱较激进的一批人为了响应gamersgate以及言论自由弄出来的匿名讨论版，但从2018年左右开始变成了白人至上极端主义者的乐园，包括最近的几件枪击案中8chan以及其中的匿名乡民们或多或少都扮演了推波助澜的角色。
+&#13;
+星期六的枪击案后，首先是其原站长·创办人Fredrick Brennan站了出来然后表示8chan已经成了receptive audience for domestic terrorists（恐怖分子的播音台），呼吁现在的站长将8chan关站。
+&#13;
+然后自然被现站长无视，鉴于这网站也没有什么第三方广告或者合作，也无法从这些地方施加压力。
+&#13;
+接下来是星期日，Cloudflare宣布停止对8chan的CDN服务。并且其负责人在星期一发了篇博文专门讲了这个事情。
+&#13;
+不过8chan站长很快将CDN服务转接到了另外一家叫做BitMitigate的提供商，这家提供商有以“支持网络自由”的公开支持过不少右翼站点的历史。
+&#13;
+但BitMitigate的服务器和网络资源隶属于另外一家名为Voxility的英国公司，这家公司接到报告后，直接将BitMitigate拔了线。（顺便实际上8chan的物理服务器似乎也是托管在隶属于Voxility旗下的运营商的，所以一并被拔了线）
+&#13;
+于是8chan就这么死了。
+&#13;
+虽然站长也说了可能有将网站不进行CDN配置和DDOS防护就这么暴露在网络上的可能性，但目前在我发帖的这个时点，8chan似乎的确是死了。
+&#13;
+我无意去评价和讨论8chan作为一个完全没有监管和规则的匿名版本身的存在意义，但这件事情上我们可以学到一点五点：
+&#13;
+只要在互联网上，你的网站，以及网站上依托的内容，最终还是在一台控制权在其他人手里的服务器上。
+&#13;
+以及：怎么开站时宣称是某站更自由的后花园的站点最后总是会被用户裹挟着变味（比如Voat之于reddit也是这回事）
+&#13;
+其他的其实上还有点想说的，但想了想还是算了吧。
+&#13;
+部分相关新闻链接：
+&#13;
+https://www.washingtonpost.com/technology/2019/08/04/three-mass-shootings-this-year-began-with-hateful-screed-chan-its-founder-calls-it-terrorist-refuge-plain-sight/
+&#13;
+https://beta.washingtonpost.com/technology/2019/08/05/defiant-chan-vowed-fight-saying-its-heartbeat-is-strong-then-tech-firm-knocked-it-offline/?outputType=amp&amp;utm_source=reddit.com
+&#13;
+以及Cloudflare的宣战（？）博文：https://blog.cloudflare.com/terminating-service-for-8chan/</description>
+      <content:encoded><![CDATA[<p><b>Lily_Red: </b><br>
+<span>8chan倒了。以及其他</span><br>
+<span>翻了一下似乎没人讨论这个事情</span><br>
+<span>要详细说的话可能需要大量背景知识，我尽量短话短说</span><br>
+<span>如果对这个网站没印象的话，8chan是2013年4chan政治光谱较激进的一批人为了响应gamersgate以及言论自由弄出来的匿名讨论版，但从2018年左右开始变成了白人至上极端主义者的乐园，包括最近的几件枪击案中8chan以及其中的匿名乡民们或多或少都扮演了推波助澜的角色。</span><br>
+<span>星期六的枪击案后，首先是其原站长·创办人Fredrick Brennan站了出来然后表示8chan已经成了receptive audience for domestic terrorists（恐怖分子的播音台），呼吁现在的站长将8chan关站。</span><br>
+<span>然后自然被现站长无视，鉴于这网站也没有什么第三方广告或者合作，也无法从这些地方施加压力。</span><br>
+<span>接下来是星期日，Cloudflare宣布停止对8chan的CDN服务。并且其负责人在星期一发了篇博文专门讲了这个事情。</span><br>
+<span>不过8chan站长很快将CDN服务转接到了另外一家叫做BitMitigate的提供商，这家提供商有以“支持网络自由”的公开支持过不少右翼站点的历史。</span><br>
+<span>但BitMitigate的服务器和网络资源隶属于另外一家名为Voxility的英国公司，这家公司接到报告后，直接将BitMitigate拔了线。（顺便实际上8chan的物理服务器似乎也是托管在隶属于Voxility旗下的运营商的，所以一并被拔了线）</span><br>
+<span>于是8chan就这么死了。</span><br>
+<span>虽然站长也说了可能有将网站不进行CDN配置和DDOS防护就这么暴露在网络上的可能性，但目前在我发帖的这个时点，8chan似乎的确是死了。</span><br>
+<span>我无意去评价和讨论8chan作为一个完全没有监管和规则的匿名版本身的存在意义，但这件事情上我们可以学到一点五点：</span><br>
+<span>只要在互联网上，你的网站，以及网站上依托的内容，最终还是在一台控制权在其他人手里的服务器上。</span><br>
+<span>以及：怎么开站时宣称是某站更自由的后花园的站点最后总是会被用户裹挟着变味（比如Voat之于reddit也是这回事）</span><br>
+<span>其他的其实上还有点想说的，但想了想还是算了吧。</span><br>
+<span>部分相关新闻链接：</span><br>
+<span>https://www.washingtonpost.com/technology/2019/08/04/three-mass-shootings-this-year-began-with-hateful-screed-chan-its-founder-calls-it-terrorist-refuge-plain-sight/</span><br>
+<span>https://beta.washingtonpost.com/technology/2019/08/05/defiant-chan-vowed-fight-saying-its-heartbeat-is-strong-then-tech-firm-knocked-it-offline/?outputType=amp&utm_source=reddit.com</span><br>
+<span>以及Cloudflare的宣战（？）博文：https://blog.cloudflare.com/terminating-service-for-8chan/</span><br>
+</p><p><b>exalbion01: </b><br>
+<span>啥，8ch炸了？别啊那我到哪去找对魔忍页游的串去（</span><br>
+</p><p><b>天杀包子神: </b><br>
+<span>zeronet欢迎你</span><br>
+<span>zeronet错就错在没有相关的建站程序</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>zeronet了解一下</span><br>
+</p><p><b>拉格朗日乘数法: </b><br>
+<span>更激进是比4chan更右？竟然有比/pol/更右的地方</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>完全没有规则只会腐烂为人类最龌龊的样子，独裁的规则也比混乱好，一个网站哪怕再自由不在乎世俗，至少管理者要坚持一个好的理念</span><br>
+</p><p><b>zxc786: </b><br>
+<span>粪坑倒，狂蛆哭。</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>没人监管就是利益相关者（网上到处打广告的）和精神病人的乐园了</span><br>
+</p><p><b>TR4835: </b><br>
+<span>有贴，但是没人所以在第五页</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1851510-1-5.html</span><br>
+</p><p><b>Lily_Red: </b><br>
+<span>TR4835 发表于 2019-8-6 20:06</span><br>
+<span>有贴，但是没人所以在第五页</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1851510-1-5.html</span><br>
+<span>囧，类别填的桌游还行，难怪没看到……</span><br>
+</p><p><b>mimighost: </b><br>
+<span>死的很爽快么</span><br>
+<span>言论自由也有限度，言论自由本身并没有绝对的价值就和限制言论自由一样，8ch这个下场不奇怪。</span><br>
+<span>互联网不是不法之地，相反互联网到处都是雷区，互联网是人类史上最大和最后的广场，所做的一切都在北记录和监视，这个给执法提供了更好的基础。虽然无政府主义和那些自由放任主义会一直制造噪音，但是这个趋势不会变，信息会被少数人控制，绝大多数人则不知道自己什么时候就会被闭嘴了。</span><br>
+</p><p><b>turnyyy: </b><br>
+<span>把粪坑炸了蛆只会跑出来，没了8chan还会有16chan 24chan</span><br>
+</p><p><b>gpx234mqx: </b><br>
+<span>本来可以监控的，现在都跑了咋办</span><br>
+</p><p><b>midearth: </b><br>
+<span>更自由=更极端与有什么问题？当然是主站容不下的极端言论才会去后花园啊。</span><br>
+</p><p><b>夏侯妙才: </b><br>
+<span>Lily_Red 发表于 2019-8-6 20:09</span><br>
+<span>囧，类别填的桌游还行，难怪没看到……</span><br>
+<span>发帖前搜索是好习惯</span><br>
+</p><p><b>dclara1: </b><br>
+<span>mimighost 发表于 2019-8-6 20:11</span><br>
+<span>死的很爽快么</span><br>
+<span>言论自由也有限度，言论自由本身并没有绝对的价值就和限制言论自由一样，8ch这个下场不奇怪 ...</span><br>
+<span>控制信息还是以前容易得多。</span><br>
+<span>现在什么奇怪脑回路的人都通过互联网轻松找到同类形成小圈子，小圈子circlejerk久了就容易钻牛角尖搞出各种极端事件，防不胜防</span><br>
+<span>要是精英还是能轻松控制信息，川普上台前的民调就不会错成那个扑街样了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851709[0-50]</guid>
+    </item>
+  </channel>
+</rss>

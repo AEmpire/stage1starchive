@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>bug10 1909 针对睿频的优化效果 肉眼可见吗?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>bug10 1909 针对睿频的优化效果 肉眼可见吗?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:52:42 +0000</lastBuildDate>
+    <item>
+      <title>bug10 1909 针对睿频的优化效果 肉眼可见吗?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916376-1-1.html</link>
+      <description>bug10 1909 针对睿频的优化效果 肉眼可见吗?&#13;
+就是这个
+&#13;
+除了稳定性以外，此次1909还加入了一个性能更新。新版使用了一套全新的负载轮换机制，能够将工作负载更平均地分配到处理器性能最好的内核中。通俗来讲，1909的内核（CPU）利用率将要比1903更合理，以此获得比1903更佳的运算性能。此外在笔记本和二合一电脑中，新版的电池续航能力也得到了提高，相比之前那些功能变化，这两点其实更吸引绝大多数的使用者。
+&#13;
+号称可以记住牙膏cpu中体质最好的几个核 以后多用它们?
+&#13;
+查了下 凡是支持 Intel Turbo Boost Technology 2.0/3.0 的cpu都可以, 那么基本所有的i5/7/9都能享受了?</description>
+      <content:encoded><![CDATA[<p><b>fengmenglong: </b><br>
+<span>bug10 1909 针对睿频的优化效果 肉眼可见吗?</span><br>
+<span>就是这个</span><br>
+<span>除了稳定性以外，此次1909还加入了一个性能更新。新版使用了一套全新的负载轮换机制，能够将工作负载更平均地分配到处理器性能最好的内核中。通俗来讲，1909的内核（CPU）利用率将要比1903更合理，以此获得比1903更佳的运算性能。此外在笔记本和二合一电脑中，新版的电池续航能力也得到了提高，相比之前那些功能变化，这两点其实更吸引绝大多数的使用者。</span><br>
+<span>号称可以记住牙膏cpu中体质最好的几个核 以后多用它们?</span><br>
+<span>查了下 凡是支持 Intel Turbo Boost Technology 2.0/3.0 的cpu都可以, 那么基本所有的i5/7/9都能享受了?</span><br>
+</p><p><b>wuzhou6058: </b><br>
+<span>信谁也不要信阿三</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>工作的本子是N4100的U，8G Ram+128G的SSD只能说没啥变化吧，楼下请继续</span><br>
+</p><p><b>hein: </b><br>
+<span>AMD yes！</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>CatQuta 发表于 2020-2-29 12:44</span><br>
+<span>工作的本子是N4100的U，8G Ram+128G的SSD只能说没啥变化吧，楼下请继续</span><br>
+<span>这个不支持睿频啊</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>升级之后记得关了幽灵漏洞补丁和打开牙膏的事物扩展</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>CatQuta: </b><br>
+<span>fengmenglong 发表于 2020-2-29 12:47</span><br>
+<span>这个不支持睿频啊</span><br>
+<span>日常主频1.1GHz最高睿频2.4GHz</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>CatQuta 发表于 2020-2-29 12:50</span><br>
+<span>日常主频1.1GHz最高睿频2.4GHz</span><br>
+<span>https://www.intel.cn/content/www/cn/zh/products/processors/celeron/n4100.html</span><br>
+</p><p><b>cao1rui2: </b><br>
+<span>没啥意义吧，要性能提升换电脑最明显</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>记得这个不是针对Zen2的改动么，优先轮换到CCX里的体质最好的核</span><br>
+<span>牙膏也可以？</span><br>
+</p><p><b>tyx776: </b><br>
+<span>感觉是针对高通那种arm的</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>ft5555: </b><br>
+<span>这个特性1903里就支持zen2</span><br>
+<span>对于1909：</span><br>
+<span>随着即将发布的“大” Windows更新，这种情况将改变，因为微软将在操作系统中包含受青睐的内核意识，并且可以将单线程应用程序的速度提高多达15％。 英特尔表示，对于Intel Turbo Boost Max Technology 3.0，操作系统将使用存储在CPU中的信息来确定哪些内核是最快的，然后对它们进行优先级排序，“可将单线程性能提高15％以上”。“一个CPU可能有多个“优先”内核（调度级别最高的逻辑处理器）。为了提供更好的性能和可靠性，我们实施了轮换政策，在这些优先内核之间更公平地分配工作。”</span><br>
+<span>对于Intel Turbo Boost Max Technology 3.0，支持以下CPU：</span><br>
+<span>英特尔®酷睿™i7-69xx / 68xx处理器家族</span><br>
+<span>英特尔®酷睿™i9-7900X / i9-7920X / i9-7940X / i9-7960X / i9-7980XE / i7-7820X / i7-9800X</span><br>
+<span>英特尔®酷睿™i9-9820X / i9-99x0XE / i9-99x0X</span><br>
+<span>英特尔®至强®处理器E5-1600 v4产品家族（仅单插槽）</span><br>
+<span>英特尔第10代CPU</span><br>
+</p><p><b>孙红雷: </b><br>
+<span>好像 牙膏厂的新cpu是有大小核的Core i5-L16G7。Lakefield集成了五個CPU核心，包括一個高效能的Sunny Cove、四個低功耗的Tremont，透過智能調度器於兩種CPU核心之間保持負載分配的均衡，有點類似ARM的大小核設計。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916376[0-50]</guid>
+    </item>
+  </channel>
+</rss>

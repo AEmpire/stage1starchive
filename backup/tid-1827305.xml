@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>关于近期新浪图床防盗链开启的解决方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>关于近期新浪图床防盗链开启的解决方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:02:41 +0000</lastBuildDate>
+    <item>
+      <title>关于近期新浪图床防盗链开启的解决方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1827305-1-1.html</link>
+      <description>关于近期新浪图床防盗链开启的解决方法&#13;
+这两天貌似渣浪图床大规模开启了防盗链测试，点进图片可能提示403错误，和当年imgur的如出一辙，顺手给大家介绍一下解决方法
+&#13;
+首先下一个叫referer control的插件，然后如图设置
+&#13;
+以防图看不到说一下：
+&#13;
+site filter里填：sinaimg.cn
+&#13;
+右侧的选项选择to/from/block，其他的不选择就行</description>
+      <content:encoded><![CDATA[<p><b>ashunicorn: </b><br>
+<span>关于近期新浪图床防盗链开启的解决方法</span><br>
+<span>这两天貌似渣浪图床大规模开启了防盗链测试，点进图片可能提示403错误，和当年imgur的如出一辙，顺手给大家介绍一下解决方法</span><br>
+<span>首先下一个叫referer control的插件，然后如图设置</span><br>
+<span>以防图看不到说一下：</span><br>
+<span>site filter里填：sinaimg.cn</span><br>
+<span>右侧的选项选择to/from/block，其他的不选择就行</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>是不错，但从接收方解决效率太低了，又没办法由发图者来处理，所以……从上次原图模式也不能保留透明图层开始，新浪图床的实用性就已经大幅下降了。</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>pgain2004 发表于 2019-4-25 23:57</span><br>
+<span>是不错，但从接收方解决效率太低了，又没办法由发图者来处理，所以……从上次原图模式也不能保留透明图层开 ...</span><br>
+<span>但是对于论坛用户来说每一个添加图片前面加一句<img src="" referrerPolicy="no-referrer">更麻烦啊……所以只能先提供这个临时方案了</span><br>
+</p><p><b>星月肥纪: </b><br>
+<span>还是把图搬回自己服务器好了</span><br>
+<span>用typecho博客的朋友这里推荐一下友人c的脚本，挺方便的https://www.ihewro.com/archives/935/</span><br>
+<span>—— 來自 SHARP 701SH, Android 8.0.0上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>smishe: </b><br>
+<span> 本帖最后由 smishe 于 2019-4-26 14:33 编辑 </span><br>
+<span>是时候推广uMatrix了。</span><br>
+<span>虽然偶尔会遇到错杀的（比如屑站），需要花半分钟调试，但总的来说还是大大提高了生产力</span><br>
+</p><p><b>TR4835: </b><br>
+<span>还是禁外链了</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>原来403是因为终于开始禁外链了吗…</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>是从新图开始防盗链还是旧图也有了？</span><br>
+</p><p><b>wfhtony: </b><br>
+<span>Jet.Black 发表于 2019-4-26 15:49</span><br>
+<span>是从新图开始防盗链还是旧图也有了？</span><br>
+<span>旧图也有。</span><br>
+<span>—— 來自 OnePlus ONEPLUS A6000, Android 9上的 S1Next-鵝版 v2.1.2</span><br>
+</p><p><b>manu88wh: </b><br>
+<span>用微博的理由又少了一个</span><br>
+</p><p><b>王境泽: </b><br>
+<span>以前很多帖子用的都是微博图，这下旧图帖完了</span><br>
+</p><p><b>岬: </b><br>
+<span>看了下自己的帖子，果然图片都挂了</span><br>
+<span>回家重新编辑</span><br>
+</p><p><b>序曲: </b><br>
+<span>我是早不用大眼图床了，但imgur前阵子又被墙，啧</span><br>
+</p><p><b>欧金金: </b><br>
+<span>删除https的s换成http</span><br>
+</p><p><b>hgcg-w: </b><br>
+<span>test</span><br>
+<span>图1</span><br>
+<img src="https://wx3.sinaimg.cn/mw690/005A9yjgly1g2eouen1m8j30c80b33ys.jpg" title="https://wx3.sinaimg.cn/mw690/005A9yjgly1g2eouen1m8j30c80b33ys.jpg"><br>
+<span>图2</span><br>
+<img src="http://wx3.sinaimg.cn/large/005A9yjgly1g2eouen1m8j30c80b33ys.jpg" title="http://wx3.sinaimg.cn/large/005A9yjgly1g2eouen1m8j30c80b33ys.jpg"><br>
+<span>两张图能看见哪张？</span><br>
+</p><p><b>序曲: </b><br>
+<span>hgcg-w 发表于 2019-4-26 19:01</span><br>
+<span>test</span><br>
+<span>图1</span><br>
+<span>2</span><br>
+</p><p><b>rayaxu: </b><br>
+<span>hgcg-w 发表于 2019-4-26 19:01</span><br>
+<span>test</span><br>
+<span>图1</span><br>
+<span>都能看见</span><br>
+<span>—— 来自 samsung SM-G9500, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>萨基: </b><br>
+<span>我连微博缩略图都看不到</span><br>
+</p><p><b>mhss: </b><br>
+<span>一直用HeaderEditor + https://github.com/dupontjoy/customization/tree/master/Rules/HeaderEditor 规则</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>这样不靠谱啊</span><br>
+<span>要是过几天不加s的也屏蔽咋办</span><br>
+<span>以前没s的连接好像也刷不出</span><br>
+<span>还是求推荐准备转移图床</span><br>
+</p><p><b>TSST: </b><br>
+<span>smishe 发表于 2019-4-26 14:31</span><br>
+<span>是时候推广uMatrix了。</span><br>
+<span>虽然偶尔会遇到错杀的（比如屑站），需要花半分钟调试，但总的来说还是大大提高了生 ...</span><br>
+<span>难道不是格杀勿论，全靠自己排除吗</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span>国内有图床服务网站吗？感觉新浪的免费图床没了是个机遇</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>新浪图床是被个人软件弄死的。。。大量盗链估计服务器扛不住了</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span> 本帖最后由 NagisaLoveMami 于 2019-4-26 21:28 编辑 </span><br>
+<span>不知道这个防盗链是什么工作频率</span><br>
+</p><p><b>rentrody: </b><br>
+<span>王境泽 发表于 2019-4-26 16:34</span><br>
+<span>以前很多帖子用的都是微博图，这下旧图帖完了</span><br>
+<span>还好吧，总比用那些死了几百年的图床好</span><br>
+</p><p><b>rentrody: </b><br>
+<span>NagisaLoveMami 发表于 2019-4-26 20:44</span><br>
+<span>国内有图床服务网站吗？感觉新浪的免费图床没了是个机遇</span><br>
+<span>没有新浪这样的体量都活不久，稍微靠谱的都很贵，按浏览次数收费什么的</span><br>
+<span>我倒是更希望渣浪出个便宜点的收费外链服务</span><br>
+</p><p><b>ashunicorn: </b><br>
+<span>TSST 发表于 2019-4-26 06:31</span><br>
+<span>难道不是格杀勿论，全靠自己排除吗</span><br>
+<span>这个还真是，默认屏蔽规则下百度统计的网页元素都给屏蔽了，贴吧都上不去</span><br>
+</p><p><b>qwased: </b><br>
+<span>NagisaLoveMami 发表于 2019-4-26 20:44</span><br>
+<span>国内有图床服务网站吗？感觉新浪的免费图床没了是个机遇</span><br>
+<span>国内的流量费用贵上天，根本没法做，网盘都死光了</span><br>
+</p><p><b>发光的球: </b><br>
+<span>之前看到说电信和新浪关系紧密，所以当年的新浪视频和现在的微博图都比较大方，是这样吗？</span><br>
+</p><p><b>搏击俱乐部: </b><br>
+<span>同求靠谱便宜的收费图床</span><br>
+</p><p><b>NagisaLoveMami: </b><br>
+<span>rentrody 发表于 2019-4-26 22:18</span><br>
+<span>没有新浪这样的体量都活不久，稍微靠谱的都很贵，按浏览次数收费什么的</span><br>
+<span>我倒是更希望渣浪出个便宜点的收费 ...</span><br>
+<span>我记得是按流量收费的</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lyflyflxf: </b><br>
+<span>有哪国的流量费便宜吗？</span><br>
+</p><p><b>欧金金: </b><br>
+<span>https://sm.ms/</span><br>
+<span>凑合用吧</span><br>
+</p><p><b>Destiny4073: </b><br>
+<span>欧金金 发表于 2019-4-27 09:39</span><br>
+<span>https://sm.ms/</span><br>
+<span>凑合用吧</span><br>
+<span>这个图床的图加载速度之前突然变得很慢，直到现在也是</span><br>
+</p><p><b>smishe: </b><br>
+<span>ashunicorn 发表于 2019-4-27 01:29</span><br>
+<span>这个还真是，默认屏蔽规则下百度统计的网页元素都给屏蔽了，贴吧都上不去 ...</span><br>
+<span>UMatrix是这样的。。。</span><br>
+<span>不过我在这贴里专指的UMatrix的伪造referer功能，全局开启后不用写任何规则，通杀所有防盗链。除非网站对自身利用的跨域资源的referer做出严格限制，否则不会出问题，目前只遇到Bilibili和Pixiv有问题；当然对策也很简单，在该网站上关掉referer伪装就行，UMatrix都是针对网站的对策，一般referer插件是针对图片链接的对策。</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>我已经把图转移到自己的 Bandwagon 上去了</span><br>
+<span>懒得找图床方案搭建（主要是不想架数据库），就直接用 Syncthing 同步外加 Nginx 指过去，分配个二级域名过去并用 acme.sh 申请证书</span><br>
+<span>还凑合，总比看不到图好</span><br>
+</p><p><b>王境泽: </b><br>
+<span>欧金金 发表于 2019-4-27 09:39</span><br>
+<span>https://sm.ms/</span><br>
+<span>凑合用吧</span><br>
+<span>这个也慢的没法用了，先前S1一个图帖等待十分钟</span><br>
+</p><p><b>有点神奇: </b><br>
+<span>smishe 发表于 2019-4-27 10:13</span><br>
+<span>UMatrix是这样的。。。</span><br>
+<span>不过我在这贴里专指的UMatrix的伪造referer功能，全局开启后不用写任何规 ...</span><br>
+<span>奇怪，为什么我用了uMatrix的伪造referrer还是没用啊？</span><br>
+</p><p><b>smishe: </b><br>
+<span> 本帖最后由 smishe 于 2019-5-6 12:11 编辑 </span><br>
+<span>有点神奇 发表于 2019-5-6 09:24</span><br>
+<span>奇怪，为什么我用了uMatrix的伪造referrer还是没用啊？</span><br>
+<span>不对，你这个帖子里的图是http（没有s）链接，在no-referrer-when-downgrade政策下是不会产生referer的，理论上你不装任何插件扩展都能看到的该图。因为没有referer，所以正常情况下uMatrix对此图应该不起作用，你不应该能看到referer。</span><br>
+<span>我这里是正常的，感觉你是用了什么强制修改referer的扩展，uMatrix又强行把referer改成泥潭链接了；或是你用了什么图片类扩展，让uMatrix认为该图来自泥潭域名了。禁用其他扩展排查冲突试试吧。</span><br>
+<span>还有，127.0.0.1，你走的代理？</span><br>
+</p><p><b>有点神奇: </b><br>
+<span> 本帖最后由 有点神奇 于 2019-5-7 09:21 编辑 </span><br>
+<span>smishe 发表于 2019-5-6 11:18</span><br>
+<span>不对，你这个帖子里的图是http（没有s）链接，在no-referrer-when-downgrade政策下是不会产生referer的， ...</span><br>
+<span>我也无语了，我用无痕模式，只开了uMatrix,也是这个样子，也没找到chrome哪设置转https啊之前我是用的代理，我现在关了也一样：</span><br>
+<span>我看了下，好像是chrome把混合内容自动升级了：</span><br>
+<span>Mixed Content: The page at 'https://bbs.saraba1st.com/2b/thread-1827305-1-1.html' was loaded over HTTPS, but requested an insecure element 'http://wx3.sinaimg.cn/large/005A9yjgly1g2eouen1m8j30c80b33ys.jpg'. As part of an experiment this request was automatically upgraded to HTTPS, For more information see https://chromium.googlesource.com/chromium/src/+/master/docs/security/autoupgrade-mixed.md</span><br>
+</p><p><b>smishe: </b><br>
+<span>有点神奇 发表于 2019-5-7 09:07</span><br>
+<span>我也无语了，我用无痕模式，只开了uMatrix,也是这个样子，也没找到chrome哪设置转https啊之前我是用的代理 ...</span><br>
+<span>我以为强制upgrade到https的扩展不大有人会用，没想到Chrome居然自带</span><br>
+<span>我主力火狐，上面截图是用的cent，cent没这问题。</span><br>
+</p><p><b>有点神奇: </b><br>
+<span>smishe 发表于 2019-5-7 09:46</span><br>
+<span>我以为强制upgrade到https的扩展不大有人会用，没想到Chrome居然自带</span><br>
+<span>我主力火狐，上面截图是用的 ...</span><br>
+<span>我之前也没想到啊，我看chrome的文档好像要s1自己设置不升级才行。</span><br>
+<span>https://chromium.googlesource.com/chromium/src/+/master/docs/security/autoupgrade-mixed.md</span><br>
+<span>You can opt out of having mixed content autoupgraded in your site by including an HTTP header with type ‘mixed-content’ and value ‘noupgrade’, this will disable autoupgrades for subresources. Since mixed content websockets are automatically blocked, autoupgrades cannot be disabled for those.</span><br>
+<span>@S1APP君 苟命啊</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>有点神奇 发表于 2019-5-7 09:53</span><br>
+<span>我之前也没想到啊，我看chrome的文档好像要s1自己设置不升级才行。</span><br>
+<span>https://chromium.googlesource.com/c ...</span><br>
+<span>我看看</span><br>
+</p><p><b>名津流: </b><br>
+<span> 本帖最后由 名津流 于 2019-5-10 16:59 编辑 </span><br>
+<span>好像新浪的图也不是完全屏蔽？</span><br>
+<span>我目前发现规律是查看原图获得的图片链接就能正常显示</span><br>
+<span>比如我这个351楼的新浪图就能直接看</span><br>
+<span>https://bbs.saraba1st.com/2b/for ... 804778&pid=43629453</span><br>
+<span>图片地址：http://wx3.sinaimg.cn/large/b9128e35ly1g2vbllzdnnj20rs1degy2.jpg</span><br>
+<span>是在原微博里点击查看原图获得的，地址里带/large/</span><br>
+<span>而我339楼里的一张图，因为没有使用原图地址，而是直接用的博文里的预览小图，就显示不出来</span><br>
+<span>https://bbs.saraba1st.com/2b/for ... 804778&pid=43615866</span><br>
+<span>（注：这个楼里其实我一共贴了4张图，但只能看到3张）</span><br>
+<span>原贴代码</span><br>
+<span>机动战士高达NT引进 ！？！！！！</span><br>
+<span>【attach】566077</span><br>
+<span>【attach】566568</span><br>
+<img src="https://wx2.sinaimg.cn/mw1024/3f ... wrzwj23402c0kjm.jpg" title="https://wx2.sinaimg.cn/mw1024/3f ... wrzwj23402c0kjm.jpg"><br>
+<img src="http://wx2.sinaimg.cn/large/3f7228ably1g2tp6idsltj22c03401ky.jpg" title="http://wx2.sinaimg.cn/large/3f7228ably1g2tp6idsltj22c03401ky.jpg"><br>
+<span>可以看到，其中采用了非原图大小链接的第三张图就显示不出来</span><br>
+<span>这张图片地址中含有/mw1024/，而非原图地址用的/large/</span><br>
+</p><p><b>cen: </b><br>
+<span> 本帖最后由 cen 于 2019-5-10 17:21 编辑 </span><br>
+<span>大图是还可以外链，看了下之前发的也还在</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1827305[0-50]</guid>
+    </item>
+  </channel>
+</rss>

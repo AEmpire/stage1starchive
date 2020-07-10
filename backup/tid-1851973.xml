@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问SVP4的设置问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问SVP4的设置问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:28:42 +0000</lastBuildDate>
+    <item>
+      <title>请问SVP4的设置问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851973-1-1.html</link>
+      <description>请问SVP4的设置问题&#13;
+SVP4用的还是免费的版本，现在开启后，ffshowraw video就自动勾选了Avisynth这玩意，请问该怎么设置</description>
+      <content:encoded><![CDATA[<p><b>十六夜丶晓: </b><br>
+<span>请问SVP4的设置问题</span><br>
+<span>SVP4用的还是免费的版本，现在开启后，ffshowraw video就自动勾选了Avisynth这玩意，请问该怎么设置</span><br>
+</p><p><b>waldo: </b><br>
+<span>SVP需要Avisynth来生成中间帧，能用就不需要管设置</span><br>
+</p><p><b>十六夜丶晓: </b><br>
+<span>waldo 发表于 2019-8-7 20:55</span><br>
+<span>SVP需要Avisynth来生成中间帧，能用就不需要管设置</span><br>
+<span>但问题是视频仿佛加了滤镜，颜色全变掉了，这该如何解决</span><br>
+</p><p><b>waldo: </b><br>
+<span>去potplayer视频解码器输出(不是ffshow里面的)那边把除了YV12之外的全部干掉看看</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851973[0-50]</guid>
+    </item>
+  </channel>
+</rss>

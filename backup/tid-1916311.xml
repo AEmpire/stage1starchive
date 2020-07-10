@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【不懂就问】风扇的散热功率能够比输入功率大吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【不懂就问】风扇的散热功率能够比输入功率大吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:53:11 +0000</lastBuildDate>
+    <item>
+      <title>【不懂就问】风扇的散热功率能够比输入功率大吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916311-1-1.html</link>
+      <description>【不懂就问】风扇的散热功率能够比输入功率大吗&#13;
+问题的来源是这张图。
+&#13;
+https://s2.ax1x.com/2020/02/28/3rN6hT.png
+&#13;
+我趴在马桶上用高中热力学知识想了五分钟，如果是压缩机驱动的空调型散热器的话，似乎散热功率（搬运的热量）可以比驱动压缩机的功率要更大，没错
+&#13;
+但是风扇型的也可以做到这一点吗？
+&#13;
+还是说，风扇这种热交换式的散热，它的散热效率并不全受输入功率影响，也受相对温度和交换器（鳍片）材料影响？
+&#13;
+帮助理解的分析图：
+&#13;
+https://s2.ax1x.com/2020/02/28/3rwEKe.png</description>
+      <content:encoded><![CDATA[<p><b>eno_emos: </b><br>
+<span>【不懂就问】风扇的散热功率能够比输入功率大吗</span><br>
+<span>问题的来源是这张图。</span><br>
+<img src="https://s2.ax1x.com/2020/02/28/3rN6hT.png" title="https://s2.ax1x.com/2020/02/28/3rN6hT.png"><br>
+<span>我趴在马桶上用高中热力学知识想了五分钟，如果是压缩机驱动的空调型散热器的话，似乎散热功率（搬运的热量）可以比驱动压缩机的功率要更大，没错</span><br>
+<span>但是风扇型的也可以做到这一点吗？</span><br>
+<span>还是说，风扇这种热交换式的散热，它的散热效率并不全受输入功率影响，也受相对温度和交换器（鳍片）材料影响？</span><br>
+<span>帮助理解的分析图：</span><br>
+<img src="https://s2.ax1x.com/2020/02/28/3rwEKe.png" title="https://s2.ax1x.com/2020/02/28/3rwEKe.png"><br>
+</p><p><b>Alexmacau8: </b><br>
+<span>斯特林发动机嘛 热能转机械能</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>能啊。。。工业精密空调就是大于一比三，以华为netcol间接自然冷却空调为例，220kw制冷功耗是25千瓦（官网看的）</span><br>
+</p><p><b>eno_emos: </b><br>
+<span>wzp28538 发表于 2020-2-28 22:38</span><br>
+<span>能啊。。。工业精密空调就是大于一比三，以华为netcol间接自然冷却空调为例，220kw制冷功耗是25千瓦（官网 ...</span><br>
+<span>空调我知道可以做到散热功率比输入功率大</span><br>
+<span>但是风扇和散热鳍片也可以做到吗？</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>风扇不转只靠对流都能达到平衡，拿一部分过来吹点小风降点温不是挺合理嘛。不过只能用在功耗低的上边。</span><br>
+</p><p><b>GJRstone: </b><br>
+<span>eno_emos 发表于 2020-2-28 22:42</span><br>
+<span>空调我知道可以做到散热功率比输入功率大</span><br>
+<span>但是风扇和散热鳍片也可以做到吗？</span><br>
+<span>风扇的输出=排出的热空气的动能</span><br>
+<span>风扇的制冷效果=排出的热空气的内能</span><br>
+<span>风扇的散热功率和被散热物体和风扇功率有关，散热效率跟风扇功率无关…</span><br>
+</p><p><b>wzp28538: </b><br>
+<span>eno_emos 发表于 2020-2-28 22:42</span><br>
+<span>空调我知道可以做到散热功率比输入功率大</span><br>
+<span>但是风扇和散热鳍片也可以做到吗？</span><br>
+<span>不啊，我说的这个空调，压缩机可以不动啊。。。不转就是我刚刚说的输出，风从外面送进来和里面的风热交换的方法，全程只有风机，压缩机不运转（高温才运转）</span><br>
+</p><p><b>❃✽✾✶✻✼: </b><br>
+<span>和温度有关         风扇本身散热效率肯定比压缩机高    风扇是加快散热速度    压缩机是逆温度梯度</span><br>
+<span>话说再弄一组鳍片在冷端   风扇接电就成斯特林制冷机了    岂不美哉</span><br>
+</p><p><b>GeneralAtomics: </b><br>
+<span>你想想如果风扇不转的话散热功率是几瓦，风扇是几瓦。</span><br>
+</p><p><b>ECly: </b><br>
+<span>分析问题的方法就有问题，你得先确定你分析的系统到底是啥…</span><br>
+<span>— from Xiaomi MI 8 Lite, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>御风八极: </b><br>
+<span>能啊，同样是5w小风扇，吹室温微风和吹液氮蒸汽肯定差别巨大</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>bliu018: </b><br>
+<span>感觉风扇不带走热量，而是风扇推动冷空气，增加被冷却物体的对流换热系数</span><br>
+</p><p><b>有个梨: </b><br>
+<span>当年的主板真是妖啊</span><br>
+</p><p><b>Panda付: </b><br>
+<span>其实就是温差式发动机原理这东西研究好多年了 有很多种方法实现</span><br>
+<span>但是我觉得机箱这点空间很容易因为发热过多导致温差变小 反而功率下降</span><br>
+</p><p><b>elflie: </b><br>
+<span> 本帖最后由 elflie 于 2020-2-29 00:01 编辑 </span><br>
+<span>可以啊，因为你这散热系统并不只有风扇在工作，而且热量也并没有完全被散掉</span><br>
+<span>打个比方，就是我也能推动一辆比我重的手推车</span><br>
+<span>如果还没想明白，再换个思路想想，如果没有风扇呢？</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>风扇没有制冷，只不过加快了热量在同一系统里的转移，把100w的制热量从cpu/热管鳍片更快的 转移到周围的空气上。 主要是风扇只能加快顺势的热量转移速度，如果空气温度和鳍片一样，风扇1000w都没有任何散热能力。压缩机可是可以逆势而为的，用一定的能量强制转移一定的热量。</span><br>
+<span>msi这个东西不就是 技嘉（雾 的空气钟么</span><br>
+<span>但是这膨胀是来回往复的，不做特殊处理，风扇的方向和速度都会来回震荡，对机箱内风道影响挺大的吧</span><br>
+</p><p><b>继承权: </b><br>
+<span>在散热器上架个烟囱式的导风筒会不会效果跟这个差不多？</span><br>
+</p><p><b>zionius: </b><br>
+<span> 本帖最后由 zionius 于 2020-2-29 00:26 编辑 </span><br>
+<span>风怒</span><br>
+</p><p><b>zionius: </b><br>
+<span> 本帖最后由 zionius 于 2020-2-29 00:24 编辑 </span><br>
+<span>你可以按传导散热模型来理解，散热功率=热导率*面积*温度梯度。风扇的作用是加快对流增加热导率(对流热导率可以提升几十倍)。看公式就知道，甚至完全不用风扇输入功率，也有可能出现几百W的散热功率</span><br>
+</p><p><b>liu_tianyi: </b><br>
+<span>应该是基于半导体的温差发电吧？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916311[0-50]</guid>
+    </item>
+  </channel>
+</rss>

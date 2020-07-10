@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:33:34 +0000</lastBuildDate>
+    <item>
+      <title>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1575073-1-1.html</link>
+      <description>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！&#13;
+ 本帖最后由 xmcp 于 2018-3-21 21:17 编辑 
+
+2018.3.21 update
+&#13;
+两张图了解这个假冒扩展目前的用户量：
+&#13;
+↓ 弹窗页面访问量，真不知道剩下那几个人是怎么忍受每5分钟弹一个窗还不卸载的。
+&#13;
+↓ pakku总体（包括假冒扩展）用户量，可以看到360浏览器少了一半。
+&#13;
+这个帖子似乎有转型成pakku专楼的趋势……其实pakku在漫区是有一个专楼的。
+&#13;
+====================
+&#13;
+我是 Chrome扩展pakku 的开发者。你听说过也好，没听说过也罢，总之今天我不安利，我只是想介绍一下我看到的这样一个东西：
+&#13;
+诶……这截图怎么这么眼熟啊？这显眼的三个黄圈不是我拿触摸板画的吗？然后它的简介不是抄的我在GitHub上写的README吗？
+&#13;
+“在中国遇到这种事情本身就没什么可惊讶的”，我如此说服自己。总之先装一下看看。
+&#13;
+装上之后———— 喵喵喵？？？
+&#13;
+跟本尊对比一下：
+&#13;
+我说你抄就抄吧，把名字、图标和credit都改了算什么事啊？最可气的是它还在底下加了一个支付宝转账链接，当然，是转给他的，不是转给我的。
+&#13;
+对了，这个人还专门录了一个视频来“测试一下自己弄的B站重复弹幕合并Chrome插件”。
+&#13;
+这我就不能忍了，在邮件联系360客服举报的同时，我一定要采取一些措施制裁它。
+&#13;
+制裁的突破口只有一处：在它的扩展里面，还留着一个我用来统计用户数量的iframe没有删掉。
+&#13;
+这个iframe里的脚本本身并没有扩展程序的权限，所以干不了 chrome.management.uninstallSelf() 之类的骚操作。但用来弹个窗什么的，已经足够了。
+&#13;
+于是我插入了一个检测到这个Extension ID就弹窗提示的代码，又花十分钟写了一个忽悠用户卸载的网页，稍微测试了一下，在今天零点部署到了服务器上。
+&#13;
+这样，这个扩展的用户每次打开浏览器就会看到一篇观点鲜明的檄文（手头有360浏览器的人可以安装体验一下弹窗的效果）
+&#13;
+然后，截止到现在，就是在这23个小时之内，弹窗的页面已经有300多个人访问，换言之那个垃圾复制品的用户数量至少是这个数。
+&#13;
+讲真，这个数字再多点就到真·pakku的用户数的十分之一了。
+&#13;
+一开始我还有点担心是不是误伤到了正常用户，但一看User-Agent全是360浏览器就放心了。
+&#13;
+这个抄袭的人叫“東雲智希”，他此前一直在B站上盗投台湾同名pixiv画师的稿件，然后東雲智希（台湾）本人在FB上怒斥了一番，他就把投稿全删了。(Reference)
+&#13;
+另外当年盗播洛天依演唱会的，好像也有他。(Reference)</description>
+      <content:encoded><![CDATA[<p><b>refo2613: </b><br>
+<span>也就是说360就是个高仿的CHROME，而且还是自带扩展市场的？</span><br>
+<span>有点意思</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span>refo2613 发表于 2018-1-24 08:16</span><br>
+<span>也就是说360就是个高仿的CHROME，而且还是自带扩展市场的？</span><br>
+<span>有点意思</span><br>
+<span>国产绝大部分都是chrome套壳</span><br>
+</p><p><b>refo2613: </b><br>
+<span>zlzhcqblf 发表于 2018-1-24 08:20</span><br>
+<span>国产绝大部分都是chrome套壳</span><br>
+<span>可以理解</span><br>
+<span>但是我想知道这个壳，是不是套的干净</span><br>
+<span>另外市场上的插件，是否齐全，并且干净</span><br>
+<span>大佬有没有指教？</span><br>
+</p><p><b>seekskywang: </b><br>
+<span>xmcp 发表于 2018-1-21 19:33</span><br>
+<span>稍微挂个人。</span><br>
+<span>哈哈哈哈哈哈这个智商，二不起</span><br>
+</p><p><b>zlzhcqblf: </b><br>
+<span> 本帖最后由 zlzhcqblf 于 2018-1-24 11:46 编辑 </span><br>
+<span>refo2613 发表于 2018-1-24 08:22</span><br>
+<span>可以理解</span><br>
+<span>但是我想知道这个壳，是不是套的干净</span><br>
+<span>那要看怎么才叫干净，反正泥潭有很多360粉丝。最大优点还是云同步在国内，不用科学上网。你要是能用谷歌，不如试试cent这种简洁点的魔改</span><br>
+<span>360市场的扩展不多，完全兼容chrome扩展，直接上chrome商店下载就行</span><br>
+</p><p><b>rage010: </b><br>
+<span>引用第48楼xmcp于2018-01-21 19:33发表的:</span><br>
+<span>稍微挂个人。另外都一周过去了，那个版权页面每天还有好几十UV（已经排除了前面帖子里我发的链接了）。我......</span><br>
+<span>@xmcp</span><br>
+<span>哈哈哈，好逗</span><br>
+<span>----发送自 Sony F8132,Android 7.1.1</span><br>
+</p><p><b>rage010: </b><br>
+<span>引用第54楼zlzhcqblf于2018-01-24 11:44发表的:</span><br>
+<span>本帖最后由 zlzhcqblf 于 2018-1-24 11:46 编辑 引用:refo2613 发......</span><br>
+<span>@zlzhcqblf</span><br>
+<span>谢科普，我还是选择科学上网用原版chrome</span><br>
+<span>----发送自 Sony F8132,Android 7.1.1</span><br>
+</p><p><b>希克苏鲁伯: </b><br>
+<span>我也用作者大大的插件，支持</span><br>
+</p><p><b>mengjun: </b><br>
+<span> 本帖最后由 mengjun 于 2018-1-24 15:38 编辑 </span><br>
+<span>没事了,我已经装上插件了.支持楼主的举动.</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>xmcp 发表于 2018-1-21 19:33</span><br>
+<span>稍微挂个人。</span><br>
+<span>推荐你找S1在B站的官方账号“S1电波台”发篇B站专栏文+知乎文，反正我看着是挺有趣味的，也帖合B站主题。</span><br>
+</p><p><b>naok: </b><br>
+<span>装机量手动+1</span><br>
+<span>支持一下楼主</span><br>
+</p><p><b>xmcp: </b><br>
+<span>pgain2004 发表于 2018-1-24 17:33</span><br>
+<span>推荐你找S1在B站的官方账号“S1电波台”发篇B站专栏文+知乎文，反正我看着是挺有趣味的，也帖合B站主题。 ...</span><br>
+<span>S1电波台的专栏画风跟这个不太一样吧？</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>xmcp 发表于 2018-1-24 19:54</span><br>
+<span>S1电波台的专栏画风跟这个不太一样吧？</span><br>
+<span>你问问呗，我觉得这内容还挺不错的。就算B站上不太对，还有知乎那边呢（ </span><br>
+</p><p><b>mozilla: </b><br>
+<span>有人发现楼主今天放的彩蛋了吗。</span><br>
+</p><p><b>Geminize: </b><br>
+<span>什么彩蛋</span><br>
+</p><p><b>xmcp: </b><br>
+<span>Geminize 发表于 2018-3-20 16:25</span><br>
+<span>什么彩蛋</span><br>
+<span>你要勾上选项里的【我是婆罗门】</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>在知乎知道楼主的，在用，支持下。</span><br>
+</p><p><b>xmcp: </b><br>
+<span>埋了个彩蛋结果还引发了弹幕密度图显示不出来的bug……太尴尬了</span><br>
+</p><p><b>Geminize: </b><br>
+<span>xmcp 发表于 2018-3-20 16:48</span><br>
+<span>你要勾上选项里的【我是婆罗门】</span><br>
+<span>某人生日快乐？</span><br>
+</p><p><b>chilming: </b><br>
+<span>才知道还有这好东西，已转账支持</span><br>
+</p><p><b>hein: </b><br>
+<span>23333</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>99mxw: </b><br>
+<span>膜拜大佬，虽然基本没看懂，但还是莫名爽到</span><br>
+</p><p><b>99mxw: </b><br>
+<span>膜拜大佬，虽然基本没看懂，但还是莫名爽到</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>惠惠打他</span><br>
+</p><p><b>aiboers110: </b><br>
+<span>惠惠打他</span><br>
+</p><p><b>董卓: </b><br>
+<span>以后给自己的软件里面留各种可以后续用作后门的设计看来是必须的了？</span><br>
+</p><p><b>骉骉骉甲: </b><br>
+<span>@xmcp</span><br>
+<span>不知道为什么突然这两天用不了了，卸载重装也没有用……</span><br>
+</p><p><b>obiy: </b><br>
+<span>那么，啥时候上chromium edge</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1575073[50-100]</guid>
+    </item>
+    <item>
+      <title>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1575073-1-1.html</link>
+      <description>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！&#13;
+ 本帖最后由 xmcp 于 2018-3-21 21:17 编辑 
+
+2018.3.21 update
+&#13;
+两张图了解这个假冒扩展目前的用户量：
+&#13;
+↓ 弹窗页面访问量，真不知道剩下那几个人是怎么忍受每5分钟弹一个窗还不卸载的。
+&#13;
+↓ pakku总体（包括假冒扩展）用户量，可以看到360浏览器少了一半。
+&#13;
+这个帖子似乎有转型成pakku专楼的趋势……其实pakku在漫区是有一个专楼的。
+&#13;
+====================
+&#13;
+我是 Chrome扩展pakku 的开发者。你听说过也好，没听说过也罢，总之今天我不安利，我只是想介绍一下我看到的这样一个东西：
+&#13;
+诶……这截图怎么这么眼熟啊？这显眼的三个黄圈不是我拿触摸板画的吗？然后它的简介不是抄的我在GitHub上写的README吗？
+&#13;
+“在中国遇到这种事情本身就没什么可惊讶的”，我如此说服自己。总之先装一下看看。
+&#13;
+装上之后———— 喵喵喵？？？
+&#13;
+跟本尊对比一下：
+&#13;
+我说你抄就抄吧，把名字、图标和credit都改了算什么事啊？最可气的是它还在底下加了一个支付宝转账链接，当然，是转给他的，不是转给我的。
+&#13;
+对了，这个人还专门录了一个视频来“测试一下自己弄的B站重复弹幕合并Chrome插件”。
+&#13;
+这我就不能忍了，在邮件联系360客服举报的同时，我一定要采取一些措施制裁它。
+&#13;
+制裁的突破口只有一处：在它的扩展里面，还留着一个我用来统计用户数量的iframe没有删掉。
+&#13;
+这个iframe里的脚本本身并没有扩展程序的权限，所以干不了 chrome.management.uninstallSelf() 之类的骚操作。但用来弹个窗什么的，已经足够了。
+&#13;
+于是我插入了一个检测到这个Extension ID就弹窗提示的代码，又花十分钟写了一个忽悠用户卸载的网页，稍微测试了一下，在今天零点部署到了服务器上。
+&#13;
+这样，这个扩展的用户每次打开浏览器就会看到一篇观点鲜明的檄文（手头有360浏览器的人可以安装体验一下弹窗的效果）
+&#13;
+然后，截止到现在，就是在这23个小时之内，弹窗的页面已经有300多个人访问，换言之那个垃圾复制品的用户数量至少是这个数。
+&#13;
+讲真，这个数字再多点就到真·pakku的用户数的十分之一了。
+&#13;
+一开始我还有点担心是不是误伤到了正常用户，但一看User-Agent全是360浏览器就放心了。
+&#13;
+这个抄袭的人叫“東雲智希”，他此前一直在B站上盗投台湾同名pixiv画师的稿件，然后東雲智希（台湾）本人在FB上怒斥了一番，他就把投稿全删了。(Reference)
+&#13;
+另外当年盗播洛天依演唱会的，好像也有他。(Reference)</description>
+      <content:encoded><![CDATA[<p><b>xmcp: </b><br>
+<span>【或将转型pakku专楼】对这个抄袭者施展爆裂魔法！</span><br>
+<span> 本帖最后由 xmcp 于 2018-3-21 21:17 编辑 </span><br>
+<span>2018.3.21 update</span><br>
+<span>两张图了解这个假冒扩展目前的用户量：</span><br>
+<span>↓ 弹窗页面访问量，真不知道剩下那几个人是怎么忍受每5分钟弹一个窗还不卸载的。</span><br>
+<span>↓ pakku总体（包括假冒扩展）用户量，可以看到360浏览器少了一半。</span><br>
+<span>这个帖子似乎有转型成pakku专楼的趋势……其实pakku在漫区是有一个专楼的。</span><br>
+<span>====================</span><br>
+<span>我是 Chrome扩展pakku 的开发者。你听说过也好，没听说过也罢，总之今天我不安利，我只是想介绍一下我看到的这样一个东西：</span><br>
+<span>诶……这截图怎么这么眼熟啊？这显眼的三个黄圈不是我拿触摸板画的吗？然后它的简介不是抄的我在GitHub上写的README吗？</span><br>
+<span>“在中国遇到这种事情本身就没什么可惊讶的”，我如此说服自己。总之先装一下看看。</span><br>
+<span>装上之后———— 喵喵喵？？？</span><br>
+<span>跟本尊对比一下：</span><br>
+<span>我说你抄就抄吧，把名字、图标和credit都改了算什么事啊？最可气的是它还在底下加了一个支付宝转账链接，当然，是转给他的，不是转给我的。</span><br>
+<span>对了，这个人还专门录了一个视频来“测试一下自己弄的B站重复弹幕合并Chrome插件”。</span><br>
+<span>这我就不能忍了，在邮件联系360客服举报的同时，我一定要采取一些措施制裁它。</span><br>
+<span>制裁的突破口只有一处：在它的扩展里面，还留着一个我用来统计用户数量的iframe没有删掉。</span><br>
+<span>这个iframe里的脚本本身并没有扩展程序的权限，所以干不了 chrome.management.uninstallSelf() 之类的骚操作。但用来弹个窗什么的，已经足够了。</span><br>
+<span>于是我插入了一个检测到这个Extension ID就弹窗提示的代码，又花十分钟写了一个忽悠用户卸载的网页，稍微测试了一下，在今天零点部署到了服务器上。</span><br>
+<span>这样，这个扩展的用户每次打开浏览器就会看到一篇观点鲜明的檄文（手头有360浏览器的人可以安装体验一下弹窗的效果）</span><br>
+<span>然后，截止到现在，就是在这23个小时之内，弹窗的页面已经有300多个人访问，换言之那个垃圾复制品的用户数量至少是这个数。</span><br>
+<span>讲真，这个数字再多点就到真·pakku的用户数的十分之一了。</span><br>
+<span>一开始我还有点担心是不是误伤到了正常用户，但一看User-Agent全是360浏览器就放心了。</span><br>
+<span>这个抄袭的人叫“東雲智希”，他此前一直在B站上盗投台湾同名pixiv画师的稿件，然后東雲智希（台湾）本人在FB上怒斥了一番，他就把投稿全删了。(Reference)</span><br>
+<span>另外当年盗播洛天依演唱会的，好像也有他。(Reference)</span><br>
+</p><p><b>xmcp: </b><br>
+<span>暗夜明岚 发表于 2018-1-14 23:11</span><br>
+<span>发个檄文的连接看看 还有 牛逼</span><br>
+<span>http://s.xmcp.ml/repo/pakku_copyright/</span><br>
+<span>每次打开浏览器就会弹这个网址。</span><br>
+<span>于此同时还会破坏那个扩展的功能，让它根本没法正常工作。</span><br>
+<span>这样用户大概就会卸载了（要是还不卸就CoinHive伺候）</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>没用过作者大大的作品，不知道有木有ff版或者win10 ump版（能开发么）</span><br>
+</p><p><b>xmcp: </b><br>
+<span>暗影翔 发表于 2018-1-14 22:53</span><br>
+<span>没用过作者大大的作品，不知道有木有ff版或者win10 ump版（能开发么）</span><br>
+<span>ff版已经有了，uwp版？不存在的，现在只能针对HTML5播放器。</span><br>
+<span>你要是想说edge版的话……原理上是支持的，但edge的bug太多，所以没管edge。而且B站的HTML5播放器好像也不能很好地支持edge？</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>xmcp 发表于 2018-1-14 22:56</span><br>
+<span>ff版已经有了，uwp版？不存在的，现在只能针对HTML5播放器。</span><br>
+<span>你要是想说edge版的话……原理上是支持的， ...</span><br>
+<span>就是针对商店里的官方客户端有木有接口可以外挂实现这种功能的插件</span><br>
+</p><p><b>xmcp: </b><br>
+<span>暗影翔 发表于 2018-1-14 23:01</span><br>
+<span>就是针对商店里的官方客户端有木有接口可以外挂实现这种功能的插件</span><br>
+<span>这个好像没有啊……UWP那么封闭的东西，别说插件了，设个HTTP代理都困难。</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>发个檄文的连接看看 还有 牛逼</span><br>
+</p><p><b>暗夜明岚: </b><br>
+<span>xmcp 发表于 2018-1-14 23:13</span><br>
+<span>http://s.xmcp.ml/repo/pakku_copyright/</span><br>
+<span>每次打开浏览器就会弹这个网址。</span><br>
+<span>牛逼 看的大快人心！</span><br>
+</p><p><b>观者熊: </b><br>
+<span>好像不错，下载使用了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>先装上看看,虽然不怎么看B站</span><br>
+</p><p><b>tewaku: </b><br>
+<span>大快人心</span><br>
+</p><p><b>kyokofsky: </b><br>
+<span>作者出现了…挺好用的，清净</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 7.1.1上的 S1Next-鹅版 v1.3.2.1-fix-play</span><br>
+</p><p><b>wfm: </b><br>
+<span>哇！我也是pakku用户！感谢作者大大！</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>火樹銀華: </b><br>
+<span>感谢作者的扩展，看新番开弹幕也不怕了。拿京紫和国家队试了，效果显著。</span><br>
+<span>只是冬天不能躺在被窝刷手机，要起来开电脑。。。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>吃萝卜的鱼: </b><br>
+<span>用过作者大大的插件，赞一个</span><br>
+</p><p><b>squallx: </b><br>
+<span>大半夜的乐死了 LZ要挂人去外野也发一个啊</span><br>
+</p><p><b>ziyo: </b><br>
+<span>支持，这种人请一定往死里怼</span><br>
+<span>— from SHARP 503SH, Android 5.1.1 of S1 Next Goose v1.3.2.2</span><br>
+</p><p><b>風駿: </b><br>
+<span>所以这种无技术含量的抄袭也是无话可说了</span><br>
+</p><p><b>中村隆太郎: </b><br>
+<span>想想就爽</span><br>
+</p><p><b>我很费纸: </b><br>
+<span>干得漂亮啊hhhhhhhhhh</span><br>
+<span>—— 来自 Sony F5321, Android 7.1.1上的 S1Next-鹅版 v1.3.2.2</span><br>
+</p><p><b>wx40217: </b><br>
+<span>这抄袭的水平真是低啊 </span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 6.0.1上的 S1Next-鹅版 v1.3.2.2</span><br>
+</p><p><b>qwqwe4: </b><br>
+<span>赞一个！</span><br>
+</p><p><b>donmlar: </b><br>
+<span>正义的铁锤！</span><br>
+</p><p><b>ziyo: </b><br>
+<span>不过楼主这个魔法虽然爆裂但是对抄袭者而言却是不痛不痒的，我有一计这货不是挂了支付宝么，你什么檄文都不用写，弹出窗口把他支付宝挂出来，下面来点雪山和尚什么的一个字都不用写</span><br>
+<span>— from SHARP 503SH, Android 5.1.1 of S1 Next Goose v1.3.2.2</span><br>
+</p><p><b>mhss: </b><br>
+<span>ziyo 发表于 2018-1-15 10:38</span><br>
+<span>不过楼主这个魔法虽然爆裂但是对抄袭者而言却是不痛不痒的，我有一计这货不是挂了支付宝么，你什么檄文都不 ...</span><br>
+<span>作大死</span><br>
+</p><p><b>雪映风影: </b><br>
+<span>檄文看了一眼 感觉肯定很爽</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>做得好</span><br>
+</p><p><b>cyberalogo: </b><br>
+<span>顶楼那个B站视频也被删了。</span><br>
+</p><p><b>xmcp: </b><br>
+<span>cyberalogo 发表于 2018-1-15 11:26</span><br>
+<span>顶楼那个B站视频也被删了。</span><br>
+<span>https://www.bilibili.com/video/av10711389/</span><br>
+<span>视频好像还没删，应该是外链播放器挂了</span><br>
+</p><p><b>新庄運切: </b><br>
+<span>大佬好像你的也失效了，昨天看魔法师的视频发现好像没在工作。</span><br>
+<span>待会再试试</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>xmcp: </b><br>
+<span>✓ 360浏览器应用市场已经下架该应用</span><br>
+</p><p><b>霖星: </b><br>
+<span>居然是作者本尊</span><br>
+<span>我现在就是用着360浏览器装着PAKKU</span><br>
+<span>求教一下，我现在是默认设置，但是在B站看大热门的番插件效果还是不太理想，请问设置上怎么改好</span><br>
+</p><p><b>新庄運切: </b><br>
+<span>xmcp 发表于 2018-1-15 16:17</span><br>
+<span>✓ 360浏览器应用市场已经下架该应用</span><br>
+<span>麻烦问下插件突然不工作了，点菜单里面插件图标文字变成全是省略号要怎么处理</span><br>
+</p><p><b>xmcp: </b><br>
+<span> 本帖最后由 xmcp 于 2018-1-15 16:51 编辑 </span><br>
+<span>新庄運切 发表于 2018-1-15 16:44</span><br>
+<span>麻烦问下插件突然不工作了，点菜单里面插件图标文字变成全是省略号要怎么处理 ...</span><br>
+<span>恩？不应该呀……我这好像没这个问题。</span><br>
+<span>先重启浏览器试试？然后检查一下浏览器和扩展版本都是最新的吗？</span><br>
+<span>如果确认都是最新的话，你点选项页面最上面的“报告问题”，把调试信息粘贴一下。</span><br>
+</p><p><b>zero33333: </b><br>
+<span>顶一下，虽然看视频必关弹幕的我用不上</span><br>
+</p><p><b>新庄運切: </b><br>
+<span>xmcp 发表于 2018-1-15 16:47</span><br>
+<span>恩？不应该呀……我这好像没这个问题。</span><br>
+<span>先重启浏览器试试？然后检查一下浏览器和扩展版本都是最新的吗？</span><br>
+<span> ...</span><br>
+<span>浏览器不是最新的，不过也是59版本了，扩展删了重新下也是这样，我贴下调试信息好了</span><br>
+</p><p><b>qwased: </b><br>
+<span>霖星 发表于 2018-1-15 16:24</span><br>
+<span>居然是作者本尊</span><br>
+<span>我现在就是用着360浏览器装着PAKKU</span><br>
+<span>求教一下，我现在是默认设置，但是在B站看大热门 ...</span><br>
+<span>估计是你一边看弹幕一边在刷新就没效果了，可以把插件的禁止弹幕更新勾上</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 7.1.1上的 S1Next-鹅版 v1.3.2.2</span><br>
+</p><p><b>淼霆: </b><br>
+<span>哈哈哈，大快人心</span><br>
+</p><p><b>cup: </b><br>
+<span>抄袭者现在在直播</span><br>
+</p><p><b>erewrerwe: </b><br>
+<span>ziyo 发表于 2018-1-15 10:38</span><br>
+<span>不过楼主这个魔法虽然爆裂但是对抄袭者而言却是不痛不痒的，我有一计这货不是挂了支付宝么，你什么檄文都不 ...</span><br>
+<span>域名是个问题</span><br>
+</p><p><b>rage010: </b><br>
+<span>引用第3楼xmcp于2018-01-14 22:56发表的:</span><br>
+<span>引用:暗影翔 发表于 2018-1-14 22:53没用过作者大大的作品，不知道有木有ff版或者wi......</span><br>
+<span>@xmcp</span><br>
+<span>那个问一下，大大这东西能用在chrome上吗？</span><br>
+<span>----发送自 Sony F8132,Android 7.1.1</span><br>
+</p><p><b>xmcp: </b><br>
+<span>rage010 发表于 2018-1-16 14:02</span><br>
+<span>@xmcp</span><br>
+<span>那个问一下，大大这东西能用在chrome上吗？</span><br>
+<span>能</span><br>
+</p><p><b>kina: </b><br>
+<span>视频这下是真删除了</span><br>
+</p><p><b>kcordnas: </b><br>
+<span>太欢乐了，怎么不发在外野</span><br>
+</p><p><b>rage010: </b><br>
+<span>xmcp 发表于 2018-1-16 15:54</span><br>
+<span>能</span><br>
+<span>好的，马上回去试试</span><br>
+</p><p><b>sakuyamai: </b><br>
+<span>红色背景看完那段字，眼睛快瞎了，我是现代3d龙事件受害者，楼主赔我钱</span><br>
+</p><p><b>危险流浪者: </b><br>
+<span>辛苦了！pakku用了挺久了</span><br>
+</p><p><b>qwerdssa: </b><br>
+<span>谢谢大大！</span><br>
+</p><p><b>xmcp: </b><br>
+<span>稍微挂个人。</span><br>
+<span>另外都一周过去了，那个版权页面每天还有好几十UV（已经排除了前面帖子里我发的链接了）。我能怎么办？我也很绝望啊……</span><br>
+</p><p><b>前列腺异常君: </b><br>
+<span>精神上支持一下楼主！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1575073[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>感觉开了g-sync没什么区别啊</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>感觉开了g-sync没什么区别啊</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:10:06 +0000</lastBuildDate>
+    <item>
+      <title>感觉开了g-sync没什么区别啊[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845365-1-1.html</link>
+      <description>感觉开了g-sync没什么区别啊&#13;
+显示器是120hz的AW3418DW，在显卡的NV控制面板里开了g-sync，用DP线连接，就是感觉开没开貌似没什么区别。</description>
+      <content:encoded><![CDATA[<p><b>baesystems: </b><br>
+<span>感觉开了g-sync没什么区别啊</span><br>
+<span>显示器是120hz的AW3418DW，在显卡的NV控制面板里开了g-sync，用DP线连接，就是感觉开没开貌似没什么区别。</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>帧数20-40这段有点区别</span><br>
+<span>60以上请关闭</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>滑鼠标就能看出来区别</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>datzz: </b><br>
+<span>Johnie01 发表于 2019-7-9 12:06</span><br>
+<span>帧数20-40这段有点区别</span><br>
+<span>60以上请关闭</span><br>
+<span>这个分段是为什么游戏准备的？</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>datzz 发表于 2019-7-9 12:11</span><br>
+<span>这个分段是为什么游戏准备的？</span><br>
+<span>—— 来自 samsung SM-G9730, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>比如显卡太差跑显卡危机类游戏的时候</span><br>
+</p><p><b>sirlion: </b><br>
+<span>首先sync是为了解决画面撕裂，帧数够高的情况下撕裂本身就不容易察觉，其次在sync下，vsync需要自动除以2，60帧不满就会跳到30帧，gsync可以动态调到55帧，帧数越高比vsync效果更大，但是不开sync更好</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>没啥用，有的游戏过场动画还会卡</span><br>
+</p><p><b>ab6546541: </b><br>
+<span>双DP，请</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>显卡够好</span><br>
+<span>帧数>>显示器刷新率 直接开 fast sync</span><br>
+<span>不够好</span><br>
+<span>帧数<=显示器刷新率 开 gsync</span><br>
+</p><p><b>King5268: </b><br>
+<span>没用过这种显示器，还以为是神一般的技术呢！幻灭了</span><br>
+</p><p><b>baesystems: </b><br>
+<span>好多大象啊 发表于 2019-7-9 18:05</span><br>
+<span>显卡够好</span><br>
+<span>帧数>>显示器刷新率 直接开 fast sync</span><br>
+<span>不够好</span><br>
+<span>fast sync在哪儿开啊，我在奥德赛里面看到个vsync，这个是垂直同步吧。</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>King5268 发表于 2019-7-9 18:10</span><br>
+<span>没用过这种显示器，还以为是神一般的技术呢！幻灭了</span><br>
+<span>垃圾技术 显卡够好什么都不开放任自流 显卡太差存钱买显卡</span><br>
+</p><p><b>King5268: </b><br>
+<span>Johnie01 发表于 2019-7-9 18:41</span><br>
+<span>垃圾技术 显卡够好什么都不开放任自流 显卡太差存钱买显卡</span><br>
+<span>原来如此</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span> 本帖最后由 好多大象啊 于 2019-7-9 22:46 编辑 </span><br>
+<span>baesystems 发表于 2019-7-9 18:28</span><br>
+<span>fast sync在哪儿开啊，我在奥德赛里面看到个vsync，这个是垂直同步吧。 ...</span><br>
+<span>n卡面板里垂直同步（vsync）开成快（fast） 三重缓冲关闭</span><br>
+<span>然后各个游戏里 直接关闭垂直同步和 缓冲就 ok了</span><br>
+<span>实质上fast就是没有垂直同步，显卡按照自己设置的fps上线输出画面给显示器，显示器这端没队列，每次刷新的时候就用最新的显卡发来的那一帧画面显示出来，刷新之间多出来的其他帧就直接扔了。这样可以保证延迟低，画面顺畅，但是如果显卡输出速度慢于显示器刷新速度，或者显卡输出速度变动在显示器刷新速度上下，就会造成不流畅，时快时慢最为致命。</span><br>
+</p><p><b>lxx4869: </b><br>
+<span>gsync不是有个官方演示demo exe</span><br>
+</p><p><b>jyyyjgy: </b><br>
+<span>我玩CSGO用g-sync感觉有延迟，还是关了舒服，说什么降低延迟，被老黄骗了</span><br>
+</p><p><b>平井姨夫: </b><br>
+<span>1070在2K屏幕开G-sync效果非常好，完全两种体验</span><br>
+</p><p><b>Comarade_Cyril: </b><br>
+<span>jyyyjgy 发表于 2019-7-9 09:45</span><br>
+<span>我玩CSGO用g-sync感觉有延迟，还是关了舒服，说什么降低延迟，被老黄骗了 ...</span><br>
+<span>只要是sync就不可能降低延迟吧，不过csgo玩家请上2080super开低特效上240hz 1080p</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845365[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>无线网卡和raid卡有哪些大船货可以上？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>无线网卡和raid卡有哪些大船货可以上？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:05:22 +0000</lastBuildDate>
+    <item>
+      <title>无线网卡和raid卡有哪些大船货可以上？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1855693-1-1.html</link>
+      <description>无线网卡和raid卡有哪些大船货可以上？&#13;
+ 本帖最后由 whatd 于 2019-8-24 23:51 编辑 
+
+本来想组个NAS，从蜗牛垃圾一路+预算膨胀到看8盘位机，结果一咬牙，把原来的大老婆e3+Z87M给装回来了...
+&#13;
+本来想从办公室弄块4130弄上去，结果手滑把R5430给插上去了。
+&#13;
+已经放弃算功耗了，弄了个FD arc mini R2 OEM版 的“小”机箱，算算光驱+硬盘位+风扇位不要散热的话能改满12块硬盘。
+&#13;
+现在一路暴走，打算再弄个无线网卡和raid卡扩展支持SAS的服务器拆机盘，
+&#13;
+- 2 x PCI Express 3.0 x16 插槽 (PCIE1/PCIE3: 單插槽 x16 (PCIE1); 雙插槽 x8 (PCIE1) / x8 (PCIE3))
+&#13;
+- 1 x PCI Express 2.0 x4 插槽
+&#13;
+- 1 x PCI Express 2.0 x1 插槽
+&#13;
+- 1 x half mini-PCI Express 插槽
+&#13;
+- 1 x mSATA/mini-PCI Express 插槽
+&#13;
+- 支援 AMD Quad CrossFireX™ 和 CrossFireX™
+&#13;
+- 支援 NVIDIA® Quad SLI™ 和 SLI™
+&#13;
+*mSATA/mini-PCI Express 插槽與 SATA3_4 共享
+&#13;
+现在显卡占了一个PCIE1了，剩下的还能怎么插
+&#13;
+PS:这种拿来挂的需要弄个稳点的固态当系统盘么？西数/闪迪马甲的蓝盘如何。
+&#13;
+想了下，上西数蓝盘转PCIEx4，无线网卡AX200直接插HALFminipcie，阵列卡插x16，这一堆玩意不会冲突吧...</description>
+      <content:encoded><![CDATA[<p><b>whatd: </b><br>
+<span>无线网卡和raid卡有哪些大船货可以上？</span><br>
+<span> 本帖最后由 whatd 于 2019-8-24 23:51 编辑 </span><br>
+<span>本来想组个NAS，从蜗牛垃圾一路+预算膨胀到看8盘位机，结果一咬牙，把原来的大老婆e3+Z87M给装回来了...</span><br>
+<span>本来想从办公室弄块4130弄上去，结果手滑把R5430给插上去了。</span><br>
+<span>已经放弃算功耗了，弄了个FD arc mini R2 OEM版 的“小”机箱，算算光驱+硬盘位+风扇位不要散热的话能改满12块硬盘。</span><br>
+<span>现在一路暴走，打算再弄个无线网卡和raid卡扩展支持SAS的服务器拆机盘，</span><br>
+<span>- 2 x PCI Express 3.0 x16 插槽 (PCIE1/PCIE3: 單插槽 x16 (PCIE1); 雙插槽 x8 (PCIE1) / x8 (PCIE3))</span><br>
+<span>- 1 x PCI Express 2.0 x4 插槽</span><br>
+<span>- 1 x PCI Express 2.0 x1 插槽</span><br>
+<span>- 1 x half mini-PCI Express 插槽</span><br>
+<span>- 1 x mSATA/mini-PCI Express 插槽</span><br>
+<span>- 支援 AMD Quad CrossFireX™ 和 CrossFireX™</span><br>
+<span>- 支援 NVIDIA® Quad SLI™ 和 SLI™</span><br>
+<span>*mSATA/mini-PCI Express 插槽與 SATA3_4 共享</span><br>
+<span>现在显卡占了一个PCIE1了，剩下的还能怎么插</span><br>
+<span>PS:这种拿来挂的需要弄个稳点的固态当系统盘么？西数/闪迪马甲的蓝盘如何。</span><br>
+<span>想了下，上西数蓝盘转PCIEx4，无线网卡AX200直接插HALFminipcie，阵列卡插x16，这一堆玩意不会冲突吧...</span><br>
+</p><p><b>bilibon: </b><br>
+<span>LSI9260吧？</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>闲鱼上最近LSI 9267挺便宜的，pcie槽还剩个x8就插那呗，nas系统和数据分离的也不需要特别好的盘，蓝盘绰绰有余了。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>moondigi: </b><br>
+<span>普通用用还是sata组软raid，买硬raid卡上sas的话还得弄好散热</span><br>
+</p><p><b>whatd: </b><br>
+<span>moondigi 发表于 2019-8-24 22:38</span><br>
+<span>普通用用还是sata组软raid，买硬raid卡上sas的话还得弄好散热</span><br>
+<span>看论坛大部分人都不赞成家用组raid，我弄个卡也就扩展下支持SAS方便上便宜的拆机盘备份数据。</span><br>
+</p><p><b>longooyue: </b><br>
+<span>楼主对IO需求是多少我好像还有一张H310</span><br>
+</p><p><b>moondigi: </b><br>
+<span>whatd 发表于 2019-8-24 23:09</span><br>
+<span>看论坛大部分人都不赞成家用组raid，我弄个卡也就扩展下支持SAS方便上便宜的拆机盘备份数据。 ...</span><br>
+<span>因为普通家用对数据在线要求不高而且也没有高性能的需求，多盘不组raid然后用软件将文件复制备份到其他盘就行了非常简单，还能很灵活地选择备份策略</span><br>
+<span>我家里在用的raid卡摸上去是烫手的所以还专门弄了个风扇吹，买卡的话得注意这种情况我还是atx机箱，sas的噪音和温度也比sata那些高，如果你要弄小箱子的话得留意这些问题，pcie2那些老raid卡的话应该温度低不少</span><br>
+</p><p><b>whatd: </b><br>
+<span> 本帖最后由 whatd 于 2019-8-25 00:20 编辑 </span><br>
+<span>moondigi 发表于 2019-8-24 23:58</span><br>
+<span>因为普通家用对数据在线要求不高而且也没有高性能的需求，多盘不组raid然后用软件将文件复制备份到其他盘 ...</span><br>
+<span>这机箱就是全塔砍掉上面两个光驱位多的高度，长款都是媲美全塔的，所以我才在“小”上面加双引号...</span><br>
+<span>所以才有这么暴走作死想插满插槽的冲动...</span><br>
+<span>不是频繁大量读写，卡也会发热？不能普通的节能？</span><br>
+</p><p><b>whatd: </b><br>
+<span>longooyue 发表于 2019-8-24 23:53</span><br>
+<span>楼主对IO需求是多少我好像还有一张H310</span><br>
+<span>不组RAID，普通的跑满硬盘性能稳定不出问题就行。</span><br>
+</p><p><b>moondigi: </b><br>
+<span>whatd 发表于 2019-8-25 00:14</span><br>
+<span>这机箱就是全塔砍掉上面两个光驱位多的高度，长款都是媲美全塔的，所以我才在“小”上面加双引号...</span><br>
+<span>所以 ...</span><br>
+<span>直通不清楚我一直是用raid的，没大量读写也很烫卡上只有散热片没有风扇</span><br>
+<span>本来就是服务器上用的那散热和强排式差不多，家用也不可能上服务器那种飞机起飞一样的风扇</span><br>
+</p><p><b>whatd: </b><br>
+<span>moondigi 发表于 2019-8-25 00:29</span><br>
+<span>直通不清楚我一直是用raid的，没大量读写也很烫卡上只有散热片没有风扇</span><br>
+<span>本来就是服务器上用的那散热和强排 ...</span><br>
+<span>这类卡有能自动停用这功能么，想想如果只是直通的话，手动停用不用重启之类的吧。</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>whatd 发表于 2019-08-25 00:14:44</span><br>
+<span>这机箱就是全塔砍掉上面两个光驱位多的高度，长款都是媲美全塔的，所以我才在“小”上面加双引号...</span><br>
+<span>所 ...没风扇对着吹的话，卡是会很烫，节能啥的我是不知道咋设置，话说FD这机箱风扇上够我倒是觉得热不是问题，sas噪声加风扇声反而更严重</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>whatd: </b><br>
+<span> 本帖最后由 whatd 于 2019-8-25 01:24 编辑 </span><br>
+<span>cybernetics31 发表于 2019-8-25 01:11</span><br>
+<span>没风扇对着吹的话，卡是会很烫，节能啥的我是不知道咋设置，话说FD这机箱风扇上够我倒是觉得热不是问题，sa ...</span><br>
+<span>风扇声反正没有空调和电风扇声音大，就是我也没上过SAS盘，不知道这玩意噪音啥水平，如果真不能节能模式或者自动停转啥的，我可能还得上个热插拔硬盘架直接冷备份算了。</span><br>
+<span>或者拉条网线还是直接上高速无线网卡扔哪个墙角然后全部远程操作。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>不要raid硬软都不要</span><br>
+<span>raid后没法休眠反而降低寿命</span><br>
+<span>又不是服务器搞个球raid大部分人 定期备份就够了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>露露缇耶: </b><br>
+<span>家用确实有重要数据的话最多两张盘组个软raid1</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1855693[0-50]</guid>
+    </item>
+  </channel>
+</rss>

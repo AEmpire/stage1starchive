@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>人脸识别技术有识别回头客的应用么？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>人脸识别技术有识别回头客的应用么？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:10:16 +0000</lastBuildDate>
+    <item>
+      <title>人脸识别技术有识别回头客的应用么？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845341-1-1.html</link>
+      <description>人脸识别技术有识别回头客的应用么？&#13;
+最近顶着大太阳去扫街，看店，计算人流量。
+
+我们认为识别某个地区的消费者类型对开店选址，商品定价有很大影响。因此不满足于定性分析，想尽可能的数目字统计出来。
+
+如果能识别一家或几家店回头客的数量，频次，客单价等信息，对我们帮助很大。但是时间短、任务多，而且就算时间充裕，以人力统计也是不可能的。
+
+因此寄希望于人脸识别，请问对于这种需求有什么现成的应用么？</description>
+      <content:encoded><![CDATA[<p><b>胸自潮1: </b><br>
+<span>人脸识别技术有识别回头客的应用么？</span><br>
+<span>最近顶着大太阳去扫街，看店，计算人流量。</span><br>
+<span>我们认为识别某个地区的消费者类型对开店选址，商品定价有很大影响。因此不满足于定性分析，想尽可能的数目字统计出来。</span><br>
+<span>如果能识别一家或几家店回头客的数量，频次，客单价等信息，对我们帮助很大。但是时间短、任务多，而且就算时间充裕，以人力统计也是不可能的。</span><br>
+<span>因此寄希望于人脸识别，请问对于这种需求有什么现成的应用么？</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>你为什么不用点简单的办法。给首次顾客发优惠券或是记下电话号码，下次报电话号或是出示优惠券有优惠。统计每日接客数量和优惠比例。我觉得这个方法比搞什么人脸识别好</span><br>
+</p><p><b>自業自得: </b><br>
+<span>洗刷刷 发表于 2019-7-9 11:06</span><br>
+<span>你为什么不用点简单的办法。给首次顾客发优惠券或是记下电话号码，下次报电话号或是出示优惠券有优惠。统计 ...</span><br>
+<span>这个办法很多地方，以我的经验，准确度不高</span><br>
+<span>比如说，你是顾客的话，一定会报真的号码吗？</span><br>
+</p><p><b>yhero: </b><br>
+<span>技术有，现成的商用技术，你能投入多少成本？</span><br>
+<span>以我的经验，一般的零售商店是没这么多预算的。</span><br>
+</p><p><b>ColinWine: </b><br>
+<span>就是one-shot learning的问题吧，只用一个样本就能学习到顾客的人脸特征，现在市面上主流的人脸识别应该都能做到吧</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>冰凌火焰: </b><br>
+<span>自業自得 发表于 2019-7-9 11:09</span><br>
+<span>这个办法很多地方，以我的经验，准确度不高</span><br>
+<span>比如说，你是顾客的话，一定会报真的号码吗？ ...</span><br>
+<span>会员优惠、会员积分不就得了。</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>之前有潭友做过这块交流了一下。主要是成本很高，价值很小，现在都用电子支付了，直接用扫码器完成会员登记消费，方便又便宜</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sese199: </b><br>
+<span>有，我们公司就在做这个，商场的客流统计，上线之后客户反应也不错</span><br>
+<span>有两个问题</span><br>
+<span>1、存储的人脸越多，查询的时间越长，准确率越低，我总不能把一年你所有顾客都存下来去对比，现在我们的方案是三个月</span><br>
+<span>2、你打算出多少成本？我们的客户是商场，不是门店，因为有安装抓拍机，服务器，开发等等成本</span><br>
+</p><p><b>蓝色梦魇: </b><br>
+<span>现在有wifi/蓝牙各种探针可以做这个，还有基于微信和qq等app的设备指纹采集，现在甚至还有机遇基站的探针，反正用户数据已经被卖的底朝天了。</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span> 本帖最后由 胸自潮1 于 2019-7-9 16:12 编辑 </span><br>
+<span>yhero 发表于 2019-7-9 11:12</span><br>
+<span>技术有，现成的商用技术，你能投入多少成本？</span><br>
+<span>以我的经验，一般的零售商店是没这么多预算的。 ...</span><br>
+<span>的确不能说服其他人在这方面花钱，5w为上限可以做么？</span><br>
+<span>需要识别的人数每天大概250人左右，保存两个月，大概一万五千人次。大概需要多少投入？如果人数增多，成本增长会呈一个怎样的态势？</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>胸自潮1 发表于 2019-7-9 15:48</span><br>
+<span>的确不能说服其他人在这方面花钱，5w为上限可以做么？</span><br>
+<span>你不如问问自己这套系统能为商户创造五万的利润吗</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>各凭本事！: </b><br>
+<span>楼上说的对，这属于one-shot recognition。现成的开源代码是有的，但是你要落地的话只能找专业人士，不便宜，小店不划算。</span><br>
+</p><p><b>nexus1: </b><br>
+<span>不是有wifi探针吗</span><br>
+</p><p><b>是音sama: </b><br>
+<span>我们也讨论过这套系统，识别出来的图像要存数据库里，一天人流量这么多，数据库要多大才能放得下。还有人数越多比对数据量越大比对时间越长</span><br>
+<span>再退一万步，投钱上了这套系统（几十万打底），你知道TA是常客了，能干什么？知道消费频次又如何，能为商家带来什么样的销售增长吗？这可是整一套的营销战略</span><br>
+<span>常客打折？为什么不开会员卡</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span>蓝色梦魇 发表于 2019-7-9 11:34</span><br>
+<span>现在有wifi/蓝牙各种探针可以做这个，还有基于微信和qq等app的设备指纹采集，现在甚至还有机遇基站的探针， ...</span><br>
+<span>感谢，我去了解一下。</span><br>
+</p><p><b>illusiome: </b><br>
+<span>有，你们有多少投入，要多久完成？</span><br>
+</p><p><b>sese199: </b><br>
+<span>wiifi和蓝牙有一个打开率的问题，而且iphone是没法用的</span><br>
+<span>你这个需求统计消费数据其实就可以了，现在都是移动支付</span><br>
+<span>人脸可以统计转化率，客流男女比例，会员识别等等，你要是大规模的连锁店还可以上一下</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span>sese199 发表于 2019-7-9 16:52</span><br>
+<span>wiifi和蓝牙有一个打开率的问题，而且iphone是没法用的</span><br>
+<span>你这个需求统计消费数据其实就可以了，现在都是移 ...</span><br>
+<span>哈哈，我要是有大规模连锁店现在就去养老了，那还用顶着大太阳干活</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>让客户先扫码再识别回头客不行?非要看脸识别?成本差太多</span><br>
+</p><p><b>bakausagi: </b><br>
+<span>麦当当研发团队就在做这个自有系统，里面就有回头率分析这些</span><br>
+</p><p><b>自業自得: </b><br>
+<span>冰凌火焰 发表于 2019-7-9 11:28</span><br>
+<span>会员优惠、会员积分不就得了。</span><br>
+<span>优惠太高你的成本就未必比用ai低了</span><br>
+<span>不够高那不还是会有大量人不填或者填假的么</span><br>
+</p><p><b>c月光咖啡: </b><br>
+<span>sese199 发表于 2019-7-9 16:52</span><br>
+<span>wiifi和蓝牙有一个打开率的问题，而且iphone是没法用的</span><br>
+<span>你这个需求统计消费数据其实就可以了，现在都是移 ...</span><br>
+<span>wifi探针已经判死刑了</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>CR2: </b><br>
+<span>不如通过查询同一个微信号/支付宝付账次数来统计？</span><br>
+</p><p><b>阿奴比斯: </b><br>
+<span>说这个，LZ其实也只是自己发散想的吧</span><br>
+<span>现在的微信收款每天都能给我汇报昨天的营收数据，还能给出回头客的数据，已经非常便捷了</span><br>
+<span>然而这样的数据，对小店来说，其实意义不是特别大，只有大型购物中心或者超市可以根据数据进行促销方案的调整</span><br>
+</p><p><b>nosmokingspp: </b><br>
+<span>现在都是手机支付，直接看支付数据就是了，搞人脸识别不是多嘿余</span><br>
+</p><p><b>Endle: </b><br>
+<span>脑补了某个欧盟公民来中国旅游，回头起诉LZ违反GDPR的剧情。。。</span><br>
+</p><p><b>fenugreek: </b><br>
+<span>识别高净值客户比识别所有人重要吧</span><br>
+</p><p><b>胸自潮1: </b><br>
+<span>阿奴比斯 发表于 2019-7-10 07:24</span><br>
+<span>说这个，LZ其实也只是自己发散想的吧</span><br>
+<span>现在的微信收款每天都能给我汇报昨天的营收数据，还能给出回头客的数 ...</span><br>
+<span>我要识别的不是我自己店的回头客啊</span><br>
+</p><p><b>自旋: </b><br>
+<span>有这样的应用，但价格不便宜，连设备在内十万以上。</span><br>
+</p><p><b>KafuuEriri: </b><br>
+<span>我公司有做人脸刚好是楼主说的这种业务，几十万打底是真的，如果人流量很高进一步提高精度还要继续抬价</span><br>
+</p><p><b>wu16567: </b><br>
+<span>感觉这种设备还是不成熟。</span><br>
+<span>不用说十万，要是一百万能下来的话，各地医保局立马整几套安在主要医院做控费了。</span><br>
+<span>但是到现在没听说过这个系统铺开的实例。</span><br>
+</p><p><b>viperasi: </b><br>
+<span>宇视，海康都有类似功能，只是需要买服务器</span><br>
+</p><p><b>林荫老道: </b><br>
+<span>没有，盒马生鲜甚至逼着我跑去现金柜台结账</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845341[0-50]</guid>
+    </item>
+  </channel>
+</rss>

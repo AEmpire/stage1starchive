@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>量子计算的输入输出问题会不会影响其实用性?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>量子计算的输入输出问题会不会影响其实用性?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:30:49 +0000</lastBuildDate>
+    <item>
+      <title>量子计算的输入输出问题会不会影响其实用性?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861135-1-1.html</link>
+      <description>量子计算的输入输出问题会不会影响其实用性?&#13;
+科盲 完全不懂 概念完全来自于科普文章 也不知道对不对
+&#13;
+根据以下科普内容
+&#13;
+1. 量子计算基于量子叠加和量子纠缠 
+&#13;
+2. 量子越多越容易退相干, 环境噪声 观测啥的都很容易导致坍缩 显然喂输入和获取输出都属于此列行为
+&#13;
+3. 所谓量子霸权需要较高的量子比特位数才有可能
+&#13;
+那么所谓的量子计算如何实现复杂的计算 输入怎么导入 计算结果怎么获取
+&#13;
+甚至 如何知道它是在干活而不是已经完蛋了 如何知道它已经完成计算了 ?</description>
+      <content:encoded><![CDATA[<p><b>fengmenglong: </b><br>
+<span>量子计算的输入输出问题会不会影响其实用性?</span><br>
+<span>科盲 完全不懂 概念完全来自于科普文章 也不知道对不对</span><br>
+<span>根据以下科普内容</span><br>
+<span>1. 量子计算基于量子叠加和量子纠缠 </span><br>
+<span>2. 量子越多越容易退相干, 环境噪声 观测啥的都很容易导致坍缩 显然喂输入和获取输出都属于此列行为</span><br>
+<span>3. 所谓量子霸权需要较高的量子比特位数才有可能</span><br>
+<span>那么所谓的量子计算如何实现复杂的计算 输入怎么导入 计算结果怎么获取</span><br>
+<span>甚至 如何知道它是在干活而不是已经完蛋了 如何知道它已经完成计算了 ?</span><br>
+</p><p><b>シャスタ: </b><br>
+<span> 本帖最后由 シャスタ 于 2019-10-24 11:23 编辑 </span><br>
+<span>再看看相关资料吧,你说这些问题本身提的都不对.无法回答....</span><br>
+<span>https://quantum-computing.ibm.com/composer/new-experiment</span><br>
+<span>ibm q ,可以云,直接用.新用户15个点数,实机计算的时候消耗.模拟计算的不消耗.</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>シャスタ 发表于 2019-10-24 11:20</span><br>
+<span>再看看相关资料吧,你说这些问题本身提的都不对.无法回答....</span><br>
+<span>https://quantum-computing.ibm.com/composer/ ...</span><br>
+<span>科普文章上说 退相干会导致计算出错 然后为了纠错需要更多的物理比特</span><br>
+<span>最后可能需要上百万级别的物理比特 这玩意能做出来吗?</span><br>
+<span>实现容错量子计算需要一台拥有大量低错误率量子比特的量子计算机。在亚阈值的条件下，只要物理量子比特数量足够多，码距足够大，我们就能够运行任意复杂的量子算法。需要的量子比特数量由错误率以及算法决定。　我们可以发现，实现容错量子计算需要错误率明显低于阈值 （到0.1%附近及以下） 以及百万以上的物理量子比特</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>シャスタ 发表于 2019-10-24 11:20</span><br>
+<span>再看看相关资料吧,你说这些问题本身提的都不对.无法回答....</span><br>
+<span>https://quantum-computing.ibm.com/composer/ ...</span><br>
+<span>科盲没办法准确表达自己的意思</span><br>
+<span>那换个问题 量子计算会不会卡这么一个死循环中, 然后导致完全无法进行复杂的计算?</span><br>
+<span>量子比特增加->退相干->出错概率增加, 需要纠错->增加更多的物理比特</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>退相干的确是量子计算最大的问题，但是输入肯定不是…………简单地说，你把输入当成“量子单片机”的一个传感器的输入了，问题是，真正的输入是最开始的程序/数据，而不是传感器…………量子计算机的输入就是制备一个基态，也就是进行编程，按Schrödinger方程酉演化那是制备基态之后的事…………</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>真田源次郎信繁 发表于 2019-10-24 12:21</span><br>
+<span>退相干的确是量子计算最大的问题，但是输入肯定不是…………简单地说，你把输入当成“量子单片机”的一个传 ...</span><br>
+<span>那输出呢 这个总需要观测的吧</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>fengmenglong 发表于 2019-10-24 12:24</span><br>
+<span>那输出呢 这个总需要观测的吧</span><br>
+<span>强测量输出的量子计算机是算完关机的，本来都算完了还怕什么噪声，而且是概率输出，根据Quantum threshold定理，能以任意低错误概率输出正确。</span><br>
+<span>然而理论上是存在基于弱测量的不关机的量子计算机，通过系综来输出，但是各家能不能做到就不一定了</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span> 本帖最后由 fengmenglong 于 2019-10-24 12:57 编辑 </span><br>
+<span>真田源次郎信繁 发表于 2019-10-24 12:28</span><br>
+<span>强测量输出的量子计算机是算完关机的，本来都算完了还怕什么噪声，而且是概率输出，根据Quantum threshol ...</span><br>
+<span>不懂 是说 量子计算 先要根据算法和数据准备初始状态 然后算完后“关机”以获取输出 这种意思吗</span><br>
+<span>接下要再算别的 需要重复以上过程？那这个循环耗时吗 会不会比计算本身还耗时啊？</span><br>
+<span>那上面问的另外一个问题呢 </span><br>
+<span>量子比特数增加导致计算错误率上升 而纠错需要更多的量子比特 可人类可能永远无法实现百万乃至更高量级的量子比特 因此不会达到量子霸权？</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>fengmenglong 发表于 2019-10-24 12:53</span><br>
+<span>不懂 是说 量子计算 先要根据算法和数据准备初始状态 然后算完后关机以获取输出 这种意思吗</span><br>
+<span>接下要再算 ...</span><br>
+<span>你用电脑算什么东西，也是写程序，然后运行程序，然后程序输出之后把进程杀了，这很正常。本来量子计算也只是在少数几个任务上比较快，没有人想用纯量子的计算来做一切事。</span><br>
+<span>计算和制备初态哪个耗时取决于物理实现，到这不重要，只要造出来了几百个比特的，Shor算法一定比经典计算要快，因为大素数分解能算到宇宙毁灭。</span><br>
+<span>不需要几百万比特，几百都能用，而且谁也没说比特高了一定误差变得夸张得大，这取决于物理实现。</span><br>
+<span>但是量子计算没有吹的那么牛逼，只不过真的出来了，会导致互联网的基于RSA的秘钥交换变得容易破解</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861135[0-50]</guid>
+    </item>
+  </channel>
+</rss>

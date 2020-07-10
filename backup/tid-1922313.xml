@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:55:17 +0000</lastBuildDate>
+    <item>
+      <title>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1922313-1-1.html</link>
+      <description>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响&#13;
+此前对PS5规格做出介绍的首席系统构架师Mark Cerny于近日接受了数毛社的采访，并谈到了PS5的超频特性。Mark Cerny确认PS5超频将不会取决于芯片的实际温度，而是通过一种算法控制GPU与CPU的频率。使用其他凭据都会让主机的性能变得高度不一致。
+
+“我们不使用芯片的实际温度，因为这会导致PS5主机之间出现两种类型的差异。一是环境温度不同引起的差异，主机所处的温度可能随房间位置变化而改变。另一个是由主机中的各个自定义芯片引起的差异，某些芯片运行温度较高，而某些芯片运行温度较低。因此，我们不使用芯片的温度，而是使用一种算法，该算法的频率取决于CPU和GPU的活动信息。这样可以使不同PS5主机之间的表现保持一致。”
+
+“如果你在玩同一款游戏，前往同一个游戏地点，那么不论你使用的是什么自定义新片或晶体管的样式都无关紧要。无论你将自己的PS5放在立体声柜里还是冰箱中，它的CPU和GPU频率都将与其他PS5相同。”
+
+有关超频的延迟，Cerny表示：“在主机需要几秒或数分钟的额外性能后则会受到限制，在这一过程中将不会有延迟；这不是开发者想要的情况——我们确保了PS5对功耗的响应非常积极。除此之外，开发者会受到有关CPU和GPU功耗的准确反馈。”
+
+有关PS5的频率极限，Cerny回答道：“CPU和GPU都有各自的功耗预算，当然GPU功耗预算占的比重较大。”如果CPU不使用其功率预算（例如，如果其上限为3.5GHz），则预算的未使用部分将分配给GPU。这就是AMD所说的SmartShift。有足够的机能让CPU和GPU都在3.5GHz和2.23GHz的极限下运行，开发者无需在其中进行选择。
+
+有关PS5的Dev Kits，Cerny表示：“关于锁定的配置文件（locked profiles），我们支持开发工具包中的配置文件，因此在优化时不使用可变时钟频率会对优化有所帮助。 发行后的PS5游戏都会得到超频，以便它们可以利用主机额外的性能。”</description>
+      <content:encoded><![CDATA[<p><b>ChrisSnake: </b><br>
+<span>香月诗浓 发表于 2020-4-3 15:01</span><br>
+<span>你说的是极限超频，比如说8700k超5g要看体质，但超4.7g完全可以一键加上一套通用的散热配置出来，不受正常 ...</span><br>
+<span>索尼在哪个地方说了他们是rdna2?</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span> 本帖最后由 香月诗浓 于 2020-4-3 16:16 编辑 </span><br>
+<span>ChrisSnake 发表于 2020-4-3 15:26</span><br>
+<span>索尼在哪个地方说了他们是rdna2?</span><br>
+<span>https://www.youtube.com/watch?v=KfM_nTTxftE</span><br>
+<span>我专门去看了df的采访原视频，明确说的RDNA2，而且主楼的机翻总结明显有问题</span><br>
+<span>原视频的意思是，温度上限和功率上限是有的，但并不是PC那样CPU/GPU分开计算，而是一整个系统算的，当程序需要高显卡算力的时候（锁在2.23Ghz），会降低输入到CPU的功率（AMD SmartShift技术），也就是说CPU和GPU不会同时达到max功率，让整个系统保证不会超功率和温度限制（原视频并没有说什么不测温度，相反明确提到了Power Control根据Thermal limit动态调节CPU和GPU的Variable Clock），所以并没有楼上那些热到着火的杞忧问题。</span><br>
+<span>这个视频后面还有个有趣的测试，用超频到2.1g的5700+3700X测试杀手2，对比5700xt默频1.9g，算力同样是9.6tf，发现超到2.1g的5700还是打不过1.9g的5700xt但差距只在2.5%，不过频率越高边际效应是越来越明显的，超到2.23g能不能跑出比pc更高的性能要看索尼针对这个架构做的其它优化怎样，当然我觉得总体打不过XBX是板上钉钉的，毕竟人家芯片就是比你高一档，而且动态调节有个问题就是如果一个游戏需要同时用到CPU和GPU算力都高的时候效果肯定没有都能出全力的机器好，虽然这样的游戏不多，大部分3A作品对CPU要求不高</span><br>
+</p><p><b>kkk9233: </b><br>
+<span>所以说温度不测吗不怕爆？</span><br>
+</p><p><b>神之游侠: </b><br>
+<span>7nm确实有可能做到。也就....有那么点可能</span><br>
+</p><p><b>darkjack: </b><br>
+<span>香月诗浓 发表于 2020-4-3 15:58</span><br>
+<span>https://www.youtube.com/watch?v=KfM_nTTxftE</span><br>
+<span>我专门去看了df的采访原视频，明确说的RDNA2，而且主楼的 ...</span><br>
+<span>df超频也只到2.1，索尼还是厉害，可以超到2.23</span><br>
+</p><p><b>vviosonia: </b><br>
+<span>得了吧，风扇什么德行我在ps4上领教够了</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span>darkjack 发表于 2020-4-3 16:17</span><br>
+<span>df超频也只到2.1，索尼还是厉害，可以超到2.23</span><br>
+<span>散热和供电顶得住就行，不过老实说我对风扇噪音没啥信心就是了……</span><br>
+</p><p><b>ccow: </b><br>
+<span>问题是……超了也比不上</span><br>
+</p><p><b>tamatama: </b><br>
+<span>darkjack 发表于 2020-4-3 16:17</span><br>
+<span>df超频也只到2.1，索尼还是厉害，可以超到2.23</span><br>
+<span>5700和5700xt是rdna1 ps5用的架构是基于rdna2再阉割一些东西，rdna2对比rdna1应该会有频率优化。</span><br>
+<span>—— 来自 Xiaomi Redmi K20, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>C男: </b><br>
+<span>红灯黄灯，接下来是蓝灯了吧</span><br>
+</p><p><b>不可避免: </b><br>
+<span>这贴看完才发现不是数码区。</span><br>
+</p><p><b>大哀之君: </b><br>
+<span>这写得啥玩意儿，索尼发明第二类永动机了？</span><br>
+</p><p><b>朔方原的星MK.2: </b><br>
+<span>这话都整出来了性能上是真输得透彻了</span><br>
+</p><p><b>FUZE: </b><br>
+<span>超频是可以</span><br>
+<span>就是你别嫌机器吵就行了</span><br>
+<span>嗷嗷嗷 直升机起飞啦</span><br>
+<span>https://www.bilibili.com/video/BV1ex411a7fk</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>意思是说：硬件是超频了，回炉重做是不可能重做的，只有软件算法糊弄一下才能发售这样子。</span><br>
+<span>主机玄学优化就是开发者手调超频？</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>香月诗浓 发表于 2020-4-3 14:38</span><br>
+<span>参考PC超频就行了，只要电源和主板/显卡供电带的动，电压不过高把芯片搞坏，就没所谓功耗墙（笔记本要考虑 ...</span><br>
+<span>但是主机的电源可不是DIY PC 500W起步的电源</span><br>
+<span>感觉这说法翻译过来就是，索大法：硬件是不可能改硬件的，只能搞个软算法努力一下。</span><br>
+</p><p><b>scikirbypoke: </b><br>
+<span>还以为A卡用了异常技术准备翻身，原来是翻译错误</span><br>
+</p><p><b>我不敢爱讨论了: </b><br>
+<span>C男 发表于 2020-4-3 17:06</span><br>
+<span>红灯黄灯，接下来是蓝灯了吧</span><br>
+<span>ps4已经有蓝灯了</span><br>
+</p><p><b>RioShiina: </b><br>
+<span>不可能的，温度上去 超过设计的工艺角怎么玩，再不降频时序都乱了。</span><br>
+</p><p><b>六步走天下: </b><br>
+<span>哈罗，（PS5）TRANS-AM的情况？</span><br>
+<span>能使用1秒</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Chia: </b><br>
+<span>很少人能给热力学的牛顿也盖上棺材的，sony做到了</span><br>
+</p><p><b>cxqcj: </b><br>
+<span>风扇起飞的话直接就是毁灭打击。</span><br>
+</p><p><b>艾登皮尔斯: </b><br>
+<span>Chia 发表于 2020-4-3 21:52</span><br>
+<span>很少人能给热力学的牛顿也盖上棺材的，sony做到了</span><br>
+<span>前几天才有人说索尼宣传部门这回越来越拉胯了，前几代cg当实机，模拟地球，沙发红酒都说出来了这回太保守了。这么一看也不保守啊</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>超频对供电、散热要求高啊，而且超频成本并不比提高配置低，还有那高速ssd，就怕到时候ps5和xboxX差价不到50刀，那就尴尬了。</span><br>
+<span>现在正好疫情，Sony不考虑延期回炉一下？</span><br>
+</p><p><b>DarkSider: </b><br>
+<span>星野心叶 发表于 2020-04-03 13:12:50</span><br>
+<span>“我 感 受 不 到 疼 痛”笑出声</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>归蝶: </b><br>
+<span> 本帖最后由 归蝶 于 2020-4-4 07:09 编辑 </span><br>
+<span>顶楼的机翻完全没有谈到点上。 原文在 https://www.eurogamer.net/articl ... erny-tech-deep-dive</span><br>
+<span>几个要点：</span><br>
+<span>[*]频率和功耗并不完全相关 - 根据执行的代码不同，在同样频率上的处理器也会有不同的功耗</span><br>
+<span>[*]索尼为PS5的CPU和GPU分别预先设定了功耗上限，这个上限是与PS5的散热能力相匹配的</span><br>
+<span>[*]功耗上限和频率上限(也就是3.5GHz/2.23GHz)不是一回事。例如，CPU达到3.5GHz时可能并没有达到功耗上限，这时AMD SmartShift技术可以将多余的电力分给GPU以保证更稳定的图形性能。</span><br>
+<span>[*]设定的功耗上限足以让CPU和GPU同时运行在最高频率，开发者无需在这个方面做取舍。</span><br>
+<span>[*]PS5的调度算法会尽量保证处理器不在高频率空转(idle)，例如停下来等待v-sync的同步。换句话说，会尽可能保证CPU和GPU的频率得到充分利用。Boost frequencies are designed to be maintained by load across full frame processing。在满负荷的情况下，大部分时间CPU和GPU都可以在接近或达到最高的频率运行。</span><br>
+<span>[*]围绕功耗上限来调整性能，这么做的核心目的是保证一致性，使得PS5的表现不会因为个体因素（如环境温度）而变化。 换句话说，开发者在开发机上看到的效果和每一台零售机器都是一致的</span><br>
+<span>[*]开发者可以实时观察的CPU与GPU功耗，并以此为依据来优化游戏代码</span><br>
+<span>[*]数毛社采访的开发者反映他们的游戏难以充分利用CPU的功率配额，因为这些游戏的引擎还在兼顾上世代的Jaguar。他们观察到CPU的频率被降低而GPU得以稳定运行在最高频率上</span><br>
+<span>"We don't use the actual temperature of the die, as that would cause two types of variance between PS5s," explains Mark Cerny. "One is variance caused by differences in ambient temperature; the console could be in a hotter or cooler location in the room. The other is variance caused by the individual custom chip in the console, some chips run hotter and some chips run cooler. So instead of using the temperature of the die, we use an algorithm in which the frequency depends on CPU and GPU activity information. That keeps behaviour between PS5s consistent."</span><br>
+<span>Inside the processor is a power control unit, constantly measuring the activity of the CPU, the GPU and the memory interface, assessing the nature of the tasks they are undertaking. Rather than judging power draw based on the nature of your specific PS5 processor, a more general 'model SoC' is used instead. Think of it as a simulation of how the processor is likely to behave, and that same simulation is used at the heart of the power monitor within every PlayStation 5, ensuring consistency in every unit.</span><br>
+<span>"The behaviour of all PS5s is the same," says Cerny. "If you play the same game and go to the same location in the game, it doesn't matter which custom chip you have and what its transistors are like. It doesn't matter if you put it in your stereo cabinet or your refrigerator, your PS5 will get the same frequencies for CPU and GPU as any other PS5."</span><br>
+<span>.......</span><br>
+<span>Mark Cerny sees a time where developers will begin to optimise their game engines in a different way - to achieve optimal performance for the given power level. "Power plays a role when optimising. If you optimise and keep the power the same you see all of the benefit of the optimisation. If you optimise and increase the power then you're giving a bit of the performance back. What's most interesting here is optimisation for power consumption, if you can modify your code so that it has the same absolute performance but reduced power then that is a win. "</span><br>
+<span>In short, the idea is that developers may learn to optimise in a different way, by achieving identical results from the GPU but doing it faster via increased clocks delivered by optimising for power consumption. "The CPU and GPU each have a power budget, of course the GPU power budget is the larger of the two," adds Cerny. "If the CPU doesn't use its power budget - for example, if it is capped at 3.5GHz - then the unused portion of the budget goes to the GPU. That's what AMD calls SmartShift. There's enough power that both CPU and GPU can potentially run at their limits of 3.5GHz and 2.23GHz, it isn't the case that the developer has to choose to run one of them slower."</span><br>
+<span>"So, when I made the statement that the GPU will spend most of its time at or near its top frequency, that is with 'race to idle' taken out of the equation - we were looking at PlayStation 5 games in situations where the whole frame was being used productively. The same is true for the CPU, based on examination of situations where it has high utilisation throughout the frame, we have concluded that the CPU will spend most of its time at its peak frequency."</span><br>
+<span>Put simply, with race to idle out of the equation and both CPU and GPU fully used, the boost clock system should still see both components running near to or at peak frequency most of the time. Cerny also stresses that power consumption and clock speeds don't have a linear relationship. Dropping frequency by 10 per cent reduces power consumption by around 27 per cent. "In general, a 10 per cent power reduction is just a few per cent reduction in frequency," Cerny emphasises.</span><br>
+<span>There's likely more to discover about how boost will influence game design. Several developers speaking to Digital Foundry have stated that their current PS5 work sees them throttling back the CPU in order to ensure a sustained 2.23GHz clock on the graphics core. It makes perfect sense as most game engines right now are architected with the low performance Jaguar in mind - even a doubling of throughput (ie 60fps vs 30fps) would hardly tax PS5's Zen 2 cores. However, this doesn't sound like a boost solution, but rather performance profiles similar to what we've seen on Nintendo Switch. "Regarding locked profiles, we support those on our dev kits, it can be helpful not to have variable clocks when optimising. Released PS5 games always get boosted frequencies so that they can take advantage of the additional power," explains Cerny.</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span> 本帖最后由 D-JoeII 于 2020-4-4 11:30 编辑 </span><br>
+<span>归蝶 发表于 2020-4-4 06:55</span><br>
+<span>顶楼的机翻完全没有谈到点上。 原文在 https://www.eurogamer.net/articl ... erny-tech-deep-dive</span><br>
+<span>几个要 ...</span><br>
+<span>看起來第三方會嫌煩直接定格在某個穩定頻率就算</span><br>
+</p><p><b>66666: </b><br>
+<span>这种动态调整频率除了sony自己第一方，哪个第三方会弄？一看就是超麻烦的玩意</span><br>
+</p><p><b>爱护动物抓根宝: </b><br>
+<span>我感觉今回ps5价格怕不是下不来，次时代首发没我的事了</span><br>
+</p><p><b>ccow: </b><br>
+<span>这是要烦死程序员，即便如此也打不过对手的画面。</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>归蝶 发表于 2020-4-4 06:55</span><br>
+<span>顶楼的机翻完全没有谈到点上。 原文在 https://www.eurogamer.net/articl ... erny-tech-deep-dive</span><br>
+<span>几个要 ...</span><br>
+<span>首席架构师在很认真的阐述几年前就已经有了的能耗策略。</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>归蝶 发表于 2020-4-4 06:55</span><br>
+<span>顶楼的机翻完全没有谈到点上。 原文在 https://www.eurogamer.net/articl ... erny-tech-deep-dive</span><br>
+<span>几个要 ...</span><br>
+<span>简单来说，就是写了个算法，可以自动调配CPU超频或者GPU超频幅度，保证两者均衡，要拖慢掉帧就一起拖慢掉帧。</span><br>
+<span>或者……硬件超频已经决定不可能改了，于是用一个动态超频多少弥补一下，</span><br>
+</p><p><b>kina: </b><br>
+<span>ChrisSnake 发表于 2020-4-3 15:26</span><br>
+<span> 索尼在哪个地方说了他们是rdna2?</span><br>
+<span>amd说了两家都是rdna2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1922313[50-100]</guid>
+    </item>
+    <item>
+      <title>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1922313-1-1.html</link>
+      <description>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响&#13;
+此前对PS5规格做出介绍的首席系统构架师Mark Cerny于近日接受了数毛社的采访，并谈到了PS5的超频特性。Mark Cerny确认PS5超频将不会取决于芯片的实际温度，而是通过一种算法控制GPU与CPU的频率。使用其他凭据都会让主机的性能变得高度不一致。
+
+“我们不使用芯片的实际温度，因为这会导致PS5主机之间出现两种类型的差异。一是环境温度不同引起的差异，主机所处的温度可能随房间位置变化而改变。另一个是由主机中的各个自定义芯片引起的差异，某些芯片运行温度较高，而某些芯片运行温度较低。因此，我们不使用芯片的温度，而是使用一种算法，该算法的频率取决于CPU和GPU的活动信息。这样可以使不同PS5主机之间的表现保持一致。”
+
+“如果你在玩同一款游戏，前往同一个游戏地点，那么不论你使用的是什么自定义新片或晶体管的样式都无关紧要。无论你将自己的PS5放在立体声柜里还是冰箱中，它的CPU和GPU频率都将与其他PS5相同。”
+
+有关超频的延迟，Cerny表示：“在主机需要几秒或数分钟的额外性能后则会受到限制，在这一过程中将不会有延迟；这不是开发者想要的情况——我们确保了PS5对功耗的响应非常积极。除此之外，开发者会受到有关CPU和GPU功耗的准确反馈。”
+
+有关PS5的频率极限，Cerny回答道：“CPU和GPU都有各自的功耗预算，当然GPU功耗预算占的比重较大。”如果CPU不使用其功率预算（例如，如果其上限为3.5GHz），则预算的未使用部分将分配给GPU。这就是AMD所说的SmartShift。有足够的机能让CPU和GPU都在3.5GHz和2.23GHz的极限下运行，开发者无需在其中进行选择。
+
+有关PS5的Dev Kits，Cerny表示：“关于锁定的配置文件（locked profiles），我们支持开发工具包中的配置文件，因此在优化时不使用可变时钟频率会对优化有所帮助。 发行后的PS5游戏都会得到超频，以便它们可以利用主机额外的性能。”</description>
+      <content:encoded><![CDATA[<p><b>医生狼多: </b><br>
+<span>PS5的CPU与GPU可完全超频运行 芯片频率不会受外界温度影响</span><br>
+<span>此前对PS5规格做出介绍的首席系统构架师Mark Cerny于近日接受了数毛社的采访，并谈到了PS5的超频特性。Mark Cerny确认PS5超频将不会取决于芯片的实际温度，而是通过一种算法控制GPU与CPU的频率。使用其他凭据都会让主机的性能变得高度不一致。</span><br>
+<span>“我们不使用芯片的实际温度，因为这会导致PS5主机之间出现两种类型的差异。一是环境温度不同引起的差异，主机所处的温度可能随房间位置变化而改变。另一个是由主机中的各个自定义芯片引起的差异，某些芯片运行温度较高，而某些芯片运行温度较低。因此，我们不使用芯片的温度，而是使用一种算法，该算法的频率取决于CPU和GPU的活动信息。这样可以使不同PS5主机之间的表现保持一致。”</span><br>
+<span>“如果你在玩同一款游戏，前往同一个游戏地点，那么不论你使用的是什么自定义新片或晶体管的样式都无关紧要。无论你将自己的PS5放在立体声柜里还是冰箱中，它的CPU和GPU频率都将与其他PS5相同。”</span><br>
+<span>有关超频的延迟，Cerny表示：“在主机需要几秒或数分钟的额外性能后则会受到限制，在这一过程中将不会有延迟；这不是开发者想要的情况——我们确保了PS5对功耗的响应非常积极。除此之外，开发者会受到有关CPU和GPU功耗的准确反馈。”</span><br>
+<span>有关PS5的频率极限，Cerny回答道：“CPU和GPU都有各自的功耗预算，当然GPU功耗预算占的比重较大。”如果CPU不使用其功率预算（例如，如果其上限为3.5GHz），则预算的未使用部分将分配给GPU。这就是AMD所说的SmartShift。有足够的机能让CPU和GPU都在3.5GHz和2.23GHz的极限下运行，开发者无需在其中进行选择。</span><br>
+<span>有关PS5的Dev Kits，Cerny表示：“关于锁定的配置文件（locked profiles），我们支持开发工具包中的配置文件，因此在优化时不使用可变时钟频率会对优化有所帮助。 发行后的PS5游戏都会得到超频，以便它们可以利用主机额外的性能。”</span><br>
+</p><p><b>抖S君: </b><br>
+<span>我信了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>qumkml423: </b><br>
+<span>每个字我认识，但他到底在说啥？</span><br>
+</p><p><b>米兰捷: </b><br>
+<span>想看看初版红灯后的舆论</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>万用红油精: </b><br>
+<span>看来散热爆炸，只能一刀切，大家都在8ft混</span><br>
+</p><p><b>2659646573: </b><br>
+<span>没仔细看，有没有大佬说一下，amd是不是要吊打老黄了？</span><br>
+</p><p><b>Zest: </b><br>
+<span>qumkml423 发表于 2020-4-3 13:07</span><br>
+<span>每个字我认识，但他到底在说啥？</span><br>
+<span>我们把三红上的红灯换成绿灯了，这样就不是三红了</span><br>
+</p><p><b>clover293: </b><br>
+<span>估计超一点还是可以的，索尼堆堆散热就行，2.23不太行</span><br>
+</p><p><b>yamori: </b><br>
+<span>这写的是什么玩意儿，机翻？</span><br>
+</p><p><b>crabwar: </b><br>
+<span>就算超了不还是被吊打吗？</span><br>
+</p><p><b>星野心叶: </b><br>
+<span>“我 感 受 不 到 疼 痛”</span><br>
+</p><p><b>66666: </b><br>
+<span>意思就是大家买的PS5因为体质原因所以发热有区别，但是性能是一样的，所以运行噪音会有差别</span><br>
+<span>买游戏主机现在也要挑大雕了吗？</span><br>
+</p><p><b>zzzplht: </b><br>
+<span>不受温度影响还行，你索的黑科技都能改变物理规则了</span><br>
+</p><p><b>铅笔: </b><br>
+<span>66666 发表于 2020-4-3 13:13</span><br>
+<span>意思就是大家买的PS5因为体质原因所以发热有区别，但是性能是一样的，所以运行噪音会有差别</span><br>
+<span>买游戏主机现 ...</span><br>
+<span>超不上去的就降分辨率么</span><br>
+</p><p><b>路西恩: </b><br>
+<span>可以推出冰箱内置PS5啊</span><br>
+</p><p><b>铅笔: </b><br>
+<span>zzzplht 发表于 2020-4-3 13:14</span><br>
+<span>不受温度影响还行，你索的黑科技都能改变物理规则了</span><br>
+<span>环境温度高了风扇起飞呗，流量换效率</span><br>
+</p><p><b>芷雅居: </b><br>
+<span>这就是索索黑科技的力量吗？</span><br>
+</p><p><b>66666: </b><br>
+<span>zzzplht 发表于 2020-4-3 13:14</span><br>
+<span>不受温度影响还行，你索的黑科技都能改变物理规则了</span><br>
+<span>sony的意思是所有游戏机的性能是一样的，但是因为体质原因发热不一样，所以如果严格按照温度墙来做会影响性能，现在sony让体质差的游戏机风扇转速快一些做些弥补，抱怨玩游戏像是锯木头的玩家只能自认倒霉没买到大雕了</span><br>
+</p><p><b>66666: </b><br>
+<span>铅笔 发表于 2020-4-3 13:16</span><br>
+<span>超不上去的就降分辨率么</span><br>
+<span>sony的意思是所有PS5都能超上去，但是体质差的芯片需要更多的功耗和发热才能达到这个频率，也就是需要更高转速的风扇</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>66666 发表于 2020-4-3 13:18</span><br>
+<span>sony的意思是所有PS5都能超上去，但是体质差的芯片需要更多的功耗和发热才能达到这个频率，也就是需要更 ...</span><br>
+<span>连温度都保证不了还能保证都超上去？</span><br>
+<span>欺负玩家没超过频？</span><br>
+<span>超不上去就是没买冰箱？</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span> 本帖最后由 哈迪斯兜帽 于 2020-4-3 13:32 编辑 </span><br>
+<span>AMD液氮超5G也是超5G</span><br>
+<span>你去和买家说都能超5G试试如果索尼真能突破温度限制，期待开启超频新篇章。</span><br>
+</p><p><b>orangeth: </b><br>
+<span>其实是文字游戏套语境给人误解</span><br>
+<span>（在某种情况下本来CPU和GPU出于温度原因是不能按正常规定效率运转的）索尼技术可以让CPU和GPU不受温度影响（来按正常规定效率运转）</span><br>
+</p><p><b>runningcost: </b><br>
+<span>他硬着头讲超频的笑话一直可以的</span><br>
+</p><p><b>myron_cloud: </b><br>
+<span> 本帖最后由 myron_cloud 于 2020-4-3 13:33 编辑 </span><br>
+<span>意思是索尼只管设定CPU GPU频率，不管机器温度。如果你屋子里太热了机器宁可过热自毁也不会降频，所以南方的朋友们玩PS5请自觉把空调温度开低一点…</span><br>
+<span>另外超频模式看起来只能撑几分钟，几分钟一过就会降频…</span><br>
+</p><p><b>铅笔: </b><br>
+<span>orangeth 发表于 2020-4-3 13:30</span><br>
+<span>其实是文字游戏套语境给人误解</span><br>
+<span>（在某种情况下本来CPU和GPU出于温度原因是不能按正常规定效率运转的）索尼 ...</span><br>
+<span>怎么可能嘛，这都违背物理法则了。</span><br>
+</p><p><b>syndrome2032: </b><br>
+<span>。。我不信。烤机有这么好烤?</span><br>
+</p><p><b>darkjack: </b><br>
+<span>a卡是不是有救了，翻身不是梦</span><br>
+</p><p><b>orangeth: </b><br>
+<span>铅笔 发表于 2020-4-3 13:35</span><br>
+<span>怎么可能嘛，这都违背物理法则了。</span><br>
+<span>你还是没听懂</span><br>
+<span>他这句实际意思不是解决所有的降温问题，而是解决某一个情景下的特定降温问题（这个特定降温问题中的硬件温度也是有一个范围的）</span><br>
+</p><p><b>斯拉克自有妙计: </b><br>
+<span>到时候就是一个火灾源不建议在住宅使用</span><br>
+</p><p><b>Zest: </b><br>
+<span>大法已经准备好12亿刀现金，用于解决PS5将于2021年夏季大面积出现的三红售后问题</span><br>
+</p><p><b>hshiki: </b><br>
+<span>12月冬季发售，玩半年到了夏天boom</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span> 本帖最后由 香月诗浓 于 2020-4-3 14:14 编辑 </span><br>
+<span>是不是很多人没超过频，你在夏天室温30多的时候设置好芯片超频测试稳定，温度上80甚至是90，那么在室温更低的时候也必定是稳定的，考虑极端情况（比如室温50或者环境温度过低芯片无法正常工作）没啥意义，而且在低负载的时候芯片根本不会使用高频率运行</span><br>
+</p><p><b>SaaB35: </b><br>
+<span>感觉那么多个字儿，都不如微软一句“我们说是多少频率就是多少频率”</span><br>
+<span>难道之前的舅舅党说的，微软专挑AMD大雕买走了，是真的？</span><br>
+</p><p><b>tamatama: </b><br>
+<span>可以理解为和笔记本相反，只根据频率设置阈值，而不设置功耗墙，温度墙？如果某一场景需要极限频率，那么即使温度已经很高了，依然会强行超上去。</span><br>
+<span>—— 来自 Xiaomi Redmi K20, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Zest: </b><br>
+<span> 本帖最后由 Zest 于 2020-4-3 14:31 编辑 </span><br>
+<span>震惊！SCE售后部门数百员工未等裁员主动要求离职，离职真相轰动整个业内</span><br>
+</p><p><b>ChrisSnake: </b><br>
+<span>后面有补充吧 如果实在不行了还是会限制的</span><br>
+</p><p><b>PLD: </b><br>
+<span>一点冗余不留吗</span><br>
+</p><p><b>RookieTnT: </b><br>
+<span> 本帖最后由 RookieTnT 于 2020-4-3 14:36 编辑 </span><br>
+<span>索尼一声 一亿玉碎 ps5纷纷把自己超冒烟 也不降频. 经典复刻</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span> 本帖最后由 香月诗浓 于 2020-4-3 14:44 编辑 </span><br>
+<span>tamatama 发表于 2020-4-3 14:24</span><br>
+<span>可以理解为和笔记本相反，只根据频率设置阈值，而不设置功耗墙，温度墙？如果某一场景需要极限频率，那么即 ...</span><br>
+<span>参考PC超频就行了，只要电源和主板/显卡供电带的动，电压不过高把芯片搞坏，就没所谓功耗墙（笔记本要考虑续航和电源功率小）；温度墙肯定有的但是上限很高的，比如intel的cpu的tj max在100摄氏度，就算超5G你日常也用不出来。实际上现在微星也有个笔记本装桌面CPU能超5G用的，超频在PC界本来就平常事，只不过要上更好的散热，更大的电源和用更好的供电罢了。</span><br>
+</p><p><b>紫毛母猩猩: </b><br>
+<span>太惨了，这已经不能只用打肿脸充胖子来形容了</span><br>
+</p><p><b>qumkml423: </b><br>
+<span>SaaB35 发表于 2020-4-3 14:19</span><br>
+<span>感觉那么多个字儿，都不如微软一句“我们说是多少频率就是多少频率”</span><br>
+<span>难道之前的舅舅党说的，微软专挑AMD ...</span><br>
+<span>主机的soc都是单独定制的apu，不存在挑大雕的问题，难道能正常使用的体质没那么好的芯片都扔掉不成，就是规模足够高，那就不需要往死里超频了，雷和雕用不出什么区别。</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>香月诗浓 发表于 2020-4-3 14:38</span><br>
+<span>参考PC超频就行了，只要电源和主板/显卡供电带的动，电压不过高把芯片搞坏，就没所谓功耗墙（笔记本要考虑 ...</span><br>
+<span>到底是谁没超过频？</span><br>
+<span>先不说别的</span><br>
+<span>就没所谓功耗墙</span><br>
+<span>你知不知道显卡bios就有锁TDP？</span><br>
+<span>超频卡皇就是特挑的核心和自己的bios。</span><br>
+<span>而且在低负载的时候芯片根本不会使用高频率运行</span><br>
+<span>锁频是用来玩的吗？只不过要上更好的散热，更大的电源和用更好的供电罢了。意思是索尼要每台PS5单独调教？</span><br>
+<span>你说的和主楼有什么联系吗？</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>虽然有阵子没追过新硬件了</span><br>
+<span>但是一回来告诉我超频已经迈入下一个时代了？</span><br>
+</p><p><b>minysun: </b><br>
+<span>保证所有的机器都能2.23...良品率感觉要出大事情</span><br>
+</p><p><b>csgjjg: </b><br>
+<span>啊这。。。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>香月诗浓: </b><br>
+<span> 本帖最后由 香月诗浓 于 2020-4-3 15:04 编辑 </span><br>
+<span>哈迪斯兜帽 发表于 2020-4-3 14:55</span><br>
+<span>到底是谁没超过频？</span><br>
+<span>先不说别的</span><br>
+<span>你说的是极限超频，比如说8700k超5g要看体质，但超4.7g完全可以一键加上一套通用的散热配置出来，不受正常环境温度影响怎么了，好多人黑索尼的前提是要超冒烟，实际上PS5和XBX都是RNDA2的，XBX用的芯片要高一档，索尼超频提高半档而已，根本不需要冒烟好伐</span><br>
+</p><p><b>iou90: </b><br>
+<span>myron_cloud 发表于 2020-4-3 13:31</span><br>
+<span>意思是索尼只管设定CPU GPU频率，不管机器温度。如果你屋子里太热了机器宁可过热自毁也不会降频，所以南方 ...</span><br>
+<span>不上黄网那边的天气预报大师会重出江湖吗</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>香月诗浓 发表于 2020-4-3 15:01</span><br>
+<span>你说的是极限超频，比如说8700k超5g要看体质，但超4.7g完全可以一键加上一套通用的散热配置出来，不受正常 ...</span><br>
+<span>调教好了自然不受正常温度影响。</span><br>
+<span>你也强调了散热的重要性，但是主楼完全不提及散热。</span><br>
+<span>我们不使用芯片的实际温度</span><br>
+<span>我大概懂了。主楼要分开看。</span><br>
+<span>默频跑满不受影响。</span><br>
+<span>“3.5GHz和2.23GHz的极限”要看缘分。</span><br>
+<span>索尼是这个意思吗？</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>大家散了吧，原来索尼说了半天弯弯绕车轱辘话。</span><br>
+<span>人老了被文字游戏一番戏耍。</span><br>
+</p><p><b>斯拉克自有妙计: </b><br>
+<span>qumkml423 发表于 2020-4-3 14:55</span><br>
+<span>主机的soc都是单独定制的apu，不存在挑大雕的问题，难道能正常使用的体质没那么好的芯片都扔掉不成，就是 ...</span><br>
+<span>给索尼啊</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1922313[0-50]</guid>
+    </item>
+  </channel>
+</rss>

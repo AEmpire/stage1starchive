@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>台式机死机找不到原因，求解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>台式机死机找不到原因，求解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:44:02 +0000</lastBuildDate>
+    <item>
+      <title>台式机死机找不到原因，求解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839975-1-1.html</link>
+      <description>台式机死机找不到原因，求解&#13;
+电脑前几天开始每隔一两个小时就死机，蓝屏后转到bios显示boot device not found，bios里确实找不到硬盘。
+&#13;
+长按电源键关机后可以再开机进桌面，用英特尔的ssd toolbox检查，显示盘没问题。
+&#13;
+现在将盘拆出来除了尘，换了电源接线口，换了主板的sata接口故障依旧，现在换到第三个sata接口，开机观察中。
+&#13;
+电脑16年组装，盘是15年10月的英特尔535，没做分区只有c盘，最近没有安装新软件和硬件。
+&#13;
+请教各位，故障再出现的话应该怎么排除。</description>
+      <content:encoded><![CDATA[<p><b>henry8848: </b><br>
+<span>台式机死机找不到原因，求解</span><br>
+<span>电脑前几天开始每隔一两个小时就死机，蓝屏后转到bios显示boot device not found，bios里确实找不到硬盘。</span><br>
+<span>长按电源键关机后可以再开机进桌面，用英特尔的ssd toolbox检查，显示盘没问题。</span><br>
+<span>现在将盘拆出来除了尘，换了电源接线口，换了主板的sata接口故障依旧，现在换到第三个sata接口，开机观察中。</span><br>
+<span>电脑16年组装，盘是15年10月的英特尔535，没做分区只有c盘，最近没有安装新软件和硬件。</span><br>
+<span>请教各位，故障再出现的话应该怎么排除。</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>买过一个硬盘啊，仅仅针对最后一句</span><br>
+</p><p><b>password: </b><br>
+<span>你试着换过SATA线吗</span><br>
+</p><p><b>shenhequnying: </b><br>
+<span>有可能是主板坏了。。。。</span><br>
+</p><p><b>King5268: </b><br>
+<span>出过这种问题，后来发现是电源的一个SATA供电接口接触不良~ </span><br>
+</p><p><b>kailyan: </b><br>
+<span>电脑的组装时间，猜会不会是碰上我之前的那个问题——电源老化？</span><br>
+</p><p><b>上班族: </b><br>
+<span>硬盘识别也有玄学概率的。</span><br>
+<span>我有块东芝2T，在amd970芯片组和nas里都正常识别使用，但在主力h97主板上就会高概率开机不识别，同接口换一块硬盘又没问题。至于ssd频繁掉盘换个主机稳定用3年这种事更多了</span><br>
+</p><p><b>遥照_: </b><br>
+<span>先换线，xp机时代出过一次这种问题。现在很少了。boot一般是指硬盘，你往这方面找问题即可。</span><br>
+</p><p><b>孤燈: </b><br>
+<span>ssd的话，可以试下是不是睡眠之后再恢复就识别不了……</span><br>
+</p><p><b>feger: </b><br>
+<span>换个接口 换个sata线 ssd的话有祖传掉盘的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839975[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>废贴，请版主删除</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>废贴，请版主删除</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:28:18 +0000</lastBuildDate>
+    <item>
+      <title>废贴，请版主删除[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918685-1-1.html</link>
+      <description>求助：加密PDF文件转换&#13;
+下载的PDF报纸。阅读需要Adobe Acrobat Reader 4.0＋授权程序apple.exe
+&#13;
+必须装那个Acrobat(4.0特定版)＋证书，才能看。很不爽。有没有什么办法破除那个PDF的加密？
+&#13;
+必须用自带的特定软件才能看，很不方便。可否把它变成普通的PDF文件？</description>
+      <content:encoded><![CDATA[<p><b>proof1: </b><br>
+<span>求助：加密PDF文件转换</span><br>
+<span>下载的PDF报纸。阅读需要Adobe Acrobat Reader 4.0＋授权程序apple.exe</span><br>
+<span>必须装那个Acrobat(4.0特定版)＋证书，才能看。很不爽。有没有什么办法破除那个PDF的加密？</span><br>
+<span>必须用自带的特定软件才能看，很不方便。可否把它变成普通的PDF文件？</span><br>
+</p><p><b>oscarwty: </b><br>
+<span>1、创建一个只有一页的PDF，用Acrobat打开。</span><br>
+<span>​2、使用“文档->插入页面”，把有数字签名的文档插入到那一页后面。</span><br>
+<span>​3、使用“文档->删除页面”，删除第一页，然后保存文档。这个办法既可以保留书签，又能完全去除数字签名，而且无需借助特殊软件，简单易行。</span><br>
+<span>http://blog.sina.com.cn/s/blog_65553b4a0102wa4d.html</span><br>
+</p><p><b>linux40: </b><br>
+<span>试试calibre的dedrm插件？</span><br>
+</p><p><b>hecas: </b><br>
+<span>把这个pdf文档打印成pdf？</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>proof1: </b><br>
+<span>hecas 发表于 2020-3-14 07:30</span><br>
+<span>把这个pdf文档打印成pdf？</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.2</span><br>
+<span>PDF文件貌似采用“汉字代码＋图片”方式。</span><br>
+<span>即便可以打印，我也不想转成完全图片式，体积会增大100倍，同时质量下降，失去了矢量字库无极放大。</span><br>
+<span>另："授权程序apple.exe"，是什么东东？   是证书吗？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918685[0-50]</guid>
+    </item>
+  </channel>
+</rss>

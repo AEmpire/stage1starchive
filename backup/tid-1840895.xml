@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>x470 的zen2支持情况讨论，7月23日更新-新U目前正常</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>x470 的zen2支持情况讨论，7月23日更新-新U目前正常</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:38:25 +0000</lastBuildDate>
+    <item>
+      <title>x470 的zen2支持情况讨论，7月23日更新-新U目前正常[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840895-1-1.html</link>
+      <description>x470 的zen2支持情况讨论，7月10日更新-已翻车&#13;
+ 本帖最后由 ft5555 于 2019-7-10 16:53 编辑 
+
+618入了个华硕x470大师，用朋友的cpu先刷了最新bios
+&#13;
+主板出厂日期是去年11月 ，所以半个月后zen2开卖，x470大概率是需要一个老U先刷bios的
+&#13;
+然后最新版本bios 内存频率设置上限依旧为4200.
+&#13;
+看来追求极限内存超频的是必须上x570了
+&#13;
+================================
+&#13;
+朋友的MSI b450好点，出厂bios是今年3月，但不知到这个是否能点亮zen2
+&#13;
+===========================================
+&#13;
+3700X到货了，更新一下测试情况：
+&#13;
+第一版bios 4804   完美一次点亮，但是内存性能有严重问题，只有正常的60%cpu跑分也是60%。。。
+&#13;
+第二版bios 5007   cpu跑分正常，内存性能正常， 但bios里鼠标有问题 难以正常移动。
+&#13;
+两版bios 都无法对内存做超频设置。 内存只会跑在默认频率。（幸亏我买的是默频3200的条子 不是xmp上去的。。所以还能跑在3200...）
+&#13;
+https://img.saraba1st.com/forum/201907/10/003254jsszr6hb7t0rtt0h.jpg
+&#13;
+上一个3700x +安钛克 冰河时代的 温度情况。
+&#13;
+25度室温还没往机箱里装，这温度还凑合吧pbo貌似没有开启 
+&#13;
+===================================
+&#13;
+开启pbo与主频+200    aida64 fpu功耗由88w 直接飙升到127w主频也确实+200了 但温度达到91.....跑cb20 还重启了。。。
+&#13;
+算了。。。代价太大了。。。
+&#13;
+===============================================
+&#13;
+更新：翻车。使用中疯狂重启，无法重新安装系统，因为安装一开始准备文件那里100%重启。。。</description>
+      <content:encoded><![CDATA[<p><b>ft5555: </b><br>
+<span>x470 的zen2支持情况讨论，7月10日更新-已翻车</span><br>
+<span> 本帖最后由 ft5555 于 2019-7-10 16:53 编辑 </span><br>
+<span>618入了个华硕x470大师，用朋友的cpu先刷了最新bios</span><br>
+<span>主板出厂日期是去年11月 ，所以半个月后zen2开卖，x470大概率是需要一个老U先刷bios的</span><br>
+<span>然后最新版本bios 内存频率设置上限依旧为4200.</span><br>
+<span>看来追求极限内存超频的是必须上x570了</span><br>
+<span>================================</span><br>
+<span>朋友的MSI b450好点，出厂bios是今年3月，但不知到这个是否能点亮zen2</span><br>
+<span>===========================================</span><br>
+<span>3700X到货了，更新一下测试情况：</span><br>
+<span>第一版bios 4804   完美一次点亮，但是内存性能有严重问题，只有正常的60%cpu跑分也是60%。。。</span><br>
+<span>第二版bios 5007   cpu跑分正常，内存性能正常， 但bios里鼠标有问题 难以正常移动。</span><br>
+<span>两版bios 都无法对内存做超频设置。 内存只会跑在默认频率。（幸亏我买的是默频3200的条子 不是xmp上去的。。所以还能跑在3200...）</span><br>
+<img src="https://img.saraba1st.com/forum/201907/10/003254jsszr6hb7t0rtt0h.jpg" title="https://img.saraba1st.com/forum/201907/10/003254jsszr6hb7t0rtt0h.jpg"><br>
+<span>上一个3700x +安钛克 冰河时代的 温度情况。</span><br>
+<span>25度室温还没往机箱里装，这温度还凑合吧pbo貌似没有开启 </span><br>
+<span>===================================</span><br>
+<span>开启pbo与主频+200    aida64 fpu功耗由88w 直接飙升到127w主频也确实+200了 但温度达到91.....跑cb20 还重启了。。。</span><br>
+<span>算了。。。代价太大了。。。</span><br>
+<span>===============================================</span><br>
+<span>更新：翻车。使用中疯狂重启，无法重新安装系统，因为安装一开始准备文件那里100%重启。。。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>AGESA 1.0.0.3才能让4系列主板正确识别新cpu下的内存频率</span><br>
+<span>来源：德国CB评测</span><br>
+<span>是的说的就是你ASUS</span><br>
+<span>目前ASUS 4系主板只能跑DDR4-2400</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>微星板子可以无cpu刷bios所以不用担心</span><br>
+</p><p><b>囧囧囧: </b><br>
+<span>sweetspot是3733，上4000+之后跑的是异步模式，性能负增长</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>目前FCLK就是IF频率可调,但是最大也就1900左右,此时你内存的最佳频率是3800,低于FCLKx2频率的内存频率都是1:1模式,超过的话直接转2:1</span><br>
+</p><p><b>ft5555: </b><br>
+<span>3700x 到货了 系统点亮跑了跑测试 ，没啥大问题，bios问题很多，但可以凑合先默认着用。。</span><br>
+</p><p><b>物哀: </b><br>
+<span>https://www.chiphell.com/thread-2013942-1-1.html</span><br>
+<span>反正微星支持的挺全</span><br>
+</p><p><b>Novagelion: </b><br>
+<span>lwa190212 发表于 2019-07-07 22:39:50</span><br>
+<span>微星板子可以无cpu刷bios所以不用担心买块msi的370也能刷bios上zen2吗？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>Novagelion 发表于 2019-7-10 05:40</span><br>
+<span>买块msi的370也能刷bios上zen2吗？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端 ...</span><br>
+<span>你看下这里列出的板子的bios都支持zen2</span><br>
+<span>https://forum-en.msi.com/index.php?topic=320889.0</span><br>
+<img src="https://i.loli.net/2019/07/10/5d250c224e4ce60519.png" title="https://i.loli.net/2019/07/10/5d250c224e4ce60519.png"><br>
+<span>无cpu刷bios的话，板子上会有黄圈里的这个按钮，应该都有吧 等等 大意了x370竟然有一些板子还不支持，建议你买之前看一下官网的图片，以及文档，里面会提到这个操作的话就可以</span><br>
+<img src="https://i.loli.net/2019/07/10/5d250e1e282ca67263.png" title="https://i.loli.net/2019/07/10/5d250e1e282ca67263.png"><br>
+</p><p><b>風舞雪: </b><br>
+<span>x470 prime pro, 更本没bios更新啊。。</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>现在玩游戏又需要高频内存了吗</span><br>
+</p><p><b>ft5555: </b><br>
+<span>已经翻车了 哭死。。。</span><br>
+</p><p><b>jyyyjgy: </b><br>
+<span>超内存干什么？很多测评都说了，内存3600够用，超高了反而会加大内存延迟，性能下降。</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>testalphagogogo 发表于 2019-7-10 10:31</span><br>
+<span>现在玩游戏又需要高频内存了吗</span><br>
+<span>ryzen 有高频内存加成。不用也没关系，不差几帧</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>想起来asus R6E omega 装win10比较新的版本死活装不上的问题了</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>吃螃蟹的代价</span><br>
+</p><p><b>albertfu: </b><br>
+<span>https://www.reddit.com/r/Amd/comments/cb3mah/3700x_with_asus_prime_x470pro_bios_5007_6212019/</span><br>
+<span>这里有位老兄用的一样的cpu和主板，5007版bios，内存只能上到2666 CL20。其它倒没提到什么问题</span><br>
+<span>lz清cmos还是疯狂重启的话rma吧</span><br>
+</p><p><b>两个路人: </b><br>
+<span>本来乐观预计3代下来，内存兼容性能提高一些。这么看来双十一大跳水是入手比较好的时机了吧？</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2019-7-11 10:31 编辑 </span><br>
+<span>等等党又登上了又一个成功</span><br>
+</p><p><b>失身招领处: </b><br>
+<span>楼主开虚拟化了吧？</span><br>
+</p><p><b>ft5555: </b><br>
+<span>albertfu 发表于 2019-7-10 19:32</span><br>
+<span>https://www.reddit.com/r/Amd/comments/cb3mah/3700x_with_asus_prime_x470pro_bios_5007_6212019/</span><br>
+<span>这里 ...</span><br>
+<span>开始还行 用了一会儿就开始在桌面下重启然后愈发严重   </span><br>
+<span>最开始发现的是 一动电源管理就重启。。。主板锅概率大？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>ft5555 发表于 2019-7-10 23:22</span><br>
+<span>开始还行 用了一会儿就开始在桌面下重启然后愈发严重   </span><br>
+<span>最开始发现的是 一动电源管理就重启。。。主板 ...</span><br>
+<span>只能替换配件法了</span><br>
+<span>我之前碰到主板cpu点不亮，也没配件可以换，直接两个都rma了，还好走的狗东</span><br>
+</p><p><b>blackeyed: </b><br>
+<span>我买了570 但其实我也不是很想买, 因为570给的槽也太少了, pcie的分法也太难受了……</span><br>
+</p><p><b>Sheny: </b><br>
+<span>我跟你们说，当年zen1出世最稳的板子是七彩虹…</span><br>
+</p><p><b>AlfredXC: </b><br>
+<span>我b450i，xmp3000还能用，调掉3200貌似打游戏会卡死</span><br>
+<span>—— 来自 HUAWEI BLA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>Sheny 发表于 2019-7-11 00:13</span><br>
+<span>我跟你们说，当年zen1出世最稳的板子是七彩虹…</span><br>
+<span>现在凄惨红有没有因为这一次发达?</span><br>
+</p><p><b>Sheny: </b><br>
+<span>泉玲奈 发表于 2019-7-11 09:50</span><br>
+<span>现在凄惨红有没有因为这一次发达?</span><br>
+<span>看你怎么想，反正现在amd发布会都能上镜了</span><br>
+</p><p><b>泉玲奈: </b><br>
+<span>Sheny 发表于 2019-7-11 10:21</span><br>
+<span>看你怎么想，反正现在amd发布会都能上镜了</span><br>
+<span>我记得一线厂是msi,asus,giga</span><br>
+<span>之前凄惨红是三线</span><br>
+<span>现在是二线,还是一线?</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>不能算完全的翻车吧……</span><br>
+<span>回头我也来翻一个</span><br>
+</p><p><b>lpc2103: </b><br>
+<span>LZ的内存可以3733吗？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>adrftgyh: </b><br>
+<span>泉玲奈 发表于 2019-7-11 10:26</span><br>
+<span>我记得一线厂是msi,asus,giga</span><br>
+<span>之前凄惨红是三线</span><br>
+<span>现在是二线,还是一线?</span><br>
+<span>就现在diy市场的萎缩程度，还分什么一二三线啊，都一个档次。</span><br>
+</p><p><b>ft5555: </b><br>
+<span>lpc2103 发表于 2019-7-11 12:21</span><br>
+<span>LZ的内存可以3733吗？</span><br>
+<span>—— 来自 HUAWEI MHA-AL00, Android 9上的 S1Next-鹅版 v2.0.4</span><br>
+<span>1.35v 3600c18   镁光edie的 金士顿fury</span><br>
+</p><p><b>Sheny: </b><br>
+<span>其实，我觉得本帖还可以扩展一下，加入zen1 zen+更新主板zen2 bios后，导致点不亮的…</span><br>
+</p><p><b>ft5555: </b><br>
+<span>7月20日申请 换cpu</span><br>
+</p><p><b>奶绷子: </b><br>
+<span>这cpu是超坏了么</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>lwa190212 发表于 2019-7-7 22:39</span><br>
+<span>微星板子可以无cpu刷bios所以不用担心</span><br>
+<span>0.0</span><br>
+<span>怎么做到的</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-7-20 17:24 编辑 </span><br>
+<span>Realplayer 发表于 2019-7-20 17:07</span><br>
+<span>0.0</span><br>
+<span>怎么做到的</span><br>
+<span>这楼后面我认错了，不是所有微星板子可以无cpu刷bios，是出货量大的几款，比如b450m mortar正好支持</span><br>
+<span>9楼有说明，按那个按钮就不用cpu</span><br>
+<span>其实如果本身主板也引出了合适的针脚，也可以自己用对应的编程器刷bios rom，现在相当于官方做了一个方便的操作方式吧</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>zen1初版最稳七彩虹是因为直接公版BIOS，没自己魔改，所以最稳定啊</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ft5555: </b><br>
+<span>新U换上，一切正常了</span><br>
+<span>玩这么多年电脑，第一次翻车在cpu上</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840895[0-50]</guid>
+    </item>
+  </channel>
+</rss>

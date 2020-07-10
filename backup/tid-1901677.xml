@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>帮我看看这块硬盘是要挂了吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>帮我看看这块硬盘是要挂了吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:32:58 +0000</lastBuildDate>
+    <item>
+      <title>帮我看看这块硬盘是要挂了吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1901677-1-1.html</link>
+      <description>帮我看看这块硬盘是要挂了吗？&#13;
+=== START OF ENABLE/DISABLE COMMANDS SECTION ===
+&#13;
+SMART Enabled.
+&#13;
+=== START OF READ SMART DATA SECTION ===
+&#13;
+SMART overall-health self-assessment test result: PASSED
+&#13;
+Please note the following marginal Attributes:
+&#13;
+ID# ATTRIBUTE_NAME          FLAG   VALUE WORST THRESH TYPE      UPDATEDWHEN_FAILED RAW_VALUE
+&#13;
+190 Airflow_Temperature_Cel 0x0022   070   045   045    Old_age   Always   In_the_past 30 (Min/Max 27/36)</description>
+      <content:encoded><![CDATA[<p><b>lvcha: </b><br>
+<span>帮我看看这块硬盘是要挂了吗？</span><br>
+<span>=== START OF ENABLE/DISABLE COMMANDS SECTION ===</span><br>
+<span>SMART Enabled.</span><br>
+<span>=== START OF READ SMART DATA SECTION ===</span><br>
+<span>SMART overall-health self-assessment test result: PASSED</span><br>
+<span>Please note the following marginal Attributes:</span><br>
+<span>ID# ATTRIBUTE_NAME          FLAG   VALUE WORST THRESH TYPE      UPDATEDWHEN_FAILED RAW_VALUE</span><br>
+<span>190 Airflow_Temperature_Cel 0x0022   070   045   045    Old_age   Always   In_the_past 30 (Min/Max 27/36)</span><br>
+</p><p><b>feger: </b><br>
+<span>看不出 smart 过了但是其他信息不够吧 linux 还是</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1901677[0-50]</guid>
+    </item>
+  </channel>
+</rss>

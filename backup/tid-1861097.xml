@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>基础设施不给力，上层软件擦屁股……吐槽……难受</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>基础设施不给力，上层软件擦屁股……吐槽……难受</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:31:03 +0000</lastBuildDate>
+    <item>
+      <title>基础设施不给力，上层软件擦屁股……吐槽……难受[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861097-1-1.html</link>
+      <description>基础设施不给力，上层软件擦屁股……吐槽……难受&#13;
+我司的云设施已经6个月里已经出了3次问题
+&#13;
+明年这家供应商应该进不来做这个了
+&#13;
+每次都搞的大半上层应用软件鸡飞狗跳
+&#13;
+从前几个月，所有的功能需求都要向非功能高可用稳定性让步
+&#13;
+但高可用这种往往一改都是动架构动骨头的，哪有这么简单什么随随便便几个月就拿出来，马上就有变化
+&#13;
+做点底层服务类功能的，还要被再上层的业务应用骂……想一边骂下面的基础设施，结果么还不是一个大部门的，这边大部门上面只会讲软件层面要高可用……高可用代价不考虑的啊
+&#13;
+难受……</description>
+      <content:encoded><![CDATA[<p><b>董卓: </b><br>
+<span>基础设施不给力，上层软件擦屁股……吐槽……难受</span><br>
+<span>我司的云设施已经6个月里已经出了3次问题</span><br>
+<span>明年这家供应商应该进不来做这个了</span><br>
+<span>每次都搞的大半上层应用软件鸡飞狗跳</span><br>
+<span>从前几个月，所有的功能需求都要向非功能高可用稳定性让步</span><br>
+<span>但高可用这种往往一改都是动架构动骨头的，哪有这么简单什么随随便便几个月就拿出来，马上就有变化</span><br>
+<span>做点底层服务类功能的，还要被再上层的业务应用骂……想一边骂下面的基础设施，结果么还不是一个大部门的，这边大部门上面只会讲软件层面要高可用……高可用代价不考虑的啊</span><br>
+<span>难受……</span><br>
+</p><p><b>猫?魔铃: </b><br>
+<span>常态,所谓工作就是擦pg而己</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ouiki: </b><br>
+<span>干技术的嘛，要么干到行业顶尖，你的话就是标准。</span><br>
+<span>要么，上下沟通顺畅，单位里人缘好，什么事都摆的平。</span><br>
+<span>就这么两条出头的路。</span><br>
+</p><p><b>恶梦再来: </b><br>
+<span>哪家云厂商说出来让我们康康</span><br>
+</p><p><b>phorcys02: </b><br>
+<span>这算啥，小10年前给某t字头公司打工</span><br>
+<span>运维采购采购图便宜，买了一堆hp的 交换机服务器</span><br>
+<span>应用线上跑的时候，集群总是出各种奇怪查不出来的同步错误</span><br>
+<span>t司运维极为严格，业务没有任何接触服务器的权限</span><br>
+<span>没日没夜好几天以后。终于发现，服务器主板的时钟偏移过大，每天平均可以漂移一两分钟出去</span><br>
+<span>而运维配置的ntp的间隔不够，如果两次ntp间隔超过1s，我们的业务就飞了，gg</span><br>
+<span>后来发现我们的集群，高负载情况下总是无故进行自动leader选举，同时配合大量数据库不同步和一致性问题</span><br>
+<span>好在落库能hold住，这个就更抓瞎了</span><br>
+<span>更诡异的是有些组集群就是好的，有些就总是出问题。</span><br>
+<span>折腾个把月无解，最终无奈通过重重审核在集群上布置自制全节点监控</span><br>
+<span>发现HP的这些个交换机，有的会在高负载情况下，交换机自动分裂为几个子网，互相不同，但是上连都通</span><br>
+<span>于是运维监测无报警，而我们的集群被随机裂成几部分，哗啦啦开始自己选举</span><br>
+<span>选举完毕过一会儿又通了，又开始选举，造成一大堆数据不一致...</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>phorcys02 发表于 2019-10-24 18:01</span><br>
+<span>这算啥，小10年前给某t字头公司打工</span><br>
+<span>运维采购采购图便宜，买了一堆hp的 交换机服务器</span><br>
+<span>这不就是一坨混沌</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>可怕。我司机智的选择了AWS。</span><br>
+<span>知道自己人不行</span><br>
+</p><p><b>殪觋: </b><br>
+<span>我司妥妥选了阿里云，兄弟单位选了腾讯云</span><br>
+<span>别和自己人过不去啊</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zievod: </b><br>
+<span> 殪觋 发表于 2019-10-24 18:26 我司妥妥选了阿里云，兄弟单位选了腾讯云 别和自己人过不去啊—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2 </span><br>
+<span>v2看到有人说公司用腾讯云</span><br>
+<span>发生数据丢失 无法追回 搞得项目废了</span><br>
+</p><p><b>leystage: </b><br>
+<span>zievod 发表于 2019-10-24 18:41</span><br>
+<span>v2看到有人说公司用腾讯云</span><br>
+<span>发生数据丢失 无法追回 搞得项目废了</span><br>
+<span>有过，好像说是SLA给的容错备份根本没做。。。</span><br>
+</p><p><b>董卓: </b><br>
+<span>シャスタ 发表于 2019-10-24 18:13</span><br>
+<span>这不就是一坨混沌</span><br>
+<span>典型的脑裂场景</span><br>
+<span>分布式集群防脑裂，防ntp时间不同步，这都是经典坑了</span><br>
+</p><p><b>sujoju: </b><br>
+<span>这不是太正常了。。。我每天都工作就是给机械工程师擦屁股。。。。不过现在我把这活丢给新来的电工了。美其名曰锻炼锻炼。。。。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>phorcys02 发表于 2019-10-24 18:01</span><br>
+<span>这算啥，小10年前给某t字头公司打工</span><br>
+<span>运维采购采购图便宜，买了一堆hp的 交换机服务器</span><br>
+<span>HP自己改子网掩码，真这样这设备要不得了</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span> 本帖最后由 赤色彗星SEXY 于 2019-11-4 15:21 编辑 </span><br>
+<span>所有分布式的都有时间问题不可能单靠硬件的,和HP没关系,HP的在服务器里算好的</span><br>
+<span>ntpd开起来tick会自己调整到同步的,用ntpdate才有什么1s问题</span><br>
+<span>话说自己高可用了,还不上自己设备？</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-4 15:19</span><br>
+<span>所有分布式的都有时间问题不可能单靠硬件的,和HP没关系,HP的在服务器里算好的</span><br>
+<span>ntpd开起来tick会自己调整到 ...</span><br>
+<span>层主说“交换机自动分裂为几个子网”</span><br>
+<span>这nm太吓人了吧</span><br>
+</p><p><b>jctc: </b><br>
+<span>一开始设计的时候就不考虑HA</span><br>
+<span>不过话说microservice框架HA不是很容易实现吗？所有的请求都应该是stateless的，配上replica，带宽不足不停的砸pod就行了吧</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>Realplayer 发表于 2019-11-4 15:21</span><br>
+<span>层主说“交换机自动分裂为几个子网”</span><br>
+<span>这nm太吓人了吧</span><br>
+<span>我说的是5楼</span><br>
+</p><p><b>jctc: </b><br>
+<span>wwwwn168 发表于 2019-10-24 18:17</span><br>
+<span>可怕。我司机智的选择了AWS。</span><br>
+<span>知道自己人不行</span><br>
+<span>AWS真是好</span><br>
+<span>阿里云我刚搭一个数据库</span><br>
+<span>还没建表</span><br>
+<span>第二天就告诉我failover了</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-4 15:22</span><br>
+<span>我说的是5楼</span><br>
+<span>我说的也是5楼呀，T字头公司打工那个不是么</span><br>
+<span>什么交换机会高负载下分裂子网，还是自动的</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>Realplayer 发表于 2019-11-4 15:24</span><br>
+<span>我说的也是5楼呀，T字头公司打工那个不是么</span><br>
+<span>什么交换机会高负载下分裂子网，还是自动的 ...</span><br>
+<span>看花眼...说服务器 </span><br>
+<span>交换机没用过HP的不知道 233</span><br>
+</p><p><b>refo2613: </b><br>
+<span>HP的交换机，我记得原来其实是3COM，后来是H3C</span><br>
+</p><p><b>refo2613: </b><br>
+<span>另外，HP的服务器，在业内应该算是第一梯队的了</span><br>
+</p><p><b>对线: </b><br>
+<span>今年阿里云出问题好几次了，有一回机房故障凌晨打电话喊起来重启</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>phorcys02 发表于 2019-10-24 18:01:36</span><br>
+<span>这算啥，小10年前给某t字头公司打工</span><br>
+<span>运维采购采购图便宜，买了一堆hp的 交换机服务器</span><br>
+<span>应用线上跑的时候， ...hp牛逼。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>董卓: </b><br>
+<span>jctc 发表于 2019-11-4 15:21</span><br>
+<span>一开始设计的时候就不考虑HA</span><br>
+<span>不过话说microservice框架HA不是很容易实现吗？所有的请求都应该是stateless的 ...</span><br>
+<span>所有的请求都应该是stateless的</span><br>
+<span>应该是应该……有就是要一致性的，要存状态的再怎么办呢？上redis、zookeeper，分布式锁嘛。技术上大家都懂嘛</span><br>
+<span>算了上云设备成本降低大家乐呵呵</span><br>
+<span>真做起来……这些分布式软件成本，历史软件架构改造难度……你跟谁去讲哦</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>zievod 发表于 2019-10-24 18:41</span><br>
+<span>v2看到有人说公司用腾讯云</span><br>
+<span>发生数据丢失 无法追回 搞得项目废了</span><br>
+<span>搞用户态发家的公司搞的云也有人敢用的？！</span><br>
+</p><p><b>phorcys02: </b><br>
+<span>赤色彗星SEXY 发表于 2019-11-4 15:19</span><br>
+<span>所有分布式的都有时间问题不可能单靠硬件的,和HP没关系,HP的在服务器里算好的</span><br>
+<span>ntpd开起来tick会自己调整到 ...</span><br>
+<span>t司运维严，别说自己设备，非运维连个shell都不会有，更别说配ntpd了</span><br>
+<span>10年前t司运维还不给64位os，被单进程4G内存地址卡的要升天</span><br>
+<span>在别家都不是事，t司就不行了，当然也因为是边缘项目，亲儿子项目没这么难</span><br>
+</p><p><b>refo2613: </b><br>
+<span> 本帖最后由 refo2613 于 2019-11-5 14:14 编辑 </span><br>
+<span>wwwwn168 发表于 2019-10-24 18:17</span><br>
+<span>可怕。我司机智的选择了AWS。</span><br>
+<span>知道自己人不行</span><br>
+<span>一个同事，说前公司用了AWS CHINA，最后整体迁移到阿里云。</span><br>
+<span>阿里云虽然比AWS差，但AWS CHINA更加糟糕，底层是那2个伙伴的技术，上面套了AWS的产品。常常问题最后是客户自己解决，因为AWS的人不了解AWS CHINA的底层，AWS CHINA搞不定。</span><br>
+<span>至于为什么不直接用AWS，应该现在备案制度对域名和存储要求越来越高，动不动就要什么数据跨境备案，业务折腾不起。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>refo2613 发表于 2019-11-5 14:13</span><br>
+<span>一个同事，说前公司用了AWS CHINA，最后整体迁移到阿里云。</span><br>
+<span>阿里云虽然比AWS差，但AWS CHINA更加糟糕，底 ...</span><br>
+<span>AWS TOKYO呀</span><br>
+</p><p><b>yueba: </b><br>
+<span> 本帖最后由 yueba 于 2019-11-5 16:12 编辑 </span><br>
+<span>refo2613 发表于 2019-11-5 14:13</span><br>
+<span>一个同事，说前公司用了AWS CHINA，最后整体迁移到阿里云。</span><br>
+<span>阿里云虽然比AWS差，但AWS CHINA更加糟糕，底 ...</span><br>
+<span>我不知道你哪里听说的消息</span><br>
+<span>AWS CHINA底层用的还是AWS的技术</span><br>
+<span>AWS 所有的Region的建立技术标准都是一致的</span><br>
+<span>道听途说要不得</span><br>
+</p><p><b>vx11: </b><br>
+<span>phorcys02 发表于 2019-10-24 18:01</span><br>
+<span>这算啥，小10年前给某t字头公司打工</span><br>
+<span>运维采购采购图便宜，买了一堆hp的 交换机服务器</span><br>
+<span>这机魂……挺放飞自我的啊</span><br>
+</p><p><b>青空序曲: </b><br>
+<span>说了半天 到底是哪个厂拉跨了啊...好奇</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861097[0-50]</guid>
+    </item>
+  </channel>
+</rss>

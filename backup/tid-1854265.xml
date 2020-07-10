@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>困扰好久的问题，4内存插槽供电不足，结果得超频才行</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>困扰好久的问题，4内存插槽供电不足，结果得超频才行</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:14:22 +0000</lastBuildDate>
+    <item>
+      <title>困扰好久的问题，4内存插槽供电不足，结果得超频才行[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854265-1-1.html</link>
+      <description>困扰好久的问题，4内存插槽供电不足，结果得超频才行&#13;
+主板是穷人救星，内存是DDR3 1.5V的标准条，宇瞻*2 威刚*2
+&#13;
+内存插槽和不同牌子的内存两两混搭使用，3DMark测试都没问题，说明兼容性没事。
+&#13;
+但是只要插满4条的，开机自检就很慢，进入win10只认2条内存；
+&#13;
+插3条能全认，但是会偶然死机；
+&#13;
+2条就非常稳定
+&#13;
+后来推测是插槽供电不足，但一直没想到超频就能解决……这个好坑
+&#13;
+现在解决方法是bios把内存供电加到了1.7V，这才能用4条内存。
+&#13;
+不知道有遇过相同问题的坛友不，没啥超频经验，不知道长期使用会不会boom</description>
+      <content:encoded><![CDATA[<p><b>爱尔米娜: </b><br>
+<span>困扰好久的问题，4内存插槽供电不足，结果得超频才行</span><br>
+<span>主板是穷人救星，内存是DDR3 1.5V的标准条，宇瞻*2 威刚*2</span><br>
+<span>内存插槽和不同牌子的内存两两混搭使用，3DMark测试都没问题，说明兼容性没事。</span><br>
+<span>但是只要插满4条的，开机自检就很慢，进入win10只认2条内存；</span><br>
+<span>插3条能全认，但是会偶然死机；</span><br>
+<span>2条就非常稳定</span><br>
+<span>后来推测是插槽供电不足，但一直没想到超频就能解决……这个好坑</span><br>
+<span>现在解决方法是bios把内存供电加到了1.7V，这才能用4条内存。</span><br>
+<span>不知道有遇过相同问题的坛友不，没啥超频经验，不知道长期使用会不会boom</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>感觉应该是imc不行吧，要加也要加imc电压啊？</span><br>
+</p><p><b>烟萝: </b><br>
+<span>换主板X</span><br>
+<span>换单条大容量   O</span><br>
+</p><p><b>爱尔米娜: </b><br>
+<span>暗影翔 发表于 2019-8-18 19:48</span><br>
+<span>感觉应该是imc不行吧，要加也要加imc电压啊？</span><br>
+<span>这个是CPU也要一起超了么</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>爱尔米娜 发表于 2019-8-18 20:01</span><br>
+<span>这个是CPU也要一起超了么</span><br>
+<span>一般内存识别有问题or无法多条使用，比如dram超频上不去甚至无法达到默频，大多是内存控制器不行。现在imc都集中在cpu里，所以要超cpu的dram soc（zen这代bios里应该是这个名字），i家不太清楚。</span><br>
+<span>既然各种混用两条都没问题，内存应该没问题。</span><br>
+<span>但是神马四通道、八通道的hedt平台没用过，不知道高端情况。</span><br>
+<span>内存加到1.7v，对于d3来说也有点高吧。长期用有问题。</span><br>
+<span>2楼的方案也要考虑有些u和板子对双面内存有兼容性问题。</span><br>
+</p><p><b>爱尔米娜: </b><br>
+<span>暗影翔 发表于 2019-8-18 20:43</span><br>
+<span>一般内存识别有问题or无法多条使用，比如dram超频上不去甚至无法达到默频，大多是内存控制器不行。现在im ...</span><br>
+<span>感谢指导，回头翻翻华擎手册怎么改去。</span><br>
+<span>这下真相大白了，我的CPU是4890HQ魔改版，本来就是 Low Voltage配套U，魔改版果真存在奇奇怪怪的问题</span><br>
+</p><p><b>EraserKing: </b><br>
+<span> 本帖最后由 EraserKing 于 2019-8-18 21:04 编辑 </span><br>
+<span>感觉看林大的视频看久了我都会他的语气和用词了：</span><br>
+<span>主机板的A通和B通本来就有差</span><br>
+<span>2DPC的主机板如果是Daisy Chain那在插满4条的时候性能确实会弱</span><br>
+<span>两根包是为了双通各插一条准备的，四根包是为了四通各插一条准备的，而不是为了双通各插两条准备的</span><br>
+<span>市面上基本不会有为了双通插满四条准备的四根包，那更不用提你混用不用品牌不同die不同layout的记忆体了，相容性肯定会差</span><br>
+<span>你这样插，作为主机板厂我也很无奈，不知道应该帮你怎么配</span><br>
+<span>LS说的IMC电压是指Uncore部分啦，Vcore部分你可以不动。</span><br>
+<span>你光加DRAM内存效果确实可能不好。</span><br>
+<span>BTW Haswell的U跑1.5V的普通DDR3（非DDR3L）应该没事，1.7也高的不多</span><br>
+<span>我的笔记本跑了几年的DDR3了一直正常</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>暗影翔 发表于 2019-8-18 20:43</span><br>
+<span>一般内存识别有问题or无法多条使用，比如dram超频上不去甚至无法达到默频，大多是内存控制器不行。现在im ...</span><br>
+<span>A家就叫SoC电压，应该各厂都统一了</span><br>
+<span>I家叫Uncore</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>EraserKing 发表于 2019-8-18 20:59</span><br>
+<span>感觉看林大的视频看久了我都会他的语气和用词了：</span><br>
+<span>主机板的A通和B通本来就有差</span><br>
+<span>大佬，这堆话看得我要慢慢读，国语好难。</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>也许降频用也有用。</span><br>
+<span>ddr4我也遇到过混着插不启动，报错都没有，就是起不来，解决不了我就不解决了，不加内存了，1.7v看着有点高，后期笔记本上ddr3l只有1.35v吧。</span><br>
+<span>话说贼船单32G条都出了，不知道这玩意超频超的上去吗。</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>tyx776: </b><br>
+<span>我超频是1.65v长时间用</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854265[0-50]</guid>
+    </item>
+  </channel>
+</rss>

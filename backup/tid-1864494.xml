@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CPU有两个核一直占用100%……我这是被人当矿机了吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>CPU有两个核一直占用100%……我这是被人当矿机了吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:09:25 +0000</lastBuildDate>
+    <item>
+      <title>CPU有两个核一直占用100%……我这是被人当矿机了吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864494-1-1.html</link>
+      <description>CPU有两个核一直占用100%……我这是被人当矿机了吗&#13;
+ 本帖最后由 新人马甲2 于 2019-11-9 08:18 编辑 
+
+最近几天一直是这样子，任务管理器里面也找不到占用率高的进程（占用率高的都是QQ、浏览器之类的，高的时候也就15%左右）
+&#13;
+想用Microsoft Security Essential杀一下毒看看，却一直更新失败显示0x80240022错误不能进行扫描，试着搜寻排除MSE这个错误的方法以后，有说法是在services里面开启automatic update服务就行，但是我的电脑的service里面没有这项服务，手动下载MSE的更新库也不行，运行mpam-feX64.exe以后没几秒进程就不见了，没弹出任何窗口
+&#13;
+虽然两个核占用100%似乎不影响电脑的性能，但这情况应该是中了什么奇怪的矿机木马吧？最近也没下载什么可疑的东西，到底是怎么感染上的……？</description>
+      <content:encoded><![CDATA[<p><b>新人马甲2: </b><br>
+<span>CPU有两个核一直占用100%……我这是被人当矿机了吗</span><br>
+<span> 本帖最后由 新人马甲2 于 2019-11-9 08:18 编辑 </span><br>
+<span>最近几天一直是这样子，任务管理器里面也找不到占用率高的进程（占用率高的都是QQ、浏览器之类的，高的时候也就15%左右）</span><br>
+<span>想用Microsoft Security Essential杀一下毒看看，却一直更新失败显示0x80240022错误不能进行扫描，试着搜寻排除MSE这个错误的方法以后，有说法是在services里面开启automatic update服务就行，但是我的电脑的service里面没有这项服务，手动下载MSE的更新库也不行，运行mpam-feX64.exe以后没几秒进程就不见了，没弹出任何窗口</span><br>
+<span>虽然两个核占用100%似乎不影响电脑的性能，但这情况应该是中了什么奇怪的矿机木马吧？最近也没下载什么可疑的东西，到底是怎么感染上的……？</span><br>
+</p><p><b>litel: </b><br>
+<span>长时间没打补丁？</span><br>
+</p><p><b>新人马甲2: </b><br>
+<span>litel 发表于 2019-11-9 08:49</span><br>
+<span>长时间没打补丁？</span><br>
+<span>有差不多一年多一直关着windows update，刚刚开了一下，180多个补丁里面差不多所有安全相关的更新全都安装失败，安装成功的只有些无关紧要的玩意比如office或者sharepoint之类的玩意</span><br>
+<span>最近是有什么稀奇古怪的东西出现了吗……</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>任务管理看下有啥奇怪的进程</span><br>
+</p><p><b>新人马甲2: </b><br>
+<span>装了个360，快速扫描一遍然后解决了</span><br>
+<span>还行……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864494[0-50]</guid>
+    </item>
+  </channel>
+</rss>

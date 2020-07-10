@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>做了一个仿twitter的微博网站</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>做了一个仿twitter的微博网站</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:23:23 +0000</lastBuildDate>
+    <item>
+      <title>做了一个仿twitter的微博网站[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902541-1-1.html</link>
+      <description>做了一个仿twitter的微博网站&#13;
+https://sserr.net
+&#13;
+混A岛的应该有人知道这个地址，以前网站是作其他用途的。最近看到twitter的tos更新的新闻，就想着改出了这个微博系统，验证一些技术。
+&#13;
+基本的发推，回复，@功能都有，没有推荐，搜索等功能。因为穷所以没做图片上传功能。
+&#13;
+现在最急迫的todo是hashtag，但受限于存储架构的设计，实现也比较困难。
+&#13;
+后端尽量做成了serverless，但现在还跑在vps上，前端没有任何js，给你最极简的浏览体验。</description>
+      <content:encoded><![CDATA[<p><b>奶绷子: </b><br>
+<span>不错，能用，就当4th吧</span><br>
+</p><p><b>天成小次郎: </b><br>
+<span>我来见证历史</span><br>
+</p><p><b>獠牙护目镜: </b><br>
+<span>新的陌陌已经出现，我单方面宣布楼主就是5G时代的泥潭大面子了</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>雾夏影: </b><br>
+<span>已支持，挺干净的样子</span><br>
+</p><p><b>yikaa: </b><br>
+<span> 本帖最后由 yikaa 于 2019-12-14 21:39 编辑 </span><br>
+<span>coyove 发表于 2019-12-14 18:57</span><br>
+<span>应该是你的IP一直在跳吧，你进ipip.net显示的IP是什么，刷新几次会变吗</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, And ...</span><br>
+<span>ip一直没变</span><br>
+</p><p><b>橘皮刺客: </b><br>
+<span>有点意思</span><br>
+</p><p><b>sjbssd: </b><br>
+<span>可以发黄图吗？</span><br>
+</p><p><b>脑洞: </b><br>
+<span>惊了原来不是微博浏览器吗</span><br>
+</p><p><b>liangpig1: </b><br>
+<span>这边确认过ip没变，但一直显示token失效。另外，这个token到底是啥? 后端和cookie绑定的credential? 还是就那个captcha?</span><br>
+</p><p><b>Rubbersoul11: </b><br>
+<span>草，点开来发现好多高质量**，注册了</span><br>
+</p><p><b>Silencieuse: </b><br>
+<span>注册支持，图片不错</span><br>
+</p><p><b>Jobtowna: </b><br>
+<span>草，全是黄图</span><br>
+</p><p><b>カドモン: </b><br>
+<span>后端是啥解决方案啊</span><br>
+</p><p><b>土路生優里: </b><br>
+<span>草怎么都是涩图哥</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>勉强: </b><br>
+<span>看到黄图多我就点进去了</span><br>
+</p><p><b>coyove: </b><br>
+<span>liangpig1 发表于 2019-12-14 23:30</span><br>
+<span>这边确认过ip没变，但一直显示token失效。另外，这个token到底是啥? 后端和cookie绑定的credential? 还是就 ...</span><br>
+<span>csrf token，目前是按照ip生成的，还在debug中</span><br>
+</p><p><b>liangpig1: </b><br>
+<span>coyove 发表于 2019-12-15 11:40</span><br>
+<span>csrf token，目前是按照ip生成的，还在debug中</span><br>
+<span>哦哦，所以token就是每次post里面uuid那个field？</span><br>
+<span>然后服务器端会拿request ip和别的什么东西一起hash一下算出来一个东西，和请求里面的token做对比，要是不对的话就发一个token expire的302回来？</span><br>
+</p><p><b>磨碎的方糖: </b><br>
+<span>找马克一下</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>**很喜欢，可是为什么会有傻逼爽粉一直测试关键字？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>沉默之声: </b><br>
+<span>风险非常大啊，备案和证件搞定前还是自己用用别宣传</span><br>
+</p><p><b>coyove: </b><br>
+<span>liangpig1 发表于 2019-12-15 12:38</span><br>
+<span>哦哦，所以token就是每次post里面uuid那个field？</span><br>
+<span>然后服务器端会拿request ip和别的什么东西一起hash一 ...</span><br>
+<span>改了，现在应该好了。已登入用户按照ID生成，未登入用户按UserAgent生成</span><br>
+</p><p><b>kwin_: </b><br>
+<span>玩一玩发些nsfw先</span><br>
+</p><p><b>掉过脑袋: </b><br>
+<span>目前有点像个只有唯一主题的S1</span><br>
+</p><p><b>zwtll: </b><br>
+<span>Jobtowna 发表于 2019-12-15 00:27</span><br>
+<span>草，全是黄图</span><br>
+<span>我本来不想去注册的</span><br>
+</p><p><b>clablbkao: </b><br>
+<span>有了NSFW选项后就没有真正意义上的NSFW了，好气呀</span><br>
+</p><p><b>luciffer: </b><br>
+<span>我为什么不用mastodon</span><br>
+</p><p><b>氪金萌新: </b><br>
+<span>备案了吗 </span><br>
+</p><p><b>7七麦: </b><br>
+<span>**bot……</span><br>
+</p><p><b>gutzz: </b><br>
+<span>关注了涩图bot</span><br>
+</p><p><b>Mr.Cheung: </b><br>
+<span>目前看还有点简陋，不过好像蛮有意思的，先注册个号占个坑先</span><br>
+</p><p><b>melvin95: </b><br>
+<span>贡献了毛片</span><br>
+<span>— from samsung SM-G970F, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>万宗模因: </b><br>
+<span>在被封之前多看点色图</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902541[50-100]</guid>
+    </item>
+    <item>
+      <title>做了一个仿twitter的微博网站[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1902541-1-1.html</link>
+      <description>做了一个仿twitter的微博网站&#13;
+https://sserr.net
+&#13;
+混A岛的应该有人知道这个地址，以前网站是作其他用途的。最近看到twitter的tos更新的新闻，就想着改出了这个微博系统，验证一些技术。
+&#13;
+基本的发推，回复，@功能都有，没有推荐，搜索等功能。因为穷所以没做图片上传功能。
+&#13;
+现在最急迫的todo是hashtag，但受限于存储架构的设计，实现也比较困难。
+&#13;
+后端尽量做成了serverless，但现在还跑在vps上，前端没有任何js，给你最极简的浏览体验。</description>
+      <content:encoded><![CDATA[<p><b>coyove: </b><br>
+<span>做了一个仿twitter的微博网站</span><br>
+<span>https://sserr.net</span><br>
+<span>混A岛的应该有人知道这个地址，以前网站是作其他用途的。最近看到twitter的tos更新的新闻，就想着改出了这个微博系统，验证一些技术。</span><br>
+<span>基本的发推，回复，@功能都有，没有推荐，搜索等功能。因为穷所以没做图片上传功能。</span><br>
+<span>现在最急迫的todo是hashtag，但受限于存储架构的设计，实现也比较困难。</span><br>
+<span>后端尽量做成了serverless，但现在还跑在vps上，前端没有任何js，给你最极简的浏览体验。</span><br>
+</p><p><b>Лилия: </b><br>
+<span>手贱注册了一个id用的西里尔字母，现在id是一条横线</span><br>
+</p><p><b>fuochai: </b><br>
+<span>我以为是用来浏览微博的，原来是个新的系统</span><br>
+</p><p><b>coyove: </b><br>
+<span>Лилия 发表于 2019-12-13 19:56</span><br>
+<span>手贱注册了一个id用的西里尔字母，现在id是一条横线</span><br>
+<span>只支持数字字母和大部分的CJK字符，奇怪字符只能过滤掉了</span><br>
+</p><p><b>cqc1021: </b><br>
+<span>见证泥潭又一个陌陌的诞生？</span><br>
+<span>—— 来自 samsung SM-A9080, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>coyove: </b><br>
+<span>fuochai 发表于 2019-12-13 19:58</span><br>
+<span>我以为是用来浏览微博的，原来是个新的系统</span><br>
+<span>要被告的，不敢不敢</span><br>
+</p><p><b>OiCkilL: </b><br>
+<span>Mastodon 他不香么，没必要重新发明轮子的</span><br>
+</p><p><b>rei402: </b><br>
+<span>不是分布式怕不是分分钟挤爆</span><br>
+</p><p><b>冀人燕南天: </b><br>
+<span>射射英梨梨.net?</span><br>
+</p><p><b>coyove: </b><br>
+<span>冀人燕南天 发表于 2019-12-13 20:32</span><br>
+<span>射射英梨梨.net?</span><br>
+<span>sawamura spencer eriri 全名啦</span><br>
+</p><p><b>coyove: </b><br>
+<span>rei402 发表于 2019-12-13 20:30</span><br>
+<span>不是分布式怕不是分分钟挤爆</span><br>
+<span>分布式开局没人一起玩，也不是分分钟挂掉</span><br>
+</p><p><b>fuochai: </b><br>
+<span>“Token过期，请重试”</span><br>
+<span>换电脑上就这样了</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>改朝换代总是出乎人的意料，也许能反杀 pawoo 也说不定（</span><br>
+</p><p><b>Litccc: </b><br>
+<span>天国的饭否</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.1-alpha</span><br>
+</p><p><b>coyove: </b><br>
+<span>fuochai 发表于 2019-12-13 20:46</span><br>
+<span>“Token过期，请重试”</span><br>
+<span>换电脑上就这样了</span><br>
+<span>如果用的是刷新一下公网IP就可能会变的网络，就会这样</span><br>
+</p><p><b>lemoir: </b><br>
+<span>马克。要是能有锁推功能就好了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>moekyo: </b><br>
+<span>点注册会弹出下载。</span><br>
+</p><p><b>我有妹: </b><br>
+<span>其实饭否现在也活得好好的还有泥潭不少坛友 就是不能注册了 第三方app好多</span><br>
+</p><p><b>血翼龙: </b><br>
+<span>马，说不定能见证历史呢</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>说不定见证历史，但真要玩还是饭否吧</span><br>
+</p><p><b>coyove: </b><br>
+<span>lemoir 发表于 2019-12-14 01:17</span><br>
+<span>马克。要是能有锁推功能就好了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+<span>都没几个人来玩，锁推了就更没人了</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>青丘六: </b><br>
+<span>看看</span><br>
+</p><p><b>1943: </b><br>
+<span>已注册支持</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>584520184: </b><br>
+<span> 本帖最后由 584520184 于 2019-12-14 09:36 编辑 </span><br>
+<span>服务器在国内？</span><br>
+<span>咋打不开啊</span><br>
+</p><p><b>spadepie: </b><br>
+<span>说不定见证历史了呢，不过现在还没什么功能，先注册了</span><br>
+</p><p><b>马猴肥宅√: </b><br>
+<span>总是token过期没法发东西。连**bot都有了……</span><br>
+</p><p><b>d-scher: </b><br>
+<span>类twitter不是早就有了么，饭否还没死啊</span><br>
+</p><p><b>coyove: </b><br>
+<span>马猴肥宅√ 发表于 2019-12-14 09:42</span><br>
+<span>总是token过期没法发东西。连**bot都有了……</span><br>
+<span>因为设置的过期时间比较短，所以一个页面放置不动很快就会失效了</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>新吾: </b><br>
+<span>服务器在墙内？</span><br>
+</p><p><b>coyove: </b><br>
+<span>新吾 发表于 2019-12-14 10:41</span><br>
+<span>服务器在墙内？</span><br>
+<span>外，用了aws的基建，国内没法搞</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>coyove: </b><br>
+<span>爆了一下午肝支持图片了，因为反代的imgur所以有限流，凑活一下吧</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>johan·liebert: </b><br>
+<span>最近twitter不是对成人内容规制了吗？LZ可以考虑填补这方面的需求</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>注册了下</span><br>
+<span>看了下别人发的微博，那些文字被模糊化的是什么原因？</span><br>
+</p><p><b>澜沫: </b><br>
+<span>宅闻天下 发表于 2019-12-14 16:42</span><br>
+<span>注册了下</span><br>
+<span>看了下别人发的微博，那些文字被模糊化的是什么原因？</span><br>
+<span>删掉就变那样了</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lolozp: </b><br>
+<span>我有妹 发表于 2019-12-14 03:46</span><br>
+<span>其实饭否现在也活得好好的还有泥潭不少坛友 就是不能注册了 第三方app好多 ...</span><br>
+<span>我上饭否看了下，chorme还自动保存了用户名和密码，但登录提示我没有这个用户名</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>澜沫 发表于 2019-12-14 16:43</span><br>
+<span>删掉就变那样了</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>但还是可以看出部分字是啥</span><br>
+<span>还是说删掉后显示的是随机字模糊后的样子，不是原文模糊</span><br>
+</p><p><b>澜沫: </b><br>
+<span>宅闻天下 发表于 2019-12-14 16:49</span><br>
+<span>但还是可以看出部分字是啥</span><br>
+<span>还是说删掉后显示的是随机字模糊后的样子，不是原文模糊 ...</span><br>
+<span>仔细看会发现糊的都是“内容已删除，不要想了”</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>宅闻天下: </b><br>
+<span>澜沫 发表于 2019-12-14 16:51</span><br>
+<span>仔细看会发现糊的都是“内容已删除，不要想了”</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2 ...</span><br>
+<span>哈哈有趣</span><br>
+</p><p><b>恶意之刃: </b><br>
+<span> 本帖最后由 恶意之刃 于 2019-12-14 16:55 编辑 </span><br>
+<span>这个世界需要更多的色*图！</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>clablbkao: </b><br>
+<span>a岛的串怎么删了？</span><br>
+</p><p><b>findjay: </b><br>
+<span>楼主你听说过长毛象中文站吗，存在了大概两年左右，今年消失了，我觉得你的站如果用的人多了可能会被墙吧。</span><br>
+</p><p><b>我有妹: </b><br>
+<span>lolozp 发表于 2019-12-14 16:46</span><br>
+<span>我上饭否看了下，chorme还自动保存了用户名和密码，但登录提示我没有这个用户名 ...</span><br>
+<span>要是还记得用户名我可以@饭否管理员帮忙看下？</span><br>
+<span>顺便LZ的也注册支持了请持续更新</span><br>
+</p><p><b>coyove: </b><br>
+<span>clablbkao 发表于 2019-12-14 17:11</span><br>
+<span>a岛的串怎么删了？</span><br>
+<span>岛主x眼小(震声</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>y433wu: </b><br>
+<span>a岛哪个版？</span><br>
+</p><p><b>coyove: </b><br>
+<span>findjay 发表于 2019-12-14 17:23</span><br>
+<span>楼主你听说过长毛象中文站吗，存在了大概两年左右，今年消失了，我觉得你的站如果用的人多了可能会被墙吧。 ...</span><br>
+<span>被q了就换地方，或者向v2当年一样回来，手上也有个备案的域名。但是大问题是nsfw内容，目前的后端架构是没法完全清除这些的</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p><p><b>xinkj007: </b><br>
+<span>头像只能一开始设定么</span><br>
+<span>甚至没有后续加的入口</span><br>
+<span>一生的失策</span><br>
+</p><p><b>y433wu: </b><br>
+<span>xinkj007 发表于 2019-12-14 05:14</span><br>
+<span>头像只能一开始设定么</span><br>
+<span>甚至没有后续加的入口</span><br>
+<span>一生的失策</span><br>
+<span>有的，可以改头像。点页面左下角的自己的id</span><br>
+</p><p><b>mishidexieyu: </b><br>
+<span>y433wu 发表于 2019-12-14 18:27</span><br>
+<span>有的，可以改头像。点页面左下角的自己的id</span><br>
+<span>我刚发现，似乎有些延迟</span><br>
+</p><p><b>yikaa: </b><br>
+<span>注册一直提示token过期。</span><br>
+</p><p><b>coyove: </b><br>
+<span>yikaa 发表于 2019-12-14 18:43</span><br>
+<span>注册一直提示token过期。</span><br>
+<span>应该是你的IP一直在跳吧，你进ipip.net显示的IP是什么，刷新几次会变吗</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.2.0</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1902541[0-50]</guid>
+    </item>
+  </channel>
+</rss>

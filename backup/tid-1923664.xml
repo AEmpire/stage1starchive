@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>创建了基于Resilio Sync的镰池和马作品的分布式书库(更新月报</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>创建了基于Resilio Sync的镰池和马作品的分布式书库(更新月报</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:44:32 +0000</lastBuildDate>
+    <item>
+      <title>创建了基于Resilio Sync的镰池和马作品的分布式书库(更新月报[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1923664-1-1.html</link>
+      <description>创建了基于Resilio Sync的镰池和马作品的分布式书库(更新月报&#13;
+ 本帖最后由 SkywalkerJi 于 2020-5-6 16:35 编辑 
+
+主目录（小说，漫画，插画）：
+&#13;
+https://link.resilio.com/#f=toaru_project&amp;sz=67E8&amp;t=2&amp;s=L4CI2FJNETWATAGL5BMCCV7KSMAOLAHNO5XO7UT3WVLXHRP2IAPQ&amp;i=CX6AND7V76LDHECT737ZSQVW3WBMMHDFN&amp;v=2.6&amp;a=2
+&#13;
+影音内容（动画，音乐，广播剧）：
+&#13;
+https://link.resilio.com/#f=toaru_project_video&amp;sz=0&amp;t=2&amp;s=WBOODMELCJWRYXZJFJVNHAENI3MZHP6NH6EEW5HH7ABRL676O44Q&amp;i=C6D62NSME4RYAWEW522NP3OSUUOEI7T6E&amp;v=2.6&amp;a=2
+&#13;
+同人志，同人游戏：
+&#13;
+https://link.resilio.com/#f=toaru_project_ex&amp;sz=12E8&amp;t=2&amp;s=2TIA7MPMCAMJRZ2NW4BNYQ2REKJA6ZQAVDDLDKBYOOSO37BEREBQ&amp;i=CD2AZGXEDBKA7OUJSHAX7IREYZKX6PJW3&amp;v=2.6&amp;a=2
+&#13;
+使用方法：
+&#13;
+1.直接复制最上面的链接到地址栏，根据官网安装提示操作。
+&#13;
+或进行手动安装：
+&#13;
+1.在sync官网或镜像点下载客户端 
+&#13;
+2.安装客户端
+&#13;
+3.找到“输入密钥或链接”的选项，复制最上面的链接并导入。
+&#13;
+注意：
+&#13;
+1.如果客户端有选择性同步功能且打开的情况下，默认会自创建0KB占位文件避免消耗磁盘空间，需要手动打开同步或取消选择性同步。
+&#13;
+2.第一次打开软件并导入Sync key会需要搜索在线节点，该速度视本地网络情况而定。
+&#13;
+Resilio Sync官网：
+&#13;
+https://www.resilio.com/individuals/
+&#13;
+Sync客户端国内镜像点：
+&#13;
+https://lanzous.com/b015ch8xc 密码:g7ck
+&#13;
+_____________________________________________________________________________________
+&#13;
+使用Resilio Sync的原因：
+&#13;
+1. 不需要有自己的服务器
+&#13;
+2. 不需要有公网 IP——如果两台设备都在[内网]，只要这两台设备都能访问到公网，就可以相互同步
+&#13;
+3. 文件数量[无]限制，文件大小[无]限制
+&#13;
+4. 支持多种网络形态——可以“公网上互相同步”，也可以是“局域网内相互同步”。
+&#13;
+5. 支持各种操作系统——你能想到的终端都可以安装并接入，包括且不限于Windows，Mac，Linux，iOS，Android，FreeBSD，nas...
+&#13;
+6. 成熟的性能和可持续的维护性——Resilio Sync是一款多年的商业软件，由BitTorrent公司开发并维护。
+&#13;
+Resilio Sync曾经也叫BitTorrent Sync或者BT sync，是一个介于BT和网盘之间的技术，可以称之为分布式网盘。
+&#13;
+使用该分布式网盘的原因：
+&#13;
+1. [没有]存储空间的限制——真要说空间限制，那就是参与节点的硬盘容量(非主干节点也完全可以使用选择性同步。目前汉化小说容量为972MB。)
+&#13;
+2. [没有]下载流量的限制——与之对比，大部分商业网盘都有这个限制。(百度网盘的恶心应该很多人都知道。)
+&#13;
+3. [没有]文件大小限制——与之对比，大部分商业网盘对“单个文件大小”都作了限制。
+&#13;
+4. [没有]审查——没有人能阻止同步目录中的任何文件(不要怀疑这句话，哪怕是举报或DMCA也做不到)。
+&#13;
+5. [没有]费用——Resilio Sync是免费使用的，至少在本项目的实现上是完全免费的。
+&#13;
+6. [没有]中心——去中心化分布式，任何人包括本人的退出都不会影响同步目录继续存在和更新，如果有中心那就是镰池和马本人的产出。(同时也具备了普通网盘的特点，包括多人协作编辑和增量同步)
+&#13;
+7. [很难]被吞——Resilio Sync底层是BT协议和P2P协议的混合体，同时包含了强节点和代理功能。(现在在国内能正常使用，且几乎无法被封锁，这点已经被历史验证。）
+&#13;
+上面有很多是我直接抄来稍微改一下的，来自国内另一个已经成功运行多年的电子书项目，同步速度已经完全可以媲美各大商业网盘，因为各种原因我就不提名字了。
+&#13;
+项目初期我们会综合考虑节点负载能力，会逐步整理和上传丰富内容。对于还难以连接节点的读者，镰池和马汉化小说全集也可以在魔禁吧置顶中下载(百度网盘及其备份网盘)。影音部分也有VCB-S组提供了OneDrive世纪互联商用版分流，再次感谢。
+&#13;
+目前该同步目录已包含了镰池和马所有可发布的汉化小说和漫画，日后随着节点增多，且与某系列wiki，各大汉化组和贴吧的合作下会补全和马及其合作者旗下作品，画集，动画等其他资源，希望有更多人能够加入该项目的整理和维护以及更多节点加入该分布式网络。
+&#13;
+第一次在S1发帖，编辑器也不太会用。目前该项目已经在wiki和NGA进行内测，进展顺利，虽然也遇到了大量我启动前想到和没有想到的问题，距离能在贴吧和微博这样超大流量的地方推广也还存在不小距离。
+&#13;
+我其实也没想过给这个项目起什么名字，书库（Bank）是我们内部常用的一个代号，出自魔法禁书目录作品中学园都市一个存档大量信息的综合性资料库，同时它也是分布式的。
+&#13;
+我们希望通过书库可以让更多新人享受作品本身，包括那些还难以通过正常渠道观看的作品，对于老人也能借此更方便的寻找作品，更方便的取得汉化。对于有经济能力的读者，我们强烈建议您能支持镰池和马老师及其合作作者的正版作品，毕竟这一切的最终原动力最终都得来自镰池和马老师，你可以在wiki中找到详细的出版目录和收藏指南。
+&#13;
+我也希望为和马15年走来留下大量数据做出存档，与wiki一起交给下一批未来的读者。虽然建立书库我深知其艰难和能力不足，但就像旧约终章，右方之火在极圈叫出残存的救世之力；新约中局，亚雷斯塔冲入隐世拔出冲击之杖；知其不可而为之，这也是我喜欢这部作品的原因。
+&#13;
+——————————————————————————————————————
+&#13;
+项目进度会发布于：
+&#13;
+https://t.me/toaru_project
+&#13;
+获取编辑权限或投稿可联系：
+&#13;
+本人 或 某系列wiki编辑部
+&#13;
+Resilio Sync官网：
+&#13;
+https://www.resilio.com/individuals/
+&#13;
+Sync客户端国内镜像点：
+&#13;
+https://lanzous.com/b015ch8xc 密码:g7ck
+&#13;
+镰池和马官网：
+&#13;
+https://dengekibunko.jp/author/kamachikazuma/index.html
+&#13;
+某系列中文wiki：
+&#13;
+https://toaru.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
+&#13;
+魔法禁书目录吧：
+&#13;
+https://tieba.baidu.com/f?kw=%E9 ... 6%E7%9B%AE%E5%BD%95
+&#13;
+某科学的超电磁炮吧：
+&#13;
+https://tieba.baidu.com/f?kw=%E6 ... 5%E7%A3%81%E7%82%AE
+&#13;
+本文存档地址：
+&#13;
+https://telegra.ph/toaru-sync-project-04-07
+&#13;
+让我们共同迎接镰池和马下一个15年。</description>
+      <content:encoded><![CDATA[<p><b>SkywalkerJi: </b><br>
+<span>创建了基于Resilio Sync的镰池和马作品的分布式书库(更新月报</span><br>
+<span> 本帖最后由 SkywalkerJi 于 2020-5-6 16:35 编辑 </span><br>
+<span>主目录（小说，漫画，插画）：</span><br>
+<span>https://link.resilio.com/#f=toaru_project&sz=67E8&t=2&s=L4CI2FJNETWATAGL5BMCCV7KSMAOLAHNO5XO7UT3WVLXHRP2IAPQ&i=CX6AND7V76LDHECT737ZSQVW3WBMMHDFN&v=2.6&a=2</span><br>
+<span>影音内容（动画，音乐，广播剧）：</span><br>
+<span>https://link.resilio.com/#f=toaru_project_video&sz=0&t=2&s=WBOODMELCJWRYXZJFJVNHAENI3MZHP6NH6EEW5HH7ABRL676O44Q&i=C6D62NSME4RYAWEW522NP3OSUUOEI7T6E&v=2.6&a=2</span><br>
+<span>同人志，同人游戏：</span><br>
+<span>https://link.resilio.com/#f=toaru_project_ex&sz=12E8&t=2&s=2TIA7MPMCAMJRZ2NW4BNYQ2REKJA6ZQAVDDLDKBYOOSO37BEREBQ&i=CD2AZGXEDBKA7OUJSHAX7IREYZKX6PJW3&v=2.6&a=2</span><br>
+<span>使用方法：</span><br>
+<span>1.直接复制最上面的链接到地址栏，根据官网安装提示操作。</span><br>
+<span>或进行手动安装：</span><br>
+<span>1.在sync官网或镜像点下载客户端 </span><br>
+<span>2.安装客户端</span><br>
+<span>3.找到“输入密钥或链接”的选项，复制最上面的链接并导入。</span><br>
+<span>注意：</span><br>
+<span>1.如果客户端有选择性同步功能且打开的情况下，默认会自创建0KB占位文件避免消耗磁盘空间，需要手动打开同步或取消选择性同步。</span><br>
+<span>2.第一次打开软件并导入Sync key会需要搜索在线节点，该速度视本地网络情况而定。</span><br>
+<span>Resilio Sync官网：</span><br>
+<span>https://www.resilio.com/individuals/</span><br>
+<span>Sync客户端国内镜像点：</span><br>
+<span>https://lanzous.com/b015ch8xc 密码:g7ck</span><br>
+<span>_____________________________________________________________________________________</span><br>
+<span>使用Resilio Sync的原因：</span><br>
+<span>1. 不需要有自己的服务器</span><br>
+<span>2. 不需要有公网 IP——如果两台设备都在[内网]，只要这两台设备都能访问到公网，就可以相互同步</span><br>
+<span>3. 文件数量[无]限制，文件大小[无]限制</span><br>
+<span>4. 支持多种网络形态——可以“公网上互相同步”，也可以是“局域网内相互同步”。</span><br>
+<span>5. 支持各种操作系统——你能想到的终端都可以安装并接入，包括且不限于Windows，Mac，Linux，iOS，Android，FreeBSD，nas...</span><br>
+<span>6. 成熟的性能和可持续的维护性——Resilio Sync是一款多年的商业软件，由BitTorrent公司开发并维护。</span><br>
+<span>Resilio Sync曾经也叫BitTorrent Sync或者BT sync，是一个介于BT和网盘之间的技术，可以称之为分布式网盘。</span><br>
+<span>使用该分布式网盘的原因：</span><br>
+<span>1. [没有]存储空间的限制——真要说空间限制，那就是参与节点的硬盘容量(非主干节点也完全可以使用选择性同步。目前汉化小说容量为972MB。)</span><br>
+<span>2. [没有]下载流量的限制——与之对比，大部分商业网盘都有这个限制。(百度网盘的恶心应该很多人都知道。)</span><br>
+<span>3. [没有]文件大小限制——与之对比，大部分商业网盘对“单个文件大小”都作了限制。</span><br>
+<span>4. [没有]审查——没有人能阻止同步目录中的任何文件(不要怀疑这句话，哪怕是举报或DMCA也做不到)。</span><br>
+<span>5. [没有]费用——Resilio Sync是免费使用的，至少在本项目的实现上是完全免费的。</span><br>
+<span>6. [没有]中心——去中心化分布式，任何人包括本人的退出都不会影响同步目录继续存在和更新，如果有中心那就是镰池和马本人的产出。(同时也具备了普通网盘的特点，包括多人协作编辑和增量同步)</span><br>
+<span>7. [很难]被吞——Resilio Sync底层是BT协议和P2P协议的混合体，同时包含了强节点和代理功能。(现在在国内能正常使用，且几乎无法被封锁，这点已经被历史验证。）</span><br>
+<span>上面有很多是我直接抄来稍微改一下的，来自国内另一个已经成功运行多年的电子书项目，同步速度已经完全可以媲美各大商业网盘，因为各种原因我就不提名字了。</span><br>
+<span>项目初期我们会综合考虑节点负载能力，会逐步整理和上传丰富内容。对于还难以连接节点的读者，镰池和马汉化小说全集也可以在魔禁吧置顶中下载(百度网盘及其备份网盘)。影音部分也有VCB-S组提供了OneDrive世纪互联商用版分流，再次感谢。</span><br>
+<span>目前该同步目录已包含了镰池和马所有可发布的汉化小说和漫画，日后随着节点增多，且与某系列wiki，各大汉化组和贴吧的合作下会补全和马及其合作者旗下作品，画集，动画等其他资源，希望有更多人能够加入该项目的整理和维护以及更多节点加入该分布式网络。</span><br>
+<span>第一次在S1发帖，编辑器也不太会用。目前该项目已经在wiki和NGA进行内测，进展顺利，虽然也遇到了大量我启动前想到和没有想到的问题，距离能在贴吧和微博这样超大流量的地方推广也还存在不小距离。</span><br>
+<span>我其实也没想过给这个项目起什么名字，书库（Bank）是我们内部常用的一个代号，出自魔法禁书目录作品中学园都市一个存档大量信息的综合性资料库，同时它也是分布式的。</span><br>
+<span>我们希望通过书库可以让更多新人享受作品本身，包括那些还难以通过正常渠道观看的作品，对于老人也能借此更方便的寻找作品，更方便的取得汉化。对于有经济能力的读者，我们强烈建议您能支持镰池和马老师及其合作作者的正版作品，毕竟这一切的最终原动力最终都得来自镰池和马老师，你可以在wiki中找到详细的出版目录和收藏指南。</span><br>
+<span>我也希望为和马15年走来留下大量数据做出存档，与wiki一起交给下一批未来的读者。虽然建立书库我深知其艰难和能力不足，但就像旧约终章，右方之火在极圈叫出残存的救世之力；新约中局，亚雷斯塔冲入隐世拔出冲击之杖；知其不可而为之，这也是我喜欢这部作品的原因。</span><br>
+<span>——————————————————————————————————————</span><br>
+<span>项目进度会发布于：</span><br>
+<span>https://t.me/toaru_project</span><br>
+<span>获取编辑权限或投稿可联系：</span><br>
+<span>本人 或 某系列wiki编辑部</span><br>
+<span>Resilio Sync官网：</span><br>
+<span>https://www.resilio.com/individuals/</span><br>
+<span>Sync客户端国内镜像点：</span><br>
+<span>https://lanzous.com/b015ch8xc 密码:g7ck</span><br>
+<span>镰池和马官网：</span><br>
+<span>https://dengekibunko.jp/author/kamachikazuma/index.html</span><br>
+<span>某系列中文wiki：</span><br>
+<span>https://toaru.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5</span><br>
+<span>魔法禁书目录吧：</span><br>
+<span>https://tieba.baidu.com/f?kw=%E9 ... 6%E7%9B%AE%E5%BD%95</span><br>
+<span>某科学的超电磁炮吧：</span><br>
+<span>https://tieba.baidu.com/f?kw=%E6 ... 5%E7%A3%81%E7%82%AE</span><br>
+<span>本文存档地址：</span><br>
+<span>https://telegra.ph/toaru-sync-project-04-07</span><br>
+<span>让我们共同迎接镰池和马下一个15年。</span><br>
+</p><p><b>Ruby的披风: </b><br>
+<span>这项目看起来真的好酷，感觉可以作为字幕组放流以及某部作品或者ip圈子的小乐园</span><br>
+</p><p><b>亚瑟邓特: </b><br>
+<span>码一下，啥时候把新约看完</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>Ichthys: </b><br>
+<span>刚好上次这软件免费领装了一个</span><br>
+</p><p><b>FishHawk: </b><br>
+<span>有点厉害，回头去试试。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>RUANHYC: </b><br>
+<span>马克</span><br>
+</p><p><b>朔方原的星: </b><br>
+<span>有效工具一直很丰富，但小圈子的存亡总是危机一发的状态……</span><br>
+<span>btw大型电子书项目是什么，求pm！</span><br>
+</p><p><b>940247494: </b><br>
+<span>真滴牛批</span><br>
+</p><p><b>SkywalkerJi: </b><br>
+<span>Ichthys 发表于 2020-4-12 00:07</span><br>
+<span>刚好上次这软件免费领装了一个</span><br>
+<span>有pro版就可以选择性同步和绑定个人终端了，更方便一些。免费版其实也够用。</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>这个我几年前用过一次。。。看一个博客播主写教程教学生怎么下专业书 我用来下教材pdf的 然后那么多年过去早删了</span><br>
+<span>没想到在这里又看到了 没看到前都想不起来名字</span><br>
+</p><p><b>LoliType: </b><br>
+<span>我现在在用syncthing，感觉你推荐的这个就是syncthing的公用版本。精神支持一下楼主，有空折腾折腾。</span><br>
+</p><p><b>SkywalkerJi: </b><br>
+<span> 本帖最后由 SkywalkerJi 于 2020-4-12 15:45 编辑 </span><br>
+<span>LoliType 发表于 2020-4-12 14:41</span><br>
+<span>我现在在用syncthing，感觉你推荐的这个就是syncthing的公用版本。精神支持一下楼主，有空折腾折腾。 ...</span><br>
+<span>Syncthing是Resilio Sync的开源实现。</span><br>
+<span>如果以后BitTorrent 公司不靠谱了也可以迁徙过去。目前该项目还不需要完全去中心（目前也做不到），所以选用了Resilio Sync。</span><br>
+</p><p><b>SkywalkerJi: </b><br>
+<span> 本帖最后由 SkywalkerJi 于 2020-5-6 16:35 编辑 </span><br>
+<span>距离发布已经过去了一个月，具体的日志可以在telegram频道和NGA发布帖中看到。</span><br>
+<span>在S1更简洁的总结这一个月下：</span><br>
+<span>1.书库已经拥有超过500+节点，同步238G数据。</span><br>
+<span>2.我们收集了镰池和马所有汉化小说。包括在过去这一个月中，接收了《创约·魔法禁书目录01》 《新约·魔法禁书目录21》 《新约·魔法禁书目录22》，再次感谢汉化组的努力。</span><br>
+<span>3.我们收集了镰池和马所有汉化漫画。包括在过去一个月中，我们接收了《某科学的超电磁炮》《某科学的一方通行》《Astral Buddy》的最新连载汉化和《某科学的未元物质》单行本，以及包括《魔禁x超炮》在内的官方同人集。为了保证软件兼容性，将书库压缩格式统一为了zip，同时初步统一了命名规范。</span><br>
+<span>4.我们收集了镰池和马所有动画剧集。包括《魔法禁书目录》系列，《某科学的超电磁炮》系列，《重装武器》，《某科学的一方通行》在内8季动画+剧场版，同时提供了多家字幕组的外挂版本可供选择。对于科方和炮T，我们会在日后进行TV→BD的替换。</span><br>
+<span>5.我们收集了镰池和马相关音乐CD。</span><br>
+<span>5.我们收集了镰池和马作品相关插图，同时，我们已经为部分画师建立存档，包括灰村清孝，冬川基，田中雄一，乃木康仁，舘津テト，如月南极，真早。我们会在日后继续完善</span><br>
+<span>5.在同人模块，我们已经收集了10G的同人志，其中大部分为已汉化作品。</span><br>
+<span>6.我们收集了某系列三作PSP游戏的汉化版，以及定点决战卡牌，在未来，我们会添加其他官方游戏内容。我们也收集了部分同人游戏作品。</span><br>
+<span>7.我们提供了更多的反馈渠道：</span><br>
+<span>中国大陆读者可以通过QQ @SkywalkerJi</span><br>
+<span>某系列维基反馈交流群 669041026 </span><br>
+<span>中国大陆以外读者可以通过Telegram反馈：</span><br>
+<span>https://t.me/toaru_project 及附属讨论组</span><br>
+<span>如果你不想使用即时通讯软件，你也可以使用邮箱直接与我们取得联系：</span><br>
+<span>toaru.wiki#gmail.com (把#号换成@)</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1923664[0-50]</guid>
+    </item>
+  </channel>
+</rss>

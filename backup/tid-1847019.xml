@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求救，装个系统快疯了...</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求救，装个系统快疯了...</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:59:42 +0000</lastBuildDate>
+    <item>
+      <title>求救，装个系统快疯了...[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1847019-1-1.html</link>
+      <description>求救，装个系统快疯了...&#13;
+ 本帖最后由 Kasim 于 2019-7-16 11:45 编辑 
+
+大学后再没装过系统，今天朋友拿了台hp probook 441s过来....
+&#13;
+本来想装个系统几分钟的事情，没想到装了一天了，快疯了..求大神教我，感觉自己已经去时代脱节了。
+&#13;
+首先，说下机器目前的情况，分区全是GPT分区，bios里面设置为 uefi csm打开。
+&#13;
+用深度启动盘启动后，直接ghost不行，我改成按winNTsetup直接装iso文件，windosw可以安装.
+&#13;
+但是安装完后无法引导。提示如下黑屏.....（选择os后一直循环开机画面无法引导）
+&#13;
+分区表情况：</description>
+      <content:encoded><![CDATA[<p><b>Kasim: </b><br>
+<span>求救，装个系统快疯了...</span><br>
+<span> 本帖最后由 Kasim 于 2019-7-16 11:45 编辑 </span><br>
+<span>大学后再没装过系统，今天朋友拿了台hp probook 441s过来....</span><br>
+<span>本来想装个系统几分钟的事情，没想到装了一天了，快疯了..求大神教我，感觉自己已经去时代脱节了。</span><br>
+<span>首先，说下机器目前的情况，分区全是GPT分区，bios里面设置为 uefi csm打开。</span><br>
+<span>用深度启动盘启动后，直接ghost不行，我改成按winNTsetup直接装iso文件，windosw可以安装.</span><br>
+<span>但是安装完后无法引导。提示如下黑屏.....（选择os后一直循环开机画面无法引导）</span><br>
+<span>分区表情况：</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2019-7-16 11:09 编辑 </span><br>
+<span>你应该直接在Windows下装的</span><br>
+<span>我建议搞个win10 U盘安装，用官方的。</span><br>
+<span>现在笔记本系统都很智能的，换个新SSD，自动帮你搞备份隐藏分区，很傻瓜了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Kasim: </b><br>
+<span>zmw_831110 发表于 2019-7-16 11:05</span><br>
+<span>你应该直接在Windows下装的</span><br>
+<span>现在笔记本系统都很智能的，换个新SSD，自动帮你搞备份隐藏分区，很傻 ...</span><br>
+<span>这是一个老本啊，老本=。=，在pe下装的</span><br>
+</p><p><b>lupin1984t: </b><br>
+<span>老本直接PE正常安装啊 GHOST还是容易出事的...</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>Kasim 发表于 2019-7-16 11:07</span><br>
+<span>这是一个老本啊，老本=。=，在pe下装的</span><br>
+<span>用微软官方工具做win10 U盘解君愁</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>真草稚京: </b><br>
+<span> 本帖最后由 真草稚京 于 2019-7-16 11:21 编辑 </span><br>
+<span>既然是安装的UEFI模式的系统</span><br>
+<span>请问你的ESP分区呢</span><br>
+<span>没有ESP分区那UEFI启动文件是放哪儿的.......</span><br>
+<span>你安装后启动黑屏就是因为没启动文件啊</span><br>
+<span>说实话你要简单方法也很简单啊</span><br>
+<span>重新分区成MBR格式</span><br>
+<span>然后一键GHO就装好了.....</span><br>
+<span>当然文件太多不好备份那你就折腾ESP分区</span><br>
+<span>WINNTsetup 引导驱动器就是选择ESP分区</span><br>
+<span>另外截图请上你的WINNTSETUP选择好后的截图</span><br>
+</p><p><b>404489039: </b><br>
+<span>没有什么用原生iOS不能解决的，如果有上原生Windows10</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>你大学的时候能用GPT给win7作系统盘？？？</span><br>
+</p><p><b>Kasim: </b><br>
+<span>真草稚京 发表于 2019-7-16 11:15</span><br>
+<span>既然是安装的UEFI模式的系统</span><br>
+<span>请问你的ESP分区呢</span><br>
+<span>谢谢大神~~~重新选择esp分区（y区），麻烦请看这样设置合适不~图已经更新了~~</span><br>
+</p><p><b>Kasim: </b><br>
+<span>真草稚京 发表于 2019-7-16 11:15</span><br>
+<span>既然是安装的UEFI模式的系统</span><br>
+<span>请问你的ESP分区呢</span><br>
+<span>已经安上了~~~谢谢~~就是这个问题</span><br>
+</p><p><b>King5268: </b><br>
+<span>win10的时代已经基本淘汰ghost系统了</span><br>
+</p><p><b>macos: </b><br>
+<span>gpt安装的话，还是走全uefi最简单，扔给安装盘自己清空创建，不用其他取巧的方法</span><br>
+</p><p><b>godzillaqqq: </b><br>
+<span> 本帖最后由 godzillaqqq 于 2019-7-16 16:42 编辑 </span><br>
+<span>...........GHOst 完修复引导啊，笨</span><br>
+<span>....什么分区工具这么水，GPT分区连ESP都没有.........</span><br>
+</p><p><b>GrimReaper: </b><br>
+<span>,IT天空优启通,UEFI引导进win10,先分区,然后用自带的Windows安装器,引导选在ESP分区,选好esd镜像,走起.</span><br>
+<span>镜像推荐YOS的,干净.</span><br>
+</p><p><b>sirlion: </b><br>
+<span>注册者资格 发表于 2019-7-16 07:27</span><br>
+<span>你大学的时候能用GPT给win7作系统盘？？？</span><br>
+<span>win7 64bit一直都支持啊，只是安装盘的efi文件不行，拿win10的efi代替即可gpt系统引导启动了</span><br>
+</p><p><b>Sheny: </b><br>
+<span>csm是兼容模块，你硬盘全部gpt格式，应该彻底关掉csm…</span><br>
+</p><p><b>注册者资格: </b><br>
+<span>sirlion 发表于 2019-7-17 00:05</span><br>
+<span>win7 64bit一直都支持啊，只是安装盘的efi文件不行，拿win10的efi代替即可gpt系统引导启动了 ...</span><br>
+<span>与其做这种替换，win7干嘛不老老实实用MBR呢，又不是说系统盘有2t以上</span><br>
+</p><p><b>qqzj12: </b><br>
+<span>重新装上后就可以把csm关掉了，这样启动会更快，开机的logo也会分辨率高一点。</span><br>
+</p><p><b>Kryss: </b><br>
+<span>2019年所有PC装系统遇到的问题全是自己瞎几把折腾魔改pe和ghost弄出来的，用微软工具制作u盘安装win10就不可能有问题</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1847019[0-50]</guid>
+    </item>
+  </channel>
+</rss>

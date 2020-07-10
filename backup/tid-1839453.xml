@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问有没有数学解题方法搬运为python的教程？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问有没有数学解题方法搬运为python的教程？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:47:18 +0000</lastBuildDate>
+    <item>
+      <title>请问有没有数学解题方法搬运为python的教程？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839453-1-1.html</link>
+      <description>请问有没有照着数学公式一步一步搬运为python的教程？&#13;
+不久前，做了一个试验，绞尽脑汁，尝试多次，搞到半夜，终于将初中课本里的手动开平方根方法一步一步搬运为python。各路大神看了，都笑了。
+&#13;
+闲话休题，言归正传。数学公式那是数学家科学家的事，只需要如小孩子照着图纸搭积木般，照着数学公式，一步一步将公式搬运为电脑能理解的pyhton就行。请问有这样的教程？
+&#13;
+还是已经发明了只要输入数学公式，直接生成代码的工具？</description>
+      <content:encoded><![CDATA[<p><b>hang_on: </b><br>
+<span>你需要一本计算方法导论，上面把常用的计算工具的计算机逻辑都给你列好了</span><br>
+</p><p><b>mooerfoes: </b><br>
+<span> 本帖最后由 mooerfoes 于 2019-6-15 12:29 编辑 </span><br>
+<span>CAMUS.net 发表于 2019-6-14 22:04</span><br>
+<span>目的只是将本来手工做的，如如1+2+3……X等于多少？搬运到python里。这个简单，要是遇上复杂一点，要怎么 ...</span><br>
+<span>你的“复杂”是哪一方面的东西呢？如果是超出程序计算范围的大数字，那么你更应该去了解一下数据结构的相关知识，学会使用链表。如果纯粹是使用到的数学方法太过复杂了，那我也不知道该咋办，自己掌握到的方法越多，就越容易找到把数学方法程序化的办法，我是这么认为的。至于程序怎么写好看，这点还是多看看别人怎么写的比较好，有些写法你不见过一次确实是想不到的</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>hang_on 发表于 2019-6-15 12:21</span><br>
+<span>你需要一本计算方法导论，上面把常用的计算工具的计算机逻辑都给你列好了 ...</span><br>
+<span>计算方法里面，有用python举例吗？传说这个最简单了</span><br>
+</p><p><b>hang_on: </b><br>
+<span>CAMUS.net 发表于 2019-6-15 12:56</span><br>
+<span>计算方法里面，有用python举例吗？传说这个最简单了</span><br>
+<span>你可以去找找，应该是有的，我们教材那用的是c/c++代码……</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-15 13:16 编辑 </span><br>
+<span>冢原要 发表于 2019-6-15 12:14</span><br>
+<span>LZ是想自己搞一个类似mathematica这种的软件吗？</span><br>
+<span>不是，例如村里上学走路到学校要2小时。</span><br>
+<span>现在富裕了，原路扩建了公路，也买了摩托车，想学会摩托车，照着原路开到学校。</span><br>
+</p><p><b>holdson: </b><br>
+<span>我不是很明白楼主的意思……是要把乘除开方这些全都变成最基础的加减运算吗？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>holdson 发表于 2019-6-15 13:14</span><br>
+<span>我不是很明白楼主的意思……是要把乘除开方这些全都变成最基础的加减运算吗？</span><br>
+<span>-- 来自 能看大图的 Stage ...</span><br>
+<span>不是，是数学解题方法转换为python代码。</span><br>
+</p><p><b>holdson: </b><br>
+<span>CAMUS.net 发表于 2019-06-14 15:48:33</span><br>
+<span>============================================================================</span><br>
+<span>请问有没有照着数学 ...我似乎看明白了，程序里面相应的运算都是有相应的运算符或者函数的。</span><br>
+<span>比如要开方，程序里面就写sqrt();</span><br>
+<span>要求平方，就写^2或者**2；</span><br>
+<span>做除法就是a/b；</span><br>
+<span>去余数就写mod（a,b）等等</span><br>
+<span>程序里面直接写就可以了，已经默认了有这个内置的命令。</span><br>
+<span>如果楼主想要明白这些命令是怎么实现的，那就更复杂了，也是很底层的东西，可能不是楼主想知道的。</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>holdson: </b><br>
+<span>holdson 发表于 2019-06-15 13:21:26</span><br>
+<span>我似乎看明白了，程序里面相应的运算都是有相应的运算符或者函数的。</span><br>
+<span>比如要开方，程序里面就写sqrt();</span><br>
+<span>要 ...可能还是不对，楼主的意思我没理解…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>我看这帖子有种粉刺挤不出来的感觉</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-15 13:51 编辑 </span><br>
+<span>holdson 发表于 2019-6-15 13:32</span><br>
+<span>可能还是不对，楼主的意思我没理解…</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端 ...</span><br>
+<span>例如：一元二次方程—— ax^2 +bx+c=0 (a≠0)</span><br>
+<span>将解法</span><br>
+<span>转为python代码</span><br>
+<span>import math</span><br>
+<span>def quadratic(a,b,c):</span><br>
+<span>    if a != 0:</span><br>
+<span>      p = b * b - 4 * a * c</span><br>
+<span>      x1 = (-b + math.sqrt(p)) / (2 * a)</span><br>
+<span>      x2 = (-b - math.sqrt(p)) / (2 * a)</span><br>
+<span>      return x1, x2</span><br>
+<span>    else:</span><br>
+<span>      return ('输入错误！')</span><br>
+<span>a = float(input('请输入a:'))</span><br>
+<span>b = float(input('请输入b:'))</span><br>
+<span>c = float(input('请输入c:'))</span><br>
+<span>print(quadratic(a, b, c))</span><br>
+</p><p><b>baka9: </b><br>
+<span>CAMUS.net 发表于 2019-6-15 13:50</span><br>
+<span>例如：一元二次方程—— ax^2 +bx+c=0 (a≠0)</span><br>
+<span>将解法</span><br>
+<img src="https://i.loli.net/2019/06/15/5d048a1a4642238589.png" title="https://i.loli.net/2019/06/15/5d048a1a4642238589.png"><br>
+</p><p><b>BarricadeMKXX: </b><br>
+<span>算是看懂了，楼主的意思就是解题方法已知</span><br>
+<span>然后不会如何一个运算符一个运算符地把数学方法在字面上翻译成能跑的程序代码这个建议回去先看看高中数学必修3（）</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>baka9 发表于 2019-6-15 14:03</span><br>
+<span>这个是不是要手动输入？</span><br>
+<span>假如有1000组(a,b,c)，能不能自动导入csv，SQL这些</span><br>
+</p><p><b>Linjiangzhu: </b><br>
+<span>你说的这一类的“教程”其实是不可得的事情。举个例子，搞机器学习的岗位里有研究员，算法工程师和软件工程师。算法工程师就是把理论模型实例化，把那些数学公式弄到计算机上并且做一些实际应用的权衡。你说的这类“教程”本来就是广大程序员的工作，只不过你限制在“数学运算”这个题目上了。这类问题本来就是单个零散的，没有通用法则，你要找就按你要解决的问题找。</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>不知道现在还有哪些专业本科学数值计算的?</span><br>
+<span>什么龙格库塔法 阿达姆斯法 就记得这几个名字了</span><br>
+</p><p><b>holdson: </b><br>
+<span>CAMUS.net 发表于 2019-6-15 13:50</span><br>
+<span>例如：一元二次方程—— ax^2 +bx+c=0 (a≠0)</span><br>
+<span>将解法</span><br>
+<span>对呀，这不是已经解决了吗，楼主说的“更复杂的例子”能不能举几个例子</span><br>
+</p><p><b>ykrank: </b><br>
+<span>这问题之所以没人听得懂，是因为楼主在问一个怎么学习高中数学的问题</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>ykrank: </b><br>
+<span>大家都以为你是在问实操，其实缺的是基本的数学代数逻辑</span><br>
+<span>—— 来自 Xiaomi Mi Note 3, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839453[50-100]</guid>
+    </item>
+    <item>
+      <title>请问有没有数学解题方法搬运为python的教程？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1839453-1-1.html</link>
+      <description>请问有没有照着数学公式一步一步搬运为python的教程？&#13;
+不久前，做了一个试验，绞尽脑汁，尝试多次，搞到半夜，终于将初中课本里的手动开平方根方法一步一步搬运为python。各路大神看了，都笑了。
+&#13;
+闲话休题，言归正传。数学公式那是数学家科学家的事，只需要如小孩子照着图纸搭积木般，照着数学公式，一步一步将公式搬运为电脑能理解的pyhton就行。请问有这样的教程？
+&#13;
+还是已经发明了只要输入数学公式，直接生成代码的工具？</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>请问有没有照着数学公式一步一步搬运为python的教程？</span><br>
+<span>不久前，做了一个试验，绞尽脑汁，尝试多次，搞到半夜，终于将初中课本里的手动开平方根方法一步一步搬运为python。各路大神看了，都笑了。</span><br>
+<span>闲话休题，言归正传。数学公式那是数学家科学家的事，只需要如小孩子照着图纸搭积木般，照着数学公式，一步一步将公式搬运为电脑能理解的pyhton就行。请问有这样的教程？</span><br>
+<span>还是已经发明了只要输入数学公式，直接生成代码的工具？</span><br>
+</p><p><b>乐扣是冠军: </b><br>
+<span>不知道你要幹嘛，但是感覺你需要matlab</span><br>
+</p><p><b>icicle314: </b><br>
+<span>没有。简单的工作库已经写好了，更复杂的东西有些库也已经做好了，真的复杂的事，这种事情不该留给教程。</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>你需要数据结构和算法导论.</span><br>
+</p><p><b>Prushka: </b><br>
+<span>什么意思？numpy不够你用了吗。</span><br>
+</p><p><b>革萌: </b><br>
+<span>https://www.wolframalpha.com/?source=nav</span><br>
+<span>请</span><br>
+</p><p><b>诚司: </b><br>
+<span> 本帖最后由 诚司 于 2019-6-14 16:08 编辑 </span><br>
+<span>那贴被人吐槽不是因为这个</span><br>
+<span>简单地说，你应该学一下牛顿迭代…………</span><br>
+<span>初中的那个方法只是牛顿迭代的超粗版本…………</span><br>
+<span>哪里有人用程序实现算法，然后用了一个十进制专用的方法的</span><br>
+<span>你判断能不能被三整除，也不能先转成十进制再把位数加起来吧</span><br>
+</p><p><b>jctc: </b><br>
+<span>我明白跟你讲</span><br>
+<span>计算机里算平方根</span><br>
+<span>有一些特别的技巧</span><br>
+<span>但是如果真要做，无外乎牛顿迭代</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>楼主你是要骑🚲登月？</span><br>
+</p><p><b>暗铁: </b><br>
+<span>LZ你知道有一种行为被称作“重复造轮子”吗</span><br>
+</p><p><b>御风八极: </b><br>
+<span>好好学习matlab，此前还要学矩阵论。</span><br>
+<span>然后是numpy。</span><br>
+<span>免费的我记得好像还有个mathematica？不过差距很大。</span><br>
+<span>其他数学库不清楚。</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>jctc 发表于 2019-6-14 16:07</span><br>
+<span>我明白跟你讲</span><br>
+<span>计算机里算平方根</span><br>
+<span>有一些特别的技巧</span><br>
+<span>是将现实中手动怎么算的方法，告诉电脑是怎么样的，让电脑算。</span><br>
+<span>用长除式算法开平方根来试验，是因为这个公式简单，只需要转换成四则混合运算。</span><br>
+</p><p><b>zxlice: </b><br>
+<span>numerical method 你怕是应该看这种书？</span><br>
+</p><p><b>blueshift: </b><br>
+<span>世上有很多教算法的材料，但你想要的专教“如何把一个算法实现”的材料恐怕真不多……再说了那不就是基本的“学python”吗</span><br>
+</p><p><b>fsz1987: </b><br>
+<span>https://item.jd.com/45822379676.html</span><br>
+<img src="https://img11.360buyimg.com/n1/s200x200_jfs/t1/32471/36/13321/22069/5cb9ce23E6f084dc1/04ef6a711cd0efd5.jpg" title="https://img11.360buyimg.com/n1/s200x200_jfs/t1/32471/36/13321/22069/5cb9ce23E6f084dc1/04ef6a711cd0efd5.jpg"><br>
+<span>买本看看应该能满足你的好奇心.</span><br>
+</p><p><b>lipo: </b><br>
+<span>计算机上都是数值算法</span><br>
+</p><p><b>Hieda: </b><br>
+<span>...我觉得你只需要百度一下高精度算法的各种实现</span><br>
+</p><p><b>脑洞: </b><br>
+<span>研究生学过这门课叫数值计算，展开就是了，</span><br>
+</p><p><b>focky: </b><br>
+<span>Numerical Recipes +1</span><br>
+</p><p><b>诚司: </b><br>
+<span>暗铁 发表于 2019-6-14 16:10</span><br>
+<span>LZ你知道有一种行为被称作“重复造轮子”吗</span><br>
+<span>一码归一码，写开平方就算重复造轮子，你也别学链表和红黑树了</span><br>
+</p><p><b>にまぴ: </b><br>
+<span>学习成本最低的是mathematica或者wolframalpha吧</span><br>
+</p><p><b>onezeron: </b><br>
+<span>正常来讲调库，想了解原理专门有课和内容上面已经说了。这玩意其实确实挺恶心，一般正常开发都是从随机数开始感兴趣的</span><br>
+</p><p><b>d2loader: </b><br>
+<span> 楼主想要学多深呢</span><br>
+<span>手写牛顿迭代没啥啊</span><br>
+<span>不过正经库里的Sqrt会有些优化技巧，用到位运算之类的</span><br>
+<span>你要做到那个程度就要花些时间了</span><br>
+</p><p><b>alaya: </b><br>
+<span>看得出lz是个通才，而且是一位乐于通过因特网分享经验的大虾，但是您还是潜心研究设计吧，扣扣你</span><br>
+</p><p><b>Feena: </b><br>
+<span>wolfram?</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>d2loader 发表于 2019-6-14 16:44</span><br>
+<span>楼主想要学多深呢</span><br>
+<span>手写牛顿迭代没啥啊</span><br>
+<span>学会一点简单的，就是现实中会使用的方法，可以搬运到python上就不错了</span><br>
+</p><p><b>sakura79: </b><br>
+<span>sympy,请</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>没看懂……你这需求学会Python基本运算符不就行了吗？</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>造轮子爱好者。</span><br>
+<span>但是你别用解释性语言干这些啊</span><br>
+</p><p><b>有口皆悲: </b><br>
+<span>去上课或者看教材吧，要不然会成为算法民科。</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>工科的课程里有简易的数值计算内容，如果想深入点可以选修一门叫数值计算的数学系课程。</span><br>
+</p><p><b>mooerfoes: </b><br>
+<span>不太懂楼主的目的，我对python也不是很熟悉，但是只是单纯把公式“搬进去”，目的是什么呢？如果是为了方便计算，只要搞清楚计算方法然后知道该怎么调用函数甚至使用运算符不好么……</span><br>
+<span>如果不追求精确解，熟练运用一下程序语言肯定足够了，而且还能体会一下编程的快乐。</span><br>
+</p><p><b>jinyang411: </b><br>
+<span>有时间做点啥不好，要重复造轮子？</span><br>
+</p><p><b>matrixtheory: </b><br>
+<span>为了搞明白为什么\grad \log(\pi (a|s))在python里面是tf.nn.softmax_cross_entropy_with_logits这个玩意，我看了两本数学书</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>metaphias: </b><br>
+<span>建议直接学数学</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>没人告诉楼主因为优化问题Python搞递归效率极低，所以不适合搞数学公式吗。</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>ocaml专门为递归运算设计的，从递归论学起，请。</span><br>
+</p><p><b>uswhzh: </b><br>
+<span>你要单纯求函数值，可以了解一下lambda函数。自动机，递归论，lambda函数三者等价，等于计算机能做的事。</span><br>
+</p><p><b>远野四季: </b><br>
+<span>数学公式调用对应函数就可以解决了</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-14 23:45 编辑 </span><br>
+<span>mooerfoes 发表于 2019-6-14 17:59</span><br>
+<span>不太懂楼主的目的，我对python也不是很熟悉，但是只是单纯把公式“搬进去”，目的是什么呢？如果是为了方便 ...</span><br>
+<span>目的只是将本来手工做的，如如1+2+3……X等于多少？搬运到python里。这个简单，要是遇上复杂一点，要怎么学？</span><br>
+<span>print('请输入起始数字:')</span><br>
+<span>head = int(input())</span><br>
+<span>print('请输入结束数字:')</span><br>
+<span>foot = int(input())</span><br>
+<span>sum = 0</span><br>
+<span>while foot >= head:</span><br>
+<span>    subtotal = sum</span><br>
+<span>    sum = sum + head</span><br>
+<span>    print("%s + %s = %s" % (subtotal, head, sum))</span><br>
+<span>    head = head+1</span><br>
+<span>print("计算结果：%d" % sum)</span><br>
+<span>请输入起始数字:</span><br>
+<span>1</span><br>
+<span>请输入结束数字:</span><br>
+<span>10</span><br>
+<span>0 + 1 = 1</span><br>
+<span>1 + 2 = 3</span><br>
+<span>3 + 3 = 6</span><br>
+<span>6 + 4 = 10</span><br>
+<span>10 + 5 = 15</span><br>
+<span>15 + 6 = 21</span><br>
+<span>21 + 7 = 28</span><br>
+<span>28 + 8 = 36</span><br>
+<span>36 + 9 = 45</span><br>
+<span>45 + 10 = 55</span><br>
+<span>计算结果：55</span><br>
+</p><p><b>aithinkso: </b><br>
+<span>经过坚苦卓绝的练习，楼主学会了命令式编程 </span><br>
+<span>—— 来自 Xiaomi MI MAX, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>计算方法这门课就是讲怎么把一些数学上的计算题用编程来解决，可以直接买书自学</span><br>
+<span>—— 来自 samsung SM-C7010, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塩天使リエル: </b><br>
+<span>CAMUS.net 发表于 2019-6-14 22:04</span><br>
+<span>目的只是将本来手工做的，如如1+2+3……X等于多少？搬运到python里。这个简单，要是遇上复杂一点，要怎么 ...</span><br>
+<span>闲话休题，言归正传。数学公式那是数学家科学家的事，只需要如小孩子照着图纸搭积木般，照着数学公式，一步一步将公式搬运为电脑能理解的pyhton就行。请问有这样的教程？</span><br>
+<span>还是已经发明了只要输入数学公式，直接生成代码的工具？</span><br>
+<span>感觉有点明白你提的问题是什么意思了。</span><br>
+<span>本来程序解决问题的步骤是：问题 -> 算法 -> 程序，你只想知道第二步怎么做，而楼里很多人误以为你是要做第一步，重新发明算法。</span><br>
+<span>以1+2+。。。+n为例，第一步：高斯已经告诉我们用 n(n+1)/2 来算；第二步：你想把高斯的算法写成python代码：</span><br>
+<span>n = int(input())</span><br>
+<span>sum = n * (n + 1) // 2</span><br>
+<span>print(sum)</span><br>
+<span>大家吐槽的点主要集中在：</span><br>
+<span>1、选的算法不好</span><br>
+<span>2、程序写得不漂亮</span><br>
+</p><p><b>nsevit: </b><br>
+<span>变量名居然叫hand和foot</span><br>
+</p><p><b>ustslayer: </b><br>
+<span> 本帖最后由 ustslayer 于 2019-6-14 23:31 编辑 </span><br>
+<span>可以试试用Coq写，写出来不仅能运行，还能自己证明自己写的是对的！你有想过加法交换律和结合律是怎么证明的吗☺️</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>塩天使リエル 发表于 2019-6-14 23:03</span><br>
+<span>感觉有点明白你提的问题是什么意思了。</span><br>
+<span>本来程序解决问题的步骤是：问题 -> 算法 -> 程序，你只想知道第 ...</span><br>
+<span>是的，(1+n)*n/2</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>nsevit 发表于 2019-6-14 23:06</span><br>
+<span>变量名居然叫hand和foot</span><br>
+<span>我错了，我改一下。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>07年的号，也拿来钓鱼？</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>昨天好像不能准备表达想要的意思，改一下——请问有没有数学解题方法搬运为python的教程？</span><br>
+</p><p><b>冢原要: </b><br>
+<span>LZ是想自己搞一个类似mathematica这种的软件吗？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1839453[0-50]</guid>
+    </item>
+  </channel>
+</rss>

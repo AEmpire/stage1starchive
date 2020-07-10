@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>11:59:59pm的下一秒是（）？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>11:59:59pm的下一秒是（）？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:30:49 +0000</lastBuildDate>
+    <item>
+      <title>11:59:59pm的下一秒是（）？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851629-1-1.html</link>
+      <description>11:59:59pm的下一秒是（）？&#13;
+ 本帖最后由 cxn 于 2019-8-6 14:01 编辑 
+&#13;
+A、12:00:00am
+&#13;
+B、12:00:00pm
+&#13;
+C、00:00:00am
+&#13;
+D、00:00:00pm
+&#13;
+---------------------------------------------------------------
+&#13;
+公布答案，其实答案是有争议的，但是一般认为是A
+&#13;
+1、12小时制的取值范围是
+&#13;
+2、PM/AM的分割点是12:00，用24小时制来表示am的取值范围是[0:00,12:00),pm是[12:00,24:00)
+&#13;
+3、所以，am是&amp;；pm同理略
+&#13;
+相信大部分人的感想都是12小时制早死早超生，me too</description>
+      <content:encoded><![CDATA[<p><b>Enokass: </b><br>
+<span>感觉是C，（12制和英制都早死早超生</span><br>
+</p><p><b>narutoz: </b><br>
+<span>天网 发表于 2019-8-6 13:27</span><br>
+<span>抱歉，我想起了这个梗。干脆叫00:00:01 Era of SuperPowerINDIA</span><br>
+<span>JAI HIND!!!!!!!!</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>lalala德玛西亚 发表于 2019-8-6 13:54</span><br>
+<span>那24小时制 零点整是0还是 24......</span><br>
+<span>ISO 8601</span><br>
+<span>4.2.3 Beginning/end of the day</span><br>
+<span>The complete representations in basic and extended format for the end of the day and the beginning of the following day, in accordance with 4.2.2, shall be expressed as follows:</span><br>
+<span>Basic format Extended format</span><br>
+<span>000000 00:00:00 Beginning of day</span><br>
+<span>240000 24:00:00 End of day</span><br>
+<span>The representations may have reduced accuracy in accordance with 4.2.2.3 or may be designated as a time expression in accordance with 4.2.2.5. To represent the start or end of a day, the representations may be expanded with a decimal fraction containing only zeros in accordance with 4.2.2.4.</span><br>
+<span>NOTE 1 The end of one calendar day  coincides with  at the start of the next calendar day, e.g.  on 12 April 1985 is the same as  on 13 April 1985.</span><br>
+<span>NOTE 2 The end of day representations, where  has the value , shall be used only to represent the end of day within a time interval in accordance with 4.4 or recurring time interval in accordance with 4.5.</span><br>
+<span>NOTE 3 The end of day representation, where  has a value of , shall not be used for a single time point.</span><br>
+<span>简而言之，如果要表示一个时间点，只能是00:00:00而不能是24:00:00</span><br>
+<span>如果要表示一个时间段，可以写成 2019-07-13T00:00:00/2019-07-13T24:00:00</span><br>
+</p><p><b>一个好名字: </b><br>
+<span>那一秒应该消失了</span><br>
+</p><p><b>spoony: </b><br>
+<span>wzk3232 发表于 2019-8-6 13:21</span><br>
+<span>为了防止误解，鬼佬很多时候都得特意把时间改为11:59这种……</span><br>
+<span>虽然我也不知道为什么即使忍受麻烦也不愿意换 ...</span><br>
+<span>改成24小时又会有人看不懂1800是几点</span><br>
+</p><p><b>性欲モンスター: </b><br>
+<span>反对12小时制的请身体力行先砸烂自己的指针时钟包括手表。</span><br>
+</p><p><b>棒读: </b><br>
+<span>是影时间啦，学校要变成巨大的塔了</span><br>
+</p><p><b>隐形术的隐形书: </b><br>
+<span>12小时制又没有0点，我看我手机就没有</span><br>
+</p><p><b>你的手机: </b><br>
+<span>如果是A的话，那么11.59.59am下一秒是啥呢？</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>你的手机 发表于 2019-8-6 21:43</span><br>
+<span>如果是A的话，那么11.59.59am下一秒是啥呢？</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>按照一般的标准，是12:00:00 p.m. 或者按照新的推荐标准写成noon / noon 12</span><br>
+</p><p><b>sshnuke: </b><br>
+<span>シャスタ 发表于 2019-8-6 16:34</span><br>
+<span>时间都是左闭右开啊.忘了春晚怎么倒计时了么.数到0的一瞬间新的一年就开始了.所以00:00:00已经是第二天了.2 ...</span><br>
+<span>12:00:00pm是中午12点</span><br>
+</p><p><b>圈量子: </b><br>
+<span>个人感觉是A，十二小时制去死啦</span><br>
+</p><p><b>cloudrry: </b><br>
+<span>12小时制没有0点的吧答案肯定是A</span><br>
+<span>24小时也没有am pm</span><br>
+<span>我记得小学还学过 。。感觉上是常识了 竟然这么多人不知道 12pm是中午 </span><br>
+<span>为什么这么讨厌12小时制啊 平时都不说晚上9点吗</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>シャスタ: </b><br>
+<span>sshnuke 发表于 2019-8-6 21:58</span><br>
+<span>12:00:00pm是中午12点</span><br>
+<span>"第二个"</span><br>
+</p><p><b>Fstt: </b><br>
+<span>嗯…现在我知道答案了，选A</span><br>
+</p><p><b>elflie: </b><br>
+<span>24小时制天下第一</span><br>
+</p><p><b>你的手机: </b><br>
+<span>maxwell_goblin 发表于 2019-8-6 21:51</span><br>
+<span>按照一般的标准，是12:00:00 p.m. 或者按照新的推荐标准写成noon / noon 12</span><br>
+<span>所以翻译成中文是下午12点，接下来是下午1点？</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fljsky: </b><br>
+<span>你的手机 发表于 2019-8-7 07:46</span><br>
+<span>所以翻译成中文是下午12点，接下来是下午1点？</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版...</span><br>
+<span>中文里一般说中午12点和晚上12点吧</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>你的手机 发表于 2019-8-7 07:46</span><br>
+<span>所以翻译成中文是下午12点，接下来是下午1点？</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版...</span><br>
+<span>中午12点，下午1点</span><br>
+<span>很多人觉得12小时制还能用，原因之一就是口语中自动回避了下午12点和上午12点这种说法</span><br>
+</p><p><b>破碎的境界线: </b><br>
+<span>当然是A，选别的肯定是没被赶飞机坑过</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>nsevit: </b><br>
+<span>A</span><br>
+<span>当你买过12:10AM起飞的机票之后就会记住了</span><br>
+</p><p><b>昆汀: </b><br>
+<span>没有下一秒</span><br>
+</p><p><b>你的手机: </b><br>
+<span>maxwell_goblin 发表于 2019-8-7 08:34</span><br>
+<span>中午12点，下午1点</span><br>
+<span>很多人觉得12小时制还能用，原因之一就是口语中自动回避了下午12点和上午12点这种说 ...</span><br>
+<span>口语中会自动回避就是因为下午12点之后是下午一点这个不符合一般逻辑吧</span><br>
+<span>—— 来自 vivo NEX, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span>你的手机 发表于 2019-8-7 17:05</span><br>
+<span>口语中会自动回避就是因为下午12点之后是下午一点这个不符合一般逻辑吧</span><br>
+<span>—— 来自 vivo NEX, And ...</span><br>
+<span>是因为下午12点无法确定是24小时的0点还是12点</span><br>
+<span>12小时制不像24小时制那样直接mod 24但是算不上不合一般逻辑</span><br>
+<span>a.m.是正午前， p.m.是正午后，正午自身这个时间点不是前也不是后，那么就需要额外定义</span><br>
+<span>此外午夜这个时间点距离两个正午的时长一样，也没法用无前午后描述，也需要额外定义</span><br>
+<span>遇到这两个时间点，a.m.变成p.m.， p.m.变成a.m.</span><br>
+<span>此外，因为12小时制小时位最大数字是12，那么满了之后就要变成最小值1</span><br>
+<span>所以12:59 a.m.的下一分钟是 1:00 a.m.，12:59 p.m.的下一分钟是 1:00 p.m.</span><br>
+<span>觉得下午12点变下午1点不合逻辑，其实是因为习惯了直接mod 24</span><br>
+<span>对于古人和一百年前教育程度较低的人而言，0和20+这种数字更难以适应</span><br>
+</p><p><b>大螃蟹: </b><br>
+<span>这个之前专门留意过，确实是A-12:00am，真的辣鸡</span><br>
+<span>只能说12小时制只适合口语，任何书面情况下如票据电子表等都是24小时制清晰合理</span><br>
+</p><p><b>galsoldier: </b><br>
+<span>A，主要是方丈直播看多了，每天都是12.00PM，潜意识就默认了凌晨应该是12.00AM</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>zxlice: </b><br>
+<span>进制怎么能取到呢？</span><br>
+<span>二进制有2吗</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851629[50-100]</guid>
+    </item>
+    <item>
+      <title>11:59:59pm的下一秒是（）？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1851629-1-1.html</link>
+      <description>11:59:59pm的下一秒是（）？&#13;
+ 本帖最后由 cxn 于 2019-8-6 14:01 编辑 
+&#13;
+A、12:00:00am
+&#13;
+B、12:00:00pm
+&#13;
+C、00:00:00am
+&#13;
+D、00:00:00pm
+&#13;
+---------------------------------------------------------------
+&#13;
+公布答案，其实答案是有争议的，但是一般认为是A
+&#13;
+1、12小时制的取值范围是
+&#13;
+2、PM/AM的分割点是12:00，用24小时制来表示am的取值范围是[0:00,12:00),pm是[12:00,24:00)
+&#13;
+3、所以，am是&amp;；pm同理略
+&#13;
+相信大部分人的感想都是12小时制早死早超生，me too</description>
+      <content:encoded><![CDATA[<p><b>cxn: </b><br>
+<span>11:59:59pm的下一秒是（）？</span><br>
+<span> 本帖最后由 cxn 于 2019-8-6 14:01 编辑 </span><br>
+<span>A、12:00:00am</span><br>
+<span>B、12:00:00pm</span><br>
+<span>C、00:00:00am</span><br>
+<span>D、00:00:00pm</span><br>
+<span>---------------------------------------------------------------</span><br>
+<span>公布答案，其实答案是有争议的，但是一般认为是A</span><br>
+<span>1、12小时制的取值范围是</span><br>
+<span>2、PM/AM的分割点是12:00，用24小时制来表示am的取值范围是[0:00,12:00),pm是[12:00,24:00)</span><br>
+<span>3、所以，am是&；pm同理略</span><br>
+<span>相信大部分人的感想都是12小时制早死早超生，me too</span><br>
+</p><p><b>super0395: </b><br>
+<span>B？</span><br>
+</p><p><b>Tomorrow_D: </b><br>
+<span>C</span><br>
+</p><p><b>apefrank: </b><br>
+<span>C</span><br>
+</p><p><b>gearh: </b><br>
+<span>直觉上是c</span><br>
+</p><p><b>Neozero: </b><br>
+<span>12小时制是坏文明！</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>pyjq: </b><br>
+<span>d</span><br>
+<span>—— 来自 OnePlus GM1900, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>林拓: </b><br>
+<span>不是c？</span><br>
+</p><p><b>foreversmiles: </b><br>
+<span>你们都睡这么早的？</span><br>
+<span>我上幼儿园的时候就知道这问题的答案了，电视机上半夜23.59.59后会变成00.00.00</span><br>
+</p><p><b>badmouse: </b><br>
+<img src="http://img.coozhi.com/upload/image/201811/27104731-150526.jpg" title="http://img.coozhi.com/upload/image/201811/27104731-150526.jpg"><br>
+<span>难道是A</span><br>
+</p><p><b>mimighost: </b><br>
+<span>A</span><br>
+</p><p><b>ml1642879: </b><br>
+<span>12小时制滚啊</span><br>
+</p><p><b>白藏主: </b><br>
+<span> 本帖最后由 白藏主 于 2019-8-6 13:21 编辑 </span><br>
+<span>记错，编辑了</span><br>
+</p><p><b>阿呆5839: </b><br>
+<span>A</span><br>
+</p><p><b>boom33: </b><br>
+<span>C</span><br>
+<span>12小时制滚出书面语</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>GStar: </b><br>
+<span> 白藏主 发表于 2019-8-6 13:19 题目没错么？12点之前怎么会现实pm的？ </span><br>
+<span>晚上12点前不是pm？</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>Alexmacau8: </b><br>
+<span>A</span><br>
+</p><p><b>wzk3232: </b><br>
+<span>为了防止误解，鬼佬很多时候都得特意把时间改为11:59这种……</span><br>
+<span>虽然我也不知道为什么即使忍受麻烦也不愿意换成24小时制……</span><br>
+</p><p><b>哈迪斯兜帽: </b><br>
+<span>感觉A,C都行</span><br>
+</p><p><b>未来起航: </b><br>
+<span>这题意义何在</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>CAvongola: </b><br>
+<span>a吧，24小时好像不用加ampm？</span><br>
+<span>—— 来自 Sony H8166, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>天网: </b><br>
+<span> 本帖最后由 天网 于 2019-8-6 13:37 编辑 </span><br>
+<span>抱歉，我想起了这个梗。干脆叫00:00:01 Era of SuperPowerINDIA</span><br>
+<span>https://sm.ms/image/N386rw47uyKqiv5</span><br>
+<span>https://sm.ms/image/NTbkv4OMFPLGw5C</span><br>
+<span>https://sm.ms/image/7BmJs9MgLIv1f6Q</span><br>
+<span>https://sm.ms/image/8nS5oOwuFyxBm9p</span><br>
+</p><p><b>天成小次郎: </b><br>
+<span>答案呢？</span><br>
+</p><p><b>朝倉信长: </b><br>
+<span>C?</span><br>
+</p><p><b>foraiur: </b><br>
+<span>十二时制没有0点，所以有12点</span><br>
+</p><p><b>AkaiSuisei: </b><br>
+<span>a，d不存在，b是中午，c是凌晨</span><br>
+<span>被12小时制坑过好几次的如是说</span><br>
+</p><p><b>julius0147: </b><br>
+<span>今天的B，明天的C</span><br>
+</p><p><b>at逆风: </b><br>
+<span>当年在米帝和朋友出去玩，买了巴士票，结果买的是12:00 AM的，于是中午过去发现这是半夜的票...</span><br>
+</p><p><b>相互理解: </b><br>
+<span> 本帖最后由 相互理解 于 2019-8-6 14:05 编辑 </span><br>
+<span>假设 2:00:00 am 从夏令时回到标准时间，那么 1:59:59 am 的下一秒是？</span><br>
+<span>A、1:00:00 am</span><br>
+<span>B、1:59:59 am</span><br>
+<span>C、2:00:00 am</span><br>
+<span>D、3:00:00 am</span><br>
+</p><p><b>cxn: </b><br>
+<span>天成小次郎 发表于 2019-8-6 13:28</span><br>
+<span>答案呢？</span><br>
+<span>答案更新在顶楼了</span><br>
+</p><p><b>林漠俪: </b><br>
+<span>以为是C，好多那种方形的数字钟都是这么显示的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>greentie: </b><br>
+<span>不是C ？我司产品一直写的00：00：00am</span><br>
+</p><p><b>果冻的沙耶: </b><br>
+<span>a，本科时候due弄错过很多次，就记住了</span><br>
+</p><p><b>lalala德玛西亚: </b><br>
+<span>那24小时制 零点整是0还是 24......</span><br>
+</p><p><b>cxn: </b><br>
+<span>lalala德玛西亚 发表于 2019-8-6 13:54</span><br>
+<span>那24小时制 零点整是0还是 24......</span><br>
+<span>24点是下一周期的0点，同理还有25点、26点……</span><br>
+</p><p><b>jam0206: </b><br>
+<span>天网 发表于 2019-8-6 13:27</span><br>
+<span>抱歉，我想起了这个梗。干脆叫00:00:01 Era of SuperPowerINDIA</span><br>
+<span>看到一群人坐在高铁上面那张喷了</span><br>
+</p><p><b>ouhloo: </b><br>
+<span>11:45:14yj</span><br>
+</p><p><b>MrRedfield: </b><br>
+<span>11.59.59pm的下一秒是0.0.0am。</span><br>
+<span>但是十二时制里面所有0时都要写成12时，所以是12.0.0am。</span><br>
+<span>然后12.59.59am的下一秒是1.0.0am</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>pathan: </b><br>
+<span>上午从AM12.0.0到AM12.59.59</span><br>
+<span>那不是有两个12.0.0AM？</span><br>
+<span>一个凌晨，一个中午...............</span><br>
+</p><p><b>完先生: </b><br>
+<span>12小时制早日完蛋吧</span><br>
+</p><p><b>相互理解: </b><br>
+<span>楼主的答案绝大部分情况下是对的，不过偶尔答案会是 11:59:60 pm</span><br>
+</p><p><b>dior_sh188: </b><br>
+<span>完先生 发表于 2019-8-6 14:33</span><br>
+<span>12小时制早日完蛋吧</span><br>
+<span>那基本标志着美国的完蛋。</span><br>
+<span>英寸，码，磅，加仑，夸脱，华氏度。</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>12:00:00pm=00:00:00am</span><br>
+</p><p><b>dior_sh188: </b><br>
+<span> 本帖最后由 dior_sh188 于 2019-8-6 14:57 编辑 </span><br>
+<span>cxn 发表于 2019-8-6 13:50</span><br>
+<span>答案更新在顶楼了</span><br>
+<span>我认为是罗马人无法理解零点的概念，硬把0点写成12点。</span><br>
+<span>　　中国消费者报报道(记者刘铭)日常生活中，24小时制和12小时制都有使用，但如果航空公司在销售飞机票时，有的按24小时制标注时间，有的按12小时制标注，会产生什么后果呢?最近，四川成都消费者廖女士就因此买错了4张飞机票，面临3000多元的损失。日前，廖女士向《中国消费者报》反映，马来西亚亚洲航空公司(以下简称亚洲航空公司)售票系统时间标注混乱，导致她误购机票，要求航空公司承担赔偿责任。</span><br>
+<span>　　“12:05am”原是凌晨</span><br>
+<span>　　廖女士等4位老人准备今年10月份到国外旅游，计划旅游线路是从成都出发，先到马来西亚的吉隆坡，再转机到澳大利亚的珀斯。3月4日，廖女士看到亚洲航空公司在搞机票促销，就通过手机A**购机票。“我一边在电脑上查看亚洲航空公司官网上的机票信息，一边在手机上操作。”廖女士说，“官网是中文网站，因为当时是抢票，看得也不十分仔细，完全没想到机票时间标注会不统一。”</span><br>
+<span>　　据廖女士介绍，她先抢到的是10月9日成都到吉隆坡的机票，时间是按照24小时制标注的，23点55分出发，10月10日4点35分到达。紧接着，她购买10月10日吉隆坡到珀斯的机票。这时，她看到亚洲航空公司官网上标注的出发时间为“12：05am”，以为这个时间是表示中午12点05分，想到当天早上4点35分到达吉隆坡后，在机场休息几个小时，刚好乘坐这趟航班，不用再另找酒店住宿，于是就果断购买了4张机票。廖女士是亚航的会员，订票系统里有她的邮箱，抢票成功后，邮箱很快就收到了订单信息，出发时间显示也是“12：05am”。</span><br>
+<span>　　廖女士说，与此同时，她的手机也收到了订票信息，一看却傻了眼，出发时间变成了“00：05”，不是中午而是凌晨。这意味着，廖女士等人到达吉隆坡国际机场时，后续航班早就飞走了，根本无法衔接。</span><br>
+<span>　　发现问题后，廖女士拨打亚洲航空公司官网上显示的客服电话，向客服人员说明了情况，要求免费改签。客服人员答复商量后再回复。大约过了三四天，一位客服人员给廖女士回电称，这种情况只能重新订票。</span><br>
+<span>　　“这4张票共计1700元，重新订票要3000多元。”廖女士说：“我按照客服人员回电留下的电话号码打过去，结果是空号，根本没有反馈意见的余地。因为问题没解决，我现在也不敢购买返程机票，不知道这个事该怎么办。”</span><br>
+<span>　　廖女士认为，亚洲航空公司对时间的标注不统一，12小时制和24小时制交替使用，对她造成了误导，应该承担赔偿责任。</span><br>
+<span>　　退飞机票需扣手续费</span><br>
+<span>　　廖女士反映的情况是否属实?为什么会出现两种时间制混合标注的情况?出现此类问题如何解决?为了得到亚洲航空公司官方的明确表态，记者很费了一番周折。</span><br>
+<span>　　4月13日，记者在网上查询到一个名为“亚洲航空公司成都服务中心”的电话，拨通后语音提示“这里是亚洲航空公司成都服务中心”，接线人员也明确说“你好，亚航”，但涉及到解决投诉时，对方却“实话实说”称他们只是一个和亚洲航空公司合作的深圳某旅行社设在成都的门店。</span><br>
+<span>　　“廖女士是在亚航官网订票，投诉应该去找亚航的官方售后部门，亚航官方的售后服务处设在苏州。”一位工作人员说：“亚洲航空公司每年都要搞两到三次促销，一般都是零点开始，会员开始抢票。当时不知道什么情况，导致她错误地衔接了下一个航班，我们只能协助申请，没有权限处理投诉。”</span><br>
+<span>　　该工作人员提供了据称是亚航在中国唯一的官方客服电话0512—85557711。记者多次拨打才转接成功。经沟通，接线人员向记者表示“会对投诉进行升级，后续会安排专员给廖女士回电”。</span><br>
+<span>　　4月17日晚，亚洲航空公公司公关部回复记者称：“亚航官网上吉隆坡-珀斯航线时间标注正确，起飞时间为00:05，出于对乘客的关怀，亚航已与乘客达成一致解决方案。”</span><br>
+<span>　　“亚航在撒谎，我没有接受他们提出的解决方案。”4月18日，廖女士告诉记者，4月16日，她接到了亚洲航空公司客服人员的电话，对方坚持认为官网的时间标注没有错，购错机票是廖女士自己的过错，亚洲航空公司表示可以按照特殊情况处理，两段行程可任选一段退票，但需扣除手续费，也就是成都到吉隆坡每张票435元，扣除手续费每张320元，实际只能退115元，吉隆坡到珀斯每张390元，手续费约每张260元，实际只能退130元，任选一段路退票4张最多退500元左右，且钱只能退到消费者在亚洲航空公司的账号上用于购买机票。廖女士认为该方案不合理，没有接受。</span><br>
+<span>　　经营者应提醒消费者</span><br>
+<span>　　四川天润华邦律师事务所律师阙雯向记者介绍说，我国法律对于经营者在提供的商品和服务信息中使用哪种时间制，并未作出明确的规定。对于时间要求严苛的航空服务业，《民用航空法》《合同法》等相关法律中，也并未明确规定航空经营者应该使用何种时间制。</span><br>
+<span>　　阙雯认为，时间制问题应属于文化差异问题，12小时制中的12:00am，在大部分场合表示午夜并且代表一天的开始，个别场合表示午夜并且代表一天的结束。因我国惯于使用24小时制，加之部分人对于英语缩写并不熟悉，故使用12小时制可能引起部分消费者的理解偏差。但这种理解偏差是否能构成重大误解，是否构成经营者误导消费者，尚待商榷。</span><br>
+<span>　　阙雯同时认为，根据《国家通用语言文字法》的规定，我国的国家通用语言文字是普通话和规范汉字，我国尚有部分人并不熟悉英语等其他国家语言。航空经营者在经营活动中未以汉字形式备注时间，引起不熟悉英语的消费者的误解，经营者应承担相应的责任。</span><br>
+</p><p><b>シャスタ: </b><br>
+<span> 本帖最后由 シャスタ 于 2019-8-6 18:26 编辑 </span><br>
+<span>时间都是左闭右开啊.忘了春晚怎么倒计时了么.数到0的一瞬间新的一年就开始了.所以00:00:00已经是第二天了.23:59:59还是前一天.</span><br>
+<span>24小时也是</span><br>
+<span>[00:00:00 , 24:00:00)</span><br>
+<span>am是午前,pm是午后的意思.</span><br>
+<span>所以严格来说不存在第二个12:00:00pm 这个东西.到了12:00:00(00:00:00)就是新一天,就是am了</span><br>
+</p><p><b>相互理解: </b><br>
+<span>シャスタ 发表于 2019-8-6 16:34</span><br>
+<span>时间都是左闭右开啊.忘了春晚怎么倒计时了么.数到0的一瞬间新的一年就开始了.所以00:00:00已经是第二天了.2 ...</span><br>
+<span>12 小时的概念提出来的时候 0 的概念还没有普遍接受，就好像没有 0 月或是公元 0 年。指针时钟上都是写 1 ~ 12，我反正没见过写 0 的。12 小时制可以看作指针时钟的读数，这样就容易理解了。至于现在这个到处是电子时钟，也没有人觉得 0 的概念很奇怪的时代，12 小时制自然可以去死了。</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>我以前看到过新闻，便利店下架过期食品，结果店员把标签上的12:00am当成第二天中午，本应该凌晨下架的东西没下架，被专业人员投诉了。</span><br>
+<span>—— 来自 OPPO R11, Android 7.1.1上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>cxn: </b><br>
+<span>pathan 发表于 2019-8-6 14:24</span><br>
+<span>上午从AM12.0.0到AM12.59.59</span><br>
+<span>那不是有两个12.0.0AM？</span><br>
+<span>一个凌晨，一个中午............... ...</span><br>
+<span>一天首先从12:00am到12:59am，之后进入1:00am到11:59am，然后转入12:00pm到12:59pm，最后是1:00pm到11:59pm</span><br>
+</p><p><b>tiro_finale: </b><br>
+<span>12pm是中午这个知识是20岁以后才知道的</span><br>
+</p><p><b>maxwell_goblin: </b><br>
+<span> 本帖最后由 maxwell_goblin 于 2019-8-6 19:05 编辑 </span><br>
+<span>シャスタ 发表于 2019-8-6 16:34</span><br>
+<span>时间都是左闭右开啊.忘了春晚怎么倒计时了么.数到0的一瞬间新的一年就开始了.所以00:00:00已经是第二天了.2 ...</span><br>
+<span>新点的推荐标准确实如你所言是 12:00 midnight 和 12:00 noon</span><br>
+<span>但是12:00 a.m. 和 12:00 p.m. 确实有不少地方在用</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1851629[0-50]</guid>
+    </item>
+  </channel>
+</rss>

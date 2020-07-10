@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>K20PRO尊享版刷入LineageOS 17.0的简要报告</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>K20PRO尊享版刷入LineageOS 17.0的简要报告</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:47:23 +0000</lastBuildDate>
+    <item>
+      <title>K20PRO尊享版刷入LineageOS 17.0的简要报告[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1867597-1-1.html</link>
+      <description>K20PRO尊享版刷入LineageOS 17.0的简要报告&#13;
+ 本帖最后由 AincradWanderer 于 2019-11-25 20:19 编辑 
+
+先说结论：尊享版并没有专门适配的第三方ROM，但确实可以刷入K20PRO的ROM
+&#13;
+既然要试毒，那就试最猛的毒，抱着这样的想法，我选择了基于android 10的LineageOS 17.0，流程如下：
+&#13;
+1.等168小时解锁
+&#13;
+2.刷入TWRP Recovery
+&#13;
+3.双清、刷入内核
+&#13;
+4.刷入本体ROM
+&#13;
+5.刷入Magisk，结束
+&#13;
+是不是少了点什么？的确，少了刷入gapps的步骤，不是我不想刷，而是目前还没有适配android 10的gapps......
+&#13;
+整个过程意外的顺利，没有出任何问题就点亮了
+&#13;
+https://upload.cc/i1/2019/11/24/rpWIuH.png
+&#13;
+实际使用后发现的几个问题：
+&#13;
+1.Gcam全灭，包括HyperCam R3这个专门写在LineageOS 17下面的版本......
+&#13;
+2.App Ops死球
+&#13;
+3.Holi天气死球4.微信7.0以下的版本看不到本地图片，也就没法发图了（new!)
+&#13;
+使用建议：
+&#13;
+除非你想和我一样试毒android 10，否则还是选择基于android 9.0的第三方ROM吧</description>
+      <content:encoded><![CDATA[<p><b>AincradWanderer: </b><br>
+<span>K20PRO尊享版刷入LineageOS 17.0的简要报告</span><br>
+<span> 本帖最后由 AincradWanderer 于 2019-11-25 20:19 编辑 </span><br>
+<span>先说结论：尊享版并没有专门适配的第三方ROM，但确实可以刷入K20PRO的ROM</span><br>
+<span>既然要试毒，那就试最猛的毒，抱着这样的想法，我选择了基于android 10的LineageOS 17.0，流程如下：</span><br>
+<span>1.等168小时解锁</span><br>
+<span>2.刷入TWRP Recovery</span><br>
+<span>3.双清、刷入内核</span><br>
+<span>4.刷入本体ROM</span><br>
+<span>5.刷入Magisk，结束</span><br>
+<span>是不是少了点什么？的确，少了刷入gapps的步骤，不是我不想刷，而是目前还没有适配android 10的gapps......</span><br>
+<span>整个过程意外的顺利，没有出任何问题就点亮了</span><br>
+<img src="https://upload.cc/i1/2019/11/24/rpWIuH.png" title="https://upload.cc/i1/2019/11/24/rpWIuH.png"><br>
+<span>实际使用后发现的几个问题：</span><br>
+<span>1.Gcam全灭，包括HyperCam R3这个专门写在LineageOS 17下面的版本......</span><br>
+<span>2.App Ops死球</span><br>
+<span>3.Holi天气死球4.微信7.0以下的版本看不到本地图片，也就没法发图了（new!)</span><br>
+<span>使用建议：</span><br>
+<span>除非你想和我一样试毒android 10，否则还是选择基于android 9.0的第三方ROM吧</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>10的很多UI设计都比9好看，如果非要刷原生我还是倾向10</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>现在求各位推荐个holi天气的替代品</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>pzy2222 发表于 2019-11-24 13:52</span><br>
+<span>10的很多UI设计都比9好看，如果非要刷原生我还是倾向10</span><br>
+<span>10对比9变化最小的就是UI啊你说的是Los的UI么</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>@droople</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>若荼泱 发表于 2019-11-24 14:00</span><br>
+<span>10对比9变化最小的就是UI啊你说的是Los的UI么</span><br>
+<span>原生都那个模样吧，los、pe什么的，我觉得变好看的地方主要是状态栏图标和应用设置这些，用了很多线条化的设计</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-11-24 17:42 编辑 </span><br>
+<span>周六刷了MIUI 11.0.3欧洲洋大人版的表示股沟相机Urnyx05的7.2版姑且能跑起来</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>现在小米还有啥能畅快第三方的LCD机器吗？</span><br>
+</p><p><b>SmterC: </b><br>
+<span>gapps可以试试bigapps</span><br>
+<span>我这app ops能用</span><br>
+<span>—— 来自 OnePlus ONEPLUS A3000, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>9-11-2001 发表于 2019-11-24 17:44</span><br>
+<span>现在小米还有啥能畅快第三方的LCD机器吗？</span><br>
+<span>猴王旗下基本都有洋大人做第三方ROM的，LCD屏幕就得往前一两年的老机器里找了</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>SmterC 发表于 2019-11-24 18:41</span><br>
+<span>gapps可以试试bigapps</span><br>
+<span>我这app ops能用</span><br>
+<span>怪了，我担心兼容问题特意下载的最新版app ops，结果还是打不开</span><br>
+</p><p><b>droople: </b><br>
+<span>你先刷9的Los，然后OTA到10可以吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>droople 发表于 2019-11-24 19:10</span><br>
+<span>你先刷9的Los，然后OTA到10可以吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+<span>这样行不通的，我的1+5就是基于android 9.0的LineageOS 16.0，从来没有收到过OTA更新</span><br>
+</p><p><b>droople: </b><br>
+<span>AincradWanderer 发表于 2019-11-24 19:23</span><br>
+<span>这样行不通的，我的1+5就是基于android 9.0的LineageOS 16.0，从来没有收到过OTA更新 ...</span><br>
+<span>好像的确是这样。。。。</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>上班后发现了一个新问题：微信7.0以下的版本看不到本地图片，也就没法发图了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>现在Android 10除了外面楼里的剪贴板有坑，还有什么别的坑？比如root，钛备份啥的跟进了没</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>albertfu 发表于 2019-11-25 20:12</span><br>
+<span>现在Android 10除了外面楼里的剪贴板有坑，还有什么别的坑？比如root，钛备份啥的跟进了没 ...</span><br>
+<span>刷入magisk就有root权限，钛备份也可以正常用</span><br>
+</p><p><b>albertfu: </b><br>
+<span>AincradWanderer 发表于 2019-11-25 20:15</span><br>
+<span>刷入magisk就有root权限，钛备份也可以正常用</span><br>
+<span>好的！</span><br>
+<span>开发者跟进真快，我看了下ls反映Gcam也有能用的了，那还是试试Android 10吧</span><br>
+</p><p><b>hecas: </b><br>
+<span>联想都不用想还可以</span><br>
+<span>—— 来自 ZUK Z2131, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>最新进展：发现LOS有无法接听电话的严重bug，想尝试换成魔趣，结果一步错步步错，现在彻底成砖了fastboot下重新刷入twrp都进不去</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>两个路人: </b><br>
+<span> 本帖最后由 两个路人 于 2019-11-26 23:20 编辑 </span><br>
+<span>能进fastboot直接用那个MIflash刷线刷包进去就是了，哪里那么容易砖</span><br>
+<span>顺便，刷魔趣脱裤子，还不如刷MIUI呢</span><br>
+</p><p><b>litel: </b><br>
+<span>AincradWanderer 发表于 2019-11-26 22:16</span><br>
+<span>最新进展：发现LOS有无法接听电话的严重bug，想尝试换成魔趣，结果一步错步步错，现在彻底成砖了fas ...</span><br>
+<span>现在的新手机，分区合一起了，有时候system分区有毛病，刷twrp会进不去。。。这时候只能刷小米的fastboot底包。。。</span><br>
+</p><p><b>gaiden: </b><br>
+<span>通用的吧，尊享版官方的包就是普通版那个包</span><br>
+</p><p><b>matthewsteel: </b><br>
+<span>miui11的android 10和原生的android10一样的me ?似乎没出啥兼容问题。</span><br>
+</p><p><b>H5N1: </b><br>
+<span>哪个版本支持 显示 秒？</span><br>
+<span>秒杀必需。</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>两个路人 发表于 2019-11-26 23:16</span><br>
+<span>能进fastboot直接用那个MIflash刷线刷包进去就是了，哪里那么容易砖</span><br>
+<span>顺便，刷魔趣脱裤子，还不如刷MIUI呢 ...</span><br>
+<span>你不说我都忘了还有miflash这东西了，搞起！</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>H5N1 发表于 2019-11-27 08:57</span><br>
+<span>哪个版本支持 显示 秒？</span><br>
+<span>秒杀必需。</span><br>
+<span>这个功能大部分ROM都有</span><br>
+</p><p><b>pzy2222: </b><br>
+<span>两个路人 发表于 2019-11-26 23:16</span><br>
+<span>能进fastboot直接用那个MIflash刷线刷包进去就是了，哪里那么容易砖</span><br>
+<span>顺便，刷魔趣脱裤子，还不如刷MIUI呢 ...</span><br>
+<span>刷魔趣脱裤子是什么意思？</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>国内环境用原生是找罪受，我只在只装几个app的备机上用原生。</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>复活了，现在刷的Havoc OS，电话能正常接听了</span><br>
+</p><p><b>linux40: </b><br>
+<span>有个app叫权限狗</span><br>
+</p><p><b>两个路人: </b><br>
+<span>MIUI 11.0.3稳定版还没用热，怎么就又来个11.0.4？这是在重演MIUI 10的历史吗？</span><br>
+</p><p><b>两个路人: </b><br>
+<span>droople 发表于 2019-11-24 19:10</span><br>
+<span>你先刷9的Los，然后OTA到10可以吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+<span>欧洲洋大人版MIUI倒是可以接到OTA信息，但是好像网络问题会一直下载出错。然后，你可以去把安装包手动拖回来，然后选定安装包，自动重启进RECOVERY刷起来 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1867597[0-50]</guid>
+    </item>
+  </channel>
+</rss>

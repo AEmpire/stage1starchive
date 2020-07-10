@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>chrome 扩展：简单修复微博图床</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>chrome 扩展：简单修复微博图床</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:38:40 +0000</lastBuildDate>
+    <item>
+      <title>chrome 扩展：简单修复微博图床[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1840853-1-1.html</link>
+      <description>chrome 扩展：简单修复微博图床&#13;
+ 本帖最后由 fqxufo 于 2019-6-20 10:53 编辑 
+
+简单修复新浪微博图床源代码地址：https://github.com/fqxufo/wbimgfixchrome商店安装地址：https://chrome.google.com/webstore/detail/wbimgfix/bdhgcfmghkbbdmejdaadfdhhdjphogkpcrx安装文件安装后点击这个地址测试效果：https://fqxufo.github.io/wbimgfix/针对没有修改refer policy的网页，自动在请求图片前去掉refer，避免403错误</description>
+      <content:encoded><![CDATA[<p><b>fqxufo: </b><br>
+<span>chrome 扩展：简单修复微博图床</span><br>
+<span> 本帖最后由 fqxufo 于 2019-6-20 10:53 编辑 </span><br>
+<span>简单修复新浪微博图床源代码地址：https://github.com/fqxufo/wbimgfixchrome商店安装地址：https://chrome.google.com/webstore/detail/wbimgfix/bdhgcfmghkbbdmejdaadfdhhdjphogkpcrx安装文件安装后点击这个地址测试效果：https://fqxufo.github.io/wbimgfix/针对没有修改refer policy的网页，自动在请求图片前去掉refer，避免403错误</span><br>
+</p><p><b>tsukihime: </b><br>
+<span>直接把图片的https改成http就行了吧</span><br>
+</p><p><b>薄皮破船: </b><br>
+<span>是修改发图方还是看图方？？发图的多半不会看你这个，看图也懒得用</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>tsukihime 发表于 2019-6-20 10:55</span><br>
+<span>直接把图片的https改成http就行了吧</span><br>
+<span>关键是很多其他网站都没有修改啊，现在自己新上传的可以手动设置refer policy为no refer</span><br>
+</p><p><b>fqxufo: </b><br>
+<span>S1好像不需要这个，新浪图床可以正常显示</span><br>
+</p><p><b>相互理解: </b><br>
+<span>这个扩展只能改新浪，通用方案是 Referer Control，或者火狐的 Smart Referer。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1840853[0-50]</guid>
+    </item>
+  </channel>
+</rss>

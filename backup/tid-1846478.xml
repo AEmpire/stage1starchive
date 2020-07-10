@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMD即将在X570之前的芯片组上禁用PCIe 4.0</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AMD即将在X570之前的芯片组上禁用PCIe 4.0</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:03:12 +0000</lastBuildDate>
+    <item>
+      <title>AMD即将在X570之前的芯片组上禁用PCIe 4.0[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846478-1-1.html</link>
+      <description>AMD即将在X570之前的芯片组上禁用PCIe 4.0&#13;
+ 本帖最后由 EraserKing 于 2019-7-13 20:45 编辑 
+
+这新闻咋没人发？我都看到好几篇了，是在忙着Yes吗 
+&#13;
+https://www.anandtech.com/show/1 ... 00400-series-boards
+&#13;
+So, to get right to the heart of matters, I reached out to AMD PR this evening to find out what’s going on with PCIe 4 support. The short version then is that no, AMD’s plans have not changed: PCIe 4 support will be disabled in the shipping AGESA for these boards.
+&#13;
+    Our plan is unchanged. For the reliability and consistency reasons cited at Computex, we still intend to disable PCIe Gen 4 for pre-X570 motherboards. That AGESA is being released to motherboard manufacturers soon.
+&#13;
+最后一段简译：
+&#13;
+我们的计划没有变化。正如我们在台北电脑展上所阐述的，为了可靠性和一致性的原因，我们仍然打算在 X570 之前的主板上禁用 PCIe Gen 4。AGESA 将会很快发给主板制造商。
+&#13;
+现在怎么办：
+&#13;
+1. 担心 AGESA 
+&#13;
+2. 在意 PCIe 4.0 
+&#13;
+3. 反正 Yes 就对了 
+&#13;
+4. 虽然我不用但是你不能没有
+&#13;
+5. 静待魔改 BIOS 
+&#13;
+6. IDC 
+&#13;
+至于我？当然是因为微星要重出32MB BIOS的主板所以选择再等等顺便吃瓜啦！</description>
+      <content:encoded><![CDATA[<p><b>EraserKing: </b><br>
+<span>AMD即将在X570之前的芯片组上禁用PCIe 4.0</span><br>
+<span> 本帖最后由 EraserKing 于 2019-7-13 20:45 编辑 </span><br>
+<span>这新闻咋没人发？我都看到好几篇了，是在忙着Yes吗 </span><br>
+<span>https://www.anandtech.com/show/1 ... 00400-series-boards</span><br>
+<span>So, to get right to the heart of matters, I reached out to AMD PR this evening to find out what’s going on with PCIe 4 support. The short version then is that no, AMD’s plans have not changed: PCIe 4 support will be disabled in the shipping AGESA for these boards.</span><br>
+<span>    Our plan is unchanged. For the reliability and consistency reasons cited at Computex, we still intend to disable PCIe Gen 4 for pre-X570 motherboards. That AGESA is being released to motherboard manufacturers soon.</span><br>
+<span>最后一段简译：</span><br>
+<span>我们的计划没有变化。正如我们在台北电脑展上所阐述的，为了可靠性和一致性的原因，我们仍然打算在 X570 之前的主板上禁用 PCIe Gen 4。AGESA 将会很快发给主板制造商。</span><br>
+<span>现在怎么办：</span><br>
+<span>1. 担心 AGESA </span><br>
+<span>2. 在意 PCIe 4.0 </span><br>
+<span>3. 反正 Yes 就对了 </span><br>
+<span>4. 虽然我不用但是你不能没有</span><br>
+<span>5. 静待魔改 BIOS </span><br>
+<span>6. IDC </span><br>
+<span>至于我？当然是因为微星要重出32MB BIOS的主板所以选择再等等顺便吃瓜啦！</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>买不起，用不上，没区别</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span>屠龙少年终将成为恶龙</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>失身招领处: </b><br>
+<span> 本帖最后由 失身招领处 于 2019-7-13 20:56 编辑 </span><br>
+<span>我觉得应该禁掉</span><br>
+<span>真的为了安全还是禁了吧。</span><br>
+<span>B450带zen2这沙雕温度。</span><br>
+<span>我3700，4.3G烤鸡2分钟就八九十度了。紧挨着的m. 2要是gen4的话，也得大几十度。matx哪受得了。要是显卡也转起来也是一大片热源。搞不好真成迫击炮。主板直接炸了</span><br>
+</p><p><b>albertfu: </b><br>
+<span>6月初的新闻：</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1836608-1-1.html</span><br>
+<span>主板厂狂喜乱舞（</span><br>
+<span>网友洗地：</span><br>
+<span>The old school perception that AMD has been fighting for 30 years is that AMD has inferior products and that it's not as reliable as Intel.</span><br>
+<span>In order to fight that perception, they need to have products that are consistently faster, cheaper, and more reliable right out of the box. Having even a few models of older motherboards not work with PCIe 4.0 would muddy the waters and cast doubt once again. It would cause confusion in the marketplace and play right into Intel's hands.</span><br>
+<span>Really, AMD is trying to support its customer base by keeping the socket the same. Sure, it would be nice to have PCIe 4, but the new Radeon RX 5700 will still work fine on PCIe 3. If you really want PCIe 4 you can always sell your old board and buy a new one, but I suspect most people will be ok just keeping their old one.</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>albertfu 发表于 2019-7-13 20:57</span><br>
+<span>6月初的新闻：</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1836608-1-1.html</span><br>
+<span>之前那篇我知道…但是，我这不是旧闻，是今天才出的…</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>albertfu: </b><br>
+<span>EraserKing 发表于 2019-7-13 21:00</span><br>
+<span>之前那篇我知道…但是，我这不是旧闻，是今天才出的…</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Go ...</span><br>
+<span>我知道啊，现在只是重申之前的决定，你没看我引用的网友洗地也是新文章下面的</span><br>
+</p><p><b>albertfu: </b><br>
+<span>话说显卡PCIE 4.0除了CF真没啥区别（CF也是5%以内的区别</span><br>
+<span>SSD用上PCIE 4.0，哪怕phison这种主控表现也真不错</span><br>
+<span>之前看的贼船的评测，4k性能不输主流的970evo啥的，顺序读写炸裂，5GBps+</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>关键4.0现阶段也没多大实际意义吧，我还看到有人关了4.0提升稳定性</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>红左手: </b><br>
+<span>只要Yes就好了，不买x570主板对得起AMD这些年扔进去的研发经费吗？</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>禁就禁吧，也不少人想关掉</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>怎么没人我可以不用你不能没有了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>iceprince10: </b><br>
+<span>这样的话570跟470是不是差距就更小了？</span><br>
+</p><p><b>试制甲炮: </b><br>
+<span>zmw_831110 发表于 2019-7-13 21:06</span><br>
+<span>关键4.0现阶段也没多大实际意义吧，我还看到有人关了4.0提升稳定性</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, A ...</span><br>
+<span>我想到的这几个，显卡，测试说2080TI这个级别的用PCIE3.0*8性能也就衰减个位数，就算老黄升级到7纳米实现Pascal那代的性能飞跃，3.0*16带宽也凑合够用。SSD，说实在的，现在不少M2盘全开的时候已经红红火火了，用满4.0*4的带宽还不是得主控过热降频。对TB3这种有用，但是外接显卡的用户太特么少了，偏偏本子上农企根本就不怎么用心，3700H还是4C8T级别的玩意，没几个人用。难怪英特尔就放弃4.0升级，打算在服务器端一口气升级到5.0</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>隔壁就有个翻车的 gen4一堆错误，然后bios还不能设置gen3只能gen2</span><br>
+</p><p><b>qwased: </b><br>
+<span>我觉得应该改成默认pcie3要手动开4那就行了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>iceprince10 发表于 2019-7-13 21:50</span><br>
+<span>这样的话570跟470是不是差距就更小了？</span><br>
+<span>没看清楚？不是禁x570</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>隔壁看到了，震惊农企骚操作</span><br>
+</p><p><b>melvin95: </b><br>
+<span>等等党的又双叒叕的胜利✌</span><br>
+<span>别B550也压不住就要被拍脸了</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>albertfu 发表于 2019-7-13 21:05</span><br>
+<span>话说显卡PCIE 4.0除了CF真没啥区别（CF也是5%以内的区别</span><br>
+<span>SSD用上PCIE 4.0，哪怕phison这种主控表现也真不 ...</span><br>
+<span>双卡根本无所谓的 现在双卡的瓶颈不是硬件是优化 两家显卡厂基本都放弃驱动层面双卡游戏优化了</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>试制甲炮 发表于 2019-07-13 21:59:51</span><br>
+<span>我想到的这几个，显卡，测试说2080TI这个级别的用PCIE3.0*8性能也就衰减个位数，就算老黄升级到7纳米实现 ...tb3也很热的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Johnie01 发表于 2019-7-14 16:35</span><br>
+<span>双卡根本无所谓的 现在双卡的瓶颈不是硬件是优化 两家显卡厂基本都放弃驱动层面双卡游戏优化了 ...</span><br>
+<span>老黄放弃SLI可以理解，Titan V，RTX Titan和2080Ti都差不多够4k@60fps了，而且大幅领先对手</span><br>
+<span>少一点驱动开发的负担挺省钱的</span><br>
+<span>A卡放弃CF真是黑人问号，不用双卡怎么和黄卡旗舰打？？？祖传双芯卡也不推家用版了</span><br>
+</p><p><b>Johnie01: </b><br>
+<span>albertfu 发表于 2019-7-15 00:15</span><br>
+<span>老黄放弃SLI可以理解，Titan V，RTX Titan和2080Ti都差不多够4k@60fps了，而且大幅领先对手</span><br>
+<span>少一点驱动开 ...</span><br>
+<span>我也不懂 amd以前的常规操作双芯打单芯从rx480这代开始不玩了 我以前一直觉得amd可以出RX490(480*2)来打1080这种的</span><br>
+<span>但是厂家放弃做一件事 肯定是利润驱使的</span><br>
+</p><p><b>albertfu: </b><br>
+<span>Johnie01 发表于 2019-7-15 00:19</span><br>
+<span>我也不懂 amd以前的常规操作双芯打单芯从rx480这代开始不玩了 我以前一直觉得amd可以出RX490(480*2)来打1 ...</span><br>
+<span>可能就是穷，雇不起足量的码农和QA  </span><br>
+<span>AMD全体雇员加起来应该还没牙膏家码农多</span><br>
+<span>而且心气不行了，没有当年Titan Slayer那种劲头了</span><br>
+</p><p><b>schrodingerscat: </b><br>
+<span>这有点......偷学少林武功要打断手脚废掉武功逐出山门......的感觉</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>Johnie01 发表于 2019-7-15 00:19</span><br>
+<span>我也不懂 amd以前的常规操作双芯打单芯从rx480这代开始不玩了 我以前一直觉得amd可以出RX490(480*2)来打1 ...</span><br>
+<span>其实还是做了，Mac Pro御用Radeon Pro Vega II Duo </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846478[0-50]</guid>
+    </item>
+  </channel>
+</rss>

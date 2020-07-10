@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【AA】【搞笑】用ASCII ART (AA画) 来批量全损压缩漫画</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【AA】【搞笑】用ASCII ART (AA画) 来批量全损压缩漫画</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 12:51:42 +0000</lastBuildDate>
+    <item>
+      <title>【AA】【搞笑】用ASCII ART (AA画) 来批量全损压缩漫画[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1935293-1-1.html</link>
+      <description>【AA】【搞笑】用ASCII ART (AA画) 来批量全损压缩漫画&#13;
+ 本帖最后由 冰箱研会长 于 2020-5-16 12:10 编辑 
+
+一些必须写在前面的话
+&#13;
+本篇教程 (如果这种垃圾帖子也可以成为教程的话), 除了扯淡以外无任何意义.
+&#13;
+我对AA的了解属于浅尝辄止, 不排除已经有更先进, 更性能, 成品质量更稳定的方法存在 
+&#13;
+(因为我查都没查所以不知道有没有)
+&#13;
+虽然结果大概率上不尽人意, 但如果它能给像我一样无法返校的人提供个消遣的话, 也不算完全的失败.
+&#13;
+所以归根结底, 我还是希望各位能以轻松的心情看待本帖.
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111251.png
+&#13;
+什么? 你问为什么明明都有AA了还要发图片? 因为S1的有每行最大字符限制, 而我做出来的AA都超限了....
+&#13;
+那么从现在开始切入主题
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111855.png
+&#13;
+要从一张图片制作出AA, 共有两个步骤:
+&#13;
+1. 图像预处理
+&#13;
+2. 像素符号映射
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516112646.JPG
+&#13;
+一这张图片作为原图为例, 如果我们不首先进行处理, 直接符号映射会得到什么结果呢?
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516112017.png
+&#13;
+嗯...很糟糕了.
+&#13;
+华语作豚领袖nbht在点评 "普罗米亚" 的时候说过 "我们看动画.....看的是线条....不是色块...." (引用了名人名言)
+&#13;
+先不论这句话在动画领域正确与否, 在AA画里, 我是觉得线条更为重要的.
+&#13;
+同时, 因为AA原生就是不存在颜色的一种形式, 对于映射过程而言, 色块及其颜色都是一种干扰.
+&#13;
+学习过素描的人可能知道, "画的真好, 像照片一样" 的前提是形准和阴影准, 那么我们在进行映射之前, 首先就是要提取出图像的线条和阴影信息.
+&#13;
+要实现这个任务, 我们有很多的工具可以选择, 这里就找来人民的好朋友----老马制作的Comic Enhancer Pro
+**** Hidden Message *****
+&#13;
+这里提供老马一系列原创软件的链接, 积分不够的话可以直接百度前往老马的博客.
+&#13;
+因为老马随软件提供了非常详细的教程, 对于软件的具体操作这里不会说的特别详细.
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113054.png
+&#13;
+直接纯黑白, 简单拿出线和阴影:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113120.png
+&#13;
+点击批量处理, 自动调用同一套设置
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113226.png
+&#13;
+处理结束之后,进入映射部分.
+&#13;
+这里我们主要的映射部分使用Python, 搭配Powershell实现批量处理.
+&#13;
+代码如下:
+&#13;
+function asctrans($tpath,$sformat,$hscale,$wscale)
+&#13;
+{
+&#13;
+$pythonblock=@"
+&#13;
+from PIL import Image
+&#13;
+import os
+&#13;
+import sys
+&#13;
+filepath = sys.argv
+&#13;
+heightarg = sys.argv
+&#13;
+widtharg = sys.argv
+&#13;
+CODE_LIB = r"B8&amp;WM#YXQO{}[]()I1i!pao;:,.    "
+&#13;
+count = len(CODE_LIB)
+&#13;
+def transform_ascii(image_file): 
+&#13;
+    image_file = image_file.convert("L") 
+&#13;
+    code_pic = ''
+&#13;
+    for h in range(0,image_file.size):
+&#13;
+      for w in range(0,image_file.size): 
+&#13;
+            gray = image_file.getpixel((w,h))
+&#13;
+            code_pic = code_pic + CODE_LIB
+&#13;
+      code_pic = code_pic + "\n" 
+&#13;
+    return code_pic
+&#13;
+def convert_image(inputfilepath,heightratio,weightration):
+&#13;
+    heightratio=float(heightratio)
+&#13;
+    weightration=float(weightration)
+&#13;
+    image_file = Image.open(inputfilepath)
+&#13;
+    image_file=image_file.resize((int(image_file.size*weightration), int(image_file.size*heightratio)))
+&#13;
+    trans_data = transform_ascii(image_file)
+&#13;
+    print(trans_data)
+&#13;
+convert_image(filepath,heightarg,widtharg)
+&#13;
+"@
+&#13;
+Write-Output $pythonblock &gt;&gt; "$($tpath)\asc.py"
+&#13;
+Get-ChildItem -recurse -LiteralPath $tpath -include *.$sformat | ForEach-Object{
+&#13;
+      python "$($tpath)\asc.py" $_.FullName $hscale $wscale &gt; "$($_.Directory)\$($_.Basename).txt"
+&#13;
+}
+&#13;
+}这段powershell的本质就是把所有python代码创建成一个字符串变量, 然后再目标目录位置创建python脚本并批量执行.
+&#13;
+各位可以按需改动.
+&#13;
+例子如下:
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113515.png
+&#13;
+各位可以在
+&#13;
+https://github.com/GrandArth/Risi-Pwsh-Profile
+&#13;
+找到我的配置文件. 
+&#13;
+至于如何使用配置文件, 参见这个帖子的回复.
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113958.png这里我建议各位使用Powershell 7.0及以上, 因为有些特性很可能无法在老powershell中实现.
+&#13;
+这个函数总共接受4个参数, 目标文件夹位置, 目标文件类型 ,高度缩放, 宽度缩放.
+&#13;
+根据你电脑对"空格"的渲染设置的不同, 你可能需要对后两个参数进行多次调试才能拿到比较好的效果.
+&#13;
+在我这里, 两者为1:2的时候效果比较好.
+&#13;
+https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113934.png
+&#13;
+那这篇垃圾帖子到这里就结束了, 希望大家早日开学上班(这是人话吗), 再也不用看我发的kuso帖子.
+&#13;
+漫画转ASCII是怎么回事呢？漫画相信大家都很熟悉，但是漫画转ASCII是怎么回事呢，下面就让小编带大家一起了解吧。
+&#13;
+漫画转ASCII，其实就是用符号表示图像，大家可能会很惊讶漫画怎么会转ASCII呢？但事实就是这样，小编也感到非常惊讶。
+&#13;
+这就是关于漫画转ASCII的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！</description>
+      <content:encoded><![CDATA[<p><b>冰箱研会长: </b><br>
+<span>【AA】【搞笑】用ASCII ART (AA画) 来批量全损压缩漫画</span><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-16 12:10 编辑 </span><br>
+<span>一些必须写在前面的话</span><br>
+<span>本篇教程 (如果这种垃圾帖子也可以成为教程的话), 除了扯淡以外无任何意义.</span><br>
+<span>我对AA的了解属于浅尝辄止, 不排除已经有更先进, 更性能, 成品质量更稳定的方法存在 </span><br>
+<span>(因为我查都没查所以不知道有没有)</span><br>
+<span>虽然结果大概率上不尽人意, 但如果它能给像我一样无法返校的人提供个消遣的话, 也不算完全的失败.</span><br>
+<span>所以归根结底, 我还是希望各位能以轻松的心情看待本帖.</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111251.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111251.png"><br>
+<span>什么? 你问为什么明明都有AA了还要发图片? 因为S1的有每行最大字符限制, 而我做出来的AA都超限了....</span><br>
+<span>那么从现在开始切入主题</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111855.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516111855.png"><br>
+<span>要从一张图片制作出AA, 共有两个步骤:</span><br>
+<span>1. 图像预处理</span><br>
+<span>2. 像素符号映射</span><br>
+<span>https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516112646.JPG</span><br>
+<span>一这张图片作为原图为例, 如果我们不首先进行处理, 直接符号映射会得到什么结果呢?</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516112017.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516112017.png"><br>
+<span>嗯...很糟糕了.</span><br>
+<span>华语作豚领袖nbht在点评 "普罗米亚" 的时候说过 "我们看动画.....看的是线条....不是色块...." (引用了名人名言)</span><br>
+<span>先不论这句话在动画领域正确与否, 在AA画里, 我是觉得线条更为重要的.</span><br>
+<span>同时, 因为AA原生就是不存在颜色的一种形式, 对于映射过程而言, 色块及其颜色都是一种干扰.</span><br>
+<span>学习过素描的人可能知道, "画的真好, 像照片一样" 的前提是形准和阴影准, 那么我们在进行映射之前, 首先就是要提取出图像的线条和阴影信息.</span><br>
+<span>要实现这个任务, 我们有很多的工具可以选择, 这里就找来人民的好朋友----老马制作的Comic Enhancer Pro</span><br>
+<span>**** Hidden Message *****</span><br>
+<span>这里提供老马一系列原创软件的链接, 积分不够的话可以直接百度前往老马的博客.</span><br>
+<span>因为老马随软件提供了非常详细的教程, 对于软件的具体操作这里不会说的特别详细.</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113054.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113054.png"><br>
+<span>直接纯黑白, 简单拿出线和阴影:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113120.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113120.png"><br>
+<span>点击批量处理, 自动调用同一套设置</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113226.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113226.png"><br>
+<span>处理结束之后,进入映射部分.</span><br>
+<span>这里我们主要的映射部分使用Python, 搭配Powershell实现批量处理.</span><br>
+<span>代码如下:</span><br>
+<span>function asctrans($tpath,$sformat,$hscale,$wscale)</span><br>
+<span>{</span><br>
+<span>$pythonblock=@"</span><br>
+<span>from PIL import Image</span><br>
+<span>import os</span><br>
+<span>import sys</span><br>
+<span>filepath = sys.argv</span><br>
+<span>heightarg = sys.argv</span><br>
+<span>widtharg = sys.argv</span><br>
+<span>CODE_LIB = r"B8&WM#YXQO{}[]()I1i!pao;:,.    "</span><br>
+<span>count = len(CODE_LIB)</span><br>
+<span>def transform_ascii(image_file): </span><br>
+<span>    image_file = image_file.convert("L") </span><br>
+<span>    code_pic = ''</span><br>
+<span>    for h in range(0,image_file.size):</span><br>
+<span>      for w in range(0,image_file.size): </span><br>
+<span>            gray = image_file.getpixel((w,h))</span><br>
+<span>            code_pic = code_pic + CODE_LIB</span><br>
+<span>      code_pic = code_pic + "\n" </span><br>
+<span>    return code_pic</span><br>
+<span>def convert_image(inputfilepath,heightratio,weightration):</span><br>
+<span>    heightratio=float(heightratio)</span><br>
+<span>    weightration=float(weightration)</span><br>
+<span>    image_file = Image.open(inputfilepath)</span><br>
+<span>    image_file=image_file.resize((int(image_file.size*weightration), int(image_file.size*heightratio)))</span><br>
+<span>    trans_data = transform_ascii(image_file)</span><br>
+<span>    print(trans_data)</span><br>
+<span>convert_image(filepath,heightarg,widtharg)</span><br>
+<span>"@</span><br>
+<span>Write-Output $pythonblock >> "$($tpath)\asc.py"</span><br>
+<span>Get-ChildItem -recurse -LiteralPath $tpath -include *.$sformat | ForEach-Object{</span><br>
+<span>      python "$($tpath)\asc.py" $_.FullName $hscale $wscale > "$($_.Directory)\$($_.Basename).txt"</span><br>
+<span>}</span><br>
+<span>}这段powershell的本质就是把所有python代码创建成一个字符串变量, 然后再目标目录位置创建python脚本并批量执行.</span><br>
+<span>各位可以按需改动.</span><br>
+<span>例子如下:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113515.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113515.png"><br>
+<span>各位可以在</span><br>
+<span>https://github.com/GrandArth/Risi-Pwsh-Profile</span><br>
+<span>找到我的配置文件. </span><br>
+<span>至于如何使用配置文件, 参见这个帖子的回复.</span><br>
+<span>https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113958.png这里我建议各位使用Powershell 7.0及以上, 因为有些特性很可能无法在老powershell中实现.</span><br>
+<span>这个函数总共接受4个参数, 目标文件夹位置, 目标文件类型 ,高度缩放, 宽度缩放.</span><br>
+<span>根据你电脑对"空格"的渲染设置的不同, 你可能需要对后两个参数进行多次调试才能拿到比较好的效果.</span><br>
+<span>在我这里, 两者为1:2的时候效果比较好.</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113934.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516113934.png"><br>
+<span>那这篇垃圾帖子到这里就结束了, 希望大家早日开学上班(这是人话吗), 再也不用看我发的kuso帖子.</span><br>
+<span>漫画转ASCII是怎么回事呢？漫画相信大家都很熟悉，但是漫画转ASCII是怎么回事呢，下面就让小编带大家一起了解吧。</span><br>
+<span>漫画转ASCII，其实就是用符号表示图像，大家可能会很惊讶漫画怎么会转ASCII呢？但事实就是这样，小编也感到非常惊讶。</span><br>
+<span>这就是关于漫画转ASCII的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>挺有娱乐性。讲道理不做二值化直接符号映射那张味更正。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-16 12:21 编辑 </span><br>
+<span>更新一下压缩前后体积对比:</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121737.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121737.png"><br>
+<span>一张3m的猫娘图https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121758.png </span><br>
+<span>压缩完了之后变成了18mbhttps://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121823.png</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121845.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516121845.png"><br>
+<span>众所周知, 图像体积当然是越大越好.</span><br>
+<span>而且我们打开来看看, 可以看到几乎没有肉眼可见的损失</span><br>
+</p><p><b>BT绅士: </b><br>
+<span>反向压缩，最为致命</span><br>
+</p><p><b>plazum: </b><br>
+<span>冰箱研会长 发表于 2020-5-16 12:19</span><br>
+<span>更新一下压缩前后体积对比:</span><br>
+<span>一张3m的猫娘图 </span><br>
+<span>别的不说，这猫娘我射了</span><br>
+</p><p><b>王留美: </b><br>
+<span>猫娘的转换后效果图呢？</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>raw text 自然大，可以试试压缩一下，压缩率一定很感人</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span>王留美 发表于 2020-5-16 13:19</span><br>
+<span>猫娘的转换后效果图呢？</span><br>
+<img src="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516133703.png" title="https://gitee.com/Arxher/Risiamu-Picture/raw/master/wikifiles/20200516133703.png"><br>
+</p><p><b>linux40: </b><br>
+<span>因为mpv依赖，我一般用caca。</span><br>
+</p><p><b>冰箱研会长: </b><br>
+<span> 本帖最后由 冰箱研会长 于 2020-5-16 15:18 编辑 </span><br>
+<span>linux40 发表于 2020-5-16 15:07</span><br>
+<span>因为mpv依赖，我一般用caca。</span><br>
+<span>Libcaca! 好东西 终端播视频还是很炫酷的 我记得ffpemg配套的ffplay也用caca库</span><br>
+<span>哎 不过想生成能用的AA的话, 果然还是得分块做边缘检测... 不知道有没有人做</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1935293[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[Stage1 论坛 - 有公网IP的情况如何直接远程连接没有公网IP的电脑？]]></title>
+        <link>https://bbs.saraba1st.com/2b/thread-1906402.xml-1-1.html</link>
+        <atom:link href="http://rsshub.app/saraba1st/thread/1906402.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[Stage1 论坛 - 有公网IP的情况如何直接远程连接没有公网IP的电脑？ - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 09 Jul 2020 09:42:40 GMT</lastBuildDate>
+        <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #10]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=46041265&ptid=1906402" target="_blank"><font color="#999999">纯情小鸭鸭 发表于 2019-12-31 08:59</font></a></font><br>
+路过说一下，ipv4是不能连接ipv6的。</blockquote></div><br>
+我这边已经有IPv6了，是要把另一边也换成支持IPv6的路由。]]></description>
+            <pubDate>Tue, 31 Dec 2019 01:15:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041408</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041408</link>
+            
+            
+            
+            <author><![CDATA[rentrody]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #9]]></title>
+            <description><![CDATA[路过说一下，ipv4是不能连接ipv6的。]]></description>
+            <pubDate>Tue, 31 Dec 2019 00:59:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041265</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041265</link>
+            
+            
+            
+            <author><![CDATA[纯情小鸭鸭]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #8]]></title>
+            <description><![CDATA[其实还有个方式，这边电信已经支持IPv6了，也正好想把另外一边的路由器换掉，直接用IPv6连接就完美了。<br>
+收了一个全新的y1s才五十块，不过是阿里版，不能直接刷固件，得拆开用TTL刷才行，等折腾好再说。]]></description>
+            <pubDate>Tue, 31 Dec 2019 00:35:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041088</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46041088</link>
+            
+            
+            
+            <author><![CDATA[rentrody]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #7]]></title>
+            <description><![CDATA[<i class="pstatus"> 本帖最后由 rentrody 于 2019-12-31 08:26 编辑 </i><br>
+<br>
+看来我的思路还是对的，既然这边有公网IP就可以直接让另一边的非公网主机连上来，得到其公网地址和端口，在端口映射关系失效前就可以直接用公网地址连回去，不需要再弄个frp这样的本地服务来转发。<br>
+然后问题就是如何方便地让非公网主机连上来，写个批处理当后台任务挂在两边？有没有什么现成的简易工具？<br>
+<br>
+不过感觉也没必要折腾这些了，anydesk其实是可以打洞的
+<ignore_js_op>
+
+<img id="aimg_632001" aid="632001" src="https://static.saraba1st.com/image/common/none.gif" zoomfile="https://img.saraba1st.com/forum/201912/31/081502n504yb9yd5q0bb9q.png" file="https://img.saraba1st.com/forum/201912/31/081502n504yb9yd5q0bb9q.png" class="zoom" width="234" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" referrerpolicy="no-referrer">
+
+<div class="tip tip_4 aimg_tip" id="aimg_632001_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>捕获3.PNG</strong> <em class="xg1">(9.96 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://bbs.saraba1st.com/2b/forum.php?mod=attachment&aid=NjMyMDAxfDAwM2ZjY2E0fDE1OTQyODc3NjB8MHwxOTA2NDAy&nothumb=yes" target="_blank">下载附件</a>
+
+</p>
+
+<p class="xg1 y">2019-12-31 08:15 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+，我之前连接时没成功应该是同时接内外网的路由表没设置好导致的。windows不能同时设两个网关，得把内网网卡设置里的网关删除才能正常上网，不然就算在路由表里删掉，重新联网后路由表又会出现两个0.0.0.0的默认路由。]]></description>
+            <pubDate>Tue, 31 Dec 2019 00:17:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46040984</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46040984</link>
+            
+            
+            
+            <author><![CDATA[rentrody]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #6]]></title>
+            <description><![CDATA[哈哈，成功手动打洞<br>
+
+<ignore_js_op>
+
+<img id="aimg_631998" aid="631998" src="https://static.saraba1st.com/image/common/none.gif" zoomfile="https://img.saraba1st.com/forum/201912/31/075342dy1hd3nd09dcbow1.png" file="https://img.saraba1st.com/forum/201912/31/075342dy1hd3nd09dcbow1.png" class="zoom" width="683" inpost="1" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" referrerpolicy="no-referrer">
+
+<div class="tip tip_4 aimg_tip" id="aimg_631998_menu" style="position: absolute; display: none" disautofocus="true">
+<div class="xs0">
+<p><strong>批注 2019-12-31 075159.png</strong> <em class="xg1">(86.67 KB, 下载次数: 0)</em></p>
+<p>
+<a href="https://bbs.saraba1st.com/2b/forum.php?mod=attachment&aid=NjMxOTk4fGEyNDkyMDY0fDE1OTQyODc3NjB8MHwxOTA2NDAy&nothumb=yes" target="_blank">下载附件</a>
+
+</p>
+
+<p class="xg1 y">2019-12-31 07:53 上传</p>
+
+</div>
+<div class="tip_horn"></div>
+</div>
+
+</ignore_js_op>
+]]></description>
+            <pubDate>Mon, 30 Dec 2019 23:53:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46040900</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46040900</link>
+            
+            
+            
+            <author><![CDATA[rentrody]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #5]]></title>
+            <description><![CDATA[v2ray万能<img src="https://static.saraba1st.com/image/smiley/face2017/002.png" smilieid="624" border="0" alt referrerpolicy="no-referrer">]]></description>
+            <pubDate>Sun, 29 Dec 2019 22:30:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028841</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028841</link>
+            
+            
+            
+            <author><![CDATA[北海生未径]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #4]]></title>
+            <description><![CDATA[其实在你公网电脑上让frpc和frps跑在不同端口上就行了，地址变动就用DDNS。]]></description>
+            <pubDate>Sun, 29 Dec 2019 21:59:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028810</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028810</link>
+            
+            
+            
+            <author><![CDATA[雪ノ下だんご]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #3]]></title>
+            <description><![CDATA[<div class="quote"><blockquote><font size="2"><a href="https://bbs.saraba1st.com/2b/forum.php?mod=redirect&goto=findpost&pid=46028750&ptid=1906402" target="_blank"><font color="#999999">qwased 发表于 2019-12-30 04:32</font></a></font><br>
+zerotier<br>
+<br>
+—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</blockquote></div><br>
+n2n、zerotier、tinc这些好像都是VPN形式，而我要远程连接是为了登录那台电脑上的内网系统（电脑同时接了外网和内网），用这类的话想同时连内网感觉会有些麻烦。]]></description>
+            <pubDate>Sun, 29 Dec 2019 21:26:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028783</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028783</link>
+            
+            
+            
+            <author><![CDATA[rentrody]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[有公网IP的情况如何直接远程连接没有公网IP的电脑？ #2]]></title>
+            <description><![CDATA[zerotier<br>
+<br>
+—— 来自 Xiaomi MI 6, Android 9上的 <a href="https://github.com/ykrank/S1-Next/releases" target="_blank">S1Next-鹅版</a> v2.2.0.1]]></description>
+            <pubDate>Sun, 29 Dec 2019 20:32:00 GMT</pubDate>
+            <guid isPermaLink="false">https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028750</guid>
+            <link>https://bbs.saraba1st.com/2b/forum.php?mod=redirect&#38;goto=findpost&#38;ptid=1906402&#38;pid=46028750</link>
+            
+            
+            
+            <author><![CDATA[qwased]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>不是16:9的手机屏幕投射到电视如何强制全屏</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>不是16:9的手机屏幕投射到电视如何强制全屏</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:50:44 +0000</lastBuildDate>
+    <item>
+      <title>不是16:9的手机屏幕投射到电视如何强制全屏[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857989-1-1.html</link>
+      <description>不是16:9的手机屏幕投射到电视如何强制全屏&#13;
+如题，不是爱奇艺里那种点一下程序里点一下TV图标的屏幕投射，而是系统自带的cast投射。但是手机是18:9的，看16:9视频左右自带黑边，投射到电视上就是上下左右都自带黑边了，请教如何解决？手机已ROOT。</description>
+      <content:encoded><![CDATA[<p><b>碳.: </b><br>
+<span>不是16:9的手机屏幕投射到电视如何强制全屏</span><br>
+<span>如题，不是爱奇艺里那种点一下程序里点一下TV图标的屏幕投射，而是系统自带的cast投射。但是手机是18:9的，看16:9视频左右自带黑边，投射到电视上就是上下左右都自带黑边了，请教如何解决？手机已ROOT。</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>这个暂时没有看到除了（以前的）大法之外的厂商做过…</span><br>
+<span>Z板某个版本输出的时候会自动从16:10改成16:19，后来直接更新砍掉了。</span><br>
+<span>不知道adb shell wm size 1920x1080改手机分辨率是什么效果？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>如果设置没有的话那就是没有了，换乐播吧。虽然不想承认但是wifi display 最好的还真是华为，</span><br>
+</p><p><b>碳.: </b><br>
+<span>fishmanzero 发表于 2019-10-5 19:06</span><br>
+<span>这个暂时没有看到除了（以前的）大法之外的厂商做过…</span><br>
+<span>Z板某个版本输出的时候会自动从16:10改成16:19，后来 ...</span><br>
+<span>adb就没意思了，看个视频还得改手机分辨率太蛋疼</span><br>
+</p><p><b>碳.: </b><br>
+<span>貌似拿镧工具箱搞定了，还是得调分辨率，可惜调完刘海还在</span><br>
+</p><p><b>zihexing: </b><br>
+<span>没多少值得投屏的吧？</span><br>
+<span>我能电视上的都直接电视上的解决。安装yandex 和火狐浏览器都能解决掉大部分视频网站了。连直播和弹幕都有</span><br>
+</p><p><b>happyliuhao: </b><br>
+<span>非169屏幕的只有三星有个选项可以全屏 没办法我买了个二手mate10专门连电视用</span><br>
+<span>----发送自 HUAWEI ALP-AL00,Android 9</span><br>
+</p><p><b>happyliuhao: </b><br>
+<span>对了华为非169屏幕的无线想全屏必须开电脑模式 手机模式不行</span><br>
+<span>----发送自 HUAWEI TAS-AL00,Android 10</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>碳. 发表于 2019-10-5 20:00</span><br>
+<span>adb就没意思了，看个视频还得改手机分辨率太蛋疼</span><br>
+<span>root了的话放个shell脚本在手机里甚至做成快捷方式都可以嘛，结果改分辨率是可行的？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>碳.: </b><br>
+<span>fishmanzero 发表于 2019-10-6 10:47</span><br>
+<span>root了的话放个shell脚本在手机里甚至做成快捷方式都可以嘛，结果改分辨率是可行的？</span><br>
+<span>—— 来自 Sony G8 ...</span><br>
+<span>可以，用镧工具箱不用重启，但是改FHD看起来还是圆角刘海，看B站得系统里开强制全屏才不会在刘海处留黑边，最终在电视上显示是完美的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857989[0-50]</guid>
+    </item>
+  </channel>
+</rss>

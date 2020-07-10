@@ -1,0 +1,840 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python真是太好用了：初中生好帮手——手动开平方根</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python真是太好用了：初中生好帮手——手动开平方根</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:51:27 +0000</lastBuildDate>
+    <item>
+      <title>python真是太好用了：初中生好帮手——手动开平方根[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838782-1-1.html</link>
+      <description>python真是太好用了：初中生好帮手——手动开平方根&#13;
+ 本帖最后由 CAMUS.net 于 2019-6-12 03:51 编辑 
+
+```
+&#13;
+print('请输入开方数字：')
+&#13;
+x2 = input()                     #输入开方数
+&#13;
+x2 = x2 + "00000000"               #放大8位，即精确到小数点后4位
+&#13;
+x = ""                           #开方结果
+&#13;
+digits = len(x2)                   #统计位数
+&#13;
+if digits % 2 == 1:                #判断单双位数
+&#13;
+    x2_1 = int(x2[0:1])            #取第一个数
+&#13;
+    digit = 1                      #从第一位后开始取数
+&#13;
+    digits = digits-1
+&#13;
+else:
+&#13;
+    x2_1 = int(x2[0:2])            #取第一个数
+&#13;
+    digit = 2                      #从第二位后开始取数
+&#13;
+    digits = digits - 2
+&#13;
+if x2_1 &gt;= 9*9:                     #判断a*a是否合适，并减出余数
+&#13;
+    x = "9"                        #计算第一个a*a
+&#13;
+    x2_2 = x2_1-9*9                #得出余数
+&#13;
+elif x2_1 &gt;= 8*8:
+&#13;
+    x = "8"
+&#13;
+    x2_2 = x2_1-8*8
+&#13;
+elif x2_1 &gt;= 7*7:
+&#13;
+    x = "7"
+&#13;
+    x2_2 = x2_1-7*7
+&#13;
+elif x2_1 &gt;= 6*6:
+&#13;
+    x = "6"
+&#13;
+    x2_2 = x2_1-6*6
+&#13;
+elif x2_1 &gt;= 5*5:
+&#13;
+    x = "5"
+&#13;
+    x2_2 = x2_1-5*5
+&#13;
+elif x2_1 &gt;= 4*4:
+&#13;
+    x = "4"
+&#13;
+    x2_2 = x2_1-4*4
+&#13;
+elif x2_1 &gt;= 3*3:
+&#13;
+    x = "3"
+&#13;
+    x2_2 = x2_1-3*3
+&#13;
+elif x2_1 &gt;= 2*2:
+&#13;
+    x = "2"
+&#13;
+    x2_2 = x2_1-2*2
+&#13;
+elif x2_1 &gt;= 1*1:
+&#13;
+    x = "1"
+&#13;
+    x2_2 = x2_1-1*1
+&#13;
+else:
+&#13;
+    pass
+&#13;
+while digits &gt;= 2:                                  #数字每两位取数
+&#13;
+    x2_2 = int(str(x2_2) + x22])       #余数补上后面两位数字
+&#13;
+    if x2_2 &gt;= (2*int(x)*10+9)*9:                   #(2a+b)b
+&#13;
+      a2bb = "9"
+&#13;
+      x2_2 = x2_2-(2*int(x)*10+9)*9
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+8)*8:
+&#13;
+      a2bb = "8"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 8) * 8
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+7)*7:
+&#13;
+      a2bb = "7"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 7) * 7
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+6)*6:
+&#13;
+      a2bb = "6"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 6) * 6
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+5)*5:
+&#13;
+      a2bb = "5"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 5) * 5
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+4)*4:
+&#13;
+      a2bb = "4"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 4) * 4
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+3)*3:
+&#13;
+      a2bb = "3"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 3) * 3
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+2)*2:
+&#13;
+      a2bb = "2"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 2) * 2
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+1)*1:
+&#13;
+      a2bb = "1"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 1) * 1
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+0)*0:
+&#13;
+      a2bb = "0"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 0) * 0
+&#13;
+    else:
+&#13;
+      pass
+&#13;
+    x = str(x)                              #转为字符串
+&#13;
+    x = x + a2bb                              #将得到的数字连串起来
+&#13;
+    digit = digit+2
+&#13;
+    digits = digits-2
+&#13;
+x = int(x)/10000                        #缩小4倍，补上小数点
+&#13;
+print(x)                                 #精确到整数
+&#13;
+```</description>
+      <content:encoded><![CDATA[<p><b>linekm: </b><br>
+<span>牛顿迭代不好吗</span><br>
+</p><p><b>塩天使リエル: </b><br>
+<span>纸笔手算平方根不是初中生进阶前置技能嘛。</span><br>
+</p><p><b>IsaacWang-R: </b><br>
+<span>太好了，我学习python就是为了开平方根</span><br>
+</p><p><b>hac0101: </b><br>
+<span>还以为是多项式开平方根</span><br>
+<span>-- 来自 能看大图的 Stage1官方 Android客户端</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>Digi1980s 发表于 2019-6-12 04:04</span><br>
+<span>这堆 if ... elif</span><br>
+<span>应该可以用 filter 来改写？</span><br>
+<span>还是简单点，先从杜绝滥用 elif 开始</span><br>
+<span>为什么你的代码能缩进，难道不是本坛的代码标签插入的？</span><br>
+<span>用本坛代码标签是这样</span><br>
+<span>print('请输入开方数字：')</span><br>
+<span>x2 = input()                     #输入开方数</span><br>
+<span>x2 = x2 + "00000000"               #放大8位，即精确到小数点后4位</span><br>
+<span>x = ""                           #开方结果</span><br>
+<span>digits = len(x2)                   #统计位数</span><br>
+<span>if digits % 2 == 1:                #判断单双位数</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 1                      #从第一位后开始取数</span><br>
+<span>    digits = digits-1</span><br>
+<span>else:</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 2                      #从第二位后开始取数</span><br>
+<span>    digits = digits - 2</span><br>
+<span>if x2_1 >= 9*9:                     #判断a*a是否合适，并减出余数</span><br>
+<span>    x = "9"                        #计算第一个a*a</span><br>
+<span>    x2_2 = x2_1-9*9                #得出余数</span><br>
+<span>elif x2_1 >= 8*8:</span><br>
+<span>    x = "8"</span><br>
+<span>    x2_2 = x2_1-8*8</span><br>
+<span>elif x2_1 >= 7*7:</span><br>
+<span>    x = "7"</span><br>
+<span>    x2_2 = x2_1-7*7</span><br>
+<span>elif x2_1 >= 6*6:</span><br>
+<span>    x = "6"</span><br>
+<span>    x2_2 = x2_1-6*6</span><br>
+<span>elif x2_1 >= 5*5:</span><br>
+<span>    x = "5"</span><br>
+<span>    x2_2 = x2_1-5*5</span><br>
+<span>elif x2_1 >= 4*4:</span><br>
+<span>    x = "4"</span><br>
+<span>    x2_2 = x2_1-4*4</span><br>
+<span>elif x2_1 >= 3*3:</span><br>
+<span>    x = "3"</span><br>
+<span>    x2_2 = x2_1-3*3</span><br>
+<span>elif x2_1 >= 2*2:</span><br>
+<span>    x = "2"</span><br>
+<span>    x2_2 = x2_1-2*2</span><br>
+<span>elif x2_1 >= 1*1:</span><br>
+<span>    x = "1"</span><br>
+<span>    x2_2 = x2_1-1*1</span><br>
+<span>else:</span><br>
+<span>    pass</span><br>
+<span>while digits >= 2:                                  #数字每两位取数</span><br>
+<span>    x2_2 = int(str(x2_2) + x2)       #余数补上后面两位数字</span><br>
+<span>    if x2_2 >= (2*int(x)*10+9)*9:                   #(2a+b)b</span><br>
+<span>      a2bb = "9"</span><br>
+<span>      x2_2 = x2_2-(2*int(x)*10+9)*9</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+8)*8:</span><br>
+<span>      a2bb = "8"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 8) * 8</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+7)*7:</span><br>
+<span>      a2bb = "7"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 7) * 7</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+6)*6:</span><br>
+<span>      a2bb = "6"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 6) * 6</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+5)*5:</span><br>
+<span>      a2bb = "5"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 5) * 5</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+4)*4:</span><br>
+<span>      a2bb = "4"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 4) * 4</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+3)*3:</span><br>
+<span>      a2bb = "3"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 3) * 3</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+2)*2:</span><br>
+<span>      a2bb = "2"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 2) * 2</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+1)*1:</span><br>
+<span>      a2bb = "1"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 1) * 1</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+0)*0:</span><br>
+<span>      a2bb = "0"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 0) * 0</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    x = str(x)                              #转为字符串</span><br>
+<span>    x = x + a2bb                              #将得到的数字连串起来</span><br>
+<span>    digit = digit+2</span><br>
+<span>    digits = digits-2</span><br>
+<span>x = int(x)/10000                        #缩小4倍，补上小数点</span><br>
+<span>print(x)                                 #精确到整数</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>Digi1980s 发表于 2019-6-12 04:04</span><br>
+<span>这堆 if ... elif</span><br>
+<span>应该可以用 filter 来改写？</span><br>
+<span>还是简单点，先从杜绝滥用 elif 开始</span><br>
+<span>明白了，预览不缩进，发出来之后就缩进了</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-12 15:54 编辑 </span><br>
+<span>Neozero 发表于 2019-6-12 10:15</span><br>
+<span>我还以为要输出过程…</span><br>
+<span>只要结果的话不想用sqrt好歹也用下牛顿法吧</span><br>
+<span>可以打印每一个步骤了</span><br>
+<span>print('请输入开方数字：')</span><br>
+<span>x2 = input()                     #输入开方数</span><br>
+<span>x2 = int(x2) * 100000000         #放大8位，即精确到小数点后4位</span><br>
+<span>x2 = str(x2)                     #转换字符</span><br>
+<span>x = ""                           #开方结果</span><br>
+<span>digits = len(x2)                   #统计位数</span><br>
+<span>if digits % 2 == 1:                #判断单双位数</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 1                      #从第一位后开始取数</span><br>
+<span>    digits = digits-1</span><br>
+<span>else:</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 2                      #从第二位后开始取数</span><br>
+<span>    digits = digits - 2</span><br>
+<span>if x2_1 >= 9*9:                  #判断a*a是否合适，并减出余数</span><br>
+<span>    x = "9"                        #得出第1位平方根</span><br>
+<span>    x2_2 = x2_1-9*9                #得出余数</span><br>
+<span>elif x2_1 >= 8*8:</span><br>
+<span>    x = "8"</span><br>
+<span>    x2_2 = x2_1-8*8</span><br>
+<span>elif x2_1 >= 7*7:</span><br>
+<span>    x = "7"</span><br>
+<span>    x2_2 = x2_1-7*7</span><br>
+<span>elif x2_1 >= 6*6:</span><br>
+<span>    x = "6"</span><br>
+<span>    x2_2 = x2_1-6*6</span><br>
+<span>elif x2_1 >= 5*5:</span><br>
+<span>    x = "5"</span><br>
+<span>    x2_2 = x2_1-5*5</span><br>
+<span>elif x2_1 >= 4*4:</span><br>
+<span>    x = "4"</span><br>
+<span>    x2_2 = x2_1-4*4</span><br>
+<span>elif x2_1 >= 3*3:</span><br>
+<span>    x = "3"</span><br>
+<span>    x2_2 = x2_1-3*3</span><br>
+<span>elif x2_1 >= 2*2:</span><br>
+<span>    x = "2"</span><br>
+<span>    x2_2 = x2_1-2*2</span><br>
+<span>elif x2_1 >= 1*1:</span><br>
+<span>    x = "1"</span><br>
+<span>    x2_2 = x2_1-1*1</span><br>
+<span>else:</span><br>
+<span>    pass</span><br>
+<span>print("第1组开方数:%d" % x2_1)</span><br>
+<span>print('平方根第1位：%s 余数：%d' % (x, x2_2))</span><br>
+<span>digitx = 2          #第2组开方起始变量</span><br>
+<span>while digits >= 2:                                  #数字每两位取数</span><br>
+<span>    x2_2 = int(str(x2_2) + x2)       #余数补上后面两位数字</span><br>
+<span>    x2_2p = x2_2                                    #打印x2_2</span><br>
+<span>    if x2_2 >= (2*int(x)*10+9)*9:                   #测试(2a+b)b是否合适</span><br>
+<span>      a2bb = "9"                                  #得出第2位平方根</span><br>
+<span>      x2_2 = x2_2-(2*int(x)*10+9)*9               #得出余数</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+8)*8:</span><br>
+<span>      a2bb = "8"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 8) * 8</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+7)*7:</span><br>
+<span>      a2bb = "7"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 7) * 7</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+6)*6:</span><br>
+<span>      a2bb = "6"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 6) * 6</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+5)*5:</span><br>
+<span>      a2bb = "5"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 5) * 5</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+4)*4:</span><br>
+<span>      a2bb = "4"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 4) * 4</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+3)*3:</span><br>
+<span>      a2bb = "3"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 3) * 3</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+2)*2:</span><br>
+<span>      a2bb = "2"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 2) * 2</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+1)*1:</span><br>
+<span>      a2bb = "1"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 1) * 1</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+0)*0:</span><br>
+<span>      a2bb = "0"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 0) * 0</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    print('第%d组开方数：%d' % (digitx, x2_2p))</span><br>
+<span>    print('第%d组(2a+b)b得数：%d' % (digitx, x2_2p-x2_2))</span><br>
+<span>    print('第{digitx_p2}组平方根：{a2bb_p2}余数：{x2_2_p}'.format(digitx_p2=digitx, a2bb_p2=a2bb, x2_2_p=x2_2))</span><br>
+<span>    x = str(x)                              #转为字符串</span><br>
+<span>    x = x + a2bb                              #将得到的数字连串起来</span><br>
+<span>    digit = digit+2</span><br>
+<span>    digits = digits-2</span><br>
+<span>    digitx = digitx+1</span><br>
+<span>x = int(x)/10000                        #缩小4倍，补上小数点</span><br>
+<span>print(x)                                 #精确到整数</span><br>
+</p><p><b>equion: </b><br>
+<span>然而初中生更多是直接买计算器了</span><br>
+</p><p><b>青菜子: </b><br>
+<span>import numpy as np</span><br>
+<span>import gravity</span><br>
+</p><p><b>Igarashi: </b><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838782[50-100]</guid>
+    </item>
+    <item>
+      <title>python真是太好用了：初中生好帮手——手动开平方根[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838782-1-1.html</link>
+      <description>python真是太好用了：初中生好帮手——手动开平方根&#13;
+ 本帖最后由 CAMUS.net 于 2019-6-12 03:51 编辑 
+
+```
+&#13;
+print('请输入开方数字：')
+&#13;
+x2 = input()                     #输入开方数
+&#13;
+x2 = x2 + "00000000"               #放大8位，即精确到小数点后4位
+&#13;
+x = ""                           #开方结果
+&#13;
+digits = len(x2)                   #统计位数
+&#13;
+if digits % 2 == 1:                #判断单双位数
+&#13;
+    x2_1 = int(x2[0:1])            #取第一个数
+&#13;
+    digit = 1                      #从第一位后开始取数
+&#13;
+    digits = digits-1
+&#13;
+else:
+&#13;
+    x2_1 = int(x2[0:2])            #取第一个数
+&#13;
+    digit = 2                      #从第二位后开始取数
+&#13;
+    digits = digits - 2
+&#13;
+if x2_1 &gt;= 9*9:                     #判断a*a是否合适，并减出余数
+&#13;
+    x = "9"                        #计算第一个a*a
+&#13;
+    x2_2 = x2_1-9*9                #得出余数
+&#13;
+elif x2_1 &gt;= 8*8:
+&#13;
+    x = "8"
+&#13;
+    x2_2 = x2_1-8*8
+&#13;
+elif x2_1 &gt;= 7*7:
+&#13;
+    x = "7"
+&#13;
+    x2_2 = x2_1-7*7
+&#13;
+elif x2_1 &gt;= 6*6:
+&#13;
+    x = "6"
+&#13;
+    x2_2 = x2_1-6*6
+&#13;
+elif x2_1 &gt;= 5*5:
+&#13;
+    x = "5"
+&#13;
+    x2_2 = x2_1-5*5
+&#13;
+elif x2_1 &gt;= 4*4:
+&#13;
+    x = "4"
+&#13;
+    x2_2 = x2_1-4*4
+&#13;
+elif x2_1 &gt;= 3*3:
+&#13;
+    x = "3"
+&#13;
+    x2_2 = x2_1-3*3
+&#13;
+elif x2_1 &gt;= 2*2:
+&#13;
+    x = "2"
+&#13;
+    x2_2 = x2_1-2*2
+&#13;
+elif x2_1 &gt;= 1*1:
+&#13;
+    x = "1"
+&#13;
+    x2_2 = x2_1-1*1
+&#13;
+else:
+&#13;
+    pass
+&#13;
+while digits &gt;= 2:                                  #数字每两位取数
+&#13;
+    x2_2 = int(str(x2_2) + x22])       #余数补上后面两位数字
+&#13;
+    if x2_2 &gt;= (2*int(x)*10+9)*9:                   #(2a+b)b
+&#13;
+      a2bb = "9"
+&#13;
+      x2_2 = x2_2-(2*int(x)*10+9)*9
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+8)*8:
+&#13;
+      a2bb = "8"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 8) * 8
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+7)*7:
+&#13;
+      a2bb = "7"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 7) * 7
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+6)*6:
+&#13;
+      a2bb = "6"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 6) * 6
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+5)*5:
+&#13;
+      a2bb = "5"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 5) * 5
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+4)*4:
+&#13;
+      a2bb = "4"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 4) * 4
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+3)*3:
+&#13;
+      a2bb = "3"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 3) * 3
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+2)*2:
+&#13;
+      a2bb = "2"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 2) * 2
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+1)*1:
+&#13;
+      a2bb = "1"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 1) * 1
+&#13;
+    elif x2_2 &gt;= (2*int(x)*10+0)*0:
+&#13;
+      a2bb = "0"
+&#13;
+      x2_2 = x2_2 - (2 * int(x) * 10 + 0) * 0
+&#13;
+    else:
+&#13;
+      pass
+&#13;
+    x = str(x)                              #转为字符串
+&#13;
+    x = x + a2bb                              #将得到的数字连串起来
+&#13;
+    digit = digit+2
+&#13;
+    digits = digits-2
+&#13;
+x = int(x)/10000                        #缩小4倍，补上小数点
+&#13;
+print(x)                                 #精确到整数
+&#13;
+```</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>python真是太好用了：初中生好帮手——手动开平方根</span><br>
+<span> 本帖最后由 CAMUS.net 于 2019-6-12 03:51 编辑 </span><br>
+<span>```</span><br>
+<span>print('请输入开方数字：')</span><br>
+<span>x2 = input()                     #输入开方数</span><br>
+<span>x2 = x2 + "00000000"               #放大8位，即精确到小数点后4位</span><br>
+<span>x = ""                           #开方结果</span><br>
+<span>digits = len(x2)                   #统计位数</span><br>
+<span>if digits % 2 == 1:                #判断单双位数</span><br>
+<span>    x2_1 = int(x2[0:1])            #取第一个数</span><br>
+<span>    digit = 1                      #从第一位后开始取数</span><br>
+<span>    digits = digits-1</span><br>
+<span>else:</span><br>
+<span>    x2_1 = int(x2[0:2])            #取第一个数</span><br>
+<span>    digit = 2                      #从第二位后开始取数</span><br>
+<span>    digits = digits - 2</span><br>
+<span>if x2_1 >= 9*9:                     #判断a*a是否合适，并减出余数</span><br>
+<span>    x = "9"                        #计算第一个a*a</span><br>
+<span>    x2_2 = x2_1-9*9                #得出余数</span><br>
+<span>elif x2_1 >= 8*8:</span><br>
+<span>    x = "8"</span><br>
+<span>    x2_2 = x2_1-8*8</span><br>
+<span>elif x2_1 >= 7*7:</span><br>
+<span>    x = "7"</span><br>
+<span>    x2_2 = x2_1-7*7</span><br>
+<span>elif x2_1 >= 6*6:</span><br>
+<span>    x = "6"</span><br>
+<span>    x2_2 = x2_1-6*6</span><br>
+<span>elif x2_1 >= 5*5:</span><br>
+<span>    x = "5"</span><br>
+<span>    x2_2 = x2_1-5*5</span><br>
+<span>elif x2_1 >= 4*4:</span><br>
+<span>    x = "4"</span><br>
+<span>    x2_2 = x2_1-4*4</span><br>
+<span>elif x2_1 >= 3*3:</span><br>
+<span>    x = "3"</span><br>
+<span>    x2_2 = x2_1-3*3</span><br>
+<span>elif x2_1 >= 2*2:</span><br>
+<span>    x = "2"</span><br>
+<span>    x2_2 = x2_1-2*2</span><br>
+<span>elif x2_1 >= 1*1:</span><br>
+<span>    x = "1"</span><br>
+<span>    x2_2 = x2_1-1*1</span><br>
+<span>else:</span><br>
+<span>    pass</span><br>
+<span>while digits >= 2:                                  #数字每两位取数</span><br>
+<span>    x2_2 = int(str(x2_2) + x22])       #余数补上后面两位数字</span><br>
+<span>    if x2_2 >= (2*int(x)*10+9)*9:                   #(2a+b)b</span><br>
+<span>      a2bb = "9"</span><br>
+<span>      x2_2 = x2_2-(2*int(x)*10+9)*9</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+8)*8:</span><br>
+<span>      a2bb = "8"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 8) * 8</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+7)*7:</span><br>
+<span>      a2bb = "7"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 7) * 7</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+6)*6:</span><br>
+<span>      a2bb = "6"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 6) * 6</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+5)*5:</span><br>
+<span>      a2bb = "5"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 5) * 5</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+4)*4:</span><br>
+<span>      a2bb = "4"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 4) * 4</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+3)*3:</span><br>
+<span>      a2bb = "3"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 3) * 3</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+2)*2:</span><br>
+<span>      a2bb = "2"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 2) * 2</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+1)*1:</span><br>
+<span>      a2bb = "1"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 1) * 1</span><br>
+<span>    elif x2_2 >= (2*int(x)*10+0)*0:</span><br>
+<span>      a2bb = "0"</span><br>
+<span>      x2_2 = x2_2 - (2 * int(x) * 10 + 0) * 0</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    x = str(x)                              #转为字符串</span><br>
+<span>    x = x + a2bb                              #将得到的数字连串起来</span><br>
+<span>    digit = digit+2</span><br>
+<span>    digits = digits-2</span><br>
+<span>x = int(x)/10000                        #缩小4倍，补上小数点</span><br>
+<span>print(x)                                 #精确到整数</span><br>
+<span>```</span><br>
+</p><p><b>BRRM: </b><br>
+<span>论坛明明有插入代码的功能，你发个markdown上来</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>BRRM 发表于 2019-6-12 03:16</span><br>
+<span>这个好像会缩进失效</span><br>
+</p><p><b>εRemastered: </b><br>
+<span>比np.sqrt快吗</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>我是一个只会sqrt（）的弱智</span><br>
+<span>— from samsung SM-G970U1, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>晚韶华: </b><br>
+<span>sqrt()</span><br>
+</p><p><b>HYNDコン: </b><br>
+<span>我还以为程序语言计算开根都是用泰勒公式展开法</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>gmp在py上有个gmpy2</span><br>
+</p><p><b>martinium: </b><br>
+<span>用if把0-9枚举一遍是什么鬼。</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>1inxy: </b><br>
+<span>这if 我看湿了……</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Digi1980s: </b><br>
+<span> 本帖最后由 Digi1980s 于 2019-6-12 05:14 编辑 </span><br>
+<span>这堆 if ... elif</span><br>
+<span>应该可以用 filter 来改写？</span><br>
+<span>还是简单点，先从杜绝滥用 elif 开始</span><br>
+<span>print('请输入开方数字：')</span><br>
+<span>x2 = input()                     #输入开方数</span><br>
+<span>x2 = x2 + "00000000"               #放大8位，即精确到小数点后4位</span><br>
+<span>x = ""                           #开方结果</span><br>
+<span>digits = len(x2)                   #统计位数</span><br>
+<span>if digits % 2 == 1:                #判断单双位数</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 1                      #从第一位后开始取数</span><br>
+<span>    digits = digits-1</span><br>
+<span>else:</span><br>
+<span>    x2_1 = int(x2)            #取第一个数</span><br>
+<span>    digit = 2                      #从第二位后开始取数</span><br>
+<span>    digits = digits - 2</span><br>
+<span>for num in range(9, 0, -1):</span><br>
+<span>    if x2_1 >= num ** 2:</span><br>
+<span>      x = str(num)</span><br>
+<span>      x2_2 = x2_1 - num ** 2</span><br>
+<span>      break</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>while digits >= 2:                                  #数字每两位取数</span><br>
+<span>    x2_2 = int(str(x2_2) + x2)       #余数补上后面两位数字</span><br>
+<span>    for num in range(9, -1, -1):</span><br>
+<span>      if x2_2 >= (2*int(x)*10+num) * num:</span><br>
+<span>            a2bb = str(num)</span><br>
+<span>            x2_2 = x2_2-(2*int(x)*10+num) * num</span><br>
+<span>            break</span><br>
+<span>      else:</span><br>
+<span>            pass</span><br>
+<span>    x = str(x)                              #转为字符串</span><br>
+<span>    x = x + a2bb                              #将得到的数字连串起来</span><br>
+<span>    digit = digit+2</span><br>
+<span>    digits = digits-2</span><br>
+<span>x = int(x)/10000                        #缩小4倍，补上小数点</span><br>
+<span>print(x)                                 #精确到整数</span><br>
+</p><p><b>AkaiSuisei: </b><br>
+<span>要不您买个计算器</span><br>
+</p><p><b>塞斯克法: </b><br>
+<span>我寻思就算想造个轮子，也造个漂亮点的再发上来啊</span><br>
+</p><p><b>infinitesimal7: </b><br>
+<span>https://www.saraba1st.com/2b/thread-1741477-1-1.html</span><br>
+<span>想起这个帖子</span><br>
+</p><p><b>pepase: </b><br>
+<span>初中生也上泥潭的吗</span><br>
+</p><p><b>minexu1988: </b><br>
+<span>所以说 为什么这个算法是对的呢？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>jctc: </b><br>
+<span>哎呀，屎上浇了一层巧克力真好吃</span><br>
+</p><p><b>regalia: </b><br>
+<span>minexu1988 发表于 2019-6-12 05:03</span><br>
+<span>所以说 为什么这个算法是对的呢？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端 ...</span><br>
+<span>假设一个数十位是a，个位是b</span><br>
+<span>那么这个数ab的平方(ab)^2=(10a+b)^2=100a^2+20ab+b^2=100a^2+(20a+b)*b这个算法就是建立在这个上面的</span><br>
+</p><p><b>riczxc: </b><br>
+<span>真初中生的话，还是从sicp以及htdp开始看吧。别学歪了。</span><br>
+<span>现在要想和洪荒时代一样初中就出名，不容易了。</span><br>
+</p><p><b>田多宇光: </b><br>
+<span> 本帖最后由 田多宇光 于 2019-6-12 07:15 编辑 </span><br>
+<span>float Q_rsqrt( float number )</span><br>
+<span>{</span><br>
+<span>      long i;</span><br>
+<span>      float x2, y;</span><br>
+<span>      const float threehalfs = 1.5F;</span><br>
+<span>      x2 = number * 0.5F;</span><br>
+<span>      y= number;</span><br>
+<span>      i= * ( long * ) &y;                     // evil floating point bit level hacking</span><br>
+<span>      i= 0x5f3759df - ( i >> 1 );               // what the fuck?</span><br>
+<span>      y= * ( float * ) &i;</span><br>
+<span>      y= y * ( threehalfs - ( x2 * y * y ) );   // 1st iteration </span><br>
+<span>//      y= y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed</span><br>
+<span>      return y;</span><br>
+<span>}建议学c，你看c的代码量少多了</span><br>
+</p><p><b>漫区专号: </b><br>
+<span>这个算法太烂了。</span><br>
+</p><p><b>Prushka: </b><br>
+<span>太草了</span><br>
+<span>—— 来自 HMD Global Nokia X7, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>swrrt_11: </b><br>
+<span>田多宇光 发表于 2019-6-12 07:06</span><br>
+<span>建议学c，你看c的代码量少多了</span><br>
+<span>这个神秘的16进制数</span><br>
+</p><p><b>wrnk: </b><br>
+<span>07年的号，无论如何不可能是初中生啊 </span><br>
+</p><p><b>田多宇光: </b><br>
+<span>wrnk 发表于 2019-6-12 07:23</span><br>
+<span>07年的号，无论如何不可能是初中生啊</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1832224-1-1.html</span><br>
+</p><p><b>憂鬱臺灣烏龜: </b><br>
+<span>wrnk 发表于 2019-6-12 07:23</span><br>
+<span>07年的号，无论如何不可能是初中生啊</span><br>
+<span>也许2岁的时候父母帮忙注册的？</span><br>
+</p><p><b>wrnk: </b><br>
+<span>编辑掉</span><br>
+</p><p><b>fantastical: </b><br>
+<span>作为手算的方法不错，代码看得一愣一愣的……</span><br>
+</p><p><b>由比ケ浜結衣: </b><br>
+<span>建议学下数值分析这门课。</span><br>
+</p><p><b>holdson: </b><br>
+<span>CAMUS回来了？？</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>9-11-2001: </b><br>
+<span>初中生真要偷懒的话买个计算器更方便？</span><br>
+</p><p><b>赵日天233: </b><br>
+<span>小伙子，common lisp晓得伐</span><br>
+</p><p><b>rhotov: </b><br>
+<span>田多宇光 发表于 2019-6-12 07:06</span><br>
+<span>建议学c，你看c的代码量少多了</span><br>
+<span>约翰卡马克还行</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nohope: </b><br>
+<span>这个手动开方我好像还学过，现在早就不记得怎么回事了</span><br>
+</p><p><b>dkswxd: </b><br>
+<span>还以为是doom哪个。。。</span><br>
+<span>----发送自 HUAWEI BKL-AL20,Android 9</span><br>
+</p><p><b>Imanmi: </b><br>
+<span>我寻思哪个语言不能开平方根</span><br>
+</p><p><b>w酱: </b><br>
+<span>竟然不是doom那个+1</span><br>
+</p><p><b>泥潭小灰灰: </b><br>
+<span>python是世界上最好的语言（别人说的）</span><br>
+</p><p><b>深渊魔王: </b><br>
+<span>^0.5</span><br>
+</p><p><b>victorzl: </b><br>
+<span>田多宇光 发表于 2019-6-12 07:06</span><br>
+<span>建议学c，你看c的代码量少多了</span><br>
+<span>Magic beats might!</span><br>
+</p><p><b>美人希: </b><br>
+<span>哪儿买的号啊，多少钱啊，给个渠道呗</span><br>
+<span>— from OPPO PAAM00, Android 8.1.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>燕山雪: </b><br>
+<span>python是世界上最好的两种语言！</span><br>
+</p><p><b>magpte: </b><br>
+<span>田多宇光 发表于 2019-6-12 07:06</span><br>
+<span>建议学c，你看c的代码量少多了</span><br>
+<span>0x5f375a86 精准一丁丁</span><br>
+</p><p><b>nexus1: </b><br>
+<span>晚韶华 发表于 2019-6-12 03:41</span><br>
+<span>sqrt()</span><br>
+<span>np.sqrt()</span><br>
+</p><p><b>蓝翔技校: </b><br>
+<span>我还以为是🐴农在科普平方根倒数算法</span><br>
+<span>没想到真是初中生写py</span><br>
+</p><p><b>k12320593: </b><br>
+<span>写得好，我选择np.sqrt()</span><br>
+</p><p><b>yunxyz: </b><br>
+<span>去看牛顿法</span><br>
+</p><p><b>Neozero: </b><br>
+<span>我还以为要输出过程…</span><br>
+<span>只要结果的话不想用sqrt好歹也用下牛顿法吧</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>kaflash: </b><br>
+<span>开方用 牛顿迭代就可以了</span><br>
+<span>这么多人没学过？    </span><br>
+</p><p><b>libratest: </b><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838782[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>afm插帧下10bit亮度问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>afm插帧下10bit亮度问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:56:22 +0000</lastBuildDate>
+    <item>
+      <title>afm插帧下10bit亮度问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837985-1-1.html</link>
+      <description>afm插帧下10bit亮度问题&#13;
+之前也发了个贴 但是没人回 我个人配置是rx570+potplay+lav+madvr+afm，但是发现播放10bit视频的时候会出现亮部过曝的问题。 之前一直以为是madvr的问题，但是调了半天，包括套lut还是有这个问题，只能一个一个排除，结果没想到居然是afm的问题，虽然知道afm只能工作在8bit，但是没想到亮度也有影响，通过调低amd视频项目中亮度为-20 解决了10bit的问题 但是8bit又出现了亮度过低 这个可解么
+&#13;
+bfr开启
+&#13;
+bfr关闭
+&#13;
+bfr开启下调低亮度</description>
+      <content:encoded><![CDATA[<p><b>伊可费斯: </b><br>
+<span>afm插帧下10bit亮度问题</span><br>
+<span>之前也发了个贴 但是没人回 我个人配置是rx570+potplay+lav+madvr+afm，但是发现播放10bit视频的时候会出现亮部过曝的问题。 之前一直以为是madvr的问题，但是调了半天，包括套lut还是有这个问题，只能一个一个排除，结果没想到居然是afm的问题，虽然知道afm只能工作在8bit，但是没想到亮度也有影响，通过调低amd视频项目中亮度为-20 解决了10bit的问题 但是8bit又出现了亮度过低 这个可解么</span><br>
+<span>bfr开启</span><br>
+<span>bfr关闭</span><br>
+<span>bfr开启下调低亮度</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>刚试了下强制使用madvr 又好了 搞不清到底哪个的问题了</span><br>
+</p><p><b>qwased: </b><br>
+<span>lav解码选择只输出nv12应该就好了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lixianfyss: </b><br>
+<span>qwased 发表于 2019-6-9 03:03</span><br>
+<span>lav解码选择只输出nv12应该就好了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>还不能开某些硬解，不然有时候会强制h010。</span><br>
+</p><p><b>midearth: </b><br>
+<span>我也有这个问题，解决方法是关掉afm..</span><br>
+</p><p><b>樱绰落: </b><br>
+<span>lav里面输出不勾10bit下面的P010</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837985[0-50]</guid>
+    </item>
+  </channel>
+</rss>

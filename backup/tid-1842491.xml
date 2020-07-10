@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>路由器的访问由http改为https后就无法登陆，有办法改回来吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>路由器的访问由http改为https后就无法登陆，有办法改回来吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:28:30 +0000</lastBuildDate>
+    <item>
+      <title>路由器的访问由http改为https后就无法登陆，有办法改回来吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1842491-1-1.html</link>
+      <description>路由器的访问由http改为https后就无法登陆，有办法改回来吗？&#13;
+ 本帖最后由 纯情小鸭鸭 于 2019-6-26 22:17 编辑 
+
+起因是路由器ddns绑定的2个域名（路由用电信网络padavan固件），一个没问题，另一个不知道啥原因在移动网络下登陆不了路由，但是能ping通，而且在路由器搭的梯子用这域名在移动网络是能用的，鼓捣一番无果，看到路由器有https选项，于是手欠选了https后立即就保存了，忘记了要证书，结果杯具发生了，无论内网还是外网都无法登陆。那么有办法在不重置下改回来吗？</description>
+      <content:encoded><![CDATA[<p><b>纯情小鸭鸭: </b><br>
+<span>路由器的访问由http改为https后就无法登陆，有办法改回来吗？</span><br>
+<span> 本帖最后由 纯情小鸭鸭 于 2019-6-26 22:17 编辑 </span><br>
+<span>起因是路由器ddns绑定的2个域名（路由用电信网络padavan固件），一个没问题，另一个不知道啥原因在移动网络下登陆不了路由，但是能ping通，而且在路由器搭的梯子用这域名在移动网络是能用的，鼓捣一番无果，看到路由器有https选项，于是手欠选了https后立即就保存了，忘记了要证书，结果杯具发生了，无论内网还是外网都无法登陆。那么有办法在不重置下改回来吗？</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>感觉可能要加端口号了，8081或者8080你先试试？</span><br>
+</p><p><b>四点: </b><br>
+<span>手动在ip前加https</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>袄_偶滴小乔 发表于 2019-6-26 22:18</span><br>
+<span>感觉可能要加端口号了，8081或者8080你先试试？</span><br>
+<span>端口也改了，没用默认的。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>四点 发表于 2019-6-26 22:19</span><br>
+<span>手动在ip前加https</span><br>
+<span>内网登陆就这样，没用。</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>ssh上去改配置，wrt系必备技能之一</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>dongjuanyong 发表于 2019-6-27 07:26</span><br>
+<span>ssh上去改配置，wrt系必备技能之一</span><br>
+<span>— from Xiaomi Redmi K20 Pro, Android 9 of S1 Next Goose v2.1.2 ...</span><br>
+<span>有相关教程吗？</span><br>
+<span>搜索了一下，基本上都是开启https的。</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>纯情小鸭鸭 发表于 2019-6-27 11:21</span><br>
+<span>有相关教程吗？</span><br>
+<span>搜索了一下，基本上都是开启https的。</span><br>
+<span>你先得保证ssh或telnet服务是开着的（有很多固件默认是关着的）</span><br>
+<span>进去了就好办了，nvram set/commit 重启</span><br>
+<span>不过手头只有刷了openwrt的x86软路由，没搞过老毛子，当年弄tomato和merlin的时候都是上面这么弄的</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>dongjuanyong 发表于 2019-6-27 12:53</span><br>
+<span>你先得保证ssh或telnet服务是开着的（有很多固件默认是关着的）</span><br>
+<span>进去了就好办了，nvram set/commit 重启</span><br>
+<span> ...</span><br>
+<span>telnet是关闭的，但ssh是打开的，不久前我才用putty登陆过，运行那行命令就行了？那命令的作用是什么？</span><br>
+</p><p><b>dongjuanyong: </b><br>
+<span>纯情小鸭鸭 发表于 2019-6-27 13:22</span><br>
+<span>telnet是关闭的，但ssh是打开的，不久前我才用putty登陆过，运行那行命令就行了？那命令的作用是什么？ ...</span><br>
+<span>具体命令是哪个我没法告诉你，因为我没有环境去测试，大概思路是这样</span><br>
+<span>nvram set aaa=xxx 把aaa这项设置改成xxx</span><br>
+<span>nvram commit 把修改过的配置存入nvram，下次重启时启用</span><br>
+<span>但具体https的设置是哪一个我也没办法告诉你，我的话可能通过nvram showall把所有配置项列出来，看名字找出大概的改一下试试</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>纯情小鸭鸭 发表于 2019-6-27 11:21</span><br>
+<span>有相关教程吗？</span><br>
+<span>搜索了一下，基本上都是开启https的。</span><br>
+<span>反着弄回来不行么</span><br>
+</p><p><b>モナド: </b><br>
+<span>看lz说明只是证书出错，浏览器阻止访问了，可以选忽略证书直接访问的</span><br>
+</p><p><b>chachi: </b><br>
+<span>估计没生成证书，看看配置文件里面证书路径是否指向正确的证书</span><br>
+<span>----发送自 samsung SM-N9600,Android 9</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>typeunknown 发表于 2019-6-27 15:47</span><br>
+<span>反着弄回来不行么</span><br>
+<span>何谓“反着弄”？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>chachi 发表于 2019-6-27 18:27</span><br>
+<span>估计没生成证书，看看配置文件里面证书路径是否指向正确的证书</span><br>
+<span>----发送自 samsung SM-N9600,Android 9 ...</span><br>
+<span>就是没生成证书，怎样查看配置文件？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-6-27 22:40 编辑 </span><br>
+<span>没有padavan的设备不知它用了哪个，openwrt公版是在/etc/config/uhttpd，这种情况可能是把http那两行注释掉了，改回来再重启uhttpd应该就行了</span><br>
+<span>查了下padavan好像要在/etc/storage/里面找</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>モナド 发表于 2019-6-27 18:26</span><br>
+<span>看lz说明只是证书出错，浏览器阻止访问了，可以选忽略证书直接访问的</span><br>
+<span>用ie在高级设置里把3个tsl选项关闭掉，还是打不开。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-6-29 18:42 编辑 </span><br>
+<span>不知楼主解决没有</span><br>
+<span>nvram show | grep http找http_proto这项看是不是1，nvram set http_proto=改成0或者2，然后nvram commit</span><br>
+<span>还有一项http_access不知有没有关系，我这里是0，没敢瞎试</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>typeunknown 发表于 2019-6-29 17:59</span><br>
+<span>不知楼主解决没有</span><br>
+<span>nvram show | grep http找http_proto这项看是不是1，nvram set http_proto=改成0或者2， ...</span><br>
+<span>先谢谢了，现在忙着其它事情，一会儿忙完试试。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>typeunknown 发表于 2019-6-29 17:59</span><br>
+<span>不知楼主解决没有</span><br>
+<span>nvram show | grep http找http_proto这项看是不是1，nvram set http_proto=改成0或者2， ...</span><br>
+<span>3个命令就ok了，再次感谢~</span><br>
+<img src="http://i68.tinypic.com/2zzl0ef.jpg" title="http://i68.tinypic.com/2zzl0ef.jpg"><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1842491[0-50]</guid>
+    </item>
+  </channel>
+</rss>

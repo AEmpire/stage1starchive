@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个关于内存的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个关于内存的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:39:15 +0000</lastBuildDate>
+    <item>
+      <title>问个关于内存的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859789-1-1.html</link>
+      <description>问个关于内存的问题&#13;
+最近买了个戴尔的笔记本，原装的内存条是2666MHz的。加了一条2400MHz的内存之后为啥会显示运行在2133MHz？不应该两条都是运行在2400MHz吗？小白求解答</description>
+      <content:encoded><![CDATA[<p><b>MixRadio: </b><br>
+<span>问个关于内存的问题</span><br>
+<span>最近买了个戴尔的笔记本，原装的内存条是2666MHz的。加了一条2400MHz的内存之后为啥会显示运行在2133MHz？不应该两条都是运行在2400MHz吗？小白求解答</span><br>
+</p><p><b>騜: </b><br>
+<span>双通道如果没有自动就需要手动进bios开XMP 没开的话按照最低出厂频率跑的</span><br>
+</p><p><b>MixRadio: </b><br>
+<span>騜 发表于 2019-10-16 17:49</span><br>
+<span>双通道如果没有自动就需要手动进bios开XMP 没开的话按照最低出厂频率跑的</span><br>
+<span>行吧，我BIOS里找半天也没找到xmp，估计是不支持了</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>你买的内存可能不支持标准JEDEC规格DDR4-2400T，两条内存在2400上找不到相同规格的SPD所以统一降频到2133</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>MixRadio 发表于 2019-10-16 18:04</span><br>
+<span>行吧，我BIOS里找半天也没找到xmp，估计是不支持了</span><br>
+<span>胡说八道</span><br>
+<span>跑什么频率只取决于内存控制器和SPD，只要你原厂内存能单通道跑2666，两条同规格也一定2666，不存在双通道就必须XMP的说法</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859789[0-50]</guid>
+    </item>
+  </channel>
+</rss>

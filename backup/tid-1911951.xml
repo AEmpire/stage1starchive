@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:26:29 +0000</lastBuildDate>
+    <item>
+      <title>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911951-1-1.html</link>
+      <description>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑&#13;
+ 本帖最后由 若闲 于 2020-2-7 10:48 编辑 
+
+新买了显示器，想要单条type-c线实现小米笔记本air的4k 60hz视频输出+充电
+&#13;
+先是买了aoc的Q2790PC，上面写带一个type-c口，昨天到了之后各种折腾，发现根本就不行，插上去连反应都没有。仔细看说明，发现这个type-c口只是所谓的“一键投屏”，给手机用的，连功率都很低，什么协议都没有，遂退货。
+&#13;
+又买了lg的27UL850，参考这里：
+&#13;
+http://tieba.baidu.com/p/5631829563
+&#13;
+下午到了，插上一试，充电倒可以了，usb也能用，但视频输出怎么都不行。插上去之后，电脑倒也能识别出外插显示器，但一让显示就gg。而显卡的设置里，能看到型号，但同样，只要一扩展，就自动跳回。完全搞不懂为什么……
+&#13;
+在设备管理器里，这个显示器能被看到，但事件里写：
+&#13;
+由于仅部分匹配或匹配不明确，因此无法迁移设备Display
+&#13;
+这个部分匹配就让我搞不懂了……
+&#13;
+这个显示器跟上面那个帖子是一样的，只是hdr认证完之后改了个字母而已。有这个成功经验，我实在不知道是哪里出了问题。显卡驱动都重装了。
+&#13;
+我现在想是不是线的问题，这显示器线别是配了条阉割的线，现在想要不要买条type-c 3.1 gen2的线试试，但举棋不定——这显示器应该不会送你条不能用的线吧，这特长不是找事儿？
+&#13;
+我没招了，不行了。泥潭有没有懂的呀——————————————————————————————————————————————
+&#13;
+重装驱动，无果
+&#13;
+重装系统，无果
+&#13;
+换线，无果
+&#13;
+最后的最后，又买了个小米的官方type-c转接器，支持4k 60hz的，又买了根mini dp线（主要是mini dp那个转换器小巧多了），插上，直接弹，usb部分功能受限。
+&#13;
+我猜基本实锤了，小米笔记本air就是个渣渣，它的type-c口绝对有问题，至少视频输出功能绝对绝对有问题。
+&#13;
+所以我只能继续退了感谢京东。
+&#13;
+现在发现小米这个转换器好像不支持7天无理由退，我看看能怎么退……我自己用surface，实在想不到这东西还有什么用。昨天想试试ns，但毫无疑问不能用。
+&#13;
+结论就是，小米笔记本渣渣，垃圾，品控有问题，别买。</description>
+      <content:encoded><![CDATA[<p><b>若闲: </b><br>
+<span>tsounaiq 发表于 2020-2-8 13:58</span><br>
+<span>同问macbook 12适合用什么显示器，lg27ul850那款能用c-c线三通加4k60的输出吗？</span><br>
+<span>— from Sony G8342, Andr ...</span><br>
+<span>这一款确实可以三通4k 60hz输出，但问题在于苹果这个本很可能不支持</span><br>
+<span>就我目前网上找到的信息而言，苹果直接输出很可能只能输出30hz。目前看到的解决方案是上小米那个转接器，可能目前只有小米那个转接器支持4k 60hz的输出。</span><br>
+<span>那么，如果你确实要用转接器的话，那就用不着买850了，你可以直接买lg的 27ul650，面板HDR什么的跟850没有任何区别，只是阉割掉了全功能type-c口，价钱能下降几乎一千块。</span><br>
+<span>所以建议，买lg 27ul650，然后加150块买个小米转接器。</span><br>
+</p><p><b>若闲: </b><br>
+<span>tsounaiq 发表于 2020-2-8 13:58</span><br>
+<span>同问macbook 12适合用什么显示器，lg27ul850那款能用c-c线三通加4k60的输出吗？</span><br>
+<span>— from Sony G8342, Andr ...</span><br>
+<span>https://sspai.com/post/54953</span><br>
+<span>好像是这个</span><br>
+<span>不过我没亲身用过，不确定他说得对不对。</span><br>
+<span>但如果他是对的，其实……我觉得也就少个usb 3.0而已，应该可以单线4k 60hz……吧</span><br>
+</p><p><b>tsounaiq: </b><br>
+<span>若闲 发表于 2020-2-8 15:13</span><br>
+<span>https://sspai.com/post/54953</span><br>
+<span>好像是这个</span><br>
+<span>我看很多国外的讨论，nmb12这个本的c口，可以三通4k60fps的，只是不是雷电口，大概不能菊花屏/雷电外接显卡。</span><br>
+<span>官网推荐的是lg ultafine 4k，之前果子官网有售的，27ul850这个我就不清楚了，想问问。</span><br>
+</p><p><b>若闲: </b><br>
+<span>tsounaiq 发表于 2020-2-8 18:56</span><br>
+<span>我看很多国外的讨论，nmb12这个本的c口，可以三通4k60fps的，只是不是雷电口，大概不能菊花屏/雷电外接显 ...</span><br>
+<span>我猜没问题，只是显示器后面的usb降速为2.0</span><br>
+</p><p><b>melvin95: </b><br>
+<span>若闲 发表于 2020-2-8 12:23</span><br>
+<span>我见过一堆人买这个装黑苹果</span><br>
+<span>不意外，除了水果本和苏菲本之外质感最好的笔电了（就做工糙和割手</span><br>
+<span>玻璃贴合屏用了真回不去</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>MagicMirai: </b><br>
+<span>虽说自己用的是1080p吧，但是xps13插p2419hc就随插随用，体验良好</span><br>
+<span>下台电脑还是准备换台100w内的方便继续一线解决</span><br>
+<span>— from Sony H8296, Android 10 of S1 Next Goose v2.0.3-play</span><br>
+</p><p><b>hanamizi: </b><br>
+<span>小米笔记本是我买的最后悔的笔记本，不过我买的是之前的pro型号 8250U 8G那款。。。。虽然之前各种不喜欢联想，但是以后还是老老实实的买游戏本算了。。。。</span><br>
+<span>想输出4K那就要用到C的hub，，，自带的HDMI和SD卡槽都是残废，，，二代好像改进了，不过其他地方也没意思。。。。</span><br>
+</p><p><b>qianheng: </b><br>
+<span>楼主买的什么线？</span><br>
+</p><p><b>若闲: </b><br>
+<span>qianheng 发表于 2020-2-10 02:47</span><br>
+<span>楼主买的什么线？</span><br>
+<span>去绿联找条全尺寸的线就行了，看清是否支持pd+dp就ok，其实没太多讲究的。毕竟一线通主要要求也就这俩。</span><br>
+</p><p><b>若闲: </b><br>
+<span>melvin95 发表于 2020-2-9 11:01</span><br>
+<span>**** 作者被禁止或删除 内容自动屏蔽 ****</span><br>
+<span>我自用的苏菲婆，从3用到5，这东西除了小毛病不断之外，要说方便程度还真没得替代。</span><br>
+<span>但小毛病就各种让你难受，也是绝了。</span><br>
+</p><p><b>sahara: </b><br>
+<span>PD+DP好像也分级别的，目前主流的雷电3线是100W的，超贵</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911951[50-100]</guid>
+    </item>
+    <item>
+      <title>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911951-1-1.html</link>
+      <description>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑&#13;
+ 本帖最后由 若闲 于 2020-2-7 10:48 编辑 
+
+新买了显示器，想要单条type-c线实现小米笔记本air的4k 60hz视频输出+充电
+&#13;
+先是买了aoc的Q2790PC，上面写带一个type-c口，昨天到了之后各种折腾，发现根本就不行，插上去连反应都没有。仔细看说明，发现这个type-c口只是所谓的“一键投屏”，给手机用的，连功率都很低，什么协议都没有，遂退货。
+&#13;
+又买了lg的27UL850，参考这里：
+&#13;
+http://tieba.baidu.com/p/5631829563
+&#13;
+下午到了，插上一试，充电倒可以了，usb也能用，但视频输出怎么都不行。插上去之后，电脑倒也能识别出外插显示器，但一让显示就gg。而显卡的设置里，能看到型号，但同样，只要一扩展，就自动跳回。完全搞不懂为什么……
+&#13;
+在设备管理器里，这个显示器能被看到，但事件里写：
+&#13;
+由于仅部分匹配或匹配不明确，因此无法迁移设备Display
+&#13;
+这个部分匹配就让我搞不懂了……
+&#13;
+这个显示器跟上面那个帖子是一样的，只是hdr认证完之后改了个字母而已。有这个成功经验，我实在不知道是哪里出了问题。显卡驱动都重装了。
+&#13;
+我现在想是不是线的问题，这显示器线别是配了条阉割的线，现在想要不要买条type-c 3.1 gen2的线试试，但举棋不定——这显示器应该不会送你条不能用的线吧，这特长不是找事儿？
+&#13;
+我没招了，不行了。泥潭有没有懂的呀——————————————————————————————————————————————
+&#13;
+重装驱动，无果
+&#13;
+重装系统，无果
+&#13;
+换线，无果
+&#13;
+最后的最后，又买了个小米的官方type-c转接器，支持4k 60hz的，又买了根mini dp线（主要是mini dp那个转换器小巧多了），插上，直接弹，usb部分功能受限。
+&#13;
+我猜基本实锤了，小米笔记本air就是个渣渣，它的type-c口绝对有问题，至少视频输出功能绝对绝对有问题。
+&#13;
+所以我只能继续退了感谢京东。
+&#13;
+现在发现小米这个转换器好像不支持7天无理由退，我看看能怎么退……我自己用surface，实在想不到这东西还有什么用。昨天想试试ns，但毫无疑问不能用。
+&#13;
+结论就是，小米笔记本渣渣，垃圾，品控有问题，别买。</description>
+      <content:encoded><![CDATA[<p><b>若闲: </b><br>
+<span>【更新】小米笔记本就是屑！ type c口的显示器怎么都是坑</span><br>
+<span> 本帖最后由 若闲 于 2020-2-7 10:48 编辑 </span><br>
+<span>新买了显示器，想要单条type-c线实现小米笔记本air的4k 60hz视频输出+充电</span><br>
+<span>先是买了aoc的Q2790PC，上面写带一个type-c口，昨天到了之后各种折腾，发现根本就不行，插上去连反应都没有。仔细看说明，发现这个type-c口只是所谓的“一键投屏”，给手机用的，连功率都很低，什么协议都没有，遂退货。</span><br>
+<span>又买了lg的27UL850，参考这里：</span><br>
+<span>http://tieba.baidu.com/p/5631829563</span><br>
+<span>下午到了，插上一试，充电倒可以了，usb也能用，但视频输出怎么都不行。插上去之后，电脑倒也能识别出外插显示器，但一让显示就gg。而显卡的设置里，能看到型号，但同样，只要一扩展，就自动跳回。完全搞不懂为什么……</span><br>
+<span>在设备管理器里，这个显示器能被看到，但事件里写：</span><br>
+<span>由于仅部分匹配或匹配不明确，因此无法迁移设备Display</span><br>
+<span>这个部分匹配就让我搞不懂了……</span><br>
+<span>这个显示器跟上面那个帖子是一样的，只是hdr认证完之后改了个字母而已。有这个成功经验，我实在不知道是哪里出了问题。显卡驱动都重装了。</span><br>
+<span>我现在想是不是线的问题，这显示器线别是配了条阉割的线，现在想要不要买条type-c 3.1 gen2的线试试，但举棋不定——这显示器应该不会送你条不能用的线吧，这特长不是找事儿？</span><br>
+<span>我没招了，不行了。泥潭有没有懂的呀——————————————————————————————————————————————</span><br>
+<span>重装驱动，无果</span><br>
+<span>重装系统，无果</span><br>
+<span>换线，无果</span><br>
+<span>最后的最后，又买了个小米的官方type-c转接器，支持4k 60hz的，又买了根mini dp线（主要是mini dp那个转换器小巧多了），插上，直接弹，usb部分功能受限。</span><br>
+<span>我猜基本实锤了，小米笔记本air就是个渣渣，它的type-c口绝对有问题，至少视频输出功能绝对绝对有问题。</span><br>
+<span>所以我只能继续退了感谢京东。</span><br>
+<span>现在发现小米这个转换器好像不支持7天无理由退，我看看能怎么退……我自己用surface，实在想不到这东西还有什么用。昨天想试试ns，但毫无疑问不能用。</span><br>
+<span>结论就是，小米笔记本渣渣，垃圾，品控有问题，别买。</span><br>
+</p><p><b>reichelite: </b><br>
+<span>统一接口一时爽，握手协议火葬场wwww</span><br>
+</p><p><b>john: </b><br>
+<span>也许你需要换个笔记本</span><br>
+<span>我用山寨驱动板自己组的显示器都能一线通</span><br>
+</p><p><b>melvin95: </b><br>
+<span>小米家的笔记本的C口没雷电。。。不行的</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>john: </b><br>
+<span>melvin95 发表于 2020-2-2 23:35</span><br>
+<span>小米家的笔记本的C口没雷电。。。不行的</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0. ...</span><br>
+<span>雷电和显示器一线通毫无关系，一线通走的是PD+DP</span><br>
+</p><p><b>若闲: </b><br>
+<span>john 发表于 2020-2-2 23:33</span><br>
+<span>也许你需要换个笔记本</span><br>
+<span>我用山寨驱动板自己组的显示器都能一线通</span><br>
+<span>我又找了一圈，看是不是让系统重新认一下显示器。</span><br>
+<span>这是老爹要求整的，他肯定不换电脑</span><br>
+</p><p><b>我很费纸: </b><br>
+<span> 本帖最后由 我很费纸 于 2020-2-2 23:46 编辑 </span><br>
+<span>首先米本的那个“全功能type C”好像比较微妙，我看网上有人吐槽过米本Pro的type C 并不能同时实现充电和视频输出——除非外接支持PD充电的拓展坞。从网上搜来的例子来看用拓展坞的基本都能实现同时充电+视频输出。</span><br>
+<span>其次米本不是有HDMI接口吗？C口搞不定干吗不考虑用HDMI就行了……</span><br>
+<span>—— 来自 Sony H8324, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>若闲: </b><br>
+<span>melvin95 发表于 2020-2-2 23:35</span><br>
+<span>小米家的笔记本的C口没雷电。。。不行的</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0. ...</span><br>
+<span>小米这个type-c是全尺寸的，视频协议走的是DP，跟雷电没关系。现在，两边应该都是支持DP的，但插上竟然不能用，极其费解。</span><br>
+</p><p><b>若闲: </b><br>
+<span>我很费纸 发表于 2020-2-2 23:42</span><br>
+<span>首先米本的那个“全功能type C”好像比较微妙，我看网上有人吐槽过米本Pro的type C 并不能同时实现充电和视 ...</span><br>
+<span>米本那个hdmi是坑爹的1.4……根本不支持4k 60hz，顶天了30hz，掉帧那叫一个难受。而type-c口里的DP协议是可以4k 60hz的。</span><br>
+<span>买来的东西不能全功率用，人会非常非常狂躁</span><br>
+</p><p><b>melvin95: </b><br>
+<span> 本帖最后由 melvin95 于 2020-2-2 23:58 编辑 </span><br>
+<span>若闲 发表于 2020-2-2 23:43</span><br>
+<span>小米这个type-c是全尺寸的，视频协议走的是DP，跟雷电没关系。现在，两边应该都是支持DP的，但插上竟然不 ...</span><br>
+<span>搞错了，确实不关雷电的事</span><br>
+<span>但粗粮的C口不只缺雷电也缺了一堆东西，和自家的type-c转mDP有时也会接不上</span><br>
+<span>要4k60只能买c转HDMI2.0的线/自家的c转mDP</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>若闲: </b><br>
+<span>melvin95 发表于 2020-2-2 23:50</span><br>
+<span>搞错了，确实不关雷电的事</span><br>
+<span>但粗粮的C口不只缺雷电也缺了一堆东西，和自家的type-c转mDP有时也会接不上</span><br>
+<span>我看小米就有个转hdmi的线，也能再接充电跟usb3.0</span><br>
+<span>但娘的，实在不想再投入了。要再买转接线，我何必买这个带c口的显示器？同款650那个型号，面板什么的全一样，便宜600块呢</span><br>
+<span>不实现这个一线输出加充电，我简直没脸面对我吹的牛逼跟智商税</span><br>
+<span>现在东西都在老爹办公室，只能明天再试了。但怎么搞仍然完全没头绪</span><br>
+</p><p><b>melvin95: </b><br>
+<span>若闲 发表于 2020-2-2 23:58</span><br>
+<span>我看小米就有个转hdmi的线，也能再接充电跟usb3.0</span><br>
+<span>但娘的，实在不想再投入了。要再买转接线，我何必买这 ...</span><br>
+<span>粗粮这几款笔电当初这么便宜而且也没用AMD的交朋友处理器，当然要在各处刀几下</span><br>
+<span>网上可有粗粮本成功用type c一线通的例子？</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>若闲: </b><br>
+<span>melvin95 发表于 2020-2-3 00:04</span><br>
+<span>粗粮这几款笔电当初这么便宜而且也没用AMD的交朋友处理器，当然要在各处刀几下</span><br>
+<span>网上可有粗粮本成 ...</span><br>
+<span>有，比如我上面那个帖子里的</span><br>
+</p><p><b>xmcp: </b><br>
+<span>若闲 发表于 2020-2-3 00:07</span><br>
+<span>有，比如我上面那个帖子里的</span><br>
+<span>你是15.6'的米本pro吗？还是不带pro的版本。</span><br>
+<span>我用的15.6 pro配BenQ的PD2710QC，体感还好，27' 1440p 60Hz + 65W PD + 扩展坞。</span><br>
+<span>虽说分辨率是2k吧……但即使有4k估计这MX250也带不动</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>TP本，一个普通C口，一个雷电3口，无论是P27H的C口一线，还是普通HDMI显示器+PD电源同时接到C口拓展坞然后再一线连本子，两个接口都能显示+充电无任何问题</span><br>
+</p><p><b>fukc: </b><br>
+<span>家里用的是联想t24h，type c直连mbp和thinkpad e系显示和充电毫无问题</span><br>
+</p><p><b>dingjunjie154: </b><br>
+<span>可以检查一下显示器的驱动和USB Connector Managers的驱动</span><br>
+<span>我昨天是输出可以但充电充不进去，检查了一下就是这个驱动的问题，重装了一遍驱动后好了</span><br>
+</p><p><b>Tackstone: </b><br>
+<span>melvin95 发表于 2020-2-3 00:04</span><br>
+<span>粗粮这几款笔电当初这么便宜而且也没用AMD的交朋友处理器，当然要在各处刀几下</span><br>
+<span>网上可有粗粮本成 ...</span><br>
+<span>我的就是一线通，用的给ns用的那种便携屏。</span><br>
+</p><p><b>melvin95: </b><br>
+<span>Tackstone 发表于 2020-2-3 08:40</span><br>
+<span>我的就是一线通，用的给ns用的那种便携屏。</span><br>
+<span>想表达这机器是有不少小毛病的，多一样也不奇怪</span><br>
+<span>之前手痒买了粗粮自己的type c转mDP就是死也连接不到屏幕</span><br>
+<span>当然，网上有栗子了LZ可以慢慢折腾了</span><br>
+</p><p><b>若闲: </b><br>
+<span>xmcp 发表于 2020-2-3 00:34</span><br>
+<span>你是15.6'的米本pro吗？还是不带pro的版本。</span><br>
+<span>我用的15.6 pro配BenQ的PD2710QC，体感还好，27' 1440p 60Hz ...</span><br>
+<span>带4k还是很简单的，日常使用没问题，只要不打游戏</span><br>
+</p><p><b>若闲: </b><br>
+<span>dingjunjie154 发表于 2020-2-3 07:47</span><br>
+<span>可以检查一下显示器的驱动和USB Connector Managers的驱动</span><br>
+<span>我昨天是输出可以但充电充不进去，检查了一下就 ...</span><br>
+<span>感谢，我今天赶紧去折腾去</span><br>
+</p><p><b>p2h: </b><br>
+<span>搭车问问雷电3口接显示器对线有要求没？ 哪种线好点？</span><br>
+</p><p><b>管他三俗: </b><br>
+<span>？？没看懂楼主要求 就是想c口输出屏幕吗？ 买个小米自家的扩展不就行了吗？那个还挺香的 我一直在用。回家就插上 想带出一拔就行</span><br>
+</p><p><b>若闲: </b><br>
+<span>管他三俗 发表于 2020-2-3 13:09</span><br>
+<span>？？没看懂楼主要求 就是想c口输出屏幕吗？ 买个小米自家的扩展不就行了吗？那个还挺香的 我一直在用。回家 ...</span><br>
+<span>笔记本是c口，显示器也是c口，用一条type-c公对公线就直接连好了，显示器给电脑充电。</span><br>
+</p><p><b>fukc: </b><br>
+<span>p2h 发表于 2020-2-3 10:44</span><br>
+<span>搭车问问雷电3口接显示器对线有要求没？ 哪种线好点？</span><br>
+<span>雷电3口向下兼容普通 type c，用显示器自带的type c连接线即可</span><br>
+</p><p><b>铅笔: </b><br>
+<span>你问问小米支持哪些显示器不就得了，或者看看网上哪些接起来了的案例。</span><br>
+</p><p><b>若闲: </b><br>
+<span>铅笔 发表于 2020-2-3 16:38</span><br>
+<span>你问问小米支持哪些显示器不就得了，或者看看网上哪些接起来了的案例。</span><br>
+<span>我买的就是那个案例里的那款显示器，但不行</span><br>
+<span>连笔记本都是同一款。</span><br>
+</p><p><b>铅笔: </b><br>
+<span>若闲 发表于 2020-2-7 10:49</span><br>
+<span>我买的就是那个案例里的那款显示器，但不行</span><br>
+<span>连笔记本都是同一款。 ...</span><br>
+<span>十有八九机器有问题。</span><br>
+<span>我手头有台X1C，一个usb口，插三星tf卡拷数据就卡死，另一个口就没事，但是人家售后觉得不是问题。</span><br>
+</p><p><b>若闲: </b><br>
+<span>铅笔 发表于 2020-2-7 10:56</span><br>
+<span>十有八九机器有问题。</span><br>
+<span>我手头有台X1C，一个usb口，插三星tf卡拷数据就卡死，另一个口就没事，但是人家售 ...</span><br>
+<span>我找了找其他案例，还有几个，一开始能用，用一段时间突然不行了。</span><br>
+<span>小米这个口真是坑</span><br>
+</p><p><b>罗克萨斯: </b><br>
+<span>我用27UL850自带那根线，输出视频、音频、充电，显示器USB口还拖了两个设备，没有任何问题，C口也不过是全功能口，可以说只要是全功能C口，以上都能办到，雷电3还真不是刚需</span><br>
+</p><p><b>melvin95: </b><br>
+<span>阿门楼主</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>elflie: </b><br>
+<span>全功能TYPE-C这个说法本来就不正式，什么才叫全功能？能PD输出输入带吗，DP输入输出呢，还有USB协议支持到多少？</span><br>
+<span>反正看到全功能TYPE-C没人测试过的我都不敢碰</span><br>
+</p><p><b>若闲: </b><br>
+<span>罗克萨斯 发表于 2020-2-7 13:30</span><br>
+<span>我用27UL850自带那根线，输出视频、音频、充电，显示器USB口还拖了两个设备，没有任何问题，C口也不过是全 ...</span><br>
+<span>我家这台不是pro，是air，只有一个type-c口。宣传上明明白白写着是全功能口，支持4k 60hz输出。</span><br>
+<span>然而不能用。</span><br>
+</p><p><b>兰开夏: </b><br>
+<span>不仅需要c口支持</span><br>
+<span>还要线支持</span><br>
+<span>大家长得一个脸，实际上千差万别。</span><br>
+</p><p><b>maybezp: </b><br>
+<span>不能用 DP to type c 线么？</span><br>
+<span>我之前雷电口是这么搞得 不知道小米这个行不行</span><br>
+</p><p><b>外挂全家脚气: </b><br>
+<span>elflie 发表于 2020-2-7 17:18</span><br>
+<span>全功能TYPE-C这个说法本来就不正式，什么才叫全功能？能PD输出输入带吗，DP输入输出呢，还有USB协议支持到 ...</span><br>
+<span>宣传上的全功能一般指能同时充电，数据传输（USB）及显示输出</span><br>
+</p><p><b>管他三俗: </b><br>
+<span>为什么就不能typec转mini dp转hdmi 2.0或普通dp呢………小米那个转接器有一说一真的挺好用的</span><br>
+</p><p><b>若闲: </b><br>
+<span>兰开夏 发表于 2020-2-7 18:19</span><br>
+<span>不仅需要c口支持</span><br>
+<span>还要线支持</span><br>
+<span>线没问题，百分百确定。甚至怕是因为显示器自带线的问题，还专门又买了一根。</span><br>
+</p><p><b>若闲: </b><br>
+<span>maybezp 发表于 2020-2-7 18:21</span><br>
+<span>不能用 DP to type c 线么？</span><br>
+<span>我之前雷电口是这么搞得 不知道小米这个行不行</span><br>
+<span>只用DP to type-c，一个最大的问题在于，没法充电了啊……</span><br>
+</p><p><b>若闲: </b><br>
+<span>管他三俗 发表于 2020-2-7 21:16</span><br>
+<span>为什么就不能typec转mini dp转hdmi 2.0或普通dp呢………小米那个转接器有一说一真的挺好用的 ...</span><br>
+<span>那个转接器有两种，一种转midiDP，一种转hdmi。但转hdmi那个充电的type-c口位置实在太尴尬了……而且还大出了一圈儿，不好看。</span><br>
+<span>我试完转miniDP那个，根本不能传视频信号，放弃了。小米屑特！</span><br>
+</p><p><b>maybezp: </b><br>
+<span>若闲 发表于 2020-2-7 22:24</span><br>
+<span>只用DP to type-c，一个最大的问题在于，没法充电了啊……</span><br>
+<span>原来这个笔记本只有一个充电口 还是C口</span><br>
+<span>用HDMI啊</span><br>
+</p><p><b>若闲: </b><br>
+<span>maybezp 发表于 2020-2-7 22:29</span><br>
+<span>原来这个笔记本只有一个充电口 还是C口</span><br>
+<span>用HDMI啊</span><br>
+<span>不是2.0，4k最多只有30hz</span><br>
+<span>是不是觉得小米更屑了</span><br>
+</p><p><b>maybezp: </b><br>
+<span>若闲 发表于 2020-2-7 22:46</span><br>
+<span>不是2.0，4k最多只有30hz</span><br>
+<span>是不是觉得小米更屑了</span><br>
+<span>这个价格就是这样的啦</span><br>
+<span>买一万块的XPS就不存在这个问题</span><br>
+</p><p><b>AyanoOumae: </b><br>
+<span>感谢lz踩雷 原本有点想买</span><br>
+</p><p><b>营业收入: </b><br>
+<span>USB-C 的兼容性地狱开始登场了</span><br>
+</p><p><b>melvin95: </b><br>
+<span>maybezp 发表于 2020-2-8 00:29</span><br>
+<span>这个价格就是这样的啦</span><br>
+<span>买一万块的XPS就不存在这个问题</span><br>
+<span>山寨MacBook还是超香的</span><br>
+<span>— from samsung SM-G970F, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>若闲: </b><br>
+<span>maybezp 发表于 2020-2-8 00:29</span><br>
+<span>这个价格就是这样的啦</span><br>
+<span>买一万块的XPS就不存在这个问题</span><br>
+<span>我见过一堆人买这个装黑苹果</span><br>
+</p><p><b>APP: </b><br>
+<span>不查不知道，原来X1 Carbon也是HDMI 1.4</span><br>
+<span>因为只用 PgUp/PgDn 来看 pdf 和 ppt，我真的没发现是30Hz...</span><br>
+</p><p><b>oo111oo: </b><br>
+<span>若闲 发表于 2020-2-8 12:23</span><br>
+<span>我见过一堆人买这个装黑苹果</span><br>
+<span>毕竟xps是本子里和黑苹果契合性最好的了</span><br>
+</p><p><b>tsounaiq: </b><br>
+<span>同问macbook 12适合用什么显示器，lg27ul850那款能用c-c线三通加4k60的输出吗？</span><br>
+<span>— from Sony G8342, Android 9 of S1 Next Goose v2.0.4-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911951[0-50]</guid>
+    </item>
+  </channel>
+</rss>

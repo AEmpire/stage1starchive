@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Bandizip 开始收费后，可以试试开源免费的Peazip</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Bandizip 开始收费后，可以试试开源免费的Peazip</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:07:14 +0000</lastBuildDate>
+    <item>
+      <title>Bandizip 开始收费后，可以试试开源免费的Peazip[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905694-1-1.html</link>
+      <description>Bandizip 开始收费后，可以试试开源免费的Peazip&#13;
+写在开头
+&#13;
+从 WinZip 到 WinRAR，再从 WinRAR 到 7-Zip，我们总是寻求一个在价格和功能上找到一个均衡点来满足我们对压缩文件这一日常需求，在这 BandiZip 即将开始收费之际，我们似乎又要回到当年从 WinRAR 逃离到 7-Zip 那从收费走向开源、从精美走向美工下线但功能强大的道路。
+&#13;
+在这篇文章发布的前些日子，Bandizip于官网发布了他们未来的收费政策，30 美元的价格颇有当年 WinRAR 的收费风范，在从 6.25 升级上去的 Standard 版本，Bandizip 还加入了广告。在我不想支付过高价格以及厌恶广告的情况下，开始寻找一个新的压缩软件就成了必然。
+&#13;
+我本来已经做好了如果没有自动解压之类的功能的话，那就保持使用 Bandizip 6.25 的决心，直到前几天我收到了来自群友的一条建议：
+&#13;
+为什么不试试 Peazip 呢？
+&#13;
+软件的一些小对比
+&#13;
+https://cdn.sspai.com/2019/12/24/41c6d63ac33843086700d4e70ab25caf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+和 Bandizip 不同，Peazip 是一款开源软件，没有高达 30 美元的售价，但却提供了我想要的功能。
+&#13;
+https://cdn.sspai.com/2019/12/25/8ae1a0d7e672a85819c831d8422033c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+而在文件格式支持上，Peazip 基本覆盖了我的需求，所以作为一个代替品，Peazip 并没有什么致命缺陷。
+&#13;
+软件界面
+&#13;
+「开源软件基本上美工下线」这句话虽为俏皮，但不无道理。7-Zip 以简洁复古的界面打动我的心，而 Peazip 的图标则让我有些抗拒，不过好在应用界面还算美观，成功地改变了我对它的第一印象。
+&#13;
+https://cdn.sspai.com/2019/12/24/6bc5bbaa42f5dcdaa2c21ebcd6d38f45.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+Peazip 有什么不错的功能？
+&#13;
+既然是替代品，那么 Peazip 实现了哪些功能呢？
+&#13;
+智能解压
+&#13;
+https://cdn.sspai.com/2019/12/24/b9f3bc1e6456b1502996762363ebbac7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+如果在常规的一个压缩软件中，解压一个如上图的压缩文件，当我们在未打开这个压缩软件时先点击「解压到当前文件夹」时，一定会在下一秒为刚刚做出的操作而后悔，因为这些文件迅速的占领了你的视野，就像下图这样：
+&#13;
+https://cdn.sspai.com/2019/12/24/acf5196799ffa78b7c9d7a43f868c4d7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+但是如果遇到内置一个单独文件夹的压缩包时，当我们像以往一样使用「解压到（压缩文件名称的）文件夹」时就会遇到令人抓狂的「套娃」模式。
+&#13;
+这时，智能解压就显得十分重要，在当时 Bandizip 的推荐文章里面，最打动我的也就是这个功能，而 Peazip 也同样将这个功能实现了出来。
+&#13;
+当解压一个我们不知道内部是什么的文件夹时，使用智能解压，就可以优雅地将压缩包中的目标文件整理到当前目录的同名文件夹里。不用担心是否会套娃，也不用担心一堆文件突然塞满你的文件夹。
+&#13;
+https://cdn.sspai.com/2019/12/24/a74efba8a94123cb28d25896fc8547a1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+智能解压效果如上图（两次均为智能解压）
+&#13;
+快速拖放
+&#13;
+若你习惯于直接将压缩包内文件「拖出来」来进行解压操作，那你大概常常会在压缩软件的解压进度条走完后遇到又一个进度条：将操作文件从临时文件夹复制到目标拖放目录。
+&#13;
+这种情况常见于从一个特别大的压缩文件里面提取一个小文件，在 WinRAR 上我们需要等待它完全解压、转存到临时文件夹，然后再让它自动把你要的文件放到你想要的位置上去……这一切无疑都太耗费时间了。
+&#13;
+而 Peazip 在解压大文件时会使用「快速拖放」功能，让你的文件被直接解压到目标拖放目录，而非从临时文件夹处中转。既不需要你改变操作习惯，同时有效减少你的等待时间。
+&#13;
+密码管理器
+&#13;
+https://cdn.sspai.com/2019/12/24/038481963c8302d772c081f9908f1045.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+在即将到来的 Bandizip 7.0 中，被列为收费功能的密码管理器功能也已经在 Peazip 上也以不错的界面呈现，如果你有这方面的需求，Peazip 一定不会让你失望。
+&#13;
+那么 Peazip 少了什么呢？
+&#13;
+和我目前手上的 Bandizip 6.25 相比，Peazip 少了直接在压缩软件中预览图片的功能，也缺少了在打开带有单独文件夹的压缩文件时自动进入文件夹的功能；同时 Peazip 最新版本依然存在着明显的性能问题，右键选择解压后有较为明显的等待时长，需等待数秒才会启动解压流程，这一点还有待优化。
+&#13;
+最后，Peazip 的中文翻译并不完整，在翻译这方面比较重视的朋友可能需要注意一下。
+&#13;
+写在最后
+&#13;
+虽然和 Bandizip 相比，Peazip 在功能上不及其那么丰富全面，但考虑到其开源的特性，以及基本上该有的功能也有了的情况，它或许是除了 7-Zzip 和即将收取高昂费用的 Bandizip 之外另一个不错的选择。
+&#13;
+https://sspai.com/post/58061</description>
+      <content:encoded><![CDATA[<p><b>tency: </b><br>
+<span>finalstar099 发表于 2019-12-29 18:32</span><br>
+<span>借楼求个7ZIP的干净下载，这年头软件依靠百度下载简直各种危险和克隆广告…… ...</span><br>
+<span>官方直接下就这么难？</span><br>
+</p><p><b>finalstar099: </b><br>
+<span>tency 发表于 2019-12-29 18:55</span><br>
+<span>官方直接下就这么难？</span><br>
+<span>抱歉伸手的味道浓重了，之前百度potplayer居然不是官方原版有点PTSD。</span><br>
+</p><p><b>LoliType: </b><br>
+<span>finalstar099 发表于 2019-12-29 21:06</span><br>
+<span>抱歉伸手的味道浓重了，之前百度potplayer居然不是官方原版有点PTSD。</span><br>
+<span>可以用必应搜，这个搜软件官网还是没什么大问题的。</span><br>
+<span>— from Xiaomi Redmi Note 5, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>雪ノ下だんご: </b><br>
+<span>求问还有什么替代品有portable版而且还能预览图片？</span><br>
+</p><p><b>Issue: </b><br>
+<span>finalstar099 发表于 2019-12-29 18:32</span><br>
+<span>借楼求个7ZIP的干净下载，这年头软件依靠百度下载简直各种危险和克隆广告…… ...</span><br>
+<span>要破解或太监的软件也罢了，做7-ZIP的不干净下载的人真的骗得到人吗（好吧，骗得到）</span><br>
+<span>就算你这辈子只用百度，百度百科输入7-ZIP不就找到官网了。</span><br>
+</p><p><b>ulric: </b><br>
+<span>还不如用7-Zip ZS，更新更及时支持更多压缩算法，使用起来没区别还没仿冒的</span><br>
+<span>https://github.com/mcmilk/7-Zip-zstd/releases</span><br>
+</p><p><b>lockedech: </b><br>
+<span>7zip足够了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905694[50-100]</guid>
+    </item>
+    <item>
+      <title>Bandizip 开始收费后，可以试试开源免费的Peazip[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905694-1-1.html</link>
+      <description>Bandizip 开始收费后，可以试试开源免费的Peazip&#13;
+写在开头
+&#13;
+从 WinZip 到 WinRAR，再从 WinRAR 到 7-Zip，我们总是寻求一个在价格和功能上找到一个均衡点来满足我们对压缩文件这一日常需求，在这 BandiZip 即将开始收费之际，我们似乎又要回到当年从 WinRAR 逃离到 7-Zip 那从收费走向开源、从精美走向美工下线但功能强大的道路。
+&#13;
+在这篇文章发布的前些日子，Bandizip于官网发布了他们未来的收费政策，30 美元的价格颇有当年 WinRAR 的收费风范，在从 6.25 升级上去的 Standard 版本，Bandizip 还加入了广告。在我不想支付过高价格以及厌恶广告的情况下，开始寻找一个新的压缩软件就成了必然。
+&#13;
+我本来已经做好了如果没有自动解压之类的功能的话，那就保持使用 Bandizip 6.25 的决心，直到前几天我收到了来自群友的一条建议：
+&#13;
+为什么不试试 Peazip 呢？
+&#13;
+软件的一些小对比
+&#13;
+https://cdn.sspai.com/2019/12/24/41c6d63ac33843086700d4e70ab25caf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+和 Bandizip 不同，Peazip 是一款开源软件，没有高达 30 美元的售价，但却提供了我想要的功能。
+&#13;
+https://cdn.sspai.com/2019/12/25/8ae1a0d7e672a85819c831d8422033c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+而在文件格式支持上，Peazip 基本覆盖了我的需求，所以作为一个代替品，Peazip 并没有什么致命缺陷。
+&#13;
+软件界面
+&#13;
+「开源软件基本上美工下线」这句话虽为俏皮，但不无道理。7-Zip 以简洁复古的界面打动我的心，而 Peazip 的图标则让我有些抗拒，不过好在应用界面还算美观，成功地改变了我对它的第一印象。
+&#13;
+https://cdn.sspai.com/2019/12/24/6bc5bbaa42f5dcdaa2c21ebcd6d38f45.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+Peazip 有什么不错的功能？
+&#13;
+既然是替代品，那么 Peazip 实现了哪些功能呢？
+&#13;
+智能解压
+&#13;
+https://cdn.sspai.com/2019/12/24/b9f3bc1e6456b1502996762363ebbac7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+如果在常规的一个压缩软件中，解压一个如上图的压缩文件，当我们在未打开这个压缩软件时先点击「解压到当前文件夹」时，一定会在下一秒为刚刚做出的操作而后悔，因为这些文件迅速的占领了你的视野，就像下图这样：
+&#13;
+https://cdn.sspai.com/2019/12/24/acf5196799ffa78b7c9d7a43f868c4d7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+但是如果遇到内置一个单独文件夹的压缩包时，当我们像以往一样使用「解压到（压缩文件名称的）文件夹」时就会遇到令人抓狂的「套娃」模式。
+&#13;
+这时，智能解压就显得十分重要，在当时 Bandizip 的推荐文章里面，最打动我的也就是这个功能，而 Peazip 也同样将这个功能实现了出来。
+&#13;
+当解压一个我们不知道内部是什么的文件夹时，使用智能解压，就可以优雅地将压缩包中的目标文件整理到当前目录的同名文件夹里。不用担心是否会套娃，也不用担心一堆文件突然塞满你的文件夹。
+&#13;
+https://cdn.sspai.com/2019/12/24/a74efba8a94123cb28d25896fc8547a1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+智能解压效果如上图（两次均为智能解压）
+&#13;
+快速拖放
+&#13;
+若你习惯于直接将压缩包内文件「拖出来」来进行解压操作，那你大概常常会在压缩软件的解压进度条走完后遇到又一个进度条：将操作文件从临时文件夹复制到目标拖放目录。
+&#13;
+这种情况常见于从一个特别大的压缩文件里面提取一个小文件，在 WinRAR 上我们需要等待它完全解压、转存到临时文件夹，然后再让它自动把你要的文件放到你想要的位置上去……这一切无疑都太耗费时间了。
+&#13;
+而 Peazip 在解压大文件时会使用「快速拖放」功能，让你的文件被直接解压到目标拖放目录，而非从临时文件夹处中转。既不需要你改变操作习惯，同时有效减少你的等待时间。
+&#13;
+密码管理器
+&#13;
+https://cdn.sspai.com/2019/12/24/038481963c8302d772c081f9908f1045.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1
+&#13;
+在即将到来的 Bandizip 7.0 中，被列为收费功能的密码管理器功能也已经在 Peazip 上也以不错的界面呈现，如果你有这方面的需求，Peazip 一定不会让你失望。
+&#13;
+那么 Peazip 少了什么呢？
+&#13;
+和我目前手上的 Bandizip 6.25 相比，Peazip 少了直接在压缩软件中预览图片的功能，也缺少了在打开带有单独文件夹的压缩文件时自动进入文件夹的功能；同时 Peazip 最新版本依然存在着明显的性能问题，右键选择解压后有较为明显的等待时长，需等待数秒才会启动解压流程，这一点还有待优化。
+&#13;
+最后，Peazip 的中文翻译并不完整，在翻译这方面比较重视的朋友可能需要注意一下。
+&#13;
+写在最后
+&#13;
+虽然和 Bandizip 相比，Peazip 在功能上不及其那么丰富全面，但考虑到其开源的特性，以及基本上该有的功能也有了的情况，它或许是除了 7-Zzip 和即将收取高昂费用的 Bandizip 之外另一个不错的选择。
+&#13;
+https://sspai.com/post/58061</description>
+      <content:encoded><![CDATA[<p><b>Nanachi: </b><br>
+<span>Bandizip 开始收费后，可以试试开源免费的Peazip</span><br>
+<span>写在开头</span><br>
+<span>从 WinZip 到 WinRAR，再从 WinRAR 到 7-Zip，我们总是寻求一个在价格和功能上找到一个均衡点来满足我们对压缩文件这一日常需求，在这 BandiZip 即将开始收费之际，我们似乎又要回到当年从 WinRAR 逃离到 7-Zip 那从收费走向开源、从精美走向美工下线但功能强大的道路。</span><br>
+<span>在这篇文章发布的前些日子，Bandizip于官网发布了他们未来的收费政策，30 美元的价格颇有当年 WinRAR 的收费风范，在从 6.25 升级上去的 Standard 版本，Bandizip 还加入了广告。在我不想支付过高价格以及厌恶广告的情况下，开始寻找一个新的压缩软件就成了必然。</span><br>
+<span>我本来已经做好了如果没有自动解压之类的功能的话，那就保持使用 Bandizip 6.25 的决心，直到前几天我收到了来自群友的一条建议：</span><br>
+<span>为什么不试试 Peazip 呢？</span><br>
+<span>软件的一些小对比</span><br>
+<span>https://cdn.sspai.com/2019/12/24/41c6d63ac33843086700d4e70ab25caf.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>和 Bandizip 不同，Peazip 是一款开源软件，没有高达 30 美元的售价，但却提供了我想要的功能。</span><br>
+<span>https://cdn.sspai.com/2019/12/25/8ae1a0d7e672a85819c831d8422033c9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>而在文件格式支持上，Peazip 基本覆盖了我的需求，所以作为一个代替品，Peazip 并没有什么致命缺陷。</span><br>
+<span>软件界面</span><br>
+<span>「开源软件基本上美工下线」这句话虽为俏皮，但不无道理。7-Zip 以简洁复古的界面打动我的心，而 Peazip 的图标则让我有些抗拒，不过好在应用界面还算美观，成功地改变了我对它的第一印象。</span><br>
+<span>https://cdn.sspai.com/2019/12/24/6bc5bbaa42f5dcdaa2c21ebcd6d38f45.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>Peazip 有什么不错的功能？</span><br>
+<span>既然是替代品，那么 Peazip 实现了哪些功能呢？</span><br>
+<span>智能解压</span><br>
+<span>https://cdn.sspai.com/2019/12/24/b9f3bc1e6456b1502996762363ebbac7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>如果在常规的一个压缩软件中，解压一个如上图的压缩文件，当我们在未打开这个压缩软件时先点击「解压到当前文件夹」时，一定会在下一秒为刚刚做出的操作而后悔，因为这些文件迅速的占领了你的视野，就像下图这样：</span><br>
+<span>https://cdn.sspai.com/2019/12/24/acf5196799ffa78b7c9d7a43f868c4d7.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>但是如果遇到内置一个单独文件夹的压缩包时，当我们像以往一样使用「解压到（压缩文件名称的）文件夹」时就会遇到令人抓狂的「套娃」模式。</span><br>
+<span>这时，智能解压就显得十分重要，在当时 Bandizip 的推荐文章里面，最打动我的也就是这个功能，而 Peazip 也同样将这个功能实现了出来。</span><br>
+<span>当解压一个我们不知道内部是什么的文件夹时，使用智能解压，就可以优雅地将压缩包中的目标文件整理到当前目录的同名文件夹里。不用担心是否会套娃，也不用担心一堆文件突然塞满你的文件夹。</span><br>
+<span>https://cdn.sspai.com/2019/12/24/a74efba8a94123cb28d25896fc8547a1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>智能解压效果如上图（两次均为智能解压）</span><br>
+<span>快速拖放</span><br>
+<span>若你习惯于直接将压缩包内文件「拖出来」来进行解压操作，那你大概常常会在压缩软件的解压进度条走完后遇到又一个进度条：将操作文件从临时文件夹复制到目标拖放目录。</span><br>
+<span>这种情况常见于从一个特别大的压缩文件里面提取一个小文件，在 WinRAR 上我们需要等待它完全解压、转存到临时文件夹，然后再让它自动把你要的文件放到你想要的位置上去……这一切无疑都太耗费时间了。</span><br>
+<span>而 Peazip 在解压大文件时会使用「快速拖放」功能，让你的文件被直接解压到目标拖放目录，而非从临时文件夹处中转。既不需要你改变操作习惯，同时有效减少你的等待时间。</span><br>
+<span>密码管理器</span><br>
+<span>https://cdn.sspai.com/2019/12/24/038481963c8302d772c081f9908f1045.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1</span><br>
+<span>在即将到来的 Bandizip 7.0 中，被列为收费功能的密码管理器功能也已经在 Peazip 上也以不错的界面呈现，如果你有这方面的需求，Peazip 一定不会让你失望。</span><br>
+<span>那么 Peazip 少了什么呢？</span><br>
+<span>和我目前手上的 Bandizip 6.25 相比，Peazip 少了直接在压缩软件中预览图片的功能，也缺少了在打开带有单独文件夹的压缩文件时自动进入文件夹的功能；同时 Peazip 最新版本依然存在着明显的性能问题，右键选择解压后有较为明显的等待时长，需等待数秒才会启动解压流程，这一点还有待优化。</span><br>
+<span>最后，Peazip 的中文翻译并不完整，在翻译这方面比较重视的朋友可能需要注意一下。</span><br>
+<span>写在最后</span><br>
+<span>虽然和 Bandizip 相比，Peazip 在功能上不及其那么丰富全面，但考虑到其开源的特性，以及基本上该有的功能也有了的情况，它或许是除了 7-Zzip 和即将收取高昂费用的 Bandizip 之外另一个不错的选择。</span><br>
+<span>https://sspai.com/post/58061</span><br>
+</p><p><b>Litccc: </b><br>
+<span>这居然也是转贴</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>Litccc 发表于 2019-12-26 16:28</span><br>
+<span>这居然也是转贴</span><br>
+<span>好文章分享一下</span><br>
+</p><p><b>虚无连斩: </b><br>
+<span>昨天装了之后发现文件关连不上，卸载之后注册表残留一堆，一个个搜索删了好久……</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>关于套娃，有的是压缩包名字和内部文件夹名字一样，有的不一样，有些信息还在压缩包名字里</span><br>
+<span>以前我整理一堆压缩包时还要把两个目录的名字合并</span><br>
+</p><p><b>zerona: </b><br>
+<span>bandzip 不更新就能继续用还是老版本也会被封掉不少功能？</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>已经习惯7zip了，一般习惯是右键菜单解压压缩名称文件夹</span><br>
+</p><p><b>sirlion: </b><br>
+<span>没那么多机会接触压缩包，能用就成7zip挺好，如果不是自带的打不开rar我连7zip都懒得装，zip挺好的</span><br>
+</p><p><b>password: </b><br>
+<span>Peazip能选压缩包编码不 不能选的话bandizip还是没法替代</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>peazip有修改zip文件名编码的功能吗</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>peazip能压缩正在使用中的文件吗？ </span><br>
+<span>另外tar.gz这种文件，能一步预览或解压吗？</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>换7zip很久了 真的没有太多rar需求</span><br>
+</p><p><b>kanshale: </b><br>
+<span>我没啥需求，一直是winrar+7zip...</span><br>
+</p><p><b>bakausagi: </b><br>
+<span>7zip够用了，用过pea，功能丰富，但是明显运行速度不如轻量的7z</span><br>
+</p><p><b>oskneo: </b><br>
+<span> 本帖最后由 oskneo 于 2019-12-26 18:41 编辑 </span><br>
+<span>已经用好压很久了</span><br>
+</p><p><b>天网: </b><br>
+<span>Bandizip便宜一点我都买了，作者明显飘了，价格对标Winrar我傻了，我寻思你也没自己独自发明的编码+这么多功能啊。压缩包内预览图片的缩略图，七八年前国产压缩都有的功能9012年居然还是收费版的新特性，行8</span><br>
+</p><p><b>计算机组成原理: </b><br>
+<span>其实WinRAR是支持智能解压的。</span><br>
+</p><p><b>碳酸锂缓释片: </b><br>
+<span>Litccc 发表于 2019-12-26 16:28</span><br>
+<span>这居然也是转贴</span><br>
+<span>我在少数派看见这文章时就猜会被 LZ 转到泥潭，不过没想到会延时两天</span><br>
+<span>—— 来自 Xiaomi MIX 3, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>也就套了一层，然后就是两层文件夹，也没啥，总比出来一堆垃圾好。</span><br>
+<span>我觉得7z就挺好的。</span><br>
+<span>另外rar的reg也很好找，我发现我们单位用的是edu的认证</span><br>
+</p><p><b>11--: </b><br>
+<span>bandzip不升级有啥影响么？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5000, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>happydog: </b><br>
+<span>稳定在7zip上吧。</span><br>
+</p><p><b>RyuguRena: </b><br>
+<span>常年7zip，没啥特别需求，够用。</span><br>
+</p><p><b>LoliType: </b><br>
+<span>PEAZIP用起来明显比别的慢，是程序本身慢，沉重。</span><br>
+<span>不过7ZIP无法方便地同时为复数文件每个单独创建压缩包，所以我还是留了一个peazip。</span><br>
+</p><p><b>夜语: </b><br>
+<span>智能解压第二个对我来说是槽点，多层文件夹套壳是不对。</span><br>
+<span>但是我觉得忽略压缩文件名直接解压出子文件夹也不是那么对。</span><br>
+<span>比方说压缩文件 奥术神座.zip</span><br>
+<span>里面包含了 \aoshushezuo\aoshushezuo.txt</span><br>
+<span>你是希望直接解压出 aoshushezuo 文件夹还是希望解压出 奥术神座 文件夹</span><br>
+<span>压缩文件夹说不定就是aoshushezuo.zip，甚至1234.zip</span><br>
+<span>我修改为奥术神座.zip 方便自己确认，解压后又不认识了。</span><br>
+<span>这是最简单的例子，实际情况更加复杂，你并不清楚压缩包下面是什么东西。</span><br>
+<span>单个压缩文件也很好说，批量解压的时候真的会让人崩溃。</span><br>
+<span>所以我一直还是老实的用解压每个压缩文件到单独的文件夹，让他套上几层，解决套层要比解决文件名问题容易得多。</span><br>
+<span>以前我是自己整理一次压缩文件不让其套层，但是最近好像失效了。</span><br>
+<span>请问下bandzip有办法压缩 \奥术神座\奥术神座.txt 为 奥术神座.zip/奥术神座.txt 而不是 奥术神座.zip\奥术神座\奥术神座.txt吗。（进文件夹操作可以，但是批量时就难了。）</span><br>
+<span>我记得以前好像是有的，现在不知道怎么的搞不见了。（选项压缩里第一个 只压缩单个文件夹时不要创建根文件夹 选中无效）</span><br>
+</p><p><b>2517君改二: </b><br>
+<span>那么它能够选择区域码么？</span><br>
+<span>那些Shift_JIS的文件不靠bandizip我不知道还有没有有类似功能的</span><br>
+</p><p><b>Issue: </b><br>
+<span>夜语 发表于 2019-12-27 00:10</span><br>
+<span>智能解压第二个对我来说是槽点，多层文件夹套壳是不对。</span><br>
+<span>但是我觉得忽略压缩文件名直接解压出子文件夹也不 ...</span><br>
+<span>对，是有这个问题，不过问题不大，Bandizip不是有个右键预览文件夹结构吗？右键预览发现文件名不一样，那就不要选择“解压后删除压缩包”，解压出来后对压缩包F2复制文件名、重命名文件夹，比解决文件夹套壳省拖拽步骤。</span><br>
+<span>这么看Peazip还不如Bandizip旧版那为什么Bandizip原用户要改Peazip。</span><br>
+</p><p><b>观自在: </b><br>
+<span>Issue 发表于 2019-12-27 00:55</span><br>
+<span>对，是有这个问题，不过问题不大，Bandizip不是有个右键预览文件夹结构吗？右键预览发现文件名不一样，那 ...</span><br>
+<span>一个检查更新后会有新功能，一个检查更新后旧功能会收费。</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>Issue: </b><br>
+<span>观自在 发表于 2019-12-27 01:18</span><br>
+<span>一个检查更新后会有新功能，一个检查更新后旧功能会收费。</span><br>
+<span>—— 来自 HUAWEI PCT-AL10, Android 9上的 S ...</span><br>
+<span>前半句是你的美好愿望，但我不知道什么时候可以等到而且又令我满意。要求不高，只要Peazip能右键预览压缩包结构、解决臃肿卡顿的问题我肯定会考虑的，如果还能选择区域码我就要再次下载了。</span><br>
+<span>已关闭Bandizip更新且防火墙禁止联网。由于功能足够，除非再有能预览文本的解压软件，大概不必换了。</span><br>
+<span>其实能预览文本的解压软件有但不值得推荐。</span><br>
+</p><p><b>青年A: </b><br>
+<span>是7z不能用了还是7z收费了？</span><br>
+<span>一个7z用十几年免费省心不用换不好吗？</span><br>
+<span>— from HUAWEI ELE-AL00, Android 10 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>ulric: </b><br>
+<span> 本帖最后由 ulric 于 2019-12-27 08:20 编辑 </span><br>
+<span>7z加上TC4shell才厉害，比如Modern7z可以给7z加上新的压缩算法，结合lzma2和rar优点能兼顾压缩率和压缩速度；Smart7z可以让7z针对不同文件后缀名采用最适合的压缩算法，最大化压缩率</span><br>
+<span>本职工作都做不好，要那么多花里胡哨的有啥用</span><br>
+<span>http://www.tc4shell.com/ru/7zip/</span><br>
+</p><p><b>smishe: </b><br>
+<span>到时候就会和idm一样破解满天飞了吧</span><br>
+</p><p><b>咕咕咕9527: </b><br>
+<span>问下bandizip不更新会没有啥功能</span><br>
+</p><p><b>自旋: </b><br>
+<span>还是7z吧，省心</span><br>
+</p><p><b>Anoneko: </b><br>
+<span>四五年前自己生成的rar的reg文件，现在还是好用</span><br>
+</p><p><b>装个逼就跑: </b><br>
+<span>能忍受广告的话我觉得WinRAR也是可以用的，当你觉得WinRAR弹出的广告不堪入目时，只要去官网把软件更新到最新版就好(别问我为啥知道)</span><br>
+</p><p><b>trentswd: </b><br>
+<span>我用bandizip也是因为编码功能，所以这个是没有？</span><br>
+</p><p><b>7450: </b><br>
+<span>刚需功能“为多个文件分别创建压缩文件”，这个软件支持吗？</span><br>
+</p><p><b>小妻水亚美: </b><br>
+<span>像我用了德国佬的压缩软件powerarchiver</span><br>
+<span>基本上 标准版也要卖23欧元了</span><br>
+<span>印象里winzip卖的还要贵 bandzip这收费大概也算压缩软件的均价吧。</span><br>
+<span>—— 来自 motorola XT1929-15, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>定這個價大概是不指望在家庭用戶手中盈利吧...</span><br>
+</p><p><b>天网: </b><br>
+<span> 本帖最后由 天网 于 2019-12-27 13:09 编辑 </span><br>
+<span>咕咕咕9527 发表于 2019-12-27 09:14</span><br>
+<span>问下bandizip不更新会没有啥功能</span><br>
+<span>1.压缩包内直接预览图片的缩略大图</span><br>
+<span>（而不用选择后再看预览窗格 or 弹出内置看图器）</span><br>
+<span>2.状态栏上直接进行缩略图/列表模式的快速切换</span><br>
+<span>（而不是藏在二级菜单里）</span><br>
+<span>3.密码管理器</span><br>
+<span>我觉得这3个是Bandizip最缺乏的基础功能，没有太不方便了。7.0更新很惊喜，如果加上这3个对我个人需求来说，bandi就是完美的压缩软件了，但是居然把这些功能放进收费版...让我为这些基础功能掏200大洋还是免了。官方视作重磅功能的其他特性反而感觉挺无关轻重的，比如</span><br>
+<span>4. 压缩包密码恢复（暴力破解），不支持字典，弟弟，不如找个单独的破解软件</span><br>
+<span>5.修复文件头损害损坏，常用格式只支持zip</span><br>
+<span>还有若干乱七八糟的小更新和bug fix</span><br>
+<span>7.0新版也可以免费使用的，就是解锁不了1、2、3、4、5这些pro版功能，只是修修bug+开始页面加广告</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>佳丽三千到 发表于 2019-12-26 18:11</span><br>
+<span>peazip能压缩正在使用中的文件吗？ </span><br>
+<span>另外tar.gz这种文件，能一步预览或解压吗？</span><br>
+<span>自我验证一下 </span><br>
+<span>1.正在使用中的文件不支持压缩。   </span><br>
+<span>2.可以一键打开tar.gz，细节是先是打开gz，半秒后再自动打开tar。   </span><br>
+<span>评价是：慢的很明显。 </span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>bigheadnotbig: </b><br>
+<span>习惯bandizip+蜂蜜浏览器看图了。。。看看有没有破解版吧</span><br>
+</p><p><b>chust: </b><br>
+<span> 本帖最后由 chust 于 2019-12-27 14:53 编辑 </span><br>
+<span>peazip 好像看不了rar压缩包的注释？</span><br>
+<span>— from Xiaomi MI 8 UD, Android 9 of S1 Next Goose v2.2.0.1</span><br>
+</p><p><b>ekdc11: </b><br>
+<span>peazip 真的太丑了，7z 至少可以打皮肤补丁。winRAR 已经放弃个人用户的反盗版了，大家随意把。</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>winrar我有个很古老的key 从RAR吧搞到的 只要安装时跟安装exe在同一文件夹就自动激活</span><br>
+</p><p><b>KDN_Observer: </b><br>
+<span>换来换去还是换回winrar，因为除了国产压缩软件以外没有支持压rar格式的了</span><br>
+<span>另外智能解压这玩意winrar也有</span><br>
+</p><p><b>Aeroblast: </b><br>
+<span>2517君改二 发表于 2019-12-27 00:40</span><br>
+<span>那么它能够选择区域码么？</span><br>
+<span>那些Shift_JIS的文件不靠bandizip我不知道还有没有有类似功能的 ...</span><br>
+<span>凑合用：</span><br>
+<span>32位7z+ locale emulator</span><br>
+<span>建快捷方式，用转区软件打开7z</span><br>
+<span> 平时用打开是乱码，就关掉用转区版开，文件夹位置会记忆</span><br>
+<span>比内置改编码还是麻烦不少</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>KDN_Observer 发表于 2019-12-29 12:45</span><br>
+<span>换来换去还是换回winrar，因为除了国产压缩软件以外没有支持压rar格式的了</span><br>
+<span>另外智能解压这玩意winrar也有 ...</span><br>
+<span>有什么场景是非要制作成rar格式的吗？</span><br>
+</p><p><b>sniffer: </b><br>
+<span>现在的硬盘和网络环境下，压缩软件也就是个打包和加密的功能吧，压不压缩的无所谓了</span><br>
+</p><p><b>finalstar099: </b><br>
+<span>借楼求个7ZIP的干净下载，这年头软件依靠百度下载简直各种危险和克隆广告……</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905694[0-50]</guid>
+    </item>
+  </channel>
+</rss>

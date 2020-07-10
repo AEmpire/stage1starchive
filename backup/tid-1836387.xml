@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AiMesh的心得和问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AiMesh的心得和问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:06:01 +0000</lastBuildDate>
+    <item>
+      <title>AiMesh的心得和问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1836387-1-1.html</link>
+      <description>AiMesh的心得和问题&#13;
+ 本帖最后由 muderx 于 2019-6-2 18:30 编辑 
+
+今天把两个AC86U开箱组AiMesh。首先AC86U本身的性能一二百的普通路由器强太多。
+&#13;
+1 AiMesh的无线回程设置很简单，见教程或客服。
+&#13;
+2 官方推荐采用串联方式实现有线回程，未测试。
+&#13;
+3 采用路由器并联的方法，即都用WAN连到交换机上，尝试失败。
+&#13;
+3.1 在无线回程的设置下，都插WAN网线，将副路由器改为有线连接，副路由器会离线。
+&#13;
+3.2 将主路由器改为AP模式，最初几分钟没问题，但很快大部分设备（苹果设备、华为手机、笔记本、一体机、小米家电）都无法连接到外网，也无法ping到，局域网可以连接信号满格。有线连接的电脑和新买的华为手机倒是没问题。CHH上有人发贴碰到过一样的问题。
+&#13;
+3.3 B站某UP主的教程中提到有线回程两个路由器不一定要直接串联，他用中间用交换机串联两个路由器，说是只要在一个网段就可以，但我家两处的网线都是从房间到弱电箱里的交换机，两房间之间并没有网线，所以也无法实现。
+&#13;
+有用AiMesh的朋友交流一下吗？</description>
+      <content:encoded><![CDATA[<p><b>muderx: </b><br>
+<span>AiMesh的心得和问题</span><br>
+<span> 本帖最后由 muderx 于 2019-6-2 18:30 编辑 </span><br>
+<span>今天把两个AC86U开箱组AiMesh。首先AC86U本身的性能一二百的普通路由器强太多。</span><br>
+<span>1 AiMesh的无线回程设置很简单，见教程或客服。</span><br>
+<span>2 官方推荐采用串联方式实现有线回程，未测试。</span><br>
+<span>3 采用路由器并联的方法，即都用WAN连到交换机上，尝试失败。</span><br>
+<span>3.1 在无线回程的设置下，都插WAN网线，将副路由器改为有线连接，副路由器会离线。</span><br>
+<span>3.2 将主路由器改为AP模式，最初几分钟没问题，但很快大部分设备（苹果设备、华为手机、笔记本、一体机、小米家电）都无法连接到外网，也无法ping到，局域网可以连接信号满格。有线连接的电脑和新买的华为手机倒是没问题。CHH上有人发贴碰到过一样的问题。</span><br>
+<span>3.3 B站某UP主的教程中提到有线回程两个路由器不一定要直接串联，他用中间用交换机串联两个路由器，说是只要在一个网段就可以，但我家两处的网线都是从房间到弱电箱里的交换机，两房间之间并没有网线，所以也无法实现。</span><br>
+<span>有用AiMesh的朋友交流一下吗？</span><br>
+</p><p><b>DapFlog: </b><br>
+<span>没戏，试试单线复用，用iptv的线想想办法。</span><br>
+<span>另外，这个mash有点弱智，经常信号弱也不主动切断</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>说了无数次了，真要的网件 领势 ubnt再不济买小米啊，没有独立频段回传的aimesh不靠谱。</span><br>
+</p><p><b>password: </b><br>
+<span>DapFlog 发表于 2019-6-2 18:25</span><br>
+<span>没戏，试试单线复用，用iptv的线想想办法。</span><br>
+<span>另外，这个mash有点弱智，经常信号弱也不主动切断 ...</span><br>
+<span>我记得aimesh不支持802.11k/v/r</span><br>
+<span>信号弱有时不切换也不意外吧</span><br>
+<span>讲真aimesh就是便宜 有高要求还是三频Orbi或者Velop吧</span><br>
+</p><p><b>kiddolck: </b><br>
+<span>Aimesh 这么菜的么…我还在等 Blue Cave 促销跟客厅的 86u 组…有线回程</span><br>
+</p><p><b>bruch: </b><br>
+<span>组mesh至少三台啊 两台各种问题的</span><br>
+</p><p><b>muderx: </b><br>
+<span>价格是选择AiMesh的首要因素</span><br>
+</p><p><b>モトロ: </b><br>
+<span>现在MESH都要支持 802.11v/r三频最佳 双频最好有线</span><br>
+<span>据说ubnt二代三代的漫游切换速度比802.11v/r更快？买不起没试过</span><br>
+</p><p><b>qwased: </b><br>
+<span>muderx 发表于 2019-6-2 19:59</span><br>
+<span>价格是选择AiMesh的首要因素</span><br>
+<span>那为什么不选磊科mg1200ac，80块钱一个还支持802.11 k v r</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>モトロ: </b><br>
+<span>qwased 发表于 2019-6-2 22:21</span><br>
+<span>那为什么不选磊科mg1200ac，80块钱一个还支持802.11 k v r</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0. ...</span><br>
+<span>跨省能用吗。我看电信定制的一些路由器都限制本省 电信宽带 才能用的</span><br>
+</p><p><b>starrin: </b><br>
+<span>把弱电箱里的交换机换成支持vlan的网管交换机，在主路由那边再配一个网管交换机，就能用vlan的方式实现你说的串联连接。</span><br>
+<span>aimesh用串联的话我用得挺顺的，完全没出过问题。</span><br>
+</p><p><b>qwased: </b><br>
+<span>モトロ 发表于 2019-6-2 22:31</span><br>
+<span>跨省能用吗。我看电信定制的一些路由器都限制本省 电信宽带 才能用的</span><br>
+<span>能，这个没有影响</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oskneo: </b><br>
+<span>同用aimesh，3台68u组的。</span><br>
+<span>由于只用过无线连，你的问题没遇到。</span><br>
+<span>另外你们说无法自动切信号的问题也没遇到。</span><br>
+<span>倒是有试过由于设置的db数不对，经常两个路由间不断切。</span><br>
+<span>要找到适合的db数比较辛苦。</span><br>
+<span>现在的问题是稳定性，几个星期就有其中一个路由死掉。</span><br>
+<span>看来要弄个脚本自动重启。</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1836387[0-50]</guid>
+    </item>
+  </channel>
+</rss>

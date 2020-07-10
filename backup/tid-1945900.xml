@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>钉钉的线上考试禁止粘贴，有没有破解的办法？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>钉钉的线上考试禁止粘贴，有没有破解的办法？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:40 +0000</lastBuildDate>
+    <item>
+      <title>钉钉的线上考试禁止粘贴，有没有破解的办法？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945900-1-1.html</link>
+      <description>钉钉的线上考试禁止粘贴，有没有破解的办法？&#13;
+ 本帖最后由 mirari 于 2020-7-4 23:27 编辑 
+
+事业单位，搞了一堆形式化的线上考试需要应付，结果有几个考试弄了很多问答题，标准答案字数近千，还有很多偏僻术语，考试时间居然只设了半小时，复制粘贴被屏蔽了，打字慢的都来不及。
+
+我试过用shift+insert、用ditto双击剪贴板菜单粘贴、用罗技鼠标侧键自定义快捷键都不行。
+
+只有搜狗输入法自定义短语可以，但也无法一次输入超过150字的内容。
+
+这样的话这种取巧方案就变得很繁琐了，需要使用者配置很多东西。
+
+有人研究过这个偷懒方案吗？下一步我打算试试按键精灵，但估计快捷键形式输入这条路已经被堵死了</description>
+      <content:encoded><![CDATA[<p><b>mirari: </b><br>
+<span>钉钉的线上考试禁止粘贴，有没有破解的办法？</span><br>
+<span> 本帖最后由 mirari 于 2020-7-4 23:27 编辑 </span><br>
+<span>事业单位，搞了一堆形式化的线上考试需要应付，结果有几个考试弄了很多问答题，标准答案字数近千，还有很多偏僻术语，考试时间居然只设了半小时，复制粘贴被屏蔽了，打字慢的都来不及。</span><br>
+<span>我试过用shift+insert、用ditto双击剪贴板菜单粘贴、用罗技鼠标侧键自定义快捷键都不行。</span><br>
+<span>只有搜狗输入法自定义短语可以，但也无法一次输入超过150字的内容。</span><br>
+<span>这样的话这种取巧方案就变得很繁琐了，需要使用者配置很多东西。</span><br>
+<span>有人研究过这个偷懒方案吗？下一步我打算试试按键精灵，但估计快捷键形式输入这条路已经被堵死了</span><br>
+</p><p><b>夜语: </b><br>
+<span>试试ahk，这个是相当于一个个字符敲上去的，几个简单的代码应该能实现用ahk输入剪贴板内容。但是某些地方（比方说腾讯游戏）不能用。</span><br>
+</p><p><b>twwa17: </b><br>
+<span>就当是练习打字吧。。</span><br>
+</p><p><b>雪地白狼: </b><br>
+<span>用按键精灵或者键盘宏之类的一个一个打，或者就是搜狗的自定义词库</span><br>
+</p><p><b>str007: </b><br>
+<span>手机有类似的解决办法，朋友圈不折叠输入法</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>手机版能做题么？模拟器+手机钉钉也许可破</span><br>
+</p><p><b>mirari: </b><br>
+<span>夜语 发表于 2020-7-4 23:37</span><br>
+<span>试试ahk，这个是相当于一个个字符敲上去的，几个简单的代码应该能实现用ahk输入剪贴板内容。但是某些地方（ ...</span><br>
+<span>搜狗的自定义短语行不通，如果配置的短语大于150字，在其他环境都正常，在钉钉下就不会有反应。</span><br>
+<span>AutoHotKey试了下可行，用最简单的输入替换，回车后钉钉会卡住几秒钟，但恢复过来以后所有输入内容都在上面了，感谢帮助。</span><br>
+</p><p><b>Smile_D_up: </b><br>
+<span>粘贴时浏览器关掉js试试？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>骆宾王: </b><br>
+<span>收藏一下，感觉有用</span><br>
+<span>—— 来自 Xiaomi Redmi K30 Pro, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>回忆and无语: </b><br>
+<span>https://chrome.google.com/webstore/detail/enable-right-click/bofdamlbkfkjnecfjbhpncokfalmmbii?hl=en</span><br>
+<span>试试这个插件</span><br>
+</p><p><b>natt: </b><br>
+<span>残酷啊啊啊</span><br>
+<span>— from Xiaomi MI 8, Android 9 of S1 Next Goose v2.2.2.1</span><br>
+</p><p><b>conanlm: </b><br>
+<span>mirari 发表于 2020-7-5 00:40</span><br>
+<span>搜狗的自定义短语行不通，如果配置的短语大于150字，在其他环境都正常，在钉钉下就不会有反应。</span><br>
+<span>AutoHot ...</span><br>
+<span>能求个脚本，学习一下吗</span><br>
+</p><p><b>烛堡巡礼者: </b><br>
+<span>马一个</span><br>
+</p><p><b>win8: </b><br>
+<span>conanlm 发表于 2020-7-5 11:08</span><br>
+<span>能求个脚本，学习一下吗</span><br>
+<span>我刚好最近在搞输入字符。保存为ahk文件，运行时按1输入第一题答案，按2输入第二题，按0退出。</span><br>
+<span>如果考试电脑受控不可以自己拷贝/安装软件，实际上还可以搞badusb/橡皮鸭</span><br>
+<span>#NoEnv; Recommended for performance and compatibility with future AutoHotkey releases.</span><br>
+<span>; #Warn; Enable warnings to assist with detecting common errors.</span><br>
+<span>SendMode Input; Recommended for new scripts due to its superior speed and reliability.</span><br>
+<span>SetWorkingDir %A_ScriptDir%; Ensures a consistent starting directory.</span><br>
+<span>1::</span><br>
+<span>StartTime := A_TickCount</span><br>
+<span>send,我是第一题答案</span><br>
+<span>ElapsedTime := A_TickCount - StartTime</span><br>
+<span>    MsgBox, 第一题完毕，用时 %ElapsedTime% 毫秒</span><br>
+<span>    Sleep, 100</span><br>
+<span>return</span><br>
+<span>2::</span><br>
+<span>StartTime := A_TickCount</span><br>
+<span>send ,"我是第二题答案"</span><br>
+<span>ElapsedTime := A_TickCount - StartTime</span><br>
+<span>    MsgBox, 第二题完毕，用时 %ElapsedTime% 毫秒</span><br>
+<span>    Sleep, 100</span><br>
+<span>return</span><br>
+<span>0::</span><br>
+<span>MsgBox exit.</span><br>
+<span>ExitApp</span><br>
+<span>return</span><br>
+</p><p><b>mirari: </b><br>
+<span>Smile_D_up 发表于 2020-7-5 07:28</span><br>
+<span>粘贴时浏览器关掉js试试？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1 ...</span><br>
+<span>用的是钉钉客户端，不是网页版</span><br>
+</p><p><b>mirari: </b><br>
+<span>conanlm 发表于 2020-7-5 11:08</span><br>
+<span>能求个脚本，学习一下吗</span><br>
+<span>我用的只是ahk最简单的那个输入替换，帮助文档的第一个例子就是。</span><br>
+<span>钉钉的考试每次打开试题顺序都是随机的，不能做整套脚本，我现在就是把需要大量文字的问答题做了脚本，其他填空之类还是手动输入。</span><br>
+</p><p><b>sun119108: </b><br>
+<span>截图，然后识别？</span><br>
+</p><p><b>弧离的三型: </b><br>
+<span>那么手机版可以复制粘贴吗</span><br>
+</p><p><b>cloudian: </b><br>
+<span>语音输入？我记得十几年前的识别率都蛮高的呢。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>世界的膀胱者: </b><br>
+<span>浏览器F12找到输入框对应的元素 然后直接把文字粘贴进去</span><br>
+<span>—— 来自 samsung SM-G9730, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>AmberWu: </b><br>
+<span>ios手机 iPad 电脑   键盘定义一个代号输入很方便快捷</span><br>
+</p><p><b>AmberWu: </b><br>
+<span>你也考虑买了14天无理由退货 因为是真的方便… 我考试试过 2333</span><br>
+</p><p><b>Player: </b><br>
+<span>学习一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945900[0-50]</guid>
+    </item>
+  </channel>
+</rss>

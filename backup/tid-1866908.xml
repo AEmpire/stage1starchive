@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【VR】Oculus Link  Quest变身PCVR感受</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【VR】Oculus Link  Quest变身PCVR感受</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:52:28 +0000</lastBuildDate>
+    <item>
+      <title>【VR】Oculus Link  Quest变身PCVR感受[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1866908-1-1.html</link>
+      <description>【VR】Oculus Link  Quest变身PCVR感受&#13;
+ 本帖最后由 a8610853 于 2019-11-20 21:13 编辑 
+
+没有其他PCVR 以下感受针对Virtual Desktop和PC移动双平台的游戏对比
+&#13;
+用的USB3.0线是OC官方推荐的Anker C to A USB3.0 3M长度，19号推送Link之后日亚上面半天就卖到缺货了。
+&#13;
+这个Anker的线非常的粗，大概直径有7~8mm左右，比自带的USB2.0充电线线粗了一圈。
+&#13;
+线的长度勉强够玩原地操作的游戏，需要移动的最好多配一个绿联的USB3.0 A to A主动延长线，或者等官方的80刀5m主动光纤线。
+&#13;
+楼主的配置：
+&#13;
+4790K
+&#13;
+GTX1060 6GB
+&#13;
+16GB 内存
+&#13;
+测试游戏：
+&#13;
+steam lab
+&#13;
+robo recall
+&#13;
+gun club vr（Oculus版）
+&#13;
+各类I社VR黄油等
+&#13;
+延迟：
+&#13;
+手柄定位没有任何能够体感到的延迟，也没有像VD串流开启分片编码和手柄预测后会产生的定位随机抖动问题。
+&#13;
+震动功能基本能正常工作，steam lab 射箭小游戏拉弓和robo recall的后座震感体验完整，只有在Gun Club VR中出现了像VD串流那样震动时不时消失的问题。
+&#13;
+估摸着延迟应该至少低于20ms，而VD的HEVC串流至少在30~40ms
+&#13;
+其他的一些问题：
+&#13;
+Gun Club VR中震动反馈手感不如Quest原生，可能是因为细微的延迟导致。
+&#13;
+Gun Club VR中用扳机键上膛的时候判定相对Quest原生非常严格，需要更长的按压时间才能判定出来，通过安装Revive可以解决这个问题，至于为什么Revive能够解决这个问题，尚不清楚。
+&#13;
+画面：
+&#13;
+就显示分辨率、清晰度而言，远不如Quest原生的效果，这主要应该是因为识别成Rift S，默认按1440P的分辨率渲染的原因。用STEAM VR或游戏自带的设置开启超采样之后有非常明显的提升，基本可以达到和原生非常接近的效果，但是因为是串流图像，图像边缘依然会没有原生那么“锐利”。串流图像当然是经过压缩的，在GUN CLUB VR的夜间战斗中可以很明显地感受到黑色背景中的压缩噪点，但是在一般的色彩下效果很不错。对比VD的串流，完全没有因为压缩而带来的色块出现。色彩信息也相对来说比较完整，没有VD串流那样明显的偏色
+&#13;
+性能：
+&#13;
+这个应该需要重点说，在一些情况下，对比VD串流，Oculus Link对显卡性能似乎存在额外的开销，特别是在I社几款VR黄油的测试中，帧率下降明显，上下晃动时出现了oculus帧率不足时特有的ASW1.0插帧波纹。
+&#13;
+https://ftp.bmp.ovh/imgs/2019/11/b5fcf5757ff50e48.png
+&#13;
+其次是在robo recall中，用Revive+Steam VR（单眼渲染分辨率锁定1440*1600）同特效下能获得比用oculus客户端启动时更高的帧率。
+&#13;
+如果是对比Revive+Steam VR和VD的串流性能的话，则是Revive+Steam VR更胜一筹。
+&#13;
+尚不清楚性能下降的原因，或许和两个平台不同的插帧算法有关。
+&#13;
+整体体验感想：
+&#13;
+一开始楼主以为这Oculus Link能够提供非常完整的PCVR体验，但是现在来看依然存在不少问题。
+&#13;
+而且由于PCVR端的游戏没有固定注视点渲染的特性以及压缩数据带来的画面细节损耗，导致对画质主观感受的提升并不是很明显。在robo recall这样的游戏中，Quest原生的锐利画面对比1060带来的特效和高多边形建模带来的画质，前者在主观上的感受是要更好的，毕竟阴影再丰富，模型再精致，一糊就啥都看不清了。
+&#13;
+相对于VD的无线串流来说Oculus Link在画面上的提升也不算特别大，不足以抵消无线带来的优势。
+&#13;
+当然以上的感受是因为楼主只有1060，如果是2080ti的用户，大可把超采样级别调的很高来缓解这个问题。
+&#13;
+如果今后VD串流能够解决手柄预测和切片编码所带来的随机抖动问题，或许会比Oculus Link更为实用，毕竟无线是最大的体验提升。
+&#13;
+最后要总结一下的话，Oculus Link对于Quest来说主要还是起一个补充作用，让Quest能够在操作延迟上基本没有问题的前提下体验到PCVR上的内容，而对于那些已经移植到移动端，甚至有crossbuy的游戏来说，楼主还是觉得玩移动版是体验最好的。
+&#13;
+ps. Quest的电池温度超过43度时会关闭充电的问题在Oculus Link上没有出现，多次查看电量后发现，应该是限制了充电功率或者充电时间，毕竟串流消耗的电量肯定要低于自己处理，链接PC游玩了大概2小时后，电量下降了10%左右。</description>
+      <content:encoded><![CDATA[<p><b>a8610853: </b><br>
+<span>【VR】Oculus Link  Quest变身PCVR感受</span><br>
+<span> 本帖最后由 a8610853 于 2019-11-20 21:13 编辑 </span><br>
+<span>没有其他PCVR 以下感受针对Virtual Desktop和PC移动双平台的游戏对比</span><br>
+<span>用的USB3.0线是OC官方推荐的Anker C to A USB3.0 3M长度，19号推送Link之后日亚上面半天就卖到缺货了。</span><br>
+<span>这个Anker的线非常的粗，大概直径有7~8mm左右，比自带的USB2.0充电线线粗了一圈。</span><br>
+<span>线的长度勉强够玩原地操作的游戏，需要移动的最好多配一个绿联的USB3.0 A to A主动延长线，或者等官方的80刀5m主动光纤线。</span><br>
+<span>楼主的配置：</span><br>
+<span>4790K</span><br>
+<span>GTX1060 6GB</span><br>
+<span>16GB 内存</span><br>
+<span>测试游戏：</span><br>
+<span>steam lab</span><br>
+<span>robo recall</span><br>
+<span>gun club vr（Oculus版）</span><br>
+<span>各类I社VR黄油等</span><br>
+<span>延迟：</span><br>
+<span>手柄定位没有任何能够体感到的延迟，也没有像VD串流开启分片编码和手柄预测后会产生的定位随机抖动问题。</span><br>
+<span>震动功能基本能正常工作，steam lab 射箭小游戏拉弓和robo recall的后座震感体验完整，只有在Gun Club VR中出现了像VD串流那样震动时不时消失的问题。</span><br>
+<span>估摸着延迟应该至少低于20ms，而VD的HEVC串流至少在30~40ms</span><br>
+<span>其他的一些问题：</span><br>
+<span>Gun Club VR中震动反馈手感不如Quest原生，可能是因为细微的延迟导致。</span><br>
+<span>Gun Club VR中用扳机键上膛的时候判定相对Quest原生非常严格，需要更长的按压时间才能判定出来，通过安装Revive可以解决这个问题，至于为什么Revive能够解决这个问题，尚不清楚。</span><br>
+<span>画面：</span><br>
+<span>就显示分辨率、清晰度而言，远不如Quest原生的效果，这主要应该是因为识别成Rift S，默认按1440P的分辨率渲染的原因。用STEAM VR或游戏自带的设置开启超采样之后有非常明显的提升，基本可以达到和原生非常接近的效果，但是因为是串流图像，图像边缘依然会没有原生那么“锐利”。串流图像当然是经过压缩的，在GUN CLUB VR的夜间战斗中可以很明显地感受到黑色背景中的压缩噪点，但是在一般的色彩下效果很不错。对比VD的串流，完全没有因为压缩而带来的色块出现。色彩信息也相对来说比较完整，没有VD串流那样明显的偏色</span><br>
+<span>性能：</span><br>
+<span>这个应该需要重点说，在一些情况下，对比VD串流，Oculus Link对显卡性能似乎存在额外的开销，特别是在I社几款VR黄油的测试中，帧率下降明显，上下晃动时出现了oculus帧率不足时特有的ASW1.0插帧波纹。</span><br>
+<img src="https://ftp.bmp.ovh/imgs/2019/11/b5fcf5757ff50e48.png" title="https://ftp.bmp.ovh/imgs/2019/11/b5fcf5757ff50e48.png"><br>
+<span>其次是在robo recall中，用Revive+Steam VR（单眼渲染分辨率锁定1440*1600）同特效下能获得比用oculus客户端启动时更高的帧率。</span><br>
+<span>如果是对比Revive+Steam VR和VD的串流性能的话，则是Revive+Steam VR更胜一筹。</span><br>
+<span>尚不清楚性能下降的原因，或许和两个平台不同的插帧算法有关。</span><br>
+<span>整体体验感想：</span><br>
+<span>一开始楼主以为这Oculus Link能够提供非常完整的PCVR体验，但是现在来看依然存在不少问题。</span><br>
+<span>而且由于PCVR端的游戏没有固定注视点渲染的特性以及压缩数据带来的画面细节损耗，导致对画质主观感受的提升并不是很明显。在robo recall这样的游戏中，Quest原生的锐利画面对比1060带来的特效和高多边形建模带来的画质，前者在主观上的感受是要更好的，毕竟阴影再丰富，模型再精致，一糊就啥都看不清了。</span><br>
+<span>相对于VD的无线串流来说Oculus Link在画面上的提升也不算特别大，不足以抵消无线带来的优势。</span><br>
+<span>当然以上的感受是因为楼主只有1060，如果是2080ti的用户，大可把超采样级别调的很高来缓解这个问题。</span><br>
+<span>如果今后VD串流能够解决手柄预测和切片编码所带来的随机抖动问题，或许会比Oculus Link更为实用，毕竟无线是最大的体验提升。</span><br>
+<span>最后要总结一下的话，Oculus Link对于Quest来说主要还是起一个补充作用，让Quest能够在操作延迟上基本没有问题的前提下体验到PCVR上的内容，而对于那些已经移植到移动端，甚至有crossbuy的游戏来说，楼主还是觉得玩移动版是体验最好的。</span><br>
+<span>ps. Quest的电池温度超过43度时会关闭充电的问题在Oculus Link上没有出现，多次查看电量后发现，应该是限制了充电功率或者充电时间，毕竟串流消耗的电量肯定要低于自己处理，链接PC游玩了大概2小时后，电量下降了10%左右。</span><br>
+</p><p><b>走走玩: </b><br>
+<span>谢谢楼主的帖子，看来beta版本还是一般般。我没看懂那个固定注视点渲染的，Rift S是有固定注视点渲染的么？所以画质问题是PCVR源的问题还是这个有线串流的问题</span><br>
+</p><p><b>kraxia: </b><br>
+<span>感谢评测，这样的评测帖等了很久啦~感觉现在最大的问题是需要一根足够长的线，还是要等官方出啊。VD我家不知什么问题，无论如何也连不上，不管怎么开vpn或者换线加速器都没用，放弃了。ALVR效果完全不行。</span><br>
+</p><p><b>droople: </b><br>
+<span>谢谢楼主，有和rift s的对比测试吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span> 本帖最后由 dumplingpro 于 2019-12-30 13:55 编辑 </span><br>
+<span>走走玩 发表于 2019-12-30 10:58</span><br>
+<span>谢谢楼主的帖子，看来beta版本还是一般般。我没看懂那个固定注视点渲染的，Rift S是有固定注视点渲染的么？ ...</span><br>
+<span>Quest的固定注视点渲染，是一种游戏优化手段，利用人眼实际清晰视角只有60度左右的特性，只高清渲染画面中心，缩水视野边缘的画质，毕竟只有手机底子的性能，性能必须精打细算。</span><br>
+<span>PCVR也有一种注视点渲染，需要20系列显卡支持（可变速率着色），正常来说是搭配眼球追踪使用，眼睛看到哪里高清到哪里，但眼追没有普及。小派系列，在没有眼追的情况下，也可以开固定注视点渲染，小派视角极大，但多出来的范围都是余光范围，所以画面中间全分辨率，余光区域低分辨率渲染。</span><br>
+</p><p><b>a8610853: </b><br>
+<span>走走玩 发表于 2019-12-30 10:58</span><br>
+<span>谢谢楼主的帖子，看来beta版本还是一般般。我没看懂那个固定注视点渲染的，Rift S是有固定注视点渲染的么？ ...</span><br>
+<span>串流问题 新beta版可以用debug工具调串流画质 最高画质需要2070+ 中等画质1070+</span><br>
+</p><p><b>a8610853: </b><br>
+<span>kraxia 发表于 2019-12-30 12:13</span><br>
+<span>感谢评测，这样的评测帖等了很久啦~感觉现在最大的问题是需要一根足够长的线，还是要等官方出啊。VD我家不 ...</span><br>
+<span>官方线已出，不过挺贵的。</span><br>
+<span>vd不能纯本地串流，必须联网验证才能找到主机。主机和quest都需要**。</span><br>
+</p><p><b>kraxia: </b><br>
+<span>a8610853 发表于 2019-12-30 14:31</span><br>
+<span>官方线已出，不过挺贵的。</span><br>
+<span>vd不能纯本地串流，必须联网验证才能找到主机。主机和quest都需要**。 ...</span><br>
+<span>我是有梯子的，然而就是不行，可能是系统或者奇怪的软件冲突，我联系VD官方客服也没搞定。不过最近机子有点吃灰……回头弄根官方的线好了</span><br>
+</p><p><b>真田丸: </b><br>
+<span>我想问下如果想在客厅玩pcvr，是不是必须在客厅再配台pc？和客厅相距10米的书房pc是不是没法用了？</span><br>
+</p><p><b>a8610853: </b><br>
+<span>真田丸 发表于 2019-12-31 08:59</span><br>
+<span>我想问下如果想在客厅玩pcvr，是不是必须在客厅再配台pc？和客厅相距10米的书房pc是不是没法用了？ ...</span><br>
+<span>不用 理论上光纤的主动USB线可以达到250m左右的实用距离。主要看你能不能买到合适的线。</span><br>
+</p><p><b>走走玩: </b><br>
+<span>a8610853 发表于 2019-12-30 14:28</span><br>
+<span>串流问题 新beta版可以用debug工具调串流画质 最高画质需要2070+ 中等画质1070+ ...</span><br>
+<span>这个线5Gbps带宽的type-C那种线应该可以了吧.</span><br>
+<span>感觉原装的5米线太贵了，3米的线还是有点短</span><br>
+</p><p><b>rinkzea: </b><br>
+<span> 本帖最后由 rinkzea 于 2019-12-31 12:30 编辑 </span><br>
+<span>droople 发表于 2019-12-30 13:17</span><br>
+<span>谢谢楼主，有和rift s的对比测试吗？</span><br>
+<span>----发送自 OnePlus GM1910,Android 10</span><br>
+<span>简单说下的话：</span><br>
+<span>仅就OC原生游戏，不用debug工具调串流清晰度而言，</span><br>
+<span>1、延迟，差距几乎没有。</span><br>
+<span>2、性能，这个有些迷，要看游戏优化。部分OC独占游戏如Stormland的优化都不太行，有5-10帧的差距。猜测是因为串流视频压缩需要额外消耗资源导致的。</span><br>
+<span>3、画质，差距较明显。Quest本身有纱窗，串流画面又有一点模糊，OLED的暗色优势，在黑色场景里反而会出现渐变不明显的时候出现方块的情况（不会很影响整体观感）。整体评价的话，大概可以类别为比CV1好一些。Rift S的纱窗不明显，也不会有压缩。72hz与80hz刷新率在快速游戏里面会有细微差别。</span><br>
+<span>4、定位，差别很小。Rift S在靠近脸部时的定位比Quest要稳定一些，其他情况下基本无差别。</span><br>
+<span>5、舒适度，Rift S完爆Quest几条街。就算是DAS魔改的Quest也就是还可以的程度，更何况Quest还要处理USB线在侧面容易扯到的问题</span><br>
+<span>如果主要玩PCVR，那Rift S肯定更好，399美刀的价位上没有对手。</span><br>
+<span>如果考虑泛用性，Quest更好，毕竟无线还是挺爽的。而且可以做影音机使用，虽然长时间戴不是太舒服。然后无线串流玩黄油，因为无线所以自己可以用更多姿势来代入，这大概也算是个优势</span><br>
+</p><p><b>a8610853: </b><br>
+<span>走走玩 发表于 2019-12-31 11:42</span><br>
+<span>这个线5Gbps带宽的type-C那种线应该可以了吧.</span><br>
+<span>感觉原装的5米线太贵了，3米的线还是有点短 ...</span><br>
+<span>是的。满足要求就行，原装的优势无非在于用了光纤更细更轻便。</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>搭车问quest下ALVR和virtual desk有多大差别？只用过ALVR玩space engine，明明分辨率已经设置成quest的分辨率了画面还是一言难尽</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>真田丸 发表于 2019-12-31 08:59</span><br>
+<span>我想问下如果想在客厅玩pcvr，是不是必须在客厅再配台pc？和客厅相距10米的书房pc是不是没法用了？ ...</span><br>
+<span>用延长线啊，有线VR都可以用DP+USB延长线拉到客厅，只不过线质量要够好。</span><br>
+<span>就算是INDEX小派之类的高端的有线VR，都可以，鬼佬有人拉了十几米光纤DP线，机器楼上，人在楼下。</span><br>
+</p><p><b>droople: </b><br>
+<span>rinkzea 发表于 2019-12-31 12:26:02</span><br>
+<span>谢谢啦</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1866908[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>话说国内还有啥好用的同步盘？！</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>话说国内还有啥好用的同步盘？！</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:10:33 +0000</lastBuildDate>
+    <item>
+      <title>话说国内还有啥好用的同步盘？！[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854872-1-1.html</link>
+      <description>话说国内还有啥好用的同步盘？！&#13;
+ 本帖最后由 顾晓梦 于 2019-8-21 11:30 编辑 
+
+因为几台电脑共享，还需要备份。一直很依赖同步盘
+&#13;
+对容量要求不大
+&#13;
+试过好多
+&#13;
+ONEDRIVER，这玩意常年抽风，也不太好用
+&#13;
+dropbox，用过阵，后来还得用梯，就懒得折腾了
+&#13;
+金山快盘，这个特好用，然而被金山给关了
+&#13;
+然后这些年一直用坚果云，也一直挺满意
+&#13;
+可是最近坚果云脑抽的自动更新了个新版本，这新版本对老版本的预设有BUG，导致软件要全部重新合并一遍……而我VIP又用完暂时没需求，就用免费版。所以免费流量也就马上没了
+&#13;
+然后我去和他们客服吵了两天，客服还是说没办法帮我解决。虽说重买VIP就能解决，可是吵了两天让我很不爽，明明是他们的BUG
+&#13;
+所以国内还有类似的同步盘好用的么？不行我还得回去舔坚果云真香了……</description>
+      <content:encoded><![CDATA[<p><b>顾晓梦: </b><br>
+<span>话说国内还有啥好用的同步盘？！</span><br>
+<span> 本帖最后由 顾晓梦 于 2019-8-21 11:30 编辑 </span><br>
+<span>因为几台电脑共享，还需要备份。一直很依赖同步盘</span><br>
+<span>对容量要求不大</span><br>
+<span>试过好多</span><br>
+<span>ONEDRIVER，这玩意常年抽风，也不太好用</span><br>
+<span>dropbox，用过阵，后来还得用梯，就懒得折腾了</span><br>
+<span>金山快盘，这个特好用，然而被金山给关了</span><br>
+<span>然后这些年一直用坚果云，也一直挺满意</span><br>
+<span>可是最近坚果云脑抽的自动更新了个新版本，这新版本对老版本的预设有BUG，导致软件要全部重新合并一遍……而我VIP又用完暂时没需求，就用免费版。所以免费流量也就马上没了</span><br>
+<span>然后我去和他们客服吵了两天，客服还是说没办法帮我解决。虽说重买VIP就能解决，可是吵了两天让我很不爽，明明是他们的BUG</span><br>
+<span>所以国内还有类似的同步盘好用的么？不行我还得回去舔坚果云真香了……</span><br>
+</p><p><b>kunimihiro: </b><br>
+<span>有个叫syncthing的软件（国外开发的，但国内可用），基于p2p传输，可以起到类似同步盘的效果（需要同步的两端同时开启，并没有云段存储）</span><br>
+<span>安装简单，不需要复杂的IP和端口设置，可以穿内网，管理界面是网页形式的。但设置同步文件夹没有坚果云那么方便。同步的规则有多种可选。</span><br>
+<span>免费。</span><br>
+<span>https://syncthing.net/</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>自己架nas</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>kunimihiro 发表于 2019-8-21 11:38</span><br>
+<span>有个叫syncthing的软件（国外开发的，但国内可用），基于p2p传输，可以起到类似同步盘的效果（需要同步的两 ...</span><br>
+<span>哦，这个东西对不需要版本迭代的小团队倒是挺有用</span><br>
+<span>我这里到还是需要云端中转和备份的</span><br>
+<span>还是感谢推荐</span><br>
+</p><p><b>like0036: </b><br>
+<span>群晖自带的同步挺好用的= =</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>你们都用NAS了么，nas没啥用啊，还占地方，还不如我回去真香呢……</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>私有云啊，很多的，比如seafile。</span><br>
+<span>或者你自建一个gitlab来保存程序文件呗</span><br>
+</p><p><b>sirlion: </b><br>
+<span>电信的家庭云啊，电信宽带基本都送容量的，速度又快又免费，我的套餐送了10T，套餐不一样送的不一样</span><br>
+</p><p><b>月夜凝雪: </b><br>
+<span>sirlion 发表于 2019-08-21 12:35:38</span><br>
+<span>电信的家庭云啊，电信宽带基本都送容量的，速度又快又免费，我的套餐送了10T，套餐不一样送的不一样 ...我用了那么多年电信都不知道这东西</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span> 本帖最后由 qieyifonger 于 2019-8-21 13:13 编辑 </span><br>
+<span>小米云服务，PC端意外的好用，同步和稳定性都不错，除了空间大小没有任何限制</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>顾晓梦 发表于 2019-8-21 11:44</span><br>
+<span>哦，这个东西对不需要版本迭代的小团队倒是挺有用</span><br>
+<span>我这里到还是需要云端中转和备份的</span><br>
+<span>我三个vps上都挂了syncthing，作为中转和备份，没毛病</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>sirlion 发表于 2019-8-21 12:35</span><br>
+<span>电信的家庭云啊，电信宽带基本都送容量的，速度又快又免费，我的套餐送了10T，套餐不一样送的不一样 ...</span><br>
+<span>我也是刚知道这个东西，不过我看了下，这个是云盘啊，不是同步盘啊</span><br>
+<span>云盘可选的多了</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>qieyifonger 发表于 2019-8-21 13:11</span><br>
+<span>小米云服务，PC端意外的好用，同步和稳定性都不错，除了空间大小没有任何限制</span><br>
+<span>—— 来自 Xiaomi Redmi K20 ...</span><br>
+<span>小米云，好像也不是同步盘吧</span><br>
+<span>云盘有很多选择</span><br>
+</p><p><b>sirlion: </b><br>
+<span>顾晓梦 发表于 2019-8-21 11:04</span><br>
+<span>我也是刚知道这个东西，不过我看了下，这个是云盘啊，不是同步盘啊</span><br>
+<span>云盘可选的多了 ...</span><br>
+<span>你看的是天翼云，我说的是家庭云，家庭云就是个普通的同步盘啊</span><br>
+<span>而且天翼云和百度云一样的操作界面，也是带同步盘功能的</span><br>
+</p><p><b>月千一夜: </b><br>
+<span>可能还真就只有坚果云…</span><br>
+<span>— from Sony G8441, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>sirlion 发表于 2019-8-21 17:51</span><br>
+<span>你看的是天翼云，我说的是家庭云，家庭云就是个普通的同步盘啊</span><br>
+<span>而且天翼云和百度云一样的操作界面，也是 ...</span><br>
+<span>就是看的家庭云啊</span><br>
+<span>要手动点上传的，这种都是云盘啊</span><br>
+<span>同步盘是设定文件夹，文件夹里的文件添加修改后全部自动同步</span><br>
+<span>百度云的同步盘功能早取消好几年了</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>我自己找了个同步盘</span><br>
+<span>亿方云</span><br>
+<span>这个倒是能同步，速度容量都够大</span><br>
+<span>但这个软件有点…………莫名，非要问你是什么公司的同步用，然后就强制自动创建了个同步文件夹……而且不能选择性同步，这种设计是谁想出来的……</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>顾晓梦 发表于 2019-8-21 15:07</span><br>
+<span>小米云，好像也不是同步盘吧</span><br>
+<span>云盘有很多选择</span><br>
+<span>小米云服务PC端带同步功能，算是白送的，哈哈～</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>顾晓梦 发表于 2019-8-21 11:44</span><br>
+<span>哦，这个东西对不需要版本迭代的小团队倒是挺有用</span><br>
+<span>我这里到还是需要云端中转和备份的</span><br>
+<span>但是syncthing有Version Control的功能啊。</span><br>
+<span>https://docs.syncthing.net/users/versioning.html</span><br>
+<span>2.15. File Versioning</span><br>
+<span>Syncthing supports archiving the old version of a file when it is deleted or replaced with a newer version from the cluster. This is called “file versioning” and uses one of the available versioning strategies described below. File versioning is configured per folder, on a per-device basis, and defaults to “no file versioning”, i.e. no old copies of files are kept.</span><br>
+</p><p><b>BRRM: </b><br>
+<span>------</span><br>
+</p><p><b>solaris40: </b><br>
+<span>git</span><br>
+</p><p><b>netplaying: </b><br>
+<span>百度云同步盘几年没更新了但是最后一版一直都能用，如果你是百度云会员的话空间和速度都还可以，支持手动选择需要同步的文件夹。</span><br>
+<span>有回收站，不过没有历史版本功能。</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>qieyifonger 发表于 2019-8-22 00:16</span><br>
+<span>小米云服务PC端带同步功能，算是白送的，哈哈～</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next ...</span><br>
+<span>哦，有文件夹自动同步，我就在手机上看了看</span><br>
+</p><p><b>顾晓梦: </b><br>
+<span>netplaying 发表于 2019-8-22 01:35</span><br>
+<span>百度云同步盘几年没更新了但是最后一版一直都能用，如果你是百度云会员的话空间和速度都还可以，支持手动选 ...</span><br>
+<span>啊，这玩意还开着？我以为已经关了呢</span><br>
+</p><p><b>qieyifonger: </b><br>
+<span>顾晓梦 发表于 2019-8-22 11:04</span><br>
+<span>哦，有文件夹自动同步，我就在手机上看了看</span><br>
+<img src="https://wx3.sinaimg.cn/mw690/4968805bly1g68aicr3wej20ha0jdt9x.jpg" title="https://wx3.sinaimg.cn/mw690/4968805bly1g68aicr3wej20ha0jdt9x.jpg"><br>
+</p><p><b>nexus1: </b><br>
+<span>梨叔在开发这玩意，好像年内上市？</span><br>
+</p><p><b>bushfu: </b><br>
+<span>还是在用坚果云……</span><br>
+</p><p><b>bbpoo: </b><br>
+<span>Nas加Ali DNS</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854872[0-50]</guid>
+    </item>
+  </channel>
+</rss>

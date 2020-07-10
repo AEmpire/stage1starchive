@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>黑群晖磁盘碎片整理可用空间变少</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>黑群晖磁盘碎片整理可用空间变少</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:04:26 +0000</lastBuildDate>
+    <item>
+      <title>黑群晖磁盘碎片整理可用空间变少[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1914835-1-1.html</link>
+      <description>黑群晖磁盘碎片整理可用空间变少&#13;
+ 本帖最后由 暗影翔 于 2020-2-20 15:49 编辑 
+
+黑群晖整理磁盘碎片，然后杯具发生了。原先还有200多g可用空间，整理了1个小时，发现可用空间只有不到70g了，赶紧停止整理。
+&#13;
+我的文件系统时btrfs。上网搜加dsm的提示，如果有共享文件夹快照，会造成可用空间变少。可是这个程度也太多了。
+&#13;
+没有装快照软件，进putty查各文件夹使用情况，@文件夹占用空间正常，最大也就几个g。
+&#13;
+占用最多的就是qb所在的docker文件夹。
+&#13;
+ash-4.3# sudo du -h -d1
+&#13;
+199M    ./@database
+&#13;
+12K   ./@S2S
+&#13;
+421M    ./@appstore
+&#13;
+3.8M    ./@eaDir
+&#13;
+19G   ./photo
+&#13;
+0       ./@webdav
+&#13;
+1.5T    ./docker
+&#13;
+1.6G    ./@docker
+&#13;
+8.0K    ./@sharesnap
+&#13;
+0       ./@tmp
+&#13;
+1.6T    .
+&#13;
+求助该如何查出元凶。
+&#13;
+是因为未整理完成所以可用空间变少么？
+&#13;
+目前正在紧急把大的东西拷出去，然后再次整理看看情况如何。
+&#13;
+---------------------
+&#13;
+有个大的目录，里面都是小文件，拷贝过程中，磁盘碎片依然在减少。先暂停这个拷贝。找了几个大文件拷贝出来删除。然后再继续拷贝这个小文件的大目录，现在可用空间不减少了。</description>
+      <content:encoded><![CDATA[<p><b>暗影翔: </b><br>
+<span>黑群晖磁盘碎片整理可用空间变少</span><br>
+<span> 本帖最后由 暗影翔 于 2020-2-20 15:49 编辑 </span><br>
+<span>黑群晖整理磁盘碎片，然后杯具发生了。原先还有200多g可用空间，整理了1个小时，发现可用空间只有不到70g了，赶紧停止整理。</span><br>
+<span>我的文件系统时btrfs。上网搜加dsm的提示，如果有共享文件夹快照，会造成可用空间变少。可是这个程度也太多了。</span><br>
+<span>没有装快照软件，进putty查各文件夹使用情况，@文件夹占用空间正常，最大也就几个g。</span><br>
+<span>占用最多的就是qb所在的docker文件夹。</span><br>
+<span>ash-4.3# sudo du -h -d1</span><br>
+<span>199M    ./@database</span><br>
+<span>12K   ./@S2S</span><br>
+<span>421M    ./@appstore</span><br>
+<span>3.8M    ./@eaDir</span><br>
+<span>19G   ./photo</span><br>
+<span>0       ./@webdav</span><br>
+<span>1.5T    ./docker</span><br>
+<span>1.6G    ./@docker</span><br>
+<span>8.0K    ./@sharesnap</span><br>
+<span>0       ./@tmp</span><br>
+<span>1.6T    .</span><br>
+<span>求助该如何查出元凶。</span><br>
+<span>是因为未整理完成所以可用空间变少么？</span><br>
+<span>目前正在紧急把大的东西拷出去，然后再次整理看看情况如何。</span><br>
+<span>---------------------</span><br>
+<span>有个大的目录，里面都是小文件，拷贝过程中，磁盘碎片依然在减少。先暂停这个拷贝。找了几个大文件拷贝出来删除。然后再继续拷贝这个小文件的大目录，现在可用空间不减少了。</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>在拷零碎小文件的时候，可用空间也在减少，逐渐变成了0</span><br>
+</p><p><b>可防可控: </b><br>
+<span>怎么回事？</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>可防可控 发表于 2020-2-20 15:31</span><br>
+<span>怎么回事？</span><br>
+<span>不知道才上来提问的。</span><br>
+<span>看网上说的，btrfs是不怎么需要碎片整理的。然而我已经整理了一些了。</span><br>
+</p><p><b>可防可控: </b><br>
+<span>暗影翔 发表于 2020-2-20 15:33</span><br>
+<span>不知道才上来提问的。</span><br>
+<span>看网上说的，btrfs是不怎么需要碎片整理的。然而我已经整理了一些了。</span><br>
+<span>嗯。。。我只用过ext4</span><br>
+</p><p><b>hein: </b><br>
+<span>找块盘备份，全盘重做XD</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1914835[0-50]</guid>
+    </item>
+  </channel>
+</rss>

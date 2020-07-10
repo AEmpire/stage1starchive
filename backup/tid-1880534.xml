@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>【求助】装上显卡后进不了BIOS了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>【求助】装上显卡后进不了BIOS了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 14:56:42 +0000</lastBuildDate>
+    <item>
+      <title>【求助】装上显卡后进不了BIOS了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1880534-1-1.html</link>
+      <description>【求助】装上显卡后进不了BIOS了&#13;
+ 本帖最后由 Pettabuz 于 2019-12-6 08:53 编辑 
+
+上周刚装的显卡，索泰1660
+&#13;
+装上之后开机就一长三短滴滴，一开始没太在意因为使用起来都正常，平时也都是待机很少重启就忘了
+&#13;
+今天重启的时候突然发现还在响，查了一下说是显卡有问题，打开机箱重新装了一下之后还是响。。
+&#13;
+然后我看了一下设备管理器，里面只有1660一张卡，英特尔的核显不见了
+&#13;
+主板是华硕Prime B360M-A，CPU是i5-9400，显示器插的是显卡的HDMI接口
+&#13;
+查到一个说法是BIOS里面可能没有设置支持多显卡，于是想进BIOS改一下，这时候才发现开机不管怎么按del都进不去
+&#13;
+以前只有核显的时候开机会跳华硕的logo，转圈圈进系统；现在装上显卡之后开机就是黑屏直接跳到Win10登录界面才亮，不知道进不去BIOS和这个有没有关系
+&#13;
+也有说电源功率不足的，但我的是450W，1660应该够了吧
+&#13;
+有没有哪位经历过类似的情况，能说说怎么回事吗……还有应该怎么处理？
+&#13;
+补充#1：用Win10自带的高级启动点选进入UEFI也进不去，直接重启回到Win10登录界面
+&#13;
+补充#2：刚才把HDMI从显卡上拔下来插在了主板的口上，可以进入BIOS了，把默认显卡改成了PEG，但是开机还是会一长三短，HDMI插回显卡上也还是进不了BIOS……</description>
+      <content:encoded><![CDATA[<p><b>Pettabuz: </b><br>
+<span>【求助】装上显卡后进不了BIOS了</span><br>
+<span> 本帖最后由 Pettabuz 于 2019-12-6 08:53 编辑 </span><br>
+<span>上周刚装的显卡，索泰1660</span><br>
+<span>装上之后开机就一长三短滴滴，一开始没太在意因为使用起来都正常，平时也都是待机很少重启就忘了</span><br>
+<span>今天重启的时候突然发现还在响，查了一下说是显卡有问题，打开机箱重新装了一下之后还是响。。</span><br>
+<span>然后我看了一下设备管理器，里面只有1660一张卡，英特尔的核显不见了</span><br>
+<span>主板是华硕Prime B360M-A，CPU是i5-9400，显示器插的是显卡的HDMI接口</span><br>
+<span>查到一个说法是BIOS里面可能没有设置支持多显卡，于是想进BIOS改一下，这时候才发现开机不管怎么按del都进不去</span><br>
+<span>以前只有核显的时候开机会跳华硕的logo，转圈圈进系统；现在装上显卡之后开机就是黑屏直接跳到Win10登录界面才亮，不知道进不去BIOS和这个有没有关系</span><br>
+<span>也有说电源功率不足的，但我的是450W，1660应该够了吧</span><br>
+<span>有没有哪位经历过类似的情况，能说说怎么回事吗……还有应该怎么处理？</span><br>
+<span>补充#1：用Win10自带的高级启动点选进入UEFI也进不去，直接重启回到Win10登录界面</span><br>
+<span>补充#2：刚才把HDMI从显卡上拔下来插在了主板的口上，可以进入BIOS了，把默认显卡改成了PEG，但是开机还是会一长三短，HDMI插回显卡上也还是进不了BIOS……</span><br>
+</p><p><b>各种浪: </b><br>
+<span>不要用dp口，换hdmi口。或者先用核显进去改一下再上独显。</span><br>
+</p><p><b>kerorokun: </b><br>
+<span>各种浪 发表于 2019-12-6 06:54</span><br>
+<span>不要用dp口，换hdmi口。或者先用核显进去改一下再上独显。</span><br>
+<span>dp都那么多年了，怎么还有奇怪的bug？</span><br>
+</p><p><b>風駿: </b><br>
+<span>kerorokun 发表于 2019-12-6 07:00</span><br>
+<span>dp都那么多年了，怎么还有奇怪的bug？</span><br>
+<span>你好有的，我还遇到过插DP口直接不能开机的</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>各种浪 发表于 2019-12-6 06:54</span><br>
+<span> 不要用dp口，换hdmi口。或者先用核显进去改一下再上独显。</span><br>
+<span>我还就是一直用HDMI的……显示器比较老正打算换……</span><br>
+</p><p><b>Tr火药味: </b><br>
+<span>您也是DP接口受害者</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>DP你撑住呀，你可是未来的主角，不能输给HDMI呀！</span><br>
+</p><p><b>各种浪: </b><br>
+<span>kerorokun 发表于 2019-12-6 07:00</span><br>
+<span>dp都那么多年了，怎么还有奇怪的bug？</span><br>
+<span>n卡之前固件有问题，dp口会进系统前黑屏，nvidia在18年专门出了个软件给显卡升级固件解决这个问题</span><br>
+</p><p><b>各种浪: </b><br>
+<span>Pettabuz 发表于 2019-12-6 08:20</span><br>
+<span>我还就是一直用HDMI的……显示器比较老正打算换……</span><br>
+<span>这显卡的来历？确定没锻炼过？</span><br>
+</p><p><b>diablost3: </b><br>
+<span>風駿 发表于 2019-12-6 07:42</span><br>
+<span>你好有的，我还遇到过插DP口直接不能开机的</span><br>
+<span>发现戴尔服务器只有dp口 瑟瑟发抖</span><br>
+</p><p><b>kawa11: </b><br>
+<span>上转接口啊</span><br>
+</p><p><b>kailyan: </b><br>
+<span>进不了BIOS，电源用多久了？有没有可能是电源老化背不动新显卡了？</span><br>
+</p><p><b>Pettabuz: </b><br>
+<span>显卡就黑五在新蛋买的。。。</span><br>
+<span>电源也是前几个月才买</span><br>
+<span>目前也不影响使用，打算就这样算了。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1880534[0-50]</guid>
+    </item>
+  </channel>
+</rss>

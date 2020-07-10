@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>我发明了一种在Win7下快键暂停python方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>我发明了一种在Win7下快键暂停python方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:19:39 +0000</lastBuildDate>
+    <item>
+      <title>我发明了一种在Win7下快键暂停python方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843883-1-1.html</link>
+      <description>我发明了一种在Win7下快键暂停python方法&#13;
+ 本帖最后由 CAMUS.net 于 2019-7-3 17:09 编辑 
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/pssuspend
+&#13;
+下载并解压PsSuspend
+&#13;
+记事本输入以下内容，并保存为PyPause.bat，
+&#13;
+"X:\XXX\pssuspend64.exe" python.exe
+&#13;
+PyPause.bat右键发送到桌面快键方式，在快键方式添加快键，如CTRL+SHIFT+P
+&#13;
+记事本输入以下内容，并保存为PyResume.bat，
+&#13;
+"X:\XXX\pssuspend64.exe" -r python.exe
+&#13;
+PyResume.bat右键发送到桌面快键方式，在快键方式添加快键，如CTRL+SHIFT+R
+&#13;
+大功告成！
+&#13;
+##########################################
+&#13;
+循环内捕获p键实现在暂停
+&#13;
+import msvcrt 
+&#13;
+import time
+&#13;
+def key_x():                        #获得按键函数
+&#13;
+    if msvcrt.kbhit():            #判断是否按下键盘
+&#13;
+      ret = ord(msvcrt.getch())   #获得按键值
+&#13;
+    else:
+&#13;
+      ret = 0
+&#13;
+    return ret
+&#13;
+print("按P键，暂停。")
+&#13;
+while True:
+&#13;
+    key_p = key_x()               #调用按键函数获得按键值
+&#13;
+    if key_p in :      #判断按键是否等于P
+&#13;
+      input('按Enter继续……')   #利用输入实现提示和暂停
+&#13;
+    else:
+&#13;
+      pass
+&#13;
+    time.sleep(1)
+&#13;
+    print("你好，世界！")
+&#13;
+D:\Python\Project01\test&gt;pause2.py
+&#13;
+按p键，暂停。
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+请按任意键继续. . .
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+请按任意键继续. . .
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+Traceback (most recent call last):
+&#13;
+File "D:\Python\Project01\test\pause2.py", line 14, in &lt;module&gt;
+&#13;
+    time.sleep(1)
+&#13;
+KeyboardInterrupt
+&#13;
+D:\Python\Project01\test&gt;
+&#13;
+可是问题来了，当前窗口，按p键无效。
+&#13;
+##########################################
+&#13;
+“用win32api.GetAsyncKeyState在loop内捕捉快捷键”，非当前口也能按p暂停
+&#13;
+import win32api
+&#13;
+import time
+&#13;
+import os
+&#13;
+print("按p键，暂停。")
+&#13;
+while True:
+&#13;
+    if win32api.GetAsyncKeyState(0x50):
+&#13;
+      os.system("pause ")
+&#13;
+    else:
+&#13;
+      pass
+&#13;
+    time.sleep(1)
+&#13;
+    print("你好，世界！")
+&#13;
+D:\Python\Project01\test&gt;pause2.py
+&#13;
+按p键，暂停。
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+请按任意键继续. . .
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+请按任意键继续. . .
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+你好，世界！
+&#13;
+Traceback (most recent call last):
+&#13;
+File "D:\Python\Project01\test\pause2.py", line 14, in &lt;module&gt;
+&#13;
+    time.sleep(1)
+&#13;
+KeyboardInterrupt</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>我发明了一种在Win7下快键暂停python方法</span><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-3 17:09 编辑 </span><br>
+<span>https://docs.microsoft.com/en-us/sysinternals/downloads/pssuspend</span><br>
+<span>下载并解压PsSuspend</span><br>
+<span>记事本输入以下内容，并保存为PyPause.bat，</span><br>
+<span>"X:\XXX\pssuspend64.exe" python.exe</span><br>
+<span>PyPause.bat右键发送到桌面快键方式，在快键方式添加快键，如CTRL+SHIFT+P</span><br>
+<span>记事本输入以下内容，并保存为PyResume.bat，</span><br>
+<span>"X:\XXX\pssuspend64.exe" -r python.exe</span><br>
+<span>PyResume.bat右键发送到桌面快键方式，在快键方式添加快键，如CTRL+SHIFT+R</span><br>
+<span>大功告成！</span><br>
+<span>##########################################</span><br>
+<span>循环内捕获p键实现在暂停</span><br>
+<span>import msvcrt </span><br>
+<span>import time</span><br>
+<span>def key_x():                        #获得按键函数</span><br>
+<span>    if msvcrt.kbhit():            #判断是否按下键盘</span><br>
+<span>      ret = ord(msvcrt.getch())   #获得按键值</span><br>
+<span>    else:</span><br>
+<span>      ret = 0</span><br>
+<span>    return ret</span><br>
+<span>print("按P键，暂停。")</span><br>
+<span>while True:</span><br>
+<span>    key_p = key_x()               #调用按键函数获得按键值</span><br>
+<span>    if key_p in :      #判断按键是否等于P</span><br>
+<span>      input('按Enter继续……')   #利用输入实现提示和暂停</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    print("你好，世界！")</span><br>
+<span>D:\Python\Project01\test>pause2.py</span><br>
+<span>按p键，暂停。</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>Traceback (most recent call last):</span><br>
+<span>File "D:\Python\Project01\test\pause2.py", line 14, in <module></span><br>
+<span>    time.sleep(1)</span><br>
+<span>KeyboardInterrupt</span><br>
+<span>D:\Python\Project01\test></span><br>
+<span>可是问题来了，当前窗口，按p键无效。</span><br>
+<span>##########################################</span><br>
+<span>“用win32api.GetAsyncKeyState在loop内捕捉快捷键”，非当前口也能按p暂停</span><br>
+<span>import win32api</span><br>
+<span>import time</span><br>
+<span>import os</span><br>
+<span>print("按p键，暂停。")</span><br>
+<span>while True:</span><br>
+<span>    if win32api.GetAsyncKeyState(0x50):</span><br>
+<span>      os.system("pause ")</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    print("你好，世界！")</span><br>
+<span>D:\Python\Project01\test>pause2.py</span><br>
+<span>按p键，暂停。</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>Traceback (most recent call last):</span><br>
+<span>File "D:\Python\Project01\test\pause2.py", line 14, in <module></span><br>
+<span>    time.sleep(1)</span><br>
+<span>KeyboardInterrupt</span><br>
+</p><p><b>hanyuwei70: </b><br>
+<span>所以为什么不直接用PID暂停执行呢？而且如果有多个Python进程怎么办？</span><br>
+</p><p><b>71888675: </b><br>
+<span>看起来能挂起任意进程？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>blueshift: </b><br>
+<span>用win32api.GetAsyncKeyState在loop内捕捉快捷键退出不好吗</span><br>
+</p><p><b>柯哀lv王道: </b><br>
+<span>很久以前帮别人做一个小东西需要随时控制暂停进程，当时搜索出找的方法就是这个，简单粗暴</span><br>
+</p><p><b>jctc: </b><br>
+<span>老哥稳！今年的图灵奖不知道有没有发，有发肯定是你了！</span><br>
+</p><p><b>车欠: </b><br>
+<span>悄悄告诉lz，任务管理器还可以暂停进程</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zz_mps: </b><br>
+<span>艹，又是你</span><br>
+<span>         让大家见识见识，什么叫专业设计。 ... 1 2 3 4 5 6</span><br>
+</p><p><b>zilcH40: </b><br>
+<span>jctc 发表于 2019-07-03 08:20:26</span><br>
+<span>老哥稳！今年的图灵奖不知道有没有发，有发肯定是你了！今年的已经发给深度学习了，等明年吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>hang_on: </b><br>
+<span>PsSetCreateProcessNotifyRoutine挂住进程启动后PsSuspendProcess(pEProcess)，了解下，全自动，说起来你不信，将近二十年前瑞星就是这么做的</span><br>
+</p><p><b>RAMDA: </b><br>
+<span>我怀疑你对“发明”这个词的理解与其他人不一样</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>lvseqiji: </b><br>
+<span>启动别人写的程序挂起进程＝发明</span><br>
+<span>Bravo</span><br>
+<span>—— 来自 HUAWEI JSN-AL00a, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-3 13:49 编辑 </span><br>
+<span>blueshift 发表于 2019-7-3 07:47</span><br>
+<span>用win32api.GetAsyncKeyState在loop内捕捉快捷键退出不好吗</span><br>
+<span>因为不会用，以前在AutoHotkey，只要“键::pause”语句就能实现按对应键暂停。</span><br>
+<span>以前网上找了一下用msvcrt库的方法，没有搞定，不过今天终于搞定了。</span><br>
+<span>import msvcrt </span><br>
+<span>import time</span><br>
+<span>def key_x():                        #获得按键函数</span><br>
+<span>    if msvcrt.kbhit():            #判断是否按下键盘</span><br>
+<span>      ret = ord(msvcrt.getch())   #获得按键值</span><br>
+<span>    else:</span><br>
+<span>      ret = 0</span><br>
+<span>    return ret</span><br>
+<span>print("按P键，暂停。")</span><br>
+<span>while True:</span><br>
+<span>    key_p = key_x()               #调用按键函数获得按键值</span><br>
+<span>    if key_p in :      #判断按键是否等于P</span><br>
+<span>      input('按Enter继续……')   #利用输入实现提示和暂停</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    print("你好，世界！")</span><br>
+<span>D:\Python\Project01\test>pause.py</span><br>
+<span>按P键，暂停。</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>按Enter继续……</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>按Enter继续……</span><br>
+</p><p><b>novem: </b><br>
+<span>车欠 发表于 2019-7-3 08:40</span><br>
+<span>悄悄告诉lz，任务管理器还可以暂停进程</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next- ...</span><br>
+<span>win7可以吗，我怎么找不到挂起</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>71888675 发表于 2019-7-3 06:27</span><br>
+<span>看起来能挂起任意进程？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+<span>是的</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>jctc 发表于 2019-7-3 08:20</span><br>
+<span>老哥稳！今年的图灵奖不知道有没有发，有发肯定是你了！</span><br>
+<span>来吧，毫无保留的来夸奖我吧！</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>lvseqiji 发表于 2019-7-3 09:33</span><br>
+<span>启动别人写的程序挂起进程＝发明</span><br>
+<span>Bravo</span><br>
+<span>没用的，就算讽刺我嘲笑我，我还是要学的。</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-3 17:10 编辑 </span><br>
+<span>blueshift 发表于 2019-7-3 07:47</span><br>
+<span>用win32api.GetAsyncKeyState在loop内捕捉快捷键退出不好吗</span><br>
+<span>我明白你的意思了，你这个好用，不是当前窗口，按键都有效。</span><br>
+<span>import win32api</span><br>
+<span>import time</span><br>
+<span>import os</span><br>
+<span>print("按p键，暂停。")</span><br>
+<span>while True:</span><br>
+<span>    if win32api.GetAsyncKeyState(0x50):</span><br>
+<span>      os.system("pause ")</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    print("你好，世界！")</span><br>
+<span>D:\Python\Project01\test>pause2.py</span><br>
+<span>按p键，暂停。</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>请按任意键继续. . .</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>你好，世界！</span><br>
+<span>Traceback (most recent call last):</span><br>
+<span>File "D:\Python\Project01\test\pause2.py", line 14, in <module></span><br>
+<span>    time.sleep(1)</span><br>
+<span>KeyboardInterrupt</span><br>
+<span>D:\Python\Project01\test></span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span> 本帖最后由 CAMUS.net 于 2019-7-3 18:26 编辑 </span><br>
+<span>blueshift 发表于 2019-7-3 07:47</span><br>
+<span>用win32api.GetAsyncKeyState在loop内捕捉快捷键退出不好吗</span><br>
+<span>大兄弟，还有一个问题，要怎么三键组合?</span><br>
+</p><p><b>fio: </b><br>
+<span>CAMUS.net 发表于 2019-7-3 18:00</span><br>
+<span>大兄弟，还有一个问题，要怎么三键组合?</span><br>
+<span>GetAsyncKeyState的参数是个int啊，你的参数直接and出来就是0x10……</span><br>
+<span>组合键要分别给三个key调用三次，最后&& 0x8000判断结果。</span><br>
+<span>如果你要用参数组合，用GetKeyboardState，传一个BYTE*(pBYTE)进去。</span><br>
+</p><p><b>车欠: </b><br>
+<span>novem 发表于 2019-7-3 13:40</span><br>
+<span>win7可以吗，我怎么找不到挂起</span><br>
+<span>记错了，是在资源监控器里面才有</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>fio 发表于 2019-7-3 18:31</span><br>
+<span>GetAsyncKeyState的参数是个int啊，你的参数直接and出来就是0x10……</span><br>
+<span>组合键要分别给三个key调用三次，最 ...</span><br>
+<span>import win32api</span><br>
+<span>import time</span><br>
+<span>import os</span><br>
+<span>print("按Ctr+Ale+p暂停。")</span><br>
+<span>while True:</span><br>
+<span>    key1 = win32api.GetAsyncKeyState(0x11)</span><br>
+<span>    key2 = win32api.GetAsyncKeyState(0x10)</span><br>
+<span>    key3 = win32api.GetAsyncKeyState(0x50)</span><br>
+<span>    if (key1 and key2 and key3):               #条件捕获Ctr+Ale+p</span><br>
+<span>      os.system("pause")</span><br>
+<span>    else:</span><br>
+<span>      pass</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    print("你好，世界！")</span><br>
+<span>这样是三键了，但好像不是很灵。</span><br>
+<span>GetKeyboardState要怎么使用，能打个代码吗？网上没找到举例子的资料</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843883[0-50]</guid>
+    </item>
+  </channel>
+</rss>

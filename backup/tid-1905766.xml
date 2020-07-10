@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>docker里qb降级方法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>docker里qb降级方法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:06:55 +0000</lastBuildDate>
+    <item>
+      <title>docker里qb降级方法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1905766-1-1.html</link>
+      <description>docker里qb降级方法&#13;
+ 本帖最后由 暗影翔 于 2019-12-26 22:28 编辑 
+
+本帖子的来源是u2会ban掉qb的4.2.0版本。
+&#13;
+本人是在dsm里用docker跑的qb实例，也不是经常升级，就是想起来就去升级一下注册表，大概2、3个月一次，用的tag是latest，然后就撞到枪口上了。到u2一看发现是这个原因，然后就折腾了一个晚上搞定了降级。因为本人只是个无能者，不敢献丑，都是到处google才找到的方法。
+&#13;
+但是今天看到了[软件] qBittorrent更新太频繁了，有没有方法能关闭呢？，所以就班门弄斧的在超能力者满地爬的s1写了这个帖子
+&#13;
+首先默认看这个帖子的人已经会用ssh远程连接了，会dsm里docker界面的基本操作。
+&#13;
+简要说一下docker下qb容器更新
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMgzT.png
+&#13;
+在这里使用导入将原配置导出，删除容器，更新注册表，导入刚才导出的配置，这样就可以更新容器里的实例了。
+&#13;
+下面进入正题
+&#13;
+docker前台的界面有个问题
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMBZj.md.png
+&#13;
+标签很长就看不清了，其中latest已经更新到4.2.0了，可是需要找4.1.9，为啥有这么多。所以需要进入命令行操作。
+&#13;
+在dsm里打开ssh链接权限
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMaQS.png
+&#13;
+之后使用你顺手的软件链接dsm，我使用的putty。
+&#13;
+之后登录，切换成root用户。不切换的话执行docker命令会提示没有权限。
+&#13;
+参照的 群晖DSM开启ROOT权限及WinSCP使用ROOT登录 这个帖子
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMdsg.png
+&#13;
+切换之后使用docker命令进行操作。
+&#13;
+docker image ls本命令是查看机器里的镜像。我当初查的时候吓了一跳，有很多镜像，后来发现是因为每次更新注册表，新的镜像就把旧镜像的tag占用了，因为repository、tag都是一样的，所以旧的tag被替代变成了&lt;none&gt;，然后在前台的页面就看不到了。我猜测旧的镜像还在并且也会占空间（后面印证了这个想法）。
+&#13;
+$ docker image rm [选项] &lt;镜像1&gt; [&lt;镜像2&gt; ...]使用这个命令删除镜像，其中镜像可以是短id、长id、镜像名、镜像摘要。最初我输入的完整id，这次写教程才发现原来可以是3个字符的短id。
+&#13;
+删除之后，可以去dockerhub查找需要的qb镜像
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMDds.png
+&#13;
+就是这样，右边的复制标签就是抓取这个镜像的命令，我们待会可以用得着。我搜索4.1.9，从右上的sort by可以选择排序方式。可以看出最新的是xxxx-ls54。
+&#13;
+因为我这里已经有了，所以演示一下怎么设定标签，命令是docker tag。
+&#13;
+https://s2.ax1x.com/2019/12/26/lEM6J0.png
+&#13;
+这个图里，我用了
+&#13;
+docker pull linuxserver/qbittorrent
+&#13;
+docker tag 43b linuxserver/qbittorrent:test抓取了qb镜像，默认的tag是latest，然后原先的（被我设定tag）latest就会被替换，tag变为&lt;none&gt;，那个created是3 weeks ago的就是我正在用的4.1.9镜像，在前台界面找不到了。然后我把这个4.1.9设定tag是test。
+&#13;
+之后我删除了linuxserver/qbittorrent:latest
+&#13;
+docker image rm linuxserver/qbittorrent:latest
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMron.png
+&#13;
+前台界面就只剩两个，然后使用tag命令将test改为latest就达成了更换qb镜像为4.1.9的目的，在容器里导入设置就可以了。如果不改tag，会提示找不到标签为latest的注册表。
+&#13;
+https://s2.ax1x.com/2019/12/26/lEMcWV.png
+&#13;
+因为是后来模拟演示的，没有按照完全必须的步骤走，中间也有点走偏了。
+&#13;
+我捋一下思路：
+&#13;
+1、删除原先tag为latest的镜像
+&#13;
+2、下载你需要的镜像，这里是4.1.9的最新版
+&#13;
+3、将下载的镜像的tag改为latest
+&#13;
+4、更换容器
+&#13;
+@truepants 
+&#13;
+本无能者献丑了
+&#13;
+参照：
+&#13;
+Docker — 从入门到实践
+&#13;
+关于 Docker 镜像的操作，看完这篇就够啦 !（上）
+&#13;
+群晖DSM开启ROOT权限及WinSCP使用ROOT登录
+&#13;
+Docker Documentation
+&#13;
+很多命令其实中文的介绍帖子讲的不透彻，但是可以满足要求，我当时弄的时候没有完全吃透中文的帖子，然后就参照了官方文档用了其他方法，比如@digest等。</description>
+      <content:encoded><![CDATA[<p><b>暗影翔: </b><br>
+<span>docker里qb降级方法</span><br>
+<span> 本帖最后由 暗影翔 于 2019-12-26 22:28 编辑 </span><br>
+<span>本帖子的来源是u2会ban掉qb的4.2.0版本。</span><br>
+<span>本人是在dsm里用docker跑的qb实例，也不是经常升级，就是想起来就去升级一下注册表，大概2、3个月一次，用的tag是latest，然后就撞到枪口上了。到u2一看发现是这个原因，然后就折腾了一个晚上搞定了降级。因为本人只是个无能者，不敢献丑，都是到处google才找到的方法。</span><br>
+<span>但是今天看到了[软件] qBittorrent更新太频繁了，有没有方法能关闭呢？，所以就班门弄斧的在超能力者满地爬的s1写了这个帖子</span><br>
+<span>首先默认看这个帖子的人已经会用ssh远程连接了，会dsm里docker界面的基本操作。</span><br>
+<span>简要说一下docker下qb容器更新</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMgzT.png" title="https://s2.ax1x.com/2019/12/26/lEMgzT.png"><br>
+<span>在这里使用导入将原配置导出，删除容器，更新注册表，导入刚才导出的配置，这样就可以更新容器里的实例了。</span><br>
+<span>下面进入正题</span><br>
+<span>docker前台的界面有个问题</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMBZj.md.png" title="https://s2.ax1x.com/2019/12/26/lEMBZj.md.png"><br>
+<span>标签很长就看不清了，其中latest已经更新到4.2.0了，可是需要找4.1.9，为啥有这么多。所以需要进入命令行操作。</span><br>
+<span>在dsm里打开ssh链接权限</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMaQS.png" title="https://s2.ax1x.com/2019/12/26/lEMaQS.png"><br>
+<span>之后使用你顺手的软件链接dsm，我使用的putty。</span><br>
+<span>之后登录，切换成root用户。不切换的话执行docker命令会提示没有权限。</span><br>
+<span>参照的 群晖DSM开启ROOT权限及WinSCP使用ROOT登录 这个帖子</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMdsg.png" title="https://s2.ax1x.com/2019/12/26/lEMdsg.png"><br>
+<span>切换之后使用docker命令进行操作。</span><br>
+<span>docker image ls本命令是查看机器里的镜像。我当初查的时候吓了一跳，有很多镜像，后来发现是因为每次更新注册表，新的镜像就把旧镜像的tag占用了，因为repository、tag都是一样的，所以旧的tag被替代变成了<none>，然后在前台的页面就看不到了。我猜测旧的镜像还在并且也会占空间（后面印证了这个想法）。</span><br>
+<span>$ docker image rm [选项] <镜像1> [<镜像2> ...]使用这个命令删除镜像，其中镜像可以是短id、长id、镜像名、镜像摘要。最初我输入的完整id，这次写教程才发现原来可以是3个字符的短id。</span><br>
+<span>删除之后，可以去dockerhub查找需要的qb镜像</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMDds.png" title="https://s2.ax1x.com/2019/12/26/lEMDds.png"><br>
+<span>就是这样，右边的复制标签就是抓取这个镜像的命令，我们待会可以用得着。我搜索4.1.9，从右上的sort by可以选择排序方式。可以看出最新的是xxxx-ls54。</span><br>
+<span>因为我这里已经有了，所以演示一下怎么设定标签，命令是docker tag。</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEM6J0.png" title="https://s2.ax1x.com/2019/12/26/lEM6J0.png"><br>
+<span>这个图里，我用了</span><br>
+<span>docker pull linuxserver/qbittorrent</span><br>
+<span>docker tag 43b linuxserver/qbittorrent:test抓取了qb镜像，默认的tag是latest，然后原先的（被我设定tag）latest就会被替换，tag变为<none>，那个created是3 weeks ago的就是我正在用的4.1.9镜像，在前台界面找不到了。然后我把这个4.1.9设定tag是test。</span><br>
+<span>之后我删除了linuxserver/qbittorrent:latest</span><br>
+<span>docker image rm linuxserver/qbittorrent:latest</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMron.png" title="https://s2.ax1x.com/2019/12/26/lEMron.png"><br>
+<span>前台界面就只剩两个，然后使用tag命令将test改为latest就达成了更换qb镜像为4.1.9的目的，在容器里导入设置就可以了。如果不改tag，会提示找不到标签为latest的注册表。</span><br>
+<img src="https://s2.ax1x.com/2019/12/26/lEMcWV.png" title="https://s2.ax1x.com/2019/12/26/lEMcWV.png"><br>
+<span>因为是后来模拟演示的，没有按照完全必须的步骤走，中间也有点走偏了。</span><br>
+<span>我捋一下思路：</span><br>
+<span>1、删除原先tag为latest的镜像</span><br>
+<span>2、下载你需要的镜像，这里是4.1.9的最新版</span><br>
+<span>3、将下载的镜像的tag改为latest</span><br>
+<span>4、更换容器</span><br>
+<span>@truepants </span><br>
+<span>本无能者献丑了</span><br>
+<span>参照：</span><br>
+<span>Docker — 从入门到实践</span><br>
+<span>关于 Docker 镜像的操作，看完这篇就够啦 !（上）</span><br>
+<span>群晖DSM开启ROOT权限及WinSCP使用ROOT登录</span><br>
+<span>Docker Documentation</span><br>
+<span>很多命令其实中文的介绍帖子讲的不透彻，但是可以满足要求，我当时弄的时候没有完全吃透中文的帖子，然后就参照了官方文档用了其他方法，比如@digest等。</span><br>
+</p><p><b>你的全家: </b><br>
+<span>docker run -d all_the_other_option_here <repo/>img_name:tag_version <command_probably_empty></span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>你的全家: </b><br>
+<span>顺带一提，我推荐aria2</span><br>
+<span>好用 简单 而且好尼玛快</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1905766[0-50]</guid>
+    </item>
+  </channel>
+</rss>

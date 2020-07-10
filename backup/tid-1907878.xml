@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>咨询：AC+AP两种方案哪种可行</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>咨询：AC+AP两种方案哪种可行</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:56:50 +0000</lastBuildDate>
+    <item>
+      <title>咨询：AC+AP两种方案哪种可行[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907878-1-1.html</link>
+      <description>咨询：AC+AP两种方案哪种可行&#13;
+如附件图，户型结构不说了，反正书房+卧室永远没WIFI信号，墙壁较多导致华硕路由刷澳版也没用，重新装修布线不可能，唯一的好处是每个房间都至少留了2个网口。准备上一个吸顶2个面板AP，网线可以换六类线，准备过年期间改造好。
+&#13;
+个人倾向第一种，AC控制器可以放外面，而且客厅多一个网口给ITV用，但是TP的客服说不建议这么做，AC控制器可能会出错，个人打算是直接上TP的AC300，千兆网口。
+&#13;
+第二种需要把AC控制器、光猫、POE交换机全部塞到弱电箱，现在弱电箱已经很满了，猜测不行。如果塞不下，比第一种方案多一根明线在外面。第二种的好处就是吸顶AP不要再配DC电源，POE直接供电。</description>
+      <content:encoded><![CDATA[<p><b>卡缪911: </b><br>
+<span>咨询：AC+AP两种方案哪种可行</span><br>
+<span>如附件图，户型结构不说了，反正书房+卧室永远没WIFI信号，墙壁较多导致华硕路由刷澳版也没用，重新装修布线不可能，唯一的好处是每个房间都至少留了2个网口。准备上一个吸顶2个面板AP，网线可以换六类线，准备过年期间改造好。</span><br>
+<span>个人倾向第一种，AC控制器可以放外面，而且客厅多一个网口给ITV用，但是TP的客服说不建议这么做，AC控制器可能会出错，个人打算是直接上TP的AC300，千兆网口。</span><br>
+<span>第二种需要把AC控制器、光猫、POE交换机全部塞到弱电箱，现在弱电箱已经很满了，猜测不行。如果塞不下，比第一种方案多一根明线在外面。第二种的好处就是吸顶AP不要再配DC电源，POE直接供电。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>预算足够的话不要上tplink，很垃圾</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>like0036: </b><br>
+<span>方案2</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>zatsuza 发表于 2020-1-6 10:45</span><br>
+<span>预算足够的话不要上tplink，很垃圾</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>这一套上TP已经要2000多了，上千兆5G网的情况下，ubnt翻倍都不止，而且都要吸顶，明线太难看只能挂面板。</span><br>
+</p><p><b>土豆麻辣人: </b><br>
+<span>想无脑搭建上mesh路由器</span><br>
+<span>想自己折腾买两个华硕路由器，再买几个华硕ap</span><br>
+</p><p><b>password: </b><br>
+<span>没必要独立AC吧</span><br>
+<span>要用TP你就用他家的AC路由一体呗</span><br>
+<span>或者直接UBNT可以 那也不用独立AC</span><br>
+<span>或者省事点用Mesh有线回程当AP用也不是不行</span><br>
+<span>图上你网口也不多的样子 那也不需要交换机</span><br>
+</p><p><b>露露缇耶: </b><br>
+<span>家用ac300没必要吧，ac100v3可以漫游</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>卡缪911: </b><br>
+<span> 本帖最后由 卡缪911 于 2020-1-6 11:15 编辑 </span><br>
+<span>password 发表于 2020-1-6 11:04</span><br>
+<span>没必要独立AC吧</span><br>
+<span>要用TP你就用他家的AC路由一体呗</span><br>
+<span>你看到的每个AP，其实那地方都有2根网线，吸顶只能走明线，那里也是双网线的，PC处也有2根，4*2=8，还多1个路由器进口，就是9口，不上交换机不行</span><br>
+<span>AC路由一体不行，梅林路由器肛需，不能细说</span><br>
+<span>想了下还是走第二种方案，客厅2根明线遮挡比较多，家里大人也不会有意见。</span><br>
+<span>卧室或书房装吸顶A不行，会被骂死的，基本无遮挡，这也是我为什么不考虑ubnt解决方案。</span><br>
+<span>TPLINK解决方案算是较方便的了，唯一问题是面板AP覆盖面太小，只能一个房间搞一个面板。</span><br>
+</p><p><b>Hibino: </b><br>
+<span> 本帖最后由 Hibino 于 2020-1-6 11:21 编辑 </span><br>
+<span>既然有网线随便买支持mesh的ap然后没信号的地方都放一个走有线回程不就行了吗，比如linksys的mr9000做主路由，然后一个口给你台式机，剩下三个口买三个velop放在没信号的地方</span><br>
+</p><p><b>暗黑破坏棍: </b><br>
+<span> 本帖最后由 暗黑破坏棍 于 2020-1-6 11:25 编辑 </span><br>
+<span>超五类 八根线够跑千兆 不用换六类</span><br>
+<span>其实AC控制器可以不放弱电箱的呀 找个网口接上交换机就可以了</span><br>
+<span>或者可以考虑用AC控制器加路由器一体机 把华硕无线关DHCP当AP用</span><br>
+</p><p><b>password: </b><br>
+<span>卡缪911 发表于 2020-1-6 11:08</span><br>
+<span>你看到的每个AP，其实那地方都有2根网线，吸顶只能走明线，那里也是双网线的，PC处也有2根，4*2=8，还多1 ...</span><br>
+<span>那Velop那种也可以吧 放桌子上就行</span><br>
+<span>Ubnt现在也有非吸顶AP了</span><br>
+<span>有刚需也可以搞个x86软路由做旁路由</span><br>
+<span>梅林博通芯的那种硬路由 放弱电箱不嫌热吗</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>路由换软路由，poe交换机用华三的，便宜点，ap就用ubnt的，省个ac。</span><br>
+</p><p><b>EP2: </b><br>
+<span>两个h3c胖瘦一体的ap，需要上ac吗</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>肯定是第二种啊 AC就管AP用 挂在交换机上就行了 还有TP的AC买AC100V3 AC300完全没必要 而且 华硕路由器单纯做有线路由的话又没什么优势 买个400块软路由随便碾压了 你要的梅林固件提供的功能软路由只多不少</span><br>
+</p><p><b>cen: </b><br>
+<span>抱着试一试的心态，TP的R479GPE-AC加两个AP1758GI-PoE用了一年多，什么问题都没有，本来打算如果一体机性能垃圾就再添个AC300，现在用下来完全没问题，一个弱电箱还能装完。</span><br>
+<span>所以TP垃圾到底是垃圾在哪里，还是说我运气好？</span><br>
+</p><p><b>zerocount: </b><br>
+<span>第二种</span><br>
+<span>第一种把ac放中间干嘛 好好管理ap就行了 不需要跑业务数据</span><br>
+</p><p><b>macos: </b><br>
+<span>2，其实1只是把ac当交换机用，你有多少个ap，不超3的话，集成ac/poe路由更简单点，还有一个口给你接电脑</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>cen 发表于 2020-1-6 12:41</span><br>
+<span>抱着试一试的心态，TP的R479GPE-AC加两个AP1758GI-PoE用了一年多，什么问题都没有，本来打算如果一体机性能 ...</span><br>
+<span>面板信号垃圾，5g隔空三米外就大幅衰减，且不能单独调信号强度和频段</span><br>
+<span>升级固件可能会挂或者升不了，客服形同虚设</span><br>
+<span>漫游切换基本看脸，也没有2.4g 5g融合ssid</span><br>
+<span>稳定性吃屎，每个月都要重启，还没有直接重启功能</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>cen: </b><br>
+<span>zatsuza 发表于 2020-1-6 12:55</span><br>
+<span>面板信号垃圾，5g隔空三米外就大幅衰减，且不能单独调信号强度和频段</span><br>
+<span>升级固件可能会挂或者升不了，客服 ...</span><br>
+<span>你说的我都没遇到，而且信号挺好，我还多买了两个小面板型的完全没用上。</span><br>
+<span>信道、信号强度和频段都可以单独调，设置好了弱信号剔除，漫游正好在上下楼处，体验很好，设置了每周固定时间重启AP，没手动管过。</span><br>
+<span>也许我是买到了TP比较靠谱的产品吧</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>cen 发表于 2020-1-6 13:02</span><br>
+<span>你说的我都没遇到，而且信号挺好，我还多买了两个小面板型的完全没用上。</span><br>
+<span>信道、信号强度和频段都可以单独 ...</span><br>
+<span>看来是我买的ac太垃圾</span><br>
+<span>因为大的塞不进弱电</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>gnorz: </b><br>
+<span>帮同事家整的498gpm一体机，7口poe，拖3块面板，2个监控，半年了没啥问题反馈。有融合信号，就是连了2.4g不会自动切5g，要设置一下让踢2.4g</span><br>
+</p><p><b>thegodra: </b><br>
+<span>AC100V3旁路，我把外壳拆了自己做了一个小的</span><br>
+<span>然后AP手的二手POE改DC供电</span><br>
+</p><p><b>听雷而起: </b><br>
+<span>AC100就行了，我之前拿的都是v4版本了，不晓得比v3缩水了还是有新功能。</span><br>
+</p><p><b>卡缪911: </b><br>
+<span> 本帖最后由 卡缪911 于 2020-1-6 16:12 编辑 </span><br>
+<span>password 发表于 2020-1-6 11:21</span><br>
+<span>那Velop那种也可以吧 放桌子上就行</span><br>
+<span>Ubnt现在也有非吸顶AP了</span><br>
+<span>Ubnt还真没非吸顶AP</span><br>
+<span>找到了，UBNT UniFi UAP-FlexHD</span><br>
+<span>售价1599，全套TP解决方案也才2000多，还有UBNT PRO也要1299，这2个直接超预算</span><br>
+<span>UBNT也有面板式的，但是后背只有一个网口，房间里都是双网口的六类面板，当时京东买的，仅仅是网线被家长坑了不知道装修公司弄的什么线，实际速率没千兆，但问过电信公司，出钱可以换。</span><br>
+<span>TPLINK的1758GI是1拖4加一个穿透口，感觉完美符合需求。</span><br>
+<span>路由器当然不会放弱电箱，特别是博通芯的，烧坏过一个AC68P，官翻的，尸体还没处理掉。已经有了华硕路由器，其他软路由没必要再买了。</span><br>
+<span>本来目的是无缝衔接，但是TP的解决方案做不到完美解决，ubnt据说也做不到，只要求在家拿着手机微信视/频/聊/天不断线不卡就行。</span><br>
+</p><p><b>widder: </b><br>
+<span>我是UAP-AC-LITEx2+ER-X，也不需要什么AC控制器，直接PC上管理就行了，管了2套房的无线，除了隔墙多的几个角落，基本信号覆盖没问题，吸顶灯的样式也挺好的，装修的时候特地在墙顶安排了网线盒子。</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2020-1-6 16:31 编辑 </span><br>
+<span>卡缪911 发表于 2020-1-6 15:35</span><br>
+<span>Ubnt还真没非吸顶AP</span><br>
+<span>找到了，UBNT UniFi UAP-FlexHD</span><br>
+<span>我还是觉得 家用实体AC挺没必要的</span><br>
+<span>你要便宜我看了眼Velop AC3900现在狗东才1K2</span><br>
+<span>Velop现在都能改美澳的 支持802.11kvr 效果恐怕比TP这面板式的AP还强</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>弱电箱太小可以换机柜</span><br>
+<span>—— 来自 OnePlus HD1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>password 发表于 2020-1-6 16:28</span><br>
+<span>我还是觉得 家用实体AC挺没必要的</span><br>
+<span>你要便宜我看了眼Velop AC3900现在狗东才1K2</span><br>
+<span>Velop现在都能改美澳的 支 ...</span><br>
+<span>看了下Velop AC3900的确可以，不用换网络面板，可以放在桌上，再研究下。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>独立ac只有大型系统会用了，现在家用多一体机，还有软ac。</span><br>
+</p><p><b>gaiden: </b><br>
+<span>我是墙壁里铺的线翻车了，六类线铺出了百兆效果，蛋疼的一笔，然后就上了华硕的mesh，买了俩世界清静了，当然本来屋子也不大</span><br>
+</p><p><b>s1234y: </b><br>
+<span>闲鱼里边很多二手ubnt，我买过一个，运行良好，600多点</span><br>
+</p><p><b>linuy: </b><br>
+<span>家用就别整硬AC了</span><br>
+<span>ubnt的吸顶AP自带软AC功能</span><br>
+<span>2000块预算足够买3个AC-lite+poe交换机了</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>逛了下koolshare和Chiphell，最终入手了velop AC1300，等过几天MX5300发售搞一台放客厅，组MESH，不够还能再加设备。看了很多人的帖说这套MESH无缝效果还行。</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>卡缪911 发表于 2020-1-7 15:54</span><br>
+<span>逛了下koolshare和Chiphell，最终入手了velop AC1300，等过几天MX5300发售搞一台放客厅，组MESH，不够还能 ...</span><br>
+<span>买啥不好买1300这个没独立频段回传啊，和华硕aimesh这没啥区别。</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2020-1-7 17:51 编辑 </span><br>
+<span>依然荏苒 发表于 2020-1-7 17:46</span><br>
+<span>买啥不好买1300这个没独立频段回传啊，和华硕aimesh这没啥区别。</span><br>
+<span>他都是插线的 有线回程当AP用 不需要独立5G回程</span><br>
+<span>aimesh是不支持802.11kvr的 漫游效果评价普遍不好</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>password 发表于 2020-1-7 17:49</span><br>
+<span>他都是插线的 有线回程当AP用 不需要独立5G回程</span><br>
+<span>aimesh是不支持802.11kvr的 漫游效果评价普遍不好</span><br>
+<span> ...</span><br>
+<span>是的，华硕AIMESH很渣</span><br>
+<span>领势看重的是MX5300带WIFI6，虽然刚得知WIFI联盟拍脑门又新增了个6G信号作为标准，现有的WIFI6产品都要大洗牌。</span><br>
+<span>无线回程要买AC2200，但对我个人来说用不到。</span><br>
+</p><p><b>sahara: </b><br>
+<span>软路由下面挂的tp的最底端四口ac，各种卡顿，访问不了软路由里的一些界面。我该买个poe交换机按2接对吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p><p><b>卡缪911: </b><br>
+<span>linuy 发表于 2020-1-7 09:31</span><br>
+<span>家用就别整硬AC了</span><br>
+<span>ubnt的吸顶AP自带软AC功能</span><br>
+<span>2000块预算足够买3个AC-lite+poe交换机了 ...</span><br>
+<span>ubnt吸顶只能吸顶或者挂壁，放桌面上无线效果没吸顶好，色魔张大妈上说的，貌似是信号发射范围问题。如果房间内不能用吸顶，目前只有一个台式的UBNT UniFi UAP-FlexHD，售价1599。</span><br>
+<span>对比了下领势的velop系列，马上出的MX5300是带WIFI6的，价格比上面贵400，而且无缝效果据说很好，家用足以，本着买新不买旧的原则还是准备入领势，AC1300用来解决卧室没网及无缝衔接。</span><br>
+<span>再晚几年等有了自己的房子可能会上WIFI6的AP+AC系列，不过那时候可能家庭用MESH解决方案更好。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907878[0-50]</guid>
+    </item>
+  </channel>
+</rss>

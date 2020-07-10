@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>2060级别的TensorCore的算力在预期的将来能满足什么应用？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>2060级别的TensorCore的算力在预期的将来能满足什么应用？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:59:00 +0000</lastBuildDate>
+    <item>
+      <title>2060级别的TensorCore的算力在预期的将来能满足什么应用？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1856714-1-1.html</link>
+      <description>2060级别的TensorCore的算力在预期的将来能满足什么应用？&#13;
+之前看别人讨论还只是张大饼的AI补帧时，楼下有人提醒以图灵的算力不一定能够满足实时计算的需求。
+&#13;
+于是，我这个外行想问一下2060这个级别的卡，它的AI算力对个人用户而言将来可以做些什么吗？
+&#13;
+其实是我想更块2000~3000左右的显卡，因为对图形性能要求不高，对DLSS也没有需求。就想知道20系的TensorCore能不能战未来，不然对我来说都是和光追模块一样都只是昂贵的电热丝</description>
+      <content:encoded><![CDATA[<p><b>Sza: </b><br>
+<span>2060级别的TensorCore的算力在预期的将来能满足什么应用？</span><br>
+<span>之前看别人讨论还只是张大饼的AI补帧时，楼下有人提醒以图灵的算力不一定能够满足实时计算的需求。</span><br>
+<span>于是，我这个外行想问一下2060这个级别的卡，它的AI算力对个人用户而言将来可以做些什么吗？</span><br>
+<span>其实是我想更块2000~3000左右的显卡，因为对图形性能要求不高，对DLSS也没有需求。就想知道20系的TensorCore能不能战未来，不然对我来说都是和光追模块一样都只是昂贵的电热丝</span><br>
+</p><p><b>qwased: </b><br>
+<span>However, the TensorCore performance of Geforce game graphics is severely limited.The peak FP16 Tensor TFLOPS with FP32 Accumulate is only 43.6% of NVIDIA Quadro RTX6000.This is very abnormal, obviously an artificial limit.However, at least this generation of Geforce RTX gaming graphics hardware supports FP16 computing.There are many requirements for the use of TensorCore. Please refer to the NVIDIA Developer website for details.</span><br>
+<span>According to my test, the RTX2080TI uses FP16 with 10-40% improvement over FP32.(use tensorflow/benchmark).In addition, the use of CUDA 10.0 can also bring a small performance boost.</span><br>
+<span>游戏卡的TensorCore是残疾的，没什么卵用</span><br>
+</p><p><b>albertfu: </b><br>
+<span>光追不算电热丝吧，dlss效果还行的游戏开光追还可以</span><br>
+</p><p><b>abcbuzhiming: </b><br>
+<span>貌似现有AI的算力衡量单位里貌似不存在个人用户的PC这个概念，要玩AI随便都是四路泰坦起</span><br>
+</p><p><b>Sza: </b><br>
+<span>abcbuzhiming 发表于 2019-8-29 22:19</span><br>
+<span>貌似现有AI的算力衡量单位里貌似不存在个人用户的PC这个概念，要玩AI随便都是四路泰坦起 ...</span><br>
+<span>他们训练模型要用这些昂贵的生产力工具，个人用户没这种需求吧。手机上的NPU算力没那么高都能够后期修个月亮。</span><br>
+</p><p><b>startraveller: </b><br>
+<span>Sza 发表于 2019-8-29 23:07</span><br>
+<span>他们训练模型要用这些昂贵的生产力工具，个人用户没这种需求吧。手机上的NPU算力没那么高都能够后期修个 ...</span><br>
+<span>那你就当是电热丝好了</span><br>
+</p><p><b>ada_ovo: </b><br>
+<span>只能怪amd不给力啊</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>qwased 发表于 2019-8-29 18:20</span><br>
+<span>However, the TensorCore performance of Geforce game graphics is severely limited.The peak FP16 Tenso ...</span><br>
+<span>跑正向推断有tensor core强很多，然后老黄这玩意游戏里面深度相关的应该是更低精度去跑，int8甚至int4，增益就明显了</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KanaiYuu: </b><br>
+<span>tensor core也就是在混合精度计算上比较强，为混合精度的矩阵乘法做了优化</span><br>
+</p><p><b>mimighost: </b><br>
+<span>除非你做混合精度的深度学习训练，否则这个对你来说没啥用</span><br>
+</p><p><b>诚司: </b><br>
+<span>PC上的只算AI的算力现在基本一点关系都没有，手机NPU还能拿来超分辨率，人脸识别……</span><br>
+<span>PC本来也没这种软件啊，github代码倒是随便跑，拿来换头之类</span><br>
+<span>除非………………你vtuber出道</span><br>
+</p><p><b>你的全家: </b><br>
+<span>DeepFishing 发表于 2019-8-30 11:25</span><br>
+<span>跑正向推断有tensor core强很多，然后老黄这玩意游戏里面深度相关的应该是更低精度去跑，int8甚至int4， ...</span><br>
+<span>其实反向也用的</span><br>
+<span>AMP做法是fp 用16算 loss算的时候乘2^15 bp 然后cast 32 除回来修改</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>中村隆太郎: </b><br>
+<span>TL;DR advice</span><br>
+<span>Best GPU overall: RTX 2070</span><br>
+<span>GPUs to avoid: Any Tesla card; any Quadro card; any Founders Edition card; Titan RTX, Titan V, Titan XP</span><br>
+<span>Cost-efficient but expensive: RTX 2070</span><br>
+<span>Cost-efficient and cheap:RTX 2060, GTX 1060 (6GB).</span><br>
+<span>I have little money: GTX 1060 (6GB)</span><br>
+<span>I have almost no money: GTX 1050 Ti (4GB).Alternatively: CPU (prototyping) + AWS/TPU (training); or Colab.</span><br>
+<span>I do Kaggle: RTX 2070. If you do not have enough money go for a GTX 1060 (6GB) or GTX Titan (Pascal) from eBay for prototyping and AWS for final training. Use fastai library.</span><br>
+<span>I am a competitive computer vision or machine translation researcher: GTX 2080 Ti with the blower fan design. If you train very large networks get RTX Titans.</span><br>
+<span>I am an NLP researcher: RTX 2080 Ti use 16-bit.</span><br>
+<span>I want to build a GPU cluster: This is really complicated, you can get some ideas from my multi-GPU blog post.</span><br>
+<span>I started deep learning and I am serious about it: Start with an RTX 2070. Buy more RTX 2070 after 6-9 months and you still want to invest more time into deep learning. Depending on what area you choose next (startup, Kaggle, research, applied deep learning) sell your GPU and buy something more appropriate after about two years.</span><br>
+<span>I want to try deep learning, but I am not serious about it: GTX 1050 Ti (4 or 2GB). This often fits into your standard desktop and does not require a new PSU. If it fits, do not buy a new computer!</span><br>
+<span>Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning</span><br>
+<span>https://timdettmers.com/2019/04/03/which-gpu-for-deep-learning/</span><br>
+<span>这是没有出super系列之前写的，那么现在最佳推荐应该是RTX 2070=2060s</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1856714[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>是否可以在非tv模式下用有线网卡同时充电？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>是否可以在非tv模式下用有线网卡同时充电？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:08:21 +0000</lastBuildDate>
+    <item>
+      <title>是否可以在非tv模式下用有线网卡同时充电？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920616-1-1.html</link>
+      <description>是否可以在非tv模式下用有线网卡同时充电？&#13;
+目前是这样的，，ns在公司有联网需求，但是公司只有有线网。
+&#13;
+因此自己带了个wifi网卡，使用win的共享wifi功能 共享wifi给ns上网用
+&#13;
+这样ns的网络是在电脑网络下的子网。（pc网卡的网段是192.168.1.x）（wifi共享的网段是192.168.137.x）
+&#13;
+以前这样使用ns上网都没问题，然而最近的动森发现问题了，，
+&#13;
+和某些好友联机完全没问题，但是和部分好友联机就提示“nat穿透”失败，（我ns的联网检测里显示的是nat B）（推测就是这个子网段造成的）
+&#13;
+    期间我想过用那什么UU的主机加速 然而因为ns在pc的子网段下，ns根本连不上pc上开的uu加速
+&#13;
+然后我找了个usb网卡接ns上 （我不需要外接显示器，不需要那些主机模式），用usb网卡插网线，这样和pc网是同一个网段了，此时和原先nat穿透失败的好友联机完全没问题
+&#13;
+但是。。因为ns的那唯一一个接口插了网卡了。。就不能充电了。
+&#13;
+这动森又极其耗电，，经常联机了1-2小时就快要没电了。。。
+&#13;
+所以想问下 有没有什么设备能吧ns那一个口的usbc口分成2个 让我同时用usb网卡 以及给ns充电？
+&#13;
+ 不需要主机模式</description>
+      <content:encoded><![CDATA[<p><b>ckx000: </b><br>
+<span>是否可以在非tv模式下用有线网卡同时充电？</span><br>
+<span>目前是这样的，，ns在公司有联网需求，但是公司只有有线网。</span><br>
+<span>因此自己带了个wifi网卡，使用win的共享wifi功能 共享wifi给ns上网用</span><br>
+<span>这样ns的网络是在电脑网络下的子网。（pc网卡的网段是192.168.1.x）（wifi共享的网段是192.168.137.x）</span><br>
+<span>以前这样使用ns上网都没问题，然而最近的动森发现问题了，，</span><br>
+<span>和某些好友联机完全没问题，但是和部分好友联机就提示“nat穿透”失败，（我ns的联网检测里显示的是nat B）（推测就是这个子网段造成的）</span><br>
+<span>    期间我想过用那什么UU的主机加速 然而因为ns在pc的子网段下，ns根本连不上pc上开的uu加速</span><br>
+<span>然后我找了个usb网卡接ns上 （我不需要外接显示器，不需要那些主机模式），用usb网卡插网线，这样和pc网是同一个网段了，此时和原先nat穿透失败的好友联机完全没问题</span><br>
+<span>但是。。因为ns的那唯一一个接口插了网卡了。。就不能充电了。</span><br>
+<span>这动森又极其耗电，，经常联机了1-2小时就快要没电了。。。</span><br>
+<span>所以想问下 有没有什么设备能吧ns那一个口的usbc口分成2个 让我同时用usb网卡 以及给ns充电？</span><br>
+<span> 不需要主机模式</span><br>
+</p><p><b>fuochai: </b><br>
+<span>羡慕在公司能摸两小时以上的鱼</span><br>
+</p><p><b>RookieTnT: </b><br>
+<span>usb分线器?</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>可以的，就那种魔改底座，插上普通充电器可以用，别插PD的，插了会变主机模式</span><br>
+</p><p><b>ckx000: </b><br>
+<span>竜ヶ峰桜子 发表于 2020-3-24 15:34</span><br>
+<span>可以的，就那种魔改底座，插上普通充电器可以用，别插PD的，插了会变主机模式 ...</span><br>
+<span>唉 大佬有具体吗？？插普通充电器是啥意思？另外外接电源的？</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>ckx000 发表于 2020-3-24 19:46</span><br>
+<span>唉 大佬有具体吗？？插普通充电器是啥意思？另外外接电源的？</span><br>
+<span>就是用普通的iPhone充电头充电，不要用带快充的</span><br>
+<span>我用的cforce那个cfs001，可以边充电边玩，但是插原装充电器会变成TV模式，掌机下只能用那种普通充电器</span><br>
+</p><p><b>wulilio: </b><br>
+<span>买第三方底座，自己搜下，就那几种，100左右即可</span><br>
+</p><p><b>shabee001: </b><br>
+<span>ckx000 发表于 2020-3-24 19:46</span><br>
+<span>唉 大佬有具体吗？？插普通充电器是啥意思？另外外接电源的？</span><br>
+<span>在一个地方看到说底座模式需要一个15v3a的信号激活，虽然tv模式并不会达到这个功耗所以拿个没有这档的充电器接说不定就可以了。不过我没试过</span><br>
+<span>—— 来自 Sony G8441, Android 9上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>ckx000: </b><br>
+<span>第3方底座我是有 可惜的是手上没有普通的usb-c线。。都是c-c线-然后头子也是45w的那个小米头，只能插c口的那种，直接就是激活tv模式了，</span><br>
+<span>似乎只要找个usb-c的线 再加一个普通不超过20w的usb输出口的头子就可以了？</span><br>
+</p><p><b>ckx000: </b><br>
+<span> 本帖最后由 ckx000 于 2020-3-25 12:51 编辑 </span><br>
+<span>试了 不行 我找了个最大5v 2.4A的口的充电器 </span><br>
+<span> 似乎还是带显示输出电压和电流的玩意，插上我的那个第3方底座。</span><br>
+<span>直接屏幕黑掉，似乎是开始输出tv模式了。。</span><br>
+<span>充电头显示的5v 0.6A。。（我用这个充电器直接插我ns上 掌机模式主界面也是5v.0.6A，进入游戏时 是5v 1.2A，待机黑屏模式是5v 0.2A）</span><br>
+<span>第3方底座是个MELOPOW的，蛮早买的 以前用来tv模式一直没啥问题。。</span><br>
+<span>==========喂喂，，找了一个5v 0.7A。的 结果也特么输出tv模式了。。喂喂 没问题吗？</span><br>
+<span>插在第3方底座上面的usb网卡倒是一直正常工作</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920616[0-50]</guid>
+    </item>
+  </channel>
+</rss>

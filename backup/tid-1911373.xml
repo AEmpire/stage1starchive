@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AsciiDoc和reStructuredText哪个排版功能更完备</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>AsciiDoc和reStructuredText哪个排版功能更完备</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:30:54 +0000</lastBuildDate>
+    <item>
+      <title>AsciiDoc和reStructuredText哪个排版功能更完备[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1911373-1-1.html</link>
+      <description>AsciiDoc和reStructuredText哪个排版功能更完备&#13;
+想找一个Markdown的替代，目前候选的有AsciiDoc和reStructuredText。工作有一些排版的需求，试着搜了一个（书脊侧边距宽于外侧），adoc支持这种排版，rst没有搜到。请有经验的说说是不是总体来看adoc的排版功能更多些？谢谢</description>
+      <content:encoded><![CDATA[<p><b>不努: </b><br>
+<span>AsciiDoc和reStructuredText哪个排版功能更完备</span><br>
+<span>想找一个Markdown的替代，目前候选的有AsciiDoc和reStructuredText。工作有一些排版的需求，试着搜了一个（书脊侧边距宽于外侧），adoc支持这种排版，rst没有搜到。请有经验的说说是不是总体来看adoc的排版功能更多些？谢谢</span><br>
+</p><p><b>Saltychtao: </b><br>
+<span>要不试试org mode？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>word</span><br>
+<span>自己写markdown的css样式</span><br>
+</p><p><b>不努: </b><br>
+<span>Saltychtao 发表于 2020-1-30 10:52</span><br>
+<span>要不试试org mode？</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+<span>谢谢，听说要用Emacs，学习成本有点超出了我的预算……</span><br>
+<span>org-mode的排版功能丰富吗？Slant上点赞的人不少，但没看到相关的</span><br>
+</p><p><b>不努: </b><br>
+<span>系统杀手 发表于 2020-1-30 10:54</span><br>
+<span>word</span><br>
+<span>自己写markdown的css样式</span><br>
+<span>我之前是用Word排版的</span><br>
+<span>Stylesheet的话我用markdown recto verso margin基本就搜不到东西，MDN上这两个@page属性也是实验性的</span><br>
+</p><p><b>Saltychtao: </b><br>
+<span>不努 发表于 2020-1-30 11:15</span><br>
+<span>谢谢，听说要用Emacs，学习成本有点超出了我的预算……</span><br>
+<span>org-mode的排版功能丰富吗？Slant上点赞的人不少 ...</span><br>
+<span>请问您具体需要什么样的排版功能呢？ 我平时使用org mode写课程作业和笔记感觉已经够用了，实在不行它也可以发布成latex格式，然后编译成pdf</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>threefcata: </b><br>
+<span>RST连自动生成项目编号都做不到，真JB恶心</span><br>
+</p><p><b>不努: </b><br>
+<span> 本帖最后由 不努 于 2020-1-30 13:23 编辑 </span><br>
+<span>谢谢 @Saltychtao ！以前用Markdown写简单的程序文档，最近重做CV觉得md变种flavor太多，想换一个统一的，覆盖的范围呢是从注释文档到论文稿都有，latex是好，但和html一样写起来tag太多，所以还想在轻量级的markup里面找……还看了个PML，只有Windows解析器所以暂不考虑</span><br>
+</p><p><b>Hieda: </b><br>
+<span>为啥不直接上latex？写好模板和直接用这些标记格式区别不大</span><br>
+<span>https://liam.page/2019/03/18/separation-of-content-and-presentation/</span><br>
+<span>标记格式语义上来讲本来就不包括排版的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1911373[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>一道数学建模题目</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>一道数学建模题目</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:25:10 +0000</lastBuildDate>
+    <item>
+      <title>一道数学建模题目[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1852538-1-1.html</link>
+      <description>一道数学建模题目&#13;
+原题的描述是：现在需要在A,B两点之间的道路上修建收费站，不同道路修建收费站的成本不同，要求设计出既能保证在A,B之间通行时至少要经过一个收费站，又能让收费站建设成本最低的方案。
+&#13;
+我看到题目后将其转化为了一个算法问题：现在有一个无向图，其中有A,B两点，需算出去掉哪些边可以使A,B无法联通且去掉的边的权值之和最小。
+&#13;
+一个具体的图的例子如下：
+&#13;
+http://wx4.sinaimg.cn/large/005HNbuPly1g5udnd64znj30d404it8i.jpg
+&#13;
+这个问题我三年前就接触到了，可是一直没想到怎么解决，估计再自己想下去也没用，所以来这里求助了。</description>
+      <content:encoded><![CDATA[<p><b>plusSharp: </b><br>
+<span>一道数学建模题目</span><br>
+<span>原题的描述是：现在需要在A,B两点之间的道路上修建收费站，不同道路修建收费站的成本不同，要求设计出既能保证在A,B之间通行时至少要经过一个收费站，又能让收费站建设成本最低的方案。</span><br>
+<span>我看到题目后将其转化为了一个算法问题：现在有一个无向图，其中有A,B两点，需算出去掉哪些边可以使A,B无法联通且去掉的边的权值之和最小。</span><br>
+<span>一个具体的图的例子如下：</span><br>
+<img src="http://wx4.sinaimg.cn/large/005HNbuPly1g5udnd64znj30d404it8i.jpg" title="http://wx4.sinaimg.cn/large/005HNbuPly1g5udnd64znj30d404it8i.jpg"><br>
+<span>这个问题我三年前就接触到了，可是一直没想到怎么解决，估计再自己想下去也没用，所以来这里求助了。</span><br>
+</p><p><b>swrrt: </b><br>
+<span>最小割</span><br>
+</p><p><b>弯曲的战矛: </b><br>
+<span>想了想感觉是NP-Hard问题啊，要最优解恐怕不可能。</span><br>
+<span>用直觉写一些算法自然可以，但我先等等别人的回复，看看是不是只是我一时没反应过来误认为NP-Hard了。</span><br>
+</p><p><b>R.I.P: </b><br>
+<span>弯曲的战矛 发表于 2019-8-10 11:40</span><br>
+<span>想了想感觉是NP-Hard问题啊，要最优解恐怕不可能。</span><br>
+<span>用直觉写一些算法自然可以，但我先等等别人的回复，看 ...</span><br>
+<span>NP-hardness靠把NPC问题规约过来，不是你觉得不知道怎么算就是NPH</span><br>
+<span>—— 来自 Meizu 16th, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span> 本帖最后由 plusSharp 于 2019-8-10 15:56 编辑 </span><br>
+<span>弯曲的战矛 发表于 2019-8-10 11:40</span><br>
+<span>想了想感觉是NP-Hard问题啊，要最优解恐怕不可能。</span><br>
+<span>用直觉写一些算法自然可以，但我先等等别人的回复，看 ...</span><br>
+<span>我本来想写个穷举程序，可是三条及三条以上的边的组合实在不太好写，我能想到的写法就只有用n-1的组合来推n的组合，直接去数不难，但用代码很难实现</span><br>
+</p><p><b>ebuw: </b><br>
+<span>我第一反应是推荐使用petri net来解决。</span><br>
+</p><p><b>wx40217: </b><br>
+<span>网络流最小割板子题</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6000, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>弯曲的战矛: </b><br>
+<span>R.I.P 发表于 2019-8-10 12:20</span><br>
+<span>NP-hardness靠把NPC问题规约过来，不是你觉得不知道怎么算就是NPH</span><br>
+<span>—— 来自 Meizu 16th, Androi ...</span><br>
+<span>我是没做规约，所以自然不能说这是NP hard. 我是因为直接想时连解法都不知道怎么用P时间验证所以想可能是NP hard.</span><br>
+<span>然后楼主你确定你想用代码穷举完所有可能性么……除非每次都只会有很少的路段，不然还是用启发式算法吧。</span><br>
+</p><p><b>wwwwn168: </b><br>
+<span>找 max flow algorithm就行了</span><br>
+</p><p><b>Neozero: </b><br>
+<span>这不就是最小割的定义吗</span><br>
+<span>— from Google Pixel 3, Android 10 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>plusSharp: </b><br>
+<span>弯曲的战矛 发表于 2019-8-10 16:25</span><br>
+<span>我是没做规约，所以自然不能说这是NP hard. 我是因为直接想时连解法都不知道怎么用P时间验证所以想可能是 ...</span><br>
+<span>没错，这个问题甚至不像分解质因数那样难算但容易验证，就算直接给出一个值也没法直接检验它是不是正确的解。不过我虽然说是要穷举但实际写程序时完全可以把已经不连通的组合存下来，不再计算去掉的边更多但已包含这些组合的情况，这样运算量就会小很多。</span><br>
+<span>—— 来自 samsung SM-A6060, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>swrrt: </b><br>
+<span>楼主到现在还在穷举，应该是拿不了奖了</span><br>
+</p><p><b>hyola: </b><br>
+<span>这么标准的问题真是稀有</span><br>
+<span>— from Xiaomi MI 6, Android 8.0.0 of S1 Next Goose v1.3.2.1-fix-play</span><br>
+</p><p><b>notch: </b><br>
+<span>三年前就接触到了，可是一直没想到怎么解决，估计再自己想下去也没用</span><br>
+<span>真就钓鱼呗</span><br>
+</p><p><b>qaweqa: </b><br>
+<span>明明二楼就第一时间给出了正解</span><br>
+</p><p><b>ArthurFyc: </b><br>
+<span>标准的最大流最小割问题啊</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>海底铁锚: </b><br>
+<span> 本帖最后由 海底铁锚 于 2019-8-11 00:56 编辑 </span><br>
+<span>最小割板子题一波流，这都能看三年？正常选手和二楼都是一眼秒掉脑内AC的。</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>最小割，转成最大流问题，然后用网络流解，网络流一堆算法，就不用我列举了吧。。。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1852538[0-50]</guid>
+    </item>
+  </channel>
+</rss>

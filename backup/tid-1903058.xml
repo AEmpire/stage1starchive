@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如果想AI监控生产线，现在用什么方案比较好</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如果想AI监控生产线，现在用什么方案比较好</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:19:51 +0000</lastBuildDate>
+    <item>
+      <title>如果想AI监控生产线，现在用什么方案比较好[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1903058-1-1.html</link>
+      <description>如果想AI监控生产线，现在用什么方案比较好&#13;
+朋友在造一个国外的工厂。自己是老板，想方便远程管理。想布置监控。除了普通的监控外。
+&#13;
+还希望布置一些用于AI识别的。
+&#13;
+不想用现有的一条龙解决方案，希望自由一点。
+&#13;
+基于Microsoft Cognitive Services，百度大脑自己弄。
+&#13;
+或者还有什么类似的大家推荐下。
+&#13;
+工厂在国外，连微软更通畅，好像收费也比百度便宜？
+&#13;
+朋友还希望可以从最底层自己写点代码。
+&#13;
+不用机器学习，就用图像采样矩阵计算什么的，比较可控可靠。
+&#13;
+最好的方法是每种都布上相应的POE摄像头？
+&#13;
+那么买哪种摄像头比较好，**海康的，直接连电脑可以吗？
+&#13;
+需要买百度大脑配套硬件，比如摄像头什么的吗，看起来好像骗钱的。。。</description>
+      <content:encoded><![CDATA[<p><b>白头盔: </b><br>
+<span>如果想AI监控生产线，现在用什么方案比较好</span><br>
+<span>朋友在造一个国外的工厂。自己是老板，想方便远程管理。想布置监控。除了普通的监控外。</span><br>
+<span>还希望布置一些用于AI识别的。</span><br>
+<span>不想用现有的一条龙解决方案，希望自由一点。</span><br>
+<span>基于Microsoft Cognitive Services，百度大脑自己弄。</span><br>
+<span>或者还有什么类似的大家推荐下。</span><br>
+<span>工厂在国外，连微软更通畅，好像收费也比百度便宜？</span><br>
+<span>朋友还希望可以从最底层自己写点代码。</span><br>
+<span>不用机器学习，就用图像采样矩阵计算什么的，比较可控可靠。</span><br>
+<span>最好的方法是每种都布上相应的POE摄像头？</span><br>
+<span>那么买哪种摄像头比较好，**海康的，直接连电脑可以吗？</span><br>
+<span>需要买百度大脑配套硬件，比如摄像头什么的吗，看起来好像骗钱的。。。</span><br>
+</p><p><b>Baccano: </b><br>
+<span>天呐撸，新时达的资本剥削。</span><br>
+<span>Amazon那就有一套监控员工的AI系统。自动开除上厕所时间久的员工。</span><br>
+</p><p><b>古怪: </b><br>
+<span>我现在给资本家做项目，用的就是海康的摄像头。关键是，不应该简单的看人员吧，应该还有操作是否合规？海康的应该能满足。不要百度，买曙光的服务器还便宜。</span><br>
+</p><p><b>白头盔: </b><br>
+<span>古怪 发表于 2019-12-15 17:08</span><br>
+<span>我现在给资本家做项目，用的就是海康的摄像头。关键是，不应该简单的看人员吧，应该还有操作是否合规？海康 ...</span><br>
+<span>只是玩票性质的，主要还是靠管理人员。</span><br>
+<span>你用的海康摄像头，是调用API抠图像出来？</span><br>
+<span>是不是至少摄像头就行了，用的什么型号的。</span><br>
+<span>支持PSIA ISAPI的列表去哪里查</span><br>
+</p><p><b>啤酒与面包: </b><br>
+<span> 本帖最后由 啤酒与面包 于 2019-12-16 00:11 编辑 </span><br>
+<span>直接用脚铐铐上不好么</span><br>
+</p><p><b>古怪: </b><br>
+<span>白头盔 发表于 2019-12-15 23:58</span><br>
+<span>只是玩票性质的，主要还是靠管理人员。</span><br>
+<span>你用的海康摄像头，是调用API抠图像出来？</span><br>
+<span>是不是至少摄像头就行 ...</span><br>
+<span>海康都有，买摄像头就行，不过他家的算法是跑在他家的云上。如果是玩票，就买几个摄像头，跑几个简单算法就得了。他有相关的图像分析算法。</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>不是应该设备全部连上生产管理系统吗</span><br>
+</p><p><b>Nyaaarlathotep: </b><br>
+<span>这帖子标记一下，出来介绍经验的都上小本本</span><br>
+</p><p><b>古怪: </b><br>
+<span>real_zyf 发表于 2019-12-16 00:18</span><br>
+<span>不是应该设备全部连上生产管理系统吗</span><br>
+<span>MES和动作识别系统是两个概念。</span><br>
+</p><p><b>古怪: </b><br>
+<span>白头盔 发表于 2019-12-15 23:58</span><br>
+<span>只是玩票性质的，主要还是靠管理人员。</span><br>
+<span>你用的海康摄像头，是调用API抠图像出来？</span><br>
+<span>是不是至少摄像头就行 ...</span><br>
+<span>昨天晚上用手机上的，可能说的不清楚。</span><br>
+<span>用海康的摄像机，自带有动作识别算法，需要自己录入动作图片，然后上海康的云进行计算，然后把算好后的录入到摄像机中，就可以识别不规范动作。</span><br>
+<span>不需要自己懂啥算法，也不需要扣图象。</span><br>
+</p><p><b>松岡茉優: </b><br>
+<span>天啦噜，资本家太牛逼了</span><br>
+</p><p><b>GrimReaper: </b><br>
+<span>资本家及资本家的走狗。</span><br>
+</p><p><b>yaoyiqun513: </b><br>
+<span>微软已经有现成的方案了，直接去联系吧</span><br>
+</p><p><b>白行简5566: </b><br>
+<span>我们公司用的是海康，主要监控玩手机、不规范操作、人员集中等</span><br>
+</p><p><b>YuKin: </b><br>
+<span>国外你最好先咨询合规问题</span><br>
+</p><p><b>沙漏: </b><br>
+<span>迫真资本家论坛</span><br>
+<span>—— 来自 HUAWEI YAL-AL00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>亡亡鱼: </b><br>
+<span>别自己折腾</span><br>
+<span>找靠谱的MES提供商</span><br>
+<span>—— 来自 HUAWEI EML-AL00, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>月影挽歌: </b><br>
+<span>啤酒与面包 发表于 2019-12-16 00:09</span><br>
+<span>直接用脚铐铐上不好么</span><br>
+<span>大数据、图像识别、动作捕捉、人工智能可比脚镣牛X多了</span><br>
+</p><p><b>PNK: </b><br>
+<span>艹，点进来前还以为是监控设备工作状态，原来是监控工人的啊</span><br>
+<span>那还要啥ai，装个摄像头不就完了，边喝茶边看别人干活，老板肯定喜欢，对不对？</span><br>
+</p><p><b>好多树: </b><br>
+<span>话说我去年因为培训进工厂参观，发现现在工厂的信息化做的挺厉害了，每个工位上左边一个显示屏一步一步给你显示着步骤，右边给你提供着当前步骤要用的工具，整个装配线上一个大显示屏，显示着当前各个工位的工作进度，和当日指标还差多少数量。我当时就感觉这是不是离全自动生产线其实没差多少了，如果机械臂能达到足够精度的话，那完全可以替代工人了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>MagicalMinori: </b><br>
+<span>PNK 发表于 2019-12-16 10:39</span><br>
+<span>艹，点进来前还以为是监控设备工作状态，原来是监控工人的啊</span><br>
+<span>那还要啥ai，装个摄像头不就完了，边喝茶边看 ...</span><br>
+<span>除了摄像头还要补个喇叭，喝茶时候看到不爽直接开喷</span><br>
+</p><p><b>citrus: </b><br>
+<span>美国有所谓“工伤预防”系统，有个提供解决方案的公司好像叫strongarm</span><br>
+</p><p><b>ZzzYyy: </b><br>
+<span>MagicalMinori 发表于 2019-12-16 10:44</span><br>
+<span>除了摄像头还要补个喇叭，喝茶时候看到不爽直接开喷</span><br>
+<span>不如电击项圈</span><br>
+</p><p><b>pigofsunny: </b><br>
+<span>PNK 发表于 2019-12-16 10:39</span><br>
+<span>艹，点进来前还以为是监控设备工作状态，原来是监控工人的啊</span><br>
+<span>那还要啥ai，装个摄像头不就完了，边喝茶边看 ...</span><br>
+<span>你说的是没有追求的资本家啦。效率太低，会被资本淘汰的。</span><br>
+</p><p><b>pigofsunny: </b><br>
+<span>IBM有个广告做的好像就是这种监控，系统发现一名户外作业员工情况不对发出了警报，管理人员赶紧跑过去给那哥们补水…画面看起来有点基。整个脑回路像是人工智障的感觉。</span><br>
+</p><p><b>zyhang: </b><br>
+<span>这就是传说中的大兄弟在看着你？</span><br>
+</p><p><b>坏掉了: </b><br>
+<span>用电风扇就够了，不用上摄像头</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>海康的poe必须要自己的软件吧，记不得有没有sdk了，这个要求找一些支持rtsp/rtmp协议的应该可以</span><br>
+</p><p><b>eurydice: </b><br>
+<span>直接和当地监狱合作啊</span><br>
+</p><p><b>dclara1: </b><br>
+<span>为什么会想到在美国开工厂，人工不贵吗</span><br>
+</p><p><b>lais: </b><br>
+<span>月影挽歌 发表于 2019-12-16 10:38:58</span><br>
+<span>大数据、图像识别、动作捕捉、人工智能可比脚镣牛X多了最终落实那还得靠脚铐啊皮鞭啊监工啊这类东西，当然高工资也行，不过资本家肯定舍不得</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 iOS客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1903058[0-50]</guid>
+    </item>
+  </channel>
+</rss>

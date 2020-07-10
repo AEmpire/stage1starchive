@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Lakefield Dieshot</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Lakefield Dieshot</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:29:17 +0000</lastBuildDate>
+    <item>
+      <title>Lakefield Dieshot[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1918614-1-1.html</link>
+      <description>Lakefield Dieshot&#13;
+ 本帖最后由 Gnyueh 于 2020-3-13 14:32 编辑 
+
+原推文链接: https://twitter.com/witeken/status/1238112105577971712?s=19
+
+Lakefield 82mm2. Green is 4x**. Below is 1x SNC. Right is GPU. Source: https://t.co/JsaB1Rueik https://t.co/iVsYpbZiCu
+
+https://i.imgur.com/TYXxVG8.png
+
+https://p.sda1.dev/0/33685375b083813ad32fa50b03ec5009/IMG_F4A808CC3477372BAE195ADB0BC2FFA9.jpeg
+
+这么看tremont核心真的很小，而且SSE IPC基本可以跟HSW比了
+
+根据原图注释比划了一下
+
+https://p.sda1.dev/0/ca4953ec7e9256cf955ada831e173b07/IMG_BECAC327196B388EBF65D0C9B9B14D06.jpeg</description>
+      <content:encoded><![CDATA[<p><b>Gnyueh: </b><br>
+<span>Lakefield Dieshot</span><br>
+<span> 本帖最后由 Gnyueh 于 2020-3-13 14:32 编辑 </span><br>
+<span>原推文链接: https://twitter.com/witeken/status/1238112105577971712?s=19</span><br>
+<span>Lakefield 82mm2. Green is 4x**. Below is 1x SNC. Right is GPU. Source: https://t.co/JsaB1Rueik https://t.co/iVsYpbZiCu</span><br>
+<img src="https://i.imgur.com/TYXxVG8.png" title="https://i.imgur.com/TYXxVG8.png"><br>
+<img src="https://p.sda1.dev/0/33685375b083813ad32fa50b03ec5009/IMG_F4A808CC3477372BAE195ADB0BC2FFA9.jpeg" title="https://p.sda1.dev/0/33685375b083813ad32fa50b03ec5009/IMG_F4A808CC3477372BAE195ADB0BC2FFA9.jpeg"><br>
+<span>这么看tremont核心真的很小，而且SSE IPC基本可以跟HSW比了</span><br>
+<span>根据原图注释比划了一下</span><br>
+<img src="https://p.sda1.dev/0/ca4953ec7e9256cf955ada831e173b07/IMG_BECAC327196B388EBF65D0C9B9B14D06.jpeg" title="https://p.sda1.dev/0/ca4953ec7e9256cf955ada831e173b07/IMG_BECAC327196B388EBF65D0C9B9B14D06.jpeg"><br>
+</p><p><b>albertfu: </b><br>
+<span>windows上大小核的话，还得等未来的win10更新才能正常发挥吧</span><br>
+<span>大核的随需开关和缓存数据在大小核之间倒来倒去也挺麻烦</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>albertfu 发表于 2020-3-13 23:09</span><br>
+<span>windows上大小核的话，还得等未来的win10更新才能正常发挥吧</span><br>
+<span>大核的随需开关和缓存数据在大小核之间倒来倒 ...</span><br>
+<span>发挥完全看Windows的心情，，，重点是负载分配切换这些</span><br>
+</p><p><b>qazesz: </b><br>
+<span>比起加个大核，我更希望用tremont复刻surface 3啊</span><br>
+</p><p><b>albertfu: </b><br>
+<span>qazesz 发表于 2020-3-13 23:16</span><br>
+<span>比起加个大核，我更希望用tremont复刻surface 3啊</span><br>
+<span>10nm tremont单核进步到什么水平了</span><br>
+<span>14nm airmont四核加起来，还不如十几年前买的四核nehalem移动版的单核分 </span><br>
+</p><p><b>qazesz: </b><br>
+<span>albertfu 发表于 2020-3-13 23:24</span><br>
+<span>10nm tremont单核进步到什么水平了</span><br>
+<span>14nm airmont四核加起来，还不如十几年前买的四核nehalem移动版的单 ...</span><br>
+<span>官宣比上一代goldmont强30%。surface 3的性能大概是5800K的3成，我用起来完全可以接受，不知道你跑的什么分，很难想象比十几年前移动处理器单核还弱</span><br>
+</p><p><b>albertfu: </b><br>
+<span>qazesz 发表于 2020-3-13 23:54</span><br>
+<span>官宣比上一代goldmont强30%。surface 3的性能大概是5800K的3成，我用起来完全可以接受，不知道你跑的什么 ...</span><br>
+<span>CB15，多核100出头</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span>albertfu 发表于 2020-3-13 23:24</span><br>
+<span>10nm tremont单核进步到什么水平了</span><br>
+<span>14nm airmont四核加起来，还不如十几年前买的四核nehalem移动版的单 ...</span><br>
+<span>intel的小核从goldmont plus开始飞速提升，这一代是gdm+的升级版，SSE IPC基本持平HSW水平了，2*3解码在x86历史上算是第一次</span><br>
+<span>—— 来自 Xiaomi MI 5s Plus, Android 8.0.0上的 S1Next-鹅版 v2.2.2</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>Gnyueh 发表于 2020-3-14 17:25</span><br>
+<span>intel的小核从goldmont plus开始飞速提升，这一代是gdm+的升级版，SSE IPC基本持平HSW水平了，2*3解码在x ...</span><br>
+<span>你说的是simd吞吐量吧，phi的小核还有avx512呢</span><br>
+</p><p><b>Gnyueh: </b><br>
+<span> 本帖最后由 Gnyueh 于 2020-3-14 23:31 编辑 </span><br>
+<span>hgfdsa 发表于 2020-3-14 22:41</span><br>
+<span>你说的是simd吞吐量吧，phi的小核还有avx512呢</span><br>
+<span>不是，单纯的每GHz指令数，tremont核心到现在只支持SSE，Phi的魔改核心的原版Silvermont基本是他太太爷爷辈了，IPC高出很多很多https://images.anandtech.com/doci/15009/Tremont%20-%20Stephen%20Robinson%20-%20Linley%20-%20Final-page-012.jpg</span><br>
+<img src="https://images.anandtech.com/doci/15009/Tremont%20-%20Stephen%20Robinson%20-%20Linley%20-%20Final-page-003_575px.jpg" title="https://images.anandtech.com/doci/15009/Tremont%20-%20Stephen%20Robinson%20-%20Linley%20-%20Final-page-003_575px.jpg"><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1918614[0-50]</guid>
+    </item>
+  </channel>
+</rss>

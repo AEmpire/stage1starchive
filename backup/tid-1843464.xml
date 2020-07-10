@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GNUnet 去中心化网络栈</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>GNUnet 去中心化网络栈</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:22:22 +0000</lastBuildDate>
+    <item>
+      <title>GNUnet 去中心化网络栈[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843464-1-1.html</link>
+      <description>GNUnet 去中心化网络栈&#13;
+GNU很多项目还是很有意思的，今天就发现了这个GNUnet。
+&#13;
+这里有一个简短的usage。
+&#13;
+当然对我们最有用的还是文件分享，和同样是P2P的BT相比，这个自带搜索。
+&#13;
+值得一提还有一个DNS的alternative，GNS，然而GNS也是去中心化的，一开始是空的。。。</description>
+      <content:encoded><![CDATA[<p><b>darwin40: </b><br>
+<span>GNUnet 去中心化网络栈</span><br>
+<span>GNU很多项目还是很有意思的，今天就发现了这个GNUnet。</span><br>
+<span>这里有一个简短的usage。</span><br>
+<span>当然对我们最有用的还是文件分享，和同样是P2P的BT相比，这个自带搜索。</span><br>
+<span>值得一提还有一个DNS的alternative，GNS，然而GNS也是去中心化的，一开始是空的。。。</span><br>
+</p><p><b>kyokofsky: </b><br>
+<span>马一下，看看有没有啥教程之类的</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.1</span><br>
+</p><p><b>calmer: </b><br>
+<span>你这个感觉都十几年没怎么更新了</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>伊可费斯: </b><br>
+<span>这不就是我之前想的分布式种子储存么</span><br>
+</p><p><b>linjia: </b><br>
+<span>安装不了</span><br>
+<span>gnunet-arm -I</span><br>
+<span>7月 01 14:00:36-119907 util-disk-29216 WARNING `stat' failed on file `/lib/share/gnunet/config.d' at disk.c:1258 with error: 没有那个文件或目录</span><br>
+<span>7月 01 14:00:36-119976 gnunet-arm-29216 ERROR Unreadable or malformed default configuration file `~/.config/gnunet.conf', exit ...</span><br>
+</p><p><b>darwin40: </b><br>
+<span>kyokofsky 发表于 2019-7-1 13:10</span><br>
+<span>马一下，看看有没有啥教程之类的</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 8.0.0上的 S1Next-鹅版 v2.1.1 ...</span><br>
+<span>教程基本就是GNU自己的文档</span><br>
+</p><p><b>darwin40: </b><br>
+<span>calmer 发表于 2019-7-1 13:50</span><br>
+<span>你这个感觉都十几年没怎么更新了</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-p ...</span><br>
+<span>2019-06-05: GNUnet 0.11.5 released</span><br>
+</p><p><b>darwin40: </b><br>
+<span>linjia 发表于 2019-7-1 14:02</span><br>
+<span>安装不了</span><br>
+<span>gnunet-arm -I</span><br>
+<span>Use gnunet-setup to create the configuration.</span><br>
+</p><p><b>calmer: </b><br>
+<span>darwin40 发表于 2019-7-1 18:34</span><br>
+<span>2019-06-05: GNUnet 0.11.5 released</span><br>
+<span>软件是还活着。我想说的是十几年了网络的基本环境都不一样了，但这货协议没有大的变化，也没经受大规模应用和攻击的考验。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>darwin40: </b><br>
+<span>calmer 发表于 2019-7-1 20:17</span><br>
+<span>软件是还活着。我想说的是十几年了网络的基本环境都不一样了，但这货协议没有大的变化，也没经受大规模应 ...</span><br>
+<span>一、没有大变化，你可以套到很多网络协议上。</span><br>
+<span>二、</span><br>
+<span>https://ieeexplore.ieee.org/document/6849107</span><br>
+<span>https://ieeexplore.ieee.org/document/6092764</span><br>
+<span>你发几篇文章怼回去？</span><br>
+</p><p><b>dodolee: </b><br>
+<span>我记得以前有个freenet，是不是类似的东西？</span><br>
+</p><p><b>darwin40: </b><br>
+<span>dodolee 发表于 2019-7-1 21:04</span><br>
+<span>我记得以前有个freenet，是不是类似的东西？</span><br>
+<span>我看了下wikipedia，似乎有点类似，不过努力的方向不同。</span><br>
+<span>没理解错的话，GNUnet是给TCP/IP协议栈提供去中心化的替代，而Freenet似乎更注重匿名性，比如上暗网啥的。。。</span><br>
+</p><p><b>calmer: </b><br>
+<span>darwin40 发表于 2019-7-1 20:55</span><br>
+<span>一、没有大变化，你可以套到很多网络协议上。</span><br>
+<span>二、</span><br>
+<span>行了行了知道了安慰一下自己一年几万博士毕业不是每篇都是宝藏。不回了。</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>akitox: </b><br>
+<span>可以踩下坑试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843464[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NAS小白求问加装硬盘的事儿</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NAS小白求问加装硬盘的事儿</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:24:03 +0000</lastBuildDate>
+    <item>
+      <title>NAS小白求问加装硬盘的事儿[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843203-1-1.html</link>
+      <description>NAS小白求问加装硬盘的事儿&#13;
+ 本帖最后由 Metropolis 于 2019-6-30 00:21 编辑 
+
+纯nas白痴。买了个synology 218+。最开始只装了一个10tb的硬盘，现在快满了想装第二个就又买了一个同样的10tb硬盘， 我按照这个链接 https://www.synology.com/zh-cn/k ... ool_expand_add_disk 的方法搞完以后现在虽然第二个硬盘被识别了但是总量大小根本没变如下图……
+&#13;
+所以现在我咋办啊？</description>
+      <content:encoded><![CDATA[<p><b>Metropolis: </b><br>
+<span>NAS小白求问加装硬盘的事儿</span><br>
+<span> 本帖最后由 Metropolis 于 2019-6-30 00:21 编辑 </span><br>
+<span>纯nas白痴。买了个synology 218+。最开始只装了一个10tb的硬盘，现在快满了想装第二个就又买了一个同样的10tb硬盘， 我按照这个链接 https://www.synology.com/zh-cn/k ... ool_expand_add_disk 的方法搞完以后现在虽然第二个硬盘被识别了但是总量大小根本没变如下图……</span><br>
+<span>所以现在我咋办啊？</span><br>
+</p><p><b>password: </b><br>
+<span> 本帖最后由 password 于 2019-6-30 00:32 编辑 </span><br>
+<span>你给的链接里不是写着吗</span><br>
+<span>对于含有一个硬盘的 SHR 存储空间，存储容量仅在添加两个或更多硬盘时才扩充。</span><br>
+<span>SHR群晖有计算器 你要算不来可以参考</span><br>
+<span>https://www.synology.cn/zh-cn/support/RAID_calculator</span><br>
+<span>其实就是一块校验盘+N块数据盘 校验盘的容量要大于或等于每块数据盘容量</span><br>
+<span>你加入的第二块10T变成了校验盘 所以Pool的容量大小当然不会增加</span><br>
+</p><p><b>john: </b><br>
+<span>https://www.chiphell.com/thread-1392816-1-1.html</span><br>
+</p><p><b>Metropolis: </b><br>
+<span>john 发表于 2019-6-30 00:58</span><br>
+<span>https://www.chiphell.com/thread-1392816-1-1.html</span><br>
+<span>我靠就是要这个！ 谢谢！</span><br>
+</p><p><b>人造小鸡鸡: </b><br>
+<span>你做了raid备份，218两盘位只能做raid1，就是1比1，所以装两个还是10T.。</span><br>
+<span>讲真你要10T真不如买4盘位的918+，装4个4T的，可用可以有12T.。。</span><br>
+</p><p><b>Metropolis: </b><br>
+<span>人造小鸡鸡 发表于 2019-6-30 02:11</span><br>
+<span>你做了raid备份，218两盘位只能做raid1，就是1比1，所以装两个还是10T.。</span><br>
+<span>讲真你要10T真不如买4盘位的918+ ...</span><br>
+<span>哎，因为屁也不懂所以趁218+打折就买了。我直接改成basic模式得了。反正也就是主要搞plex，也不怕冒险。</span><br>
+</p><p><b>人造小鸡鸡: </b><br>
+<span>Metropolis 发表于 2019-6-30 08:21</span><br>
+<span>哎，因为屁也不懂所以趁218+打折就买了。我直接改成basic模式得了。反正也就是主要搞plex，也不怕冒险。 ...</span><br>
+<span>basic也是有备份的，改成j什么的那个</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>人造小鸡鸡 发表于 2019-6-30 10:56</span><br>
+<span>basic也是有备份的，改成j什么的那个</span><br>
+<span>basic有啥备份？各盘独立工作</span><br>
+<span>jbod才害人好吧，一盘挂了全没了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843203[0-50]</guid>
+    </item>
+  </channel>
+</rss>

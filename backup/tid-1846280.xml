@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>欧版xz2刷国行系统导致超逼真模式丢失有没解决办法</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>欧版xz2刷国行系统导致超逼真模式丢失有没解决办法</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:04:23 +0000</lastBuildDate>
+    <item>
+      <title>欧版xz2刷国行系统导致超逼真模式丢失有没解决办法[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1846280-1-1.html</link>
+      <description>欧版xz2刷国行系统导致超逼真模式丢失有没解决办法&#13;
+刷成国行超逼真模式点了画面没变化，视频增强模式点了预览图会变，但实际视频播放还是没变化，应该没解过bl锁，相机拍照也没噪点。这个问题有办法解决吗</description>
+      <content:encoded><![CDATA[<p><b>翠乙鼠: </b><br>
+<span>欧版xz2刷国行系统导致超逼真模式丢失有没解决办法</span><br>
+<span>刷成国行超逼真模式点了画面没变化，视频增强模式点了预览图会变，但实际视频播放还是没变化，应该没解过bl锁，相机拍照也没噪点。这个问题有办法解决吗</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-7-12 23:54 编辑 </span><br>
+<span>你是固件降级强刷的吧</span><br>
+<span>flash compatible firmware</span><br>
+<span>You can use newflasher tool from @munjeni and use instructions there to flash the firmware.</span><br>
+<span>The tool should skip dangerous .ta files automatically. You may consider removing Just remove the persist_X-FLASH-ALL-42E5.sin file, which is discussed here to avoid flashing it - as tested by @tanapoom1234, not flashing the persist partition allows to keep the Android Attest Key - check his post#212. /Added on 2019-04-06: The key is not part of TA obviously, it is present in the persist partition, so never flash persist even after TA backup./</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>翠乙鼠: </b><br>
+<span>伊克路西安 发表于 2019-7-12 23:48</span><br>
+<span>你是固件降级强刷的吧</span><br>
+<span>flash compatible firmware</span><br>
+<span>固件降级强刷是啥意思，9.0刷8.0？我应该是8.0欧刷9.0国行</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>翠乙鼠: </b><br>
+<span> 本帖最后由 翠乙鼠 于 2019-7-13 12:15 编辑 </span><br>
+<span>用了索尼官方的软件修复，进度条跑到一半机器重启，软件提示要解锁，把屏幕锁取消了还是这样</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>两个路人: </b><br>
+<span>看来da法机木有人quan，已被泥潭抛弃。刷机前就该先踩好点，要不解BL算了 😂</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>拨号盘输 *#*#7378423#*#*</span><br>
+<span>service info</span><br>
+<span>security</span><br>
+<span>截个图看看 imei自己打个马赛克</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>翠乙鼠: </b><br>
+<span>伊克路西安 发表于 2019-7-13 13:01</span><br>
+<span>拨号盘输 *#*#7378423#*#*</span><br>
+<span>service info</span><br>
+<span>security</span><br>
+<img src="https://i.loli.net/2019/07/13/5d29713a48c3d26419.png" title="https://i.loli.net/2019/07/13/5d29713a48c3d26419.png"><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-7-13 14:53 编辑 </span><br>
+<span>翠乙鼠 发表于 2019-7-13 13:49</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>就我楼上引用的那段。。你刷机时丢失了attest key</span><br>
+<span>具体参考这个帖子</span><br>
+<span>https://forum.xda-developers.com/xperia-xz1-compact/help/android-attest-key-lost-bootloader-t3829945</span><br>
+<span>不知道xz2有无解决办法</span><br>
+<span>—— 来自 google Pixel C, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>翠乙鼠: </b><br>
+<span>伊克路西安 发表于 2019-7-13 14:50</span><br>
+<span>就我楼上引用的那段。。你刷机时丢失了attest key</span><br>
+<span>具体参考这个帖子</span><br>
+<span>https://forum.xda-developers.com/x ...</span><br>
+<span>重新刷了一遍系统，图像增强模式可以用了，但这个attest key还是显示丢失的，这个会有什么坏影响吗</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>翠乙鼠 发表于 2019-7-13 23:05</span><br>
+<span>重新刷了一遍系统，图像增强模式可以用了，但这个attest key还是显示丢失的，这个会有什么坏影响吗</span><br>
+<span>—— ...</span><br>
+<span>一般来说就是图像增强不能开。。不过你这个又丢了key又能开是挺迷的。。</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1846280[0-50]</guid>
+    </item>
+  </channel>
+</rss>

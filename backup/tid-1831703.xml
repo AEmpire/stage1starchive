@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助，usb c 3接头有不同规格吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助，usb c 3接头有不同规格吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:34:43 +0000</lastBuildDate>
+    <item>
+      <title>求助，usb c 3接头有不同规格吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831703-1-1.html</link>
+      <description>求助，usb c 3接头有不同规格吗？&#13;
+ 本帖最后由 serial 于 2019-5-15 16:38 编辑 
+
+手上有一个zed相机，用原装typeC to typeA的线，lsusb能识别出两个设备id
+&#13;
+Bus 002 Device 004: ID 2b03:f682
+&#13;
+Bus 001 Device 010: ID 2b03:f681
+&#13;
+ls /dev/ 能看到video0 
+&#13;
+但是换用第三方的typeC to typeA线，就lsusb只能识别
+&#13;
+Bus 001 Device 009: ID 2b03:f681 
+&#13;
+ls dev 识别不了video
+&#13;
+求求哪位diao大的大哥指点一下，这是什么问题？</description>
+      <content:encoded><![CDATA[<p><b>serial: </b><br>
+<span>求助，usb c 3接头有不同规格吗？</span><br>
+<span> 本帖最后由 serial 于 2019-5-15 16:38 编辑 </span><br>
+<span>手上有一个zed相机，用原装typeC to typeA的线，lsusb能识别出两个设备id</span><br>
+<span>Bus 002 Device 004: ID 2b03:f682</span><br>
+<span>Bus 001 Device 010: ID 2b03:f681</span><br>
+<span>ls /dev/ 能看到video0 </span><br>
+<span>但是换用第三方的typeC to typeA线，就lsusb只能识别</span><br>
+<span>Bus 001 Device 009: ID 2b03:f681 </span><br>
+<span>ls dev 识别不了video</span><br>
+<span>求求哪位diao大的大哥指点一下，这是什么问题？</span><br>
+</p><p><b>serial: </b><br>
+<span>仔细看了一下，发现原装的usb type c接口居然是有方向性的，应该是厂家定制了线的接口定义，和普通的线不一样。妈的智障，太傻逼了</span><br>
+</p><p><b>neverer: </b><br>
+<span>type c只是个皮，里面不一定一样</span><br>
+</p><p><b>DENHJD: </b><br>
+<span>zed是usb3.0，是不是你用了usb2.0的线？</span><br>
+</p><p><b>yuuu: </b><br>
+<span>typec有usb 2.0，usb3.0，usb3.1gen2，thunderbolt3四种通用接口，定制接口就不了解了</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>serial: </b><br>
+<span>DENHJD 发表于 2019-5-15 19:10</span><br>
+<span>zed是usb3.0，是不是你用了usb2.0的线？</span><br>
+<span>解释疏忽了，我用的是zed mini， 这货的type c真的是有定制方向的。仔细看error发现有提示 flip and replug or plug in usb 3 port. 我确认第三方线材是usb3，而且用移动硬盘的3.1的c c线试了，也是这个问题</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831703[0-50]</guid>
+    </item>
+  </channel>
+</rss>

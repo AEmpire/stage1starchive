@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>迅雷极速版改下载目录相关设置的一点研究和疑问咨询</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>迅雷极速版改下载目录相关设置的一点研究和疑问咨询</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:10:15 +0000</lastBuildDate>
+    <item>
+      <title>迅雷极速版改下载目录相关设置的一点研究和疑问咨询[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1835689-1-1.html</link>
+      <description>迅雷极速版改下载目录相关设置的一点研究和疑问咨询&#13;
+ 本帖最后由 妹控使徒 于 2019-5-30 21:46 编辑 
+
+起始目的是扩展下载目录数默认那点不够用而且没发现更改途径   于是最近终于动手了   
+&#13;
+然后找到了这块代码以及其对应的部分
+&#13;
+http://wx4.sinaimg.cn/large/638aaa96gy1g3jod6yz5kj20lx0mrgp1.jpg
+&#13;
+http://wx3.sinaimg.cn/large/638aaa96gy1g3jod7c7tgj20a107dt8y.jpg
+&#13;
+默认只有10个目录而之后添加第11 12目录并没有在目录里显示出来似乎PATH这个值设置了10个上限    而整个设置文档里没有其他相关数据   隔壁的taskDB也不像是具体如何找到并修改path这个值的属性比较好奇
+&#13;
+不过单就这个设置文档还是有一定价值----------------------一般第10个目录是"迅雷下载"这个无法更改的目录而这儿可以将其删除掉 也就是让第10个下载目录位可动
+&#13;
+总之要咨询的问题就是那个决定已存储下载目录上限的值(似乎是path)如何查找并修改掉</description>
+      <content:encoded><![CDATA[<p><b>妹控使徒: </b><br>
+<span>迅雷极速版改下载目录相关设置的一点研究和疑问咨询</span><br>
+<span> 本帖最后由 妹控使徒 于 2019-5-30 21:46 编辑 </span><br>
+<span>起始目的是扩展下载目录数默认那点不够用而且没发现更改途径   于是最近终于动手了   </span><br>
+<span>然后找到了这块代码以及其对应的部分</span><br>
+<img src="http://wx4.sinaimg.cn/large/638aaa96gy1g3jod6yz5kj20lx0mrgp1.jpg" title="http://wx4.sinaimg.cn/large/638aaa96gy1g3jod6yz5kj20lx0mrgp1.jpg"><br>
+<img src="http://wx3.sinaimg.cn/large/638aaa96gy1g3jod7c7tgj20a107dt8y.jpg" title="http://wx3.sinaimg.cn/large/638aaa96gy1g3jod7c7tgj20a107dt8y.jpg"><br>
+<span>默认只有10个目录而之后添加第11 12目录并没有在目录里显示出来似乎PATH这个值设置了10个上限    而整个设置文档里没有其他相关数据   隔壁的taskDB也不像是具体如何找到并修改path这个值的属性比较好奇</span><br>
+<span>不过单就这个设置文档还是有一定价值----------------------一般第10个目录是"迅雷下载"这个无法更改的目录而这儿可以将其删除掉 也就是让第10个下载目录位可动</span><br>
+<span>总之要咨询的问题就是那个决定已存储下载目录上限的值(似乎是path)如何查找并修改掉</span><br>
+</p><p><b>BankA: </b><br>
+<span>imgur墙了。换个imgbb，微博图床或者smms我们再聊。搜一搜就有了。</span><br>
+</p><p><b>finger: </b><br>
+<span>目录名字节长度限制才是，迅雷又不准修改次级目录名称。搞得有些资源没法用迅雷下</span><br>
+</p><p><b>两个路人: </b><br>
+<span>多套几个软链接嘛（摊手</span><br>
+</p><p><b>commanderyuri: </b><br>
+<span>有可能 程序代码里面hardcode了上限</span><br>
+<span>—— 来自 Sony G8342, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1835689[0-50]</guid>
+    </item>
+  </channel>
+</rss>

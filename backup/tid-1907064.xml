@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>码农归外野，牛客网这oj是什么鬼？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>码农归外野，牛客网这oj是什么鬼？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 10:58:33 +0000</lastBuildDate>
+    <item>
+      <title>码农归外野，牛客网这oj是什么鬼？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1907064-1-1.html</link>
+      <description>码农归外野，牛客网这oj是什么鬼？&#13;
+比如这题吧，没啥难度，在leetcode大概算easy，自测没问题，但是oj一直不过是什么鬼？
+&#13;
+https://i.loli.net/2020/01/02/Mz9Exh6kAR2v8pm.png
+&#13;
+代码如下：
+&#13;
+import java.util.*;
+&#13;
+public class Main{
+&#13;
+    public static void main(String[] args) {
+&#13;
+      Scanner sc = new Scanner(System.in);
+&#13;
+      String str = new String();
+&#13;
+      if (sc.hasNext()) {str = sc.next();}
+&#13;
+      int[] table = new int;
+&#13;
+      StringBuffer ans = new StringBuffer();
+&#13;
+      for (int i=0; i&lt;str.length(); i++) {
+&#13;
+            char c = str.charAt(i);
+&#13;
+            if (table == 0) {table++; ans.append(c);}
+&#13;
+      }
+&#13;
+      System.out.println(ans);
+&#13;
+    }
+&#13;
+}
+&#13;
+oj一直说输出为空
+&#13;
+https://i.loli.net/2020/01/02/17FIs2TCdpNYluf.png
+&#13;
+但是拿这个case自测没问题啊
+&#13;
+https://i.loli.net/2020/01/02/QxKUDboC5gkjBd7.png
+&#13;
+疯了，谁能告诉我问题出在哪？为啥不学leetcode直接return不好吗？非要用stdin/stdout来oj，头疼</description>
+      <content:encoded><![CDATA[<p><b>蓝翔技校: </b><br>
+<span>码农归外野，牛客网这oj是什么鬼？</span><br>
+<span>比如这题吧，没啥难度，在leetcode大概算easy，自测没问题，但是oj一直不过是什么鬼？</span><br>
+<img src="https://i.loli.net/2020/01/02/Mz9Exh6kAR2v8pm.png" title="https://i.loli.net/2020/01/02/Mz9Exh6kAR2v8pm.png"><br>
+<span>代码如下：</span><br>
+<span>import java.util.*;</span><br>
+<span>public class Main{</span><br>
+<span>    public static void main(String[] args) {</span><br>
+<span>      Scanner sc = new Scanner(System.in);</span><br>
+<span>      String str = new String();</span><br>
+<span>      if (sc.hasNext()) {str = sc.next();}</span><br>
+<span>      int[] table = new int;</span><br>
+<span>      StringBuffer ans = new StringBuffer();</span><br>
+<span>      for (int i=0; i<str.length(); i++) {</span><br>
+<span>            char c = str.charAt(i);</span><br>
+<span>            if (table == 0) {table++; ans.append(c);}</span><br>
+<span>      }</span><br>
+<span>      System.out.println(ans);</span><br>
+<span>    }</span><br>
+<span>}</span><br>
+<span>oj一直说输出为空</span><br>
+<img src="https://i.loli.net/2020/01/02/17FIs2TCdpNYluf.png" title="https://i.loli.net/2020/01/02/17FIs2TCdpNYluf.png"><br>
+<span>但是拿这个case自测没问题啊</span><br>
+<img src="https://i.loli.net/2020/01/02/QxKUDboC5gkjBd7.png" title="https://i.loli.net/2020/01/02/QxKUDboC5gkjBd7.png"><br>
+<span>疯了，谁能告诉我问题出在哪？为啥不学leetcode直接return不好吗？非要用stdin/stdout来oj，头疼</span><br>
+</p><p><b>苇原雪道: </b><br>
+<span>信息竞赛的oj大部分都是std输入输出的，return的反而是少数。</span><br>
+</p><p><b>風舞雪: </b><br>
+<span>为什么要用这个呢。。直接用leetcode不得了</span><br>
+<span>多想不开？</span><br>
+</p><p><b>jpcl: </b><br>
+<span>你看你们java程序员多辛苦</span><br>
+<span>投入ruby怀抱，一行解决问题</span><br>
+<span>puts gets.strip.each_char.uniq.join</span><br>
+</p><p><b>whzfjk: </b><br>
+<span> 本帖最后由 whzfjk 于 2020-1-2 02:48 编辑 </span><br>
+<span>喷了，那个 if (sc.hasNext()) 什么鬼，多样例处理呢？</span><br>
+<span>你只输出了第一个结果，从第二个结果开始看，就相当于返回空串了（不过还是应该判断下结果数量才对）</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>因为你这程序输入一次就结束了</span><br>
+<span>放循环里就行</span><br>
+<span>import java.util.*;</span><br>
+<span>public class Main{</span><br>
+<span>public static void main(String[] args) {</span><br>
+<span>    Scanner sc = new Scanner(System.in);</span><br>
+<span>    String str = new String();</span><br>
+<span>    while (sc.hasNext()) {</span><br>
+<span>      str = sc.next();</span><br>
+<span>      int[] table = new int;</span><br>
+<span>      StringBuffer ans = new StringBuffer();</span><br>
+<span>      for (int i=0; i<str.length(); i++) {</span><br>
+<span>      char c = str.charAt(i);</span><br>
+<span>      if (table == 0) {table++; ans.append(c);}</span><br>
+<span>      }</span><br>
+<span>      System.out.println(ans);</span><br>
+<span>    }</span><br>
+<span>    sc.close();</span><br>
+<span>}</span><br>
+<span>}</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1907064[0-50]</guid>
+    </item>
+  </channel>
+</rss>

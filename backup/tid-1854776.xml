@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Windows 10更新后无法联网</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Windows 10更新后无法联网</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:11:08 +0000</lastBuildDate>
+    <item>
+      <title>Windows 10更新后无法联网[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1854776-1-1.html</link>
+      <description>Windows 10更新后无法联网&#13;
+看事件日志最后一个打上的包是KB4512508，os版本是18362.295。
+
+尝试用以太网和Wifi都没法连上网，Wifi可以连上路由但是显示无网络连接。ipconfig卡在Windows IP 配置。
+
+试了网上各种winsock reset大法，ipconfig renew，都无效，网卡驱动卸载重装过了，也无效。
+
+网卡是华擎太极z390自带的，目前接上网线的口绿灯常亮黄灯闪。
+
+找不出问题，准备重装win10了。
+
+建议还没升级的坛友谨慎升级。</description>
+      <content:encoded><![CDATA[<p><b>route666: </b><br>
+<span>Windows 10更新后无法联网</span><br>
+<span>看事件日志最后一个打上的包是KB4512508，os版本是18362.295。</span><br>
+<span>尝试用以太网和Wifi都没法连上网，Wifi可以连上路由但是显示无网络连接。ipconfig卡在Windows IP 配置。</span><br>
+<span>试了网上各种winsock reset大法，ipconfig renew，都无效，网卡驱动卸载重装过了，也无效。</span><br>
+<span>网卡是华擎太极z390自带的，目前接上网线的口绿灯常亮黄灯闪。</span><br>
+<span>找不出问题，准备重装win10了。</span><br>
+<span>建议还没升级的坛友谨慎升级。</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>不是，可以回滚你干嘛重装</span><br>
+<span>如果只是一个补丁问题，你卸载它啊</span><br>
+</p><p><b>hollowd: </b><br>
+<span>更改适配器那里网卡启用了吗，用window自带的修复工具报什么错？</span><br>
+</p><p><b>shilaimu: </b><br>
+<span>我也遇到同样问题，1803升级1903后无法上网，直接回滚了</span><br>
+</p><p><b>route666: </b><br>
+<span>天神十三煞 发表于 2019-8-20 22:52</span><br>
+<span>不是，可以回滚你干嘛重装</span><br>
+<span>如果只是一个补丁问题，你卸载它啊</span><br>
+<span>忘了说，卸载更新也没解决</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>route666: </b><br>
+<span>hollowd 发表于 2019-8-20 22:57</span><br>
+<span>更改适配器那里网卡启用了吗，用window自带的修复工具报什么错？</span><br>
+<span>启用了，而且WiFi也连不上应该不是设备没启用的问题。疑难解答似乎没提供什么有用的信息。</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1854776[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>有什么办法能自动的把数据填入安卓app？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>有什么办法能自动的把数据填入安卓app？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:38:06 +0000</lastBuildDate>
+    <item>
+      <title>有什么办法能自动的把数据填入安卓app？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859973-1-1.html</link>
+      <description>有什么办法能自动的把数据填入安卓app？&#13;
+如题，数据是姓名学号手机号之类的，目前以表格的形式放在word里，填入app的过程类似于账号注册。app只有一个权限账号能填入数据，而且账号不允许多个人同时在线。
+&#13;
+煞笔学生组织下放的任务，几百个人的数据，一个个复制粘贴要弄四五个小时，手和眼睛真的受不了。求坛友支招</description>
+      <content:encoded><![CDATA[<p><b>Kaltsit: </b><br>
+<span>有什么办法能自动的把数据填入安卓app？</span><br>
+<span>如题，数据是姓名学号手机号之类的，目前以表格的形式放在word里，填入app的过程类似于账号注册。app只有一个权限账号能填入数据，而且账号不允许多个人同时在线。</span><br>
+<span>煞笔学生组织下放的任务，几百个人的数据，一个个复制粘贴要弄四五个小时，手和眼睛真的受不了。求坛友支招</span><br>
+</p><p><b>yamori: </b><br>
+<span>试试模拟器+按键精灵</span><br>
+</p><p><b>脑洞: </b><br>
+<span>既然到不了后台，只能想到模拟器了，研究API什么的只会花更多时间</span><br>
+</p><p><b>Kaltsit: </b><br>
+<span>yamori 发表于 2019-10-17 18:35</span><br>
+<span>试试模拟器+按键精灵</span><br>
+<span>因为这个app的某些其他用途有人用安卓模拟器作弊，所以加了检测到模拟器就无法登入的功能</span><br>
+<span>按键精灵以前玩辣鸡手游的时候用过，感觉精度不高啊，操作经常出错</span><br>
+</p><p><b>Kaltsit: </b><br>
+<span>脑洞 发表于 2019-10-17 18:42</span><br>
+<span>既然到不了后台，只能想到模拟器了，研究API什么的只会花更多时间</span><br>
+<span>恰巧没法用模拟器，看来只能重复劳动了</span><br>
+</p><p><b>亡斯非尔: </b><br>
+<span>实机也可以用按键精灵的</span><br>
+<span>—— 来自 HUAWEI LYA-AL00, Android 9上的 S1Next-鹅版 v2.0.4-play</span><br>
+</p><p><b>喵呜哇哈: </b><br>
+<span>装模拟器上，再用电脑版按键精灵</span><br>
+<span>—— 来自 samsung SM-G9550, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>zypyong: </b><br>
+<span>写个脚本干咯 不用模拟器手机也可以用的</span><br>
+</p><p><b>changeek: </b><br>
+<span>准备一台root的安卓机，开USB调试。电脑安装按键精灵手机版进行调试写脚本。按键精灵的找色找图还是挺准的，入门也不难</span><br>
+</p><p><b>是音sama: </b><br>
+<span>tc game 把手机投影到电脑上，然后用按键精灵</span><br>
+</p><p><b>佳丽三千到: </b><br>
+<span>手机连电脑上，脚本调用 </span><br>
+<span>adb shell inputtext </span><br>
+<span>就是姓名是中文的话有点小麻烦。 </span><br>
+<span>https://blog.csdn.net/slimboy123/article/details/54140029</span><br>
+<span>—— 来自 HUAWEI EVR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>titians: </b><br>
+<span>要不花点钱找人填吧，我觉得研究一堆东西的时间更久。</span><br>
+</p><p><b>littleli: </b><br>
+<span>autojs 用无障碍的api填</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859973[0-50]</guid>
+    </item>
+  </channel>
+</rss>

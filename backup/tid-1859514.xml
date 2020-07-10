@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Intel 取消了所有桌面级 10nm CPU 计划(更新intel官方回应。。)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Intel 取消了所有桌面级 10nm CPU 计划(更新intel官方回应。。)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:41:01 +0000</lastBuildDate>
+    <item>
+      <title>Intel 取消了所有桌面级 10nm CPU 计划(更新intel官方回应。。)[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859514-1-1.html</link>
+      <description>RIP 牙膏厂10nm桌面 CPU： Intel 取消了所有桌面级 10nm CPU 计划&#13;
+
+&#13;
+https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/51128-insider-geruechte-intel-streicht-10-nm-plaene-fuer-den-desktop-komplett.html 
+&#13;
+来自Intel内部的消息称，Intel取消了所有桌面级10nm CPU计划(包括早已取消的Ice Lake-S，以及这次爆出来的Tiger Lake-S和Alder Lake)，将会一直沿用14nm制程到至少2022年，并最终由7nm的Meteor Lake取代。</description>
+      <content:encoded><![CDATA[<p><b>vorastrix: </b><br>
+<span>kimmmmmm 发表于 2019-10-16 10:05</span><br>
+<span>如果牙膏厂把核显部分全换成cpu能不能战翻md</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>没用啊，除了9900k这类之外，其他hedt不是都没核显吗</span><br>
+</p><p><b>auraria: </b><br>
+<span>KOGmk2 发表于 2019-10-16 13:51</span><br>
+<span>随核心数上升RING总线需要的晶体管是超线性上升......所以牙膏堆核心也得上MESH,核显部分全抛了都未必能 ...</span><br>
+<span>12核上ringbus还是可以的，大不了双ringbus</span><br>
+<span>—— 来自 samsung SM-N9760, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>happydog: </b><br>
+<span>期待华为的鲲鹏cpu干死它。</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span> 本帖最后由 hgfdsa 于 2019-10-16 15:31 编辑 </span><br>
+<span>KOGmk2 发表于 2019-10-16 13:55</span><br>
+<span>桌面14nm++++++++++++++还可以抵抗一下,毕竟大堆I粉丝,服务器领域各家大佬的采购工程师可没有信仰,算力就 ...</span><br>
+<span>牙膏这几代工艺就指着堆频率压面积捞钱，主流产品一代比一代小。如果一开始就走低频堆核的路线，主流产品 32nm 4核3.5G，22nm 6核3.7G，14nm 8核 4G，10nm就不会这么尴尬了。今年出个单芯片16核 4.2G，搞个胶水，照样能压着农企打。</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>auraria 发表于 2019-10-16 14:52</span><br>
+<span>12核上ringbus还是可以的，大不了双ringbus</span><br>
+<span>—— 来自 samsung SM-N9760, Android 9上的 S1Next-鹅版 v2 ...</span><br>
+<span>就目前看ringbus还不如胶水，服务器上面多路这种延迟都能用，胶水总比多路强，ringbus的优势并不明显。</span><br>
+</p><p><b>acalephs: </b><br>
+<span>KOGmk2 发表于 2019-10-15 21:53</span><br>
+<span>高估了自己呗,初代10nm笔记本I3试了一下水才发觉坑炸,回头想修补一下才看出魔鬼全在细节中......另外7nm ...</span><br>
+<span>17年已经在延期了，intel的设计部门已经在抱怨这工艺什么沙雕了</span><br>
+</p><p><b>mimighost: </b><br>
+<span>KOGmk2 发表于 2019-10-16 13:53</span><br>
+<span>高估了自己呗,初代10nm笔记本I3试了一下水才发觉坑炸,回头想修补一下才看出魔鬼全在细节中......另外7nm ...</span><br>
+<span>据说是intel之前自己评估，不需要euv，而是多层曝光来达到更高的制程，完全没有投入euv相关的研发</span><br>
+<span>结果计划失败，良率低，效能差，现在才开始补euv的课，晚了</span><br>
+<span>人类半导体的希望居然是台积电了，233</span><br>
+</p><p><b>mimighost: </b><br>
+<span>intel现在最大的本钱是很多重型项目，比如说各种数据库软件之类的，没有针对amd的u优化过，所以云计算上还有些劣势</span><br>
+<span>不过要是2年之内没法把制程问题解决，他们就是等死了，活着还自己干什么foundry啊，也外包给台积电得了</span><br>
+</p><p><b>acalephs: </b><br>
+<span>mimighost 发表于 2019-10-16 13:56</span><br>
+<span>据说是intel之前自己评估，不需要euv，而是多层曝光来达到更高的制程，完全没有投入euv相关的研发</span><br>
+<span>结果 ...</span><br>
+<span>10nm确实不需要EUV，台积电N7也没有用EUV</span><br>
+<span>主要intel 10nm同时还上了Co互连、COAG等一堆新特性，结果寄生RC控制不住了，频率上不去</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>acalephs 发表于 2019-10-17 06:22</span><br>
+<span>10nm确实不需要EUV，台积电N7也没有用EUV</span><br>
+<span>主要intel 10nm同时还上了Co互连、COAG等一堆新特性，结果寄生R ...</span><br>
+<span>n7确实可以不用euv，但是人家也是准备好了euv升级n7+的，少量几层euv就可以提升20%密度，目前n7+的成品已经比intel10理论密度要高了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>mimighost 发表于 2019-10-17 05:59</span><br>
+<span>intel现在最大的本钱是很多重型项目，比如说各种数据库软件之类的，没有针对amd的u优化过，所以云计算上还 ...</span><br>
+<span>优化可以略微提升效能，但是肯定不能跨代提升，对面直接翻倍核心，卖的又便宜，现在也就靠惯性，等大批转向以后麻烦大了</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>auraria 发表于 2019-10-16 14:52</span><br>
+<span>12核上ringbus还是可以的，大不了双ringbus</span><br>
+<span>—— 来自 samsung SM-N9760, Android 9上的 S1Next-鹅版 v2 ...</span><br>
+<span>12以上的ringbus拖累所有核心，啥都慢，真心不如胶水实在</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>hgfdsa 发表于 2019-10-16 15:30</span><br>
+<span>牙膏这几代工艺就指着堆频率压面积捞钱，主流产品一代比一代小。如果一开始就走低频堆核的路线，主流产品...</span><br>
+<span>你说的不就是服务器端~~~桌面常年4C8T的时候服务器一年加几个核心----当时还一堆鼓吹的人号称牙膏虽然桌面不用心但是服务器还是稳步推进的......没想到对面直接核战,16-32-64连续核心翻倍瞬间让服务器端只看算力的部分也让牙膏捉襟见肘.</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>mimighost 发表于 2019-10-17 05:59</span><br>
+<span>intel现在最大的本钱是很多重型项目，比如说各种数据库软件之类的，没有针对amd的u优化过，所以云计算上还 ...</span><br>
+<span>牙膏一半的资产就是自己的FAB,要玩FABless出掉肯定得挥泪大甩卖,连续亏损计提怕不要几任CEO祭天背锅?</span><br>
+</p><p><b>无念: </b><br>
+<span>KOGmk2 发表于 2019-10-17 09:39</span><br>
+<span>牙膏一半的资产就是自己的FAB,要玩FABless出掉肯定得挥泪大甩卖,连续亏损计提怕不要几任CEO祭天背锅? ...</span><br>
+<span>2017年之前你跟我说英特尔会因为比钱比不过导致工艺难产我是完全不信的...太极殿多方引资代工牛逼!</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>KOGmk2 发表于 2019-10-17 09:37</span><br>
+<span>你说的不就是服务器端~~~桌面常年4C8T的时候服务器一年加几个核心----当时还一堆鼓吹的人号称牙膏虽然桌 ...</span><br>
+<span>intel向来是PC先行踩坑，服务器晚大半年等成本拉平才跟上。10nm是卡在PC上了，单线程倒退是消费者无法接受的，14nm要是只有4G主频，只怕10nm早就上了，自己挖的坑只能自己含泪填。</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span> 本帖最后由 KOGmk2 于 2019-10-17 11:24 编辑 </span><br>
+<span>hgfdsa 发表于 2019-10-17 10:49</span><br>
+<span>intel向来是PC先行踩坑，服务器晚大半年等成本拉平才跟上。10nm是卡在PC上了，单线程倒退是消费者无法接 ...</span><br>
+<span>其实如果牙膏目前正在游说的各家大型软件供应商取消按socket计费的许可证全面转向按thread计费的方案成功应该可以釜底抽薪......豹子头你就靠着那把刀厉害!不能堆核心的农企瞬间失去灵魂.</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>KOGmk2 发表于 2019-10-17 09:37</span><br>
+<span>你说的不就是服务器端~~~桌面常年4C8T的时候服务器一年加几个核心----当时还一堆鼓吹的人号称牙膏虽然桌 ...</span><br>
+<span>一代就是32c，二代翻倍，三代目前看不会翻倍只有不超过20%进步</span><br>
+<span>是tr翻倍，让intel根本没有办法应对</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>sblnrrk 发表于 2019-10-17 12:48</span><br>
+<span>一代就是32c，二代翻倍，三代目前看不会翻倍只有不超过20%进步</span><br>
+<span>是tr翻倍，让intel根本没有办法应对</span><br>
+<span>1950X-2990WX不是16C32T-32C64T吗?初代19Y0X有32C的版本?</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>KOGmk2 发表于 2019-10-17 13:06</span><br>
+<span>1950X-2990WX不是16C32T-32C64T吗?初代19Y0X有32C的版本?</span><br>
+<span>那不是服务器，最多算hedt</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>mimighost: </b><br>
+<span>sblnrrk 发表于 2019-10-17 09:00</span><br>
+<span>优化可以略微提升效能，但是肯定不能跨代提升，对面直接翻倍核心，卖的又便宜，现在也就靠惯性，等大批转 ...</span><br>
+<span>其实很多数据库目前都是单线程或者进程的模式，而且长期针对intel的u来进行优化，就算是在a的u上面有10%的regression，惯性原因肯定还是会坚守intel</span><br>
+<span>不过要是制程能够把单核性能追平，价格还有少的话，intel麻烦就大了。CPU本身已经是进化末期了，本来应该是强者恒强的寡头时代，结果自己掉链子了</span><br>
+</p><p><b>mimighost: </b><br>
+<span>KOGmk2 发表于 2019-10-17 09:39</span><br>
+<span>牙膏一半的资产就是自己的FAB,要玩FABless出掉肯定得挥泪大甩卖,连续亏损计提怕不要几任CEO祭天背锅? ...</span><br>
+<span>先进的fab才是资产，自己维护一套落后的fab只能被资本看成是累赘而已。</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>mimighost 发表于 2019-10-17 14:22</span><br>
+<span>其实很多数据库目前都是单线程或者进程的模式，而且长期针对intel的u来进行优化，就算是在a的u上面有10% ...</span><br>
+<span>目前，EPYC同频性能高于XEON，同时核心翻倍，功耗几乎不变</span><br>
+<span>CPU进化末期？不存在的，INTEL的摩尔定律 ，由台积电来推动</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>2019年10月17日- 台积电今天宣布，截至第三季度的合并收入为新台币2930.5亿元，净利润为新台币1010.7亿元，摊薄后每股收益为新台币3.90元（每美国存托凭证单位0.62美元） 2019年9月30日。</span><br>
+<span>与去年同期相比，第三季度收入增长了12.6％，而净收入和稀释后的每股收益均增长了13.5％。与2019年第二季度相比，第三季度的收入增长了21.6％，净收入增长了51.4％。所有数字均根据TIFRS合并编制。</span><br>
+<span>以美元计算，第三季度收入为94亿美元，同比增长10.7％，比上一季度增长21.3％。</span><br>
+<span>该季度的毛利率为47.6％，营业利润率为36.8％，净利润率为34.5％。</span><br>
+<span>第三季度，7纳米的出货量占晶圆总收入的27％，而10纳米工艺技术的出货量占2％，而16纳米的工艺技术占22％。先进技术定义为16纳米及更多先进技术，占晶圆总收入的51％。</span><br>
+<span>台积电副总裁兼首席财务官黄文德尔表示：“我们的第三季度业务得益于采用台积电行业领先的7纳米技术的高端智能手机和高性能计算应用中的新产品发布。“我们预计，在高端智能手机，最初的5G部署以及与HPC相关的应用的推动下，我们对7纳米技术的需求将持续下去。根据我们目前的业务前景，管理层预计2019年第四季度的整体业绩如下”：</span><br>
+<span>•   收入预计在102亿美元至103亿美元之间；</span><br>
+<span>并且，基于1美元对30.6新台币的汇率假设，</span><br>
+<span>•   毛利率预计在48％至50％之间；</span><br>
+<span>•   营业利润率预计在37％至39％之间。</span><br>
+<span> 管理层进一步预计2019年的资本预算将在140亿美元至150亿美元之间。</span><br>
+</p><p><b>ambivalence: </b><br>
+<span>KOGmk2 发表于 2019-10-17 11:00</span><br>
+<span>其实如果牙膏目前正在游说的各家大型软件供应商取消按socket计费的许可证全面转向按thread计费的方案成功 ...</span><br>
+<span>我便是没想到牙膏还能出这种招数</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>ambivalence 发表于 2019-10-18 12:15</span><br>
+<span>我便是没想到牙膏还能出这种招数</span><br>
+<span>一个愿打一个愿挨,农企现在这个一个socket64C128T未来可能128C256T的套路已经让大型软件商叫苦不迭了~~~单socket算力现在能顶以前3-4个,未来甚至可能1换10......等于无形中大型软件商的收入打二折甚至一折,如果改成thread收费,单thread同比相对以前价格低一点的方案对于各家大型软件商吸引力很大.</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859514[100-150]</guid>
+    </item>
+    <item>
+      <title>Intel 取消了所有桌面级 10nm CPU 计划(更新intel官方回应。。)[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859514-1-1.html</link>
+      <description>RIP 牙膏厂10nm桌面 CPU： Intel 取消了所有桌面级 10nm CPU 计划&#13;
+
+&#13;
+https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/51128-insider-geruechte-intel-streicht-10-nm-plaene-fuer-den-desktop-komplett.html 
+&#13;
+来自Intel内部的消息称，Intel取消了所有桌面级10nm CPU计划(包括早已取消的Ice Lake-S，以及这次爆出来的Tiger Lake-S和Alder Lake)，将会一直沿用14nm制程到至少2022年，并最终由7nm的Meteor Lake取代。</description>
+      <content:encoded><![CDATA[<p><b>无念: </b><br>
+<span>ufo2222 发表于 2019-10-15 09:51</span><br>
+<span>这下子14nm后面要几个+了？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+<span>14nm艹艹艹艹</span><br>
+<span>—— 来自 HUAWEI HMA-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>66666 发表于 2019-10-15 08:54</span><br>
+<span>不奇怪，牙膏厂10nm到目前为止频率都没超过14nm改，这上桌面有个屁用，又不是GPU还能玩堆规模</span><br>
+<span>民用CPU到8 ...</span><br>
+<span>上不去就上不去呗，不是号称IPC提升18%吗，单核性能差不都的情况下把核心数堆起来就行了。</span><br>
+</p><p><b>雪影: </b><br>
+<span>Realplayer 发表于 2019-10-15 09:34</span><br>
+<span>Late 2021年是几个意思？</span><br>
+<span>10nm桌面本来就预定是2021年</span><br>
+</p><p><b>melvin95: </b><br>
+<span>给机会农企起价</span><br>
+</p><p><b>天神十三煞: </b><br>
+<span>“我不是，我没有，你不要乱说啊”</span><br>
+<span>2021和2022年区别还是很大的，区别还是很大的，还是很大的，很大的！</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>sblnrrk 发表于 2019-10-15 06:07</span><br>
+<span>台积电真的无敌了，市场反超intel看来大家都有数</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版...</span><br>
+<span>太极殿等于高不通十八摸肾果菊花为农企联合传功和牙膏打对台,这里面任何一家牙膏都要头疼一下,联起手来牙膏表示我亚历山大啊</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>拆骨羊肉2 发表于 2019-10-15 08:00</span><br>
+<span>就这，nm因特尔还有脸天天换接口逼人换主板？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅 ...</span><br>
+<span>涨价去库存,不爽不要玩</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>雪影 发表于 2019-10-15 10:07</span><br>
+<span>10nm桌面本来就预定是2021年</span><br>
+<span>哪来的本来？</span><br>
+<span>10nm，outel 18年下半年说19年上（然鹅14nm都不够用要回到22nm），19年上半年说20年上，现在改到21年了？Gugutel？</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span> 本帖最后由 KOGmk2 于 2019-10-15 10:28 编辑 </span><br>
+<span>66666 发表于 2019-10-15 08:54</span><br>
+<span>不奇怪，牙膏厂10nm到目前为止频率都没超过14nm改，这上桌面有个屁用，又不是GPU还能玩堆规模</span><br>
+<span>民用CPU到8 ...</span><br>
+<span>14nm+那是7700K了,已经可以大范围全核4.5-4.6G......牙膏10nm真要能到这个频率配合号称的18% IPC加成,已经等效于5.31G到5.428G的XXlake,有这性能早拿出来了,按目前的移动10nm估计(牙膏桌面单核一般能比移动顶级高0.2G),估计目前牙膏的10nm上限不会超过4.2G,比农企4.4G砍头还惨</span><br>
+</p><p><b>拆骨羊肉2: </b><br>
+<span> 本帖最后由 拆骨羊肉2 于 2019-10-15 11:01 编辑 </span><br>
+<span>强尼高达 发表于 2019-10-15 08:14</span><br>
+<span>你要是觉得挤牙膏不用升级，换接口也没影响对吧</span><br>
+<span>从历史来看，不管你膏厂还是农企，不换接口理论上向上兼 ...</span><br>
+<span>故意不兼容老主板还用洗？</span><br>
+<span>同样接口故意锁bios不兼容的缺德事可都做了</span><br>
+<span>顺便如果intel不通过各种补丁砍旧cpu性能的话，以前的cpu确实不是不能用</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>KOGmk2 发表于 2019-10-15 10:26</span><br>
+<span>14nm+那是7700K了,已经可以大范围全核4.5-4.6G......牙膏10nm真要能到这个频率配合号称的18% IPC加成,已经 ...</span><br>
+<span>单核性能和农企差不多就够了，只要面积够小堆核不吃亏场面上就不会输。</span><br>
+</p><p><b>yuxiao: </b><br>
+<span>等等，若干年前还一直说的芯片工艺方面牙膏厂蓝星第一，吊打其它工厂的，现在怎么就这样了。。。？</span><br>
+</p><p><b>66666: </b><br>
+<span>hgfdsa 发表于 2019-10-15 10:44</span><br>
+<span>单核性能和农企差不多就够了，只要面积够小堆核不吃亏场面上就不会输。 ...</span><br>
+<span>进入Finfet领域以后，可就不是按核心面积来算成本了</span><br>
+<span>例如台漏电7nm晶元价格是12nm的4倍，你算算这得要多小面积和多高良率才能做到7nm成本更低？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>不就是10nm桌面cpu从原定2021年推迟到2022年吗，一年而已没啥</span><br>
+<span>大家更应该关注马上到来的9980XE和10980XE价格腰斩，牙膏难得的良心</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>7nm的die太小导致散热不行这也是个问题吧，不急着上也可以；不过7nm好处就是可以低成本堆cache，这代zen2的ipc这么好除了架构改进外，32MB的L3也是大功劳啊，这玩意很费晶体管的，14nm堆这么多成本就太高了</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span>2022 工藝燒錢是燒錢怕不是三星都趕上INTEL了</span><br>
+</p><p><b>tillnight: </b><br>
+<span>雪影 发表于 2019-10-15 10:07</span><br>
+<span>10nm桌面本来就预定是2021年</span><br>
+<span>late2021按照惯例稍微延期就滑到2022了，和谣言有360度的不同。</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>yuxiao 发表于 2019-10-15 11:12</span><br>
+<span>等等，若干年前还一直说的芯片工艺方面牙膏厂蓝星第一，吊打其它工厂的，现在怎么就这样了。。。？ ...</span><br>
+<span>这都是四五年前的旧事了,太极殿在移动SOC需求下一路高歌猛进,现在早就攻受逆转了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-10-15 12:28 编辑 </span><br>
+<span>通用引擎在推行并行开发框架而且对L3更加依赖,我看以后单核高频但是线程不够的U越来越难混了...</span><br>
+<span>小英英</span><br>
+<span>不如到时候桌面U价格全腰斩完事,壮士断了一条腕,再断另一条怕什么?</span><br>
+<span>kf都开始了,不如核显U也开始?</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>66666 发表于 2019-10-15 11:17</span><br>
+<span>进入Finfet领域以后，可就不是按核心面积来算成本了</span><br>
+<span>例如台漏电7nm晶元价格是12nm的4倍，你算算这得要多 ...</span><br>
+<span>物料成本的差距远没那么大，重要的是要收回初期投资，不量产，永远都没法收回投资。</span><br>
+<span>而且按intel的ppt，10nm密度提升到2.8倍，考虑良品率，晶圆成本4倍毫无压力。</span><br>
+</p><p><b>kvll32: </b><br>
+<span>恭喜牙膏厂转型拉链厂成功。</span><br>
+<span>14nm                </span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>塔奇克马 发表于 2019-10-15 12:27</span><br>
+<span>通用引擎在推行并行开发框架而且对L3更加依赖,我看以后单核高频但是线程不够的U越来越难混了...</span><br>
+<span>小英英</span><br>
+<span>不 ...</span><br>
+<span>核显?再没有什么核显了!为了堆10C20T甚至可能的12C24T,RING总线随核心数上升是指数扩张的,增加的CORE+缓存和需要的RING要消耗的面积可不小...这极度扭曲的核显也该入土了~~~居然是越高端的U核显越强简直匪夷所思</span><br>
+</p><p><b>tau_cross: </b><br>
+<span>yuxiao 发表于 2019-10-15 11:12:59</span><br>
+<span>等等，若干年前还一直说的芯片工艺方面牙膏厂蓝星第一，吊打其它工厂的，现在怎么就这样了。。。？ ...台漏电现在有苹果 海思 联发科 nv amd几位大佬伺候着 新工艺不愁没趟雷的 两面三刀高通都成了非优先客户</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>拥挤的屋顶: </b><br>
+<span>Update 10/14/2019 8:00pt: Intel confirmed to Tom's Hardware that its use of the "Desktop Products" in its statement means "Desktop CPUs," specifically. It's noteworthy that the statement could equate to NUC processors only, and numerous other possibilities abound (like 10nm CPUs for the HEDT market only), but Intel hasn't provided further clarity.</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>66666: </b><br>
+<span>hgfdsa 发表于 2019-10-15 12:35</span><br>
+<span>物料成本的差距远没那么大，重要的是要收回初期投资，不量产，永远都没法收回投资。</span><br>
+<span>而且按intel的ppt， ...</span><br>
+<span>不做桌面CPU不代表不用，移动SOC、FPGA等等不需要极限高频的场合都可以用10nm</span><br>
+<span>我的意思是就算10nm能做到14nm改频率一样，成本其实还是要高，作为牙膏厂来说并不划算</span><br>
+<span>即使是台漏电这样的厂也是有12nm、20nm、28nm乃至更老的工艺占据大量份额，请注意牙膏厂自有晶元厂，玩法可跟农企NV这样Fabless大有不同</span><br>
+</p><p><b>nodkane: </b><br>
+<span>14nm+∞</span><br>
+</p><p><b>暗黑大将军: </b><br>
+<span>9900k啥时降价</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>66666 发表于 2019-10-15 15:31</span><br>
+<span>不做桌面CPU不代表不用，移动SOC、FPGA等等不需要极限高频的场合都可以用10nm</span><br>
+<span>我的意思是就算10nm能做到 ...</span><br>
+<span>14NM的核心面积，对28C来说已经非常挤了，不得不缩L3，牙膏不可能在服务器上再挤</span><br>
+<span>但是你单开一条10NM只生产服务器，赔得屁股 都要光，桌面往往要分摊成本</span><br>
+<span>台积电那是不同的厂有不同的需求，它是世界第一大代工厂，INTEL能比么？</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>66666 发表于 2019-10-15 11:17</span><br>
+<span>进入Finfet领域以后，可就不是按核心面积来算成本了</span><br>
+<span>例如台漏电7nm晶元价格是12nm的4倍，你算算这得要多 ...</span><br>
+<span>台积电7NM的密度是96(DUV)/118(EUV) MT/sqmm，12NM密度是33，按照2.9-3.6倍的密度提升，造价提升4倍完全没有压力，等效晶体管价格提升10-37%，换来的是功耗巨大降低、面积缩小、可单芯片造更大的核心</span><br>
+<span>按台积电的惯例，良率不达标就不叫量产。如果按照你的说法，密度提升3倍，芯片缩小为三分之一大小，理论良率更高</span><br>
+</p><p><b>qazesz: </b><br>
+<span>拥挤的屋顶 发表于 2019-10-15 15:29</span><br>
+<span>Update 10/14/2019 8:00pt: Intel confirmed to Tom's Hardware that its use of the "Desktop Products" i ...</span><br>
+<span>好了好了，都知道10nm是鸡肋了，真正走量就等7nm吧</span><br>
+</p><p><b>mimighost: </b><br>
+<span>望月凝香 发表于 2019-10-15 08:00</span><br>
+<span>牙膏啊……</span><br>
+<span>这不是牙膏了，outel是真没牙膏了</span><br>
+</p><p><b>mimighost: </b><br>
+<span>2022年，我觉得那时候云计算厂商肯定epic的instance都有一些规模了，intel最后的城墙就要崩溃了</span><br>
+<span>做空intel更待何时，233</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>说白了，人家TSMC做各家处理器代工一年下来的经验顶你INTEL几年，注定被后来者超过甩的越来越远。INTEL迟早也会把FAB卖了</span><br>
+</p><p><b>madbird302: </b><br>
+<span>已经确认10nm还有，而且有桌面级产品，但具体是什么没说</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>mimighost 发表于 2019-10-15 20:48</span><br>
+<span>2022年，我觉得那时候云计算厂商肯定epic的instance都有一些规模了，intel最后的城墙就要崩溃了</span><br>
+<span>做空intel ...</span><br>
+<span>不要2022，2020就是这样的场面了，能耗比翻倍啥概念啊。。。</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>madbird302 发表于 2019-10-15 22:11</span><br>
+<span>已经确认10nm还有，而且有桌面级产品，但具体是什么没说</span><br>
+<span>更新10/14/2019 8:00pt:intel向tom的硬件确认，其在声明中使用的“桌面产品”具体指的是“桌面cpu”。值得注意的是，这一声明可能仅等同于nuc处理器，而且还有很多其他的可能性（比如10nm的cpu仅适用于hedt市场），但是英特尔没有提供进一步的明确性。</span><br>
+<span>机翻加减看一下吧......如果NUC/HEDT算desktop的话,那就算吧</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>二连自删</span><br>
+</p><p><b>madbird302: </b><br>
+<span>KOGmk2 发表于 2019-10-15 23:28</span><br>
+<span>更新10/14/2019 8:00pt:intel向tom的硬件确认，其在声明中使用的“桌面产品”具体指的是“桌面cpu”。值 ...</span><br>
+<span>是的，我是看的tomshardware的报道，只能等明年看了</span><br>
+</p><p><b>马金葛: </b><br>
+<span> 转贴机这次很强硬，intel否认了还继续开嘲讽，看来消息不假。</span><br>
+</p><p><b>acalephs: </b><br>
+<span>sblnrrk 发表于 2019-10-14 23:52</span><br>
+<span>14NM的核心面积，对28C来说已经非常挤了，不得不缩L3，牙膏不可能在服务器上再挤</span><br>
+<span>但是你单开一条10NM只 ...</span><br>
+<span>10nm FPGA已经在出货了，Intel 10nm低频应用应该没问题了，估计是高频还上不去</span><br>
+<span>一代里堆太多新特性是要翻车的呀，学学台积电把一代工艺拆成4、5个一步步来不好吗</span><br>
+</p><p><b>martinium: </b><br>
+<span>感觉我的AMD股票卖早了</span><br>
+<span>— from Google Pixel 2, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>我不再说牙膏厂了，我相信它是真没有了。</span><br>
+</p><p><b>寺川愛美: </b><br>
+<span>intel你這也......</span><br>
+</p><p><b>hgfdsa: </b><br>
+<span>66666 发表于 2019-10-15 15:31</span><br>
+<span>不做桌面CPU不代表不用，移动SOC、FPGA等等不需要极限高频的场合都可以用10nm</span><br>
+<span>我的意思是就算10nm能做到 ...</span><br>
+<span>不用就等着被农企堆核战术堆死吧，14nm密度已经差了50%，换到7nm，zen2的密度只怕是14nm+++的快3倍，牙膏拿什么打。</span><br>
+</p><p><b>kimmmmmm: </b><br>
+<span>如果牙膏厂把核显部分全换成cpu能不能战翻md</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>小白无机酸: </b><br>
+<span>牙膏厂：我真的，一滴也没有了.jpg</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>kimmmmmm 发表于 2019-10-16 10:05</span><br>
+<span>如果牙膏厂把核显部分全换成cpu能不能战翻md</span><br>
+<span>—— 来自 Xiaomi MIX 2S, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>随核心数上升RING总线需要的晶体管是超线性上升......所以牙膏堆核心也得上MESH,核显部分全抛了都未必能撑到12C24T</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>acalephs 发表于 2019-10-16 01:26</span><br>
+<span>10nm FPGA已经在出货了，Intel 10nm低频应用应该没问题了，估计是高频还上不去</span><br>
+<span>一代里堆太多新特性是要翻 ...</span><br>
+<span>高估了自己呗,初代10nm笔记本I3试了一下水才发觉坑炸,回头想修补一下才看出魔鬼全在细节中......另外7nm继续雷的概率也不是不存在,16-17年牙膏的10nm开发工作也是顺风顺水看起来毫无问题的</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>hgfdsa 发表于 2019-10-16 09:38</span><br>
+<span>不用就等着被农企堆核战术堆死吧，14nm密度已经差了50%，换到7nm，zen2的密度只怕是14nm+++的快3倍，牙膏 ...</span><br>
+<span>桌面14nm++++++++++++++还可以抵抗一下,毕竟大堆I粉丝,服务器领域各家大佬的采购工程师可没有信仰,算力就是一切</span><br>
+</p><p><b>creymorgan: </b><br>
+<span>KOGmk2 发表于 2019-10-16 13:51</span><br>
+<span>随核心数上升RING总线需要的晶体管是超线性上升......所以牙膏堆核心也得上MESH,核显部分全抛了都未必能 ...</span><br>
+<span>之前双环路堆出过22核，那样看没核显单环带12核问题不大。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859514[50-100]</guid>
+    </item>
+    <item>
+      <title>Intel 取消了所有桌面级 10nm CPU 计划(更新intel官方回应。。)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859514-1-1.html</link>
+      <description>RIP 牙膏厂10nm桌面 CPU： Intel 取消了所有桌面级 10nm CPU 计划&#13;
+
+&#13;
+https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/51128-insider-geruechte-intel-streicht-10-nm-plaene-fuer-den-desktop-komplett.html 
+&#13;
+来自Intel内部的消息称，Intel取消了所有桌面级10nm CPU计划(包括早已取消的Ice Lake-S，以及这次爆出来的Tiger Lake-S和Alder Lake)，将会一直沿用14nm制程到至少2022年，并最终由7nm的Meteor Lake取代。</description>
+      <content:encoded><![CDATA[<p><b>Radeon: </b><br>
+<span>RIP 牙膏厂10nm桌面 CPU： Intel 取消了所有桌面级 10nm CPU 计划</span><br>
+<span>https://www.hardwareluxx.de/index.php/news/hardware/prozessoren/51128-insider-geruechte-intel-streicht-10-nm-plaene-fuer-den-desktop-komplett.html </span><br>
+<span>来自Intel内部的消息称，Intel取消了所有桌面级10nm CPU计划(包括早已取消的Ice Lake-S，以及这次爆出来的Tiger Lake-S和Alder Lake)，将会一直沿用14nm制程到至少2022年，并最终由7nm的Meteor Lake取代。</span><br>
+</p><p><b>kumquat_cc: </b><br>
+<span>那是真的牛逼嗷，看来10nm上高频失败了啊</span><br>
+</p><p><b>datzz: </b><br>
+<span>2022年。。。</span><br>
+<span>也就是amd yes？</span><br>
+</p><p><b>雪影: </b><br>
+<span>得，真得上3700X了，黑五走起</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>牙膏会扣掉核显堆核吗，等3900x价格下来点来一发吧</span><br>
+<span>—— 来自 Sony H8296, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>AMD yes</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>madbird302: </b><br>
+<span>我觉得不太可能吧，14nm已经没有进一步优化的余地了，堆核心就是热量爆炸啊</span><br>
+</p><p><b>七草真由美: </b><br>
+<span>后两年就是多加几颗核心了，6核心的i3，8核心的i5</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Theseus: </b><br>
+<span>坐等那时候的5nm+的5950X 128核256线程</span><br>
+</p><p><b>welcom: </b><br>
+<span> 本帖最后由 welcom 于 2019-10-14 23:45 编辑 </span><br>
+<span>madbird302 发表于 2019-10-14 23:35</span><br>
+<span>我觉得不太可能吧，14nm已经没有进一步优化的余地了，堆核心就是热量爆炸啊 ...</span><br>
+<span>按照CHH和这个新闻的说法，10NM给服务器的核心还是有的，消费级桌面没了</span><br>
+</p><p><b>序曲: </b><br>
+<span>尼玛 吃屎吧牙膏厂</span><br>
+</p><p><b>tau_cross: </b><br>
+<span>YES 3600明年换zen3</span><br>
+</p><p><b>timepro: </b><br>
+<span>intel 吔屎</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span> 本帖最后由 真田源次郎信繁 于 2019-10-14 23:51 编辑 </span><br>
+<span>牙膏的10nm也就是和台积电7nm差不多，台积电5nm都有了……</span><br>
+<span>再难产下去要和中芯国际拼制程了</span><br>
+</p><p><b>xzzfft: </b><br>
+<span>amd要重回巅峰了</span><br>
+</p><p><b>夏拉非: </b><br>
+<span>AMD要翻身了</span><br>
+</p><p><b>Sza: </b><br>
+<span>别光顾着YES啊，不买点股票吗？</span><br>
+</p><p><b>tau_cross: </b><br>
+<span>真田源次郎信繁 发表于 2019-10-14 23:50:14</span><br>
+<span>amd明年下半年应该有6nm的了</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>马金葛: </b><br>
+<span>哇，牙膏这下真的RIP了，转帖机也要从MAGA转成KAG了吧</span><br>
+</p><p><b>llions: </b><br>
+<span>就这还要换LGA1200接口？</span><br>
+</p><p><b>madbird302: </b><br>
+<span>welcom 发表于 2019-10-14 23:43</span><br>
+<span>按照CHH和这个新闻的说法，10NM给服务器的核心还是有的，消费级桌面没了</span><br>
+<span>那除非打价格战，不过还是要出新产品的啊</span><br>
+</p><p><b>welcom: </b><br>
+<span>madbird302 发表于 2019-10-15 00:39</span><br>
+<span>那除非打价格战，不过还是要出新产品的啊</span><br>
+<span>出是还会出，HEDT继续下放就是了，倒是HEDT本身说不定要死了</span><br>
+<span>还好去年买了9700K之后三五年内需要换的是移动CPU，也有的换</span><br>
+</p><p><b>madbird302: </b><br>
+<span>welcom 发表于 2019-10-15 00:50</span><br>
+<span>出是还会出，HEDT继续下放就是了，倒是HEDT本身说不定要死了</span><br>
+<span>还好去年买了9700K之后三五年内需要换的是移 ...</span><br>
+<span>只能等着看了，第十代看起来已经不会有桌面型号了</span><br>
+</p><p><b>Kyoto: </b><br>
+<span>给苏妈倒一杯卡布其诺</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>壮岁旌旗拥万夫: </b><br>
+<span>TSMC YES!</span><br>
+<span>—— 来自 HUAWEI LYA-AL10, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>xinfengj: </b><br>
+<span>不要怕，牙膏厂保险箱里肯定有7nm黑科技，等2022决一胜负</span><br>
+</p><p><b>mintpie: </b><br>
+<span>PS5都八核16进程了。</span><br>
+</p><p><b>shinjiikari: </b><br>
+<span>能不能先改改动不动换接口的问题 </span><br>
+</p><p><b>windrarara: </b><br>
+<span>完了，amd要涨价了</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>台积电真的无敌了，市场反超intel看来大家都有数</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Bondrewd: </b><br>
+<span>14nm++++++++++++++++++++++++</span><br>
+</p><p><b>spyps: </b><br>
+<span>笔记本标压会有10nm吗？</span><br>
+</p><p><b>天堂蜘蛛: </b><br>
+<span>我觉得还是AMD用上3nm工艺靠谱点。</span><br>
+</p><p><b>天堂蜘蛛: </b><br>
+<span>我觉得还是AMD用上3nm工艺靠谱点。</span><br>
+</p><p><b>拆骨羊肉2: </b><br>
+<span>就这，nm因特尔还有脸天天换接口逼人换主板？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>望月凝香: </b><br>
+<span>牙膏啊……</span><br>
+</p><p><b>Kabine: </b><br>
+<span>三十年河东 三十年河西，风水轮流转</span><br>
+</p><p><b>强尼高达: </b><br>
+<span>拆骨羊肉2 发表于 2019-10-15 08:00</span><br>
+<span>就这，nm因特尔还有脸天天换接口逼人换主板？</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅 ...</span><br>
+<span>你要是觉得挤牙膏不用升级，换接口也没影响对吧</span><br>
+<span>从历史来看，不管你膏厂还是农企，不换接口理论上向上兼容高版本CPU，实际上都是一堆毛病</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>英特尔把工厂卖了算了</span><br>
+</p><p><b>welcom: </b><br>
+<span>这什么情况，outel回复否认了</span><br>
+<span>https://www.tomshardware.com/news/intel-yes-there-will-be-10nm-desktop-cpus</span><br>
+<span>—— 来自 Xiaomi MIX, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>马春葛: </b><br>
+<span>welcom 发表于 2019-10-15 08:47</span><br>
+<span>这什么情况，outel回复否认了</span><br>
+<span>https://www.tomshardware.com/news/intel-yes-there-will-be-10nm-desktop-c ...</span><br>
+<span>听转帖机的总没错</span><br>
+</p><p><b>66666: </b><br>
+<span>不奇怪，牙膏厂10nm到目前为止频率都没超过14nm改，这上桌面有个屁用，又不是GPU还能玩堆规模</span><br>
+<span>民用CPU到8核就到顶了，99.99%个人PC用户都用不到超过16线程的应用</span><br>
+</p><p><b>迷的思考者: </b><br>
+<span>AMD真要540°翻身了吗！</span><br>
+</p><p><b>粉色猛男: </b><br>
+<span>要恰饭的嘛，反正改个名再改个接口就能把U和主板的钱一起赚了，还有大把傻子买，何乐而不为</span><br>
+</p><p><b>铅笔: </b><br>
+<span>真jb搞。只能amd yes了</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>Outel研发10nm的办公室钥匙掉水沟里了吧</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>welcom 发表于 2019-10-15 08:47</span><br>
+<span>这什么情况，outel回复否认了</span><br>
+<span>https://www.tomshardware.com/news/intel-yes-there-will-be-10nm-desktop-c ...</span><br>
+<span>Late 2021年是几个意思？</span><br>
+</p><p><b>Jet.Black: </b><br>
+<span>Realplayer 发表于 2019-10-15 09:34</span><br>
+<span>Late 2021年是几个意思？</span><br>
+<span>所以14nm钦定至少要用到2022年了？</span><br>
+</p><p><b>ufo2222: </b><br>
+<span>这下子14nm后面要几个+了？</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>luguozmy: </b><br>
+<span>shinjiikari 发表于 2019-10-15 05:01</span><br>
+<span>能不能先改改动不动换接口的问题</span><br>
+<span>改接口是故意的呀, 不然你们怎么有动力更新</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859514[0-50]</guid>
+    </item>
+  </channel>
+</rss>

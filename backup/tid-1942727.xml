@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>到底下一代ns需要提升到多少性能才能满足1080p60帧？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>到底下一代ns需要提升到多少性能才能满足1080p60帧？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:40:18 +0000</lastBuildDate>
+    <item>
+      <title>到底下一代ns需要提升到多少性能才能满足1080p60帧？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942727-1-1.html</link>
+      <description>到底下一代ns需要提升到多少性能才能满足1080p60帧？&#13;
+rt
+&#13;
+观天外世界ns版有感，那么如果要做到功耗差不多的状态，现有的移动芯片有达到的水平吗？目前的ns好像稳720p60帧也不是大部分游戏厂商都能做到，渣点的移植要么**非常厉害要么就是直接糊到480p都不知道有没有</description>
+      <content:encoded><![CDATA[<p><b>枕头人: </b><br>
+<span>天外世界跟机能有关系吗</span><br>
+<span>纯粹是移植水平低下</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>黄字 发表于 2020-6-20 03:08</span><br>
+<span>然而A12Z发热降频厉害得很。</span><br>
+<span>IPAD PRO那个厚度又没上主动散热，你要给它塞个和一般笔记本一样的单热管+风扇它还能过热么。</span><br>
+</p><p><b>黄字: </b><br>
+<span>920619lqy 发表于 2020-6-20 22:59</span><br>
+<span>IPAD PRO那个厚度又没上主动散热，你要给它塞个和一般笔记本一样的单热管+风扇它还能过热么。 ...</span><br>
+<span>要是有笔记本的铜管和风扇，你还能拿着当掌机玩？手机规格的铜管和风扇，现在的游戏手机里就有，散热还不如ipadpro表面面积大的效果来的好。现在的问题就是要稳跑108060，最多也就是现在好点的手游效果。真想跑大作，你看看跑奥德赛的时候笔记本电脑的功耗。</span><br>
+</p><p><b>920619lqy: </b><br>
+<span> 本帖最后由 920619lqy 于 2020-6-20 10:17 编辑 </span><br>
+<span>黄字 发表于 2020-6-20 10:08</span><br>
+<span>要是有笔记本的铜管和风扇，你还能拿着当掌机玩？手机规格的铜管和风扇，现在的游戏手机里就有，散热还不 ...</span><br>
+<span>随便找个NS的拆解都该知道那个风扇和热管的规格和14寸以下轻薄笔记本的散热基本上是同档，压个降频的移动SoC够了。真以为这种设备得上7热管单塔双风扇？</span><br>
+</p><p><b>misaki_d: </b><br>
+<span>ps4pro 都做不到的事，你问一个掌机 </span><br>
+</p><p><b>观自在: </b><br>
+<span>wengames 发表于 2020-6-20 17:47</span><br>
+<span>掌机还整1080p，眼睛不想要了吗</span><br>
+<span>你没有手机吗？</span><br>
+</p><p><b>meatybobby: </b><br>
+<span>一是成本 二是散熱 三是續航 三者目前很難兼顧</span><br>
+</p><p><b>黄字: </b><br>
+<span>920619lqy 发表于 2020-6-21 00:16</span><br>
+<span>随便找个NS的拆解都该知道那个风扇和热管的规格和14寸以下轻薄笔记本的散热基本上是同档，压个降频的移动S ...</span><br>
+<span>太可笑了，轻薄本都是什么gpu？轻薄本功耗都没ns高。</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>黄字 发表于 2020-6-20 23:37</span><br>
+<span>太可笑了，轻薄本都是什么gpu？轻薄本功耗都没ns高。</span><br>
+<span>可笑的是你吧，Tegra X1满血设计TDP是15W，和8代移动版i5-8250U一样，后者OEM可以算上boost后最大25W发热（就这样OEM厂商也就只舍得单热管单风扇），而NS甚至还要降频，满血版得看老黄的Shield TV</span><br>
+</p><p><b>被子十三: </b><br>
+<span>黄字 发表于 2020-6-20 17:08</span><br>
+<span>然而A12Z发热降频厉害得很。</span><br>
+<span>苹果的频率设定本来就是根据设备形态来决定的，A12Z发热降频是因为它是平板。摆到MBP苹果能用单热管直接冲到100W以上</span><br>
+</p><p><b>wengames: </b><br>
+<span>观自在 发表于 2020-6-21 10:43</span><br>
+<span>你没有手机吗？</span><br>
+<span>有啊，所以我从来不拿手机玩游戏，为了视力</span><br>
+<span>比如ns上的暗黑3，掌机模式玩一个小时就腻，电视上搞则停不下~</span><br>
+</p><p><b>BallanceHZ: </b><br>
+<span>黄字 发表于 2020-6-21 13:37</span><br>
+<span>太可笑了，轻薄本都是什么gpu？轻薄本功耗都没ns高。</span><br>
+<span>mx250 tdp25w</span><br>
+</p><p><b>SaaB35: </b><br>
+<span>参考骁龙835的性能，其实成本不高</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942727[50-100]</guid>
+    </item>
+    <item>
+      <title>到底下一代ns需要提升到多少性能才能满足1080p60帧？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942727-1-1.html</link>
+      <description>到底下一代ns需要提升到多少性能才能满足1080p60帧？&#13;
+rt
+&#13;
+观天外世界ns版有感，那么如果要做到功耗差不多的状态，现有的移动芯片有达到的水平吗？目前的ns好像稳720p60帧也不是大部分游戏厂商都能做到，渣点的移植要么**非常厉害要么就是直接糊到480p都不知道有没有</description>
+      <content:encoded><![CDATA[<p><b>UCXCU: </b><br>
+<span>到底下一代ns需要提升到多少性能才能满足1080p60帧？</span><br>
+<span>rt</span><br>
+<span>观天外世界ns版有感，那么如果要做到功耗差不多的状态，现有的移动芯片有达到的水平吗？目前的ns好像稳720p60帧也不是大部分游戏厂商都能做到，渣点的移植要么**非常厉害要么就是直接糊到480p都不知道有没有</span><br>
+</p><p><b>3D烧: </b><br>
+<span>你先定个合理的价位，咱们再讨论加多少性能</span><br>
+</p><p><b>83913536: </b><br>
+<span>Gpd Win Max 1035g7 勉强720P25fps 4999</span><br>
+</p><p><b>Troywest: </b><br>
+<span>我觉得299的售价压在这里，任天堂玩不出花样来。</span><br>
+</p><p><b>Booorunestud: </b><br>
+<span>ps5和xbox都没追求60帧</span><br>
+</p><p><b>Caracal: </b><br>
+<span>1080 60 的俄罗斯方块</span><br>
+</p><p><b>dragonzeal: </b><br>
+<span>你ps4都没稳定1080p60fps，你想掌机到这个水平吗</span><br>
+</p><p><b>渺小小: </b><br>
+<span>720P，尽量稳30帧，续航不变。</span><br>
+</p><p><b>mashav: </b><br>
+<span>散热是个问题</span><br>
+</p><p><b>破罐子: </b><br>
+<span>下一代ns？不存在的，玩个页游要什么机能？老大都表态了，任天堂已经决定不再参与索尼和微软的硬件性能竞赛</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>3D烧 发表于 2020-6-19 19:07</span><br>
+<span>你先定个合理的价位，咱们再讨论加多少性能</span><br>
+<span>399封顶？如果ns会有所谓的pro版的话</span><br>
+</p><p><b>3D烧: </b><br>
+<span>UCXCU 发表于 2020-6-19 19:20</span><br>
+<span>399封顶？如果ns会有所谓的pro版的话</span><br>
+<span>那我觉得会是主掌模式分离的出pro</span><br>
+</p><p><b>Cypher_96: </b><br>
+<span>我先问一句，ps4 pro和天蝎稳1080p60帧了吗</span><br>
+</p><p><b>饮度: </b><br>
+<span>高通865手机都能卖到2000出头，下一代ns砍掉基带和其他乱七八糟的东西成本没有想象中那么高，只是任天堂不愿意搞而已</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>83913536 发表于 2020-6-19 19:15</span><br>
+<span>Gpd Win Max 1035g7 勉强720P25fps 4999</span><br>
+<span>英特尔还是算了吧</span><br>
+</p><p><b>FateAlter: </b><br>
+<span>900p 60倒是可行，1080p 60还是算了…少数游戏神优化可能可以做到，大多数游戏不可能的</span><br>
+</p><p><b>FateAlter: </b><br>
+<span>900p 60倒是可行，1080p 60还是算了…少数游戏神优化可能可以做到，大多数游戏不可能的</span><br>
+</p><p><b>我被骗了五块钱: </b><br>
+<span>掌机能稳720 60我都谢谢他了</span><br>
+</p><p><b>绿冰: </b><br>
+<span>如果只是要1080p60帧，现在就有些游戏做到了</span><br>
+<span>如果全要，PS5都做不到</span><br>
+</p><p><b>瑕在瑾中: </b><br>
+<span>ps5都没做到呢，好多游戏宁愿30帧，也要做到4k。搞得我疑问很大，1080p60帧要求比4k30帧还高？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>whzfjk: </b><br>
+<span>我希望能达到 PS4 特效/抗锯齿等级的画面 + 900p/30fps</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>瑕在瑾中 发表于 2020-6-19 08:09</span><br>
+<span>ps5都没做到呢，好多游戏宁愿30帧，也要做到4k。搞得我疑问很大，1080p60帧要求比4k30帧还高？</span><br>
+<span>—— 来自...</span><br>
+<span>一群提到抗锯齿就三米全高清的人会认为UHD相比FHD在三米以外有质的飞跃本身就是着了主机厂的道</span><br>
+</p><p><b>jmdmzt: </b><br>
+<span>如果还用老黄的芯片，说不定能再研究一下dlss技术，应该能让帧数再提高一些。。</span><br>
+</p><p><b>恨盈蠹纸: </b><br>
+<span>有一点倒是可以保证，没有下一代NS。</span><br>
+</p><p><b>另一个小智: </b><br>
+<span>帧数和分辨率之外不应该还有画质这个因素吗？</span><br>
+<span>看厂家有什么样的追求了吧。</span><br>
+<span>我电脑无主3开到最高就三十帧左右，改成中画质60稳稳的。</span><br>
+</p><p><b>任天君: </b><br>
+<span>以性能对比来说，骁龙865就够了，再不够就A12Z。别说是下一代NS了，2018年就能做到了。</span><br>
+<span>—— 来自 HUAWEI ELE-L29, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>hui.w: </b><br>
+<span>只求掌机模式稳720p60，哦，对不起，540p也行</span><br>
+</p><p><b>Uranium233: </b><br>
+<span>不了解apu，有被塞到ns这种大小的机器的可能性吗</span><br>
+</p><p><b>P-link: </b><br>
+<span>应该找老黄上tensor core</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>Uranium233 发表于 2020-6-19 20:09</span><br>
+<span>不了解apu，有被塞到ns这种大小的机器的可能性吗</span><br>
+<span>看看IPAD PRO的主板的集成度还有A12的性能，NS塞进去绰绰有余。</span><br>
+</p><p><b>lxzxhzwzyy: </b><br>
+<span>任天君 发表于 2020-6-20 09:46</span><br>
+<span>以性能对比来说，骁龙865就够了，再不够就A12Z。别说是下一代NS了，2018年就能做到了。</span><br>
+<span>—— 来自...</span><br>
+<span>A12ZGPU比PS4强了？</span><br>
+</p><p><b>lijiacheng51: </b><br>
+<span>只要cpu gpu换2020年代的1080p不是随便跑</span><br>
+</p><p><b>小tu: </b><br>
+<span>瑕在瑾中 发表于 2020-6-19 22:09</span><br>
+<span>ps5都没做到呢，好多游戏宁愿30帧，也要做到4k。搞得我疑问很大，1080p60帧要求比4k30帧还高？</span><br>
+<span>—— 来自...</span><br>
+<span>不方便搞宣发，玩家会觉得你这画面就ps4水平的</span><br>
+</p><p><b>HazukiShion: </b><br>
+<span>这事完全取决于老黄的报价吧，反正任已经说了发售时机器必须有得赚。</span><br>
+<span>考虑到玩家群体，价格也不能超过299，而且还得为199的Lite版做准备。</span><br>
+<span>不过老黄那里也没有现成的芯片可用，定制的话估计报价又要高了。</span><br>
+</p><p><b>fyzqwzh: </b><br>
+<span>那么typec接口的dock插上加性能的科技树目前点的出来吗</span><br>
+</p><p><b>Adam0_0: </b><br>
+<span> 本帖最后由 Adam0_0 于 2020-6-20 13:03 编辑 </span><br>
+<span>別的不說</span><br>
+<span>老任出了64GB的卡帶了嗎</span><br>
+</p><p><b>920619lqy: </b><br>
+<span>fyzqwzh 发表于 2020-6-19 22:12</span><br>
+<span>那么typec接口的dock插上加性能的科技树目前点的出来吗</span><br>
+<span>TB3扩展坞了解一下？</span><br>
+</p><p><b>corenel: </b><br>
+<span>把现在的TX1换成Xavier NX，然后再配合dlss估计能成</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>瑕在瑾中 发表于 2020-6-19 22:09</span><br>
+<span>ps5都没做到呢，好多游戏宁愿30帧，也要做到4k。搞得我疑问很大，1080p60帧要求比4k30帧还高？</span><br>
+<span>—— 来自...</span><br>
+<span>1080P 60帧要求更低啊，不过主机界倒是祖传的要鞋子不要裤子，先把牛逼吹大点总没错。</span><br>
+</p><p><b>黄字: </b><br>
+<span>920619lqy 发表于 2020-6-20 10:59</span><br>
+<span>看看IPAD PRO的主板的集成度还有A12的性能，NS塞进去绰绰有余。</span><br>
+<span>然而A12Z发热降频厉害得很。</span><br>
+</p><p><b>UCXCU: </b><br>
+<span>920619lqy 发表于 2020-6-20 12:51</span><br>
+<span>TB3扩展坞了解一下？</span><br>
+<span>预算超纲了</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>fyzqwzh 发表于 2020-6-20 12:12</span><br>
+<span>那么typec接口的dock插上加性能的科技树目前点的出来吗</span><br>
+<span>有啊，不过NS现有C口做不到，换个接口就好了。</span><br>
+<span>要么4.0要么雷电接口，不过后者英特尔独占，前者还没上市。</span><br>
+</p><p><b>石中剑二: </b><br>
+<span>现在的悬念是ns能不能战到ps6</span><br>
+</p><p><b>Rivercat: </b><br>
+<span>虽然任天堂已经退出了机能战争靠游戏设计走了另一条路，但其实硬件的贫弱或多或少还是限制了游戏设计的空间。</span><br>
+<span>下一代如果还是hybrid形式，dock状态下能达到普通ps4的机能就烧高香了。</span><br>
+</p><p><b>KanaiYuu: </b><br>
+<span>Jai用机玩家 发表于 2020-6-20 17:09</span><br>
+<span>有啊，不过NS现有C口做不到，换个接口就好了。</span><br>
+<span>要么4.0要么雷电接口，不过后者英特尔独占，前者还没上市 ...</span><br>
+<span>雷电可以用，现在已经不独占了</span><br>
+</p><p><b>wengames: </b><br>
+<span>掌机还整1080p，眼睛不想要了吗</span><br>
+</p><p><b>Jai用机玩家: </b><br>
+<span>KanaiYuu 发表于 2020-6-20 17:47</span><br>
+<span>雷电可以用，现在已经不独占了</span><br>
+<span>不独占了现在所有NS接口还得换啊，也就是老机型全部白给，雷电新机型上位。</span><br>
+</p><p><b>电风扇: </b><br>
+<span>先达到设计目标分辨率吧，现在有的游戏连掌机720/30,主机1080/30都达不到</span><br>
+</p><p><b>任天君: </b><br>
+<span>lxzxhzwzyy 发表于 2020-6-20 11:36</span><br>
+<span>A12ZGPU比PS4强了？</span><br>
+<span>我们谈论的难道不是NS做到1080P60帧吗？NS的游戏想要1080P60帧需要PS4级别的性能吗？A12Z完全够了</span><br>
+<span>—— 来自 HUAWEI ELE-L29, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>笔仁SaSaSa: </b><br>
+<span>还是switch这个形态的话1080 60不要想，能保证botw这种游戏完整的1080 30帧体验就谢天谢地了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942727[0-50]</guid>
+    </item>
+  </channel>
+</rss>

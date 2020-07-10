@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>写了一个linux用的漫画软件，分享一下</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>写了一个linux用的漫画软件，分享一下</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:11:56 +0000</lastBuildDate>
+    <item>
+      <title>写了一个linux用的漫画软件，分享一下[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913865-1-1.html</link>
+      <description>写了一个linux用的漫画软件，分享一下&#13;
+linux上没找到特别满意的漫画软件，就自己写了一个基于qt的。github：https://github.com/FishHawk/DriftingLibraryDesktop漫画存放方式直接基于文件夹，库中的每一个文件夹就是一部漫画，文件夹名就是漫画标题。而每一部漫画可以是单级的（比如各种一卷完短篇），也可以是嵌套的，最多三级（比如 blame！/单行本/第一话）。漫画的其它属性比如作者，仿照e站的方法一律视为一对多的tag，保存为漫画文件夹下的一个json文件。不用数据库的原因是为了保持每一部漫画的信息都只在文件夹内，方便搬迁。
+&#13;
+下面是一些截图，用的是manjaro kde，material主题。
+&#13;
+https://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=644054&amp;size=300x300&amp;key=925e7ce6bc1b1ad8&amp;nocache=yes&amp;type=fixnonehttps://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=644055&amp;size=300x300&amp;key=065ec273e8f129cd&amp;nocache=yes&amp;type=fixnonehttps://bbs.saraba1st.com/2b/forum.php?mod=image&amp;aid=644056&amp;size=300x300&amp;key=3061499bc1fab633&amp;nocache=yes&amp;type=fixnone
+&#13;
+现在功能和界面还有一些粗糙，但基本可以用了，之后再有时间可能会写个服务端和移动端版本。</description>
+      <content:encoded><![CDATA[<p><b>FishHawk: </b><br>
+<span>写了一个linux用的漫画软件，分享一下</span><br>
+<span>linux上没找到特别满意的漫画软件，就自己写了一个基于qt的。github：https://github.com/FishHawk/DriftingLibraryDesktop漫画存放方式直接基于文件夹，库中的每一个文件夹就是一部漫画，文件夹名就是漫画标题。而每一部漫画可以是单级的（比如各种一卷完短篇），也可以是嵌套的，最多三级（比如 blame！/单行本/第一话）。漫画的其它属性比如作者，仿照e站的方法一律视为一对多的tag，保存为漫画文件夹下的一个json文件。不用数据库的原因是为了保持每一部漫画的信息都只在文件夹内，方便搬迁。</span><br>
+<span>下面是一些截图，用的是manjaro kde，material主题。</span><br>
+<span>https://bbs.saraba1st.com/2b/forum.php?mod=image&aid=644054&size=300x300&key=925e7ce6bc1b1ad8&nocache=yes&type=fixnonehttps://bbs.saraba1st.com/2b/forum.php?mod=image&aid=644055&size=300x300&key=065ec273e8f129cd&nocache=yes&type=fixnonehttps://bbs.saraba1st.com/2b/forum.php?mod=image&aid=644056&size=300x300&key=3061499bc1fab633&nocache=yes&type=fixnone</span><br>
+<span>现在功能和界面还有一些粗糙，但基本可以用了，之后再有时间可能会写个服务端和移动端版本。</span><br>
+</p><p><b>Evilgurren: </b><br>
+<span>一般人linux上都是工作多吧，摸鱼用吗</span><br>
+</p><p><b>奥古斯都: </b><br>
+<span>程序员摸鱼用？</span><br>
+</p><p><b>夜留歌: </b><br>
+<span>不工作学习为什么要打开linux</span><br>
+<span>—— 来自 OnePlus GM1900, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>starrlit: </b><br>
+<span>用 Linux 桌面的应该很少吧，另外 0202 了，写桌面不考虑一下 electron 嘛。。</span><br>
+</p><p><b>就烦起名字: </b><br>
+<span>没有轮子 自己造 大佬NB!</span><br>
+</p><p><b>FishHawk: </b><br>
+<span> 本帖最后由 FishHawk 于 2020-2-14 21:26 编辑 </span><br>
+<span>现在manjaro日用也很方便，我到现在还没什么卡手的地方，steam游戏、mc之类的也都可以玩。另外，有人愿意的话，我觉得这个简单改改也是可以在windows上也是可以跑的。</span><br>
+</p><p><b>FishHawk: </b><br>
+<span>starrlit 发表于 2020-2-14 21:18</span><br>
+<span>用 Linux 桌面的应该很少吧，另外 0202 了，写桌面不考虑一下 electron 嘛。。</span><br>
+<span>electron的gui不会考虑linux的桌面主题，用起来不是很爽。从项目的角度来说确实electron更好，但这个主要还是先满足自用。其实本来的目的是想实现服务器上一个漫画库，电脑手机都可以看。</span><br>
+</p><p><b>rainingBoy: </b><br>
+<span>你也喜欢pluto吗？支持😁下</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>timepro: </b><br>
+<span>摸鱼的一千种手法</span><br>
+</p><p><b>Nanachi: </b><br>
+<span>>2020</span><br>
+<span>>Linux Desktop Environment</span><br>
+</p><p><b>plazum: </b><br>
+<span>https://bbs.saraba1st.com/2b/thread-1911774-1-1.html#pid46302518</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913865[0-50]</guid>
+    </item>
+  </channel>
+</rss>

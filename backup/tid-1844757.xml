@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>python：subprocess一次2线程，完成1个补1个，要怎么搞?(已解决)</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>python：subprocess一次2线程，完成1个补1个，要怎么搞?(已解决)</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:13:56 +0000</lastBuildDate>
+    <item>
+      <title>python：subprocess一次2线程，完成1个补1个，要怎么搞?(已解决)[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844757-1-1.html</link>
+      <description>python：subprocess一次2线程，完成1个补1个，要怎么搞？&#13;
+现在是每次2个线程，要等2个都完成了，才能下2个。
+&#13;
+如每次2个线程，完成1个补1个，要怎么搞？
+&#13;
+import subprocess
+&#13;
+import sys
+&#13;
+file = 1
+&#13;
+files = 5
+&#13;
+while file &lt;= files:
+&#13;
+    procs = []
+&#13;
+    proc = subprocess.Popen('python thread.py %s' % file)
+&#13;
+    procs.append(proc)
+&#13;
+    if files &gt;= file+1:
+&#13;
+      proc = subprocess.Popen('python thread.py %s' % int(file+1))
+&#13;
+      procs.append(proc)
+&#13;
+    file = file + 2
+&#13;
+    for proc in procs:
+&#13;
+      proc.wait()
+&#13;
+thread.py
+&#13;
+import sys
+&#13;
+print("线程:%s" % sys.argv)
+&#13;
+D:\Python\Project01\test&gt;threads.py
+&#13;
+线程:1
+&#13;
+线程:2
+&#13;
+线程:4
+&#13;
+线程:3
+&#13;
+线程:5</description>
+      <content:encoded><![CDATA[<p><b>CAMUS.net: </b><br>
+<span>python：subprocess一次2线程，完成1个补1个，要怎么搞？</span><br>
+<span>现在是每次2个线程，要等2个都完成了，才能下2个。</span><br>
+<span>如每次2个线程，完成1个补1个，要怎么搞？</span><br>
+<span>import subprocess</span><br>
+<span>import sys</span><br>
+<span>file = 1</span><br>
+<span>files = 5</span><br>
+<span>while file <= files:</span><br>
+<span>    procs = []</span><br>
+<span>    proc = subprocess.Popen('python thread.py %s' % file)</span><br>
+<span>    procs.append(proc)</span><br>
+<span>    if files >= file+1:</span><br>
+<span>      proc = subprocess.Popen('python thread.py %s' % int(file+1))</span><br>
+<span>      procs.append(proc)</span><br>
+<span>    file = file + 2</span><br>
+<span>    for proc in procs:</span><br>
+<span>      proc.wait()</span><br>
+<span>thread.py</span><br>
+<span>import sys</span><br>
+<span>print("线程:%s" % sys.argv)</span><br>
+<span>D:\Python\Project01\test>threads.py</span><br>
+<span>线程:1</span><br>
+<span>线程:2</span><br>
+<span>线程:4</span><br>
+<span>线程:3</span><br>
+<span>线程:5</span><br>
+</p><p><b>烦恼寺: </b><br>
+<span>Python给你多少钱？</span><br>
+<span>—— 来自 HUAWEI VTR-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>HMHM: </b><br>
+<span>对于同步的wait那么每次创建两个worker等他们都返回再进入下一轮spawn loop直至工作完成即可。</span><br>
+</p><p><b>403page: </b><br>
+<span>我不是程序员，但我觉得这个需求可以开线程池</span><br>
+<span>—— 来自 Meizu 16th Plus, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>fat: </b><br>
+<span>怎么老是你</span><br>
+</p><p><b>Timme: </b><br>
+<span>请用go chan</span><br>
+</p><p><b>Prushka: </b><br>
+<span>你和Python有仇吗？</span><br>
+</p><p><b>Prushka: </b><br>
+<span>这种编程帖子正确的分区应该是pc数码</span><br>
+</p><p><b>BRRM: </b><br>
+<span>https://www.google.com</span><br>
+</p><p><b>你的全家: </b><br>
+<span>Pool.map(func,iterable)</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>catazshadow: </b><br>
+<span>楼主刚刚高中毕业无误</span><br>
+</p><p><b>CAMUS.net: </b><br>
+<span>你的全家 发表于 2019-7-6 19:35</span><br>
+<span>Pool.map(func,iterable)</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+<span>这个会用，但是没想到还可以这样用。搞定，收工。</span><br>
+<span>import subprocess</span><br>
+<span>import time</span><br>
+<span>import sys</span><br>
+<span>from multiprocessing import Pool</span><br>
+<span>def run(x):</span><br>
+<span>    time.sleep(1)</span><br>
+<span>    #print("线程:%s" % x)</span><br>
+<span>    subprocess.Popen('python thread.py %s' % x).wait()</span><br>
+<span>if __name__ == "__main__":</span><br>
+<span>    procs = </span><br>
+<span>    t = time.time()</span><br>
+<span>    for proc in procs:</span><br>
+<span>      run(proc)</span><br>
+<span>    t1 = time.time()</span><br>
+<span>    print("顺序运行时间：", int(t1 - t))</span><br>
+<span>    p = Pool(2)</span><br>
+<span>    t = time.time()</span><br>
+<span>    p.map(run, procs)</span><br>
+<span>    p.close()</span><br>
+<span>    p.join()</span><br>
+<span>    t1 = time.time()</span><br>
+<span>    print("多线程运行时间：", int(t1 - t))</span><br>
+<span>thread.py</span><br>
+<span>import sys</span><br>
+<span>print("线程:%s" % sys.argv)</span><br>
+<span>D:\Python\Project01\test>threads2.py</span><br>
+<span>线程:1</span><br>
+<span>线程:2</span><br>
+<span>线程:3</span><br>
+<span>线程:4</span><br>
+<span>线程:5</span><br>
+<span>线程:6</span><br>
+<span>顺序运行时间： 6</span><br>
+<span>线程:2</span><br>
+<span>线程:1</span><br>
+<span>线程:4</span><br>
+<span>线程:3</span><br>
+<span>线程:5</span><br>
+<span>线程:6</span><br>
+<span>多线程运行时间： 3</span><br>
+</p><p><b>finallyeva: </b><br>
+<span>LZ真是编程高手</span><br>
+</p><p><b>洗刷刷: </b><br>
+<span>楼主，其实V2EX那个论坛更适合你，那里人技术好有热心，现在还开放注册。你不用强来外野的</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844757[0-50]</guid>
+    </item>
+  </channel>
+</rss>

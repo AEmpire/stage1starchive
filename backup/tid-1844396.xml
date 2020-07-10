@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>如何还原ps1代的midi</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>如何还原ps1代的midi</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:16:11 +0000</lastBuildDate>
+    <item>
+      <title>如何还原ps1代的midi[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844396-1-1.html</link>
+      <description>如何还原ps1代的midi&#13;
+有ps游戏，很早就提取出了音乐数据，是midi，但用电脑的软件播放器始终有几种乐器与游戏对不上，记得微软还原的相对准确些，yamaha的错的离谱，俺想重新录起全部音乐，谁知道有什么纯播放psmidi的软件吗，或者是ps的音效的乐器对照表，模拟器下的游戏循环音乐有去尾只能做备选方式</description>
+      <content:encoded><![CDATA[<p><b>macos: </b><br>
+<span>如何还原ps1代的midi</span><br>
+<span>有ps游戏，很早就提取出了音乐数据，是midi，但用电脑的软件播放器始终有几种乐器与游戏对不上，记得微软还原的相对准确些，yamaha的错的离谱，俺想重新录起全部音乐，谁知道有什么纯播放psmidi的软件吗，或者是ps的音效的乐器对照表，模拟器下的游戏循环音乐有去尾只能做备选方式</span><br>
+</p><p><b>like0036: </b><br>
+<span>midi音源的关系吧 建议找找PS1是用哪个midi音源的</span><br>
+</p><p><b>骷髅兵: </b><br>
+<span>提出来的不是PSF格式吗？我记得psf格式音乐播放插件挺还原的啊？</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>为啥要自己提取</span><br>
+<span>https://www.zophar.net/music/playstation-psf</span><br>
+</p><p><b>macos: </b><br>
+<span>骷髅兵 发表于 2019-7-5 10:36</span><br>
+<span>提出来的不是PSF格式吗？我记得psf格式音乐播放插件挺还原的啊？</span><br>
+<span>以前提取出来的确实是midi，视频是avi，并没有什么特殊格式，大概这个格式也是某工具自创的</span><br>
+</p><p><b>macos: </b><br>
+<span>tsubasa9 发表于 2019-7-5 10:43</span><br>
+<span>为啥要自己提取</span><br>
+<span>https://www.zophar.net/music/playstation-psf</span><br>
+<span>网站可用，听了下应该是最接近的了</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>psf格式，使用foobar的专用插件播放毫无问题。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>记得n年前winamp好像有个插件是专门播放ps游戏的音乐的。</span><br>
+</p><p><b>macos: </b><br>
+<span>tsubasa9 发表于 2019-7-5 10:43</span><br>
+<span>为啥要自己提取</span><br>
+<span>https://www.zophar.net/music/playstation-psf</span><br>
+<span>发现还是不行，有部分音乐少了开头1秒，得找其他方法</span><br>
+</p><p><b>youta: </b><br>
+<span>midi最终质量要看音色库的？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>benjin: </b><br>
+<span>youta 发表于 2019-7-6 08:44</span><br>
+<span>midi最终质量要看音色库的？</span><br>
+<span>—— 来自 Xiaomi MIX 2, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>必然，MIDI本质上是乐谱，用来指挥音色库演奏的</span><br>
+</p><p><b>chachi: </b><br>
+<span>ps的三国5 音质就是很渣</span><br>
+<span>比ss版的差远了。ss好像是cd音源</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>tsubasa9 发表于 2019-07-05 10:43:45</span><br>
+<span>为啥要自己提取看里面有ps2的bgm，不知道这种提取的(或者说游戏里边的原始数据)和后来出的ost碟子哪种音质好</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>tsubasa9: </b><br>
+<span>gx19860411 发表于 2019-7-7 00:00</span><br>
+<span>看里面有ps2的bgm，不知道这种提取的(或者说游戏里边的原始数据)和后来出的ost碟子哪种音质好</span><br>
+<span>-- 来自...</span><br>
+<span>当然ost, 游戏里的基本都是有损压缩格式</span><br>
+</p><p><b>gx19860411: </b><br>
+<span>记得九几年有一套游戏动漫周边的碟好像是“飘花千夜雪”还是另一套里面有个提取ps碟里的bgm导成WAV的播放器，不只bgm，像山脊赛车4里的导播的车队介绍都能提出来。</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844396[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>小米电视会导致openwrt ksoftirqd进程占用过高？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>小米电视会导致openwrt ksoftirqd进程占用过高？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:52:09 +0000</lastBuildDate>
+    <item>
+      <title>小米电视会导致openwrt ksoftirqd进程占用过高？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916448-1-1.html</link>
+      <description>小米电视会导致openwrt ksoftirqd进程占用过高？&#13;
+路由器：ACRH17
+&#13;
+固件：LEAN大的OPENWRT R9.10.24
+&#13;
+晚上客厅的小米电视一开机，过不了多久就卡爆了，电视看起来倒是没什么影响。。。
+&#13;
+SSH上去发现叫做ksoftirqd的进程占用非常高，查了下说是负责软中断的进程。。。
+&#13;
+大佬们这情况有没有解决办法。。。</description>
+      <content:encoded><![CDATA[<p><b>zjf: </b><br>
+<span>小米电视会导致openwrt ksoftirqd进程占用过高？</span><br>
+<span>路由器：ACRH17</span><br>
+<span>固件：LEAN大的OPENWRT R9.10.24</span><br>
+<span>晚上客厅的小米电视一开机，过不了多久就卡爆了，电视看起来倒是没什么影响。。。</span><br>
+<span>SSH上去发现叫做ksoftirqd的进程占用非常高，查了下说是负责软中断的进程。。。</span><br>
+<span>大佬们这情况有没有解决办法。。。</span><br>
+</p><p><b>qwased: </b><br>
+<span>刷潘多拉，全硬件加速。。别用openwrt了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916448[0-50]</guid>
+    </item>
+  </channel>
+</rss>

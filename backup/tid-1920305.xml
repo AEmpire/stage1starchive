@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NV可以用光追核心跑声波追踪，XSX也有光追核心……</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>NV可以用光追核心跑声波追踪，XSX也有光追核心……</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:10:47 +0000</lastBuildDate>
+    <item>
+      <title>NV可以用光追核心跑声波追踪，XSX也有光追核心……[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1920305-1-1.html</link>
+      <description>NV可以用光追核心跑声波追踪，XSX也有光追核心……&#13;
+ 本帖最后由 dumplingpro 于 2020-3-22 23:13 编辑 
+
+看索大法的3D音效跟杜比扯皮，想起了NV的VRWorks - Audio：
+&#13;
+https://developer.nvidia.com/vrworks/vrworks-audio
+&#13;
+跟VRS一样，是VRworks的一部分，原理是光追核心，计算声波（在不同物体上的）的反射，用于VR塑造声音环境。
+&#13;
+真 N卡音质好，虽然不知道哪些游戏支持这个，玩VR那么久没听说有明说支持这个的。
+&#13;
+XSX也有光追核心，不知道会不会搞起这个玩意。</description>
+      <content:encoded><![CDATA[<p><b>dumplingpro: </b><br>
+<span>NV可以用光追核心跑声波追踪，XSX也有光追核心……</span><br>
+<span> 本帖最后由 dumplingpro 于 2020-3-22 23:13 编辑 </span><br>
+<span>看索大法的3D音效跟杜比扯皮，想起了NV的VRWorks - Audio：</span><br>
+<span>https://developer.nvidia.com/vrworks/vrworks-audio</span><br>
+<span>跟VRS一样，是VRworks的一部分，原理是光追核心，计算声波（在不同物体上的）的反射，用于VR塑造声音环境。</span><br>
+<span>真 N卡音质好，虽然不知道哪些游戏支持这个，玩VR那么久没听说有明说支持这个的。</span><br>
+<span>XSX也有光追核心，不知道会不会搞起这个玩意。</span><br>
+</p><p><b>66666: </b><br>
+<span>XSX上不是有一个芯片专门处理光追音频么，图灵这个功能早就有了，不过目前RTX游戏还在专注图形效率优化阶段，还没顾得上玩这个</span><br>
+<span>将来DX12U游戏增多应该会有的</span><br>
+</p><p><b>竜ヶ峰桜子: </b><br>
+<span>微软音质好，索尼网速快</span><br>
+</p><p><b>D-JoeII: </b><br>
+<span>微軟就是說了有啊</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>竜ヶ峰桜子 发表于 2020-3-22 21:28</span><br>
+<span>微软音质好，索尼网速快</span><br>
+<span>不是固态快么</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>许多游戏都会计算声音的路径，比如育碧的彩虹六号、微软的战争机器</span><br>
+<img src="https://www.gamasutra.com/db_area/images/Siege%201.jpg" title="https://www.gamasutra.com/db_area/images/Siege%201.jpg"><br>
+<span>https://www.gamasutra.com/view/news/288565/Game_Design_Deep_Dive_Dynamic_audio_in_destructible_levels_in_Rainbow_Six_Siege.php</span><br>
+<span>https://www.microsoft.com/en-us/research/project/project-triton/</span><br>
+</p><p><b>dumplingpro: </b><br>
+<span>lostyzd 发表于 2020-3-23 00:02</span><br>
+<span>许多游戏都会计算声音的路径，比如育碧的彩虹六号、微软的战争机器</span><br>
+<span>不是单纯声音路径的反射，是类似光追的方式，递归计算声音的漫反射吧</span><br>
+</p><p><b>lostyzd: </b><br>
+<span>dumplingpro 发表于 2020-3-23 00:06</span><br>
+<span>不是单纯声音路径的反射，是类似光追的方式，递归计算声音的漫反射吧</span><br>
+<span>光线追踪，通常意义下指path tracing，本质就是生成路径然后采样，gpu和cpu都可以做。</span><br>
+<span>彩虹六号以及你主楼贴的，都有计算直接/间接/漫反射，当然漫反射的计算量更大就是了。</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>lostyzd 发表于 2020-03-23 00:32:41</span><br>
+<span>光线追踪，通常意义下指path tracing，本质就是生成路径然后采样，gpu和cpu都可以做。</span><br>
+<span>彩虹六号以及你主 ...路径追踪应该是特指蒙特卡洛积分来采样光线结果吧，音频也要用蒙特卡洛积分吗？具体一点音频的一个点采样少点也会有很严重的走样吗？</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>Chia: </b><br>
+<span>声波不像光波，是能带来很多宏观物理现象的。</span><br>
+<span>真要搞起来，声追上限就很高</span><br>
+</p><p><b>qwased: </b><br>
+<span>gcn早就有独立的声音处理单元了啊，这又不是啥新大陆</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 9上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1920305[0-50]</guid>
+    </item>
+  </channel>
+</rss>

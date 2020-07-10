@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>公网ip怎么设置？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>公网ip怎么设置？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:16:53 +0000</lastBuildDate>
+    <item>
+      <title>公网ip怎么设置？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844280-1-1.html</link>
+      <description>公网ip怎么设置？&#13;
+今天去要了个公网ip，看了下路由的wan ip和外网ip一样，应该是公网iP了吧
+&#13;
+然后光猫和路由的upnp都打开了，现在是路由器拨号。然并卵，迅雷还是显示upnp阻塞，nat测试还是nat3，网速测了下虽然没变化但是延迟反而爆表了。。。。。
+&#13;
+是哪里设置不对。。。</description>
+      <content:encoded><![CDATA[<p><b>博尔赫斯: </b><br>
+<span>公网ip怎么设置？</span><br>
+<span>今天去要了个公网ip，看了下路由的wan ip和外网ip一样，应该是公网iP了吧</span><br>
+<span>然后光猫和路由的upnp都打开了，现在是路由器拨号。然并卵，迅雷还是显示upnp阻塞，nat测试还是nat3，网速测了下虽然没变化但是延迟反而爆表了。。。。。</span><br>
+<span>是哪里设置不对。。。</span><br>
+</p><p><b>waldo: </b><br>
+<span>upnp只能过单层nat，你的光猫要用超管账号进去开桥接模式</span><br>
+<span>延时的问题要问运营商</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>waldo 发表于 2019-7-4 18:42</span><br>
+<span>upnp只能过单层nat，你的光猫要用超管账号进去开桥接模式</span><br>
+<span>延时的问题要问运营商 ...</span><br>
+<span>光猫我已经拿到了超管账号，现在已经是桥接模式了。现在在用路由器拨号</span><br>
+</p><p><b>lhm123: </b><br>
+<span>设置dmz主机绑定试试？</span><br>
+</p><p><b>袄_偶滴小乔: </b><br>
+<span>显示UPNP堵塞的话先去看下迅雷的设置里面用的是什么端口号，然后去路由器的UPNP相关设置里面列表里有没有这个端口号或者是否被占用，被其他程序占用了就给迅雷换个端口再试，或者直接去端口转发里面设置固定端口（前提你电脑用的固定IP）</span><br>
+</p><p><b>明月闲窗: </b><br>
+<span>路由器里手动映射一下程序的端口</span><br>
+</p><p><b>qwased: </b><br>
+<span>win的防火墙关一下</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>谢谢各位，哦对了改桥接模式以后拓扑是这样的   光猫lan---------路由器wan--------路由器lan口网线连电脑</span><br>
+<span>现在电脑侧能上网但是ping不通光猫，不知道是不是这个原因</span><br>
+</p><p><b>catxing: </b><br>
+<span>路由器重置一下</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>lhm123 发表于 2019-7-4 18:56</span><br>
+<span>设置dmz主机绑定试试？</span><br>
+<span>把路由器和光猫的upnp全关了，然后打开了路由的dmz，直接变成NAT1了</span><br>
+<span>不过话说这样挺不安全的吧</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>用得着的就那几个端口，自己设个映射就好了</span><br>
+</p><p><b>lhm123: </b><br>
+<span> 本帖最后由 lhm123 于 2019-7-4 20:09 编辑 </span><br>
+<span>博尔赫斯 发表于 2019-7-4 19:49</span><br>
+<span>把路由器和光猫的upnp全关了，然后打开了路由的dmz，直接变成NAT1了</span><br>
+<span>不过话说这样挺不安全的吧</span><br>
+<span> 做好安全策略，该关的端口关掉，也没有什么大问题。   以前我用emule要high ID而端口又要不断调整的时候就是这么做的。</span><br>
+<span>当然稳妥些就做端口映射。</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>lhm123 发表于 2019-7-4 20:01</span><br>
+<span>做好安全策略，该关的端口关掉，也没有什么大问题。   以前我用emule要high ID而端口又要不断调整的时候 ...</span><br>
+<span>手上电信给的这个华为路由器的端口映射功能我设了半天好像不太灵</span><br>
+<span>总之多谢</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>还是得用端口转发</span><br>
+<span>UPNP不见得好使，我就遇到过UPNP总说检测不到的问题</span><br>
+<span>DMZ一是不安全，二是只能转一台机器，你要是有多台机器就不能直接DMZ了</span><br>
+</p><p><b>柏露伯德: </b><br>
+<span>LZ怎么搞到超管帐号的</span><br>
+</p><p><b>qwased: </b><br>
+<span>果然又是华为的路由，是不是荣耀的</span><br>
+<span>这玩意的UPNP和端口映射都是废的</span><br>
+</p><p><b>yuuu: </b><br>
+<span>路由的wan ip和外网ip一样，不见得是公网ip</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>qwased 发表于 2019-7-4 20:43</span><br>
+<span>果然又是华为的路由，是不是荣耀的</span><br>
+<span>这玩意的UPNP和端口映射都是废的</span><br>
+<span>华为的ws5200，我网上搜了下好像这货的端口映射是有问题。</span><br>
+<span>我qbittorrent能自动分配到端口，迅雷就怎么都给不了，手动自动都不行</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>yuuu 发表于 2019-7-4 20:43</span><br>
+<span>路由的wan ip和外网ip一样，不见得是公网ip</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版...</span><br>
+<span>tracert了一下也只有一跳，再我也不知道该怎么辨别了</span><br>
+</p><p><b>博尔赫斯: </b><br>
+<span>柏露伯德 发表于 2019-7-4 20:33</span><br>
+<span>LZ怎么搞到超管帐号的</span><br>
+<span>网上搜的破解方法</span><br>
+</p><p><b>柏露伯德: </b><br>
+<span>博尔赫斯 发表于 2019-7-4 21:00</span><br>
+<span>网上搜的破解方法</span><br>
+<span>能私个链接么，我家也是电信的华为光猫</span><br>
+</p><p><b>tyx776: </b><br>
+<span>yuuu 发表于 2019-7-4 20:43</span><br>
+<span>路由的wan ip和外网ip一样，不见得是公网ip</span><br>
+<span>—— 来自 Hisense HLTE700T, Android 8.1.0上的 S1Next-鹅版...</span><br>
+<span>怎么不见得？</span><br>
+</p><p><b>qwased: </b><br>
+<span>tyx776 发表于 2019-7-4 21:09</span><br>
+<span>怎么不见得？</span><br>
+<span>十几年前我还在用铁通的时候就发现拿到的公网ip只能南方用，访问北方的网络就会变成另一个ip，以至于联机fxtz只能挑人打</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>博尔赫斯 发表于 2019-7-4 19:10</span><br>
+<span>谢谢各位，哦对了改桥接模式以后拓扑是这样的   光猫lan---------路由器wan--------路由器lan口网线连电 ...</span><br>
+<span>ping不通是因为光猫ip不是同网段。</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>博尔赫斯 发表于 2019-7-4 19:10</span><br>
+<span>谢谢各位，哦对了改桥接模式以后拓扑是这样的   光猫lan---------路由器wan--------路由器lan口网线连电 ...</span><br>
+<span>ping不通可能是因为光猫ip不是同网段。</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>华为这东西固件极其糟糕... </span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>进来学习一下</span><br>
+</p><p><b>Saker_bobo: </b><br>
+<span>柏露伯德 发表于 2019-7-4 21:02</span><br>
+<span>能私个链接么，我家也是电信的华为光猫</span><br>
+<span>前几天把折腾把IPTV绑到猫自带的wifi学了挺多 可以告诉你方法不过不一定通用（地区不同不确定通用）</span><br>
+<span>先想办法记录LOID和密码（如果当地需要LOID的密码的话） 拔掉光纤上电用结实的东西捅复位1分钟 网线接lan1进192.168.1.1:8080 看看是不是重置出厂了 重置了的话先别插光纤用电信默认超管账号（百度）进去把配置文件备份到U盘出来 解密后魔改配置文件删连接上限开telnet加超级用户或者把普通用户权限改成超级用户 加密配置文件后插回去恢复配置 你就有超管权限的备胎账号防TR069把你默认超管给改了 然后重新进注册页面注册LOID 猫就复活了</span><br>
+<span>PS：这个方法应该是很多华为光猫都通用的 不过LOID的密码可能需要你找电信师傅才能要（如果当地要密码的话） 而且有些地方可能光猫注册不方便 最差是自己玩脱让师傅上门换猫咯</span><br>
+</p><p><b>ladiesman217: </b><br>
+<span>简单点的方法，换个好点的路由器。NAT类型改FULL CONE。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844280[0-50]</guid>
+    </item>
+  </channel>
+</rss>

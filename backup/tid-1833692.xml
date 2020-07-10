@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>OPPO的color os问题？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>OPPO的color os问题？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:22:32 +0000</lastBuildDate>
+    <item>
+      <title>OPPO的color os问题？[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833692-1-1.html</link>
+      <description>OPPO的color os问题？&#13;
+ 本帖最后由 sxxylz 于 2019-5-23 11:44 编辑 
+
+最近准备换手机 排除曲面屏后 2019的旗舰机（3.5耳机孔无所谓从不用手机听歌）貌似只有RENO 10X版了？
+&#13;
+只有一个顾虑 以前没有用过color os 请广大使用者说一下color os有什么黑点吗 gms系列有内置吗 或者好装吗？
+&#13;
+毕竟oppo好像不能解BL gapps也没法刷吗？ 现在在用1+3T 配氧OS .</description>
+      <content:encoded><![CDATA[<p><b>zatsuza: </b><br>
+<span>这os确实挺迷的，我甚至找不到输入界面下切换输入法的方法</span><br>
+</p><p><b>左撇子的猫: </b><br>
+<span> 本帖最后由 左撇子的猫 于 2019-5-29 18:17 编辑 </span><br>
+<span>消息菜单提醒有点奇怪 可能是我这款没有呼吸灯 我总感觉看不到消息提醒</span><br>
+<span>内置的服务和MIUI差不多吧没有广告这点强不少</span><br>
+<span>反正我已经放弃用Nova和图标包了 花了几个小时在主题商店发现一个还能看得下去的主题</span><br>
+<span>抽屉模式真是不习惯 没办法调节抽屉的图标行距感觉逼死强迫症</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>中泽君: </b><br>
+<span>左撇子的猫 发表于 2019-5-29 18:13</span><br>
+<span>消息菜单提醒有点奇怪 可能是我这款没有呼吸灯 我总感觉看不到消息提醒</span><br>
+<span>内置的服务和MIUI差不多吧没有广告 ...</span><br>
+<span>没有广告</span><br>
+<span>这就去退了k20</span><br>
+</p><p><b>hisousihou: </b><br>
+<span>real_zyf 发表于 2019-5-23 12:27</span><br>
+<span>不能解锁BL，有gms，桌面删了就是</span><br>
+<span>怎么删桌面？</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>Diabolosis 发表于 2019-5-23 12:57</span><br>
+<span>我又来推zenfone6了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4 ...</span><br>
+<span>但是小尾巴没什么说服力的样子啊</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>hisousihou 发表于 2019-5-29 20:48</span><br>
+<span>怎么删桌面？</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+<span>用adb进shell，然后pm uninstall -k --user 0 com.oppo.launcher</span><br>
+</p><p><b>borowski002: </b><br>
+<span>就是顶部状态栏不显示通知不好，其他都不错</span><br>
+</p><p><b>prsfd: </b><br>
+<span>zatsuza 发表于 2019-5-29 18:00</span><br>
+<span>这os确实挺迷的，我甚至找不到输入界面下切换输入法的方法</span><br>
+<span>系统的输入法只能切换到设置里切换。所以我现在装了google但的几个输入法，互相之间能直接切换</span><br>
+</p><p><b>hisousihou: </b><br>
+<span> 本帖最后由 hisousihou 于 2019-5-30 10:59 编辑 </span><br>
+<span>real_zyf 发表于 2019-5-29 22:38</span><br>
+<span>用adb进shell，然后pm uninstall -k --user 0 com.oppo.launcher</span><br>
+<span>好久没折腾过了……我试试</span><br>
+<span>看了一下，realme x这手机好像太新了点都没找到usb驱动，豌豆荚pc都连不上</span><br>
+</p><p><b>real_zyf: </b><br>
+<span> 本帖最后由 real_zyf 于 2019-5-30 14:20 编辑 </span><br>
+<span>hisousihou 发表于 2019-5-30 10:36</span><br>
+<span>好久没折腾过了……我试试</span><br>
+<span>看了一下，realme x这手机好像太新了点都没找到usb驱动，豌豆荚 ...</span><br>
+<span>去下载最新的adb试试，reno也是这样的</span><br>
+<span>https://dl.google.com/android/repository/platform-tools-latest-windows.zip</span><br>
+</p><p><b>hisousihou: </b><br>
+<span>real_zyf 发表于 2019-5-30 14:19</span><br>
+<span>去下载最新的adb试试，reno也是这样的</span><br>
+<span>https://dl.google.com/android/repository/platform-tools-latest ...</span><br>
+<span>PS D:\platform-tools> ./adb shell</span><br>
+<span>* daemon not running; starting now at tcp:5037</span><br>
+<span>* daemon started successfully</span><br>
+<span>error: no devices/emulators found</span><br>
+<span>我记得是要先装安卓设备的usb驱动吧。</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>hisousihou 发表于 2019-5-30 14:37</span><br>
+<span>PS D:\platform-tools> ./adb shell</span><br>
+<span>* daemon not running; starting now at tcp:5037</span><br>
+<span>* daemon started...</span><br>
+<span>https://developer.android.com/studio/run/win-usb?hl=zh-cn</span><br>
+<span>连驱动也下一份最新的试试？还有手机上记得usb要设一下“传输文件”</span><br>
+</p><p><b>hisousihou: </b><br>
+<span> 本帖最后由 hisousihou 于 2019-5-30 19:21 编辑 </span><br>
+<span>real_zyf 发表于 2019-5-30 14:57</span><br>
+<span>https://developer.android.com/studio/run/win-usb?hl=zh-cn</span><br>
+<span>连驱动也下一份最新的试试？还有手机上记 ...</span><br>
+<span>D:\platform-tools>adb devices</span><br>
+<span>List of devices attached</span><br>
+<span>3ec875ab      device</span><br>
+<span>D:\platform-tools>adb shell</span><br>
+<span>RMX1901CN:/ $ pm uninstall -k --user 0 com.oppo.launcher</span><br>
+<span>Success</span><br>
+<span>RMX1901CN:/ $</span><br>
+<span>D:\platform-tools></span><br>
+<span>成功了，感谢，这下可以换nova和微软桌面了</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>中泽君: </b><br>
+<span>coloros的分屏做的怎样</span><br>
+<span>能不能四分一屏开个手游然后下面刷S1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833692[50-100]</guid>
+    </item>
+    <item>
+      <title>OPPO的color os问题？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1833692-1-1.html</link>
+      <description>OPPO的color os问题？&#13;
+ 本帖最后由 sxxylz 于 2019-5-23 11:44 编辑 
+
+最近准备换手机 排除曲面屏后 2019的旗舰机（3.5耳机孔无所谓从不用手机听歌）貌似只有RENO 10X版了？
+&#13;
+只有一个顾虑 以前没有用过color os 请广大使用者说一下color os有什么黑点吗 gms系列有内置吗 或者好装吗？
+&#13;
+毕竟oppo好像不能解BL gapps也没法刷吗？ 现在在用1+3T 配氧OS .</description>
+      <content:encoded><![CDATA[<p><b>sxxylz: </b><br>
+<span>OPPO的color os问题？</span><br>
+<span> 本帖最后由 sxxylz 于 2019-5-23 11:44 编辑 </span><br>
+<span>最近准备换手机 排除曲面屏后 2019的旗舰机（3.5耳机孔无所谓从不用手机听歌）貌似只有RENO 10X版了？</span><br>
+<span>只有一个顾虑 以前没有用过color os 请广大使用者说一下color os有什么黑点吗 gms系列有内置吗 或者好装吗？</span><br>
+<span>毕竟oppo好像不能解BL gapps也没法刷吗？ 现在在用1+3T 配氧OS .</span><br>
+</p><p><b>费老师: </b><br>
+<span>没有内置邮件处理软件</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>OPPO与刷机 拜拜吧</span><br>
+</p><p><b>空罐子: </b><br>
+<span>用氧OS绝对没法用color OS，太难受了，处处受限</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span>一加一出厂系统是color os 这是我对color os的全部理解</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>nalanchen: </b><br>
+<span>装个ourplay不就行了</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>用过类原生的我觉得回不去魔改的。尤其是color OS这种处处受限的。会比忍受曲面屏还难受，我觉得。</span><br>
+</p><p><b>萱时令: </b><br>
+<span>没什么黑点啊 吊打隔壁v</span><br>
+<span>装谷歌全套好装 解锁别想</span><br>
+<span>挖了魅族的人</span><br>
+<span>flyme正统在oppo</span><br>
+<span>—— 来自 OnePlus GM1910, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>咲月露娜: </b><br>
+<span>不能解锁怎么刷面具，怎么装xposed。。。</span><br>
+<span>其实还是看你之前3t怎么用的，如果拿到就用没折腾的话，那就无所谓了</span><br>
+</p><p><b>猫不萌: </b><br>
+<span>不能换桌面</span><br>
+</p><p><b>luciffer: </b><br>
+<span>正好，我就是从3t到find x的</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>不能解锁BL，有gms，桌面删了就是</span><br>
+</p><p><b>sxxylz: </b><br>
+<span>好吧 我解bl 主要是刷GAPPS方便 面具 xposed之类的东西是顺便刷的 用的主要是微信防撤回</span><br>
+<span>内置有gms的话 不解bl貌似也可以 。。。</span><br>
+<span>不过 貌似国内的魔改安卓都没应用抽屉的 所有的应用必须都放在桌面上？ 多难受啊</span><br>
+</p><p><b>糟糕的魔女: </b><br>
+<span> 本帖最后由 糟糕的魔女 于 2019-5-23 16:07 编辑 </span><br>
+<span>一加7不带Pro是平面屏吧……为啥不继续1+呢？</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>糟糕的魔女 发表于 2019-5-23 12:49</span><br>
+<span>一加7不带Pro是屏幕屏吧……为啥不继续1+呢？</span><br>
+<span>—— 来自 Sony H8324, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>855 6t，水滴屏太烂了</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>sxxylz 发表于 2019-5-23 12:43</span><br>
+<span>好吧 我解bl 主要是刷GAPPS方便 面具 xposed之类的东西是顺便刷的 用的主要是微信防撤回</span><br>
+<span>内置有gms ...</span><br>
+<span>原装桌面可以开抽屉，不过我已经删了改用微软</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>我又来推zenfone6了</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>莉洁莉特: </b><br>
+<span> 本帖最后由 莉洁莉特 于 2019-5-23 14:51 编辑 </span><br>
+<span>自带的两套桌面：平铺的和抽屉的，不能自订换图标只能用商城里的主题。不能换第三方。可以用adb删自带的，但是有些功能就不能用了。</span><br>
+<span>自带谷歌，自己下了play商店随便装Google软件。</span><br>
+<span>想用QQ微信模块可以，用太极阴就行。不能解锁，不能用修改到系统层面的xposed模块。</span><br>
+<span>打开开发者选项会在通知栏有提醒让你关，你还屏蔽不了。</span><br>
+<span>现在我对这系统的黑点在于，总是修改，我改过的开发者选项里的窗口动画设置。</span><br>
+</p><p><b>乃木坂裕人: </b><br>
+<span>搭车同问支持来电视频么</span><br>
+</p><p><b>ゼカキユ: </b><br>
+<span>这玩意魔改得妈都不认识了</span><br>
+<span>用习惯原生的拿原生那套用这个有些习惯大概率吃屎虽然又有些地方把原生吃屎的地方改得非常好</span><br>
+<span>总之我就有一次手机坏了等新手机快递的时候用了我妈吃灰的R9S两天，让我主动去用是不可能的</span><br>
+</p><p><b>rss: </b><br>
+<span>real_zyf 发表于 2019-5-23 12:54</span><br>
+<span>原装桌面可以开抽屉，不过我已经删了改用微软</span><br>
+<span>请问下如果换了微软桌面，打开开发者模式还会有黄条提示吗？</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>rss 发表于 2019-5-23 19:39</span><br>
+<span>请问下如果换了微软桌面，打开开发者模式还会有黄条提示吗？</span><br>
+<span>有一条消息挂着，但平时不会变黄</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>就酱</span><br>
+<img src="https://i.loli.net/2019/05/23/5ce688622016499180.png" title="https://i.loli.net/2019/05/23/5ce688622016499180.png"><br>
+<img src="https://i.loli.net/2019/05/23/5ce688635132293744.png" title="https://i.loli.net/2019/05/23/5ce688635132293744.png"><br>
+<span>—— 来自 OPPO PCCM00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>黑城舞夏: </b><br>
+<span>我一个iOS忠实用户，拿到Reno之后产生了当主力机试试的想法，然后就这么用了快两周，体验超出预期。当然这不是说比iOS好——还是差挺多的——但已经基本可以接受了。</span><br>
+<span>主要问题还是杀后台和云服务这两点太难受。</span><br>
+<span>当然我是受不了安卓原生系统的，所以仅供参考。</span><br>
+</p><p><b>sxxylz: </b><br>
+<span>黑城舞夏 发表于 2019-5-23 19:54</span><br>
+<span>我一个iOS忠实用户，拿到Reno之后产生了当主力机试试的想法，然后就这么用了快两周，体验超出预期。当然这 ...</span><br>
+<span>可以细说一下云服务这一点吗？</span><br>
+</p><p><b>superchenxx02: </b><br>
+<span>从小米转OPPO表示，第一周：Color OS这什么垃圾系统，想改什么都改不了。7天以后：真香，我再也不用折腾了</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>商城里有meeye，4块钱，装上后原生桌面就能看了</span><br>
+</p><p><b>天气姐姐: </b><br>
+<span>real_zyf 发表于 2019-5-23 19:45</span><br>
+<span>有一条消息挂着，但平时不会变黄</span><br>
+<span>怎么换的桌面？有什么副作用吗</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>天气姐姐 发表于 2019-5-23 23:27</span><br>
+<span>怎么换的桌面？有什么副作用吗</span><br>
+<span>装自己想用的桌面，然后用adb把自带的杀了，最大副作用是不能用侧滑手势</span><br>
+</p><p><b>黑城舞夏: </b><br>
+<span>sxxylz 发表于 2019-5-23 20:01</span><br>
+<span>可以细说一下云服务这一点吗？</span><br>
+<span>我的意思是我不会用国产厂商的云服务所以不方便～</span><br>
+</p><p><b>rss: </b><br>
+<span>real_zyf 发表于 2019-5-23 23:53</span><br>
+<span>装自己想用的桌面，然后用adb把自带的杀了，最大副作用是不能用侧滑手势 ...</span><br>
+<span>color os打开开发者选项后，能用冰箱、appopsx或者绿色守护 吗？ 根据网上的说法，oppo的开发者选项权限不足，可能用不了这些软件。</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>rss 发表于 2019-5-24 21:10</span><br>
+<span>color os打开开发者选项后，能用冰箱、appopsx或者绿色守护 吗？ 根据网上的说法，oppo的开发者选项权限 ...</span><br>
+<span>我理解这三个东西能不能用和开发者选项关系不大吧...退一步说现在color os的杀后台机制我觉得够狠的了。</span><br>
+</p><p><b>6030sylar: </b><br>
+<span>我刚买的realme，这玩意连我在bilibili装个bgo都要管，有什么解决方法</span><br>
+</p><p><b>rss: </b><br>
+<span>real_zyf 发表于 2019-5-24 22:36</span><br>
+<span>我理解这三个东西能不能用和开发者选项关系不大吧...退一步说现在color os的杀后台机制我觉得够狠的了。 ...</span><br>
+<span>在不能ROOT的机子上，这三个软件依赖于开发者选项中的USB调试。没有USB调试也没有ROOT的话就不能用.. 算了，都用安卓加OPPO了还在意啥权限问题，不耗电就好</span><br>
+</p><p><b>若荼泱: </b><br>
+<span>6030sylar 发表于 2019-5-24 23:26</span><br>
+<span>我刚买的realme，这玩意连我在bilibili装个bgo都要管，有什么解决方法</span><br>
+<span>什么意思，要求你去官方商店装？</span><br>
+</p><p><b>real_zyf: </b><br>
+<span>rss 发表于 2019-5-24 23:30</span><br>
+<span>在不能ROOT的机子上，这三个软件依赖于开发者选项中的USB调试。没有USB调试也没有ROOT的话就不能用.. 算 ...</span><br>
+<span>有usb调试啊，我这不是连桌面都uninstall了</span><br>
+</p><p><b>6030sylar: </b><br>
+<span>若荼泱 发表于 2019-5-25 00:06</span><br>
+<span>什么意思，要求你去官方商店装？</span><br>
+<span>要你开个账户登陆验证，我自己装个软件还要你批准啊，我开浏览器上网页版下。</span><br>
+<span>我一开始在自带商店装的bilibili还没游戏区，真是绝了，能退货不</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>6030sylar 发表于 2019-5-25 00:37</span><br>
+<span>要你开个账户登陆验证，我自己装个软件还要你批准啊，我开浏览器上网页版下。</span><br>
+<span>我一开始在自带商店装的bil ...</span><br>
+<span>同是realme，我没有遇到这个问题</span><br>
+<span>你换个浏览器不要用自带的试试？</span><br>
+</p><p><b>6030sylar: </b><br>
+<span>zatsuza 发表于 2019-5-25 00:41</span><br>
+<span>同是realme，我没有遇到这个问题</span><br>
+<span>你换个浏览器不要用自带的试试？</span><br>
+<span>我可能没说清楚，是这系统不让我用bilibili安装bgo，我只能用浏览器下个bgo</span><br>
+</p><p><b>gil: </b><br>
+<span>6030sylar 发表于 2019-5-24 23:26</span><br>
+<span>我刚买的realme，这玩意连我在bilibili装个bgo都要管，有什么解决方法</span><br>
+<span>新版本安卓都是这样的吧，如果不是官方商店或者google play下载的应用都要提醒你可能有安全问题</span><br>
+</p><p><b>6030sylar: </b><br>
+<span>gil 发表于 2019-5-25 00:47</span><br>
+<span>新版本安卓都是这样的吧，如果不是官方商店或者google play下载的应用都要提醒你可能有安全问题 ...</span><br>
+<span>是系统要求你注册登录个账号再验证才让你安装，我以前没用过OPPO的，不知道要这样https://i.loli.net/2019/05/25/5ce828048940385926.jpg</span><br>
+<span>—— 来自 Xiaomi Redmi Note 4X, Android 7.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>清风猫: </b><br>
+<span>6030sylar 发表于 2019-5-25 01:23</span><br>
+<span>是系统要求你注册登录个账号再验证才让你安装，我以前没用过OPPO的，不知道要这样</span><br>
+<span>—— 来自 Xiaomi Red ...</span><br>
+<span>挺好的，以前上学去网吧查资料，手机插上去拔下来上面就多了几个垃圾游戏</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>城南小昊: </b><br>
+<span>用惯了还挺好的😂</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>清风猫 发表于 2019-5-25 12:10</span><br>
+<span>挺好的，以前上学去网吧查资料，手机插上去拔下来上面就多了几个垃圾游戏</span><br>
+<span>—— 来自 OnePlus ONEPLUS A5 ...</span><br>
+<span>这个也对付不了usb调试</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>6030sylar 发表于 2019-5-25 01:23</span><br>
+<span>是系统要求你注册登录个账号再验证才让你安装，我以前没用过OPPO的，不知道要这样</span><br>
+<span>—— 来自 Xiaomi Red ...</span><br>
+<span>确实是这样，我也是第一次见</span><br>
+</p><p><b>莉洁莉特: </b><br>
+<span>6030sylar 发表于 2019-5-25 01:23</span><br>
+<span>是系统要求你注册登录个账号再验证才让你安装，我以前没用过OPPO的，不知道要这样</span><br>
+<span>—— 来自 Xiaomi Red ...</span><br>
+<span>oppo系统太保守，我酷安下软件，输过一次还是几次之后就不用每次都输了。这个要是不用文字密码用指纹也好啊……确实麻烦。</span><br>
+</p><p><b>中泽君: </b><br>
+<span>oppo的系统有广告吗</span><br>
+<span>下单了k20p过了一晚还是无比纠结miui的广告</span><br>
+</p><p><b>正义大朋友: </b><br>
+<span>superchenxx02 发表于 2019-5-23 22:20</span><br>
+<span>从小米转OPPO表示，第一周：Color OS这什么垃圾系统，想改什么都改不了。7天以后：真香，我再也不用折腾了 ...</span><br>
+<span>现在color os状态栏上什么都不显示，感觉会漏信息啊</span><br>
+</p><p><b>精灵狮: </b><br>
+<span>real_zyf 发表于 2019-5-23 23:53</span><br>
+<span>装自己想用的桌面，然后用adb把自带的杀了，最大副作用是不能用侧滑手势 ...</span><br>
+<span>装个流体手势不是爽歪歪？</span><br>
+</p><p><b>左撇子的猫: </b><br>
+<span>6030sylar 发表于 2019-5-25 01:23</span><br>
+<span>是系统要求你注册登录个账号再验证才让你安装，我以前没用过OPPO的，不知道要这样</span><br>
+<span>—— 来自 Xiaomi Red ...</span><br>
+<span>我也是这个情况感觉好麻烦啊每次都要“扫描”和输入密码</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1833692[0-50]</guid>
+    </item>
+  </channel>
+</rss>

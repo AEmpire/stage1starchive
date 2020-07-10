@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>office（excel） 对多核的支持情况怎么样？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>office（excel） 对多核的支持情况怎么样？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:56:42 +0000</lastBuildDate>
+    <item>
+      <title>office（excel） 对多核的支持情况怎么样？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915846-1-1.html</link>
+      <description>office（excel） 对多核的支持情况怎么样？&#13;
+比较好奇，excel这种对多核支持情况如何。
+&#13;
+另外是不是大内存更有用一些？</description>
+      <content:encoded><![CDATA[<p><b>兰开夏: </b><br>
+<span>office（excel） 对多核的支持情况怎么样？</span><br>
+<span>比较好奇，excel这种对多核支持情况如何。</span><br>
+<span>另外是不是大内存更有用一些？</span><br>
+</p><p><b>GeneralAtomics: </b><br>
+<span> 本帖最后由 GeneralAtomics 于 2020-2-26 15:21 编辑 </span><br>
+<span>跑满3990x没什么问题，可能需要关闭超线程</span><br>
+<span>况且杀牛用牛刀，PowerBI不香吗</span><br>
+<span>https://support.office.com/zh-cn ... 9-91a6-48b3be0377c4</span><br>
+<span>公式</span><br>
+<span>启用多线程计算   默认情况下，此选项通过使用多个处理器启用快速计算。 请注意，Excel 仅支持使用最多64个处理器内核。</span><br>
+<span>计算线程数   允许你指定用于计算的处理器数。</span><br>
+<span>    使用此计算机上的所有处理器   默认情况下，此选项使用您的计算机上可用的所有处理器。</span><br>
+<span>    手动   允许你指定要使用的处理器数。 在 "手动" 框中，输入一个介于1和1024之间的正数。</span><br>
+</p><p><b>两个路人: </b><br>
+<span>支持多核，但是最后还是要看表格的复杂程度。越是复杂，跨工作表/簿调用，效率就捉鸡，还不得不设置成手动重新计算结果，不然改一下卡半天</span><br>
+</p><p><b>CyanCloverFern: </b><br>
+<span>复杂的话还是用Asset吧</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>macos: </b><br>
+<span>能多核，但好像效率不高</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>4c8t可以吃满</span><br>
+</p><p><b>startraveller: </b><br>
+<span>貌似就算最新版也只有部分函数支持多线程</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915846[0-50]</guid>
+    </item>
+  </channel>
+</rss>

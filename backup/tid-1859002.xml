@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问下有没有把安卓屏幕圆角显示变为方角的app</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问下有没有把安卓屏幕圆角显示变为方角的app</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:44:16 +0000</lastBuildDate>
+    <item>
+      <title>问下有没有把安卓屏幕圆角显示变为方角的app[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1859002-1-1.html</link>
+      <description>问下有没有把安卓屏幕圆角显示变为方角的app&#13;
+ 本帖最后由 droople 于 2019-10-12 12:00 编辑 
+
+一加7 pro的圆角好不习惯，有app可以改成方角吗？
+&#13;
+不好意思，表述不清，不是图标改方角，是想把屏幕四个角变成方角的，
+&#13;
+就是要上下加黑边</description>
+      <content:encoded><![CDATA[<p><b>droople: </b><br>
+<span>问下有没有把安卓屏幕圆角显示变为方角的app</span><br>
+<span> 本帖最后由 droople 于 2019-10-12 12:00 编辑 </span><br>
+<span>一加7 pro的圆角好不习惯，有app可以改成方角吗？</span><br>
+<span>不好意思，表述不清，不是图标改方角，是想把屏幕四个角变成方角的，</span><br>
+<span>就是要上下加黑边</span><br>
+</p><p><b>暗铁: </b><br>
+<span>看原装启动器能不能设置或者安装图标包，不能就换启动器</span><br>
+</p><p><b>pgain2004: </b><br>
+<span>一加应该能换启动器吧，换Nova就好。</span><br>
+</p><p><b>759745738: </b><br>
+<span>同问 三星S10+也想这样做</span><br>
+<span>—— 来自 samsung SM-G9750, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>光宗薫: </b><br>
+<span>屏幕本身就是圆角的怎么变方角？加黑边吗？</span><br>
+</p><p><b>有妹是老婆: </b><br>
+<span>买个方形的贴膜…</span><br>
+</p><p><b>01046: </b><br>
+<span>？？？app物理干预屏幕？？</span><br>
+<span>—— 来自 Google Pixel 2 XL, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>encode.x: </b><br>
+<span>想软件层面上改变的话要在上下或者左右加黑边吧</span><br>
+<span>—— 来自 Google Pixel 3, Android 10上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>利物浦: </b><br>
+<span>上下增加黑边，adb命令可能可行</span><br>
+</p><p><b>droople: </b><br>
+<span>光宗薫 发表于 2019-10-11 20:13</span><br>
+<span>屏幕本身就是圆角的怎么变方角？加黑边吗？</span><br>
+<span>对，magisk有给mix2s加黑边的，但是找不到给一加用的</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>droople 发表于 2019-10-12 12:00</span><br>
+<span>对，magisk有给mix2s加黑边的，但是找不到给一加用的</span><br>
+<span>不行直接改分辨率，想整成正方形都行</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>古畑任三郎2015: </b><br>
+<span>黑色胶带万能</span><br>
+</p><p><b>droople: </b><br>
+<span>fishmanzero 发表于 2019-10-12 20:45:55</span><br>
+<span>不行直接改分辨率，想整成正方形都行 v2.1.2谢谢，有对应插件吗？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>droople 发表于 2019-10-12 22:10</span><br>
+<span>谢谢，有对应插件吗？</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 Android客户端</span><br>
+<span>应该不少工具箱类的应用（镧、Scene等等）都可以，或者adb、终端app执行wm size 1860x1080 自己根据弧度摸索一下分辨率</span><br>
+</p><p><b>droople: </b><br>
+<span>fishmanzero 发表于 2019-10-12 22:16</span><br>
+<span>应该不少工具箱类的应用（镧、Scene等等）都可以，或者adb、终端app执行wm size 1860x1080 自己根据弧度 ...</span><br>
+<span>谢谢，如果要重启后保留，需要插件吧？</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>droople 发表于 2019-10-12 22:58</span><br>
+<span>谢谢，如果要重启后保留，需要插件吧？</span><br>
+<span>保留的</span><br>
+</p><p><b>droople: </b><br>
+<span>fishmanzero 发表于 2019-10-12 23:46</span><br>
+<span>保留的</span><br>
+<span>好，我试试</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1859002[0-50]</guid>
+    </item>
+  </channel>
+</rss>

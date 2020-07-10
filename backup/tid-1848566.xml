@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>没经住忽悠，3700x上了x570，新问题，原装扇太吵</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>没经住忽悠，3700x上了x570，新问题，原装扇太吵</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:49:53 +0000</lastBuildDate>
+    <item>
+      <title>没经住忽悠，3700x上了x570，新问题，原装扇太吵[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848566-1-1.html</link>
+      <description>没经住忽悠，3700x上了x570&#13;
+在本地店被一顿忽悠说450如何不行……我就上了x570，还是华硕的
+&#13;
+不过钱花了也就花了。
+&#13;
+现在就想问问：
+&#13;
+1 x570到底好在哪？
+&#13;
+2 amd的风扇灯可以软件控制颜色嘛？我想改成根据cpu温度变色。
+&#13;
+3 cpu原装风扇超频有意义吗……
+&#13;
+4 搞俩sn750 raid0有意义吗？本地店价格还行，但是只有512的，一个实在不够用，几个虚拟机塞进去现在已经占了一半……
+&#13;
+另外旧电脑还想收拾一下，现在用了一个别人送的杂牌性能比hdd还差的ssd，受够了想换掉，主板b85，m2口只有10GB，技嘉的狙击手G6
+&#13;
+pci-e 4x有啥ssd不太贵的没？这主板说明书只写了m2和pci-e4x口共享带宽却没说不插m2口会不会降速，我找个转接卡能行不？</description>
+      <content:encoded><![CDATA[<p><b>六步走天下: </b><br>
+<span>btc 发表于 2019-7-23 21:14</span><br>
+<span>pcie4.0的ssd现阶段没有任何必要去购买，速度全部都是靠顺序读写时候的缓存拉起来的理论值，最关键的4k读写 ...</span><br>
+<span>问下，大船是哪个盘？</span><br>
+<span>—— 来自 samsung SM-G950F, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>obiy: </b><br>
+<span>山贼先生 发表于 2019-7-24 17:27</span><br>
+<span>和楼主一样也换了Zen2和X570，解答一下问题顺便分享一下心得</span><br>
+<span>1、X570有啥好的</span><br>
+<span>晒一下机箱的图呗</span><br>
+</p><p><b>山贼先生: </b><br>
+<span> 本帖最后由 山贼先生 于 2019-7-24 21:16 编辑 </span><br>
+<span>实在是懒得拍机箱照片。。。。。真的</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>oz01 发表于 2019-7-24 09:51</span><br>
+<span>原风扇太吵，求替代品</span><br>
+<span>推荐上水冷</span><br>
+<span>3900X以下的话上240水或者好点的风冷</span><br>
+<span>3900X还是建议360水 目前自用NZXT的X72 FPU烤鸡74度</span><br>
+</p><p><b>oz01: </b><br>
+<span>山贼先生 发表于 2019-7-24 20:55</span><br>
+<span>推荐上水冷</span><br>
+<span>3900X以下的话上240水或者好点的风冷</span><br>
+<span>水冷就太夸张了orz</span><br>
+<span>现在预算已经超了不少，水冷买不起</span><br>
+<span>而且我就3700x</span><br>
+<span>现在的风扇声音频繁忽高忽低……明明cpu占用率几乎是0</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>oz01 发表于 2019-7-24 20:59</span><br>
+<span>水冷就太夸张了orz</span><br>
+<span>现在预算已经超了不少，水冷买不起</span><br>
+<span>而且我就3700x</span><br>
+<span>简单点说</span><br>
+<span>Zen2的待机机制有点迷</span><br>
+<span>我现在的3900X 3.6G~4.5G波动 这是待机的</span><br>
+<span>待机温度30多~55℃不停波动</span><br>
+<span>但是FPU烤几个小时也只有70多</span><br>
+<span>所以如果你能忍受温度数值高不抓狂</span><br>
+<span>原装也能凑合用</span><br>
+</p><p><b>oz01: </b><br>
+<span>山贼先生 发表于 2019-7-24 21:02</span><br>
+<span>简单点说</span><br>
+<span>Zen2的待机机制有点迷</span><br>
+<span>显然不能忍受orz</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>oz01 发表于 2019-7-24 21:03</span><br>
+<span>显然不能忍受orz</span><br>
+<span>那就跟我一样换360一体水咯</span><br>
+<span>当时我是从240的一体水换成了360的一体水</span><br>
+<span>满载温度就能看了，虽然待机看着还是很头疼</span><br>
+</p><p><b>精钢魔像: </b><br>
+<span>oz01 发表于 2019-7-24 20:59</span><br>
+<span>水冷就太夸张了orz</span><br>
+<span>现在预算已经超了不少，水冷买不起</span><br>
+<span>而且我就3700x</span><br>
+<span>要看机箱的</span><br>
+<span>如果是正常的前后风道机箱，买个能解95w的侧吹就可以，进气口再加个风扇</span><br>
+<span>如果是闷罐，试试出气口加个吸风</span><br>
+<span>好像说570有毛病是南桥正对显卡，显卡一热，热风一吹，主板跟着热</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>精钢魔像 发表于 2019-7-24 21:10</span><br>
+<span>要看机箱的</span><br>
+<span>如果是正常的前后风道机箱，买个能解95w的侧吹就可以，进气口再加个风扇</span><br>
+<span>如果是闷罐，试试出 ...</span><br>
+<span>好像是华擎主板吧 BIOS识别有问题</span><br>
+<span>显卡的热风打在南桥上导致南桥温度高触发保护机制</span><br>
+<span>直接关机</span><br>
+</p><p><b>obiy: </b><br>
+<span>山贼先生 发表于 2019-7-24 20:50</span><br>
+<span>实在是懒得拍机箱照片。。。。。真的</span><br>
+<span>任务管理器的内存部分不显示内存频率，是正常的吗？</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>obiy 发表于 2019-7-24 21:35</span><br>
+<span>任务管理器的内存部分不显示内存频率，是正常的吗？</span><br>
+<span>正常的。。。。 系统的锅</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>山贼先生 发表于 2019-7-24 20:55</span><br>
+<span>推荐上水冷</span><br>
+<span>3900X以下的话上240水或者好点的风冷</span><br>
+<span>但是…如果是普通主板，上了水冷，VRM会不会温度爆炸？</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>EraserKing 发表于 2019-07-24 21:53:36</span><br>
+<span>但是…如果是普通主板，上了水冷，VRM会不会温度爆炸？</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 ofv2.1.0-p ...应该不会吧 VRM耐热比CPU强多了</span><br>
+<span>而且机箱里本身就有风扇帮忙散热</span><br>
+<span>稍微注意一下风道搭建即可</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>albertfu: </b><br>
+<span>EraserKing 发表于 2019-7-24 21:53</span><br>
+<span>但是…如果是普通主板，上了水冷，VRM会不会温度爆炸？</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next G ...</span><br>
+<span>一般hwinfo可以监控vrm温度，觉得太高的话（大于95度）可以加个风扇吹内存+VRM这块，没问题的</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>albertfu 发表于 2019-07-24 22:10:23</span><br>
+<span>一般hwinfo可以监控vrm温度，觉得太高的话（大于95度）可以加个风扇吹内存+VRM这块，没问题的 ...稍微好点的箱子弄三个120在前面往里嘬风足够了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>ft5555: </b><br>
+<span>山贼先生 发表于 2019-7-24 21:02</span><br>
+<span>简单点说</span><br>
+<span>Zen2的待机机制有点迷</span><br>
+<span>我发现3700x， 把cpu cache fpu都选上烤比单烤fpu温度高多了</span><br>
+<span>intel的U是单烤fpu温度最高</span><br>
+</p><p><b>albertfu: </b><br>
+<span>山贼先生 发表于 2019-7-24 22:25</span><br>
+<span>稍微好点的箱子弄三个120在前面往里嘬风足够了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端 ...</span><br>
+<span>十几年不用机箱了</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>主板是4.0但SSD是3.0，那速度不该还是3.0吗</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>bios能控制风扇策略的吧</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848566[50-100]</guid>
+    </item>
+    <item>
+      <title>没经住忽悠，3700x上了x570，新问题，原装扇太吵[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848566-1-1.html</link>
+      <description>没经住忽悠，3700x上了x570&#13;
+在本地店被一顿忽悠说450如何不行……我就上了x570，还是华硕的
+&#13;
+不过钱花了也就花了。
+&#13;
+现在就想问问：
+&#13;
+1 x570到底好在哪？
+&#13;
+2 amd的风扇灯可以软件控制颜色嘛？我想改成根据cpu温度变色。
+&#13;
+3 cpu原装风扇超频有意义吗……
+&#13;
+4 搞俩sn750 raid0有意义吗？本地店价格还行，但是只有512的，一个实在不够用，几个虚拟机塞进去现在已经占了一半……
+&#13;
+另外旧电脑还想收拾一下，现在用了一个别人送的杂牌性能比hdd还差的ssd，受够了想换掉，主板b85，m2口只有10GB，技嘉的狙击手G6
+&#13;
+pci-e 4x有啥ssd不太贵的没？这主板说明书只写了m2和pci-e4x口共享带宽却没说不插m2口会不会降速，我找个转接卡能行不？</description>
+      <content:encoded><![CDATA[<p><b>oz01: </b><br>
+<span>没经住忽悠，3700x上了x570</span><br>
+<span>在本地店被一顿忽悠说450如何不行……我就上了x570，还是华硕的</span><br>
+<span>不过钱花了也就花了。</span><br>
+<span>现在就想问问：</span><br>
+<span>1 x570到底好在哪？</span><br>
+<span>2 amd的风扇灯可以软件控制颜色嘛？我想改成根据cpu温度变色。</span><br>
+<span>3 cpu原装风扇超频有意义吗……</span><br>
+<span>4 搞俩sn750 raid0有意义吗？本地店价格还行，但是只有512的，一个实在不够用，几个虚拟机塞进去现在已经占了一半……</span><br>
+<span>另外旧电脑还想收拾一下，现在用了一个别人送的杂牌性能比hdd还差的ssd，受够了想换掉，主板b85，m2口只有10GB，技嘉的狙击手G6</span><br>
+<span>pci-e 4x有啥ssd不太贵的没？这主板说明书只写了m2和pci-e4x口共享带宽却没说不插m2口会不会降速，我找个转接卡能行不？</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>X570好在南桥提供的是全速PCI-E 4.0 X4接M.2，如果你超过一个NVME盘就有点意思，至于值 不值 不好说</span><br>
+<span>原装风扇？建议换了，37的给36用还行，压不住</span><br>
+<span>R0稳定性蛋疼，不在乎数据无所谓</span><br>
+</p><p><b>真田丸: </b><br>
+<span>乐观一点，以后换3950x就不用换主板了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>是为下一代做准备的,没了.</span><br>
+</p><p><b>melodychs: </b><br>
+<span>我37X用猫扇15s压 目前温度表现还能接受 烤鸡基本80左右 机箱是3进1出 主板是570微星暗黑</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>Sheny: </b><br>
+<span>为下一代准备也是自我安慰，真到下一代要么有更便宜的，要么有更好的。</span><br>
+</p><p><b>obiy: </b><br>
+<span>x570主要是供电更好，但这代cpu用不上</span><br>
+</p><p><b>oz01: </b><br>
+<span>现在就感觉安装东西速度飞一样，开机最慢的环节是显卡硬件自检，编译一次整个工程，耗时以前以分钟为单位，现在不到一分钟</span><br>
+</p><p><b>qwased: </b><br>
+<span>ssd不要组raid0</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oz01: </b><br>
+<span>qwased 发表于 2019-7-23 13:45</span><br>
+<span>ssd不要组raid0</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+<span>为何？</span><br>
+</p><p><b>albertfu: </b><br>
+<span>oz01 发表于 2019-7-23 13:40</span><br>
+<span>现在就感觉安装东西速度飞一样，开机最慢的环节是显卡硬件自检，编译一次整个工程，耗时以前以分钟为单位， ...</span><br>
+<span>原来的CPU是B85上面的？</span><br>
+<span>换3700x就提升这么大真是有爽到</span><br>
+</p><p><b>albertfu: </b><br>
+<span>oz01 发表于 2019-7-23 13:54</span><br>
+<span>为何？</span><br>
+<span>raid0安全系数太低，除了跑分看着爽，实际用感觉不到区别</span><br>
+<span>貌似RAID0上启用TRIM也要费点功夫</span><br>
+<span>话说X570现阶段能爽到的就是更好支持12C的zen2，供电更强，16C的3950x过俩月才有。。。</span><br>
+<span>PCIE4.0也只有SSD才能跑出区别，Navi插在3.0和4.0上单卡0区别，其余的压根不支持4.0</span><br>
+</p><p><b>oz01: </b><br>
+<span>albertfu 发表于 2019-7-23 13:55</span><br>
+<span>原来的CPU是B85上面的？</span><br>
+<span>换3700x就提升这么大真是有爽到</span><br>
+<span>原来是4790没有k</span><br>
+<span>我认为主要提升就是ssd，sn750确实快</span><br>
+</p><p><b>qwased: </b><br>
+<span>oz01 发表于 2019-7-23 13:54</span><br>
+<span>为何？</span><br>
+<span>主板raid0对掉电的抵抗能力很差，再加上ssd也是，基本等于死机/停电一次就轻则丢文件重则raid损毁</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oz01: </b><br>
+<span>qwased 发表于 2019-7-23 14:02</span><br>
+<span>主板raid0对掉电的抵抗能力很差，再加上ssd也是，基本等于死机/停电一次就轻则丢文件重则raid损毁 ...</span><br>
+<span>还能损坏硬件？</span><br>
+</p><p><b>qwased: </b><br>
+<span>另外显卡支持uefi启动的话（gtx6系/amd 2系之后）把主板的csm关了就没有显卡自检了</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oz01: </b><br>
+<span>qwased 发表于 2019-7-23 14:06</span><br>
+<span>另外显卡支持uefi启动的话（gtx6系/amd 2系之后）把主板的csm关了就没有显卡自检了</span><br>
+<span>—— 来自 Xiaomi MI 6 ...</span><br>
+<span>显卡暂时用的是gts250，40快买的亮机卡，暂时还没空吧原来电脑里的1066装上</span><br>
+</p><p><b>qwased: </b><br>
+<span>oz01 发表于 2019-7-23 14:06</span><br>
+<span>还能损坏硬件？</span><br>
+<span>硬件不会坏，但是数据基本全完蛋</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>oz01: </b><br>
+<span>qwased 发表于 2019-7-23 14:07</span><br>
+<span>硬件不会坏，但是数据基本全完蛋</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>其实现在装系统挺快的，瓶颈全在装操作系统的U盘上</span><br>
+</p><p><b>JWJking: </b><br>
+<span>x570拓展性太好，这么多条pcie4.0用不上，x470 B450拓展性又太差，大hub只适合itx和matx，pcie2.0完全吃屎。</span><br>
+<span>rbg风扇灯根据cpu温度变色，海盗船Corsairlink。</span><br>
+<span>原装风扇：没意义</span><br>
+<span>raid0：没意义</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>别问</span><br>
+<span>问就是微星迫击炮</span><br>
+</p><p><b>真田丸: </b><br>
+<span>Sheny 发表于 2019-7-23 13:31</span><br>
+<span>为下一代准备也是自我安慰，真到下一代要么有更便宜的，要么有更好的。</span><br>
+<span>一个是拆了散热拔下cpu就换上，一个是拆机箱拔线拆主板，你说哪个省事</span><br>
+</p><p><b>Sheny: </b><br>
+<span>真田丸 发表于 2019-7-23 15:06</span><br>
+<span>一个是拆了散热拔下cpu就换上，一个是拆机箱拔线拆主板，你说哪个省事</span><br>
+<span>到时芯片组和主板鬼知道什么样，主板可以玩一些冗余，但是如果这些冗余要花的成本，都够你提一档u，一档内存或者一档显卡时，就没意思了。考虑以后能不能换，怎么换之前，不如先想想有多少概率自己到那时已经佛了，根本没有升级的动力。</span><br>
+<span>其实按我的经验，提前架好平台，购买高规格主板，之后真按计划升级的概率，远比不升级用到死和彻底买套新平台低得多。</span><br>
+</p><p><b>oz01: </b><br>
+<span>Sheny 发表于 2019-7-23 15:49</span><br>
+<span>到时芯片组和主板鬼知道什么样，主板可以玩一些冗余，但是如果这些冗余要花的成本，都够你提一档u，一档 ...</span><br>
+<span>按我的经验………………………………电脑装了就再懒得开盖了，除了忍不下去塞硬盘换显卡的时候。</span><br>
+<span>实在忍不下去就整个换新的</span><br>
+</p><p><b>citrus: </b><br>
+<span>以后有pcie 4.0显卡，用来炼丹肯定是更好使的，游戏性能会提高多少倒未必了</span><br>
+</p><p><b>oz01: </b><br>
+<span>citrus 发表于 2019-7-23 15:53</span><br>
+<span>以后有pcie 4.0显卡，用来炼丹肯定是更好使的，游戏性能会提高多少倒未必了 ...</span><br>
+<span>我倒是更有可能上pcie 4.0 SSD，对文件读写非常之敏感</span><br>
+</p><p><b>Sheny: </b><br>
+<span>oz01 发表于 2019-7-23 15:53</span><br>
+<span>按我的经验………………………………电脑装了就再懒得开盖了，除了忍不下去塞硬盘换显卡的时候。</span><br>
+<span>实在忍 ...</span><br>
+<span>这点本区早就讨论过了，除去双卡和高数量磁盘接口需求，实际应该成主流的结构是matx，但架不住主板厂硬推atx加各种跑马灯，机箱厂也只能跟着不是atx就是itx，matx都尽量缩减产品线。</span><br>
+<span>至于买高端芯片组的，现在单纯为了功能的很少，主要还是受限于pcie数量。甚至还有纯粹为了能跑更高的内存频率的。</span><br>
+</p><p><b>albertfu: </b><br>
+<span>oz01 发表于 2019-7-23 15:56</span><br>
+<span>我倒是更有可能上pcie 4.0 SSD，对文件读写非常之敏感</span><br>
+<span>现在好像只有phison主控的。。。</span><br>
+<span>不过看了下贼船的pcie 4.0 ssd的评测，4k q1和q32也不弱，TLC中上水平</span><br>
+<span>连续读写就是秒杀pcie 3.0一切了</span><br>
+</p><p><b>oz01: </b><br>
+<span>albertfu 发表于 2019-7-23 16:18</span><br>
+<span>现在好像只有phison主控的。。。</span><br>
+<span>不过看了下贼船的pcie 4.0 ssd的评测，4k q1和q32也不弱，TLC中上水平</span><br>
+<span>不急，等下一代产品</span><br>
+</p><p><b>btc: </b><br>
+<span>pcie4.0的ssd现阶段没有任何必要去购买，速度全部都是靠顺序读写时候的缓存拉起来的理论值，最关键的4k读写基本没有任何进度，但是发热巨大，非常不划算。</span><br>
+<span>现在要买的话还是推荐2t的sn750一步到位</span><br>
+<span>或者就是放弃保修去买企业盘的大船</span><br>
+</p><p><b>AlphaAnother: </b><br>
+<span>不是4代也能用pcie4.0吗 这u官灰了 x570的供电给谁用？</span><br>
+<span>—— 来自 LGE LG-F400, Android 8.1.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>sblnrrk: </b><br>
+<span>btc 发表于 2019-7-23 21:14</span><br>
+<span>pcie4.0的ssd现阶段没有任何必要去购买，速度全部都是靠顺序读写时候的缓存拉起来的理论值，最关键的4k读写 ...</span><br>
+<span>也不是，你认真看4。0的盘，4k qd1也有巨大提升</span><br>
+<span>—— 来自 HUAWEI COL-AL10, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>laotoutou: </b><br>
+<span>oz01 发表于 2019-7-23 14:00</span><br>
+<span>原来是4790没有k</span><br>
+<span>我认为主要提升就是ssd，sn750确实快</span><br>
+<span>那你应该买块3t，4t的ssd装原来机子上。可能比现在还爽。nvme和sata实际用起来区别不大。</span><br>
+</p><p><b>oz01: </b><br>
+<span>laotoutou 发表于 2019-7-24 08:48</span><br>
+<span>那你应该买块3t，4t的ssd装原来机子上。可能比现在还爽。nvme和sata实际用起来区别不大。</span><br>
+<span> ...</span><br>
+<span>这么大的ssd实在用不着，我家里还有一堆ssd，现在就想搞个速度比较快的装系统，就是不知道用pci-e转接卡会不会比10G的主板m2接口更快</span><br>
+</p><p><b>精打细算大国安: </b><br>
+<span>我就是X570了，因为买来的B450死活点不亮，用usb刷bios都不行</span><br>
+</p><p><b>oz01: </b><br>
+<span>原风扇太吵，求替代品</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>oz01 发表于 2019-7-24 09:51</span><br>
+<span>原风扇太吵，求替代品</span><br>
+<span>我换了采融A3r，不过夜深人静的时候也不算安静。</span><br>
+<span>不过不管换哪个，摘原装风扇前一定要烤机一会儿，然后拿的时候小心轻点，别像我似的把cpu直接拔出来了</span><br>
+<span>详见：https://bbs.saraba1st.com/2b/thread-1846710-1-1.html</span><br>
+</p><p><b>oz01: </b><br>
+<span>liwangli1983 发表于 2019-7-24 10:17</span><br>
+<span>我换了采融A3r，不过夜深人静的时候也不算安静。</span><br>
+<span>不过不管换哪个，摘原装风扇前一定要烤机一会儿，然后拿 ...</span><br>
+<span>cpu接口上不是应该有扣具的嘛……</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>oz01 发表于 2019-7-24 10:32</span><br>
+<span>cpu接口上不是应该有扣具的嘛……</span><br>
+<span>那个扣具只是夹住针脚而已，谈不上牢固，不像intel那样会有盖压住整个cpu</span><br>
+<span>关键是amd原装那个硅脂太粘了，尤其是冷的时候。帖子里其它人的建议是热机后再拔</span><br>
+</p><p><b>Sheny: </b><br>
+<span>oz01 发表于 2019-7-24 09:51</span><br>
+<span>原风扇太吵，求替代品</span><br>
+<span>别问，问就amd yes。记得顺便把南桥风扇准备好，不知道何时就拖拉机了</span><br>
+</p><p><b>oz01: </b><br>
+<span>liwangli1983 发表于 2019-7-24 10:39</span><br>
+<span>那个扣具只是夹住针脚而已，谈不上牢固，不像intel那样会有盖压住整个cpu</span><br>
+<span>关键是amd原装那个硅脂太粘了 ...</span><br>
+<span>我差点就要自己买东西自己动手了</span><br>
+</p><p><b>oz01: </b><br>
+<span>Sheny 发表于 2019-7-24 10:39</span><br>
+<span>别问，问就amd yes。记得顺便把南桥风扇准备好，不知道何时就拖拉机了</span><br>
+<span>南桥风扇好像被显卡挡住了……这玩意能换么？</span><br>
+</p><p><b>暗铁: </b><br>
+<span>楼主诈尸了啊</span><br>
+<span>这代X570也不知道会不会有好的matx板能上3950X，没有的话感觉要看TR三代怎样了，好歹有张妖擎的X399能用</span><br>
+<span>—— 来自 samsung SM-G9650, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>山贼先生: </b><br>
+<span> 本帖最后由 山贼先生 于 2019-7-24 17:37 编辑 </span><br>
+<span>和楼主一样也换了Zen2和X570，解答一下问题顺便分享一下心得</span><br>
+<span>1、X570有啥好的</span><br>
+<span>PCIE通道多 全速的M2也多，我现在主力机插了3个NVME和3个SATA的固态，都是满速，显卡也不用担心从X16变成X8</span><br>
+<span>不过话说回来。。。。2倍3.0速度的PCIE4.0，8X也够绝大多数显卡使了</span><br>
+<span>不过华硕A板好像祖传俩M.2，看标识M.2_1应该是直连CPU，似乎是比直连芯片组的M.2_2好点</span><br>
+<span>2、原装风扇能不能控制灯光</span><br>
+<span>我没用过，但是听用过的朋友说带灯的原装散热可以和主板的灯控同步</span><br>
+<span>原装扇好像带根ARGB控制线，能怼在华硕主板的ARGB插针上</span><br>
+<span>3、cpu原装风扇超频有意义吗</span><br>
+<span>我觉得没意义，不过就算上360水，Zen2也很难超的啦，怎么说也是官方灰烬，我自己就上过全核4.3</span><br>
+<span>最大的意义就是挂闲鱼除掉稍微回那么一丢丢血</span><br>
+<span>4，搞RAID有没有用</span><br>
+<span>不建议搞RAID，因为现在的BIOS还不完善，好像组好RAID不会识别</span><br>
+<span>其实我的最终目的是晒图</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>山贼先生 发表于 2019-7-24 17:27</span><br>
+<span>和楼主一样也换了Zen2和X570，解答一下问题顺便分享一下心得</span><br>
+<span>1、X570有啥好的</span><br>
+<span>满速也就1个M2直连CPU啊，剩下的还是走牙签总线</span><br>
+<span>当然，我猜你可能是说比牙膏厂好？毕竟不和独显抢通道…</span><br>
+<span>灯光的话是四针的12V RGB，应该算是通用标准了</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>liwangli1983: </b><br>
+<span>oz01 发表于 2019-7-24 10:40</span><br>
+<span>南桥风扇好像被显卡挡住了……这玩意能换么？</span><br>
+<span>我的显卡也下好挡死南桥风扇……</span><br>
+</p><p><b>山贼先生: </b><br>
+<span>EraserKing 发表于 2019-7-24 18:00</span><br>
+<span>满速也就1个M2直连CPU啊，剩下的还是走牙签总线</span><br>
+<span>当然，我猜你可能是说比牙膏厂好？毕竟不和独显抢 ...</span><br>
+<span>牙签总线速度也还行，基本上我4.0固态轻松接近5G的读取</span><br>
+</p><p><b>Archlich: </b><br>
+<span>似乎x470各种断货啊</span><br>
+</p><p><b>qianheng: </b><br>
+<span>猫头鹰 d15s</span><br>
+</p><p><b>albertfu: </b><br>
+<span>山贼先生 发表于 2019-7-24 17:27</span><br>
+<span>和楼主一样也换了Zen2和X570，解答一下问题顺便分享一下心得</span><br>
+<span>1、X570有啥好的</span><br>
+<span>godlike，壕</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848566[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>高通800时代的手机5GWiFi传输速度有多少能达到20MB/s的？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>高通800时代的手机5GWiFi传输速度有多少能达到20MB/s的？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:50:44 +0000</lastBuildDate>
+    <item>
+      <title>高通800时代的手机5GWiFi传输速度有多少能达到20MB/s的？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1848430-1-1.html</link>
+      <description>高通800时代的手机5GWiFi传输速度有多少能达到20MB/s的？&#13;
+指的是通过5GWiFi向连接路由器的优盘以SMB协议传文件，手头几部高通800的老爷机，发现就亚马逊的火机能达到（连接速度为433Mbps），不知道采用了什么黑科技，同时代的Nexus5、Galaxy S5、YotaPhone2和HTC M8都上不了20MB/s</description>
+      <content:encoded><![CDATA[<p><b>Saphir: </b><br>
+<span>高通800时代的手机5GWiFi传输速度有多少能达到20MB/s的？</span><br>
+<span>指的是通过5GWiFi向连接路由器的优盘以SMB协议传文件，手头几部高通800的老爷机，发现就亚马逊的火机能达到（连接速度为433Mbps），不知道采用了什么黑科技，同时代的Nexus5、Galaxy S5、YotaPhone2和HTC M8都上不了20MB/s</span><br>
+</p><p><b>Saphir: </b><br>
+<span>还有海美迪H7四代，连接速度也显示433Mbps，但传输速度居然5MB/s都不到，完全不明所以，这速度虚标得也太厉害了吧。</span><br>
+</p><p><b>YuKin: </b><br>
+<span>SMB不就这个值？</span><br>
+</p><p><b>twy_2000: </b><br>
+<span>emmc？</span><br>
+</p><p><b>catxing: </b><br>
+<span>smb协议的锅，这个协议贼吃cpu，a73以下吃不住</span><br>
+</p><p><b>Saphir: </b><br>
+<span>twy_2000 发表于 2019-7-22 18:07</span><br>
+<span>emmc？</span><br>
+<span>应该无关，火机不一样用的是emmc</span><br>
+<span>海美迪内置存储拷贝文件到优盘速度可以上20MB/s的，这就证明读取速度没有问题。</span><br>
+<span>既然如此，通过5GWiFi拷贝文件到连接路由器的优盘怎么就这点速度，连接速度明明和火机一样是433Mbps</span><br>
+</p><p><b>Saphir: </b><br>
+<span>catxing 发表于 2019-7-22 18:12</span><br>
+<span>smb协议的锅，这个协议贼吃cpu，a73以下吃不住</span><br>
+<span>海美迪可以这么说，毕竟S912（这也比骁龙800要晚出很长时间了），但火机和Nexus5、Galaxy S5、YotaPhone2、HTC M8这些也都是骁龙800，为什么火机就鹤立鸡群，能上到20MB/s？</span><br>
+</p><p><b>Saphir: </b><br>
+<span>又比如Moto Z2 Play，连接速度150Mbps，实际传输速度能达到10MB/s左右，勉强算与标称的连接速度相符。</span><br>
+</p><p><b>YuKin: </b><br>
+<span>你先换到FTP再测啰</span><br>
+</p><p><b>Saphir: </b><br>
+<span>YuKin 发表于 2019-7-22 18:19</span><br>
+<span>你先换到FTP再测啰</span><br>
+<span>我想问的是，同一个传输协议（SMB），同一款SOC（骁龙800），连接同一个5G WiFi，向同一个连接至路由器的优盘传输文件，为什么火机这么牛逼，能上20MB/s，连三星曾经的旗舰Galaxy S5都办不到。</span><br>
+</p><p><b>雪影: </b><br>
+<span> 本帖最后由 雪影 于 2019-7-22 18:46 编辑 </span><br>
+<span>smb的锅，或者可能是软件的锅，solid，re最多就15M/s，es甚至只能7m/s，用了某个繁体的文件管理器可以到20-25m/s</span><br>
+<span>但是这些软件用ftp后，40-45m/s</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>https://www.v2ex.com/t/405700</span><br>
+<span>找到这么个贴</span><br>
+</p><p><b>mogle: </b><br>
+<span>tcp没问题就ok，</span><br>
+<span>smb这个连windows自己连自己都有各种幺蛾子出来的协议.......</span><br>
+</p><p><b>qwased: </b><br>
+<span>Saphir 发表于 2019-7-22 18:23</span><br>
+<span>我想问的是，同一个传输协议（SMB），同一款SOC（骁龙800），连接同一个5G WiFi，向同一个连接至路由器的 ...</span><br>
+<span>有可能是内核做了优化把SMB ZEROCOPY开了</span><br>
+<span>不过还是上FTP或者webdav吧，smb真的是弟弟</span><br>
+</p><p><b>qwased: </b><br>
+<span>试了下群晖的，SMB跑满千兆，3825U一个核就满载了除了WIN系真别用这玩意了</span><br>
+</p><p><b>catxing: </b><br>
+<span>Saphir 发表于 2019-7-22 18:17</span><br>
+<span>海美迪可以这么说，毕竟S912（这也比骁龙800要晚出很长时间了），但火机和Nexus5、Galaxy S5、YotaPhone2 ...</span><br>
+<span>只能说亚马逊的奇技淫巧厉害</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1848430[0-50]</guid>
+    </item>
+  </channel>
+</rss>

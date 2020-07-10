@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[已解决]</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[已解决]</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:25 +0000</lastBuildDate>
+    <item>
+      <title>[已解决][0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904342-1-1.html</link>
+      <description>[求助] 任务管理器里关了Usermode Font Driver Host 后字全部消失&#13;
+ 本帖最后由 Midnight.Coup 于 2019-12-20 17:33 编辑 
+
+因受不了 Win10 1909 ，遂装回了 LTSC，但这个版本基于 1809，有两个 Bug 在 1903 里都已经修了，有一个回到 1809 不太好解决，而且 LTSC 的更新速度怕是得等到 LTSC 2022 才能修复了
+&#13;
+[*]一个是用了某科学丝袜后产生大量 HTTP Auto Proxy Detection Worker Process 进程，这个只需要把 服务 里名字一样的后台服务停止运行就能清除，没啥负面影响。
+&#13;
+[*]一个是时间线功能，把时间线记录里的文件删了后项目变成了灰色不可清除，我的方法是 组策略禁用 加 删除 AppData\Local\ConnectedDevicesPlatform (需要停用 服务 CPUUserSvc_XXX，停用加删除文件后不要直接启动时间线，否则会导致重置设置里的部分设置，并且灰色项目重新出现，最后点关机同时按Shift，最好再开机再进一下PE，如果有的话)
+&#13;
+[*]最后一个是关了 Usermode Font Driver Host 后系统各种界面内的字会不同程度的消失，这个Bug存在于1703到1809，需要重启系统或者注销账号再登陆，重启 exploer也不可行，这个 fontdrvhost.exe 并不像 explorer.exe 一样可以从 运行 里可以直接重新开启。
+&#13;
+Office 从 2010 开始都带有 上载中心 ，2010/13 强制后台常驻，删掉了还会自动下载，实属流氓行为，2016/19 倒没有常驻，但是因为安装方式的改变，后台常驻了 ClickToRun，禁用了还不能运行 Office，WindowUpdate 禁用 Windows 都可以继续使用，Office 实属流氓行为。(然而没有替代品，腾讯文档/Google套件 都不能满足所有的需求，总有几个要去 Office 里处理，至于 WPS，金山guna)
+&#13;
+然后为了开机就把 C2R 和其他几个进程(像NV驱动在任务栏里的那种)干掉，偶尔就会误伤 Usermode Font Driver Host (这玩意开机也还有两个，运气好关掉一个没事，但大概率关一个就字消失，虽然在1909里这个我也干掉了)Google了一圈没啥答案，不知有没有什么方法可以不 重启系统/注销账户 就直接启动 Usermode Font Driver Host (fontdrvhost.exe） 或者 直接禁用的办法 (或者退回LTBS ？)
+&#13;
+PS. 微软的 新Edge 真不错，Chrome 可以滚了，Software Reporter Tool删了又自己下回来，把设置里和 向Google发送信息 有关的都关闭了还会下载，也是实属带流氓，一个浏览器要管杀毒扫描干什么，www.google.cn/chrome 能直连了也不全是好事，顶多就是同步更新，78版本还有各种对 地址栏 的骚操作，标签页那个关闭右侧的选项倒是说加回来了，flags里的隐藏式滚动条也没了，至今为止都不能自选安装位置的屑。(虽然 新Edge 也不能)之前找了一圈，Cent浏览器 可以自选安装位置，但是也不能进 Program Files 文件夹，新Edge 倒是自动装在 Program Files (x86)\Microsoft里。上一个我碰到不能选在 Program Files 的屑软件是 百度云 。(遂下了PanDownload)
+&#13;
+PS2. 最后安利一个激活软件 HEU KMS Activator ，因为 LTSC 用的 KMS38 激活的，在用 Office Tool Plus 拿别人的服务器在线激活的时候出现了错误代码：0xC004F074。                按 OTP 说明里      “ 错误代码：0xC004F074      错误原因：未知      解决办法：重装原版系统，并且不再使用 KMS 破解软件激活 Windows。”按这说明，LTSC 这样装 Office 基本没戏了，除非重装或改用其他可用数字权利激活的 Win10版本，之前 1607的老电脑 也遇到过这个问题，虽然那个 1607是(半个)正版数字权利激活，但是从Win8.1升Win10之前，升了Win8.1带WMC的版本是KMS激活的。这个错误代码也是 Google 了好久无解。然而去远景逛了一圈发现HEU又出新版本了，之前复出的初版19.0.0只支持到了Office 2016，新版支持Office 2019 了，然后竟然就成功了。(顺便，远景那边一个转载的新闻都要 最低积分10分的阅读权限 ¿)</description>
+      <content:encoded><![CDATA[<p><b>Midnight.Coup: </b><br>
+<span>[求助] 任务管理器里关了Usermode Font Driver Host 后字全部消失</span><br>
+<span> 本帖最后由 Midnight.Coup 于 2019-12-20 17:33 编辑 </span><br>
+<span>因受不了 Win10 1909 ，遂装回了 LTSC，但这个版本基于 1809，有两个 Bug 在 1903 里都已经修了，有一个回到 1809 不太好解决，而且 LTSC 的更新速度怕是得等到 LTSC 2022 才能修复了</span><br>
+<span>[*]一个是用了某科学丝袜后产生大量 HTTP Auto Proxy Detection Worker Process 进程，这个只需要把 服务 里名字一样的后台服务停止运行就能清除，没啥负面影响。</span><br>
+<span>[*]一个是时间线功能，把时间线记录里的文件删了后项目变成了灰色不可清除，我的方法是 组策略禁用 加 删除 AppData\Local\ConnectedDevicesPlatform (需要停用 服务 CPUUserSvc_XXX，停用加删除文件后不要直接启动时间线，否则会导致重置设置里的部分设置，并且灰色项目重新出现，最后点关机同时按Shift，最好再开机再进一下PE，如果有的话)</span><br>
+<span>[*]最后一个是关了 Usermode Font Driver Host 后系统各种界面内的字会不同程度的消失，这个Bug存在于1703到1809，需要重启系统或者注销账号再登陆，重启 exploer也不可行，这个 fontdrvhost.exe 并不像 explorer.exe 一样可以从 运行 里可以直接重新开启。</span><br>
+<span>Office 从 2010 开始都带有 上载中心 ，2010/13 强制后台常驻，删掉了还会自动下载，实属流氓行为，2016/19 倒没有常驻，但是因为安装方式的改变，后台常驻了 ClickToRun，禁用了还不能运行 Office，WindowUpdate 禁用 Windows 都可以继续使用，Office 实属流氓行为。(然而没有替代品，腾讯文档/Google套件 都不能满足所有的需求，总有几个要去 Office 里处理，至于 WPS，金山guna)</span><br>
+<span>然后为了开机就把 C2R 和其他几个进程(像NV驱动在任务栏里的那种)干掉，偶尔就会误伤 Usermode Font Driver Host (这玩意开机也还有两个，运气好关掉一个没事，但大概率关一个就字消失，虽然在1909里这个我也干掉了)Google了一圈没啥答案，不知有没有什么方法可以不 重启系统/注销账户 就直接启动 Usermode Font Driver Host (fontdrvhost.exe） 或者 直接禁用的办法 (或者退回LTBS ？)</span><br>
+<span>PS. 微软的 新Edge 真不错，Chrome 可以滚了，Software Reporter Tool删了又自己下回来，把设置里和 向Google发送信息 有关的都关闭了还会下载，也是实属带流氓，一个浏览器要管杀毒扫描干什么，www.google.cn/chrome 能直连了也不全是好事，顶多就是同步更新，78版本还有各种对 地址栏 的骚操作，标签页那个关闭右侧的选项倒是说加回来了，flags里的隐藏式滚动条也没了，至今为止都不能自选安装位置的屑。(虽然 新Edge 也不能)之前找了一圈，Cent浏览器 可以自选安装位置，但是也不能进 Program Files 文件夹，新Edge 倒是自动装在 Program Files (x86)\Microsoft里。上一个我碰到不能选在 Program Files 的屑软件是 百度云 。(遂下了PanDownload)</span><br>
+<span>PS2. 最后安利一个激活软件 HEU KMS Activator ，因为 LTSC 用的 KMS38 激活的，在用 Office Tool Plus 拿别人的服务器在线激活的时候出现了错误代码：0xC004F074。                按 OTP 说明里      “ 错误代码：0xC004F074      错误原因：未知      解决办法：重装原版系统，并且不再使用 KMS 破解软件激活 Windows。”按这说明，LTSC 这样装 Office 基本没戏了，除非重装或改用其他可用数字权利激活的 Win10版本，之前 1607的老电脑 也遇到过这个问题，虽然那个 1607是(半个)正版数字权利激活，但是从Win8.1升Win10之前，升了Win8.1带WMC的版本是KMS激活的。这个错误代码也是 Google 了好久无解。然而去远景逛了一圈发现HEU又出新版本了，之前复出的初版19.0.0只支持到了Office 2016，新版支持Office 2019 了，然后竟然就成功了。(顺便，远景那边一个转载的新闻都要 最低积分10分的阅读权限 ¿)</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904342[0-50]</guid>
+    </item>
+  </channel>
+</rss>

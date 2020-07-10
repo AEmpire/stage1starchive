@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>2D转换为3D的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>2D转换为3D的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:10:33 +0000</lastBuildDate>
+    <item>
+      <title>2D转换为3D的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864322-1-1.html</link>
+      <description>2D转换为3D的问题&#13;
+个人还是算晕3D的类型，当不晕的时候，会试试FPS，因为机器也不是很好，通常玩doom1引擎的mod之类。昨天翻出了不知什么时候买的hexen，用gzdoom试了试，然后就感到各种小问题，觉得很不爽。gzdoom是把原来伪3D里场景做出真3D，其他保留2D，可以向上和下看了，但不用说，当向上和下看的时候就能体验真正看纸片人的感觉。还有外框的问题，以前是4：3左右的比例，而且原理是下面整个区域划掉用来当状态栏之类的显示，
+&#13;
+https://i.niupic.com/images/2019/11/08/_207.jpg
+&#13;
+开始玩这些时觉得可以接受，后来觉得越来越难受，heretic时只能自己改（主要是复制）但不知为什么好像无法完全对齐
+&#13;
+https://i.niupic.com/images/2019/11/08/_209.jpg
+&#13;
+还有就是纸片会陷进3D场景，就算一直平视。
+&#13;
+https://i.niupic.com/images/2019/11/08/_212.jpg
+&#13;
+还有不知道对不对，不过想象一下透视应该所有纸片都会陷入地面
+&#13;
+https://i.niupic.com/images/2019/11/08/_213.jpg
+&#13;
+另外就是伊苏6、空轨等斜视角，正常3D引擎里应该会陷入身后的墙，不知道是怎么实现的。
+&#13;
+还有就是梦见岛3D，剑整个陷入墙里的冲击，还有高一格的远程攻击还是直线发射过来的。
+&#13;
+还有就是2D打飞机很常见的子弹可以射空中的敌人，也能射地面的敌人。
+&#13;
+不知道各位真正的玩家有**好这些问题的高见</description>
+      <content:encoded><![CDATA[<p><b>mes: </b><br>
+<span>2D转换为3D的问题</span><br>
+<span>个人还是算晕3D的类型，当不晕的时候，会试试FPS，因为机器也不是很好，通常玩doom1引擎的mod之类。昨天翻出了不知什么时候买的hexen，用gzdoom试了试，然后就感到各种小问题，觉得很不爽。gzdoom是把原来伪3D里场景做出真3D，其他保留2D，可以向上和下看了，但不用说，当向上和下看的时候就能体验真正看纸片人的感觉。还有外框的问题，以前是4：3左右的比例，而且原理是下面整个区域划掉用来当状态栏之类的显示，</span><br>
+<img src="https://i.niupic.com/images/2019/11/08/_207.jpg" title="https://i.niupic.com/images/2019/11/08/_207.jpg"><br>
+<span>开始玩这些时觉得可以接受，后来觉得越来越难受，heretic时只能自己改（主要是复制）但不知为什么好像无法完全对齐</span><br>
+<img src="https://i.niupic.com/images/2019/11/08/_209.jpg" title="https://i.niupic.com/images/2019/11/08/_209.jpg"><br>
+<span>还有就是纸片会陷进3D场景，就算一直平视。</span><br>
+<img src="https://i.niupic.com/images/2019/11/08/_212.jpg" title="https://i.niupic.com/images/2019/11/08/_212.jpg"><br>
+<span>还有不知道对不对，不过想象一下透视应该所有纸片都会陷入地面</span><br>
+<img src="https://i.niupic.com/images/2019/11/08/_213.jpg" title="https://i.niupic.com/images/2019/11/08/_213.jpg"><br>
+<span>另外就是伊苏6、空轨等斜视角，正常3D引擎里应该会陷入身后的墙，不知道是怎么实现的。</span><br>
+<span>还有就是梦见岛3D，剑整个陷入墙里的冲击，还有高一格的远程攻击还是直线发射过来的。</span><br>
+<span>还有就是2D打飞机很常见的子弹可以射空中的敌人，也能射地面的敌人。</span><br>
+<span>不知道各位真正的玩家有**好这些问题的高见</span><br>
+</p><p><b>NF17: </b><br>
+<span>单眼玩</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>gzdoom有把原本doom的2D精灵替换为全新制作的3D模型的补丁，大致解决了视角的问题，hexen就不知道有没有人做3D模型了</span><br>
+</p><p><b>mes: </b><br>
+<span>testalphagogogo 发表于 2019-11-8 11:27</span><br>
+<span>gzdoom有把原本doom的2D精灵替换为全新制作的3D模型的补丁，大致解决了视角的问题，hexen就不知道有没有人 ...</span><br>
+<span>如果仔细看，就会发现角色是瞬移的，但配合帧数很低的2D动画看着还可以，换成3D更糟糕。</span><br>
+<span>有次好像看到其实doom死亡动画是先变成摊在地上的图再掉到地上的，眼不好不确定是不是了。</span><br>
+<span>如果是摆设，heretic和hexen又有个新的问题，那就是朝向，比如门口装饰的那些怪捧球雕像，可能是不设方向的，毕竟原来永远正对玩家，但3D就全乱了，那也看着不行，除非有人一个个修好。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864322[0-50]</guid>
+    </item>
+  </channel>
+</rss>

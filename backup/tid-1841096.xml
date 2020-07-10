@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>SSD写入放大问题，好像有点大，怎么优化？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>SSD写入放大问题，好像有点大，怎么优化？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:37:13 +0000</lastBuildDate>
+    <item>
+      <title>SSD写入放大问题，好像有点大，怎么优化？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841096-1-1.html</link>
+      <description>SSD写入放大问题，好像有点大，怎么优化？&#13;
+ 本帖最后由 widder 于 2019-6-21 10:08 编辑 
+
+刚才看到有人说自己SSD坏了，贴了张图，200T的写入，活活被写死的，我也去看了下自己Gen8服务器的硬盘，发现写入放大有点大过头了。
+&#13;
+这是SSD的，做系统盘用
+&#13;
+http://wx4.sinaimg.cn/large/4db12243gy1g48jd9gs58j20ix0eu760.jpg
+&#13;
+这是同机的机械硬盘，做下载盘用，同时买，同时装进去用的
+&#13;
+http://wx4.sinaimg.cn/large/4db12243gy1g48jd9guvwj20iy0et75y.jpg
+&#13;
+用了快4年了，24小时开机，SSD写入放大13.8倍，是不是有点大，咋优化下，系统是Windows Server 2012，买Gen8时候的赠品，确认系统Trim是开的
+&#13;
+另外开机时间有点奇怪，机械盘时间基本和开机时间符合，但SSD的才108小时，啥情况。
+&#13;
+忘了说使用率了，空间223G，用了46G，177G空闲，就装了个系统，闲得很，下载软件都在机械盘上</description>
+      <content:encoded><![CDATA[<p><b>widder: </b><br>
+<span>SSD写入放大问题，好像有点大，怎么优化？</span><br>
+<span> 本帖最后由 widder 于 2019-6-21 10:08 编辑 </span><br>
+<span>刚才看到有人说自己SSD坏了，贴了张图，200T的写入，活活被写死的，我也去看了下自己Gen8服务器的硬盘，发现写入放大有点大过头了。</span><br>
+<span>这是SSD的，做系统盘用</span><br>
+<img src="http://wx4.sinaimg.cn/large/4db12243gy1g48jd9gs58j20ix0eu760.jpg" title="http://wx4.sinaimg.cn/large/4db12243gy1g48jd9gs58j20ix0eu760.jpg"><br>
+<span>这是同机的机械硬盘，做下载盘用，同时买，同时装进去用的</span><br>
+<img src="http://wx4.sinaimg.cn/large/4db12243gy1g48jd9guvwj20iy0et75y.jpg" title="http://wx4.sinaimg.cn/large/4db12243gy1g48jd9guvwj20iy0et75y.jpg"><br>
+<span>用了快4年了，24小时开机，SSD写入放大13.8倍，是不是有点大，咋优化下，系统是Windows Server 2012，买Gen8时候的赠品，确认系统Trim是开的</span><br>
+<span>另外开机时间有点奇怪，机械盘时间基本和开机时间符合，但SSD的才108小时，啥情况。</span><br>
+<span>忘了说使用率了，空间223G，用了46G，177G空闲，就装了个系统，闲得很，下载软件都在机械盘上</span><br>
+</p><p><b>回忆and无语: </b><br>
+<span>更新固件</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>看看ad和e6两项的数值是多少？</span><br>
+</p><p><b>widder: </b><br>
+<span>qzy741147 发表于 2019-6-21 11:12</span><br>
+<span>看看ad和e6两项的数值是多少？</span><br>
+<span>完整的</span><br>
+<img src="http://wx4.sinaimg.cn/large/4db12243gy1g48m4tadpqj20iw0k40v6.jpg" title="http://wx4.sinaimg.cn/large/4db12243gy1g48m4tadpqj20iw0k40v6.jpg"><br>
+</p><p><b>Jet.Black: </b><br>
+<span>没看懂，这健康还是100%需要担心么？</span><br>
+</p><p><b>widder: </b><br>
+<span>Jet.Black 发表于 2019-6-21 11:27</span><br>
+<span>没看懂，这健康还是100%需要担心么？</span><br>
+<span>写入放大13.8倍，写入1GB数据，实际内部发生了13.8GB的写入，寿命被迅速消耗</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>确实不正常，网上找了个同款，和你同样的固件。主机写入9114G，整个盘pe消耗了131次，写入放大才3.5左右</span><br>
+<span>你这个盘写入5115G，pe消耗居然有445次。</span><br>
+<span>要不换块系统盘试试，看看是不是系统的问题</span><br>
+</p><p><b>qzy741147: </b><br>
+<span>https://koolshare.cn/thread-144294-1-1.html</span><br>
+<span>看了一下讨论，系统或者驱动的问题可能性很大</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841096[0-50]</guid>
+    </item>
+  </channel>
+</rss>

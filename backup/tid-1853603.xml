@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Excel统计求助</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>Excel统计求助</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 18:18:37 +0000</lastBuildDate>
+    <item>
+      <title>Excel统计求助[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1853603-1-1.html</link>
+      <description>Excel统计求助&#13;
+有ABC三列数据，AB都是文字，C是数字
+&#13;
+B是A不同情况下的各种可能性，在A不同的时候可能B有重复，C是B的数量
+&#13;
+需要统计A的部分情况下，需要B列各种东西的分别数量
+&#13;
+就这样</description>
+      <content:encoded><![CDATA[<p><b>tojoaya: </b><br>
+<span>Excel统计求助</span><br>
+<span>有ABC三列数据，AB都是文字，C是数字</span><br>
+<span>B是A不同情况下的各种可能性，在A不同的时候可能B有重复，C是B的数量</span><br>
+<span>需要统计A的部分情况下，需要B列各种东西的分别数量</span><br>
+<span>就这样</span><br>
+</p><p><b>xjy110207: </b><br>
+<span>sumifs?</span><br>
+</p><p><b>林哲玄: </b><br>
+<span>筛选。</span><br>
+<span>然后用subtotal这个函数。</span><br>
+</p><p><b>tojoaya: </b><br>
+<span>就是说A下面有A1A2A3，每一个对应B1B2B3等等，A不同情况下B有重复</span><br>
+<span>现在需要统计A1A3对应的B分类每一种有多少，A2的不要</span><br>
+<span>少了还能加一下，多了就很麻烦</span><br>
+</p><p><b>tianyagk: </b><br>
+<span> 本帖最后由 tianyagk 于 2019-8-15 13:56 编辑 </span><br>
+<span>Pivot_table 或者 Cross_table ？</span><br>
+</p><p><b>cryczp: </b><br>
+<span> 本帖最后由 cryczp 于 2019-8-15 14:08 编辑 </span><br>
+<span>数据透视</span><br>
+</p><p><b>nexus1: </b><br>
+<span>有问题一律数据透视表</span><br>
+</p><p><b>bonnwang: </b><br>
+<span>透视表</span><br>
+</p><p><b>b1992062120: </b><br>
+<span>数据透视表</span><br>
+</p><p><b>Wubaba: </b><br>
+<span>privot table</span><br>
+</p><p><b>mowind: </b><br>
+<span>这不是标准的数据透视表问题吗。。我用数据透视表最大的价值就是解决此类问题。。</span><br>
+</p><p><b>3Psm: </b><br>
+<span>少年，这是你练习数据透视表的好机会：）</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1853603[0-50]</guid>
+    </item>
+  </channel>
+</rss>

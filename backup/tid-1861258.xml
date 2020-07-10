@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>为什么内存只能默频运行。。。</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>为什么内存只能默频运行。。。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:30:01 +0000</lastBuildDate>
+    <item>
+      <title>为什么内存只能默频运行。。。[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1861258-1-1.html</link>
+      <description>为什么内存只能默频运行。。。&#13;
+2600X+B450配置内存是芝奇ddr4 3200的   之前一直没注意 结果今天发现原来内存一直是2133的频率在运行 自己查了查然后试了试手动调了一下电压结果只能到2666然后就开始各种黑屏重启了求解怎么办    </description>
+      <content:encoded><![CDATA[<p><b>烧饼的愤怒: </b><br>
+<span>为什么内存只能默频运行。。。</span><br>
+<span>2600X+B450配置内存是芝奇ddr4 3200的   之前一直没注意 结果今天发现原来内存一直是2133的频率在运行 自己查了查然后试了试手动调了一下电压结果只能到2666然后就开始各种黑屏重启了求解怎么办    </span><br>
+</p><p><b>zatsuza: </b><br>
+<span>先升级BIOS，然后开XMP</span><br>
+</p><p><b>天堂懵懂人: </b><br>
+<span>也有可能上限就是这样了</span><br>
+<span>用的科赋3200雷霆 去年xmp3200没问题，今年莫名其妙的不行了，手动设置2999倒是没问题</span><br>
+<span>干脆默认2666用了反正感觉没啥差别</span><br>
+</p><p><b>烧饼的愤怒: </b><br>
+<span>zatsuza 发表于 2019-10-24 23:05</span><br>
+<span>先升级BIOS，然后开XMP</span><br>
+<span>我试试</span><br>
+</p><p><b>红左手: </b><br>
+<span>可以试试Ryzen Dram calculator这个软件，给出个参考的内存参数</span><br>
+</p><p><b>madbird302: </b><br>
+<span>加电压看看吧</span><br>
+</p><p><b>chronicle: </b><br>
+<span>就是没开xmp</span><br>
+</p><p><b>玄戍: </b><br>
+<span>有些开了xmp也到不了宣称的频率，可以选择退货。</span><br>
+</p><p><b>downforce: </b><br>
+<span>玄戍 发表于 2019-10-25 11:33</span><br>
+<span>有些开了xmp也到不了宣称的频率，可以选择退货。</span><br>
+<span>这，我买的芝奇4266套装，但是主板就支持到4000，能是内存厂家的错？</span><br>
+<span>— from OnePlus GM1910, Android 9 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>电压加到1.4</span><br>
+</p><p><b>johnie: </b><br>
+<span>downforce 发表于 2019-10-25 11:40</span><br>
+<span>这，我买的芝奇4266套装，但是主板就支持到4000，能是内存厂家的错？</span><br>
+<span>— from OnePlus GM1910, Android...</span><br>
+<span>我买了威刚4133的套装 主板和u也都能支持到4666</span><br>
+<span>然鹅xmp2 4133开不了机 4000稳定运行</span><br>
+</p><p><b>玄戍: </b><br>
+<span>downforce 发表于 2019-10-25 11:40</span><br>
+<span>这，我买的芝奇4266套装，但是主板就支持到4000，能是内存厂家的错？</span><br>
+<span>— from OnePlus GM1910, Android...</span><br>
+<span>这是杠精还是巨魔。</span><br>
+</p><p><b>downforce: </b><br>
+<span> 本帖最后由 downforce 于 2019-10-25 18:12 编辑 </span><br>
+<span>玄戍 发表于 2019-10-25 12:19</span><br>
+<span>这是杠精还是巨魔。</span><br>
+<span>以前真有个人在chh发帖说内存达不到标称频率，说厂家虚假宣传要求退货。但其实是因为他的主板不支持那么高的频率。我以为你跟他一个想法。</span><br>
+<span>还有</span><br>
+<span>XMP全称是Intel Extreme Memory Profile，内存厂商负责验证profile和不同芯片组的兼容性，并把内存及该设定送交Intel测试。Intel测试后会予以XMP认证。</span><br>
+<span>这个profile只适用于Intel，不一定适用于AMD。在AMD的主板上打开xmp通不过自检不能说明内存不达标。</span><br>
+</p><p><b>johnie: </b><br>
+<span>所以lz 主板型号提供下先 看下支持最高到多少</span><br>
+</p><p><b>litel: </b><br>
+<span>芝奇三叉戟b-die，3200c14的，超到3800c15，电压1.45</span><br>
+<span>3700x迫击炮max，bios最新1.003abba</span><br>
+<span>内存这东西Intel的不能放到amd上来。。。</span><br>
+<span>还有2代不好超，请上3代。。。</span><br>
+<span>主板这次微星比较好用，BIOS一定要升级最新。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1861258[0-50]</guid>
+    </item>
+  </channel>
+</rss>

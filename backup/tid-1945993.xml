@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S1的技术高手们，请问个关于支付/安卓/二维码的问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>S1的技术高手们，请问个关于支付/安卓/二维码的问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:13:14 +0000</lastBuildDate>
+    <item>
+      <title>S1的技术高手们，请问个关于支付/安卓/二维码的问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1945993-1-1.html</link>
+      <description>S1的技术高手们，请问个关于支付/安卓/二维码的问题&#13;
+ 本帖最后由 controlpanel 于 2020-7-5 15:29 编辑 
+
+如果想从大框架/架构的层面上学习一下，在安卓系统中，扫描二维码，不是打开网页/文件等，而是直接进入支付流程，如何学习这个技术背后的大框架/架构？
+&#13;
+支付不是支付宝，不是微信支付。
+&#13;
+谢谢大家！</description>
+      <content:encoded><![CDATA[<p><b>controlpanel: </b><br>
+<span>S1的技术高手们，请问个关于支付/安卓/二维码的问题</span><br>
+<span> 本帖最后由 controlpanel 于 2020-7-5 15:29 编辑 </span><br>
+<span>如果想从大框架/架构的层面上学习一下，在安卓系统中，扫描二维码，不是打开网页/文件等，而是直接进入支付流程，如何学习这个技术背后的大框架/架构？</span><br>
+<span>支付不是支付宝，不是微信支付。</span><br>
+<span>谢谢大家！</span><br>
+</p><p><b>上下左右: </b><br>
+<span>你这需求也太模糊了。是你要在自己的app里添加二维码功能，还是要别人扫了你的二维码进入你的app开始支付呢？</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>安卓原生系统相机不能扫二维码</span><br>
+<span>你说自己写app吧，那扫出来的结果还不是自己随便控制</span><br>
+</p><p><b>dogfight: </b><br>
+<span>支付宝api - 统一收单交易支付接口</span><br>
+<span>不用微信/支付宝？那你和银行对接？</span><br>
+</p><p><b>MakeLaugh: </b><br>
+<span>你在做外包吧</span><br>
+</p><p><b>真田源次郎信繁: </b><br>
+<span>lz，你这需求，看起来像python侠</span><br>
+</p><p><b>nice女武神: </b><br>
+<span>你可以用二维码软件直接扫淘宝这种付款二维码不就知道怎么弄了啊实际上二维码也就弄个文本链接什么的最后就是一个特殊的链接而已 剩下的都不是二维码之外的事了</span><br>
+</p><p><b>controlpanel: </b><br>
+<span>nice女武神 发表于 2020-7-5 16:50</span><br>
+<span>你可以用二维码软件直接扫淘宝这种付款二维码不就知道怎么弄了啊实际上二维码也就弄个文本链接什么的   ...</span><br>
+<span>你好，能说更多具体的情况吗？</span><br>
+<span>能推荐一些学习材料给我读吗？</span><br>
+<span>谢谢！</span><br>
+</p><p><b>controlpanel: </b><br>
+<span>すぴぱら 发表于 2020-7-5 16:18</span><br>
+<span>安卓原生系统相机不能扫二维码</span><br>
+<span>你说自己写app吧，那扫出来的结果还不是自己随便控制 ...</span><br>
+<span>自己写app来扫二维码，并且扫完直接进入支付流程，这样的话背后的技术包括怎样的情况，能说更多吗？谢谢！</span><br>
+</p><p><b>huaxianyan: </b><br>
+<span>二维码只是用来快捷传输文本，你可以自定一套协议标准的文本，然后 APP 端能够解析就能达到目的</span><br>
+<span>至于怎么支付是另外一个事情，二维码做的事情只是传递信息</span><br>
+<span>—— 来自 Google Pixel 3, Android 10上的 S1Next-鹅版 v2.2.2.1</span><br>
+</p><p><b>すぴぱら: </b><br>
+<span>controlpanel 发表于 2020-7-6 12:40</span><br>
+<span>自己写app来扫二维码，并且扫完直接进入支付流程，这样的话背后的技术包括怎样的情况，能说更多吗？谢谢 ...</span><br>
+<span>你要从头设计一种支付软件和银行支付系统对接？那我也不会，没做过金融行业</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>二维码的本质就是一串文字</span><br>
+<span>可以是文字信息可以是网址</span><br>
+<span>支付流程也是一个网址</span><br>
+<span>所以你到底想问什么</span><br>
+</p><p><b>Muminim: </b><br>
+<span>Android 和 iOS 有一套跳转软件的链接，只要用那个软件就可以扫完之后直接跳转 app 了。比如微信的是 wx:// 就和那个 http:// 一样，电脑端也有类似的操作，迅雷就是用 thunder:// 跳转。不过一般也不会直接跳转，主要是为了防止有人没装软件，一般先是一个介绍页，然后重定向到跳转</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1945993[0-50]</guid>
+    </item>
+  </channel>
+</rss>

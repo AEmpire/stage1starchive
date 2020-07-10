@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:20:19 +0000</lastBuildDate>
+    <item>
+      <title>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843776-1-1.html</link>
+      <description>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）&#13;
+ 本帖最后由 longxiao7 于 2019-7-2 18:26 编辑 
+
+不讨论系统版本问题，目标只是为了装个win7，记录一下细节，希望能帮到有需要的人
+&#13;
+准备工作如下
+&#13;
+硬件方面：CPU 锐龙2600 + 主板 技嘉B450-DS3H + 内存 8G DDR4 +显卡RX560（其他显卡也可以）+128G东芝NVME的M.2 ssd 一个空白的16G U盘，最好预备一个PS/2接口的鼠标 以防万一
+&#13;
+软件方面：msdn我告诉你 下载的 win7旗舰版SP1原版镜像 ，USM U盘魔术师，驱动总裁网卡版（或者官网下载的网卡驱动），dism++
+&#13;
+然后开整：
+&#13;
+先用解压win7镜像，然后在source文件夹找到install.wim文件，用dism++载入 在系统更新的功能中，打上所有不带黄色背景条的补丁（黄色背景条的是不建议安装的）
+&#13;
+不喜欢更新的可以省略这一步，直接用U盘魔术师制作U盘PE，然后保存镜像把install.wim复制到U盘里，如果是省略上面的一步的 可以直接复制iso到U盘就行
+&#13;
+因为是新电脑，所以也没有多余的硬盘，装好m.2的硬盘也是空的，所以插上U盘启动电脑的时候，BIOS默认会找U盘启动，如果不是可以在开机显示Logo的时候按下F12选择启动分区
+&#13;
+进入启动菜单选择win10PE。进入PE桌面以后 开启DiskGenius为磁盘分区
+&#13;
+这里因为我没记录过程，所以简单的截了装好的图做替代
+&#13;
+ 左侧列表找到要分区的硬盘 注意别选错了，右键 快速分区 或者F6
+&#13;
+选择MBR 自定义分1个区，右下角的对齐选最大的4096（这里不知道是不是对的） 至于为什么选MBR，因为
+&#13;
+激活的问题，我知道GPT+UEFI 可以支持win7启动，但是激活工具都失效了，据说有个叫nt6 oem loader的激活工具可以用，结果这工具把我坑惨了。
+&#13;
+用完这个，我重启电脑，连BIOS都进不去了，无奈只能先拔了M.2硬盘 在BIOS里先关了PCI-E设备的启动，然后再插上，去PE里面格式化分区。所以不是经验丰富的老司机不要作死选这个
+&#13;
+而且GPT是用来支持2TB以上硬盘的，我这个SSD就128G,GPT没必要 所以就使用了MBR+legacy启动就好了
+&#13;
+分好区以后，打开PE桌面上的 安装系统SGI
+&#13;
+主界面选择你的U盘里面的系统镜像文件
+&#13;
+到这一步要小心，因为M.2硬盘是PCI-E的设备，和普通的SATA硬盘不一样，系统会把它放在最后的顺序，所以这里盘符可能不是按照你的直觉排列的，经常会出现自动判断盘符出错，我曾经有惨痛的教训，抹了我的D盘 所以这里一定要确认好你是不是分区选择正确，设置的话 ，引导分区选和安装分区一样的（仅限这个帖子，其他win7以上UEFI情况不一样），其他的和图里选一样的，让工具自动加载驱动。
+&#13;
+下一步就开始装，装好后会自动重启，这时候可以拔掉U盘，并且重启的时候按下DEL键位，进入BIOS设置，
+&#13;
+我这里要干几个事
+&#13;
+开XMP，关掉CPU两个省电选项（可能导致游戏卡顿），调整BIOS启动顺序
+&#13;
+具体可以看图，其他主板手头没有 不过选项名字都差不多 自己找找
+&#13;
+最后把启动项页选择成这样。按下F10 保存重启电脑，剩下就是win7正常安装过程了
+&#13;
+进入系统以后 驱动总裁会自动寻找驱动，但是可能会找不到，所以预备了驱动总裁网卡版或者网卡驱动。
+&#13;
+如果USB3.0寻找失败，PS/2的鼠标就派上用场了 ，不过我没遇到，所以一切顺利。
+&#13;
+然后就是正常的打驱动过程，我是用驱动总裁自动找的，多重启几次，然后反复重试，最后完成。
+&#13;
+这里不建议用太新的显卡，因为win7好像默认是没有dx12的，空浪费显卡的性能，不过好像微软会提供支持，具体没研究
+&#13;
+不喜欢用自动驱动工具的，可以用原版镜像+NVME驱动+USB3.0驱动的注入方案，不过我用的这些软件都没什么捆绑（至少我用了很久也没发现）所以就直接用了
+&#13;
+AMD官网是有提供win7芯片组驱动的， 显卡也有。需要的人可以去官网下载，
+&#13;
+其他的好像也没什么要补充的了
+**** Hidden Message *****
+&#13;
+还有我电脑的驱动备份打包
+&#13;
+和我电脑配置一样的同学可以参考
+&#13;
+https://pan.baidu.com/s/1sNaSaUYvhQU9K0jIAOxOCA 提取码: htsy </description>
+      <content:encoded><![CDATA[<p><b>真田丸: </b><br>
+<span>@longxiao7 一开始用AMD AM4 Win7 USB Patcher注入然后再用dism++加载补丁可以吗？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>真田丸 发表于 2019-7-17 11:23</span><br>
+<span>@longxiao7 一开始用AMD AM4 Win7 USB Patcher注入然后再用dism++加载补丁可以吗？</span><br>
+<span>没试过，不清楚</span><br>
+<span>我用PE的原因是 纯ISO启动的时候要加载驱动 感觉很麻烦</span><br>
+<span>不仅仅是USB，还有NVME。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>隐藏回复要杀头的</span><br>
+<span>设积分权限吧</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>改了 不知道发布这种东西会不会带来影响，所以就回复+权限了 主要还是怕搜索引擎抓到</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>有官方驱动和改版inf的情况，这还用折腾？</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843776[50-100]</guid>
+    </item>
+    <item>
+      <title>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1843776-1-1.html</link>
+      <description>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）&#13;
+ 本帖最后由 longxiao7 于 2019-7-2 18:26 编辑 
+
+不讨论系统版本问题，目标只是为了装个win7，记录一下细节，希望能帮到有需要的人
+&#13;
+准备工作如下
+&#13;
+硬件方面：CPU 锐龙2600 + 主板 技嘉B450-DS3H + 内存 8G DDR4 +显卡RX560（其他显卡也可以）+128G东芝NVME的M.2 ssd 一个空白的16G U盘，最好预备一个PS/2接口的鼠标 以防万一
+&#13;
+软件方面：msdn我告诉你 下载的 win7旗舰版SP1原版镜像 ，USM U盘魔术师，驱动总裁网卡版（或者官网下载的网卡驱动），dism++
+&#13;
+然后开整：
+&#13;
+先用解压win7镜像，然后在source文件夹找到install.wim文件，用dism++载入 在系统更新的功能中，打上所有不带黄色背景条的补丁（黄色背景条的是不建议安装的）
+&#13;
+不喜欢更新的可以省略这一步，直接用U盘魔术师制作U盘PE，然后保存镜像把install.wim复制到U盘里，如果是省略上面的一步的 可以直接复制iso到U盘就行
+&#13;
+因为是新电脑，所以也没有多余的硬盘，装好m.2的硬盘也是空的，所以插上U盘启动电脑的时候，BIOS默认会找U盘启动，如果不是可以在开机显示Logo的时候按下F12选择启动分区
+&#13;
+进入启动菜单选择win10PE。进入PE桌面以后 开启DiskGenius为磁盘分区
+&#13;
+这里因为我没记录过程，所以简单的截了装好的图做替代
+&#13;
+ 左侧列表找到要分区的硬盘 注意别选错了，右键 快速分区 或者F6
+&#13;
+选择MBR 自定义分1个区，右下角的对齐选最大的4096（这里不知道是不是对的） 至于为什么选MBR，因为
+&#13;
+激活的问题，我知道GPT+UEFI 可以支持win7启动，但是激活工具都失效了，据说有个叫nt6 oem loader的激活工具可以用，结果这工具把我坑惨了。
+&#13;
+用完这个，我重启电脑，连BIOS都进不去了，无奈只能先拔了M.2硬盘 在BIOS里先关了PCI-E设备的启动，然后再插上，去PE里面格式化分区。所以不是经验丰富的老司机不要作死选这个
+&#13;
+而且GPT是用来支持2TB以上硬盘的，我这个SSD就128G,GPT没必要 所以就使用了MBR+legacy启动就好了
+&#13;
+分好区以后，打开PE桌面上的 安装系统SGI
+&#13;
+主界面选择你的U盘里面的系统镜像文件
+&#13;
+到这一步要小心，因为M.2硬盘是PCI-E的设备，和普通的SATA硬盘不一样，系统会把它放在最后的顺序，所以这里盘符可能不是按照你的直觉排列的，经常会出现自动判断盘符出错，我曾经有惨痛的教训，抹了我的D盘 所以这里一定要确认好你是不是分区选择正确，设置的话 ，引导分区选和安装分区一样的（仅限这个帖子，其他win7以上UEFI情况不一样），其他的和图里选一样的，让工具自动加载驱动。
+&#13;
+下一步就开始装，装好后会自动重启，这时候可以拔掉U盘，并且重启的时候按下DEL键位，进入BIOS设置，
+&#13;
+我这里要干几个事
+&#13;
+开XMP，关掉CPU两个省电选项（可能导致游戏卡顿），调整BIOS启动顺序
+&#13;
+具体可以看图，其他主板手头没有 不过选项名字都差不多 自己找找
+&#13;
+最后把启动项页选择成这样。按下F10 保存重启电脑，剩下就是win7正常安装过程了
+&#13;
+进入系统以后 驱动总裁会自动寻找驱动，但是可能会找不到，所以预备了驱动总裁网卡版或者网卡驱动。
+&#13;
+如果USB3.0寻找失败，PS/2的鼠标就派上用场了 ，不过我没遇到，所以一切顺利。
+&#13;
+然后就是正常的打驱动过程，我是用驱动总裁自动找的，多重启几次，然后反复重试，最后完成。
+&#13;
+这里不建议用太新的显卡，因为win7好像默认是没有dx12的，空浪费显卡的性能，不过好像微软会提供支持，具体没研究
+&#13;
+不喜欢用自动驱动工具的，可以用原版镜像+NVME驱动+USB3.0驱动的注入方案，不过我用的这些软件都没什么捆绑（至少我用了很久也没发现）所以就直接用了
+&#13;
+AMD官网是有提供win7芯片组驱动的， 显卡也有。需要的人可以去官网下载，
+&#13;
+其他的好像也没什么要补充的了
+**** Hidden Message *****
+&#13;
+还有我电脑的驱动备份打包
+&#13;
+和我电脑配置一样的同学可以参考
+&#13;
+https://pan.baidu.com/s/1sNaSaUYvhQU9K0jIAOxOCA 提取码: htsy </description>
+      <content:encoded><![CDATA[<p><b>longxiao7: </b><br>
+<span>2019年了，我还在折腾win7（个人装机win7方案的记录笔记）</span><br>
+<span> 本帖最后由 longxiao7 于 2019-7-2 18:26 编辑 </span><br>
+<span>不讨论系统版本问题，目标只是为了装个win7，记录一下细节，希望能帮到有需要的人</span><br>
+<span>准备工作如下</span><br>
+<span>硬件方面：CPU 锐龙2600 + 主板 技嘉B450-DS3H + 内存 8G DDR4 +显卡RX560（其他显卡也可以）+128G东芝NVME的M.2 ssd 一个空白的16G U盘，最好预备一个PS/2接口的鼠标 以防万一</span><br>
+<span>软件方面：msdn我告诉你 下载的 win7旗舰版SP1原版镜像 ，USM U盘魔术师，驱动总裁网卡版（或者官网下载的网卡驱动），dism++</span><br>
+<span>然后开整：</span><br>
+<span>先用解压win7镜像，然后在source文件夹找到install.wim文件，用dism++载入 在系统更新的功能中，打上所有不带黄色背景条的补丁（黄色背景条的是不建议安装的）</span><br>
+<span>不喜欢更新的可以省略这一步，直接用U盘魔术师制作U盘PE，然后保存镜像把install.wim复制到U盘里，如果是省略上面的一步的 可以直接复制iso到U盘就行</span><br>
+<span>因为是新电脑，所以也没有多余的硬盘，装好m.2的硬盘也是空的，所以插上U盘启动电脑的时候，BIOS默认会找U盘启动，如果不是可以在开机显示Logo的时候按下F12选择启动分区</span><br>
+<span>进入启动菜单选择win10PE。进入PE桌面以后 开启DiskGenius为磁盘分区</span><br>
+<span>这里因为我没记录过程，所以简单的截了装好的图做替代</span><br>
+<span> 左侧列表找到要分区的硬盘 注意别选错了，右键 快速分区 或者F6</span><br>
+<span>选择MBR 自定义分1个区，右下角的对齐选最大的4096（这里不知道是不是对的） 至于为什么选MBR，因为</span><br>
+<span>激活的问题，我知道GPT+UEFI 可以支持win7启动，但是激活工具都失效了，据说有个叫nt6 oem loader的激活工具可以用，结果这工具把我坑惨了。</span><br>
+<span>用完这个，我重启电脑，连BIOS都进不去了，无奈只能先拔了M.2硬盘 在BIOS里先关了PCI-E设备的启动，然后再插上，去PE里面格式化分区。所以不是经验丰富的老司机不要作死选这个</span><br>
+<span>而且GPT是用来支持2TB以上硬盘的，我这个SSD就128G,GPT没必要 所以就使用了MBR+legacy启动就好了</span><br>
+<span>分好区以后，打开PE桌面上的 安装系统SGI</span><br>
+<span>主界面选择你的U盘里面的系统镜像文件</span><br>
+<span>到这一步要小心，因为M.2硬盘是PCI-E的设备，和普通的SATA硬盘不一样，系统会把它放在最后的顺序，所以这里盘符可能不是按照你的直觉排列的，经常会出现自动判断盘符出错，我曾经有惨痛的教训，抹了我的D盘 所以这里一定要确认好你是不是分区选择正确，设置的话 ，引导分区选和安装分区一样的（仅限这个帖子，其他win7以上UEFI情况不一样），其他的和图里选一样的，让工具自动加载驱动。</span><br>
+<span>下一步就开始装，装好后会自动重启，这时候可以拔掉U盘，并且重启的时候按下DEL键位，进入BIOS设置，</span><br>
+<span>我这里要干几个事</span><br>
+<span>开XMP，关掉CPU两个省电选项（可能导致游戏卡顿），调整BIOS启动顺序</span><br>
+<span>具体可以看图，其他主板手头没有 不过选项名字都差不多 自己找找</span><br>
+<span>最后把启动项页选择成这样。按下F10 保存重启电脑，剩下就是win7正常安装过程了</span><br>
+<span>进入系统以后 驱动总裁会自动寻找驱动，但是可能会找不到，所以预备了驱动总裁网卡版或者网卡驱动。</span><br>
+<span>如果USB3.0寻找失败，PS/2的鼠标就派上用场了 ，不过我没遇到，所以一切顺利。</span><br>
+<span>然后就是正常的打驱动过程，我是用驱动总裁自动找的，多重启几次，然后反复重试，最后完成。</span><br>
+<span>这里不建议用太新的显卡，因为win7好像默认是没有dx12的，空浪费显卡的性能，不过好像微软会提供支持，具体没研究</span><br>
+<span>不喜欢用自动驱动工具的，可以用原版镜像+NVME驱动+USB3.0驱动的注入方案，不过我用的这些软件都没什么捆绑（至少我用了很久也没发现）所以就直接用了</span><br>
+<span>AMD官网是有提供win7芯片组驱动的， 显卡也有。需要的人可以去官网下载，</span><br>
+<span>其他的好像也没什么要补充的了</span><br>
+<span>**** Hidden Message *****</span><br>
+<span>还有我电脑的驱动备份打包</span><br>
+<span>和我电脑配置一样的同学可以参考</span><br>
+<span>https://pan.baidu.com/s/1sNaSaUYvhQU9K0jIAOxOCA 提取码: htsy </span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>所以AMD YES还支持不</span><br>
+</p><p><b>华蝶风雪: </b><br>
+<span>testalphagogogo 发表于 2019-7-2 17:40</span><br>
+<span>所以AMD YES还支持不</span><br>
+<span>不用集显的都还行</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>testalphagogogo 发表于 2019-7-2 17:40</span><br>
+<span>所以AMD YES还支持不</span><br>
+<span>APU不行，独显可以 </span><br>
+</p><p><b>若荼泱: </b><br>
+<span>回复看看藏了什么？</span><br>
+</p><p><b>final007: </b><br>
+<span>咋还有回复可见呢</span><br>
+</p><p><b>hecas: </b><br>
+<span>还行吧 最近还是喜欢win8.了………</span><br>
+<span>我觉得我有点生病</span><br>
+<span>—— 来自 ZUK Z2131, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>AincradWanderer: </b><br>
+<span>这个思路值得参考，不过我还没想好以后的新平台是装win8.1还是精简后的win10，原版win10打死我都不会去用的</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>AincradWanderer 发表于 2019-7-2 19:38</span><br>
+<span>这个思路值得参考，不过我还没想好以后的新平台是装win8.1还是精简后的win10，原版win10打死我都不会去用的 ...</span><br>
+<span>你可能只能用win10，Intel那边，我尝试了破解方案的win7可以用</span><br>
+<span>但是同样方案装8.1 没办法装显卡，因为不识别。</span><br>
+<span>如果是新Intel的平台，建议使用LSTB 2016的win10 用dism++关闭自动更新</span><br>
+</p><p><b>真田丸: </b><br>
+<span>谢谢大佬如此详细的记录，我还在等3700x，而且有个大胆的想法，如果直接把我现在的系统盘插到新机器上用安全模式启动会是什么状况？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>真田丸 发表于 2019-7-2 21:17</span><br>
+<span>谢谢大佬如此详细的记录，我还在等3700x，而且有个大胆的想法，如果直接把我现在的系统盘插到新机器上用安 ...</span><br>
+<span>win10的话应该可以用的，但是不清楚会不会稳定 前几天我干过类似的事</span><br>
+<span>3700x你有的等了，虽然近在几天就发售了，但是首发应该很难抢到，而且理智的做法也不是抢首发</span><br>
+<span>得看看各种评测。还有首发溢价 我个人感觉双十一再做打算了</span><br>
+</p><p><b>xiaoyaowuming: </b><br>
+<span>不是我说啥 既然都无法激活uefi的win7 就别写教程了…</span><br>
+</p><p><b>longxiao7: </b><br>
+<span> 本帖最后由 longxiao7 于 2019-7-2 21:39 编辑 </span><br>
+<span>xiaoyaowuming 发表于 2019-7-2 21:28</span><br>
+<span>不是我说啥 既然都无法激活uefi的win7 就别写教程了…</span><br>
+<span>这不是教程哦，只是记录日志 而且需要uefi 可以用win7专业版 +KMS方案</span><br>
+<span>不用旗舰版就好了</span><br>
+</p><p><b>xiaoyaowuming: </b><br>
+<span>longxiao7 发表于 2019-7-2 21:38</span><br>
+<span>这不是教程哦，只是记录日志 而且需要uefi 可以用win7专业版 +KMS方案</span><br>
+<span>不用旗舰版就好了</span><br>
+<span>就让我折腾群唯一WIN7脑残粉来教你怎样装UEFI的旗舰版WIN7好了</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>xiaoyaowuming 发表于 2019-7-2 21:43</span><br>
+<span>就让我折腾群唯一WIN7脑残粉来教你怎样装UEFI的旗舰版WIN7好了</span><br>
+<span>好吧，要开新帖么？还有收费么？ 收费我就不学了啊</span><br>
+</p><p><b>xiaoyaowuming: </b><br>
+<span>图就不上了，因为给公司8代电脑装的UEFI旗舰版WIN7 我只说一下配置 I3 8100 微星Z370 8G内存 1063显卡 INTEL 760P 256G</span><br>
+<span>首先安装之前需要的工具有，一个PE的U盘，主板、显卡的驱动等，PE我本人用的是电脑店的PE，他家PE如果没输入密码会有广告和安装的软件，可以用微信扫描他们的公众号获得密码后去掉广告。由于8代集显没有WIN7的驱动，故8代机必须装独立显卡。WIN7SP1的ISO一个，哪下随便，有的合集ISO不但有补丁可能会帮你注入USB3和NVME驱动。驱动程序可自己下载嫌麻烦可以去IT天空找万能驱动包，友情提示IT天空的万能驱动包也会装软件，安装时注意寻找去掉即可。</span><br>
+<span>开始安装WIN7，进BIOS把U盘设置第一启动 进入PE，电脑店的PE内包含一键装机工具，该工具可以帮助注入USB3和NVME的驱动。新硬盘使用GUID格式分区，并且创建EFI分区用来保存引导文件。安装过程不在描述。</span><br>
+<span>进入系统后使用驱动包将驱动全部安装完毕后重启，激活WIN7的工具使用“三星笔记本win7激活工具”，别问我为啥是这个名字，百度这个名的工具肯定是这个，这个工具原名CHEW-WGA V0.9,这是目前我发现的唯二可以激活UEFI版WIN7的方法。顺便说一下另外一个方法就是用一个工具把WIN7激活的东西干掉就可以了，我曾经用过还算可以用。</span><br>
+<span>最后总结一下，如果你有一个老的WIN7系统和你主板配合的但它是SATA的固态或者机械硬盘的系统，首先你需要把你的新固态硬盘插上在你自己的系统下安装上相应的NVME驱动，让系统识别出你的新M2固态，然后就可以在PE下将整个C盘文件拷贝到新的固态硬盘里，然后使用PE下的WINDOWS引导修复就可以使用了。</span><br>
+<span>注意一点如果使用上文的激活工具后，请一定要在迁移系统盘之前将激活工具卸载到无激活的状态在进行迁移，迁移后重新激活就能用了，一定要卸载激活，否则你的系统就只能用删除WINDOWS激活的方法来使用了。切记！</span><br>
+</p><p><b>qazesz: </b><br>
+<span>longxiao7 发表于 2019-7-2 20:39</span><br>
+<span>你可能只能用win10，Intel那边，我尝试了破解方案的win7可以用</span><br>
+<span>但是同样方案装8.1 没办法装显卡，因为 ...</span><br>
+<span>你试过win7装好显卡驱动升级安装8.1吗？对于没有8.1驱动的a卡</span><br>
+</p><p><b>smishe: </b><br>
+<span> 本帖最后由 smishe 于 2019-7-2 23:46 编辑 </span><br>
+<span>我用这个激活工具可以激活UEFI+GPT，没细看，就是楼上说的那个。</span><br>
+<span>链接: https://pan.baidu.com/s/1nTba4aFK8M9cLq-13VFoZA 提取码: 9cf8</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>qazesz 发表于 2019-7-2 23:36</span><br>
+<span>你试过win7装好显卡驱动升级安装8.1吗？对于没有8.1驱动的a卡</span><br>
+<span>没试过</span><br>
+<span>8.1的问题是系统直接不识别显卡，和装不上显卡驱动是两码事</span><br>
+<span>我感觉是主板的问题 但是因为手头已经没有平台了，没办法测试</span><br>
+</p><p><b>paladin7: </b><br>
+<span>Mark</span><br>
+<span>win7还是稳</span><br>
+<span>— from samsung SM-G9500, Android 8.0.0 of S1 Next Goose v2.1.2</span><br>
+</p><p><b>lhm123: </b><br>
+<span> 有些主板厂会给win7提供新系列主板的NVME和usb3.0驱动补丁，只需要在别的机器上，给win7的iso镜像打好补丁，就可以拿来做安装U盘或者刻碟了。</span><br>
+</p><p><b>zatsuza: </b><br>
+<span>我用nt6 oem激活没什么问题，分区是3.2t的gpt</span><br>
+<span>—— 来自 Realme RMX1901, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>regalia: </b><br>
+<span>我用的还是一个2009年的破解程序windows7loader</span><br>
+<span>前几年重装的时候真是费了老鼻子劲找破解</span><br>
+<span>现在平台还是4790+1070,用着非常非常舒服。好像牙膏厂几次后门补丁我都没中奖，非常开心</span><br>
+</p><p><b>bruce314314: </b><br>
+<span>现在新电脑对装win7非常不友善</span><br>
+</p><p><b>我靠不是吧: </b><br>
+<span>我就想问下现在的笔记本还能装win7不，比如matebook14</span><br>
+</p><p><b>lundy: </b><br>
+<span>楼主这个一顿操作以后的win7，跟原装win7比除了大小以外还有啥优点值得这么折腾吗？</span><br>
+</p><p><b>angel13th: </b><br>
+<span>win10必需死！</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>两个路人: </b><br>
+<span>喷惹，kabylake有可用的集显驱动，kabylake-r可以移花接木，coffeelake基本死翘翘。另外的难点在没有csm和USB3驱动。</span><br>
+</p><p><b>ramiel1: </b><br>
+<span>会折腾这个的人难道连个区区WIN10都搞不定吗</span><br>
+</p><p><b>mfkof: </b><br>
+<span>xiaoyaowuming 发表于 2019-7-2 21:59</span><br>
+<span>图就不上了，因为给公司8代电脑装的UEFI旗舰版WIN7 我只说一下配置 I3 8100 微星Z370 8G内存 1063显卡 INTE ...</span><br>
+<span>折腾群能不能拉我进去，求pm</span><br>
+<span>—— 来自 ZUK Z2151, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>http: </b><br>
+<span>xiaoyaowuming 发表于 2019-7-2 21:43</span><br>
+<span>就让我折腾群唯一WIN7脑残粉来教你怎样装UEFI的旗舰版WIN7好了</span><br>
+<span>求进折腾群</span><br>
+</p><p><b>cloudian: </b><br>
+<span>千金难买心头好，只要开心就好</span><br>
+<span>—— 来自 Essential Products PH-1, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>WDLEZ: </b><br>
+<span>至今还在用WIN7</span><br>
+</p><p><b>xiaoyaowuming: </b><br>
+<span>http 发表于 2019-7-7 09:09</span><br>
+<span>求进折腾群</span><br>
+<span>折腾群群号46259318报s1即可加入</span><br>
+</p><p><b>hellsing: </b><br>
+<span>thx so much</span><br>
+</p><p><b>乔伊: </b><br>
+<span>xiaoyaowuming 发表于 2019-7-2 21:59</span><br>
+<span>图就不上了，因为给公司8代电脑装的UEFI旗舰版WIN7 我只说一下配置 I3 8100 微星Z370 8G内存 1063显卡 INTE ...</span><br>
+<span>thinkpad e580自带的ssd可以用你这个方法来装win7吗？ssd好像是东芝的</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>求问一下，我之前一台机器用当年买的联想旗舰版64位WIN7安装的，一直没激活凑合着用，今天想用主贴里的激活工具激活，一键激活后显示成功安装证书等，但是重启之后还是未激活状态？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span> 本帖最后由 longxiao7 于 2019-7-15 11:37 编辑 </span><br>
+<span>testalphagogogo 发表于 2019-7-15 09:54</span><br>
+<span>求问一下，我之前一台机器用当年买的联想旗舰版64位WIN7安装的，一直没激活凑合着用，今天想用主贴里的激活 ...</span><br>
+<span>只能用于MBR+legacy方案 检查你的安装方式 具体看磁盘分区是不是GPT </span><br>
+<span>Legacy不支持GPT的。或者在 计算机 - 右键管理 - 磁盘管理 -找到你的系统分区所在的磁盘，看看有没有EFI分区</span><br>
+<span>如果是UEFI方案安装的，要么用16楼的方案 （我没测）</span><br>
+<span>或者重装企业版用KMS激活（测过 可用）</span><br>
+</p><p><b>加藤樱: </b><br>
+<span> 本帖最后由 加藤樱 于 2019-7-15 11:51 编辑 </span><br>
+<span>驱动总裁再次更新支持Win7的intel8/9代显卡(UHD620/630/P630)/usb3.x/acpi驱动</span><br>
+<span>不知真假，有勇士上么？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>加藤樱 发表于 2019-7-15 11:50</span><br>
+<span>驱动总裁再次更新支持Win7的intel8/9代显卡(UHD620/630/P630)/usb3.x/acpi驱动</span><br>
+<span>不知真假，有勇士上么？</span><br>
+<span> ...</span><br>
+<span>真的，能用，但是能不用win7的情况就尽量别用吧 毕竟是修改的驱动</span><br>
+<span>之前有修改驱动 但是签名不对被杀毒软件干掉的情况（其他人修改的，不是驱动总裁）</span><br>
+<span>实际上不是处于某些专用软件的需求，我自己也很少用win7了</span><br>
+</p><p><b>LXZ7898321: </b><br>
+<span>WIN7依然非常非常好用.</span><br>
+</p><p><b>testalphagogogo: </b><br>
+<span>longxiao7 发表于 2019-7-15 11:34</span><br>
+<span>只能用于MBR+legacy方案 检查你的安装方式 具体看磁盘分区是不是GPT </span><br>
+<span>Legacy不支持GPT的。或者在 计算机 - ...</span><br>
+<span>分区是NTFS的。安装方式我记得当时是从XP加载光盘镜像升级安装，没有什么多余的选项选择来着。</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>testalphagogogo 发表于 2019-7-15 16:29</span><br>
+<span>分区是NTFS的。安装方式我记得当时是从XP加载光盘镜像升级安装，没有什么多余的选项选择来着。 ...</span><br>
+<span>那就不知道了</span><br>
+</p><p><b>akitox: </b><br>
+<span>回复可见？藏了啥？</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>testalphagogogo 发表于 2019-7-15 16:29</span><br>
+<span>分区是NTFS的。安装方式我记得当时是从XP加载光盘镜像升级安装，没有什么多余的选项选择来着。 ...</span><br>
+<span>我在顶楼又放了一个工具，试试另一个，这个我用的不多</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>smxdiy那边usb3和uhd的驱动都改出来了 某软件估计直接拿来主义了</span><br>
+<span>现在这软件名字怎么都这么弱智啊 大师已经不能满足了 总裁都弄出来了</span><br>
+<span>纯uefi装win7基本就是注意把secureboot关掉 大部分主板需要把OS Type/Version改成非win8/10的other或者win7</span><br>
+<span>当然有些品牌机的bios会有些奇怪的兼容性问题弹acpi蓝屏实在没法装 这个真没办法 基本上组装机都可以</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>宮脇咲良 发表于 2019-7-15 18:05</span><br>
+<span>smxdiy那边usb3和uhd的驱动都改出来了 某软件估计直接拿来主义了</span><br>
+<span>现在这软件名字怎么都这么弱智啊 大师已经 ...</span><br>
+<span>总裁的论坛有说不是同一份驱动，而且smxdiy的驱动作者有过来说话的，估计只是共同探讨过</span><br>
+<span>至于名字。。。。。。 只能说目前驱动一键安装工具里面这个算是更新快 功能简洁 无捆绑的选择了 不知道能不能坚持下去。</span><br>
+<span>我目前的经历是如果纯UEFI装win7，只要不开CSM的，没有一次启动成功的，全卡在 正在启动windows 界面</span><br>
+<span>关掉安全启动，又不是2TB以上的系统盘，感觉不出装uefi + win7的意义。至少我现在遇到的情况中，全都直接mbr省心了</span><br>
+<span>还好我最中意的系统目前是8.1（工作用笔记本用） 不过也快寿终正寝了 凑合用到机器报废算了。</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>longxiao7 发表于 2019-7-15 18:15</span><br>
+<span>总裁的论坛有说不是同一份驱动，而且smxdiy的驱动作者有过来说话的，估计只是共同探讨过</span><br>
+<span>至于名字。。。 ...</span><br>
+<span>好吧 是我有偏见了</span><br>
+<span>我前几天也被咖喱10搞了一下 自动打完7月补丁然后开机随机无限白圈</span><br>
+<span>其实要不是dx12独占和对于高dpi比win7支持好一些 我也有兴趣装一份的</span><br>
+<span>顺便你主楼说的那个win7的dx12 只限定于某些游戏 从3月份放了口风以后</span><br>
+<span>目前看来也还是只有山口山支持 估计也就这样了 估计不太可能愿意完全整移植过去的吧</span><br>
+</p><p><b>longxiao7: </b><br>
+<span>宮脇咲良 发表于 2019-7-15 18:23</span><br>
+<span>好吧 是我有偏见了</span><br>
+<span>我前几天也被咖喱10搞了一下 自动打完7月补丁然后开机随机无限白圈</span><br>
+<span>其实要不是 ...</span><br>
+<span>目前娱乐机是咖喱10 1903 ，我用dism++关了更新</span><br>
+<span>我的使用习惯一般都是关掉更新， 然后等个几个月以后再更之前的</span><br>
+<span>实在是不敢直接更新到最新，炸了好几次了</span><br>
+</p><p><b>宮脇咲良: </b><br>
+<span>longxiao7 发表于 2019-7-15 18:27</span><br>
+<span>目前娱乐机是咖喱10 1903 ，我用dism++关了更新</span><br>
+<span>我的使用习惯一般都是关掉更新， 然后等个几个月以后再更 ...</span><br>
+<span>不过看你主楼里关闭几个节能设置那里倒是给了我点启发</span><br>
+<span>等有空了回头我把节能选项都关了 </span><br>
+<span>再试试给那块不管是uefi还是legacy怎么也装不上win7的dell x370主板折腾一下</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1843776[0-50]</guid>
+    </item>
+  </channel>
+</rss>

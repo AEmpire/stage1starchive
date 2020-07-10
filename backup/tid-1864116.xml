@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>自建音乐服务器有啥 推荐的吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>自建音乐服务器有啥 推荐的吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:11:51 +0000</lastBuildDate>
+    <item>
+      <title>自建音乐服务器有啥 推荐的吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1864116-1-1.html</link>
+      <description>自建音乐服务器有啥 推荐的吗&#13;
+需要有配套的Web端和App端</description>
+      <content:encoded><![CDATA[<p><b>zouyun147: </b><br>
+<span>自建音乐服务器有啥 推荐的吗</span><br>
+<span>需要有配套的Web端和App端</span><br>
+</p><p><b>SICP: </b><br>
+<span>airsonic</span><br>
+</p><p><b>zouyun147: </b><br>
+<span>SICP 发表于 2019-11-7 14:05</span><br>
+<span>airsonic</span><br>
+<span>移动端的播放器有啥推荐的吗？</span><br>
+</p><p><b>oskneo: </b><br>
+<span>SICP 发表于 2019-11-7 14:05</span><br>
+<span>airsonic</span><br>
+<span>看了一下，居然flac都不能直传。</span><br>
+<span>现在偶也在研究这东西。</span><br>
+<span>现在是直接vpn回家里的samba播，</span><br>
+<span>samba player貌似速度还行，就是列表功能太糟糕。</span><br>
+<span>海贝音乐貌似速度有问题，不知道是否不懂设置</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2019-11-7 14:50 编辑 </span><br>
+<span>volumio如何其他的除了airsonic就是runeaudio</span><br>
+</p><p><b>password: </b><br>
+<span>现在家宽都不让开web服务了</span><br>
+<span>我现在就用群晖quickconnect+DS Audio了，qc的web页面访问我也给关了</span><br>
+</p><p><b>lwa190212: </b><br>
+<span> 本帖最后由 lwa190212 于 2019-11-7 15:10 编辑 </span><br>
+<span>password 发表于 2019-11-7 14:50</span><br>
+<span>现在家宽都不让开web服务了</span><br>
+<span>我现在就用群晖quickconnect+DS Audio了，qc的web页面访问我也给关了 ...</span><br>
+<span>你别用80端口就行了呀</span><br>
+<span>就算本地服务没提供或你没找到改服务端口的办法，也可以上路由安排个端口映射吧</span><br>
+<span>抱歉了，忘了quickconnect是转发服务，还是群晖牛逼</span><br>
+</p><p><b>汝者: </b><br>
+<span> 本帖最后由 汝者 于 2019-11-7 15:18 编辑 </span><br>
+<span>emby plex jellyfin</span><br>
+<span>纯做云音乐emby和jellyfin都合适</span><br>
+<span>plex界面最好 但是要钱</span><br>
+<span>emby的app更完善 jellyfin完全免费</span><br>
+<span>顺便上个emby效果图</span><br>
+</p><p><b>password: </b><br>
+<span>lwa190212 发表于 2019-11-7 15:05</span><br>
+<span>你别用80端口就行了呀</span><br>
+<span>就算本地服务没提供或你没找到改服务端口的办法，也可以上路由安排个端口映射吧</span><br>
+<span>抱 ...</span><br>
+<span>才不是这么简单的呢</span><br>
+<span>这是上个月的讨论贴：</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1859594-1-1.html</span><br>
+<span>然后现在有又有新中枪的了：</span><br>
+<span>https://koolshare.cn/thread-170517-1-1.html</span><br>
+<span>https://koolshare.cn/thread-170798-1-1.html</span><br>
+<span>现在的情况来看 DDNS和任何有web页面的服务都是高危，不管什么端口</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>password 发表于 2019-11-7 15:12</span><br>
+<span>才不是这么简单的呢</span><br>
+<span>这是上个月的讨论贴：</span><br>
+<span>quickconnect没有给你域名，只是通过群晖服务器转发了你的请求给nas，并不属于绑定域名的web服务</span><br>
+<span>但是它头铁，要求80, 443, 8888端口</span><br>
+</p><p><b>john: </b><br>
+<span>password 发表于 2019-11-7 14:50</span><br>
+<span>现在家宽都不让开web服务了</span><br>
+<span>我现在就用群晖quickconnect+DS Audio了，qc的web页面访问我也给关了 ...</span><br>
+<span>哪个地方单关QC的web页面？</span><br>
+</p><p><b>password: </b><br>
+<span>lwa190212 发表于 2019-11-7 15:17</span><br>
+<span>quickconnect没有给你域名，只是通过群晖服务器转发了你的请求给nas，并不属于绑定域名的web服务</span><br>
+<span>但是它 ...</span><br>
+<span>啥端口都不开qc也能动的</span><br>
+<span>80和443都是电信早就封掉的 家宽想开也没门</span><br>
+</p><p><b>password: </b><br>
+<span>john 发表于 2019-11-7 15:18</span><br>
+<span>哪个地方单关QC的web页面？</span><br>
+<span>https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/Network/How_to_make_Synology_NAS_accessible_over_the_Internet</span><br>
+<span>高级选项里把DSM的勾选取消就行了</span><br>
+</p><p><b>john: </b><br>
+<span>QuickConnect是直接和路由器交换协议，通过uPnP开一个大端口转发，等于通过IP:端口直连</span><br>
+<span>不过群晖的人告诉我QC是经过备案的请放心使用</span><br>
+</p><p><b>汝者: </b><br>
+<span>password 发表于 2019-11-7 15:12</span><br>
+<span>才不是这么简单的呢</span><br>
+<span>这是上个月的讨论贴：</span><br>
+<span>https://www.v2ex.com/t/608821#reply356下面事主的回复：</span><br>
+<span>另外还有询问相关规定的参照，回答是“此规定下文时间是 2017 年，本次是首次对违规宽带进行查封”。</span><br>
+<span>目前会这么搞就上海 而且出事的案例谈不上多 群晖的保有量摆在那里 被抓都是拿nas搞大规模分享</span><br>
+<span>我个人是更倾向于这些人作死流量太大 电信找份文件动刀</span><br>
+</p><p><b>Tossy: </b><br>
+<span>Roon，只支持内网</span><br>
+</p><p><b>john: </b><br>
+<span>汝者 发表于 2019-11-7 15:24</span><br>
+<span>https://www.v2ex.com/t/608821#reply356下面事主的回复：</span><br>
+<span>另外还有询问相关规定的参照，回答是“此规定下 ...</span><br>
+<span>什么叫作死？不要说电信自己的协议了，法律有规定不可以BT上传吗</span><br>
+<span>带着版权公司的传票上门抓还差不多叫作死</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1864116[0-50]</guid>
+    </item>
+  </channel>
+</rss>

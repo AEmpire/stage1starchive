@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 21:32:31 +0000</lastBuildDate>
+    <item>
+      <title>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详[100-150]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822616-1-1.html</link>
+      <description>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详&#13;
+前阵子在nas上用emby搭建了媒体库，元数据已经手动抓完并归类。
+&#13;
+但pc端的使用一直不够优雅。目前已经尝试过以下几种播放方案：
+&#13;
+利用smb
+&#13;
+此前一直都是手动归纳文件夹并映射网络驱动器直接potplayer播放。
+&#13;
+但片子一多，这种方式看不了封面就比较蛋疼，走文件夹也略麻烦，于是开始了以下折腾。
+&#13;
+利用dlna
+&#13;
+巨硬的资源管理器和“电影与电视”，能通过dlna直接抓取并正确显示emby媒体库的视频封面。
+&#13;
+前者直接调用第三方播放器，后者自己播放，无论界面还是操作都很顺手。
+&#13;
+https://wx1.sinaimg.cn/large/741f9461ly1g1uxoo8h5kj217l0qt7k4.jpg
+&#13;
+但是无论哪种缓存都大得感人肺腑，播放一个视频几乎等于直接把视频拷贝到本地，几个视频下去直接爆硬盘，久而久之感觉硬盘也会被艹嗝屁。。
+&#13;
+因为不大熟悉dlna的配置，请问有什么方法减小缓存？
+&#13;
+理想是达到smb映射网络驱动器播放时的效果。。
+&#13;
+emdb
+&#13;
+dlna缓存boom了之后开始尝试本地的媒体库软件。
+&#13;
+第一个用的就是emdb，结果bug10 1809直接无法启动，不知是不是姿势不对。。。
+&#13;
+emby网页
+&#13;
+网页强制转码性能太差，gg。
+&#13;
+emby theater
+&#13;
+官方pc端可以直接调用第三方播放器，但操作逻辑和界面始终都是emby网页那一套，反人类，并且神tm调不了窗口尺寸，异常蛋疼。。
+&#13;
+ember for emby
+&#13;
+uwp，界面操作比emby theater还反人类，容易闪退。
+&#13;
+kodi相关
+&#13;
+kodi那套反人类到极致的逻辑用鼠标操作就是找罪受，都没心思去调整播放器调用了。
+&#13;
+plex相关
+&#13;
+因为片子是小电影，题材特殊，于是用的是everaver抓取本地元数据的方式管理，而plex根本无法正确读取，直接弃用。
+&#13;
+-
+&#13;
+到这里能想到的解决方案都试了一次，都不理想。
+&#13;
+理想状态是一个轻量资料库软件，读取元数据，然后走smb调用第三方播放器播放，类似资源管理器访问dlna时的效果：
+&#13;
+https://wx2.sinaimg.cn/large/741f9461ly1g1uxop5croj20wv0ivwpm.jpg
+&#13;
+（说白了就是能解决dlna的缓存爆盘问题就好）。。
+&#13;
+不过已经不敢这么奢望了，现在只有其它解决方案全都愿意试。
+&#13;
+于是求推荐其它媒体库或解决姿势。</description>
+      <content:encoded><![CDATA[<p><b>ふん雑魚め: </b><br>
+<span> 南宫月汐 replied on 2020-2-25 20:41 jellyfin最近是不是出问题了？我这几天存的片子全部刷不出来，手动刷新媒体库也没用。不是搜刮不到元数据，而是感觉有点像读取不到本地数据一样，我一周前放进去的来自深渊和射雕英雄传都只能读出来一集。前天我重启了下nas，结果还莫名其妙丢了日本小姐姐媒体库，害得我重新又新建了一遍，其他动画电影电视剧自然刷新不到我上周放进去的片子，邪门儿—— 来自 OnePlus GM1910, Android</span><br>
+<span>我今天也碰到刷不出新片的问题了</span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-25 20:41</span><br>
+<span>jellyfin最近是不是出问题了？我这几天存的片子全部刷不出来，手动刷新媒体库也没用。不是搜刮不到元数据， ...</span><br>
+<span>这么邪门儿？</span><br>
+<span>刚刚扔了部东之伊甸，影像研，以及漂客评测的最新一集都正常刷出来了。</span><br>
+<span>这东西快仨月没更新稳定版了，要出这类问题也不该现在才出，还是说你用的nightly版？</span><br>
+<span>去gayhub翻翻issues看有没有相同情况吧。</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>我基本放弃jellyfin和emby自动刮削了，刚好自我隔离的时间用TMM全部自己建了nfo</span><br>
+<span>大部分工作做完以后，现在应对增量的东西手动操作起来还是挺简单的</span><br>
+</p><p><b>haruhiismer: </b><br>
+<span>mark</span><br>
+<span>—— 来自 samsung SM-N9500, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-2-26 01:19</span><br>
+<span>这么邪门儿？</span><br>
+<span>刚刚扔了部东之伊甸，影像研，以及漂客评测的最新一集都正常刷出来了。</span><br>
+<span>这东西快仨 ...</span><br>
+<span>我用的docker套件里的版本，我看我楼下也有这个问题，我上礼拜放进去的来自深渊到现在还是一片空白，连集数都看不到，邪门儿</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>陈永仁: </b><br>
+<span>好贴自动回复</span><br>
+</p><p><b>秋雨灰灰: </b><br>
+<span> 本帖最后由 秋雨灰灰 于 2020-2-26 09:16 编辑 </span><br>
+<span>封面没有很重要啊，还是tag好用。我个人用的话，自动分文件夹重命名摆放+tag+everything是最方便的</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>现在就是这样，手动刷新永远卡在0%</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>秋雨灰灰 发表于 2020-2-26 09:10</span><br>
+<span>封面没有很重要啊，还是tag好用。我个人用的话，自动分文件夹重命名摆放+tag+everything是最方便的 ...</span><br>
+<span>其实jellyfin和emby都支持tag。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-26 15:10</span><br>
+<span>现在就是这样，手动刷新永远卡在0%</span><br>
+<span>我用的巨硬版也就爱莫能助了，只能推荐一下祖传救命良方：</span><br>
+<span>重装试试。</span><br>
+</p><p><b>ふん雑魚め: </b><br>
+<span>南宫月汐 发表于 2020-2-26 08:38</span><br>
+<span>我用的docker套件里的版本，我看我楼下也有这个问题，我上礼拜放进去的来自深渊到现在还是一片空白，连集 ...</span><br>
+<span>我的排查了好久终于好了</span><br>
+<span>因为把路由器换了打开了全局梯，导致几个削刮器用的网站连接有问题，现在把这几个网站都扔梯子上了就好了</span><br>
+<span>不过最奇怪的是这扫不到片子的信息后，在我的影片里也找不到这几个片子，只有搜索才发现其实jellyfin已经认到这几部片子了，造成一种没搜索到新片的假象</span><br>
+</p><p><b>ふん雑魚め: </b><br>
+<span>KyoaniButa 发表于 2020-2-26 19:02</span><br>
+<span>其实jellyfin和emby都支持tag。</span><br>
+<span>jellyfin支持tag，不过好像没有搜索tag的方法？</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>ふん雑魚め 发表于 2020-2-27 09:25</span><br>
+<span> 我的排查了好久终于好了</span><br>
+<span>因为把路由器换了打开了全局梯，导致几个削刮器用的网站连接有问题，现在把这几 ...</span><br>
+<span>但是我路由器一直没挂过梯子，这就很尴尬了</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>ふん雑魚め 发表于 2020-2-27 09:27</span><br>
+<span>jellyfin支持tag，不过好像没有搜索tag的方法？</span><br>
+<span>jellyfin的tag要进入单个媒体库——风格，然后ctrl+f。</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>南宫月汐 发表于 2020-1-29 14:04</span><br>
+<span>最后我还是用了tmdb的方案，还算能接受。不过我jellyfin装了Kodi Sync Queue插件盒子上kodi还是要手动同 ...</span><br>
+<span>我也碰到这个问题，jellyfin的安卓app是无法显示字幕的，网页版、kodi甚至jellyfinTV调用VLC就都没问题</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-2-27 15:07 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-2-26 19:05</span><br>
+<span>我用的巨硬版也就爱莫能助了，只能推荐一下祖传救命良方：</span><br>
+<span>重装试试。 ...</span><br>
+<span>我大概知道原因了，就和我楼下那位一样，jellyfin连不上TMDB，不过他是因为换了路由器开梯子，我这边是什么都没干突然就连不上了。我Docker里装的Qbit还能正常下载东西，NAS联网应该是正常的，PC打开TMDB也正常，不需要挂梯子。我重新装了Docker版本的jellyfin，还是刷不出来，而且似乎一旦连不上TMDB以后jellyfin会自动中断媒体库扫描，导致我之前已经搜刮好的片子也刷不出来。我现在把媒体库设置里的搜刮选项全关掉，重新扫描一遍媒体库先把之前搜刮好的片子刷出来，然后在把TMDB勾上看看。如果还不行就只能TMM手动搜刮好再放媒体文件夹里，再去jellyfin里把媒体库搜刮都关掉然后手动刷新。</span><br>
+<span>我怎么觉得这么一搞还不如放弃jellyfin直接TMM手动搜刮完进KODI呢</span><br>
+<span>我手动刷新大姐姐媒体库就如丝般顺滑，看着右上角进度从0一直刷到100。别的全卡在0，太痛苦了</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>jumbleh 发表于 2020-2-27 13:33</span><br>
+<span>我也碰到这个问题，jellyfin的安卓app是无法显示字幕的，网页版、kodi甚至jellyfinTV调用VLC就都没问题 ...</span><br>
+<span>我一开始用jellyfin调用VLC会显示字幕不是有效网络地址，只能用kodi才能正常调用外挂字幕。而且好多字幕组的外挂字幕根本显示不出来，明明是已经显示调取成功的。</span><br>
+<span>我现在下动画片都直接把外挂字幕封进MKV里，再也不去想怎么调软件调取字幕了，费劲的一比</span><br>
+</p><p><b>jumbleh: </b><br>
+<span>南宫月汐 发表于 2020-2-27 15:10</span><br>
+<span>我一开始用jellyfin调用VLC会显示字幕不是有效网络地址，只能用kodi才能正常调用外挂字幕。而且好多字幕 ...</span><br>
+<span>自己封字幕也太累了。。。</span><br>
+<span>还是kodi吧</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-27 15:05</span><br>
+<span>我大概知道原因了，就和我楼下那位一样，jellyfin连不上TMDB，不过他是因为换了路由器开梯子，我这边是什 ...</span><br>
+<span>你要不换个路由挂酸酸乳，或者再买个n1做旁路由？</span><br>
+<span>不过即使tmm刮削，导入jellyfin也比kodi那反人类好。。</span><br>
+</p><p><b>弥勒: </b><br>
+<span>顺便进来问下TMDB的剧集搜刮插件是抽了吗？前两天还正常，今天突然一直连不上了，以为网络问题试了下电影的一点问题都没。。。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-2-27 21:12 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-2-27 20:48</span><br>
+<span>你要不换个路由挂酸酸乳，或者再买个n1做旁路由？</span><br>
+<span>不过即使tmm刮削，导入jellyfin也比kodi那反人 ...</span><br>
+<span>查到原因了，搜索了下发现不止我一个人有这种问题，不是酸酸乳的问题，我用TMM手动搜刮，数据源网站选TMDB也搜不到信息。</span><br>
+<span>后来查到是api.themoviedb.org连不通了，而且就是2月20来号的时候，那会儿我刚把冰果放进去就炸了。</span><br>
+<span>目前我的解决方案是PC打开Windows\System32\drivers\etc，右键hosts文件属性，安全选项里选择users用户组，权限里给"完全控制"</span><br>
+<span>然后记事本打开hosts文件，最末尾加</span><br>
+<span>13.224.161.90 api.themoviedb.org</span><br>
+<span>然后用TMM手动搜刮，现在可以正常搜到影片信息</span><br>
+<span>NAS里的jellyfin目前还是没找到解决方案</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>弥勒 发表于 2020-2-27 20:53</span><br>
+<span>顺便进来问下TMDB的剧集搜刮插件是抽了吗？前两天还正常，今天突然一直连不上了，以为网络问题试了下电影的 ...</span><br>
+<span>看121楼，看来是tmdb抽了。。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-27 21:06</span><br>
+<span>查到原因了，搜索了下发现不止我一个人有这种问题，不是酸酸乳的问题，我用TMM手动搜刮，数据源网站选TMDB ...</span><br>
+<span>但tmdb抽了没理由会影响到tv动画的刮削啊？动画用的是thetvdb。。</span><br>
+<span>事实上就像我昨天回复的，我自己昨天放了一部动画（tv+剧场）并更新了几部新番用thetvdb都正常抓出来了。</span><br>
+<span>还是说你在刮削器里同时勾选了tmdb和thetvdb？</span><br>
+<span>不过我俩db站一直都是酸酸乳模式。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-2-27 22:28 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-2-27 21:46</span><br>
+<span>但tmdb抽了没理由会影响到tv动画的刮削啊？动画用的是thetvdb。。</span><br>
+<span>事实上就像我昨天回复的，我自己昨天放 ...</span><br>
+<span>我是TPLINK的路由器+TP家吸顶AC，当初新房子装修的时候做千兆局域网想着房子不大一个AC就能覆盖整个房子，为了省事就买了TP家的路由器+AC套餐，结果就是路由器没办法刷固件内置酸酸乳。完了我PC开软件设置局域网内设备连接本代理以后NAS设置本机IP连不上网，我就没用theTVdb，连不上去。我之前拿PC做jellyfin服务器的时候倒是可以直接挂了软件用theTVdb，现在用NAS做服务器就吃屎了</span><br>
+<span>我就是那个所有视频都用TMDB的傻子</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-2-27 21:46</span><br>
+<span>但tmdb抽了没理由会影响到tv动画的刮削啊？动画用的是thetvdb。。</span><br>
+<span>事实上就像我昨天回复的，我自己昨天放 ...</span><br>
+<span>然后我发现jellyfin这个沙雕，把我的射雕英雄传1983版和2017版合并了，明明我是放在两个文件夹，而且带了年份后缀的，他还是把我83版第一季和2017版给合并在一起了</span><br>
+<span>妈的真的智障，现在射雕显示第一季有71集</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-27 22:27</span><br>
+<span>我是TPLINK的路由器+TP家吸顶AC，当初新房子装修的时候做千兆局域网想着房子不大一个AC就能覆盖整个房子， ...</span><br>
+<span>诚心建议花100买个n1刷openwrt做旁路由，这样就无所谓主路由固件能不能刷了。</span><br>
+<span>所有视频都用tmdb也太惨了。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-27 22:58</span><br>
+<span>然后我发现jellyfin这个沙雕，把我的射雕英雄传1983版和2017版合并了，明明我是放在两个文件夹，而且带了 ...</span><br>
+<span>同名不同版本识别是容易抽风，手动识别就好。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-2-28 00:14 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-2-27 23:50</span><br>
+<span>诚心建议花100买个n1刷openwrt做旁路由，这样就无所谓主路由固件能不能刷了。</span><br>
+<span>所有视频都用tmdb也太惨了 ...</span><br>
+<span>我之前买了个N1刷了YYF当电视盒子，但是遥控器关机以后马上就会自动重启，完全无解，导致我现在对并夕夕的N1完全没有任何好感</span><br>
+<span>另外我现在是把媒体库元数据全部都关掉的，这样也能手动识别吗</span><br>
+<span>试了下，识别不了。我是TMM手动搜刮的元数据，这样都能识别成一个我也是服了</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-28 00:13</span><br>
+<span>我之前买了个N1刷了YYF当电视盒子，但是遥控器关机以后马上就会自动重启，完全无解，导致我现在对并夕夕的 ...</span><br>
+<span>本地手动做的元数据识别错误那就是tmm抓的nfo出问题了，格式不符合jellyfin的要求。</span><br>
+<span>遥控器关机马上重启可能是遥控器的问题，最好花30买个用官方的t1遥控器，这东西还能学习电视的开关键，很爽到。</span><br>
+<span>另外官网现在p1（n1换皮）+t1遥控器套装实价115，我记得p1也能刷固件了，可以研究下。</span><br>
+<span>最后固件推荐用这个：https://www.right.com.cn/forum/thread-315889-1-1.html</span><br>
+<span>yyf魔改太多可能出bug。。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-2-28 00:32</span><br>
+<span>本地手动做的元数据识别错误那就是tmm抓的nfo出问题了，格式不符合jellyfin的要求。</span><br>
+<span>遥控器关机马 ...</span><br>
+<span>感谢楼主，我是买了个YYF专用遥控器，蛋疼得不行</span><br>
+<span>我去研究下这个ROM怎么刷</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-28 00:47</span><br>
+<span>感谢楼主，我是买了个YYF专用遥控器，蛋疼得不行</span><br>
+<span>我去研究下这个ROM怎么刷 ...</span><br>
+<span>那些“专用遥控器”全是垃圾。。只有官方t1的遥控器能完美控制n1，你这个肯定是遥控器的问题了，我最开始用猴米盒子的遥控器控制n1时也是同样的毛病。。</span><br>
+<span>固件你开adb重启盒子到线刷模式再直接用USB_Burning_Tool刷就行了，刷完开机后记得重置几次，不然会留下上个系统自带的垃圾。</span><br>
+<span>另外找到个p1的教程：https://www.right.com.cn/forum/thread-567069-1-1.html</span><br>
+<span>看来p1也能稳刷固件了，步骤大同小异。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-2-28 01:05</span><br>
+<span>那些“专用遥控器”全是垃圾。。只有官方t1的遥控器能完美控制n1，你这个肯定是遥控器的问题了，我最开始 ...</span><br>
+<span>射雕的问题解决了，我把媒体库里自动合并不同文件夹下相同剧集的勾点掉然后再刷新一遍媒体库就OK了</span><br>
+<span>刷固件的话我照着楼主你这篇帖子来就行吗？</span><br>
+<span>https://pockies.github.io/2019/03/07/phicomm-n1/</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-2-28 10:15</span><br>
+<span>射雕的问题解决了，我把媒体库里自动合并不同文件夹下相同剧集的勾点掉然后再刷新一遍媒体库就OK了</span><br>
+<span>刷固 ...</span><br>
+<span>是，里面还有个别人做的视频教程（y2b），照着做就ok。</span><br>
+<span>而且因为你这已经刷过机了，所以可以直接从adb进线刷模式的步骤开始。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-2-28 17:28</span><br>
+<span>是，里面还有个别人做的视频教程（y2b），照着做就ok。</span><br>
+<span>而且因为你这已经刷过机了，所以可以直接从adb进 ...</span><br>
+<span>好的，感谢楼主</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822616[100-150]</guid>
+    </item>
+    <item>
+      <title>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详[50-100]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822616-1-1.html</link>
+      <description>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详&#13;
+前阵子在nas上用emby搭建了媒体库，元数据已经手动抓完并归类。
+&#13;
+但pc端的使用一直不够优雅。目前已经尝试过以下几种播放方案：
+&#13;
+利用smb
+&#13;
+此前一直都是手动归纳文件夹并映射网络驱动器直接potplayer播放。
+&#13;
+但片子一多，这种方式看不了封面就比较蛋疼，走文件夹也略麻烦，于是开始了以下折腾。
+&#13;
+利用dlna
+&#13;
+巨硬的资源管理器和“电影与电视”，能通过dlna直接抓取并正确显示emby媒体库的视频封面。
+&#13;
+前者直接调用第三方播放器，后者自己播放，无论界面还是操作都很顺手。
+&#13;
+https://wx1.sinaimg.cn/large/741f9461ly1g1uxoo8h5kj217l0qt7k4.jpg
+&#13;
+但是无论哪种缓存都大得感人肺腑，播放一个视频几乎等于直接把视频拷贝到本地，几个视频下去直接爆硬盘，久而久之感觉硬盘也会被艹嗝屁。。
+&#13;
+因为不大熟悉dlna的配置，请问有什么方法减小缓存？
+&#13;
+理想是达到smb映射网络驱动器播放时的效果。。
+&#13;
+emdb
+&#13;
+dlna缓存boom了之后开始尝试本地的媒体库软件。
+&#13;
+第一个用的就是emdb，结果bug10 1809直接无法启动，不知是不是姿势不对。。。
+&#13;
+emby网页
+&#13;
+网页强制转码性能太差，gg。
+&#13;
+emby theater
+&#13;
+官方pc端可以直接调用第三方播放器，但操作逻辑和界面始终都是emby网页那一套，反人类，并且神tm调不了窗口尺寸，异常蛋疼。。
+&#13;
+ember for emby
+&#13;
+uwp，界面操作比emby theater还反人类，容易闪退。
+&#13;
+kodi相关
+&#13;
+kodi那套反人类到极致的逻辑用鼠标操作就是找罪受，都没心思去调整播放器调用了。
+&#13;
+plex相关
+&#13;
+因为片子是小电影，题材特殊，于是用的是everaver抓取本地元数据的方式管理，而plex根本无法正确读取，直接弃用。
+&#13;
+-
+&#13;
+到这里能想到的解决方案都试了一次，都不理想。
+&#13;
+理想状态是一个轻量资料库软件，读取元数据，然后走smb调用第三方播放器播放，类似资源管理器访问dlna时的效果：
+&#13;
+https://wx2.sinaimg.cn/large/741f9461ly1g1uxop5croj20wv0ivwpm.jpg
+&#13;
+（说白了就是能解决dlna的缓存爆盘问题就好）。。
+&#13;
+不过已经不敢这么奢望了，现在只有其它解决方案全都愿意试。
+&#13;
+于是求推荐其它媒体库或解决姿势。</description>
+      <content:encoded><![CDATA[<p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-8 14:56</span><br>
+<span>借楼想请教下楼主，我看了你的帖子装了个n1做电视盒子，用kodi18.5播放hevc的某些视频会卡顿，比如澄空压的 ...</span><br>
+<span>上花园翻了下你说的两个组压的玩意。。</span><br>
+<span>没有一个是hevc（h.265）。</span><br>
+<span>全是祖传avc（h.264）10bit（或者hi10p，都是同一个东西）。</span><br>
+<span>N1的u（Amlogic S905L）能硬解hevc 10bit，但解不了avc 10bit，于是会卡得飞起。</span><br>
+<span>我最近正好下了个鬼佬压的卡密bd，正经的hevc 10bit，n1放起来丝般顺滑；</span><br>
+<span>同期下了个漫游压的攻壳bd，第二季甩人一脸祖传avc 10bit，卡得生活不能自理。</span><br>
+<span>与视频文件大小无关，就像usb怼不进网线，解不了就是解不了。</span><br>
+<span>想解决只能看见这沙雕编码绕道走，或者组一个用桌面u的htpc专门播放。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-8 14:56</span><br>
+<span>借楼想请教下楼主，我看了你的帖子装了个n1做电视盒子，用kodi18.5播放hevc的某些视频会卡顿，比如澄空压的 ...</span><br>
+<span>至于用盒子访问pc的共享文件夹。</span><br>
+<span>如果你的pc用的是最新版bug10，要先开启smbv1服务。</span><br>
+<span>教程：http://pockies.github.io/2019/01/19/fix-win10-smb/</span><br>
+<span>如果你想访问并查看共享文件夹里的所有东西，比如直接安装共享文件夹里的apk之类。</span><br>
+<span>就装个支持s**和遥控器操作的文件浏览器，个人推荐FX File Explorer：</span><br>
+<span>https://play.google.com/store/apps/details?id=nextapp.fx&hl=zh_CN</span><br>
+<span>在盒子上安装后进入app首页的“network”，添加你的共享文件夹就行。</span><br>
+<span>如果只需要播放共享文件夹里的视频，最简单的就是装个vlc（自带tv版界面），</span><br>
+<span>https://play.google.com/store/apps/details?id=org.videolan.vlc&hl=zh_CN</span><br>
+<span>安装后进入app首页的“本地网络”，里面会出现你的共享文件夹，输入密码添加收藏就能直接放卡通了。</span><br>
+<span>另外记得在vlc的设置里开启硬解。</span><br>
+<span>如果你要求再高点，比如想要视频封面作品简介之类，就需要用emby/jellyfin搭个媒体库服务，昨天正好憋出了第二篇教程，两篇结合看已经相当傻瓜且完整了。</span><br>
+<span>可以参考下：</span><br>
+<span>《利用EverAver+Emby+Kodi打造本地A#V媒体库》</span><br>
+<span>《利用A#V Data Capture+Jellyfin+Kodi打造更优雅的本地A#V+普通影片媒体库》</span><br>
+<span>普通动画怎么改名抓元数据在第二篇文章里。</span><br>
+<span>成品还是很爽到的。</span><br>
+<img src="https://i.loli.net/2020/01/09/Hk1GNTwpom4Yr3e.jpg" title="https://i.loli.net/2020/01/09/Hk1GNTwpom4Yr3e.jpg"><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>luguozmy 发表于 2020-1-9 14:03</span><br>
+<span>楼主的需求跟我是一样的。我感觉应该只能自己动手写一个程序了</span><br>
+<span>- 可以像emby plex一样以媒体库方式显示内 ...</span><br>
+<span>能读取并显示emby/jellyfin/plex/tmm存在视频文件夹里的图片和nfo，不然元数据又白抓了。</span><br>
+<span>每次启动能自动拉取文件夹里的**，或者做一个手动刷新媒体库的功能。</span><br>
+<span>最后就是搜索，以及随机推荐视频。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span> 本帖最后由 KyoaniButa 于 2020-1-9 21:38 编辑 </span><br>
+<span>爱吃豆包 发表于 2020-1-1 20:03</span><br>
+<span>B站上这个up主400块组的nas后台解码都没有这么高占用，可能emby的windows客户端是有多少性能用多少吧，转 ...</span><br>
+<span>cpu 100%的原因在gayhub的issues里完全找到了，编码硬解支持的问题。</span><br>
+<img src="https://user-images.githubusercontent.com/1992688/60091692-358b3880-9713-11e9-87df-cc7171bbccd3.png" title="https://user-images.githubusercontent.com/1992688/60091692-358b3880-9713-11e9-87df-cc7171bbccd3.png"><br>
+<span>我的老奔腾gg，只能顶满cpu软解hevc 10bit。</span><br>
+<span>然后就是jellyfin貌似不支持硬解也不支持软解avc 10bit，祖国字幕组压bd又贼爱用这沙雕编码，又一轮gg。</span><br>
+</p><p><b>benjin: </b><br>
+<span>我还是只知道用PLEX</span><br>
+</p><p><b>荷叶饭: </b><br>
+<span>过段时间折腾个nas，先马克</span><br>
+<span>—— 来自 Xiaomi Redmi Note 7 Pro, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-9 20:54</span><br>
+<span>至于用盒子访问pc的共享文件夹。</span><br>
+<span>如果你的pc用的是最新版bug10，要先开启smbv1服务。</span><br>
+<span>教程：http://pocki ...</span><br>
+<span>感谢楼主回复。我刚才来回测试了几个片子刚确定是这个沙雕编码的问题就看到楼主回复了我，确实这个h264 10bit的编码太蛋疼了，等过几天我网通了就把这几个动画片都洗了。</span><br>
+<span>另外就是关于您打造av媒体库那个帖子，我是卡在了安装emby服务器上了，一直显示download emby servers上，几个小时看不到进度条有动弹的迹象，挂了酸酸乳也没用。我是直接用pc下的win版安装文件。</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>对了，主贴提到的问题，也就pc播放媒体库的姿势。</span><br>
+<span>找了一圈发现目前只有kodi用着最舒服，不过需要一只手柄当遥控器。</span><br>
+<span>只能暂时屈服于kodi淫威了，等楼上大佬的新软件。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-9 21:41</span><br>
+<span>感谢楼主回复。我刚才来回测试了几个片子刚确定是这个沙雕编码的问题就看到楼主回复了我，确实这个h264 1 ...</span><br>
+<span>用新文章里推荐的jellyfin啊。你要是不买emby的会员（120刀）真没必要用这东西，从客户端到硬解，就连换皮肤都给你设限制。。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-9 21:45</span><br>
+<span>用新文章里推荐的jellyfin啊。你要是不买emby的会员（120刀）真没必要用这东西，从客户端到硬解， ...</span><br>
+<span>好的，谢谢楼主。明天我这边网通了研究研究您的新教程，感谢楼主的教程！</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>那么pc上整理小电影要用什么软件</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>彩虹肥宅 发表于 2020-1-20 18:26</span><br>
+<span>那么pc上整理小电影要用什么软件</span><br>
+<span>不仔细爬楼</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-9 21:45</span><br>
+<span>用新文章里推荐的jellyfin啊。你要是不买emby的会员（120刀）真没必要用这东西，从客户端到硬解， ...</span><br>
+<span>emby的硬解怎么限制的？我刚才用来播放4K的哥斯拉3700x占用50%...</span><br>
+</p><p><b>彩虹肥宅: </b><br>
+<span>爱吃豆包 发表于 2020-1-20 22:09</span><br>
+<span>不仔细爬楼</span><br>
+<span>我瞎了</span><br>
+</p><p><b>dvd6: </b><br>
+<span>所以dlna爆缓存是服务端还是客户端的问题？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>dvd6 发表于 2020-1-21 07:41</span><br>
+<span>所以dlna爆缓存是服务端还是客户端的问题？</span><br>
+<span>dlna协议的问题，必须缓存到客户端播放。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-1-20 22:11</span><br>
+<span>emby的硬解怎么限制的？我刚才用来播放4K的哥斯拉3700x占用50%...</span><br>
+<span>不开会员没硬解。</span><br>
+</p><p><b>dvd6: </b><br>
+<span>KyoaniButa 发表于 2020-1-21 10:01</span><br>
+<span>dlna协议的问题，必须缓存到客户端播放。</span><br>
+<span>应该不是dlna共有的问题吧，我用nas自带的twonky没感觉要整个视频缓存了才能看</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-21 10:03</span><br>
+<span>不开会员没硬解。</span><br>
+<span>楼主我用新文章里的工具，把小电影拖到软件上以后就出命令行显示重试，重试三次以后就退出了，也没有自动创建输出文件夹，只有失败文件夹在，还是空的，试了2.1，1.7，1.9三个版本都这样，求助</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>dvd6 发表于 2020-1-22 12:52</span><br>
+<span>应该不是dlna共有的问题吧，我用nas自带的twonky没感觉要整个视频缓存了才能看 ...</span><br>
+<span>无论整个缓存还是部分缓存dlna都是必须在客户端先缓存再播，有缓存就有读写，有读写就。。你可以观察下你播放几个影片后Internet缓存的大小。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-22 13:06</span><br>
+<span>楼主我用新文章里的工具，把小电影拖到软件上以后就出命令行显示重试，重试三次以后就退出了，也没有自动 ...</span><br>
+<span>看来你没仔细看我写的教程。</span><br>
+<span>编辑config.ini，把“proxy = “后的自带ip清空。</span><br>
+<span>重试三次是因为连不上那个示例的假ip，不想反复重试就进一步把retry = 3改成retry = 1。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-22 17:01</span><br>
+<span>看来你没仔细看我写的教程。</span><br>
+<span>编辑config.ini，把“proxy = “后的自带ip清空。</span><br>
+<span>重试三次是因为连 ...</span><br>
+<span>我清空了，ip是空的也会自动重试</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>dvd6: </b><br>
+<span>KyoaniButa 发表于 2020-1-22 16:55</span><br>
+<span>无论整个缓存还是部分缓存dlna都是必须在客户端先缓存再播，有缓存就有读写，有读写就。。你可以观察下你 ...</span><br>
+<span>原来是这个意思，那就算平常看在线视频网站也是同样的情况，就不用太纠结了吧，要么把缓存目录放到ramdisk？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>dvd6 发表于 2020-1-22 17:31</span><br>
+<span>原来是这个意思，那就算平常看在线视频网站也是同样的情况，就不用太纠结了吧，要么把缓存目录放到ramdis ...</span><br>
+<span>可怕的是dlna的缓存远比在线视频的大，所以才纠结。。</span><br>
+<span>改注册表重定向internet缓存文件夹的位置就行。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-22 17:13</span><br>
+<span>我清空了，ip是空的也会自动重试</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1 ...</span><br>
+<span>我刚刚试了下没什么问题啊（1.9）。</span><br>
+<span>要不你复制我的配置整个覆盖再试？或者全局酸酸乳？</span><br>
+<span>main_mode = 1</span><br>
+<span>failed_output_folder = failed</span><br>
+<span>success_output_folder = output</span><br>
+<span>proxy = </span><br>
+<span>timeout = 10</span><br>
+<span>retry = 3</span><br>
+<span>location_rule = '#'+actor+'/'+'['+year+'] '+title+' ['+number+']'</span><br>
+<span>naming_rule = title</span><br>
+<span>update_check = 0</span><br>
+<span>media_warehouse = emby</span><br>
+<span>#emby plex kodi</span><br>
+<span>literals = \</span><br>
+<span>path = </span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-22 17:44</span><br>
+<span>我刚刚试了下没什么问题啊（1.9）。</span><br>
+<span>要不你复制我的配置整个覆盖再试？或者全局酸酸乳？</span><br>
+<span>全局酸酸乳成功</span><br>
+<span>这是过年了墙加固了啊</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-22 17:44</span><br>
+<span>我刚刚试了下没什么问题啊（1.9）。</span><br>
+<span>要不你复制我的配置整个覆盖再试？或者全局酸酸乳？</span><br>
+<span>楼主我又厚着脸皮来请教问题了，请问媒体库添加完以后一直都是默认封面怎么办？</span><br>
+<span>就是这个东西，我回到主页以后首页的媒体库也是默认全红的封面，有办法改成像您教程中那种3个封面拼接出来的吗？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-24 01:07</span><br>
+<span>楼主我又厚着脸皮来请教问题了，请问媒体库添加完以后一直都是默认封面怎么办？</span><br>
+<span>就是这个东西，我回到主 ...</span><br>
+<span>完整扫描后放置一段时间会自动生成封面，不出来就反复扫。</span><br>
+<span>实在没有就自己拼一个，在jellyfin首页点媒体库文件夹的右下角，用弹出菜单里的“修改图片”手动添加。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-24 02:51</span><br>
+<span>完整扫描后放置一段时间会自动生成封面，不出来就反复扫。</span><br>
+<span>实在没有就自己拼一个，在jellyfin首页点媒体 ...</span><br>
+<span>最后一个问题，麻烦楼主了，请问楼主我现在在盒子上用VLC打开影片以后怎么调用字幕文件？VLC好像不能直接调用网络服务器上的文件，那些有外挂字幕的片子在jellyfin里用VLC打开以后应该怎么正确调用外挂字幕呢？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span> 本帖最后由 KyoaniButa 于 2020-1-26 22:09 编辑 </span><br>
+<span>南宫月汐 发表于 2020-1-26 21:54</span><br>
+<span>最后一个问题，麻烦楼主了，请问楼主我现在在盒子上用VLC打开影片以后怎么调用字幕文件？VLC好像不能直接 ...</span><br>
+<span>你把字幕改成和视频文件名同名，vlc浏览+播放时会自动调用，app设置里有。</span><br>
+<span>jellyfin调用vlc外挂字幕暂时无解，因为这时的vlc播放的视频文件名和原本文件名不同，外挂字幕建议直接用vlc浏览+观看。。要么用回kodi浏览+播放。</span><br>
+<span>最好学日语一劳永逸。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-26 22:08</span><br>
+<span>你把字幕改成和视频文件名同名，vlc浏览+播放时会自动调用，app设置里有。</span><br>
+<span>jellyfin调用vlc外挂字幕暂时无 ...</span><br>
+<span>我刚试了下，用Jellyfin直接播放NAS基本5秒一卡，而且每次打开Jellyfin都要重新登录一次帐号，太麻烦了。调用VLC倒是如丝般顺滑，但是我还有好多俄语片和法语片，没有字幕太尴尬了。用VLC直接调取NAS的片子也要播放以后点选择字幕才行，明明我勾了自动加载字幕的。我还是去盒子上装个KODI看看吧，毕竟后面还有日本动画片基本上都是外挂字幕的</span><br>
+<span>谢谢楼主一直耐心回答我的问题，我去按照您的教程把KODI装上试试</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-26 22:37</span><br>
+<span>我刚试了下，用Jellyfin直接播放NAS基本5秒一卡，而且每次打开Jellyfin都要重新登录一次帐号，太麻烦了。 ...</span><br>
+<span>Jellyfin的app设置里有保持登录时间的设置，调成24小时就好，kodi照着pc版配置就行了。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-1-28 02:17 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-1-26 23:04</span><br>
+<span>Jellyfin的app设置里有保持登录时间的设置，调成24小时就好，kodi照着pc版配置就行了。 ...</span><br>
+<span>楼主楼主，这两天一直呆在家里折腾媒体库的东西，电影和小姐姐们都完美接入，电视用KODI播放也解决了我之前跟您提的问题。就是开始动工动画媒体库的时候又出现了新的问题，我用自带的TheTVDB完全搜刮不到元数据。我想了一下是不是因为这个网站被墙了的原因？因为我Jellyfin是装在白群晖上的，电脑一直开着全局酸酸乳，偶然关了才发现这网站上不去。我在NAS里开了代理服务器转接到我的IP上也搜刮不到，这种情况下是不是就没办法用自带的TheTVDB搜刮元数据了？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span> 本帖最后由 KyoaniButa 于 2020-1-28 04:59 编辑 </span><br>
+<span>南宫月汐 发表于 2020-1-28 02:14</span><br>
+<span>楼主楼主，这两天一直呆在家里折腾媒体库的东西，电影和小姐姐们都完美接入，电视用KODI播放也解决了我之 ...</span><br>
+<span>TheTVDB可能需要添加到酸酸乳，我这反正直连不了。（开启酸酸乳的“允许来自局域网连接”，在群晖添加这个x理服务器，或者直接路由器上挂）</span><br>
+<span>并且TheTVDB刮削特定语言时会抽风：</span><br>
+<span>比如刮日语的元数据，文本信息能下来，但图片会偶尔抽风开天窗，刮削英语就完全没问题，中文不清楚。</span><br>
+<span>我遇到抽风一般是先刮削一遍英文把图抓下来，然后把媒体库的默认刮削语言改回日语，再对某部片子手动刷新元数据，刷新模式用“覆盖所有元数据”，不要勾选“替换现有图片”，然后就好了。</span><br>
+<span>嫌麻烦或者上不了酸酸乳，可以装个anime插件用anidb的数据库（我只测试过一次抓x番，识别错误，网站混乱到呕吐，删了.jpg）。</span><br>
+<span>又或者用tmm在你的pc上挂酸酸乳抓完thetvdb的元数据，再放到群晖里，不过这屑软件贼t*d反人类，要用还得装java，相关教程你得自己找了，抓完数据后就像你导入小姐姐那样添加媒体库就行。</span><br>
+</p><p><b>zydoom: </b><br>
+<span>不考虑**的话，动画刮削可以用tmdb和fanart，暂时都可以直连</span><br>
+<span>—— 来自 Sony F5321, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>zydoom 发表于 2020-1-28 05:38</span><br>
+<span>不考虑**的话，动画刮削可以用tmdb和fanart，暂时都可以直连</span><br>
+<span>—— 来自 Sony F5321, Android 8.0.0上的 S1 ...</span><br>
+<span>请问用TMDB的话对文件命名规则有什么要求吗？特别是一部动画各种特典剧场版之类的，我试了下TMDB可以搜刮到动画信息，但是对分集和特典就完全没办法</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-28 04:47</span><br>
+<span>TheTVDB可能需要添加到酸酸乳，我这反正直连不了。（开启酸酸乳的“允许来自局域网连接”，在群晖添加这个 ...</span><br>
+<span>我群晖挂了代理服务器用TTVDB也不行，文字信息可以搜刮到，图片全部GG，相反用TMDB倒是可以搜刮到正常信息和图片，但是好像这俩网站的命名方式完全不一样，特典全挂</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-28 11:17</span><br>
+<span>我群晖挂了代理服务器用TTVDB也不行，文字信息可以搜刮到，图片全部GG，相反用TMDB倒是可以搜刮到正常信 ...</span><br>
+<span>图片gg把语言换英文+手刷，等段时间就全了。</span><br>
+<span>至于tmdb的问题，那也是我只推荐用TheTVDB抓电视剧的原因，只有thetvdb的电视剧数据最全最完整最合理，tmdb老老实实抓电影就得了。</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>KyoaniButa 发表于 2020-1-28 12:14</span><br>
+<span>图片gg把语言换英文+手刷，等段时间就全了。</span><br>
+<span>至于tmdb的问题，那也是我只推荐用TheTVDB抓电视剧的原因 ...</span><br>
+<span>学习了，我再去找部电视剧试试看</span><br>
+</p><p><b>zydoom: </b><br>
+<span> 本帖最后由 zydoom 于 2020-1-28 21:00 编辑 </span><br>
+<span>南宫月汐 发表于 2020-1-28 11:15</span><br>
+<span>请问用TMDB的话对文件命名规则有什么要求吗？特别是一部动画各种特典剧场版之类的，我试了下TMDB可以搜刮 ...</span><br>
+<span>应该和tvdb类似的，参考emby/jellyfin的movie/tv naming，没有刮到，猜测可能是tmdb上没有分集信息</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>KyoaniButa 发表于 2020-1-28 04:47</span><br>
+<span>TheTVDB可能需要添加到酸酸乳，我这反正直连不了。（开启酸酸乳的“允许来自局域网连接”，在群晖添加这个 ...</span><br>
+<span>补充一下，TMM可以用Docker版直接跑在群晖上，然后直接网页VNC连上去就行了</span><br>
+<span>但是有俩坑</span><br>
+<span>一是下载量最高的那个TMM没有中文支持，我手动搞了半天加字体也不行，后来换了dzhuang/tinymediamanager自带中文支持</span><br>
+<span>二是如果需要PT保种&PT的种里有NFO，为了不覆盖NFO，可以把TMM的NFO存为movie.nfo，但是如果电影文件夹里同时有TMM的movie.nfo和PT的种里的NFO，Emby就不认TMM那个了</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span> 本帖最后由 南宫月汐 于 2020-1-29 16:50 编辑 </span><br>
+<span>KyoaniButa 发表于 2020-1-28 12:14</span><br>
+<span>图片gg把语言换英文+手刷，等段时间就全了。</span><br>
+<span>至于tmdb的问题，那也是我只推荐用TheTVDB抓电视剧的原因 ...</span><br>
+<span>最后我还是用了tmdb的方案，还算能接受。不过我jellyfin装了Kodi Sync Queue插件盒子上kodi还是要手动同步，不能自动同步更新数据，很迷惑</span><br>
+<span>另外就是很多动画片的字幕明明显示已经调用了却读不出来，比如VCB和悠哈璃羽合作的辉夜大小姐的字幕，刚打开1秒能显示，之后全挂</span><br>
+<span>又试了下，把同一个字幕内封入MKV就能读出来了，真的迷惑</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>嵐ステリ: </b><br>
+<span>按照lz的更新做了小姐姐的jellyfin库。从10年到现在的全放进去了海报墙真是壮观。就是那些10bit视频太蛋疼了，不知道ios有什么解决方法，自己有nplayer。明明ios是能硬解的</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>南宫月汐 发表于 2020-1-29 14:04</span><br>
+<span>最后我还是用了tmdb的方案，还算能接受。不过我jellyfin装了Kodi Sync Queue插件盒子上kodi还是要手动同 ...</span><br>
+<span>Kodi Sync Queue要先在网页里启用，然后进入客户端的正在运行的插件--jellyfin--长按进入设置里启用。</span><br>
+<span>顺便可以在媒体设置里勾选启动时自动更新媒体库。</span><br>
+<span>开源软件，又不是不能用。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>嵐ステリ 发表于 2020-1-29 14:29</span><br>
+<span>按照lz的更新做了小姐姐的jellyfin库。从10年到现在的全放进去了海报墙真是壮观。就是那些10bit视频太蛋疼 ...</span><br>
+<span>ios有vlc没？</span><br>
+<span>或是试试jellyfin的beta？</span><br>
+<span>https://testflight.apple.com/join/TcFUEVEb</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>https://github.com/moyy996/AVDC</span><br>
+<span>再重写一篇攻略吧，这个是AV DC的UI版</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-2-13 18:11</span><br>
+<span>https://github.com/moyy996/AVDC</span><br>
+<span>再重写一篇攻略吧，这个是AV DC的UI版</span><br>
+<span>喷了，这大姐姐工具怎么遍地开花。</span><br>
+<span>倒是来几个抓常规影片和里版卡通片的啊。</span><br>
+</p><p><b>共谍常凯申: </b><br>
+<span>emby是歧视中国吗？为什么首选元数据里国家找不到中国</span><br>
+</p><p><b>荷叶饭: </b><br>
+<span>共谍常凯申 发表于 2020-2-19 22:31</span><br>
+<span>emby是歧视中国吗？为什么首选元数据里国家找不到中国</span><br>
+<span>按p试试</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>jellyfin最近是不是出问题了？我这几天存的片子全部刷不出来，手动刷新媒体库也没用。不是搜刮不到元数据，而是感觉有点像读取不到本地数据一样，我一周前放进去的来自深渊和射雕英雄传都只能读出来一集。前天我重启了下nas，结果还莫名其妙丢了日本小姐姐媒体库，害得我重新又新建了一遍，其他动画电影电视剧自然刷新不到我上周放进去的片子，邪门儿</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822616[50-100]</guid>
+    </item>
+    <item>
+      <title>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1822616-1-1.html</link>
+      <description>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详&#13;
+前阵子在nas上用emby搭建了媒体库，元数据已经手动抓完并归类。
+&#13;
+但pc端的使用一直不够优雅。目前已经尝试过以下几种播放方案：
+&#13;
+利用smb
+&#13;
+此前一直都是手动归纳文件夹并映射网络驱动器直接potplayer播放。
+&#13;
+但片子一多，这种方式看不了封面就比较蛋疼，走文件夹也略麻烦，于是开始了以下折腾。
+&#13;
+利用dlna
+&#13;
+巨硬的资源管理器和“电影与电视”，能通过dlna直接抓取并正确显示emby媒体库的视频封面。
+&#13;
+前者直接调用第三方播放器，后者自己播放，无论界面还是操作都很顺手。
+&#13;
+https://wx1.sinaimg.cn/large/741f9461ly1g1uxoo8h5kj217l0qt7k4.jpg
+&#13;
+但是无论哪种缓存都大得感人肺腑，播放一个视频几乎等于直接把视频拷贝到本地，几个视频下去直接爆硬盘，久而久之感觉硬盘也会被艹嗝屁。。
+&#13;
+因为不大熟悉dlna的配置，请问有什么方法减小缓存？
+&#13;
+理想是达到smb映射网络驱动器播放时的效果。。
+&#13;
+emdb
+&#13;
+dlna缓存boom了之后开始尝试本地的媒体库软件。
+&#13;
+第一个用的就是emdb，结果bug10 1809直接无法启动，不知是不是姿势不对。。。
+&#13;
+emby网页
+&#13;
+网页强制转码性能太差，gg。
+&#13;
+emby theater
+&#13;
+官方pc端可以直接调用第三方播放器，但操作逻辑和界面始终都是emby网页那一套，反人类，并且神tm调不了窗口尺寸，异常蛋疼。。
+&#13;
+ember for emby
+&#13;
+uwp，界面操作比emby theater还反人类，容易闪退。
+&#13;
+kodi相关
+&#13;
+kodi那套反人类到极致的逻辑用鼠标操作就是找罪受，都没心思去调整播放器调用了。
+&#13;
+plex相关
+&#13;
+因为片子是小电影，题材特殊，于是用的是everaver抓取本地元数据的方式管理，而plex根本无法正确读取，直接弃用。
+&#13;
+-
+&#13;
+到这里能想到的解决方案都试了一次，都不理想。
+&#13;
+理想状态是一个轻量资料库软件，读取元数据，然后走smb调用第三方播放器播放，类似资源管理器访问dlna时的效果：
+&#13;
+https://wx2.sinaimg.cn/large/741f9461ly1g1uxop5croj20wv0ivwpm.jpg
+&#13;
+（说白了就是能解决dlna的缓存爆盘问题就好）。。
+&#13;
+不过已经不敢这么奢望了，现在只有其它解决方案全都愿意试。
+&#13;
+于是求推荐其它媒体库或解决姿势。</description>
+      <content:encoded><![CDATA[<p><b>KyoaniButa: </b><br>
+<span>求推pc本地电影媒体库读取/播放姿势（如emdb/emby/dlna）内详</span><br>
+<span>前阵子在nas上用emby搭建了媒体库，元数据已经手动抓完并归类。</span><br>
+<span>但pc端的使用一直不够优雅。目前已经尝试过以下几种播放方案：</span><br>
+<span>利用smb</span><br>
+<span>此前一直都是手动归纳文件夹并映射网络驱动器直接potplayer播放。</span><br>
+<span>但片子一多，这种方式看不了封面就比较蛋疼，走文件夹也略麻烦，于是开始了以下折腾。</span><br>
+<span>利用dlna</span><br>
+<span>巨硬的资源管理器和“电影与电视”，能通过dlna直接抓取并正确显示emby媒体库的视频封面。</span><br>
+<span>前者直接调用第三方播放器，后者自己播放，无论界面还是操作都很顺手。</span><br>
+<img src="https://wx1.sinaimg.cn/large/741f9461ly1g1uxoo8h5kj217l0qt7k4.jpg" title="https://wx1.sinaimg.cn/large/741f9461ly1g1uxoo8h5kj217l0qt7k4.jpg"><br>
+<span>但是无论哪种缓存都大得感人肺腑，播放一个视频几乎等于直接把视频拷贝到本地，几个视频下去直接爆硬盘，久而久之感觉硬盘也会被艹嗝屁。。</span><br>
+<span>因为不大熟悉dlna的配置，请问有什么方法减小缓存？</span><br>
+<span>理想是达到smb映射网络驱动器播放时的效果。。</span><br>
+<span>emdb</span><br>
+<span>dlna缓存boom了之后开始尝试本地的媒体库软件。</span><br>
+<span>第一个用的就是emdb，结果bug10 1809直接无法启动，不知是不是姿势不对。。。</span><br>
+<span>emby网页</span><br>
+<span>网页强制转码性能太差，gg。</span><br>
+<span>emby theater</span><br>
+<span>官方pc端可以直接调用第三方播放器，但操作逻辑和界面始终都是emby网页那一套，反人类，并且神tm调不了窗口尺寸，异常蛋疼。。</span><br>
+<span>ember for emby</span><br>
+<span>uwp，界面操作比emby theater还反人类，容易闪退。</span><br>
+<span>kodi相关</span><br>
+<span>kodi那套反人类到极致的逻辑用鼠标操作就是找罪受，都没心思去调整播放器调用了。</span><br>
+<span>plex相关</span><br>
+<span>因为片子是小电影，题材特殊，于是用的是everaver抓取本地元数据的方式管理，而plex根本无法正确读取，直接弃用。</span><br>
+<span>-</span><br>
+<span>到这里能想到的解决方案都试了一次，都不理想。</span><br>
+<span>理想状态是一个轻量资料库软件，读取元数据，然后走smb调用第三方播放器播放，类似资源管理器访问dlna时的效果：</span><br>
+<img src="https://wx2.sinaimg.cn/large/741f9461ly1g1uxop5croj20wv0ivwpm.jpg" title="https://wx2.sinaimg.cn/large/741f9461ly1g1uxop5croj20wv0ivwpm.jpg"><br>
+<span>（说白了就是能解决dlna的缓存爆盘问题就好）。。</span><br>
+<span>不过已经不敢这么奢望了，现在只有其它解决方案全都愿意试。</span><br>
+<span>于是求推荐其它媒体库或解决姿势。</span><br>
+</p><p><b>小修: </b><br>
+<span> 本帖最后由 小修 于 2019-4-8 09:06 编辑 </span><br>
+<span>我用tinymediamanager丑归丑，但是pc用起来功能倒是多多。kodi是好看不好用。</span><br>
+<span>普通电影可以用douban 时光两个国内搜刮器，自带的也挺好用。av那就没辙了，只能自己做info。我就没见过能自动匹配av的媒体库</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>是时候祭出这篇文章了</span><br>
+<span>利用EverAver+Emby+Kodi打造本地A#V媒体库</span><br>
+<span>https://pockies.github.io/2019/03/25/everaver-emby-kodi/</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>cybernetics 发表于 2019-4-8 10:02</span><br>
+<span>是时候祭出这篇文章了</span><br>
+<span>利用EverAver+Emby+Kodi打造本地A#V媒体库</span><br>
+<span>https://pockies.github.io/2019/0 ...</span><br>
+<span>然而这篇文章就是我写的。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>小修 发表于 2019-4-8 09:03</span><br>
+<span>我用tinymediamanager丑归丑，但是pc用起来功能倒是多多。kodi是好看不好用。</span><br>
+<span>普通电影可以用douban 时光两 ...</span><br>
+<span>info已经全部做完了，服务端（emby）也做完了，手机/电视盒子的客户端也没毛病了，现在只需要一个pc上能读取这些元数据，并组成直观媒体库调用本地播放器的方案。</span><br>
+<span>所以我最早的方案是利用巨硬自带的dlna，体验极佳，然而爆缓存。。</span><br>
+<span>tinymediamanager回家试试。</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>开kodi的时候用手柄呗</span><br>
+</p><p><b>小修: </b><br>
+<span>KyoaniButa 发表于 2019-4-8 10:12</span><br>
+<span>info已经全部做完了，服务端（emby）也做完了，手机/电视盒子的客户端也没毛病了，现在只需要一个pc上能 ...</span><br>
+<span>求个成人的搜刮器……我找不到。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>小修 发表于 2019-4-8 10:16</span><br>
+<span>求个成人的搜刮器……我找不到。</span><br>
+<span>具体参考3楼里那位贴的我的blog文章。。</span><br>
+<span>https://pockies.github.io/2019/03/25/everaver-emby-kodi/</span><br>
+<span>能用的大致以下几种。</span><br>
+<span>everaver：纯手动，影片单本抓取</span><br>
+<span>https://everaver.blogspot.com/</span><br>
+<span>Ja/vHelper：半自动，元数据抓得很简陋，但可以用来批量改名</span><br>
+<span>https://ja（去掉）vhelper.blogspot.com/</span><br>
+<span>Ja/vMovieScraper：半自动，补全元数据。</span><br>
+<span>https://github.com/DoctorD1501/JA（去掉）VMovieScraper</span><br>
+<span>我自己为了数据精度+实时编辑+自动建立文件夹归类层级用的everaver，懒人可以Ja/vHelper跑一轮把文件名批量改成标准番号，再Ja/vMovieScraper跑一轮抓全元数据。</span><br>
+<span>至于刮削器。。你上plex/emby的官方论坛搜ja/v就能找到插件，但基本都是废品，不推荐用。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>偶滴小乔 发表于 2019-4-8 10:14</span><br>
+<span>开kodi的时候用手柄呗</span><br>
+<span>在办公室差点没一口水呛着，手柄太过风骚。</span><br>
+</p><p><b>小修: </b><br>
+<span>KyoaniButa 发表于 2019-4-8 10:29</span><br>
+<span>具体参考3楼里那位贴的我的blog文章。。</span><br>
+<span>https://pockies.github.io/2019/03/25/everaver-emby-kodi/</span><br>
+<span>everaver+javhelper已经用上了。</span><br>
+<span>就是搜刮器没有。</span><br>
+<span>不过……废物搜刮器那就算了。</span><br>
+</p><p><b>cybernetics: </b><br>
+<span>KyoaniButa 发表于 2019-04-08 10:06:20</span><br>
+<span>世界太小了，其实kodi搭配手机的遥控器app还可以啊，想不出pc上的其他的方案。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>九耳: </b><br>
+<span>同求。。。。。</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>小修: </b><br>
+<span>cybernetics 发表于 2019-4-8 12:01</span><br>
+<span>世界太小了，其实kodi搭配手机的遥控器app还可以啊，想不出pc上的其他的方案。</span><br>
+<span>-- 来自...</span><br>
+<span>当你有200部以上电影的时候，就会非常蛋疼。</span><br>
+</p><p><b>我没火星把: </b><br>
+<span> 本帖最后由 我没火星把 于 2019-4-8 14:27 编辑 </span><br>
+<span>编辑了，没注意楼主已经用过这个了。</span><br>
+<span>说实话还是没太清楚你的诉求，是因为削刮器缓存数据太大导致读取速度慢？</span><br>
+<span>又看了一遍大概明白了。</span><br>
+<span>这个诉求应该还是用kodi解决最好，其实你这里最大的问题是现在这类媒体管理工具都是针对大屏幕或者移动端，PC基本就是忽略了，我自己也很少在PC上看视频和电影。</span><br>
+</p><p><b>kulanyee: </b><br>
+<span>说到底smb除了看不到封面之外完爆其他？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>我没火星把 发表于 2019-4-8 14:17</span><br>
+<span>编辑了，没注意楼主已经用过这个了。</span><br>
+<span>说实话还是没太清楚你的诉求，是因为削刮器缓存数据太大导致读取速度 ...</span><br>
+<span>不如说是主流的管理工具全是大屏/移动端的界面操作逻辑复制到了pc上，整的贼蛋疼。。</span><br>
+</p><p><b>伊克路西安: </b><br>
+<span> 本帖最后由 伊克路西安 于 2019-4-8 15:30 编辑 </span><br>
+<span>之前在65x9000f上开了下吉泽+希崎共演那部，thz的4000Kbps，码率比较低，总文件大小7G，但是其他几个版本片头广告和大水印更不能忍</span><br>
+<span>在PC小屏幕上配合madvr还感受不明显，到大屏幕+kodi纯硬解码上看体验只能说是灾难，低劣的压制下，女演员皮肤上的色块一览无余</span><br>
+<span>想了下大概也就收蓝光原盘比较靠谱，但是放流太少，做种也少，不依赖115/黑科之类也拖不下来</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>伊克路西安 发表于 2019-4-8 15:17</span><br>
+<span>之前在65x9000f上开了下吉泽+希崎共演那部，thz的4000Kbps，码率比较低，总文件大小7G，但是其他几个版本片 ...</span><br>
+<span>无水印强迫症你可能得用fu c kbe的源了，但东西并不全。</span><br>
+<span>猫片儿嘛，能看就行，想当年还是360p的小电影甚至出了“av画质”这梗，去年开始全面革新到1080p简直想赞美上帝。</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>又试了几个pc端的媒体库软件：</span><br>
+<span>极影库，emdb（通过安装旧版再更新新版解决打不开的问题），tinymediamanager</span><br>
+<span>普遍问题就是丑，闪退，无用功能过于繁杂（倾向于编辑/抓取元数据，而不是读取已有nfo乖乖做片库展示）。</span><br>
+<span>片库上千之后这些软件明显hold不住了，emdb导入不到1/3就崩了四次。</span><br>
+<span>最后还是用最初的 dlna+windows资源管理器/电影与电视直接播放 解决了。</span><br>
+<span>爆缓存就爆缓存吧，反正毛片一个月也看不了几次，不怕这点读写，把浏览播放体验提到最好才是正事。</span><br>
+<span>总之感谢楼里大佬发片。</span><br>
+</p><p><b>bm7号: </b><br>
+<span>dlna推的应该都是几秒一个的小文件吧，要不那些移动播放器咋办</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>bm7号 发表于 2019-4-8 17:27</span><br>
+<span>dlna推的应该都是几秒一个的小文件吧，要不那些移动播放器咋办</span><br>
+<span>我再emby服务端用推给电视的配置套pc，基本全转码，一个4g的源文件也缓存了近1g，并且画质感人。</span><br>
+<span>资源管理器访问的话直接开始拷贝源文件并调用第三方播放，设不设转码等于没意义。。</span><br>
+<span>不过我对dlna的详细配置完全小白，可能姿势不对，有啥现成配置能给个参考吗？</span><br>
+</p><p><b>bm7号: </b><br>
+<span>KyoaniButa 发表于 2019-4-8 17:38</span><br>
+<span>我再emby服务端用推给电视的配置套pc，基本全转码，一个4g的源文件也缓存了近1g，并且画质感人。</span><br>
+<span>资源管 ...</span><br>
+<span>我就用过jriver，特别傻瓜，晚上回去再试试看</span><br>
+</p><p><b>bm7号: </b><br>
+<span>载服务端的媒体库</span><br>
+<span>视频的话临时文件这样，点停止自动删除，然后我用平板当服务端就不弄转码了</span><br>
+</p><p><b>s-fix: </b><br>
+<span>emby网页端把质量调到最高不就不会转码了么？</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>我现在用了jellyfin</span><br>
+<span>感觉还行网页性能还过得去</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>s-fix 发表于 2019-4-9 08:37</span><br>
+<span>emby网页端把质量调到最高不就不会转码了么？</span><br>
+<span>—— 来自 HUAWEI CLT-AL00, Android 9上的 S1Next-鹅版 v2. ...</span><br>
+<span>依然会。</span><br>
+</p><p><b>radar: </b><br>
+<span>前几天还因为搜斐讯N1的内容看到了楼主的blog，今天就在屎黄色论坛活捉了😁</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>昨晚我观察了下我加的jellyfin,缓存一样爆炸</span><br>
+<span>现在直接把缓存文件夹定到内存盘里了,还好楼主的贴子提醒了我,不然我硬盘也被写爆炸</span><br>
+<span>大内存tmpfs才是王道</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>赤色彗星SEXY 发表于 2019-4-10 13:58</span><br>
+<span>昨晚我观察了下我加的jellyfin,缓存一样爆炸</span><br>
+<span>现在直接把缓存文件夹定到内存盘里了,还好楼主的贴子提醒了我 ...</span><br>
+<span>毕竟emby分支。</span><br>
+</p><p><b>赤色彗星SEXY: </b><br>
+<span>KyoaniButa 发表于 2019-04-10 18:00:29</span><br>
+<span>毕竟emby分支。好像是ffmepg做的</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>楼主现在有完整的攻略吗？这几天调试了下emby，各种短片加小视频选择混合内容一开始连封面都没有，高级设置下勾选episode图片获取程序-screen grabber ，发现会截取视频内容做缩略图封面。就是这些封面都要在浏览界面选择视图-缩略图才能看，如果选择封面视图都是不匹配的。</span><br>
+<span>小电影的花也是用的混合内容，这样能按照文件夹分配匹配只不过还是跟上面的一样的问题，不知道用什么获取封面信息。</span><br>
+<span>最后文件夹里面不知道哪里来的各种nfo文件还有JAVMovieScraper这个是不是要全局代理才能抓nof信息？</span><br>
+</p><p><b>暗影翔: </b><br>
+<span>看了lz的帖子和回复，感觉这些花花肠子都是针对没有鼠标键盘的操作方式的。有了鼠标键盘的pc最好的还是文件夹方式，分类放好就行了。毕竟维护元数据就够头疼的了，路径要符合规范，名字要符合，抓取数据还要考虑是否要留学。资源管理器模式只要自己能识别无所谓去强求按照刮削器的要求。</span><br>
+<span>片子随手就点进去看了，要啥缩略图和介绍啊，那都是用来给大众显摆的，自己看要啥自行车，直接看片最好。</span><br>
+<span>----发送自 Sony G8441,Android 9</span><br>
+</p><p><b>两个路人: </b><br>
+<span>爆缓存难道不是直接写个计划任务定时清理吗？</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2019-12-25 11:19</span><br>
+<span>楼主现在有完整的攻略吗？这几天调试了下emby，各种短片加小视频选择混合内容一开始连封面都没有，高级设置 ...</span><br>
+<span>没有。</span><br>
+<span>我已经放弃治疗走web软解播放了，好在emby/jellyfin的移动端app也能当web端的遥控器使，dlna虽好但那个硬盘读写量实在遭不住。</span><br>
+<span>抓小电影数据现在推荐这个，bus的数据，一键批量，基本准确。</span><br>
+<span>https://github.com/yoshiko2/AV_Data_Capture</span><br>
+<span>至于常规电影/动画/电视剧的元数据比较麻烦，你得根据视频体裁类型上thetvdb和themoviedb找对应的作品英文名并修改本地文件名。</span><br>
+<span>用“英文名+年份”命名视频文件基本都能正确抓取nfo，但有时会抽风抓不下来图片（主要集中在tv动画的封面图）手动下载图片改名扔进去补完就好。</span><br>
+<span>具体命名规则可以参考jellyfin的文档。</span><br>
+<span>https://docs.jellyfin.org/general/server/media/movies.html</span><br>
+<span>至于其他可以看我以前写的文章，近期准备更新一篇jellyfin的。</span><br>
+<span>https://pockies.github.io/2019/03/25/everaver-emby-kodi/</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-1 15:16</span><br>
+<span>没有。</span><br>
+<span>我已经放弃治疗走web软解播放了，好在emby/jellyfin的移动端app也能当web端的遥控器使，dlna虽好 ...</span><br>
+<span>那个我已经用上了 不识别的自己手动把其他nfo改成对应的电影，感觉nfo的信息没什么标准。下面是用tinyMediaManager改的，不过要用kodi才能完全显示比较多的nfo信息，这个软件重命名电影电视剧制作文件夹算是最好用的了</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-1-1 18:04</span><br>
+<span>那个我已经用上了 不识别的自己手动把其他nfo改成对应的电影，感觉nfo的信息没什么标准。下面是用 ...</span><br>
+<span>tmm用着贼难受，单集信息也经常抓不了，emby/jellyfin上也识别不全，我直接ReNamer编个正则批量改名后靠自带刮削器了，至少jellyfin的媒体库现实显示不会空数据。</span><br>
+<span>现在的主要问题是emby/jellyfin软解视频ffmepg进程cpu占用直接100%，感人肺腑。</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-1 19:39</span><br>
+<span>tmm用着贼难受，单集信息也经常抓不了，emby/jellyfin上也识别不全，我直接ReNamer编个正则批量改名后靠 ...</span><br>
+<span>B站上这个up主400块组的nas后台解码都没有这么高占用，可能emby的windows客户端是有多少性能用多少吧，转码那里也可以设置下</span><br>
+<span>https://www.bilibili.com/video/av70829949</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-1-1 20:03</span><br>
+<span>B站上这个up主400块组的nas后台解码都没有这么高占用，可能emby的windows客户端是有多少性能用多少吧，转 ...</span><br>
+<span>和视频的压制方式有关。</span><br>
+<span>目前我只遇到某家垃圾小电影反流源和攻壳2.0的电影在播放时100%，开硬解直接放不了，emby/jellyfin都是这德行，emby相对好点。</span><br>
+<span>前几天还看见有人在破处区发帖问，然而没有下文。。。</span><br>
+<span>因为这破毛病我都想买plex了。。。</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-1 20:23</span><br>
+<span>和视频的压制方式有关。</span><br>
+<span>目前我只遇到某家垃圾小电影反流源和攻壳2.0的电影在播放时100%，开硬解直接放不 ...</span><br>
+<span>最近研究nas我都想买unraid授权</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-1-1 20:31</span><br>
+<span>最近研究nas我都想买unraid授权</span><br>
+<span> 巨硬server又不是不能用。</span><br>
+</p><p><b>evooil: </b><br>
+<span>Appletv4k 加 infuse？ 等周日把3t的仓库盘接电脑上试下再更新</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-1 20:57</span><br>
+<span>巨硬server又不是不能用。</span><br>
+<span>unraid的虚拟机可以直通硬件pcie显卡什么的，用unraid装巨硬server</span><br>
+</p><p><b>爱吃豆包: </b><br>
+<span>KyoaniButa 发表于 2020-1-1 20:57</span><br>
+<span>巨硬server又不是不能用。</span><br>
+<span>对了这些软件可以丢在nsa上用PC端连接nas盘运行吗</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>爱吃豆包 发表于 2020-1-2 21:29</span><br>
+<span>对了这些软件可以丢在nsa上用PC端连接nas盘运行吗</span><br>
+<span>可以。</span><br>
+<span>在你装软件的pc上，将需要访问的另一台pc的硬盘（先共享）映射成网络驱动器就行。</span><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>除了a   v 之外</span><br>
+<span>动画的这种有没有比较好的解决方法</span><br>
+<span>一季13话 26话那种，而且每话还有标题</span><br>
+<span>嘛，我现在倒是暂时用年代+月份+作品分文件夹。。。然后wiki百科找他们每话list用重命名软件搞</span><br>
+<span>不过我还真没折腾封面和演员信息那些- -</span><br>
+</p><p><b>KyoaniButa: </b><br>
+<span>史莱姆KING 发表于 2020-1-3 11:52</span><br>
+<span>除了a   v 之外</span><br>
+<span>动画的这种有没有比较好的解决方法</span><br>
+<span>动画你就按照jellyfin文档里的方法建文件夹和文件名就行了。</span><br>
+<span>https://jellyfin.org/docs/general/server/media/shows.html</span><br>
+<span>比如攻壳就建成：</span><br>
+<span>---</span><br>
+<span>/Ghost in the Shell Stand Alone Complex（文件夹，名字用thetvdb里的英文名，别用罗马音/汉字/日文）</span><br>
+<span>      /Season 01（文件夹，放的第几季就是Season几）</span><br>
+<span>            Ghost in the Shell Stand Alone Complex S01E01.mkv（视频文件名，“S01E01”必须有，表示第几季第几集）</span><br>
+<span>            ......</span><br>
+<span>      /Specials（文件夹，放ova/oad/剧场版/特典之类）</span><br>
+<span>            Ghost in the Shell Stand Alone Complex S00E01.mkv （视频文件名，“S00E01”表示第几个特典，特典就是“S00”，具体顺序对照thetvdb里的“Specials”）</span><br>
+<span>---</span><br>
+<span>日剧之类同理，加个“（1994）”的年份在文件夹名后面识别率更高。</span><br>
+<span>剩下就交给jellyfin的自带刮削器就行了，电视剧/动画选thetvdb，电影选就themoviedb，刮削的语言视你的剧种而定，鬼子卡通肯定选日语信息最全，储存方式勾选nfo和“将媒体图像保存到媒体所在文件夹”。</span><br>
+<span>然后jellyfin会自动刮削并补全诸如封面背景/单集标题/单集简介/内容简介/媒体评分/放送时间/媒体评分/演员信息等一系列你能想到或想不到的信息。</span><br>
+<span>你需要的工作只有对着thetvdb改英文名+建文件夹，thetvdb的数据现在很全，连当季新番都有，实在没有的卡通装个anidb的刮削器插件用anidb。</span><br>
+<img src="https://i.loli.net/2020/01/03/OwoLpaqHSuGxT2m.png" title="https://i.loli.net/2020/01/03/OwoLpaqHSuGxT2m.png"><br>
+</p><p><b>史莱姆KING: </b><br>
+<span>KyoaniButa 发表于 2020-1-3 17:21</span><br>
+<span>动画你就按照jellyfin文档里的方法建文件夹和文件名就行了。</span><br>
+<span>https://jellyfin.org/docs/general/server/ ...</span><br>
+<span>感谢！！！</span><br>
+<span>回去折腾折腾</span><br>
+</p><p><b>你的全家: </b><br>
+<span>NFS网络驱动器映射</span><br>
+<span>当成本地磁盘爱怎么搞怎么搞</span><br>
+<span>我甚至在上面装游戏？。。</span><br>
+<span>—— 来自 vivo NEX S, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>南宫月汐: </b><br>
+<span>借楼想请教下楼主，我看了你的帖子装了个n1做电视盒子，用kodi18.5播放hevc的某些视频会卡顿，比如澄空压的四月是你的谎言bd和vcb压的天才麻将少女，但是同样hevc的朝花夕拾就没有问题。</span><br>
+<span>另外我是用usb2.0接硬盘播放的，但应该跟读取速度无关，因为vcb那个天麻全国篇一集才700m</span><br>
+<span>家里刚装修好，还没通网，还想问下接了网之后怎么读取我电脑里视频，先在电脑上共享文件夹后怎么从n1里找到呢？</span><br>
+<span>谢谢楼主了</span><br>
+<span>—— 来自 OnePlus GM1910, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>luguozmy: </b><br>
+<span>楼主的需求跟我是一样的。我感觉应该只能自己动手写一个程序了</span><br>
+<span>- 可以像emby plex一样以媒体库方式显示内容</span><br>
+<span>- 打开媒体时可以选用自定义的本地媒体播放器</span><br>
+<span>还有什么需求吗？</span><br>
+<span>— from HMD Global TA-1052, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1822616[0-50]</guid>
+    </item>
+  </channel>
+</rss>

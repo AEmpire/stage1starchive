@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>不懂CSS，求大家看看这段代码为什么不生效？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>不懂CSS，求大家看看这段代码为什么不生效？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:38:19 +0000</lastBuildDate>
+    <item>
+      <title>不懂CSS，求大家看看这段代码为什么不生效？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910414-1-1.html</link>
+      <description>不懂CSS，求大家看看这段代码为什么不生效？&#13;
+搞了个改善字体渲染和替换字体的stylish脚本，里面有段代码，注释说可以避免某些使用符号字体的图标、按钮因为字体替换后没有字符而显示方框。
+&#13;
+:not():not():not():not():not(i) { /*使修改字体不会应用于部分特殊字符符号和图标以及按钮等网页元素,完美解决字符集不全导致图标,按钮变方块的问题.*/但实际使用时这段代码并不起作用，比如NGA发帖界面的几个功能按钮，替换字体后就全变成方框了。
+&#13;
+替换前：
+&#13;
+http://tvax1.sinaimg.cn/large/88599b43gy1gb5jdq1d7hj20fx019mx2.jpg
+&#13;
+替换后：
+&#13;
+http://tvax3.sinaimg.cn/large/88599b43gy1gb5jdn95zgj20eu013dfo.jpg
+&#13;
+上面那段代码有什么办法修改后解决这个问题吗？以下是完整代码
+&#13;
+/*&gt;&gt;&gt;强制修改网页字体&lt;&lt;&lt;*/
+&#13;
+/*该代码运行于CHROME_v72 &amp; FIREFOX_v65 的STYLUS_v1.5.2扩展之上*/
+&#13;
+/*很多网页用浏览器的设置字体功能无法生效,而这个CSS可以解决这些问题.*/
+&#13;
+&lt;b&gt;:not():not():not():not():not(i) { /*使修改字体不会应用于部分特殊字符符号和图标以及按钮等网页元素,完美解决字符集不全导致图标,按钮变方块的问题.*/&lt;/b&gt;
+&#13;
+    /*font-weight: 500!important; /*字体粗细,整百数字*/
+&#13;
+    font-family: "Sarasa Gothic" !important;   /*字体设置,可分别设置中英文,前面英文字体,后面中文字体*/
+&#13;
+    /*color: #8b8b8b00 !important;    /*更改字体颜色及透明度(注意:这是全局修改),如无需要,可直接注释掉整行代码.*/
+&#13;
+    text-shadow: 0.01em 0.01em 0.01em #000 !important;   /*更改字体阴影及透明度,可修改数值实现不同的效果.*/
+&#13;
+    /*十六进制颜色代码前的方块可点击,用可视化UI更改颜色与透明度.*/
+&#13;
+}
+&#13;
+body {
+&#13;
+    -webkit-text-stroke-width: 0.24px;
+&#13;
+    text-shadow: 0 0 rgba(128, 128, 128, 0.2);
+&#13;
+    /* text-rendering: geometricPrecision; */
+&#13;
+}</description>
+      <content:encoded><![CDATA[<p><b>马僧虔: </b><br>
+<span>不懂CSS，求大家看看这段代码为什么不生效？</span><br>
+<span>搞了个改善字体渲染和替换字体的stylish脚本，里面有段代码，注释说可以避免某些使用符号字体的图标、按钮因为字体替换后没有字符而显示方框。</span><br>
+<span>:not():not():not():not():not(i) { /*使修改字体不会应用于部分特殊字符符号和图标以及按钮等网页元素,完美解决字符集不全导致图标,按钮变方块的问题.*/但实际使用时这段代码并不起作用，比如NGA发帖界面的几个功能按钮，替换字体后就全变成方框了。</span><br>
+<span>替换前：</span><br>
+<img src="http://tvax1.sinaimg.cn/large/88599b43gy1gb5jdq1d7hj20fx019mx2.jpg" title="http://tvax1.sinaimg.cn/large/88599b43gy1gb5jdq1d7hj20fx019mx2.jpg"><br>
+<span>替换后：</span><br>
+<img src="http://tvax3.sinaimg.cn/large/88599b43gy1gb5jdn95zgj20eu013dfo.jpg" title="http://tvax3.sinaimg.cn/large/88599b43gy1gb5jdn95zgj20eu013dfo.jpg"><br>
+<span>上面那段代码有什么办法修改后解决这个问题吗？以下是完整代码</span><br>
+<span>/*>>>强制修改网页字体<<<*/</span><br>
+<span>/*该代码运行于CHROME_v72 & FIREFOX_v65 的STYLUS_v1.5.2扩展之上*/</span><br>
+<span>/*很多网页用浏览器的设置字体功能无法生效,而这个CSS可以解决这些问题.*/</span><br>
+<span><b>:not():not():not():not():not(i) { /*使修改字体不会应用于部分特殊字符符号和图标以及按钮等网页元素,完美解决字符集不全导致图标,按钮变方块的问题.*/</b></span><br>
+<span>    /*font-weight: 500!important; /*字体粗细,整百数字*/</span><br>
+<span>    font-family: "Sarasa Gothic" !important;   /*字体设置,可分别设置中英文,前面英文字体,后面中文字体*/</span><br>
+<span>    /*color: #8b8b8b00 !important;    /*更改字体颜色及透明度(注意:这是全局修改),如无需要,可直接注释掉整行代码.*/</span><br>
+<span>    text-shadow: 0.01em 0.01em 0.01em #000 !important;   /*更改字体阴影及透明度,可修改数值实现不同的效果.*/</span><br>
+<span>    /*十六进制颜色代码前的方块可点击,用可视化UI更改颜色与透明度.*/</span><br>
+<span>}</span><br>
+<span>body {</span><br>
+<span>    -webkit-text-stroke-width: 0.24px;</span><br>
+<span>    text-shadow: 0 0 rgba(128, 128, 128, 0.2);</span><br>
+<span>    /* text-rendering: geometricPrecision; */</span><br>
+<span>}</span><br>
+</p><p><b>Rosetta: </b><br>
+<span>先去看nga的圖標是什麼html tag 什麼class 什麼字體.</span><br>
+<span>自己寫對應的排除選擇器添到代碼里.</span><br>
+</p><p><b>马僧虔: </b><br>
+<span> 本帖最后由 马僧虔 于 2020-1-22 19:54 编辑 </span><br>
+<span>Rosetta 发表于 2020-1-22 19:15</span><br>
+<span>先去看nga的圖標是什麼html tag 什麼class 什麼字體.</span><br>
+<span>自己寫對應的排除選擇器添到代碼里. ...</span><br>
+<span>我不懂什么是html tag、什么是class……</span><br>
+<span>那个按钮的代码貌似是这样的</span><br>
+<span><button title="插入表情" type="button" style="padding: 0px; float: left;"></span><br>
+<span><span style="font-size: 1.15em;"></span><br>
+<span>    "&nbsp;"</span><br>
+<span>    <span style="font-family: comm_glyphs; -webkit-font-smoothing: antialiased; line-height: 1em;"></span></span><br>
+<span>    "&nbsp;"</span><br>
+<span></span></span><br>
+<span></button></span><br>
+</p><p><b>天堂12: </b><br>
+<span> 本帖最后由 天堂12 于 2020-1-22 20:05 编辑 </span><br>
+<span>不懂stylish，但用Chrome看了一下原网页，应该是font-family属性有问题，或许可以尝试一下把：</span><br>
+<span>“font-family: "Sarasa Gothic" !important;   /*字体设置,可分别设置中英文,前面英文字体,后面中文字体*/”删了？或者把这句中的font-family属性，也就是"Sarasa Gothic" !important;改为comm_glyphs;</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>天堂12 发表于 2020-1-22 20:02</span><br>
+<span>不懂stylish，但用Chrome看了一下原网页，应该是font-family属性有问题，或许可以尝试一下把：</span><br>
+<span>“font-fami ...</span><br>
+<span>但这一句就是用来替换字体的啊，就算不用Sarasa Gothic也会替换成微软雅黑之类的……</span><br>
+<span>真要说的话直接把这句注释掉那按钮之类的自然就没有问题了，但有些死抱着宋体不放的网站就又丑回去了</span><br>
+</p><p><b>startdl: </b><br>
+<span>:not():not():not():not():not(i).c2:not(span) {</span><br>
+<span>    font-family: "Sarasa Gothic" !important;</span><br>
+<span>    text-shadow: 0.01em 0.01em 0.01em #000 !important;</span><br>
+<span>}</span><br>
+<span>nga发帖页面的变方框的是span元素，在你代码后面加了这个元素.c2:not(span)</span><br>
+</p><p><b>马台街48: </b><br>
+<span>人家网站服务端压根没你声明的这个字体的文件，你引用了当然显示方框了，字体这种东西数量无限多的，服务器上指不定跑的是win2003还是Linux，怎么可能你随便声明一个艺术字体正好他就有，除非是微软雅黑这种非常流行的几乎所有终端都带了的</span><br>
+</p><p><b>天堂12: </b><br>
+<span> 本帖最后由 天堂12 于 2020-1-22 20:40 编辑 </span><br>
+<span>马僧虔 发表于 2020-1-22 20:09</span><br>
+<span>但这一句就是用来替换字体的啊，就算不用Sarasa Gothic也会替换成微软雅黑之类的……</span><br>
+<span>真要说的话直接把这 ...</span><br>
+<span>还是6L的思维更好。</span><br>
+</p><p><b>马僧虔: </b><br>
+<span> 本帖最后由 马僧虔 于 2020-1-22 20:44 编辑 </span><br>
+<span>startdl 发表于 2020-1-22 20:32</span><br>
+<span>:not():not():not():not():not(i).c2:not(span)...</span><br>
+<span>牛逼啊，好像真是这样！</span><br>
+<span>不过那个.c2是做什么的？我发现不写.c2的话其他字体会被替换，而按钮之类的正常（我的期望效果），但写了.c2的话按钮虽然正常了，但其他字体也都不替换了……</span><br>
+</p><p><b>马僧虔: </b><br>
+<span>马台街48 发表于 2020-1-22 20:34</span><br>
+<span>人家网站服务端压根没你声明的这个字体的文件，你引用了当然显示方框了，字体这种东西数量无限多的，服务器 ...</span><br>
+<span>默认就是微软雅黑，一样框框……这个字体是我随便换的，不要在意</span><br>
+</p><p><b>startdl: </b><br>
+<span> 本帖最后由 startdl 于 2020-1-22 20:48 编辑 </span><br>
+<span>马僧虔 发表于 2020-1-22 20:41</span><br>
+<span>牛逼啊，好像真是这样！</span><br>
+<span>不过那个.c2是做什么的？我发现不写.c2的话其他字体会被替换，而按钮之类的正常 ...</span><br>
+<span>变成方块的原因是你的这一堆:not选择器没匹配到nga发帖页面的那几个按钮，然后这几个span也没写个class，不好精准选择到，只能从更上级元素来选择。</span><br>
+<span>.c2是包含了整个这一列按钮的一个元素。.c2:not(span) 这一条语句意思是 选择类名为.c2元素下面不是span的元素。不写.c2只写:not(span)的话会选择网页上所有span元素，这时候问题就大了。</span><br>
+</p><p><b>马僧虔: </b><br>
+<span> 本帖最后由 马僧虔 于 2020-1-22 20:53 编辑 </span><br>
+<span>startdl 发表于 2020-1-22 20:45</span><br>
+<span>变成方块的原因是你的这一堆:not选择器没匹配到nga发帖页面的那几个按钮，然后这几个span也没写个class， ...</span><br>
+<span>这就奇怪了，为什么写了.c2之后实际效果是所有元素，包括其他网站比如S1的字体都变成了没替换、甚至不被最下面那些代码渲染的效果呢……</span><br>
+</p><p><b>startdl: </b><br>
+<span> 本帖最后由 startdl 于 2020-1-22 21:12 编辑 </span><br>
+<span>马僧虔 发表于 2020-1-22 20:52</span><br>
+<span>这就奇怪了，为什么写了.c2之后实际效果是所有元素，包括其他网站比如S1的字体都变成了没替换、甚至不被最 ...</span><br>
+<span>因为span元素用的少呗。大多数培训班出来的前端只会用div，table这种标签来写页面，很少会用span,ul,li,dt等等语义化的标签。</span><br>
+<span>我们来分析下你要做的事情再分析下你的代码。</span><br>
+<span>你想替换字体来让网站显示你电脑上的微软雅黑字体，这种需求一般只需要写 body { font-family: "微软雅黑" !important!} 就搞定了。body是整个浏览器渲染好的可见内容， !important的意思是强制，优先级最高。</span><br>
+<span>然后这样替换掉字体的话，某些图标和按钮上的图标会变成方块，因为微软雅黑字体库中并没有这些图标。</span><br>
+<span>所以才不用body { font-family: "微软雅黑" !important!} 而使用 除了特定几个元素之外的所有元素使用微软雅黑的写法，也就是 :not(class*=icon) { font-family: "微软雅黑" !important!} 什么的。</span><br>
+<span>所以才会出现刚才的一堆:not选择器的代码。因为nga的发帖页面编辑器上那些按钮没有匹配到刚刚那一堆:not中的任何一个，所以就被强制替换成了微软雅黑，就变成方块了。</span><br>
+<span>所以我顺着上级元素选择到了这些按钮并把它们加入到了.not选择器中，让他们不使用微软雅黑字体，而使用自己原来的字体。</span><br>
+<span>说的有点多，不知道有没有讲清楚</span><br>
+</p><p><b>马僧虔: </b><br>
+<span> 本帖最后由 马僧虔 于 2020-1-22 21:39 编辑 </span><br>
+<span>startdl 发表于 2020-1-22 21:09</span><br>
+<span>因为span元素用的少呗。大多数培训班出来的前端只会用div，table这种标签来写页面，很少会用span,ul,li,dt ...</span><br>
+<span>我觉得我没理解错，就是实际运作太不可预料了</span><br>
+<span>我的理解是这样：告诉浏览器，页面中[.c2下的span元素]（那几个特定按钮）不替换字体，除此之外的所有东西都替换字体</span><br>
+<span>但实际运行中，会变成：[.c2下的span元素]字体固然没有被替换，但除此之外的所有东西字体也都没有替换（？？？），而且后面的渲染代码也不执行，相当于整个脚本直接没有工作</span><br>
+<span>可如果直接写成 不替换字体，除此之外的所有东西都替换字体，那么脚本就会按照我的命令正常替换字体和渲染……</span><br>
+<span>========================</span><br>
+<span>多谢费心了，我刚刚发现这是chromium版Edge独有的问题在其他浏览器上测试了一下发现你的写法是正常工作的</span><br>
+</p><p><b>startdl: </b><br>
+<span> 本帖最后由 startdl 于 2020-1-22 22:08 编辑 </span><br>
+<span>马僧虔 发表于 2020-1-22 21:23</span><br>
+<span>我觉得我没理解错，就是实际运作太不可预料了</span><br>
+<span>我的理解是这样：告诉浏览器，页面中[.c2下的span元 ...</span><br>
+<span>.c2:not(span) 这个选择器的锅</span><br>
+<span>改成这样吧</span><br>
+<span>.c2 > button:not(span)说到底还是nga的锅，没有给这些图标单独的class，如果像别的标签一样给个class就好选择了，比如font awesome字体库，他用起来是 <i class="fa fa-mail"></i> 这样，这个用:not排除就很简单了，:not(.fa)</span><br>
+</p><p><b>KaneL: </b><br>
+<span>startdl 发表于 2020-1-22 20:32</span><br>
+<span>:not():not():not():not():not(i).c2:not(span)...</span><br>
+<span>恨不能加鹅，又学习了CSS伪类的新用法了</span><br>
+</p><p><b>marxel: </b><br>
+<span>KaneL 发表于 2020-1-23 00:13</span><br>
+<span>恨不能加鹅，又学习了CSS伪类的新用法了</span><br>
+<span>替你加了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910414[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>U盘安装Win10问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>U盘安装Win10问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:07:56 +0000</lastBuildDate>
+    <item>
+      <title>U盘安装Win10问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1845710-1-1.html</link>
+      <description>U盘安装Win10问题&#13;
+ 本帖最后由 Rufus.X 于 2019-7-10 19:24 编辑 
+
+新装的机器，用U盘安装Win10时进入安装界面后蓝屏，有人遇到过吗？
+&#13;
+显示错误Kernel_Security_check_Failure，或者是Driver_IRQL_NOT_LESS_OR_EQUAL，或者其他各种代码，几乎每次都不同
+&#13;
+Win10是用的msdn.itellyou下载的business_edition_version_1903_updated_june_2019_x64_dvd_830837d9
+&#13;
+安装文件是iso装载后直接拷到u盘里的，是不是要用微软的MediaCreationTool来制作？</description>
+      <content:encoded><![CDATA[<p><b>Rufus.X: </b><br>
+<span>U盘安装Win10问题</span><br>
+<span> 本帖最后由 Rufus.X 于 2019-7-10 19:24 编辑 </span><br>
+<span>新装的机器，用U盘安装Win10时进入安装界面后蓝屏，有人遇到过吗？</span><br>
+<span>显示错误Kernel_Security_check_Failure，或者是Driver_IRQL_NOT_LESS_OR_EQUAL，或者其他各种代码，几乎每次都不同</span><br>
+<span>Win10是用的msdn.itellyou下载的business_edition_version_1903_updated_june_2019_x64_dvd_830837d9</span><br>
+<span>安装文件是iso装载后直接拷到u盘里的，是不是要用微软的MediaCreationTool来制作？</span><br>
+</p><p><b>violind88: </b><br>
+<span>用官方工具吧 反正也很快的 </span><br>
+</p><p><b>macos: </b><br>
+<span>核对一下校验码，另外可能内存</span><br>
+<span> 不过微软不是自己就提供下载地址吗，他自己提供的消费版iso和ity上不太相同</span><br>
+</p><p><b>Rufus.X: </b><br>
+<span>violind88 发表于 2019-7-10 19:25</span><br>
+<span>用官方工具吧 反正也很快的</span><br>
+<span>正在用MediaCreationTool做启动盘</span><br>
+<span>这个没法选WIn10版本的吗？</span><br>
+</p><p><b>violind88: </b><br>
+<span>Rufus.X 发表于 2019-7-10 19:29</span><br>
+<span>正在用MediaCreationTool做启动盘</span><br>
+<span>这个没法选WIn10版本的吗？</span><br>
+<span>装之前让你选的不是 如果你是说补丁版本 默认最新的 1903</span><br>
+</p><p><b>boyguyue: </b><br>
+<span>rufus，请</span><br>
+</p><p><b>cybernetics31: </b><br>
+<span>rufus，真的，用过都说好</span><br>
+<span>-- 来自 能搜索的 Stage1官方 iOS客户端</span><br>
+</p><p><b>sirlion: </b><br>
+<span>intel教你装win7都只用rufus</span><br>
+</p><p><b>obiy: </b><br>
+<span>微软的官方工具总是在下好后写入u盘的一步出问题</span><br>
+<span>直接用rufus拷了</span><br>
+</p><p><b>处男鉴黄师: </b><br>
+<span>Rufus</span><br>
+<span>universal USB installer </span><br>
+</p><p><b>Realplayer: </b><br>
+<span>PE安装install.wim</span><br>
+</p><p><b>两个路人: </b><br>
+<span>看LZ的ID，不是很讽刺嘛（摊手</span><br>
+</p><p><b>RPG-7: </b><br>
+<span>win10不是直接解压进去就行的吗？</span><br>
+</p><p><b>Rufus.X: </b><br>
+<span>拔了一根条子就正常了，不管是MediaCreationTool还是自己拷的都可以正常安装了</span><br>
+<span>装好系统后两条交换下位置，目前没问题了</span><br>
+</p><p><b>Rufus.X: </b><br>
+<span>两个路人 发表于 2019-7-11 00:05</span><br>
+<span>看LZ的ID，不是很讽刺嘛（摊手</span><br>
+<span>距离上次装电脑还是9年前</span><br>
+<span>脱节于时代太久了～唉 </span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1845710[0-50]</guid>
+    </item>
+  </channel>
+</rss>

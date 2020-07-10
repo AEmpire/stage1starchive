@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>A股定投似乎收益还不如单次买入？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>A股定投似乎收益还不如单次买入？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:59:29 +0000</lastBuildDate>
+    <item>
+      <title>A股定投似乎收益还不如单次买入？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1837469-1-1.html</link>
+      <description>A股定投似乎收益还不如单次买入？&#13;
+用沪深300的历史数据算了下 每20个交易日定投 将总资金平分3期和12期买入的收益情况（简化处理，一个月按20交易日，一年按240交易日， 无风险收益率按年化4%计算） 似乎夏普比率还不如一次买入 ？
+&#13;
+#定义夏普比率函数
+&#13;
+def sharp(x, rf):
+&#13;
+        return (np.mean(x)-rf)/np.std(x)
+&#13;
+hs300 = pd.read_csv('hs300.csv', parse_dates=['date'], index_col=['date'])
+&#13;
+close = hs300['close']
+&#13;
+changes = pd.DataFrame({'change_'+str(20*k):close.pct_change(20*k) for k in range(1,13)})
+&#13;
+#一次买入，持有60/240个交易日收益情况
+&#13;
+r3=changes['change_60']
+&#13;
+r12 = changes['change_240']
+&#13;
+#定投3期， 到第60个交易日时的收益情况
+&#13;
+rdt3 = changes.iloc[:,:3].sum(axis=1, min_count=3)/3
+&#13;
+#定投12期， 到第240个交易日时的收益情况
+&#13;
+rdt12 = changes.sum(axis=1, min_count=12)/12
+&#13;
+sharp(r3, 0.04/240*60)
+&#13;
+sharp(rdt3, 0.04/240*60)
+&#13;
+sharp(r12, 0.04)
+&#13;
+sharp(rdt12, 0.04)
+&#13;
+计算出来的结果是 
+&#13;
+3期定投的夏普比率为0.134 单次买入持有3月则为0.173
+&#13;
+12期为 0.210 单次买入持有一年则为0.287
+&#13;
+看了下 似乎定投和单次买入相比， 标准差变小了， 均值也变小了， 夏普比率也变小了
+&#13;
+是我代码写错了 还是实际如此？</description>
+      <content:encoded><![CDATA[<p><b>fengmenglong: </b><br>
+<span>A股定投似乎收益还不如单次买入？</span><br>
+<span>用沪深300的历史数据算了下 每20个交易日定投 将总资金平分3期和12期买入的收益情况（简化处理，一个月按20交易日，一年按240交易日， 无风险收益率按年化4%计算） 似乎夏普比率还不如一次买入 ？</span><br>
+<span>#定义夏普比率函数</span><br>
+<span>def sharp(x, rf):</span><br>
+<span>        return (np.mean(x)-rf)/np.std(x)</span><br>
+<span>hs300 = pd.read_csv('hs300.csv', parse_dates=['date'], index_col=['date'])</span><br>
+<span>close = hs300['close']</span><br>
+<span>changes = pd.DataFrame({'change_'+str(20*k):close.pct_change(20*k) for k in range(1,13)})</span><br>
+<span>#一次买入，持有60/240个交易日收益情况</span><br>
+<span>r3=changes['change_60']</span><br>
+<span>r12 = changes['change_240']</span><br>
+<span>#定投3期， 到第60个交易日时的收益情况</span><br>
+<span>rdt3 = changes.iloc[:,:3].sum(axis=1, min_count=3)/3</span><br>
+<span>#定投12期， 到第240个交易日时的收益情况</span><br>
+<span>rdt12 = changes.sum(axis=1, min_count=12)/12</span><br>
+<span>sharp(r3, 0.04/240*60)</span><br>
+<span>sharp(rdt3, 0.04/240*60)</span><br>
+<span>sharp(r12, 0.04)</span><br>
+<span>sharp(rdt12, 0.04)</span><br>
+<span>计算出来的结果是 </span><br>
+<span>3期定投的夏普比率为0.134 单次买入持有3月则为0.173</span><br>
+<span>12期为 0.210 单次买入持有一年则为0.287</span><br>
+<span>看了下 似乎定投和单次买入相比， 标准差变小了， 均值也变小了， 夏普比率也变小了</span><br>
+<span>是我代码写错了 还是实际如此？</span><br>
+</p><p><b>wolfwood: </b><br>
+<span>定投本来就是卖方忽悠人的</span><br>
+<span>—— 来自 HUAWEI ALP-AL00, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>drodchang: </b><br>
+<span>定投作用是减小风险而已</span><br>
+</p><p><b>自伴算子: </b><br>
+<span>因为今年前几个月a股暴涨？</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>自伴算子 发表于 2019-6-6 18:08</span><br>
+<span>因为今年前几个月a股暴涨？</span><br>
+<span>用的是2005年4月到今年5月底的日k数据</span><br>
+</p><p><b>dmoodedy: </b><br>
+<span>定投不是说都不算一整个投资方式，只能算一半，只是建仓方式？</span><br>
+</p><p><b>goranger: </b><br>
+<span>定投一个很关键的就是卖出时机，就是要定投投到出现大牛市指数翻倍呀</span><br>
+</p><p><b>Vega2017: </b><br>
+<span>定投赚钱的是那些写书教你定投的人</span><br>
+</p><p><b>斯达克篮: </b><br>
+<span>你这个回测没有设计卖出条件，可以改良下策略比如pe20以下触发买入条件买入cd 20个交易日，资金分为50份。这些参数可调。卖出条件设计为pe40以上，卖出cd10个交易日。参数可调。</span><br>
+</p><p><b>斯达克篮: </b><br>
+<span>a股主要优势在于波动率，hs300十年涨幅不知道翻倍有没有，但最高点最低点相差3、4倍还是有的。</span><br>
+</p><p><b>shkillone1: </b><br>
+<span>05年4-6月是底部，12期240天，直接进入06年开始的牛市</span><br>
+<span>你再从07年的10月6124点开始算呢，1年后钱只剩4分之一</span><br>
+<span>定投用来降低风险，同样回报也会变小</span><br>
+</p><p><b>S1APP君: </b><br>
+<span>定投是最佳的话是个人就能挣钱了</span><br>
+<span>-- 来自 有消息提醒的 Stage1官方 iOS客户端</span><br>
+</p><p><b>cavalierc: </b><br>
+<span>定投只是个策略而已。虽然没有完美的策略，但你这策略也太简陋了</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>cavalierc 发表于 2019-6-6 18:39</span><br>
+<span>定投只是个策略而已。虽然没有完美的策略，但你这策略也太简陋了</span><br>
+<span>我没做啥策略 也不是回测 只是单纯做了下最简单的统计而已</span><br>
+<span>都说止盈最重要 可哪那么容易止盈的</span><br>
+</p><p><b>毅转身: </b><br>
+<span>忘了在哪里看过一个统计，长期持股在a股几乎不能赚钱，最容易赚钱的是中期持股啥的</span><br>
+</p><p><b>fengmenglong: </b><br>
+<span>shkillone1 发表于 2019-6-6 18:36</span><br>
+<span>05年4-6月是底部，12期240天，直接进入06年开始的牛市</span><br>
+<span>你再从07年的10月6124点开始算呢，1年后钱只剩4分之 ...</span><br>
+<span>代码里计算的是每隔20日的定投平均收益情况 每天都可能是买入日 只是间隔固定是20而已</span><br>
+<span>至于为啥从2005年4月开始 因为沪深300指数好像就那个时候才有的吧</span><br>
+</p><p><b>3Psm: </b><br>
+<span>只买不卖等于买纸。</span><br>
+<span>说来说去就是如何把一张纸卖出好价钱：（</span><br>
+</p><p><b>difeltion: </b><br>
+<span>现代版刻舟求剑?</span><br>
+<span>—— 来自 meizu 16s, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>Haoaudio: </b><br>
+<span>用那些定投计算器算了下，50指数基金定投05年到现在大概年化3.6%，沪深300肯定不如50</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1837469[0-50]</guid>
+    </item>
+  </channel>
+</rss>

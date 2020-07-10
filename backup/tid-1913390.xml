@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>系统服务中找不到Windows Update？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>系统服务中找不到Windows Update？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:15:31 +0000</lastBuildDate>
+    <item>
+      <title>系统服务中找不到Windows Update？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1913390-1-1.html</link>
+      <description>系统服务中找不到Windows Update？&#13;
+如题，如果不是Battleye装不上，我一点都不想升级系统
+&#13;
+家里的台式机，大概半年开一次的。放假回来以后Battleye就出现问题，怀疑是系统版本不够新（1803企业版）
+&#13;
+遂打算更新，关掉wpd以后点开更新，提示0x80070424
+&#13;
+上网百度了一下说是Software Protection服务可能消失了，就去确认了一下，发现还在
+&#13;
+但是Windows Update不见了
+&#13;
+所以现在要怎么处理好？</description>
+      <content:encoded><![CDATA[<p><b>Diabolosis: </b><br>
+<span>系统服务中找不到Windows Update？</span><br>
+<span>如题，如果不是Battleye装不上，我一点都不想升级系统</span><br>
+<span>家里的台式机，大概半年开一次的。放假回来以后Battleye就出现问题，怀疑是系统版本不够新（1803企业版）</span><br>
+<span>遂打算更新，关掉wpd以后点开更新，提示0x80070424</span><br>
+<span>上网百度了一下说是Software Protection服务可能消失了，就去确认了一下，发现还在</span><br>
+<span>但是Windows Update不见了</span><br>
+<span>所以现在要怎么处理好？</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>补充一下，激活方式是HWIDGen</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>yourSwaTer: </b><br>
+<span>下个系统镜像直接升级试试？我前几天也就是这样解决的。自带商店打不开，设置里面的系统更新没速度，最后拖了个镜像直接升级。一开始卡0%，等了有一会才开始装。</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>yourSwaTer 发表于 2020-2-12 01:51</span><br>
+<span>下个系统镜像直接升级试试？我前几天也就是这样解决的。自带商店打不开，设置里面的系统更新没速度，最后拖 ...</span><br>
+<span>怎么操作？重装么</span><br>
+</p><p><b>真草稚京: </b><br>
+<span>Diabolosis 发表于 2020-2-12 02:14</span><br>
+<span>怎么操作？重装么</span><br>
+<span>下载新版的镜像iso   </span><br>
+<span>解压</span><br>
+<span>运行解压文件夹里的setup</span><br>
+<span>根据提示下一步</span><br>
+<span>记得要选保存数据</span><br>
+<span>完</span><br>
+</p><p><b>Diabolosis: </b><br>
+<span>真草稚京 发表于 2020-2-12 02:28</span><br>
+<span>下载新版的镜像iso   </span><br>
+<span>解压</span><br>
+<span>搜了下会有windows.old，直接删除就行了么</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 v2.0.4</span><br>
+</p><p><b>starrin: </b><br>
+<span>Diabolosis 发表于 2020-2-12 09:21</span><br>
+<span>搜了下会有windows.old，直接删除就行了么</span><br>
+<span>—— 来自 samsung SM-G9300, Android 8.0.0上的 S1Next-鹅版 ...</span><br>
+<span>windows.old不能直接删，要通过磁盘空间清理工具删掉</span><br>
+<span>—— 来自 HUAWEI LIO-AN00, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1913390[0-50]</guid>
+    </item>
+  </channel>
+</rss>

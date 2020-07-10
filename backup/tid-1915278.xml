@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:01:00 +0000</lastBuildDate>
+    <item>
+      <title>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1915278-1-1.html</link>
+      <description>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?&#13;
+P8内置存储空间不够了,还有比较省心文件夹重定向软件么?
+&#13;
+16GB,的确太紧张了
+&#13;
+最近用来给小孩看点资料,放放教学视频啥的.
+&#13;
+一会会就容易满
+&#13;
+每次都要手工操作一下,把QQ接收文件夹移动到TF卡里
+&#13;
+有没有软件,可以直接把QQ的几个文件夹重定向到TF卡
+&#13;
+设备已root</description>
+      <content:encoded><![CDATA[<p><b>zmw_831110: </b><br>
+<span>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?</span><br>
+<span>P8内置存储空间不够了,还有比较省心文件夹重定向软件么?</span><br>
+<span>16GB,的确太紧张了</span><br>
+<span>最近用来给小孩看点资料,放放教学视频啥的.</span><br>
+<span>一会会就容易满</span><br>
+<span>每次都要手工操作一下,把QQ接收文件夹移动到TF卡里</span><br>
+<span>有没有软件,可以直接把QQ的几个文件夹重定向到TF卡</span><br>
+<span>设备已root</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>继续经典的App2SD吧？</span><br>
+<span>SD卡加一个ext4分区，把响应要求不高的应用全link到卡上。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>fishmanzero 发表于 2020-2-23 14:01</span><br>
+<span>继续经典的App2SD吧？</span><br>
+<span>SD卡加一个ext4分区，把响应要求不高的应用全link到卡上。 ...</span><br>
+<span>没有单独重定向文件夹的呢？当时就是觉得还要格卡，所以才没用app2sd</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>fishmanzero: </b><br>
+<span>zmw_831110 发表于 2020-2-23 14:06</span><br>
+<span>没有单独重定向文件夹的呢？当时就是觉得还要格卡，所以才没用app2sd</span><br>
+<span>—— 来自 HMD Global Nokia 7 plu ...</span><br>
+<span>理论上不太行的，SD卡只有exfat或者fat32分区的情况不能链接/data 分区的东西，因为需要支持linux权限。</span><br>
+<span>不格卡只能尽量不存东西进内置存储，另外不知道P8系统有没有应用安装位置的选项可用？</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>fishmanzero 发表于 2020-2-23 14:13</span><br>
+<span>理论上不太行的，SD卡只有exfat或者fat32分区的情况不能链接/data 分区的东西，因为需要支持linux权限。</span><br>
+<span> ...</span><br>
+<span>没有应用安装位置的选项</span><br>
+<span>我这台用于学习的P8,还是安卓6.0的</span><br>
+<span>那么我试一试app2sd吧</span><br>
+<span>刚才试了一下"AppMgr Pro III"</span><br>
+<span>真是个挂羊头卖狗肉的玩意,居然还提醒我,格式外置卡为内置存储.</span><br>
+<span>如果我这样操作了,我还要你干嘛我不就怕,TF卡格式化成内置存储,大概率坏卡,系统挂掉么...</span><br>
+</p><p><b>UGDJ: </b><br>
+<span>我现在用tasker自动移动qq接收的文件。不过情况不同的是，我既不是机身存储不够用，也没插tf卡，另外tasker是注册版不知免费的行不行。</span><br>
+<img src="https://i.ibb.co/MCyMDZb/Screenshot-20200223-143152.jpg" title="https://i.ibb.co/MCyMDZb/Screenshot-20200223-143152.jpg"><br>
+</p><p><b>fishmanzero: </b><br>
+<span>zmw_831110 发表于 2020-2-23 14:26</span><br>
+<span>没有应用安装位置的选项</span><br>
+<span>我这台用于学习的P8,还是安卓6.0的</span><br>
+<span>那么我试一试app2sd吧</span><br>
+<span>合并sd卡和data有这么危险吗，记得是标准Android功能来的。</span><br>
+<span>以前Galaxy S坏了内置的时候还没这操作，只能自己改内核，也是在启动前就把sd卡的ext分区挂载成整个data，顶了很久…</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-2-23 21:59 编辑 </span><br>
+<span>fishmanzero 发表于 2020-2-23 14:43</span><br>
+<span>合并sd卡和data有这么危险吗，记得是标准Android功能来的。</span><br>
+<span>以前Galaxy S坏了内置的时候还没这操作，只能 ...</span><br>
+<span>有，频繁写sd卡，挂卡概率极高，参考行车记录仪，而且还是频繁零碎文件读写，挺伤的，当时做了内置的，有不少人发帖说卡挂了，顺带连系统也一锅端了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-2-23 15:49 编辑 </span><br>
+<span>@fishmanzero </span><br>
+<span>PC上用傲梅分区助手,把TF卡,无损分离了13GB容量,然后格了一个EXT4分区(TF卡变成了第一个FAT32分区,第二个EXT4分区)</span><br>
+<span>最后用APP2SD,解决问题了</span><br>
+<span>感谢</span><br>
+<span>光QQ移动内部存储的数据和缓存就有1GB多了就是ES浏览器版本好像太久了,无法自动识别出EXT分区...</span><br>
+<span>顺便问一下,这个EXT分区的路径是啥?之前一晃而过,忘记记下来了...</span><br>
+<span>PS:LINK2SD直接无法挂载出这个新格出来的EXT4分区,弃用</span><br>
+</p><p><b>datzz: </b><br>
+<span>dalao还在用p8</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>我以前用过系统自带的格式化为内置。卡倒是没坏，就是某次不小心弹出卡后数据全没了。</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span> 本帖最后由 zmw_831110 于 2020-2-23 21:57 编辑 </span><br>
+<span>datzz 发表于 2020-2-23 16:07</span><br>
+<span>dalao还在用p8</span><br>
+<span>当时第一个p8进水挂了去修，然后就又买了一个，一个p8看漫画自用，另一个现在给儿子听故事和看老师给的作业，ipadmini2彻底吃灰</span><br>
+<span>这2个p8色温还不同，一个偏暖舒服点，一个偏冷</span><br>
+<span>上暖下冷</span><br>
+<img src="https://p.sda1.dev/0/23bb2bb02deb928ba603eceabb900b2b/IMG_4200F2D001D47A1186578D9E30E8716C.jpeg" title="https://p.sda1.dev/0/23bb2bb02deb928ba603eceabb900b2b/IMG_4200F2D001D47A1186578D9E30E8716C.jpeg"><br>
+<span>上冷下暖(别问我为啥顺序不同，我当时拍的时候也忘记了)</span><br>
+<img src="https://p.sda1.dev/0/2d984d5a76486b6c592acfa399081faf/IMG_B35F96D41E29200767E3CC15163ED5D1.jpeg" title="https://p.sda1.dev/0/2d984d5a76486b6c592acfa399081faf/IMG_B35F96D41E29200767E3CC15163ED5D1.jpeg"><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>datzz: </b><br>
+<span> zmw_831110 发表于 2020-2-23 18:50 引用:datzz 发表于 2020-2-23 16:07 dalao还在用p8 当时第一个p8进水挂了去修，然后就又买了一个，一个p8看漫画自用，另一个现在给儿子听故事和看老师给的作业，ipadmini2彻底吃灰这2个p8色温还不同，一个偏暖舒服点，一个偏冷   —— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-al </span><br>
+<span>暖屏好啊，太素的屏幕看久了对鲜艳的色彩特别饥渴</span><br>
+<span>我的p8冷冽寡淡、m6又暗又脏，这时候才想起ipad的好</span><br>
+</p><p><b>zx071479: </b><br>
+<span>我记得当时有个软件叫foldermount?</span><br>
+<span>就是挂载文件夹用的。。</span><br>
+<span>—— 来自 samsung SM-G9350, Android 8.0.0上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>夜语: </b><br>
+<span>可以装supersu吗可以的话就FolderMount </span><br>
+<span>可以面具的话装fbind</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>夜语 发表于 2020-2-23 21:50</span><br>
+<span>可以装supersu吗可以的话就FolderMount </span><br>
+<span>可以面具的话装fbind</span><br>
+<span>是supersu root的，没用面具，反正板子不上微信</span><br>
+<span>谢谢，已经用app2sd缓解问题了，qq把data和缓存移动出去后，瞬间释放好多压力</span><br>
+<span>也谢谢楼上诸位了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>zmw_831110: </b><br>
+<span>datzz 发表于 2020-2-23 21:20</span><br>
+<span>暖屏好啊，太素的屏幕看久了对鲜艳的色彩特别饥渴</span><br>
+<span>我的p8冷冽寡淡、m6又暗又脏，这时候才想起ipad ...</span><br>
+<span>我两台里，冷色调的颜色鲜艳点，但看漫画绝逼暖的那个舒服。反正漫画专用机，黑白舒服就够了</span><br>
+<span>—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha</span><br>
+</p><p><b>datzz: </b><br>
+<span> zmw_831110 发表于 2020-2-23 21:55 引用:datzz 发表于 2020-2-23 21:20 暖屏好啊，太素的屏幕看久了对鲜艳的色彩特别饥渴 我的p8冷冽寡淡、m6又暗又脏，这时候才想起ipad ... 我两台里，冷色调的颜色鲜艳点，但看漫画绝逼暖的那个舒服。反正漫画专用机，黑白舒服就够了—— 来自 HMD Global Nokia 7 plus, Android 9上的 S1Next-鹅版 v2.2.1.1-alpha </span><br>
+<span>屏幕抽奖玄学了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1915278[0-50]</guid>
+    </item>
+  </channel>
+</rss>

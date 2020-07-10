@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>系统默认隐藏文件后缀名的前提下有办法快捷修改后缀名吗</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>系统默认隐藏文件后缀名的前提下有办法快捷修改后缀名吗</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:16:33 +0000</lastBuildDate>
+    <item>
+      <title>系统默认隐藏文件后缀名的前提下有办法快捷修改后缀名吗[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1844339-1-1.html</link>
+      <description>系统默认隐藏文件后缀名的前提下有办法快捷修改后缀名吗&#13;
+只知道能在文件夹选项里进行修改一般更喜欢隐藏后缀的排列   但如果有需要进行后缀修改的话就要反复打开文件夹选项进行勾选很繁琐
+&#13;
+于是有无快捷键可以迅速开关显示后缀名的亦或是有无什么软件可以通过诸如右键菜单或者属性界面等方式快速改后缀名的   
+&#13;
+总之球推荐些方法</description>
+      <content:encoded><![CDATA[<p><b>妹控使徒: </b><br>
+<span>系统默认隐藏文件后缀名的前提下有办法快捷修改后缀名吗</span><br>
+<span>只知道能在文件夹选项里进行修改一般更喜欢隐藏后缀的排列   但如果有需要进行后缀修改的话就要反复打开文件夹选项进行勾选很繁琐</span><br>
+<span>于是有无快捷键可以迅速开关显示后缀名的亦或是有无什么软件可以通过诸如右键菜单或者属性界面等方式快速改后缀名的   </span><br>
+<span>总之球推荐些方法</span><br>
+</p><p><b>HMHM: </b><br>
+<span>cmd?ren?</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>早先用拖把更名器，后来好像搞不定右键菜单了。换成菲菲，启动特慢界面还难看。不知国外有什么类似的。</span><br>
+</p><p><b>夜语: </b><br>
+<span>建个右键菜单指向vbs</span><br>
+<span>如图</span><br>
+<img src="https://i.loli.net/2019/07/05/5d1e2f27dfcaf48113.jpg" title="https://i.loli.net/2019/07/05/5d1e2f27dfcaf48113.jpg"><br>
+<span>具体命令</span><br>
+<span>Dim WSHShell</span><br>
+<span>Set WSHShell = WScript.CreateObject("WScript.Shell")</span><br>
+<span>sTitle1 = "SSH=0"</span><br>
+<span>sTitle2 = "SSH=1"</span><br>
+<span>if WshSHell.RegRead("HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt") = 0 then</span><br>
+<span>WshSHell.RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt", "1", "REG_DWORD"</span><br>
+<span>WshSHell.SendKeys "{F5}"</span><br>
+<span>else</span><br>
+<span>WshSHell.RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt", "0", "REG_DWORD"</span><br>
+<span>WshSHell.SendKeys "{F5}"</span><br>
+<span>end if</span><br>
+<span>Set WSHShell = Nothing</span><br>
+<span>WScript.Quit(0)</span><br>
+</p><p><b>妹控使徒: </b><br>
+<span>夜语 发表于 2019-7-5 00:54</span><br>
+<span>建个右键菜单指向vbs</span><br>
+<span>如图</span><br>
+<span>感谢了</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span> 本帖最后由 bonbonfox 于 2019-7-5 08:45 编辑 </span><br>
+<span>夜语 发表于 2019-7-5 00:54</span><br>
+<span>建个右键菜单指向vbs</span><br>
+<span>如图</span><br>
+<span>你好像很厉害的样子，能顺便帮我解答下困扰几年的疑问吗？</span><br>
+<span>win8.1下utorrent2.x下载下来的iso文件属性为api，这样双击打开直接报错，找了好久都没找到问题在哪儿，每次4，50g的原盘只能原地复制一下，复制的文件属性就只剩下ai了，p没了，然后双击打开正常，自动生成类似虚拟光盘驱动器，里面的文件随意打开播放。有什么办法能够简单去掉这个p属性呢？谢谢。。。</span><br>
+</p><p><b>君往何处: </b><br>
+<span>bonbonfox 发表于 2019-7-5 08:27</span><br>
+<span>你好像很厉害的样子，能顺便帮我解答下困扰几年的疑问吗？</span><br>
+<span>win8.1下utorrent2.x下载下来的iso文件属性为ap ...</span><br>
+<span>utorrent 的高级设置里， diskio.sparsefile 设成 false?</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span>君往何处 发表于 2019-7-5 08:50</span><br>
+<span>utorrent 的高级设置里， diskio.sparsefile 设成 false?</span><br>
+<span>应该不是，应该是那个p属性，还有其它什么乱七八糟的属性，普通人谁知道这些啊，不影响也就罢了，居然不能正常打开。之前我还以为下载出了问题，还是偶然发现重新复制能用的，sha1 md5 2个都是一样的，就是多了这么个P。。。</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>bonbonfox 发表于 2019-7-5 09:36</span><br>
+<span>应该不是，应该是那个p属性，还有其它什么乱七八糟的属性，普通人谁知道这些啊，不影响也就罢了，居然不 ...</span><br>
+<span>p属性就是sparse file属性</span><br>
+</p><p><b>typeunknown: </b><br>
+<span>cmd里attrib -p filename</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span>lwa190212 发表于 2019-7-5 09:42</span><br>
+<span>p属性就是sparse file属性</span><br>
+<span>哇，你们说的都是对的，测试了下真的没有p了，不可思议。。。</span><br>
+</p><p><b>bonbonfox: </b><br>
+<span>typeunknown 发表于 2019-7-5 09:44</span><br>
+<span>cmd里attrib -p filename</span><br>
+<span>这个以前碰到的时候也试过，不过提示 -p这里错误，当初找答案的时候好像说是新的属性，win8.1不支持，刚试了下也是不行。。。</span><br>
+</p><p><b>gnorz: </b><br>
+<span>WinRAR定位到文件夹。</span><br>
+</p><p><b>妹控使徒: </b><br>
+<span>夜语 发表于 2019-7-5 00:54</span><br>
+<span>建个右键菜单指向vbs</span><br>
+<span>如图</span><br>
+<span>最近才想起处理这事   然而实际使用这个代码的时候是无效的具体使用是提醒不是有效的win32程序    </span><br>
+<span>是否是因为这个代码只能运行于WIN10? 我是WIN7环境</span><br>
+<span>另外去找了这个批处理程序来解决问题   有兴趣的可以翻来看看代码的差异   核心的处理部分似乎有一定差异</span><br>
+<span>链接：https://pan.baidu.com/s/160BQQBnQQ6nA6XrDY5ffLA </span><br>
+<span>提取码：lwz8 </span><br>
+</p><p><b>404489039: </b><br>
+<span>所以为什么要隐藏后缀，新电脑肯定第一时间开起来。不然太别扭了</span><br>
+</p><p><b>EraserKing: </b><br>
+<span>win10顶上有个勾啊</span><br>
+<span>win7有一堆第三方工具</span><br>
+<span>— from Xiaomi MIX 2S, Android 9 of S1 Next Goose v2.1.0-play</span><br>
+</p><p><b>macos: </b><br>
+<span>win8以后，界面就有快速开关啊</span><br>
+</p><p><b>夜语: </b><br>
+<span>妹控使徒 发表于 2019-8-11 08:14</span><br>
+<span>最近才想起处理这事   然而实际使用这个代码的时候是无效的具体使用是提醒不是有效的win32程序    </span><br>
+<span>是 ...</span><br>
+<span>按理说不应该，我这是软媒工具里提取出来的，这工具应该是WIN7时火起来的吧。</span><br>
+<span>我刚WIN10手动运行了一下正常。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1844339[0-50]</guid>
+    </item>
+  </channel>
+</rss>

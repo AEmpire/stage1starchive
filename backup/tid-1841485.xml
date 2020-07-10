@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>win10老机器32g内存后面括号显示24g可用啥情况</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>win10老机器32g内存后面括号显示24g可用啥情况</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:34:46 +0000</lastBuildDate>
+    <item>
+      <title>win10老机器32g内存后面括号显示24g可用啥情况[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1841485-1-1.html</link>
+      <description>win10老机器32g内存后面括号显示24g可用啥情况&#13;
+fx8300+华擎970a主板，插了8gx4内存，ddr31600，adia64能测出4根插槽各8g内存，但是显示总内存24g，win10 1903属性里也显示32g内存，但后面跟一括号说24g可用，各位大大有知道咋回事的不，咋处理能满32g啊，查了主板支持到32g内存呢</description>
+      <content:encoded><![CDATA[<p><b>grantliu: </b><br>
+<span>win10老机器32g内存后面括号显示24g可用啥情况</span><br>
+<span>fx8300+华擎970a主板，插了8gx4内存，ddr31600，adia64能测出4根插槽各8g内存，但是显示总内存24g，win10 1903属性里也显示32g内存，但后面跟一括号说24g可用，各位大大有知道咋回事的不，咋处理能满32g啊，查了主板支持到32g内存呢</span><br>
+</p><p><b>grantliu: </b><br>
+<span>各位老哥有知道的不</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>http: </b><br>
+<span>1根不兼容？    四根互换下槽位看看</span><br>
+</p><p><b>風駿: </b><br>
+<span>有独显吗？</span><br>
+</p><p><b>grantliu: </b><br>
+<span>風駿 发表于 2019-6-22 20:59</span><br>
+<span>有独显吗？</span><br>
+<span>rx570独显</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>grantliu: </b><br>
+<span>http 发表于 2019-6-22 20:49</span><br>
+<span>1根不兼容？    四根互换下槽位看看</span><br>
+<span>不兼容不是应该测不出来或者点不亮么</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>bilibon: </b><br>
+<span>一根有问题，或者不兼容。。。插拔一下换插槽或者清灰啥的试试吧</span><br>
+</p><p><b>风中的铜铃: </b><br>
+<span>有一根不兼容，拔下换个位置重新插入，更新一下主板BIOS。</span><br>
+</p><p><b>linjia: </b><br>
+<span>今天发现wsl里也可以显示cpu和内存，虽然算虚拟机</span><br>
+<span>top - 22:40:40 up 1 day, 23:47,0 users,load average: 0.52, 0.58, 0.59</span><br>
+<span>任务:   8 total,   1 running,   7 sleeping,   0 stopped,   0 zombie</span><br>
+<span>%Cpu0:2.0 us,6.2 sy,0.0 ni, 90.2 id,0.0 wa,1.6 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu1:0.7 us,1.0 sy,0.0 ni, 97.7 id,0.0 wa,0.7 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu2:1.0 us,2.7 sy,0.0 ni, 96.3 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu3:2.0 us,5.7 sy,0.0 ni, 92.3 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu4:1.7 us,2.6 sy,0.0 ni, 95.7 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu5:0.0 us,2.7 sy,0.0 ni, 97.3 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu6:1.3 us,1.0 sy,0.0 ni, 97.7 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>%Cpu7:4.3 us,2.7 sy,0.0 ni, 93.0 id,0.0 wa,0.0 hi,0.0 si,0.0 st</span><br>
+<span>KiB Mem : 33419748 total, 27599588 free,5590808 used,   229352 buff/cache</span><br>
+<span>KiB Swap: 62430844 total, 62430844 free,      0 used. 27695208 avail Mem </span><br>
+</p><p><b>qwased: </b><br>
+<span>抠主板电池过一分钟再放回去试试</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>二丁目拓也: </b><br>
+<span>有一根内存接触不良</span><br>
+<span>能识别，但是不能用，老主板常见解决办法是反复插拔检查哪条出问题插到行为止</span><br>
+</p><p><b>sunyiren: </b><br>
+<span>插一根启动一次电脑即可</span><br>
+</p><p><b>sshnuke: </b><br>
+<span>linjia 发表于 2019-06-22 22:41:09</span><br>
+<span>今天发现wsl里也可以显示cpu和内存，虽然算虚拟机</span><br>
+<span>top - 22:40:40 up 1 day, 23:47,0 users,load aver ...wsl才不是虚拟机呢 而是一个微内核 跟win内核是平级的了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端</span><br>
+</p><p><b>grantliu: </b><br>
+<span>今天上班试试看</span><br>
+<span>—— 来自 OnePlus ONEPLUS A6010, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>macos: </b><br>
+<span>硬件保留，主板引起，查说明</span><br>
+</p><p><b>__爱撕衣: </b><br>
+<span>sshnuke 发表于 2019-6-23 00:22</span><br>
+<span>wsl才不是虚拟机呢 而是一个微内核 跟win内核是平级的了</span><br>
+<span>-- 来自 能搜索的 Stage1官方 Android客户端 ...</span><br>
+<span>wsl是子系统，跟win32平级，底层是WinNT内核</span><br>
+</p><p><b>sshnuke: </b><br>
+<span>__爱撕衣 发表于 2019-6-23 22:09</span><br>
+<span>wsl是子系统，跟win32平级，底层是WinNT内核</span><br>
+<span>哦对</span><br>
+<span>不过WIN10新版本后WSL2好像又调整了</span><br>
+</p><p><b>HyperIris: </b><br>
+<span>__爱撕衣 发表于 2019-6-23 22:09</span><br>
+<span>wsl是子系统，跟win32平级，底层是WinNT内核</span><br>
+<span>别扯了</span><br>
+</p><p><b>宅男的爱: </b><br>
+<span>sunyiren 发表于 2019-6-23 00:07</span><br>
+<span>插一根启动一次电脑即可</span><br>
+<span>+1</span><br>
+<span>上次弄AM4的板子人都要疯掉……</span><br>
+<span>反正顺序就是：A1，A2，B1，B2</span><br>
+<span>一共需要重启4次</span><br>
+</p><p><b>雪影: </b><br>
+<span>bios看下有没有都认出来不就知道了</span><br>
+<span>或者cpu-z看下哪个槽没认</span><br>
+<span>—— 来自 Xiaomi Redmi K20 Pro, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>aruruu: </b><br>
+<span>兼容性不好，反复拔插可解决</span><br>
+<span>—— 来自 HUAWEI BKL-AL20, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>grantliu: </b><br>
+<span> 本帖最后由 grantliu 于 2019-6-24 14:01 编辑 </span><br>
+<span>就是兼容性问题，昨天一根根插槽都试了，主板每根插槽都是好的，有8gx2是早些时候买的，最近内存跌价，才又补了两根8g，买回来就这个问题了，已经申请换货了，谢谢各位老哥的帮忙，等我换回来试试看</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1841485[0-50]</guid>
+    </item>
+  </channel>
+</rss>

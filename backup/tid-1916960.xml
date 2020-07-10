@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>双系统win10时间问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>双系统win10时间问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 15:48:17 +0000</lastBuildDate>
+    <item>
+      <title>双系统win10时间问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1916960-1-1.html</link>
+      <description>双系统win10时间问题&#13;
+弄了个双系统黑苹果加win10 每次重启进win10时间都不对 虽然就是进去玩几把dota2但是很不爽有办法解决吗
+&#13;
+还有个问题是从win10重启进苹果会卡在主板按del进入bios的界面不操作就没反应了按del进bios选硬盘可以正常进clover启动
+&#13;
+主板是华硕z97 2个系统分别在2个ssd上</description>
+      <content:encoded><![CDATA[<p><b>evooil: </b><br>
+<span>双系统win10时间问题</span><br>
+<span>弄了个双系统黑苹果加win10 每次重启进win10时间都不对 虽然就是进去玩几把dota2但是很不爽有办法解决吗</span><br>
+<span>还有个问题是从win10重启进苹果会卡在主板按del进入bios的界面不操作就没反应了按del进bios选硬盘可以正常进clover启动</span><br>
+<span>主板是华硕z97 2个系统分别在2个ssd上</span><br>
+</p><p><b>Realplayer: </b><br>
+<span>EasyEFI整一个硬盘上不好吗？</span><br>
+</p><p><b>sirlion: </b><br>
+<span>搜索黑苹果时间补丁，就能解决时间不同步的问题</span><br>
+</p><p><b>十二国: </b><br>
+<span>windows 默认使用本地时间（localtime），macos 估计是用 UTC，所以时间会不一致。</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>win可以改注册表使用utc</span><br>
+</p><p><b>evooil: </b><br>
+<span>谢谢楼上的大佬们 重启卡bios有解决办法吗</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>Realplayer 发表于 2020-3-3 16:32</span><br>
+<span>EasyEFI整一个硬盘上不好吗？</span><br>
+<span>和那没关系</span><br>
+</p><p><b>一百三十万颗星: </b><br>
+<span>evooil 发表于 2020-3-3 16:52</span><br>
+<span>谢谢楼上的大佬们 重启卡bios有解决办法吗</span><br>
+<span>看看默认启动项是不是clover</span><br>
+<span>我知道win会自动改你启动项，没用过不知道解决方案</span><br>
+</p><p><b>系统杀手: </b><br>
+<span>楼主啊…… steam是有mac客户端的啊。 玩dota2压根不需要切换到windows好么</span><br>
+</p><p><b>evooil: </b><br>
+<span> 系统杀手 发表于 2020-3-5 18:28 楼主啊…… steam是有mac客户端的啊。 玩dota2压根不需要切换到windows好么 </span><br>
+<span>但是我在mac下玩效果调低了还经常一卡一卡的 矿卡5804k显示器用1080p分辨率玩的</span><br>
+<span>在win下用1080p好像开个中等还蛮流畅的</span><br>
+</p><p><b>aaray: </b><br>
+<span>我的ubuntu/win10双系统也有同样的问题，我在win10下装了个自动同步网络时间的软件开机自动同步。但其实也几乎不用10，所以也就将就着用了</span><br>
+</p><p><b>不努: </b><br>
+<span>是不是差8小时？我用Ubuntu和Windows是这样的，因为Ubuntu用UTC时间Windows不用</span><br>
+<span>解决方法，修改Windows注册表，HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation，添加新的DWORD (32-bit)值，命名为RealTimeIsUniversal，赋值1（Hex），保存</span><br>
+<span>https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/</span><br>
+<span>也可以下这个网站做好的一键修改reg执行文件</span><br>
+</p><p><b>cmyk1234: </b><br>
+<span>不努 发表于 2020-3-6 00:14</span><br>
+<span>是不是差8小时？我用Ubuntu和Windows是这样的，因为Ubuntu用UTC时间Windows不用</span><br>
+<span>解决方法，修改Windows注 ...</span><br>
+<span>另一种办法是不改win10时间，改Ubuntu时间，网上也有教程。</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1916960[0-50]</guid>
+    </item>
+  </channel>
+</rss>

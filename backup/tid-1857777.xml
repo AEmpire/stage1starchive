@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>读取网页表格问题，我感觉我尽力了，请大佬帮忙看看谢谢</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>读取网页表格问题，我感觉我尽力了，请大佬帮忙看看谢谢</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 17:52:06 +0000</lastBuildDate>
+    <item>
+      <title>读取网页表格问题，我感觉我尽力了，请大佬帮忙看看谢谢[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1857777-1-1.html</link>
+      <description>读取网页表格问题，我感觉我尽力了，请大佬帮忙看看谢谢&#13;
+目标网页如下
+&#13;
+http://ro321.com/index.php?page=item_db&amp;item_type=11
+&#13;
+其实是多个页面，每页都有多个表格。我本来是想把所有页面的表格按原格式提取出来生成单一html文件，但是完全不知道怎么弄
+&#13;
+退而求其次，想到可以用python抓表格的数据放到一个excel表格里面
+&#13;
+结果图片不知道怎么抓，只好暂时先放一放，先管数据
+&#13;
+多个页面，用个循环应该就可以了，但是怎么设置抓取时间间隔，万一对方以为我恶意拖库怎么办，还是先抓一页试试看
+&#13;
+表格格式有点复杂，还是换成简单格式。先参考别人的代码改一改吧
+&#13;
+# -*- coding: utf-8 -*-
+&#13;
+import requests
+&#13;
+from bs4 import BeautifulSoup
+&#13;
+import pandas as pd
+&#13;
+from lxml import etree
+&#13;
+def itemQuery():
+&#13;
+    url = 'http://ro321.com/index.php?page=item_db&amp;item_type=11'
+&#13;
+    res = requests.get(url)
+&#13;
+    print(res.content)
+&#13;
+    soup = BeautifulSoup(res.content, "html.parser")
+&#13;
+    table = soup.find_all('table', attrs={"class": "content_box_item"}).decode()
+&#13;
+    print(table)
+&#13;
+    print(type(table))
+&#13;
+    df = pd.read_html(table, encoding='utf-8', header=0)
+&#13;
+    results = list(df.T.to_dict().values())
+&#13;
+    print(results)
+&#13;
+    df.to_csv("./item.csv", index=False)
+&#13;
+if __name__ =="__main__":
+&#13;
+      itemQuery()
+&#13;
+好！F5走起
+&#13;
+等了一分钟，一点反应都没有？这是怎么回事？求解
+&#13;
+==============================================
+&#13;
+换了另外一种方法
+&#13;
+经过提醒，既然 itembox content中间被打断了，就再在检查里面看看哪一栏包括了单个table的全部内容
+&#13;
+发现 tbody好像也是包括单独一整个table的N内容，就用这个定位吧
+&#13;
+# -*- coding: utf-8 -*-
+&#13;
+import requests
+&#13;
+from bs4 import BeautifulSoup
+&#13;
+import pandas as pd
+&#13;
+from lxml import etree
+&#13;
+def run():
+&#13;
+    url="http://ro321.com/index.php?page=item_db&amp;item_type=11"
+&#13;
+    req=requests.get(url)
+&#13;
+    mylist=[["物品"],["类别"],["系列"],["买价"],["卖价"],["重量"],["功能说明"],["作用剧本"],["掉落怪物"],["商店销售点"],["其他获得方式"]]
+&#13;
+    soup=BeautifulSoup(req.content,"html.parser")
+&#13;
+    for it in soup.find_all('tbody',attrs={"tbody"}):
+&#13;
+      # print(it)
+&#13;
+      for i in range(len(it.contents)):
+&#13;
+            # print(i)
+&#13;
+            data = it.contents.contents.text
+&#13;
+            # print(data)
+&#13;
+            mylist.append(data)
+&#13;
+            print(mylist)
+&#13;
+      print(mylist)
+&#13;
+    print(mylist)
+&#13;
+    out=pd.DataFrame(mylist)
+&#13;
+    out.to_excel(r'1.xls')
+&#13;
+if __name__ =="__main__":
+&#13;
+    run()
+&#13;
+F5走起！
+&#13;
+这回顺利运行了，也生成了excel文件，但是好像内容一个都没抓到啊？就print了我自己输入的表头
+&#13;
+是说明tbody定位没定到吗？
+&#13;
+==================================================
+&#13;
+这回用笨办法，一个值一个值的取
+&#13;
+一步一步试
+&#13;
+[*]# -*- coding: utf-8 -*-
+&#13;
+[*]
+&#13;
+[*]import requests
+&#13;
+[*]from bs4 import BeautifulSoup
+&#13;
+[*]import pandas as pd
+&#13;
+[*]from lxml import etree
+&#13;
+[*]
+&#13;
+[*]def getTableText():
+&#13;
+[*]    url = "http://ro321.com/index.php?page=item_db&amp;item_type=11"
+&#13;
+[*]    res = requests.get(url)
+&#13;
+[*]    res_elements = etree.HTML(res.text)
+&#13;
+[*]    name=res_elements.xpath('//table[@width="720px"]/tbody/tr[@class="lmd"]/td/table/tbody/tr/td/b').text
+&#13;
+[*]    print(name)
+&#13;
+[*]
+&#13;
+[*]if __name__ =="__main__":
+&#13;
+[*]    getTableText()
+&#13;
+复制代码
+&#13;
+xpath（table[@width="720px"]）可以准确取到中间12个物品的table
+&#13;
+后面跟的那一段是多层嵌套剥皮之后看到的加黑的物品名称
+&#13;
+但是F5走起，结果显示IndexError: list index out of range
+&#13;
+这又是错在哪里了？
+&#13;
+再试了一下，xpath(（table[@width="720px"]/tbody)返回的是一个空列表，但是如果换成读取该table下任意tr标签的class属性值 即xpath(（table[@width="720px"]//tr/@class)又可以取到正确的值“lmd”
+&#13;
+所以这是什么情况？</description>
+      <content:encoded><![CDATA[<p><b>佐塚間桐: </b><br>
+<span>读取网页表格问题，我感觉我尽力了，请大佬帮忙看看谢谢</span><br>
+<span>目标网页如下</span><br>
+<span>http://ro321.com/index.php?page=item_db&item_type=11</span><br>
+<span>其实是多个页面，每页都有多个表格。我本来是想把所有页面的表格按原格式提取出来生成单一html文件，但是完全不知道怎么弄</span><br>
+<span>退而求其次，想到可以用python抓表格的数据放到一个excel表格里面</span><br>
+<span>结果图片不知道怎么抓，只好暂时先放一放，先管数据</span><br>
+<span>多个页面，用个循环应该就可以了，但是怎么设置抓取时间间隔，万一对方以为我恶意拖库怎么办，还是先抓一页试试看</span><br>
+<span>表格格式有点复杂，还是换成简单格式。先参考别人的代码改一改吧</span><br>
+<span># -*- coding: utf-8 -*-</span><br>
+<span>import requests</span><br>
+<span>from bs4 import BeautifulSoup</span><br>
+<span>import pandas as pd</span><br>
+<span>from lxml import etree</span><br>
+<span>def itemQuery():</span><br>
+<span>    url = 'http://ro321.com/index.php?page=item_db&item_type=11'</span><br>
+<span>    res = requests.get(url)</span><br>
+<span>    print(res.content)</span><br>
+<span>    soup = BeautifulSoup(res.content, "html.parser")</span><br>
+<span>    table = soup.find_all('table', attrs={"class": "content_box_item"}).decode()</span><br>
+<span>    print(table)</span><br>
+<span>    print(type(table))</span><br>
+<span>    df = pd.read_html(table, encoding='utf-8', header=0)</span><br>
+<span>    results = list(df.T.to_dict().values())</span><br>
+<span>    print(results)</span><br>
+<span>    df.to_csv("./item.csv", index=False)</span><br>
+<span>if __name__ =="__main__":</span><br>
+<span>      itemQuery()</span><br>
+<span>好！F5走起</span><br>
+<span>等了一分钟，一点反应都没有？这是怎么回事？求解</span><br>
+<span>==============================================</span><br>
+<span>换了另外一种方法</span><br>
+<span>经过提醒，既然 itembox content中间被打断了，就再在检查里面看看哪一栏包括了单个table的全部内容</span><br>
+<span>发现 tbody好像也是包括单独一整个table的N内容，就用这个定位吧</span><br>
+<span># -*- coding: utf-8 -*-</span><br>
+<span>import requests</span><br>
+<span>from bs4 import BeautifulSoup</span><br>
+<span>import pandas as pd</span><br>
+<span>from lxml import etree</span><br>
+<span>def run():</span><br>
+<span>    url="http://ro321.com/index.php?page=item_db&item_type=11"</span><br>
+<span>    req=requests.get(url)</span><br>
+<span>    mylist=[["物品"],["类别"],["系列"],["买价"],["卖价"],["重量"],["功能说明"],["作用剧本"],["掉落怪物"],["商店销售点"],["其他获得方式"]]</span><br>
+<span>    soup=BeautifulSoup(req.content,"html.parser")</span><br>
+<span>    for it in soup.find_all('tbody',attrs={"tbody"}):</span><br>
+<span>      # print(it)</span><br>
+<span>      for i in range(len(it.contents)):</span><br>
+<span>            # print(i)</span><br>
+<span>            data = it.contents.contents.text</span><br>
+<span>            # print(data)</span><br>
+<span>            mylist.append(data)</span><br>
+<span>            print(mylist)</span><br>
+<span>      print(mylist)</span><br>
+<span>    print(mylist)</span><br>
+<span>    out=pd.DataFrame(mylist)</span><br>
+<span>    out.to_excel(r'1.xls')</span><br>
+<span>if __name__ =="__main__":</span><br>
+<span>    run()</span><br>
+<span>F5走起！</span><br>
+<span>这回顺利运行了，也生成了excel文件，但是好像内容一个都没抓到啊？就print了我自己输入的表头</span><br>
+<span>是说明tbody定位没定到吗？</span><br>
+<span>==================================================</span><br>
+<span>这回用笨办法，一个值一个值的取</span><br>
+<span>一步一步试</span><br>
+<span>[*]# -*- coding: utf-8 -*-</span><br>
+<span>[*]</span><br>
+<span>[*]import requests</span><br>
+<span>[*]from bs4 import BeautifulSoup</span><br>
+<span>[*]import pandas as pd</span><br>
+<span>[*]from lxml import etree</span><br>
+<span>[*]</span><br>
+<span>[*]def getTableText():</span><br>
+<span>[*]    url = "http://ro321.com/index.php?page=item_db&item_type=11"</span><br>
+<span>[*]    res = requests.get(url)</span><br>
+<span>[*]    res_elements = etree.HTML(res.text)</span><br>
+<span>[*]    name=res_elements.xpath('//table[@width="720px"]/tbody/tr[@class="lmd"]/td/table/tbody/tr/td/b').text</span><br>
+<span>[*]    print(name)</span><br>
+<span>[*]</span><br>
+<span>[*]if __name__ =="__main__":</span><br>
+<span>[*]    getTableText()</span><br>
+<span>复制代码</span><br>
+<span>xpath（table[@width="720px"]）可以准确取到中间12个物品的table</span><br>
+<span>后面跟的那一段是多层嵌套剥皮之后看到的加黑的物品名称</span><br>
+<span>但是F5走起，结果显示IndexError: list index out of range</span><br>
+<span>这又是错在哪里了？</span><br>
+<span>再试了一下，xpath(（table[@width="720px"]/tbody)返回的是一个空列表，但是如果换成读取该table下任意tr标签的class属性值 即xpath(（table[@width="720px"]//tr/@class)又可以取到正确的值“lmd”</span><br>
+<span>所以这是什么情况？</span><br>
+</p><p><b>zievod: </b><br>
+<span>这贴是不是发过了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1857777[0-50]</guid>
+    </item>
+  </channel>
+</rss>

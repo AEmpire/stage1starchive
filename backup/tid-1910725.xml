@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>[求助]华硕的主板设置了快速启动之后就再也进不了BIOS了</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>[求助]华硕的主板设置了快速启动之后就再也进不了BIOS了</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 16:35:54 +0000</lastBuildDate>
+    <item>
+      <title>[求助]华硕的主板设置了快速启动之后就再也进不了BIOS了[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1910725-1-1.html</link>
+      <description>[求助]华硕的主板设置了快速启动之后就再也进不了BIOS了&#13;
+现在每次启动都是直接进桌面，什么F2,F8,DEL都没用，WIN10里的高级重新启动也不行，是不是只能清主板上的CMOS了？</description>
+      <content:encoded><![CDATA[<p><b>ffwing: </b><br>
+<span>[求助]华硕的主板设置了快速启动之后就再也进不了BIOS了</span><br>
+<span>现在每次启动都是直接进桌面，什么F2,F8,DEL都没用，WIN10里的高级重新启动也不行，是不是只能清主板上的CMOS了？</span><br>
+</p><p><b>rentrody: </b><br>
+<span>开机强制重启三次</span><br>
+</p><p><b>君往何处: </b><br>
+<span>https://www.asus.com.cn/support/FAQ/1008831/</span><br>
+<span>参考试试？</span><br>
+</p><p><b>DeepFishing: </b><br>
+<span>可能内存没插好，清空BIOS，插拔内存</span><br>
+<span>—— 来自 Sony H8296, Android 10上的 S1Next-鹅版 v2.2.0.1</span><br>
+</p><p><b>lawsherman: </b><br>
+<span>长按电源键关机，然后再启动？</span><br>
+</p><p><b>ffwing: </b><br>
+<span>rentrody 发表于 2020-1-25 11:34</span><br>
+<span>开机强制重启三次</span><br>
+<span>还是一样</span><br>
+</p><p><b>ffwing: </b><br>
+<span>君往何处 发表于 2020-1-25 11:34</span><br>
+<span>https://www.asus.com.cn/support/FAQ/1008831/</span><br>
+<span>参考试试？</span><br>
+<span>系统里快速启动已经关了</span><br>
+</p><p><b>ffwing: </b><br>
+<span>lawsherman 发表于 2020-1-25 12:05</span><br>
+<span>长按电源键关机，然后再启动？</span><br>
+<span>也是一样</span><br>
+</p><p><b>mhss: </b><br>
+<span>什么型号的主板？华硕ai suite套件里有个工具是重启直接进bios的</span><br>
+<span>或者试试小弟华擎的这个单独工具？</span><br>
+<span>ftp://asrockchina.com.cn/Utility/Others/RestartToUEFI(v1.0.6).zip</span><br>
+</p><p><b>偶滴小乔: </b><br>
+<span>我那块华擎的主板的BIOS选项里面快速启动那边反正有提示的，如果开启快速启动只能清空CMOS来进BIOS</span><br>
+</p><p><b>sirlion: </b><br>
+<span>win的高级重启也不行？按照shift点重启，然后选择进入uefi这个没道理不行才对</span><br>
+</p><p><b>Cray: </b><br>
+<span>偶滴小乔 发表于 2020-1-25 13:36</span><br>
+<span>我那块华擎的主板的BIOS选项里面快速启动那边反正有提示的，如果开启快速启动只能清空CMOS来进BIOS ...</span><br>
+<span>对的。。我的也有提示。</span><br>
+</p><p><b>bill基: </b><br>
+<span>“当代”主板的快速启动都有标注，SATA和USB口在启动过程中是不工作的（跳过）</span><br>
+<span>你自然进不到BIOS，因为现在的鼠标键盘都是USB口，你怎么按都没用……</span><br>
+<span>有些主板留了以前的老PS/2口，为了应对这种情况。不过一般只有一个，你要不接鼠标，要不接键盘</span><br>
+<span>解决方法一般是BIOS先还原为默认值（现在主板一般都有cmos清空按钮的）</span><br>
+</p><p><b>ffwing: </b><br>
+<span>看来只能清CMOS了</span><br>
+</p><p><b>rentrody: </b><br>
+<span>ffwing 发表于 2020-1-25 12:53</span><br>
+<span>还是一样</span><br>
+<span>我记得重启几次后进到启动菜单，里面有个选项是重启后进入UEFI设置</span><br>
+</p><p><b>rentrody: </b><br>
+<span>在 Windows 8/10 中，重启时按住 shift 键，可以调出高级重启菜单，选择进入 疑难解答——高级启动—高级选项—UEFI固件设置，重启后可以直接引导到 UEFI。</span><br>
+</p><p><b>ffwing: </b><br>
+<span>rentrody 发表于 2020-1-25 19:42</span><br>
+<span>这个就是WIN10的高级重新启动啊，我点过了，还是直接就进桌面了</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1910725[0-50]</guid>
+    </item>
+  </channel>
+</rss>

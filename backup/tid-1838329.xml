@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PCIE4.0比3.0有哪方面的提升？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>PCIE4.0比3.0有哪方面的提升？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:54:14 +0000</lastBuildDate>
+    <item>
+      <title>PCIE4.0比3.0有哪方面的提升？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838329-1-1.html</link>
+      <description>PCIE4.0比3.0有哪方面的提升？&#13;
+比如是不是4.0上两个M.2的SSD才有意义？</description>
+      <content:encoded><![CDATA[<p><b>精打细算大国安: </b><br>
+<span>PCIE4.0比3.0有哪方面的提升？</span><br>
+<span>比如是不是4.0上两个M.2的SSD才有意义？</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>4.0 x8速度就等于3.0 x16,这样一般主板也至少能类似HEDT一样支持两片显卡全速,X570南桥得到4+4(上下行独立)的带宽之后,再多的SATA/U3.1也没啥问题,还可以额外带一到两组3.0x4的NVME SSD</span><br>
+</p><p><b>lwa190212: </b><br>
+<span>就现在pcie gen3的x8带宽，gpu的性能损失也没多大，不过intel和amd民用主板x16拆分让你上两片x8显卡的也基本都要上到当代最高级系列芯片组</span><br>
+<span>即使如此某些z390、z370、x370(x470没了解过不清楚)丐版板子还是只有x16+x4，那x16就是不给你x8+x8</span><br>
+<span>按这个尿性以后也不过现有gen3 x8+x8级别的产品升级到gen4 x8+x8，全速不全速也就是几个百分点的添头</span><br>
+<span>反正也都是千元起步，我在考虑以后都买服务器板子算了，起码内存朝向和没有杀马特马甲这些点都让我满意</span><br>
+</p><p><b>oskneo: </b><br>
+<span>5年后买显卡的时候不用担心受限</span><br>
+<span>—— 来自 HUAWEI HDL-W09, Android 8.0.0上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p><p><b>精打细算大国安: </b><br>
+<span>KOGmk2 发表于 2019-6-10 13:52</span><br>
+<span>4.0 x8速度就等于3.0 x16,这样一般主板也至少能类似HEDT一样支持两片显卡全速,X570南桥得到4+4(上下行独立) ...</span><br>
+<span>那下个月的zen 2有没有必要配个570啊，显卡是2060的</span><br>
+</p><p><b>fusoclass: </b><br>
+<span> 本帖最后由 fusoclass 于 2019-6-10 15:24 编辑 </span><br>
+<span>Z390插一个2080TI四个NVME SSD显卡性能会受限吗？我知道SSD速度是跑不满的。</span><br>
+</p><p><b>好多大象啊: </b><br>
+<span>fusoclass 发表于 2019-6-10 15:23</span><br>
+<span>Z390插一个2080TI四个NVME SSD显卡性能会受限吗？我知道SSD速度是跑不满的。 ...</span><br>
+<span>看你怎么插，nvme插哪里。不过说实话，直连cpu的就16条pcie</span><br>
+<span>Expansion Options</span><br>
+<span>Scalability 1S Only</span><br>
+<span>PCI Express Revision 3.0</span><br>
+<span>PCI Express Configurations ‡ Up to 1x16, 2x8, 1x8+2x4</span><br>
+<span>Max # of PCI Express Lanes 16</span><br>
+<span>最好的情况 也就是 主板带三个cpu直出pcie槽，x8连显卡，两个x4接两条nvme的ssd，还有两个ssd只能走pch，最多和cpu走x4速率。</span><br>
+<span>不过说实话，硬盘没啥必要和cpu直连，大部分日常使用的io操作都是在pch里直接做完了，不需要和cpu通讯的。</span><br>
+</p><p><b>KOGmk2: </b><br>
+<span>精打细算大国安 发表于 2019-6-10 15:13</span><br>
+<span>那下个月的zen 2有没有必要配个570啊，显卡是2060的</span><br>
+<span>没啥必要......2060连3.0x16都吃不满,目前能吃满的只有泰坦/2080ti/V7duo pro</span><br>
+</p><p><b>oskneo: </b><br>
+<span>KOGmk2 发表于 2019-6-11 13:32</span><br>
+<span>没啥必要......2060连3.0x16都吃不满,目前能吃满的只有泰坦/2080ti/V7duo pro</span><br>
+<span>只是看现在的吗，几年后换显卡的时候又换个主板？</span><br>
+<span>—— 来自 Sony G8142, Android 9上的 S1Next-鹅版 v2.1.0-play</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838329[0-50]</guid>
+    </item>
+  </channel>
+</rss>

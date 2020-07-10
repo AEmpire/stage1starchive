@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>vmware有时无响应,这个有解决办法吗?</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>vmware有时无响应,这个有解决办法吗?</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:46:49 +0000</lastBuildDate>
+    <item>
+      <title>vmware有时无响应,这个有解决办法吗?[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1829711-1-1.html</link>
+      <description>vmware有时无响应,这个有解决办法吗?&#13;
+ 本帖最后由 塔奇克马 于 2019-5-7 14:23 编辑 
+
+系统win10上
+&#13;
+VMWARE 12不会出现这个问题
+&#13;
+但是之后的版本从13-15都有这个问题.
+&#13;
+无响应等几分钟就会好
+&#13;
+试过网上的 VMX主线程加入DF白名单和开启防火墙通过没啥用.
+&#13;
+win10重装也没用.
+&#13;
+这个还有啥解决办法?
+&#13;
+难道让我把防火墙和DF都关了?</description>
+      <content:encoded><![CDATA[<p><b>塔奇克马: </b><br>
+<span>vmware有时无响应,这个有解决办法吗?</span><br>
+<span> 本帖最后由 塔奇克马 于 2019-5-7 14:23 编辑 </span><br>
+<span>系统win10上</span><br>
+<span>VMWARE 12不会出现这个问题</span><br>
+<span>但是之后的版本从13-15都有这个问题.</span><br>
+<span>无响应等几分钟就会好</span><br>
+<span>试过网上的 VMX主线程加入DF白名单和开启防火墙通过没啥用.</span><br>
+<span>win10重装也没用.</span><br>
+<span>这个还有啥解决办法?</span><br>
+<span>难道让我把防火墙和DF都关了?</span><br>
+</p><p><b>Litccc: </b><br>
+<span>win10什么版本？</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>Litccc 发表于 2019-5-7 14:13</span><br>
+<span>win10什么版本？</span><br>
+<span>1803和1809 都有这个问题.</span><br>
+<span>我不会装最新版的.</span><br>
+</p><p><b>RAMDA: </b><br>
+<span> 本帖最后由 RAMDA 于 2019-5-7 14:53 编辑 </span><br>
+<span>莫不是跟之前chrome那个事情一样</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1828829-1-1.html</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>litel: </b><br>
+<span>win10 1809表示vm 15没这毛病，前几天升级了1903，也没这毛病。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>RAMDA 发表于 2019-5-7 14:51</span><br>
+<span>莫不是跟之前chrome那个事情一样</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1828829-1-1.html</span><br>
+<span>不清楚,反正我这情况的一搜还不少,有些重装解决了.但是我的没解决.</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span> 本帖最后由 塔奇克马 于 2019-5-7 20:07 编辑 </span><br>
+<span>litel 发表于 2019-5-7 18:14</span><br>
+<span>win10 1809表示vm 15没这毛病，前几天升级了1903，也没这毛病。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1 ...</span><br>
+<span>不清楚啥情况,guest是linux系不安装vmware tools不会发生无响应.</span><br>
+</p><p><b>litel: </b><br>
+<span>塔奇克马 发表于 2019-5-7 19:52</span><br>
+<span>不清楚啥情况,guest是linux系不安装vmware tools不会发生无响应.</span><br>
+<span>我装的就是kali。。。</span><br>
+<span>vmtools装了，可以剪切板，但是不能拖放文件。。。</span><br>
+<span>最后常用还是vbox。。。</span><br>
+</p><p><b>sirlion: </b><br>
+<span>我是说怎么刚装了vm总是卡半天启动不了，我也是1809和vm14</span><br>
+</p><p><b>鹿斗典善: </b><br>
+<span>公司机器是1809+workstation15,没碰上过</span><br>
+<span>防火墙和defender都没动过</span><br>
+</p><p><b>newdasemo: </b><br>
+<span>win7也卡，vm15，目测是集显和独显切换的锅。</span><br>
+</p><p><b>子不语人渐离: </b><br>
+<span>妈啊，我也有这个问题。怪不得之前不卡的。</span><br>
+<span>我是1709+14.1.3</span><br>
+</p><p><b>chachi: </b><br>
+<span>1809+vmware 15.02</span><br>
+<span>应该不是防火墙和windowsdefender的原因，因为我都禁用了，还是偶尔会卡。</span><br>
+<span>但是次数很少。</span><br>
+</p><p><b>zhenniuren: </b><br>
+<span>1709，就是因为这个原因不停的升级回滚，最后一怒之下换回win7</span><br>
+<span>当然还有些小bug，win10真的太糟心了</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>我RTM</span><br>
+<span>测试编译固件,客户端windows总是无响应,我要疯了.~</span><br>
+</p><p><b>鲤鱼奶奶: </b><br>
+<span>好像新版本的fusion也有这个毛病 之前没有的</span><br>
+<span>-- 来自 能看大图的 Stage1官方 iOS客户端</span><br>
+</p><p><b>塔奇克马: </b><br>
+<span>系统重装了,发现linux也会卡!!我要死了!</span><br>
+</p><p><b>sirlion: </b><br>
+<span>请用win10 hyperv拉</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1829711[0-50]</guid>
+    </item>
+  </channel>
+</rss>

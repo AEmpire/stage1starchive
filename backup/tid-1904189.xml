@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>求助：局域网无线访问NAS速度比外网下载还慢，求排查瓶颈</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>求助：局域网无线访问NAS速度比外网下载还慢，求排查瓶颈</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:14:08 +0000</lastBuildDate>
+    <item>
+      <title>求助：局域网无线访问NAS速度比外网下载还慢，求排查瓶颈[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1904189-1-1.html</link>
+      <description>求助：局域网无线访问NAS速度比外网下载还慢，求排查瓶颈&#13;
+如下是我家的网络部署，装修的时候没预留网线，实在是没条件现在装网线只能用wifi了
+&#13;
+路由器是1200M
+&#13;
+PC网卡是1900M，无线连接路由器
+&#13;
+NAS有线直连路由器，光猫有线直连路由器，都是七类线
+&#13;
+我理解无线访问NAS的速度肯定会达不到100MB/s，但现在的问题是，steam或者迅雷会员或者百度云会员的下载速度轻轻松松30MB/s，但局域网内（磁盘映射）上传NAS文件的速度只有20MB/s，还不如外网下载呢
+&#13;
+求大家帮忙琢磨一下瓶颈可能出现在哪呢？</description>
+      <content:encoded><![CDATA[<p><b>wang_qi望七: </b><br>
+<span>求助：局域网无线访问NAS速度比外网下载还慢，求排查瓶颈</span><br>
+<span>如下是我家的网络部署，装修的时候没预留网线，实在是没条件现在装网线只能用wifi了</span><br>
+<span>路由器是1200M</span><br>
+<span>PC网卡是1900M，无线连接路由器</span><br>
+<span>NAS有线直连路由器，光猫有线直连路由器，都是七类线</span><br>
+<span>我理解无线访问NAS的速度肯定会达不到100MB/s，但现在的问题是，steam或者迅雷会员或者百度云会员的下载速度轻轻松松30MB/s，但局域网内（磁盘映射）上传NAS文件的速度只有20MB/s，还不如外网下载呢</span><br>
+<span>求大家帮忙琢磨一下瓶颈可能出现在哪呢？</span><br>
+</p><p><b>纯情小鸭鸭: </b><br>
+<span>pc显示网卡的连接速度是多少？</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>纯情小鸭鸭 发表于 2019-12-19 22:51</span><br>
+<span>pc显示网卡的连接速度是多少？</span><br>
+<span>800多</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span>都是7类线那么瓶颈就是路由器了 一看 哦吼 华为</span><br>
+</p><p><b>依然荏苒: </b><br>
+<span> 本帖最后由 依然荏苒 于 2019-12-19 22:59 编辑 </span><br>
+<span>这玩意如果买的原版，是cbg外包出去的产物 用的弱鸡螃蟹芯 转发有没有1g都难说</span><br>
+</p><p><b>rentrody: </b><br>
+<span>依然荏苒 发表于 2019-12-19 22:58</span><br>
+<span>这玩意如果买的原版，是cbg外包出去的产物 用的弱鸡螃蟹芯 转发有没有1g都难说 ...</span><br>
+<span>应该是硬件转发不能同时兼顾WAN-LAN和LAN-LAN，所以外网下载速度比内网传输速度快？</span><br>
+</p><p><b>typeunknown: </b><br>
+<span> 本帖最后由 typeunknown 于 2019-12-20 07:15 编辑 </span><br>
+<span>NAS和pc都设静态地址然后网线直连传文件测个速排除一下NAS的性能问题。</span><br>
+<span>不过我老掉牙的TS-112（ARMv5单核1.2G）走SMB都能有90MB发40MB收，问题应该不在NAS硬件上。</span><br>
+<span>再就是FTP也试试，路由器上只接NAS和pc也试试，WS5200的5G to LAN按别人测的虽然怎么样但普通距离下也不到这地步https://www.acwifi.net/6086.html</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>typeunknown 发表于 2019-12-20 05:51</span><br>
+<span>NAS和pc都设静态地址然后网线直连传文件测个速排除一下NAS的性能问题。</span><br>
+<span>不过我老掉牙的TS-112（ARMv5单核1. ...</span><br>
+<span>谢谢老哥，网线直连速度很正常90MB/s左右，主要是甩明显太丑了家里也有孩子怕危险，还是想无线凑合凑合。</span><br>
+<span>这个帖子有点儿意思啊！谢谢，我今天晚上研究一下！</span><br>
+</p><p><b>ペチャパイ: </b><br>
+<span>7类线，这是万兆线吧。我都是送的超5，WiFi都能传60M。</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>ペチャパイ 发表于 2019-12-20 12:26</span><br>
+<span>7类线，这是万兆线吧。我都是送的超5，WiFi都能传60M。</span><br>
+<span>对，是7类线，为了避免这两个链接地方瓶颈所以单独买的，结果wifi成瓶颈了好像</span><br>
+</p><p><b>litel: </b><br>
+<span>https://www.acwifi.net/6086.html</span><br>
+<span>看起来又是华为的高傲。</span><br>
+<span>华为觉得你应该不需要无线上传，所以没做或者砍了。</span><br>
+<span>所以最高30m。。。</span><br>
+</p><p><b>cnwind042: </b><br>
+<span>我刚咸鱼了个群晖115J，千兆有线网上传NAS速度才不到60MB/S，完全受限于NAS性能了……</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-21 03:21 编辑 </span><br>
+<span>拿两台电脑和磊科P8L试了半天……</span><br>
+<span>直连两台电脑互设网关，速度稳定在90MB/s左右;</span><br>
+<span>两台电脑接到路由器，稳定在94MB/s左右，插没插WAN好像都一样;</span><br>
+<span>磊科路由器关闭DHCP作AP，上级路由器接LAN口，两台电脑的地址跟磊科路由不在同一网段，速度稳定110MB/s。</span><br>
+<span>这个Power8L跟楼主的华为芯片配置一样，应该不会有太大差别吧</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>litel 发表于 2019-12-20 22:06</span><br>
+<span>https://www.acwifi.net/6086.html</span><br>
+<span>看起来又是华为的高傲。</span><br>
+<span>老哥你这个测评链接扎心啊！</span><br>
+<span>我觉得可以等等wifi6赶紧把它出了。。。。</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>rentrody 发表于 2019-12-21 02:27</span><br>
+<span>拿两台电脑和磊科P8L试了半天……</span><br>
+<span>直连两台电脑互设网关，速度稳定在90MB/s左右;</span><br>
+<span>两台电脑接到路由器，稳定 ...</span><br>
+<span>老哥你说的好深奥啊</span><br>
+<span>我在家这个几个设备，光猫拨号上网lan出来连接在路由的lan接口，pc是无线和路由连接。无线的信号实在是差。。。。您这个两个电脑也是无线对拷的吗？就是一个是192.168.1.*一个是192.168.2.*？</span><br>
+<span>另外我还想问问个问题啊，我把nas接在光猫上，pc连接无线路由扫描不到nas了，但通过qc访问nas能直接跳转192.168.1.*（但路由器的网段是192.168.3.*），但无线访问是百兆，这是卡在光猫的lan接口了吗么。。。能否通过怎么设置直接通过路由端能扫描到光猫端的nas呢？</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-24 19:28 编辑 </span><br>
+<span>wang_qi望七 发表于 2019-12-24 17:50</span><br>
+<span>老哥你说的好深奥啊</span><br>
+<span>我在家这个几个设备，光猫拨号上网lan出来连接在路由的lan接口，pc是无线和路由连接 ...</span><br>
+<span>其实是我眼瞎搞错了，只是测试了有线速度……</span><br>
+<span>你是刚把光猫接在LAN么，路由器的DHCP关了吗？</span><br>
+</p><p><b>rentrody: </b><br>
+<span> 本帖最后由 rentrody 于 2019-12-24 20:17 编辑 </span><br>
+<span>要换路由器的话就直接换个3x3的吧，按这贴的说法速度能达到60M，你的网卡应该也是2x2的，速度只能在30M左右，也可以直接再弄一台路由当网卡用。对了最近小米出了个AC2100是4x4才一百五左右，已经足够千兆网用了。WiFi6还是多等几年再说吧。</span><br>
+<span>https://bbs.saraba1st.com/2b/thread-1589681-1-1.html</span><br>
+</p><p><b>c88711611: </b><br>
+<span>玩nas还是wifi6吧</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>rentrody 发表于 2019-12-24 18:46</span><br>
+<span>其实是我眼瞎搞错了，只是测试了有线速度……</span><br>
+<span>你是刚把光猫接在LAN么，路由器的DHCP关了吗？ ...</span><br>
+<span>请问是把静态获取IP（DHCP）改为Bridge（AP）模式吗？</span><br>
+<span>那主路由（光猫）还用改设置吗？</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>c88711611 发表于 2019-12-24 20:02</span><br>
+<span>玩nas还是wifi6吧</span><br>
+<span>wifi6不是贵么，据说tplink那个便宜的完全不咋样啊</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>rentrody 发表于 2019-12-24 19:06</span><br>
+<span>要换路由器的话就直接换个3x3的吧，按这贴的说法速度能达到60M，你的网卡应该也是2x2的，速度只能在30M左右 ...</span><br>
+<span>关了果然就能搜到了，谢谢啊~</span><br>
+</p><p><b>rentrody: </b><br>
+<span>wang_qi望七 发表于 2019-12-24 21:01</span><br>
+<span>关了果然就能搜到了，谢谢啊~</span><br>
+<span>不过NAS接在路由不是挺好么，而且光猫自带路由一般不怎么样，光猫改桥接让路由拨号应该更稳定些。</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>rentrody 发表于 2019-12-24 21:19</span><br>
+<span>不过NAS接在路由不是挺好么，而且光猫自带路由一般不怎么样，光猫改桥接让路由拨号应该更稳定些。 ...</span><br>
+<span>嗯嗯，我就是做了个测试，最终连在哪儿都行~~家里光猫做路由好几年了没关过机，也挺稳定。。。凑合用吧反正是联通送的~</span><br>
+</p><p><b>天知道: </b><br>
+<span>华为？？别折腾了，换其它品牌路由吧。买过260元的华为路由后现在我是华为一生黑。</span><br>
+</p><p><b>wang_qi望七: </b><br>
+<span>天知道 发表于 2019-12-25 14:01</span><br>
+<span>华为？？别折腾了，换其它品牌路由吧。买过260元的华为路由后现在我是华为一生黑。 ...</span><br>
+<span>没折腾路由器。。。。家用也不动他，也没啥黑点，凑合用吧，等wifi6成熟一步到位</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1904189[0-50]</guid>
+    </item>
+  </channel>
+</rss>

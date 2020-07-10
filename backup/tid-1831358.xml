@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>问个PC的故障问题</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>问个PC的故障问题</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 20:36:53 +0000</lastBuildDate>
+    <item>
+      <title>问个PC的故障问题[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1831358-1-1.html</link>
+      <description>问个PC的故障问题&#13;
+ 本帖最后由 飛0雲 于 2019-5-14 23:12 编辑 
+
+朋友一台主机，主板是华硕的B150I pro gaming，显卡华硕GTX1070，坏了块M.2固态，INTEL 600P 256G，后来在京东买了三星970EVO 500G回来换，插上主板，能检测到，通过U盘直装win10 1903版本，装好后重启，过主板自检后就黑屏卡死了。
+&#13;
+进PE修复UEFI引导之后成功了一次，重启后再黑屏卡死，之后再怎么修复引导也是一样结果。
+&#13;
+我就疑惑了，我就换块大容量固态，装个系统就成这样子了，都不知道问题出在哪里了，有没有大神能分析下原因呢？谢谢
+
+更新：在反复的调试BIOS之下，我发现了个奇怪的地方，每次黑屏卡死的情况下，进BIOS开启X.M.P功能就可以进入win10系统，要是再次卡死，就将X.M.P功能关闭，如此循环。看来是主板有问题？但这问题我真不知道怎么简要地描述</description>
+      <content:encoded><![CDATA[<p><b>飛0雲: </b><br>
+<span>问个PC的故障问题</span><br>
+<span> 本帖最后由 飛0雲 于 2019-5-14 23:12 编辑 </span><br>
+<span>朋友一台主机，主板是华硕的B150I pro gaming，显卡华硕GTX1070，坏了块M.2固态，INTEL 600P 256G，后来在京东买了三星970EVO 500G回来换，插上主板，能检测到，通过U盘直装win10 1903版本，装好后重启，过主板自检后就黑屏卡死了。</span><br>
+<span>进PE修复UEFI引导之后成功了一次，重启后再黑屏卡死，之后再怎么修复引导也是一样结果。</span><br>
+<span>我就疑惑了，我就换块大容量固态，装个系统就成这样子了，都不知道问题出在哪里了，有没有大神能分析下原因呢？谢谢</span><br>
+<span>更新：在反复的调试BIOS之下，我发现了个奇怪的地方，每次黑屏卡死的情况下，进BIOS开启X.M.P功能就可以进入win10系统，要是再次卡死，就将X.M.P功能关闭，如此循环。看来是主板有问题？但这问题我真不知道怎么简要地描述</span><br>
+</p><p><b>qwased: </b><br>
+<span>之前看到个案例是电源坏了5v供电不稳导致m2盘工作不正常，排查下电源看看</span><br>
+<span>—— 来自 Xiaomi MI 6, Android 8.0.0上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>飛0雲: </b><br>
+<span>qwased 发表于 2019-5-14 11:09</span><br>
+<span>之前看到个案例是电源坏了5v供电不稳导致m2盘工作不正常，排查下电源看看</span><br>
+<span>—— 来自 Xiaomi MI 6, Android ...</span><br>
+<span>电源方面，我就插了24针电源口和8针电源口，要是电源供电不稳问题的话都挺排除的，手上也没个能用的后备电源</span><br>
+</p><p><b>litel: </b><br>
+<span>说不定固态没坏而是主板坏了呢？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>飛0雲: </b><br>
+<span>litel 发表于 2019-5-14 17:57</span><br>
+<span>说不定固态没坏而是主板坏了呢？</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2 ...</span><br>
+<span>INTEL那块固态，主板已经检测不到了，所以我才判断为固态丢盘换一块固态的，而主板看上去一切正常</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>帕鲁迪娜: </b><br>
+<span>pc故障不用排除法太难诊断了</span><br>
+</p><p><b>飛0雲: </b><br>
+<span>在反复的调试BIOS之下，我发现了个奇怪的地方，每次黑屏卡死的情况下，进BIOS开启X.M.P功能就可以进入win10系统，要是再次卡死，就将X.M.P功能关闭如此循环。看来是主板有问题？但这问题我真不知道怎么简要地描述</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>doremifasol: </b><br>
+<span>主板BIOS不是有最佳设置嘛试试，或是BIOS里边有没有正确识别NVME固态还有是不是有单独设置NVME固态的设置。</span><br>
+</p><p><b>飛0雲: </b><br>
+<span>doremifasol 发表于 2019-5-14 23:00</span><br>
+<span>主板BIOS不是有最佳设置嘛试试，或是BIOS里边有没有正确识别NVME固态还有是不是有单独设置NVME固态的设置。 ...</span><br>
+<span>貌似没找到，一般我就直接恢复默认设置</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>madbird302: </b><br>
+<span>这个没办法，只有最小系统测试和替换法两个办法</span><br>
+</p><p><b>litel: </b><br>
+<span>我是真的有点不相信Intel的固态会用坏的。。。</span><br>
+<span>公司那么多2018年换的新机器，里面的固态都是经销商装的。</span><br>
+<span>坏的最多的是七彩虹和影驰，然后是闪迪，最后是建兴和浦科特。。。</span><br>
+<span>Intel三星和镁光一块都没坏。。。</span><br>
+<span>当然你要是真碰上了那就走保修呗反正是3年还是5年保。</span><br>
+<span>—— 来自 Xiaomi MI 8, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p><p><b>飛0雲: </b><br>
+<span>litel 发表于 2019-5-15 08:15</span><br>
+<span>我是真的有点不相信Intel的固态会用坏的。。。</span><br>
+<span>嗯，官网查过了，5年保修</span><br>
+<span>—— 来自 Sony G8342, Android 9上的 S1Next-鹅版 v2.1.2</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1831358[0-50]</guid>
+    </item>
+  </channel>
+</rss>

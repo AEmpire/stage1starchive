@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>请问有大佬熟悉家装网络布线与器材选择吗？</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>请问有大佬熟悉家装网络布线与器材选择吗？</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 19:51:49 +0000</lastBuildDate>
+    <item>
+      <title>请问有大佬熟悉家装网络布线与器材选择吗？[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1838723-1-1.html</link>
+      <description>请问有大佬熟悉家装网络布线与器材选择吗？&#13;
+因为口子比较多
+&#13;
+我想用一个路由器+2个华为S5700不知道行不行
+&#13;
+有几个问题
+&#13;
+1、这个方案是不是科学
+&#13;
+2、s5700打算选PoE就是带供电的，但是S5700有好多各种各样的型号，不知道有什么区别有没有大佬推荐
+&#13;
+3、还有什么其他方案请大力推荐!
+&#13;
+需求是这样的，室内很多地方都需要走网线。正门，顶楼，阳台都想用监控
+&#13;
+同时座位上的网口因为希望使用需要PoE支持的网络协议（Dante音频协议）所以，网口都会使用PoE，因此整个屋子使用了两个24口PoE的交换机，选的是华为的S5700（但是有好多型号不会选）
+&#13;
+还需要路由器吗？还有什么遗漏吗？谢谢各位大大了</description>
+      <content:encoded><![CDATA[<p><b>bbokay: </b><br>
+<span>请问有大佬熟悉家装网络布线与器材选择吗？</span><br>
+<span>因为口子比较多</span><br>
+<span>我想用一个路由器+2个华为S5700不知道行不行</span><br>
+<span>有几个问题</span><br>
+<span>1、这个方案是不是科学</span><br>
+<span>2、s5700打算选PoE就是带供电的，但是S5700有好多各种各样的型号，不知道有什么区别有没有大佬推荐</span><br>
+<span>3、还有什么其他方案请大力推荐!</span><br>
+<span>需求是这样的，室内很多地方都需要走网线。正门，顶楼，阳台都想用监控</span><br>
+<span>同时座位上的网口因为希望使用需要PoE支持的网络协议（Dante音频协议）所以，网口都会使用PoE，因此整个屋子使用了两个24口PoE的交换机，选的是华为的S5700（但是有好多型号不会选）</span><br>
+<span>还需要路由器吗？还有什么遗漏吗？谢谢各位大大了</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-6-12 00:07 编辑 </span><br>
+<span>是要全口PoE还是部分先讲清楚…</span><br>
+<span>至于华为的PoE交换，AC供电那些讲真还是挺吵的，还不太好自己改风扇。另外直接一个48口好过俩24口的……</span><br>
+</p><p><b>bbokay: </b><br>
+<span>alvin051414 发表于 2019-6-11 23:52</span><br>
+<span>是要全口PoE还是部分先讲清楚…</span><br>
+<span>至于华为的PoE交换，AC供电那些讲真还是挺吵的，还不太好自己改风扇。另外 ...</span><br>
+<span>请问全部都用poe有什么影响吗？</span><br>
+<span>我听说普通设备网口都是自适应的 用一般的poe是没有问题的</span><br>
+</p><p><b>alvin051414: </b><br>
+<span>bbokay 发表于 2019-6-12 00:08</span><br>
+<span>请问全部都用poe有什么影响吗？</span><br>
+<span>我听说普通设备网口都是自适应的 用一般的poe是没有问题的 ...</span><br>
+<span>非PoE设备怼PoE口没问题，问你要不要全口PoE的另有原因的。</span><br>
+<span>1. 华为S57xx的24口PoE交换根据型号，有的只给8个、12个PoE口的，不一定全都是PoE口，随便给你个型号到时候PoE口可能会不够用的。</span><br>
+<span>2. 然后这些给的PoE还有功率的问题，单电源的交换一般就能做到全PoE口的802.3af，802.3at满供的话数量要减半的</span><br>
+</p><p><b>bbokay: </b><br>
+<span>alvin051414 发表于 2019-6-12 00:18</span><br>
+<span>非PoE设备怼PoE口没问题，问你要不要全口PoE的另有原因的。</span><br>
+<span>1. 华为S57xx的24口PoE交换根据型号，有的只 ...</span><br>
+<span>那请问48口poe尽量多的交换机设备有没有推荐呢？</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-6-12 00:54 编辑 </span><br>
+<span>bbokay 发表于 2019-6-12 00:32</span><br>
+<span>那请问48口poe尽量多的交换机设备有没有推荐呢？</span><br>
+<span>你先确定下af、at设备各有多少个…</span><br>
+<span>就给“尽量多”一条要求，总不能推你个几万的吧…</span><br>
+<span>其中监控的PoE完全可以(也推荐)靠NVR来提供，可以分开算</span><br>
+</p><p><b>evooil: </b><br>
+<span>我推荐两个24口吧 互备 一个坏了 至少还能保证大部分设备可以使用 等一两天采购也没事 </span><br>
+<span>发自我的iPhone via Saralin 2.1.7</span><br>
+</p><p><b>phyc: </b><br>
+<span>监控走百兆口poe，普通走千兆交换机</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+</p><p><b>bbokay: </b><br>
+<span>alvin051414 发表于 2019-6-12 00:52</span><br>
+<span>你先确定下af、at设备各有多少个…</span><br>
+<span>就给“尽量多”一条要求，总不能推你个几万的吧…</span><br>
+<span>请问你说的NVR是录像机吗？</span><br>
+<span>上淘宝去海康旗舰问了一下 他要求他的录像机跟摄像头成套 所以摄像头这一套算是解决了 </span><br>
+<span>另买的交换机设备只要考虑自用的poe设备就好了</span><br>
+</p><p><b>bbokay: </b><br>
+<span>phyc 发表于 2019-6-12 08:21</span><br>
+<span>监控走百兆口poe，普通走千兆交换机</span><br>
+<span>----发送自 STAGE1 App for Android.</span><br>
+<span>是的 监控的厂商也要求用他们自己的网络录像机，应该就是你说的这个意思了</span><br>
+</p><p><b>HGP: </b><br>
+<span>需求不清楚，直接列清单吧，监控头几个，电脑主机几台，其它联网设备几台？</span><br>
+<span>你一上来就24口*2的交换机………，家装超过5个摄像头的我是很少见到的。</span><br>
+<span>-- 来自 能手机投票的 Stage1官方 Android客户端</span><br>
+</p><p><b>bbokay: </b><br>
+<span>HGP 发表于 2019-6-18 10:34</span><br>
+<span>需求不清楚，直接列清单吧，监控头几个，电脑主机几台，其它联网设备几台？</span><br>
+<span>你一上来就24口*2的交换机…… ...</span><br>
+<span>电脑10台。Dante协议设备5个以内- 监控8个以内。</span><br>
+<span>wifi面板不计</span><br>
+</p><p><b>HGP: </b><br>
+<span>bbokay 发表于 2019-6-18 10:36</span><br>
+<span>电脑10台。Dante协议设备5个以内- 监控8个以内。</span><br>
+<span>wifi面板不计</span><br>
+<span>这么一看，你需要的是 一台普通全千兆POE9口或10口 交换机。加上一台普通全千兆24口交换机。</span><br>
+<span>我到目前没看出买S5700的理由在哪里？是以为几千块的交换机就更好用嘛？</span><br>
+<span>不懂你10台电脑用途，如果是工作室有特殊需求的话，最好把特殊用途说出来。</span><br>
+</p><p><b>bbokay: </b><br>
+<span>HGP 发表于 2019-6-18 16:14</span><br>
+<span>这么一看，你需要的是 一台普通全千兆POE9口或10口 交换机。加上一台普通全千兆24口交换机。</span><br>
+<span>我到目前 ...</span><br>
+<span>dante设备有一个支持交换机品牌清单 里面有华为。</span><br>
+<span>十台电脑就是工作用</span><br>
+</p><p><b>尼特geek: </b><br>
+<span>为啥不买一个16口的poe加一个普通的交换机？</span><br>
+</p><p><b>alvin051414: </b><br>
+<span> 本帖最后由 alvin051414 于 2019-6-18 18:26 编辑 </span><br>
+<span>bbokay 发表于 2019-6-18 09:35</span><br>
+<span>请问你说的NVR是录像机吗？</span><br>
+<span>上淘宝去海康旗舰问了一下 他要求他的录像机跟摄像头成套 所以摄像头这一套算 ...</span><br>
+<span>对，nvr指录像机。记得选DS-7808NB-K1/8P这种外置变压器无风扇的。海康主动散热款那噪音没法家用的…</span><br>
+<span>然后ap面板数量不多的话，可以考虑s5701-28tp-pwr-li-ac之类的，不过要先算好功率。风扇加条阻线的话噪音水平还可以…</span><br>
+</p><p><b>bbokay: </b><br>
+<span>尼特geek 发表于 2019-6-18 17:07</span><br>
+<span>为啥不买一个16口的poe加一个普通的交换机？</span><br>
+<span>Dante设备对网络有要求，他强烈推荐千兆网络，6类线这样</span><br>
+<span>其实主要就是希望楼上的工作室可以使用录音棚的Dante调音台或者其他dante设备上的信号</span><br>
+<span>抑或是一个工作室的可以及时对另外一个工作室内通过网线进行录音等</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1838723[0-50]</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ZT：空客 A300 无线电高度表 AHV.5-221 拆解</title>
+    <link>https://bbs.saraba1st.com/2b/</link>
+    <description>ZT：空客 A300 无线电高度表 AHV.5-221 拆解</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 09 Jul 2020 11:46:39 +0000</lastBuildDate>
+    <item>
+      <title>ZT：空客 A300 无线电高度表 AHV.5-221 拆解[0-50]</title>
+      <link>https://bbs.saraba1st.com/2b/thread-1942162-1-1.html</link>
+      <description>ZT：空客 A300 无线电高度表 AHV.5-221 拆解&#13;
+来自：
+&#13;
+https://tva1.sinaimg.cn/crop.0.0.459.459.50/8148ebddjw8f2jqbjz3w8j20cs0csdhv.jpg?KID=imgbed,tva&amp;Expires=1592320938&amp;ssig=R5sYJLOgjhkarminski-牙医 
+&#13;
+转载经过许可，请勿用于商业用途，版权归作者
+&#13;
+​​http://wx4.sinaimg.cn/large/8148ebddly1gftkyalz23j212w0pxnpd.jpg摸鱼很久, 本次我们来更新一个无线电高度表, 型号是 AHV.5-221. 通过搜索发现该表可能是空客A300机型上的. 由于作者本人经验不足, 专业知识匮乏, 如有错误请不吝斧正.http://wx1.sinaimg.cn/large/8148ebddly1gftky1t2a2j20rq0i44qp.jpg(图片来源自空客官网 https://www.airbus.com/aircraft/previous-generation-aircraft/a300-600.html)如图, 箭头标记的位置就是无线电高度表了.http://wx4.sinaimg.cn/large/8148ebddly1gftkyazqtnj212w0pxnpd.jpg我们来看铭牌.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkylzw3vj20m80xcb29.jpgMade in France, 正宗法国味. 生产日期是 1980-07, 这表到现在已经有 40 年了. 估计拆开的味道一定很刺激.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftky2nlfbj212w0pxqv5.jpg这个是尾部插头特写, 别看 pin 多, 实际上拆开发现用到的没几个.拆开后是这个样子, 一股铜臭味扑面而来. 味道仅次于上次拆的那个波音727压差表. 这是正面.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkycob1sj212w0pxx6p.jpg这是背面.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkybjhd7j212w0pxkjl.jpg可以看到整个表可以分成三部分, 尾部是驱动电路, 中部是驱动电机, 前部是皮带和卷带轮部分.
+&#13;
+下面的是侧面.http://wx4.sinaimg.cn/large/8148ebddly1gftkybvrfvj212w0pxb29.jpg这侧可以看到齿轮驱动部分还分了两层, 下层驱动无线电高度皮带, 上层齿轮驱动修正指示皮带和右侧的修正读数.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkylkrglj212w0pxnpd.jpg如图, 下方的带有黄色三角箭头的是修正指示, 可以通过面板上的旋钮手动调节. 上面的蓝色皮带是无线电高度. 红色的巨大挡板代表这个表 Fail 了, 因为我没给电路通电. 橙色指针则代表读数.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkycarwoj212w0pxnpd.jpg另一侧从左至右可以看到灯泡仓和灯泡的两根线(托这两根线的福这次点亮灯泡很容易就搞定了). 然后是两个巨大的皮带卷轴. 同样可以看到卷轴也有两个部分, 上面是修正, 下面是无线电高度. 然后右侧是连接器和驱动电路. 这个驱动电路上有个保险管(?不确定是不是), 上面还短接了线. 不知道是坏了还是有其他用途.
+&#13;
+我们先把电路部分拆开, 看看电路部分是什么样子.http://wx3.sinaimg.cn/large/8148ebddly1gftkya8khxj212w0pxu0x.jpg驱动电路拆下来后是这个样子.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftky33dr9j212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftky3inigj20m80xc7wh.jpg可以看到 PCB 不但古老甚至还是铝的. SIC-SAFCO 的黄色电容已经见过很多次了, 简直是空客御用. 拆开后是这个样子.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftky43g8sj212w0px1ky.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftky521s9j212w0pxx6p.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftky5f3mqj212w0px1ky.jpg应该都是电机的驱动电路. 背板是下面这两张, 很简单.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftky5tufvj212w0pxu0x.jpghttp://wx4.sinaimg.cn/large/8148ebddly1gftky67egmj212w0pxu0x.jpg电容特写. 对, 这就是我鸽了的原因, 我弄到了个健身马70Art微距镜头, 所以能更清晰的拍细节了.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftky7uhcgj212w0pxkjl.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftky8cgj0j212w0px7wi.jpg刚才说的貌似保险管的部分. 感觉更像日光灯启辉器? 里面有团东西.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftky8zqgfj212w0pxnpd.jpg这里还有个有趣的地方, 一个电阻上面绕了线圈, 我刚开始以为是电阻坏了的替代, 后来有老铁说这是为了当电感用, 涨知识了.
+&#13;
+http://wx1.sinaimg.cn/large/8148ebddly1gftky9jab7j212w0pxqv5.jpg可调元件特写, 其中一个还被压裂开了.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftky9w6o3j212w0pxqv5.jpg最后是电路部分全家福.
+&#13;
+http://wx1.sinaimg.cn/large/8148ebddly1gftky73y1yj212w0px4qq.jpg接下来拆机械元件部分.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkydud8lj212w0pxu0x.jpg顺带吐槽这个40年之后的螺丝胶依旧坚挺, 我不得不把螺丝胶扣掉才能拧动螺丝. 还可以看到其他螺丝上面的伤痕, 估计是上一个经手的老哥暴力拆解都没搞定而留下来的痕迹.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftkyedyn1j212w0pxe81.jpg可以看到齿轮上面还有轴承, 可以说是非常精细了. 不过经历了这么长时间, 还是上锈了.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftkyf41daj212w0px1ky.jpg拆掉电机部分的盖板, 齿轮是这个样子.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkyfly36j212w0pxu0x.jpg上面的跟电机直接齿合的齿轮用于驱动高度皮带, 可以看到一直连接到最下面的齿轮, 最下面的齿轮齿合的左侧还在盖板里面的那个是用于过带的滚轴. 右侧的则是驱动修正皮带的.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkyg3s9xj212w0px4qq.jpg继续全部拆解, 可以看到最上面的两个齿轮是刚才介绍过的卷带的, 然后最左上和左下的是导带轮, 中间的是过带滚轴. 最下面还可以看到调节旋钮的机械结构, 旋转会带动斜面齿轮驱动下面的齿轮进行调节. 按下去则会触发右侧的按钮用于测试. 如图, 下面是更多细节.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkyggandj212w0pxkjl.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftkygvovtj212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftkyhgrvqj212w0pxu0x.jpg可以看到下面还有个行星齿轮.
+&#13;
+http://wx1.sinaimg.cn/large/8148ebddly1gftkyhsl9rj212w0pxqv5.jpg图中最下面中间的银白色齿轮. 这个齿轮在旋转调节旋钮的时候会跟着动, 而电机运转时则不会动. 这样就做到了手动调节修正指示皮带. 而表自己运转, 由电机驱动的时候, 修正指示皮带则跟着高度皮带一起动, 不会脱节.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftkyi73i1j212w0pxb29.jpg下面是皮带卷轴细节.http://wx3.sinaimg.cn/large/8148ebddly1gftkyiicvqj212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftkyivsaaj212w0pxqv5.jpg皮带卷轴中间有个塑料隔板将高度皮带和修正指示皮带分隔开, 甚至还能看清楚左边铜柱上的霉斑... 我手动拨动皮带卷轴发现上下两部分有不同的弹簧驱动.
+&#13;
+然后是过带轮的细节.
+&#13;
+http://wx2.sinaimg.cn/large/8148ebddly1gftkyje3k7j212w0pxe81.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftkyjvksrj212w0pxb29.jpg玩过胶片相机的同学一定见过这种机械结构, 跟胶片机的卷带轮是一个道理, 齿轮的齿插入皮带的孔中来驱动皮带.
+&#13;
+后面还有个驱动 Fail Flag 的电机.
+&#13;
+http://wx1.sinaimg.cn/large/8148ebddly1gftkyk6zt1j212w0pxkjl.jpg最后再来一张整体照片.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkykoemvj212w0pxu0x.jpg由于齿轮比拆螺丝要复杂得多, 拆解需要拍照画图标记我才能重新组装回去, 而且里面还有各种弹簧. 实在是懒得拆, 所以就这样了. 考虑到锈蚀严重, 估计这个表交给修表师傅维护下可能会更好.
+&#13;
+最后是惯例的点亮时间. 这次点亮很简单. 直接可以看到灯泡的线接到了插座的 D, g pin 上.
+&#13;
+http://wx3.sinaimg.cn/large/8148ebddly1gftkyl74rlj212w0pxu0x.jpg直接怼个5V直流. 搞定. 老铁们来品味下40年陈酿的辉光.
+&#13;
+http://wx4.sinaimg.cn/large/8148ebddly1gftkyd0dn8j20m80xcb29.jpghttp://wx2.sinaimg.cn/large/8148ebddly1gftkyde3w1j20m80xc1ig.jpg以上, 感谢观看, 我们下期再见.</description>
+      <content:encoded><![CDATA[<p><b>机吉斯卡: </b><br>
+<span>ZT：空客 A300 无线电高度表 AHV.5-221 拆解</span><br>
+<span>来自：</span><br>
+<span>https://tva1.sinaimg.cn/crop.0.0.459.459.50/8148ebddjw8f2jqbjz3w8j20cs0csdhv.jpg?KID=imgbed,tva&Expires=1592320938&ssig=R5sYJLOgjhkarminski-牙医 </span><br>
+<span>转载经过许可，请勿用于商业用途，版权归作者</span><br>
+<span>​​http://wx4.sinaimg.cn/large/8148ebddly1gftkyalz23j212w0pxnpd.jpg摸鱼很久, 本次我们来更新一个无线电高度表, 型号是 AHV.5-221. 通过搜索发现该表可能是空客A300机型上的. 由于作者本人经验不足, 专业知识匮乏, 如有错误请不吝斧正.http://wx1.sinaimg.cn/large/8148ebddly1gftky1t2a2j20rq0i44qp.jpg(图片来源自空客官网 https://www.airbus.com/aircraft/previous-generation-aircraft/a300-600.html)如图, 箭头标记的位置就是无线电高度表了.http://wx4.sinaimg.cn/large/8148ebddly1gftkyazqtnj212w0pxnpd.jpg我们来看铭牌.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkylzw3vj20m80xcb29.jpgMade in France, 正宗法国味. 生产日期是 1980-07, 这表到现在已经有 40 年了. 估计拆开的味道一定很刺激.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftky2nlfbj212w0pxqv5.jpg这个是尾部插头特写, 别看 pin 多, 实际上拆开发现用到的没几个.拆开后是这个样子, 一股铜臭味扑面而来. 味道仅次于上次拆的那个波音727压差表. 这是正面.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkycob1sj212w0pxx6p.jpg这是背面.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkybjhd7j212w0pxkjl.jpg可以看到整个表可以分成三部分, 尾部是驱动电路, 中部是驱动电机, 前部是皮带和卷带轮部分.</span><br>
+<span>下面的是侧面.http://wx4.sinaimg.cn/large/8148ebddly1gftkybvrfvj212w0pxb29.jpg这侧可以看到齿轮驱动部分还分了两层, 下层驱动无线电高度皮带, 上层齿轮驱动修正指示皮带和右侧的修正读数.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkylkrglj212w0pxnpd.jpg如图, 下方的带有黄色三角箭头的是修正指示, 可以通过面板上的旋钮手动调节. 上面的蓝色皮带是无线电高度. 红色的巨大挡板代表这个表 Fail 了, 因为我没给电路通电. 橙色指针则代表读数.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkycarwoj212w0pxnpd.jpg另一侧从左至右可以看到灯泡仓和灯泡的两根线(托这两根线的福这次点亮灯泡很容易就搞定了). 然后是两个巨大的皮带卷轴. 同样可以看到卷轴也有两个部分, 上面是修正, 下面是无线电高度. 然后右侧是连接器和驱动电路. 这个驱动电路上有个保险管(?不确定是不是), 上面还短接了线. 不知道是坏了还是有其他用途.</span><br>
+<span>我们先把电路部分拆开, 看看电路部分是什么样子.http://wx3.sinaimg.cn/large/8148ebddly1gftkya8khxj212w0pxu0x.jpg驱动电路拆下来后是这个样子.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftky33dr9j212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftky3inigj20m80xc7wh.jpg可以看到 PCB 不但古老甚至还是铝的. SIC-SAFCO 的黄色电容已经见过很多次了, 简直是空客御用. 拆开后是这个样子.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftky43g8sj212w0px1ky.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftky521s9j212w0pxx6p.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftky5f3mqj212w0px1ky.jpg应该都是电机的驱动电路. 背板是下面这两张, 很简单.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftky5tufvj212w0pxu0x.jpghttp://wx4.sinaimg.cn/large/8148ebddly1gftky67egmj212w0pxu0x.jpg电容特写. 对, 这就是我鸽了的原因, 我弄到了个健身马70Art微距镜头, 所以能更清晰的拍细节了.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftky7uhcgj212w0pxkjl.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftky8cgj0j212w0px7wi.jpg刚才说的貌似保险管的部分. 感觉更像日光灯启辉器? 里面有团东西.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftky8zqgfj212w0pxnpd.jpg这里还有个有趣的地方, 一个电阻上面绕了线圈, 我刚开始以为是电阻坏了的替代, 后来有老铁说这是为了当电感用, 涨知识了.</span><br>
+<span>http://wx1.sinaimg.cn/large/8148ebddly1gftky9jab7j212w0pxqv5.jpg可调元件特写, 其中一个还被压裂开了.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftky9w6o3j212w0pxqv5.jpg最后是电路部分全家福.</span><br>
+<span>http://wx1.sinaimg.cn/large/8148ebddly1gftky73y1yj212w0px4qq.jpg接下来拆机械元件部分.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkydud8lj212w0pxu0x.jpg顺带吐槽这个40年之后的螺丝胶依旧坚挺, 我不得不把螺丝胶扣掉才能拧动螺丝. 还可以看到其他螺丝上面的伤痕, 估计是上一个经手的老哥暴力拆解都没搞定而留下来的痕迹.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftkyedyn1j212w0pxe81.jpg可以看到齿轮上面还有轴承, 可以说是非常精细了. 不过经历了这么长时间, 还是上锈了.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftkyf41daj212w0px1ky.jpg拆掉电机部分的盖板, 齿轮是这个样子.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkyfly36j212w0pxu0x.jpg上面的跟电机直接齿合的齿轮用于驱动高度皮带, 可以看到一直连接到最下面的齿轮, 最下面的齿轮齿合的左侧还在盖板里面的那个是用于过带的滚轴. 右侧的则是驱动修正皮带的.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkyg3s9xj212w0px4qq.jpg继续全部拆解, 可以看到最上面的两个齿轮是刚才介绍过的卷带的, 然后最左上和左下的是导带轮, 中间的是过带滚轴. 最下面还可以看到调节旋钮的机械结构, 旋转会带动斜面齿轮驱动下面的齿轮进行调节. 按下去则会触发右侧的按钮用于测试. 如图, 下面是更多细节.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkyggandj212w0pxkjl.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftkygvovtj212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftkyhgrvqj212w0pxu0x.jpg可以看到下面还有个行星齿轮.</span><br>
+<span>http://wx1.sinaimg.cn/large/8148ebddly1gftkyhsl9rj212w0pxqv5.jpg图中最下面中间的银白色齿轮. 这个齿轮在旋转调节旋钮的时候会跟着动, 而电机运转时则不会动. 这样就做到了手动调节修正指示皮带. 而表自己运转, 由电机驱动的时候, 修正指示皮带则跟着高度皮带一起动, 不会脱节.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftkyi73i1j212w0pxb29.jpg下面是皮带卷轴细节.http://wx3.sinaimg.cn/large/8148ebddly1gftkyiicvqj212w0pxu0x.jpghttp://wx1.sinaimg.cn/large/8148ebddly1gftkyivsaaj212w0pxqv5.jpg皮带卷轴中间有个塑料隔板将高度皮带和修正指示皮带分隔开, 甚至还能看清楚左边铜柱上的霉斑... 我手动拨动皮带卷轴发现上下两部分有不同的弹簧驱动.</span><br>
+<span>然后是过带轮的细节.</span><br>
+<span>http://wx2.sinaimg.cn/large/8148ebddly1gftkyje3k7j212w0pxe81.jpghttp://wx3.sinaimg.cn/large/8148ebddly1gftkyjvksrj212w0pxb29.jpg玩过胶片相机的同学一定见过这种机械结构, 跟胶片机的卷带轮是一个道理, 齿轮的齿插入皮带的孔中来驱动皮带.</span><br>
+<span>后面还有个驱动 Fail Flag 的电机.</span><br>
+<span>http://wx1.sinaimg.cn/large/8148ebddly1gftkyk6zt1j212w0pxkjl.jpg最后再来一张整体照片.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkykoemvj212w0pxu0x.jpg由于齿轮比拆螺丝要复杂得多, 拆解需要拍照画图标记我才能重新组装回去, 而且里面还有各种弹簧. 实在是懒得拆, 所以就这样了. 考虑到锈蚀严重, 估计这个表交给修表师傅维护下可能会更好.</span><br>
+<span>最后是惯例的点亮时间. 这次点亮很简单. 直接可以看到灯泡的线接到了插座的 D, g pin 上.</span><br>
+<span>http://wx3.sinaimg.cn/large/8148ebddly1gftkyl74rlj212w0pxu0x.jpg直接怼个5V直流. 搞定. 老铁们来品味下40年陈酿的辉光.</span><br>
+<span>http://wx4.sinaimg.cn/large/8148ebddly1gftkyd0dn8j20m80xcb29.jpghttp://wx2.sinaimg.cn/large/8148ebddly1gftkyde3w1j20m80xc1ig.jpg以上, 感谢观看, 我们下期再见.</span><br>
+</p><p><b>Yui_hirasawa: </b><br>
+<img src="https://p.sda1.dev/0/f926342ee67fdfb9d1a5a6c6d2d9d526/HupuBBS_200224113536-1242822577.png" title="https://p.sda1.dev/0/f926342ee67fdfb9d1a5a6c6d2d9d526/HupuBBS_200224113536-1242822577.png"><br>
+</p><p><b>爱夏: </b><br>
+<span>昨天刚在知乎看了。这玩意要放现在，做起来就简单多了</span><br>
+</p><p><b>董卓: </b><br>
+<span>那一大坨齿轮盘有点味道啊</span><br>
+<span>来几个微距近景特写加背景虚娣掉的话，会更有味道？</span><br>
+</p><p><b>LANHSI: </b><br>
+<span>看错了草</span><br>
+<span>以为是空客A300拆解</span><br>
+</p><p><b>libratest: </b><br>
+<span>非抬扛，这个是泰雷兹Thales的产品，不是空客生产的。</span><br>
+<span>不过Thales是空客常用的电子件供应商了</span><br>
+</p><p><b>用户名已注册: </b><br>
+<span>好文欣赏！</span><br>
+</p><p><b>gofbayrf: </b><br>
+<span> 為什麽要那麽多零件LCD在空中不能用?</span><br>
+</p><p><b>benjin: </b><br>
+<span>gofbayrf 发表于 2020-6-17 10:27</span><br>
+<span>為什麽要那麽多零件LCD在空中不能用?</span><br>
+<span>生产日期1980年7月。。。。。LCD？</span><br>
+</p><p><b>dafangwoo: </b><br>
+<span>几乎没看懂，但看着拆解图片和最后再次通电，有一种表现人类技术伟大的史诗感</span><br>
+<span>以及，脑中久违地响起I am the bone of my ... </span><br>
+</p><p><b>爱夏: </b><br>
+<span> 本帖最后由 爱夏 于 2020-6-17 20:38 编辑 </span><br>
+<span>benjin 发表于 2020-6-17 17:49</span><br>
+<span>生产日期1980年7月。。。。。LCD？</span><br>
+<span>其实它都用了数字集成电路，完全可以上LED数码管显示的</span><br>
+<span>https://www.radiomuseum.org/r/le ... meter_ldm_853a.html</span><br>
+<span>这里有个年份接近的万用表就用了LED数字显示</span><br>
+<span>FLUKE官网这样说（这个还是手持，用LCD的，像计算器那样）：</span><br>
+<span>Digital multimeters long ago replaced needle-based **og meters due to their ability to measure with greater accuracy, reliability and increased impedance. Fluke introduced its first digital multimeter in 1977.</span><br>
+</p><p><b>benjin: </b><br>
+<span>爱夏 发表于 2020-6-17 20:36</span><br>
+<span>其实它都用了数字集成电路，完全可以上LED数码管显示的</span><br>
+<span>https://www.radiomuseum.org/r/le ... meter_ldm_ ...</span><br>
+<span>老实说，那个年头的玩意说要用LED数字显示我可以理解，但是要用LCD那就太勉强了，虽然不是说那时候没有LCD</span><br>
+</p><p><b>激萌的萝莉: </b><br>
+<span>健身马</span><br>
+</p><p><b>kvll32: </b><br>
+<span> benjin 发表于 2020-6-18 04:11 引用:爱夏 发表于 2020-6-17 20:36 其实它都用了数字集成电路，完全可以上LED数码管显示的 https://www.radiomuseum.org/r/le ... meter_ldm_ ... 老实说，那个年头的玩意说要用LED数字显示我可以理解，但是要用LCD那就太勉强了，虽然不是说那时候没有LCD </span><br>
+<span>这问题很好解释，航空器这种东西设计试验流程太长了，A300客机是1969开始研发设计的，它的技术水平就被限制在1969年。所以即便是1989年下线的A300，上面的零件都和20年前一样。因为重新获得航空局认证和飞行员培训是非常麻烦的事情，就算可以costdown，民航客机也不会更新出改款，——波音公司除外</span><br>
+</p><p><b>爱夏: </b><br>
+<span> 本帖最后由 爱夏 于 2020-6-18 16:10 编辑 </span><br>
+<span>kvll32 发表于 2020-6-18 14:03</span><br>
+<span>这问题很好解释，航空器这种东西设计试验流程太长了，A300客机是1969开始研发设计的，它的技术水平就被限 ...</span><br>
+<span>LED是62年实用化的...而且飞机并不是完全不改款，航电设备更新比如后期型号CRT换LCD还是不少的</span><br>
+<span>这上面的设计应该只是从现成哪个产品里挪过来的</span><br>
+<span>另外说一句这个设备里用了CD4000系列数字集成电路，这个系列是68年才上市...</span><br>
+<span>The 4000 series was introduced as the CD4000 COS/MOS series in 1968 by RCA</span><br>
+</p><p><b>gearh: </b><br>
+<span>不得不说,这个修长倒角的模块感,还有表盘的配色都太好看了</span><br>
+</p><p><b>kvll32: </b><br>
+<span> 本帖最后由 kvll32 于 2020-6-18 20:17 编辑 </span><br>
+<span>爱夏 发表于 2020-6-18 16:06</span><br>
+<span>LED是62年实用化的...而且飞机并不是完全不改款，航电设备更新比如后期型号CRT换LCD还是不少的</span><br>
+<span>这上面的设 ...</span><br>
+<span>航空器稳定压倒一切，不会用刚出现不久的新技术</span><br>
+<span>沿用旧设计也很常见</span><br>
+<span>另外航电设备更新就需要重新训练飞行员，改动大还要重新申请许可证，对航空公司来说是要耗成本的，就算有后期航电更新的版本，他们还是会下旧型号的订单。</span><br>
+<span>波音737max就是因为大改之后忽悠美国民航局自己是机型小改，不需要重新认证和训练飞行员，为了达成目的连说明书都没改，最后酿成大错，导致悲剧的问题点就是航电系统。另外在1969年集成电路不是新技术，LED妥妥的是新技术。CD4000是新产品，不是新技术。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>kvll32 发表于 2020-6-18 20:10</span><br>
+<span>航空器稳定压倒一切，不会用刚出现不久的新技术</span><br>
+<span>沿用旧设计也很常见</span><br>
+<span>另外航电设备更新就需要重新训练飞行 ...</span><br>
+<span>CD4000系列作为最早的CMOS数字集成电路不是新技术那什么算新技术？</span><br>
+<span>从原理上讲，老一代的74系列TTL逻辑才是更可靠更抗干扰，虽然那个的商品化其实也就是比CD4000早个三五年而已，随便选哪个都说不上是什么有多年成品经验，只能是一边提要求一边开发设备一起搞</span><br>
+</p><p><b>kvll32: </b><br>
+<span>爱夏 发表于 2020-6-18 21:59</span><br>
+<span>CD4000系列作为最早的CMOS数字集成电路不是新技术那什么算新技术？</span><br>
+<span>从原理上讲，老一代的74系列TTL逻辑才 ...</span><br>
+<span>1969年</span><br>
+<span>一个是连照明都很难胜任，只有红色一种颜色的LED灯泡，能显示数字的LED显示屏还没问世</span><br>
+<span>一个是半导体集成电路发展了十几年后的商业产品</span><br>
+<span>你说这两个是一个年代的技术，行，你说得对。</span><br>
+</p><p><b>爱夏: </b><br>
+<span>kvll32 发表于 2020-6-19 16:51</span><br>
+<span>1969年</span><br>
+<span>一个是连照明都很难胜任，只有红色一种颜色的LED灯泡，能显示数字的LED显示屏还没问世</span><br>
+<span>一个是半导 ...</span><br>
+<span>集成电路59年发明，64年量产，就这还是bipolar的，CMOS前面说了要到68年，你说到69年商业十几年那就商业十几年吧</span><br>
+</p><p><b>bushfu: </b><br>
+<span>这东西都能杠也算泥潭特色</span><br>
+</p><p><b>神知道的sjd: </b><br>
+<span>这玩意的工作原理是啥谁能说一下</span><br>
+</p><p><b>kvll32: </b><br>
+<span> 爱夏 发表于 2020-6-19 17:25 引用:kvll32 发表于 2020-6-19 16:51 1969年 一个是连照明都很难胜任，只有红色一种颜色的LED灯泡，能显示数字的LED显示屏还没问世 一个是半导 ... 集成电路59年发明，64年量产，就这还是bipolar的，CMOS前面说了要到68年，你说到69年商业十几年那就商业十几年吧 </span><br>
+<span>发展十几年后的商业产品</span><br>
+<span>商业十几年的产品</span><br>
+<span>你要抬就抬吧，被别来技术贴里找杠</span><br>
+</p><p><b>yst234: </b><br>
+<span>牙医老哥这段时间长期沉迷旧航空零件</span><br>
+<span>啥时候再写写洋垃圾硬件啊  我就在他那里了解的万兆卡、Infiniband 之类的东西</span><br>
+</p><p><b>jamboo: </b><br>
+<span>好评加鹅！</span><br>
+</p>]]></content:encoded>
+      <guid isPermaLink="false">1942162[0-50]</guid>
+    </item>
+  </channel>
+</rss>
